@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 20,
                 "end": 26,
                 "raw": "\"_sym\"",
-                "value": "_sym"
+                "value": "_sym",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -168,7 +170,9 @@ __ESTREE_TEST__:PASS:
                           "start": 117,
                           "end": 121,
                           "raw": "\"ok\"",
-                          "value": "ok"
+                          "value": "ok",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -282,7 +286,9 @@ __ESTREE_TEST__:PASS:
                           "start": 190,
                           "end": 195,
                           "raw": "\"yep\"",
-                          "value": "yep"
+                          "value": "yep",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     },

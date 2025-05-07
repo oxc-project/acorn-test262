@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
                     "start": 72,
                     "end": 76,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -139,7 +141,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 28,
           "raw": "'./file1'",
-          "value": "./file1"
+          "value": "./file1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

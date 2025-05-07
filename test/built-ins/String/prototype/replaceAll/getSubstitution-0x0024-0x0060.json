@@ -23,7 +23,9 @@
             "start": 2185,
             "end": 2252,
             "value": "Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.",
-            "raw": "'Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.'"
+            "raw": "'Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,14 +95,18 @@
               "start": 2292,
               "end": 2301,
               "value": "ninguém",
-              "raw": "'ninguém'"
+              "raw": "'ninguém'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2303,
               "end": 2307,
               "value": "$`",
-              "raw": "'$`'"
+              "raw": "'$`'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -146,7 +152,9 @@
             "start": 2335,
             "end": 2413,
             "value": "Ninguém é igual a Ninguém é igual a . Todo o ser humano é um estranho ímpar.",
-            "raw": "'Ninguém é igual a Ninguém é igual a . Todo o ser humano é um estranho ímpar.'"
+            "raw": "'Ninguém é igual a Ninguém é igual a . Todo o ser humano é um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -196,14 +204,18 @@
               "start": 2441,
               "end": 2450,
               "value": "Ninguém",
-              "raw": "'Ninguém'"
+              "raw": "'Ninguém'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2452,
               "end": 2456,
               "value": "$`",
-              "raw": "'$`'"
+              "raw": "'$`'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -249,7 +261,9 @@
             "start": 2484,
             "end": 2544,
             "value": " é igual a ninguém. Todo o ser humano é um estranho ímpar.",
-            "raw": "' é igual a ninguém. Todo o ser humano é um estranho ímpar.'"
+            "raw": "' é igual a ninguém. Todo o ser humano é um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,14 +313,18 @@
               "start": 2572,
               "end": 2581,
               "value": "ninguém",
-              "raw": "'ninguém'"
+              "raw": "'ninguém'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2583,
               "end": 2589,
               "value": "($`)",
-              "raw": "'($`)'"
+              "raw": "'($`)'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -352,7 +370,9 @@
             "start": 2617,
             "end": 2697,
             "value": "Ninguém é igual a (Ninguém é igual a ). Todo o ser humano é um estranho ímpar.",
-            "raw": "'Ninguém é igual a (Ninguém é igual a ). Todo o ser humano é um estranho ímpar.'"
+            "raw": "'Ninguém é igual a (Ninguém é igual a ). Todo o ser humano é um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,14 +422,18 @@
               "start": 2725,
               "end": 2728,
               "value": "é",
-              "raw": "'é'"
+              "raw": "'é'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2730,
               "end": 2736,
               "value": "($`)",
-              "raw": "'($`)'"
+              "raw": "'($`)'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -455,7 +479,9 @@
             "start": 2764,
             "end": 2916,
             "value": "Ningu(Ningu)m (Ninguém ) igual a ningu(Ninguém é igual a ningu)m. Todo o ser humano (Ninguém é igual a ninguém. Todo o ser humano ) um estranho ímpar.",
-            "raw": "'Ningu(Ningu)m (Ninguém ) igual a ningu(Ninguém é igual a ningu)m. Todo o ser humano (Ninguém é igual a ninguém. Todo o ser humano ) um estranho ímpar.'"
+            "raw": "'Ningu(Ningu)m (Ninguém ) igual a ningu(Ninguém é igual a ningu)m. Todo o ser humano (Ninguém é igual a ninguém. Todo o ser humano ) um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -505,14 +531,18 @@
               "start": 2944,
               "end": 2947,
               "value": "é",
-              "raw": "'é'"
+              "raw": "'é'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2949,
               "end": 2958,
               "value": "($`) $`",
-              "raw": "'($`) $`'"
+              "raw": "'($`) $`'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -558,7 +588,9 @@
             "start": 2986,
             "end": 3223,
             "value": "Ningu(Ningu) Ningum (Ninguém ) Ninguém  igual a ningu(Ninguém é igual a ningu) Ninguém é igual a ningum. Todo o ser humano (Ninguém é igual a ninguém. Todo o ser humano ) Ninguém é igual a ninguém. Todo o ser humano  um estranho ímpar.",
-            "raw": "'Ningu(Ningu) Ningum (Ninguém ) Ninguém  igual a ningu(Ninguém é igual a ningu) Ninguém é igual a ningum. Todo o ser humano (Ninguém é igual a ninguém. Todo o ser humano ) Ninguém é igual a ninguém. Todo o ser humano  um estranho ímpar.'"
+            "raw": "'Ningu(Ningu) Ningum (Ninguém ) Ninguém  igual a ningu(Ninguém é igual a ningu) Ninguém é igual a ningum. Todo o ser humano (Ninguém é igual a ninguém. Todo o ser humano ) Ninguém é igual a ninguém. Todo o ser humano  um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

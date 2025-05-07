@@ -91,7 +91,9 @@
                 "start": 396,
                 "end": 397,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -181,7 +183,9 @@
             "start": 459,
             "end": 505,
             "value": "should not subtract from receiver with years",
-            "raw": "\"should not subtract from receiver with years\""
+            "raw": "\"should not subtract from receiver with years\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -231,14 +235,18 @@
                 "start": 550,
                 "end": 551,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 553,
                 "end": 554,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -328,7 +336,9 @@
             "start": 617,
             "end": 664,
             "value": "should not subtract from receiver with months",
-            "raw": "\"should not subtract from receiver with months\""
+            "raw": "\"should not subtract from receiver with months\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -378,21 +388,27 @@
                 "start": 708,
                 "end": 709,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 711,
                 "end": 712,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 714,
                 "end": 715,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -482,7 +498,9 @@
             "start": 777,
             "end": 823,
             "value": "should not subtract from receiver with weeks",
-            "raw": "\"should not subtract from receiver with weeks\""
+            "raw": "\"should not subtract from receiver with weeks\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -532,28 +550,36 @@
                 "start": 860,
                 "end": 861,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 863,
                 "end": 864,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 866,
                 "end": 867,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 869,
                 "end": 870,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -643,7 +669,9 @@
             "start": 930,
             "end": 971,
             "value": "should not subtract duration with years",
-            "raw": "\"should not subtract duration with years\""
+            "raw": "\"should not subtract duration with years\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -731,7 +759,9 @@
             "start": 1031,
             "end": 1073,
             "value": "should not subtract duration with months",
-            "raw": "\"should not subtract duration with months\""
+            "raw": "\"should not subtract duration with months\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -819,7 +849,9 @@
             "start": 1132,
             "end": 1173,
             "value": "should not subtract duration with weeks",
-            "raw": "\"should not subtract duration with weeks\""
+            "raw": "\"should not subtract duration with weeks\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -915,7 +947,9 @@
                         "start": 1230,
                         "end": 1231,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -930,7 +964,9 @@
             "start": 1236,
             "end": 1281,
             "value": "should not subtract property bag with years",
-            "raw": "\"should not subtract property bag with years\""
+            "raw": "\"should not subtract property bag with years\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1026,7 +1062,9 @@
                         "start": 1338,
                         "end": 1339,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1041,7 +1079,9 @@
             "start": 1344,
             "end": 1390,
             "value": "should not subtract property bag with months",
-            "raw": "\"should not subtract property bag with months\""
+            "raw": "\"should not subtract property bag with months\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1137,7 +1177,9 @@
                         "start": 1446,
                         "end": 1447,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1152,7 +1194,9 @@
             "start": 1452,
             "end": 1497,
             "value": "should not subtract property bag with weeks",
-            "raw": "\"should not subtract property bag with weeks\""
+            "raw": "\"should not subtract property bag with weeks\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1230,7 +1274,9 @@
                   "start": 1545,
                   "end": 1550,
                   "value": "P1Y",
-                  "raw": "'P1Y'"
+                  "raw": "'P1Y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1241,7 +1287,9 @@
             "start": 1553,
             "end": 1592,
             "value": "should not subtract string with years",
-            "raw": "\"should not subtract string with years\""
+            "raw": "\"should not subtract string with years\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1319,7 +1367,9 @@
                   "start": 1639,
                   "end": 1644,
                   "value": "P1M",
-                  "raw": "'P1M'"
+                  "raw": "'P1M'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1330,7 +1380,9 @@
             "start": 1647,
             "end": 1687,
             "value": "should not subtract string with months",
-            "raw": "\"should not subtract string with months\""
+            "raw": "\"should not subtract string with months\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1408,7 +1460,9 @@
                   "start": 1734,
                   "end": 1739,
                   "value": "P1W",
-                  "raw": "'P1W'"
+                  "raw": "'P1W'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1419,7 +1473,9 @@
             "start": 1742,
             "end": 1781,
             "value": "should not subtract string with weeks",
-            "raw": "\"should not subtract string with weeks\""
+            "raw": "\"should not subtract string with weeks\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

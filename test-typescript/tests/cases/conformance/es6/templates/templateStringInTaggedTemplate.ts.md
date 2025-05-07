@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 47,
               "end": 51,
               "raw": "\"AM\"",
-              "value": "AM"
+              "value": "AM",
+              "regex": null,
+              "bigint": null
             }
           ],
           "quasis": [

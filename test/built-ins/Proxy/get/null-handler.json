@@ -264,7 +264,9 @@
                       "start": 434,
                       "end": 440,
                       "value": "attr",
-                      "raw": "'attr'"
+                      "raw": "'attr'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

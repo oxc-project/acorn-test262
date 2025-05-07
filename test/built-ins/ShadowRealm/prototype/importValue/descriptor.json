@@ -42,7 +42,9 @@
             "start": 380,
             "end": 393,
             "value": "importValue",
-            "raw": "\"importValue\""
+            "raw": "\"importValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -67,7 +69,9 @@
                   "start": 411,
                   "end": 416,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -89,7 +93,9 @@
                   "start": 430,
                   "end": 434,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -111,7 +117,9 @@
                   "start": 452,
                   "end": 456,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

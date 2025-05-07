@@ -36,7 +36,9 @@
                   "start": 1130,
                   "end": 1149,
                   "value": "first declaration",
-                  "raw": "'first declaration'"
+                  "raw": "'first declaration'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -76,7 +78,9 @@
                   "start": 1166,
                   "end": 1180,
                   "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "raw": "'switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -84,7 +88,9 @@
                   "start": 1185,
                   "end": 1197,
                   "value": "  default:",
-                  "raw": "'  default:'"
+                  "raw": "'  default:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -93,7 +99,9 @@
                 "start": 1202,
                 "end": 1253,
                 "value": "    function f() { return \"second declaration\"; }",
-                "raw": "'    function f() { return \"second declaration\"; }'"
+                "raw": "'    function f() { return \"second declaration\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -102,7 +110,9 @@
               "start": 1258,
               "end": 1265,
               "value": "}  ",
-              "raw": "'}\\\n  '"
+              "raw": "'}\\\n  '",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -155,7 +165,9 @@
             "start": 1297,
             "end": 1307,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +219,9 @@
             "start": 1332,
             "end": 1352,
             "value": "second declaration",
-            "raw": "'second declaration'"
+            "raw": "'second declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

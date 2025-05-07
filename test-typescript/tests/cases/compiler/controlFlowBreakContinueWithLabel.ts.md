@@ -302,7 +302,9 @@ __ESTREE_TEST__:PASS:
           "start": 59,
           "end": 63,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       },
       "label": {

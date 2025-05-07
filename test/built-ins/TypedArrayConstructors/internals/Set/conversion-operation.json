@@ -132,7 +132,9 @@
                         "start": 1993,
                         "end": 1994,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -188,7 +190,9 @@
                           "start": 2032,
                           "end": 2033,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -204,7 +208,9 @@
                         "start": 2046,
                         "end": 2113,
                         "value": "The value of sample[0] is expected to equal the value of expected",
-                        "raw": "'The value of sample[0] is expected to equal the value of expected'"
+                        "raw": "'The value of sample[0] is expected to equal the value of expected'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

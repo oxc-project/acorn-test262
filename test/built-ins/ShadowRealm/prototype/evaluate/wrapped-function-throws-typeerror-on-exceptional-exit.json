@@ -75,14 +75,18 @@
             "start": 381,
             "end": 391,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 468,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -231,7 +235,9 @@
                             "start": 750,
                             "end": 755,
                             "value": "ahh",
-                            "raw": "\"ahh\""
+                            "raw": "\"ahh\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -248,14 +254,18 @@
             "start": 764,
             "end": 768,
             "value": "ok",
-            "raw": "'ok'"
+            "raw": "'ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 876,
             "value": "WrappedFunction throws TypeError (from the calling realm) if the wrapped callable throws any exception",
-            "raw": "'WrappedFunction throws TypeError (from the calling realm) if the wrapped callable throws any exception'"
+            "raw": "'WrappedFunction throws TypeError (from the calling realm) if the wrapped callable throws any exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +347,9 @@
                     "start": 928,
                     "end": 963,
                     "value": "() => { throw new Error(\"ahh\"); }",
-                    "raw": "'() => { throw new Error(\"ahh\"); }'"
+                    "raw": "'() => { throw new Error(\"ahh\"); }'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -351,7 +363,9 @@
             "start": 970,
             "end": 1049,
             "value": "WrappedFunction throws TypeError if the wrapped callable throws any exception",
-            "raw": "'WrappedFunction throws TypeError if the wrapped callable throws any exception'"
+            "raw": "'WrappedFunction throws TypeError if the wrapped callable throws any exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -101,6 +101,7 @@
                                 "end": 1283,
                                 "value": null,
                                 "raw": "8n",
+                                "regex": null,
                                 "bigint": "8"
                               }
                             ],
@@ -120,7 +121,9 @@
                         "start": 1306,
                         "end": 1339,
                         "value": "does not fill an empty instance",
-                        "raw": "\"does not fill an empty instance\""
+                        "raw": "\"does not fill an empty instance\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -182,6 +185,7 @@
                                         "end": 1383,
                                         "value": null,
                                         "raw": "0n",
+                                        "regex": null,
                                         "bigint": "0"
                                       },
                                       {
@@ -190,6 +194,7 @@
                                         "end": 1387,
                                         "value": null,
                                         "raw": "0n",
+                                        "regex": null,
                                         "bigint": "0"
                                       },
                                       {
@@ -198,6 +203,7 @@
                                         "end": 1391,
                                         "value": null,
                                         "raw": "0n",
+                                        "regex": null,
                                         "bigint": "0"
                                       }
                                     ]
@@ -220,6 +226,7 @@
                                 "end": 1401,
                                 "value": null,
                                 "raw": "8n",
+                                "regex": null,
                                 "bigint": "8"
                               }
                             ],
@@ -236,6 +243,7 @@
                                 "end": 1407,
                                 "value": null,
                                 "raw": "8n",
+                                "regex": null,
                                 "bigint": "8"
                               },
                               {
@@ -244,6 +252,7 @@
                                 "end": 1411,
                                 "value": null,
                                 "raw": "8n",
+                                "regex": null,
                                 "bigint": "8"
                               },
                               {
@@ -252,6 +261,7 @@
                                 "end": 1415,
                                 "value": null,
                                 "raw": "8n",
+                                "regex": null,
                                 "bigint": "8"
                               }
                             ]
@@ -264,7 +274,9 @@
                         "start": 1423,
                         "end": 1476,
                         "value": "Default start and end indexes are 0 and this.length",
-                        "raw": "\"Default start and end indexes are 0 and this.length\""
+                        "raw": "\"Default start and end indexes are 0 and this.length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

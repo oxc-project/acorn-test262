@@ -109,7 +109,9 @@
             "start": 544,
             "end": 554,
             "value": "URIError",
-            "raw": "'URIError'"
+            "raw": "'URIError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

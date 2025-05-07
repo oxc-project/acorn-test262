@@ -191,7 +191,9 @@
             "start": 723,
             "end": 728,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,14 +238,18 @@
             "start": 756,
             "end": 760,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 791,
             "value": "WeakSet#delete returns true",
-            "raw": "'WeakSet#delete returns true'"
+            "raw": "'WeakSet#delete returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

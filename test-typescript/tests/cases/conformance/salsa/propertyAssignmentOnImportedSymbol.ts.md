@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 29,
         "raw": "'./mod1'",
-        "value": "./mod1"
+        "value": "./mod1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -136,7 +138,9 @@ __ESTREE_TEST__:PASS:
           "start": 45,
           "end": 46,
           "raw": "4",
-          "value": 4
+          "value": 4,
+          "regex": null,
+          "bigint": null
         }
       }
     }

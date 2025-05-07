@@ -47,7 +47,9 @@
                 "start": 469,
                 "end": 476,
                 "value": "en-us",
-                "raw": "\"en-us\""
+                "raw": "\"en-us\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -190,7 +192,9 @@
             "start": 597,
             "end": 636,
             "value": "Should create a new object each time.",
-            "raw": "\"Should create a new object each time.\""
+            "raw": "\"Should create a new object each time.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

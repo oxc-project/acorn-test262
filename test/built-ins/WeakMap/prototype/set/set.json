@@ -75,14 +75,18 @@
             "start": 411,
             "end": 421,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 469,
             "value": "typeof WeakMap.prototype.set is \"function\"",
-            "raw": "'typeof WeakMap.prototype.set is \"function\"'"
+            "raw": "'typeof WeakMap.prototype.set is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 508,
             "end": 513,
             "value": "set",
-            "raw": "'set'"
+            "raw": "'set'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 529,
                   "end": 533,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 549,
                   "end": 554,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 572,
                   "end": 576,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

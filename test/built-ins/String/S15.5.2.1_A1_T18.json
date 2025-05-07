@@ -34,7 +34,9 @@
                 "start": 585,
                 "end": 607,
                 "value": 1e+21,
-                "raw": "1000000000000000000000"
+                "raw": "1000000000000000000000",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -69,7 +71,9 @@
           "start": 720,
           "end": 728,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -101,7 +105,9 @@
                     "start": 757,
                     "end": 858,
                     "value": "#1: __str = new String(1000000000000000000000); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(1000000000000000000000); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String(1000000000000000000000); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -189,7 +195,9 @@
                     "start": 1113,
                     "end": 1224,
                     "value": "#1.5: __str = new String(1000000000000000000000); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(1000000000000000000000); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(1000000000000000000000); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -239,7 +247,9 @@
           "start": 1434,
           "end": 1441,
           "value": "1e+21",
-          "raw": "\"1e+21\""
+          "raw": "\"1e+21\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -271,7 +281,9 @@
                     "start": 1470,
                     "end": 1553,
                     "value": "#2: __str = new String(1000000000000000000000); __str ==\"1e+21\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(1000000000000000000000); __str ==\"1e+21\". Actual: __str =='"
+                    "raw": "'#2: __str = new String(1000000000000000000000); __str ==\"1e+21\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -319,7 +331,9 @@
               "start": 1668,
               "end": 1691,
               "value": 1e+22,
-              "raw": "10000000000000000000000"
+              "raw": "10000000000000000000000",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -352,7 +366,9 @@
           "start": 1804,
           "end": 1812,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -384,7 +400,9 @@
                     "start": 1841,
                     "end": 1943,
                     "value": "#3: __str = new String(10000000000000000000000); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#3: __str = new String(10000000000000000000000); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#3: __str = new String(10000000000000000000000); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -472,7 +490,9 @@
                     "start": 2198,
                     "end": 2310,
                     "value": "#3.5: __str = new String(10000000000000000000000); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#3.5: __str = new String(10000000000000000000000); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#3.5: __str = new String(10000000000000000000000); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -522,7 +542,9 @@
           "start": 2520,
           "end": 2527,
           "value": "1e+22",
-          "raw": "\"1e+22\""
+          "raw": "\"1e+22\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -554,7 +576,9 @@
                     "start": 2556,
                     "end": 2640,
                     "value": "#4: __str = new String(10000000000000000000000); __str ==\"1e+22\". Actual: __str ==",
-                    "raw": "'#4: __str = new String(10000000000000000000000); __str ==\"1e+22\". Actual: __str =='"
+                    "raw": "'#4: __str = new String(10000000000000000000000); __str ==\"1e+22\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

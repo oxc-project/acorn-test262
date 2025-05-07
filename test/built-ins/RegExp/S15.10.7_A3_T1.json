@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "[^a]*",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -79,14 +80,18 @@
             "start": 400,
             "end": 408,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 410,
             "end": 465,
             "value": "The value of `typeof __re` is expected to be \"object\"",
-            "raw": "'The value of `typeof __re` is expected to be \"object\"'"
+            "raw": "'The value of `typeof __re` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +155,9 @@
             "start": 511,
             "end": 583,
             "value": "The value of __re.constructor is expected to equal the value of RegExp",
-            "raw": "'The value of __re.constructor is expected to equal the value of RegExp'"
+            "raw": "'The value of __re.constructor is expected to equal the value of RegExp'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,14 +214,18 @@
             "start": 633,
             "end": 637,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 641,
             "end": 715,
             "value": "The result of evaluating (__re instanceof RegExp) is expected to be true",
-            "raw": "'The result of evaluating (__re instanceof RegExp) is expected to be true'"
+            "raw": "'The result of evaluating (__re instanceof RegExp) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

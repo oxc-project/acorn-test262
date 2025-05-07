@@ -72,7 +72,9 @@
                 "start": 493,
                 "end": 501,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 532,
                     "end": 610,
                     "value": "#0: String.prototype.search.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.search.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#0: String.prototype.search.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 652,
                         "end": 660,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -267,7 +273,9 @@
                   "start": 909,
                   "end": 964,
                   "value": "#1: delete String.prototype.search.length return true",
-                  "raw": "'#1: delete String.prototype.search.length return true'"
+                  "raw": "'#1: delete String.prototype.search.length return true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -335,7 +343,9 @@
             "start": 1184,
             "end": 1192,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +379,9 @@
                     "start": 1222,
                     "end": 1340,
                     "value": "#2: delete String.prototype.search.length; String.prototype.search.hasOwnProperty('length') return false. Actual: ",
-                    "raw": "'#2: delete String.prototype.search.length; String.prototype.search.hasOwnProperty(\\'length\\') return false. Actual: '"
+                    "raw": "'#2: delete String.prototype.search.length; String.prototype.search.hasOwnProperty(\\'length\\') return false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -427,7 +439,9 @@
                         "start": 1382,
                         "end": 1390,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -31,7 +31,9 @@
               "start": 310,
               "end": 322,
               "value": "use\tstrict",
-              "raw": "'use\tstrict'"
+              "raw": "'use\tstrict'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use\tstrict"
           },

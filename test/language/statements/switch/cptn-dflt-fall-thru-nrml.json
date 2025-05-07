@@ -47,7 +47,9 @@
                 "start": 1640,
                 "end": 1686,
                 "value": "1; switch (\"a\") { case \"a\": 2; default: 3; }",
-                "raw": "'1; switch (\"a\") { case \"a\": 2; default: 3; }'"
+                "raw": "'1; switch (\"a\") { case \"a\": 2; default: 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 1691,
             "end": 1692,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1696,
             "end": 1747,
             "value": "Non-empty value replaces previous non-empty value",
-            "raw": "'Non-empty value replaces previous non-empty value'"
+            "raw": "'Non-empty value replaces previous non-empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +120,9 @@
                 "start": 1776,
                 "end": 1819,
                 "value": "4; switch (\"a\") { case \"a\": default: 5; }",
-                "raw": "'4; switch (\"a\") { case \"a\": default: 5; }'"
+                "raw": "'4; switch (\"a\") { case \"a\": default: 5; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,14 +132,18 @@
             "start": 1824,
             "end": 1825,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1829,
             "end": 1867,
             "value": "Non-empty value replaces empty value",
-            "raw": "'Non-empty value replaces empty value'"
+            "raw": "'Non-empty value replaces empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +193,9 @@
                 "start": 1896,
                 "end": 1939,
                 "value": "6; switch (\"a\") { case \"a\": 7; default: }",
-                "raw": "'6; switch (\"a\") { case \"a\": 7; default: }'"
+                "raw": "'6; switch (\"a\") { case \"a\": 7; default: }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,14 +205,18 @@
             "start": 1944,
             "end": 1945,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1949,
             "end": 2004,
             "value": "Empty value does not replace previous non-empty value",
-            "raw": "'Empty value does not replace previous non-empty value'"
+            "raw": "'Empty value does not replace previous non-empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

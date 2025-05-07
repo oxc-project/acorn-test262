@@ -31,7 +31,9 @@
                 "start": 344,
                 "end": 345,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -61,7 +63,9 @@
                     "start": 373,
                     "end": 421,
                     "value": "#1.1: object[1] throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: object[1] throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: object[1] throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -83,7 +87,9 @@
                         "start": 432,
                         "end": 433,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -147,7 +153,9 @@
                   "start": 494,
                   "end": 498,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -179,7 +187,9 @@
                             "start": 529,
                             "end": 577,
                             "value": "#1.2: object[1] throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: object[1] throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: object[1] throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -263,7 +273,9 @@
                     "start": 651,
                     "end": 701,
                     "value": "#2.1: object.prop throw ReferenceError. Actual: ",
-                    "raw": "'#2.1: object.prop throw ReferenceError. Actual: '"
+                    "raw": "'#2.1: object.prop throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -348,7 +360,9 @@
                   "start": 775,
                   "end": 779,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -380,7 +394,9 @@
                             "start": 810,
                             "end": 860,
                             "value": "#2.2: object.prop throw ReferenceError. Actual: ",
-                            "raw": "'#2.2: object.prop throw ReferenceError. Actual: '"
+                            "raw": "'#2.2: object.prop throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

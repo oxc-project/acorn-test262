@@ -104,7 +104,9 @@
                                     "start": 435,
                                     "end": 447,
                                     "value": "gNonStrict",
-                                    "raw": "\"gNonStrict\""
+                                    "raw": "\"gNonStrict\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -223,7 +225,9 @@
               "start": 532,
               "end": 544,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },

@@ -62,7 +62,9 @@ __ESTREE_TEST__:PASS:
                   "start": 95,
                   "end": 96,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -88,7 +90,9 @@ __ESTREE_TEST__:PASS:
                   "start": 109,
                   "end": 110,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -154,7 +158,9 @@ __ESTREE_TEST__:PASS:
           "start": 173,
           "end": 181,
           "raw": "'OnPush'",
-          "value": "OnPush"
+          "value": "OnPush",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -214,7 +220,9 @@ __ESTREE_TEST__:PASS:
           "start": 242,
           "end": 251,
           "raw": "'Default'",
-          "value": "Default"
+          "value": "Default",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -242,7 +250,9 @@ __ESTREE_TEST__:PASS:
             "start": 300,
             "end": 308,
             "raw": "\"aField\"",
-            "value": "aField"
+            "value": "aField",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -272,7 +282,9 @@ __ESTREE_TEST__:PASS:
                   "start": 318,
                   "end": 320,
                   "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -332,7 +344,9 @@ __ESTREE_TEST__:PASS:
           "start": 370,
           "end": 378,
           "raw": "\"bField\"",
-          "value": "bField"
+          "value": "bField",
+          "regex": null,
+          "bigint": null
         }
       }
     }

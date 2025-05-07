@@ -49,14 +49,18 @@
             "start": 781,
             "end": 789,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 842,
             "value": "binding is initialized prior to module evaluation",
-            "raw": "'binding is initialized prior to module evaluation'"
+            "raw": "'binding is initialized prior to module evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,7 +159,9 @@
                       "start": 912,
                       "end": 916,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -167,7 +173,9 @@
             "start": 921,
             "end": 949,
             "value": "binding rejects assignment",
-            "raw": "'binding rejects assignment'"
+            "raw": "'binding rejects assignment'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,7 +226,9 @@
             "start": 984,
             "end": 1012,
             "value": "binding value is immutable",
-            "raw": "'binding value is immutable'"
+            "raw": "'binding value is immutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -246,7 +256,9 @@
         "start": 1036,
         "end": 1061,
         "value": "./instn-star-binding.js",
-        "raw": "'./instn-star-binding.js'"
+        "raw": "'./instn-star-binding.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

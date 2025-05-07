@@ -47,7 +47,9 @@
                 "start": 276,
                 "end": 280,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 288,
             "end": 320,
             "value": "parseInt(true) must return NaN",
-            "raw": "'parseInt(true) must return NaN'"
+            "raw": "'parseInt(true) must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                 "start": 349,
                 "end": 354,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -129,7 +135,9 @@
             "start": 362,
             "end": 395,
             "value": "parseInt(false) must return NaN",
-            "raw": "'parseInt(false) must return NaN'"
+            "raw": "'parseInt(false) must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

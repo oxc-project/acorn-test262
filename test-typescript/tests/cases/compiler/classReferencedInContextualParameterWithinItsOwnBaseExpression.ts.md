@@ -693,7 +693,9 @@ __ESTREE_TEST__:PASS:
               "start": 386,
               "end": 396,
               "raw": "\"_TOutput\"",
-              "value": "_TOutput"
+              "value": "_TOutput",
+              "regex": null,
+              "bigint": null
             }
           },
           "extendsType": {
@@ -755,7 +757,9 @@ __ESTREE_TEST__:PASS:
                 "start": 439,
                 "end": 449,
                 "raw": "\"_TOutput\"",
-                "value": "_TOutput"
+                "value": "_TOutput",
+                "regex": null,
+                "bigint": null
               }
             },
             "objectType": {
@@ -1045,7 +1049,9 @@ __ESTREE_TEST__:PASS:
                 "start": 542,
                 "end": 545,
                 "raw": "\"A\"",
-                "value": "A"
+                "value": "A",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

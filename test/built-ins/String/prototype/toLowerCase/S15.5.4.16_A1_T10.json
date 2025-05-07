@@ -59,7 +59,9 @@
                           "start": 350,
                           "end": 359,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -175,7 +177,9 @@
           "start": 536,
           "end": 540,
           "value": "ab",
-          "raw": "\"ab\""
+          "raw": "\"ab\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -207,7 +211,9 @@
                     "start": 569,
                     "end": 716,
                     "value": "#1: var __obj = {toString:function(){return \"AB\";}}; __obj.toLowerCase = String.prototype.toLowerCase; __obj.toLowerCase() ===\"ab\". Actual: ",
-                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; __obj.toLowerCase = String.prototype.toLowerCase; __obj.toLowerCase() ===\"ab\". Actual: '"
+                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; __obj.toLowerCase = String.prototype.toLowerCase; __obj.toLowerCase() ===\"ab\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -28,7 +28,9 @@
                 "start": 394,
                 "end": 395,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               null,
               {
@@ -36,7 +38,9 @@
                 "start": 399,
                 "end": 400,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,7 +87,9 @@
             "start": 434,
             "end": 442,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -108,7 +114,9 @@
                   "start": 455,
                   "end": 456,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -170,14 +178,18 @@
             "start": 494,
             "end": 495,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 497,
             "end": 512,
             "value": "arrObj.length",
-            "raw": "'arrObj.length'"
+            "raw": "'arrObj.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +238,9 @@
               "start": 539,
               "end": 540,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -236,14 +250,18 @@
             "start": 543,
             "end": 544,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 557,
             "value": "arrObj[0]",
-            "raw": "'arrObj[0]'"
+            "raw": "'arrObj[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -306,7 +324,9 @@
                 "start": 599,
                 "end": 602,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -316,14 +336,18 @@
             "start": 605,
             "end": 610,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 640,
             "value": "arrObj.hasOwnProperty(\"1\")",
-            "raw": "'arrObj.hasOwnProperty(\"1\")'"
+            "raw": "'arrObj.hasOwnProperty(\"1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -372,7 +396,9 @@
               "start": 667,
               "end": 668,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -382,14 +408,18 @@
             "start": 671,
             "end": 672,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 674,
             "end": 685,
             "value": "arrObj[2]",
-            "raw": "'arrObj[2]'"
+            "raw": "'arrObj[2]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

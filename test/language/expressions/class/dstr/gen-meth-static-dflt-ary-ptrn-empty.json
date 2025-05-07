@@ -23,7 +23,9 @@
             "start": 2486,
             "end": 2487,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -82,7 +84,9 @@
                         "start": 2530,
                         "end": 2531,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -116,7 +120,9 @@
             "start": 2555,
             "end": 2556,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -232,7 +238,9 @@
                                 "start": 2637,
                                 "end": 2638,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -269,7 +277,9 @@
                                 "start": 2669,
                                 "end": 2670,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -375,14 +385,18 @@
             "start": 2727,
             "end": 2728,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2730,
             "end": 2759,
             "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "raw": "'method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

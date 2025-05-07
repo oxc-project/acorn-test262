@@ -59,7 +59,9 @@
                 "start": 1049,
                 "end": 1052,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -99,7 +101,9 @@
                 "start": 1073,
                 "end": 1076,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -238,7 +242,9 @@
                               "start": 1166,
                               "end": 1178,
                               "value": "get sym(x)",
-                              "raw": "\"get sym(x)\""
+                              "raw": "\"get sym(x)\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -267,7 +273,9 @@
                   "start": 1199,
                   "end": 1203,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -289,7 +297,9 @@
                   "start": 1219,
                   "end": 1223,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -338,7 +348,9 @@
             "start": 1259,
             "end": 1262,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -405,7 +417,9 @@
                               "start": 1296,
                               "end": 1303,
                               "value": "get a",
-                              "raw": "\"get a\""
+                              "raw": "\"get a\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -434,7 +448,9 @@
                   "start": 1324,
                   "end": 1328,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -456,7 +472,9 @@
                   "start": 1344,
                   "end": 1348,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -571,7 +589,9 @@
                               "start": 1422,
                               "end": 1434,
                               "value": "get sym(y)",
-                              "raw": "\"get sym(y)\""
+                              "raw": "\"get sym(y)\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -600,7 +620,9 @@
                   "start": 1455,
                   "end": 1459,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -622,7 +644,9 @@
                   "start": 1475,
                   "end": 1479,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -671,7 +695,9 @@
             "start": 1515,
             "end": 1518,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -738,7 +764,9 @@
                               "start": 1552,
                               "end": 1559,
                               "value": "get b",
-                              "raw": "\"get b\""
+                              "raw": "\"get b\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -767,7 +795,9 @@
                   "start": 1580,
                   "end": 1584,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -789,7 +819,9 @@
                   "start": 1600,
                   "end": 1604,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -901,28 +933,36 @@
                 "start": 1678,
                 "end": 1685,
                 "value": "get a",
-                "raw": "\"get a\""
+                "raw": "\"get a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1687,
                 "end": 1694,
                 "value": "get b",
-                "raw": "\"get b\""
+                "raw": "\"get b\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1696,
                 "end": 1708,
                 "value": "get sym(x)",
-                "raw": "\"get sym(x)\""
+                "raw": "\"get sym(x)\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1710,
                 "end": 1722,
                 "value": "get sym(y)",
-                "raw": "\"get sym(y)\""
+                "raw": "\"get sym(y)\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

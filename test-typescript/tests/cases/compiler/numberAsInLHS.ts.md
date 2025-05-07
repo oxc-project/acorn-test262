@@ -20,7 +20,9 @@ __ESTREE_TEST__:PASS:
           "start": 0,
           "end": 1,
           "raw": "3",
-          "value": 3
+          "value": 3,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -32,14 +34,18 @@ __ESTREE_TEST__:PASS:
               "start": 6,
               "end": 7,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 9,
               "end": 10,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           ]
         }

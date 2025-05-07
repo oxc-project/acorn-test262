@@ -138,7 +138,9 @@
           "start": 758,
           "end": 762,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -205,21 +207,27 @@
                 "start": 790,
                 "end": 791,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 793,
                 "end": 794,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 796,
                 "end": 797,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -326,7 +334,9 @@
             "start": 875,
             "end": 956,
             "value": "Object.getPrototypeOf(Array.of.call(C, 1, 2, 3)) returns other.Object.prototype",
-            "raw": "'Object.getPrototypeOf(Array.of.call(C, 1, 2, 3)) returns other.Object.prototype'"
+            "raw": "'Object.getPrototypeOf(Array.of.call(C, 1, 2, 3)) returns other.Object.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

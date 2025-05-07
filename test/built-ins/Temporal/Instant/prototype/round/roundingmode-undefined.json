@@ -48,6 +48,7 @@
                 "end": 320,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               }
             ]
@@ -118,7 +119,9 @@
                       "start": 372,
                       "end": 385,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -205,6 +208,7 @@
             "end": 486,
             "value": null,
             "raw": "1_000_000_000_123_988_000n",
+            "regex": null,
             "bigint": "1000000000123988000"
           },
           {
@@ -212,7 +216,9 @@
             "start": 488,
             "end": 524,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,7 +286,9 @@
                       "start": 575,
                       "end": 588,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -346,6 +354,7 @@
             "end": 664,
             "value": null,
             "raw": "1_000_000_000_123_988_000n",
+            "regex": null,
             "bigint": "1000000000123988000"
           },
           {
@@ -353,7 +362,9 @@
             "start": 666,
             "end": 702,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,7 +432,9 @@
                       "start": 754,
                       "end": 767,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -508,6 +521,7 @@
             "end": 868,
             "value": null,
             "raw": "1_000_000_000_124_000_000n",
+            "regex": null,
             "bigint": "1000000000124000000"
           },
           {
@@ -515,7 +529,9 @@
             "start": 870,
             "end": 906,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -583,7 +599,9 @@
                       "start": 957,
                       "end": 970,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -649,6 +667,7 @@
             "end": 1046,
             "value": null,
             "raw": "1_000_000_000_124_000_000n",
+            "regex": null,
             "bigint": "1000000000124000000"
           },
           {
@@ -656,7 +675,9 @@
             "start": 1048,
             "end": 1084,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -724,7 +745,9 @@
                       "start": 1136,
                       "end": 1144,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -811,6 +834,7 @@
             "end": 1245,
             "value": null,
             "raw": "1_000_000_000_000_000_000n",
+            "regex": null,
             "bigint": "1000000000000000000"
           },
           {
@@ -818,7 +842,9 @@
             "start": 1247,
             "end": 1283,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -886,7 +912,9 @@
                       "start": 1334,
                       "end": 1342,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -952,6 +980,7 @@
             "end": 1418,
             "value": null,
             "raw": "1_000_000_000_000_000_000n",
+            "regex": null,
             "bigint": "1000000000000000000"
           },
           {
@@ -959,7 +988,9 @@
             "start": 1420,
             "end": 1456,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

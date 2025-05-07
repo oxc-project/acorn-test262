@@ -70,7 +70,9 @@
                               "start": 987,
                               "end": 1013,
                               "value": "replacementValue coerced",
-                              "raw": "\"replacementValue coerced\""
+                              "raw": "\"replacementValue coerced\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -164,7 +166,9 @@
                           "start": 1151,
                           "end": 1152,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -261,14 +265,18 @@
                               "start": 1236,
                               "end": 1237,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1239,
                               "end": 1240,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Identifier",

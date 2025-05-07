@@ -71,7 +71,9 @@
                         "start": 368,
                         "end": 383,
                         "value": "gNonStrict();",
-                        "raw": "\"gNonStrict();\""
+                        "raw": "\"gNonStrict();\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

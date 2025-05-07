@@ -75,14 +75,18 @@
             "start": 348,
             "end": 358,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 438,
             "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,14 +248,18 @@
                         "start": 557,
                         "end": 568,
                         "value": "specifier",
-                        "raw": "\"specifier\""
+                        "raw": "\"specifier\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 570,
                         "end": 576,
                         "value": "name",
-                        "raw": "\"name\""
+                        "raw": "\"name\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -265,7 +273,9 @@
             "start": 582,
             "end": 638,
             "value": "throws a TypeError if this is not a ShadowRealm object",
-            "raw": "'throws a TypeError if this is not a ShadowRealm object'"
+            "raw": "'throws a TypeError if this is not a ShadowRealm object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

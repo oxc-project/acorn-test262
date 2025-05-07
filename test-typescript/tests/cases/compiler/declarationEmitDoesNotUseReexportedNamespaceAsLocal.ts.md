@@ -92,7 +92,9 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 35,
                     "raw": "\"./sub\"",
-                    "value": "./sub"
+                    "value": "./sub",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -137,7 +139,9 @@ __ESTREE_TEST__:PASS:
         "start": 58,
         "end": 65,
         "raw": "\"./sub\"",
-        "value": "./sub"
+        "value": "./sub",
+        "regex": null,
+        "bigint": null
       }
     },
     {

@@ -88,7 +88,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 149,
                                 "end": 166,
                                 "raw": "\"knownLiteralKey\"",
-                                "value": "knownLiteralKey"
+                                "value": "knownLiteralKey",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -156,7 +158,9 @@ __ESTREE_TEST__:PASS:
                 "start": 204,
                 "end": 205,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -200,7 +204,9 @@ __ESTREE_TEST__:PASS:
                 "start": 222,
                 "end": 223,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -244,7 +250,9 @@ __ESTREE_TEST__:PASS:
                 "start": 254,
                 "end": 255,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -282,7 +290,9 @@ __ESTREE_TEST__:PASS:
                     "start": 274,
                     "end": 276,
                     "raw": "''",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
@@ -296,7 +306,9 @@ __ESTREE_TEST__:PASS:
                 "start": 290,
                 "end": 291,
                 "raw": "4",
-                "value": 4
+                "value": 4,
+                "regex": null,
+                "bigint": null
               }
             }
           }

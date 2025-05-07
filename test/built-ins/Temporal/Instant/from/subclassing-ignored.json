@@ -55,7 +55,9 @@
             "start": 356,
             "end": 362,
             "value": "from",
-            "raw": "\"from\""
+            "raw": "\"from\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -67,7 +69,9 @@
                 "start": 367,
                 "end": 399,
                 "value": "1976-11-18T14:23:30.123456789Z",
-                "raw": "\"1976-11-18T14:23:30.123456789Z\""
+                "raw": "\"1976-11-18T14:23:30.123456789Z\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -136,6 +140,7 @@
                   "end": 482,
                   "value": null,
                   "raw": "217_175_010_123_456_789n",
+                  "regex": null,
                   "bigint": "217175010123456789"
                 },
                 {
@@ -143,7 +148,9 @@
                   "start": 484,
                   "end": 509,
                   "value": "epochNanoseconds result",
-                  "raw": "\"epochNanoseconds result\""
+                  "raw": "\"epochNanoseconds result\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

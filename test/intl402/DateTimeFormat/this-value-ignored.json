@@ -251,7 +251,9 @@
                         "start": 668,
                         "end": 743,
                         "value": "DateTimeFormat object created with \"new\" was not ignored as this-value.",
-                        "raw": "\"DateTimeFormat object created with \\\"new\\\" was not ignored as this-value.\""
+                        "raw": "\"DateTimeFormat object created with \\\"new\\\" was not ignored as this-value.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -519,7 +521,9 @@
                         "start": 1127,
                         "end": 1218,
                         "value": "DateTimeFormat object created with constructor as function was not ignored as this-value.",
-                        "raw": "\"DateTimeFormat object created with constructor as function was not ignored as this-value.\""
+                        "raw": "\"DateTimeFormat object created with constructor as function was not ignored as this-value.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

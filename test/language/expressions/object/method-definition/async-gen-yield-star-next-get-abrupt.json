@@ -108,7 +108,9 @@
                               "start": 885,
                               "end": 920,
                               "value": "it should not get Symbol.iterator",
-                              "raw": "'it should not get Symbol.iterator'"
+                              "raw": "'it should not get Symbol.iterator'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -244,7 +246,9 @@
             "start": 1051,
             "end": 1052,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -321,7 +325,9 @@
                               "start": 1104,
                               "end": 1105,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -362,7 +368,9 @@
                                 "start": 1152,
                                 "end": 1183,
                                 "value": "abrupt completion closes iter",
-                                "raw": "'abrupt completion closes iter'"
+                                "raw": "'abrupt completion closes iter'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -509,7 +517,9 @@
                             "start": 1271,
                             "end": 1303,
                             "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "raw": "'Promise incorrectly fulfilled.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -583,7 +593,9 @@
                             "start": 1346,
                             "end": 1361,
                             "value": "reject reason",
-                            "raw": "\"reject reason\""
+                            "raw": "\"reject reason\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -748,14 +760,18 @@
                                             "start": 1434,
                                             "end": 1438,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1440,
                                             "end": 1467,
                                             "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "raw": "'the iterator is completed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -806,7 +822,9 @@
                                             "start": 1509,
                                             "end": 1529,
                                             "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "raw": "'value is undefined'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -909,7 +927,9 @@
             "start": 1603,
             "end": 1604,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

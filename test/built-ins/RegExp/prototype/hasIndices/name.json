@@ -66,7 +66,9 @@
                 "start": 584,
                 "end": 596,
                 "value": "hasIndices",
-                "raw": "\"hasIndices\""
+                "raw": "\"hasIndices\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -140,7 +142,9 @@
             "start": 637,
             "end": 653,
             "value": "get hasIndices",
-            "raw": "\"get hasIndices\""
+            "raw": "\"get hasIndices\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +189,9 @@
             "start": 683,
             "end": 689,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -210,7 +216,9 @@
                   "start": 707,
                   "end": 712,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -232,7 +240,9 @@
                   "start": 726,
                   "end": 731,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -254,7 +264,9 @@
                   "start": 749,
                   "end": 753,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

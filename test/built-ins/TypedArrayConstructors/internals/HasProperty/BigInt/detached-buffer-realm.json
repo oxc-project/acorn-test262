@@ -179,7 +179,9 @@
                             "start": 933,
                             "end": 934,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -288,7 +290,9 @@
                             "start": 1010,
                             "end": 1013,
                             "value": "0",
-                            "raw": "'0'"
+                            "raw": "'0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -298,14 +302,18 @@
                         "start": 1016,
                         "end": 1021,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1023,
                         "end": 1067,
                         "value": "Reflect.has(sample, \"0\") must return false",
-                        "raw": "'Reflect.has(sample, \"0\") must return false'"
+                        "raw": "'Reflect.has(sample, \"0\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

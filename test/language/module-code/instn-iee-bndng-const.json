@@ -77,7 +77,9 @@
             "start": 1765,
             "end": 1805,
             "value": "binding is created but not initialized",
-            "raw": "'binding is created but not initialized'"
+            "raw": "'binding is created but not initialized'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -128,7 +130,9 @@
         "start": 1836,
         "end": 1872,
         "value": "./instn-iee-bndng-const_FIXTURE.js",
-        "raw": "'./instn-iee-bndng-const_FIXTURE.js'"
+        "raw": "'./instn-iee-bndng-const_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -156,7 +160,9 @@
               "start": 1891,
               "end": 1895,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -218,7 +224,9 @@
             "start": 1931,
             "end": 1932,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +275,9 @@
               "start": 1960,
               "end": 1961,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -277,7 +287,9 @@
             "start": 1964,
             "end": 1980,
             "value": "ReferenceError",
-            "raw": "'ReferenceError'"
+            "raw": "'ReferenceError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -326,7 +338,9 @@
               "start": 2008,
               "end": 2009,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -336,7 +350,9 @@
             "start": 2012,
             "end": 2023,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -385,7 +401,9 @@
               "start": 2051,
               "end": 2052,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -395,7 +413,9 @@
             "start": 2055,
             "end": 2071,
             "value": "ReferenceError",
-            "raw": "'ReferenceError'"
+            "raw": "'ReferenceError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,7 +464,9 @@
               "start": 2099,
               "end": 2100,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -454,7 +476,9 @@
             "start": 2103,
             "end": 2114,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -4522,7 +4522,9 @@ __ESTREE_TEST__:PASS:
         "start": 1857,
         "end": 1861,
         "raw": "true",
-        "value": true
+        "value": true,
+        "regex": null,
+        "bigint": null
       }
     }
   ],

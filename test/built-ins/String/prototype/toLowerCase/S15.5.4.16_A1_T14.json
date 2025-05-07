@@ -34,7 +34,9 @@
                 "start": 289,
                 "end": 294,
                 "value": "ABC",
-                "raw": "\"ABC\""
+                "raw": "\"ABC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +146,9 @@
           "start": 465,
           "end": 472,
           "value": "/abc/",
-          "raw": "\"/abc/\""
+          "raw": "\"/abc/\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -176,7 +180,9 @@
                     "start": 501,
                     "end": 629,
                     "value": "#1: var __reg = new RegExp(\"ABC\"); __reg.toLowerCase = String.prototype.toLowerCase; __reg.toLowerCase() === \"/abc/\". Actual: ",
-                    "raw": "'#1: var __reg = new RegExp(\"ABC\"); __reg.toLowerCase = String.prototype.toLowerCase; __reg.toLowerCase() === \"/abc/\". Actual: '"
+                    "raw": "'#1: var __reg = new RegExp(\"ABC\"); __reg.toLowerCase = String.prototype.toLowerCase; __reg.toLowerCase() === \"/abc/\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

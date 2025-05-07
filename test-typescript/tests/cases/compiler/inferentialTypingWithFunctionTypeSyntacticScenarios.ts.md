@@ -405,7 +405,9 @@ __ESTREE_TEST__:PASS:
               "start": 176,
               "end": 178,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "MemberExpression",
@@ -476,7 +478,9 @@ __ESTREE_TEST__:PASS:
               "start": 228,
               "end": 230,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "MemberExpression",
@@ -498,7 +502,9 @@ __ESTREE_TEST__:PASS:
                 "start": 247,
                 "end": 250,
                 "raw": "'x'",
-                "value": "x"
+                "value": "x",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -545,7 +551,9 @@ __ESTREE_TEST__:PASS:
               "start": 280,
               "end": 282,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "CallExpression",
@@ -715,7 +723,9 @@ __ESTREE_TEST__:PASS:
               "start": 419,
               "end": 421,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "NewExpression",
@@ -802,7 +812,9 @@ __ESTREE_TEST__:PASS:
               "start": 464,
               "end": 466,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "AssignmentExpression",
@@ -872,7 +884,9 @@ __ESTREE_TEST__:PASS:
               "start": 510,
               "end": 512,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "TSTypeAssertion",
@@ -947,7 +961,9 @@ __ESTREE_TEST__:PASS:
               "start": 579,
               "end": 581,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -1002,7 +1018,9 @@ __ESTREE_TEST__:PASS:
               "start": 614,
               "end": 616,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SequenceExpression",
@@ -1014,7 +1032,9 @@ __ESTREE_TEST__:PASS:
                   "start": 619,
                   "end": 621,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

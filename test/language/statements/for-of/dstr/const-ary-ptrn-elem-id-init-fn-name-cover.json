@@ -23,7 +23,9 @@
             "start": 1861,
             "end": 1862,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,7 +106,9 @@
                           "start": 1913,
                           "end": 1914,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "FunctionExpression",
@@ -203,7 +207,9 @@
                   "start": 1974,
                   "end": 1981,
                   "value": "cover",
-                  "raw": "'cover'"
+                  "raw": "'cover'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -261,7 +267,9 @@
                   "start": 2019,
                   "end": 2027,
                   "value": "xCover",
-                  "raw": "'xCover'"
+                  "raw": "'xCover'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -287,7 +295,9 @@
                 "start": 2046,
                 "end": 2047,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -333,14 +343,18 @@
             "start": 2080,
             "end": 2081,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2083,
             "end": 2115,
             "value": "iteration occurred as expected",
-            "raw": "'iteration occurred as expected'"
+            "raw": "'iteration occurred as expected'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

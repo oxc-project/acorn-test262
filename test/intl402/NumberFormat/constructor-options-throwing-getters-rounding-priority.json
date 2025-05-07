@@ -84,7 +84,9 @@
                         "start": 420,
                         "end": 424,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

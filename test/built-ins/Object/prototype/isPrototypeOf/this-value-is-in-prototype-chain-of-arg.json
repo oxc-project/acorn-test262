@@ -317,7 +317,9 @@
                 "start": 811,
                 "end": 819,
                 "value": "noname",
-                "raw": "\"noname\""
+                "raw": "\"noname\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -392,14 +394,18 @@
                 "start": 896,
                 "end": 912,
                 "value": "Luke Skywalker",
-                "raw": "\"Luke Skywalker\""
+                "raw": "\"Luke Skywalker\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 914,
                 "end": 916,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -473,7 +479,9 @@
             "start": 964,
             "end": 968,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -558,7 +566,9 @@
             "start": 1032,
             "end": 1036,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -630,7 +640,9 @@
             "start": 1084,
             "end": 1089,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

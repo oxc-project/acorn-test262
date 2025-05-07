@@ -30,7 +30,9 @@ __ESTREE_TEST__:PASS:
           "start": 25,
           "end": 35,
           "raw": "\"toString\"",
-          "value": "toString"
+          "value": "toString",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -59,7 +61,9 @@ __ESTREE_TEST__:PASS:
           "start": 107,
           "end": 117,
           "raw": "\"toString\"",
-          "value": "toString"
+          "value": "toString",
+          "regex": null,
+          "bigint": null
         }
       }
     }

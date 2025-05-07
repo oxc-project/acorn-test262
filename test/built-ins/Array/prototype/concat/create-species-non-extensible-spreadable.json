@@ -71,7 +71,9 @@
                       "start": 871,
                       "end": 872,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -328,7 +330,9 @@
                             "start": 1038,
                             "end": 1039,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -344,7 +348,9 @@
             "start": 1046,
             "end": 1092,
             "value": "arr.concat([1]) throws a TypeError exception",
-            "raw": "'arr.concat([1]) throws a TypeError exception'"
+            "raw": "'arr.concat([1]) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

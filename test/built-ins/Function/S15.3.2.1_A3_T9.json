@@ -23,7 +23,9 @@
             "start": 952,
             "end": 966,
             "value": "return this;",
-            "raw": "\"return this;\""
+            "raw": "\"return this;\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 976,
             "end": 981,
             "value": "1,1",
-            "raw": "\"1,1\""
+            "raw": "\"1,1\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -128,7 +132,9 @@
                   "start": 1048,
                   "end": 1138,
                   "value": "#1: If P is not parsable as a FormalParameterList_opt then throw a SyntaxError exception",
-                  "raw": "'#1: If P is not parsable as a FormalParameterList_opt then throw a SyntaxError exception'"
+                  "raw": "'#1: If P is not parsable as a FormalParameterList_opt then throw a SyntaxError exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -188,7 +194,9 @@
                     "start": 1199,
                     "end": 1275,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

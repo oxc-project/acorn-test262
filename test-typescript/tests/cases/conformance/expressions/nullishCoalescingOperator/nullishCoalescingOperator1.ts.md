@@ -952,7 +952,9 @@ __ESTREE_TEST__:PASS:
               "start": 736,
               "end": 746,
               "raw": "'whatever'",
-              "value": "whatever"
+              "value": "whatever",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -998,7 +1000,9 @@ __ESTREE_TEST__:PASS:
               "start": 766,
               "end": 776,
               "raw": "'whatever'",
-              "value": "whatever"
+              "value": "whatever",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1044,7 +1048,9 @@ __ESTREE_TEST__:PASS:
               "start": 796,
               "end": 806,
               "raw": "'whatever'",
-              "value": "whatever"
+              "value": "whatever",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1090,7 +1096,9 @@ __ESTREE_TEST__:PASS:
               "start": 826,
               "end": 836,
               "raw": "'whatever'",
-              "value": "whatever"
+              "value": "whatever",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1136,7 +1144,9 @@ __ESTREE_TEST__:PASS:
               "start": 857,
               "end": 858,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1182,7 +1192,9 @@ __ESTREE_TEST__:PASS:
               "start": 878,
               "end": 879,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1228,7 +1240,9 @@ __ESTREE_TEST__:PASS:
               "start": 899,
               "end": 900,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1274,7 +1288,9 @@ __ESTREE_TEST__:PASS:
               "start": 920,
               "end": 921,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1320,7 +1336,9 @@ __ESTREE_TEST__:PASS:
               "start": 942,
               "end": 946,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1366,7 +1384,9 @@ __ESTREE_TEST__:PASS:
               "start": 966,
               "end": 970,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1412,7 +1432,9 @@ __ESTREE_TEST__:PASS:
               "start": 990,
               "end": 994,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1458,7 +1480,9 @@ __ESTREE_TEST__:PASS:
               "start": 1014,
               "end": 1018,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1527,7 +1551,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1043,
                     "end": 1044,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1599,7 +1625,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1069,
                     "end": 1070,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1671,7 +1699,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1095,
                     "end": 1096,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1743,7 +1773,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1121,
                     "end": 1122,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1809,7 +1841,9 @@ __ESTREE_TEST__:PASS:
             "start": 1197,
             "end": 1202,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -1874,7 +1908,9 @@ __ESTREE_TEST__:PASS:
             "start": 1224,
             "end": 1228,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!",
@@ -1964,7 +2000,9 @@ __ESTREE_TEST__:PASS:
           "start": 1264,
           "end": 1268,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2042,14 +2080,18 @@ __ESTREE_TEST__:PASS:
           "start": 1310,
           "end": 1315,
           "raw": "false",
-          "value": false
+          "value": false,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Literal",
           "start": 1319,
           "end": 1323,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     }

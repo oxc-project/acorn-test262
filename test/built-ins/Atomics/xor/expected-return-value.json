@@ -69,7 +69,9 @@
                       "start": 878,
                       "end": 879,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -100,7 +102,9 @@
             "start": 894,
             "end": 928,
             "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "raw": "0b00000001000000001000000010000001",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -126,7 +130,9 @@
             "start": 940,
             "end": 974,
             "value": 33521919,
-            "raw": "0b00000001111111111000000011111111"
+            "raw": "0b00000001111111111000000011111111",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -152,7 +158,9 @@
             "start": 986,
             "end": 1020,
             "value": 16711806,
-            "raw": "0b00000000111111110000000001111110"
+            "raw": "0b00000000111111110000000001111110",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -182,7 +190,9 @@
             "start": 1028,
             "end": 1029,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -258,7 +268,9 @@
                 "start": 1075,
                 "end": 1076,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -280,7 +292,9 @@
             "start": 1089,
             "end": 1176,
             "value": "Atomics.xor(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)",
-            "raw": "'Atomics.xor(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)'"
+            "raw": "'Atomics.xor(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,7 +343,9 @@
               "start": 1203,
               "end": 1204,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -345,7 +361,9 @@
             "start": 1210,
             "end": 1293,
             "value": "The value of i32a[0] equals the value of `c` (0b00000000111111110000000001111110)",
-            "raw": "'The value of i32a[0] equals the value of `c` (0b00000000111111110000000001111110)'"
+            "raw": "'The value of i32a[0] equals the value of `c` (0b00000000111111110000000001111110)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

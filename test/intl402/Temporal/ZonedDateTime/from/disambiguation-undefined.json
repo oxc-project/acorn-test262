@@ -41,7 +41,9 @@
                   "start": 958,
                   "end": 977,
                   "value": "America/Vancouver",
-                  "raw": "\"America/Vancouver\""
+                  "raw": "\"America/Vancouver\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 985,
                   "end": 989,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 998,
                   "end": 999,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 1006,
                   "end": 1007,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -129,7 +137,9 @@
                   "start": 1015,
                   "end": 1016,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -151,7 +161,9 @@
                   "start": 1026,
                   "end": 1028,
                   "value": 30,
-                  "raw": "30"
+                  "raw": "30",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -199,7 +211,9 @@
                   "start": 1067,
                   "end": 1086,
                   "value": "America/Vancouver",
-                  "raw": "\"America/Vancouver\""
+                  "raw": "\"America/Vancouver\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -221,7 +235,9 @@
                   "start": 1094,
                   "end": 1098,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -243,7 +259,9 @@
                   "start": 1107,
                   "end": 1109,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -265,7 +283,9 @@
                   "start": 1116,
                   "end": 1118,
                   "value": 29,
-                  "raw": "29"
+                  "raw": "29",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -287,7 +307,9 @@
                   "start": 1126,
                   "end": 1127,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -309,7 +331,9 @@
                   "start": 1137,
                   "end": 1139,
                   "value": 30,
-                  "raw": "30"
+                  "raw": "30",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -353,6 +377,7 @@
                     "end": 1192,
                     "value": null,
                     "raw": "954671400_000_000_000n",
+                    "regex": null,
                     "bigint": "954671400000000000"
                   }
                 ]
@@ -374,6 +399,7 @@
                     "end": 1236,
                     "value": null,
                     "raw": "972808200_000_000_000n",
+                    "regex": null,
                     "bigint": "972808200000000000"
                   }
                 ]
@@ -575,7 +601,9 @@
                         "start": 1418,
                         "end": 1464,
                         "value": "default disambiguation is compatible (later)",
-                        "raw": "\"default disambiguation is compatible (later)\""
+                        "raw": "\"default disambiguation is compatible (later)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

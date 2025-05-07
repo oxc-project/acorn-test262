@@ -23,7 +23,9 @@
             "start": 685,
             "end": 688,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,14 +70,18 @@
             "start": 710,
             "end": 713,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 758,
             "value": "binding is not initialized to `undefined`",
-            "raw": "'binding is not initialized to `undefined`'"
+            "raw": "'binding is not initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -148,14 +154,18 @@
             "start": 807,
             "end": 810,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 812,
             "end": 855,
             "value": "value is not updated following evaluation",
-            "raw": "'value is not updated following evaluation'"
+            "raw": "'value is not updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

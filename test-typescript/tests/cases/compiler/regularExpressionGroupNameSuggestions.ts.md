@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
               "flags": "",
               "pattern": "(?<foo>)\\k<Foo>"
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         }
       ],

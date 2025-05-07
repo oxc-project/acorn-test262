@@ -81,7 +81,9 @@
             "start": 551,
             "end": 559,
             "value": "Symbol",
-            "raw": "'Symbol'"
+            "raw": "'Symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +165,9 @@
                   "start": 630,
                   "end": 635,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -185,7 +189,9 @@
                   "start": 651,
                   "end": 656,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -207,7 +213,9 @@
                   "start": 674,
                   "end": 678,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

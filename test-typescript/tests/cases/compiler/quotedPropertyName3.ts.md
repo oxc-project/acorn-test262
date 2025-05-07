@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 24,
               "raw": "\"prop1\"",
-              "value": "prop1"
+              "value": "prop1",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -117,7 +119,9 @@ __ESTREE_TEST__:PASS:
                               "start": 73,
                               "end": 80,
                               "raw": "\"prop1\"",
-                              "value": "prop1"
+                              "value": "prop1",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "expression": true,

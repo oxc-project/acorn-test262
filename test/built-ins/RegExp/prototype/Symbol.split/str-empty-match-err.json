@@ -320,7 +320,9 @@
                         "start": 664,
                         "end": 666,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

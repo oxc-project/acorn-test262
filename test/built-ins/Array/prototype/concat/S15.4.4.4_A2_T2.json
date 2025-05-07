@@ -256,14 +256,18 @@
             "start": 526,
             "end": 542,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 544,
             "end": 589,
             "value": "arr.getClass() must return \"[object Array]\"",
-            "raw": "'arr.getClass() must return \"[object Array]\"'"
+            "raw": "'arr.getClass() must return \"[object Array]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,7 +316,9 @@
               "start": 613,
               "end": 614,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -328,7 +334,9 @@
             "start": 620,
             "end": 677,
             "value": "The value of arr[0] is expected to equal the value of x",
-            "raw": "'The value of arr[0] is expected to equal the value of x'"
+            "raw": "'The value of arr[0] is expected to equal the value of x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,14 +394,18 @@
             "start": 709,
             "end": 710,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 712,
             "end": 757,
             "value": "The value of arr.length is expected to be 1",
-            "raw": "'The value of arr.length is expected to be 1'"
+            "raw": "'The value of arr.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

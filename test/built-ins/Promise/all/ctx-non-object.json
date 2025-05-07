@@ -209,7 +209,9 @@
                         "start": 487,
                         "end": 491,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrayExpression",
@@ -322,7 +324,9 @@
                         "start": 560,
                         "end": 562,
                         "value": 86,
-                        "raw": "86"
+                        "raw": "86",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrayExpression",
@@ -435,7 +439,9 @@
                         "start": 631,
                         "end": 639,
                         "value": "string",
-                        "raw": "'string'"
+                        "raw": "'string'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrayExpression",
@@ -548,7 +554,9 @@
                         "start": 708,
                         "end": 712,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrayExpression",

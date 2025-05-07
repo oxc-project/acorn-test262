@@ -47,35 +47,45 @@
                 "start": 321,
                 "end": 325,
                 "value": 1976,
-                "raw": "1976"
+                "raw": "1976",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 329,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 333,
                 "value": 18,
-                "raw": "18"
+                "raw": "18",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 337,
                 "value": 15,
-                "raw": "15"
+                "raw": "15",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,28 +118,36 @@
                 "start": 370,
                 "end": 404,
                 "value": "-271821-04-19T00:00:00.000000001",
-                "raw": "\"-271821-04-19T00:00:00.000000001\""
+                "raw": "\"-271821-04-19T00:00:00.000000001\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 423,
                 "value": "-271821-04-20",
-                "raw": "\"-271821-04-20\""
+                "raw": "\"-271821-04-20\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 427,
                 "end": 442,
                 "value": "+275760-09-13",
-                "raw": "\"+275760-09-13\""
+                "raw": "\"+275760-09-13\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 480,
                 "value": "+275760-09-13T23:59:59.999999999",
-                "raw": "\"+275760-09-13T23:59:59.999999999\""
+                "raw": "\"+275760-09-13T23:59:59.999999999\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -239,28 +257,36 @@
                 "start": 574,
                 "end": 589,
                 "value": "-271821-04-19",
-                "raw": "\"-271821-04-19\""
+                "raw": "\"-271821-04-19\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 593,
                 "end": 614,
                 "value": "-271821-04-19T00:00",
-                "raw": "\"-271821-04-19T00:00\""
+                "raw": "\"-271821-04-19T00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 618,
                 "end": 633,
                 "value": "+275760-09-14",
-                "raw": "\"+275760-09-14\""
+                "raw": "\"+275760-09-14\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 658,
                 "value": "+275760-09-14T00:00",
-                "raw": "\"+275760-09-14T00:00\""
+                "raw": "\"+275760-09-14T00:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

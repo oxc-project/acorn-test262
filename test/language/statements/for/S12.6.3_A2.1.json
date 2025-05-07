@@ -47,7 +47,9 @@
                           "start": 473,
                           "end": 489,
                           "value": "NoInExpression",
-                          "raw": "\"NoInExpression\""
+                          "raw": "\"NoInExpression\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -89,7 +91,9 @@
                           "start": 514,
                           "end": 532,
                           "value": "SecondExpression",
-                          "raw": "\"SecondExpression\""
+                          "raw": "\"SecondExpression\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -113,7 +117,9 @@
                     "start": 548,
                     "end": 559,
                     "value": "Statement",
-                    "raw": "\"Statement\""
+                    "raw": "\"Statement\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -139,7 +145,9 @@
                   "start": 588,
                   "end": 659,
                   "value": "#1: (function(){throw \"NoInExpression\"})() lead to throwing exception",
-                  "raw": "'#1: (function(){throw \"NoInExpression\"})() lead to throwing exception'"
+                  "raw": "'#1: (function(){throw \"NoInExpression\"})() lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -181,7 +189,9 @@
                   "start": 687,
                   "end": 703,
                   "value": "NoInExpression",
-                  "raw": "\"NoInExpression\""
+                  "raw": "\"NoInExpression\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -209,7 +219,9 @@
                           "start": 732,
                           "end": 833,
                           "value": "#2: When for (ExpressionNoIn ;  ; Expression) Statement is evaluated NoInExpression evaluates first",
-                          "raw": "'#2: When for (ExpressionNoIn ;  ; Expression) Statement is evaluated NoInExpression evaluates first'"
+                          "raw": "'#2: When for (ExpressionNoIn ;  ; Expression) Statement is evaluated NoInExpression evaluates first'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

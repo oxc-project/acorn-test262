@@ -28,14 +28,18 @@
                 "start": 269,
                 "end": 270,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 272,
                 "end": 275,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -74,14 +78,18 @@
                 "start": 303,
                 "end": 304,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 309,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -195,7 +203,9 @@
             "start": 401,
             "end": 459,
             "value": "Arrays containing different elements are not equivalent.",
-            "raw": "'Arrays containing different elements are not equivalent.'"
+            "raw": "'Arrays containing different elements are not equivalent.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

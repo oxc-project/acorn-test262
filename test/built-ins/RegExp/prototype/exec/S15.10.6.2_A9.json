@@ -86,7 +86,9 @@
                 "start": 411,
                 "end": 419,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 424,
             "end": 428,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 499,
             "value": "RegExp.prototype.exec.hasOwnProperty('length') must return true",
-            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,14 +200,18 @@
             "start": 563,
             "end": 567,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 646,
             "value": "The value of `delete RegExp.prototype.exec.length` is expected to be true",
-            "raw": "'The value of `delete RegExp.prototype.exec.length` is expected to be true'"
+            "raw": "'The value of `delete RegExp.prototype.exec.length` is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +300,9 @@
                 "start": 708,
                 "end": 716,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -300,14 +312,18 @@
             "start": 721,
             "end": 726,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 730,
             "end": 798,
             "value": "RegExp.prototype.exec.hasOwnProperty('length') must return false",
-            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return false'"
+            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

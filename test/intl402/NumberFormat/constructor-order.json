@@ -108,7 +108,9 @@
                               "start": 1041,
                               "end": 1051,
                               "value": "currency",
-                              "raw": "\"currency\""
+                              "raw": "\"currency\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -130,7 +132,9 @@
                               "start": 1059,
                               "end": 1065,
                               "value": "test",
-                              "raw": "\"test\""
+                              "raw": "\"test\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -251,7 +255,9 @@
                               "start": 1145,
                               "end": 1151,
                               "value": "unit",
-                              "raw": "\"unit\""
+                              "raw": "\"unit\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -273,7 +279,9 @@
                               "start": 1163,
                               "end": 1169,
                               "value": "test",
-                              "raw": "\"test\""
+                              "raw": "\"test\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

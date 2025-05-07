@@ -41,7 +41,9 @@
             "start": 1373,
             "end": 1380,
             "value": "data1",
-            "raw": "'data1'"
+            "raw": "'data1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -66,7 +68,9 @@
                   "start": 1400,
                   "end": 1405,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -88,7 +92,9 @@
                   "start": 1414,
                   "end": 1415,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -110,7 +116,9 @@
                   "start": 1427,
                   "end": 1431,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -132,7 +140,9 @@
                   "start": 1445,
                   "end": 1450,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -180,7 +190,9 @@
             "start": 1490,
             "end": 1497,
             "value": "data2",
-            "raw": "'data2'"
+            "raw": "'data2'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -205,7 +217,9 @@
                   "start": 1517,
                   "end": 1522,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -227,7 +241,9 @@
                   "start": 1531,
                   "end": 1532,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -249,7 +265,9 @@
                   "start": 1544,
                   "end": 1549,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -271,7 +289,9 @@
                   "start": 1563,
                   "end": 1567,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -319,7 +339,9 @@
             "start": 1607,
             "end": 1614,
             "value": "data3",
-            "raw": "'data3'"
+            "raw": "'data3'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -344,7 +366,9 @@
                   "start": 1634,
                   "end": 1639,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -366,7 +390,9 @@
                   "start": 1648,
                   "end": 1649,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -388,7 +414,9 @@
                   "start": 1661,
                   "end": 1666,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -410,7 +438,9 @@
                   "start": 1680,
                   "end": 1685,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -458,7 +488,9 @@
             "start": 1725,
             "end": 1736,
             "value": "accessor1",
-            "raw": "'accessor1'"
+            "raw": "'accessor1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -483,7 +515,9 @@
                   "start": 1761,
                   "end": 1766,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -567,7 +601,9 @@
                   "start": 1832,
                   "end": 1836,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -615,7 +651,9 @@
             "start": 1878,
             "end": 1889,
             "value": "accessor2",
-            "raw": "'accessor2'"
+            "raw": "'accessor2'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -640,7 +678,9 @@
                   "start": 1914,
                   "end": 1919,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -724,7 +764,9 @@
                   "start": 1985,
                   "end": 1989,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -815,7 +857,9 @@
                         "start": 2054,
                         "end": 2082,
                         "value": "var x; function data1() {}",
-                        "raw": "'var x; function data1() {}'"
+                        "raw": "'var x; function data1() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -829,7 +873,9 @@
             "start": 2088,
             "end": 2128,
             "value": "writable, non-enumerable data property",
-            "raw": "'writable, non-enumerable data property'"
+            "raw": "'writable, non-enumerable data property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -902,7 +948,9 @@
             "start": 2182,
             "end": 2247,
             "value": "bindings not created for writable, non-enumerable data property",
-            "raw": "'bindings not created for writable, non-enumerable data property'"
+            "raw": "'bindings not created for writable, non-enumerable data property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -989,7 +1037,9 @@
                         "start": 2307,
                         "end": 2335,
                         "value": "var x; function data2() {}",
-                        "raw": "'var x; function data2() {}'"
+                        "raw": "'var x; function data2() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1003,7 +1053,9 @@
             "start": 2341,
             "end": 2381,
             "value": "non-writable, enumerable data property",
-            "raw": "'non-writable, enumerable data property'"
+            "raw": "'non-writable, enumerable data property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1076,7 +1128,9 @@
             "start": 2435,
             "end": 2500,
             "value": "bindings not created for non-writable, enumerable data property",
-            "raw": "'bindings not created for non-writable, enumerable data property'"
+            "raw": "'bindings not created for non-writable, enumerable data property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1163,7 +1217,9 @@
                         "start": 2560,
                         "end": 2588,
                         "value": "var x; function data3() {}",
-                        "raw": "'var x; function data3() {}'"
+                        "raw": "'var x; function data3() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1177,7 +1233,9 @@
             "start": 2594,
             "end": 2638,
             "value": "non-writable, non-enumerable data property",
-            "raw": "'non-writable, non-enumerable data property'"
+            "raw": "'non-writable, non-enumerable data property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1250,7 +1308,9 @@
             "start": 2692,
             "end": 2761,
             "value": "bindings not created for non-writable, non-enumerable data property",
-            "raw": "'bindings not created for non-writable, non-enumerable data property'"
+            "raw": "'bindings not created for non-writable, non-enumerable data property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1337,7 +1397,9 @@
                         "start": 2821,
                         "end": 2853,
                         "value": "var x; function accessor1() {}",
-                        "raw": "'var x; function accessor1() {}'"
+                        "raw": "'var x; function accessor1() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1351,7 +1413,9 @@
             "start": 2859,
             "end": 2889,
             "value": "enumerable accessor property",
-            "raw": "'enumerable accessor property'"
+            "raw": "'enumerable accessor property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1424,7 +1488,9 @@
             "start": 2943,
             "end": 2997,
             "value": "bindings not created for enumerableaccessor property",
-            "raw": "'bindings not created for enumerableaccessor property'"
+            "raw": "'bindings not created for enumerableaccessor property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1511,7 +1577,9 @@
                         "start": 3057,
                         "end": 3089,
                         "value": "var x; function accessor2() {}",
-                        "raw": "'var x; function accessor2() {}'"
+                        "raw": "'var x; function accessor2() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1525,7 +1593,9 @@
             "start": 3095,
             "end": 3129,
             "value": "non-enumerable accessor property",
-            "raw": "'non-enumerable accessor property'"
+            "raw": "'non-enumerable accessor property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1598,7 +1668,9 @@
             "start": 3183,
             "end": 3241,
             "value": "bindings not created for non-enumerableaccessor property",
-            "raw": "'bindings not created for non-enumerableaccessor property'"
+            "raw": "'bindings not created for non-enumerableaccessor property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

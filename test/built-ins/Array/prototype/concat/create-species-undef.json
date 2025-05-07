@@ -274,7 +274,9 @@
             "start": 883,
             "end": 942,
             "value": "Object.getPrototypeOf(a.concat()) returns Array.prototype",
-            "raw": "'Object.getPrototypeOf(a.concat()) returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf(a.concat()) returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +335,9 @@
             "start": 976,
             "end": 1016,
             "value": "Array.isArray(result) must return true",
-            "raw": "'Array.isArray(result) must return true'"
+            "raw": "'Array.isArray(result) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

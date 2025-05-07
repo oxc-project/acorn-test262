@@ -34,7 +34,9 @@
                 "start": 430,
                 "end": 431,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -62,7 +64,9 @@
             "start": 446,
             "end": 451,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -139,7 +143,9 @@
                   "start": 506,
                   "end": 510,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -211,7 +217,9 @@
                               "start": 583,
                               "end": 619,
                               "value": "Expected a ReferenceError, but a \"",
-                              "raw": "'Expected a ReferenceError, but a \"'"
+                              "raw": "'Expected a ReferenceError, but a \"'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -253,7 +261,9 @@
                             "start": 651,
                             "end": 666,
                             "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "raw": "'\" was thrown.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -288,7 +298,9 @@
           "start": 695,
           "end": 700,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -316,7 +328,9 @@
                   "start": 722,
                   "end": 775,
                   "value": "Expected a ReferenceError, but no error was thrown.",
-                  "raw": "'Expected a ReferenceError, but no error was thrown.'"
+                  "raw": "'Expected a ReferenceError, but no error was thrown.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

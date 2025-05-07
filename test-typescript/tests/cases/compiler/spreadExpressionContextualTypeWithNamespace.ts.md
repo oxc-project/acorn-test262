@@ -106,7 +106,9 @@ __ESTREE_TEST__:PASS:
                   "start": 96,
                   "end": 100,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -258,7 +260,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 72,
         "raw": "\"./spreadExpressionContextualTypeWithNamespace_0\"",
-        "value": "./spreadExpressionContextualTypeWithNamespace_0"
+        "value": "./spreadExpressionContextualTypeWithNamespace_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

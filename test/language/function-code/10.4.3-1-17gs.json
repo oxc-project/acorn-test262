@@ -27,7 +27,9 @@
               "start": 298,
               "end": 304,
               "value": "this",
-              "raw": "\"this\""
+              "raw": "\"this\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -53,7 +55,9 @@
               "start": 328,
               "end": 357,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

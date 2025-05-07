@@ -24,7 +24,9 @@
               "start": 485,
               "end": 487,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -50,7 +52,9 @@
             "start": 503,
             "end": 504,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -83,7 +87,9 @@
                     "start": 533,
                     "end": 568,
                     "value": "#1: \"\".indexOf() === -1. Actual: ",
-                    "raw": "'#1: \"\".indexOf() === -1. Actual: '"
+                    "raw": "'#1: \"\".indexOf() === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -103,7 +109,9 @@
                           "start": 572,
                           "end": 574,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",

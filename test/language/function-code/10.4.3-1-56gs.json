@@ -23,7 +23,9 @@
             "start": 250,
             "end": 251,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -149,7 +151,9 @@
           "start": 300,
           "end": 301,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -189,7 +193,9 @@
               "start": 326,
               "end": 355,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -34,7 +34,9 @@
                 "start": 742,
                 "end": 744,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -114,7 +116,9 @@
             "start": 854,
             "end": 855,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -194,7 +198,9 @@
                           "start": 918,
                           "end": 919,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -258,7 +264,9 @@
                 "start": 953,
                 "end": 956,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -280,7 +288,9 @@
             "start": 976,
             "end": 995,
             "value": "[[Set]] succeeeds",
-            "raw": "\"[[Set]] succeeeds\""
+            "raw": "\"[[Set]] succeeeds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,14 +335,18 @@
             "start": 1031,
             "end": 1032,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1034,
             "end": 1066,
             "value": "valueOf is called exactly once",
-            "raw": "\"valueOf is called exactly once\""
+            "raw": "\"valueOf is called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

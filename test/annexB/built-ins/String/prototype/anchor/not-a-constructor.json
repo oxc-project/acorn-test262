@@ -82,14 +82,18 @@
             "start": 756,
             "end": 761,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 765,
             "end": 823,
             "value": "isConstructor(String.prototype.anchor) must return false",
-            "raw": "'isConstructor(String.prototype.anchor) must return false'"
+            "raw": "'isConstructor(String.prototype.anchor) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

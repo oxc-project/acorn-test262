@@ -44,7 +44,9 @@
                     "start": 279,
                     "end": 282,
                     "value": 1.1,
-                    "raw": "1.1"
+                    "raw": "1.1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -69,7 +71,9 @@
               "start": 300,
               "end": 306,
               "value": "-1.1",
-              "raw": "\"-1.1\""
+              "raw": "\"-1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -104,7 +108,9 @@
                     "start": 336,
                     "end": 403,
                     "value": "#1: parseFloat(new Number(-1.1)) === parseFloat(\"-1.1\"). Actual: ",
-                    "raw": "'#1: parseFloat(new Number(-1.1)) === parseFloat(\"-1.1\"). Actual: '"
+                    "raw": "'#1: parseFloat(new Number(-1.1)) === parseFloat(\"-1.1\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -144,7 +150,9 @@
                                 "start": 430,
                                 "end": 433,
                                 "value": 1.1,
-                                "raw": "1.1"
+                                "raw": "1.1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -219,7 +227,9 @@
               "start": 504,
               "end": 514,
               "value": "Infinity",
-              "raw": "\"Infinity\""
+              "raw": "\"Infinity\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -254,7 +264,9 @@
                     "start": 544,
                     "end": 619,
                     "value": "#2: parseFloat(new Number(Infinity)) === parseFloat(\"Infinity\"). Actual: ",
-                    "raw": "'#2: parseFloat(new Number(Infinity)) === parseFloat(\"Infinity\"). Actual: '"
+                    "raw": "'#2: parseFloat(new Number(Infinity)) === parseFloat(\"Infinity\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -364,7 +376,9 @@
           "start": 716,
           "end": 721,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -396,7 +410,9 @@
                     "start": 750,
                     "end": 811,
                     "value": "#3: String(parseFloat(new Number(NaN))) === \"NaN\". Actual: ",
-                    "raw": "'#3: String(parseFloat(new Number(NaN))) === \"NaN\". Actual: '"
+                    "raw": "'#3: String(parseFloat(new Number(NaN))) === \"NaN\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -494,7 +510,9 @@
                   "start": 893,
                   "end": 899,
                   "value": 1,
-                  "raw": ".01e+2"
+                  "raw": ".01e+2",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -518,7 +536,9 @@
               "start": 917,
               "end": 925,
               "value": ".01e+2",
-              "raw": "\".01e+2\""
+              "raw": "\".01e+2\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -553,7 +573,9 @@
                     "start": 955,
                     "end": 1026,
                     "value": "#4: parseFloat(new Number(.01e+2)) === parseFloat(\".01e+2\"). Actual: ",
-                    "raw": "'#4: parseFloat(new Number(.01e+2)) === parseFloat(\".01e+2\"). Actual: '"
+                    "raw": "'#4: parseFloat(new Number(.01e+2)) === parseFloat(\".01e+2\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -587,7 +609,9 @@
                               "start": 1052,
                               "end": 1058,
                               "value": 1,
-                              "raw": ".01e+2"
+                              "raw": ".01e+2",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

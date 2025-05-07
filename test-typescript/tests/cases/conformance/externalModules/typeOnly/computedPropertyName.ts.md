@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 29,
                   "end": 37,
                   "raw": "\"onInit\"",
-                  "value": "onInit"
+                  "value": "onInit",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 47,
         "raw": "\"./framework-hooks\"",
-        "value": "./framework-hooks"
+        "value": "./framework-hooks",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -270,7 +274,9 @@ __ESTREE_TEST__:PASS:
                   "start": 151,
                   "end": 152,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -380,7 +386,9 @@ __ESTREE_TEST__:PASS:
               "start": 251,
               "end": 252,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

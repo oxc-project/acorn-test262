@@ -81,7 +81,9 @@
                               "start": 591,
                               "end": 632,
                               "value": "var f = 123;    init = f;switch (1) {",
-                              "raw": "'var f = 123;\\\n    init = f;switch (1) {'"
+                              "raw": "'var f = 123;\\\n    init = f;switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -89,7 +91,9 @@
                               "start": 639,
                               "end": 650,
                               "value": "  case 1:",
-                              "raw": "'  case 1:'"
+                              "raw": "'  case 1:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -98,7 +102,9 @@
                             "start": 657,
                             "end": 680,
                             "value": "    function f() {  }",
-                            "raw": "'    function f() {  }'"
+                            "raw": "'    function f() {  }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -107,7 +113,9 @@
                           "start": 687,
                           "end": 696,
                           "value": "}    ",
-                          "raw": "'}\\\n    '"
+                          "raw": "'}\\\n    '",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -161,7 +169,9 @@
             "start": 732,
             "end": 735,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

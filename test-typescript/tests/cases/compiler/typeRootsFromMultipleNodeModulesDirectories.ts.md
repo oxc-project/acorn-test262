@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"xyz\"",
-        "value": "xyz"
+        "value": "xyz",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -144,7 +146,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"pdq\"",
-        "value": "pdq"
+        "value": "pdq",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -221,7 +225,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"abc\"",
-        "value": "abc"
+        "value": "abc",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -247,7 +253,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 23,
         "raw": "\"xyz\"",
-        "value": "xyz"
+        "value": "xyz",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -287,7 +295,9 @@ __ESTREE_TEST__:PASS:
         "start": 43,
         "end": 48,
         "raw": "\"pdq\"",
-        "value": "pdq"
+        "value": "pdq",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -327,7 +337,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 73,
         "raw": "\"abc\"",
-        "value": "abc"
+        "value": "abc",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

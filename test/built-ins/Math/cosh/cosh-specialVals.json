@@ -88,7 +88,9 @@
             "start": 250,
             "end": 295,
             "value": "Math.cosh produces incorrect output for NaN",
-            "raw": "\"Math.cosh produces incorrect output for NaN\""
+            "raw": "\"Math.cosh produces incorrect output for NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -151,7 +153,9 @@
                 "start": 325,
                 "end": 326,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -161,14 +165,18 @@
             "start": 329,
             "end": 330,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 332,
             "end": 374,
             "value": "Math.cosh should produce 1 for input = 0",
-            "raw": "\"Math.cosh should produce 1 for input = 0\""
+            "raw": "\"Math.cosh should produce 1 for input = 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,7 +245,9 @@
                   "start": 405,
                   "end": 406,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -248,14 +258,18 @@
             "start": 409,
             "end": 410,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 455,
             "value": "Math.cosh should produce 1 for input = -0",
-            "raw": "\"Math.cosh should produce 1 for input = -0\""
+            "raw": "\"Math.cosh should produce 1 for input = -0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +373,9 @@
             "start": 540,
             "end": 620,
             "value": "Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY",
-            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY\""
+            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -463,7 +479,9 @@
             "start": 705,
             "end": 785,
             "value": "Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

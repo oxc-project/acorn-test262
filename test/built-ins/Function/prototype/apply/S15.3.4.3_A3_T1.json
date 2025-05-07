@@ -31,7 +31,9 @@
                 "start": 341,
                 "end": 368,
                 "value": "this.field=\"strawberry\"",
-                "raw": "\"this.field=\\\"strawberry\\\"\""
+                "raw": "\"this.field=\\\"strawberry\\\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -91,7 +93,9 @@
               "start": 402,
               "end": 409,
               "value": "field",
-              "raw": "\"field\""
+              "raw": "\"field\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -101,14 +105,18 @@
             "start": 412,
             "end": 424,
             "value": "strawberry",
-            "raw": "\"strawberry\""
+            "raw": "\"strawberry\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 485,
             "value": "The value of this[\"field\"] is expected to be \"strawberry\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"strawberry\"'"
+            "raw": "'The value of this[\"field\"] is expected to be \"strawberry\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

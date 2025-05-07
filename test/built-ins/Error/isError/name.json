@@ -68,7 +68,9 @@
             "start": 303,
             "end": 312,
             "value": "isError",
-            "raw": "'isError'"
+            "raw": "'isError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

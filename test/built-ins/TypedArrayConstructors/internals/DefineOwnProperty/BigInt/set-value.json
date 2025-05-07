@@ -76,6 +76,7 @@
                                 "end": 1589,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 1593,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               }
                             ]
@@ -157,7 +159,9 @@
                             "start": 1653,
                             "end": 1656,
                             "value": "0",
-                            "raw": "\"0\""
+                            "raw": "\"0\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -183,6 +187,7 @@
                                   "end": 1668,
                                   "value": null,
                                   "raw": "1n",
+                                  "regex": null,
                                   "bigint": "1"
                                 },
                                 "kind": "init"
@@ -197,14 +202,18 @@
                         "start": 1676,
                         "end": 1680,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1686,
                         "end": 1724,
                         "value": "set value for sample[0] returns true",
-                        "raw": "\"set value for sample[0] returns true\""
+                        "raw": "\"set value for sample[0] returns true\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -273,7 +282,9 @@
                             "start": 1786,
                             "end": 1789,
                             "value": "1",
-                            "raw": "\"1\""
+                            "raw": "\"1\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -299,6 +310,7 @@
                                   "end": 1801,
                                   "value": null,
                                   "raw": "2n",
+                                  "regex": null,
                                   "bigint": "2"
                                 },
                                 "kind": "init"
@@ -313,14 +325,18 @@
                         "start": 1809,
                         "end": 1813,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1819,
                         "end": 1857,
                         "value": "set value for sample[1] returns true",
-                        "raw": "\"set value for sample[1] returns true\""
+                        "raw": "\"set value for sample[1] returns true\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -369,7 +385,9 @@
                           "start": 1890,
                           "end": 1891,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -380,6 +398,7 @@
                         "end": 1896,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {
@@ -387,7 +406,9 @@
                         "start": 1898,
                         "end": 1909,
                         "value": "sample[0]",
-                        "raw": "\"sample[0]\""
+                        "raw": "\"sample[0]\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -436,7 +457,9 @@
                           "start": 1938,
                           "end": 1939,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -447,6 +470,7 @@
                         "end": 1944,
                         "value": null,
                         "raw": "2n",
+                        "regex": null,
                         "bigint": "2"
                       },
                       {
@@ -454,7 +478,9 @@
                         "start": 1946,
                         "end": 1957,
                         "value": "sample[1]",
-                        "raw": "\"sample[1]\""
+                        "raw": "\"sample[1]\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

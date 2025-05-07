@@ -23,7 +23,9 @@
             "start": 2557,
             "end": 2558,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -110,7 +112,9 @@
                                 "start": 2604,
                                 "end": 2606,
                                 "value": 33,
-                                "raw": "33"
+                                "raw": "33",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "kind": "init"
@@ -162,7 +166,9 @@
                                 "start": 2636,
                                 "end": 2638,
                                 "value": 33,
-                                "raw": "33"
+                                "raw": "33",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -265,7 +271,9 @@
                                 "start": 2733,
                                 "end": 2734,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -432,14 +440,18 @@
             "start": 2848,
             "end": 2849,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2851,
             "end": 2880,
             "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "raw": "'method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

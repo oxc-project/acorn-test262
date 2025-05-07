@@ -22,7 +22,9 @@
             "start": 279,
             "end": 284,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -31,7 +33,9 @@
           "start": 289,
           "end": 290,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -63,7 +67,9 @@
                     "start": 319,
                     "end": 347,
                     "value": "#1: +false === 0. Actual: ",
-                    "raw": "'#1: +false === 0. Actual: '"
+                    "raw": "'#1: +false === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -81,7 +87,9 @@
                         "start": 352,
                         "end": 357,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -123,7 +131,9 @@
                 "start": 391,
                 "end": 395,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -134,7 +144,9 @@
           "start": 401,
           "end": 402,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -166,7 +178,9 @@
                     "start": 431,
                     "end": 471,
                     "value": "#2: +new Boolean(true) === 1. Actual: ",
-                    "raw": "'#2: +new Boolean(true) === 1. Actual: '"
+                    "raw": "'#2: +new Boolean(true) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +209,9 @@
                             "start": 488,
                             "end": 492,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

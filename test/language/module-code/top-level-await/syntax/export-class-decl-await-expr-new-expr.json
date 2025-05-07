@@ -133,7 +133,9 @@
                                 "start": 2052,
                                 "end": 2053,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

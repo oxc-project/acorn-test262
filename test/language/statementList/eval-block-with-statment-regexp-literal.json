@@ -34,7 +34,9 @@
                 "start": 1000,
                 "end": 1020,
                 "value": "{length: 3000}/1/;",
-                "raw": "'{length: 3000}/1/;'"
+                "raw": "'{length: 3000}/1/;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 1092,
             "end": 1096,
             "value": 3000,
-            "raw": "3000"
+            "raw": "3000",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

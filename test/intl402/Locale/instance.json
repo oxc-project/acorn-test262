@@ -47,7 +47,9 @@
                 "start": 443,
                 "end": 447,
                 "value": "en",
-                "raw": "'en'"
+                "raw": "'en'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -153,7 +155,9 @@
             "start": 533,
             "end": 605,
             "value": "Object.getPrototypeOf(value) equals the value of Intl.Locale.prototype",
-            "raw": "\"Object.getPrototypeOf(value) equals the value of Intl.Locale.prototype\""
+            "raw": "\"Object.getPrototypeOf(value) equals the value of Intl.Locale.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

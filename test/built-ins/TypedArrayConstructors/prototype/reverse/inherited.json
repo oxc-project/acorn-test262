@@ -109,7 +109,9 @@
                             "start": 408,
                             "end": 417,
                             "value": "reverse",
-                            "raw": "\"reverse\""
+                            "raw": "\"reverse\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 420,
                         "end": 425,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

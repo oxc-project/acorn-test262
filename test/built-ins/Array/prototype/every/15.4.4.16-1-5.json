@@ -23,7 +23,9 @@
             "start": 259,
             "end": 264,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 317,
                 "end": 321,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -154,7 +158,9 @@
             "start": 375,
             "end": 376,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -164,7 +170,9 @@
           "start": 380,
           "end": 381,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -214,7 +222,9 @@
           "start": 409,
           "end": 410,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -288,7 +298,9 @@
                 "start": 447,
                 "end": 450,
                 "value": 2.5,
-                "raw": "2.5"
+                "raw": "2.5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -304,7 +316,9 @@
             "start": 465,
             "end": 519,
             "value": "Array.prototype.every.call(2.5, callbackfn) !== true",
-            "raw": "'Array.prototype.every.call(2.5, callbackfn) !== true'"
+            "raw": "'Array.prototype.every.call(2.5, callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -336,7 +350,9 @@
             "start": 539,
             "end": 558,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

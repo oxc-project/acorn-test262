@@ -62,7 +62,9 @@
                 "start": 420,
                 "end": 434,
                 "value": "whiskey gogo",
-                "raw": "\"whiskey gogo\""
+                "raw": "\"whiskey gogo\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -152,7 +154,9 @@
           "start": 578,
           "end": 592,
           "value": "whiskey gogo",
-          "raw": "\"whiskey gogo\""
+          "raw": "\"whiskey gogo\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -184,7 +188,9 @@
                     "start": 620,
                     "end": 677,
                     "value": "#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ===",
-                    "raw": "'#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ==='"
+                    "raw": "'#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -28,21 +28,27 @@
                 "start": 418,
                 "end": 419,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 422,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 425,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -96,14 +102,18 @@
             "start": 458,
             "end": 466,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 522,
             "value": "The value of `typeof arr` is expected to be \"object\"",
-            "raw": "'The value of `typeof arr` is expected to be \"object\"'"
+            "raw": "'The value of `typeof arr` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +191,9 @@
             "start": 561,
             "end": 562,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +244,9 @@
             "start": 595,
             "end": 653,
             "value": "The value of n_obj is expected to equal the value of arr",
-            "raw": "'The value of n_obj is expected to equal the value of arr'"
+            "raw": "'The value of n_obj is expected to equal the value of arr'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +295,9 @@
               "start": 679,
               "end": 680,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -291,14 +307,18 @@
             "start": 683,
             "end": 684,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 729,
             "value": "The value of n_obj[3] is expected to be 4",
-            "raw": "'The value of n_obj[3] is expected to be 4'"
+            "raw": "'The value of n_obj[3] is expected to be 4'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

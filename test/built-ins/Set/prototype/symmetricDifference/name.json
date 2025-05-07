@@ -75,7 +75,9 @@
             "start": 435,
             "end": 445,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -133,7 +135,9 @@
             "start": 499,
             "end": 505,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -158,7 +162,9 @@
                   "start": 523,
                   "end": 528,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -180,7 +186,9 @@
                   "start": 542,
                   "end": 547,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -202,7 +210,9 @@
                   "start": 565,
                   "end": 569,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -224,7 +234,9 @@
                   "start": 580,
                   "end": 601,
                   "value": "symmetricDifference",
-                  "raw": "\"symmetricDifference\""
+                  "raw": "\"symmetricDifference\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

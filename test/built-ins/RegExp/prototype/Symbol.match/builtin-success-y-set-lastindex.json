@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "a",
               "flags": "y"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -79,7 +80,9 @@
             "start": 784,
             "end": 787,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +140,9 @@
             "start": 821,
             "end": 822,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

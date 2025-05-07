@@ -57,7 +57,9 @@
             "start": 412,
             "end": 422,
             "value": "timeZone",
-            "raw": "\"timeZone\""
+            "raw": "\"timeZone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -112,6 +114,7 @@
                       "end": 473,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

@@ -28,21 +28,27 @@
                 "start": 388,
                 "end": 389,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 392,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 395,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -121,7 +127,9 @@
             "start": 438,
             "end": 439,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,7 +180,9 @@
             "start": 472,
             "end": 530,
             "value": "The value of n_obj is expected to equal the value of arr",
-            "raw": "'The value of n_obj is expected to equal the value of arr'"
+            "raw": "'The value of n_obj is expected to equal the value of arr'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,7 +231,9 @@
               "start": 556,
               "end": 557,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -231,14 +243,18 @@
             "start": 560,
             "end": 561,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 606,
             "value": "The value of n_obj[3] is expected to be 4",
-            "raw": "'The value of n_obj[3] is expected to be 4'"
+            "raw": "'The value of n_obj[3] is expected to be 4'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

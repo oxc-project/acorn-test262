@@ -41,7 +41,9 @@
                     "start": 437,
                     "end": 438,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -97,14 +99,18 @@
             "start": 474,
             "end": 484,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 543,
             "value": "The value of `typeof func` is expected to be \"function\"",
-            "raw": "'The value of `typeof func` is expected to be \"function\"'"
+            "raw": "'The value of `typeof func` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +200,9 @@
             "start": 604,
             "end": 663,
             "value": "The value of n_obj is expected to equal the value of func",
-            "raw": "'The value of n_obj is expected to equal the value of func'"
+            "raw": "'The value of n_obj is expected to equal the value of func'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -246,14 +254,18 @@
             "start": 692,
             "end": 693,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 695,
             "end": 718,
             "value": "n_obj() must return 1",
-            "raw": "'n_obj() must return 1'"
+            "raw": "'n_obj() must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

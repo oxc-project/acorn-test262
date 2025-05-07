@@ -64,7 +64,9 @@
                       "start": 368,
                       "end": 369,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -84,7 +86,9 @@
             "start": 391,
             "end": 490,
             "value": "#1: LineTerminator(U-000A) between return and Identifier_opt yields return without Identifier_opt",
-            "raw": "\"#1: LineTerminator(U-000A) between return and Identifier_opt yields return without Identifier_opt\""
+            "raw": "\"#1: LineTerminator(U-000A) between return and Identifier_opt yields return without Identifier_opt\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -151,7 +155,9 @@
                       "start": 534,
                       "end": 535,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -171,7 +177,9 @@
             "start": 557,
             "end": 656,
             "value": "#1: LineTerminator(U-000D) between return and Identifier_opt yields return without Identifier_opt",
-            "raw": "\"#1: LineTerminator(U-000D) between return and Identifier_opt yields return without Identifier_opt\""
+            "raw": "\"#1: LineTerminator(U-000D) between return and Identifier_opt yields return without Identifier_opt\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +246,9 @@
                       "start": 701,
                       "end": 702,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -258,7 +268,9 @@
             "start": 724,
             "end": 823,
             "value": "#1: LineTerminator(U-2028) between return and Identifier_opt yields return without Identifier_opt",
-            "raw": "\"#1: LineTerminator(U-2028) between return and Identifier_opt yields return without Identifier_opt\""
+            "raw": "\"#1: LineTerminator(U-2028) between return and Identifier_opt yields return without Identifier_opt\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,7 +337,9 @@
                       "start": 867,
                       "end": 868,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -345,7 +359,9 @@
             "start": 890,
             "end": 989,
             "value": "#1: LineTerminator(U-2029) between return and Identifier_opt yields return without Identifier_opt",
-            "raw": "\"#1: LineTerminator(U-2029) between return and Identifier_opt yields return without Identifier_opt\""
+            "raw": "\"#1: LineTerminator(U-2029) between return and Identifier_opt yields return without Identifier_opt\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

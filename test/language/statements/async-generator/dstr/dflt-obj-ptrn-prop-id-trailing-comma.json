@@ -23,7 +23,9 @@
             "start": 945,
             "end": 946,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -98,7 +100,9 @@
                   "start": 983,
                   "end": 985,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -150,7 +154,9 @@
                   "start": 1013,
                   "end": 1015,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -253,7 +259,9 @@
                   "start": 1103,
                   "end": 1104,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -382,14 +390,18 @@
                             "start": 1165,
                             "end": 1166,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1168,
                             "end": 1190,
                             "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "raw": "'invoked exactly once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

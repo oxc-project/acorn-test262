@@ -63,7 +63,8 @@
                           "regex": {
                             "pattern": "77",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         }
                       }
                     ]
@@ -108,7 +109,9 @@
                 "start": 387,
                 "end": 400,
                 "value": 1100.00777001,
-                "raw": "1100.00777001"
+                "raw": "1100.00777001",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -254,7 +257,9 @@
                         "start": 589,
                         "end": 590,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -265,7 +270,9 @@
                     "start": 596,
                     "end": 610,
                     "value": "1100.0017001",
-                    "raw": "\"1100.0017001\""
+                    "raw": "\"1100.0017001\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -292,7 +299,9 @@
                   "start": 637,
                   "end": 723,
                   "value": "#1.0: x = __instance.replace(__obj, 1) === \"1100.0017001\" lead to throwing exception",
-                  "raw": "'#1.0: x = __instance.replace(__obj, 1) === \"1100.0017001\" lead to throwing exception'"
+                  "raw": "'#1.0: x = __instance.replace(__obj, 1) === \"1100.0017001\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -377,7 +386,9 @@
                             "start": 802,
                             "end": 854,
                             "value": "#1.1: Exception is instance of TypeError. Actual: ",
-                            "raw": "'#1.1: Exception is instance of TypeError. Actual: '"
+                            "raw": "'#1.1: Exception is instance of TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

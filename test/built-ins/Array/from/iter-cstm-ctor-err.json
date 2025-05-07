@@ -253,7 +253,9 @@
             "start": 700,
             "end": 759,
             "value": "Array.from.call(C, items) throws a Test262Error exception",
-            "raw": "'Array.from.call(C, items) throws a Test262Error exception'"
+            "raw": "'Array.from.call(C, items) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

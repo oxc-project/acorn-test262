@@ -88,7 +88,9 @@
             "start": 477,
             "end": 549,
             "value": "Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`",
-            "raw": "'Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`'"
+            "raw": "'Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

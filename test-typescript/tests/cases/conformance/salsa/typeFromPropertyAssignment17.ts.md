@@ -521,7 +521,9 @@ __ESTREE_TEST__:PASS:
                 "start": 56,
                 "end": 69,
                 "raw": "'./minimatch'",
-                "value": "./minimatch"
+                "value": "./minimatch",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

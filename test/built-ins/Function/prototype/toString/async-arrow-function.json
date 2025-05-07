@@ -86,7 +86,9 @@
               "start": 538,
               "end": 539,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -129,7 +131,9 @@
               "start": 607,
               "end": 608,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -162,7 +166,9 @@
             "start": 656,
             "end": 754,
             "value": "async /* a */ ( /* b */ a /* c */ , /* d */ b /* e */ ) /* f */ => /* g */ { /* h */ ; /* i */ }",
-            "raw": "\"async /* a */ ( /* b */ a /* c */ , /* d */ b /* e */ ) /* f */ => /* g */ { /* h */ ; /* i */ }\""
+            "raw": "\"async /* a */ ( /* b */ a /* c */ , /* d */ b /* e */ ) /* f */ => /* g */ { /* h */ ; /* i */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +200,9 @@
             "start": 791,
             "end": 839,
             "value": "async /* a */ ( /* b */ ) /* c */ => /* d */ 0",
-            "raw": "\"async /* a */ ( /* b */ ) /* c */ => /* d */ 0\""
+            "raw": "\"async /* a */ ( /* b */ ) /* c */ => /* d */ 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +234,9 @@
             "start": 876,
             "end": 914,
             "value": "async /* a */ a /* b */ => /* c */ 0",
-            "raw": "\"async /* a */ a /* b */ => /* c */ 0\""
+            "raw": "\"async /* a */ a /* b */ => /* c */ 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

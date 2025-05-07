@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 10,
             "raw": "''",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -65,7 +67,9 @@ __ESTREE_TEST__:PASS:
                 "start": 32,
                 "end": 41,
                 "raw": "'invalid'",
-                "value": "invalid"
+                "value": "invalid",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -88,7 +92,9 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 30,
                 "raw": "'charAt'",
-                "value": "charAt"
+                "value": "charAt",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,

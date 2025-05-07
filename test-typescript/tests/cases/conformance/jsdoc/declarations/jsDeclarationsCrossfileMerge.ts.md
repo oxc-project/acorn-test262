@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 30,
                 "raw": "\"./exporter\"",
-                "value": "./exporter"
+                "value": "./exporter",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -172,7 +174,9 @@ __ESTREE_TEST__:PASS:
           "start": 90,
           "end": 97,
           "raw": "\"thing\"",
-          "value": "thing"
+          "value": "thing",
+          "regex": null,
+          "bigint": null
         }
       }
     }

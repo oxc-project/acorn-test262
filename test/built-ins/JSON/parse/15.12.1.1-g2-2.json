@@ -84,7 +84,9 @@
                         "start": 288,
                         "end": 295,
                         "value": "'abc'",
-                        "raw": "\"'abc'\""
+                        "raw": "\"'abc'\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

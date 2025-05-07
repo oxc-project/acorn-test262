@@ -23,7 +23,9 @@
             "start": 379,
             "end": 392,
             "value": "rock'n'roll",
-            "raw": "\"rock'n'roll\""
+            "raw": "\"rock'n'roll\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
                     "start": 452,
                     "end": 521,
                     "value": "#1: var str = \"rock'n'roll\"; str.constructor === String. Actual: ",
-                    "raw": "'#1: var str = \"rock\\'n\\'roll\"; str.constructor === String. Actual: '"
+                    "raw": "'#1: var str = \"rock\\'n\\'roll\"; str.constructor === String. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -239,7 +239,9 @@
                             "start": 2050,
                             "end": 2100,
                             "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "raw": "\"Expected async function to reject, but resolved.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

@@ -178,7 +178,9 @@
                 "start": 550,
                 "end": 551,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -190,7 +192,9 @@
           "start": 557,
           "end": 559,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -222,7 +226,9 @@
                     "start": 588,
                     "end": 657,
                     "value": "#1: __instance.charAt(-1) === \"\". Actual: __instance.charAt(-1) ===",
-                    "raw": "'#1: __instance.charAt(-1) === \"\". Actual: __instance.charAt(-1) ==='"
+                    "raw": "'#1: __instance.charAt(-1) === \"\". Actual: __instance.charAt(-1) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -260,7 +266,9 @@
                           "start": 679,
                           "end": 680,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

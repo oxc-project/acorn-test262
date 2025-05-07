@@ -265,7 +265,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 33,
         "raw": "'./aux'",
-        "value": "./aux"
+        "value": "./aux",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -305,7 +307,9 @@ __ESTREE_TEST__:PASS:
         "start": 62,
         "end": 70,
         "raw": "'./aux1'",
-        "value": "./aux1"
+        "value": "./aux1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

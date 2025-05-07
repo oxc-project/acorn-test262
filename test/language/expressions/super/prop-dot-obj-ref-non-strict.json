@@ -82,7 +82,9 @@
                             "start": 1551,
                             "end": 1552,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -156,7 +158,9 @@
                             "start": 1592,
                             "end": 1593,
                             "value": 9,
-                            "raw": "9"
+                            "raw": "9",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -278,7 +282,9 @@
                 "start": 1670,
                 "end": 1673,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -288,7 +294,9 @@
             "start": 1678,
             "end": 1711,
             "value": "x is defined as an own property",
-            "raw": "\"x is defined as an own property\""
+            "raw": "\"x is defined as an own property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,7 +384,9 @@
                   "start": 1768,
                   "end": 1771,
                   "value": "y",
-                  "raw": "'y'"
+                  "raw": "'y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -387,7 +397,9 @@
             "start": 1776,
             "end": 1840,
             "value": "y is not defined as an own property after the object is frozen",
-            "raw": "\"y is not defined as an own property after the object is frozen\""
+            "raw": "\"y is not defined as an own property after the object is frozen\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -100,7 +100,9 @@
                       "start": 444,
                       "end": 448,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -146,7 +148,9 @@
             "start": 479,
             "end": 489,
             "value": "existing",
-            "raw": "'existing'"
+            "raw": "'existing'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -239,7 +243,9 @@
                         "start": 564,
                         "end": 575,
                         "value": "brand new",
-                        "raw": "'brand new'"
+                        "raw": "'brand new'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

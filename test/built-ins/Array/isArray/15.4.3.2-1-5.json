@@ -60,7 +60,9 @@
                 "start": 279,
                 "end": 284,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 287,
             "end": 292,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 294,
             "end": 334,
             "value": "Array.isArray(\"abc\") must return false",
-            "raw": "'Array.isArray(\"abc\") must return false'"
+            "raw": "'Array.isArray(\"abc\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

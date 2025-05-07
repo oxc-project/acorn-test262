@@ -23,7 +23,9 @@
             "start": 2038,
             "end": 2039,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                         "start": 2072,
                         "end": 2074,
                         "value": 23,
-                        "raw": "23"
+                        "raw": "23",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -137,7 +141,9 @@
                           "start": 2103,
                           "end": 2105,
                           "value": 23,
-                          "raw": "23"
+                          "raw": "23",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -174,7 +180,9 @@
                           "start": 2136,
                           "end": 2137,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -340,14 +348,18 @@
                             "start": 2227,
                             "end": 2228,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2230,
                             "end": 2252,
                             "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "raw": "'invoked exactly once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

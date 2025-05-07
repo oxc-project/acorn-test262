@@ -152,7 +152,9 @@
                               "start": 718,
                               "end": 719,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -201,7 +203,9 @@
                         "start": 752,
                         "end": 757,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -277,7 +281,9 @@
                 "start": 804,
                 "end": 809,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -287,14 +293,18 @@
             "start": 812,
             "end": 817,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 819,
             "end": 844,
             "value": "o.hasOwnProperty(\"foo\")",
-            "raw": "'o.hasOwnProperty(\"foo\")'"
+            "raw": "'o.hasOwnProperty(\"foo\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

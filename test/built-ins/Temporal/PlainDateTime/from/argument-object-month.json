@@ -106,7 +106,9 @@
                         "start": 334,
                         "end": 338,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -128,7 +130,9 @@
                         "start": 347,
                         "end": 349,
                         "value": 11,
-                        "raw": "11"
+                        "raw": "11",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -150,7 +154,9 @@
                         "start": 362,
                         "end": 367,
                         "value": "M12",
-                        "raw": "\"M12\""
+                        "raw": "\"M12\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -172,7 +178,9 @@
                         "start": 374,
                         "end": 376,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -187,7 +195,9 @@
             "start": 382,
             "end": 414,
             "value": "month and monthCode must agree",
-            "raw": "\"month and monthCode must agree\""
+            "raw": "\"month and monthCode must agree\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +306,9 @@
                         "start": 490,
                         "end": 494,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -360,7 +372,9 @@
                         "start": 541,
                         "end": 543,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -375,7 +389,9 @@
             "start": 549,
             "end": 581,
             "value": "required prop undefined throws",
-            "raw": "\"required prop undefined throws\""
+            "raw": "\"required prop undefined throws\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -484,7 +500,9 @@
                         "start": 657,
                         "end": 661,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -506,7 +524,9 @@
                         "start": 668,
                         "end": 670,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -528,7 +548,9 @@
                         "start": 678,
                         "end": 680,
                         "value": 15,
-                        "raw": "15"
+                        "raw": "15",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -550,7 +572,9 @@
                         "start": 690,
                         "end": 692,
                         "value": 23,
-                        "raw": "23"
+                        "raw": "23",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -572,7 +596,9 @@
                         "start": 702,
                         "end": 704,
                         "value": 30,
-                        "raw": "30"
+                        "raw": "30",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -594,7 +620,9 @@
                         "start": 719,
                         "end": 722,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -609,7 +637,9 @@
             "start": 728,
             "end": 758,
             "value": "required prop missing throws",
-            "raw": "\"required prop missing throws\""
+            "raw": "\"required prop missing throws\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -718,7 +748,9 @@
                         "start": 834,
                         "end": 838,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -740,7 +772,9 @@
                         "start": 848,
                         "end": 850,
                         "value": 11,
-                        "raw": "11"
+                        "raw": "11",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -762,7 +796,9 @@
                         "start": 857,
                         "end": 859,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -777,7 +813,9 @@
             "start": 865,
             "end": 902,
             "value": "plural \"months\" is not acceptable",
-            "raw": "\"plural \\\"months\\\" is not acceptable\""
+            "raw": "\"plural \\\"months\\\" is not acceptable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

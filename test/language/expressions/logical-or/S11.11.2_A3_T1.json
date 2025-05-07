@@ -24,7 +24,9 @@
               "start": 316,
               "end": 321,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "operator": "||",
             "right": {
@@ -32,7 +34,9 @@
               "start": 325,
               "end": 329,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -42,7 +46,9 @@
           "start": 335,
           "end": 339,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +76,9 @@
                   "start": 368,
                   "end": 398,
                   "value": "#1: (false || true) === true",
-                  "raw": "'#1: (false || true) === true'"
+                  "raw": "'#1: (false || true) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -100,7 +108,9 @@
               "start": 419,
               "end": 424,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "operator": "||",
             "right": {
@@ -108,7 +118,9 @@
               "start": 428,
               "end": 433,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -118,7 +130,9 @@
           "start": 439,
           "end": 444,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -146,7 +160,9 @@
                   "start": 473,
                   "end": 505,
                   "value": "#2: (false || false) === false",
-                  "raw": "'#2: (false || false) === false'"
+                  "raw": "'#2: (false || false) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -186,7 +202,9 @@
                 "start": 541,
                 "end": 545,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -215,7 +233,9 @@
               "start": 553,
               "end": 558,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "operator": "||",
             "right": {
@@ -259,7 +279,9 @@
                   "start": 599,
                   "end": 650,
                   "value": "#3: (var y = new Boolean(true); false || y) === y",
-                  "raw": "'#3: (var y = new Boolean(true); false || y) === y'"
+                  "raw": "'#3: (var y = new Boolean(true); false || y) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -299,7 +321,9 @@
                 "start": 686,
                 "end": 691,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -328,7 +352,9 @@
               "start": 699,
               "end": 704,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "operator": "||",
             "right": {
@@ -372,7 +398,9 @@
                   "start": 745,
                   "end": 797,
                   "value": "#4: (var y = new Boolean(false); false || y) === y",
-                  "raw": "'#4: (var y = new Boolean(false); false || y) === y'"
+                  "raw": "'#4: (var y = new Boolean(false); false || y) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

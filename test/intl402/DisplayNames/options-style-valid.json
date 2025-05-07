@@ -34,21 +34,27 @@
                 "start": 1116,
                 "end": 1124,
                 "value": "narrow",
-                "raw": "'narrow'"
+                "raw": "'narrow'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1128,
                 "end": 1135,
                 "value": "short",
-                "raw": "'short'"
+                "raw": "'short'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1139,
                 "end": 1145,
                 "value": "long",
-                "raw": "'long'"
+                "raw": "'long'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -81,28 +87,36 @@
                 "start": 1165,
                 "end": 1175,
                 "value": "language",
-                "raw": "'language'"
+                "raw": "'language'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1177,
                 "end": 1185,
                 "value": "region",
-                "raw": "'region'"
+                "raw": "'region'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1187,
                 "end": 1195,
                 "value": "script",
-                "raw": "'script'"
+                "raw": "'script'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1197,
                 "end": 1207,
                 "value": "currency",
-                "raw": "'currency'"
+                "raw": "'currency'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -252,7 +266,9 @@
                                         "start": 1300,
                                         "end": 1304,
                                         "value": "en",
-                                        "raw": "'en'"
+                                        "raw": "'en'",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "ObjectExpression",

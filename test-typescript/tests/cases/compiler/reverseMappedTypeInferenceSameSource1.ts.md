@@ -1036,7 +1036,9 @@ __ESTREE_TEST__:PASS:
                   "start": 650,
                   "end": 651,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 },
                 "expression": true,
                 "generator": false,
@@ -1188,7 +1190,9 @@ __ESTREE_TEST__:PASS:
               "start": 749,
               "end": 750,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,

@@ -345,7 +345,9 @@ __ESTREE_TEST__:PASS:
                           "start": 309,
                           "end": 316,
                           "raw": "'dummy'",
-                          "value": "dummy"
+                          "value": "dummy",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {

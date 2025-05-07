@@ -33,14 +33,18 @@
                     "start": 271,
                     "end": 304,
                     "value": "1970-01-01T00:00Z[U-CA=iso8601]",
-                    "raw": "\"1970-01-01T00:00Z[U-CA=iso8601]\""
+                    "raw": "\"1970-01-01T00:00Z[U-CA=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 306,
                     "end": 331,
                     "value": "invalid capitalized key",
-                    "raw": "\"invalid capitalized key\""
+                    "raw": "\"invalid capitalized key\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 337,
                     "end": 370,
                     "value": "1970-01-01T00:00Z[u-CA=iso8601]",
-                    "raw": "\"1970-01-01T00:00Z[u-CA=iso8601]\""
+                    "raw": "\"1970-01-01T00:00Z[u-CA=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 372,
                     "end": 407,
                     "value": "invalid partially-capitalized key",
-                    "raw": "\"invalid partially-capitalized key\""
+                    "raw": "\"invalid partially-capitalized key\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 413,
                     "end": 441,
                     "value": "1970-01-01T00:00Z[FOO=bar]",
-                    "raw": "\"1970-01-01T00:00Z[FOO=bar]\""
+                    "raw": "\"1970-01-01T00:00Z[FOO=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 443,
                     "end": 481,
                     "value": "invalid capitalized unrecognized key",
-                    "raw": "\"invalid capitalized unrecognized key\""
+                    "raw": "\"invalid capitalized unrecognized key\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

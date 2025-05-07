@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 136,
         "end": 152,
         "raw": "\"@emotion/react\"",
-        "value": "@emotion/react"
+        "value": "@emotion/react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

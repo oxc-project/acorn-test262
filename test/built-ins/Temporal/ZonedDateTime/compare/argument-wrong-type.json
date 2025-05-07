@@ -23,7 +23,9 @@
             "start": 366,
             "end": 371,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 416,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -124,7 +127,9 @@
                     "start": 469,
                     "end": 480,
                     "value": "undefined",
-                    "raw": "\"undefined\""
+                    "raw": "\"undefined\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -138,14 +143,18 @@
                     "start": 486,
                     "end": 490,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 492,
                     "end": 498,
                     "value": "null",
-                    "raw": "\"null\""
+                    "raw": "\"null\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -159,14 +168,18 @@
                     "start": 504,
                     "end": 508,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 510,
                     "end": 519,
                     "value": "boolean",
-                    "raw": "\"boolean\""
+                    "raw": "\"boolean\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -180,14 +193,18 @@
                     "start": 525,
                     "end": 527,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 529,
                     "end": 543,
                     "value": "empty string",
-                    "raw": "\"empty string\""
+                    "raw": "\"empty string\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -201,14 +218,18 @@
                     "start": 549,
                     "end": 550,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 552,
                     "end": 603,
                     "value": "number that doesn't convert to a valid ISO string",
-                    "raw": "\"number that doesn't convert to a valid ISO string\""
+                    "raw": "\"number that doesn't convert to a valid ISO string\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -222,14 +243,18 @@
                     "start": 609,
                     "end": 617,
                     "value": 19761118,
-                    "raw": "19761118"
+                    "raw": "19761118",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 619,
                     "end": 686,
                     "value": "number that would convert to a valid ISO string in other contexts",
-                    "raw": "\"number that would convert to a valid ISO string in other contexts\""
+                    "raw": "\"number that would convert to a valid ISO string in other contexts\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -244,6 +269,7 @@
                     "end": 694,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   },
                   {
@@ -251,7 +277,9 @@
                     "start": 696,
                     "end": 704,
                     "value": "bigint",
-                    "raw": "\"bigint\""
+                    "raw": "\"bigint\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -365,7 +393,9 @@
                       "start": 798,
                       "end": 806,
                       "value": "string",
-                      "raw": "'string'"
+                      "raw": "'string'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -537,7 +567,9 @@
                       "start": 1005,
                       "end": 1013,
                       "value": "string",
-                      "raw": "'string'"
+                      "raw": "'string'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -700,7 +732,9 @@
                     "start": 1218,
                     "end": 1226,
                     "value": "symbol",
-                    "raw": "\"symbol\""
+                    "raw": "\"symbol\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -720,7 +754,9 @@
                     "start": 1236,
                     "end": 1250,
                     "value": "plain object",
-                    "raw": "\"plain object\""
+                    "raw": "\"plain object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -753,7 +789,9 @@
                     "start": 1280,
                     "end": 1312,
                     "value": "Temporal.ZonedDateTime, object",
-                    "raw": "\"Temporal.ZonedDateTime, object\""
+                    "raw": "\"Temporal.ZonedDateTime, object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -799,7 +837,9 @@
                     "start": 1352,
                     "end": 1394,
                     "value": "Temporal.ZonedDateTime.prototype, object",
-                    "raw": "\"Temporal.ZonedDateTime.prototype, object\""
+                    "raw": "\"Temporal.ZonedDateTime.prototype, object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

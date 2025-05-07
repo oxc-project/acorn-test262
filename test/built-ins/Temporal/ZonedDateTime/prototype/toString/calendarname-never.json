@@ -48,6 +48,7 @@
                 "end": 347,
                 "value": null,
                 "raw": "3661_987_654_321n",
+                "regex": null,
                 "bigint": "3661987654321"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 349,
                 "end": 354,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 402,
                       "end": 409,
                       "value": "never",
-                      "raw": "\"never\""
+                      "raw": "\"never\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -177,7 +182,9 @@
             "start": 439,
             "end": 481,
             "value": "1970-01-01T01:01:01.987654321+00:00[UTC]",
-            "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\""
+            "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TemplateLiteral",

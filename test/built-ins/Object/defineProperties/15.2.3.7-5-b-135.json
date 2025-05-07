@@ -103,7 +103,9 @@
                       "start": 405,
                       "end": 416,
                       "value": "arguments",
-                      "raw": "\"arguments\""
+                      "raw": "\"arguments\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -206,7 +208,9 @@
                       "start": 509,
                       "end": 520,
                       "value": "arguments",
-                      "raw": "\"arguments\""
+                      "raw": "\"arguments\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -250,7 +254,9 @@
             "start": 541,
             "end": 558,
             "value": "func() !== true",
-            "raw": "'func() !== true'"
+            "raw": "'func() !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -67,7 +67,9 @@
             "start": 336,
             "end": 341,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 354,
                   "end": 356,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 372,
                   "end": 376,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -233,7 +239,9 @@
                 "start": 445,
                 "end": 450,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -243,14 +251,18 @@
             "start": 453,
             "end": 458,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 485,
             "value": "o.hasOwnProperty(\"foo\")",
-            "raw": "'o.hasOwnProperty(\"foo\")'"
+            "raw": "'o.hasOwnProperty(\"foo\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

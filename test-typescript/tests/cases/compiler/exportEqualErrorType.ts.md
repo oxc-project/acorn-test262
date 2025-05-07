@@ -385,7 +385,9 @@ __ESTREE_TEST__:PASS:
           "start": 74,
           "end": 98,
           "raw": "'exportEqualErrorType_0'",
-          "value": "exportEqualErrorType_0"
+          "value": "exportEqualErrorType_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -409,7 +411,9 @@ __ESTREE_TEST__:PASS:
                 "start": 130,
                 "end": 135,
                 "raw": "'foo'",
-                "value": "foo"
+                "value": "foo",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

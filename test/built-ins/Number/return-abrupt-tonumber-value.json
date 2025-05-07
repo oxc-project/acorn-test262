@@ -234,7 +234,9 @@
             "start": 607,
             "end": 643,
             "value": "NewTarget is undefined, {}.valueOf",
-            "raw": "\"NewTarget is undefined, {}.valueOf\""
+            "raw": "\"NewTarget is undefined, {}.valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,7 +323,9 @@
             "start": 707,
             "end": 744,
             "value": "NewTarget is undefined, {}.toString",
-            "raw": "\"NewTarget is undefined, {}.toString\""
+            "raw": "\"NewTarget is undefined, {}.toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -407,7 +411,9 @@
             "start": 812,
             "end": 846,
             "value": "NewTarget is defined, {}.valueOf",
-            "raw": "\"NewTarget is defined, {}.valueOf\""
+            "raw": "\"NewTarget is defined, {}.valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -493,7 +499,9 @@
             "start": 914,
             "end": 949,
             "value": "NewTarget is defined, {}.toString",
-            "raw": "\"NewTarget is defined, {}.toString\""
+            "raw": "\"NewTarget is defined, {}.toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

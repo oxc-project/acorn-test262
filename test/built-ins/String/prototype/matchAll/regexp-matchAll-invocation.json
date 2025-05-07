@@ -73,7 +73,9 @@
             "start": 601,
             "end": 602,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -265,7 +267,9 @@
             "start": 748,
             "end": 750,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -381,14 +385,18 @@
             "start": 829,
             "end": 830,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 865,
             "value": "Invokes the method exactly once",
-            "raw": "'Invokes the method exactly once'"
+            "raw": "'Invokes the method exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +542,9 @@
             "start": 968,
             "end": 969,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -583,7 +593,9 @@
               "start": 994,
               "end": 995,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

@@ -71,7 +71,9 @@
                       "start": 649,
                       "end": 659,
                       "value": "negative",
-                      "raw": "'negative'"
+                      "raw": "'negative'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -154,7 +156,9 @@
             "start": 744,
             "end": 757,
             "value": "signDisplay",
-            "raw": "'signDisplay'"
+            "raw": "'signDisplay'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -179,7 +183,9 @@
                   "start": 770,
                   "end": 780,
                   "value": "negative",
-                  "raw": "'negative'"
+                  "raw": "'negative'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -201,7 +207,9 @@
                   "start": 794,
                   "end": 798,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -223,7 +231,9 @@
                   "start": 814,
                   "end": 818,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -245,7 +255,9 @@
                   "start": 836,
                   "end": 840,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -106,7 +106,9 @@
             "start": 383,
             "end": 408,
             "value": "`s.add({})` returns `s`",
-            "raw": "'`s.add({})` returns `s`'"
+            "raw": "'`s.add({})` returns `s`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

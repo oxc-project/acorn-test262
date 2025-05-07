@@ -94,7 +94,9 @@
             "start": 363,
             "end": 408,
             "value": "Object.isExtensible(parse) must return true",
-            "raw": "'Object.isExtensible(parse) must return true'"
+            "raw": "'Object.isExtensible(parse) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,14 +148,18 @@
             "start": 442,
             "end": 452,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 497,
             "value": "The value of `typeof parse` is \"function\"",
-            "raw": "'The value of `typeof parse` is \"function\"'"
+            "raw": "'The value of `typeof parse` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,14 +257,18 @@
             "start": 561,
             "end": 580,
             "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "raw": "'[object Function]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 662,
             "value": "Object.prototype.toString.call(\"JSON.parse\") must return \"[object Function]\"",
-            "raw": "'Object.prototype.toString.call(\"JSON.parse\") must return \"[object Function]\"'"
+            "raw": "'Object.prototype.toString.call(\"JSON.parse\") must return \"[object Function]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -349,7 +359,9 @@
             "start": 740,
             "end": 821,
             "value": "Object.getPrototypeOf(\"JSON.parse\") must return the value of Function.prototype",
-            "raw": "'Object.getPrototypeOf(\"JSON.parse\") must return the value of Function.prototype'"
+            "raw": "'Object.getPrototypeOf(\"JSON.parse\") must return the value of Function.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -412,7 +424,9 @@
                 "start": 866,
                 "end": 877,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -422,14 +436,18 @@
             "start": 882,
             "end": 887,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 891,
             "end": 944,
             "value": "parse.hasOwnProperty(\"prototype\") must return false",
-            "raw": "'parse.hasOwnProperty(\"prototype\") must return false'"
+            "raw": "'parse.hasOwnProperty(\"prototype\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

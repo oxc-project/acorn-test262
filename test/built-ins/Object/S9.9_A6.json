@@ -167,7 +167,9 @@
                 "start": 431,
                 "end": 432,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -299,7 +301,9 @@
             "start": 498,
             "end": 562,
             "value": "y.valueOf() must return the same value returned by x.valueOf()",
-            "raw": "'y.valueOf() must return the same value returned by x.valueOf()'"
+            "raw": "'y.valueOf() must return the same value returned by x.valueOf()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -364,7 +368,9 @@
             "start": 602,
             "end": 654,
             "value": "The value of `typeof y` is expected to be typeof x",
-            "raw": "'The value of `typeof y` is expected to be typeof x'"
+            "raw": "'The value of `typeof y` is expected to be typeof x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -467,7 +473,9 @@
             "start": 732,
             "end": 828,
             "value": "The value of y.constructor.prototype is expected to equal the value of x.constructor.prototype",
-            "raw": "'The value of y.constructor.prototype is expected to equal the value of x.constructor.prototype'"
+            "raw": "'The value of y.constructor.prototype is expected to equal the value of x.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -518,7 +526,9 @@
             "start": 856,
             "end": 908,
             "value": "The value of y is expected to equal the value of x",
-            "raw": "'The value of y is expected to equal the value of x'"
+            "raw": "'The value of y is expected to equal the value of x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -67,7 +67,9 @@
             "start": 319,
             "end": 324,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 346,
                           "end": 358,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "directive": "use strict"
                       },
@@ -184,7 +188,9 @@
               "start": 406,
               "end": 435,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

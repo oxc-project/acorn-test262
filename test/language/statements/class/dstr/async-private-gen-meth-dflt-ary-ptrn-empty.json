@@ -23,7 +23,9 @@
             "start": 1840,
             "end": 1841,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -82,7 +84,9 @@
                         "start": 1884,
                         "end": 1885,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -116,7 +120,9 @@
             "start": 1910,
             "end": 1911,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -222,7 +228,9 @@
                           "start": 1987,
                           "end": 1988,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -259,7 +267,9 @@
                           "start": 2019,
                           "end": 2020,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -465,14 +475,18 @@
                             "start": 2146,
                             "end": 2147,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2149,
                             "end": 2171,
                             "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "raw": "'invoked exactly once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

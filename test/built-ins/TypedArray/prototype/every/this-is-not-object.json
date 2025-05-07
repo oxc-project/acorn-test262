@@ -189,7 +189,9 @@
             "start": 892,
             "end": 911,
             "value": "this is undefined",
-            "raw": "\"this is undefined\""
+            "raw": "\"this is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -276,7 +278,9 @@
                         "start": 966,
                         "end": 970,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -296,7 +300,9 @@
             "start": 988,
             "end": 1002,
             "value": "this is null",
-            "raw": "\"this is null\""
+            "raw": "\"this is null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,7 +389,9 @@
                         "start": 1057,
                         "end": 1059,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -403,7 +411,9 @@
             "start": 1077,
             "end": 1089,
             "value": "this is 42",
-            "raw": "\"this is 42\""
+            "raw": "\"this is 42\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -490,7 +500,9 @@
                         "start": 1144,
                         "end": 1147,
                         "value": "1",
-                        "raw": "\"1\""
+                        "raw": "\"1\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -510,7 +522,9 @@
             "start": 1165,
             "end": 1183,
             "value": "this is a string",
-            "raw": "\"this is a string\""
+            "raw": "\"this is a string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -597,7 +611,9 @@
                         "start": 1238,
                         "end": 1242,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -617,7 +633,9 @@
             "start": 1260,
             "end": 1274,
             "value": "this is true",
-            "raw": "\"this is true\""
+            "raw": "\"this is true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -704,7 +722,9 @@
                         "start": 1329,
                         "end": 1334,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -724,7 +744,9 @@
             "start": 1352,
             "end": 1367,
             "value": "this is false",
-            "raw": "\"this is false\""
+            "raw": "\"this is false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -761,7 +783,9 @@
                 "start": 1386,
                 "end": 1389,
                 "value": "s",
-                "raw": "\"s\""
+                "raw": "\"s\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -870,7 +894,9 @@
             "start": 1462,
             "end": 1480,
             "value": "this is a Symbol",
-            "raw": "\"this is a Symbol\""
+            "raw": "\"this is a Symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

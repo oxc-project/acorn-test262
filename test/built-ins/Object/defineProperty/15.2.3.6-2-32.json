@@ -67,7 +67,9 @@
             "start": 332,
             "end": 343,
             "value": 123.1234567,
-            "raw": "123.1234567"
+            "raw": "123.1234567",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                 "start": 377,
                 "end": 390,
                 "value": "123.1234567",
-                "raw": "\"123.1234567\""
+                "raw": "\"123.1234567\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -133,7 +137,9 @@
             "start": 393,
             "end": 437,
             "value": "obj.hasOwnProperty(\"123.1234567\") !== true",
-            "raw": "'obj.hasOwnProperty(\"123.1234567\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"123.1234567\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

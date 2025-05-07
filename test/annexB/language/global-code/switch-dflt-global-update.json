@@ -12,7 +12,9 @@
         "start": 1085,
         "end": 1086,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -48,7 +50,9 @@
                       "start": 1127,
                       "end": 1140,
                       "value": "declaration",
-                      "raw": "'declaration'"
+                      "raw": "'declaration'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -105,7 +109,9 @@
             "start": 1174,
             "end": 1184,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -157,7 +163,9 @@
             "start": 1209,
             "end": 1222,
             "value": "declaration",
-            "raw": "'declaration'"
+            "raw": "'declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

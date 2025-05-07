@@ -71,7 +71,9 @@
                         "start": 423,
                         "end": 453,
                         "value": "try {} catch (arguments) { }",
-                        "raw": "\"try {} catch (arguments) { }\""
+                        "raw": "\"try {} catch (arguments) { }\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

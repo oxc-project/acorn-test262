@@ -31,7 +31,9 @@
               "start": 982,
               "end": 983,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -105,7 +107,9 @@
                             "start": 1034,
                             "end": 1035,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -154,7 +158,9 @@
                             "start": 1079,
                             "end": 1080,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -265,7 +271,9 @@
             "start": 1141,
             "end": 1142,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +345,9 @@
             "start": 1178,
             "end": 1179,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,7 +433,9 @@
             "start": 1223,
             "end": 1224,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -509,7 +521,9 @@
             "start": 1268,
             "end": 1269,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

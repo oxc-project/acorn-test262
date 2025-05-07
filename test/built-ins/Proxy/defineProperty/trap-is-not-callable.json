@@ -181,7 +181,9 @@
                         "start": 668,
                         "end": 673,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -206,7 +208,9 @@
                               "start": 688,
                               "end": 689,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

@@ -31,7 +31,9 @@
         "start": 441,
         "end": 487,
         "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -57,7 +59,9 @@
         "start": 509,
         "end": 527,
         "value": "<do not resolve>",
-        "raw": "'<do not resolve>'"
+        "raw": "'<do not resolve>'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -83,7 +87,9 @@
         "start": 546,
         "end": 564,
         "value": "<do not resolve>",
-        "raw": "'<do not resolve>'"
+        "raw": "'<do not resolve>'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

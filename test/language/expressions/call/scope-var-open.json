@@ -23,7 +23,9 @@
             "start": 751,
             "end": 760,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -266,7 +268,9 @@
             "start": 1380,
             "end": 1389,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

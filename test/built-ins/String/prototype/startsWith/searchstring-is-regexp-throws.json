@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -98,7 +99,9 @@
                         "start": 522,
                         "end": 524,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

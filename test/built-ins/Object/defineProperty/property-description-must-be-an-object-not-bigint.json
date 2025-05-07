@@ -90,7 +90,9 @@
                         "start": 532,
                         "end": 535,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
@@ -98,6 +100,7 @@
                         "end": 539,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],

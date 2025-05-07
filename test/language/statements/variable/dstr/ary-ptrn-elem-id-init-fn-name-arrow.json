@@ -108,7 +108,9 @@
             "start": 1284,
             "end": 1291,
             "value": "arrow",
-            "raw": "'arrow'"
+            "raw": "'arrow'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -67,7 +67,9 @@
             "start": 352,
             "end": 362,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 397,
                           "end": 399,
                           "value": 11,
-                          "raw": "11"
+                          "raw": "11",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -168,7 +172,9 @@
                 "start": 436,
                 "end": 446,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -203,7 +209,9 @@
             "start": 473,
             "end": 483,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 321,
             "end": 322,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 340,
                   "end": 341,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -175,7 +179,9 @@
             "start": 535,
             "end": 543,
             "value": "__func",
-            "raw": "'__func'"
+            "raw": "'__func'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,7 +211,9 @@
                   "start": 572,
                   "end": 620,
                   "value": "#1: __obj.hasOwnProperty('__func') === false",
-                  "raw": "'#1: __obj.hasOwnProperty(\\'__func\\') === false'"
+                  "raw": "'#1: __obj.hasOwnProperty(\\'__func\\') === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -256,7 +264,9 @@
                 "start": 824,
                 "end": 832,
                 "value": "__func",
-                "raw": "'__func'"
+                "raw": "'__func'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -288,7 +298,9 @@
                   "start": 862,
                   "end": 908,
                   "value": "#2: this.hasOwnProperty('__func') === true",
-                  "raw": "'#2: this.hasOwnProperty(\\'__func\\') === true'"
+                  "raw": "'#2: this.hasOwnProperty(\\'__func\\') === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -344,7 +356,9 @@
                   "start": 1132,
                   "end": 1165,
                   "value": "#3: (__func in __obj) === false",
-                  "raw": "'#3: (__func in __obj) === false'"
+                  "raw": "'#3: (__func in __obj) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -412,7 +426,9 @@
                   "start": 1399,
                   "end": 1430,
                   "value": "#4: this.__func !== undefined",
-                  "raw": "'#4: this.__func !== undefined'"
+                  "raw": "'#4: this.__func !== undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

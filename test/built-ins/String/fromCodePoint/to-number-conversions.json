@@ -60,7 +60,9 @@
                 "start": 766,
                 "end": 770,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,7 +72,9 @@
             "start": 773,
             "end": 779,
             "value": "\u0000",
-            "raw": "'\\x00'"
+            "raw": "'\\x00'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -133,7 +137,9 @@
                 "start": 820,
                 "end": 825,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -143,7 +149,9 @@
             "start": 828,
             "end": 834,
             "value": "\u0000",
-            "raw": "'\\x00'"
+            "raw": "'\\x00'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,7 +214,9 @@
                 "start": 875,
                 "end": 879,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -216,7 +226,9 @@
             "start": 882,
             "end": 888,
             "value": "\u0001",
-            "raw": "'\\x01'"
+            "raw": "'\\x01'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +291,9 @@
                 "start": 929,
                 "end": 933,
                 "value": "42",
-                "raw": "'42'"
+                "raw": "'42'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -289,7 +303,9 @@
             "start": 936,
             "end": 942,
             "value": "*",
-            "raw": "'\\x2A'"
+            "raw": "'\\x2A'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -352,7 +368,9 @@
                 "start": 983,
                 "end": 988,
                 "value": "042",
-                "raw": "'042'"
+                "raw": "'042'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -362,7 +380,9 @@
             "start": 991,
             "end": 997,
             "value": "*",
-            "raw": "'\\x2A'"
+            "raw": "'\\x2A'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +481,9 @@
                               "start": 1082,
                               "end": 1084,
                               "value": 31,
-                              "raw": "31"
+                              "raw": "31",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -479,7 +501,9 @@
             "start": 1100,
             "end": 1106,
             "value": "\u001f",
-            "raw": "'\\x1F'"
+            "raw": "'\\x1F'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

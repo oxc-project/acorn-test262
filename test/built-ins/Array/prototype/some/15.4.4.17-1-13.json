@@ -54,7 +54,9 @@
                 "start": 287,
                 "end": 302,
                 "value": "[object JSON]",
-                "raw": "'[object JSON]'"
+                "raw": "'[object JSON]'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "===",
               "right": {
@@ -154,7 +156,9 @@
           "start": 361,
           "end": 362,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -182,7 +186,9 @@
             "start": 369,
             "end": 370,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -192,7 +198,9 @@
           "start": 374,
           "end": 375,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -281,7 +289,9 @@
             "start": 430,
             "end": 484,
             "value": "Array.prototype.some.call(JSON, callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(JSON, callbackfn) !== true'"
+            "raw": "'Array.prototype.some.call(JSON, callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

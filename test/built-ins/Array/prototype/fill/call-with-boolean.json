@@ -90,7 +90,9 @@
                   "start": 283,
                   "end": 287,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -108,14 +110,18 @@
             "start": 311,
             "end": 315,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 319,
             "end": 397,
             "value": "The result of `(Array.prototype.fill.call(true) instanceof Boolean)` is true",
-            "raw": "'The result of `(Array.prototype.fill.call(true) instanceof Boolean)` is true'"
+            "raw": "'The result of `(Array.prototype.fill.call(true) instanceof Boolean)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,7 +214,9 @@
                   "start": 447,
                   "end": 452,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -226,14 +234,18 @@
             "start": 476,
             "end": 480,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 563,
             "value": "The result of `(Array.prototype.fill.call(false) instanceof Boolean)` is true",
-            "raw": "'The result of `(Array.prototype.fill.call(false) instanceof Boolean)` is true'"
+            "raw": "'The result of `(Array.prototype.fill.call(false) instanceof Boolean)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

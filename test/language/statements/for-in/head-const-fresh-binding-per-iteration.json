@@ -23,7 +23,9 @@
             "start": 255,
             "end": 257,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -64,21 +66,27 @@
             "start": 276,
             "end": 277,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 279,
             "end": 280,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 282,
             "end": 283,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -152,14 +160,18 @@
             "start": 320,
             "end": 325,
             "value": "123",
-            "raw": "'123'"
+            "raw": "'123'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 327,
             "end": 356,
             "value": "The value of `s` is `'123'`",
-            "raw": "\"The value of `s` is `'123'`\""
+            "raw": "\"The value of `s` is `'123'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

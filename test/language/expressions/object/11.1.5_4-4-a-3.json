@@ -34,7 +34,9 @@
                 "start": 664,
                 "end": 682,
                 "value": "({foo:0,foo:1});",
-                "raw": "\"({foo:0,foo:1});\""
+                "raw": "\"({foo:0,foo:1});\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,14 +97,18 @@
             "start": 710,
             "end": 711,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 720,
             "value": "o.foo",
-            "raw": "'o.foo'"
+            "raw": "'o.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

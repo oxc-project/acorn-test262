@@ -109,7 +109,9 @@
             "start": 545,
             "end": 556,
             "value": "EvalError",
-            "raw": "'EvalError'"
+            "raw": "'EvalError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

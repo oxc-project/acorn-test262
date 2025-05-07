@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "c",
               "flags": "y"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,7 +67,9 @@
           "start": 810,
           "end": 811,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -103,7 +106,9 @@
             "start": 821,
             "end": 826,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,7 +166,9 @@
             "start": 860,
             "end": 861,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

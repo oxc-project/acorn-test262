@@ -23,7 +23,9 @@
             "start": 314,
             "end": 319,
             "value": "123",
-            "raw": "\"123\""
+            "raw": "\"123\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "1|12",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -163,7 +166,9 @@
               "start": 408,
               "end": 412,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -171,7 +176,9 @@
             "start": 416,
             "end": 477,
             "value": "__re.test(\"\"123\"\") must return __re.exec(__string) !== null",
-            "raw": "'__re.test(\"\"123\"\") must return __re.exec(__string) !== null'"
+            "raw": "'__re.test(\"\"123\"\") must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

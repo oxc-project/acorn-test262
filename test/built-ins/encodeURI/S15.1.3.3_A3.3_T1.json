@@ -27,7 +27,9 @@
               "start": 257,
               "end": 260,
               "value": "#",
-              "raw": "\"#\""
+              "raw": "\"#\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 266,
           "end": 269,
           "value": "#",
-          "raw": "\"#\""
+          "raw": "\"#\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 298,
                   "end": 334,
                   "value": "#1: unescapedURISet containing \"#\"",
-                  "raw": "'#1: unescapedURISet containing \"#\"'"
+                  "raw": "'#1: unescapedURISet containing \"#\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -236,14 +236,18 @@ __ESTREE_TEST__:PASS:
                 "start": 144,
                 "end": 147,
                 "raw": "\"s\"",
-                "value": "s"
+                "value": "s",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 149,
                 "end": 153,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -301,14 +305,18 @@ __ESTREE_TEST__:PASS:
                 "start": 177,
                 "end": 180,
                 "raw": "\"s\"",
-                "value": "s"
+                "value": "s",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 182,
                 "end": 186,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -559,14 +567,18 @@ __ESTREE_TEST__:PASS:
                 "start": 339,
                 "end": 342,
                 "raw": "\"s\"",
-                "value": "s"
+                "value": "s",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 348,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -624,14 +636,18 @@ __ESTREE_TEST__:PASS:
                 "start": 374,
                 "end": 377,
                 "raw": "\"s\"",
-                "value": "s"
+                "value": "s",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 383,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

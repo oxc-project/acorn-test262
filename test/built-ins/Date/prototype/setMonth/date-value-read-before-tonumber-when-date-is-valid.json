@@ -34,7 +34,9 @@
                 "start": 539,
                 "end": 540,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -75,7 +77,9 @@
             "start": 653,
             "end": 654,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +105,9 @@
             "start": 678,
             "end": 679,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -219,7 +225,9 @@
                           "start": 763,
                           "end": 764,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -324,14 +332,18 @@
             "start": 840,
             "end": 841,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 872,
             "value": "valueOf called exactly once",
-            "raw": "\"valueOf called exactly once\""
+            "raw": "\"valueOf called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +394,9 @@
             "start": 909,
             "end": 928,
             "value": "result is not NaN",
-            "raw": "\"result is not NaN\""
+            "raw": "\"result is not NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -453,7 +467,9 @@
             "start": 971,
             "end": 999,
             "value": "result is equal to getTime",
-            "raw": "\"result is equal to getTime\""
+            "raw": "\"result is equal to getTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -518,14 +534,18 @@
             "start": 1035,
             "end": 1036,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1038,
             "end": 1068,
             "value": "date value correctly updated",
-            "raw": "\"date value correctly updated\""
+            "raw": "\"date value correctly updated\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -81,14 +81,18 @@
             "start": 1037,
             "end": 1047,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1049,
             "end": 1076,
             "value": "function value is hoisted",
-            "raw": "'function value is hoisted'"
+            "raw": "'function value is hoisted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,14 +144,18 @@
             "start": 1107,
             "end": 1116,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1118,
             "end": 1153,
             "value": "hoisted function value is correct",
-            "raw": "'hoisted function value is correct'"
+            "raw": "'hoisted function value is correct'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +224,9 @@
                 "start": 1216,
                 "end": 1225,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -251,7 +261,9 @@
           "start": 1252,
           "end": 1256,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -294,14 +306,18 @@
             "start": 1284,
             "end": 1288,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1290,
             "end": 1310,
             "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "raw": "'binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -370,7 +386,9 @@
                 "start": 1373,
                 "end": 1382,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -413,7 +431,9 @@
               "start": 1427,
               "end": 1436,
               "value": "test262",
-              "raw": "'test262'"
+              "raw": "'test262'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -458,14 +478,18 @@
             "start": 1470,
             "end": 1474,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1476,
             "end": 1530,
             "value": "binding is not effected by evaluation of declaration",
-            "raw": "'binding is not effected by evaluation of declaration'"
+            "raw": "'binding is not effected by evaluation of declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +558,9 @@
                 "start": 1594,
                 "end": 1603,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -550,7 +576,9 @@
             "start": 1621,
             "end": 1682,
             "value": "global binding is not effected by evaluation of declaration",
-            "raw": "'global binding is not effected by evaluation of declaration'"
+            "raw": "'global binding is not effected by evaluation of declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
             "start": 46,
             "end": 52,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -38,7 +40,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 32,
         "raw": "\"./package.json\"",
-        "value": "./package.json"
+        "value": "./package.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -138,7 +142,9 @@ __ESTREE_TEST__:PASS:
             "start": 136,
             "end": 142,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -148,7 +154,9 @@ __ESTREE_TEST__:PASS:
         "start": 106,
         "end": 122,
         "raw": "\"./package.json\"",
-        "value": "./package.json"
+        "value": "./package.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -306,7 +314,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 32,
         "raw": "\"./package.json\"",
-        "value": "./package.json"
+        "value": "./package.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -394,7 +404,9 @@ __ESTREE_TEST__:PASS:
         "start": 84,
         "end": 100,
         "raw": "\"./package.json\"",
-        "value": "./package.json"
+        "value": "./package.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -564,7 +576,9 @@ __ESTREE_TEST__:PASS:
             "start": 46,
             "end": 52,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -574,7 +588,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 32,
         "raw": "\"./package.json\"",
-        "value": "./package.json"
+        "value": "./package.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -674,7 +690,9 @@ __ESTREE_TEST__:PASS:
             "start": 136,
             "end": 142,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -684,7 +702,9 @@ __ESTREE_TEST__:PASS:
         "start": 106,
         "end": 122,
         "raw": "\"./package.json\"",
-        "value": "./package.json"
+        "value": "./package.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

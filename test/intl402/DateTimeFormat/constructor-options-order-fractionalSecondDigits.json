@@ -28,35 +28,45 @@
                 "start": 1399,
                 "end": 1414,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1453,
                 "end": 1461,
                 "value": "second",
-                "raw": "\"second\""
+                "raw": "\"second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1465,
                 "end": 1489,
                 "value": "fractionalSecondDigits",
-                "raw": "\"fractionalSecondDigits\""
+                "raw": "\"fractionalSecondDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1493,
                 "end": 1507,
                 "value": "timeZoneName",
-                "raw": "\"timeZoneName\""
+                "raw": "\"timeZoneName\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1546,
                 "end": 1561,
                 "value": "formatMatcher",
-                "raw": "\"formatMatcher\""
+                "raw": "\"formatMatcher\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -169,7 +179,9 @@
                               "start": 1638,
                               "end": 1646,
                               "value": "second",
-                              "raw": "\"second\""
+                              "raw": "\"second\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -184,7 +196,9 @@
                           "start": 1660,
                           "end": 1669,
                           "value": "numeric",
-                          "raw": "\"numeric\""
+                          "raw": "\"numeric\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -252,7 +266,9 @@
                               "start": 1725,
                               "end": 1749,
                               "value": "fractionalSecondDigits",
-                              "raw": "\"fractionalSecondDigits\""
+                              "raw": "\"fractionalSecondDigits\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -334,7 +350,9 @@
                               "start": 1819,
                               "end": 1834,
                               "value": "localeMatcher",
-                              "raw": "\"localeMatcher\""
+                              "raw": "\"localeMatcher\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -416,7 +434,9 @@
                               "start": 1903,
                               "end": 1917,
                               "value": "timeZoneName",
-                              "raw": "\"timeZoneName\""
+                              "raw": "\"timeZoneName\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -498,7 +518,9 @@
                               "start": 1987,
                               "end": 2002,
                               "value": "formatMatcher",
-                              "raw": "\"formatMatcher\""
+                              "raw": "\"formatMatcher\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -559,7 +581,9 @@
             "start": 2060,
             "end": 2064,
             "value": "en",
-            "raw": "\"en\""
+            "raw": "\"en\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",

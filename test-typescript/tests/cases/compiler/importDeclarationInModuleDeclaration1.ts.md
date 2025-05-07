@@ -37,7 +37,9 @@ __ESTREE_TEST__:PASS:
                 "start": 36,
                 "end": 55,
                 "raw": "\"use_glo_M1_public\"",
-                "value": "use_glo_M1_public"
+                "value": "use_glo_M1_public",
+                "regex": null,
+                "bigint": null
               }
             }
           }

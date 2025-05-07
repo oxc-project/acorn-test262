@@ -48,7 +48,9 @@ __ESTREE_TEST__:PASS:
                             "start": 304,
                             "end": 328,
                             "raw": "\"Aha!! It's the number \"",
-                            "value": "Aha!! It's the number "
+                            "value": "Aha!! It's the number ",
+                            "regex": null,
+                            "bigint": null
                           },
                           "right": {
                             "type": "CallExpression",
@@ -60,7 +62,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 349,
                                 "end": 350,
                                 "raw": "3",
-                                "value": 3
+                                "value": 3,
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -149,7 +153,9 @@ __ESTREE_TEST__:PASS:
                             "start": 221,
                             "end": 253,
                             "raw": "\"Aha!! It's a string of length \"",
-                            "value": "Aha!! It's a string of length "
+                            "value": "Aha!! It's a string of length ",
+                            "regex": null,
+                            "bigint": null
                           },
                           "right": {
                             "type": "MemberExpression",
@@ -235,7 +241,9 @@ __ESTREE_TEST__:PASS:
                   "start": 189,
                   "end": 197,
                   "raw": "'string'",
-                  "value": "string"
+                  "value": "string",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -264,7 +272,9 @@ __ESTREE_TEST__:PASS:
                           "start": 109,
                           "end": 132,
                           "raw": "\"Aha!! It's a Date in \"",
-                          "value": "Aha!! It's a Date in "
+                          "value": "Aha!! It's a Date in ",
+                          "regex": null,
+                          "bigint": null
                         },
                         "right": {
                           "type": "CallExpression",
@@ -476,7 +486,9 @@ __ESTREE_TEST__:PASS:
             "start": 400,
             "end": 406,
             "raw": "\"beef\"",
-            "value": "beef"
+            "value": "beef",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -507,7 +519,9 @@ __ESTREE_TEST__:PASS:
             "start": 421,
             "end": 431,
             "raw": "3.14159265",
-            "value": 3.14159265
+            "value": 3.14159265,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

@@ -74,21 +74,27 @@
                               "start": 684,
                               "end": 685,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 687,
                               "end": 688,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 690,
                               "end": 691,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -150,7 +156,9 @@
                                       "start": 752,
                                       "end": 814,
                                       "value": "undefined thisArg should be bound as the this-value of mapfn",
-                                      "raw": "\"undefined thisArg should be bound as the this-value of mapfn\""
+                                      "raw": "\"undefined thisArg should be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -212,21 +220,27 @@
                               "start": 860,
                               "end": 861,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 863,
                               "end": 864,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 866,
                               "end": 867,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -282,14 +296,18 @@
                                       "start": 917,
                                       "end": 921,
                                       "value": null,
-                                      "raw": "null"
+                                      "raw": "null",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 923,
                                       "end": 980,
                                       "value": "null thisArg should be bound as the this-value of mapfn",
-                                      "raw": "\"null thisArg should be bound as the this-value of mapfn\""
+                                      "raw": "\"null thisArg should be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -303,7 +321,9 @@
                           "start": 988,
                           "end": 992,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -352,21 +372,27 @@
                               "start": 1021,
                               "end": 1022,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1024,
                               "end": 1025,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1027,
                               "end": 1028,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +448,18 @@
                                       "start": 1078,
                                       "end": 1086,
                                       "value": "string",
-                                      "raw": "\"string\""
+                                      "raw": "\"string\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1088,
                                       "end": 1147,
                                       "value": "string thisArg should be bound as the this-value of mapfn",
-                                      "raw": "\"string thisArg should be bound as the this-value of mapfn\""
+                                      "raw": "\"string thisArg should be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -443,7 +473,9 @@
                           "start": 1155,
                           "end": 1163,
                           "value": "string",
-                          "raw": "\"string\""
+                          "raw": "\"string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -492,21 +524,27 @@
                               "start": 1192,
                               "end": 1193,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1195,
                               "end": 1196,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1198,
                               "end": 1199,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -562,14 +600,18 @@
                                       "start": 1249,
                                       "end": 1255,
                                       "value": 3.1416,
-                                      "raw": "3.1416"
+                                      "raw": "3.1416",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1257,
                                       "end": 1316,
                                       "value": "number thisArg should be bound as the this-value of mapfn",
-                                      "raw": "\"number thisArg should be bound as the this-value of mapfn\""
+                                      "raw": "\"number thisArg should be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -583,7 +625,9 @@
                           "start": 1324,
                           "end": 1330,
                           "value": 3.1416,
-                          "raw": "3.1416"
+                          "raw": "3.1416",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -632,21 +676,27 @@
                               "start": 1359,
                               "end": 1360,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1362,
                               "end": 1363,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1365,
                               "end": 1366,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -703,6 +753,7 @@
                                       "end": 1419,
                                       "value": null,
                                       "raw": "42n",
+                                      "regex": null,
                                       "bigint": "42"
                                     },
                                     {
@@ -710,7 +761,9 @@
                                       "start": 1421,
                                       "end": 1480,
                                       "value": "bigint thisArg should be bound as the this-value of mapfn",
-                                      "raw": "\"bigint thisArg should be bound as the this-value of mapfn\""
+                                      "raw": "\"bigint thisArg should be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -725,6 +778,7 @@
                           "end": 1491,
                           "value": null,
                           "raw": "42n",
+                          "regex": null,
                           "bigint": "42"
                         }
                       ],
@@ -774,21 +828,27 @@
                               "start": 1520,
                               "end": 1521,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1523,
                               "end": 1524,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1526,
                               "end": 1527,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -844,14 +904,18 @@
                                       "start": 1577,
                                       "end": 1581,
                                       "value": true,
-                                      "raw": "true"
+                                      "raw": "true",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1583,
                                       "end": 1643,
                                       "value": "boolean thisArg should be bound as the this-value of mapfn",
-                                      "raw": "\"boolean thisArg should be bound as the this-value of mapfn\""
+                                      "raw": "\"boolean thisArg should be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -865,7 +929,9 @@
                           "start": 1651,
                           "end": 1655,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -903,7 +969,9 @@
                             "start": 1687,
                             "end": 1695,
                             "value": "symbol",
-                            "raw": "\"symbol\""
+                            "raw": "\"symbol\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -954,21 +1022,27 @@
                               "start": 1723,
                               "end": 1724,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1726,
                               "end": 1727,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1729,
                               "end": 1730,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1030,7 +1104,9 @@
                                       "start": 1792,
                                       "end": 1851,
                                       "value": "symbol thisArg should be bound as the this-value of mapfn",
-                                      "raw": "\"symbol thisArg should be bound as the this-value of mapfn\""
+                                      "raw": "\"symbol thisArg should be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 651,
             "end": 664,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -228,7 +231,9 @@
                         "start": 783,
                         "end": 785,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

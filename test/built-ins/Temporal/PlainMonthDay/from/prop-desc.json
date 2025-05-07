@@ -75,14 +75,18 @@
             "start": 347,
             "end": 357,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 404,
             "value": "`typeof PlainMonthDay.from` is `function`",
-            "raw": "\"`typeof PlainMonthDay.from` is `function`\""
+            "raw": "\"`typeof PlainMonthDay.from` is `function`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 448,
             "end": 454,
             "value": "from",
-            "raw": "\"from\""
+            "raw": "\"from\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 470,
                   "end": 474,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 490,
                   "end": 495,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 513,
                   "end": 517,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

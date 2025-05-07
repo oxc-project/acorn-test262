@@ -86,7 +86,9 @@
                 "start": 311,
                 "end": 315,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -118,7 +120,9 @@
             "start": 336,
             "end": 393,
             "value": "Array.prototype.map.call(true, () => {}) must return []",
-            "raw": "'Array.prototype.map.call(true, () => {}) must return []'"
+            "raw": "'Array.prototype.map.call(true, () => {}) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +211,9 @@
                 "start": 445,
                 "end": 450,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -239,7 +245,9 @@
             "start": 471,
             "end": 529,
             "value": "Array.prototype.map.call(false, () => {}) must return []",
-            "raw": "'Array.prototype.map.call(false, () => {}) must return []'"
+            "raw": "'Array.prototype.map.call(false, () => {}) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

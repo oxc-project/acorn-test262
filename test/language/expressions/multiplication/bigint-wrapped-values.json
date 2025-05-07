@@ -52,6 +52,7 @@
                   "end": 360,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -64,6 +65,7 @@
               "end": 366,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -73,6 +75,7 @@
             "end": 370,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -80,7 +83,9 @@
             "start": 372,
             "end": 411,
             "value": "The result of (Object(2n) * 2n) is 4n",
-            "raw": "'The result of (Object(2n) * 2n) is 4n'"
+            "raw": "'The result of (Object(2n) * 2n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,6 +129,7 @@
               "end": 433,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "*",
@@ -144,6 +150,7 @@
                   "end": 445,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -156,6 +163,7 @@
             "end": 450,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -163,7 +171,9 @@
             "start": 452,
             "end": 491,
             "value": "The result of (2n * Object(2n)) is 4n",
-            "raw": "'The result of (2n * Object(2n)) is 4n'"
+            "raw": "'The result of (2n * Object(2n)) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,6 +266,7 @@
                             "end": 564,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -273,6 +284,7 @@
               "end": 576,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -282,6 +294,7 @@
             "end": 580,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -289,7 +302,9 @@
             "start": 582,
             "end": 660,
             "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) * 2n) is 4n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) * 2n) is 4n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) * 2n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,6 +348,7 @@
               "end": 683,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "*",
@@ -391,6 +407,7 @@
                             "end": 738,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -408,6 +425,7 @@
             "end": 749,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -415,7 +433,9 @@
             "start": 751,
             "end": 827,
             "value": "The result of (2n * {[Symbol.toPrimitive]: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (2n * {[Symbol.toPrimitive]: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (2n * {[Symbol.toPrimitive]: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,6 +515,7 @@
                             "end": 887,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -512,6 +533,7 @@
               "end": 899,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -521,6 +543,7 @@
             "end": 903,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -528,7 +551,9 @@
             "start": 905,
             "end": 970,
             "value": "The result of (({valueOf: function() {return 2n;}}) * 2n) is 4n",
-            "raw": "'The result of (({valueOf: function() {return 2n;}}) * 2n) is 4n'"
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) * 2n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,6 +597,7 @@
               "end": 993,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "*",
@@ -617,6 +643,7 @@
                             "end": 1035,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -634,6 +661,7 @@
             "end": 1046,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -641,7 +669,9 @@
             "start": 1048,
             "end": 1111,
             "value": "The result of (2n * {valueOf: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (2n * {valueOf: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (2n * {valueOf: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,6 +751,7 @@
                             "end": 1172,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -738,6 +769,7 @@
               "end": 1184,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -747,6 +779,7 @@
             "end": 1188,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -754,7 +787,9 @@
             "start": 1190,
             "end": 1256,
             "value": "The result of (({toString: function() {return 2n;}}) * 2n) is 4n",
-            "raw": "'The result of (({toString: function() {return 2n;}}) * 2n) is 4n'"
+            "raw": "'The result of (({toString: function() {return 2n;}}) * 2n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,6 +833,7 @@
               "end": 1279,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "*",
@@ -843,6 +879,7 @@
                             "end": 1322,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -860,6 +897,7 @@
             "end": 1333,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -867,7 +905,9 @@
             "start": 1335,
             "end": 1399,
             "value": "The result of (2n * {toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (2n * {toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (2n * {toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

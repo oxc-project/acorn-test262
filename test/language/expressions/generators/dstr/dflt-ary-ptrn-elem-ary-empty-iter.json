@@ -23,7 +23,9 @@
             "start": 1849,
             "end": 1850,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1869,
             "end": 1870,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -156,7 +160,9 @@
                                   "start": 1925,
                                   "end": 1926,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -184,7 +190,9 @@
                         "start": 1937,
                         "end": 1939,
                         "value": 23,
-                        "raw": "23"
+                        "raw": "23",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -236,7 +244,9 @@
                       "start": 1975,
                       "end": 1976,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -273,7 +283,9 @@
                       "start": 2005,
                       "end": 2006,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -360,14 +372,18 @@
             "start": 2052,
             "end": 2053,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2055,
             "end": 2096,
             "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "raw": "'generator function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

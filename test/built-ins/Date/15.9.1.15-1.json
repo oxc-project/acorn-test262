@@ -23,7 +23,9 @@
             "start": 361,
             "end": 366,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 394,
             "end": 420,
             "value": "1970-01-01T00:00:00.000Z",
-            "raw": "\"1970-01-01T00:00:00.000Z\""
+            "raw": "\"1970-01-01T00:00:00.000Z\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +90,9 @@
                 "start": 445,
                 "end": 451,
                 "value": "1970",
-                "raw": "\"1970\""
+                "raw": "\"1970\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -200,7 +206,9 @@
             "start": 549,
             "end": 566,
             "value": "result !== true",
-            "raw": "'result !== true'"
+            "raw": "'result !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -27,7 +27,9 @@
               "start": 260,
               "end": 265,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 271,
           "end": 276,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +74,9 @@
                     "start": 305,
                     "end": 364,
                     "value": "#1: Boolean(false) === false. Actual: Boolean(false) === ",
-                    "raw": "'#1: Boolean(false) === false. Actual: Boolean(false) === '"
+                    "raw": "'#1: Boolean(false) === false. Actual: Boolean(false) === '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -93,7 +99,9 @@
                           "start": 376,
                           "end": 381,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

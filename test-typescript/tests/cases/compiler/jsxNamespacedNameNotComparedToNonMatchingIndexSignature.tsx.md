@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
                     "start": 146,
                     "end": 156,
                     "raw": "\"ns:thing\"",
-                    "value": "ns:thing"
+                    "value": "ns:thing",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -152,7 +154,9 @@ __ESTREE_TEST__:PASS:
         "start": 60,
         "end": 67,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -216,7 +220,9 @@ __ESTREE_TEST__:PASS:
                       "start": 209,
                       "end": 212,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],

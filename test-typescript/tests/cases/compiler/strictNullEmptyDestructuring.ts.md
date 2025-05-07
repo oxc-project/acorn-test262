@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 31,
             "end": 35,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@ __ESTREE_TEST__:PASS:
             "start": 48,
             "end": 52,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -91,7 +95,9 @@ __ESTREE_TEST__:PASS:
           "start": 61,
           "end": 65,
           "raw": "null",
-          "value": null
+          "value": null,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -186,7 +192,9 @@ __ESTREE_TEST__:PASS:
               "start": 141,
               "end": 145,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "ObjectExpression",
@@ -261,7 +269,9 @@ __ESTREE_TEST__:PASS:
             "start": 175,
             "end": 179,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           "consequent": {
             "type": "ObjectExpression",
@@ -493,7 +503,9 @@ __ESTREE_TEST__:PASS:
               "start": 292,
               "end": 296,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "CallExpression",
@@ -571,7 +583,9 @@ __ESTREE_TEST__:PASS:
             "start": 333,
             "end": 337,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           "test": {
             "type": "CallExpression",

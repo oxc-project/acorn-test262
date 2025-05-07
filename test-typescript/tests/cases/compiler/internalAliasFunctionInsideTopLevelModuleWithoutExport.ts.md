@@ -180,7 +180,9 @@ __ESTREE_TEST__:PASS:
                   "start": 120,
                   "end": 122,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

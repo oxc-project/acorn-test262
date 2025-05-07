@@ -178,7 +178,9 @@
                                         "start": 690,
                                         "end": 696,
                                         "value": "has:",
-                                        "raw": "\"has:\""
+                                        "raw": "\"has:\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -346,7 +348,9 @@
                 "start": 838,
                 "end": 850,
                 "value": "has:Object",
-                "raw": "\"has:Object\""
+                "raw": "\"has:Object\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

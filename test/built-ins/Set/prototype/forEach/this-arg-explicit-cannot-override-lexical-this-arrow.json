@@ -39,7 +39,9 @@
                     "start": 445,
                     "end": 446,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -94,7 +96,9 @@
             "start": 482,
             "end": 483,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -193,7 +197,9 @@
                         "start": 540,
                         "end": 565,
                         "value": "`this` is not `usurper`",
-                        "raw": "\"`this` is not `usurper`\""
+                        "raw": "\"`this` is not `usurper`\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -269,14 +275,18 @@
             "start": 621,
             "end": 622,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 650,
             "value": "`forEach` is not a no-op",
-            "raw": "\"`forEach` is not a no-op\""
+            "raw": "\"`forEach` is not a no-op\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

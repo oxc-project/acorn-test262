@@ -23,7 +23,9 @@
             "start": 320,
             "end": 323,
             "value": "h",
-            "raw": "\"h\""
+            "raw": "\"h\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -105,7 +107,9 @@
               "start": 482,
               "end": 485,
               "value": "g",
-              "raw": "\"g\""
+              "raw": "\"g\"",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "value": {
@@ -356,7 +360,9 @@
             "start": 775,
             "end": 842,
             "value": "async /* a */ * /* b */ f /* c */ ( /* d */ ) /* e */ { /* f */ }",
-            "raw": "\"async /* a */ * /* b */ f /* c */ ( /* d */ ) /* e */ { /* f */ }\""
+            "raw": "\"async /* a */ * /* b */ f /* c */ ( /* d */ ) /* e */ { /* f */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -388,7 +394,9 @@
             "start": 879,
             "end": 970,
             "value": "async /* a */ * /* b */ [ /* c */ \"g\" /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }",
-            "raw": "\"async /* a */ * /* b */ [ /* c */ \\\"g\\\" /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }\""
+            "raw": "\"async /* a */ * /* b */ [ /* c */ \\\"g\\\" /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -420,7 +428,9 @@
             "start": 1007,
             "end": 1094,
             "value": "async /* a */ * /* b */ [ /* c */ x /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }",
-            "raw": "\"async /* a */ * /* b */ [ /* c */ x /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }\""
+            "raw": "\"async /* a */ * /* b */ [ /* c */ x /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -43,7 +43,9 @@
           "start": 426,
           "end": 431,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -75,7 +77,9 @@
                     "start": 459,
                     "end": 502,
                     "value": "#1: delete Number.NaN === false. Actual: ",
-                    "raw": "'#1: delete Number.NaN === false. Actual: '"
+                    "raw": "'#1: delete Number.NaN === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -167,7 +171,9 @@
           "start": 729,
           "end": 740,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -195,7 +201,9 @@
                   "start": 768,
                   "end": 828,
                   "value": "#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" ",
-                  "raw": "'#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" '"
+                  "raw": "'#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" '",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -56,7 +56,9 @@
               "start": 423,
               "end": 424,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -101,7 +103,9 @@
             "start": 456,
             "end": 461,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -168,7 +172,9 @@
                   "start": 514,
                   "end": 519,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -190,7 +196,9 @@
                   "start": 537,
                   "end": 542,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -314,7 +322,9 @@
             "start": 636,
             "end": 641,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -339,7 +349,9 @@
                   "start": 659,
                   "end": 664,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -361,7 +373,9 @@
                   "start": 682,
                   "end": 687,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -421,7 +435,9 @@
                 "start": 742,
                 "end": 747,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -475,7 +491,9 @@
           "start": 776,
           "end": 787,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -507,7 +525,9 @@
                     "start": 816,
                     "end": 871,
                     "value": "Expected typeof (desc.set) === \"undefined\", actually ",
-                    "raw": "'Expected typeof (desc.set) === \"undefined\", actually '"
+                    "raw": "'Expected typeof (desc.set) === \"undefined\", actually '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

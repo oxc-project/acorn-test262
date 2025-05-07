@@ -76,6 +76,7 @@
                                 "end": 883,
                                 "value": null,
                                 "raw": "40n",
+                                "regex": null,
                                 "bigint": "40"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 888,
                                 "value": null,
                                 "raw": "41n",
+                                "regex": null,
                                 "bigint": "41"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 893,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -100,6 +103,7 @@
                                 "end": 898,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               }
                             ]
@@ -130,7 +134,9 @@
                         "start": 916,
                         "end": 917,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -208,7 +214,9 @@
                         "start": 972,
                         "end": 985,
                         "value": "constructor",
-                        "raw": "\"constructor\""
+                        "raw": "\"constructor\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -333,7 +341,9 @@
                                   "start": 1088,
                                   "end": 1092,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -383,14 +393,18 @@
                         "start": 1127,
                         "end": 1128,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1130,
                         "end": 1168,
                         "value": "called custom ctor get accessor once",
-                        "raw": "\"called custom ctor get accessor once\""
+                        "raw": "\"called custom ctor get accessor once\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -495,7 +509,9 @@
                         "start": 1266,
                         "end": 1329,
                         "value": "use defaultCtor on an undefined return - getPrototypeOf check",
-                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\""
+                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -559,7 +575,9 @@
                         "start": 1398,
                         "end": 1460,
                         "value": "used defaultCtor but still checks the inherited .constructor",
-                        "raw": "\"used defaultCtor but still checks the inherited .constructor\""
+                        "raw": "\"used defaultCtor but still checks the inherited .constructor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -585,7 +603,9 @@
                       "start": 1477,
                       "end": 1478,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -652,14 +672,18 @@
                         "start": 1537,
                         "end": 1538,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1544,
                         "end": 1605,
                         "value": "result.constructor triggers the inherited accessor property",
-                        "raw": "\"result.constructor triggers the inherited accessor property\""
+                        "raw": "\"result.constructor triggers the inherited accessor property\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

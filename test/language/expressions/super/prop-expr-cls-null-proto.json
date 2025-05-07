@@ -38,7 +38,9 @@
         "start": 882,
         "end": 886,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ClassBody",
@@ -99,7 +101,9 @@
                               "start": 924,
                               "end": 927,
                               "value": "x",
-                              "raw": "'x'"
+                              "raw": "'x'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -247,7 +251,9 @@
             "start": 1038,
             "end": 1046,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

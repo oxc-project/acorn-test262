@@ -1111,7 +1111,9 @@ __ESTREE_TEST__:PASS:
               "start": 590,
               "end": 594,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
@@ -1590,7 +1592,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1040,
                           "end": 1048,
                           "raw": "\"serial\"",
-                          "value": "serial"
+                          "value": "serial",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

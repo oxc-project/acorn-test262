@@ -23,7 +23,9 @@
             "start": 1223,
             "end": 1224,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1244,
             "end": 1245,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +151,9 @@
                             "start": 1325,
                             "end": 1326,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -410,7 +416,9 @@
                 "start": 1539,
                 "end": 1540,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -647,7 +655,9 @@
             "start": 1696,
             "end": 1697,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -692,14 +702,18 @@
             "start": 1730,
             "end": 1731,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1733,
             "end": 1773,
             "value": "Unreachable statement was not executed",
-            "raw": "'Unreachable statement was not executed'"
+            "raw": "'Unreachable statement was not executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

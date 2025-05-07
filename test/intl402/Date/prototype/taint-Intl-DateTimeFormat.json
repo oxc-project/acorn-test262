@@ -29,7 +29,9 @@
             "start": 363,
             "end": 379,
             "value": "DateTimeFormat",
-            "raw": "\"DateTimeFormat\""
+            "raw": "\"DateTimeFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

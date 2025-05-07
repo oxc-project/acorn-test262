@@ -46,7 +46,9 @@
                       "start": 1099,
                       "end": 1103,
                       "value": "ca",
-                      "raw": "\"ca\""
+                      "raw": "\"ca\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -68,7 +70,9 @@
                       "start": 1117,
                       "end": 1127,
                       "value": "calendar",
-                      "raw": "\"calendar\""
+                      "raw": "\"calendar\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,14 +104,18 @@
                               "start": 1149,
                               "end": 1159,
                               "value": "islamicc",
-                              "raw": "\"islamicc\""
+                              "raw": "\"islamicc\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1161,
                               "end": 1176,
                               "value": "islamic-civil",
-                              "raw": "\"islamic-civil\""
+                              "raw": "\"islamic-civil\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -121,14 +129,18 @@
                               "start": 1186,
                               "end": 1207,
                               "value": "ethiopic-amete-alem",
-                              "raw": "\"ethiopic-amete-alem\""
+                              "raw": "\"ethiopic-amete-alem\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1209,
                               "end": 1218,
                               "value": "ethioaa",
-                              "raw": "\"ethioaa\""
+                              "raw": "\"ethioaa\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

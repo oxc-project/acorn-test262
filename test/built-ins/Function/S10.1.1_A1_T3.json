@@ -50,7 +50,9 @@
                       "start": 515,
                       "end": 516,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -126,14 +128,18 @@
             "start": 567,
             "end": 577,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 648,
             "value": "The value of `typeof(x.constructor)` is expected to be \"function\"",
-            "raw": "'The value of `typeof(x.constructor)` is expected to be \"function\"'"
+            "raw": "'The value of `typeof(x.constructor)` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

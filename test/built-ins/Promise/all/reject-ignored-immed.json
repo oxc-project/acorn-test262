@@ -330,7 +330,9 @@
                         "start": 1211,
                         "end": 1248,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

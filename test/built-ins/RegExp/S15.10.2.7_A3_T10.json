@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "o+",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 362,
                 "end": 371,
                 "value": "abcdefg",
-                "raw": "\"abcdefg\""
+                "raw": "\"abcdefg\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 395,
             "end": 444,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

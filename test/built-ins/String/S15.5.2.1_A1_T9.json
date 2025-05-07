@@ -61,21 +61,27 @@
                               "start": 572,
                               "end": 573,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 575,
                               "end": 576,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 578,
                               "end": 579,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -119,7 +125,9 @@
           "start": 698,
           "end": 706,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -151,7 +159,9 @@
                     "start": 735,
                     "end": 842,
                     "value": "#1: __str = new String(function(){return [1,2,3]}()); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(function(){return [1,2,3]}()); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String(function(){return [1,2,3]}()); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -239,7 +249,9 @@
                     "start": 1097,
                     "end": 1214,
                     "value": "#1.5: __str = new String(function(){return [1,2,3]}()); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(function(){return [1,2,3]}()); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(function(){return [1,2,3]}()); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -289,7 +301,9 @@
           "start": 1424,
           "end": 1431,
           "value": "1,2,3",
-          "raw": "\"1,2,3\""
+          "raw": "\"1,2,3\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -321,7 +335,9 @@
                     "start": 1460,
                     "end": 1549,
                     "value": "#2: __str = new String(function(){return [1,2,3]}()); __str ==\"1,2,3\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(function(){return [1,2,3]}()); __str ==\"1,2,3\". Actual: __str =='"
+                    "raw": "'#2: __str = new String(function(){return [1,2,3]}()); __str ==\"1,2,3\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

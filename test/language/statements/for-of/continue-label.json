@@ -36,7 +36,9 @@
                 "start": 328,
                 "end": 329,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -95,7 +97,9 @@
             "start": 366,
             "end": 367,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +125,9 @@
             "start": 380,
             "end": 384,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -166,7 +172,9 @@
                   "start": 418,
                   "end": 423,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -255,7 +263,9 @@
                           "start": 511,
                           "end": 554,
                           "value": "This code is unreachable (inside for-of).",
-                          "raw": "'This code is unreachable (inside for-of).'"
+                          "raw": "'This code is unreachable (inside for-of).'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -283,7 +293,9 @@
                     "start": 586,
                     "end": 628,
                     "value": "This code is unreachable (inside while).",
-                    "raw": "'This code is unreachable (inside while).'"
+                    "raw": "'This code is unreachable (inside while).'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -337,7 +349,9 @@
             "start": 654,
             "end": 655,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -64,28 +64,36 @@
                             "start": 897,
                             "end": 902,
                             "value": "1.0",
-                            "raw": "\"1.0\""
+                            "raw": "\"1.0\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 908,
                             "end": 912,
                             "value": "+1",
-                            "raw": "\"+1\""
+                            "raw": "\"+1\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 918,
                             "end": 942,
                             "value": "1000000000000000000000",
-                            "raw": "\"1000000000000000000000\""
+                            "raw": "\"1000000000000000000000\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 948,
                             "end": 959,
                             "value": "0.0000001",
-                            "raw": "\"0.0000001\""
+                            "raw": "\"0.0000001\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -232,14 +240,18 @@
                                     "start": 1094,
                                     "end": 1098,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1106,
                                     "end": 1149,
                                     "value": "The value of `delete sample[key]` is true",
-                                    "raw": "'The value of `delete sample[key]` is true'"
+                                    "raw": "'The value of `delete sample[key]` is true'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -353,14 +365,18 @@
                                     "start": 1250,
                                     "end": 1254,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1262,
                                     "end": 1305,
                                     "value": "The value of `delete sample[key]` is true",
-                                    "raw": "'The value of `delete sample[key]` is true'"
+                                    "raw": "'The value of `delete sample[key]` is true'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -461,14 +477,18 @@
                                     "start": 1385,
                                     "end": 1389,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1397,
                                     "end": 1440,
                                     "value": "The value of `delete sample[key]` is true",
-                                    "raw": "'The value of `delete sample[key]` is true'"
+                                    "raw": "'The value of `delete sample[key]` is true'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -627,14 +647,18 @@
                                     "start": 1575,
                                     "end": 1580,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1588,
                                     "end": 1632,
                                     "value": "The value of `delete sample[key]` is false",
-                                    "raw": "'The value of `delete sample[key]` is false'"
+                                    "raw": "'The value of `delete sample[key]` is false'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

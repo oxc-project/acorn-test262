@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 523,
             "end": 529,
             "value": "exec",
-            "raw": "'exec'"
+            "raw": "'exec'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -228,7 +231,9 @@
                         "start": 651,
                         "end": 653,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

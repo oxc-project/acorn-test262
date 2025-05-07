@@ -62,14 +62,18 @@
             "start": 735,
             "end": 745,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 802,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -141,7 +145,9 @@
                       "start": 892,
                       "end": 893,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -219,7 +225,9 @@
                               "start": 965,
                               "end": 996,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -315,7 +323,9 @@
                               "start": 1091,
                               "end": 1138,
                               "value": "passing a poisoned object using @@ToPrimitive",
-                              "raw": "'passing a poisoned object using @@ToPrimitive'"
+                              "raw": "'passing a poisoned object using @@ToPrimitive'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -418,7 +428,9 @@
                         "start": 1216,
                         "end": 1217,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
@@ -426,6 +438,7 @@
                         "end": 1221,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -446,7 +459,9 @@
             "start": 1244,
             "end": 1327,
             "value": "`Atomics.waitAsync(i64a, 0, 0n, poisonedValueOf)` throws a Test262Error exception",
-            "raw": "'`Atomics.waitAsync(i64a, 0, 0n, poisonedValueOf)` throws a Test262Error exception'"
+            "raw": "'`Atomics.waitAsync(i64a, 0, 0n, poisonedValueOf)` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -539,7 +554,9 @@
                         "start": 1398,
                         "end": 1399,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
@@ -547,6 +564,7 @@
                         "end": 1403,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -567,7 +585,9 @@
             "start": 1430,
             "end": 1517,
             "value": "`Atomics.waitAsync(i64a, 0, 0n, poisonedToPrimitive)` throws a Test262Error exception",
-            "raw": "'`Atomics.waitAsync(i64a, 0, 0n, poisonedToPrimitive)` throws a Test262Error exception'"
+            "raw": "'`Atomics.waitAsync(i64a, 0, 0n, poisonedToPrimitive)` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -75,14 +75,18 @@
             "start": 314,
             "end": 319,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 321,
             "end": 368,
             "value": "Boolean.prototype.valueOf() must return false",
-            "raw": "'Boolean.prototype.valueOf() must return false'"
+            "raw": "'Boolean.prototype.valueOf() must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,14 +162,18 @@
             "start": 415,
             "end": 420,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 467,
             "value": "(new Boolean()).valueOf() must return false",
-            "raw": "'(new Boolean()).valueOf() must return false'"
+            "raw": "'(new Boolean()).valueOf() must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -227,7 +235,9 @@
                       "start": 500,
                       "end": 501,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -249,14 +259,18 @@
             "start": 515,
             "end": 520,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 568,
             "value": "(new Boolean(0)).valueOf() must return false",
-            "raw": "'(new Boolean(0)).valueOf() must return false'"
+            "raw": "'(new Boolean(0)).valueOf() must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +338,9 @@
                         "start": 602,
                         "end": 603,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -347,14 +363,18 @@
             "start": 617,
             "end": 621,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 669,
             "value": "(new Boolean(-1)).valueOf() must return true",
-            "raw": "'(new Boolean(-1)).valueOf() must return true'"
+            "raw": "'(new Boolean(-1)).valueOf() must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -416,7 +436,9 @@
                       "start": 702,
                       "end": 703,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -438,14 +460,18 @@
             "start": 717,
             "end": 721,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 768,
             "value": "(new Boolean(1)).valueOf() must return true",
-            "raw": "'(new Boolean(1)).valueOf() must return true'"
+            "raw": "'(new Boolean(1)).valueOf() must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,14 +560,18 @@
             "start": 833,
             "end": 837,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 897,
             "value": "(new Boolean(new Object())).valueOf() must return true",
-            "raw": "'(new Boolean(new Object())).valueOf() must return true'"
+            "raw": "'(new Boolean(new Object())).valueOf() must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

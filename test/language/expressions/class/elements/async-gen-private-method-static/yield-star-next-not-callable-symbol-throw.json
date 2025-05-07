@@ -83,7 +83,9 @@
                               "start": 1107,
                               "end": 1142,
                               "value": "it should not get Symbol.iterator",
-                              "raw": "'it should not get Symbol.iterator'"
+                              "raw": "'it should not get Symbol.iterator'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -171,7 +173,9 @@
                                     "start": 1211,
                                     "end": 1215,
                                     "value": "oi",
-                                    "raw": "'oi'"
+                                    "raw": "'oi'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -212,7 +216,9 @@
             "start": 1250,
             "end": 1251,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -291,7 +297,9 @@
                               "start": 1318,
                               "end": 1319,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -332,7 +340,9 @@
                                 "start": 1374,
                                 "end": 1405,
                                 "value": "abrupt completion closes iter",
-                                "raw": "'abrupt completion closes iter'"
+                                "raw": "'abrupt completion closes iter'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -497,7 +507,9 @@
                   "start": 1597,
                   "end": 1603,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -508,7 +520,9 @@
             "start": 1608,
             "end": 1664,
             "value": "#gen does not appear as an own property on C prototype",
-            "raw": "\"#gen does not appear as an own property on C prototype\""
+            "raw": "\"#gen does not appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -596,7 +610,9 @@
                   "start": 1719,
                   "end": 1725,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -607,7 +623,9 @@
             "start": 1730,
             "end": 1788,
             "value": "#gen does not appear as an own property on C constructor",
-            "raw": "\"#gen does not appear as an own property on C constructor\""
+            "raw": "\"#gen does not appear as an own property on C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -748,7 +766,9 @@
                             "start": 1864,
                             "end": 1896,
                             "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "raw": "'Promise incorrectly fulfilled.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -835,7 +855,9 @@
                             "start": 1954,
                             "end": 1965,
                             "value": "TypeError",
-                            "raw": "\"TypeError\""
+                            "raw": "\"TypeError\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1000,14 +1022,18 @@
                                             "start": 2038,
                                             "end": 2042,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 2044,
                                             "end": 2071,
                                             "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "raw": "'the iterator is completed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -1058,7 +1084,9 @@
                                             "start": 2113,
                                             "end": 2133,
                                             "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "raw": "'value is undefined'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -1161,7 +1189,9 @@
             "start": 2207,
             "end": 2208,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1262,7 +1292,9 @@
                   "start": 2347,
                   "end": 2353,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1273,7 +1305,9 @@
             "start": 2358,
             "end": 2414,
             "value": "#gen does not appear as an own property on C prototype",
-            "raw": "\"#gen does not appear as an own property on C prototype\""
+            "raw": "\"#gen does not appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1361,7 +1395,9 @@
                   "start": 2469,
                   "end": 2475,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1372,7 +1408,9 @@
             "start": 2480,
             "end": 2538,
             "value": "#gen does not appear as an own property on C constructor",
-            "raw": "\"#gen does not appear as an own property on C constructor\""
+            "raw": "\"#gen does not appear as an own property on C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,7 +48,9 @@
             "start": 1611,
             "end": 1612,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -116,7 +118,9 @@
                       "start": 1659,
                       "end": 1664,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -127,7 +131,9 @@
                 "start": 1668,
                 "end": 1675,
                 "value": "value",
-                "raw": "'value'"
+                "raw": "'value'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -181,7 +187,9 @@
                                 "start": 1716,
                                 "end": 1717,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -317,7 +325,9 @@
                                       "start": 1822,
                                       "end": 1827,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -400,7 +410,9 @@
             "start": 1923,
             "end": 1928,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -426,7 +438,9 @@
             "start": 1952,
             "end": 1957,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -452,7 +466,9 @@
             "start": 1984,
             "end": 1989,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -523,7 +539,9 @@
                       "start": 2059,
                       "end": 2063,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -564,7 +582,9 @@
                         "start": 2103,
                         "end": 2107,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -596,7 +616,9 @@
                       "start": 2148,
                       "end": 2152,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -708,14 +730,18 @@
             "start": 2218,
             "end": 2219,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2221,
             "end": 2253,
             "value": "access count (first iteration)",
-            "raw": "'access count (first iteration)'"
+            "raw": "'access count (first iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -760,14 +786,18 @@
             "start": 2296,
             "end": 2301,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2303,
             "end": 2341,
             "value": "delegation ongoing (first iteration)",
-            "raw": "'delegation ongoing (first iteration)'"
+            "raw": "'delegation ongoing (first iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -843,14 +873,18 @@
             "start": 2389,
             "end": 2390,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2392,
             "end": 2425,
             "value": "access count (second iteration)",
-            "raw": "'access count (second iteration)'"
+            "raw": "'access count (second iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -895,14 +929,18 @@
             "start": 2468,
             "end": 2473,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2475,
             "end": 2514,
             "value": "delegation ongoing (second iteration)",
-            "raw": "'delegation ongoing (second iteration)'"
+            "raw": "'delegation ongoing (second iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -941,7 +979,9 @@
           "start": 2535,
           "end": 2539,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1015,14 +1055,18 @@
             "start": 2584,
             "end": 2585,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2587,
             "end": 2619,
             "value": "access count (final iteration)",
-            "raw": "'access count (final iteration)'"
+            "raw": "'access count (final iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1067,14 +1111,18 @@
             "start": 2659,
             "end": 2663,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2665,
             "end": 2686,
             "value": "delegation complete",
-            "raw": "'delegation complete'"
+            "raw": "'delegation complete'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1119,14 +1167,18 @@
             "start": 2724,
             "end": 2729,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2731,
             "end": 2754,
             "value": "completion was abrupt",
-            "raw": "'completion was abrupt'"
+            "raw": "'completion was abrupt'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1171,14 +1223,18 @@
             "start": 2791,
             "end": 2796,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2798,
             "end": 2834,
             "value": "completion was not of type \"throw\"",
-            "raw": "'completion was not of type \"throw\"'"
+            "raw": "'completion was not of type \"throw\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -209,7 +209,9 @@
                         "start": 484,
                         "end": 488,
                         "value": "p1",
-                        "raw": "'p1'"
+                        "raw": "'p1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

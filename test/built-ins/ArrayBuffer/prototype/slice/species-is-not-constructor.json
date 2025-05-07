@@ -59,7 +59,9 @@
                 "start": 727,
                 "end": 728,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -250,7 +252,9 @@
             "start": 904,
             "end": 951,
             "value": "`constructor[Symbol.species]` value is Object",
-            "raw": "\"`constructor[Symbol.species]` value is Object\""
+            "raw": "\"`constructor[Symbol.species]` value is Object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -363,7 +367,9 @@
             "start": 1048,
             "end": 1107,
             "value": "`constructor[Symbol.species]` value is Function.prototype",
-            "raw": "\"`constructor[Symbol.species]` value is Function.prototype\""
+            "raw": "\"`constructor[Symbol.species]` value is Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

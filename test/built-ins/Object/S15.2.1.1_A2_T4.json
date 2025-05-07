@@ -41,7 +41,9 @@
                   "start": 413,
                   "end": 417,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -102,14 +104,18 @@
             "start": 452,
             "end": 460,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 462,
             "end": 517,
             "value": "The value of `typeof(obj)` is expected to be \"object\"",
-            "raw": "'The value of `typeof(obj)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof(obj)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,7 +205,9 @@
             "start": 576,
             "end": 634,
             "value": "The value of n_obj is expected to equal the value of obj",
-            "raw": "'The value of n_obj is expected to equal the value of obj'"
+            "raw": "'The value of n_obj is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,7 +255,9 @@
                   "start": 652,
                   "end": 658,
                   "value": "flag",
-                  "raw": "'flag'"
+                  "raw": "'flag'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -259,7 +269,9 @@
             "start": 661,
             "end": 714,
             "value": "The value of !!n_obj[\"flag\"] is expected to be true",
-            "raw": "'The value of !!n_obj[\"flag\"] is expected to be true'"
+            "raw": "'The value of !!n_obj[\"flag\"] is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

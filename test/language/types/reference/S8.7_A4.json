@@ -34,7 +34,9 @@
                 "start": 541,
                 "end": 547,
                 "value": "test",
-                "raw": "\"test\""
+                "raw": "\"test\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,7 +89,9 @@
           "start": 758,
           "end": 763,
           "value": "ing",
-          "raw": "\"ing\""
+          "raw": "\"ing\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -138,7 +142,9 @@
                   "start": 911,
                   "end": 998,
                   "value": "#1: var item = new String(\"test\"); var itemRef = item; item += \"ing\"; item != itemRef",
-                  "raw": "'#1: var item = new String(\"test\"); var itemRef = item; item += \"ing\"; item != itemRef'"
+                  "raw": "'#1: var item = new String(\"test\"); var itemRef = item; item += \"ing\"; item != itemRef'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

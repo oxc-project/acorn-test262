@@ -29,7 +29,9 @@
             "start": 663,
             "end": 671,
             "value": "concat",
-            "raw": "\"concat\""
+            "raw": "\"concat\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -88,7 +90,9 @@
                   "start": 713,
                   "end": 717,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -110,7 +114,9 @@
                   "start": 733,
                   "end": 738,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -132,7 +138,9 @@
                   "start": 756,
                   "end": 760,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

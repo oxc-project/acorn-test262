@@ -36,21 +36,27 @@
                     "start": 543,
                     "end": 550,
                     "value": "first",
-                    "raw": "\"first\""
+                    "raw": "\"first\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 552,
                     "end": 560,
                     "value": "second",
-                    "raw": "\"second\""
+                    "raw": "\"second\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 562,
                     "end": 569,
                     "value": "third",
-                    "raw": "\"third\""
+                    "raw": "\"third\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -69,7 +75,9 @@
                 "start": 581,
                 "end": 582,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,7 +130,9 @@
                 "start": 615,
                 "end": 622,
                 "value": "first",
-                "raw": "\"first\""
+                "raw": "\"first\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

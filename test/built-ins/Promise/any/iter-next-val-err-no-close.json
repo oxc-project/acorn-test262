@@ -23,7 +23,9 @@
             "start": 823,
             "end": 824,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 844,
             "end": 845,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +128,9 @@
                   "start": 904,
                   "end": 909,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -173,7 +179,9 @@
             "start": 945,
             "end": 952,
             "value": "value",
-            "raw": "'value'"
+            "raw": "'value'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -567,7 +575,9 @@
                             "start": 1292,
                             "end": 1342,
                             "value": "The promise should be rejected, but was resolved",
-                            "raw": "'The promise should be rejected, but was resolved'"
+                            "raw": "'The promise should be rejected, but was resolved'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -717,14 +727,18 @@
                             "start": 1468,
                             "end": 1469,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1471,
                             "end": 1488,
                             "value": "callCount === 3",
-                            "raw": "'callCount === 3'"
+                            "raw": "'callCount === 3'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -769,7 +783,9 @@
                             "start": 1523,
                             "end": 1524,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -23,7 +23,9 @@
             "start": 584,
             "end": 585,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 611,
                   "end": 612,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -169,7 +173,9 @@
                           "start": 705,
                           "end": 709,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -255,7 +261,9 @@
                           "start": 781,
                           "end": 793,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "directive": "use strict"
                       },
@@ -279,7 +287,9 @@
                             "start": 809,
                             "end": 812,
                             "value": 123,
-                            "raw": "123"
+                            "raw": "123",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -332,14 +342,18 @@
             "start": 859,
             "end": 860,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 862,
             "end": 900,
             "value": "get [Symbol.unscopables] called once",
-            "raw": "\"get [Symbol.unscopables] called once\""
+            "raw": "\"get [Symbol.unscopables] called once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -408,7 +422,9 @@
                 "start": 958,
                 "end": 967,
                 "value": "binding",
-                "raw": "\"binding\""
+                "raw": "\"binding\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -424,7 +440,9 @@
             "start": 981,
             "end": 998,
             "value": "binding deleted",
-            "raw": "\"binding deleted\""
+            "raw": "\"binding deleted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

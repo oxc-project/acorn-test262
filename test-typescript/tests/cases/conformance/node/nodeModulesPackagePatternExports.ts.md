@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 58,
         "raw": "\"inner/cjs/index\"",
-        "value": "inner/cjs/index"
+        "value": "inner/cjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 99,
         "raw": "\"inner/mjs/index\"",
-        "value": "inner/mjs/index"
+        "value": "inner/mjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -76,7 +80,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 140,
         "raw": "\"inner/js/index\"",
-        "value": "inner/js/index"
+        "value": "inner/js/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -163,7 +169,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 58,
         "raw": "\"inner/cjs/index\"",
-        "value": "inner/cjs/index"
+        "value": "inner/cjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -193,7 +201,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 99,
         "raw": "\"inner/mjs/index\"",
-        "value": "inner/mjs/index"
+        "value": "inner/mjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -223,7 +233,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 140,
         "raw": "\"inner/js/index\"",
-        "value": "inner/js/index"
+        "value": "inner/js/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -310,7 +322,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 58,
         "raw": "\"inner/cjs/index\"",
-        "value": "inner/cjs/index"
+        "value": "inner/cjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -340,7 +354,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 99,
         "raw": "\"inner/mjs/index\"",
-        "value": "inner/mjs/index"
+        "value": "inner/mjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -370,7 +386,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 140,
         "raw": "\"inner/js/index\"",
-        "value": "inner/js/index"
+        "value": "inner/js/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -457,7 +475,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 57,
         "raw": "\"inner/cjs/index\"",
-        "value": "inner/cjs/index"
+        "value": "inner/cjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -487,7 +507,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 97,
         "raw": "\"inner/mjs/index\"",
-        "value": "inner/mjs/index"
+        "value": "inner/mjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -517,7 +539,9 @@ __ESTREE_TEST__:PASS:
         "start": 121,
         "end": 137,
         "raw": "\"inner/js/index\"",
-        "value": "inner/js/index"
+        "value": "inner/js/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -664,7 +688,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 57,
         "raw": "\"inner/cjs/index\"",
-        "value": "inner/cjs/index"
+        "value": "inner/cjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -694,7 +720,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 97,
         "raw": "\"inner/mjs/index\"",
-        "value": "inner/mjs/index"
+        "value": "inner/mjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -724,7 +752,9 @@ __ESTREE_TEST__:PASS:
         "start": 121,
         "end": 137,
         "raw": "\"inner/js/index\"",
-        "value": "inner/js/index"
+        "value": "inner/js/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -871,7 +901,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 57,
         "raw": "\"inner/cjs/index\"",
-        "value": "inner/cjs/index"
+        "value": "inner/cjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -901,7 +933,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 97,
         "raw": "\"inner/mjs/index\"",
-        "value": "inner/mjs/index"
+        "value": "inner/mjs/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -931,7 +965,9 @@ __ESTREE_TEST__:PASS:
         "start": 121,
         "end": 137,
         "raw": "\"inner/js/index\"",
-        "value": "inner/js/index"
+        "value": "inner/js/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

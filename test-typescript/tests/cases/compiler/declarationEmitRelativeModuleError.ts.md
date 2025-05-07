@@ -23,7 +23,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"b:block\"",
-        "value": "b:block"
+        "value": "b:block",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -44,7 +46,9 @@ __ESTREE_TEST__:PASS:
         "start": 74,
         "end": 84,
         "raw": "\"b:/block\"",
-        "value": "b:/block"
+        "value": "b:/block",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -57,7 +57,9 @@
                 "start": 426,
                 "end": 427,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -104,14 +106,18 @@
             "start": 455,
             "end": 459,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 486,
             "value": "b1 is an Boolean object",
-            "raw": "'b1 is an Boolean object'"
+            "raw": "'b1 is an Boolean object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +182,9 @@
             "start": 520,
             "end": 524,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +221,9 @@
                 "start": 545,
                 "end": 546,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -260,14 +270,18 @@
             "start": 573,
             "end": 578,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 606,
             "value": "bln is an Boolean object",
-            "raw": "'bln is an Boolean object'"
+            "raw": "'bln is an Boolean object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +346,9 @@
             "start": 640,
             "end": 645,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

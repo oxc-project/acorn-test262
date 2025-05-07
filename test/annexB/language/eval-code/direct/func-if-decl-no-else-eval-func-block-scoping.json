@@ -93,7 +93,9 @@
                         "start": 1591,
                         "end": 1698,
                         "value": "if (true) function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }varBinding = f;    f();",
-                        "raw": "'if (true) function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }varBinding = f;\\\n    f();'"
+                        "raw": "'if (true) function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }varBinding = f;\\\n    f();'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -153,14 +155,18 @@
             "start": 1747,
             "end": 1753,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1757,
             "end": 1822,
             "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "raw": "'Block-scoped binding value is function object at execution time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,14 +211,18 @@
             "start": 1854,
             "end": 1857,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1859,
             "end": 1892,
             "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "raw": "'Block-scoped binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,14 +274,18 @@
             "start": 1931,
             "end": 1937,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1941,
             "end": 2006,
             "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

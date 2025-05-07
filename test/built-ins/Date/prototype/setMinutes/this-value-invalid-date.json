@@ -105,7 +105,9 @@
               "start": 910,
               "end": 911,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -157,7 +159,9 @@
             "start": 945,
             "end": 966,
             "value": "return value (hour)",
-            "raw": "'return value (hour)'"
+            "raw": "'return value (hour)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +232,9 @@
             "start": 1007,
             "end": 1043,
             "value": "[[DateValue]] internal slot (hour)",
-            "raw": "'[[DateValue]] internal slot (hour)'"
+            "raw": "'[[DateValue]] internal slot (hour)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,14 +284,18 @@
               "start": 1072,
               "end": 1073,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1075,
               "end": 1076,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -337,7 +347,9 @@
             "start": 1110,
             "end": 1133,
             "value": "return value (minute)",
-            "raw": "'return value (minute)'"
+            "raw": "'return value (minute)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -408,7 +420,9 @@
             "start": 1174,
             "end": 1212,
             "value": "[[DateValue]] internal slot (minute)",
-            "raw": "'[[DateValue]] internal slot (minute)'"
+            "raw": "'[[DateValue]] internal slot (minute)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -458,21 +472,27 @@
               "start": 1241,
               "end": 1242,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1244,
               "end": 1245,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1247,
               "end": 1248,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -524,7 +544,9 @@
             "start": 1282,
             "end": 1305,
             "value": "return value (second)",
-            "raw": "'return value (second)'"
+            "raw": "'return value (second)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -595,7 +617,9 @@
             "start": 1346,
             "end": 1384,
             "value": "[[DateValue]] internal slot (second)",
-            "raw": "'[[DateValue]] internal slot (second)'"
+            "raw": "'[[DateValue]] internal slot (second)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -645,28 +669,36 @@
               "start": 1413,
               "end": 1414,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1416,
               "end": 1417,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1419,
               "end": 1420,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1422,
               "end": 1423,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -718,7 +750,9 @@
             "start": 1457,
             "end": 1476,
             "value": "return value (ms)",
-            "raw": "'return value (ms)'"
+            "raw": "'return value (ms)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -789,7 +823,9 @@
             "start": 1517,
             "end": 1551,
             "value": "[[DateValue]] internal slot (ms)",
-            "raw": "'[[DateValue]] internal slot (ms)'"
+            "raw": "'[[DateValue]] internal slot (ms)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

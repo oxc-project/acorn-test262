@@ -154,7 +154,9 @@
                         "start": 681,
                         "end": 697,
                         "value": "property value",
-                        "raw": "\"property value\""
+                        "raw": "\"property value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -61,7 +61,9 @@
           "start": 439,
           "end": 443,
           "value": "10",
-          "raw": "\"10\""
+          "raw": "\"10\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -151,7 +153,9 @@
             "start": 489,
             "end": 490,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -161,7 +165,9 @@
           "start": 494,
           "end": 498,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -189,7 +195,9 @@
             "start": 504,
             "end": 505,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -226,7 +234,9 @@
             "start": 523,
             "end": 524,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -263,7 +273,9 @@
             "start": 543,
             "end": 544,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -300,7 +312,9 @@
             "start": 563,
             "end": 564,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -310,7 +324,9 @@
           "start": 568,
           "end": 573,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -338,7 +354,9 @@
             "start": 579,
             "end": 580,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -348,7 +366,9 @@
           "start": 584,
           "end": 588,
           "value": "-1",
-          "raw": "\"-1\""
+          "raw": "\"-1\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -448,7 +468,9 @@
                     "start": 668,
                     "end": 882,
                     "value": "#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse() === obj. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse() === obj. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse() === obj. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -493,7 +515,9 @@
             "start": 908,
             "end": 909,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -504,7 +528,9 @@
           "start": 915,
           "end": 919,
           "value": "-1",
-          "raw": "\"-1\""
+          "raw": "\"-1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -536,7 +562,9 @@
                     "start": 948,
                     "end": 1171,
                     "value": "#2: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[0] === \"-1\". Actual: ",
-                    "raw": "'#2: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[0] === \"-1\". Actual: '"
+                    "raw": "'#2: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[0] === \"-1\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -558,7 +586,9 @@
                         "start": 1179,
                         "end": 1180,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -595,7 +625,9 @@
             "start": 1196,
             "end": 1197,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -606,7 +638,9 @@
           "start": 1203,
           "end": 1208,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -638,7 +672,9 @@
                     "start": 1237,
                     "end": 1461,
                     "value": "#3: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[1] === \"NaN\". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[1] === \"NaN\". Actual: '"
+                    "raw": "'#3: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[1] === \"NaN\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -660,7 +696,9 @@
                         "start": 1469,
                         "end": 1470,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -697,7 +735,9 @@
             "start": 1486,
             "end": 1487,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -739,7 +779,9 @@
                     "start": 1531,
                     "end": 1759,
                     "value": "#4: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[2] === undefined. Actual: ",
-                    "raw": "'#4: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[2] === undefined. Actual: '"
+                    "raw": "'#4: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[2] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -761,7 +803,9 @@
                         "start": 1767,
                         "end": 1768,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -798,7 +842,9 @@
             "start": 1784,
             "end": 1785,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -840,7 +886,9 @@
                     "start": 1829,
                     "end": 2057,
                     "value": "#5: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[3] === undefined. Actual: ",
-                    "raw": "'#5: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[3] === undefined. Actual: '"
+                    "raw": "'#5: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[3] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -862,7 +910,9 @@
                         "start": 2065,
                         "end": 2066,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -899,7 +949,9 @@
             "start": 2082,
             "end": 2083,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -941,7 +993,9 @@
                     "start": 2127,
                     "end": 2355,
                     "value": "#6: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[4] === undefined. Actual: ",
-                    "raw": "'#6: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[4] === undefined. Actual: '"
+                    "raw": "'#6: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[4] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -963,7 +1017,9 @@
                         "start": 2363,
                         "end": 2364,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1000,7 +1056,9 @@
             "start": 2380,
             "end": 2381,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1042,7 +1100,9 @@
                     "start": 2425,
                     "end": 2653,
                     "value": "#7: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[5] === undefined. Actual: ",
-                    "raw": "'#7: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[5] === undefined. Actual: '"
+                    "raw": "'#7: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[5] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1064,7 +1124,9 @@
                         "start": 2661,
                         "end": 2662,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1101,7 +1163,9 @@
             "start": 2678,
             "end": 2679,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1143,7 +1207,9 @@
                     "start": 2723,
                     "end": 2951,
                     "value": "#8: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[6] === undefined. Actual: ",
-                    "raw": "'#8: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[6] === undefined. Actual: '"
+                    "raw": "'#8: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[6] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1165,7 +1231,9 @@
                         "start": 2959,
                         "end": 2960,
                         "value": 6,
-                        "raw": "6"
+                        "raw": "6",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1202,7 +1270,9 @@
             "start": 2976,
             "end": 2977,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1244,7 +1314,9 @@
                     "start": 3020,
                     "end": 3247,
                     "value": "#9: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[7] === Infinity. Actual: ",
-                    "raw": "'#9: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[7] === Infinity. Actual: '"
+                    "raw": "'#9: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[7] === Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1266,7 +1338,9 @@
                         "start": 3255,
                         "end": 3256,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1303,7 +1377,9 @@
             "start": 3272,
             "end": 3273,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1345,7 +1421,9 @@
                     "start": 3317,
                     "end": 3546,
                     "value": "#10: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[8] === undefined. Actual: ",
-                    "raw": "'#10: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[8] === undefined. Actual: '"
+                    "raw": "'#10: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[8] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1367,7 +1445,9 @@
                         "start": 3554,
                         "end": 3555,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1404,7 +1484,9 @@
             "start": 3571,
             "end": 3572,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1415,7 +1497,9 @@
           "start": 3578,
           "end": 3582,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1447,7 +1531,9 @@
                     "start": 3611,
                     "end": 3835,
                     "value": "#11: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[9] === true. Actual: ",
-                    "raw": "'#11: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[9] === true. Actual: '"
+                    "raw": "'#11: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[9] === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1469,7 +1555,9 @@
                         "start": 3843,
                         "end": 3844,
                         "value": 9,
-                        "raw": "9"
+                        "raw": "9",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1527,7 +1615,9 @@
               "start": 3876,
               "end": 3879,
               "value": "9",
-              "raw": "\"9\""
+              "raw": "\"9\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1629,7 +1719,9 @@
                     "start": 3960,
                     "end": 4219,
                     "value": "#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse() === obj. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse() === obj. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse() === obj. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1674,7 +1766,9 @@
             "start": 4245,
             "end": 4246,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1716,7 +1810,9 @@
                     "start": 4290,
                     "end": 4564,
                     "value": "#12: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[0] === undefined. Actual: ",
-                    "raw": "'#12: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[0] === undefined. Actual: '"
+                    "raw": "'#12: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[0] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1738,7 +1834,9 @@
                         "start": 4572,
                         "end": 4573,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1775,7 +1873,9 @@
             "start": 4589,
             "end": 4590,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1817,7 +1917,9 @@
                     "start": 4633,
                     "end": 4906,
                     "value": "#13: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[1] === Infinity. Actual: ",
-                    "raw": "'#13: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[1] === Infinity. Actual: '"
+                    "raw": "'#13: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[1] === Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1839,7 +1941,9 @@
                         "start": 4914,
                         "end": 4915,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1876,7 +1980,9 @@
             "start": 4931,
             "end": 4932,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1918,7 +2024,9 @@
                     "start": 4976,
                     "end": 5250,
                     "value": "#14: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[2] === undefined. Actual: ",
-                    "raw": "'#14: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[2] === undefined. Actual: '"
+                    "raw": "'#14: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[2] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1940,7 +2048,9 @@
                         "start": 5258,
                         "end": 5259,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1977,7 +2087,9 @@
             "start": 5275,
             "end": 5276,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -2019,7 +2131,9 @@
                     "start": 5320,
                     "end": 5594,
                     "value": "#15: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[3] === undefined. Actual: ",
-                    "raw": "'#15: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[3] === undefined. Actual: '"
+                    "raw": "'#15: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[3] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2041,7 +2155,9 @@
                         "start": 5602,
                         "end": 5603,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -2078,7 +2194,9 @@
             "start": 5619,
             "end": 5620,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -2120,7 +2238,9 @@
                     "start": 5664,
                     "end": 5938,
                     "value": "#16: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[4] === undefined. Actual: ",
-                    "raw": "'#16: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[4] === undefined. Actual: '"
+                    "raw": "'#16: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[4] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2142,7 +2262,9 @@
                         "start": 5946,
                         "end": 5947,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -2179,7 +2301,9 @@
             "start": 5963,
             "end": 5964,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -2221,7 +2345,9 @@
                     "start": 6008,
                     "end": 6282,
                     "value": "#17: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[5] === undefined. Actual: ",
-                    "raw": "'#17: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[5] === undefined. Actual: '"
+                    "raw": "'#17: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[5] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2243,7 +2369,9 @@
                         "start": 6290,
                         "end": 6291,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -2280,7 +2408,9 @@
             "start": 6307,
             "end": 6308,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -2322,7 +2452,9 @@
                     "start": 6352,
                     "end": 6626,
                     "value": "#18: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[6] === undefined. Actual: ",
-                    "raw": "'#18: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[6] === undefined. Actual: '"
+                    "raw": "'#18: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[6] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2344,7 +2476,9 @@
                         "start": 6634,
                         "end": 6635,
                         "value": 6,
-                        "raw": "6"
+                        "raw": "6",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -2381,7 +2515,9 @@
             "start": 6651,
             "end": 6652,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -2392,7 +2528,9 @@
           "start": 6658,
           "end": 6663,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2424,7 +2562,9 @@
                     "start": 6692,
                     "end": 6962,
                     "value": "#19: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[7] === \"NaN\". Actual: ",
-                    "raw": "'#19: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[7] === \"NaN\". Actual: '"
+                    "raw": "'#19: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[7] === \"NaN\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2446,7 +2586,9 @@
                         "start": 6970,
                         "end": 6971,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -2483,7 +2625,9 @@
             "start": 6987,
             "end": 6988,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -2494,7 +2638,9 @@
           "start": 6994,
           "end": 6998,
           "value": "-1",
-          "raw": "\"-1\""
+          "raw": "\"-1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2526,7 +2672,9 @@
                     "start": 7027,
                     "end": 7296,
                     "value": "#20: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[8] === \"-1\". Actual: ",
-                    "raw": "'#20: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[8] === \"-1\". Actual: '"
+                    "raw": "'#20: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[8] === \"-1\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2548,7 +2696,9 @@
                         "start": 7304,
                         "end": 7305,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

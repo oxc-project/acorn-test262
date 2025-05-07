@@ -34,7 +34,9 @@
                 "start": 905,
                 "end": 915,
                 "value": "Catch me",
-                "raw": "'Catch me'"
+                "raw": "'Catch me'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -295,7 +297,9 @@
                             "start": 1078,
                             "end": 1082,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

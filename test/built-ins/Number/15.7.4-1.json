@@ -58,7 +58,9 @@
                     "start": 284,
                     "end": 286,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -186,14 +188,18 @@
             "start": 361,
             "end": 378,
             "value": "[object Number]",
-            "raw": "'[object Number]'"
+            "raw": "'[object Number]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 383,
             "value": "s",
-            "raw": "'s'"
+            "raw": "'s'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

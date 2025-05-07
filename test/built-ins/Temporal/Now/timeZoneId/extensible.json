@@ -82,7 +82,9 @@
             "start": 487,
             "end": 550,
             "value": "Object.isExtensible(Temporal.Now.timeZoneId) must return true",
-            "raw": "'Object.isExtensible(Temporal.Now.timeZoneId) must return true'"
+            "raw": "'Object.isExtensible(Temporal.Now.timeZoneId) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

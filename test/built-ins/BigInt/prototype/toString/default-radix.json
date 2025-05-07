@@ -55,6 +55,7 @@
                     "end": 256,
                     "value": null,
                     "raw": "100n",
+                    "regex": null,
                     "bigint": "100"
                   }
                 }
@@ -76,14 +77,18 @@
             "start": 270,
             "end": 276,
             "value": "-100",
-            "raw": "\"-100\""
+            "raw": "\"-100\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 278,
             "end": 309,
             "value": "(-100n).toString() === '-100'",
-            "raw": "\"(-100n).toString() === '-100'\""
+            "raw": "\"(-100n).toString() === '-100'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -135,6 +140,7 @@
                   "end": 332,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               },
@@ -155,14 +161,18 @@
             "start": 346,
             "end": 349,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 376,
             "value": "(0n).toString() === '0'",
-            "raw": "\"(0n).toString() === '0'\""
+            "raw": "\"(0n).toString() === '0'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,6 +224,7 @@
                   "end": 401,
                   "value": null,
                   "raw": "100n",
+                  "regex": null,
                   "bigint": "100"
                 }
               },
@@ -234,14 +245,18 @@
             "start": 415,
             "end": 420,
             "value": "100",
-            "raw": "\"100\""
+            "raw": "\"100\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 451,
             "value": "(100n).toString() === '100'",
-            "raw": "\"(100n).toString() === '100'\""
+            "raw": "\"(100n).toString() === '100'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,6 +314,7 @@
                     "end": 478,
                     "value": null,
                     "raw": "100n",
+                    "regex": null,
                     "bigint": "100"
                   }
                 }
@@ -327,14 +343,18 @@
             "start": 501,
             "end": 507,
             "value": "-100",
-            "raw": "\"-100\""
+            "raw": "\"-100\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 526,
             "end": 566,
             "value": "(-100n).toString(undefined) === '-100'",
-            "raw": "\"(-100n).toString(undefined) === '-100'\""
+            "raw": "\"(-100n).toString(undefined) === '-100'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,6 +406,7 @@
                   "end": 589,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               },
@@ -413,14 +434,18 @@
             "start": 612,
             "end": 615,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 634,
             "end": 668,
             "value": "(0n).toString(undefined) === '0'",
-            "raw": "\"(0n).toString(undefined) === '0'\""
+            "raw": "\"(0n).toString(undefined) === '0'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -472,6 +497,7 @@
                   "end": 693,
                   "value": null,
                   "raw": "100n",
+                  "regex": null,
                   "bigint": "100"
                 }
               },
@@ -499,14 +525,18 @@
             "start": 716,
             "end": 721,
             "value": "100",
-            "raw": "\"100\""
+            "raw": "\"100\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 778,
             "value": "(100n).toString(undefined) === '100'",
-            "raw": "\"(100n).toString(undefined) === '100'\""
+            "raw": "\"(100n).toString(undefined) === '100'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

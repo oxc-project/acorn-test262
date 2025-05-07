@@ -152,7 +152,9 @@ __ESTREE_TEST__:PASS:
                       "start": 102,
                       "end": 105,
                       "raw": "\"y\"",
-                      "value": "y"
+                      "value": "y",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -307,7 +309,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 36,
         "raw": "\"react-select\"",
-        "value": "react-select"
+        "value": "react-select",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

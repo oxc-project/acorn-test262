@@ -55,7 +55,9 @@
             "start": 761,
             "end": 767,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -80,7 +82,9 @@
                   "start": 780,
                   "end": 793,
                   "value": "toUTCString",
-                  "raw": "\"toUTCString\""
+                  "raw": "\"toUTCString\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -102,7 +106,9 @@
                   "start": 807,
                   "end": 812,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -124,7 +130,9 @@
                   "start": 828,
                   "end": 833,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -146,7 +154,9 @@
                   "start": 851,
                   "end": 855,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

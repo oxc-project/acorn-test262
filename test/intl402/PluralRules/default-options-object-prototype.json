@@ -49,7 +49,9 @@
           "start": 484,
           "end": 493,
           "value": "ordinal",
-          "raw": "\"ordinal\""
+          "raw": "\"ordinal\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -97,7 +99,9 @@
                 "start": 534,
                 "end": 538,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -177,7 +181,9 @@
             "start": 594,
             "end": 604,
             "value": "cardinal",
-            "raw": "\"cardinal\""
+            "raw": "\"cardinal\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

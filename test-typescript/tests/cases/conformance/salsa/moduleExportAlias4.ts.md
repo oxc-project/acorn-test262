@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 28,
                 "end": 40,
                 "raw": "'./bug24024'",
-                "value": "./bug24024"
+                "value": "./bug24024",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

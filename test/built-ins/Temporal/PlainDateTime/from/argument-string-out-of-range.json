@@ -88,7 +88,9 @@
                   "start": 343,
                   "end": 361,
                   "value": "2020-13-34T24:60",
-                  "raw": "\"2020-13-34T24:60\""
+                  "raw": "\"2020-13-34T24:60\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -105,7 +107,9 @@
             "start": 370,
             "end": 442,
             "value": "constrain has no effect on invalid ISO string (empty options argument)",
-            "raw": "\"constrain has no effect on invalid ISO string (empty options argument)\""
+            "raw": "\"constrain has no effect on invalid ISO string (empty options argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -196,7 +200,9 @@
                   "start": 512,
                   "end": 530,
                   "value": "2020-13-34T24:60",
-                  "raw": "\"2020-13-34T24:60\""
+                  "raw": "\"2020-13-34T24:60\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -223,7 +229,9 @@
             "start": 545,
             "end": 633,
             "value": "constrain has no effect on invalid ISO string (nullary empty object function argument)",
-            "raw": "\"constrain has no effect on invalid ISO string (nullary empty object function argument)\""
+            "raw": "\"constrain has no effect on invalid ISO string (nullary empty object function argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +322,9 @@
                   "start": 703,
                   "end": 721,
                   "value": "2020-13-34T24:60",
-                  "raw": "\"2020-13-34T24:60\""
+                  "raw": "\"2020-13-34T24:60\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -339,7 +349,9 @@
                         "start": 734,
                         "end": 745,
                         "value": "constrain",
-                        "raw": "\"constrain\""
+                        "raw": "\"constrain\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -354,7 +366,9 @@
             "start": 751,
             "end": 809,
             "value": "overflow = constrain has no effect on invalid ISO string",
-            "raw": "\"overflow = constrain has no effect on invalid ISO string\""
+            "raw": "\"overflow = constrain has no effect on invalid ISO string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -445,7 +459,9 @@
                   "start": 879,
                   "end": 897,
                   "value": "2020-13-34T24:60",
-                  "raw": "\"2020-13-34T24:60\""
+                  "raw": "\"2020-13-34T24:60\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -470,7 +486,9 @@
                         "start": 910,
                         "end": 918,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -485,7 +503,9 @@
             "start": 924,
             "end": 979,
             "value": "overflow = reject has no effect on invalid ISO string",
-            "raw": "\"overflow = reject has no effect on invalid ISO string\""
+            "raw": "\"overflow = reject has no effect on invalid ISO string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

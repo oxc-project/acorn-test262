@@ -67,7 +67,9 @@
             "start": 349,
             "end": 354,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 389,
                           "end": 391,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -136,7 +140,9 @@
                   "start": 412,
                   "end": 416,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +164,9 @@
                   "start": 434,
                   "end": 438,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -231,7 +239,9 @@
                 "start": 478,
                 "end": 483,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -241,14 +251,18 @@
             "start": 486,
             "end": 490,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 526,
             "value": "Object.hasOwn(o, \"foo\") !== true",
-            "raw": "'Object.hasOwn(o, \"foo\") !== true'"
+            "raw": "'Object.hasOwn(o, \"foo\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

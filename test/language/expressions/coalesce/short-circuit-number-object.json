@@ -79,7 +79,9 @@
                           "start": 1127,
                           "end": 1131,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -123,7 +125,9 @@
                           "start": 1171,
                           "end": 1175,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -191,7 +195,9 @@
             "start": 1213,
             "end": 1214,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -241,7 +247,9 @@
             "start": 1241,
             "end": 1251,
             "value": "obj ?? 1",
-            "raw": "'obj ?? 1'"
+            "raw": "'obj ?? 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +309,9 @@
             "start": 1281,
             "end": 1285,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -351,7 +361,9 @@
             "start": 1312,
             "end": 1325,
             "value": "obj ?? null",
-            "raw": "'obj ?? null'"
+            "raw": "'obj ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +472,9 @@
             "start": 1391,
             "end": 1409,
             "value": "obj ?? undefined",
-            "raw": "'obj ?? undefined'"
+            "raw": "'obj ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -524,7 +538,9 @@
               "start": 1439,
               "end": 1443,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "??",
@@ -582,7 +598,9 @@
             "start": 1483,
             "end": 1509,
             "value": "obj ?? null ?? undefined",
-            "raw": "'obj ?? null ?? undefined'"
+            "raw": "'obj ?? null ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -654,7 +672,9 @@
             "start": 1552,
             "end": 1556,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -704,7 +724,9 @@
             "start": 1583,
             "end": 1609,
             "value": "obj ?? undefined ?? null",
-            "raw": "'obj ?? undefined ?? null'"
+            "raw": "'obj ?? undefined ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -768,7 +790,9 @@
               "start": 1639,
               "end": 1643,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "??",
@@ -777,7 +801,9 @@
             "start": 1647,
             "end": 1651,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -827,7 +853,9 @@
             "start": 1678,
             "end": 1699,
             "value": "obj ?? null ?? null",
-            "raw": "'obj ?? null ?? null'"
+            "raw": "'obj ?? null ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -948,7 +976,9 @@
             "start": 1778,
             "end": 1799,
             "value": "obj ?? null ?? null",
-            "raw": "'obj ?? null ?? null'"
+            "raw": "'obj ?? null ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1005,7 +1035,9 @@
               "start": 1822,
               "end": 1826,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             "operator": "??",
             "right": {
@@ -1021,7 +1053,9 @@
             "start": 1837,
             "end": 1841,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -1071,7 +1105,9 @@
             "start": 1868,
             "end": 1889,
             "value": "null ?? obj ?? null",
-            "raw": "'null ?? obj ?? null'"
+            "raw": "'null ?? obj ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1128,7 +1164,9 @@
               "start": 1912,
               "end": 1916,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             "operator": "??",
             "right": {
@@ -1193,7 +1231,9 @@
             "start": 1963,
             "end": 1989,
             "value": "null ?? obj ?? undefined",
-            "raw": "'null ?? obj ?? undefined'"
+            "raw": "'null ?? obj ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1265,7 +1305,9 @@
             "start": 2032,
             "end": 2036,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -1315,7 +1357,9 @@
             "start": 2063,
             "end": 2089,
             "value": "undefined ?? obj ?? null",
-            "raw": "'undefined ?? obj ?? null'"
+            "raw": "'undefined ?? obj ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1436,7 +1480,9 @@
             "start": 2168,
             "end": 2199,
             "value": "undefined ?? obj ?? undefined",
-            "raw": "'undefined ?? obj ?? undefined'"
+            "raw": "'undefined ?? obj ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

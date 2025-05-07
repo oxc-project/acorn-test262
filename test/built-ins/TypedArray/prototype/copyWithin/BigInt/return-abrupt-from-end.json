@@ -226,14 +226,18 @@
                                     "start": 1205,
                                     "end": 1206,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1208,
                                     "end": 1209,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",

@@ -255,14 +255,18 @@
             "start": 482,
             "end": 490,
             "value": "exName",
-            "raw": "\"exName\""
+            "raw": "\"exName\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 501,
             "value": "nocheck",
-            "raw": "\"nocheck\""
+            "raw": "\"nocheck\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,7 +322,9 @@
                   "start": 532,
                   "end": 540,
                   "value": "exName",
-                  "raw": "\"exName\""
+                  "raw": "\"exName\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

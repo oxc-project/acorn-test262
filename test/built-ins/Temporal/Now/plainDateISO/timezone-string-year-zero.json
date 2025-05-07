@@ -28,14 +28,18 @@
                 "start": 302,
                 "end": 324,
                 "value": "-000000-10-31T17:45Z",
-                "raw": "\"-000000-10-31T17:45Z\""
+                "raw": "\"-000000-10-31T17:45Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 360,
                 "value": "-000000-10-31T17:45+00:00[UTC]",
-                "raw": "\"-000000-10-31T17:45+00:00[UTC]\""
+                "raw": "\"-000000-10-31T17:45+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -187,7 +191,9 @@
                         "start": 488,
                         "end": 524,
                         "value": "reject minus zero as extended year",
-                        "raw": "\"reject minus zero as extended year\""
+                        "raw": "\"reject minus zero as extended year\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

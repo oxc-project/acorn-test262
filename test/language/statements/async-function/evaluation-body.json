@@ -62,7 +62,9 @@
                 "start": 336,
                 "end": 340,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },

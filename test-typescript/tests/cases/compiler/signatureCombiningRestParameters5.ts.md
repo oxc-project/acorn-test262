@@ -278,14 +278,18 @@ __ESTREE_TEST__:PASS:
             "start": 164,
             "end": 166,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 168,
             "end": 172,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -316,7 +320,9 @@ __ESTREE_TEST__:PASS:
             "start": 181,
             "end": 183,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -328,7 +334,9 @@ __ESTREE_TEST__:PASS:
                 "start": 186,
                 "end": 190,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -862,14 +870,18 @@ __ESTREE_TEST__:PASS:
                         "start": 529,
                         "end": 533,
                         "raw": "true",
-                        "value": true
+                        "value": true,
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 535,
                         "end": 537,
                         "raw": "42",
-                        "value": 42
+                        "value": 42,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -900,7 +912,9 @@ __ESTREE_TEST__:PASS:
                         "start": 547,
                         "end": 551,
                         "raw": "true",
-                        "value": true
+                        "value": true,
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrayExpression",
@@ -912,7 +926,9 @@ __ESTREE_TEST__:PASS:
                             "start": 554,
                             "end": 556,
                             "raw": "42",
-                            "value": 42
+                            "value": 42,
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

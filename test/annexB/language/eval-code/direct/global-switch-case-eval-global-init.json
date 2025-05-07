@@ -35,7 +35,9 @@
                   "start": 695,
                   "end": 927,
                   "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });switch (1) {",
-                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });switch (1) {'"
+                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -43,7 +45,9 @@
                   "start": 932,
                   "end": 943,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "raw": "'  case 1:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -52,7 +56,9 @@
                 "start": 948,
                 "end": 971,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "raw": "'    function f() {  }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -61,7 +67,9 @@
               "start": 976,
               "end": 983,
               "value": "}  ",
-              "raw": "'}\\\n  '"
+              "raw": "'}\\\n  '",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

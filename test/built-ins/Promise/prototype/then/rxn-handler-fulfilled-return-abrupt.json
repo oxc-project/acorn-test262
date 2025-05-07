@@ -272,7 +272,9 @@
                         "start": 1223,
                         "end": 1273,
                         "value": "The `onFulfilled` handler should not be invoked.",
-                        "raw": "'The `onFulfilled` handler should not be invoked.'"
+                        "raw": "'The `onFulfilled` handler should not be invoked.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -349,7 +351,9 @@
                               "start": 1324,
                               "end": 1393,
                               "value": "The `onRejected` handler should be invoked with the promise result.",
-                              "raw": "'The `onRejected` handler should be invoked with the promise result.'"
+                              "raw": "'The `onRejected` handler should be invoked with the promise result.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

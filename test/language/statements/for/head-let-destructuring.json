@@ -59,7 +59,9 @@
                   "start": 684,
                   "end": 686,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -152,14 +154,18 @@
             "start": 747,
             "end": 758,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 760,
             "end": 785,
             "value": "binding is block-scoped",
-            "raw": "'binding is block-scoped'"
+            "raw": "'binding is block-scoped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +210,9 @@
             "start": 812,
             "end": 814,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

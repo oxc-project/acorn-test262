@@ -84,7 +84,9 @@
                         "start": 328,
                         "end": 340,
                         "value": "﻿1234",
-                        "raw": "'\\ufeff1234'"
+                        "raw": "'\\ufeff1234'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

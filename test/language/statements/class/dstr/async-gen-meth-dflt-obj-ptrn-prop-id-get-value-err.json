@@ -23,7 +23,9 @@
             "start": 1856,
             "end": 1857,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -79,7 +81,9 @@
                 "start": 1908,
                 "end": 1918,
                 "value": "poisoned",
-                "raw": "'poisoned'"
+                "raw": "'poisoned'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -419,7 +423,9 @@
             "start": 2201,
             "end": 2202,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

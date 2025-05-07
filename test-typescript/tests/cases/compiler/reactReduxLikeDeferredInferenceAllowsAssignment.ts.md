@@ -4585,7 +4585,9 @@ __ESTREE_TEST__:PASS:
                     "start": 3257,
                     "end": 3272,
                     "raw": "\"SIMPLE_ACTION\"",
-                    "value": "SIMPLE_ACTION"
+                    "value": "SIMPLE_ACTION",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -5302,7 +5304,9 @@ __ESTREE_TEST__:PASS:
                   "start": 3809,
                   "end": 3813,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

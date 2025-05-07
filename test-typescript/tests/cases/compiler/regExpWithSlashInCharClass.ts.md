@@ -38,14 +38,17 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": ".[/]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 32,
                 "end": 34,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -58,7 +61,9 @@ __ESTREE_TEST__:PASS:
                 "start": 11,
                 "end": 15,
                 "raw": "\"a/\"",
-                "value": "a/"
+                "value": "a/",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "property": {
@@ -112,14 +117,17 @@ __ESTREE_TEST__:PASS:
                   "flags": "g",
                   "pattern": ".[//]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 72,
                 "end": 74,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -132,7 +140,9 @@ __ESTREE_TEST__:PASS:
                 "start": 48,
                 "end": 53,
                 "raw": "\"a//\"",
-                "value": "a//"
+                "value": "a//",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "property": {
@@ -186,14 +196,17 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": ".[/no sleep /till/]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 124,
                 "end": 132,
                 "raw": "\"bugfix\"",
-                "value": "bugfix"
+                "value": "bugfix",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -206,7 +219,9 @@ __ESTREE_TEST__:PASS:
                 "start": 88,
                 "end": 92,
                 "raw": "\"a/\"",
-                "value": "a/"
+                "value": "a/",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "property": {

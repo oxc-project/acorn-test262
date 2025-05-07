@@ -366,7 +366,9 @@ __ESTREE_TEST__:PASS:
         "start": 70,
         "end": 86,
         "raw": "\"./sub1/uses.js\"",
-        "value": "./sub1/uses.js"
+        "value": "./sub1/uses.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -396,7 +398,9 @@ __ESTREE_TEST__:PASS:
         "start": 104,
         "end": 120,
         "raw": "\"./sub2/uses.js\"",
-        "value": "./sub2/uses.js"
+        "value": "./sub2/uses.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

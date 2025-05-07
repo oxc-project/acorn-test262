@@ -81,14 +81,18 @@
             "start": 424,
             "end": 433,
             "value": "flatMap",
-            "raw": "'flatMap'"
+            "raw": "'flatMap'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 497,
             "value": "The value of `Array.prototype.flatMap.name` is `\"flatMap\"`",
-            "raw": "'The value of `Array.prototype.flatMap.name` is `\"flatMap\"`'"
+            "raw": "'The value of `Array.prototype.flatMap.name` is `\"flatMap\"`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +150,9 @@
             "start": 542,
             "end": 548,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -171,7 +177,9 @@
                   "start": 566,
                   "end": 571,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -193,7 +201,9 @@
                   "start": 585,
                   "end": 590,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -215,7 +225,9 @@
                   "start": 608,
                   "end": 612,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

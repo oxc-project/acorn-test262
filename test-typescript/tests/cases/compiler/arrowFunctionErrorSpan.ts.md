@@ -503,14 +503,18 @@ __ESTREE_TEST__:PASS:
                 "start": 595,
                 "end": 596,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 603,
                 "end": 604,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             },
             "expression": true,

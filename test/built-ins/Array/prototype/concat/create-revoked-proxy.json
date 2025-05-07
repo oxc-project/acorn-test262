@@ -81,7 +81,9 @@
             "start": 714,
             "end": 715,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -139,7 +141,9 @@
             "start": 749,
             "end": 762,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -193,7 +197,9 @@
                             "start": 803,
                             "end": 804,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -372,7 +378,9 @@
             "start": 908,
             "end": 975,
             "value": "Array.prototype.concat.call(o.proxy) throws a TypeError exception",
-            "raw": "'Array.prototype.concat.call(o.proxy) throws a TypeError exception'"
+            "raw": "'Array.prototype.concat.call(o.proxy) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -417,14 +425,18 @@
             "start": 1007,
             "end": 1008,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1010,
             "end": 1054,
             "value": "The value of callCount is expected to be 0",
-            "raw": "'The value of callCount is expected to be 0'"
+            "raw": "'The value of callCount is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

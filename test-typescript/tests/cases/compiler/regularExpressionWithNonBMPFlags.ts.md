@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
               "flags": "𝘨𝘮𝘶",
               "pattern": "(?𝘴𝘪-𝘮:^𝘧𝘰𝘰.)"
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         }
       ],

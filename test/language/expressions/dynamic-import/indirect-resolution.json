@@ -32,7 +32,9 @@
                   "start": 920,
                   "end": 956,
                   "value": "./indirect-resolution-1_FIXTURE.js",
-                  "raw": "'./indirect-resolution-1_FIXTURE.js'"
+                  "raw": "'./indirect-resolution-1_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": null
               },
@@ -165,7 +167,9 @@
                             "start": 1055,
                             "end": 1084,
                             "value": "default is Promise instance",
-                            "raw": "'default is Promise instance'"
+                            "raw": "'default is Promise instance'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -269,7 +273,9 @@
                             "start": 1166,
                             "end": 1202,
                             "value": "default proto is Promise.prototype",
-                            "raw": "'default proto is Promise.prototype'"
+                            "raw": "'default proto is Promise.prototype'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -346,7 +352,9 @@
                             "start": 1263,
                             "end": 1295,
                             "value": "default.constructor is Promise",
-                            "raw": "'default.constructor is Promise'"
+                            "raw": "'default.constructor is Promise'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -447,7 +455,9 @@
                             "start": 1377,
                             "end": 1379,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

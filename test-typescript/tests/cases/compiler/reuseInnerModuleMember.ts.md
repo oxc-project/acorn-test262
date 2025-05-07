@@ -119,7 +119,9 @@ __ESTREE_TEST__:PASS:
           "start": 118,
           "end": 146,
           "raw": "'./reuseInnerModuleMember_0'",
-          "value": "./reuseInnerModuleMember_0"
+          "value": "./reuseInnerModuleMember_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

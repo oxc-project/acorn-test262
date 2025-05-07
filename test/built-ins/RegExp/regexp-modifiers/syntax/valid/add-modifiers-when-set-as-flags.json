@@ -16,7 +16,8 @@
         "regex": {
           "pattern": "(?i:)",
           "flags": "i"
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -32,7 +33,8 @@
         "regex": {
           "pattern": "(?s:)",
           "flags": "s"
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -48,7 +50,8 @@
         "regex": {
           "pattern": "(?m:)",
           "flags": "m"
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -64,7 +67,8 @@
         "regex": {
           "pattern": "(?ims:)",
           "flags": "ims"
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -87,14 +91,18 @@
             "start": 1735,
             "end": 1742,
             "value": "(?i:)",
-            "raw": "\"(?i:)\""
+            "raw": "\"(?i:)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1744,
             "end": 1747,
             "value": "i",
-            "raw": "\"i\""
+            "raw": "\"i\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -119,14 +127,18 @@
             "start": 1761,
             "end": 1768,
             "value": "(?s:)",
-            "raw": "\"(?s:)\""
+            "raw": "\"(?s:)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1770,
             "end": 1773,
             "value": "s",
-            "raw": "\"s\""
+            "raw": "\"s\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -151,14 +163,18 @@
             "start": 1787,
             "end": 1794,
             "value": "(?m:)",
-            "raw": "\"(?m:)\""
+            "raw": "\"(?m:)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1796,
             "end": 1799,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -183,14 +199,18 @@
             "start": 1813,
             "end": 1822,
             "value": "(?ims:)",
-            "raw": "\"(?ims:)\""
+            "raw": "\"(?ims:)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1824,
             "end": 1829,
             "value": "ims",
-            "raw": "\"ims\""
+            "raw": "\"ims\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

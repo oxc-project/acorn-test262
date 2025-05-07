@@ -85,7 +85,9 @@
                 "start": 285,
                 "end": 290,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,14 +97,18 @@
             "start": 293,
             "end": 298,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 300,
             "end": 325,
             "value": "o.hasOwnProperty(\"foo\")",
-            "raw": "'o.hasOwnProperty(\"foo\")'"
+            "raw": "'o.hasOwnProperty(\"foo\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

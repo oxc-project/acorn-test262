@@ -59,7 +59,9 @@
                       "start": 473,
                       "end": 474,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -90,6 +92,7 @@
             "end": 518,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -97,7 +100,9 @@
             "start": 522,
             "end": 540,
             "value": "the (Unix) epoch",
-            "raw": "\"the (Unix) epoch\""
+            "raw": "\"the (Unix) epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -159,7 +164,9 @@
                       "start": 574,
                       "end": 585,
                       "value": 123456789,
-                      "raw": "123_456_789"
+                      "raw": "123_456_789",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -190,6 +197,7 @@
             "end": 647,
             "value": null,
             "raw": "123_456_789_000_000n",
+            "regex": null,
             "bigint": "123456789000000"
           },
           {
@@ -197,7 +205,9 @@
             "start": 651,
             "end": 680,
             "value": "date after the (Unix) epoch",
-            "raw": "\"date after the (Unix) epoch\""
+            "raw": "\"date after the (Unix) epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +275,9 @@
                         "start": 715,
                         "end": 726,
                         "value": 123456789,
-                        "raw": "123_456_789"
+                        "raw": "123_456_789",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -303,6 +315,7 @@
               "end": 789,
               "value": null,
               "raw": "123_456_789_000_000n",
+              "regex": null,
               "bigint": "123456789000000"
             }
           },
@@ -311,7 +324,9 @@
             "start": 793,
             "end": 823,
             "value": "date before the (Unix) epoch",
-            "raw": "\"date before the (Unix) epoch\""
+            "raw": "\"date before the (Unix) epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -379,7 +394,9 @@
                         "start": 858,
                         "end": 865,
                         "value": 8640000000000000,
-                        "raw": "8.64e15"
+                        "raw": "8.64e15",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -417,6 +434,7 @@
               "end": 937,
               "value": null,
               "raw": "8640_000_000_000_000_000_000n",
+              "regex": null,
               "bigint": "8640000000000000000000"
             }
           },
@@ -425,7 +443,9 @@
             "start": 941,
             "end": 956,
             "value": "start of time",
-            "raw": "\"start of time\""
+            "raw": "\"start of time\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -487,7 +507,9 @@
                       "start": 990,
                       "end": 997,
                       "value": 8640000000000000,
-                      "raw": "8.64e15"
+                      "raw": "8.64e15",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -518,6 +540,7 @@
             "end": 1068,
             "value": null,
             "raw": "8640_000_000_000_000_000_000n",
+            "regex": null,
             "bigint": "8640000000000000000000"
           },
           {
@@ -525,7 +548,9 @@
             "start": 1072,
             "end": 1085,
             "value": "end of time",
-            "raw": "\"end of time\""
+            "raw": "\"end of time\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

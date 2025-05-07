@@ -56,7 +56,9 @@
                       "start": 547,
                       "end": 557,
                       "value": "function",
-                      "raw": "\"function\""
+                      "raw": "\"function\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -88,7 +90,9 @@
                                 "start": 589,
                                 "end": 650,
                                 "value": "#1: typeof __decl === \"function\". Actual: typeof __decl ===",
-                                "raw": "'#1: typeof __decl === \"function\". Actual: typeof __decl ==='"
+                                "raw": "'#1: typeof __decl === \"function\". Actual: typeof __decl ==='",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -132,7 +136,9 @@
                         "start": 785,
                         "end": 786,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -158,7 +164,9 @@
                       "start": 976,
                       "end": 977,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -190,7 +198,9 @@
                                 "start": 1009,
                                 "end": 1047,
                                 "value": "#2: __decl === 1. Actual: __decl ===",
-                                "raw": "'#2: __decl === 1. Actual: __decl ==='"
+                                "raw": "'#2: __decl === 1. Actual: __decl ==='",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -235,7 +245,9 @@
                           "start": 1183,
                           "end": 1184,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]

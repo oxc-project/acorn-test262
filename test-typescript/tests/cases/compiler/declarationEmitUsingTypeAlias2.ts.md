@@ -417,7 +417,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 31,
         "raw": "'./inner'",
-        "value": "./inner"
+        "value": "./inner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -457,7 +459,9 @@ __ESTREE_TEST__:PASS:
         "start": 117,
         "end": 126,
         "raw": "'./other'",
-        "value": "./other"
+        "value": "./other",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -672,7 +676,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 317,
                                       "end": 320,
                                       "raw": "\"N\"",
-                                      "value": "N"
+                                      "value": "N",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "trueType": {
@@ -684,7 +690,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 312,
                                       "end": 315,
                                       "raw": "\"O\"",
-                                      "value": "O"
+                                      "value": "O",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -755,7 +763,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 527,
                                       "end": 530,
                                       "raw": "\"N\"",
-                                      "value": "N"
+                                      "value": "N",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "trueType": {
@@ -815,7 +825,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 644,
                                         "end": 653,
                                         "raw": "'./other'",
-                                        "value": "./other"
+                                        "value": "./other",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "options": null,
@@ -1087,7 +1099,9 @@ __ESTREE_TEST__:PASS:
         "start": 70,
         "end": 80,
         "raw": "\"some-dep\"",
-        "value": "some-dep"
+        "value": "some-dep",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

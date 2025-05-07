@@ -23,7 +23,9 @@
             "start": 358,
             "end": 363,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 417,
                 "end": 418,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -131,7 +135,9 @@
               "start": 462,
               "end": 467,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -169,14 +175,18 @@
                   "start": 488,
                   "end": 489,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 491,
                   "end": 492,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -321,7 +331,9 @@
           "start": 584,
           "end": 586,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -364,7 +376,9 @@
             "start": 618,
             "end": 621,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -432,7 +446,9 @@
                   "start": 685,
                   "end": 689,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -527,7 +543,9 @@
             "start": 748,
             "end": 803,
             "value": "Array.prototype.some.call(child, callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(child, callbackfn) !== true'"
+            "raw": "'Array.prototype.some.call(child, callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

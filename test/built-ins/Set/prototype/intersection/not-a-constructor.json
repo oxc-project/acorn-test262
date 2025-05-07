@@ -82,14 +82,18 @@
             "start": 426,
             "end": 431,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 496,
             "value": "isConstructor(Set.prototype.intersection) must return false",
-            "raw": "\"isConstructor(Set.prototype.intersection) must return false\""
+            "raw": "\"isConstructor(Set.prototype.intersection) must return false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

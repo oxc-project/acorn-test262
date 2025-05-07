@@ -93,21 +93,27 @@
                                 "start": 1718,
                                 "end": 1719,
                                 "value": 4,
-                                "raw": "4"
+                                "raw": "4",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1721,
                                 "end": 1722,
                                 "value": 5,
-                                "raw": "5"
+                                "raw": "5",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1724,
                                 "end": 1725,
                                 "value": 6,
-                                "raw": "6"
+                                "raw": "6",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -149,7 +155,9 @@
                         "start": 1738,
                         "end": 1742,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -278,7 +286,9 @@
                             "start": 1823,
                             "end": 1873,
                             "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "raw": "\"Expected async function to reject, but resolved.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

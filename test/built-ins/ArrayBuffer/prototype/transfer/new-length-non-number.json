@@ -108,7 +108,9 @@
                               "start": 822,
                               "end": 832,
                               "value": "toString",
-                              "raw": "'toString'"
+                              "raw": "'toString'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -190,7 +192,9 @@
                               "start": 892,
                               "end": 901,
                               "value": "valueOf",
-                              "raw": "'valueOf'"
+                              "raw": "'valueOf'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -249,7 +253,9 @@
                 "start": 951,
                 "end": 952,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -402,7 +408,9 @@
             "start": 1054,
             "end": 1055,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,7 +459,9 @@
               "start": 1079,
               "end": 1080,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -461,7 +471,9 @@
             "start": 1083,
             "end": 1092,
             "value": "valueOf",
-            "raw": "'valueOf'"
+            "raw": "'valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,7 +522,9 @@
               "start": 1116,
               "end": 1117,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -520,7 +534,9 @@
             "start": 1120,
             "end": 1130,
             "value": "toString",
-            "raw": "'toString'"
+            "raw": "'toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -76,6 +76,7 @@
                                 "end": 566,
                                 "value": null,
                                 "raw": "2n",
+                                "regex": null,
                                 "bigint": "2"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 570,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               }
                             ]
@@ -184,7 +186,9 @@
                         "start": 640,
                         "end": 659,
                         "value": "without comparefn",
-                        "raw": "\"without comparefn\""
+                        "raw": "\"without comparefn\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -252,7 +256,9 @@
                                   "start": 706,
                                   "end": 707,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -308,7 +314,9 @@
                         "start": 748,
                         "end": 764,
                         "value": "with comparefn",
-                        "raw": "\"with comparefn\""
+                        "raw": "\"with comparefn\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

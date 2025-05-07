@@ -23,7 +23,9 @@
             "start": 705,
             "end": 710,
             "value": "one",
-            "raw": "\"one\""
+            "raw": "\"one\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 723,
             "end": 728,
             "value": "two",
-            "raw": "\"two\""
+            "raw": "\"two\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -346,7 +350,9 @@
                     "start": 1095,
                     "end": 1161,
                     "value": "#1: __instance.first === undefined. Actual: __instance.first ===",
-                    "raw": "'#1: __instance.first === undefined. Actual: __instance.first ==='"
+                    "raw": "'#1: __instance.first === undefined. Actual: __instance.first ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -440,7 +446,9 @@
                     "start": 1411,
                     "end": 1472,
                     "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ===",
-                    "raw": "'#2: __instance.prop === __SCND. Actual: __instance.prop ==='"
+                    "raw": "'#2: __instance.prop === __SCND. Actual: __instance.prop ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -494,7 +502,9 @@
               "start": 1680,
               "end": 1681,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -505,7 +515,9 @@
           "start": 1686,
           "end": 1687,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -537,7 +549,9 @@
                     "start": 1715,
                     "end": 1766,
                     "value": "#2: __instance(1)=== 2. Actual: __instance(1) ===",
-                    "raw": "'#2: __instance(1)=== 2. Actual: __instance(1) ==='"
+                    "raw": "'#2: __instance(1)=== 2. Actual: __instance(1) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -556,7 +570,9 @@
                         "start": 1778,
                         "end": 1779,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

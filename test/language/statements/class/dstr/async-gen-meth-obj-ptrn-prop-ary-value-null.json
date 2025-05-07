@@ -98,21 +98,27 @@
                               "start": 1933,
                               "end": 1934,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1936,
                               "end": 1937,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1939,
                               "end": 1940,
                               "value": 6,
-                              "raw": "6"
+                              "raw": "6",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -275,7 +281,9 @@
                               "start": 2046,
                               "end": 2050,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

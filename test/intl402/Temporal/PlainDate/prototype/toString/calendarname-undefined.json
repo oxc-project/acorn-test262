@@ -39,14 +39,18 @@
                     "start": 683,
                     "end": 695,
                     "value": "2000-05-02",
-                    "raw": "\"2000-05-02\""
+                    "raw": "\"2000-05-02\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 697,
                     "end": 711,
                     "value": "built-in ISO",
-                    "raw": "\"built-in ISO\""
+                    "raw": "\"built-in ISO\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -65,7 +69,9 @@
                         "start": 718,
                         "end": 727,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -74,14 +80,18 @@
                     "start": 730,
                     "end": 756,
                     "value": "2000-05-02[u-ca=gregory]",
-                    "raw": "\"2000-05-02[u-ca=gregory]\""
+                    "raw": "\"2000-05-02[u-ca=gregory]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 758,
                     "end": 778,
                     "value": "built-in Gregorian",
-                    "raw": "\"built-in Gregorian\""
+                    "raw": "\"built-in Gregorian\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -190,21 +200,27 @@
                       "start": 876,
                       "end": 880,
                       "value": 2000,
-                      "raw": "2000"
+                      "raw": "2000",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 882,
                       "end": 883,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 885,
                       "end": 886,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "SpreadElement",

@@ -114,7 +114,9 @@ __ESTREE_TEST__:PASS:
               "start": 100,
               "end": 112,
               "raw": "\"use strict\"",
-              "value": "use strict"
+              "value": "use strict",
+              "regex": null,
+              "bigint": null
             }
           },
           {

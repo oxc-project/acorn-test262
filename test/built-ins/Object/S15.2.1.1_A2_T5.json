@@ -74,14 +74,18 @@
             "start": 435,
             "end": 443,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 499,
             "value": "The value of `typeof num` is expected to be \"number\"",
-            "raw": "'The value of `typeof num` is expected to be \"number\"'"
+            "raw": "'The value of `typeof num` is expected to be \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +188,9 @@
             "start": 569,
             "end": 640,
             "value": "The value of obj.constructor is expected to equal the value of Number",
-            "raw": "'The value of obj.constructor is expected to equal the value of Number'"
+            "raw": "'The value of obj.constructor is expected to equal the value of Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,14 +242,18 @@
             "start": 672,
             "end": 680,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 682,
             "end": 736,
             "value": "The value of `typeof obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -55,7 +55,9 @@
             "start": 389,
             "end": 392,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -80,7 +82,9 @@
                   "start": 405,
                   "end": 408,
                   "value": 100,
-                  "raw": "100"
+                  "raw": "100",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -102,7 +106,9 @@
                   "start": 422,
                   "end": 427,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -124,7 +130,9 @@
                   "start": 445,
                   "end": 449,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -204,7 +212,9 @@
                 "start": 508,
                 "end": 511,
                 "value": 101,
-                "raw": "101"
+                "raw": "101",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -247,7 +257,9 @@
                 "start": 544,
                 "end": 545,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -265,7 +277,9 @@
             "start": 568,
             "end": 659,
             "value": "The result of evaluating (newArrayFromConcat[0] instanceof Number) is expected to be true",
-            "raw": "'The result of evaluating (newArrayFromConcat[0] instanceof Number) is expected to be true'"
+            "raw": "'The result of evaluating (newArrayFromConcat[0] instanceof Number) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -297,7 +311,9 @@
             "start": 698,
             "end": 701,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -322,7 +338,9 @@
                   "start": 717,
                   "end": 721,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -344,7 +362,9 @@
                   "start": 737,
                   "end": 741,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -366,7 +386,9 @@
                   "start": 759,
                   "end": 763,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

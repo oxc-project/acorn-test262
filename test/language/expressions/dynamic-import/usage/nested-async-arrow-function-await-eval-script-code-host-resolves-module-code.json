@@ -98,7 +98,9 @@
                             "start": 1363,
                             "end": 1389,
                             "value": "./module-code_FIXTURE.js",
-                            "raw": "'./module-code_FIXTURE.js'"
+                            "raw": "'./module-code_FIXTURE.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": null
                         },
@@ -185,7 +187,9 @@
                                       "start": 1450,
                                       "end": 1452,
                                       "value": 42,
-                                      "raw": "42"
+                                      "raw": "42",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -243,7 +247,9 @@
                                       "start": 1488,
                                       "end": 1497,
                                       "value": "Test262",
-                                      "raw": "'Test262'"
+                                      "raw": "'Test262'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -301,7 +307,9 @@
                                       "start": 1533,
                                       "end": 1535,
                                       "value": 42,
-                                      "raw": "42"
+                                      "raw": "42",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

@@ -23,7 +23,9 @@
             "start": 281,
             "end": 286,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,7 +70,9 @@
             "start": 316,
             "end": 322,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -175,7 +179,9 @@
                   "start": 410,
                   "end": 414,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -197,7 +203,9 @@
                   "start": 432,
                   "end": 436,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -291,7 +299,9 @@
             "start": 496,
             "end": 513,
             "value": "result !== true",
-            "raw": "'result !== true'"
+            "raw": "'result !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -341,7 +351,9 @@
                 "start": 545,
                 "end": 551,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -351,7 +363,9 @@
             "start": 554,
             "end": 594,
             "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

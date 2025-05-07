@@ -24,21 +24,27 @@
               "start": 276,
               "end": 277,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 280,
               "end": 281,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 284,
               "end": 285,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -48,7 +54,9 @@
           "start": 291,
           "end": 292,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +84,9 @@
                   "start": 321,
                   "end": 344,
                   "value": "#1: (0 ? 0 : 1) === 1",
-                  "raw": "'#1: (0 ? 0 : 1) === 1'"
+                  "raw": "'#1: (0 ? 0 : 1) === 1'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -116,7 +126,9 @@
                 "start": 379,
                 "end": 380,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -145,14 +157,18 @@
               "start": 388,
               "end": 389,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 392,
               "end": 393,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Identifier",
@@ -195,7 +211,9 @@
                   "start": 433,
                   "end": 480,
                   "value": "#2: (var y = new Number(1); (0 ? 1 : z) === z",
-                  "raw": "'#2: (var y = new Number(1); (0 ? 1 : z) === z'"
+                  "raw": "'#2: (var y = new Number(1); (0 ? 1 : z) === z'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

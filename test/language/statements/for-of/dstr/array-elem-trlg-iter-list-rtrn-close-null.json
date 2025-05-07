@@ -23,7 +23,9 @@
             "start": 2042,
             "end": 2043,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 2063,
             "end": 2064,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +126,9 @@
                             "start": 2121,
                             "end": 2122,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -153,7 +159,9 @@
                                 "start": 2142,
                                 "end": 2147,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -233,7 +241,9 @@
                             "start": 2215,
                             "end": 2216,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -246,7 +256,9 @@
                           "start": 2229,
                           "end": 2233,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -395,7 +407,9 @@
                   "start": 2356,
                   "end": 2357,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -469,7 +483,9 @@
                       "start": 2415,
                       "end": 2416,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -515,7 +531,9 @@
                   "start": 2447,
                   "end": 2448,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -626,7 +644,9 @@
             "start": 2513,
             "end": 2514,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -671,7 +691,9 @@
             "start": 2547,
             "end": 2548,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -802,7 +824,9 @@
             "start": 2638,
             "end": 2639,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -847,7 +871,9 @@
             "start": 2672,
             "end": 2673,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

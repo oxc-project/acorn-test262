@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -104,7 +106,9 @@ __ESTREE_TEST__:PASS:
               "start": 56,
               "end": 57,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -177,7 +181,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 206,
                                   "end": 210,
                                   "raw": "\"fs\"",
-                                  "value": "fs"
+                                  "value": "fs",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "callee": {

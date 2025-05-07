@@ -161,7 +161,9 @@
             "start": 345,
             "end": 349,
             "value": "{}",
-            "raw": "\"{}\""
+            "raw": "\"{}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +269,9 @@
             "start": 428,
             "end": 440,
             "value": "new Date()",
-            "raw": "\"new Date()\""
+            "raw": "\"new Date()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 22,
         "raw": "\"normalize.css\"",
-        "value": "normalize.css"
+        "value": "normalize.css",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

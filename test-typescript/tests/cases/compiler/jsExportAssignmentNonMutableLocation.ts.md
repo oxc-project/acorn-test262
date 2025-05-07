@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 28,
                 "end": 36,
                 "raw": "\"custom\"",
-                "value": "custom"
+                "value": "custom",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -171,7 +173,9 @@ __ESTREE_TEST__:PASS:
               "start": 168,
               "end": 176,
               "raw": "\"custom\"",
-              "value": "custom"
+              "value": "custom",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {

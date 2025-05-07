@@ -84,7 +84,9 @@
                         "start": 705,
                         "end": 709,
                         "value": "nb",
-                        "raw": "\"nb\""
+                        "raw": "\"nb\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -109,7 +111,9 @@
                               "start": 727,
                               "end": 735,
                               "value": "no-bok",
-                              "raw": "\"no-bok\""
+                              "raw": "\"no-bok\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -224,7 +228,9 @@
                         "start": 870,
                         "end": 874,
                         "value": "nb",
-                        "raw": "\"nb\""
+                        "raw": "\"nb\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -249,7 +255,9 @@
                               "start": 892,
                               "end": 900,
                               "value": "no-bok",
-                              "raw": "\"no-bok\""
+                              "raw": "\"no-bok\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -271,7 +279,9 @@
                               "start": 914,
                               "end": 918,
                               "value": "NO",
-                              "raw": "\"NO\""
+                              "raw": "\"NO\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

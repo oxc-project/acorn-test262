@@ -42,7 +42,9 @@
                   "start": 376,
                   "end": 380,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -72,7 +74,9 @@
                     "start": 397,
                     "end": 398,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -224,7 +228,9 @@
                             "start": 517,
                             "end": 528,
                             "value": "undefined",
-                            "raw": "\"undefined\""
+                            "raw": "\"undefined\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -284,28 +290,36 @@
               "start": 671,
               "end": 674,
               "value": "A",
-              "raw": "\"A\""
+              "raw": "\"A\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 675,
               "end": 678,
               "value": "B",
-              "raw": "\"B\""
+              "raw": "\"B\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 679,
               "end": 680,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 681,
               "end": 682,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -336,7 +350,9 @@
                   "start": 711,
                   "end": 812,
                   "value": "#1: Since arguments property has attribute { DontDelete }, but elements of arguments can be deleted",
-                  "raw": "'#1: Since arguments property has attribute { DontDelete }, but elements of arguments can be deleted'"
+                  "raw": "'#1: Since arguments property has attribute { DontDelete }, but elements of arguments can be deleted'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

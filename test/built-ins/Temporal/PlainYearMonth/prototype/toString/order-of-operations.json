@@ -28,21 +28,27 @@
                 "start": 376,
                 "end": 402,
                 "value": "get options.calendarName",
-                "raw": "\"get options.calendarName\""
+                "raw": "\"get options.calendarName\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 406,
                 "end": 441,
                 "value": "get options.calendarName.toString",
-                "raw": "\"get options.calendarName.toString\""
+                "raw": "\"get options.calendarName.toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 445,
                 "end": 481,
                 "value": "call options.calendarName.toString",
-                "raw": "\"call options.calendarName.toString\""
+                "raw": "\"call options.calendarName.toString\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -119,14 +125,18 @@
                 "start": 551,
                 "end": 555,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 557,
                 "end": 558,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -202,7 +212,9 @@
                       "start": 640,
                       "end": 646,
                       "value": "auto",
-                      "raw": "\"auto\""
+                      "raw": "\"auto\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -213,7 +225,9 @@
                 "start": 651,
                 "end": 660,
                 "value": "options",
-                "raw": "\"options\""
+                "raw": "\"options\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -305,7 +319,9 @@
             "start": 730,
             "end": 751,
             "value": "order of operations",
-            "raw": "\"order of operations\""
+            "raw": "\"order of operations\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

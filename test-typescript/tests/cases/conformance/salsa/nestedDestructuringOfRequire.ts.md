@@ -222,7 +222,9 @@ __ESTREE_TEST__:PASS:
                 "start": 40,
                 "end": 48,
                 "raw": "'./mod1'",
-                "value": "./mod1"
+                "value": "./mod1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

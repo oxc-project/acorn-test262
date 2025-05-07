@@ -194,7 +194,9 @@
                 "start": 992,
                 "end": 1007,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -291,7 +293,9 @@
             "start": 1107,
             "end": 1157,
             "value": "target and heldValue are the same regular symbol",
-            "raw": "'target and heldValue are the same regular symbol'"
+            "raw": "'target and heldValue are the same regular symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -411,7 +415,9 @@
             "start": 1271,
             "end": 1324,
             "value": "target and heldValue are the same well-known symbol",
-            "raw": "'target and heldValue are the same well-known symbol'"
+            "raw": "'target and heldValue are the same well-known symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

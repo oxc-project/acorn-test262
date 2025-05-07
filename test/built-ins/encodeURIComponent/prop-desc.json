@@ -28,7 +28,9 @@
             "start": 494,
             "end": 514,
             "value": "encodeURIComponent",
-            "raw": "\"encodeURIComponent\""
+            "raw": "\"encodeURIComponent\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -53,7 +55,9 @@
                   "start": 530,
                   "end": 534,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -75,7 +79,9 @@
                   "start": 550,
                   "end": 555,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,7 +103,9 @@
                   "start": 573,
                   "end": 577,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

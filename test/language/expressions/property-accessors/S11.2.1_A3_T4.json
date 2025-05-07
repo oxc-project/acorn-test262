@@ -67,7 +67,9 @@
                     "start": 437,
                     "end": 491,
                     "value": "#1.1: undefined.toString() throw TypeError. Actual: ",
-                    "raw": "'#1.1: undefined.toString() throw TypeError. Actual: '"
+                    "raw": "'#1.1: undefined.toString() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -159,7 +161,9 @@
                   "start": 570,
                   "end": 574,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -191,7 +195,9 @@
                             "start": 605,
                             "end": 659,
                             "value": "#1.2: undefined.toString() throw TypeError. Actual: ",
-                            "raw": "'#1.2: undefined.toString() throw TypeError. Actual: '"
+                            "raw": "'#1.2: undefined.toString() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -250,7 +256,9 @@
                   "start": 707,
                   "end": 717,
                   "value": "toString",
-                  "raw": "\"toString\""
+                  "raw": "\"toString\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -283,7 +291,9 @@
                     "start": 747,
                     "end": 804,
                     "value": "#2.1: undefined[\"toString\"]() throw TypeError. Actual: ",
-                    "raw": "'#2.1: undefined[\"toString\"]() throw TypeError. Actual: '"
+                    "raw": "'#2.1: undefined[\"toString\"]() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -309,7 +319,9 @@
                           "start": 818,
                           "end": 828,
                           "value": "toString",
-                          "raw": "\"toString\""
+                          "raw": "\"toString\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -376,7 +388,9 @@
                   "start": 885,
                   "end": 889,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -408,7 +422,9 @@
                             "start": 920,
                             "end": 977,
                             "value": "#2.2: undefined[\"toString\"]() throw TypeError. Actual: ",
-                            "raw": "'#2.2: undefined[\"toString\"]() throw TypeError. Actual: '"
+                            "raw": "'#2.2: undefined[\"toString\"]() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

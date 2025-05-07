@@ -34,14 +34,18 @@
                 "start": 1327,
                 "end": 1333,
                 "value": "code",
-                "raw": "'code'"
+                "raw": "'code'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1337,
                 "end": 1343,
                 "value": "none",
-                "raw": "'none'"
+                "raw": "'none'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -142,7 +146,9 @@
                             "start": 1416,
                             "end": 1420,
                             "value": "en",
-                            "raw": "'en'"
+                            "raw": "'en'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -188,7 +194,9 @@
                                   "start": 1440,
                                   "end": 1450,
                                   "value": "language",
-                                  "raw": "'language'"
+                                  "raw": "'language'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }

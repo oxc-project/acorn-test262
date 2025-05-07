@@ -59,21 +59,27 @@
                       "start": 483,
                       "end": 487,
                       "value": 2000,
-                      "raw": "2000"
+                      "raw": "2000",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 489,
                       "end": 490,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 492,
                       "end": 493,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -92,7 +98,9 @@
                   "start": 508,
                   "end": 517,
                   "value": "chinese",
-                  "raw": "\"chinese\""
+                  "raw": "\"chinese\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -166,21 +174,27 @@
                       "start": 565,
                       "end": 569,
                       "value": 2001,
-                      "raw": "2001"
+                      "raw": "2001",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 571,
                       "end": 572,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 574,
                       "end": 575,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -199,7 +213,9 @@
                   "start": 590,
                   "end": 599,
                   "value": "chinese",
-                  "raw": "\"chinese\""
+                  "raw": "\"chinese\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -313,7 +329,9 @@
                       "start": 669,
                       "end": 670,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -335,7 +353,9 @@
                       "start": 677,
                       "end": 678,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -357,7 +377,9 @@
                       "start": 690,
                       "end": 699,
                       "value": "chinese",
-                      "raw": "'chinese'"
+                      "raw": "'chinese'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -466,7 +488,9 @@
                       "start": 765,
                       "end": 766,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -488,7 +512,9 @@
                       "start": 773,
                       "end": 774,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -510,7 +536,9 @@
                       "start": 786,
                       "end": 795,
                       "value": "chinese",
-                      "raw": "'chinese'"
+                      "raw": "'chinese'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -575,14 +603,18 @@
             "start": 834,
             "end": 839,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 871,
             "value": "year 2000 is not a leap year",
-            "raw": "\"year 2000 is not a leap year\""
+            "raw": "\"year 2000 is not a leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -640,14 +672,18 @@
             "start": 906,
             "end": 911,
             "value": "M06",
-            "raw": "\"M06\""
+            "raw": "\"M06\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 958,
             "value": "sixth month in year 2000 has month code M06",
-            "raw": "\"sixth month in year 2000 has month code M06\""
+            "raw": "\"sixth month in year 2000 has month code M06\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -705,14 +741,18 @@
             "start": 995,
             "end": 999,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1001,
             "end": 1027,
             "value": "year 2001 is a leap year",
-            "raw": "\"year 2001 is a leap year\""
+            "raw": "\"year 2001 is a leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -770,14 +810,18 @@
             "start": 1062,
             "end": 1067,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1069,
             "end": 1114,
             "value": "sixth month in year 2001 has month code M05",
-            "raw": "\"sixth month in year 2001 has month code M05\""
+            "raw": "\"sixth month in year 2001 has month code M05\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -821,7 +865,9 @@
                   "start": 1144,
                   "end": 1150,
                   "value": "P12M",
-                  "raw": "'P12M'"
+                  "raw": "'P12M'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -843,7 +889,9 @@
                   "start": 1160,
                   "end": 1166,
                   "value": "P12M",
-                  "raw": "'P12M'"
+                  "raw": "'P12M'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -865,7 +913,9 @@
                   "start": 1175,
                   "end": 1183,
                   "value": "P50W4D",
-                  "raw": "'P50W4D'"
+                  "raw": "'P50W4D'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -887,7 +937,9 @@
                   "start": 1191,
                   "end": 1198,
                   "value": "P354D",
-                  "raw": "'P354D'"
+                  "raw": "'P354D'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

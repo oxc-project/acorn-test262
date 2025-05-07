@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 34,
                 "raw": "\"./package.json\"",
-                "value": "./package.json"
+                "value": "./package.json",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

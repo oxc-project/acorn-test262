@@ -144,14 +144,18 @@
                     "start": 931,
                     "end": 933,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 935,
                     "end": 943,
                     "value": "᠎",
-                    "raw": "\"\\u180E\""
+                    "raw": "\"\\u180E\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -170,7 +174,9 @@
             "start": 952,
             "end": 994,
             "value": "Number(dynaString(\"\", \"᠎\")) === NaN",
-            "raw": "'Number(dynaString(\"\", \"\\u180E\")) === NaN'"
+            "raw": "'Number(dynaString(\"\", \"\\u180E\")) === NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,14 +236,18 @@
                     "start": 1039,
                     "end": 1046,
                     "value": "12345",
-                    "raw": "\"12345\""
+                    "raw": "\"12345\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1048,
                     "end": 1061,
                     "value": "67890᠎",
-                    "raw": "\"67890\\u180E\""
+                    "raw": "\"67890\\u180E\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -255,7 +265,9 @@
             "start": 1070,
             "end": 1117,
             "value": "+(dynaString(\"12345\", \"67890᠎\")) === NaN",
-            "raw": "'+(dynaString(\"12345\", \"67890\\u180E\")) === NaN'"
+            "raw": "'+(dynaString(\"12345\", \"67890\\u180E\")) === NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,14 +328,18 @@
                     "start": 1167,
                     "end": 1173,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1175,
                     "end": 1187,
                     "value": "nity᠎",
-                    "raw": "\"nity\\u180E\""
+                    "raw": "\"nity\\u180E\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -342,7 +358,9 @@
             "start": 1196,
             "end": 1246,
             "value": "Number(dynaString(\"Infi\", \"nity᠎\")) === NaN",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\\u180E\")) === NaN'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\\u180E\")) === NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -403,14 +421,18 @@
                     "start": 1296,
                     "end": 1303,
                     "value": "-Infi",
-                    "raw": "\"-Infi\""
+                    "raw": "\"-Infi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1305,
                     "end": 1317,
                     "value": "nity᠎",
-                    "raw": "\"nity\\u180E\""
+                    "raw": "\"nity\\u180E\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -429,7 +451,9 @@
             "start": 1326,
             "end": 1377,
             "value": "Number(dynaString(\"-Infi\", \"nity᠎\")) === NaN",
-            "raw": "'Number(dynaString(\"-Infi\", \"nity\\u180E\")) === NaN'"
+            "raw": "'Number(dynaString(\"-Infi\", \"nity\\u180E\")) === NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -201,14 +201,18 @@
                                   "start": 865,
                                   "end": 866,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 868,
                                   "end": 869,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -258,7 +262,9 @@
                         "start": 909,
                         "end": 962,
                         "value": "result is an instance of the constructor this-value",
-                        "raw": "\"result is an instance of the constructor this-value\""
+                        "raw": "\"result is an instance of the constructor this-value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -316,14 +322,18 @@
                         "start": 999,
                         "end": 1000,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1002,
                         "end": 1027,
                         "value": "length is set on result",
-                        "raw": "\"length is set on result\""
+                        "raw": "\"length is set on result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -372,7 +382,9 @@
                           "start": 1056,
                           "end": 1057,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -382,14 +394,18 @@
                         "start": 1060,
                         "end": 1061,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1063,
                         "end": 1091,
                         "value": "element 0 is set on result",
-                        "raw": "\"element 0 is set on result\""
+                        "raw": "\"element 0 is set on result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -438,7 +454,9 @@
                           "start": 1120,
                           "end": 1121,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -448,14 +466,18 @@
                         "start": 1124,
                         "end": 1125,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1127,
                         "end": 1155,
                         "value": "element 1 is set on result",
-                        "raw": "\"element 1 is set on result\""
+                        "raw": "\"element 1 is set on result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -513,14 +535,18 @@
                         "start": 1202,
                         "end": 1203,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1205,
                         "end": 1233,
                         "value": "constructor is called once",
-                        "raw": "\"constructor is called once\""
+                        "raw": "\"constructor is called once\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -569,7 +595,9 @@
                           "start": 1275,
                           "end": 1276,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -585,7 +613,9 @@
                         "start": 1283,
                         "end": 1324,
                         "value": "constructor is called with no arguments",
-                        "raw": "\"constructor is called with no arguments\""
+                        "raw": "\"constructor is called with no arguments\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -624,7 +654,9 @@
                         "start": 1354,
                         "end": 1355,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -715,7 +747,9 @@
                                   "start": 1430,
                                   "end": 1431,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -731,14 +765,18 @@
                                   "start": 1437,
                                   "end": 1438,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "value": {
                                   "type": "Literal",
                                   "start": 1440,
                                   "end": 1441,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -754,14 +792,18 @@
                                   "start": 1447,
                                   "end": 1448,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "value": {
                                   "type": "Literal",
                                   "start": 1450,
                                   "end": 1451,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -811,7 +853,9 @@
                         "start": 1494,
                         "end": 1547,
                         "value": "result is an instance of the constructor this-value",
-                        "raw": "\"result is an instance of the constructor this-value\""
+                        "raw": "\"result is an instance of the constructor this-value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -869,14 +913,18 @@
                         "start": 1584,
                         "end": 1585,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1587,
                         "end": 1612,
                         "value": "length is set on result",
-                        "raw": "\"length is set on result\""
+                        "raw": "\"length is set on result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -925,7 +973,9 @@
                           "start": 1641,
                           "end": 1642,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -935,14 +985,18 @@
                         "start": 1645,
                         "end": 1646,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1648,
                         "end": 1676,
                         "value": "element 0 is set on result",
-                        "raw": "\"element 0 is set on result\""
+                        "raw": "\"element 0 is set on result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -991,7 +1045,9 @@
                           "start": 1705,
                           "end": 1706,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1001,14 +1057,18 @@
                         "start": 1709,
                         "end": 1710,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1712,
                         "end": 1740,
                         "value": "element 1 is set on result",
-                        "raw": "\"element 1 is set on result\""
+                        "raw": "\"element 1 is set on result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1066,14 +1126,18 @@
                         "start": 1787,
                         "end": 1788,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1790,
                         "end": 1818,
                         "value": "constructor is called once",
-                        "raw": "\"constructor is called once\""
+                        "raw": "\"constructor is called once\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1122,7 +1186,9 @@
                           "start": 1860,
                           "end": 1861,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1137,7 +1203,9 @@
                             "start": 1865,
                             "end": 1866,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -1146,7 +1214,9 @@
                         "start": 1869,
                         "end": 1915,
                         "value": "constructor is called with a length argument",
-                        "raw": "\"constructor is called with a length argument\""
+                        "raw": "\"constructor is called with a length argument\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -61,7 +61,9 @@
                 "start": 342,
                 "end": 344,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -126,7 +128,9 @@
                 "start": 402,
                 "end": 404,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -171,7 +175,9 @@
                   "start": 433,
                   "end": 434,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -307,7 +313,9 @@
             "start": 517,
             "end": 518,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -317,7 +325,9 @@
           "start": 522,
           "end": 523,
           "value": 9,
-          "raw": "9"
+          "raw": "9",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -345,7 +355,9 @@
             "start": 531,
             "end": 532,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -355,7 +367,9 @@
           "start": 536,
           "end": 538,
           "value": 11,
-          "raw": "11"
+          "raw": "11",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -383,7 +397,9 @@
             "start": 546,
             "end": 547,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -393,7 +409,9 @@
           "start": 551,
           "end": 553,
           "value": 12,
-          "raw": "12"
+          "raw": "12",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -482,7 +500,9 @@
             "start": 610,
             "end": 666,
             "value": "Array.prototype.some.call(child, callbackfn1) !== true",
-            "raw": "'Array.prototype.some.call(child, callbackfn1) !== true'"
+            "raw": "'Array.prototype.some.call(child, callbackfn1) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -586,14 +606,18 @@
             "start": 733,
             "end": 738,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 787,
             "value": "Array.prototype.some.call(child, callbackfn2)",
-            "raw": "'Array.prototype.some.call(child, callbackfn2)'"
+            "raw": "'Array.prototype.some.call(child, callbackfn2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

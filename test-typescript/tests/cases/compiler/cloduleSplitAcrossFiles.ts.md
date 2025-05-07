@@ -82,7 +82,9 @@ __ESTREE_TEST__:PASS:
                     "start": 30,
                     "end": 34,
                     "raw": "\"hi\"",
-                    "value": "hi"
+                    "value": "hi",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

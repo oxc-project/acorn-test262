@@ -12,7 +12,9 @@
         "start": 1336,
         "end": 1340,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -32,7 +34,9 @@
                 "start": 1352,
                 "end": 1354,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             }
           }

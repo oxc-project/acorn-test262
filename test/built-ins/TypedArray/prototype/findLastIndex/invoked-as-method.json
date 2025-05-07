@@ -100,7 +100,9 @@
             "start": 765,
             "end": 775,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

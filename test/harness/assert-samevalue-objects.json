@@ -23,7 +23,9 @@
             "start": 230,
             "end": 235,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,7 +121,9 @@
                   "start": 297,
                   "end": 301,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -191,7 +195,9 @@
                               "start": 372,
                               "end": 406,
                               "value": "Expected a Test262Error, but a \"",
-                              "raw": "'Expected a Test262Error, but a \"'"
+                              "raw": "'Expected a Test262Error, but a \"'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -233,7 +239,9 @@
                             "start": 438,
                             "end": 453,
                             "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "raw": "'\" was thrown.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -268,7 +276,9 @@
           "start": 482,
           "end": 487,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -296,7 +306,9 @@
                   "start": 509,
                   "end": 560,
                   "value": "Expected a Test262Error, but no error was thrown.",
-                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                  "raw": "'Expected a Test262Error, but no error was thrown.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

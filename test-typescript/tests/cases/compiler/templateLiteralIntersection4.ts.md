@@ -292,7 +292,9 @@ __ESTREE_TEST__:PASS:
                     "start": 183,
                     "end": 193,
                     "raw": "'useStore'",
-                    "value": "useStore"
+                    "value": "useStore",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -801,7 +803,9 @@ __ESTREE_TEST__:PASS:
                       "start": 431,
                       "end": 437,
                       "raw": "\"Aral\"",
-                      "value": "Aral"
+                      "value": "Aral",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -827,7 +831,9 @@ __ESTREE_TEST__:PASS:
                       "start": 446,
                       "end": 448,
                       "raw": "31",
-                      "value": 31
+                      "value": 31,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

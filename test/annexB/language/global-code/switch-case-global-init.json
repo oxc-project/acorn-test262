@@ -80,7 +80,9 @@
             "start": 796,
             "end": 835,
             "value": "binding is initialized to `undefined`",
-            "raw": "'binding is initialized to `undefined`'"
+            "raw": "'binding is initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -112,7 +114,9 @@
             "start": 862,
             "end": 865,
             "value": "f",
-            "raw": "\"f\""
+            "raw": "\"f\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -137,7 +141,9 @@
                   "start": 883,
                   "end": 887,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +165,9 @@
                   "start": 901,
                   "end": 905,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -181,7 +189,9 @@
                   "start": 923,
                   "end": 928,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -200,7 +210,9 @@
         "start": 942,
         "end": 943,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -235,7 +247,9 @@
             "start": 954,
             "end": 955,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ]

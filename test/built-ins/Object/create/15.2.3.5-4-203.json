@@ -35,7 +35,9 @@
           "start": 366,
           "end": 370,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -170,7 +172,9 @@
                     "start": 465,
                     "end": 471,
                     "value": "prop",
-                    "raw": "\"prop\""
+                    "raw": "\"prop\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -217,7 +221,9 @@
                   "start": 500,
                   "end": 511,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -259,7 +265,9 @@
           "start": 529,
           "end": 541,
           "value": "isWritable",
-          "raw": "\"isWritable\""
+          "raw": "\"isWritable\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -311,7 +319,9 @@
                 "start": 578,
                 "end": 590,
                 "value": "isWritable",
-                "raw": "\"isWritable\""
+                "raw": "\"isWritable\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -358,14 +368,18 @@
             "start": 624,
             "end": 628,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 643,
             "value": "beforeWrite",
-            "raw": "'beforeWrite'"
+            "raw": "'beforeWrite'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -410,14 +424,18 @@
             "start": 675,
             "end": 679,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 681,
             "end": 693,
             "value": "afterWrite",
-            "raw": "'afterWrite'"
+            "raw": "'afterWrite'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

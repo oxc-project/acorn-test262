@@ -41,7 +41,9 @@
                   "start": 580,
                   "end": 581,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -192,7 +194,9 @@
                                   "start": 712,
                                   "end": 717,
                                   "value": "bar",
-                                  "raw": "\"bar\""
+                                  "raw": "\"bar\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "ObjectExpression",
@@ -217,7 +221,9 @@
                                         "start": 741,
                                         "end": 746,
                                         "value": false,
-                                        "raw": "false"
+                                        "raw": "false",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -239,7 +245,9 @@
                                         "start": 766,
                                         "end": 770,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -261,7 +269,9 @@
                                         "start": 785,
                                         "end": 786,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -415,7 +425,9 @@
                         "start": 935,
                         "end": 940,
                         "value": "bar",
-                        "raw": "\"bar\""
+                        "raw": "\"bar\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

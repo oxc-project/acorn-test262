@@ -750,7 +750,9 @@ __ESTREE_TEST__:PASS:
                       "start": 638,
                       "end": 644,
                       "raw": "'Boat'",
-                      "value": "Boat"
+                      "value": "Boat",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "objectType": {
@@ -810,7 +812,9 @@ __ESTREE_TEST__:PASS:
                       "start": 603,
                       "end": 609,
                       "raw": "'Boat'",
-                      "value": "Boat"
+                      "value": "Boat",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "objectType": {
@@ -938,7 +942,9 @@ __ESTREE_TEST__:PASS:
                 "start": 708,
                 "end": 714,
                 "raw": "'Boat'",
-                "value": "Boat"
+                "value": "Boat",
+                "regex": null,
+                "bigint": null
               }
             },
             "default": null,
@@ -1053,7 +1059,9 @@ __ESTREE_TEST__:PASS:
                   "start": 853,
                   "end": 859,
                   "raw": "'Boat'",
-                  "value": "Boat"
+                  "value": "Boat",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1074,7 +1082,9 @@ __ESTREE_TEST__:PASS:
                       "start": 880,
                       "end": 886,
                       "raw": "'Boat'",
-                      "value": "Boat"
+                      "value": "Boat",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "objectType": {
@@ -1219,7 +1229,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1088,
                         "end": 1094,
                         "raw": "'Boat'",
-                        "value": "Boat"
+                        "value": "Boat",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -1240,7 +1252,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1115,
                             "end": 1121,
                             "raw": "'Boat'",
-                            "value": "Boat"
+                            "value": "Boat",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {
@@ -1400,7 +1414,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1161,
                   "end": 1167,
                   "raw": "'Boat'",
-                  "value": "Boat"
+                  "value": "Boat",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "default": null,
@@ -1596,7 +1612,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1311,
                   "end": 1317,
                   "raw": "'Boat'",
-                  "value": "Boat"
+                  "value": "Boat",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "default": null,
@@ -1889,7 +1907,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1504,
                   "end": 1510,
                   "raw": "'Boat'",
-                  "value": "Boat"
+                  "value": "Boat",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "default": null,

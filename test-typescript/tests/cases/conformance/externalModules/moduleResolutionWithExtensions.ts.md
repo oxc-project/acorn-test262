@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 16,
         "raw": "0",
-        "value": 0
+        "value": 0,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -41,7 +43,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 19,
         "raw": "'./a'",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -83,7 +87,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "'./a.js'",
-        "value": "./a.js"
+        "value": "./a.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -186,7 +192,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 24,
         "raw": "\"./jquery\"",
-        "value": "./jquery"
+        "value": "./jquery",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -228,7 +236,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 27,
         "raw": "\"./jquery.js\"",
-        "value": "./jquery.js"
+        "value": "./jquery.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

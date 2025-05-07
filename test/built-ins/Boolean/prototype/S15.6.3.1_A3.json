@@ -29,7 +29,9 @@
             "start": 390,
             "end": 401,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

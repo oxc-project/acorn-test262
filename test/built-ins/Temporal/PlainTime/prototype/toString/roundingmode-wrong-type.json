@@ -47,42 +47,54 @@
                 "start": 348,
                 "end": 350,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 354,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 358,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 363,
                 "value": 123,
-                "raw": "123"
+                "raw": "123",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 368,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 373,
                 "value": 500,
-                "raw": "500"
+                "raw": "500",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -123,14 +135,18 @@
             "start": 419,
             "end": 433,
             "value": "roundingMode",
-            "raw": "\"roundingMode\""
+            "raw": "\"roundingMode\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 442,
             "value": "trunc",
-            "raw": "\"trunc\""
+            "raw": "\"trunc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -195,7 +211,9 @@
                         "start": 494,
                         "end": 507,
                         "value": "microsecond",
-                        "raw": "\"microsecond\""
+                        "raw": "\"microsecond\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -283,7 +301,9 @@
                   "start": 572,
                   "end": 589,
                   "value": "12:34:56.123987",
-                  "raw": "\"12:34:56.123987\""
+                  "raw": "\"12:34:56.123987\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

@@ -77,7 +77,9 @@
                         "start": 814,
                         "end": 817,
                         "value": "0",
-                        "raw": "\"0\""
+                        "raw": "\"0\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -140,7 +142,9 @@
                               "start": 869,
                               "end": 874,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -361,7 +365,9 @@
                         "start": 1011,
                         "end": 1012,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -375,7 +381,9 @@
             "start": 1018,
             "end": 1062,
             "value": "arr.concat(1) throws a TypeError exception",
-            "raw": "'arr.concat(1) throws a TypeError exception'"
+            "raw": "'arr.concat(1) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

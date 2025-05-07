@@ -118,7 +118,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 29,
         "raw": "\"./task\"",
-        "value": "./task"
+        "value": "./task",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

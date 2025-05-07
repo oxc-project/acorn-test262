@@ -92,7 +92,9 @@
             "start": 429,
             "end": 436,
             "value": "value",
-            "raw": "\"value\""
+            "raw": "\"value\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -135,7 +137,9 @@
                           "start": 471,
                           "end": 498,
                           "value": "inheritedAccessorProperty",
-                          "raw": "\"inheritedAccessorProperty\""
+                          "raw": "\"inheritedAccessorProperty\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -290,7 +294,9 @@
             "start": 615,
             "end": 622,
             "value": "value",
-            "raw": "\"value\""
+            "raw": "\"value\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -444,7 +450,9 @@
                 "start": 734,
                 "end": 744,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -454,7 +462,9 @@
             "start": 747,
             "end": 788,
             "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"property\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -524,14 +534,18 @@
             "start": 830,
             "end": 841,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 866,
             "value": "typeof (obj.property)",
-            "raw": "'typeof (obj.property)'"
+            "raw": "'typeof (obj.property)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

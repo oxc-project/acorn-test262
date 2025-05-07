@@ -114,7 +114,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 44,
         "raw": "\"@babel/parser\"",
-        "value": "@babel/parser"
+        "value": "@babel/parser",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -166,7 +168,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 44,
         "raw": "\"@babel/parser\"",
-        "value": "@babel/parser"
+        "value": "@babel/parser",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

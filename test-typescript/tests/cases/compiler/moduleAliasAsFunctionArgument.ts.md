@@ -83,7 +83,9 @@ __ESTREE_TEST__:PASS:
           "start": 77,
           "end": 110,
           "raw": "'moduleAliasAsFunctionArgument_0'",
-          "value": "moduleAliasAsFunctionArgument_0"
+          "value": "moduleAliasAsFunctionArgument_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

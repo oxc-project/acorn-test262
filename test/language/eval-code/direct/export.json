@@ -71,7 +71,9 @@
                         "start": 715,
                         "end": 737,
                         "value": "export default null;",
-                        "raw": "'export default null;'"
+                        "raw": "'export default null;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

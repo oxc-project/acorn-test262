@@ -70,7 +70,9 @@
                   "start": 423,
                   "end": 430,
                   "value": "flags",
-                  "raw": "\"flags\""
+                  "raw": "\"flags\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -215,14 +217,18 @@
             "start": 506,
             "end": 508,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 532,
             "value": "multiline: undefined",
-            "raw": "\"multiline: undefined\""
+            "raw": "\"multiline: undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -261,7 +267,9 @@
           "start": 550,
           "end": 554,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -331,14 +339,18 @@
             "start": 586,
             "end": 588,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 607,
             "value": "multiline: null",
-            "raw": "\"multiline: null\""
+            "raw": "\"multiline: null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,14 +458,18 @@
             "start": 660,
             "end": 662,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 680,
             "value": "multiline: NaN",
-            "raw": "\"multiline: NaN\""
+            "raw": "\"multiline: NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -492,7 +508,9 @@
           "start": 698,
           "end": 700,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -562,14 +580,18 @@
             "start": 732,
             "end": 734,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 736,
             "end": 765,
             "value": "multiline: the empty string",
-            "raw": "\"multiline: the empty string\""
+            "raw": "\"multiline: the empty string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,7 +630,9 @@
           "start": 783,
           "end": 791,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -678,14 +702,18 @@
             "start": 823,
             "end": 826,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 828,
             "end": 847,
             "value": "multiline: string",
-            "raw": "\"multiline: string\""
+            "raw": "\"multiline: string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -724,7 +752,9 @@
           "start": 865,
           "end": 867,
           "value": 86,
-          "raw": "86"
+          "raw": "86",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -794,14 +824,18 @@
             "start": 899,
             "end": 902,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 919,
             "value": "multiline: 86",
-            "raw": "\"multiline: 86\""
+            "raw": "\"multiline: 86\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -916,14 +950,18 @@
             "start": 977,
             "end": 980,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 982,
             "end": 1003,
             "value": "multiline: Symbol()",
-            "raw": "\"multiline: Symbol()\""
+            "raw": "\"multiline: Symbol()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1031,14 +1069,18 @@
             "start": 1055,
             "end": 1058,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1060,
             "end": 1075,
             "value": "multiline: []",
-            "raw": "\"multiline: []\""
+            "raw": "\"multiline: []\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1146,14 +1188,18 @@
             "start": 1127,
             "end": 1130,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1132,
             "end": 1147,
             "value": "multiline: {}",
-            "raw": "\"multiline: {}\""
+            "raw": "\"multiline: {}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

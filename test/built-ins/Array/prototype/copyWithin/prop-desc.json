@@ -75,14 +75,18 @@
             "start": 434,
             "end": 444,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 448,
             "end": 499,
             "value": "`typeof Array.prototype.copyWithin` is `function`",
-            "raw": "'`typeof Array.prototype.copyWithin` is `function`'"
+            "raw": "'`typeof Array.prototype.copyWithin` is `function`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 536,
             "end": 548,
             "value": "copyWithin",
-            "raw": "\"copyWithin\""
+            "raw": "\"copyWithin\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 564,
                   "end": 568,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 584,
                   "end": 589,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 607,
                   "end": 611,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

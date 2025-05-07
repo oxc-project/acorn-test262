@@ -296,7 +296,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 167,
                                   "end": 170,
                                   "raw": "\"A\"",
-                                  "value": "A"
+                                  "value": "A",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -308,7 +310,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 173,
                                   "end": 176,
                                   "raw": "\"B\"",
-                                  "value": "B"
+                                  "value": "B",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -320,7 +324,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 179,
                                   "end": 182,
                                   "raw": "\"C\"",
-                                  "value": "C"
+                                  "value": "C",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -378,7 +384,9 @@ __ESTREE_TEST__:PASS:
                   "start": 231,
                   "end": 234,
                   "raw": "\"B\"",
-                  "value": "B"
+                  "value": "B",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -428,7 +436,9 @@ __ESTREE_TEST__:PASS:
                 "start": 249,
                 "end": 252,
                 "raw": "\"B\"",
-                "value": "B"
+                "value": "B",
+                "regex": null,
+                "bigint": null
               }
             }
           ],

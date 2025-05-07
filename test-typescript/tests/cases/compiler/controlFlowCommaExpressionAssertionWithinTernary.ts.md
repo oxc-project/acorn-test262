@@ -137,7 +137,9 @@ __ESTREE_TEST__:PASS:
                 "start": 211,
                 "end": 215,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "SequenceExpression",

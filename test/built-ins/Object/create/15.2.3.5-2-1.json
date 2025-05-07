@@ -184,14 +184,18 @@
             "start": 481,
             "end": 489,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 501,
             "value": "typeof d",
-            "raw": "'typeof d'"
+            "raw": "'typeof d'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

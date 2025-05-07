@@ -48,6 +48,7 @@
                 "end": 340,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -216,21 +217,27 @@
             "start": 476,
             "end": 491,
             "value": "Europe/Berlin",
-            "raw": "\"Europe/Berlin\""
+            "raw": "\"Europe/Berlin\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 520,
             "value": "1970-01-01T01:00:00+01:00",
-            "raw": "\"1970-01-01T01:00:00+01:00\""
+            "raw": "\"1970-01-01T01:00:00+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 539,
             "value": "positive offset",
-            "raw": "\"positive offset\""
+            "raw": "\"positive offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,21 +263,27 @@
             "start": 547,
             "end": 565,
             "value": "America/New_York",
-            "raw": "\"America/New_York\""
+            "raw": "\"America/New_York\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 567,
             "end": 594,
             "value": "1969-12-31T19:00:00-05:00",
-            "raw": "\"1969-12-31T19:00:00-05:00\""
+            "raw": "\"1969-12-31T19:00:00-05:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 613,
             "value": "negative offset",
-            "raw": "\"negative offset\""
+            "raw": "\"negative offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,21 +309,27 @@
             "start": 621,
             "end": 638,
             "value": "Africa/Monrovia",
-            "raw": "\"Africa/Monrovia\""
+            "raw": "\"Africa/Monrovia\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 640,
             "end": 667,
             "value": "1969-12-31T23:15:30-00:45",
-            "raw": "\"1969-12-31T23:15:30-00:45\""
+            "raw": "\"1969-12-31T23:15:30-00:45\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 669,
             "end": 688,
             "value": "sub-minute offset",
-            "raw": "\"sub-minute offset\""
+            "raw": "\"sub-minute offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

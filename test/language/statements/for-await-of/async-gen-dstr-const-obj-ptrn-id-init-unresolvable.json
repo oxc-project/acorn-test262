@@ -214,7 +214,9 @@
                             "start": 2024,
                             "end": 2074,
                             "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "raw": "\"Expected async function to reject, but resolved.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

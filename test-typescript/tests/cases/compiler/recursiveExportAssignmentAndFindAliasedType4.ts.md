@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 22,
           "end": 76,
           "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleC\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC"
+          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -134,7 +136,9 @@ __ESTREE_TEST__:PASS:
           "start": 25,
           "end": 79,
           "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleC\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC"
+          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -161,7 +165,9 @@ __ESTREE_TEST__:PASS:
           "start": 106,
           "end": 160,
           "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleB\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleB"
+          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleB",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -48,6 +48,7 @@
                 "end": 689,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 691,
                 "end": 696,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,28 +91,36 @@
                 "start": 720,
                 "end": 730,
                 "value": "PREVIOUS",
-                "raw": "'PREVIOUS'"
+                "raw": "'PREVIOUS'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 732,
                 "end": 743,
                 "value": "following",
-                "raw": "'following'"
+                "raw": "'following'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 745,
                 "end": 753,
                 "value": "next\u0000",
-                "raw": "'next\\0'"
+                "raw": "'next\\0'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 755,
                 "end": 765,
                 "value": "prevıous",
-                "raw": "'prevıous'"
+                "raw": "'prevıous'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

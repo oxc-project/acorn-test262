@@ -132,7 +132,9 @@
             "start": 491,
             "end": 496,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -199,7 +201,9 @@
                   "start": 549,
                   "end": 554,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -221,7 +225,9 @@
                   "start": 572,
                   "end": 577,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -259,7 +265,9 @@
               "start": 614,
               "end": 615,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -382,7 +390,9 @@
                   "start": 727,
                   "end": 751,
                   "value": "Expected an exception.",
-                  "raw": "\"Expected an exception.\""
+                  "raw": "\"Expected an exception.\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -430,14 +440,18 @@
                     "start": 790,
                     "end": 795,
                     "value": "foo",
-                    "raw": "\"foo\""
+                    "raw": "\"foo\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 797,
                     "end": 816,
                     "value": "setVerifyHelpProp",
-                    "raw": "\"setVerifyHelpProp\""
+                    "raw": "\"setVerifyHelpProp\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -506,7 +520,9 @@
                             "start": 882,
                             "end": 908,
                             "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "raw": "\"Expected TypeError, got \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -554,7 +570,9 @@
             "start": 942,
             "end": 947,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -579,7 +597,9 @@
                   "start": 965,
                   "end": 970,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -601,7 +621,9 @@
                   "start": 988,
                   "end": 993,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

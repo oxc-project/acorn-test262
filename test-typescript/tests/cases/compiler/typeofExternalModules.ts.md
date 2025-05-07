@@ -129,7 +129,9 @@ __ESTREE_TEST__:PASS:
           "start": 21,
           "end": 55,
           "raw": "'./typeofExternalModules_external'",
-          "value": "./typeofExternalModules_external"
+          "value": "./typeofExternalModules_external",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -156,7 +158,9 @@ __ESTREE_TEST__:PASS:
           "start": 79,
           "end": 117,
           "raw": "'./typeofExternalModules_exportAssign'",
-          "value": "./typeofExternalModules_exportAssign"
+          "value": "./typeofExternalModules_exportAssign",
+          "regex": null,
+          "bigint": null
         }
       }
     },

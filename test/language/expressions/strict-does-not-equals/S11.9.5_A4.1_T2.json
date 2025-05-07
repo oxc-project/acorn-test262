@@ -26,7 +26,9 @@
               "start": 242,
               "end": 246,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "operator": "!==",
             "right": {
@@ -76,7 +78,9 @@
                   "start": 291,
                   "end": 309,
                   "value": "#1: true !== NaN",
-                  "raw": "'#1: true !== NaN'"
+                  "raw": "'#1: true !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -114,7 +118,9 @@
                 "start": 332,
                 "end": 333,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "!==",
@@ -165,7 +171,9 @@
                   "start": 378,
                   "end": 394,
                   "value": "#2: -1 !== NaN",
-                  "raw": "'#2: -1 !== NaN'"
+                  "raw": "'#2: -1 !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -259,7 +267,9 @@
                   "start": 471,
                   "end": 488,
                   "value": "#3: NaN !== NaN",
-                  "raw": "'#3: NaN !== NaN'"
+                  "raw": "'#3: NaN !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -353,7 +363,9 @@
                   "start": 579,
                   "end": 602,
                   "value": "#4: +Infinity !== NaN",
-                  "raw": "'#4: +Infinity !== NaN'"
+                  "raw": "'#4: +Infinity !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -447,7 +459,9 @@
                   "start": 693,
                   "end": 716,
                   "value": "#5: -Infinity !== NaN",
-                  "raw": "'#5: -Infinity !== NaN'"
+                  "raw": "'#5: -Infinity !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -541,7 +555,9 @@
                   "start": 799,
                   "end": 829,
                   "value": "#6: Number.MAX_VALUE !== NaN",
-                  "raw": "'#6: Number.MAX_VALUE !== NaN'"
+                  "raw": "'#6: Number.MAX_VALUE !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -635,7 +651,9 @@
                   "start": 912,
                   "end": 942,
                   "value": "#7: Number.MIN_VALUE !== NaN",
-                  "raw": "'#7: Number.MIN_VALUE !== NaN'"
+                  "raw": "'#7: Number.MIN_VALUE !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -667,7 +685,9 @@
               "start": 964,
               "end": 972,
               "value": "string",
-              "raw": "\"string\""
+              "raw": "\"string\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "!==",
             "right": {
@@ -717,7 +737,9 @@
                   "start": 1017,
                   "end": 1039,
                   "value": "#8: \"string\" !== NaN",
-                  "raw": "'#8: \"string\" !== NaN'"
+                  "raw": "'#8: \"string\" !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -804,7 +826,9 @@
                   "start": 1118,
                   "end": 1144,
                   "value": "#9: new Object() !== NaN",
-                  "raw": "'#9: new Object() !== NaN'"
+                  "raw": "'#9: new Object() !== NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

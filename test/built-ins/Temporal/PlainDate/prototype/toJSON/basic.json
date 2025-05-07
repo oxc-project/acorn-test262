@@ -57,21 +57,27 @@
                         "start": 289,
                         "end": 293,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 295,
                         "end": 296,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 298,
                         "end": 299,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -80,7 +86,9 @@
                     "start": 302,
                     "end": 314,
                     "value": "1976-02-04",
-                    "raw": "\"1976-02-04\""
+                    "raw": "\"1976-02-04\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -118,21 +126,27 @@
                         "start": 343,
                         "end": 347,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 349,
                         "end": 351,
                         "value": 11,
-                        "raw": "11"
+                        "raw": "11",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 353,
                         "end": 355,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -141,7 +155,9 @@
                     "start": 358,
                     "end": 370,
                     "value": "1976-11-18",
-                    "raw": "\"1976-11-18\""
+                    "raw": "\"1976-11-18\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -235,7 +251,9 @@
                                   "start": 442,
                                   "end": 482,
                                   "value": "should not get properties off argument",
-                                  "raw": "\"should not get properties off argument\""
+                                  "raw": "\"should not get properties off argument\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -367,7 +385,9 @@
                   "start": 582,
                   "end": 607,
                   "value": "toJSON without argument",
-                  "raw": "\"toJSON without argument\""
+                  "raw": "\"toJSON without argument\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -445,7 +465,9 @@
                   "start": 665,
                   "end": 687,
                   "value": "toJSON with argument",
-                  "raw": "\"toJSON with argument\""
+                  "raw": "\"toJSON with argument\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

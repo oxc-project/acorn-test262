@@ -131,14 +131,18 @@
             "start": 546,
             "end": 547,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 579,
             "value": "The value of `s.size` is `0`",
-            "raw": "\"The value of `s.size` is `0`\""
+            "raw": "\"The value of `s.size` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +193,9 @@
             "start": 618,
             "end": 660,
             "value": "The result of `s.clear()` is `undefined`",
-            "raw": "\"The result of `s.clear()` is `undefined`\""
+            "raw": "\"The result of `s.clear()` is `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

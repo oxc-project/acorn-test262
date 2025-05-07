@@ -53,70 +53,90 @@
                 "start": 504,
                 "end": 516,
                 "value": "Promise: 6",
-                "raw": "'Promise: 6'"
+                "raw": "'Promise: 6'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 520,
                 "end": 532,
                 "value": "Promise: 5",
-                "raw": "'Promise: 5'"
+                "raw": "'Promise: 5'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 546,
                 "value": "Await: 3",
-                "raw": "'Await: 3'"
+                "raw": "'Await: 3'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 550,
                 "end": 562,
                 "value": "Promise: 4",
-                "raw": "'Promise: 4'"
+                "raw": "'Promise: 4'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 566,
                 "end": 578,
                 "value": "Promise: 3",
-                "raw": "'Promise: 3'"
+                "raw": "'Promise: 3'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 592,
                 "value": "Await: 2",
-                "raw": "'Await: 2'"
+                "raw": "'Await: 2'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 596,
                 "end": 608,
                 "value": "Promise: 2",
-                "raw": "'Promise: 2'"
+                "raw": "'Promise: 2'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 612,
                 "end": 624,
                 "value": "Promise: 1",
-                "raw": "'Promise: 1'"
+                "raw": "'Promise: 1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 628,
                 "end": 638,
                 "value": "Await: 1",
-                "raw": "'Await: 1'"
+                "raw": "'Await: 1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 642,
                 "end": 654,
                 "value": "Promise: 0",
-                "raw": "'Promise: 0'"
+                "raw": "'Promise: 0'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +164,9 @@
             "start": 677,
             "end": 678,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -221,7 +243,9 @@
                 "start": 763,
                 "end": 764,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "body": {
@@ -392,7 +416,9 @@
                           "start": 912,
                           "end": 921,
                           "value": "Await: ",
-                          "raw": "'Await: '"
+                          "raw": "'Await: '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -476,7 +502,9 @@
                   "start": 1016,
                   "end": 1064,
                   "value": "Async/await and promises should be interleaved",
-                  "raw": "'Async/await and promises should be interleaved'"
+                  "raw": "'Async/await and promises should be interleaved'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -548,7 +576,9 @@
                     "start": 1114,
                     "end": 1125,
                     "value": "Promise: ",
-                    "raw": "'Promise: '"
+                    "raw": "'Promise: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -582,7 +612,9 @@
                 "start": 1154,
                 "end": 1155,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -642,7 +674,9 @@
                               "start": 1196,
                               "end": 1197,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -781,7 +815,9 @@
               "start": 1310,
               "end": 1311,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

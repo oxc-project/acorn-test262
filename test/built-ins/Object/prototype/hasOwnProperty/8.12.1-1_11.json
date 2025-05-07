@@ -67,7 +67,9 @@
             "start": 316,
             "end": 321,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 334,
                   "end": 336,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 350,
                   "end": 354,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +142,9 @@
                   "start": 370,
                   "end": 374,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +166,9 @@
                   "start": 392,
                   "end": 396,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -212,7 +222,9 @@
                 "start": 426,
                 "end": 431,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -222,7 +234,9 @@
             "start": 434,
             "end": 468,
             "value": "o.hasOwnProperty(\"foo\") !== true",
-            "raw": "'o.hasOwnProperty(\"foo\") !== true'"
+            "raw": "'o.hasOwnProperty(\"foo\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

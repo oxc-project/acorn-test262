@@ -73,7 +73,9 @@
                 "start": 354,
                 "end": 362,
                 "value": "getDay",
-                "raw": "\"getDay\""
+                "raw": "\"getDay\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 367,
             "end": 371,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 375,
             "end": 433,
             "value": "Date.prototype.hasOwnProperty(\"getDay\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getDay\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"getDay\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

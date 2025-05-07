@@ -28,21 +28,27 @@
                 "start": 482,
                 "end": 483,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 486,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 488,
                 "end": 489,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -89,7 +95,9 @@
             "start": 523,
             "end": 531,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -114,7 +122,9 @@
                   "start": 547,
                   "end": 552,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -163,7 +173,9 @@
             "start": 588,
             "end": 589,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -188,7 +200,9 @@
                   "start": 602,
                   "end": 607,
                   "value": "abc",
-                  "raw": "\"abc\""
+                  "raw": "\"abc\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

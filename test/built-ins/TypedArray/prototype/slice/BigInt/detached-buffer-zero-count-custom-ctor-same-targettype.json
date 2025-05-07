@@ -59,7 +59,9 @@
                         "start": 699,
                         "end": 700,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -335,7 +337,9 @@
                           "start": 909,
                           "end": 910,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -472,14 +476,18 @@
                         "start": 1003,
                         "end": 1004,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1006,
                         "end": 1039,
                         "value": "The value of result.length is 0",
-                        "raw": "'The value of result.length is 0'"
+                        "raw": "'The value of result.length is 0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -556,7 +564,9 @@
                         "start": 1094,
                         "end": 1176,
                         "value": "The value of result.buffer is expected to not equal the value of `sample.buffer`",
-                        "raw": "'The value of result.buffer is expected to not equal the value of `sample.buffer`'"
+                        "raw": "'The value of result.buffer is expected to not equal the value of `sample.buffer`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -607,7 +617,9 @@
                         "start": 1213,
                         "end": 1276,
                         "value": "The value of `result` is expected to equal the value of other",
-                        "raw": "'The value of `result` is expected to equal the value of other'"
+                        "raw": "'The value of `result` is expected to equal the value of other'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -652,14 +664,18 @@
                         "start": 1307,
                         "end": 1308,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1310,
                         "end": 1339,
                         "value": "The value of `counter` is 1",
-                        "raw": "'The value of `counter` is 1'"
+                        "raw": "'The value of `counter` is 1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -696,7 +712,9 @@
                           "start": 1361,
                           "end": 1362,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -782,14 +800,18 @@
                           "start": 1418,
                           "end": 1419,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1421,
                           "end": 1422,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -848,14 +870,18 @@
                         "start": 1473,
                         "end": 1474,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1476,
                         "end": 1509,
                         "value": "The value of result.length is 0",
-                        "raw": "'The value of result.length is 0'"
+                        "raw": "'The value of result.length is 0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -932,7 +958,9 @@
                         "start": 1577,
                         "end": 1659,
                         "value": "The value of result.buffer is expected to not equal the value of `sample.buffer`",
-                        "raw": "'The value of result.buffer is expected to not equal the value of `sample.buffer`'"
+                        "raw": "'The value of result.buffer is expected to not equal the value of `sample.buffer`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -996,7 +1024,9 @@
                         "start": 1708,
                         "end": 1778,
                         "value": "The value of result.constructor is expected to equal the value of TA",
-                        "raw": "'The value of result.constructor is expected to equal the value of TA'"
+                        "raw": "'The value of result.constructor is expected to equal the value of TA'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1041,14 +1071,18 @@
                         "start": 1809,
                         "end": 1810,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1812,
                         "end": 1841,
                         "value": "The value of `counter` is 2",
-                        "raw": "'The value of `counter` is 2'"
+                        "raw": "'The value of `counter` is 2'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 34,
         "raw": "\"./file2\"",
-        "value": "./file2"
+        "value": "./file2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -255,7 +257,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 38,
         "raw": "\"./file3\"",
-        "value": "./file3"
+        "value": "./file3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -285,7 +289,9 @@ __ESTREE_TEST__:PASS:
         "start": 60,
         "end": 69,
         "raw": "\"./file4\"",
-        "value": "./file4"
+        "value": "./file4",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -325,7 +331,9 @@ __ESTREE_TEST__:PASS:
         "start": 90,
         "end": 99,
         "raw": "\"./file3\"",
-        "value": "./file3"
+        "value": "./file3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -355,7 +363,9 @@ __ESTREE_TEST__:PASS:
         "start": 120,
         "end": 129,
         "raw": "\"./file3\"",
-        "value": "./file3"
+        "value": "./file3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -508,7 +518,9 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 26,
               "raw": "\"youpi\"",
-              "value": "youpi"
+              "value": "youpi",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -575,7 +587,9 @@ __ESTREE_TEST__:PASS:
               "start": 20,
               "end": 23,
               "raw": "\"v\"",
-              "value": "v"
+              "value": "v",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

@@ -69,14 +69,18 @@
             "start": 762,
             "end": 767,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 822,
             "value": "isConstructor(Object.fromEntries) must return false",
-            "raw": "'isConstructor(Object.fromEntries) must return false'"
+            "raw": "'isConstructor(Object.fromEntries) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

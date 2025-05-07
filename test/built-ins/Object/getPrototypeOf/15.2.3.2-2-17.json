@@ -75,7 +75,9 @@
             "start": 326,
             "end": 359,
             "value": "Object.getPrototypeOf(URIError)",
-            "raw": "'Object.getPrototypeOf(URIError)'"
+            "raw": "'Object.getPrototypeOf(URIError)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

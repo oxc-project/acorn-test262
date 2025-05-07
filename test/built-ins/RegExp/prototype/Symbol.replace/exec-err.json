@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -191,14 +192,18 @@
                         "start": 835,
                         "end": 837,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 839,
                         "end": 841,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

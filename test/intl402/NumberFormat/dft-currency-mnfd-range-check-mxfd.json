@@ -76,7 +76,9 @@
                         "start": 422,
                         "end": 426,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -101,7 +103,9 @@
                               "start": 441,
                               "end": 451,
                               "value": "currency",
-                              "raw": "'currency'"
+                              "raw": "'currency'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -123,7 +127,9 @@
                               "start": 467,
                               "end": 472,
                               "value": "USD",
-                              "raw": "'USD'"
+                              "raw": "'USD'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -145,7 +151,9 @@
                               "start": 501,
                               "end": 502,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -180,7 +188,9 @@
             "start": 548,
             "end": 549,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +269,9 @@
                         "start": 593,
                         "end": 597,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -284,7 +296,9 @@
                               "start": 612,
                               "end": 622,
                               "value": "currency",
-                              "raw": "'currency'"
+                              "raw": "'currency'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -306,7 +320,9 @@
                               "start": 638,
                               "end": 643,
                               "value": "CLF",
-                              "raw": "'CLF'"
+                              "raw": "'CLF'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -328,7 +344,9 @@
                               "start": 672,
                               "end": 673,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -363,7 +381,9 @@
             "start": 719,
             "end": 720,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,28 +34,36 @@
                 "start": 402,
                 "end": 406,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 412,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 415,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 431,
                 "value": "NumberFormat",
-                "raw": "'NumberFormat'"
+                "raw": "'NumberFormat'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -168,7 +176,9 @@
                   "start": 524,
                   "end": 532,
                   "value": "format",
-                  "raw": "'format'"
+                  "raw": "'format'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -58,7 +58,9 @@ __ESTREE_TEST__:PASS:
                         "start": 43,
                         "end": 50,
                         "raw": "\"inner\"",
-                        "value": "inner"
+                        "value": "inner",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -116,7 +118,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 30,
         "raw": "\"./other.js\"",
-        "value": "./other.js"
+        "value": "./other.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -168,7 +172,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 36,
         "raw": "\"./private.js\"",
-        "value": "./private.js"
+        "value": "./private.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -65,7 +65,9 @@
                             "start": 985,
                             "end": 987,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -108,7 +110,9 @@
                             "start": 1009,
                             "end": 1018,
                             "value": "test262",
-                            "raw": "'test262'"
+                            "raw": "'test262'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -266,7 +270,9 @@
             "start": 1105,
             "end": 1107,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -354,7 +360,9 @@
                   "start": 1161,
                   "end": 1164,
                   "value": "m",
-                  "raw": "\"m\""
+                  "raw": "\"m\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -365,7 +373,9 @@
             "start": 1169,
             "end": 1224,
             "value": "m doesn't appear as an own property on the C instance",
-            "raw": "\"m doesn't appear as an own property on the C instance\""
+            "raw": "\"m doesn't appear as an own property on the C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,7 +476,9 @@
                   "start": 1289,
                   "end": 1292,
                   "value": "m",
-                  "raw": "\"m\""
+                  "raw": "\"m\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -477,7 +489,9 @@
             "start": 1297,
             "end": 1353,
             "value": "m doesn't appear as an own property on the C prototype",
-            "raw": "\"m doesn't appear as an own property on the C prototype\""
+            "raw": "\"m doesn't appear as an own property on the C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -509,7 +523,9 @@
             "start": 1376,
             "end": 1379,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -534,7 +550,9 @@
                   "start": 1397,
                   "end": 1402,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -556,7 +574,9 @@
                   "start": 1420,
                   "end": 1424,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -578,7 +598,9 @@
                   "start": 1438,
                   "end": 1442,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -647,7 +669,9 @@
             "start": 1478,
             "end": 1487,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

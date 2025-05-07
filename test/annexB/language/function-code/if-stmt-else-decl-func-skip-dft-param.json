@@ -71,7 +71,9 @@
                   "start": 1248,
                   "end": 1251,
                   "value": 123,
-                  "raw": "123"
+                  "raw": "123",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -112,7 +114,9 @@
                     "start": 1274,
                     "end": 1279,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "EmptyStatement",
@@ -211,14 +215,18 @@
             "start": 1350,
             "end": 1353,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1355,
             "end": 1398,
             "value": "binding is not initialized to `undefined`",
-            "raw": "'binding is not initialized to `undefined`'"
+            "raw": "'binding is not initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,14 +271,18 @@
             "start": 1425,
             "end": 1428,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1430,
             "end": 1473,
             "value": "value is not updated following evaluation",
-            "raw": "'value is not updated following evaluation'"
+            "raw": "'value is not updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

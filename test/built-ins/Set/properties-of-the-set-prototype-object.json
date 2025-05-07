@@ -101,7 +101,9 @@
             "start": 599,
             "end": 666,
             "value": "`Object.getPrototypeOf(Set.prototype)` returns `Object.prototype`",
-            "raw": "\"`Object.getPrototypeOf(Set.prototype)` returns `Object.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(Set.prototype)` returns `Object.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

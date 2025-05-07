@@ -52,7 +52,9 @@
                     "start": 342,
                     "end": 345,
                     "value": "a",
-                    "raw": "'a'"
+                    "raw": "'a'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -106,7 +108,9 @@
                           "start": 384,
                           "end": 387,
                           "value": "b",
-                          "raw": "'b'"
+                          "raw": "'b'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -172,7 +176,9 @@
                             "start": 421,
                             "end": 424,
                             "value": "c",
-                            "raw": "'c'"
+                            "raw": "'c'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -235,7 +241,9 @@
                         "start": 462,
                         "end": 465,
                         "value": "d",
-                        "raw": "'d'"
+                        "raw": "'d'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -337,7 +345,9 @@
                       "start": 522,
                       "end": 572,
                       "value": "The promise should be rejected, but was resolved",
-                      "raw": "'The promise should be rejected, but was resolved'"
+                      "raw": "'The promise should be rejected, but was resolved'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -517,7 +527,9 @@
                                 "start": 695,
                                 "end": 697,
                                 "value": "",
-                                "raw": "''"
+                                "raw": "''",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -527,7 +539,9 @@
                             "start": 700,
                             "end": 706,
                             "value": "abcd",
-                            "raw": "'abcd'"
+                            "raw": "'abcd'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

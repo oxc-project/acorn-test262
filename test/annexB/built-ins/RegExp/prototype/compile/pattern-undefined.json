@@ -47,7 +47,8 @@
           "regex": {
             "pattern": "abc",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       }
     },
@@ -116,7 +117,9 @@
             "start": 688,
             "end": 723,
             "value": "method return value (unspecified)",
-            "raw": "'method return value (unspecified)'"
+            "raw": "'method return value (unspecified)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +192,9 @@
                   "start": 774,
                   "end": 776,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -207,7 +212,9 @@
             "start": 786,
             "end": 820,
             "value": "[[OriginalSource]] (unspecified)",
-            "raw": "'[[OriginalSource]] (unspecified)'"
+            "raw": "'[[OriginalSource]] (unspecified)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -270,7 +277,9 @@
                 "start": 857,
                 "end": 859,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -280,14 +289,18 @@
             "start": 862,
             "end": 866,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 868,
             "end": 915,
             "value": "[[RegExpMatcher]] internal slot (unspecified)",
-            "raw": "'[[RegExpMatcher]] internal slot (unspecified)'"
+            "raw": "'[[RegExpMatcher]] internal slot (unspecified)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -317,7 +330,8 @@
           "regex": {
             "pattern": "abc",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       }
     },
@@ -393,7 +407,9 @@
             "start": 998,
             "end": 1040,
             "value": "method return value (explicit undefined)",
-            "raw": "'method return value (explicit undefined)'"
+            "raw": "'method return value (explicit undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,7 +482,9 @@
                   "start": 1093,
                   "end": 1095,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -484,7 +502,9 @@
             "start": 1107,
             "end": 1148,
             "value": "[[OriginalSource]] (explicit undefined)",
-            "raw": "'[[OriginalSource]] (explicit undefined)'"
+            "raw": "'[[OriginalSource]] (explicit undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -547,7 +567,9 @@
                 "start": 1185,
                 "end": 1187,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -557,14 +579,18 @@
             "start": 1192,
             "end": 1196,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1200,
             "end": 1254,
             "value": "[[RegExpMatcher]] internal slot (explicit undefined)",
-            "raw": "'[[RegExpMatcher]] internal slot (explicit undefined)'"
+            "raw": "'[[RegExpMatcher]] internal slot (explicit undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

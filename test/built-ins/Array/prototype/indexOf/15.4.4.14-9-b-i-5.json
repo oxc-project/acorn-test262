@@ -55,7 +55,9 @@
             "start": 374,
             "end": 377,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -98,7 +100,9 @@
                           "start": 412,
                           "end": 417,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -124,7 +128,9 @@
                   "start": 440,
                   "end": 444,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -180,7 +186,9 @@
                     "start": 468,
                     "end": 472,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -199,7 +207,9 @@
                 "start": 482,
                 "end": 486,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -209,14 +219,18 @@
             "start": 489,
             "end": 490,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 514,
             "value": "[true].indexOf(true)",
-            "raw": "'[true].indexOf(true)'"
+            "raw": "'[true].indexOf(true)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

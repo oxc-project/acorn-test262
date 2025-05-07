@@ -173,35 +173,45 @@
               "start": 421,
               "end": 424,
               "value": "1",
-              "raw": "'1'"
+              "raw": "'1'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 426,
               "end": 427,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 429,
               "end": 430,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 432,
               "end": 433,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 435,
               "end": 436,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -286,14 +296,18 @@
             "start": 483,
             "end": 490,
             "value": "12345",
-            "raw": "\"12345\""
+            "raw": "\"12345\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 518,
             "value": "o.arr.reduce(callbackfn)",
-            "raw": "'o.arr.reduce(callbackfn)'"
+            "raw": "'o.arr.reduce(callbackfn)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,7 +370,9 @@
                 "start": 555,
                 "end": 560,
                 "value": "arr",
-                "raw": "\"arr\""
+                "raw": "\"arr\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -366,14 +382,18 @@
             "start": 563,
             "end": 568,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 595,
             "value": "o.hasOwnProperty(\"arr\")",
-            "raw": "'o.hasOwnProperty(\"arr\")'"
+            "raw": "'o.hasOwnProperty(\"arr\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

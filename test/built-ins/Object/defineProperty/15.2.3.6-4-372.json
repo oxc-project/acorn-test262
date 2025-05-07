@@ -67,7 +67,9 @@
             "start": 411,
             "end": 417,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 430,
                   "end": 434,
                   "value": 2010,
-                  "raw": "2010"
+                  "raw": "2010",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 448,
                   "end": 453,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +142,9 @@
                   "start": 469,
                   "end": 474,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +166,9 @@
                   "start": 492,
                   "end": 496,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -212,7 +222,9 @@
                 "start": 548,
                 "end": 554,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -271,7 +283,9 @@
                 "start": 606,
                 "end": 612,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -319,7 +333,9 @@
             "start": 643,
             "end": 649,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -344,7 +360,9 @@
                   "start": 667,
                   "end": 671,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -404,7 +422,9 @@
                 "start": 725,
                 "end": 731,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -439,7 +459,9 @@
             "start": 765,
             "end": 797,
             "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "raw": "'propertyDefineCorrect !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,14 +519,18 @@
             "start": 835,
             "end": 840,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 842,
             "end": 860,
             "value": "desc1.enumerable",
-            "raw": "'desc1.enumerable'"
+            "raw": "'desc1.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -562,14 +588,18 @@
             "start": 890,
             "end": 894,
             "value": 2010,
-            "raw": "2010"
+            "raw": "2010",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 896,
             "end": 906,
             "value": "obj.prop",
-            "raw": "'obj.prop'"
+            "raw": "'obj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -627,14 +657,18 @@
             "start": 944,
             "end": 948,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 968,
             "value": "desc2.enumerable",
-            "raw": "'desc2.enumerable'"
+            "raw": "'desc2.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

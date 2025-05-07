@@ -23,7 +23,9 @@
             "start": 1471,
             "end": 1472,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1492,
             "end": 1493,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -221,7 +225,9 @@
                             "start": 1653,
                             "end": 1654,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -252,7 +258,9 @@
                                 "start": 1675,
                                 "end": 1679,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -311,7 +319,9 @@
                             "start": 1730,
                             "end": 1731,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -476,7 +486,9 @@
                         "start": 1917,
                         "end": 1918,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "AssignmentExpression",
@@ -572,7 +584,9 @@
             "start": 1986,
             "end": 1987,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,7 +631,9 @@
             "start": 2020,
             "end": 2021,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -109,7 +109,9 @@
                 "start": 1032,
                 "end": 1038,
                 "value": "done",
-                "raw": "'done'"
+                "raw": "'done'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",

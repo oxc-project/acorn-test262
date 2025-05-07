@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 27,
         "raw": "'./foo'",
-        "value": "./foo"
+        "value": "./foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

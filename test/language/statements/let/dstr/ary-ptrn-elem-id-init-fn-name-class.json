@@ -189,7 +189,9 @@
             "start": 1409,
             "end": 1414,
             "value": "cls",
-            "raw": "'cls'"
+            "raw": "'cls'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,7 +249,9 @@
             "start": 1448,
             "end": 1454,
             "value": "xCls",
-            "raw": "'xCls'"
+            "raw": "'xCls'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -305,7 +309,9 @@
             "start": 1489,
             "end": 1496,
             "value": "xCls2",
-            "raw": "'xCls2'"
+            "raw": "'xCls2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

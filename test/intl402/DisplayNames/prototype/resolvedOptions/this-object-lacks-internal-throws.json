@@ -180,7 +180,9 @@
             "start": 711,
             "end": 772,
             "value": "Intl.DisplayNames.prototype does not have the internal slot",
-            "raw": "'Intl.DisplayNames.prototype does not have the internal slot'"
+            "raw": "'Intl.DisplayNames.prototype does not have the internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,7 +282,9 @@
             "start": 845,
             "end": 862,
             "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "raw": "'ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,7 +397,9 @@
             "start": 950,
             "end": 1001,
             "value": "Intl.DisplayNames does not have the internal slot",
-            "raw": "'Intl.DisplayNames does not have the internal slot'"
+            "raw": "'Intl.DisplayNames does not have the internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -493,7 +499,9 @@
             "start": 1076,
             "end": 1114,
             "value": "Intl does not have the internal slot",
-            "raw": "'Intl does not have the internal slot'"
+            "raw": "'Intl does not have the internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -637,7 +645,9 @@
             "start": 1249,
             "end": 1322,
             "value": "resolvedOptions cannot be used with instances from different Intl ctors",
-            "raw": "'resolvedOptions cannot be used with instances from different Intl ctors'"
+            "raw": "'resolvedOptions cannot be used with instances from different Intl ctors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

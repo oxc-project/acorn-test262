@@ -40,7 +40,9 @@
             "start": 731,
             "end": 735,
             "value": "-0",
-            "raw": "\"-0\""
+            "raw": "\"-0\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -50,7 +52,9 @@
           "start": 739,
           "end": 748,
           "value": "test262",
-          "raw": "\"test262\""
+          "raw": "\"test262\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -121,7 +125,9 @@
                             "start": 825,
                             "end": 826,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -192,7 +198,9 @@
                             "start": 869,
                             "end": 873,
                             "value": "-0",
-                            "raw": "\"-0\""
+                            "raw": "\"-0\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -202,14 +210,18 @@
                         "start": 876,
                         "end": 881,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 883,
                         "end": 928,
                         "value": "Reflect.has(sample, \"-0\") must return false",
-                        "raw": "'Reflect.has(sample, \"-0\") must return false'"
+                        "raw": "'Reflect.has(sample, \"-0\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

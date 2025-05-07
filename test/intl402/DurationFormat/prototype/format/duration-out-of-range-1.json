@@ -72,21 +72,27 @@
                 "start": 790,
                 "end": 797,
                 "value": "years",
-                "raw": "\"years\""
+                "raw": "\"years\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 809,
                 "value": "months",
-                "raw": "\"months\""
+                "raw": "\"months\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 813,
                 "end": 820,
                 "value": "weeks",
-                "raw": "\"weeks\""
+                "raw": "\"weeks\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -123,7 +129,9 @@
                   "start": 852,
                   "end": 853,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "**",
                 "right": {
@@ -131,7 +139,9 @@
                   "start": 855,
                   "end": 857,
                   "value": 32,
-                  "raw": "32"
+                  "raw": "32",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -147,7 +157,9 @@
                     "start": 861,
                     "end": 862,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -155,7 +167,9 @@
                     "start": 864,
                     "end": 866,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -164,7 +178,9 @@
                   "start": 869,
                   "end": 870,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -244,7 +260,9 @@
                     "start": 947,
                     "end": 948,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -252,7 +270,9 @@
                     "start": 950,
                     "end": 952,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "-",
@@ -261,7 +281,9 @@
                   "start": 955,
                   "end": 956,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -873,7 +895,9 @@
                         "start": 1663,
                         "end": 1671,
                         "value": "string",
-                        "raw": "\"string\""
+                        "raw": "\"string\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",
@@ -1057,7 +1081,9 @@
                         "start": 1880,
                         "end": 1888,
                         "value": "string",
-                        "raw": "\"string\""
+                        "raw": "\"string\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

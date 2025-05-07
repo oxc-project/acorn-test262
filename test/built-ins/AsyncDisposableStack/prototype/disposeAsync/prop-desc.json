@@ -75,7 +75,9 @@
             "start": 672,
             "end": 682,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -120,7 +122,9 @@
             "start": 733,
             "end": 747,
             "value": "disposeAsync",
-            "raw": "'disposeAsync'"
+            "raw": "'disposeAsync'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -145,7 +149,9 @@
                   "start": 765,
                   "end": 770,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -167,7 +173,9 @@
                   "start": 784,
                   "end": 788,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -189,7 +197,9 @@
                   "start": 806,
                   "end": 810,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

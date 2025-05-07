@@ -59,7 +59,9 @@
                           "start": 1721,
                           "end": 1735,
                           "value": "custom error",
-                          "raw": "'custom error'"
+                          "raw": "'custom error'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -82,7 +84,9 @@
         "start": 1752,
         "end": 1756,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -191,7 +195,9 @@
                                   "start": 1820,
                                   "end": 1834,
                                   "value": "custom error",
-                                  "raw": "'custom error'"
+                                  "raw": "'custom error'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

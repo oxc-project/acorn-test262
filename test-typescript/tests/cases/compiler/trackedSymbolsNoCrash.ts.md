@@ -14692,7 +14692,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 28,
         "raw": "\"./ast\"",
-        "value": "./ast"
+        "value": "./ast",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

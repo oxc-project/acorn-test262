@@ -48,6 +48,7 @@
                 "end": 386,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 388,
                 "end": 393,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -96,14 +99,18 @@
             "start": 439,
             "end": 453,
             "value": "roundingMode",
-            "raw": "\"roundingMode\""
+            "raw": "\"roundingMode\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 462,
             "value": "trunc",
-            "raw": "\"trunc\""
+            "raw": "\"trunc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -168,7 +175,9 @@
                         "start": 518,
                         "end": 531,
                         "value": "microsecond",
-                        "raw": "\"microsecond\""
+                        "raw": "\"microsecond\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -256,7 +265,9 @@
                   "start": 596,
                   "end": 635,
                   "value": "2001-09-09T01:46:40.123987+00:00[UTC]",
-                  "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\""
+                  "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

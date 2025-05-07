@@ -34,28 +34,36 @@
                 "start": 1191,
                 "end": 1195,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1199,
                 "end": 1201,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1205,
                 "end": 1210,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1214,
                 "end": 1218,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -75,7 +83,9 @@
                 "start": 1234,
                 "end": 1242,
                 "value": "string",
-                "raw": "'string'"
+                "raw": "'string'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -266,7 +276,9 @@
                                       "start": 1421,
                                       "end": 1432,
                                       "value": "prototype",
-                                      "raw": "'prototype'"
+                                      "raw": "'prototype'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "consequent": {

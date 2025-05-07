@@ -34,7 +34,9 @@
                 "start": 292,
                 "end": 296,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -47,7 +49,9 @@
                   "start": 303,
                   "end": 304,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -108,14 +112,18 @@
             "start": 338,
             "end": 344,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 397,
             "value": "The value of __re.source is expected to be \"null\"",
-            "raw": "'The value of __re.source is expected to be \"null\"'"
+            "raw": "'The value of __re.source is expected to be \"null\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,14 +181,18 @@
             "start": 433,
             "end": 438,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 493,
             "value": "The value of __re.multiline is expected to be false",
-            "raw": "'The value of __re.multiline is expected to be false'"
+            "raw": "'The value of __re.multiline is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,14 +250,18 @@
             "start": 526,
             "end": 531,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 583,
             "value": "The value of __re.global is expected to be false",
-            "raw": "'The value of __re.global is expected to be false'"
+            "raw": "'The value of __re.global is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,14 +319,18 @@
             "start": 620,
             "end": 625,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 681,
             "value": "The value of __re.ignoreCase is expected to be false",
-            "raw": "'The value of __re.ignoreCase is expected to be false'"
+            "raw": "'The value of __re.ignoreCase is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

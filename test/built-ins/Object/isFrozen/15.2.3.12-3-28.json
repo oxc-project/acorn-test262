@@ -67,7 +67,9 @@
             "start": 361,
             "end": 367,
             "value": "foo1",
-            "raw": "\"foo1\""
+            "raw": "\"foo1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 380,
                   "end": 382,
                   "value": 20,
-                  "raw": "20"
+                  "raw": "20",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 396,
                   "end": 401,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +142,9 @@
                   "start": 417,
                   "end": 422,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +166,9 @@
                   "start": 440,
                   "end": 445,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -196,7 +206,9 @@
               "start": 483,
               "end": 485,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -262,7 +274,9 @@
             "start": 541,
             "end": 547,
             "value": "foo2",
-            "raw": "\"foo2\""
+            "raw": "\"foo2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -329,7 +343,9 @@
                   "start": 601,
                   "end": 606,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -430,7 +446,9 @@
             "start": 673,
             "end": 704,
             "value": "Object.isFrozen(obj) !== true",
-            "raw": "'Object.isFrozen(obj) !== true'"
+            "raw": "'Object.isFrozen(obj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

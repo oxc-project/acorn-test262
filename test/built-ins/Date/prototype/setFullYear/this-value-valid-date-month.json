@@ -34,14 +34,18 @@
                 "start": 806,
                 "end": 810,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 812,
                 "end": 813,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,14 +129,18 @@
               "start": 875,
               "end": 879,
               "value": 2016,
-              "raw": "2016"
+              "raw": "2016",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 881,
               "end": 882,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -178,14 +186,18 @@
                   "start": 906,
                   "end": 910,
                   "value": 2016,
-                  "raw": "2016"
+                  "raw": "2016",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 912,
                   "end": 913,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -248,7 +260,9 @@
             "start": 969,
             "end": 1012,
             "value": "month within unit boundary (return value)",
-            "raw": "'month within unit boundary (return value)'"
+            "raw": "'month within unit boundary (return value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +333,9 @@
             "start": 1062,
             "end": 1111,
             "value": "month within unit boundary ([[DateValue]] slot)",
-            "raw": "'month within unit boundary ([[DateValue]] slot)'"
+            "raw": "'month within unit boundary ([[DateValue]] slot)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +385,9 @@
               "start": 1147,
               "end": 1151,
               "value": 2016,
-              "raw": "2016"
+              "raw": "2016",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "UnaryExpression",
@@ -382,7 +400,9 @@
                 "start": 1154,
                 "end": 1155,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -429,14 +449,18 @@
                   "start": 1179,
                   "end": 1183,
                   "value": 2015,
-                  "raw": "2015"
+                  "raw": "2015",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1185,
                   "end": 1187,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -499,7 +523,9 @@
             "start": 1243,
             "end": 1291,
             "value": "month before time unit boundary (return value)",
-            "raw": "'month before time unit boundary (return value)'"
+            "raw": "'month before time unit boundary (return value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -570,7 +596,9 @@
             "start": 1345,
             "end": 1399,
             "value": "month before time unit boundary ([[DateValue]] slot)",
-            "raw": "'month before time unit boundary ([[DateValue]] slot)'"
+            "raw": "'month before time unit boundary ([[DateValue]] slot)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,14 +648,18 @@
               "start": 1435,
               "end": 1439,
               "value": 2016,
-              "raw": "2016"
+              "raw": "2016",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1441,
               "end": 1443,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -673,14 +705,18 @@
                   "start": 1467,
                   "end": 1471,
                   "value": 2017,
-                  "raw": "2017"
+                  "raw": "2017",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1473,
                   "end": 1474,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -743,7 +779,9 @@
             "start": 1530,
             "end": 1577,
             "value": "month after time unit boundary (return value)",
-            "raw": "'month after time unit boundary (return value)'"
+            "raw": "'month after time unit boundary (return value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -814,7 +852,9 @@
             "start": 1631,
             "end": 1684,
             "value": "month after time unit boundary ([[DateValue]] slot)",
-            "raw": "'month after time unit boundary ([[DateValue]] slot)'"
+            "raw": "'month after time unit boundary ([[DateValue]] slot)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

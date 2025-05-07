@@ -35,7 +35,9 @@
                   "start": 729,
                   "end": 732,
                   "value": "2",
-                  "raw": "\"2\""
+                  "raw": "\"2\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "CallExpression",
@@ -53,7 +55,9 @@
                       "start": 741,
                       "end": 744,
                       "value": "1",
-                      "raw": "\"1\""
+                      "raw": "\"1\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -78,7 +82,9 @@
                   "start": 757,
                   "end": 758,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

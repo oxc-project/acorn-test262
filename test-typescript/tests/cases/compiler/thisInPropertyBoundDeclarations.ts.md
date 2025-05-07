@@ -994,7 +994,9 @@ __ESTREE_TEST__:PASS:
                     "start": 789,
                     "end": 793,
                     "raw": "'  '",
-                    "value": "  "
+                    "value": "  ",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "FunctionExpression",
@@ -1021,7 +1023,9 @@ __ESTREE_TEST__:PASS:
                   "start": 825,
                   "end": 828,
                   "raw": "' '",
-                  "value": " "
+                  "value": " ",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "right": {

@@ -23,7 +23,9 @@
             "start": 2184,
             "end": 2185,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -118,7 +120,9 @@
                           "start": 2243,
                           "end": 2245,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -155,7 +159,9 @@
                           "start": 2276,
                           "end": 2277,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -200,14 +206,18 @@
             "start": 2295,
             "end": 2297,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2299,
             "end": 2301,
             "value": 39,
-            "raw": "39"
+            "raw": "39",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,14 +300,18 @@
             "start": 2402,
             "end": 2403,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2405,
             "end": 2434,
             "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "raw": "'method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -355,14 +369,18 @@
             "start": 2467,
             "end": 2468,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2470,
             "end": 2494,
             "value": "length is properly set",
-            "raw": "'length is properly set'"
+            "raw": "'length is properly set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

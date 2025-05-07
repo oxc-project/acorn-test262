@@ -35,7 +35,9 @@
                   "start": 521,
                   "end": 524,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
@@ -43,6 +45,7 @@
                   "end": 529,
                   "value": null,
                   "raw": "42n",
+                  "regex": null,
                   "bigint": "42"
                 },
                 "kind": "init"
@@ -65,7 +68,9 @@
                   "start": 541,
                   "end": 542,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

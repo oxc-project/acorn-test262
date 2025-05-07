@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 30,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       },
       "superTypeArguments": null,
       "typeParameters": null

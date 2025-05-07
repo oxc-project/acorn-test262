@@ -195,7 +195,9 @@
                               "start": 1044,
                               "end": 1053,
                               "value": "test262",
-                              "raw": "'test262'"
+                              "raw": "'test262'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -350,7 +352,9 @@
             "start": 1145,
             "end": 1154,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,7 +454,9 @@
             "start": 1218,
             "end": 1277,
             "value": "accessed inner class method from an object of outer class",
-            "raw": "'accessed inner class method from an object of outer class'"
+            "raw": "'accessed inner class method from an object of outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

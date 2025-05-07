@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
                 "start": 38,
                 "end": 39,
                 "raw": "5",
-                "value": 5
+                "value": 5,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -177,7 +179,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 32,
         "raw": "'./bug24934'",
-        "value": "./bug24934"
+        "value": "./bug24934",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -221,21 +225,27 @@ __ESTREE_TEST__:PASS:
             "start": 38,
             "end": 39,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 41,
             "end": 42,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 44,
             "end": 45,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

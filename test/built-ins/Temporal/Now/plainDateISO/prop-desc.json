@@ -75,14 +75,18 @@
             "start": 336,
             "end": 346,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 368,
             "value": "typeof is function",
-            "raw": "\"typeof is function\""
+            "raw": "\"typeof is function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 401,
             "end": 415,
             "value": "plainDateISO",
-            "raw": "\"plainDateISO\""
+            "raw": "\"plainDateISO\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 433,
                   "end": 438,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 452,
                   "end": 456,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 474,
                   "end": 478,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

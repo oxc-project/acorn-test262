@@ -106,7 +106,9 @@
                                   "start": 1228,
                                   "end": 1234,
                                   "value": "prop",
-                                  "raw": "'prop'"
+                                  "raw": "'prop'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }

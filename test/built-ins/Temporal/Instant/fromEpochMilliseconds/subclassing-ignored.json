@@ -55,7 +55,9 @@
             "start": 380,
             "end": 403,
             "value": "fromEpochMilliseconds",
-            "raw": "\"fromEpochMilliseconds\""
+            "raw": "\"fromEpochMilliseconds\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -67,7 +69,9 @@
                 "start": 408,
                 "end": 410,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -145,6 +149,7 @@
                         "end": 486,
                         "value": null,
                         "raw": "10_000_000n",
+                        "regex": null,
                         "bigint": "10000000"
                       },
                       {
@@ -152,7 +157,9 @@
                         "start": 488,
                         "end": 513,
                         "value": "epochNanoseconds result",
-                        "raw": "\"epochNanoseconds result\""
+                        "raw": "\"epochNanoseconds result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

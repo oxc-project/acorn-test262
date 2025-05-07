@@ -23,7 +23,9 @@
             "start": 307,
             "end": 355,
             "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]",
-            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\""
+            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -146,14 +148,18 @@
             "start": 443,
             "end": 451,
             "value": "+01:35",
-            "raw": "\"+01:35\""
+            "raw": "\"+01:35\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 500,
             "value": "ISO offset, sub-minute offset trailing-zeroes",
-            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\""
+            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +185,9 @@
           "start": 510,
           "end": 571,
           "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]",
-          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\""
+          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -278,7 +286,9 @@
             "start": 646,
             "end": 712,
             "value": "Trailing zeroes not allowed for sub-minute time zone identifiers",
-            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\""
+            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

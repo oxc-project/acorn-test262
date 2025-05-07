@@ -233,7 +233,9 @@
                                 "start": 1657,
                                 "end": 1666,
                                 "value": "getThis",
-                                "raw": "'getThis'"
+                                "raw": "'getThis'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -272,7 +274,9 @@
                               "start": 1693,
                               "end": 1699,
                               "value": "This",
-                              "raw": "'This'"
+                              "raw": "'This'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -410,7 +414,9 @@
             "start": 1792,
             "end": 1812,
             "value": "via CallExpression",
-            "raw": "'via CallExpression'"
+            "raw": "'via CallExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +467,9 @@
             "start": 1848,
             "end": 1870,
             "value": "via MemberExpression",
-            "raw": "'via MemberExpression'"
+            "raw": "'via MemberExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

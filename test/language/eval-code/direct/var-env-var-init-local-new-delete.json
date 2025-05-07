@@ -23,7 +23,9 @@
             "start": 842,
             "end": 846,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -95,7 +97,9 @@
                         "start": 888,
                         "end": 953,
                         "value": "initial = x; delete x; postDeletion = function() { x; }; var x;",
-                        "raw": "'initial = x; delete x; postDeletion = function() { x; }; var x;'"
+                        "raw": "'initial = x; delete x; postDeletion = function() { x; }; var x;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

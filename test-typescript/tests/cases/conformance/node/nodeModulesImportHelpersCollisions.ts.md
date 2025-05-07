@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 48,
         "end": 52,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -87,7 +89,9 @@ __ESTREE_TEST__:PASS:
         "start": 88,
         "end": 92,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -160,7 +164,9 @@ __ESTREE_TEST__:PASS:
         "start": 48,
         "end": 52,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -231,7 +237,9 @@ __ESTREE_TEST__:PASS:
         "start": 88,
         "end": 92,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -305,7 +313,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -337,7 +347,9 @@ __ESTREE_TEST__:PASS:
         "start": 36,
         "end": 43,
         "raw": "\"tslib\"",
-        "value": "tslib"
+        "value": "tslib",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

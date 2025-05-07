@@ -66,7 +66,9 @@
                 "start": 499,
                 "end": 507,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -114,7 +116,9 @@
             "start": 551,
             "end": 559,
             "value": "caller",
-            "raw": "\"caller\""
+            "raw": "\"caller\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -139,7 +143,9 @@
                   "start": 577,
                   "end": 582,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -161,7 +167,9 @@
                   "start": 598,
                   "end": 602,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -190,7 +198,9 @@
                   "start": 619,
                   "end": 623,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -259,14 +269,18 @@
             "start": 670,
             "end": 680,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 684,
             "end": 731,
             "value": "Function.prototype.caller has function getter",
-            "raw": "\"Function.prototype.caller has function getter\""
+            "raw": "\"Function.prototype.caller has function getter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,14 +345,18 @@
             "start": 774,
             "end": 784,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 788,
             "end": 835,
             "value": "Function.prototype.caller has function setter",
-            "raw": "\"Function.prototype.caller has function setter\""
+            "raw": "\"Function.prototype.caller has function setter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -415,7 +433,9 @@
             "start": 889,
             "end": 942,
             "value": "Caller property getter/setter are the same function",
-            "raw": "\"Caller property getter/setter are the same function\""
+            "raw": "\"Caller property getter/setter are the same function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -523,7 +543,9 @@
                       "start": 1041,
                       "end": 1059,
                       "value": "%ThrowTypeError%",
-                      "raw": "\"%ThrowTypeError%\""
+                      "raw": "\"%ThrowTypeError%\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -651,7 +673,9 @@
                   "start": 1179,
                   "end": 1233,
                   "value": "Function.prototype.caller getter is %ThrowTypeError%",
-                  "raw": "\"Function.prototype.caller getter is %ThrowTypeError%\""
+                  "raw": "\"Function.prototype.caller getter is %ThrowTypeError%\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

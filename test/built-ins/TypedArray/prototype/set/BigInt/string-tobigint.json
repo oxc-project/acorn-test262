@@ -70,7 +70,9 @@
                             "start": 1697,
                             "end": 1698,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -116,14 +118,18 @@
                             "start": 1719,
                             "end": 1721,
                             "value": "",
-                            "raw": "''"
+                            "raw": "''",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1723,
                             "end": 1726,
                             "value": "1",
-                            "raw": "'1'"
+                            "raw": "'1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -174,7 +180,9 @@
                           "start": 1760,
                           "end": 1761,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -185,6 +193,7 @@
                         "end": 1766,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -234,7 +243,9 @@
                           "start": 1799,
                           "end": 1800,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -245,6 +256,7 @@
                         "end": 1805,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     ],
@@ -337,7 +349,9 @@
                                         "start": 1871,
                                         "end": 1875,
                                         "value": "1n",
-                                        "raw": "'1n'"
+                                        "raw": "'1n'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -353,7 +367,9 @@
                         "start": 1884,
                         "end": 1947,
                         "value": "A StringNumericLiteral may not include a BigIntLiteralSuffix.",
-                        "raw": "\"A StringNumericLiteral may not include a BigIntLiteralSuffix.\""
+                        "raw": "\"A StringNumericLiteral may not include a BigIntLiteralSuffix.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -445,7 +461,9 @@
                                         "start": 2013,
                                         "end": 2023,
                                         "value": "Infinity",
-                                        "raw": "\"Infinity\""
+                                        "raw": "\"Infinity\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -461,7 +479,9 @@
                         "start": 2032,
                         "end": 2125,
                         "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow Infinity..",
-                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow Infinity..\""
+                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow Infinity..\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -553,7 +573,9 @@
                                         "start": 2191,
                                         "end": 2196,
                                         "value": "1.1",
-                                        "raw": "\"1.1\""
+                                        "raw": "\"1.1\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -569,7 +591,9 @@
                         "start": 2205,
                         "end": 2308,
                         "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... decimal points...",
-                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... decimal points...\""
+                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... decimal points...\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -661,7 +685,9 @@
                                         "start": 2374,
                                         "end": 2379,
                                         "value": "1e7",
-                                        "raw": "\"1e7\""
+                                        "raw": "\"1e7\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -677,7 +703,9 @@
                         "start": 2388,
                         "end": 2486,
                         "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... exponents...",
-                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... exponents...\""
+                        "raw": "\"Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... exponents...\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

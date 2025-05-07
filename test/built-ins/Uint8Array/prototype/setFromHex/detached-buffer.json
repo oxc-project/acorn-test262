@@ -39,21 +39,27 @@
                     "start": 361,
                     "end": 364,
                     "value": 255,
-                    "raw": "255"
+                    "raw": "255",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 366,
                     "end": 369,
                     "value": 255,
-                    "raw": "255"
+                    "raw": "255",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 371,
                     "end": 374,
                     "value": 255,
-                    "raw": "255"
+                    "raw": "255",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -182,7 +188,9 @@
                         "start": 466,
                         "end": 470,
                         "value": "aa",
-                        "raw": "'aa'"
+                        "raw": "'aa'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -62,6 +62,7 @@
               "end": 653,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           }
@@ -165,7 +166,9 @@
                     "start": 718,
                     "end": 726,
                     "value": "number",
-                    "raw": "'number'"
+                    "raw": "'number'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "&&",
@@ -189,7 +192,9 @@
                       "start": 736,
                       "end": 737,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "===",
@@ -198,7 +203,9 @@
                     "start": 742,
                     "end": 743,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -414,7 +421,9 @@
                   "start": 944,
                   "end": 952,
                   "value": "bigint",
-                  "raw": "'bigint'"
+                  "raw": "'bigint'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -581,7 +590,9 @@
             "start": 1078,
             "end": 1116,
             "value": "{\"tooBigForNumber\":9007199254740993}",
-            "raw": "'{\"tooBigForNumber\":9007199254740993}'"
+            "raw": "'{\"tooBigForNumber\":9007199254740993}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

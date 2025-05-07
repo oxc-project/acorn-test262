@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 120,
         "end": 127,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -165,7 +167,9 @@ __ESTREE_TEST__:PASS:
                 "start": 223,
                 "end": 228,
                 "raw": "false",
-                "value": false
+                "value": false,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -341,7 +345,9 @@ __ESTREE_TEST__:PASS:
                 "start": 313,
                 "end": 318,
                 "raw": "false",
-                "value": false
+                "value": false,
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -479,7 +485,9 @@ __ESTREE_TEST__:PASS:
                         "start": 451,
                         "end": 456,
                         "raw": "false",
-                        "value": false
+                        "value": false,
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "right": {
@@ -487,7 +495,9 @@ __ESTREE_TEST__:PASS:
                       "start": 460,
                       "end": 465,
                       "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -511,14 +521,18 @@ __ESTREE_TEST__:PASS:
                       "start": 493,
                       "end": 500,
                       "raw": "\"false\"",
-                      "value": "false"
+                      "value": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "consequent": {
                       "type": "Literal",
                       "start": 484,
                       "end": 490,
                       "raw": "\"true\"",
-                      "value": "true"
+                      "value": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "test": {
                       "type": "MemberExpression",
@@ -783,7 +797,9 @@ __ESTREE_TEST__:PASS:
                   "start": 599,
                   "end": 604,
                   "raw": "false",
-                  "value": false
+                  "value": false,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "right": {

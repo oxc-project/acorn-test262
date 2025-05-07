@@ -106,7 +106,9 @@
                         "start": 376,
                         "end": 378,
                         "value": 11,
-                        "raw": "11"
+                        "raw": "11",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -128,7 +130,9 @@
                         "start": 385,
                         "end": 387,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -150,7 +154,9 @@
                         "start": 399,
                         "end": 408,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -165,7 +171,9 @@
             "start": 413,
             "end": 451,
             "value": "month, day with non-iso8601 calendar",
-            "raw": "\"month, day with non-iso8601 calendar\""
+            "raw": "\"month, day with non-iso8601 calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

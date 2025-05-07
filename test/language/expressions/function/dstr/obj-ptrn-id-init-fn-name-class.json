@@ -23,7 +23,9 @@
             "start": 1776,
             "end": 1777,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -291,7 +293,9 @@
                       "start": 1905,
                       "end": 1910,
                       "value": "cls",
-                      "raw": "'cls'"
+                      "raw": "'cls'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -349,7 +353,9 @@
                       "start": 1946,
                       "end": 1952,
                       "value": "xCls",
-                      "raw": "'xCls'"
+                      "raw": "'xCls'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -407,7 +413,9 @@
                       "start": 1989,
                       "end": 1996,
                       "value": "xCls2",
-                      "raw": "'xCls2'"
+                      "raw": "'xCls2'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -444,7 +452,9 @@
                       "start": 2025,
                       "end": 2026,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -518,14 +528,18 @@
             "start": 2067,
             "end": 2068,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2070,
             "end": 2101,
             "value": "function invoked exactly once",
-            "raw": "'function invoked exactly once'"
+            "raw": "'function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

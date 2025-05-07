@@ -107,14 +107,18 @@
             "start": 330,
             "end": 335,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 372,
             "value": "`s.has(Symbol())` returns `false`",
-            "raw": "\"`s.has(Symbol())` returns `false`\""
+            "raw": "\"`s.has(Symbol())` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

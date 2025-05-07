@@ -21,7 +21,9 @@
               "start": 383,
               "end": 392,
               "value": "catchme",
-              "raw": "\"catchme\""
+              "raw": "\"catchme\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -33,7 +35,9 @@
               "start": 403,
               "end": 416,
               "value": "dontcatchme",
-              "raw": "\"dontcatchme\""
+              "raw": "\"dontcatchme\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -56,7 +60,9 @@
                   "start": 443,
                   "end": 493,
                   "value": "#1.1: throw \"catchme\" lead to throwing exception",
-                  "raw": "'#1.1: throw \"catchme\" lead to throwing exception'"
+                  "raw": "'#1.1: throw \"catchme\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -98,7 +104,9 @@
                   "start": 519,
                   "end": 532,
                   "value": "dontcatchme",
-                  "raw": "\"dontcatchme\""
+                  "raw": "\"dontcatchme\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -126,7 +134,9 @@
                           "start": 562,
                           "end": 597,
                           "value": "#1.2: Exception !== \"dontcatchme\"",
-                          "raw": "'#1.2: Exception !== \"dontcatchme\"'"
+                          "raw": "'#1.2: Exception !== \"dontcatchme\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -155,7 +165,9 @@
                   "start": 614,
                   "end": 623,
                   "value": "catchme",
-                  "raw": "\"catchme\""
+                  "raw": "\"catchme\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -187,7 +199,9 @@
                             "start": 654,
                             "end": 709,
                             "value": "#1.3: Exception === \"catchme\". Actual:  Exception ===",
-                            "raw": "'#1.3: Exception === \"catchme\". Actual:  Exception ==='"
+                            "raw": "'#1.3: Exception === \"catchme\". Actual:  Exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -255,7 +269,9 @@
                   "start": 779,
                   "end": 780,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -306,7 +322,9 @@
                               "start": 843,
                               "end": 844,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -333,7 +351,9 @@
                         "start": 822,
                         "end": 823,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -361,7 +381,9 @@
                               "start": 915,
                               "end": 917,
                               "value": 64,
-                              "raw": "64"
+                              "raw": "64",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -374,7 +396,9 @@
                             "start": 933,
                             "end": 937,
                             "value": "ex",
-                            "raw": "\"ex\""
+                            "raw": "\"ex\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -383,7 +407,9 @@
                         "start": 894,
                         "end": 895,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -444,7 +470,9 @@
                             "start": 996,
                             "end": 997,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -469,7 +497,9 @@
                             "start": 1005,
                             "end": 1006,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -498,7 +528,9 @@
                               "start": 1032,
                               "end": 1065,
                               "value": "#2.1: Exception === 4. Actual: ",
-                              "raw": "'#2.1: Exception === 4. Actual: '"
+                              "raw": "'#2.1: Exception === 4. Actual: '",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -541,7 +573,9 @@
                             "start": 1087,
                             "end": 1088,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -566,7 +600,9 @@
                             "start": 1096,
                             "end": 1100,
                             "value": "ex",
-                            "raw": "\"ex\""
+                            "raw": "\"ex\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -595,7 +631,9 @@
                               "start": 1125,
                               "end": 1161,
                               "value": "#2.2: Exception === \"ex\". Actual: ",
-                              "raw": "'#2.2: Exception === \"ex\". Actual: '"
+                              "raw": "'#2.2: Exception === \"ex\". Actual: '",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -659,7 +697,9 @@
               "start": 1222,
               "end": 1223,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -670,7 +710,9 @@
           "start": 1227,
           "end": 1228,
           "value": 4,
-          "raw": "4"
+          "raw": "4",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -693,7 +735,9 @@
               "start": 1253,
               "end": 1294,
               "value": "#2.3: \"finally\" block must be evaluated",
-              "raw": "'#2.3: \"finally\" block must be evaluated'"
+              "raw": "'#2.3: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -724,7 +768,9 @@
               "start": 1313,
               "end": 1314,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -735,7 +781,9 @@
           "start": 1318,
           "end": 1320,
           "value": 64,
-          "raw": "64"
+          "raw": "64",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -758,7 +806,9 @@
               "start": 1344,
               "end": 1385,
               "value": "#2.4: \"finally\" block must be evaluated",
-              "raw": "'#2.4: \"finally\" block must be evaluated'"
+              "raw": "'#2.4: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }

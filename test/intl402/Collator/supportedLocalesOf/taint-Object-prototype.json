@@ -42,7 +42,9 @@
             "start": 358,
             "end": 361,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -81,7 +83,9 @@
             "start": 382,
             "end": 387,
             "value": "und",
-            "raw": "\"und\""
+            "raw": "\"und\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

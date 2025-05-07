@@ -23,7 +23,9 @@
             "start": 874,
             "end": 878,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -273,7 +275,9 @@
             "start": 1092,
             "end": 1116,
             "value": "\"resolve\" return value",
-            "raw": "'\"resolve\" return value'"
+            "raw": "'\"resolve\" return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +379,9 @@
                               "start": 1182,
                               "end": 1240,
                               "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "raw": "'The promise should be fulfilled with the provided value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -446,7 +452,9 @@
                         "start": 1295,
                         "end": 1332,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

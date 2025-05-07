@@ -43,7 +43,9 @@
             "start": 756,
             "end": 772,
             "value": "string literal",
-            "raw": "'string literal'"
+            "raw": "'string literal'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

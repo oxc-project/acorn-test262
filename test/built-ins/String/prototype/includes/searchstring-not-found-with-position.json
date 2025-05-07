@@ -23,7 +23,9 @@
             "start": 855,
             "end": 876,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "raw": "'The future is cool!'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,14 +88,18 @@
                 "start": 912,
                 "end": 924,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 926,
                 "end": 927,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -103,14 +109,18 @@
             "start": 930,
             "end": 935,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 939,
             "end": 987,
             "value": "Returns false on str.includes(\"The future\", 1)",
-            "raw": "'Returns false on str.includes(\"The future\", 1)'"
+            "raw": "'Returns false on str.includes(\"The future\", 1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +189,9 @@
                 "start": 1030,
                 "end": 1031,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -189,14 +201,18 @@
             "start": 1034,
             "end": 1039,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1082,
             "value": "Returns false on str.includes(str, 1)",
-            "raw": "'Returns false on str.includes(str, 1)'"
+            "raw": "'Returns false on str.includes(str, 1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

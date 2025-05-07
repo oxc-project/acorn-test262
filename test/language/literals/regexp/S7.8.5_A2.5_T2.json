@@ -36,7 +36,9 @@
                     "start": 532,
                     "end": 545,
                     "value": "/a\\\n/",
-                    "raw": "\"/a\\\\\\u000A/\""
+                    "raw": "\"/a\\\\\\u000A/\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -75,7 +77,9 @@
                     "start": 581,
                     "end": 669,
                     "value": "#1.1: RegularExpressionChar :: BackslashSequence :: \\Line Feed is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionChar :: BackslashSequence :: \\\\Line Feed is incorrect. Actual: '"
+                    "raw": "'#1.1: RegularExpressionChar :: BackslashSequence :: \\\\Line Feed is incorrect. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +106,9 @@
                             "start": 678,
                             "end": 691,
                             "value": "/a\\\n/",
-                            "raw": "\"/a\\\\\\u000A/\""
+                            "raw": "\"/a\\\\\\u000A/\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -175,7 +181,9 @@
                   "start": 754,
                   "end": 758,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -207,7 +215,9 @@
                             "start": 790,
                             "end": 878,
                             "value": "#1.2: RegularExpressionChar :: BackslashSequence :: \\Line Feed is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionChar :: BackslashSequence :: \\\\Line Feed is incorrect. Actual: '"
+                            "raw": "'#1.2: RegularExpressionChar :: BackslashSequence :: \\\\Line Feed is incorrect. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

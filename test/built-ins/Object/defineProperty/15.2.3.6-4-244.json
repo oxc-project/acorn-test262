@@ -67,7 +67,9 @@
             "start": 632,
             "end": 635,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 651,
                   "end": 656,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 674,
                   "end": 679,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -172,7 +178,9 @@
                   "start": 723,
                   "end": 726,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -197,7 +205,9 @@
                         "start": 744,
                         "end": 748,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -227,7 +237,9 @@
                   "start": 780,
                   "end": 804,
                   "value": "Expected an exception.",
-                  "raw": "\"Expected an exception.\""
+                  "raw": "\"Expected an exception.\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -312,7 +324,9 @@
                             "start": 883,
                             "end": 909,
                             "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "raw": "\"Expected TypeError, got \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -360,7 +374,9 @@
             "start": 946,
             "end": 949,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -406,7 +422,9 @@
                   "start": 985,
                   "end": 990,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -428,7 +446,9 @@
                   "start": 1006,
                   "end": 1011,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -450,7 +470,9 @@
                   "start": 1029,
                   "end": 1034,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

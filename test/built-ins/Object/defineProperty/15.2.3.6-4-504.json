@@ -66,7 +66,9 @@
                     "start": 415,
                     "end": 419,
                     "value": 1001,
-                    "raw": "1001"
+                    "raw": "1001",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -115,7 +117,9 @@
             "start": 452,
             "end": 458,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -182,7 +186,9 @@
                   "start": 510,
                   "end": 514,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -204,7 +210,9 @@
                   "start": 532,
                   "end": 537,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -258,7 +266,9 @@
                 "start": 590,
                 "end": 596,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -317,7 +327,9 @@
                 "start": 647,
                 "end": 653,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -352,7 +364,9 @@
             "start": 687,
             "end": 719,
             "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "raw": "'propertyDefineCorrect !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -417,14 +431,18 @@
             "start": 756,
             "end": 767,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 786,
             "value": "typeof desc.set",
-            "raw": "'typeof desc.set'"
+            "raw": "'typeof desc.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

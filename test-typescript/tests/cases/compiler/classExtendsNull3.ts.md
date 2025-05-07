@@ -102,7 +102,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 21,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       },
       "superTypeArguments": null,
       "typeParameters": null
@@ -204,7 +206,9 @@ __ESTREE_TEST__:PASS:
         "start": 84,
         "end": 88,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       },
       "superTypeArguments": null,
       "typeParameters": null

@@ -590,7 +590,9 @@ __ESTREE_TEST__:PASS:
                   "start": 369,
                   "end": 383,
                   "raw": "\"Unreachable!\"",
-                  "value": "Unreachable!"
+                  "value": "Unreachable!",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

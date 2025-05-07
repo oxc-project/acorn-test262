@@ -212,7 +212,9 @@ __ESTREE_TEST__:PASS:
         "start": 83,
         "end": 100,
         "raw": "'replace-in-file'",
-        "value": "replace-in-file"
+        "value": "replace-in-file",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

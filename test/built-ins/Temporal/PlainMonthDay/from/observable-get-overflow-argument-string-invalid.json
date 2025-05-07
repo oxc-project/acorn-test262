@@ -96,7 +96,9 @@
                       "start": 419,
                       "end": 430,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -107,7 +109,9 @@
                 "start": 434,
                 "end": 443,
                 "value": "options",
-                "raw": "\"options\""
+                "raw": "\"options\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -201,7 +205,9 @@
                   "start": 507,
                   "end": 514,
                   "value": "13-34",
-                  "raw": "\"13-34\""
+                  "raw": "\"13-34\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -262,7 +268,9 @@
             "start": 559,
             "end": 594,
             "value": "options read after string parsing",
-            "raw": "\"options read after string parsing\""
+            "raw": "\"options read after string parsing\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

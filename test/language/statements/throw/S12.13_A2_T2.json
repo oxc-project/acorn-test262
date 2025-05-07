@@ -21,7 +21,9 @@
               "start": 325,
               "end": 329,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -61,7 +63,9 @@
                   "start": 353,
                   "end": 357,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -88,7 +92,9 @@
                         "start": 382,
                         "end": 430,
                         "value": "#1: Exception === null. Actual:  Exception ===",
-                        "raw": "'#1: Exception === null. Actual:  Exception ==='"
+                        "raw": "'#1: Exception === null. Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

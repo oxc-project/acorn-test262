@@ -47,21 +47,27 @@
                 "start": 334,
                 "end": 338,
                 "value": 1976,
-                "raw": "1976"
+                "raw": "1976",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 342,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 346,
                 "value": 18,
-                "raw": "18"
+                "raw": "18",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -104,56 +110,72 @@
             "start": 377,
             "end": 389,
             "value": "2020-01-01",
-            "raw": "\"2020-01-01\""
+            "raw": "\"2020-01-01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 419,
             "value": "2020-01-01[u-ca=iso8601]",
-            "raw": "\"2020-01-01[u-ca=iso8601]\""
+            "raw": "\"2020-01-01[u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 454,
             "value": "2020-01-01T00:00:00.000000000",
-            "raw": "\"2020-01-01T00:00:00.000000000\""
+            "raw": "\"2020-01-01T00:00:00.000000000\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 458,
             "end": 503,
             "value": "2020-01-01T00:00:00.000000000[u-ca=iso8601]",
-            "raw": "\"2020-01-01T00:00:00.000000000[u-ca=iso8601]\""
+            "raw": "\"2020-01-01T00:00:00.000000000[u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 514,
             "value": "01-01",
-            "raw": "\"01-01\""
+            "raw": "\"01-01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 539,
             "value": "01-01[u-ca=iso8601]",
-            "raw": "\"01-01[u-ca=iso8601]\""
+            "raw": "\"01-01[u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 543,
             "end": 552,
             "value": "2020-01",
-            "raw": "\"2020-01\""
+            "raw": "\"2020-01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 579,
             "value": "2020-01[u-ca=iso8601]",
-            "raw": "\"2020-01[u-ca=iso8601]\""
+            "raw": "\"2020-01[u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -200,7 +222,9 @@
                         "start": 608,
                         "end": 612,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -222,7 +246,9 @@
                         "start": 625,
                         "end": 630,
                         "value": "M11",
-                        "raw": "\"M11\""
+                        "raw": "\"M11\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -244,7 +270,9 @@
                         "start": 637,
                         "end": 639,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -366,7 +394,9 @@
                   "start": 719,
                   "end": 723,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",

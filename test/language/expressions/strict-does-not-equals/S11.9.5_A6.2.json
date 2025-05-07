@@ -16,7 +16,9 @@
           "start": 260,
           "end": 264,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -24,7 +26,9 @@
           "start": 269,
           "end": 273,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -52,7 +56,9 @@
                   "start": 302,
                   "end": 321,
                   "value": "#1: null === null",
-                  "raw": "'#1: null === null'"
+                  "raw": "'#1: null === null'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

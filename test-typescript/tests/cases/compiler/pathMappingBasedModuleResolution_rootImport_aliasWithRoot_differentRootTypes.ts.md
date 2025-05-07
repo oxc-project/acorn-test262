@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 34,
         "raw": "\"/foo\"",
-        "value": "/foo"
+        "value": "/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -152,7 +154,9 @@ __ESTREE_TEST__:PASS:
         "start": 64,
         "end": 70,
         "raw": "\"/bar\"",
-        "value": "/bar"
+        "value": "/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -192,7 +196,9 @@ __ESTREE_TEST__:PASS:
         "start": 100,
         "end": 108,
         "raw": "\"c:/foo\"",
-        "value": "c:/foo"
+        "value": "c:/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -232,7 +238,9 @@ __ESTREE_TEST__:PASS:
         "start": 138,
         "end": 146,
         "raw": "\"c:/bar\"",
-        "value": "c:/bar"
+        "value": "c:/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -272,7 +280,9 @@ __ESTREE_TEST__:PASS:
         "start": 176,
         "end": 185,
         "raw": "\"c:\\\\foo\"",
-        "value": "c:\\foo"
+        "value": "c:\\foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -312,7 +322,9 @@ __ESTREE_TEST__:PASS:
         "start": 215,
         "end": 224,
         "raw": "\"c:\\\\bar\"",
-        "value": "c:\\bar"
+        "value": "c:\\bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -352,7 +364,9 @@ __ESTREE_TEST__:PASS:
         "start": 254,
         "end": 268,
         "raw": "\"//server/foo\"",
-        "value": "//server/foo"
+        "value": "//server/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -392,7 +406,9 @@ __ESTREE_TEST__:PASS:
         "start": 298,
         "end": 312,
         "raw": "\"//server/bar\"",
-        "value": "//server/bar"
+        "value": "//server/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -432,7 +448,9 @@ __ESTREE_TEST__:PASS:
         "start": 342,
         "end": 359,
         "raw": "\"\\\\\\\\server\\\\foo\"",
-        "value": "\\\\server\\foo"
+        "value": "\\\\server\\foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -472,7 +490,9 @@ __ESTREE_TEST__:PASS:
         "start": 389,
         "end": 406,
         "raw": "\"\\\\\\\\server\\\\bar\"",
-        "value": "\\\\server\\bar"
+        "value": "\\\\server\\bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -512,7 +532,9 @@ __ESTREE_TEST__:PASS:
         "start": 436,
         "end": 449,
         "raw": "\"file:///foo\"",
-        "value": "file:///foo"
+        "value": "file:///foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -552,7 +574,9 @@ __ESTREE_TEST__:PASS:
         "start": 479,
         "end": 492,
         "raw": "\"file:///bar\"",
-        "value": "file:///bar"
+        "value": "file:///bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -592,7 +616,9 @@ __ESTREE_TEST__:PASS:
         "start": 522,
         "end": 537,
         "raw": "\"file://c:/foo\"",
-        "value": "file://c:/foo"
+        "value": "file://c:/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -632,7 +658,9 @@ __ESTREE_TEST__:PASS:
         "start": 567,
         "end": 582,
         "raw": "\"file://c:/bar\"",
-        "value": "file://c:/bar"
+        "value": "file://c:/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -672,7 +700,9 @@ __ESTREE_TEST__:PASS:
         "start": 612,
         "end": 631,
         "raw": "\"file://server/foo\"",
-        "value": "file://server/foo"
+        "value": "file://server/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -712,7 +742,9 @@ __ESTREE_TEST__:PASS:
         "start": 661,
         "end": 680,
         "raw": "\"file://server/bar\"",
-        "value": "file://server/bar"
+        "value": "file://server/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -752,7 +784,9 @@ __ESTREE_TEST__:PASS:
         "start": 710,
         "end": 729,
         "raw": "\"http://server/foo\"",
-        "value": "http://server/foo"
+        "value": "http://server/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -792,7 +826,9 @@ __ESTREE_TEST__:PASS:
         "start": 759,
         "end": 778,
         "raw": "\"http://server/bar\"",
-        "value": "http://server/bar"
+        "value": "http://server/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

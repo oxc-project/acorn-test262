@@ -23,7 +23,9 @@
             "start": 274,
             "end": 279,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 332,
                 "end": 336,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -111,7 +115,9 @@
                 "start": 353,
                 "end": 355,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -150,14 +156,18 @@
                   "start": 374,
                   "end": 375,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 377,
                   "end": 379,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -179,7 +189,9 @@
                   "start": 391,
                   "end": 401,
                   "value": 4294967296,
-                  "raw": "4294967296"
+                  "raw": "4294967296",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -274,7 +286,9 @@
             "start": 457,
             "end": 510,
             "value": "Array.prototype.some.call(obj, callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(obj, callbackfn) !== true'"
+            "raw": "'Array.prototype.some.call(obj, callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -306,7 +320,9 @@
             "start": 530,
             "end": 549,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

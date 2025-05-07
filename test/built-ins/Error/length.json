@@ -34,7 +34,9 @@
                 "start": 259,
                 "end": 264,
                 "value": "err",
-                "raw": "\"err\""
+                "raw": "\"err\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 309,
             "end": 310,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 312,
             "end": 355,
             "value": "The value of err1.constructor.length is 1",
-            "raw": "'The value of err1.constructor.length is 1'"
+            "raw": "'The value of err1.constructor.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -186,14 +192,18 @@
             "start": 401,
             "end": 402,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 448,
             "value": "The value of Error.constructor.length is 1",
-            "raw": "'The value of Error.constructor.length is 1'"
+            "raw": "'The value of Error.constructor.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

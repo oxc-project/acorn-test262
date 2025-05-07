@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 21,
               "end": 27,
               "raw": "\"@a/b\"",
-              "value": "@a/b"
+              "value": "@a/b",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init",
             "method": false,
@@ -35,7 +37,9 @@ __ESTREE_TEST__:PASS:
               "start": 29,
               "end": 36,
               "raw": "\"1.0.0\"",
-              "value": "1.0.0"
+              "value": "1.0.0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -48,7 +52,9 @@ __ESTREE_TEST__:PASS:
               "start": 42,
               "end": 48,
               "raw": "\"@a/c\"",
-              "value": "@a/c"
+              "value": "@a/c",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init",
             "method": false,
@@ -59,7 +65,9 @@ __ESTREE_TEST__:PASS:
               "start": 50,
               "end": 57,
               "raw": "\"1.2.3\"",
-              "value": "1.2.3"
+              "value": "1.2.3",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -89,7 +97,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 43,
         "raw": "'./versions.static.js'",
-        "value": "./versions.static.js"
+        "value": "./versions.static.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

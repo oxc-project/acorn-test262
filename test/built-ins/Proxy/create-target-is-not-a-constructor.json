@@ -118,14 +118,18 @@
             "start": 862,
             "end": 867,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 869,
             "end": 909,
             "value": "isConstructor(proxy) must return false",
-            "raw": "'isConstructor(proxy) must return false'"
+            "raw": "'isConstructor(proxy) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

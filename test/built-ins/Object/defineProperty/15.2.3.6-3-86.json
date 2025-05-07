@@ -133,7 +133,9 @@
           "start": 438,
           "end": 442,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -176,7 +178,9 @@
             "start": 472,
             "end": 482,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -232,7 +236,9 @@
                 "start": 533,
                 "end": 543,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -316,7 +322,9 @@
                 "start": 607,
                 "end": 617,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -364,14 +372,18 @@
             "start": 653,
             "end": 657,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 659,
             "end": 674,
             "value": "beforeDeleted",
-            "raw": "'beforeDeleted'"
+            "raw": "'beforeDeleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -416,14 +428,18 @@
             "start": 708,
             "end": 713,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 729,
             "value": "afterDeleted",
-            "raw": "'afterDeleted'"
+            "raw": "'afterDeleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

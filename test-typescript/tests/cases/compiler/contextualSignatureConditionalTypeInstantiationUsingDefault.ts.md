@@ -30,7 +30,9 @@ __ESTREE_TEST__:PASS:
                 "start": 54,
                 "end": 72,
                 "raw": "\"@@xstate/typegen\"",
-                "value": "@@xstate/typegen"
+                "value": "@@xstate/typegen",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,
@@ -48,7 +50,9 @@ __ESTREE_TEST__:PASS:
                     "start": 74,
                     "end": 79,
                     "raw": "false",
-                    "value": false
+                    "value": false,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -97,7 +101,9 @@ __ESTREE_TEST__:PASS:
                 "start": 119,
                 "end": 137,
                 "raw": "\"@@xstate/typegen\"",
-                "value": "@@xstate/typegen"
+                "value": "@@xstate/typegen",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,
@@ -115,7 +121,9 @@ __ESTREE_TEST__:PASS:
                     "start": 139,
                     "end": 143,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -486,7 +494,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 459,
                                 "end": 465,
                                 "raw": "\"test\"",
-                                "value": "test"
+                                "value": "test",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }

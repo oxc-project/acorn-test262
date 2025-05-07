@@ -34,7 +34,9 @@
                 "start": 308,
                 "end": 407,
                 "value": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
-                "raw": "\" !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\""
+                "raw": "\" !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -66,7 +68,9 @@
               "start": 513,
               "end": 514,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -84,7 +88,9 @@
               "start": 520,
               "end": 526,
               "value": 32,
-              "raw": "0x0020"
+              "raw": "0x0020",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -106,7 +112,9 @@
           "start": 532,
           "end": 538,
           "value": 126,
-          "raw": "0x007e"
+          "raw": "0x007e",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -228,7 +236,9 @@
                       "start": 606,
                       "end": 607,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -246,7 +256,9 @@
                   "start": 614,
                   "end": 615,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -303,7 +315,9 @@
                                       "start": 646,
                                       "end": 649,
                                       "value": "#",
-                                      "raw": "'#'"
+                                      "raw": "'#'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -326,7 +340,9 @@
                                           "start": 657,
                                           "end": 663,
                                           "value": 32,
-                                          "raw": "0x0020"
+                                          "raw": "0x0020",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -337,7 +353,9 @@
                                     "start": 667,
                                     "end": 712,
                                     "value": ": TEST_STRING.indexOf( String.fromCharCode(",
-                                    "raw": "': TEST_STRING.indexOf( String.fromCharCode('"
+                                    "raw": "': TEST_STRING.indexOf( String.fromCharCode('",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -354,7 +372,9 @@
                                 "start": 719,
                                 "end": 724,
                                 "value": "), ",
-                                "raw": "'), '"
+                                "raw": "'), '",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -378,7 +398,9 @@
                                   "start": 732,
                                   "end": 733,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -389,7 +411,9 @@
                             "start": 737,
                             "end": 756,
                             "value": " )===-1. Actual: ",
-                            "raw": "' )===-1. Actual: '"
+                            "raw": "' )===-1. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -466,7 +490,9 @@
                                 "start": 807,
                                 "end": 808,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],

@@ -82,14 +82,18 @@
             "start": 762,
             "end": 767,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 771,
             "end": 827,
             "value": "isConstructor(WeakMap.prototype.set) must return false",
-            "raw": "'isConstructor(WeakMap.prototype.set) must return false'"
+            "raw": "'isConstructor(WeakMap.prototype.set) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +217,9 @@
                         "start": 906,
                         "end": 907,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -2380,7 +2380,9 @@ __ESTREE_TEST__:PASS:
                               "start": 1971,
                               "end": 1972,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {
@@ -2405,7 +2407,9 @@ __ESTREE_TEST__:PASS:
                               "start": 1996,
                               "end": 1999,
                               "raw": "'2'",
-                              "value": "2"
+                              "value": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {
@@ -2430,7 +2434,9 @@ __ESTREE_TEST__:PASS:
                               "start": 2023,
                               "end": 2027,
                               "raw": "true",
-                              "value": true
+                              "value": true,
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {

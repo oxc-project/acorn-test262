@@ -354,7 +354,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 30,
         "raw": "'./func'",
-        "value": "./func"
+        "value": "./func",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -504,7 +506,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 124,
                                         "end": 125,
                                         "raw": "1",
-                                        "value": 1
+                                        "value": 1,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   }

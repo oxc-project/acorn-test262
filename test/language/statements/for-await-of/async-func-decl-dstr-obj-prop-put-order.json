@@ -43,7 +43,9 @@
             "start": 1224,
             "end": 1225,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -150,7 +152,9 @@
                         "start": 1286,
                         "end": 1287,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -172,7 +176,9 @@
                         "start": 1292,
                         "end": 1293,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -224,7 +230,9 @@
                         "start": 1324,
                         "end": 1325,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -250,7 +258,9 @@
                       "start": 1345,
                       "end": 1346,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -372,14 +382,18 @@
                       "start": 1426,
                       "end": 1427,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1429,
                       "end": 1461,
                       "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "raw": "'iteration occurred as expected'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

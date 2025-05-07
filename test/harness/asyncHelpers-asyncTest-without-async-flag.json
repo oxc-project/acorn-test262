@@ -91,7 +91,9 @@
                                 "start": 430,
                                 "end": 455,
                                 "value": "Should not be evaluated",
-                                "raw": "\"Should not be evaluated\""
+                                "raw": "\"Should not be evaluated\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -163,7 +165,9 @@
                   "start": 509,
                   "end": 516,
                   "value": "$DONE",
-                  "raw": "\"$DONE\""
+                  "raw": "\"$DONE\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -174,7 +178,9 @@
             "start": 521,
             "end": 572,
             "value": "Without 'async' flag, $DONE should not be defined",
-            "raw": "\"Without 'async' flag, $DONE should not be defined\""
+            "raw": "\"Without 'async' flag, $DONE should not be defined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

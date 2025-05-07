@@ -120,7 +120,9 @@
                           "start": 435,
                           "end": 446,
                           "value": "undefined",
-                          "raw": "\"undefined\""
+                          "raw": "\"undefined\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     },
@@ -156,7 +158,9 @@
                           "start": 468,
                           "end": 479,
                           "value": "undefined",
-                          "raw": "\"undefined\""
+                          "raw": "\"undefined\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -207,7 +211,9 @@
               "start": 508,
               "end": 537,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

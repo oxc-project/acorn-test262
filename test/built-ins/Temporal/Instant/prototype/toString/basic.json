@@ -48,6 +48,7 @@
                 "end": 319,
                 "value": null,
                 "raw": "217175010_123_456_789n",
+                "regex": null,
                 "bigint": "217175010123456789"
               }
             ]
@@ -115,14 +116,18 @@
             "start": 362,
             "end": 394,
             "value": "1976-11-18T14:23:30.123456789Z",
-            "raw": "\"1976-11-18T14:23:30.123456789Z\""
+            "raw": "\"1976-11-18T14:23:30.123456789Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 426,
             "value": "basic toString() after epoch",
-            "raw": "\"basic toString() after epoch\""
+            "raw": "\"basic toString() after epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,6 +184,7 @@
                   "end": 494,
                   "value": null,
                   "raw": "217175010_876_543_211n",
+                  "regex": null,
                   "bigint": "217175010876543211"
                 }
               }
@@ -247,14 +253,18 @@
             "start": 538,
             "end": 570,
             "value": "1963-02-13T09:36:29.123456789Z",
-            "raw": "\"1963-02-13T09:36:29.123456789Z\""
+            "raw": "\"1963-02-13T09:36:29.123456789Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 572,
             "end": 603,
             "value": "basic toString() before epoch",
-            "raw": "\"basic toString() before epoch\""
+            "raw": "\"basic toString() before epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

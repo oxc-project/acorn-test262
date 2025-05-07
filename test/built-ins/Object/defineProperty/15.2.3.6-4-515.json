@@ -66,7 +66,9 @@
                     "start": 385,
                     "end": 389,
                     "value": 1001,
-                    "raw": "1001"
+                    "raw": "1001",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -115,7 +117,9 @@
             "start": 422,
             "end": 428,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -182,7 +186,9 @@
                   "start": 480,
                   "end": 485,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -204,7 +210,9 @@
                   "start": 503,
                   "end": 507,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -258,7 +266,9 @@
                 "start": 560,
                 "end": 566,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -317,7 +327,9 @@
                 "start": 617,
                 "end": 623,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -383,7 +395,9 @@
             "start": 675,
             "end": 707,
             "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "raw": "'propertyDefineCorrect !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -441,14 +455,18 @@
             "start": 746,
             "end": 750,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 752,
             "end": 771,
             "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "raw": "'desc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,7 +529,9 @@
                 "start": 810,
                 "end": 816,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -521,14 +541,18 @@
             "start": 819,
             "end": 824,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 854,
             "value": "obj.hasOwnProperty(\"prop\")",
-            "raw": "'obj.hasOwnProperty(\"prop\")'"
+            "raw": "'obj.hasOwnProperty(\"prop\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

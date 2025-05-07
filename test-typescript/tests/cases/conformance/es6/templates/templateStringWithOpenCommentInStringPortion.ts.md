@@ -20,14 +20,18 @@ __ESTREE_TEST__:PASS:
             "start": 14,
             "end": 16,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 39,
             "end": 41,
             "raw": "20",
-            "value": 20
+            "value": 20,
+            "regex": null,
+            "bigint": null
           }
         ],
         "quasis": [

@@ -48,6 +48,7 @@
                 "end": 310,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -227,7 +228,9 @@
                         "start": 429,
                         "end": 430,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -249,7 +252,9 @@
                         "start": 448,
                         "end": 454,
                         "value": "ceil",
-                        "raw": "\"ceil\""
+                        "raw": "\"ceil\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

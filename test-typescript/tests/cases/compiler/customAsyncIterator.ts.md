@@ -148,7 +148,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 295,
                                 "end": 352,
                                 "raw": "\"ConstantIterator.prototype.next may not take any values\"",
-                                "value": "ConstantIterator.prototype.next may not take any values"
+                                "value": "ConstantIterator.prototype.next may not take any values",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -184,7 +186,9 @@ __ESTREE_TEST__:PASS:
                         "start": 259,
                         "end": 263,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -260,7 +264,9 @@ __ESTREE_TEST__:PASS:
                             "start": 410,
                             "end": 415,
                             "raw": "false",
-                            "value": false
+                            "value": false,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

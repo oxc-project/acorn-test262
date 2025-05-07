@@ -166,7 +166,9 @@ __ESTREE_TEST__:PASS:
                             "start": 109,
                             "end": 113,
                             "raw": "\"x=\"",
-                            "value": "x="
+                            "value": "x=",
+                            "regex": null,
+                            "bigint": null
                           },
                           "right": {
                             "type": "MemberExpression",
@@ -195,7 +197,9 @@ __ESTREE_TEST__:PASS:
                           "start": 125,
                           "end": 130,
                           "raw": "\" y=\"",
-                          "value": " y="
+                          "value": " y=",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {
@@ -482,7 +486,9 @@ __ESTREE_TEST__:PASS:
                           "start": 331,
                           "end": 340,
                           "raw": "\" color=\"",
-                          "value": " color="
+                          "value": " color=",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {

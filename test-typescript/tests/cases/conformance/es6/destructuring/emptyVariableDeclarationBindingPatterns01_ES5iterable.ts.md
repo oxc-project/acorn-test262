@@ -764,7 +764,9 @@ __ESTREE_TEST__:PASS:
                   "start": 339,
                   "end": 344,
                   "raw": "false",
-                  "value": false
+                  "value": false,
+                  "regex": null,
+                  "bigint": null
                 },
                 "update": {
                   "type": "UnaryExpression",
@@ -775,7 +777,9 @@ __ESTREE_TEST__:PASS:
                     "start": 351,
                     "end": 352,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "void",
                   "prefix": true

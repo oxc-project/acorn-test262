@@ -42,7 +42,9 @@
                   "start": 396,
                   "end": 441,
                   "value": "The overriden version of Object was called!",
-                  "raw": "'The overriden version of Object was called!'"
+                  "raw": "'The overriden version of Object was called!'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -253,7 +255,9 @@
             "start": 636,
             "end": 693,
             "value": "Sanity check failed: could not modify the global Object",
-            "raw": "'Sanity check failed: could not modify the global Object'"
+            "raw": "'Sanity check failed: could not modify the global Object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +348,9 @@
                       "start": 758,
                       "end": 761,
                       "value": "a",
-                      "raw": "'a'"
+                      "raw": "'a'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -366,14 +372,18 @@
             "start": 772,
             "end": 773,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 824,
             "value": "Expected string primitive to have 2 descriptors",
-            "raw": "'Expected string primitive to have 2 descriptors'"
+            "raw": "'Expected string primitive to have 2 descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

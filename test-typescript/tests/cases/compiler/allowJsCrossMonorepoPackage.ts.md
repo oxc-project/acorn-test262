@@ -42,7 +42,9 @@ __ESTREE_TEST__:PASS:
               "start": 31,
               "end": 36,
               "raw": "\"pkg\"",
-              "value": "pkg"
+              "value": "pkg",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -76,7 +78,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 25,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -128,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 32,
         "raw": "\"./utils.js\"",
-        "value": "./utils.js"
+        "value": "./utils.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -230,7 +236,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 26,
         "raw": "\"shared\"",
-        "value": "shared"
+        "value": "shared",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -108,7 +108,9 @@
                               "start": 1358,
                               "end": 1369,
                               "value": "targetKey",
-                              "raw": "\"targetKey\""
+                              "raw": "\"targetKey\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -123,7 +125,9 @@
                           "start": 1383,
                           "end": 1386,
                           "value": "q",
-                          "raw": "\"q\""
+                          "raw": "\"q\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -217,7 +221,9 @@
                               "start": 1447,
                               "end": 1458,
                               "value": "sourceKey",
-                              "raw": "\"sourceKey\""
+                              "raw": "\"sourceKey\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -232,7 +238,9 @@
                           "start": 1472,
                           "end": 1475,
                           "value": "p",
-                          "raw": "\"p\""
+                          "raw": "\"p\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -326,7 +334,9 @@
                               "start": 1525,
                               "end": 1537,
                               "value": "get source",
-                              "raw": "\"get source\""
+                              "raw": "\"get source\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -441,7 +451,9 @@
                               "start": 1611,
                               "end": 1623,
                               "value": "set target",
-                              "raw": "\"set target\""
+                              "raw": "\"set target\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -572,7 +584,9 @@
                                     "start": 1689,
                                     "end": 1700,
                                     "value": "binding::",
-                                    "raw": "\"binding::\""
+                                    "raw": "\"binding::\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -619,7 +633,9 @@
             "start": 1736,
             "end": 1737,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -761,63 +777,81 @@
                 "start": 1855,
                 "end": 1872,
                 "value": "binding::source",
-                "raw": "\"binding::source\""
+                "raw": "\"binding::source\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1876,
                 "end": 1896,
                 "value": "binding::sourceKey",
-                "raw": "\"binding::sourceKey\""
+                "raw": "\"binding::sourceKey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1900,
                 "end": 1911,
                 "value": "sourceKey",
-                "raw": "\"sourceKey\""
+                "raw": "\"sourceKey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1915,
                 "end": 1932,
                 "value": "binding::target",
-                "raw": "\"binding::target\""
+                "raw": "\"binding::target\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1936,
                 "end": 1956,
                 "value": "binding::targetKey",
-                "raw": "\"binding::targetKey\""
+                "raw": "\"binding::targetKey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1960,
                 "end": 1972,
                 "value": "get source",
-                "raw": "\"get source\""
+                "raw": "\"get source\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1976,
                 "end": 1999,
                 "value": "binding::defaultValue",
-                "raw": "\"binding::defaultValue\""
+                "raw": "\"binding::defaultValue\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2003,
                 "end": 2014,
                 "value": "targetKey",
-                "raw": "\"targetKey\""
+                "raw": "\"targetKey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2018,
                 "end": 2030,
                 "value": "set target",
-                "raw": "\"set target\""
+                "raw": "\"set target\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

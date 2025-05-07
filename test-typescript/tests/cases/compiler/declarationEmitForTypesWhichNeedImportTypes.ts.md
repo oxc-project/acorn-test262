@@ -127,7 +127,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 33,
         "raw": "\"./b\"",
-        "value": "./b"
+        "value": "./b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

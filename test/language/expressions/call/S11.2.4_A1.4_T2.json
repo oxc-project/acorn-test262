@@ -70,7 +70,9 @@
                     "start": 562,
                     "end": 563,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -101,7 +103,9 @@
                     "start": 591,
                     "end": 662,
                     "value": "#1.1: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -141,7 +145,9 @@
                             "start": 676,
                             "end": 677,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -206,7 +212,9 @@
                   "start": 738,
                   "end": 742,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -238,7 +246,9 @@
                             "start": 773,
                             "end": 844,
                             "value": "#1.2: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

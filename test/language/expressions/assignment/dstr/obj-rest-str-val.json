@@ -63,7 +63,9 @@
             "start": 762,
             "end": 767,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -159,7 +161,9 @@
               "start": 820,
               "end": 823,
               "value": "0",
-              "raw": "\"0\""
+              "raw": "\"0\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -169,7 +173,9 @@
             "start": 826,
             "end": 829,
             "value": "f",
-            "raw": "\"f\""
+            "raw": "\"f\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,7 +224,9 @@
               "start": 854,
               "end": 857,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -228,7 +236,9 @@
             "start": 860,
             "end": 863,
             "value": "o",
-            "raw": "\"o\""
+            "raw": "\"o\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +287,9 @@
               "start": 888,
               "end": 891,
               "value": "2",
-              "raw": "\"2\""
+              "raw": "\"2\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -287,7 +299,9 @@
             "start": 894,
             "end": 897,
             "value": "o",
-            "raw": "\"o\""
+            "raw": "\"o\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

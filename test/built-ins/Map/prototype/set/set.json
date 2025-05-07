@@ -75,14 +75,18 @@
             "start": 391,
             "end": 401,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 447,
             "value": "`typeof Map.prototype.set` is `function`",
-            "raw": "'`typeof Map.prototype.set` is `function`'"
+            "raw": "'`typeof Map.prototype.set` is `function`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 482,
             "end": 487,
             "value": "set",
-            "raw": "'set'"
+            "raw": "'set'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 503,
                   "end": 507,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 523,
                   "end": 528,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 546,
                   "end": 550,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

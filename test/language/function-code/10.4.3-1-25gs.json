@@ -118,7 +118,9 @@
               "start": 423,
               "end": 434,
               "value": "undefined",
-              "raw": "\"undefined\""
+              "raw": "\"undefined\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -137,7 +139,9 @@
               "start": 449,
               "end": 478,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

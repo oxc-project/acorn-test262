@@ -28,14 +28,18 @@
                 "start": 246,
                 "end": 247,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 249,
                 "end": 250,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               null,
               {
@@ -43,7 +47,9 @@
                 "start": 254,
                 "end": 256,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -89,7 +95,9 @@
                   "start": 281,
                   "end": 282,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -105,14 +113,18 @@
                   "start": 286,
                   "end": 287,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 289,
                   "end": 290,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -128,14 +140,18 @@
                   "start": 294,
                   "end": 295,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 297,
                   "end": 298,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -151,14 +167,18 @@
                   "start": 302,
                   "end": 303,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 305,
                   "end": 307,
                   "value": 16,
-                  "raw": "16"
+                  "raw": "16",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -285,14 +305,18 @@
             "start": 377,
             "end": 385,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 439,
             "value": "The value of `typeof a` is expected to be \"object\"",
-            "raw": "'The value of `typeof a` is expected to be \"object\"'"
+            "raw": "'The value of `typeof a` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +346,9 @@
               "start": 455,
               "end": 456,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -448,7 +474,9 @@
                   "start": 514,
                   "end": 576,
                   "value": "The value of a[j] is expected to equal the value of array[j]",
-                  "raw": "'The value of a[j] is expected to equal the value of array[j]'"
+                  "raw": "'The value of a[j] is expected to equal the value of array[j]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

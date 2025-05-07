@@ -132,7 +132,9 @@
                               "start": 398,
                               "end": 426,
                               "value": "\"use strict\";return f();",
-                              "raw": "\"\\\"use strict\\\";return f();\""
+                              "raw": "\"\\\"use strict\\\";return f();\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

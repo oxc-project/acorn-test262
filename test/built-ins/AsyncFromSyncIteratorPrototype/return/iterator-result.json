@@ -36,7 +36,9 @@
                 "start": 860,
                 "end": 862,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -60,7 +62,9 @@
                   "start": 889,
                   "end": 909,
                   "value": "return closes iter",
-                  "raw": "'return closes iter'"
+                  "raw": "'return closes iter'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -79,7 +83,9 @@
                 "start": 920,
                 "end": 922,
                 "value": 43,
-                "raw": "43"
+                "raw": "43",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -184,7 +190,9 @@
             "start": 1002,
             "end": 1030,
             "value": "some specific return value",
-            "raw": "'some specific return value'"
+            "raw": "'some specific return value'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -403,14 +411,18 @@
                                             "start": 1219,
                                             "end": 1223,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1225,
                                             "end": 1252,
                                             "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "raw": "'the iterator is completed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -474,7 +486,9 @@
                                             "start": 1295,
                                             "end": 1324,
                                             "value": "expect agrument to `return`",
-                                            "raw": "'expect agrument to `return`'"
+                                            "raw": "'expect agrument to `return`'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -639,14 +653,18 @@
                                                             "start": 1401,
                                                             "end": 1405,
                                                             "value": true,
-                                                            "raw": "true"
+                                                            "raw": "true",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 1407,
                                                             "end": 1434,
                                                             "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "raw": "'the iterator is completed'",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "optional": false
@@ -697,7 +715,9 @@
                                                             "start": 1478,
                                                             "end": 1498,
                                                             "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "raw": "'value is undefined'",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "optional": false

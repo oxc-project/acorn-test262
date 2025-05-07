@@ -42,7 +42,9 @@
             "start": 664,
             "end": 683,
             "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "raw": "\"BYTES_PER_ELEMENT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -67,7 +69,9 @@
                   "start": 696,
                   "end": 697,
                   "value": 8,
-                  "raw": "8"
+                  "raw": "8",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -89,7 +93,9 @@
                   "start": 711,
                   "end": 716,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -111,7 +117,9 @@
                   "start": 732,
                   "end": 737,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -133,7 +141,9 @@
                   "start": 755,
                   "end": 760,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

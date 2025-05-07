@@ -161,14 +161,18 @@ __ESTREE_TEST__:PASS:
                             "start": 213,
                             "end": 220,
                             "raw": "'first'",
-                            "value": "first"
+                            "value": "first",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 222,
                             "end": 230,
                             "raw": "'second'",
-                            "value": "second"
+                            "value": "second",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {

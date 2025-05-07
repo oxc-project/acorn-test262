@@ -43,7 +43,9 @@
                 "start": 495,
                 "end": 496,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -60,7 +62,9 @@
             "start": 503,
             "end": 521,
             "value": "class outside {}",
-            "raw": "'class outside {}'"
+            "raw": "'class outside {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -88,7 +92,9 @@
                 "start": 525,
                 "end": 526,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -105,7 +111,9 @@
             "start": 533,
             "end": 565,
             "value": "\"use strict\"; class outside {}",
-            "raw": "'\"use strict\"; class outside {}'"
+            "raw": "'\"use strict\"; class outside {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -133,7 +141,9 @@
                 "start": 570,
                 "end": 571,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -150,7 +160,9 @@
             "start": 578,
             "end": 599,
             "value": "class xNonStrict {}",
-            "raw": "'class xNonStrict {}'"
+            "raw": "'class xNonStrict {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,7 +214,9 @@
             "start": 639,
             "end": 650,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +310,9 @@
                 "start": 716,
                 "end": 717,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -313,7 +329,9 @@
             "start": 724,
             "end": 756,
             "value": "\"use strict\"; class xStrict {}",
-            "raw": "'\"use strict\"; class xStrict {}'"
+            "raw": "'\"use strict\"; class xStrict {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -365,7 +383,9 @@
             "start": 793,
             "end": 804,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

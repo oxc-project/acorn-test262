@@ -27,7 +27,9 @@
               "start": 434,
               "end": 435,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 442,
           "end": 444,
           "value": 36,
-          "raw": "36"
+          "raw": "36",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -114,7 +118,9 @@
                       "start": 481,
                       "end": 487,
                       "value": "10$1",
-                      "raw": "\"10$1\""
+                      "raw": "\"10$1\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -136,7 +142,9 @@
                   "start": 496,
                   "end": 544,
                   "value": "parseInt(\"10$1\", i) must return the value of i",
-                  "raw": "'parseInt(\"10$1\", i) must return the value of i'"
+                  "raw": "'parseInt(\"10$1\", i) must return the value of i'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

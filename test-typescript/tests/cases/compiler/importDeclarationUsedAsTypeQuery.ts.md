@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 86,
           "end": 130,
           "raw": "'./importDeclarationUsedAsTypeQuery_require'",
-          "value": "./importDeclarationUsedAsTypeQuery_require"
+          "value": "./importDeclarationUsedAsTypeQuery_require",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -68,7 +68,9 @@
                         "start": 371,
                         "end": 383,
                         "value": "use strict",
-                        "raw": "\"use strict\""
+                        "raw": "\"use strict\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "directive": "use strict"
                     },
@@ -93,21 +95,27 @@
                 "start": 408,
                 "end": 409,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 412,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 415,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -162,7 +170,9 @@
           "start": 452,
           "end": 456,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -243,42 +253,54 @@
                 "start": 502,
                 "end": 503,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 506,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 509,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 512,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 514,
                 "end": 515,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 517,
                 "end": 518,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -287,7 +309,9 @@
             "start": 523,
             "end": 697,
             "value": "[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\", \"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, 1, 2, 3]",
-            "raw": "'[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\", \"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, 1, 2, 3]'"
+            "raw": "'[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\", \"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, 1, 2, 3]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +356,9 @@
             "start": 730,
             "end": 738,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -357,7 +383,9 @@
                   "start": 751,
                   "end": 752,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -438,21 +466,27 @@
                 "start": 795,
                 "end": 796,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 798,
                 "end": 799,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 802,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -465,7 +499,9 @@
                   "start": 809,
                   "end": 810,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -479,7 +515,9 @@
                   "start": 817,
                   "end": 818,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -493,7 +531,9 @@
                   "start": 825,
                   "end": 826,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -503,7 +543,9 @@
             "start": 831,
             "end": 954,
             "value": "[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, void 0, void 0, void 0]",
-            "raw": "'[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, void 0, void 0, void 0]'"
+            "raw": "'[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, void 0, void 0, void 0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

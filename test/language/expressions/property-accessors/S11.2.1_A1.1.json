@@ -27,7 +27,9 @@
               "start": 362,
               "end": 400,
               "value": "Number\t.\tPOSITIVE_INFINITY",
-              "raw": "\"Number\\u0009.\\u0009POSITIVE_INFINITY\""
+              "raw": "\"Number\\u0009.\\u0009POSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -78,7 +80,9 @@
                   "start": 459,
                   "end": 532,
                   "value": "#1: Number\\u0009.\\u0009POSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#1: Number\\\\u0009.\\\\u0009POSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#1: Number\\\\u0009.\\\\u0009POSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -111,7 +115,9 @@
               "start": 557,
               "end": 595,
               "value": "Number\u000b.\u000bPOSITIVE_INFINITY",
-              "raw": "\"Number\\u000B.\\u000BPOSITIVE_INFINITY\""
+              "raw": "\"Number\\u000B.\\u000BPOSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -162,7 +168,9 @@
                   "start": 654,
                   "end": 727,
                   "value": "#2: Number\\u000B.\\u000BPOSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#2: Number\\\\u000B.\\\\u000BPOSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#2: Number\\\\u000B.\\\\u000BPOSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -195,7 +203,9 @@
               "start": 754,
               "end": 792,
               "value": "Number\f.\fPOSITIVE_INFINITY",
-              "raw": "\"Number\\u000C.\\u000CPOSITIVE_INFINITY\""
+              "raw": "\"Number\\u000C.\\u000CPOSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -246,7 +256,9 @@
                   "start": 851,
                   "end": 924,
                   "value": "#3: Number\\u000C.\\u000CPOSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#3: Number\\\\u000C.\\\\u000CPOSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#3: Number\\\\u000C.\\\\u000CPOSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -279,7 +291,9 @@
               "start": 949,
               "end": 987,
               "value": "Number . POSITIVE_INFINITY",
-              "raw": "\"Number\\u0020.\\u0020POSITIVE_INFINITY\""
+              "raw": "\"Number\\u0020.\\u0020POSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -330,7 +344,9 @@
                   "start": 1046,
                   "end": 1119,
                   "value": "#4: Number\\u0020.\\u0020POSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#4: Number\\\\u0020.\\\\u0020POSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#4: Number\\\\u0020.\\\\u0020POSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -363,7 +379,9 @@
               "start": 1144,
               "end": 1182,
               "value": "Number . POSITIVE_INFINITY",
-              "raw": "\"Number\\u00A0.\\u00A0POSITIVE_INFINITY\""
+              "raw": "\"Number\\u00A0.\\u00A0POSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -414,7 +432,9 @@
                   "start": 1241,
                   "end": 1314,
                   "value": "#5: Number\\u00A0.\\u00A0POSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#5: Number\\\\u00A0.\\\\u00A0POSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#5: Number\\\\u00A0.\\\\u00A0POSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -447,7 +467,9 @@
               "start": 1339,
               "end": 1377,
               "value": "Number\n.\nPOSITIVE_INFINITY",
-              "raw": "\"Number\\u000A.\\u000APOSITIVE_INFINITY\""
+              "raw": "\"Number\\u000A.\\u000APOSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -498,7 +520,9 @@
                   "start": 1436,
                   "end": 1509,
                   "value": "#6: Number\\u000A.\\u000APOSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#6: Number\\\\u000A.\\\\u000APOSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#6: Number\\\\u000A.\\\\u000APOSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -531,7 +555,9 @@
               "start": 1536,
               "end": 1574,
               "value": "Number\r.\rPOSITIVE_INFINITY",
-              "raw": "\"Number\\u000D.\\u000DPOSITIVE_INFINITY\""
+              "raw": "\"Number\\u000D.\\u000DPOSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -582,7 +608,9 @@
                   "start": 1633,
                   "end": 1706,
                   "value": "#7: Number\\u000D.\\u000DPOSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#7: Number\\\\u000D.\\\\u000DPOSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#7: Number\\\\u000D.\\\\u000DPOSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -615,7 +643,9 @@
               "start": 1731,
               "end": 1769,
               "value": "Number . POSITIVE_INFINITY",
-              "raw": "\"Number\\u2028.\\u2028POSITIVE_INFINITY\""
+              "raw": "\"Number\\u2028.\\u2028POSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -666,7 +696,9 @@
                   "start": 1828,
                   "end": 1901,
                   "value": "#8: Number\\u2028.\\u2028POSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#8: Number\\\\u2028.\\\\u2028POSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#8: Number\\\\u2028.\\\\u2028POSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -699,7 +731,9 @@
               "start": 1926,
               "end": 1964,
               "value": "Number . POSITIVE_INFINITY",
-              "raw": "\"Number\\u2029.\\u2029POSITIVE_INFINITY\""
+              "raw": "\"Number\\u2029.\\u2029POSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -750,7 +784,9 @@
                   "start": 2023,
                   "end": 2096,
                   "value": "#9: Number\\u2029.\\u2029POSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#9: Number\\\\u2029.\\\\u2029POSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#9: Number\\\\u2029.\\\\u2029POSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -783,7 +819,9 @@
               "start": 2122,
               "end": 2256,
               "value": "Number\t\u000b\f  \n\r  .\t\u000b\f  \n\r  POSITIVE_INFINITY",
-              "raw": "\"Number\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029.\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029POSITIVE_INFINITY\""
+              "raw": "\"Number\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029.\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029POSITIVE_INFINITY\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -834,7 +872,9 @@
                   "start": 2315,
                   "end": 2501,
                   "value": "#10: Number\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029.\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029POSITIVE_INFINITY === Number.POSITIVE_INFINITY",
-                  "raw": "'#10: Number\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029.\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029POSITIVE_INFINITY === Number.POSITIVE_INFINITY'"
+                  "raw": "'#10: Number\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029.\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029POSITIVE_INFINITY === Number.POSITIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

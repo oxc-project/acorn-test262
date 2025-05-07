@@ -23,7 +23,9 @@
             "start": 2114,
             "end": 2115,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -225,7 +227,9 @@
                               "start": 2219,
                               "end": 2223,
                               "value": "fn",
-                              "raw": "'fn'"
+                              "raw": "'fn'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -283,7 +287,9 @@
                               "start": 2260,
                               "end": 2265,
                               "value": "xFn",
-                              "raw": "'xFn'"
+                              "raw": "'xFn'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -320,7 +326,9 @@
                               "start": 2296,
                               "end": 2297,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -433,14 +441,18 @@
             "start": 2358,
             "end": 2359,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2361,
             "end": 2400,
             "value": "generator method invoked exactly once",
-            "raw": "'generator method invoked exactly once'"
+            "raw": "'generator method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

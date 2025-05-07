@@ -104,7 +104,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "\"dedent\"",
-        "value": "dedent"
+        "value": "dedent",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -134,7 +136,9 @@ __ESTREE_TEST__:PASS:
         "start": 49,
         "end": 58,
         "raw": "\"dedent2\"",
-        "value": "dedent2"
+        "value": "dedent2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -164,7 +168,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 89,
         "raw": "\"dedent3\"",
-        "value": "dedent3"
+        "value": "dedent3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -194,7 +200,9 @@ __ESTREE_TEST__:PASS:
         "start": 111,
         "end": 120,
         "raw": "\"dedent4\"",
-        "value": "dedent4"
+        "value": "dedent4",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -236,7 +244,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "\"dedent\"",
-        "value": "dedent"
+        "value": "dedent",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -266,7 +276,9 @@ __ESTREE_TEST__:PASS:
         "start": 49,
         "end": 58,
         "raw": "\"dedent2\"",
-        "value": "dedent2"
+        "value": "dedent2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -296,7 +308,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 89,
         "raw": "\"dedent3\"",
-        "value": "dedent3"
+        "value": "dedent3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -326,7 +340,9 @@ __ESTREE_TEST__:PASS:
         "start": 111,
         "end": 120,
         "raw": "\"dedent4\"",
-        "value": "dedent4"
+        "value": "dedent4",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -89,7 +89,9 @@
                     "start": 372,
                     "end": 450,
                     "value": "#1.1: object instanceof (object = {}, Object) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: object instanceof (object = {}, Object) throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: object instanceof (object = {}, Object) throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -203,7 +205,9 @@
                   "start": 553,
                   "end": 557,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -235,7 +239,9 @@
                             "start": 588,
                             "end": 666,
                             "value": "#1.2: object instanceof (object = {}, Object) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: object instanceof (object = {}, Object) throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: object instanceof (object = {}, Object) throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

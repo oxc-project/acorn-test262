@@ -89,7 +89,9 @@ __ESTREE_TEST__:PASS:
                     "start": 33,
                     "end": 35,
                     "raw": "10",
-                    "value": 10
+                    "value": 10,
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }
@@ -515,14 +517,18 @@ __ESTREE_TEST__:PASS:
                           "start": 275,
                           "end": 282,
                           "raw": "\"hello\"",
-                          "value": "hello"
+                          "value": "hello",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 284,
                           "end": 286,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

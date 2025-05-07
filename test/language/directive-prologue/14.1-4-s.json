@@ -31,7 +31,9 @@
               "start": 301,
               "end": 315,
               "value": "use strict",
-              "raw": "'use str\\\nict'"
+              "raw": "'use str\\\nict'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use str\\\nict"
           },

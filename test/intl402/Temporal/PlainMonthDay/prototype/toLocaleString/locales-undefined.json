@@ -77,7 +77,9 @@
                     "start": 369,
                     "end": 373,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -199,14 +201,18 @@
                 "start": 478,
                 "end": 479,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 482,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -369,7 +375,9 @@
             "start": 650,
             "end": 703,
             "value": "default locale is determined by Intl.DateTimeFormat",
-            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +473,9 @@
             "start": 800,
             "end": 853,
             "value": "default locale is determined by Intl.DateTimeFormat",
-            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

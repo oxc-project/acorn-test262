@@ -71,7 +71,9 @@
                         "start": 456,
                         "end": 469,
                         "value": "import.meta",
-                        "raw": "\"import.meta\""
+                        "raw": "\"import.meta\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

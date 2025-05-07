@@ -36,7 +36,9 @@
                   "start": 1088,
                   "end": 1107,
                   "value": "first declaration",
-                  "raw": "'first declaration'"
+                  "raw": "'first declaration'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -66,7 +68,9 @@
                 "start": 1117,
                 "end": 1118,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -83,7 +87,9 @@
             "start": 1128,
             "end": 1179,
             "value": "{ function f() { return \"second declaration\"; } }",
-            "raw": "'{ function f() { return \"second declaration\"; } }'"
+            "raw": "'{ function f() { return \"second declaration\"; } }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -135,7 +141,9 @@
             "start": 1211,
             "end": 1221,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,7 +195,9 @@
             "start": 1246,
             "end": 1266,
             "value": "second declaration",
-            "raw": "'second declaration'"
+            "raw": "'second declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

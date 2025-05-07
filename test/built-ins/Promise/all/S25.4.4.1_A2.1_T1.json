@@ -112,7 +112,9 @@
             "start": 280,
             "end": 342,
             "value": "The value of !!(p instanceof Promise) is expected to be true",
-            "raw": "'The value of !!(p instanceof Promise) is expected to be true'"
+            "raw": "'The value of !!(p instanceof Promise) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

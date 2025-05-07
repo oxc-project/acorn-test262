@@ -16,7 +16,9 @@
           "start": 237,
           "end": 248,
           "value": "arguments",
-          "raw": "'arguments'"
+          "raw": "'arguments'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "in",
         "right": {

@@ -41,7 +41,9 @@
                   "start": 297,
                   "end": 306,
                   "value": "gregory",
-                  "raw": "\"gregory\""
+                  "raw": "\"gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 313,
                   "end": 317,
                   "value": "ce",
-                  "raw": "\"ce\""
+                  "raw": "\"ce\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 328,
                   "end": 332,
                   "value": 2019,
-                  "raw": "2019"
+                  "raw": "2019",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 341,
                   "end": 343,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +166,9 @@
                               "start": 380,
                               "end": 414,
                               "value": "should not read the day property",
-                              "raw": "\"should not read the day property\""
+                              "raw": "\"should not read the day property\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -253,42 +263,54 @@
             "start": 504,
             "end": 508,
             "value": 2019,
-            "raw": "2019"
+            "raw": "2019",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 512,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 519,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 537,
             "value": "month with day",
-            "raw": "\"month with day\""
+            "raw": "\"month with day\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 543,
             "value": "ce",
-            "raw": "\"ce\""
+            "raw": "\"ce\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 549,
             "value": 2019,
-            "raw": "2019"
+            "raw": "2019",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +354,9 @@
                   "start": 590,
                   "end": 599,
                   "value": "gregory",
-                  "raw": "\"gregory\""
+                  "raw": "\"gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -354,7 +378,9 @@
                   "start": 606,
                   "end": 610,
                   "value": "ce",
-                  "raw": "\"ce\""
+                  "raw": "\"ce\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -376,7 +402,9 @@
                   "start": 621,
                   "end": 625,
                   "value": 2019,
-                  "raw": "2019"
+                  "raw": "2019",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -398,7 +426,9 @@
                   "start": 638,
                   "end": 643,
                   "value": "M11",
-                  "raw": "\"M11\""
+                  "raw": "\"M11\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -449,7 +479,9 @@
                               "start": 680,
                               "end": 714,
                               "value": "should not read the day property",
-                              "raw": "\"should not read the day property\""
+                              "raw": "\"should not read the day property\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -544,42 +576,54 @@
             "start": 808,
             "end": 812,
             "value": 2019,
-            "raw": "2019"
+            "raw": "2019",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 814,
             "end": 816,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 818,
             "end": 823,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 825,
             "end": 845,
             "value": "monthCode with day",
-            "raw": "\"monthCode with day\""
+            "raw": "\"monthCode with day\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 847,
             "end": 851,
             "value": "ce",
-            "raw": "\"ce\""
+            "raw": "\"ce\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 853,
             "end": 857,
             "value": 2019,
-            "raw": "2019"
+            "raw": "2019",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

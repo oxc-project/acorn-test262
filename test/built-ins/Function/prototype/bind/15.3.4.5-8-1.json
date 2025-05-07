@@ -152,14 +152,18 @@
             "start": 332,
             "end": 342,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 344,
             "end": 356,
             "value": "typeof(bf)",
-            "raw": "'typeof(bf)'"
+            "raw": "'typeof(bf)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

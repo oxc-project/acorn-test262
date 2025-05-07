@@ -180,7 +180,9 @@
                                         "start": 1648,
                                         "end": 1649,
                                         "value": 4,
-                                        "raw": "4"
+                                        "raw": "4",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -202,7 +204,9 @@
                                         "start": 1654,
                                         "end": 1655,
                                         "value": 5,
-                                        "raw": "5"
+                                        "raw": "5",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -224,7 +228,9 @@
                                         "start": 1660,
                                         "end": 1661,
                                         "value": 6,
-                                        "raw": "6"
+                                        "raw": "6",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -268,7 +274,9 @@
                               "start": 1675,
                               "end": 1679,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

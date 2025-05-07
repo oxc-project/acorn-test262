@@ -23,7 +23,9 @@
             "start": 279,
             "end": 280,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
           "start": 323,
           "end": 324,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -81,7 +85,9 @@
                     "start": 353,
                     "end": 418,
                     "value": "#1: var x = 0; /*\fmulti\fline\fcomment\fx = 1;*/ x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; /*\fmulti\fline\fcomment\fx = 1;*/ x === 0. Actual: '"
+                    "raw": "'#1: var x = 0; /*\fmulti\fline\fcomment\fx = 1;*/ x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

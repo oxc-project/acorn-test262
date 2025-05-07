@@ -327,7 +327,9 @@
             "start": 368,
             "end": 394,
             "value": "The value of `C` is `C2`",
-            "raw": "\"The value of `C` is `C2`\""
+            "raw": "\"The value of `C` is `C2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -438,7 +440,9 @@
             "start": 451,
             "end": 477,
             "value": "The value of `C` is `C2`",
-            "raw": "\"The value of `C` is `C2`\""
+            "raw": "\"The value of `C` is `C2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -542,7 +546,9 @@
             "start": 532,
             "end": 558,
             "value": "The value of `C` is `C2`",
-            "raw": "\"The value of `C` is `C2`\""
+            "raw": "\"The value of `C` is `C2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -610,7 +616,9 @@
           "start": 590,
           "end": 591,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -659,7 +667,9 @@
             "start": 617,
             "end": 643,
             "value": "The value of `C` is `C2`",
-            "raw": "\"The value of `C` is `C2`\""
+            "raw": "\"The value of `C` is `C2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

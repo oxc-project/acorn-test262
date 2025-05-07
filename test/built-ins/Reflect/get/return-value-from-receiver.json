@@ -66,7 +66,9 @@
                   "start": 991,
                   "end": 993,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -115,7 +117,9 @@
             "start": 1024,
             "end": 1027,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -246,7 +250,9 @@
                 "start": 1114,
                 "end": 1117,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -262,14 +268,18 @@
             "start": 1130,
             "end": 1132,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1136,
             "end": 1180,
             "value": "Return own property value using a receiver",
-            "raw": "'Return own property value using a receiver'"
+            "raw": "'Return own property value using a receiver'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +400,9 @@
                 "start": 1249,
                 "end": 1252,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -406,14 +418,18 @@
             "start": 1265,
             "end": 1267,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1271,
             "end": 1321,
             "value": "Return prototype property value using a receiver",
-            "raw": "'Return prototype property value using a receiver'"
+            "raw": "'Return prototype property value using a receiver'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "Java(?!Script)([A-Z]\\w*)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 579,
                 "end": 600,
                 "value": "i'm a JavaScripter ",
-                "raw": "\"i'm a JavaScripter \""
+                "raw": "\"i'm a JavaScripter \"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 624,
             "end": 673,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

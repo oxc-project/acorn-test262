@@ -201,7 +201,9 @@
                       "start": 1391,
                       "end": 1393,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -268,7 +270,9 @@
                 "start": 1434,
                 "end": 1437,
                 "value": "f",
-                "raw": "'f'"
+                "raw": "'f'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -364,7 +368,9 @@
             "start": 1503,
             "end": 1559,
             "value": "private methods are not installed before super returns",
-            "raw": "'private methods are not installed before super returns'"
+            "raw": "'private methods are not installed before super returns'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -102,21 +102,27 @@
                                 "start": 1975,
                                 "end": 1976,
                                 "value": 4,
-                                "raw": "4"
+                                "raw": "4",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1978,
                                 "end": 1979,
                                 "value": 5,
-                                "raw": "5"
+                                "raw": "5",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1981,
                                 "end": 1982,
                                 "value": 6,
-                                "raw": "6"
+                                "raw": "6",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -148,7 +154,9 @@
                           "start": 1993,
                           "end": 1997,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }

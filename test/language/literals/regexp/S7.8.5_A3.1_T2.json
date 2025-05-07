@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:)",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,7 +67,9 @@
           "start": 306,
           "end": 311,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -98,7 +101,9 @@
                     "start": 340,
                     "end": 401,
                     "value": "#1: var regexp = /(?:)/g; regexp.global === false. Actual: ",
-                    "raw": "'#1: var regexp = /(?:)/g; regexp.global === false. Actual: '"
+                    "raw": "'#1: var regexp = /(?:)/g; regexp.global === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +171,9 @@
           "start": 462,
           "end": 466,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -198,7 +205,9 @@
                     "start": 495,
                     "end": 559,
                     "value": "#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: ",
-                    "raw": "'#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: '"
+                    "raw": "'#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -266,7 +275,9 @@
           "start": 622,
           "end": 627,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -298,7 +309,9 @@
                     "start": 656,
                     "end": 720,
                     "value": "#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: ",
-                    "raw": "'#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: '"
+                    "raw": "'#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

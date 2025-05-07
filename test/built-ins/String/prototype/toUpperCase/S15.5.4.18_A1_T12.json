@@ -102,7 +102,9 @@
                           "start": 438,
                           "end": 447,
                           "value": "intostr",
-                          "raw": "\"intostr\""
+                          "raw": "\"intostr\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -252,7 +254,9 @@
                   "start": 656,
                   "end": 718,
                   "value": "#1: \"var x = __obj.toUpperCase()\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __obj.toUpperCase()\" lead to throwing exception'"
+                  "raw": "'#1: \"var x = __obj.toUpperCase()\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -294,7 +298,9 @@
                   "start": 747,
                   "end": 756,
                   "value": "intostr",
-                  "raw": "\"intostr\""
+                  "raw": "\"intostr\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -326,7 +332,9 @@
                             "start": 787,
                             "end": 828,
                             "value": "#1.1: Exception === \"intostr\". Actual: ",
-                            "raw": "'#1.1: Exception === \"intostr\". Actual: '"
+                            "raw": "'#1.1: Exception === \"intostr\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

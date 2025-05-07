@@ -81,14 +81,18 @@
             "start": 335,
             "end": 344,
             "value": "instant",
-            "raw": "'instant'"
+            "raw": "'instant'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 416,
             "value": "The value of Temporal.Now.instant.name is expected to be \"instant\"",
-            "raw": "'The value of Temporal.Now.instant.name is expected to be \"instant\"'"
+            "raw": "'The value of Temporal.Now.instant.name is expected to be \"instant\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +150,9 @@
             "start": 458,
             "end": 464,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -171,7 +177,9 @@
                   "start": 482,
                   "end": 487,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -193,7 +201,9 @@
                   "start": 501,
                   "end": 506,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -215,7 +225,9 @@
                   "start": 524,
                   "end": 528,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

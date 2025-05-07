@@ -69,7 +69,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 230,
                                 "end": 234,
                                 "raw": "'OK'",
-                                "value": "OK"
+                                "value": "OK",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -122,7 +124,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 172,
                                 "end": 186,
                                 "raw": "'Please retry'",
-                                "value": "Please retry"
+                                "value": "Please retry",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -261,7 +265,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 332,
                                 "end": 336,
                                 "raw": "true",
-                                "value": true
+                                "value": true,
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -305,7 +311,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 394,
                                     "end": 403,
                                     "raw": "'Error: '",
-                                    "value": "Error: "
+                                    "value": "Error: ",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "right": {
                                     "type": "MemberExpression",
@@ -398,7 +406,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 468,
                                   "end": 473,
                                   "raw": "false",
-                                  "value": false
+                                  "value": false,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "callee": {

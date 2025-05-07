@@ -175,7 +175,9 @@
                                 "start": 901,
                                 "end": 909,
                                 "value": "length",
-                                "raw": "'length'"
+                                "raw": "'length'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -292,7 +294,9 @@
                         "start": 1008,
                         "end": 1015,
                         "value": "[0,0]",
-                        "raw": "'[0,0]'"
+                        "raw": "'[0,0]'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "FunctionExpression",
@@ -331,7 +335,9 @@
                                     "start": 1039,
                                     "end": 1040,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false

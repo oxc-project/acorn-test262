@@ -36,7 +36,9 @@
                     "start": 532,
                     "end": 545,
                     "value": "/a\\ /",
-                    "raw": "\"/a\\\\\\u2028/\""
+                    "raw": "\"/a\\\\\\u2028/\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -75,7 +77,9 @@
                     "start": 581,
                     "end": 674,
                     "value": "#1.1: RegularExpressionChar :: BackslashSequence :: \\Line separator is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionChar :: BackslashSequence :: \\\\Line separator is incorrect. Actual: '"
+                    "raw": "'#1.1: RegularExpressionChar :: BackslashSequence :: \\\\Line separator is incorrect. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +106,9 @@
                             "start": 683,
                             "end": 696,
                             "value": "/a\\ /",
-                            "raw": "\"/a\\\\\\u2028/\""
+                            "raw": "\"/a\\\\\\u2028/\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -175,7 +181,9 @@
                   "start": 759,
                   "end": 763,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -207,7 +215,9 @@
                             "start": 795,
                             "end": 888,
                             "value": "#1.2: RegularExpressionChar :: BackslashSequence :: \\Line separator is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionChar :: BackslashSequence :: \\\\Line separator is incorrect. Actual: '"
+                            "raw": "'#1.2: RegularExpressionChar :: BackslashSequence :: \\\\Line separator is incorrect. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

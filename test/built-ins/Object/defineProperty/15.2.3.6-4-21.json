@@ -156,7 +156,9 @@
             "start": 723,
             "end": 728,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -279,7 +281,9 @@
             "start": 977,
             "end": 982,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -341,7 +345,9 @@
                 "start": 1035,
                 "end": 1040,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -408,7 +414,9 @@
             "start": 1077,
             "end": 1085,
             "value": "d2.get",
-            "raw": "'d2.get'"
+            "raw": "'d2.get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -472,7 +480,9 @@
             "start": 1121,
             "end": 1129,
             "value": "d2.set",
-            "raw": "'d2.set'"
+            "raw": "'d2.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,14 +540,18 @@
             "start": 1166,
             "end": 1171,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1173,
             "end": 1190,
             "value": "d2.configurable",
-            "raw": "'d2.configurable'"
+            "raw": "'d2.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -595,14 +609,18 @@
             "start": 1225,
             "end": 1230,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1232,
             "end": 1247,
             "value": "d2.enumerable",
-            "raw": "'d2.enumerable'"
+            "raw": "'d2.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

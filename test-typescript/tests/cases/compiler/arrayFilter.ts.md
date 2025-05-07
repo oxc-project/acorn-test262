@@ -57,7 +57,9 @@ __ESTREE_TEST__:PASS:
                       "start": 24,
                       "end": 29,
                       "raw": "'bar'",
-                      "value": "bar"
+                      "value": "bar",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -90,7 +92,9 @@ __ESTREE_TEST__:PASS:
                       "start": 45,
                       "end": 49,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -123,7 +127,9 @@ __ESTREE_TEST__:PASS:
                       "start": 65,
                       "end": 70,
                       "raw": "'baz'",
-                      "value": "baz"
+                      "value": "baz",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

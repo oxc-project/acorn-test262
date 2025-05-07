@@ -69,7 +69,9 @@
             "start": 412,
             "end": 472,
             "value": "Function.prototype.isPrototypeOf(Boolean) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Boolean) must return true'"
+            "raw": "'Function.prototype.isPrototypeOf(Boolean) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

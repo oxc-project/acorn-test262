@@ -335,7 +335,9 @@
                         "start": 1790,
                         "end": 1822,
                         "value": "Promise incorrectly fulfilled.",
-                        "raw": "'Promise incorrectly fulfilled.'"
+                        "raw": "'Promise incorrectly fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -412,7 +414,9 @@
                               "start": 1890,
                               "end": 1933,
                               "value": "Promise rejected with incorrect \"reason.\"",
-                              "raw": "'Promise rejected with incorrect \"reason.\"'"
+                              "raw": "'Promise rejected with incorrect \"reason.\"'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

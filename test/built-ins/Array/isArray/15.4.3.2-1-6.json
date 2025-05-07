@@ -71,7 +71,9 @@
                     "start": 287,
                     "end": 304,
                     "value": "hello\nworld\\!",
-                    "raw": "\"hello\\nworld\\\\!\""
+                    "raw": "\"hello\\nworld\\\\!\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -83,14 +85,18 @@
             "start": 308,
             "end": 313,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 315,
             "end": 382,
             "value": "Array.isArray(new String(\"hello\\nworld\\\\!\")) must return false",
-            "raw": "'Array.isArray(new String(\"hello\\\\nworld\\\\\\\\!\")) must return false'"
+            "raw": "'Array.isArray(new String(\"hello\\\\nworld\\\\\\\\!\")) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

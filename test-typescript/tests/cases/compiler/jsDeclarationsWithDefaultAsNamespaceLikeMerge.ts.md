@@ -515,7 +515,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 50,
         "raw": "'./helper'",
-        "value": "./helper"
+        "value": "./helper",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -665,7 +667,9 @@ __ESTREE_TEST__:PASS:
                             "start": 152,
                             "end": 160,
                             "raw": "'panels'",
-                            "value": "panels"
+                            "value": "panels",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

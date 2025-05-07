@@ -83,14 +83,18 @@
                               "start": 551,
                               "end": 559,
                               "value": 82944,
-                              "raw": "0x014400"
+                              "raw": "0x014400",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 561,
                               "end": 569,
                               "value": 83526,
-                              "raw": "0x014646"
+                              "raw": "0x014646",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Anatolian_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 671,
             "end": 717,
             "value": "\\p{Script_Extensions=Anatolian_Hieroglyphs}",
-            "raw": "\"\\\\p{Script_Extensions=Anatolian_Hieroglyphs}\""
+            "raw": "\"\\\\p{Script_Extensions=Anatolian_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Hluw}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 796,
             "end": 825,
             "value": "\\p{Script_Extensions=Hluw}",
-            "raw": "\"\\\\p{Script_Extensions=Hluw}\""
+            "raw": "\"\\\\p{Script_Extensions=Hluw}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{scx=Anatolian_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 907,
             "end": 939,
             "value": "\\p{scx=Anatolian_Hieroglyphs}",
-            "raw": "\"\\\\p{scx=Anatolian_Hieroglyphs}\""
+            "raw": "\"\\\\p{scx=Anatolian_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{scx=Hluw}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 1004,
             "end": 1019,
             "value": "\\p{scx=Hluw}",
-            "raw": "\"\\\\p{scx=Hluw}\""
+            "raw": "\"\\\\p{scx=Hluw}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 1101,
                               "end": 1109,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1111,
                               "end": 1119,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 1127,
                               "end": 1135,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1137,
                               "end": 1145,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1153,
                               "end": 1161,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1163,
                               "end": 1171,
                               "value": 82943,
-                              "raw": "0x0143FF"
+                              "raw": "0x0143FF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1179,
                               "end": 1187,
                               "value": 83527,
-                              "raw": "0x014647"
+                              "raw": "0x014647",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1189,
                               "end": 1197,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Anatolian_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1302,
             "end": 1348,
             "value": "\\P{Script_Extensions=Anatolian_Hieroglyphs}",
-            "raw": "\"\\\\P{Script_Extensions=Anatolian_Hieroglyphs}\""
+            "raw": "\"\\\\P{Script_Extensions=Anatolian_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Hluw}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1430,
             "end": 1459,
             "value": "\\P{Script_Extensions=Hluw}",
-            "raw": "\"\\\\P{Script_Extensions=Hluw}\""
+            "raw": "\"\\\\P{Script_Extensions=Hluw}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{scx=Anatolian_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1544,
             "end": 1576,
             "value": "\\P{scx=Anatolian_Hieroglyphs}",
-            "raw": "\"\\\\P{scx=Anatolian_Hieroglyphs}\""
+            "raw": "\"\\\\P{scx=Anatolian_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{scx=Hluw}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1644,
             "end": 1659,
             "value": "\\P{scx=Hluw}",
-            "raw": "\"\\\\P{scx=Hluw}\""
+            "raw": "\"\\\\P{scx=Hluw}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 310,
                 "end": 331,
                 "value": "return typeof this;",
-                "raw": "\"return typeof this;\""
+                "raw": "\"return typeof this;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,14 +91,18 @@
             "start": 360,
             "end": 371,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 378,
             "value": "f()",
-            "raw": "'f()'"
+            "raw": "'f()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

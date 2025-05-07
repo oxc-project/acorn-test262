@@ -107,14 +107,18 @@ __ESTREE_TEST__:PASS:
             "start": 51,
             "end": 68,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 70,
             "end": 79,
             "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +128,9 @@ __ESTREE_TEST__:PASS:
         "start": 38,
         "end": 43,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -167,14 +173,18 @@ __ESTREE_TEST__:PASS:
             "start": 133,
             "end": 150,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 152,
             "end": 160,
             "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -184,7 +194,9 @@ __ESTREE_TEST__:PASS:
         "start": 120,
         "end": 125,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -290,14 +302,18 @@ __ESTREE_TEST__:PASS:
             "start": 299,
             "end": 316,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 318,
             "end": 327,
             "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -307,7 +323,9 @@ __ESTREE_TEST__:PASS:
         "start": 286,
         "end": 291,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -350,14 +368,18 @@ __ESTREE_TEST__:PASS:
             "start": 386,
             "end": 403,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 405,
             "end": 413,
             "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -367,7 +389,9 @@ __ESTREE_TEST__:PASS:
         "start": 373,
         "end": 378,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -473,14 +497,18 @@ __ESTREE_TEST__:PASS:
             "start": 510,
             "end": 527,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 529,
             "end": 538,
             "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -491,7 +519,9 @@ __ESTREE_TEST__:PASS:
         "start": 497,
         "end": 502,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -534,14 +564,18 @@ __ESTREE_TEST__:PASS:
             "start": 592,
             "end": 609,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 611,
             "end": 619,
             "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -552,7 +586,9 @@ __ESTREE_TEST__:PASS:
         "start": 579,
         "end": 584,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

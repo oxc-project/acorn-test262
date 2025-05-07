@@ -2572,7 +2572,9 @@ __ESTREE_TEST__:PASS:
               "start": 1297,
               "end": 1299,
               "raw": "''",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2619,7 +2621,9 @@ __ESTREE_TEST__:PASS:
               "start": 1314,
               "end": 1315,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         }

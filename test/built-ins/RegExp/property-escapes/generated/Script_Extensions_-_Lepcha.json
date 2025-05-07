@@ -83,14 +83,18 @@
                               "start": 536,
                               "end": 544,
                               "value": 7168,
-                              "raw": "0x001C00"
+                              "raw": "0x001C00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 546,
                               "end": 554,
                               "value": 7223,
-                              "raw": "0x001C37"
+                              "raw": "0x001C37",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -104,14 +108,18 @@
                               "start": 562,
                               "end": 570,
                               "value": 7227,
-                              "raw": "0x001C3B"
+                              "raw": "0x001C3B",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 572,
                               "end": 580,
                               "value": 7241,
-                              "raw": "0x001C49"
+                              "raw": "0x001C49",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -125,14 +133,18 @@
                               "start": 588,
                               "end": 596,
                               "value": 7245,
-                              "raw": "0x001C4D"
+                              "raw": "0x001C4D",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 598,
                               "end": 606,
                               "value": 7247,
-                              "raw": "0x001C4F"
+                              "raw": "0x001C4F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -173,7 +185,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lepcha}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -186,7 +199,9 @@
             "start": 693,
             "end": 724,
             "value": "\\p{Script_Extensions=Lepcha}",
-            "raw": "\"\\\\p{Script_Extensions=Lepcha}\""
+            "raw": "\"\\\\p{Script_Extensions=Lepcha}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +231,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lepc}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -229,7 +245,9 @@
             "start": 803,
             "end": 832,
             "value": "\\p{Script_Extensions=Lepc}",
-            "raw": "\"\\\\p{Script_Extensions=Lepc}\""
+            "raw": "\"\\\\p{Script_Extensions=Lepc}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +277,8 @@
             "regex": {
               "pattern": "^\\p{scx=Lepcha}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -272,7 +291,9 @@
             "start": 899,
             "end": 916,
             "value": "\\p{scx=Lepcha}",
-            "raw": "\"\\\\p{scx=Lepcha}\""
+            "raw": "\"\\\\p{scx=Lepcha}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +323,8 @@
             "regex": {
               "pattern": "^\\p{scx=Lepc}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -315,7 +337,9 @@
             "start": 981,
             "end": 996,
             "value": "\\p{scx=Lepc}",
-            "raw": "\"\\\\p{scx=Lepc}\""
+            "raw": "\"\\\\p{scx=Lepc}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -401,14 +425,18 @@
                               "start": 1078,
                               "end": 1086,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1088,
                               "end": 1096,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1104,
                               "end": 1112,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1114,
                               "end": 1122,
                               "value": 7167,
-                              "raw": "0x001BFF"
+                              "raw": "0x001BFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -443,14 +475,18 @@
                               "start": 1130,
                               "end": 1138,
                               "value": 7224,
-                              "raw": "0x001C38"
+                              "raw": "0x001C38",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1140,
                               "end": 1148,
                               "value": 7226,
-                              "raw": "0x001C3A"
+                              "raw": "0x001C3A",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -464,14 +500,18 @@
                               "start": 1156,
                               "end": 1164,
                               "value": 7242,
-                              "raw": "0x001C4A"
+                              "raw": "0x001C4A",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1166,
                               "end": 1174,
                               "value": 7244,
-                              "raw": "0x001C4C"
+                              "raw": "0x001C4C",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -485,14 +525,18 @@
                               "start": 1182,
                               "end": 1190,
                               "value": 7248,
-                              "raw": "0x001C50"
+                              "raw": "0x001C50",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1192,
                               "end": 1200,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -506,14 +550,18 @@
                               "start": 1208,
                               "end": 1216,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1218,
                               "end": 1226,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -554,7 +602,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lepcha}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -567,7 +616,9 @@
             "start": 1316,
             "end": 1347,
             "value": "\\P{Script_Extensions=Lepcha}",
-            "raw": "\"\\\\P{Script_Extensions=Lepcha}\""
+            "raw": "\"\\\\P{Script_Extensions=Lepcha}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -597,7 +648,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lepc}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -610,7 +662,9 @@
             "start": 1429,
             "end": 1458,
             "value": "\\P{Script_Extensions=Lepc}",
-            "raw": "\"\\\\P{Script_Extensions=Lepc}\""
+            "raw": "\"\\\\P{Script_Extensions=Lepc}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -640,7 +694,8 @@
             "regex": {
               "pattern": "^\\P{scx=Lepcha}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -653,7 +708,9 @@
             "start": 1528,
             "end": 1545,
             "value": "\\P{scx=Lepcha}",
-            "raw": "\"\\\\P{scx=Lepcha}\""
+            "raw": "\"\\\\P{scx=Lepcha}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -683,7 +740,8 @@
             "regex": {
               "pattern": "^\\P{scx=Lepc}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -696,7 +754,9 @@
             "start": 1613,
             "end": 1628,
             "value": "\\P{scx=Lepc}",
-            "raw": "\"\\\\P{scx=Lepc}\""
+            "raw": "\"\\\\P{scx=Lepc}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

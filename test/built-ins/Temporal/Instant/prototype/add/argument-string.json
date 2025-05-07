@@ -60,7 +60,9 @@
                 "start": 343,
                 "end": 349,
                 "value": 10000,
-                "raw": "10_000"
+                "raw": "10_000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -113,7 +115,9 @@
                 "start": 380,
                 "end": 386,
                 "value": "PT3H",
-                "raw": "\"PT3H\""
+                "raw": "\"PT3H\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -175,6 +179,7 @@
             "end": 450,
             "value": null,
             "raw": "10_810_000_000_000n",
+            "regex": null,
             "bigint": "10810000000000"
           },
           {
@@ -182,7 +187,9 @@
             "start": 452,
             "end": 477,
             "value": "epochNanoseconds result",
-            "raw": "\"epochNanoseconds result\""
+            "raw": "\"epochNanoseconds result\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

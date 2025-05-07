@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 30,
         "raw": "'./b.json'",
-        "value": "./b.json"
+        "value": "./b.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -87,14 +87,18 @@
             "start": 561,
             "end": 566,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 571,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

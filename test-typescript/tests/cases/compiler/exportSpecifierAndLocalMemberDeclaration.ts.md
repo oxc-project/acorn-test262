@@ -183,7 +183,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "\"m2\"",
-        "value": "m2"
+        "value": "m2",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -260,7 +262,9 @@ __ESTREE_TEST__:PASS:
         "start": 149,
         "end": 153,
         "raw": "\"m2\"",
-        "value": "m2"
+        "value": "m2",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

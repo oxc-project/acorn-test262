@@ -45,7 +45,9 @@
                     "start": 907,
                     "end": 908,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,7 +56,9 @@
                 "start": 911,
                 "end": 912,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -218,7 +222,9 @@
                         "start": 1058,
                         "end": 1061,
                         "value": 100,
-                        "raw": "100"
+                        "raw": "100",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -238,7 +244,9 @@
             "start": 1077,
             "end": 1104,
             "value": "setFloat32(100, poisoned)",
-            "raw": "\"setFloat32(100, poisoned)\""
+            "raw": "\"setFloat32(100, poisoned)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,7 +333,9 @@
                         "start": 1171,
                         "end": 1176,
                         "value": "100",
-                        "raw": "'100'"
+                        "raw": "'100'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -345,7 +355,9 @@
             "start": 1192,
             "end": 1221,
             "value": "setFloat32('100', poisoned)",
-            "raw": "\"setFloat32('100', poisoned)\""
+            "raw": "\"setFloat32('100', poisoned)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

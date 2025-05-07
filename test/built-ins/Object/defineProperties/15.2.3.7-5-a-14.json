@@ -98,7 +98,9 @@
             "start": 394,
             "end": 400,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -141,7 +143,9 @@
                         "start": 426,
                         "end": 428,
                         "value": 14,
-                        "raw": "14"
+                        "raw": "14",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -167,7 +171,9 @@
                   "start": 448,
                   "end": 452,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -265,7 +271,9 @@
                 "start": 521,
                 "end": 527,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -275,7 +283,9 @@
             "start": 530,
             "end": 567,
             "value": "obj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,14 +343,18 @@
             "start": 597,
             "end": 599,
             "value": 14,
-            "raw": "14"
+            "raw": "14",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 601,
             "end": 611,
             "value": "obj.prop",
-            "raw": "'obj.prop'"
+            "raw": "'obj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

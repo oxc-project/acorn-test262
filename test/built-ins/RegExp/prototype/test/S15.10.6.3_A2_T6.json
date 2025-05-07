@@ -34,7 +34,9 @@
                 "start": 397,
                 "end": 400,
                 "value": 1,
-                "raw": "1.0"
+                "raw": "1.0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -137,7 +139,9 @@
                     "start": 477,
                     "end": 610,
                     "value": "#1.1: __instance = new Number(1.0); __instance.test = RegExp.prototype.test; __instance[\"test\"](\"message to investigate\"). Actual: ",
-                    "raw": "'#1.1: __instance = new Number(1.0); __instance.test = RegExp.prototype.test; __instance[\"test\"](\"message to investigate\"). Actual: '"
+                    "raw": "'#1.1: __instance = new Number(1.0); __instance.test = RegExp.prototype.test; __instance[\"test\"](\"message to investigate\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -163,7 +167,9 @@
                           "start": 625,
                           "end": 631,
                           "value": "test",
-                          "raw": "\"test\""
+                          "raw": "\"test\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -174,7 +180,9 @@
                           "start": 633,
                           "end": 657,
                           "value": "message to investigate",
-                          "raw": "\"message to investigate\""
+                          "raw": "\"message to investigate\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -252,14 +260,18 @@
                     "start": 728,
                     "end": 732,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 738,
                     "end": 812,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

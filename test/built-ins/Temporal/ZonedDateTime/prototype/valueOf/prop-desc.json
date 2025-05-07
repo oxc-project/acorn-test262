@@ -88,14 +88,18 @@
             "start": 386,
             "end": 396,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 400,
             "end": 456,
             "value": "`typeof ZonedDateTime.prototype.valueOf` is `function`",
-            "raw": "\"`typeof ZonedDateTime.prototype.valueOf` is `function`\""
+            "raw": "\"`typeof ZonedDateTime.prototype.valueOf` is `function`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +157,9 @@
             "start": 510,
             "end": 519,
             "value": "valueOf",
-            "raw": "\"valueOf\""
+            "raw": "\"valueOf\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -178,7 +184,9 @@
                   "start": 535,
                   "end": 539,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -200,7 +208,9 @@
                   "start": 555,
                   "end": 560,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -222,7 +232,9 @@
                   "start": 578,
                   "end": 582,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

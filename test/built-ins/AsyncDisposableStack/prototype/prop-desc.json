@@ -29,7 +29,9 @@
             "start": 496,
             "end": 507,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -54,7 +56,9 @@
                   "start": 523,
                   "end": 528,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -76,7 +80,9 @@
                   "start": 544,
                   "end": 549,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -98,7 +104,9 @@
                   "start": 567,
                   "end": 572,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

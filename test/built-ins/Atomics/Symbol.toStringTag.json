@@ -68,14 +68,18 @@
             "start": 590,
             "end": 599,
             "value": "Atomics",
-            "raw": "'Atomics'"
+            "raw": "'Atomics'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 658,
             "value": "The value of Atomics[Symbol.toStringTag] is \"Atomics\"",
-            "raw": "'The value of Atomics[Symbol.toStringTag] is \"Atomics\"'"
+            "raw": "'The value of Atomics[Symbol.toStringTag] is \"Atomics\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -144,7 +148,9 @@
                   "start": 721,
                   "end": 726,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -166,7 +172,9 @@
                   "start": 742,
                   "end": 747,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -188,7 +196,9 @@
                   "start": 765,
                   "end": 769,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -177,7 +177,9 @@
             "start": 458,
             "end": 520,
             "value": "`super[super()]` via `new Derived()` throws a ReferenceError",
-            "raw": "'`super[super()]` via `new Derived()` throws a ReferenceError'"
+            "raw": "'`super[super()]` via `new Derived()` throws a ReferenceError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

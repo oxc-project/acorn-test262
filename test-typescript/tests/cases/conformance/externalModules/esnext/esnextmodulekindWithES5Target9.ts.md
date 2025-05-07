@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 19,
         "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 38,
         "end": 43,
         "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -86,7 +90,9 @@ __ESTREE_TEST__:PASS:
         "start": 65,
         "end": 70,
         "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -222,7 +228,9 @@ __ESTREE_TEST__:PASS:
         "start": 126,
         "end": 131,
         "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -237,7 +245,9 @@ __ESTREE_TEST__:PASS:
         "start": 150,
         "end": 155,
         "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

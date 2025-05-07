@@ -46,7 +46,9 @@
                     "start": 909,
                     "end": 918,
                     "value": "Test262",
-                    "raw": "'Test262'"
+                    "raw": "'Test262'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -254,7 +256,9 @@
             "start": 1076,
             "end": 1085,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -392,7 +396,9 @@
             "start": 1161,
             "end": 1209,
             "value": "accessed private field from an ordinary object",
-            "raw": "'accessed private field from an ordinary object'"
+            "raw": "'accessed private field from an ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -320,7 +320,9 @@
             "start": 704,
             "end": 708,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -372,7 +374,9 @@
             "start": 740,
             "end": 748,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

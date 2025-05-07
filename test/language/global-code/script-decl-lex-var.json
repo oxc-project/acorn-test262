@@ -125,7 +125,9 @@
                         "start": 511,
                         "end": 535,
                         "value": "var x; let test262Var;",
-                        "raw": "'var x; let test262Var;'"
+                        "raw": "'var x; let test262Var;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -139,7 +141,9 @@
             "start": 541,
             "end": 551,
             "value": "variable",
-            "raw": "'variable'"
+            "raw": "'variable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -212,7 +216,9 @@
             "start": 606,
             "end": 655,
             "value": "no bindings created (script shadowing variable)",
-            "raw": "'no bindings created (script shadowing variable)'"
+            "raw": "'no bindings created (script shadowing variable)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,7 +305,9 @@
                         "start": 717,
                         "end": 740,
                         "value": "var x; let test262Fn;",
-                        "raw": "'var x; let test262Fn;'"
+                        "raw": "'var x; let test262Fn;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -313,7 +321,9 @@
             "start": 746,
             "end": 756,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,7 +396,9 @@
             "start": 811,
             "end": 860,
             "value": "no bindings created (script shadowing function)",
-            "raw": "'no bindings created (script shadowing function)'"
+            "raw": "'no bindings created (script shadowing function)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

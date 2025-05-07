@@ -23,7 +23,9 @@
             "start": 1155,
             "end": 1156,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": ".",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -245,7 +248,9 @@
                               "start": 1342,
                               "end": 1385,
                               "value": "first arg is the this value of replaceAll",
-                              "raw": "'first arg is the this value of replaceAll'"
+                              "raw": "'first arg is the this value of replaceAll'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -296,7 +301,9 @@
                               "start": 1428,
                               "end": 1460,
                               "value": "second arg is the replaceValue",
-                              "raw": "'second arg is the replaceValue'"
+                              "raw": "'second arg is the replaceValue'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -354,7 +361,9 @@
                               "start": 1502,
                               "end": 1503,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -380,7 +389,9 @@
                             "start": 1520,
                             "end": 1521,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -393,7 +404,9 @@
                           "start": 1534,
                           "end": 1536,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -446,7 +459,9 @@
             "start": 1582,
             "end": 1592,
             "value": "toString",
-            "raw": "'toString'"
+            "raw": "'toString'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -489,7 +504,9 @@
                           "start": 1628,
                           "end": 1666,
                           "value": "Should not call searchValue toString",
-                          "raw": "'Should not call searchValue toString'"
+                          "raw": "'Should not call searchValue toString'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -534,7 +551,9 @@
                 "start": 1697,
                 "end": 1702,
                 "value": "Leo",
-                "raw": "'Leo'"
+                "raw": "'Leo'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -664,7 +683,9 @@
             "start": 1797,
             "end": 1799,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -709,7 +730,9 @@
             "start": 1827,
             "end": 1828,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

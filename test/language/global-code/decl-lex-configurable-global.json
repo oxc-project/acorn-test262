@@ -125,7 +125,9 @@
             "start": 989,
             "end": 999,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,7 +182,9 @@
                 "start": 1092,
                 "end": 1099,
                 "value": "Array",
-                "raw": "'Array'"
+                "raw": "'Array'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -241,7 +245,9 @@
             "start": 1144,
             "end": 1148,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,7 +305,9 @@
             "start": 1191,
             "end": 1196,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,7 +365,9 @@
             "start": 1237,
             "end": 1241,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

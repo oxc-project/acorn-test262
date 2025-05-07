@@ -114,7 +114,9 @@
             "start": 361,
             "end": 405,
             "value": "Math.ceil(-Infinity) must return -Infinity",
-            "raw": "'Math.ceil(-Infinity) must return -Infinity'"
+            "raw": "'Math.ceil(-Infinity) must return -Infinity'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

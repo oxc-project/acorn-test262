@@ -27,7 +27,9 @@
               "start": 272,
               "end": 274,
               "value": 29,
-              "raw": "29"
+              "raw": "29",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 281,
           "end": 283,
           "value": 31,
-          "raw": "31"
+          "raw": "31",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -114,14 +118,18 @@
                       "start": 335,
                       "end": 339,
                       "value": 1975,
-                      "raw": "1975"
+                      "raw": "1975",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 341,
                       "end": 343,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -187,7 +195,9 @@
                   "start": 390,
                   "end": 394,
                   "value": 1976,
-                  "raw": "1976"
+                  "raw": "1976",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -255,7 +265,9 @@
               "start": 457,
               "end": 458,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -277,7 +289,9 @@
           "start": 465,
           "end": 467,
           "value": 11,
-          "raw": "11"
+          "raw": "11",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -342,14 +356,18 @@
                       "start": 519,
                       "end": 523,
                       "value": 1976,
-                      "raw": "1976"
+                      "raw": "1976",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 525,
                       "end": 526,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -415,7 +433,9 @@
                   "start": 573,
                   "end": 577,
                   "value": 1976,
-                  "raw": "1976"
+                  "raw": "1976",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -483,7 +503,9 @@
               "start": 640,
               "end": 642,
               "value": 20,
-              "raw": "20"
+              "raw": "20",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -505,7 +527,9 @@
           "start": 649,
           "end": 651,
           "value": 31,
-          "raw": "31"
+          "raw": "31",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -570,14 +594,18 @@
                       "start": 703,
                       "end": 707,
                       "value": 1976,
-                      "raw": "1976"
+                      "raw": "1976",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 709,
                       "end": 711,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -643,7 +671,9 @@
                   "start": 758,
                   "end": 762,
                   "value": 1976,
-                  "raw": "1976"
+                  "raw": "1976",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -711,7 +741,9 @@
               "start": 825,
               "end": 826,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -733,7 +765,9 @@
           "start": 833,
           "end": 834,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -798,14 +832,18 @@
                       "start": 886,
                       "end": 890,
                       "value": 1977,
-                      "raw": "1977"
+                      "raw": "1977",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 892,
                       "end": 893,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -871,7 +909,9 @@
                   "start": 940,
                   "end": 944,
                   "value": 1976,
-                  "raw": "1976"
+                  "raw": "1976",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",

@@ -131,7 +131,9 @@
                                             "start": 2231,
                                             "end": 2238,
                                             "value": "await",
-                                            "raw": "'await'"
+                                            "raw": "'await'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }

@@ -82,14 +82,18 @@
             "start": 794,
             "end": 799,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 868,
             "value": "isConstructor(DisposableStack.prototype.move) must return false",
-            "raw": "'isConstructor(DisposableStack.prototype.move) must return false'"
+            "raw": "'isConstructor(DisposableStack.prototype.move) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,7 +223,9 @@
             "start": 966,
             "end": 1040,
             "value": "`let stack = new DisposableStack({}); new stack.move()` throws TypeError",
-            "raw": "'`let stack = new DisposableStack({}); new stack.move()` throws TypeError'"
+            "raw": "'`let stack = new DisposableStack({}); new stack.move()` throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

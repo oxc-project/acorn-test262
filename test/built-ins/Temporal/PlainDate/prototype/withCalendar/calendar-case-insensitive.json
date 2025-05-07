@@ -47,28 +47,36 @@
                 "start": 303,
                 "end": 307,
                 "value": 1976,
-                "raw": "1976"
+                "raw": "1976",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 309,
                 "end": 311,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 315,
                 "value": 18,
-                "raw": "18"
+                "raw": "18",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 326,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -96,7 +104,9 @@
             "start": 340,
             "end": 349,
             "value": "iSo8601",
-            "raw": "\"iSo8601\""
+            "raw": "\"iSo8601\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -206,14 +216,18 @@
             "start": 430,
             "end": 439,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 471,
             "value": "Calendar is case-insensitive",
-            "raw": "\"Calendar is case-insensitive\""
+            "raw": "\"Calendar is case-insensitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +253,9 @@
           "start": 481,
           "end": 495,
           "value": "İSO8601",
-          "raw": "\"\\u0130SO8601\""
+          "raw": "\"\\u0130SO8601\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -325,7 +341,9 @@
             "start": 564,
             "end": 633,
             "value": "calendar ID is ASCII-lowercased, capital dotted I is not lowercased",
-            "raw": "\"calendar ID is ASCII-lowercased, capital dotted I is not lowercased\""
+            "raw": "\"calendar ID is ASCII-lowercased, capital dotted I is not lowercased\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -95,7 +95,9 @@
                 "start": 396,
                 "end": 404,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,14 +107,18 @@
             "start": 407,
             "end": 412,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 414,
             "end": 502,
             "value": "Functions created using ArrowFunction syntactic form do not have own property \"caller\"",
-            "raw": "'Functions created using ArrowFunction syntactic form do not have own property \"caller\"'"
+            "raw": "'Functions created using ArrowFunction syntactic form do not have own property \"caller\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -175,7 +181,9 @@
                 "start": 545,
                 "end": 556,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -185,14 +193,18 @@
             "start": 559,
             "end": 564,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 657,
             "value": "Functions created using ArrowFunction syntactic form do not have own property \"arguments\"",
-            "raw": "'Functions created using ArrowFunction syntactic form do not have own property \"arguments\"'"
+            "raw": "'Functions created using ArrowFunction syntactic form do not have own property \"arguments\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

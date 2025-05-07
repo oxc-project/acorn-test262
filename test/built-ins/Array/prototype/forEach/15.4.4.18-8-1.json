@@ -23,7 +23,9 @@
             "start": 299,
             "end": 300,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -160,14 +162,18 @@
             "start": 384,
             "end": 385,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 396,
             "value": "callCnt",
-            "raw": "'callCnt'"
+            "raw": "'callCnt'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

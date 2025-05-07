@@ -73,7 +73,9 @@
                 "start": 330,
                 "end": 343,
                 "value": "toPrecision",
-                "raw": "\"toPrecision\""
+                "raw": "\"toPrecision\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 348,
             "end": 352,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 356,
             "end": 421,
             "value": "Number.prototype.hasOwnProperty(\"toPrecision\") must return true",
-            "raw": "'Number.prototype.hasOwnProperty(\"toPrecision\") must return true'"
+            "raw": "'Number.prototype.hasOwnProperty(\"toPrecision\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

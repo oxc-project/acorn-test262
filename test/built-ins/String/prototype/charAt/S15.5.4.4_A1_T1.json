@@ -34,7 +34,9 @@
                 "start": 290,
                 "end": 292,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -145,7 +147,9 @@
                 "start": 453,
                 "end": 458,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -180,7 +184,9 @@
                 "start": 480,
                 "end": 484,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +198,9 @@
           "start": 490,
           "end": 494,
           "value": "42",
-          "raw": "\"42\""
+          "raw": "\"42\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -228,7 +236,9 @@
                       "start": 523,
                       "end": 745,
                       "value": "#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: ",
-                      "raw": "'#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: '"
+                      "raw": "'#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -260,7 +270,9 @@
                           "start": 766,
                           "end": 771,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -296,7 +308,9 @@
                         "start": 793,
                         "end": 797,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

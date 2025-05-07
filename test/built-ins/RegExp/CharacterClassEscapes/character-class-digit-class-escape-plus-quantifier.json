@@ -83,14 +83,18 @@
                               "start": 1603,
                               "end": 1611,
                               "value": 48,
-                              "raw": "0x000030"
+                              "raw": "0x000030",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1613,
                               "end": 1621,
                               "value": 57,
-                              "raw": "0x000039"
+                              "raw": "0x000039",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "\\d+",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -333,7 +338,9 @@
                                 "start": 1802,
                                 "end": 1806,
                                 "value": "0x",
-                                "raw": "'0x'"
+                                "raw": "'0x'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -373,7 +380,9 @@
                                         "start": 1826,
                                         "end": 1827,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -393,7 +402,9 @@
                                     "start": 1838,
                                     "end": 1840,
                                     "value": 16,
-                                    "raw": "16"
+                                    "raw": "16",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -466,7 +477,9 @@
             "start": 1894,
             "end": 1895,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -477,7 +490,9 @@
               "start": 1899,
               "end": 1946,
               "value": "Expected matching code points, but received: ",
-              "raw": "'Expected matching code points, but received: '"
+              "raw": "'Expected matching code points, but received: '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -509,7 +524,9 @@
                   "start": 1961,
                   "end": 1964,
                   "value": ",",
-                  "raw": "','"
+                  "raw": "','",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

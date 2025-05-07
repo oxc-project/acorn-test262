@@ -99,7 +99,9 @@
                           "start": 298,
                           "end": 308,
                           "value": " proto m",
-                          "raw": "' proto m'"
+                          "raw": "' proto m'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -145,7 +147,9 @@
                   "start": 335,
                   "end": 338,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -174,7 +178,9 @@
                             "start": 351,
                             "end": 354,
                             "value": "a",
-                            "raw": "'a'"
+                            "raw": "'a'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -232,7 +238,9 @@
                       "start": 377,
                       "end": 380,
                       "value": "b",
-                      "raw": "'b'"
+                      "raw": "'b'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -264,7 +272,9 @@
                             "start": 394,
                             "end": 397,
                             "value": "b",
-                            "raw": "'b'"
+                            "raw": "'b'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -311,7 +321,9 @@
                   "start": 417,
                   "end": 418,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -340,7 +352,9 @@
                             "start": 431,
                             "end": 434,
                             "value": "0",
-                            "raw": "'0'"
+                            "raw": "'0'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -398,7 +412,9 @@
                       "start": 457,
                       "end": 458,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -430,7 +446,9 @@
                             "start": 472,
                             "end": 475,
                             "value": "1",
-                            "raw": "'1'"
+                            "raw": "'1'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -574,14 +592,18 @@
             "start": 564,
             "end": 575,
             "value": "a proto m",
-            "raw": "'a proto m'"
+            "raw": "'a proto m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 670,
             "value": "`object.a()` returns `'a proto m'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"`object.a()` returns `'a proto m'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"`object.a()` returns `'a proto m'`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -646,14 +668,18 @@
             "start": 702,
             "end": 713,
             "value": "b proto m",
-            "raw": "'b proto m'"
+            "raw": "'b proto m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 808,
             "value": "`object.b()` returns `'b proto m'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"`object.b()` returns `'b proto m'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"`object.b()` returns `'b proto m'`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -706,7 +732,9 @@
                 "start": 835,
                 "end": 836,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -719,14 +747,18 @@
             "start": 841,
             "end": 852,
             "value": "0 proto m",
-            "raw": "'0 proto m'"
+            "raw": "'0 proto m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 854,
             "end": 948,
             "value": "`object[0]()` returns `'0 proto m'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"`object[0]()` returns `'0 proto m'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"`object[0]()` returns `'0 proto m'`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -779,7 +811,9 @@
                 "start": 975,
                 "end": 976,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -792,14 +826,18 @@
             "start": 981,
             "end": 992,
             "value": "1 proto m",
-            "raw": "'1 proto m'"
+            "raw": "'1 proto m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 994,
             "end": 1088,
             "value": "`object[1]()` returns `'1 proto m'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"`object[1]()` returns `'1 proto m'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"`object[1]()` returns `'1 proto m'`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

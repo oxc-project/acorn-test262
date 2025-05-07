@@ -40,7 +40,9 @@
                       "start": 3830,
                       "end": 3856,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -138,14 +140,18 @@
                                     "start": 3909,
                                     "end": 3917,
                                     "value": "local1",
-                                    "raw": "'local1'"
+                                    "raw": "'local1'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 3919,
                                     "end": 3928,
                                     "value": "Test262",
-                                    "raw": "'Test262'"
+                                    "raw": "'Test262'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -155,14 +161,18 @@
                                 "start": 3931,
                                 "end": 3936,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 3938,
                                 "end": 3959,
                                 "value": "Reflect.set: local1",
-                                "raw": "'Reflect.set: local1'"
+                                "raw": "'Reflect.set: local1'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -225,7 +235,9 @@
                                   "start": 3995,
                                   "end": 4004,
                                   "value": "Test262",
-                                  "raw": "'Test262'"
+                                  "raw": "'Test262'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -233,14 +245,18 @@
                                 "start": 4006,
                                 "end": 4015,
                                 "value": "Test262",
-                                "raw": "'Test262'"
+                                "raw": "'Test262'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4017,
                                 "end": 4047,
                                 "value": "AssignmentExpression: local1",
-                                "raw": "'AssignmentExpression: local1'"
+                                "raw": "'AssignmentExpression: local1'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -309,14 +325,18 @@
                                     "start": 4088,
                                     "end": 4097,
                                     "value": "renamed",
-                                    "raw": "'renamed'"
+                                    "raw": "'renamed'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 4099,
                                     "end": 4105,
                                     "value": "TC39",
-                                    "raw": "'TC39'"
+                                    "raw": "'TC39'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -326,14 +346,18 @@
                                 "start": 4108,
                                 "end": 4113,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4115,
                                 "end": 4137,
                                 "value": "Reflect.set: renamed",
-                                "raw": "'Reflect.set: renamed'"
+                                "raw": "'Reflect.set: renamed'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -396,7 +420,9 @@
                                   "start": 4174,
                                   "end": 4180,
                                   "value": "TC39",
-                                  "raw": "'TC39'"
+                                  "raw": "'TC39'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -404,14 +430,18 @@
                                 "start": 4182,
                                 "end": 4188,
                                 "value": "TC39",
-                                "raw": "'TC39'"
+                                "raw": "'TC39'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4190,
                                 "end": 4221,
                                 "value": "AssignmentExpression: renamed",
-                                "raw": "'AssignmentExpression: renamed'"
+                                "raw": "'AssignmentExpression: renamed'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -480,14 +510,18 @@
                                     "start": 4262,
                                     "end": 4272,
                                     "value": "indirect",
-                                    "raw": "'indirect'"
+                                    "raw": "'indirect'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 4274,
                                     "end": 4283,
                                     "value": "Test262",
-                                    "raw": "'Test262'"
+                                    "raw": "'Test262'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -497,14 +531,18 @@
                                 "start": 4286,
                                 "end": 4291,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4293,
                                 "end": 4316,
                                 "value": "Reflect.set: indirect",
-                                "raw": "'Reflect.set: indirect'"
+                                "raw": "'Reflect.set: indirect'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -567,7 +605,9 @@
                                   "start": 4354,
                                   "end": 4363,
                                   "value": "Test262",
-                                  "raw": "'Test262'"
+                                  "raw": "'Test262'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -575,14 +615,18 @@
                                 "start": 4365,
                                 "end": 4374,
                                 "value": "Test262",
-                                "raw": "'Test262'"
+                                "raw": "'Test262'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4376,
                                 "end": 4408,
                                 "value": "AssignmentExpression: indirect",
-                                "raw": "'AssignmentExpression: indirect'"
+                                "raw": "'AssignmentExpression: indirect'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -651,14 +695,18 @@
                                     "start": 4449,
                                     "end": 4458,
                                     "value": "default",
-                                    "raw": "'default'"
+                                    "raw": "'default'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 4460,
                                     "end": 4462,
                                     "value": 42,
-                                    "raw": "42"
+                                    "raw": "42",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -668,14 +716,18 @@
                                 "start": 4465,
                                 "end": 4470,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4472,
                                 "end": 4494,
                                 "value": "Reflect.set: default",
-                                "raw": "'Reflect.set: default'"
+                                "raw": "'Reflect.set: default'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -738,7 +790,9 @@
                                   "start": 4531,
                                   "end": 4533,
                                   "value": 42,
-                                  "raw": "42"
+                                  "raw": "42",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -746,14 +800,18 @@
                                 "start": 4535,
                                 "end": 4537,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4539,
                                 "end": 4570,
                                 "value": "AssignmentExpression: default",
-                                "raw": "'AssignmentExpression: default'"
+                                "raw": "'AssignmentExpression: default'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -876,14 +934,18 @@
                                 "start": 4669,
                                 "end": 4674,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4682,
                                 "end": 4715,
                                 "value": "Reflect.set: Symbol.toStringTag",
-                                "raw": "'Reflect.set: Symbol.toStringTag'"
+                                "raw": "'Reflect.set: Symbol.toStringTag'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -992,14 +1054,18 @@
                                 "start": 4793,
                                 "end": 4801,
                                 "value": "Module",
-                                "raw": "'Module'"
+                                "raw": "'Module'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4803,
                                 "end": 4845,
                                 "value": "AssignmentExpression: Symbol.toStringTag",
-                                "raw": "'AssignmentExpression: Symbol.toStringTag'"
+                                "raw": "'AssignmentExpression: Symbol.toStringTag'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

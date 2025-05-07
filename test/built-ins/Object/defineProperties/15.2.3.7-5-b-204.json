@@ -151,7 +151,9 @@
                   "start": 433,
                   "end": 443,
                   "value": "Function",
-                  "raw": "\"Function\""
+                  "raw": "\"Function\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -277,14 +279,18 @@
             "start": 533,
             "end": 543,
             "value": "Function",
-            "raw": "\"Function\""
+            "raw": "\"Function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 559,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

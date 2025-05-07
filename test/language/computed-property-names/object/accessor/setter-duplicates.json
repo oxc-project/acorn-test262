@@ -23,7 +23,9 @@
             "start": 359,
             "end": 360,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -61,7 +63,9 @@
                   "start": 379,
                   "end": 382,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -146,7 +150,9 @@
           "start": 415,
           "end": 418,
           "value": "A",
-          "raw": "'A'"
+          "raw": "'A'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -189,14 +195,18 @@
             "start": 444,
             "end": 445,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 476,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,7 +232,9 @@
           "start": 488,
           "end": 489,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -300,7 +312,9 @@
                               "start": 541,
                               "end": 590,
                               "value": "The `b` setter definition in `B` is unreachable",
-                              "raw": "\"The `b` setter definition in `B` is unreachable\""
+                              "raw": "\"The `b` setter definition in `B` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -322,7 +336,9 @@
                   "start": 605,
                   "end": 608,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -407,7 +423,9 @@
           "start": 641,
           "end": 644,
           "value": "B",
-          "raw": "'B'"
+          "raw": "'B'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -450,14 +468,18 @@
             "start": 670,
             "end": 671,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 673,
             "end": 702,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -483,7 +505,9 @@
           "start": 714,
           "end": 715,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -561,7 +585,9 @@
                               "start": 767,
                               "end": 816,
                               "value": "The `c` setter definition in `C` is unreachable",
-                              "raw": "\"The `c` setter definition in `C` is unreachable\""
+                              "raw": "\"The `c` setter definition in `C` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -583,7 +609,9 @@
                   "start": 831,
                   "end": 834,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -626,7 +654,9 @@
                               "start": 868,
                               "end": 927,
                               "value": "The first `['c']` setter definition in `C` is unreachable",
-                              "raw": "\"The first `['c']` setter definition in `C` is unreachable\""
+                              "raw": "\"The first `['c']` setter definition in `C` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -648,7 +678,9 @@
                   "start": 942,
                   "end": 945,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -733,7 +765,9 @@
           "start": 977,
           "end": 980,
           "value": "C",
-          "raw": "'C'"
+          "raw": "'C'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -776,14 +810,18 @@
             "start": 1006,
             "end": 1007,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1009,
             "end": 1038,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -809,7 +847,9 @@
           "start": 1050,
           "end": 1051,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -845,7 +885,9 @@
                   "start": 1070,
                   "end": 1073,
                   "value": "d",
-                  "raw": "'d'"
+                  "raw": "'d'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -888,7 +930,9 @@
                               "start": 1107,
                               "end": 1160,
                               "value": "The `['d']` setter definition in `D` is unreachable",
-                              "raw": "\"The `['d']` setter definition in `D` is unreachable\""
+                              "raw": "\"The `['d']` setter definition in `D` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -994,7 +1038,9 @@
           "start": 1206,
           "end": 1209,
           "value": "D",
-          "raw": "'D'"
+          "raw": "'D'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1037,14 +1083,18 @@
             "start": 1235,
             "end": 1236,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1238,
             "end": 1267,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

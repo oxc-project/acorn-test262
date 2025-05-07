@@ -53,7 +53,9 @@
                 "start": 1646,
                 "end": 1656,
                 "value": "poisoned",
-                "raw": "'poisoned'"
+                "raw": "'poisoned'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",

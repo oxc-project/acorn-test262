@@ -36,14 +36,18 @@
                     "start": 1355,
                     "end": 1357,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1359,
                     "end": 1361,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -188,7 +192,9 @@
                     "start": 1469,
                     "end": 1476,
                     "value": "hacks",
-                    "raw": "\"hacks\""
+                    "raw": "\"hacks\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -242,14 +248,18 @@
                 "start": 1508,
                 "end": 1510,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1512,
                 "end": 1513,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -290,14 +300,18 @@
                     "start": 1532,
                     "end": 1540,
                     "value": "hacks1",
-                    "raw": "\"hacks1\""
+                    "raw": "\"hacks1\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1542,
                     "end": 1550,
                     "value": "hacks2",
-                    "raw": "\"hacks2\""
+                    "raw": "\"hacks2\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -486,7 +500,9 @@
                         "start": 1712,
                         "end": 1736,
                         "value": "returns expected value",
-                        "raw": "\"returns expected value\""
+                        "raw": "\"returns expected value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -551,7 +567,9 @@
                         "start": 1794,
                         "end": 1831,
                         "value": "toLocaleString called for each item",
-                        "raw": "\"toLocaleString called for each item\""
+                        "raw": "\"toLocaleString called for each item\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

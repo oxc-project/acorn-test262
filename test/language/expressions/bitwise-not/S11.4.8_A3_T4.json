@@ -28,7 +28,9 @@
               "start": 266,
               "end": 267,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -44,7 +46,9 @@
             "start": 273,
             "end": 274,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -77,7 +81,9 @@
                     "start": 303,
                     "end": 333,
                     "value": "#1: ~void 0 === -1. Actual: ",
-                    "raw": "'#1: ~void 0 === -1. Actual: '"
+                    "raw": "'#1: ~void 0 === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -101,7 +107,9 @@
                           "start": 343,
                           "end": 344,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -133,7 +141,9 @@
             "start": 366,
             "end": 370,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -148,7 +158,9 @@
             "start": 376,
             "end": 377,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -181,7 +193,9 @@
                     "start": 406,
                     "end": 434,
                     "value": "#2: ~null === -1. Actual: ",
-                    "raw": "'#2: ~null === -1. Actual: '"
+                    "raw": "'#2: ~null === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -199,7 +213,9 @@
                         "start": 439,
                         "end": 443,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

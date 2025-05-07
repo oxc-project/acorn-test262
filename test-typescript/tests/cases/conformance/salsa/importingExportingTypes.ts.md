@@ -220,7 +220,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -246,7 +248,9 @@ __ESTREE_TEST__:PASS:
         "start": 75,
         "end": 79,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

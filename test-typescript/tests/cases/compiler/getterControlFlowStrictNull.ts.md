@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
                             "start": 88,
                             "end": 90,
                             "raw": "''",
-                            "value": ""
+                            "value": "",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -112,7 +114,9 @@ __ESTREE_TEST__:PASS:
                         "start": 62,
                         "end": 65,
                         "raw": "0.5",
-                        "value": 0.5
+                        "value": 0.5,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -225,7 +229,9 @@ __ESTREE_TEST__:PASS:
                             "start": 246,
                             "end": 248,
                             "raw": "''",
-                            "value": ""
+                            "value": "",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -273,7 +279,9 @@ __ESTREE_TEST__:PASS:
                         "start": 220,
                         "end": 223,
                         "raw": "0.5",
-                        "value": 0.5
+                        "value": 0.5,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -386,7 +394,9 @@ __ESTREE_TEST__:PASS:
                             "start": 408,
                             "end": 409,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -434,7 +444,9 @@ __ESTREE_TEST__:PASS:
                         "start": 382,
                         "end": 385,
                         "raw": "0.5",
-                        "value": 0.5
+                        "value": 0.5,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

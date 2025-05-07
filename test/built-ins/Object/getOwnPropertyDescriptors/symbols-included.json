@@ -59,7 +59,9 @@
                 "start": 334,
                 "end": 340,
                 "value": "enum",
-                "raw": "'enum'"
+                "raw": "'enum'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -99,7 +101,9 @@
                 "start": 367,
                 "end": 376,
                 "value": "nonenum",
-                "raw": "'nonenum'"
+                "raw": "'nonenum'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -139,7 +143,9 @@
                 "start": 401,
                 "end": 408,
                 "value": "value",
-                "raw": "'value'"
+                "raw": "'value'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -294,7 +300,9 @@
                   "start": 518,
                   "end": 522,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -316,7 +324,9 @@
                   "start": 538,
                   "end": 543,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -338,7 +348,9 @@
                   "start": 561,
                   "end": 565,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -500,14 +512,18 @@
             "start": 685,
             "end": 686,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 723,
             "value": "obj has 1 string-keyed descriptor",
-            "raw": "'obj has 1 string-keyed descriptor'"
+            "raw": "'obj has 1 string-keyed descriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -592,14 +608,18 @@
             "start": 788,
             "end": 789,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 827,
             "value": "obj has 2 symbol-keyed descriptors",
-            "raw": "'obj has 2 symbol-keyed descriptors'"
+            "raw": "'obj has 2 symbol-keyed descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -670,14 +690,18 @@
             "start": 873,
             "end": 877,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 879,
             "end": 907,
             "value": "result.key is configurable",
-            "raw": "'result.key is configurable'"
+            "raw": "'result.key is configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -748,14 +772,18 @@
             "start": 950,
             "end": 954,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 982,
             "value": "result.key is enumerable",
-            "raw": "'result.key is enumerable'"
+            "raw": "'result.key is enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -826,14 +854,18 @@
             "start": 1023,
             "end": 1027,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1029,
             "end": 1053,
             "value": "result.key is writable",
-            "raw": "'result.key is writable'"
+            "raw": "'result.key is writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -910,7 +942,9 @@
             "start": 1101,
             "end": 1132,
             "value": "result.key has value symValue",
-            "raw": "'result.key has value symValue'"
+            "raw": "'result.key has value symValue'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -981,14 +1015,18 @@
             "start": 1183,
             "end": 1187,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1189,
             "end": 1222,
             "value": "result[enumSym] is configurable",
-            "raw": "'result[enumSym] is configurable'"
+            "raw": "'result[enumSym] is configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1059,14 +1097,18 @@
             "start": 1270,
             "end": 1274,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1276,
             "end": 1307,
             "value": "result[enumSym] is enumerable",
-            "raw": "'result[enumSym] is enumerable'"
+            "raw": "'result[enumSym] is enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1137,14 +1179,18 @@
             "start": 1353,
             "end": 1357,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1359,
             "end": 1388,
             "value": "result[enumSym] is writable",
-            "raw": "'result[enumSym] is writable'"
+            "raw": "'result[enumSym] is writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1221,7 +1267,9 @@
             "start": 1438,
             "end": 1473,
             "value": "result[enumSym] has value `value`",
-            "raw": "'result[enumSym] has value `value`'"
+            "raw": "'result[enumSym] has value `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1292,14 +1340,18 @@
             "start": 1527,
             "end": 1531,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1533,
             "end": 1569,
             "value": "result[nonEnumSym] is configurable",
-            "raw": "'result[nonEnumSym] is configurable'"
+            "raw": "'result[nonEnumSym] is configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1370,14 +1422,18 @@
             "start": 1620,
             "end": 1625,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1627,
             "end": 1665,
             "value": "result[nonEnumSym] is not enumerable",
-            "raw": "'result[nonEnumSym] is not enumerable'"
+            "raw": "'result[nonEnumSym] is not enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1448,14 +1504,18 @@
             "start": 1714,
             "end": 1718,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1720,
             "end": 1752,
             "value": "result[nonEnumSym] is writable",
-            "raw": "'result[nonEnumSym] is writable'"
+            "raw": "'result[nonEnumSym] is writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1532,7 +1592,9 @@
             "start": 1805,
             "end": 1843,
             "value": "result[nonEnumSym] has value `value`",
-            "raw": "'result[nonEnumSym] has value `value`'"
+            "raw": "'result[nonEnumSym] has value `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

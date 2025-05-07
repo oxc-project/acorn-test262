@@ -28,14 +28,18 @@
                 "start": 754,
                 "end": 761,
                 "value": "first",
-                "raw": "\"first\""
+                "raw": "\"first\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 763,
                 "end": 771,
                 "value": "second",
-                "raw": "\"second\""
+                "raw": "\"second\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -82,7 +86,9 @@
             "start": 804,
             "end": 805,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -149,7 +155,9 @@
                             "start": 848,
                             "end": 849,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -162,7 +170,9 @@
                           "start": 862,
                           "end": 869,
                           "value": "first",
-                          "raw": "\"first\""
+                          "raw": "\"first\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -248,7 +258,9 @@
                 "start": 916,
                 "end": 917,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -264,14 +276,18 @@
             "start": 929,
             "end": 934,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 936,
             "end": 970,
             "value": "Indexed property '0' not present",
-            "raw": "\"Indexed property '0' not present\""
+            "raw": "\"Indexed property '0' not present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,7 +334,9 @@
                 "start": 991,
                 "end": 992,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -334,14 +352,18 @@
             "start": 1004,
             "end": 1008,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1010,
             "end": 1040,
             "value": "Indexed property '1' present",
-            "raw": "\"Indexed property '1' present\""
+            "raw": "\"Indexed property '1' present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +412,9 @@
               "start": 1066,
               "end": 1067,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -400,14 +424,18 @@
             "start": 1070,
             "end": 1077,
             "value": "first",
-            "raw": "\"first\""
+            "raw": "\"first\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1079,
             "end": 1115,
             "value": "Indexed property '1' value correct",
-            "raw": "\"Indexed property '1' value correct\""
+            "raw": "\"Indexed property '1' value correct\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

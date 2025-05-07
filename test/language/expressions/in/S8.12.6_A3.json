@@ -128,7 +128,9 @@
                     "start": 520,
                     "end": 596,
                     "value": "#1: var __obj={}; __obj.hole=undefined; __obj.hole === undefined. Actual: ",
-                    "raw": "'#1: var __obj={}; __obj.hole=undefined; __obj.hole === undefined. Actual: '"
+                    "raw": "'#1: var __obj={}; __obj.hole=undefined; __obj.hole === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -227,7 +229,9 @@
                     "start": 849,
                     "end": 929,
                     "value": "#2: var __obj={}; __obj.hole=undefined; __obj.notexist === undefined. Actual: ",
-                    "raw": "'#2: var __obj={}; __obj.hole=undefined; __obj.notexist === undefined. Actual: '"
+                    "raw": "'#2: var __obj={}; __obj.hole=undefined; __obj.notexist === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -285,7 +289,9 @@
               "start": 1131,
               "end": 1137,
               "value": "hole",
-              "raw": "\"hole\""
+              "raw": "\"hole\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -322,7 +328,9 @@
                   "start": 1176,
                   "end": 1233,
                   "value": "#3: var __obj={}; __obj.hole=undefined; \"hole\" in __obj",
-                  "raw": "'#3: var __obj={}; __obj.hole=undefined; \"hole\" in __obj'"
+                  "raw": "'#3: var __obj={}; __obj.hole=undefined; \"hole\" in __obj'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -348,7 +356,9 @@
             "start": 1415,
             "end": 1425,
             "value": "notexist",
-            "raw": "\"notexist\""
+            "raw": "\"notexist\"",
+            "regex": null,
+            "bigint": null
           },
           "operator": "in",
           "right": {
@@ -384,7 +394,9 @@
                   "start": 1464,
                   "end": 1525,
                   "value": "#4: var __obj={}; __obj.hole=undefined; \"notexist\" in __obj",
-                  "raw": "'#4: var __obj={}; __obj.hole=undefined; \"notexist\" in __obj'"
+                  "raw": "'#4: var __obj={}; __obj.hole=undefined; \"notexist\" in __obj'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

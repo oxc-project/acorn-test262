@@ -48,7 +48,9 @@
             "start": 316,
             "end": 317,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -287,7 +289,9 @@
                                             "start": 514,
                                             "end": 528,
                                             "value": "non-thenable",
-                                            "raw": "\"non-thenable\""
+                                            "raw": "\"non-thenable\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -392,7 +396,9 @@
                                                 "start": 634,
                                                 "end": 638,
                                                 "value": true,
-                                                "raw": "true"
+                                                "raw": "true",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "optional": false
@@ -511,7 +517,9 @@
                                                     "start": 761,
                                                     "end": 768,
                                                     "value": "oh no",
-                                                    "raw": "\"oh no\""
+                                                    "raw": "\"oh no\"",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 ]
                                               }
@@ -599,14 +607,18 @@
                             "start": 837,
                             "end": 838,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 840,
                             "end": 867,
                             "value": "asyncTest must call $DONE",
-                            "raw": "\"asyncTest must call $DONE\""
+                            "raw": "\"asyncTest must call $DONE\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

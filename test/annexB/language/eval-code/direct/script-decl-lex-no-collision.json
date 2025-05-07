@@ -23,7 +23,9 @@
             "start": 1048,
             "end": 1087,
             "value": "if (true) { function test262Fn() {} }",
-            "raw": "'if (true) { function test262Fn() {} }'"
+            "raw": "'if (true) { function test262Fn() {} }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -62,7 +64,9 @@
             "start": 1107,
             "end": 1127,
             "value": "let test262Fn = 1;",
-            "raw": "'let test262Fn = 1;'"
+            "raw": "'let test262Fn = 1;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -107,7 +111,9 @@
             "start": 1159,
             "end": 1160,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

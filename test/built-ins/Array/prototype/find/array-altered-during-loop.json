@@ -28,21 +28,27 @@
                 "start": 564,
                 "end": 571,
                 "value": "Shoes",
-                "raw": "'Shoes'"
+                "raw": "'Shoes'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 573,
                 "end": 578,
                 "value": "Car",
-                "raw": "'Car'"
+                "raw": "'Car'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 580,
                 "end": 586,
                 "value": "Bike",
-                "raw": "'Bike'"
+                "raw": "'Bike'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -157,7 +163,9 @@
                       "start": 661,
                       "end": 662,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -198,14 +206,18 @@
                               "start": 681,
                               "end": 682,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 684,
                               "end": 685,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -312,14 +324,18 @@
             "start": 754,
             "end": 755,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 787,
             "value": "predicate called three times",
-            "raw": "'predicate called three times'"
+            "raw": "'predicate called three times'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +384,9 @@
               "start": 815,
               "end": 816,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -378,7 +396,9 @@
             "start": 819,
             "end": 826,
             "value": "Shoes",
-            "raw": "'Shoes'"
+            "raw": "'Shoes'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +447,9 @@
               "start": 854,
               "end": 855,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -437,7 +459,9 @@
             "start": 858,
             "end": 864,
             "value": "Bike",
-            "raw": "'Bike'"
+            "raw": "'Bike'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +510,9 @@
               "start": 892,
               "end": 893,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -549,14 +575,18 @@
               "start": 930,
               "end": 942,
               "value": "Skateboard",
-              "raw": "'Skateboard'"
+              "raw": "'Skateboard'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 944,
               "end": 954,
               "value": "Barefoot",
-              "raw": "'Barefoot'"
+              "raw": "'Barefoot'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -644,7 +674,9 @@
                       "start": 1010,
                       "end": 1011,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -685,7 +717,9 @@
                               "start": 1028,
                               "end": 1040,
                               "value": "Motorcycle",
-                              "raw": "'Motorcycle'"
+                              "raw": "'Motorcycle'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -715,7 +749,9 @@
                               "start": 1051,
                               "end": 1052,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -725,7 +761,9 @@
                             "start": 1056,
                             "end": 1070,
                             "value": "Magic Carpet",
-                            "raw": "'Magic Carpet'"
+                            "raw": "'Magic Carpet'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -830,14 +868,18 @@
             "start": 1139,
             "end": 1140,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1142,
             "end": 1166,
             "value": "predicate called twice",
-            "raw": "'predicate called twice'"
+            "raw": "'predicate called twice'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -886,7 +928,9 @@
               "start": 1194,
               "end": 1195,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -896,7 +940,9 @@
             "start": 1198,
             "end": 1210,
             "value": "Skateboard",
-            "raw": "'Skateboard'"
+            "raw": "'Skateboard'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -945,7 +991,9 @@
               "start": 1238,
               "end": 1239,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -955,7 +1003,9 @@
             "start": 1242,
             "end": 1256,
             "value": "Magic Carpet",
-            "raw": "'Magic Carpet'"
+            "raw": "'Magic Carpet'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

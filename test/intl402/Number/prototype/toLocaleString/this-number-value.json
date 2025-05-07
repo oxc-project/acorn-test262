@@ -34,21 +34,27 @@
                 "start": 298,
                 "end": 302,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 304,
                 "end": 307,
                 "value": "5",
-                "raw": "\"5\""
+                "raw": "\"5\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 309,
                 "end": 314,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -91,7 +97,9 @@
                               "start": 347,
                               "end": 348,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -132,7 +140,9 @@
                 "start": 374,
                 "end": 375,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -151,7 +161,9 @@
                   "start": 383,
                   "end": 393,
                   "value": 1234567.89,
-                  "raw": "1234567.89"
+                  "raw": "1234567.89",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -364,7 +376,9 @@
                             "start": 564,
                             "end": 620,
                             "value": "Number.prototype.toLocaleString did not reject this = ",
-                            "raw": "\"Number.prototype.toLocaleString did not reject this = \""
+                            "raw": "\"Number.prototype.toLocaleString did not reject this = \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -380,7 +394,9 @@
                           "start": 631,
                           "end": 634,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -690,7 +706,9 @@
                             "start": 1047,
                             "end": 1125,
                             "value": "Number.prototype.toLocaleString produces different results for Number value ",
-                            "raw": "\"Number.prototype.toLocaleString produces different results for Number value \""
+                            "raw": "\"Number.prototype.toLocaleString produces different results for Number value \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -706,7 +724,9 @@
                           "start": 1136,
                           "end": 1171,
                           "value": " and corresponding Number object.",
-                          "raw": "\" and corresponding Number object.\""
+                          "raw": "\" and corresponding Number object.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

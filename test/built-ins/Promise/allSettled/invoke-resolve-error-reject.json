@@ -146,7 +146,9 @@
                         "start": 804,
                         "end": 805,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -197,7 +199,9 @@
                             "start": 856,
                             "end": 894,
                             "value": "The promise should not be fulfilled.",
-                            "raw": "'The promise should not be fulfilled.'"
+                            "raw": "'The promise should not be fulfilled.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -273,7 +277,9 @@
                                   "start": 979,
                                   "end": 1040,
                                   "value": "The promise should be rejected with the thrown error object",
-                                  "raw": "'The promise should be rejected with the thrown error object'"
+                                  "raw": "'The promise should be rejected with the thrown error object'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }

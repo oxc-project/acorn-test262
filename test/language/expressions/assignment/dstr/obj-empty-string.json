@@ -43,7 +43,9 @@
             "start": 776,
             "end": 778,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

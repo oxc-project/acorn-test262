@@ -34,21 +34,27 @@
                 "start": 271,
                 "end": 272,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 275,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 278,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,14 +119,18 @@
                 "start": 313,
                 "end": 314,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 319,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -130,14 +140,18 @@
             "start": 322,
             "end": 323,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 325,
             "end": 344,
             "value": "\"1\" resolves to 1",
-            "raw": "'\"1\" resolves to 1'"
+            "raw": "'\"1\" resolves to 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,14 +214,18 @@
                 "start": 378,
                 "end": 379,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 386,
                 "value": "one",
-                "raw": "\"one\""
+                "raw": "\"one\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -223,7 +241,9 @@
               "start": 390,
               "end": 391,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -231,7 +251,9 @@
             "start": 393,
             "end": 420,
             "value": "NaN string resolves to 01",
-            "raw": "'NaN string resolves to 01'"
+            "raw": "'NaN string resolves to 01'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

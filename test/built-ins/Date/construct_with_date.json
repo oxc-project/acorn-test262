@@ -23,7 +23,9 @@
             "start": 455,
             "end": 468,
             "value": 1438560000000,
-            "raw": "1438560000000"
+            "raw": "1438560000000",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -129,7 +131,9 @@
                       "start": 563,
                       "end": 589,
                       "value": "toString() method called",
-                      "raw": "\"toString() method called\""
+                      "raw": "\"toString() method called\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -201,7 +205,9 @@
                       "start": 651,
                       "end": 676,
                       "value": "valueOf() method called",
-                      "raw": "\"valueOf() method called\""
+                      "raw": "\"valueOf() method called\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -314,7 +320,9 @@
             "start": 764,
             "end": 781,
             "value": "Same date value",
-            "raw": "\"Same date value\""
+            "raw": "\"Same date value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

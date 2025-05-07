@@ -47,7 +47,9 @@
                 "start": 329,
                 "end": 340,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 343,
             "end": 397,
             "value": "Error.hasOwnProperty('prototype') must return true",
-            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'"
+            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                   "start": 439,
                   "end": 450,
                   "value": "prototype",
-                  "raw": "'prototype'"
+                  "raw": "'prototype'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -124,7 +130,9 @@
             "start": 455,
             "end": 535,
             "value": "The value of !Error.propertyIsEnumerable('prototype') is expected to be true",
-            "raw": "'The value of !Error.propertyIsEnumerable(\\'prototype\\') is expected to be true'"
+            "raw": "'The value of !Error.propertyIsEnumerable(\\'prototype\\') is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +158,9 @@
             "start": 725,
             "end": 726,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -211,7 +221,9 @@
                 "start": 764,
                 "end": 775,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -283,14 +295,18 @@
             "start": 821,
             "end": 822,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 824,
             "end": 863,
             "value": "The value of cout is expected to be 0",
-            "raw": "'The value of cout is expected to be 0'"
+            "raw": "'The value of cout is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

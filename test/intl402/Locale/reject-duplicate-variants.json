@@ -62,7 +62,9 @@
             "start": 488,
             "end": 498,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +246,9 @@
             "start": 871,
             "end": 891,
             "value": "en-emodeng-emodeng",
-            "raw": "\"en-emodeng-emodeng\""
+            "raw": "\"en-emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -270,7 +274,9 @@
             "start": 952,
             "end": 972,
             "value": "en-Emodeng-emodeng",
-            "raw": "\"en-Emodeng-emodeng\""
+            "raw": "\"en-Emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +302,9 @@
             "start": 1013,
             "end": 1033,
             "value": "en-emodeng-Emodeng",
-            "raw": "\"en-emodeng-Emodeng\""
+            "raw": "\"en-emodeng-Emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +330,9 @@
             "start": 1147,
             "end": 1175,
             "value": "en-variant-emodeng-emodeng",
-            "raw": "\"en-variant-emodeng-emodeng\""
+            "raw": "\"en-variant-emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +358,9 @@
             "start": 1189,
             "end": 1217,
             "value": "en-variant-Emodeng-emodeng",
-            "raw": "\"en-variant-Emodeng-emodeng\""
+            "raw": "\"en-variant-Emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -374,7 +386,9 @@
             "start": 1231,
             "end": 1259,
             "value": "en-variant-emodeng-Emodeng",
-            "raw": "\"en-variant-emodeng-Emodeng\""
+            "raw": "\"en-variant-emodeng-Emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +414,9 @@
             "start": 1273,
             "end": 1301,
             "value": "en-emodeng-variant-emodeng",
-            "raw": "\"en-emodeng-variant-emodeng\""
+            "raw": "\"en-emodeng-variant-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -426,7 +442,9 @@
             "start": 1315,
             "end": 1343,
             "value": "en-Emodeng-variant-emodeng",
-            "raw": "\"en-Emodeng-variant-emodeng\""
+            "raw": "\"en-Emodeng-variant-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,7 +470,9 @@
             "start": 1357,
             "end": 1385,
             "value": "en-emodeng-variant-Emodeng",
-            "raw": "\"en-emodeng-variant-Emodeng\""
+            "raw": "\"en-emodeng-variant-Emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +498,9 @@
             "start": 1399,
             "end": 1427,
             "value": "en-emodeng-emodeng-variant",
-            "raw": "\"en-emodeng-emodeng-variant\""
+            "raw": "\"en-emodeng-emodeng-variant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -504,7 +526,9 @@
             "start": 1441,
             "end": 1469,
             "value": "en-Emodeng-emodeng-variant",
-            "raw": "\"en-Emodeng-emodeng-variant\""
+            "raw": "\"en-Emodeng-emodeng-variant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +554,9 @@
             "start": 1483,
             "end": 1511,
             "value": "en-emodeng-Emodeng-variant",
-            "raw": "\"en-emodeng-Emodeng-variant\""
+            "raw": "\"en-emodeng-Emodeng-variant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

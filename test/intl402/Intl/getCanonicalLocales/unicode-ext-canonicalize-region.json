@@ -35,14 +35,18 @@
                   "start": 1358,
                   "end": 1364,
                   "value": "no23",
-                  "raw": "\"no23\""
+                  "raw": "\"no23\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1366,
                   "end": 1372,
                   "value": "no50",
-                  "raw": "\"no50\""
+                  "raw": "\"no50\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 1453,
                   "end": 1459,
                   "value": "cn11",
-                  "raw": "\"cn11\""
+                  "raw": "\"cn11\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1461,
                   "end": 1467,
                   "value": "cnbj",
-                  "raw": "\"cnbj\""
+                  "raw": "\"cnbj\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 1550,
                   "end": 1557,
                   "value": "cz10a",
-                  "raw": "\"cz10a\""
+                  "raw": "\"cz10a\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1559,
                   "end": 1566,
                   "value": "cz110",
-                  "raw": "\"cz110\""
+                  "raw": "\"cz110\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -104,14 +116,18 @@
                   "start": 1647,
                   "end": 1652,
                   "value": "fra",
-                  "raw": "\"fra\""
+                  "raw": "\"fra\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1654,
                   "end": 1661,
                   "value": "frges",
-                  "raw": "\"frges\""
+                  "raw": "\"frges\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -127,14 +143,18 @@
                   "start": 1742,
                   "end": 1747,
                   "value": "frg",
-                  "raw": "\"frg\""
+                  "raw": "\"frg\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1749,
                   "end": 1756,
                   "value": "frges",
-                  "raw": "\"frges\""
+                  "raw": "\"frges\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -150,14 +170,18 @@
                   "start": 1856,
                   "end": 1861,
                   "value": "lud",
-                  "raw": "\"lud\""
+                  "raw": "\"lud\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1863,
                   "end": 1869,
                   "value": "lucl",
-                  "raw": "\"lucl\""
+                  "raw": "\"lucl\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -267,7 +291,9 @@
                     "start": 1941,
                     "end": 1952,
                     "value": "und-u-rg-",
-                    "raw": "\"und-u-rg-\""
+                    "raw": "\"und-u-rg-\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -305,7 +331,9 @@
                     "start": 1980,
                     "end": 1991,
                     "value": "und-u-rg-",
-                    "raw": "\"und-u-rg-\""
+                    "raw": "\"und-u-rg-\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -372,7 +400,9 @@
                   "start": 2111,
                   "end": 2116,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -387,7 +417,9 @@
                       "start": 2137,
                       "end": 2141,
                       "value": "\"",
-                      "raw": "\"\\\"\""
+                      "raw": "\"\\\"\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -403,7 +435,9 @@
                     "start": 2150,
                     "end": 2186,
                     "value": "\" isn't a canonical language tag.",
-                    "raw": "\"\\\" isn't a canonical language tag.\""
+                    "raw": "\"\\\" isn't a canonical language tag.\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -458,7 +492,9 @@
                       "start": 2263,
                       "end": 2267,
                       "value": "\"",
-                      "raw": "\"\\\"\""
+                      "raw": "\"\\\"\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -474,7 +510,9 @@
                     "start": 2282,
                     "end": 2338,
                     "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "raw": "\"\\\" is a canonical and structurally valid language tag.\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -585,7 +623,9 @@
                   "start": 2422,
                   "end": 2423,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -634,7 +674,9 @@
                     "start": 2452,
                     "end": 2453,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false

@@ -134,7 +134,9 @@ __ESTREE_TEST__:PASS:
           "start": 85,
           "end": 123,
           "raw": "'exportAssignedTypeAsTypeAnnotation_0'",
-          "value": "exportAssignedTypeAsTypeAnnotation_0"
+          "value": "exportAssignedTypeAsTypeAnnotation_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

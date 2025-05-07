@@ -48,6 +48,7 @@
                 "end": 788,
                 "value": null,
                 "raw": "1_000_000_000_987_650_000n",
+                "regex": null,
                 "bigint": "1000000000987650000"
               }
             ]
@@ -167,7 +168,9 @@
             "start": 883,
             "end": 930,
             "value": "−∞ is out of range for fractionalSecondDigits",
-            "raw": "\"−∞ is out of range for fractionalSecondDigits\""
+            "raw": "\"−∞ is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,7 +272,9 @@
                           "start": 1009,
                           "end": 1010,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -285,7 +290,9 @@
             "start": 1017,
             "end": 1064,
             "value": "−1 is out of range for fractionalSecondDigits",
-            "raw": "\"−1 is out of range for fractionalSecondDigits\""
+            "raw": "\"−1 is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -381,7 +388,9 @@
                         "start": 1142,
                         "end": 1144,
                         "value": 10,
-                        "raw": "10"
+                        "raw": "10",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -396,7 +405,9 @@
             "start": 1151,
             "end": 1198,
             "value": "10 is out of range for fractionalSecondDigits",
-            "raw": "\"10 is out of range for fractionalSecondDigits\""
+            "raw": "\"10 is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -506,7 +517,9 @@
             "start": 1291,
             "end": 1337,
             "value": "∞ is out of range for fractionalSecondDigits",
-            "raw": "\"∞ is out of range for fractionalSecondDigits\""
+            "raw": "\"∞ is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

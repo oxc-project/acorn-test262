@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 32,
         "end": 39,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -799,7 +801,9 @@ __ESTREE_TEST__:PASS:
                 "start": 849,
                 "end": 865,
                 "raw": "\"color:hotpink;\"",
-                "value": "color:hotpink;"
+                "value": "color:hotpink;",
+                "regex": null,
+                "bigint": null
               }
             }
           ],

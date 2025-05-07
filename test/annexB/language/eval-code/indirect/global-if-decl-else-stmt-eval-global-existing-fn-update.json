@@ -25,7 +25,9 @@
                 "start": 1573,
                 "end": 1574,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -42,7 +44,9 @@
             "start": 1584,
             "end": 1793,
             "value": "if (true) function f() { return \"inner declaration\"; } else ;assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }",
-            "raw": "'if (true) function f() { return \"inner declaration\"; } else ;assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
+            "raw": "'if (true) function f() { return \"inner declaration\"; } else ;assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

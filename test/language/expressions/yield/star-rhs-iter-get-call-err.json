@@ -332,7 +332,9 @@
             "start": 981,
             "end": 1012,
             "value": "method is not invoked eagerly",
-            "raw": "'method is not invoked eagerly'"
+            "raw": "'method is not invoked eagerly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -439,7 +441,9 @@
             "start": 1081,
             "end": 1098,
             "value": "iteration value",
-            "raw": "'iteration value'"
+            "raw": "'iteration value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,14 +501,18 @@
             "start": 1131,
             "end": 1135,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1137,
             "end": 1155,
             "value": "iteration status",
-            "raw": "'iteration status'"
+            "raw": "'iteration status'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +563,9 @@
             "start": 1191,
             "end": 1204,
             "value": "error value",
-            "raw": "'error value'"
+            "raw": "'error value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

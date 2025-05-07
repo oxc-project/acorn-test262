@@ -43,28 +43,36 @@
                       "start": 429,
                       "end": 435,
                       "value": "arg1",
-                      "raw": "\"arg1\""
+                      "raw": "\"arg1\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 437,
                       "end": 443,
                       "value": "arg2",
-                      "raw": "\"arg2\""
+                      "raw": "\"arg2\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 445,
                       "end": 451,
                       "value": "arg3",
-                      "raw": "\"arg3\""
+                      "raw": "\"arg3\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 453,
                       "end": 477,
                       "value": "return arg1+arg2+arg3;",
-                      "raw": "\"return arg1+arg2+arg3;\""
+                      "raw": "\"return arg1+arg2+arg3;\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -110,7 +118,9 @@
                     "start": 519,
                     "end": 536,
                     "value": "#1: test failed",
-                    "raw": "'#1: test failed'"
+                    "raw": "'#1: test failed'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -158,7 +168,9 @@
             "start": 572,
             "end": 645,
             "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,21 +220,27 @@
                 "start": 667,
                 "end": 668,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 670,
                 "end": 671,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 673,
                 "end": 674,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -232,14 +250,18 @@
             "start": 677,
             "end": 678,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 706,
             "value": "f(1, 2, 3) must return 6",
-            "raw": "'f(1, 2, 3) must return 6'"
+            "raw": "'f(1, 2, 3) must return 6'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

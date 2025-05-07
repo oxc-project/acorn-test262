@@ -349,7 +349,9 @@ __ESTREE_TEST__:PASS:
         "start": 30,
         "end": 37,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -485,7 +487,9 @@ __ESTREE_TEST__:PASS:
         "start": 65,
         "end": 72,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -511,7 +515,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 31,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -660,7 +666,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 36,
         "raw": "\"./get-comp\"",
-        "value": "./get-comp"
+        "value": "./get-comp",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -789,7 +797,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 29,
         "raw": "'@emotion/core'",
-        "value": "@emotion/core"
+        "value": "@emotion/core",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

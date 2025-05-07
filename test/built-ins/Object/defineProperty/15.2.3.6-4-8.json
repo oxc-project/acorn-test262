@@ -66,7 +66,9 @@
                   "start": 683,
                   "end": 686,
                   "value": 101,
-                  "raw": "101"
+                  "raw": "101",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -88,7 +90,9 @@
                   "start": 702,
                   "end": 707,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -110,7 +114,9 @@
                   "start": 725,
                   "end": 730,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -159,7 +165,9 @@
             "start": 759,
             "end": 764,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -209,7 +217,9 @@
                   "start": 908,
                   "end": 911,
                   "value": 101,
-                  "raw": "101"
+                  "raw": "101",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -231,7 +241,9 @@
                   "start": 927,
                   "end": 931,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -328,7 +340,9 @@
                         "start": 1000,
                         "end": 1005,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -397,7 +411,9 @@
                 "start": 1103,
                 "end": 1108,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -458,14 +474,18 @@
             "start": 1138,
             "end": 1141,
             "value": 101,
-            "raw": "101"
+            "raw": "101",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1143,
             "end": 1153,
             "value": "d2.value",
-            "raw": "'d2.value'"
+            "raw": "'d2.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -523,14 +543,18 @@
             "start": 1188,
             "end": 1193,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1195,
             "end": 1210,
             "value": "d2.enumerable",
-            "raw": "'d2.enumerable'"
+            "raw": "'d2.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -588,14 +612,18 @@
             "start": 1247,
             "end": 1252,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1254,
             "end": 1271,
             "value": "d2.configurable",
-            "raw": "'d2.configurable'"
+            "raw": "'d2.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -189,7 +189,9 @@
                                             "start": 1102,
                                             "end": 1126,
                                             "value": "should not call return",
-                                            "raw": "'should not call return'"
+                                            "raw": "'should not call return'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }

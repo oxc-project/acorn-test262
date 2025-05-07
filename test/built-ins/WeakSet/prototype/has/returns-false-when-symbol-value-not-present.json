@@ -34,7 +34,9 @@
                 "start": 396,
                 "end": 411,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 431,
                 "end": 446,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -180,14 +184,18 @@
             "start": 502,
             "end": 507,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 551,
             "value": "Set is initially empty of regular symbol",
-            "raw": "'Set is initially empty of regular symbol'"
+            "raw": "'Set is initially empty of regular symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,14 +280,18 @@
             "start": 598,
             "end": 603,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 605,
             "end": 650,
             "value": "Set is initially empty of well-known symbol",
-            "raw": "'Set is initially empty of well-known symbol'"
+            "raw": "'Set is initially empty of well-known symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -389,14 +401,18 @@
             "start": 695,
             "end": 700,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 702,
             "end": 767,
             "value": "Symbols with the same description are not aliased to each other",
-            "raw": "'Symbols with the same description are not aliased to each other'"
+            "raw": "'Symbols with the same description are not aliased to each other'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -506,14 +522,18 @@
             "start": 815,
             "end": 820,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 822,
             "end": 875,
             "value": "Set is again empty of regular symbol after deleting",
-            "raw": "'Set is again empty of regular symbol after deleting'"
+            "raw": "'Set is again empty of regular symbol after deleting'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -649,14 +669,18 @@
             "start": 952,
             "end": 957,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 959,
             "end": 1015,
             "value": "Set is again empty of well-known symbol after deleting",
-            "raw": "'Set is again empty of well-known symbol after deleting'"
+            "raw": "'Set is again empty of well-known symbol after deleting'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

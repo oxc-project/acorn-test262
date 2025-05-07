@@ -34,7 +34,9 @@
                 "start": 392,
                 "end": 407,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 427,
                 "end": 442,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -180,14 +184,18 @@
             "start": 502,
             "end": 507,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 551,
             "value": "Map is initially empty of regular symbol",
-            "raw": "'Map is initially empty of regular symbol'"
+            "raw": "'Map is initially empty of regular symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,14 +280,18 @@
             "start": 600,
             "end": 605,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 652,
             "value": "Map is initially empty of well-known symbol",
-            "raw": "'Map is initially empty of well-known symbol'"
+            "raw": "'Map is initially empty of well-known symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +336,9 @@
             "start": 669,
             "end": 670,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -396,14 +410,18 @@
             "start": 704,
             "end": 709,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 769,
             "value": "Symbols with the same description don't alias each other",
-            "raw": "\"Symbols with the same description don't alias each other\""
+            "raw": "\"Symbols with the same description don't alias each other\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,14 +531,18 @@
             "start": 821,
             "end": 826,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 828,
             "end": 881,
             "value": "Map is empty again of regular symbol after deleting",
-            "raw": "'Map is empty again of regular symbol after deleting'"
+            "raw": "'Map is empty again of regular symbol after deleting'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -578,7 +600,9 @@
             "start": 913,
             "end": 914,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -714,14 +738,18 @@
             "start": 995,
             "end": 1000,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1002,
             "end": 1058,
             "value": "Map is empty again of well-known symbol after deleting",
-            "raw": "'Map is empty again of well-known symbol after deleting'"
+            "raw": "'Map is empty again of well-known symbol after deleting'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -72,7 +72,9 @@
                 "start": 517,
                 "end": 525,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 556,
                     "end": 645,
                     "value": "#0: String.prototype.toLocaleLowerCase.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.toLocaleLowerCase.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#0: String.prototype.toLocaleLowerCase.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 698,
                         "end": 706,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -238,7 +244,9 @@
             "start": 946,
             "end": 954,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -268,7 +276,9 @@
                   "start": 984,
                   "end": 1070,
                   "value": "#1: String.prototype.toLocaleLowerCase.propertyIsEnumerable('length') return false",
-                  "raw": "'#1: String.prototype.toLocaleLowerCase.propertyIsEnumerable(\\'length\\') return false'"
+                  "raw": "'#1: String.prototype.toLocaleLowerCase.propertyIsEnumerable(\\'length\\') return false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -297,7 +307,9 @@
             "start": 1260,
             "end": 1261,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -384,7 +396,9 @@
                 "start": 1328,
                 "end": 1336,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -430,7 +444,9 @@
           "start": 1364,
           "end": 1365,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -462,7 +478,9 @@
                     "start": 1394,
                     "end": 1505,
                     "value": "#2: count=0; for (p in String.prototype.toLocaleLowerCase){if (p===\"length\") count++;}; count === 0. Actual: ",
-                    "raw": "'#2: count=0; for (p in String.prototype.toLocaleLowerCase){if (p===\"length\") count++;}; count === 0. Actual: '"
+                    "raw": "'#2: count=0; for (p in String.prototype.toLocaleLowerCase){if (p===\"length\") count++;}; count === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

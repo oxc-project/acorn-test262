@@ -49,14 +49,18 @@
             "start": 548,
             "end": 558,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 598,
             "value": "`typeof ArrayBuffer` is `'function'`",
-            "raw": "\"`typeof ArrayBuffer` is `'function'`\""
+            "raw": "\"`typeof ArrayBuffer` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -87,7 +91,9 @@
             "start": 623,
             "end": 636,
             "value": "ArrayBuffer",
-            "raw": "\"ArrayBuffer\""
+            "raw": "\"ArrayBuffer\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -112,7 +118,9 @@
                   "start": 652,
                   "end": 656,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -134,7 +142,9 @@
                   "start": 672,
                   "end": 677,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -156,7 +166,9 @@
                   "start": 695,
                   "end": 699,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

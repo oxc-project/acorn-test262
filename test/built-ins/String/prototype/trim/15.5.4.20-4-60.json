@@ -44,7 +44,9 @@
                 "start": 297,
                 "end": 303,
                 "value": "    ",
-                "raw": "\"    \""
+                "raw": "\"    \"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 312,
             "end": 314,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 316,
             "end": 331,
             "value": "\"    \".trim()",
-            "raw": "'\"    \".trim()'"
+            "raw": "'\"    \".trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

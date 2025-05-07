@@ -23,7 +23,9 @@
             "start": 2866,
             "end": 2867,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -251,7 +253,9 @@
                           "start": 3009,
                           "end": 3014,
                           "value": "cls",
-                          "raw": "'cls'"
+                          "raw": "'cls'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -309,7 +313,9 @@
                           "start": 3052,
                           "end": 3058,
                           "value": "xCls",
-                          "raw": "'xCls'"
+                          "raw": "'xCls'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -367,7 +373,9 @@
                           "start": 3097,
                           "end": 3104,
                           "value": "xCls2",
-                          "raw": "'xCls2'"
+                          "raw": "'xCls2'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -404,7 +412,9 @@
                           "start": 3135,
                           "end": 3136,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -565,14 +575,18 @@
             "start": 3247,
             "end": 3248,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3250,
             "end": 3279,
             "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "raw": "'method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

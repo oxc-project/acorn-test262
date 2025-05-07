@@ -70,7 +70,9 @@
                             "start": 1047,
                             "end": 1048,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -83,7 +85,9 @@
                           "start": 1061,
                           "end": 1064,
                           "value": "a",
-                          "raw": "\"a\""
+                          "raw": "\"a\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -153,7 +157,9 @@
                           "start": 1121,
                           "end": 1127,
                           "value": "body",
-                          "raw": "\"body\""
+                          "raw": "\"body\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -240,7 +246,9 @@
                   "start": 1201,
                   "end": 1218,
                   "value": "#1: test failed",
-                  "raw": "'#1: test failed'"
+                  "raw": "'#1: test failed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -301,14 +309,18 @@
                     "start": 1257,
                     "end": 1263,
                     "value": "body",
-                    "raw": "\"body\""
+                    "raw": "\"body\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1265,
                     "end": 1306,
                     "value": "The value of e is expected to be \"body\"",
-                    "raw": "'The value of e is expected to be \"body\"'"
+                    "raw": "'The value of e is expected to be \"body\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -358,14 +370,18 @@
             "start": 1332,
             "end": 1333,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1335,
             "end": 1371,
             "value": "The value of p is expected to be 1",
-            "raw": "'The value of p is expected to be 1'"
+            "raw": "'The value of p is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

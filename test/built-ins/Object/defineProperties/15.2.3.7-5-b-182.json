@@ -114,7 +114,9 @@
                             "start": 381,
                             "end": 382,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -163,7 +165,9 @@
           "start": 408,
           "end": 420,
           "value": "isWritable",
-          "raw": "\"isWritable\""
+          "raw": "\"isWritable\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -219,14 +223,18 @@
             "start": 454,
             "end": 466,
             "value": "isWritable",
-            "raw": "\"isWritable\""
+            "raw": "\"isWritable\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 482,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

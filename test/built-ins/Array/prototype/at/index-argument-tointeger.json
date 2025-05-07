@@ -75,14 +75,18 @@
             "start": 379,
             "end": 389,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 464,
             "value": "The value of `typeof Array.prototype.at` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -108,7 +112,9 @@
             "start": 492,
             "end": 493,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -188,7 +194,9 @@
                           "start": 558,
                           "end": 559,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -227,28 +235,36 @@
                 "start": 578,
                 "end": 579,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 580,
                 "end": 581,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 583,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -322,14 +338,18 @@
             "start": 619,
             "end": 620,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 687,
             "value": "a.at({valueOf() {valueOfCallCount++; return 1;}}) must return 1",
-            "raw": "'a.at({valueOf() {valueOfCallCount++; return 1;}}) must return 1'"
+            "raw": "'a.at({valueOf() {valueOfCallCount++; return 1;}}) must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -374,14 +394,18 @@
             "start": 725,
             "end": 726,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 728,
             "end": 779,
             "value": "The value of valueOfCallCount is expected to be 1",
-            "raw": "'The value of valueOfCallCount is expected to be 1'"
+            "raw": "'The value of valueOfCallCount is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

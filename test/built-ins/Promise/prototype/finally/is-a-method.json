@@ -47,7 +47,9 @@
                 "start": 310,
                 "end": 311,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -140,7 +142,9 @@
             "start": 377,
             "end": 455,
             "value": "Expected the `finally` method on a Promise to be `Promise.prototype.finally`",
-            "raw": "'Expected the `finally` method on a Promise to be `Promise.prototype.finally`'"
+            "raw": "'Expected the `finally` method on a Promise to be `Promise.prototype.finally`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

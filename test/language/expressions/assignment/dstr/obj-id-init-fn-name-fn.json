@@ -257,7 +257,9 @@
             "start": 1271,
             "end": 1276,
             "value": "xFn",
-            "raw": "'xFn'"
+            "raw": "'xFn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +291,9 @@
             "start": 1299,
             "end": 1305,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -314,7 +318,9 @@
                   "start": 1323,
                   "end": 1328,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -336,7 +342,9 @@
                   "start": 1342,
                   "end": 1347,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -358,7 +366,9 @@
                   "start": 1365,
                   "end": 1369,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -380,7 +390,9 @@
                   "start": 1380,
                   "end": 1384,
                   "value": "fn",
-                  "raw": "'fn'"
+                  "raw": "'fn'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -90,7 +90,9 @@
                             "start": 1361,
                             "end": 1365,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

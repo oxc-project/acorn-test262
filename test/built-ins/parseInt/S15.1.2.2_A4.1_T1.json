@@ -47,14 +47,18 @@
                 "start": 268,
                 "end": 271,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 273,
                 "end": 274,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -75,14 +79,18 @@
                 "start": 286,
                 "end": 289,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 291,
                 "end": 293,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -92,7 +100,9 @@
             "start": 296,
             "end": 371,
             "value": "parseInt(\"0\", 0) must return the same value returned by parseInt(\"0\", 10)",
-            "raw": "'parseInt(\"0\", 0) must return the same value returned by parseInt(\"0\", 10)'"
+            "raw": "'parseInt(\"0\", 0) must return the same value returned by parseInt(\"0\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -142,14 +152,18 @@
                 "start": 400,
                 "end": 403,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 406,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -170,14 +184,18 @@
                 "start": 418,
                 "end": 421,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 425,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -187,7 +205,9 @@
             "start": 428,
             "end": 503,
             "value": "parseInt(\"1\", 0) must return the same value returned by parseInt(\"1\", 10)",
-            "raw": "'parseInt(\"1\", 0) must return the same value returned by parseInt(\"1\", 10)'"
+            "raw": "'parseInt(\"1\", 0) must return the same value returned by parseInt(\"1\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,14 +257,18 @@
                 "start": 532,
                 "end": 535,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 537,
                 "end": 538,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -265,14 +289,18 @@
                 "start": 550,
                 "end": 553,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 557,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -282,7 +310,9 @@
             "start": 560,
             "end": 635,
             "value": "parseInt(\"2\", 0) must return the same value returned by parseInt(\"2\", 10)",
-            "raw": "'parseInt(\"2\", 0) must return the same value returned by parseInt(\"2\", 10)'"
+            "raw": "'parseInt(\"2\", 0) must return the same value returned by parseInt(\"2\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,14 +362,18 @@
                 "start": 664,
                 "end": 667,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 669,
                 "end": 670,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -360,14 +394,18 @@
                 "start": 682,
                 "end": 685,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 687,
                 "end": 689,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -377,7 +415,9 @@
             "start": 692,
             "end": 767,
             "value": "parseInt(\"3\", 0) must return the same value returned by parseInt(\"3\", 10)",
-            "raw": "'parseInt(\"3\", 0) must return the same value returned by parseInt(\"3\", 10)'"
+            "raw": "'parseInt(\"3\", 0) must return the same value returned by parseInt(\"3\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,14 +467,18 @@
                 "start": 796,
                 "end": 799,
                 "value": "4",
-                "raw": "\"4\""
+                "raw": "\"4\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 802,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -455,14 +499,18 @@
                 "start": 814,
                 "end": 817,
                 "value": "4",
-                "raw": "\"4\""
+                "raw": "\"4\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 819,
                 "end": 821,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -472,7 +520,9 @@
             "start": 824,
             "end": 899,
             "value": "parseInt(\"4\", 0) must return the same value returned by parseInt(\"4\", 10)",
-            "raw": "'parseInt(\"4\", 0) must return the same value returned by parseInt(\"4\", 10)'"
+            "raw": "'parseInt(\"4\", 0) must return the same value returned by parseInt(\"4\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -522,14 +572,18 @@
                 "start": 928,
                 "end": 931,
                 "value": "5",
-                "raw": "\"5\""
+                "raw": "\"5\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 933,
                 "end": 934,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -550,14 +604,18 @@
                 "start": 946,
                 "end": 949,
                 "value": "5",
-                "raw": "\"5\""
+                "raw": "\"5\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 951,
                 "end": 953,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -567,7 +625,9 @@
             "start": 956,
             "end": 1031,
             "value": "parseInt(\"5\", 0) must return the same value returned by parseInt(\"5\", 10)",
-            "raw": "'parseInt(\"5\", 0) must return the same value returned by parseInt(\"5\", 10)'"
+            "raw": "'parseInt(\"5\", 0) must return the same value returned by parseInt(\"5\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,14 +677,18 @@
                 "start": 1060,
                 "end": 1063,
                 "value": "6",
-                "raw": "\"6\""
+                "raw": "\"6\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1065,
                 "end": 1066,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -645,14 +709,18 @@
                 "start": 1078,
                 "end": 1081,
                 "value": "6",
-                "raw": "\"6\""
+                "raw": "\"6\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1083,
                 "end": 1085,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -662,7 +730,9 @@
             "start": 1088,
             "end": 1163,
             "value": "parseInt(\"6\", 0) must return the same value returned by parseInt(\"6\", 10)",
-            "raw": "'parseInt(\"6\", 0) must return the same value returned by parseInt(\"6\", 10)'"
+            "raw": "'parseInt(\"6\", 0) must return the same value returned by parseInt(\"6\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -712,14 +782,18 @@
                 "start": 1192,
                 "end": 1195,
                 "value": "7",
-                "raw": "\"7\""
+                "raw": "\"7\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1197,
                 "end": 1198,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -740,14 +814,18 @@
                 "start": 1210,
                 "end": 1213,
                 "value": "7",
-                "raw": "\"7\""
+                "raw": "\"7\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1215,
                 "end": 1217,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -757,7 +835,9 @@
             "start": 1220,
             "end": 1295,
             "value": "parseInt(\"7\", 0) must return the same value returned by parseInt(\"7\", 10)",
-            "raw": "'parseInt(\"7\", 0) must return the same value returned by parseInt(\"7\", 10)'"
+            "raw": "'parseInt(\"7\", 0) must return the same value returned by parseInt(\"7\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -807,14 +887,18 @@
                 "start": 1324,
                 "end": 1327,
                 "value": "8",
-                "raw": "\"8\""
+                "raw": "\"8\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1329,
                 "end": 1330,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -835,14 +919,18 @@
                 "start": 1342,
                 "end": 1345,
                 "value": "8",
-                "raw": "\"8\""
+                "raw": "\"8\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1347,
                 "end": 1349,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -852,7 +940,9 @@
             "start": 1352,
             "end": 1427,
             "value": "parseInt(\"8\", 0) must return the same value returned by parseInt(\"8\", 10)",
-            "raw": "'parseInt(\"8\", 0) must return the same value returned by parseInt(\"8\", 10)'"
+            "raw": "'parseInt(\"8\", 0) must return the same value returned by parseInt(\"8\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -902,14 +992,18 @@
                 "start": 1456,
                 "end": 1459,
                 "value": "9",
-                "raw": "\"9\""
+                "raw": "\"9\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1461,
                 "end": 1462,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -930,14 +1024,18 @@
                 "start": 1474,
                 "end": 1477,
                 "value": "9",
-                "raw": "\"9\""
+                "raw": "\"9\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1479,
                 "end": 1481,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -947,7 +1045,9 @@
             "start": 1484,
             "end": 1559,
             "value": "parseInt(\"9\", 0) must return the same value returned by parseInt(\"9\", 10)",
-            "raw": "'parseInt(\"9\", 0) must return the same value returned by parseInt(\"9\", 10)'"
+            "raw": "'parseInt(\"9\", 0) must return the same value returned by parseInt(\"9\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -997,14 +1097,18 @@
                 "start": 1588,
                 "end": 1592,
                 "value": "10",
-                "raw": "\"10\""
+                "raw": "\"10\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1594,
                 "end": 1595,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1025,14 +1129,18 @@
                 "start": 1607,
                 "end": 1611,
                 "value": "10",
-                "raw": "\"10\""
+                "raw": "\"10\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1613,
                 "end": 1615,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1042,7 +1150,9 @@
             "start": 1618,
             "end": 1695,
             "value": "parseInt(\"10\", 0) must return the same value returned by parseInt(\"10\", 10)",
-            "raw": "'parseInt(\"10\", 0) must return the same value returned by parseInt(\"10\", 10)'"
+            "raw": "'parseInt(\"10\", 0) must return the same value returned by parseInt(\"10\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1092,14 +1202,18 @@
                 "start": 1724,
                 "end": 1728,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1730,
                 "end": 1731,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1120,14 +1234,18 @@
                 "start": 1743,
                 "end": 1747,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1749,
                 "end": 1751,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1137,7 +1255,9 @@
             "start": 1754,
             "end": 1831,
             "value": "parseInt(\"11\", 0) must return the same value returned by parseInt(\"11\", 10)",
-            "raw": "'parseInt(\"11\", 0) must return the same value returned by parseInt(\"11\", 10)'"
+            "raw": "'parseInt(\"11\", 0) must return the same value returned by parseInt(\"11\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1187,14 +1307,18 @@
                 "start": 1860,
                 "end": 1866,
                 "value": "9999",
-                "raw": "\"9999\""
+                "raw": "\"9999\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1868,
                 "end": 1869,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1215,14 +1339,18 @@
                 "start": 1881,
                 "end": 1887,
                 "value": "9999",
-                "raw": "\"9999\""
+                "raw": "\"9999\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1889,
                 "end": 1891,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1232,7 +1360,9 @@
             "start": 1894,
             "end": 1975,
             "value": "parseInt(\"9999\", 0) must return the same value returned by parseInt(\"9999\", 10)",
-            "raw": "'parseInt(\"9999\", 0) must return the same value returned by parseInt(\"9999\", 10)'"
+            "raw": "'parseInt(\"9999\", 0) must return the same value returned by parseInt(\"9999\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

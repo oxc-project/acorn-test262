@@ -53,7 +53,9 @@
                 "start": 2043,
                 "end": 2050,
                 "value": "value",
-                "raw": "'value'"
+                "raw": "'value'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -443,7 +445,9 @@
                             "start": 2355,
                             "end": 2405,
                             "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "raw": "\"Expected async function to reject, but resolved.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

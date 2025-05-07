@@ -23,7 +23,9 @@
             "start": 325,
             "end": 330,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 382,
                 "end": 383,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -115,7 +119,9 @@
                       "start": 402,
                       "end": 406,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -132,7 +138,9 @@
               "start": 421,
               "end": 425,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -176,7 +184,9 @@
                   "start": 452,
                   "end": 454,
                   "value": 20,
-                  "raw": "20"
+                  "raw": "20",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -225,7 +235,9 @@
             "start": 485,
             "end": 488,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -279,7 +291,9 @@
                               "start": 537,
                               "end": 576,
                               "value": "unhandle exception happened in getter",
-                              "raw": "\"unhandle exception happened in getter\""
+                              "raw": "\"unhandle exception happened in getter\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -307,7 +321,9 @@
                   "start": 600,
                   "end": 604,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -481,14 +497,18 @@
             "start": 725,
             "end": 730,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 742,
             "value": "accessed",
-            "raw": "'accessed'"
+            "raw": "'accessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

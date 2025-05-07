@@ -152,7 +152,9 @@
                               "start": 505,
                               "end": 506,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -201,7 +203,9 @@
                         "start": 544,
                         "end": 547,
                         "value": "0",
-                        "raw": "\"0\""
+                        "raw": "\"0\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -277,7 +281,9 @@
                 "start": 599,
                 "end": 602,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -287,14 +293,18 @@
             "start": 605,
             "end": 610,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 640,
             "value": "arrObj.hasOwnProperty(\"0\")",
-            "raw": "'arrObj.hasOwnProperty(\"0\")'"
+            "raw": "'arrObj.hasOwnProperty(\"0\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

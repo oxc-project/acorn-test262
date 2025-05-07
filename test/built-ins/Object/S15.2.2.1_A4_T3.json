@@ -46,7 +46,9 @@
                       "start": 379,
                       "end": 380,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "===",
                     "right": {
@@ -54,7 +56,9 @@
                       "start": 385,
                       "end": 386,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -74,7 +78,9 @@
                       "start": 393,
                       "end": 398,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -143,7 +149,9 @@
             "start": 455,
             "end": 529,
             "value": "The value of n_obj.constructor is expected to equal the value of Boolean",
-            "raw": "'The value of n_obj.constructor is expected to equal the value of Boolean'"
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,14 +203,18 @@
             "start": 565,
             "end": 573,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 631,
             "value": "The value of `typeof n_obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +251,9 @@
               "start": 650,
               "end": 654,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -247,7 +261,9 @@
             "start": 656,
             "end": 721,
             "value": "The result of evaluating (n_obj == true) is expected to be true",
-            "raw": "'The result of evaluating (n_obj == true) is expected to be true'"
+            "raw": "'The result of evaluating (n_obj == true) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -292,14 +308,18 @@
             "start": 751,
             "end": 755,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 789,
             "value": "The value of n_obj is not true",
-            "raw": "'The value of n_obj is not true'"
+            "raw": "'The value of n_obj is not true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

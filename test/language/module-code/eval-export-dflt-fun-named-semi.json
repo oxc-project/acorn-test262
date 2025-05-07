@@ -23,7 +23,9 @@
             "start": 337,
             "end": 338,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -64,7 +66,9 @@
         "start": 376,
         "end": 380,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -91,7 +95,9 @@
                 "start": 393,
                 "end": 394,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -138,7 +144,9 @@
             "start": 423,
             "end": 424,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

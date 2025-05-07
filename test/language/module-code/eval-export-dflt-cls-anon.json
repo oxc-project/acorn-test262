@@ -54,7 +54,9 @@
                         "start": 1006,
                         "end": 1008,
                         "value": 45,
-                        "raw": "45"
+                        "raw": "45",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -87,7 +89,9 @@
         "start": 1028,
         "end": 1060,
         "value": "./eval-export-dflt-cls-anon.js",
-        "raw": "'./eval-export-dflt-cls-anon.js'"
+        "raw": "'./eval-export-dflt-cls-anon.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -156,14 +160,18 @@
             "start": 1099,
             "end": 1101,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1103,
             "end": 1124,
             "value": "binding initialized",
-            "raw": "'binding initialized'"
+            "raw": "'binding initialized'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,14 +229,18 @@
             "start": 1152,
             "end": 1161,
             "value": "default",
-            "raw": "'default'"
+            "raw": "'default'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1163,
             "end": 1189,
             "value": "correct name is assigned",
-            "raw": "'correct name is assigned'"
+            "raw": "'correct name is assigned'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

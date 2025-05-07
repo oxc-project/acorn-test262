@@ -75,14 +75,18 @@
                                 "start": 2205,
                                 "end": 2210,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 2212,
                                 "end": 2216,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -135,7 +139,9 @@
                           "start": 2251,
                           "end": 2252,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -146,6 +152,7 @@
                         "end": 2257,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -195,7 +202,9 @@
                           "start": 2290,
                           "end": 2291,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -206,6 +215,7 @@
                         "end": 2296,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     ],

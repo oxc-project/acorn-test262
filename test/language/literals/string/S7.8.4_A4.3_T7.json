@@ -16,7 +16,9 @@
           "start": 311,
           "end": 314,
           "value": "b",
-          "raw": "\"b\""
+          "raw": "\"b\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "===",
         "right": {
@@ -24,7 +26,9 @@
           "start": 319,
           "end": 323,
           "value": "\b",
-          "raw": "\"\\b\""
+          "raw": "\"\\b\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -52,7 +56,9 @@
                   "start": 352,
                   "end": 356,
                   "value": "#b",
-                  "raw": "'#b'"
+                  "raw": "'#b'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -74,7 +80,9 @@
           "start": 366,
           "end": 369,
           "value": "f",
-          "raw": "\"f\""
+          "raw": "\"f\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "===",
         "right": {
@@ -82,7 +90,9 @@
           "start": 374,
           "end": 378,
           "value": "\f",
-          "raw": "\"\\f\""
+          "raw": "\"\\f\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -110,7 +120,9 @@
                   "start": 407,
                   "end": 411,
                   "value": "#f",
-                  "raw": "'#f'"
+                  "raw": "'#f'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -132,7 +144,9 @@
           "start": 421,
           "end": 424,
           "value": "n",
-          "raw": "\"n\""
+          "raw": "\"n\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "===",
         "right": {
@@ -140,7 +154,9 @@
           "start": 429,
           "end": 433,
           "value": "\n",
-          "raw": "\"\\n\""
+          "raw": "\"\\n\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -168,7 +184,9 @@
                   "start": 462,
                   "end": 466,
                   "value": "#n",
-                  "raw": "'#n'"
+                  "raw": "'#n'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -190,7 +208,9 @@
           "start": 476,
           "end": 479,
           "value": "r",
-          "raw": "\"r\""
+          "raw": "\"r\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "===",
         "right": {
@@ -198,7 +218,9 @@
           "start": 484,
           "end": 488,
           "value": "\r",
-          "raw": "\"\\r\""
+          "raw": "\"\\r\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -226,7 +248,9 @@
                   "start": 517,
                   "end": 521,
                   "value": "#r",
-                  "raw": "'#r'"
+                  "raw": "'#r'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -248,7 +272,9 @@
           "start": 531,
           "end": 534,
           "value": "t",
-          "raw": "\"t\""
+          "raw": "\"t\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "===",
         "right": {
@@ -256,7 +282,9 @@
           "start": 539,
           "end": 543,
           "value": "\t",
-          "raw": "\"\\t\""
+          "raw": "\"\\t\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -284,7 +312,9 @@
                   "start": 572,
                   "end": 576,
                   "value": "#t",
-                  "raw": "'#t'"
+                  "raw": "'#t'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -306,7 +336,9 @@
           "start": 586,
           "end": 589,
           "value": "v",
-          "raw": "\"v\""
+          "raw": "\"v\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "===",
         "right": {
@@ -314,7 +346,9 @@
           "start": 594,
           "end": 598,
           "value": "\u000b",
-          "raw": "\"\\v\""
+          "raw": "\"\\v\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -342,7 +376,9 @@
                   "start": 627,
                   "end": 631,
                   "value": "#v",
-                  "raw": "'#v'"
+                  "raw": "'#v'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -23,7 +23,9 @@
             "start": 377,
             "end": 382,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 406,
             "end": 411,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +126,9 @@
                             "start": 474,
                             "end": 478,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -135,7 +141,9 @@
                           "start": 491,
                           "end": 492,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -313,7 +321,9 @@
                     "start": 625,
                     "end": 629,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -326,7 +336,9 @@
                   "start": 640,
                   "end": 641,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -380,14 +392,18 @@
                     "start": 665,
                     "end": 666,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 668,
                     "end": 672,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -406,7 +422,9 @@
                 "start": 682,
                 "end": 686,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -422,14 +440,18 @@
             "start": 696,
             "end": 697,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 699,
             "end": 731,
             "value": "[0, true].indexOf(true, child)",
-            "raw": "'[0, true].indexOf(true, child)'"
+            "raw": "'[0, true].indexOf(true, child)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +483,9 @@
             "start": 758,
             "end": 784,
             "value": "valueOfAccessed !== true",
-            "raw": "'valueOfAccessed !== true'"
+            "raw": "'valueOfAccessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -506,14 +530,18 @@
             "start": 822,
             "end": 827,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 829,
             "end": 847,
             "value": "toStringAccessed",
-            "raw": "'toStringAccessed'"
+            "raw": "'toStringAccessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

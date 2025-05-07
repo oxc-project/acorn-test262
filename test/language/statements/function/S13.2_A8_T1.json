@@ -16,7 +16,9 @@
           "start": 234,
           "end": 242,
           "value": "caller",
-          "raw": "'caller'"
+          "raw": "'caller'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "in",
         "right": {

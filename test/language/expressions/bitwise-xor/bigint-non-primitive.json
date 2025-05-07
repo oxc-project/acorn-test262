@@ -52,6 +52,7 @@
                   "end": 489,
                   "value": null,
                   "raw": "0b101n",
+                  "regex": null,
                   "bigint": "0b101"
                 }
               ],
@@ -64,6 +65,7 @@
               "end": 499,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             }
           },
@@ -73,6 +75,7 @@
             "end": 509,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -80,7 +83,9 @@
             "start": 513,
             "end": 564,
             "value": "The result of (Object(0b101n) ^ 0b011n) is 0b110n",
-            "raw": "'The result of (Object(0b101n) ^ 0b011n) is 0b110n'"
+            "raw": "'The result of (Object(0b101n) ^ 0b011n) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,6 +129,7 @@
               "end": 595,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             },
             "operator": "^",
@@ -144,6 +150,7 @@
                   "end": 611,
                   "value": null,
                   "raw": "0b101n",
+                  "regex": null,
                   "bigint": "0b101"
                 }
               ],
@@ -156,6 +163,7 @@
             "end": 622,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -163,7 +171,9 @@
             "start": 626,
             "end": 677,
             "value": "The result of (0b011n ^ Object(0b101n)) is 0b110n",
-            "raw": "'The result of (0b011n ^ Object(0b101n)) is 0b110n'"
+            "raw": "'The result of (0b011n ^ Object(0b101n)) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,6 +228,7 @@
                   "end": 715,
                   "value": null,
                   "raw": "0b101n",
+                  "regex": null,
                   "bigint": "0b101"
                 }
               ],
@@ -241,6 +252,7 @@
                   "end": 732,
                   "value": null,
                   "raw": "0b011n",
+                  "regex": null,
                   "bigint": "0b011"
                 }
               ],
@@ -253,6 +265,7 @@
             "end": 743,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -260,7 +273,9 @@
             "start": 747,
             "end": 806,
             "value": "The result of (Object(0b101n) ^ Object(0b011n)) is 0b110n",
-            "raw": "'The result of (Object(0b101n) ^ Object(0b011n)) is 0b110n'"
+            "raw": "'The result of (Object(0b101n) ^ Object(0b011n)) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -392,6 +407,7 @@
                             "end": 932,
                             "value": null,
                             "raw": "0b101n",
+                            "regex": null,
                             "bigint": "0b101"
                           }
                         }
@@ -451,6 +467,7 @@
               "end": 982,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             }
           },
@@ -460,6 +477,7 @@
             "end": 990,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -467,7 +485,9 @@
             "start": 992,
             "end": 1111,
             "value": "The result of (({[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) ^ 0b011n) is 0b110n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) ^ 0b011n) is 0b110n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) ^ 0b011n) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,6 +531,7 @@
               "end": 1138,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             },
             "operator": "^",
@@ -569,6 +590,7 @@
                             "end": 1197,
                             "value": null,
                             "raw": "0b101n",
+                            "regex": null,
                             "bigint": "0b101"
                           }
                         }
@@ -628,6 +650,7 @@
             "end": 1246,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -635,7 +658,9 @@
             "start": 1248,
             "end": 1365,
             "value": "The result of (0b011n ^ {[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) is 0b110n",
-            "raw": "'The result of (0b011n ^ {[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) is 0b110n'"
+            "raw": "'The result of (0b011n ^ {[Symbol.toPrimitive]: function() {return 0b101n;}, valueOf: err, toString: err}) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -715,6 +740,7 @@
                             "end": 1429,
                             "value": null,
                             "raw": "0b101n",
+                            "regex": null,
                             "bigint": "0b101"
                           }
                         }
@@ -753,6 +779,7 @@
               "end": 1463,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             }
           },
@@ -762,6 +789,7 @@
             "end": 1471,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -769,7 +797,9 @@
             "start": 1473,
             "end": 1565,
             "value": "The result of (({valueOf: function() {return 0b101n;}, toString: err}) ^ 0b011n) is 0b110n",
-            "raw": "'The result of (({valueOf: function() {return 0b101n;}, toString: err}) ^ 0b011n) is 0b110n'"
+            "raw": "'The result of (({valueOf: function() {return 0b101n;}, toString: err}) ^ 0b011n) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -813,6 +843,7 @@
               "end": 1592,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             },
             "operator": "^",
@@ -858,6 +889,7 @@
                             "end": 1638,
                             "value": null,
                             "raw": "0b101n",
+                            "regex": null,
                             "bigint": "0b101"
                           }
                         }
@@ -896,6 +928,7 @@
             "end": 1671,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -903,7 +936,9 @@
             "start": 1673,
             "end": 1763,
             "value": "The result of (0b011n ^ {valueOf: function() {return 0b101n;}, toString: err}) is 0b110n",
-            "raw": "'The result of (0b011n ^ {valueOf: function() {return 0b101n;}, toString: err}) is 0b110n'"
+            "raw": "'The result of (0b011n ^ {valueOf: function() {return 0b101n;}, toString: err}) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -983,6 +1018,7 @@
                             "end": 1828,
                             "value": null,
                             "raw": "0b101n",
+                            "regex": null,
                             "bigint": "0b101"
                           }
                         }
@@ -1000,6 +1036,7 @@
               "end": 1844,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             }
           },
@@ -1009,6 +1046,7 @@
             "end": 1852,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -1016,7 +1054,9 @@
             "start": 1854,
             "end": 1932,
             "value": "The result of (({toString: function() {return 0b101n;}}) ^ 0b011n) is 0b110n",
-            "raw": "'The result of (({toString: function() {return 0b101n;}}) ^ 0b011n) is 0b110n'"
+            "raw": "'The result of (({toString: function() {return 0b101n;}}) ^ 0b011n) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1060,6 +1100,7 @@
               "end": 1959,
               "value": null,
               "raw": "0b011n",
+              "regex": null,
               "bigint": "0b011"
             },
             "operator": "^",
@@ -1105,6 +1146,7 @@
                             "end": 2006,
                             "value": null,
                             "raw": "0b101n",
+                            "regex": null,
                             "bigint": "0b101"
                           }
                         }
@@ -1122,6 +1164,7 @@
             "end": 2021,
             "value": null,
             "raw": "0b110n",
+            "regex": null,
             "bigint": "0b110"
           },
           {
@@ -1129,7 +1172,9 @@
             "start": 2023,
             "end": 2099,
             "value": "The result of (0b011n ^ {toString: function() {return 0b101n;}}) is 0b110n",
-            "raw": "'The result of (0b011n ^ {toString: function() {return 0b101n;}}) is 0b110n'"
+            "raw": "'The result of (0b011n ^ {toString: function() {return 0b101n;}}) is 0b110n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

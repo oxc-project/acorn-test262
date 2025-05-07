@@ -61,7 +61,9 @@
             "start": 512,
             "end": 513,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -117,7 +119,9 @@
                       "start": 535,
                       "end": 560,
                       "value": "var arguments = 'param'",
-                      "raw": "\"var arguments = 'param'\""
+                      "raw": "\"var arguments = 'param'\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -196,7 +200,9 @@
                         "start": 631,
                         "end": 641,
                         "value": "function",
-                        "raw": "\"function\""
+                        "raw": "\"function\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -284,7 +290,9 @@
             "start": 689,
             "end": 690,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +356,9 @@
             "start": 746,
             "end": 778,
             "value": "globalThis.arguments unchanged",
-            "raw": "\"globalThis.arguments unchanged\""
+            "raw": "\"globalThis.arguments unchanged\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

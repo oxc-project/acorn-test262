@@ -137,7 +137,9 @@
                 "start": 519,
                 "end": 522,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "!==",
               "right": {
@@ -145,7 +147,9 @@
                 "start": 527,
                 "end": 535,
                 "value": "A",
-                "raw": "\"\\u0041\""
+                "raw": "\"\\u0041\"",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -175,7 +179,9 @@
                         "start": 561,
                         "end": 562,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -189,7 +195,9 @@
               "start": 571,
               "end": 575,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -200,7 +208,9 @@
           "start": 581,
           "end": 582,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -232,7 +242,9 @@
                     "start": 611,
                     "end": 772,
                     "value": "#1: __instance = new Boolean; __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(\"A\"!==\"\\u0041\", function(){return 0;}(),null) === 0. Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(\"A\"!==\"\\\\u0041\", function(){return 0;}(),null) === 0. Actual: '"
+                    "raw": "'#1: __instance = new Boolean; __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(\"A\"!==\"\\\\u0041\", function(){return 0;}(),null) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -268,7 +280,9 @@
                           "start": 794,
                           "end": 797,
                           "value": "A",
-                          "raw": "\"A\""
+                          "raw": "\"A\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "!==",
                         "right": {
@@ -276,7 +290,9 @@
                           "start": 802,
                           "end": 810,
                           "value": "A",
-                          "raw": "\"\\u0041\""
+                          "raw": "\"\\u0041\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -306,7 +322,9 @@
                                   "start": 836,
                                   "end": 837,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -320,7 +338,9 @@
                         "start": 846,
                         "end": 850,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

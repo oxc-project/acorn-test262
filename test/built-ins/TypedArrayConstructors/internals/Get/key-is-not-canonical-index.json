@@ -28,28 +28,36 @@
                 "start": 641,
                 "end": 646,
                 "value": "1.0",
-                "raw": "\"1.0\""
+                "raw": "\"1.0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 650,
                 "end": 654,
                 "value": "+1",
-                "raw": "\"+1\""
+                "raw": "\"+1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 658,
                 "end": 682,
                 "value": "1000000000000000000000",
-                "raw": "\"1000000000000000000000\""
+                "raw": "\"1000000000000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 686,
                 "end": 697,
                 "value": "0.0000001",
-                "raw": "\"0.0000001\""
+                "raw": "\"0.0000001\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -239,7 +247,9 @@
                                         "start": 865,
                                         "end": 911,
                                         "value": "return undefined for inexistent properties [",
-                                        "raw": "\"return undefined for inexistent properties [\""
+                                        "raw": "\"return undefined for inexistent properties [\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -255,7 +265,9 @@
                                       "start": 920,
                                       "end": 923,
                                       "value": "]",
-                                      "raw": "\"]\""
+                                      "raw": "\"]\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -308,7 +320,9 @@
                                   "start": 964,
                                   "end": 973,
                                   "value": "test262",
-                                  "raw": "\"test262\""
+                                  "raw": "\"test262\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -364,7 +378,9 @@
                                     "start": 1023,
                                     "end": 1032,
                                     "value": "test262",
-                                    "raw": "\"test262\""
+                                    "raw": "\"test262\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -379,7 +395,9 @@
                                         "start": 1040,
                                         "end": 1075,
                                         "value": "return value from inherited key [",
-                                        "raw": "\"return value from inherited key [\""
+                                        "raw": "\"return value from inherited key [\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -395,7 +413,9 @@
                                       "start": 1084,
                                       "end": 1087,
                                       "value": "]",
-                                      "raw": "\"]\""
+                                      "raw": "\"]\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -435,7 +455,9 @@
                                   "start": 1114,
                                   "end": 1119,
                                   "value": "bar",
-                                  "raw": "\"bar\""
+                                  "raw": "\"bar\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -491,7 +513,9 @@
                                     "start": 1162,
                                     "end": 1167,
                                     "value": "bar",
-                                    "raw": "\"bar\""
+                                    "raw": "\"bar\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -506,7 +530,9 @@
                                         "start": 1175,
                                         "end": 1204,
                                         "value": "return value from own key [",
-                                        "raw": "\"return value from own key [\""
+                                        "raw": "\"return value from own key [\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -522,7 +548,9 @@
                                       "start": 1213,
                                       "end": 1216,
                                       "value": "]",
-                                      "raw": "\"]\""
+                                      "raw": "\"]\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -610,7 +638,9 @@
                                                   "start": 1297,
                                                   "end": 1302,
                                                   "value": "baz",
-                                                  "raw": "\"baz\""
+                                                  "raw": "\"baz\"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ]
@@ -676,7 +706,9 @@
                                     "start": 1356,
                                     "end": 1361,
                                     "value": "baz",
-                                    "raw": "\"baz\""
+                                    "raw": "\"baz\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -691,7 +723,9 @@
                                         "start": 1369,
                                         "end": 1403,
                                         "value": "return value from get accessor [",
-                                        "raw": "\"return value from get accessor [\""
+                                        "raw": "\"return value from get accessor [\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -707,7 +741,9 @@
                                       "start": 1412,
                                       "end": 1415,
                                       "value": "]",
-                                      "raw": "\"]\""
+                                      "raw": "\"]\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

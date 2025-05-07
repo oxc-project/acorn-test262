@@ -82,14 +82,18 @@
             "start": 811,
             "end": 816,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 820,
             "end": 894,
             "value": "isConstructor(FinalizationRegistry.prototype.register) must return false",
-            "raw": "'isConstructor(FinalizationRegistry.prototype.register) must return false'"
+            "raw": "'isConstructor(FinalizationRegistry.prototype.register) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

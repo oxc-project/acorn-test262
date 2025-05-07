@@ -41,7 +41,9 @@
                   "start": 371,
                   "end": 372,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 378,
                   "end": 379,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -93,7 +97,9 @@
             "start": 395,
             "end": 396,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -225,7 +231,9 @@
               "start": 480,
               "end": 481,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -255,7 +263,9 @@
                   "start": 510,
                   "end": 580,
                   "value": "'break label' should break execution of labelled iteration statement",
-                  "raw": "\"'break label' should break execution of labelled iteration statement\""
+                  "raw": "\"'break label' should break execution of labelled iteration statement\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

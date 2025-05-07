@@ -55,7 +55,9 @@
                       "start": 1449,
                       "end": 1457,
                       "value": "static",
-                      "raw": "'static'"
+                      "raw": "'static'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -159,7 +161,9 @@
                       "start": 1544,
                       "end": 1554,
                       "value": "instance",
-                      "raw": "'instance'"
+                      "raw": "'instance'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -320,7 +324,9 @@
             "start": 1670,
             "end": 1678,
             "value": "static",
-            "raw": "'static'"
+            "raw": "'static'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -385,7 +391,9 @@
             "start": 1718,
             "end": 1728,
             "value": "instance",
-            "raw": "'instance'"
+            "raw": "'instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -498,7 +506,9 @@
             "start": 1793,
             "end": 1844,
             "value": "Accessed static private method from instance of C",
-            "raw": "'Accessed static private method from instance of C'"
+            "raw": "'Accessed static private method from instance of C'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -611,7 +621,9 @@
             "start": 1917,
             "end": 1958,
             "value": "Accessed instance private method from C",
-            "raw": "'Accessed instance private method from C'"
+            "raw": "'Accessed instance private method from C'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

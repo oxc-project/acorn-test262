@@ -41,7 +41,9 @@
                   "start": 702,
                   "end": 706,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

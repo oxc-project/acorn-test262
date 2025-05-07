@@ -62,14 +62,18 @@
             "start": 786,
             "end": 796,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 798,
             "end": 853,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -95,7 +99,9 @@
             "start": 872,
             "end": 873,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -247,7 +253,9 @@
                       "start": 1825,
                       "end": 1826,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -333,6 +341,7 @@
                     "end": 1878,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 ],
@@ -409,6 +418,7 @@
                             "end": 1940,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           },
                           {
@@ -416,7 +426,9 @@
                             "start": 1942,
                             "end": 1975,
                             "value": "The value of `agentCount` is 1n",
-                            "raw": "'The value of `agentCount` is 1n'"
+                            "raw": "'The value of `agentCount` is 1n'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -499,14 +511,18 @@
                             "start": 2042,
                             "end": 2055,
                             "value": "A TypeError",
-                            "raw": "'A TypeError'"
+                            "raw": "'A TypeError'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2061,
                             "end": 2134,
                             "value": "(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"'"
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -589,14 +605,18 @@
                             "start": 2204,
                             "end": 2217,
                             "value": "B TypeError",
-                            "raw": "'B TypeError'"
+                            "raw": "'B TypeError'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2223,
                             "end": 2296,
                             "value": "(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"'"
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -665,7 +685,9 @@
                                 "start": 2348,
                                 "end": 2349,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -675,14 +697,18 @@
                             "start": 2356,
                             "end": 2357,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2363,
                             "end": 2475,
                             "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
+                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

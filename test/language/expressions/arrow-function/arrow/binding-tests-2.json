@@ -42,7 +42,9 @@
                   "start": 247,
                   "end": 257,
                   "value": "()=>this",
-                  "raw": "\"()=>this\""
+                  "raw": "\"()=>this\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -109,7 +111,9 @@
             "start": 299,
             "end": 381,
             "value": "This binding initialization was incorrect for arrow capturing this from closure.",
-            "raw": "\"This binding initialization was incorrect for arrow capturing this from closure.\""
+            "raw": "\"This binding initialization was incorrect for arrow capturing this from closure.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

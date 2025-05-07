@@ -28,189 +28,243 @@
                 "start": 724,
                 "end": 730,
                 "value": "en-t",
-                "raw": "\"en-t\""
+                "raw": "\"en-t\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 734,
                 "end": 742,
                 "value": "en-t-a",
-                "raw": "\"en-t-a\""
+                "raw": "\"en-t-a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 746,
                 "end": 754,
                 "value": "en-t-x",
-                "raw": "\"en-t-x\""
+                "raw": "\"en-t-x\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 766,
                 "value": "en-t-0",
-                "raw": "\"en-t-0\""
+                "raw": "\"en-t-0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 787,
                 "end": 794,
                 "value": "en-t-",
-                "raw": "\"en-t-\""
+                "raw": "\"en-t-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 798,
                 "end": 808,
                 "value": "en-t-en-",
-                "raw": "\"en-t-en-\""
+                "raw": "\"en-t-en-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 812,
                 "end": 822,
                 "value": "en-t-0x-",
-                "raw": "\"en-t-0x-\""
+                "raw": "\"en-t-0x-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 935,
                 "end": 946,
                 "value": "en-t-root",
-                "raw": "\"en-t-root\""
+                "raw": "\"en-t-root\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 950,
                 "end": 966,
                 "value": "en-t-abcdefghi",
-                "raw": "\"en-t-abcdefghi\""
+                "raw": "\"en-t-abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 970,
                 "end": 983,
                 "value": "en-t-ar-aao",
-                "raw": "\"en-t-ar-aao\""
+                "raw": "\"en-t-ar-aao\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1081,
                 "end": 1095,
                 "value": "en-t-en-lat0",
-                "raw": "\"en-t-en-lat0\""
+                "raw": "\"en-t-en-lat0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1099,
                 "end": 1118,
                 "value": "en-t-en-latn-latn",
-                "raw": "\"en-t-en-latn-latn\""
+                "raw": "\"en-t-en-latn-latn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1219,
                 "end": 1230,
                 "value": "en-t-en-0",
-                "raw": "\"en-t-en-0\""
+                "raw": "\"en-t-en-0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1234,
                 "end": 1246,
                 "value": "en-t-en-00",
-                "raw": "\"en-t-en-00\""
+                "raw": "\"en-t-en-00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1250,
                 "end": 1262,
                 "value": "en-t-en-0x",
-                "raw": "\"en-t-en-0x\""
+                "raw": "\"en-t-en-0x\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1266,
                 "end": 1278,
                 "value": "en-t-en-x0",
-                "raw": "\"en-t-en-x0\""
+                "raw": "\"en-t-en-x0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1282,
                 "end": 1298,
                 "value": "en-t-en-latn-0",
-                "raw": "\"en-t-en-latn-0\""
+                "raw": "\"en-t-en-latn-0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1302,
                 "end": 1319,
                 "value": "en-t-en-latn-00",
-                "raw": "\"en-t-en-latn-00\""
+                "raw": "\"en-t-en-latn-00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1323,
                 "end": 1341,
                 "value": "en-t-en-latn-xyz",
-                "raw": "\"en-t-en-latn-xyz\""
+                "raw": "\"en-t-en-latn-xyz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1459,
                 "end": 1478,
                 "value": "en-t-en-abcdefghi",
-                "raw": "\"en-t-en-abcdefghi\""
+                "raw": "\"en-t-en-abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1482,
                 "end": 1502,
                 "value": "en-t-en-latn-gb-ab",
-                "raw": "\"en-t-en-latn-gb-ab\""
+                "raw": "\"en-t-en-latn-gb-ab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1506,
                 "end": 1527,
                 "value": "en-t-en-latn-gb-abc",
-                "raw": "\"en-t-en-latn-gb-abc\""
+                "raw": "\"en-t-en-latn-gb-abc\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1531,
                 "end": 1553,
                 "value": "en-t-en-latn-gb-abcd",
-                "raw": "\"en-t-en-latn-gb-abcd\""
+                "raw": "\"en-t-en-latn-gb-abcd\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1557,
                 "end": 1584,
                 "value": "en-t-en-latn-gb-abcdefghi",
-                "raw": "\"en-t-en-latn-gb-abcdefghi\""
+                "raw": "\"en-t-en-latn-gb-abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1627,
                 "end": 1636,
                 "value": "en-t-d0",
-                "raw": "\"en-t-d0\""
+                "raw": "\"en-t-d0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1640,
                 "end": 1652,
                 "value": "en-t-d0-m0",
-                "raw": "\"en-t-d0-m0\""
+                "raw": "\"en-t-d0-m0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1656,
                 "end": 1675,
                 "value": "en-t-d0-x-private",
-                "raw": "\"en-t-d0-x-private\""
+                "raw": "\"en-t-d0-x-private\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -307,7 +361,9 @@
                   "start": 1818,
                   "end": 1823,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -322,7 +378,9 @@
                       "start": 1844,
                       "end": 1848,
                       "value": "\"",
-                      "raw": "\"\\\"\""
+                      "raw": "\"\\\"\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -338,7 +396,9 @@
                     "start": 1857,
                     "end": 1902,
                     "value": "\" isn't a structurally valid language tag.",
-                    "raw": "\"\\\" isn't a structurally valid language tag.\""
+                    "raw": "\"\\\" isn't a structurally valid language tag.\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

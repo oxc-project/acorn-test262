@@ -34,7 +34,9 @@
                 "start": 418,
                 "end": 422,
                 "value": 1024,
-                "raw": "1024"
+                "raw": "1024",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -97,7 +99,9 @@
                   "start": 486,
                   "end": 487,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -179,14 +183,18 @@
                             "start": 570,
                             "end": 572,
                             "value": 32,
-                            "raw": "32"
+                            "raw": "32",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 574,
                             "end": 576,
                             "value": 20,
-                            "raw": "20"
+                            "raw": "20",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -231,14 +239,18 @@
                             "start": 608,
                             "end": 609,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 611,
                             "end": 612,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -270,7 +282,9 @@
                         "start": 622,
                         "end": 623,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -281,6 +295,7 @@
                       "end": 629,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -348,7 +363,9 @@
                             "start": 673,
                             "end": 674,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
@@ -356,6 +373,7 @@
                             "end": 679,
                             "value": null,
                             "raw": "10n",
+                            "regex": null,
                             "bigint": "10"
                           }
                         ],
@@ -367,6 +385,7 @@
                         "end": 684,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -374,7 +393,9 @@
                         "start": 686,
                         "end": 729,
                         "value": "Atomics.exchange(view, 8, 10n) returns 0n",
-                        "raw": "'Atomics.exchange(view, 8, 10n) returns 0n'"
+                        "raw": "'Atomics.exchange(view, 8, 10n) returns 0n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -423,7 +444,9 @@
                           "start": 756,
                           "end": 757,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -434,6 +457,7 @@
                         "end": 763,
                         "value": null,
                         "raw": "10n",
+                        "regex": null,
                         "bigint": "10"
                       },
                       {
@@ -441,7 +465,9 @@
                         "start": 765,
                         "end": 794,
                         "value": "The value of view[8] is 10n",
-                        "raw": "'The value of view[8] is 10n'"
+                        "raw": "'The value of view[8] is 10n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -510,7 +536,9 @@
                             "start": 845,
                             "end": 846,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "UnaryExpression",
@@ -524,6 +552,7 @@
                               "end": 851,
                               "value": null,
                               "raw": "5n",
+                              "regex": null,
                               "bigint": "5"
                             }
                           }
@@ -536,6 +565,7 @@
                         "end": 861,
                         "value": null,
                         "raw": "10n",
+                        "regex": null,
                         "bigint": "10"
                       },
                       {
@@ -543,7 +573,9 @@
                         "start": 867,
                         "end": 911,
                         "value": "Atomics.exchange(view, 8, -5n) returns 10n",
-                        "raw": "'Atomics.exchange(view, 8, -5n) returns 10n'"
+                        "raw": "'Atomics.exchange(view, 8, -5n) returns 10n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -573,7 +605,9 @@
                         "start": 928,
                         "end": 929,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -590,6 +624,7 @@
                         "end": 936,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     }
@@ -638,7 +673,9 @@
                           "start": 968,
                           "end": 969,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -658,7 +695,9 @@
                           "start": 984,
                           "end": 985,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -668,7 +707,9 @@
                         "start": 992,
                         "end": 1053,
                         "value": "The value of view[8] equals the value of `control[0]` (-5n)",
-                        "raw": "'The value of view[8] equals the value of `control[0]` (-5n)'"
+                        "raw": "'The value of view[8] equals the value of `control[0]` (-5n)'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -698,7 +739,9 @@
                         "start": 1067,
                         "end": 1068,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -715,6 +758,7 @@
                         "end": 1075,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     }
@@ -744,7 +788,9 @@
                         "start": 1087,
                         "end": 1088,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -761,6 +807,7 @@
                         "end": 1095,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     }
@@ -829,7 +876,9 @@
                             "start": 1145,
                             "end": 1146,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
@@ -837,6 +886,7 @@
                             "end": 1150,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           }
                         ],
@@ -857,7 +907,9 @@
                           "start": 1165,
                           "end": 1166,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -867,7 +919,9 @@
                         "start": 1173,
                         "end": 1244,
                         "value": "Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (-5n)",
-                        "raw": "'Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (-5n)'"
+                        "raw": "'Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (-5n)'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -897,7 +951,9 @@
                         "start": 1261,
                         "end": 1262,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -908,6 +964,7 @@
                       "end": 1272,
                       "value": null,
                       "raw": "12345n",
+                      "regex": null,
                       "bigint": "12345"
                     }
                   }
@@ -936,7 +993,9 @@
                         "start": 1281,
                         "end": 1282,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -947,6 +1006,7 @@
                       "end": 1292,
                       "value": null,
                       "raw": "12345n",
+                      "regex": null,
                       "bigint": "12345"
                     }
                   }
@@ -1014,7 +1074,9 @@
                             "start": 1342,
                             "end": 1343,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
@@ -1022,6 +1084,7 @@
                             "end": 1347,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           }
                         ],
@@ -1042,7 +1105,9 @@
                           "start": 1362,
                           "end": 1363,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1052,7 +1117,9 @@
                         "start": 1370,
                         "end": 1444,
                         "value": "Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (12345n)",
-                        "raw": "'Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (12345n)'"
+                        "raw": "'Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (12345n)'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1082,7 +1149,9 @@
                         "start": 1461,
                         "end": 1462,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1093,6 +1162,7 @@
                       "end": 1476,
                       "value": null,
                       "raw": "123456789n",
+                      "regex": null,
                       "bigint": "123456789"
                     }
                   }
@@ -1121,7 +1191,9 @@
                         "start": 1485,
                         "end": 1486,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1132,6 +1204,7 @@
                       "end": 1500,
                       "value": null,
                       "raw": "123456789n",
+                      "regex": null,
                       "bigint": "123456789"
                     }
                   }
@@ -1199,7 +1272,9 @@
                             "start": 1550,
                             "end": 1551,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
@@ -1207,6 +1282,7 @@
                             "end": 1555,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           }
                         ],
@@ -1227,7 +1303,9 @@
                           "start": 1570,
                           "end": 1571,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1237,7 +1315,9 @@
                         "start": 1578,
                         "end": 1656,
                         "value": "Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (123456789n)",
-                        "raw": "'Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (123456789n)'"
+                        "raw": "'Atomics.exchange(view, 3, 0n) returns the value of `control[0]` (123456789n)'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1352,6 +1432,7 @@
                                     "end": 1759,
                                     "value": null,
                                     "raw": "0n",
+                                    "regex": null,
                                     "bigint": "0"
                                   }
                                 ],
@@ -1404,6 +1485,7 @@
                                     "end": 1794,
                                     "value": null,
                                     "raw": "37n",
+                                    "regex": null,
                                     "bigint": "37"
                                   }
                                 ],
@@ -1480,6 +1562,7 @@
                                         "end": 1856,
                                         "value": null,
                                         "raw": "0n",
+                                        "regex": null,
                                         "bigint": "0"
                                       }
                                     ],
@@ -1491,6 +1574,7 @@
                                     "end": 1868,
                                     "value": null,
                                     "raw": "37n",
+                                    "regex": null,
                                     "bigint": "37"
                                   },
                                   {
@@ -1498,7 +1582,9 @@
                                     "start": 1876,
                                     "end": 1921,
                                     "value": "Atomics.exchange(view, Idx, 0n) returns 37n",
-                                    "raw": "'Atomics.exchange(view, Idx, 0n) returns 37n'"
+                                    "raw": "'Atomics.exchange(view, Idx, 0n) returns 37n'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

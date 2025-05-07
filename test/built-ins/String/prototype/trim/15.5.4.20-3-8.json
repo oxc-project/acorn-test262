@@ -44,7 +44,9 @@
                 "start": 264,
                 "end": 274,
                 "value": "\u0000\u0000",
-                "raw": "\"\\0\\u0000\""
+                "raw": "\"\\0\\u0000\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 283,
             "end": 293,
             "value": "\u0000\u0000",
-            "raw": "\"\\0\\u0000\""
+            "raw": "\"\\0\\u0000\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 295,
             "end": 314,
             "value": "\"\u0000\u0000\".trim()",
-            "raw": "'\"\\0\\u0000\".trim()'"
+            "raw": "'\"\\0\\u0000\".trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

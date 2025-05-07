@@ -62,14 +62,18 @@
             "start": 734,
             "end": 744,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 746,
             "end": 801,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -141,7 +145,9 @@
                       "start": 894,
                       "end": 895,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -219,7 +225,9 @@
                               "start": 961,
                               "end": 992,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -347,7 +355,9 @@
             "start": 1102,
             "end": 1189,
             "value": "`Atomics.waitAsync(i64a, Infinity, poisoned, poisoned)` throws a RangeError exception",
-            "raw": "'`Atomics.waitAsync(i64a, Infinity, poisoned, poisoned)` throws a RangeError exception'"
+            "raw": "'`Atomics.waitAsync(i64a, Infinity, poisoned, poisoned)` throws a RangeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,7 +456,9 @@
                           "start": 1258,
                           "end": 1259,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -473,7 +485,9 @@
             "start": 1285,
             "end": 1366,
             "value": "`Atomics.waitAsync(i64a, -1, poisoned, poisoned)` throws a RangeError exception",
-            "raw": "'`Atomics.waitAsync(i64a, -1, poisoned, poisoned)` throws a RangeError exception'"
+            "raw": "'`Atomics.waitAsync(i64a, -1, poisoned, poisoned)` throws a RangeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -566,7 +580,9 @@
                         "start": 1434,
                         "end": 1435,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -592,7 +608,9 @@
             "start": 1461,
             "end": 1541,
             "value": "`Atomics.waitAsync(i64a, 4, poisoned, poisoned)` throws a RangeError exception",
-            "raw": "'`Atomics.waitAsync(i64a, 4, poisoned, poisoned)` throws a RangeError exception'"
+            "raw": "'`Atomics.waitAsync(i64a, 4, poisoned, poisoned)` throws a RangeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -685,7 +703,9 @@
                         "start": 1609,
                         "end": 1612,
                         "value": 200,
-                        "raw": "200"
+                        "raw": "200",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -711,7 +731,9 @@
             "start": 1638,
             "end": 1720,
             "value": "`Atomics.waitAsync(i64a, 200, poisoned, poisoned)` throws a RangeError exception",
-            "raw": "'`Atomics.waitAsync(i64a, 200, poisoned, poisoned)` throws a RangeError exception'"
+            "raw": "'`Atomics.waitAsync(i64a, 200, poisoned, poisoned)` throws a RangeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

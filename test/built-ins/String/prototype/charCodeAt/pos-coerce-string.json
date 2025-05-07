@@ -23,7 +23,9 @@
             "start": 381,
             "end": 383,
             "value": 99,
-            "raw": "99"
+            "raw": "99",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -70,7 +72,9 @@
                 "start": 403,
                 "end": 409,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -87,7 +91,9 @@
                 "start": 421,
                 "end": 446,
                 "value": "   +00200.0000E-0002   ",
-                "raw": "'   +00200.0000E-0002   '"
+                "raw": "'   +00200.0000E-0002   '",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

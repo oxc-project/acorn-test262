@@ -134,7 +134,9 @@
                         "start": 543,
                         "end": 546,
                         "value": 100,
-                        "raw": "100"
+                        "raw": "100",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -148,7 +150,9 @@
             "start": 551,
             "end": 563,
             "value": "NaN/Number",
-            "raw": "\"NaN/Number\""
+            "raw": "\"NaN/Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +239,9 @@
                         "start": 615,
                         "end": 618,
                         "value": 100,
-                        "raw": "100"
+                        "raw": "100",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -255,7 +261,9 @@
             "start": 628,
             "end": 640,
             "value": "Number/NaN",
-            "raw": "\"Number/NaN\""
+            "raw": "\"Number/NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +369,9 @@
             "start": 705,
             "end": 714,
             "value": "NaN/NaN",
-            "raw": "\"NaN/NaN\""
+            "raw": "\"NaN/NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

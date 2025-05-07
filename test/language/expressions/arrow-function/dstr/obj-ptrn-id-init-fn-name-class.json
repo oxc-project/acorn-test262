@@ -23,7 +23,9 @@
             "start": 1741,
             "end": 1742,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -291,7 +293,9 @@
                       "start": 1865,
                       "end": 1870,
                       "value": "cls",
-                      "raw": "'cls'"
+                      "raw": "'cls'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -349,7 +353,9 @@
                       "start": 1906,
                       "end": 1912,
                       "value": "xCls",
-                      "raw": "'xCls'"
+                      "raw": "'xCls'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -407,7 +413,9 @@
                       "start": 1949,
                       "end": 1956,
                       "value": "xCls2",
-                      "raw": "'xCls2'"
+                      "raw": "'xCls2'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -444,7 +452,9 @@
                       "start": 1985,
                       "end": 1986,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -518,14 +528,18 @@
             "start": 2027,
             "end": 2028,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2030,
             "end": 2067,
             "value": "arrow function invoked exactly once",
-            "raw": "'arrow function invoked exactly once'"
+            "raw": "'arrow function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

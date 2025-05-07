@@ -119,21 +119,27 @@
                   "start": 808,
                   "end": 809,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 811,
                   "end": 812,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 814,
                   "end": 816,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -180,7 +186,9 @@
             "start": 847,
             "end": 860,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -223,7 +231,9 @@
                           "start": 880,
                           "end": 922,
                           "value": "it should not object the typedarray ctor",
-                          "raw": "\"it should not object the typedarray ctor\""
+                          "raw": "\"it should not object the typedarray ctor\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -350,21 +360,27 @@
                 "start": 995,
                 "end": 996,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 998,
                 "end": 999,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1001,
                 "end": 1003,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -373,7 +389,9 @@
             "start": 1006,
             "end": 1056,
             "value": "The value of actual is expected to be [1, 0, 42]",
-            "raw": "'The value of actual is expected to be [1, 0, 42]'"
+            "raw": "'The value of actual is expected to be [1, 0, 42]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -464,7 +482,9 @@
             "start": 1124,
             "end": 1199,
             "value": "Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,14 +541,18 @@
             "start": 1249,
             "end": 1254,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1256,
             "end": 1337,
             "value": "The result of evaluating (actual instanceof Int32Array) is expected to be false",
-            "raw": "'The result of evaluating (actual instanceof Int32Array) is expected to be false'"
+            "raw": "'The result of evaluating (actual instanceof Int32Array) is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -565,7 +589,9 @@
               "start": 1361,
               "end": 1362,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -610,7 +636,9 @@
             "start": 1392,
             "end": 1405,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -653,7 +681,9 @@
                           "start": 1425,
                           "end": 1467,
                           "value": "it should not object the typedarray ctor",
-                          "raw": "\"it should not object the typedarray ctor\""
+                          "raw": "\"it should not object the typedarray ctor\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -781,7 +811,9 @@
             "start": 1543,
             "end": 1585,
             "value": "The value of actual is expected to be []",
-            "raw": "'The value of actual is expected to be []'"
+            "raw": "'The value of actual is expected to be []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -872,7 +904,9 @@
             "start": 1653,
             "end": 1728,
             "value": "Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -929,14 +963,18 @@
             "start": 1778,
             "end": 1783,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1785,
             "end": 1866,
             "value": "The result of evaluating (actual instanceof Int32Array) is expected to be false",
-            "raw": "'The result of evaluating (actual instanceof Int32Array) is expected to be false'"
+            "raw": "'The result of evaluating (actual instanceof Int32Array) is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

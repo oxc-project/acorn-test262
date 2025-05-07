@@ -78,7 +78,9 @@
                       "start": 337,
                       "end": 346,
                       "value": "gregory",
-                      "raw": "\"gregory\""
+                      "raw": "\"gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 355,
                       "end": 359,
                       "value": "ce",
-                      "raw": "\"ce\""
+                      "raw": "\"ce\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 372,
                       "end": 376,
                       "value": 2024,
-                      "raw": "2024"
+                      "raw": "2024",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 386,
                       "end": 390,
                       "value": 2024,
-                      "raw": "2024"
+                      "raw": "2024",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +174,9 @@
                       "start": 401,
                       "end": 402,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -218,42 +228,54 @@
             "start": 457,
             "end": 461,
             "value": 2024,
-            "raw": "2024"
+            "raw": "2024",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 464,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 471,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 475,
             "end": 516,
             "value": "'ce' is accepted as alias for 'gregory'",
-            "raw": "\"'ce' is accepted as alias for 'gregory'\""
+            "raw": "\"'ce' is accepted as alias for 'gregory'\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 520,
             "end": 529,
             "value": "gregory",
-            "raw": "\"gregory\""
+            "raw": "\"gregory\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 531,
             "end": 535,
             "value": 2024,
-            "raw": "2024"
+            "raw": "2024",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -334,7 +356,9 @@
                       "start": 597,
                       "end": 606,
                       "value": "gregory",
-                      "raw": "\"gregory\""
+                      "raw": "\"gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -356,7 +380,9 @@
                       "start": 615,
                       "end": 620,
                       "value": "bce",
-                      "raw": "\"bce\""
+                      "raw": "\"bce\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -378,7 +404,9 @@
                       "start": 633,
                       "end": 635,
                       "value": 44,
-                      "raw": "44"
+                      "raw": "44",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -406,7 +434,9 @@
                         "start": 646,
                         "end": 648,
                         "value": 43,
-                        "raw": "43"
+                        "raw": "43",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -429,7 +459,9 @@
                       "start": 659,
                       "end": 660,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -487,7 +519,9 @@
               "start": 716,
               "end": 718,
               "value": 43,
-              "raw": "43"
+              "raw": "43",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -495,35 +529,45 @@
             "start": 720,
             "end": 721,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 728,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 782,
             "value": "'bce' is accepted as alias for 'gregory-inverse'",
-            "raw": "\"'bce' is accepted as alias for 'gregory-inverse'\""
+            "raw": "\"'bce' is accepted as alias for 'gregory-inverse'\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 803,
             "value": "gregory-inverse",
-            "raw": "\"gregory-inverse\""
+            "raw": "\"gregory-inverse\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 807,
             "value": 44,
-            "raw": "44"
+            "raw": "44",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

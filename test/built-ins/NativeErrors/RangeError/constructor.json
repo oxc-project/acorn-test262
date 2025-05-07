@@ -49,14 +49,18 @@
             "start": 250,
             "end": 260,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 262,
             "end": 295,
             "value": "typeof RangeError is \"function\"",
-            "raw": "'typeof RangeError is \"function\"'"
+            "raw": "'typeof RangeError is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

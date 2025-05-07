@@ -42,7 +42,9 @@
                   "start": 327,
                   "end": 328,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -71,7 +73,9 @@
                     "start": 355,
                     "end": 421,
                     "value": "#2.1: with(undefined) x = 2 must throw TypeError. Actual: x === ",
-                    "raw": "'#2.1: with(undefined) x = 2 must throw TypeError. Actual: x === '"
+                    "raw": "'#2.1: with(undefined) x = 2 must throw TypeError. Actual: x === '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -143,7 +147,9 @@
                   "start": 476,
                   "end": 480,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -175,7 +181,9 @@
                             "start": 510,
                             "end": 570,
                             "value": "#2.2: with(undefined) x = 2 must throw TypeError. Actual: ",
-                            "raw": "'#2.2: with(undefined) x = 2 must throw TypeError. Actual: '"
+                            "raw": "'#2.2: with(undefined) x = 2 must throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

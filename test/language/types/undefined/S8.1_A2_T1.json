@@ -86,7 +86,9 @@
                     "start": 439,
                     "end": 477,
                     "value": "#1: var x; x === undefined. Actual: ",
-                    "raw": "'#1: var x; x === undefined. Actual: '"
+                    "raw": "'#1: var x; x === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -150,7 +152,9 @@
               "start": 659,
               "end": 670,
               "value": "undefined",
-              "raw": "\"undefined\""
+              "raw": "\"undefined\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -184,7 +188,9 @@
                     "start": 700,
                     "end": 748,
                     "value": "#2: var x; typeof(x) === \"undefined\". Actual: ",
-                    "raw": "'#2: var x; typeof(x) === \"undefined\". Actual: '"
+                    "raw": "'#2: var x; typeof(x) === \"undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -254,7 +260,9 @@
                 "start": 935,
                 "end": 936,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -289,7 +297,9 @@
                     "start": 966,
                     "end": 1001,
                     "value": "#3: var x; x === void 0. Actual: ",
-                    "raw": "'#3: var x; x === void 0. Actual: '"
+                    "raw": "'#3: var x; x === void 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
                   "start": 40,
                   "end": 41,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeAnnotation": {
@@ -61,7 +63,9 @@ __ESTREE_TEST__:PASS:
                   "start": 60,
                   "end": 61,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "typeof",
@@ -86,7 +90,9 @@ __ESTREE_TEST__:PASS:
                   "start": 78,
                   "end": 79,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "void",
@@ -131,7 +137,9 @@ __ESTREE_TEST__:PASS:
                             "start": 132,
                             "end": 133,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "void",
@@ -175,7 +183,9 @@ __ESTREE_TEST__:PASS:
                   "start": 151,
                   "end": 152,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }

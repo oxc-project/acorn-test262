@@ -205,7 +205,9 @@
             "start": 747,
             "end": 748,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -380,7 +382,9 @@
                       "start": 888,
                       "end": 932,
                       "value": "`resolve` invoked with next iterated value",
-                      "raw": "'`resolve` invoked with next iterated value'"
+                      "raw": "'`resolve` invoked with next iterated value'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -438,14 +442,18 @@
                       "start": 980,
                       "end": 981,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 983,
                       "end": 1025,
                       "value": "`resolve` invoked with a single argument",
-                      "raw": "'`resolve` invoked with a single argument'"
+                      "raw": "'`resolve` invoked with a single argument'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -495,7 +503,9 @@
                       "start": 1065,
                       "end": 1098,
                       "value": "`this` value is the constructor",
-                      "raw": "'`this` value is the constructor'"
+                      "raw": "'`this` value is the constructor'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -567,7 +577,9 @@
                     "start": 1154,
                     "end": 1158,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -591,7 +603,9 @@
                     "start": 1176,
                     "end": 1177,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -740,14 +754,18 @@
             "start": 1294,
             "end": 1295,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1297,
             "end": 1345,
             "value": "`resolve` invoked once for each iterated value",
-            "raw": "'`resolve` invoked once for each iterated value'"
+            "raw": "'`resolve` invoked once for each iterated value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

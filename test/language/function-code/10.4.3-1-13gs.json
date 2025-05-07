@@ -34,7 +34,9 @@
                 "start": 325,
                 "end": 346,
                 "value": "return typeof this;",
-                "raw": "\"return typeof this;\""
+                "raw": "\"return typeof this;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,7 +72,9 @@
           "start": 361,
           "end": 372,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -87,7 +91,9 @@
               "start": 386,
               "end": 415,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

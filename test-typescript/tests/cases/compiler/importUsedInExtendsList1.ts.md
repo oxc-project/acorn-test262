@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 80,
           "end": 116,
           "raw": "'./importUsedInExtendsList1_require'",
-          "value": "./importUsedInExtendsList1_require"
+          "value": "./importUsedInExtendsList1_require",
+          "regex": null,
+          "bigint": null
         }
       }
     },

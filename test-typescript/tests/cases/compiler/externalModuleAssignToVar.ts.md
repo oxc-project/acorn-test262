@@ -287,7 +287,9 @@ __ESTREE_TEST__:PASS:
           "start": 86,
           "end": 126,
           "raw": "'externalModuleAssignToVar_core_require'",
-          "value": "externalModuleAssignToVar_core_require"
+          "value": "externalModuleAssignToVar_core_require",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -454,7 +456,9 @@ __ESTREE_TEST__:PASS:
           "start": 206,
           "end": 247,
           "raw": "'externalModuleAssignToVar_core_require2'",
-          "value": "externalModuleAssignToVar_core_require2"
+          "value": "externalModuleAssignToVar_core_require2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -576,7 +580,9 @@ __ESTREE_TEST__:PASS:
           "start": 320,
           "end": 351,
           "raw": "'externalModuleAssignToVar_ext'",
-          "value": "externalModuleAssignToVar_ext"
+          "value": "externalModuleAssignToVar_ext",
+          "regex": null,
+          "bigint": null
         }
       }
     },

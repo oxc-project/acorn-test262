@@ -60,7 +60,9 @@
                 "start": 332,
                 "end": 342,
                 "value": "12:56:32",
-                "raw": "\"12:56:32\""
+                "raw": "\"12:56:32\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,21 +96,27 @@
                 "start": 361,
                 "end": 365,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 371,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 380,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -126,7 +134,9 @@
                     "start": 389,
                     "end": 394,
                     "value": "foo",
-                    "raw": "\"foo\""
+                    "raw": "\"foo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -136,7 +146,9 @@
                 "start": 397,
                 "end": 398,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -144,6 +156,7 @@
                 "end": 402,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ]

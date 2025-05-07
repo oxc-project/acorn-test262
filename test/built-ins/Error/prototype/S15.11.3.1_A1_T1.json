@@ -67,7 +67,9 @@
             "start": 478,
             "end": 489,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -141,7 +143,9 @@
                   "start": 541,
                   "end": 546,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -312,7 +316,9 @@
                     "start": 881,
                     "end": 971,
                     "value": "#2: var proto=Error.prototype; delete Error.prototype; Error.prototype===proto. Actual: ",
-                    "raw": "'#2: var proto=Error.prototype; delete Error.prototype; Error.prototype===proto. Actual: '"
+                    "raw": "'#2: var proto=Error.prototype; delete Error.prototype; Error.prototype===proto. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

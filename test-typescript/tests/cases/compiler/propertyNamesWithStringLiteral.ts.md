@@ -228,7 +228,9 @@ __ESTREE_TEST__:PASS:
               "start": 113,
               "end": 119,
               "raw": "\"blue\"",
-              "value": "blue"
+              "value": "blue",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -265,7 +267,9 @@ __ESTREE_TEST__:PASS:
               "start": 133,
               "end": 144,
               "raw": "\"pale blue\"",
-              "value": "pale blue"
+              "value": "pale blue",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -438,7 +442,9 @@ __ESTREE_TEST__:PASS:
               "start": 240,
               "end": 247,
               "raw": "\"azure\"",
-              "value": "azure"
+              "value": "azure",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -566,7 +572,9 @@ __ESTREE_TEST__:PASS:
               "start": 328,
               "end": 339,
               "raw": "\"pale blue\"",
-              "value": "pale blue"
+              "value": "pale blue",
+              "regex": null,
+              "bigint": null
             }
           }
         }

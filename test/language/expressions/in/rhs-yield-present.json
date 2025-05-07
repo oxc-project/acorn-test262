@@ -35,7 +35,9 @@
                 "start": 798,
                 "end": 800,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -191,14 +193,18 @@
                         "start": 883,
                         "end": 885,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "Literal",
                         "start": 887,
                         "end": 888,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -221,7 +227,9 @@
             "start": 898,
             "end": 902,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +377,9 @@
             "start": 983,
             "end": 988,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 300,
             "end": 305,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 359,
                 "end": 361,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -131,7 +135,9 @@
               "start": 405,
               "end": 410,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -201,7 +207,9 @@
             "start": 457,
             "end": 461,
             "value": "10",
-            "raw": "\"10\""
+            "raw": "\"10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -269,7 +277,9 @@
                   "start": 525,
                   "end": 529,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -332,7 +342,9 @@
             "start": 564,
             "end": 595,
             "value": "arr.some(callbackfn) !== true",
-            "raw": "'arr.some(callbackfn) !== true'"
+            "raw": "'arr.some(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

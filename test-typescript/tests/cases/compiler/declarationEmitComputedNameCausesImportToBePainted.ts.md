@@ -140,7 +140,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 40,
         "raw": "\"./context\"",
-        "value": "./context"
+        "value": "./context",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -264,7 +266,9 @@ __ESTREE_TEST__:PASS:
                     "start": 86,
                     "end": 91,
                     "raw": "'bar'",
-                    "value": "bar"
+                    "value": "bar",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

@@ -75,14 +75,18 @@
             "start": 324,
             "end": 334,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 338,
             "end": 414,
             "value": "The value of `typeof Function.prototype.call` is expected to be \"function\"",
-            "raw": "'The value of `typeof Function.prototype.call` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Function.prototype.call` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,14 +177,18 @@
             "start": 483,
             "end": 494,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 569,
             "value": "The value of typeof Function.prototype.call.length is not \"undefined\"",
-            "raw": "'The value of typeof Function.prototype.call.length is not \"undefined\"'"
+            "raw": "'The value of typeof Function.prototype.call.length is not \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,14 +272,18 @@
             "start": 623,
             "end": 624,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 691,
             "value": "The value of Function.prototype.call.length is expected to be 1",
-            "raw": "'The value of Function.prototype.call.length is expected to be 1'"
+            "raw": "'The value of Function.prototype.call.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

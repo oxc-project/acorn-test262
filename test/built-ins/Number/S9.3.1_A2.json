@@ -47,7 +47,9 @@
                 "start": 351,
                 "end": 497,
                 "value": "\t\f  \u000b\n\r                　",
-                "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\""
+                "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 502,
             "end": 503,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 653,
             "value": "Number(\"u0009u000Cu0020u00A0u000Bu000Au000Du2028u2029u1680u2000u2001u2002u2003u2004u2005u2006u2007u2008u2009u200Au202Fu205Fu3000\") must return 0",
-            "raw": "'Number(\"u0009u000Cu0020u00A0u000Bu000Au000Du2028u2029u1680u2000u2001u2002u2003u2004u2005u2006u2007u2008u2009u200Au202Fu205Fu3000\") must return 0'"
+            "raw": "'Number(\"u0009u000Cu0020u00A0u000Bu000Au000Du2028u2029u1680u2000u2001u2002u2003u2004u2005u2006u2007u2008u2009u200Au202Fu205Fu3000\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +120,9 @@
                 "start": 682,
                 "end": 685,
                 "value": " ",
-                "raw": "\" \""
+                "raw": "\" \"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,14 +132,18 @@
             "start": 688,
             "end": 689,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 691,
             "end": 718,
             "value": "Number(\" \") must return 0",
-            "raw": "'Number(\" \") must return 0'"
+            "raw": "'Number(\" \") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +193,9 @@
                 "start": 745,
                 "end": 749,
                 "value": "\t",
-                "raw": "\"\\t\""
+                "raw": "\"\\t\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,14 +205,18 @@
             "start": 752,
             "end": 753,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 782,
             "value": "Number(\"t\") must return 0",
-            "raw": "'Number(\"t\") must return 0'"
+            "raw": "'Number(\"t\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +266,9 @@
                 "start": 809,
                 "end": 813,
                 "value": "\r",
-                "raw": "\"\\r\""
+                "raw": "\"\\r\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -258,14 +278,18 @@
             "start": 816,
             "end": 817,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 819,
             "end": 846,
             "value": "Number(\"r\") must return 0",
-            "raw": "'Number(\"r\") must return 0'"
+            "raw": "'Number(\"r\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +339,9 @@
                 "start": 873,
                 "end": 877,
                 "value": "\n",
-                "raw": "\"\\n\""
+                "raw": "\"\\n\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -325,14 +351,18 @@
             "start": 880,
             "end": 881,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 883,
             "end": 910,
             "value": "Number(\"n\") must return 0",
-            "raw": "'Number(\"n\") must return 0'"
+            "raw": "'Number(\"n\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +412,9 @@
                 "start": 937,
                 "end": 941,
                 "value": "\f",
-                "raw": "\"\\f\""
+                "raw": "\"\\f\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -392,14 +424,18 @@
             "start": 944,
             "end": 945,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 947,
             "end": 974,
             "value": "Number(\"f\") must return 0",
-            "raw": "'Number(\"f\") must return 0'"
+            "raw": "'Number(\"f\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -449,7 +485,9 @@
                 "start": 1001,
                 "end": 1009,
                 "value": "\t",
-                "raw": "\"\\u0009\""
+                "raw": "\"\\u0009\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -459,14 +497,18 @@
             "start": 1012,
             "end": 1013,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1015,
             "end": 1046,
             "value": "Number(\"u0009\") must return 0",
-            "raw": "'Number(\"u0009\") must return 0'"
+            "raw": "'Number(\"u0009\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -516,7 +558,9 @@
                 "start": 1073,
                 "end": 1081,
                 "value": "\n",
-                "raw": "\"\\u000A\""
+                "raw": "\"\\u000A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -526,14 +570,18 @@
             "start": 1084,
             "end": 1085,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1087,
             "end": 1118,
             "value": "Number(\"u000A\") must return 0",
-            "raw": "'Number(\"u000A\") must return 0'"
+            "raw": "'Number(\"u000A\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -583,7 +631,9 @@
                 "start": 1145,
                 "end": 1153,
                 "value": "\u000b",
-                "raw": "\"\\u000B\""
+                "raw": "\"\\u000B\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -593,14 +643,18 @@
             "start": 1156,
             "end": 1157,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1159,
             "end": 1190,
             "value": "Number(\"u000B\") must return 0",
-            "raw": "'Number(\"u000B\") must return 0'"
+            "raw": "'Number(\"u000B\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -650,7 +704,9 @@
                 "start": 1217,
                 "end": 1225,
                 "value": "\f",
-                "raw": "\"\\u000C\""
+                "raw": "\"\\u000C\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -660,14 +716,18 @@
             "start": 1228,
             "end": 1229,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1231,
             "end": 1262,
             "value": "Number(\"u000C\") must return 0",
-            "raw": "'Number(\"u000C\") must return 0'"
+            "raw": "'Number(\"u000C\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -717,7 +777,9 @@
                 "start": 1289,
                 "end": 1297,
                 "value": "\r",
-                "raw": "\"\\u000D\""
+                "raw": "\"\\u000D\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -727,14 +789,18 @@
             "start": 1300,
             "end": 1301,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1303,
             "end": 1334,
             "value": "Number(\"u000D\") must return 0",
-            "raw": "'Number(\"u000D\") must return 0'"
+            "raw": "'Number(\"u000D\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -784,7 +850,9 @@
                 "start": 1361,
                 "end": 1369,
                 "value": " ",
-                "raw": "\"\\u00A0\""
+                "raw": "\"\\u00A0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -794,14 +862,18 @@
             "start": 1372,
             "end": 1373,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1375,
             "end": 1406,
             "value": "Number(\"u00A0\") must return 0",
-            "raw": "'Number(\"u00A0\") must return 0'"
+            "raw": "'Number(\"u00A0\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -851,7 +923,9 @@
                 "start": 1433,
                 "end": 1441,
                 "value": " ",
-                "raw": "\"\\u0020\""
+                "raw": "\"\\u0020\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -861,14 +935,18 @@
             "start": 1444,
             "end": 1445,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1447,
             "end": 1478,
             "value": "Number(\"u0020\") must return 0",
-            "raw": "'Number(\"u0020\") must return 0'"
+            "raw": "'Number(\"u0020\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -918,7 +996,9 @@
                 "start": 1505,
                 "end": 1513,
                 "value": " ",
-                "raw": "\"\\u2028\""
+                "raw": "\"\\u2028\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -928,14 +1008,18 @@
             "start": 1516,
             "end": 1517,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1519,
             "end": 1550,
             "value": "Number(\"u2028\") must return 0",
-            "raw": "'Number(\"u2028\") must return 0'"
+            "raw": "'Number(\"u2028\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -985,7 +1069,9 @@
                 "start": 1577,
                 "end": 1585,
                 "value": " ",
-                "raw": "\"\\u2029\""
+                "raw": "\"\\u2029\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -995,14 +1081,18 @@
             "start": 1588,
             "end": 1589,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1591,
             "end": 1622,
             "value": "Number(\"u2029\") must return 0",
-            "raw": "'Number(\"u2029\") must return 0'"
+            "raw": "'Number(\"u2029\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1052,7 +1142,9 @@
                 "start": 1649,
                 "end": 1657,
                 "value": " ",
-                "raw": "\"\\u1680\""
+                "raw": "\"\\u1680\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1062,14 +1154,18 @@
             "start": 1660,
             "end": 1661,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1663,
             "end": 1694,
             "value": "Number(\"u1680\") must return 0",
-            "raw": "'Number(\"u1680\") must return 0'"
+            "raw": "'Number(\"u1680\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1119,7 +1215,9 @@
                 "start": 1721,
                 "end": 1729,
                 "value": " ",
-                "raw": "\"\\u2000\""
+                "raw": "\"\\u2000\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1129,14 +1227,18 @@
             "start": 1732,
             "end": 1733,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1735,
             "end": 1766,
             "value": "Number(\"u2000\") must return 0",
-            "raw": "'Number(\"u2000\") must return 0'"
+            "raw": "'Number(\"u2000\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1186,7 +1288,9 @@
                 "start": 1793,
                 "end": 1801,
                 "value": " ",
-                "raw": "\"\\u2001\""
+                "raw": "\"\\u2001\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1196,14 +1300,18 @@
             "start": 1804,
             "end": 1805,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1807,
             "end": 1838,
             "value": "Number(\"u2001\") must return 0",
-            "raw": "'Number(\"u2001\") must return 0'"
+            "raw": "'Number(\"u2001\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1253,7 +1361,9 @@
                 "start": 1865,
                 "end": 1873,
                 "value": " ",
-                "raw": "\"\\u2002\""
+                "raw": "\"\\u2002\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1263,14 +1373,18 @@
             "start": 1876,
             "end": 1877,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1879,
             "end": 1910,
             "value": "Number(\"u2002\") must return 0",
-            "raw": "'Number(\"u2002\") must return 0'"
+            "raw": "'Number(\"u2002\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1320,7 +1434,9 @@
                 "start": 1937,
                 "end": 1945,
                 "value": " ",
-                "raw": "\"\\u2003\""
+                "raw": "\"\\u2003\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1330,14 +1446,18 @@
             "start": 1948,
             "end": 1949,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1951,
             "end": 1982,
             "value": "Number(\"u2003\") must return 0",
-            "raw": "'Number(\"u2003\") must return 0'"
+            "raw": "'Number(\"u2003\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1387,7 +1507,9 @@
                 "start": 2009,
                 "end": 2017,
                 "value": " ",
-                "raw": "\"\\u2004\""
+                "raw": "\"\\u2004\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1397,14 +1519,18 @@
             "start": 2020,
             "end": 2021,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2023,
             "end": 2054,
             "value": "Number(\"u2004\") must return 0",
-            "raw": "'Number(\"u2004\") must return 0'"
+            "raw": "'Number(\"u2004\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1454,7 +1580,9 @@
                 "start": 2081,
                 "end": 2089,
                 "value": " ",
-                "raw": "\"\\u2005\""
+                "raw": "\"\\u2005\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1464,14 +1592,18 @@
             "start": 2092,
             "end": 2093,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2095,
             "end": 2126,
             "value": "Number(\"u2005\") must return 0",
-            "raw": "'Number(\"u2005\") must return 0'"
+            "raw": "'Number(\"u2005\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1521,7 +1653,9 @@
                 "start": 2153,
                 "end": 2161,
                 "value": " ",
-                "raw": "\"\\u2006\""
+                "raw": "\"\\u2006\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1531,14 +1665,18 @@
             "start": 2164,
             "end": 2165,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2167,
             "end": 2198,
             "value": "Number(\"u2006\") must return 0",
-            "raw": "'Number(\"u2006\") must return 0'"
+            "raw": "'Number(\"u2006\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1588,7 +1726,9 @@
                 "start": 2225,
                 "end": 2233,
                 "value": " ",
-                "raw": "\"\\u2007\""
+                "raw": "\"\\u2007\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1598,14 +1738,18 @@
             "start": 2236,
             "end": 2237,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2239,
             "end": 2270,
             "value": "Number(\"u2007\") must return 0",
-            "raw": "'Number(\"u2007\") must return 0'"
+            "raw": "'Number(\"u2007\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1655,7 +1799,9 @@
                 "start": 2297,
                 "end": 2305,
                 "value": " ",
-                "raw": "\"\\u2008\""
+                "raw": "\"\\u2008\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1665,14 +1811,18 @@
             "start": 2308,
             "end": 2309,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2311,
             "end": 2342,
             "value": "Number(\"u2008\") must return 0",
-            "raw": "'Number(\"u2008\") must return 0'"
+            "raw": "'Number(\"u2008\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1722,7 +1872,9 @@
                 "start": 2369,
                 "end": 2377,
                 "value": " ",
-                "raw": "\"\\u2009\""
+                "raw": "\"\\u2009\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1732,14 +1884,18 @@
             "start": 2380,
             "end": 2381,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2383,
             "end": 2414,
             "value": "Number(\"u2009\") must return 0",
-            "raw": "'Number(\"u2009\") must return 0'"
+            "raw": "'Number(\"u2009\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1789,7 +1945,9 @@
                 "start": 2441,
                 "end": 2449,
                 "value": " ",
-                "raw": "\"\\u200A\""
+                "raw": "\"\\u200A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1799,14 +1957,18 @@
             "start": 2452,
             "end": 2453,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2455,
             "end": 2486,
             "value": "Number(\"u200A\") must return 0",
-            "raw": "'Number(\"u200A\") must return 0'"
+            "raw": "'Number(\"u200A\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1856,7 +2018,9 @@
                 "start": 2513,
                 "end": 2521,
                 "value": " ",
-                "raw": "\"\\u202F\""
+                "raw": "\"\\u202F\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1866,14 +2030,18 @@
             "start": 2524,
             "end": 2525,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2527,
             "end": 2558,
             "value": "Number(\"u202F\") must return 0",
-            "raw": "'Number(\"u202F\") must return 0'"
+            "raw": "'Number(\"u202F\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1923,7 +2091,9 @@
                 "start": 2585,
                 "end": 2593,
                 "value": " ",
-                "raw": "\"\\u205F\""
+                "raw": "\"\\u205F\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1933,14 +2103,18 @@
             "start": 2596,
             "end": 2597,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2599,
             "end": 2630,
             "value": "Number(\"u205F\") must return 0",
-            "raw": "'Number(\"u205F\") must return 0'"
+            "raw": "'Number(\"u205F\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1990,7 +2164,9 @@
                 "start": 2657,
                 "end": 2665,
                 "value": "　",
-                "raw": "\"\\u3000\""
+                "raw": "\"\\u3000\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2000,14 +2176,18 @@
             "start": 2668,
             "end": 2669,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2671,
             "end": 2702,
             "value": "Number(\"u3000\") must return 0",
-            "raw": "'Number(\"u3000\") must return 0'"
+            "raw": "'Number(\"u3000\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

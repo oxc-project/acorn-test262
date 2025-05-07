@@ -49,7 +49,9 @@
         "start": 1054,
         "end": 1100,
         "value": "./instn-named-err-not-found-empty_FIXTURE.js",
-        "raw": "'./instn-named-err-not-found-empty_FIXTURE.js'"
+        "raw": "'./instn-named-err-not-found-empty_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

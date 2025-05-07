@@ -55,7 +55,9 @@
                     "start": 507,
                     "end": 514,
                     "value": "en-US",
-                    "raw": "'en-US'"
+                    "raw": "'en-US'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -133,7 +135,9 @@
                         "start": 571,
                         "end": 578,
                         "value": "en-US",
-                        "raw": "'en-US'"
+                        "raw": "'en-US'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

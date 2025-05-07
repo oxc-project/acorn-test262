@@ -52,7 +52,9 @@
             "start": 300,
             "end": 308,
             "value": "caller",
-            "raw": "'caller'"
+            "raw": "'caller'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -88,14 +88,18 @@
             "start": 407,
             "end": 417,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 484,
             "value": "`typeof ZonedDateTime.prototype.toLocaleString` is `function`",
-            "raw": "\"`typeof ZonedDateTime.prototype.toLocaleString` is `function`\""
+            "raw": "\"`typeof ZonedDateTime.prototype.toLocaleString` is `function`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +157,9 @@
             "start": 538,
             "end": 554,
             "value": "toLocaleString",
-            "raw": "\"toLocaleString\""
+            "raw": "\"toLocaleString\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -178,7 +184,9 @@
                   "start": 570,
                   "end": 574,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -200,7 +208,9 @@
                   "start": 590,
                   "end": 595,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -222,7 +232,9 @@
                   "start": 613,
                   "end": 617,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

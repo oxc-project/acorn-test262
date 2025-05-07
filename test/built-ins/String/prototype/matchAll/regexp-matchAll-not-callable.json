@@ -75,7 +75,9 @@
             "start": 488,
             "end": 498,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -105,7 +107,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -157,7 +160,9 @@
           "start": 547,
           "end": 551,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -226,7 +231,9 @@
                         "start": 593,
                         "end": 595,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -301,7 +308,9 @@
           "start": 645,
           "end": 646,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -370,7 +379,9 @@
                         "start": 688,
                         "end": 690,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -445,7 +456,9 @@
           "start": 740,
           "end": 742,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -514,7 +527,9 @@
                         "start": 784,
                         "end": 786,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -664,7 +679,9 @@
                         "start": 886,
                         "end": 888,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

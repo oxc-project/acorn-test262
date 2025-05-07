@@ -100,7 +100,9 @@
                 "start": 391,
                 "end": 395,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -210,7 +212,9 @@
                 "start": 468,
                 "end": 474,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -220,7 +224,9 @@
             "start": 477,
             "end": 517,
             "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

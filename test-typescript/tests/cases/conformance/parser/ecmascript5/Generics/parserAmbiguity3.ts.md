@@ -62,7 +62,9 @@ __ESTREE_TEST__:PASS:
                 "start": 15,
                 "end": 16,
                 "raw": "7",
-                "value": 7
+                "value": 7,
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "prefix": true

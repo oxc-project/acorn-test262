@@ -148,7 +148,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "\"./thing\"",
-        "value": "./thing"
+        "value": "./thing",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

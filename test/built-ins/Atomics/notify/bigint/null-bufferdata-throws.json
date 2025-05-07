@@ -69,7 +69,9 @@
                       "start": 672,
                       "end": 673,
                       "value": 8,
-                      "raw": "8"
+                      "raw": "8",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -147,7 +149,9 @@
                               "start": 748,
                               "end": 779,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

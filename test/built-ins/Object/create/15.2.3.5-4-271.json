@@ -23,7 +23,9 @@
             "start": 358,
             "end": 364,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 378,
             "end": 384,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,7 +123,9 @@
             "start": 432,
             "end": 437,
             "value": "set",
-            "raw": "\"set\""
+            "raw": "\"set\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -357,7 +363,9 @@
             "start": 654,
             "end": 659,
             "value": "set",
-            "raw": "\"set\""
+            "raw": "\"set\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -556,7 +564,9 @@
                 "start": 810,
                 "end": 816,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -598,7 +608,9 @@
           "start": 834,
           "end": 848,
           "value": "overrideData",
-          "raw": "\"overrideData\""
+          "raw": "\"overrideData\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -628,7 +640,9 @@
             "start": 871,
             "end": 893,
             "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "raw": "'hasProperty !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -673,14 +687,18 @@
             "start": 920,
             "end": 934,
             "value": "overrideData",
-            "raw": "\"overrideData\""
+            "raw": "\"overrideData\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 936,
             "end": 943,
             "value": "data1",
-            "raw": "'data1'"
+            "raw": "'data1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -725,14 +743,18 @@
             "start": 970,
             "end": 976,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 978,
             "end": 985,
             "value": "data2",
-            "raw": "'data2'"
+            "raw": "'data2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

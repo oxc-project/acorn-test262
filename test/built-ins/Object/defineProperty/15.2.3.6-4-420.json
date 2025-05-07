@@ -90,7 +90,9 @@
             "start": 468,
             "end": 474,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -115,7 +117,9 @@
                   "start": 487,
                   "end": 491,
                   "value": 1001,
-                  "raw": "1001"
+                  "raw": "1001",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -137,7 +141,9 @@
                   "start": 505,
                   "end": 510,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +165,9 @@
                   "start": 526,
                   "end": 531,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -181,7 +189,9 @@
                   "start": 549,
                   "end": 553,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -293,7 +303,9 @@
                   "start": 610,
                   "end": 616,
                   "value": "prop",
-                  "raw": "\"prop\""
+                  "raw": "\"prop\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -329,14 +341,18 @@
             "start": 643,
             "end": 649,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 651,
             "end": 667,
             "value": "noCheckOwnProp",
-            "raw": "\"noCheckOwnProp\""
+            "raw": "\"noCheckOwnProp\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

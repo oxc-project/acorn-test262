@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": ".(.).",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,7 +66,9 @@
                 "start": 663,
                 "end": 674,
                 "value": "abcdefghi",
-                "raw": "'abcdefghi'"
+                "raw": "'abcdefghi'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -208,7 +211,9 @@
                   "start": 766,
                   "end": 773,
                   "value": "index",
-                  "raw": "'index'"
+                  "raw": "'index'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -219,7 +224,9 @@
             "start": 778,
             "end": 821,
             "value": "Does not define an `index` \"own\" property",
-            "raw": "'Does not define an `index` \"own\" property'"
+            "raw": "'Does not define an `index` \"own\" property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -283,7 +290,9 @@
             "start": 870,
             "end": 907,
             "value": "Does not define an `index` property",
-            "raw": "'Does not define an `index` property'"
+            "raw": "'Does not define an `index` property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,7 +380,9 @@
                   "start": 967,
                   "end": 974,
                   "value": "input",
-                  "raw": "'input'"
+                  "raw": "'input'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -382,7 +393,9 @@
             "start": 979,
             "end": 1022,
             "value": "Does not define an `input` \"own\" property",
-            "raw": "'Does not define an `input` \"own\" property'"
+            "raw": "'Does not define an `input` \"own\" property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,7 +459,9 @@
             "start": 1071,
             "end": 1108,
             "value": "Does not define an `input` property",
-            "raw": "'Does not define an `input` property'"
+            "raw": "'Does not define an `input` property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -504,7 +519,9 @@
             "start": 1145,
             "end": 1146,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -553,7 +570,9 @@
               "start": 1173,
               "end": 1174,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -563,7 +582,9 @@
             "start": 1177,
             "end": 1182,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -612,7 +633,9 @@
               "start": 1209,
               "end": 1210,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -622,7 +645,9 @@
             "start": 1213,
             "end": 1218,
             "value": "def",
-            "raw": "'def'"
+            "raw": "'def'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -671,7 +696,9 @@
               "start": 1245,
               "end": 1246,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -681,7 +708,9 @@
             "start": 1249,
             "end": 1254,
             "value": "ghi",
-            "raw": "'ghi'"
+            "raw": "'ghi'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

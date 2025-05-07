@@ -129,28 +129,36 @@ __ESTREE_TEST__:PASS:
                               "start": 132,
                               "end": 133,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 135,
                               "end": 136,
                               "raw": "2",
-                              "value": 2
+                              "value": 2,
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 138,
                               "end": 142,
                               "raw": "\"hi\"",
-                              "value": "hi"
+                              "value": "hi",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 144,
                               "end": 145,
                               "raw": "5",
-                              "value": 5
+                              "value": 5,
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -200,28 +208,36 @@ __ESTREE_TEST__:PASS:
                               "start": 170,
                               "end": 171,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 173,
                               "end": 174,
                               "raw": "2",
-                              "value": 2
+                              "value": 2,
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 176,
                               "end": 180,
                               "raw": "\"hi\"",
-                              "value": "hi"
+                              "value": "hi",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 182,
                               "end": 183,
                               "raw": "5",
-                              "value": 5
+                              "value": 5,
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

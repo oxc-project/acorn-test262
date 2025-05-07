@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?i:\\b)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 2726,
                 "end": 2729,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 2732,
             "end": 2758,
             "value": "\\b should match after A",
-            "raw": "\"\\\\b should match after A\""
+            "raw": "\"\\\\b should match after A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +142,9 @@
                 "start": 2777,
                 "end": 2780,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +154,9 @@
             "start": 2783,
             "end": 2809,
             "value": "\\b should match after a",
-            "raw": "\"\\\\b should match after a\""
+            "raw": "\"\\\\b should match after a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +206,9 @@
                 "start": 2828,
                 "end": 2831,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +218,9 @@
             "start": 2834,
             "end": 2860,
             "value": "\\b should match after z",
-            "raw": "\"\\\\b should match after z\""
+            "raw": "\"\\\\b should match after z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +270,9 @@
                 "start": 2879,
                 "end": 2882,
                 "value": "Z",
-                "raw": "\"Z\""
+                "raw": "\"Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -267,7 +282,9 @@
             "start": 2885,
             "end": 2911,
             "value": "\\b should match after Z",
-            "raw": "\"\\\\b should match after Z\""
+            "raw": "\"\\\\b should match after Z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -297,7 +314,8 @@
             "regex": {
               "pattern": "(?i:\\b)",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -347,7 +365,9 @@
                 "start": 2953,
                 "end": 2956,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -357,7 +377,9 @@
             "start": 2959,
             "end": 2985,
             "value": "\\b should match after A",
-            "raw": "\"\\\\b should match after A\""
+            "raw": "\"\\\\b should match after A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -407,7 +429,9 @@
                 "start": 3004,
                 "end": 3007,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -417,7 +441,9 @@
             "start": 3010,
             "end": 3036,
             "value": "\\b should match after a",
-            "raw": "\"\\\\b should match after a\""
+            "raw": "\"\\\\b should match after a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -467,7 +493,9 @@
                 "start": 3055,
                 "end": 3058,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -477,7 +505,9 @@
             "start": 3061,
             "end": 3087,
             "value": "\\b should match after z",
-            "raw": "\"\\\\b should match after z\""
+            "raw": "\"\\\\b should match after z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -527,7 +557,9 @@
                 "start": 3106,
                 "end": 3109,
                 "value": "Z",
-                "raw": "\"Z\""
+                "raw": "\"Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -537,7 +569,9 @@
             "start": 3112,
             "end": 3138,
             "value": "\\b should match after Z",
-            "raw": "\"\\\\b should match after Z\""
+            "raw": "\"\\\\b should match after Z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +621,9 @@
                 "start": 3157,
                 "end": 3165,
                 "value": "ſ",
-                "raw": "\"\\u017f\""
+                "raw": "\"\\u017f\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -597,7 +633,9 @@
             "start": 3168,
             "end": 3199,
             "value": "\\b should match after ſ",
-            "raw": "\"\\\\b should match after \\u017f\""
+            "raw": "\"\\\\b should match after \\u017f\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -647,7 +685,9 @@
                 "start": 3218,
                 "end": 3226,
                 "value": "K",
-                "raw": "\"\\u212a\""
+                "raw": "\"\\u212a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -657,7 +697,9 @@
             "start": 3229,
             "end": 3260,
             "value": "\\b should match after K",
-            "raw": "\"\\\\b should match after \\u212a\""
+            "raw": "\"\\\\b should match after \\u212a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -687,7 +729,8 @@
             "regex": {
               "pattern": "(?i-:\\b)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -737,7 +780,9 @@
                 "start": 3302,
                 "end": 3305,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -747,7 +792,9 @@
             "start": 3308,
             "end": 3334,
             "value": "\\b should match after A",
-            "raw": "\"\\\\b should match after A\""
+            "raw": "\"\\\\b should match after A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -797,7 +844,9 @@
                 "start": 3353,
                 "end": 3356,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -807,7 +856,9 @@
             "start": 3359,
             "end": 3385,
             "value": "\\b should match after a",
-            "raw": "\"\\\\b should match after a\""
+            "raw": "\"\\\\b should match after a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -857,7 +908,9 @@
                 "start": 3404,
                 "end": 3407,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -867,7 +920,9 @@
             "start": 3410,
             "end": 3436,
             "value": "\\b should match after z",
-            "raw": "\"\\\\b should match after z\""
+            "raw": "\"\\\\b should match after z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -917,7 +972,9 @@
                 "start": 3455,
                 "end": 3458,
                 "value": "Z",
-                "raw": "\"Z\""
+                "raw": "\"Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -927,7 +984,9 @@
             "start": 3461,
             "end": 3487,
             "value": "\\b should match after Z",
-            "raw": "\"\\\\b should match after Z\""
+            "raw": "\"\\\\b should match after Z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -957,7 +1016,8 @@
             "regex": {
               "pattern": "(?i-:\\b)",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -1007,7 +1067,9 @@
                 "start": 3530,
                 "end": 3533,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1017,7 +1079,9 @@
             "start": 3536,
             "end": 3562,
             "value": "\\b should match after A",
-            "raw": "\"\\\\b should match after A\""
+            "raw": "\"\\\\b should match after A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1067,7 +1131,9 @@
                 "start": 3581,
                 "end": 3584,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1077,7 +1143,9 @@
             "start": 3587,
             "end": 3613,
             "value": "\\b should match after a",
-            "raw": "\"\\\\b should match after a\""
+            "raw": "\"\\\\b should match after a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1127,7 +1195,9 @@
                 "start": 3632,
                 "end": 3635,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1137,7 +1207,9 @@
             "start": 3638,
             "end": 3664,
             "value": "\\b should match after z",
-            "raw": "\"\\\\b should match after z\""
+            "raw": "\"\\\\b should match after z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1187,7 +1259,9 @@
                 "start": 3683,
                 "end": 3686,
                 "value": "Z",
-                "raw": "\"Z\""
+                "raw": "\"Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1197,7 +1271,9 @@
             "start": 3689,
             "end": 3715,
             "value": "\\b should match after Z",
-            "raw": "\"\\\\b should match after Z\""
+            "raw": "\"\\\\b should match after Z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1247,7 +1323,9 @@
                 "start": 3734,
                 "end": 3742,
                 "value": "ſ",
-                "raw": "\"\\u017f\""
+                "raw": "\"\\u017f\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1257,7 +1335,9 @@
             "start": 3745,
             "end": 3776,
             "value": "\\b should match after ſ",
-            "raw": "\"\\\\b should match after \\u017f\""
+            "raw": "\"\\\\b should match after \\u017f\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1307,7 +1387,9 @@
                 "start": 3795,
                 "end": 3803,
                 "value": "K",
-                "raw": "\"\\u212a\""
+                "raw": "\"\\u212a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1317,7 +1399,9 @@
             "start": 3806,
             "end": 3837,
             "value": "\\b should match after K",
-            "raw": "\"\\\\b should match after \\u212a\""
+            "raw": "\"\\\\b should match after \\u212a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -271,7 +271,9 @@
                           "start": 1237,
                           "end": 1238,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

@@ -109,7 +109,9 @@
                             "start": 552,
                             "end": 577,
                             "value": "var arguments = 'param'",
-                            "raw": "\"var arguments = 'param'\""
+                            "raw": "\"var arguments = 'param'\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -330,7 +332,9 @@
                             "start": 727,
                             "end": 759,
                             "value": "globalThis.arguments unchanged",
-                            "raw": "\"globalThis.arguments unchanged\""
+                            "raw": "\"globalThis.arguments unchanged\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

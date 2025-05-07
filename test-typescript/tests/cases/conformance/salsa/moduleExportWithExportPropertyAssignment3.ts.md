@@ -188,7 +188,9 @@ __ESTREE_TEST__:PASS:
           "start": 69,
           "end": 77,
           "raw": "'string'",
-          "value": "string"
+          "value": "string",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -255,7 +257,9 @@ __ESTREE_TEST__:PASS:
                 "start": 113,
                 "end": 114,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -281,7 +285,9 @@ __ESTREE_TEST__:PASS:
                 "start": 132,
                 "end": 133,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -307,7 +313,9 @@ __ESTREE_TEST__:PASS:
                 "start": 150,
                 "end": 151,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -370,7 +378,9 @@ __ESTREE_TEST__:PASS:
           "start": 182,
           "end": 190,
           "raw": "'string'",
-          "value": "string"
+          "value": "string",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -430,7 +440,9 @@ __ESTREE_TEST__:PASS:
           "start": 221,
           "end": 229,
           "raw": "'string'",
-          "value": "string"
+          "value": "string",
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -475,7 +487,9 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 68,
                 "raw": "'./mod1'",
-                "value": "./mod1"
+                "value": "./mod1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

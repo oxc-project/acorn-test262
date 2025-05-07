@@ -127,7 +127,9 @@
                                   "start": 1286,
                                   "end": 1291,
                                   "value": "M05",
-                                  "raw": "\"M05\""
+                                  "raw": "\"M05\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -149,7 +151,9 @@
                                   "start": 1298,
                                   "end": 1299,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -235,14 +239,18 @@
                         "start": 1368,
                         "end": 1377,
                         "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "raw": "\"iso8601\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1379,
                         "end": 1416,
                         "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "raw": "\"Temporal object coerced to calendar\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -75,14 +75,18 @@
             "start": 326,
             "end": 336,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 340,
             "end": 413,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -121,7 +125,9 @@
           "start": 439,
           "end": 442,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -189,7 +195,9 @@
             "start": 495,
             "end": 522,
             "value": "globalThis.myValue = \"b\";",
-            "raw": "'globalThis.myValue = \"b\";'"
+            "raw": "'globalThis.myValue = \"b\";'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +287,9 @@
             "start": 657,
             "end": 684,
             "value": "globalThis.myValue = \"c\";",
-            "raw": "'globalThis.myValue = \"c\";'"
+            "raw": "'globalThis.myValue = \"c\";'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +347,9 @@
             "start": 725,
             "end": 728,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +412,9 @@
                 "start": 764,
                 "end": 784,
                 "value": "globalThis.myValue",
-                "raw": "'globalThis.myValue'"
+                "raw": "'globalThis.myValue'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -410,7 +424,9 @@
             "start": 787,
             "end": 790,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +476,9 @@
                 "start": 825,
                 "end": 845,
                 "value": "globalThis.myValue",
-                "raw": "'globalThis.myValue'"
+                "raw": "'globalThis.myValue'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -470,7 +488,9 @@
             "start": 848,
             "end": 851,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -509,7 +529,9 @@
             "start": 871,
             "end": 897,
             "value": "globalThis.myValue = \"d\"",
-            "raw": "'globalThis.myValue = \"d\"'"
+            "raw": "'globalThis.myValue = \"d\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -567,14 +589,18 @@
             "start": 938,
             "end": 941,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 943,
             "end": 960,
             "value": "no side effects",
-            "raw": "'no side effects'"
+            "raw": "'no side effects'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -637,7 +663,9 @@
                 "start": 996,
                 "end": 1016,
                 "value": "globalThis.myValue",
-                "raw": "'globalThis.myValue'"
+                "raw": "'globalThis.myValue'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -647,14 +675,18 @@
             "start": 1019,
             "end": 1022,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1024,
             "end": 1041,
             "value": "no side effects",
-            "raw": "'no side effects'"
+            "raw": "'no side effects'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -704,7 +736,9 @@
                 "start": 1076,
                 "end": 1096,
                 "value": "globalThis.myValue",
-                "raw": "'globalThis.myValue'"
+                "raw": "'globalThis.myValue'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -714,14 +748,18 @@
             "start": 1099,
             "end": 1102,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1104,
             "end": 1121,
             "value": "no side effects",
-            "raw": "'no side effects'"
+            "raw": "'no side effects'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

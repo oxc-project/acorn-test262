@@ -107,7 +107,9 @@
                                 "start": 738,
                                 "end": 739,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -120,7 +122,9 @@
                               "start": 752,
                               "end": 756,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -175,7 +179,9 @@
                                   "start": 821,
                                   "end": 862,
                                   "value": "target.[[GetPrototypeOf]] is not called",
-                                  "raw": "\"target.[[GetPrototypeOf]] is not called\""
+                                  "raw": "\"target.[[GetPrototypeOf]] is not called\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -347,7 +353,9 @@
           "start": 987,
           "end": 988,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -419,7 +427,9 @@
                     "start": 1035,
                     "end": 1039,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -469,14 +479,18 @@
             "start": 1069,
             "end": 1073,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1075,
             "end": 1081,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,14 +535,18 @@
             "start": 1109,
             "end": 1110,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1112,
             "end": 1143,
             "value": "true - isExtensible is called",
-            "raw": "\"true - isExtensible is called\""
+            "raw": "\"true - isExtensible is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -554,7 +572,9 @@
           "start": 1156,
           "end": 1157,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -626,7 +646,9 @@
                     "start": 1204,
                     "end": 1211,
                     "value": "false",
-                    "raw": "\"false\""
+                    "raw": "\"false\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -676,14 +698,18 @@
             "start": 1241,
             "end": 1245,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1247,
             "end": 1255,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -728,14 +754,18 @@
             "start": 1283,
             "end": 1284,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1286,
             "end": 1319,
             "value": "string - isExtensible is called",
-            "raw": "\"string - isExtensible is called\""
+            "raw": "\"string - isExtensible is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -761,7 +791,9 @@
           "start": 1332,
           "end": 1333,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -833,7 +865,9 @@
                     "start": 1380,
                     "end": 1382,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -883,14 +917,18 @@
             "start": 1412,
             "end": 1416,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1418,
             "end": 1422,
             "value": "42",
-            "raw": "\"42\""
+            "raw": "\"42\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -935,14 +973,18 @@
             "start": 1450,
             "end": 1451,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1453,
             "end": 1486,
             "value": "number - isExtensible is called",
-            "raw": "\"number - isExtensible is called\""
+            "raw": "\"number - isExtensible is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -968,7 +1010,9 @@
           "start": 1499,
           "end": 1500,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1089,14 +1133,18 @@
             "start": 1578,
             "end": 1582,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1584,
             "end": 1587,
             "value": "p",
-            "raw": "\"p\""
+            "raw": "\"p\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1141,14 +1189,18 @@
             "start": 1615,
             "end": 1616,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1618,
             "end": 1651,
             "value": "object - isExtensible is called",
-            "raw": "\"object - isExtensible is called\""
+            "raw": "\"object - isExtensible is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1174,7 +1226,9 @@
           "start": 1664,
           "end": 1665,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1295,14 +1349,18 @@
             "start": 1744,
             "end": 1748,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1750,
             "end": 1754,
             "value": "[]",
-            "raw": "\"[]\""
+            "raw": "\"[]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1347,14 +1405,18 @@
             "start": 1782,
             "end": 1783,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1785,
             "end": 1814,
             "value": "[] - isExtensible is called",
-            "raw": "\"[] - isExtensible is called\""
+            "raw": "\"[] - isExtensible is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1380,7 +1442,9 @@
           "start": 1827,
           "end": 1828,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1463,7 +1527,9 @@
                         "start": 1882,
                         "end": 1883,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1516,14 +1582,18 @@
             "start": 1914,
             "end": 1918,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1920,
             "end": 1928,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1568,14 +1638,18 @@
             "start": 1956,
             "end": 1957,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1959,
             "end": 1992,
             "value": "symbol - isExtensible is called",
-            "raw": "\"symbol - isExtensible is called\""
+            "raw": "\"symbol - isExtensible is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

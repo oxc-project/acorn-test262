@@ -79,7 +79,9 @@
                 "start": 832,
                 "end": 840,
                 "value": "format",
-                "raw": "\"format\""
+                "raw": "\"format\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -127,7 +129,9 @@
             "start": 869,
             "end": 875,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +156,9 @@
                   "start": 888,
                   "end": 900,
                   "value": "get format",
-                  "raw": "\"get format\""
+                  "raw": "\"get format\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +180,9 @@
                   "start": 914,
                   "end": 919,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +204,9 @@
                   "start": 935,
                   "end": 940,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -218,7 +228,9 @@
                   "start": 958,
                   "end": 962,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

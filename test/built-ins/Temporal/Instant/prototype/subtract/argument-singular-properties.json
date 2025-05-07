@@ -48,6 +48,7 @@
                 "end": 344,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               }
             ]
@@ -96,7 +97,9 @@
                       "start": 360,
                       "end": 361,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -125,7 +128,9 @@
                       "start": 376,
                       "end": 377,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -154,7 +159,9 @@
                       "start": 391,
                       "end": 392,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -183,7 +190,9 @@
                       "start": 405,
                       "end": 406,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -212,7 +221,9 @@
                       "start": 420,
                       "end": 421,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -241,7 +252,9 @@
                       "start": 437,
                       "end": 438,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -270,7 +283,9 @@
                       "start": 454,
                       "end": 455,
                       "value": 7,
-                      "raw": "7"
+                      "raw": "7",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -299,7 +314,9 @@
                       "start": 476,
                       "end": 477,
                       "value": 8,
-                      "raw": "8"
+                      "raw": "8",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -328,7 +345,9 @@
                       "start": 498,
                       "end": 499,
                       "value": 9,
-                      "raw": "9"
+                      "raw": "9",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -357,7 +376,9 @@
                       "start": 519,
                       "end": 521,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -478,7 +499,9 @@
                         "start": 619,
                         "end": 673,
                         "value": "Throw TypeError if temporalDurationLike is not valid",
-                        "raw": "\"Throw TypeError if temporalDurationLike is not valid\""
+                        "raw": "\"Throw TypeError if temporalDurationLike is not valid\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

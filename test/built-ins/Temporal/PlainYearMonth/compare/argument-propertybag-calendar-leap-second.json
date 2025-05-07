@@ -23,7 +23,9 @@
             "start": 301,
             "end": 322,
             "value": "2016-12-31T23:59:60",
-            "raw": "\"2016-12-31T23:59:60\""
+            "raw": "\"2016-12-31T23:59:60\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 345,
                   "end": 349,
                   "value": 2019,
-                  "raw": "2019"
+                  "raw": "2019",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -89,7 +93,9 @@
                   "start": 362,
                   "end": 367,
                   "value": "M06",
-                  "raw": "\"M06\""
+                  "raw": "\"M06\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -207,14 +213,18 @@
                     "start": 462,
                     "end": 466,
                     "value": 2019,
-                    "raw": "2019"
+                    "raw": "2019",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 468,
                     "end": 469,
                     "value": 6,
-                    "raw": "6"
+                    "raw": "6",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -264,14 +274,18 @@
             "start": 504,
             "end": 505,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 574,
             "value": "leap second is a valid ISO string for calendar (first argument)",
-            "raw": "\"leap second is a valid ISO string for calendar (first argument)\""
+            "raw": "\"leap second is a valid ISO string for calendar (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -358,14 +372,18 @@
                     "start": 654,
                     "end": 658,
                     "value": 2019,
-                    "raw": "2019"
+                    "raw": "2019",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 660,
                     "end": 661,
                     "value": 6,
-                    "raw": "6"
+                    "raw": "6",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -421,14 +439,18 @@
             "start": 701,
             "end": 702,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 772,
             "value": "leap second is a valid ISO string for calendar (second argument)",
-            "raw": "\"leap second is a valid ISO string for calendar (second argument)\""
+            "raw": "\"leap second is a valid ISO string for calendar (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

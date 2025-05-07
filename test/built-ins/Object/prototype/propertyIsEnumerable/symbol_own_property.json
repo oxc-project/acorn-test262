@@ -126,14 +126,18 @@
             "start": 475,
             "end": 480,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 532,
             "value": "Returns false if symbol own property not found",
-            "raw": "\"Returns false if symbol own property not found\""
+            "raw": "\"Returns false if symbol own property not found\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,7 +176,9 @@
           "start": 548,
           "end": 549,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -242,14 +248,18 @@
             "start": 605,
             "end": 609,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 667,
             "value": "Returns true if symbol own enumerable property found",
-            "raw": "\"Returns true if symbol own enumerable property found\""
+            "raw": "\"Returns true if symbol own enumerable property found\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

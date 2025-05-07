@@ -97,7 +97,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 41,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -184,7 +186,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 41,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -252,7 +256,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 52,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -305,7 +311,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 41,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -357,7 +365,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 48,
         "raw": "'./ImportExportDefault'",
-        "value": "./ImportExportDefault"
+        "value": "./ImportExportDefault",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -387,7 +397,9 @@ __ESTREE_TEST__:PASS:
         "start": 75,
         "end": 94,
         "raw": "'./ReExportDefault'",
-        "value": "./ReExportDefault"
+        "value": "./ReExportDefault",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -491,7 +503,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 44,
         "raw": "'./ImportExport'",
-        "value": "./ImportExport"
+        "value": "./ImportExport",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -574,7 +588,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 40,
         "raw": "'./ReExport'",
-        "value": "./ReExport"
+        "value": "./ReExport",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

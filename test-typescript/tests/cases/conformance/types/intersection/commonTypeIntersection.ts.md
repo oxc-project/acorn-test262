@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
                               "start": 31,
                               "end": 40,
                               "raw": "'TypeTwo'",
-                              "value": "TypeTwo"
+                              "value": "TypeTwo",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -182,7 +184,9 @@ __ESTREE_TEST__:PASS:
                               "start": 84,
                               "end": 93,
                               "raw": "'TypeOne'",
-                              "value": "TypeOne"
+                              "value": "TypeOne",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -305,7 +309,9 @@ __ESTREE_TEST__:PASS:
                               "start": 171,
                               "end": 180,
                               "raw": "'TypeTwo'",
-                              "value": "TypeTwo"
+                              "value": "TypeTwo",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -389,7 +395,9 @@ __ESTREE_TEST__:PASS:
                               "start": 216,
                               "end": 225,
                               "raw": "'TypeOne'",
-                              "value": "TypeOne"
+                              "value": "TypeOne",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }

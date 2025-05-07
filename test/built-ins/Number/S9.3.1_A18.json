@@ -46,7 +46,9 @@
                 "start": 304,
                 "end": 307,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -55,14 +57,18 @@
             "start": 310,
             "end": 311,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 356,
             "value": "The value of `+(\"2\")` is expected to be 2",
-            "raw": "'The value of `+(\"2\")` is expected to be 2'"
+            "raw": "'The value of `+(\"2\")` is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -112,7 +118,9 @@
                 "start": 383,
                 "end": 388,
                 "value": "0x2",
-                "raw": "\"0x2\""
+                "raw": "\"0x2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,14 +130,18 @@
             "start": 391,
             "end": 392,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 394,
             "end": 423,
             "value": "Number(\"0x2\") must return 2",
-            "raw": "'Number(\"0x2\") must return 2'"
+            "raw": "'Number(\"0x2\") must return 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +191,9 @@
                 "start": 450,
                 "end": 455,
                 "value": "0X2",
-                "raw": "\"0X2\""
+                "raw": "\"0X2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -189,14 +203,18 @@
             "start": 458,
             "end": 459,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 490,
             "value": "Number(\"0X2\") must return 2",
-            "raw": "'Number(\"0X2\") must return 2'"
+            "raw": "'Number(\"0X2\") must return 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

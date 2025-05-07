@@ -23,7 +23,9 @@
             "start": 321,
             "end": 327,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -81,7 +83,9 @@
             "start": 369,
             "end": 375,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -211,7 +215,9 @@
                   "start": 483,
                   "end": 487,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -233,7 +239,9 @@
                   "start": 505,
                   "end": 509,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -331,7 +339,9 @@
                 "start": 580,
                 "end": 586,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -341,14 +351,18 @@
             "start": 589,
             "end": 594,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 627,
             "value": "errObj.hasOwnProperty(\"prop\")",
-            "raw": "'errObj.hasOwnProperty(\"prop\")'"
+            "raw": "'errObj.hasOwnProperty(\"prop\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -406,14 +420,18 @@
             "start": 660,
             "end": 666,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 668,
             "end": 681,
             "value": "errObj.prop",
-            "raw": "'errObj.prop'"
+            "raw": "'errObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

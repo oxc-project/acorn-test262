@@ -285,7 +285,9 @@ __ESTREE_TEST__:PASS:
                           "start": 117,
                           "end": 120,
                           "raw": "'m'",
-                          "value": "m"
+                          "value": "m",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {

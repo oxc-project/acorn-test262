@@ -34,21 +34,27 @@
                 "start": 370,
                 "end": 374,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 383,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 390,
                 "value": "5",
-                "raw": "\"5\""
+                "raw": "\"5\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -68,7 +74,9 @@
                 "start": 406,
                 "end": 407,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -81,7 +89,9 @@
                   "start": 412,
                   "end": 422,
                   "value": 1234567.89,
-                  "raw": "1234567.89"
+                  "raw": "1234567.89",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -144,7 +154,9 @@
                               "start": 477,
                               "end": 478,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -196,6 +208,7 @@
                               "end": 519,
                               "value": null,
                               "raw": "5n",
+                              "regex": null,
                               "bigint": "5"
                             }
                           }

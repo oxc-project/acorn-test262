@@ -39,14 +39,18 @@
                     "start": 341,
                     "end": 342,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 344,
                     "end": 345,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -81,14 +85,18 @@
                 "start": 361,
                 "end": 362,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 365,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -129,7 +137,9 @@
           "start": 378,
           "end": 379,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -206,7 +216,9 @@
                       "start": 417,
                       "end": 418,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "||",
@@ -226,7 +238,9 @@
                       "start": 428,
                       "end": 429,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -239,7 +253,9 @@
                     "start": 438,
                     "end": 442,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "alternate": null
@@ -264,7 +280,9 @@
                       "start": 469,
                       "end": 564,
                       "value": "Set.prototype.isDisjointFrom should only call its argument's has method with contents of this",
-                      "raw": "\"Set.prototype.isDisjointFrom should only call its argument's has method with contents of this\""
+                      "raw": "\"Set.prototype.isDisjointFrom should only call its argument's has method with contents of this\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -336,7 +354,9 @@
                       "start": 619,
                       "end": 720,
                       "value": "Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size",
-                      "raw": "\"Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size\""
+                      "raw": "\"Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -412,7 +432,9 @@
             "start": 767,
             "end": 772,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

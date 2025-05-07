@@ -151,7 +151,9 @@
                                     "start": 412,
                                     "end": 420,
                                     "value": "abcdef",
-                                    "raw": "\"abcdef\""
+                                    "raw": "\"abcdef\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }

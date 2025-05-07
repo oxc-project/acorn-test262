@@ -108,14 +108,18 @@
             "start": 309,
             "end": 313,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 315,
             "end": 356,
             "value": "`Boolean(sym).valueOf()` returns `true`",
-            "raw": "\"`Boolean(sym).valueOf()` returns `true`\""
+            "raw": "\"`Boolean(sym).valueOf()` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

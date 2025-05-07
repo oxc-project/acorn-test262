@@ -44,21 +44,27 @@
             "start": 377,
             "end": 387,
             "value": "standard",
-            "raw": "\"standard\""
+            "raw": "\"standard\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 401,
             "value": "scientific",
-            "raw": "\"scientific\""
+            "raw": "\"scientific\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 416,
             "value": "engineering",
-            "raw": "\"engineering\""
+            "raw": "\"engineering\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -164,7 +170,9 @@
                                 "start": 501,
                                 "end": 507,
                                 "value": "long",
-                                "raw": "\"long\""
+                                "raw": "\"long\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -225,7 +233,9 @@
                     "start": 552,
                     "end": 568,
                     "value": "compactDisplay",
-                    "raw": "\"compactDisplay\""
+                    "raw": "\"compactDisplay\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -240,7 +250,9 @@
                   "start": 581,
                   "end": 586,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -452,7 +464,9 @@
                           "start": 852,
                           "end": 861,
                           "value": "compact",
-                          "raw": "\"compact\""
+                          "raw": "\"compact\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -474,7 +488,9 @@
                           "start": 881,
                           "end": 887,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -535,7 +551,9 @@
               "start": 928,
               "end": 944,
               "value": "compactDisplay",
-              "raw": "\"compactDisplay\""
+              "raw": "\"compactDisplay\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -550,14 +568,18 @@
             "start": 957,
             "end": 961,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 963,
             "end": 1028,
             "value": "There should be a compactDisplay property with notation=compact",
-            "raw": "\"There should be a compactDisplay property with notation=compact\""
+            "raw": "\"There should be a compactDisplay property with notation=compact\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,14 +637,18 @@
             "start": 1072,
             "end": 1078,
             "value": "long",
-            "raw": "\"long\""
+            "raw": "\"long\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1149,
             "value": "The compactDisplay property should be defined with notation=compact",
-            "raw": "\"The compactDisplay property should be defined with notation=compact\""
+            "raw": "\"The compactDisplay property should be defined with notation=compact\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

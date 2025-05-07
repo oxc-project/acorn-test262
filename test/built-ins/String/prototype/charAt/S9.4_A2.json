@@ -24,7 +24,9 @@
               "start": 379,
               "end": 384,
               "value": "abc",
-              "raw": "\"abc\""
+              "raw": "\"abc\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -41,7 +43,9 @@
               "start": 392,
               "end": 395,
               "value": 0,
-              "raw": "0.0"
+              "raw": "0.0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -52,7 +56,9 @@
           "start": 401,
           "end": 404,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -84,7 +90,9 @@
                     "start": 433,
                     "end": 474,
                     "value": "#1: \"abc\".charAt(0.0) === \"a\". Actual: ",
-                    "raw": "'#1: \"abc\".charAt(0.0) === \"a\". Actual: '"
+                    "raw": "'#1: \"abc\".charAt(0.0) === \"a\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -104,7 +112,9 @@
                           "start": 478,
                           "end": 483,
                           "value": "abc",
-                          "raw": "\"abc\""
+                          "raw": "\"abc\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -121,7 +131,9 @@
                           "start": 491,
                           "end": 494,
                           "value": 0,
-                          "raw": "0.0"
+                          "raw": "0.0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -156,7 +168,9 @@
               "start": 517,
               "end": 522,
               "value": "abc",
-              "raw": "\"abc\""
+              "raw": "\"abc\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -179,7 +193,9 @@
                 "start": 531,
                 "end": 534,
                 "value": 0,
-                "raw": "0.0"
+                "raw": "0.0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -191,7 +207,9 @@
           "start": 540,
           "end": 543,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -223,7 +241,9 @@
                     "start": 572,
                     "end": 614,
                     "value": "#2: \"abc\".charAt(-0.0) === \"a\". Actual: ",
-                    "raw": "'#2: \"abc\".charAt(-0.0) === \"a\". Actual: '"
+                    "raw": "'#2: \"abc\".charAt(-0.0) === \"a\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -243,7 +263,9 @@
                           "start": 618,
                           "end": 623,
                           "value": "abc",
-                          "raw": "\"abc\""
+                          "raw": "\"abc\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -266,7 +288,9 @@
                             "start": 632,
                             "end": 635,
                             "value": 0,
-                            "raw": "0.0"
+                            "raw": "0.0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],

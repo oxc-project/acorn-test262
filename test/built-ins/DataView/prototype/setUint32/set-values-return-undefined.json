@@ -34,7 +34,9 @@
                 "start": 1062,
                 "end": 1063,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 1100,
                 "end": 1101,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -313,7 +317,9 @@
                             "start": 1312,
                             "end": 1313,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -326,7 +332,9 @@
                             "start": 1322,
                             "end": 1327,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -392,7 +400,9 @@
                             "start": 1372,
                             "end": 1373,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -412,7 +422,9 @@
                           "start": 1394,
                           "end": 1403,
                           "value": "value: ",
-                          "raw": "\"value: \""
+                          "raw": "\"value: \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -475,7 +487,9 @@
                           "start": 1468,
                           "end": 1498,
                           "value": "return is undefined, value: ",
-                          "raw": "\"return is undefined, value: \""
+                          "raw": "\"return is undefined, value: \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

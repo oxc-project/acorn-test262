@@ -71,7 +71,9 @@
                 "start": 371,
                 "end": 380,
                 "value": "toFixed",
-                "raw": "\"toFixed\""
+                "raw": "\"toFixed\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -81,14 +83,18 @@
             "start": 385,
             "end": 390,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 394,
             "end": 454,
             "value": "(new Number()).hasOwnProperty(\"toFixed\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toFixed\") must return false'"
+            "raw": "'(new Number()).hasOwnProperty(\"toFixed\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +195,9 @@
             "start": 533,
             "end": 629,
             "value": "The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed",
-            "raw": "'The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed'"
+            "raw": "'The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

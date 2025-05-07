@@ -161,6 +161,7 @@
                                 "end": 613,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               },
                               {
@@ -169,6 +170,7 @@
                                 "end": 618,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -177,6 +179,7 @@
                                 "end": 623,
                                 "value": null,
                                 "raw": "64n",
+                                "regex": null,
                                 "bigint": "64"
                               }
                             ]

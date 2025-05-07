@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 18,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 18,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -241,7 +245,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 25,
         "raw": "\"./dir\"",
-        "value": "./dir"
+        "value": "./dir",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -281,7 +287,9 @@ __ESTREE_TEST__:PASS:
         "start": 42,
         "end": 55,
         "raw": "\"./dir/index\"",
-        "value": "./dir/index"
+        "value": "./dir/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -296,7 +304,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 88,
         "raw": "\"./dir/index.js\"",
-        "value": "./dir/index.js"
+        "value": "./dir/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -311,7 +321,9 @@ __ESTREE_TEST__:PASS:
         "start": 105,
         "end": 121,
         "raw": "\"./dir/index.ts\"",
-        "value": "./dir/index.ts"
+        "value": "./dir/index.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -326,7 +338,9 @@ __ESTREE_TEST__:PASS:
         "start": 142,
         "end": 154,
         "raw": "\"./redirect\"",
-        "value": "./redirect"
+        "value": "./redirect",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -366,7 +380,9 @@ __ESTREE_TEST__:PASS:
         "start": 171,
         "end": 189,
         "raw": "\"./redirect/index\"",
-        "value": "./redirect/index"
+        "value": "./redirect/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -381,7 +397,9 @@ __ESTREE_TEST__:PASS:
         "start": 206,
         "end": 219,
         "raw": "\"./types/esm\"",
-        "value": "./types/esm"
+        "value": "./types/esm",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -411,7 +429,9 @@ __ESTREE_TEST__:PASS:
         "start": 242,
         "end": 255,
         "raw": "\"./types/esm\"",
-        "value": "./types/esm"
+        "value": "./types/esm",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -441,7 +461,9 @@ __ESTREE_TEST__:PASS:
         "start": 271,
         "end": 284,
         "raw": "\"./types/cjs\"",
-        "value": "./types/cjs"
+        "value": "./types/cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -471,7 +493,9 @@ __ESTREE_TEST__:PASS:
         "start": 307,
         "end": 320,
         "raw": "\"./types/cjs\"",
-        "value": "./types/cjs"
+        "value": "./types/cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

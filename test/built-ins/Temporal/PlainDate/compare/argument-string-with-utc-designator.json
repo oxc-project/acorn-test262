@@ -28,14 +28,18 @@
                 "start": 328,
                 "end": 350,
                 "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "raw": "\"2019-10-01T09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 381,
                 "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,21 +91,27 @@
                 "start": 427,
                 "end": 431,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 434,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -259,7 +269,9 @@
                         "start": 565,
                         "end": 645,
                         "value": "String with UTC designator should not be valid as a PlainDate (first argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainDate (first argument)\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainDate (first argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -366,7 +378,9 @@
                         "start": 742,
                         "end": 823,
                         "value": "String with UTC designator should not be valid as a PlainDate (second argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainDate (second argument)\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainDate (second argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

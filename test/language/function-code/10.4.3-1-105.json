@@ -55,7 +55,9 @@
             "start": 464,
             "end": 467,
             "value": "x",
-            "raw": "\"x\""
+            "raw": "\"x\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -155,7 +157,9 @@
                   "start": 528,
                   "end": 529,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "property": {
@@ -173,7 +177,9 @@
               "start": 537,
               "end": 538,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -181,14 +187,18 @@
             "start": 540,
             "end": 545,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 547,
             "end": 560,
             "value": "(5).x === 5",
-            "raw": "'(5).x === 5'"
+            "raw": "'(5).x === 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -241,7 +251,9 @@
                   "start": 588,
                   "end": 589,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "property": {
@@ -259,14 +271,18 @@
             "start": 594,
             "end": 602,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 604,
             "end": 618,
             "value": "typeof (5).x",
-            "raw": "'typeof (5).x'"
+            "raw": "'typeof (5).x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

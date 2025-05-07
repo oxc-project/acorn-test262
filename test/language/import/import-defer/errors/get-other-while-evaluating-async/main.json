@@ -31,7 +31,9 @@
         "start": 1648,
         "end": 1671,
         "value": "./promises_FIXTURE.js",
-        "raw": "\"./promises_FIXTURE.js\""
+        "raw": "\"./promises_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -45,7 +47,9 @@
         "start": 1680,
         "end": 1704,
         "value": "./dep-1-tla_FIXTURE.js",
-        "raw": "\"./dep-1-tla_FIXTURE.js\""
+        "raw": "\"./dep-1-tla_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -128,7 +132,9 @@
                             "start": 1765,
                             "end": 1799,
                             "value": "error on ns.foo while evaluating",
-                            "raw": "\"error on ns.foo while evaluating\""
+                            "raw": "\"error on ns.foo while evaluating\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -146,7 +152,9 @@
                         "start": 1823,
                         "end": 1867,
                         "value": "ns.foo while evaluating throws a TypeError",
-                        "raw": "\"ns.foo while evaluating throws a TypeError\""
+                        "raw": "\"ns.foo while evaluating throws a TypeError\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -186,7 +194,9 @@
                             "start": 1890,
                             "end": 1930,
                             "value": "error on ns.foo while evaluating-async",
-                            "raw": "\"error on ns.foo while evaluating-async\""
+                            "raw": "\"error on ns.foo while evaluating-async\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -204,7 +214,9 @@
                         "start": 1954,
                         "end": 2004,
                         "value": "ns.foo while evaluating-async throws a TypeError",
-                        "raw": "\"ns.foo while evaluating-async throws a TypeError\""
+                        "raw": "\"ns.foo while evaluating-async throws a TypeError\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -253,7 +265,9 @@
                           "start": 2037,
                           "end": 2069,
                           "value": "value of ns.foo when evaluated",
-                          "raw": "\"value of ns.foo when evaluated\""
+                          "raw": "\"value of ns.foo when evaluated\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -263,7 +277,9 @@
                         "start": 2072,
                         "end": 2073,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -36,7 +36,9 @@
                     "start": 601,
                     "end": 612,
                     "value": "/a\r/",
-                    "raw": "\"/a\\u000D/\""
+                    "raw": "\"/a\\u000D/\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -75,7 +77,9 @@
                     "start": 648,
                     "end": 718,
                     "value": "#1.1: RegularExpressionChar :: Carriage Retur is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionChar :: Carriage Retur is incorrect. Actual: '"
+                    "raw": "'#1.1: RegularExpressionChar :: Carriage Retur is incorrect. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +106,9 @@
                             "start": 727,
                             "end": 738,
                             "value": "/a\r/",
-                            "raw": "\"/a\\u000D/\""
+                            "raw": "\"/a\\u000D/\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -175,7 +181,9 @@
                   "start": 801,
                   "end": 805,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -207,7 +215,9 @@
                             "start": 837,
                             "end": 907,
                             "value": "#1.2: RegularExpressionChar :: Carriage Retur is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionChar :: Carriage Retur is incorrect. Actual: '"
+                            "raw": "'#1.2: RegularExpressionChar :: Carriage Retur is incorrect. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

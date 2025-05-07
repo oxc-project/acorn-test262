@@ -23,7 +23,9 @@
             "start": 1881,
             "end": 1882,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -246,7 +248,9 @@
                       "start": 2009,
                       "end": 2014,
                       "value": "cls",
-                      "raw": "'cls'"
+                      "raw": "'cls'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -304,7 +308,9 @@
                       "start": 2050,
                       "end": 2056,
                       "value": "xCls",
-                      "raw": "'xCls'"
+                      "raw": "'xCls'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -362,7 +368,9 @@
                       "start": 2093,
                       "end": 2100,
                       "value": "xCls2",
-                      "raw": "'xCls2'"
+                      "raw": "'xCls2'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -399,7 +407,9 @@
                       "start": 2129,
                       "end": 2130,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -493,14 +503,18 @@
             "start": 2178,
             "end": 2179,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2181,
             "end": 2222,
             "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "raw": "'generator function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

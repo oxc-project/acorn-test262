@@ -34,7 +34,9 @@
                 "start": 380,
                 "end": 402,
                 "value": 1e+21,
-                "raw": "1000000000000000000000"
+                "raw": "1000000000000000000000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,7 +72,9 @@
           "start": 516,
           "end": 524,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -102,7 +106,9 @@
                     "start": 553,
                     "end": 650,
                     "value": "#1: __str = String(1000000000000000000000); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(1000000000000000000000); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(1000000000000000000000); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -146,7 +152,9 @@
           "start": 856,
           "end": 863,
           "value": "1e+21",
-          "raw": "\"1e+21\""
+          "raw": "\"1e+21\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                     "start": 892,
                     "end": 974,
                     "value": "#2: __str = String(1000000000000000000000); __str === \"1e+21\". Actual: __str ===",
-                    "raw": "'#2: __str = String(1000000000000000000000); __str === \"1e+21\". Actual: __str ==='"
+                    "raw": "'#2: __str = String(1000000000000000000000); __str === \"1e+21\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -226,7 +236,9 @@
               "start": 1085,
               "end": 1108,
               "value": 1e+22,
-              "raw": "10000000000000000000000"
+              "raw": "10000000000000000000000",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -260,7 +272,9 @@
           "start": 1222,
           "end": 1230,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -292,7 +306,9 @@
                     "start": 1259,
                     "end": 1357,
                     "value": "#3: __str = String(10000000000000000000000); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#3: __str = String(10000000000000000000000); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#3: __str = String(10000000000000000000000); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -336,7 +352,9 @@
           "start": 1563,
           "end": 1570,
           "value": "1e+22",
-          "raw": "\"1e+22\""
+          "raw": "\"1e+22\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -368,7 +386,9 @@
                     "start": 1599,
                     "end": 1682,
                     "value": "#4: __str = String(10000000000000000000000); __str === \"1e+22\". Actual: __str ===",
-                    "raw": "'#4: __str = String(10000000000000000000000); __str === \"1e+22\". Actual: __str ==='"
+                    "raw": "'#4: __str = String(10000000000000000000000); __str === \"1e+22\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

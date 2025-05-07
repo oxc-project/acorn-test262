@@ -115,14 +115,18 @@
                         "start": 466,
                         "end": 467,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 469,
                         "end": 470,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -216,14 +220,18 @@
                         "start": 524,
                         "end": 529,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 531,
                         "end": 532,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -323,7 +331,9 @@
                         "start": 597,
                         "end": 598,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -417,14 +427,18 @@
                         "start": 652,
                         "end": 660,
                         "value": "string",
-                        "raw": "'string'"
+                        "raw": "'string'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 662,
                         "end": 663,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -518,14 +532,18 @@
                         "start": 717,
                         "end": 721,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 723,
                         "end": 724,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -643,7 +661,9 @@
                             "start": 789,
                             "end": 808,
                             "value": "registered symbol",
-                            "raw": "'registered symbol'"
+                            "raw": "'registered symbol'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -653,7 +673,9 @@
                         "start": 811,
                         "end": 812,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -667,7 +689,9 @@
             "start": 818,
             "end": 864,
             "value": "Registered symbol not allowed as WeakMap key",
-            "raw": "'Registered symbol not allowed as WeakMap key'"
+            "raw": "'Registered symbol not allowed as WeakMap key'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

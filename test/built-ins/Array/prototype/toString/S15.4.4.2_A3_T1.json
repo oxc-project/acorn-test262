@@ -40,7 +40,9 @@
             "start": 332,
             "end": 333,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -50,7 +52,9 @@
           "start": 337,
           "end": 338,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -79,7 +83,9 @@
                 "start": 349,
                 "end": 350,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,7 +126,9 @@
           "start": 364,
           "end": 365,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -164,7 +172,9 @@
           "start": 388,
           "end": 393,
           "value": "0,1",
-          "raw": "\"0,1\""
+          "raw": "\"0,1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -196,7 +206,9 @@
                     "start": 422,
                     "end": 507,
                     "value": "#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.toString() === \"0,1\". Actual: ",
-                    "raw": "'#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.toString() === \"0,1\". Actual: '"
+                    "raw": "'#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.toString() === \"0,1\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

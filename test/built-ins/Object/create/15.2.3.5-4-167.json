@@ -34,7 +34,9 @@
                 "start": 366,
                 "end": 371,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -75,7 +77,9 @@
           "start": 387,
           "end": 397,
           "value": "StrValue",
-          "raw": "\"StrValue\""
+          "raw": "\"StrValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -211,14 +215,18 @@
             "start": 480,
             "end": 490,
             "value": "StrValue",
-            "raw": "\"StrValue\""
+            "raw": "\"StrValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 505,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

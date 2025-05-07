@@ -95,7 +95,9 @@
                   "start": 733,
                   "end": 745,
                   "value": "byteOffset",
-                  "raw": "\"byteOffset\""
+                  "raw": "\"byteOffset\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -330,7 +332,9 @@
                 "start": 903,
                 "end": 904,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -473,7 +477,9 @@
                     "start": 1007,
                     "end": 1008,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -482,7 +488,9 @@
                 "start": 1011,
                 "end": 1012,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

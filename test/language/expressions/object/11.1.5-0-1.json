@@ -23,7 +23,9 @@
             "start": 404,
             "end": 415,
             "value": "In getter",
-            "raw": "\"In getter\""
+            "raw": "\"In getter\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 428,
             "end": 439,
             "value": "In setter",
-            "raw": "\"In setter\""
+            "raw": "\"In setter\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 452,
             "end": 472,
             "value": "Modified by setter",
-            "raw": "\"Modified by setter\""
+            "raw": "\"Modified by setter\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +127,9 @@
             "start": 490,
             "end": 550,
             "value": "o = {get foo(){ return s1;},set foo(arg){return s2 = s3}};",
-            "raw": "\"o = {get foo(){ return s1;},set foo(arg){return s2 = s3}};\""
+            "raw": "\"o = {get foo(){ return s1;},set foo(arg){return s2 = s3}};\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +193,9 @@
             "start": 582,
             "end": 589,
             "value": "o.foo",
-            "raw": "'o.foo'"
+            "raw": "'o.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -224,7 +234,9 @@
           "start": 601,
           "end": 603,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -273,7 +285,9 @@
             "start": 631,
             "end": 635,
             "value": "s2",
-            "raw": "'s2'"
+            "raw": "'s2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

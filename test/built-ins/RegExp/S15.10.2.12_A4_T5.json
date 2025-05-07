@@ -27,7 +27,9 @@
               "start": 369,
               "end": 413,
               "value": "\f\n\r\t\u000b~`!@#$%^&*()-+={[}]|\\:;'<,>./? ",
-              "raw": "\"\\f\\n\\r\\t\\v~`!@#$%^&*()-+={[}]|\\\\:;'<,>./? \""
+              "raw": "\"\\f\\n\\r\\t\\v~`!@#$%^&*()-+={[}]|\\\\:;'<,>./? \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -35,7 +37,9 @@
               "start": 416,
               "end": 419,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -66,7 +70,8 @@
             "regex": {
               "pattern": "\\W",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -92,7 +97,9 @@
             "start": 451,
             "end": 452,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -145,7 +152,9 @@
           "start": 486,
           "end": 490,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       },
       "body": {
@@ -232,7 +241,9 @@
             "start": 539,
             "end": 602,
             "value": "The value of non_w.length is expected to equal the value of k",
-            "raw": "'The value of non_w.length is expected to equal the value of k'"
+            "raw": "'The value of non_w.length is expected to equal the value of k'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,7 +269,9 @@
             "start": 618,
             "end": 684,
             "value": "_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            "raw": "\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\""
+            "raw": "\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -309,7 +322,8 @@
                 "regex": {
                   "pattern": "\\W",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -335,14 +349,18 @@
             "start": 727,
             "end": 731,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 735,
             "end": 832,
             "value": "/W/.exec(\"\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\") must return null",
-            "raw": "'/W/.exec(\"\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\") must return null'"
+            "raw": "'/W/.exec(\"\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\") must return null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

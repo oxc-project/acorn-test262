@@ -41,7 +41,9 @@
                   "start": 1338,
                   "end": 1345,
                   "value": "small",
-                  "raw": "'small'"
+                  "raw": "'small'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -132,7 +134,9 @@
                         "start": 1408,
                         "end": 1412,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -151,7 +155,9 @@
             "start": 1427,
             "end": 1434,
             "value": "small",
-            "raw": "'small'"
+            "raw": "'small'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +196,9 @@
           "start": 1454,
           "end": 1465,
           "value": "very long",
-          "raw": "'very long'"
+          "raw": "'very long'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -275,7 +283,9 @@
                         "start": 1526,
                         "end": 1530,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -294,7 +304,9 @@
             "start": 1545,
             "end": 1556,
             "value": "very long",
-            "raw": "'very long'"
+            "raw": "'very long'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +345,9 @@
           "start": 1576,
           "end": 1582,
           "value": "full",
-          "raw": "'full'"
+          "raw": "'full'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -418,7 +432,9 @@
                         "start": 1643,
                         "end": 1647,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -437,7 +453,9 @@
             "start": 1662,
             "end": 1668,
             "value": "full",
-            "raw": "'full'"
+            "raw": "'full'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -476,7 +494,9 @@
           "start": 1688,
           "end": 1692,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -561,7 +581,9 @@
                         "start": 1753,
                         "end": 1757,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -580,7 +602,9 @@
             "start": 1772,
             "end": 1778,
             "value": "null",
-            "raw": "'null'"
+            "raw": "'null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -619,7 +643,9 @@
           "start": 1798,
           "end": 1800,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -704,7 +730,9 @@
                         "start": 1861,
                         "end": 1865,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -723,7 +751,9 @@
             "start": 1880,
             "end": 1898,
             "value": "the empty string",
-            "raw": "'the empty string'"
+            "raw": "'the empty string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -767,21 +797,27 @@
               "start": 1919,
               "end": 1927,
               "value": "narrow",
-              "raw": "'narrow'"
+              "raw": "'narrow'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1929,
               "end": 1936,
               "value": "short",
-              "raw": "'short'"
+              "raw": "'short'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1938,
               "end": 1944,
               "value": "long",
-              "raw": "'long'"
+              "raw": "'long'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -868,7 +904,9 @@
                         "start": 2006,
                         "end": 2010,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -887,7 +925,9 @@
             "start": 2025,
             "end": 2083,
             "value": "an array with the valid options is not necessarily valid",
-            "raw": "'an array with the valid options is not necessarily valid'"
+            "raw": "'an array with the valid options is not necessarily valid'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

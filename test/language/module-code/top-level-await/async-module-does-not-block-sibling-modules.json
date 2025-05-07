@@ -13,7 +13,9 @@
         "start": 372,
         "end": 403,
         "value": "./async-module-tla_FIXTURE.js",
-        "raw": "\"./async-module-tla_FIXTURE.js\""
+        "raw": "\"./async-module-tla_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -45,7 +47,9 @@
         "start": 427,
         "end": 459,
         "value": "./async-module-sync_FIXTURE.js",
-        "raw": "\"./async-module-sync_FIXTURE.js\""
+        "raw": "\"./async-module-sync_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -88,7 +92,9 @@
             "start": 485,
             "end": 490,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

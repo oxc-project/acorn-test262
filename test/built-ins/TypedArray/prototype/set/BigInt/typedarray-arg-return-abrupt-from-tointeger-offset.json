@@ -320,7 +320,9 @@
                         "start": 883,
                         "end": 904,
                         "value": "abrupt from valueOf",
-                        "raw": "\"abrupt from valueOf\""
+                        "raw": "\"abrupt from valueOf\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -426,7 +428,9 @@
                         "start": 986,
                         "end": 1008,
                         "value": "abrupt from toString",
-                        "raw": "\"abrupt from toString\""
+                        "raw": "\"abrupt from toString\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -110,14 +110,18 @@
                   "start": 560,
                   "end": 562,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 564,
                   "end": 566,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -128,14 +132,18 @@
             "start": 569,
             "end": 577,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 626,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,6 +213,7 @@
                   "end": 737,
                   "value": null,
                   "raw": "23n",
+                  "regex": null,
                   "bigint": "23"
                 },
                 {
@@ -213,6 +222,7 @@
                   "end": 742,
                   "value": null,
                   "raw": "12n",
+                  "regex": null,
                   "bigint": "12"
                 }
               ],
@@ -224,14 +234,18 @@
             "start": 745,
             "end": 753,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 759,
             "end": 802,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +314,9 @@
                   "start": 882,
                   "end": 884,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "UnaryExpression",
@@ -324,14 +340,18 @@
             "start": 898,
             "end": 906,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 912,
             "end": 955,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +420,9 @@
                   "start": 1045,
                   "end": 1047,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "UnaryExpression",
@@ -413,7 +435,9 @@
                     "start": 1050,
                     "end": 1051,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -425,14 +449,18 @@
             "start": 1054,
             "end": 1062,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1068,
             "end": 1111,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -501,7 +529,9 @@
                   "start": 1160,
                   "end": 1161,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "UnaryExpression",
@@ -514,7 +544,9 @@
                     "start": 1164,
                     "end": 1165,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -526,14 +558,18 @@
             "start": 1168,
             "end": 1176,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1182,
             "end": 1225,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,7 +644,9 @@
                   "start": 1335,
                   "end": 1337,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -619,14 +657,18 @@
             "start": 1340,
             "end": 1348,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1354,
             "end": 1397,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -718,14 +760,18 @@
             "start": 1500,
             "end": 1508,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1514,
             "end": 1557,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -806,7 +852,9 @@
                     "start": 1649,
                     "end": 1650,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -818,14 +866,18 @@
             "start": 1653,
             "end": 1661,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1667,
             "end": 1710,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -900,7 +952,9 @@
                     "start": 1821,
                     "end": 1822,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -914,7 +968,9 @@
                     "start": 1825,
                     "end": 1826,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -926,14 +982,18 @@
             "start": 1829,
             "end": 1837,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1843,
             "end": 1886,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1008,7 +1068,9 @@
                     "start": 1968,
                     "end": 1969,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -1033,14 +1095,18 @@
             "start": 1983,
             "end": 1991,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1997,
             "end": 2040,
             "value": "should return object not throw RangeError",
-            "raw": "\"should return object not throw RangeError\""
+            "raw": "\"should return object not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

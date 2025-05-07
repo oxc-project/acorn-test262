@@ -24,21 +24,27 @@
               "start": 288,
               "end": 292,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 295,
               "end": 300,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 303,
               "end": 307,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -48,7 +54,9 @@
           "start": 313,
           "end": 318,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +84,9 @@
                   "start": 347,
                   "end": 384,
                   "value": "#1: (true ? false : true) === false",
-                  "raw": "'#1: (true ? false : true) === false'"
+                  "raw": "'#1: (true ? false : true) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -106,21 +116,27 @@
               "start": 405,
               "end": 410,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 413,
               "end": 418,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 421,
               "end": 425,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -130,7 +146,9 @@
           "start": 431,
           "end": 435,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -158,7 +176,9 @@
                   "start": 464,
                   "end": 501,
                   "value": "#2: (false ? false : true) === true",
-                  "raw": "'#2: (false ? false : true) === true'"
+                  "raw": "'#2: (false ? false : true) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -198,7 +218,9 @@
                 "start": 537,
                 "end": 541,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -237,7 +259,9 @@
                 "start": 564,
                 "end": 569,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -278,7 +302,9 @@
               "start": 585,
               "end": 589,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -315,7 +341,9 @@
                   "start": 625,
                   "end": 706,
                   "value": "#3: var x = new Boolean(true); var y = new Boolean(false); (x ? y : true) === y",
-                  "raw": "'#3: var x = new Boolean(true); var y = new Boolean(false); (x ? y : true) === y'"
+                  "raw": "'#3: var x = new Boolean(true); var y = new Boolean(false); (x ? y : true) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -355,7 +383,9 @@
                 "start": 742,
                 "end": 746,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -384,14 +414,18 @@
               "start": 754,
               "end": 759,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 762,
               "end": 767,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Identifier",
@@ -434,7 +468,9 @@
                   "start": 807,
                   "end": 865,
                   "value": "#4: var z = new Boolean(true); (false ? false : z) === z",
-                  "raw": "'#4: var z = new Boolean(true); (false ? false : z) === z'"
+                  "raw": "'#4: var z = new Boolean(true); (false ? false : z) === z'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -474,7 +510,9 @@
                 "start": 901,
                 "end": 905,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -513,7 +551,9 @@
                 "start": 928,
                 "end": 933,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -552,7 +592,9 @@
                 "start": 956,
                 "end": 960,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -629,7 +671,9 @@
                   "start": 1013,
                   "end": 1118,
                   "value": "#5: var x = new Boolean(true); var y = new Boolean(false); var z = new Boolean(true); (x ? y : z) === y",
-                  "raw": "'#5: var x = new Boolean(true); var y = new Boolean(false); var z = new Boolean(true); (x ? y : z) === y'"
+                  "raw": "'#5: var x = new Boolean(true); var y = new Boolean(false); var z = new Boolean(true); (x ? y : z) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -658,7 +702,9 @@
             "start": 1142,
             "end": 1147,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -695,7 +741,9 @@
                 "start": 1169,
                 "end": 1174,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -734,7 +782,9 @@
                 "start": 1197,
                 "end": 1201,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -811,7 +861,9 @@
                   "start": 1254,
                   "end": 1347,
                   "value": "#6: var x = false; var y = new Boolean(false); var z = new Boolean(true); (x ? y : z) === z",
-                  "raw": "'#6: var x = false; var y = new Boolean(false); var z = new Boolean(true); (x ? y : z) === z'"
+                  "raw": "'#6: var x = false; var y = new Boolean(false); var z = new Boolean(true); (x ? y : z) === z'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

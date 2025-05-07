@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 62,
         "raw": "'nope'",
-        "value": "nope"
+        "value": "nope",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

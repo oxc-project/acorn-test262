@@ -115,7 +115,9 @@
                               "start": 925,
                               "end": 929,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -166,7 +168,9 @@
                                           "start": 972,
                                           "end": 997,
                                           "value": "OrdinaryGet was called!",
-                                          "raw": "\"OrdinaryGet was called!\""
+                                          "raw": "\"OrdinaryGet was called!\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }
@@ -233,7 +237,9 @@
                               "start": 1051,
                               "end": 1054,
                               "value": "0",
-                              "raw": "\"0\""
+                              "raw": "\"0\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "Identifier",
@@ -255,7 +261,9 @@
                               "start": 1086,
                               "end": 1089,
                               "value": "1",
-                              "raw": "\"1\""
+                              "raw": "\"1\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "Identifier",
@@ -302,7 +310,9 @@
                             "start": 1145,
                             "end": 1146,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -383,7 +393,9 @@
                                     "start": 1203,
                                     "end": 1206,
                                     "value": "0",
-                                    "raw": "\"0\""
+                                    "raw": "\"0\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -470,7 +482,9 @@
                                     "start": 1268,
                                     "end": 1271,
                                     "value": "1",
-                                    "raw": "\"1\""
+                                    "raw": "\"1\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -557,7 +571,9 @@
                                     "start": 1333,
                                     "end": 1334,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -644,7 +660,9 @@
                                     "start": 1396,
                                     "end": 1397,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false

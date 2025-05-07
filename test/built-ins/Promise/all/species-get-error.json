@@ -234,7 +234,9 @@
                               "start": 646,
                               "end": 680,
                               "value": "Getter for Symbol.species called",
-                              "raw": "\"Getter for Symbol.species called\""
+                              "raw": "\"Getter for Symbol.species called\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

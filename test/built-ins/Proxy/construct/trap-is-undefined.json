@@ -23,7 +23,9 @@
             "start": 795,
             "end": 796,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -109,7 +111,9 @@
                             "start": 876,
                             "end": 905,
                             "value": "target should not be called",
-                            "raw": "'target should not be called'"
+                            "raw": "'target should not be called'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -188,7 +192,9 @@
                                 "start": 976,
                                 "end": 977,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -256,7 +262,9 @@
                                         "start": 1036,
                                         "end": 1037,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "computed": true,
                                       "optional": false
@@ -277,7 +285,9 @@
                                         "start": 1046,
                                         "end": 1047,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "computed": true,
                                       "optional": false
@@ -457,14 +467,18 @@
                     "start": 1185,
                     "end": 1186,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1188,
                     "end": 1189,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -520,14 +534,18 @@
             "start": 1229,
             "end": 1230,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1232,
             "end": 1287,
             "value": "construct is undefined: [[Construct]] is invoked once",
-            "raw": "\"construct is undefined: [[Construct]] is invoked once\""
+            "raw": "\"construct is undefined: [[Construct]] is invoked once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -578,7 +596,9 @@
             "start": 1330,
             "end": 1392,
             "value": "construct is undefined: NewTarget is passed to [[Construct]]",
-            "raw": "\"construct is undefined: NewTarget is passed to [[Construct]]\""
+            "raw": "\"construct is undefined: NewTarget is passed to [[Construct]]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -636,14 +656,18 @@
             "start": 1421,
             "end": 1422,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1424,
             "end": 1485,
             "value": "construct is undefined: result of [[Construct]] is returned",
-            "raw": "\"construct is undefined: result of [[Construct]] is returned\""
+            "raw": "\"construct is undefined: result of [[Construct]] is returned\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

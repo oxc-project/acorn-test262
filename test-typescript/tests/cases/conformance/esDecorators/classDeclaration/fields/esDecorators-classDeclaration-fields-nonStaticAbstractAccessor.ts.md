@@ -63,7 +63,9 @@ __ESTREE_TEST__:PASS:
             "start": 38,
             "end": 46,
             "raw": "\"field3\"",
-            "value": "field3"
+            "value": "field3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -102,7 +104,9 @@ __ESTREE_TEST__:PASS:
                       "start": 77,
                       "end": 78,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -167,7 +171,9 @@ __ESTREE_TEST__:PASS:
                       "start": 123,
                       "end": 124,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -190,7 +196,9 @@ __ESTREE_TEST__:PASS:
               "start": 145,
               "end": 153,
               "raw": "\"field2\"",
-              "value": "field2"
+              "value": "field2",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -230,7 +238,9 @@ __ESTREE_TEST__:PASS:
                       "start": 173,
                       "end": 174,
                       "raw": "3",
-                      "value": 3
+                      "value": 3,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {

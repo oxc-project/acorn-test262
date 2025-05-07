@@ -47,7 +47,9 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 37,
             "raw": "\"hello\"",
-            "value": "hello"
+            "value": "hello",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -105,7 +107,9 @@ __ESTREE_TEST__:PASS:
               "start": 58,
               "end": 68,
               "raw": "\"return 5\"",
-              "value": "return 5"
+              "value": "return 5",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {

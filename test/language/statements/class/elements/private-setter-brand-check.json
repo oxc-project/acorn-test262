@@ -245,7 +245,9 @@
             "start": 1212,
             "end": 1221,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +305,9 @@
             "start": 1247,
             "end": 1256,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,7 +425,9 @@
                         "start": 1324,
                         "end": 1329,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -435,7 +441,9 @@
             "start": 1335,
             "end": 1368,
             "value": "invalid access a private setter",
-            "raw": "'invalid access a private setter'"
+            "raw": "'invalid access a private setter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -609,14 +609,18 @@ __ESTREE_TEST__:PASS:
                 "start": 332,
                 "end": 333,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 340,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",

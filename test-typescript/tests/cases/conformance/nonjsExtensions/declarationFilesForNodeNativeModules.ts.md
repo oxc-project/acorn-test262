@@ -99,7 +99,9 @@ __ESTREE_TEST__:PASS:
           "start": 21,
           "end": 40,
           "raw": "\"./dir/native.node\"",
-          "value": "./dir/native.node"
+          "value": "./dir/native.node",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -118,7 +120,9 @@ __ESTREE_TEST__:PASS:
             "start": 61,
             "end": 67,
             "raw": "\"good\"",
-            "value": "good"
+            "value": "good",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

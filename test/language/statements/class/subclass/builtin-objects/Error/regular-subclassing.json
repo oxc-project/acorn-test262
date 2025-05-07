@@ -57,7 +57,9 @@
                 "start": 656,
                 "end": 664,
                 "value": "foo 42",
-                "raw": "'foo 42'"
+                "raw": "'foo 42'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -117,7 +119,9 @@
             "start": 698,
             "end": 706,
             "value": "foo 42",
-            "raw": "'foo 42'"
+            "raw": "'foo 42'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -175,7 +179,9 @@
             "start": 736,
             "end": 743,
             "value": "Error",
-            "raw": "'Error'"
+            "raw": "'Error'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

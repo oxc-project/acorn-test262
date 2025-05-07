@@ -65,7 +65,9 @@ __ESTREE_TEST__:PASS:
                           "start": 143,
                           "end": 150,
                           "raw": "\"_prop\"",
-                          "value": "_prop"
+                          "value": "_prop",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",
@@ -165,7 +167,9 @@ __ESTREE_TEST__:PASS:
                           "start": 210,
                           "end": 215,
                           "raw": "\"num\"",
-                          "value": "num"
+                          "value": "num",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",
@@ -195,7 +199,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 226,
                                 "end": 228,
                                 "raw": "12",
-                                "value": 12
+                                "value": 12,
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]

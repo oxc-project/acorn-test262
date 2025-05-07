@@ -302,14 +302,18 @@
                           "start": 395,
                           "end": 399,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 401,
                           "end": 441,
                           "value": "The result of `this !== obj` is `true`",
-                          "raw": "\"The result of `this !== obj` is `true`\""
+                          "raw": "\"The result of `this !== obj` is `true`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -442,14 +446,18 @@
                         "start": 520,
                         "end": 521,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 523,
                         "end": 524,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -493,14 +501,18 @@
                 "start": 545,
                 "end": 546,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 548,
                 "end": 549,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -560,14 +572,18 @@
             "start": 574,
             "end": 575,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 604,
             "value": "The value of `s.x` is `1`",
-            "raw": "\"The value of `s.x` is `1`\""
+            "raw": "\"The value of `s.x` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -625,14 +641,18 @@
             "start": 629,
             "end": 630,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 659,
             "value": "The value of `s.y` is `2`",
-            "raw": "\"The value of `s.y` is `2`\""
+            "raw": "\"The value of `s.y` is `2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -723,7 +743,9 @@
             "start": 732,
             "end": 789,
             "value": "`Object.getPrototypeOf(s)` returns `Subclass.prototype`",
-            "raw": "\"`Object.getPrototypeOf(s)` returns `Subclass.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(s)` returns `Subclass.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -760,7 +782,9 @@
                 "start": 809,
                 "end": 810,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -820,14 +844,18 @@
             "start": 836,
             "end": 837,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 839,
             "end": 867,
             "value": "The value of `s1.x` is `1`",
-            "raw": "\"The value of `s1.x` is `1`\""
+            "raw": "\"The value of `s1.x` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -891,7 +919,9 @@
             "start": 904,
             "end": 940,
             "value": "The value of `s1.y` is `undefined`",
-            "raw": "\"The value of `s1.y` is `undefined`\""
+            "raw": "\"The value of `s1.y` is `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -982,7 +1012,9 @@
             "start": 1014,
             "end": 1072,
             "value": "`Object.getPrototypeOf(s1)` returns `Subclass.prototype`",
-            "raw": "\"`Object.getPrototypeOf(s1)` returns `Subclass.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(s1)` returns `Subclass.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1038,7 +1070,9 @@
                 "start": 1104,
                 "end": 1105,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1115,7 +1149,9 @@
                         "start": 1149,
                         "end": 1150,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1159,7 +1195,9 @@
                 "start": 1172,
                 "end": 1173,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1219,14 +1257,18 @@
             "start": 1199,
             "end": 1200,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1202,
             "end": 1230,
             "value": "The value of `s2.x` is `1`",
-            "raw": "\"The value of `s2.x` is `1`\""
+            "raw": "\"The value of `s2.x` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1284,14 +1326,18 @@
             "start": 1256,
             "end": 1257,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1287,
             "value": "The value of `s2.y` is `8`",
-            "raw": "\"The value of `s2.y` is `8`\""
+            "raw": "\"The value of `s2.y` is `8`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1382,7 +1428,9 @@
             "start": 1360,
             "end": 1417,
             "value": "`Object.getPrototypeOf(s)` returns `Subclass.prototype`",
-            "raw": "\"`Object.getPrototypeOf(s)` returns `Subclass.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(s)` returns `Subclass.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

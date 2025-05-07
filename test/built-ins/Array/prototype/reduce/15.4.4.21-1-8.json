@@ -104,7 +104,9 @@
                 "start": 348,
                 "end": 353,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -194,7 +196,9 @@
                 "start": 409,
                 "end": 410,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -204,7 +208,9 @@
             "start": 413,
             "end": 471,
             "value": "Array.prototype.reduce.call(obj, callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1) !== true'"
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

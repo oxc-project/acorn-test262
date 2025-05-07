@@ -90,7 +90,9 @@
                         "start": 504,
                         "end": 508,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -104,7 +106,9 @@
             "start": 513,
             "end": 545,
             "value": "null callback throws TypeError",
-            "raw": "\"null callback throws TypeError\""
+            "raw": "\"null callback throws TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,7 +214,9 @@
             "start": 622,
             "end": 659,
             "value": "undefined callback throws TypeError",
-            "raw": "\"undefined callback throws TypeError\""
+            "raw": "\"undefined callback throws TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,7 +322,9 @@
             "start": 729,
             "end": 763,
             "value": "object callback throws TypeError",
-            "raw": "\"object callback throws TypeError\""
+            "raw": "\"object callback throws TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

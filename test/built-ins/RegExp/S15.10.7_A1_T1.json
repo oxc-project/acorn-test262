@@ -36,7 +36,9 @@
                     "start": 309,
                     "end": 352,
                     "value": "#1.1: /[^a]*/() throw TypeError. Actual: ",
-                    "raw": "'#1.1: /[^a]*/() throw TypeError. Actual: '"
+                    "raw": "'#1.1: /[^a]*/() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -56,7 +58,8 @@
                         "regex": {
                           "pattern": "[^a]*",
                           "flags": ""
-                        }
+                        },
+                        "bigint": null
                       },
                       "arguments": [],
                       "optional": false
@@ -134,14 +137,18 @@
                     "start": 435,
                     "end": 439,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 445,
                     "end": 519,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

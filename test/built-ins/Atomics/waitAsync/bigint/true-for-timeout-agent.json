@@ -62,14 +62,18 @@
             "start": 650,
             "end": 660,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 662,
             "end": 717,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -95,7 +99,9 @@
             "start": 736,
             "end": 737,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -247,7 +253,9 @@
                       "start": 1390,
                       "end": 1391,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -333,6 +341,7 @@
                     "end": 1443,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 ],
@@ -409,6 +418,7 @@
                             "end": 1505,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           },
                           {
@@ -416,7 +426,9 @@
                             "start": 1507,
                             "end": 1540,
                             "value": "The value of `agentCount` is 1n",
-                            "raw": "'The value of `agentCount` is 1n'"
+                            "raw": "'The value of `agentCount` is 1n'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -499,14 +511,18 @@
                             "start": 1607,
                             "end": 1618,
                             "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "raw": "'timed-out'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1624,
                             "end": 1695,
                             "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -589,14 +605,18 @@
                             "start": 1765,
                             "end": 1776,
                             "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "raw": "'timed-out'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1782,
                             "end": 1853,
                             "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -679,14 +699,18 @@
                             "start": 1923,
                             "end": 1934,
                             "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "raw": "'timed-out'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1940,
                             "end": 2011,
                             "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -755,7 +779,9 @@
                                 "start": 2063,
                                 "end": 2064,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -765,14 +791,18 @@
                             "start": 2071,
                             "end": 2072,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2078,
                             "end": 2190,
                             "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
+                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

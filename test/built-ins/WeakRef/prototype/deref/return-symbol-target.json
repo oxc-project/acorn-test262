@@ -34,7 +34,9 @@
                 "start": 574,
                 "end": 589,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -146,7 +148,9 @@
             "start": 664,
             "end": 697,
             "value": "returns a regular symbol target",
-            "raw": "'returns a regular symbol target'"
+            "raw": "'returns a regular symbol target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +285,9 @@
             "start": 799,
             "end": 835,
             "value": "returns a well-known symbol target",
-            "raw": "'returns a well-known symbol target'"
+            "raw": "'returns a well-known symbol target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

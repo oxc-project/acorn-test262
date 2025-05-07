@@ -70,7 +70,9 @@
                             "start": 613,
                             "end": 614,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -109,7 +111,9 @@
                             "start": 634,
                             "end": 637,
                             "value": "1",
-                            "raw": "\"1\""
+                            "raw": "\"1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -177,14 +181,18 @@
                         "start": 678,
                         "end": 682,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 684,
                         "end": 725,
                         "value": "The value of `delete sample[s]` is true",
-                        "raw": "'The value of `delete sample[s]` is true'"
+                        "raw": "'The value of `delete sample[s]` is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -262,14 +270,18 @@
                         "start": 771,
                         "end": 776,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 778,
                         "end": 820,
                         "value": "Reflect.has(sample, s) must return false",
-                        "raw": "'Reflect.has(sample, s) must return false'"
+                        "raw": "'Reflect.has(sample, s) must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -308,7 +320,9 @@
                       "start": 838,
                       "end": 840,
                       "value": "",
-                      "raw": "\"\""
+                      "raw": "\"\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -371,14 +385,18 @@
                         "start": 879,
                         "end": 883,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 885,
                         "end": 926,
                         "value": "The value of `delete sample[s]` is true",
-                        "raw": "'The value of `delete sample[s]` is true'"
+                        "raw": "'The value of `delete sample[s]` is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -456,14 +474,18 @@
                         "start": 972,
                         "end": 977,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 979,
                         "end": 1021,
                         "value": "Reflect.has(sample, s) must return false",
-                        "raw": "'Reflect.has(sample, s) must return false'"
+                        "raw": "'Reflect.has(sample, s) must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

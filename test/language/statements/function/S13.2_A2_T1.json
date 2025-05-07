@@ -23,7 +23,9 @@
             "start": 244,
             "end": 250,
             "value": "jedi",
-            "raw": "\"jedi\""
+            "raw": "\"jedi\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +88,9 @@
                       "start": 320,
                       "end": 321,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -191,7 +195,9 @@
                     "start": 507,
                     "end": 570,
                     "value": "#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ===",
-                    "raw": "'#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ==='"
+                    "raw": "'#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -84,7 +84,9 @@
                     "start": 634,
                     "end": 635,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -97,7 +99,9 @@
             "start": 639,
             "end": 642,
             "value": "1",
-            "raw": "'1'"
+            "raw": "'1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +188,9 @@
                     "start": 690,
                     "end": 693,
                     "value": 1.1,
-                    "raw": "1.1"
+                    "raw": "1.1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -197,7 +203,9 @@
             "start": 697,
             "end": 702,
             "value": "1.1",
-            "raw": "'1.1'"
+            "raw": "'1.1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +298,9 @@
                       "start": 751,
                       "end": 752,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -304,7 +314,9 @@
             "start": 756,
             "end": 760,
             "value": "-1",
-            "raw": "'-1'"
+            "raw": "'-1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -397,7 +409,9 @@
                       "start": 809,
                       "end": 812,
                       "value": 1.1,
-                      "raw": "1.1"
+                      "raw": "1.1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -411,7 +425,9 @@
             "start": 816,
             "end": 822,
             "value": "-1.1",
-            "raw": "'-1.1'"
+            "raw": "'-1.1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -498,7 +514,9 @@
                     "start": 870,
                     "end": 875,
                     "value": 11,
-                    "raw": "1.1e1"
+                    "raw": "1.1e1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -511,7 +529,9 @@
             "start": 879,
             "end": 883,
             "value": "11",
-            "raw": "'11'"
+            "raw": "'11'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -598,7 +618,9 @@
                     "start": 931,
                     "end": 937,
                     "value": 0.11,
-                    "raw": "1.1e-1"
+                    "raw": "1.1e-1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -611,7 +633,9 @@
             "start": 941,
             "end": 947,
             "value": "0.11",
-            "raw": "'0.11'"
+            "raw": "'0.11'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -698,7 +722,9 @@
                     "start": 996,
                     "end": 1000,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -711,7 +737,9 @@
             "start": 1004,
             "end": 1010,
             "value": "null",
-            "raw": "'null'"
+            "raw": "'null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,7 +826,9 @@
                     "start": 1058,
                     "end": 1062,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -811,7 +841,9 @@
             "start": 1066,
             "end": 1072,
             "value": "true",
-            "raw": "'true'"
+            "raw": "'true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -898,7 +930,9 @@
                     "start": 1120,
                     "end": 1125,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -911,7 +945,9 @@
             "start": 1129,
             "end": 1136,
             "value": "false",
-            "raw": "'false'"
+            "raw": "'false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -998,7 +1034,9 @@
                     "start": 1184,
                     "end": 1191,
                     "value": "\"foo\"",
-                    "raw": "'\"foo\"'"
+                    "raw": "'\"foo\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1011,7 +1049,9 @@
             "start": 1195,
             "end": 1202,
             "value": "\"foo\"",
-            "raw": "'\"foo\"'"
+            "raw": "'\"foo\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1086,7 +1126,9 @@
                       "start": 1240,
                       "end": 1242,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     },
                     "value": {
                       "type": "CallExpression",
@@ -1117,7 +1159,9 @@
                           "start": 1257,
                           "end": 1259,
                           "value": 37,
-                          "raw": "37"
+                          "raw": "37",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1134,7 +1178,9 @@
             "start": 1265,
             "end": 1276,
             "value": "{\"42\":37}",
-            "raw": "'{\"42\":37}'"
+            "raw": "'{\"42\":37}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1239,7 +1285,9 @@
                           "start": 1332,
                           "end": 1333,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1288,7 +1336,9 @@
                           "start": 1352,
                           "end": 1353,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1305,7 +1355,9 @@
             "start": 1361,
             "end": 1376,
             "value": "{\"x\":1,\"y\":2}",
-            "raw": "'{\"x\":1,\"y\":2}'"
+            "raw": "'{\"x\":1,\"y\":2}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1428,7 +1480,9 @@
                                 "start": 1438,
                                 "end": 1439,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -1477,7 +1531,9 @@
                                 "start": 1458,
                                 "end": 1459,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -1498,7 +1554,9 @@
             "start": 1469,
             "end": 1490,
             "value": "{\"x\":{\"x\":1,\"y\":2}}",
-            "raw": "'{\"x\":{\"x\":1,\"y\":2}}'"
+            "raw": "'{\"x\":{\"x\":1,\"y\":2}}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1590,7 +1648,9 @@
                         "start": 1541,
                         "end": 1542,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1624,7 +1684,9 @@
                         "start": 1558,
                         "end": 1561,
                         "value": 1.1,
-                        "raw": "1.1"
+                        "raw": "1.1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1639,7 +1701,9 @@
             "start": 1566,
             "end": 1575,
             "value": "[1,1.1]",
-            "raw": "'[1,1.1]'"
+            "raw": "'[1,1.1]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1731,7 +1795,9 @@
                         "start": 1632,
                         "end": 1637,
                         "value": "\"1\"",
-                        "raw": "'\"1\"'"
+                        "raw": "'\"1\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1765,7 +1831,9 @@
                         "start": 1657,
                         "end": 1661,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1799,7 +1867,9 @@
                         "start": 1681,
                         "end": 1685,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1833,7 +1903,9 @@
                         "start": 1705,
                         "end": 1710,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1848,7 +1920,9 @@
             "start": 1721,
             "end": 1744,
             "value": "[\"1\",true,null,false]",
-            "raw": "'[\"1\",true,null,false]'"
+            "raw": "'[\"1\",true,null,false]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1958,7 +2032,9 @@
                               "start": 1802,
                               "end": 1803,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -2007,7 +2083,9 @@
                               "start": 1822,
                               "end": 1823,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -2026,7 +2104,9 @@
             "start": 1832,
             "end": 1849,
             "value": "[{\"x\":1,\"y\":1}]",
-            "raw": "'[{\"x\":1,\"y\":1}]'"
+            "raw": "'[{\"x\":1,\"y\":1}]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

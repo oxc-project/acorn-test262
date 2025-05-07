@@ -126,7 +126,9 @@
                         "start": 1087,
                         "end": 1096,
                         "value": "Test262",
-                        "raw": "'Test262'"
+                        "raw": "'Test262'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -255,7 +257,9 @@
             "start": 1180,
             "end": 1236,
             "value": "set operation on private method should throw TypeError",
-            "raw": "'set operation on private method should throw TypeError'"
+            "raw": "'set operation on private method should throw TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

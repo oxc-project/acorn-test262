@@ -41,7 +41,9 @@
                   "start": 517,
                   "end": 531,
                   "value": "not modified",
-                  "raw": "'not modified'"
+                  "raw": "'not modified'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -133,7 +135,9 @@
                     "start": 605,
                     "end": 606,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -273,7 +277,9 @@
                 "start": 677,
                 "end": 679,
                 "value": 45,
-                "raw": "45"
+                "raw": "45",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -341,14 +347,18 @@
             "start": 714,
             "end": 728,
             "value": "not modified",
-            "raw": "'not modified'"
+            "raw": "'not modified'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 730,
             "end": 757,
             "value": "`obj.foo` must not be set",
-            "raw": "'`obj.foo` must not be set'"
+            "raw": "'`obj.foo` must not be set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,14 +403,18 @@
             "start": 785,
             "end": 786,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 788,
             "end": 831,
             "value": "finally block must supersede return value",
-            "raw": "'finally block must supersede return value'"
+            "raw": "'finally block must supersede return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

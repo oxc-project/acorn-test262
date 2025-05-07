@@ -326,7 +326,9 @@
             "start": 893,
             "end": 927,
             "value": "result is an Array exotic object",
-            "raw": "'result is an Array exotic object'"
+            "raw": "'result is an Array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -70,7 +70,9 @@
                             "start": 805,
                             "end": 806,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -117,7 +119,9 @@
                         "start": 842,
                         "end": 851,
                         "value": "test262",
-                        "raw": "\"test262\""
+                        "raw": "\"test262\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -260,7 +264,9 @@
                                   "start": 986,
                                   "end": 987,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -329,7 +335,9 @@
                         "start": 1042,
                         "end": 1104,
                         "value": "The value of sample.test262 is expected to equal `undefined`",
-                        "raw": "'The value of sample.test262 is expected to equal `undefined`'"
+                        "raw": "'The value of sample.test262 is expected to equal `undefined`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

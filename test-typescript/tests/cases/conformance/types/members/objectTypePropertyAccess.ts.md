@@ -212,7 +212,9 @@ __ESTREE_TEST__:PASS:
                 "start": 162,
                 "end": 172,
                 "raw": "'toString'",
-                "value": "toString"
+                "value": "toString",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,
@@ -311,7 +313,9 @@ __ESTREE_TEST__:PASS:
               "start": 204,
               "end": 209,
               "raw": "'foo'",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -517,7 +521,9 @@ __ESTREE_TEST__:PASS:
                 "start": 290,
                 "end": 300,
                 "raw": "'toString'",
-                "value": "toString"
+                "value": "toString",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,
@@ -616,7 +622,9 @@ __ESTREE_TEST__:PASS:
               "start": 332,
               "end": 337,
               "raw": "'bar'",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -671,7 +679,9 @@ __ESTREE_TEST__:PASS:
                   "start": 360,
                   "end": 362,
                   "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -782,7 +792,9 @@ __ESTREE_TEST__:PASS:
                 "start": 400,
                 "end": 410,
                 "raw": "'toString'",
-                "value": "toString"
+                "value": "toString",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,
@@ -881,7 +893,9 @@ __ESTREE_TEST__:PASS:
               "start": 444,
               "end": 449,
               "raw": "'foo'",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             }
           }
         }

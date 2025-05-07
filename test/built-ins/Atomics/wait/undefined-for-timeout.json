@@ -23,7 +23,9 @@
             "start": 528,
             "end": 529,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 582,
             "end": 583,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 602,
             "end": 603,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 661,
             "end": 662,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -333,7 +341,9 @@
                       "start": 1352,
                       "end": 1353,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -586,7 +596,9 @@
             "start": 1617,
             "end": 1703,
             "value": "Atomics.notify(i32a, WAIT_INDEX, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT` (2)",
-            "raw": "'Atomics.notify(i32a, WAIT_INDEX, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT` (2)'"
+            "raw": "'Atomics.notify(i32a, WAIT_INDEX, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT` (2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,7 +653,9 @@
               "start": 1741,
               "end": 1742,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -831,7 +845,9 @@
               "start": 1849,
               "end": 1850,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -841,14 +857,18 @@
             "start": 1853,
             "end": 1859,
             "value": "A ok",
-            "raw": "'A ok'"
+            "raw": "'A ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1861,
             "end": 1896,
             "value": "The value of reports[0] is \"A ok\"",
-            "raw": "'The value of reports[0] is \"A ok\"'"
+            "raw": "'The value of reports[0] is \"A ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -897,7 +917,9 @@
               "start": 1924,
               "end": 1925,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -907,14 +929,18 @@
             "start": 1928,
             "end": 1934,
             "value": "B ok",
-            "raw": "'B ok'"
+            "raw": "'B ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1936,
             "end": 1971,
             "value": "The value of reports[1] is \"B ok\"",
-            "raw": "'The value of reports[1] is \"B ok\"'"
+            "raw": "'The value of reports[1] is \"B ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

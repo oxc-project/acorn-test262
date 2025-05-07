@@ -69,7 +69,9 @@
                       "start": 588,
                       "end": 589,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -147,7 +149,9 @@
                               "start": 672,
                               "end": 703,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -243,7 +247,9 @@
                               "start": 808,
                               "end": 855,
                               "value": "passing a poisoned object using @@ToPrimitive",
-                              "raw": "\"passing a poisoned object using @@ToPrimitive\""
+                              "raw": "\"passing a poisoned object using @@ToPrimitive\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -346,7 +352,9 @@
                         "start": 928,
                         "end": 929,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -458,7 +466,9 @@
                         "start": 1033,
                         "end": 1034,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -570,7 +580,9 @@
                         "start": 1143,
                         "end": 1144,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -588,7 +600,9 @@
                             "start": 1153,
                             "end": 1158,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -697,7 +711,9 @@
                         "start": 1243,
                         "end": 1244,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -715,7 +731,9 @@
                             "start": 1253,
                             "end": 1258,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

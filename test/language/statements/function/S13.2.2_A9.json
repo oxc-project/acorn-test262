@@ -54,7 +54,9 @@
                 "start": 374,
                 "end": 375,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -162,7 +164,9 @@
                         "start": 452,
                         "end": 453,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -233,7 +237,9 @@
                   "start": 610,
                   "end": 666,
                   "value": "#1: var obj = new FACTORY() lead to throwing exception",
-                  "raw": "'#1: var obj = new FACTORY() lead to throwing exception'"
+                  "raw": "'#1: var obj = new FACTORY() lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

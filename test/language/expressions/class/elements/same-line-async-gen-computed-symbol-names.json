@@ -129,7 +129,9 @@
                             "start": 730,
                             "end": 732,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -167,7 +169,9 @@
                     "start": 747,
                     "end": 749,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -290,7 +294,9 @@
                   "start": 826,
                   "end": 829,
                   "value": "m",
-                  "raw": "\"m\""
+                  "raw": "\"m\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -301,7 +307,9 @@
             "start": 834,
             "end": 889,
             "value": "m doesn't appear as an own property on the C instance",
-            "raw": "\"m doesn't appear as an own property on the C instance\""
+            "raw": "\"m doesn't appear as an own property on the C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -429,7 +437,9 @@
             "start": 960,
             "end": 963,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -454,7 +464,9 @@
                   "start": 981,
                   "end": 986,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -476,7 +488,9 @@
                   "start": 1004,
                   "end": 1008,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -498,7 +512,9 @@
                   "start": 1022,
                   "end": 1026,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -527,7 +543,9 @@
                   "start": 1041,
                   "end": 1045,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -686,7 +704,9 @@
                             "start": 1110,
                             "end": 1112,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -744,7 +764,9 @@
                             "start": 1142,
                             "end": 1146,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -830,7 +852,9 @@
                                               "start": 1298,
                                               "end": 1324,
                                               "value": "Test262:AsyncTestFailure",
-                                              "raw": "'Test262:AsyncTestFailure'"
+                                              "raw": "'Test262:AsyncTestFailure'",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           ]
                                         }
@@ -947,7 +971,9 @@
                                   "start": 1419,
                                   "end": 1478,
                                   "value": "Symbol x doesn't appear as an own property on C prototype",
-                                  "raw": "\"Symbol x doesn't appear as an own property on C prototype\""
+                                  "raw": "\"Symbol x doesn't appear as an own property on C prototype\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1045,7 +1071,9 @@
                                   "start": 1555,
                                   "end": 1616,
                                   "value": "Symbol x doesn't appear as an own property on C constructor",
-                                  "raw": "\"Symbol x doesn't appear as an own property on C constructor\""
+                                  "raw": "\"Symbol x doesn't appear as an own property on C constructor\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1122,7 +1150,9 @@
                                         "start": 1694,
                                         "end": 1698,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -1144,7 +1174,9 @@
                                         "start": 1716,
                                         "end": 1720,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -1166,7 +1198,9 @@
                                         "start": 1742,
                                         "end": 1746,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -1281,7 +1315,9 @@
                                   "start": 1835,
                                   "end": 1894,
                                   "value": "Symbol y doesn't appear as an own property on C prototype",
-                                  "raw": "\"Symbol y doesn't appear as an own property on C prototype\""
+                                  "raw": "\"Symbol y doesn't appear as an own property on C prototype\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1379,7 +1415,9 @@
                                   "start": 1971,
                                   "end": 2032,
                                   "value": "Symbol y doesn't appear as an own property on C constructor",
-                                  "raw": "\"Symbol y doesn't appear as an own property on C constructor\""
+                                  "raw": "\"Symbol y doesn't appear as an own property on C constructor\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1435,7 +1473,9 @@
                                         "start": 2081,
                                         "end": 2083,
                                         "value": 42,
-                                        "raw": "42"
+                                        "raw": "42",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -1457,7 +1497,9 @@
                                         "start": 2103,
                                         "end": 2107,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -1479,7 +1521,9 @@
                                         "start": 2125,
                                         "end": 2129,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     },
@@ -1501,7 +1545,9 @@
                                         "start": 2151,
                                         "end": 2155,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -1606,7 +1652,9 @@
                                         "start": 2234,
                                         "end": 2237,
                                         "value": "x",
-                                        "raw": "\"x\""
+                                        "raw": "\"x\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -1617,7 +1665,9 @@
                                   "start": 2246,
                                   "end": 2298,
                                   "value": "x doesn't appear as an own property on C prototype",
-                                  "raw": "\"x doesn't appear as an own property on C prototype\""
+                                  "raw": "\"x doesn't appear as an own property on C prototype\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1705,7 +1755,9 @@
                                         "start": 2365,
                                         "end": 2368,
                                         "value": "x",
-                                        "raw": "\"x\""
+                                        "raw": "\"x\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -1716,7 +1768,9 @@
                                   "start": 2377,
                                   "end": 2431,
                                   "value": "x doesn't appear as an own property on C constructor",
-                                  "raw": "\"x doesn't appear as an own property on C constructor\""
+                                  "raw": "\"x doesn't appear as an own property on C constructor\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1804,7 +1858,9 @@
                                         "start": 2498,
                                         "end": 2501,
                                         "value": "x",
-                                        "raw": "\"x\""
+                                        "raw": "\"x\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -1815,7 +1871,9 @@
                                   "start": 2510,
                                   "end": 2561,
                                   "value": "x doesn't appear as an own property on C instance",
-                                  "raw": "\"x doesn't appear as an own property on C instance\""
+                                  "raw": "\"x doesn't appear as an own property on C instance\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1916,7 +1974,9 @@
                                         "start": 2639,
                                         "end": 2642,
                                         "value": "y",
-                                        "raw": "\"y\""
+                                        "raw": "\"y\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -1927,7 +1987,9 @@
                                   "start": 2651,
                                   "end": 2703,
                                   "value": "y doesn't appear as an own property on C prototype",
-                                  "raw": "\"y doesn't appear as an own property on C prototype\""
+                                  "raw": "\"y doesn't appear as an own property on C prototype\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -2015,7 +2077,9 @@
                                         "start": 2770,
                                         "end": 2773,
                                         "value": "y",
-                                        "raw": "\"y\""
+                                        "raw": "\"y\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -2026,7 +2090,9 @@
                                   "start": 2782,
                                   "end": 2836,
                                   "value": "y doesn't appear as an own property on C constructor",
-                                  "raw": "\"y doesn't appear as an own property on C constructor\""
+                                  "raw": "\"y doesn't appear as an own property on C constructor\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -2114,7 +2180,9 @@
                                         "start": 2903,
                                         "end": 2906,
                                         "value": "y",
-                                        "raw": "\"y\""
+                                        "raw": "\"y\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -2125,7 +2193,9 @@
                                   "start": 2915,
                                   "end": 2966,
                                   "value": "y doesn't appear as an own property on C instance",
-                                  "raw": "\"y doesn't appear as an own property on C instance\""
+                                  "raw": "\"y doesn't appear as an own property on C instance\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

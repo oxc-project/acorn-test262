@@ -41,7 +41,9 @@
                   "start": 346,
                   "end": 351,
                   "value": "abc",
-                  "raw": "\"abc\""
+                  "raw": "\"abc\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -97,7 +99,9 @@
           "start": 386,
           "end": 398,
           "value": "verifyThis",
-          "raw": "\"verifyThis\""
+          "raw": "\"verifyThis\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -182,7 +186,9 @@
                               "start": 466,
                               "end": 467,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "&&",
@@ -254,7 +260,9 @@
                               "start": 512,
                               "end": 529,
                               "value": "[object Object]",
-                              "raw": "\"[object Object]\""
+                              "raw": "\"[object Object]\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -287,7 +295,9 @@
                             "start": 557,
                             "end": 569,
                             "value": "verifyThis",
-                            "raw": "\"verifyThis\""
+                            "raw": "\"verifyThis\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -462,7 +472,9 @@
             "start": 696,
             "end": 728,
             "value": "newInstance.valueOf() !== true",
-            "raw": "'newInstance.valueOf() !== true'"
+            "raw": "'newInstance.valueOf() !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

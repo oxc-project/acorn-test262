@@ -104,7 +104,9 @@
                 "start": 809,
                 "end": 813,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -120,7 +122,9 @@
             "start": 830,
             "end": 898,
             "value": "Object.setPrototypeOf(ObjProto, null) returns the Object.prototype",
-            "raw": "\"Object.setPrototypeOf(ObjProto, null) returns the Object.prototype\""
+            "raw": "\"Object.setPrototypeOf(ObjProto, null) returns the Object.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +183,9 @@
             "start": 946,
             "end": 1022,
             "value": "Object.prototype is still extensible after a setPrototypeOf operation - #1",
-            "raw": "\"Object.prototype is still extensible after a setPrototypeOf operation - #1\""
+            "raw": "\"Object.prototype is still extensible after a setPrototypeOf operation - #1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +254,9 @@
                 "start": 1080,
                 "end": 1084,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -258,14 +266,18 @@
             "start": 1089,
             "end": 1093,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1097,
             "end": 1150,
             "value": "Reflect.setPrototypeOf(ObjProto, null) returns true",
-            "raw": "\"Reflect.setPrototypeOf(ObjProto, null) returns true\""
+            "raw": "\"Reflect.setPrototypeOf(ObjProto, null) returns true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +336,9 @@
             "start": 1198,
             "end": 1274,
             "value": "Object.prototype is still extensible after a setPrototypeOf operation - #2",
-            "raw": "\"Object.prototype is still extensible after a setPrototypeOf operation - #2\""
+            "raw": "\"Object.prototype is still extensible after a setPrototypeOf operation - #2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

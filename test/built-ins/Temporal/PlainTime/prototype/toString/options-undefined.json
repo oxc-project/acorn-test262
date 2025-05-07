@@ -33,14 +33,18 @@
                     "start": 295,
                     "end": 302,
                     "value": "15:23",
-                    "raw": "\"15:23\""
+                    "raw": "\"15:23\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 304,
                     "end": 314,
                     "value": "15:23:00",
-                    "raw": "\"15:23:00\""
+                    "raw": "\"15:23:00\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 320,
                     "end": 330,
                     "value": "15:23:30",
-                    "raw": "\"15:23:30\""
+                    "raw": "\"15:23:30\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 332,
                     "end": 342,
                     "value": "15:23:30",
-                    "raw": "\"15:23:30\""
+                    "raw": "\"15:23:30\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 348,
                     "end": 363,
                     "value": "15:23:30.1234",
-                    "raw": "\"15:23:30.1234\""
+                    "raw": "\"15:23:30.1234\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 365,
                     "end": 380,
                     "value": "15:23:30.1234",
-                    "raw": "\"15:23:30.1234\""
+                    "raw": "\"15:23:30.1234\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -303,7 +315,9 @@
                   "start": 560,
                   "end": 603,
                   "value": "default precision is auto and no rounding",
-                  "raw": "\"default precision is auto and no rounding\""
+                  "raw": "\"default precision is auto and no rounding\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -399,7 +413,9 @@
                   "start": 682,
                   "end": 725,
                   "value": "default precision is auto and no rounding",
-                  "raw": "\"default precision is auto and no rounding\""
+                  "raw": "\"default precision is auto and no rounding\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

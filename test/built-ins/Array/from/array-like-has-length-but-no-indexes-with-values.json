@@ -23,7 +23,9 @@
             "start": 692,
             "end": 693,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -161,7 +163,9 @@
             "start": 804,
             "end": 918,
             "value": "The newly created array's length is equal to the value of the length property for the provided array like object",
-            "raw": "\"The newly created array's length is equal to the value of the length property for the provided array like object\""
+            "raw": "\"The newly created array's length is equal to the value of the length property for the provided array like object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -351,7 +355,9 @@
                   "start": 1087,
                   "end": 1088,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -419,7 +425,9 @@
             "start": 1158,
             "end": 1283,
             "value": "The newly created and mapped array's length is equal to the value of the length property for the provided array like object",
-            "raw": "\"The newly created and mapped array's length is equal to the value of the length property for the provided array like object\""
+            "raw": "\"The newly created and mapped array's length is equal to the value of the length property for the provided array like object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -469,35 +477,45 @@
                 "start": 1336,
                 "end": 1337,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1339,
                 "end": 1340,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1342,
                 "end": 1343,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1345,
                 "end": 1346,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1348,
                 "end": 1349,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

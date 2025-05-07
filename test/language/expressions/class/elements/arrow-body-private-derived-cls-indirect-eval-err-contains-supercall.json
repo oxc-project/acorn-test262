@@ -96,7 +96,9 @@
                             "start": 1158,
                             "end": 1159,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -113,7 +115,9 @@
                         "start": 1167,
                         "end": 1183,
                         "value": "() => super();",
-                        "raw": "'() => super();'"
+                        "raw": "'() => super();'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

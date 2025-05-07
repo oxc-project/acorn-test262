@@ -49,7 +49,9 @@
                   "start": 377,
                   "end": 407,
                   "value": "#1: new Math throw TypeError",
-                  "raw": "'#1: new Math throw TypeError'"
+                  "raw": "'#1: new Math throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -108,7 +110,9 @@
                   "start": 460,
                   "end": 464,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -136,7 +140,9 @@
                           "start": 495,
                           "end": 525,
                           "value": "#1: new Math throw TypeError",
-                          "raw": "'#1: new Math throw TypeError'"
+                          "raw": "'#1: new Math throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -202,7 +208,9 @@
                   "start": 595,
                   "end": 631,
                   "value": "#2: new new Math() throw TypeError",
-                  "raw": "'#2: new new Math() throw TypeError'"
+                  "raw": "'#2: new new Math() throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -261,7 +269,9 @@
                   "start": 684,
                   "end": 688,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -289,7 +299,9 @@
                           "start": 719,
                           "end": 755,
                           "value": "#2: new new Math() throw TypeError",
-                          "raw": "'#2: new new Math() throw TypeError'"
+                          "raw": "'#2: new new Math() throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -380,7 +392,9 @@
                   "start": 840,
                   "end": 889,
                   "value": "#3: var x = new Math(); new x() throw TypeError",
-                  "raw": "'#3: var x = new Math(); new x() throw TypeError'"
+                  "raw": "'#3: var x = new Math(); new x() throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -439,7 +453,9 @@
                   "start": 942,
                   "end": 946,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -467,7 +483,9 @@
                           "start": 977,
                           "end": 1026,
                           "value": "#3: var x = new Math(); new x() throw TypeError",
-                          "raw": "'#3: var x = new Math(); new x() throw TypeError'"
+                          "raw": "'#3: var x = new Math(); new x() throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

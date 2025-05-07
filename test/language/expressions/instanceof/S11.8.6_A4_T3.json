@@ -16,7 +16,9 @@
           "start": 278,
           "end": 280,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "instanceof",
         "right": {
@@ -51,7 +53,9 @@
                   "start": 326,
                   "end": 359,
                   "value": "#1: \"\" is not instanceof String",
-                  "raw": "'#1: \"\" is not instanceof String'"
+                  "raw": "'#1: \"\" is not instanceof String'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -84,7 +88,9 @@
               "start": 386,
               "end": 388,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -122,7 +128,9 @@
                   "start": 435,
                   "end": 476,
                   "value": "#2: String(\"\") is not instanceof String",
-                  "raw": "'#2: String(\"\") is not instanceof String'"
+                  "raw": "'#2: String(\"\") is not instanceof String'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -169,7 +177,9 @@
           "start": 529,
           "end": 533,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -197,7 +207,9 @@
                   "start": 561,
                   "end": 595,
                   "value": "#3: new String instanceof String",
-                  "raw": "'#3: new String instanceof String'"
+                  "raw": "'#3: new String instanceof String'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -83,7 +83,9 @@
                 "start": 875,
                 "end": 886,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",

@@ -48,6 +48,7 @@
                 "end": 443,
                 "value": null,
                 "raw": "1572356798271986102n",
+                "regex": null,
                 "bigint": "1572356798271986102"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 445,
                 "end": 453,
                 "value": "-03:00",
-                "raw": "\"-03:00\""
+                "raw": "\"-03:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 494,
                       "end": 496,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -202,6 +207,7 @@
                 "end": 662,
                 "value": null,
                 "raw": "1572313598271986102n",
+                "regex": null,
                 "bigint": "1572313598271986102"
               },
               {
@@ -209,7 +215,9 @@
                 "start": 664,
                 "end": 672,
                 "value": "-03:00",
-                "raw": "\"-03:00\""
+                "raw": "\"-03:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -262,6 +270,7 @@
               "end": 783,
               "value": null,
               "raw": "1590981158271986102n",
+              "regex": null,
               "bigint": "1590981158271986102"
             },
             {
@@ -269,7 +278,9 @@
               "start": 785,
               "end": 793,
               "value": "-04:00",
-              "raw": "\"-04:00\""
+              "raw": "\"-04:00\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -320,6 +331,7 @@
               "end": 851,
               "value": null,
               "raw": "1590988358271986102n",
+              "regex": null,
               "bigint": "1590988358271986102"
             },
             {
@@ -327,7 +339,9 @@
               "start": 853,
               "end": 861,
               "value": "-04:00",
-              "raw": "\"-04:00\""
+              "raw": "\"-04:00\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -414,7 +428,9 @@
                         "start": 934,
                         "end": 935,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"

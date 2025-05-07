@@ -73,7 +73,9 @@
                 "start": 376,
                 "end": 395,
                 "value": "getTimezoneOffset",
-                "raw": "\"getTimezoneOffset\""
+                "raw": "\"getTimezoneOffset\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 400,
             "end": 404,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 477,
             "value": "Date.prototype.hasOwnProperty(\"getTimezoneOffset\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getTimezoneOffset\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"getTimezoneOffset\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

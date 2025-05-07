@@ -39,14 +39,18 @@
                     "start": 341,
                     "end": 342,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 344,
                     "end": 345,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -92,14 +96,18 @@
                     "start": 369,
                     "end": 370,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 372,
                     "end": 373,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -134,7 +142,9 @@
                 "start": 395,
                 "end": 396,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -213,7 +223,9 @@
             "start": 451,
             "end": 452,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -511,14 +523,18 @@
             "start": 675,
             "end": 679,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 681,
             "end": 711,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -563,14 +579,18 @@
             "start": 738,
             "end": 739,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 741,
             "end": 762,
             "value": "Add is never called",
-            "raw": "\"Add is never called\""
+            "raw": "\"Add is never called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

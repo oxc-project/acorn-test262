@@ -31,7 +31,9 @@
                 "start": 407,
                 "end": 408,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -53,7 +55,9 @@
             "start": 411,
             "end": 412,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": {
@@ -102,7 +106,9 @@
                         "start": 444,
                         "end": 445,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -124,7 +130,9 @@
                     "start": 448,
                     "end": 449,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "update": {
@@ -181,7 +189,9 @@
                 "start": 486,
                 "end": 487,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "body": {
                 "type": "EmptyStatement",
@@ -238,14 +248,18 @@
             "start": 513,
             "end": 514,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 627,
             "value": "#1: Since LineTerminator(U-000A) between continue and Identifier not allowed continue evaluates without label",
-            "raw": "'#1: Since LineTerminator(U-000A) between continue and Identifier not allowed continue evaluates without label'"
+            "raw": "'#1: Since LineTerminator(U-000A) between continue and Identifier not allowed continue evaluates without label'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +293,9 @@
                 "start": 648,
                 "end": 649,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -301,7 +317,9 @@
             "start": 652,
             "end": 653,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": {
@@ -350,7 +368,9 @@
                         "start": 685,
                         "end": 686,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -372,7 +392,9 @@
                     "start": 689,
                     "end": 690,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "update": {
@@ -429,7 +451,9 @@
                 "start": 727,
                 "end": 728,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "body": {
                 "type": "EmptyStatement",
@@ -486,14 +510,18 @@
             "start": 754,
             "end": 755,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 868,
             "value": "#2: Since LineTerminator(U-000D) between continue and Identifier not allowed continue evaluates without label",
-            "raw": "'#2: Since LineTerminator(U-000D) between continue and Identifier not allowed continue evaluates without label'"
+            "raw": "'#2: Since LineTerminator(U-000D) between continue and Identifier not allowed continue evaluates without label'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -527,7 +555,9 @@
                 "start": 889,
                 "end": 890,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -549,7 +579,9 @@
             "start": 893,
             "end": 894,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": {
@@ -598,7 +630,9 @@
                         "start": 926,
                         "end": 927,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -620,7 +654,9 @@
                     "start": 930,
                     "end": 931,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "update": {
@@ -677,7 +713,9 @@
                 "start": 968,
                 "end": 969,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "body": {
                 "type": "EmptyStatement",
@@ -734,14 +772,18 @@
             "start": 994,
             "end": 995,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 997,
             "end": 1108,
             "value": "#3: Since LineTerminator(U-2028) between continue and Identifier not allowed continue evaluates without label",
-            "raw": "'#3: Since LineTerminator(U-2028) between continue and Identifier not allowed continue evaluates without label'"
+            "raw": "'#3: Since LineTerminator(U-2028) between continue and Identifier not allowed continue evaluates without label'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -775,7 +817,9 @@
                 "start": 1129,
                 "end": 1130,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -797,7 +841,9 @@
             "start": 1133,
             "end": 1134,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": {
@@ -846,7 +892,9 @@
                         "start": 1166,
                         "end": 1167,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -868,7 +916,9 @@
                     "start": 1170,
                     "end": 1171,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "update": {
@@ -925,7 +975,9 @@
                 "start": 1208,
                 "end": 1209,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "body": {
                 "type": "EmptyStatement",
@@ -982,14 +1034,18 @@
             "start": 1235,
             "end": 1236,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1238,
             "end": 1349,
             "value": "#4: Since LineTerminator(U-2029) between continue and Identifier not allowed continue evaluates without label",
-            "raw": "'#4: Since LineTerminator(U-2029) between continue and Identifier not allowed continue evaluates without label'"
+            "raw": "'#4: Since LineTerminator(U-2029) between continue and Identifier not allowed continue evaluates without label'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

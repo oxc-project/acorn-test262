@@ -49,7 +49,9 @@
           "start": 659,
           "end": 668,
           "value": "test262",
-          "raw": "\"test262\""
+          "raw": "\"test262\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -126,6 +128,7 @@
                                 "end": 749,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -134,6 +137,7 @@
                                 "end": 754,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               }
                             ]
@@ -202,7 +206,9 @@
                         "start": 810,
                         "end": 854,
                         "value": "return undefined for inexistent properties",
-                        "raw": "\"return undefined for inexistent properties\""
+                        "raw": "\"return undefined for inexistent properties\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -241,7 +247,9 @@
                       "start": 876,
                       "end": 881,
                       "value": "bar",
-                      "raw": "\"bar\""
+                      "raw": "\"bar\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -297,14 +305,18 @@
                         "start": 914,
                         "end": 919,
                         "value": "bar",
-                        "raw": "\"bar\""
+                        "raw": "\"bar\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 921,
                         "end": 935,
                         "value": "return value",
-                        "raw": "\"return value\""
+                        "raw": "\"return value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -349,7 +361,9 @@
                         "start": 971,
                         "end": 976,
                         "value": "bar",
-                        "raw": "\"bar\""
+                        "raw": "\"bar\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -392,7 +406,9 @@
                                       "start": 1009,
                                       "end": 1014,
                                       "value": "baz",
-                                      "raw": "\"baz\""
+                                      "raw": "\"baz\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -458,14 +474,18 @@
                         "start": 1055,
                         "end": 1060,
                         "value": "baz",
-                        "raw": "\"baz\""
+                        "raw": "\"baz\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1062,
                         "end": 1094,
                         "value": "return value from get accessor",
-                        "raw": "\"return value from get accessor\""
+                        "raw": "\"return value from get accessor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -523,14 +543,18 @@
                         "start": 1129,
                         "end": 1138,
                         "value": "test262",
-                        "raw": "\"test262\""
+                        "raw": "\"test262\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1140,
                         "end": 1173,
                         "value": "return value from inherited key",
-                        "raw": "\"return value from inherited key\""
+                        "raw": "\"return value from inherited key\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

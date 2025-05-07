@@ -30,7 +30,9 @@
           "start": 488,
           "end": 497,
           "value": "unicode",
-          "raw": "\"unicode\""
+          "raw": "\"unicode\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -62,7 +64,9 @@
                     "start": 525,
                     "end": 576,
                     "value": "#1: __func() === \"unicode\". Actual:  __func() ===",
-                    "raw": "'#1: __func() === \"unicode\". Actual:  __func() ==='"
+                    "raw": "'#1: __func() === \"unicode\". Actual:  __func() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -114,7 +118,9 @@
               "start": 701,
               "end": 708,
               "value": "ascii",
-              "raw": "\"ascii\""
+              "raw": "\"ascii\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -153,7 +159,9 @@
               "start": 766,
               "end": 775,
               "value": "unicode",
-              "raw": "\"unicode\""
+              "raw": "\"unicode\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 16,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -94,7 +96,9 @@ __ESTREE_TEST__:PASS:
                   "start": 50,
                   "end": 76,
                   "raw": "\"importInsideModule_file1\"",
-                  "value": "importInsideModule_file1"
+                  "value": "importInsideModule_file1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },

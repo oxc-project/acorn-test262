@@ -73,7 +73,9 @@
                   "start": 1087,
                   "end": 1090,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -95,7 +97,9 @@
                   "start": 1099,
                   "end": 1102,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -143,7 +147,9 @@
                   "start": 1123,
                   "end": 1126,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -235,7 +241,9 @@
                   "start": 1181,
                   "end": 1184,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -257,7 +265,9 @@
                   "start": 1195,
                   "end": 1198,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -319,7 +329,9 @@
                                 "start": 1230,
                                 "end": 1247,
                                 "value": "super[\"fromA\"];",
-                                "raw": "'super[\"fromA\"];'"
+                                "raw": "'super[\"fromA\"];'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -357,7 +369,9 @@
                                 "start": 1267,
                                 "end": 1284,
                                 "value": "super[\"fromB\"];",
-                                "raw": "'super[\"fromB\"];'"
+                                "raw": "'super[\"fromB\"];'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -489,7 +503,9 @@
             "start": 1366,
             "end": 1369,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +550,9 @@
             "start": 1396,
             "end": 1399,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 390,
             "end": 399,
             "value": "monster",
-            "raw": "\"monster\""
+            "raw": "\"monster\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 416,
             "end": 426,
             "value": "predator",
-            "raw": "\"predator\""
+            "raw": "\"predator\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -172,7 +176,9 @@
                     "start": 530,
                     "end": 594,
                     "value": "#0: __PROTO.type=__MONSTER does not lead to throwing exception",
-                    "raw": "'#0: __PROTO.type=__MONSTER does not lead to throwing exception'"
+                    "raw": "'#0: __PROTO.type=__MONSTER does not lead to throwing exception'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -358,7 +364,9 @@
                   "start": 850,
                   "end": 901,
                   "value": "#1: __PROTO.isPrototypeOf(__monster) must be true",
-                  "raw": "'#1: __PROTO.isPrototypeOf(__monster) must be true'"
+                  "raw": "'#1: __PROTO.isPrototypeOf(__monster) must be true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -431,7 +439,9 @@
                     "start": 1137,
                     "end": 1198,
                     "value": "#2: __monster.type ===__MONSTER. Actual: __monster.type ===",
-                    "raw": "'#2: __monster.type ===__MONSTER. Actual: __monster.type ==='"
+                    "raw": "'#2: __monster.type ===__MONSTER. Actual: __monster.type ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
               "start": 121,
               "end": 138,
               "raw": "\"__is_argument__\"",
-              "value": "__is_argument__"
+              "value": "__is_argument__",
+              "regex": null,
+              "bigint": null
             },
             "optional": true,
             "readonly": false,
@@ -43,7 +45,9 @@ __ESTREE_TEST__:PASS:
                   "start": 141,
                   "end": 145,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -564,7 +568,9 @@ __ESTREE_TEST__:PASS:
               "start": 24,
               "end": 36,
               "raw": "'./input.js'",
-              "value": "./input.js"
+              "value": "./input.js",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": null,
@@ -614,7 +620,9 @@ __ESTREE_TEST__:PASS:
               "start": 74,
               "end": 86,
               "raw": "'./input.js'",
-              "value": "./input.js"
+              "value": "./input.js",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": null,
@@ -673,7 +681,9 @@ __ESTREE_TEST__:PASS:
                           "start": 112,
                           "end": 119,
                           "raw": "'hello'",
-                          "value": "hello"
+                          "value": "hello",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }

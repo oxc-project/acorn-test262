@@ -401,7 +401,9 @@
                               "start": 1342,
                               "end": 1398,
                               "value": "The promise should be resolved with the correct value.",
-                              "raw": "'The promise should be resolved with the correct value.'"
+                              "raw": "'The promise should be resolved with the correct value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -472,7 +474,9 @@
                         "start": 1462,
                         "end": 1499,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

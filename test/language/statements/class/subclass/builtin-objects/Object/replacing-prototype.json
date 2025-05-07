@@ -60,7 +60,9 @@
                       "start": 450,
                       "end": 452,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -160,14 +162,18 @@
             "start": 515,
             "end": 517,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 539,
             "value": "Replaces prototype",
-            "raw": "'Replaces prototype'"
+            "raw": "'Replaces prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

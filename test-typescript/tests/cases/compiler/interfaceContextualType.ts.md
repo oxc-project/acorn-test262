@@ -342,7 +342,9 @@ __ESTREE_TEST__:PASS:
                           "start": 220,
                           "end": 230,
                           "raw": "'comments'",
-                          "value": "comments"
+                          "value": "comments",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {
@@ -373,7 +375,9 @@ __ESTREE_TEST__:PASS:
                               "start": 244,
                               "end": 248,
                               "raw": "true",
-                              "value": true
+                              "value": true,
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -503,7 +507,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 333,
                                     "end": 337,
                                     "raw": "true",
-                                    "value": true
+                                    "value": true,
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]

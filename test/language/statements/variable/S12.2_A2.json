@@ -50,7 +50,9 @@
                   "start": 607,
                   "end": 639,
                   "value": "#1: delete(__variable)===false",
-                  "raw": "'#1: delete(__variable)===false'"
+                  "raw": "'#1: delete(__variable)===false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -87,7 +89,9 @@
               "start": 832,
               "end": 844,
               "value": "__variable",
-              "raw": "\"__variable\""
+              "raw": "\"__variable\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -119,7 +123,9 @@
                   "start": 874,
                   "end": 914,
                   "value": "#2: delete(this[\"__variable\"])===false",
-                  "raw": "'#2: delete(this[\"__variable\"])===false'"
+                  "raw": "'#2: delete(this[\"__variable\"])===false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -168,7 +174,9 @@
             "start": 1036,
             "end": 1045,
             "value": "defined",
-            "raw": "\"defined\""
+            "raw": "\"defined\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -225,7 +233,9 @@
                 "start": 1174,
                 "end": 1186,
                 "value": "__variable",
-                "raw": "\"__variable\""
+                "raw": "\"__variable\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -258,7 +268,9 @@
                   "start": 1216,
                   "end": 1279,
                   "value": "#3: (delete(__variable) | delete(this[\"__variable\"]))===false",
-                  "raw": "'#3: (delete(__variable) | delete(this[\"__variable\"]))===false'"
+                  "raw": "'#3: (delete(__variable) | delete(this[\"__variable\"]))===false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -295,7 +307,9 @@
               "start": 1477,
               "end": 1486,
               "value": "defined",
-              "raw": "\"defined\""
+              "raw": "\"defined\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -322,7 +336,9 @@
                 "start": 1494,
                 "end": 1506,
                 "value": "__variable",
-                "raw": "\"__variable\""
+                "raw": "\"__variable\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -333,7 +349,9 @@
               "start": 1511,
               "end": 1520,
               "value": "defined",
-              "raw": "\"defined\""
+              "raw": "\"defined\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -363,7 +381,9 @@
                   "start": 1549,
                   "end": 1615,
                   "value": "#4: __variable === \"defined\" and this[\"__variable\"] ===\"defined\"",
-                  "raw": "'#4: __variable === \"defined\" and this[\"__variable\"] ===\"defined\"'"
+                  "raw": "'#4: __variable === \"defined\" and this[\"__variable\"] ===\"defined\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

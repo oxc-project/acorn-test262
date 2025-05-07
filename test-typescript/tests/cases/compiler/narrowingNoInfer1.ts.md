@@ -55,7 +55,9 @@ __ESTREE_TEST__:PASS:
                   "start": 80,
                   "end": 83,
                   "raw": "\"a\"",
-                  "value": "a"
+                  "value": "a",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -114,7 +116,9 @@ __ESTREE_TEST__:PASS:
                   "start": 110,
                   "end": 113,
                   "raw": "\"b\"",
-                  "value": "b"
+                  "value": "b",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -579,7 +583,9 @@ __ESTREE_TEST__:PASS:
                     "start": 388,
                     "end": 392,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "ObjectExpression",
@@ -697,7 +703,9 @@ __ESTREE_TEST__:PASS:
                       "start": 353,
                       "end": 356,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -1033,7 +1041,9 @@ __ESTREE_TEST__:PASS:
                     "start": 513,
                     "end": 516,
                     "raw": "'a'",
-                    "value": "a"
+                    "value": "a",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",
@@ -1086,7 +1096,9 @@ __ESTREE_TEST__:PASS:
                     "start": 537,
                     "end": 540,
                     "raw": "'b'",
-                    "value": "b"
+                    "value": "b",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",
@@ -1200,7 +1212,9 @@ __ESTREE_TEST__:PASS:
                       "start": 587,
                       "end": 590,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

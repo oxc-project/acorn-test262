@@ -102,7 +102,9 @@
                                       "start": 579,
                                       "end": 613,
                                       "value": "setter of length property throws",
-                                      "raw": "\"setter of length property throws\""
+                                      "raw": "\"setter of length property throws\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ]
                                 }
@@ -214,21 +216,27 @@
                                     "start": 704,
                                     "end": 705,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 707,
                                     "end": 708,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 710,
                                     "end": 711,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -241,7 +249,9 @@
                           "start": 715,
                           "end": 757,
                           "value": "Promise rejected if setting length fails",
-                          "raw": "\"Promise rejected if setting length fails\""
+                          "raw": "\"Promise rejected if setting length fails\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -361,7 +371,9 @@
                                       "start": 852,
                                       "end": 853,
                                       "value": 3,
-                                      "raw": "3"
+                                      "raw": "3",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -377,14 +389,18 @@
                                       "start": 859,
                                       "end": 860,
                                       "value": 0,
-                                      "raw": "0"
+                                      "raw": "0",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "value": {
                                       "type": "Literal",
                                       "start": 862,
                                       "end": 863,
                                       "value": 0,
-                                      "raw": "0"
+                                      "raw": "0",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -400,14 +416,18 @@
                                       "start": 869,
                                       "end": 870,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "value": {
                                       "type": "Literal",
                                       "start": 872,
                                       "end": 873,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -423,14 +443,18 @@
                                       "start": 879,
                                       "end": 880,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "value": {
                                       "type": "Literal",
                                       "start": 882,
                                       "end": 883,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -445,7 +469,9 @@
                           "start": 890,
                           "end": 948,
                           "value": "Promise rejected if setting length from array-like fails",
-                          "raw": "\"Promise rejected if setting length from array-like fails\""
+                          "raw": "\"Promise rejected if setting length from array-like fails\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

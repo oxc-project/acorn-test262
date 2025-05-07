@@ -53,7 +53,9 @@
                     "start": 361,
                     "end": 383,
                     "value": "\"use strict\"; var x;",
-                    "raw": "'\"use strict\"; var x;'"
+                    "raw": "'\"use strict\"; var x;'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

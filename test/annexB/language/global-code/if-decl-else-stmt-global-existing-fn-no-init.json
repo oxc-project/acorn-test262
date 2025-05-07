@@ -49,7 +49,9 @@
             "start": 1075,
             "end": 1094,
             "value": "outer declaration",
-            "raw": "'outer declaration'"
+            "raw": "'outer declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -64,7 +66,9 @@
         "start": 1102,
         "end": 1106,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "FunctionDeclaration",
@@ -94,7 +98,9 @@
                 "start": 1130,
                 "end": 1149,
                 "value": "inner declaration",
-                "raw": "'inner declaration'"
+                "raw": "'inner declaration'",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -134,7 +140,9 @@
               "start": 1185,
               "end": 1204,
               "value": "outer declaration",
-              "raw": "'outer declaration'"
+              "raw": "'outer declaration'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -168,14 +168,18 @@
             "start": 521,
             "end": 537,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 582,
             "value": "x.toString() must return \"[object Array]\"",
-            "raw": "'x.toString() must return \"[object Array]\"'"
+            "raw": "'x.toString() must return \"[object Array]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,21 +291,27 @@
                 "start": 658,
                 "end": 659,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 661,
                 "end": 662,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 664,
                 "end": 665,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -368,14 +378,18 @@
             "start": 699,
             "end": 715,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 760,
             "value": "x.toString() must return \"[object Array]\"",
-            "raw": "'x.toString() must return \"[object Array]\"'"
+            "raw": "'x.toString() must return \"[object Array]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

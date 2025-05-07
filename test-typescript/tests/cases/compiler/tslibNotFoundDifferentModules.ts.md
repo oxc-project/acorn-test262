@@ -763,7 +763,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 408,
                                                   "end": 415,
                                                   "raw": "\"throw\"",
-                                                  "value": "throw"
+                                                  "value": "throw",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               },
                                               "optional": false,

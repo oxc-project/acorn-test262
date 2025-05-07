@@ -34,7 +34,9 @@
                 "start": 890,
                 "end": 901,
                 "value": "Catch me.",
-                "raw": "\"Catch me.\""
+                "raw": "\"Catch me.\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -225,7 +227,9 @@
                             "start": 1060,
                             "end": 1089,
                             "value": "Promise should be rejected.",
-                            "raw": "\"Promise should be rejected.\""
+                            "raw": "\"Promise should be rejected.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -299,7 +303,9 @@
                             "start": 1155,
                             "end": 1201,
                             "value": "Promise should be rejected with thrown error",
-                            "raw": "\"Promise should be rejected with thrown error\""
+                            "raw": "\"Promise should be rejected with thrown error\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

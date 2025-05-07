@@ -70,7 +70,9 @@
                             "start": 599,
                             "end": 600,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -99,6 +101,7 @@
                         "end": 616,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     }
@@ -234,6 +237,7 @@
                         "end": 689,
                         "value": null,
                         "raw": "2n",
+                        "regex": null,
                         "bigint": "2"
                       },
                       {
@@ -241,7 +245,9 @@
                         "start": 691,
                         "end": 731,
                         "value": "additional unexpected ToBigInt() calls",
-                        "raw": "\"additional unexpected ToBigInt() calls\""
+                        "raw": "\"additional unexpected ToBigInt() calls\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -290,7 +296,9 @@
                           "start": 760,
                           "end": 761,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -301,6 +309,7 @@
                         "end": 766,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {
@@ -308,7 +317,9 @@
                         "start": 768,
                         "end": 806,
                         "value": "incorrect ToNumber result in index 0",
-                        "raw": "\"incorrect ToNumber result in index 0\""
+                        "raw": "\"incorrect ToNumber result in index 0\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -357,7 +368,9 @@
                           "start": 835,
                           "end": 836,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -368,6 +381,7 @@
                         "end": 841,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {
@@ -375,7 +389,9 @@
                         "start": 843,
                         "end": 881,
                         "value": "incorrect ToNumber result in index 1",
-                        "raw": "\"incorrect ToNumber result in index 1\""
+                        "raw": "\"incorrect ToNumber result in index 1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

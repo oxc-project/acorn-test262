@@ -27,7 +27,9 @@
               "start": 213,
               "end": 219,
               "value": "bind",
-              "raw": "'bind'"
+              "raw": "'bind'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -55,7 +57,9 @@
             "start": 245,
             "end": 327,
             "value": "The result of evaluating ('bind' in Function.prototype) is expected to be true",
-            "raw": "'The result of evaluating (\\'bind\\' in Function.prototype) is expected to be true'"
+            "raw": "'The result of evaluating (\\'bind\\' in Function.prototype) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

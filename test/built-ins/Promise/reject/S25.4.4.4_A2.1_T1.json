@@ -47,7 +47,9 @@
                 "start": 436,
                 "end": 437,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -113,7 +115,9 @@
             "start": 474,
             "end": 536,
             "value": "The value of !!(p instanceof Promise) is expected to be true",
-            "raw": "'The value of !!(p instanceof Promise) is expected to be true'"
+            "raw": "'The value of !!(p instanceof Promise) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +193,9 @@
                             "start": 585,
                             "end": 619,
                             "value": "Promise should not be fulfilled.",
-                            "raw": "\"Promise should not be fulfilled.\""
+                            "raw": "\"Promise should not be fulfilled.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -257,14 +263,18 @@
                             "start": 671,
                             "end": 672,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 674,
                             "end": 715,
                             "value": "The value of result is expected to be 3",
-                            "raw": "'The value of result is expected to be 3'"
+                            "raw": "'The value of result is expected to be 3'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

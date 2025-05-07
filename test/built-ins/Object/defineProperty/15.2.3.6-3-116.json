@@ -67,7 +67,9 @@
             "start": 337,
             "end": 347,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -145,7 +147,9 @@
                 "start": 416,
                 "end": 426,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -229,7 +233,9 @@
                 "start": 490,
                 "end": 500,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -277,14 +283,18 @@
             "start": 536,
             "end": 540,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 557,
             "value": "beforeDeleted",
-            "raw": "'beforeDeleted'"
+            "raw": "'beforeDeleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,14 +339,18 @@
             "start": 591,
             "end": 596,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 598,
             "end": 612,
             "value": "afterDeleted",
-            "raw": "'afterDeleted'"
+            "raw": "'afterDeleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

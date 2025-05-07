@@ -35,7 +35,9 @@
                   "start": 326,
                   "end": 342,
                   "value": "PT0.999999999H",
-                  "raw": "\"PT0.999999999H\""
+                  "raw": "\"PT0.999999999H\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "CallExpression",
@@ -97,7 +99,9 @@
                             "start": 382,
                             "end": 384,
                             "value": 59,
-                            "raw": "59"
+                            "raw": "59",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -119,7 +123,9 @@
                             "start": 399,
                             "end": 401,
                             "value": 59,
-                            "raw": "59"
+                            "raw": "59",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -141,7 +147,9 @@
                             "start": 421,
                             "end": 424,
                             "value": 999,
-                            "raw": "999"
+                            "raw": "999",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -163,7 +171,9 @@
                             "start": 444,
                             "end": 447,
                             "value": 996,
-                            "raw": "996"
+                            "raw": "996",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -185,7 +195,9 @@
                             "start": 466,
                             "end": 469,
                             "value": 400,
-                            "raw": "400"
+                            "raw": "400",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -208,7 +220,9 @@
                   "start": 479,
                   "end": 495,
                   "value": "PT0.000000011H",
-                  "raw": "\"PT0.000000011H\""
+                  "raw": "\"PT0.000000011H\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "CallExpression",
@@ -270,7 +284,9 @@
                             "start": 535,
                             "end": 536,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -292,7 +308,9 @@
                             "start": 551,
                             "end": 552,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -314,7 +332,9 @@
                             "start": 572,
                             "end": 573,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -336,7 +356,9 @@
                             "start": 593,
                             "end": 595,
                             "value": 39,
-                            "raw": "39"
+                            "raw": "39",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -358,7 +380,9 @@
                             "start": 614,
                             "end": 617,
                             "value": 600,
-                            "raw": "600"
+                            "raw": "600",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -381,7 +405,9 @@
                   "start": 628,
                   "end": 644,
                   "value": "PT0.999999999M",
-                  "raw": "\"PT0.999999999M\""
+                  "raw": "\"PT0.999999999M\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "CallExpression",
@@ -443,7 +469,9 @@
                             "start": 684,
                             "end": 686,
                             "value": 59,
-                            "raw": "59"
+                            "raw": "59",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -465,7 +493,9 @@
                             "start": 706,
                             "end": 709,
                             "value": 999,
-                            "raw": "999"
+                            "raw": "999",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -487,7 +517,9 @@
                             "start": 729,
                             "end": 732,
                             "value": 999,
-                            "raw": "999"
+                            "raw": "999",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -509,7 +541,9 @@
                             "start": 751,
                             "end": 754,
                             "value": 940,
-                            "raw": "940"
+                            "raw": "940",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -532,7 +566,9 @@
                   "start": 764,
                   "end": 780,
                   "value": "PT0.000000011M",
-                  "raw": "\"PT0.000000011M\""
+                  "raw": "\"PT0.000000011M\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "CallExpression",
@@ -594,7 +630,9 @@
                             "start": 820,
                             "end": 821,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -616,7 +654,9 @@
                             "start": 841,
                             "end": 842,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -638,7 +678,9 @@
                             "start": 862,
                             "end": 863,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -660,7 +702,9 @@
                             "start": 882,
                             "end": 885,
                             "value": 660,
-                            "raw": "660"
+                            "raw": "660",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -683,7 +727,9 @@
                   "start": 896,
                   "end": 912,
                   "value": "PT0.999999999S",
-                  "raw": "\"PT0.999999999S\""
+                  "raw": "\"PT0.999999999S\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "CallExpression",
@@ -745,7 +791,9 @@
                             "start": 957,
                             "end": 960,
                             "value": 999,
-                            "raw": "999"
+                            "raw": "999",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -767,7 +815,9 @@
                             "start": 980,
                             "end": 983,
                             "value": 999,
-                            "raw": "999"
+                            "raw": "999",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -789,7 +839,9 @@
                             "start": 1002,
                             "end": 1005,
                             "value": 999,
-                            "raw": "999"
+                            "raw": "999",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -812,7 +864,9 @@
                   "start": 1015,
                   "end": 1031,
                   "value": "PT0.000000011S",
-                  "raw": "\"PT0.000000011S\""
+                  "raw": "\"PT0.000000011S\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "CallExpression",
@@ -874,7 +928,9 @@
                             "start": 1076,
                             "end": 1077,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -896,7 +952,9 @@
                             "start": 1097,
                             "end": 1098,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -918,7 +976,9 @@
                             "start": 1117,
                             "end": 1119,
                             "value": 11,
-                            "raw": "11"
+                            "raw": "11",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }

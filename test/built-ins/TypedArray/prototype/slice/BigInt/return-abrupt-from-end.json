@@ -301,7 +301,9 @@
                                     "start": 760,
                                     "end": 761,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -401,7 +403,9 @@
                                     "start": 835,
                                     "end": 836,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",

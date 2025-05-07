@@ -23,7 +23,9 @@
             "start": 331,
             "end": 352,
             "value": "something different",
-            "raw": "\"something different\""
+            "raw": "\"something different\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -174,7 +176,9 @@
                         "start": 487,
                         "end": 538,
                         "value": "#1: A property length have attribute { ReadOnly }",
-                        "raw": "\"#1: A property length have attribute { ReadOnly }\""
+                        "raw": "\"#1: A property length have attribute { ReadOnly }\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -220,7 +224,9 @@
                     "start": 582,
                     "end": 617,
                     "value": "#1: arguments object don't exists",
-                    "raw": "\"#1: arguments object don't exists\""
+                    "raw": "\"#1: arguments object don't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -389,7 +395,9 @@
                         "start": 768,
                         "end": 819,
                         "value": "#2: A property length have attribute { ReadOnly }",
-                        "raw": "\"#2: A property length have attribute { ReadOnly }\""
+                        "raw": "\"#2: A property length have attribute { ReadOnly }\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -435,7 +443,9 @@
                     "start": 863,
                     "end": 898,
                     "value": "#2: arguments object don't exists",
-                    "raw": "\"#2: arguments object don't exists\""
+                    "raw": "\"#2: arguments object don't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

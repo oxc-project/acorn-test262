@@ -31,7 +31,9 @@
         "start": 710,
         "end": 756,
         "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -57,7 +59,9 @@
         "start": 773,
         "end": 806,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -75,7 +79,9 @@
             "start": 823,
             "end": 825,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -93,7 +99,9 @@
             "start": 836,
             "end": 838,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -111,7 +119,9 @@
             "start": 849,
             "end": 851,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -129,7 +139,9 @@
             "start": 862,
             "end": 864,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -144,7 +156,9 @@
         "start": 874,
         "end": 907,
         "value": "./import-attribute-2_FIXTURE.js",
-        "raw": "'./import-attribute-2_FIXTURE.js'"
+        "raw": "'./import-attribute-2_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -162,7 +176,9 @@
             "start": 924,
             "end": 926,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -180,7 +196,9 @@
             "start": 937,
             "end": 939,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -198,7 +216,9 @@
             "start": 950,
             "end": 952,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -216,7 +236,9 @@
             "start": 963,
             "end": 965,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -231,7 +253,9 @@
         "start": 982,
         "end": 1015,
         "value": "./import-attribute-3_FIXTURE.js",
-        "raw": "'./import-attribute-3_FIXTURE.js'"
+        "raw": "'./import-attribute-3_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -249,7 +273,9 @@
             "start": 1032,
             "end": 1034,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -267,7 +293,9 @@
             "start": 1045,
             "end": 1047,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -285,7 +313,9 @@
             "start": 1058,
             "end": 1060,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -303,7 +333,9 @@
             "start": 1071,
             "end": 1073,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]

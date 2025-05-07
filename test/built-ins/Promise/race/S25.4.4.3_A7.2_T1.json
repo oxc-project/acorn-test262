@@ -72,7 +72,9 @@
                 "start": 296,
                 "end": 297,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -117,7 +119,9 @@
                 "start": 323,
                 "end": 324,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -216,7 +220,9 @@
             "start": 372,
             "end": 373,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -292,7 +298,9 @@
                             "start": 422,
                             "end": 469,
                             "value": "Should not be fulfilled - expected rejection.",
-                            "raw": "\"Should not be fulfilled - expected rejection.\""
+                            "raw": "\"Should not be fulfilled - expected rejection.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -360,14 +368,18 @@
                             "start": 521,
                             "end": 522,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 524,
                             "end": 565,
                             "value": "The value of result is expected to be 1",
-                            "raw": "'The value of result is expected to be 1'"
+                            "raw": "'The value of result is expected to be 1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -406,7 +418,9 @@
                             "start": 585,
                             "end": 586,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -464,14 +478,18 @@
                             "start": 625,
                             "end": 626,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 628,
                             "end": 678,
                             "value": "The value of sequence.length is expected to be 4",
-                            "raw": "'The value of sequence.length is expected to be 4'"
+                            "raw": "'The value of sequence.length is expected to be 4'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -503,7 +521,9 @@
                             "start": 707,
                             "end": 728,
                             "value": "This happens second",
-                            "raw": "\"This happens second\""
+                            "raw": "\"This happens second\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -646,7 +666,9 @@
                                 "start": 801,
                                 "end": 802,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -704,14 +726,18 @@
                                 "start": 841,
                                 "end": 842,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 844,
                                 "end": 894,
                                 "value": "The value of sequence.length is expected to be 3",
-                                "raw": "'The value of sequence.length is expected to be 3'"
+                                "raw": "'The value of sequence.length is expected to be 3'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -743,7 +769,9 @@
                                 "start": 923,
                                 "end": 943,
                                 "value": "This happens first",
-                                "raw": "\"This happens first\""
+                                "raw": "\"This happens first\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -812,7 +840,9 @@
                             "start": 983,
                             "end": 984,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -870,14 +900,18 @@
                             "start": 1023,
                             "end": 1024,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1026,
                             "end": 1076,
                             "value": "The value of sequence.length is expected to be 5",
-                            "raw": "'The value of sequence.length is expected to be 5'"
+                            "raw": "'The value of sequence.length is expected to be 5'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -909,7 +943,9 @@
                             "start": 1105,
                             "end": 1125,
                             "value": "This happens third",
-                            "raw": "\"This happens third\""
+                            "raw": "\"This happens third\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -980,7 +1016,9 @@
             "start": 1166,
             "end": 1167,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

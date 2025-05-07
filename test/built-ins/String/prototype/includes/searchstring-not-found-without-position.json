@@ -23,7 +23,9 @@
             "start": 833,
             "end": 854,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "raw": "'The future is cool!'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +88,9 @@
                 "start": 890,
                 "end": 897,
                 "value": "Flash",
-                "raw": "'Flash'"
+                "raw": "'Flash'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +100,18 @@
             "start": 900,
             "end": 905,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 932,
             "value": "Flash if not included",
-            "raw": "'Flash if not included'"
+            "raw": "'Flash if not included'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +174,9 @@
                 "start": 966,
                 "end": 974,
                 "value": "FUTURE",
-                "raw": "'FUTURE'"
+                "raw": "'FUTURE'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -176,14 +186,18 @@
             "start": 977,
             "end": 982,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 984,
             "end": 1012,
             "value": "includes is case sensitive",
-            "raw": "'includes is case sensitive'"
+            "raw": "'includes is case sensitive'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -260,7 +260,9 @@
             "start": 1355,
             "end": 1364,
             "value": "valueOf",
-            "raw": "\"valueOf\""
+            "raw": "\"valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -373,7 +375,9 @@
             "start": 1448,
             "end": 1458,
             "value": "toString",
-            "raw": "\"toString\""
+            "raw": "\"toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

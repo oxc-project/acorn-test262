@@ -23,7 +23,9 @@
             "start": 1371,
             "end": 1372,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                   "start": 1400,
                   "end": 1412,
                   "value": "use strict",
-                  "raw": "\"use strict\""
+                  "raw": "\"use strict\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "directive": "use strict"
               },
@@ -148,7 +152,9 @@
                           "start": 1450,
                           "end": 1461,
                           "value": "arguments",
-                          "raw": "\"arguments\""
+                          "raw": "\"arguments\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -158,7 +164,9 @@
                       "start": 1464,
                       "end": 1469,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -244,14 +252,18 @@
             "start": 1524,
             "end": 1525,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1527,
             "end": 1552,
             "value": "function body evaluated",
-            "raw": "'function body evaluated'"
+            "raw": "'function body evaluated'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

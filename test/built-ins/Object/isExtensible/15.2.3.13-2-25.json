@@ -221,7 +221,9 @@
             "start": 470,
             "end": 505,
             "value": "Object.isExtensible(obj) !== true",
-            "raw": "'Object.isExtensible(obj) !== true'"
+            "raw": "'Object.isExtensible(obj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 1107,
                 "end": 1108,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,7 +193,9 @@
                                     "start": 1239,
                                     "end": 1240,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",

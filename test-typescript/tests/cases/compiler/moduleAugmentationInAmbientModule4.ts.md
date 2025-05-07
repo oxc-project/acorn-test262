@@ -51,7 +51,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 27,
         "raw": "\"Observable\"",
-        "value": "Observable"
+        "value": "Observable",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -135,7 +137,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 75,
         "raw": "\"M\"",
-        "value": "M"
+        "value": "M",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -159,7 +163,9 @@ __ESTREE_TEST__:PASS:
               "start": 156,
               "end": 159,
               "raw": "\"M\"",
-              "value": "M"
+              "value": "M",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -273,7 +279,9 @@ __ESTREE_TEST__:PASS:
               "start": 172,
               "end": 184,
               "raw": "\"Observable\"",
-              "value": "Observable"
+              "value": "Observable",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -285,7 +293,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 129,
         "raw": "\"Map\"",
-        "value": "Map"
+        "value": "Map",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -457,7 +467,9 @@ __ESTREE_TEST__:PASS:
               "start": 64,
               "end": 76,
               "raw": "\"Observable\"",
-              "value": "Observable"
+              "value": "Observable",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -469,7 +481,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"Map\"",
-        "value": "Map"
+        "value": "Map",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -495,7 +509,9 @@ __ESTREE_TEST__:PASS:
         "start": 91,
         "end": 103,
         "raw": "\"Observable\"",
-        "value": "Observable"
+        "value": "Observable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -535,7 +551,9 @@ __ESTREE_TEST__:PASS:
         "start": 112,
         "end": 117,
         "raw": "\"Map\"",
-        "value": "Map"
+        "value": "Map",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },

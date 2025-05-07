@@ -28,133 +28,171 @@
                 "start": 477,
                 "end": 479,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 515,
                 "end": 526,
                 "value": "hourCycle",
-                "raw": "\"hourCycle\""
+                "raw": "\"hourCycle\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 528,
                 "end": 536,
                 "value": "locale",
-                "raw": "\"locale\""
+                "raw": "\"locale\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 538,
                 "end": 548,
                 "value": "language",
-                "raw": "\"language\""
+                "raw": "\"language\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 550,
                 "end": 558,
                 "value": "script",
-                "raw": "\"script\""
+                "raw": "\"script\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 560,
                 "end": 568,
                 "value": "region",
-                "raw": "\"region\""
+                "raw": "\"region\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 619,
                 "end": 630,
                 "value": "calendars",
-                "raw": "\"calendars\""
+                "raw": "\"calendars\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 632,
                 "end": 644,
                 "value": "collations",
-                "raw": "\"collations\""
+                "raw": "\"collations\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 658,
                 "value": "currencies",
-                "raw": "\"currencies\""
+                "raw": "\"currencies\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 660,
                 "end": 678,
                 "value": "numberingSystems",
-                "raw": "\"numberingSystems\""
+                "raw": "\"numberingSystems\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 680,
                 "end": 691,
                 "value": "timeZones",
-                "raw": "\"timeZones\""
+                "raw": "\"timeZones\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 693,
                 "end": 700,
                 "value": "units",
-                "raw": "\"units\""
+                "raw": "\"units\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 741,
                 "end": 751,
                 "value": "CALENDAR",
-                "raw": "\"CALENDAR\""
+                "raw": "\"CALENDAR\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 753,
                 "end": 764,
                 "value": "Collation",
-                "raw": "\"Collation\""
+                "raw": "\"Collation\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 766,
                 "end": 776,
                 "value": "Currency",
-                "raw": "\"Currency\""
+                "raw": "\"Currency\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 778,
                 "end": 795,
                 "value": "numberingsystem",
-                "raw": "\"numberingsystem\""
+                "raw": "\"numberingsystem\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 797,
                 "end": 807,
                 "value": "timezone",
-                "raw": "\"timezone\""
+                "raw": "\"timezone\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 809,
                 "end": 815,
                 "value": "UNIT",
-                "raw": "\"UNIT\""
+                "raw": "\"UNIT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 866,
                 "end": 878,
                 "value": "calendar\u0000",
-                "raw": "\"calendar\\0\""
+                "raw": "\"calendar\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -167,21 +205,27 @@
                 "start": 917,
                 "end": 921,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 923,
                 "end": 928,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 930,
                 "end": 934,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -194,7 +238,9 @@
                 "start": 941,
                 "end": 942,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -221,6 +267,7 @@
                 "end": 957,
                 "value": null,
                 "raw": "123n",
+                "regex": null,
                 "bigint": "123"
               },
               {
@@ -375,7 +422,9 @@
                     "start": 1081,
                     "end": 1088,
                     "value": "key: ",
-                    "raw": "\"key: \""
+                    "raw": "\"key: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

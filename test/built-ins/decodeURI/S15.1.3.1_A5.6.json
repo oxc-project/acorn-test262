@@ -67,7 +67,9 @@
                     "start": 351,
                     "end": 400,
                     "value": "#1: decodeURI.prototype === undefined. Actual: ",
-                    "raw": "'#1: decodeURI.prototype === undefined. Actual: '"
+                    "raw": "'#1: decodeURI.prototype === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

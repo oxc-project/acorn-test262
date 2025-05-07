@@ -61,7 +61,9 @@
                 "start": 365,
                 "end": 366,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -96,7 +98,9 @@
                       "start": 396,
                       "end": 407,
                       "value": "undefined",
-                      "raw": "\"undefined\""
+                      "raw": "\"undefined\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -113,7 +117,9 @@
               "start": 422,
               "end": 427,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -171,7 +177,9 @@
             "start": 471,
             "end": 474,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -227,7 +235,9 @@
                   "start": 516,
                   "end": 520,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -334,7 +344,9 @@
               "start": 594,
               "end": 595,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -344,14 +356,18 @@
             "start": 598,
             "end": 602,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 604,
             "end": 619,
             "value": "testResult[0]",
-            "raw": "'testResult[0]'"
+            "raw": "'testResult[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

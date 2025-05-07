@@ -50,7 +50,9 @@
         "start": 860,
         "end": 904,
         "value": "./instn-iee-err-not-found-empty_FIXTURE.js",
-        "raw": "'./instn-iee-err-not-found-empty_FIXTURE.js'"
+        "raw": "'./instn-iee-err-not-found-empty_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

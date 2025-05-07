@@ -50,7 +50,9 @@ __ESTREE_TEST__:PASS:
                 "start": 28,
                 "end": 29,
                 "raw": "4",
-                "value": 4
+                "value": 4,
+                "regex": null,
+                "bigint": null
               }
             }
           }

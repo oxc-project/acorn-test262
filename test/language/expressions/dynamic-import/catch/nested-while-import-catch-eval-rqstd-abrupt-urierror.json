@@ -23,7 +23,9 @@
             "start": 1322,
             "end": 1323,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -98,7 +100,9 @@
                         "start": 1354,
                         "end": 1394,
                         "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
-                        "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
+                        "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -185,7 +189,9 @@
                                   "start": 1447,
                                   "end": 1457,
                                   "value": "URIError",
-                                  "raw": "'URIError'"
+                                  "raw": "'URIError'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

@@ -23,7 +23,9 @@
             "start": 287,
             "end": 292,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
             "start": 335,
             "end": 338,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -118,7 +122,9 @@
                   "start": 354,
                   "end": 358,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -140,7 +146,9 @@
                   "start": 369,
                   "end": 370,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -185,7 +193,9 @@
                   "start": 407,
                   "end": 410,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -228,7 +238,9 @@
                   "start": 438,
                   "end": 442,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -300,7 +312,9 @@
                               "start": 513,
                               "end": 547,
                               "value": "Expected a Test262Error, but a \"",
-                              "raw": "'Expected a Test262Error, but a \"'"
+                              "raw": "'Expected a Test262Error, but a \"'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -342,7 +356,9 @@
                             "start": 579,
                             "end": 594,
                             "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "raw": "'\" was thrown.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -377,7 +393,9 @@
           "start": 623,
           "end": 628,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -405,7 +423,9 @@
                   "start": 650,
                   "end": 701,
                   "value": "Expected a Test262Error, but no error was thrown.",
-                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                  "raw": "'Expected a Test262Error, but no error was thrown.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -48,6 +48,7 @@
                 "end": 351,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -76,7 +77,9 @@
             "start": 370,
             "end": 407,
             "value": "2021-08-19T17:30[America/Vancouver]",
-            "raw": "\"2021-08-19T17:30[America/Vancouver]\""
+            "raw": "\"2021-08-19T17:30[America/Vancouver]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -219,7 +222,9 @@
                   "start": 491,
                   "end": 492,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -230,14 +235,18 @@
             "start": 495,
             "end": 503,
             "value": "-08:00",
-            "raw": "\"-08:00\""
+            "raw": "\"-08:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 556,
             "value": "date-time + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + IANA annotation is the IANA time zone\""
+            "raw": "\"date-time + IANA annotation is the IANA time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +272,9 @@
           "start": 571,
           "end": 609,
           "value": "2021-08-19T17:30Z[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30Z[America/Vancouver]\""
+          "raw": "\"2021-08-19T17:30Z[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -404,7 +415,9 @@
                   "start": 693,
                   "end": 694,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -415,14 +428,18 @@
             "start": 697,
             "end": 705,
             "value": "-08:00",
-            "raw": "\"-08:00\""
+            "raw": "\"-08:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 707,
             "end": 762,
             "value": "date-time + Z + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\""
+            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -448,7 +465,9 @@
           "start": 777,
           "end": 820,
           "value": "2021-08-19T17:30-07:00[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\""
+          "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -589,7 +608,9 @@
                   "start": 904,
                   "end": 905,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -600,14 +621,18 @@
             "start": 908,
             "end": 916,
             "value": "-08:00",
-            "raw": "\"-08:00\""
+            "raw": "\"-08:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 918,
             "end": 978,
             "value": "date-time + offset + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\""
+            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

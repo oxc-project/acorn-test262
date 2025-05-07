@@ -562,7 +562,9 @@
               "start": 732,
               "end": 733,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -584,7 +586,9 @@
           "start": 739,
           "end": 740,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -721,7 +725,9 @@
                                       "start": 862,
                                       "end": 894,
                                       "value": " getter should be unreachable.",
-                                      "raw": "\" getter should be unreachable.\""
+                                      "raw": "\" getter should be unreachable.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -797,7 +803,9 @@
                                       "start": 979,
                                       "end": 1011,
                                       "value": " setter should be unreachable.",
-                                      "raw": "\" setter should be unreachable.\""
+                                      "raw": "\" setter should be unreachable.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -837,7 +845,9 @@
             "start": 1046,
             "end": 1051,
             "value": "1a2",
-            "raw": "\"1a2\""
+            "raw": "\"1a2\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -888,7 +898,8 @@
                 "regex": {
                   "pattern": "a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -924,7 +935,9 @@
                 "start": 1096,
                 "end": 1101,
                 "value": "$`b",
-                "raw": "\"$`b\""
+                "raw": "\"$`b\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -934,7 +947,9 @@
             "start": 1104,
             "end": 1110,
             "value": "11b2",
-            "raw": "\"11b2\""
+            "raw": "\"11b2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -985,7 +1000,8 @@
                 "regex": {
                   "pattern": "a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -1021,7 +1037,9 @@
                 "start": 1155,
                 "end": 1160,
                 "value": "b$'",
-                "raw": "\"b$'\""
+                "raw": "\"b$'\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1031,7 +1049,9 @@
             "start": 1163,
             "end": 1169,
             "value": "1b22",
-            "raw": "\"1b22\""
+            "raw": "\"1b22\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1082,7 +1102,8 @@
                 "regex": {
                   "pattern": "a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -1118,7 +1139,9 @@
                 "start": 1214,
                 "end": 1222,
                 "value": "$3b$33",
-                "raw": "\"$3b$33\""
+                "raw": "\"$3b$33\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1128,7 +1151,9 @@
             "start": 1225,
             "end": 1235,
             "value": "1$3b$332",
-            "raw": "\"1$3b$332\""
+            "raw": "\"1$3b$332\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1179,7 +1204,8 @@
                 "regex": {
                   "pattern": "(a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -1215,7 +1241,9 @@
                 "start": 1282,
                 "end": 1287,
                 "value": "$1b",
-                "raw": "\"$1b\""
+                "raw": "\"$1b\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1225,7 +1253,9 @@
             "start": 1290,
             "end": 1296,
             "value": "1ab2",
-            "raw": "\"1ab2\""
+            "raw": "\"1ab2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1276,7 +1306,8 @@
                 "regex": {
                   "pattern": "(?<a>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -1312,7 +1343,9 @@
                 "start": 1347,
                 "end": 1354,
                 "value": "$<a>b",
-                "raw": "\"$<a>b\""
+                "raw": "\"$<a>b\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1322,7 +1355,9 @@
             "start": 1357,
             "end": 1363,
             "value": "1ab2",
-            "raw": "\"1ab2\""
+            "raw": "\"1ab2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1366,7 +1401,9 @@
                     "start": 1404,
                     "end": 1407,
                     "value": "b",
-                    "raw": "\"b\""
+                    "raw": "\"b\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1421,7 +1458,8 @@
                 "regex": {
                   "pattern": "a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -1466,7 +1504,9 @@
             "start": 1466,
             "end": 1471,
             "value": "1b2",
-            "raw": "\"1b2\""
+            "raw": "\"1b2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

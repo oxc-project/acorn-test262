@@ -121,7 +121,9 @@
             "start": 580,
             "end": 593,
             "value": "toPrimitive",
-            "raw": "'toPrimitive'"
+            "raw": "'toPrimitive'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +402,9 @@
             "start": 835,
             "end": 853,
             "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "raw": "'from ToPrimitive'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

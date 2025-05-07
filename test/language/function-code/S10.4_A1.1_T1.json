@@ -109,7 +109,9 @@
                       "start": 327,
                       "end": 328,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -140,7 +142,9 @@
                       "start": 349,
                       "end": 350,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -251,7 +255,9 @@
               "start": 402,
               "end": 403,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -281,7 +287,9 @@
                   "start": 432,
                   "end": 487,
                   "value": "#1: Sequenced function calls shares execution context",
-                  "raw": "\"#1: Sequenced function calls shares execution context\""
+                  "raw": "\"#1: Sequenced function calls shares execution context\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

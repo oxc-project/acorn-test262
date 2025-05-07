@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -71,7 +72,9 @@
                   "start": 1619,
                   "end": 1620,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -93,7 +96,9 @@
                   "start": 1631,
                   "end": 1632,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -326,14 +331,18 @@
                         "start": 1822,
                         "end": 1825,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1827,
                         "end": 1835,
                         "value": "$<foo>",
-                        "raw": "'$<foo>'"
+                        "raw": "'$<foo>'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

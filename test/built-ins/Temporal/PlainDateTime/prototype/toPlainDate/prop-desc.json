@@ -88,14 +88,18 @@
             "start": 398,
             "end": 408,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 472,
             "value": "`typeof PlainDateTime.prototype.toPlainDate` is `function`",
-            "raw": "\"`typeof PlainDateTime.prototype.toPlainDate` is `function`\""
+            "raw": "\"`typeof PlainDateTime.prototype.toPlainDate` is `function`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +157,9 @@
             "start": 526,
             "end": 539,
             "value": "toPlainDate",
-            "raw": "\"toPlainDate\""
+            "raw": "\"toPlainDate\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -178,7 +184,9 @@
                   "start": 555,
                   "end": 559,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -200,7 +208,9 @@
                   "start": 575,
                   "end": 580,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -222,7 +232,9 @@
                   "start": 598,
                   "end": 602,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

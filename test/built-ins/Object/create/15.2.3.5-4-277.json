@@ -67,7 +67,9 @@
             "start": 420,
             "end": 425,
             "value": "set",
-            "raw": "\"set\""
+            "raw": "\"set\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -274,7 +276,9 @@
             "start": 611,
             "end": 616,
             "value": "set",
-            "raw": "\"set\""
+            "raw": "\"set\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -448,7 +452,9 @@
                 "start": 749,
                 "end": 755,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -501,7 +507,9 @@
                 "start": 788,
                 "end": 794,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -511,7 +519,9 @@
             "start": 797,
             "end": 837,
             "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -576,14 +586,18 @@
             "start": 874,
             "end": 885,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 887,
             "end": 904,
             "value": "typeof desc.set",
-            "raw": "'typeof desc.set'"
+            "raw": "'typeof desc.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

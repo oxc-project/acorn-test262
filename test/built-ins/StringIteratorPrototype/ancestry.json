@@ -55,7 +55,9 @@
                     "start": 376,
                     "end": 378,
                     "value": "",
-                    "raw": "''"
+                    "raw": "''",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "MemberExpression",

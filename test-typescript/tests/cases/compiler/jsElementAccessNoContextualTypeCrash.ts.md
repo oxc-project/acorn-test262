@@ -65,7 +65,9 @@ __ESTREE_TEST__:PASS:
             "start": 22,
             "end": 30,
             "raw": "'Common'",
-            "value": "Common"
+            "value": "Common",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
               "start": 39,
               "end": 47,
               "raw": "'Common'",
-              "value": "Common"
+              "value": "Common",
+              "regex": null,
+              "bigint": null
             }
           },
           "right": {

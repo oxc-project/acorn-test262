@@ -90,7 +90,9 @@
                         "start": 1367,
                         "end": 1375,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -115,7 +117,9 @@
                               "start": 1392,
                               "end": 1396,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -133,7 +137,9 @@
             "start": 1403,
             "end": 1491,
             "value": "Object.defineProperty([], \"length\", {configurable: true}) throws a TypeError exception",
-            "raw": "'Object.defineProperty([], \"length\", {configurable: true}) throws a TypeError exception'"
+            "raw": "'Object.defineProperty([], \"length\", {configurable: true}) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,7 +201,9 @@
                   "start": 1533,
                   "end": 1541,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -220,7 +228,9 @@
                         "start": 1556,
                         "end": 1560,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -235,7 +245,9 @@
             "start": 1566,
             "end": 1661,
             "value": "The value of !Reflect.defineProperty([], \"length\", {enumerable: true}) is expected to be true",
-            "raw": "'The value of !Reflect.defineProperty([], \"length\", {enumerable: true}) is expected to be true'"
+            "raw": "'The value of !Reflect.defineProperty([], \"length\", {enumerable: true}) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,7 +340,9 @@
                         "start": 1732,
                         "end": 1740,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -382,7 +396,9 @@
                                           "start": 1795,
                                           "end": 1824,
                                           "value": "[[Get]] shouldn't be called",
-                                          "raw": "\"[[Get]] shouldn't be called\""
+                                          "raw": "\"[[Get]] shouldn't be called\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }
@@ -406,7 +422,9 @@
             "start": 1843,
             "end": 1986,
             "value": "Object.defineProperty([], \"length\", {get: function() {throw new Test262Error(\"[[Get]] shouldn\"t be called\");},}) throws a TypeError exception",
-            "raw": "'Object.defineProperty([], \"length\", {get: function() {throw new Test262Error(\"[[Get]] shouldn\"t be called\");},}) throws a TypeError exception'"
+            "raw": "'Object.defineProperty([], \"length\", {get: function() {throw new Test262Error(\"[[Get]] shouldn\"t be called\");},}) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -468,7 +486,9 @@
                   "start": 2028,
                   "end": 2036,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -524,7 +544,9 @@
             "start": 2069,
             "end": 2172,
             "value": "The value of !Reflect.defineProperty([], \"length\", {set: function(_value) {}}) is expected to be true",
-            "raw": "'The value of !Reflect.defineProperty([], \"length\", {set: function(_value) {}}) is expected to be true'"
+            "raw": "'The value of !Reflect.defineProperty([], \"length\", {set: function(_value) {}}) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -594,7 +616,9 @@
             "start": 2222,
             "end": 2230,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -619,7 +643,9 @@
                   "start": 2243,
                   "end": 2248,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -716,7 +742,9 @@
                         "start": 2321,
                         "end": 2329,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -741,7 +769,9 @@
                               "start": 2342,
                               "end": 2346,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -759,7 +789,9 @@
             "start": 2353,
             "end": 2440,
             "value": "Object.defineProperty(array, \"length\", {writable: true}) throws a TypeError exception",
-            "raw": "'Object.defineProperty(array, \"length\", {writable: true}) throws a TypeError exception'"
+            "raw": "'Object.defineProperty(array, \"length\", {writable: true}) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

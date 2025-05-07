@@ -23,7 +23,9 @@
             "start": 709,
             "end": 712,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,14 +70,18 @@
             "start": 734,
             "end": 737,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 739,
             "end": 782,
             "value": "binding is not initialized to `undefined`",
-            "raw": "'binding is not initialized to `undefined`'"
+            "raw": "'binding is not initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -90,7 +96,9 @@
         "start": 794,
         "end": 795,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -163,14 +171,18 @@
             "start": 855,
             "end": 858,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 860,
             "end": 903,
             "value": "value is not updated following evaluation",
-            "raw": "'value is not updated following evaluation'"
+            "raw": "'value is not updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

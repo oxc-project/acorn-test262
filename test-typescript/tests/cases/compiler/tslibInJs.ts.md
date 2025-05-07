@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -76,7 +78,9 @@ __ESTREE_TEST__:PASS:
                 "start": 38,
                 "end": 43,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

@@ -34,7 +34,9 @@
                 "start": 292,
                 "end": 298,
                 "value": "test",
-                "raw": "\"test\""
+                "raw": "\"test\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -134,14 +136,18 @@
             "start": 355,
             "end": 368,
             "value": "Error: test",
-            "raw": "\"Error: test\""
+            "raw": "\"Error: test\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 406,
             "value": "String.prototype.trim.call(errObj)",
-            "raw": "'String.prototype.trim.call(errObj)'"
+            "raw": "'String.prototype.trim.call(errObj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

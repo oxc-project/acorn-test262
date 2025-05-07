@@ -70,7 +70,9 @@
             "start": 761,
             "end": 820,
             "value": "An initialized binding is not created prior to evaluation",
-            "raw": "'An initialized binding is not created prior to evaluation'"
+            "raw": "'An initialized binding is not created prior to evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -122,14 +124,18 @@
             "start": 855,
             "end": 866,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 870,
             "end": 931,
             "value": "An uninitialized binding is not created prior to evaluation",
-            "raw": "'An uninitialized binding is not created prior to evaluation'"
+            "raw": "'An uninitialized binding is not created prior to evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,7 +161,9 @@
             "start": 944,
             "end": 995,
             "value": "for (let f in { key: 0 }) {{ function f() {  } }}",
-            "raw": "'for (let f in { key: 0 }) {{ function f() {  } }}'"
+            "raw": "'for (let f in { key: 0 }) {{ function f() {  } }}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +236,9 @@
             "start": 1051,
             "end": 1111,
             "value": "An initialized binding is not created following evaluation",
-            "raw": "'An initialized binding is not created following evaluation'"
+            "raw": "'An initialized binding is not created following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,14 +290,18 @@
             "start": 1146,
             "end": 1157,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1161,
             "end": 1223,
             "value": "An uninitialized binding is not created following evaluation",
-            "raw": "'An uninitialized binding is not created following evaluation'"
+            "raw": "'An uninitialized binding is not created following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

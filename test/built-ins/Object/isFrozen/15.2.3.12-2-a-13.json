@@ -77,7 +77,9 @@
             "start": 282,
             "end": 292,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -102,7 +104,9 @@
                   "start": 305,
                   "end": 307,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -124,7 +128,9 @@
                   "start": 321,
                   "end": 325,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -146,7 +152,9 @@
                   "start": 343,
                   "end": 348,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -260,14 +268,18 @@
             "start": 425,
             "end": 430,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 454,
             "value": "Object.isFrozen(obj)",
-            "raw": "'Object.isFrozen(obj)'"
+            "raw": "'Object.isFrozen(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

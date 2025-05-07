@@ -70,7 +70,9 @@
                   "start": 764,
                   "end": 771,
                   "value": "flags",
-                  "raw": "'flags'"
+                  "raw": "'flags'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -114,7 +116,9 @@
             "start": 799,
             "end": 805,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -139,7 +143,9 @@
                   "start": 818,
                   "end": 829,
                   "value": "get flags",
-                  "raw": "'get flags'"
+                  "raw": "'get flags'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -161,7 +167,9 @@
                   "start": 843,
                   "end": 848,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -183,7 +191,9 @@
                   "start": 864,
                   "end": 869,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -205,7 +215,9 @@
                   "start": 887,
                   "end": 891,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

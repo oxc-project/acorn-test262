@@ -38,7 +38,9 @@
                     "start": 362,
                     "end": 374,
                     "value": "use strict",
-                    "raw": "\"use strict\""
+                    "raw": "\"use strict\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "directive": "use strict"
                 },
@@ -127,14 +129,18 @@
                         "start": 455,
                         "end": 466,
                         "value": "undefined",
-                        "raw": "\"undefined\""
+                        "raw": "\"undefined\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 468,
                         "end": 473,
                         "value": "f()",
-                        "raw": "'f()'"
+                        "raw": "'f()'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -185,14 +191,18 @@
                         "start": 510,
                         "end": 521,
                         "value": "undefined",
-                        "raw": "\"undefined\""
+                        "raw": "\"undefined\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 523,
                         "end": 536,
                         "value": "typeof this",
-                        "raw": "'typeof this'"
+                        "raw": "'typeof this'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -59,14 +59,18 @@
                       "start": 303,
                       "end": 304,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "value": {
                       "type": "Literal",
                       "start": 306,
                       "end": 307,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -82,14 +86,18 @@
                       "start": 311,
                       "end": 312,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "value": {
                       "type": "Literal",
                       "start": 314,
                       "end": 315,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -105,14 +113,18 @@
                       "start": 319,
                       "end": 323,
                       "value": 1000,
-                      "raw": "1000"
+                      "raw": "1000",
+                      "regex": null,
+                      "bigint": null
                     },
                     "value": {
                       "type": "Literal",
                       "start": 325,
                       "end": 329,
                       "value": 1000,
-                      "raw": "1000"
+                      "raw": "1000",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -178,7 +190,9 @@
             "start": 364,
             "end": 395,
             "value": "Object.isFrozen(obj) !== true",
-            "raw": "'Object.isFrozen(obj) !== true'"
+            "raw": "'Object.isFrozen(obj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

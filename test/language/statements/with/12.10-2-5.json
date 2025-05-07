@@ -21,7 +21,9 @@
               "start": 302,
               "end": 306,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             "body": {
               "type": "ExpressionStatement",
@@ -43,7 +45,9 @@
                   "start": 312,
                   "end": 313,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -72,7 +76,9 @@
                     "start": 340,
                     "end": 411,
                     "value": "#2.1: with(null) x = 2 must throw TypeError. Actual: x === . Actual: ",
-                    "raw": "'#2.1: with(null) x = 2 must throw TypeError. Actual: x === . Actual: '"
+                    "raw": "'#2.1: with(null) x = 2 must throw TypeError. Actual: x === . Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -144,7 +150,9 @@
                   "start": 466,
                   "end": 470,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -176,7 +184,9 @@
                             "start": 500,
                             "end": 555,
                             "value": "#2.2: with(null) x = 2 must throw TypeError. Actual: ",
-                            "raw": "'#2.2: with(null) x = 2 must throw TypeError. Actual: '"
+                            "raw": "'#2.2: with(null) x = 2 must throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

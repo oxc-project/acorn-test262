@@ -192,7 +192,9 @@
                               "start": 460,
                               "end": 470,
                               "value": "currency",
-                              "raw": "\"currency\""
+                              "raw": "\"currency\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -209,7 +211,9 @@
             "start": 477,
             "end": 532,
             "value": "Throws TypeError when currency code is not specified.",
-            "raw": "\"Throws TypeError when currency code is not specified.\""
+            "raw": "\"Throws TypeError when currency code is not specified.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,7 +316,9 @@
                               "start": 629,
                               "end": 640,
                               "value": "-u-cu-krw",
-                              "raw": "\"-u-cu-krw\""
+                              "raw": "\"-u-cu-krw\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -340,7 +346,9 @@
                               "start": 651,
                               "end": 661,
                               "value": "currency",
-                              "raw": "\"currency\""
+                              "raw": "\"currency\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -357,7 +365,9 @@
             "start": 668,
             "end": 788,
             "value": "Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.",
-            "raw": "\"Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.\""
+            "raw": "\"Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 348,
             "end": 354,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -290,7 +292,9 @@
           "start": 535,
           "end": 544,
           "value": "funData",
-          "raw": "\"funData\""
+          "raw": "\"funData\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -338,7 +342,9 @@
                 "start": 573,
                 "end": 579,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -348,7 +354,9 @@
             "start": 582,
             "end": 619,
             "value": "obj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,14 +401,18 @@
             "start": 645,
             "end": 654,
             "value": "funData",
-            "raw": "\"funData\""
+            "raw": "\"funData\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 662,
             "value": "data",
-            "raw": "'data'"
+            "raw": "'data'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

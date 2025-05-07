@@ -61,7 +61,9 @@
           "start": 568,
           "end": 572,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -152,7 +154,9 @@
             "start": 629,
             "end": 670,
             "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "raw": "'a.concat() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,7 +218,9 @@
           "start": 698,
           "end": 699,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -305,7 +311,9 @@
             "start": 756,
             "end": 797,
             "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "raw": "'a.concat() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -367,7 +375,9 @@
           "start": 825,
           "end": 833,
           "value": "string",
-          "raw": "'string'"
+          "raw": "'string'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -458,7 +468,9 @@
             "start": 890,
             "end": 931,
             "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "raw": "'a.concat() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -520,7 +532,9 @@
           "start": 959,
           "end": 963,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -611,7 +625,9 @@
             "start": 1020,
             "end": 1061,
             "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "raw": "'a.concat() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

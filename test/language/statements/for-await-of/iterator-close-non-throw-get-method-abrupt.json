@@ -41,7 +41,9 @@
                   "start": 802,
                   "end": 815,
                   "value": "inner error",
-                  "raw": "\"inner error\""
+                  "raw": "\"inner error\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -194,7 +196,9 @@
                                       "start": 951,
                                       "end": 956,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -216,7 +220,9 @@
                                       "start": 965,
                                       "end": 969,
                                       "value": null,
-                                      "raw": "null"
+                                      "raw": "null",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -299,7 +305,9 @@
             "start": 1060,
             "end": 1061,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -398,7 +406,9 @@
                                 "start": 1162,
                                 "end": 1163,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -503,7 +513,9 @@
                               "start": 1243,
                               "end": 1278,
                               "value": "Promise should be rejected, got: ",
-                              "raw": "\"Promise should be rejected, got: \""
+                              "raw": "\"Promise should be rejected, got: \"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -623,14 +635,18 @@
                             "start": 1384,
                             "end": 1385,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1387,
                             "end": 1415,
                             "value": "The loop body is evaluated",
-                            "raw": "\"The loop body is evaluated\""
+                            "raw": "\"The loop body is evaluated\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

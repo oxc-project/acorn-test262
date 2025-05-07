@@ -98,7 +98,9 @@
                 "start": 396,
                 "end": 408,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 411,
             "end": 415,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 417,
             "end": 471,
             "value": "__re.hasOwnProperty('ignoreCase') must return true",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,14 +186,18 @@
             "start": 515,
             "end": 519,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 583,
             "value": "The value of `delete __re.ignoreCase` is expected to be true",
-            "raw": "'The value of `delete __re.ignoreCase` is expected to be true'"
+            "raw": "'The value of `delete __re.ignoreCase` is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +260,9 @@
                 "start": 623,
                 "end": 635,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -260,14 +272,18 @@
             "start": 638,
             "end": 643,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 700,
             "value": "__re.hasOwnProperty('ignoreCase') must return false",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return false'"
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

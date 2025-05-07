@@ -60,7 +60,9 @@
                 "start": 348,
                 "end": 363,
                 "value": "-271821-04-19",
-                "raw": "'-271821-04-19'"
+                "raw": "'-271821-04-19'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,7 +136,9 @@
               "start": 430,
               "end": 436,
               "value": 271821,
-              "raw": "271821"
+              "raw": "271821",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -142,21 +146,27 @@
             "start": 438,
             "end": 439,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 446,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 448,
             "end": 453,
             "value": "min",
-            "raw": "\"min\""
+            "raw": "\"min\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,7 +229,9 @@
                 "start": 493,
                 "end": 508,
                 "value": "+275760-09-13",
-                "raw": "'+275760-09-13'"
+                "raw": "'+275760-09-13'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -287,28 +299,36 @@
             "start": 574,
             "end": 580,
             "value": 275760,
-            "raw": "275760"
+            "raw": "275760",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 582,
             "end": 583,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 585,
             "end": 590,
             "value": "M09",
-            "raw": "\"M09\""
+            "raw": "\"M09\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 597,
             "value": "max",
-            "raw": "\"max\""
+            "raw": "\"max\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

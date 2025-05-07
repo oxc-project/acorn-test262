@@ -304,7 +304,9 @@
             "start": 559,
             "end": 572,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -358,7 +360,9 @@
                               "start": 613,
                               "end": 642,
                               "value": "Should not get .constructor",
-                              "raw": "\"Should not get .constructor\""
+                              "raw": "\"Should not get .constructor\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

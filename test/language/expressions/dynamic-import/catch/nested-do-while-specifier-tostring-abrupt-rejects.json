@@ -59,7 +59,9 @@
                           "start": 1740,
                           "end": 1754,
                           "value": "custom error",
-                          "raw": "'custom error'"
+                          "raw": "'custom error'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -184,7 +186,9 @@
                                   "start": 1832,
                                   "end": 1846,
                                   "value": "custom error",
-                                  "raw": "'custom error'"
+                                  "raw": "'custom error'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -229,7 +233,9 @@
         "start": 1884,
         "end": 1889,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

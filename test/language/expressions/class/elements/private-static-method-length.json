@@ -211,7 +211,9 @@
             "start": 1753,
             "end": 1754,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

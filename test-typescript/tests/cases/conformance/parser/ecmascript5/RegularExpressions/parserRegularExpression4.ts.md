@@ -70,7 +70,8 @@ __ESTREE_TEST__:PASS:
                       "flags": "",
                       "pattern": " (\\\\ ? | & ) rct = j "
                     },
-                    "value": null
+                    "value": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "property": {
@@ -105,7 +106,9 @@ __ESTREE_TEST__:PASS:
                   "start": 148,
                   "end": 156,
                   "raw": "\"&rct=j\"",
-                  "value": "&rct=j"
+                  "value": "&rct=j",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -159,7 +162,8 @@ __ESTREE_TEST__:PASS:
                       "flags": "",
                       "pattern": "(\\\\?|&)q="
                     },
-                    "value": null
+                    "value": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "property": {
@@ -204,7 +208,9 @@ __ESTREE_TEST__:PASS:
                         "start": 193,
                         "end": 198,
                         "raw": "\"&q=\"",
-                        "value": "&q="
+                        "value": "&q=",
+                        "regex": null,
+                        "bigint": null
                       },
                       "right": {
                         "type": "CallExpression",
@@ -231,7 +237,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 222,
                                     "end": 225,
                                     "raw": "\"q\"",
-                                    "value": "q"
+                                    "value": "q",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "callee": {
@@ -256,7 +264,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 232,
                                     "end": 238,
                                     "raw": "\"as_q\"",
-                                    "value": "as_q"
+                                    "value": "as_q",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "callee": {
@@ -321,7 +331,9 @@ __ESTREE_TEST__:PASS:
                           "start": 263,
                           "end": 264,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "BinaryExpression",
@@ -333,7 +345,9 @@ __ESTREE_TEST__:PASS:
                             "start": 266,
                             "end": 270,
                             "raw": "1948",
-                            "value": 1948
+                            "value": 1948,
+                            "regex": null,
+                            "bigint": null
                           },
                           "right": {
                             "type": "MemberExpression",
@@ -433,7 +447,9 @@ __ESTREE_TEST__:PASS:
                   "start": 295,
                   "end": 296,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "!",
                 "prefix": true
@@ -620,7 +636,8 @@ __ESTREE_TEST__:PASS:
                     "flags": "",
                     "pattern": "(\\\\?|&)adurl="
                   },
-                  "value": null
+                  "value": null,
+                  "bigint": null
                 },
                 "optional": false,
                 "property": {
@@ -686,7 +703,8 @@ __ESTREE_TEST__:PASS:
                     "flags": "",
                     "pattern": "(\\\\?|&)q="
                   },
-                  "value": null
+                  "value": null,
+                  "bigint": null
                 },
                 "optional": false,
                 "property": {

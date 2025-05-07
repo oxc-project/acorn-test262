@@ -54,7 +54,9 @@
                     "start": 323,
                     "end": 359,
                     "value": "#0 x !== undefined, but actual is ",
-                    "raw": "\"#0 x !== undefined, but actual is \""
+                    "raw": "\"#0 x !== undefined, but actual is \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -91,7 +93,9 @@
             "start": 460,
             "end": 464,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -117,7 +121,9 @@
             "start": 474,
             "end": 479,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -143,7 +149,9 @@
           "start": 492,
           "end": 496,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -175,7 +183,9 @@
                     "start": 527,
                     "end": 560,
                     "value": "#1.1 x !== true, but actual is ",
-                    "raw": "\"#1.1 x !== true, but actual is \""
+                    "raw": "\"#1.1 x !== true, but actual is \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -212,7 +222,9 @@
           "start": 579,
           "end": 584,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -244,7 +256,9 @@
                     "start": 615,
                     "end": 649,
                     "value": "#1.1 y !== false, but actual is ",
-                    "raw": "\"#1.1 y !== false, but actual is \""
+                    "raw": "\"#1.1 y !== false, but actual is \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

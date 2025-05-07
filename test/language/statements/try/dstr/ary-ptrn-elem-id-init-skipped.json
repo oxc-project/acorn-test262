@@ -23,7 +23,9 @@
             "start": 929,
             "end": 930,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,7 +70,9 @@
                 "start": 968,
                 "end": 969,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -95,7 +99,9 @@
             "start": 989,
             "end": 994,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,28 +130,36 @@
                   "start": 1012,
                   "end": 1016,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1018,
                   "end": 1019,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1021,
                   "end": 1026,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1028,
                   "end": 1030,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -303,7 +317,9 @@
                     "start": 1128,
                     "end": 1132,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -348,7 +364,9 @@
                     "start": 1157,
                     "end": 1158,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -393,7 +411,9 @@
                     "start": 1183,
                     "end": 1188,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -438,7 +458,9 @@
                     "start": 1213,
                     "end": 1215,
                     "value": "",
-                    "raw": "''"
+                    "raw": "''",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -483,7 +505,9 @@
                     "start": 1248,
                     "end": 1249,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -509,7 +533,9 @@
                   "start": 1265,
                   "end": 1269,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -544,7 +570,9 @@
             "start": 1291,
             "end": 1315,
             "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "raw": "'executed `catch` block'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

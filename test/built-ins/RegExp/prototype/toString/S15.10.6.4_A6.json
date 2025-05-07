@@ -87,7 +87,9 @@
             "start": 413,
             "end": 494,
             "value": "The value of RegExp.prototype.toString.prototype is expected to equal undefined",
-            "raw": "'The value of RegExp.prototype.toString.prototype is expected to equal undefined'"
+            "raw": "'The value of RegExp.prototype.toString.prototype is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,14 +174,18 @@
             "start": 563,
             "end": 568,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 572,
             "end": 632,
             "value": "isConstructor(RegExp.prototype.toString) must return false",
-            "raw": "'isConstructor(RegExp.prototype.toString) must return false'"
+            "raw": "'isConstructor(RegExp.prototype.toString) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

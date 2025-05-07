@@ -65,7 +65,9 @@ __ESTREE_TEST__:PASS:
                     "start": 39,
                     "end": 40,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -91,7 +93,9 @@ __ESTREE_TEST__:PASS:
                 "start": 46,
                 "end": 47,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {
@@ -126,7 +130,9 @@ __ESTREE_TEST__:PASS:
                   "start": 97,
                   "end": 101,
                   "raw": "'f1'",
-                  "value": "f1"
+                  "value": "f1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -226,7 +232,9 @@ __ESTREE_TEST__:PASS:
               "start": 140,
               "end": 144,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -244,7 +252,9 @@ __ESTREE_TEST__:PASS:
                   "start": 189,
                   "end": 193,
                   "raw": "'f2'",
-                  "value": "f2"
+                  "value": "f2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -345,7 +355,9 @@ __ESTREE_TEST__:PASS:
               "start": 229,
               "end": 233,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -363,7 +375,9 @@ __ESTREE_TEST__:PASS:
                   "start": 278,
                   "end": 282,
                   "raw": "'f3'",
-                  "value": "f3"
+                  "value": "f3",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

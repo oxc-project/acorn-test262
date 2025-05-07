@@ -43,7 +43,9 @@
             "start": 1093,
             "end": 1104,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -103,7 +105,9 @@
             "start": 1133,
             "end": 1134,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -153,7 +157,9 @@
             "start": 1161,
             "end": 1171,
             "value": "str ?? 1",
-            "raw": "'str ?? 1'"
+            "raw": "'str ?? 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +219,9 @@
             "start": 1201,
             "end": 1205,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -263,7 +271,9 @@
             "start": 1232,
             "end": 1245,
             "value": "str ?? null",
-            "raw": "'str ?? null'"
+            "raw": "'str ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -372,7 +382,9 @@
             "start": 1311,
             "end": 1329,
             "value": "str ?? undefined",
-            "raw": "'str ?? undefined'"
+            "raw": "'str ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +448,9 @@
               "start": 1359,
               "end": 1363,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "??",
@@ -494,7 +508,9 @@
             "start": 1403,
             "end": 1429,
             "value": "str ?? null ?? undefined",
-            "raw": "'str ?? null ?? undefined'"
+            "raw": "'str ?? null ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -566,7 +582,9 @@
             "start": 1472,
             "end": 1476,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -616,7 +634,9 @@
             "start": 1503,
             "end": 1529,
             "value": "str ?? undefined ?? null",
-            "raw": "'str ?? undefined ?? null'"
+            "raw": "'str ?? undefined ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -680,7 +700,9 @@
               "start": 1559,
               "end": 1563,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "??",
@@ -689,7 +711,9 @@
             "start": 1567,
             "end": 1571,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -739,7 +763,9 @@
             "start": 1598,
             "end": 1619,
             "value": "str ?? null ?? null",
-            "raw": "'str ?? null ?? null'"
+            "raw": "'str ?? null ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -860,7 +886,9 @@
             "start": 1698,
             "end": 1719,
             "value": "str ?? null ?? null",
-            "raw": "'str ?? null ?? null'"
+            "raw": "'str ?? null ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -917,7 +945,9 @@
               "start": 1742,
               "end": 1746,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             "operator": "??",
             "right": {
@@ -933,7 +963,9 @@
             "start": 1757,
             "end": 1761,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -983,7 +1015,9 @@
             "start": 1788,
             "end": 1809,
             "value": "null ?? str ?? null",
-            "raw": "'null ?? str ?? null'"
+            "raw": "'null ?? str ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1040,7 +1074,9 @@
               "start": 1832,
               "end": 1836,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             "operator": "??",
             "right": {
@@ -1105,7 +1141,9 @@
             "start": 1883,
             "end": 1909,
             "value": "null ?? str ?? undefined",
-            "raw": "'null ?? str ?? undefined'"
+            "raw": "'null ?? str ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1177,7 +1215,9 @@
             "start": 1952,
             "end": 1956,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -1227,7 +1267,9 @@
             "start": 1983,
             "end": 2009,
             "value": "undefined ?? str ?? null",
-            "raw": "'undefined ?? str ?? null'"
+            "raw": "'undefined ?? str ?? null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1348,7 +1390,9 @@
             "start": 2088,
             "end": 2119,
             "value": "undefined ?? str ?? undefined",
-            "raw": "'undefined ?? str ?? undefined'"
+            "raw": "'undefined ?? str ?? undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

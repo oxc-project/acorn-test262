@@ -52,7 +52,9 @@
                         "start": 650,
                         "end": 672,
                         "value": "should not throw yet",
-                        "raw": "'should not throw yet'"
+                        "raw": "'should not throw yet'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -231,7 +233,9 @@
             "start": 903,
             "end": 938,
             "value": "does not return the same function",
-            "raw": "'does not return the same function'"
+            "raw": "'does not return the same function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -288,14 +292,18 @@
             "start": 1012,
             "end": 1016,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1018,
             "end": 1030,
             "value": "instanceof",
-            "raw": "'instanceof'"
+            "raw": "'instanceof'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -384,7 +392,9 @@
                   "start": 1111,
                   "end": 1116,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -511,7 +521,9 @@
                   "start": 1252,
                   "end": 1257,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",

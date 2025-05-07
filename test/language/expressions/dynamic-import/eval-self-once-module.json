@@ -75,7 +75,9 @@
           "start": 842,
           "end": 853,
           "value": "undefined",
-          "raw": "'undefined'"
+          "raw": "'undefined'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -116,7 +118,9 @@
                 "start": 878,
                 "end": 879,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -213,7 +217,9 @@
                           "start": 928,
                           "end": 956,
                           "value": "./eval-self-once-module.js",
-                          "raw": "'./eval-self-once-module.js'"
+                          "raw": "'./eval-self-once-module.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": null
                       },
@@ -226,7 +232,9 @@
                           "start": 968,
                           "end": 996,
                           "value": "./eval-self-once-module.js",
-                          "raw": "'./eval-self-once-module.js'"
+                          "raw": "'./eval-self-once-module.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": null
                       }
@@ -276,7 +284,9 @@
                             "start": 1072,
                             "end": 1100,
                             "value": "./eval-self-once-module.js",
-                            "raw": "'./eval-self-once-module.js'"
+                            "raw": "'./eval-self-once-module.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": null
                         }
@@ -299,7 +309,9 @@
                             "start": 1118,
                             "end": 1146,
                             "value": "./eval-self-once-module.js",
-                            "raw": "'./eval-self-once-module.js'"
+                            "raw": "'./eval-self-once-module.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": null
                         }
@@ -357,14 +369,18 @@
                             "start": 1187,
                             "end": 1188,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1190,
                             "end": 1245,
                             "value": "global property was defined and incremented only once",
-                            "raw": "'global property was defined and incremented only once'"
+                            "raw": "'global property was defined and incremented only once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

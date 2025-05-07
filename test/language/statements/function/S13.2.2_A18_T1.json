@@ -23,7 +23,9 @@
             "start": 371,
             "end": 372,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -79,7 +81,9 @@
                   "start": 396,
                   "end": 399,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -161,7 +165,9 @@
                               "start": 460,
                               "end": 461,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -185,7 +191,9 @@
                               "start": 473,
                               "end": 477,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -239,7 +247,9 @@
           "start": 623,
           "end": 624,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -271,7 +281,9 @@
                     "start": 652,
                     "end": 690,
                     "value": "#1: callee === 0. Actual: callee ===",
-                    "raw": "'#1: callee === 0. Actual: callee ==='"
+                    "raw": "'#1: callee === 0. Actual: callee ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -321,7 +333,9 @@
           "start": 895,
           "end": 898,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -353,7 +367,9 @@
                     "start": 926,
                     "end": 977,
                     "value": "#2: __obj.callee === \"a\". Actual: __obj.callee===",
-                    "raw": "'#2: __obj.callee === \"a\". Actual: __obj.callee==='"
+                    "raw": "'#2: __obj.callee === \"a\". Actual: __obj.callee==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -416,7 +432,9 @@
           "start": 1189,
           "end": 1190,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -448,7 +466,9 @@
                     "start": 1218,
                     "end": 1270,
                     "value": "#3: result.callee === 1. Actual: result.callee ===",
-                    "raw": "'#3: result.callee === 1. Actual: result.callee ==='"
+                    "raw": "'#3: result.callee === 1. Actual: result.callee ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -541,7 +561,9 @@
                     "start": 1502,
                     "end": 1543,
                     "value": "#4: this.b === true. Actual: this.b ===",
-                    "raw": "'#4: this.b === true. Actual: this.b ==='"
+                    "raw": "'#4: this.b === true. Actual: this.b ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

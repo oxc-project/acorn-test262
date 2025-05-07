@@ -59,7 +59,9 @@
                           "start": 285,
                           "end": 286,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -137,7 +139,9 @@
               "start": 337,
               "end": 338,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -148,7 +152,9 @@
           "start": 344,
           "end": 345,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -180,7 +186,9 @@
                     "start": 374,
                     "end": 484,
                     "value": "#1: var object = {valueOf: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: ",
-                    "raw": "'#1: var object = {valueOf: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '"
+                    "raw": "'#1: var object = {valueOf: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -243,7 +251,9 @@
                           "start": 527,
                           "end": 528,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -313,7 +323,9 @@
                           "start": 596,
                           "end": 597,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -357,7 +369,9 @@
                           "start": 639,
                           "end": 640,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -435,7 +449,9 @@
               "start": 691,
               "end": 692,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -446,7 +462,9 @@
           "start": 698,
           "end": 699,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -478,7 +496,9 @@
                     "start": 728,
                     "end": 871,
                     "value": "#2: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: ",
-                    "raw": "'#2: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '"
+                    "raw": "'#2: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -541,7 +561,9 @@
                           "start": 914,
                           "end": 915,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -611,7 +633,9 @@
                           "start": 983,
                           "end": 984,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -732,7 +756,9 @@
               "start": 1079,
               "end": 1080,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -743,7 +769,9 @@
           "start": 1086,
           "end": 1087,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -775,7 +803,9 @@
                     "start": 1116,
                     "end": 1260,
                     "value": "#3: var object = {valueOf: function() {return 1}, toString: function() {return {}}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: ",
-                    "raw": "'#3: var object = {valueOf: function() {return 1}, toString: function() {return {}}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '"
+                    "raw": "'#3: var object = {valueOf: function() {return 1}, toString: function() {return {}}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -838,7 +868,9 @@
                           "start": 1303,
                           "end": 1304,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -917,7 +949,9 @@
                                 "start": 1384,
                                 "end": 1385,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -961,7 +995,9 @@
                                 "start": 1432,
                                 "end": 1439,
                                 "value": "error",
-                                "raw": "\"error\""
+                                "raw": "\"error\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -1039,7 +1075,9 @@
                     "start": 1496,
                     "end": 1497,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1050,7 +1088,9 @@
                 "start": 1503,
                 "end": 1504,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -1082,7 +1122,9 @@
                           "start": 1535,
                           "end": 1685,
                           "value": "#4.1: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: ",
-                          "raw": "'#4.1: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '"
+                          "raw": "'#4.1: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -1145,7 +1187,9 @@
                                 "start": 1728,
                                 "end": 1729,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -1196,7 +1240,9 @@
                   "start": 1764,
                   "end": 1771,
                   "value": "error",
-                  "raw": "\"error\""
+                  "raw": "\"error\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -1224,7 +1270,9 @@
                           "start": 1802,
                           "end": 1919,
                           "value": "#4.2: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; object not throw \"error\"",
-                          "raw": "'#4.2: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; object not throw \"error\"'"
+                          "raw": "'#4.2: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; object not throw \"error\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -1260,7 +1308,9 @@
                             "start": 1960,
                             "end": 2085,
                             "value": "#4.3: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; object not throw Error. Actual: ",
-                            "raw": "'#4.3: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; object not throw Error. Actual: '"
+                            "raw": "'#4.3: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; object not throw Error. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1342,7 +1392,9 @@
                           "start": 2162,
                           "end": 2163,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1420,7 +1472,9 @@
               "start": 2214,
               "end": 2215,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1431,7 +1485,9 @@
           "start": 2221,
           "end": 2222,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1463,7 +1519,9 @@
                     "start": 2251,
                     "end": 2362,
                     "value": "#5: var object = {toString: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: ",
-                    "raw": "'#5: var object = {toString: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '"
+                    "raw": "'#5: var object = {toString: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1526,7 +1584,9 @@
                           "start": 2405,
                           "end": 2406,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1639,7 +1699,9 @@
                           "start": 2518,
                           "end": 2519,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1717,7 +1779,9 @@
               "start": 2569,
               "end": 2570,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1728,7 +1792,9 @@
           "start": 2576,
           "end": 2577,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1760,7 +1826,9 @@
                     "start": 2606,
                     "end": 2750,
                     "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: ",
-                    "raw": "'#6: var object = {valueOf: function() {return {}}, toString: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '"
+                    "raw": "'#6: var object = {valueOf: function() {return {}}, toString: function() {return 1}}; String.fromCharCode(object).charCodeAt(0) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1823,7 +1891,9 @@
                           "start": 2793,
                           "end": 2794,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1902,7 +1972,9 @@
                                 "start": 2873,
                                 "end": 2880,
                                 "value": "error",
-                                "raw": "\"error\""
+                                "raw": "\"error\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -1946,7 +2018,9 @@
                                 "start": 2928,
                                 "end": 2929,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -1980,7 +2054,9 @@
                 "start": 2954,
                 "end": 2955,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -2008,7 +2084,9 @@
                     "start": 2982,
                     "end": 3105,
                     "value": "#7.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; object throw \"error\". Actual: ",
-                    "raw": "'#7.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; object throw \"error\". Actual: '"
+                    "raw": "'#7.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; object throw \"error\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2031,7 +2109,9 @@
                         "start": 3120,
                         "end": 3121,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -2076,7 +2156,9 @@
                   "start": 3151,
                   "end": 3158,
                   "value": "error",
-                  "raw": "\"error\""
+                  "raw": "\"error\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -2108,7 +2190,9 @@
                             "start": 3189,
                             "end": 3312,
                             "value": "#7.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; object throw \"error\". Actual: ",
-                            "raw": "'#7.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; object throw \"error\". Actual: '"
+                            "raw": "'#7.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; object throw \"error\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -2276,7 +2360,9 @@
                 "start": 3477,
                 "end": 3478,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -2304,7 +2390,9 @@
                     "start": 3505,
                     "end": 3627,
                     "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; object throw TypeError. Actual: ",
-                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; object throw TypeError. Actual: '"
+                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; object throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2327,7 +2415,9 @@
                         "start": 3642,
                         "end": 3643,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -2389,7 +2479,9 @@
                   "start": 3696,
                   "end": 3700,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -2421,7 +2513,9 @@
                             "start": 3731,
                             "end": 3853,
                             "value": "#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; object throw TypeError. Actual: ",
-                            "raw": "'#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; object throw TypeError. Actual: '"
+                            "raw": "'#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; object throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

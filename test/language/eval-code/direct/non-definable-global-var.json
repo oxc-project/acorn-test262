@@ -162,7 +162,9 @@
                   "start": 962,
                   "end": 967,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -235,7 +237,9 @@
                         "start": 1071,
                         "end": 1097,
                         "value": "var unlikelyVariableName",
-                        "raw": "\"var unlikelyVariableName\""
+                        "raw": "\"var unlikelyVariableName\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

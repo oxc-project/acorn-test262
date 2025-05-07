@@ -41,6 +41,7 @@
               "end": 311,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -50,6 +51,7 @@
               "end": 333,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             }
           },
@@ -59,6 +61,7 @@
             "end": 372,
             "value": null,
             "raw": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
+            "regex": null,
             "bigint": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100"
           },
           {
@@ -66,7 +69,9 @@
             "start": 376,
             "end": 474,
             "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -110,6 +115,7 @@
               "end": 518,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -119,6 +125,7 @@
               "end": 540,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             }
           },
@@ -128,6 +135,7 @@
             "end": 579,
             "value": null,
             "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+            "regex": null,
             "bigint": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0"
           },
           {
@@ -135,7 +143,9 @@
             "start": 583,
             "end": 681,
             "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,6 +189,7 @@
               "end": 725,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -188,6 +199,7 @@
               "end": 739,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             }
           },
@@ -197,6 +209,7 @@
             "end": 770,
             "value": null,
             "raw": "0xFDBAC097530ECA86541D5980n",
+            "regex": null,
             "bigint": "0xFDBAC097530ECA86541D5980"
           },
           {
@@ -204,7 +217,9 @@
             "start": 774,
             "end": 856,
             "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA98n) is 0xFDBAC097530ECA86541D5980n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA98n) is 0xFDBAC097530ECA86541D5980n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA98n) is 0xFDBAC097530ECA86541D5980n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,6 +263,7 @@
               "end": 900,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -257,6 +273,7 @@
               "end": 914,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             }
           },
@@ -266,6 +283,7 @@
             "end": 945,
             "value": null,
             "raw": "0xFDBAC09654320FEDDDC92770n",
+            "regex": null,
             "bigint": "0xFDBAC09654320FEDDDC92770"
           },
           {
@@ -273,7 +291,9 @@
             "start": 949,
             "end": 1031,
             "value": "The result of (0xFEDCBA9876543210n * 0xFEDCBA97n) is 0xFDBAC09654320FEDDDC92770n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA97n) is 0xFDBAC09654320FEDDDC92770n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0xFEDCBA97n) is 0xFDBAC09654320FEDDDC92770n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -317,6 +337,7 @@
               "end": 1075,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -326,6 +347,7 @@
               "end": 1085,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             }
           },
@@ -335,6 +357,7 @@
             "end": 1112,
             "value": null,
             "raw": "0x121F49F49F49F49F4B40n",
+            "regex": null,
             "bigint": "0x121F49F49F49F49F4B40"
           },
           {
@@ -342,7 +365,9 @@
             "start": 1116,
             "end": 1190,
             "value": "The result of (0xFEDCBA9876543210n * 0x1234n) is 0x121F49F49F49F49F4B40n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0x1234n) is 0x121F49F49F49F49F4B40n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x1234n) is 0x121F49F49F49F49F4B40n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,6 +411,7 @@
               "end": 1234,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -395,6 +421,7 @@
               "end": 1241,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -404,6 +431,7 @@
             "end": 1265,
             "value": null,
             "raw": "0x2FC962FC962FC9630n",
+            "regex": null,
             "bigint": "0x2FC962FC962FC9630"
           },
           {
@@ -411,7 +439,9 @@
             "start": 1269,
             "end": 1337,
             "value": "The result of (0xFEDCBA9876543210n * 0x3n) is 0x2FC962FC962FC9630n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0x3n) is 0x2FC962FC962FC9630n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x3n) is 0x2FC962FC962FC9630n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -455,6 +485,7 @@
               "end": 1381,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -464,6 +495,7 @@
               "end": 1388,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -473,6 +505,7 @@
             "end": 1412,
             "value": null,
             "raw": "0x1FDB97530ECA86420n",
+            "regex": null,
             "bigint": "0x1FDB97530ECA86420"
           },
           {
@@ -480,7 +513,9 @@
             "start": 1416,
             "end": 1484,
             "value": "The result of (0xFEDCBA9876543210n * 0x2n) is 0x1FDB97530ECA86420n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0x2n) is 0x1FDB97530ECA86420n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x2n) is 0x1FDB97530ECA86420n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -524,6 +559,7 @@
               "end": 1528,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -533,6 +569,7 @@
               "end": 1535,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -542,6 +579,7 @@
             "end": 1558,
             "value": null,
             "raw": "0xFEDCBA9876543210n",
+            "regex": null,
             "bigint": "0xFEDCBA9876543210"
           },
           {
@@ -549,7 +587,9 @@
             "start": 1562,
             "end": 1629,
             "value": "The result of (0xFEDCBA9876543210n * 0x1n) is 0xFEDCBA9876543210n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0x1n) is 0xFEDCBA9876543210n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x1n) is 0xFEDCBA9876543210n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,6 +633,7 @@
               "end": 1673,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -602,6 +643,7 @@
               "end": 1680,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -611,6 +653,7 @@
             "end": 1688,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -618,7 +661,9 @@
             "start": 1692,
             "end": 1744,
             "value": "The result of (0xFEDCBA9876543210n * 0x0n) is 0x0n",
-            "raw": "'The result of (0xFEDCBA9876543210n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -662,6 +707,7 @@
               "end": 1788,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -677,6 +723,7 @@
                 "end": 1796,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -693,6 +740,7 @@
               "end": 1820,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             }
           },
@@ -701,7 +749,9 @@
             "start": 1824,
             "end": 1893,
             "value": "The result of (0xFEDCBA9876543210n * -0x1n) is -0xFEDCBA9876543210n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0x1n) is -0xFEDCBA9876543210n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x1n) is -0xFEDCBA9876543210n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -745,6 +795,7 @@
               "end": 1937,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -760,6 +811,7 @@
                 "end": 1945,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -776,6 +828,7 @@
               "end": 1970,
               "value": null,
               "raw": "0x1FDB97530ECA86420n",
+              "regex": null,
               "bigint": "0x1FDB97530ECA86420"
             }
           },
@@ -784,7 +837,9 @@
             "start": 1974,
             "end": 2044,
             "value": "The result of (0xFEDCBA9876543210n * -0x2n) is -0x1FDB97530ECA86420n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0x2n) is -0x1FDB97530ECA86420n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x2n) is -0x1FDB97530ECA86420n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -828,6 +883,7 @@
               "end": 2088,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -843,6 +899,7 @@
                 "end": 2096,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -859,6 +916,7 @@
               "end": 2121,
               "value": null,
               "raw": "0x2FC962FC962FC9630n",
+              "regex": null,
               "bigint": "0x2FC962FC962FC9630"
             }
           },
@@ -867,7 +925,9 @@
             "start": 2125,
             "end": 2195,
             "value": "The result of (0xFEDCBA9876543210n * -0x3n) is -0x2FC962FC962FC9630n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0x3n) is -0x2FC962FC962FC9630n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x3n) is -0x2FC962FC962FC9630n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -911,6 +971,7 @@
               "end": 2239,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -926,6 +987,7 @@
                 "end": 2250,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -942,6 +1004,7 @@
               "end": 2278,
               "value": null,
               "raw": "0x121F49F49F49F49F4B40n",
+              "regex": null,
               "bigint": "0x121F49F49F49F49F4B40"
             }
           },
@@ -950,7 +1013,9 @@
             "start": 2282,
             "end": 2358,
             "value": "The result of (0xFEDCBA9876543210n * -0x1234n) is -0x121F49F49F49F49F4B40n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0x1234n) is -0x121F49F49F49F49F4B40n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0x1234n) is -0x121F49F49F49F49F4B40n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -994,6 +1059,7 @@
               "end": 2402,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -1009,6 +1075,7 @@
                 "end": 2417,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -1025,6 +1092,7 @@
               "end": 2449,
               "value": null,
               "raw": "0xFDBAC09654320FEDDDC92770n",
+              "regex": null,
               "bigint": "0xFDBAC09654320FEDDDC92770"
             }
           },
@@ -1033,7 +1101,9 @@
             "start": 2453,
             "end": 2537,
             "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA97n) is -0xFDBAC09654320FEDDDC92770n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA97n) is -0xFDBAC09654320FEDDDC92770n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA97n) is -0xFDBAC09654320FEDDDC92770n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1077,6 +1147,7 @@
               "end": 2581,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -1092,6 +1163,7 @@
                 "end": 2596,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -1108,6 +1180,7 @@
               "end": 2628,
               "value": null,
               "raw": "0xFDBAC097530ECA86541D5980n",
+              "regex": null,
               "bigint": "0xFDBAC097530ECA86541D5980"
             }
           },
@@ -1116,7 +1189,9 @@
             "start": 2632,
             "end": 2716,
             "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA98n) is -0xFDBAC097530ECA86541D5980n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA98n) is -0xFDBAC097530ECA86541D5980n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA98n) is -0xFDBAC097530ECA86541D5980n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1160,6 +1235,7 @@
               "end": 2760,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -1175,6 +1251,7 @@
                 "end": 2783,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -1191,6 +1268,7 @@
               "end": 2823,
               "value": null,
               "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+              "regex": null,
               "bigint": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0"
             }
           },
@@ -1199,7 +1277,9 @@
             "start": 2827,
             "end": 2927,
             "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1243,6 +1323,7 @@
               "end": 2971,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             },
             "operator": "*",
@@ -1258,6 +1339,7 @@
                 "end": 2994,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -1274,6 +1356,7 @@
               "end": 3034,
               "value": null,
               "raw": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
+              "regex": null,
               "bigint": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100"
             }
           },
@@ -1282,7 +1365,9 @@
             "start": 3038,
             "end": 3138,
             "value": "The result of (0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
-            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'"
+            "raw": "'The result of (0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1326,6 +1411,7 @@
               "end": 3182,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1335,6 +1421,7 @@
               "end": 3204,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             }
           },
@@ -1344,6 +1431,7 @@
             "end": 3243,
             "value": null,
             "raw": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
+            "regex": null,
             "bigint": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1"
           },
           {
@@ -1351,7 +1439,9 @@
             "start": 3247,
             "end": 3345,
             "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1395,6 +1485,7 @@
               "end": 3389,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1404,6 +1495,7 @@
               "end": 3403,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             }
           },
@@ -1413,6 +1505,7 @@
             "end": 3434,
             "value": null,
             "raw": "0xFDBAC097530ECA8555409EE8n",
+            "regex": null,
             "bigint": "0xFDBAC097530ECA8555409EE8"
           },
           {
@@ -1420,7 +1513,9 @@
             "start": 3438,
             "end": 3520,
             "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA98n) is 0xFDBAC097530ECA8555409EE8n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA98n) is 0xFDBAC097530ECA8555409EE8n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA98n) is 0xFDBAC097530ECA8555409EE8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1464,6 +1559,7 @@
               "end": 3564,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1473,6 +1569,7 @@
               "end": 3578,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             }
           },
@@ -1482,6 +1579,7 @@
             "end": 3609,
             "value": null,
             "raw": "0xFDBAC09654320FECDEEC6CD9n",
+            "regex": null,
             "bigint": "0xFDBAC09654320FECDEEC6CD9"
           },
           {
@@ -1489,7 +1587,9 @@
             "start": 3613,
             "end": 3695,
             "value": "The result of (0xFEDCBA987654320Fn * 0xFEDCBA97n) is 0xFDBAC09654320FECDEEC6CD9n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA97n) is 0xFDBAC09654320FECDEEC6CD9n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0xFEDCBA97n) is 0xFDBAC09654320FECDEEC6CD9n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1533,6 +1633,7 @@
               "end": 3739,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1542,6 +1643,7 @@
               "end": 3749,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             }
           },
@@ -1551,6 +1653,7 @@
             "end": 3776,
             "value": null,
             "raw": "0x121F49F49F49F49F390Cn",
+            "regex": null,
             "bigint": "0x121F49F49F49F49F390C"
           },
           {
@@ -1558,7 +1661,9 @@
             "start": 3780,
             "end": 3854,
             "value": "The result of (0xFEDCBA987654320Fn * 0x1234n) is 0x121F49F49F49F49F390Cn",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0x1234n) is 0x121F49F49F49F49F390Cn'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x1234n) is 0x121F49F49F49F49F390Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1602,6 +1707,7 @@
               "end": 3898,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1611,6 +1717,7 @@
               "end": 3905,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -1620,6 +1727,7 @@
             "end": 3929,
             "value": null,
             "raw": "0x2FC962FC962FC962Dn",
+            "regex": null,
             "bigint": "0x2FC962FC962FC962D"
           },
           {
@@ -1627,7 +1735,9 @@
             "start": 3933,
             "end": 4001,
             "value": "The result of (0xFEDCBA987654320Fn * 0x3n) is 0x2FC962FC962FC962Dn",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0x3n) is 0x2FC962FC962FC962Dn'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x3n) is 0x2FC962FC962FC962Dn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1671,6 +1781,7 @@
               "end": 4045,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1680,6 +1791,7 @@
               "end": 4052,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -1689,6 +1801,7 @@
             "end": 4076,
             "value": null,
             "raw": "0x1FDB97530ECA8641En",
+            "regex": null,
             "bigint": "0x1FDB97530ECA8641E"
           },
           {
@@ -1696,7 +1809,9 @@
             "start": 4080,
             "end": 4148,
             "value": "The result of (0xFEDCBA987654320Fn * 0x2n) is 0x1FDB97530ECA8641En",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0x2n) is 0x1FDB97530ECA8641En'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x2n) is 0x1FDB97530ECA8641En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1740,6 +1855,7 @@
               "end": 4192,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1749,6 +1865,7 @@
               "end": 4199,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -1758,6 +1875,7 @@
             "end": 4222,
             "value": null,
             "raw": "0xFEDCBA987654320Fn",
+            "regex": null,
             "bigint": "0xFEDCBA987654320F"
           },
           {
@@ -1765,7 +1883,9 @@
             "start": 4226,
             "end": 4293,
             "value": "The result of (0xFEDCBA987654320Fn * 0x1n) is 0xFEDCBA987654320Fn",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0x1n) is 0xFEDCBA987654320Fn'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x1n) is 0xFEDCBA987654320Fn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1809,6 +1929,7 @@
               "end": 4337,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1818,6 +1939,7 @@
               "end": 4344,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -1827,6 +1949,7 @@
             "end": 4352,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -1834,7 +1957,9 @@
             "start": 4356,
             "end": 4408,
             "value": "The result of (0xFEDCBA987654320Fn * 0x0n) is 0x0n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * 0x0n) is 0x0n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1878,6 +2003,7 @@
               "end": 4452,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1893,6 +2019,7 @@
                 "end": 4460,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -1909,6 +2036,7 @@
               "end": 4484,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             }
           },
@@ -1917,7 +2045,9 @@
             "start": 4488,
             "end": 4557,
             "value": "The result of (0xFEDCBA987654320Fn * -0x1n) is -0xFEDCBA987654320Fn",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0x1n) is -0xFEDCBA987654320Fn'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x1n) is -0xFEDCBA987654320Fn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1961,6 +2091,7 @@
               "end": 4601,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -1976,6 +2107,7 @@
                 "end": 4609,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -1992,6 +2124,7 @@
               "end": 4634,
               "value": null,
               "raw": "0x1FDB97530ECA8641En",
+              "regex": null,
               "bigint": "0x1FDB97530ECA8641E"
             }
           },
@@ -2000,7 +2133,9 @@
             "start": 4638,
             "end": 4708,
             "value": "The result of (0xFEDCBA987654320Fn * -0x2n) is -0x1FDB97530ECA8641En",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0x2n) is -0x1FDB97530ECA8641En'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x2n) is -0x1FDB97530ECA8641En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2044,6 +2179,7 @@
               "end": 4752,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -2059,6 +2195,7 @@
                 "end": 4760,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -2075,6 +2212,7 @@
               "end": 4785,
               "value": null,
               "raw": "0x2FC962FC962FC962Dn",
+              "regex": null,
               "bigint": "0x2FC962FC962FC962D"
             }
           },
@@ -2083,7 +2221,9 @@
             "start": 4789,
             "end": 4859,
             "value": "The result of (0xFEDCBA987654320Fn * -0x3n) is -0x2FC962FC962FC962Dn",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0x3n) is -0x2FC962FC962FC962Dn'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x3n) is -0x2FC962FC962FC962Dn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2127,6 +2267,7 @@
               "end": 4903,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -2142,6 +2283,7 @@
                 "end": 4914,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -2158,6 +2300,7 @@
               "end": 4942,
               "value": null,
               "raw": "0x121F49F49F49F49F390Cn",
+              "regex": null,
               "bigint": "0x121F49F49F49F49F390C"
             }
           },
@@ -2166,7 +2309,9 @@
             "start": 4946,
             "end": 5022,
             "value": "The result of (0xFEDCBA987654320Fn * -0x1234n) is -0x121F49F49F49F49F390Cn",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0x1234n) is -0x121F49F49F49F49F390Cn'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0x1234n) is -0x121F49F49F49F49F390Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2210,6 +2355,7 @@
               "end": 5066,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -2225,6 +2371,7 @@
                 "end": 5081,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -2241,6 +2388,7 @@
               "end": 5113,
               "value": null,
               "raw": "0xFDBAC09654320FECDEEC6CD9n",
+              "regex": null,
               "bigint": "0xFDBAC09654320FECDEEC6CD9"
             }
           },
@@ -2249,7 +2397,9 @@
             "start": 5117,
             "end": 5201,
             "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA97n) is -0xFDBAC09654320FECDEEC6CD9n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA97n) is -0xFDBAC09654320FECDEEC6CD9n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA97n) is -0xFDBAC09654320FECDEEC6CD9n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2293,6 +2443,7 @@
               "end": 5245,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -2308,6 +2459,7 @@
                 "end": 5260,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -2324,6 +2476,7 @@
               "end": 5292,
               "value": null,
               "raw": "0xFDBAC097530ECA8555409EE8n",
+              "regex": null,
               "bigint": "0xFDBAC097530ECA8555409EE8"
             }
           },
@@ -2332,7 +2485,9 @@
             "start": 5296,
             "end": 5380,
             "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA98n) is -0xFDBAC097530ECA8555409EE8n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA98n) is -0xFDBAC097530ECA8555409EE8n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA98n) is -0xFDBAC097530ECA8555409EE8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2376,6 +2531,7 @@
               "end": 5424,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -2391,6 +2547,7 @@
                 "end": 5447,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -2407,6 +2564,7 @@
               "end": 5487,
               "value": null,
               "raw": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
+              "regex": null,
               "bigint": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1"
             }
           },
@@ -2415,7 +2573,9 @@
             "start": 5491,
             "end": 5591,
             "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is -0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2459,6 +2619,7 @@
               "end": 5635,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             },
             "operator": "*",
@@ -2474,6 +2635,7 @@
                 "end": 5658,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -2490,6 +2652,7 @@
               "end": 5698,
               "value": null,
               "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+              "regex": null,
               "bigint": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0"
             }
           },
@@ -2498,7 +2661,9 @@
             "start": 5702,
             "end": 5802,
             "value": "The result of (0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
-            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
+            "raw": "'The result of (0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is -0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2542,6 +2707,7 @@
               "end": 5838,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -2551,6 +2717,7 @@
               "end": 5852,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             }
           },
@@ -2560,6 +2727,7 @@
             "end": 5875,
             "value": null,
             "raw": "0xFDBAC096DD413A40n",
+            "regex": null,
             "bigint": "0xFDBAC096DD413A40"
           },
           {
@@ -2567,7 +2735,9 @@
             "start": 5879,
             "end": 5945,
             "value": "The result of (0xFEDCBA98n * 0xFEDCBA98n) is 0xFDBAC096DD413A40n",
-            "raw": "'The result of (0xFEDCBA98n * 0xFEDCBA98n) is 0xFDBAC096DD413A40n'"
+            "raw": "'The result of (0xFEDCBA98n * 0xFEDCBA98n) is 0xFDBAC096DD413A40n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2611,6 +2781,7 @@
               "end": 5981,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -2620,6 +2791,7 @@
               "end": 5995,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             }
           },
@@ -2629,6 +2801,7 @@
             "end": 6018,
             "value": null,
             "raw": "0xFDBAC095DE647FA8n",
+            "regex": null,
             "bigint": "0xFDBAC095DE647FA8"
           },
           {
@@ -2636,7 +2809,9 @@
             "start": 6022,
             "end": 6088,
             "value": "The result of (0xFEDCBA98n * 0xFEDCBA97n) is 0xFDBAC095DE647FA8n",
-            "raw": "'The result of (0xFEDCBA98n * 0xFEDCBA97n) is 0xFDBAC095DE647FA8n'"
+            "raw": "'The result of (0xFEDCBA98n * 0xFEDCBA97n) is 0xFDBAC095DE647FA8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2680,6 +2855,7 @@
               "end": 6124,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -2689,6 +2865,7 @@
               "end": 6134,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             }
           },
@@ -2698,6 +2875,7 @@
             "end": 6153,
             "value": null,
             "raw": "0x121F49F496E0n",
+            "regex": null,
             "bigint": "0x121F49F496E0"
           },
           {
@@ -2705,7 +2883,9 @@
             "start": 6157,
             "end": 6215,
             "value": "The result of (0xFEDCBA98n * 0x1234n) is 0x121F49F496E0n",
-            "raw": "'The result of (0xFEDCBA98n * 0x1234n) is 0x121F49F496E0n'"
+            "raw": "'The result of (0xFEDCBA98n * 0x1234n) is 0x121F49F496E0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2749,6 +2929,7 @@
               "end": 6251,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -2758,6 +2939,7 @@
               "end": 6258,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -2767,6 +2949,7 @@
             "end": 6274,
             "value": null,
             "raw": "0x2FC962FC8n",
+            "regex": null,
             "bigint": "0x2FC962FC8"
           },
           {
@@ -2774,7 +2957,9 @@
             "start": 6278,
             "end": 6330,
             "value": "The result of (0xFEDCBA98n * 0x3n) is 0x2FC962FC8n",
-            "raw": "'The result of (0xFEDCBA98n * 0x3n) is 0x2FC962FC8n'"
+            "raw": "'The result of (0xFEDCBA98n * 0x3n) is 0x2FC962FC8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2818,6 +3003,7 @@
               "end": 6366,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -2827,6 +3013,7 @@
               "end": 6373,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -2836,6 +3023,7 @@
             "end": 6389,
             "value": null,
             "raw": "0x1FDB97530n",
+            "regex": null,
             "bigint": "0x1FDB97530"
           },
           {
@@ -2843,7 +3031,9 @@
             "start": 6393,
             "end": 6445,
             "value": "The result of (0xFEDCBA98n * 0x2n) is 0x1FDB97530n",
-            "raw": "'The result of (0xFEDCBA98n * 0x2n) is 0x1FDB97530n'"
+            "raw": "'The result of (0xFEDCBA98n * 0x2n) is 0x1FDB97530n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2887,6 +3077,7 @@
               "end": 6481,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -2896,6 +3087,7 @@
               "end": 6488,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -2905,6 +3097,7 @@
             "end": 6503,
             "value": null,
             "raw": "0xFEDCBA98n",
+            "regex": null,
             "bigint": "0xFEDCBA98"
           },
           {
@@ -2912,7 +3105,9 @@
             "start": 6507,
             "end": 6558,
             "value": "The result of (0xFEDCBA98n * 0x1n) is 0xFEDCBA98n",
-            "raw": "'The result of (0xFEDCBA98n * 0x1n) is 0xFEDCBA98n'"
+            "raw": "'The result of (0xFEDCBA98n * 0x1n) is 0xFEDCBA98n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2956,6 +3151,7 @@
               "end": 6591,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -2965,6 +3161,7 @@
               "end": 6598,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -2974,6 +3171,7 @@
             "end": 6604,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -2981,7 +3179,9 @@
             "start": 6606,
             "end": 6650,
             "value": "The result of (0xFEDCBA98n * 0x0n) is 0x0n",
-            "raw": "'The result of (0xFEDCBA98n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0xFEDCBA98n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3025,6 +3225,7 @@
               "end": 6685,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3040,6 +3241,7 @@
                 "end": 6693,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -3056,6 +3258,7 @@
               "end": 6709,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             }
           },
@@ -3064,7 +3267,9 @@
             "start": 6713,
             "end": 6766,
             "value": "The result of (0xFEDCBA98n * -0x1n) is -0xFEDCBA98n",
-            "raw": "'The result of (0xFEDCBA98n * -0x1n) is -0xFEDCBA98n'"
+            "raw": "'The result of (0xFEDCBA98n * -0x1n) is -0xFEDCBA98n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3108,6 +3313,7 @@
               "end": 6802,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3123,6 +3329,7 @@
                 "end": 6810,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -3139,6 +3346,7 @@
               "end": 6827,
               "value": null,
               "raw": "0x1FDB97530n",
+              "regex": null,
               "bigint": "0x1FDB97530"
             }
           },
@@ -3147,7 +3355,9 @@
             "start": 6831,
             "end": 6885,
             "value": "The result of (0xFEDCBA98n * -0x2n) is -0x1FDB97530n",
-            "raw": "'The result of (0xFEDCBA98n * -0x2n) is -0x1FDB97530n'"
+            "raw": "'The result of (0xFEDCBA98n * -0x2n) is -0x1FDB97530n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3191,6 +3401,7 @@
               "end": 6921,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3206,6 +3417,7 @@
                 "end": 6929,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -3222,6 +3434,7 @@
               "end": 6946,
               "value": null,
               "raw": "0x2FC962FC8n",
+              "regex": null,
               "bigint": "0x2FC962FC8"
             }
           },
@@ -3230,7 +3443,9 @@
             "start": 6950,
             "end": 7004,
             "value": "The result of (0xFEDCBA98n * -0x3n) is -0x2FC962FC8n",
-            "raw": "'The result of (0xFEDCBA98n * -0x3n) is -0x2FC962FC8n'"
+            "raw": "'The result of (0xFEDCBA98n * -0x3n) is -0x2FC962FC8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3274,6 +3489,7 @@
               "end": 7040,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3289,6 +3505,7 @@
                 "end": 7051,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -3305,6 +3522,7 @@
               "end": 7071,
               "value": null,
               "raw": "0x121F49F496E0n",
+              "regex": null,
               "bigint": "0x121F49F496E0"
             }
           },
@@ -3313,7 +3531,9 @@
             "start": 7075,
             "end": 7135,
             "value": "The result of (0xFEDCBA98n * -0x1234n) is -0x121F49F496E0n",
-            "raw": "'The result of (0xFEDCBA98n * -0x1234n) is -0x121F49F496E0n'"
+            "raw": "'The result of (0xFEDCBA98n * -0x1234n) is -0x121F49F496E0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3357,6 +3577,7 @@
               "end": 7171,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3372,6 +3593,7 @@
                 "end": 7186,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -3388,6 +3610,7 @@
               "end": 7210,
               "value": null,
               "raw": "0xFDBAC095DE647FA8n",
+              "regex": null,
               "bigint": "0xFDBAC095DE647FA8"
             }
           },
@@ -3396,7 +3619,9 @@
             "start": 7214,
             "end": 7282,
             "value": "The result of (0xFEDCBA98n * -0xFEDCBA97n) is -0xFDBAC095DE647FA8n",
-            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA97n) is -0xFDBAC095DE647FA8n'"
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA97n) is -0xFDBAC095DE647FA8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3440,6 +3665,7 @@
               "end": 7318,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3455,6 +3681,7 @@
                 "end": 7333,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -3471,6 +3698,7 @@
               "end": 7357,
               "value": null,
               "raw": "0xFDBAC096DD413A40n",
+              "regex": null,
               "bigint": "0xFDBAC096DD413A40"
             }
           },
@@ -3479,7 +3707,9 @@
             "start": 7361,
             "end": 7429,
             "value": "The result of (0xFEDCBA98n * -0xFEDCBA98n) is -0xFDBAC096DD413A40n",
-            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA98n) is -0xFDBAC096DD413A40n'"
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA98n) is -0xFDBAC096DD413A40n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3523,6 +3753,7 @@
               "end": 7465,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3538,6 +3769,7 @@
                 "end": 7488,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -3554,6 +3786,7 @@
               "end": 7520,
               "value": null,
               "raw": "0xFDBAC097530ECA8555409EE8n",
+              "regex": null,
               "bigint": "0xFDBAC097530ECA8555409EE8"
             }
           },
@@ -3562,7 +3795,9 @@
             "start": 7524,
             "end": 7608,
             "value": "The result of (0xFEDCBA98n * -0xFEDCBA987654320Fn) is -0xFDBAC097530ECA8555409EE8n",
-            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA987654320Fn) is -0xFDBAC097530ECA8555409EE8n'"
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA987654320Fn) is -0xFDBAC097530ECA8555409EE8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3606,6 +3841,7 @@
               "end": 7644,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             },
             "operator": "*",
@@ -3621,6 +3857,7 @@
                 "end": 7667,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -3637,6 +3874,7 @@
               "end": 7699,
               "value": null,
               "raw": "0xFDBAC097530ECA86541D5980n",
+              "regex": null,
               "bigint": "0xFDBAC097530ECA86541D5980"
             }
           },
@@ -3645,7 +3883,9 @@
             "start": 7703,
             "end": 7787,
             "value": "The result of (0xFEDCBA98n * -0xFEDCBA9876543210n) is -0xFDBAC097530ECA86541D5980n",
-            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA9876543210n) is -0xFDBAC097530ECA86541D5980n'"
+            "raw": "'The result of (0xFEDCBA98n * -0xFEDCBA9876543210n) is -0xFDBAC097530ECA86541D5980n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3689,6 +3929,7 @@
               "end": 7823,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -3698,6 +3939,7 @@
               "end": 7837,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             }
           },
@@ -3707,6 +3949,7 @@
             "end": 7860,
             "value": null,
             "raw": "0xFDBAC094DF87C511n",
+            "regex": null,
             "bigint": "0xFDBAC094DF87C511"
           },
           {
@@ -3714,7 +3957,9 @@
             "start": 7864,
             "end": 7930,
             "value": "The result of (0xFEDCBA97n * 0xFEDCBA97n) is 0xFDBAC094DF87C511n",
-            "raw": "'The result of (0xFEDCBA97n * 0xFEDCBA97n) is 0xFDBAC094DF87C511n'"
+            "raw": "'The result of (0xFEDCBA97n * 0xFEDCBA97n) is 0xFDBAC094DF87C511n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3758,6 +4003,7 @@
               "end": 7966,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -3767,6 +4013,7 @@
               "end": 7976,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             }
           },
@@ -3776,6 +4023,7 @@
             "end": 7995,
             "value": null,
             "raw": "0x121F49F484ACn",
+            "regex": null,
             "bigint": "0x121F49F484AC"
           },
           {
@@ -3783,7 +4031,9 @@
             "start": 7999,
             "end": 8057,
             "value": "The result of (0xFEDCBA97n * 0x1234n) is 0x121F49F484ACn",
-            "raw": "'The result of (0xFEDCBA97n * 0x1234n) is 0x121F49F484ACn'"
+            "raw": "'The result of (0xFEDCBA97n * 0x1234n) is 0x121F49F484ACn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3827,6 +4077,7 @@
               "end": 8093,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -3836,6 +4087,7 @@
               "end": 8100,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -3845,6 +4097,7 @@
             "end": 8116,
             "value": null,
             "raw": "0x2FC962FC5n",
+            "regex": null,
             "bigint": "0x2FC962FC5"
           },
           {
@@ -3852,7 +4105,9 @@
             "start": 8120,
             "end": 8172,
             "value": "The result of (0xFEDCBA97n * 0x3n) is 0x2FC962FC5n",
-            "raw": "'The result of (0xFEDCBA97n * 0x3n) is 0x2FC962FC5n'"
+            "raw": "'The result of (0xFEDCBA97n * 0x3n) is 0x2FC962FC5n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3896,6 +4151,7 @@
               "end": 8208,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -3905,6 +4161,7 @@
               "end": 8215,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -3914,6 +4171,7 @@
             "end": 8231,
             "value": null,
             "raw": "0x1FDB9752En",
+            "regex": null,
             "bigint": "0x1FDB9752E"
           },
           {
@@ -3921,7 +4179,9 @@
             "start": 8235,
             "end": 8287,
             "value": "The result of (0xFEDCBA97n * 0x2n) is 0x1FDB9752En",
-            "raw": "'The result of (0xFEDCBA97n * 0x2n) is 0x1FDB9752En'"
+            "raw": "'The result of (0xFEDCBA97n * 0x2n) is 0x1FDB9752En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3965,6 +4225,7 @@
               "end": 8323,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -3974,6 +4235,7 @@
               "end": 8330,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -3983,6 +4245,7 @@
             "end": 8345,
             "value": null,
             "raw": "0xFEDCBA97n",
+            "regex": null,
             "bigint": "0xFEDCBA97"
           },
           {
@@ -3990,7 +4253,9 @@
             "start": 8349,
             "end": 8400,
             "value": "The result of (0xFEDCBA97n * 0x1n) is 0xFEDCBA97n",
-            "raw": "'The result of (0xFEDCBA97n * 0x1n) is 0xFEDCBA97n'"
+            "raw": "'The result of (0xFEDCBA97n * 0x1n) is 0xFEDCBA97n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4034,6 +4299,7 @@
               "end": 8433,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4043,6 +4309,7 @@
               "end": 8440,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -4052,6 +4319,7 @@
             "end": 8446,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -4059,7 +4327,9 @@
             "start": 8448,
             "end": 8492,
             "value": "The result of (0xFEDCBA97n * 0x0n) is 0x0n",
-            "raw": "'The result of (0xFEDCBA97n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0xFEDCBA97n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4103,6 +4373,7 @@
               "end": 8527,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4118,6 +4389,7 @@
                 "end": 8535,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -4134,6 +4406,7 @@
               "end": 8551,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             }
           },
@@ -4142,7 +4415,9 @@
             "start": 8555,
             "end": 8608,
             "value": "The result of (0xFEDCBA97n * -0x1n) is -0xFEDCBA97n",
-            "raw": "'The result of (0xFEDCBA97n * -0x1n) is -0xFEDCBA97n'"
+            "raw": "'The result of (0xFEDCBA97n * -0x1n) is -0xFEDCBA97n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4186,6 +4461,7 @@
               "end": 8644,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4201,6 +4477,7 @@
                 "end": 8652,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -4217,6 +4494,7 @@
               "end": 8669,
               "value": null,
               "raw": "0x1FDB9752En",
+              "regex": null,
               "bigint": "0x1FDB9752E"
             }
           },
@@ -4225,7 +4503,9 @@
             "start": 8673,
             "end": 8727,
             "value": "The result of (0xFEDCBA97n * -0x2n) is -0x1FDB9752En",
-            "raw": "'The result of (0xFEDCBA97n * -0x2n) is -0x1FDB9752En'"
+            "raw": "'The result of (0xFEDCBA97n * -0x2n) is -0x1FDB9752En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4269,6 +4549,7 @@
               "end": 8763,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4284,6 +4565,7 @@
                 "end": 8771,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -4300,6 +4582,7 @@
               "end": 8788,
               "value": null,
               "raw": "0x2FC962FC5n",
+              "regex": null,
               "bigint": "0x2FC962FC5"
             }
           },
@@ -4308,7 +4591,9 @@
             "start": 8792,
             "end": 8846,
             "value": "The result of (0xFEDCBA97n * -0x3n) is -0x2FC962FC5n",
-            "raw": "'The result of (0xFEDCBA97n * -0x3n) is -0x2FC962FC5n'"
+            "raw": "'The result of (0xFEDCBA97n * -0x3n) is -0x2FC962FC5n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4352,6 +4637,7 @@
               "end": 8882,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4367,6 +4653,7 @@
                 "end": 8893,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -4383,6 +4670,7 @@
               "end": 8913,
               "value": null,
               "raw": "0x121F49F484ACn",
+              "regex": null,
               "bigint": "0x121F49F484AC"
             }
           },
@@ -4391,7 +4679,9 @@
             "start": 8917,
             "end": 8977,
             "value": "The result of (0xFEDCBA97n * -0x1234n) is -0x121F49F484ACn",
-            "raw": "'The result of (0xFEDCBA97n * -0x1234n) is -0x121F49F484ACn'"
+            "raw": "'The result of (0xFEDCBA97n * -0x1234n) is -0x121F49F484ACn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4435,6 +4725,7 @@
               "end": 9013,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4450,6 +4741,7 @@
                 "end": 9028,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -4466,6 +4758,7 @@
               "end": 9052,
               "value": null,
               "raw": "0xFDBAC094DF87C511n",
+              "regex": null,
               "bigint": "0xFDBAC094DF87C511"
             }
           },
@@ -4474,7 +4767,9 @@
             "start": 9056,
             "end": 9124,
             "value": "The result of (0xFEDCBA97n * -0xFEDCBA97n) is -0xFDBAC094DF87C511n",
-            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA97n) is -0xFDBAC094DF87C511n'"
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA97n) is -0xFDBAC094DF87C511n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4518,6 +4813,7 @@
               "end": 9160,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4533,6 +4829,7 @@
                 "end": 9175,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -4549,6 +4846,7 @@
               "end": 9199,
               "value": null,
               "raw": "0xFDBAC095DE647FA8n",
+              "regex": null,
               "bigint": "0xFDBAC095DE647FA8"
             }
           },
@@ -4557,7 +4855,9 @@
             "start": 9203,
             "end": 9271,
             "value": "The result of (0xFEDCBA97n * -0xFEDCBA98n) is -0xFDBAC095DE647FA8n",
-            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA98n) is -0xFDBAC095DE647FA8n'"
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA98n) is -0xFDBAC095DE647FA8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4601,6 +4901,7 @@
               "end": 9307,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4616,6 +4917,7 @@
                 "end": 9330,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -4632,6 +4934,7 @@
               "end": 9362,
               "value": null,
               "raw": "0xFDBAC09654320FECDEEC6CD9n",
+              "regex": null,
               "bigint": "0xFDBAC09654320FECDEEC6CD9"
             }
           },
@@ -4640,7 +4943,9 @@
             "start": 9366,
             "end": 9450,
             "value": "The result of (0xFEDCBA97n * -0xFEDCBA987654320Fn) is -0xFDBAC09654320FECDEEC6CD9n",
-            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA987654320Fn) is -0xFDBAC09654320FECDEEC6CD9n'"
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA987654320Fn) is -0xFDBAC09654320FECDEEC6CD9n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4684,6 +4989,7 @@
               "end": 9486,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             },
             "operator": "*",
@@ -4699,6 +5005,7 @@
                 "end": 9509,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -4715,6 +5022,7 @@
               "end": 9541,
               "value": null,
               "raw": "0xFDBAC09654320FEDDDC92770n",
+              "regex": null,
               "bigint": "0xFDBAC09654320FEDDDC92770"
             }
           },
@@ -4723,7 +5031,9 @@
             "start": 9545,
             "end": 9629,
             "value": "The result of (0xFEDCBA97n * -0xFEDCBA9876543210n) is -0xFDBAC09654320FEDDDC92770n",
-            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA9876543210n) is -0xFDBAC09654320FEDDDC92770n'"
+            "raw": "'The result of (0xFEDCBA97n * -0xFEDCBA9876543210n) is -0xFDBAC09654320FEDDDC92770n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4767,6 +5077,7 @@
               "end": 9658,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -4776,6 +5087,7 @@
               "end": 9668,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             }
           },
@@ -4785,6 +5097,7 @@
             "end": 9680,
             "value": null,
             "raw": "0x14B5A90n",
+            "regex": null,
             "bigint": "0x14B5A90"
           },
           {
@@ -4792,7 +5105,9 @@
             "start": 9682,
             "end": 9731,
             "value": "The result of (0x1234n * 0x1234n) is 0x14B5A90n",
-            "raw": "'The result of (0x1234n * 0x1234n) is 0x14B5A90n'"
+            "raw": "'The result of (0x1234n * 0x1234n) is 0x14B5A90n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4836,6 +5151,7 @@
               "end": 9758,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -4845,6 +5161,7 @@
               "end": 9765,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -4854,6 +5171,7 @@
             "end": 9774,
             "value": null,
             "raw": "0x369Cn",
+            "regex": null,
             "bigint": "0x369C"
           },
           {
@@ -4861,7 +5179,9 @@
             "start": 9776,
             "end": 9819,
             "value": "The result of (0x1234n * 0x3n) is 0x369Cn",
-            "raw": "'The result of (0x1234n * 0x3n) is 0x369Cn'"
+            "raw": "'The result of (0x1234n * 0x3n) is 0x369Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4905,6 +5225,7 @@
               "end": 9846,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -4914,6 +5235,7 @@
               "end": 9853,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -4923,6 +5245,7 @@
             "end": 9862,
             "value": null,
             "raw": "0x2468n",
+            "regex": null,
             "bigint": "0x2468"
           },
           {
@@ -4930,7 +5253,9 @@
             "start": 9864,
             "end": 9907,
             "value": "The result of (0x1234n * 0x2n) is 0x2468n",
-            "raw": "'The result of (0x1234n * 0x2n) is 0x2468n'"
+            "raw": "'The result of (0x1234n * 0x2n) is 0x2468n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4974,6 +5299,7 @@
               "end": 9934,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -4983,6 +5309,7 @@
               "end": 9941,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -4992,6 +5319,7 @@
             "end": 9950,
             "value": null,
             "raw": "0x1234n",
+            "regex": null,
             "bigint": "0x1234"
           },
           {
@@ -4999,7 +5327,9 @@
             "start": 9952,
             "end": 9995,
             "value": "The result of (0x1234n * 0x1n) is 0x1234n",
-            "raw": "'The result of (0x1234n * 0x1n) is 0x1234n'"
+            "raw": "'The result of (0x1234n * 0x1n) is 0x1234n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5043,6 +5373,7 @@
               "end": 10022,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5052,6 +5383,7 @@
               "end": 10029,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -5061,6 +5393,7 @@
             "end": 10035,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -5068,7 +5401,9 @@
             "start": 10037,
             "end": 10077,
             "value": "The result of (0x1234n * 0x0n) is 0x0n",
-            "raw": "'The result of (0x1234n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0x1234n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5112,6 +5447,7 @@
               "end": 10104,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5127,6 +5463,7 @@
                 "end": 10112,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -5143,6 +5480,7 @@
               "end": 10122,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             }
           },
@@ -5151,7 +5489,9 @@
             "start": 10124,
             "end": 10169,
             "value": "The result of (0x1234n * -0x1n) is -0x1234n",
-            "raw": "'The result of (0x1234n * -0x1n) is -0x1234n'"
+            "raw": "'The result of (0x1234n * -0x1n) is -0x1234n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5195,6 +5535,7 @@
               "end": 10196,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5210,6 +5551,7 @@
                 "end": 10204,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -5226,6 +5568,7 @@
               "end": 10214,
               "value": null,
               "raw": "0x2468n",
+              "regex": null,
               "bigint": "0x2468"
             }
           },
@@ -5234,7 +5577,9 @@
             "start": 10216,
             "end": 10261,
             "value": "The result of (0x1234n * -0x2n) is -0x2468n",
-            "raw": "'The result of (0x1234n * -0x2n) is -0x2468n'"
+            "raw": "'The result of (0x1234n * -0x2n) is -0x2468n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5278,6 +5623,7 @@
               "end": 10288,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5293,6 +5639,7 @@
                 "end": 10296,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -5309,6 +5656,7 @@
               "end": 10306,
               "value": null,
               "raw": "0x369Cn",
+              "regex": null,
               "bigint": "0x369C"
             }
           },
@@ -5317,7 +5665,9 @@
             "start": 10308,
             "end": 10353,
             "value": "The result of (0x1234n * -0x3n) is -0x369Cn",
-            "raw": "'The result of (0x1234n * -0x3n) is -0x369Cn'"
+            "raw": "'The result of (0x1234n * -0x3n) is -0x369Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5361,6 +5711,7 @@
               "end": 10384,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5376,6 +5727,7 @@
                 "end": 10395,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -5392,6 +5744,7 @@
               "end": 10410,
               "value": null,
               "raw": "0x14B5A90n",
+              "regex": null,
               "bigint": "0x14B5A90"
             }
           },
@@ -5400,7 +5753,9 @@
             "start": 10414,
             "end": 10465,
             "value": "The result of (0x1234n * -0x1234n) is -0x14B5A90n",
-            "raw": "'The result of (0x1234n * -0x1234n) is -0x14B5A90n'"
+            "raw": "'The result of (0x1234n * -0x1234n) is -0x14B5A90n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5444,6 +5799,7 @@
               "end": 10497,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5459,6 +5815,7 @@
                 "end": 10512,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -5475,6 +5832,7 @@
               "end": 10532,
               "value": null,
               "raw": "0x121F49F484ACn",
+              "regex": null,
               "bigint": "0x121F49F484AC"
             }
           },
@@ -5483,7 +5841,9 @@
             "start": 10536,
             "end": 10596,
             "value": "The result of (0x1234n * -0xFEDCBA97n) is -0x121F49F484ACn",
-            "raw": "'The result of (0x1234n * -0xFEDCBA97n) is -0x121F49F484ACn'"
+            "raw": "'The result of (0x1234n * -0xFEDCBA97n) is -0x121F49F484ACn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5527,6 +5887,7 @@
               "end": 10628,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5542,6 +5903,7 @@
                 "end": 10643,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -5558,6 +5920,7 @@
               "end": 10663,
               "value": null,
               "raw": "0x121F49F496E0n",
+              "regex": null,
               "bigint": "0x121F49F496E0"
             }
           },
@@ -5566,7 +5929,9 @@
             "start": 10667,
             "end": 10727,
             "value": "The result of (0x1234n * -0xFEDCBA98n) is -0x121F49F496E0n",
-            "raw": "'The result of (0x1234n * -0xFEDCBA98n) is -0x121F49F496E0n'"
+            "raw": "'The result of (0x1234n * -0xFEDCBA98n) is -0x121F49F496E0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5610,6 +5975,7 @@
               "end": 10759,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5625,6 +5991,7 @@
                 "end": 10782,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -5641,6 +6008,7 @@
               "end": 10810,
               "value": null,
               "raw": "0x121F49F49F49F49F390Cn",
+              "regex": null,
               "bigint": "0x121F49F49F49F49F390C"
             }
           },
@@ -5649,7 +6017,9 @@
             "start": 10814,
             "end": 10890,
             "value": "The result of (0x1234n * -0xFEDCBA987654320Fn) is -0x121F49F49F49F49F390Cn",
-            "raw": "'The result of (0x1234n * -0xFEDCBA987654320Fn) is -0x121F49F49F49F49F390Cn'"
+            "raw": "'The result of (0x1234n * -0xFEDCBA987654320Fn) is -0x121F49F49F49F49F390Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5693,6 +6063,7 @@
               "end": 10922,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             },
             "operator": "*",
@@ -5708,6 +6079,7 @@
                 "end": 10945,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -5724,6 +6096,7 @@
               "end": 10973,
               "value": null,
               "raw": "0x121F49F49F49F49F4B40n",
+              "regex": null,
               "bigint": "0x121F49F49F49F49F4B40"
             }
           },
@@ -5732,7 +6105,9 @@
             "start": 10977,
             "end": 11053,
             "value": "The result of (0x1234n * -0xFEDCBA9876543210n) is -0x121F49F49F49F49F4B40n",
-            "raw": "'The result of (0x1234n * -0xFEDCBA9876543210n) is -0x121F49F49F49F49F4B40n'"
+            "raw": "'The result of (0x1234n * -0xFEDCBA9876543210n) is -0x121F49F49F49F49F4B40n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5776,6 +6151,7 @@
               "end": 11079,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -5785,6 +6161,7 @@
               "end": 11086,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -5794,6 +6171,7 @@
             "end": 11092,
             "value": null,
             "raw": "0x9n",
+            "regex": null,
             "bigint": "0x9"
           },
           {
@@ -5801,7 +6179,9 @@
             "start": 11094,
             "end": 11131,
             "value": "The result of (0x3n * 0x3n) is 0x9n",
-            "raw": "'The result of (0x3n * 0x3n) is 0x9n'"
+            "raw": "'The result of (0x3n * 0x3n) is 0x9n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5845,6 +6225,7 @@
               "end": 11155,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -5854,6 +6235,7 @@
               "end": 11162,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -5863,6 +6245,7 @@
             "end": 11168,
             "value": null,
             "raw": "0x6n",
+            "regex": null,
             "bigint": "0x6"
           },
           {
@@ -5870,7 +6253,9 @@
             "start": 11170,
             "end": 11207,
             "value": "The result of (0x3n * 0x2n) is 0x6n",
-            "raw": "'The result of (0x3n * 0x2n) is 0x6n'"
+            "raw": "'The result of (0x3n * 0x2n) is 0x6n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5914,6 +6299,7 @@
               "end": 11231,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -5923,6 +6309,7 @@
               "end": 11238,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -5932,6 +6319,7 @@
             "end": 11244,
             "value": null,
             "raw": "0x3n",
+            "regex": null,
             "bigint": "0x3"
           },
           {
@@ -5939,7 +6327,9 @@
             "start": 11246,
             "end": 11283,
             "value": "The result of (0x3n * 0x1n) is 0x3n",
-            "raw": "'The result of (0x3n * 0x1n) is 0x3n'"
+            "raw": "'The result of (0x3n * 0x1n) is 0x3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5983,6 +6373,7 @@
               "end": 11307,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -5992,6 +6383,7 @@
               "end": 11314,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -6001,6 +6393,7 @@
             "end": 11320,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -6008,7 +6401,9 @@
             "start": 11322,
             "end": 11359,
             "value": "The result of (0x3n * 0x0n) is 0x0n",
-            "raw": "'The result of (0x3n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0x3n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6052,6 +6447,7 @@
               "end": 11383,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6067,6 +6463,7 @@
                 "end": 11391,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -6083,6 +6480,7 @@
               "end": 11398,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -6091,7 +6489,9 @@
             "start": 11400,
             "end": 11439,
             "value": "The result of (0x3n * -0x1n) is -0x3n",
-            "raw": "'The result of (0x3n * -0x1n) is -0x3n'"
+            "raw": "'The result of (0x3n * -0x1n) is -0x3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6135,6 +6535,7 @@
               "end": 11463,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6150,6 +6551,7 @@
                 "end": 11471,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -6166,6 +6568,7 @@
               "end": 11478,
               "value": null,
               "raw": "0x6n",
+              "regex": null,
               "bigint": "0x6"
             }
           },
@@ -6174,7 +6577,9 @@
             "start": 11480,
             "end": 11519,
             "value": "The result of (0x3n * -0x2n) is -0x6n",
-            "raw": "'The result of (0x3n * -0x2n) is -0x6n'"
+            "raw": "'The result of (0x3n * -0x2n) is -0x6n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6218,6 +6623,7 @@
               "end": 11543,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6233,6 +6639,7 @@
                 "end": 11551,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -6249,6 +6656,7 @@
               "end": 11558,
               "value": null,
               "raw": "0x9n",
+              "regex": null,
               "bigint": "0x9"
             }
           },
@@ -6257,7 +6665,9 @@
             "start": 11560,
             "end": 11599,
             "value": "The result of (0x3n * -0x3n) is -0x9n",
-            "raw": "'The result of (0x3n * -0x3n) is -0x9n'"
+            "raw": "'The result of (0x3n * -0x3n) is -0x9n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6301,6 +6711,7 @@
               "end": 11623,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6316,6 +6727,7 @@
                 "end": 11634,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -6332,6 +6744,7 @@
               "end": 11644,
               "value": null,
               "raw": "0x369Cn",
+              "regex": null,
               "bigint": "0x369C"
             }
           },
@@ -6340,7 +6753,9 @@
             "start": 11646,
             "end": 11691,
             "value": "The result of (0x3n * -0x1234n) is -0x369Cn",
-            "raw": "'The result of (0x3n * -0x1234n) is -0x369Cn'"
+            "raw": "'The result of (0x3n * -0x1234n) is -0x369Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6384,6 +6799,7 @@
               "end": 11719,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6399,6 +6815,7 @@
                 "end": 11734,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -6415,6 +6832,7 @@
               "end": 11751,
               "value": null,
               "raw": "0x2FC962FC5n",
+              "regex": null,
               "bigint": "0x2FC962FC5"
             }
           },
@@ -6423,7 +6841,9 @@
             "start": 11755,
             "end": 11809,
             "value": "The result of (0x3n * -0xFEDCBA97n) is -0x2FC962FC5n",
-            "raw": "'The result of (0x3n * -0xFEDCBA97n) is -0x2FC962FC5n'"
+            "raw": "'The result of (0x3n * -0xFEDCBA97n) is -0x2FC962FC5n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6467,6 +6887,7 @@
               "end": 11838,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6482,6 +6903,7 @@
                 "end": 11853,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -6498,6 +6920,7 @@
               "end": 11870,
               "value": null,
               "raw": "0x2FC962FC8n",
+              "regex": null,
               "bigint": "0x2FC962FC8"
             }
           },
@@ -6506,7 +6929,9 @@
             "start": 11874,
             "end": 11928,
             "value": "The result of (0x3n * -0xFEDCBA98n) is -0x2FC962FC8n",
-            "raw": "'The result of (0x3n * -0xFEDCBA98n) is -0x2FC962FC8n'"
+            "raw": "'The result of (0x3n * -0xFEDCBA98n) is -0x2FC962FC8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6550,6 +6975,7 @@
               "end": 11957,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6565,6 +6991,7 @@
                 "end": 11980,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -6581,6 +7008,7 @@
               "end": 12005,
               "value": null,
               "raw": "0x2FC962FC962FC962Dn",
+              "regex": null,
               "bigint": "0x2FC962FC962FC962D"
             }
           },
@@ -6589,7 +7017,9 @@
             "start": 12009,
             "end": 12079,
             "value": "The result of (0x3n * -0xFEDCBA987654320Fn) is -0x2FC962FC962FC962Dn",
-            "raw": "'The result of (0x3n * -0xFEDCBA987654320Fn) is -0x2FC962FC962FC962Dn'"
+            "raw": "'The result of (0x3n * -0xFEDCBA987654320Fn) is -0x2FC962FC962FC962Dn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6633,6 +7063,7 @@
               "end": 12108,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             },
             "operator": "*",
@@ -6648,6 +7079,7 @@
                 "end": 12131,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -6664,6 +7096,7 @@
               "end": 12156,
               "value": null,
               "raw": "0x2FC962FC962FC9630n",
+              "regex": null,
               "bigint": "0x2FC962FC962FC9630"
             }
           },
@@ -6672,7 +7105,9 @@
             "start": 12160,
             "end": 12230,
             "value": "The result of (0x3n * -0xFEDCBA9876543210n) is -0x2FC962FC962FC9630n",
-            "raw": "'The result of (0x3n * -0xFEDCBA9876543210n) is -0x2FC962FC962FC9630n'"
+            "raw": "'The result of (0x3n * -0xFEDCBA9876543210n) is -0x2FC962FC962FC9630n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6716,6 +7151,7 @@
               "end": 12256,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -6725,6 +7161,7 @@
               "end": 12263,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -6734,6 +7171,7 @@
             "end": 12269,
             "value": null,
             "raw": "0x4n",
+            "regex": null,
             "bigint": "0x4"
           },
           {
@@ -6741,7 +7179,9 @@
             "start": 12271,
             "end": 12308,
             "value": "The result of (0x2n * 0x2n) is 0x4n",
-            "raw": "'The result of (0x2n * 0x2n) is 0x4n'"
+            "raw": "'The result of (0x2n * 0x2n) is 0x4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6785,6 +7225,7 @@
               "end": 12332,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -6794,6 +7235,7 @@
               "end": 12339,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -6803,6 +7245,7 @@
             "end": 12345,
             "value": null,
             "raw": "0x2n",
+            "regex": null,
             "bigint": "0x2"
           },
           {
@@ -6810,7 +7253,9 @@
             "start": 12347,
             "end": 12384,
             "value": "The result of (0x2n * 0x1n) is 0x2n",
-            "raw": "'The result of (0x2n * 0x1n) is 0x2n'"
+            "raw": "'The result of (0x2n * 0x1n) is 0x2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6854,6 +7299,7 @@
               "end": 12408,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -6863,6 +7309,7 @@
               "end": 12415,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -6872,6 +7319,7 @@
             "end": 12421,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -6879,7 +7327,9 @@
             "start": 12423,
             "end": 12460,
             "value": "The result of (0x2n * 0x0n) is 0x0n",
-            "raw": "'The result of (0x2n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0x2n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6923,6 +7373,7 @@
               "end": 12484,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -6938,6 +7389,7 @@
                 "end": 12492,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -6954,6 +7406,7 @@
               "end": 12499,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -6962,7 +7415,9 @@
             "start": 12501,
             "end": 12540,
             "value": "The result of (0x2n * -0x1n) is -0x2n",
-            "raw": "'The result of (0x2n * -0x1n) is -0x2n'"
+            "raw": "'The result of (0x2n * -0x1n) is -0x2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7006,6 +7461,7 @@
               "end": 12564,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -7021,6 +7477,7 @@
                 "end": 12572,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -7037,6 +7494,7 @@
               "end": 12579,
               "value": null,
               "raw": "0x4n",
+              "regex": null,
               "bigint": "0x4"
             }
           },
@@ -7045,7 +7503,9 @@
             "start": 12581,
             "end": 12620,
             "value": "The result of (0x2n * -0x2n) is -0x4n",
-            "raw": "'The result of (0x2n * -0x2n) is -0x4n'"
+            "raw": "'The result of (0x2n * -0x2n) is -0x4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7089,6 +7549,7 @@
               "end": 12644,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -7104,6 +7565,7 @@
                 "end": 12652,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -7120,6 +7582,7 @@
               "end": 12659,
               "value": null,
               "raw": "0x6n",
+              "regex": null,
               "bigint": "0x6"
             }
           },
@@ -7128,7 +7591,9 @@
             "start": 12661,
             "end": 12700,
             "value": "The result of (0x2n * -0x3n) is -0x6n",
-            "raw": "'The result of (0x2n * -0x3n) is -0x6n'"
+            "raw": "'The result of (0x2n * -0x3n) is -0x6n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7172,6 +7637,7 @@
               "end": 12724,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -7187,6 +7653,7 @@
                 "end": 12735,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -7203,6 +7670,7 @@
               "end": 12745,
               "value": null,
               "raw": "0x2468n",
+              "regex": null,
               "bigint": "0x2468"
             }
           },
@@ -7211,7 +7679,9 @@
             "start": 12747,
             "end": 12792,
             "value": "The result of (0x2n * -0x1234n) is -0x2468n",
-            "raw": "'The result of (0x2n * -0x1234n) is -0x2468n'"
+            "raw": "'The result of (0x2n * -0x1234n) is -0x2468n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7255,6 +7725,7 @@
               "end": 12820,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -7270,6 +7741,7 @@
                 "end": 12835,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -7286,6 +7758,7 @@
               "end": 12852,
               "value": null,
               "raw": "0x1FDB9752En",
+              "regex": null,
               "bigint": "0x1FDB9752E"
             }
           },
@@ -7294,7 +7767,9 @@
             "start": 12856,
             "end": 12910,
             "value": "The result of (0x2n * -0xFEDCBA97n) is -0x1FDB9752En",
-            "raw": "'The result of (0x2n * -0xFEDCBA97n) is -0x1FDB9752En'"
+            "raw": "'The result of (0x2n * -0xFEDCBA97n) is -0x1FDB9752En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7338,6 +7813,7 @@
               "end": 12939,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -7353,6 +7829,7 @@
                 "end": 12954,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -7369,6 +7846,7 @@
               "end": 12971,
               "value": null,
               "raw": "0x1FDB97530n",
+              "regex": null,
               "bigint": "0x1FDB97530"
             }
           },
@@ -7377,7 +7855,9 @@
             "start": 12975,
             "end": 13029,
             "value": "The result of (0x2n * -0xFEDCBA98n) is -0x1FDB97530n",
-            "raw": "'The result of (0x2n * -0xFEDCBA98n) is -0x1FDB97530n'"
+            "raw": "'The result of (0x2n * -0xFEDCBA98n) is -0x1FDB97530n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7421,6 +7901,7 @@
               "end": 13058,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -7436,6 +7917,7 @@
                 "end": 13081,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -7452,6 +7934,7 @@
               "end": 13106,
               "value": null,
               "raw": "0x1FDB97530ECA8641En",
+              "regex": null,
               "bigint": "0x1FDB97530ECA8641E"
             }
           },
@@ -7460,7 +7943,9 @@
             "start": 13110,
             "end": 13180,
             "value": "The result of (0x2n * -0xFEDCBA987654320Fn) is -0x1FDB97530ECA8641En",
-            "raw": "'The result of (0x2n * -0xFEDCBA987654320Fn) is -0x1FDB97530ECA8641En'"
+            "raw": "'The result of (0x2n * -0xFEDCBA987654320Fn) is -0x1FDB97530ECA8641En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7504,6 +7989,7 @@
               "end": 13209,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             },
             "operator": "*",
@@ -7519,6 +8005,7 @@
                 "end": 13232,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -7535,6 +8022,7 @@
               "end": 13257,
               "value": null,
               "raw": "0x1FDB97530ECA86420n",
+              "regex": null,
               "bigint": "0x1FDB97530ECA86420"
             }
           },
@@ -7543,7 +8031,9 @@
             "start": 13261,
             "end": 13331,
             "value": "The result of (0x2n * -0xFEDCBA9876543210n) is -0x1FDB97530ECA86420n",
-            "raw": "'The result of (0x2n * -0xFEDCBA9876543210n) is -0x1FDB97530ECA86420n'"
+            "raw": "'The result of (0x2n * -0xFEDCBA9876543210n) is -0x1FDB97530ECA86420n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7587,6 +8077,7 @@
               "end": 13357,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -7596,6 +8087,7 @@
               "end": 13364,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -7605,6 +8097,7 @@
             "end": 13370,
             "value": null,
             "raw": "0x1n",
+            "regex": null,
             "bigint": "0x1"
           },
           {
@@ -7612,7 +8105,9 @@
             "start": 13372,
             "end": 13409,
             "value": "The result of (0x1n * 0x1n) is 0x1n",
-            "raw": "'The result of (0x1n * 0x1n) is 0x1n'"
+            "raw": "'The result of (0x1n * 0x1n) is 0x1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7656,6 +8151,7 @@
               "end": 13433,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -7665,6 +8161,7 @@
               "end": 13440,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -7674,6 +8171,7 @@
             "end": 13446,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -7681,7 +8179,9 @@
             "start": 13448,
             "end": 13485,
             "value": "The result of (0x1n * 0x0n) is 0x0n",
-            "raw": "'The result of (0x1n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0x1n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7725,6 +8225,7 @@
               "end": 13509,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -7740,6 +8241,7 @@
                 "end": 13517,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -7756,6 +8258,7 @@
               "end": 13524,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             }
           },
@@ -7764,7 +8267,9 @@
             "start": 13526,
             "end": 13565,
             "value": "The result of (0x1n * -0x1n) is -0x1n",
-            "raw": "'The result of (0x1n * -0x1n) is -0x1n'"
+            "raw": "'The result of (0x1n * -0x1n) is -0x1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7808,6 +8313,7 @@
               "end": 13589,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -7823,6 +8329,7 @@
                 "end": 13597,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -7839,6 +8346,7 @@
               "end": 13604,
               "value": null,
               "raw": "0x2n",
+              "regex": null,
               "bigint": "0x2"
             }
           },
@@ -7847,7 +8355,9 @@
             "start": 13606,
             "end": 13645,
             "value": "The result of (0x1n * -0x2n) is -0x2n",
-            "raw": "'The result of (0x1n * -0x2n) is -0x2n'"
+            "raw": "'The result of (0x1n * -0x2n) is -0x2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7891,6 +8401,7 @@
               "end": 13669,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -7906,6 +8417,7 @@
                 "end": 13677,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -7922,6 +8434,7 @@
               "end": 13684,
               "value": null,
               "raw": "0x3n",
+              "regex": null,
               "bigint": "0x3"
             }
           },
@@ -7930,7 +8443,9 @@
             "start": 13686,
             "end": 13725,
             "value": "The result of (0x1n * -0x3n) is -0x3n",
-            "raw": "'The result of (0x1n * -0x3n) is -0x3n'"
+            "raw": "'The result of (0x1n * -0x3n) is -0x3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7974,6 +8489,7 @@
               "end": 13749,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -7989,6 +8505,7 @@
                 "end": 13760,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -8005,6 +8522,7 @@
               "end": 13770,
               "value": null,
               "raw": "0x1234n",
+              "regex": null,
               "bigint": "0x1234"
             }
           },
@@ -8013,7 +8531,9 @@
             "start": 13772,
             "end": 13817,
             "value": "The result of (0x1n * -0x1234n) is -0x1234n",
-            "raw": "'The result of (0x1n * -0x1234n) is -0x1234n'"
+            "raw": "'The result of (0x1n * -0x1234n) is -0x1234n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8057,6 +8577,7 @@
               "end": 13845,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -8072,6 +8593,7 @@
                 "end": 13860,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -8088,6 +8610,7 @@
               "end": 13876,
               "value": null,
               "raw": "0xFEDCBA97n",
+              "regex": null,
               "bigint": "0xFEDCBA97"
             }
           },
@@ -8096,7 +8619,9 @@
             "start": 13880,
             "end": 13933,
             "value": "The result of (0x1n * -0xFEDCBA97n) is -0xFEDCBA97n",
-            "raw": "'The result of (0x1n * -0xFEDCBA97n) is -0xFEDCBA97n'"
+            "raw": "'The result of (0x1n * -0xFEDCBA97n) is -0xFEDCBA97n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8140,6 +8665,7 @@
               "end": 13962,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -8155,6 +8681,7 @@
                 "end": 13977,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -8171,6 +8698,7 @@
               "end": 13993,
               "value": null,
               "raw": "0xFEDCBA98n",
+              "regex": null,
               "bigint": "0xFEDCBA98"
             }
           },
@@ -8179,7 +8707,9 @@
             "start": 13997,
             "end": 14050,
             "value": "The result of (0x1n * -0xFEDCBA98n) is -0xFEDCBA98n",
-            "raw": "'The result of (0x1n * -0xFEDCBA98n) is -0xFEDCBA98n'"
+            "raw": "'The result of (0x1n * -0xFEDCBA98n) is -0xFEDCBA98n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8223,6 +8753,7 @@
               "end": 14079,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -8238,6 +8769,7 @@
                 "end": 14102,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -8254,6 +8786,7 @@
               "end": 14126,
               "value": null,
               "raw": "0xFEDCBA987654320Fn",
+              "regex": null,
               "bigint": "0xFEDCBA987654320F"
             }
           },
@@ -8262,7 +8795,9 @@
             "start": 14130,
             "end": 14199,
             "value": "The result of (0x1n * -0xFEDCBA987654320Fn) is -0xFEDCBA987654320Fn",
-            "raw": "'The result of (0x1n * -0xFEDCBA987654320Fn) is -0xFEDCBA987654320Fn'"
+            "raw": "'The result of (0x1n * -0xFEDCBA987654320Fn) is -0xFEDCBA987654320Fn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8306,6 +8841,7 @@
               "end": 14228,
               "value": null,
               "raw": "0x1n",
+              "regex": null,
               "bigint": "0x1"
             },
             "operator": "*",
@@ -8321,6 +8857,7 @@
                 "end": 14251,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -8337,6 +8874,7 @@
               "end": 14275,
               "value": null,
               "raw": "0xFEDCBA9876543210n",
+              "regex": null,
               "bigint": "0xFEDCBA9876543210"
             }
           },
@@ -8345,7 +8883,9 @@
             "start": 14279,
             "end": 14348,
             "value": "The result of (0x1n * -0xFEDCBA9876543210n) is -0xFEDCBA9876543210n",
-            "raw": "'The result of (0x1n * -0xFEDCBA9876543210n) is -0xFEDCBA9876543210n'"
+            "raw": "'The result of (0x1n * -0xFEDCBA9876543210n) is -0xFEDCBA9876543210n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8389,6 +8929,7 @@
               "end": 14374,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8398,6 +8939,7 @@
               "end": 14381,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             }
           },
@@ -8407,6 +8949,7 @@
             "end": 14387,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8414,7 +8957,9 @@
             "start": 14389,
             "end": 14426,
             "value": "The result of (0x0n * 0x0n) is 0x0n",
-            "raw": "'The result of (0x0n * 0x0n) is 0x0n'"
+            "raw": "'The result of (0x0n * 0x0n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8458,6 +9003,7 @@
               "end": 14450,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8473,6 +9019,7 @@
                 "end": 14458,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -8483,6 +9030,7 @@
             "end": 14464,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8490,7 +9038,9 @@
             "start": 14466,
             "end": 14504,
             "value": "The result of (0x0n * -0x1n) is 0x0n",
-            "raw": "'The result of (0x0n * -0x1n) is 0x0n'"
+            "raw": "'The result of (0x0n * -0x1n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8534,6 +9084,7 @@
               "end": 14528,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8549,6 +9100,7 @@
                 "end": 14536,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -8559,6 +9111,7 @@
             "end": 14542,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8566,7 +9119,9 @@
             "start": 14544,
             "end": 14582,
             "value": "The result of (0x0n * -0x2n) is 0x0n",
-            "raw": "'The result of (0x0n * -0x2n) is 0x0n'"
+            "raw": "'The result of (0x0n * -0x2n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8610,6 +9165,7 @@
               "end": 14606,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8625,6 +9181,7 @@
                 "end": 14614,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -8635,6 +9192,7 @@
             "end": 14620,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8642,7 +9200,9 @@
             "start": 14622,
             "end": 14660,
             "value": "The result of (0x0n * -0x3n) is 0x0n",
-            "raw": "'The result of (0x0n * -0x3n) is 0x0n'"
+            "raw": "'The result of (0x0n * -0x3n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8686,6 +9246,7 @@
               "end": 14684,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8701,6 +9262,7 @@
                 "end": 14695,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -8711,6 +9273,7 @@
             "end": 14701,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8718,7 +9281,9 @@
             "start": 14703,
             "end": 14744,
             "value": "The result of (0x0n * -0x1234n) is 0x0n",
-            "raw": "'The result of (0x0n * -0x1234n) is 0x0n'"
+            "raw": "'The result of (0x0n * -0x1234n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8762,6 +9327,7 @@
               "end": 14768,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8777,6 +9343,7 @@
                 "end": 14783,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -8787,6 +9354,7 @@
             "end": 14789,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8794,7 +9362,9 @@
             "start": 14791,
             "end": 14836,
             "value": "The result of (0x0n * -0xFEDCBA97n) is 0x0n",
-            "raw": "'The result of (0x0n * -0xFEDCBA97n) is 0x0n'"
+            "raw": "'The result of (0x0n * -0xFEDCBA97n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8838,6 +9408,7 @@
               "end": 14860,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8853,6 +9424,7 @@
                 "end": 14875,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -8863,6 +9435,7 @@
             "end": 14881,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8870,7 +9443,9 @@
             "start": 14883,
             "end": 14928,
             "value": "The result of (0x0n * -0xFEDCBA98n) is 0x0n",
-            "raw": "'The result of (0x0n * -0xFEDCBA98n) is 0x0n'"
+            "raw": "'The result of (0x0n * -0xFEDCBA98n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8914,6 +9489,7 @@
               "end": 14956,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -8929,6 +9505,7 @@
                 "end": 14979,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -8939,6 +9516,7 @@
             "end": 14987,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -8946,7 +9524,9 @@
             "start": 14991,
             "end": 15044,
             "value": "The result of (0x0n * -0xFEDCBA987654320Fn) is 0x0n",
-            "raw": "'The result of (0x0n * -0xFEDCBA987654320Fn) is 0x0n'"
+            "raw": "'The result of (0x0n * -0xFEDCBA987654320Fn) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8990,6 +9570,7 @@
               "end": 15073,
               "value": null,
               "raw": "0x0n",
+              "regex": null,
               "bigint": "0x0"
             },
             "operator": "*",
@@ -9005,6 +9586,7 @@
                 "end": 15096,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -9015,6 +9597,7 @@
             "end": 15104,
             "value": null,
             "raw": "0x0n",
+            "regex": null,
             "bigint": "0x0"
           },
           {
@@ -9022,7 +9605,9 @@
             "start": 15108,
             "end": 15161,
             "value": "The result of (0x0n * -0xFEDCBA9876543210n) is 0x0n",
-            "raw": "'The result of (0x0n * -0xFEDCBA9876543210n) is 0x0n'"
+            "raw": "'The result of (0x0n * -0xFEDCBA9876543210n) is 0x0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9072,6 +9657,7 @@
                 "end": 15188,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9088,6 +9674,7 @@
                 "end": 15196,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             }
@@ -9098,6 +9685,7 @@
             "end": 15202,
             "value": null,
             "raw": "0x1n",
+            "regex": null,
             "bigint": "0x1"
           },
           {
@@ -9105,7 +9693,9 @@
             "start": 15204,
             "end": 15243,
             "value": "The result of (-0x1n * -0x1n) is 0x1n",
-            "raw": "'The result of (-0x1n * -0x1n) is 0x1n'"
+            "raw": "'The result of (-0x1n * -0x1n) is 0x1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9155,6 +9745,7 @@
                 "end": 15268,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9171,6 +9762,7 @@
                 "end": 15276,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -9181,6 +9773,7 @@
             "end": 15282,
             "value": null,
             "raw": "0x2n",
+            "regex": null,
             "bigint": "0x2"
           },
           {
@@ -9188,7 +9781,9 @@
             "start": 15284,
             "end": 15323,
             "value": "The result of (-0x1n * -0x2n) is 0x2n",
-            "raw": "'The result of (-0x1n * -0x2n) is 0x2n'"
+            "raw": "'The result of (-0x1n * -0x2n) is 0x2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9238,6 +9833,7 @@
                 "end": 15348,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9254,6 +9850,7 @@
                 "end": 15356,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -9264,6 +9861,7 @@
             "end": 15362,
             "value": null,
             "raw": "0x3n",
+            "regex": null,
             "bigint": "0x3"
           },
           {
@@ -9271,7 +9869,9 @@
             "start": 15364,
             "end": 15403,
             "value": "The result of (-0x1n * -0x3n) is 0x3n",
-            "raw": "'The result of (-0x1n * -0x3n) is 0x3n'"
+            "raw": "'The result of (-0x1n * -0x3n) is 0x3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9321,6 +9921,7 @@
                 "end": 15428,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9337,6 +9938,7 @@
                 "end": 15439,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -9347,6 +9949,7 @@
             "end": 15448,
             "value": null,
             "raw": "0x1234n",
+            "regex": null,
             "bigint": "0x1234"
           },
           {
@@ -9354,7 +9957,9 @@
             "start": 15450,
             "end": 15495,
             "value": "The result of (-0x1n * -0x1234n) is 0x1234n",
-            "raw": "'The result of (-0x1n * -0x1234n) is 0x1234n'"
+            "raw": "'The result of (-0x1n * -0x1234n) is 0x1234n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9404,6 +10009,7 @@
                 "end": 15524,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9420,6 +10026,7 @@
                 "end": 15539,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -9430,6 +10037,7 @@
             "end": 15554,
             "value": null,
             "raw": "0xFEDCBA97n",
+            "regex": null,
             "bigint": "0xFEDCBA97"
           },
           {
@@ -9437,7 +10045,9 @@
             "start": 15558,
             "end": 15611,
             "value": "The result of (-0x1n * -0xFEDCBA97n) is 0xFEDCBA97n",
-            "raw": "'The result of (-0x1n * -0xFEDCBA97n) is 0xFEDCBA97n'"
+            "raw": "'The result of (-0x1n * -0xFEDCBA97n) is 0xFEDCBA97n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9487,6 +10097,7 @@
                 "end": 15641,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9503,6 +10114,7 @@
                 "end": 15656,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -9513,6 +10125,7 @@
             "end": 15671,
             "value": null,
             "raw": "0xFEDCBA98n",
+            "regex": null,
             "bigint": "0xFEDCBA98"
           },
           {
@@ -9520,7 +10133,9 @@
             "start": 15675,
             "end": 15728,
             "value": "The result of (-0x1n * -0xFEDCBA98n) is 0xFEDCBA98n",
-            "raw": "'The result of (-0x1n * -0xFEDCBA98n) is 0xFEDCBA98n'"
+            "raw": "'The result of (-0x1n * -0xFEDCBA98n) is 0xFEDCBA98n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9570,6 +10185,7 @@
                 "end": 15758,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9586,6 +10202,7 @@
                 "end": 15781,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -9596,6 +10213,7 @@
             "end": 15804,
             "value": null,
             "raw": "0xFEDCBA987654320Fn",
+            "regex": null,
             "bigint": "0xFEDCBA987654320F"
           },
           {
@@ -9603,7 +10221,9 @@
             "start": 15808,
             "end": 15877,
             "value": "The result of (-0x1n * -0xFEDCBA987654320Fn) is 0xFEDCBA987654320Fn",
-            "raw": "'The result of (-0x1n * -0xFEDCBA987654320Fn) is 0xFEDCBA987654320Fn'"
+            "raw": "'The result of (-0x1n * -0xFEDCBA987654320Fn) is 0xFEDCBA987654320Fn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9653,6 +10273,7 @@
                 "end": 15907,
                 "value": null,
                 "raw": "0x1n",
+                "regex": null,
                 "bigint": "0x1"
               }
             },
@@ -9669,6 +10290,7 @@
                 "end": 15930,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -9679,6 +10301,7 @@
             "end": 15953,
             "value": null,
             "raw": "0xFEDCBA9876543210n",
+            "regex": null,
             "bigint": "0xFEDCBA9876543210"
           },
           {
@@ -9686,7 +10309,9 @@
             "start": 15957,
             "end": 16026,
             "value": "The result of (-0x1n * -0xFEDCBA9876543210n) is 0xFEDCBA9876543210n",
-            "raw": "'The result of (-0x1n * -0xFEDCBA9876543210n) is 0xFEDCBA9876543210n'"
+            "raw": "'The result of (-0x1n * -0xFEDCBA9876543210n) is 0xFEDCBA9876543210n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9736,6 +10361,7 @@
                 "end": 16053,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             },
@@ -9752,6 +10378,7 @@
                 "end": 16061,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             }
@@ -9762,6 +10389,7 @@
             "end": 16067,
             "value": null,
             "raw": "0x4n",
+            "regex": null,
             "bigint": "0x4"
           },
           {
@@ -9769,7 +10397,9 @@
             "start": 16069,
             "end": 16108,
             "value": "The result of (-0x2n * -0x2n) is 0x4n",
-            "raw": "'The result of (-0x2n * -0x2n) is 0x4n'"
+            "raw": "'The result of (-0x2n * -0x2n) is 0x4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9819,6 +10449,7 @@
                 "end": 16133,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             },
@@ -9835,6 +10466,7 @@
                 "end": 16141,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -9845,6 +10477,7 @@
             "end": 16147,
             "value": null,
             "raw": "0x6n",
+            "regex": null,
             "bigint": "0x6"
           },
           {
@@ -9852,7 +10485,9 @@
             "start": 16149,
             "end": 16188,
             "value": "The result of (-0x2n * -0x3n) is 0x6n",
-            "raw": "'The result of (-0x2n * -0x3n) is 0x6n'"
+            "raw": "'The result of (-0x2n * -0x3n) is 0x6n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9902,6 +10537,7 @@
                 "end": 16213,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             },
@@ -9918,6 +10554,7 @@
                 "end": 16224,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -9928,6 +10565,7 @@
             "end": 16233,
             "value": null,
             "raw": "0x2468n",
+            "regex": null,
             "bigint": "0x2468"
           },
           {
@@ -9935,7 +10573,9 @@
             "start": 16235,
             "end": 16280,
             "value": "The result of (-0x2n * -0x1234n) is 0x2468n",
-            "raw": "'The result of (-0x2n * -0x1234n) is 0x2468n'"
+            "raw": "'The result of (-0x2n * -0x1234n) is 0x2468n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9985,6 +10625,7 @@
                 "end": 16309,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             },
@@ -10001,6 +10642,7 @@
                 "end": 16324,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -10011,6 +10653,7 @@
             "end": 16340,
             "value": null,
             "raw": "0x1FDB9752En",
+            "regex": null,
             "bigint": "0x1FDB9752E"
           },
           {
@@ -10018,7 +10661,9 @@
             "start": 16344,
             "end": 16398,
             "value": "The result of (-0x2n * -0xFEDCBA97n) is 0x1FDB9752En",
-            "raw": "'The result of (-0x2n * -0xFEDCBA97n) is 0x1FDB9752En'"
+            "raw": "'The result of (-0x2n * -0xFEDCBA97n) is 0x1FDB9752En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10068,6 +10713,7 @@
                 "end": 16428,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             },
@@ -10084,6 +10730,7 @@
                 "end": 16443,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -10094,6 +10741,7 @@
             "end": 16459,
             "value": null,
             "raw": "0x1FDB97530n",
+            "regex": null,
             "bigint": "0x1FDB97530"
           },
           {
@@ -10101,7 +10749,9 @@
             "start": 16463,
             "end": 16517,
             "value": "The result of (-0x2n * -0xFEDCBA98n) is 0x1FDB97530n",
-            "raw": "'The result of (-0x2n * -0xFEDCBA98n) is 0x1FDB97530n'"
+            "raw": "'The result of (-0x2n * -0xFEDCBA98n) is 0x1FDB97530n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10151,6 +10801,7 @@
                 "end": 16547,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             },
@@ -10167,6 +10818,7 @@
                 "end": 16570,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -10177,6 +10829,7 @@
             "end": 16594,
             "value": null,
             "raw": "0x1FDB97530ECA8641En",
+            "regex": null,
             "bigint": "0x1FDB97530ECA8641E"
           },
           {
@@ -10184,7 +10837,9 @@
             "start": 16598,
             "end": 16668,
             "value": "The result of (-0x2n * -0xFEDCBA987654320Fn) is 0x1FDB97530ECA8641En",
-            "raw": "'The result of (-0x2n * -0xFEDCBA987654320Fn) is 0x1FDB97530ECA8641En'"
+            "raw": "'The result of (-0x2n * -0xFEDCBA987654320Fn) is 0x1FDB97530ECA8641En'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10234,6 +10889,7 @@
                 "end": 16698,
                 "value": null,
                 "raw": "0x2n",
+                "regex": null,
                 "bigint": "0x2"
               }
             },
@@ -10250,6 +10906,7 @@
                 "end": 16721,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -10260,6 +10917,7 @@
             "end": 16745,
             "value": null,
             "raw": "0x1FDB97530ECA86420n",
+            "regex": null,
             "bigint": "0x1FDB97530ECA86420"
           },
           {
@@ -10267,7 +10925,9 @@
             "start": 16749,
             "end": 16819,
             "value": "The result of (-0x2n * -0xFEDCBA9876543210n) is 0x1FDB97530ECA86420n",
-            "raw": "'The result of (-0x2n * -0xFEDCBA9876543210n) is 0x1FDB97530ECA86420n'"
+            "raw": "'The result of (-0x2n * -0xFEDCBA9876543210n) is 0x1FDB97530ECA86420n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10317,6 +10977,7 @@
                 "end": 16846,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             },
@@ -10333,6 +10994,7 @@
                 "end": 16854,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             }
@@ -10343,6 +11005,7 @@
             "end": 16860,
             "value": null,
             "raw": "0x9n",
+            "regex": null,
             "bigint": "0x9"
           },
           {
@@ -10350,7 +11013,9 @@
             "start": 16862,
             "end": 16901,
             "value": "The result of (-0x3n * -0x3n) is 0x9n",
-            "raw": "'The result of (-0x3n * -0x3n) is 0x9n'"
+            "raw": "'The result of (-0x3n * -0x3n) is 0x9n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10400,6 +11065,7 @@
                 "end": 16926,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             },
@@ -10416,6 +11082,7 @@
                 "end": 16937,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -10426,6 +11093,7 @@
             "end": 16946,
             "value": null,
             "raw": "0x369Cn",
+            "regex": null,
             "bigint": "0x369C"
           },
           {
@@ -10433,7 +11101,9 @@
             "start": 16948,
             "end": 16993,
             "value": "The result of (-0x3n * -0x1234n) is 0x369Cn",
-            "raw": "'The result of (-0x3n * -0x1234n) is 0x369Cn'"
+            "raw": "'The result of (-0x3n * -0x1234n) is 0x369Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10483,6 +11153,7 @@
                 "end": 17022,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             },
@@ -10499,6 +11170,7 @@
                 "end": 17037,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -10509,6 +11181,7 @@
             "end": 17053,
             "value": null,
             "raw": "0x2FC962FC5n",
+            "regex": null,
             "bigint": "0x2FC962FC5"
           },
           {
@@ -10516,7 +11189,9 @@
             "start": 17057,
             "end": 17111,
             "value": "The result of (-0x3n * -0xFEDCBA97n) is 0x2FC962FC5n",
-            "raw": "'The result of (-0x3n * -0xFEDCBA97n) is 0x2FC962FC5n'"
+            "raw": "'The result of (-0x3n * -0xFEDCBA97n) is 0x2FC962FC5n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10566,6 +11241,7 @@
                 "end": 17141,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             },
@@ -10582,6 +11258,7 @@
                 "end": 17156,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -10592,6 +11269,7 @@
             "end": 17172,
             "value": null,
             "raw": "0x2FC962FC8n",
+            "regex": null,
             "bigint": "0x2FC962FC8"
           },
           {
@@ -10599,7 +11277,9 @@
             "start": 17176,
             "end": 17230,
             "value": "The result of (-0x3n * -0xFEDCBA98n) is 0x2FC962FC8n",
-            "raw": "'The result of (-0x3n * -0xFEDCBA98n) is 0x2FC962FC8n'"
+            "raw": "'The result of (-0x3n * -0xFEDCBA98n) is 0x2FC962FC8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10649,6 +11329,7 @@
                 "end": 17260,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             },
@@ -10665,6 +11346,7 @@
                 "end": 17283,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -10675,6 +11357,7 @@
             "end": 17307,
             "value": null,
             "raw": "0x2FC962FC962FC962Dn",
+            "regex": null,
             "bigint": "0x2FC962FC962FC962D"
           },
           {
@@ -10682,7 +11365,9 @@
             "start": 17311,
             "end": 17381,
             "value": "The result of (-0x3n * -0xFEDCBA987654320Fn) is 0x2FC962FC962FC962Dn",
-            "raw": "'The result of (-0x3n * -0xFEDCBA987654320Fn) is 0x2FC962FC962FC962Dn'"
+            "raw": "'The result of (-0x3n * -0xFEDCBA987654320Fn) is 0x2FC962FC962FC962Dn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10732,6 +11417,7 @@
                 "end": 17411,
                 "value": null,
                 "raw": "0x3n",
+                "regex": null,
                 "bigint": "0x3"
               }
             },
@@ -10748,6 +11434,7 @@
                 "end": 17434,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -10758,6 +11445,7 @@
             "end": 17458,
             "value": null,
             "raw": "0x2FC962FC962FC9630n",
+            "regex": null,
             "bigint": "0x2FC962FC962FC9630"
           },
           {
@@ -10765,7 +11453,9 @@
             "start": 17462,
             "end": 17532,
             "value": "The result of (-0x3n * -0xFEDCBA9876543210n) is 0x2FC962FC962FC9630n",
-            "raw": "'The result of (-0x3n * -0xFEDCBA9876543210n) is 0x2FC962FC962FC9630n'"
+            "raw": "'The result of (-0x3n * -0xFEDCBA9876543210n) is 0x2FC962FC962FC9630n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10815,6 +11505,7 @@
                 "end": 17565,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             },
@@ -10831,6 +11522,7 @@
                 "end": 17576,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             }
@@ -10841,6 +11533,7 @@
             "end": 17590,
             "value": null,
             "raw": "0x14B5A90n",
+            "regex": null,
             "bigint": "0x14B5A90"
           },
           {
@@ -10848,7 +11541,9 @@
             "start": 17594,
             "end": 17645,
             "value": "The result of (-0x1234n * -0x1234n) is 0x14B5A90n",
-            "raw": "'The result of (-0x1234n * -0x1234n) is 0x14B5A90n'"
+            "raw": "'The result of (-0x1234n * -0x1234n) is 0x14B5A90n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10898,6 +11593,7 @@
                 "end": 17678,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             },
@@ -10914,6 +11610,7 @@
                 "end": 17693,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -10924,6 +11621,7 @@
             "end": 17712,
             "value": null,
             "raw": "0x121F49F484ACn",
+            "regex": null,
             "bigint": "0x121F49F484AC"
           },
           {
@@ -10931,7 +11629,9 @@
             "start": 17716,
             "end": 17776,
             "value": "The result of (-0x1234n * -0xFEDCBA97n) is 0x121F49F484ACn",
-            "raw": "'The result of (-0x1234n * -0xFEDCBA97n) is 0x121F49F484ACn'"
+            "raw": "'The result of (-0x1234n * -0xFEDCBA97n) is 0x121F49F484ACn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -10981,6 +11681,7 @@
                 "end": 17809,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             },
@@ -10997,6 +11698,7 @@
                 "end": 17824,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -11007,6 +11709,7 @@
             "end": 17843,
             "value": null,
             "raw": "0x121F49F496E0n",
+            "regex": null,
             "bigint": "0x121F49F496E0"
           },
           {
@@ -11014,7 +11717,9 @@
             "start": 17847,
             "end": 17907,
             "value": "The result of (-0x1234n * -0xFEDCBA98n) is 0x121F49F496E0n",
-            "raw": "'The result of (-0x1234n * -0xFEDCBA98n) is 0x121F49F496E0n'"
+            "raw": "'The result of (-0x1234n * -0xFEDCBA98n) is 0x121F49F496E0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11064,6 +11769,7 @@
                 "end": 17940,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             },
@@ -11080,6 +11786,7 @@
                 "end": 17963,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -11090,6 +11797,7 @@
             "end": 17990,
             "value": null,
             "raw": "0x121F49F49F49F49F390Cn",
+            "regex": null,
             "bigint": "0x121F49F49F49F49F390C"
           },
           {
@@ -11097,7 +11805,9 @@
             "start": 17994,
             "end": 18070,
             "value": "The result of (-0x1234n * -0xFEDCBA987654320Fn) is 0x121F49F49F49F49F390Cn",
-            "raw": "'The result of (-0x1234n * -0xFEDCBA987654320Fn) is 0x121F49F49F49F49F390Cn'"
+            "raw": "'The result of (-0x1234n * -0xFEDCBA987654320Fn) is 0x121F49F49F49F49F390Cn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11147,6 +11857,7 @@
                 "end": 18103,
                 "value": null,
                 "raw": "0x1234n",
+                "regex": null,
                 "bigint": "0x1234"
               }
             },
@@ -11163,6 +11874,7 @@
                 "end": 18126,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -11173,6 +11885,7 @@
             "end": 18153,
             "value": null,
             "raw": "0x121F49F49F49F49F4B40n",
+            "regex": null,
             "bigint": "0x121F49F49F49F49F4B40"
           },
           {
@@ -11180,7 +11893,9 @@
             "start": 18157,
             "end": 18233,
             "value": "The result of (-0x1234n * -0xFEDCBA9876543210n) is 0x121F49F49F49F49F4B40n",
-            "raw": "'The result of (-0x1234n * -0xFEDCBA9876543210n) is 0x121F49F49F49F49F4B40n'"
+            "raw": "'The result of (-0x1234n * -0xFEDCBA9876543210n) is 0x121F49F49F49F49F4B40n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11230,6 +11945,7 @@
                 "end": 18270,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             },
@@ -11246,6 +11962,7 @@
                 "end": 18285,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             }
@@ -11256,6 +11973,7 @@
             "end": 18308,
             "value": null,
             "raw": "0xFDBAC094DF87C511n",
+            "regex": null,
             "bigint": "0xFDBAC094DF87C511"
           },
           {
@@ -11263,7 +11981,9 @@
             "start": 18312,
             "end": 18380,
             "value": "The result of (-0xFEDCBA97n * -0xFEDCBA97n) is 0xFDBAC094DF87C511n",
-            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA97n) is 0xFDBAC094DF87C511n'"
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA97n) is 0xFDBAC094DF87C511n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11313,6 +12033,7 @@
                 "end": 18417,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             },
@@ -11329,6 +12050,7 @@
                 "end": 18432,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -11339,6 +12061,7 @@
             "end": 18455,
             "value": null,
             "raw": "0xFDBAC095DE647FA8n",
+            "regex": null,
             "bigint": "0xFDBAC095DE647FA8"
           },
           {
@@ -11346,7 +12069,9 @@
             "start": 18459,
             "end": 18527,
             "value": "The result of (-0xFEDCBA97n * -0xFEDCBA98n) is 0xFDBAC095DE647FA8n",
-            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA98n) is 0xFDBAC095DE647FA8n'"
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA98n) is 0xFDBAC095DE647FA8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11396,6 +12121,7 @@
                 "end": 18564,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             },
@@ -11412,6 +12138,7 @@
                 "end": 18587,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -11422,6 +12149,7 @@
             "end": 18618,
             "value": null,
             "raw": "0xFDBAC09654320FECDEEC6CD9n",
+            "regex": null,
             "bigint": "0xFDBAC09654320FECDEEC6CD9"
           },
           {
@@ -11429,7 +12157,9 @@
             "start": 18622,
             "end": 18706,
             "value": "The result of (-0xFEDCBA97n * -0xFEDCBA987654320Fn) is 0xFDBAC09654320FECDEEC6CD9n",
-            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA987654320Fn) is 0xFDBAC09654320FECDEEC6CD9n'"
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA987654320Fn) is 0xFDBAC09654320FECDEEC6CD9n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11479,6 +12209,7 @@
                 "end": 18743,
                 "value": null,
                 "raw": "0xFEDCBA97n",
+                "regex": null,
                 "bigint": "0xFEDCBA97"
               }
             },
@@ -11495,6 +12226,7 @@
                 "end": 18766,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -11505,6 +12237,7 @@
             "end": 18797,
             "value": null,
             "raw": "0xFDBAC09654320FEDDDC92770n",
+            "regex": null,
             "bigint": "0xFDBAC09654320FEDDDC92770"
           },
           {
@@ -11512,7 +12245,9 @@
             "start": 18801,
             "end": 18885,
             "value": "The result of (-0xFEDCBA97n * -0xFEDCBA9876543210n) is 0xFDBAC09654320FEDDDC92770n",
-            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA9876543210n) is 0xFDBAC09654320FEDDDC92770n'"
+            "raw": "'The result of (-0xFEDCBA97n * -0xFEDCBA9876543210n) is 0xFDBAC09654320FEDDDC92770n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11562,6 +12297,7 @@
                 "end": 18922,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             },
@@ -11578,6 +12314,7 @@
                 "end": 18937,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             }
@@ -11588,6 +12325,7 @@
             "end": 18960,
             "value": null,
             "raw": "0xFDBAC096DD413A40n",
+            "regex": null,
             "bigint": "0xFDBAC096DD413A40"
           },
           {
@@ -11595,7 +12333,9 @@
             "start": 18964,
             "end": 19032,
             "value": "The result of (-0xFEDCBA98n * -0xFEDCBA98n) is 0xFDBAC096DD413A40n",
-            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA98n) is 0xFDBAC096DD413A40n'"
+            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA98n) is 0xFDBAC096DD413A40n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11645,6 +12385,7 @@
                 "end": 19069,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             },
@@ -11661,6 +12402,7 @@
                 "end": 19092,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -11671,6 +12413,7 @@
             "end": 19123,
             "value": null,
             "raw": "0xFDBAC097530ECA8555409EE8n",
+            "regex": null,
             "bigint": "0xFDBAC097530ECA8555409EE8"
           },
           {
@@ -11678,7 +12421,9 @@
             "start": 19127,
             "end": 19211,
             "value": "The result of (-0xFEDCBA98n * -0xFEDCBA987654320Fn) is 0xFDBAC097530ECA8555409EE8n",
-            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA987654320Fn) is 0xFDBAC097530ECA8555409EE8n'"
+            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA987654320Fn) is 0xFDBAC097530ECA8555409EE8n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11728,6 +12473,7 @@
                 "end": 19248,
                 "value": null,
                 "raw": "0xFEDCBA98n",
+                "regex": null,
                 "bigint": "0xFEDCBA98"
               }
             },
@@ -11744,6 +12490,7 @@
                 "end": 19271,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -11754,6 +12501,7 @@
             "end": 19302,
             "value": null,
             "raw": "0xFDBAC097530ECA86541D5980n",
+            "regex": null,
             "bigint": "0xFDBAC097530ECA86541D5980"
           },
           {
@@ -11761,7 +12509,9 @@
             "start": 19306,
             "end": 19390,
             "value": "The result of (-0xFEDCBA98n * -0xFEDCBA9876543210n) is 0xFDBAC097530ECA86541D5980n",
-            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA9876543210n) is 0xFDBAC097530ECA86541D5980n'"
+            "raw": "'The result of (-0xFEDCBA98n * -0xFEDCBA9876543210n) is 0xFDBAC097530ECA86541D5980n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11811,6 +12561,7 @@
                 "end": 19435,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             },
@@ -11827,6 +12578,7 @@
                 "end": 19458,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             }
@@ -11837,6 +12589,7 @@
             "end": 19497,
             "value": null,
             "raw": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
+            "regex": null,
             "bigint": "0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1"
           },
           {
@@ -11844,7 +12597,9 @@
             "start": 19501,
             "end": 19601,
             "value": "The result of (-0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n",
-            "raw": "'The result of (-0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'"
+            "raw": "'The result of (-0xFEDCBA987654320Fn * -0xFEDCBA987654320Fn) is 0xFDBAC097C8DC5ACAE132F7A6B7A1DCE1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11894,6 +12649,7 @@
                 "end": 19646,
                 "value": null,
                 "raw": "0xFEDCBA987654320Fn",
+                "regex": null,
                 "bigint": "0xFEDCBA987654320F"
               }
             },
@@ -11910,6 +12666,7 @@
                 "end": 19669,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -11920,6 +12677,7 @@
             "end": 19708,
             "value": null,
             "raw": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
+            "regex": null,
             "bigint": "0xFDBAC097C8DC5ACBE00FB23F2DF60EF0"
           },
           {
@@ -11927,7 +12685,9 @@
             "start": 19712,
             "end": 19812,
             "value": "The result of (-0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n",
-            "raw": "'The result of (-0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'"
+            "raw": "'The result of (-0xFEDCBA987654320Fn * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACBE00FB23F2DF60EF0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -11977,6 +12737,7 @@
                 "end": 19857,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             },
@@ -11993,6 +12754,7 @@
                 "end": 19880,
                 "value": null,
                 "raw": "0xFEDCBA9876543210n",
+                "regex": null,
                 "bigint": "0xFEDCBA9876543210"
               }
             }
@@ -12003,6 +12765,7 @@
             "end": 19919,
             "value": null,
             "raw": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
+            "regex": null,
             "bigint": "0xFDBAC097C8DC5ACCDEEC6CD7A44A4100"
           },
           {
@@ -12010,7 +12773,9 @@
             "start": 19923,
             "end": 20023,
             "value": "The result of (-0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n",
-            "raw": "'The result of (-0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'"
+            "raw": "'The result of (-0xFEDCBA9876543210n * -0xFEDCBA9876543210n) is 0xFDBAC097C8DC5ACCDEEC6CD7A44A4100n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

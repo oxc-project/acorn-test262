@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 41,
         "raw": "\"./observable\"",
-        "value": "./observable"
+        "value": "./observable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -411,7 +413,9 @@ __ESTREE_TEST__:PASS:
         "start": 108,
         "end": 122,
         "raw": "\"./observable\"",
-        "value": "./observable"
+        "value": "./observable",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -722,7 +726,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 41,
         "raw": "\"./observable\"",
-        "value": "./observable"
+        "value": "./observable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -762,7 +768,9 @@ __ESTREE_TEST__:PASS:
         "start": 49,
         "end": 56,
         "raw": "\"./map\"",
-        "value": "./map"
+        "value": "./map",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -869,7 +877,9 @@ __ESTREE_TEST__:PASS:
                     "start": 109,
                     "end": 110,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "expression": true,

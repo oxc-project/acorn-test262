@@ -122,7 +122,9 @@
                 "start": 371,
                 "end": 381,
                 "value": "Infinity",
-                "raw": "\"Infinity\""
+                "raw": "\"Infinity\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -132,7 +134,9 @@
             "start": 384,
             "end": 425,
             "value": "obj.hasOwnProperty(\"Infinity\") !== true",
-            "raw": "'obj.hasOwnProperty(\"Infinity\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"Infinity\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

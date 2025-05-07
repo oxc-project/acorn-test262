@@ -184,7 +184,9 @@
                                 "start": 1425,
                                 "end": 1432,
                                 "value": "value",
-                                "raw": "'value'"
+                                "raw": "'value'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -194,7 +196,9 @@
                             "start": 1435,
                             "end": 1463,
                             "value": "Has \"own\" property `value`",
-                            "raw": "'Has \"own\" property `value`'"
+                            "raw": "'Has \"own\" property `value`'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -276,7 +280,9 @@
                                 "start": 1528,
                                 "end": 1534,
                                 "value": "done",
-                                "raw": "'done'"
+                                "raw": "'done'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -286,7 +292,9 @@
                             "start": 1537,
                             "end": 1564,
                             "value": "Has \"own\" property `done`",
-                            "raw": "'Has \"own\" property `done`'"
+                            "raw": "'Has \"own\" property `done`'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

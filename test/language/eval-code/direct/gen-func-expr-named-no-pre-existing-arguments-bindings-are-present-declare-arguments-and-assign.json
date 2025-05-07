@@ -40,7 +40,9 @@
               "start": 484,
               "end": 495,
               "value": "arguments",
-              "raw": "\"arguments\""
+              "raw": "\"arguments\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -54,14 +56,18 @@
             "start": 505,
             "end": 510,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 543,
             "value": "No global 'arguments' binding",
-            "raw": "\"No global 'arguments' binding\""
+            "raw": "\"No global 'arguments' binding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -122,7 +128,9 @@
                       "start": 577,
                       "end": 602,
                       "value": "var arguments = 'param'",
-                      "raw": "\"var arguments = 'param'\""
+                      "raw": "\"var arguments = 'param'\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -221,7 +229,9 @@
               "start": 657,
               "end": 668,
               "value": "arguments",
-              "raw": "\"arguments\""
+              "raw": "\"arguments\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -235,14 +245,18 @@
             "start": 678,
             "end": 683,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 685,
             "end": 716,
             "value": "No global 'arguments' binding",
-            "raw": "\"No global 'arguments' binding\""
+            "raw": "\"No global 'arguments' binding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

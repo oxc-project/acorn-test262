@@ -23,7 +23,9 @@
             "start": 353,
             "end": 354,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -64,7 +66,9 @@
                     "start": 373,
                     "end": 385,
                     "value": "use strict",
-                    "raw": "'use strict'"
+                    "raw": "'use strict'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "directive": "use strict"
                 },
@@ -166,7 +170,9 @@
                                 "start": 462,
                                 "end": 482,
                                 "value": "argument at index ",
-                                "raw": "'argument at index '"
+                                "raw": "'argument at index '",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -210,35 +216,45 @@
               "start": 504,
               "end": 505,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 507,
               "end": 510,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 512,
               "end": 516,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 518,
               "end": 523,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 525,
               "end": 529,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -296,14 +312,18 @@
             "start": 570,
             "end": 571,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 595,
             "value": "Visits all arguments",
-            "raw": "'Visits all arguments'"
+            "raw": "'Visits all arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

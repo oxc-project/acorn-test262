@@ -47,7 +47,9 @@
                 "start": 862,
                 "end": 891,
                 "value": "var a; 1; for (a in {}) { }",
-                "raw": "'var a; 1; for (a in {}) { }'"
+                "raw": "'var a; 1; for (a in {}) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 928,
                 "end": 960,
                 "value": "var b; 2; for (b in {}) { 3; }",
-                "raw": "'var b; 2; for (b in {}) { 3; }'"
+                "raw": "'var b; 2; for (b in {}) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

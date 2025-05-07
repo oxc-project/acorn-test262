@@ -16,7 +16,9 @@
           "start": 279,
           "end": 284,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         },
         "operator": "instanceof",
         "right": {
@@ -51,7 +53,9 @@
                   "start": 331,
                   "end": 368,
                   "value": "#1: false is not instanceof Boolean",
-                  "raw": "'#1: false is not instanceof Boolean'"
+                  "raw": "'#1: false is not instanceof Boolean'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -84,7 +88,9 @@
               "start": 396,
               "end": 401,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -122,7 +128,9 @@
                   "start": 449,
                   "end": 495,
                   "value": "#2: Boolean(false) is not instanceof Boolean",
-                  "raw": "'#2: Boolean(false) is not instanceof Boolean'"
+                  "raw": "'#2: Boolean(false) is not instanceof Boolean'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -169,7 +177,9 @@
           "start": 550,
           "end": 554,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -197,7 +207,9 @@
                   "start": 582,
                   "end": 618,
                   "value": "#3: new Boolean instanceof Boolean",
-                  "raw": "'#3: new Boolean instanceof Boolean'"
+                  "raw": "'#3: new Boolean instanceof Boolean'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

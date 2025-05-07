@@ -36,7 +36,9 @@
                     "start": 672,
                     "end": 682,
                     "value": "/ /",
-                    "raw": "\"/\\u2029/\""
+                    "raw": "\"/\\u2029/\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -75,7 +77,9 @@
                     "start": 718,
                     "end": 798,
                     "value": "#1.1: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: '"
+                    "raw": "'#1.1: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +106,9 @@
                             "start": 807,
                             "end": 817,
                             "value": "/ /",
-                            "raw": "\"/\\u2029/\""
+                            "raw": "\"/\\u2029/\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -175,7 +181,9 @@
                   "start": 880,
                   "end": 884,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -207,7 +215,9 @@
                             "start": 916,
                             "end": 996,
                             "value": "#1.2: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: '"
+                            "raw": "'#1.2: RegularExpressionFirstChar :: Paragraph separator is incorrect. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

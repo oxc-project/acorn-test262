@@ -90,14 +90,18 @@
                         "start": 723,
                         "end": 726,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 728,
                         "end": 729,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

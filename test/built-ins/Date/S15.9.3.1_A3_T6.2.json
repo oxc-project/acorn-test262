@@ -109,49 +109,63 @@
                 "start": 494,
                 "end": 498,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 500,
                 "end": 502,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 504,
                 "end": 506,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 510,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 514,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 516,
                 "end": 518,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 520,
                 "end": 523,
                 "value": 999,
-                "raw": "999"
+                "raw": "999",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -218,14 +232,18 @@
             "start": 558,
             "end": 573,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 618,
             "value": "x1.toString() must return \"[object Date]\"",
-            "raw": "'x1.toString() must return \"[object Date]\"'"
+            "raw": "'x1.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,49 +280,63 @@
                 "start": 640,
                 "end": 644,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 648,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 650,
                 "end": 651,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 653,
                 "end": 654,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 656,
                 "end": 657,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 659,
                 "end": 660,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 662,
                 "end": 663,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -371,14 +403,18 @@
             "start": 698,
             "end": 713,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 758,
             "value": "x2.toString() must return \"[object Date]\"",
-            "raw": "'x2.toString() must return \"[object Date]\"'"
+            "raw": "'x2.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -415,49 +451,63 @@
                 "start": 780,
                 "end": 784,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 786,
                 "end": 787,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 789,
                 "end": 790,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 792,
                 "end": 793,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 795,
                 "end": 796,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 798,
                 "end": 799,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 802,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -524,14 +574,18 @@
             "start": 837,
             "end": 852,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 854,
             "end": 897,
             "value": "x3.toString() must return \"[object Date]\"",
-            "raw": "'x3.toString() must return \"[object Date]\"'"
+            "raw": "'x3.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,49 +622,63 @@
                 "start": 919,
                 "end": 923,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 925,
                 "end": 927,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 929,
                 "end": 931,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 933,
                 "end": 935,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 937,
                 "end": 939,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 941,
                 "end": 943,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 945,
                 "end": 948,
                 "value": 999,
-                "raw": "999"
+                "raw": "999",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -677,14 +745,18 @@
             "start": 983,
             "end": 998,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1000,
             "end": 1043,
             "value": "x4.toString() must return \"[object Date]\"",
-            "raw": "'x4.toString() must return \"[object Date]\"'"
+            "raw": "'x4.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,49 +793,63 @@
                 "start": 1065,
                 "end": 1069,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1071,
                 "end": 1073,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1075,
                 "end": 1076,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1078,
                 "end": 1079,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1081,
                 "end": 1082,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1084,
                 "end": 1085,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1087,
                 "end": 1088,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -830,14 +916,18 @@
             "start": 1123,
             "end": 1138,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1140,
             "end": 1183,
             "value": "x5.toString() must return \"[object Date]\"",
-            "raw": "'x5.toString() must return \"[object Date]\"'"
+            "raw": "'x5.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -874,49 +964,63 @@
                 "start": 1205,
                 "end": 1209,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1211,
                 "end": 1212,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1214,
                 "end": 1215,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1217,
                 "end": 1218,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1220,
                 "end": 1221,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1223,
                 "end": 1224,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1226,
                 "end": 1227,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -983,14 +1087,18 @@
             "start": 1262,
             "end": 1277,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1279,
             "end": 1322,
             "value": "x6.toString() must return \"[object Date]\"",
-            "raw": "'x6.toString() must return \"[object Date]\"'"
+            "raw": "'x6.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1027,49 +1135,63 @@
                 "start": 1344,
                 "end": 1348,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1350,
                 "end": 1352,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1354,
                 "end": 1356,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1358,
                 "end": 1360,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1362,
                 "end": 1364,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1366,
                 "end": 1368,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1370,
                 "end": 1373,
                 "value": 999,
-                "raw": "999"
+                "raw": "999",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1136,14 +1258,18 @@
             "start": 1408,
             "end": 1423,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1425,
             "end": 1468,
             "value": "x7.toString() must return \"[object Date]\"",
-            "raw": "'x7.toString() must return \"[object Date]\"'"
+            "raw": "'x7.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1180,49 +1306,63 @@
                 "start": 1490,
                 "end": 1494,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1496,
                 "end": 1498,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1500,
                 "end": 1501,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1503,
                 "end": 1504,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1506,
                 "end": 1507,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1509,
                 "end": 1510,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1512,
                 "end": 1513,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1289,14 +1429,18 @@
             "start": 1548,
             "end": 1563,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1565,
             "end": 1608,
             "value": "x8.toString() must return \"[object Date]\"",
-            "raw": "'x8.toString() must return \"[object Date]\"'"
+            "raw": "'x8.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1333,49 +1477,63 @@
                 "start": 1630,
                 "end": 1634,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1636,
                 "end": 1637,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1639,
                 "end": 1640,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1642,
                 "end": 1643,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1645,
                 "end": 1646,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1648,
                 "end": 1649,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1651,
                 "end": 1652,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1442,14 +1600,18 @@
             "start": 1687,
             "end": 1702,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1704,
             "end": 1747,
             "value": "x9.toString() must return \"[object Date]\"",
-            "raw": "'x9.toString() must return \"[object Date]\"'"
+            "raw": "'x9.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1486,49 +1648,63 @@
                 "start": 1770,
                 "end": 1774,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1776,
                 "end": 1778,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1780,
                 "end": 1782,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1784,
                 "end": 1786,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1788,
                 "end": 1790,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1792,
                 "end": 1794,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1796,
                 "end": 1799,
                 "value": 999,
-                "raw": "999"
+                "raw": "999",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1595,14 +1771,18 @@
             "start": 1835,
             "end": 1850,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1852,
             "end": 1896,
             "value": "x10.toString() must return \"[object Date]\"",
-            "raw": "'x10.toString() must return \"[object Date]\"'"
+            "raw": "'x10.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1639,49 +1819,63 @@
                 "start": 1919,
                 "end": 1923,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1925,
                 "end": 1927,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1929,
                 "end": 1930,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1932,
                 "end": 1933,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1935,
                 "end": 1936,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1938,
                 "end": 1939,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1941,
                 "end": 1942,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1748,14 +1942,18 @@
             "start": 1978,
             "end": 1993,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1995,
             "end": 2039,
             "value": "x11.toString() must return \"[object Date]\"",
-            "raw": "'x11.toString() must return \"[object Date]\"'"
+            "raw": "'x11.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1792,49 +1990,63 @@
                 "start": 2062,
                 "end": 2066,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2068,
                 "end": 2069,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2071,
                 "end": 2072,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2074,
                 "end": 2075,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2077,
                 "end": 2078,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2080,
                 "end": 2081,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2083,
                 "end": 2084,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1901,14 +2113,18 @@
             "start": 2120,
             "end": 2135,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2137,
             "end": 2181,
             "value": "x12.toString() must return \"[object Date]\"",
-            "raw": "'x12.toString() must return \"[object Date]\"'"
+            "raw": "'x12.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

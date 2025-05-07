@@ -244,7 +244,9 @@
                       "start": 1112,
                       "end": 1116,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -384,7 +386,9 @@
                         "start": 1251,
                         "end": 1299,
                         "value": "buffer ctor is not called when species is null",
-                        "raw": "\"buffer ctor is not called when species is null\""
+                        "raw": "\"buffer ctor is not called when species is null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

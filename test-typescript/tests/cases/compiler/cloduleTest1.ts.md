@@ -319,7 +319,9 @@ __ESTREE_TEST__:PASS:
                 "start": 247,
                 "end": 252,
                 "raw": "'bar'",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -337,7 +339,9 @@ __ESTREE_TEST__:PASS:
                     "start": 230,
                     "end": 236,
                     "raw": "'.foo'",
-                    "value": ".foo"
+                    "value": ".foo",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {

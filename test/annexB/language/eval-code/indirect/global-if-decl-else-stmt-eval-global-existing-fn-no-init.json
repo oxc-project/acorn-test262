@@ -25,7 +25,9 @@
                 "start": 1037,
                 "end": 1038,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -42,7 +44,9 @@
             "start": 1048,
             "end": 1206,
             "value": "assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else ;function f() {    return \"outer declaration\";  }",
-            "raw": "'assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else ;function f() {\\\n    return \"outer declaration\";\\\n  }'"
+            "raw": "'assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else ;function f() {\\\n    return \"outer declaration\";\\\n  }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

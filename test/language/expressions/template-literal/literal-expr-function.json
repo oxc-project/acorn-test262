@@ -31,7 +31,9 @@
               "start": 489,
               "end": 497,
               "value": "result",
-              "raw": "'result'"
+              "raw": "'result'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -112,7 +114,9 @@
             "start": 538,
             "end": 554,
             "value": "foo result bar",
-            "raw": "'foo result bar'"
+            "raw": "'foo result bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

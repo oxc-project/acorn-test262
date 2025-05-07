@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": ".4?.",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -78,14 +79,18 @@
                 "start": 702,
                 "end": 707,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 709,
                 "end": 715,
                 "value": "[$&]",
-                "raw": "'[$&]'"
+                "raw": "'[$&]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,7 +100,9 @@
             "start": 718,
             "end": 725,
             "value": "[ab]c",
-            "raw": "'[ab]c'"
+            "raw": "'[ab]c'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

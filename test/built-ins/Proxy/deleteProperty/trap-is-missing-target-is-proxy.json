@@ -99,7 +99,9 @@
             "start": 670,
             "end": 675,
             "value": "bar",
-            "raw": "\"bar\""
+            "raw": "\"bar\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -124,7 +126,9 @@
                   "start": 695,
                   "end": 700,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -349,7 +353,9 @@
                   "start": 915,
                   "end": 920,
                   "value": "foo",
-                  "raw": "\"foo\""
+                  "raw": "\"foo\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -360,7 +366,9 @@
             "start": 925,
             "end": 974,
             "value": "'foo' property was deleted from original object",
-            "raw": "\"'foo' property was deleted from original object\""
+            "raw": "\"'foo' property was deleted from original object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -422,7 +430,9 @@
                   "start": 1028,
                   "end": 1033,
                   "value": "bar",
-                  "raw": "\"bar\""
+                  "raw": "\"bar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -508,7 +518,9 @@
                 "start": 1097,
                 "end": 1102,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -518,7 +530,9 @@
             "start": 1107,
             "end": 1160,
             "value": "'bar' property was not deleted from original object",
-            "raw": "\"'bar' property was not deleted from original object\""
+            "raw": "\"'bar' property was not deleted from original object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -774,7 +788,9 @@
                   "start": 1360,
                   "end": 1368,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -785,7 +801,9 @@
             "start": 1373,
             "end": 1425,
             "value": "'length' property was deleted from original object",
-            "raw": "\"'length' property was deleted from original object\""
+            "raw": "\"'length' property was deleted from original object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -848,7 +866,9 @@
                     "start": 1470,
                     "end": 1482,
                     "value": "use strict",
-                    "raw": "\"use strict\""
+                    "raw": "\"use strict\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "directive": "use strict"
                 },

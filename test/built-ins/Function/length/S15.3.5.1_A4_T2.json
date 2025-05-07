@@ -34,21 +34,27 @@
                 "start": 364,
                 "end": 380,
                 "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "raw": "\"arg1,arg2,arg3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 382,
                 "end": 393,
                 "value": "arg5,arg4",
-                "raw": "\"arg5,arg4\""
+                "raw": "\"arg5,arg4\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 399,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -101,7 +107,9 @@
                 "start": 427,
                 "end": 435,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -111,7 +119,9 @@
             "start": 438,
             "end": 485,
             "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,7 +182,9 @@
                 "start": 523,
                 "end": 531,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -200,7 +212,9 @@
                         "start": 558,
                         "end": 562,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -246,7 +260,9 @@
             "start": 593,
             "end": 644,
             "value": "The value of !lengthenumed is expected to be true",
-            "raw": "'The value of !lengthenumed is expected to be true'"
+            "raw": "'The value of !lengthenumed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

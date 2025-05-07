@@ -55,7 +55,9 @@
             "start": 333,
             "end": 336,
             "value": "x",
-            "raw": "\"x\""
+            "raw": "\"x\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -155,7 +157,9 @@
                   "start": 397,
                   "end": 398,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "property": {
@@ -173,7 +177,9 @@
               "start": 405,
               "end": 406,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -181,14 +187,18 @@
             "start": 408,
             "end": 413,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 415,
             "end": 427,
             "value": "(5).x == 0",
-            "raw": "'(5).x == 0'"
+            "raw": "'(5).x == 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +236,9 @@
                   "start": 438,
                   "end": 439,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "property": {
@@ -244,7 +256,9 @@
               "start": 446,
               "end": 447,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -252,7 +266,9 @@
             "start": 449,
             "end": 461,
             "value": "(5).x == 5",
-            "raw": "'(5).x == 5'"
+            "raw": "'(5).x == 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

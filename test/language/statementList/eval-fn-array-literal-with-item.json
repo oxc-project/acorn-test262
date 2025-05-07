@@ -34,7 +34,9 @@
                 "start": 1030,
                 "end": 1053,
                 "value": "function fn() {}[42];",
-                "raw": "'function fn() {}[42];'"
+                "raw": "'function fn() {}[42];'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -179,7 +181,9 @@
             "start": 1155,
             "end": 1156,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +232,9 @@
               "start": 1183,
               "end": 1184,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -238,7 +244,9 @@
             "start": 1187,
             "end": 1189,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

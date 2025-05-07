@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 30,
         "end": 46,
         "raw": "'./intermediate'",
-        "value": "./intermediate"
+        "value": "./intermediate",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -148,7 +150,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 28,
         "raw": "'./ghost'",
-        "value": "./ghost"
+        "value": "./ghost",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

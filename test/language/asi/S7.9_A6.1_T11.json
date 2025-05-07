@@ -12,7 +12,9 @@
         "start": 294,
         "end": 299,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "test": null,
       "update": null,

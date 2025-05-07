@@ -108,7 +108,9 @@
                               "start": 883,
                               "end": 898,
                               "value": "localeMatcher",
-                              "raw": "\"localeMatcher\""
+                              "raw": "\"localeMatcher\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -190,7 +192,9 @@
                               "start": 963,
                               "end": 973,
                               "value": "calendar",
-                              "raw": "\"calendar\""
+                              "raw": "\"calendar\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -272,7 +276,9 @@
                               "start": 1045,
                               "end": 1062,
                               "value": "numberingSystem",
-                              "raw": "\"numberingSystem\""
+                              "raw": "\"numberingSystem\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -354,7 +360,9 @@
                               "start": 1125,
                               "end": 1133,
                               "value": "hour12",
-                              "raw": "\"hour12\""
+                              "raw": "\"hour12\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -407,28 +415,36 @@
                 "start": 1188,
                 "end": 1203,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1207,
                 "end": 1217,
                 "value": "calendar",
-                "raw": "\"calendar\""
+                "raw": "\"calendar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1221,
                 "end": 1238,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1242,
                 "end": 1250,
                 "value": "hour12",
-                "raw": "\"hour12\""
+                "raw": "\"hour12\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

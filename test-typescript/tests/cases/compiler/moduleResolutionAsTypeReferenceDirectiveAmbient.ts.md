@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 23,
         "raw": "\"phaser\"",
-        "value": "phaser"
+        "value": "phaser",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "\"phaser\"",
-        "value": "phaser"
+        "value": "phaser",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

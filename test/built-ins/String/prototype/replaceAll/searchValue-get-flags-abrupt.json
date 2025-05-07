@@ -54,7 +54,9 @@
                   "start": 791,
                   "end": 795,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -133,7 +135,9 @@
             "start": 864,
             "end": 865,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -206,7 +210,9 @@
                             "start": 913,
                             "end": 914,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -219,7 +225,9 @@
                           "start": 926,
                           "end": 973,
                           "value": "Should not call toString on this/replaceValue",
-                          "raw": "'Should not call toString on this/replaceValue'"
+                          "raw": "'Should not call toString on this/replaceValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -302,7 +310,9 @@
                           "start": 1027,
                           "end": 1029,
                           "value": "",
-                          "raw": "''"
+                          "raw": "''",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -353,7 +363,9 @@
             "start": 1079,
             "end": 1111,
             "value": "from custom searchValue object",
-            "raw": "'from custom searchValue object'"
+            "raw": "'from custom searchValue object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,7 +395,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -428,7 +441,9 @@
             "start": 1157,
             "end": 1164,
             "value": "flags",
-            "raw": "'flags'"
+            "raw": "'flags'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -559,7 +574,9 @@
                           "start": 1254,
                           "end": 1256,
                           "value": "",
-                          "raw": "''"
+                          "raw": "''",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -610,7 +627,9 @@
             "start": 1298,
             "end": 1350,
             "value": "from RE instance, using default Symbol.match check",
-            "raw": "'from RE instance, using default Symbol.match check'"
+            "raw": "'from RE instance, using default Symbol.match check'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -636,7 +655,9 @@
             "start": 1367,
             "end": 1368,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -666,7 +687,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -777,7 +799,9 @@
                             "start": 1452,
                             "end": 1453,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -790,7 +814,9 @@
                           "start": 1466,
                           "end": 1470,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -843,7 +869,9 @@
             "start": 1507,
             "end": 1514,
             "value": "flags",
-            "raw": "'flags'"
+            "raw": "'flags'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -974,7 +1002,9 @@
                           "start": 1604,
                           "end": 1606,
                           "value": "",
-                          "raw": "''"
+                          "raw": "''",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -1025,7 +1055,9 @@
             "start": 1648,
             "end": 1699,
             "value": "from RE instance, using Symbol.match check (true)",
-            "raw": "'from RE instance, using Symbol.match check (true)'"
+            "raw": "'from RE instance, using Symbol.match check (true)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1070,7 +1102,9 @@
             "start": 1727,
             "end": 1728,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1096,7 +1130,9 @@
           "start": 1741,
           "end": 1742,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1124,7 +1160,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -1235,7 +1272,9 @@
                             "start": 1826,
                             "end": 1827,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -1248,7 +1287,9 @@
                           "start": 1840,
                           "end": 1841,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1301,7 +1342,9 @@
             "start": 1878,
             "end": 1885,
             "value": "flags",
-            "raw": "'flags'"
+            "raw": "'flags'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1432,7 +1475,9 @@
                           "start": 1975,
                           "end": 1977,
                           "value": "",
-                          "raw": "''"
+                          "raw": "''",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -1483,7 +1528,9 @@
             "start": 2019,
             "end": 2095,
             "value": "from RE instance, using Symbol.match check (1), uses Internal for IsRegExp",
-            "raw": "'from RE instance, using Symbol.match check (1), uses Internal for IsRegExp'"
+            "raw": "'from RE instance, using Symbol.match check (1), uses Internal for IsRegExp'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1528,7 +1575,9 @@
             "start": 2123,
             "end": 2124,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1573,7 +1622,9 @@
             "start": 2155,
             "end": 2156,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

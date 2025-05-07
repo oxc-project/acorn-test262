@@ -117,7 +117,9 @@
                 "start": 529,
                 "end": 530,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -131,7 +133,9 @@
                 "start": 537,
                 "end": 538,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -143,7 +147,9 @@
           "start": 544,
           "end": 550,
           "value": "ined",
-          "raw": "\"ined\""
+          "raw": "\"ined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -175,7 +181,9 @@
                     "start": 579,
                     "end": 669,
                     "value": "#1: __obj = {toString:function(){}}; String(__obj).slice(-4,void 0) === \"ined\". Actual: ",
-                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).slice(-4,void 0) === \"ined\". Actual: '"
+                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).slice(-4,void 0) === \"ined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -227,7 +235,9 @@
                           "start": 693,
                           "end": 694,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -241,7 +251,9 @@
                           "start": 701,
                           "end": 702,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

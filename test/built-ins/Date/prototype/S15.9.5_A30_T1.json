@@ -73,7 +73,9 @@
                 "start": 362,
                 "end": 374,
                 "value": "setSeconds",
-                "raw": "\"setSeconds\""
+                "raw": "\"setSeconds\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 379,
             "end": 383,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 449,
             "value": "Date.prototype.hasOwnProperty(\"setSeconds\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setSeconds\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"setSeconds\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

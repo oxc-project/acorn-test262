@@ -23,7 +23,9 @@
             "start": 504,
             "end": 505,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 520,
             "end": 525,
             "value": "str",
-            "raw": "'str'"
+            "raw": "'str'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -108,7 +112,9 @@
               "start": 567,
               "end": 575,
               "value": "result",
-              "raw": "'result'"
+              "raw": "'result'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -154,7 +160,9 @@
           "start": 599,
           "end": 600,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -254,14 +262,18 @@
                         "start": 669,
                         "end": 670,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 672,
                         "end": 713,
                         "value": "NoSubstitutionTemplate arguments length",
-                        "raw": "'NoSubstitutionTemplate arguments length'"
+                        "raw": "'NoSubstitutionTemplate arguments length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -330,14 +342,18 @@
             "start": 771,
             "end": 772,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 818,
             "value": "NoSubstitutionTemplate function invocation",
-            "raw": "'NoSubstitutionTemplate function invocation'"
+            "raw": "'NoSubstitutionTemplate function invocation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -363,7 +379,9 @@
           "start": 830,
           "end": 831,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -663,7 +681,9 @@
                         "start": 1019,
                         "end": 1027,
                         "value": "result",
-                        "raw": "'result'"
+                        "raw": "'result'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -721,14 +741,18 @@
                         "start": 1067,
                         "end": 1068,
                         "value": 6,
-                        "raw": "6"
+                        "raw": "6",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1070,
                         "end": 1101,
                         "value": "TemplateHead arguments length",
-                        "raw": "'TemplateHead arguments length'"
+                        "raw": "'TemplateHead arguments length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -885,14 +909,18 @@
             "start": 1198,
             "end": 1199,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1201,
             "end": 1235,
             "value": "TemplateHead function invocation",
-            "raw": "'TemplateHead function invocation'"
+            "raw": "'TemplateHead function invocation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

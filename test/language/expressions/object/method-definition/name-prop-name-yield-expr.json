@@ -23,7 +23,9 @@
             "start": 396,
             "end": 400,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 414,
             "end": 437,
             "value": "propNameViaIdentifier",
-            "raw": "'propNameViaIdentifier'"
+            "raw": "'propNameViaIdentifier'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -229,7 +233,9 @@
             "start": 540,
             "end": 544,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -268,7 +274,9 @@
             "start": 558,
             "end": 581,
             "value": "propNameViaExpression",
-            "raw": "'propNameViaExpression'"
+            "raw": "'propNameViaExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,7 +364,9 @@
                   "start": 638,
                   "end": 661,
                   "value": "propNameViaIdentifier",
-                  "raw": "'propNameViaIdentifier'"
+                  "raw": "'propNameViaIdentifier'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -367,7 +377,9 @@
             "start": 666,
             "end": 724,
             "value": "The property name is not taken from the 'yield' variable",
-            "raw": "\"The property name is not taken from the 'yield' variable\""
+            "raw": "\"The property name is not taken from the 'yield' variable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -449,7 +461,9 @@
                 "start": 780,
                 "end": 803,
                 "value": "propNameViaExpression",
-                "raw": "'propNameViaExpression'"
+                "raw": "'propNameViaExpression'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -459,7 +473,9 @@
             "start": 808,
             "end": 862,
             "value": "The property name is taken from the yield expression",
-            "raw": "\"The property name is taken from the yield expression\""
+            "raw": "\"The property name is taken from the yield expression\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

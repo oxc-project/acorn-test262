@@ -34,7 +34,9 @@
                 "start": 612,
                 "end": 627,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -132,14 +134,18 @@
             "start": 701,
             "end": 705,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 707,
             "end": 737,
             "value": "object is instanceof WeakRef",
-            "raw": "'object is instanceof WeakRef'"
+            "raw": "'object is instanceof WeakRef'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +236,9 @@
             "start": 803,
             "end": 835,
             "value": "prototype is WeakRef.prototype",
-            "raw": "'prototype is WeakRef.prototype'"
+            "raw": "'prototype is WeakRef.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -336,14 +344,18 @@
             "start": 918,
             "end": 922,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 924,
             "end": 954,
             "value": "object is instanceof WeakRef",
-            "raw": "'object is instanceof WeakRef'"
+            "raw": "'object is instanceof WeakRef'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -434,7 +446,9 @@
             "start": 1020,
             "end": 1052,
             "value": "prototype is WeakRef.prototype",
-            "raw": "'prototype is WeakRef.prototype'"
+            "raw": "'prototype is WeakRef.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

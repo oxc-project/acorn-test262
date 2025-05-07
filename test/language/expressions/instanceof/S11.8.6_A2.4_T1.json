@@ -23,7 +23,9 @@
             "start": 293,
             "end": 294,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -91,7 +93,9 @@
           "start": 344,
           "end": 348,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -119,7 +123,9 @@
                   "start": 377,
                   "end": 447,
                   "value": "#1: var OBJECT = 0; (OBJECT = Object, {}) instanceof OBJECT === true",
-                  "raw": "'#1: var OBJECT = 0; (OBJECT = Object, {}) instanceof OBJECT === true'"
+                  "raw": "'#1: var OBJECT = 0; (OBJECT = Object, {}) instanceof OBJECT === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -197,7 +203,9 @@
                     "start": 513,
                     "end": 514,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -216,7 +224,9 @@
           "start": 528,
           "end": 532,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -244,7 +254,9 @@
                   "start": 561,
                   "end": 632,
                   "value": "#2: var object = {};  object instanceof (object = 0, Object) === true",
-                  "raw": "'#2: var object = {};  object instanceof (object = 0, Object) === true'"
+                  "raw": "'#2: var object = {};  object instanceof (object = 0, Object) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

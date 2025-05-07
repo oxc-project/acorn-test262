@@ -202,7 +202,9 @@
               "start": 473,
               "end": 476,
               "value": "s",
-              "raw": "'s'"
+              "raw": "'s'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false

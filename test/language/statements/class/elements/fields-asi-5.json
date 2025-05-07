@@ -23,7 +23,9 @@
             "start": 327,
             "end": 328,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 338,
             "end": 339,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -80,7 +84,9 @@
                 "start": 350,
                 "end": 352,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -252,14 +258,18 @@
             "start": 443,
             "end": 447,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 461,
             "value": "a = x in z",
-            "raw": "'a = x in z'"
+            "raw": "'a = x in z'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -317,14 +327,18 @@
             "start": 486,
             "end": 491,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 505,
             "value": "b = y in z",
-            "raw": "'b = y in z'"
+            "raw": "'b = y in z'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -412,7 +426,9 @@
                   "start": 556,
                   "end": 560,
                   "value": "in",
-                  "raw": "\"in\""
+                  "raw": "\"in\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -423,7 +439,9 @@
             "start": 563,
             "end": 606,
             "value": "'in' is not parsed as a field declaration",
-            "raw": "\"'in' is not parsed as a field declaration\""
+            "raw": "\"'in' is not parsed as a field declaration\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,7 +529,9 @@
                   "start": 657,
                   "end": 660,
                   "value": "z",
-                  "raw": "\"z\""
+                  "raw": "\"z\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -522,7 +542,9 @@
             "start": 663,
             "end": 705,
             "value": "'z' is not parsed as a field declaration",
-            "raw": "\"'z' is not parsed as a field declaration\""
+            "raw": "\"'z' is not parsed as a field declaration\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

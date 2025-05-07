@@ -70,7 +70,9 @@
                             "start": 789,
                             "end": 790,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -117,7 +119,9 @@
                         "start": 826,
                         "end": 835,
                         "value": "test262",
-                        "raw": "\"test262\""
+                        "raw": "\"test262\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

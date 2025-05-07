@@ -36,7 +36,9 @@
             "start": 238,
             "end": 269,
             "value": "Sun, 23 Mar 2014 00:00:00 GMT",
-            "raw": "\"Sun, 23 Mar 2014 00:00:00 GMT\""
+            "raw": "\"Sun, 23 Mar 2014 00:00:00 GMT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -66,7 +68,9 @@
                       "start": 298,
                       "end": 320,
                       "value": "2014-03-23T00:00:00Z",
-                      "raw": "\"2014-03-23T00:00:00Z\""
+                      "raw": "\"2014-03-23T00:00:00Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -120,7 +124,9 @@
             "start": 356,
             "end": 387,
             "value": "Mon, 24 Mar 2014 00:00:00 GMT",
-            "raw": "\"Mon, 24 Mar 2014 00:00:00 GMT\""
+            "raw": "\"Mon, 24 Mar 2014 00:00:00 GMT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -150,7 +156,9 @@
                       "start": 416,
                       "end": 438,
                       "value": "2014-03-24T00:00:00Z",
-                      "raw": "\"2014-03-24T00:00:00Z\""
+                      "raw": "\"2014-03-24T00:00:00Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -204,7 +212,9 @@
             "start": 474,
             "end": 505,
             "value": "Tue, 25 Mar 2014 00:00:00 GMT",
-            "raw": "\"Tue, 25 Mar 2014 00:00:00 GMT\""
+            "raw": "\"Tue, 25 Mar 2014 00:00:00 GMT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -234,7 +244,9 @@
                       "start": 534,
                       "end": 556,
                       "value": "2014-03-25T00:00:00Z",
-                      "raw": "\"2014-03-25T00:00:00Z\""
+                      "raw": "\"2014-03-25T00:00:00Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -288,7 +300,9 @@
             "start": 592,
             "end": 623,
             "value": "Wed, 26 Mar 2014 00:00:00 GMT",
-            "raw": "\"Wed, 26 Mar 2014 00:00:00 GMT\""
+            "raw": "\"Wed, 26 Mar 2014 00:00:00 GMT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -318,7 +332,9 @@
                       "start": 652,
                       "end": 674,
                       "value": "2014-03-26T00:00:00Z",
-                      "raw": "\"2014-03-26T00:00:00Z\""
+                      "raw": "\"2014-03-26T00:00:00Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -372,7 +388,9 @@
             "start": 710,
             "end": 741,
             "value": "Thu, 27 Mar 2014 00:00:00 GMT",
-            "raw": "\"Thu, 27 Mar 2014 00:00:00 GMT\""
+            "raw": "\"Thu, 27 Mar 2014 00:00:00 GMT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -402,7 +420,9 @@
                       "start": 770,
                       "end": 792,
                       "value": "2014-03-27T00:00:00Z",
-                      "raw": "\"2014-03-27T00:00:00Z\""
+                      "raw": "\"2014-03-27T00:00:00Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -456,7 +476,9 @@
             "start": 828,
             "end": 859,
             "value": "Fri, 28 Mar 2014 00:00:00 GMT",
-            "raw": "\"Fri, 28 Mar 2014 00:00:00 GMT\""
+            "raw": "\"Fri, 28 Mar 2014 00:00:00 GMT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -486,7 +508,9 @@
                       "start": 888,
                       "end": 910,
                       "value": "2014-03-28T00:00:00Z",
-                      "raw": "\"2014-03-28T00:00:00Z\""
+                      "raw": "\"2014-03-28T00:00:00Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -540,7 +564,9 @@
             "start": 946,
             "end": 977,
             "value": "Sat, 29 Mar 2014 00:00:00 GMT",
-            "raw": "\"Sat, 29 Mar 2014 00:00:00 GMT\""
+            "raw": "\"Sat, 29 Mar 2014 00:00:00 GMT\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -570,7 +596,9 @@
                       "start": 1006,
                       "end": 1028,
                       "value": "2014-03-29T00:00:00Z",
-                      "raw": "\"2014-03-29T00:00:00Z\""
+                      "raw": "\"2014-03-29T00:00:00Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }

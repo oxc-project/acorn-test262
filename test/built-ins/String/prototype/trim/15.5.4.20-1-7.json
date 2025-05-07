@@ -86,7 +86,9 @@
                 "start": 278,
                 "end": 283,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 286,
             "end": 291,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 293,
             "end": 328,
             "value": "String.prototype.trim.call(\"abc\")",
-            "raw": "'String.prototype.trim.call(\"abc\")'"
+            "raw": "'String.prototype.trim.call(\"abc\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

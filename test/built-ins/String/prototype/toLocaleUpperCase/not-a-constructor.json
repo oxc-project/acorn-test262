@@ -82,14 +82,18 @@
             "start": 779,
             "end": 784,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 788,
             "end": 857,
             "value": "isConstructor(String.prototype.toLocaleUpperCase) must return false",
-            "raw": "'isConstructor(String.prototype.toLocaleUpperCase) must return false'"
+            "raw": "'isConstructor(String.prototype.toLocaleUpperCase) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

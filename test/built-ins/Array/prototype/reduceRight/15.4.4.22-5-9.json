@@ -23,7 +23,9 @@
             "start": 330,
             "end": 332,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -117,7 +119,9 @@
             "start": 411,
             "end": 458,
             "value": "[].reduceRight(function () { }, initialValue)",
-            "raw": "'[].reduceRight(function () { }, initialValue)'"
+            "raw": "'[].reduceRight(function () { }, initialValue)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

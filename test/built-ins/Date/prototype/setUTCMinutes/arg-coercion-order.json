@@ -146,7 +146,9 @@
                               "start": 885,
                               "end": 898,
                               "value": "valueOf min",
-                              "raw": "'valueOf min'"
+                              "raw": "'valueOf min'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -161,7 +163,9 @@
                           "start": 912,
                           "end": 913,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -255,7 +259,9 @@
                               "start": 978,
                               "end": 991,
                               "value": "valueOf sec",
-                              "raw": "'valueOf sec'"
+                              "raw": "'valueOf sec'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -270,7 +276,9 @@
                           "start": 1005,
                           "end": 1006,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -364,7 +372,9 @@
                               "start": 1070,
                               "end": 1082,
                               "value": "valueOf ms",
-                              "raw": "'valueOf ms'"
+                              "raw": "'valueOf ms'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -379,7 +389,9 @@
                           "start": 1096,
                           "end": 1097,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -482,21 +494,27 @@
                 "start": 1192,
                 "end": 1205,
                 "value": "valueOf min",
-                "raw": "'valueOf min'"
+                "raw": "'valueOf min'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1207,
                 "end": 1220,
                 "value": "valueOf sec",
-                "raw": "'valueOf sec'"
+                "raw": "'valueOf sec'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1222,
                 "end": 1234,
                 "value": "valueOf ms",
-                "raw": "'valueOf ms'"
+                "raw": "'valueOf ms'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -593,7 +611,9 @@
             "start": 1320,
             "end": 1372,
             "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "raw": "'argument is ignored when `this` is an invalid date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -664,7 +684,9 @@
             "start": 1413,
             "end": 1465,
             "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "raw": "'argument is ignored when `this` is an invalid date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

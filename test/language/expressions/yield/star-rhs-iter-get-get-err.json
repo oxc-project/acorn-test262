@@ -357,7 +357,9 @@
             "start": 980,
             "end": 1014,
             "value": "property is not accessed eagerly",
-            "raw": "'property is not accessed eagerly'"
+            "raw": "'property is not accessed eagerly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -464,7 +466,9 @@
             "start": 1083,
             "end": 1100,
             "value": "iteration value",
-            "raw": "'iteration value'"
+            "raw": "'iteration value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -522,14 +526,18 @@
             "start": 1133,
             "end": 1137,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1139,
             "end": 1157,
             "value": "iteration status",
-            "raw": "'iteration status'"
+            "raw": "'iteration status'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -580,7 +588,9 @@
             "start": 1193,
             "end": 1206,
             "value": "error value",
-            "raw": "'error value'"
+            "raw": "'error value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

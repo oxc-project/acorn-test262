@@ -84,7 +84,9 @@
                             "start": 629,
                             "end": 653,
                             "value": "./2nd-param_FIXTURE.js",
-                            "raw": "'./2nd-param_FIXTURE.js'"
+                            "raw": "'./2nd-param_FIXTURE.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": {
                             "type": "YieldExpression",
@@ -322,7 +324,9 @@
                             "start": 809,
                             "end": 812,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 10,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,7 +75,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 61,
         "raw": "\"./es6ImportDefaultBindingInEs5_0\"",
-        "value": "./es6ImportDefaultBindingInEs5_0"
+        "value": "./es6ImportDefaultBindingInEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

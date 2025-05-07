@@ -31,7 +31,9 @@
         "start": 2663,
         "end": 2701,
         "value": "./module-import-rejection_FIXTURE.js",
-        "raw": "'./module-import-rejection_FIXTURE.js'"
+        "raw": "'./module-import-rejection_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -55,7 +57,9 @@
             "start": 2727,
             "end": 2755,
             "value": "this should be unreachable",
-            "raw": "'this should be unreachable'"
+            "raw": "'this should be unreachable'",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

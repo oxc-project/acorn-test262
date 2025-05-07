@@ -47,7 +47,9 @@
                 "start": 1046,
                 "end": 1085,
                 "value": "1; for (var a in { x: 0 }) { break; }",
-                "raw": "'1; for (var a in { x: 0 }) { break; }'"
+                "raw": "'1; for (var a in { x: 0 }) { break; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 1122,
                 "end": 1164,
                 "value": "2; for (var b in { x: 0 }) { 3; break; }",
-                "raw": "'2; for (var b in { x: 0 }) { 3; break; }'"
+                "raw": "'2; for (var b in { x: 0 }) { 3; break; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 1167,
             "end": 1168,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +172,9 @@
                 "start": 1197,
                 "end": 1273,
                 "value": "4; outer: do { for (var a in { x: 0 }) { continue outer; } } while (false)",
-                "raw": "'4; outer: do { for (var a in { x: 0 }) { continue outer; } } while (false)'"
+                "raw": "'4; outer: do { for (var a in { x: 0 }) { continue outer; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,7 +233,9 @@
                 "start": 1316,
                 "end": 1395,
                 "value": "5; outer: do { for (var b in { x: 0 }) { 6; continue outer; } } while (false)",
-                "raw": "'5; outer: do { for (var b in { x: 0 }) { 6; continue outer; } } while (false)'"
+                "raw": "'5; outer: do { for (var b in { x: 0 }) { 6; continue outer; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -235,7 +245,9 @@
             "start": 1400,
             "end": 1401,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

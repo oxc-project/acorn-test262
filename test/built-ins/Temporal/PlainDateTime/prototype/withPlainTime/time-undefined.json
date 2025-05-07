@@ -47,63 +47,81 @@
                 "start": 324,
                 "end": 328,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 331,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 334,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 338,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 342,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 346,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 351,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 356,
                 "value": 654,
-                "raw": "654"
+                "raw": "654",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 361,
                 "value": 321,
-                "raw": "321"
+                "raw": "321",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -215,14 +233,18 @@
             "start": 449,
             "end": 450,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 478,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,14 +302,18 @@
             "start": 515,
             "end": 516,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 544,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,14 +371,18 @@
             "start": 581,
             "end": 582,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 610,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -410,14 +440,18 @@
             "start": 652,
             "end": 653,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 681,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -475,14 +509,18 @@
             "start": 723,
             "end": 724,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 752,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,14 +578,18 @@
             "start": 793,
             "end": 794,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 796,
             "end": 822,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -650,14 +692,18 @@
             "start": 901,
             "end": 902,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 930,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -715,14 +761,18 @@
             "start": 967,
             "end": 968,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 970,
             "end": 996,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -780,14 +830,18 @@
             "start": 1033,
             "end": 1034,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1062,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -845,14 +899,18 @@
             "start": 1104,
             "end": 1105,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1107,
             "end": 1133,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -910,14 +968,18 @@
             "start": 1175,
             "end": 1176,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1178,
             "end": 1204,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -975,14 +1037,18 @@
             "start": 1245,
             "end": 1246,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1248,
             "end": 1274,
             "value": "default time is midnight",
-            "raw": "\"default time is midnight\""
+            "raw": "\"default time is midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

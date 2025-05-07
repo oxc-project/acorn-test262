@@ -25,21 +25,27 @@
                 "start": 234,
                 "end": 238,
                 "value": "m1",
-                "raw": "\"m1\""
+                "raw": "\"m1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 240,
                 "end": 244,
                 "value": "M1",
-                "raw": "\"M1\""
+                "raw": "\"M1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 246,
                 "end": 251,
                 "value": "m01",
-                "raw": "\"m01\""
+                "raw": "\"m01\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -177,7 +183,9 @@
                                     "start": 344,
                                     "end": 348,
                                     "value": 2021,
-                                    "raw": "2021"
+                                    "raw": "2021",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -220,7 +228,9 @@
                                     "start": 366,
                                     "end": 368,
                                     "value": 17,
-                                    "raw": "17"
+                                    "raw": "17",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -379,7 +389,9 @@
                         "start": 494,
                         "end": 498,
                         "value": 2021,
-                        "raw": "2021"
+                        "raw": "2021",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -401,7 +413,9 @@
                         "start": 507,
                         "end": 509,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -423,7 +437,9 @@
                         "start": 522,
                         "end": 527,
                         "value": "M11",
-                        "raw": "\"M11\""
+                        "raw": "\"M11\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -445,7 +461,9 @@
                         "start": 534,
                         "end": 536,
                         "value": 17,
-                        "raw": "17"
+                        "raw": "17",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -460,7 +478,9 @@
             "start": 543,
             "end": 573,
             "value": "monthCode and month conflict",
-            "raw": "\"monthCode and month conflict\""
+            "raw": "\"monthCode and month conflict\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -488,49 +508,63 @@
                 "start": 578,
                 "end": 583,
                 "value": "M00",
-                "raw": "\"M00\""
+                "raw": "\"M00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 585,
                 "end": 590,
                 "value": "M19",
-                "raw": "\"M19\""
+                "raw": "\"M19\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 592,
                 "end": 597,
                 "value": "M99",
-                "raw": "\"M99\""
+                "raw": "\"M99\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 599,
                 "end": 604,
                 "value": "M13",
-                "raw": "\"M13\""
+                "raw": "\"M13\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 606,
                 "end": 612,
                 "value": "M00L",
-                "raw": "\"M00L\""
+                "raw": "\"M00L\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 614,
                 "end": 620,
                 "value": "M05L",
-                "raw": "\"M05L\""
+                "raw": "\"M05L\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 622,
                 "end": 628,
                 "value": "M13L",
-                "raw": "\"M13L\""
+                "raw": "\"M13L\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -668,7 +702,9 @@
                                     "start": 721,
                                     "end": 725,
                                     "value": 2021,
-                                    "raw": "2021"
+                                    "raw": "2021",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -711,7 +747,9 @@
                                     "start": 743,
                                     "end": 745,
                                     "value": 17,
-                                    "raw": "17"
+                                    "raw": "17",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -870,7 +908,9 @@
                         "start": 891,
                         "end": 892,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -892,7 +932,9 @@
                         "start": 905,
                         "end": 911,
                         "value": "L99M",
-                        "raw": "\"L99M\""
+                        "raw": "\"L99M\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -935,7 +977,9 @@
             "start": 934,
             "end": 996,
             "value": "Month code syntax is validated before year type is validated",
-            "raw": "\"Month code syntax is validated before year type is validated\""
+            "raw": "\"Month code syntax is validated before year type is validated\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1044,7 +1088,9 @@
                         "start": 1068,
                         "end": 1069,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1066,7 +1112,9 @@
                         "start": 1082,
                         "end": 1088,
                         "value": "M99L",
-                        "raw": "\"M99L\""
+                        "raw": "\"M99L\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1109,7 +1157,9 @@
             "start": 1111,
             "end": 1177,
             "value": "Month code suitability is validated after year type is validated",
-            "raw": "\"Month code suitability is validated after year type is validated\""
+            "raw": "\"Month code suitability is validated after year type is validated\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

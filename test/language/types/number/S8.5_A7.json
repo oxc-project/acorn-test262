@@ -67,7 +67,9 @@
           "start": 345,
           "end": 353,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -99,7 +101,9 @@
                     "start": 381,
                     "end": 436,
                     "value": "#1: var x=+Infinity; typeof(x) === \"number\". Actual: ",
-                    "raw": "'#1: var x=+Infinity; typeof(x) === \"number\". Actual: '"
+                    "raw": "'#1: var x=+Infinity; typeof(x) === \"number\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -172,7 +176,9 @@
           "start": 611,
           "end": 619,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -204,7 +210,9 @@
                     "start": 647,
                     "end": 693,
                     "value": "#2: typeof(+Infinity) === \"number\". Actual: ",
-                    "raw": "'#2: typeof(+Infinity) === \"number\". Actual: '"
+                    "raw": "'#2: typeof(+Infinity) === \"number\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

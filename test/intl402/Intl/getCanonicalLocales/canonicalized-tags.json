@@ -35,14 +35,18 @@
                   "start": 941,
                   "end": 945,
                   "value": "de",
-                  "raw": "\"de\""
+                  "raw": "\"de\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 947,
                   "end": 951,
                   "value": "de",
-                  "raw": "\"de\""
+                  "raw": "\"de\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 955,
                   "end": 962,
                   "value": "DE-de",
-                  "raw": "\"DE-de\""
+                  "raw": "\"DE-de\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 964,
                   "end": 971,
                   "value": "de-DE",
-                  "raw": "\"de-DE\""
+                  "raw": "\"de-DE\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 975,
                   "end": 982,
                   "value": "de-DE",
-                  "raw": "\"de-DE\""
+                  "raw": "\"de-DE\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 984,
                   "end": 991,
                   "value": "de-DE",
-                  "raw": "\"de-DE\""
+                  "raw": "\"de-DE\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -104,14 +116,18 @@
                   "start": 995,
                   "end": 1000,
                   "value": "cmn",
-                  "raw": "\"cmn\""
+                  "raw": "\"cmn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1002,
                   "end": 1006,
                   "value": "zh",
-                  "raw": "\"zh\""
+                  "raw": "\"zh\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -127,14 +143,18 @@
                   "start": 1010,
                   "end": 1020,
                   "value": "CMN-hANS",
-                  "raw": "\"CMN-hANS\""
+                  "raw": "\"CMN-hANS\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1022,
                   "end": 1031,
                   "value": "zh-Hans",
-                  "raw": "\"zh-Hans\""
+                  "raw": "\"zh-Hans\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -150,14 +170,18 @@
                   "start": 1035,
                   "end": 1048,
                   "value": "cmn-hans-cn",
-                  "raw": "\"cmn-hans-cn\""
+                  "raw": "\"cmn-hans-cn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1050,
                   "end": 1062,
                   "value": "zh-Hans-CN",
-                  "raw": "\"zh-Hans-CN\""
+                  "raw": "\"zh-Hans-CN\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -173,14 +197,18 @@
                   "start": 1066,
                   "end": 1074,
                   "value": "es-419",
-                  "raw": "\"es-419\""
+                  "raw": "\"es-419\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1076,
                   "end": 1084,
                   "value": "es-419",
-                  "raw": "\"es-419\""
+                  "raw": "\"es-419\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,14 +224,18 @@
                   "start": 1088,
                   "end": 1106,
                   "value": "es-419-u-nu-latn",
-                  "raw": "\"es-419-u-nu-latn\""
+                  "raw": "\"es-419-u-nu-latn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1108,
                   "end": 1126,
                   "value": "es-419-u-nu-latn",
-                  "raw": "\"es-419-u-nu-latn\""
+                  "raw": "\"es-419-u-nu-latn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -219,14 +251,18 @@
                   "start": 1130,
                   "end": 1159,
                   "value": "cmn-hans-cn-u-ca-t-ca-x-t-u",
-                  "raw": "\"cmn-hans-cn-u-ca-t-ca-x-t-u\""
+                  "raw": "\"cmn-hans-cn-u-ca-t-ca-x-t-u\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1161,
                   "end": 1189,
                   "value": "zh-Hans-CN-t-ca-u-ca-x-t-u",
-                  "raw": "\"zh-Hans-CN-t-ca-u-ca-x-t-u\""
+                  "raw": "\"zh-Hans-CN-t-ca-u-ca-x-t-u\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -242,14 +278,18 @@
                   "start": 1193,
                   "end": 1218,
                   "value": "de-gregory-u-ca-gregory",
-                  "raw": "\"de-gregory-u-ca-gregory\""
+                  "raw": "\"de-gregory-u-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1220,
                   "end": 1245,
                   "value": "de-gregory-u-ca-gregory",
-                  "raw": "\"de-gregory-u-ca-gregory\""
+                  "raw": "\"de-gregory-u-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -265,14 +305,18 @@
                   "start": 1249,
                   "end": 1257,
                   "value": "sgn-GR",
-                  "raw": "\"sgn-GR\""
+                  "raw": "\"sgn-GR\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1259,
                   "end": 1264,
                   "value": "gss",
-                  "raw": "\"gss\""
+                  "raw": "\"gss\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -288,14 +332,18 @@
                   "start": 1268,
                   "end": 1272,
                   "value": "ji",
-                  "raw": "\"ji\""
+                  "raw": "\"ji\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1274,
                   "end": 1278,
                   "value": "yi",
-                  "raw": "\"yi\""
+                  "raw": "\"yi\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -311,14 +359,18 @@
                   "start": 1282,
                   "end": 1289,
                   "value": "de-DD",
-                  "raw": "\"de-DD\""
+                  "raw": "\"de-DD\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1291,
                   "end": 1298,
                   "value": "de-DE",
-                  "raw": "\"de-DE\""
+                  "raw": "\"de-DE\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -334,14 +386,18 @@
                   "start": 1302,
                   "end": 1306,
                   "value": "in",
-                  "raw": "\"in\""
+                  "raw": "\"in\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1308,
                   "end": 1312,
                   "value": "id",
-                  "raw": "\"id\""
+                  "raw": "\"id\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -357,14 +413,18 @@
                   "start": 1316,
                   "end": 1332,
                   "value": "sr-cyrl-ekavsk",
-                  "raw": "\"sr-cyrl-ekavsk\""
+                  "raw": "\"sr-cyrl-ekavsk\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1334,
                   "end": 1350,
                   "value": "sr-Cyrl-ekavsk",
-                  "raw": "\"sr-Cyrl-ekavsk\""
+                  "raw": "\"sr-Cyrl-ekavsk\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -380,14 +440,18 @@
                   "start": 1354,
                   "end": 1370,
                   "value": "en-ca-newfound",
-                  "raw": "\"en-ca-newfound\""
+                  "raw": "\"en-ca-newfound\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1372,
                   "end": 1388,
                   "value": "en-CA-newfound",
-                  "raw": "\"en-CA-newfound\""
+                  "raw": "\"en-CA-newfound\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -403,14 +467,18 @@
                   "start": 1392,
                   "end": 1413,
                   "value": "sl-rozaj-biske-1994",
-                  "raw": "\"sl-rozaj-biske-1994\""
+                  "raw": "\"sl-rozaj-biske-1994\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1415,
                   "end": 1436,
                   "value": "sl-1994-biske-rozaj",
-                  "raw": "\"sl-1994-biske-rozaj\""
+                  "raw": "\"sl-1994-biske-rozaj\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -426,14 +494,18 @@
                   "start": 1440,
                   "end": 1451,
                   "value": "da-u-attr",
-                  "raw": "\"da-u-attr\""
+                  "raw": "\"da-u-attr\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1453,
                   "end": 1464,
                   "value": "da-u-attr",
-                  "raw": "\"da-u-attr\""
+                  "raw": "\"da-u-attr\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -449,14 +521,18 @@
                   "start": 1468,
                   "end": 1489,
                   "value": "da-u-attr-co-search",
-                  "raw": "\"da-u-attr-co-search\""
+                  "raw": "\"da-u-attr-co-search\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1491,
                   "end": 1512,
                   "value": "da-u-attr-co-search",
-                  "raw": "\"da-u-attr-co-search\""
+                  "raw": "\"da-u-attr-co-search\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -628,7 +704,9 @@
                             "start": 1758,
                             "end": 1772,
                             "value": "Test data \"",
-                            "raw": "\"Test data \\\"\""
+                            "raw": "\"Test data \\\"\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -644,7 +722,9 @@
                           "start": 1794,
                           "end": 1856,
                           "value": "\" is not canonicalized and structurally valid language tag.",
-                          "raw": "\"\\\" is not canonicalized and structurally valid language tag.\""
+                          "raw": "\"\\\" is not canonicalized and structurally valid language tag.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -838,7 +918,9 @@
                         "start": 2038,
                         "end": 2039,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -887,7 +969,9 @@
                           "start": 2078,
                           "end": 2079,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

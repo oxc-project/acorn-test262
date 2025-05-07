@@ -74,7 +74,9 @@
                     "start": 987,
                     "end": 989,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -124,14 +126,18 @@
             "start": 1014,
             "end": 1016,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1018,
             "end": 1035,
             "value": "property exists",
-            "raw": "'property exists'"
+            "raw": "'property exists'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,7 +186,9 @@
               "start": 1057,
               "end": 1066,
               "value": "finally",
-              "raw": "'finally'"
+              "raw": "'finally'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -190,14 +198,18 @@
             "start": 1069,
             "end": 1071,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1073,
             "end": 1096,
             "value": "assignment successful",
-            "raw": "'assignment successful'"
+            "raw": "'assignment successful'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

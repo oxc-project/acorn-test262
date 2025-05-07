@@ -23,7 +23,9 @@
             "start": 838,
             "end": 842,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -95,7 +97,9 @@
                         "start": 886,
                         "end": 934,
                         "value": "initial = x; x = 4; postAssignment = x; var x;",
-                        "raw": "'initial = x; x = 4; postAssignment = x; var x;'"
+                        "raw": "'initial = x; x = 4; postAssignment = x; var x;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -192,14 +196,18 @@
             "start": 1015,
             "end": 1016,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1018,
             "end": 1038,
             "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "raw": "'binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

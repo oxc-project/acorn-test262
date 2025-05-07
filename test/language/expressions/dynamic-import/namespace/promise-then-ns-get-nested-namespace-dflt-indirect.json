@@ -40,7 +40,9 @@
                       "start": 4757,
                       "end": 4808,
                       "value": "./get-nested-namespace-dflt-skip-named_FIXTURE.js",
-                      "raw": "'./get-nested-namespace-dflt-skip-named_FIXTURE.js'"
+                      "raw": "'./get-nested-namespace-dflt-skip-named_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -125,7 +127,9 @@
                                     "start": 4875,
                                     "end": 4885,
                                     "value": "namedNS2",
-                                    "raw": "'namedNS2'"
+                                    "raw": "'namedNS2'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -186,14 +190,18 @@
                                 "start": 4927,
                                 "end": 4931,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4933,
                                 "end": 4961,
                                 "value": "ns.namedNS2: is enumerable",
-                                "raw": "'ns.namedNS2: is enumerable'"
+                                "raw": "'ns.namedNS2: is enumerable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -251,14 +259,18 @@
                                 "start": 5000,
                                 "end": 5004,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5006,
                                 "end": 5032,
                                 "value": "ns.namedNS2: is writable",
-                                "raw": "'ns.namedNS2: is writable'"
+                                "raw": "'ns.namedNS2: is writable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -316,14 +328,18 @@
                                 "start": 5075,
                                 "end": 5080,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5082,
                                 "end": 5116,
                                 "value": "ns.namedNS2: is non-configurable",
-                                "raw": "'ns.namedNS2: is non-configurable'"
+                                "raw": "'ns.namedNS2: is non-configurable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -446,7 +462,9 @@
                                 "start": 5211,
                                 "end": 5212,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -495,7 +513,9 @@
                                   "start": 5241,
                                   "end": 5242,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "computed": true,
                                 "optional": false
@@ -505,7 +525,9 @@
                                 "start": 5245,
                                 "end": 5254,
                                 "value": "default",
-                                "raw": "'default'"
+                                "raw": "'default'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -554,7 +576,9 @@
                                   "start": 5283,
                                   "end": 5284,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "computed": true,
                                 "optional": false
@@ -564,7 +588,9 @@
                                 "start": 5287,
                                 "end": 5299,
                                 "value": "namedOther",
-                                "raw": "'namedOther'"
+                                "raw": "'namedOther'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -633,7 +659,9 @@
                                   "start": 5359,
                                   "end": 5371,
                                   "value": "namedOther",
-                                  "raw": "'namedOther'"
+                                  "raw": "'namedOther'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -692,14 +720,18 @@
                                 "start": 5408,
                                 "end": 5412,
                                 "value": null,
-                                "raw": "null"
+                                "raw": "null",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5414,
                                 "end": 5452,
                                 "value": "ns.namedNS2.namedOther value is null",
-                                "raw": "'ns.namedNS2.namedOther value is null'"
+                                "raw": "'ns.namedNS2.namedOther value is null'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -757,14 +789,18 @@
                                 "start": 5493,
                                 "end": 5497,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5499,
                                 "end": 5538,
                                 "value": "ns.namedNS2.namedOther: is enumerable",
-                                "raw": "'ns.namedNS2.namedOther: is enumerable'"
+                                "raw": "'ns.namedNS2.namedOther: is enumerable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -822,14 +858,18 @@
                                 "start": 5577,
                                 "end": 5581,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5583,
                                 "end": 5620,
                                 "value": "ns.namedNS2.namedOther: is writable",
-                                "raw": "'ns.namedNS2.namedOther: is writable'"
+                                "raw": "'ns.namedNS2.namedOther: is writable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -887,14 +927,18 @@
                                 "start": 5663,
                                 "end": 5668,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5670,
                                 "end": 5715,
                                 "value": "ns.namedNS2.namedOther: is non-configurable",
-                                "raw": "'ns.namedNS2.namedOther: is non-configurable'"
+                                "raw": "'ns.namedNS2.namedOther: is non-configurable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -963,7 +1007,9 @@
                                   "start": 5775,
                                   "end": 5784,
                                   "value": "default",
-                                  "raw": "'default'"
+                                  "raw": "'default'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1022,14 +1068,18 @@
                                 "start": 5821,
                                 "end": 5823,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5825,
                                 "end": 5858,
                                 "value": "ns.namedNS2.default value is 42",
-                                "raw": "'ns.namedNS2.default value is 42'"
+                                "raw": "'ns.namedNS2.default value is 42'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -1087,14 +1137,18 @@
                                 "start": 5899,
                                 "end": 5903,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5905,
                                 "end": 5940,
                                 "value": "ns.namedNS2.default is enumerable",
-                                "raw": "'ns.namedNS2.default is enumerable'"
+                                "raw": "'ns.namedNS2.default is enumerable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -1152,14 +1206,18 @@
                                 "start": 5979,
                                 "end": 5983,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 5985,
                                 "end": 6018,
                                 "value": "ns.namedNS2.default is writable",
-                                "raw": "'ns.namedNS2.default is writable'"
+                                "raw": "'ns.namedNS2.default is writable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -1217,14 +1275,18 @@
                                 "start": 6061,
                                 "end": 6066,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 6068,
                                 "end": 6109,
                                 "value": "ns.namedNS2.default is non-configurable",
-                                "raw": "'ns.namedNS2.default is non-configurable'"
+                                "raw": "'ns.namedNS2.default is non-configurable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

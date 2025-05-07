@@ -98,7 +98,9 @@
                 "start": 404,
                 "end": 416,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 419,
             "end": 423,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 479,
             "value": "__re.hasOwnProperty('ignoreCase') must return true",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +184,9 @@
                 "start": 529,
                 "end": 541,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -188,14 +196,18 @@
             "start": 546,
             "end": 551,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 616,
             "value": "__re.propertyIsEnumerable('ignoreCase') must return false",
-            "raw": "'__re.propertyIsEnumerable(\\'ignoreCase\\') must return false'"
+            "raw": "'__re.propertyIsEnumerable(\\'ignoreCase\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,7 +233,9 @@
             "start": 633,
             "end": 634,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -282,7 +296,9 @@
                 "start": 666,
                 "end": 678,
                 "value": "ignoreCase",
-                "raw": "\"ignoreCase\""
+                "raw": "\"ignoreCase\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -354,14 +370,18 @@
             "start": 728,
             "end": 729,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 771,
             "value": "The value of count is expected to be 0",
-            "raw": "'The value of count is expected to be 0'"
+            "raw": "'The value of count is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

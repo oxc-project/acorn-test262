@@ -23,7 +23,9 @@
             "start": 716,
             "end": 718,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 765,
                             "end": 768,
                             "value": "d",
-                            "raw": "'d'"
+                            "raw": "'d'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -152,7 +156,9 @@
                             "start": 805,
                             "end": 808,
                             "value": "g",
-                            "raw": "'g'"
+                            "raw": "'g'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -208,7 +214,9 @@
                             "start": 849,
                             "end": 852,
                             "value": "i",
-                            "raw": "'i'"
+                            "raw": "'i'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -264,7 +272,9 @@
                             "start": 892,
                             "end": 895,
                             "value": "m",
-                            "raw": "'m'"
+                            "raw": "'m'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -320,7 +330,9 @@
                             "start": 932,
                             "end": 935,
                             "value": "s",
-                            "raw": "'s'"
+                            "raw": "'s'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -376,7 +388,9 @@
                             "start": 973,
                             "end": 976,
                             "value": "u",
-                            "raw": "'u'"
+                            "raw": "'u'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -432,7 +446,9 @@
                             "start": 1013,
                             "end": 1016,
                             "value": "y",
-                            "raw": "'y'"
+                            "raw": "'y'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -514,7 +530,9 @@
                   "start": 1087,
                   "end": 1094,
                   "value": "flags",
-                  "raw": "'flags'"
+                  "raw": "'flags'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -609,7 +627,9 @@
             "start": 1140,
             "end": 1149,
             "value": "dgimsuy",
-            "raw": "'dgimsuy'"
+            "raw": "'dgimsuy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 1829,
             "end": 1830,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1849,
             "end": 1850,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -151,7 +155,9 @@
                               "start": 1915,
                               "end": 1916,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -292,14 +298,18 @@
             "start": 2017,
             "end": 2018,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2020,
             "end": 2047,
             "value": "method body not evaluated",
-            "raw": "'method body not evaluated'"
+            "raw": "'method body not evaluated'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

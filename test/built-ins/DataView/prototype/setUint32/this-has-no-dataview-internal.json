@@ -148,7 +148,9 @@
             "start": 904,
             "end": 908,
             "value": "{}",
-            "raw": "\"{}\""
+            "raw": "\"{}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +250,9 @@
             "start": 975,
             "end": 979,
             "value": "[]",
-            "raw": "\"[]\""
+            "raw": "\"[]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,7 +289,9 @@
                 "start": 1008,
                 "end": 1009,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -387,7 +393,9 @@
             "start": 1075,
             "end": 1088,
             "value": "ArrayBuffer",
-            "raw": "\"ArrayBuffer\""
+            "raw": "\"ArrayBuffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -518,7 +526,9 @@
             "start": 1181,
             "end": 1193,
             "value": "TypedArray",
-            "raw": "\"TypedArray\""
+            "raw": "\"TypedArray\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

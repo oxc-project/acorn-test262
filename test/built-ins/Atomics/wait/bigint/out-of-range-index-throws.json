@@ -69,7 +69,9 @@
                       "start": 634,
                       "end": 635,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -147,7 +149,9 @@
                               "start": 711,
                               "end": 742,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -361,7 +365,9 @@
                         "start": 908,
                         "end": 909,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -473,7 +479,9 @@
                         "start": 996,
                         "end": 999,
                         "value": 200,
-                        "raw": "200"
+                        "raw": "200",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

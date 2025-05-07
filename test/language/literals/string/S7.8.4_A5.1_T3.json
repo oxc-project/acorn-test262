@@ -16,7 +16,9 @@
           "start": 234,
           "end": 240,
           "value": "\u0000",
-          "raw": "\"\\x00\""
+          "raw": "\"\\x00\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -24,7 +26,9 @@
           "start": 245,
           "end": 249,
           "value": "\u0000",
-          "raw": "\"\\0\""
+          "raw": "\"\\0\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -52,7 +56,9 @@
                   "start": 278,
                   "end": 301,
                   "value": "#1: \"\\x00\" === \"\\0\"",
-                  "raw": "'#1: \"\\\\x00\" === \"\\\\0\"'"
+                  "raw": "'#1: \"\\\\x00\" === \"\\\\0\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

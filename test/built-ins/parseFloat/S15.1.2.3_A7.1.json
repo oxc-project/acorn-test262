@@ -40,7 +40,9 @@
               "start": 342,
               "end": 350,
               "value": "length",
-              "raw": "'length'"
+              "raw": "'length'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -51,7 +53,9 @@
           "start": 356,
           "end": 361,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -83,7 +87,9 @@
                     "start": 390,
                     "end": 459,
                     "value": "#1: parseFloat.propertyIsEnumerable('length') === false. Actual: ",
-                    "raw": "'#1: parseFloat.propertyIsEnumerable(\\'length\\') === false. Actual: '"
+                    "raw": "'#1: parseFloat.propertyIsEnumerable(\\'length\\') === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -119,7 +125,9 @@
                           "start": 495,
                           "end": 503,
                           "value": "length",
-                          "raw": "'length'"
+                          "raw": "'length'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -153,7 +161,9 @@
             "start": 534,
             "end": 538,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -214,7 +224,9 @@
                 "start": 580,
                 "end": 588,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -242,7 +254,9 @@
                       "start": 605,
                       "end": 610,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -273,7 +287,9 @@
           "start": 634,
           "end": 638,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -301,7 +317,9 @@
                   "start": 667,
                   "end": 767,
                   "value": "#2: result = true; for (p in parseFloat) { if (p === \"length\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in parseFloat) { if (p === \"length\") result = false; }  result === true;'"
+                  "raw": "'#2: result = true; for (p in parseFloat) { if (p === \"length\") result = false; }  result === true;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -86,6 +86,7 @@
                       "end": 412,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {
@@ -186,21 +187,27 @@
             "start": 515,
             "end": 520,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 530,
             "value": "+00:00",
-            "raw": "\"+00:00\""
+            "raw": "\"+00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 557,
             "value": "offset of UTC is +00:00",
-            "raw": "\"offset of UTC is +00:00\""
+            "raw": "\"offset of UTC is +00:00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,21 +233,27 @@
             "start": 565,
             "end": 573,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 583,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 585,
             "end": 602,
             "value": "positive offset",
-            "raw": "\"positive offset\""
+            "raw": "\"positive offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,21 +279,27 @@
             "start": 610,
             "end": 618,
             "value": "-05:00",
-            "raw": "\"-05:00\""
+            "raw": "\"-05:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 620,
             "end": 628,
             "value": "-05:00",
-            "raw": "\"-05:00\""
+            "raw": "\"-05:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 647,
             "value": "negative offset",
-            "raw": "\"negative offset\""
+            "raw": "\"negative offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

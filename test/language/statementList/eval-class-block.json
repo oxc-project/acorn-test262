@@ -34,7 +34,9 @@
                 "start": 848,
                 "end": 862,
                 "value": "class C {}{}",
-                "raw": "'class C {}{}'"
+                "raw": "'class C {}{}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

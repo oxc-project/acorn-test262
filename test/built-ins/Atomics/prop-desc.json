@@ -49,14 +49,18 @@
             "start": 874,
             "end": 882,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 884,
             "end": 927,
             "value": "The value of `typeof Atomics` is \"object\"",
-            "raw": "'The value of `typeof Atomics` is \"object\"'"
+            "raw": "'The value of `typeof Atomics` is \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +236,9 @@
             "start": 1068,
             "end": 1077,
             "value": "Atomics",
-            "raw": "\"Atomics\""
+            "raw": "\"Atomics\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -257,7 +263,9 @@
                   "start": 1095,
                   "end": 1100,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -279,7 +287,9 @@
                   "start": 1114,
                   "end": 1118,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -301,7 +311,9 @@
                   "start": 1136,
                   "end": 1140,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

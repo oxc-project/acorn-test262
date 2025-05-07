@@ -82,7 +82,9 @@
                             "start": 408,
                             "end": 417,
                             "value": "^[z-a]$",
-                            "raw": "\"^[z-a]$\""
+                            "raw": "\"^[z-a]$\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

@@ -36,7 +36,9 @@
                 "start": 358,
                 "end": 359,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -60,7 +62,9 @@
                   "start": 386,
                   "end": 443,
                   "value": "This code is unreachable (following `yield` statement).",
-                  "raw": "'This code is unreachable (following `yield` statement).'"
+                  "raw": "'This code is unreachable (following `yield` statement).'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -120,7 +124,9 @@
             "start": 481,
             "end": 482,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -269,7 +275,9 @@
                                       "start": 618,
                                       "end": 620,
                                       "value": 34,
-                                      "raw": "34"
+                                      "raw": "34",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -292,7 +300,9 @@
                                           "start": 652,
                                           "end": 710,
                                           "value": "This code is unreachable (following `return` statement).",
-                                          "raw": "'This code is unreachable (following `return` statement).'"
+                                          "raw": "'This code is unreachable (following `return` statement).'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }
@@ -322,7 +332,9 @@
                                   "start": 747,
                                   "end": 802,
                                   "value": "This code is unreachable (following `try` statement).",
-                                  "raw": "'This code is unreachable (following `try` statement).'"
+                                  "raw": "'This code is unreachable (following `try` statement).'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -350,7 +362,9 @@
                             "start": 835,
                             "end": 894,
                             "value": "This code is unreachable (following `for..in` statement).",
-                            "raw": "'This code is unreachable (following `for..in` statement).'"
+                            "raw": "'This code is unreachable (following `for..in` statement).'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -405,7 +419,9 @@
             "start": 929,
             "end": 931,
             "value": 34,
-            "raw": "34"
+            "raw": "34",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,7 +466,9 @@
             "start": 954,
             "end": 955,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -49,14 +49,18 @@
             "start": 246,
             "end": 256,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 258,
             "end": 289,
             "value": "typeof URIError is \"function\"",
-            "raw": "'typeof URIError is \"function\"'"
+            "raw": "'typeof URIError is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

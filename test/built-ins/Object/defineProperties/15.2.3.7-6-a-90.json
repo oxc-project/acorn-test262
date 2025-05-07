@@ -121,7 +121,9 @@
               "start": 525,
               "end": 527,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -166,7 +168,9 @@
             "start": 559,
             "end": 564,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -233,7 +237,9 @@
                   "start": 616,
                   "end": 621,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -255,7 +261,9 @@
                   "start": 639,
                   "end": 644,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -379,7 +387,9 @@
             "start": 735,
             "end": 740,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -424,14 +434,18 @@
             "start": 776,
             "end": 781,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 783,
             "end": 802,
             "value": "setVerifyHelpProp",
-            "raw": "\"setVerifyHelpProp\""
+            "raw": "\"setVerifyHelpProp\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -463,7 +477,9 @@
             "start": 826,
             "end": 831,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -488,7 +504,9 @@
                   "start": 849,
                   "end": 854,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -510,7 +528,9 @@
                   "start": 872,
                   "end": 877,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -183,7 +183,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 28,
         "raw": "\"./test\"",
-        "value": "./test"
+        "value": "./test",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -291,7 +293,9 @@ __ESTREE_TEST__:PASS:
                     "start": 130,
                     "end": 132,
                     "raw": "''",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -323,7 +327,9 @@ __ESTREE_TEST__:PASS:
                     "start": 144,
                     "end": 146,
                     "raw": "''",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

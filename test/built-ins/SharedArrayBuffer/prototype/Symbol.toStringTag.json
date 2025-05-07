@@ -81,7 +81,9 @@
             "start": 640,
             "end": 659,
             "value": "SharedArrayBuffer",
-            "raw": "'SharedArrayBuffer'"
+            "raw": "'SharedArrayBuffer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +165,9 @@
                   "start": 741,
                   "end": 746,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -185,7 +189,9 @@
                   "start": 762,
                   "end": 767,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -207,7 +213,9 @@
                   "start": 785,
                   "end": 789,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

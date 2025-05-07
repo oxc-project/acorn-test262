@@ -63,7 +63,9 @@
                 "start": 407,
                 "end": 408,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -75,7 +77,9 @@
           "start": 413,
           "end": 414,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -122,7 +126,9 @@
               "start": 435,
               "end": 436,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -132,14 +138,18 @@
             "start": 439,
             "end": 440,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 442,
             "end": 481,
             "value": "The value of x[0] is expected to be 0",
-            "raw": "'The value of x[0] is expected to be 0'"
+            "raw": "'The value of x[0] is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,7 +215,9 @@
                 "start": 510,
                 "end": 511,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -217,7 +229,9 @@
           "start": 516,
           "end": 517,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -264,7 +278,9 @@
               "start": 538,
               "end": 539,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -274,14 +290,18 @@
             "start": 542,
             "end": 543,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 584,
             "value": "The value of y[1] is expected to be 1",
-            "raw": "'The value of y[1] is expected to be 1'"
+            "raw": "'The value of y[1] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -347,7 +367,9 @@
                 "start": 613,
                 "end": 616,
                 "value": 1.1,
-                "raw": "1.1"
+                "raw": "1.1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -359,7 +381,9 @@
           "start": 621,
           "end": 622,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -406,7 +430,9 @@
               "start": 643,
               "end": 648,
               "value": "1.1",
-              "raw": "\"1.1\""
+              "raw": "\"1.1\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -416,14 +442,18 @@
             "start": 651,
             "end": 652,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 654,
             "end": 697,
             "value": "The value of z[\"1.1\"] is expected to be 1",
-            "raw": "'The value of z[\"1.1\"] is expected to be 1'"
+            "raw": "'The value of z[\"1.1\"] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

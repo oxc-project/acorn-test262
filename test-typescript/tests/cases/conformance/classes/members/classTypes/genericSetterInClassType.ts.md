@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
                               "start": 74,
                               "end": 75,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             },
                             "typeAnnotation": {
                               "type": "TSNeverKeyword",
@@ -618,7 +620,9 @@ __ESTREE_TEST__:PASS:
                 "start": 397,
                 "end": 398,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               }
             }
           }

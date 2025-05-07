@@ -49,7 +49,9 @@
         "start": 1150,
         "end": 1199,
         "value": "./instn-named-err-dflt-thru-star-int_FIXTURE.js",
-        "raw": "'./instn-named-err-dflt-thru-star-int_FIXTURE.js'"
+        "raw": "'./instn-named-err-dflt-thru-star-int_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

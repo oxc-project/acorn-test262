@@ -48,6 +48,7 @@
                 "end": 347,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -163,7 +164,9 @@
             "start": 420,
             "end": 463,
             "value": "[object Object] is not a valid ISO string",
-            "raw": "\"[object Object] is not a valid ISO string\""
+            "raw": "\"[object Object] is not a valid ISO string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +223,9 @@
                   "start": 504,
                   "end": 523,
                   "value": "1970-01-01T00:00Z",
-                  "raw": "\"1970-01-01T00:00Z\""
+                  "raw": "\"1970-01-01T00:00Z\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -319,77 +324,99 @@
             "start": 603,
             "end": 604,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 607,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 609,
             "end": 610,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 613,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 616,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 618,
             "end": 619,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 621,
             "end": 622,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 625,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 628,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 631,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 682,
             "value": "result of toString is interpreted as ISO string",
-            "raw": "\"result of toString is interpreted as ISO string\""
+            "raw": "\"result of toString is interpreted as ISO string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

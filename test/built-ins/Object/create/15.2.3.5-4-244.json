@@ -89,7 +89,9 @@
                   "start": 415,
                   "end": 437,
                   "value": "VerifyFunctionObject",
-                  "raw": "\"VerifyFunctionObject\""
+                  "raw": "\"VerifyFunctionObject\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -229,14 +231,18 @@
             "start": 526,
             "end": 548,
             "value": "VerifyFunctionObject",
-            "raw": "\"VerifyFunctionObject\""
+            "raw": "\"VerifyFunctionObject\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 563,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

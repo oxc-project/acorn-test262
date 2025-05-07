@@ -23,7 +23,9 @@
             "start": 254,
             "end": 263,
             "value": "iSo8601",
-            "raw": "\"iSo8601\""
+            "raw": "\"iSo8601\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 310,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -81,7 +84,9 @@
                 "start": 312,
                 "end": 317,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -147,14 +152,18 @@
             "start": 361,
             "end": 370,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 372,
             "end": 402,
             "value": "Calendar is case-insensitive",
-            "raw": "\"Calendar is case-insensitive\""
+            "raw": "\"Calendar is case-insensitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,7 +189,9 @@
           "start": 412,
           "end": 426,
           "value": "İSO8601",
-          "raw": "\"\\u0130SO8601\""
+          "raw": "\"\\u0130SO8601\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -257,6 +268,7 @@
                   "end": 494,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 },
                 {
@@ -264,7 +276,9 @@
                   "start": 496,
                   "end": 501,
                   "value": "UTC",
-                  "raw": "\"UTC\""
+                  "raw": "\"UTC\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -280,7 +294,9 @@
             "start": 511,
             "end": 562,
             "value": "calendar ID is capital dotted I is not lowercased",
-            "raw": "\"calendar ID is capital dotted I is not lowercased\""
+            "raw": "\"calendar ID is capital dotted I is not lowercased\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

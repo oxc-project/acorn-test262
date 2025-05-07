@@ -109,7 +109,9 @@
                             "start": 414,
                             "end": 426,
                             "value": "copyWithin",
-                            "raw": "\"copyWithin\""
+                            "raw": "\"copyWithin\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 429,
                         "end": 434,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

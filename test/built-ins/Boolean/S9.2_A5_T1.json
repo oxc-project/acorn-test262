@@ -47,7 +47,9 @@
                 "start": 407,
                 "end": 409,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 412,
             "end": 417,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 450,
             "value": "Boolean(\"\") must return false",
-            "raw": "'Boolean(\"\") must return false'"
+            "raw": "'Boolean(\"\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

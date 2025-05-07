@@ -90,7 +90,9 @@
                             "start": 464,
                             "end": 465,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -228,7 +230,9 @@
                             "start": 596,
                             "end": 597,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -273,7 +277,9 @@
                           "start": 712,
                           "end": 716,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -307,7 +313,9 @@
           "start": 738,
           "end": 739,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -482,14 +490,18 @@
             "start": 878,
             "end": 879,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 883,
             "end": 952,
             "value": "Property value was accessed before being set (\"poisoned\" lastIndex)",
-            "raw": "'Property value was accessed before being set (\"poisoned\" lastIndex)'"
+            "raw": "'Property value was accessed before being set (\"poisoned\" lastIndex)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,7 +527,9 @@
           "start": 969,
           "end": 970,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -690,14 +704,18 @@
             "start": 1109,
             "end": 1110,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1114,
             "end": 1185,
             "value": "Property value was accessed before being set (non-writable lastIndex)",
-            "raw": "'Property value was accessed before being set (non-writable lastIndex)'"
+            "raw": "'Property value was accessed before being set (non-writable lastIndex)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

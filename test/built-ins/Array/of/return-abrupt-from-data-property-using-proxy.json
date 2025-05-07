@@ -205,7 +205,9 @@
                         "start": 819,
                         "end": 824,
                         "value": "Bob",
-                        "raw": "'Bob'"
+                        "raw": "'Bob'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -219,7 +221,9 @@
             "start": 830,
             "end": 887,
             "value": "Array.of.call(T, \"Bob\") throws a Test262Error exception",
-            "raw": "'Array.of.call(T, \"Bob\") throws a Test262Error exception'"
+            "raw": "'Array.of.call(T, \"Bob\") throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

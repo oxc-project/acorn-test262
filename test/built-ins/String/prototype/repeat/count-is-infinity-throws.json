@@ -68,7 +68,9 @@
                         "start": 361,
                         "end": 363,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

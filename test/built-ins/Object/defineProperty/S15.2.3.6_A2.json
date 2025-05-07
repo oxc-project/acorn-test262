@@ -108,7 +108,9 @@
               "start": 332,
               "end": 340,
               "value": "gotten",
-              "raw": "'gotten'"
+              "raw": "'gotten'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -153,7 +155,9 @@
             "start": 372,
             "end": 377,
             "value": "foo",
-            "raw": "'foo'"
+            "raw": "'foo'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -237,7 +241,9 @@
                   "start": 434,
                   "end": 439,
                   "value": "foo",
-                  "raw": "'foo'"
+                  "raw": "'foo'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -248,7 +254,9 @@
             "start": 444,
             "end": 512,
             "value": "The value of !derived.hasOwnProperty(\"foo\") is expected to be true",
-            "raw": "'The value of !derived.hasOwnProperty(\"foo\") is expected to be true'"
+            "raw": "'The value of !derived.hasOwnProperty(\"foo\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

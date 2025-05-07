@@ -2145,7 +2145,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1467,
                 "end": 1473,
                 "raw": "\"type\"",
-                "value": "type"
+                "value": "type",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,
@@ -2163,7 +2165,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1475,
                     "end": 1481,
                     "raw": "\"list\"",
-                    "value": "list"
+                    "value": "list",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -2179,7 +2183,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1487,
                 "end": 1502,
                 "raw": "\"minimum_count\"",
-                "value": "minimum_count"
+                "value": "minimum_count",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,
@@ -2206,7 +2212,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1516,
                 "end": 1531,
                 "raw": "\"maximum_count\"",
-                "value": "maximum_count"
+                "value": "maximum_count",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,
@@ -2233,7 +2241,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1545,
                 "end": 1558,
                 "raw": "\"collapsable\"",
-                "value": "collapsable"
+                "value": "collapsable",
+                "regex": null,
+                "bigint": null
               },
               "optional": true,
               "readonly": false,
@@ -2260,7 +2270,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1613,
                 "end": 1619,
                 "raw": "\"each\"",
-                "value": "each"
+                "value": "each",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,

@@ -23,7 +23,9 @@
             "start": 1576,
             "end": 1577,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -79,7 +81,9 @@
                 "start": 1628,
                 "end": 1638,
                 "value": "poisoned",
-                "raw": "'poisoned'"
+                "raw": "'poisoned'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -342,7 +346,9 @@
                             "start": 1865,
                             "end": 1915,
                             "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "raw": "\"Expected async function to reject, but resolved.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

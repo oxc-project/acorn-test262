@@ -53,7 +53,9 @@
                     "start": 369,
                     "end": 370,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -230,7 +232,9 @@
                             "start": 472,
                             "end": 494,
                             "value": "First result `value`",
-                            "raw": "'First result `value`'"
+                            "raw": "'First result `value`'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -288,14 +292,18 @@
                             "start": 529,
                             "end": 534,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 536,
                             "end": 562,
                             "value": "First result `done` flag",
-                            "raw": "'First result `done` flag'"
+                            "raw": "'First result `done` flag'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -468,7 +476,9 @@
                             "start": 673,
                             "end": 696,
                             "value": "Second result `value`",
-                            "raw": "'Second result `value`'"
+                            "raw": "'Second result `value`'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -526,14 +536,18 @@
                             "start": 731,
                             "end": 735,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 737,
                             "end": 764,
                             "value": "Second result `done` flag",
-                            "raw": "'Second result `done` flag'"
+                            "raw": "'Second result `done` flag'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

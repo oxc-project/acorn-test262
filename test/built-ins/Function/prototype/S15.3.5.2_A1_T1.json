@@ -34,14 +34,18 @@
                 "start": 377,
                 "end": 379,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 385,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +97,9 @@
                 "start": 413,
                 "end": 424,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -166,7 +172,9 @@
             "start": 481,
             "end": 492,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,7 +248,9 @@
                   "start": 541,
                   "end": 546,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -407,7 +417,9 @@
                   "start": 707,
                   "end": 769,
                   "value": "#3: the prototype property has the attributes { DontDelete }",
-                  "raw": "'#3: the prototype property has the attributes { DontDelete }'"
+                  "raw": "'#3: the prototype property has the attributes { DontDelete }'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

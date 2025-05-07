@@ -98,7 +98,9 @@
                 "start": 332,
                 "end": 350,
                 "value": "hello\nw_orld\\!",
-                "raw": "\"hello\\nw_orld\\\\!\""
+                "raw": "\"hello\\nw_orld\\\\!\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -191,7 +193,9 @@
             "start": 405,
             "end": 458,
             "value": "Array.prototype.some.call(obj, callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(obj, callbackfn) !== true'"
+            "raw": "'Array.prototype.some.call(obj, callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": "b",
                   "flags": "y"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -78,14 +79,18 @@
                 "start": 883,
                 "end": 887,
                 "value": "ab",
-                "raw": "'ab'"
+                "raw": "'ab'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 889,
                 "end": 892,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,7 +100,9 @@
             "start": 895,
             "end": 899,
             "value": "ab",
-            "raw": "'ab'"
+            "raw": "'ab'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

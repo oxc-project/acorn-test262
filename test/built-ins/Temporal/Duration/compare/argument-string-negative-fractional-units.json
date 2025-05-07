@@ -47,28 +47,36 @@
                 "start": 328,
                 "end": 329,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 335,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 338,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -81,7 +89,9 @@
                   "start": 341,
                   "end": 343,
                   "value": 24,
-                  "raw": "24"
+                  "raw": "24",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -95,7 +105,9 @@
                   "start": 346,
                   "end": 348,
                   "value": 34,
-                  "raw": "34"
+                  "raw": "34",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -109,7 +121,9 @@
                   "start": 351,
                   "end": 352,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -123,7 +137,9 @@
                   "start": 355,
                   "end": 358,
                   "value": 404,
-                  "raw": "404"
+                  "raw": "404",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -137,7 +153,9 @@
                   "start": 361,
                   "end": 364,
                   "value": 442,
-                  "raw": "442"
+                  "raw": "442",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -151,7 +169,9 @@
                   "start": 367,
                   "end": 370,
                   "value": 800,
-                  "raw": "800"
+                  "raw": "800",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -217,7 +237,9 @@
                 "start": 420,
                 "end": 438,
                 "value": "-PT24.567890123H",
-                "raw": "\"-PT24.567890123H\""
+                "raw": "\"-PT24.567890123H\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -271,14 +293,18 @@
             "start": 487,
             "end": 488,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 534,
             "value": "negative fractional hours (first argument)",
-            "raw": "\"negative fractional hours (first argument)\""
+            "raw": "\"negative fractional hours (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -347,7 +373,9 @@
                 "start": 599,
                 "end": 617,
                 "value": "-PT24.567890123H",
-                "raw": "\"-PT24.567890123H\""
+                "raw": "\"-PT24.567890123H\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -395,14 +423,18 @@
             "start": 651,
             "end": 652,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 654,
             "end": 699,
             "value": "negative fractional hours (second argument)",
-            "raw": "\"negative fractional hours (second argument)\""
+            "raw": "\"negative fractional hours (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,35 +484,45 @@
                 "start": 749,
                 "end": 750,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 752,
                 "end": 753,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 755,
                 "end": 756,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 759,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 762,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -493,7 +535,9 @@
                   "start": 765,
                   "end": 769,
                   "value": 1440,
-                  "raw": "1440"
+                  "raw": "1440",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -507,7 +551,9 @@
                   "start": 772,
                   "end": 774,
                   "value": 34,
-                  "raw": "34"
+                  "raw": "34",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -521,7 +567,9 @@
                   "start": 777,
                   "end": 779,
                   "value": 73,
-                  "raw": "73"
+                  "raw": "73",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -535,7 +583,9 @@
                   "start": 782,
                   "end": 785,
                   "value": 407,
-                  "raw": "407"
+                  "raw": "407",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -549,7 +599,9 @@
                   "start": 788,
                   "end": 791,
                   "value": 380,
-                  "raw": "380"
+                  "raw": "380",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -615,7 +667,9 @@
                 "start": 843,
                 "end": 863,
                 "value": "-PT1440.567890123M",
-                "raw": "\"-PT1440.567890123M\""
+                "raw": "\"-PT1440.567890123M\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -669,14 +723,18 @@
             "start": 916,
             "end": 917,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 919,
             "end": 965,
             "value": "negative fractional minutes (first argument)",
-            "raw": "\"negative fractional minutes (first argument)\""
+            "raw": "\"negative fractional minutes (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -739,7 +797,9 @@
                 "start": 1017,
                 "end": 1037,
                 "value": "-PT1440.567890123M",
-                "raw": "\"-PT1440.567890123M\""
+                "raw": "\"-PT1440.567890123M\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -793,14 +853,18 @@
             "start": 1090,
             "end": 1091,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1093,
             "end": 1140,
             "value": "negative fractional minutes (second argument)",
-            "raw": "\"negative fractional minutes (second argument)\""
+            "raw": "\"negative fractional minutes (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

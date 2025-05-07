@@ -112,7 +112,9 @@
             "start": 816,
             "end": 829,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -137,7 +139,9 @@
                   "start": 845,
                   "end": 849,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +163,9 @@
                   "start": 865,
                   "end": 870,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -181,7 +187,9 @@
                   "start": 888,
                   "end": 892,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

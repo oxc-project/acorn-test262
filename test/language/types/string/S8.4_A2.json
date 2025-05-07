@@ -23,7 +23,9 @@
             "start": 325,
             "end": 327,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -61,7 +63,9 @@
           "start": 349,
           "end": 357,
           "value": "string",
-          "raw": "'string'"
+          "raw": "'string'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -93,7 +97,9 @@
                     "start": 385,
                     "end": 443,
                     "value": "#1: var str = ''; typeof(str) === 'string'. Actual: ",
-                    "raw": "'#1: var str = \\'\\'; typeof(str) === \\'string\\'. Actual: '"
+                    "raw": "'#1: var str = \\'\\'; typeof(str) === \\'string\\'. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -147,7 +153,9 @@
             "start": 604,
             "end": 606,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -185,7 +193,9 @@
           "start": 628,
           "end": 636,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -217,7 +227,9 @@
                     "start": 664,
                     "end": 718,
                     "value": "#2: var str = \"\"; typeof(str) === \"string\". Actual: ",
-                    "raw": "'#2: var str = \"\"; typeof(str) === \"string\". Actual: '"
+                    "raw": "'#2: var str = \"\"; typeof(str) === \"string\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

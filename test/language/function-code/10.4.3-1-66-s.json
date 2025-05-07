@@ -31,7 +31,9 @@
               "start": 291,
               "end": 303,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -111,7 +113,9 @@
             "start": 351,
             "end": 371,
             "value": "f.apply() !== true",
-            "raw": "'f.apply() !== true'"
+            "raw": "'f.apply() !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

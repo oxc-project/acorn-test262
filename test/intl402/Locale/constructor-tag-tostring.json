@@ -225,7 +225,9 @@
                                   "start": 686,
                                   "end": 694,
                                   "value": "string",
-                                  "raw": "\"string\""
+                                  "raw": "\"string\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

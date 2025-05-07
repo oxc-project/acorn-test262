@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 29,
         "raw": "'./file2'",
-        "value": "./file2"
+        "value": "./file2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

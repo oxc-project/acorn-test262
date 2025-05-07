@@ -23,7 +23,9 @@
             "start": 580,
             "end": 581,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 597,
             "end": 602,
             "value": "42n",
-            "raw": "\"42n\""
+            "raw": "\"42n\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +125,9 @@
                       "start": 695,
                       "end": 696,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -338,6 +344,7 @@
             "end": 1271,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           }
         ],
@@ -460,14 +467,18 @@
             "start": 1415,
             "end": 1419,
             "value": "42",
-            "raw": "'42'"
+            "raw": "'42'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1423,
             "end": 1460,
             "value": "$262.agent.getReport() returns \"42\"",
-            "raw": "'$262.agent.getReport() returns \"42\"'"
+            "raw": "'$262.agent.getReport() returns \"42\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -545,14 +556,18 @@
             "start": 1510,
             "end": 1521,
             "value": "not-equal",
-            "raw": "'not-equal'"
+            "raw": "'not-equal'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1525,
             "end": 1569,
             "value": "$262.agent.getReport() returns \"not-equal\"",
-            "raw": "'$262.agent.getReport() returns \"not-equal\"'"
+            "raw": "'$262.agent.getReport() returns \"not-equal\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

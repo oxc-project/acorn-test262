@@ -25,7 +25,9 @@
         "start": 889,
         "end": 923,
         "value": "./json-value-object_FIXTURE.json",
-        "raw": "'./json-value-object_FIXTURE.json'"
+        "raw": "'./json-value-object_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -43,7 +45,9 @@
             "start": 937,
             "end": 943,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -211,7 +215,9 @@
             "start": 1073,
             "end": 1074,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +249,9 @@
             "start": 1100,
             "end": 1108,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -274,7 +282,9 @@
                     "start": 1122,
                     "end": 1128,
                     "value": 1.2345,
-                    "raw": "1.2345"
+                    "raw": "1.2345",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init"
@@ -297,7 +307,9 @@
                   "start": 1142,
                   "end": 1146,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -319,7 +331,9 @@
                   "start": 1162,
                   "end": 1166,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -341,7 +355,9 @@
                   "start": 1184,
                   "end": 1188,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -377,7 +393,9 @@
             "start": 1216,
             "end": 1225,
             "value": "boolean",
-            "raw": "'boolean'"
+            "raw": "'boolean'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -402,7 +420,9 @@
                   "start": 1238,
                   "end": 1242,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -424,7 +444,9 @@
                   "start": 1256,
                   "end": 1260,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -446,7 +468,9 @@
                   "start": 1276,
                   "end": 1280,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -468,7 +492,9 @@
                   "start": 1298,
                   "end": 1302,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -504,7 +530,9 @@
             "start": 1330,
             "end": 1338,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -529,7 +557,9 @@
                   "start": 1351,
                   "end": 1367,
                   "value": "a string value",
-                  "raw": "'a string value'"
+                  "raw": "'a string value'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -551,7 +581,9 @@
                   "start": 1381,
                   "end": 1385,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -573,7 +605,9 @@
                   "start": 1401,
                   "end": 1405,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -595,7 +629,9 @@
                   "start": 1423,
                   "end": 1427,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -631,7 +667,9 @@
             "start": 1455,
             "end": 1461,
             "value": "null",
-            "raw": "'null'"
+            "raw": "'null'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -656,7 +694,9 @@
                   "start": 1474,
                   "end": 1478,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -678,7 +718,9 @@
                   "start": 1492,
                   "end": 1496,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -700,7 +742,9 @@
                   "start": 1512,
                   "end": 1516,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -722,7 +766,9 @@
                   "start": 1534,
                   "end": 1538,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -921,7 +967,9 @@
             "start": 1683,
             "end": 1684,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -993,7 +1041,9 @@
             "start": 1726,
             "end": 1773,
             "value": "the value of the \"array\" property is an array",
-            "raw": "'the value of the \"array\" property is an array'"
+            "raw": "'the value of the \"array\" property is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1097,7 +1147,9 @@
             "start": 1854,
             "end": 1916,
             "value": "the value of the \"array\" property is not a subclass of Array",
-            "raw": "'the value of the \"array\" property is not a subclass of Array'"
+            "raw": "'the value of the \"array\" property is not a subclass of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1195,7 +1247,9 @@
             "start": 1985,
             "end": 1986,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

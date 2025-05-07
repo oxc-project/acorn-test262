@@ -31,7 +31,8 @@
               "regex": {
                 "pattern": "x",
                 "flags": ""
-              }
+              },
+              "bigint": null
             }
           }
         }
@@ -65,7 +66,9 @@
           "start": 453,
           "end": 463,
           "value": "function",
-          "raw": "'function'"
+          "raw": "'function'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -253,7 +256,9 @@
                           "start": 607,
                           "end": 643,
                           "value": "#1: If IsCallable(func) is false, ",
-                          "raw": "'#1: If IsCallable(func) is false, '"
+                          "raw": "'#1: If IsCallable(func) is false, '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -261,7 +266,9 @@
                           "start": 652,
                           "end": 700,
                           "value": "then (bind should) throw a TypeError exception",
-                          "raw": "'then (bind should) throw a TypeError exception'"
+                          "raw": "'then (bind should) throw a TypeError exception'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -322,7 +329,9 @@
                           "start": 754,
                           "end": 828,
                           "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                          "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                          "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

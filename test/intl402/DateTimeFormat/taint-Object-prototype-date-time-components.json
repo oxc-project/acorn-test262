@@ -28,63 +28,81 @@
                 "start": 350,
                 "end": 359,
                 "value": "weekday",
-                "raw": "\"weekday\""
+                "raw": "\"weekday\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 366,
                 "value": "era",
-                "raw": "\"era\""
+                "raw": "\"era\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 374,
                 "value": "year",
-                "raw": "\"year\""
+                "raw": "\"year\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 383,
                 "value": "month",
-                "raw": "\"month\""
+                "raw": "\"month\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 390,
                 "value": "day",
-                "raw": "\"day\""
+                "raw": "\"day\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 398,
                 "value": "hour",
-                "raw": "\"hour\""
+                "raw": "\"hour\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 408,
                 "value": "minute",
-                "raw": "\"minute\""
+                "raw": "\"minute\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 418,
                 "value": "second",
-                "raw": "\"second\""
+                "raw": "\"second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 430,
                 "value": "timeZone",
-                "raw": "\"timeZone\""
+                "raw": "\"timeZone\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -172,7 +190,9 @@
                             "start": 499,
                             "end": 507,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -253,7 +273,9 @@
                 "start": 596,
                 "end": 636,
                 "value": "DateTimeFormat returns invalid locale ",
-                "raw": "\"DateTimeFormat returns invalid locale \""
+                "raw": "\"DateTimeFormat returns invalid locale \"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -269,7 +291,9 @@
               "start": 648,
               "end": 651,
               "value": ".",
-              "raw": "\".\""
+              "raw": "\".\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

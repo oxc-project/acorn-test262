@@ -23,7 +23,9 @@
             "start": 410,
             "end": 411,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -126,7 +128,9 @@
                             "start": 482,
                             "end": 562,
                             "value": "Promise unexpectedly resolved: Promise.all(nonIterable) should throw TypeError",
-                            "raw": "'Promise unexpectedly resolved: Promise.all(nonIterable) should throw TypeError'"
+                            "raw": "'Promise unexpectedly resolved: Promise.all(nonIterable) should throw TypeError'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -212,7 +216,9 @@
                             "start": 623,
                             "end": 689,
                             "value": "The value of !!(err instanceof TypeError) is expected to be true",
-                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'"
+                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

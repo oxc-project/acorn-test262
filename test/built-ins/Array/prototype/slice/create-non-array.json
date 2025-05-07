@@ -41,7 +41,9 @@
                   "start": 487,
                   "end": 488,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -71,7 +73,9 @@
             "start": 508,
             "end": 509,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -136,7 +140,9 @@
             "start": 550,
             "end": 563,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -190,7 +196,9 @@
                             "start": 604,
                             "end": 605,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -320,14 +328,18 @@
             "start": 687,
             "end": 688,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 727,
             "value": "`constructor` property not accessed",
-            "raw": "'`constructor` property not accessed'"
+            "raw": "'`constructor` property not accessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -470,7 +482,9 @@
             "start": 826,
             "end": 860,
             "value": "result is an Array exotic object",
-            "raw": "'result is an Array exotic object'"
+            "raw": "'result is an Array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

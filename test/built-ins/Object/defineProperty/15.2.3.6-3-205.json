@@ -67,7 +67,9 @@
             "start": 318,
             "end": 328,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 363,
                           "end": 372,
                           "value": "present",
-                          "raw": "\"present\""
+                          "raw": "\"present\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -176,14 +180,18 @@
             "start": 414,
             "end": 423,
             "value": "present",
-            "raw": "\"present\""
+            "raw": "\"present\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 439,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

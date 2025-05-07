@@ -43,7 +43,9 @@
           "start": 374,
           "end": 376,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -75,7 +77,9 @@
                     "start": 405,
                     "end": 464,
                     "value": "#1: String.fromCharCode () returns empty string. Actual: ",
-                    "raw": "'#1: String.fromCharCode () returns empty string. Actual: '"
+                    "raw": "'#1: String.fromCharCode () returns empty string. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

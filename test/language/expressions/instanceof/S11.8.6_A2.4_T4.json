@@ -65,7 +65,9 @@
           "start": 364,
           "end": 368,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -93,7 +95,9 @@
                   "start": 397,
                   "end": 451,
                   "value": "#1: (OBJECT = Object, {}) instanceof OBJECT !== true",
-                  "raw": "'#1: (OBJECT = Object, {}) instanceof OBJECT !== true'"
+                  "raw": "'#1: (OBJECT = Object, {}) instanceof OBJECT !== true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

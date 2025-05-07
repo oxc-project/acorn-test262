@@ -95,14 +95,18 @@
             "start": 1022,
             "end": 1026,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1028,
             "end": 1066,
             "value": "Built-in objects must be extensible.",
-            "raw": "\"Built-in objects must be extensible.\""
+            "raw": "\"Built-in objects must be extensible.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,14 +230,18 @@
             "start": 1161,
             "end": 1180,
             "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "raw": "\"[object Function]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1182,
             "end": 1209,
             "value": "Object.prototype.toString",
-            "raw": "\"Object.prototype.toString\""
+            "raw": "\"Object.prototype.toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,7 +358,9 @@
             "start": 1315,
             "end": 1326,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -439,7 +449,9 @@
                 "start": 1401,
                 "end": 1412,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -449,14 +461,18 @@
             "start": 1417,
             "end": 1422,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1424,
             "end": 1444,
             "value": "prototype property",
-            "raw": "\"prototype property\""
+            "raw": "\"prototype property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

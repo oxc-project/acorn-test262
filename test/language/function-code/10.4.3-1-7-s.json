@@ -88,14 +88,18 @@
             "start": 355,
             "end": 366,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 368,
             "end": 373,
             "value": "f()",
-            "raw": "'f()'"
+            "raw": "'f()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

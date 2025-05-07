@@ -379,7 +379,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 392,
                                 "end": 400,
                                 "raw": "'change'",
-                                "value": "change"
+                                "value": "change",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "ArrowFunctionExpression",

@@ -25,7 +25,9 @@
         "start": 527,
         "end": 561,
         "value": "./has-property-str-found-init.js",
-        "raw": "'./has-property-str-found-init.js'"
+        "raw": "'./has-property-str-found-init.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -133,7 +135,9 @@
         "start": 659,
         "end": 693,
         "value": "./has-property-str-found-init.js",
-        "raw": "'./has-property-str-found-init.js'"
+        "raw": "'./has-property-str-found-init.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -146,7 +150,9 @@
         "start": 710,
         "end": 714,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -173,7 +179,9 @@
               "start": 724,
               "end": 732,
               "value": "local1",
-              "raw": "'local1'"
+              "raw": "'local1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -188,7 +196,9 @@
             "start": 740,
             "end": 752,
             "value": "in: local1",
-            "raw": "'in: local1'"
+            "raw": "'in: local1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +254,9 @@
                 "start": 778,
                 "end": 786,
                 "value": "local1",
-                "raw": "'local1'"
+                "raw": "'local1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -254,7 +266,9 @@
             "start": 789,
             "end": 810,
             "value": "Reflect.has: local1",
-            "raw": "'Reflect.has: local1'"
+            "raw": "'Reflect.has: local1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -284,7 +298,9 @@
               "start": 821,
               "end": 830,
               "value": "renamed",
-              "raw": "'renamed'"
+              "raw": "'renamed'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -299,7 +315,9 @@
             "start": 838,
             "end": 851,
             "value": "in: renamed",
-            "raw": "'in: renamed'"
+            "raw": "'in: renamed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -355,7 +373,9 @@
                 "start": 877,
                 "end": 886,
                 "value": "renamed",
-                "raw": "'renamed'"
+                "raw": "'renamed'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -365,7 +385,9 @@
             "start": 889,
             "end": 911,
             "value": "Reflect.has: renamed",
-            "raw": "'Reflect.has: renamed'"
+            "raw": "'Reflect.has: renamed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -395,7 +417,9 @@
               "start": 922,
               "end": 932,
               "value": "indirect",
-              "raw": "'indirect'"
+              "raw": "'indirect'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -410,7 +434,9 @@
             "start": 940,
             "end": 954,
             "value": "in: indirect",
-            "raw": "'in: indirect'"
+            "raw": "'in: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,7 +492,9 @@
                 "start": 980,
                 "end": 990,
                 "value": "indirect",
-                "raw": "'indirect'"
+                "raw": "'indirect'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -476,7 +504,9 @@
             "start": 993,
             "end": 1016,
             "value": "Reflect.has: indirect",
-            "raw": "'Reflect.has: indirect'"
+            "raw": "'Reflect.has: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -506,7 +536,9 @@
               "start": 1027,
               "end": 1036,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -521,7 +553,9 @@
             "start": 1044,
             "end": 1057,
             "value": "in: default",
-            "raw": "'in: default'"
+            "raw": "'in: default'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -577,7 +611,9 @@
                 "start": 1083,
                 "end": 1092,
                 "value": "default",
-                "raw": "'default'"
+                "raw": "'default'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -587,7 +623,9 @@
             "start": 1095,
             "end": 1117,
             "value": "Reflect.has: default",
-            "raw": "'Reflect.has: default'"
+            "raw": "'Reflect.has: default'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

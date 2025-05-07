@@ -34,7 +34,9 @@
                 "start": 247,
                 "end": 250,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -133,7 +135,9 @@
             "start": 310,
             "end": 344,
             "value": "Object.isFrozen(strObj) !== true",
-            "raw": "'Object.isFrozen(strObj) !== true'"
+            "raw": "'Object.isFrozen(strObj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

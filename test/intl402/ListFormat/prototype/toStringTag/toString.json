@@ -121,7 +121,9 @@
             "start": 520,
             "end": 546,
             "value": "[object Intl.ListFormat]",
-            "raw": "\"[object Intl.ListFormat]\""
+            "raw": "\"[object Intl.ListFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +240,9 @@
             "start": 621,
             "end": 647,
             "value": "[object Intl.ListFormat]",
-            "raw": "\"[object Intl.ListFormat]\""
+            "raw": "\"[object Intl.ListFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

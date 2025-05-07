@@ -134,14 +134,18 @@
                             "start": 443,
                             "end": 451,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 453,
                             "end": 463,
                             "value": "best fit",
-                            "raw": "\"best fit\""
+                            "raw": "\"best fit\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -184,7 +188,9 @@
                                           "start": 497,
                                           "end": 505,
                                           "value": "lookup",
-                                          "raw": "\"lookup\""
+                                          "raw": "\"lookup\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -368,21 +374,27 @@
                             "start": 690,
                             "end": 694,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 696,
                             "end": 697,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 699,
                             "end": 700,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -395,21 +407,27 @@
                             "start": 707,
                             "end": 711,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 713,
                             "end": 718,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 720,
                             "end": 729,
                             "value": "invalid",
-                            "raw": "\"invalid\""
+                            "raw": "\"invalid\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -617,7 +635,9 @@
                                         "start": 936,
                                         "end": 966,
                                         "value": "Invalid localeMatcher value ",
-                                        "raw": "\"Invalid localeMatcher value \""
+                                        "raw": "\"Invalid localeMatcher value \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -633,7 +653,9 @@
                                       "start": 977,
                                       "end": 997,
                                       "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "raw": "\" was not rejected.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

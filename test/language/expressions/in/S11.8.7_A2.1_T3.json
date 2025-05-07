@@ -25,7 +25,9 @@
                 "start": 291,
                 "end": 302,
                 "value": "MAX_VALUE",
-                "raw": "\"MAX_VALUE\""
+                "raw": "\"MAX_VALUE\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -60,7 +62,9 @@
                     "start": 339,
                     "end": 399,
                     "value": "#1.1: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -76,7 +80,9 @@
                         "start": 403,
                         "end": 414,
                         "value": "MAX_VALUE",
-                        "raw": "\"MAX_VALUE\""
+                        "raw": "\"MAX_VALUE\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "in",
                       "right": {
@@ -145,7 +151,9 @@
                   "start": 484,
                   "end": 488,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -177,7 +185,9 @@
                             "start": 519,
                             "end": 579,
                             "value": "#1.2: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: \"MAX_VALUE\" in NUMBER throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

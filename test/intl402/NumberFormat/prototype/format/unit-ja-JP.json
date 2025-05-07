@@ -39,7 +39,9 @@
                       "start": 310,
                       "end": 313,
                       "value": 987,
-                      "raw": "987"
+                      "raw": "987",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -59,14 +61,18 @@
                           "start": 327,
                           "end": 334,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 336,
                           "end": 347,
                           "value": "-987 km/h",
-                          "raw": "\"-987 km/h\""
+                          "raw": "\"-987 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -82,14 +88,18 @@
                           "start": 355,
                           "end": 363,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 365,
                           "end": 375,
                           "value": "-987km/h",
-                          "raw": "\"-987km/h\""
+                          "raw": "\"-987km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -105,14 +115,18 @@
                           "start": 383,
                           "end": 389,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 391,
                           "end": 407,
                           "value": "時速 -987 キロメートル",
-                          "raw": "\"時速 -987 キロメートル\""
+                          "raw": "\"時速 -987 キロメートル\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -136,7 +150,9 @@
                       "start": 429,
                       "end": 434,
                       "value": 0.001,
-                      "raw": "0.001"
+                      "raw": "0.001",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -156,14 +172,18 @@
                           "start": 448,
                           "end": 455,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 457,
                           "end": 470,
                           "value": "-0.001 km/h",
-                          "raw": "\"-0.001 km/h\""
+                          "raw": "\"-0.001 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -179,14 +199,18 @@
                           "start": 478,
                           "end": 486,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 488,
                           "end": 500,
                           "value": "-0.001km/h",
-                          "raw": "\"-0.001km/h\""
+                          "raw": "\"-0.001km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -202,14 +226,18 @@
                           "start": 508,
                           "end": 514,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 516,
                           "end": 534,
                           "value": "時速 -0.001 キロメートル",
-                          "raw": "\"時速 -0.001 キロメートル\""
+                          "raw": "\"時速 -0.001 キロメートル\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -233,7 +261,9 @@
                       "start": 556,
                       "end": 557,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -253,14 +283,18 @@
                           "start": 571,
                           "end": 578,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 580,
                           "end": 589,
                           "value": "-0 km/h",
-                          "raw": "\"-0 km/h\""
+                          "raw": "\"-0 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -276,14 +310,18 @@
                           "start": 597,
                           "end": 605,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 607,
                           "end": 615,
                           "value": "-0km/h",
-                          "raw": "\"-0km/h\""
+                          "raw": "\"-0km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -299,14 +337,18 @@
                           "start": 623,
                           "end": 629,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 631,
                           "end": 645,
                           "value": "時速 -0 キロメートル",
-                          "raw": "\"時速 -0 キロメートル\""
+                          "raw": "\"時速 -0 キロメートル\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -324,7 +366,9 @@
                     "start": 666,
                     "end": 667,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -343,14 +387,18 @@
                           "start": 681,
                           "end": 688,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 690,
                           "end": 698,
                           "value": "0 km/h",
-                          "raw": "\"0 km/h\""
+                          "raw": "\"0 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -366,14 +414,18 @@
                           "start": 706,
                           "end": 714,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 716,
                           "end": 723,
                           "value": "0km/h",
-                          "raw": "\"0km/h\""
+                          "raw": "\"0km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -389,14 +441,18 @@
                           "start": 731,
                           "end": 737,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 739,
                           "end": 752,
                           "value": "時速 0 キロメートル",
-                          "raw": "\"時速 0 キロメートル\""
+                          "raw": "\"時速 0 キロメートル\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -414,7 +470,9 @@
                     "start": 773,
                     "end": 778,
                     "value": 0.001,
-                    "raw": "0.001"
+                    "raw": "0.001",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -433,14 +491,18 @@
                           "start": 792,
                           "end": 799,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 801,
                           "end": 813,
                           "value": "0.001 km/h",
-                          "raw": "\"0.001 km/h\""
+                          "raw": "\"0.001 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -456,14 +518,18 @@
                           "start": 821,
                           "end": 829,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 831,
                           "end": 842,
                           "value": "0.001km/h",
-                          "raw": "\"0.001km/h\""
+                          "raw": "\"0.001km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -479,14 +545,18 @@
                           "start": 850,
                           "end": 856,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 858,
                           "end": 875,
                           "value": "時速 0.001 キロメートル",
-                          "raw": "\"時速 0.001 キロメートル\""
+                          "raw": "\"時速 0.001 キロメートル\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -504,7 +574,9 @@
                     "start": 896,
                     "end": 899,
                     "value": 987,
-                    "raw": "987"
+                    "raw": "987",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -523,14 +595,18 @@
                           "start": 913,
                           "end": 920,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 922,
                           "end": 932,
                           "value": "987 km/h",
-                          "raw": "\"987 km/h\""
+                          "raw": "\"987 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -546,14 +622,18 @@
                           "start": 940,
                           "end": 948,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 950,
                           "end": 959,
                           "value": "987km/h",
-                          "raw": "\"987km/h\""
+                          "raw": "\"987km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -569,14 +649,18 @@
                           "start": 967,
                           "end": 973,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 975,
                           "end": 990,
                           "value": "時速 987 キロメートル",
-                          "raw": "\"時速 987 キロメートル\""
+                          "raw": "\"時速 987 キロメートル\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -759,7 +843,9 @@
                             "start": 1162,
                             "end": 1169,
                             "value": "ja-JP",
-                            "raw": "\"ja-JP\""
+                            "raw": "\"ja-JP\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -784,7 +870,9 @@
                                   "start": 1180,
                                   "end": 1186,
                                   "value": "unit",
-                                  "raw": "\"unit\""
+                                  "raw": "\"unit\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -806,7 +894,9 @@
                                   "start": 1194,
                                   "end": 1214,
                                   "value": "kilometer-per-hour",
-                                  "raw": "\"kilometer-per-hour\""
+                                  "raw": "\"kilometer-per-hour\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },

@@ -67,14 +67,18 @@
                         "start": 376,
                         "end": 380,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 382,
                         "end": 384,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -94,7 +98,9 @@
                         "start": 396,
                         "end": 397,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
@@ -102,6 +108,7 @@
                         "end": 401,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {

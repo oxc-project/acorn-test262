@@ -38,7 +38,8 @@
                 "regex": {
                   "pattern": "test",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ]
           }
@@ -138,14 +139,18 @@
             "start": 357,
             "end": 365,
             "value": "/test/",
-            "raw": "\"/test/\""
+            "raw": "\"/test/\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 367,
             "end": 403,
             "value": "String.prototype.trim.call(regObj)",
-            "raw": "'String.prototype.trim.call(regObj)'"
+            "raw": "'String.prototype.trim.call(regObj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

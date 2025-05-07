@@ -23,7 +23,9 @@
             "start": 473,
             "end": 474,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -41,7 +43,9 @@
             "start": 493,
             "end": 494,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -134,7 +138,9 @@
                             "start": 563,
                             "end": 564,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -147,7 +153,9 @@
                           "start": 577,
                           "end": 580,
                           "value": "0",
-                          "raw": "\"0\""
+                          "raw": "\"0\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -209,7 +217,9 @@
                             "start": 625,
                             "end": 626,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -350,14 +360,18 @@
             "start": 723,
             "end": 724,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 761,
             "value": "Get('length') called exactly once",
-            "raw": "\"Get('length') called exactly once\""
+            "raw": "\"Get('length') called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,14 +416,18 @@
             "start": 795,
             "end": 796,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 798,
             "end": 833,
             "value": "Set('length') called exactly once",
-            "raw": "\"Set('length') called exactly once\""
+            "raw": "\"Set('length') called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -454,14 +472,18 @@
             "start": 866,
             "end": 867,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 869,
             "end": 910,
             "value": "Set('length') called with ToLength('0')",
-            "raw": "\"Set('length') called with ToLength('0')\""
+            "raw": "\"Set('length') called with ToLength('0')\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

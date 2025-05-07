@@ -36,7 +36,9 @@
             "start": 1793,
             "end": 1817,
             "value": "function brandNew() {}",
-            "raw": "'function brandNew() {}'"
+            "raw": "'function brandNew() {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -88,14 +90,18 @@
             "start": 1858,
             "end": 1868,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1870,
             "end": 1914,
             "value": "new binding on an extensible global object",
-            "raw": "'new binding on an extensible global object'"
+            "raw": "'new binding on an extensible global object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -126,7 +132,9 @@
             "start": 1939,
             "end": 1949,
             "value": "brandNew",
-            "raw": "'brandNew'"
+            "raw": "'brandNew'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -151,7 +159,9 @@
                   "start": 1965,
                   "end": 1969,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -173,7 +183,9 @@
                   "start": 1985,
                   "end": 1989,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -195,7 +207,9 @@
                   "start": 2007,
                   "end": 2012,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -243,7 +257,9 @@
             "start": 2047,
             "end": 2061,
             "value": "configurable",
-            "raw": "'configurable'"
+            "raw": "'configurable'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -268,7 +284,9 @@
                   "start": 2079,
                   "end": 2083,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -290,7 +308,9 @@
                   "start": 2092,
                   "end": 2093,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -338,7 +358,9 @@
             "start": 2131,
             "end": 2148,
             "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "raw": "'nonConfigurable'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -363,7 +385,9 @@
                   "start": 2168,
                   "end": 2173,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -385,7 +409,9 @@
                   "start": 2185,
                   "end": 2189,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -407,7 +433,9 @@
                   "start": 2203,
                   "end": 2207,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -429,7 +457,9 @@
                   "start": 2216,
                   "end": 2217,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -509,7 +539,9 @@
             "start": 2400,
             "end": 2428,
             "value": "function configurable() {}",
-            "raw": "'function configurable() {}'"
+            "raw": "'function configurable() {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -561,14 +593,18 @@
             "start": 2473,
             "end": 2483,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2485,
             "end": 2519,
             "value": "like-named configurable property",
-            "raw": "'like-named configurable property'"
+            "raw": "'like-named configurable property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +635,9 @@
             "start": 2544,
             "end": 2558,
             "value": "configurable",
-            "raw": "'configurable'"
+            "raw": "'configurable'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -624,7 +662,9 @@
                   "start": 2574,
                   "end": 2578,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -646,7 +686,9 @@
                   "start": 2594,
                   "end": 2598,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -668,7 +710,9 @@
                   "start": 2616,
                   "end": 2621,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -711,7 +755,9 @@
             "start": 2644,
             "end": 2675,
             "value": "function nonConfigurable() {}",
-            "raw": "'function nonConfigurable() {}'"
+            "raw": "'function nonConfigurable() {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -763,14 +809,18 @@
             "start": 2725,
             "end": 2735,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2739,
             "end": 2814,
             "value": "like-named non-configurable data property that is writable and enumerable",
-            "raw": "'like-named non-configurable data property that is writable and enumerable'"
+            "raw": "'like-named non-configurable data property that is writable and enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -801,7 +851,9 @@
             "start": 2839,
             "end": 2856,
             "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "raw": "'nonConfigurable'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -826,7 +878,9 @@
                   "start": 2872,
                   "end": 2876,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -848,7 +902,9 @@
                   "start": 2892,
                   "end": 2896,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -870,7 +926,9 @@
                   "start": 2914,
                   "end": 2919,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

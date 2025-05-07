@@ -76,7 +76,9 @@
               "start": 506,
               "end": 516,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -84,7 +86,9 @@
               "start": 519,
               "end": 527,
               "value": "Object",
-              "raw": "'Object'"
+              "raw": "'Object'",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -93,7 +97,9 @@
             "start": 530,
             "end": 533,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -126,7 +132,9 @@
                     "start": 561,
                     "end": 641,
                     "value": "#1: var __obj={}; __obj.toString() === \"[object \" + 'Object' + \"]\". Actual: ",
-                    "raw": "'#1: var __obj={}; __obj.toString() === \"[object \" + \\'Object\\' + \"]\". Actual: '"
+                    "raw": "'#1: var __obj={}; __obj.toString() === \"[object \" + \\'Object\\' + \"]\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -48,6 +48,7 @@
                 "end": 312,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 314,
                 "end": 335,
                 "value": "America/Los_Angeles",
-                "raw": "\"America/Los_Angeles\""
+                "raw": "\"America/Los_Angeles\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -115,7 +118,9 @@
                     "start": 362,
                     "end": 370,
                     "value": "+05:30",
-                    "raw": "\"+05:30\""
+                    "raw": "\"+05:30\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -159,7 +164,9 @@
                     "start": 396,
                     "end": 403,
                     "value": "+0530",
-                    "raw": "\"+0530\""
+                    "raw": "\"+0530\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -172,7 +179,9 @@
             "start": 407,
             "end": 423,
             "value": "+05:30 = +0530",
-            "raw": "\"+05:30 = +0530\""
+            "raw": "\"+05:30 = +0530\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +239,9 @@
                     "start": 450,
                     "end": 457,
                     "value": "+0530",
-                    "raw": "\"+0530\""
+                    "raw": "\"+0530\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -274,7 +285,9 @@
                     "start": 483,
                     "end": 491,
                     "value": "+05:30",
-                    "raw": "\"+05:30\""
+                    "raw": "\"+05:30\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -287,7 +300,9 @@
             "start": 495,
             "end": 511,
             "value": "+0530 = +05:30",
-            "raw": "\"+0530 = +05:30\""
+            "raw": "\"+0530 = +05:30\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,7 +360,9 @@
                     "start": 538,
                     "end": 546,
                     "value": "+05:30",
-                    "raw": "\"+05:30\""
+                    "raw": "\"+05:30\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -397,7 +414,9 @@
                         "start": 572,
                         "end": 579,
                         "value": "+0530",
-                        "raw": "\"+0530\""
+                        "raw": "\"+0530\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -422,7 +441,9 @@
             "start": 594,
             "end": 623,
             "value": "+05:30 = +0530 IXDTF string",
-            "raw": "\"+05:30 = +0530 IXDTF string\""
+            "raw": "\"+05:30 = +0530 IXDTF string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +507,9 @@
                       "start": 651,
                       "end": 659,
                       "value": "+05:30",
-                      "raw": "\"+05:30\""
+                      "raw": "\"+05:30\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -530,7 +553,9 @@
                       "start": 685,
                       "end": 699,
                       "value": "Asia/Kolkata",
-                      "raw": "\"Asia/Kolkata\""
+                      "raw": "\"Asia/Kolkata\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -544,7 +569,9 @@
             "start": 703,
             "end": 737,
             "value": "+05:30 != Asia/Kolkata string ID",
-            "raw": "\"+05:30 != Asia/Kolkata string ID\""
+            "raw": "\"+05:30 != Asia/Kolkata string ID\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,7 +635,9 @@
                       "start": 765,
                       "end": 773,
                       "value": "+05:30",
-                      "raw": "\"+05:30\""
+                      "raw": "\"+05:30\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -660,7 +689,9 @@
                           "start": 799,
                           "end": 813,
                           "value": "Asia/Kolkata",
-                          "raw": "\"Asia/Kolkata\""
+                          "raw": "\"Asia/Kolkata\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -686,7 +717,9 @@
             "start": 828,
             "end": 865,
             "value": "+05:30 != Asia/Kolkata IXDTF string",
-            "raw": "\"+05:30 != Asia/Kolkata IXDTF string\""
+            "raw": "\"+05:30 != Asia/Kolkata IXDTF string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

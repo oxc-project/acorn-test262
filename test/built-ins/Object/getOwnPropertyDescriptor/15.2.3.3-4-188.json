@@ -34,7 +34,9 @@
                 "start": 329,
                 "end": 341,
                 "value": "return 42;",
-                "raw": "'return 42;'"
+                "raw": "'return 42;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -93,7 +95,9 @@
                 "start": 390,
                 "end": 425,
                 "value": "functionNameHopefullyDoesNotExist",
-                "raw": "\"functionNameHopefullyDoesNotExist\""
+                "raw": "\"functionNameHopefullyDoesNotExist\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +151,9 @@
             "start": 463,
             "end": 469,
             "value": "desc",
-            "raw": "'desc'"
+            "raw": "'desc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

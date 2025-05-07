@@ -48,7 +48,9 @@
             "start": 292,
             "end": 297,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -171,7 +173,9 @@
             "start": 399,
             "end": 405,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -233,7 +237,9 @@
                                 "start": 443,
                                 "end": 463,
                                 "value": "[object Arguments]",
-                                "raw": "'[object Arguments]'"
+                                "raw": "'[object Arguments]'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "===",
                               "right": {
@@ -332,7 +338,9 @@
                   "start": 541,
                   "end": 545,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -412,7 +420,9 @@
             "start": 604,
             "end": 621,
             "value": "result !== true",
-            "raw": "'result !== true'"
+            "raw": "'result !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

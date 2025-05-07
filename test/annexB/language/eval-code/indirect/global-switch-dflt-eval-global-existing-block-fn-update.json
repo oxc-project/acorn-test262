@@ -36,7 +36,9 @@
                   "start": 1132,
                   "end": 1151,
                   "value": "first declaration",
-                  "raw": "'first declaration'"
+                  "raw": "'first declaration'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -66,7 +68,9 @@
                 "start": 1161,
                 "end": 1162,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -95,7 +99,9 @@
                   "start": 1172,
                   "end": 1186,
                   "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "raw": "'switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -103,7 +109,9 @@
                   "start": 1191,
                   "end": 1203,
                   "value": "  default:",
-                  "raw": "'  default:'"
+                  "raw": "'  default:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -112,7 +120,9 @@
                 "start": 1208,
                 "end": 1259,
                 "value": "    function f() { return \"second declaration\"; }",
-                "raw": "'    function f() { return \"second declaration\"; }'"
+                "raw": "'    function f() { return \"second declaration\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -121,7 +131,9 @@
               "start": 1264,
               "end": 1271,
               "value": "}  ",
-              "raw": "'}\\\n  '"
+              "raw": "'}\\\n  '",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -174,7 +186,9 @@
             "start": 1303,
             "end": 1313,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +240,9 @@
             "start": 1338,
             "end": 1358,
             "value": "second declaration",
-            "raw": "'second declaration'"
+            "raw": "'second declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

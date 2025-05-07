@@ -56,7 +56,9 @@
               "start": 682,
               "end": 684,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -101,7 +103,9 @@
             "start": 719,
             "end": 722,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -204,7 +208,9 @@
                   "start": 802,
                   "end": 805,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -268,7 +274,9 @@
                   "start": 863,
                   "end": 887,
                   "value": "Expected an exception.",
-                  "raw": "\"Expected an exception.\""
+                  "raw": "\"Expected an exception.\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -316,7 +324,9 @@
                     "start": 928,
                     "end": 931,
                     "value": "1",
-                    "raw": "\"1\""
+                    "raw": "\"1\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "CallExpression",
@@ -398,7 +408,9 @@
                             "start": 1008,
                             "end": 1034,
                             "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "raw": "\"Expected TypeError, got \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -446,7 +458,9 @@
             "start": 1071,
             "end": 1074,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -471,7 +485,9 @@
                   "start": 1092,
                   "end": 1097,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -493,7 +509,9 @@
                   "start": 1115,
                   "end": 1120,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

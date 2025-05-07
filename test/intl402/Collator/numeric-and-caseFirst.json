@@ -46,7 +46,9 @@
                       "start": 339,
                       "end": 343,
                       "value": "kn",
-                      "raw": "\"kn\""
+                      "raw": "\"kn\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -68,7 +70,9 @@
                       "start": 355,
                       "end": 364,
                       "value": "numeric",
-                      "raw": "\"numeric\""
+                      "raw": "\"numeric\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -90,7 +94,9 @@
                       "start": 372,
                       "end": 381,
                       "value": "boolean",
-                      "raw": "\"boolean\""
+                      "raw": "\"boolean\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -117,14 +123,18 @@
                           "start": 392,
                           "end": 396,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 398,
                           "end": 403,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -155,7 +165,9 @@
                       "start": 417,
                       "end": 421,
                       "value": "kf",
-                      "raw": "\"kf\""
+                      "raw": "\"kf\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -177,7 +189,9 @@
                       "start": 433,
                       "end": 444,
                       "value": "caseFirst",
-                      "raw": "\"caseFirst\""
+                      "raw": "\"caseFirst\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -199,7 +213,9 @@
                       "start": 452,
                       "end": 460,
                       "value": "string",
-                      "raw": "\"string\""
+                      "raw": "\"string\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -226,21 +242,27 @@
                           "start": 471,
                           "end": 478,
                           "value": "upper",
-                          "raw": "\"upper\""
+                          "raw": "\"upper\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 480,
                           "end": 487,
                           "value": "lower",
-                          "raw": "\"lower\""
+                          "raw": "\"lower\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 489,
                           "end": 496,
                           "value": "false",
-                          "raw": "\"false\""
+                          "raw": "\"false\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -790,7 +812,9 @@
                                       "start": 1051,
                                       "end": 1052,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -970,7 +994,9 @@
                                                   "start": 1297,
                                                   "end": 1302,
                                                   "value": "-u-",
-                                                  "raw": "\"-u-\""
+                                                  "raw": "\"-u-\"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               },
                                               "operator": "+",
@@ -1000,7 +1026,9 @@
                                               "start": 1318,
                                               "end": 1321,
                                               "value": "-",
-                                              "raw": "\"-\""
+                                              "raw": "\"-\"",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           },
                                           "operator": "+",
@@ -1147,7 +1175,9 @@
                                             "start": 1435,
                                             "end": 1446,
                                             "value": "Property ",
-                                            "raw": "\"Property \""
+                                            "raw": "\"Property \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1176,7 +1206,9 @@
                                           "start": 1467,
                                           "end": 1515,
                                           "value": " couldn't be set through locale extension key ",
-                                          "raw": "\" couldn't be set through locale extension key \""
+                                          "raw": "\" couldn't be set through locale extension key \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -1206,7 +1238,9 @@
                                       "start": 1531,
                                       "end": 1534,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1583,7 +1617,9 @@
                                                         "start": 2021,
                                                         "end": 2026,
                                                         "value": "-u-",
-                                                        "raw": "\"-u-\""
+                                                        "raw": "\"-u-\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     },
                                                     "operator": "+",
@@ -1613,7 +1649,9 @@
                                                     "start": 2042,
                                                     "end": 2045,
                                                     "value": "-",
-                                                    "raw": "\"-\""
+                                                    "raw": "\"-\"",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "operator": "+",
@@ -1766,7 +1804,9 @@
                                                   "start": 2177,
                                                   "end": 2206,
                                                   "value": "Options value for property ",
-                                                  "raw": "\"Options value for property \""
+                                                  "raw": "\"Options value for property \"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 },
                                                 "operator": "+",
                                                 "right": {
@@ -1795,7 +1835,9 @@
                                                 "start": 2227,
                                                 "end": 2268,
                                                 "value": " doesn't override locale extension key ",
-                                                "raw": "\" doesn't override locale extension key \""
+                                                "raw": "\" doesn't override locale extension key \"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "operator": "+",
@@ -1825,7 +1867,9 @@
                                             "start": 2284,
                                             "end": 2287,
                                             "value": ".",
-                                            "raw": "\".\""
+                                            "raw": "\".\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ],

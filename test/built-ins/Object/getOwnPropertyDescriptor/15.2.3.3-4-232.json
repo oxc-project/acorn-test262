@@ -35,14 +35,18 @@
                   "start": 350,
                   "end": 360,
                   "value": "property",
-                  "raw": "\"property\""
+                  "raw": "\"property\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 362,
                   "end": 379,
                   "value": "ownDataProperty",
-                  "raw": "\"ownDataProperty\""
+                  "raw": "\"ownDataProperty\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -102,7 +106,9 @@
                 "start": 432,
                 "end": 442,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +150,9 @@
           "start": 464,
           "end": 487,
           "value": "overwriteDataProperty",
-          "raw": "\"overwriteDataProperty\""
+          "raw": "\"overwriteDataProperty\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -200,14 +208,18 @@
             "start": 524,
             "end": 547,
             "value": "overwriteDataProperty",
-            "raw": "\"overwriteDataProperty\""
+            "raw": "\"overwriteDataProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 566,
             "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "raw": "'desc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

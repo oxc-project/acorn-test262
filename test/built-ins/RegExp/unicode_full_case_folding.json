@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "[\\u0390]",
                   "flags": "iu"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 732,
                 "end": 740,
                 "value": "ΐ",
-                "raw": "\"\\u1fd3\""
+                "raw": "\"\\u1fd3\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -62,7 +65,9 @@
             "start": 743,
             "end": 775,
             "value": "\\u0390 does not match \\u1fd3",
-            "raw": "\"\\\\u0390 does not match \\\\u1fd3\""
+            "raw": "\"\\\\u0390 does not match \\\\u1fd3\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -100,7 +105,8 @@
                 "regex": {
                   "pattern": "[\\u1fd3]",
                   "flags": "iu"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -117,7 +123,9 @@
                 "start": 803,
                 "end": 811,
                 "value": "ΐ",
-                "raw": "\"\\u0390\""
+                "raw": "\"\\u0390\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -127,7 +135,9 @@
             "start": 814,
             "end": 846,
             "value": "\\u1fd3 does not match \\u0390",
-            "raw": "\"\\\\u1fd3 does not match \\\\u0390\""
+            "raw": "\"\\\\u1fd3 does not match \\\\u0390\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,7 +175,8 @@
                 "regex": {
                   "pattern": "[\\u03b0]",
                   "flags": "iu"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -182,7 +193,9 @@
                 "start": 874,
                 "end": 882,
                 "value": "ΰ",
-                "raw": "\"\\u1fe3\""
+                "raw": "\"\\u1fe3\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +205,9 @@
             "start": 885,
             "end": 917,
             "value": "\\u03b0 does not match \\u1fe3",
-            "raw": "\"\\\\u03b0 does not match \\\\u1fe3\""
+            "raw": "\"\\\\u03b0 does not match \\\\u1fe3\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +245,8 @@
                 "regex": {
                   "pattern": "[\\u1fe3]",
                   "flags": "iu"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -247,7 +263,9 @@
                 "start": 945,
                 "end": 953,
                 "value": "ΰ",
-                "raw": "\"\\u03b0\""
+                "raw": "\"\\u03b0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -257,7 +275,9 @@
             "start": 956,
             "end": 988,
             "value": "\\u1fe3 does not match \\u03b0",
-            "raw": "\"\\\\u1fe3 does not match \\\\u03b0\""
+            "raw": "\"\\\\u1fe3 does not match \\\\u03b0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -295,7 +315,8 @@
                 "regex": {
                   "pattern": "[\\ufb05]",
                   "flags": "iu"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -312,7 +333,9 @@
                 "start": 1016,
                 "end": 1024,
                 "value": "ﬆ",
-                "raw": "\"\\ufb06\""
+                "raw": "\"\\ufb06\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -322,7 +345,9 @@
             "start": 1027,
             "end": 1059,
             "value": "\\ufb05 does not match \\ufb06",
-            "raw": "\"\\\\ufb05 does not match \\\\ufb06\""
+            "raw": "\"\\\\ufb05 does not match \\\\ufb06\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -360,7 +385,8 @@
                 "regex": {
                   "pattern": "[\\ufb06]",
                   "flags": "iu"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -377,7 +403,9 @@
                 "start": 1087,
                 "end": 1095,
                 "value": "ﬅ",
-                "raw": "\"\\ufb05\""
+                "raw": "\"\\ufb05\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -387,7 +415,9 @@
             "start": 1098,
             "end": 1130,
             "value": "\\ufb06 does not match \\ufb05",
-            "raw": "\"\\\\ufb06 does not match \\\\ufb05\""
+            "raw": "\"\\\\ufb06 does not match \\\\ufb05\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

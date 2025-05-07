@@ -48,6 +48,7 @@
                 "end": 347,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,14 +56,18 @@
                 "start": 349,
                 "end": 354,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 365,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -115,6 +120,7 @@
                 "end": 415,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -122,14 +128,18 @@
                 "start": 417,
                 "end": 422,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 434,
                 "value": "japanese",
-                "raw": "\"japanese\""
+                "raw": "\"japanese\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

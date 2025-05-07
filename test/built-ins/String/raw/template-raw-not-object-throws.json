@@ -217,7 +217,9 @@
                               "start": 854,
                               "end": 858,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

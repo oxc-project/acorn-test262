@@ -107,14 +107,18 @@
             "start": 347,
             "end": 351,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 353,
             "end": 356,
             "value": "e",
-            "raw": "'e'"
+            "raw": "'e'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

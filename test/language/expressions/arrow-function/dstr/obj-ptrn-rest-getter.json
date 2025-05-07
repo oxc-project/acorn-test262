@@ -23,7 +23,9 @@
             "start": 1301,
             "end": 1302,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1321,
             "end": 1322,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -162,7 +166,9 @@
                       "start": 1375,
                       "end": 1376,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -194,7 +200,9 @@
                       "start": 1400,
                       "end": 1403,
                       "value": "v",
-                      "raw": "\"v\""
+                      "raw": "\"v\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -219,7 +227,9 @@
                             "start": 1423,
                             "end": 1427,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -241,7 +251,9 @@
                             "start": 1443,
                             "end": 1447,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -263,7 +275,9 @@
                             "start": 1467,
                             "end": 1471,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -285,7 +299,9 @@
                             "start": 1484,
                             "end": 1485,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -326,7 +342,9 @@
                       "start": 1518,
                       "end": 1519,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -410,7 +428,9 @@
                           "start": 1555,
                           "end": 1556,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -463,14 +483,18 @@
             "start": 1592,
             "end": 1593,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1595,
             "end": 1632,
             "value": "arrow function invoked exactly once",
-            "raw": "'arrow function invoked exactly once'"
+            "raw": "'arrow function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

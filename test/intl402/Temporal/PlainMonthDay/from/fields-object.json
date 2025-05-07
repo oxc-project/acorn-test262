@@ -51,7 +51,9 @@
                           "start": 343,
                           "end": 348,
                           "value": "M08",
-                          "raw": "\"M08\""
+                          "raw": "\"M08\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -73,7 +75,9 @@
                           "start": 355,
                           "end": 356,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -95,7 +99,9 @@
                           "start": 368,
                           "end": 377,
                           "value": "gregory",
-                          "raw": "\"gregory\""
+                          "raw": "\"gregory\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -106,14 +112,18 @@
                     "start": 381,
                     "end": 390,
                     "value": "gregory",
-                    "raw": "\"gregory\""
+                    "raw": "\"gregory\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 392,
                     "end": 441,
                     "value": "monthCode and non-ISO Gregorian string calendar",
-                    "raw": "\"monthCode and non-ISO Gregorian string calendar\""
+                    "raw": "\"monthCode and non-ISO Gregorian string calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -145,7 +155,9 @@
                           "start": 460,
                           "end": 465,
                           "value": "M08",
-                          "raw": "\"M08\""
+                          "raw": "\"M08\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -167,7 +179,9 @@
                           "start": 472,
                           "end": 473,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -189,7 +203,9 @@
                           "start": 485,
                           "end": 493,
                           "value": "hebrew",
-                          "raw": "\"hebrew\""
+                          "raw": "\"hebrew\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -200,14 +216,18 @@
                     "start": 497,
                     "end": 505,
                     "value": "hebrew",
-                    "raw": "\"hebrew\""
+                    "raw": "\"hebrew\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 507,
                     "end": 560,
                     "value": "monthCode and non-ISO non-Gregorian string calendar",
-                    "raw": "\"monthCode and non-ISO non-Gregorian string calendar\""
+                    "raw": "\"monthCode and non-ISO non-Gregorian string calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -376,14 +396,18 @@
                   "start": 750,
                   "end": 755,
                   "value": "M08",
-                  "raw": "\"M08\""
+                  "raw": "\"M08\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 757,
                   "end": 758,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -538,7 +562,9 @@
                           "start": 919,
                           "end": 920,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -560,7 +586,9 @@
                           "start": 927,
                           "end": 928,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -582,7 +610,9 @@
                           "start": 940,
                           "end": 949,
                           "value": "gregory",
-                          "raw": "\"gregory\""
+                          "raw": "\"gregory\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -593,7 +623,9 @@
                     "start": 953,
                     "end": 988,
                     "value": "month and non-ISO string calendar",
-                    "raw": "\"month and non-ISO string calendar\""
+                    "raw": "\"month and non-ISO string calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -625,7 +657,9 @@
                           "start": 1003,
                           "end": 1004,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -647,7 +681,9 @@
                           "start": 1011,
                           "end": 1012,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -669,7 +705,9 @@
                           "start": 1024,
                           "end": 1032,
                           "value": "hebrew",
-                          "raw": "\"hebrew\""
+                          "raw": "\"hebrew\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -680,7 +718,9 @@
                     "start": 1036,
                     "end": 1085,
                     "value": "month and non-ISO non-Gregorian string calendar",
-                    "raw": "\"month and non-ISO non-Gregorian string calendar\""
+                    "raw": "\"month and non-ISO non-Gregorian string calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

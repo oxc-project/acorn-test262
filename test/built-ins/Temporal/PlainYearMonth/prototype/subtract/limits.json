@@ -60,7 +60,9 @@
                 "start": 311,
                 "end": 323,
                 "value": "-271821-04",
-                "raw": "\"-271821-04\""
+                "raw": "\"-271821-04\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -104,14 +106,18 @@
             "start": 350,
             "end": 358,
             "value": "reject",
-            "raw": "\"reject\""
+            "raw": "\"reject\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 371,
             "value": "constrain",
-            "raw": "\"constrain\""
+            "raw": "\"constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -210,7 +216,9 @@
                               "start": 433,
                               "end": 434,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

@@ -23,7 +23,9 @@
             "start": 1235,
             "end": 1236,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -190,7 +192,9 @@
                             "start": 1364,
                             "end": 1365,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -236,7 +240,9 @@
             "start": 1414,
             "end": 1415,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -313,7 +319,9 @@
                               "start": 1467,
                               "end": 1468,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -354,7 +362,9 @@
                                 "start": 1515,
                                 "end": 1546,
                                 "value": "abrupt completion closes iter",
-                                "raw": "'abrupt completion closes iter'"
+                                "raw": "'abrupt completion closes iter'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -501,7 +511,9 @@
                             "start": 1634,
                             "end": 1666,
                             "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "raw": "'Promise incorrectly fulfilled.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -575,7 +587,9 @@
                             "start": 1709,
                             "end": 1724,
                             "value": "reject reason",
-                            "raw": "'reject reason'"
+                            "raw": "'reject reason'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -620,7 +634,9 @@
                             "start": 1753,
                             "end": 1754,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -785,14 +801,18 @@
                                             "start": 1827,
                                             "end": 1831,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1833,
                                             "end": 1860,
                                             "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "raw": "'the iterator is completed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -843,7 +863,9 @@
                                             "start": 1902,
                                             "end": 1922,
                                             "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "raw": "'value is undefined'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -946,7 +968,9 @@
             "start": 1996,
             "end": 1997,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

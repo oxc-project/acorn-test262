@@ -48,6 +48,7 @@
                 "end": 334,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,14 +56,18 @@
                 "start": 336,
                 "end": 344,
                 "value": "-05:00",
-                "raw": "\"-05:00\""
+                "raw": "\"-05:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 355,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -115,6 +120,7 @@
                 "end": 405,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -122,14 +128,18 @@
                 "start": 407,
                 "end": 415,
                 "value": "-05:00",
-                "raw": "\"-05:00\""
+                "raw": "\"-05:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 426,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -197,7 +207,9 @@
             "start": 465,
             "end": 515,
             "value": "Instances with different calendars are not equal",
-            "raw": "\"Instances with different calendars are not equal\""
+            "raw": "\"Instances with different calendars are not equal\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

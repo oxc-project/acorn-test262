@@ -28,21 +28,27 @@
                 "start": 537,
                 "end": 538,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 541,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 543,
                 "end": 544,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -70,7 +76,9 @@
             "start": 563,
             "end": 564,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -215,7 +223,9 @@
                     "start": 677,
                     "end": 678,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -370,14 +380,18 @@
                             "start": 794,
                             "end": 795,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 797,
                             "end": 849,
                             "value": "`then` invoked once for every item in iterable arg",
-                            "raw": "'`then` invoked once for every item in iterable arg'"
+                            "raw": "'`then` invoked once for every item in iterable arg'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

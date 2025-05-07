@@ -170,7 +170,9 @@
             "start": 450,
             "end": 539,
             "value": "Prototype of object constructed by Intl.NumberFormat isn't Intl.NumberFormat.prototype.",
-            "raw": "\"Prototype of object constructed by Intl.NumberFormat isn't Intl.NumberFormat.prototype.\""
+            "raw": "\"Prototype of object constructed by Intl.NumberFormat isn't Intl.NumberFormat.prototype.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +231,9 @@
             "start": 576,
             "end": 637,
             "value": "Object constructed by Intl.NumberFormat must be extensible.",
-            "raw": "\"Object constructed by Intl.NumberFormat must be extensible.\""
+            "raw": "\"Object constructed by Intl.NumberFormat must be extensible.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

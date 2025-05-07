@@ -23,7 +23,9 @@
             "start": 2627,
             "end": 2651,
             "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "raw": "'synchronous evaluation'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -102,7 +104,9 @@
                 "start": 2687,
                 "end": 2717,
                 "value": "tick in the async evaluation",
-                "raw": "'tick in the async evaluation'"
+                "raw": "'tick in the async evaluation'",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -132,7 +136,9 @@
         "start": 2737,
         "end": 2776,
         "value": "./module-import-resolution_FIXTURE.js",
-        "raw": "'./module-import-resolution_FIXTURE.js'"
+        "raw": "'./module-import-resolution_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -175,7 +181,9 @@
             "start": 2800,
             "end": 2802,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +228,9 @@
             "start": 2825,
             "end": 2849,
             "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "raw": "'synchronous evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,7 +345,9 @@
                             "start": 2906,
                             "end": 2936,
                             "value": "tick in the async evaluation",
-                            "raw": "'tick in the async evaluation'"
+                            "raw": "'tick in the async evaluation'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

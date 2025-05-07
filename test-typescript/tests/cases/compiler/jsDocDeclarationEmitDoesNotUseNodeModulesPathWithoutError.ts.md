@@ -37,7 +37,9 @@ __ESTREE_TEST__:PASS:
               "start": 37,
               "end": 56,
               "raw": "'../types/types.js'",
-              "value": "../types/types.js"
+              "value": "../types/types.js",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": null,

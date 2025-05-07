@@ -159,7 +159,9 @@
             "start": 681,
             "end": 691,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +261,9 @@
             "start": 756,
             "end": 773,
             "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "raw": "'ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +363,9 @@
             "start": 838,
             "end": 859,
             "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "raw": "'array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -459,7 +465,9 @@
             "start": 926,
             "end": 951,
             "value": "arguments exotic object",
-            "raw": "'arguments exotic object'"
+            "raw": "'arguments exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

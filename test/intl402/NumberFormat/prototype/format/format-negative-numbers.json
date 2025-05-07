@@ -104,7 +104,9 @@
                 "start": 569,
                 "end": 570,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
                   "start": 591,
                   "end": 592,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -155,7 +159,9 @@
             "start": 595,
             "end": 651,
             "value": "Intl.NumberFormat is formatting 1 and -1 the same way.",
-            "raw": "'Intl.NumberFormat is formatting 1 and -1 the same way.'"
+            "raw": "'Intl.NumberFormat is formatting 1 and -1 the same way.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,7 +224,9 @@
                 "start": 692,
                 "end": 693,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -258,7 +266,9 @@
                   "start": 714,
                   "end": 715,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -269,7 +279,9 @@
             "start": 718,
             "end": 774,
             "value": "Intl.NumberFormat is formatting 0 and -0 the same way.",
-            "raw": "'Intl.NumberFormat is formatting 0 and -0 the same way.'"
+            "raw": "'Intl.NumberFormat is formatting 0 and -0 the same way.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

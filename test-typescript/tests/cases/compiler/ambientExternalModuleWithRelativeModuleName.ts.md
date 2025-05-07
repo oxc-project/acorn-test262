@@ -58,7 +58,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 33,
         "raw": "\"./relativeModule\"",
-        "value": "./relativeModule"
+        "value": "./relativeModule",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -114,7 +116,9 @@ __ESTREE_TEST__:PASS:
         "start": 73,
         "end": 92,
         "raw": "\".\\\\relativeModule\"",
-        "value": ".\\relativeModule"
+        "value": ".\\relativeModule",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

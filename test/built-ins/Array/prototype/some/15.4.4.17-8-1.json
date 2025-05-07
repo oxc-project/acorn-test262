@@ -115,14 +115,18 @@
             "start": 318,
             "end": 323,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 325,
             "end": 328,
             "value": "i",
-            "raw": "'i'"
+            "raw": "'i'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

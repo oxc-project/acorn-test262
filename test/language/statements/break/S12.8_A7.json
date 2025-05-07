@@ -23,7 +23,9 @@
             "start": 332,
             "end": 333,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -41,7 +43,9 @@
             "start": 336,
             "end": 337,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -107,7 +111,9 @@
                           "start": 475,
                           "end": 489,
                           "value": "break LABEL1",
-                          "raw": "\"break LABEL1\""
+                          "raw": "\"break LABEL1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -138,7 +144,9 @@
                 "start": 517,
                 "end": 518,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "label": {
@@ -168,7 +176,9 @@
                   "start": 545,
                   "end": 607,
                   "value": "#1: eval(\"break LABEL1\") does not lead to throwing exception",
-                  "raw": "'#1: eval(\"break LABEL1\") does not lead to throwing exception'"
+                  "raw": "'#1: eval(\"break LABEL1\") does not lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -249,7 +259,9 @@
                           "start": 681,
                           "end": 776,
                           "value": "1.1: Appearing of break within eval statement inside of IterationStatement yields SyntaxError",
-                          "raw": "\"1.1: Appearing of break within eval statement inside of IterationStatement yields SyntaxError\""
+                          "raw": "\"1.1: Appearing of break within eval statement inside of IterationStatement yields SyntaxError\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

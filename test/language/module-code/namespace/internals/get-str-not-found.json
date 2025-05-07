@@ -25,7 +25,9 @@
         "start": 500,
         "end": 524,
         "value": "./get-str-not-found.js",
-        "raw": "'./get-str-not-found.js'"
+        "raw": "'./get-str-not-found.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -134,7 +136,9 @@
             "start": 615,
             "end": 629,
             "value": "key: test262",
-            "raw": "'key: test262'"
+            "raw": "'key: test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +202,9 @@
             "start": 676,
             "end": 694,
             "value": "key: toStringTag",
-            "raw": "'key: toStringTag'"
+            "raw": "'key: toStringTag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,7 +268,9 @@
             "start": 738,
             "end": 753,
             "value": "key: iterator",
-            "raw": "'key: iterator'"
+            "raw": "'key: iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -326,7 +334,9 @@
             "start": 798,
             "end": 814,
             "value": "key: __proto__",
-            "raw": "'key: __proto__'"
+            "raw": "'key: __proto__'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +400,9 @@
             "start": 857,
             "end": 871,
             "value": "key: default",
-            "raw": "'key: default'"
+            "raw": "'key: default'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

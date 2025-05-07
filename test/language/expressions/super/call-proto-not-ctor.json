@@ -23,7 +23,9 @@
             "start": 530,
             "end": 535,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -136,7 +138,9 @@
                                   "start": 629,
                                   "end": 633,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -332,7 +336,9 @@
             "start": 1036,
             "end": 1044,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,7 +427,9 @@
             "start": 1117,
             "end": 1151,
             "value": "performs ArgumentsListEvaluation",
-            "raw": "'performs ArgumentsListEvaluation'"
+            "raw": "'performs ArgumentsListEvaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -75,14 +75,18 @@
             "start": 570,
             "end": 580,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 657,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +217,9 @@
             "start": 895,
             "end": 941,
             "value": "expect a TypeError on length getter throwing",
-            "raw": "'expect a TypeError on length getter throwing'"
+            "raw": "'expect a TypeError on length getter throwing'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

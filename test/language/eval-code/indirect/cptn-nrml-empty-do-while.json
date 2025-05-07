@@ -49,7 +49,9 @@
                     "start": 358,
                     "end": 359,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -66,7 +68,9 @@
                 "start": 366,
                 "end": 385,
                 "value": "do ; while(false)",
-                "raw": "\"do ; while(false)\""
+                "raw": "\"do ; while(false)\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

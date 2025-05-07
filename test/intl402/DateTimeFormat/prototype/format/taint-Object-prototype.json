@@ -28,63 +28,81 @@
                 "start": 353,
                 "end": 362,
                 "value": "weekday",
-                "raw": "\"weekday\""
+                "raw": "\"weekday\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 369,
                 "value": "era",
-                "raw": "\"era\""
+                "raw": "\"era\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 377,
                 "value": "year",
-                "raw": "\"year\""
+                "raw": "\"year\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 386,
                 "value": "month",
-                "raw": "\"month\""
+                "raw": "\"month\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 393,
                 "value": "day",
-                "raw": "\"day\""
+                "raw": "\"day\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 401,
                 "value": "hour",
-                "raw": "\"hour\""
+                "raw": "\"hour\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 411,
                 "value": "minute",
-                "raw": "\"minute\""
+                "raw": "\"minute\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 421,
                 "value": "second",
-                "raw": "\"second\""
+                "raw": "\"second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 430,
                 "value": "inDST",
-                "raw": "\"inDST\""
+                "raw": "\"inDST\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

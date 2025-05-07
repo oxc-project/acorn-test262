@@ -85,7 +85,9 @@
                 "start": 418,
                 "end": 432,
                 "value": "choosing one",
-                "raw": "\"choosing one\""
+                "raw": "\"choosing one\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,7 +115,9 @@
           "start": 544,
           "end": 558,
           "value": "choosing one",
-          "raw": "\"choosing one\""
+          "raw": "\"choosing one\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -145,7 +149,9 @@
                     "start": 587,
                     "end": 727,
                     "value": "#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance ==",
-                    "raw": "'#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance =='"
+                    "raw": "'#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -226,7 +232,9 @@
                     "start": 984,
                     "end": 1143,
                     "value": "#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ===",
-                    "raw": "'#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ==='"
+                    "raw": "'#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -347,7 +355,9 @@
                     "start": 1424,
                     "end": 1578,
                     "value": "#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: ",
-                    "raw": "'#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: '"
+                    "raw": "'#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -432,7 +442,9 @@
                 "start": 1826,
                 "end": 1836,
                 "value": "[object ",
-                "raw": "'[object '"
+                "raw": "'[object '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -440,7 +452,9 @@
                 "start": 1839,
                 "end": 1847,
                 "value": "String",
-                "raw": "'String'"
+                "raw": "'String'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -449,7 +463,9 @@
               "start": 1850,
               "end": 1853,
               "value": "]",
-              "raw": "']'"
+              "raw": "']'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -579,7 +595,9 @@
                         "start": 1968,
                         "end": 2171,
                         "value": "#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ===",
-                        "raw": "'#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ==='"
+                        "raw": "'#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -615,7 +633,9 @@
                       "start": 2198,
                       "end": 2223,
                       "value": " __to_string_result ===",
-                      "raw": "' __to_string_result ==='"
+                      "raw": "' __to_string_result ==='",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",

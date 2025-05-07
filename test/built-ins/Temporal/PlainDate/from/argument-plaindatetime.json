@@ -156,28 +156,36 @@
                         "start": 858,
                         "end": 862,
                         "value": 2000,
-                        "raw": "2000"
+                        "raw": "2000",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 864,
                         "end": 865,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 867,
                         "end": 872,
                         "value": "M05",
-                        "raw": "\"M05\""
+                        "raw": "\"M05\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 874,
                         "end": 875,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

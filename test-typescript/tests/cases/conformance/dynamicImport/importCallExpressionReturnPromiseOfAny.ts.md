@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 31,
         "end": 46,
         "raw": "\"./defaultPath\"",
-        "value": "./defaultPath"
+        "value": "./defaultPath",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -378,14 +380,18 @@ __ESTREE_TEST__:PASS:
                 "start": 349,
                 "end": 365,
                 "raw": "\"externalModule\"",
-                "value": "externalModule"
+                "value": "externalModule",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "Literal",
                 "start": 341,
                 "end": 346,
                 "raw": "\"./0\"",
-                "value": "./0"
+                "value": "./0",
+                "regex": null,
+                "bigint": null
               },
               "test": {
                 "type": "CallExpression",
@@ -612,7 +618,9 @@ __ESTREE_TEST__:PASS:
                   "start": 528,
                   "end": 540,
                   "raw": "\"defaulPath\"",
-                  "value": "defaulPath"
+                  "value": "defaulPath",
+                  "regex": null,
+                  "bigint": null
                 },
                 "consequent": {
                   "type": "CallExpression",

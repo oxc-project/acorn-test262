@@ -125,7 +125,9 @@ __ESTREE_TEST__:PASS:
                 "start": 132,
                 "end": 139,
                 "raw": "\"Hello\"",
-                "value": "Hello"
+                "value": "Hello",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -144,7 +146,9 @@ __ESTREE_TEST__:PASS:
             "start": 142,
             "end": 149,
             "raw": "\"Hello\"",
-            "value": "Hello"
+            "value": "Hello",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -194,7 +198,9 @@ __ESTREE_TEST__:PASS:
                     "start": 194,
                     "end": 201,
                     "raw": "\"Hello\"",
-                    "value": "Hello"
+                    "value": "Hello",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -206,7 +212,9 @@ __ESTREE_TEST__:PASS:
                     "start": 204,
                     "end": 211,
                     "raw": "\"World\"",
-                    "value": "World"
+                    "value": "World",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -232,7 +240,9 @@ __ESTREE_TEST__:PASS:
                 "start": 214,
                 "end": 221,
                 "raw": "\"Hello\"",
-                "value": "Hello"
+                "value": "Hello",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -244,7 +254,9 @@ __ESTREE_TEST__:PASS:
                 "start": 224,
                 "end": 231,
                 "raw": "\"World\"",
-                "value": "World"
+                "value": "World",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -784,14 +796,18 @@ __ESTREE_TEST__:PASS:
                         "start": 667,
                         "end": 674,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 676,
                         "end": 683,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -849,14 +865,18 @@ __ESTREE_TEST__:PASS:
                         "start": 710,
                         "end": 717,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 719,
                         "end": 726,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -914,14 +934,18 @@ __ESTREE_TEST__:PASS:
                         "start": 753,
                         "end": 760,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 762,
                         "end": 769,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -979,14 +1003,18 @@ __ESTREE_TEST__:PASS:
                         "start": 796,
                         "end": 803,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 805,
                         "end": 812,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1044,28 +1072,36 @@ __ESTREE_TEST__:PASS:
                         "start": 839,
                         "end": 846,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 848,
                         "end": 855,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 857,
                         "end": 864,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 866,
                         "end": 871,
                         "raw": "\"Foo\"",
-                        "value": "Foo"
+                        "value": "Foo",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1867,14 +1903,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1628,
                         "end": 1635,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1637,
                         "end": 1644,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1901,7 +1941,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1619,
                             "end": 1626,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -1950,14 +1992,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1680,
                         "end": 1687,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1689,
                         "end": 1696,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1984,7 +2030,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1671,
                             "end": 1678,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2033,14 +2081,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1741,
                         "end": 1748,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1750,
                         "end": 1757,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -2067,7 +2119,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1723,
                             "end": 1730,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -2079,7 +2133,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1732,
                             "end": 1739,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2128,14 +2184,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1802,
                         "end": 1809,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1811,
                         "end": 1818,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -2162,7 +2222,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1784,
                             "end": 1791,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -2174,7 +2236,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1793,
                             "end": 1800,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2223,14 +2287,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1854,
                         "end": 1861,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1863,
                         "end": 1870,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -2257,7 +2325,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1845,
                             "end": 1852,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -3050,14 +3120,18 @@ __ESTREE_TEST__:PASS:
                         "start": 2659,
                         "end": 2666,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2668,
                         "end": 2675,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -3084,7 +3158,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2641,
                             "end": 2648,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -3096,7 +3172,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2650,
                             "end": 2657,
                             "raw": "\"World\"",
-                            "value": "World"
+                            "value": "World",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -3145,14 +3223,18 @@ __ESTREE_TEST__:PASS:
                         "start": 2720,
                         "end": 2727,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2729,
                         "end": 2736,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -3179,7 +3261,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2702,
                             "end": 2709,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -3191,7 +3275,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2711,
                             "end": 2718,
                             "raw": "\"World\"",
-                            "value": "World"
+                            "value": "World",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -3240,14 +3326,18 @@ __ESTREE_TEST__:PASS:
                         "start": 2781,
                         "end": 2788,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2790,
                         "end": 2797,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -3274,7 +3364,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2763,
                             "end": 2770,
                             "raw": "\"World\"",
-                            "value": "World"
+                            "value": "World",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -3286,7 +3378,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2772,
                             "end": 2779,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -3335,14 +3429,18 @@ __ESTREE_TEST__:PASS:
                         "start": 2842,
                         "end": 2849,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2851,
                         "end": 2858,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -3369,7 +3467,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2824,
                             "end": 2831,
                             "raw": "\"World\"",
-                            "value": "World"
+                            "value": "World",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -3381,7 +3481,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2833,
                             "end": 2840,
                             "raw": "\"Hello\"",
-                            "value": "Hello"
+                            "value": "Hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -3430,14 +3532,18 @@ __ESTREE_TEST__:PASS:
                         "start": 2904,
                         "end": 2911,
                         "raw": "\"Hello\"",
-                        "value": "Hello"
+                        "value": "Hello",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2913,
                         "end": 2920,
                         "raw": "\"World\"",
-                        "value": "World"
+                        "value": "World",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -3469,7 +3575,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2885,
                                 "end": 2892,
                                 "raw": "\"Hello\"",
-                                "value": "Hello"
+                                "value": "Hello",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             {
@@ -3481,7 +3589,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2895,
                                 "end": 2902,
                                 "raw": "\"World\"",
-                                "value": "World"
+                                "value": "World",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]

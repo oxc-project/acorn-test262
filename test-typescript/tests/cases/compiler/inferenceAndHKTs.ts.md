@@ -350,7 +350,9 @@ __ESTREE_TEST__:PASS:
                 "start": 266,
                 "end": 272,
                 "raw": "'type'",
-                "value": "type"
+                "value": "type",
+                "regex": null,
+                "bigint": null
               }
             },
             "objectType": {
@@ -642,7 +644,9 @@ __ESTREE_TEST__:PASS:
                             "start": 432,
                             "end": 435,
                             "raw": "\"A\"",
-                            "value": "A"
+                            "value": "A",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {

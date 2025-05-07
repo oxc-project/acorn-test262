@@ -47,21 +47,27 @@
                 "start": 328,
                 "end": 332,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 335,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 338,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -173,35 +179,45 @@
             "start": 433,
             "end": 437,
             "value": 2000,
-            "raw": "2000"
+            "raw": "2000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 439,
             "end": 440,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 442,
             "end": 447,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 450,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 475,
             "value": "PlainDate is copied",
-            "raw": "\"PlainDate is copied\""
+            "raw": "\"PlainDate is copied\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,7 +294,9 @@
             "start": 533,
             "end": 553,
             "value": "Calendar is copied",
-            "raw": "\"Calendar is copied\""
+            "raw": "\"Calendar is copied\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,7 +347,9 @@
             "start": 598,
             "end": 675,
             "value": "When a PlainDate is given, the returned value is not the original PlainDate",
-            "raw": "\"When a PlainDate is given, the returned value is not the original PlainDate\""
+            "raw": "\"When a PlainDate is given, the returned value is not the original PlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

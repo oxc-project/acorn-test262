@@ -108,7 +108,9 @@
                         "start": 1617,
                         "end": 1618,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -225,7 +227,9 @@
             "start": 1701,
             "end": 1772,
             "value": "PutValue throws when storing the result in a method private reference",
-            "raw": "\"PutValue throws when storing the result in a method private reference\""
+            "raw": "\"PutValue throws when storing the result in a method private reference\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

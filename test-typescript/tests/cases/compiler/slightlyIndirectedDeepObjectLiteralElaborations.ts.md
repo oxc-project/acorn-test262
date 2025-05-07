@@ -190,7 +190,9 @@ __ESTREE_TEST__:PASS:
                         "start": 125,
                         "end": 128,
                         "raw": "\"a\"",
-                        "value": "a"
+                        "value": "a",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {
@@ -276,7 +278,9 @@ __ESTREE_TEST__:PASS:
                   "start": 164,
                   "end": 165,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "void",
                 "prefix": true
@@ -392,7 +396,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 232,
                                           "end": 234,
                                           "raw": "42",
-                                          "value": 42
+                                          "value": 42,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]

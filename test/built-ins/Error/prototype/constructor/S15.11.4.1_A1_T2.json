@@ -130,7 +130,9 @@
             "start": 483,
             "end": 540,
             "value": "The value of err is expected to not equal ``undefined``",
-            "raw": "'The value of err is expected to not equal ``undefined``'"
+            "raw": "'The value of err is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +196,9 @@
             "start": 584,
             "end": 654,
             "value": "The value of err.constructor is expected to equal the value of Error",
-            "raw": "'The value of err.constructor is expected to equal the value of Error'"
+            "raw": "'The value of err.constructor is expected to equal the value of Error'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,7 +270,9 @@
             "start": 700,
             "end": 753,
             "value": "Error.prototype.isPrototypeOf(err) must return true",
-            "raw": "'Error.prototype.isPrototypeOf(err) must return true'"
+            "raw": "'Error.prototype.isPrototypeOf(err) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -406,14 +412,18 @@
             "start": 1016,
             "end": 1032,
             "value": "[object Error]",
-            "raw": "'[object Error]'"
+            "raw": "'[object Error]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1034,
             "end": 1079,
             "value": "err.toString() must return \"[object Error]\"",
-            "raw": "'err.toString() must return \"[object Error]\"'"
+            "raw": "'err.toString() must return \"[object Error]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -498,14 +508,18 @@
             "start": 1125,
             "end": 1141,
             "value": "[object Error]",
-            "raw": "'[object Error]'"
+            "raw": "'[object Error]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1143,
             "end": 1198,
             "value": "err.valueOf().toString() must return \"[object Error]\"",
-            "raw": "'err.valueOf().toString() must return \"[object Error]\"'"
+            "raw": "'err.valueOf().toString() must return \"[object Error]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

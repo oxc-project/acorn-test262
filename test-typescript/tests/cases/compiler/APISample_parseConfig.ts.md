@@ -130,7 +130,9 @@ __ESTREE_TEST__:PASS:
           "start": 372,
           "end": 384,
           "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -526,7 +528,9 @@ __ESTREE_TEST__:PASS:
                         "start": 725,
                         "end": 740,
                         "raw": "\"tsconfig.json\"",
-                        "value": "tsconfig.json"
+                        "value": "tsconfig.json",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -766,7 +770,9 @@ __ESTREE_TEST__:PASS:
                           "start": 952,
                           "end": 969,
                           "raw": "\"compilerOptions\"",
-                          "value": "compilerOptions"
+                          "value": "compilerOptions",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {

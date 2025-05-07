@@ -98,7 +98,9 @@
                     "start": 550,
                     "end": 628,
                     "value": "#1: var objInstance=new Object; objInstance.constructor === Object. Actual: ",
-                    "raw": "'#1: var objInstance=new Object; objInstance.constructor === Object. Actual: '"
+                    "raw": "'#1: var objInstance=new Object; objInstance.constructor === Object. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -228,7 +230,9 @@
                     "start": 927,
                     "end": 1005,
                     "value": "#2: var numInstance=new Number; numInstance.constructor === Number. Actual: ",
-                    "raw": "'#2: var numInstance=new Number; numInstance.constructor === Number. Actual: '"
+                    "raw": "'#2: var numInstance=new Number; numInstance.constructor === Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

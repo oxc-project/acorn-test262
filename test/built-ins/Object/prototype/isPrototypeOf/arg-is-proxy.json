@@ -228,7 +228,9 @@
             "start": 724,
             "end": 728,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

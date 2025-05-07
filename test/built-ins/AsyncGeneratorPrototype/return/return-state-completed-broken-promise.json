@@ -122,7 +122,9 @@
             "start": 1206,
             "end": 1211,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -193,7 +195,9 @@
                       "start": 1273,
                       "end": 1277,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -280,7 +284,9 @@
                 "start": 1333,
                 "end": 1335,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -328,7 +334,9 @@
             "start": 1375,
             "end": 1388,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -382,7 +390,9 @@
                               "start": 1433,
                               "end": 1449,
                               "value": "broken promise",
-                              "raw": "'broken promise'"
+                              "raw": "'broken promise'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -526,7 +536,9 @@
                             "start": 1547,
                             "end": 1567,
                             "value": "Expected rejection",
-                            "raw": "\"Expected rejection\""
+                            "raw": "\"Expected rejection\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -581,14 +593,18 @@
                             "start": 1614,
                             "end": 1619,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1621,
                             "end": 1676,
                             "value": "return should be rejected before generator is resumed",
-                            "raw": "'return should be rejected before generator is resumed'"
+                            "raw": "'return should be rejected before generator is resumed'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -646,7 +662,9 @@
                             "start": 1715,
                             "end": 1731,
                             "value": "broken promise",
-                            "raw": "'broken promise'"
+                            "raw": "'broken promise'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

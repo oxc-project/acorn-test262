@@ -55,7 +55,9 @@
                       "start": 1612,
                       "end": 1613,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -121,7 +123,9 @@
                         "start": 1670,
                         "end": 1671,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -238,7 +242,9 @@
             "start": 1754,
             "end": 1808,
             "value": "PutValue throws when storing the result if no setter",
-            "raw": "\"PutValue throws when storing the result if no setter\""
+            "raw": "\"PutValue throws when storing the result if no setter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -75,14 +75,18 @@
             "start": 394,
             "end": 404,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 484,
             "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -167,14 +171,18 @@
             "start": 561,
             "end": 566,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 638,
             "value": "isConstructor(ShadowRealm.prototype.importValue) must return false",
-            "raw": "'isConstructor(ShadowRealm.prototype.importValue) must return false'"
+            "raw": "'isConstructor(ShadowRealm.prototype.importValue) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,14 +282,18 @@
                         "start": 716,
                         "end": 718,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 720,
                         "end": 726,
                         "value": "name",
-                        "raw": "\"name\""
+                        "raw": "\"name\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -294,7 +306,9 @@
             "start": 732,
             "end": 794,
             "value": "`new ShadowRealm.prototype.importValue(\"\")` throws TypeError",
-            "raw": "'`new ShadowRealm.prototype.importValue(\"\")` throws TypeError'"
+            "raw": "'`new ShadowRealm.prototype.importValue(\"\")` throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -412,14 +426,18 @@
                         "start": 881,
                         "end": 908,
                         "value": "./import-value_FIXTURE.js",
-                        "raw": "\"./import-value_FIXTURE.js\""
+                        "raw": "\"./import-value_FIXTURE.js\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 910,
                         "end": 913,
                         "value": "x",
-                        "raw": "\"x\""
+                        "raw": "\"x\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -432,7 +450,9 @@
             "start": 919,
             "end": 964,
             "value": "`new r.importValue(\"...\")` throws TypeError",
-            "raw": "'`new r.importValue(\"...\")` throws TypeError'"
+            "raw": "'`new r.importValue(\"...\")` throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -84,7 +84,9 @@
                         "start": 919,
                         "end": 940,
                         "value": 9.007199254740991e+24,
-                        "raw": "9.007199254740991e+24"
+                        "raw": "9.007199254740991e+24",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -173,7 +175,9 @@
                       "start": 992,
                       "end": 1001,
                       "value": 1000000,
-                      "raw": "1_000_000"
+                      "raw": "1_000_000",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

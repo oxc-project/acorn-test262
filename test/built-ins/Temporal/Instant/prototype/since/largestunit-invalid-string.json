@@ -48,6 +48,7 @@
                 "end": 360,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               }
             ]
@@ -101,6 +102,7 @@
                 "end": 424,
                 "value": null,
                 "raw": "1_000_090_061_987_654_321n",
+                "regex": null,
                 "bigint": "1000090061987654321"
               }
             ]
@@ -134,133 +136,171 @@
                 "start": 449,
                 "end": 454,
                 "value": "era",
-                "raw": "\"era\""
+                "raw": "\"era\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 458,
                 "end": 467,
                 "value": "eraYear",
-                "raw": "\"eraYear\""
+                "raw": "\"eraYear\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 471,
                 "end": 477,
                 "value": "year",
-                "raw": "\"year\""
+                "raw": "\"year\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 488,
                 "value": "month",
-                "raw": "\"month\""
+                "raw": "\"month\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 492,
                 "end": 498,
                 "value": "week",
-                "raw": "\"week\""
+                "raw": "\"week\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 502,
                 "end": 507,
                 "value": "day",
-                "raw": "\"day\""
+                "raw": "\"day\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 526,
                 "value": "millisecond\u0000",
-                "raw": "\"millisecond\\0\""
+                "raw": "\"millisecond\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 530,
                 "end": 548,
                 "value": "millısecond",
-                "raw": "\"mill\\u0131second\""
+                "raw": "\"mill\\u0131second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 552,
                 "end": 560,
                 "value": "SECOND",
-                "raw": "\"SECOND\""
+                "raw": "\"SECOND\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 564,
                 "end": 570,
                 "value": "eras",
-                "raw": "\"eras\""
+                "raw": "\"eras\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 574,
                 "end": 584,
                 "value": "eraYears",
-                "raw": "\"eraYears\""
+                "raw": "\"eraYears\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 588,
                 "end": 595,
                 "value": "years",
-                "raw": "\"years\""
+                "raw": "\"years\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 599,
                 "end": 607,
                 "value": "months",
-                "raw": "\"months\""
+                "raw": "\"months\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 618,
                 "value": "weeks",
-                "raw": "\"weeks\""
+                "raw": "\"weeks\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 622,
                 "end": 628,
                 "value": "days",
-                "raw": "\"days\""
+                "raw": "\"days\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 632,
                 "end": 648,
                 "value": "milliseconds\u0000",
-                "raw": "\"milliseconds\\0\""
+                "raw": "\"milliseconds\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 652,
                 "end": 671,
                 "value": "millıseconds",
-                "raw": "\"mill\\u0131seconds\""
+                "raw": "\"mill\\u0131seconds\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 675,
                 "end": 684,
                 "value": "SECONDS",
-                "raw": "\"SECONDS\""
+                "raw": "\"SECONDS\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 688,
                 "end": 702,
                 "value": "other string",
-                "raw": "\"other string\""
+                "raw": "\"other string\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -23,7 +23,9 @@
             "start": 1495,
             "end": 1496,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -135,7 +137,9 @@
                           "start": 1565,
                           "end": 1573,
                           "value": "caller",
-                          "raw": "\"caller\""
+                          "raw": "\"caller\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -145,7 +149,9 @@
                       "start": 1576,
                       "end": 1581,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -290,14 +296,18 @@
                             "start": 1662,
                             "end": 1663,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1665,
                             "end": 1690,
                             "value": "function body evaluated",
-                            "raw": "'function body evaluated'"
+                            "raw": "'function body evaluated'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

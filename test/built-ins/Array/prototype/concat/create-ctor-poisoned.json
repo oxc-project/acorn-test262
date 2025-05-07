@@ -67,7 +67,9 @@
             "start": 476,
             "end": 489,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -216,7 +218,9 @@
             "start": 610,
             "end": 654,
             "value": "a.concat() throws a Test262Error exception",
-            "raw": "'a.concat() throws a Test262Error exception'"
+            "raw": "'a.concat() throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

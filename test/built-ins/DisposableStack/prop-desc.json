@@ -28,7 +28,9 @@
             "start": 580,
             "end": 597,
             "value": "DisposableStack",
-            "raw": "'DisposableStack'"
+            "raw": "'DisposableStack'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -53,7 +55,9 @@
                   "start": 615,
                   "end": 620,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -75,7 +79,9 @@
                   "start": 634,
                   "end": 638,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,7 +103,9 @@
                   "start": 656,
                   "end": 660,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

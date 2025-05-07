@@ -70,7 +70,9 @@
                             "start": 2016,
                             "end": 2017,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -150,7 +152,9 @@
                                     "start": 2076,
                                     "end": 2077,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -160,7 +164,9 @@
                                   "start": 2081,
                                   "end": 2085,
                                   "value": null,
-                                  "raw": "null"
+                                  "raw": "null",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }

@@ -35,7 +35,9 @@
           "start": 306,
           "end": 309,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -95,7 +97,9 @@
                         "start": 334,
                         "end": 341,
                         "value": "hello",
-                        "raw": "\"hello\""
+                        "raw": "\"hello\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -129,7 +133,9 @@
             "start": 352,
             "end": 378,
             "value": "with(myObj){p1={b:'hi'}}",
-            "raw": "\"with(myObj){p1={b:'hi'}}\""
+            "raw": "\"with(myObj){p1={b:'hi'}}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +187,9 @@
           "start": 489,
           "end": 496,
           "value": "hello",
-          "raw": "\"hello\""
+          "raw": "\"hello\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -209,7 +217,9 @@
                   "start": 524,
                   "end": 552,
                   "value": "#1: myObj.p1.a !== \"hello\"",
-                  "raw": "'#1: myObj.p1.a !== \"hello\"'"
+                  "raw": "'#1: myObj.p1.a !== \"hello\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -264,7 +274,9 @@
           "start": 747,
           "end": 751,
           "value": "hi",
-          "raw": "\"hi\""
+          "raw": "\"hi\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -296,7 +308,9 @@
                     "start": 779,
                     "end": 829,
                     "value": "#2: myObj.p1.b === \"hi\". Actual:  myObj.p1.b ===",
-                    "raw": "'#2: myObj.p1.b === \"hi\". Actual:  myObj.p1.b ==='"
+                    "raw": "'#2: myObj.p1.b === \"hi\". Actual:  myObj.p1.b ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -372,7 +386,9 @@
           "start": 1037,
           "end": 1040,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -400,7 +416,9 @@
                   "start": 1068,
                   "end": 1092,
                   "value": "#3: myObj.p1 !== 'a'",
-                  "raw": "'#3: myObj.p1 !== \\'a\\''"
+                  "raw": "'#3: myObj.p1 !== \\'a\\''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

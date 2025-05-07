@@ -62,7 +62,9 @@
             "start": 716,
             "end": 731,
             "value": "[object Intl]",
-            "raw": "\"[object Intl]\""
+            "raw": "\"[object Intl]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -160,7 +162,9 @@
             "start": 789,
             "end": 804,
             "value": "[object Intl]",
-            "raw": "\"[object Intl]\""
+            "raw": "\"[object Intl]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -242,7 +246,9 @@
                   "start": 865,
                   "end": 874,
                   "value": "test262",
-                  "raw": "\"test262\""
+                  "raw": "\"test262\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -311,7 +317,9 @@
             "start": 913,
             "end": 931,
             "value": "[object test262]",
-            "raw": "\"[object test262]\""
+            "raw": "\"[object test262]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +417,9 @@
             "start": 989,
             "end": 1007,
             "value": "[object test262]",
-            "raw": "\"[object test262]\""
+            "raw": "\"[object test262]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -532,7 +542,9 @@
             "start": 1086,
             "end": 1103,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -630,7 +642,9 @@
             "start": 1161,
             "end": 1178,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

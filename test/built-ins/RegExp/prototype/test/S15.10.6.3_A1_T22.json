@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:ab|cd)\\d?",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 485,
             "end": 486,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -121,7 +124,9 @@
                 "start": 515,
                 "end": 524,
                 "value": "aacd22 ",
-                "raw": "\"aacd22 \""
+                "raw": "\"aacd22 \"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -170,7 +175,9 @@
             "start": 549,
             "end": 599,
             "value": "The value of !!__executed is expected to be true",
-            "raw": "'The value of !!__executed is expected to be true'"
+            "raw": "'The value of !!__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,14 +235,18 @@
             "start": 635,
             "end": 636,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 687,
             "value": "The value of __re.lastIndex is expected to be 5",
-            "raw": "'The value of __re.lastIndex is expected to be 5'"
+            "raw": "'The value of __re.lastIndex is expected to be 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,7 +291,9 @@
             "start": 707,
             "end": 710,
             "value": 100,
-            "raw": "100"
+            "raw": "100",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -329,7 +342,9 @@
               "start": 735,
               "end": 744,
               "value": "aacd22 ",
-              "raw": "\"aacd22 \""
+              "raw": "\"aacd22 \"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -376,7 +391,9 @@
             "start": 769,
             "end": 819,
             "value": "The value of !!__executed is expected to be true",
-            "raw": "'The value of !!__executed is expected to be true'"
+            "raw": "'The value of !!__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -434,14 +451,18 @@
             "start": 855,
             "end": 856,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 858,
             "end": 907,
             "value": "The value of __re.lastIndex is expected to be 5",
-            "raw": "'The value of __re.lastIndex is expected to be 5'"
+            "raw": "'The value of __re.lastIndex is expected to be 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -95,14 +95,18 @@
             "start": 800,
             "end": 805,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 876,
             "value": "isConstructor(Array.prototype[Symbol.iterator]) must return false",
-            "raw": "'isConstructor(Array.prototype[Symbol.iterator]) must return false'"
+            "raw": "'isConstructor(Array.prototype[Symbol.iterator]) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -67,7 +67,9 @@
             "start": 314,
             "end": 320,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 333,
                   "end": 337,
                   "value": 1003,
-                  "raw": "1003"
+                  "raw": "1003",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 353,
                   "end": 357,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +142,9 @@
                   "start": 375,
                   "end": 379,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -242,7 +250,9 @@
                 "start": 440,
                 "end": 441,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -252,7 +262,9 @@
             "start": 444,
             "end": 476,
             "value": "arr.hasOwnProperty(0) !== true",
-            "raw": "'arr.hasOwnProperty(0) !== true'"
+            "raw": "'arr.hasOwnProperty(0) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +313,9 @@
               "start": 500,
               "end": 501,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -311,14 +325,18 @@
             "start": 504,
             "end": 510,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 520,
             "value": "arr[0]",
-            "raw": "'arr[0]'"
+            "raw": "'arr[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

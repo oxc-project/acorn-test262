@@ -23,7 +23,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"ext\"",
-        "value": "ext"
+        "value": "ext",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -59,7 +61,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 10,
         "raw": "\"A\"",
-        "value": "A"
+        "value": "A",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

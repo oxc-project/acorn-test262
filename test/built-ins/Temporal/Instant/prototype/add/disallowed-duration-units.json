@@ -48,6 +48,7 @@
                 "end": 543,
                 "value": null,
                 "raw": "500000n",
+                "regex": null,
                 "bigint": "500000"
               }
             ]
@@ -152,7 +153,9 @@
                       "start": 609,
                       "end": 610,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -165,7 +168,9 @@
             "start": 618,
             "end": 691,
             "value": "should throw RangeError when the duration has non-zero years (positive)",
-            "raw": "\"should throw RangeError when the duration has non-zero years (positive)\""
+            "raw": "\"should throw RangeError when the duration has non-zero years (positive)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,14 +272,18 @@
                       "start": 757,
                       "end": 758,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 760,
                       "end": 761,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -287,7 +296,9 @@
             "start": 769,
             "end": 843,
             "value": "should throw RangeError when the duration has non-zero months (positive)",
-            "raw": "\"should throw RangeError when the duration has non-zero months (positive)\""
+            "raw": "\"should throw RangeError when the duration has non-zero months (positive)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -389,21 +400,27 @@
                       "start": 909,
                       "end": 910,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 912,
                       "end": 913,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 915,
                       "end": 916,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -416,7 +433,9 @@
             "start": 924,
             "end": 997,
             "value": "should throw RangeError when the duration has non-zero weeks (positive)",
-            "raw": "\"should throw RangeError when the duration has non-zero weeks (positive)\""
+            "raw": "\"should throw RangeError when the duration has non-zero weeks (positive)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -518,28 +537,36 @@
                       "start": 1063,
                       "end": 1064,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1066,
                       "end": 1067,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1069,
                       "end": 1070,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1072,
                       "end": 1073,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -552,7 +579,9 @@
             "start": 1081,
             "end": 1153,
             "value": "should throw RangeError when the duration has non-zero days (positive)",
-            "raw": "\"should throw RangeError when the duration has non-zero days (positive)\""
+            "raw": "\"should throw RangeError when the duration has non-zero days (positive)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -660,7 +689,9 @@
                         "start": 1220,
                         "end": 1221,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -674,7 +705,9 @@
             "start": 1229,
             "end": 1302,
             "value": "should throw RangeError when the duration has non-zero years (negative)",
-            "raw": "\"should throw RangeError when the duration has non-zero years (negative)\""
+            "raw": "\"should throw RangeError when the duration has non-zero years (negative)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -776,7 +809,9 @@
                       "start": 1368,
                       "end": 1369,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "UnaryExpression",
@@ -789,7 +824,9 @@
                         "start": 1372,
                         "end": 1373,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -803,7 +840,9 @@
             "start": 1381,
             "end": 1455,
             "value": "should throw RangeError when the duration has non-zero months (negative)",
-            "raw": "\"should throw RangeError when the duration has non-zero months (negative)\""
+            "raw": "\"should throw RangeError when the duration has non-zero months (negative)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -905,14 +944,18 @@
                       "start": 1521,
                       "end": 1522,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1524,
                       "end": 1525,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "UnaryExpression",
@@ -925,7 +968,9 @@
                         "start": 1528,
                         "end": 1529,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -939,7 +984,9 @@
             "start": 1537,
             "end": 1610,
             "value": "should throw RangeError when the duration has non-zero weeks (negative)",
-            "raw": "\"should throw RangeError when the duration has non-zero weeks (negative)\""
+            "raw": "\"should throw RangeError when the duration has non-zero weeks (negative)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1041,21 +1088,27 @@
                       "start": 1676,
                       "end": 1677,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1679,
                       "end": 1680,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1682,
                       "end": 1683,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "UnaryExpression",
@@ -1068,7 +1121,9 @@
                         "start": 1686,
                         "end": 1687,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1082,7 +1137,9 @@
             "start": 1695,
             "end": 1767,
             "value": "should throw RangeError when the duration has non-zero days (negative)",
-            "raw": "\"should throw RangeError when the duration has non-zero days (negative)\""
+            "raw": "\"should throw RangeError when the duration has non-zero days (negative)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

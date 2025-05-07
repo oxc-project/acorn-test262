@@ -571,14 +571,18 @@ __ESTREE_TEST__:PASS:
                   "start": 443,
                   "end": 448,
                   "raw": "'foo'",
-                  "value": "foo"
+                  "value": "foo",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 450,
                   "end": 452,
                   "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

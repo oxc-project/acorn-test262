@@ -72,7 +72,9 @@
                 "start": 439,
                 "end": 447,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 478,
                     "end": 565,
                     "value": "#1: String.prototype.toLocaleUpperCase.hasOwnProperty(\"length\") return true. Actual: ",
-                    "raw": "'#1: String.prototype.toLocaleUpperCase.hasOwnProperty(\"length\") return true. Actual: '"
+                    "raw": "'#1: String.prototype.toLocaleUpperCase.hasOwnProperty(\"length\") return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 618,
                         "end": 626,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -238,7 +244,9 @@
           "start": 854,
           "end": 855,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -270,7 +278,9 @@
                     "start": 884,
                     "end": 947,
                     "value": "#2: String.prototype.toLocaleUpperCase.length === 0. Actual: ",
-                    "raw": "'#2: String.prototype.toLocaleUpperCase.length === 0. Actual: '"
+                    "raw": "'#2: String.prototype.toLocaleUpperCase.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

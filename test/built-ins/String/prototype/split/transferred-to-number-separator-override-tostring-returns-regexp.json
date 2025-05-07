@@ -63,7 +63,8 @@
                           "regex": {
                             "pattern": "\\u0037\\u0037",
                             "flags": "g"
-                          }
+                          },
+                          "bigint": null
                         }
                       }
                     ]
@@ -193,7 +194,9 @@
                         "start": 734,
                         "end": 760,
                         "value": 6776767677.006771,
-                        "raw": "6776767677.006771122677555"
+                        "raw": "6776767677.006771122677555",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "property": {
@@ -252,7 +255,9 @@
                   "start": 799,
                   "end": 883,
                   "value": "#1: \"__split = 6776767677.006771122677555.split(__obj)\" lead to throwing exception",
-                  "raw": "'#1: \"__split = 6776767677.006771122677555.split(__obj)\" lead to throwing exception'"
+                  "raw": "'#1: \"__split = 6776767677.006771122677555.split(__obj)\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -313,7 +318,9 @@
                     "start": 933,
                     "end": 983,
                     "value": "The result of `(e instanceof TypeError)` is true",
-                    "raw": "'The result of `(e instanceof TypeError)` is true'"
+                    "raw": "'The result of `(e instanceof TypeError)` is true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

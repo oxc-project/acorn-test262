@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?i:a)b",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -83,7 +84,9 @@
                   "start": 1698,
                   "end": 1702,
                   "value": "AB",
-                  "raw": "\"AB\""
+                  "raw": "\"AB\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +97,9 @@
             "start": 1705,
             "end": 1733,
             "value": "b should not match B in AB",
-            "raw": "\"b should not match B in AB\""
+            "raw": "\"b should not match B in AB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -144,7 +149,9 @@
                 "start": 1752,
                 "end": 1756,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -154,7 +161,9 @@
             "start": 1759,
             "end": 1783,
             "value": "a should match A in AB",
-            "raw": "\"a should match A in AB\""
+            "raw": "\"a should match A in AB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +213,9 @@
                 "start": 1802,
                 "end": 1806,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -214,7 +225,9 @@
             "start": 1809,
             "end": 1826,
             "value": "should match AB",
-            "raw": "\"should match AB\""
+            "raw": "\"should match AB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +264,9 @@
                 "start": 1851,
                 "end": 1860,
                 "value": "(?i:a)b",
-                "raw": "\"(?i:a)b\""
+                "raw": "\"(?i:a)b\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -309,7 +324,9 @@
                   "start": 1880,
                   "end": 1884,
                   "value": "AB",
-                  "raw": "\"AB\""
+                  "raw": "\"AB\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -320,7 +337,9 @@
             "start": 1887,
             "end": 1915,
             "value": "b should not match B in AB",
-            "raw": "\"b should not match B in AB\""
+            "raw": "\"b should not match B in AB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -370,7 +389,9 @@
                 "start": 1934,
                 "end": 1938,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -380,7 +401,9 @@
             "start": 1941,
             "end": 1965,
             "value": "a should match A in AB",
-            "raw": "\"a should match A in AB\""
+            "raw": "\"a should match A in AB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +453,9 @@
                 "start": 1984,
                 "end": 1988,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -440,7 +465,9 @@
             "start": 1991,
             "end": 2008,
             "value": "should match AB",
-            "raw": "\"should match AB\""
+            "raw": "\"should match AB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -470,7 +497,8 @@
             "regex": {
               "pattern": "b(?i:a)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -526,7 +554,9 @@
                   "start": 2050,
                   "end": 2054,
                   "value": "BA",
-                  "raw": "\"BA\""
+                  "raw": "\"BA\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -537,7 +567,9 @@
             "start": 2057,
             "end": 2085,
             "value": "b should not match B in BA",
-            "raw": "\"b should not match B in BA\""
+            "raw": "\"b should not match B in BA\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +619,9 @@
                 "start": 2104,
                 "end": 2108,
                 "value": "bA",
-                "raw": "\"bA\""
+                "raw": "\"bA\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -597,7 +631,9 @@
             "start": 2111,
             "end": 2135,
             "value": "a should match A in BA",
-            "raw": "\"a should match A in BA\""
+            "raw": "\"a should match A in BA\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -647,7 +683,9 @@
                 "start": 2154,
                 "end": 2158,
                 "value": "ba",
-                "raw": "\"ba\""
+                "raw": "\"ba\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -657,7 +695,9 @@
             "start": 2161,
             "end": 2178,
             "value": "should match BA",
-            "raw": "\"should match BA\""
+            "raw": "\"should match BA\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -694,7 +734,9 @@
                 "start": 2203,
                 "end": 2212,
                 "value": "b(?i:a)",
-                "raw": "\"b(?i:a)\""
+                "raw": "\"b(?i:a)\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -752,7 +794,9 @@
                   "start": 2232,
                   "end": 2236,
                   "value": "BA",
-                  "raw": "\"BA\""
+                  "raw": "\"BA\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -763,7 +807,9 @@
             "start": 2239,
             "end": 2267,
             "value": "b should not match B in BA",
-            "raw": "\"b should not match B in BA\""
+            "raw": "\"b should not match B in BA\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -813,7 +859,9 @@
                 "start": 2286,
                 "end": 2290,
                 "value": "bA",
-                "raw": "\"bA\""
+                "raw": "\"bA\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -823,7 +871,9 @@
             "start": 2293,
             "end": 2317,
             "value": "a should match A in BA",
-            "raw": "\"a should match A in BA\""
+            "raw": "\"a should match A in BA\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -873,7 +923,9 @@
                 "start": 2336,
                 "end": 2340,
                 "value": "ba",
-                "raw": "\"ba\""
+                "raw": "\"ba\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -883,7 +935,9 @@
             "start": 2343,
             "end": 2360,
             "value": "should match BA",
-            "raw": "\"should match BA\""
+            "raw": "\"should match BA\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -913,7 +967,8 @@
             "regex": {
               "pattern": "a(?i:b)c",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -963,7 +1018,9 @@
                 "start": 2402,
                 "end": 2407,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -973,7 +1030,9 @@
             "start": 2410,
             "end": 2435,
             "value": "b should match b in abc",
-            "raw": "\"b should match b in abc\""
+            "raw": "\"b should match b in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1023,7 +1082,9 @@
                 "start": 2454,
                 "end": 2459,
                 "value": "aBc",
-                "raw": "\"aBc\""
+                "raw": "\"aBc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1033,7 +1094,9 @@
             "start": 2462,
             "end": 2487,
             "value": "B should match b in abc",
-            "raw": "\"B should match b in abc\""
+            "raw": "\"B should match b in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1089,7 +1152,9 @@
                   "start": 2507,
                   "end": 2512,
                   "value": "ABc",
-                  "raw": "\"ABc\""
+                  "raw": "\"ABc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1100,7 +1165,9 @@
             "start": 2515,
             "end": 2544,
             "value": "A should not match a in abc",
-            "raw": "\"A should not match a in abc\""
+            "raw": "\"A should not match a in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1156,7 +1223,9 @@
                   "start": 2564,
                   "end": 2569,
                   "value": "aBC",
-                  "raw": "\"aBC\""
+                  "raw": "\"aBC\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1167,7 +1236,9 @@
             "start": 2572,
             "end": 2601,
             "value": "C should not match c in abc",
-            "raw": "\"C should not match c in abc\""
+            "raw": "\"C should not match c in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1223,7 +1294,9 @@
                   "start": 2621,
                   "end": 2626,
                   "value": "ABC",
-                  "raw": "\"ABC\""
+                  "raw": "\"ABC\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1234,7 +1307,9 @@
             "start": 2629,
             "end": 2651,
             "value": "should not match abc",
-            "raw": "\"should not match abc\""
+            "raw": "\"should not match abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1271,7 +1346,9 @@
                 "start": 2676,
                 "end": 2686,
                 "value": "a(?i:b)c",
-                "raw": "\"a(?i:b)c\""
+                "raw": "\"a(?i:b)c\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1323,7 +1400,9 @@
                 "start": 2705,
                 "end": 2710,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1333,7 +1412,9 @@
             "start": 2713,
             "end": 2738,
             "value": "b should match b in abc",
-            "raw": "\"b should match b in abc\""
+            "raw": "\"b should match b in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1383,7 +1464,9 @@
                 "start": 2757,
                 "end": 2762,
                 "value": "aBc",
-                "raw": "\"aBc\""
+                "raw": "\"aBc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1393,7 +1476,9 @@
             "start": 2765,
             "end": 2790,
             "value": "B should match b in abc",
-            "raw": "\"B should match b in abc\""
+            "raw": "\"B should match b in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1449,7 +1534,9 @@
                   "start": 2810,
                   "end": 2815,
                   "value": "ABc",
-                  "raw": "\"ABc\""
+                  "raw": "\"ABc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1460,7 +1547,9 @@
             "start": 2818,
             "end": 2847,
             "value": "A should not match a in abc",
-            "raw": "\"A should not match a in abc\""
+            "raw": "\"A should not match a in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1516,7 +1605,9 @@
                   "start": 2867,
                   "end": 2872,
                   "value": "aBC",
-                  "raw": "\"aBC\""
+                  "raw": "\"aBC\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1527,7 +1618,9 @@
             "start": 2875,
             "end": 2904,
             "value": "C should not match c in abc",
-            "raw": "\"C should not match c in abc\""
+            "raw": "\"C should not match c in abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1583,7 +1676,9 @@
                   "start": 2924,
                   "end": 2929,
                   "value": "ABC",
-                  "raw": "\"ABC\""
+                  "raw": "\"ABC\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1594,7 +1689,9 @@
             "start": 2932,
             "end": 2954,
             "value": "should not match abc",
-            "raw": "\"should not match abc\""
+            "raw": "\"should not match abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

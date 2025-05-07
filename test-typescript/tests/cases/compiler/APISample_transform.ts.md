@@ -50,7 +50,9 @@ __ESTREE_TEST__:PASS:
         "start": 334,
         "end": 346,
         "raw": "\"typescript\"",
-        "value": "typescript"
+        "value": "typescript",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
             "start": 364,
             "end": 391,
             "raw": "\"let x: string  = 'string'\"",
-            "value": "let x: string  = 'string'"
+            "value": "let x: string  = 'string'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

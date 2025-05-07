@@ -87,7 +87,9 @@
             "start": 396,
             "end": 476,
             "value": "The value of Function.prototype.apply.prototype is expected to equal undefined",
-            "raw": "'The value of Function.prototype.apply.prototype is expected to equal undefined'"
+            "raw": "'The value of Function.prototype.apply.prototype is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

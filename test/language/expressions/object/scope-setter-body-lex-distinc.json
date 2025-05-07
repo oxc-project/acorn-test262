@@ -97,7 +97,9 @@
                               "start": 2085,
                               "end": 2093,
                               "value": "var x;",
-                              "raw": "'var x;'"
+                              "raw": "'var x;'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -195,7 +197,9 @@
                       "start": 2152,
                       "end": 2156,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

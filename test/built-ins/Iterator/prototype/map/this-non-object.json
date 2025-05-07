@@ -110,7 +110,9 @@
                         "start": 481,
                         "end": 485,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -126,7 +128,9 @@
                           "start": 493,
                           "end": 494,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -192,7 +196,9 @@
             "start": 542,
             "end": 548,
             "value": "next",
-            "raw": "'next'"
+            "raw": "'next'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -361,7 +367,9 @@
                         "start": 681,
                         "end": 682,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -377,7 +385,9 @@
                           "start": 690,
                           "end": 691,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

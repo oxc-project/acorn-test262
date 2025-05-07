@@ -81,14 +81,18 @@
                                   "start": 798,
                                   "end": 801,
                                   "value": "a",
-                                  "raw": "'a'"
+                                  "raw": "'a'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 803,
                                   "end": 806,
                                   "value": "a",
-                                  "raw": "'a'"
+                                  "raw": "'a'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }

@@ -36,7 +36,9 @@
           "start": 263,
           "end": 264,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -68,7 +70,9 @@
                     "start": 293,
                     "end": 326,
                     "value": "#1: eval.length === 1. Actual: ",
-                    "raw": "'#1: eval.length === 1. Actual: '"
+                    "raw": "'#1: eval.length === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

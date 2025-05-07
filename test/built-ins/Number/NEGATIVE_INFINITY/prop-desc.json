@@ -29,7 +29,9 @@
             "start": 447,
             "end": 466,
             "value": "NEGATIVE_INFINITY",
-            "raw": "\"NEGATIVE_INFINITY\""
+            "raw": "\"NEGATIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -61,7 +63,9 @@
             "start": 495,
             "end": 514,
             "value": "NEGATIVE_INFINITY",
-            "raw": "\"NEGATIVE_INFINITY\""
+            "raw": "\"NEGATIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -93,7 +97,9 @@
             "start": 547,
             "end": 566,
             "value": "NEGATIVE_INFINITY",
-            "raw": "\"NEGATIVE_INFINITY\""
+            "raw": "\"NEGATIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

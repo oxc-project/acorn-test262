@@ -28,217 +28,279 @@
                 "start": 381,
                 "end": 385,
                 "value": "de",
-                "raw": "\"de\""
+                "raw": "\"de\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 423,
                 "value": "de-DE",
-                "raw": "\"de-DE\""
+                "raw": "\"de-DE\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 458,
                 "end": 465,
                 "value": "DE-de",
-                "raw": "\"DE-de\""
+                "raw": "\"DE-de\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 500,
                 "end": 505,
                 "value": "cmn",
-                "raw": "\"cmn\""
+                "raw": "\"cmn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 546,
                 "value": "cmn-Hans",
-                "raw": "\"cmn-Hans\""
+                "raw": "\"cmn-Hans\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 569,
                 "end": 579,
                 "value": "CMN-hANS",
-                "raw": "\"CMN-hANS\""
+                "raw": "\"CMN-hANS\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 614,
                 "end": 627,
                 "value": "cmn-hans-cn",
-                "raw": "\"cmn-hans-cn\""
+                "raw": "\"cmn-hans-cn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 662,
                 "end": 670,
                 "value": "es-419",
-                "raw": "\"es-419\""
+                "raw": "\"es-419\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 701,
                 "end": 726,
                 "value": "es-419-u-nu-latn-cu-bob",
-                "raw": "\"es-419-u-nu-latn-cu-bob\""
+                "raw": "\"es-419-u-nu-latn-cu-bob\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 771,
                 "end": 782,
                 "value": "i-klingon",
-                "raw": "\"i-klingon\""
+                "raw": "\"i-klingon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 809,
                 "end": 838,
                 "value": "cmn-hans-cn-t-ca-u-ca-x-t-u",
-                "raw": "\"cmn-hans-cn-t-ca-u-ca-x-t-u\""
+                "raw": "\"cmn-hans-cn-t-ca-u-ca-x-t-u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 905,
                 "end": 930,
                 "value": "de-gregory-u-ca-gregory",
-                "raw": "\"de-gregory-u-ca-gregory\""
+                "raw": "\"de-gregory-u-ca-gregory\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 985,
                 "end": 992,
                 "value": "de_DE",
-                "raw": "\"de_DE\""
+                "raw": "\"de_DE\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 998,
                 "end": 1005,
                 "value": "DE_de",
-                "raw": "\"DE_de\""
+                "raw": "\"DE_de\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1011,
                 "end": 1021,
                 "value": "cmn_Hans",
-                "raw": "\"cmn_Hans\""
+                "raw": "\"cmn_Hans\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1027,
                 "end": 1040,
                 "value": "cmn-hans_cn",
-                "raw": "\"cmn-hans_cn\""
+                "raw": "\"cmn-hans_cn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1046,
                 "end": 1054,
                 "value": "es_419",
-                "raw": "\"es_419\""
+                "raw": "\"es_419\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1060,
                 "end": 1085,
                 "value": "es-419-u-nu-latn-cu_bob",
-                "raw": "\"es-419-u-nu-latn-cu_bob\""
+                "raw": "\"es-419-u-nu-latn-cu_bob\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1091,
                 "end": 1102,
                 "value": "i_klingon",
-                "raw": "\"i_klingon\""
+                "raw": "\"i_klingon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1108,
                 "end": 1137,
                 "value": "cmn-hans-cn-t-ca-u-ca-x_t-u",
-                "raw": "\"cmn-hans-cn-t-ca-u-ca-x_t-u\""
+                "raw": "\"cmn-hans-cn-t-ca-u-ca-x_t-u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1143,
                 "end": 1162,
                 "value": "enochian_enochian",
-                "raw": "\"enochian_enochian\""
+                "raw": "\"enochian_enochian\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1168,
                 "end": 1193,
                 "value": "de-gregory_u-ca-gregory",
-                "raw": "\"de-gregory_u-ca-gregory\""
+                "raw": "\"de-gregory_u-ca-gregory\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1199,
                 "end": 1202,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1227,
                 "end": 1230,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1266,
                 "end": 1269,
                 "value": "u",
-                "raw": "\"u\""
+                "raw": "\"u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1313,
                 "end": 1318,
                 "value": "419",
-                "raw": "\"419\""
+                "raw": "\"419\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1354,
                 "end": 1372,
                 "value": "u-nu-latn-cu-bob",
-                "raw": "\"u-nu-latn-cu-bob\""
+                "raw": "\"u-nu-latn-cu-bob\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1417,
                 "end": 1430,
                 "value": "hans-cmn-cn",
-                "raw": "\"hans-cmn-cn\""
+                "raw": "\"hans-cmn-cn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1563,
                 "end": 1580,
                 "value": "cmn-hans-cn-u-u",
-                "raw": "\"cmn-hans-cn-u-u\""
+                "raw": "\"cmn-hans-cn-u-u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1609,
                 "end": 1631,
                 "value": "cmn-hans-cn-t-u-ca-u",
-                "raw": "\"cmn-hans-cn-t-u-ca-u\""
+                "raw": "\"cmn-hans-cn-t-u-ca-u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1660,
                 "end": 1680,
                 "value": "de-gregory-gregory",
-                "raw": "\"de-gregory-gregory\""
+                "raw": "\"de-gregory-gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -805,7 +867,9 @@
                                             "start": 2284,
                                             "end": 2307,
                                             "value": "Single locale string ",
-                                            "raw": "\"Single locale string \""
+                                            "raw": "\"Single locale string \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -821,7 +885,9 @@
                                           "start": 2319,
                                           "end": 2326,
                                           "value": " was ",
-                                          "raw": "\" was \""
+                                          "raw": "\" was \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -856,14 +922,18 @@
                                             "start": 2353,
                                             "end": 2363,
                                             "value": "accepted",
-                                            "raw": "\"accepted\""
+                                            "raw": "\"accepted\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "alternate": {
                                             "type": "Literal",
                                             "start": 2366,
                                             "end": 2376,
                                             "value": "rejected",
-                                            "raw": "\"rejected\""
+                                            "raw": "\"rejected\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -874,7 +944,9 @@
                                       "start": 2380,
                                       "end": 2430,
                                       "value": ", but locale list containing that string wasn't.",
-                                      "raw": "\", but locale list containing that string wasn't.\""
+                                      "raw": "\", but locale list containing that string wasn't.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -985,7 +1057,9 @@
                                                           "start": 2516,
                                                           "end": 2539,
                                                           "value": "Single locale string ",
-                                                          "raw": "\"Single locale string \""
+                                                          "raw": "\"Single locale string \"",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         },
                                                         "operator": "+",
                                                         "right": {
@@ -1001,7 +1075,9 @@
                                                         "start": 2551,
                                                         "end": 2565,
                                                         "value": " results in ",
-                                                        "raw": "\" results in \""
+                                                        "raw": "\" results in \"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     },
                                                     "operator": "+",
@@ -1018,7 +1094,9 @@
                                                     "start": 2578,
                                                     "end": 2599,
                                                     "value": ", but locale list [",
-                                                    "raw": "\", but locale list [\""
+                                                    "raw": "\", but locale list [\"",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "operator": "+",
@@ -1035,7 +1113,9 @@
                                                 "start": 2611,
                                                 "end": 2626,
                                                 "value": "] results in ",
-                                                "raw": "\"] results in \""
+                                                "raw": "\"] results in \"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "operator": "+",
@@ -1052,7 +1132,9 @@
                                             "start": 2639,
                                             "end": 2642,
                                             "value": ".",
-                                            "raw": "\".\""
+                                            "raw": "\".\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ],
@@ -1169,7 +1251,9 @@
                                                           "start": 2717,
                                                           "end": 2740,
                                                           "value": "Single locale string ",
-                                                          "raw": "\"Single locale string \""
+                                                          "raw": "\"Single locale string \"",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         },
                                                         "operator": "+",
                                                         "right": {
@@ -1185,7 +1269,9 @@
                                                         "start": 2752,
                                                         "end": 2772,
                                                         "value": " results in error ",
-                                                        "raw": "\" results in error \""
+                                                        "raw": "\" results in error \"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     },
                                                     "operator": "+",
@@ -1215,7 +1301,9 @@
                                                     "start": 2789,
                                                     "end": 2810,
                                                     "value": ", but locale list [",
-                                                    "raw": "\", but locale list [\""
+                                                    "raw": "\", but locale list [\"",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "operator": "+",
@@ -1232,7 +1320,9 @@
                                                 "start": 2822,
                                                 "end": 2843,
                                                 "value": "] results in error ",
-                                                "raw": "\"] results in error \""
+                                                "raw": "\"] results in error \"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "operator": "+",
@@ -1262,7 +1352,9 @@
                                             "start": 2860,
                                             "end": 2863,
                                             "value": ".",
-                                            "raw": "\".\""
+                                            "raw": "\".\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ],

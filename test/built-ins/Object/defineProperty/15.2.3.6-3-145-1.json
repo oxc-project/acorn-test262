@@ -74,7 +74,9 @@
           "start": 396,
           "end": 402,
           "value": "Date",
-          "raw": "\"Date\""
+          "raw": "\"Date\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -148,7 +150,9 @@
             "start": 458,
             "end": 468,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -212,14 +216,18 @@
             "start": 512,
             "end": 518,
             "value": "Date",
-            "raw": "\"Date\""
+            "raw": "\"Date\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 520,
             "end": 534,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

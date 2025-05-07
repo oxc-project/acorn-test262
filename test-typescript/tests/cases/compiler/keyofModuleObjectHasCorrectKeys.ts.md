@@ -128,7 +128,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 36,
         "raw": "'./example'",
-        "value": "./example"
+        "value": "./example",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -290,7 +292,9 @@ __ESTREE_TEST__:PASS:
             "start": 114,
             "end": 123,
             "raw": "\"default\"",
-            "value": "default"
+            "value": "default",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

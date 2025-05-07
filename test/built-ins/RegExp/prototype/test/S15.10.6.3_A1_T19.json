@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "e{1}",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -96,7 +97,9 @@
                   "start": 356,
                   "end": 357,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -141,7 +144,9 @@
                     "start": 377,
                     "end": 378,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -153,7 +158,9 @@
               "start": 384,
               "end": 388,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -161,7 +168,9 @@
             "start": 392,
             "end": 450,
             "value": "__re.test(void 0) must return __re.exec(void 0) !== null",
-            "raw": "'__re.test(void 0) must return __re.exec(void 0) !== null'"
+            "raw": "'__re.test(void 0) must return __re.exec(void 0) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

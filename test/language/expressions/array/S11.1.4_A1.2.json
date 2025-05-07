@@ -61,7 +61,9 @@
           "start": 372,
           "end": 380,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -93,7 +95,9 @@
                     "start": 409,
                     "end": 471,
                     "value": "#1: var array = [,,,,,]; typeof array === \"object\". Actual: ",
-                    "raw": "'#1: var array = [,,,,,]; typeof array === \"object\". Actual: '"
+                    "raw": "'#1: var array = [,,,,,]; typeof array === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -154,7 +158,9 @@
           "start": 535,
           "end": 539,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -182,7 +188,9 @@
                   "start": 568,
                   "end": 626,
                   "value": "#2: var array = [,,,,,]; array instanceof Array === true",
-                  "raw": "'#2: var array = [,,,,,]; array instanceof Array === true'"
+                  "raw": "'#2: var array = [,,,,,]; array instanceof Array === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -281,7 +289,9 @@
                     "start": 718,
                     "end": 798,
                     "value": "#3: var array = [,,,,,]; array.toString === Array.prototype.toString. Actual: ",
-                    "raw": "'#3: var array = [,,,,,]; array.toString === Array.prototype.toString. Actual: '"
+                    "raw": "'#3: var array = [,,,,,]; array.toString === Array.prototype.toString. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -349,7 +359,9 @@
           "start": 854,
           "end": 855,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -381,7 +393,9 @@
                     "start": 884,
                     "end": 939,
                     "value": "#4: var array = [,,,,,]; array.length === 5. Actual: ",
-                    "raw": "'#4: var array = [,,,,,]; array.length === 5. Actual: '"
+                    "raw": "'#4: var array = [,,,,,]; array.length === 5. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

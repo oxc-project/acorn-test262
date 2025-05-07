@@ -34,7 +34,9 @@
                 "start": 329,
                 "end": 331,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,14 +81,18 @@
               "start": 447,
               "end": 448,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 450,
               "end": 451,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -97,7 +103,9 @@
           "start": 457,
           "end": 459,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -129,7 +137,9 @@
                     "start": 488,
                     "end": 561,
                     "value": "#1: __string = new String(\"\"); __string.substring(1,0) === \"\". Actual: ",
-                    "raw": "'#1: __string = new String(\"\"); __string.substring(1,0) === \"\". Actual: '"
+                    "raw": "'#1: __string = new String(\"\"); __string.substring(1,0) === \"\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -161,14 +171,18 @@
                         "start": 583,
                         "end": 584,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 586,
                         "end": 587,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

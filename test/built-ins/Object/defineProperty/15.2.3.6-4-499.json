@@ -66,7 +66,9 @@
                     "start": 442,
                     "end": 446,
                     "value": 1001,
-                    "raw": "1001"
+                    "raw": "1001",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -96,7 +98,9 @@
             "start": 472,
             "end": 478,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -207,7 +211,9 @@
             "start": 568,
             "end": 574,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -274,7 +280,9 @@
                   "start": 626,
                   "end": 630,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -296,7 +304,9 @@
                   "start": 648,
                   "end": 652,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -356,7 +366,9 @@
                 "start": 707,
                 "end": 713,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -404,7 +416,9 @@
             "start": 744,
             "end": 750,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -488,7 +502,9 @@
                 "start": 823,
                 "end": 829,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -530,7 +546,9 @@
           "start": 843,
           "end": 857,
           "value": "overrideData",
-          "raw": "\"overrideData\""
+          "raw": "\"overrideData\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -593,14 +611,18 @@
             "start": 895,
             "end": 906,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 908,
             "end": 926,
             "value": "typeof desc1.set",
-            "raw": "'typeof desc1.set'"
+            "raw": "'typeof desc1.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -664,7 +686,9 @@
             "start": 966,
             "end": 977,
             "value": "desc2.set",
-            "raw": "'desc2.set'"
+            "raw": "'desc2.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -709,14 +733,18 @@
             "start": 1012,
             "end": 1026,
             "value": "overrideData",
-            "raw": "\"overrideData\""
+            "raw": "\"overrideData\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1028,
             "end": 1043,
             "value": "verifySetFunc",
-            "raw": "'verifySetFunc'"
+            "raw": "'verifySetFunc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

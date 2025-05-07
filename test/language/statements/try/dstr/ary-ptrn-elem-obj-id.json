@@ -23,7 +23,9 @@
             "start": 1090,
             "end": 1095,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -70,7 +72,9 @@
                         "start": 1118,
                         "end": 1120,
                         "value": 11,
-                        "raw": "11"
+                        "raw": "11",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -92,7 +96,9 @@
                         "start": 1125,
                         "end": 1127,
                         "value": 22,
-                        "raw": "22"
+                        "raw": "22",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -114,7 +120,9 @@
                         "start": 1132,
                         "end": 1134,
                         "value": 33,
-                        "raw": "33"
+                        "raw": "33",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -231,7 +239,9 @@
                       "start": 1168,
                       "end": 1170,
                       "value": 44,
-                      "raw": "44"
+                      "raw": "44",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -253,7 +263,9 @@
                       "start": 1175,
                       "end": 1177,
                       "value": 55,
-                      "raw": "55"
+                      "raw": "55",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -275,7 +287,9 @@
                       "start": 1182,
                       "end": 1184,
                       "value": 66,
-                      "raw": "66"
+                      "raw": "66",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -328,7 +342,9 @@
                     "start": 1213,
                     "end": 1215,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -373,7 +389,9 @@
                     "start": 1240,
                     "end": 1242,
                     "value": 22,
-                    "raw": "22"
+                    "raw": "22",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -418,7 +436,9 @@
                     "start": 1267,
                     "end": 1269,
                     "value": 33,
-                    "raw": "33"
+                    "raw": "33",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -444,7 +464,9 @@
                   "start": 1285,
                   "end": 1289,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -479,7 +501,9 @@
             "start": 1311,
             "end": 1335,
             "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "raw": "'executed `catch` block'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

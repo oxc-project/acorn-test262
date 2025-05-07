@@ -88,7 +88,9 @@
             "start": 330,
             "end": 359,
             "value": "Object.getPrototypeOf(Date)",
-            "raw": "'Object.getPrototypeOf(Date)'"
+            "raw": "'Object.getPrototypeOf(Date)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

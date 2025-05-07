@@ -70,7 +70,9 @@
                   "start": 586,
                   "end": 598,
                   "value": "ignoreCase",
-                  "raw": "'ignoreCase'"
+                  "raw": "'ignoreCase'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

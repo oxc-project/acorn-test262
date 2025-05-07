@@ -86,7 +86,9 @@
                 "start": 294,
                 "end": 297,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 300,
             "end": 303,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 305,
             "end": 338,
             "value": "String.prototype.trim.call(\"1\")",
-            "raw": "'String.prototype.trim.call(\"1\")'"
+            "raw": "'String.prototype.trim.call(\"1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

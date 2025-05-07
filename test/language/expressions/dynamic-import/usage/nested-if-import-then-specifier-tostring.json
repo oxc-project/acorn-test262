@@ -59,7 +59,9 @@
                           "start": 1724,
                           "end": 1750,
                           "value": "./module-code_FIXTURE.js",
-                          "raw": "'./module-code_FIXTURE.js'"
+                          "raw": "'./module-code_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -82,7 +84,9 @@
         "start": 1767,
         "end": 1771,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -212,7 +216,9 @@
                                       "start": 1848,
                                       "end": 1850,
                                       "value": 42,
-                                      "raw": "42"
+                                      "raw": "42",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -270,7 +276,9 @@
                                       "start": 1886,
                                       "end": 1895,
                                       "value": "Test262",
-                                      "raw": "'Test262'"
+                                      "raw": "'Test262'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -328,7 +336,9 @@
                                       "start": 1931,
                                       "end": 1933,
                                       "value": 42,
-                                      "raw": "42"
+                                      "raw": "42",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

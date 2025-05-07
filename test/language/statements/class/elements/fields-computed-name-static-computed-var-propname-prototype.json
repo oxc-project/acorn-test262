@@ -23,7 +23,9 @@
             "start": 749,
             "end": 760,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -110,7 +112,9 @@
                           "start": 830,
                           "end": 832,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]

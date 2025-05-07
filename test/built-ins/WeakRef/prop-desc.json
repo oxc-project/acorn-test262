@@ -28,7 +28,9 @@
             "start": 543,
             "end": 552,
             "value": "WeakRef",
-            "raw": "'WeakRef'"
+            "raw": "'WeakRef'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -53,7 +55,9 @@
                   "start": 570,
                   "end": 575,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -75,7 +79,9 @@
                   "start": 589,
                   "end": 593,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,7 +103,9 @@
                   "start": 611,
                   "end": 615,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

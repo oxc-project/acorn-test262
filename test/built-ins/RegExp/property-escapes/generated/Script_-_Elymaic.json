@@ -83,14 +83,18 @@
                               "start": 526,
                               "end": 534,
                               "value": 69600,
-                              "raw": "0x010FE0"
+                              "raw": "0x010FE0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 536,
                               "end": 544,
                               "value": 69622,
-                              "raw": "0x010FF6"
+                              "raw": "0x010FF6",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Elymaic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 621,
             "end": 642,
             "value": "\\p{Script=Elymaic}",
-            "raw": "\"\\\\p{Script=Elymaic}\""
+            "raw": "\"\\\\p{Script=Elymaic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Elym}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 710,
             "end": 728,
             "value": "\\p{Script=Elym}",
-            "raw": "\"\\\\p{Script=Elym}\""
+            "raw": "\"\\\\p{Script=Elym}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Elymaic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 795,
             "end": 812,
             "value": "\\p{sc=Elymaic}",
-            "raw": "\"\\\\p{sc=Elymaic}\""
+            "raw": "\"\\\\p{sc=Elymaic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Elym}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 876,
             "end": 890,
             "value": "\\p{sc=Elym}",
-            "raw": "\"\\\\p{sc=Elym}\""
+            "raw": "\"\\\\p{sc=Elym}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 972,
                               "end": 980,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 982,
                               "end": 990,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 998,
                               "end": 1006,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1008,
                               "end": 1016,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1024,
                               "end": 1032,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1034,
                               "end": 1042,
                               "value": 69599,
-                              "raw": "0x010FDF"
+                              "raw": "0x010FDF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1050,
                               "end": 1058,
                               "value": 69623,
-                              "raw": "0x010FF7"
+                              "raw": "0x010FF7",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1060,
                               "end": 1068,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Elymaic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1148,
             "end": 1169,
             "value": "\\P{Script=Elymaic}",
-            "raw": "\"\\\\P{Script=Elymaic}\""
+            "raw": "\"\\\\P{Script=Elymaic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Elym}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1240,
             "end": 1258,
             "value": "\\P{Script=Elym}",
-            "raw": "\"\\\\P{Script=Elym}\""
+            "raw": "\"\\\\P{Script=Elym}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Elymaic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1328,
             "end": 1345,
             "value": "\\P{sc=Elymaic}",
-            "raw": "\"\\\\P{sc=Elymaic}\""
+            "raw": "\"\\\\P{sc=Elymaic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Elym}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1412,
             "end": 1426,
             "value": "\\P{sc=Elym}",
-            "raw": "\"\\\\P{sc=Elym}\""
+            "raw": "\"\\\\P{sc=Elym}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

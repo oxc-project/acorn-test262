@@ -98,7 +98,9 @@
             "start": 339,
             "end": 345,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -182,7 +184,9 @@
                 "start": 419,
                 "end": 425,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -249,7 +253,9 @@
             "start": 465,
             "end": 475,
             "value": "obj.prop",
-            "raw": "'obj.prop'"
+            "raw": "'obj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +319,9 @@
             "start": 516,
             "end": 528,
             "value": "desc.value",
-            "raw": "'desc.value'"
+            "raw": "'desc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

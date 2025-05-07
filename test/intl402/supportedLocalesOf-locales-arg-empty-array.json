@@ -61,14 +61,18 @@
                             "start": 437,
                             "end": 445,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 447,
                             "end": 457,
                             "value": "best fit",
-                            "raw": "\"best fit\""
+                            "raw": "\"best fit\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -235,7 +239,9 @@
                                     "start": 617,
                                     "end": 618,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -250,7 +256,9 @@
                                         "start": 620,
                                         "end": 652,
                                         "value": "SupportedLocales with matcher ",
-                                        "raw": "\"SupportedLocales with matcher \""
+                                        "raw": "\"SupportedLocales with matcher \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -266,7 +274,9 @@
                                       "start": 665,
                                       "end": 712,
                                       "value": " returned a non-empty list for an empty list.",
-                                      "raw": "\" returned a non-empty list for an empty list.\""
+                                      "raw": "\" returned a non-empty list for an empty list.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

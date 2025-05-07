@@ -48,6 +48,7 @@
                 "end": 365,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 367,
                 "end": 372,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -107,7 +110,9 @@
                 "start": 409,
                 "end": 427,
                 "value": "-PT24.567890123H",
-                "raw": "\"-PT24.567890123H\""
+                "raw": "\"-PT24.567890123H\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -169,6 +174,7 @@
             "end": 501,
             "value": null,
             "raw": "999_911_555_595_557_200n",
+            "regex": null,
             "bigint": "999911555595557200"
           },
           {
@@ -176,7 +182,9 @@
             "start": 503,
             "end": 530,
             "value": "negative fractional hours",
-            "raw": "\"negative fractional hours\""
+            "raw": "\"negative fractional hours\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +234,9 @@
                 "start": 569,
                 "end": 589,
                 "value": "-PT1440.567890123M",
-                "raw": "\"-PT1440.567890123M\""
+                "raw": "\"-PT1440.567890123M\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -288,6 +298,7 @@
             "end": 665,
             "value": null,
             "raw": "999_913_565_926_592_620n",
+            "regex": null,
             "bigint": "999913565926592620"
           },
           {
@@ -295,7 +306,9 @@
             "start": 667,
             "end": 696,
             "value": "negative fractional minutes",
-            "raw": "\"negative fractional minutes\""
+            "raw": "\"negative fractional minutes\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

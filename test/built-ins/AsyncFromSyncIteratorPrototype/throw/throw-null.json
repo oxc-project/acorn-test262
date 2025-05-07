@@ -23,7 +23,9 @@
             "start": 833,
             "end": 834,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -158,7 +160,9 @@
                                 "start": 933,
                                 "end": 934,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -180,7 +184,9 @@
                                 "start": 942,
                                 "end": 947,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -239,7 +245,9 @@
                             "start": 988,
                             "end": 989,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -252,7 +260,9 @@
                           "start": 1002,
                           "end": 1006,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -375,7 +385,9 @@
                   "start": 1142,
                   "end": 1147,
                   "value": "err",
-                  "raw": "\"err\""
+                  "raw": "\"err\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -548,7 +560,9 @@
                           "start": 1316,
                           "end": 1344,
                           "value": "Promise should be rejected",
-                          "raw": "\"Promise should be rejected\""
+                          "raw": "\"Promise should be rejected\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -644,7 +658,9 @@
                         "start": 1414,
                         "end": 1441,
                         "value": "the iterator is completed",
-                        "raw": "\"the iterator is completed\""
+                        "raw": "\"the iterator is completed\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -708,7 +724,9 @@
                         "start": 1488,
                         "end": 1508,
                         "value": "value is undefined",
-                        "raw": "\"value is undefined\""
+                        "raw": "\"value is undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

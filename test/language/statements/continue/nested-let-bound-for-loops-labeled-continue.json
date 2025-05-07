@@ -23,7 +23,9 @@
             "start": 238,
             "end": 239,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -57,7 +59,9 @@
                 "start": 261,
                 "end": 262,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -79,7 +83,9 @@
             "start": 268,
             "end": 270,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": null,
@@ -130,7 +136,9 @@
                       "start": 297,
                       "end": 298,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -152,7 +160,9 @@
                   "start": 304,
                   "end": 305,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "update": null,
@@ -217,7 +227,9 @@
                         "start": 345,
                         "end": 346,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "consequent": {
@@ -285,14 +297,18 @@
             "start": 394,
             "end": 396,
             "value": 20,
-            "raw": "20"
+            "raw": "20",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 428,
             "value": "The value of `count` is `20`",
-            "raw": "\"The value of `count` is `20`\""
+            "raw": "\"The value of `count` is `20`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

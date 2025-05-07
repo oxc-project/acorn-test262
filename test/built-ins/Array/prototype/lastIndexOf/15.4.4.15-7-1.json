@@ -34,21 +34,27 @@
                 "start": 270,
                 "end": 271,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 273,
                 "end": 274,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 276,
                 "end": 277,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,7 +119,9 @@
                 "start": 313,
                 "end": 314,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -126,7 +134,9 @@
                   "start": 317,
                   "end": 318,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -137,14 +147,18 @@
             "start": 321,
             "end": 322,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 345,
             "value": "a.lastIndexOf(2,-2)",
-            "raw": "'a.lastIndexOf(2,-2)'"
+            "raw": "'a.lastIndexOf(2,-2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +221,9 @@
                 "start": 379,
                 "end": 380,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -220,7 +236,9 @@
                   "start": 383,
                   "end": 384,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -237,7 +255,9 @@
               "start": 388,
               "end": 389,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -245,7 +265,9 @@
             "start": 391,
             "end": 412,
             "value": "a.lastIndexOf(2,-3)",
-            "raw": "'a.lastIndexOf(2,-3)'"
+            "raw": "'a.lastIndexOf(2,-3)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -308,7 +330,9 @@
                 "start": 446,
                 "end": 447,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -321,7 +345,9 @@
                   "start": 450,
                   "end": 453,
                   "value": 5.3,
-                  "raw": "5.3"
+                  "raw": "5.3",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -338,7 +364,9 @@
               "start": 457,
               "end": 458,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -346,7 +374,9 @@
             "start": 460,
             "end": 483,
             "value": "a.lastIndexOf(1,-5.3)",
-            "raw": "'a.lastIndexOf(1,-5.3)'"
+            "raw": "'a.lastIndexOf(1,-5.3)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

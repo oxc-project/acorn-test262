@@ -166,21 +166,27 @@
                                 "start": 594,
                                 "end": 595,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 597,
                                 "end": 599,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 601,
                                 "end": 603,
                                 "value": 64,
-                                "raw": "64"
+                                "raw": "64",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }

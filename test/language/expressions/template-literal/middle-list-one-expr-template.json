@@ -41,7 +41,9 @@
                 "start": 479,
                 "end": 480,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "TemplateLiteral",
@@ -53,7 +55,9 @@
                     "start": 491,
                     "end": 492,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "quasis": [
@@ -118,7 +122,9 @@
             "start": 506,
             "end": 523,
             "value": "0 bar 5 baz qux",
-            "raw": "'0 bar 5 baz qux'"
+            "raw": "'0 bar 5 baz qux'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

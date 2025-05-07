@@ -61,7 +61,9 @@
           "start": 324,
           "end": 326,
           "value": 30,
-          "raw": "30"
+          "raw": "30",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -171,7 +173,9 @@
                               "start": 410,
                               "end": 411,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -193,7 +197,9 @@
                           "start": 437,
                           "end": 439,
                           "value": 11,
-                          "raw": "11"
+                          "raw": "11",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -279,14 +285,18 @@
             "start": 505,
             "end": 506,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 547,
             "value": "arr.lastIndexOf(targetObj, fromIndex)",
-            "raw": "'arr.lastIndexOf(targetObj, fromIndex)'"
+            "raw": "'arr.lastIndexOf(targetObj, fromIndex)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -60,7 +60,9 @@
                 "start": 289,
                 "end": 301,
                 "value": "2020-03-31",
-                "raw": "\"2020-03-31\""
+                "raw": "\"2020-03-31\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -159,7 +161,9 @@
                         "start": 361,
                         "end": 362,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -188,7 +192,9 @@
                         "start": 378,
                         "end": 386,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

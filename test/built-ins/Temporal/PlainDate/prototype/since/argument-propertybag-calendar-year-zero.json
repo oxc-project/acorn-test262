@@ -28,35 +28,45 @@
                 "start": 311,
                 "end": 326,
                 "value": "-000000-10-31",
-                "raw": "\"-000000-10-31\""
+                "raw": "\"-000000-10-31\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 351,
                 "value": "-000000-10-31T17:45",
-                "raw": "\"-000000-10-31T17:45\""
+                "raw": "\"-000000-10-31T17:45\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 377,
                 "value": "-000000-10-31T17:45Z",
-                "raw": "\"-000000-10-31T17:45Z\""
+                "raw": "\"-000000-10-31T17:45Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 408,
                 "value": "-000000-10-31T17:45+01:00",
-                "raw": "\"-000000-10-31T17:45+01:00\""
+                "raw": "\"-000000-10-31T17:45+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 412,
                 "end": 444,
                 "value": "-000000-10-31T17:45+00:00[UTC]",
-                "raw": "\"-000000-10-31T17:45+00:00[UTC]\""
+                "raw": "\"-000000-10-31T17:45+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,21 +118,27 @@
                 "start": 489,
                 "end": 493,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 495,
                 "end": 496,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 499,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -217,7 +233,9 @@
                               "start": 558,
                               "end": 562,
                               "value": 1976,
-                              "raw": "1976"
+                              "raw": "1976",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -239,7 +257,9 @@
                               "start": 571,
                               "end": 573,
                               "value": 11,
-                              "raw": "11"
+                              "raw": "11",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -261,7 +281,9 @@
                               "start": 580,
                               "end": 582,
                               "value": 18,
-                              "raw": "18"
+                              "raw": "18",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -374,7 +396,9 @@
                         "start": 669,
                         "end": 705,
                         "value": "reject minus zero as extended year",
-                        "raw": "\"reject minus zero as extended year\""
+                        "raw": "\"reject minus zero as extended year\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

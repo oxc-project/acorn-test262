@@ -23,7 +23,9 @@
             "start": 355,
             "end": 360,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -92,7 +94,9 @@
                     "start": 414,
                     "end": 418,
                     "value": 1001,
-                    "raw": "1001"
+                    "raw": "1001",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -122,7 +126,9 @@
             "start": 444,
             "end": 450,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -233,7 +239,9 @@
             "start": 540,
             "end": 546,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -300,7 +308,9 @@
                   "start": 596,
                   "end": 600,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -322,7 +332,9 @@
                   "start": 618,
                   "end": 622,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -376,7 +388,9 @@
                 "start": 675,
                 "end": 681,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -435,7 +449,9 @@
                 "start": 732,
                 "end": 738,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -499,7 +515,9 @@
                 "start": 775,
                 "end": 781,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -527,7 +545,9 @@
                       "start": 805,
                       "end": 809,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -570,7 +590,9 @@
             "start": 851,
             "end": 871,
             "value": "Property not found",
-            "raw": "'Property not found'"
+            "raw": "'Property not found'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -602,7 +624,9 @@
             "start": 904,
             "end": 936,
             "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "raw": "'propertyDefineCorrect !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -660,14 +684,18 @@
             "start": 973,
             "end": 977,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 979,
             "end": 996,
             "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "raw": "'desc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

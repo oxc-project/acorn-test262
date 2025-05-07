@@ -69,7 +69,9 @@
                         "start": 581,
                         "end": 584,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -107,7 +109,9 @@
                     "start": 609,
                     "end": 610,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "cases": [
                     {
@@ -188,7 +192,9 @@
             "start": 689,
             "end": 692,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

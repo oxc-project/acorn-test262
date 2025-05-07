@@ -47,21 +47,27 @@
               "start": 371,
               "end": 372,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 374,
               "end": 375,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 377,
               "end": 378,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -175,7 +181,9 @@
                           "start": 466,
                           "end": 469,
                           "value": "0",
-                          "raw": "'0'"
+                          "raw": "'0'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -245,7 +253,9 @@
             "start": 819,
             "end": 820,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -382,14 +392,18 @@
             "start": 903,
             "end": 904,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 906,
             "end": 915,
             "value": "callCnt",
-            "raw": "'callCnt'"
+            "raw": "'callCnt'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

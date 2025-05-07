@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 21,
               "end": 22,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -113,7 +115,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 44,
           "raw": "\"exportAssignmentClass_A\"",
-          "value": "exportAssignmentClass_A"
+          "value": "exportAssignmentClass_A",
+          "regex": null,
+          "bigint": null
         }
       }
     },

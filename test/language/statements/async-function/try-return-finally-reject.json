@@ -40,7 +40,9 @@
                     "start": 387,
                     "end": 401,
                     "value": "early-return",
-                    "raw": "\"early-return\""
+                    "raw": "\"early-return\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -117,7 +119,9 @@
                                       "start": 480,
                                       "end": 490,
                                       "value": "override",
-                                      "raw": "\"override\""
+                                      "raw": "\"override\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -245,14 +249,18 @@
                             "start": 568,
                             "end": 578,
                             "value": "override",
-                            "raw": "\"override\""
+                            "raw": "\"override\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 580,
                             "end": 616,
                             "value": "Awaited rejection in finally block",
-                            "raw": "\"Awaited rejection in finally block\""
+                            "raw": "\"Awaited rejection in finally block\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -61,7 +61,9 @@
                           "start": 1050,
                           "end": 1054,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -110,7 +112,9 @@
                                   "start": 1084,
                                   "end": 1134,
                                   "value": "The promise should be rejected, but was resolved",
-                                  "raw": "'The promise should be rejected, but was resolved'"
+                                  "raw": "'The promise should be rejected, but was resolved'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

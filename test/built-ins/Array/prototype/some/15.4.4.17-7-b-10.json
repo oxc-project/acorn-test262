@@ -23,7 +23,9 @@
             "start": 346,
             "end": 351,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 404,
                 "end": 408,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -111,7 +115,9 @@
                 "start": 427,
                 "end": 428,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -150,14 +156,18 @@
                   "start": 446,
                   "end": 447,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 449,
                   "end": 450,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -179,7 +189,9 @@
                   "start": 462,
                   "end": 464,
                   "value": 20,
-                  "raw": "20"
+                  "raw": "20",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -228,7 +240,9 @@
             "start": 496,
             "end": 499,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -300,7 +314,9 @@
                               "start": 551,
                               "end": 552,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -316,7 +332,9 @@
                           "start": 566,
                           "end": 567,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -342,7 +360,9 @@
                   "start": 590,
                   "end": 594,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -389,7 +409,9 @@
             "start": 617,
             "end": 618,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -399,7 +421,9 @@
           "start": 622,
           "end": 623,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -501,14 +525,18 @@
             "start": 687,
             "end": 692,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 694,
             "end": 738,
             "value": "Array.prototype.some.call(arr, callbackfn)",
-            "raw": "'Array.prototype.some.call(arr, callbackfn)'"
+            "raw": "'Array.prototype.some.call(arr, callbackfn)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,7 +568,9 @@
             "start": 758,
             "end": 777,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

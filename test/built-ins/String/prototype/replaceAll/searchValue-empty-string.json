@@ -51,7 +51,9 @@
               "start": 2152,
               "end": 2164,
               "value": "aab c  \nx",
-              "raw": "'aab c  \\nx'"
+              "raw": "'aab c  \\nx'",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -68,14 +70,18 @@
               "start": 2176,
               "end": 2178,
               "value": "",
-              "raw": "''"
+              "raw": "''",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2180,
               "end": 2183,
               "value": "_",
-              "raw": "'_'"
+              "raw": "'_'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -121,7 +127,9 @@
             "start": 2211,
             "end": 2233,
             "value": "_a_a_b_ _c_ _ _\n_x_",
-            "raw": "'_a_a_b_ _c_ _ _\\n_x_'"
+            "raw": "'_a_a_b_ _c_ _ _\\n_x_'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,7 +163,9 @@
               "start": 2246,
               "end": 2249,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -172,14 +182,18 @@
               "start": 2261,
               "end": 2263,
               "value": "",
-              "raw": "''"
+              "raw": "''",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2265,
               "end": 2268,
               "value": "_",
-              "raw": "'_'"
+              "raw": "'_'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -225,7 +239,9 @@
             "start": 2296,
             "end": 2301,
             "value": "_a_",
-            "raw": "'_a_'"
+            "raw": "'_a_'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

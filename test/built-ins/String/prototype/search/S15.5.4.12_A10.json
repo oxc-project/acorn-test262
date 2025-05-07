@@ -72,7 +72,9 @@
                 "start": 501,
                 "end": 509,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 540,
                     "end": 618,
                     "value": "#1: String.prototype.search.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.search.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#1: String.prototype.search.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 660,
                         "end": 668,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -295,14 +301,18 @@
             "start": 845,
             "end": 853,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 855,
             "end": 859,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -327,7 +337,9 @@
                     "start": 883,
                     "end": 892,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -427,7 +439,9 @@
                     "start": 1061,
                     "end": 1221,
                     "value": "#2: __obj = String.prototype.search.length; String.prototype.search.length = function(){return \"shifted\";}; String.prototype.search.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.search.length; String.prototype.search.length = function(){return \"shifted\";}; String.prototype.search.length === __obj. Actual: '"
+                    "raw": "'#2: __obj = String.prototype.search.length; String.prototype.search.length = function(){return \"shifted\";}; String.prototype.search.length === __obj. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

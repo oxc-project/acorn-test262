@@ -52,7 +52,9 @@
             "start": 409,
             "end": 412,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -62,7 +64,9 @@
           "start": 416,
           "end": 417,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -90,7 +94,9 @@
             "start": 423,
             "end": 426,
             "value": "3",
-            "raw": "\"3\""
+            "raw": "\"3\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -100,7 +106,9 @@
           "start": 430,
           "end": 431,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -199,7 +207,9 @@
           "start": 482,
           "end": 483,
           "value": 4,
-          "raw": "4"
+          "raw": "4",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -268,7 +278,9 @@
           "start": 524,
           "end": 525,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -300,7 +312,9 @@
                     "start": 554,
                     "end": 680,
                     "value": "#1: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift() === 0. Actual: ",
-                    "raw": "'#1: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift() === 0. Actual: '"
+                    "raw": "'#1: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift() === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -355,7 +369,9 @@
           "start": 715,
           "end": 716,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -387,7 +403,9 @@
                     "start": 745,
                     "end": 883,
                     "value": "#2: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 3. Actual: ",
-                    "raw": "'#2: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 3. Actual: '"
+                    "raw": "'#2: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -518,7 +536,9 @@
                     "start": 981,
                     "end": 1128,
                     "value": "#3: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift() === undefined. Actual: ",
-                    "raw": "'#3: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift() === undefined. Actual: '"
+                    "raw": "'#3: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift() === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -573,7 +593,9 @@
           "start": 1163,
           "end": 1164,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -605,7 +627,9 @@
                     "start": 1193,
                     "end": 1344,
                     "value": "#4: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length === 2. Actual: ",
-                    "raw": "'#4: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length === 2. Actual: '"
+                    "raw": "'#4: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -673,7 +697,9 @@
           "start": 1378,
           "end": 1379,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -773,7 +799,9 @@
                     "start": 1458,
                     "end": 1634,
                     "value": "#5: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length = 1; obj.shift() === undefined. Actual: ",
-                    "raw": "'#5: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length = 1; obj.shift() === undefined. Actual: '"
+                    "raw": "'#5: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length = 1; obj.shift() === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -828,7 +856,9 @@
           "start": 1669,
           "end": 1670,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -860,7 +890,9 @@
                     "start": 1699,
                     "end": 1879,
                     "value": "#6: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length = 1; obj.shift(); obj.length === 0. Actual: ",
-                    "raw": "'#6: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length = 1; obj.shift(); obj.length === 0. Actual: '"
+                    "raw": "'#6: var obj = {}; obj[\"0\"] = 0; obj[\"3\"] = 3; obj.length = 4; obj.shift = Array.prototype.shift; obj.shift(); obj.shift(); obj.length = 1; obj.shift(); obj.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

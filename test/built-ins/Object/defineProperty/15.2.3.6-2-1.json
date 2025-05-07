@@ -122,7 +122,9 @@
                 "start": 362,
                 "end": 373,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -132,7 +134,9 @@
             "start": 376,
             "end": 418,
             "value": "obj.hasOwnProperty(\"undefined\") !== true",
-            "raw": "'obj.hasOwnProperty(\"undefined\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"undefined\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

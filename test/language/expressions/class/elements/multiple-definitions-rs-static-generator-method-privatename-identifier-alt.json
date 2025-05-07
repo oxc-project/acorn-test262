@@ -46,7 +46,9 @@
                     "start": 1543,
                     "end": 1551,
                     "value": "foobar",
-                    "raw": "\"foobar\""
+                    "raw": "\"foobar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -85,7 +87,9 @@
                             "start": 1568,
                             "end": 1570,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -458,7 +462,9 @@
                             "start": 1876,
                             "end": 1878,
                             "value": 39,
-                            "raw": "39"
+                            "raw": "39",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -482,7 +488,9 @@
                     "start": 1889,
                     "end": 1897,
                     "value": "barbaz",
-                    "raw": "\"barbaz\""
+                    "raw": "\"barbaz\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -906,7 +914,9 @@
             "start": 2345,
             "end": 2347,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -994,7 +1004,9 @@
                   "start": 2401,
                   "end": 2404,
                   "value": "m",
-                  "raw": "\"m\""
+                  "raw": "\"m\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1005,7 +1017,9 @@
             "start": 2409,
             "end": 2464,
             "value": "m doesn't appear as an own property on the C instance",
-            "raw": "\"m doesn't appear as an own property on the C instance\""
+            "raw": "\"m doesn't appear as an own property on the C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1133,7 +1147,9 @@
             "start": 2535,
             "end": 2538,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1158,7 +1174,9 @@
                   "start": 2556,
                   "end": 2561,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1180,7 +1198,9 @@
                   "start": 2579,
                   "end": 2583,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1202,7 +1222,9 @@
                   "start": 2597,
                   "end": 2601,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -1271,7 +1293,9 @@
             "start": 2633,
             "end": 2635,
             "value": 39,
-            "raw": "39"
+            "raw": "39",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1359,7 +1383,9 @@
                   "start": 2689,
                   "end": 2693,
                   "value": "m2",
-                  "raw": "\"m2\""
+                  "raw": "\"m2\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1370,7 +1396,9 @@
             "start": 2698,
             "end": 2754,
             "value": "m2 doesn't appear as an own property on the C instance",
-            "raw": "\"m2 doesn't appear as an own property on the C instance\""
+            "raw": "\"m2 doesn't appear as an own property on the C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1498,7 +1526,9 @@
             "start": 2827,
             "end": 2831,
             "value": "m2",
-            "raw": "\"m2\""
+            "raw": "\"m2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1523,7 +1553,9 @@
                   "start": 2849,
                   "end": 2854,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1545,7 +1577,9 @@
                   "start": 2872,
                   "end": 2876,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1567,7 +1601,9 @@
                   "start": 2890,
                   "end": 2894,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -1629,7 +1665,9 @@
             "start": 2925,
             "end": 2933,
             "value": "foobar",
-            "raw": "\"foobar\""
+            "raw": "\"foobar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1717,7 +1755,9 @@
                   "start": 2987,
                   "end": 2992,
                   "value": "foo",
-                  "raw": "\"foo\""
+                  "raw": "\"foo\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1728,7 +1768,9 @@
             "start": 2997,
             "end": 3057,
             "value": "foo doesn't appear as an own property on the C constructor",
-            "raw": "\"foo doesn't appear as an own property on the C constructor\""
+            "raw": "\"foo doesn't appear as an own property on the C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1829,7 +1871,9 @@
                   "start": 3122,
                   "end": 3127,
                   "value": "foo",
-                  "raw": "\"foo\""
+                  "raw": "\"foo\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1840,7 +1884,9 @@
             "start": 3132,
             "end": 3190,
             "value": "foo doesn't appear as an own property on the C prototype",
-            "raw": "\"foo doesn't appear as an own property on the C prototype\""
+            "raw": "\"foo doesn't appear as an own property on the C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1872,7 +1918,9 @@
             "start": 3213,
             "end": 3218,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1897,7 +1945,9 @@
                   "start": 3231,
                   "end": 3239,
                   "value": "foobar",
-                  "raw": "\"foobar\""
+                  "raw": "\"foobar\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1919,7 +1969,9 @@
                   "start": 3255,
                   "end": 3259,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1941,7 +1993,9 @@
                   "start": 3277,
                   "end": 3281,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1963,7 +2017,9 @@
                   "start": 3295,
                   "end": 3299,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -2025,7 +2081,9 @@
             "start": 3330,
             "end": 3338,
             "value": "barbaz",
-            "raw": "\"barbaz\""
+            "raw": "\"barbaz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2113,7 +2171,9 @@
                   "start": 3392,
                   "end": 3397,
                   "value": "bar",
-                  "raw": "\"bar\""
+                  "raw": "\"bar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -2124,7 +2184,9 @@
             "start": 3402,
             "end": 3462,
             "value": "bar doesn't appear as an own property on the C constructor",
-            "raw": "\"bar doesn't appear as an own property on the C constructor\""
+            "raw": "\"bar doesn't appear as an own property on the C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2225,7 +2287,9 @@
                   "start": 3527,
                   "end": 3532,
                   "value": "bar",
-                  "raw": "\"bar\""
+                  "raw": "\"bar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -2236,7 +2300,9 @@
             "start": 3537,
             "end": 3595,
             "value": "bar doesn't appear as an own property on the C prototype",
-            "raw": "\"bar doesn't appear as an own property on the C prototype\""
+            "raw": "\"bar doesn't appear as an own property on the C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2268,7 +2334,9 @@
             "start": 3618,
             "end": 3623,
             "value": "bar",
-            "raw": "\"bar\""
+            "raw": "\"bar\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -2293,7 +2361,9 @@
                   "start": 3636,
                   "end": 3644,
                   "value": "barbaz",
-                  "raw": "\"barbaz\""
+                  "raw": "\"barbaz\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -2315,7 +2385,9 @@
                   "start": 3660,
                   "end": 3664,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -2337,7 +2409,9 @@
                   "start": 3682,
                   "end": 3686,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -2359,7 +2433,9 @@
                   "start": 3700,
                   "end": 3704,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -2443,7 +2519,9 @@
                           "start": 3733,
                           "end": 3734,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -2476,7 +2554,9 @@
             "start": 3751,
             "end": 3752,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2556,7 +2636,9 @@
                           "start": 3777,
                           "end": 3778,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -2589,7 +2671,9 @@
             "start": 3795,
             "end": 3796,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2669,7 +2753,9 @@
                           "start": 3821,
                           "end": 3822,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -2702,7 +2788,9 @@
             "start": 3839,
             "end": 3840,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2782,7 +2870,9 @@
                           "start": 3865,
                           "end": 3866,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -2815,7 +2905,9 @@
             "start": 3883,
             "end": 3884,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2895,7 +2987,9 @@
                           "start": 3915,
                           "end": 3916,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -2928,7 +3022,9 @@
             "start": 3933,
             "end": 3934,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3008,7 +3104,9 @@
                           "start": 3964,
                           "end": 3965,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -3041,7 +3139,9 @@
             "start": 3982,
             "end": 3983,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

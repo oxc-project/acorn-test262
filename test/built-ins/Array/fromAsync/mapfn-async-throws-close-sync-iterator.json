@@ -23,7 +23,9 @@
             "start": 621,
             "end": 626,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -103,7 +105,9 @@
                                 "start": 678,
                                 "end": 679,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -125,7 +129,9 @@
                                 "start": 687,
                                 "end": 692,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -184,7 +190,9 @@
                             "start": 727,
                             "end": 731,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -215,7 +223,9 @@
                                 "start": 752,
                                 "end": 756,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -454,14 +464,18 @@
                                             "start": 946,
                                             "end": 947,
                                             "value": 1,
-                                            "raw": "1"
+                                            "raw": "1",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 949,
                                             "end": 985,
                                             "value": "mapfn receives value from iterator",
-                                            "raw": "\"mapfn receives value from iterator\""
+                                            "raw": "\"mapfn receives value from iterator\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -487,7 +501,9 @@
                                             "start": 1008,
                                             "end": 1022,
                                             "value": "mapfn throws",
-                                            "raw": "\"mapfn throws\""
+                                            "raw": "\"mapfn throws\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }
@@ -504,7 +520,9 @@
                           "start": 1031,
                           "end": 1087,
                           "value": "async mapfn rejecting should cause fromAsync to reject",
-                          "raw": "\"async mapfn rejecting should cause fromAsync to reject\""
+                          "raw": "\"async mapfn rejecting should cause fromAsync to reject\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -537,7 +555,9 @@
                         "start": 1107,
                         "end": 1152,
                         "value": "async mapfn rejecting should close iterator",
-                        "raw": "\"async mapfn rejecting should close iterator\""
+                        "raw": "\"async mapfn rejecting should close iterator\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -47,63 +47,81 @@
                 "start": 364,
                 "end": 368,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 371,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 374,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 378,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 382,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 386,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 391,
                 "value": 789,
-                "raw": "789"
+                "raw": "789",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 396,
                 "value": 999,
-                "raw": "999"
+                "raw": "999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 401,
                 "value": 999,
-                "raw": "999"
+                "raw": "999",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -136,35 +154,45 @@
                 "start": 427,
                 "end": 435,
                 "value": "minute",
-                "raw": "\"minute\""
+                "raw": "\"minute\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 447,
                 "value": "second",
-                "raw": "\"second\""
+                "raw": "\"second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 464,
                 "value": "millisecond",
-                "raw": "\"millisecond\""
+                "raw": "\"millisecond\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 468,
                 "end": 481,
                 "value": "microsecond",
-                "raw": "\"microsecond\""
+                "raw": "\"microsecond\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 497,
                 "value": "nanosecond",
-                "raw": "\"nanosecond\""
+                "raw": "\"nanosecond\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

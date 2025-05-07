@@ -67,7 +67,9 @@
             "start": 260,
             "end": 265,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -180,7 +182,9 @@
             "start": 335,
             "end": 342,
             "value": "o.foo",
-            "raw": "'o.foo'"
+            "raw": "'o.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -77,7 +77,9 @@
                 "start": 357,
                 "end": 367,
                 "value": "parseInt",
-                "raw": "\"parseInt\""
+                "raw": "\"parseInt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -157,7 +159,9 @@
             "start": 417,
             "end": 429,
             "value": "desc.value",
-            "raw": "'desc.value'"
+            "raw": "'desc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -215,14 +219,18 @@
             "start": 464,
             "end": 468,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 485,
             "value": "desc.writable",
-            "raw": "'desc.writable'"
+            "raw": "'desc.writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,14 +288,18 @@
             "start": 522,
             "end": 527,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 546,
             "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "raw": "'desc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,14 +357,18 @@
             "start": 585,
             "end": 589,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 610,
             "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "raw": "'desc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -76,7 +76,9 @@
             "start": 410,
             "end": 450,
             "value": "target.setFromHex is not a constructor",
-            "raw": "\"target.setFromHex is not a constructor\""
+            "raw": "\"target.setFromHex is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,7 +163,9 @@
                             "start": 522,
                             "end": 524,
                             "value": 10,
-                            "raw": "10"
+                            "raw": "10",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -202,7 +206,9 @@
                         "start": 551,
                         "end": 553,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

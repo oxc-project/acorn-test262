@@ -34,7 +34,9 @@
                 "start": 335,
                 "end": 343,
                 "value": "if(1);",
-                "raw": "\"if(1);\""
+                "raw": "\"if(1);\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -92,7 +94,9 @@
               "start": 388,
               "end": 445,
               "value": "#1: __evaluated === undefined. Actual:  __evaluated ===",
-              "raw": "'#1: __evaluated === undefined. Actual:  __evaluated ==='"
+              "raw": "'#1: __evaluated === undefined. Actual:  __evaluated ==='",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {

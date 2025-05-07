@@ -168,7 +168,9 @@
             "start": 1146,
             "end": 1152,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -193,7 +195,9 @@
                   "start": 1165,
                   "end": 1189,
                   "value": "[Symbol.asyncIterator]",
-                  "raw": "'[Symbol.asyncIterator]'"
+                  "raw": "'[Symbol.asyncIterator]'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -215,7 +219,9 @@
                   "start": 1205,
                   "end": 1210,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -237,7 +243,9 @@
                   "start": 1224,
                   "end": 1229,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -259,7 +267,9 @@
                   "start": 1247,
                   "end": 1251,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

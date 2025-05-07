@@ -23,7 +23,9 @@
             "start": 917,
             "end": 918,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -151,7 +153,9 @@
                       "start": 981,
                       "end": 983,
                       "value": 23,
-                      "raw": "23"
+                      "raw": "23",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -188,7 +192,9 @@
                       "start": 1012,
                       "end": 1013,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -260,7 +266,9 @@
                               "start": 1026,
                               "end": 1028,
                               "value": 23,
-                              "raw": "23"
+                              "raw": "23",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -344,14 +352,18 @@
                             "start": 1084,
                             "end": 1085,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1087,
                             "end": 1109,
                             "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "raw": "'invoked exactly once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

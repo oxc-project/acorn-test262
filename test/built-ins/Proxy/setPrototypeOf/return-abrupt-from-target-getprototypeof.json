@@ -208,7 +208,9 @@
                               "start": 608,
                               "end": 612,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

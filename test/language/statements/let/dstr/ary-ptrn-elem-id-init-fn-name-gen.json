@@ -140,7 +140,9 @@
             "start": 1407,
             "end": 1412,
             "value": "gen",
-            "raw": "'gen'"
+            "raw": "'gen'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +200,9 @@
             "start": 1446,
             "end": 1452,
             "value": "xGen",
-            "raw": "'xGen'"
+            "raw": "'xGen'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

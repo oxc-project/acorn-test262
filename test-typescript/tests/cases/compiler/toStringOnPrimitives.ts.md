@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
             "start": 0,
             "end": 4,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           },
           "optional": false,
           "property": {
@@ -66,7 +68,9 @@ __ESTREE_TEST__:PASS:
             "start": 28,
             "end": 33,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -132,7 +136,9 @@ __ESTREE_TEST__:PASS:
             "start": 53,
             "end": 55,
             "raw": "1.",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           "optional": false,
           "property": {

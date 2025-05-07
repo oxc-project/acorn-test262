@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 21,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       },
       "superTypeArguments": null,
       "typeParameters": null
@@ -66,7 +68,9 @@ __ESTREE_TEST__:PASS:
         "start": 44,
         "end": 48,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       },
       "superTypeArguments": null,
       "typeParameters": null
@@ -109,7 +113,9 @@ __ESTREE_TEST__:PASS:
               "start": 82,
               "end": 83,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -131,7 +137,9 @@ __ESTREE_TEST__:PASS:
         "start": 71,
         "end": 75,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       },
       "superTypeArguments": null,
       "typeParameters": null
@@ -174,7 +182,9 @@ __ESTREE_TEST__:PASS:
               "start": 117,
               "end": 118,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -196,7 +206,9 @@ __ESTREE_TEST__:PASS:
         "start": 105,
         "end": 109,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       },
       "superTypeArguments": null,
       "typeParameters": null

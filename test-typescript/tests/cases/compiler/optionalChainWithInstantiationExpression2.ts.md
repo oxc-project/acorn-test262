@@ -133,7 +133,9 @@ __ESTREE_TEST__:PASS:
           "start": 63,
           "end": 71,
           "raw": "'b type'",
-          "value": "b type"
+          "value": "b type",
+          "regex": null,
+          "bigint": null
         }
       },
       "typeParameters": null

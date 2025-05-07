@@ -76,7 +76,9 @@
             "start": 735,
             "end": 790,
             "value": "SharedArrayBuffer.prototype.grow is not a constructor",
-            "raw": "\"SharedArrayBuffer.prototype.grow is not a constructor\""
+            "raw": "\"SharedArrayBuffer.prototype.grow is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +115,9 @@
                 "start": 834,
                 "end": 835,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -23,7 +23,9 @@
             "start": 321,
             "end": 333,
             "value": "2019-10-01",
-            "raw": "\"2019-10-01\""
+            "raw": "\"2019-10-01\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,42 +75,54 @@
                 "start": 375,
                 "end": 377,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 381,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 385,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 390,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 395,
                 "value": 654,
-                "raw": "654"
+                "raw": "654",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 397,
                 "end": 400,
                 "value": 321,
-                "raw": "321"
+                "raw": "321",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -198,7 +212,9 @@
             "start": 463,
             "end": 529,
             "value": "Date-only string throws, does not implicitly convert to midnight",
-            "raw": "\"Date-only string throws, does not implicitly convert to midnight\""
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

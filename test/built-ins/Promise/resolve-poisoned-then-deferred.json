@@ -23,7 +23,9 @@
             "start": 677,
             "end": 681,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +126,9 @@
                 "start": 757,
                 "end": 763,
                 "value": "then",
-                "raw": "'then'"
+                "raw": "'then'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -324,7 +328,9 @@
                         "start": 920,
                         "end": 958,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -401,7 +407,9 @@
                               "start": 1013,
                               "end": 1071,
                               "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "raw": "'The promise should be fulfilled with the provided value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -524,7 +532,9 @@
             "start": 1186,
             "end": 1210,
             "value": "\"resolve\" return value",
-            "raw": "'\"resolve\" return value'"
+            "raw": "'\"resolve\" return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

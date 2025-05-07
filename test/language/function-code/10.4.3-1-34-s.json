@@ -128,14 +128,18 @@
                         "start": 431,
                         "end": 442,
                         "value": "undefined",
-                        "raw": "\"undefined\""
+                        "raw": "\"undefined\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 444,
                         "end": 449,
                         "value": "f()",
-                        "raw": "'f()'"
+                        "raw": "'f()'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -186,14 +190,18 @@
                         "start": 486,
                         "end": 497,
                         "value": "undefined",
-                        "raw": "\"undefined\""
+                        "raw": "\"undefined\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 499,
                         "end": 512,
                         "value": "typeof this",
-                        "raw": "'typeof this'"
+                        "raw": "'typeof this'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

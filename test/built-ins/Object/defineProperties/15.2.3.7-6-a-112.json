@@ -28,14 +28,18 @@
                 "start": 321,
                 "end": 322,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -82,7 +86,9 @@
             "start": 355,
             "end": 358,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -107,7 +113,9 @@
                   "start": 371,
                   "end": 372,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -129,7 +137,9 @@
                   "start": 390,
                   "end": 395,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -262,7 +272,9 @@
                                     "start": 498,
                                     "end": 499,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -333,7 +345,9 @@
                 "start": 564,
                 "end": 572,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -394,14 +408,18 @@
             "start": 605,
             "end": 606,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 608,
             "end": 620,
             "value": "desc.value",
-            "raw": "'desc.value'"
+            "raw": "'desc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,7 +464,9 @@
             "start": 645,
             "end": 669,
             "value": "desc.writable !== true",
-            "raw": "'desc.writable !== true'"
+            "raw": "'desc.writable !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -504,14 +524,18 @@
             "start": 706,
             "end": 711,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 730,
             "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "raw": "'desc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,14 +593,18 @@
             "start": 769,
             "end": 774,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 795,
             "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "raw": "'desc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

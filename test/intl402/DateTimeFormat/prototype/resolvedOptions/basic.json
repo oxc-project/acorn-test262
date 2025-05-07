@@ -176,7 +176,9 @@
             "start": 514,
             "end": 563,
             "value": "resolvedOptions returned the same object twice.",
-            "raw": "\"resolvedOptions returned the same object twice.\""
+            "raw": "\"resolvedOptions returned the same object twice.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +273,9 @@
               "start": 747,
               "end": 765,
               "value": "Invalid locale: ",
-              "raw": "\"Invalid locale: \""
+              "raw": "\"Invalid locale: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -383,7 +387,9 @@
               "start": 841,
               "end": 842,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -395,7 +401,9 @@
               "start": 864,
               "end": 884,
               "value": "Invalid calendar: ",
-              "raw": "\"Invalid calendar: \""
+              "raw": "\"Invalid calendar: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -479,7 +487,9 @@
               "start": 967,
               "end": 995,
               "value": "Invalid numbering system: ",
-              "raw": "\"Invalid numbering system: \""
+              "raw": "\"Invalid numbering system: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -563,7 +573,9 @@
               "start": 1100,
               "end": 1121,
               "value": "Invalid time zone: ",
-              "raw": "\"Invalid time zone: \""
+              "raw": "\"Invalid time zone: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -636,14 +648,18 @@
                     "start": 1163,
                     "end": 1172,
                     "value": "2-digit",
-                    "raw": "\"2-digit\""
+                    "raw": "\"2-digit\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1174,
                     "end": 1183,
                     "value": "numeric",
-                    "raw": "\"numeric\""
+                    "raw": "\"numeric\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -690,7 +706,9 @@
               "start": 1208,
               "end": 1209,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -702,7 +720,9 @@
               "start": 1231,
               "end": 1247,
               "value": "Invalid year: ",
-              "raw": "\"Invalid year: \""
+              "raw": "\"Invalid year: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -775,35 +795,45 @@
                     "start": 1285,
                     "end": 1294,
                     "value": "2-digit",
-                    "raw": "\"2-digit\""
+                    "raw": "\"2-digit\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1296,
                     "end": 1305,
                     "value": "numeric",
-                    "raw": "\"numeric\""
+                    "raw": "\"numeric\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1307,
                     "end": 1315,
                     "value": "narrow",
-                    "raw": "\"narrow\""
+                    "raw": "\"narrow\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1317,
                     "end": 1324,
                     "value": "short",
-                    "raw": "\"short\""
+                    "raw": "\"short\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1326,
                     "end": 1332,
                     "value": "long",
-                    "raw": "\"long\""
+                    "raw": "\"long\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -850,7 +880,9 @@
               "start": 1358,
               "end": 1359,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -862,7 +894,9 @@
               "start": 1381,
               "end": 1398,
               "value": "Invalid month: ",
-              "raw": "\"Invalid month: \""
+              "raw": "\"Invalid month: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -935,14 +969,18 @@
                     "start": 1437,
                     "end": 1446,
                     "value": "2-digit",
-                    "raw": "\"2-digit\""
+                    "raw": "\"2-digit\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1448,
                     "end": 1457,
                     "value": "numeric",
-                    "raw": "\"numeric\""
+                    "raw": "\"numeric\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -989,7 +1027,9 @@
               "start": 1481,
               "end": 1482,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -1001,7 +1041,9 @@
               "start": 1504,
               "end": 1519,
               "value": "Invalid day: ",
-              "raw": "\"Invalid day: \""
+              "raw": "\"Invalid day: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1066,7 +1108,9 @@
                   "start": 1571,
                   "end": 1575,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1088,7 +1132,9 @@
                   "start": 1589,
                   "end": 1593,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1110,7 +1156,9 @@
                   "start": 1609,
                   "end": 1613,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -1146,7 +1194,9 @@
             "start": 1640,
             "end": 1648,
             "value": "locale",
-            "raw": "\"locale\""
+            "raw": "\"locale\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1184,7 +1234,9 @@
             "start": 1692,
             "end": 1702,
             "value": "calendar",
-            "raw": "\"calendar\""
+            "raw": "\"calendar\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1222,7 +1274,9 @@
             "start": 1746,
             "end": 1763,
             "value": "numberingSystem",
-            "raw": "\"numberingSystem\""
+            "raw": "\"numberingSystem\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1260,7 +1314,9 @@
             "start": 1807,
             "end": 1817,
             "value": "timeZone",
-            "raw": "\"timeZone\""
+            "raw": "\"timeZone\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1298,7 +1354,9 @@
             "start": 1861,
             "end": 1870,
             "value": "weekday",
-            "raw": "\"weekday\""
+            "raw": "\"weekday\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1336,7 +1394,9 @@
             "start": 1907,
             "end": 1912,
             "value": "era",
-            "raw": "\"era\""
+            "raw": "\"era\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1374,7 +1434,9 @@
             "start": 1949,
             "end": 1955,
             "value": "year",
-            "raw": "\"year\""
+            "raw": "\"year\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1412,7 +1474,9 @@
             "start": 1999,
             "end": 2006,
             "value": "month",
-            "raw": "\"month\""
+            "raw": "\"month\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1450,7 +1514,9 @@
             "start": 2050,
             "end": 2055,
             "value": "day",
-            "raw": "\"day\""
+            "raw": "\"day\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1488,7 +1554,9 @@
             "start": 2099,
             "end": 2105,
             "value": "hour",
-            "raw": "\"hour\""
+            "raw": "\"hour\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1526,7 +1594,9 @@
             "start": 2142,
             "end": 2150,
             "value": "minute",
-            "raw": "\"minute\""
+            "raw": "\"minute\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1564,7 +1634,9 @@
             "start": 2187,
             "end": 2195,
             "value": "second",
-            "raw": "\"second\""
+            "raw": "\"second\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1602,7 +1674,9 @@
             "start": 2232,
             "end": 2246,
             "value": "timeZoneName",
-            "raw": "\"timeZoneName\""
+            "raw": "\"timeZoneName\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1640,7 +1714,9 @@
             "start": 2283,
             "end": 2291,
             "value": "hour12",
-            "raw": "\"hour12\""
+            "raw": "\"hour12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",

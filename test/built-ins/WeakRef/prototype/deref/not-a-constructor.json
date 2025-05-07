@@ -82,14 +82,18 @@
             "start": 766,
             "end": 771,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 833,
             "value": "isConstructor(WeakRef.prototype.deref) must return false",
-            "raw": "'isConstructor(WeakRef.prototype.deref) must return false'"
+            "raw": "'isConstructor(WeakRef.prototype.deref) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

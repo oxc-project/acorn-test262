@@ -79,7 +79,9 @@
                 "start": 1213,
                 "end": 1222,
                 "value": "compare",
-                "raw": "\"compare\""
+                "raw": "\"compare\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -204,7 +206,9 @@
             "start": 1299,
             "end": 1309,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,7 +266,9 @@
             "start": 1353,
             "end": 1362,
             "value": "compare",
-            "raw": "\"compare\""
+            "raw": "\"compare\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -287,7 +293,9 @@
                   "start": 1380,
                   "end": 1385,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -309,7 +317,9 @@
                   "start": 1403,
                   "end": 1407,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

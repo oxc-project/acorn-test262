@@ -97,7 +97,9 @@
                         "start": 784,
                         "end": 786,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

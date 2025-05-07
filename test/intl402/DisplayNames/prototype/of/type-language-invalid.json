@@ -71,7 +71,9 @@
                       "start": 685,
                       "end": 695,
                       "value": "language",
-                      "raw": "'language'"
+                      "raw": "'language'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -164,7 +166,9 @@
                         "start": 757,
                         "end": 759,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -178,7 +182,9 @@
             "start": 765,
             "end": 805,
             "value": "invalid language subtag - empty string",
-            "raw": "'invalid language subtag - empty string'"
+            "raw": "'invalid language subtag - empty string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +271,9 @@
                         "start": 866,
                         "end": 869,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -279,7 +287,9 @@
             "start": 875,
             "end": 921,
             "value": "invalid language subtag - only one character",
-            "raw": "'invalid language subtag - only one character'"
+            "raw": "'invalid language subtag - only one character'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -366,7 +376,9 @@
                         "start": 982,
                         "end": 993,
                         "value": "abcdefghi",
-                        "raw": "'abcdefghi'"
+                        "raw": "'abcdefghi'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -380,7 +392,9 @@
             "start": 999,
             "end": 1052,
             "value": "invalid language subtag - greater than 8 characters",
-            "raw": "'invalid language subtag - greater than 8 characters'"
+            "raw": "'invalid language subtag - greater than 8 characters'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -467,7 +481,9 @@
                         "start": 1113,
                         "end": 1126,
                         "value": "en-u-hebrew",
-                        "raw": "'en-u-hebrew'"
+                        "raw": "'en-u-hebrew'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -481,7 +497,9 @@
             "start": 1132,
             "end": 1150,
             "value": "singleton subtag",
-            "raw": "'singleton subtag'"
+            "raw": "'singleton subtag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,7 +586,9 @@
                         "start": 1211,
                         "end": 1225,
                         "value": "aa-aaaa-bbbb",
-                        "raw": "'aa-aaaa-bbbb'"
+                        "raw": "'aa-aaaa-bbbb'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -582,7 +602,9 @@
             "start": 1231,
             "end": 1256,
             "value": "multiple script subtags",
-            "raw": "'multiple script subtags'"
+            "raw": "'multiple script subtags'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -669,7 +691,9 @@
                         "start": 1317,
                         "end": 1333,
                         "value": "aa-aaaaa-aaaaa",
-                        "raw": "'aa-aaaaa-aaaaa'"
+                        "raw": "'aa-aaaaa-aaaaa'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -683,7 +707,9 @@
             "start": 1339,
             "end": 1365,
             "value": "duplicate variant subtag",
-            "raw": "'duplicate variant subtag'"
+            "raw": "'duplicate variant subtag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -770,7 +796,9 @@
                         "start": 1426,
                         "end": 1436,
                         "value": "aa-bb-cc",
-                        "raw": "'aa-bb-cc'"
+                        "raw": "'aa-bb-cc'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -784,7 +812,9 @@
             "start": 1442,
             "end": 1467,
             "value": "multiple region subtags",
-            "raw": "'multiple region subtags'"
+            "raw": "'multiple region subtags'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -871,7 +901,9 @@
                         "start": 1528,
                         "end": 1532,
                         "value": "1a",
-                        "raw": "'1a'"
+                        "raw": "'1a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -885,7 +917,9 @@
             "start": 1538,
             "end": 1579,
             "value": "invalid language subtag - leading digit",
-            "raw": "'invalid language subtag - leading digit'"
+            "raw": "'invalid language subtag - leading digit'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -972,7 +1006,9 @@
                         "start": 1640,
                         "end": 1647,
                         "value": "aa-1a",
-                        "raw": "'aa-1a'"
+                        "raw": "'aa-1a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -986,7 +1022,9 @@
             "start": 1653,
             "end": 1687,
             "value": "leading-digit subtag of length 2",
-            "raw": "'leading-digit subtag of length 2'"
+            "raw": "'leading-digit subtag of length 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1073,7 +1111,9 @@
                         "start": 1748,
                         "end": 1756,
                         "value": "aa-1aa",
-                        "raw": "'aa-1aa'"
+                        "raw": "'aa-1aa'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1087,7 +1127,9 @@
             "start": 1762,
             "end": 1808,
             "value": "leading-digit non-numeric subtag of length 3",
-            "raw": "'leading-digit non-numeric subtag of length 3'"
+            "raw": "'leading-digit non-numeric subtag of length 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1174,7 +1216,9 @@
                         "start": 1869,
                         "end": 1878,
                         "value": "@#$%@#$",
-                        "raw": "'@#$%@#$'"
+                        "raw": "'@#$%@#$'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1188,7 +1232,9 @@
             "start": 1884,
             "end": 1904,
             "value": "invalid characters",
-            "raw": "'invalid characters'"
+            "raw": "'invalid characters'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1275,7 +1321,9 @@
                         "start": 1965,
                         "end": 1973,
                         "value": "en-US-",
-                        "raw": "'en-US-'"
+                        "raw": "'en-US-'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1289,7 +1337,9 @@
             "start": 1979,
             "end": 2013,
             "value": "separator not followed by subtag",
-            "raw": "'separator not followed by subtag'"
+            "raw": "'separator not followed by subtag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1376,7 +1426,9 @@
                         "start": 2074,
                         "end": 2079,
                         "value": "-en",
-                        "raw": "'-en'"
+                        "raw": "'-en'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1390,7 +1442,9 @@
             "start": 2085,
             "end": 2105,
             "value": "separator at start",
-            "raw": "'separator at start'"
+            "raw": "'separator at start'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1477,7 +1531,9 @@
                         "start": 2166,
                         "end": 2174,
                         "value": "en--GB",
-                        "raw": "'en--GB'"
+                        "raw": "'en--GB'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1491,7 +1547,9 @@
             "start": 2180,
             "end": 2215,
             "value": "missing subtag between separators",
-            "raw": "'missing subtag between separators'"
+            "raw": "'missing subtag between separators'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1578,7 +1636,9 @@
                         "start": 2276,
                         "end": 2282,
                         "value": "root",
-                        "raw": "'root'"
+                        "raw": "'root'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1592,7 +1652,9 @@
             "start": 2288,
             "end": 2347,
             "value": "BCP 47-incompatible CLDR syntax (\"root\" instead of \"und\")",
-            "raw": "'BCP 47-incompatible CLDR syntax (\"root\" instead of \"und\")'"
+            "raw": "'BCP 47-incompatible CLDR syntax (\"root\" instead of \"und\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1679,7 +1741,9 @@
                         "start": 2407,
                         "end": 2416,
                         "value": "abcd-GB",
-                        "raw": "'abcd-GB'"
+                        "raw": "'abcd-GB'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1693,7 +1757,9 @@
             "start": 2422,
             "end": 2497,
             "value": "BCP 47-incompatible CLDR syntax (script subtag without a language subtag)",
-            "raw": "'BCP 47-incompatible CLDR syntax (script subtag without a language subtag)'"
+            "raw": "'BCP 47-incompatible CLDR syntax (script subtag without a language subtag)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1780,7 +1846,9 @@
                         "start": 2557,
                         "end": 2563,
                         "value": "abcd",
-                        "raw": "'abcd'"
+                        "raw": "'abcd'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1794,7 +1862,9 @@
             "start": 2569,
             "end": 2623,
             "value": "BCP 47-incompatible CLDR syntax (bare script subtag)",
-            "raw": "'BCP 47-incompatible CLDR syntax (bare script subtag)'"
+            "raw": "'BCP 47-incompatible CLDR syntax (bare script subtag)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1881,7 +1951,9 @@
                         "start": 2683,
                         "end": 2690,
                         "value": "en_GB",
-                        "raw": "'en_GB'"
+                        "raw": "'en_GB'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1895,7 +1967,9 @@
             "start": 2696,
             "end": 2746,
             "value": "BCP 47-incompatible CLDR syntax (_ as separator)",
-            "raw": "'BCP 47-incompatible CLDR syntax (_ as separator)'"
+            "raw": "'BCP 47-incompatible CLDR syntax (_ as separator)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

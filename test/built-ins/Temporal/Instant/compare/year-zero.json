@@ -48,6 +48,7 @@
                 "end": 292,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -81,21 +82,27 @@
                 "start": 322,
                 "end": 344,
                 "value": "-000000-03-30T00:45Z",
-                "raw": "\"-000000-03-30T00:45Z\""
+                "raw": "\"-000000-03-30T00:45Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 375,
                 "value": "-000000-03-30T01:45+01:00",
-                "raw": "\"-000000-03-30T01:45+01:00\""
+                "raw": "\"-000000-03-30T01:45+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 414,
                 "value": "-000000-03-30T01:45:00+00:00[UTC]",
-                "raw": "\"-000000-03-30T01:45:00+00:00[UTC]\""
+                "raw": "\"-000000-03-30T01:45:00+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -253,7 +260,9 @@
                         "start": 537,
                         "end": 591,
                         "value": "minus zero is invalid extended year (first argument)",
-                        "raw": "\"minus zero is invalid extended year (first argument)\""
+                        "raw": "\"minus zero is invalid extended year (first argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -360,7 +369,9 @@
                         "start": 677,
                         "end": 732,
                         "value": "minus zero is invalid extended year (second argument)",
-                        "raw": "\"minus zero is invalid extended year (second argument)\""
+                        "raw": "\"minus zero is invalid extended year (second argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

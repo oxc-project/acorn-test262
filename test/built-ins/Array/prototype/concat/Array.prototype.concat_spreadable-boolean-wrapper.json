@@ -34,7 +34,9 @@
                 "start": 385,
                 "end": 389,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -121,7 +123,9 @@
             "start": 500,
             "end": 563,
             "value": "[bool] must return the same value returned by [].concat(bool)",
-            "raw": "'[bool] must return the same value returned by [].concat(bool)'"
+            "raw": "'[bool] must return the same value returned by [].concat(bool)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,7 +177,9 @@
           "start": 666,
           "end": 670,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +216,9 @@
           "start": 686,
           "end": 687,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -243,7 +251,9 @@
                 "start": 694,
                 "end": 695,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -253,7 +263,9 @@
               "start": 699,
               "end": 700,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -276,7 +288,9 @@
                 "start": 707,
                 "end": 708,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -286,7 +300,9 @@
               "start": 712,
               "end": 713,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -309,7 +325,9 @@
                 "start": 720,
                 "end": 721,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -319,7 +337,9 @@
               "start": 725,
               "end": 726,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -363,21 +383,27 @@
                 "start": 749,
                 "end": 750,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 752,
                 "end": 753,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 755,
                 "end": 756,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -419,7 +445,9 @@
             "start": 778,
             "end": 844,
             "value": "[1, 2, 3] must return the same value returned by [].concat(bool)",
-            "raw": "'[1, 2, 3] must return the same value returned by [].concat(bool)'"
+            "raw": "'[1, 2, 3] must return the same value returned by [].concat(bool)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -484,7 +512,9 @@
           "start": 896,
           "end": 900,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -562,7 +592,9 @@
                     "start": 1000,
                     "end": 1004,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -574,7 +606,9 @@
             "start": 1010,
             "end": 1082,
             "value": "[] must return the same value returned by [].concat(new Boolean(true))",
-            "raw": "'[] must return the same value returned by [].concat(new Boolean(true))'"
+            "raw": "'[] must return the same value returned by [].concat(new Boolean(true))'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,7 +651,9 @@
             "start": 1104,
             "end": 1105,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -627,7 +663,9 @@
           "start": 1109,
           "end": 1110,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -668,7 +706,9 @@
             "start": 1130,
             "end": 1131,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -678,7 +718,9 @@
           "start": 1135,
           "end": 1136,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -719,7 +761,9 @@
             "start": 1156,
             "end": 1157,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -729,7 +773,9 @@
           "start": 1161,
           "end": 1162,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -779,7 +825,9 @@
           "start": 1191,
           "end": 1192,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -821,21 +869,27 @@
                 "start": 1215,
                 "end": 1216,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1218,
                 "end": 1219,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1221,
                 "end": 1222,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -879,7 +933,9 @@
                     "start": 1247,
                     "end": 1251,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -891,7 +947,9 @@
             "start": 1257,
             "end": 1336,
             "value": "[1, 2, 3] must return the same value returned by [].concat(new Boolean(true))",
-            "raw": "'[1, 2, 3] must return the same value returned by [].concat(new Boolean(true))'"
+            "raw": "'[1, 2, 3] must return the same value returned by [].concat(new Boolean(true))'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -935,7 +993,9 @@
                 "start": 1408,
                 "end": 1412,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -968,7 +1028,9 @@
                 "start": 1425,
                 "end": 1429,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -978,7 +1040,9 @@
             "start": 1432,
             "end": 1495,
             "value": "[true] must return the same value returned by [].concat(true)",
-            "raw": "'[true] must return the same value returned by [].concat(true)'"
+            "raw": "'[true] must return the same value returned by [].concat(true)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1079,7 +1143,9 @@
             "start": 1576,
             "end": 1577,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1124,7 +1190,9 @@
             "start": 1605,
             "end": 1606,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1169,7 +1237,9 @@
             "start": 1634,
             "end": 1635,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false

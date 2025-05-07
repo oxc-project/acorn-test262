@@ -23,7 +23,9 @@
             "start": 2173,
             "end": 2174,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -236,7 +238,9 @@
                               "start": 2288,
                               "end": 2293,
                               "value": "gen",
-                              "raw": "'gen'"
+                              "raw": "'gen'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -294,7 +298,9 @@
                               "start": 2331,
                               "end": 2337,
                               "value": "xGen",
-                              "raw": "'xGen'"
+                              "raw": "'xGen'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -331,7 +337,9 @@
                               "start": 2368,
                               "end": 2369,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -437,14 +445,18 @@
             "start": 2428,
             "end": 2429,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2431,
             "end": 2470,
             "value": "generator method invoked exactly once",
-            "raw": "'generator method invoked exactly once'"
+            "raw": "'generator method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

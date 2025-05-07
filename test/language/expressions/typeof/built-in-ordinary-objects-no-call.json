@@ -49,14 +49,18 @@
             "start": 511,
             "end": 519,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 549,
             "value": "typeof Math === \"object\"",
-            "raw": "'typeof Math === \"object\"'"
+            "raw": "'typeof Math === \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -108,14 +112,18 @@
             "start": 593,
             "end": 601,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 605,
             "end": 634,
             "value": "typeof Reflect === \"object\"",
-            "raw": "'typeof Reflect === \"object\"'"
+            "raw": "'typeof Reflect === \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

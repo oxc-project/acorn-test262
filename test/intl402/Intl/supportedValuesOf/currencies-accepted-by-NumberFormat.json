@@ -47,7 +47,9 @@
                 "start": 1011,
                 "end": 1021,
                 "value": "currency",
-                "raw": "\"currency\""
+                "raw": "\"currency\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -136,7 +138,9 @@
                       "start": 1094,
                       "end": 1098,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -161,7 +165,9 @@
                             "start": 1108,
                             "end": 1118,
                             "value": "currency",
-                            "raw": "\"currency\""
+                            "raw": "\"currency\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },

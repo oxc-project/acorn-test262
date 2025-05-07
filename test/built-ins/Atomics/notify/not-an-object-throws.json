@@ -70,7 +70,9 @@
                               "start": 538,
                               "end": 569,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -167,7 +169,9 @@
                         "start": 635,
                         "end": 639,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -378,7 +382,9 @@
                         "start": 814,
                         "end": 818,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -484,7 +490,9 @@
                         "start": 901,
                         "end": 906,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -590,7 +598,9 @@
                         "start": 989,
                         "end": 1003,
                         "value": "***string***",
-                        "raw": "'***string***'"
+                        "raw": "'***string***'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -825,7 +835,9 @@
                             "start": 1200,
                             "end": 1214,
                             "value": "***symbol***",
-                            "raw": "'***symbol***'"
+                            "raw": "'***symbol***'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

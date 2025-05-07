@@ -92,7 +92,9 @@
                         "start": 431,
                         "end": 435,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -264,7 +266,9 @@
                         "start": 571,
                         "end": 575,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -337,7 +341,9 @@
                                           "start": 648,
                                           "end": 672,
                                           "value": "property key evaluated",
-                                          "raw": "\"property key evaluated\""
+                                          "raw": "\"property key evaluated\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }

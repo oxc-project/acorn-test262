@@ -67,7 +67,9 @@
             "start": 310,
             "end": 313,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 329,
                   "end": 333,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 344,
                   "end": 347,
                   "value": 123,
-                  "raw": "123"
+                  "raw": "123",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -150,7 +156,9 @@
             "start": 373,
             "end": 376,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +197,9 @@
           "start": 394,
           "end": 397,
           "value": 123,
-          "raw": "123"
+          "raw": "123",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -217,7 +227,9 @@
                   "start": 419,
                   "end": 464,
                   "value": "`verifyWritable` should be non-destructive.",
-                  "raw": "'`verifyWritable` should be non-destructive.'"
+                  "raw": "'`verifyWritable` should be non-destructive.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

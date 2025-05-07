@@ -120,7 +120,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 26,
         "raw": "\"interface\"",
-        "value": "interface"
+        "value": "interface",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -250,7 +252,9 @@ __ESTREE_TEST__:PASS:
         "start": 129,
         "end": 139,
         "raw": "\"variable\"",
-        "value": "variable"
+        "value": "variable",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -462,7 +466,9 @@ __ESTREE_TEST__:PASS:
         "start": 237,
         "end": 257,
         "raw": "\"interface-variable\"",
-        "value": "interface-variable"
+        "value": "interface-variable",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -608,7 +614,9 @@ __ESTREE_TEST__:PASS:
         "start": 419,
         "end": 427,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -836,7 +844,9 @@ __ESTREE_TEST__:PASS:
         "start": 549,
         "end": 567,
         "raw": "\"interface-module\"",
-        "value": "interface-module"
+        "value": "interface-module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -1072,7 +1082,9 @@ __ESTREE_TEST__:PASS:
         "start": 753,
         "end": 770,
         "raw": "\"variable-module\"",
-        "value": "variable-module"
+        "value": "variable-module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -1130,7 +1142,9 @@ __ESTREE_TEST__:PASS:
         "start": 971,
         "end": 981,
         "raw": "\"function\"",
-        "value": "function"
+        "value": "function",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -1298,7 +1312,9 @@ __ESTREE_TEST__:PASS:
         "start": 1040,
         "end": 1057,
         "raw": "\"function-module\"",
-        "value": "function-module"
+        "value": "function-module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -1430,7 +1446,9 @@ __ESTREE_TEST__:PASS:
         "start": 1199,
         "end": 1206,
         "raw": "\"class\"",
-        "value": "class"
+        "value": "class",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -1672,7 +1690,9 @@ __ESTREE_TEST__:PASS:
         "start": 1305,
         "end": 1319,
         "raw": "\"class-module\"",
-        "value": "class-module"
+        "value": "class-module",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -1710,7 +1730,9 @@ __ESTREE_TEST__:PASS:
           "start": 75,
           "end": 86,
           "raw": "\"interface\"",
-          "value": "interface"
+          "value": "interface",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1737,7 +1759,9 @@ __ESTREE_TEST__:PASS:
           "start": 109,
           "end": 119,
           "raw": "\"variable\"",
-          "value": "variable"
+          "value": "variable",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1764,7 +1788,9 @@ __ESTREE_TEST__:PASS:
           "start": 142,
           "end": 162,
           "raw": "\"interface-variable\"",
-          "value": "interface-variable"
+          "value": "interface-variable",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1791,7 +1817,9 @@ __ESTREE_TEST__:PASS:
           "start": 185,
           "end": 193,
           "raw": "\"module\"",
-          "value": "module"
+          "value": "module",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1818,7 +1846,9 @@ __ESTREE_TEST__:PASS:
           "start": 216,
           "end": 234,
           "raw": "\"interface-module\"",
-          "value": "interface-module"
+          "value": "interface-module",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1845,7 +1875,9 @@ __ESTREE_TEST__:PASS:
           "start": 257,
           "end": 274,
           "raw": "\"variable-module\"",
-          "value": "variable-module"
+          "value": "variable-module",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1872,7 +1904,9 @@ __ESTREE_TEST__:PASS:
           "start": 297,
           "end": 307,
           "raw": "\"function\"",
-          "value": "function"
+          "value": "function",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1899,7 +1933,9 @@ __ESTREE_TEST__:PASS:
           "start": 330,
           "end": 347,
           "raw": "\"function-module\"",
-          "value": "function-module"
+          "value": "function-module",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1926,7 +1962,9 @@ __ESTREE_TEST__:PASS:
           "start": 370,
           "end": 377,
           "raw": "\"class\"",
-          "value": "class"
+          "value": "class",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1953,7 +1991,9 @@ __ESTREE_TEST__:PASS:
           "start": 400,
           "end": 414,
           "raw": "\"class-module\"",
-          "value": "class-module"
+          "value": "class-module",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2278,7 +2318,9 @@ __ESTREE_TEST__:PASS:
         "start": 512,
         "end": 523,
         "raw": "\"interface\"",
-        "value": "interface"
+        "value": "interface",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2308,7 +2350,9 @@ __ESTREE_TEST__:PASS:
         "start": 540,
         "end": 550,
         "raw": "\"variable\"",
-        "value": "variable"
+        "value": "variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2338,7 +2382,9 @@ __ESTREE_TEST__:PASS:
         "start": 567,
         "end": 587,
         "raw": "\"interface-variable\"",
-        "value": "interface-variable"
+        "value": "interface-variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2368,7 +2414,9 @@ __ESTREE_TEST__:PASS:
         "start": 604,
         "end": 612,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2398,7 +2446,9 @@ __ESTREE_TEST__:PASS:
         "start": 629,
         "end": 647,
         "raw": "\"interface-module\"",
-        "value": "interface-module"
+        "value": "interface-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2428,7 +2478,9 @@ __ESTREE_TEST__:PASS:
         "start": 664,
         "end": 681,
         "raw": "\"variable-module\"",
-        "value": "variable-module"
+        "value": "variable-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2458,7 +2510,9 @@ __ESTREE_TEST__:PASS:
         "start": 698,
         "end": 708,
         "raw": "\"function\"",
-        "value": "function"
+        "value": "function",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2488,7 +2542,9 @@ __ESTREE_TEST__:PASS:
         "start": 725,
         "end": 742,
         "raw": "\"function-module\"",
-        "value": "function-module"
+        "value": "function-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2518,7 +2574,9 @@ __ESTREE_TEST__:PASS:
         "start": 759,
         "end": 766,
         "raw": "\"class\"",
-        "value": "class"
+        "value": "class",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2548,7 +2606,9 @@ __ESTREE_TEST__:PASS:
         "start": 783,
         "end": 797,
         "raw": "\"class-module\"",
-        "value": "class-module"
+        "value": "class-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2578,7 +2638,9 @@ __ESTREE_TEST__:PASS:
         "start": 840,
         "end": 851,
         "raw": "\"interface\"",
-        "value": "interface"
+        "value": "interface",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2608,7 +2670,9 @@ __ESTREE_TEST__:PASS:
         "start": 873,
         "end": 883,
         "raw": "\"variable\"",
-        "value": "variable"
+        "value": "variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2638,7 +2702,9 @@ __ESTREE_TEST__:PASS:
         "start": 905,
         "end": 925,
         "raw": "\"interface-variable\"",
-        "value": "interface-variable"
+        "value": "interface-variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2668,7 +2734,9 @@ __ESTREE_TEST__:PASS:
         "start": 947,
         "end": 955,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2698,7 +2766,9 @@ __ESTREE_TEST__:PASS:
         "start": 977,
         "end": 995,
         "raw": "\"interface-module\"",
-        "value": "interface-module"
+        "value": "interface-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2728,7 +2798,9 @@ __ESTREE_TEST__:PASS:
         "start": 1017,
         "end": 1034,
         "raw": "\"variable-module\"",
-        "value": "variable-module"
+        "value": "variable-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2758,7 +2830,9 @@ __ESTREE_TEST__:PASS:
         "start": 1056,
         "end": 1066,
         "raw": "\"function\"",
-        "value": "function"
+        "value": "function",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2788,7 +2862,9 @@ __ESTREE_TEST__:PASS:
         "start": 1088,
         "end": 1105,
         "raw": "\"function-module\"",
-        "value": "function-module"
+        "value": "function-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2818,7 +2894,9 @@ __ESTREE_TEST__:PASS:
         "start": 1127,
         "end": 1134,
         "raw": "\"class\"",
-        "value": "class"
+        "value": "class",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2848,7 +2926,9 @@ __ESTREE_TEST__:PASS:
         "start": 1156,
         "end": 1170,
         "raw": "\"class-module\"",
-        "value": "class-module"
+        "value": "class-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3188,7 +3268,9 @@ __ESTREE_TEST__:PASS:
         "start": 1274,
         "end": 1285,
         "raw": "\"interface\"",
-        "value": "interface"
+        "value": "interface",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3228,7 +3310,9 @@ __ESTREE_TEST__:PASS:
         "start": 1311,
         "end": 1321,
         "raw": "\"variable\"",
-        "value": "variable"
+        "value": "variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3268,7 +3352,9 @@ __ESTREE_TEST__:PASS:
         "start": 1347,
         "end": 1367,
         "raw": "\"interface-variable\"",
-        "value": "interface-variable"
+        "value": "interface-variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3308,7 +3394,9 @@ __ESTREE_TEST__:PASS:
         "start": 1393,
         "end": 1401,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3348,7 +3436,9 @@ __ESTREE_TEST__:PASS:
         "start": 1427,
         "end": 1445,
         "raw": "\"interface-module\"",
-        "value": "interface-module"
+        "value": "interface-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3388,7 +3478,9 @@ __ESTREE_TEST__:PASS:
         "start": 1471,
         "end": 1488,
         "raw": "\"variable-module\"",
-        "value": "variable-module"
+        "value": "variable-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3428,7 +3520,9 @@ __ESTREE_TEST__:PASS:
         "start": 1514,
         "end": 1524,
         "raw": "\"function\"",
-        "value": "function"
+        "value": "function",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3468,7 +3562,9 @@ __ESTREE_TEST__:PASS:
         "start": 1550,
         "end": 1567,
         "raw": "\"function-module\"",
-        "value": "function-module"
+        "value": "function-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3508,7 +3604,9 @@ __ESTREE_TEST__:PASS:
         "start": 1593,
         "end": 1600,
         "raw": "\"class\"",
-        "value": "class"
+        "value": "class",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3548,7 +3646,9 @@ __ESTREE_TEST__:PASS:
         "start": 1626,
         "end": 1640,
         "raw": "\"class-module\"",
-        "value": "class-module"
+        "value": "class-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3739,7 +3839,9 @@ __ESTREE_TEST__:PASS:
         "start": 1724,
         "end": 1735,
         "raw": "\"interface\"",
-        "value": "interface"
+        "value": "interface",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3780,7 +3882,9 @@ __ESTREE_TEST__:PASS:
         "start": 1761,
         "end": 1771,
         "raw": "\"variable\"",
-        "value": "variable"
+        "value": "variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3821,7 +3925,9 @@ __ESTREE_TEST__:PASS:
         "start": 1797,
         "end": 1817,
         "raw": "\"interface-variable\"",
-        "value": "interface-variable"
+        "value": "interface-variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3862,7 +3968,9 @@ __ESTREE_TEST__:PASS:
         "start": 1843,
         "end": 1851,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3903,7 +4011,9 @@ __ESTREE_TEST__:PASS:
         "start": 1877,
         "end": 1895,
         "raw": "\"interface-module\"",
-        "value": "interface-module"
+        "value": "interface-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3944,7 +4054,9 @@ __ESTREE_TEST__:PASS:
         "start": 1921,
         "end": 1938,
         "raw": "\"variable-module\"",
-        "value": "variable-module"
+        "value": "variable-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3985,7 +4097,9 @@ __ESTREE_TEST__:PASS:
         "start": 1964,
         "end": 1974,
         "raw": "\"function\"",
-        "value": "function"
+        "value": "function",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -4026,7 +4140,9 @@ __ESTREE_TEST__:PASS:
         "start": 2000,
         "end": 2017,
         "raw": "\"function-module\"",
-        "value": "function-module"
+        "value": "function-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -4067,7 +4183,9 @@ __ESTREE_TEST__:PASS:
         "start": 2043,
         "end": 2050,
         "raw": "\"class\"",
-        "value": "class"
+        "value": "class",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -4108,7 +4226,9 @@ __ESTREE_TEST__:PASS:
         "start": 2076,
         "end": 2090,
         "raw": "\"class-module\"",
-        "value": "class-module"
+        "value": "class-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -4149,7 +4269,9 @@ __ESTREE_TEST__:PASS:
         "start": 2122,
         "end": 2133,
         "raw": "\"interface\"",
-        "value": "interface"
+        "value": "interface",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4164,7 +4286,9 @@ __ESTREE_TEST__:PASS:
         "start": 2149,
         "end": 2159,
         "raw": "\"variable\"",
-        "value": "variable"
+        "value": "variable",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4179,7 +4303,9 @@ __ESTREE_TEST__:PASS:
         "start": 2175,
         "end": 2195,
         "raw": "\"interface-variable\"",
-        "value": "interface-variable"
+        "value": "interface-variable",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4194,7 +4320,9 @@ __ESTREE_TEST__:PASS:
         "start": 2211,
         "end": 2219,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4209,7 +4337,9 @@ __ESTREE_TEST__:PASS:
         "start": 2235,
         "end": 2253,
         "raw": "\"interface-module\"",
-        "value": "interface-module"
+        "value": "interface-module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4224,7 +4354,9 @@ __ESTREE_TEST__:PASS:
         "start": 2269,
         "end": 2286,
         "raw": "\"variable-module\"",
-        "value": "variable-module"
+        "value": "variable-module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4239,7 +4371,9 @@ __ESTREE_TEST__:PASS:
         "start": 2302,
         "end": 2312,
         "raw": "\"function\"",
-        "value": "function"
+        "value": "function",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4254,7 +4388,9 @@ __ESTREE_TEST__:PASS:
         "start": 2328,
         "end": 2345,
         "raw": "\"function-module\"",
-        "value": "function-module"
+        "value": "function-module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4269,7 +4405,9 @@ __ESTREE_TEST__:PASS:
         "start": 2361,
         "end": 2368,
         "raw": "\"class\"",
-        "value": "class"
+        "value": "class",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4284,7 +4422,9 @@ __ESTREE_TEST__:PASS:
         "start": 2384,
         "end": 2398,
         "raw": "\"class-module\"",
-        "value": "class-module"
+        "value": "class-module",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "b",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 1102,
             "end": 1110,
             "value": "global",
-            "raw": "'global'"
+            "raw": "'global'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -97,7 +100,9 @@
                   "start": 1121,
                   "end": 1126,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -153,7 +158,9 @@
             "start": 1148,
             "end": 1153,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,7 +218,9 @@
             "start": 1187,
             "end": 1188,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 361,
             "end": 374,
             "value": 1726773817847,
-            "raw": "1726773817847"
+            "raw": "1726773817847",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,6 +77,7 @@
               "end": 464,
               "value": null,
               "raw": "1_000_000n",
+              "regex": null,
               "bigint": "1000000"
             }
           }
@@ -215,49 +218,63 @@
                 "start": 612,
                 "end": 616,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 618,
                 "end": 619,
                 "value": 9,
-                "raw": "9"
+                "raw": "9",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 621,
                 "end": 623,
                 "value": 19,
-                "raw": "19"
+                "raw": "19",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 627,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 629,
                 "end": 631,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 633,
                 "end": 635,
                 "value": 37,
-                "raw": "37"
+                "raw": "37",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 640,
                 "value": 847,
-                "raw": "847"
+                "raw": "847",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -309,21 +326,27 @@
                 "start": 684,
                 "end": 688,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 690,
                 "end": 691,
                 "value": 9,
-                "raw": "9"
+                "raw": "9",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 693,
                 "end": 695,
                 "value": 19,
-                "raw": "19"
+                "raw": "19",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -375,14 +398,18 @@
                 "start": 749,
                 "end": 753,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 755,
                 "end": 756,
                 "value": 9,
-                "raw": "9"
+                "raw": "9",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -434,14 +461,18 @@
                 "start": 808,
                 "end": 809,
                 "value": 9,
-                "raw": "9"
+                "raw": "9",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 811,
                 "end": 813,
                 "value": 19,
-                "raw": "19"
+                "raw": "19",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -493,28 +524,36 @@
                 "start": 857,
                 "end": 859,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 861,
                 "end": 863,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 865,
                 "end": 867,
                 "value": 37,
-                "raw": "37"
+                "raw": "37",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 869,
                 "end": 872,
                 "value": 847,
-                "raw": "847"
+                "raw": "847",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -590,7 +629,9 @@
                       "start": 951,
                       "end": 958,
                       "value": "short",
-                      "raw": "\"short\""
+                      "raw": "\"short\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -612,7 +653,9 @@
                       "start": 970,
                       "end": 979,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -634,7 +677,9 @@
                       "start": 991,
                       "end": 1010,
                       "value": "America/Vancouver",
-                      "raw": "\"America/Vancouver\""
+                      "raw": "\"America/Vancouver\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -782,7 +827,9 @@
             "start": 1180,
             "end": 1204,
             "value": "Instant with dateStyle",
-            "raw": "\"Instant with dateStyle\""
+            "raw": "\"Instant with dateStyle\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -866,7 +913,9 @@
             "start": 1303,
             "end": 1333,
             "value": "PlainDateTime with dateStyle",
-            "raw": "\"PlainDateTime with dateStyle\""
+            "raw": "\"PlainDateTime with dateStyle\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -950,7 +999,9 @@
             "start": 1424,
             "end": 1450,
             "value": "PlainDate with dateStyle",
-            "raw": "\"PlainDate with dateStyle\""
+            "raw": "\"PlainDate with dateStyle\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1034,7 +1085,9 @@
             "start": 1554,
             "end": 1621,
             "value": "PlainYearMonth with dateStyle should not throw but day is omitted",
-            "raw": "\"PlainYearMonth with dateStyle should not throw but day is omitted\""
+            "raw": "\"PlainYearMonth with dateStyle should not throw but day is omitted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1118,7 +1171,9 @@
             "start": 1723,
             "end": 1790,
             "value": "PlainMonthDay with dateStyle should not throw but year is omitted",
-            "raw": "\"PlainMonthDay with dateStyle should not throw but year is omitted\""
+            "raw": "\"PlainMonthDay with dateStyle should not throw but year is omitted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1212,7 +1267,9 @@
             "start": 1878,
             "end": 1922,
             "value": "no overlap between dateStyle and PlainTime",
-            "raw": "\"no overlap between dateStyle and PlainTime\""
+            "raw": "\"no overlap between dateStyle and PlainTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1286,7 +1343,9 @@
                       "start": 1991,
                       "end": 2000,
                       "value": "numeric",
-                      "raw": "\"numeric\""
+                      "raw": "\"numeric\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1308,7 +1367,9 @@
                       "start": 2012,
                       "end": 2021,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1330,7 +1391,9 @@
                       "start": 2033,
                       "end": 2052,
                       "value": "America/Vancouver",
-                      "raw": "\"America/Vancouver\""
+                      "raw": "\"America/Vancouver\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1478,7 +1541,9 @@
             "start": 2202,
             "end": 2221,
             "value": "Instant with year",
-            "raw": "\"Instant with year\""
+            "raw": "\"Instant with year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1562,7 +1627,9 @@
             "start": 2310,
             "end": 2335,
             "value": "PlainDateTime with year",
-            "raw": "\"PlainDateTime with year\""
+            "raw": "\"PlainDateTime with year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1646,7 +1713,9 @@
             "start": 2416,
             "end": 2437,
             "value": "PlainDate with year",
-            "raw": "\"PlainDate with year\""
+            "raw": "\"PlainDate with year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1730,7 +1799,9 @@
             "start": 2528,
             "end": 2554,
             "value": "PlainYearMonth with year",
-            "raw": "\"PlainYearMonth with year\""
+            "raw": "\"PlainYearMonth with year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1824,7 +1895,9 @@
             "start": 2645,
             "end": 2688,
             "value": "no overlap between year and PlainMonthDay",
-            "raw": "\"no overlap between year and PlainMonthDay\""
+            "raw": "\"no overlap between year and PlainMonthDay\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1918,7 +1991,9 @@
             "start": 2771,
             "end": 2810,
             "value": "no overlap between year and PlainTime",
-            "raw": "\"no overlap between year and PlainTime\""
+            "raw": "\"no overlap between year and PlainTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1992,7 +2067,9 @@
                       "start": 2877,
                       "end": 2886,
                       "value": "2-digit",
-                      "raw": "\"2-digit\""
+                      "raw": "\"2-digit\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2014,7 +2091,9 @@
                       "start": 2898,
                       "end": 2907,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2036,7 +2115,9 @@
                       "start": 2919,
                       "end": 2938,
                       "value": "America/Vancouver",
-                      "raw": "\"America/Vancouver\""
+                      "raw": "\"America/Vancouver\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2184,7 +2265,9 @@
             "start": 3084,
             "end": 3102,
             "value": "Instant with day",
-            "raw": "\"Instant with day\""
+            "raw": "\"Instant with day\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2268,7 +2351,9 @@
             "start": 3189,
             "end": 3213,
             "value": "PlainDateTime with day",
-            "raw": "\"PlainDateTime with day\""
+            "raw": "\"PlainDateTime with day\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2352,7 +2437,9 @@
             "start": 3292,
             "end": 3312,
             "value": "PlainDate with day",
-            "raw": "\"PlainDate with day\""
+            "raw": "\"PlainDate with day\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2446,7 +2533,9 @@
             "start": 3404,
             "end": 3447,
             "value": "no overlap between day and PlainYearMonth",
-            "raw": "\"no overlap between day and PlainYearMonth\""
+            "raw": "\"no overlap between day and PlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2530,7 +2619,9 @@
             "start": 3534,
             "end": 3558,
             "value": "PlainMonthDay with day",
-            "raw": "\"PlainMonthDay with day\""
+            "raw": "\"PlainMonthDay with day\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2624,7 +2715,9 @@
             "start": 3640,
             "end": 3678,
             "value": "no overlap between day and PlainTime",
-            "raw": "\"no overlap between day and PlainTime\""
+            "raw": "\"no overlap between day and PlainTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2698,7 +2791,9 @@
                       "start": 3757,
                       "end": 3763,
                       "value": "long",
-                      "raw": "\"long\""
+                      "raw": "\"long\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2720,7 +2815,9 @@
                       "start": 3775,
                       "end": 3784,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2742,7 +2839,9 @@
                       "start": 3796,
                       "end": 3815,
                       "value": "America/Vancouver",
-                      "raw": "\"America/Vancouver\""
+                      "raw": "\"America/Vancouver\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2890,7 +2989,9 @@
             "start": 3985,
             "end": 4009,
             "value": "Instant with timeStyle",
-            "raw": "\"Instant with timeStyle\""
+            "raw": "\"Instant with timeStyle\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2999,7 +3100,9 @@
             "start": 4178,
             "end": 4250,
             "value": "PlainDateTime with timeStyle should not throw but time zone is omitted",
-            "raw": "\"PlainDateTime with timeStyle should not throw but time zone is omitted\""
+            "raw": "\"PlainDateTime with timeStyle should not throw but time zone is omitted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3093,7 +3196,9 @@
             "start": 4338,
             "end": 4382,
             "value": "no overlap between PlainDate and timeStyle",
-            "raw": "\"no overlap between PlainDate and timeStyle\""
+            "raw": "\"no overlap between PlainDate and timeStyle\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3187,7 +3292,9 @@
             "start": 4480,
             "end": 4529,
             "value": "no overlap between PlainYearMonth and timeStyle",
-            "raw": "\"no overlap between PlainYearMonth and timeStyle\""
+            "raw": "\"no overlap between PlainYearMonth and timeStyle\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3281,7 +3388,9 @@
             "start": 4625,
             "end": 4673,
             "value": "no overlap between PlainMonthDay and timeStyle",
-            "raw": "\"no overlap between PlainMonthDay and timeStyle\""
+            "raw": "\"no overlap between PlainMonthDay and timeStyle\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3365,7 +3474,9 @@
             "start": 4777,
             "end": 4839,
             "value": "PlainTime with timeStyle should be the same as PlainDateTime",
-            "raw": "\"PlainTime with timeStyle should be the same as PlainDateTime\""
+            "raw": "\"PlainTime with timeStyle should be the same as PlainDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3439,7 +3550,9 @@
                       "start": 4908,
                       "end": 4917,
                       "value": "2-digit",
-                      "raw": "\"2-digit\""
+                      "raw": "\"2-digit\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -3461,7 +3574,9 @@
                       "start": 4929,
                       "end": 4938,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -3483,7 +3598,9 @@
                       "start": 4950,
                       "end": 4969,
                       "value": "America/Vancouver",
-                      "raw": "\"America/Vancouver\""
+                      "raw": "\"America/Vancouver\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -3631,7 +3748,9 @@
             "start": 5119,
             "end": 5138,
             "value": "Instant with hour",
-            "raw": "\"Instant with hour\""
+            "raw": "\"Instant with hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3715,7 +3834,9 @@
             "start": 5227,
             "end": 5252,
             "value": "PlainDateTime with hour",
-            "raw": "\"PlainDateTime with hour\""
+            "raw": "\"PlainDateTime with hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3809,7 +3930,9 @@
             "start": 5335,
             "end": 5374,
             "value": "no overlap between PlainDate and hour",
-            "raw": "\"no overlap between PlainDate and hour\""
+            "raw": "\"no overlap between PlainDate and hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3903,7 +4026,9 @@
             "start": 5467,
             "end": 5511,
             "value": "no overlap between PlainYearMonth and hour",
-            "raw": "\"no overlap between PlainYearMonth and hour\""
+            "raw": "\"no overlap between PlainYearMonth and hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3997,7 +4122,9 @@
             "start": 5602,
             "end": 5645,
             "value": "no overlap between PlainMonthDay and hour",
-            "raw": "\"no overlap between PlainMonthDay and hour\""
+            "raw": "\"no overlap between PlainMonthDay and hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4081,7 +4208,9 @@
             "start": 5726,
             "end": 5747,
             "value": "PlainTime with hour",
-            "raw": "\"PlainTime with hour\""
+            "raw": "\"PlainTime with hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4155,7 +4284,9 @@
                       "start": 5818,
                       "end": 5827,
                       "value": "2-digit",
-                      "raw": "\"2-digit\""
+                      "raw": "\"2-digit\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -4177,7 +4308,9 @@
                       "start": 5839,
                       "end": 5848,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -4199,7 +4332,9 @@
                       "start": 5860,
                       "end": 5879,
                       "value": "America/Vancouver",
-                      "raw": "\"America/Vancouver\""
+                      "raw": "\"America/Vancouver\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -4337,7 +4472,9 @@
                       "start": 6027,
                       "end": 6036,
                       "value": "2-digit",
-                      "raw": "\"2-digit\""
+                      "raw": "\"2-digit\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -4359,7 +4496,9 @@
                       "start": 6044,
                       "end": 6053,
                       "value": "2-digit",
-                      "raw": "\"2-digit\""
+                      "raw": "\"2-digit\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -4381,7 +4520,9 @@
                       "start": 6065,
                       "end": 6074,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -4403,7 +4544,9 @@
                       "start": 6086,
                       "end": 6105,
                       "value": "America/Vancouver",
-                      "raw": "\"America/Vancouver\""
+                      "raw": "\"America/Vancouver\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -4551,7 +4694,9 @@
             "start": 6275,
             "end": 6300,
             "value": "Instant with month+hour",
-            "raw": "\"Instant with month+hour\""
+            "raw": "\"Instant with month+hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4635,7 +4780,9 @@
             "start": 6399,
             "end": 6430,
             "value": "PlainDateTime with month+hour",
-            "raw": "\"PlainDateTime with month+hour\""
+            "raw": "\"PlainDateTime with month+hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4719,7 +4866,9 @@
             "start": 6517,
             "end": 6570,
             "value": "PlainDate with month+hour behaves the same as month",
-            "raw": "\"PlainDate with month+hour behaves the same as month\""
+            "raw": "\"PlainDate with month+hour behaves the same as month\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4803,7 +4952,9 @@
             "start": 6667,
             "end": 6725,
             "value": "PlainYearMonth with month+hour behaves the same as month",
-            "raw": "\"PlainYearMonth with month+hour behaves the same as month\""
+            "raw": "\"PlainYearMonth with month+hour behaves the same as month\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4887,7 +5038,9 @@
             "start": 6820,
             "end": 6877,
             "value": "PlainMonthDay with month+hour behaves the same as month",
-            "raw": "\"PlainMonthDay with month+hour behaves the same as month\""
+            "raw": "\"PlainMonthDay with month+hour behaves the same as month\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4971,7 +5124,9 @@
             "start": 6963,
             "end": 7015,
             "value": "PlainTime with month+hour behaves the same as hour",
-            "raw": "\"PlainTime with month+hour behaves the same as hour\""
+            "raw": "\"PlainTime with month+hour behaves the same as hour\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

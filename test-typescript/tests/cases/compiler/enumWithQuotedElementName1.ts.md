@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 12,
               "end": 18,
               "raw": "'fo\"o'",
-              "value": "fo\"o"
+              "value": "fo\"o",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           }

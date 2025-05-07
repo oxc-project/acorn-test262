@@ -1069,7 +1069,9 @@ __ESTREE_TEST__:PASS:
                   "start": 676,
                   "end": 680,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -1478,7 +1480,9 @@ __ESTREE_TEST__:PASS:
                 "start": 834,
                 "end": 838,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

@@ -25,7 +25,9 @@
         "start": 2655,
         "end": 2698,
         "value": "./module-import-rejection-tick_FIXTURE.js",
-        "raw": "'./module-import-rejection-tick_FIXTURE.js'"
+        "raw": "'./module-import-rejection-tick_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -49,7 +51,9 @@
             "start": 2724,
             "end": 2752,
             "value": "this should be unreachable",
-            "raw": "'this should be unreachable'"
+            "raw": "'this should be unreachable'",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

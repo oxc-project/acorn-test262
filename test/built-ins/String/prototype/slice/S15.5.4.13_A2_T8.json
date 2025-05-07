@@ -34,7 +34,9 @@
                 "start": 327,
                 "end": 352,
                 "value": "this is a string object",
-                "raw": "\"this is a string object\""
+                "raw": "\"this is a string object\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -103,7 +105,9 @@
                 "start": 482,
                 "end": 483,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -111,7 +115,9 @@
               "start": 485,
               "end": 486,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -122,7 +128,9 @@
           "start": 492,
           "end": 494,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -154,7 +162,9 @@
                     "start": 523,
                     "end": 632,
                     "value": "#1: __string = new String(\"this is a string object\"); __string.slice(__string.length+1, 0) === \"\". Actual: ",
-                    "raw": "'#1: __string = new String(\"this is a string object\"); __string.slice(__string.length+1, 0) === \"\". Actual: '"
+                    "raw": "'#1: __string = new String(\"this is a string object\"); __string.slice(__string.length+1, 0) === \"\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -210,7 +220,9 @@
                           "start": 668,
                           "end": 669,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -218,7 +230,9 @@
                         "start": 671,
                         "end": 672,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -97,7 +97,9 @@ __ESTREE_TEST__:PASS:
         "start": 30,
         "end": 42,
         "raw": "'./services'",
-        "value": "./services"
+        "value": "./services",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

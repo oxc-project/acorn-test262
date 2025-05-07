@@ -48,6 +48,7 @@
                 "end": 354,
                 "value": null,
                 "raw": "56_789_999_999n",
+                "regex": null,
                 "bigint": "56789999999"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 356,
                 "end": 361,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,14 +96,18 @@
                     "start": 383,
                     "end": 391,
                     "value": "minute",
-                    "raw": "\"minute\""
+                    "raw": "\"minute\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 393,
                     "end": 422,
                     "value": "1970-01-01T00:00+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -114,14 +121,18 @@
                     "start": 428,
                     "end": 436,
                     "value": "second",
-                    "raw": "\"second\""
+                    "raw": "\"second\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 438,
                     "end": 470,
                     "value": "1970-01-01T00:00:56+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00:56+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00:56+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -135,14 +146,18 @@
                     "start": 476,
                     "end": 489,
                     "value": "millisecond",
-                    "raw": "\"millisecond\""
+                    "raw": "\"millisecond\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 491,
                     "end": 527,
                     "value": "1970-01-01T00:00:56.789+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00:56.789+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00:56.789+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -156,14 +171,18 @@
                     "start": 533,
                     "end": 546,
                     "value": "microsecond",
-                    "raw": "\"microsecond\""
+                    "raw": "\"microsecond\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 548,
                     "end": 587,
                     "value": "1970-01-01T00:00:56.789999+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00:56.789999+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00:56.789999+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -177,14 +196,18 @@
                     "start": 593,
                     "end": 605,
                     "value": "nanosecond",
-                    "raw": "\"nanosecond\""
+                    "raw": "\"nanosecond\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 607,
                     "end": 649,
                     "value": "1970-01-01T00:00:56.789999999+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00:56.789999999+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00:56.789999999+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -326,7 +349,9 @@
                             "start": 787,
                             "end": 788,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -511,7 +536,9 @@
                         "start": 973,
                         "end": 979,
                         "value": "hour",
-                        "raw": "\"hour\""
+                        "raw": "\"hour\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -533,7 +560,9 @@
                         "start": 1007,
                         "end": 1008,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -548,7 +577,9 @@
             "start": 1014,
             "end": 1090,
             "value": "hour is an invalid smallestUnit but still overrides fractionalSecondDigits",
-            "raw": "\"hour is an invalid smallestUnit but still overrides fractionalSecondDigits\""
+            "raw": "\"hour is an invalid smallestUnit but still overrides fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

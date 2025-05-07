@@ -146,7 +146,9 @@ __ESTREE_TEST__:PASS:
                               "start": 66,
                               "end": 83,
                               "raw": "\"not implemented\"",
-                              "value": "not implemented"
+                              "value": "not implemented",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {

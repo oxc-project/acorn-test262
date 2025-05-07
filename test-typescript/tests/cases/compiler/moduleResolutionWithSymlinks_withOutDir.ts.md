@@ -99,7 +99,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 33,
         "raw": "\"library-a\"",
-        "value": "library-a"
+        "value": "library-a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -186,7 +188,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 37,
         "raw": "\"./library-a\"",
-        "value": "./library-a"
+        "value": "./library-a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -226,7 +230,9 @@ __ESTREE_TEST__:PASS:
         "start": 64,
         "end": 77,
         "raw": "\"./library-b\"",
-        "value": "./library-b"
+        "value": "./library-b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

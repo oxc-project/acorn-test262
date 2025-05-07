@@ -36,7 +36,9 @@
                     "start": 361,
                     "end": 365,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -63,7 +65,9 @@
                   "start": 393,
                   "end": 436,
                   "value": "#1: new new Boolean(true) throw TypeError",
-                  "raw": "'#1: new new Boolean(true) throw TypeError'"
+                  "raw": "'#1: new new Boolean(true) throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -122,7 +126,9 @@
                   "start": 489,
                   "end": 493,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -150,7 +156,9 @@
                           "start": 524,
                           "end": 567,
                           "value": "#1: new new Boolean(true) throw TypeError",
-                          "raw": "'#1: new new Boolean(true) throw TypeError'"
+                          "raw": "'#1: new new Boolean(true) throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -204,7 +212,9 @@
                       "start": 616,
                       "end": 620,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -249,7 +259,9 @@
                   "start": 657,
                   "end": 711,
                   "value": "#2: var x = new Boolean(true); new x throw TypeError",
-                  "raw": "'#2: var x = new Boolean(true); new x throw TypeError'"
+                  "raw": "'#2: var x = new Boolean(true); new x throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -308,7 +320,9 @@
                   "start": 764,
                   "end": 768,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -336,7 +350,9 @@
                           "start": 799,
                           "end": 853,
                           "value": "#2: var x = new Boolean(true); new x throw TypeError",
-                          "raw": "'#2: var x = new Boolean(true); new x throw TypeError'"
+                          "raw": "'#2: var x = new Boolean(true); new x throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -390,7 +406,9 @@
                       "start": 902,
                       "end": 906,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -435,7 +453,9 @@
                   "start": 945,
                   "end": 1001,
                   "value": "#3: var x = new Boolean(true); new x() throw TypeError",
-                  "raw": "'#3: var x = new Boolean(true); new x() throw TypeError'"
+                  "raw": "'#3: var x = new Boolean(true); new x() throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -494,7 +514,9 @@
                   "start": 1055,
                   "end": 1059,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -522,7 +544,9 @@
                           "start": 1090,
                           "end": 1146,
                           "value": "#3: var x = new Boolean(true); new x() throw TypeError",
-                          "raw": "'#3: var x = new Boolean(true); new x() throw TypeError'"
+                          "raw": "'#3: var x = new Boolean(true); new x() throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

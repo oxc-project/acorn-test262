@@ -47,70 +47,90 @@
                 "start": 1003,
                 "end": 1004,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1006,
                 "end": 1007,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1009,
                 "end": 1010,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1012,
                 "end": 1013,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1015,
                 "end": 1016,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1018,
                 "end": 1019,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1021,
                 "end": 1022,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1024,
                 "end": 1027,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1029,
                 "end": 1032,
                 "value": 650,
-                "raw": "650"
+                "raw": "650",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1034,
                 "end": 1035,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -208,7 +228,9 @@
                         "start": 1115,
                         "end": 1119,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -223,7 +245,9 @@
             "start": 1126,
             "end": 1228,
             "value": "null is not a number and converts to the string 'null' which is not valid for fractionalSecondDigits",
-            "raw": "\"null is not a number and converts to the string 'null' which is not valid for fractionalSecondDigits\""
+            "raw": "\"null is not a number and converts to the string 'null' which is not valid for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +343,9 @@
                         "start": 1307,
                         "end": 1311,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -334,7 +360,9 @@
             "start": 1318,
             "end": 1420,
             "value": "true is not a number and converts to the string 'true' which is not valid for fractionalSecondDigits",
-            "raw": "\"true is not a number and converts to the string 'true' which is not valid for fractionalSecondDigits\""
+            "raw": "\"true is not a number and converts to the string 'true' which is not valid for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +458,9 @@
                         "start": 1499,
                         "end": 1504,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -445,7 +475,9 @@
             "start": 1511,
             "end": 1615,
             "value": "false is not a number and converts to the string 'false' which is not valid for fractionalSecondDigits",
-            "raw": "\"false is not a number and converts to the string 'false' which is not valid for fractionalSecondDigits\""
+            "raw": "\"false is not a number and converts to the string 'false' which is not valid for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -562,7 +594,9 @@
             "start": 1708,
             "end": 1763,
             "value": "symbols are not numbers and cannot convert to strings",
-            "raw": "\"symbols are not numbers and cannot convert to strings\""
+            "raw": "\"symbols are not numbers and cannot convert to strings\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -659,6 +693,7 @@
                         "end": 1844,
                         "value": null,
                         "raw": "2n",
+                        "regex": null,
                         "bigint": "2"
                       },
                       "kind": "init"
@@ -674,7 +709,9 @@
             "start": 1851,
             "end": 1946,
             "value": "bigints are not numbers and convert to strings which are not valid for fractionalSecondDigits",
-            "raw": "\"bigints are not numbers and convert to strings which are not valid for fractionalSecondDigits\""
+            "raw": "\"bigints are not numbers and convert to strings which are not valid for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -784,7 +821,9 @@
             "start": 2034,
             "end": 2135,
             "value": "plain objects are not numbers and convert to strings which are not valid for fractionalSecondDigits",
-            "raw": "\"plain objects are not numbers and convert to strings which are not valid for fractionalSecondDigits\""
+            "raw": "\"plain objects are not numbers and convert to strings which are not valid for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -815,14 +854,18 @@
                 "start": 2160,
                 "end": 2197,
                 "value": "get fractionalSecondDigits.toString",
-                "raw": "\"get fractionalSecondDigits.toString\""
+                "raw": "\"get fractionalSecondDigits.toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2201,
                 "end": 2239,
                 "value": "call fractionalSecondDigits.toString",
-                "raw": "\"call fractionalSecondDigits.toString\""
+                "raw": "\"call fractionalSecondDigits.toString\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -905,14 +948,18 @@
                 "start": 2324,
                 "end": 2330,
                 "value": "auto",
-                "raw": "\"auto\""
+                "raw": "\"auto\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2332,
                 "end": 2356,
                 "value": "fractionalSecondDigits",
-                "raw": "\"fractionalSecondDigits\""
+                "raw": "\"fractionalSecondDigits\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1034,14 +1081,18 @@
             "start": 2456,
             "end": 2480,
             "value": "P1Y2M3W4DT5H6M7.98765S",
-            "raw": "\"P1Y2M3W4DT5H6M7.98765S\""
+            "raw": "\"P1Y2M3W4DT5H6M7.98765S\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2482,
             "end": 2531,
             "value": "object with toString uses toString return value",
-            "raw": "\"object with toString uses toString return value\""
+            "raw": "\"object with toString uses toString return value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1092,7 +1143,9 @@
             "start": 2572,
             "end": 2625,
             "value": "object with toString calls toString and not valueOf",
-            "raw": "\"object with toString calls toString and not valueOf\""
+            "raw": "\"object with toString calls toString and not valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

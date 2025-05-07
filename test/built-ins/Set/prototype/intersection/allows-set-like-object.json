@@ -39,14 +39,18 @@
                     "start": 524,
                     "end": 525,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 527,
                     "end": 528,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -94,7 +98,9 @@
                   "start": 553,
                   "end": 554,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -152,7 +158,9 @@
                             "start": 586,
                             "end": 587,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -164,7 +172,9 @@
                             "start": 596,
                             "end": 601,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "alternate": null
@@ -189,7 +199,9 @@
                             "start": 617,
                             "end": 618,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -201,7 +213,9 @@
                             "start": 627,
                             "end": 631,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "alternate": null
@@ -226,7 +240,9 @@
                               "start": 660,
                               "end": 753,
                               "value": "Set.prototype.intersection should only call its argument's has method with contents of this",
-                              "raw": "\"Set.prototype.intersection should only call its argument's has method with contents of this\""
+                              "raw": "\"Set.prototype.intersection should only call its argument's has method with contents of this\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -288,7 +304,9 @@
                               "start": 815,
                               "end": 914,
                               "value": "Set.prototype.intersection should not call its argument's keys iterator when this.size ≤ arg.size",
-                              "raw": "\"Set.prototype.intersection should not call its argument's keys iterator when this.size ≤ arg.size\""
+                              "raw": "\"Set.prototype.intersection should not call its argument's keys iterator when this.size ≤ arg.size\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -329,7 +347,9 @@
                 "start": 943,
                 "end": 944,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -496,14 +516,18 @@
             "start": 1074,
             "end": 1078,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1110,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

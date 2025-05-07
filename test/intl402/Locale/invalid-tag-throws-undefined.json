@@ -62,7 +62,9 @@
             "start": 432,
             "end": 442,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -154,7 +156,9 @@
             "start": 508,
             "end": 541,
             "value": "(empty) is an invalid tag value",
-            "raw": "\"(empty) is an invalid tag value\""
+            "raw": "\"(empty) is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -253,7 +257,9 @@
             "start": 615,
             "end": 650,
             "value": "undefined is an invalid tag value",
-            "raw": "\"undefined is an invalid tag value\""
+            "raw": "\"undefined is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -50,7 +50,9 @@
                       "start": 3948,
                       "end": 3974,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -83,7 +85,9 @@
                     "start": 3989,
                     "end": 3997,
                     "value": "local1",
-                    "raw": "'local1'"
+                    "raw": "'local1'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -98,7 +102,9 @@
                   "start": 4005,
                   "end": 4017,
                   "value": "in: local1",
-                  "raw": "'in: local1'"
+                  "raw": "'in: local1'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -154,7 +160,9 @@
                       "start": 4047,
                       "end": 4055,
                       "value": "local1",
-                      "raw": "'local1'"
+                      "raw": "'local1'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -164,7 +172,9 @@
                   "start": 4058,
                   "end": 4079,
                   "value": "Reflect.has: local1",
-                  "raw": "'Reflect.has: local1'"
+                  "raw": "'Reflect.has: local1'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -194,7 +204,9 @@
                     "start": 4094,
                     "end": 4103,
                     "value": "renamed",
-                    "raw": "'renamed'"
+                    "raw": "'renamed'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -209,7 +221,9 @@
                   "start": 4111,
                   "end": 4124,
                   "value": "in: renamed",
-                  "raw": "'in: renamed'"
+                  "raw": "'in: renamed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -265,7 +279,9 @@
                       "start": 4154,
                       "end": 4163,
                       "value": "renamed",
-                      "raw": "'renamed'"
+                      "raw": "'renamed'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -275,7 +291,9 @@
                   "start": 4166,
                   "end": 4188,
                   "value": "Reflect.has: renamed",
-                  "raw": "'Reflect.has: renamed'"
+                  "raw": "'Reflect.has: renamed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -305,7 +323,9 @@
                     "start": 4203,
                     "end": 4213,
                     "value": "indirect",
-                    "raw": "'indirect'"
+                    "raw": "'indirect'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -320,7 +340,9 @@
                   "start": 4221,
                   "end": 4235,
                   "value": "in: indirect",
-                  "raw": "'in: indirect'"
+                  "raw": "'in: indirect'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -376,7 +398,9 @@
                       "start": 4265,
                       "end": 4275,
                       "value": "indirect",
-                      "raw": "'indirect'"
+                      "raw": "'indirect'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -386,7 +410,9 @@
                   "start": 4278,
                   "end": 4301,
                   "value": "Reflect.has: indirect",
-                  "raw": "'Reflect.has: indirect'"
+                  "raw": "'Reflect.has: indirect'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -416,7 +442,9 @@
                     "start": 4316,
                     "end": 4325,
                     "value": "default",
-                    "raw": "'default'"
+                    "raw": "'default'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -431,7 +459,9 @@
                   "start": 4333,
                   "end": 4346,
                   "value": "in: default",
-                  "raw": "'in: default'"
+                  "raw": "'in: default'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -487,7 +517,9 @@
                       "start": 4376,
                       "end": 4385,
                       "value": "default",
-                      "raw": "'default'"
+                      "raw": "'default'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -497,7 +529,9 @@
                   "start": 4388,
                   "end": 4410,
                   "value": "Reflect.has: default",
-                  "raw": "'Reflect.has: default'"
+                  "raw": "'Reflect.has: default'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

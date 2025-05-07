@@ -111,7 +111,9 @@
                             "start": 290,
                             "end": 326,
                             "value": "`Base.prototype.m` is unreachable.",
-                            "raw": "\"`Base.prototype.m` is unreachable.\""
+                            "raw": "\"`Base.prototype.m` is unreachable.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -182,7 +184,9 @@
                       "start": 379,
                       "end": 380,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -257,14 +261,18 @@
             "start": 419,
             "end": 420,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 449,
             "value": "`new C().m()` returns `1`",
-            "raw": "\"`new C().m()` returns `1`\""
+            "raw": "\"`new C().m()` returns `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -75,14 +75,18 @@
             "start": 416,
             "end": 426,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 476,
             "value": "`typeof Map.prototype.forEach` is `function`",
-            "raw": "'`typeof Map.prototype.forEach` is `function`'"
+            "raw": "'`typeof Map.prototype.forEach` is `function`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 511,
             "end": 520,
             "value": "forEach",
-            "raw": "'forEach'"
+            "raw": "'forEach'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 536,
                   "end": 540,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 556,
                   "end": 561,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 579,
                   "end": 583,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -34,7 +34,9 @@
                 "start": 363,
                 "end": 368,
                 "value": "123",
-                "raw": "\"123\""
+                "raw": "\"123\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -66,7 +68,8 @@
             "regex": {
               "pattern": "((1)|(12))((3)|(23))",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -176,7 +179,9 @@
               "start": 474,
               "end": 478,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -184,7 +189,9 @@
             "start": 482,
             "end": 555,
             "value": "__re.test(\"new String(\"123\")\") must return __re.exec(__string) !== null",
-            "raw": "'__re.test(\"new String(\"123\")\") must return __re.exec(__string) !== null'"
+            "raw": "'__re.test(\"new String(\"123\")\") must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

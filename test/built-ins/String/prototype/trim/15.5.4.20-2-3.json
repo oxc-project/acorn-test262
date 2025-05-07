@@ -95,14 +95,18 @@
             "start": 336,
             "end": 341,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 343,
             "end": 376,
             "value": "String.prototype.trim.call(NaN)",
-            "raw": "'String.prototype.trim.call(NaN)'"
+            "raw": "'String.prototype.trim.call(NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

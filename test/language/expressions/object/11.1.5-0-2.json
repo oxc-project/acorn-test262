@@ -23,7 +23,9 @@
             "start": 415,
             "end": 429,
             "value": "First getter",
-            "raw": "\"First getter\""
+            "raw": "\"First getter\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 442,
             "end": 456,
             "value": "First setter",
-            "raw": "\"First setter\""
+            "raw": "\"First setter\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 469,
             "end": 484,
             "value": "Second getter",
-            "raw": "\"Second getter\""
+            "raw": "\"Second getter\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +127,9 @@
             "start": 502,
             "end": 611,
             "value": "o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};",
-            "raw": "\"o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};\""
+            "raw": "\"o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +193,9 @@
             "start": 643,
             "end": 650,
             "value": "o.foo",
-            "raw": "'o.foo'"
+            "raw": "'o.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -224,7 +234,9 @@
           "start": 664,
           "end": 666,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -273,7 +285,9 @@
             "start": 694,
             "end": 698,
             "value": "s2",
-            "raw": "'s2'"
+            "raw": "'s2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +351,9 @@
             "start": 729,
             "end": 736,
             "value": "o.bar",
-            "raw": "'o.bar'"
+            "raw": "'o.bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,7 +392,9 @@
           "start": 750,
           "end": 765,
           "value": "Second setter",
-          "raw": "\"Second setter\""
+          "raw": "\"Second setter\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -432,14 +450,18 @@
             "start": 792,
             "end": 807,
             "value": "Second setter",
-            "raw": "\"Second setter\""
+            "raw": "\"Second setter\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 816,
             "value": "o.bar",
-            "raw": "'o.bar'"
+            "raw": "'o.bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

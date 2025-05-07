@@ -609,7 +609,9 @@ __ESTREE_TEST__:PASS:
                     "start": 764,
                     "end": 766,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -652,7 +654,9 @@ __ESTREE_TEST__:PASS:
                     "start": 827,
                     "end": 829,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -705,7 +709,9 @@ __ESTREE_TEST__:PASS:
                     "start": 907,
                     "end": 909,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -776,7 +782,9 @@ __ESTREE_TEST__:PASS:
                     "start": 988,
                     "end": 990,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -856,7 +864,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1057,
                     "end": 1059,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -918,7 +928,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1141,
                     "end": 1143,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,

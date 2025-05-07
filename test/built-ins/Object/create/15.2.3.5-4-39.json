@@ -79,7 +79,9 @@
                 "start": 376,
                 "end": 378,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -101,7 +103,9 @@
                 "start": 394,
                 "end": 398,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -160,7 +164,9 @@
                 "start": 427,
                 "end": 431,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -182,7 +188,9 @@
                 "start": 447,
                 "end": 451,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -415,7 +423,9 @@
             "start": 613,
             "end": 614,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -566,14 +576,18 @@
                   "start": 713,
                   "end": 718,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 720,
                   "end": 774,
                   "value": "tempArray[index++] !== q && newObj.hasOwnProperty(q)",
-                  "raw": "'tempArray[index++] !== q && newObj.hasOwnProperty(q)'"
+                  "raw": "'tempArray[index++] !== q && newObj.hasOwnProperty(q)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -60,7 +60,9 @@
                 "start": 315,
                 "end": 326,
                 "value": "enumerate",
-                "raw": "\"enumerate\""
+                "raw": "\"enumerate\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,7 +72,9 @@
             "start": 329,
             "end": 334,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

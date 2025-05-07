@@ -65,14 +65,18 @@
                 "start": 523,
                 "end": 524,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 526,
                 "end": 527,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -111,21 +115,27 @@
                 "start": 548,
                 "end": 549,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 551,
                 "end": 552,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 554,
                 "end": 555,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -312,14 +322,18 @@
             "start": 660,
             "end": 676,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 723,
             "value": "arr.getClass() must return \"[object Array]\"",
-            "raw": "'arr.getClass() must return \"[object Array]\"'"
+            "raw": "'arr.getClass() must return \"[object Array]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +382,9 @@
               "start": 747,
               "end": 748,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -378,14 +394,18 @@
             "start": 751,
             "end": 752,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 754,
             "end": 795,
             "value": "The value of arr[0] is expected to be 0",
-            "raw": "'The value of arr[0] is expected to be 0'"
+            "raw": "'The value of arr[0] is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -434,7 +454,9 @@
               "start": 819,
               "end": 820,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -444,14 +466,18 @@
             "start": 823,
             "end": 824,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 867,
             "value": "The value of arr[1] is expected to be 1",
-            "raw": "'The value of arr[1] is expected to be 1'"
+            "raw": "'The value of arr[1] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -500,7 +526,9 @@
               "start": 891,
               "end": 892,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -510,14 +538,18 @@
             "start": 895,
             "end": 896,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 898,
             "end": 939,
             "value": "The value of arr[2] is expected to be 2",
-            "raw": "'The value of arr[2] is expected to be 2'"
+            "raw": "'The value of arr[2] is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -566,7 +598,9 @@
               "start": 963,
               "end": 964,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -576,14 +610,18 @@
             "start": 967,
             "end": 968,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 970,
             "end": 1011,
             "value": "The value of arr[3] is expected to be 3",
-            "raw": "'The value of arr[3] is expected to be 3'"
+            "raw": "'The value of arr[3] is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -632,7 +670,9 @@
               "start": 1035,
               "end": 1036,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -642,14 +682,18 @@
             "start": 1039,
             "end": 1040,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1042,
             "end": 1083,
             "value": "The value of arr[4] is expected to be 4",
-            "raw": "'The value of arr[4] is expected to be 4'"
+            "raw": "'The value of arr[4] is expected to be 4'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -707,14 +751,18 @@
             "start": 1115,
             "end": 1116,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1118,
             "end": 1163,
             "value": "The value of arr.length is expected to be 5",
-            "raw": "'The value of arr.length is expected to be 5'"
+            "raw": "'The value of arr.length is expected to be 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

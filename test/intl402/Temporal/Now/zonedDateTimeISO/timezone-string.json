@@ -60,7 +60,9 @@
                 "start": 282,
                 "end": 303,
                 "value": "America/Los_Angeles",
-                "raw": "\"America/Los_Angeles\""
+                "raw": "\"America/Los_Angeles\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -171,7 +173,9 @@
             "start": 386,
             "end": 395,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +233,9 @@
             "start": 431,
             "end": 452,
             "value": "America/Los_Angeles",
-            "raw": "\"America/Los_Angeles\""
+            "raw": "\"America/Los_Angeles\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

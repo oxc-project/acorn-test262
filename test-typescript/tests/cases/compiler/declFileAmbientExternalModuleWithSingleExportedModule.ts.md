@@ -113,7 +113,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 26,
         "raw": "\"SubModule\"",
-        "value": "SubModule"
+        "value": "SubModule",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -151,7 +153,9 @@ __ESTREE_TEST__:PASS:
           "start": 126,
           "end": 137,
           "raw": "'SubModule'",
-          "value": "SubModule"
+          "value": "SubModule",
+          "regex": null,
+          "bigint": null
         }
       }
     },

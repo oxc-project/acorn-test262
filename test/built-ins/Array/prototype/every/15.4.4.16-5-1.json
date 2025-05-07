@@ -115,7 +115,9 @@
                 "start": 373,
                 "end": 374,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -189,14 +191,18 @@
             "start": 418,
             "end": 422,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 424,
             "end": 447,
             "value": "arr.every(callbackfn)",
-            "raw": "'arr.every(callbackfn)'"
+            "raw": "'arr.every(callbackfn)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

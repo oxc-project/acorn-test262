@@ -36,7 +36,9 @@
             "start": 288,
             "end": 293,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

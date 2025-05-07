@@ -75,7 +75,9 @@
             "start": 378,
             "end": 388,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +103,9 @@
             "start": 415,
             "end": 416,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -181,7 +185,9 @@
                           "start": 481,
                           "end": 482,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -215,7 +221,9 @@
             "start": 500,
             "end": 504,
             "value": "01",
-            "raw": "\"01\""
+            "raw": "\"01\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -287,14 +295,18 @@
             "start": 537,
             "end": 540,
             "value": "1",
-            "raw": "'1'"
+            "raw": "'1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 607,
             "value": "s.at({valueOf() {valueOfCallCount++; return 1;}}) must return 1",
-            "raw": "'s.at({valueOf() {valueOfCallCount++; return 1;}}) must return 1'"
+            "raw": "'s.at({valueOf() {valueOfCallCount++; return 1;}}) must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -339,14 +351,18 @@
             "start": 645,
             "end": 646,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 648,
             "end": 686,
             "value": "The value of `valueOfCallCount` is 1",
-            "raw": "'The value of `valueOfCallCount` is 1'"
+            "raw": "'The value of `valueOfCallCount` is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

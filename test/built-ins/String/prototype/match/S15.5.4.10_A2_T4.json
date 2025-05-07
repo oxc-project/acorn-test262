@@ -28,35 +28,45 @@
                 "start": 282,
                 "end": 286,
                 "value": "12",
-                "raw": "\"12\""
+                "raw": "\"12\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 288,
                 "end": 292,
                 "value": "34",
-                "raw": "\"34\""
+                "raw": "\"34\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 294,
                 "end": 298,
                 "value": "56",
-                "raw": "\"56\""
+                "raw": "\"56\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 304,
                 "value": "78",
-                "raw": "\"78\""
+                "raw": "\"78\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 310,
                 "value": "90",
-                "raw": "\"90\""
+                "raw": "\"90\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -84,7 +94,9 @@
             "start": 329,
             "end": 346,
             "value": "123456abcde7890",
-            "raw": "\"123456abcde7890\""
+            "raw": "\"123456abcde7890\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -135,7 +147,8 @@
                 "regex": {
                   "pattern": "\\d{2}",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -155,7 +168,9 @@
           "start": 478,
           "end": 479,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -187,7 +202,9 @@
                     "start": 508,
                     "end": 591,
                     "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\d{2}/g).length=== 5. Actual: ",
-                    "raw": "'#1: __string = \"123456abcde7890\"; __string.match(/\\\\d{2}/g).length=== 5. Actual: '"
+                    "raw": "'#1: __string = \"123456abcde7890\"; __string.match(/\\\\d{2}/g).length=== 5. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -227,7 +244,8 @@
                           "regex": {
                             "pattern": "\\d{2}",
                             "flags": "g"
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -273,7 +291,9 @@
               "start": 816,
               "end": 817,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -373,7 +393,8 @@
                       "regex": {
                         "pattern": "\\d{2}",
                         "flags": "g"
-                      }
+                      },
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -461,7 +482,9 @@
                                       "start": 933,
                                       "end": 938,
                                       "value": "#2.",
-                                      "raw": "'#2.'"
+                                      "raw": "'#2.'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -477,7 +500,9 @@
                                     "start": 946,
                                     "end": 1048,
                                     "value": ": __matches=[\"12\", \"34\", \"56\", \"78\", \"90\"]; __string = \"123456abcde7890\"; __string.match(/\\d{2}/g)[",
-                                    "raw": "': __matches=[\"12\", \"34\", \"56\", \"78\", \"90\"]; __string = \"123456abcde7890\"; __string.match(/\\\\d{2}/g)['"
+                                    "raw": "': __matches=[\"12\", \"34\", \"56\", \"78\", \"90\"]; __string = \"123456abcde7890\"; __string.match(/\\\\d{2}/g)['",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -494,7 +519,9 @@
                                 "start": 1056,
                                 "end": 1072,
                                 "value": "]===__matches[",
-                                "raw": "']===__matches['"
+                                "raw": "']===__matches['",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -511,7 +538,9 @@
                             "start": 1080,
                             "end": 1093,
                             "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "raw": "']. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -552,7 +581,8 @@
                                 "regex": {
                                   "pattern": "\\d{2}",
                                   "flags": "g"
-                                }
+                                },
+                                "bigint": null
                               }
                             ],
                             "optional": false

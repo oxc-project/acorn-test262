@@ -23,7 +23,9 @@
             "start": 1663,
             "end": 1664,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,21 +121,27 @@
                                 "start": 1727,
                                 "end": 1728,
                                 "value": 4,
-                                "raw": "4"
+                                "raw": "4",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1730,
                                 "end": 1731,
                                 "value": 5,
-                                "raw": "5"
+                                "raw": "5",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1733,
                                 "end": 1734,
                                 "value": 6,
-                                "raw": "6"
+                                "raw": "6",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -180,7 +188,9 @@
                             "start": 1748,
                             "end": 1749,
                             "value": 7,
-                            "raw": "7"
+                            "raw": "7",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -240,7 +250,9 @@
                         "start": 1794,
                         "end": 1795,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -420,7 +432,9 @@
                       "start": 1953,
                       "end": 1954,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -537,14 +551,18 @@
                       "start": 2017,
                       "end": 2018,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2020,
                       "end": 2052,
                       "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "raw": "'iteration occurred as expected'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

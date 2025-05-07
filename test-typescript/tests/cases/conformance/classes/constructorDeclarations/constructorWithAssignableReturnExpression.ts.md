@@ -54,7 +54,9 @@ __ESTREE_TEST__:PASS:
                       "start": 156,
                       "end": 157,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -169,7 +171,9 @@ __ESTREE_TEST__:PASS:
                       "start": 228,
                       "end": 229,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -307,7 +311,9 @@ __ESTREE_TEST__:PASS:
                             "start": 314,
                             "end": 315,
                             "raw": "1",
-                            "value": 1
+                            "value": 1,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -458,7 +464,9 @@ __ESTREE_TEST__:PASS:
                             "start": 391,
                             "end": 392,
                             "raw": "1",
-                            "value": 1
+                            "value": 1,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -638,7 +646,9 @@ __ESTREE_TEST__:PASS:
                               "start": 480,
                               "end": 484,
                               "raw": "null",
-                              "value": null
+                              "value": null,
+                              "regex": null,
+                              "bigint": null
                             },
                             "typeAnnotation": {
                               "type": "TSTypeReference",

@@ -177,7 +177,9 @@
             "start": 1184,
             "end": 1226,
             "value": "NewTarget is built-in Object constructor",
-            "raw": "'NewTarget is built-in Object constructor'"
+            "raw": "'NewTarget is built-in Object constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,7 +239,9 @@
                 "start": 1265,
                 "end": 1269,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -285,7 +289,9 @@
             "start": 1305,
             "end": 1316,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -508,7 +514,9 @@
             "start": 1487,
             "end": 1529,
             "value": "NewTarget is BoundFunction with accessor",
-            "raw": "'NewTarget is BoundFunction with accessor'"
+            "raw": "'NewTarget is BoundFunction with accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -144,7 +144,9 @@
             "start": 329,
             "end": 348,
             "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "raw": "'preCheck !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,14 +218,18 @@
             "start": 394,
             "end": 399,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 401,
             "end": 427,
             "value": "Object.isExtensible(obj)",
-            "raw": "'Object.isExtensible(obj)'"
+            "raw": "'Object.isExtensible(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

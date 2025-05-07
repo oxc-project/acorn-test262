@@ -402,7 +402,9 @@
             "start": 1105,
             "end": 1114,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +462,9 @@
             "start": 1140,
             "end": 1149,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -499,7 +503,9 @@
             "start": 1167,
             "end": 1180,
             "value": "super class",
-            "raw": "'super class'"
+            "raw": "'super class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -557,7 +563,9 @@
             "start": 1206,
             "end": 1219,
             "value": "super class",
-            "raw": "'super class'"
+            "raw": "'super class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -627,7 +635,9 @@
             "start": 1254,
             "end": 1267,
             "value": "super class",
-            "raw": "'super class'"
+            "raw": "'super class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -685,7 +695,9 @@
             "start": 1292,
             "end": 1305,
             "value": "super class",
-            "raw": "'super class'"
+            "raw": "'super class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -791,7 +803,9 @@
                         "start": 1366,
                         "end": 1371,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -805,7 +819,9 @@
             "start": 1377,
             "end": 1413,
             "value": "invalid access of C private method",
-            "raw": "'invalid access of C private method'"
+            "raw": "'invalid access of C private method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

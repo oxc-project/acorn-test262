@@ -47,21 +47,27 @@
                 "start": 825,
                 "end": 829,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 831,
                 "end": 832,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 834,
                 "end": 835,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -157,21 +163,27 @@
                 "start": 916,
                 "end": 917,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 919,
                 "end": 920,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 936,
                 "end": 937,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -214,7 +226,9 @@
                           "start": 964,
                           "end": 965,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "**",
                         "right": {
@@ -222,7 +236,9 @@
                           "start": 969,
                           "end": 971,
                           "value": 53,
-                          "raw": "53"
+                          "raw": "53",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     },
@@ -232,7 +248,9 @@
                       "start": 975,
                       "end": 981,
                       "value": 86400,
-                      "raw": "86_400"
+                      "raw": "86_400",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -373,7 +391,9 @@
             "start": 1074,
             "end": 1127,
             "value": "weeks + days out of range, positive, first argument",
-            "raw": "\"weeks + days out of range, positive, first argument\""
+            "raw": "\"weeks + days out of range, positive, first argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,7 +528,9 @@
             "start": 1219,
             "end": 1273,
             "value": "weeks + days out of range, positive, second argument",
-            "raw": "\"weeks + days out of range, positive, second argument\""
+            "raw": "\"weeks + days out of range, positive, second argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -558,14 +580,18 @@
                 "start": 1319,
                 "end": 1320,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1322,
                 "end": 1323,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -578,7 +604,9 @@
                   "start": 1340,
                   "end": 1341,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -628,7 +656,9 @@
                             "start": 1369,
                             "end": 1370,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "**",
                           "right": {
@@ -636,7 +666,9 @@
                             "start": 1374,
                             "end": 1376,
                             "value": 53,
-                            "raw": "53"
+                            "raw": "53",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -646,7 +678,9 @@
                         "start": 1380,
                         "end": 1386,
                         "value": 86400,
-                        "raw": "86_400"
+                        "raw": "86_400",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -788,7 +822,9 @@
             "start": 1482,
             "end": 1535,
             "value": "weeks + days out of range, negative, first argument",
-            "raw": "\"weeks + days out of range, negative, first argument\""
+            "raw": "\"weeks + days out of range, negative, first argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -923,7 +959,9 @@
             "start": 1630,
             "end": 1684,
             "value": "weeks + days out of range, negative, second argument",
-            "raw": "\"weeks + days out of range, negative, second argument\""
+            "raw": "\"weeks + days out of range, negative, second argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

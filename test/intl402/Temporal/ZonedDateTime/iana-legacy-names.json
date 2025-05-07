@@ -28,56 +28,72 @@
                 "start": 282,
                 "end": 292,
                 "value": "Etc/GMT0",
-                "raw": "\"Etc/GMT0\""
+                "raw": "\"Etc/GMT0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 296,
                 "end": 302,
                 "value": "GMT0",
-                "raw": "\"GMT0\""
+                "raw": "\"GMT0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 313,
                 "value": "GMT-0",
-                "raw": "\"GMT-0\""
+                "raw": "\"GMT-0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 324,
                 "value": "GMT+0",
-                "raw": "\"GMT+0\""
+                "raw": "\"GMT+0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 337,
                 "value": "EST5EDT",
-                "raw": "\"EST5EDT\""
+                "raw": "\"EST5EDT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 351,
                 "value": "CST6CDT",
-                "raw": "\"CST6CDT\""
+                "raw": "\"CST6CDT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 365,
                 "value": "MST7MDT",
-                "raw": "\"MST7MDT\""
+                "raw": "\"MST7MDT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 379,
                 "value": "PST8PDT",
-                "raw": "\"PST8PDT\""
+                "raw": "\"PST8PDT\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -179,6 +195,7 @@
                             "end": 463,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {

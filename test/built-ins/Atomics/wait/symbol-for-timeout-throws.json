@@ -34,7 +34,9 @@
                 "start": 505,
                 "end": 509,
                 "value": 1024,
-                "raw": "1024"
+                "raw": "1024",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -147,7 +149,9 @@
                               "start": 623,
                               "end": 654,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -243,7 +247,9 @@
                               "start": 757,
                               "end": 804,
                               "value": "passing a poisoned object using @@ToPrimitive",
-                              "raw": "'passing a poisoned object using @@ToPrimitive'"
+                              "raw": "'passing a poisoned object using @@ToPrimitive'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -346,14 +352,18 @@
                         "start": 877,
                         "end": 878,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 880,
                         "end": 881,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -459,14 +469,18 @@
                         "start": 968,
                         "end": 969,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 971,
                         "end": 972,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -572,14 +586,18 @@
                         "start": 1060,
                         "end": 1061,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1063,
                         "end": 1064,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -597,7 +615,9 @@
                             "start": 1073,
                             "end": 1078,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -700,14 +720,18 @@
                         "start": 1146,
                         "end": 1147,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1149,
                         "end": 1150,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -725,7 +749,9 @@
                             "start": 1159,
                             "end": 1164,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

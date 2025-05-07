@@ -23,7 +23,9 @@
             "start": 578,
             "end": 583,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -115,7 +117,9 @@
                         "start": 644,
                         "end": 673,
                         "value": "executed = true; new C().#x",
-                        "raw": "\"executed = true; new C().#x\""
+                        "raw": "\"executed = true; new C().#x\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -167,7 +171,9 @@
             "start": 708,
             "end": 713,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

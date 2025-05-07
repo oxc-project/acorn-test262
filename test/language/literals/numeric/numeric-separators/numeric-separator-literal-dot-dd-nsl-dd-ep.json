@@ -36,14 +36,18 @@
             "start": 567,
             "end": 573,
             "value": 1,
-            "raw": ".0_1e2"
+            "raw": ".0_1e2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 580,
             "value": 1,
-            "raw": ".01e2"
+            "raw": ".01e2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

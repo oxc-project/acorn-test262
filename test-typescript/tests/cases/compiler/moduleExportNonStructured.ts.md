@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 44,
         "raw": "\"./exportAny.cjs\"",
-        "value": "./exportAny.cjs"
+        "value": "./exportAny.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 77,
         "end": 98,
         "raw": "\"./exportUnknown.cjs\"",
-        "value": "./exportUnknown.cjs"
+        "value": "./exportUnknown.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -76,7 +80,9 @@ __ESTREE_TEST__:PASS:
         "start": 130,
         "end": 150,
         "raw": "\"./exportSymbol.cjs\"",
-        "value": "./exportSymbol.cjs"
+        "value": "./exportSymbol.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -106,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 189,
         "end": 206,
         "raw": "\"./exportAny.cjs\"",
-        "value": "./exportAny.cjs"
+        "value": "./exportAny.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -136,7 +144,9 @@ __ESTREE_TEST__:PASS:
         "start": 248,
         "end": 269,
         "raw": "\"./exportUnknown.cjs\"",
-        "value": "./exportUnknown.cjs"
+        "value": "./exportUnknown.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -166,7 +176,9 @@ __ESTREE_TEST__:PASS:
         "start": 310,
         "end": 330,
         "raw": "\"./exportSymbol.cjs\"",
-        "value": "./exportSymbol.cjs"
+        "value": "./exportSymbol.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

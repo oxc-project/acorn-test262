@@ -186,7 +186,9 @@
                 "start": 999,
                 "end": 1002,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -196,7 +198,9 @@
             "start": 1007,
             "end": 1056,
             "value": "(A) The generator is installed on the prototype",
-            "raw": "\"(A) The generator is installed on the prototype\""
+            "raw": "\"(A) The generator is installed on the prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -252,7 +256,9 @@
                 "start": 1093,
                 "end": 1098,
                 "value": "get",
-                "raw": "\"get\""
+                "raw": "\"get\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -262,7 +268,9 @@
             "start": 1103,
             "end": 1150,
             "value": "(A) The field is installed on class instances",
-            "raw": "\"(A) The field is installed on class instances\""
+            "raw": "\"(A) The field is installed on class instances\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,7 +333,9 @@
                 "start": 1191,
                 "end": 1194,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -335,7 +345,9 @@
             "start": 1199,
             "end": 1248,
             "value": "(B) The generator is installed on the prototype",
-            "raw": "\"(B) The generator is installed on the prototype\""
+            "raw": "\"(B) The generator is installed on the prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -385,7 +397,9 @@
                 "start": 1279,
                 "end": 1284,
                 "value": "get",
-                "raw": "\"get\""
+                "raw": "\"get\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -395,7 +409,9 @@
             "start": 1289,
             "end": 1326,
             "value": "(B) The field is installed on class",
-            "raw": "\"(B) The field is installed on class\""
+            "raw": "\"(B) The field is installed on class\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

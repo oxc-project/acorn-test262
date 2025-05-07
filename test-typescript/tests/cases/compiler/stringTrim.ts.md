@@ -73,7 +73,9 @@ __ESTREE_TEST__:PASS:
               "start": 31,
               "end": 38,
               "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "property": {
@@ -125,7 +127,9 @@ __ESTREE_TEST__:PASS:
               "start": 60,
               "end": 67,
               "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "property": {
@@ -177,7 +181,9 @@ __ESTREE_TEST__:PASS:
               "start": 91,
               "end": 98,
               "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "property": {
@@ -229,7 +235,9 @@ __ESTREE_TEST__:PASS:
               "start": 121,
               "end": 128,
               "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "property": {

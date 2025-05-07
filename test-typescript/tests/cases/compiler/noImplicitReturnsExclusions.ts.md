@@ -879,7 +879,9 @@ __ESTREE_TEST__:PASS:
                 "start": 873,
                 "end": 875,
                 "raw": "42",
-                "value": 42
+                "value": 42,
+                "regex": null,
+                "bigint": null
               }
             },
             "test": {
@@ -953,7 +955,9 @@ __ESTREE_TEST__:PASS:
                 "start": 935,
                 "end": 937,
                 "raw": "42",
-                "value": 42
+                "value": 42,
+                "regex": null,
+                "bigint": null
               }
             },
             "test": {
@@ -1056,7 +1060,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1026,
                 "end": 1028,
                 "raw": "42",
-                "value": 42
+                "value": 42,
+                "regex": null,
+                "bigint": null
               }
             },
             "test": {
@@ -2159,7 +2165,9 @@ __ESTREE_TEST__:PASS:
             "start": 1718,
             "end": 1752,
             "raw": "\"_references-view.showHistoryItem\"",
-            "value": "_references-view.showHistoryItem"
+            "value": "_references-view.showHistoryItem",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -2195,7 +2203,9 @@ __ESTREE_TEST__:PASS:
                               "start": 1888,
                               "end": 1901,
                               "raw": "\"vscode.open\"",
-                              "value": "vscode.open"
+                              "value": "vscode.open",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "MemberExpression",

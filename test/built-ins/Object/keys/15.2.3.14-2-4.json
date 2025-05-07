@@ -41,7 +41,9 @@
                   "start": 265,
                   "end": 266,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 273,
                   "end": 274,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -191,14 +195,18 @@
             "start": 345,
             "end": 349,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 375,
             "value": "Object.isExtensible(a)",
-            "raw": "'Object.isExtensible(a)'"
+            "raw": "'Object.isExtensible(a)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

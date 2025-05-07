@@ -70,7 +70,9 @@
                       "start": 752,
                       "end": 756,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

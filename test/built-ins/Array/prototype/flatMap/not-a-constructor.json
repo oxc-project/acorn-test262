@@ -82,14 +82,18 @@
             "start": 782,
             "end": 787,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 849,
             "value": "isConstructor(Array.prototype.flatMap) must return false",
-            "raw": "'isConstructor(Array.prototype.flatMap) must return false'"
+            "raw": "'isConstructor(Array.prototype.flatMap) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

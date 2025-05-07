@@ -141,7 +141,9 @@
                         "start": 960,
                         "end": 962,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -155,7 +157,9 @@
             "start": 968,
             "end": 987,
             "value": "this is an Object",
-            "raw": "\"this is an Object\""
+            "raw": "\"this is an Object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +252,9 @@
                         "start": 1049,
                         "end": 1051,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -262,7 +268,9 @@
             "start": 1057,
             "end": 1075,
             "value": "this is an Array",
-            "raw": "\"this is an Array\""
+            "raw": "\"this is an Array\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,7 +307,9 @@
                 "start": 1104,
                 "end": 1105,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -394,7 +404,9 @@
                         "start": 1166,
                         "end": 1168,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -408,7 +420,9 @@
             "start": 1174,
             "end": 1207,
             "value": "this is an ArrayBuffer instance",
-            "raw": "\"this is an ArrayBuffer instance\""
+            "raw": "\"this is an ArrayBuffer instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -456,7 +470,9 @@
                     "start": 1249,
                     "end": 1250,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -465,14 +481,18 @@
                 "start": 1253,
                 "end": 1254,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1256,
                 "end": 1257,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -567,7 +587,9 @@
                         "start": 1318,
                         "end": 1320,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -581,7 +603,9 @@
             "start": 1326,
             "end": 1355,
             "value": "this is a DataView instance",
-            "raw": "\"this is a DataView instance\""
+            "raw": "\"this is a DataView instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

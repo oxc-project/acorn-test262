@@ -28,35 +28,45 @@
                 "start": 382,
                 "end": 386,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 394,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 403,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 413,
                 "value": "test",
-                "raw": "\"test\""
+                "raw": "\"test\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 418,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -77,6 +87,7 @@
                 "end": 444,
                 "value": null,
                 "raw": "123456789n",
+                "regex": null,
                 "bigint": "123456789"
               }
             ]

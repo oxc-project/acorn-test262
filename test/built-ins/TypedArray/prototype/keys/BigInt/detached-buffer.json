@@ -70,7 +70,9 @@
                             "start": 677,
                             "end": 678,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

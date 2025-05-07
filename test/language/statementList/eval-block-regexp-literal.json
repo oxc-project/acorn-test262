@@ -34,7 +34,9 @@
                 "start": 959,
                 "end": 967,
                 "value": "{}/1/;",
-                "raw": "'{}/1/;'"
+                "raw": "'{}/1/;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -179,7 +181,9 @@
             "start": 1069,
             "end": 1071,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +248,9 @@
             "start": 1110,
             "end": 1115,
             "value": "/1/",
-            "raw": "'/1/'"
+            "raw": "'/1/'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

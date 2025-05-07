@@ -59,7 +59,9 @@
                       "start": 404,
                       "end": 405,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -127,7 +129,9 @@
             "start": 440,
             "end": 441,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

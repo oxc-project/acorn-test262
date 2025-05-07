@@ -28,21 +28,27 @@
                 "start": 838,
                 "end": 841,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 843,
                 "end": 846,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 848,
                 "end": 851,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -70,7 +76,9 @@
             "start": 872,
             "end": 873,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -139,7 +147,9 @@
                         "start": 927,
                         "end": 928,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -360,7 +370,9 @@
                   "start": 1157,
                   "end": 1163,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -371,7 +383,9 @@
             "start": 1168,
             "end": 1224,
             "value": "#gen does not appear as an own property on C prototype",
-            "raw": "\"#gen does not appear as an own property on C prototype\""
+            "raw": "\"#gen does not appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -459,7 +473,9 @@
                   "start": 1279,
                   "end": 1285,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -470,7 +486,9 @@
             "start": 1290,
             "end": 1348,
             "value": "#gen does not appear as an own property on C constructor",
-            "raw": "\"#gen does not appear as an own property on C constructor\""
+            "raw": "\"#gen does not appear as an own property on C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -558,7 +576,9 @@
                   "start": 1403,
                   "end": 1409,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -569,7 +589,9 @@
             "start": 1414,
             "end": 1469,
             "value": "#gen does not appear as an own property on C instance",
-            "raw": "\"#gen does not appear as an own property on C instance\""
+            "raw": "\"#gen does not appear as an own property on C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -653,7 +675,9 @@
             "start": 1505,
             "end": 1510,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -856,7 +880,9 @@
                             "start": 1608,
                             "end": 1630,
                             "value": "value is a new array",
-                            "raw": "'value is a new array'"
+                            "raw": "'value is a new array'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -915,7 +941,9 @@
                             "start": 1664,
                             "end": 1697,
                             "value": "value is an Array exotic object",
-                            "raw": "'value is an Array exotic object'"
+                            "raw": "'value is an Array exotic object'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -973,7 +1001,9 @@
                             "start": 1733,
                             "end": 1734,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1022,7 +1052,9 @@
                               "start": 1761,
                               "end": 1762,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -1032,7 +1064,9 @@
                             "start": 1765,
                             "end": 1768,
                             "value": "a",
-                            "raw": "'a'"
+                            "raw": "'a'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1081,7 +1115,9 @@
                               "start": 1796,
                               "end": 1797,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -1091,7 +1127,9 @@
                             "start": 1800,
                             "end": 1803,
                             "value": "b",
-                            "raw": "'b'"
+                            "raw": "'b'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1140,7 +1178,9 @@
                               "start": 1831,
                               "end": 1832,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -1150,7 +1190,9 @@
                             "start": 1835,
                             "end": 1838,
                             "value": "c",
-                            "raw": "'c'"
+                            "raw": "'c'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1195,7 +1237,9 @@
                             "start": 1866,
                             "end": 1871,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1272,7 +1316,9 @@
             "start": 1926,
             "end": 1927,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1373,7 +1419,9 @@
                   "start": 2066,
                   "end": 2072,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1384,7 +1432,9 @@
             "start": 2077,
             "end": 2133,
             "value": "#gen does not appear as an own property on C prototype",
-            "raw": "\"#gen does not appear as an own property on C prototype\""
+            "raw": "\"#gen does not appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1472,7 +1522,9 @@
                   "start": 2188,
                   "end": 2194,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1483,7 +1535,9 @@
             "start": 2199,
             "end": 2257,
             "value": "#gen does not appear as an own property on C constructor",
-            "raw": "\"#gen does not appear as an own property on C constructor\""
+            "raw": "\"#gen does not appear as an own property on C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1571,7 +1625,9 @@
                   "start": 2312,
                   "end": 2318,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1582,7 +1638,9 @@
             "start": 2323,
             "end": 2378,
             "value": "#gen does not appear as an own property on C instance",
-            "raw": "\"#gen does not appear as an own property on C instance\""
+            "raw": "\"#gen does not appear as an own property on C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

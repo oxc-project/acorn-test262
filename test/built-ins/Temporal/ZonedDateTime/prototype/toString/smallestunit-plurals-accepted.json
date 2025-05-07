@@ -48,6 +48,7 @@
                 "end": 390,
                 "value": null,
                 "raw": "1_000_000_000_123_456_789n",
+                "regex": null,
                 "bigint": "1000000000123456789"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 392,
                 "end": 397,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,35 +91,45 @@
                 "start": 423,
                 "end": 431,
                 "value": "minute",
-                "raw": "\"minute\""
+                "raw": "\"minute\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 443,
                 "value": "second",
-                "raw": "\"second\""
+                "raw": "\"second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 447,
                 "end": 460,
                 "value": "millisecond",
-                "raw": "\"millisecond\""
+                "raw": "\"millisecond\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 464,
                 "end": 477,
                 "value": "microsecond",
-                "raw": "\"microsecond\""
+                "raw": "\"microsecond\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 493,
                 "value": "nanosecond",
-                "raw": "\"nanosecond\""
+                "raw": "\"nanosecond\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

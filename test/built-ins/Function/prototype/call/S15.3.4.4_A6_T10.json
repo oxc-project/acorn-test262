@@ -82,14 +82,18 @@
                             "start": 514,
                             "end": 524,
                             "value": "a1,a2,a3",
-                            "raw": "\"a1,a2,a3\""
+                            "raw": "\"a1,a2,a3\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 526,
                             "end": 557,
                             "value": "this.shifted=a1.length+a2+a3;",
-                            "raw": "\"this.shifted=a1.length+a2+a3;\""
+                            "raw": "\"this.shifted=a1.length+a2+a3;\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -121,14 +125,18 @@
                         "start": 580,
                         "end": 582,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 584,
                         "end": 587,
                         "value": "2",
-                        "raw": "\"2\""
+                        "raw": "\"2\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -144,28 +152,36 @@
             "start": 593,
             "end": 595,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 598,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 600,
             "end": 601,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 606,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,7 +230,9 @@
               "start": 631,
               "end": 640,
               "value": "shifted",
-              "raw": "\"shifted\""
+              "raw": "\"shifted\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -224,14 +242,18 @@
             "start": 643,
             "end": 647,
             "value": "42",
-            "raw": "\"42\""
+            "raw": "\"42\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 701,
             "value": "The value of obj[\"shifted\"] is expected to be \"42\"",
-            "raw": "'The value of obj[\"shifted\"] is expected to be \"42\"'"
+            "raw": "'The value of obj[\"shifted\"] is expected to be \"42\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,7 +307,9 @@
                 "start": 737,
                 "end": 746,
                 "value": "shifted",
-                "raw": "\"shifted\""
+                "raw": "\"shifted\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -296,14 +320,18 @@
             "start": 751,
             "end": 762,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 766,
             "end": 835,
             "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 6,
         "raw": "\"hey!\"",
-        "value": "hey!"
+        "value": "hey!",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -28,7 +30,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 21,
         "raw": "\" use strict \"",
-        "value": " use strict "
+        "value": " use strict ",
+        "regex": null,
+        "bigint": null
       }
     },
     {

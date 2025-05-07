@@ -59,7 +59,9 @@ __ESTREE_TEST__:PASS:
             "start": 46,
             "end": 56,
             "raw": "'devtools'",
-            "value": "devtools"
+            "value": "devtools",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -114,7 +116,9 @@ __ESTREE_TEST__:PASS:
                   "start": 83,
                   "end": 87,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

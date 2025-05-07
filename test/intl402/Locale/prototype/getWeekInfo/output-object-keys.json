@@ -55,7 +55,9 @@
                     "start": 949,
                     "end": 953,
                     "value": "en",
-                    "raw": "'en'"
+                    "raw": "'en'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -145,7 +147,9 @@
                             "start": 1035,
                             "end": 1036,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "||",
@@ -165,7 +169,9 @@
                             "start": 1050,
                             "end": 1051,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -186,7 +192,9 @@
                           "start": 1065,
                           "end": 1066,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     },
@@ -207,7 +215,9 @@
                         "start": 1080,
                         "end": 1081,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -228,7 +238,9 @@
                       "start": 1095,
                       "end": 1096,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -249,7 +261,9 @@
                     "start": 1110,
                     "end": 1111,
                     "value": 6,
-                    "raw": "6"
+                    "raw": "6",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -270,7 +284,9 @@
                   "start": 1125,
                   "end": 1126,
                   "value": 7,
-                  "raw": "7"
+                  "raw": "7",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -349,21 +365,27 @@
                 "start": 1177,
                 "end": 1187,
                 "value": "firstDay",
-                "raw": "'firstDay'"
+                "raw": "'firstDay'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1189,
                 "end": 1198,
                 "value": "weekend",
-                "raw": "'weekend'"
+                "raw": "'weekend'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1200,
                 "end": 1213,
                 "value": "minimalDays",
-                "raw": "'minimalDays'"
+                "raw": "'minimalDays'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -397,7 +419,9 @@
             "start": 1241,
             "end": 1251,
             "value": "firstDay",
-            "raw": "'firstDay'"
+            "raw": "'firstDay'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -422,7 +446,9 @@
                   "start": 1267,
                   "end": 1271,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -444,7 +470,9 @@
                   "start": 1287,
                   "end": 1291,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -466,7 +494,9 @@
                   "start": 1309,
                   "end": 1313,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -543,7 +573,9 @@
                           "start": 1372,
                           "end": 1376,
                           "value": "en",
-                          "raw": "'en'"
+                          "raw": "'en'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -576,7 +608,9 @@
             "start": 1405,
             "end": 1470,
             "value": "`firstDay` must be an integer between one and seven (inclusive)",
-            "raw": "'`firstDay` must be an integer between one and seven (inclusive)'"
+            "raw": "'`firstDay` must be an integer between one and seven (inclusive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,7 +642,9 @@
             "start": 1498,
             "end": 1507,
             "value": "weekend",
-            "raw": "'weekend'"
+            "raw": "'weekend'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -633,7 +669,9 @@
                   "start": 1523,
                   "end": 1527,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -655,7 +693,9 @@
                   "start": 1543,
                   "end": 1547,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -677,7 +717,9 @@
                   "start": 1565,
                   "end": 1569,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -751,7 +793,9 @@
                           "start": 1600,
                           "end": 1604,
                           "value": "en",
-                          "raw": "'en'"
+                          "raw": "'en'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -800,7 +844,9 @@
             "start": 1666,
             "end": 1733,
             "value": "`weekend` must include integers between one and seven (inclusive)",
-            "raw": "'`weekend` must include integers between one and seven (inclusive)'"
+            "raw": "'`weekend` must include integers between one and seven (inclusive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -862,7 +908,9 @@
                       "start": 1769,
                       "end": 1773,
                       "value": "en",
-                      "raw": "'en'"
+                      "raw": "'en'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -1026,7 +1074,9 @@
             "start": 1899,
             "end": 1912,
             "value": "minimalDays",
-            "raw": "'minimalDays'"
+            "raw": "'minimalDays'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1051,7 +1101,9 @@
                   "start": 1928,
                   "end": 1932,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1073,7 +1125,9 @@
                   "start": 1948,
                   "end": 1952,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1095,7 +1149,9 @@
                   "start": 1970,
                   "end": 1974,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -1172,7 +1228,9 @@
                           "start": 2033,
                           "end": 2037,
                           "value": "en",
-                          "raw": "'en'"
+                          "raw": "'en'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -1205,7 +1263,9 @@
             "start": 2069,
             "end": 2137,
             "value": "`minimalDays` must be an integer between one and seven (inclusive)",
-            "raw": "'`minimalDays` must be an integer between one and seven (inclusive)'"
+            "raw": "'`minimalDays` must be an integer between one and seven (inclusive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -113,7 +113,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 31,
         "raw": "\"./ThingA\"",
-        "value": "./ThingA"
+        "value": "./ThingA",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -154,7 +156,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 64,
         "raw": "\"./ThingB\"",
-        "value": "./ThingB"
+        "value": "./ThingB",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -206,7 +210,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 34,
         "raw": "\"./Things\"",
-        "value": "./Things"
+        "value": "./Things",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

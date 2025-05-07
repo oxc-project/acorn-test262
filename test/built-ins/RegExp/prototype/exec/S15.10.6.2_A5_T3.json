@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:ab|cd)\\d?",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 487,
             "end": 488,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -121,7 +124,9 @@
                 "start": 517,
                 "end": 526,
                 "value": "aacd22 ",
-                "raw": "\"aacd22 \""
+                "raw": "\"aacd22 \"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -173,7 +178,9 @@
               "start": 558,
               "end": 559,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -183,14 +190,18 @@
             "start": 562,
             "end": 567,
             "value": "cd2",
-            "raw": "\"cd2\""
+            "raw": "\"cd2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 569,
             "end": 621,
             "value": "The value of __executed[0] is expected to be \"cd2\"",
-            "raw": "'The value of __executed[0] is expected to be \"cd2\"'"
+            "raw": "'The value of __executed[0] is expected to be \"cd2\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,14 +259,18 @@
             "start": 657,
             "end": 658,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 660,
             "end": 709,
             "value": "The value of __re.lastIndex is expected to be 5",
-            "raw": "'The value of __re.lastIndex is expected to be 5'"
+            "raw": "'The value of __re.lastIndex is expected to be 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +315,9 @@
             "start": 729,
             "end": 732,
             "value": 100,
-            "raw": "100"
+            "raw": "100",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -349,7 +366,9 @@
               "start": 757,
               "end": 766,
               "value": "aacd22 ",
-              "raw": "\"aacd22 \""
+              "raw": "\"aacd22 \"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -399,7 +418,9 @@
               "start": 798,
               "end": 799,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -409,14 +430,18 @@
             "start": 802,
             "end": 807,
             "value": "cd2",
-            "raw": "\"cd2\""
+            "raw": "\"cd2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 861,
             "value": "The value of __executed[0] is expected to be \"cd2\"",
-            "raw": "'The value of __executed[0] is expected to be \"cd2\"'"
+            "raw": "'The value of __executed[0] is expected to be \"cd2\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -474,14 +499,18 @@
             "start": 897,
             "end": 898,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 900,
             "end": 949,
             "value": "The value of __re.lastIndex is expected to be 5",
-            "raw": "'The value of __re.lastIndex is expected to be 5'"
+            "raw": "'The value of __re.lastIndex is expected to be 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

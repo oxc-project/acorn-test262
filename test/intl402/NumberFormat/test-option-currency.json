@@ -28,35 +28,45 @@
                 "start": 276,
                 "end": 281,
                 "value": "CNY",
-                "raw": "\"CNY\""
+                "raw": "\"CNY\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 283,
                 "end": 288,
                 "value": "USD",
-                "raw": "\"USD\""
+                "raw": "\"USD\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 290,
                 "end": 295,
                 "value": "EUR",
-                "raw": "\"EUR\""
+                "raw": "\"EUR\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 302,
                 "value": "IDR",
-                "raw": "\"IDR\""
+                "raw": "\"IDR\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 304,
                 "end": 309,
                 "value": "jpy",
-                "raw": "\"jpy\""
+                "raw": "\"jpy\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -99,7 +109,9 @@
                               "start": 342,
                               "end": 347,
                               "value": "INR",
-                              "raw": "\"INR\""
+                              "raw": "\"INR\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -140,28 +152,36 @@
                 "start": 374,
                 "end": 377,
                 "value": "$",
-                "raw": "\"$\""
+                "raw": "\"$\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 385,
                 "value": "SFr.",
-                "raw": "\"SFr.\""
+                "raw": "\"SFr.\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 392,
                 "value": "US$",
-                "raw": "\"US$\""
+                "raw": "\"US$\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 398,
                 "value": "ßP",
-                "raw": "\"ßP\""
+                "raw": "\"ßP\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -459,7 +479,9 @@
                                 "start": 709,
                                 "end": 719,
                                 "value": "currency",
-                                "raw": "\"currency\""
+                                "raw": "\"currency\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -654,7 +676,9 @@
                         "start": 874,
                         "end": 924,
                         "value": "Incorrect resolved currency with currency style.",
-                        "raw": "\"Incorrect resolved currency with currency style.\""
+                        "raw": "\"Incorrect resolved currency with currency style.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -868,7 +892,9 @@
                         "start": 1183,
                         "end": 1237,
                         "value": "Incorrect resolved currency with non-currency style.",
-                        "raw": "\"Incorrect resolved currency with non-currency style.\""
+                        "raw": "\"Incorrect resolved currency with non-currency style.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -934,7 +960,9 @@
                                 "start": 1360,
                                 "end": 1371,
                                 "value": "-u-cu-krw",
-                                "raw": "\"-u-cu-krw\""
+                                "raw": "\"-u-cu-krw\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -962,7 +990,9 @@
                                 "start": 1382,
                                 "end": 1392,
                                 "value": "currency",
-                                "raw": "\"currency\""
+                                "raw": "\"currency\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -1157,7 +1187,9 @@
                         "start": 1547,
                         "end": 1608,
                         "value": "Incorrect resolved currency with -u-cu- and currency style.",
-                        "raw": "\"Incorrect resolved currency with -u-cu- and currency style.\""
+                        "raw": "\"Incorrect resolved currency with -u-cu- and currency style.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1223,7 +1255,9 @@
                                 "start": 1668,
                                 "end": 1679,
                                 "value": "-u-cu-krw",
-                                "raw": "\"-u-cu-krw\""
+                                "raw": "\"-u-cu-krw\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -1384,7 +1418,9 @@
                         "start": 1815,
                         "end": 1880,
                         "value": "Incorrect resolved currency with -u-cu- and non-currency style.",
-                        "raw": "\"Incorrect resolved currency with -u-cu- and non-currency style.\""
+                        "raw": "\"Incorrect resolved currency with -u-cu- and non-currency style.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1558,7 +1594,9 @@
                                           "start": 2039,
                                           "end": 2049,
                                           "value": "currency",
-                                          "raw": "\"currency\""
+                                          "raw": "\"currency\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "kind": "init"
                                       },
@@ -1604,7 +1642,9 @@
                             "start": 2077,
                             "end": 2102,
                             "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "raw": "\"Invalid currency value \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1620,7 +1660,9 @@
                           "start": 2113,
                           "end": 2133,
                           "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "raw": "\" was not rejected.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -1763,7 +1805,9 @@
                             "start": 2265,
                             "end": 2290,
                             "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "raw": "\"Invalid currency value \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1779,7 +1823,9 @@
                           "start": 2301,
                           "end": 2321,
                           "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "raw": "\" was not rejected.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -1883,7 +1929,9 @@
                                           "start": 2426,
                                           "end": 2437,
                                           "value": "-u-cu-krw",
-                                          "raw": "\"-u-cu-krw\""
+                                          "raw": "\"-u-cu-krw\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -1911,7 +1959,9 @@
                                           "start": 2448,
                                           "end": 2458,
                                           "value": "currency",
-                                          "raw": "\"currency\""
+                                          "raw": "\"currency\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "kind": "init"
                                       },
@@ -1957,7 +2007,9 @@
                             "start": 2486,
                             "end": 2511,
                             "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "raw": "\"Invalid currency value \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1973,7 +2025,9 @@
                           "start": 2522,
                           "end": 2542,
                           "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "raw": "\" was not rejected.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -2077,7 +2131,9 @@
                                           "start": 2647,
                                           "end": 2658,
                                           "value": "-u-cu-krw",
-                                          "raw": "\"-u-cu-krw\""
+                                          "raw": "\"-u-cu-krw\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -2129,7 +2185,9 @@
                             "start": 2688,
                             "end": 2713,
                             "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "raw": "\"Invalid currency value \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -2145,7 +2203,9 @@
                           "start": 2724,
                           "end": 2744,
                           "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "raw": "\" was not rejected.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

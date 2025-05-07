@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 30,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -64,7 +66,9 @@ __ESTREE_TEST__:PASS:
               "start": 47,
               "end": 48,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -98,7 +102,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 30,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -146,7 +152,9 @@ __ESTREE_TEST__:PASS:
               "start": 47,
               "end": 48,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -226,7 +234,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "'./index'",
-        "value": "./index"
+        "value": "./index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -266,7 +276,9 @@ __ESTREE_TEST__:PASS:
         "start": 46,
         "end": 62,
         "raw": "'../tests/index'",
-        "value": "../tests/index"
+        "value": "../tests/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

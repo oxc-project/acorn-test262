@@ -304,7 +304,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 54,
         "raw": "'./BaseClass'",
-        "value": "./BaseClass"
+        "value": "./BaseClass",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -708,7 +710,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 41,
         "raw": "'./BaseClass'",
-        "value": "./BaseClass"
+        "value": "./BaseClass",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -748,7 +752,9 @@ __ESTREE_TEST__:PASS:
         "start": 67,
         "end": 81,
         "raw": "'./MixinClass'",
-        "value": "./MixinClass"
+        "value": "./MixinClass",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -908,7 +914,9 @@ __ESTREE_TEST__:PASS:
         "start": 32,
         "end": 46,
         "raw": "'./FinalClass'",
-        "value": "./FinalClass"
+        "value": "./FinalClass",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -948,7 +956,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 86,
         "raw": "'./MixinClass'",
-        "value": "./MixinClass"
+        "value": "./MixinClass",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1006,7 +1016,9 @@ __ESTREE_TEST__:PASS:
                 "start": 133,
                 "end": 141,
                 "raw": "'string'",
-                "value": "string"
+                "value": "string",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

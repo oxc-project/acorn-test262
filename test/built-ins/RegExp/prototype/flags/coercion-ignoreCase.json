@@ -70,7 +70,9 @@
                   "start": 426,
                   "end": 433,
                   "value": "flags",
-                  "raw": "\"flags\""
+                  "raw": "\"flags\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -215,14 +217,18 @@
             "start": 510,
             "end": 512,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 537,
             "value": "ignoreCase: undefined",
-            "raw": "\"ignoreCase: undefined\""
+            "raw": "\"ignoreCase: undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -261,7 +267,9 @@
           "start": 556,
           "end": 560,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -331,14 +339,18 @@
             "start": 592,
             "end": 594,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 614,
             "value": "ignoreCase: null",
-            "raw": "\"ignoreCase: null\""
+            "raw": "\"ignoreCase: null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,14 +458,18 @@
             "start": 668,
             "end": 670,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 672,
             "end": 689,
             "value": "ignoreCase: NaN",
-            "raw": "\"ignoreCase: NaN\""
+            "raw": "\"ignoreCase: NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -492,7 +508,9 @@
           "start": 708,
           "end": 710,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -562,14 +580,18 @@
             "start": 742,
             "end": 744,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 746,
             "end": 776,
             "value": "ignoreCase: the empty string",
-            "raw": "\"ignoreCase: the empty string\""
+            "raw": "\"ignoreCase: the empty string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,7 +630,9 @@
           "start": 795,
           "end": 803,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -678,14 +702,18 @@
             "start": 835,
             "end": 838,
             "value": "i",
-            "raw": "\"i\""
+            "raw": "\"i\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 840,
             "end": 860,
             "value": "ignoreCase: string",
-            "raw": "\"ignoreCase: string\""
+            "raw": "\"ignoreCase: string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -724,7 +752,9 @@
           "start": 879,
           "end": 881,
           "value": 86,
-          "raw": "86"
+          "raw": "86",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -794,14 +824,18 @@
             "start": 913,
             "end": 916,
             "value": "i",
-            "raw": "\"i\""
+            "raw": "\"i\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 918,
             "end": 934,
             "value": "ignoreCase: 86",
-            "raw": "\"ignoreCase: 86\""
+            "raw": "\"ignoreCase: 86\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -916,14 +950,18 @@
             "start": 993,
             "end": 996,
             "value": "i",
-            "raw": "\"i\""
+            "raw": "\"i\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 998,
             "end": 1020,
             "value": "ignoreCase: Symbol()",
-            "raw": "\"ignoreCase: Symbol()\""
+            "raw": "\"ignoreCase: Symbol()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1031,14 +1069,18 @@
             "start": 1073,
             "end": 1076,
             "value": "i",
-            "raw": "\"i\""
+            "raw": "\"i\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1078,
             "end": 1094,
             "value": "ignoreCase: []",
-            "raw": "\"ignoreCase: []\""
+            "raw": "\"ignoreCase: []\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1146,14 +1188,18 @@
             "start": 1147,
             "end": 1150,
             "value": "i",
-            "raw": "\"i\""
+            "raw": "\"i\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1152,
             "end": 1168,
             "value": "ignoreCase: {}",
-            "raw": "\"ignoreCase: {}\""
+            "raw": "\"ignoreCase: {}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

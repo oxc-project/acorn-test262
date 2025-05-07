@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 32,
           "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -55,7 +57,9 @@ __ESTREE_TEST__:PASS:
           "start": 63,
           "end": 84,
           "raw": "\"typescript-internal\"",
-          "value": "typescript-internal"
+          "value": "typescript-internal",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -82,7 +86,9 @@ __ESTREE_TEST__:PASS:
           "start": 120,
           "end": 137,
           "raw": "\"tsserverlibrary\"",
-          "value": "tsserverlibrary"
+          "value": "tsserverlibrary",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -109,7 +115,9 @@ __ESTREE_TEST__:PASS:
           "start": 181,
           "end": 207,
           "raw": "\"tsserverlibrary-internal\"",
-          "value": "tsserverlibrary-internal"
+          "value": "tsserverlibrary-internal",
+          "regex": null,
+          "bigint": null
         }
       }
     }

@@ -24,7 +24,8 @@
             "regex": {
               "pattern": "1",
               "flags": ""
-            }
+            },
+            "bigint": null
           },
           "property": {
             "type": "Identifier",
@@ -41,7 +42,9 @@
           "start": 372,
           "end": 375,
           "value": "1",
-          "raw": "\"1\""
+          "raw": "\"1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -69,7 +72,9 @@
                   "start": 404,
                   "end": 413,
                   "value": "#1: /1/",
-                  "raw": "'#1: /1/'"
+                  "raw": "'#1: /1/'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +104,8 @@
             "regex": {
               "pattern": "a",
               "flags": ""
-            }
+            },
+            "bigint": null
           },
           "property": {
             "type": "Identifier",
@@ -116,7 +122,9 @@
           "start": 448,
           "end": 451,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -144,7 +152,9 @@
                   "start": 480,
                   "end": 489,
                   "value": "#2: /a/",
-                  "raw": "'#2: /a/'"
+                  "raw": "'#2: /a/'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -174,7 +184,8 @@
             "regex": {
               "pattern": ";",
               "flags": ""
-            }
+            },
+            "bigint": null
           },
           "property": {
             "type": "Identifier",
@@ -191,7 +202,9 @@
           "start": 524,
           "end": 527,
           "value": ";",
-          "raw": "\";\""
+          "raw": "\";\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -219,7 +232,9 @@
                   "start": 556,
                   "end": 565,
                   "value": "#3: /;/",
-                  "raw": "'#3: /;/'"
+                  "raw": "'#3: /;/'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -249,7 +264,8 @@
             "regex": {
               "pattern": " ",
               "flags": ""
-            }
+            },
+            "bigint": null
           },
           "property": {
             "type": "Identifier",
@@ -266,7 +282,9 @@
           "start": 600,
           "end": 603,
           "value": " ",
-          "raw": "\" \""
+          "raw": "\" \"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -294,7 +312,9 @@
                   "start": 632,
                   "end": 641,
                   "value": "#4: / /",
-                  "raw": "'#4: / /'"
+                  "raw": "'#4: / /'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -324,7 +344,8 @@
             "regex": {
               "pattern": "\\u0041",
               "flags": ""
-            }
+            },
+            "bigint": null
           },
           "property": {
             "type": "Identifier",
@@ -341,7 +362,9 @@
           "start": 681,
           "end": 690,
           "value": "\\u0041",
-          "raw": "\"\\\\u0041\""
+          "raw": "\"\\\\u0041\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -369,7 +392,9 @@
                   "start": 719,
                   "end": 734,
                   "value": "#5: /\\u0041/",
-                  "raw": "'#5: /\\\\u0041/'"
+                  "raw": "'#5: /\\\\u0041/'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

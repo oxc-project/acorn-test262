@@ -68,7 +68,9 @@
                         "start": 333,
                         "end": 338,
                         "value": "abc",
-                        "raw": "'abc'"
+                        "raw": "'abc'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -85,7 +87,9 @@
                         "start": 348,
                         "end": 350,
                         "value": 10,
-                        "raw": "10"
+                        "raw": "10",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",

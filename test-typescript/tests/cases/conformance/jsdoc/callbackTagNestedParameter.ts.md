@@ -53,7 +53,9 @@ __ESTREE_TEST__:PASS:
                         "start": 320,
                         "end": 327,
                         "raw": "\"Empty\"",
-                        "value": "Empty"
+                        "value": "Empty",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

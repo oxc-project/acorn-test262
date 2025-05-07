@@ -23,7 +23,9 @@
             "start": 424,
             "end": 425,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -89,7 +91,9 @@
                             "start": 474,
                             "end": 479,
                             "value": "arg",
-                            "raw": "\"arg\""
+                            "raw": "\"arg\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -186,7 +190,9 @@
                               "start": 525,
                               "end": 528,
                               "value": ",",
-                              "raw": "\",\""
+                              "raw": "\",\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -203,7 +209,9 @@
                           "start": 535,
                           "end": 538,
                           "value": ",",
-                          "raw": "\",\""
+                          "raw": "\",\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "+",
@@ -219,7 +227,9 @@
                       "start": 544,
                       "end": 568,
                       "value": "return arg1+arg2+arg3;",
-                      "raw": "\"return arg1+arg2+arg3;\""
+                      "raw": "\"return arg1+arg2+arg3;\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -265,7 +275,9 @@
                     "start": 610,
                     "end": 627,
                     "value": "#1: test failed",
-                    "raw": "'#1: test failed'"
+                    "raw": "'#1: test failed'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -313,7 +325,9 @@
             "start": 663,
             "end": 736,
             "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -363,14 +377,18 @@
                 "start": 758,
                 "end": 760,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 762,
                 "end": 763,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -386,14 +404,18 @@
             "start": 769,
             "end": 776,
             "value": "1arg4",
-            "raw": "\"1arg4\""
+            "raw": "\"1arg4\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 778,
             "end": 853,
             "value": "f(, 1, {toString: function() {return \"arg\" + (++i)}}) must return \"1arg4\"",
-            "raw": "'f(, 1, {toString: function() {return \"arg\" + (++i)}}) must return \"1arg4\"'"
+            "raw": "'f(, 1, {toString: function() {return \"arg\" + (++i)}}) must return \"1arg4\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

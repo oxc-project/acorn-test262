@@ -44,7 +44,9 @@
                 "start": 591,
                 "end": 594,
                 "value": "_",
-                "raw": "'_'"
+                "raw": "'_'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +63,9 @@
                 "start": 605,
                 "end": 608,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -71,7 +75,9 @@
             "start": 611,
             "end": 637,
             "value": "<font color=\"b\">_</font>",
-            "raw": "'<font color=\"b\">_</font>'"
+            "raw": "'<font color=\"b\">_</font>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -118,7 +124,9 @@
                 "start": 657,
                 "end": 660,
                 "value": "<",
-                "raw": "'<'"
+                "raw": "'<'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -135,7 +143,9 @@
                 "start": 671,
                 "end": 674,
                 "value": "<",
-                "raw": "'<'"
+                "raw": "'<'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -145,7 +155,9 @@
             "start": 677,
             "end": 703,
             "value": "<font color=\"<\"><</font>",
-            "raw": "'<font color=\"<\"><</font>'"
+            "raw": "'<font color=\"<\"><</font>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +204,9 @@
                 "start": 723,
                 "end": 726,
                 "value": "_",
-                "raw": "'_'"
+                "raw": "'_'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -209,7 +223,9 @@
                 "start": 737,
                 "end": 741,
                 "value": 42,
-                "raw": "0x2A"
+                "raw": "0x2A",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -219,7 +235,9 @@
             "start": 744,
             "end": 771,
             "value": "<font color=\"42\">_</font>",
-            "raw": "'<font color=\"42\">_</font>'"
+            "raw": "'<font color=\"42\">_</font>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,7 +284,9 @@
                 "start": 791,
                 "end": 794,
                 "value": "_",
-                "raw": "'_'"
+                "raw": "'_'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -283,7 +303,9 @@
                 "start": 805,
                 "end": 811,
                 "value": "\"",
-                "raw": "'\\x22'"
+                "raw": "'\\x22'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -293,7 +315,9 @@
             "start": 814,
             "end": 845,
             "value": "<font color=\"&quot;\">_</font>",
-            "raw": "'<font color=\"&quot;\">_</font>'"
+            "raw": "'<font color=\"&quot;\">_</font>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,14 +406,18 @@
                 "start": 897,
                 "end": 901,
                 "value": 42,
-                "raw": "0x2A"
+                "raw": "0x2A",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 903,
                 "end": 907,
                 "value": 42,
-                "raw": "0x2A"
+                "raw": "0x2A",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -399,7 +427,9 @@
             "start": 912,
             "end": 940,
             "value": "<font color=\"42\">42</font>",
-            "raw": "'<font color=\"42\">42</font>'"
+            "raw": "'<font color=\"42\">42</font>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -631,7 +661,9 @@
                         "start": 1103,
                         "end": 1107,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

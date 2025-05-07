@@ -86,7 +86,9 @@
                 "start": 286,
                 "end": 290,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -102,7 +104,9 @@
             "start": 308,
             "end": 364,
             "value": "Array.prototype.shift.call(true) must return undefined",
-            "raw": "'Array.prototype.shift.call(true) must return undefined'"
+            "raw": "'Array.prototype.shift.call(true) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +195,9 @@
                 "start": 415,
                 "end": 420,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +213,9 @@
             "start": 438,
             "end": 495,
             "value": "Array.prototype.shift.call(false) must return undefined",
-            "raw": "'Array.prototype.shift.call(false) must return undefined'"
+            "raw": "'Array.prototype.shift.call(false) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

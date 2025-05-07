@@ -103,7 +103,9 @@
                         "start": 450,
                         "end": 455,
                         "value": "2E3",
-                        "raw": "\"2E3\""
+                        "raw": "\"2E3\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -169,14 +171,18 @@
             "start": 494,
             "end": 497,
             "value": 2000,
-            "raw": "2E3"
+            "raw": "2E3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 511,
             "value": "arr.length",
-            "raw": "'arr.length'"
+            "raw": "'arr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

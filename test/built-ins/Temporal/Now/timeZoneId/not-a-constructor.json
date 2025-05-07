@@ -82,14 +82,18 @@
             "start": 632,
             "end": 637,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 697,
             "value": "isConstructor(Temporal.Now.timeZoneId) must return false",
-            "raw": "'isConstructor(Temporal.Now.timeZoneId) must return false'"
+            "raw": "'isConstructor(Temporal.Now.timeZoneId) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +198,9 @@
             "start": 770,
             "end": 830,
             "value": "new Temporal.Now.timeZoneId() throws a TypeError exception",
-            "raw": "'new Temporal.Now.timeZoneId() throws a TypeError exception'"
+            "raw": "'new Temporal.Now.timeZoneId() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

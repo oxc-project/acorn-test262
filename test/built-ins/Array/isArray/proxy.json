@@ -201,14 +201,18 @@
             "start": 780,
             "end": 785,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 839,
             "value": "Array.isArray(new Proxy({}, {})) must return false",
-            "raw": "'Array.isArray(new Proxy({}, {})) must return false'"
+            "raw": "'Array.isArray(new Proxy({}, {})) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,14 +284,18 @@
             "start": 886,
             "end": 890,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 892,
             "end": 943,
             "value": "Array.isArray(new Proxy([], {})) must return true",
-            "raw": "'Array.isArray(new Proxy([], {})) must return true'"
+            "raw": "'Array.isArray(new Proxy([], {})) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +367,18 @@
             "start": 998,
             "end": 1002,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1004,
             "end": 1063,
             "value": "Array.isArray(new Proxy(arrayProxy, {})) must return true",
-            "raw": "'Array.isArray(new Proxy(arrayProxy, {})) must return true'"
+            "raw": "'Array.isArray(new Proxy(arrayProxy, {})) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

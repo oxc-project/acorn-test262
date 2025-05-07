@@ -65,7 +65,9 @@
                   "start": 328,
                   "end": 329,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -81,7 +83,9 @@
                   "start": 334,
                   "end": 335,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -106,7 +110,9 @@
                 "start": 349,
                 "end": 350,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -118,7 +124,9 @@
                 "start": 363,
                 "end": 364,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "alternate": {
@@ -130,7 +138,9 @@
                 "start": 384,
                 "end": 385,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -162,35 +172,45 @@
                 "start": 404,
                 "end": 405,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 408,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 411,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 414,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -302,14 +322,18 @@
             "start": 490,
             "end": 491,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 508,
             "value": "resArr.length",
-            "raw": "'resArr.length'"
+            "raw": "'resArr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -358,7 +382,9 @@
               "start": 535,
               "end": 536,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -368,14 +394,18 @@
             "start": 539,
             "end": 540,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 553,
             "value": "resArr[4]",
-            "raw": "'resArr[4]'"
+            "raw": "'resArr[4]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

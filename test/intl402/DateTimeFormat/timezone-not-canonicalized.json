@@ -41,7 +41,9 @@
                   "start": 330,
                   "end": 336,
                   "value": "long",
-                  "raw": "\"long\""
+                  "raw": "\"long\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 346,
                   "end": 355,
                   "value": "numeric",
-                  "raw": "\"numeric\""
+                  "raw": "\"numeric\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 366,
                   "end": 372,
                   "value": "long",
-                  "raw": "\"long\""
+                  "raw": "\"long\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 381,
                   "end": 390,
                   "value": "numeric",
-                  "raw": "\"numeric\""
+                  "raw": "\"numeric\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -129,7 +137,9 @@
                   "start": 400,
                   "end": 409,
                   "value": "numeric",
-                  "raw": "\"numeric\""
+                  "raw": "\"numeric\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -151,7 +161,9 @@
                   "start": 421,
                   "end": 430,
                   "value": "numeric",
-                  "raw": "\"numeric\""
+                  "raw": "\"numeric\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -205,7 +217,9 @@
                 "start": 471,
                 "end": 475,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -241,7 +255,9 @@
                       "start": 505,
                       "end": 520,
                       "value": "Asia/Calcutta",
-                      "raw": "\"Asia/Calcutta\""
+                      "raw": "\"Asia/Calcutta\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -297,7 +313,9 @@
                 "start": 562,
                 "end": 566,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -333,7 +351,9 @@
                       "start": 596,
                       "end": 610,
                       "value": "Asia/Kolkata",
-                      "raw": "\"Asia/Kolkata\""
+                      "raw": "\"Asia/Kolkata\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -505,7 +525,9 @@
                 "start": 751,
                 "end": 752,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -558,7 +580,9 @@
                 "start": 783,
                 "end": 784,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -650,7 +674,9 @@
             "start": 854,
             "end": 869,
             "value": "Asia/Calcutta",
-            "raw": "\"Asia/Calcutta\""
+            "raw": "\"Asia/Calcutta\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -695,7 +721,9 @@
             "start": 902,
             "end": 916,
             "value": "Asia/Kolkata",
-            "raw": "\"Asia/Kolkata\""
+            "raw": "\"Asia/Kolkata\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

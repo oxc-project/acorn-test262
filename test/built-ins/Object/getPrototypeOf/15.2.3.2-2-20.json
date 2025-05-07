@@ -160,7 +160,9 @@
             "start": 388,
             "end": 416,
             "value": "Object.getPrototypeOf(obj)",
-            "raw": "'Object.getPrototypeOf(obj)'"
+            "raw": "'Object.getPrototypeOf(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

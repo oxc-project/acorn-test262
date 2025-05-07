@@ -62,14 +62,18 @@
             "start": 302,
             "end": 310,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 314,
             "end": 340,
             "value": "`typeof Now` is `object`",
-            "raw": "\"`typeof Now` is `object`\""
+            "raw": "\"`typeof Now` is `object`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +105,9 @@
             "start": 370,
             "end": 375,
             "value": "Now",
-            "raw": "\"Now\""
+            "raw": "\"Now\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -126,7 +132,9 @@
                   "start": 391,
                   "end": 395,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -148,7 +156,9 @@
                   "start": 411,
                   "end": 416,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -170,7 +180,9 @@
                   "start": 434,
                   "end": 438,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

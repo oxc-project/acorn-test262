@@ -41,7 +41,9 @@
                   "start": 382,
                   "end": 383,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -97,7 +99,9 @@
           "start": 420,
           "end": 424,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -145,7 +149,9 @@
                   "start": 452,
                   "end": 453,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -159,7 +165,9 @@
                   "start": 460,
                   "end": 461,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -173,7 +181,9 @@
                   "start": 468,
                   "end": 469,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -187,7 +197,9 @@
                   "start": 476,
                   "end": 477,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -201,7 +213,9 @@
                   "start": 484,
                   "end": 485,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -244,7 +258,9 @@
             "start": 506,
             "end": 602,
             "value": "[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)",
-            "raw": "'[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)'"
+            "raw": "'[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -283,7 +299,9 @@
           "start": 620,
           "end": 624,
           "value": 4000,
-          "raw": "4000"
+          "raw": "4000",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -331,7 +349,9 @@
                 "start": 656,
                 "end": 660,
                 "value": 4000,
-                "raw": "4000"
+                "raw": "4000",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -373,7 +393,9 @@
             "start": 681,
             "end": 752,
             "value": "new Array(4000) must return the same value returned by [].concat(obj)",
-            "raw": "'new Array(4000) must return the same value returned by [].concat(obj)'"
+            "raw": "'new Array(4000) must return the same value returned by [].concat(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -27,7 +27,9 @@
               "start": 353,
               "end": 386,
               "value": "'MAX_VALUE'\tin\tNumber",
-              "raw": "\"'MAX_VALUE'\\u0009in\\u0009Number\""
+              "raw": "\"'MAX_VALUE'\\u0009in\\u0009Number\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 392,
           "end": 396,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 425,
                   "end": 473,
                   "value": "#1: \"MAX_VALUE\"\\u0009in\\u0009Number === true",
-                  "raw": "'#1: \"MAX_VALUE\"\\\\u0009in\\\\u0009Number === true'"
+                  "raw": "'#1: \"MAX_VALUE\"\\\\u0009in\\\\u0009Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 498,
               "end": 531,
               "value": "'MAX_VALUE'\u000bin\u000bNumber",
-              "raw": "\"'MAX_VALUE'\\u000Bin\\u000BNumber\""
+              "raw": "\"'MAX_VALUE'\\u000Bin\\u000BNumber\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 537,
           "end": 541,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 570,
                   "end": 618,
                   "value": "#2: \"MAX_VALUE\"\\u000Bin\\u000BNumber === true",
-                  "raw": "'#2: \"MAX_VALUE\"\\\\u000Bin\\\\u000BNumber === true'"
+                  "raw": "'#2: \"MAX_VALUE\"\\\\u000Bin\\\\u000BNumber === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -171,7 +183,9 @@
               "start": 645,
               "end": 678,
               "value": "'MAX_VALUE'\fin\fNumber",
-              "raw": "\"'MAX_VALUE'\\u000Cin\\u000CNumber\""
+              "raw": "\"'MAX_VALUE'\\u000Cin\\u000CNumber\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -182,7 +196,9 @@
           "start": 684,
           "end": 688,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +226,9 @@
                   "start": 717,
                   "end": 765,
                   "value": "#3: \"MAX_VALUE\"\\u000Cin\\u000CNumber === true",
-                  "raw": "'#3: \"MAX_VALUE\"\\\\u000Cin\\\\u000CNumber === true'"
+                  "raw": "'#3: \"MAX_VALUE\"\\\\u000Cin\\\\u000CNumber === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -243,7 +261,9 @@
               "start": 790,
               "end": 823,
               "value": "'MAX_VALUE' in Number",
-              "raw": "\"'MAX_VALUE'\\u0020in\\u0020Number\""
+              "raw": "\"'MAX_VALUE'\\u0020in\\u0020Number\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -254,7 +274,9 @@
           "start": 829,
           "end": 833,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -282,7 +304,9 @@
                   "start": 862,
                   "end": 910,
                   "value": "#4: \"MAX_VALUE\"\\u0020in\\u0020Number === true",
-                  "raw": "'#4: \"MAX_VALUE\"\\\\u0020in\\\\u0020Number === true'"
+                  "raw": "'#4: \"MAX_VALUE\"\\\\u0020in\\\\u0020Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -315,7 +339,9 @@
               "start": 935,
               "end": 968,
               "value": "'MAX_VALUE' in Number",
-              "raw": "\"'MAX_VALUE'\\u00A0in\\u00A0Number\""
+              "raw": "\"'MAX_VALUE'\\u00A0in\\u00A0Number\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -326,7 +352,9 @@
           "start": 974,
           "end": 978,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -354,7 +382,9 @@
                   "start": 1007,
                   "end": 1055,
                   "value": "#5: \"MAX_VALUE\"\\u00A0in\\u00A0Number === true",
-                  "raw": "'#5: \"MAX_VALUE\"\\\\u00A0in\\\\u00A0Number === true'"
+                  "raw": "'#5: \"MAX_VALUE\"\\\\u00A0in\\\\u00A0Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -387,7 +417,9 @@
               "start": 1080,
               "end": 1113,
               "value": "'MAX_VALUE'\nin\nNumber",
-              "raw": "\"'MAX_VALUE'\\u000Ain\\u000ANumber\""
+              "raw": "\"'MAX_VALUE'\\u000Ain\\u000ANumber\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -398,7 +430,9 @@
           "start": 1119,
           "end": 1123,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -426,7 +460,9 @@
                   "start": 1152,
                   "end": 1200,
                   "value": "#6: \"MAX_VALUE\"\\u000Ain\\u000ANumber === true",
-                  "raw": "'#6: \"MAX_VALUE\"\\\\u000Ain\\\\u000ANumber === true'"
+                  "raw": "'#6: \"MAX_VALUE\"\\\\u000Ain\\\\u000ANumber === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -459,7 +495,9 @@
               "start": 1227,
               "end": 1260,
               "value": "'MAX_VALUE'\rin\rNumber",
-              "raw": "\"'MAX_VALUE'\\u000Din\\u000DNumber\""
+              "raw": "\"'MAX_VALUE'\\u000Din\\u000DNumber\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -470,7 +508,9 @@
           "start": 1266,
           "end": 1270,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -498,7 +538,9 @@
                   "start": 1299,
                   "end": 1347,
                   "value": "#7: \"MAX_VALUE\"\\u000Din\\u000DNumber === true",
-                  "raw": "'#7: \"MAX_VALUE\"\\\\u000Din\\\\u000DNumber === true'"
+                  "raw": "'#7: \"MAX_VALUE\"\\\\u000Din\\\\u000DNumber === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -531,7 +573,9 @@
               "start": 1372,
               "end": 1405,
               "value": "'MAX_VALUE' in Number",
-              "raw": "\"'MAX_VALUE'\\u2028in\\u2028Number\""
+              "raw": "\"'MAX_VALUE'\\u2028in\\u2028Number\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -542,7 +586,9 @@
           "start": 1411,
           "end": 1415,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -570,7 +616,9 @@
                   "start": 1444,
                   "end": 1492,
                   "value": "#8: \"MAX_VALUE\"\\u2028in\\u2028Number === true",
-                  "raw": "'#8: \"MAX_VALUE\"\\\\u2028in\\\\u2028Number === true'"
+                  "raw": "'#8: \"MAX_VALUE\"\\\\u2028in\\\\u2028Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -603,7 +651,9 @@
               "start": 1517,
               "end": 1550,
               "value": "'MAX_VALUE' in Number",
-              "raw": "\"'MAX_VALUE'\\u2029in\\u2029Number\""
+              "raw": "\"'MAX_VALUE'\\u2029in\\u2029Number\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -614,7 +664,9 @@
           "start": 1556,
           "end": 1560,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -642,7 +694,9 @@
                   "start": 1589,
                   "end": 1637,
                   "value": "#9: \"MAX_VALUE\"\\u2029in\\u2029Number === true",
-                  "raw": "'#9: \"MAX_VALUE\"\\\\u2029in\\\\u2029Number === true'"
+                  "raw": "'#9: \"MAX_VALUE\"\\\\u2029in\\\\u2029Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -675,7 +729,9 @@
               "start": 1663,
               "end": 1792,
               "value": "'MAX_VALUE'\t\u000b\f  \n\r  in\t\u000b\f  \n\r  Number",
-              "raw": "\"'MAX_VALUE'\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029in\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Number\""
+              "raw": "\"'MAX_VALUE'\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029in\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Number\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -686,7 +742,9 @@
           "start": 1798,
           "end": 1802,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -714,7 +772,9 @@
                   "start": 1831,
                   "end": 1992,
                   "value": "#10: \"MAX_VALUE\"\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029in\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Number === true",
-                  "raw": "'#10: \"MAX_VALUE\"\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029in\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029Number === true'"
+                  "raw": "'#10: \"MAX_VALUE\"\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029in\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

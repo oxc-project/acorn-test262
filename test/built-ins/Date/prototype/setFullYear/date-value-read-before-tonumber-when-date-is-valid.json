@@ -34,7 +34,9 @@
                 "start": 511,
                 "end": 512,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -62,7 +64,9 @@
             "start": 536,
             "end": 537,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -180,7 +184,9 @@
                           "start": 621,
                           "end": 622,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -285,14 +291,18 @@
             "start": 701,
             "end": 702,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 733,
             "value": "valueOf called exactly once",
-            "raw": "\"valueOf called exactly once\""
+            "raw": "\"valueOf called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +353,9 @@
             "start": 770,
             "end": 789,
             "value": "result is not NaN",
-            "raw": "\"result is not NaN\""
+            "raw": "\"result is not NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,7 +426,9 @@
             "start": 832,
             "end": 860,
             "value": "result is equal to getTime",
-            "raw": "\"result is equal to getTime\""
+            "raw": "\"result is equal to getTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -479,14 +493,18 @@
             "start": 899,
             "end": 900,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 902,
             "end": 932,
             "value": "date value correctly updated",
-            "raw": "\"date value correctly updated\""
+            "raw": "\"date value correctly updated\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

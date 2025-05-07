@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -226,7 +228,9 @@ __ESTREE_TEST__:PASS:
                     "start": 149,
                     "end": 162,
                     "raw": "\"ignore-prop\"",
-                    "value": "ignore-prop"
+                    "value": "ignore-prop",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,

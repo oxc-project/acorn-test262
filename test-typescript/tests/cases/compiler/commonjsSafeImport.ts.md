@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 30,
         "raw": "'./10_lib'",
-        "value": "./10_lib"
+        "value": "./10_lib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

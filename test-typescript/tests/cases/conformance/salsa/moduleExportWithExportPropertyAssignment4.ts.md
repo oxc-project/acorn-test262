@@ -188,7 +188,9 @@ __ESTREE_TEST__:PASS:
           "start": 69,
           "end": 77,
           "raw": "'string'",
-          "value": "string"
+          "value": "string",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -232,7 +234,9 @@ __ESTREE_TEST__:PASS:
           "start": 93,
           "end": 94,
           "raw": "4",
-          "value": 4
+          "value": 4,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -276,7 +280,9 @@ __ESTREE_TEST__:PASS:
           "start": 110,
           "end": 111,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -320,7 +326,9 @@ __ESTREE_TEST__:PASS:
           "start": 126,
           "end": 127,
           "raw": "3",
-          "value": 3
+          "value": 3,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -416,7 +424,9 @@ __ESTREE_TEST__:PASS:
                 "start": 175,
                 "end": 176,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -494,7 +504,9 @@ __ESTREE_TEST__:PASS:
           "start": 206,
           "end": 214,
           "raw": "'string'",
-          "value": "string"
+          "value": "string",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -554,7 +566,9 @@ __ESTREE_TEST__:PASS:
           "start": 245,
           "end": 253,
           "raw": "'string'",
-          "value": "string"
+          "value": "string",
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -599,7 +613,9 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 68,
                 "raw": "'./mod1'",
-                "value": "./mod1"
+                "value": "./mod1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

@@ -42,7 +42,9 @@
                 "start": 385,
                 "end": 389,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -70,7 +72,9 @@
                         "start": 420,
                         "end": 440,
                         "value": "#27: Math === null",
-                        "raw": "\"#27: Math === null\""
+                        "raw": "\"#27: Math === null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

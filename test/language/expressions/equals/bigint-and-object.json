@@ -41,6 +41,7 @@
               "end": 985,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "==",
@@ -61,6 +62,7 @@
                   "end": 998,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -72,14 +74,18 @@
             "start": 1001,
             "end": 1005,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1007,
             "end": 1049,
             "value": "The result of (0n == Object(0n)) is true",
-            "raw": "'The result of (0n == Object(0n)) is true'"
+            "raw": "'The result of (0n == Object(0n)) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -134,6 +140,7 @@
                   "end": 1078,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -146,6 +153,7 @@
               "end": 1085,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -154,14 +162,18 @@
             "start": 1087,
             "end": 1091,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1093,
             "end": 1135,
             "value": "The result of (Object(0n) == 0n) is true",
-            "raw": "'The result of (Object(0n) == 0n) is true'"
+            "raw": "'The result of (Object(0n) == 0n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,6 +217,7 @@
               "end": 1157,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "==",
@@ -225,6 +238,7 @@
                   "end": 1170,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -236,14 +250,18 @@
             "start": 1173,
             "end": 1178,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1180,
             "end": 1223,
             "value": "The result of (0n == Object(1n)) is false",
-            "raw": "'The result of (0n == Object(1n)) is false'"
+            "raw": "'The result of (0n == Object(1n)) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -298,6 +316,7 @@
                   "end": 1252,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -310,6 +329,7 @@
               "end": 1259,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -318,14 +338,18 @@
             "start": 1261,
             "end": 1266,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1268,
             "end": 1311,
             "value": "The result of (Object(1n) == 0n) is false",
-            "raw": "'The result of (Object(1n) == 0n) is false'"
+            "raw": "'The result of (Object(1n) == 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,6 +393,7 @@
               "end": 1333,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "==",
@@ -389,6 +414,7 @@
                   "end": 1346,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -400,14 +426,18 @@
             "start": 1349,
             "end": 1354,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1356,
             "end": 1399,
             "value": "The result of (1n == Object(0n)) is false",
-            "raw": "'The result of (1n == Object(0n)) is false'"
+            "raw": "'The result of (1n == Object(0n)) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,6 +492,7 @@
                   "end": 1428,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -474,6 +505,7 @@
               "end": 1435,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -482,14 +514,18 @@
             "start": 1437,
             "end": 1442,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1444,
             "end": 1487,
             "value": "The result of (Object(0n) == 1n) is false",
-            "raw": "'The result of (Object(0n) == 1n) is false'"
+            "raw": "'The result of (Object(0n) == 1n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -533,6 +569,7 @@
               "end": 1509,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "==",
@@ -553,6 +590,7 @@
                   "end": 1522,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -564,14 +602,18 @@
             "start": 1525,
             "end": 1529,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1531,
             "end": 1573,
             "value": "The result of (1n == Object(1n)) is true",
-            "raw": "'The result of (1n == Object(1n)) is true'"
+            "raw": "'The result of (1n == Object(1n)) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -626,6 +668,7 @@
                   "end": 1602,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -638,6 +681,7 @@
               "end": 1609,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -646,14 +690,18 @@
             "start": 1611,
             "end": 1615,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1617,
             "end": 1659,
             "value": "The result of (Object(1n) == 1n) is true",
-            "raw": "'The result of (Object(1n) == 1n) is true'"
+            "raw": "'The result of (Object(1n) == 1n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -697,6 +745,7 @@
               "end": 1681,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "==",
@@ -717,6 +766,7 @@
                   "end": 1694,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -728,14 +778,18 @@
             "start": 1697,
             "end": 1702,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1704,
             "end": 1747,
             "value": "The result of (2n == Object(0n)) is false",
-            "raw": "'The result of (2n == Object(0n)) is false'"
+            "raw": "'The result of (2n == Object(0n)) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -790,6 +844,7 @@
                   "end": 1776,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -802,6 +857,7 @@
               "end": 1783,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -810,14 +866,18 @@
             "start": 1785,
             "end": 1790,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1792,
             "end": 1835,
             "value": "The result of (Object(0n) == 2n) is false",
-            "raw": "'The result of (Object(0n) == 2n) is false'"
+            "raw": "'The result of (Object(0n) == 2n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -861,6 +921,7 @@
               "end": 1857,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "==",
@@ -881,6 +942,7 @@
                   "end": 1870,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -892,14 +954,18 @@
             "start": 1873,
             "end": 1878,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1880,
             "end": 1923,
             "value": "The result of (2n == Object(1n)) is false",
-            "raw": "'The result of (2n == Object(1n)) is false'"
+            "raw": "'The result of (2n == Object(1n)) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -954,6 +1020,7 @@
                   "end": 1952,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -966,6 +1033,7 @@
               "end": 1959,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -974,14 +1042,18 @@
             "start": 1961,
             "end": 1966,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1968,
             "end": 2011,
             "value": "The result of (Object(1n) == 2n) is false",
-            "raw": "'The result of (Object(1n) == 2n) is false'"
+            "raw": "'The result of (Object(1n) == 2n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1025,6 +1097,7 @@
               "end": 2033,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "==",
@@ -1045,6 +1118,7 @@
                   "end": 2046,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -1056,14 +1130,18 @@
             "start": 2049,
             "end": 2053,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2055,
             "end": 2097,
             "value": "The result of (2n == Object(2n)) is true",
-            "raw": "'The result of (2n == Object(2n)) is true'"
+            "raw": "'The result of (2n == Object(2n)) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1118,6 +1196,7 @@
                   "end": 2126,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -1130,6 +1209,7 @@
               "end": 2133,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -1138,14 +1218,18 @@
             "start": 2135,
             "end": 2139,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2141,
             "end": 2183,
             "value": "The result of (Object(2n) == 2n) is true",
-            "raw": "'The result of (Object(2n) == 2n) is true'"
+            "raw": "'The result of (Object(2n) == 2n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1189,6 +1273,7 @@
               "end": 2205,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "==",
@@ -1204,14 +1289,18 @@
             "start": 2213,
             "end": 2218,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2220,
             "end": 2255,
             "value": "The result of (0n == {}) is false",
-            "raw": "'The result of (0n == {}) is false'"
+            "raw": "'The result of (0n == {}) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1262,6 +1351,7 @@
               "end": 2283,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1270,14 +1360,18 @@
             "start": 2285,
             "end": 2290,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2292,
             "end": 2329,
             "value": "The result of (({}) == 0n) is false",
-            "raw": "'The result of (({}) == 0n) is false'"
+            "raw": "'The result of (({}) == 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1321,6 +1415,7 @@
               "end": 2352,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "==",
@@ -1366,6 +1461,7 @@
                             "end": 2395,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           }
                         }
@@ -1382,14 +1478,18 @@
             "start": 2404,
             "end": 2408,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2410,
             "end": 2476,
             "value": "The result of (0n == {valueOf: function() {return 0n;}}) is true",
-            "raw": "'The result of (0n == {valueOf: function() {return 0n;}}) is true'"
+            "raw": "'The result of (0n == {valueOf: function() {return 0n;}}) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1469,6 +1569,7 @@
                             "end": 2536,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           }
                         }
@@ -1486,6 +1587,7 @@
               "end": 2549,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1494,14 +1596,18 @@
             "start": 2551,
             "end": 2555,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2557,
             "end": 2625,
             "value": "The result of (({valueOf: function() {return 0n;}}) == 0n) is true",
-            "raw": "'The result of (({valueOf: function() {return 0n;}}) == 0n) is true'"
+            "raw": "'The result of (({valueOf: function() {return 0n;}}) == 0n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1545,6 +1651,7 @@
               "end": 2648,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "==",
@@ -1590,6 +1697,7 @@
                             "end": 2691,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -1606,14 +1714,18 @@
             "start": 2700,
             "end": 2705,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2707,
             "end": 2774,
             "value": "The result of (0n == {valueOf: function() {return 1n;}}) is false",
-            "raw": "'The result of (0n == {valueOf: function() {return 1n;}}) is false'"
+            "raw": "'The result of (0n == {valueOf: function() {return 1n;}}) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1693,6 +1805,7 @@
                             "end": 2834,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -1710,6 +1823,7 @@
               "end": 2847,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1718,14 +1832,18 @@
             "start": 2849,
             "end": 2854,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2856,
             "end": 2925,
             "value": "The result of (({valueOf: function() {return 1n;}}) == 0n) is false",
-            "raw": "'The result of (({valueOf: function() {return 1n;}}) == 0n) is false'"
+            "raw": "'The result of (({valueOf: function() {return 1n;}}) == 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1769,6 +1887,7 @@
               "end": 2948,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "==",
@@ -1813,7 +1932,9 @@
                             "start": 2990,
                             "end": 2993,
                             "value": "0",
-                            "raw": "'0'"
+                            "raw": "'0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -1829,14 +1950,18 @@
             "start": 3002,
             "end": 3006,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3008,
             "end": 3076,
             "value": "The result of (0n == {toString: function() {return \"0\";}}) is true",
-            "raw": "'The result of (0n == {toString: function() {return \"0\";}}) is true'"
+            "raw": "'The result of (0n == {toString: function() {return \"0\";}}) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1915,7 +2040,9 @@
                             "start": 3135,
                             "end": 3138,
                             "value": "0",
-                            "raw": "'0'"
+                            "raw": "'0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -1932,6 +2059,7 @@
               "end": 3151,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1940,14 +2068,18 @@
             "start": 3153,
             "end": 3157,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3159,
             "end": 3229,
             "value": "The result of (({toString: function() {return \"0\";}}) == 0n) is true",
-            "raw": "'The result of (({toString: function() {return \"0\";}}) == 0n) is true'"
+            "raw": "'The result of (({toString: function() {return \"0\";}}) == 0n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1991,6 +2123,7 @@
               "end": 3252,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "==",
@@ -2035,7 +2168,9 @@
                             "start": 3294,
                             "end": 3297,
                             "value": "1",
-                            "raw": "'1'"
+                            "raw": "'1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2051,14 +2186,18 @@
             "start": 3306,
             "end": 3311,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3313,
             "end": 3382,
             "value": "The result of (0n == {toString: function() {return \"1\";}}) is false",
-            "raw": "'The result of (0n == {toString: function() {return \"1\";}}) is false'"
+            "raw": "'The result of (0n == {toString: function() {return \"1\";}}) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2137,7 +2276,9 @@
                             "start": 3441,
                             "end": 3444,
                             "value": "1",
-                            "raw": "'1'"
+                            "raw": "'1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2154,6 +2295,7 @@
               "end": 3457,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -2162,14 +2304,18 @@
             "start": 3459,
             "end": 3464,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3466,
             "end": 3537,
             "value": "The result of (({toString: function() {return \"1\";}}) == 0n) is false",
-            "raw": "'The result of (({toString: function() {return \"1\";}}) == 0n) is false'"
+            "raw": "'The result of (({toString: function() {return \"1\";}}) == 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2213,6 +2359,7 @@
               "end": 3577,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             },
             "operator": "==",
@@ -2258,6 +2405,7 @@
                             "end": 3637,
                             "value": null,
                             "raw": "900719925474099101n",
+                            "regex": null,
                             "bigint": "900719925474099101"
                           }
                         }
@@ -2274,14 +2422,18 @@
             "start": 3646,
             "end": 3650,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3652,
             "end": 3752,
             "value": "The result of (900719925474099101n == {valueOf: function() {return 900719925474099101n;}}) is true",
-            "raw": "'The result of (900719925474099101n == {valueOf: function() {return 900719925474099101n;}}) is true'"
+            "raw": "'The result of (900719925474099101n == {valueOf: function() {return 900719925474099101n;}}) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2361,6 +2513,7 @@
                             "end": 3829,
                             "value": null,
                             "raw": "900719925474099101n",
+                            "regex": null,
                             "bigint": "900719925474099101"
                           }
                         }
@@ -2378,6 +2531,7 @@
               "end": 3859,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             }
           },
@@ -2386,14 +2540,18 @@
             "start": 3861,
             "end": 3865,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3867,
             "end": 3969,
             "value": "The result of (({valueOf: function() {return 900719925474099101n;}}) == 900719925474099101n) is true",
-            "raw": "'The result of (({valueOf: function() {return 900719925474099101n;}}) == 900719925474099101n) is true'"
+            "raw": "'The result of (({valueOf: function() {return 900719925474099101n;}}) == 900719925474099101n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2437,6 +2595,7 @@
               "end": 4009,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             },
             "operator": "==",
@@ -2482,6 +2641,7 @@
                             "end": 4069,
                             "value": null,
                             "raw": "900719925474099102n",
+                            "regex": null,
                             "bigint": "900719925474099102"
                           }
                         }
@@ -2498,14 +2658,18 @@
             "start": 4078,
             "end": 4083,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4085,
             "end": 4186,
             "value": "The result of (900719925474099101n == {valueOf: function() {return 900719925474099102n;}}) is false",
-            "raw": "'The result of (900719925474099101n == {valueOf: function() {return 900719925474099102n;}}) is false'"
+            "raw": "'The result of (900719925474099101n == {valueOf: function() {return 900719925474099102n;}}) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2585,6 +2749,7 @@
                             "end": 4263,
                             "value": null,
                             "raw": "900719925474099102n",
+                            "regex": null,
                             "bigint": "900719925474099102"
                           }
                         }
@@ -2602,6 +2767,7 @@
               "end": 4293,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             }
           },
@@ -2610,14 +2776,18 @@
             "start": 4295,
             "end": 4300,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4302,
             "end": 4405,
             "value": "The result of (({valueOf: function() {return 900719925474099102n;}}) == 900719925474099101n) is false",
-            "raw": "'The result of (({valueOf: function() {return 900719925474099102n;}}) == 900719925474099101n) is false'"
+            "raw": "'The result of (({valueOf: function() {return 900719925474099102n;}}) == 900719925474099101n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2661,6 +2831,7 @@
               "end": 4445,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             },
             "operator": "==",
@@ -2705,7 +2876,9 @@
                             "start": 4487,
                             "end": 4507,
                             "value": "900719925474099101",
-                            "raw": "'900719925474099101'"
+                            "raw": "'900719925474099101'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2721,14 +2894,18 @@
             "start": 4516,
             "end": 4520,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4522,
             "end": 4624,
             "value": "The result of (900719925474099101n == {toString: function() {return \"900719925474099101\";}}) is true",
-            "raw": "'The result of (900719925474099101n == {toString: function() {return \"900719925474099101\";}}) is true'"
+            "raw": "'The result of (900719925474099101n == {toString: function() {return \"900719925474099101\";}}) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2807,7 +2984,9 @@
                             "start": 4683,
                             "end": 4703,
                             "value": "900719925474099101",
-                            "raw": "'900719925474099101'"
+                            "raw": "'900719925474099101'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2824,6 +3003,7 @@
               "end": 4733,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             }
           },
@@ -2832,14 +3012,18 @@
             "start": 4735,
             "end": 4739,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4741,
             "end": 4845,
             "value": "The result of (({toString: function() {return \"900719925474099101\";}}) == 900719925474099101n) is true",
-            "raw": "'The result of (({toString: function() {return \"900719925474099101\";}}) == 900719925474099101n) is true'"
+            "raw": "'The result of (({toString: function() {return \"900719925474099101\";}}) == 900719925474099101n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2883,6 +3067,7 @@
               "end": 4885,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             },
             "operator": "==",
@@ -2927,7 +3112,9 @@
                             "start": 4927,
                             "end": 4947,
                             "value": "900719925474099102",
-                            "raw": "'900719925474099102'"
+                            "raw": "'900719925474099102'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -2943,14 +3130,18 @@
             "start": 4956,
             "end": 4961,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4963,
             "end": 5066,
             "value": "The result of (900719925474099101n == {toString: function() {return \"900719925474099102\";}}) is false",
-            "raw": "'The result of (900719925474099101n == {toString: function() {return \"900719925474099102\";}}) is false'"
+            "raw": "'The result of (900719925474099101n == {toString: function() {return \"900719925474099102\";}}) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3029,7 +3220,9 @@
                             "start": 5125,
                             "end": 5145,
                             "value": "900719925474099102",
-                            "raw": "'900719925474099102'"
+                            "raw": "'900719925474099102'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -3046,6 +3239,7 @@
               "end": 5175,
               "value": null,
               "raw": "900719925474099101n",
+              "regex": null,
               "bigint": "900719925474099101"
             }
           },
@@ -3054,14 +3248,18 @@
             "start": 5177,
             "end": 5182,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5184,
             "end": 5289,
             "value": "The result of (({toString: function() {return \"900719925474099102\";}}) == 900719925474099101n) is false",
-            "raw": "'The result of (({toString: function() {return \"900719925474099102\";}}) == 900719925474099101n) is false'"
+            "raw": "'The result of (({toString: function() {return \"900719925474099102\";}}) == 900719925474099101n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

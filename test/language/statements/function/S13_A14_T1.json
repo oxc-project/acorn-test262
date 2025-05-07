@@ -23,7 +23,9 @@
             "start": 291,
             "end": 337,
             "value": "function __funcA(__arg){return __arg;};",
-            "raw": "\"function __func\\u0041(__arg){return __arg;};\""
+            "raw": "\"function __func\\u0041(__arg){return __arg;};\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -56,7 +58,9 @@
           "start": 453,
           "end": 463,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -84,7 +88,9 @@
                   "start": 491,
                   "end": 541,
                   "value": "#1: unicode symbols in function name are allowed",
-                  "raw": "'#1: unicode symbols in function name are allowed'"
+                  "raw": "'#1: unicode symbols in function name are allowed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

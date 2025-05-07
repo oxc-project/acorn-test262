@@ -23,7 +23,9 @@
             "start": 1839,
             "end": 1840,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1855,
             "end": 1856,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -108,7 +112,9 @@
                         "start": 1894,
                         "end": 1895,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -149,7 +155,9 @@
                         "start": 1937,
                         "end": 1938,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -352,7 +360,9 @@
             "start": 2076,
             "end": 2077,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -397,14 +407,18 @@
             "start": 2105,
             "end": 2106,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2108,
             "end": 2157,
             "value": "Iterator is closed following abrupt completion.",
-            "raw": "'Iterator is closed following abrupt completion.'"
+            "raw": "'Iterator is closed following abrupt completion.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

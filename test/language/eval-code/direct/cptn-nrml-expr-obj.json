@@ -72,7 +72,9 @@
               "start": 375,
               "end": 382,
               "value": "y = x",
-              "raw": "\"y = x\""
+              "raw": "\"y = x\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -114,7 +116,9 @@
                     "start": 418,
                     "end": 465,
                     "value": "#1: var x = {}; eval(\"y = x\") === x. Actual: ",
-                    "raw": "'#1: var x = {}; eval(\"y = x\") === x. Actual: '"
+                    "raw": "'#1: var x = {}; eval(\"y = x\") === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -137,7 +141,9 @@
                           "start": 474,
                           "end": 481,
                           "value": "y = x",
-                          "raw": "\"y = x\""
+                          "raw": "\"y = x\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -175,7 +181,9 @@
               "start": 513,
               "end": 516,
               "value": "x",
-              "raw": "\"x\""
+              "raw": "\"x\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -217,7 +225,9 @@
                     "start": 552,
                     "end": 595,
                     "value": "#2: var x = {}; eval(\"x\") === x. Actual: ",
-                    "raw": "'#2: var x = {}; eval(\"x\") === x. Actual: '"
+                    "raw": "'#2: var x = {}; eval(\"x\") === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -240,7 +250,9 @@
                           "start": 604,
                           "end": 607,
                           "value": "x",
-                          "raw": "\"x\""
+                          "raw": "\"x\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

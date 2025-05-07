@@ -47,28 +47,36 @@
                 "start": 536,
                 "end": 537,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 538,
                 "end": 539,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 541,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 542,
                 "end": 543,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -154,7 +162,9 @@
                     "start": 607,
                     "end": 619,
                     "value": "2020-02-29",
-                    "raw": "\"2020-02-29\""
+                    "raw": "\"2020-02-29\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -183,35 +193,45 @@
             "start": 633,
             "end": 637,
             "value": 2020,
-            "raw": "2020"
+            "raw": "2020",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 640,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 642,
             "end": 647,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 651,
             "value": 17,
-            "raw": "17"
+            "raw": "17",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 657,
             "end": 747,
             "value": "add 2 weeks and 3 days (17 days) from Feb 29 in a leap year and cause rolling into March",
-            "raw": "\"add 2 weeks and 3 days (17 days) from Feb 29 in a leap year and cause rolling into March\""
+            "raw": "\"add 2 weeks and 3 days (17 days) from Feb 29 in a leap year and cause rolling into March\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -295,7 +315,9 @@
                     "start": 811,
                     "end": 823,
                     "value": "2021-02-28",
-                    "raw": "\"2021-02-28\""
+                    "raw": "\"2021-02-28\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -324,35 +346,45 @@
             "start": 837,
             "end": 841,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 844,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 851,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 853,
             "end": 855,
             "value": 17,
-            "raw": "17"
+            "raw": "17",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 861,
             "end": 952,
             "value": "add 2 weeks and 3 days (17 days) from Feb and cause rolling into March in a non leap year",
-            "raw": "\"add 2 weeks and 3 days (17 days) from Feb and cause rolling into March in a non leap year\""
+            "raw": "\"add 2 weeks and 3 days (17 days) from Feb and cause rolling into March in a non leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +468,9 @@
                     "start": 1016,
                     "end": 1028,
                     "value": "2020-02-28",
-                    "raw": "\"2020-02-28\""
+                    "raw": "\"2020-02-28\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -465,35 +499,45 @@
             "start": 1042,
             "end": 1046,
             "value": 2020,
-            "raw": "2020"
+            "raw": "2020",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1048,
             "end": 1049,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1051,
             "end": 1056,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1058,
             "end": 1060,
             "value": 16,
-            "raw": "16"
+            "raw": "16",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1066,
             "end": 1153,
             "value": "add 2 weeks and 3 days (17 days) from Feb and cause rolling into March in a leap year",
-            "raw": "\"add 2 weeks and 3 days (17 days) from Feb and cause rolling into March in a leap year\""
+            "raw": "\"add 2 weeks and 3 days (17 days) from Feb and cause rolling into March in a leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -577,7 +621,9 @@
                     "start": 1217,
                     "end": 1229,
                     "value": "2020-12-28",
-                    "raw": "\"2020-12-28\""
+                    "raw": "\"2020-12-28\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -606,35 +652,45 @@
             "start": 1243,
             "end": 1247,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1249,
             "end": 1250,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1252,
             "end": 1257,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1261,
             "value": 14,
-            "raw": "14"
+            "raw": "14",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1335,
             "value": "add 2 weeks and 3 days (17 days) and cause rolling into a new year",
-            "raw": "\"add 2 weeks and 3 days (17 days) and cause rolling into a new year\""
+            "raw": "\"add 2 weeks and 3 days (17 days) and cause rolling into a new year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

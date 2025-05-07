@@ -75,14 +75,18 @@
             "start": 436,
             "end": 446,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 487,
             "value": "implements TypedArray.prototype.map",
-            "raw": "'implements TypedArray.prototype.map'"
+            "raw": "'implements TypedArray.prototype.map'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -160,14 +164,18 @@
             "start": 551,
             "end": 561,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 606,
             "value": "implements ArrayBuffer.prototype.resize",
-            "raw": "'implements ArrayBuffer.prototype.resize'"
+            "raw": "'implements ArrayBuffer.prototype.resize'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +297,9 @@
                               "start": 723,
                               "end": 724,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -326,7 +336,9 @@
                                     "start": 748,
                                     "end": 749,
                                     "value": 5,
-                                    "raw": "5"
+                                    "raw": "5",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "kind": "init"
@@ -382,7 +394,9 @@
                             "start": 783,
                             "end": 784,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -443,7 +457,9 @@
                                 "start": 816,
                                 "end": 817,
                                 "value": 5,
-                                "raw": "5"
+                                "raw": "5",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -514,6 +530,7 @@
                           "end": 888,
                           "value": null,
                           "raw": "0n",
+                          "regex": null,
                           "bigint": "0"
                         }
                       }
@@ -574,7 +591,9 @@
                                 "start": 920,
                                 "end": 921,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -645,6 +664,7 @@
                           "end": 1010,
                           "value": null,
                           "raw": "0n",
+                          "regex": null,
                           "bigint": "0"
                         }
                       }
@@ -729,7 +749,9 @@
                                   "start": 1063,
                                   "end": 1064,
                                   "value": 3,
-                                  "raw": "3"
+                                  "raw": "3",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "-",
@@ -738,7 +760,9 @@
                                 "start": 1067,
                                 "end": 1068,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -904,6 +928,7 @@
                                       "end": 1600,
                                       "value": null,
                                       "raw": "0n",
+                                      "regex": null,
                                       "bigint": "0"
                                     }
                                   }
@@ -931,7 +956,9 @@
                                     "start": 1630,
                                     "end": 1658,
                                     "value": "map completed successfully",
-                                    "raw": "'map completed successfully'"
+                                    "raw": "'map completed successfully'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }

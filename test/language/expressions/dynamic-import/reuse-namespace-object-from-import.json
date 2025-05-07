@@ -25,7 +25,9 @@
         "start": 1165,
         "end": 1191,
         "value": "./module-code_FIXTURE.js",
-        "raw": "'./module-code_FIXTURE.js'"
+        "raw": "'./module-code_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -87,7 +89,9 @@
                           "start": 1219,
                           "end": 1245,
                           "value": "./module-code_FIXTURE.js",
-                          "raw": "'./module-code_FIXTURE.js'"
+                          "raw": "'./module-code_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": null
                       },
@@ -100,7 +104,9 @@
                           "start": 1259,
                           "end": 1285,
                           "value": "./module-code_FIXTURE.js",
-                          "raw": "'./module-code_FIXTURE.js'"
+                          "raw": "'./module-code_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": null
                       }
@@ -198,7 +204,9 @@
                             "start": 1337,
                             "end": 1381,
                             "value": "it returns the same namespace are the same",
-                            "raw": "'it returns the same namespace are the same'"
+                            "raw": "'it returns the same namespace are the same'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -249,7 +257,9 @@
                             "start": 1412,
                             "end": 1457,
                             "value": "dynamic imported a is the same object as ns",
-                            "raw": "'dynamic imported a is the same object as ns'"
+                            "raw": "'dynamic imported a is the same object as ns'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -300,7 +310,9 @@
                             "start": 1488,
                             "end": 1533,
                             "value": "dynamic imported b is the same object as ns",
-                            "raw": "'dynamic imported b is the same object as ns'"
+                            "raw": "'dynamic imported b is the same object as ns'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

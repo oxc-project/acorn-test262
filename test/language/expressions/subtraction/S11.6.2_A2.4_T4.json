@@ -35,7 +35,9 @@
                 "start": 325,
                 "end": 326,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -53,7 +55,9 @@
           "start": 336,
           "end": 337,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -85,7 +89,9 @@
                     "start": 366,
                     "end": 399,
                     "value": "#1: (y = 1) - y === 0. Actual: ",
-                    "raw": "'#1: (y = 1) - y === 0. Actual: '"
+                    "raw": "'#1: (y = 1) - y === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -116,7 +122,9 @@
                             "start": 408,
                             "end": 409,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },

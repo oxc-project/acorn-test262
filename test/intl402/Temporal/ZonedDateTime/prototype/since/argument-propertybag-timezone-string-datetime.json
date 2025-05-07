@@ -23,7 +23,9 @@
             "start": 339,
             "end": 358,
             "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "raw": "\"America/Vancouver\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 406,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -108,7 +111,9 @@
             "start": 442,
             "end": 479,
             "value": "2021-08-19T17:30[America/Vancouver]",
-            "raw": "\"2021-08-19T17:30[America/Vancouver]\""
+            "raw": "\"2021-08-19T17:30[America/Vancouver]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -165,7 +170,9 @@
                   "start": 504,
                   "end": 508,
                   "value": 2020,
-                  "raw": "2020"
+                  "raw": "2020",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -187,7 +194,9 @@
                   "start": 517,
                   "end": 518,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -209,7 +218,9 @@
                   "start": 525,
                   "end": 526,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -260,7 +271,9 @@
           "start": 553,
           "end": 591,
           "value": "2021-08-19T17:30Z[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30Z[America/Vancouver]\""
+          "raw": "\"2021-08-19T17:30Z[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -315,7 +328,9 @@
                   "start": 616,
                   "end": 620,
                   "value": 2020,
-                  "raw": "2020"
+                  "raw": "2020",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -337,7 +352,9 @@
                   "start": 629,
                   "end": 630,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -359,7 +376,9 @@
                   "start": 637,
                   "end": 638,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -410,7 +429,9 @@
           "start": 665,
           "end": 708,
           "value": "2021-08-19T17:30-07:00[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\""
+          "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -465,7 +486,9 @@
                   "start": 733,
                   "end": 737,
                   "value": 2020,
-                  "raw": "2020"
+                  "raw": "2020",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -487,7 +510,9 @@
                   "start": 746,
                   "end": 747,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -509,7 +534,9 @@
                   "start": 754,
                   "end": 755,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },

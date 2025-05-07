@@ -49,7 +49,9 @@
                         "start": 378,
                         "end": 383,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -140,7 +142,9 @@
                             "start": 458,
                             "end": 459,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -168,7 +172,9 @@
                                   "start": 480,
                                   "end": 484,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -224,7 +230,9 @@
                                   "start": 528,
                                   "end": 529,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -276,7 +284,9 @@
                         "start": 541,
                         "end": 545,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

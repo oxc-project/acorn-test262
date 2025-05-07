@@ -41,7 +41,9 @@
                   "start": 414,
                   "end": 415,
                   "value": 8,
-                  "raw": "8"
+                  "raw": "8",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -57,14 +59,18 @@
                   "start": 419,
                   "end": 420,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 422,
                   "end": 429,
                   "value": "en-US",
-                  "raw": "'en-US'"
+                  "raw": "'en-US'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -80,14 +86,18 @@
                   "start": 433,
                   "end": 434,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 436,
                   "end": 443,
                   "value": "de-DE",
-                  "raw": "'de-DE'"
+                  "raw": "'de-DE'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -103,14 +113,18 @@
                   "start": 447,
                   "end": 448,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 450,
                   "end": 457,
                   "value": "en-IN",
-                  "raw": "'en-IN'"
+                  "raw": "'en-IN'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -126,14 +140,18 @@
                   "start": 461,
                   "end": 462,
                   "value": 7,
-                  "raw": "7"
+                  "raw": "7",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 464,
                   "end": 471,
                   "value": "en-GB",
-                  "raw": "'en-GB'"
+                  "raw": "'en-GB'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

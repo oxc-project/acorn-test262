@@ -34,7 +34,9 @@
                 "start": 306,
                 "end": 308,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 345,
                 "end": 346,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -174,7 +178,9 @@
                           "start": 411,
                           "end": 412,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -183,6 +189,7 @@
                         "end": 417,
                         "value": null,
                         "raw": "39n",
+                        "regex": null,
                         "bigint": "39"
                       }
                     ],
@@ -197,7 +204,9 @@
             "start": 423,
             "end": 465,
             "value": "DataView access at index -1 should throw",
-            "raw": "\"DataView access at index -1 should throw\""
+            "raw": "\"DataView access at index -1 should throw\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +269,9 @@
                 "start": 504,
                 "end": 505,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -271,6 +282,7 @@
             "end": 510,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -278,7 +290,9 @@
             "start": 512,
             "end": 535,
             "value": "-1 - no value was set",
-            "raw": "\"-1 - no value was set\""
+            "raw": "\"-1 - no value was set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -379,6 +393,7 @@
                         "end": 613,
                         "value": null,
                         "raw": "39n",
+                        "regex": null,
                         "bigint": "39"
                       }
                     ],
@@ -393,7 +408,9 @@
             "start": 619,
             "end": 668,
             "value": "DataView access at index -Infinity should throw",
-            "raw": "\"DataView access at index -Infinity should throw\""
+            "raw": "\"DataView access at index -Infinity should throw\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -456,7 +473,9 @@
                 "start": 707,
                 "end": 708,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -467,6 +486,7 @@
             "end": 713,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -474,7 +494,9 @@
             "start": 715,
             "end": 745,
             "value": "-Infinity - no value was set",
-            "raw": "\"-Infinity - no value was set\""
+            "raw": "\"-Infinity - no value was set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

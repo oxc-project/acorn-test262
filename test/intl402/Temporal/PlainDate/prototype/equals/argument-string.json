@@ -47,21 +47,27 @@
                 "start": 307,
                 "end": 311,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 317,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -126,7 +132,9 @@
                 "start": 353,
                 "end": 379,
                 "value": "2000-05-02[u-ca=gregory]",
-                "raw": "\"2000-05-02[u-ca=gregory]\""
+                "raw": "\"2000-05-02[u-ca=gregory]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -136,14 +144,18 @@
             "start": 382,
             "end": 387,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 409,
             "value": "different calendar",
-            "raw": "\"different calendar\""
+            "raw": "\"different calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

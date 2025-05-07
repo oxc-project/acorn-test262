@@ -138,14 +138,18 @@
             "start": 450,
             "end": 454,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 491,
             "value": "`s.has(undefined)` returns `true`",
-            "raw": "\"`s.has(undefined)` returns `true`\""
+            "raw": "\"`s.has(undefined)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

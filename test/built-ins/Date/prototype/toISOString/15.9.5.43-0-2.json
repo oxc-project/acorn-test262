@@ -81,14 +81,18 @@
             "start": 333,
             "end": 334,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 336,
             "end": 371,
             "value": "Date.prototype.toISOString.length",
-            "raw": "'Date.prototype.toISOString.length'"
+            "raw": "'Date.prototype.toISOString.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

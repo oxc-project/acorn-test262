@@ -92,7 +92,9 @@
                   "start": 652,
                   "end": 667,
                   "value": "Intl.Collator",
-                  "raw": "\"Intl.Collator\""
+                  "raw": "\"Intl.Collator\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +116,9 @@
                   "start": 681,
                   "end": 686,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +140,9 @@
                   "start": 702,
                   "end": 707,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +164,9 @@
                   "start": 725,
                   "end": 729,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

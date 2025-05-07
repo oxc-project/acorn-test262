@@ -53,7 +53,9 @@
                   "start": 251,
                   "end": 261,
                   "value": "parseInt",
-                  "raw": "\"parseInt\""
+                  "raw": "\"parseInt\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

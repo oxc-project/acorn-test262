@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?s:(?-s:^.$))",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 1738,
                 "end": 1741,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 1744,
             "end": 1819,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +142,9 @@
                 "start": 1838,
                 "end": 1841,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +154,9 @@
             "start": 1844,
             "end": 1919,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +206,9 @@
                 "start": 1938,
                 "end": 1941,
                 "value": "π",
-                "raw": "\"π\""
+                "raw": "\"π\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +218,9 @@
             "start": 1944,
             "end": 2019,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +270,9 @@
                 "start": 2038,
                 "end": 2046,
                 "value": "‧",
-                "raw": "\"\\u2027\""
+                "raw": "\"\\u2027\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -267,7 +282,9 @@
             "start": 2049,
             "end": 2124,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -317,7 +334,9 @@
                 "start": 2143,
                 "end": 2151,
                 "value": "",
-                "raw": "\"\\u0085\""
+                "raw": "\"\\u0085\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -327,7 +346,9 @@
             "start": 2154,
             "end": 2229,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -377,7 +398,9 @@
                 "start": 2248,
                 "end": 2252,
                 "value": "\u000b",
-                "raw": "\"\\v\""
+                "raw": "\"\\v\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -387,7 +410,9 @@
             "start": 2255,
             "end": 2330,
             "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -437,7 +462,9 @@
                 "start": 2349,
                 "end": 2353,
                 "value": "\f",
-                "raw": "\"\\f\""
+                "raw": "\"\\f\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -447,7 +474,9 @@
             "start": 2356,
             "end": 2431,
             "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,7 +526,9 @@
                 "start": 2450,
                 "end": 2458,
                 "value": "᠎",
-                "raw": "\"\\u180E\""
+                "raw": "\"\\u180E\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -507,7 +538,9 @@
             "start": 2461,
             "end": 2536,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -563,7 +596,9 @@
                   "start": 2556,
                   "end": 2567,
                   "value": "𐌀",
-                  "raw": "\"\\u{10300}\""
+                  "raw": "\"\\u{10300}\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -574,7 +609,9 @@
             "start": 2570,
             "end": 2617,
             "value": "Supplementary plane not matched by a single .",
-            "raw": "\"Supplementary plane not matched by a single .\""
+            "raw": "\"Supplementary plane not matched by a single .\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -630,7 +667,9 @@
                   "start": 2637,
                   "end": 2641,
                   "value": "\n",
-                  "raw": "\"\\n\""
+                  "raw": "\"\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -641,7 +680,9 @@
             "start": 2644,
             "end": 2708,
             "value": "Pattern character '.' should not match '\\n' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\n' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\n' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -697,7 +738,9 @@
                   "start": 2728,
                   "end": 2732,
                   "value": "\r",
-                  "raw": "\"\\r\""
+                  "raw": "\"\\r\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -708,7 +751,9 @@
             "start": 2735,
             "end": 2799,
             "value": "Pattern character '.' should not match '\\r' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\r' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\r' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -764,7 +809,9 @@
                   "start": 2819,
                   "end": 2827,
                   "value": " ",
-                  "raw": "\"\\u2028\""
+                  "raw": "\"\\u2028\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -775,7 +822,9 @@
             "start": 2830,
             "end": 2898,
             "value": "Pattern character '.' should not match '\\u2028' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\u2028' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\u2028' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -831,7 +880,9 @@
                   "start": 2918,
                   "end": 2926,
                   "value": " ",
-                  "raw": "\"\\u2029\""
+                  "raw": "\"\\u2029\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -842,7 +893,9 @@
             "start": 2929,
             "end": 2997,
             "value": "Pattern character '.' should not match '\\u2029' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\u2029' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\u2029' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -892,7 +945,9 @@
                 "start": 3016,
                 "end": 3024,
                 "value": "\ud800",
-                "raw": "\"\\uD800\""
+                "raw": "\"\\uD800\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -902,7 +957,9 @@
             "start": 3027,
             "end": 3102,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -952,7 +1009,9 @@
                 "start": 3121,
                 "end": 3129,
                 "value": "\udfff",
-                "raw": "\"\\uDFFF\""
+                "raw": "\"\\uDFFF\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -962,7 +1021,9 @@
             "start": 3132,
             "end": 3207,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -992,7 +1053,8 @@
             "regex": {
               "pattern": "(?s-:(?-s:^.$))",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -1042,7 +1104,9 @@
                 "start": 3256,
                 "end": 3259,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1052,7 +1116,9 @@
             "start": 3262,
             "end": 3337,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1102,7 +1168,9 @@
                 "start": 3356,
                 "end": 3359,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1112,7 +1180,9 @@
             "start": 3362,
             "end": 3437,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1162,7 +1232,9 @@
                 "start": 3456,
                 "end": 3459,
                 "value": "π",
-                "raw": "\"π\""
+                "raw": "\"π\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1172,7 +1244,9 @@
             "start": 3462,
             "end": 3537,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1222,7 +1296,9 @@
                 "start": 3556,
                 "end": 3564,
                 "value": "‧",
-                "raw": "\"\\u2027\""
+                "raw": "\"\\u2027\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1232,7 +1308,9 @@
             "start": 3567,
             "end": 3642,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1282,7 +1360,9 @@
                 "start": 3661,
                 "end": 3669,
                 "value": "",
-                "raw": "\"\\u0085\""
+                "raw": "\"\\u0085\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1292,7 +1372,9 @@
             "start": 3672,
             "end": 3747,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1342,7 +1424,9 @@
                 "start": 3766,
                 "end": 3770,
                 "value": "\u000b",
-                "raw": "\"\\v\""
+                "raw": "\"\\v\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1352,7 +1436,9 @@
             "start": 3773,
             "end": 3848,
             "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1402,7 +1488,9 @@
                 "start": 3867,
                 "end": 3871,
                 "value": "\f",
-                "raw": "\"\\f\""
+                "raw": "\"\\f\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1412,7 +1500,9 @@
             "start": 3874,
             "end": 3949,
             "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1462,7 +1552,9 @@
                 "start": 3968,
                 "end": 3976,
                 "value": "᠎",
-                "raw": "\"\\u180E\""
+                "raw": "\"\\u180E\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1472,7 +1564,9 @@
             "start": 3979,
             "end": 4054,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1528,7 +1622,9 @@
                   "start": 4074,
                   "end": 4085,
                   "value": "𐌀",
-                  "raw": "\"\\u{10300}\""
+                  "raw": "\"\\u{10300}\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1539,7 +1635,9 @@
             "start": 4088,
             "end": 4135,
             "value": "Supplementary plane not matched by a single .",
-            "raw": "\"Supplementary plane not matched by a single .\""
+            "raw": "\"Supplementary plane not matched by a single .\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1595,7 +1693,9 @@
                   "start": 4155,
                   "end": 4159,
                   "value": "\n",
-                  "raw": "\"\\n\""
+                  "raw": "\"\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1606,7 +1706,9 @@
             "start": 4162,
             "end": 4226,
             "value": "Pattern character '.' should not match '\\n' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\n' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\n' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1662,7 +1764,9 @@
                   "start": 4246,
                   "end": 4250,
                   "value": "\r",
-                  "raw": "\"\\r\""
+                  "raw": "\"\\r\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1673,7 +1777,9 @@
             "start": 4253,
             "end": 4317,
             "value": "Pattern character '.' should not match '\\r' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\r' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\r' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1729,7 +1835,9 @@
                   "start": 4337,
                   "end": 4345,
                   "value": " ",
-                  "raw": "\"\\u2028\""
+                  "raw": "\"\\u2028\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1740,7 +1848,9 @@
             "start": 4348,
             "end": 4416,
             "value": "Pattern character '.' should not match '\\u2028' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\u2028' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\u2028' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1796,7 +1906,9 @@
                   "start": 4436,
                   "end": 4444,
                   "value": " ",
-                  "raw": "\"\\u2029\""
+                  "raw": "\"\\u2029\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1807,7 +1919,9 @@
             "start": 4447,
             "end": 4515,
             "value": "Pattern character '.' should not match '\\u2029' in modified group",
-            "raw": "\"Pattern character '.' should not match '\\\\u2029' in modified group\""
+            "raw": "\"Pattern character '.' should not match '\\\\u2029' in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1857,7 +1971,9 @@
                 "start": 4534,
                 "end": 4542,
                 "value": "\ud800",
-                "raw": "\"\\uD800\""
+                "raw": "\"\\uD800\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1867,7 +1983,9 @@
             "start": 4545,
             "end": 4620,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1917,7 +2035,9 @@
                 "start": 4639,
                 "end": 4647,
                 "value": "\udfff",
-                "raw": "\"\\uDFFF\""
+                "raw": "\"\\uDFFF\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1927,7 +2047,9 @@
             "start": 4650,
             "end": 4725,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

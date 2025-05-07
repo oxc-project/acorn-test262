@@ -59,7 +59,9 @@
                           "start": 1800,
                           "end": 1826,
                           "value": "./module-code_FIXTURE.js",
-                          "raw": "'./module-code_FIXTURE.js'"
+                          "raw": "'./module-code_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -283,7 +285,9 @@
                                 "start": 1972,
                                 "end": 1974,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -341,7 +345,9 @@
                                 "start": 2008,
                                 "end": 2017,
                                 "value": "Test262",
-                                "raw": "'Test262'"
+                                "raw": "'Test262'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -399,7 +405,9 @@
                                 "start": 2051,
                                 "end": 2053,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

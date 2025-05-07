@@ -114,14 +114,18 @@ __ESTREE_TEST__:PASS:
                 "start": 57,
                 "end": 59,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 61,
                 "end": 62,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -185,7 +189,9 @@ __ESTREE_TEST__:PASS:
                       "start": 77,
                       "end": 78,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": null
                   }

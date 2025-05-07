@@ -85,7 +85,9 @@
                     "start": 392,
                     "end": 400,
                     "value": "length",
-                    "raw": "'length'"
+                    "raw": "'length'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -97,7 +99,9 @@
             "start": 405,
             "end": 494,
             "value": "The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'"
+            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +183,9 @@
                   "start": 556,
                   "end": 564,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -190,7 +196,9 @@
             "start": 569,
             "end": 663,
             "value": "The value of !Object.prototype.valueOf.propertyIsEnumerable(\"length\") is expected to be true",
-            "raw": "'The value of !Object.prototype.valueOf.propertyIsEnumerable(\"length\") is expected to be true'"
+            "raw": "'The value of !Object.prototype.valueOf.propertyIsEnumerable(\"length\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,14 +304,18 @@
                   "start": 735,
                   "end": 743,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 745,
                   "end": 777,
                   "value": "The value of p is not \"length\"",
-                  "raw": "'The value of p is not \"length\"'"
+                  "raw": "'The value of p is not \"length\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

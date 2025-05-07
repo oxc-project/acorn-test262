@@ -75,7 +75,9 @@
             "start": 289,
             "end": 311,
             "value": "Math.trunc(Infinity)",
-            "raw": "'Math.trunc(Infinity)'"
+            "raw": "'Math.trunc(Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -167,7 +169,9 @@
             "start": 365,
             "end": 388,
             "value": "Math.trunc(-Infinity)",
-            "raw": "'Math.trunc(-Infinity)'"
+            "raw": "'Math.trunc(-Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

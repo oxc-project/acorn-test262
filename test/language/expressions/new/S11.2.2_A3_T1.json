@@ -25,7 +25,9 @@
                 "start": 329,
                 "end": 333,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "arguments": []
             }
@@ -50,7 +52,9 @@
                   "start": 360,
                   "end": 390,
                   "value": "#1: new true throw TypeError",
-                  "raw": "'#1: new true throw TypeError'"
+                  "raw": "'#1: new true throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -109,7 +113,9 @@
                   "start": 443,
                   "end": 447,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -137,7 +143,9 @@
                           "start": 478,
                           "end": 508,
                           "value": "#1: new true throw TypeError",
-                          "raw": "'#1: new true throw TypeError'"
+                          "raw": "'#1: new true throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -180,7 +188,9 @@
                   "start": 545,
                   "end": 549,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -223,7 +233,9 @@
                   "start": 585,
                   "end": 626,
                   "value": "#2: var x = true; new x throw TypeError",
-                  "raw": "'#2: var x = true; new x throw TypeError'"
+                  "raw": "'#2: var x = true; new x throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -282,7 +294,9 @@
                   "start": 679,
                   "end": 683,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -310,7 +324,9 @@
                           "start": 714,
                           "end": 755,
                           "value": "#2: var x = true; new x throw TypeError",
-                          "raw": "'#2: var x = true; new x throw TypeError'"
+                          "raw": "'#2: var x = true; new x throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -353,7 +369,9 @@
                   "start": 792,
                   "end": 796,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -396,7 +414,9 @@
                   "start": 834,
                   "end": 877,
                   "value": "#3: var x = true; new x() throw TypeError",
-                  "raw": "'#3: var x = true; new x() throw TypeError'"
+                  "raw": "'#3: var x = true; new x() throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -455,7 +475,9 @@
                   "start": 931,
                   "end": 935,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -483,7 +505,9 @@
                           "start": 966,
                           "end": 1009,
                           "value": "#3: var x = true; new x() throw TypeError",
-                          "raw": "'#3: var x = true; new x() throw TypeError'"
+                          "raw": "'#3: var x = true; new x() throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

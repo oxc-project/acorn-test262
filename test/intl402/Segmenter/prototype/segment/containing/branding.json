@@ -71,7 +71,9 @@
                 "start": 534,
                 "end": 539,
                 "value": "123",
-                "raw": "\"123\""
+                "raw": "\"123\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -164,7 +166,9 @@
             "start": 617,
             "end": 627,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -252,7 +256,9 @@
             "start": 689,
             "end": 700,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -330,7 +336,9 @@
                   "start": 750,
                   "end": 754,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -341,7 +349,9 @@
             "start": 757,
             "end": 763,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -419,7 +429,9 @@
                   "start": 813,
                   "end": 817,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -430,7 +442,9 @@
             "start": 820,
             "end": 826,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,7 +522,9 @@
                   "start": 876,
                   "end": 878,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -519,7 +535,9 @@
             "start": 881,
             "end": 895,
             "value": "empty string",
-            "raw": "\"empty string\""
+            "raw": "\"empty string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -614,7 +632,9 @@
             "start": 956,
             "end": 964,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -692,7 +712,9 @@
                   "start": 1014,
                   "end": 1015,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -703,7 +725,9 @@
             "start": 1018,
             "end": 1021,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -791,7 +815,9 @@
             "start": 1076,
             "end": 1090,
             "value": "plain object",
-            "raw": "\"plain object\""
+            "raw": "\"plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -892,7 +918,9 @@
             "start": 1157,
             "end": 1173,
             "value": "Intl.Segmenter",
-            "raw": "\"Intl.Segmenter\""
+            "raw": "\"Intl.Segmenter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1006,7 +1034,9 @@
             "start": 1250,
             "end": 1276,
             "value": "Intl.Segmenter.prototype",
-            "raw": "\"Intl.Segmenter.prototype\""
+            "raw": "\"Intl.Segmenter.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1087,7 +1117,9 @@
                   "start": 1333,
                   "end": 1334,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

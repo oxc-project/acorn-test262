@@ -73,7 +73,9 @@
                             "start": 711,
                             "end": 712,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -90,7 +92,9 @@
                         "start": 719,
                         "end": 741,
                         "value": "export default null;",
-                        "raw": "'export default null;'"
+                        "raw": "'export default null;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

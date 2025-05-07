@@ -208,7 +208,9 @@
             "start": 689,
             "end": 706,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +392,9 @@
             "start": 840,
             "end": 863,
             "value": "[object Map Iterator]",
-            "raw": "'[object Map Iterator]'"
+            "raw": "'[object Map Iterator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -472,7 +476,9 @@
                   "start": 940,
                   "end": 944,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -523,7 +529,9 @@
                               "start": 984,
                               "end": 1006,
                               "value": "ShouldNotBeUnwrapped",
-                              "raw": "'ShouldNotBeUnwrapped'"
+                              "raw": "'ShouldNotBeUnwrapped'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -605,7 +613,9 @@
             "start": 1057,
             "end": 1074,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,7 +731,9 @@
             "start": 1160,
             "end": 1179,
             "value": "[object Iterator]",
-            "raw": "'[object Iterator]'"
+            "raw": "'[object Iterator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -78,7 +78,9 @@
                 "start": 895,
                 "end": 901,
                 "value": "then",
-                "raw": "'then'"
+                "raw": "'then'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -323,7 +325,9 @@
                         "start": 1086,
                         "end": 1124,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -400,7 +404,9 @@
                               "start": 1185,
                               "end": 1241,
                               "value": "The promise should be rejected with the correct value.",
-                              "raw": "'The promise should be rejected with the correct value.'"
+                              "raw": "'The promise should be rejected with the correct value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

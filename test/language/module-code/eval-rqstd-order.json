@@ -62,7 +62,9 @@
             "start": 762,
             "end": 773,
             "value": "123456789",
-            "raw": "'123456789'"
+            "raw": "'123456789'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -78,7 +80,9 @@
         "start": 792,
         "end": 825,
         "value": "./eval-rqstd-order-1_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-1_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -92,7 +96,9 @@
         "start": 835,
         "end": 868,
         "value": "./eval-rqstd-order-2_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-2_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-2_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -118,7 +124,9 @@
         "start": 892,
         "end": 925,
         "value": "./eval-rqstd-order-3_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-3_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-3_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -144,7 +152,9 @@
         "start": 946,
         "end": 979,
         "value": "./eval-rqstd-order-4_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-4_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-4_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -159,7 +169,9 @@
         "start": 997,
         "end": 1030,
         "value": "./eval-rqstd-order-5_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-5_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-5_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -185,7 +197,9 @@
         "start": 1055,
         "end": 1088,
         "value": "./eval-rqstd-order-6_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-6_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-6_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -199,7 +213,9 @@
         "start": 1105,
         "end": 1138,
         "value": "./eval-rqstd-order-7_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-7_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-7_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -236,7 +252,9 @@
         "start": 1169,
         "end": 1202,
         "value": "./eval-rqstd-order-8_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-8_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-8_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -255,7 +273,9 @@
         "start": 1226,
         "end": 1259,
         "value": "./eval-rqstd-order-9_FIXTURE.js",
-        "raw": "'./eval-rqstd-order-9_FIXTURE.js'"
+        "raw": "'./eval-rqstd-order-9_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

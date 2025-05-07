@@ -47,21 +47,27 @@
                 "start": 353,
                 "end": 357,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 363,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -94,28 +100,36 @@
                 "start": 392,
                 "end": 413,
                 "value": "2000-05-02T00+00:00",
-                "raw": "\"2000-05-02T00+00:00\""
+                "raw": "\"2000-05-02T00+00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 443,
                 "value": "2000-05-02T00+00:00[UTC]",
-                "raw": "\"2000-05-02T00+00:00[UTC]\""
+                "raw": "\"2000-05-02T00+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 447,
                 "end": 474,
                 "value": "2000-05-02T00+00:00[!UTC]",
-                "raw": "\"2000-05-02T00+00:00[!UTC]\""
+                "raw": "\"2000-05-02T00+00:00[!UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 478,
                 "end": 517,
                 "value": "2000-05-02T00-02:30[America/St_Johns]",
-                "raw": "\"2000-05-02T00-02:30[America/St_Johns]\""
+                "raw": "\"2000-05-02T00-02:30[America/St_Johns]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -250,70 +264,90 @@
                   "start": 646,
                   "end": 647,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 649,
                   "end": 650,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 652,
                   "end": 653,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 655,
                   "end": 656,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 658,
                   "end": 659,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 661,
                   "end": 662,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 664,
                   "end": 665,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 667,
                   "end": 668,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 670,
                   "end": 671,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 673,
                   "end": 674,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -382,49 +416,63 @@
                 "start": 772,
                 "end": 785,
                 "value": "2022-09-15Z",
-                "raw": "\"2022-09-15Z\""
+                "raw": "\"2022-09-15Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 789,
                 "end": 807,
                 "value": "2022-09-15Z[UTC]",
-                "raw": "\"2022-09-15Z[UTC]\""
+                "raw": "\"2022-09-15Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 811,
                 "end": 839,
                 "value": "2022-09-15Z[Europe/Vienna]",
-                "raw": "\"2022-09-15Z[Europe/Vienna]\""
+                "raw": "\"2022-09-15Z[Europe/Vienna]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 843,
                 "end": 861,
                 "value": "2022-09-15+00:00",
-                "raw": "\"2022-09-15+00:00\""
+                "raw": "\"2022-09-15+00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 865,
                 "end": 888,
                 "value": "2022-09-15+00:00[UTC]",
-                "raw": "\"2022-09-15+00:00[UTC]\""
+                "raw": "\"2022-09-15+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 892,
                 "end": 910,
                 "value": "2022-09-15-02:30",
-                "raw": "\"2022-09-15-02:30\""
+                "raw": "\"2022-09-15-02:30\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 914,
                 "end": 950,
                 "value": "2022-09-15-02:30[America/St_Johns]",
-                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

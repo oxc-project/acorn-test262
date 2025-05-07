@@ -41,6 +41,7 @@
               "end": 722,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "<<",
@@ -50,6 +51,7 @@
               "end": 728,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -59,6 +61,7 @@
             "end": 732,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -66,7 +69,9 @@
             "start": 734,
             "end": 751,
             "value": "0n << 0n === 0n",
-            "raw": "\"0n << 0n === 0n\""
+            "raw": "\"0n << 0n === 0n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -110,6 +115,7 @@
               "end": 777,
               "value": null,
               "raw": "0b101n",
+              "regex": null,
               "bigint": "0b101"
             },
             "operator": "<<",
@@ -119,6 +125,7 @@
               "end": 783,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -128,6 +135,7 @@
             "end": 792,
             "value": null,
             "raw": "0b1010n",
+            "regex": null,
             "bigint": "0b1010"
           },
           {
@@ -135,7 +143,9 @@
             "start": 794,
             "end": 820,
             "value": "0b101n << 1n === 0b1010n",
-            "raw": "\"0b101n << 1n === 0b1010n\""
+            "raw": "\"0b101n << 1n === 0b1010n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,6 +189,7 @@
               "end": 846,
               "value": null,
               "raw": "0b101n",
+              "regex": null,
               "bigint": "0b101"
             },
             "operator": "<<",
@@ -188,6 +199,7 @@
               "end": 852,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -197,6 +209,7 @@
             "end": 862,
             "value": null,
             "raw": "0b10100n",
+            "regex": null,
             "bigint": "0b10100"
           },
           {
@@ -204,7 +217,9 @@
             "start": 864,
             "end": 891,
             "value": "0b101n << 2n === 0b10100n",
-            "raw": "\"0b101n << 2n === 0b10100n\""
+            "raw": "\"0b101n << 2n === 0b10100n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,6 +263,7 @@
               "end": 917,
               "value": null,
               "raw": "0b101n",
+              "regex": null,
               "bigint": "0b101"
             },
             "operator": "<<",
@@ -257,6 +273,7 @@
               "end": 923,
               "value": null,
               "raw": "3n",
+              "regex": null,
               "bigint": "3"
             }
           },
@@ -266,6 +283,7 @@
             "end": 934,
             "value": null,
             "raw": "0b101000n",
+            "regex": null,
             "bigint": "0b101000"
           },
           {
@@ -273,7 +291,9 @@
             "start": 936,
             "end": 964,
             "value": "0b101n << 3n === 0b101000n",
-            "raw": "\"0b101n << 3n === 0b101000n\""
+            "raw": "\"0b101n << 3n === 0b101000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -317,6 +337,7 @@
               "end": 990,
               "value": null,
               "raw": "0b101n",
+              "regex": null,
               "bigint": "0b101"
             },
             "operator": "<<",
@@ -332,6 +353,7 @@
                 "end": 997,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             }
@@ -342,6 +364,7 @@
             "end": 1004,
             "value": null,
             "raw": "0b10n",
+            "regex": null,
             "bigint": "0b10"
           },
           {
@@ -349,7 +372,9 @@
             "start": 1006,
             "end": 1031,
             "value": "0b101n << -1n === 0b10n",
-            "raw": "\"0b101n << -1n === 0b10n\""
+            "raw": "\"0b101n << -1n === 0b10n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,6 +418,7 @@
               "end": 1057,
               "value": null,
               "raw": "0b101n",
+              "regex": null,
               "bigint": "0b101"
             },
             "operator": "<<",
@@ -408,6 +434,7 @@
                 "end": 1064,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             }
@@ -418,6 +445,7 @@
             "end": 1068,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -425,7 +453,9 @@
             "start": 1070,
             "end": 1092,
             "value": "0b101n << -2n === 1n",
-            "raw": "\"0b101n << -2n === 1n\""
+            "raw": "\"0b101n << -2n === 1n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -469,6 +499,7 @@
               "end": 1118,
               "value": null,
               "raw": "0b101n",
+              "regex": null,
               "bigint": "0b101"
             },
             "operator": "<<",
@@ -484,6 +515,7 @@
                 "end": 1125,
                 "value": null,
                 "raw": "3n",
+                "regex": null,
                 "bigint": "3"
               }
             }
@@ -494,6 +526,7 @@
             "end": 1129,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -501,7 +534,9 @@
             "start": 1131,
             "end": 1153,
             "value": "0b101n << -3n === 0n",
-            "raw": "\"0b101n << -3n === 0n\""
+            "raw": "\"0b101n << -3n === 0n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -545,6 +580,7 @@
               "end": 1175,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "<<",
@@ -554,6 +590,7 @@
               "end": 1183,
               "value": null,
               "raw": "128n",
+              "regex": null,
               "bigint": "128"
             }
           },
@@ -563,6 +600,7 @@
             "end": 1187,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -570,7 +608,9 @@
             "start": 1189,
             "end": 1208,
             "value": "0n << 128n === 0n",
-            "raw": "\"0n << 128n === 0n\""
+            "raw": "\"0n << 128n === 0n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -614,6 +654,7 @@
               "end": 1230,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "<<",
@@ -629,6 +670,7 @@
                 "end": 1239,
                 "value": null,
                 "raw": "128n",
+                "regex": null,
                 "bigint": "128"
               }
             }
@@ -639,6 +681,7 @@
             "end": 1243,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -646,7 +689,9 @@
             "start": 1245,
             "end": 1265,
             "value": "0n << -128n === 0n",
-            "raw": "\"0n << -128n === 0n\""
+            "raw": "\"0n << -128n === 0n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -690,6 +735,7 @@
               "end": 1291,
               "value": null,
               "raw": "0x246n",
+              "regex": null,
               "bigint": "0x246"
             },
             "operator": "<<",
@@ -699,6 +745,7 @@
               "end": 1297,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -708,6 +755,7 @@
             "end": 1305,
             "value": null,
             "raw": "0x246n",
+            "regex": null,
             "bigint": "0x246"
           },
           {
@@ -715,7 +763,9 @@
             "start": 1307,
             "end": 1332,
             "value": "0x246n << 0n === 0x246n",
-            "raw": "\"0x246n << 0n === 0x246n\""
+            "raw": "\"0x246n << 0n === 0x246n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -759,6 +809,7 @@
               "end": 1358,
               "value": null,
               "raw": "0x246n",
+              "regex": null,
               "bigint": "0x246"
             },
             "operator": "<<",
@@ -768,6 +819,7 @@
               "end": 1366,
               "value": null,
               "raw": "127n",
+              "regex": null,
               "bigint": "127"
             }
           },
@@ -777,6 +829,7 @@
             "end": 1406,
             "value": null,
             "raw": "0x12300000000000000000000000000000000n",
+            "regex": null,
             "bigint": "0x12300000000000000000000000000000000"
           },
           {
@@ -784,7 +837,9 @@
             "start": 1408,
             "end": 1467,
             "value": "0x246n << 127n === 0x12300000000000000000000000000000000n",
-            "raw": "\"0x246n << 127n === 0x12300000000000000000000000000000000n\""
+            "raw": "\"0x246n << 127n === 0x12300000000000000000000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -828,6 +883,7 @@
               "end": 1493,
               "value": null,
               "raw": "0x246n",
+              "regex": null,
               "bigint": "0x246"
             },
             "operator": "<<",
@@ -837,6 +893,7 @@
               "end": 1501,
               "value": null,
               "raw": "128n",
+              "regex": null,
               "bigint": "128"
             }
           },
@@ -846,6 +903,7 @@
             "end": 1541,
             "value": null,
             "raw": "0x24600000000000000000000000000000000n",
+            "regex": null,
             "bigint": "0x24600000000000000000000000000000000"
           },
           {
@@ -853,7 +911,9 @@
             "start": 1543,
             "end": 1602,
             "value": "0x246n << 128n === 0x24600000000000000000000000000000000n",
-            "raw": "\"0x246n << 128n === 0x24600000000000000000000000000000000n\""
+            "raw": "\"0x246n << 128n === 0x24600000000000000000000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -897,6 +957,7 @@
               "end": 1628,
               "value": null,
               "raw": "0x246n",
+              "regex": null,
               "bigint": "0x246"
             },
             "operator": "<<",
@@ -906,6 +967,7 @@
               "end": 1636,
               "value": null,
               "raw": "129n",
+              "regex": null,
               "bigint": "129"
             }
           },
@@ -915,6 +977,7 @@
             "end": 1676,
             "value": null,
             "raw": "0x48c00000000000000000000000000000000n",
+            "regex": null,
             "bigint": "0x48c00000000000000000000000000000000"
           },
           {
@@ -922,7 +985,9 @@
             "start": 1678,
             "end": 1737,
             "value": "0x246n << 129n === 0x48c00000000000000000000000000000000n",
-            "raw": "\"0x246n << 129n === 0x48c00000000000000000000000000000000n\""
+            "raw": "\"0x246n << 129n === 0x48c00000000000000000000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -966,6 +1031,7 @@
               "end": 1763,
               "value": null,
               "raw": "0x246n",
+              "regex": null,
               "bigint": "0x246"
             },
             "operator": "<<",
@@ -981,6 +1047,7 @@
                 "end": 1772,
                 "value": null,
                 "raw": "128n",
+                "regex": null,
                 "bigint": "128"
               }
             }
@@ -991,6 +1058,7 @@
             "end": 1776,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -998,7 +1066,9 @@
             "start": 1778,
             "end": 1802,
             "value": "0x246n << -128n === 0n",
-            "raw": "\"0x246n << -128n === 0n\""
+            "raw": "\"0x246n << -128n === 0n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1042,6 +1112,7 @@
               "end": 1866,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1051,6 +1122,7 @@
               "end": 1873,
               "value": null,
               "raw": "64n",
+              "regex": null,
               "bigint": "64"
             }
           },
@@ -1060,6 +1132,7 @@
             "end": 1932,
             "value": null,
             "raw": "0x123456789abcdef0fedcba98765432123456780000000000000000n",
+            "regex": null,
             "bigint": "0x123456789abcdef0fedcba98765432123456780000000000000000"
           },
           {
@@ -1067,7 +1140,9 @@
             "start": 1936,
             "end": 2048,
             "value": "0x123456789abcdef0fedcba9876543212345678n << 64n === 0x123456789abcdef0fedcba98765432123456780000000000000000n",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 64n === 0x123456789abcdef0fedcba98765432123456780000000000000000n\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 64n === 0x123456789abcdef0fedcba98765432123456780000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1111,6 +1186,7 @@
               "end": 2112,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1120,6 +1196,7 @@
               "end": 2119,
               "value": null,
               "raw": "32n",
+              "regex": null,
               "bigint": "32"
             }
           },
@@ -1129,6 +1206,7 @@
             "end": 2170,
             "value": null,
             "raw": "0x123456789abcdef0fedcba987654321234567800000000n",
+            "regex": null,
             "bigint": "0x123456789abcdef0fedcba987654321234567800000000"
           },
           {
@@ -1136,7 +1214,9 @@
             "start": 2174,
             "end": 2278,
             "value": "0x123456789abcdef0fedcba9876543212345678n << 32n === 0x123456789abcdef0fedcba987654321234567800000000n",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 32n === 0x123456789abcdef0fedcba987654321234567800000000n\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 32n === 0x123456789abcdef0fedcba987654321234567800000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1180,6 +1260,7 @@
               "end": 2342,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1189,6 +1270,7 @@
               "end": 2349,
               "value": null,
               "raw": "16n",
+              "regex": null,
               "bigint": "16"
             }
           },
@@ -1198,6 +1280,7 @@
             "end": 2396,
             "value": null,
             "raw": "0x123456789abcdef0fedcba98765432123456780000n",
+            "regex": null,
             "bigint": "0x123456789abcdef0fedcba98765432123456780000"
           },
           {
@@ -1205,7 +1288,9 @@
             "start": 2400,
             "end": 2500,
             "value": "0x123456789abcdef0fedcba9876543212345678n << 16n === 0x123456789abcdef0fedcba98765432123456780000n",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 16n === 0x123456789abcdef0fedcba98765432123456780000n\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 16n === 0x123456789abcdef0fedcba98765432123456780000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1249,6 +1334,7 @@
               "end": 2564,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1258,6 +1344,7 @@
               "end": 2570,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1267,6 +1354,7 @@
             "end": 2613,
             "value": null,
             "raw": "0x123456789abcdef0fedcba9876543212345678n",
+            "regex": null,
             "bigint": "0x123456789abcdef0fedcba9876543212345678"
           },
           {
@@ -1274,7 +1362,9 @@
             "start": 2617,
             "end": 2712,
             "value": "0x123456789abcdef0fedcba9876543212345678n << 0n === 0x123456789abcdef0fedcba9876543212345678n",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 0n === 0x123456789abcdef0fedcba9876543212345678n\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << 0n === 0x123456789abcdef0fedcba9876543212345678n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1318,6 +1408,7 @@
               "end": 2776,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1333,6 +1424,7 @@
                 "end": 2784,
                 "value": null,
                 "raw": "16n",
+                "regex": null,
                 "bigint": "16"
               }
             }
@@ -1343,6 +1435,7 @@
             "end": 2823,
             "value": null,
             "raw": "0x123456789abcdef0fedcba987654321234n",
+            "regex": null,
             "bigint": "0x123456789abcdef0fedcba987654321234"
           },
           {
@@ -1350,7 +1443,9 @@
             "start": 2827,
             "end": 2920,
             "value": "0x123456789abcdef0fedcba9876543212345678n << -16n === 0x123456789abcdef0fedcba987654321234n",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -16n === 0x123456789abcdef0fedcba987654321234n\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -16n === 0x123456789abcdef0fedcba987654321234n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1394,6 +1489,7 @@
               "end": 2984,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1409,6 +1505,7 @@
                 "end": 2992,
                 "value": null,
                 "raw": "32n",
+                "regex": null,
                 "bigint": "32"
               }
             }
@@ -1419,6 +1516,7 @@
             "end": 3027,
             "value": null,
             "raw": "0x123456789abcdef0fedcba98765432n",
+            "regex": null,
             "bigint": "0x123456789abcdef0fedcba98765432"
           },
           {
@@ -1426,7 +1524,9 @@
             "start": 3031,
             "end": 3120,
             "value": "0x123456789abcdef0fedcba9876543212345678n << -32n === 0x123456789abcdef0fedcba98765432n",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -32n === 0x123456789abcdef0fedcba98765432n\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -32n === 0x123456789abcdef0fedcba98765432n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1470,6 +1570,7 @@
               "end": 3184,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1485,6 +1586,7 @@
                 "end": 3192,
                 "value": null,
                 "raw": "64n",
+                "regex": null,
                 "bigint": "64"
               }
             }
@@ -1495,6 +1597,7 @@
             "end": 3219,
             "value": null,
             "raw": "0x123456789abcdef0fedcban",
+            "regex": null,
             "bigint": "0x123456789abcdef0fedcba"
           },
           {
@@ -1502,7 +1605,9 @@
             "start": 3223,
             "end": 3304,
             "value": "0x123456789abcdef0fedcba9876543212345678n << -64n === 0x123456789abcdef0fedcban",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -64n === 0x123456789abcdef0fedcban\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -64n === 0x123456789abcdef0fedcban\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1546,6 +1651,7 @@
               "end": 3368,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1561,6 +1667,7 @@
                 "end": 3377,
                 "value": null,
                 "raw": "127n",
+                "regex": null,
                 "bigint": "127"
               }
             }
@@ -1571,6 +1678,7 @@
             "end": 3388,
             "value": null,
             "raw": "0x2468acn",
+            "regex": null,
             "bigint": "0x2468ac"
           },
           {
@@ -1578,7 +1686,9 @@
             "start": 3392,
             "end": 3458,
             "value": "0x123456789abcdef0fedcba9876543212345678n << -127n === 0x2468acn",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -127n === 0x2468acn\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -127n === 0x2468acn\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1622,6 +1732,7 @@
               "end": 3522,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1637,6 +1748,7 @@
                 "end": 3531,
                 "value": null,
                 "raw": "128n",
+                "regex": null,
                 "bigint": "128"
               }
             }
@@ -1647,6 +1759,7 @@
             "end": 3542,
             "value": null,
             "raw": "0x123456n",
+            "regex": null,
             "bigint": "0x123456"
           },
           {
@@ -1654,7 +1767,9 @@
             "start": 3546,
             "end": 3612,
             "value": "0x123456789abcdef0fedcba9876543212345678n << -128n === 0x123456n",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -128n === 0x123456n\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -128n === 0x123456n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1698,6 +1813,7 @@
               "end": 3676,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             },
             "operator": "<<",
@@ -1713,6 +1829,7 @@
                 "end": 3685,
                 "value": null,
                 "raw": "129n",
+                "regex": null,
                 "bigint": "129"
               }
             }
@@ -1723,6 +1840,7 @@
             "end": 3695,
             "value": null,
             "raw": "0x91a2bn",
+            "regex": null,
             "bigint": "0x91a2b"
           },
           {
@@ -1730,7 +1848,9 @@
             "start": 3699,
             "end": 3764,
             "value": "0x123456789abcdef0fedcba9876543212345678n << -129n === 0x91a2bn",
-            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -129n === 0x91a2bn\""
+            "raw": "\"0x123456789abcdef0fedcba9876543212345678n << -129n === 0x91a2bn\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1780,6 +1900,7 @@
                 "end": 3787,
                 "value": null,
                 "raw": "5n",
+                "regex": null,
                 "bigint": "5"
               }
             },
@@ -1790,6 +1911,7 @@
               "end": 3793,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -1805,6 +1927,7 @@
               "end": 3800,
               "value": null,
               "raw": "0xan",
+              "regex": null,
               "bigint": "0xa"
             }
           },
@@ -1813,7 +1936,9 @@
             "start": 3802,
             "end": 3823,
             "value": "-5n << 1n === -0xan",
-            "raw": "\"-5n << 1n === -0xan\""
+            "raw": "\"-5n << 1n === -0xan\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1863,6 +1988,7 @@
                 "end": 3846,
                 "value": null,
                 "raw": "5n",
+                "regex": null,
                 "bigint": "5"
               }
             },
@@ -1873,6 +1999,7 @@
               "end": 3852,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -1888,6 +2015,7 @@
               "end": 3860,
               "value": null,
               "raw": "0x14n",
+              "regex": null,
               "bigint": "0x14"
             }
           },
@@ -1896,7 +2024,9 @@
             "start": 3862,
             "end": 3884,
             "value": "-5n << 2n === -0x14n",
-            "raw": "\"-5n << 2n === -0x14n\""
+            "raw": "\"-5n << 2n === -0x14n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1946,6 +2076,7 @@
                 "end": 3907,
                 "value": null,
                 "raw": "5n",
+                "regex": null,
                 "bigint": "5"
               }
             },
@@ -1956,6 +2087,7 @@
               "end": 3913,
               "value": null,
               "raw": "3n",
+              "regex": null,
               "bigint": "3"
             }
           },
@@ -1971,6 +2103,7 @@
               "end": 3921,
               "value": null,
               "raw": "0x28n",
+              "regex": null,
               "bigint": "0x28"
             }
           },
@@ -1979,7 +2112,9 @@
             "start": 3923,
             "end": 3945,
             "value": "-5n << 3n === -0x28n",
-            "raw": "\"-5n << 3n === -0x28n\""
+            "raw": "\"-5n << 3n === -0x28n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2029,6 +2164,7 @@
                 "end": 3968,
                 "value": null,
                 "raw": "5n",
+                "regex": null,
                 "bigint": "5"
               }
             },
@@ -2045,6 +2181,7 @@
                 "end": 3975,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             }
@@ -2061,6 +2198,7 @@
               "end": 3980,
               "value": null,
               "raw": "3n",
+              "regex": null,
               "bigint": "3"
             }
           },
@@ -2069,7 +2207,9 @@
             "start": 3982,
             "end": 4002,
             "value": "-5n << -1n === -3n",
-            "raw": "\"-5n << -1n === -3n\""
+            "raw": "\"-5n << -1n === -3n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2119,6 +2259,7 @@
                 "end": 4025,
                 "value": null,
                 "raw": "5n",
+                "regex": null,
                 "bigint": "5"
               }
             },
@@ -2135,6 +2276,7 @@
                 "end": 4032,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             }
@@ -2151,6 +2293,7 @@
               "end": 4037,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -2159,7 +2302,9 @@
             "start": 4039,
             "end": 4059,
             "value": "-5n << -2n === -2n",
-            "raw": "\"-5n << -2n === -2n\""
+            "raw": "\"-5n << -2n === -2n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2209,6 +2354,7 @@
                 "end": 4082,
                 "value": null,
                 "raw": "5n",
+                "regex": null,
                 "bigint": "5"
               }
             },
@@ -2225,6 +2371,7 @@
                 "end": 4089,
                 "value": null,
                 "raw": "3n",
+                "regex": null,
                 "bigint": "3"
               }
             }
@@ -2241,6 +2388,7 @@
               "end": 4094,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -2249,7 +2397,9 @@
             "start": 4096,
             "end": 4116,
             "value": "-5n << -3n === -1n",
-            "raw": "\"-5n << -3n === -1n\""
+            "raw": "\"-5n << -3n === -1n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2299,6 +2449,7 @@
                 "end": 4139,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             },
@@ -2309,6 +2460,7 @@
               "end": 4147,
               "value": null,
               "raw": "128n",
+              "regex": null,
               "bigint": "128"
             }
           },
@@ -2324,6 +2476,7 @@
               "end": 4186,
               "value": null,
               "raw": "0x100000000000000000000000000000000n",
+              "regex": null,
               "bigint": "0x100000000000000000000000000000000"
             }
           },
@@ -2332,7 +2485,9 @@
             "start": 4188,
             "end": 4243,
             "value": "-1n << 128n === -0x100000000000000000000000000000000n",
-            "raw": "\"-1n << 128n === -0x100000000000000000000000000000000n\""
+            "raw": "\"-1n << 128n === -0x100000000000000000000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2382,6 +2537,7 @@
                 "end": 4266,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             },
@@ -2392,6 +2548,7 @@
               "end": 4272,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -2407,6 +2564,7 @@
               "end": 4277,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -2415,7 +2573,9 @@
             "start": 4279,
             "end": 4298,
             "value": "-1n << 0n === -1n",
-            "raw": "\"-1n << 0n === -1n\""
+            "raw": "\"-1n << 0n === -1n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2465,6 +2625,7 @@
                 "end": 4321,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             },
@@ -2481,6 +2642,7 @@
                 "end": 4330,
                 "value": null,
                 "raw": "128n",
+                "regex": null,
                 "bigint": "128"
               }
             }
@@ -2497,6 +2659,7 @@
               "end": 4335,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -2505,7 +2668,9 @@
             "start": 4337,
             "end": 4359,
             "value": "-1n << -128n === -1n",
-            "raw": "\"-1n << -128n === -1n\""
+            "raw": "\"-1n << -128n === -1n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2555,6 +2720,7 @@
                 "end": 4386,
                 "value": null,
                 "raw": "0x246n",
+                "regex": null,
                 "bigint": "0x246"
               }
             },
@@ -2565,6 +2731,7 @@
               "end": 4392,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -2580,6 +2747,7 @@
               "end": 4401,
               "value": null,
               "raw": "0x246n",
+              "regex": null,
               "bigint": "0x246"
             }
           },
@@ -2588,7 +2756,9 @@
             "start": 4403,
             "end": 4430,
             "value": "-0x246n << 0n === -0x246n",
-            "raw": "\"-0x246n << 0n === -0x246n\""
+            "raw": "\"-0x246n << 0n === -0x246n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2638,6 +2808,7 @@
                 "end": 4457,
                 "value": null,
                 "raw": "0x246n",
+                "regex": null,
                 "bigint": "0x246"
               }
             },
@@ -2648,6 +2819,7 @@
               "end": 4465,
               "value": null,
               "raw": "127n",
+              "regex": null,
               "bigint": "127"
             }
           },
@@ -2663,6 +2835,7 @@
               "end": 4506,
               "value": null,
               "raw": "0x12300000000000000000000000000000000n",
+              "regex": null,
               "bigint": "0x12300000000000000000000000000000000"
             }
           },
@@ -2671,7 +2844,9 @@
             "start": 4508,
             "end": 4569,
             "value": "-0x246n << 127n === -0x12300000000000000000000000000000000n",
-            "raw": "\"-0x246n << 127n === -0x12300000000000000000000000000000000n\""
+            "raw": "\"-0x246n << 127n === -0x12300000000000000000000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2721,6 +2896,7 @@
                 "end": 4596,
                 "value": null,
                 "raw": "0x246n",
+                "regex": null,
                 "bigint": "0x246"
               }
             },
@@ -2731,6 +2907,7 @@
               "end": 4604,
               "value": null,
               "raw": "128n",
+              "regex": null,
               "bigint": "128"
             }
           },
@@ -2746,6 +2923,7 @@
               "end": 4645,
               "value": null,
               "raw": "0x24600000000000000000000000000000000n",
+              "regex": null,
               "bigint": "0x24600000000000000000000000000000000"
             }
           },
@@ -2754,7 +2932,9 @@
             "start": 4647,
             "end": 4708,
             "value": "-0x246n << 128n === -0x24600000000000000000000000000000000n",
-            "raw": "\"-0x246n << 128n === -0x24600000000000000000000000000000000n\""
+            "raw": "\"-0x246n << 128n === -0x24600000000000000000000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2804,6 +2984,7 @@
                 "end": 4735,
                 "value": null,
                 "raw": "0x246n",
+                "regex": null,
                 "bigint": "0x246"
               }
             },
@@ -2814,6 +2995,7 @@
               "end": 4743,
               "value": null,
               "raw": "129n",
+              "regex": null,
               "bigint": "129"
             }
           },
@@ -2829,6 +3011,7 @@
               "end": 4784,
               "value": null,
               "raw": "0x48c00000000000000000000000000000000n",
+              "regex": null,
               "bigint": "0x48c00000000000000000000000000000000"
             }
           },
@@ -2837,7 +3020,9 @@
             "start": 4786,
             "end": 4847,
             "value": "-0x246n << 129n === -0x48c00000000000000000000000000000000n",
-            "raw": "\"-0x246n << 129n === -0x48c00000000000000000000000000000000n\""
+            "raw": "\"-0x246n << 129n === -0x48c00000000000000000000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2887,6 +3072,7 @@
                 "end": 4874,
                 "value": null,
                 "raw": "0x246n",
+                "regex": null,
                 "bigint": "0x246"
               }
             },
@@ -2903,6 +3089,7 @@
                 "end": 4883,
                 "value": null,
                 "raw": "128n",
+                "regex": null,
                 "bigint": "128"
               }
             }
@@ -2919,6 +3106,7 @@
               "end": 4888,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -2927,7 +3115,9 @@
             "start": 4890,
             "end": 4916,
             "value": "-0x246n << -128n === -1n",
-            "raw": "\"-0x246n << -128n === -1n\""
+            "raw": "\"-0x246n << -128n === -1n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2977,6 +3167,7 @@
                 "end": 4981,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -2987,6 +3178,7 @@
               "end": 4988,
               "value": null,
               "raw": "64n",
+              "regex": null,
               "bigint": "64"
             }
           },
@@ -3002,6 +3194,7 @@
               "end": 5048,
               "value": null,
               "raw": "0x123456789abcdef0fedcba98765432123456780000000000000000n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba98765432123456780000000000000000"
             }
           },
@@ -3010,7 +3203,9 @@
             "start": 5052,
             "end": 5166,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << 64n === -0x123456789abcdef0fedcba98765432123456780000000000000000n",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 64n === -0x123456789abcdef0fedcba98765432123456780000000000000000n\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 64n === -0x123456789abcdef0fedcba98765432123456780000000000000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3060,6 +3255,7 @@
                 "end": 5231,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3070,6 +3266,7 @@
               "end": 5238,
               "value": null,
               "raw": "32n",
+              "regex": null,
               "bigint": "32"
             }
           },
@@ -3085,6 +3282,7 @@
               "end": 5290,
               "value": null,
               "raw": "0x123456789abcdef0fedcba987654321234567800000000n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba987654321234567800000000"
             }
           },
@@ -3093,7 +3291,9 @@
             "start": 5294,
             "end": 5400,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << 32n === -0x123456789abcdef0fedcba987654321234567800000000n",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 32n === -0x123456789abcdef0fedcba987654321234567800000000n\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 32n === -0x123456789abcdef0fedcba987654321234567800000000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3143,6 +3343,7 @@
                 "end": 5465,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3153,6 +3354,7 @@
               "end": 5472,
               "value": null,
               "raw": "16n",
+              "regex": null,
               "bigint": "16"
             }
           },
@@ -3168,6 +3370,7 @@
               "end": 5520,
               "value": null,
               "raw": "0x123456789abcdef0fedcba98765432123456780000n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba98765432123456780000"
             }
           },
@@ -3176,7 +3379,9 @@
             "start": 5524,
             "end": 5626,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << 16n === -0x123456789abcdef0fedcba98765432123456780000n",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 16n === -0x123456789abcdef0fedcba98765432123456780000n\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 16n === -0x123456789abcdef0fedcba98765432123456780000n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3226,6 +3431,7 @@
                 "end": 5691,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3236,6 +3442,7 @@
               "end": 5697,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -3251,6 +3458,7 @@
               "end": 5741,
               "value": null,
               "raw": "0x123456789abcdef0fedcba9876543212345678n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba9876543212345678"
             }
           },
@@ -3259,7 +3467,9 @@
             "start": 5745,
             "end": 5842,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << 0n === -0x123456789abcdef0fedcba9876543212345678n",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 0n === -0x123456789abcdef0fedcba9876543212345678n\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << 0n === -0x123456789abcdef0fedcba9876543212345678n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3309,6 +3519,7 @@
                 "end": 5907,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3325,6 +3536,7 @@
                 "end": 5915,
                 "value": null,
                 "raw": "16n",
+                "regex": null,
                 "bigint": "16"
               }
             }
@@ -3341,6 +3553,7 @@
               "end": 5955,
               "value": null,
               "raw": "0x123456789abcdef0fedcba987654321235n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba987654321235"
             }
           },
@@ -3349,7 +3562,9 @@
             "start": 5959,
             "end": 6054,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << -16n === -0x123456789abcdef0fedcba987654321235n",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -16n === -0x123456789abcdef0fedcba987654321235n\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -16n === -0x123456789abcdef0fedcba987654321235n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3399,6 +3614,7 @@
                 "end": 6119,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3415,6 +3631,7 @@
                 "end": 6127,
                 "value": null,
                 "raw": "32n",
+                "regex": null,
                 "bigint": "32"
               }
             }
@@ -3431,6 +3648,7 @@
               "end": 6163,
               "value": null,
               "raw": "0x123456789abcdef0fedcba98765433n",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcba98765433"
             }
           },
@@ -3439,7 +3657,9 @@
             "start": 6167,
             "end": 6258,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << -32n === -0x123456789abcdef0fedcba98765433n",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -32n === -0x123456789abcdef0fedcba98765433n\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -32n === -0x123456789abcdef0fedcba98765433n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3489,6 +3709,7 @@
                 "end": 6323,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3505,6 +3726,7 @@
                 "end": 6331,
                 "value": null,
                 "raw": "64n",
+                "regex": null,
                 "bigint": "64"
               }
             }
@@ -3521,6 +3743,7 @@
               "end": 6359,
               "value": null,
               "raw": "0x123456789abcdef0fedcbbn",
+              "regex": null,
               "bigint": "0x123456789abcdef0fedcbb"
             }
           },
@@ -3529,7 +3752,9 @@
             "start": 6363,
             "end": 6446,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << -64n === -0x123456789abcdef0fedcbbn",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -64n === -0x123456789abcdef0fedcbbn\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -64n === -0x123456789abcdef0fedcbbn\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3579,6 +3804,7 @@
                 "end": 6511,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3595,6 +3821,7 @@
                 "end": 6520,
                 "value": null,
                 "raw": "127n",
+                "regex": null,
                 "bigint": "127"
               }
             }
@@ -3611,6 +3838,7 @@
               "end": 6532,
               "value": null,
               "raw": "0x2468adn",
+              "regex": null,
               "bigint": "0x2468ad"
             }
           },
@@ -3619,7 +3847,9 @@
             "start": 6536,
             "end": 6604,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << -127n === -0x2468adn",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -127n === -0x2468adn\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -127n === -0x2468adn\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3669,6 +3899,7 @@
                 "end": 6669,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3685,6 +3916,7 @@
                 "end": 6678,
                 "value": null,
                 "raw": "128n",
+                "regex": null,
                 "bigint": "128"
               }
             }
@@ -3701,6 +3933,7 @@
               "end": 6690,
               "value": null,
               "raw": "0x123457n",
+              "regex": null,
               "bigint": "0x123457"
             }
           },
@@ -3709,7 +3942,9 @@
             "start": 6694,
             "end": 6762,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << -128n === -0x123457n",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -128n === -0x123457n\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -128n === -0x123457n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3759,6 +3994,7 @@
                 "end": 6827,
                 "value": null,
                 "raw": "0x123456789abcdef0fedcba9876543212345678n",
+                "regex": null,
                 "bigint": "0x123456789abcdef0fedcba9876543212345678"
               }
             },
@@ -3775,6 +4011,7 @@
                 "end": 6836,
                 "value": null,
                 "raw": "129n",
+                "regex": null,
                 "bigint": "129"
               }
             }
@@ -3791,6 +4028,7 @@
               "end": 6847,
               "value": null,
               "raw": "0x91a2cn",
+              "regex": null,
               "bigint": "0x91a2c"
             }
           },
@@ -3799,7 +4037,9 @@
             "start": 6851,
             "end": 6918,
             "value": "-0x123456789abcdef0fedcba9876543212345678n << -129n === -0x91a2cn",
-            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -129n === -0x91a2cn\""
+            "raw": "\"-0x123456789abcdef0fedcba9876543212345678n << -129n === -0x91a2cn\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

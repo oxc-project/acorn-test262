@@ -282,14 +282,18 @@ __ESTREE_TEST__:PASS:
                         "start": 170,
                         "end": 171,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 173,
                         "end": 174,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -574,14 +578,18 @@ __ESTREE_TEST__:PASS:
                 "start": 296,
                 "end": 297,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 300,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

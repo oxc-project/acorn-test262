@@ -52,7 +52,9 @@
                         "start": 314,
                         "end": 319,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -143,7 +145,9 @@
                                     "start": 395,
                                     "end": 419,
                                     "value": "it's-a-me, Chris Pratt",
-                                    "raw": "\"it's-a-me, Chris Pratt\""
+                                    "raw": "\"it's-a-me, Chris Pratt\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -256,7 +260,9 @@
                               "start": 511,
                               "end": 515,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -326,7 +332,9 @@
                                     "start": 588,
                                     "end": 622,
                                     "value": "Expected a Test262Error, but a '",
-                                    "raw": "\"Expected a Test262Error, but a '\""
+                                    "raw": "\"Expected a Test262Error, but a '\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -368,7 +376,9 @@
                                   "start": 664,
                                   "end": 679,
                                   "value": "' was thrown.",
-                                  "raw": "\"' was thrown.\""
+                                  "raw": "\"' was thrown.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -409,7 +419,9 @@
                               "start": 733,
                               "end": 809,
                               "value": "assert.throwsAsync did not reject when the thenable resolved with an error",
-                              "raw": "\"assert.throwsAsync did not reject when the thenable resolved with an error\""
+                              "raw": "\"assert.throwsAsync did not reject when the thenable resolved with an error\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

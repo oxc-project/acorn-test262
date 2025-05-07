@@ -227,7 +227,9 @@ __ESTREE_TEST__:PASS:
                               "start": 289,
                               "end": 299,
                               "raw": "\"new-todo\"",
-                              "value": "new-todo"
+                              "value": "new-todo",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -257,7 +259,9 @@ __ESTREE_TEST__:PASS:
                               "start": 323,
                               "end": 328,
                               "raw": "\"off\"",
-                              "value": "off"
+                              "value": "off",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -275,7 +279,9 @@ __ESTREE_TEST__:PASS:
                               "start": 341,
                               "end": 365,
                               "raw": "\"What needs to be done?\"",
-                              "value": "What needs to be done?"
+                              "value": "What needs to be done?",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -453,7 +459,9 @@ __ESTREE_TEST__:PASS:
                           "start": 217,
                           "end": 225,
                           "raw": "\"header\"",
-                          "value": "header"
+                          "value": "header",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -512,7 +520,9 @@ __ESTREE_TEST__:PASS:
                               "start": 579,
                               "end": 591,
                               "raw": "\"toggle-all\"",
-                              "value": "toggle-all"
+                              "value": "toggle-all",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -530,7 +540,9 @@ __ESTREE_TEST__:PASS:
                               "start": 597,
                               "end": 607,
                               "raw": "\"checkbox\"",
-                              "value": "checkbox"
+                              "value": "checkbox",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -689,7 +701,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 1045,
                                               "end": 1049,
                                               "raw": "null",
-                                              "value": null
+                                              "value": null,
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "consequent": {
                                               "type": "JSXElement",
@@ -727,7 +741,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 977,
                                                       "end": 985,
                                                       "raw": "\"toggle\"",
-                                                      "value": "toggle"
+                                                      "value": "toggle",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   {
@@ -745,7 +761,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 991,
                                                       "end": 1001,
                                                       "raw": "\"checkbox\"",
-                                                      "value": "checkbox"
+                                                      "value": "checkbox",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 ],
@@ -990,7 +1008,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 1220,
                                                   "end": 1229,
                                                   "raw": "\"destroy\"",
-                                                  "value": "destroy"
+                                                  "value": "destroy",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               },
                                               {
@@ -1133,7 +1153,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 1378,
                                                       "end": 1384,
                                                       "raw": "\"icon\"",
-                                                      "value": "icon"
+                                                      "value": "icon",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 ],
@@ -1186,7 +1208,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 1321,
                                                   "end": 1333,
                                                   "raw": "\"iconBorder\"",
-                                                  "value": "iconBorder"
+                                                  "value": "iconBorder",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -1239,7 +1263,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 876,
                                               "end": 882,
                                               "raw": "\"view\"",
-                                              "value": "view"
+                                              "value": "view",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ],
@@ -1319,7 +1345,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 771,
                                                   "end": 775,
                                                   "raw": "true",
-                                                  "value": true
+                                                  "value": true,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               },
                                               {
@@ -1542,7 +1570,9 @@ __ESTREE_TEST__:PASS:
                               "start": 669,
                               "end": 680,
                               "raw": "\"todo-list\"",
-                              "value": "todo-list"
+                              "value": "todo-list",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -1595,7 +1625,9 @@ __ESTREE_TEST__:PASS:
                           "start": 473,
                           "end": 479,
                           "raw": "\"main\"",
-                          "value": "main"
+                          "value": "main",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -1644,14 +1676,18 @@ __ESTREE_TEST__:PASS:
                                     "start": 544,
                                     "end": 550,
                                     "raw": "\"none\"",
-                                    "value": "none"
+                                    "value": "none",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "consequent": {
                                     "type": "Literal",
                                     "start": 534,
                                     "end": 541,
                                     "raw": "\"block\"",
-                                    "value": "block"
+                                    "value": "block",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "test": {
                                     "type": "LogicalExpression",
@@ -1781,7 +1817,9 @@ __ESTREE_TEST__:PASS:
                       "start": 184,
                       "end": 193,
                       "raw": "\"todoapp\"",
-                      "value": "todoapp"
+                      "value": "todoapp",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],

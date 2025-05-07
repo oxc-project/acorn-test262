@@ -104,7 +104,9 @@
             "start": 303,
             "end": 340,
             "value": "(newObj instanceof Object) !== true",
-            "raw": "'(newObj instanceof Object) !== true'"
+            "raw": "'(newObj instanceof Object) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

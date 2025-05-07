@@ -40,7 +40,9 @@
                     "start": 387,
                     "end": 401,
                     "value": "early-return",
-                    "raw": "\"early-return\""
+                    "raw": "\"early-return\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -117,7 +119,9 @@
                                       "start": 488,
                                       "end": 498,
                                       "value": "override",
-                                      "raw": "\"override\""
+                                      "raw": "\"override\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -239,14 +243,18 @@
                             "start": 569,
                             "end": 579,
                             "value": "override",
-                            "raw": "\"override\""
+                            "raw": "\"override\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 581,
                             "end": 606,
                             "value": "Return in finally block",
-                            "raw": "\"Return in finally block\""
+                            "raw": "\"Return in finally block\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

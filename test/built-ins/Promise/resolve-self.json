@@ -23,7 +23,9 @@
             "start": 712,
             "end": 716,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -190,7 +192,9 @@
                         "start": 839,
                         "end": 877,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -262,7 +266,9 @@
                               "start": 929,
                               "end": 975,
                               "value": "The promise should be rejected with a value.",
-                              "raw": "'The promise should be rejected with a value.'"
+                              "raw": "'The promise should be rejected with a value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -338,7 +344,9 @@
                               "start": 1047,
                               "end": 1106,
                               "value": "The promise should be rejected with a TypeError instance.",
-                              "raw": "'The promise should be rejected with a TypeError instance.'"
+                              "raw": "'The promise should be rejected with a TypeError instance.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -461,7 +469,9 @@
             "start": 1216,
             "end": 1240,
             "value": "\"resolve\" return value",
-            "raw": "'\"resolve\" return value'"
+            "raw": "'\"resolve\" return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

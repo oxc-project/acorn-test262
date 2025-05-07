@@ -47,7 +47,9 @@
                 "start": 1159,
                 "end": 1211,
                 "value": "1; try { throw null; } catch (err) { } finally { }",
-                "raw": "'1; try { throw null; } catch (err) { } finally { }'"
+                "raw": "'1; try { throw null; } catch (err) { } finally { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 1252,
                 "end": 1307,
                 "value": "2; try { throw null; } catch (err) { 3; } finally { }",
-                "raw": "'2; try { throw null; } catch (err) { 3; } finally { }'"
+                "raw": "'2; try { throw null; } catch (err) { 3; } finally { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 1310,
             "end": 1311,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +172,9 @@
                 "start": 1340,
                 "end": 1395,
                 "value": "4; try { throw null; } catch (err) { } finally { 5; }",
-                "raw": "'4; try { throw null; } catch (err) { } finally { 5; }'"
+                "raw": "'4; try { throw null; } catch (err) { } finally { 5; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,7 +233,9 @@
                 "start": 1436,
                 "end": 1494,
                 "value": "6; try { throw null; } catch (err) { 7; } finally { 8; }",
-                "raw": "'6; try { throw null; } catch (err) { 7; } finally { 8; }'"
+                "raw": "'6; try { throw null; } catch (err) { 7; } finally { 8; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -235,7 +245,9 @@
             "start": 1497,
             "end": 1498,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

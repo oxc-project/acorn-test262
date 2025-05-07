@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 72,
                 "end": 83,
                 "raw": "\"./LazySet\"",
-                "value": "./LazySet"
+                "value": "./LazySet",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

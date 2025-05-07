@@ -23,7 +23,9 @@
             "start": 354,
             "end": 359,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,9 @@
             "start": 370,
             "end": 372,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -93,7 +97,9 @@
                     "start": 408,
                     "end": 444,
                     "value": "#1: \"abc\" + \"\" === \"abc\". Actual: ",
-                    "raw": "'#1: \"abc\" + \"\" === \"abc\". Actual: '"
+                    "raw": "'#1: \"abc\" + \"\" === \"abc\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -109,7 +115,9 @@
                         "start": 448,
                         "end": 453,
                         "value": "abc",
-                        "raw": "\"abc\""
+                        "raw": "\"abc\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -117,7 +125,9 @@
                         "start": 456,
                         "end": 458,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -149,7 +159,9 @@
             "start": 485,
             "end": 490,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -186,7 +198,9 @@
             "start": 508,
             "end": 510,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -233,7 +247,9 @@
                     "start": 554,
                     "end": 600,
                     "value": "#2: typeof \"abc\" + \"\" === \"string\". Actual: ",
-                    "raw": "'#2: typeof \"abc\" + \"\" === \"string\". Actual: '"
+                    "raw": "'#2: typeof \"abc\" + \"\" === \"string\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -255,7 +271,9 @@
                           "start": 611,
                           "end": 616,
                           "value": "abc",
-                          "raw": "\"abc\""
+                          "raw": "\"abc\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "+",
@@ -264,7 +282,9 @@
                         "start": 619,
                         "end": 621,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

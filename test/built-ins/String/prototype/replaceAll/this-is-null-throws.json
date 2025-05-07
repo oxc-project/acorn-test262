@@ -75,14 +75,18 @@
             "start": 578,
             "end": 588,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 613,
             "value": "function must exist",
-            "raw": "'function must exist'"
+            "raw": "'function must exist'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,7 +199,9 @@
                         "start": 691,
                         "end": 695,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

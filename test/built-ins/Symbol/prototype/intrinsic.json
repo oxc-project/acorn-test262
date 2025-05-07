@@ -71,7 +71,9 @@
                     "start": 268,
                     "end": 272,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -103,7 +105,9 @@
             "start": 298,
             "end": 364,
             "value": "`Object.getPrototypeOf(Symbol('66'))` returns `Symbol.prototype`",
-            "raw": "\"`Object.getPrototypeOf(Symbol('66'))` returns `Symbol.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(Symbol('66'))` returns `Symbol.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

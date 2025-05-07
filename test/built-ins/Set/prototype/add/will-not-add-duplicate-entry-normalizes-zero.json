@@ -45,7 +45,9 @@
                       "start": 583,
                       "end": 584,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -108,14 +110,18 @@
             "start": 614,
             "end": 615,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 617,
             "end": 647,
             "value": "The value of `s.size` is `1`",
-            "raw": "\"The value of `s.size` is `1`\""
+            "raw": "\"The value of `s.size` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -160,7 +166,9 @@
               "start": 658,
               "end": 659,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -219,14 +227,18 @@
             "start": 688,
             "end": 689,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 691,
             "end": 750,
             "value": "The value of `s.size` is `1`, after executing `s.add(-0)`",
-            "raw": "\"The value of `s.size` is `1`, after executing `s.add(-0)`\""
+            "raw": "\"The value of `s.size` is `1`, after executing `s.add(-0)`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +277,9 @@
             "start": 760,
             "end": 761,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,14 +337,18 @@
             "start": 790,
             "end": 791,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 851,
             "value": "The value of `s.size` is `1`, after executing `s.add(0)`",
-            "raw": "\"The value of `s.size` is `1`, after executing `s.add(0)`\""
+            "raw": "\"The value of `s.size` is `1`, after executing `s.add(0)`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

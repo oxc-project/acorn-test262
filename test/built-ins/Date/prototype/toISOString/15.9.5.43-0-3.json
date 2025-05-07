@@ -80,14 +80,18 @@
             "start": 304,
             "end": 314,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 316,
             "end": 353,
             "value": "typeof (Date.prototype.toISOString)",
-            "raw": "'typeof (Date.prototype.toISOString)'"
+            "raw": "'typeof (Date.prototype.toISOString)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

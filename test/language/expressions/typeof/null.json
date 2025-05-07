@@ -42,7 +42,9 @@
               "start": 438,
               "end": 442,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -50,14 +52,18 @@
             "start": 447,
             "end": 455,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 485,
             "value": "typeof null === \"object\"",
-            "raw": "'typeof null === \"object\"'"
+            "raw": "'typeof null === \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -121,7 +127,9 @@
                       "start": 524,
                       "end": 527,
                       "value": "0",
-                      "raw": "\"0\""
+                      "raw": "\"0\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -141,7 +149,9 @@
                   "start": 534,
                   "end": 537,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -152,14 +162,18 @@
             "start": 543,
             "end": 551,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 598,
             "value": "typeof RegExp(\"0\").exec(\"1\") === \"object\"",
-            "raw": "'typeof RegExp(\"0\").exec(\"1\") === \"object\"'"
+            "raw": "'typeof RegExp(\"0\").exec(\"1\") === \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

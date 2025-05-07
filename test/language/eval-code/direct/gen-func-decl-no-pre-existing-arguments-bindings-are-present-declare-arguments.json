@@ -40,7 +40,9 @@
               "start": 467,
               "end": 478,
               "value": "arguments",
-              "raw": "\"arguments\""
+              "raw": "\"arguments\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -54,14 +56,18 @@
             "start": 488,
             "end": 493,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 495,
             "end": 526,
             "value": "No global 'arguments' binding",
-            "raw": "\"No global 'arguments' binding\""
+            "raw": "\"No global 'arguments' binding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -107,7 +113,9 @@
                 "start": 552,
                 "end": 567,
                 "value": "var arguments",
-                "raw": "\"var arguments\""
+                "raw": "\"var arguments\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -202,7 +210,9 @@
               "start": 622,
               "end": 633,
               "value": "arguments",
-              "raw": "\"arguments\""
+              "raw": "\"arguments\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -216,14 +226,18 @@
             "start": 643,
             "end": 648,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 650,
             "end": 681,
             "value": "No global 'arguments' binding",
-            "raw": "\"No global 'arguments' binding\""
+            "raw": "\"No global 'arguments' binding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -484,7 +484,9 @@ __ESTREE_TEST__:PASS:
               "start": 555,
               "end": 560,
               "raw": "false",
-              "value": false
+              "value": false,
+              "regex": null,
+              "bigint": null
             },
             "update": {
               "type": "YieldExpression",

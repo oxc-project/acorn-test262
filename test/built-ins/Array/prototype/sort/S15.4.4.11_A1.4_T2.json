@@ -82,7 +82,9 @@
                         "start": 396,
                         "end": 397,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -119,7 +121,9 @@
                       "start": 429,
                       "end": 430,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "alternate": null
@@ -133,7 +137,9 @@
                     "start": 441,
                     "end": 442,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -180,7 +186,9 @@
                 "start": 476,
                 "end": 477,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -259,7 +267,9 @@
           "start": 519,
           "end": 520,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -291,7 +301,9 @@
                     "start": 549,
                     "end": 633,
                     "value": "#1: var x = new Array(undefined, 1); x.sort(myComparefn); x.length === 2. Actual: ",
-                    "raw": "'#1: var x = new Array(undefined, 1); x.sort(myComparefn); x.length === 2. Actual: '"
+                    "raw": "'#1: var x = new Array(undefined, 1); x.sort(myComparefn); x.length === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -349,7 +361,9 @@
             "start": 658,
             "end": 659,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -360,7 +374,9 @@
           "start": 665,
           "end": 666,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -392,7 +408,9 @@
                     "start": 695,
                     "end": 775,
                     "value": "#2: var x = new Array(undefined, 1); x.sort(myComparefn); x[0] === 1. Actual: ",
-                    "raw": "'#2: var x = new Array(undefined, 1); x.sort(myComparefn); x[0] === 1. Actual: '"
+                    "raw": "'#2: var x = new Array(undefined, 1); x.sort(myComparefn); x[0] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -414,7 +432,9 @@
                         "start": 781,
                         "end": 782,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -451,7 +471,9 @@
             "start": 796,
             "end": 797,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -493,7 +515,9 @@
                     "start": 841,
                     "end": 929,
                     "value": "#3: var x = new Array(undefined, 1); x.sort(myComparefn); x[1] === undefined. Actual: ",
-                    "raw": "'#3: var x = new Array(undefined, 1); x.sort(myComparefn); x[1] === undefined. Actual: '"
+                    "raw": "'#3: var x = new Array(undefined, 1); x.sort(myComparefn); x[1] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -515,7 +539,9 @@
                         "start": 935,
                         "end": 936,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -560,7 +586,9 @@
                 "start": 962,
                 "end": 963,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -645,7 +673,9 @@
           "start": 1016,
           "end": 1017,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -677,7 +707,9 @@
                     "start": 1046,
                     "end": 1130,
                     "value": "#4: var x = new Array(1, undefined); x.sort(myComparefn); x.length === 2. Actual: ",
-                    "raw": "'#4: var x = new Array(1, undefined); x.sort(myComparefn); x.length === 2. Actual: '"
+                    "raw": "'#4: var x = new Array(1, undefined); x.sort(myComparefn); x.length === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -735,7 +767,9 @@
             "start": 1155,
             "end": 1156,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -746,7 +780,9 @@
           "start": 1162,
           "end": 1163,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -778,7 +814,9 @@
                     "start": 1192,
                     "end": 1272,
                     "value": "#5: var x = new Array(1, undefined); x.sort(myComparefn); x[0] === 1. Actual: ",
-                    "raw": "'#5: var x = new Array(1, undefined); x.sort(myComparefn); x[0] === 1. Actual: '"
+                    "raw": "'#5: var x = new Array(1, undefined); x.sort(myComparefn); x[0] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -800,7 +838,9 @@
                         "start": 1278,
                         "end": 1279,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -837,7 +877,9 @@
             "start": 1293,
             "end": 1294,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -879,7 +921,9 @@
                     "start": 1338,
                     "end": 1426,
                     "value": "#6: var x = new Array(1, undefined); x.sort(myComparefn); x[1] === undefined. Actual: ",
-                    "raw": "'#6: var x = new Array(1, undefined); x.sort(myComparefn); x[1] === undefined. Actual: '"
+                    "raw": "'#6: var x = new Array(1, undefined); x.sort(myComparefn); x[1] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -901,7 +945,9 @@
                         "start": 1432,
                         "end": 1433,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

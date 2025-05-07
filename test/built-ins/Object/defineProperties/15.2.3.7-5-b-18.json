@@ -73,7 +73,9 @@
             "start": 377,
             "end": 382,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -118,7 +120,9 @@
             "start": 414,
             "end": 426,
             "value": "enumerable",
-            "raw": "\"enumerable\""
+            "raw": "\"enumerable\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -385,7 +389,9 @@
                 "start": 628,
                 "end": 634,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -413,7 +419,9 @@
                       "start": 653,
                       "end": 657,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -463,14 +471,18 @@
             "start": 693,
             "end": 698,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 700,
             "end": 710,
             "value": "accessed",
-            "raw": "'accessed'"
+            "raw": "'accessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

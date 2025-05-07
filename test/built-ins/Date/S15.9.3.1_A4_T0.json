@@ -254,7 +254,9 @@
                             "start": 846,
                             "end": 847,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -269,7 +271,9 @@
             "start": 854,
             "end": 922,
             "value": "`new Date(new PoisonedValueOf(1))` throws a Test262Error exception",
-            "raw": "'`new Date(new PoisonedValueOf(1))` throws a Test262Error exception'"
+            "raw": "'`new Date(new PoisonedValueOf(1))` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

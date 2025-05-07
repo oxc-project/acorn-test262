@@ -23,7 +23,9 @@
             "start": 625,
             "end": 626,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -262,7 +264,9 @@
                     "start": 831,
                     "end": 832,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -275,7 +279,9 @@
                   "start": 843,
                   "end": 845,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -336,14 +342,18 @@
             "start": 879,
             "end": 884,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 886,
             "end": 923,
             "value": "use returned value - non-NaN number",
-            "raw": "\"use returned value - non-NaN number\""
+            "raw": "\"use returned value - non-NaN number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -388,14 +398,18 @@
             "start": 951,
             "end": 952,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 994,
             "value": "toPrimitive is called - non-NaN number",
-            "raw": "\"toPrimitive is called - non-NaN number\""
+            "raw": "\"toPrimitive is called - non-NaN number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,7 +435,9 @@
           "start": 1007,
           "end": 1008,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -500,7 +516,9 @@
                     "start": 1061,
                     "end": 1062,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -513,7 +531,9 @@
                   "start": 1073,
                   "end": 1095,
                   "value": "this is not a number",
-                  "raw": "\"this is not a number\""
+                  "raw": "\"this is not a number\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -574,14 +594,18 @@
             "start": 1129,
             "end": 1133,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1135,
             "end": 1171,
             "value": "use returned value - string to NaN",
-            "raw": "\"use returned value - string to NaN\""
+            "raw": "\"use returned value - string to NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -626,14 +650,18 @@
             "start": 1199,
             "end": 1200,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1202,
             "end": 1241,
             "value": "toPrimitive is called - string to NaN",
-            "raw": "\"toPrimitive is called - string to NaN\""
+            "raw": "\"toPrimitive is called - string to NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -659,7 +687,9 @@
           "start": 1254,
           "end": 1255,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -738,7 +768,9 @@
                     "start": 1308,
                     "end": 1309,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -751,7 +783,9 @@
                   "start": 1320,
                   "end": 1324,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -812,14 +846,18 @@
             "start": 1358,
             "end": 1363,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1365,
             "end": 1400,
             "value": "use returned value - boolean true",
-            "raw": "\"use returned value - boolean true\""
+            "raw": "\"use returned value - boolean true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -864,14 +902,18 @@
             "start": 1428,
             "end": 1429,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1431,
             "end": 1469,
             "value": "toPrimitive is called - boolean true",
-            "raw": "\"toPrimitive is called - boolean true\""
+            "raw": "\"toPrimitive is called - boolean true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -897,7 +939,9 @@
           "start": 1482,
           "end": 1483,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -976,7 +1020,9 @@
                     "start": 1536,
                     "end": 1537,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -989,7 +1035,9 @@
                   "start": 1548,
                   "end": 1553,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1050,14 +1098,18 @@
             "start": 1587,
             "end": 1592,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1594,
             "end": 1630,
             "value": "use returned value - boolean false",
-            "raw": "\"use returned value - boolean false\""
+            "raw": "\"use returned value - boolean false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1102,14 +1154,18 @@
             "start": 1658,
             "end": 1659,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1661,
             "end": 1700,
             "value": "toPrimitive is called - boolean false",
-            "raw": "\"toPrimitive is called - boolean false\""
+            "raw": "\"toPrimitive is called - boolean false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1135,7 +1191,9 @@
           "start": 1713,
           "end": 1714,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1214,7 +1272,9 @@
                     "start": 1767,
                     "end": 1768,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -1287,14 +1347,18 @@
             "start": 1816,
             "end": 1820,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1822,
             "end": 1848,
             "value": "use returned value - NaN",
-            "raw": "\"use returned value - NaN\""
+            "raw": "\"use returned value - NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1339,14 +1403,18 @@
             "start": 1876,
             "end": 1877,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1879,
             "end": 1908,
             "value": "toPrimitive is called - NaN",
-            "raw": "\"toPrimitive is called - NaN\""
+            "raw": "\"toPrimitive is called - NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

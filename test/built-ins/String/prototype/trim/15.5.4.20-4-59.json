@@ -23,7 +23,9 @@
             "start": 296,
             "end": 320,
             "value": "            abc",
-            "raw": "\"\\u2029\\\n           abc\""
+            "raw": "\"\\u2029\\\n           abc\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -88,14 +90,18 @@
             "start": 350,
             "end": 355,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 357,
             "end": 367,
             "value": "s.trim()",
-            "raw": "'s.trim()'"
+            "raw": "'s.trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

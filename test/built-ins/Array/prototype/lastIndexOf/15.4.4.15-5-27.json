@@ -23,7 +23,9 @@
             "start": 331,
             "end": 336,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 359,
             "end": 364,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,7 +123,9 @@
             "start": 409,
             "end": 417,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -209,7 +215,9 @@
                                           "start": 508,
                                           "end": 512,
                                           "value": true,
-                                          "raw": "true"
+                                          "raw": "true",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -248,7 +256,9 @@
                                                   "start": 570,
                                                   "end": 600,
                                                   "value": "Step 5 occurred out of order",
-                                                  "raw": "\"Step 5 occurred out of order\""
+                                                  "raw": "\"Step 5 occurred out of order\"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }
@@ -266,7 +276,9 @@
                                         "start": 628,
                                         "end": 630,
                                         "value": 20,
-                                        "raw": "20"
+                                        "raw": "20",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -300,7 +312,9 @@
                   "start": 668,
                   "end": 672,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -377,7 +391,9 @@
                             "start": 741,
                             "end": 745,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -390,7 +406,9 @@
                           "start": 758,
                           "end": 759,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -506,7 +524,9 @@
             "start": 855,
             "end": 881,
             "value": "stepThreeOccurs !== true",
-            "raw": "'stepThreeOccurs !== true'"
+            "raw": "'stepThreeOccurs !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -538,7 +558,9 @@
             "start": 907,
             "end": 932,
             "value": "stepFiveOccurs !== true",
-            "raw": "'stepFiveOccurs !== true'"
+            "raw": "'stepFiveOccurs !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

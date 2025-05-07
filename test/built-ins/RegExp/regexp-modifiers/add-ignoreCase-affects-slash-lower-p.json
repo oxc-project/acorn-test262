@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?i:\\p{Lu})",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 2733,
                 "end": 2736,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 2739,
             "end": 2763,
             "value": "\\p{Lu} should match A",
-            "raw": "\"\\\\p{Lu} should match A\""
+            "raw": "\"\\\\p{Lu} should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +142,9 @@
                 "start": 2782,
                 "end": 2785,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +154,9 @@
             "start": 2788,
             "end": 2827,
             "value": "\\p{Lu} should match a (ignores case)",
-            "raw": "\"\\\\p{Lu} should match a (ignores case)\""
+            "raw": "\"\\\\p{Lu} should match a (ignores case)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +206,9 @@
                 "start": 2846,
                 "end": 2849,
                 "value": "Z",
-                "raw": "\"Z\""
+                "raw": "\"Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +218,9 @@
             "start": 2852,
             "end": 2876,
             "value": "\\p{Lu} should match Z",
-            "raw": "\"\\\\p{Lu} should match Z\""
+            "raw": "\"\\\\p{Lu} should match Z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +270,9 @@
                 "start": 2895,
                 "end": 2898,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -267,7 +282,9 @@
             "start": 2901,
             "end": 2940,
             "value": "\\p{Lu} should match z (ignores case)",
-            "raw": "\"\\\\p{Lu} should match z (ignores case)\""
+            "raw": "\"\\\\p{Lu} should match z (ignores case)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -297,7 +314,8 @@
             "regex": {
               "pattern": "(?i-:\\p{Lu})",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -347,7 +365,9 @@
                 "start": 2987,
                 "end": 2990,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -357,7 +377,9 @@
             "start": 2993,
             "end": 3017,
             "value": "\\p{Lu} should match A",
-            "raw": "\"\\\\p{Lu} should match A\""
+            "raw": "\"\\\\p{Lu} should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -407,7 +429,9 @@
                 "start": 3036,
                 "end": 3039,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -417,7 +441,9 @@
             "start": 3042,
             "end": 3081,
             "value": "\\p{Lu} should match a (ignores case)",
-            "raw": "\"\\\\p{Lu} should match a (ignores case)\""
+            "raw": "\"\\\\p{Lu} should match a (ignores case)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -467,7 +493,9 @@
                 "start": 3100,
                 "end": 3103,
                 "value": "Z",
-                "raw": "\"Z\""
+                "raw": "\"Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -477,7 +505,9 @@
             "start": 3106,
             "end": 3130,
             "value": "\\p{Lu} should match Z",
-            "raw": "\"\\\\p{Lu} should match Z\""
+            "raw": "\"\\\\p{Lu} should match Z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -527,7 +557,9 @@
                 "start": 3149,
                 "end": 3152,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -537,7 +569,9 @@
             "start": 3155,
             "end": 3194,
             "value": "\\p{Lu} should match z (ignores case)",
-            "raw": "\"\\\\p{Lu} should match z (ignores case)\""
+            "raw": "\"\\\\p{Lu} should match z (ignores case)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,6 +48,7 @@
                 "end": 337,
                 "value": null,
                 "raw": "217175010_123_456_789n",
+                "regex": null,
                 "bigint": "217175010123456789"
               }
             ]
@@ -109,6 +110,7 @@
             "end": 408,
             "value": null,
             "raw": "217175010_123_456_789n",
+            "regex": null,
             "bigint": "217175010123456789"
           },
           {
@@ -116,7 +118,9 @@
             "start": 410,
             "end": 439,
             "value": "epochNanoseconds post epoch",
-            "raw": "\"epochNanoseconds post epoch\""
+            "raw": "\"epochNanoseconds post epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,14 +185,18 @@
             "start": 495,
             "end": 503,
             "value": "bigint",
-            "raw": "\"bigint\""
+            "raw": "\"bigint\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 541,
             "value": "epochNanoseconds value is a bigint",
-            "raw": "\"epochNanoseconds value is a bigint\""
+            "raw": "\"epochNanoseconds value is a bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,6 +253,7 @@
                   "end": 609,
                   "value": null,
                   "raw": "217175010_876_543_211n",
+                  "regex": null,
                   "bigint": "217175010876543211"
                 }
               }
@@ -313,6 +322,7 @@
               "end": 682,
               "value": null,
               "raw": "217175010_876_543_211n",
+              "regex": null,
               "bigint": "217175010876543211"
             }
           },
@@ -321,7 +331,9 @@
             "start": 684,
             "end": 712,
             "value": "epochNanoseconds pre epoch",
-            "raw": "\"epochNanoseconds pre epoch\""
+            "raw": "\"epochNanoseconds pre epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,14 +398,18 @@
             "start": 769,
             "end": 777,
             "value": "bigint",
-            "raw": "\"bigint\""
+            "raw": "\"bigint\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 779,
             "end": 815,
             "value": "epochNanoseconds value is a bigint",
-            "raw": "\"epochNanoseconds value is a bigint\""
+            "raw": "\"epochNanoseconds value is a bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

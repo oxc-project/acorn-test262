@@ -45,7 +45,9 @@
                       "start": 593,
                       "end": 594,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -108,14 +110,18 @@
             "start": 624,
             "end": 625,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 657,
             "value": "The value of `s.size` is `1`",
-            "raw": "\"The value of `s.size` is `1`\""
+            "raw": "\"The value of `s.size` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -171,7 +177,9 @@
                   "start": 684,
                   "end": 685,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -233,14 +241,18 @@
             "start": 714,
             "end": 715,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 779,
             "value": "The value of `s.size` is `0`, after executing `s.delete(-0)`",
-            "raw": "\"The value of `s.size` is `0`, after executing `s.delete(-0)`\""
+            "raw": "\"The value of `s.size` is `0`, after executing `s.delete(-0)`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,14 +297,18 @@
             "start": 807,
             "end": 811,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 813,
             "end": 853,
             "value": "The result of `s.delete(+0)` is `true`",
-            "raw": "\"The result of `s.delete(+0)` is `true`\""
+            "raw": "\"The result of `s.delete(+0)` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

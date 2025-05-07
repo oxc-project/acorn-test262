@@ -75,7 +75,9 @@
                             "start": 1050,
                             "end": 1051,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

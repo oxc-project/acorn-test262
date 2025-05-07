@@ -20,7 +20,9 @@
             "start": 356,
             "end": 357,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "operator": "===",
           "right": {
@@ -28,7 +30,9 @@
             "start": 360,
             "end": 361,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         "body": {
@@ -74,7 +78,9 @@
                     "start": 437,
                     "end": 444,
                     "value": "black",
-                    "raw": "\"black\""
+                    "raw": "\"black\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -93,7 +99,9 @@
                   "start": 465,
                   "end": 466,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "body": {
                   "type": "BlockStatement",
@@ -120,7 +128,9 @@
                             "start": 510,
                             "end": 516,
                             "value": "hole",
-                            "raw": "\"hole\""
+                            "raw": "\"hole\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -157,7 +167,9 @@
                             "start": 579,
                             "end": 584,
                             "value": "sun",
-                            "raw": "\"sun\""
+                            "raw": "\"sun\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -198,7 +210,9 @@
                     "start": 625,
                     "end": 641,
                     "value": "won't you come",
-                    "raw": "\"won't you come\""
+                    "raw": "\"won't you come\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -309,7 +323,9 @@
                   "start": 876,
                   "end": 943,
                   "value": "#1: Break inside do-while is allowed as its described at standard",
-                  "raw": "'#1: Break inside do-while is allowed as its described at standard'"
+                  "raw": "'#1: Break inside do-while is allowed as its described at standard'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

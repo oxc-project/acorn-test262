@@ -149,7 +149,9 @@
           "start": 404,
           "end": 416,
           "value": "isWritable",
-          "raw": "\"isWritable\""
+          "raw": "\"isWritable\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -205,14 +207,18 @@
             "start": 450,
             "end": 462,
             "value": "isWritable",
-            "raw": "\"isWritable\""
+            "raw": "\"isWritable\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 478,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

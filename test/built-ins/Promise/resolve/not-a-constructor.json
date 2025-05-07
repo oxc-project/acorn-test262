@@ -69,14 +69,18 @@
             "start": 736,
             "end": 741,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 743,
             "end": 793,
             "value": "isConstructor(Promise.resolve) must return false",
-            "raw": "'isConstructor(Promise.resolve) must return false'"
+            "raw": "'isConstructor(Promise.resolve) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

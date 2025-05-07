@@ -48,6 +48,7 @@
                 "end": 395,
                 "value": null,
                 "raw": "941184000_000_000_000n",
+                "regex": null,
                 "bigint": "941184000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 397,
                 "end": 416,
                 "value": "America/Vancouver",
-                "raw": "\"America/Vancouver\""
+                "raw": "\"America/Vancouver\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -96,7 +99,9 @@
             "start": 491,
             "end": 537,
             "value": "1999-10-29T01:00:00-07:00[America/Vancouver]",
-            "raw": "'1999-10-29T01:00:00-07:00[America/Vancouver]'"
+            "raw": "'1999-10-29T01:00:00-07:00[America/Vancouver]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -172,28 +177,36 @@
                 "start": 597,
                 "end": 598,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 600,
                 "end": 601,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 604,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 606,
                 "end": 607,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -245,35 +258,45 @@
                 "start": 643,
                 "end": 644,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 647,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 649,
                 "end": 650,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 652,
                 "end": 653,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 655,
                 "end": 657,
                 "value": 25,
-                "raw": "25"
+                "raw": "25",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -314,7 +337,9 @@
             "start": 742,
             "end": 743,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -401,7 +426,9 @@
             "start": 800,
             "end": 829,
             "value": "2000-10-29 is a 25-hour day",
-            "raw": "\"2000-10-29 is a 25-hour day\""
+            "raw": "\"2000-10-29 is a 25-hour day\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -440,7 +467,9 @@
             "start": 851,
             "end": 852,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -508,7 +537,9 @@
                       "start": 895,
                       "end": 896,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -530,7 +561,9 @@
                       "start": 905,
                       "end": 907,
                       "value": 24,
-                      "raw": "24"
+                      "raw": "24",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -572,7 +605,9 @@
             "start": 930,
             "end": 965,
             "value": "2020-10-29 has more than 24 hours",
-            "raw": "\"2020-10-29 has more than 24 hours\""
+            "raw": "\"2020-10-29 has more than 24 hours\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

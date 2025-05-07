@@ -139,7 +139,9 @@
                 "start": 1151,
                 "end": 1154,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",

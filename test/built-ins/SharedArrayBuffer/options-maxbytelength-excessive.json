@@ -71,7 +71,9 @@
                         "start": 960,
                         "end": 961,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -96,7 +98,9 @@
                               "start": 980,
                               "end": 996,
                               "value": 9007199254740992,
-                              "raw": "9007199254740992"
+                              "raw": "9007199254740992",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

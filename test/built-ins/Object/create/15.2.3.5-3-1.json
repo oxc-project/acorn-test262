@@ -179,7 +179,9 @@
             "start": 499,
             "end": 525,
             "value": "Object.getPrototypeOf(d)",
-            "raw": "'Object.getPrototypeOf(d)'"
+            "raw": "'Object.getPrototypeOf(d)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,14 +253,18 @@
             "start": 565,
             "end": 569,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 591,
             "value": "b.isPrototypeOf(d)",
-            "raw": "'b.isPrototypeOf(d)'"
+            "raw": "'b.isPrototypeOf(d)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

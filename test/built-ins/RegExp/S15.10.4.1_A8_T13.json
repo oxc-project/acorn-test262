@@ -36,7 +36,9 @@
                     "start": 357,
                     "end": 447,
                     "value": "#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: ",
-                    "raw": "'#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: '"
+                    "raw": "'#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -59,7 +61,9 @@
                           "start": 462,
                           "end": 465,
                           "value": "1",
-                          "raw": "\"1\""
+                          "raw": "\"1\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",
@@ -102,7 +106,9 @@
                                         "start": 494,
                                         "end": 503,
                                         "value": "intostr",
-                                        "raw": "\"intostr\""
+                                        "raw": "\"intostr\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -175,14 +181,18 @@
                     "start": 547,
                     "end": 556,
                     "value": "intostr",
-                    "raw": "\"intostr\""
+                    "raw": "\"intostr\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 558,
                     "end": 602,
                     "value": "The value of e is expected to be \"intostr\"",
-                    "raw": "'The value of e is expected to be \"intostr\"'"
+                    "raw": "'The value of e is expected to be \"intostr\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

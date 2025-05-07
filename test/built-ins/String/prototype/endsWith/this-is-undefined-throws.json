@@ -116,7 +116,9 @@
                         "start": 503,
                         "end": 505,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

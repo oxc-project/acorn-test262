@@ -71,7 +71,9 @@
                       "start": 635,
                       "end": 645,
                       "value": "currency",
-                      "raw": "\"currency\""
+                      "raw": "\"currency\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -93,7 +95,9 @@
                       "start": 657,
                       "end": 662,
                       "value": "USD",
-                      "raw": "\"USD\""
+                      "raw": "\"USD\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -267,7 +271,9 @@
             "start": 806,
             "end": 888,
             "value": "Currency data not used; maximumFractionDigits should match minimumFractionDigits",
-            "raw": "\"Currency data not used; maximumFractionDigits should match minimumFractionDigits\""
+            "raw": "\"Currency data not used; maximumFractionDigits should match minimumFractionDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

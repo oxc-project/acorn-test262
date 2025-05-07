@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\b(\\w+) \\1\\b",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 473,
                 "end": 501,
                 "value": "do you listen the the band",
-                "raw": "\"do you listen the the band\""
+                "raw": "\"do you listen the the band\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -86,14 +89,18 @@
                 "start": 523,
                 "end": 532,
                 "value": "the the",
-                "raw": "\"the the\""
+                "raw": "\"the the\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 534,
                 "end": 539,
                 "value": "the",
-                "raw": "\"the\""
+                "raw": "\"the\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -134,7 +141,9 @@
           "start": 561,
           "end": 563,
           "value": 14,
-          "raw": "14"
+          "raw": "14",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -171,7 +180,9 @@
           "start": 584,
           "end": 612,
           "value": "do you listen the the band",
-          "raw": "\"do you listen the the band\""
+          "raw": "\"do you listen the the band\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -246,7 +257,9 @@
             "start": 677,
             "end": 761,
             "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,7 +336,9 @@
             "start": 826,
             "end": 908,
             "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +415,9 @@
             "start": 973,
             "end": 1055,
             "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +447,9 @@
               "start": 1074,
               "end": 1075,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -556,7 +575,9 @@
                   "start": 1183,
                   "end": 1267,
                   "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 301,
                 "end": 306,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -93,7 +96,8 @@
                 "regex": {
                   "pattern": "(?<x>b)|(?<x>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -110,7 +114,9 @@
                 "start": 340,
                 "end": 345,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -151,7 +157,8 @@
                 "regex": {
                   "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -168,7 +175,9 @@
                 "start": 389,
                 "end": 393,
                 "value": "aa",
-                "raw": "\"aa\""
+                "raw": "\"aa\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -209,7 +218,8 @@
                 "regex": {
                   "pattern": "(?:(?<x>a)|(?<x>b))\\k<x>",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -226,7 +236,9 @@
                 "start": 436,
                 "end": 440,
                 "value": "bb",
-                "raw": "\"bb\""
+                "raw": "\"bb\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -267,7 +279,8 @@
                 "regex": {
                   "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -284,7 +297,9 @@
                 "start": 502,
                 "end": 508,
                 "value": "aabb",
-                "raw": "\"aabb\""
+                "raw": "\"aabb\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -350,7 +365,8 @@
                 "regex": {
                   "pattern": "(?:(?:(?<x>a)|(?<x>b))\\k<x>){2}",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -367,7 +383,9 @@
                 "start": 589,
                 "end": 595,
                 "value": "abab",
-                "raw": "\"abab\""
+                "raw": "\"abab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -415,7 +433,9 @@
             "start": 627,
             "end": 632,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

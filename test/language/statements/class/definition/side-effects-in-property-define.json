@@ -196,7 +196,9 @@
                       "start": 344,
                       "end": 345,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -271,14 +273,18 @@
             "start": 382,
             "end": 383,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 385,
             "end": 412,
             "value": "`new C().m()` returns `1`",
-            "raw": "\"`new C().m()` returns `1`\""
+            "raw": "\"`new C().m()` returns `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

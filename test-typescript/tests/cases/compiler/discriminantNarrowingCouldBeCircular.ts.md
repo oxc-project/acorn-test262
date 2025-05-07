@@ -1363,21 +1363,27 @@ __ESTREE_TEST__:PASS:
                   "start": 943,
                   "end": 946,
                   "raw": "\"a\"",
-                  "value": "a"
+                  "value": "a",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 948,
                   "end": 951,
                   "raw": "\"b\"",
-                  "value": "b"
+                  "value": "b",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 953,
                   "end": 956,
                   "raw": "\"c\"",
-                  "value": "c"
+                  "value": "c",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

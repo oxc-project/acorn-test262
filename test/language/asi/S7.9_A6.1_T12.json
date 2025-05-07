@@ -12,14 +12,18 @@
         "start": 300,
         "end": 305,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "test": {
         "type": "Literal",
         "start": 311,
         "end": 316,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "update": null,
       "body": {

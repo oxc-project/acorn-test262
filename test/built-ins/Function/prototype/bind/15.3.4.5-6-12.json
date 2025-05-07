@@ -154,14 +154,18 @@
             "start": 341,
             "end": 352,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 354,
             "end": 377,
             "value": "typeof (obj.property)",
-            "raw": "'typeof (obj.property)'"
+            "raw": "'typeof (obj.property)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

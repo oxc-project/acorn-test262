@@ -92,7 +92,9 @@
                   "start": 427,
                   "end": 448,
                   "value": "functionGetProperty",
-                  "raw": "\"functionGetProperty\""
+                  "raw": "\"functionGetProperty\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -174,7 +176,9 @@
             "start": 509,
             "end": 519,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -238,14 +242,18 @@
             "start": 562,
             "end": 583,
             "value": "functionGetProperty",
-            "raw": "\"functionGetProperty\""
+            "raw": "\"functionGetProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 585,
             "end": 599,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

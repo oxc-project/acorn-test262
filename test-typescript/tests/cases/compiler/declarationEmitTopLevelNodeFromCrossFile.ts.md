@@ -181,7 +181,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 22,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -262,7 +264,9 @@ __ESTREE_TEST__:PASS:
                     "start": 120,
                     "end": 121,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

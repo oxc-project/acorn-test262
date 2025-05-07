@@ -60,7 +60,9 @@
                 "start": 653,
                 "end": 678,
                 "value": "2023-01-01[u-ca=hebrew]",
-                "raw": "\"2023-01-01[u-ca=hebrew]\""
+                "raw": "\"2023-01-01[u-ca=hebrew]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 721,
             "end": 726,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 728,
             "end": 729,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

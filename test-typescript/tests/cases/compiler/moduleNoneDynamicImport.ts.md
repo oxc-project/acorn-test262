@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 24,
               "raw": "\"./b\"",
-              "value": "./b"
+              "value": "./b",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -63,7 +65,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 16,
         "raw": "1",
-        "value": 1
+        "value": 1,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }

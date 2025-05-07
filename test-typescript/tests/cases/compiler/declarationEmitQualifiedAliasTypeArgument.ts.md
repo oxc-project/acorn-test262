@@ -346,7 +346,9 @@ __ESTREE_TEST__:PASS:
                 "start": 81,
                 "end": 84,
                 "raw": "\"a\"",
-                "value": "a"
+                "value": "a",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -368,7 +370,9 @@ __ESTREE_TEST__:PASS:
                 "start": 94,
                 "end": 97,
                 "raw": "\"b\"",
-                "value": "b"
+                "value": "b",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -548,7 +552,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 28,
         "raw": "\"./lib\"",
-        "value": "./lib"
+        "value": "./lib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -612,7 +618,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 60,
         "raw": "\"./bbb\"",
-        "value": "./bbb"
+        "value": "./bbb",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -96,7 +96,9 @@
                         "start": 347,
                         "end": 377,
                         "value": "'use strict'; var arguments;",
-                        "raw": "\"'use strict'; var arguments;\""
+                        "raw": "\"'use strict'; var arguments;\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

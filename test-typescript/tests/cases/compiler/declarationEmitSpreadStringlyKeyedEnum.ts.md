@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 23,
               "raw": "\"0-17\"",
-              "value": "0-17"
+              "value": "0-17",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -38,7 +40,9 @@ __ESTREE_TEST__:PASS:
               "start": 26,
               "end": 33,
               "raw": "\"18-22\"",
-              "value": "18-22"
+              "value": "18-22",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -52,7 +56,9 @@ __ESTREE_TEST__:PASS:
               "start": 36,
               "end": 43,
               "raw": "\"23-27\"",
-              "value": "23-27"
+              "value": "23-27",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -66,7 +72,9 @@ __ESTREE_TEST__:PASS:
               "start": 46,
               "end": 53,
               "raw": "\"28-34\"",
-              "value": "28-34"
+              "value": "28-34",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -80,7 +88,9 @@ __ESTREE_TEST__:PASS:
               "start": 56,
               "end": 63,
               "raw": "\"35-44\"",
-              "value": "35-44"
+              "value": "35-44",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -94,7 +104,9 @@ __ESTREE_TEST__:PASS:
               "start": 66,
               "end": 73,
               "raw": "\"45-59\"",
-              "value": "45-59"
+              "value": "45-59",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -108,7 +120,9 @@ __ESTREE_TEST__:PASS:
               "start": 76,
               "end": 84,
               "raw": "\"60-150\"",
-              "value": "60-150"
+              "value": "60-150",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           }

@@ -46,7 +46,9 @@
                 "start": 393,
                 "end": 397,
                 "value": "12",
-                "raw": "\"12\""
+                "raw": "\"12\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -55,14 +57,18 @@
             "start": 402,
             "end": 404,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 453,
             "value": "The value of `+(\"12\")` is expected to be 12",
-            "raw": "'The value of `+(\"12\")` is expected to be 12'"
+            "raw": "'The value of `+(\"12\")` is expected to be 12'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -112,7 +118,9 @@
                 "start": 485,
                 "end": 490,
                 "value": "123",
-                "raw": "\"123\""
+                "raw": "\"123\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,14 +130,18 @@
             "start": 495,
             "end": 498,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 533,
             "value": "Number(\"123\") must return 123",
-            "raw": "'Number(\"123\") must return 123'"
+            "raw": "'Number(\"123\") must return 123'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +191,9 @@
                 "start": 565,
                 "end": 571,
                 "value": "1234",
-                "raw": "\"1234\""
+                "raw": "\"1234\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -189,14 +203,18 @@
             "start": 576,
             "end": 580,
             "value": 1234,
-            "raw": "1234"
+            "raw": "1234",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 617,
             "value": "Number(\"1234\") must return 1234",
-            "raw": "'Number(\"1234\") must return 1234'"
+            "raw": "'Number(\"1234\") must return 1234'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

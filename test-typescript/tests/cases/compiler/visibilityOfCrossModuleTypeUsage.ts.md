@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 56,
           "end": 95,
           "raw": "'./visibilityOfCrossModuleTypeUsage_fs'",
-          "value": "./visibilityOfCrossModuleTypeUsage_fs"
+          "value": "./visibilityOfCrossModuleTypeUsage_fs",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -55,7 +57,9 @@ __ESTREE_TEST__:PASS:
           "start": 122,
           "end": 165,
           "raw": "'./visibilityOfCrossModuleTypeUsage_server'",
-          "value": "./visibilityOfCrossModuleTypeUsage_server"
+          "value": "./visibilityOfCrossModuleTypeUsage_server",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -389,7 +393,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 71,
           "raw": "'./visibilityOfCrossModuleTypeUsage_commands'",
-          "value": "./visibilityOfCrossModuleTypeUsage_commands"
+          "value": "./visibilityOfCrossModuleTypeUsage_commands",
+          "regex": null,
+          "bigint": null
         }
       }
     },

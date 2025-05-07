@@ -23,7 +23,9 @@
             "start": 979,
             "end": 980,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +126,9 @@
                           "start": 1044,
                           "end": 1045,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -173,7 +177,9 @@
                             "start": 1079,
                             "end": 1080,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -183,7 +189,9 @@
                           "start": 1083,
                           "end": 1085,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -232,7 +240,9 @@
                             "start": 1119,
                             "end": 1120,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -242,7 +252,9 @@
                           "start": 1123,
                           "end": 1129,
                           "value": "TC39",
-                          "raw": "'TC39'"
+                          "raw": "'TC39'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -279,7 +291,9 @@
                           "start": 1160,
                           "end": 1161,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -337,14 +351,18 @@
             "start": 1189,
             "end": 1191,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1193,
             "end": 1199,
             "value": "TC39",
-            "raw": "'TC39'"
+            "raw": "'TC39'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -440,14 +458,18 @@
             "start": 1311,
             "end": 1312,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1314,
             "end": 1343,
             "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "raw": "'method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -25,7 +25,9 @@
         "start": 1166,
         "end": 1201,
         "value": "./instn-star-ambiguous_FIXTURE.js",
-        "raw": "'./instn-star-ambiguous_FIXTURE.js'"
+        "raw": "'./instn-star-ambiguous_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -53,7 +55,9 @@
               "start": 1211,
               "end": 1218,
               "value": "first",
-              "raw": "'first'"
+              "raw": "'first'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -68,7 +72,9 @@
             "start": 1226,
             "end": 1279,
             "value": "Non-ambiguous exports from first module are present",
-            "raw": "'Non-ambiguous exports from first module are present'"
+            "raw": "'Non-ambiguous exports from first module are present'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -98,7 +104,9 @@
               "start": 1289,
               "end": 1297,
               "value": "second",
-              "raw": "'second'"
+              "raw": "'second'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -113,7 +121,9 @@
             "start": 1305,
             "end": 1359,
             "value": "Non-ambiguous exports from second module are present",
-            "raw": "'Non-ambiguous exports from second module are present'"
+            "raw": "'Non-ambiguous exports from second module are present'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -156,7 +166,9 @@
               "start": 1379,
               "end": 1385,
               "value": "both",
-              "raw": "'both'"
+              "raw": "'both'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -171,14 +183,18 @@
             "start": 1393,
             "end": 1398,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1400,
             "end": 1433,
             "value": "Ambiguous export is not present",
-            "raw": "'Ambiguous export is not present'"
+            "raw": "'Ambiguous export is not present'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

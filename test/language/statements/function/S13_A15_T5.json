@@ -23,7 +23,9 @@
           "start": 335,
           "end": 381,
           "value": "Answer to Life, the Universe, and Everything",
-          "raw": "\"Answer to Life, the Universe, and Everything\""
+          "raw": "\"Answer to Life, the Universe, and Everything\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -144,7 +146,9 @@
                   "start": 603,
                   "end": 632,
                   "value": "#1: __func() !== THE_ANSWER",
-                  "raw": "'#1: __func() !== THE_ANSWER'"
+                  "raw": "'#1: __func() !== THE_ANSWER'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -177,7 +181,9 @@
               "start": 820,
               "end": 843,
               "value": "The Ultimate Question",
-              "raw": "\"The Ultimate Question\""
+              "raw": "\"The Ultimate Question\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -188,7 +194,9 @@
           "start": 849,
           "end": 872,
           "value": "The Ultimate Question",
-          "raw": "\"The Ultimate Question\""
+          "raw": "\"The Ultimate Question\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -216,7 +224,9 @@
                   "start": 900,
                   "end": 965,
                   "value": "#2: __func(\"The Ultimate Question\") !== \"The Ultimate Question\"",
-                  "raw": "'#2: __func(\"The Ultimate Question\") !== \"The Ultimate Question\"'"
+                  "raw": "'#2: __func(\"The Ultimate Question\") !== \"The Ultimate Question\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

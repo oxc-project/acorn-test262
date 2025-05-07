@@ -44,7 +44,9 @@
                 "start": 282,
                 "end": 293,
                 "value": "\fabc",
-                "raw": "\"\\u000Cabc\""
+                "raw": "\"\\u000Cabc\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 302,
             "end": 307,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 309,
             "end": 329,
             "value": "\"\fabc\".trim()",
-            "raw": "'\"\\u000Cabc\".trim()'"
+            "raw": "'\"\\u000Cabc\".trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

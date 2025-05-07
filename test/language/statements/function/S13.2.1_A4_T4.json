@@ -50,7 +50,9 @@
                     "start": 430,
                     "end": 431,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -60,7 +62,9 @@
                   "start": 433,
                   "end": 436,
                   "value": "E",
-                  "raw": "\"E\""
+                  "raw": "\"E\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -70,7 +74,9 @@
                 "start": 438,
                 "end": 442,
                 "value": 2.74,
-                "raw": "2.74"
+                "raw": "2.74",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -160,7 +166,9 @@
           "start": 583,
           "end": 587,
           "value": 2.74,
-          "raw": "2.74"
+          "raw": "2.74",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -192,7 +200,9 @@
                     "start": 615,
                     "end": 658,
                     "value": "#1: __obj.E === 2.74. Actual: __obj.E ===",
-                    "raw": "'#1: __obj.E === 2.74. Actual: __obj.E ==='"
+                    "raw": "'#1: __obj.E === 2.74. Actual: __obj.E ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

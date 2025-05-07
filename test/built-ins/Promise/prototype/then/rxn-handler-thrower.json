@@ -148,7 +148,9 @@
                             "start": 374,
                             "end": 423,
                             "value": "Unexpected fulfillment - promise should reject.",
-                            "raw": "\"Unexpected fulfillment - promise should reject.\""
+                            "raw": "\"Unexpected fulfillment - promise should reject.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -229,7 +231,9 @@
                                     "start": 482,
                                     "end": 527,
                                     "value": "Expected reject reason to be obj, actually ",
-                                    "raw": "\"Expected reject reason to be obj, actually \""
+                                    "raw": "\"Expected reject reason to be obj, actually \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {

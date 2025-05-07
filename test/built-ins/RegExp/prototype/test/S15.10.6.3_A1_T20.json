@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "[a-f]d",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -137,7 +138,9 @@
               "start": 390,
               "end": 394,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -145,7 +148,9 @@
             "start": 396,
             "end": 443,
             "value": "__re.test() must return __re.exec(x) !== null",
-            "raw": "'__re.test() must return __re.exec(x) !== null'"
+            "raw": "'__re.test() must return __re.exec(x) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

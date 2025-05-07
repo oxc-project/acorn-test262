@@ -126,14 +126,18 @@
             "start": 357,
             "end": 376,
             "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "raw": "\"[object Function]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 458,
             "value": "Object.prototype.toString.call(new Function) must return \"[object Function]\"",
-            "raw": "'Object.prototype.toString.call(new Function) must return \"[object Function]\"'"
+            "raw": "'Object.prototype.toString.call(new Function) must return \"[object Function]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

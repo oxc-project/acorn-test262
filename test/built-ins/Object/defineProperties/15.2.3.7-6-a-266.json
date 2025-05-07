@@ -79,7 +79,9 @@
                   "start": 485,
                   "end": 495,
                   "value": "property",
-                  "raw": "\"property\""
+                  "raw": "\"property\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -104,7 +106,9 @@
                         "start": 510,
                         "end": 512,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -126,7 +130,9 @@
                         "start": 528,
                         "end": 532,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -148,7 +154,9 @@
                         "start": 550,
                         "end": 554,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -170,7 +178,9 @@
                         "start": 574,
                         "end": 578,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -210,7 +220,9 @@
             "start": 608,
             "end": 618,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -235,7 +247,9 @@
                   "start": 631,
                   "end": 633,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -257,7 +271,9 @@
                   "start": 647,
                   "end": 651,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -279,7 +295,9 @@
                   "start": 667,
                   "end": 671,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -301,7 +319,9 @@
                   "start": 689,
                   "end": 693,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -344,7 +364,9 @@
           "start": 719,
           "end": 720,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -376,7 +398,9 @@
                     "start": 749,
                     "end": 787,
                     "value": "Expected arr.length === 0, actually ",
-                    "raw": "'Expected arr.length === 0, actually '"
+                    "raw": "'Expected arr.length === 0, actually '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

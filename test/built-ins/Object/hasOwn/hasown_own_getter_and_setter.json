@@ -59,7 +59,9 @@
                           "start": 337,
                           "end": 339,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -174,7 +176,9 @@
                 "start": 403,
                 "end": 408,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -184,14 +188,18 @@
             "start": 411,
             "end": 415,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 417,
             "end": 451,
             "value": "Object.hasOwn(o, \"foo\") !== true",
-            "raw": "'Object.hasOwn(o, \"foo\") !== true'"
+            "raw": "'Object.hasOwn(o, \"foo\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

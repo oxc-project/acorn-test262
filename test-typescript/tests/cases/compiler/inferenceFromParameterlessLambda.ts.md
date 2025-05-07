@@ -394,7 +394,9 @@ __ESTREE_TEST__:PASS:
               "start": 214,
               "end": 218,
               "raw": "'hi'",
-              "value": "hi"
+              "value": "hi",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,

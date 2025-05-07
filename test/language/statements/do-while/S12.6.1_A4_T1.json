@@ -64,7 +64,9 @@
                 "start": 405,
                 "end": 414,
                 "value": "reached",
-                "raw": "\"reached\""
+                "raw": "\"reached\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -94,7 +96,9 @@
                 "start": 456,
                 "end": 468,
                 "value": "where am i",
-                "raw": "\"where am i\""
+                "raw": "\"where am i\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -109,7 +113,9 @@
           "start": 478,
           "end": 479,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         },
         "operator": "===",
         "right": {
@@ -117,7 +123,9 @@
           "start": 482,
           "end": 483,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -141,7 +149,9 @@
           "start": 608,
           "end": 617,
           "value": "reached",
-          "raw": "\"reached\""
+          "raw": "\"reached\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -173,7 +183,9 @@
                     "start": 645,
                     "end": 726,
                     "value": "#1: __in__do__before__break === \"reached\". Actual:  __in__do__before__break ===",
-                    "raw": "'#1: __in__do__before__break === \"reached\". Actual:  __in__do__before__break ==='"
+                    "raw": "'#1: __in__do__before__break === \"reached\". Actual:  __in__do__before__break ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -217,7 +229,9 @@
           "start": 968,
           "end": 979,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -249,7 +263,9 @@
                     "start": 1007,
                     "end": 1102,
                     "value": "#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ===",
-                    "raw": "'#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ==='"
+                    "raw": "'#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

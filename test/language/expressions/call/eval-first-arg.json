@@ -43,14 +43,18 @@
             "start": 339,
             "end": 346,
             "value": "x = 1",
-            "raw": "\"x = 1\""
+            "raw": "\"x = 1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 355,
             "value": "x = 2",
-            "raw": "\"x = 2\""
+            "raw": "\"x = 2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -76,7 +80,9 @@
           "start": 368,
           "end": 369,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -108,7 +114,9 @@
                     "start": 398,
                     "end": 445,
                     "value": "#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: ",
-                    "raw": "'#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: '"
+                    "raw": "'#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

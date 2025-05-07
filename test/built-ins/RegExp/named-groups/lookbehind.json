@@ -41,14 +41,18 @@
                 "start": 359,
                 "end": 362,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 367,
                 "value": "c",
-                "raw": "\"c\""
+                "raw": "\"c\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -65,7 +69,9 @@
                 "start": 370,
                 "end": 378,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -86,7 +92,8 @@
                 "regex": {
                   "pattern": "(?<=(?<a>\\w){3})f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -128,7 +135,9 @@
             "start": 426,
             "end": 429,
             "value": "c",
-            "raw": "\"c\""
+            "raw": "\"c\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -151,7 +160,9 @@
                     "start": 431,
                     "end": 439,
                     "value": "abcdef",
-                    "raw": "\"abcdef\""
+                    "raw": "\"abcdef\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -172,7 +183,8 @@
                     "regex": {
                       "pattern": "(?<=(?<a>\\w){3})f",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -232,7 +244,9 @@
             "start": 496,
             "end": 499,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -255,7 +269,9 @@
                     "start": 501,
                     "end": 509,
                     "value": "abcdef",
-                    "raw": "\"abcdef\""
+                    "raw": "\"abcdef\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -276,7 +292,8 @@
                     "regex": {
                       "pattern": "(?<=(?<a>\\w){4})f",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -336,7 +353,9 @@
             "start": 566,
             "end": 569,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -359,7 +378,9 @@
                     "start": 571,
                     "end": 579,
                     "value": "abcdef",
-                    "raw": "\"abcdef\""
+                    "raw": "\"abcdef\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -380,7 +401,8 @@
                     "regex": {
                       "pattern": "(?<=(?<a>\\w)+)f",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -440,7 +462,9 @@
             "start": 634,
             "end": 638,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -455,7 +479,9 @@
                 "start": 640,
                 "end": 648,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -476,7 +502,8 @@
                 "regex": {
                   "pattern": "(?<=(?<a>\\w){6})f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -523,14 +550,18 @@
                 "start": 701,
                 "end": 704,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 706,
                 "end": 708,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -547,7 +578,9 @@
                 "start": 711,
                 "end": 719,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -568,7 +601,8 @@
                 "regex": {
                   "pattern": "((?<=\\w{3}))f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -615,14 +649,18 @@
                 "start": 767,
                 "end": 770,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 772,
                 "end": 774,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -639,7 +677,9 @@
                 "start": 777,
                 "end": 785,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -660,7 +700,8 @@
                 "regex": {
                   "pattern": "(?<a>(?<=\\w{3}))f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -707,7 +748,9 @@
                 "start": 838,
                 "end": 841,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -730,7 +773,9 @@
                 "start": 855,
                 "end": 863,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -751,7 +796,8 @@
                 "regex": {
                   "pattern": "(?<!(?<a>\\d){3})f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -793,7 +839,9 @@
             "start": 911,
             "end": 915,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -808,7 +856,9 @@
                 "start": 917,
                 "end": 925,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -829,7 +879,8 @@
                 "regex": {
                   "pattern": "(?<!(?<a>\\D){3})f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -876,7 +927,9 @@
                 "start": 978,
                 "end": 981,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -899,7 +952,9 @@
                 "start": 995,
                 "end": 1003,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -920,7 +975,8 @@
                 "regex": {
                   "pattern": "(?<!(?<a>\\D){3})f|f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -967,7 +1023,9 @@
                 "start": 1057,
                 "end": 1060,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -990,7 +1048,9 @@
                 "start": 1074,
                 "end": 1082,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1011,7 +1071,8 @@
                 "regex": {
                   "pattern": "(?<a>(?<!\\D{3}))f|f",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1058,14 +1119,18 @@
                 "start": 1157,
                 "end": 1160,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1162,
                 "end": 1165,
                 "value": "c",
-                "raw": "\"c\""
+                "raw": "\"c\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1082,7 +1147,9 @@
                 "start": 1168,
                 "end": 1176,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1103,7 +1170,8 @@
                 "regex": {
                   "pattern": "(?<=(?<a>\\w){3})f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1145,7 +1213,9 @@
             "start": 1223,
             "end": 1226,
             "value": "c",
-            "raw": "\"c\""
+            "raw": "\"c\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -1168,7 +1238,9 @@
                     "start": 1228,
                     "end": 1236,
                     "value": "abcdef",
-                    "raw": "\"abcdef\""
+                    "raw": "\"abcdef\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -1189,7 +1261,8 @@
                     "regex": {
                       "pattern": "(?<=(?<a>\\w){3})f",
                       "flags": ""
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1249,7 +1322,9 @@
             "start": 1292,
             "end": 1295,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -1272,7 +1347,9 @@
                     "start": 1297,
                     "end": 1305,
                     "value": "abcdef",
-                    "raw": "\"abcdef\""
+                    "raw": "\"abcdef\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -1293,7 +1370,8 @@
                     "regex": {
                       "pattern": "(?<=(?<a>\\w){4})f",
                       "flags": ""
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1353,7 +1431,9 @@
             "start": 1361,
             "end": 1364,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -1376,7 +1456,9 @@
                     "start": 1366,
                     "end": 1374,
                     "value": "abcdef",
-                    "raw": "\"abcdef\""
+                    "raw": "\"abcdef\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -1397,7 +1479,8 @@
                     "regex": {
                       "pattern": "(?<=(?<a>\\w)+)f",
                       "flags": ""
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1457,7 +1540,9 @@
             "start": 1428,
             "end": 1432,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -1472,7 +1557,9 @@
                 "start": 1434,
                 "end": 1442,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1493,7 +1580,8 @@
                 "regex": {
                   "pattern": "(?<=(?<a>\\w){6})f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1540,14 +1628,18 @@
                 "start": 1494,
                 "end": 1497,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1499,
                 "end": 1501,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1564,7 +1656,9 @@
                 "start": 1504,
                 "end": 1512,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1585,7 +1679,8 @@
                 "regex": {
                   "pattern": "((?<=\\w{3}))f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1632,14 +1727,18 @@
                 "start": 1559,
                 "end": 1562,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1564,
                 "end": 1566,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1656,7 +1755,9 @@
                 "start": 1569,
                 "end": 1577,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1677,7 +1778,8 @@
                 "regex": {
                   "pattern": "(?<a>(?<=\\w{3}))f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1724,7 +1826,9 @@
                 "start": 1629,
                 "end": 1632,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -1747,7 +1851,9 @@
                 "start": 1646,
                 "end": 1654,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1768,7 +1874,8 @@
                 "regex": {
                   "pattern": "(?<!(?<a>\\d){3})f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1810,7 +1917,9 @@
             "start": 1701,
             "end": 1705,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -1825,7 +1934,9 @@
                 "start": 1707,
                 "end": 1715,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1846,7 +1957,8 @@
                 "regex": {
                   "pattern": "(?<!(?<a>\\D){3})f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1893,7 +2005,9 @@
                 "start": 1767,
                 "end": 1770,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -1916,7 +2030,9 @@
                 "start": 1784,
                 "end": 1792,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1937,7 +2053,8 @@
                 "regex": {
                   "pattern": "(?<!(?<a>\\D){3})f|f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1984,7 +2101,9 @@
                 "start": 1845,
                 "end": 1848,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -2007,7 +2126,9 @@
                 "start": 1862,
                 "end": 1870,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2028,7 +2149,8 @@
                 "regex": {
                   "pattern": "(?<a>(?<!\\D{3}))f|f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2075,14 +2197,18 @@
                 "start": 1999,
                 "end": 2004,
                 "value": "fst",
-                "raw": "\"fst\""
+                "raw": "\"fst\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2006,
                 "end": 2011,
                 "value": "snd",
-                "raw": "\"snd\""
+                "raw": "\"snd\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2131,7 +2257,8 @@
                       "regex": {
                         "pattern": "(?<=(?<fst>.)|(?<snd>.))",
                         "flags": "u"
-                      }
+                      },
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -2148,7 +2275,9 @@
                       "start": 2079,
                       "end": 2085,
                       "value": "abcd",
-                      "raw": "\"abcd\""
+                      "raw": "\"abcd\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

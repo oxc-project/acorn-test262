@@ -55,7 +55,9 @@ __ESTREE_TEST__:PASS:
                 "start": 69,
                 "end": 87,
                 "raw": "'fractionalSecond'",
-                "value": "fractionalSecond"
+                "value": "fractionalSecond",
+                "regex": null,
+                "bigint": null
               }
             },
             "expression": true,

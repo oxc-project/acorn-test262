@@ -71,7 +71,9 @@
                         "start": 383,
                         "end": 419,
                         "value": "'use strict'; function eval() { };",
-                        "raw": "\"'use strict'; function eval() { };\""
+                        "raw": "\"'use strict'; function eval() { };\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

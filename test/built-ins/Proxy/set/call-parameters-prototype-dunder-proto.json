@@ -302,7 +302,9 @@
                               "start": 1183,
                               "end": 1187,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -435,7 +437,9 @@
             "start": 1287,
             "end": 1298,
             "value": "__proto__",
-            "raw": "'__proto__'"
+            "raw": "'__proto__'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -547,7 +551,9 @@
             "start": 1378,
             "end": 1414,
             "value": "handler object is the trap context",
-            "raw": "'handler object is the trap context'"
+            "raw": "'handler object is the trap context'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -598,7 +604,9 @@
             "start": 1451,
             "end": 1488,
             "value": "first argument is the target object",
-            "raw": "'first argument is the target object'"
+            "raw": "'first argument is the target object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -649,7 +657,9 @@
             "start": 1521,
             "end": 1559,
             "value": "second argument is the property name",
-            "raw": "'second argument is the property name'"
+            "raw": "'second argument is the property name'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -700,7 +710,9 @@
             "start": 1594,
             "end": 1627,
             "value": "third argument is the new value",
-            "raw": "'third argument is the new value'"
+            "raw": "'third argument is the new value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -751,7 +763,9 @@
             "start": 1668,
             "end": 1708,
             "value": "fourth argument is the receiver object",
-            "raw": "'fourth argument is the receiver object'"
+            "raw": "'fourth argument is the receiver object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

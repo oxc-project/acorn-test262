@@ -87,21 +87,27 @@
                 "start": 422,
                 "end": 428,
                 "value": "Mike",
-                "raw": "'Mike'"
+                "raw": "'Mike'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 436,
                 "value": "Rick",
-                "raw": "'Rick'"
+                "raw": "'Rick'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 443,
                 "value": "Leo",
-                "raw": "'Leo'"
+                "raw": "'Leo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -162,14 +168,18 @@
             "start": 480,
             "end": 481,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 531,
             "value": "The value of coop.length is expected to be 3",
-            "raw": "'The value of coop.length is expected to be 3'"
+            "raw": "'The value of coop.length is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,7 +228,9 @@
               "start": 560,
               "end": 561,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -228,14 +240,18 @@
             "start": 564,
             "end": 570,
             "value": "Mike",
-            "raw": "'Mike'"
+            "raw": "'Mike'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 621,
             "value": "The value of coop[0] is expected to be \"Mike\"",
-            "raw": "'The value of coop[0] is expected to be \"Mike\"'"
+            "raw": "'The value of coop[0] is expected to be \"Mike\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -284,7 +300,9 @@
               "start": 650,
               "end": 651,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -294,14 +312,18 @@
             "start": 654,
             "end": 660,
             "value": "Rick",
-            "raw": "'Rick'"
+            "raw": "'Rick'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 711,
             "value": "The value of coop[1] is expected to be \"Rick\"",
-            "raw": "'The value of coop[1] is expected to be \"Rick\"'"
+            "raw": "'The value of coop[1] is expected to be \"Rick\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,7 +372,9 @@
               "start": 740,
               "end": 741,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -360,14 +384,18 @@
             "start": 744,
             "end": 749,
             "value": "Leo",
-            "raw": "'Leo'"
+            "raw": "'Leo'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 753,
             "end": 799,
             "value": "The value of coop[2] is expected to be \"Leo\"",
-            "raw": "'The value of coop[2] is expected to be \"Leo\"'"
+            "raw": "'The value of coop[2] is expected to be \"Leo\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -411,7 +439,9 @@
             "start": 832,
             "end": 904,
             "value": "The result of evaluating (coop instanceof Coop) is expected to be true",
-            "raw": "'The result of evaluating (coop instanceof Coop) is expected to be true'"
+            "raw": "'The result of evaluating (coop instanceof Coop) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

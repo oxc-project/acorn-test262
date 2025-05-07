@@ -23,7 +23,9 @@
             "start": 294,
             "end": 299,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@
                 "start": 324,
                 "end": 325,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -132,7 +136,9 @@
                 "start": 391,
                 "end": 395,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -194,14 +200,18 @@
                   "start": 444,
                   "end": 445,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 447,
                   "end": 449,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -223,7 +233,9 @@
                   "start": 461,
                   "end": 462,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -337,14 +349,18 @@
             "start": 544,
             "end": 548,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 610,
             "value": "Array.prototype.reduceRight.call(obj, callbackfn, objDate)",
-            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, objDate)'"
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, objDate)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,7 +392,9 @@
             "start": 630,
             "end": 649,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

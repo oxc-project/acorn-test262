@@ -23,7 +23,9 @@
             "start": 314,
             "end": 319,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                     "start": 375,
                     "end": 426,
                     "value": "#1: var x = false; void x === undefined. Actual: ",
-                    "raw": "'#1: var x = false; void x === undefined. Actual: '"
+                    "raw": "'#1: var x = false; void x === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -147,7 +151,9 @@
                 "start": 473,
                 "end": 477,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -213,7 +219,9 @@
                     "start": 533,
                     "end": 596,
                     "value": "#2: var x = new Boolean(true); void x === undefined. Actual: ",
-                    "raw": "'#2: var x = new Boolean(true); void x === undefined. Actual: '"
+                    "raw": "'#2: var x = new Boolean(true); void x === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

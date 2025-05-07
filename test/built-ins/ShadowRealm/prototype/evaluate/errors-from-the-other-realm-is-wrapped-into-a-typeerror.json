@@ -75,14 +75,18 @@
             "start": 361,
             "end": 371,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 375,
             "end": 448,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +195,9 @@
                   "start": 527,
                   "end": 532,
                   "value": "...",
-                  "raw": "'...'"
+                  "raw": "'...'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -202,7 +208,9 @@
             "start": 535,
             "end": 566,
             "value": "SyntaxError exposed to Parent",
-            "raw": "'SyntaxError exposed to Parent'"
+            "raw": "'SyntaxError exposed to Parent'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,7 +288,9 @@
                   "start": 611,
                   "end": 621,
                   "value": "throw 42",
-                  "raw": "'throw 42'"
+                  "raw": "'throw 42'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -291,7 +301,9 @@
             "start": 624,
             "end": 654,
             "value": "throw primitive => TypeError",
-            "raw": "'throw primitive => TypeError'"
+            "raw": "'throw primitive => TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +381,9 @@
                   "start": 699,
                   "end": 732,
                   "value": "throw new ReferenceError(\"aaa\")",
-                  "raw": "'throw new ReferenceError(\"aaa\")'"
+                  "raw": "'throw new ReferenceError(\"aaa\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -380,7 +394,9 @@
             "start": 735,
             "end": 761,
             "value": "custom ctor => TypeError",
-            "raw": "'custom ctor => TypeError'"
+            "raw": "'custom ctor => TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -458,7 +474,9 @@
                   "start": 806,
                   "end": 834,
                   "value": "throw new TypeError(\"aaa\")",
-                  "raw": "'throw new TypeError(\"aaa\")'"
+                  "raw": "'throw new TypeError(\"aaa\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -469,7 +487,9 @@
             "start": 837,
             "end": 874,
             "value": "Child TypeError => Parent TypeError",
-            "raw": "'Child TypeError => Parent TypeError'"
+            "raw": "'Child TypeError => Parent TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -547,7 +567,9 @@
                   "start": 919,
                   "end": 933,
                   "value": "eval(\"...\");",
-                  "raw": "'eval(\"...\");'"
+                  "raw": "'eval(\"...\");'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -558,7 +580,9 @@
             "start": 936,
             "end": 989,
             "value": "syntaxerror parsing coming after runtime evaluation",
-            "raw": "'syntaxerror parsing coming after runtime evaluation'"
+            "raw": "'syntaxerror parsing coming after runtime evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -658,7 +682,9 @@
             "start": 1083,
             "end": 1153,
             "value": "strict-mode only syntaxerror parsing coming after runtime evaluation",
-            "raw": "'strict-mode only syntaxerror parsing coming after runtime evaluation'"
+            "raw": "'strict-mode only syntaxerror parsing coming after runtime evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

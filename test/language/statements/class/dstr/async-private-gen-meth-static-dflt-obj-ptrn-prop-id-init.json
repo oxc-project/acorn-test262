@@ -23,7 +23,9 @@
             "start": 1906,
             "end": 1907,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,7 +106,9 @@
                             "start": 1953,
                             "end": 1955,
                             "value": 33,
-                            "raw": "33"
+                            "raw": "33",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "kind": "init"
@@ -163,7 +167,9 @@
                           "start": 1991,
                           "end": 1993,
                           "value": 33,
-                          "raw": "33"
+                          "raw": "33",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -266,7 +272,9 @@
                           "start": 2088,
                           "end": 2089,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -466,14 +474,18 @@
                             "start": 2216,
                             "end": 2217,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2219,
                             "end": 2241,
                             "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "raw": "'invoked exactly once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

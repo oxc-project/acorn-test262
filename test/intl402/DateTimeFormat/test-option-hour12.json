@@ -42,14 +42,18 @@
             "start": 311,
             "end": 319,
             "value": "hour12",
-            "raw": "\"hour12\""
+            "raw": "\"hour12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 321,
             "end": 330,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -122,7 +126,9 @@
                               "start": 379,
                               "end": 388,
                               "value": "numeric",
-                              "raw": "\"numeric\""
+                              "raw": "\"numeric\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -144,7 +150,9 @@
                               "start": 398,
                               "end": 407,
                               "value": "numeric",
-                              "raw": "\"numeric\""
+                              "raw": "\"numeric\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -201,14 +209,18 @@
             "start": 445,
             "end": 453,
             "value": "hour12",
-            "raw": "\"hour12\""
+            "raw": "\"hour12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 464,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -245,7 +257,9 @@
                   "start": 503,
                   "end": 507,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -73,7 +73,9 @@
                 "start": 414,
                 "end": 422,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,7 +85,9 @@
             "start": 427,
             "end": 496,
             "value": "Function.prototype.call.hasOwnProperty('length') must return true",
-            "raw": "'Function.prototype.call.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'Function.prototype.call.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,14 +209,18 @@
             "start": 587,
             "end": 595,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 601,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -237,7 +245,9 @@
                     "start": 625,
                     "end": 634,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -331,7 +341,9 @@
             "start": 702,
             "end": 785,
             "value": "The value of Function.prototype.call.length is expected to equal the value of obj",
-            "raw": "'The value of Function.prototype.call.length is expected to equal the value of obj'"
+            "raw": "'The value of Function.prototype.call.length is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

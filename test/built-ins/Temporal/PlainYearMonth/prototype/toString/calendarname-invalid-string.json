@@ -47,14 +47,18 @@
                 "start": 835,
                 "end": 839,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 841,
                 "end": 842,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,28 +91,36 @@
                 "start": 868,
                 "end": 876,
                 "value": "ALWAYS",
-                "raw": "\"ALWAYS\""
+                "raw": "\"ALWAYS\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 878,
                 "end": 889,
                 "value": "sometimes",
-                "raw": "\"sometimes\""
+                "raw": "\"sometimes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 891,
                 "end": 905,
                 "value": "other string",
-                "raw": "\"other string\""
+                "raw": "\"other string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 907,
                 "end": 915,
                 "value": "auto\u0000",
-                "raw": "\"auto\\0\""
+                "raw": "\"auto\\0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

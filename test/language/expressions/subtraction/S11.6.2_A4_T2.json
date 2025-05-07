@@ -105,7 +105,9 @@
                     "start": 453,
                     "end": 502,
                     "value": "#1: Infinity - -Infinity === Infinity. Actual: ",
-                    "raw": "'#1: Infinity - -Infinity === Infinity. Actual: '"
+                    "raw": "'#1: Infinity - -Infinity === Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -248,7 +250,9 @@
                     "start": 657,
                     "end": 707,
                     "value": "#2: -Infinity - Infinity === -Infinity. Actual: ",
-                    "raw": "'#2: -Infinity - Infinity === -Infinity. Actual: '"
+                    "raw": "'#2: -Infinity - Infinity === -Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

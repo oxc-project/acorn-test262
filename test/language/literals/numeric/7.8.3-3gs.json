@@ -91,7 +91,9 @@
                         "start": 381,
                         "end": 398,
                         "value": "a = 0x1;a = 01;",
-                        "raw": "\"a = 0x1;a = 01;\""
+                        "raw": "\"a = 0x1;a = 01;\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

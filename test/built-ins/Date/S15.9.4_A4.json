@@ -69,7 +69,9 @@
             "start": 402,
             "end": 459,
             "value": "Function.prototype.isPrototypeOf(Date) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Date) must return true'"
+            "raw": "'Function.prototype.isPrototypeOf(Date) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -110,7 +110,9 @@
                         "start": 518,
                         "end": 519,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -231,7 +233,9 @@
                       "start": 589,
                       "end": 594,
                       "value": "dog",
-                      "raw": "\"dog\""
+                      "raw": "\"dog\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

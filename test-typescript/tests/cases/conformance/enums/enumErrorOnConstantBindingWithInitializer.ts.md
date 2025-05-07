@@ -168,7 +168,9 @@ __ESTREE_TEST__:PASS:
                     "start": 90,
                     "end": 95,
                     "raw": "\"123\"",
-                    "value": "123"
+                    "value": "123",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }

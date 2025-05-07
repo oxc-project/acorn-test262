@@ -72,7 +72,9 @@
                 "start": 325,
                 "end": 329,
                 "value": "aa",
-                "raw": "\"aa\""
+                "raw": "\"aa\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -233,7 +235,9 @@
                           "start": 489,
                           "end": 518,
                           "value": "subclass constructor called",
-                          "raw": "\"subclass constructor called\""
+                          "raw": "\"subclass constructor called\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -289,7 +293,9 @@
                 "start": 563,
                 "end": 567,
                 "value": "aa",
-                "raw": "\"aa\""
+                "raw": "\"aa\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

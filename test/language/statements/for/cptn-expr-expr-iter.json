@@ -47,7 +47,9 @@
                 "start": 1091,
                 "end": 1147,
                 "value": "var runA; 1; for (runA = true; runA; runA = false) { }",
-                "raw": "'var runA; 1; for (runA = true; runA; runA = false) { }'"
+                "raw": "'var runA; 1; for (runA = true; runA; runA = false) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 1188,
                 "end": 1247,
                 "value": "var runB; 2; for (runB = true; runB; runB = false) { 3; }",
-                "raw": "'var runB; 2; for (runB = true; runB; runB = false) { 3; }'"
+                "raw": "'var runB; 2; for (runB = true; runB; runB = false) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 1250,
             "end": 1251,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

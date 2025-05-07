@@ -31,7 +31,9 @@
                 "start": 337,
                 "end": 339,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -69,7 +71,9 @@
             "start": 378,
             "end": 380,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -152,7 +156,9 @@
                     "start": 545,
                     "end": 656,
                     "value": "#1: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: ",
-                    "raw": "'#1: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: '"
+                    "raw": "'#1: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -259,7 +265,9 @@
                     "start": 925,
                     "end": 1034,
                     "value": "#2: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: ",
-                    "raw": "'#2: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: '"
+                    "raw": "'#2: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -366,7 +374,9 @@
                     "start": 1302,
                     "end": 1411,
                     "value": "#3: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: ",
-                    "raw": "'#3: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: '"
+                    "raw": "'#3: __lowerCase = \"\".toLocaleUpperCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -419,7 +429,9 @@
             "start": 1624,
             "end": 1625,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -440,7 +452,9 @@
             "start": 1642,
             "end": 1643,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -483,7 +497,9 @@
                         "start": 1673,
                         "end": 1734,
                         "value": "#4: __lowerCase = \"\".toLocaleUpperCase(); __lowerCase[0]===",
-                        "raw": "'#4: __lowerCase = \"\".toLocaleUpperCase(); __lowerCase[0]==='"
+                        "raw": "'#4: __lowerCase = \"\".toLocaleUpperCase(); __lowerCase[0]==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -501,7 +517,9 @@
                           "start": 1748,
                           "end": 1749,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -513,7 +531,9 @@
                       "start": 1753,
                       "end": 1765,
                       "value": ". Actual: ",
-                      "raw": "'. Actual: '"
+                      "raw": "'. Actual: '",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -532,7 +552,9 @@
                       "start": 1780,
                       "end": 1781,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

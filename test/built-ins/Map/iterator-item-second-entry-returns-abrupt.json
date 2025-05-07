@@ -23,7 +23,9 @@
             "start": 510,
             "end": 511,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -54,14 +56,18 @@
                 "start": 525,
                 "end": 530,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 532,
                 "end": 537,
                 "value": "bar",
-                "raw": "'bar'"
+                "raw": "'bar'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,7 +114,9 @@
             "start": 568,
             "end": 569,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -334,7 +342,9 @@
                                       "start": 775,
                                       "end": 780,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -522,14 +532,18 @@
             "start": 943,
             "end": 944,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 946,
             "end": 981,
             "value": "The get error closed the iterator",
-            "raw": "'The get error closed the iterator'"
+            "raw": "'The get error closed the iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

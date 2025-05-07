@@ -23,7 +23,9 @@
             "start": 1159,
             "end": 1164,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -116,7 +118,9 @@
                       "start": 1231,
                       "end": 1232,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "FunctionExpression",
@@ -197,7 +201,9 @@
                     "start": 1284,
                     "end": 1291,
                     "value": "cover",
-                    "raw": "'cover'"
+                    "raw": "'cover'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -255,7 +261,9 @@
                     "start": 1329,
                     "end": 1337,
                     "value": "xCover",
-                    "raw": "'xCover'"
+                    "raw": "'xCover'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -281,7 +289,9 @@
                   "start": 1353,
                   "end": 1357,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -316,7 +326,9 @@
             "start": 1379,
             "end": 1403,
             "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "raw": "'executed `catch` block'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

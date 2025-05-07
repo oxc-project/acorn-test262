@@ -28,70 +28,90 @@
                 "start": 326,
                 "end": 333,
                 "value": "years",
-                "raw": "\"years\""
+                "raw": "\"years\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 345,
                 "value": "months",
-                "raw": "\"months\""
+                "raw": "\"months\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 356,
                 "value": "weeks",
-                "raw": "\"weeks\""
+                "raw": "\"weeks\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 366,
                 "value": "days",
-                "raw": "\"days\""
+                "raw": "\"days\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 377,
                 "value": "hours",
-                "raw": "\"hours\""
+                "raw": "\"hours\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 390,
                 "value": "minutes",
-                "raw": "\"minutes\""
+                "raw": "\"minutes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 403,
                 "value": "seconds",
-                "raw": "\"seconds\""
+                "raw": "\"seconds\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 421,
                 "value": "milliseconds",
-                "raw": "\"milliseconds\""
+                "raw": "\"milliseconds\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 439,
                 "value": "microseconds",
-                "raw": "\"microseconds\""
+                "raw": "\"microseconds\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 456,
                 "value": "nanoseconds",
-                "raw": "\"nanoseconds\""
+                "raw": "\"nanoseconds\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -251,7 +271,9 @@
                                     "start": 557,
                                     "end": 560,
                                     "value": 1.5,
-                                    "raw": "1.5"
+                                    "raw": "1.5",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -374,7 +396,9 @@
                                       "start": 635,
                                       "end": 638,
                                       "value": 1.5,
-                                      "raw": "1.5"
+                                      "raw": "1.5",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "kind": "init"

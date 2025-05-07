@@ -66,7 +66,9 @@
               "start": 395,
               "end": 425,
               "value": "do __in__do=1; while (false)",
-              "raw": "\"do __in__do=1; while (false)\""
+              "raw": "\"do __in__do=1; while (false)\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -93,7 +95,9 @@
           "start": 534,
           "end": 535,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -125,7 +129,9 @@
                     "start": 563,
                     "end": 606,
                     "value": "#1: __in__do === 1. Actual:  __in__do ===",
-                    "raw": "'#1: __in__do === 1. Actual:  __in__do ==='"
+                    "raw": "'#1: __in__do === 1. Actual:  __in__do ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -162,7 +168,9 @@
           "start": 815,
           "end": 816,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -194,7 +202,9 @@
                     "start": 844,
                     "end": 893,
                     "value": "#2: __evaluated === 1. Actual:  __evaluated ===",
-                    "raw": "'#2: __evaluated === 1. Actual:  __evaluated ==='"
+                    "raw": "'#2: __evaluated === 1. Actual:  __evaluated ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

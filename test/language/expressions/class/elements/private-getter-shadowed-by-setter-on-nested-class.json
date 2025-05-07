@@ -65,7 +65,9 @@
                             "start": 953,
                             "end": 966,
                             "value": "outer class",
-                            "raw": "'outer class'"
+                            "raw": "'outer class'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -464,7 +466,9 @@
             "start": 1205,
             "end": 1254,
             "value": "[[Get]] operation of an accessor without getter",
-            "raw": "'[[Get]] operation of an accessor without getter'"
+            "raw": "'[[Get]] operation of an accessor without getter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -529,7 +533,9 @@
             "start": 1287,
             "end": 1300,
             "value": "outer class",
-            "raw": "'outer class'"
+            "raw": "'outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -629,7 +635,9 @@
             "start": 1365,
             "end": 1427,
             "value": "access of inner class accessor from an object of outer class",
-            "raw": "'access of inner class accessor from an object of outer class'"
+            "raw": "'access of inner class accessor from an object of outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

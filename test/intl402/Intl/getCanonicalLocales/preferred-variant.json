@@ -35,14 +35,18 @@
                   "start": 1838,
                   "end": 1862,
                   "value": "ja-latn-hepburn-heploc",
-                  "raw": "\"ja-latn-hepburn-heploc\""
+                  "raw": "\"ja-latn-hepburn-heploc\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1864,
                   "end": 1881,
                   "value": "ja-Latn-alalc97",
-                  "raw": "\"ja-Latn-alalc97\""
+                  "raw": "\"ja-Latn-alalc97\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -214,7 +218,9 @@
                             "start": 2127,
                             "end": 2141,
                             "value": "Test data \"",
-                            "raw": "\"Test data \\\"\""
+                            "raw": "\"Test data \\\"\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -230,7 +236,9 @@
                           "start": 2163,
                           "end": 2225,
                           "value": "\" is not canonicalized and structurally valid language tag.",
-                          "raw": "\"\\\" is not canonicalized and structurally valid language tag.\""
+                          "raw": "\"\\\" is not canonicalized and structurally valid language tag.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -424,7 +432,9 @@
                         "start": 2407,
                         "end": 2408,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -473,7 +483,9 @@
                           "start": 2447,
                           "end": 2448,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

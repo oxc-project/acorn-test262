@@ -68,7 +68,9 @@
             "start": 305,
             "end": 338,
             "value": "Atomics.pause returns undefined",
-            "raw": "'Atomics.pause returns undefined'"
+            "raw": "'Atomics.pause returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -105,14 +107,18 @@
                 "start": 374,
                 "end": 376,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -125,7 +131,9 @@
                   "start": 386,
                   "end": 387,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -261,7 +269,9 @@
                   "start": 512,
                   "end": 545,
                   "value": "Atomics.pause returns undefined",
-                  "raw": "'Atomics.pause returns undefined'"
+                  "raw": "'Atomics.pause returns undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

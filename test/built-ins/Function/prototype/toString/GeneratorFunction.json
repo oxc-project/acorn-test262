@@ -109,21 +109,27 @@
                 "start": 461,
                 "end": 464,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 492,
                 "value": " /* a */ b, c /* b */ //",
-                "raw": "\" /* a */ b, c /* b */ //\""
+                "raw": "\" /* a */ b, c /* b */ //\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 494,
                 "end": 527,
                 "value": "/* c */ yield yield; /* d */ //",
-                "raw": "\"/* c */ yield yield; /* d */ //\""
+                "raw": "\"/* c */ yield yield; /* d */ //\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -158,7 +164,9 @@
             "start": 576,
             "end": 665,
             "value": "function* anonymous(a, /* a */ b, c /* b */ //\n) {\n/* c */ yield yield; /* d */ //\n}",
-            "raw": "\"function* anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ yield yield; /* d */ //\\n}\""
+            "raw": "\"function* anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ yield yield; /* d */ //\\n}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

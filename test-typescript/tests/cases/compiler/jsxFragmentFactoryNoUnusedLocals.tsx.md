@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 84,
         "end": 91,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -183,7 +185,9 @@ __ESTREE_TEST__:PASS:
                       "start": 218,
                       "end": 222,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -342,7 +346,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 321,
                                         "end": 322,
                                         "raw": "1",
-                                        "value": 1
+                                        "value": 1,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "expression": true,
@@ -399,7 +405,9 @@ __ESTREE_TEST__:PASS:
                             "start": 330,
                             "end": 338,
                             "raw": "\"button\"",
-                            "value": "button"
+                            "value": "button",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -493,7 +501,9 @@ __ESTREE_TEST__:PASS:
                     "start": 171,
                     "end": 172,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }

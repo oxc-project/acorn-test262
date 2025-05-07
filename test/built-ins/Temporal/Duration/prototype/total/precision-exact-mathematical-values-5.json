@@ -23,7 +23,9 @@
             "start": 302,
             "end": 318,
             "value": 8692288669465520,
-            "raw": "8692288669465520"
+            "raw": "8692288669465520",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -54,7 +56,9 @@
                 "start": 346,
                 "end": 349,
                 "value": 513,
-                "raw": "513"
+                "raw": "513",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -104,42 +108,54 @@
                     "start": 385,
                     "end": 386,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 388,
                     "end": 389,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 391,
                     "end": 392,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 394,
                     "end": 395,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 397,
                     "end": 398,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 400,
                     "end": 401,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -221,7 +237,9 @@
                           "start": 461,
                           "end": 475,
                           "value": "milliseconds",
-                          "raw": "\"milliseconds\""
+                          "raw": "\"milliseconds\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -295,6 +313,7 @@
                         "end": 616,
                         "value": null,
                         "raw": "1000n",
+                        "regex": null,
                         "bigint": "1000"
                       }
                     },
@@ -366,14 +385,18 @@
                 "start": 683,
                 "end": 703,
                 "value": 8692288669465520000,
-                "raw": "8692288669465520_513"
+                "raw": "8692288669465520_513",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 705,
                 "end": 732,
                 "value": "check expected value (ms)",
-                "raw": "\"check expected value (ms)\""
+                "raw": "\"check expected value (ms)\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -424,7 +447,9 @@
                 "start": 794,
                 "end": 898,
                 "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds",
-                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds\""
+                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -457,7 +482,9 @@
                 "start": 932,
                 "end": 938,
                 "value": 373761,
-                "raw": "373761"
+                "raw": "373761",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -507,42 +534,54 @@
                     "start": 974,
                     "end": 975,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 977,
                     "end": 978,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 980,
                     "end": 981,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 983,
                     "end": 984,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 986,
                     "end": 987,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 989,
                     "end": 990,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -555,7 +594,9 @@
                     "start": 1001,
                     "end": 1002,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -631,7 +672,9 @@
                           "start": 1053,
                           "end": 1067,
                           "value": "microseconds",
-                          "raw": "\"microseconds\""
+                          "raw": "\"microseconds\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -705,6 +748,7 @@
                         "end": 1216,
                         "value": null,
                         "raw": "1_000_000n",
+                        "regex": null,
                         "bigint": "1000000"
                       }
                     },
@@ -776,14 +820,18 @@
                 "start": 1283,
                 "end": 1307,
                 "value": 8.692288669465521e+21,
-                "raw": "8692288669465520_373_761"
+                "raw": "8692288669465520_373_761",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1309,
                 "end": 1336,
                 "value": "check expected value (µs)",
-                "raw": "\"check expected value (µs)\""
+                "raw": "\"check expected value (µs)\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -834,7 +882,9 @@
                 "start": 1398,
                 "end": 1502,
                 "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds",
-                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds\""
+                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit milliseconds\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -867,7 +917,9 @@
                 "start": 1535,
                 "end": 1546,
                 "value": 321414345,
-                "raw": "321_414_345"
+                "raw": "321_414_345",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -917,42 +969,54 @@
                     "start": 1582,
                     "end": 1583,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1585,
                     "end": 1586,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1588,
                     "end": 1589,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1591,
                     "end": 1592,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1594,
                     "end": 1595,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1597,
                     "end": 1598,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -965,14 +1029,18 @@
                     "start": 1609,
                     "end": 1610,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1612,
                     "end": 1613,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -1048,7 +1116,9 @@
                           "start": 1663,
                           "end": 1676,
                           "value": "nanoseconds",
-                          "raw": "\"nanoseconds\""
+                          "raw": "\"nanoseconds\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -1122,6 +1192,7 @@
                         "end": 1831,
                         "value": null,
                         "raw": "1_000_000_000n",
+                        "regex": null,
                         "bigint": "1000000000"
                       }
                     },
@@ -1193,14 +1264,18 @@
                 "start": 1896,
                 "end": 1924,
                 "value": 8.692288669465521e+24,
-                "raw": "8692288669465520_321_414_345"
+                "raw": "8692288669465520_321_414_345",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1926,
                 "end": 1953,
                 "value": "check expected value (ns)",
-                "raw": "\"check expected value (ns)\""
+                "raw": "\"check expected value (ns)\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1251,7 +1326,9 @@
                 "start": 2014,
                 "end": 2117,
                 "value": "BalanceTimeDuration should implement floating-point calculation correctly for largestUnit nanoseconds",
-                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit nanoseconds\""
+                "raw": "\"BalanceTimeDuration should implement floating-point calculation correctly for largestUnit nanoseconds\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

@@ -49,14 +49,18 @@
                 "start": 490,
                 "end": 501,
                 "value": "dateStyle",
-                "raw": "\"dateStyle\""
+                "raw": "\"dateStyle\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 551,
                 "value": "timeStyle",
-                "raw": "\"timeStyle\""
+                "raw": "\"timeStyle\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -181,7 +185,9 @@
                               "start": 654,
                               "end": 658,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

@@ -67,7 +67,9 @@
                     "start": 15,
                     "end": 21,
                     "value": "test",
-                    "raw": "\"test\""
+                    "raw": "\"test\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

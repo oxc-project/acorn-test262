@@ -24,14 +24,18 @@ __ESTREE_TEST__:PASS:
               "start": 13,
               "end": 24,
               "raw": "\"-Infinity\"",
-              "value": "-Infinity"
+              "value": "-Infinity",
+              "regex": null,
+              "bigint": null
             },
             "initializer": {
               "type": "Literal",
               "start": 27,
               "end": 28,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -27,21 +27,27 @@
               "start": 386,
               "end": 390,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 392,
               "end": 395,
               "value": 0.3,
-              "raw": ".30"
+              "raw": ".30",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 398,
               "end": 403,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -81,7 +87,9 @@
             "start": 422,
             "end": 425,
             "value": 0.3,
-            "raw": ".30"
+            "raw": ".30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",

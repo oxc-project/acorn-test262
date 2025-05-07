@@ -93,7 +93,9 @@
                             "start": 431,
                             "end": 432,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -110,7 +112,9 @@
                         "start": 439,
                         "end": 457,
                         "value": "x = 1; x\n++",
-                        "raw": "\"x = 1; x\\u000A++\""
+                        "raw": "\"x = 1; x\\u000A++\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

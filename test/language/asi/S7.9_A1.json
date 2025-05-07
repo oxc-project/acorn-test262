@@ -31,7 +31,9 @@
                 "start": 308,
                 "end": 309,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -53,7 +55,9 @@
             "start": 316,
             "end": 317,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": {
@@ -98,7 +102,9 @@
                       "start": 341,
                       "end": 342,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -120,7 +126,9 @@
                   "start": 349,
                   "end": 350,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "update": {
@@ -161,7 +169,9 @@
                         "start": 373,
                         "end": 374,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "consequent": {
@@ -207,7 +217,9 @@
                                 "start": 443,
                                 "end": 507,
                                 "value": "#1: Check continue statement for automatic semicolon insertion",
-                                "raw": "'#1: Check continue statement for automatic semicolon insertion'"
+                                "raw": "'#1: Check continue statement for automatic semicolon insertion'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -248,7 +260,9 @@
             "start": 546,
             "end": 551,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -282,7 +296,9 @@
                 "start": 574,
                 "end": 575,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -304,7 +320,9 @@
             "start": 582,
             "end": 583,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": {
@@ -349,7 +367,9 @@
                       "start": 607,
                       "end": 608,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -371,7 +391,9 @@
                   "start": 615,
                   "end": 616,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "update": {
@@ -412,7 +434,9 @@
                         "start": 639,
                         "end": 640,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "consequent": {
@@ -464,7 +488,9 @@
                               "start": 701,
                               "end": 705,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -504,7 +530,9 @@
           "start": 735,
           "end": 739,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -532,7 +560,9 @@
                   "start": 768,
                   "end": 832,
                   "value": "#2: Check continue statement for automatic semicolon insertion",
-                  "raw": "'#2: Check continue statement for automatic semicolon insertion'"
+                  "raw": "'#2: Check continue statement for automatic semicolon insertion'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

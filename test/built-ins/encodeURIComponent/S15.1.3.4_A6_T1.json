@@ -59,7 +59,9 @@
                           "start": 351,
                           "end": 354,
                           "value": "^",
-                          "raw": "\"^\""
+                          "raw": "\"^\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -107,7 +109,9 @@
           "start": 397,
           "end": 420,
           "value": "%5Bobject%20Object%5D",
-          "raw": "\"%5Bobject%20Object%5D\""
+          "raw": "\"%5Bobject%20Object%5D\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -139,7 +143,9 @@
                     "start": 449,
                     "end": 566,
                     "value": "#1: var object = {valueOf: function() {return \"^\"}}; encodeURIComponent(object) === %5Bobject%20Object%5D. Actual: ",
-                    "raw": "'#1: var object = {valueOf: function() {return \"^\"}}; encodeURIComponent(object) === %5Bobject%20Object%5D. Actual: '"
+                    "raw": "'#1: var object = {valueOf: function() {return \"^\"}}; encodeURIComponent(object) === %5Bobject%20Object%5D. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -231,7 +237,9 @@
                           "start": 663,
                           "end": 665,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -275,7 +283,9 @@
                           "start": 707,
                           "end": 710,
                           "value": "^",
-                          "raw": "\"^\""
+                          "raw": "\"^\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -323,7 +333,9 @@
           "start": 753,
           "end": 758,
           "value": "%5E",
-          "raw": "\"%5E\""
+          "raw": "\"%5E\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -355,7 +367,9 @@
                     "start": 787,
                     "end": 922,
                     "value": "#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: ",
-                    "raw": "'#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '"
+                    "raw": "'#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -447,7 +461,9 @@
                           "start": 1019,
                           "end": 1022,
                           "value": "^",
-                          "raw": "\"^\""
+                          "raw": "\"^\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -538,7 +554,9 @@
           "start": 1109,
           "end": 1114,
           "value": "%5E",
-          "raw": "\"%5E\""
+          "raw": "\"%5E\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -570,7 +588,9 @@
                     "start": 1143,
                     "end": 1278,
                     "value": "#3: var object = {valueOf: function() {return \"^\"}, toString: function() {return {}}}; encodeURIComponent(object) === \"%5E\". Actual: ",
-                    "raw": "'#3: var object = {valueOf: function() {return \"^\"}, toString: function() {return {}}}; encodeURIComponent(object) === \"%5E\". Actual: '"
+                    "raw": "'#3: var object = {valueOf: function() {return \"^\"}, toString: function() {return {}}}; encodeURIComponent(object) === \"%5E\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -671,7 +691,9 @@
                                 "start": 1386,
                                 "end": 1393,
                                 "value": "error",
-                                "raw": "\"error\""
+                                "raw": "\"error\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -715,7 +737,9 @@
                                 "start": 1441,
                                 "end": 1444,
                                 "value": "^",
-                                "raw": "\"^\""
+                                "raw": "\"^\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -763,7 +787,9 @@
                 "start": 1493,
                 "end": 1498,
                 "value": "%5E",
-                "raw": "\"%5E\""
+                "raw": "\"%5E\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -795,7 +821,9 @@
                           "start": 1529,
                           "end": 1670,
                           "value": "#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: ",
-                          "raw": "'#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '"
+                          "raw": "'#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -868,7 +896,9 @@
                   "start": 1734,
                   "end": 1741,
                   "value": "error",
-                  "raw": "\"error\""
+                  "raw": "\"error\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -896,7 +926,9 @@
                           "start": 1772,
                           "end": 1911,
                           "value": "#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) not throw \"error\"",
-                          "raw": "'#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) not throw \"error\"'"
+                          "raw": "'#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) not throw \"error\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -932,7 +964,9 @@
                             "start": 1952,
                             "end": 2099,
                             "value": "#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) not throw Error. Actual: ",
-                            "raw": "'#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) not throw Error. Actual: '"
+                            "raw": "'#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURIComponent(object) not throw Error. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1014,7 +1048,9 @@
                           "start": 2176,
                           "end": 2179,
                           "value": "^",
-                          "raw": "\"^\""
+                          "raw": "\"^\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1062,7 +1098,9 @@
           "start": 2222,
           "end": 2227,
           "value": "%5E",
-          "raw": "\"%5E\""
+          "raw": "\"%5E\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1094,7 +1132,9 @@
                     "start": 2256,
                     "end": 2358,
                     "value": "#5: var object = {toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: ",
-                    "raw": "'#5: var object = {toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '"
+                    "raw": "'#5: var object = {toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1229,7 +1269,9 @@
                           "start": 2499,
                           "end": 2502,
                           "value": "^",
-                          "raw": "\"^\""
+                          "raw": "\"^\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1277,7 +1319,9 @@
           "start": 2544,
           "end": 2549,
           "value": "%5E",
-          "raw": "\"%5E\""
+          "raw": "\"%5E\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1309,7 +1353,9 @@
                     "start": 2578,
                     "end": 2713,
                     "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: ",
-                    "raw": "'#6: var object = {valueOf: function() {return {}}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '"
+                    "raw": "'#6: var object = {valueOf: function() {return {}}, toString: function() {return \"^\"}}; encodeURIComponent(object) === \"%5E\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1410,7 +1456,9 @@
                                 "start": 2822,
                                 "end": 2825,
                                 "value": "^",
-                                "raw": "\"^\""
+                                "raw": "\"^\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -1454,7 +1502,9 @@
                                 "start": 2872,
                                 "end": 2879,
                                 "value": "error",
-                                "raw": "\"error\""
+                                "raw": "\"error\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -1517,7 +1567,9 @@
                     "start": 2946,
                     "end": 3091,
                     "value": "#7.1: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURIComponent(object) throw \"error\". Actual: ",
-                    "raw": "'#7.1: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURIComponent(object) throw \"error\". Actual: '"
+                    "raw": "'#7.1: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURIComponent(object) throw \"error\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1586,7 +1638,9 @@
                   "start": 3151,
                   "end": 3158,
                   "value": "error",
-                  "raw": "\"error\""
+                  "raw": "\"error\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -1618,7 +1672,9 @@
                             "start": 3189,
                             "end": 3334,
                             "value": "#7.2: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURIComponent(object) throw \"error\". Actual: ",
-                            "raw": "'#7.2: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURIComponent(object) throw \"error\". Actual: '"
+                            "raw": "'#7.2: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURIComponent(object) throw \"error\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1815,7 +1871,9 @@
                     "start": 3541,
                     "end": 3683,
                     "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURIComponent(object) throw TypeError. Actual: ",
-                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURIComponent(object) throw TypeError. Actual: '"
+                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURIComponent(object) throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1901,7 +1959,9 @@
                   "start": 3766,
                   "end": 3770,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -1933,7 +1993,9 @@
                             "start": 3801,
                             "end": 3943,
                             "value": "#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURIComponent(object) throw TypeError. Actual: ",
-                            "raw": "'#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURIComponent(object) throw TypeError. Actual: '"
+                            "raw": "'#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURIComponent(object) throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

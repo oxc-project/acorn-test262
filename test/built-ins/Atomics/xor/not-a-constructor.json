@@ -69,14 +69,18 @@
             "start": 768,
             "end": 773,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 821,
             "value": "isConstructor(Atomics.xor) must return false",
-            "raw": "'isConstructor(Atomics.xor) must return false'"
+            "raw": "'isConstructor(Atomics.xor) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

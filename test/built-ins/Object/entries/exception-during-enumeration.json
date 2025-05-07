@@ -70,7 +70,9 @@
                               "start": 332,
                               "end": 364,
                               "value": "This error should be re-thrown",
-                              "raw": "'This error should be re-thrown'"
+                              "raw": "'This error should be re-thrown'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -127,7 +129,9 @@
                               "start": 411,
                               "end": 453,
                               "value": "Should not try to get the second element",
-                              "raw": "'Should not try to get the second element'"
+                              "raw": "'Should not try to get the second element'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

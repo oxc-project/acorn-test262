@@ -55,7 +55,9 @@
             "start": 360,
             "end": 366,
             "value": "from",
-            "raw": "\"from\""
+            "raw": "\"from\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -67,7 +69,9 @@
                 "start": 371,
                 "end": 383,
                 "value": "2000-05-02",
-                "raw": "\"2000-05-02\""
+                "raw": "\"2000-05-02\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -122,28 +126,36 @@
                   "start": 440,
                   "end": 444,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 446,
                   "end": 447,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 449,
                   "end": 454,
                   "value": "M05",
-                  "raw": "\"M05\""
+                  "raw": "\"M05\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 456,
                   "end": 457,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

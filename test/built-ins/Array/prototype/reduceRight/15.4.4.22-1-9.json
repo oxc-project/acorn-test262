@@ -99,7 +99,9 @@
             "start": 305,
             "end": 306,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -109,7 +111,9 @@
           "start": 310,
           "end": 312,
           "value": 11,
-          "raw": "11"
+          "raw": "11",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -137,7 +141,9 @@
             "start": 318,
             "end": 319,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -147,7 +153,9 @@
           "start": 323,
           "end": 324,
           "value": 9,
-          "raw": "9"
+          "raw": "9",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -171,7 +179,9 @@
             "start": 341,
             "end": 346,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -241,7 +251,9 @@
                 "start": 409,
                 "end": 413,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -353,7 +365,9 @@
                 "start": 507,
                 "end": 509,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -363,7 +377,9 @@
             "start": 512,
             "end": 576,
             "value": "Array.prototype.reduceRight.call(obj, callbackfn, 11) !== true",
-            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, 11) !== true'"
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, 11) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -395,7 +411,9 @@
             "start": 596,
             "end": 615,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

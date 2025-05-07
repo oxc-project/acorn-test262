@@ -147,7 +147,8 @@
                         "regex": {
                           "pattern": ".",
                           "flags": ""
-                        }
+                        },
+                        "bigint": null
                       },
                       "property": {
                         "type": "MemberExpression",
@@ -177,7 +178,9 @@
                         "start": 692,
                         "end": 694,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

@@ -41,7 +41,9 @@
                   "start": 340,
                   "end": 344,
                   "value": "ad",
-                  "raw": "\"ad\""
+                  "raw": "\"ad\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 353,
                   "end": 354,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 361,
                   "end": 362,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 374,
                   "end": 383,
                   "value": "gregory",
-                  "raw": "\"gregory\""
+                  "raw": "\"gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -208,14 +216,18 @@
                             "start": 432,
                             "end": 443,
                             "value": "constrain",
-                            "raw": "\"constrain\""
+                            "raw": "\"constrain\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 445,
                             "end": 453,
                             "value": "reject",
-                            "raw": "\"reject\""
+                            "raw": "\"reject\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -537,7 +549,9 @@
                                         "start": 728,
                                         "end": 737,
                                         "value": "eraYear",
-                                        "raw": "\"eraYear\""
+                                        "raw": "\"eraYear\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -745,14 +759,18 @@
                                         "start": 875,
                                         "end": 896,
                                         "value": "get eraYear.valueOf",
-                                        "raw": "\"get eraYear.valueOf\""
+                                        "raw": "\"get eraYear.valueOf\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 898,
                                         "end": 920,
                                         "value": "call eraYear.valueOf",
-                                        "raw": "\"call eraYear.valueOf\""
+                                        "raw": "\"call eraYear.valueOf\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   },
@@ -761,7 +779,9 @@
                                     "start": 923,
                                     "end": 968,
                                     "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "raw": "\"it fails after fetching the primitive value\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

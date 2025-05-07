@@ -44,7 +44,9 @@
             "start": 1316,
             "end": 1335,
             "value": "Promise rejected.",
-            "raw": "\"Promise rejected.\""
+            "raw": "\"Promise rejected.\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -160,7 +162,9 @@
             "start": 1426,
             "end": 1471,
             "value": "Expected result to be an instanceof Promise",
-            "raw": "\"Expected result to be an instanceof Promise\""
+            "raw": "\"Expected result to be an instanceof Promise\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +240,9 @@
                             "start": 1530,
                             "end": 1571,
                             "value": "Expected result to be rejected promise.",
-                            "raw": "\"Expected result to be rejected promise.\""
+                            "raw": "\"Expected result to be rejected promise.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -341,7 +347,9 @@
                                     "start": 1664,
                                     "end": 1700,
                                     "value": "Expected thrown custom error, got ",
-                                    "raw": "\"Expected thrown custom error, got \""
+                                    "raw": "\"Expected thrown custom error, got \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {

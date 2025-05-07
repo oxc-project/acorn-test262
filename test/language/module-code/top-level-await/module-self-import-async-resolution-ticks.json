@@ -23,7 +23,9 @@
             "start": 2622,
             "end": 2646,
             "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "raw": "'synchronous evaluation'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -102,7 +104,9 @@
                 "start": 2682,
                 "end": 2712,
                 "value": "tick in the async evaluation",
-                "raw": "'tick in the async evaluation'"
+                "raw": "'tick in the async evaluation'",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -132,7 +136,9 @@
         "start": 2733,
         "end": 2781,
         "value": "./module-self-import-async-resolution-ticks.js",
-        "raw": "'./module-self-import-async-resolution-ticks.js'"
+        "raw": "'./module-self-import-async-resolution-ticks.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -175,7 +181,9 @@
             "start": 2804,
             "end": 2828,
             "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "raw": "'synchronous evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +256,9 @@
             "start": 2886,
             "end": 2915,
             "value": "self is not initialized yet",
-            "raw": "'self is not initialized yet'"
+            "raw": "'self is not initialized yet'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -291,7 +301,9 @@
               "start": 2956,
               "end": 2958,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -337,7 +349,9 @@
             "start": 2982,
             "end": 3012,
             "value": "tick in the async evaluation",
-            "raw": "'tick in the async evaluation'"
+            "raw": "'tick in the async evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,14 +396,18 @@
             "start": 3038,
             "end": 3040,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3042,
             "end": 3076,
             "value": "self is initialized after export",
-            "raw": "'self is initialized after export'"
+            "raw": "'self is initialized after export'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

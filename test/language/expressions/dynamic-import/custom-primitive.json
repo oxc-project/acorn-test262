@@ -50,7 +50,9 @@
                       "start": 963,
                       "end": 993,
                       "value": "./custom-tostring_FIXTURE.js",
-                      "raw": "'./custom-tostring_FIXTURE.js'"
+                      "raw": "'./custom-tostring_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -87,7 +89,9 @@
                       "start": 1027,
                       "end": 1056,
                       "value": "./custom-valueof_FIXTURE.js",
-                      "raw": "'./custom-valueof_FIXTURE.js'"
+                      "raw": "'./custom-valueof_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -149,14 +153,18 @@
                   "start": 1094,
                   "end": 1100,
                   "value": "1612",
-                  "raw": "'1612'"
+                  "raw": "'1612'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1102,
                   "end": 1140,
                   "value": "namespace uses the imported toString",
-                  "raw": "'namespace uses the imported toString'"
+                  "raw": "'namespace uses the imported toString'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -215,14 +223,18 @@
                   "start": 1177,
                   "end": 1181,
                   "value": 1612,
-                  "raw": "1612"
+                  "raw": "1612",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1183,
                   "end": 1241,
                   "value": "namespace fallsback to toString as its prototype is null",
-                  "raw": "'namespace fallsback to toString as its prototype is null'"
+                  "raw": "'namespace fallsback to toString as its prototype is null'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -281,14 +293,18 @@
                   "start": 1281,
                   "end": 1283,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1285,
                   "end": 1322,
                   "value": "namespace uses the imported valueOf",
-                  "raw": "'namespace uses the imported valueOf'"
+                  "raw": "'namespace uses the imported valueOf'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -347,14 +363,18 @@
                   "start": 1361,
                   "end": 1365,
                   "value": "42",
-                  "raw": "'42'"
+                  "raw": "'42'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1367,
                   "end": 1424,
                   "value": "namespace fallsback to valueOf as its prototype is null",
-                  "raw": "'namespace fallsback to valueOf as its prototype is null'"
+                  "raw": "'namespace fallsback to valueOf as its prototype is null'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

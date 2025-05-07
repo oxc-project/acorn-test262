@@ -199,7 +199,9 @@
             "start": 538,
             "end": 612,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,14 +259,18 @@
             "start": 650,
             "end": 651,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 687,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +319,9 @@
               "start": 715,
               "end": 716,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -323,14 +331,18 @@
             "start": 719,
             "end": 726,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 728,
             "end": 764,
             "value": "The value of __split[0] is \"false\"",
-            "raw": "'The value of __split[0] is \"false\"'"
+            "raw": "'The value of __split[0] is \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

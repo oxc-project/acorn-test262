@@ -350,7 +350,9 @@
                               "start": 1869,
                               "end": 1926,
                               "value": "The promise should be resolved with the expected value.",
-                              "raw": "'The promise should be resolved with the expected value.'"
+                              "raw": "'The promise should be resolved with the expected value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -421,7 +423,9 @@
                         "start": 1981,
                         "end": 2018,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

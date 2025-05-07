@@ -55,7 +55,9 @@
             "start": 273,
             "end": 309,
             "value": "Object.isExtensible(this) !== true",
-            "raw": "'Object.isExtensible(this) !== true'"
+            "raw": "'Object.isExtensible(this) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

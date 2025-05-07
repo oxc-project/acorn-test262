@@ -67,7 +67,9 @@
             "start": 306,
             "end": 311,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                   "start": 353,
                   "end": 357,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -237,14 +241,18 @@
             "start": 434,
             "end": 439,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 463,
             "value": "Object.isFrozen(obj)",
-            "raw": "'Object.isFrozen(obj)'"
+            "raw": "'Object.isFrozen(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -130,7 +130,9 @@
                               "start": 585,
                               "end": 611,
                               "value": "next() method was called",
-                              "raw": "'next() method was called'"
+                              "raw": "'next() method was called'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -251,7 +253,9 @@
                                 "start": 724,
                                 "end": 729,
                                 "value": "key",
-                                "raw": "'key'"
+                                "raw": "'key'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]

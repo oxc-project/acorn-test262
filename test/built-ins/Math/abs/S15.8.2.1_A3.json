@@ -114,7 +114,9 @@
             "start": 351,
             "end": 394,
             "value": "Math.abs(-Infinity) must return +Infinity",
-            "raw": "'Math.abs(-Infinity) must return +Infinity'"
+            "raw": "'Math.abs(-Infinity) must return +Infinity'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -16,7 +16,8 @@
         "regex": {
           "pattern": "[\\p{Hex}]",
           "flags": "u"
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -51,7 +52,8 @@
                 "regex": {
                   "pattern": "[\\p{Hex}\\P{Hex}]",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -68,7 +70,9 @@
                 "start": 389,
                 "end": 400,
                 "value": "𝌆",
-                "raw": "'\\u{1D306}'"
+                "raw": "'\\u{1D306}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -78,7 +82,9 @@
             "start": 405,
             "end": 480,
             "value": "multiple property escapes in a single character class should be supported",
-            "raw": "'multiple property escapes in a single character class should be supported'"
+            "raw": "'multiple property escapes in a single character class should be supported'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

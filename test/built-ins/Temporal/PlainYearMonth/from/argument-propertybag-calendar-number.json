@@ -28,14 +28,18 @@
                 "start": 289,
                 "end": 290,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 294,
                 "end": 302,
                 "value": 19970327,
-                "raw": "19970327"
+                "raw": "19970327",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -48,7 +52,9 @@
                   "start": 307,
                   "end": 315,
                   "value": 19970327,
-                  "raw": "19970327"
+                  "raw": "19970327",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -56,7 +62,9 @@
                 "start": 319,
                 "end": 329,
                 "value": 1234567890,
-                "raw": "1234567890"
+                "raw": "1234567890",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -138,7 +146,9 @@
                         "start": 391,
                         "end": 395,
                         "value": 2019,
-                        "raw": "2019"
+                        "raw": "2019",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -160,7 +170,9 @@
                         "start": 408,
                         "end": 413,
                         "value": "M06",
-                        "raw": "\"M06\""
+                        "raw": "\"M06\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -286,7 +298,9 @@
                   "start": 508,
                   "end": 546,
                   "value": "Numbers cannot be used as a calendar",
-                  "raw": "\"Numbers cannot be used as a calendar\""
+                  "raw": "\"Numbers cannot be used as a calendar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

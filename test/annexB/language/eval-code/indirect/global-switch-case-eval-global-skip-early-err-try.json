@@ -25,7 +25,9 @@
                 "start": 1139,
                 "end": 1140,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -54,7 +56,9 @@
                   "start": 1150,
                   "end": 1458,
                   "value": "assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created prior to evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created prior to evaluation\"  );    try {    throw {};  } catch ({ f }) {switch (1) {",
-                  "raw": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {switch (1) {'"
+                  "raw": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -62,7 +66,9 @@
                   "start": 1463,
                   "end": 1474,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "raw": "'  case 1:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -71,7 +77,9 @@
                 "start": 1479,
                 "end": 1502,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "raw": "'    function f() {  }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -80,7 +88,9 @@
               "start": 1507,
               "end": 1770,
               "value": "}  }    assert.throws(ReferenceError, function() {    f;  }, \"An initialized binding is not created following evaluation\");  assert.sameValue(    typeof f,    \"undefined\",    \"An uninitialized binding is not created following evaluation\"  );",
-              "raw": "'}\\\n  }\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'"
+              "raw": "'}\\\n  }\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

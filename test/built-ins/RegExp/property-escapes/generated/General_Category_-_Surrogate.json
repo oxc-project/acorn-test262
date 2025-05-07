@@ -83,14 +83,18 @@
                               "start": 538,
                               "end": 546,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 548,
                               "end": 556,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -104,14 +108,18 @@
                               "start": 564,
                               "end": 572,
                               "value": 55296,
-                              "raw": "0x00D800"
+                              "raw": "0x00D800",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 574,
                               "end": 582,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -152,7 +160,8 @@
             "regex": {
               "pattern": "^\\p{General_Category=Surrogate}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -165,7 +174,9 @@
             "start": 671,
             "end": 704,
             "value": "\\p{General_Category=Surrogate}",
-            "raw": "\"\\\\p{General_Category=Surrogate}\""
+            "raw": "\"\\\\p{General_Category=Surrogate}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,7 +206,8 @@
             "regex": {
               "pattern": "^\\p{General_Category=Cs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -208,7 +220,9 @@
             "start": 780,
             "end": 806,
             "value": "\\p{General_Category=Cs}",
-            "raw": "\"\\\\p{General_Category=Cs}\""
+            "raw": "\"\\\\p{General_Category=Cs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +252,8 @@
             "regex": {
               "pattern": "^\\p{gc=Surrogate}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -251,7 +266,9 @@
             "start": 875,
             "end": 894,
             "value": "\\p{gc=Surrogate}",
-            "raw": "\"\\\\p{gc=Surrogate}\""
+            "raw": "\"\\\\p{gc=Surrogate}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +298,8 @@
             "regex": {
               "pattern": "^\\p{gc=Cs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -294,7 +312,9 @@
             "start": 956,
             "end": 968,
             "value": "\\p{gc=Cs}",
-            "raw": "\"\\\\p{gc=Cs}\""
+            "raw": "\"\\\\p{gc=Cs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +344,8 @@
             "regex": {
               "pattern": "^\\p{Surrogate}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -337,7 +358,9 @@
             "start": 1034,
             "end": 1050,
             "value": "\\p{Surrogate}",
-            "raw": "\"\\\\p{Surrogate}\""
+            "raw": "\"\\\\p{Surrogate}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -367,7 +390,8 @@
             "regex": {
               "pattern": "^\\p{Cs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -380,7 +404,9 @@
             "start": 1109,
             "end": 1118,
             "value": "\\p{Cs}",
-            "raw": "\"\\\\p{Cs}\""
+            "raw": "\"\\\\p{Cs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,14 +492,18 @@
                               "start": 1200,
                               "end": 1208,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1210,
                               "end": 1218,
                               "value": 55295,
-                              "raw": "0x00D7FF"
+                              "raw": "0x00D7FF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -487,14 +517,18 @@
                               "start": 1226,
                               "end": 1234,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1236,
                               "end": 1244,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -535,7 +569,8 @@
             "regex": {
               "pattern": "^\\P{General_Category=Surrogate}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -548,7 +583,9 @@
             "start": 1336,
             "end": 1369,
             "value": "\\P{General_Category=Surrogate}",
-            "raw": "\"\\\\P{General_Category=Surrogate}\""
+            "raw": "\"\\\\P{General_Category=Surrogate}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -578,7 +615,8 @@
             "regex": {
               "pattern": "^\\P{General_Category=Cs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -591,7 +629,9 @@
             "start": 1448,
             "end": 1474,
             "value": "\\P{General_Category=Cs}",
-            "raw": "\"\\\\P{General_Category=Cs}\""
+            "raw": "\"\\\\P{General_Category=Cs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -621,7 +661,8 @@
             "regex": {
               "pattern": "^\\P{gc=Surrogate}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -634,7 +675,9 @@
             "start": 1546,
             "end": 1565,
             "value": "\\P{gc=Surrogate}",
-            "raw": "\"\\\\P{gc=Surrogate}\""
+            "raw": "\"\\\\P{gc=Surrogate}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -664,7 +707,8 @@
             "regex": {
               "pattern": "^\\P{gc=Cs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -677,7 +721,9 @@
             "start": 1630,
             "end": 1642,
             "value": "\\P{gc=Cs}",
-            "raw": "\"\\\\P{gc=Cs}\""
+            "raw": "\"\\\\P{gc=Cs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -707,7 +753,8 @@
             "regex": {
               "pattern": "^\\P{Surrogate}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -720,7 +767,9 @@
             "start": 1711,
             "end": 1727,
             "value": "\\P{Surrogate}",
-            "raw": "\"\\\\P{Surrogate}\""
+            "raw": "\"\\\\P{Surrogate}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -750,7 +799,8 @@
             "regex": {
               "pattern": "^\\P{Cs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -763,7 +813,9 @@
             "start": 1789,
             "end": 1798,
             "value": "\\P{Cs}",
-            "raw": "\"\\\\P{Cs}\""
+            "raw": "\"\\\\P{Cs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

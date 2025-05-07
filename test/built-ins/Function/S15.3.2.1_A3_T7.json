@@ -23,7 +23,9 @@
             "start": 957,
             "end": 968,
             "value": "return a;",
-            "raw": "\"return a;\""
+            "raw": "\"return a;\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@
                 "start": 986,
                 "end": 989,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -163,7 +167,9 @@
                       "start": 1071,
                       "end": 1100,
                       "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "raw": "'#1: test failed with error '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -239,7 +245,9 @@
             "start": 1152,
             "end": 1223,
             "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "raw": "'The value of f.constructor is expected to equal the value of Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +297,9 @@
                 "start": 1245,
                 "end": 1246,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -299,14 +309,18 @@
             "start": 1249,
             "end": 1250,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1252,
             "end": 1272,
             "value": "f(1) must return 1",
-            "raw": "'f(1) must return 1'"
+            "raw": "'f(1) must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

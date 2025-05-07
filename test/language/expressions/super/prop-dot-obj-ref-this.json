@@ -408,7 +408,9 @@
             "start": 1833,
             "end": 1853,
             "value": "via CallExpression",
-            "raw": "'via CallExpression'"
+            "raw": "'via CallExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -459,7 +461,9 @@
             "start": 1889,
             "end": 1911,
             "value": "via MemberExpression",
-            "raw": "'via MemberExpression'"
+            "raw": "'via MemberExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

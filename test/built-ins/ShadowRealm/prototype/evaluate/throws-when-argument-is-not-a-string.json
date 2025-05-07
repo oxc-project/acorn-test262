@@ -75,14 +75,18 @@
             "start": 353,
             "end": 363,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 367,
             "end": 440,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -196,7 +200,9 @@
                       "start": 518,
                       "end": 523,
                       "value": "1+1",
-                      "raw": "'1+1'"
+                      "raw": "'1+1'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -329,7 +335,9 @@
                                 "start": 604,
                                 "end": 609,
                                 "value": "1+1",
-                                "raw": "'1+1'"
+                                "raw": "'1+1'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -419,7 +427,9 @@
                   "start": 659,
                   "end": 660,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -501,7 +511,9 @@
                   "start": 706,
                   "end": 710,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -664,7 +676,9 @@
                   "start": 811,
                   "end": 815,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -746,7 +760,9 @@
                   "start": 861,
                   "end": 866,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -839,7 +855,9 @@
                       "start": 923,
                       "end": 929,
                       "value": "nope",
-                      "raw": "'nope'"
+                      "raw": "'nope'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }

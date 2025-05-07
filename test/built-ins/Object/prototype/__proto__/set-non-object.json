@@ -70,7 +70,9 @@
                   "start": 548,
                   "end": 559,
                   "value": "__proto__",
-                  "raw": "'__proto__'"
+                  "raw": "'__proto__'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -170,7 +172,9 @@
                 "start": 611,
                 "end": 615,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -186,7 +190,9 @@
             "start": 629,
             "end": 638,
             "value": "boolean",
-            "raw": "'boolean'"
+            "raw": "'boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +283,9 @@
             "start": 711,
             "end": 730,
             "value": "following boolean",
-            "raw": "'following boolean'"
+            "raw": "'following boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -340,7 +348,9 @@
                 "start": 761,
                 "end": 762,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -356,7 +366,9 @@
             "start": 776,
             "end": 784,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -447,7 +459,9 @@
             "start": 857,
             "end": 875,
             "value": "following number",
-            "raw": "'following number'"
+            "raw": "'following number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,7 +524,9 @@
                 "start": 906,
                 "end": 914,
                 "value": "string",
-                "raw": "'string'"
+                "raw": "'string'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -526,7 +542,9 @@
             "start": 928,
             "end": 936,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,7 +635,9 @@
             "start": 1009,
             "end": 1027,
             "value": "following string",
-            "raw": "'following string'"
+            "raw": "'following string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -691,7 +711,9 @@
                     "start": 1065,
                     "end": 1067,
                     "value": "",
-                    "raw": "''"
+                    "raw": "''",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -710,7 +732,9 @@
             "start": 1082,
             "end": 1090,
             "value": "symbol",
-            "raw": "'symbol'"
+            "raw": "'symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -801,7 +825,9 @@
             "start": 1163,
             "end": 1181,
             "value": "following symbol",
-            "raw": "'following symbol'"
+            "raw": "'following symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

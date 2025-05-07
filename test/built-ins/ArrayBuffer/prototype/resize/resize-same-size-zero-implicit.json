@@ -34,7 +34,9 @@
                 "start": 1320,
                 "end": 1321,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -59,7 +61,9 @@
                       "start": 1339,
                       "end": 1340,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -91,7 +95,9 @@
             "start": 1357,
             "end": 1362,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -176,7 +182,9 @@
             "start": 1708,
             "end": 1718,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +279,9 @@
                   "start": 1777,
                   "end": 1781,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -357,7 +367,9 @@
                     "start": 1845,
                     "end": 1886,
                     "value": "The ArrayBuffer under test was detached",
-                    "raw": "'The ArrayBuffer under test was detached'"
+                    "raw": "'The ArrayBuffer under test was detached'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -422,7 +434,9 @@
                 "start": 2349,
                 "end": 2350,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -431,7 +445,9 @@
             "start": 2352,
             "end": 2364,
             "value": "byteLength",
-            "raw": "'byteLength'"
+            "raw": "'byteLength'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +498,9 @@
             "start": 2810,
             "end": 2835,
             "value": "normal completion value",
-            "raw": "'normal completion value'"
+            "raw": "'normal completion value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

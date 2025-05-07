@@ -44,7 +44,9 @@
                 "start": 572,
                 "end": 580,
                 "value": "İ",
-                "raw": "\"\\u0130\""
+                "raw": "\"\\u0130\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +63,9 @@
                 "start": 599,
                 "end": 604,
                 "value": "und",
-                "raw": "\"und\""
+                "raw": "\"und\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -71,14 +75,18 @@
             "start": 607,
             "end": 621,
             "value": "i̇",
-            "raw": "\"\\u0069\\u0307\""
+            "raw": "\"\\u0069\\u0307\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 662,
             "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -20,7 +20,9 @@ __ESTREE_TEST__:PASS:
             "start": 9,
             "end": 13,
             "raw": "2017",
-            "value": 2017
+            "value": 2017,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

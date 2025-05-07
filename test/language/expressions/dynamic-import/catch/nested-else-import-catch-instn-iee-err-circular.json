@@ -12,7 +12,9 @@
         "start": 1675,
         "end": 1680,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -54,7 +56,9 @@
                         "start": 1703,
                         "end": 1742,
                         "value": "./instn-iee-err-circular-1_FIXTURE.js",
-                        "raw": "'./instn-iee-err-circular-1_FIXTURE.js'"
+                        "raw": "'./instn-iee-err-circular-1_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -141,7 +145,9 @@
                                   "start": 1795,
                                   "end": 1808,
                                   "value": "SyntaxError",
-                                  "raw": "'SyntaxError'"
+                                  "raw": "'SyntaxError'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

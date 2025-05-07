@@ -66,7 +66,9 @@
                 "start": 1083,
                 "end": 1094,
                 "value": "Catch me.",
-                "raw": "\"Catch me.\""
+                "raw": "\"Catch me.\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -114,7 +116,9 @@
             "start": 1125,
             "end": 1126,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -264,7 +268,9 @@
                                   "start": 1246,
                                   "end": 1288,
                                   "value": "throw() should result in reject promise.",
-                                  "raw": "\"throw() should result in reject promise.\""
+                                  "raw": "\"throw() should result in reject promise.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -358,7 +364,9 @@
                 "start": 1373,
                 "end": 1374,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -376,7 +384,9 @@
                 "start": 1384,
                 "end": 1385,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -536,7 +546,9 @@
                             "start": 1468,
                             "end": 1469,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -594,7 +606,9 @@
                             "start": 1505,
                             "end": 1506,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -652,7 +666,9 @@
                             "start": 1541,
                             "end": 1546,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -781,7 +797,9 @@
                                             "start": 1618,
                                             "end": 1619,
                                             "value": 3,
-                                            "raw": "3"
+                                            "raw": "3",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -883,7 +901,9 @@
                                             "start": 1700,
                                             "end": 1704,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false

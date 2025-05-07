@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 30,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -186,7 +188,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 32,
         "raw": "'preact'",
-        "value": "preact"
+        "value": "preact",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -660,7 +664,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 46,
         "raw": "\"@fullcalendar/react\"",
-        "value": "@fullcalendar/react"
+        "value": "@fullcalendar/react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -690,7 +696,9 @@ __ESTREE_TEST__:PASS:
         "start": 75,
         "end": 95,
         "raw": "\"@fullcalendar/core\"",
-        "value": "@fullcalendar/core"
+        "value": "@fullcalendar/core",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

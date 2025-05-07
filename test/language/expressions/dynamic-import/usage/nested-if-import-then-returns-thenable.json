@@ -12,7 +12,9 @@
         "start": 1037,
         "end": 1041,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -56,7 +58,9 @@
                             "start": 1054,
                             "end": 1090,
                             "value": "./dynamic-import-module_FIXTURE.js",
-                            "raw": "'./dynamic-import-module_FIXTURE.js'"
+                            "raw": "'./dynamic-import-module_FIXTURE.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": null
                         },
@@ -143,7 +147,9 @@
                                       "start": 1145,
                                       "end": 1146,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

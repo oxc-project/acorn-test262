@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 31,
         "raw": "\"./a.ts\"",
-        "value": "./a.ts"
+        "value": "./a.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -152,7 +154,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 62,
         "raw": "\"./a.ts\"",
-        "value": "./a.ts"
+        "value": "./a.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -167,7 +171,9 @@ __ESTREE_TEST__:PASS:
         "start": 102,
         "end": 110,
         "raw": "\"./a.ts\"",
-        "value": "./a.ts"
+        "value": "./a.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -223,7 +229,9 @@ __ESTREE_TEST__:PASS:
             "start": 139,
             "end": 147,
             "raw": "\"./a.ts\"",
-            "value": "./a.ts"
+            "value": "./a.ts",
+            "regex": null,
+            "bigint": null
           }
         },
         "options": null,
@@ -269,7 +277,9 @@ __ESTREE_TEST__:PASS:
               "start": 182,
               "end": 190,
               "raw": "\"./a.ts\"",
-              "value": "./a.ts"
+              "value": "./a.ts",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -300,7 +310,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 33,
         "raw": "\"./a.d.ts\"",
-        "value": "./a.d.ts"
+        "value": "./a.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -340,7 +352,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 66,
         "raw": "\"./a.d.ts\"",
-        "value": "./a.d.ts"
+        "value": "./a.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -355,7 +369,9 @@ __ESTREE_TEST__:PASS:
         "start": 106,
         "end": 116,
         "raw": "\"./a.d.ts\"",
-        "value": "./a.d.ts"
+        "value": "./a.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -411,7 +427,9 @@ __ESTREE_TEST__:PASS:
             "start": 145,
             "end": 155,
             "raw": "\"./a.d.ts\"",
-            "value": "./a.d.ts"
+            "value": "./a.d.ts",
+            "regex": null,
+            "bigint": null
           }
         },
         "options": null,
@@ -457,7 +475,9 @@ __ESTREE_TEST__:PASS:
               "start": 190,
               "end": 200,
               "raw": "\"./a.d.ts\"",
-              "value": "./a.d.ts"
+              "value": "./a.d.ts",
+              "regex": null,
+              "bigint": null
             }
           }
         }

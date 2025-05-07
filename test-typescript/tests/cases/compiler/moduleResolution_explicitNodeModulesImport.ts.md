@@ -45,7 +45,9 @@ __ESTREE_TEST__:PASS:
           "start": 12,
           "end": 13,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -72,7 +74,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 39,
         "raw": "\"../node_modules/foo\"",
-        "value": "../node_modules/foo"
+        "value": "../node_modules/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

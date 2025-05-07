@@ -95,7 +95,9 @@
                   "start": 379,
                   "end": 434,
                   "value": "#1: -Infinity is the same as Number.NEGATIVE_INFINITY",
-                  "raw": "'#1: -Infinity is the same as Number.NEGATIVE_INFINITY'"
+                  "raw": "'#1: -Infinity is the same as Number.NEGATIVE_INFINITY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

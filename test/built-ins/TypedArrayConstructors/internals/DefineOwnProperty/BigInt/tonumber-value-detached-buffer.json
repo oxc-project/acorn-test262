@@ -76,6 +76,7 @@
                                 "end": 1832,
                                 "value": null,
                                 "raw": "17n",
+                                "regex": null,
                                 "bigint": "17"
                               }
                             ]
@@ -199,6 +200,7 @@
                                             "end": 1935,
                                             "value": null,
                                             "raw": "42n",
+                                            "regex": null,
                                             "bigint": "42"
                                           }
                                         }
@@ -280,7 +282,9 @@
                             "start": 2008,
                             "end": 2009,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -296,14 +300,18 @@
                         "start": 2022,
                         "end": 2026,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2032,
                         "end": 2142,
                         "value": "Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42n;}}}) must return true",
-                        "raw": "'Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42n;}}}) must return true'"
+                        "raw": "'Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42n;}}}) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -352,7 +360,9 @@
                           "start": 2171,
                           "end": 2172,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -368,7 +378,9 @@
                         "start": 2186,
                         "end": 2239,
                         "value": "The value of ta[0] is expected to equal `undefined`",
-                        "raw": "'The value of ta[0] is expected to equal `undefined`'"
+                        "raw": "'The value of ta[0] is expected to equal `undefined`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

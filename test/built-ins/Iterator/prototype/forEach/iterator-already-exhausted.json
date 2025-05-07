@@ -221,7 +221,9 @@
             "start": 509,
             "end": 513,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

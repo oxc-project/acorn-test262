@@ -50,7 +50,9 @@
                       "start": 958,
                       "end": 997,
                       "value": "./update-to-dynamic-import_FIXTURE.js",
-                      "raw": "'./update-to-dynamic-import_FIXTURE.js'"
+                      "raw": "'./update-to-dynamic-import_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -111,14 +113,18 @@
                   "start": 1030,
                   "end": 1037,
                   "value": "first",
-                  "raw": "'first'"
+                  "raw": "'first'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1039,
                   "end": 1084,
                   "value": "the other module has not been evaluated yet",
-                  "raw": "'the other module has not been evaluated yet'"
+                  "raw": "'the other module has not been evaluated yet'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -226,14 +232,18 @@
                   "start": 1160,
                   "end": 1167,
                   "value": "other",
-                  "raw": "'other'"
+                  "raw": "'other'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1169,
                   "end": 1228,
                   "value": "the other module is only evaluated after calling import()",
-                  "raw": "'the other module is only evaluated after calling import()'"
+                  "raw": "'the other module is only evaluated after calling import()'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -291,7 +301,9 @@
                   "start": 1267,
                   "end": 1269,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

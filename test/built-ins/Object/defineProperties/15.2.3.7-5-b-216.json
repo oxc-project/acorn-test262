@@ -78,7 +78,9 @@
                   "start": 385,
                   "end": 393,
                   "value": "global",
-                  "raw": "\"global\""
+                  "raw": "\"global\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -203,14 +205,18 @@
             "start": 483,
             "end": 491,
             "value": "global",
-            "raw": "\"global\""
+            "raw": "\"global\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 507,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

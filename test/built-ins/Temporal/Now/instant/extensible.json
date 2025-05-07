@@ -82,7 +82,9 @@
             "start": 307,
             "end": 367,
             "value": "Object.isExtensible(Temporal.Now.instant) must return true",
-            "raw": "'Object.isExtensible(Temporal.Now.instant) must return true'"
+            "raw": "'Object.isExtensible(Temporal.Now.instant) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

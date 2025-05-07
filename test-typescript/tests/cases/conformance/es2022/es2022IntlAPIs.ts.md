@@ -38,42 +38,54 @@ __ESTREE_TEST__:PASS:
                   "start": 161,
                   "end": 168,
                   "raw": "'short'",
-                  "value": "short"
+                  "value": "short",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 170,
                   "end": 176,
                   "raw": "'long'",
-                  "value": "long"
+                  "value": "long",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 178,
                   "end": 191,
                   "raw": "'shortOffset'",
-                  "value": "shortOffset"
+                  "value": "shortOffset",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 193,
                   "end": 205,
                   "raw": "'longOffset'",
-                  "value": "longOffset"
+                  "value": "longOffset",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 207,
                   "end": 221,
                   "raw": "'shortGeneric'",
-                  "value": "shortGeneric"
+                  "value": "shortGeneric",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 223,
                   "end": 236,
                   "raw": "'longGeneric'",
-                  "value": "longGeneric"
+                  "value": "longGeneric",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -137,7 +149,9 @@ __ESTREE_TEST__:PASS:
                       "start": 330,
                       "end": 337,
                       "raw": "'en-US'",
-                      "value": "en-US"
+                      "value": "en-US",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -167,7 +181,9 @@ __ESTREE_TEST__:PASS:
                             "start": 355,
                             "end": 376,
                             "raw": "'America/Los_Angeles'",
-                            "value": "America/Los_Angeles"
+                            "value": "America/Los_Angeles",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -303,42 +319,54 @@ __ESTREE_TEST__:PASS:
                   "start": 440,
                   "end": 450,
                   "raw": "'calendar'",
-                  "value": "calendar"
+                  "value": "calendar",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 452,
                   "end": 463,
                   "raw": "'collation'",
-                  "value": "collation"
+                  "value": "collation",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 465,
                   "end": 475,
                   "raw": "'currency'",
-                  "value": "currency"
+                  "value": "currency",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 477,
                   "end": 494,
                   "raw": "'numberingSystem'",
-                  "value": "numberingSystem"
+                  "value": "numberingSystem",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 496,
                   "end": 506,
                   "raw": "'timeZone'",
-                  "value": "timeZone"
+                  "value": "timeZone",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 508,
                   "end": 514,
                   "raw": "'unit'",
-                  "value": "unit"
+                  "value": "unit",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },

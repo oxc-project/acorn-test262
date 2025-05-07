@@ -28,6 +28,7 @@
               "end": 769,
               "value": null,
               "raw": "864n",
+              "regex": null,
               "bigint": "864"
             },
             "operator": "*",
@@ -41,6 +42,7 @@
                 "end": 775,
                 "value": null,
                 "raw": "10n",
+                "regex": null,
                 "bigint": "10"
               },
               "operator": "**",
@@ -50,6 +52,7 @@
                 "end": 780,
                 "value": null,
                 "raw": "19n",
+                "regex": null,
                 "bigint": "19"
               }
             }
@@ -133,7 +136,9 @@
                 "start": 857,
                 "end": 865,
                 "value": "+23:59",
-                "raw": "\"+23:59\""
+                "raw": "\"+23:59\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -179,7 +184,9 @@
                   "start": 901,
                   "end": 910,
                   "value": "minutes",
-                  "raw": "\"minutes\""
+                  "raw": "\"minutes\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -201,7 +208,9 @@
                   "start": 933,
                   "end": 935,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -223,7 +232,9 @@
                   "start": 953,
                   "end": 959,
                   "value": "ceil",
-                  "raw": "\"ceil\""
+                  "raw": "\"ceil\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

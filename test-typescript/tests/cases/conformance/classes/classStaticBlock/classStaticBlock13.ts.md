@@ -40,7 +40,9 @@ __ESTREE_TEST__:PASS:
               "start": 24,
               "end": 27,
               "raw": "123",
-              "value": 123
+              "value": 123,
+              "regex": null,
+              "bigint": null
             }
           },
           {

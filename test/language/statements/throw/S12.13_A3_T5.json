@@ -23,7 +23,9 @@
             "start": 255,
             "end": 259,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 267,
             "end": 272,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -116,14 +120,18 @@
                   "start": 298,
                   "end": 309,
                   "value": "exception",
-                  "raw": "\"exception\""
+                  "raw": "\"exception\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "alternate": {
                   "type": "Literal",
                   "start": 310,
                   "end": 315,
                   "value": " #1",
-                  "raw": "\" #1\""
+                  "raw": "\" #1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -165,7 +173,9 @@
                   "start": 340,
                   "end": 351,
                   "value": "exception",
-                  "raw": "\"exception\""
+                  "raw": "\"exception\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -192,7 +202,9 @@
                         "start": 376,
                         "end": 445,
                         "value": "#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ===",
-                        "raw": "'#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ==='"
+                        "raw": "'#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

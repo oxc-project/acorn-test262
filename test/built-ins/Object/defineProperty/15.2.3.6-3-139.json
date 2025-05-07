@@ -133,7 +133,9 @@
           "start": 425,
           "end": 435,
           "value": "Function",
-          "raw": "\"Function\""
+          "raw": "\"Function\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -176,7 +178,9 @@
             "start": 465,
             "end": 475,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -240,14 +244,18 @@
             "start": 518,
             "end": 528,
             "value": "Function",
-            "raw": "\"Function\""
+            "raw": "\"Function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 544,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

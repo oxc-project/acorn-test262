@@ -107,7 +107,9 @@
                   "start": 435,
                   "end": 459,
                   "value": "message to investigate",
-                  "raw": "\"message to investigate\""
+                  "raw": "\"message to investigate\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -133,7 +135,9 @@
                   "start": 489,
                   "end": 604,
                   "value": "#1.1: __instance.exec = RegExp.prototype.exec; __instance.exec(\"message to investigate\"); function __instance(){}",
-                  "raw": "'#1.1: __instance.exec = RegExp.prototype.exec; __instance.exec(\"message to investigate\"); function __instance(){}'"
+                  "raw": "'#1.1: __instance.exec = RegExp.prototype.exec; __instance.exec(\"message to investigate\"); function __instance(){}'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -206,14 +210,18 @@
                     "start": 673,
                     "end": 677,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 683,
                     "end": 757,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

@@ -82,14 +82,18 @@
             "start": 393,
             "end": 397,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 401,
             "end": 459,
             "value": "Function.prototype.isPrototypeOf(Array) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Array) must return true'"
+            "raw": "'Function.prototype.isPrototypeOf(Array) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

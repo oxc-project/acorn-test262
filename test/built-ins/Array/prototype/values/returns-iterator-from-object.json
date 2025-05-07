@@ -41,7 +41,9 @@
                   "start": 446,
                   "end": 447,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -286,7 +288,9 @@
             "start": 639,
             "end": 697,
             "value": "The prototype of [].values() is %ArrayIteratorPrototype%",
-            "raw": "'The prototype of [].values() is %ArrayIteratorPrototype%'"
+            "raw": "'The prototype of [].values() is %ArrayIteratorPrototype%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,21 +28,27 @@
                 "start": 449,
                 "end": 454,
                 "value": "tlh",
-                "raw": "\"tlh\""
+                "raw": "\"tlh\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 460,
                 "value": "id",
-                "raw": "\"id\""
+                "raw": "\"id\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 462,
                 "end": 466,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -75,14 +81,18 @@
                 "start": 478,
                 "end": 479,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 482,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -95,7 +105,9 @@
                   "start": 485,
                   "end": 486,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -109,7 +121,9 @@
                   "start": 489,
                   "end": 499,
                   "value": 123456.789,
-                  "raw": "123456.789"
+                  "raw": "123456.789",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {

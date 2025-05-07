@@ -47,7 +47,9 @@
                 "start": 274,
                 "end": 278,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "NewExpression",
@@ -65,7 +67,9 @@
                     "start": 291,
                     "end": 292,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -88,14 +92,18 @@
                 "start": 307,
                 "end": 311,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,7 +113,9 @@
             "start": 319,
             "end": 407,
             "value": "parseInt(\"11\", new Number(2)) must return the same value returned by parseInt(\"11\", 2)",
-            "raw": "'parseInt(\"11\", new Number(2)) must return the same value returned by parseInt(\"11\", 2)'"
+            "raw": "'parseInt(\"11\", new Number(2)) must return the same value returned by parseInt(\"11\", 2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,7 +165,9 @@
                 "start": 441,
                 "end": 445,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "NewExpression",
@@ -195,7 +207,9 @@
                 "start": 481,
                 "end": 485,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -211,7 +225,9 @@
             "start": 500,
             "end": 602,
             "value": "parseInt(\"11\", new Number(Infinity)) must return the same value returned by parseInt(\"11\", Infinity)",
-            "raw": "'parseInt(\"11\", new Number(Infinity)) must return the same value returned by parseInt(\"11\", Infinity)'"
+            "raw": "'parseInt(\"11\", new Number(Infinity)) must return the same value returned by parseInt(\"11\", Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

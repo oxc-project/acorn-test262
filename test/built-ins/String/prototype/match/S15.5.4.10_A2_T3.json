@@ -28,70 +28,90 @@
                 "start": 282,
                 "end": 285,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 290,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 292,
                 "end": 295,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 300,
                 "value": "4",
-                "raw": "\"4\""
+                "raw": "\"4\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 305,
                 "value": "5",
-                "raw": "\"5\""
+                "raw": "\"5\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 307,
                 "end": 310,
                 "value": "6",
-                "raw": "\"6\""
+                "raw": "\"6\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 312,
                 "end": 315,
                 "value": "7",
-                "raw": "\"7\""
+                "raw": "\"7\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 320,
                 "value": "8",
-                "raw": "\"8\""
+                "raw": "\"8\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 325,
                 "value": "9",
-                "raw": "\"9\""
+                "raw": "\"9\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 330,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -119,7 +139,9 @@
             "start": 349,
             "end": 366,
             "value": "123456abcde7890",
-            "raw": "\"123456abcde7890\""
+            "raw": "\"123456abcde7890\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -170,7 +192,8 @@
                 "regex": {
                   "pattern": "\\d{1}",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -190,7 +213,9 @@
           "start": 498,
           "end": 500,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -222,7 +247,9 @@
                     "start": 529,
                     "end": 613,
                     "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\d{1}/g).length=== 10. Actual: ",
-                    "raw": "'#1: __string = \"123456abcde7890\"; __string.match(/\\\\d{1}/g).length=== 10. Actual: '"
+                    "raw": "'#1: __string = \"123456abcde7890\"; __string.match(/\\\\d{1}/g).length=== 10. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -262,7 +289,8 @@
                           "regex": {
                             "pattern": "\\d{1}",
                             "flags": "g"
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -308,7 +336,9 @@
               "start": 838,
               "end": 839,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -408,7 +438,8 @@
                       "regex": {
                         "pattern": "\\d{1}",
                         "flags": "g"
-                      }
+                      },
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -496,7 +527,9 @@
                                       "start": 955,
                                       "end": 960,
                                       "value": "#2.",
-                                      "raw": "'#2.'"
+                                      "raw": "'#2.'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -512,7 +545,9 @@
                                     "start": 968,
                                     "end": 1090,
                                     "value": ": __matches=[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"0\"]; __string = \"123456abcde7890\"; __string.match(/\\d{1}/g)[",
-                                    "raw": "': __matches=[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"0\"]; __string = \"123456abcde7890\"; __string.match(/\\\\d{1}/g)['"
+                                    "raw": "': __matches=[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"0\"]; __string = \"123456abcde7890\"; __string.match(/\\\\d{1}/g)['",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -529,7 +564,9 @@
                                 "start": 1098,
                                 "end": 1114,
                                 "value": "]===__matches[",
-                                "raw": "']===__matches['"
+                                "raw": "']===__matches['",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -546,7 +583,9 @@
                             "start": 1122,
                             "end": 1135,
                             "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "raw": "']. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -587,7 +626,8 @@
                                 "regex": {
                                   "pattern": "\\d{1}",
                                   "flags": "g"
-                                }
+                                },
+                                "bigint": null
                               }
                             ],
                             "optional": false

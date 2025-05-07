@@ -28,7 +28,9 @@
             "start": 455,
             "end": 461,
             "value": "eval",
-            "raw": "\"eval\""
+            "raw": "\"eval\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -53,7 +55,9 @@
                   "start": 477,
                   "end": 481,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -75,7 +79,9 @@
                   "start": 497,
                   "end": 502,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,7 +103,9 @@
                   "start": 520,
                   "end": 524,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

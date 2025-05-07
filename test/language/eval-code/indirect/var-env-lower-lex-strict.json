@@ -55,7 +55,9 @@
                         "start": 357,
                         "end": 358,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -72,7 +74,9 @@
                     "start": 365,
                     "end": 387,
                     "value": "\"use strict\"; var x;",
-                    "raw": "'\"use strict\"; var x;'"
+                    "raw": "'\"use strict\"; var x;'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

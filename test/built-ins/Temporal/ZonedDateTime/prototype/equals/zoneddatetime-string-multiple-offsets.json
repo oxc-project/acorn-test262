@@ -23,7 +23,9 @@
             "start": 326,
             "end": 334,
             "value": "+01:35",
-            "raw": "\"+01:35\""
+            "raw": "\"+01:35\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 382,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -108,7 +111,9 @@
             "start": 405,
             "end": 453,
             "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]",
-            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\""
+            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -205,14 +210,18 @@
             "start": 518,
             "end": 523,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 572,
             "value": "ISO offset, sub-minute offset trailing-zeroes",
-            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\""
+            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +247,9 @@
           "start": 582,
           "end": 643,
           "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]",
-          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\""
+          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -324,7 +335,9 @@
             "start": 706,
             "end": 772,
             "value": "Trailing zeroes not allowed for sub-minute time zone identifiers",
-            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\""
+            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

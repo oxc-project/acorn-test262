@@ -66,7 +66,9 @@
                   "start": 623,
                   "end": 624,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -88,7 +90,9 @@
                   "start": 632,
                   "end": 636,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -212,14 +216,18 @@
             "start": 779,
             "end": 787,
             "value": "return",
-            "raw": "\"return\""
+            "raw": "\"return\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 803,
             "value": "originalIter",
-            "raw": "\"originalIter\""
+            "raw": "\"originalIter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +289,9 @@
                 "start": 876,
                 "end": 890,
                 "value": "originalIter",
-                "raw": "\"originalIter\""
+                "raw": "\"originalIter\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -386,14 +396,18 @@
                 "start": 962,
                 "end": 997,
                 "value": "get originalIter[Symbol.iterator]",
-                "raw": "\"get originalIter[Symbol.iterator]\""
+                "raw": "\"get originalIter[Symbol.iterator]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1001,
                 "end": 1024,
                 "value": "get originalIter.next",
-                "raw": "\"get originalIter.next\""
+                "raw": "\"get originalIter.next\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -509,28 +523,36 @@
                 "start": 1122,
                 "end": 1157,
                 "value": "get originalIter[Symbol.iterator]",
-                "raw": "\"get originalIter[Symbol.iterator]\""
+                "raw": "\"get originalIter[Symbol.iterator]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1161,
                 "end": 1184,
                 "value": "get originalIter.next",
-                "raw": "\"get originalIter.next\""
+                "raw": "\"get originalIter.next\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1188,
                 "end": 1213,
                 "value": "get originalIter.return",
-                "raw": "\"get originalIter.return\""
+                "raw": "\"get originalIter.return\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1217,
                 "end": 1243,
                 "value": "call originalIter.return",
-                "raw": "\"call originalIter.return\""
+                "raw": "\"call originalIter.return\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

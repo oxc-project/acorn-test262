@@ -49,7 +49,9 @@
                     "start": 356,
                     "end": 357,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -66,7 +68,9 @@
                 "start": 364,
                 "end": 377,
                 "value": "switch(1){}",
-                "raw": "\"switch(1){}\""
+                "raw": "\"switch(1){}\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

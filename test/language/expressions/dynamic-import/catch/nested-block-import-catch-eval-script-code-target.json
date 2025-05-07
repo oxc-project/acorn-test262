@@ -37,7 +37,9 @@
                       "start": 1469,
                       "end": 1495,
                       "value": "./script-code_FIXTURE.js",
-                      "raw": "'./script-code_FIXTURE.js'"
+                      "raw": "'./script-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -124,7 +126,9 @@
                                 "start": 1548,
                                 "end": 1561,
                                 "value": "SyntaxError",
-                                "raw": "'SyntaxError'"
+                                "raw": "'SyntaxError'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

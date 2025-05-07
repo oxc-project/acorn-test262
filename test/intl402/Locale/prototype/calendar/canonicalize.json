@@ -47,7 +47,9 @@
                 "start": 738,
                 "end": 742,
                 "value": "en",
-                "raw": "'en'"
+                "raw": "'en'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -72,7 +74,9 @@
                       "start": 755,
                       "end": 765,
                       "value": "islamicc",
-                      "raw": "'islamicc'"
+                      "raw": "'islamicc'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -143,14 +147,18 @@
             "start": 803,
             "end": 826,
             "value": "en-u-ca-islamic-civil",
-            "raw": "\"en-u-ca-islamic-civil\""
+            "raw": "\"en-u-ca-islamic-civil\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 886,
             "value": "'islamicc' should be canonicalize to 'islamic-civil'",
-            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\""
+            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,14 +216,18 @@
             "start": 921,
             "end": 936,
             "value": "islamic-civil",
-            "raw": "\"islamic-civil\""
+            "raw": "\"islamic-civil\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 942,
             "end": 996,
             "value": "'islamicc' should be canonicalize to 'islamic-civil'",
-            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\""
+            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

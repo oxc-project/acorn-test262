@@ -23,7 +23,9 @@
             "start": 473,
             "end": 478,
             "value": "a*b",
-            "raw": "'a*b'"
+            "raw": "'a*b'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +124,8 @@
             "regex": {
               "pattern": "\\w",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -228,7 +231,9 @@
                         "start": 624,
                         "end": 627,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -237,7 +242,9 @@
                     "start": 630,
                     "end": 631,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -269,7 +276,9 @@
                         "start": 657,
                         "end": 660,
                         "value": "b",
-                        "raw": "'b'"
+                        "raw": "'b'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -278,7 +287,9 @@
                     "start": 663,
                     "end": 664,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",

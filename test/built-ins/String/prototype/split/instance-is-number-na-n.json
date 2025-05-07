@@ -206,7 +206,9 @@
             "start": 546,
             "end": 620,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,14 +266,18 @@
             "start": 658,
             "end": 659,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 661,
             "end": 695,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,7 +326,9 @@
               "start": 723,
               "end": 724,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -330,14 +338,18 @@
             "start": 727,
             "end": 732,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 734,
             "end": 768,
             "value": "The value of __split[0] is \"NaN\"",
-            "raw": "'The value of __split[0] is \"NaN\"'"
+            "raw": "'The value of __split[0] is \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

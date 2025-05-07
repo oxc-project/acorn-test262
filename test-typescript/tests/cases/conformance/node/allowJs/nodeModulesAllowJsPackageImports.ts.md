@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 46,
         "raw": "\"#cjs\"",
-        "value": "#cjs"
+        "value": "#cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 69,
         "end": 75,
         "raw": "\"#mjs\"",
-        "value": "#mjs"
+        "value": "#mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -76,7 +80,9 @@ __ESTREE_TEST__:PASS:
         "start": 99,
         "end": 106,
         "raw": "\"#type\"",
-        "value": "#type"
+        "value": "#type",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -163,7 +169,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 46,
         "raw": "\"#cjs\"",
-        "value": "#cjs"
+        "value": "#cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -193,7 +201,9 @@ __ESTREE_TEST__:PASS:
         "start": 69,
         "end": 75,
         "raw": "\"#mjs\"",
-        "value": "#mjs"
+        "value": "#mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -223,7 +233,9 @@ __ESTREE_TEST__:PASS:
         "start": 99,
         "end": 106,
         "raw": "\"#type\"",
-        "value": "#type"
+        "value": "#type",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -310,7 +322,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 46,
         "raw": "\"#cjs\"",
-        "value": "#cjs"
+        "value": "#cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -340,7 +354,9 @@ __ESTREE_TEST__:PASS:
         "start": 69,
         "end": 75,
         "raw": "\"#mjs\"",
-        "value": "#mjs"
+        "value": "#mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -370,7 +386,9 @@ __ESTREE_TEST__:PASS:
         "start": 99,
         "end": 106,
         "raw": "\"#type\"",
-        "value": "#type"
+        "value": "#type",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

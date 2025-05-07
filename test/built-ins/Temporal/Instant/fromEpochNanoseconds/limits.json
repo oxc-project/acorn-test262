@@ -24,6 +24,7 @@
             "end": 509,
             "value": null,
             "raw": "8640000000000000000000n",
+            "regex": null,
             "bigint": "8640000000000000000000"
           }
         }
@@ -134,6 +135,7 @@
                     "end": 593,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 }
@@ -242,6 +244,7 @@
                     "end": 677,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 }

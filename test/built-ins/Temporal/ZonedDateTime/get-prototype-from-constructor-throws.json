@@ -83,7 +83,9 @@
                 "start": 978,
                 "end": 989,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -254,6 +256,7 @@
                             "end": 1130,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {
@@ -261,7 +264,9 @@
                             "start": 1132,
                             "end": 1137,
                             "value": "UTC",
-                            "raw": "\"UTC\""
+                            "raw": "\"UTC\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },

@@ -76,6 +76,7 @@
                                 "end": 1244,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 1248,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 1252,
                                 "value": null,
                                 "raw": "2n",
+                                "regex": null,
                                 "bigint": "2"
                               },
                               {
@@ -100,6 +103,7 @@
                                 "end": 1256,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               },
                               {
@@ -108,6 +112,7 @@
                                 "end": 1261,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -116,6 +121,7 @@
                                 "end": 1267,
                                 "value": null,
                                 "raw": "127n",
+                                "regex": null,
                                 "bigint": "127"
                               }
                             ]
@@ -210,7 +216,9 @@
                         "start": 1330,
                         "end": 1346,
                         "value": "1,0,2,3,42,127",
-                        "raw": "\"1,0,2,3,42,127\""
+                        "raw": "\"1,0,2,3,42,127\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

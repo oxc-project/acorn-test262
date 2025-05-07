@@ -42,14 +42,18 @@
             "start": 343,
             "end": 361,
             "value": "roundingPriority",
-            "raw": "\"roundingPriority\""
+            "raw": "\"roundingPriority\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 365,
             "end": 373,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -61,21 +65,27 @@
                 "start": 378,
                 "end": 384,
                 "value": "auto",
-                "raw": "\"auto\""
+                "raw": "\"auto\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 401,
                 "value": "morePrecision",
-                "raw": "\"morePrecision\""
+                "raw": "\"morePrecision\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 418,
                 "value": "lessPrecision",
-                "raw": "\"lessPrecision\""
+                "raw": "\"lessPrecision\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -84,7 +94,9 @@
             "start": 423,
             "end": 429,
             "value": "auto",
-            "raw": "\"auto\""
+            "raw": "\"auto\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -71,7 +72,9 @@
                   "start": 610,
                   "end": 611,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -87,7 +90,9 @@
                   "start": 615,
                   "end": 616,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -130,7 +135,9 @@
                                 "start": 660,
                                 "end": 676,
                                 "value": "toString value",
-                                "raw": "'toString value'"
+                                "raw": "'toString value'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -185,7 +192,9 @@
                                     "start": 740,
                                     "end": 776,
                                     "value": "This method should not be invoked.",
-                                    "raw": "'This method should not be invoked.'"
+                                    "raw": "'This method should not be invoked.'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -217,7 +226,9 @@
                   "start": 800,
                   "end": 801,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -355,14 +366,18 @@
                 "start": 895,
                 "end": 897,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 899,
                 "end": 911,
                 "value": "foo[$&]bar",
-                "raw": "'foo[$&]bar'"
+                "raw": "'foo[$&]bar'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -372,7 +387,9 @@
             "start": 914,
             "end": 938,
             "value": "foo[toString value]bar",
-            "raw": "'foo[toString value]bar'"
+            "raw": "'foo[toString value]bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

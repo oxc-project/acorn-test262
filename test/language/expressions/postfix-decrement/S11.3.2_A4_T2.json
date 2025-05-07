@@ -23,7 +23,9 @@
             "start": 281,
             "end": 284,
             "value": 1.1,
-            "raw": "1.1"
+            "raw": "1.1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -81,7 +83,9 @@
           "start": 309,
           "end": 312,
           "value": 1.1,
-          "raw": "1.1"
+          "raw": "1.1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -113,7 +117,9 @@
                     "start": 341,
                     "end": 392,
                     "value": "#1: var x = 1.1; var y = x--; y === 1.1. Actual: ",
-                    "raw": "'#1: var x = 1.1; var y = x--; y === 1.1. Actual: '"
+                    "raw": "'#1: var x = 1.1; var y = x--; y === 1.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -172,7 +178,9 @@
                   "start": 434,
                   "end": 437,
                   "value": 0.1,
-                  "raw": "0.1"
+                  "raw": "0.1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -239,7 +247,9 @@
             "start": 464,
             "end": 467,
             "value": 0.1,
-            "raw": "0.1"
+            "raw": "0.1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -272,7 +282,9 @@
                     "start": 496,
                     "end": 561,
                     "value": "#2: var x = new Number(-0.1); var y = x--; y === -0.1. Actual: ",
-                    "raw": "'#2: var x = new Number(-0.1); var y = x--; y === -0.1. Actual: '"
+                    "raw": "'#2: var x = new Number(-0.1); var y = x--; y === -0.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

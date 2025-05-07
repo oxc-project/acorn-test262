@@ -60,7 +60,9 @@
                 "start": 344,
                 "end": 353,
                 "value": "1994-11",
-                "raw": "\"1994-11\""
+                "raw": "\"1994-11\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
                 "start": 392,
                 "end": 400,
                 "value": "P18Y7M",
-                "raw": "\"P18Y7M\""
+                "raw": "\"P18Y7M\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -201,21 +205,27 @@
             "start": 457,
             "end": 461,
             "value": 2013,
-            "raw": "2013"
+            "raw": "2013",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 464,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 471,
             "value": "M06",
-            "raw": "\"M06\""
+            "raw": "\"M06\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

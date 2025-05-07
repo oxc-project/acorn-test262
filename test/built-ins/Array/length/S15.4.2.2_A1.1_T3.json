@@ -84,7 +84,9 @@
                     "start": 469,
                     "end": 470,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -96,14 +98,18 @@
             "start": 476,
             "end": 480,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 546,
             "value": "Array.prototype.isPrototypeOf(new Array(0)) must return true",
-            "raw": "'Array.prototype.isPrototypeOf(new Array(0)) must return true'"
+            "raw": "'Array.prototype.isPrototypeOf(new Array(0)) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

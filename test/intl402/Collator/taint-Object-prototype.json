@@ -28,21 +28,27 @@
                 "start": 350,
                 "end": 365,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 371,
                 "value": "kn",
-                "raw": "\"kn\""
+                "raw": "\"kn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 377,
                 "value": "kf",
-                "raw": "\"kf\""
+                "raw": "\"kf\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -130,7 +136,9 @@
                             "start": 440,
                             "end": 448,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -211,7 +219,9 @@
                 "start": 537,
                 "end": 571,
                 "value": "Collator returns invalid locale ",
-                "raw": "\"Collator returns invalid locale \""
+                "raw": "\"Collator returns invalid locale \"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -227,7 +237,9 @@
               "start": 583,
               "end": 586,
               "value": ".",
-              "raw": "\".\""
+              "raw": "\".\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

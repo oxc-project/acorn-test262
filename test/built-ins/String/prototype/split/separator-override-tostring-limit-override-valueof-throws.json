@@ -59,7 +59,9 @@
                           "start": 699,
                           "end": 708,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -129,7 +131,9 @@
                           "start": 765,
                           "end": 778,
                           "value": "intointeger",
-                          "raw": "\"intointeger\""
+                          "raw": "\"intointeger\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -163,7 +167,9 @@
             "start": 798,
             "end": 814,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -269,7 +275,9 @@
                   "start": 973,
                   "end": 1042,
                   "value": "#1: \"var x = __str.split(__obj, __obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __str.split(__obj, __obj2)\" lead to throwing exception'"
+                  "raw": "'#1: \"var x = __str.split(__obj, __obj2)\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -331,14 +339,18 @@
                     "start": 1081,
                     "end": 1094,
                     "value": "intointeger",
-                    "raw": "\"intointeger\""
+                    "raw": "\"intointeger\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1096,
                     "end": 1131,
                     "value": "The value of `e` is \"intointeger\"",
-                    "raw": "'The value of `e` is \"intointeger\"'"
+                    "raw": "'The value of `e` is \"intointeger\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

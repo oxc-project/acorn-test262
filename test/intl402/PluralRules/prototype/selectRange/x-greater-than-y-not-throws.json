@@ -110,14 +110,18 @@
                   "start": 466,
                   "end": 469,
                   "value": 201,
-                  "raw": "201"
+                  "raw": "201",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 471,
                   "end": 474,
                   "value": 102,
-                  "raw": "102"
+                  "raw": "102",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -128,14 +132,18 @@
             "start": 477,
             "end": 485,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 516,
             "value": "should not throw RangeError",
-            "raw": "\"should not throw RangeError\""
+            "raw": "\"should not throw RangeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

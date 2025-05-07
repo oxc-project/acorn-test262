@@ -21,7 +21,9 @@
               "start": 996,
               "end": 1000,
               "value": 3000,
-              "raw": "3000"
+              "raw": "3000",
+              "regex": null,
+              "bigint": null
             }
           },
           "label": {
@@ -46,7 +48,8 @@
         "regex": {
           "pattern": "1",
           "flags": "g"
-        }
+        },
+        "bigint": null
       }
     }
   ],

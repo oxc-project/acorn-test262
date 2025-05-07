@@ -28,21 +28,27 @@
                 "start": 391,
                 "end": 413,
                 "value": "get options.overflow",
-                "raw": "\"get options.overflow\""
+                "raw": "\"get options.overflow\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 448,
                 "value": "get options.overflow.toString",
-                "raw": "\"get options.overflow.toString\""
+                "raw": "\"get options.overflow.toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 452,
                 "end": 484,
                 "value": "call options.overflow.toString",
-                "raw": "\"call options.overflow.toString\""
+                "raw": "\"call options.overflow.toString\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -143,7 +149,9 @@
                       "start": 579,
                       "end": 587,
                       "value": "reject",
-                      "raw": "\"reject\""
+                      "raw": "\"reject\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -154,7 +162,9 @@
                 "start": 591,
                 "end": 600,
                 "value": "options",
-                "raw": "\"options\""
+                "raw": "\"options\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -220,7 +230,9 @@
                 "start": 647,
                 "end": 654,
                 "value": "05-17",
-                "raw": "\"05-17\""
+                "raw": "\"05-17\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -280,7 +292,9 @@
             "start": 704,
             "end": 721,
             "value": "Successful call",
-            "raw": "\"Successful call\""
+            "raw": "\"Successful call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,14 +339,18 @@
             "start": 768,
             "end": 773,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 777,
             "value": 17,
-            "raw": "17"
+            "raw": "17",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,7 +389,9 @@
             "start": 795,
             "end": 796,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +482,9 @@
                   "start": 891,
                   "end": 892,
                   "value": 7,
-                  "raw": "7"
+                  "raw": "7",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -523,7 +545,9 @@
             "start": 937,
             "end": 979,
             "value": "Failing call before options is processed",
-            "raw": "\"Failing call before options is processed\""
+            "raw": "\"Failing call before options is processed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -562,7 +586,9 @@
             "start": 997,
             "end": 998,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -671,7 +697,9 @@
                         "start": 1075,
                         "end": 1080,
                         "value": "M02",
-                        "raw": "\"M02\""
+                        "raw": "\"M02\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -693,7 +721,9 @@
                         "start": 1087,
                         "end": 1089,
                         "value": 30,
-                        "raw": "30"
+                        "raw": "30",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -758,7 +788,9 @@
             "start": 1142,
             "end": 1183,
             "value": "Failing call after options is processed",
-            "raw": "\"Failing call after options is processed\""
+            "raw": "\"Failing call after options is processed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

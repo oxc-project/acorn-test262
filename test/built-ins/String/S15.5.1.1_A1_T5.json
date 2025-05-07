@@ -69,7 +69,9 @@
           "start": 473,
           "end": 481,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -101,7 +103,9 @@
                     "start": 510,
                     "end": 593,
                     "value": "#1: var x; __str = String(x); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: var x; __str = String(x); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: var x; __str = String(x); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -145,7 +149,9 @@
           "start": 799,
           "end": 810,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -177,7 +183,9 @@
                     "start": 839,
                     "end": 911,
                     "value": "#2: var x; __str = String(x); __str === \"undefined\". Actual: __str ===",
-                    "raw": "'#2: var x; __str = String(x); __str === \"undefined\". Actual: __str ==='"
+                    "raw": "'#2: var x; __str = String(x); __str === \"undefined\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

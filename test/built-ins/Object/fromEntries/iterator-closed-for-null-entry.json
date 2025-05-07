@@ -23,7 +23,9 @@
             "start": 825,
             "end": 830,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -109,7 +111,9 @@
                               "start": 902,
                               "end": 907,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -186,7 +190,9 @@
                                                   "start": 1004,
                                                   "end": 1030,
                                                   "value": "should only advance once",
-                                                  "raw": "'should only advance once'"
+                                                  "raw": "'should only advance once'",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }
@@ -215,7 +221,9 @@
                                           "start": 1062,
                                           "end": 1066,
                                           "value": true,
-                                          "raw": "true"
+                                          "raw": "true",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -246,7 +254,9 @@
                                               "start": 1101,
                                               "end": 1106,
                                               "value": false,
-                                              "raw": "false"
+                                              "raw": "false",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           },
@@ -268,7 +278,9 @@
                                               "start": 1125,
                                               "end": 1129,
                                               "value": null,
-                                              "raw": "null"
+                                              "raw": "null",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           }
@@ -342,7 +354,9 @@
                                                   "start": 1235,
                                                   "end": 1260,
                                                   "value": "should only return once",
-                                                  "raw": "'should only return once'"
+                                                  "raw": "'should only return once'",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }
@@ -371,7 +385,9 @@
                                           "start": 1292,
                                           "end": 1296,
                                           "value": true,
-                                          "raw": "true"
+                                          "raw": "true",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -453,7 +469,9 @@
             "start": 1367,
             "end": 1377,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -578,7 +596,9 @@
             "start": 1472,
             "end": 1518,
             "value": "iterator should be closed when entry is null",
-            "raw": "'iterator should be closed when entry is null'"
+            "raw": "'iterator should be closed when entry is null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

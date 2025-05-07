@@ -75,7 +75,9 @@
             "start": 721,
             "end": 731,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -112,7 +114,9 @@
                 "start": 760,
                 "end": 761,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -137,7 +141,9 @@
                       "start": 779,
                       "end": 780,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -186,7 +192,9 @@
                 "start": 816,
                 "end": 817,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -214,7 +222,9 @@
             "start": 835,
             "end": 836,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -319,7 +329,9 @@
                   "start": 907,
                   "end": 908,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -345,7 +357,9 @@
                 "start": 924,
                 "end": 925,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -428,7 +442,9 @@
             "start": 991,
             "end": 1007,
             "value": "following grow",
-            "raw": "\"following grow\""
+            "raw": "\"following grow\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -476,7 +492,9 @@
                   "start": 1029,
                   "end": 1030,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -502,7 +520,9 @@
                 "start": 1046,
                 "end": 1047,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -585,7 +605,9 @@
             "start": 1113,
             "end": 1147,
             "value": "following shrink (within bounds)",
-            "raw": "\"following shrink (within bounds)\""
+            "raw": "\"following shrink (within bounds)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -633,7 +655,9 @@
                   "start": 1169,
                   "end": 1170,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -659,7 +683,9 @@
                 "start": 1186,
                 "end": 1187,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -742,7 +768,9 @@
             "start": 1253,
             "end": 1285,
             "value": "following shrink (on boundary)",
-            "raw": "\"following shrink (on boundary)\""
+            "raw": "\"following shrink (on boundary)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -790,7 +818,9 @@
                   "start": 1307,
                   "end": 1308,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -956,7 +986,9 @@
                         "start": 1464,
                         "end": 1502,
                         "value": "the operation completed successfully",
-                        "raw": "'the operation completed successfully'"
+                        "raw": "'the operation completed successfully'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -75,14 +75,18 @@
             "start": 367,
             "end": 377,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 381,
             "end": 436,
             "value": "`typeof Set.prototype.isDisjointFrom` is `'function'`",
-            "raw": "\"`typeof Set.prototype.isDisjointFrom` is `'function'`\""
+            "raw": "\"`typeof Set.prototype.isDisjointFrom` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 471,
             "end": 487,
             "value": "isDisjointFrom",
-            "raw": "\"isDisjointFrom\""
+            "raw": "\"isDisjointFrom\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 505,
                   "end": 510,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 524,
                   "end": 528,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 546,
                   "end": 550,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

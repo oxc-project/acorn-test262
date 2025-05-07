@@ -104,7 +104,9 @@
                       "start": 745,
                       "end": 748,
                       "value": 123,
-                      "raw": "123"
+                      "raw": "123",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -212,7 +214,9 @@
             "start": 841,
             "end": 880,
             "value": "binding is initialized to `undefined`",
-            "raw": "'binding is initialized to `undefined`'"
+            "raw": "'binding is initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,14 +261,18 @@
             "start": 909,
             "end": 912,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 934,
             "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "raw": "'binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +345,9 @@
             "start": 988,
             "end": 1019,
             "value": "global binding is not created",
-            "raw": "'global binding is not created'"
+            "raw": "'global binding is not created'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

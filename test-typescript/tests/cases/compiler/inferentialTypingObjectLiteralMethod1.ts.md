@@ -401,7 +401,9 @@ __ESTREE_TEST__:PASS:
             "start": 114,
             "end": 116,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

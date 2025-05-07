@@ -39,14 +39,18 @@
                     "start": 369,
                     "end": 370,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 372,
                     "end": 373,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -92,14 +96,18 @@
                     "start": 397,
                     "end": 398,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 400,
                     "end": 401,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -293,14 +301,18 @@
             "start": 560,
             "end": 564,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 596,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,14 +369,18 @@
             "start": 633,
             "end": 638,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 640,
             "end": 677,
             "value": "The returned object is a new object",
-            "raw": "\"The returned object is a new object\""
+            "raw": "\"The returned object is a new object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,14 +437,18 @@
             "start": 714,
             "end": 719,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 721,
             "end": 758,
             "value": "The returned object is a new object",
-            "raw": "\"The returned object is a new object\""
+            "raw": "\"The returned object is a new object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

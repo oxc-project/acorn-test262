@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 18,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
               "start": 37,
               "end": 38,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -120,7 +124,9 @@ __ESTREE_TEST__:PASS:
             "start": 36,
             "end": 42,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -131,7 +137,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -158,7 +166,9 @@ __ESTREE_TEST__:PASS:
             "start": 87,
             "end": 93,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -169,7 +179,9 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 71,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -245,7 +257,9 @@ __ESTREE_TEST__:PASS:
             "start": 131,
             "end": 137,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -256,7 +270,9 @@ __ESTREE_TEST__:PASS:
         "start": 110,
         "end": 115,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -282,7 +298,9 @@ __ESTREE_TEST__:PASS:
             "start": 181,
             "end": 187,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -301,7 +319,9 @@ __ESTREE_TEST__:PASS:
         "start": 160,
         "end": 165,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -328,7 +348,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 26,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -404,7 +426,9 @@ __ESTREE_TEST__:PASS:
             "start": 86,
             "end": 89,
             "raw": "\"a\"",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -425,7 +449,9 @@ __ESTREE_TEST__:PASS:
             "start": 94,
             "end": 97,
             "raw": "\"b\"",
-            "value": "b"
+            "value": "b",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -446,7 +472,9 @@ __ESTREE_TEST__:PASS:
             "start": 102,
             "end": 105,
             "raw": "\"c\"",
-            "value": "c"
+            "value": "c",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -457,7 +485,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 73,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

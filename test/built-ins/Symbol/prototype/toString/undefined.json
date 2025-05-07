@@ -69,14 +69,18 @@
             "start": 910,
             "end": 920,
             "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "raw": "'Symbol()'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 938,
             "value": "implicit value",
-            "raw": "'implicit value'"
+            "raw": "'implicit value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,14 +159,18 @@
             "start": 988,
             "end": 998,
             "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "raw": "'Symbol()'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1000,
             "end": 1016,
             "value": "explicit value",
-            "raw": "'explicit value'"
+            "raw": "'explicit value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 34,
             "end": 48,
             "raw": "\"Turbo Pascal\"",
-            "value": "Turbo Pascal"
+            "value": "Turbo Pascal",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

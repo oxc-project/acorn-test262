@@ -58,6 +58,7 @@
                         "end": 317,
                         "value": null,
                         "raw": "192_258_181_000_000_000n",
+                        "regex": null,
                         "bigint": "192258181000000000"
                       }
                     ]
@@ -67,7 +68,9 @@
                     "start": 320,
                     "end": 342,
                     "value": "1976-02-04T05:03:01Z",
-                    "raw": "\"1976-02-04T05:03:01Z\""
+                    "raw": "\"1976-02-04T05:03:01Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -106,6 +109,7 @@
                         "end": 371,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ]
@@ -115,7 +119,9 @@
                     "start": 374,
                     "end": 396,
                     "value": "1970-01-01T00:00:00Z",
-                    "raw": "\"1970-01-01T00:00:00Z\""
+                    "raw": "\"1970-01-01T00:00:00Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -154,6 +160,7 @@
                         "end": 438,
                         "value": null,
                         "raw": "30_000_000_000n",
+                        "regex": null,
                         "bigint": "30000000000"
                       }
                     ]
@@ -163,7 +170,9 @@
                     "start": 441,
                     "end": 463,
                     "value": "1970-01-01T00:00:30Z",
-                    "raw": "\"1970-01-01T00:00:30Z\""
+                    "raw": "\"1970-01-01T00:00:30Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -202,6 +211,7 @@
                         "end": 505,
                         "value": null,
                         "raw": "30_123_400_000n",
+                        "regex": null,
                         "bigint": "30123400000"
                       }
                     ]
@@ -211,7 +221,9 @@
                     "start": 508,
                     "end": 535,
                     "value": "1970-01-01T00:00:30.1234Z",
-                    "raw": "\"1970-01-01T00:00:30.1234Z\""
+                    "raw": "\"1970-01-01T00:00:30.1234Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -305,7 +317,9 @@
                                   "start": 607,
                                   "end": 647,
                                   "value": "should not get properties off argument",
-                                  "raw": "\"should not get properties off argument\""
+                                  "raw": "\"should not get properties off argument\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -437,7 +451,9 @@
                   "start": 745,
                   "end": 770,
                   "value": "toJSON without argument",
-                  "raw": "\"toJSON without argument\""
+                  "raw": "\"toJSON without argument\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -515,7 +531,9 @@
                   "start": 827,
                   "end": 849,
                   "value": "toJSON with argument",
-                  "raw": "\"toJSON with argument\""
+                  "raw": "\"toJSON with argument\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -46,7 +46,9 @@
                 "start": 418,
                 "end": 429,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,7 +84,9 @@
                     "start": 460,
                     "end": 524,
                     "value": "#0: String.hasOwnProperty('prototype') return true. Actual: ",
-                    "raw": "'#0: String.hasOwnProperty(\\'prototype\\') return true. Actual: '"
+                    "raw": "'#0: String.hasOwnProperty(\\'prototype\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -114,7 +118,9 @@
                         "start": 549,
                         "end": 560,
                         "value": "prototype",
-                        "raw": "'prototype'"
+                        "raw": "'prototype'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -160,7 +166,9 @@
             "start": 772,
             "end": 783,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +202,9 @@
                     "start": 813,
                     "end": 884,
                     "value": "#1: String.propertyIsEnumerable('prototype') return false. Actual: ",
-                    "raw": "'#1: String.propertyIsEnumerable(\\'prototype\\') return false. Actual: '"
+                    "raw": "'#1: String.propertyIsEnumerable(\\'prototype\\') return false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -226,7 +236,9 @@
                         "start": 915,
                         "end": 926,
                         "value": "prototype",
-                        "raw": "'prototype'"
+                        "raw": "'prototype'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -259,7 +271,9 @@
             "start": 1118,
             "end": 1119,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -320,7 +334,9 @@
                 "start": 1158,
                 "end": 1169,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -366,7 +382,9 @@
           "start": 1197,
           "end": 1198,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -398,7 +416,9 @@
                     "start": 1227,
                     "end": 1323,
                     "value": "#2: count=0; for (p in String){ if (p===\"prototype\") count++;}; count === 0. Actual: count ===",
-                    "raw": "'#2: count=0; for (p in String){ if (p===\"prototype\") count++;}; count === 0. Actual: count ==='"
+                    "raw": "'#2: count=0; for (p in String){ if (p===\"prototype\") count++;}; count === 0. Actual: count ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -78,7 +78,9 @@
                       "start": 628,
                       "end": 632,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -92,7 +94,9 @@
             "start": 636,
             "end": 653,
             "value": "{\"toJSON\":null}",
-            "raw": "'{\"toJSON\":null}'"
+            "raw": "'{\"toJSON\":null}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,7 +177,9 @@
                       "start": 697,
                       "end": 702,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -187,7 +193,9 @@
             "start": 706,
             "end": 724,
             "value": "{\"toJSON\":false}",
-            "raw": "'{\"toJSON\":false}'"
+            "raw": "'{\"toJSON\":false}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +289,9 @@
             "start": 774,
             "end": 789,
             "value": "{\"toJSON\":[]}",
-            "raw": "'{\"toJSON\":[]}'"
+            "raw": "'{\"toJSON\":[]}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -366,7 +376,8 @@
                       "regex": {
                         "pattern": "re",
                         "flags": ""
-                      }
+                      },
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -380,7 +391,9 @@
             "start": 841,
             "end": 856,
             "value": "{\"toJSON\":{}}",
-            "raw": "'{\"toJSON\":{}}'"
+            "raw": "'{\"toJSON\":{}}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 513,
             "end": 517,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 533,
             "end": 537,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 553,
             "end": 557,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 572,
             "end": 576,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +135,9 @@
             "start": 595,
             "end": 599,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -153,7 +163,9 @@
             "start": 613,
             "end": 617,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -179,7 +191,9 @@
             "start": 634,
             "end": 638,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -205,7 +219,9 @@
             "start": 649,
             "end": 653,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -379,7 +395,9 @@
         "start": 859,
         "end": 884,
         "value": "./instn-star-id-name.js",
-        "raw": "'./instn-star-id-name.js'"
+        "raw": "'./instn-star-id-name.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -407,7 +425,9 @@
               "start": 894,
               "end": 898,
               "value": "if",
-              "raw": "'if'"
+              "raw": "'if'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -422,7 +442,9 @@
             "start": 906,
             "end": 925,
             "value": "property name: if",
-            "raw": "'property name: if'"
+            "raw": "'property name: if'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,7 +474,9 @@
               "start": 935,
               "end": 943,
               "value": "import",
-              "raw": "'import'"
+              "raw": "'import'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -467,7 +491,9 @@
             "start": 951,
             "end": 974,
             "value": "property name: import",
-            "raw": "'property name: import'"
+            "raw": "'property name: import'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,7 +523,9 @@
               "start": 984,
               "end": 992,
               "value": "export",
-              "raw": "'export'"
+              "raw": "'export'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -512,7 +540,9 @@
             "start": 1000,
             "end": 1023,
             "value": "property name: export",
-            "raw": "'property name: export'"
+            "raw": "'property name: export'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -542,7 +572,9 @@
               "start": 1033,
               "end": 1040,
               "value": "await",
-              "raw": "'await'"
+              "raw": "'await'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -557,7 +589,9 @@
             "start": 1048,
             "end": 1070,
             "value": "property name: await",
-            "raw": "'property name: await'"
+            "raw": "'property name: await'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +621,9 @@
               "start": 1080,
               "end": 1091,
               "value": "arguments",
-              "raw": "'arguments'"
+              "raw": "'arguments'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -602,7 +638,9 @@
             "start": 1099,
             "end": 1125,
             "value": "property name: arguments",
-            "raw": "'property name: arguments'"
+            "raw": "'property name: arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -632,7 +670,9 @@
               "start": 1135,
               "end": 1141,
               "value": "eval",
-              "raw": "'eval'"
+              "raw": "'eval'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -647,7 +687,9 @@
             "start": 1149,
             "end": 1170,
             "value": "property name: eval",
-            "raw": "'property name: eval'"
+            "raw": "'property name: eval'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -677,7 +719,9 @@
               "start": 1180,
               "end": 1189,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -692,7 +736,9 @@
             "start": 1197,
             "end": 1221,
             "value": "property name: default",
-            "raw": "'property name: default'"
+            "raw": "'property name: default'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -722,7 +768,9 @@
               "start": 1231,
               "end": 1235,
               "value": "as",
-              "raw": "'as'"
+              "raw": "'as'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -737,7 +785,9 @@
             "start": 1243,
             "end": 1262,
             "value": "property name: as",
-            "raw": "'property name: as'"
+            "raw": "'property name: as'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

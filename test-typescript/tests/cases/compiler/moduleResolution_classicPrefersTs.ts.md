@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 36,
         "raw": "\"dir1/dir2/dir3/a.js\"",
-        "value": "dir1/dir2/dir3/a.js"
+        "value": "dir1/dir2/dir3/a.js",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -39,7 +41,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 31,
         "raw": "\"dir1/dir2/a.ts\"",
-        "value": "dir1/dir2/a.ts"
+        "value": "dir1/dir2/a.ts",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -66,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 17,
         "raw": "\"a\"",
-        "value": "a"
+        "value": "a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

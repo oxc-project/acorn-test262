@@ -73,7 +73,9 @@
                             "start": 449,
                             "end": 461,
                             "value": "use strict",
-                            "raw": "\"use strict\""
+                            "raw": "\"use strict\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "directive": "use strict"
                         },
@@ -99,7 +101,9 @@
                   "start": 488,
                   "end": 496,
                   "value": "callee",
-                  "raw": "\"callee\""
+                  "raw": "\"callee\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -146,7 +150,9 @@
             "start": 613,
             "end": 614,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -226,7 +232,9 @@
                 "start": 710,
                 "end": 718,
                 "value": "callee",
-                "raw": "\"callee\""
+                "raw": "\"callee\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -293,7 +301,9 @@
             "start": 779,
             "end": 791,
             "value": "callee.get",
-            "raw": "\"callee.get\""
+            "raw": "\"callee.get\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,7 +367,9 @@
             "start": 851,
             "end": 863,
             "value": "callee.set",
-            "raw": "\"callee.set\""
+            "raw": "\"callee.set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

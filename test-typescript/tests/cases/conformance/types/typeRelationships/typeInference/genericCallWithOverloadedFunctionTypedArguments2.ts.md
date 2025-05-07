@@ -948,7 +948,9 @@ __ESTREE_TEST__:PASS:
                         "start": 714,
                         "end": 716,
                         "raw": "''",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       },
                       "expression": true,
                       "generator": false,
@@ -1322,7 +1324,9 @@ __ESTREE_TEST__:PASS:
                       "start": 849,
                       "end": 850,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ArrowFunctionExpression",
@@ -1624,7 +1628,9 @@ __ESTREE_TEST__:PASS:
                       "start": 947,
                       "end": 948,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",

@@ -70,7 +70,9 @@
                   "start": 694,
                   "end": 706,
                   "value": "hasIndices",
-                  "raw": "'hasIndices'"
+                  "raw": "'hasIndices'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -251,7 +253,9 @@
                   "start": 873,
                   "end": 885,
                   "value": "hasIndices",
-                  "raw": "'hasIndices'"
+                  "raw": "'hasIndices'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -363,7 +367,9 @@
             "start": 971,
             "end": 1001,
             "value": "cross-realm RegExp.prototype",
-            "raw": "'cross-realm RegExp.prototype'"
+            "raw": "'cross-realm RegExp.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -489,7 +495,9 @@
             "start": 1096,
             "end": 1179,
             "value": "cross-realm RegExp.prototype getter method against primary realm RegExp.prototype",
-            "raw": "'cross-realm RegExp.prototype getter method against primary realm RegExp.prototype'"
+            "raw": "'cross-realm RegExp.prototype getter method against primary realm RegExp.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

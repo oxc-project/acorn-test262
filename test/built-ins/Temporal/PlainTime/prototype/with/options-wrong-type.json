@@ -28,21 +28,27 @@
                 "start": 312,
                 "end": 316,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 324,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 341,
                 "value": "some string",
-                "raw": "\"some string\""
+                "raw": "\"some string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -62,7 +68,9 @@
                 "start": 357,
                 "end": 358,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -70,6 +78,7 @@
                 "end": 364,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             ]
@@ -248,7 +257,9 @@
                               "start": 504,
                               "end": 506,
                               "value": 45,
-                              "raw": "45"
+                              "raw": "45",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -420,7 +431,9 @@
                   "start": 656,
                   "end": 706,
                   "value": "Partial time processed before throwing TypeError",
-                  "raw": "\"Partial time processed before throwing TypeError\""
+                  "raw": "\"Partial time processed before throwing TypeError\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

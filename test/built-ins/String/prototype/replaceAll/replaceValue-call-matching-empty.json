@@ -191,7 +191,9 @@
                     "start": 801,
                     "end": 806,
                     "value": "abc",
-                    "raw": "'abc'"
+                    "raw": "'abc'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -232,7 +234,9 @@
                 "start": 841,
                 "end": 843,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -271,7 +275,9 @@
                 "start": 868,
                 "end": 870,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -389,7 +395,9 @@
             "start": 961,
             "end": 962,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -434,7 +442,9 @@
             "start": 990,
             "end": 995,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -528,7 +538,9 @@
               "start": 1052,
               "end": 1053,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -549,14 +561,18 @@
                 "start": 1060,
                 "end": 1062,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1064,
                 "end": 1065,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",

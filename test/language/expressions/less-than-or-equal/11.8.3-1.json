@@ -23,7 +23,9 @@
             "start": 336,
             "end": 341,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 396,
                             "end": 400,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -109,7 +113,9 @@
                           "start": 413,
                           "end": 414,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -179,7 +185,9 @@
                           "start": 472,
                           "end": 473,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -244,14 +252,18 @@
             "start": 514,
             "end": 519,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 560,
             "value": "The result of (obj1 <= obj2) is false",
-            "raw": "'The result of (obj1 <= obj2) is false'"
+            "raw": "'The result of (obj1 <= obj2) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,14 +308,18 @@
             "start": 590,
             "end": 594,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 627,
             "value": "The value of accessed is true",
-            "raw": "'The value of accessed is true'"
+            "raw": "'The value of accessed is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

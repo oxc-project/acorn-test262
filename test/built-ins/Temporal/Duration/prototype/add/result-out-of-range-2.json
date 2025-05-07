@@ -78,7 +78,9 @@
                       "start": 398,
                       "end": 410,
                       "value": 104249991374,
-                      "raw": "104249991374"
+                      "raw": "104249991374",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

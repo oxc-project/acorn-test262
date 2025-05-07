@@ -152,7 +152,9 @@
                             "start": 596,
                             "end": 597,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -268,7 +270,9 @@
                             "start": 707,
                             "end": 708,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -281,7 +285,9 @@
                           "start": 721,
                           "end": 725,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -381,7 +387,9 @@
                               "start": 839,
                               "end": 850,
                               "value": "lastIndex",
-                              "raw": "'lastIndex'"
+                              "raw": "'lastIndex'",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",
@@ -406,7 +414,9 @@
                                     "start": 864,
                                     "end": 869,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -436,7 +446,9 @@
                             "start": 896,
                             "end": 897,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -449,7 +461,9 @@
                           "start": 910,
                           "end": 914,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -483,7 +497,9 @@
           "start": 936,
           "end": 937,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -658,14 +674,18 @@
             "start": 1071,
             "end": 1072,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1074,
             "end": 1113,
             "value": "Match executed (\"poisoned\" lastIndex)",
-            "raw": "'Match executed (\"poisoned\" lastIndex)'"
+            "raw": "'Match executed (\"poisoned\" lastIndex)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -691,7 +711,9 @@
           "start": 1129,
           "end": 1130,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -866,14 +888,18 @@
             "start": 1264,
             "end": 1265,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1308,
             "value": "Match executed (non-writable lastIndex)",
-            "raw": "'Match executed (non-writable lastIndex)'"
+            "raw": "'Match executed (non-writable lastIndex)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -75,7 +75,9 @@
             "start": 328,
             "end": 362,
             "value": "Object.getPrototypeOf(EvalError)",
-            "raw": "'Object.getPrototypeOf(EvalError)'"
+            "raw": "'Object.getPrototypeOf(EvalError)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

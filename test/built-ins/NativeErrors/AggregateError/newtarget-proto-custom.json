@@ -41,7 +41,9 @@
                   "start": 1136,
                   "end": 1138,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -158,7 +160,9 @@
                                 "start": 1208,
                                 "end": 1219,
                                 "value": "prototype",
-                                "raw": "'prototype'"
+                                "raw": "'prototype'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -412,7 +416,9 @@
             "start": 1413,
             "end": 1415,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

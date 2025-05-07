@@ -49,77 +49,99 @@
                 "start": 318,
                 "end": 333,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 354,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 365,
                 "value": "style",
-                "raw": "\"style\""
+                "raw": "\"style\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 379,
                 "value": "currency",
-                "raw": "\"currency\""
+                "raw": "\"currency\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 400,
                 "value": "currencyDisplay",
-                "raw": "\"currencyDisplay\""
+                "raw": "\"currencyDisplay\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 404,
                 "end": 426,
                 "value": "minimumIntegerDigits",
-                "raw": "\"minimumIntegerDigits\""
+                "raw": "\"minimumIntegerDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 453,
                 "value": "minimumFractionDigits",
-                "raw": "\"minimumFractionDigits\""
+                "raw": "\"minimumFractionDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 480,
                 "value": "maximumFractionDigits",
-                "raw": "\"maximumFractionDigits\""
+                "raw": "\"maximumFractionDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 484,
                 "end": 510,
                 "value": "minimumSignificantDigits",
-                "raw": "\"minimumSignificantDigits\""
+                "raw": "\"minimumSignificantDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 514,
                 "end": 540,
                 "value": "maximumSignificantDigits",
-                "raw": "\"maximumSignificantDigits\""
+                "raw": "\"maximumSignificantDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 544,
                 "end": 557,
                 "value": "useGrouping",
-                "raw": "\"useGrouping\""
+                "raw": "\"useGrouping\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -244,7 +266,9 @@
                               "start": 658,
                               "end": 662,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

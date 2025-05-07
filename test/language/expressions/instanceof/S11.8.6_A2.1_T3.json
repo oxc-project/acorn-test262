@@ -64,7 +64,9 @@
                     "start": 348,
                     "end": 409,
                     "value": "#1.1: ({}) instanceof OBJECT throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: ({}) instanceof OBJECT throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: ({}) instanceof OBJECT throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -153,7 +155,9 @@
                   "start": 495,
                   "end": 499,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -185,7 +189,9 @@
                             "start": 530,
                             "end": 591,
                             "value": "#1.2: ({}) instanceof OBJECT throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: ({}) instanceof OBJECT throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: ({}) instanceof OBJECT throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

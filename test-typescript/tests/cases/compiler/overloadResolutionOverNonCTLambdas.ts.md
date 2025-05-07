@@ -84,7 +84,8 @@ __ESTREE_TEST__:PASS:
                               "flags": "g",
                               "pattern": "\\{(\\d+)\\}"
                             },
-                            "value": null
+                            "value": null,
+                            "bigint": null
                           },
                           {
                             "type": "FunctionExpression",
@@ -135,7 +136,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 288,
                                           "end": 289,
                                           "raw": "0",
-                                          "value": 0
+                                          "value": 0,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -227,7 +230,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 328,
                                         "end": 339,
                                         "raw": "'undefined'",
-                                        "value": "undefined"
+                                        "value": "undefined",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   }
@@ -435,7 +440,9 @@ __ESTREE_TEST__:PASS:
                   "start": 460,
                   "end": 463,
                   "raw": "\"s\"",
-                  "value": "s"
+                  "value": "s",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

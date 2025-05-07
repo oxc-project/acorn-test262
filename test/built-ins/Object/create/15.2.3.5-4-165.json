@@ -139,7 +139,9 @@
           "start": 435,
           "end": 445,
           "value": "FunValue",
-          "raw": "\"FunValue\""
+          "raw": "\"FunValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -275,14 +277,18 @@
             "start": 528,
             "end": 538,
             "value": "FunValue",
-            "raw": "\"FunValue\""
+            "raw": "\"FunValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 553,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

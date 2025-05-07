@@ -255,7 +255,9 @@ __ESTREE_TEST__:PASS:
                 "start": 273,
                 "end": 281,
                 "raw": "\"states\"",
-                "value": "states"
+                "value": "states",
+                "regex": null,
+                "bigint": null
               }
             },
             "objectType": {
@@ -337,7 +339,9 @@ __ESTREE_TEST__:PASS:
                             "start": 320,
                             "end": 328,
                             "raw": "\"states\"",
-                            "value": "states"
+                            "value": "states",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {
@@ -728,7 +732,9 @@ __ESTREE_TEST__:PASS:
                   "start": 642,
                   "end": 651,
                   "raw": "\"orderBy\"",
-                  "value": "orderBy"
+                  "value": "orderBy",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "objectType": {
@@ -753,7 +759,9 @@ __ESTREE_TEST__:PASS:
                           "start": 632,
                           "end": 639,
                           "raw": "\"order\"",
-                          "value": "order"
+                          "value": "order",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {

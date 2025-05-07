@@ -435,7 +435,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 32,
         "raw": "'fake:thing'",
-        "value": "fake:thing"
+        "value": "fake:thing",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

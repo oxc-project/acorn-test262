@@ -126,7 +126,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "\"zone.js\"",
-        "value": "zone.js"
+        "value": "zone.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -166,7 +168,9 @@ __ESTREE_TEST__:PASS:
         "start": 47,
         "end": 57,
         "raw": "\"zone.tsx\"",
-        "value": "zone.tsx"
+        "value": "zone.tsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

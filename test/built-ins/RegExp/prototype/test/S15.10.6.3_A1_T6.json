@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(z)((a+)?(b+)?(c))*",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -116,7 +117,9 @@
                             "start": 439,
                             "end": 451,
                             "value": "zaacbbbcac",
-                            "raw": "\"zaacbbbcac\""
+                            "raw": "\"zaacbbbcac\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -188,7 +191,9 @@
                               "start": 489,
                               "end": 501,
                               "value": "zaacbbbcac",
-                              "raw": "\"zaacbbbcac\""
+                              "raw": "\"zaacbbbcac\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -207,7 +212,9 @@
               "start": 511,
               "end": 515,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -215,7 +222,9 @@
             "start": 519,
             "end": 635,
             "value": "__re.test((function(){return \"zaacbbbcac\"})()) must return __re.exec((function(){return \"zaacbbbcac\"})()) !== null",
-            "raw": "'__re.test((function(){return \"zaacbbbcac\"})()) must return __re.exec((function(){return \"zaacbbbcac\"})()) !== null'"
+            "raw": "'__re.test((function(){return \"zaacbbbcac\"})()) must return __re.exec((function(){return \"zaacbbbcac\"})()) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

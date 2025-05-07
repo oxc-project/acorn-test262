@@ -525,7 +525,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 295,
                                 "end": 300,
                                 "raw": "'foo'",
-                                "value": "foo"
+                                "value": "foo",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             {
@@ -537,7 +539,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 303,
                                 "end": 308,
                                 "raw": "'bar'",
-                                "value": "bar"
+                                "value": "bar",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             {
@@ -549,7 +553,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 311,
                                 "end": 316,
                                 "raw": "'baz'",
-                                "value": "baz"
+                                "value": "baz",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -787,7 +793,9 @@ __ESTREE_TEST__:PASS:
                     "start": 56,
                     "end": 61,
                     "raw": "'foo'",
-                    "value": "foo"
+                    "value": "foo",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -799,7 +807,9 @@ __ESTREE_TEST__:PASS:
                     "start": 64,
                     "end": 69,
                     "raw": "'bar'",
-                    "value": "bar"
+                    "value": "bar",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -811,7 +821,9 @@ __ESTREE_TEST__:PASS:
                     "start": 72,
                     "end": 77,
                     "raw": "'baz'",
-                    "value": "baz"
+                    "value": "baz",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -3187,7 +3199,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1911,
                         "end": 1914,
                         "raw": "'a'",
-                        "value": "a"
+                        "value": "a",
+                        "regex": null,
+                        "bigint": null
                       },
                       "test": {
                         "type": "Identifier",
@@ -3368,7 +3382,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1998,
                         "end": 2001,
                         "raw": "'a'",
-                        "value": "a"
+                        "value": "a",
+                        "regex": null,
+                        "bigint": null
                       },
                       "test": {
                         "type": "Identifier",
@@ -4460,7 +4476,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2575,
                 "end": 2588,
                 "raw": "\"foo.bar.baz\"",
-                "value": "foo.bar.baz"
+                "value": "foo.bar.baz",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -4504,7 +4522,9 @@ __ESTREE_TEST__:PASS:
             "start": 2612,
             "end": 2625,
             "raw": "\"foo.bar.baz\"",
-            "value": "foo.bar.baz"
+            "value": "foo.bar.baz",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -4824,7 +4844,9 @@ __ESTREE_TEST__:PASS:
                       "start": 2868,
                       "end": 2873,
                       "raw": "'abc'",
-                      "value": "abc"
+                      "value": "abc",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -4836,7 +4858,9 @@ __ESTREE_TEST__:PASS:
                       "start": 2876,
                       "end": 2881,
                       "raw": "'def'",
-                      "value": "def"
+                      "value": "def",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -4848,7 +4872,9 @@ __ESTREE_TEST__:PASS:
                       "start": 2884,
                       "end": 2889,
                       "raw": "'ghi'",
-                      "value": "ghi"
+                      "value": "ghi",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -4974,7 +5000,9 @@ __ESTREE_TEST__:PASS:
             "start": 3016,
             "end": 3018,
             "raw": "22",
-            "value": 22
+            "value": 22,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -5348,7 +5376,9 @@ __ESTREE_TEST__:PASS:
                   "start": 3340,
                   "end": 3342,
                   "raw": "12",
-                  "value": 12
+                  "value": 12,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -5377,7 +5407,9 @@ __ESTREE_TEST__:PASS:
               "start": 3410,
               "end": 3412,
               "raw": "12",
-              "value": 12
+              "value": 12,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -5420,7 +5452,9 @@ __ESTREE_TEST__:PASS:
                     "start": 3369,
                     "end": 3383,
                     "raw": "\"-moz-initial\"",
-                    "value": "-moz-initial"
+                    "value": "-moz-initial",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {

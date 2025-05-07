@@ -38,14 +38,17 @@
                 "regex": {
                   "pattern": "(?i:aB)",
                   "flags": "i"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2210,
                 "end": 2212,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -97,7 +100,9 @@
                 "start": 2231,
                 "end": 2235,
                 "value": "AB",
-                "raw": "\"AB\""
+                "raw": "\"AB\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -107,7 +112,9 @@
             "start": 2238,
             "end": 2282,
             "value": "still should ignore case in modified group",
-            "raw": "\"still should ignore case in modified group\""
+            "raw": "\"still should ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -157,7 +164,9 @@
                 "start": 2301,
                 "end": 2305,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -167,7 +176,9 @@
             "start": 2308,
             "end": 2352,
             "value": "still should ignore case in modified group",
-            "raw": "\"still should ignore case in modified group\""
+            "raw": "\"still should ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +228,9 @@
                 "start": 2371,
                 "end": 2375,
                 "value": "aB",
-                "raw": "\"aB\""
+                "raw": "\"aB\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -227,7 +240,9 @@
             "start": 2378,
             "end": 2422,
             "value": "still should ignore case in modified group",
-            "raw": "\"still should ignore case in modified group\""
+            "raw": "\"still should ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +292,9 @@
                 "start": 2441,
                 "end": 2445,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -287,7 +304,9 @@
             "start": 2448,
             "end": 2492,
             "value": "still should ignore case in modified group",
-            "raw": "\"still should ignore case in modified group\""
+            "raw": "\"still should ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,14 +347,17 @@
                 "regex": {
                   "pattern": "(?-i:aB)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2529,
                 "end": 2532,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -393,7 +415,9 @@
                   "start": 2552,
                   "end": 2556,
                   "value": "AB",
-                  "raw": "\"AB\""
+                  "raw": "\"AB\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -404,7 +428,9 @@
             "start": 2559,
             "end": 2605,
             "value": "still should preserve case in modified group",
-            "raw": "\"still should preserve case in modified group\""
+            "raw": "\"still should preserve case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +486,9 @@
                   "start": 2625,
                   "end": 2629,
                   "value": "Ab",
-                  "raw": "\"Ab\""
+                  "raw": "\"Ab\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -471,7 +499,9 @@
             "start": 2632,
             "end": 2678,
             "value": "still should preserve case in modified group",
-            "raw": "\"still should preserve case in modified group\""
+            "raw": "\"still should preserve case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -527,7 +557,9 @@
                   "start": 2698,
                   "end": 2702,
                   "value": "ab",
-                  "raw": "\"ab\""
+                  "raw": "\"ab\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -538,7 +570,9 @@
             "start": 2705,
             "end": 2751,
             "value": "still should preserve case in modified group",
-            "raw": "\"still should preserve case in modified group\""
+            "raw": "\"still should preserve case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -588,7 +622,9 @@
                 "start": 2770,
                 "end": 2774,
                 "value": "aB",
-                "raw": "\"aB\""
+                "raw": "\"aB\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -598,7 +634,9 @@
             "start": 2777,
             "end": 2823,
             "value": "still should preserve case in modified group",
-            "raw": "\"still should preserve case in modified group\""
+            "raw": "\"still should preserve case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

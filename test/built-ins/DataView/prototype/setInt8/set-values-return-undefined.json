@@ -34,7 +34,9 @@
                 "start": 963,
                 "end": 964,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 1001,
                 "end": 1002,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -313,7 +317,9 @@
                             "start": 1209,
                             "end": 1210,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -385,7 +391,9 @@
                             "start": 1260,
                             "end": 1261,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -405,7 +413,9 @@
                           "start": 1282,
                           "end": 1291,
                           "value": "value: ",
-                          "raw": "\"value: \""
+                          "raw": "\"value: \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -468,7 +478,9 @@
                           "start": 1356,
                           "end": 1386,
                           "value": "return is undefined, value: ",
-                          "raw": "\"return is undefined, value: \""
+                          "raw": "\"return is undefined, value: \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

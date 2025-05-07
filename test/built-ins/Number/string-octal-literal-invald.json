@@ -47,7 +47,9 @@
                 "start": 427,
                 "end": 432,
                 "value": "0o8",
-                "raw": "'0o8'"
+                "raw": "'0o8'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 440,
             "end": 455,
             "value": "invalid digit",
-            "raw": "'invalid digit'"
+            "raw": "'invalid digit'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                 "start": 482,
                 "end": 488,
                 "value": "00o0",
-                "raw": "'00o0'"
+                "raw": "'00o0'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -129,7 +135,9 @@
             "start": 496,
             "end": 510,
             "value": "leading zero",
-            "raw": "'leading zero'"
+            "raw": "'leading zero'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +187,9 @@
                 "start": 537,
                 "end": 541,
                 "value": "0o",
-                "raw": "'0o'"
+                "raw": "'0o'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -195,7 +205,9 @@
             "start": 549,
             "end": 565,
             "value": "omitted digits",
-            "raw": "'omitted digits'"
+            "raw": "'omitted digits'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +257,9 @@
                 "start": 592,
                 "end": 599,
                 "value": "+0o10",
-                "raw": "'+0o10'"
+                "raw": "'+0o10'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -261,7 +275,9 @@
             "start": 607,
             "end": 618,
             "value": "plus sign",
-            "raw": "'plus sign'"
+            "raw": "'plus sign'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -311,7 +327,9 @@
                 "start": 645,
                 "end": 652,
                 "value": "-0o10",
-                "raw": "'-0o10'"
+                "raw": "'-0o10'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -327,7 +345,9 @@
             "start": 660,
             "end": 672,
             "value": "minus sign",
-            "raw": "'minus sign'"
+            "raw": "'minus sign'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -377,7 +397,9 @@
                 "start": 699,
                 "end": 708,
                 "value": "0o10.01",
-                "raw": "'0o10.01'"
+                "raw": "'0o10.01'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -393,7 +415,9 @@
             "start": 716,
             "end": 733,
             "value": "fractional part",
-            "raw": "'fractional part'"
+            "raw": "'fractional part'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -443,7 +467,9 @@
                 "start": 760,
                 "end": 768,
                 "value": "0o1e10",
-                "raw": "'0o1e10'"
+                "raw": "'0o1e10'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -459,7 +485,9 @@
             "start": 776,
             "end": 791,
             "value": "exponent part",
-            "raw": "'exponent part'"
+            "raw": "'exponent part'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -509,7 +537,9 @@
                 "start": 818,
                 "end": 827,
                 "value": "0o1e-10",
-                "raw": "'0o1e-10'"
+                "raw": "'0o1e-10'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -525,7 +555,9 @@
             "start": 835,
             "end": 868,
             "value": "exponent part with a minus sign",
-            "raw": "'exponent part with a minus sign'"
+            "raw": "'exponent part with a minus sign'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -575,7 +607,9 @@
                 "start": 895,
                 "end": 904,
                 "value": "0o1e+10",
-                "raw": "'0o1e+10'"
+                "raw": "'0o1e+10'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -591,7 +625,9 @@
             "start": 912,
             "end": 944,
             "value": "exponent part with a plus sign",
-            "raw": "'exponent part with a plus sign'"
+            "raw": "'exponent part with a plus sign'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

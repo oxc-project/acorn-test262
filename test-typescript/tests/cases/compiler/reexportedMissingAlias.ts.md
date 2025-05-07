@@ -61,7 +61,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 34,
         "raw": "'./second'",
-        "value": "./second"
+        "value": "./second",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -117,7 +119,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 35,
         "raw": "'./first'",
-        "value": "./first"
+        "value": "./first",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

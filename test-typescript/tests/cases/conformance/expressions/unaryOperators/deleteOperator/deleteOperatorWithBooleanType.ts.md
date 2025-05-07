@@ -58,7 +58,9 @@ __ESTREE_TEST__:PASS:
               "start": 92,
               "end": 96,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -171,7 +173,9 @@ __ESTREE_TEST__:PASS:
                       "start": 160,
                       "end": 165,
                       "raw": "false",
-                      "value": false
+                      "value": false,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -378,7 +382,9 @@ __ESTREE_TEST__:PASS:
               "start": 347,
               "end": 351,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             },
             "operator": "delete",
             "prefix": true
@@ -439,7 +445,9 @@ __ESTREE_TEST__:PASS:
                     "start": 388,
                     "end": 392,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -465,7 +473,9 @@ __ESTREE_TEST__:PASS:
                     "start": 397,
                     "end": 402,
                     "raw": "false",
-                    "value": false
+                    "value": false,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -763,7 +773,9 @@ __ESTREE_TEST__:PASS:
           "start": 697,
           "end": 701,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         },
         "operator": "delete",
         "prefix": true
@@ -840,7 +852,9 @@ __ESTREE_TEST__:PASS:
               "start": 740,
               "end": 744,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             },
             "operator": "delete",
             "prefix": true
@@ -850,7 +864,9 @@ __ESTREE_TEST__:PASS:
             "start": 746,
             "end": 751,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           }
         ]
       }

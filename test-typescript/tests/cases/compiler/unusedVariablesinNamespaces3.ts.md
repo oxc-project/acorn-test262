@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
                     "flags": "",
                     "pattern": "^[A-Za-z]+$"
                   },
-                  "value": null
+                  "value": null,
+                  "bigint": null
                 }
               }
             ],
@@ -77,7 +78,8 @@ __ESTREE_TEST__:PASS:
                     "flags": "",
                     "pattern": "^[0-9]+$"
                   },
-                  "value": null
+                  "value": null,
+                  "bigint": null
                 }
               }
             ],
@@ -113,7 +115,9 @@ __ESTREE_TEST__:PASS:
                     "start": 142,
                     "end": 155,
                     "raw": "\"Dummy value\"",
-                    "value": "Dummy value"
+                    "value": "Dummy value",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

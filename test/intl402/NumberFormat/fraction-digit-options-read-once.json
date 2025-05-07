@@ -61,7 +61,9 @@
             "start": 448,
             "end": 452,
             "value": "en",
-            "raw": "\"en\""
+            "raw": "\"en\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -128,7 +130,9 @@
                               "start": 497,
                               "end": 520,
                               "value": "minimumFractionDigits",
-                              "raw": "'minimumFractionDigits'"
+                              "raw": "'minimumFractionDigits'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -199,7 +203,9 @@
                               "start": 596,
                               "end": 619,
                               "value": "maximumFractionDigits",
-                              "raw": "'maximumFractionDigits'"
+                              "raw": "'maximumFractionDigits'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -267,7 +273,9 @@
             "start": 658,
             "end": 659,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,7 +324,9 @@
               "start": 685,
               "end": 686,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -326,7 +336,9 @@
             "start": 689,
             "end": 712,
             "value": "minimumFractionDigits",
-            "raw": "'minimumFractionDigits'"
+            "raw": "'minimumFractionDigits'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +387,9 @@
               "start": 738,
               "end": 739,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -385,7 +399,9 @@
             "start": 742,
             "end": 765,
             "value": "maximumFractionDigits",
-            "raw": "'maximumFractionDigits'"
+            "raw": "'maximumFractionDigits'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

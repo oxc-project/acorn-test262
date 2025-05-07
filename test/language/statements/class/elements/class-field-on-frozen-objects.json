@@ -81,7 +81,9 @@
               "start": 655,
               "end": 664,
               "value": "Test262",
-              "raw": "\"Test262\""
+              "raw": "\"Test262\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -160,7 +162,9 @@
             "start": 724,
             "end": 757,
             "value": "Frozen objects can't be changed",
-            "raw": "\"Frozen objects can't be changed\""
+            "raw": "\"Frozen objects can't be changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

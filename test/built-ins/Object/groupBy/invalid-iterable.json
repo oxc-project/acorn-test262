@@ -52,7 +52,9 @@
                         "start": 474,
                         "end": 514,
                         "value": "callback function should not be called",
-                        "raw": "'callback function should not be called'"
+                        "raw": "'callback function should not be called'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -279,7 +281,9 @@
             "start": 712,
             "end": 739,
             "value": "undefined Symbol.iterator",
-            "raw": "'undefined Symbol.iterator'"
+            "raw": "'undefined Symbol.iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,7 +387,9 @@
                             "start": 816,
                             "end": 820,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -406,7 +412,9 @@
             "start": 835,
             "end": 857,
             "value": "null Symbol.iterator",
-            "raw": "'null Symbol.iterator'"
+            "raw": "'null Symbol.iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

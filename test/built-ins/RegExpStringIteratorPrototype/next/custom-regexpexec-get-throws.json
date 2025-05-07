@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,7 +66,9 @@
                 "start": 537,
                 "end": 539,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +129,9 @@
             "start": 583,
             "end": 589,
             "value": "exec",
-            "raw": "'exec'"
+            "raw": "'exec'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

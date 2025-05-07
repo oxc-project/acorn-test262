@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "r\\b",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 449,
                 "end": 482,
                 "value": "pilot\nsoviet robot\topenoffice",
-                "raw": "\"pilot\\nsoviet robot\\topenoffice\""
+                "raw": "\"pilot\\nsoviet robot\\topenoffice\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 506,
             "end": 555,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

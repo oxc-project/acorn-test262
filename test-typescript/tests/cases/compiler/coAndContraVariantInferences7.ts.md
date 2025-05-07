@@ -59,7 +59,9 @@ __ESTREE_TEST__:PASS:
                     "start": 58,
                     "end": 65,
                     "raw": "\"query\"",
-                    "value": "query"
+                    "value": "query",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {
@@ -705,7 +707,9 @@ __ESTREE_TEST__:PASS:
                         "start": 394,
                         "end": 396,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

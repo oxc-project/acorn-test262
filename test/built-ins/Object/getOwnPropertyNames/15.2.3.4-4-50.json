@@ -67,7 +67,9 @@
             "start": 333,
             "end": 352,
             "value": "nonEnumerableProp",
-            "raw": "\"nonEnumerableProp\""
+            "raw": "\"nonEnumerableProp\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 365,
                   "end": 367,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 383,
                   "end": 388,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +142,9 @@
                   "start": 406,
                   "end": 410,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -241,7 +249,9 @@
               "start": 487,
               "end": 488,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -251,14 +261,18 @@
             "start": 491,
             "end": 510,
             "value": "nonEnumerableProp",
-            "raw": "\"nonEnumerableProp\""
+            "raw": "\"nonEnumerableProp\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 523,
             "value": "result[0]",
-            "raw": "'result[0]'"
+            "raw": "'result[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

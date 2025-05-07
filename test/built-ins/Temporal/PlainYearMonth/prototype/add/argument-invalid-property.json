@@ -47,14 +47,18 @@
                 "start": 349,
                 "end": 353,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 356,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +148,9 @@
             "start": 416,
             "end": 460,
             "value": "Throws TypeError if no property is present",
-            "raw": "\"Throws TypeError if no property is present\""
+            "raw": "\"Throws TypeError if no property is present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,7 +246,9 @@
                         "start": 526,
                         "end": 530,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -255,7 +263,9 @@
             "start": 537,
             "end": 592,
             "value": "Throws TypeError if no recognized property is present",
-            "raw": "\"Throws TypeError if no recognized property is present\""
+            "raw": "\"Throws TypeError if no recognized property is present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -351,7 +361,9 @@
                         "start": 654,
                         "end": 655,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -366,7 +378,9 @@
             "start": 662,
             "end": 695,
             "value": "Sign property is not recognized",
-            "raw": "\"Sign property is not recognized\""
+            "raw": "\"Sign property is not recognized\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

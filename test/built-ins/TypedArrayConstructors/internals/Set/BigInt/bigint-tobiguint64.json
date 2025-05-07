@@ -29,6 +29,7 @@
                 "end": 2842,
                 "value": null,
                 "raw": "18446744073709551618n",
+                "regex": null,
                 "bigint": "18446744073709551618"
               },
               {
@@ -37,6 +38,7 @@
                 "end": 2866,
                 "value": null,
                 "raw": "9223372036854775810n",
+                "regex": null,
                 "bigint": "9223372036854775810"
               },
               {
@@ -45,6 +47,7 @@
                 "end": 2872,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               },
               {
@@ -53,6 +56,7 @@
                 "end": 2878,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -67,6 +71,7 @@
                   "end": 2885,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               },
@@ -82,6 +87,7 @@
                   "end": 2910,
                   "value": null,
                   "raw": "9223372036854775810n",
+                  "regex": null,
                   "bigint": "9223372036854775810"
                 }
               },
@@ -97,6 +103,7 @@
                   "end": 2936,
                   "value": null,
                   "raw": "18446744073709551618n",
+                  "regex": null,
                   "bigint": "18446744073709551618"
                 }
               }
@@ -137,7 +144,9 @@
                 "start": 2977,
                 "end": 2978,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -169,7 +178,9 @@
             "start": 2992,
             "end": 2993,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -189,7 +200,9 @@
             "start": 3002,
             "end": 3003,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -239,7 +252,9 @@
               "start": 3034,
               "end": 3035,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -250,6 +265,7 @@
             "end": 3040,
             "value": null,
             "raw": "2n",
+            "regex": null,
             "bigint": "2"
           },
           {
@@ -257,7 +273,9 @@
             "start": 3042,
             "end": 3076,
             "value": "The value of typedArray[0] is 2n",
-            "raw": "'The value of typedArray[0] is 2n'"
+            "raw": "'The value of typedArray[0] is 2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +305,9 @@
             "start": 3090,
             "end": 3091,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -307,7 +327,9 @@
             "start": 3100,
             "end": 3101,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -357,7 +379,9 @@
               "start": 3132,
               "end": 3133,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -368,6 +392,7 @@
             "end": 3156,
             "value": null,
             "raw": "9223372036854775810n",
+            "regex": null,
             "bigint": "9223372036854775810"
           },
           {
@@ -375,7 +400,9 @@
             "start": 3158,
             "end": 3210,
             "value": "The value of typedArray[0] is 9223372036854775810n",
-            "raw": "'The value of typedArray[0] is 9223372036854775810n'"
+            "raw": "'The value of typedArray[0] is 9223372036854775810n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -405,7 +432,9 @@
             "start": 3224,
             "end": 3225,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -425,7 +454,9 @@
             "start": 3234,
             "end": 3235,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -475,7 +506,9 @@
               "start": 3266,
               "end": 3267,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -486,6 +519,7 @@
             "end": 3272,
             "value": null,
             "raw": "2n",
+            "regex": null,
             "bigint": "2"
           },
           {
@@ -493,7 +527,9 @@
             "start": 3274,
             "end": 3308,
             "value": "The value of typedArray[0] is 2n",
-            "raw": "'The value of typedArray[0] is 2n'"
+            "raw": "'The value of typedArray[0] is 2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -523,7 +559,9 @@
             "start": 3322,
             "end": 3323,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -543,7 +581,9 @@
             "start": 3332,
             "end": 3333,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -593,7 +633,9 @@
               "start": 3364,
               "end": 3365,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -604,6 +646,7 @@
             "end": 3370,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -611,7 +654,9 @@
             "start": 3372,
             "end": 3406,
             "value": "The value of typedArray[0] is 0n",
-            "raw": "'The value of typedArray[0] is 0n'"
+            "raw": "'The value of typedArray[0] is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,7 +686,9 @@
             "start": 3420,
             "end": 3421,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -661,7 +708,9 @@
             "start": 3430,
             "end": 3431,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -711,7 +760,9 @@
               "start": 3462,
               "end": 3463,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -722,6 +773,7 @@
             "end": 3487,
             "value": null,
             "raw": "18446744073709551614n",
+            "regex": null,
             "bigint": "18446744073709551614"
           },
           {
@@ -729,7 +781,9 @@
             "start": 3489,
             "end": 3542,
             "value": "The value of typedArray[0] is 18446744073709551614n",
-            "raw": "'The value of typedArray[0] is 18446744073709551614n'"
+            "raw": "'The value of typedArray[0] is 18446744073709551614n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -759,7 +813,9 @@
             "start": 3556,
             "end": 3557,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -779,7 +835,9 @@
             "start": 3566,
             "end": 3567,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -829,7 +887,9 @@
               "start": 3598,
               "end": 3599,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -840,6 +900,7 @@
             "end": 3622,
             "value": null,
             "raw": "9223372036854775806n",
+            "regex": null,
             "bigint": "9223372036854775806"
           },
           {
@@ -847,7 +908,9 @@
             "start": 3624,
             "end": 3676,
             "value": "The value of typedArray[0] is 9223372036854775806n",
-            "raw": "'The value of typedArray[0] is 9223372036854775806n'"
+            "raw": "'The value of typedArray[0] is 9223372036854775806n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -877,7 +940,9 @@
             "start": 3690,
             "end": 3691,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -897,7 +962,9 @@
             "start": 3700,
             "end": 3701,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -947,7 +1014,9 @@
               "start": 3732,
               "end": 3733,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -958,6 +1027,7 @@
             "end": 3757,
             "value": null,
             "raw": "18446744073709551614n",
+            "regex": null,
             "bigint": "18446744073709551614"
           },
           {
@@ -965,7 +1035,9 @@
             "start": 3759,
             "end": 3812,
             "value": "The value of typedArray[0] is 18446744073709551614n",
-            "raw": "'The value of typedArray[0] is 18446744073709551614n'"
+            "raw": "'The value of typedArray[0] is 18446744073709551614n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

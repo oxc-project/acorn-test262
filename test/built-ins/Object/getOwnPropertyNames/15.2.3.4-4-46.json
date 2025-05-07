@@ -28,21 +28,27 @@
                 "start": 320,
                 "end": 321,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 324,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -102,7 +108,9 @@
             "start": 370,
             "end": 385,
             "value": "protoProperty",
-            "raw": "\"protoProperty\""
+            "raw": "\"protoProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -145,7 +153,9 @@
                           "start": 420,
                           "end": 432,
                           "value": "protoArray",
-                          "raw": "\"protoArray\""
+                          "raw": "\"protoArray\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -171,7 +181,9 @@
                   "start": 455,
                   "end": 459,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -320,14 +332,18 @@
                   "start": 569,
                   "end": 584,
                   "value": "protoProperty",
-                  "raw": "\"protoProperty\""
+                  "raw": "\"protoProperty\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 586,
                   "end": 597,
                   "value": "result[p]",
-                  "raw": "'result[p]'"
+                  "raw": "'result[p]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

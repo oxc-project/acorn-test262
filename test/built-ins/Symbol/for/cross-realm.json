@@ -118,7 +118,9 @@
                 "start": 533,
                 "end": 541,
                 "value": "parent",
-                "raw": "'parent'"
+                "raw": "'parent'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -171,7 +173,9 @@
                 "start": 568,
                 "end": 575,
                 "value": "child",
-                "raw": "'child'"
+                "raw": "'child'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -313,7 +317,9 @@
                 "start": 662,
                 "end": 670,
                 "value": "parent",
-                "raw": "'parent'"
+                "raw": "'parent'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -379,7 +385,9 @@
                 "start": 702,
                 "end": 709,
                 "value": "child",
-                "raw": "'child'"
+                "raw": "'child'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

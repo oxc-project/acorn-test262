@@ -60,7 +60,9 @@
                 "start": 340,
                 "end": 372,
                 "value": "1976-11-18T14:23:30.123456789Z",
-                "raw": "\"1976-11-18T14:23:30.123456789Z\""
+                "raw": "\"1976-11-18T14:23:30.123456789Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
                       "start": 476,
                       "end": 482,
                       "value": "hour",
-                      "raw": "\"hour\""
+                      "raw": "\"hour\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +170,9 @@
                       "start": 505,
                       "end": 506,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -217,7 +223,9 @@
                 "start": 533,
                 "end": 555,
                 "value": "1976-11-18T16:00:00Z",
-                "raw": "\"1976-11-18T16:00:00Z\""
+                "raw": "\"1976-11-18T16:00:00Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -301,7 +309,9 @@
                       "start": 662,
                       "end": 670,
                       "value": "minute",
-                      "raw": "\"minute\""
+                      "raw": "\"minute\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -323,7 +333,9 @@
                       "start": 693,
                       "end": 695,
                       "value": 15,
-                      "raw": "15"
+                      "raw": "15",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -374,7 +386,9 @@
                 "start": 722,
                 "end": 744,
                 "value": "1976-11-18T14:30:00Z",
-                "raw": "\"1976-11-18T14:30:00Z\""
+                "raw": "\"1976-11-18T14:30:00Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -458,7 +472,9 @@
                       "start": 851,
                       "end": 859,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -480,7 +496,9 @@
                       "start": 882,
                       "end": 884,
                       "value": 30,
-                      "raw": "30"
+                      "raw": "30",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -531,7 +549,9 @@
                 "start": 911,
                 "end": 933,
                 "value": "1976-11-18T14:23:30Z",
-                "raw": "\"1976-11-18T14:23:30Z\""
+                "raw": "\"1976-11-18T14:23:30Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -615,7 +635,9 @@
                       "start": 1045,
                       "end": 1058,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -637,7 +659,9 @@
                       "start": 1081,
                       "end": 1083,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -688,7 +712,9 @@
                 "start": 1110,
                 "end": 1135,
                 "value": "1976-11-18T14:23:30.12Z",
-                "raw": "\"1976-11-18T14:23:30.12Z\""
+                "raw": "\"1976-11-18T14:23:30.12Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -772,7 +798,9 @@
                       "start": 1247,
                       "end": 1260,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -794,7 +822,9 @@
                       "start": 1283,
                       "end": 1285,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -845,7 +875,9 @@
                 "start": 1312,
                 "end": 1340,
                 "value": "1976-11-18T14:23:30.12346Z",
-                "raw": "\"1976-11-18T14:23:30.12346Z\""
+                "raw": "\"1976-11-18T14:23:30.12346Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -929,7 +961,9 @@
                       "start": 1451,
                       "end": 1463,
                       "value": "nanosecond",
-                      "raw": "\"nanosecond\""
+                      "raw": "\"nanosecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -951,7 +985,9 @@
                       "start": 1486,
                       "end": 1488,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1002,7 +1038,9 @@
                 "start": 1515,
                 "end": 1546,
                 "value": "1976-11-18T14:23:30.12345679Z",
-                "raw": "\"1976-11-18T14:23:30.12345679Z\""
+                "raw": "\"1976-11-18T14:23:30.12345679Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

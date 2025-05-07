@@ -70,7 +70,9 @@
                   "start": 554,
                   "end": 563,
                   "value": "unicode",
-                  "raw": "'unicode'"
+                  "raw": "'unicode'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -182,7 +184,9 @@
             "start": 632,
             "end": 649,
             "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "raw": "'ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -282,7 +286,9 @@
             "start": 714,
             "end": 735,
             "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "raw": "'array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +388,9 @@
             "start": 807,
             "end": 825,
             "value": "arguments object",
-            "raw": "'arguments object'"
+            "raw": "'arguments object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -492,7 +500,9 @@
             "start": 896,
             "end": 913,
             "value": "function object",
-            "raw": "'function object'"
+            "raw": "'function object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

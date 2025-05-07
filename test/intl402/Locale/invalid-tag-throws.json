@@ -62,7 +62,9 @@
             "start": 669,
             "end": 679,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -149,14 +151,18 @@
                         "start": 763,
                         "end": 767,
                         "value": "en",
-                        "raw": "\"en\""
+                        "raw": "\"en\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 769,
                         "end": 773,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

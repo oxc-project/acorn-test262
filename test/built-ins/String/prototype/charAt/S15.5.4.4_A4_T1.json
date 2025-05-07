@@ -27,7 +27,9 @@
               "start": 496,
               "end": 497,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 503,
           "end": 504,
           "value": 6,
-          "raw": "6"
+          "raw": "6",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -91,7 +95,9 @@
                     "start": 519,
                     "end": 542,
                     "value": "ABCABC",
-                    "raw": "\"ABC\\u0041\\u0042\\u0043\""
+                    "raw": "\"ABC\\u0041\\u0042\\u0043\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -126,7 +132,9 @@
                     "start": 557,
                     "end": 580,
                     "value": "ABCABC",
-                    "raw": "\"\\u0041\\u0042\\u0043ABC\""
+                    "raw": "\"\\u0041\\u0042\\u0043ABC\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -160,7 +168,9 @@
                       "start": 598,
                       "end": 599,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -236,7 +246,9 @@
                                               "start": 631,
                                               "end": 634,
                                               "value": "#",
-                                              "raw": "'#'"
+                                              "raw": "'#'",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "operator": "+",
                                             "right": {
@@ -252,7 +264,9 @@
                                             "start": 641,
                                             "end": 679,
                                             "value": ": \"ABC\\u0041\\u0042\\u0043\".charAt(",
-                                            "raw": "': \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('"
+                                            "raw": "': \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "operator": "+",
@@ -269,7 +283,9 @@
                                         "start": 686,
                                         "end": 731,
                                         "value": ") === \"\\u0041\\u0042\\u0043ABC\".substring(",
-                                        "raw": "') === \"\\\\u0041\\\\u0042\\\\u0043ABC\".substring('"
+                                        "raw": "') === \"\\\\u0041\\\\u0042\\\\u0043ABC\".substring('",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "operator": "+",
@@ -286,7 +302,9 @@
                                     "start": 738,
                                     "end": 742,
                                     "value": ", ",
-                                    "raw": "', '"
+                                    "raw": "', '",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -310,7 +328,9 @@
                                       "start": 750,
                                       "end": 751,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -321,7 +341,9 @@
                                 "start": 755,
                                 "end": 802,
                                 "value": "). Actual: \"ABC\\u0041\\u0042\\u0043\".charAt(",
-                                "raw": "'). Actual: \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('"
+                                "raw": "'). Actual: \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -338,7 +360,9 @@
                             "start": 809,
                             "end": 816,
                             "value": ") ===",
-                            "raw": "') ==='"
+                            "raw": "') ==='",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -359,7 +383,9 @@
                                 "start": 820,
                                 "end": 843,
                                 "value": "ABCABC",
-                                "raw": "\"ABC\\u0041\\u0042\\u0043\""
+                                "raw": "\"ABC\\u0041\\u0042\\u0043\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "property": {
                                 "type": "Identifier",

@@ -85,7 +85,9 @@
                     "start": 450,
                     "end": 458,
                     "value": "length",
-                    "raw": "'length'"
+                    "raw": "'length'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -97,7 +99,9 @@
             "start": 463,
             "end": 559,
             "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'"
+            "raw": "'The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,14 +223,18 @@
             "start": 666,
             "end": 674,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 676,
             "end": 680,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -251,7 +259,9 @@
                     "start": 704,
                     "end": 713,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -345,7 +355,9 @@
             "start": 789,
             "end": 880,
             "value": "The value of Object.prototype.toLocaleString.length is expected to equal the value of obj",
-            "raw": "'The value of Object.prototype.toLocaleString.length is expected to equal the value of obj'"
+            "raw": "'The value of Object.prototype.toLocaleString.length is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

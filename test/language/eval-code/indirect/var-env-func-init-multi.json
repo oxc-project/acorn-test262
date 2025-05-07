@@ -45,7 +45,9 @@
                 "start": 955,
                 "end": 956,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -62,7 +64,9 @@
             "start": 963,
             "end": 1044,
             "value": "initial = f; function f() { return \"first\"; } function f() { return \"second\"; }",
-            "raw": "'initial = f; function f() { return \"first\"; } function f() { return \"second\"; }'"
+            "raw": "'initial = f; function f() { return \"first\"; } function f() { return \"second\"; }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,14 +118,18 @@
             "start": 1076,
             "end": 1084,
             "value": "second",
-            "raw": "'second'"
+            "raw": "'second'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1086,
             "end": 1101,
             "value": "initial value",
-            "raw": "'initial value'"
+            "raw": "'initial value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,14 +181,18 @@
             "start": 1126,
             "end": 1134,
             "value": "second",
-            "raw": "'second'"
+            "raw": "'second'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1136,
             "end": 1176,
             "value": "value following declaration evaluation",
-            "raw": "'value following declaration evaluation'"
+            "raw": "'value following declaration evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

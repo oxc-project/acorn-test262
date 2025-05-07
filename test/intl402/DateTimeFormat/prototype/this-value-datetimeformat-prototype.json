@@ -101,7 +101,9 @@
                   "start": 541,
                   "end": 542,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -112,7 +114,9 @@
             "start": 559,
             "end": 661,
             "value": "Intl.DateTimeFormat's prototype is not an object that has been initialized as an Intl.DateTimeFormat",
-            "raw": "\"Intl.DateTimeFormat's prototype is not an object that has been initialized as an Intl.DateTimeFormat\""
+            "raw": "\"Intl.DateTimeFormat's prototype is not an object that has been initialized as an Intl.DateTimeFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

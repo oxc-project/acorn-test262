@@ -68,7 +68,9 @@
             "start": 535,
             "end": 541,
             "value": "JSON",
-            "raw": "'JSON'"
+            "raw": "'JSON'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +139,9 @@
                   "start": 600,
                   "end": 605,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +163,9 @@
                   "start": 621,
                   "end": 626,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -181,7 +187,9 @@
                   "start": 644,
                   "end": 648,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

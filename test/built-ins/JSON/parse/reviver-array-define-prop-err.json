@@ -39,7 +39,9 @@
                     "start": 1080,
                     "end": 1084,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -199,7 +201,9 @@
                         "start": 1220,
                         "end": 1237,
                         "value": "[\"first\", null]",
-                        "raw": "'[\"first\", null]'"
+                        "raw": "'[\"first\", null]'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "FunctionExpression",
@@ -248,7 +252,9 @@
                                   "start": 1278,
                                   "end": 1285,
                                   "value": "first",
-                                  "raw": "'first'"
+                                  "raw": "'first'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "consequent": {
@@ -279,7 +285,9 @@
                                           "start": 1300,
                                           "end": 1301,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "computed": true,
                                         "optional": false

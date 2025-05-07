@@ -25,7 +25,9 @@
                 "start": 584,
                 "end": 585,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -54,7 +56,9 @@
                   "start": 595,
                   "end": 650,
                   "value": "var f = 123;  assert.sameValue(f, 123);switch (1) {",
-                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'"
+                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -62,7 +66,9 @@
                   "start": 655,
                   "end": 667,
                   "value": "  default:",
-                  "raw": "'  default:'"
+                  "raw": "'  default:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -71,7 +77,9 @@
                 "start": 672,
                 "end": 695,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "raw": "'    function f() {  }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -80,7 +88,9 @@
               "start": 700,
               "end": 707,
               "value": "}  ",
-              "raw": "'}\\\n  '"
+              "raw": "'}\\\n  '",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

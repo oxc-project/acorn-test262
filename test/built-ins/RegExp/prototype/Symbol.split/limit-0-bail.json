@@ -204,7 +204,9 @@
                                     "start": 494,
                                     "end": 545,
                                     "value": "No match should be attempted when `limit` is `0`.",
-                                    "raw": "'No match should be attempted when `limit` is `0`.'"
+                                    "raw": "'No match should be attempted when `limit` is `0`.'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -311,14 +313,18 @@
               "start": 613,
               "end": 615,
               "value": "",
-              "raw": "''"
+              "raw": "''",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 617,
               "end": 618,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -429,7 +435,9 @@
             "start": 685,
             "end": 686,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

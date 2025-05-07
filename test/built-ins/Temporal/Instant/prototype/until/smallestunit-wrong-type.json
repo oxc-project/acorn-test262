@@ -48,6 +48,7 @@
                 "end": 370,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               }
             ]
@@ -101,6 +102,7 @@
                 "end": 434,
                 "value": null,
                 "raw": "1_000_090_061_987_654_321n",
+                "regex": null,
                 "bigint": "1000090061987654321"
               }
             ]
@@ -142,14 +144,18 @@
             "start": 480,
             "end": 494,
             "value": "smallestUnit",
-            "raw": "\"smallestUnit\""
+            "raw": "\"smallestUnit\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 496,
             "end": 509,
             "value": "microsecond",
-            "raw": "\"microsecond\""
+            "raw": "\"microsecond\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -286,70 +292,90 @@
                   "start": 631,
                   "end": 632,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 634,
                   "end": 635,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 637,
                   "end": 638,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 640,
                   "end": 641,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 643,
                   "end": 644,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 646,
                   "end": 647,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 649,
                   "end": 654,
                   "value": 90061,
-                  "raw": "90061"
+                  "raw": "90061",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 656,
                   "end": 659,
                   "value": 987,
-                  "raw": "987"
+                  "raw": "987",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 661,
                   "end": 664,
                   "value": 654,
-                  "raw": "654"
+                  "raw": "654",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 666,
                   "end": 667,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

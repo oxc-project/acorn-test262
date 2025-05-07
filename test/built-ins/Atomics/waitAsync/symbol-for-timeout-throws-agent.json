@@ -62,14 +62,18 @@
             "start": 735,
             "end": 745,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 802,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -95,7 +99,9 @@
             "start": 822,
             "end": 823,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -247,7 +253,9 @@
                       "start": 1445,
                       "end": 1446,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -332,7 +340,9 @@
                     "start": 1497,
                     "end": 1498,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -407,14 +417,18 @@
                             "start": 1561,
                             "end": 1562,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1564,
                             "end": 1596,
                             "value": "The value of `agentCount` is 1",
-                            "raw": "'The value of `agentCount` is 1'"
+                            "raw": "'The value of `agentCount` is 1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -497,14 +511,18 @@
                             "start": 1663,
                             "end": 1676,
                             "value": "A TypeError",
-                            "raw": "'A TypeError'"
+                            "raw": "'A TypeError'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1682,
                             "end": 1755,
                             "value": "(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"'"
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"A TypeError\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -587,14 +605,18 @@
                             "start": 1825,
                             "end": 1838,
                             "value": "B TypeError",
-                            "raw": "'B TypeError'"
+                            "raw": "'B TypeError'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1844,
                             "end": 1917,
                             "value": "(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"'"
+                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"B TypeError\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -663,7 +685,9 @@
                                 "start": 1964,
                                 "end": 1965,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -673,14 +697,18 @@
                             "start": 1968,
                             "end": 1969,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1971,
                             "end": 2077,
                             "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
-                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
+                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

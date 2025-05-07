@@ -26,7 +26,9 @@
               "start": 308,
               "end": 314,
               "value": 1e+308,
-              "raw": "1e+308"
+              "raw": "1e+308",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "*",
@@ -35,7 +37,9 @@
             "start": 315,
             "end": 316,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -82,7 +86,9 @@
                     "start": 358,
                     "end": 396,
                     "value": "#1: -1e+308*3 === Infinity. Actual: ",
-                    "raw": "'#1: -1e+308*3 === Infinity. Actual: '"
+                    "raw": "'#1: -1e+308*3 === Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -104,7 +110,9 @@
                           "start": 401,
                           "end": 407,
                           "value": 1e+308,
-                          "raw": "1e+308"
+                          "raw": "1e+308",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "*",
@@ -113,7 +121,9 @@
                         "start": 408,
                         "end": 409,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -156,7 +166,9 @@
                   "start": 433,
                   "end": 434,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "*",
@@ -193,14 +205,18 @@
                       "start": 445,
                       "end": 446,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 447,
                       "end": 449,
                       "value": 53,
-                      "raw": "53"
+                      "raw": "53",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -241,14 +257,18 @@
                     "start": 462,
                     "end": 463,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 464,
                     "end": 467,
                     "value": 971,
-                    "raw": "971"
+                    "raw": "971",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -300,7 +320,9 @@
                     "start": 512,
                     "end": 580,
                     "value": "#2: (-1*(Math.pow(2,53))*(Math.pow(2,971))) === Infinity. Actual: ",
-                    "raw": "'#2: (-1*(Math.pow(2,53))*(Math.pow(2,971))) === Infinity. Actual: '"
+                    "raw": "'#2: (-1*(Math.pow(2,53))*(Math.pow(2,971))) === Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -330,7 +352,9 @@
                               "start": 586,
                               "end": 587,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "*",
@@ -367,14 +391,18 @@
                                   "start": 598,
                                   "end": 599,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 600,
                                   "end": 602,
                                   "value": 53,
-                                  "raw": "53"
+                                  "raw": "53",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -415,14 +443,18 @@
                                 "start": 615,
                                 "end": 616,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 617,
                                 "end": 620,
                                 "value": 971,
-                                "raw": "971"
+                                "raw": "971",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

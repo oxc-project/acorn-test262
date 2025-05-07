@@ -70,7 +70,9 @@
                               "start": 1054,
                               "end": 1069,
                               "value": "index coerced",
-                              "raw": "\"index coerced\""
+                              "raw": "\"index coerced\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -164,7 +166,9 @@
                           "start": 1207,
                           "end": 1208,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -267,7 +271,9 @@
                               "start": 1287,
                               "end": 1288,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

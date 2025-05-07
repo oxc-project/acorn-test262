@@ -60,7 +60,9 @@
                 "start": 299,
                 "end": 328,
                 "value": "1976-11-18T15:23+00:00[UTC]",
-                "raw": "\"1976-11-18T15:23+00:00[UTC]\""
+                "raw": "\"1976-11-18T15:23+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
                       "start": 373,
                       "end": 379,
                       "value": "auto",
-                      "raw": "\"auto\""
+                      "raw": "\"auto\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -158,7 +162,9 @@
             "start": 385,
             "end": 417,
             "value": "1976-11-18T15:23:00+00:00[UTC]",
-            "raw": "\"1976-11-18T15:23:00+00:00[UTC]\""
+            "raw": "\"1976-11-18T15:23:00+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

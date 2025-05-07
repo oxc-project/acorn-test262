@@ -47,7 +47,9 @@
                 "start": 1194,
                 "end": 1226,
                 "value": "1; switch (\"a\") { case null: }",
-                "raw": "'1; switch (\"a\") { case null: }'"
+                "raw": "'1; switch (\"a\") { case null: }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 1240,
             "end": 1261,
             "value": "empty StatementList",
-            "raw": "'empty StatementList'"
+            "raw": "'empty StatementList'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                 "start": 1290,
                 "end": 1325,
                 "value": "2; switch (\"a\") { case null: 3; }",
-                "raw": "'2; switch (\"a\") { case null: 3; }'"
+                "raw": "'2; switch (\"a\") { case null: 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -129,7 +135,9 @@
             "start": 1343,
             "end": 1368,
             "value": "non-empty StatementList",
-            "raw": "'non-empty StatementList'"
+            "raw": "'non-empty StatementList'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

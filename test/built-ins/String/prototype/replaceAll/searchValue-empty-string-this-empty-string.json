@@ -31,7 +31,9 @@
                 "start": 1627,
                 "end": 1629,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -48,14 +50,18 @@
                 "start": 1641,
                 "end": 1643,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1645,
                 "end": 1650,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -103,7 +109,9 @@
             "start": 1678,
             "end": 1683,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

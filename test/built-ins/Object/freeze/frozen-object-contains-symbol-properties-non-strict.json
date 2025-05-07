@@ -93,7 +93,9 @@
           "start": 309,
           "end": 310,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -168,7 +170,9 @@
           "start": 343,
           "end": 344,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -224,14 +228,18 @@
             "start": 373,
             "end": 374,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 376,
             "end": 408,
             "value": "The value of `obj[sym]` is `1`",
-            "raw": "\"The value of `obj[sym]` is `1`\""
+            "raw": "\"The value of `obj[sym]` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,14 +304,18 @@
             "start": 445,
             "end": 450,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 482,
             "value": "`delete obj[sym]` is `false`",
-            "raw": "\"`delete obj[sym]` is `false`\""
+            "raw": "\"`delete obj[sym]` is `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

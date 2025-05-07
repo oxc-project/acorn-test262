@@ -34,7 +34,9 @@
                 "start": 302,
                 "end": 304,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -141,14 +143,18 @@
               "start": 465,
               "end": 470,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 472,
               "end": 476,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -159,7 +165,9 @@
           "start": 482,
           "end": 495,
           "value": "42falsetrue",
-          "raw": "\"42falsetrue\""
+          "raw": "\"42falsetrue\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -191,7 +199,9 @@
                     "start": 524,
                     "end": 662,
                     "value": "#1: __instance = new Object(42); __instance.concat = String.prototype.concat;  __instance.concat(false,true) === \"42falsetrue\". Actual: ",
-                    "raw": "'#1: __instance = new Object(42); __instance.concat = String.prototype.concat;  __instance.concat(false,true) === \"42falsetrue\". Actual: '"
+                    "raw": "'#1: __instance = new Object(42); __instance.concat = String.prototype.concat;  __instance.concat(false,true) === \"42falsetrue\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -223,14 +233,18 @@
                         "start": 683,
                         "end": 688,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 690,
                         "end": 694,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

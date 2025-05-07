@@ -93,7 +93,9 @@
                     "start": 367,
                     "end": 427,
                     "value": "#1: Array.prototype.join.prototype === undefined. Actual: ",
-                    "raw": "'#1: Array.prototype.join.prototype === undefined. Actual: '"
+                    "raw": "'#1: Array.prototype.join.prototype === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -437,7 +437,9 @@ __ESTREE_TEST__:PASS:
           "start": 214,
           "end": 222,
           "raw": "\"string\"",
-          "value": "string"
+          "value": "string",
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "UnaryExpression",
@@ -545,7 +547,9 @@ __ESTREE_TEST__:PASS:
           "start": 301,
           "end": 311,
           "raw": "\"function\"",
-          "value": "function"
+          "value": "function",
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "UnaryExpression",
@@ -653,7 +657,9 @@ __ESTREE_TEST__:PASS:
           "start": 394,
           "end": 402,
           "raw": "\"number\"",
-          "value": "number"
+          "value": "number",
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "UnaryExpression",
@@ -761,7 +767,9 @@ __ESTREE_TEST__:PASS:
           "start": 485,
           "end": 494,
           "raw": "\"boolean\"",
-          "value": "boolean"
+          "value": "boolean",
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "UnaryExpression",

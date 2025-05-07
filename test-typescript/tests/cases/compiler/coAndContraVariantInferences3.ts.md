@@ -5214,7 +5214,9 @@ __ESTREE_TEST__:PASS:
                       "start": 5619,
                       "end": 5620,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -5258,7 +5260,9 @@ __ESTREE_TEST__:PASS:
                           "start": 4722,
                           "end": 4723,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init",
                         "method": false,
@@ -5636,7 +5640,9 @@ __ESTREE_TEST__:PASS:
                           "start": 5139,
                           "end": 5140,
                           "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init",
                         "method": false,
@@ -6058,7 +6064,9 @@ __ESTREE_TEST__:PASS:
                               "start": 4003,
                               "end": 4004,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init",
                             "method": true,
@@ -6370,7 +6378,9 @@ __ESTREE_TEST__:PASS:
                               "start": 4330,
                               "end": 4331,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init",
                             "method": true,
@@ -6741,7 +6751,9 @@ __ESTREE_TEST__:PASS:
                             "start": 3952,
                             "end": 3977,
                             "raw": "\"updateImportDeclaration\"",
-                            "value": "updateImportDeclaration"
+                            "value": "updateImportDeclaration",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {

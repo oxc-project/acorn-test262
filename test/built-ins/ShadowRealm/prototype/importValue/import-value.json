@@ -75,14 +75,18 @@
             "start": 367,
             "end": 377,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 381,
             "end": 457,
             "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,14 +172,18 @@
                     "start": 506,
                     "end": 533,
                     "value": "./import-value_FIXTURE.js",
-                    "raw": "'./import-value_FIXTURE.js'"
+                    "raw": "'./import-value_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 535,
                     "end": 538,
                     "value": "x",
-                    "raw": "'x'"
+                    "raw": "'x'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -250,7 +258,9 @@
                             "start": 575,
                             "end": 576,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

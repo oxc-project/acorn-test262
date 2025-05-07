@@ -110,7 +110,9 @@
             "start": 332,
             "end": 392,
             "value": "The value of obj is expected to equal the value of thisobj",
-            "raw": "'The value of obj is expected to equal the value of thisobj'"
+            "raw": "'The value of obj is expected to equal the value of thisobj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

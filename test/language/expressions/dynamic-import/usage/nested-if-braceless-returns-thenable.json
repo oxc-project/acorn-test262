@@ -12,7 +12,9 @@
         "start": 1054,
         "end": 1058,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -51,7 +53,9 @@
                         "start": 1067,
                         "end": 1103,
                         "value": "./dynamic-import-module_FIXTURE.js",
-                        "raw": "'./dynamic-import-module_FIXTURE.js'"
+                        "raw": "'./dynamic-import-module_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -138,7 +142,9 @@
                                   "start": 1156,
                                   "end": 1157,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

@@ -73,7 +73,9 @@
                 "start": 386,
                 "end": 394,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,7 +85,9 @@
             "start": 399,
             "end": 467,
             "value": "String.prototype.split.hasOwnProperty('length') must return true",
-            "raw": "'String.prototype.split.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'String.prototype.split.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,7 +169,9 @@
                   "start": 527,
                   "end": 535,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -176,7 +182,9 @@
             "start": 540,
             "end": 621,
             "value": "The value of `!String.prototype.split.propertyIsEnumerable('length')` is true",
-            "raw": "'The value of `!String.prototype.split.propertyIsEnumerable(\\'length\\')` is true'"
+            "raw": "'The value of `!String.prototype.split.propertyIsEnumerable(\\'length\\')` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,7 +210,9 @@
             "start": 811,
             "end": 812,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -289,7 +299,9 @@
                 "start": 867,
                 "end": 875,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -361,14 +373,18 @@
             "start": 923,
             "end": 924,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 926,
             "end": 953,
             "value": "The value of `count` is 0",
-            "raw": "'The value of `count` is 0'"
+            "raw": "'The value of `count` is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

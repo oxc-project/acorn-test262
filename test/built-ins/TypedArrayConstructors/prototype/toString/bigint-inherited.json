@@ -109,7 +109,9 @@
                             "start": 430,
                             "end": 440,
                             "value": "toString",
-                            "raw": "\"toString\""
+                            "raw": "\"toString\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 443,
                         "end": 448,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

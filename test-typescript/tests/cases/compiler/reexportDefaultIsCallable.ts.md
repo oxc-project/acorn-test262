@@ -62,7 +62,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 34,
         "raw": "\"./schema\"",
-        "value": "./schema"
+        "value": "./schema",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -114,7 +116,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 31,
         "raw": "\"./reexporter\"",
-        "value": "./reexporter"
+        "value": "./reexporter",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

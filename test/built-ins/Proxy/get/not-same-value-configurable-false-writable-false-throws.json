@@ -101,7 +101,9 @@
                               "start": 701,
                               "end": 702,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -156,7 +158,9 @@
             "start": 743,
             "end": 749,
             "value": "attr",
-            "raw": "'attr'"
+            "raw": "'attr'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -181,7 +185,9 @@
                   "start": 769,
                   "end": 774,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -203,7 +209,9 @@
                   "start": 788,
                   "end": 793,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -225,7 +233,9 @@
                   "start": 804,
                   "end": 805,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -381,7 +391,9 @@
                       "start": 906,
                       "end": 912,
                       "value": "attr",
-                      "raw": "'attr'"
+                      "raw": "'attr'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

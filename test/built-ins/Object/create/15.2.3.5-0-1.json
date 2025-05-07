@@ -67,14 +67,18 @@
             "start": 261,
             "end": 271,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 273,
             "end": 296,
             "value": "typeof(Object.create)",
-            "raw": "'typeof(Object.create)'"
+            "raw": "'typeof(Object.create)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

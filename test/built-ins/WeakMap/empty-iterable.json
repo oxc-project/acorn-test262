@@ -23,7 +23,9 @@
             "start": 445,
             "end": 446,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -406,14 +408,18 @@
             "start": 725,
             "end": 726,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 730,
             "end": 782,
             "value": "empty iterable does not call WeakMap.prototype.set",
-            "raw": "'empty iterable does not call WeakMap.prototype.set'"
+            "raw": "'empty iterable does not call WeakMap.prototype.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

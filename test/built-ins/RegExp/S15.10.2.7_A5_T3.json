@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "java(script)?",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 436,
                 "end": 493,
                 "value": "state: both Java and JavaScript used in web development",
-                "raw": "\"state: both Java and JavaScript used in web development\""
+                "raw": "\"state: both Java and JavaScript used in web development\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 517,
             "end": 566,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

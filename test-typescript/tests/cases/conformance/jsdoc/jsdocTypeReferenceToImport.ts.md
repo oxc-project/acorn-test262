@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 29,
                   "end": 35,
                   "raw": "'./ex'",
-                  "value": "./ex"
+                  "value": "./ex",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -108,7 +110,9 @@ __ESTREE_TEST__:PASS:
                     "start": 58,
                     "end": 64,
                     "raw": "'./ex'",
-                    "value": "./ex"
+                    "value": "./ex",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {

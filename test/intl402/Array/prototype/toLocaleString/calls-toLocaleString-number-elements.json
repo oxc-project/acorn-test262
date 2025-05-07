@@ -23,7 +23,9 @@
             "start": 287,
             "end": 288,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 304,
             "end": 318,
             "value": "th-u-nu-thai",
-            "raw": "\"th-u-nu-thai\""
+            "raw": "\"th-u-nu-thai\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +97,9 @@
                   "start": 363,
                   "end": 364,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

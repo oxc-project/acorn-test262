@@ -23,7 +23,9 @@
             "start": 268,
             "end": 279,
             "value": "var eval;",
-            "raw": "'var eval;'"
+            "raw": "'var eval;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

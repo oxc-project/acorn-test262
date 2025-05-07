@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 86,
                   "end": 110,
                   "raw": "\"jsx-sort-default-props\"",
-                  "value": "jsx-sort-default-props"
+                  "value": "jsx-sort-default-props",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -50,7 +52,9 @@ __ESTREE_TEST__:PASS:
                   "start": 112,
                   "end": 116,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -94,7 +98,9 @@ __ESTREE_TEST__:PASS:
                   "start": 141,
                   "end": 152,
                   "raw": "'no-unsafe'",
-                  "value": "no-unsafe"
+                  "value": "no-unsafe",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -105,7 +111,9 @@ __ESTREE_TEST__:PASS:
                   "start": 154,
                   "end": 158,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -438,7 +446,9 @@ __ESTREE_TEST__:PASS:
                 "start": 28,
                 "end": 54,
                 "raw": "'./eslint-plugin-react.js'",
-                "value": "./eslint-plugin-react.js"
+                "value": "./eslint-plugin-react.js",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -487,7 +497,9 @@ __ESTREE_TEST__:PASS:
                 "start": 82,
                 "end": 106,
                 "raw": "'./typescript-eslint.js'",
-                "value": "./typescript-eslint.js"
+                "value": "./typescript-eslint.js",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

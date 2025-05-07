@@ -230,7 +230,9 @@
             "start": 714,
             "end": 739,
             "value": "[object Array Iterator]",
-            "raw": "'[object Array Iterator]'"
+            "raw": "'[object Array Iterator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,7 +314,9 @@
                   "start": 814,
                   "end": 818,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -334,7 +338,9 @@
                   "start": 827,
                   "end": 831,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -410,7 +416,9 @@
             "start": 876,
             "end": 893,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -526,7 +534,9 @@
             "start": 979,
             "end": 998,
             "value": "[object Iterator]",
-            "raw": "'[object Iterator]'"
+            "raw": "'[object Iterator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

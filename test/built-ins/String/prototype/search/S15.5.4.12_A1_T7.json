@@ -35,7 +35,9 @@
                   "start": 475,
                   "end": 486,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -65,7 +67,9 @@
           "start": 510,
           "end": 511,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -97,7 +101,9 @@
                     "start": 540,
                     "end": 599,
                     "value": "#1: String(\"undefined\").search(undefined) === 0. Actual: ",
-                    "raw": "'#1: String(\"undefined\").search(undefined) === 0. Actual: '"
+                    "raw": "'#1: String(\"undefined\").search(undefined) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -124,7 +130,9 @@
                             "start": 609,
                             "end": 620,
                             "value": "undefined",
-                            "raw": "\"undefined\""
+                            "raw": "\"undefined\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

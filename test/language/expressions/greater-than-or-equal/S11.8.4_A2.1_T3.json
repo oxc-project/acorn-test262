@@ -25,7 +25,9 @@
                 "start": 279,
                 "end": 280,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "operator": ">=",
               "right": {
@@ -60,7 +62,9 @@
                     "start": 312,
                     "end": 357,
                     "value": "#1.1: 1 >= y throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: 1 >= y throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: 1 >= y throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -76,7 +80,9 @@
                         "start": 361,
                         "end": 362,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": ">=",
                       "right": {
@@ -145,7 +151,9 @@
                   "start": 427,
                   "end": 431,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -177,7 +185,9 @@
                             "start": 462,
                             "end": 507,
                             "value": "#1.2: 1 >= y throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: 1 >= y throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: 1 >= y throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

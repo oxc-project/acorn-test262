@@ -116,7 +116,9 @@ __ESTREE_TEST__:PASS:
                       "start": 79,
                       "end": 81,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -175,7 +177,9 @@ __ESTREE_TEST__:PASS:
               "start": 100,
               "end": 102,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -242,7 +246,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 26,
         "raw": "\"server\"",
-        "value": "server"
+        "value": "server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -283,7 +289,9 @@ __ESTREE_TEST__:PASS:
         "start": 52,
         "end": 60,
         "raw": "\"server\"",
-        "value": "server"
+        "value": "server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -324,7 +332,9 @@ __ESTREE_TEST__:PASS:
         "start": 105,
         "end": 113,
         "raw": "\"server\"",
-        "value": "server"
+        "value": "server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -389,7 +399,9 @@ __ESTREE_TEST__:PASS:
         "start": 146,
         "end": 154,
         "raw": "\"server\"",
-        "value": "server"
+        "value": "server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -430,7 +442,9 @@ __ESTREE_TEST__:PASS:
         "start": 174,
         "end": 182,
         "raw": "\"server\"",
-        "value": "server"
+        "value": "server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

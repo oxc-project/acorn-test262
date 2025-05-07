@@ -164,7 +164,9 @@ __ESTREE_TEST__:PASS:
                       "start": 135,
                       "end": 140,
                       "raw": "\"BYE\"",
-                      "value": "BYE"
+                      "value": "BYE",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -199,7 +201,9 @@ __ESTREE_TEST__:PASS:
               "start": 164,
               "end": 178,
               "raw": "\"computedname\"",
-              "value": "computedname"
+              "value": "computedname",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "optional": false,
@@ -224,7 +228,9 @@ __ESTREE_TEST__:PASS:
                       "start": 199,
                       "end": 201,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -250,7 +256,9 @@ __ESTREE_TEST__:PASS:
               "start": 218,
               "end": 233,
               "raw": "\"computedname1\"",
-              "value": "computedname1"
+              "value": "computedname1",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "optional": false,
@@ -275,7 +283,9 @@ __ESTREE_TEST__:PASS:
                       "start": 254,
                       "end": 256,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -301,7 +311,9 @@ __ESTREE_TEST__:PASS:
               "start": 273,
               "end": 288,
               "raw": "\"computedname2\"",
-              "value": "computedname2"
+              "value": "computedname2",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "optional": false,
@@ -326,7 +338,9 @@ __ESTREE_TEST__:PASS:
                       "start": 309,
                       "end": 311,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -352,7 +366,9 @@ __ESTREE_TEST__:PASS:
               "start": 329,
               "end": 344,
               "raw": "\"computedname3\"",
-              "value": "computedname3"
+              "value": "computedname3",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "optional": false,
@@ -409,7 +425,9 @@ __ESTREE_TEST__:PASS:
               "start": 371,
               "end": 386,
               "raw": "\"computedname4\"",
-              "value": "computedname4"
+              "value": "computedname4",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "optional": false,
@@ -584,7 +602,9 @@ __ESTREE_TEST__:PASS:
               "start": 485,
               "end": 499,
               "raw": "\"computedname\"",
-              "value": "computedname"
+              "value": "computedname",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "optional": false,

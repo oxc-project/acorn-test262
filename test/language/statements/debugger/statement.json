@@ -12,7 +12,9 @@
         "start": 490,
         "end": 495,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "DebuggerStatement",

@@ -167,7 +167,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "\"highlight.js\"",
-        "value": "highlight.js"
+        "value": "highlight.js",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -193,7 +195,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 31,
         "raw": "\"highlight.js\"",
-        "value": "highlight.js"
+        "value": "highlight.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -250,7 +254,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 40,
         "raw": "\"highlight.js/lib/core\"",
-        "value": "highlight.js/lib/core"
+        "value": "highlight.js/lib/core",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -284,7 +290,9 @@ __ESTREE_TEST__:PASS:
             "start": 57,
             "end": 63,
             "raw": "\"code\"",
-            "value": "code"
+            "value": "code",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

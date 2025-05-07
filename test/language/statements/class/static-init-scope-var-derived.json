@@ -23,7 +23,9 @@
             "start": 644,
             "end": 657,
             "value": "outer scope",
-            "raw": "'outer scope'"
+            "raw": "'outer scope'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -137,7 +139,9 @@
             "start": 744,
             "end": 757,
             "value": "outer scope",
-            "raw": "'outer scope'"
+            "raw": "'outer scope'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

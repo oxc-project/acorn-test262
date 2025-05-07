@@ -74,7 +74,9 @@
                         "start": 1696,
                         "end": 1745,
                         "value": "Initialized binding created prior to evaluation",
-                        "raw": "'Initialized binding created prior to evaluation'"
+                        "raw": "'Initialized binding created prior to evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -98,7 +100,9 @@
                           "start": 1770,
                           "end": 1774,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -127,7 +131,9 @@
                             "start": 1799,
                             "end": 1803,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "consequent": {
                             "type": "FunctionDeclaration",
@@ -157,7 +163,9 @@
                                     "start": 1827,
                                     "end": 1830,
                                     "value": 123,
-                                    "raw": "123"
+                                    "raw": "123",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -220,14 +228,18 @@
                         "start": 1885,
                         "end": 1895,
                         "value": "function",
-                        "raw": "'function'"
+                        "raw": "'function'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1901,
                         "end": 1948,
                         "value": "binding value is updated following evaluation",
-                        "raw": "'binding value is updated following evaluation'"
+                        "raw": "'binding value is updated following evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -279,7 +291,9 @@
                         "start": 1978,
                         "end": 1981,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

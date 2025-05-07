@@ -168,7 +168,9 @@ __ESTREE_TEST__:PASS:
             "start": 103,
             "end": 111,
             "raw": "\"method\"",
-            "value": "method"
+            "value": "method",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -251,7 +253,9 @@ __ESTREE_TEST__:PASS:
                       "start": 193,
                       "end": 201,
                       "raw": "\"method\"",
-                      "value": "method"
+                      "value": "method",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "optional": false,
@@ -387,7 +391,9 @@ __ESTREE_TEST__:PASS:
                       "start": 270,
                       "end": 278,
                       "raw": "\"method\"",
-                      "value": "method"
+                      "value": "method",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "typeArguments": null

@@ -75,14 +75,18 @@
             "start": 1386,
             "end": 1396,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1400,
             "end": 1476,
             "value": "The value of `typeof Array.prototype.flatMap` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array.prototype.flatMap` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Array.prototype.flatMap` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -118,14 +122,18 @@
                     "start": 1493,
                     "end": 1495,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1497,
                     "end": 1498,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -139,14 +147,18 @@
                     "start": 1502,
                     "end": 1504,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1506,
                     "end": 1507,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -342,28 +354,36 @@
                 "start": 1641,
                 "end": 1643,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1645,
                 "end": 1646,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1648,
                 "end": 1650,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1652,
                 "end": 1653,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -372,7 +392,9 @@
             "start": 1656,
             "end": 1710,
             "value": "The value of actual is expected to be [42, 1, 42, 2]",
-            "raw": "'The value of actual is expected to be [42, 1, 42, 2]'"
+            "raw": "'The value of actual is expected to be [42, 1, 42, 2]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -463,7 +485,9 @@
             "start": 1785,
             "end": 1855,
             "value": "Object.getPrototypeOf(arr.flatMap(mapperFn)) returns Array.prototype",
-            "raw": "'Object.getPrototypeOf(arr.flatMap(mapperFn)) returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf(arr.flatMap(mapperFn)) returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -489,7 +513,9 @@
             "start": 1873,
             "end": 1874,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -595,7 +621,9 @@
                         "start": 1948,
                         "end": 1949,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -701,7 +729,9 @@
             "start": 2024,
             "end": 2076,
             "value": "arr.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'"
+            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -746,14 +776,18 @@
             "start": 2104,
             "end": 2105,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2107,
             "end": 2148,
             "value": "The value of called is expected to be 1",
-            "raw": "'The value of called is expected to be 1'"
+            "raw": "'The value of called is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -779,7 +813,9 @@
           "start": 2161,
           "end": 2162,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -883,7 +919,9 @@
                         "start": 2236,
                         "end": 2238,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -989,7 +1027,9 @@
             "start": 2313,
             "end": 2365,
             "value": "arr.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'"
+            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1034,14 +1074,18 @@
             "start": 2393,
             "end": 2394,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2396,
             "end": 2437,
             "value": "The value of called is expected to be 1",
-            "raw": "'The value of called is expected to be 1'"
+            "raw": "'The value of called is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1067,7 +1111,9 @@
           "start": 2450,
           "end": 2451,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1171,7 +1217,9 @@
                         "start": 2525,
                         "end": 2530,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1277,7 +1325,9 @@
             "start": 2605,
             "end": 2657,
             "value": "arr.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'"
+            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1322,14 +1372,18 @@
             "start": 2685,
             "end": 2686,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2688,
             "end": 2729,
             "value": "The value of called is expected to be 1",
-            "raw": "'The value of called is expected to be 1'"
+            "raw": "'The value of called is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1355,7 +1409,9 @@
           "start": 2742,
           "end": 2743,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1564,7 +1620,9 @@
             "start": 2894,
             "end": 2946,
             "value": "arr.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'"
+            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1609,14 +1667,18 @@
             "start": 2974,
             "end": 2975,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2977,
             "end": 3018,
             "value": "The value of called is expected to be 1",
-            "raw": "'The value of called is expected to be 1'"
+            "raw": "'The value of called is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1642,7 +1704,9 @@
           "start": 3031,
           "end": 3032,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1851,7 +1915,9 @@
             "start": 3183,
             "end": 3235,
             "value": "arr.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'"
+            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1896,14 +1962,18 @@
             "start": 3263,
             "end": 3264,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3266,
             "end": 3307,
             "value": "The value of called is expected to be 1",
-            "raw": "'The value of called is expected to be 1'"
+            "raw": "'The value of called is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1929,7 +1999,9 @@
           "start": 3320,
           "end": 3321,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2145,7 +2217,9 @@
             "start": 3478,
             "end": 3530,
             "value": "arr.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'"
+            "raw": "'arr.flatMap(mapperFn) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2190,14 +2264,18 @@
             "start": 3558,
             "end": 3559,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3561,
             "end": 3602,
             "value": "The value of called is expected to be 1",
-            "raw": "'The value of called is expected to be 1'"
+            "raw": "'The value of called is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2223,7 +2301,9 @@
           "start": 3615,
           "end": 3616,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2438,7 +2518,9 @@
             "start": 3782,
             "end": 3837,
             "value": "arr.flatMap(mapperFn) throws a Test262Error exception",
-            "raw": "'arr.flatMap(mapperFn) throws a Test262Error exception'"
+            "raw": "'arr.flatMap(mapperFn) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2483,14 +2565,18 @@
             "start": 3865,
             "end": 3866,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3868,
             "end": 3909,
             "value": "The value of called is expected to be 1",
-            "raw": "'The value of called is expected to be 1'"
+            "raw": "'The value of called is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

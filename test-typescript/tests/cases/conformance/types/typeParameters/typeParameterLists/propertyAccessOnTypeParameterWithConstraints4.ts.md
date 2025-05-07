@@ -133,7 +133,9 @@ __ESTREE_TEST__:PASS:
                               "start": 72,
                               "end": 81,
                               "raw": "'notHere'",
-                              "value": "notHere"
+                              "value": "notHere",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "optional": false,
@@ -650,7 +652,9 @@ __ESTREE_TEST__:PASS:
                 "start": 279,
                 "end": 288,
                 "raw": "'notHere'",
-                "value": "notHere"
+                "value": "notHere",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,
@@ -898,7 +902,9 @@ __ESTREE_TEST__:PASS:
                 "start": 386,
                 "end": 395,
                 "raw": "'notHere'",
-                "value": "notHere"
+                "value": "notHere",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,
@@ -1005,7 +1011,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 469,
                                   "end": 478,
                                   "raw": "'notHere'",
-                                  "value": "notHere"
+                                  "value": "notHere",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "optional": false,

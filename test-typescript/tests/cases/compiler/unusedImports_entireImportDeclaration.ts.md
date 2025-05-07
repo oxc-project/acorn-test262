@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 18,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
               "start": 37,
               "end": 38,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -94,7 +98,9 @@ __ESTREE_TEST__:PASS:
         "start": 55,
         "end": 56,
         "raw": "0",
-        "value": 0
+        "value": 0,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -121,7 +127,9 @@ __ESTREE_TEST__:PASS:
         "start": 37,
         "end": 42,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -199,7 +207,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 73,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -243,7 +253,9 @@ __ESTREE_TEST__:PASS:
         "start": 113,
         "end": 118,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -336,7 +348,9 @@ __ESTREE_TEST__:PASS:
         "start": 149,
         "end": 154,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -395,7 +409,9 @@ __ESTREE_TEST__:PASS:
         "start": 185,
         "end": 190,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

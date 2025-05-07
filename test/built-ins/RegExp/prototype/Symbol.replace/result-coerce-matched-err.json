@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -65,7 +66,9 @@
                   "start": 587,
                   "end": 588,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -283,14 +286,18 @@
                         "start": 778,
                         "end": 781,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 783,
                         "end": 786,
                         "value": "b",
-                        "raw": "'b'"
+                        "raw": "'b'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

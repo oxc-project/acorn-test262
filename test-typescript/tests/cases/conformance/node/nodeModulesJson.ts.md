@@ -149,7 +149,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 31,
         "raw": "\"not.json\"",
-        "value": "not.json"
+        "value": "not.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -189,7 +191,9 @@ __ESTREE_TEST__:PASS:
         "start": 60,
         "end": 75,
         "raw": "\"actually-json\"",
-        "value": "actually-json"
+        "value": "actually-json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -219,7 +223,9 @@ __ESTREE_TEST__:PASS:
         "start": 116,
         "end": 137,
         "raw": "\"actually-json/typed\"",
-        "value": "actually-json/typed"
+        "value": "actually-json/typed",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -261,7 +267,9 @@ __ESTREE_TEST__:PASS:
             "start": 209,
             "end": 215,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -271,7 +279,9 @@ __ESTREE_TEST__:PASS:
         "start": 180,
         "end": 195,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -313,7 +323,9 @@ __ESTREE_TEST__:PASS:
             "start": 289,
             "end": 295,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -323,7 +335,9 @@ __ESTREE_TEST__:PASS:
         "start": 260,
         "end": 275,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -363,7 +377,9 @@ __ESTREE_TEST__:PASS:
         "start": 325,
         "end": 340,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -393,7 +409,9 @@ __ESTREE_TEST__:PASS:
         "start": 406,
         "end": 421,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -435,7 +453,9 @@ __ESTREE_TEST__:PASS:
             "start": 499,
             "end": 505,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -445,7 +465,9 @@ __ESTREE_TEST__:PASS:
         "start": 470,
         "end": 485,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -487,7 +509,9 @@ __ESTREE_TEST__:PASS:
             "start": 623,
             "end": 629,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -497,7 +521,9 @@ __ESTREE_TEST__:PASS:
         "start": 594,
         "end": 609,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -549,7 +575,9 @@ __ESTREE_TEST__:PASS:
             "start": 710,
             "end": 716,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -559,7 +587,9 @@ __ESTREE_TEST__:PASS:
         "start": 681,
         "end": 696,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -675,7 +705,9 @@ __ESTREE_TEST__:PASS:
             "start": 48,
             "end": 54,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -685,7 +717,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 34,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -715,7 +749,9 @@ __ESTREE_TEST__:PASS:
         "start": 87,
         "end": 102,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -745,7 +781,9 @@ __ESTREE_TEST__:PASS:
         "start": 134,
         "end": 149,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -785,7 +823,9 @@ __ESTREE_TEST__:PASS:
         "start": 182,
         "end": 197,
         "raw": "\"./config.json\"",
-        "value": "./config.json"
+        "value": "./config.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

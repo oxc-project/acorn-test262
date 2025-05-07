@@ -61,7 +61,9 @@
             "start": 303,
             "end": 364,
             "value": "The value of isNaN.prototype is expected to equal undefined",
-            "raw": "'The value of isNaN.prototype is expected to equal undefined'"
+            "raw": "'The value of isNaN.prototype is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

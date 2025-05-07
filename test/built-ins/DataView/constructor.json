@@ -49,14 +49,18 @@
             "start": 365,
             "end": 375,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 377,
             "end": 412,
             "value": "`typeof DataView` is `'function'`",
-            "raw": "\"`typeof DataView` is `'function'`\""
+            "raw": "\"`typeof DataView` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

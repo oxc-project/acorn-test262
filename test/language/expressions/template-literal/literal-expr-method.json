@@ -59,7 +59,9 @@
                           "start": 504,
                           "end": 512,
                           "value": "result",
-                          "raw": "'result'"
+                          "raw": "'result'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -161,7 +163,9 @@
             "start": 563,
             "end": 579,
             "value": "foo result bar",
-            "raw": "'foo result bar'"
+            "raw": "'foo result bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

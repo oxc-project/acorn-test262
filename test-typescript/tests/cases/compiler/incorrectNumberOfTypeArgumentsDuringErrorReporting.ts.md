@@ -295,7 +295,9 @@ __ESTREE_TEST__:PASS:
               "start": 185,
               "end": 188,
               "raw": "'Z'",
-              "value": "Z"
+              "value": "Z",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -583,7 +585,9 @@ __ESTREE_TEST__:PASS:
                         "start": 246,
                         "end": 249,
                         "raw": "'X'",
-                        "value": "X"
+                        "value": "X",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -609,7 +613,9 @@ __ESTREE_TEST__:PASS:
                         "start": 254,
                         "end": 257,
                         "raw": "'Y'",
-                        "value": "Y"
+                        "value": "Y",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

@@ -71,7 +71,9 @@
                         "start": 346,
                         "end": 375,
                         "value": "(function () { var eval; })",
-                        "raw": "'(function () { var eval; })'"
+                        "raw": "'(function () { var eval; })'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

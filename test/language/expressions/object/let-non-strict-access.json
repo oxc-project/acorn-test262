@@ -23,7 +23,9 @@
             "start": 258,
             "end": 259,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -128,14 +130,18 @@
             "start": 311,
             "end": 312,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 314,
             "end": 348,
             "value": "The value of `object.let` is `1`",
-            "raw": "\"The value of `object.let` is `1`\""
+            "raw": "\"The value of `object.let` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -62,7 +62,9 @@
             "start": 432,
             "end": 442,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -149,7 +151,9 @@
                         "start": 502,
                         "end": 503,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -162,7 +166,9 @@
             "start": 509,
             "end": 536,
             "value": "0 is an invalid tag value",
-            "raw": "\"0 is an invalid tag value\""
+            "raw": "\"0 is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -249,7 +255,9 @@
                         "start": 596,
                         "end": 597,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -262,7 +270,9 @@
             "start": 603,
             "end": 630,
             "value": "1 is an invalid tag value",
-            "raw": "\"1 is an invalid tag value\""
+            "raw": "\"1 is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +371,9 @@
             "start": 704,
             "end": 738,
             "value": "Infinity is an invalid tag value",
-            "raw": "\"Infinity is an invalid tag value\""
+            "raw": "\"Infinity is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +472,9 @@
             "start": 807,
             "end": 836,
             "value": "NaN is an invalid tag value",
-            "raw": "\"NaN is an invalid tag value\""
+            "raw": "\"NaN is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

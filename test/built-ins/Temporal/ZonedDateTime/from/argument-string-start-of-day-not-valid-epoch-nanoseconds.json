@@ -88,7 +88,9 @@
                   "start": 1041,
                   "end": 1061,
                   "value": "-271821-04-20[+01]",
-                  "raw": "\"-271821-04-20[+01]\""
+                  "raw": "\"-271821-04-20[+01]\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -99,7 +101,9 @@
             "start": 1066,
             "end": 1093,
             "value": "From '-271821-04-20[+01]'",
-            "raw": "\"From '-271821-04-20[+01]'\""
+            "raw": "\"From '-271821-04-20[+01]'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +194,9 @@
                   "start": 1163,
                   "end": 1183,
                   "value": "+275760-09-13[-01]",
-                  "raw": "\"+275760-09-13[-01]\""
+                  "raw": "\"+275760-09-13[-01]\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -201,7 +207,9 @@
             "start": 1188,
             "end": 1215,
             "value": "From '+275760-09-13[-01]'",
-            "raw": "\"From '+275760-09-13[-01]'\""
+            "raw": "\"From '+275760-09-13[-01]'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

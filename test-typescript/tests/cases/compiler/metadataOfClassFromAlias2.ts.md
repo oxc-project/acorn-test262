@@ -99,7 +99,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 38,
         "raw": "'./auxiliry'",
-        "value": "./auxiliry"
+        "value": "./auxiliry",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

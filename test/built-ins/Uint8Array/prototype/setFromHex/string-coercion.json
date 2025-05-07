@@ -23,7 +23,9 @@
             "start": 336,
             "end": 337,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 408,
                             "end": 409,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -120,7 +124,9 @@
                               "start": 438,
                               "end": 455,
                               "value": "toString called",
-                              "raw": "\"toString called\""
+                              "raw": "\"toString called\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -215,7 +221,9 @@
                             "start": 534,
                             "end": 536,
                             "value": 10,
-                            "raw": "10"
+                            "raw": "10",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -307,7 +315,9 @@
             "start": 612,
             "end": 613,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

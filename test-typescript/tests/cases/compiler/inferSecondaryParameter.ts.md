@@ -249,7 +249,9 @@ __ESTREE_TEST__:PASS:
             "start": 162,
             "end": 168,
             "raw": "\"test\"",
-            "value": "test"
+            "value": "test",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",

@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 33,
               "raw": "\"not ok\"",
-              "value": "not ok"
+              "value": "not ok",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

@@ -84,7 +84,9 @@
                     "start": 468,
                     "end": 472,
                     "value": "en",
-                    "raw": "'en'"
+                    "raw": "'en'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -96,14 +98,18 @@
             "start": 478,
             "end": 482,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 543,
             "value": "Object.isExtensible(new Intl.Locale('en')) returns true",
-            "raw": "\"Object.isExtensible(new Intl.Locale('en')) returns true\""
+            "raw": "\"Object.isExtensible(new Intl.Locale('en')) returns true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -110,7 +110,9 @@
                 "start": 337,
                 "end": 354,
                 "value": "hello\nworld\\!",
-                "raw": "\"hello\\nworld\\\\!\""
+                "raw": "\"hello\\nworld\\\\!\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -216,14 +218,18 @@
             "start": 420,
             "end": 425,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 472,
             "value": "Array.prototype.every.call(obj, callbackfn)",
-            "raw": "'Array.prototype.every.call(obj, callbackfn)'"
+            "raw": "'Array.prototype.every.call(obj, callbackfn)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

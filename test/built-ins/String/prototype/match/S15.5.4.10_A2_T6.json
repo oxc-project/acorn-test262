@@ -23,7 +23,9 @@
             "start": 332,
             "end": 353,
             "value": "Boston, Mass. 02134",
-            "raw": "\"Boston, Mass. 02134\""
+            "raw": "\"Boston, Mass. 02134\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,7 +76,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -84,7 +87,9 @@
             "start": 494,
             "end": 495,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -95,7 +100,9 @@
           "start": 501,
           "end": 508,
           "value": "02134",
-          "raw": "\"02134\""
+          "raw": "\"02134\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -127,7 +134,9 @@
                     "start": 537,
                     "end": 648,
                     "value": "#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/)[0]=== \"02134\". Actual: ",
-                    "raw": "'#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[0]=== \"02134\". Actual: '"
+                    "raw": "'#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[0]=== \"02134\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -167,7 +176,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -177,7 +187,9 @@
                       "start": 696,
                       "end": 697,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -235,7 +247,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -245,7 +258,9 @@
             "start": 924,
             "end": 925,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -256,7 +271,9 @@
           "start": 931,
           "end": 938,
           "value": "02134",
-          "raw": "\"02134\""
+          "raw": "\"02134\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -288,7 +305,9 @@
                     "start": 967,
                     "end": 1078,
                     "value": "#2: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/)[1]=== \"02134\". Actual: ",
-                    "raw": "'#2: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[1]=== \"02134\". Actual: '"
+                    "raw": "'#2: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[1]=== \"02134\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -328,7 +347,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -338,7 +358,9 @@
                       "start": 1126,
                       "end": 1127,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -396,7 +418,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -406,7 +429,9 @@
             "start": 1354,
             "end": 1355,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -423,7 +448,9 @@
             "start": 1366,
             "end": 1367,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -456,7 +483,9 @@
                     "start": 1396,
                     "end": 1506,
                     "value": "#3: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/)[2]=== void 0. Actual: ",
-                    "raw": "'#3: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[2]=== void 0. Actual: '"
+                    "raw": "'#3: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[2]=== void 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -496,7 +525,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -506,7 +536,9 @@
                       "start": 1554,
                       "end": 1555,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -564,7 +596,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -584,7 +617,9 @@
           "start": 1793,
           "end": 1794,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -616,7 +651,9 @@
                     "start": 1823,
                     "end": 1932,
                     "value": "#4: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/).length ===3. Actual: ",
-                    "raw": "'#4: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).length ===3. Actual: '"
+                    "raw": "'#4: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).length ===3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -656,7 +693,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -723,7 +761,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -743,7 +782,9 @@
           "start": 2222,
           "end": 2224,
           "value": 14,
-          "raw": "14"
+          "raw": "14",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -775,7 +816,9 @@
                     "start": 2253,
                     "end": 2362,
                     "value": "#5: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/).index ===14. Actual: ",
-                    "raw": "'#5: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).index ===14. Actual: '"
+                    "raw": "'#5: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).index ===14. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -815,7 +858,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -882,7 +926,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -933,7 +978,9 @@
                     "start": 2688,
                     "end": 2803,
                     "value": "#6: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/).input ===__string. Actual: ",
-                    "raw": "'#6: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).input ===__string. Actual: '"
+                    "raw": "'#6: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).input ===__string. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -973,7 +1020,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false

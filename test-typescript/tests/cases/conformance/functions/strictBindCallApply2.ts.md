@@ -223,7 +223,9 @@ __ESTREE_TEST__:PASS:
                       "start": 152,
                       "end": 158,
                       "raw": "\"blub\"",
-                      "value": "blub"
+                      "value": "blub",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

@@ -46,7 +46,9 @@
                         "start": 501,
                         "end": 507,
                         "value": "lego",
-                        "raw": "\"lego\""
+                        "raw": "\"lego\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -70,7 +72,9 @@
               "start": 521,
               "end": 525,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -81,7 +85,9 @@
           "start": 531,
           "end": 541,
           "value": "legonull",
-          "raw": "\"legonull\""
+          "raw": "\"legonull\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -113,7 +119,9 @@
                     "start": 570,
                     "end": 641,
                     "value": "#1: function(){return \"lego\"}().concat(null) === \"legonull\". Actual: ",
-                    "raw": "'#1: function(){return \"lego\"}().concat(null) === \"legonull\". Actual: '"
+                    "raw": "'#1: function(){return \"lego\"}().concat(null) === \"legonull\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -151,7 +159,9 @@
                                   "start": 668,
                                   "end": 674,
                                   "value": "lego",
-                                  "raw": "\"lego\""
+                                  "raw": "\"lego\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -175,7 +185,9 @@
                         "start": 688,
                         "end": 692,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

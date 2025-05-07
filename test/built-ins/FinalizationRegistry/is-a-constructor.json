@@ -56,14 +56,18 @@
             "start": 816,
             "end": 820,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 822,
             "end": 876,
             "value": "isConstructor(FinalizationRegistry) must return true",
-            "raw": "'isConstructor(FinalizationRegistry) must return true'"
+            "raw": "'isConstructor(FinalizationRegistry) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

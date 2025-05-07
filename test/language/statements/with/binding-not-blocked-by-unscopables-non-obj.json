@@ -121,7 +121,9 @@
           "start": 918,
           "end": 920,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },

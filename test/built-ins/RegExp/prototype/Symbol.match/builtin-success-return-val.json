@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "b.",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,7 +66,9 @@
                 "start": 1007,
                 "end": 1013,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -178,7 +181,9 @@
             "start": 1079,
             "end": 1080,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +241,9 @@
             "start": 1114,
             "end": 1120,
             "value": "abcd",
-            "raw": "'abcd'"
+            "raw": "'abcd'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,7 +301,9 @@
             "start": 1155,
             "end": 1156,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +352,9 @@
               "start": 1183,
               "end": 1184,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -353,7 +364,9 @@
             "start": 1187,
             "end": 1191,
             "value": "bc",
-            "raw": "'bc'"
+            "raw": "'bc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,7 +48,9 @@
             "start": 333,
             "end": 338,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
             "start": 368,
             "end": 378,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -118,7 +122,9 @@
                   "start": 396,
                   "end": 406,
                   "value": "AB\n\\cd",
-                  "raw": "\"AB\\n\\\\cd\""
+                  "raw": "\"AB\\n\\\\cd\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -183,7 +189,9 @@
                 "start": 451,
                 "end": 461,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -211,7 +219,9 @@
                       "start": 480,
                       "end": 484,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -248,7 +258,9 @@
             "start": 510,
             "end": 529,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

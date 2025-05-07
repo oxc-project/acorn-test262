@@ -70,7 +70,9 @@
                             "start": 266,
                             "end": 273,
                             "value": "proto",
-                            "raw": "'proto'"
+                            "raw": "'proto'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -295,7 +297,9 @@
                 "start": 422,
                 "end": 424,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -305,14 +309,18 @@
             "start": 427,
             "end": 436,
             "value": "proto42",
-            "raw": "'proto42'"
+            "raw": "'proto42'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 536,
             "value": "`object.method(42)` returns `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"`object.method(42)` returns `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"`object.method(42)` returns `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +383,9 @@
                 "start": 569,
                 "end": 571,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -385,14 +395,18 @@
             "start": 574,
             "end": 583,
             "value": "proto42",
-            "raw": "'proto42'"
+            "raw": "'proto42'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 585,
             "end": 682,
             "value": "`proto.method(42)` returns `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"`proto.method(42)` returns `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"`proto.method(42)` returns `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +496,9 @@
                 "start": 742,
                 "end": 744,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -492,14 +508,18 @@
             "start": 749,
             "end": 758,
             "value": "proto42",
-            "raw": "'proto42'"
+            "raw": "'proto42'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 826,
             "value": "`Object.getPrototypeOf(object).method(42)` returns `'proto42'`",
-            "raw": "\"`Object.getPrototypeOf(object).method(42)` returns `'proto42'`\""
+            "raw": "\"`Object.getPrototypeOf(object).method(42)` returns `'proto42'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

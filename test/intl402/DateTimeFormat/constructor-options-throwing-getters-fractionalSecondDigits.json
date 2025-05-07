@@ -49,7 +49,9 @@
                 "start": 372,
                 "end": 396,
                 "value": "fractionalSecondDigits",
-                "raw": "\"fractionalSecondDigits\""
+                "raw": "\"fractionalSecondDigits\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -174,7 +176,9 @@
                               "start": 499,
                               "end": 503,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

@@ -70,7 +70,9 @@ __ESTREE_TEST__:PASS:
             "start": 61,
             "end": 74,
             "raw": "\"my-fake-sym\"",
-            "value": "my-fake-sym"
+            "value": "my-fake-sym",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -133,7 +135,9 @@ __ESTREE_TEST__:PASS:
           "start": 100,
           "end": 104,
           "raw": "\"ok\"",
-          "value": "ok"
+          "value": "ok",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -193,7 +197,9 @@ __ESTREE_TEST__:PASS:
           "start": 129,
           "end": 133,
           "raw": "\"ok\"",
-          "value": "ok"
+          "value": "ok",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -300,7 +306,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 63,
                 "raw": "\"./lateBoundAssignmentDeclarationSupport2.js\"",
-                "value": "./lateBoundAssignmentDeclarationSupport2.js"
+                "value": "./lateBoundAssignmentDeclarationSupport2.js",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -359,7 +367,9 @@ __ESTREE_TEST__:PASS:
               "start": 78,
               "end": 91,
               "raw": "\"my-fake-sym\"",
-              "value": "my-fake-sym"
+              "value": "my-fake-sym",
+              "regex": null,
+              "bigint": null
             }
           }
         }

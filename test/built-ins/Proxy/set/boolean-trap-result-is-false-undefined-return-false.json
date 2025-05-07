@@ -229,14 +229,18 @@
                 "start": 478,
                 "end": 484,
                 "value": "attr",
-                "raw": "\"attr\""
+                "raw": "\"attr\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 486,
                 "end": 491,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -246,7 +250,9 @@
             "start": 494,
             "end": 499,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

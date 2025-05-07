@@ -144,7 +144,9 @@
                           "start": 1067,
                           "end": 1076,
                           "value": "Test262",
-                          "raw": "'Test262'"
+                          "raw": "'Test262'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -158,7 +160,9 @@
             "start": 1085,
             "end": 1135,
             "value": "access to a private acessor from ordinary object",
-            "raw": "'access to a private acessor from ordinary object'"
+            "raw": "'access to a private acessor from ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

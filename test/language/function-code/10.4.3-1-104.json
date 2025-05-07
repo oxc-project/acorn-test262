@@ -55,7 +55,9 @@
             "start": 352,
             "end": 355,
             "value": "x",
-            "raw": "\"x\""
+            "raw": "\"x\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -142,7 +144,9 @@
                   "start": 406,
                   "end": 407,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "property": {
@@ -160,7 +164,9 @@
               "start": 415,
               "end": 416,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -168,7 +174,9 @@
             "start": 418,
             "end": 431,
             "value": "(5).x === 5",
-            "raw": "'(5).x === 5'"
+            "raw": "'(5).x === 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -143,7 +143,9 @@
                         "start": 450,
                         "end": 453,
                         "value": "1",
-                        "raw": "'1'"
+                        "raw": "'1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

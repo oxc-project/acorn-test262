@@ -86,7 +86,9 @@
             "start": 608,
             "end": 683,
             "value": "The result of evaluating (result instanceof Array) is expected to be true",
-            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'"
+            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -193,7 +195,9 @@
             "start": 759,
             "end": 834,
             "value": "The result of evaluating (result instanceof Array) is expected to be true",
-            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'"
+            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +317,9 @@
             "start": 910,
             "end": 985,
             "value": "The result of evaluating (result instanceof Array) is expected to be true",
-            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'"
+            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +466,9 @@
             "start": 1072,
             "end": 1147,
             "value": "The result of evaluating (result instanceof Array) is expected to be true",
-            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'"
+            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

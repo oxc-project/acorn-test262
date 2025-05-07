@@ -58,7 +58,9 @@
                     "start": 1203,
                     "end": 1204,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

@@ -41,7 +41,9 @@
                   "start": 1174,
                   "end": 1178,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -335,7 +337,9 @@
                               "start": 1385,
                               "end": 1443,
                               "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "raw": "'The promise should be fulfilled with the provided value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -406,7 +410,9 @@
                         "start": 1498,
                         "end": 1535,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

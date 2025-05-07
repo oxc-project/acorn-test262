@@ -23,7 +23,9 @@
             "start": 1132,
             "end": 1135,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,7 +70,9 @@
             "start": 1157,
             "end": 1160,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -83,7 +87,9 @@
         "start": 1168,
         "end": 1172,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "FunctionDeclaration",

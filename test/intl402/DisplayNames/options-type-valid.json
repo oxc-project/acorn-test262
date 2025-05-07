@@ -28,28 +28,36 @@
                 "start": 997,
                 "end": 1007,
                 "value": "language",
-                "raw": "'language'"
+                "raw": "'language'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1011,
                 "end": 1019,
                 "value": "region",
-                "raw": "'region'"
+                "raw": "'region'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1023,
                 "end": 1031,
                 "value": "script",
-                "raw": "'script'"
+                "raw": "'script'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1035,
                 "end": 1045,
                 "value": "currency",
-                "raw": "'currency'"
+                "raw": "'currency'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -150,7 +158,9 @@
                             "start": 1110,
                             "end": 1114,
                             "value": "en",
-                            "raw": "'en'"
+                            "raw": "'en'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",

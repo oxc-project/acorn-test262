@@ -213,7 +213,9 @@ __ESTREE_TEST__:PASS:
                     "start": 119,
                     "end": 127,
                     "raw": "'number'",
-                    "value": "number"
+                    "value": "number",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "UnaryExpression",

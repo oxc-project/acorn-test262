@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 22,
         "raw": "\"@angular/core\"",
-        "value": "@angular/core"
+        "value": "@angular/core",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

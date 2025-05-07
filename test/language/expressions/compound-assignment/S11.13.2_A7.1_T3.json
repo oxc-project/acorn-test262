@@ -221,7 +221,9 @@
                                     "start": 677,
                                     "end": 715,
                                     "value": "right-hand side expression evaluated",
-                                    "raw": "\"right-hand side expression evaluated\""
+                                    "raw": "\"right-hand side expression evaluated\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }

@@ -52,7 +52,9 @@
                     "start": 509,
                     "end": 510,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -316,14 +318,18 @@
                       "start": 713,
                       "end": 718,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 720,
                       "end": 762,
                       "value": "isConstructor(resolve) must return false",
-                      "raw": "'isConstructor(resolve) must return false'"
+                      "raw": "'isConstructor(resolve) must return false'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -453,14 +459,18 @@
                       "start": 861,
                       "end": 862,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 864,
                       "end": 898,
                       "value": "The value of resolve.length is 1",
-                      "raw": "'The value of resolve.length is 1'"
+                      "raw": "'The value of resolve.length is 1'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -518,14 +528,18 @@
                       "start": 934,
                       "end": 936,
                       "value": "",
-                      "raw": "''"
+                      "raw": "''",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 938,
                       "end": 971,
                       "value": "The value of resolve.name is \"\"",
-                      "raw": "'The value of resolve.name is \"\"'"
+                      "raw": "'The value of resolve.name is \"\"'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

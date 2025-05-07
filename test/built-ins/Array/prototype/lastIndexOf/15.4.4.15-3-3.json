@@ -35,14 +35,18 @@
                   "start": 297,
                   "end": 298,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 300,
                   "end": 311,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -64,7 +68,9 @@
                   "start": 323,
                   "end": 324,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -163,7 +169,9 @@
                 "start": 384,
                 "end": 395,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -179,7 +187,9 @@
               "start": 399,
               "end": 400,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -187,7 +197,9 @@
             "start": 402,
             "end": 454,
             "value": "Array.prototype.lastIndexOf.call(obj, \"undefined\")",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, \"undefined\")'"
+            "raw": "'Array.prototype.lastIndexOf.call(obj, \"undefined\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

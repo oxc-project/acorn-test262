@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 41,
         "raw": "\"@speedy/folder1/testing\"",
-        "value": "@speedy/folder1/testing"
+        "value": "@speedy/folder1/testing",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -91,14 +93,18 @@ __ESTREE_TEST__:PASS:
                 "start": 17,
                 "end": 18,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 21,
                 "end": 22,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             }
           }

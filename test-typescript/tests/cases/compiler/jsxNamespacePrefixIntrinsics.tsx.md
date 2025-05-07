@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                     "start": 60,
                     "end": 72,
                     "raw": "\"ns:element\"",
-                    "value": "ns:element"
+                    "value": "ns:element",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -59,7 +61,9 @@ __ESTREE_TEST__:PASS:
                             "start": 82,
                             "end": 96,
                             "raw": "\"ns:attribute\"",
-                            "value": "ns:attribute"
+                            "value": "ns:attribute",
+                            "regex": null,
+                            "bigint": null
                           },
                           "optional": false,
                           "readonly": false,
@@ -90,7 +94,9 @@ __ESTREE_TEST__:PASS:
                     "start": 117,
                     "end": 151,
                     "raw": "\"ns:NamespacedUpcaseAlsoIntrinsic\"",
-                    "value": "ns:NamespacedUpcaseAlsoIntrinsic"
+                    "value": "ns:NamespacedUpcaseAlsoIntrinsic",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -117,7 +123,9 @@ __ESTREE_TEST__:PASS:
                     "start": 162,
                     "end": 196,
                     "raw": "\"NS:NamespacedUpcaseAlsoIntrinsic\"",
-                    "value": "NS:NamespacedUpcaseAlsoIntrinsic"
+                    "value": "NS:NamespacedUpcaseAlsoIntrinsic",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -219,7 +227,9 @@ __ESTREE_TEST__:PASS:
                     "start": 248,
                     "end": 253,
                     "raw": "\"yep\"",
-                    "value": "yep"
+                    "value": "yep",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -451,7 +461,9 @@ __ESTREE_TEST__:PASS:
                     "start": 446,
                     "end": 452,
                     "raw": "\"nope\"",
-                    "value": "nope"
+                    "value": "nope",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -537,7 +549,9 @@ __ESTREE_TEST__:PASS:
                     "start": 497,
                     "end": 503,
                     "raw": "\"nope\"",
-                    "value": "nope"
+                    "value": "nope",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

@@ -47,7 +47,9 @@
                 "start": 513,
                 "end": 514,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,7 +107,8 @@
                   "regex": {
                     "pattern": "\\0",
                     "flags": "u"
-                  }
+                  },
+                  "bigint": null
                 },
                 "property": {
                   "type": "Identifier",
@@ -131,7 +134,9 @@
               "start": 555,
               "end": 556,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -178,7 +183,8 @@
                 "regex": {
                   "pattern": "^\\0a$",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -195,7 +201,9 @@
                 "start": 591,
                 "end": 596,
                 "value": "\u0000a",
-                "raw": "'\\0a'"
+                "raw": "'\\0a'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -249,7 +257,9 @@
                   "start": 617,
                   "end": 624,
                   "value": "\u0000②",
-                  "raw": "'\\x00②'"
+                  "raw": "'\\x00②'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "property": {
                   "type": "Identifier",
@@ -270,7 +280,8 @@
                   "regex": {
                     "pattern": "\\0②",
                     "flags": "u"
-                  }
+                  },
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -280,7 +291,9 @@
               "start": 639,
               "end": 640,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -290,7 +303,9 @@
             "start": 643,
             "end": 650,
             "value": "\u0000②",
-            "raw": "'\\x00②'"
+            "raw": "'\\x00②'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +352,9 @@
                 "start": 670,
                 "end": 679,
                 "value": "\u0000፬",
-                "raw": "'\\u0000፬'"
+                "raw": "'\\u0000፬'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -358,7 +375,8 @@
                 "regex": {
                   "pattern": "\\0፬$",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -368,7 +386,9 @@
             "start": 697,
             "end": 698,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

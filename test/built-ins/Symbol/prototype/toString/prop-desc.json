@@ -75,7 +75,9 @@
             "start": 535,
             "end": 545,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -120,7 +122,9 @@
             "start": 582,
             "end": 592,
             "value": "toString",
-            "raw": "'toString'"
+            "raw": "'toString'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -145,7 +149,9 @@
                   "start": 608,
                   "end": 612,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -167,7 +173,9 @@
                   "start": 628,
                   "end": 633,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -189,7 +197,9 @@
                   "start": 651,
                   "end": 655,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

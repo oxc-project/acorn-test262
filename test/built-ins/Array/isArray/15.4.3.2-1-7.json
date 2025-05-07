@@ -79,14 +79,18 @@
             "start": 294,
             "end": 299,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 301,
             "end": 349,
             "value": "Array.isArray(function() {}) must return false",
-            "raw": "'Array.isArray(function() {}) must return false'"
+            "raw": "'Array.isArray(function() {}) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

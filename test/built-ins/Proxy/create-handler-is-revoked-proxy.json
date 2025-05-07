@@ -195,7 +195,9 @@
             "start": 594,
             "end": 602,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

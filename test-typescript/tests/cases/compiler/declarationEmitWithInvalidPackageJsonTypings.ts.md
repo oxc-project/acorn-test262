@@ -388,7 +388,9 @@ __ESTREE_TEST__:PASS:
                               "start": 237,
                               "end": 241,
                               "raw": "null",
-                              "value": null
+                              "value": null,
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {
@@ -423,7 +425,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 223,
                                       "end": 234,
                                       "raw": "\"csv-parse\"",
-                                      "value": "csv-parse"
+                                      "value": "csv-parse",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "options": null,

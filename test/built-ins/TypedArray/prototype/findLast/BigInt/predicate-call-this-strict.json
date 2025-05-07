@@ -70,7 +70,9 @@
                             "start": 613,
                             "end": 614,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -214,7 +216,9 @@
                         "start": 740,
                         "end": 786,
                         "value": "without thisArg, predicate this is undefined",
-                        "raw": "\"without thisArg, predicate this is undefined\""
+                        "raw": "\"without thisArg, predicate this is undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -367,7 +371,9 @@
                         "start": 897,
                         "end": 933,
                         "value": "thisArg becomes the predicate this",
-                        "raw": "\"thisArg becomes the predicate this\""
+                        "raw": "\"thisArg becomes the predicate this\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -109,7 +109,9 @@
                 "start": 439,
                 "end": 444,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -125,14 +127,18 @@
             "start": 454,
             "end": 459,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 486,
             "value": "fun.apply(false, Array)",
-            "raw": "'fun.apply(false, Array)'"
+            "raw": "'fun.apply(false, Array)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

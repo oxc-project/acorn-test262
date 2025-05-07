@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 26,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -137,7 +139,9 @@ __ESTREE_TEST__:PASS:
               "start": 77,
               "end": 78,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -197,7 +201,9 @@ __ESTREE_TEST__:PASS:
                 "start": 98,
                 "end": 102,
                 "raw": "\"hi\"",
-                "value": "hi"
+                "value": "hi",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -287,7 +293,9 @@ __ESTREE_TEST__:PASS:
                 "start": 141,
                 "end": 146,
                 "raw": "\"bye\"",
-                "value": "bye"
+                "value": "bye",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -357,7 +365,9 @@ __ESTREE_TEST__:PASS:
               "start": 225,
               "end": 229,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -487,7 +497,9 @@ __ESTREE_TEST__:PASS:
                 "start": 248,
                 "end": 252,
                 "raw": "\"hi\"",
-                "value": "hi"
+                "value": "hi",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -561,7 +573,9 @@ __ESTREE_TEST__:PASS:
                 "start": 279,
                 "end": 284,
                 "raw": "\"bye\"",
-                "value": "bye"
+                "value": "bye",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -616,7 +630,9 @@ __ESTREE_TEST__:PASS:
                 "start": 309,
                 "end": 313,
                 "raw": "\"um\"",
-                "value": "um"
+                "value": "um",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -681,7 +697,9 @@ __ESTREE_TEST__:PASS:
                 "start": 392,
                 "end": 397,
                 "raw": "\"bye\"",
-                "value": "bye"
+                "value": "bye",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -834,7 +852,9 @@ __ESTREE_TEST__:PASS:
               "start": 521,
               "end": 525,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -964,7 +984,9 @@ __ESTREE_TEST__:PASS:
                 "start": 545,
                 "end": 549,
                 "raw": "\"hi\"",
-                "value": "hi"
+                "value": "hi",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -1038,7 +1060,9 @@ __ESTREE_TEST__:PASS:
                 "start": 576,
                 "end": 581,
                 "raw": "\"bye\"",
-                "value": "bye"
+                "value": "bye",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -1112,7 +1136,9 @@ __ESTREE_TEST__:PASS:
                 "start": 609,
                 "end": 613,
                 "raw": "\"um\"",
-                "value": "um"
+                "value": "um",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",

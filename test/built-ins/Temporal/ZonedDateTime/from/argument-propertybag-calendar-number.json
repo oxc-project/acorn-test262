@@ -23,7 +23,9 @@
             "start": 284,
             "end": 289,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -54,14 +56,18 @@
                 "start": 312,
                 "end": 313,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 325,
                 "value": 19970327,
-                "raw": "19970327"
+                "raw": "19970327",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -74,7 +80,9 @@
                   "start": 330,
                   "end": 338,
                   "value": 19970327,
-                  "raw": "19970327"
+                  "raw": "19970327",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -82,7 +90,9 @@
                 "start": 342,
                 "end": 352,
                 "value": 1234567890,
-                "raw": "1234567890"
+                "raw": "1234567890",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -164,7 +174,9 @@
                         "start": 414,
                         "end": 418,
                         "value": 1970,
-                        "raw": "1970"
+                        "raw": "1970",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -186,7 +198,9 @@
                         "start": 431,
                         "end": 436,
                         "value": "M01",
-                        "raw": "\"M01\""
+                        "raw": "\"M01\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -208,7 +222,9 @@
                         "start": 443,
                         "end": 444,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -355,7 +371,9 @@
                   "start": 548,
                   "end": 586,
                   "value": "Numbers cannot be used as a calendar",
-                  "raw": "\"Numbers cannot be used as a calendar\""
+                  "raw": "\"Numbers cannot be used as a calendar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

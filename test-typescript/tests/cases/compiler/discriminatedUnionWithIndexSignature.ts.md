@@ -50,7 +50,9 @@ __ESTREE_TEST__:PASS:
                     "start": 40,
                     "end": 46,
                     "raw": "'text'",
-                    "value": "text"
+                    "value": "text",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -124,7 +126,9 @@ __ESTREE_TEST__:PASS:
                         "start": 91,
                         "end": 98,
                         "raw": "'image'",
-                        "value": "image"
+                        "value": "image",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -136,7 +140,9 @@ __ESTREE_TEST__:PASS:
                         "start": 101,
                         "end": 108,
                         "raw": "'video'",
-                        "value": "video"
+                        "value": "video",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -148,7 +154,9 @@ __ESTREE_TEST__:PASS:
                         "start": 111,
                         "end": 121,
                         "raw": "'document'",
-                        "value": "document"
+                        "value": "document",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -391,7 +399,9 @@ __ESTREE_TEST__:PASS:
                   "start": 317,
                   "end": 318,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -425,7 +435,9 @@ __ESTREE_TEST__:PASS:
                         "start": 336,
                         "end": 342,
                         "raw": "'text'",
-                        "value": "text"
+                        "value": "text",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -491,7 +503,9 @@ __ESTREE_TEST__:PASS:
                   "start": 410,
                   "end": 411,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -529,7 +543,9 @@ __ESTREE_TEST__:PASS:
                           "start": 429,
                           "end": 435,
                           "raw": "'text'",
-                          "value": "text"
+                          "value": "text",
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSTypeReference",

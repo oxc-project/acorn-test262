@@ -70,7 +70,9 @@
                             "start": 783,
                             "end": 784,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -179,7 +181,9 @@
                             "start": 859,
                             "end": 862,
                             "value": "0",
-                            "raw": "\"0\""
+                            "raw": "\"0\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -189,14 +193,18 @@
                         "start": 865,
                         "end": 870,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 872,
                         "end": 916,
                         "value": "Reflect.has(sample, \"0\") must return false",
-                        "raw": "'Reflect.has(sample, \"0\") must return false'"
+                        "raw": "'Reflect.has(sample, \"0\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -265,7 +273,9 @@
                             "start": 958,
                             "end": 962,
                             "value": "-0",
-                            "raw": "\"-0\""
+                            "raw": "\"-0\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -275,14 +285,18 @@
                         "start": 965,
                         "end": 970,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 972,
                         "end": 1017,
                         "value": "Reflect.has(sample, \"-0\") must return false",
-                        "raw": "'Reflect.has(sample, \"-0\") must return false'"
+                        "raw": "'Reflect.has(sample, \"-0\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -351,7 +365,9 @@
                             "start": 1059,
                             "end": 1064,
                             "value": "1.1",
-                            "raw": "\"1.1\""
+                            "raw": "\"1.1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -361,14 +377,18 @@
                         "start": 1067,
                         "end": 1072,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1074,
                         "end": 1120,
                         "value": "Reflect.has(sample, \"1.1\") must return false",
-                        "raw": "'Reflect.has(sample, \"1.1\") must return false'"
+                        "raw": "'Reflect.has(sample, \"1.1\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

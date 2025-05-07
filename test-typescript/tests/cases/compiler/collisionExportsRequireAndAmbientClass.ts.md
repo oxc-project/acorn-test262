@@ -500,7 +500,9 @@ __ESTREE_TEST__:PASS:
                   "start": 232,
                   "end": 234,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

@@ -230,7 +230,9 @@
             "start": 1729,
             "end": 1730,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

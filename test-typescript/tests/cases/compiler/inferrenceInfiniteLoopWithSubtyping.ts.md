@@ -1192,7 +1192,9 @@ __ESTREE_TEST__:PASS:
         "start": 35,
         "end": 54,
         "raw": "'./graphql-compose'",
-        "value": "./graphql-compose"
+        "value": "./graphql-compose",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

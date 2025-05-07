@@ -130,7 +130,9 @@
             "start": 465,
             "end": 507,
             "value": "Instance created via function invocation",
-            "raw": "'Instance created via function invocation'"
+            "raw": "'Instance created via function invocation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

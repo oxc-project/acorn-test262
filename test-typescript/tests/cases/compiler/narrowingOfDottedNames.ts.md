@@ -614,7 +614,9 @@ __ESTREE_TEST__:PASS:
               "start": 257,
               "end": 261,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -885,7 +887,9 @@ __ESTREE_TEST__:PASS:
               "start": 438,
               "end": 442,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -1241,7 +1245,9 @@ __ESTREE_TEST__:PASS:
               "start": 832,
               "end": 833,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -1309,7 +1315,9 @@ __ESTREE_TEST__:PASS:
               "start": 874,
               "end": 875,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -1377,7 +1385,9 @@ __ESTREE_TEST__:PASS:
               "start": 910,
               "end": 911,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -1605,7 +1615,9 @@ __ESTREE_TEST__:PASS:
               "start": 1025,
               "end": 1029,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
@@ -1797,7 +1809,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1118,
                       "end": 1119,
                       "raw": "3",
-                      "value": 3
+                      "value": 3,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

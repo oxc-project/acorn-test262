@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 45,
         "raw": "\"@restart/hooks/useMergedRefs\"",
-        "value": "@restart/hooks/useMergedRefs"
+        "value": "@restart/hooks/useMergedRefs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

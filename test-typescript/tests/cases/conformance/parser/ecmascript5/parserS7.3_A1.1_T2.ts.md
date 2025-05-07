@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 316,
             "end": 317,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -66,7 +68,9 @@ __ESTREE_TEST__:PASS:
                     "start": 343,
                     "end": 386,
                     "raw": "'#1: var\\\\nx\\\\n=\\\\n1\\\\n; x === 1. Actual: '",
-                    "value": "#1: var\\nx\\n=\\n1\\n; x === 1. Actual: "
+                    "value": "#1: var\\nx\\n=\\n1\\n; x === 1. Actual: ",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -113,7 +117,9 @@ __ESTREE_TEST__:PASS:
           "start": 329,
           "end": 330,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     }

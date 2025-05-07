@@ -48,6 +48,7 @@
                 "end": 365,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               }
             ]
@@ -146,7 +147,9 @@
                         "start": 428,
                         "end": 429,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -174,7 +177,9 @@
                           "start": 441,
                           "end": 443,
                           "value": 30,
-                          "raw": "30"
+                          "raw": "30",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"

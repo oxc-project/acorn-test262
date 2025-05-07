@@ -23,7 +23,9 @@
             "start": 626,
             "end": 628,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
           "start": 640,
           "end": 677,
           "value": "<body onXXX=\"alert(event.type);\">\n",
-          "raw": "'<body onXXX=\"alert(event.type);\">\\n'"
+          "raw": "'<body onXXX=\"alert(event.type);\">\\n'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -73,7 +77,9 @@
           "start": 689,
           "end": 717,
           "value": "<p>Kibology for all</p>\n",
-          "raw": "'<p>Kibology for all<\\/p>\\n'"
+          "raw": "'<p>Kibology for all<\\/p>\\n'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -97,7 +103,9 @@
           "start": 729,
           "end": 757,
           "value": "<p>All for Kibology</p>\n",
-          "raw": "'<p>All for Kibology<\\/p>\\n'"
+          "raw": "'<p>All for Kibology<\\/p>\\n'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -121,7 +129,9 @@
           "start": 769,
           "end": 779,
           "value": "</body>",
-          "raw": "'<\\/body>'"
+          "raw": "'<\\/body>'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -145,7 +155,9 @@
             "start": 793,
             "end": 795,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -171,7 +183,9 @@
           "start": 807,
           "end": 817,
           "value": "<html>\n",
-          "raw": "'<html>\\n'"
+          "raw": "'<html>\\n'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -218,7 +232,9 @@
           "start": 847,
           "end": 859,
           "value": "\n</html>",
-          "raw": "'\\n<\\/html>'"
+          "raw": "'\\n<\\/html>'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -254,7 +270,8 @@
                 "regex": {
                   "pattern": "<body.*>((.*\\n?)*?)<\\/body>",
                   "flags": "i"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -310,14 +327,18 @@
                 "start": 951,
                 "end": 1005,
                 "value": "\n<p>Kibology for all</p>\n<p>All for Kibology</p>\n",
-                "raw": "'\\n<p>Kibology for all</p>\\n<p>All for Kibology</p>\\n'"
+                "raw": "'\\n<p>Kibology for all</p>\\n<p>All for Kibology</p>\\n'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1007,
                 "end": 1034,
                 "value": "<p>All for Kibology</p>\n",
-                "raw": "'<p>All for Kibology</p>\\n'"
+                "raw": "'<p>All for Kibology</p>\\n'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -358,7 +379,9 @@
           "start": 1056,
           "end": 1057,
           "value": 7,
-          "raw": "7"
+          "raw": "7",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -469,7 +492,9 @@
             "start": 1149,
             "end": 1233,
             "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +571,9 @@
             "start": 1298,
             "end": 1380,
             "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -623,7 +650,9 @@
             "start": 1445,
             "end": 1527,
             "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -653,7 +682,9 @@
               "start": 1546,
               "end": 1547,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -779,7 +810,9 @@
                   "start": 1655,
                   "end": 1739,
                   "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

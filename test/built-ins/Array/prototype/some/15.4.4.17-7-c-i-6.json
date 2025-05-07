@@ -23,7 +23,9 @@
             "start": 342,
             "end": 346,
             "value": 1000,
-            "raw": "1000"
+            "raw": "1000",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 400,
                 "end": 401,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -131,7 +135,9 @@
               "start": 445,
               "end": 450,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -189,7 +195,9 @@
             "start": 494,
             "end": 497,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -232,7 +240,9 @@
                           "start": 532,
                           "end": 533,
                           "value": 9,
-                          "raw": "9"
+                          "raw": "9",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -258,7 +268,9 @@
                   "start": 556,
                   "end": 560,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -328,7 +340,9 @@
             "start": 600,
             "end": 636,
             "value": "[kValue].some(callbackfn) !== true",
-            "raw": "'[kValue].some(callbackfn) !== true'"
+            "raw": "'[kValue].some(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

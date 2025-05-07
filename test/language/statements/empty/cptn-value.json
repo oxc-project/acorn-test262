@@ -47,7 +47,9 @@
                 "start": 328,
                 "end": 331,
                 "value": ";",
-                "raw": "';'"
+                "raw": "';'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 368,
                 "end": 373,
                 "value": "2;;",
-                "raw": "'2;;'"
+                "raw": "'2;;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 376,
             "end": 377,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +172,9 @@
                 "start": 402,
                 "end": 408,
                 "value": "3;;;",
-                "raw": "'3;;;'"
+                "raw": "'3;;;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -176,7 +184,9 @@
             "start": 411,
             "end": 412,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

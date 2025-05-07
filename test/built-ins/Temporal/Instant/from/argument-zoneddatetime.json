@@ -188,7 +188,9 @@
                         "start": 791,
                         "end": 816,
                         "value": "epochNanoseconds result",
-                        "raw": "\"epochNanoseconds result\""
+                        "raw": "\"epochNanoseconds result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

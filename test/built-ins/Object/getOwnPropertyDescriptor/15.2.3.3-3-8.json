@@ -67,7 +67,9 @@
             "start": 346,
             "end": 356,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 391,
                           "end": 418,
                           "value": "inheritedAccessorProperty",
-                          "raw": "\"inheritedAccessorProperty\""
+                          "raw": "\"inheritedAccessorProperty\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -136,7 +140,9 @@
                   "start": 441,
                   "end": 445,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -286,7 +292,9 @@
                     "start": 555,
                     "end": 576,
                     "value": "ownAccessorProperty",
-                    "raw": "\"ownAccessorProperty\""
+                    "raw": "\"ownAccessorProperty\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -335,7 +343,9 @@
             "start": 610,
             "end": 620,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -381,7 +391,9 @@
                   "start": 652,
                   "end": 656,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -441,7 +453,9 @@
                 "start": 712,
                 "end": 722,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -508,7 +522,9 @@
             "start": 758,
             "end": 768,
             "value": "desc.get",
-            "raw": "'desc.get'"
+            "raw": "'desc.get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

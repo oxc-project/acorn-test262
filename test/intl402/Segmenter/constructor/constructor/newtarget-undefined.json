@@ -62,7 +62,9 @@
             "start": 409,
             "end": 419,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +237,9 @@
                         "start": 541,
                         "end": 545,
                         "value": "en",
-                        "raw": "\"en\""
+                        "raw": "\"en\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -329,7 +333,9 @@
                         "start": 608,
                         "end": 623,
                         "value": "not-valid-tag",
-                        "raw": "\"not-valid-tag\""
+                        "raw": "\"not-valid-tag\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

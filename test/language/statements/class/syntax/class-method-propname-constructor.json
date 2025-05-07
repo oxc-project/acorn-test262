@@ -98,7 +98,9 @@
             "start": 424,
             "end": 434,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

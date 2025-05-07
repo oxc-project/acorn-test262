@@ -36,7 +36,9 @@
                     "start": 540,
                     "end": 607,
                     "value": "#1.1: RegExp(new RegExp(\"\\d\"), \"1\")) throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: RegExp(new RegExp(\"\\\\d\"), \"1\")) throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: RegExp(new RegExp(\"\\\\d\"), \"1\")) throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -70,7 +72,9 @@
                               "start": 629,
                               "end": 633,
                               "value": "d",
-                              "raw": "\"\\d\""
+                              "raw": "\"\\d\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -79,7 +83,9 @@
                           "start": 636,
                           "end": 639,
                           "value": "1",
-                          "raw": "\"1\""
+                          "raw": "\"1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -157,14 +163,18 @@
                     "start": 712,
                     "end": 716,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 722,
                     "end": 798,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

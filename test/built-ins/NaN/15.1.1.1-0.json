@@ -52,7 +52,9 @@
                 "start": 297,
                 "end": 302,
                 "value": "NaN",
-                "raw": "'NaN'"
+                "raw": "'NaN'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -113,14 +115,18 @@
             "start": 338,
             "end": 343,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 345,
             "end": 360,
             "value": "desc.writable",
-            "raw": "'desc.writable'"
+            "raw": "'desc.writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,14 +184,18 @@
             "start": 397,
             "end": 402,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 421,
             "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "raw": "'desc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,14 +253,18 @@
             "start": 460,
             "end": 465,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 486,
             "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "raw": "'desc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

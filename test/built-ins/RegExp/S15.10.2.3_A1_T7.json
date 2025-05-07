@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "ab|cd|ef",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 559,
                 "end": 567,
                 "value": "AEKFCD",
-                "raw": "\"AEKFCD\""
+                "raw": "\"AEKFCD\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 591,
             "end": 640,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

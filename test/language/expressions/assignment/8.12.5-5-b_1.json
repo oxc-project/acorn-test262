@@ -67,7 +67,9 @@
             "start": 352,
             "end": 360,
             "value": "reduce",
-            "raw": "\"reduce\""
+            "raw": "\"reduce\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 388,
                           "end": 391,
                           "value": 456,
-                          "raw": "456"
+                          "raw": "456",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -136,7 +140,9 @@
                   "start": 406,
                   "end": 411,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -233,7 +239,9 @@
                 "start": 496,
                 "end": 504,
                 "value": "reduce",
-                "raw": "\"reduce\""
+                "raw": "\"reduce\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -295,7 +303,9 @@
           "start": 551,
           "end": 554,
           "value": 123,
-          "raw": "123"
+          "raw": "123",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -349,7 +359,9 @@
               "start": 615,
               "end": 623,
               "value": "reduce",
-              "raw": "\"reduce\""
+              "raw": "\"reduce\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -548,7 +560,9 @@
                         "start": 815,
                         "end": 828,
                         "value": "origDesc[i]",
-                        "raw": "'origDesc[i]'"
+                        "raw": "'origDesc[i]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -612,14 +626,18 @@
             "start": 889,
             "end": 892,
             "value": 456,
-            "raw": "456"
+            "raw": "456",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 910,
             "value": "tempObj.reduce",
-            "raw": "'tempObj.reduce'"
+            "raw": "'tempObj.reduce'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

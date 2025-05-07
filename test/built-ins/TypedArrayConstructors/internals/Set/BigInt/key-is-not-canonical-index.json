@@ -28,28 +28,36 @@
                 "start": 667,
                 "end": 672,
                 "value": "1.0",
-                "raw": "'1.0'"
+                "raw": "'1.0'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 674,
                 "end": 678,
                 "value": "+1",
-                "raw": "'+1'"
+                "raw": "'+1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 680,
                 "end": 704,
                 "value": "1000000000000000000000",
-                "raw": "'1000000000000000000000'"
+                "raw": "'1000000000000000000000'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 706,
                 "end": 717,
                 "value": "0.0000001",
-                "raw": "'0.0000001'"
+                "raw": "'0.0000001'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -179,6 +187,7 @@
                                             "end": 832,
                                             "value": null,
                                             "raw": "42n",
+                                            "regex": null,
                                             "bigint": "42"
                                           }
                                         ]
@@ -258,7 +267,9 @@
                                         "start": 890,
                                         "end": 899,
                                         "value": "ecma262",
-                                        "raw": "'ecma262'"
+                                        "raw": "'ecma262'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -268,14 +279,18 @@
                                     "start": 908,
                                     "end": 912,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 920,
                                     "end": 983,
                                     "value": "Reflect.set(\"new TA([42n])\", key, \"ecma262\") must return true",
-                                    "raw": "'Reflect.set(\"new TA([42n])\", key, \"ecma262\") must return true'"
+                                    "raw": "'Reflect.set(\"new TA([42n])\", key, \"ecma262\") must return true'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -333,14 +348,18 @@
                                     "start": 1026,
                                     "end": 1035,
                                     "value": "ecma262",
-                                    "raw": "'ecma262'"
+                                    "raw": "'ecma262'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1037,
                                     "end": 1076,
                                     "value": "The value of sample[key] is \"ecma262\"",
-                                    "raw": "'The value of sample[key] is \"ecma262\"'"
+                                    "raw": "'The value of sample[key] is \"ecma262\"'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -415,7 +434,9 @@
                                         "start": 1133,
                                         "end": 1141,
                                         "value": "es3000",
-                                        "raw": "'es3000'"
+                                        "raw": "'es3000'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -425,14 +446,18 @@
                                     "start": 1150,
                                     "end": 1154,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1162,
                                     "end": 1224,
                                     "value": "Reflect.set(\"new TA([42n])\", key, \"es3000\") must return true",
-                                    "raw": "'Reflect.set(\"new TA([42n])\", key, \"es3000\") must return true'"
+                                    "raw": "'Reflect.set(\"new TA([42n])\", key, \"es3000\") must return true'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -490,14 +515,18 @@
                                     "start": 1267,
                                     "end": 1275,
                                     "value": "es3000",
-                                    "raw": "'es3000'"
+                                    "raw": "'es3000'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1277,
                                     "end": 1315,
                                     "value": "The value of sample[key] is \"es3000\"",
-                                    "raw": "'The value of sample[key] is \"es3000\"'"
+                                    "raw": "'The value of sample[key] is \"es3000\"'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -566,7 +595,9 @@
                                           "start": 1376,
                                           "end": 1381,
                                           "value": false,
-                                          "raw": "false"
+                                          "raw": "false",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "kind": "init"
                                       },
@@ -666,7 +697,9 @@
                                         "start": 1461,
                                         "end": 1463,
                                         "value": 42,
-                                        "raw": "42"
+                                        "raw": "42",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -676,14 +709,18 @@
                                     "start": 1466,
                                     "end": 1471,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1473,
                                     "end": 1530,
                                     "value": "Reflect.set(\"new TA([42n])\", key, 42) must return false",
-                                    "raw": "'Reflect.set(\"new TA([42n])\", key, 42) must return false'"
+                                    "raw": "'Reflect.set(\"new TA([42n])\", key, 42) must return false'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -747,7 +784,9 @@
                                     "start": 1578,
                                     "end": 1637,
                                     "value": "The value of sample[key] is expected to equal `undefined`",
-                                    "raw": "'The value of sample[key] is expected to equal `undefined`'"
+                                    "raw": "'The value of sample[key] is expected to equal `undefined`'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

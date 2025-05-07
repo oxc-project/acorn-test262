@@ -88,14 +88,18 @@
             "start": 368,
             "end": 378,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 382,
             "end": 432,
             "value": "`typeof PlainDate.prototype.since` is `function`",
-            "raw": "\"`typeof PlainDate.prototype.since` is `function`\""
+            "raw": "\"`typeof PlainDate.prototype.since` is `function`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +157,9 @@
             "start": 482,
             "end": 489,
             "value": "since",
-            "raw": "\"since\""
+            "raw": "\"since\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -178,7 +184,9 @@
                   "start": 505,
                   "end": 509,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -200,7 +208,9 @@
                   "start": 525,
                   "end": 530,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -222,7 +232,9 @@
                   "start": 548,
                   "end": 552,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

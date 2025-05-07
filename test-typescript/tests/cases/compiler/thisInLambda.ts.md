@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 20,
               "end": 27,
               "raw": "\"hello\"",
-              "value": "hello"
+              "value": "hello",
+              "regex": null,
+              "bigint": null
             }
           },
           {

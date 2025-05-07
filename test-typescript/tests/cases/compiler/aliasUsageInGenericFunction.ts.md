@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 66,
           "raw": "\"./aliasUsageInGenericFunction_backbone\"",
-          "value": "./aliasUsageInGenericFunction_backbone"
+          "value": "./aliasUsageInGenericFunction_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 66,
           "raw": "\"./aliasUsageInGenericFunction_backbone\"",
-          "value": "./aliasUsageInGenericFunction_backbone"
+          "value": "./aliasUsageInGenericFunction_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
           "start": 94,
           "end": 133,
           "raw": "\"./aliasUsageInGenericFunction_moduleA\"",
-          "value": "./aliasUsageInGenericFunction_moduleA"
+          "value": "./aliasUsageInGenericFunction_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -592,7 +598,9 @@ __ESTREE_TEST__:PASS:
                         "start": 369,
                         "end": 373,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": {
                         "type": "TSTypeReference",

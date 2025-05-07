@@ -89,7 +89,9 @@ __ESTREE_TEST__:PASS:
               "start": 18,
               "end": 25,
               "raw": "'./mod'",
-              "value": "./mod"
+              "value": "./mod",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {
@@ -244,7 +246,9 @@ __ESTREE_TEST__:PASS:
               "start": 18,
               "end": 25,
               "raw": "'./mod'",
-              "value": "./mod"
+              "value": "./mod",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {
@@ -381,7 +385,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 30,
         "raw": "'./mod'",
-        "value": "./mod"
+        "value": "./mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -476,7 +482,9 @@ __ESTREE_TEST__:PASS:
                 "start": 80,
                 "end": 81,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

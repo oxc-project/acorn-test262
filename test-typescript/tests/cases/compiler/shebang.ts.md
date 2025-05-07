@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 78,
             "raw": "'I wish the generated JS to be executed in node'",
-            "value": "I wish the generated JS to be executed in node"
+            "value": "I wish the generated JS to be executed in node",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

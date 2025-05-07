@@ -114,7 +114,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 55,
           "raw": "'./declarationEmit_nameConflicts_1'",
-          "value": "./declarationEmit_nameConflicts_1"
+          "value": "./declarationEmit_nameConflicts_1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -193,7 +193,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 32,
         "raw": "'moment'",
-        "value": "moment"
+        "value": "moment",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -301,7 +303,9 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 74,
         "raw": "\"moment\"",
-        "value": "moment"
+        "value": "moment",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -327,7 +331,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 33,
         "raw": "\"moment\"",
-        "value": "moment"
+        "value": "moment",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -440,7 +446,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 58,
         "raw": "\"moment\"",
-        "value": "moment"
+        "value": "moment",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -537,7 +545,9 @@ __ESTREE_TEST__:PASS:
         "start": 150,
         "end": 167,
         "raw": "\"moment-timezone\"",
-        "value": "moment-timezone"
+        "value": "moment-timezone",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -575,7 +585,9 @@ __ESTREE_TEST__:PASS:
           "start": 56,
           "end": 73,
           "raw": "\"moment-timezone\"",
-          "value": "moment-timezone"
+          "value": "moment-timezone",
+          "regex": null,
+          "bigint": null
         }
       }
     }

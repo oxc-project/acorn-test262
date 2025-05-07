@@ -56,14 +56,18 @@
             "start": 373,
             "end": 381,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 441,
             "value": "The value of `typeof Array()` is expected to be \"object\"",
-            "raw": "'The value of `typeof Array()` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Array()` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,14 +131,18 @@
             "start": 493,
             "end": 497,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 577,
             "value": "The result of evaluating (Array() instanceof Array) is expected to be true",
-            "raw": "'The result of evaluating (Array() instanceof Array) is expected to be true'"
+            "raw": "'The result of evaluating (Array() instanceof Array) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

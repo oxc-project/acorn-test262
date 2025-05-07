@@ -476,7 +476,9 @@
                         "start": 1006,
                         "end": 1012,
                         "value": "abcd",
-                        "raw": "'abcd'"
+                        "raw": "'abcd'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -688,7 +690,9 @@
                         "start": 1176,
                         "end": 1182,
                         "value": "abcd",
-                        "raw": "'abcd'"
+                        "raw": "'abcd'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

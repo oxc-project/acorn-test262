@@ -48,6 +48,7 @@
                 "end": 371,
                 "value": null,
                 "raw": "1588371240_000_000_000n",
+                "regex": null,
                 "bigint": "1588371240000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 373,
                 "end": 381,
                 "value": "+01:46",
-                "raw": "\"+01:46\""
+                "raw": "\"+01:46\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,7 +86,9 @@
             "start": 402,
             "end": 447,
             "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]",
-            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\""
+            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -164,7 +169,9 @@
                       "start": 505,
                       "end": 509,
                       "value": 2020,
-                      "raw": "2020"
+                      "raw": "2020",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -186,7 +193,9 @@
                       "start": 518,
                       "end": 519,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -208,7 +217,9 @@
                       "start": 526,
                       "end": 527,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -287,14 +298,18 @@
             "start": 578,
             "end": 579,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 645,
             "value": "Time zone string determined from bracket name (first argument)",
-            "raw": "\"Time zone string determined from bracket name (first argument)\""
+            "raw": "\"Time zone string determined from bracket name (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -381,7 +396,9 @@
                       "start": 713,
                       "end": 717,
                       "value": 2020,
-                      "raw": "2020"
+                      "raw": "2020",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -403,7 +420,9 @@
                       "start": 726,
                       "end": 727,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -425,7 +444,9 @@
                       "start": 734,
                       "end": 735,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -498,14 +519,18 @@
             "start": 776,
             "end": 777,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 779,
             "end": 844,
             "value": "Time zone string determined from bracket name (second argument)",
-            "raw": "\"Time zone string determined from bracket name (second argument)\""
+            "raw": "\"Time zone string determined from bracket name (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

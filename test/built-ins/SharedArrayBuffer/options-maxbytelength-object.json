@@ -126,7 +126,9 @@
                                     "start": 954,
                                     "end": 964,
                                     "value": "toString",
-                                    "raw": "'toString'"
+                                    "raw": "'toString'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -208,7 +210,9 @@
                                     "start": 1032,
                                     "end": 1041,
                                     "value": "valueOf",
-                                    "raw": "'valueOf'"
+                                    "raw": "'valueOf'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -308,7 +312,9 @@
                         "start": 1137,
                         "end": 1138,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -378,7 +384,9 @@
             "start": 1184,
             "end": 1185,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +435,9 @@
               "start": 1209,
               "end": 1210,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -437,7 +447,9 @@
             "start": 1213,
             "end": 1222,
             "value": "valueOf",
-            "raw": "'valueOf'"
+            "raw": "'valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +498,9 @@
               "start": 1246,
               "end": 1247,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -496,7 +510,9 @@
             "start": 1250,
             "end": 1260,
             "value": "toString",
-            "raw": "'toString'"
+            "raw": "'toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

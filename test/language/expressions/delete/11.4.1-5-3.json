@@ -109,14 +109,18 @@
             "start": 439,
             "end": 444,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 446,
             "end": 449,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,14 +172,18 @@
             "start": 481,
             "end": 491,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 505,
             "value": "typeof foo",
-            "raw": "'typeof foo'"
+            "raw": "'typeof foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -360,7 +360,9 @@
             "start": 748,
             "end": 823,
             "value": "prototype of this from within the constructor function is Array.prototype",
-            "raw": "'prototype of this from within the constructor function is Array.prototype'"
+            "raw": "'prototype of this from within the constructor function is Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

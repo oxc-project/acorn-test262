@@ -48,6 +48,7 @@
                 "end": 852,
                 "value": null,
                 "raw": "1_000_000_000_987_64_321n",
+                "regex": null,
                 "bigint": "100000000098764321"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 854,
                 "end": 859,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,28 +91,36 @@
                 "start": 885,
                 "end": 892,
                 "value": "NEVER",
-                "raw": "\"NEVER\""
+                "raw": "\"NEVER\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 894,
                 "end": 905,
                 "value": "sometimes",
-                "raw": "\"sometimes\""
+                "raw": "\"sometimes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 907,
                 "end": 921,
                 "value": "other string",
-                "raw": "\"other string\""
+                "raw": "\"other string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 923,
                 "end": 931,
                 "value": "auto\u0000",
-                "raw": "\"auto\\0\""
+                "raw": "\"auto\\0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

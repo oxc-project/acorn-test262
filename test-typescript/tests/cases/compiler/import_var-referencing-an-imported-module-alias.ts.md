@@ -76,7 +76,9 @@ __ESTREE_TEST__:PASS:
           "start": 22,
           "end": 28,
           "raw": "\"host\"",
-          "value": "host"
+          "value": "host",
+          "regex": null,
+          "bigint": null
         }
       }
     },

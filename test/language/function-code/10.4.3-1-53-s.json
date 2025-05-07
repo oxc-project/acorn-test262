@@ -112,7 +112,9 @@
                                     "start": 435,
                                     "end": 447,
                                     "value": "use strict",
-                                    "raw": "\"use strict\""
+                                    "raw": "\"use strict\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "directive": "use strict"
                                 },
@@ -145,7 +147,9 @@
                         "start": 487,
                         "end": 498,
                         "value": "undefined",
-                        "raw": "\"undefined\""
+                        "raw": "\"undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -195,7 +199,9 @@
                         "start": 536,
                         "end": 542,
                         "value": "this",
-                        "raw": "'this'"
+                        "raw": "'this'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -47,7 +47,9 @@
                 "start": 996,
                 "end": 1007,
                 "value": "collation",
-                "raw": "\"collation\""
+                "raw": "\"collation\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -109,7 +111,9 @@
             "start": 1045,
             "end": 1071,
             "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "raw": "\"Returns an Array object.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +204,9 @@
             "start": 1160,
             "end": 1200,
             "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "raw": "\"The array prototype is Array.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +256,9 @@
                 "start": 1251,
                 "end": 1262,
                 "value": "collation",
-                "raw": "\"collation\""
+                "raw": "\"collation\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -304,7 +312,9 @@
             "start": 1334,
             "end": 1377,
             "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "raw": "\"Returns a new array object for each call.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +385,9 @@
             "start": 1457,
             "end": 1479,
             "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "raw": "\"The array is sorted.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +477,9 @@
             "start": 1562,
             "end": 1601,
             "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "raw": "\"The array doesn't contain duplicates.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,7 +509,8 @@
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -724,7 +739,9 @@
                         "start": 1918,
                         "end": 1923,
                         "value": "und",
-                        "raw": "\"und\""
+                        "raw": "\"und\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -863,7 +880,9 @@
                   "start": 2044,
                   "end": 2054,
                   "value": "standard",
-                  "raw": "\"standard\""
+                  "raw": "\"standard\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -874,7 +893,9 @@
             "start": 2057,
             "end": 2105,
             "value": "Mustn't include the 'standard' collation type.",
-            "raw": "\"Mustn't include the 'standard' collation type.\""
+            "raw": "\"Mustn't include the 'standard' collation type.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -930,7 +951,9 @@
                   "start": 2136,
                   "end": 2144,
                   "value": "search",
-                  "raw": "\"search\""
+                  "raw": "\"search\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -941,7 +964,9 @@
             "start": 2147,
             "end": 2193,
             "value": "Mustn't include the 'search' collation type.",
-            "raw": "\"Mustn't include the 'search' collation type.\""
+            "raw": "\"Mustn't include the 'search' collation type.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

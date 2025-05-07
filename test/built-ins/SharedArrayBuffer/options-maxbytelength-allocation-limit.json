@@ -71,7 +71,9 @@
                         "start": 968,
                         "end": 969,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -100,7 +102,9 @@
                                 "start": 987,
                                 "end": 988,
                                 "value": 7,
-                                "raw": "7"
+                                "raw": "7",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "*",
                               "right": {
@@ -108,7 +112,9 @@
                                 "start": 991,
                                 "end": 1007,
                                 "value": 1125899906842624,
-                                "raw": "1125899906842624"
+                                "raw": "1125899906842624",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "kind": "init"
@@ -126,7 +132,9 @@
             "start": 1014,
             "end": 1047,
             "value": "`maxByteLength` option is 7 PiB",
-            "raw": "\"`maxByteLength` option is 7 PiB\""
+            "raw": "\"`maxByteLength` option is 7 PiB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +208,9 @@
                         "start": 1214,
                         "end": 1215,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -229,7 +239,9 @@
                                 "start": 1233,
                                 "end": 1249,
                                 "value": 9007199254740992,
-                                "raw": "9007199254740992"
+                                "raw": "9007199254740992",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "-",
                               "right": {
@@ -237,7 +249,9 @@
                                 "start": 1252,
                                 "end": 1253,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "kind": "init"
@@ -255,7 +269,9 @@
             "start": 1260,
             "end": 1307,
             "value": "`maxByteLength` option is Math.pow(2, 53) - 1",
-            "raw": "\"`maxByteLength` option is Math.pow(2, 53) - 1\""
+            "raw": "\"`maxByteLength` option is Math.pow(2, 53) - 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

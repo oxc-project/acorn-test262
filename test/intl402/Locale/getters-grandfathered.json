@@ -47,7 +47,9 @@
                 "start": 961,
                 "end": 974,
                 "value": "cel-gaulish",
-                "raw": "\"cel-gaulish\""
+                "raw": "\"cel-gaulish\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -107,7 +109,9 @@
             "start": 1008,
             "end": 1013,
             "value": "xtg",
-            "raw": "\"xtg\""
+            "raw": "\"xtg\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,7 +169,9 @@
             "start": 1047,
             "end": 1052,
             "value": "xtg",
-            "raw": "\"xtg\""
+            "raw": "\"xtg\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,7 +363,9 @@
                   "start": 1225,
                   "end": 1233,
                   "value": "zh-min",
-                  "raw": "\"zh-min\""
+                  "raw": "\"zh-min\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -438,7 +446,9 @@
                   "start": 1286,
                   "end": 1297,
                   "value": "i-default",
-                  "raw": "\"i-default\""
+                  "raw": "\"i-default\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 28,
               "end": 30,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -148,7 +150,9 @@ __ESTREE_TEST__:PASS:
           "start": 77,
           "end": 82,
           "raw": "\"foo\"",
-          "value": "foo"
+          "value": "foo",
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -175,7 +179,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 30,
         "raw": "\"./Foo.js\"",
-        "value": "./Foo.js"
+        "value": "./Foo.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -279,7 +285,9 @@ __ESTREE_TEST__:PASS:
           "start": 68,
           "end": 73,
           "raw": "\"foo\"",
-          "value": "foo"
+          "value": "foo",
+          "regex": null,
+          "bigint": null
         }
       }
     }

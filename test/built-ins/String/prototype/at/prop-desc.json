@@ -75,7 +75,9 @@
             "start": 406,
             "end": 416,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,14 +155,18 @@
             "start": 470,
             "end": 480,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 541,
             "value": "The value of `typeof String.prototype.at` is \"function\"",
-            "raw": "'The value of `typeof String.prototype.at` is \"function\"'"
+            "raw": "'The value of `typeof String.prototype.at` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,7 +211,9 @@
             "start": 579,
             "end": 583,
             "value": "at",
-            "raw": "'at'"
+            "raw": "'at'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -230,7 +238,9 @@
                   "start": 601,
                   "end": 606,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -252,7 +262,9 @@
                   "start": 620,
                   "end": 624,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -274,7 +286,9 @@
                   "start": 642,
                   "end": 646,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

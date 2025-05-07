@@ -59,7 +59,9 @@
                         "start": 728,
                         "end": 729,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -101,21 +103,27 @@
                                 "start": 750,
                                 "end": 751,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 753,
                                 "end": 754,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 756,
                                 "end": 757,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -214,7 +222,9 @@
                                         "start": 828,
                                         "end": 829,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "consequent": {
@@ -315,7 +325,9 @@
                           "start": 928,
                           "end": 929,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -323,14 +335,18 @@
                         "start": 931,
                         "end": 935,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 937,
                         "end": 977,
                         "value": "compareFn is not called after an error",
-                        "raw": "\"compareFn is not called after an error\""
+                        "raw": "\"compareFn is not called after an error\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

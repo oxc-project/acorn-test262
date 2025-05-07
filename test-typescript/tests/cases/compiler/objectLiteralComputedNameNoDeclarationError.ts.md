@@ -56,7 +56,9 @@ __ESTREE_TEST__:PASS:
                     "start": 26,
                     "end": 34,
                     "raw": "'banana'",
-                    "value": "banana"
+                    "value": "banana",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSLiteralType",
@@ -67,7 +69,9 @@ __ESTREE_TEST__:PASS:
                       "start": 38,
                       "end": 46,
                       "raw": "'banana'",
-                      "value": "banana"
+                      "value": "banana",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -147,7 +151,9 @@ __ESTREE_TEST__:PASS:
                     "start": 90,
                     "end": 91,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

@@ -977,7 +977,9 @@ __ESTREE_TEST__:PASS:
               "start": 968,
               "end": 969,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -1015,7 +1017,9 @@ __ESTREE_TEST__:PASS:
               "start": 986,
               "end": 987,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -1415,7 +1419,9 @@ __ESTREE_TEST__:PASS:
         "start": 1493,
         "end": 1504,
         "raw": "'external1'",
-        "value": "external1"
+        "value": "external1",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

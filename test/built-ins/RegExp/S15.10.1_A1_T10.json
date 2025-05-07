@@ -36,7 +36,9 @@
                     "start": 304,
                     "end": 357,
                     "value": "#1.1: new RegExp(\"++a\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"++a\") throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(\"++a\") throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -59,7 +61,9 @@
                           "start": 372,
                           "end": 377,
                           "value": "++a",
-                          "raw": "\"++a\""
+                          "raw": "\"++a\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -136,14 +140,18 @@
                     "start": 450,
                     "end": 454,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 460,
                     "end": 536,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

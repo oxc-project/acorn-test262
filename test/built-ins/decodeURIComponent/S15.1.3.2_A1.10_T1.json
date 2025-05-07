@@ -23,7 +23,9 @@
             "start": 385,
             "end": 389,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -59,14 +61,18 @@
                     "start": 411,
                     "end": 415,
                     "value": 0,
-                    "raw": "0x00"
+                    "raw": "0x00",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 417,
                     "end": 421,
                     "value": 47,
-                    "raw": "0x2F"
+                    "raw": "0x2F",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -80,14 +86,18 @@
                     "start": 427,
                     "end": 431,
                     "value": 58,
-                    "raw": "0x3A"
+                    "raw": "0x3A",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 433,
                     "end": 437,
                     "value": 64,
-                    "raw": "0x40"
+                    "raw": "0x40",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -101,14 +111,18 @@
                     "start": 443,
                     "end": 447,
                     "value": 71,
-                    "raw": "0x47"
+                    "raw": "0x47",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 449,
                     "end": 453,
                     "value": 96,
-                    "raw": "0x60"
+                    "raw": "0x60",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -122,14 +136,18 @@
                     "start": 459,
                     "end": 463,
                     "value": 103,
-                    "raw": "0x67"
+                    "raw": "0x67",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 465,
                     "end": 471,
                     "value": 65535,
-                    "raw": "0xFFFF"
+                    "raw": "0xFFFF",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -163,7 +181,9 @@
               "start": 494,
               "end": 495,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -265,7 +285,9 @@
                       "start": 572,
                       "end": 573,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -313,7 +335,9 @@
                   "start": 603,
                   "end": 604,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -370,7 +394,9 @@
                                 "start": 654,
                                 "end": 660,
                                 "value": "%C0%",
-                                "raw": "\"%C0%\""
+                                "raw": "\"%C0%\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -437,7 +463,9 @@
                             "start": 716,
                             "end": 721,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -495,7 +523,9 @@
                               "start": 779,
                               "end": 783,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "consequent": {
@@ -523,7 +553,9 @@
                                     "start": 804,
                                     "end": 809,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -562,7 +594,9 @@
           "start": 847,
           "end": 851,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -590,7 +624,9 @@
                   "start": 880,
                   "end": 1014,
                   "value": "#1: If B = 110xxxxx (n = 2) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError",
-                  "raw": "'#1: If B = 110xxxxx (n = 2) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError'"
+                  "raw": "'#1: If B = 110xxxxx (n = 2) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

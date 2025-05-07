@@ -126,7 +126,9 @@
                       "start": 497,
                       "end": 501,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

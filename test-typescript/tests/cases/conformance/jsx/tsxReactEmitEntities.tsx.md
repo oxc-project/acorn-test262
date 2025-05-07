@@ -369,7 +369,9 @@ __ESTREE_TEST__:PASS:
                 "start": 356,
                 "end": 380,
                 "raw": "\"&#0123;&hellip;&#x7D;\\\"",
-                "value": "{…}\\"
+                "value": "{…}\\",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -429,7 +431,9 @@ __ESTREE_TEST__:PASS:
                   "start": 503,
                   "end": 528,
                   "raw": "\"&#0123;&hellip;&#x7D;\\\"\"",
-                  "value": "&#0123;&hellip;&#x7D;\""
+                  "value": "&#0123;&hellip;&#x7D;\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -486,7 +490,9 @@ __ESTREE_TEST__:PASS:
                 "start": 575,
                 "end": 578,
                 "raw": "'\"'",
-                "value": "\""
+                "value": "\"",
+                "regex": null,
+                "bigint": null
               }
             }
           ],

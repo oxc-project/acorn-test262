@@ -23,7 +23,9 @@
             "start": 336,
             "end": 339,
             "value": "h",
-            "raw": "\"h\""
+            "raw": "\"h\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 352,
             "end": 355,
             "value": "H",
-            "raw": "\"H\""
+            "raw": "\"H\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -167,7 +171,9 @@
                     "start": 444,
                     "end": 546,
                     "value": "#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: ",
-                    "raw": "'#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: '"
+                    "raw": "'#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

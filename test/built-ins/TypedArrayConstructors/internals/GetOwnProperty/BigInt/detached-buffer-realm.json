@@ -179,7 +179,9 @@
                             "start": 1126,
                             "end": 1127,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -288,7 +290,9 @@
                             "start": 1228,
                             "end": 1229,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -304,7 +308,9 @@
                         "start": 1251,
                         "end": 1327,
                         "value": "Object.getOwnPropertyDescriptor(\"new OtherTA(1)\", 0) must return undefined",
-                        "raw": "'Object.getOwnPropertyDescriptor(\"new OtherTA(1)\", 0) must return undefined'"
+                        "raw": "'Object.getOwnPropertyDescriptor(\"new OtherTA(1)\", 0) must return undefined'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

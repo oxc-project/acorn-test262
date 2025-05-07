@@ -30,7 +30,9 @@ __ESTREE_TEST__:PASS:
                   "start": 73,
                   "end": 76,
                   "raw": "100",
-                  "value": 100
+                  "value": 100,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -153,7 +155,9 @@ __ESTREE_TEST__:PASS:
                   "start": 155,
                   "end": 158,
                   "raw": "100",
-                  "value": 100
+                  "value": 100,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -303,7 +307,9 @@ __ESTREE_TEST__:PASS:
                   "start": 248,
                   "end": 251,
                   "raw": "100",
-                  "value": 100
+                  "value": 100,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -441,7 +447,9 @@ __ESTREE_TEST__:PASS:
                   "start": 341,
                   "end": 344,
                   "raw": "100",
-                  "value": 100
+                  "value": 100,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -906,7 +914,9 @@ __ESTREE_TEST__:PASS:
                     "start": 822,
                     "end": 823,
                     "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -1035,7 +1045,9 @@ __ESTREE_TEST__:PASS:
                   "start": 690,
                   "end": 691,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -1149,7 +1161,9 @@ __ESTREE_TEST__:PASS:
                 "start": 586,
                 "end": 587,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           }

@@ -59,7 +59,9 @@
                           "start": 479,
                           "end": 488,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -194,7 +196,9 @@
               "start": 677,
               "end": 693,
               "value": "ABBABABAB",
-              "raw": "\"ABB\\u0041BABAB\""
+              "raw": "\"ABB\\u0041BABAB\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -227,7 +231,9 @@
           "start": 725,
           "end": 726,
           "value": 7,
-          "raw": "7"
+          "raw": "7",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -259,7 +265,9 @@
                     "start": 755,
                     "end": 942,
                     "value": "#1: var __obj = {toString:function(){return \"AB\";}}; var __obj2 = {valueOf:function(){return {};},toString:function(){}}; \"ABB\\u0041BABAB\".lastIndexOf(__obj, __obj2)===7. Actual: ",
-                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return {};},toString:function(){}}; \"ABB\\\\u0041BABAB\".lastIndexOf(__obj, __obj2)===7. Actual: '"
+                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return {};},toString:function(){}}; \"ABB\\\\u0041BABAB\".lastIndexOf(__obj, __obj2)===7. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -279,7 +287,9 @@
                           "start": 946,
                           "end": 962,
                           "value": "ABBABABAB",
-                          "raw": "\"ABB\\u0041BABAB\""
+                          "raw": "\"ABB\\u0041BABAB\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",

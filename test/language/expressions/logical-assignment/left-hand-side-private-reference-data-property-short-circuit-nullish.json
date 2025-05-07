@@ -42,7 +42,9 @@
                   "start": 1615,
                   "end": 1660,
                   "value": "The right-hand side should not be evaluated",
-                  "raw": "\"The right-hand side should not be evaluated\""
+                  "raw": "\"The right-hand side should not be evaluated\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -83,7 +85,9 @@
               "start": 1687,
               "end": 1688,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -306,14 +310,18 @@
             "start": 1867,
             "end": 1868,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1870,
             "end": 1929,
             "value": "The expression should evaluate to the short-circuit value",
-            "raw": "\"The expression should evaluate to the short-circuit value\""
+            "raw": "\"The expression should evaluate to the short-circuit value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

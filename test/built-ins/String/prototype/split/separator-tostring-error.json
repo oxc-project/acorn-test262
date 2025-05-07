@@ -72,7 +72,9 @@
                   "start": 380,
                   "end": 382,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -148,7 +150,9 @@
                     "start": 444,
                     "end": 461,
                     "value": "ExpectedError: ",
-                    "raw": "\"ExpectedError: \""
+                    "raw": "\"ExpectedError: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -330,7 +334,9 @@
                         "start": 637,
                         "end": 642,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -353,7 +359,9 @@
                         "start": 673,
                         "end": 674,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -367,7 +375,9 @@
             "start": 680,
             "end": 762,
             "value": "ToString should be called on the separator before checking if the limit is zero.",
-            "raw": "'ToString should be called on the separator before checking if the limit is zero.'"
+            "raw": "'ToString should be called on the separator before checking if the limit is zero.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

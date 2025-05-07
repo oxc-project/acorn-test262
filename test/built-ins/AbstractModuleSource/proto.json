@@ -62,7 +62,9 @@
             "start": 528,
             "end": 538,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +168,9 @@
             "start": 635,
             "end": 722,
             "value": "Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`",
-            "raw": "'Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`'"
+            "raw": "'Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

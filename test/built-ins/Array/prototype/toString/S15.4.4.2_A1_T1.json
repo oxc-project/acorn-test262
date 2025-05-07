@@ -125,7 +125,9 @@
                     "start": 482,
                     "end": 542,
                     "value": "#1.1: x = new Array(); x.toString() === x.join(). Actual: ",
-                    "raw": "'#1.1: x = new Array(); x.toString() === x.join(). Actual: '"
+                    "raw": "'#1.1: x = new Array(); x.toString() === x.join(). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -210,7 +212,9 @@
                 "start": 594,
                 "end": 596,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -242,7 +246,9 @@
                           "start": 627,
                           "end": 681,
                           "value": "#1.2: x = new Array(); x.toString() === \"\". Actual: ",
-                          "raw": "'#1.2: x = new Array(); x.toString() === \"\". Actual: '"
+                          "raw": "'#1.2: x = new Array(); x.toString() === \"\". Actual: '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -334,7 +340,9 @@
             "start": 718,
             "end": 719,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -344,7 +352,9 @@
           "start": 723,
           "end": 724,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -381,7 +391,9 @@
           "start": 737,
           "end": 738,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -476,7 +488,9 @@
                     "start": 798,
                     "end": 873,
                     "value": "#2.1: x = []; x[0] = 1; x.length = 0; x.toString() === x.join(). Actual: ",
-                    "raw": "'#2.1: x = []; x[0] = 1; x.length = 0; x.toString() === x.join(). Actual: '"
+                    "raw": "'#2.1: x = []; x[0] = 1; x.length = 0; x.toString() === x.join(). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -561,7 +575,9 @@
                 "start": 925,
                 "end": 927,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -593,7 +609,9 @@
                           "start": 958,
                           "end": 1027,
                           "value": "#2.2: x = []; x[0] = 1; x.length = 0; x.toString() === \"\". Actual: ",
-                          "raw": "'#2.2: x = []; x[0] = 1; x.length = 0; x.toString() === \"\". Actual: '"
+                          "raw": "'#2.2: x = []; x[0] = 1; x.length = 0; x.toString() === \"\". Actual: '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

@@ -238,7 +238,9 @@
             "start": 1219,
             "end": 1220,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "UnaryExpression",
@@ -251,7 +253,9 @@
               "start": 1223,
               "end": 1224,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -310,7 +314,9 @@
             "start": 1258,
             "end": 1259,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +365,9 @@
               "start": 1284,
               "end": 1285,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -369,7 +377,9 @@
             "start": 1288,
             "end": 1289,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

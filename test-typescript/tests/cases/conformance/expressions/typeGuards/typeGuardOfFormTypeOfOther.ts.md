@@ -726,7 +726,9 @@ __ESTREE_TEST__:PASS:
           "start": 628,
           "end": 636,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -846,7 +848,9 @@ __ESTREE_TEST__:PASS:
           "start": 733,
           "end": 741,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -966,7 +970,9 @@ __ESTREE_TEST__:PASS:
           "start": 840,
           "end": 848,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1090,7 +1096,9 @@ __ESTREE_TEST__:PASS:
             "start": 949,
             "end": 957,
             "raw": "\"Object\"",
-            "value": "Object"
+            "value": "Object",
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": {
             "type": "TSStringKeyword",
@@ -1246,7 +1254,9 @@ __ESTREE_TEST__:PASS:
           "start": 1153,
           "end": 1161,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1366,7 +1376,9 @@ __ESTREE_TEST__:PASS:
           "start": 1537,
           "end": 1545,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1486,7 +1498,9 @@ __ESTREE_TEST__:PASS:
           "start": 1642,
           "end": 1650,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1606,7 +1620,9 @@ __ESTREE_TEST__:PASS:
           "start": 1748,
           "end": 1756,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1756,7 +1772,9 @@ __ESTREE_TEST__:PASS:
           "start": 1866,
           "end": 1874,
           "raw": "\"Object\"",
-          "value": "Object"
+          "value": "Object",
+          "regex": null,
+          "bigint": null
         }
       }
     }

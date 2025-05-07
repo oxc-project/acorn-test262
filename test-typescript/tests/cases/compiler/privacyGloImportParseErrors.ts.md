@@ -665,7 +665,9 @@ __ESTREE_TEST__:PASS:
                 "start": 430,
                 "end": 444,
                 "raw": "\"m1_M3_public\"",
-                "value": "m1_M3_public"
+                "value": "m1_M3_public",
+                "regex": null,
+                "bigint": null
               }
             },
             "exportKind": "type",
@@ -883,7 +885,9 @@ __ESTREE_TEST__:PASS:
               "start": 606,
               "end": 621,
               "raw": "\"m1_M4_private\"",
-              "value": "m1_M4_private"
+              "value": "m1_M4_private",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -1873,7 +1877,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1848,
                 "end": 1862,
                 "raw": "\"m1_M3_public\"",
-                "value": "m1_M3_public"
+                "value": "m1_M3_public",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -2358,7 +2364,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2382,
                 "end": 2397,
                 "raw": "\"m1_M4_private\"",
-                "value": "m1_M4_private"
+                "value": "m1_M4_private",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -2914,7 +2922,9 @@ __ESTREE_TEST__:PASS:
                   "start": 3020,
                   "end": 3034,
                   "raw": "\"m1_M3_public\"",
-                  "value": "m1_M3_public"
+                  "value": "m1_M3_public",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -2950,7 +2960,9 @@ __ESTREE_TEST__:PASS:
                   "start": 3079,
                   "end": 3094,
                   "raw": "\"m1_M4_private\"",
-                  "value": "m1_M4_private"
+                  "value": "m1_M4_private",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -3397,7 +3409,9 @@ __ESTREE_TEST__:PASS:
         "start": 3272,
         "end": 3287,
         "raw": "\"glo_M2_public\"",
-        "value": "glo_M2_public"
+        "value": "glo_M2_public",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -3866,7 +3880,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3952,
                 "end": 3967,
                 "raw": "\"glo_M2_public\"",
-                "value": "glo_M2_public"
+                "value": "glo_M2_public",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4311,7 +4327,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4448,
                       "end": 4463,
                       "raw": "\"glo_M2_public\"",
-                      "value": "glo_M2_public"
+                      "value": "glo_M2_public",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -4371,7 +4389,9 @@ __ESTREE_TEST__:PASS:
                             "start": 4578,
                             "end": 4593,
                             "raw": "\"glo_M2_public\"",
-                            "value": "glo_M2_public"
+                            "value": "glo_M2_public",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -4438,7 +4458,9 @@ __ESTREE_TEST__:PASS:
         "start": 3421,
         "end": 3440,
         "raw": "\"use_glo_M1_public\"",
-        "value": "use_glo_M1_public"
+        "value": "use_glo_M1_public",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4478,7 +4500,9 @@ __ESTREE_TEST__:PASS:
                     "start": 4745,
                     "end": 4750,
                     "raw": "\"abc\"",
-                    "value": "abc"
+                    "value": "abc",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -4523,7 +4547,9 @@ __ESTREE_TEST__:PASS:
                     "start": 4801,
                     "end": 4807,
                     "raw": "\"abc2\"",
-                    "value": "abc2"
+                    "value": "abc2",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -4559,7 +4585,9 @@ __ESTREE_TEST__:PASS:
               "start": 4837,
               "end": 4843,
               "raw": "\"abc3\"",
-              "value": "abc3"
+              "value": "abc3",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -4571,7 +4599,9 @@ __ESTREE_TEST__:PASS:
         "start": 4684,
         "end": 4703,
         "raw": "\"anotherParseError\"",
-        "value": "anotherParseError"
+        "value": "anotherParseError",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -4606,7 +4636,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4891,
                 "end": 4910,
                 "raw": "\"use_glo_M1_public\"",
-                "value": "use_glo_M1_public"
+                "value": "use_glo_M1_public",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4643,7 +4675,9 @@ __ESTREE_TEST__:PASS:
                         "start": 4945,
                         "end": 4947,
                         "raw": "10",
-                        "value": 10
+                        "value": 10,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -4673,7 +4707,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4977,
                       "end": 4996,
                       "raw": "\"use_glo_M1_public\"",
-                      "value": "use_glo_M1_public"
+                      "value": "use_glo_M1_public",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

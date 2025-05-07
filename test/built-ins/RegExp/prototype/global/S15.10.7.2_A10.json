@@ -98,7 +98,9 @@
                 "start": 395,
                 "end": 403,
                 "value": "global",
-                "raw": "'global'"
+                "raw": "'global'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 406,
             "end": 410,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 462,
             "value": "__re.hasOwnProperty('global') must return true",
-            "raw": "'__re.hasOwnProperty(\\'global\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'global\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -145,7 +151,8 @@
             "regex": {
               "pattern": "^|^",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -215,21 +222,27 @@
             "start": 546,
             "end": 554,
             "value": "global",
-            "raw": "\"global\""
+            "raw": "\"global\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 564,
             "value": "global",
-            "raw": "\"global\""
+            "raw": "\"global\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 575,
             "value": "shifted",
-            "raw": "\"shifted\""
+            "raw": "\"shifted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +306,9 @@
             "start": 620,
             "end": 690,
             "value": "The value of __sample.global is expected to equal the value of __obj",
-            "raw": "'The value of __sample.global is expected to equal the value of __obj'"
+            "raw": "'The value of __sample.global is expected to equal the value of __obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

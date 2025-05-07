@@ -75,7 +75,9 @@
             "start": 628,
             "end": 638,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,7 +249,9 @@
                         "start": 817,
                         "end": 821,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -261,7 +265,9 @@
             "start": 827,
             "end": 833,
             "value": "null",
-            "raw": "'null'"
+            "raw": "'null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -360,7 +366,9 @@
                         "start": 926,
                         "end": 930,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -374,7 +382,9 @@
             "start": 936,
             "end": 942,
             "value": "true",
-            "raw": "'true'"
+            "raw": "'true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -473,7 +483,9 @@
                         "start": 1035,
                         "end": 1040,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -487,7 +499,9 @@
             "start": 1046,
             "end": 1053,
             "value": "false",
-            "raw": "'false'"
+            "raw": "'false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -586,7 +600,9 @@
                         "start": 1146,
                         "end": 1147,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -600,7 +616,9 @@
             "start": 1153,
             "end": 1161,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -699,7 +717,9 @@
                         "start": 1254,
                         "end": 1262,
                         "value": "object",
-                        "raw": "'object'"
+                        "raw": "'object'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -713,7 +733,9 @@
             "start": 1268,
             "end": 1276,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -763,7 +785,9 @@
                 "start": 1299,
                 "end": 1318,
                 "value": "registered symbol",
-                "raw": "'registered symbol'"
+                "raw": "'registered symbol'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -878,7 +902,9 @@
             "start": 1417,
             "end": 1436,
             "value": "registered symbol",
-            "raw": "'registered symbol'"
+            "raw": "'registered symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

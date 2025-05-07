@@ -12,7 +12,9 @@
         "start": 292,
         "end": 297,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "test": null,
       "update": {
@@ -20,7 +22,9 @@
         "start": 304,
         "end": 309,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "BlockStatement",

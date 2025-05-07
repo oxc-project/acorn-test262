@@ -81,7 +81,9 @@
                   "start": 427,
                   "end": 428,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -134,7 +136,9 @@
               "start": 471,
               "end": 483,
               "value": "TestString",
-              "raw": "\"TestString\""
+              "raw": "\"TestString\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -185,7 +189,9 @@
                 "start": 515,
                 "end": 527,
                 "value": "TestString",
-                "raw": "\"TestString\""
+                "raw": "\"TestString\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -194,7 +200,9 @@
             "start": 530,
             "end": 584,
             "value": "The value of actual is expected to be [\"TestString\"]",
-            "raw": "'The value of actual is expected to be [\"TestString\"]'"
+            "raw": "'The value of actual is expected to be [\"TestString\"]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -233,7 +241,9 @@
                   "start": 598,
                   "end": 599,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -286,7 +296,9 @@
               "start": 642,
               "end": 643,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -337,7 +349,9 @@
                 "start": 675,
                 "end": 676,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -346,7 +360,9 @@
             "start": 679,
             "end": 722,
             "value": "The value of actual is expected to be [1]",
-            "raw": "'The value of actual is expected to be [1]'"
+            "raw": "'The value of actual is expected to be [1]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -385,7 +401,9 @@
                   "start": 736,
                   "end": 737,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -438,7 +456,9 @@
               "start": 780,
               "end": 784,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -489,7 +509,9 @@
                 "start": 816,
                 "end": 820,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -498,7 +520,9 @@
             "start": 823,
             "end": 869,
             "value": "The value of actual is expected to be [null]",
-            "raw": "'The value of actual is expected to be [null]'"
+            "raw": "'The value of actual is expected to be [null]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -537,7 +561,9 @@
                   "start": 883,
                   "end": 884,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -590,7 +616,9 @@
               "start": 927,
               "end": 931,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -641,7 +669,9 @@
                 "start": 963,
                 "end": 967,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -650,7 +680,9 @@
             "start": 970,
             "end": 1016,
             "value": "The value of actual is expected to be [true]",
-            "raw": "'The value of actual is expected to be [true]'"
+            "raw": "'The value of actual is expected to be [true]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -689,7 +721,9 @@
                   "start": 1030,
                   "end": 1031,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -800,7 +834,9 @@
             "start": 1111,
             "end": 1154,
             "value": "The value of actual is expected to be [a]",
-            "raw": "'The value of actual is expected to be [a]'"
+            "raw": "'The value of actual is expected to be [a]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -839,7 +875,9 @@
                   "start": 1168,
                   "end": 1169,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -898,7 +936,9 @@
                 "start": 1217,
                 "end": 1218,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -958,7 +998,9 @@
             "start": 1262,
             "end": 1313,
             "value": "The value of actual is expected to be [undefined]",
-            "raw": "'The value of actual is expected to be [undefined]'"
+            "raw": "'The value of actual is expected to be [undefined]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

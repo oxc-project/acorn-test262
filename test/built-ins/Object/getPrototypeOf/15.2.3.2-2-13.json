@@ -75,7 +75,9 @@
             "start": 330,
             "end": 365,
             "value": "Object.getPrototypeOf(RangeError)",
-            "raw": "'Object.getPrototypeOf(RangeError)'"
+            "raw": "'Object.getPrototypeOf(RangeError)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

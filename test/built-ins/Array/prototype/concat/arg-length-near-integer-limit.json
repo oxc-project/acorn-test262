@@ -69,7 +69,9 @@
                   "start": 814,
                   "end": 815,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -159,7 +161,9 @@
           "start": 914,
           "end": 918,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -257,7 +261,9 @@
             "start": 1006,
             "end": 1077,
             "value": "[].concat(spreadableHasPoisonedIndex) throws a Test262Error exception",
-            "raw": "'[].concat(spreadableHasPoisonedIndex) throws a Test262Error exception'"
+            "raw": "'[].concat(spreadableHasPoisonedIndex) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

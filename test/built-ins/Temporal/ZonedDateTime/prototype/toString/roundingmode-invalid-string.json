@@ -48,6 +48,7 @@
                 "end": 377,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 379,
                 "end": 384,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -98,49 +101,63 @@
             "start": 415,
             "end": 429,
             "value": "other string",
-            "raw": "\"other string\""
+            "raw": "\"other string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 437,
             "value": "cile",
-            "raw": "\"cile\""
+            "raw": "\"cile\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 439,
             "end": 445,
             "value": "CEIL",
-            "raw": "\"CEIL\""
+            "raw": "\"CEIL\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 458,
             "value": "ceıl",
-            "raw": "\"ce\\u0131l\""
+            "raw": "\"ce\\u0131l\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 466,
             "value": "auto",
-            "raw": "\"auto\""
+            "raw": "\"auto\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 480,
             "value": "halfexpand",
-            "raw": "\"halfexpand\""
+            "raw": "\"halfexpand\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 491,
             "value": "floor\u0000",
-            "raw": "\"floor\\0\""
+            "raw": "\"floor\\0\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -239,7 +256,9 @@
                               "start": 564,
                               "end": 577,
                               "value": "microsecond",
-                              "raw": "\"microsecond\""
+                              "raw": "\"microsecond\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },

@@ -28,21 +28,27 @@
                 "start": 302,
                 "end": 306,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 314,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 331,
                 "value": "some string",
-                "raw": "\"some string\""
+                "raw": "\"some string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -62,7 +68,9 @@
                 "start": 347,
                 "end": 348,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -70,6 +78,7 @@
                 "end": 354,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             ]
@@ -217,7 +226,9 @@
                               "start": 459,
                               "end": 463,
                               "value": 1976,
-                              "raw": "1976"
+                              "raw": "1976",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -239,7 +250,9 @@
                               "start": 472,
                               "end": 474,
                               "value": 11,
-                              "raw": "11"
+                              "raw": "11",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -261,7 +274,9 @@
                               "start": 481,
                               "end": 483,
                               "value": 18,
-                              "raw": "18"
+                              "raw": "18",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -432,21 +447,27 @@
                             "start": 631,
                             "end": 635,
                             "value": 1976,
-                            "raw": "1976"
+                            "raw": "1976",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 637,
                             "end": 639,
                             "value": 11,
-                            "raw": "11"
+                            "raw": "11",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 641,
                             "end": 643,
                             "value": 18,
-                            "raw": "18"
+                            "raw": "18",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -465,7 +486,9 @@
                   "start": 658,
                   "end": 710,
                   "value": "TypeError thrown before cloning PlainDate instance",
-                  "raw": "\"TypeError thrown before cloning PlainDate instance\""
+                  "raw": "\"TypeError thrown before cloning PlainDate instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -581,6 +604,7 @@
                             "end": 799,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {
@@ -588,7 +612,9 @@
                             "start": 801,
                             "end": 806,
                             "value": "UTC",
-                            "raw": "\"UTC\""
+                            "raw": "\"UTC\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -607,7 +633,9 @@
                   "start": 821,
                   "end": 880,
                   "value": "TypeError thrown before converting ZonedDateTime instance",
-                  "raw": "\"TypeError thrown before converting ZonedDateTime instance\""
+                  "raw": "\"TypeError thrown before converting ZonedDateTime instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -722,21 +750,27 @@
                             "start": 967,
                             "end": 971,
                             "value": 1976,
-                            "raw": "1976"
+                            "raw": "1976",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 973,
                             "end": 975,
                             "value": 11,
-                            "raw": "11"
+                            "raw": "11",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 977,
                             "end": 979,
                             "value": 18,
-                            "raw": "18"
+                            "raw": "18",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -755,7 +789,9 @@
                   "start": 994,
                   "end": 1053,
                   "value": "TypeError thrown before converting PlainDateTime instance",
-                  "raw": "\"TypeError thrown before converting PlainDateTime instance\""
+                  "raw": "\"TypeError thrown before converting PlainDateTime instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -846,7 +882,9 @@
                         "start": 1114,
                         "end": 1127,
                         "value": "1976-11-18Z",
-                        "raw": "\"1976-11-18Z\""
+                        "raw": "\"1976-11-18Z\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -863,7 +901,9 @@
                   "start": 1141,
                   "end": 1193,
                   "value": "Invalid string processed before throwing TypeError",
-                  "raw": "\"Invalid string processed before throwing TypeError\""
+                  "raw": "\"Invalid string processed before throwing TypeError\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

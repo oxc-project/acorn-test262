@@ -151,7 +151,9 @@ __ESTREE_TEST__:PASS:
                         "start": 97,
                         "end": 98,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "-",
                       "prefix": true
@@ -185,7 +187,9 @@ __ESTREE_TEST__:PASS:
                       "start": 115,
                       "end": 117,
                       "raw": "12",
-                      "value": 12
+                      "value": 12,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -333,7 +337,9 @@ __ESTREE_TEST__:PASS:
                 "start": 259,
                 "end": 271,
                 "raw": "\"capitalism\"",
-                "value": "capitalism"
+                "value": "capitalism",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

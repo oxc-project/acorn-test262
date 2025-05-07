@@ -88,7 +88,9 @@
             "start": 250,
             "end": 295,
             "value": "Math.sinh produces incorrect output for NaN",
-            "raw": "\"Math.sinh produces incorrect output for NaN\""
+            "raw": "\"Math.sinh produces incorrect output for NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +194,9 @@
             "start": 380,
             "end": 453,
             "value": "Math.sinh should produce negative infinity for Number.NEGATIVE_INFINITY",
-            "raw": "\"Math.sinh should produce negative infinity for Number.NEGATIVE_INFINITY\""
+            "raw": "\"Math.sinh should produce negative infinity for Number.NEGATIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +300,9 @@
             "start": 538,
             "end": 611,
             "value": "Math.sinh should produce positive infinity for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.sinh should produce positive infinity for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.sinh should produce positive infinity for Number.POSITIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -339,7 +345,9 @@
               "start": 631,
               "end": 632,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -377,7 +385,9 @@
                     "start": 646,
                     "end": 647,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -408,7 +418,9 @@
             "start": 678,
             "end": 714,
             "value": "Math.sinh should produce -0 for -0",
-            "raw": "\"Math.sinh should produce -0 for -0\""
+            "raw": "\"Math.sinh should produce -0 for -0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,7 +463,9 @@
               "start": 734,
               "end": 735,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -483,7 +497,9 @@
                   "start": 748,
                   "end": 749,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -513,7 +529,9 @@
             "start": 780,
             "end": 816,
             "value": "Math.sinh should produce +0 for +0",
-            "raw": "\"Math.sinh should produce +0 for +0\""
+            "raw": "\"Math.sinh should produce +0 for +0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

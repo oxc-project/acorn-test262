@@ -76,6 +76,7 @@
                                 "end": 739,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ]
@@ -149,7 +150,9 @@
                             "start": 782,
                             "end": 786,
                             "value": "-0",
-                            "raw": "'-0'"
+                            "raw": "'-0'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
@@ -157,6 +160,7 @@
                             "end": 790,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         ],
@@ -167,14 +171,18 @@
                         "start": 793,
                         "end": 797,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 799,
                         "end": 856,
                         "value": "Reflect.set(\"new TA([42n])\", \"-0\", 1n) must return true",
-                        "raw": "'Reflect.set(\"new TA([42n])\", \"-0\", 1n) must return true'"
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"-0\", 1n) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -237,7 +245,9 @@
                             "start": 900,
                             "end": 904,
                             "value": "-0",
-                            "raw": "'-0'"
+                            "raw": "'-0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -247,14 +257,18 @@
                         "start": 907,
                         "end": 912,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 914,
                         "end": 961,
                         "value": "sample.hasOwnProperty(\"-0\") must return false",
-                        "raw": "'sample.hasOwnProperty(\"-0\") must return false'"
+                        "raw": "'sample.hasOwnProperty(\"-0\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

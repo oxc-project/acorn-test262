@@ -48,6 +48,7 @@
                 "end": 377,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 379,
                 "end": 384,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -85,14 +88,18 @@
                 "start": 389,
                 "end": 400,
                 "value": "constrain",
-                "raw": "\"constrain\""
+                "raw": "\"constrain\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 410,
                 "value": "reject",
-                "raw": "\"reject\""
+                "raw": "\"reject\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -217,7 +224,9 @@
                                     "start": 501,
                                     "end": 502,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -245,7 +254,9 @@
                                       "start": 514,
                                       "end": 516,
                                       "value": 30,
-                                      "raw": "30"
+                                      "raw": "30",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "kind": "init"

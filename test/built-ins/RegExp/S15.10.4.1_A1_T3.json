@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "[a-b]",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -76,7 +77,9 @@
                   "start": 499,
                   "end": 500,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -156,7 +159,9 @@
             "start": 559,
             "end": 636,
             "value": "The value of __re.source is expected to equal the value of __pattern.source",
-            "raw": "'The value of __re.source is expected to equal the value of __pattern.source'"
+            "raw": "'The value of __re.source is expected to equal the value of __pattern.source'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -233,7 +238,9 @@
             "start": 702,
             "end": 785,
             "value": "The value of __re.multiline is expected to equal the value of __pattern.multiline",
-            "raw": "'The value of __re.multiline is expected to equal the value of __pattern.multiline'"
+            "raw": "'The value of __re.multiline is expected to equal the value of __pattern.multiline'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -310,7 +317,9 @@
             "start": 845,
             "end": 922,
             "value": "The value of __re.global is expected to equal the value of __pattern.global",
-            "raw": "'The value of __re.global is expected to equal the value of __pattern.global'"
+            "raw": "'The value of __re.global is expected to equal the value of __pattern.global'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -387,7 +396,9 @@
             "start": 990,
             "end": 1075,
             "value": "The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase",
-            "raw": "'The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase'"
+            "raw": "'The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

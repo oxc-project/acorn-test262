@@ -79,7 +79,9 @@
                   "start": 593,
                   "end": 606,
                   "value": "ShadowRealm",
-                  "raw": "'ShadowRealm'"
+                  "raw": "'ShadowRealm'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -101,7 +103,9 @@
                   "start": 624,
                   "end": 629,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -123,7 +127,9 @@
                   "start": 645,
                   "end": 650,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -145,7 +151,9 @@
                   "start": 670,
                   "end": 674,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

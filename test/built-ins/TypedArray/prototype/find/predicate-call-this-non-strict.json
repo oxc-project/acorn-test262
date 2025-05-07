@@ -94,7 +94,9 @@
                             "start": 1192,
                             "end": 1193,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -238,7 +240,9 @@
                         "start": 1294,
                         "end": 1341,
                         "value": "without thisArg, predicate this is the global",
-                        "raw": "\"without thisArg, predicate this is the global\""
+                        "raw": "\"without thisArg, predicate this is the global\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -264,7 +268,9 @@
                       "start": 1356,
                       "end": 1360,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -390,7 +396,9 @@
                         "start": 1456,
                         "end": 1512,
                         "value": "predicate this is the global when thisArg is undefined",
-                        "raw": "\"predicate this is the global when thisArg is undefined\""
+                        "raw": "\"predicate this is the global when thisArg is undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -441,7 +449,9 @@
                       "start": 1541,
                       "end": 1545,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -567,7 +577,9 @@
                         "start": 1633,
                         "end": 1669,
                         "value": "thisArg becomes the predicate this",
-                        "raw": "\"thisArg becomes the predicate this\""
+                        "raw": "\"thisArg becomes the predicate this\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

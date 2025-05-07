@@ -41,7 +41,9 @@
                   "start": 236,
                   "end": 237,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 251,
                   "end": 252,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 267,
                   "end": 268,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -221,14 +227,18 @@
                           "start": 371,
                           "end": 372,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 374,
                           "end": 414,
                           "value": "The value of `arguments.length` is `2`",
-                          "raw": "\"The value of `arguments.length` is `2`\""
+                          "raw": "\"The value of `arguments.length` is `2`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -277,7 +287,9 @@
                             "start": 448,
                             "end": 449,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -287,14 +299,18 @@
                           "start": 452,
                           "end": 453,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 455,
                           "end": 491,
                           "value": "The value of `arguments[0]` is `1`",
-                          "raw": "\"The value of `arguments[0]` is `1`\""
+                          "raw": "\"The value of `arguments[0]` is `1`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -343,7 +359,9 @@
                             "start": 525,
                             "end": 526,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -353,14 +371,18 @@
                           "start": 529,
                           "end": 530,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 532,
                           "end": 568,
                           "value": "The value of `arguments[1]` is `2`",
-                          "raw": "\"The value of `arguments[1]` is `2`\""
+                          "raw": "\"The value of `arguments[1]` is `2`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -404,14 +426,18 @@
                 "start": 595,
                 "end": 596,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 598,
                 "end": 599,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -550,14 +576,18 @@
                           "start": 722,
                           "end": 723,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 725,
                           "end": 765,
                           "value": "The value of `arguments.length` is `2`",
-                          "raw": "\"The value of `arguments.length` is `2`\""
+                          "raw": "\"The value of `arguments.length` is `2`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -606,7 +636,9 @@
                             "start": 799,
                             "end": 800,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -616,14 +648,18 @@
                           "start": 803,
                           "end": 804,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 806,
                           "end": 842,
                           "value": "The value of `arguments[0]` is `3`",
-                          "raw": "\"The value of `arguments[0]` is `3`\""
+                          "raw": "\"The value of `arguments[0]` is `3`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -672,7 +708,9 @@
                             "start": 876,
                             "end": 877,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -682,14 +720,18 @@
                           "start": 880,
                           "end": 881,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 883,
                           "end": 919,
                           "value": "The value of `arguments[1]` is `4`",
-                          "raw": "\"The value of `arguments[1]` is `4`\""
+                          "raw": "\"The value of `arguments[1]` is `4`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -714,14 +756,18 @@
                           "start": 932,
                           "end": 933,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 935,
                           "end": 936,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -765,14 +811,18 @@
                 "start": 967,
                 "end": 968,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 970,
                 "end": 971,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -832,14 +882,18 @@
             "start": 1008,
             "end": 1009,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1089,
             "value": "The value of `Subclass.length` is `0`, because there are 0 formal parameters",
-            "raw": "\"The value of `Subclass.length` is `0`, because there are 0 formal parameters\""
+            "raw": "\"The value of `Subclass.length` is `0`, because there are 0 formal parameters\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -989,14 +1043,18 @@
                           "start": 1218,
                           "end": 1219,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1221,
                           "end": 1261,
                           "value": "The value of `arguments.length` is `2`",
-                          "raw": "\"The value of `arguments.length` is `2`\""
+                          "raw": "\"The value of `arguments.length` is `2`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1045,7 +1103,9 @@
                             "start": 1295,
                             "end": 1296,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -1055,14 +1115,18 @@
                           "start": 1299,
                           "end": 1300,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1302,
                           "end": 1338,
                           "value": "The value of `arguments[0]` is `3`",
-                          "raw": "\"The value of `arguments[0]` is `3`\""
+                          "raw": "\"The value of `arguments[0]` is `3`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1111,7 +1175,9 @@
                             "start": 1372,
                             "end": 1373,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -1121,14 +1187,18 @@
                           "start": 1376,
                           "end": 1377,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1379,
                           "end": 1415,
                           "value": "The value of `arguments[1]` is `4`",
-                          "raw": "\"The value of `arguments[1]` is `4`\""
+                          "raw": "\"The value of `arguments[1]` is `4`\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1153,14 +1223,18 @@
                           "start": 1428,
                           "end": 1429,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1431,
                           "end": 1432,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1204,14 +1278,18 @@
                 "start": 1465,
                 "end": 1466,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1468,
                 "end": 1469,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1271,14 +1349,18 @@
             "start": 1507,
             "end": 1508,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1510,
             "end": 1589,
             "value": "The value of `Subclass2.length` is `2`, because there are 2 formal parameters",
-            "raw": "\"The value of `Subclass2.length` is `2`, because there are 2 formal parameters\""
+            "raw": "\"The value of `Subclass2.length` is `2`, because there are 2 formal parameters\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1336,14 +1418,18 @@
             "start": 1633,
             "end": 1634,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1636,
             "end": 1680,
             "value": "The value of `constructCounts.base` is `3`",
-            "raw": "\"The value of `constructCounts.base` is `3`\""
+            "raw": "\"The value of `constructCounts.base` is `3`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1401,14 +1487,18 @@
             "start": 1726,
             "end": 1727,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1729,
             "end": 1777,
             "value": "The value of `constructCounts.subclass` is `1`",
-            "raw": "\"The value of `constructCounts.subclass` is `1`\""
+            "raw": "\"The value of `constructCounts.subclass` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1466,14 +1556,18 @@
             "start": 1824,
             "end": 1825,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1827,
             "end": 1876,
             "value": "The value of `constructCounts.subclass2` is `1`",
-            "raw": "\"The value of `constructCounts.subclass2` is `1`\""
+            "raw": "\"The value of `constructCounts.subclass2` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

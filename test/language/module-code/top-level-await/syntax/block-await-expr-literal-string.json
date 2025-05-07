@@ -101,7 +101,9 @@
                                                                               "start": 1418,
                                                                               "end": 1420,
                                                                               "value": "",
-                                                                              "raw": "''"
+                                                                              "raw": "''",
+                                                                              "regex": null,
+                                                                              "bigint": null
                                                                             }
                                                                           }
                                                                         }

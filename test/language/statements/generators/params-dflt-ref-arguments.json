@@ -23,7 +23,9 @@
             "start": 1761,
             "end": 1762,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,7 +70,9 @@
               "start": 1790,
               "end": 1791,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -99,7 +103,9 @@
               "start": 1808,
               "end": 1809,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -156,14 +162,18 @@
                   "start": 1839,
                   "end": 1846,
                   "value": "third",
-                  "raw": "'third'"
+                  "raw": "'third'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1848,
                   "end": 1865,
                   "value": "first parameter",
-                  "raw": "'first parameter'"
+                  "raw": "'first parameter'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -208,14 +218,18 @@
                   "start": 1890,
                   "end": 1898,
                   "value": "fourth",
-                  "raw": "'fourth'"
+                  "raw": "'fourth'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1900,
                   "end": 1918,
                   "value": "second parameter",
-                  "raw": "'second parameter'"
+                  "raw": "'second parameter'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -260,14 +274,18 @@
                   "start": 1943,
                   "end": 1950,
                   "value": "third",
-                  "raw": "'third'"
+                  "raw": "'third'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1952,
                   "end": 1969,
                   "value": "third parameter",
-                  "raw": "'third parameter'"
+                  "raw": "'third parameter'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -304,7 +322,9 @@
                   "start": 1998,
                   "end": 1999,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -352,14 +372,18 @@
                 "start": 2028,
                 "end": 2035,
                 "value": "third",
-                "raw": "'third'"
+                "raw": "'third'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2037,
                 "end": 2045,
                 "value": "fourth",
-                "raw": "'fourth'"
+                "raw": "'fourth'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -416,14 +440,18 @@
             "start": 2084,
             "end": 2085,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2087,
             "end": 2128,
             "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "raw": "'generator function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

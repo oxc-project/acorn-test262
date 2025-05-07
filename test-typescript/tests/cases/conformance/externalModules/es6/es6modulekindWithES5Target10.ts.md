@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 24,
           "raw": "\"mod\"",
-          "value": "mod"
+          "value": "mod",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -24,7 +24,9 @@
               "start": 394,
               "end": 409,
               "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "raw": "\"Hello, WoRlD!\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -44,7 +46,9 @@
           "start": 434,
           "end": 449,
           "value": "HELLO, WORLD!",
-          "raw": "\"HELLO, WORLD!\""
+          "raw": "\"HELLO, WORLD!\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +80,9 @@
                     "start": 478,
                     "end": 549,
                     "value": "#1: \"Hello, WoRlD!\".toLocaleUpperCase() === \"HELLO, WORLD!\". Actual: ",
-                    "raw": "'#1: \"Hello, WoRlD!\".toLocaleUpperCase() === \"HELLO, WORLD!\". Actual: '"
+                    "raw": "'#1: \"Hello, WoRlD!\".toLocaleUpperCase() === \"HELLO, WORLD!\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -96,7 +102,9 @@
                           "start": 553,
                           "end": 568,
                           "value": "Hello, WoRlD!",
-                          "raw": "\"Hello, WoRlD!\""
+                          "raw": "\"Hello, WoRlD!\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -140,7 +148,9 @@
               "start": 770,
               "end": 785,
               "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "raw": "\"Hello, WoRlD!\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -171,7 +181,9 @@
               "start": 817,
               "end": 832,
               "value": "HELLO, WORLD!",
-              "raw": "\"HELLO, WORLD!\""
+              "raw": "\"HELLO, WORLD!\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -206,7 +218,9 @@
                     "start": 862,
                     "end": 941,
                     "value": "#2: \"Hello, WoRlD!\".toLocaleUpperCase() === String(\"HELLO, WORLD!\"). Actual: ",
-                    "raw": "'#2: \"Hello, WoRlD!\".toLocaleUpperCase() === String(\"HELLO, WORLD!\"). Actual: '"
+                    "raw": "'#2: \"Hello, WoRlD!\".toLocaleUpperCase() === String(\"HELLO, WORLD!\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -226,7 +240,9 @@
                           "start": 945,
                           "end": 960,
                           "value": "Hello, WoRlD!",
-                          "raw": "\"Hello, WoRlD!\""
+                          "raw": "\"Hello, WoRlD!\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -270,7 +286,9 @@
               "start": 1162,
               "end": 1177,
               "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "raw": "\"Hello, WoRlD!\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -301,7 +319,9 @@
               "start": 1213,
               "end": 1228,
               "value": "HELLO, WORLD!",
-              "raw": "\"HELLO, WORLD!\""
+              "raw": "\"HELLO, WORLD!\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -331,7 +351,9 @@
                   "start": 1258,
                   "end": 1330,
                   "value": "#3: \"Hello, WoRlD!\".toLocaleUpperCase() !== new String(\"HELLO, WORLD!\"",
-                  "raw": "'#3: \"Hello, WoRlD!\".toLocaleUpperCase() !== new String(\"HELLO, WORLD!\"'"
+                  "raw": "'#3: \"Hello, WoRlD!\".toLocaleUpperCase() !== new String(\"HELLO, WORLD!\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

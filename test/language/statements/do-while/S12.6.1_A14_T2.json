@@ -32,7 +32,9 @@
                   "start": 444,
                   "end": 445,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -78,7 +80,9 @@
                   "start": 489,
                   "end": 490,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -108,7 +112,9 @@
           "start": 687,
           "end": 688,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -136,7 +142,9 @@
                   "start": 716,
                   "end": 781,
                   "value": "#2: function expession inside of do-while expression is allowed",
-                  "raw": "'#2: function expession inside of do-while expression is allowed'"
+                  "raw": "'#2: function expession inside of do-while expression is allowed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

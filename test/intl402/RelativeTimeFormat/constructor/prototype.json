@@ -101,7 +101,9 @@
             "start": 866,
             "end": 953,
             "value": "Object.getPrototypeOf(Intl.RelativeTimeFormat) equals the value of Function.prototype",
-            "raw": "\"Object.getPrototypeOf(Intl.RelativeTimeFormat) equals the value of Function.prototype\""
+            "raw": "\"Object.getPrototypeOf(Intl.RelativeTimeFormat) equals the value of Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

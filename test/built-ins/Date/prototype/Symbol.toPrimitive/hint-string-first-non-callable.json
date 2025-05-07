@@ -23,7 +23,9 @@
             "start": 720,
             "end": 721,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 778,
                             "end": 779,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -109,7 +113,9 @@
                           "start": 792,
                           "end": 809,
                           "value": "valueOf test262",
-                          "raw": "'valueOf test262'"
+                          "raw": "'valueOf test262'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -135,7 +141,9 @@
                   "start": 828,
                   "end": 832,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -247,7 +255,9 @@
                 "start": 902,
                 "end": 910,
                 "value": "string",
-                "raw": "'string'"
+                "raw": "'string'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -257,14 +267,18 @@
             "start": 915,
             "end": 932,
             "value": "valueOf test262",
-            "raw": "'valueOf test262'"
+            "raw": "'valueOf test262'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 936,
             "end": 1001,
             "value": "`valueOf` is used as a fallback when `toString` is not callable",
-            "raw": "'`valueOf` is used as a fallback when `toString` is not callable'"
+            "raw": "'`valueOf` is used as a fallback when `toString` is not callable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,14 +323,18 @@
             "start": 1035,
             "end": 1036,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1038,
             "end": 1081,
             "value": "`valueOf` method was invoked exactly once",
-            "raw": "'`valueOf` method was invoked exactly once'"
+            "raw": "'`valueOf` method was invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

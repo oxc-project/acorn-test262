@@ -34,21 +34,27 @@
                 "start": 323,
                 "end": 327,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 335,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 346,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -66,7 +72,9 @@
                     "start": 357,
                     "end": 362,
                     "value": "foo",
-                    "raw": "\"foo\""
+                    "raw": "\"foo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -76,7 +84,9 @@
                 "start": 367,
                 "end": 368,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -84,6 +94,7 @@
                 "end": 374,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               },
               {
@@ -160,7 +171,9 @@
                                   "start": 438,
                                   "end": 463,
                                   "value": "should not get overflow",
-                                  "raw": "\"should not get overflow\""
+                                  "raw": "\"should not get overflow\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -235,7 +248,9 @@
                 "start": 511,
                 "end": 531,
                 "value": "15:23:30.123456789",
-                "raw": "\"15:23:30.123456789\""
+                "raw": "\"15:23:30.123456789\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -355,7 +370,9 @@
                             "start": 623,
                             "end": 624,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -375,42 +392,54 @@
                   "start": 642,
                   "end": 644,
                   "value": 14,
-                  "raw": "14"
+                  "raw": "14",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 646,
                   "end": 648,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 650,
                   "end": 652,
                   "value": 30,
-                  "raw": "30"
+                  "raw": "30",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 654,
                   "end": 657,
                   "value": 123,
-                  "raw": "123"
+                  "raw": "123",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 659,
                   "end": 662,
                   "value": 456,
-                  "raw": "456"
+                  "raw": "456",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 664,
                   "end": 667,
                   "value": 789,
-                  "raw": "789"
+                  "raw": "789",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

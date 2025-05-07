@@ -122,7 +122,9 @@ __ESTREE_TEST__:PASS:
                 "start": 90,
                 "end": 97,
                 "raw": "'Point'",
-                "value": "Point"
+                "value": "Point",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

@@ -95,7 +95,9 @@
                   "start": 686,
                   "end": 698,
                   "value": "byteLength",
-                  "raw": "'byteLength'"
+                  "raw": "'byteLength'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

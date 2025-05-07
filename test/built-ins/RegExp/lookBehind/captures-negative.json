@@ -44,7 +44,9 @@
                 "start": 1002,
                 "end": 1010,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -65,7 +67,8 @@
                 "regex": {
                   "pattern": "(?<!(^|[ab]))\\w{2}",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -80,7 +83,9 @@
                 "start": 1041,
                 "end": 1045,
                 "value": "de",
-                "raw": "\"de\""
+                "raw": "\"de\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",

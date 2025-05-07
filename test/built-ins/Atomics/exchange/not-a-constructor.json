@@ -69,14 +69,18 @@
             "start": 778,
             "end": 783,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 785,
             "end": 836,
             "value": "isConstructor(Atomics.exchange) must return false",
-            "raw": "'isConstructor(Atomics.exchange) must return false'"
+            "raw": "'isConstructor(Atomics.exchange) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

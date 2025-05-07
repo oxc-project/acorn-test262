@@ -62,14 +62,18 @@
             "start": 929,
             "end": 939,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 941,
             "end": 996,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -142,7 +146,9 @@
                               "start": 1060,
                               "end": 1091,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -245,7 +251,9 @@
                         "start": 1159,
                         "end": 1160,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
@@ -253,6 +261,7 @@
                         "end": 1164,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -260,7 +269,9 @@
                         "start": 1166,
                         "end": 1167,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -274,7 +285,9 @@
             "start": 1173,
             "end": 1237,
             "value": "`Atomics.waitAsync({}, 0, 0n, 0)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync({}, 0, 0n, 0)` throws a TypeError exception'"
+            "raw": "'`Atomics.waitAsync({}, 0, 0n, 0)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -392,7 +405,9 @@
             "start": 1332,
             "end": 1416,
             "value": "`Atomics.waitAsync({}, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync({}, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "raw": "'`Atomics.waitAsync({}, poisoned, poisoned, poisoned)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

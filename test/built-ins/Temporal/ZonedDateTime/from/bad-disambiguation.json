@@ -25,21 +25,27 @@
                 "start": 255,
                 "end": 257,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 261,
                 "end": 270,
                 "value": "EARLIER",
-                "raw": "\"EARLIER\""
+                "raw": "\"EARLIER\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 283,
                 "value": "balance",
-                "raw": "\"balance\""
+                "raw": "\"balance\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -159,7 +165,9 @@
                               "start": 376,
                               "end": 402,
                               "value": "2020-11-01T04:00[-08:00]",
-                              "raw": "\"2020-11-01T04:00[-08:00]\""
+                              "raw": "\"2020-11-01T04:00[-08:00]\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

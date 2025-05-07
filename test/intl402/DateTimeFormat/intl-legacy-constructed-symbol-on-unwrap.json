@@ -132,7 +132,9 @@
             "start": 465,
             "end": 469,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -158,7 +160,9 @@
             "start": 483,
             "end": 487,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -489,7 +493,9 @@
           "start": 874,
           "end": 878,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -543,7 +549,9 @@
                   "start": 920,
                   "end": 928,
                   "value": "symbol",
-                  "raw": "\"symbol\""
+                  "raw": "\"symbol\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -601,7 +609,9 @@
                   "start": 974,
                   "end": 1003,
                   "value": "IntlLegacyConstructedSymbol",
-                  "raw": "\"IntlLegacyConstructedSymbol\""
+                  "raw": "\"IntlLegacyConstructedSymbol\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

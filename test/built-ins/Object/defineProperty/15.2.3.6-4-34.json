@@ -67,7 +67,9 @@
             "start": 383,
             "end": 388,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 401,
                   "end": 403,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 421,
                   "end": 426,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -211,7 +217,9 @@
                         "start": 501,
                         "end": 506,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -236,7 +244,9 @@
                               "start": 521,
                               "end": 523,
                               "value": 11,
-                              "raw": "11"
+                              "raw": "11",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -258,7 +268,9 @@
                               "start": 543,
                               "end": 547,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -327,14 +339,18 @@
             "start": 587,
             "end": 589,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 603,
             "value": "arrObj.foo",
-            "raw": "'arrObj.foo'"
+            "raw": "'arrObj.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -76,6 +76,7 @@
                                 "end": 398,
                                 "value": null,
                                 "raw": "40n",
+                                "regex": null,
                                 "bigint": "40"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 403,
                                 "value": null,
                                 "raw": "41n",
+                                "regex": null,
                                 "bigint": "41"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 408,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -100,6 +103,7 @@
                                 "end": 413,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               }
                             ]
@@ -187,6 +191,7 @@
                                 "end": 474,
                                 "value": null,
                                 "raw": "40n",
+                                "regex": null,
                                 "bigint": "40"
                               },
                               {
@@ -195,6 +200,7 @@
                                 "end": 479,
                                 "value": null,
                                 "raw": "41n",
+                                "regex": null,
                                 "bigint": "41"
                               },
                               {
@@ -203,6 +209,7 @@
                                 "end": 484,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -211,6 +218,7 @@
                                 "end": 489,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               }
                             ]
@@ -223,7 +231,9 @@
                         "start": 497,
                         "end": 517,
                         "value": "start == -Infinity",
-                        "raw": "\"start == -Infinity\""
+                        "raw": "\"start == -Infinity\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -302,7 +312,9 @@
                         "start": 583,
                         "end": 602,
                         "value": "start == Infinity",
-                        "raw": "\"start == Infinity\""
+                        "raw": "\"start == Infinity\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -363,7 +375,9 @@
                                 "start": 648,
                                 "end": 649,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "UnaryExpression",
@@ -395,7 +409,9 @@
                         "start": 672,
                         "end": 690,
                         "value": "end == -Infinity",
-                        "raw": "\"end == -Infinity\""
+                        "raw": "\"end == -Infinity\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -456,7 +472,9 @@
                                 "start": 736,
                                 "end": 737,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Identifier",
@@ -478,6 +496,7 @@
                                 "end": 754,
                                 "value": null,
                                 "raw": "40n",
+                                "regex": null,
                                 "bigint": "40"
                               },
                               {
@@ -486,6 +505,7 @@
                                 "end": 759,
                                 "value": null,
                                 "raw": "41n",
+                                "regex": null,
                                 "bigint": "41"
                               },
                               {
@@ -494,6 +514,7 @@
                                 "end": 764,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -502,6 +523,7 @@
                                 "end": 769,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               }
                             ]
@@ -514,7 +536,9 @@
                         "start": 777,
                         "end": 794,
                         "value": "end == Infinity",
-                        "raw": "\"end == Infinity\""
+                        "raw": "\"end == Infinity\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

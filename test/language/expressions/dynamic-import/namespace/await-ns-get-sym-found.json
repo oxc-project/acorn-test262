@@ -50,7 +50,9 @@
                       "start": 3894,
                       "end": 3920,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -131,7 +133,9 @@
                   "start": 3976,
                   "end": 3984,
                   "value": "string",
-                  "raw": "'string'"
+                  "raw": "'string'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

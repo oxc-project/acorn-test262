@@ -76,7 +76,9 @@
             "start": 700,
             "end": 751,
             "value": "ArrayBuffer.prototype.resize is not a constructor",
-            "raw": "\"ArrayBuffer.prototype.resize is not a constructor\""
+            "raw": "\"ArrayBuffer.prototype.resize is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +115,9 @@
                 "start": 789,
                 "end": 790,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

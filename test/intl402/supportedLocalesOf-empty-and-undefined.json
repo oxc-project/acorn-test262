@@ -214,7 +214,9 @@
                         "start": 595,
                         "end": 661,
                         "value": "Supported locales differ between undefined and empty list input.",
-                        "raw": "\"Supported locales differ between undefined and empty list input.\""
+                        "raw": "\"Supported locales differ between undefined and empty list input.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -272,14 +274,18 @@
                         "start": 804,
                         "end": 805,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 807,
                         "end": 873,
                         "value": "Internal test error: Assumption about length being 0 is invalid.",
-                        "raw": "\"Internal test error: Assumption about length being 0 is invalid.\""
+                        "raw": "\"Internal test error: Assumption about length being 0 is invalid.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -29,6 +29,7 @@
                 "end": 310,
                 "value": null,
                 "raw": "957270896987654321n",
+                "regex": null,
                 "bigint": "957270896987654321"
               },
               {
@@ -36,7 +37,9 @@
                 "start": 312,
                 "end": 317,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -158,14 +161,18 @@
             "start": 424,
             "end": 433,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 470,
             "value": "calendar string should be iso8601",
-            "raw": "\"calendar string should be iso8601\""
+            "raw": "\"calendar string should be iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,14 +286,18 @@
             "start": 566,
             "end": 575,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 612,
             "value": "calendar string should be iso8601",
-            "raw": "\"calendar string should be iso8601\""
+            "raw": "\"calendar string should be iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

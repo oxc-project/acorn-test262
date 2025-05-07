@@ -101,7 +101,9 @@
             "start": 287,
             "end": 361,
             "value": "Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY",
-            "raw": "\"Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY\""
+            "raw": "\"Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,7 +207,9 @@
             "start": 447,
             "end": 521,
             "value": "Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +252,9 @@
               "start": 541,
               "end": 542,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -286,7 +292,9 @@
                     "start": 557,
                     "end": 558,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -317,7 +325,9 @@
             "start": 589,
             "end": 626,
             "value": "Math.trunc should produce -0 for -0",
-            "raw": "\"Math.trunc should produce -0 for -0\""
+            "raw": "\"Math.trunc should produce -0 for -0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -360,7 +370,9 @@
               "start": 646,
               "end": 647,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -392,7 +404,9 @@
                   "start": 661,
                   "end": 662,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -422,7 +436,9 @@
             "start": 693,
             "end": 730,
             "value": "Math.trunc should produce +0 for +0",
-            "raw": "\"Math.trunc should produce +0 for +0\""
+            "raw": "\"Math.trunc should produce +0 for +0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

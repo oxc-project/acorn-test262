@@ -36,7 +36,9 @@
                 "start": 310,
                 "end": 311,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -54,7 +56,9 @@
                 "start": 321,
                 "end": 322,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -278,7 +282,9 @@
             "start": 490,
             "end": 491,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -304,7 +310,9 @@
             "start": 501,
             "end": 502,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -330,7 +338,9 @@
             "start": 512,
             "end": 513,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -406,14 +416,18 @@
             "start": 560,
             "end": 561,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 591,
             "value": "First iteration: pre-yield",
-            "raw": "'First iteration: pre-yield'"
+            "raw": "'First iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -458,14 +472,18 @@
             "start": 614,
             "end": 615,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 617,
             "end": 646,
             "value": "First iteration: post-yield",
-            "raw": "'First iteration: post-yield'"
+            "raw": "'First iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,14 +528,18 @@
             "start": 669,
             "end": 670,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 672,
             "end": 702,
             "value": "First iteration: post-for-of",
-            "raw": "'First iteration: post-for-of'"
+            "raw": "'First iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,14 +615,18 @@
             "start": 750,
             "end": 751,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 753,
             "end": 782,
             "value": "Second iteration: pre-yield",
-            "raw": "'Second iteration: pre-yield'"
+            "raw": "'Second iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -645,14 +671,18 @@
             "start": 805,
             "end": 806,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 838,
             "value": "Second iteration: post-yield",
-            "raw": "'Second iteration: post-yield'"
+            "raw": "'Second iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -697,14 +727,18 @@
             "start": 861,
             "end": 862,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 864,
             "end": 895,
             "value": "Second iteration: post-for-of",
-            "raw": "'Second iteration: post-for-of'"
+            "raw": "'Second iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -780,14 +814,18 @@
             "start": 943,
             "end": 944,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 946,
             "end": 974,
             "value": "Third iteration: pre-yield",
-            "raw": "'Third iteration: pre-yield'"
+            "raw": "'Third iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -832,14 +870,18 @@
             "start": 997,
             "end": 998,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1000,
             "end": 1029,
             "value": "Third iteration: post-yield",
-            "raw": "'Third iteration: post-yield'"
+            "raw": "'Third iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -884,14 +926,18 @@
             "start": 1052,
             "end": 1053,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1055,
             "end": 1085,
             "value": "Third iteration: post-for-of",
-            "raw": "'Third iteration: post-for-of'"
+            "raw": "'Third iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -967,14 +1013,18 @@
             "start": 1133,
             "end": 1134,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1136,
             "end": 1165,
             "value": "Fourth iteration: pre-yield",
-            "raw": "'Fourth iteration: pre-yield'"
+            "raw": "'Fourth iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1019,14 +1069,18 @@
             "start": 1188,
             "end": 1189,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1191,
             "end": 1221,
             "value": "Fourth iteration: post-yield",
-            "raw": "'Fourth iteration: post-yield'"
+            "raw": "'Fourth iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1071,14 +1125,18 @@
             "start": 1244,
             "end": 1245,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1247,
             "end": 1278,
             "value": "Fourth iteration: post-for-of",
-            "raw": "'Fourth iteration: post-for-of'"
+            "raw": "'Fourth iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1154,14 +1212,18 @@
             "start": 1326,
             "end": 1327,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1329,
             "end": 1357,
             "value": "Fifth iteration: pre-yield",
-            "raw": "'Fifth iteration: pre-yield'"
+            "raw": "'Fifth iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1206,14 +1268,18 @@
             "start": 1380,
             "end": 1381,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1383,
             "end": 1412,
             "value": "Fifth iteration: post-yield",
-            "raw": "'Fifth iteration: post-yield'"
+            "raw": "'Fifth iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1258,14 +1324,18 @@
             "start": 1435,
             "end": 1436,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1438,
             "end": 1468,
             "value": "Fifth iteration: post-for-of",
-            "raw": "'Fifth iteration: post-for-of'"
+            "raw": "'Fifth iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

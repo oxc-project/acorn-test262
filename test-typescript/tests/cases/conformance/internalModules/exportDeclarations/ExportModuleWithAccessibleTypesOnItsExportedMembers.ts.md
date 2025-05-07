@@ -215,14 +215,18 @@ __ESTREE_TEST__:PASS:
                                 "start": 171,
                                 "end": 172,
                                 "raw": "0",
-                                "value": 0
+                                "value": 0,
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 174,
                                 "end": 175,
                                 "raw": "0",
-                                "value": 0
+                                "value": 0,
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -424,7 +428,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 354,
                                                 "end": 355,
                                                 "raw": "0",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             {
@@ -450,7 +456,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 360,
                                                 "end": 361,
                                                 "raw": "0",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           ]

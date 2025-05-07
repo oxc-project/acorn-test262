@@ -2087,7 +2087,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1492,
                 "end": 1510,
                 "raw": "\"extendMarkSchema\"",
-                "value": "extendMarkSchema"
+                "value": "extendMarkSchema",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -2118,7 +2120,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1463,
                       "end": 1481,
                       "raw": "\"extendMarkSchema\"",
-                      "value": "extendMarkSchema"
+                      "value": "extendMarkSchema",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "objectType": {

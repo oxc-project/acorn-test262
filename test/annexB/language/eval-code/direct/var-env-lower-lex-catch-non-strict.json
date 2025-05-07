@@ -21,7 +21,9 @@
               "start": 677,
               "end": 681,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -61,7 +63,9 @@
                     "start": 706,
                     "end": 725,
                     "value": "function err() {}",
-                    "raw": "'function err() {}'"
+                    "raw": "'function err() {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -87,7 +91,9 @@
                     "start": 735,
                     "end": 755,
                     "value": "function* err() {}",
-                    "raw": "'function* err() {}'"
+                    "raw": "'function* err() {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -113,7 +119,9 @@
                     "start": 765,
                     "end": 790,
                     "value": "async function err() {}",
-                    "raw": "'async function err() {}'"
+                    "raw": "'async function err() {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -139,7 +147,9 @@
                     "start": 800,
                     "end": 826,
                     "value": "async function* err() {}",
-                    "raw": "'async function* err() {}'"
+                    "raw": "'async function* err() {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -165,7 +175,9 @@
                     "start": 837,
                     "end": 847,
                     "value": "var err;",
-                    "raw": "'var err;'"
+                    "raw": "'var err;'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -191,7 +203,9 @@
                     "start": 857,
                     "end": 884,
                     "value": "for (var err; false; ) {}",
-                    "raw": "'for (var err; false; ) {}'"
+                    "raw": "'for (var err; false; ) {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -217,7 +231,9 @@
                     "start": 894,
                     "end": 918,
                     "value": "for (var err in []) {}",
-                    "raw": "'for (var err in []) {}'"
+                    "raw": "'for (var err in []) {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -243,7 +259,9 @@
                     "start": 928,
                     "end": 952,
                     "value": "for (var err of []) {}",
-                    "raw": "'for (var err of []) {}'"
+                    "raw": "'for (var err of []) {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

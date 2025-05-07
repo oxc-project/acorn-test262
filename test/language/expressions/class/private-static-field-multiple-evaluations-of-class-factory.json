@@ -64,7 +64,9 @@
                             "start": 1662,
                             "end": 1671,
                             "value": "test262",
-                            "raw": "'test262'"
+                            "raw": "'test262'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -255,7 +257,9 @@
             "start": 1811,
             "end": 1820,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,7 +324,9 @@
             "start": 1853,
             "end": 1862,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -433,7 +439,9 @@
             "start": 1929,
             "end": 1972,
             "value": "invalid access of c1 private static field",
-            "raw": "'invalid access of c1 private static field'"
+            "raw": "'invalid access of c1 private static field'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +554,9 @@
             "start": 2039,
             "end": 2082,
             "value": "invalid access of c2 private static field",
-            "raw": "'invalid access of c2 private static field'"
+            "raw": "'invalid access of c2 private static field'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

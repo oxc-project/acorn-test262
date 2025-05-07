@@ -123,7 +123,9 @@
                   "start": 379,
                   "end": 380,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -145,7 +147,9 @@
                   "start": 398,
                   "end": 402,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -206,14 +210,18 @@
             "start": 437,
             "end": 441,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 481,
             "value": "The result of `sym in obj` is `true`",
-            "raw": "\"The result of `sym in obj` is `true`\""
+            "raw": "\"The result of `sym in obj` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,7 +277,9 @@
                   "start": 520,
                   "end": 521,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -291,7 +301,9 @@
                   "start": 539,
                   "end": 543,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -313,7 +325,9 @@
                   "start": 557,
                   "end": 562,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -335,7 +349,9 @@
                   "start": 578,
                   "end": 583,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -443,14 +459,18 @@
             "start": 666,
             "end": 671,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 675,
             "end": 747,
             "value": "`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`",
-            "raw": "\"`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`\""
+            "raw": "\"`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,14 +535,18 @@
             "start": 786,
             "end": 790,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 792,
             "end": 835,
             "value": "The result of `delete obj[sym]` is `true`",
-            "raw": "\"The result of `delete obj[sym]` is `true`\""
+            "raw": "\"The result of `delete obj[sym]` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -606,7 +630,9 @@
             "start": 917,
             "end": 982,
             "value": "`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`",
-            "raw": "\"`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`\""
+            "raw": "\"`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

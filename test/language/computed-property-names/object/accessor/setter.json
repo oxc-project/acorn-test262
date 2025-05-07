@@ -23,7 +23,9 @@
             "start": 359,
             "end": 360,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
                   "start": 397,
                   "end": 400,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -151,7 +155,9 @@
                   "start": 432,
                   "end": 433,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -293,7 +299,9 @@
           "start": 499,
           "end": 502,
           "value": "A",
-          "raw": "'A'"
+          "raw": "'A'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -321,7 +329,9 @@
             "start": 506,
             "end": 507,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -331,7 +341,9 @@
           "start": 511,
           "end": 512,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -410,14 +422,18 @@
             "start": 548,
             "end": 549,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 551,
             "end": 630,
             "value": "The value of `calls` is `1`, after executing `A.a = 'A'; A[1] = 1; A[s] = s;`",
-            "raw": "\"The value of `calls` is `1`, after executing `A.a = 'A'; A[1] = 1; A[s] = s;`\""
+            "raw": "\"The value of `calls` is `1`, after executing `A.a = 'A'; A[1] = 1; A[s] = s;`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

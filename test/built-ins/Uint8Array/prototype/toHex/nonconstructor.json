@@ -76,7 +76,9 @@
             "start": 395,
             "end": 444,
             "value": "Uint8Array.prototype.toHex is not a constructor",
-            "raw": "\"Uint8Array.prototype.toHex is not a constructor\""
+            "raw": "\"Uint8Array.prototype.toHex is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +115,9 @@
                 "start": 480,
                 "end": 481,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

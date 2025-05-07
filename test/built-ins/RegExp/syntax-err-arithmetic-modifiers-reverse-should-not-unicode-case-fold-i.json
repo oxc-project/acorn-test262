@@ -71,14 +71,18 @@
                         "start": 500,
                         "end": 509,
                         "value": "(?İ-:a)",
-                        "raw": "\"(?İ-:a)\""
+                        "raw": "\"(?İ-:a)\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 511,
                         "end": 515,
                         "value": "iu",
-                        "raw": "\"iu\""
+                        "raw": "\"iu\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -92,7 +96,9 @@
             "start": 521,
             "end": 548,
             "value": "RegExp(\"(?İ-:a)\", \"iu\"): ",
-            "raw": "'RegExp(\"(?İ-:a)\", \"iu\"): '"
+            "raw": "'RegExp(\"(?İ-:a)\", \"iu\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

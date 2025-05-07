@@ -47,7 +47,9 @@
                 "start": 335,
                 "end": 339,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 342,
             "end": 346,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 380,
             "value": "Boolean(true) must return true",
-            "raw": "'Boolean(true) must return true'"
+            "raw": "'Boolean(true) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +120,9 @@
                 "start": 408,
                 "end": 413,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,14 +132,18 @@
             "start": 416,
             "end": 421,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 457,
             "value": "Boolean(false) must return false",
-            "raw": "'Boolean(false) must return false'"
+            "raw": "'Boolean(false) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

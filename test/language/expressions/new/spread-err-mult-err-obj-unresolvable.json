@@ -99,7 +99,9 @@
                               "start": 1132,
                               "end": 1133,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },

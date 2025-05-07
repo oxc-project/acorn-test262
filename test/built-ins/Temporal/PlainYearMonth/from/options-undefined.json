@@ -41,7 +41,9 @@
                   "start": 290,
                   "end": 294,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 303,
                   "end": 305,
                   "value": 13,
-                  "raw": "13"
+                  "raw": "13",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -196,14 +200,18 @@
             "start": 409,
             "end": 411,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 444,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -326,14 +334,18 @@
             "start": 536,
             "end": 538,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 571,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

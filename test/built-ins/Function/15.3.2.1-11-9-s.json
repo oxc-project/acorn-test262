@@ -34,28 +34,36 @@
                 "start": 430,
                 "end": 435,
                 "value": "baz",
-                "raw": "\"baz\""
+                "raw": "\"baz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 437,
                 "end": 442,
                 "value": "baz",
-                "raw": "\"baz\""
+                "raw": "\"baz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 444,
                 "end": 449,
                 "value": "baz",
-                "raw": "\"baz\""
+                "raw": "\"baz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 462,
                 "value": "return 0;",
-                "raw": "\"return 0;\""
+                "raw": "\"return 0;\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

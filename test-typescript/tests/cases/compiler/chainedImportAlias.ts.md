@@ -109,7 +109,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 47,
           "raw": "'./chainedImportAlias_file0'",
-          "value": "./chainedImportAlias_file0"
+          "value": "./chainedImportAlias_file0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

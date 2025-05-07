@@ -44,7 +44,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -60,14 +61,18 @@
             "start": 1287,
             "end": 1289,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1291,
             "end": 1301,
             "value": "no flags",
-            "raw": "'no flags'"
+            "raw": "'no flags'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +119,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "d"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -130,14 +136,18 @@
             "start": 1333,
             "end": 1336,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1338,
             "end": 1350,
             "value": "hasIndices",
-            "raw": "'hasIndices'"
+            "raw": "'hasIndices'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +194,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "g"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -200,14 +211,18 @@
             "start": 1382,
             "end": 1385,
             "value": "g",
-            "raw": "'g'"
+            "raw": "'g'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1387,
             "end": 1395,
             "value": "global",
-            "raw": "'global'"
+            "raw": "'global'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -254,7 +269,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "i"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -270,14 +286,18 @@
             "start": 1427,
             "end": 1430,
             "value": "i",
-            "raw": "'i'"
+            "raw": "'i'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1432,
             "end": 1444,
             "value": "ignoreCase",
-            "raw": "'ignoreCase'"
+            "raw": "'ignoreCase'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +344,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "m"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -340,14 +361,18 @@
             "start": 1476,
             "end": 1479,
             "value": "m",
-            "raw": "'m'"
+            "raw": "'m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1481,
             "end": 1492,
             "value": "multiline",
-            "raw": "'multiline'"
+            "raw": "'multiline'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -394,7 +419,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "s"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -410,14 +436,18 @@
             "start": 1524,
             "end": 1527,
             "value": "s",
-            "raw": "'s'"
+            "raw": "'s'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1529,
             "end": 1537,
             "value": "dotAll",
-            "raw": "'dotAll'"
+            "raw": "'dotAll'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -464,7 +494,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "u"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -480,14 +511,18 @@
             "start": 1569,
             "end": 1572,
             "value": "u",
-            "raw": "'u'"
+            "raw": "'u'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1574,
             "end": 1583,
             "value": "unicode",
-            "raw": "'unicode'"
+            "raw": "'unicode'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +569,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "v"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -550,14 +586,18 @@
             "start": 1615,
             "end": 1618,
             "value": "v",
-            "raw": "'v'"
+            "raw": "'v'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1620,
             "end": 1633,
             "value": "unicodeSets",
-            "raw": "'unicodeSets'"
+            "raw": "'unicodeSets'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -604,7 +644,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "y"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -620,14 +661,18 @@
             "start": 1665,
             "end": 1668,
             "value": "y",
-            "raw": "'y'"
+            "raw": "'y'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1670,
             "end": 1678,
             "value": "sticky",
-            "raw": "'sticky'"
+            "raw": "'sticky'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

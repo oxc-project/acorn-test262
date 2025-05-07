@@ -69,7 +69,9 @@
           "start": 820,
           "end": 828,
           "value": "object",
-          "raw": "'object'"
+          "raw": "'object'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -101,7 +103,9 @@
                     "start": 856,
                     "end": 937,
                     "value": "#1: typeof __func.prototype === 'object'. Actual: typeof __gunc.prototype ===",
-                    "raw": "'#1: typeof __func.prototype === \\'object\\'. Actual: typeof __gunc.prototype ==='"
+                    "raw": "'#1: typeof __func.prototype === \\'object\\'. Actual: typeof __gunc.prototype ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -215,7 +219,9 @@
                     "start": 1209,
                     "end": 1296,
                     "value": "#2: __func.prototype.constructor === __func. Actual: __gunc.prototype.constructor ===",
-                    "raw": "'#2: __func.prototype.constructor === __func. Actual: __gunc.prototype.constructor ==='"
+                    "raw": "'#2: __func.prototype.constructor === __func. Actual: __gunc.prototype.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -332,7 +338,9 @@
                 "start": 1498,
                 "end": 1511,
                 "value": "constructor",
-                "raw": "'constructor'"
+                "raw": "'constructor'",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -355,7 +363,9 @@
                   "start": 1549,
                   "end": 1553,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -403,7 +413,9 @@
                     "start": 1704,
                     "end": 1784,
                     "value": "#3: __constructor_was__enumed === false. Actual: __constructor_was__enumed ===",
-                    "raw": "'#3: __constructor_was__enumed === false. Actual: __constructor_was__enumed ==='"
+                    "raw": "'#3: __constructor_was__enumed === false. Actual: __constructor_was__enumed ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

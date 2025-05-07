@@ -31,7 +31,9 @@
         "start": 562,
         "end": 603,
         "value": "./instn-resolve-err-syntax-1_FIXTURE.js",
-        "raw": "'./instn-resolve-err-syntax-1_FIXTURE.js'"
+        "raw": "'./instn-resolve-err-syntax-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

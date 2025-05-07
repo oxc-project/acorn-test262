@@ -83,14 +83,18 @@
                               "start": 526,
                               "end": 534,
                               "value": 127995,
-                              "raw": "0x01F3FB"
+                              "raw": "0x01F3FB",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 536,
                               "end": 544,
                               "value": 127999,
-                              "raw": "0x01F3FF"
+                              "raw": "0x01F3FF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Emoji_Modifier}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 621,
             "end": 642,
             "value": "\\p{Emoji_Modifier}",
-            "raw": "\"\\\\p{Emoji_Modifier}\""
+            "raw": "\"\\\\p{Emoji_Modifier}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{EMod}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 703,
             "end": 714,
             "value": "\\p{EMod}",
-            "raw": "\"\\\\p{EMod}\""
+            "raw": "\"\\\\p{EMod}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,14 +283,18 @@
                               "start": 796,
                               "end": 804,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 806,
                               "end": 814,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -294,14 +308,18 @@
                               "start": 822,
                               "end": 830,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 832,
                               "end": 840,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -315,14 +333,18 @@
                               "start": 848,
                               "end": 856,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 858,
                               "end": 866,
                               "value": 127994,
-                              "raw": "0x01F3FA"
+                              "raw": "0x01F3FA",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -336,14 +358,18 @@
                               "start": 874,
                               "end": 882,
                               "value": 128000,
-                              "raw": "0x01F400"
+                              "raw": "0x01F400",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 884,
                               "end": 892,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -384,7 +410,8 @@
             "regex": {
               "pattern": "^\\P{Emoji_Modifier}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -397,7 +424,9 @@
             "start": 972,
             "end": 993,
             "value": "\\P{Emoji_Modifier}",
-            "raw": "\"\\\\P{Emoji_Modifier}\""
+            "raw": "\"\\\\P{Emoji_Modifier}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +456,8 @@
             "regex": {
               "pattern": "^\\P{EMod}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -440,7 +470,9 @@
             "start": 1057,
             "end": 1068,
             "value": "\\P{EMod}",
-            "raw": "\"\\\\P{EMod}\""
+            "raw": "\"\\\\P{EMod}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

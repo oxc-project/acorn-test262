@@ -135,7 +135,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 46,
         "raw": "\"file1\"",
-        "value": "file1"
+        "value": "file1",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -150,7 +152,9 @@ __ESTREE_TEST__:PASS:
         "start": 61,
         "end": 68,
         "raw": "\"file3\"",
-        "value": "file3"
+        "value": "file3",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -177,7 +181,9 @@ __ESTREE_TEST__:PASS:
             "start": 77,
             "end": 78,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -261,7 +267,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 46,
         "raw": "\"file2\"",
-        "value": "file2"
+        "value": "file2",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -288,7 +296,9 @@ __ESTREE_TEST__:PASS:
             "start": 55,
             "end": 56,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

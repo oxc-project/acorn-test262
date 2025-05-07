@@ -133,7 +133,9 @@
             "start": 1181,
             "end": 1185,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -180,7 +182,9 @@
                     "start": 1217,
                     "end": 1229,
                     "value": "var x = 1;",
-                    "raw": "'var x = 1;'"
+                    "raw": "'var x = 1;'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -269,7 +273,9 @@
                 "start": 1288,
                 "end": 1300,
                 "value": "var y = 1;",
-                "raw": "'var y = 1;'"
+                "raw": "'var y = 1;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -355,7 +361,9 @@
               "start": 1362,
               "end": 1363,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -448,7 +456,9 @@
               "start": 1423,
               "end": 1428,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -475,7 +485,9 @@
             "start": 1439,
             "end": 1440,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -501,7 +513,9 @@
             "start": 1450,
             "end": 1451,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -527,7 +541,9 @@
             "start": 1461,
             "end": 1462,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -583,7 +599,9 @@
               "start": 1499,
               "end": 1500,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -593,14 +611,18 @@
             "start": 1505,
             "end": 1506,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1510,
             "end": 1573,
             "value": "reference preceding statement (redeclared in \"test\" position)",
-            "raw": "'reference preceding statement (redeclared in \"test\" position)'"
+            "raw": "'reference preceding statement (redeclared in \"test\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -656,7 +678,9 @@
               "start": 1611,
               "end": 1612,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -666,14 +690,18 @@
             "start": 1617,
             "end": 1618,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1622,
             "end": 1684,
             "value": "reference preceding statement (redeclared in statement body)",
-            "raw": "'reference preceding statement (redeclared in statement body)'"
+            "raw": "'reference preceding statement (redeclared in statement body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -729,7 +757,9 @@
               "start": 1722,
               "end": 1723,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -739,14 +769,18 @@
             "start": 1728,
             "end": 1729,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1733,
             "end": 1801,
             "value": "reference preceding statement (redeclared in \"increment\" position)",
-            "raw": "'reference preceding statement (redeclared in \"increment\" position)'"
+            "raw": "'reference preceding statement (redeclared in \"increment\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -802,7 +836,9 @@
               "start": 1838,
               "end": 1839,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -812,14 +848,18 @@
             "start": 1844,
             "end": 1845,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1849,
             "end": 1913,
             "value": "reference from \"test\" position (redeclared in \"test\" position)",
-            "raw": "'reference from \"test\" position (redeclared in \"test\" position)'"
+            "raw": "'reference from \"test\" position (redeclared in \"test\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,7 +915,9 @@
               "start": 1949,
               "end": 1950,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -885,14 +927,18 @@
             "start": 1955,
             "end": 1956,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1960,
             "end": 2023,
             "value": "reference from \"test\" position (redeclared in statement body)",
-            "raw": "'reference from \"test\" position (redeclared in statement body)'"
+            "raw": "'reference from \"test\" position (redeclared in statement body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -948,7 +994,9 @@
               "start": 2059,
               "end": 2060,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -958,14 +1006,18 @@
             "start": 2065,
             "end": 2066,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2070,
             "end": 2139,
             "value": "reference from \"test\" position (redeclared in \"increment\" position)",
-            "raw": "'reference from \"test\" position (redeclared in \"increment\" position)'"
+            "raw": "'reference from \"test\" position (redeclared in \"increment\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1021,7 +1073,9 @@
               "start": 2176,
               "end": 2177,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1031,14 +1085,18 @@
             "start": 2182,
             "end": 2183,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2187,
             "end": 2250,
             "value": "reference from statement body (redeclared in \"test\" position)",
-            "raw": "'reference from statement body (redeclared in \"test\" position)'"
+            "raw": "'reference from statement body (redeclared in \"test\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1094,7 +1152,9 @@
               "start": 2286,
               "end": 2287,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1104,14 +1164,18 @@
             "start": 2292,
             "end": 2293,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2297,
             "end": 2359,
             "value": "reference from statement body (redeclared in statement body)",
-            "raw": "'reference from statement body (redeclared in statement body)'"
+            "raw": "'reference from statement body (redeclared in statement body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1167,7 +1231,9 @@
               "start": 2395,
               "end": 2396,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1177,14 +1243,18 @@
             "start": 2401,
             "end": 2402,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2406,
             "end": 2474,
             "value": "reference from statement body (redeclared in \"increment\" position)",
-            "raw": "'reference from statement body (redeclared in \"increment\" position)'"
+            "raw": "'reference from statement body (redeclared in \"increment\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1240,7 +1310,9 @@
               "start": 2511,
               "end": 2512,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1250,14 +1322,18 @@
             "start": 2517,
             "end": 2518,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2522,
             "end": 2591,
             "value": "reference from \"increment\" position (redeclared in \"test\" position)",
-            "raw": "'reference from \"increment\" position (redeclared in \"test\" position)'"
+            "raw": "'reference from \"increment\" position (redeclared in \"test\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1313,7 +1389,9 @@
               "start": 2627,
               "end": 2628,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1323,14 +1401,18 @@
             "start": 2633,
             "end": 2634,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2638,
             "end": 2706,
             "value": "reference from \"increment\" position (redeclared in statement body)",
-            "raw": "'reference from \"increment\" position (redeclared in statement body)'"
+            "raw": "'reference from \"increment\" position (redeclared in statement body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1386,7 +1468,9 @@
               "start": 2742,
               "end": 2743,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1396,14 +1480,18 @@
             "start": 2748,
             "end": 2749,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2753,
             "end": 2827,
             "value": "reference from \"increment\" position (redeclared in \"increment\" position)",
-            "raw": "'reference from \"increment\" position (redeclared in \"increment\" position)'"
+            "raw": "'reference from \"increment\" position (redeclared in \"increment\" position)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

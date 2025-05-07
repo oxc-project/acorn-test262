@@ -47,7 +47,9 @@
                 "start": 730,
                 "end": 741,
                 "value": "𐐁",
-                "raw": "'\\u{10401}'"
+                "raw": "'\\u{10401}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 744,
             "end": 758,
             "value": "%uD801%uDC01",
-            "raw": "'%uD801%uDC01'"
+            "raw": "'%uD801%uDC01'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 760,
             "end": 826,
             "value": "\\u{10401} => \\uD801\\uDC01 (surrogate pairs encoded in string)",
-            "raw": "'\\\\u{10401} => \\\\uD801\\\\uDC01 (surrogate pairs encoded in string)'"
+            "raw": "'\\\\u{10401} => \\\\uD801\\\\uDC01 (surrogate pairs encoded in string)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

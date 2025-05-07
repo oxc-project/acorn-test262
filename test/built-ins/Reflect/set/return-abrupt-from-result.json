@@ -67,7 +67,9 @@
             "start": 428,
             "end": 432,
             "value": "p1",
-            "raw": "'p1'"
+            "raw": "'p1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -216,14 +218,18 @@
                         "start": 554,
                         "end": 558,
                         "value": "p1",
-                        "raw": "'p1'"
+                        "raw": "'p1'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 560,
                         "end": 562,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -375,14 +381,18 @@
                         "start": 695,
                         "end": 699,
                         "value": "p1",
-                        "raw": "'p1'"
+                        "raw": "'p1'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 701,
                         "end": 703,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

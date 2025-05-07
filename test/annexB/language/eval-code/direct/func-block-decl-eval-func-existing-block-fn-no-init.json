@@ -69,7 +69,9 @@
                         "start": 588,
                         "end": 663,
                         "value": "init = f;        {      function f() {}    }{ function f() {  } }",
-                        "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }{ function f() {  } }'"
+                        "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }{ function f() {  } }'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

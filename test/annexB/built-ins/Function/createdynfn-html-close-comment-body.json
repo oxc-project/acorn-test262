@@ -23,7 +23,9 @@
             "start": 710,
             "end": 717,
             "value": "\n-->",
-            "raw": "\"\\n-->\""
+            "raw": "\"\\n-->\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

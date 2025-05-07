@@ -44,7 +44,9 @@
                 "start": 792,
                 "end": 797,
                 "value": "web",
-                "raw": "'web'"
+                "raw": "'web'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -61,14 +63,18 @@
                 "start": 807,
                 "end": 810,
                 "value": "w",
-                "raw": "'w'"
+                "raw": "'w'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 812,
                 "end": 813,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -78,14 +84,18 @@
             "start": 816,
             "end": 821,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 825,
             "end": 863,
             "value": "\"web\".endsWith(\"w\", 0) returns false",
-            "raw": "'\"web\".endsWith(\"w\", 0) returns false'"
+            "raw": "'\"web\".endsWith(\"w\", 0) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -132,7 +142,9 @@
                 "start": 888,
                 "end": 893,
                 "value": "Bob",
-                "raw": "'Bob'"
+                "raw": "'Bob'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -149,7 +161,9 @@
                 "start": 903,
                 "end": 910,
                 "value": "  Bob",
-                "raw": "'  Bob'"
+                "raw": "'  Bob'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -159,14 +173,18 @@
             "start": 913,
             "end": 918,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 961,
             "value": "\"Bob\".endsWith(\"  Bob\") returns false",
-            "raw": "'\"Bob\".endsWith(\"  Bob\") returns false'"
+            "raw": "'\"Bob\".endsWith(\"  Bob\") returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

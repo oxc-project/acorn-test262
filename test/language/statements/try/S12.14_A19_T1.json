@@ -36,7 +36,9 @@
                     "start": 319,
                     "end": 326,
                     "value": "hello",
-                    "raw": "\"hello\""
+                    "raw": "\"hello\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -100,7 +102,9 @@
                   "start": 363,
                   "end": 377,
                   "value": "Error: hello",
-                  "raw": "\"Error: hello\""
+                  "raw": "\"Error: hello\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -127,7 +131,9 @@
                         "start": 402,
                         "end": 468,
                         "value": "#1: Exception.toString()===\"Error: hello\". Actual: Exception is ",
-                        "raw": "'#1: Exception.toString()===\"Error: hello\". Actual: Exception is '"
+                        "raw": "'#1: Exception.toString()===\"Error: hello\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -180,7 +186,9 @@
                     "start": 511,
                     "end": 518,
                     "value": "hello",
-                    "raw": "\"hello\""
+                    "raw": "\"hello\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -243,7 +251,9 @@
                   "start": 555,
                   "end": 569,
                   "value": "Error: hello",
-                  "raw": "\"Error: hello\""
+                  "raw": "\"Error: hello\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -270,7 +280,9 @@
                         "start": 594,
                         "end": 660,
                         "value": "#2: Exception.toString()===\"Error: hello\". Actual: Exception is ",
-                        "raw": "'#2: Exception.toString()===\"Error: hello\". Actual: Exception is '"
+                        "raw": "'#2: Exception.toString()===\"Error: hello\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -310,7 +322,9 @@
             "start": 686,
             "end": 687,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -345,7 +359,9 @@
                   "start": 712,
                   "end": 713,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -408,7 +424,9 @@
                   "start": 749,
                   "end": 763,
                   "value": "EvalError: 1",
-                  "raw": "\"EvalError: 1\""
+                  "raw": "\"EvalError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -435,7 +453,9 @@
                         "start": 788,
                         "end": 854,
                         "value": "#3: Exception.toString()===\"EvalError: 1\". Actual: Exception is ",
-                        "raw": "'#3: Exception.toString()===\"EvalError: 1\". Actual: Exception is '"
+                        "raw": "'#3: Exception.toString()===\"EvalError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -484,7 +504,9 @@
                   "start": 897,
                   "end": 898,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -547,7 +569,9 @@
                   "start": 934,
                   "end": 949,
                   "value": "RangeError: 1",
-                  "raw": "\"RangeError: 1\""
+                  "raw": "\"RangeError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -574,7 +598,9 @@
                         "start": 974,
                         "end": 1041,
                         "value": "#4: Exception.toString()===\"RangeError: 1\". Actual: Exception is ",
-                        "raw": "'#4: Exception.toString()===\"RangeError: 1\". Actual: Exception is '"
+                        "raw": "'#4: Exception.toString()===\"RangeError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -623,7 +649,9 @@
                   "start": 1088,
                   "end": 1089,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -686,7 +714,9 @@
                   "start": 1125,
                   "end": 1144,
                   "value": "ReferenceError: 1",
-                  "raw": "\"ReferenceError: 1\""
+                  "raw": "\"ReferenceError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -713,7 +743,9 @@
                         "start": 1169,
                         "end": 1240,
                         "value": "#5: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is ",
-                        "raw": "'#5: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is '"
+                        "raw": "'#5: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -753,7 +785,9 @@
             "start": 1266,
             "end": 1267,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -788,7 +822,9 @@
                   "start": 1292,
                   "end": 1293,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -851,7 +887,9 @@
                   "start": 1329,
                   "end": 1343,
                   "value": "TypeError: 1",
-                  "raw": "\"TypeError: 1\""
+                  "raw": "\"TypeError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -878,7 +916,9 @@
                         "start": 1368,
                         "end": 1434,
                         "value": "#6: Exception.toString()===\"TypeError: 1\". Actual: Exception is ",
-                        "raw": "'#6: Exception.toString()===\"TypeError: 1\". Actual: Exception is '"
+                        "raw": "'#6: Exception.toString()===\"TypeError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -927,21 +967,27 @@
                   "start": 1475,
                   "end": 1484,
                   "value": "message",
-                  "raw": "\"message\""
+                  "raw": "\"message\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1486,
                   "end": 1496,
                   "value": "fileName",
-                  "raw": "\"fileName\""
+                  "raw": "\"fileName\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1498,
                   "end": 1501,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1004,7 +1050,9 @@
                   "start": 1538,
                   "end": 1557,
                   "value": "URIError: message",
-                  "raw": "\"URIError: message\""
+                  "raw": "\"URIError: message\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -1031,7 +1079,9 @@
                         "start": 1582,
                         "end": 1653,
                         "value": "#7: Exception.toString()===\"URIError: message\". Actual: Exception is ",
-                        "raw": "'#7: Exception.toString()===\"URIError: message\". Actual: Exception is '"
+                        "raw": "'#7: Exception.toString()===\"URIError: message\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

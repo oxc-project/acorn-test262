@@ -61,7 +61,9 @@
                           "start": 1224,
                           "end": 1248,
                           "value": "./2nd-param_FIXTURE.js",
-                          "raw": "'./2nd-param_FIXTURE.js'"
+                          "raw": "'./2nd-param_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": {
                           "type": "ObjectExpression",
@@ -79,7 +81,9 @@
                           "start": 1266,
                           "end": 1290,
                           "value": "./2nd-param_FIXTURE.js",
-                          "raw": "'./2nd-param_FIXTURE.js'"
+                          "raw": "'./2nd-param_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": {
                           "type": "ObjectExpression",
@@ -193,7 +197,9 @@
                                 "start": 1371,
                                 "end": 1372,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -212,7 +218,9 @@
                             "start": 1383,
                             "end": 1386,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -265,7 +273,9 @@
                                 "start": 1417,
                                 "end": 1418,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -284,7 +294,9 @@
                             "start": 1429,
                             "end": 1432,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

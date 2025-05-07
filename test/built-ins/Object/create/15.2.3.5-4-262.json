@@ -131,21 +131,27 @@
                                         "start": 379,
                                         "end": 380,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 382,
                                         "end": 383,
                                         "value": 2,
-                                        "raw": "2"
+                                        "raw": "2",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 385,
                                         "end": 386,
                                         "value": 3,
-                                        "raw": "3"
+                                        "raw": "3",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   },

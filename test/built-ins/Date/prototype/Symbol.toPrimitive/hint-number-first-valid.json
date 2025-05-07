@@ -23,7 +23,9 @@
             "start": 726,
             "end": 727,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 749,
             "end": 750,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +126,9 @@
                             "start": 807,
                             "end": 808,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -135,7 +141,9 @@
                           "start": 821,
                           "end": 838,
                           "value": "valueOf test262",
-                          "raw": "'valueOf test262'"
+                          "raw": "'valueOf test262'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -190,7 +198,9 @@
                             "start": 885,
                             "end": 886,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -307,7 +317,9 @@
                 "start": 961,
                 "end": 969,
                 "value": "number",
-                "raw": "'number'"
+                "raw": "'number'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -317,7 +329,9 @@
             "start": 974,
             "end": 991,
             "value": "valueOf test262",
-            "raw": "'valueOf test262'"
+            "raw": "'valueOf test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -362,14 +376,18 @@
             "start": 1025,
             "end": 1026,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1028,
             "end": 1071,
             "value": "`valueOf` method was invoked exactly once",
-            "raw": "'`valueOf` method was invoked exactly once'"
+            "raw": "'`valueOf` method was invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,14 +432,18 @@
             "start": 1106,
             "end": 1107,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1109,
             "end": 1147,
             "value": "`toString` method was not referenced",
-            "raw": "'`toString` method was not referenced'"
+            "raw": "'`toString` method was not referenced'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

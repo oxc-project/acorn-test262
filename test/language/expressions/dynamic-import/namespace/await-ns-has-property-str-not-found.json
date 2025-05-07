@@ -70,7 +70,9 @@
                       "start": 3984,
                       "end": 4010,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -116,7 +118,9 @@
                     "start": 4035,
                     "end": 4043,
                     "value": "local2",
-                    "raw": "'local2'"
+                    "raw": "'local2'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -131,14 +135,18 @@
                   "start": 4051,
                   "end": 4056,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4058,
                   "end": 4070,
                   "value": "in: local2",
-                  "raw": "'in: local2'"
+                  "raw": "'in: local2'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -207,7 +215,9 @@
                       "start": 4110,
                       "end": 4118,
                       "value": "local2",
-                      "raw": "'local2'"
+                      "raw": "'local2'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -217,14 +227,18 @@
                   "start": 4121,
                   "end": 4126,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4128,
                   "end": 4149,
                   "value": "Reflect.has: local2",
-                  "raw": "'Reflect.has: local2'"
+                  "raw": "'Reflect.has: local2'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -267,7 +281,9 @@
                     "start": 4174,
                     "end": 4187,
                     "value": "toStringTag",
-                    "raw": "'toStringTag'"
+                    "raw": "'toStringTag'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -282,14 +298,18 @@
                   "start": 4195,
                   "end": 4200,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4202,
                   "end": 4219,
                   "value": "in: toStringTag",
-                  "raw": "'in: toStringTag'"
+                  "raw": "'in: toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -358,7 +378,9 @@
                       "start": 4266,
                       "end": 4279,
                       "value": "toStringTag",
-                      "raw": "'toStringTag'"
+                      "raw": "'toStringTag'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -368,14 +390,18 @@
                   "start": 4282,
                   "end": 4287,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4289,
                   "end": 4315,
                   "value": "Reflect.has: toStringTag",
-                  "raw": "'Reflect.has: toStringTag'"
+                  "raw": "'Reflect.has: toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -418,7 +444,9 @@
                     "start": 4345,
                     "end": 4355,
                     "value": "iterator",
-                    "raw": "'iterator'"
+                    "raw": "'iterator'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -433,14 +461,18 @@
                   "start": 4363,
                   "end": 4368,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4370,
                   "end": 4384,
                   "value": "in: iterator",
-                  "raw": "'in: iterator'"
+                  "raw": "'in: iterator'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -509,7 +541,9 @@
                       "start": 4424,
                       "end": 4434,
                       "value": "iterator",
-                      "raw": "'iterator'"
+                      "raw": "'iterator'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -519,14 +553,18 @@
                   "start": 4437,
                   "end": 4442,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4444,
                   "end": 4467,
                   "value": "Reflect.has: iterator",
-                  "raw": "'Reflect.has: iterator'"
+                  "raw": "'Reflect.has: iterator'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -569,7 +607,9 @@
                     "start": 4492,
                     "end": 4503,
                     "value": "__proto__",
-                    "raw": "'__proto__'"
+                    "raw": "'__proto__'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -584,14 +624,18 @@
                   "start": 4511,
                   "end": 4516,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4518,
                   "end": 4533,
                   "value": "in: __proto__",
-                  "raw": "'in: __proto__'"
+                  "raw": "'in: __proto__'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -660,7 +704,9 @@
                       "start": 4580,
                       "end": 4591,
                       "value": "__proto__",
-                      "raw": "'__proto__'"
+                      "raw": "'__proto__'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -670,14 +716,18 @@
                   "start": 4594,
                   "end": 4599,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4601,
                   "end": 4625,
                   "value": "Reflect.has: __proto__",
-                  "raw": "'Reflect.has: __proto__'"
+                  "raw": "'Reflect.has: __proto__'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -69,7 +69,9 @@
             "start": 1281,
             "end": 1311,
             "value": "JSON.isRawJSON is extensible",
-            "raw": "\"JSON.isRawJSON is extensible\""
+            "raw": "\"JSON.isRawJSON is extensible\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -134,14 +136,18 @@
             "start": 1359,
             "end": 1369,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1373,
             "end": 1425,
             "value": "The value of `typeof JSON.isRawJSON` is \"function\"",
-            "raw": "'The value of `typeof JSON.isRawJSON` is \"function\"'"
+            "raw": "'The value of `typeof JSON.isRawJSON` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +251,9 @@
             "start": 1512,
             "end": 1597,
             "value": "Object.getPrototypeOf(JSON.isRawJSON) must return the value of \"Function.prototype\"",
-            "raw": "'Object.getPrototypeOf(JSON.isRawJSON) must return the value of \"Function.prototype\"'"
+            "raw": "'Object.getPrototypeOf(JSON.isRawJSON) must return the value of \"Function.prototype\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,7 +335,9 @@
                 "start": 1670,
                 "end": 1681,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -343,7 +353,9 @@
             "start": 1699,
             "end": 1745,
             "value": "JSON.isRawJSON has no own prototype property",
-            "raw": "\"JSON.isRawJSON has no own prototype property\""
+            "raw": "\"JSON.isRawJSON has no own prototype property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

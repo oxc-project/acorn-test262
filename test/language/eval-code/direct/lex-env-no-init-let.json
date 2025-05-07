@@ -71,7 +71,9 @@
                         "start": 807,
                         "end": 825,
                         "value": "typeof x; let x;",
-                        "raw": "'typeof x; let x;'"
+                        "raw": "'typeof x; let x;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

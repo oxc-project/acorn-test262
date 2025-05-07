@@ -295,7 +295,9 @@ __ESTREE_TEST__:PASS:
                     "start": 223,
                     "end": 234,
                     "raw": "\"New child\"",
-                    "value": "New child"
+                    "value": "New child",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {

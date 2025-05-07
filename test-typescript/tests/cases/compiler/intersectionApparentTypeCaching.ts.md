@@ -32,7 +32,9 @@ __ESTREE_TEST__:PASS:
             "start": 95,
             "end": 103,
             "raw": "\"length\"",
-            "value": "length"
+            "value": "length",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {

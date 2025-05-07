@@ -36,7 +36,9 @@
                   "start": 1090,
                   "end": 1109,
                   "value": "inner declaration",
-                  "raw": "'inner declaration'"
+                  "raw": "'inner declaration'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -90,7 +92,9 @@
             "start": 1143,
             "end": 1153,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -142,7 +146,9 @@
             "start": 1178,
             "end": 1197,
             "value": "inner declaration",
-            "raw": "'inner declaration'"
+            "raw": "'inner declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +182,9 @@
               "start": 1225,
               "end": 1244,
               "value": "outer declaration",
-              "raw": "'outer declaration'"
+              "raw": "'outer declaration'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

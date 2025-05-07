@@ -50,7 +50,9 @@
                       "start": 3778,
                       "end": 3798,
                       "value": "./empty_FIXTURE.js",
-                      "raw": "'./empty_FIXTURE.js'"
+                      "raw": "'./empty_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -118,7 +120,9 @@
                   "start": 3853,
                   "end": 3863,
                   "value": "function",
-                  "raw": "'function'"
+                  "raw": "'function'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -193,7 +197,9 @@
                       "start": 3917,
                       "end": 3921,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

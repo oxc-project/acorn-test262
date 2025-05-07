@@ -50,7 +50,9 @@
                           "start": 545,
                           "end": 546,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -58,7 +60,9 @@
                         "start": 548,
                         "end": 549,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -109,7 +113,9 @@
               "start": 564,
               "end": 565,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -117,7 +123,9 @@
             "start": 567,
             "end": 569,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -186,7 +194,9 @@
                   "start": 598,
                   "end": 599,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -197,14 +207,18 @@
             "start": 602,
             "end": 604,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 647,
             "value": "zero key is normalized in SameValueZero",
-            "raw": "'zero key is normalized in SameValueZero'"
+            "raw": "'zero key is normalized in SameValueZero'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +271,9 @@
                         "start": 668,
                         "end": 669,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -265,7 +281,9 @@
                       "start": 671,
                       "end": 672,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -314,7 +332,9 @@
               "start": 686,
               "end": 687,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -322,7 +342,9 @@
             "start": 689,
             "end": 691,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -391,7 +413,9 @@
                   "start": 720,
                   "end": 721,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -402,14 +426,18 @@
             "start": 724,
             "end": 726,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 728,
             "end": 769,
             "value": "zero key is normalized in SameValueZero",
-            "raw": "'zero key is normalized in SameValueZero'"
+            "raw": "'zero key is normalized in SameValueZero'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

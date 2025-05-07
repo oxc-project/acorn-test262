@@ -23,7 +23,9 @@
             "start": 805,
             "end": 814,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +129,9 @@
             "start": 904,
             "end": 908,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -202,7 +206,9 @@
                     "start": 1021,
                     "end": 1029,
                     "value": "inside",
-                    "raw": "'inside'"
+                    "raw": "'inside'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -259,7 +265,9 @@
                 "start": 961,
                 "end": 965,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -312,7 +320,9 @@
             "start": 1064,
             "end": 1073,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -364,14 +374,18 @@
             "start": 1113,
             "end": 1121,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1161,
             "value": "reference from \"selector\" Expression",
-            "raw": "'reference from \"selector\" Expression'"
+            "raw": "'reference from \"selector\" Expression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,14 +437,18 @@
             "start": 1195,
             "end": 1203,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1205,
             "end": 1240,
             "value": "reference from Statement position",
-            "raw": "'reference from Statement position'"
+            "raw": "'reference from Statement position'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

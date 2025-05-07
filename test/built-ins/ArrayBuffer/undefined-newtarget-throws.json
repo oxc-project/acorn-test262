@@ -144,7 +144,9 @@
                         "start": 533,
                         "end": 535,
                         "value": 10,
-                        "raw": "10"
+                        "raw": "10",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

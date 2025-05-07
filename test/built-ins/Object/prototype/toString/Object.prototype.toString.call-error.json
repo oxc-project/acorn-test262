@@ -102,14 +102,18 @@
             "start": 313,
             "end": 329,
             "value": "[object Error]",
-            "raw": "\"[object Error]\""
+            "raw": "\"[object Error]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 333,
             "end": 397,
             "value": "Object.prototype.toString.call(Error()) returns [object Error]",
-            "raw": "\"Object.prototype.toString.call(Error()) returns [object Error]\""
+            "raw": "\"Object.prototype.toString.call(Error()) returns [object Error]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,14 +232,18 @@
             "start": 472,
             "end": 488,
             "value": "[object Error]",
-            "raw": "\"[object Error]\""
+            "raw": "\"[object Error]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 564,
             "value": "Object.prototype.toString.call(Object(Error())) returns [object Error]",
-            "raw": "\"Object.prototype.toString.call(Object(Error())) returns [object Error]\""
+            "raw": "\"Object.prototype.toString.call(Object(Error())) returns [object Error]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -339,14 +347,18 @@
             "start": 635,
             "end": 651,
             "value": "[object Error]",
-            "raw": "\"[object Error]\""
+            "raw": "\"[object Error]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 723,
             "value": "Object.prototype.toString.call(new Error()) returns [object Error]",
-            "raw": "\"Object.prototype.toString.call(new Error()) returns [object Error]\""
+            "raw": "\"Object.prototype.toString.call(new Error()) returns [object Error]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -464,14 +476,18 @@
             "start": 802,
             "end": 818,
             "value": "[object Error]",
-            "raw": "\"[object Error]\""
+            "raw": "\"[object Error]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 822,
             "end": 898,
             "value": "Object.prototype.toString.call(Object(new Error())) returns [object Error]",
-            "raw": "\"Object.prototype.toString.call(Object(new Error())) returns [object Error]\""
+            "raw": "\"Object.prototype.toString.call(Object(new Error())) returns [object Error]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

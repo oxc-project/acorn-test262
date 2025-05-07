@@ -203,7 +203,9 @@ __ESTREE_TEST__:PASS:
                 "start": 164,
                 "end": 166,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -237,14 +239,18 @@ __ESTREE_TEST__:PASS:
             "start": 135,
             "end": 136,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 138,
             "end": 140,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -294,14 +300,18 @@ __ESTREE_TEST__:PASS:
                   "start": 203,
                   "end": 204,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 206,
                   "end": 208,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -326,7 +336,9 @@ __ESTREE_TEST__:PASS:
                   "start": 224,
                   "end": 226,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -371,7 +383,9 @@ __ESTREE_TEST__:PASS:
                   "start": 318,
                   "end": 319,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

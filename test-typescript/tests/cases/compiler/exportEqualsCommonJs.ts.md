@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 12,
               "end": 16,
               "raw": "\"hi\"",
-              "value": "hi"
+              "value": "hi",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init",
             "method": false,
@@ -35,7 +37,9 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 26,
               "raw": "\"there\"",
-              "value": "there"
+              "value": "there",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

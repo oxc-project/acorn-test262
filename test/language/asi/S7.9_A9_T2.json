@@ -17,7 +17,9 @@
         "start": 296,
         "end": 301,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -29,7 +31,9 @@
         "start": 303,
         "end": 307,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

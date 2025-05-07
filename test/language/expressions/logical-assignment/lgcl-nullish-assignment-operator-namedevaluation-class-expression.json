@@ -110,14 +110,18 @@
             "start": 700,
             "end": 707,
             "value": "value",
-            "raw": "\"value\""
+            "raw": "\"value\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 716,
             "value": "value",
-            "raw": "\"value\""
+            "raw": "\"value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

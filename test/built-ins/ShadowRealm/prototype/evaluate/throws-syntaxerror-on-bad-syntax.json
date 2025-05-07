@@ -75,14 +75,18 @@
             "start": 366,
             "end": 376,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 453,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +195,9 @@
                   "start": 532,
                   "end": 537,
                   "value": "...",
-                  "raw": "'...'"
+                  "raw": "'...'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -202,7 +208,9 @@
             "start": 540,
             "end": 571,
             "value": "SyntaxError exposed to Parent",
-            "raw": "'SyntaxError exposed to Parent'"
+            "raw": "'SyntaxError exposed to Parent'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +310,9 @@
             "start": 708,
             "end": 771,
             "value": "Strict mode only SyntaxError, setting value to a fn arguments",
-            "raw": "'Strict mode only SyntaxError, setting value to a fn arguments'"
+            "raw": "'Strict mode only SyntaxError, setting value to a fn arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,7 +412,9 @@
             "start": 885,
             "end": 927,
             "value": "Strict mode only SyntaxError, var public",
-            "raw": "'Strict mode only SyntaxError, var public'"
+            "raw": "'Strict mode only SyntaxError, var public'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

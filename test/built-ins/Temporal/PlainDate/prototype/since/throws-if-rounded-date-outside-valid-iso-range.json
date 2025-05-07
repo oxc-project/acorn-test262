@@ -47,21 +47,27 @@
                 "start": 1520,
                 "end": 1524,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1526,
                 "end": 1527,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1529,
                 "end": 1530,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,21 +119,27 @@
                 "start": 1565,
                 "end": 1569,
                 "value": 1971,
-                "raw": "1971"
+                "raw": "1971",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1571,
                 "end": 1572,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1574,
                 "end": 1575,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -173,7 +185,9 @@
                   "start": 1612,
                   "end": 1623,
                   "value": 100000000,
-                  "raw": "100_000_000"
+                  "raw": "100_000_000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -195,7 +209,9 @@
                   "start": 1639,
                   "end": 1647,
                   "value": "months",
-                  "raw": "\"months\""
+                  "raw": "\"months\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

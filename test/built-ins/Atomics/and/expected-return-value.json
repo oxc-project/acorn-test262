@@ -69,7 +69,9 @@
                       "start": 877,
                       "end": 878,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -100,7 +102,9 @@
             "start": 893,
             "end": 927,
             "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "raw": "0b00000001000000001000000010000001",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -126,7 +130,9 @@
             "start": 939,
             "end": 973,
             "value": 33521919,
-            "raw": "0b00000001111111111000000011111111"
+            "raw": "0b00000001111111111000000011111111",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -152,7 +158,9 @@
             "start": 985,
             "end": 1019,
             "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "raw": "0b00000001000000001000000010000001",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -182,7 +190,9 @@
             "start": 1027,
             "end": 1028,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -258,7 +268,9 @@
                 "start": 1074,
                 "end": 1075,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -280,7 +292,9 @@
             "start": 1088,
             "end": 1175,
             "value": "Atomics.and(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)",
-            "raw": "'Atomics.and(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)'"
+            "raw": "'Atomics.and(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,7 +343,9 @@
               "start": 1202,
               "end": 1203,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -345,7 +361,9 @@
             "start": 1209,
             "end": 1292,
             "value": "The value of i32a[0] equals the value of `c` (0b00000001000000001000000010000001)",
-            "raw": "'The value of i32a[0] equals the value of `c` (0b00000001000000001000000010000001)'"
+            "raw": "'The value of i32a[0] equals the value of `c` (0b00000001000000001000000010000001)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -316,14 +316,18 @@ __ESTREE_TEST__:PASS:
                       "start": 182,
                       "end": 184,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 186,
                       "end": 193,
                       "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -758,7 +762,9 @@ __ESTREE_TEST__:PASS:
                       "start": 411,
                       "end": 413,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -807,7 +813,9 @@ __ESTREE_TEST__:PASS:
                       "start": 434,
                       "end": 441,
                       "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -1218,14 +1226,18 @@ __ESTREE_TEST__:PASS:
                       "start": 650,
                       "end": 652,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 654,
                       "end": 661,
                       "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {

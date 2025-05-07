@@ -116,7 +116,9 @@ __ESTREE_TEST__:PASS:
           "start": 70,
           "end": 96,
           "raw": "'./arrayOfExportedClass_0'",
-          "value": "./arrayOfExportedClass_0"
+          "value": "./arrayOfExportedClass_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

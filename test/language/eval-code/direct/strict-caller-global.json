@@ -23,7 +23,9 @@
             "start": 753,
             "end": 770,
             "value": "var public = 1;",
-            "raw": "'var public = 1;'"
+            "raw": "'var public = 1;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

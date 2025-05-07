@@ -74,7 +74,9 @@
             "start": 348,
             "end": 384,
             "value": "Promise[Symbol.species] is Promise",
-            "raw": "\"Promise[Symbol.species] is Promise\""
+            "raw": "\"Promise[Symbol.species] is Promise\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -64,7 +64,9 @@
             "start": 1290,
             "end": 1291,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +149,9 @@
                             "start": 1322,
                             "end": 1348,
                             "value": "./module-code_FIXTURE.js",
-                            "raw": "'./module-code_FIXTURE.js'"
+                            "raw": "'./module-code_FIXTURE.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": null
                         },
@@ -234,7 +238,9 @@
                                       "start": 1409,
                                       "end": 1411,
                                       "value": 42,
-                                      "raw": "42"
+                                      "raw": "42",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -292,7 +298,9 @@
                                       "start": 1447,
                                       "end": 1456,
                                       "value": "Test262",
-                                      "raw": "'Test262'"
+                                      "raw": "'Test262'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -350,7 +358,9 @@
                                       "start": 1492,
                                       "end": 1494,
                                       "value": 42,
-                                      "raw": "42"
+                                      "raw": "42",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

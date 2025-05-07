@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -98,7 +99,9 @@
                   "start": 773,
                   "end": 775,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -140,7 +143,9 @@
           "start": 802,
           "end": 806,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -189,7 +194,9 @@
             "start": 847,
             "end": 876,
             "value": "`constructor` value is null",
-            "raw": "\"`constructor` value is null\""
+            "raw": "\"`constructor` value is null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +235,9 @@
           "start": 901,
           "end": 905,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -277,7 +286,9 @@
             "start": 946,
             "end": 978,
             "value": "`constructor` value is Boolean",
-            "raw": "\"`constructor` value is Boolean\""
+            "raw": "\"`constructor` value is Boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,7 +327,9 @@
           "start": 1003,
           "end": 1005,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -365,7 +378,9 @@
             "start": 1046,
             "end": 1077,
             "value": "`constructor` value is String",
-            "raw": "\"`constructor` value is String\""
+            "raw": "\"`constructor` value is String\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -459,7 +474,9 @@
             "start": 1151,
             "end": 1182,
             "value": "`constructor` value is Symbol",
-            "raw": "\"`constructor` value is Symbol\""
+            "raw": "\"`constructor` value is Symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -498,7 +515,9 @@
           "start": 1207,
           "end": 1208,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -547,7 +566,9 @@
             "start": 1249,
             "end": 1280,
             "value": "`constructor` value is Number",
-            "raw": "\"`constructor` value is Number\""
+            "raw": "\"`constructor` value is Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

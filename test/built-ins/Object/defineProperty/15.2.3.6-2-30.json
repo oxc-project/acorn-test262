@@ -67,7 +67,9 @@
             "start": 344,
             "end": 368,
             "value": 1e+21,
-            "raw": "1000000000000000000000.1"
+            "raw": "1000000000000000000000.1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                 "start": 402,
                 "end": 409,
                 "value": "1e+21",
-                "raw": "\"1e+21\""
+                "raw": "\"1e+21\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -133,7 +137,9 @@
             "start": 412,
             "end": 450,
             "value": "obj.hasOwnProperty(\"1e+21\") !== true",
-            "raw": "'obj.hasOwnProperty(\"1e+21\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"1e+21\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

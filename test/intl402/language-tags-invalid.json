@@ -229,7 +229,9 @@
                                         "start": 631,
                                         "end": 654,
                                         "value": "Invalid language tag ",
-                                        "raw": "\"Invalid language tag \""
+                                        "raw": "\"Invalid language tag \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -245,7 +247,9 @@
                                       "start": 663,
                                       "end": 683,
                                       "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "raw": "\" was not rejected.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

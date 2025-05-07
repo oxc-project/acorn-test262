@@ -66,7 +66,9 @@
                 "start": 387,
                 "end": 395,
                 "value": "source",
-                "raw": "'source'"
+                "raw": "'source'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,14 +136,18 @@
             "start": 430,
             "end": 440,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 442,
             "end": 456,
             "value": "typeof d.get",
-            "raw": "'typeof d.get'"
+            "raw": "'typeof d.get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,7 +211,9 @@
             "start": 494,
             "end": 501,
             "value": "d.set",
-            "raw": "'d.set'"
+            "raw": "'d.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +258,9 @@
             "start": 538,
             "end": 546,
             "value": "source",
-            "raw": "'source'"
+            "raw": "'source'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -275,7 +285,9 @@
                   "start": 564,
                   "end": 569,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -297,7 +309,9 @@
                   "start": 587,
                   "end": 591,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

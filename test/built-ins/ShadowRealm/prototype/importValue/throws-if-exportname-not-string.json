@@ -75,14 +75,18 @@
             "start": 362,
             "end": 372,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 376,
             "end": 452,
             "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -139,7 +143,9 @@
             "start": 498,
             "end": 499,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -212,7 +218,9 @@
                             "start": 551,
                             "end": 552,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -325,7 +333,9 @@
                         "start": 641,
                         "end": 643,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -383,7 +393,9 @@
             "start": 687,
             "end": 688,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

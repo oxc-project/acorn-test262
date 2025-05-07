@@ -36,14 +36,18 @@
                     "start": 1363,
                     "end": 1365,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1367,
                     "end": 1369,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -226,7 +230,9 @@
                                   "start": 1538,
                                   "end": 1545,
                                   "value": "hacks",
-                                  "raw": "\"hacks\""
+                                  "raw": "\"hacks\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -275,14 +281,18 @@
                 "start": 1581,
                 "end": 1583,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1585,
                 "end": 1586,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -323,14 +333,18 @@
                     "start": 1605,
                     "end": 1613,
                     "value": "hacks1",
-                    "raw": "\"hacks1\""
+                    "raw": "\"hacks1\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1615,
                     "end": 1623,
                     "value": "hacks2",
-                    "raw": "\"hacks2\""
+                    "raw": "\"hacks2\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -457,7 +471,9 @@
                       "start": 1730,
                       "end": 1731,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -526,7 +542,9 @@
                         "start": 1787,
                         "end": 1811,
                         "value": "returns expected value",
-                        "raw": "\"returns expected value\""
+                        "raw": "\"returns expected value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -571,14 +589,18 @@
                         "start": 1840,
                         "end": 1841,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1843,
                         "end": 1878,
                         "value": "valueOf called once for each item",
-                        "raw": "\"valueOf called once for each item\""
+                        "raw": "\"valueOf called once for each item\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

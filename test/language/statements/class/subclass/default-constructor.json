@@ -23,7 +23,9 @@
             "start": 219,
             "end": 220,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -190,14 +192,18 @@
             "start": 354,
             "end": 355,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 357,
             "end": 386,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,7 +229,9 @@
           "start": 398,
           "end": 399,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -339,14 +347,18 @@
             "start": 478,
             "end": 479,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 510,
             "value": "The value of `calls` is `0`",
-            "raw": "\"The value of `calls` is `0`\""
+            "raw": "\"The value of `calls` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

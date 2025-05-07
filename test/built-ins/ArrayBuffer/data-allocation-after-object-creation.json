@@ -78,7 +78,9 @@
                 "start": 774,
                 "end": 778,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
             "start": 814,
             "end": 825,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -284,7 +288,9 @@
                               "start": 1054,
                               "end": 1055,
                               "value": 7,
-                              "raw": "7"
+                              "raw": "7",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "*",
                             "right": {
@@ -292,7 +298,9 @@
                               "start": 1058,
                               "end": 1074,
                               "value": 1125899906842624,
-                              "raw": "1125899906842624"
+                              "raw": "1125899906842624",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

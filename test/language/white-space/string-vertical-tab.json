@@ -27,7 +27,9 @@
               "start": 283,
               "end": 311,
               "value": "'\u000bstr\u000bing\u000b'",
-              "raw": "\"'\\u000Bstr\\u000Bing\\u000B'\""
+              "raw": "\"'\\u000Bstr\\u000Bing\\u000B'\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 317,
           "end": 343,
           "value": "\u000bstr\u000bing\u000b",
-          "raw": "\"\\u000Bstr\\u000Bing\\u000B\""
+          "raw": "\"\\u000Bstr\\u000Bing\\u000B\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 372,
                   "end": 451,
                   "value": "#1: eval(\"'\\u000Bstr\\u000Bing\\u000B'\") === \"\\u000Bstr\\u000Bing\\u000B\"",
-                  "raw": "'#1: eval(\"\\'\\\\u000Bstr\\\\u000Bing\\\\u000B\\'\") === \"\\\\u000Bstr\\\\u000Bing\\\\u000B\"'"
+                  "raw": "'#1: eval(\"\\'\\\\u000Bstr\\\\u000Bing\\\\u000B\\'\") === \"\\\\u000Bstr\\\\u000Bing\\\\u000B\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 476,
               "end": 492,
               "value": "'\u000bstr\u000bing\u000b'",
-              "raw": "\"'\\vstr\\ving\\v'\""
+              "raw": "\"'\\vstr\\ving\\v'\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 498,
           "end": 512,
           "value": "\u000bstr\u000bing\u000b",
-          "raw": "\"\\vstr\\ving\\v\""
+          "raw": "\"\\vstr\\ving\\v\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 541,
                   "end": 596,
                   "value": "#2: eval(\"'\\vstr\\ving\\v'\") === \"\\vstr\\ving\\v\"",
-                  "raw": "'#2: eval(\"\\'\\\\vstr\\\\ving\\\\v\\'\") === \"\\\\vstr\\\\ving\\\\v\"'"
+                  "raw": "'#2: eval(\"\\'\\\\vstr\\\\ving\\\\v\\'\") === \"\\\\vstr\\\\ving\\\\v\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

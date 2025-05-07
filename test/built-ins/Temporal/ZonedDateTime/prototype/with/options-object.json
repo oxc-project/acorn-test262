@@ -48,6 +48,7 @@
                 "end": 319,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 321,
                 "end": 326,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 367,
                       "end": 368,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -197,6 +202,7 @@
             "end": 439,
             "value": null,
             "raw": "345600000000000n",
+            "regex": null,
             "bigint": "345600000000000"
           },
           {
@@ -204,14 +210,18 @@
             "start": 441,
             "end": 446,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 488,
             "value": "options may be an empty plain object",
-            "raw": "\"options may be an empty plain object\""
+            "raw": "\"options may be an empty plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +289,9 @@
                       "start": 530,
                       "end": 531,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -361,6 +373,7 @@
             "end": 608,
             "value": null,
             "raw": "345600000000000n",
+            "regex": null,
             "bigint": "345600000000000"
           },
           {
@@ -368,14 +381,18 @@
             "start": 610,
             "end": 615,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 619,
             "end": 653,
             "value": "options may be a function object",
-            "raw": "\"options may be a function object\""
+            "raw": "\"options may be a function object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

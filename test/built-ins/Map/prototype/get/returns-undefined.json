@@ -91,7 +91,9 @@
                 "start": 623,
                 "end": 629,
                 "value": "item",
-                "raw": "'item'"
+                "raw": "'item'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -107,7 +109,9 @@
             "start": 644,
             "end": 688,
             "value": "returns undefined if key is not on the map",
-            "raw": "'returns undefined if key is not on the map'"
+            "raw": "'returns undefined if key is not on the map'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,14 +150,18 @@
             "start": 701,
             "end": 707,
             "value": "item",
-            "raw": "'item'"
+            "raw": "'item'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 710,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,14 +200,18 @@
             "start": 721,
             "end": 735,
             "value": "another_item",
-            "raw": "'another_item'"
+            "raw": "'another_item'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 738,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +250,9 @@
             "start": 752,
             "end": 758,
             "value": "item",
-            "raw": "'item'"
+            "raw": "'item'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +315,9 @@
                 "start": 790,
                 "end": 796,
                 "value": "item",
-                "raw": "'item'"
+                "raw": "'item'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -317,7 +333,9 @@
             "start": 812,
             "end": 850,
             "value": "returns undefined if key was deleted",
-            "raw": "'returns undefined if key was deleted'"
+            "raw": "'returns undefined if key was deleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +374,18 @@
             "start": 863,
             "end": 869,
             "value": "item",
-            "raw": "'item'"
+            "raw": "'item'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 871,
             "end": 872,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -457,7 +479,9 @@
                 "start": 917,
                 "end": 923,
                 "value": "item",
-                "raw": "'item'"
+                "raw": "'item'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -473,7 +497,9 @@
             "start": 939,
             "end": 979,
             "value": "returns undefined after map is cleared",
-            "raw": "'returns undefined after map is cleared'"
+            "raw": "'returns undefined after map is cleared'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

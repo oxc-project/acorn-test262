@@ -28,70 +28,90 @@
                 "start": 296,
                 "end": 303,
                 "value": "years",
-                "raw": "'years'"
+                "raw": "'years'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 313,
                 "value": "months",
-                "raw": "'months'"
+                "raw": "'months'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 322,
                 "value": "weeks",
-                "raw": "'weeks'"
+                "raw": "'weeks'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 330,
                 "value": "days",
-                "raw": "'days'"
+                "raw": "'days'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 339,
                 "value": "hours",
-                "raw": "'hours'"
+                "raw": "'hours'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 350,
                 "value": "minutes",
-                "raw": "'minutes'"
+                "raw": "'minutes'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 361,
                 "value": "seconds",
-                "raw": "'seconds'"
+                "raw": "'seconds'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 377,
                 "value": "milliseconds",
-                "raw": "'milliseconds'"
+                "raw": "'milliseconds'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 393,
                 "value": "microseconds",
-                "raw": "'microseconds'"
+                "raw": "'microseconds'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 408,
                 "value": "nanoseconds",
-                "raw": "'nanoseconds'"
+                "raw": "'nanoseconds'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -298,7 +318,9 @@
             "start": 540,
             "end": 541,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -467,7 +489,9 @@
                       "start": 652,
                       "end": 653,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -626,14 +650,18 @@
                         "start": 758,
                         "end": 759,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 761,
                         "end": 806,
                         "value": "it fails after fetching the primitive value",
-                        "raw": "\"it fails after fetching the primitive value\""
+                        "raw": "\"it fails after fetching the primitive value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

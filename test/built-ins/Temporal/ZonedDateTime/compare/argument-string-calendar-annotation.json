@@ -33,14 +33,18 @@
                     "start": 301,
                     "end": 338,
                     "value": "1970-01-01T00:00[UTC][u-ca=iso8601]",
-                    "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601]\""
+                    "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 340,
                     "end": 351,
                     "value": "without !",
-                    "raw": "\"without !\""
+                    "raw": "\"without !\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 357,
                     "end": 395,
                     "value": "1970-01-01T00:00[UTC][!u-ca=iso8601]",
-                    "raw": "\"1970-01-01T00:00[UTC][!u-ca=iso8601]\""
+                    "raw": "\"1970-01-01T00:00[UTC][!u-ca=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 397,
                     "end": 405,
                     "value": "with !",
-                    "raw": "\"with !\""
+                    "raw": "\"with !\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 411,
                     "end": 462,
                     "value": "1970-01-01T00:00[UTC][u-ca=iso8601][u-ca=discord]",
-                    "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][u-ca=discord]\""
+                    "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][u-ca=discord]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 464,
                     "end": 491,
                     "value": "second annotation ignored",
-                    "raw": "\"second annotation ignored\""
+                    "raw": "\"second annotation ignored\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -264,7 +276,9 @@
                         "start": 634,
                         "end": 635,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

@@ -254,7 +254,9 @@
                             "start": 855,
                             "end": 856,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -274,7 +276,9 @@
                             "start": 879,
                             "end": 880,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -289,7 +293,9 @@
             "start": 887,
             "end": 979,
             "value": "`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2))` throws a Test262Error exception",
-            "raw": "'`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2))` throws a Test262Error exception'"
+            "raw": "'`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2))` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -363,7 +369,9 @@
                         "start": 1030,
                         "end": 1031,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "NewExpression",
@@ -381,7 +389,9 @@
                             "start": 1053,
                             "end": 1054,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -396,7 +406,9 @@
             "start": 1061,
             "end": 1132,
             "value": "`new Date(1, new PoisonedValueOf(2))` throws a Test262Error exception",
-            "raw": "'`new Date(1, new PoisonedValueOf(2))` throws a Test262Error exception'"
+            "raw": "'`new Date(1, new PoisonedValueOf(2))` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -47,14 +47,18 @@
                 "start": 626,
                 "end": 628,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 630,
                 "end": 632,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -137,7 +141,9 @@
                       "start": 698,
                       "end": 699,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -172,21 +178,27 @@
             "start": 728,
             "end": 733,
             "value": "M10",
-            "raw": "\"M10\""
+            "raw": "\"M10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 735,
             "end": 736,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 821,
             "value": "only the properties that are present and defined in the plain object are copied",
-            "raw": "\"only the properties that are present and defined in the plain object are copied\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

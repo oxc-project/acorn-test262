@@ -23,7 +23,9 @@
             "start": 405,
             "end": 409,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,14 +77,18 @@
             "start": 442,
             "end": 451,
             "value": "boolean",
-            "raw": "'boolean'"
+            "raw": "'boolean'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 509,
             "value": "The value of `typeof bool` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof bool` is expected to be \"boolean\"'"
+            "raw": "'The value of `typeof bool` is expected to be \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +191,9 @@
             "start": 581,
             "end": 653,
             "value": "The value of obj.constructor is expected to equal the value of Boolean",
-            "raw": "'The value of obj.constructor is expected to equal the value of Boolean'"
+            "raw": "'The value of obj.constructor is expected to equal the value of Boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,14 +245,18 @@
             "start": 685,
             "end": 693,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 695,
             "end": 749,
             "value": "The value of `typeof obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +302,9 @@
             "start": 766,
             "end": 809,
             "value": "The value of !!obj is expected to be true",
-            "raw": "'The value of !!obj is expected to be true'"
+            "raw": "'The value of !!obj is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,14 +349,18 @@
             "start": 837,
             "end": 841,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 873,
             "value": "The value of obj is not true",
-            "raw": "'The value of obj is not true'"
+            "raw": "'The value of obj is not true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

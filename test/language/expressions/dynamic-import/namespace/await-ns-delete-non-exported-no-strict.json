@@ -50,7 +50,9 @@
                       "start": 3999,
                       "end": 4019,
                       "value": "./empty_FIXTURE.js",
-                      "raw": "'./empty_FIXTURE.js'"
+                      "raw": "'./empty_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -105,7 +107,9 @@
                   "start": 4051,
                   "end": 4066,
                   "value": "delete: undef",
-                  "raw": "'delete: undef'"
+                  "raw": "'delete: undef'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -161,7 +165,9 @@
                       "start": 4107,
                       "end": 4114,
                       "value": "undef",
-                      "raw": "'undef'"
+                      "raw": "'undef'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -171,7 +177,9 @@
                   "start": 4117,
                   "end": 4148,
                   "value": "Reflect.deleteProperty: undef",
-                  "raw": "'Reflect.deleteProperty: undef'"
+                  "raw": "'Reflect.deleteProperty: undef'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -223,7 +231,9 @@
                   "start": 4182,
                   "end": 4199,
                   "value": "delete: default",
-                  "raw": "'delete: default'"
+                  "raw": "'delete: default'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -279,7 +289,9 @@
                       "start": 4247,
                       "end": 4256,
                       "value": "default",
-                      "raw": "'default'"
+                      "raw": "'default'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -289,7 +301,9 @@
                   "start": 4259,
                   "end": 4292,
                   "value": "Reflect.deleteProperty: default",
-                  "raw": "'Reflect.deleteProperty: default'"
+                  "raw": "'Reflect.deleteProperty: default'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -367,14 +381,18 @@
                   "start": 4353,
                   "end": 4358,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4360,
                   "end": 4388,
                   "value": "delete: Symbol.toStringTag",
-                  "raw": "'delete: Symbol.toStringTag'"
+                  "raw": "'delete: Symbol.toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -465,14 +483,18 @@
                   "start": 4467,
                   "end": 4472,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4480,
                   "end": 4524,
                   "value": "Reflect.deleteProperty: Symbol.toStringTag",
-                  "raw": "'Reflect.deleteProperty: Symbol.toStringTag'"
+                  "raw": "'Reflect.deleteProperty: Symbol.toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -509,7 +531,9 @@
                       "start": 4554,
                       "end": 4563,
                       "value": "test262",
-                      "raw": "'test262'"
+                      "raw": "'test262'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -564,7 +588,9 @@
                   "start": 4593,
                   "end": 4609,
                   "value": "delete: symbol",
-                  "raw": "'delete: symbol'"
+                  "raw": "'delete: symbol'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -629,7 +655,9 @@
                   "start": 4656,
                   "end": 4688,
                   "value": "Reflect.deleteProperty: symbol",
-                  "raw": "'Reflect.deleteProperty: symbol'"
+                  "raw": "'Reflect.deleteProperty: symbol'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

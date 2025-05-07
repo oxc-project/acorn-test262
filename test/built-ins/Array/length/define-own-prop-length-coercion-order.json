@@ -28,14 +28,18 @@
                 "start": 1091,
                 "end": 1092,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1094,
                 "end": 1095,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -63,7 +67,9 @@
             "start": 1117,
             "end": 1118,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -136,7 +142,9 @@
                             "start": 1179,
                             "end": 1180,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -160,7 +168,9 @@
                             "start": 1207,
                             "end": 1208,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -207,7 +217,9 @@
                                     "start": 1286,
                                     "end": 1294,
                                     "value": "length",
-                                    "raw": "\"length\""
+                                    "raw": "\"length\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -232,7 +244,9 @@
                                           "start": 1307,
                                           "end": 1312,
                                           "value": false,
-                                          "raw": "false"
+                                          "raw": "false",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "kind": "init"
                                       }
@@ -368,7 +382,9 @@
                         "start": 1425,
                         "end": 1433,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -414,7 +430,9 @@
                               "start": 1461,
                               "end": 1465,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -432,7 +450,9 @@
             "start": 1472,
             "end": 1574,
             "value": "Object.defineProperty(array, \"length\", {value: length, writable: true}) throws a TypeError exception",
-            "raw": "'Object.defineProperty(array, \"length\", {value: length, writable: true}) throws a TypeError exception'"
+            "raw": "'Object.defineProperty(array, \"length\", {value: length, writable: true}) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -477,14 +497,18 @@
             "start": 1608,
             "end": 1609,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1611,
             "end": 1658,
             "value": "The value of valueOfCalls is expected to be 2",
-            "raw": "'The value of valueOfCalls is expected to be 2'"
+            "raw": "'The value of valueOfCalls is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,14 +539,18 @@
               "start": 1672,
               "end": 1673,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1675,
               "end": 1676,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -548,7 +576,9 @@
           "start": 1694,
           "end": 1695,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -608,7 +638,9 @@
                   "start": 1739,
                   "end": 1747,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -654,7 +686,9 @@
                         "start": 1775,
                         "end": 1779,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -669,7 +703,9 @@
             "start": 1785,
             "end": 1896,
             "value": "The value of !Reflect.defineProperty(array, \"length\", {value: length, writable: true}) is expected to be true",
-            "raw": "'The value of !Reflect.defineProperty(array, \"length\", {value: length, writable: true}) is expected to be true'"
+            "raw": "'The value of !Reflect.defineProperty(array, \"length\", {value: length, writable: true}) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -714,14 +750,18 @@
             "start": 1931,
             "end": 1932,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1934,
             "end": 1981,
             "value": "The value of valueOfCalls is expected to be 2",
-            "raw": "'The value of valueOfCalls is expected to be 2'"
+            "raw": "'The value of valueOfCalls is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -40,7 +40,9 @@
               "start": 343,
               "end": 351,
               "value": "length",
-              "raw": "'length'"
+              "raw": "'length'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -51,7 +53,9 @@
           "start": 357,
           "end": 362,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -83,7 +87,9 @@
                     "start": 391,
                     "end": 459,
                     "value": "#1: decodeURI.propertyIsEnumerable('length') === false. Actual: ",
-                    "raw": "'#1: decodeURI.propertyIsEnumerable(\\'length\\') === false. Actual: '"
+                    "raw": "'#1: decodeURI.propertyIsEnumerable(\\'length\\') === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -119,7 +125,9 @@
                           "start": 494,
                           "end": 502,
                           "value": "length",
-                          "raw": "'length'"
+                          "raw": "'length'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -153,7 +161,9 @@
             "start": 533,
             "end": 537,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -214,7 +224,9 @@
                 "start": 578,
                 "end": 586,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -242,7 +254,9 @@
                       "start": 603,
                       "end": 608,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -273,7 +287,9 @@
           "start": 632,
           "end": 636,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -301,7 +317,9 @@
                   "start": 665,
                   "end": 764,
                   "value": "#2: result = true; for (p in decodeURI) { if (p === \"length\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in decodeURI) { if (p === \"length\") result = false; }  result === true;'"
+                  "raw": "'#2: result = true; for (p in decodeURI) { if (p === \"length\") result = false; }  result === true;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

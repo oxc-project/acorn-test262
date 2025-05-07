@@ -16,7 +16,8 @@
         "regex": {
           "pattern": "(?i-s:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -32,7 +33,8 @@
         "regex": {
           "pattern": "(?i-sm:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -48,7 +50,8 @@
         "regex": {
           "pattern": "(?i-m:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -64,7 +67,8 @@
         "regex": {
           "pattern": "(?i-ms:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -80,7 +84,8 @@
         "regex": {
           "pattern": "(?s-i:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -96,7 +101,8 @@
         "regex": {
           "pattern": "(?s-im:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -112,7 +118,8 @@
         "regex": {
           "pattern": "(?s-m:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -128,7 +135,8 @@
         "regex": {
           "pattern": "(?s-mi:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -144,7 +152,8 @@
         "regex": {
           "pattern": "(?m-i:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -160,7 +169,8 @@
         "regex": {
           "pattern": "(?m-is:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -176,7 +186,8 @@
         "regex": {
           "pattern": "(?m-s:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -192,7 +203,8 @@
         "regex": {
           "pattern": "(?m-si:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -208,7 +220,8 @@
         "regex": {
           "pattern": "(?is-m:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -224,7 +237,8 @@
         "regex": {
           "pattern": "(?im-s:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -240,7 +254,8 @@
         "regex": {
           "pattern": "(?si-m:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -256,7 +271,8 @@
         "regex": {
           "pattern": "(?sm-i:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -272,7 +288,8 @@
         "regex": {
           "pattern": "(?mi-s:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -288,7 +305,8 @@
         "regex": {
           "pattern": "(?ms-i:)",
           "flags": ""
-        }
+        },
+        "bigint": null
       }
     },
     {
@@ -311,7 +329,9 @@
             "start": 2002,
             "end": 2011,
             "value": "(?i-s:)",
-            "raw": "\"(?i-s:)\""
+            "raw": "\"(?i-s:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -336,7 +356,9 @@
             "start": 2025,
             "end": 2035,
             "value": "(?i-sm:)",
-            "raw": "\"(?i-sm:)\""
+            "raw": "\"(?i-sm:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -361,7 +383,9 @@
             "start": 2049,
             "end": 2058,
             "value": "(?i-m:)",
-            "raw": "\"(?i-m:)\""
+            "raw": "\"(?i-m:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -386,7 +410,9 @@
             "start": 2072,
             "end": 2082,
             "value": "(?i-ms:)",
-            "raw": "\"(?i-ms:)\""
+            "raw": "\"(?i-ms:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -411,7 +437,9 @@
             "start": 2096,
             "end": 2105,
             "value": "(?s-i:)",
-            "raw": "\"(?s-i:)\""
+            "raw": "\"(?s-i:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -436,7 +464,9 @@
             "start": 2119,
             "end": 2129,
             "value": "(?s-im:)",
-            "raw": "\"(?s-im:)\""
+            "raw": "\"(?s-im:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -461,7 +491,9 @@
             "start": 2143,
             "end": 2152,
             "value": "(?s-m:)",
-            "raw": "\"(?s-m:)\""
+            "raw": "\"(?s-m:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -486,7 +518,9 @@
             "start": 2166,
             "end": 2176,
             "value": "(?s-mi:)",
-            "raw": "\"(?s-mi:)\""
+            "raw": "\"(?s-mi:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -511,7 +545,9 @@
             "start": 2190,
             "end": 2199,
             "value": "(?m-i:)",
-            "raw": "\"(?m-i:)\""
+            "raw": "\"(?m-i:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -536,7 +572,9 @@
             "start": 2213,
             "end": 2223,
             "value": "(?m-is:)",
-            "raw": "\"(?m-is:)\""
+            "raw": "\"(?m-is:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -561,7 +599,9 @@
             "start": 2237,
             "end": 2246,
             "value": "(?m-s:)",
-            "raw": "\"(?m-s:)\""
+            "raw": "\"(?m-s:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -586,7 +626,9 @@
             "start": 2260,
             "end": 2270,
             "value": "(?m-si:)",
-            "raw": "\"(?m-si:)\""
+            "raw": "\"(?m-si:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -611,7 +653,9 @@
             "start": 2284,
             "end": 2294,
             "value": "(?is-m:)",
-            "raw": "\"(?is-m:)\""
+            "raw": "\"(?is-m:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -636,7 +680,9 @@
             "start": 2308,
             "end": 2318,
             "value": "(?im-s:)",
-            "raw": "\"(?im-s:)\""
+            "raw": "\"(?im-s:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -661,7 +707,9 @@
             "start": 2332,
             "end": 2342,
             "value": "(?si-m:)",
-            "raw": "\"(?si-m:)\""
+            "raw": "\"(?si-m:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -686,7 +734,9 @@
             "start": 2356,
             "end": 2366,
             "value": "(?sm-i:)",
-            "raw": "\"(?sm-i:)\""
+            "raw": "\"(?sm-i:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -711,7 +761,9 @@
             "start": 2380,
             "end": 2390,
             "value": "(?mi-s:)",
-            "raw": "\"(?mi-s:)\""
+            "raw": "\"(?mi-s:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -736,7 +788,9 @@
             "start": 2404,
             "end": 2414,
             "value": "(?ms-i:)",
-            "raw": "\"(?ms-i:)\""
+            "raw": "\"(?ms-i:)\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

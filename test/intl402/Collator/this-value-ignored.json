@@ -208,7 +208,9 @@
                         "start": 507,
                         "end": 576,
                         "value": "Collator object created with \"new\" was not ignored as this-value.",
-                        "raw": "\"Collator object created with \\\"new\\\" was not ignored as this-value.\""
+                        "raw": "\"Collator object created with \\\"new\\\" was not ignored as this-value.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -476,7 +478,9 @@
                         "start": 954,
                         "end": 1039,
                         "value": "Collator object created with constructor as function was not ignored as this-value.",
-                        "raw": "\"Collator object created with constructor as function was not ignored as this-value.\""
+                        "raw": "\"Collator object created with constructor as function was not ignored as this-value.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

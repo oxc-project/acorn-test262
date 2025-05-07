@@ -73,7 +73,9 @@
                             "start": 1100,
                             "end": 1112,
                             "value": "use strict",
-                            "raw": "\"use strict\""
+                            "raw": "\"use strict\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "directive": "use strict"
                         },
@@ -99,7 +101,9 @@
                   "start": 1139,
                   "end": 1147,
                   "value": "callee",
-                  "raw": "\"callee\""
+                  "raw": "\"callee\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -206,7 +210,9 @@
                 "start": 1225,
                 "end": 1236,
                 "value": "arguments",
-                "raw": "\"arguments\""
+                "raw": "\"arguments\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -216,7 +222,9 @@
             "start": 1239,
             "end": 1244,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -90,14 +90,18 @@
                         "start": 334,
                         "end": 344,
                         "value": "property",
-                        "raw": "\"property\""
+                        "raw": "\"property\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 346,
                         "end": 351,
                         "value": "abc",
-                        "raw": "\"abc\""
+                        "raw": "\"abc\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

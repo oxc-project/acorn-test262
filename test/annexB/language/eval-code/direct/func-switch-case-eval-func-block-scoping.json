@@ -105,7 +105,9 @@
                               "start": 1145,
                               "end": 1159,
                               "value": "switch (1) {",
-                              "raw": "'switch (1) {'"
+                              "raw": "'switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -113,7 +115,9 @@
                               "start": 1166,
                               "end": 1177,
                               "value": "  case 1:",
-                              "raw": "'  case 1:'"
+                              "raw": "'  case 1:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -122,7 +126,9 @@
                             "start": 1184,
                             "end": 1260,
                             "value": "    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }",
-                            "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'"
+                            "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -131,7 +137,9 @@
                           "start": 1267,
                           "end": 1301,
                           "value": "}    varBinding = f;    f();",
-                          "raw": "'}\\\n    varBinding = f;\\\n    f();'"
+                          "raw": "'}\\\n    varBinding = f;\\\n    f();'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -192,14 +200,18 @@
             "start": 1350,
             "end": 1356,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1360,
             "end": 1425,
             "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "raw": "'Block-scoped binding value is function object at execution time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,14 +256,18 @@
             "start": 1457,
             "end": 1460,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1462,
             "end": 1495,
             "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "raw": "'Block-scoped binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,14 +319,18 @@
             "start": 1534,
             "end": 1540,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1544,
             "end": 1609,
             "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

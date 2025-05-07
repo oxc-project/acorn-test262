@@ -198,7 +198,9 @@
                   "start": 485,
                   "end": 486,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

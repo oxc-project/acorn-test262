@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "a.a|(?-s:b.b|(?s:c.c)|d.d|(?-s:e.e)|f.f)|g.g|(?s:h.h)|k.k",
               "flags": "s"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 2239,
                 "end": 2245,
                 "value": "a\na",
-                "raw": "\"a\\na\""
+                "raw": "\"a\\na\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 2248,
             "end": 2276,
             "value": "`a.a` should match newline",
-            "raw": "\"`a.a` should match newline\""
+            "raw": "\"`a.a` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -143,7 +148,9 @@
                   "start": 2296,
                   "end": 2302,
                   "value": "b\nb",
-                  "raw": "\"b\\nb\""
+                  "raw": "\"b\\nb\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -154,7 +161,9 @@
             "start": 2305,
             "end": 2337,
             "value": "`b.b` should not match newline",
-            "raw": "\"`b.b` should not match newline\""
+            "raw": "\"`b.b` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +213,9 @@
                 "start": 2356,
                 "end": 2362,
                 "value": "c\nc",
-                "raw": "\"c\\nc\""
+                "raw": "\"c\\nc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -214,7 +225,9 @@
             "start": 2365,
             "end": 2393,
             "value": "`c.c` should match newline",
-            "raw": "\"`c.c` should match newline\""
+            "raw": "\"`c.c` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -270,7 +283,9 @@
                   "start": 2413,
                   "end": 2419,
                   "value": "d\nd",
-                  "raw": "\"d\\nd\""
+                  "raw": "\"d\\nd\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -281,7 +296,9 @@
             "start": 2422,
             "end": 2454,
             "value": "`d.d` should not match newline",
-            "raw": "\"`d.d` should not match newline\""
+            "raw": "\"`d.d` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +354,9 @@
                   "start": 2474,
                   "end": 2480,
                   "value": "e\ne",
-                  "raw": "\"e\\ne\""
+                  "raw": "\"e\\ne\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -348,7 +367,9 @@
             "start": 2483,
             "end": 2515,
             "value": "`e.e` should not match newline",
-            "raw": "\"`e.e` should not match newline\""
+            "raw": "\"`e.e` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -404,7 +425,9 @@
                   "start": 2535,
                   "end": 2541,
                   "value": "f\nf",
-                  "raw": "\"f\\nf\""
+                  "raw": "\"f\\nf\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -415,7 +438,9 @@
             "start": 2544,
             "end": 2576,
             "value": "`f.f` should not match newline",
-            "raw": "\"`f.f` should not match newline\""
+            "raw": "\"`f.f` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +490,9 @@
                 "start": 2595,
                 "end": 2601,
                 "value": "g\ng",
-                "raw": "\"g\\ng\""
+                "raw": "\"g\\ng\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -475,7 +502,9 @@
             "start": 2604,
             "end": 2632,
             "value": "`g.g` should match newline",
-            "raw": "\"`g.g` should match newline\""
+            "raw": "\"`g.g` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -525,7 +554,9 @@
                 "start": 2651,
                 "end": 2657,
                 "value": "h\nh",
-                "raw": "\"h\\nh\""
+                "raw": "\"h\\nh\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -535,7 +566,9 @@
             "start": 2660,
             "end": 2688,
             "value": "`h.h` should match newline",
-            "raw": "\"`h.h` should match newline\""
+            "raw": "\"`h.h` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -585,7 +618,9 @@
                 "start": 2707,
                 "end": 2713,
                 "value": "k\nk",
-                "raw": "\"k\\nk\""
+                "raw": "\"k\\nk\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -595,7 +630,9 @@
             "start": 2716,
             "end": 2744,
             "value": "`k.k` should match newline",
-            "raw": "\"`k.k` should match newline\""
+            "raw": "\"`k.k` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -625,7 +662,8 @@
             "regex": {
               "pattern": "a.a|(?s:b.b|(?-s:c.c)|d.d|(?s:e.e)|f.f)|g.g|(?-s:h.h)|k.k",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -681,7 +719,9 @@
                   "start": 2836,
                   "end": 2842,
                   "value": "a\na",
-                  "raw": "\"a\\na\""
+                  "raw": "\"a\\na\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -692,7 +732,9 @@
             "start": 2845,
             "end": 2877,
             "value": "`a.a` should not match newline",
-            "raw": "\"`a.a` should not match newline\""
+            "raw": "\"`a.a` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -742,7 +784,9 @@
                 "start": 2896,
                 "end": 2902,
                 "value": "b\nb",
-                "raw": "\"b\\nb\""
+                "raw": "\"b\\nb\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -752,7 +796,9 @@
             "start": 2905,
             "end": 2933,
             "value": "`b.b` should match newline",
-            "raw": "\"`b.b` should match newline\""
+            "raw": "\"`b.b` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -808,7 +854,9 @@
                   "start": 2953,
                   "end": 2959,
                   "value": "c\nc",
-                  "raw": "\"c\\nc\""
+                  "raw": "\"c\\nc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -819,7 +867,9 @@
             "start": 2962,
             "end": 2994,
             "value": "`c.c` should not match newline",
-            "raw": "\"`c.c` should not match newline\""
+            "raw": "\"`c.c` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -869,7 +919,9 @@
                 "start": 3013,
                 "end": 3019,
                 "value": "d\nd",
-                "raw": "\"d\\nd\""
+                "raw": "\"d\\nd\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -879,7 +931,9 @@
             "start": 3022,
             "end": 3050,
             "value": "`d.d` should match newline",
-            "raw": "\"`d.d` should match newline\""
+            "raw": "\"`d.d` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -929,7 +983,9 @@
                 "start": 3069,
                 "end": 3075,
                 "value": "e\ne",
-                "raw": "\"e\\ne\""
+                "raw": "\"e\\ne\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -939,7 +995,9 @@
             "start": 3078,
             "end": 3106,
             "value": "`e.e` should match newline",
-            "raw": "\"`e.e` should match newline\""
+            "raw": "\"`e.e` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -989,7 +1047,9 @@
                 "start": 3125,
                 "end": 3131,
                 "value": "f\nf",
-                "raw": "\"f\\nf\""
+                "raw": "\"f\\nf\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -999,7 +1059,9 @@
             "start": 3134,
             "end": 3162,
             "value": "`f.f` should match newline",
-            "raw": "\"`f.f` should match newline\""
+            "raw": "\"`f.f` should match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1055,7 +1117,9 @@
                   "start": 3182,
                   "end": 3188,
                   "value": "g\ng",
-                  "raw": "\"g\\ng\""
+                  "raw": "\"g\\ng\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1066,7 +1130,9 @@
             "start": 3191,
             "end": 3223,
             "value": "`g.g` should not match newline",
-            "raw": "\"`g.g` should not match newline\""
+            "raw": "\"`g.g` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1122,7 +1188,9 @@
                   "start": 3243,
                   "end": 3249,
                   "value": "h\nh",
-                  "raw": "\"h\\nh\""
+                  "raw": "\"h\\nh\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1133,7 +1201,9 @@
             "start": 3252,
             "end": 3284,
             "value": "`h.h` should not match newline",
-            "raw": "\"`h.h` should not match newline\""
+            "raw": "\"`h.h` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1189,7 +1259,9 @@
                   "start": 3304,
                   "end": 3310,
                   "value": "k\nk",
-                  "raw": "\"k\\nk\""
+                  "raw": "\"k\\nk\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1200,7 +1272,9 @@
             "start": 3313,
             "end": 3345,
             "value": "`k.k` should not match newline",
-            "raw": "\"`k.k` should not match newline\""
+            "raw": "\"`k.k` should not match newline\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

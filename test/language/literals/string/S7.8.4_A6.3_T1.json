@@ -16,7 +16,9 @@
           "start": 305,
           "end": 312,
           "value": "\u0001F",
-          "raw": "'\\x01F'"
+          "raw": "'\\x01F'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -52,7 +54,9 @@
                 "start": 337,
                 "end": 340,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +67,9 @@
             "start": 344,
             "end": 347,
             "value": "F",
-            "raw": "'F'"
+            "raw": "'F'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -92,7 +98,9 @@
                   "start": 376,
                   "end": 424,
                   "value": "#1: '\u0001F' === String.fromCharCode('1') + 'F'",
-                  "raw": "\"#1: '\\x01F' === String.fromCharCode('1') + 'F'\""
+                  "raw": "\"#1: '\\x01F' === String.fromCharCode('1') + 'F'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -114,7 +122,9 @@
           "start": 444,
           "end": 451,
           "value": "\u0002E",
-          "raw": "'\\x02E'"
+          "raw": "'\\x02E'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -150,7 +160,9 @@
                 "start": 476,
                 "end": 479,
                 "value": "2",
-                "raw": "'2'"
+                "raw": "'2'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -161,7 +173,9 @@
             "start": 483,
             "end": 486,
             "value": "E",
-            "raw": "'E'"
+            "raw": "'E'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -190,7 +204,9 @@
                   "start": 515,
                   "end": 563,
                   "value": "#2: '\u0002E' === String.fromCharCode('2') + 'E'",
-                  "raw": "\"#2: '\\x02E' === String.fromCharCode('2') + 'E'\""
+                  "raw": "\"#2: '\\x02E' === String.fromCharCode('2') + 'E'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -212,7 +228,9 @@
           "start": 583,
           "end": 590,
           "value": "\u0003D",
-          "raw": "'\\x03D'"
+          "raw": "'\\x03D'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -248,7 +266,9 @@
                 "start": 615,
                 "end": 618,
                 "value": "3",
-                "raw": "'3'"
+                "raw": "'3'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -259,7 +279,9 @@
             "start": 622,
             "end": 625,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -288,7 +310,9 @@
                   "start": 654,
                   "end": 702,
                   "value": "#3: '\u0003D' === String.fromCharCode('3') + 'D'",
-                  "raw": "\"#3: '\\x03D' === String.fromCharCode('3') + 'D'\""
+                  "raw": "\"#3: '\\x03D' === String.fromCharCode('3') + 'D'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -310,7 +334,9 @@
           "start": 722,
           "end": 729,
           "value": "\u0004C",
-          "raw": "'\\x04C'"
+          "raw": "'\\x04C'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -346,7 +372,9 @@
                 "start": 754,
                 "end": 757,
                 "value": "4",
-                "raw": "'4'"
+                "raw": "'4'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -357,7 +385,9 @@
             "start": 761,
             "end": 764,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -386,7 +416,9 @@
                   "start": 793,
                   "end": 841,
                   "value": "#4: '\u0004C' === String.fromCharCode('4') + 'C'",
-                  "raw": "\"#4: '\\x04C' === String.fromCharCode('4') + 'C'\""
+                  "raw": "\"#4: '\\x04C' === String.fromCharCode('4') + 'C'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -408,7 +440,9 @@
           "start": 861,
           "end": 868,
           "value": "\u0005B",
-          "raw": "'\\x05B'"
+          "raw": "'\\x05B'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -444,7 +478,9 @@
                 "start": 893,
                 "end": 896,
                 "value": "5",
-                "raw": "'5'"
+                "raw": "'5'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -455,7 +491,9 @@
             "start": 900,
             "end": 903,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -484,7 +522,9 @@
                   "start": 932,
                   "end": 980,
                   "value": "#5: '\u0005B' === String.fromCharCode('5') + 'B'",
-                  "raw": "\"#5: '\\x05B' === String.fromCharCode('5') + 'B'\""
+                  "raw": "\"#5: '\\x05B' === String.fromCharCode('5') + 'B'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -506,7 +546,9 @@
           "start": 1000,
           "end": 1007,
           "value": "\u0006A",
-          "raw": "'\\x06A'"
+          "raw": "'\\x06A'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -542,7 +584,9 @@
                 "start": 1032,
                 "end": 1035,
                 "value": "6",
-                "raw": "'6'"
+                "raw": "'6'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -553,7 +597,9 @@
             "start": 1039,
             "end": 1042,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -582,7 +628,9 @@
                   "start": 1071,
                   "end": 1119,
                   "value": "#6: '\u0006A' === String.fromCharCode('6') + 'A'",
-                  "raw": "\"#6: '\\x06A' === String.fromCharCode('6') + 'A'\""
+                  "raw": "\"#6: '\\x06A' === String.fromCharCode('6') + 'A'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -604,7 +652,9 @@
           "start": 1139,
           "end": 1146,
           "value": "\u00079",
-          "raw": "'\\x079'"
+          "raw": "'\\x079'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -640,7 +690,9 @@
                 "start": 1171,
                 "end": 1174,
                 "value": "7",
-                "raw": "'7'"
+                "raw": "'7'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -651,7 +703,9 @@
             "start": 1178,
             "end": 1181,
             "value": "9",
-            "raw": "'9'"
+            "raw": "'9'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -680,7 +734,9 @@
                   "start": 1210,
                   "end": 1258,
                   "value": "#7: '\u00079' === String.fromCharCode('7') + '9'",
-                  "raw": "\"#7: '\\x079' === String.fromCharCode('7') + '9'\""
+                  "raw": "\"#7: '\\x079' === String.fromCharCode('7') + '9'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -702,7 +758,9 @@
           "start": 1278,
           "end": 1285,
           "value": "\b8",
-          "raw": "'\\x088'"
+          "raw": "'\\x088'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -738,7 +796,9 @@
                 "start": 1310,
                 "end": 1313,
                 "value": "8",
-                "raw": "'8'"
+                "raw": "'8'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -749,7 +809,9 @@
             "start": 1317,
             "end": 1320,
             "value": "8",
-            "raw": "'8'"
+            "raw": "'8'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -778,7 +840,9 @@
                   "start": 1349,
                   "end": 1397,
                   "value": "#8: '\b8' === String.fromCharCode('8') + '8'",
-                  "raw": "\"#8: '\\x088' === String.fromCharCode('8') + '8'\""
+                  "raw": "\"#8: '\\x088' === String.fromCharCode('8') + '8'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -800,7 +864,9 @@
           "start": 1417,
           "end": 1424,
           "value": "\t7",
-          "raw": "'\\x097'"
+          "raw": "'\\x097'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -836,7 +902,9 @@
                 "start": 1449,
                 "end": 1452,
                 "value": "9",
-                "raw": "'9'"
+                "raw": "'9'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -847,7 +915,9 @@
             "start": 1456,
             "end": 1459,
             "value": "7",
-            "raw": "'7'"
+            "raw": "'7'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -876,7 +946,9 @@
                   "start": 1488,
                   "end": 1536,
                   "value": "#9: '\t7' === String.fromCharCode('9') + '7'",
-                  "raw": "\"#9: '\\x097' === String.fromCharCode('9') + '7'\""
+                  "raw": "\"#9: '\\x097' === String.fromCharCode('9') + '7'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -898,7 +970,9 @@
           "start": 1556,
           "end": 1563,
           "value": "\n6",
-          "raw": "'\\x0A6'"
+          "raw": "'\\x0A6'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -934,7 +1008,9 @@
                 "start": 1588,
                 "end": 1592,
                 "value": "10",
-                "raw": "'10'"
+                "raw": "'10'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -945,7 +1021,9 @@
             "start": 1596,
             "end": 1599,
             "value": "6",
-            "raw": "'6'"
+            "raw": "'6'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -974,7 +1052,9 @@
                   "start": 1628,
                   "end": 1677,
                   "value": "#A: '\n6' === String.fromCharCode('10') + '6'",
-                  "raw": "\"#A: '\\x0A6' === String.fromCharCode('10') + '6'\""
+                  "raw": "\"#A: '\\x0A6' === String.fromCharCode('10') + '6'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -996,7 +1076,9 @@
           "start": 1697,
           "end": 1704,
           "value": "\u000b5",
-          "raw": "'\\x0B5'"
+          "raw": "'\\x0B5'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1032,7 +1114,9 @@
                 "start": 1729,
                 "end": 1733,
                 "value": "11",
-                "raw": "'11'"
+                "raw": "'11'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1043,7 +1127,9 @@
             "start": 1737,
             "end": 1740,
             "value": "5",
-            "raw": "'5'"
+            "raw": "'5'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1072,7 +1158,9 @@
                   "start": 1769,
                   "end": 1818,
                   "value": "#B: '\u000b5' === String.fromCharCode('11') + '5'",
-                  "raw": "\"#B: '\\x0B5' === String.fromCharCode('11') + '5'\""
+                  "raw": "\"#B: '\\x0B5' === String.fromCharCode('11') + '5'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1094,7 +1182,9 @@
           "start": 1838,
           "end": 1845,
           "value": "\f4",
-          "raw": "'\\x0C4'"
+          "raw": "'\\x0C4'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1130,7 +1220,9 @@
                 "start": 1870,
                 "end": 1874,
                 "value": "12",
-                "raw": "'12'"
+                "raw": "'12'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1141,7 +1233,9 @@
             "start": 1878,
             "end": 1881,
             "value": "4",
-            "raw": "'4'"
+            "raw": "'4'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1170,7 +1264,9 @@
                   "start": 1910,
                   "end": 1959,
                   "value": "#C: '\f4' === String.fromCharCode('12') + '4'",
-                  "raw": "\"#C: '\\x0C4' === String.fromCharCode('12') + '4'\""
+                  "raw": "\"#C: '\\x0C4' === String.fromCharCode('12') + '4'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1192,7 +1288,9 @@
           "start": 1979,
           "end": 1986,
           "value": "\r3",
-          "raw": "'\\x0D3'"
+          "raw": "'\\x0D3'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1228,7 +1326,9 @@
                 "start": 2011,
                 "end": 2015,
                 "value": "13",
-                "raw": "'13'"
+                "raw": "'13'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1239,7 +1339,9 @@
             "start": 2019,
             "end": 2022,
             "value": "3",
-            "raw": "'3'"
+            "raw": "'3'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1268,7 +1370,9 @@
                   "start": 2051,
                   "end": 2100,
                   "value": "#D: '\r3' === String.fromCharCode('13') + '3'",
-                  "raw": "\"#D: '\\x0D3' === String.fromCharCode('13') + '3'\""
+                  "raw": "\"#D: '\\x0D3' === String.fromCharCode('13') + '3'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1290,7 +1394,9 @@
           "start": 2120,
           "end": 2127,
           "value": "\u000e2",
-          "raw": "'\\x0E2'"
+          "raw": "'\\x0E2'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1326,7 +1432,9 @@
                 "start": 2152,
                 "end": 2156,
                 "value": "14",
-                "raw": "'14'"
+                "raw": "'14'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1337,7 +1445,9 @@
             "start": 2160,
             "end": 2163,
             "value": "2",
-            "raw": "'2'"
+            "raw": "'2'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1366,7 +1476,9 @@
                   "start": 2192,
                   "end": 2241,
                   "value": "#E: '\u000e2' === String.fromCharCode('14') + '2'",
-                  "raw": "\"#E: '\\x0E2' === String.fromCharCode('14') + '2'\""
+                  "raw": "\"#E: '\\x0E2' === String.fromCharCode('14') + '2'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1388,7 +1500,9 @@
           "start": 2261,
           "end": 2268,
           "value": "\u000f1",
-          "raw": "'\\x0F1'"
+          "raw": "'\\x0F1'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1424,7 +1538,9 @@
                 "start": 2293,
                 "end": 2297,
                 "value": "15",
-                "raw": "'15'"
+                "raw": "'15'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1435,7 +1551,9 @@
             "start": 2301,
             "end": 2304,
             "value": "1",
-            "raw": "'1'"
+            "raw": "'1'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1464,7 +1582,9 @@
                   "start": 2333,
                   "end": 2382,
                   "value": "#F: '\u000f1' === String.fromCharCode('15') + '1'",
-                  "raw": "\"#F: '\\x0F1' === String.fromCharCode('15') + '1'\""
+                  "raw": "\"#F: '\\x0F1' === String.fromCharCode('15') + '1'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

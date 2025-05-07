@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 20,
               "raw": "\"A\"",
-              "value": "A"
+              "value": "A",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
               "start": 40,
               "end": 41,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -118,7 +122,9 @@ __ESTREE_TEST__:PASS:
                 "start": 63,
                 "end": 64,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "operator": "-",
               "prefix": true
@@ -174,7 +180,9 @@ __ESTREE_TEST__:PASS:
                     "start": 89,
                     "end": 93,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "typeAnnotation": {
@@ -340,7 +348,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 23,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

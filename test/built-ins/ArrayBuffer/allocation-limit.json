@@ -75,7 +75,9 @@
                           "start": 699,
                           "end": 700,
                           "value": 7,
-                          "raw": "7"
+                          "raw": "7",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "*",
                         "right": {
@@ -83,7 +85,9 @@
                           "start": 703,
                           "end": 719,
                           "value": 1125899906842624,
-                          "raw": "1125899906842624"
+                          "raw": "1125899906842624",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -97,7 +101,9 @@
             "start": 725,
             "end": 754,
             "value": "`length` parameter is 7 PiB",
-            "raw": "\"`length` parameter is 7 PiB\""
+            "raw": "\"`length` parameter is 7 PiB\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -175,7 +181,9 @@
                           "start": 915,
                           "end": 931,
                           "value": 9007199254740992,
-                          "raw": "9007199254740992"
+                          "raw": "9007199254740992",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "-",
                         "right": {
@@ -183,7 +191,9 @@
                           "start": 934,
                           "end": 935,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -197,7 +207,9 @@
             "start": 941,
             "end": 984,
             "value": "`length` parameter is Math.pow(2, 53) - 1",
-            "raw": "\"`length` parameter is Math.pow(2, 53) - 1\""
+            "raw": "\"`length` parameter is Math.pow(2, 53) - 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

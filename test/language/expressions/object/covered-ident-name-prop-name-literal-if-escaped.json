@@ -45,7 +45,9 @@
                     "start": 955,
                     "end": 957,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -99,7 +101,9 @@
               "start": 984,
               "end": 988,
               "value": "if",
-              "raw": "'if'"
+              "raw": "'if'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -109,14 +113,18 @@
             "start": 991,
             "end": 993,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1012,
             "value": "property exists",
-            "raw": "'property exists'"
+            "raw": "'property exists'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

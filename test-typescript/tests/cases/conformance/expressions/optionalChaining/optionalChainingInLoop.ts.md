@@ -159,14 +159,18 @@ __ESTREE_TEST__:PASS:
                           "start": 173,
                           "end": 176,
                           "raw": "'0'",
-                          "value": "0"
+                          "value": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "consequent": {
                           "type": "Literal",
                           "start": 167,
                           "end": 170,
                           "raw": "'1'",
-                          "value": "1"
+                          "value": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "test": {
                           "type": "MemberExpression",

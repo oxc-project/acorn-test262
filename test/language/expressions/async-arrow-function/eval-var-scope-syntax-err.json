@@ -23,7 +23,9 @@
             "start": 1217,
             "end": 1218,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -99,7 +101,9 @@
                     "start": 1247,
                     "end": 1259,
                     "value": "var a = 42",
-                    "raw": "\"var a = 42\""
+                    "raw": "\"var a = 42\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -142,7 +146,9 @@
                       "start": 1296,
                       "end": 1297,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -244,7 +250,9 @@
                                 "start": 1349,
                                 "end": 1382,
                                 "value": "function should not be resolved",
-                                "raw": "'function should not be resolved'"
+                                "raw": "'function should not be resolved'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -387,14 +395,18 @@
                             "start": 1497,
                             "end": 1498,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1500,
                             "end": 1532,
                             "value": "function body is not evaluated",
-                            "raw": "'function body is not evaluated'"
+                            "raw": "'function body is not evaluated'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -109,7 +109,9 @@
                             "start": 442,
                             "end": 458,
                             "value": "toLocaleString",
-                            "raw": "\"toLocaleString\""
+                            "raw": "\"toLocaleString\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 461,
                         "end": 466,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

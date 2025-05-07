@@ -187,7 +187,9 @@
                         "start": 1034,
                         "end": 1035,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "AssignmentExpression",

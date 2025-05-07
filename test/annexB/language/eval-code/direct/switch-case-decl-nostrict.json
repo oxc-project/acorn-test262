@@ -43,7 +43,9 @@
             "start": 485,
             "end": 548,
             "value": "  switch (1) {    case 1:      function f() {  }  }",
-            "raw": "'\\\n  switch (1) {\\\n    case 1:\\\n      function f() {  }\\\n  }\\\n'"
+            "raw": "'\\\n  switch (1) {\\\n    case 1:\\\n      function f() {  }\\\n  }\\\n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

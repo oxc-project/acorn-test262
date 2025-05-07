@@ -74,7 +74,9 @@
           "start": 409,
           "end": 420,
           "value": "arguments",
-          "raw": "\"arguments\""
+          "raw": "\"arguments\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -176,7 +178,9 @@
             "start": 504,
             "end": 514,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -240,14 +244,18 @@
             "start": 557,
             "end": 568,
             "value": "arguments",
-            "raw": "\"arguments\""
+            "raw": "\"arguments\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 584,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

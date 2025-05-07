@@ -23,7 +23,9 @@
             "start": 328,
             "end": 349,
             "value": "2016-12-31T23:59:60",
-            "raw": "\"2016-12-31T23:59:60\""
+            "raw": "\"2016-12-31T23:59:60\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 377,
                   "end": 382,
                   "value": "M11",
-                  "raw": "\"M11\""
+                  "raw": "\"M11\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -89,7 +93,9 @@
                   "start": 389,
                   "end": 391,
                   "value": 18,
-                  "raw": "18"
+                  "raw": "18",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -224,21 +230,27 @@
             "start": 503,
             "end": 508,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 512,
             "value": 18,
-            "raw": "18"
+            "raw": "18",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 564,
             "value": "leap second is a valid ISO string for calendar",
-            "raw": "\"leap second is a valid ISO string for calendar\""
+            "raw": "\"leap second is a valid ISO string for calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

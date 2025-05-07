@@ -79,7 +79,9 @@
                 "start": 385,
                 "end": 398,
                 "value": "daysInMonth",
-                "raw": "\"daysInMonth\""
+                "raw": "\"daysInMonth\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +149,9 @@
             "start": 441,
             "end": 451,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,7 +266,9 @@
             "start": 539,
             "end": 544,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,7 +326,9 @@
             "start": 589,
             "end": 593,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

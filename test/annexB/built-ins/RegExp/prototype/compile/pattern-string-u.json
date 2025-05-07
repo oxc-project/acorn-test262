@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "original value",
               "flags": "gi"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,14 +67,18 @@
             "start": 1080,
             "end": 1096,
             "value": "[𝌆]",
-            "raw": "'[\\ud834\\udf06]'"
+            "raw": "'[\\ud834\\udf06]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1098,
             "end": 1101,
             "value": "u",
-            "raw": "'u'"
+            "raw": "'u'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,14 +151,18 @@
                   "start": 1154,
                   "end": 1170,
                   "value": "[𝌆]",
-                  "raw": "'[\\ud834\\udf06]'"
+                  "raw": "'[\\ud834\\udf06]'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1172,
                   "end": 1175,
                   "value": "u",
-                  "raw": "'u'"
+                  "raw": "'u'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -171,7 +180,9 @@
             "start": 1187,
             "end": 1221,
             "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "raw": "'[[OriginalSource]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +245,9 @@
                 "start": 1258,
                 "end": 1274,
                 "value": "original value",
-                "raw": "'original value'"
+                "raw": "'original value'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -244,14 +257,18 @@
             "start": 1279,
             "end": 1284,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1288,
             "end": 1330,
             "value": "[[RegExpMatcher]] internal slot (source)",
-            "raw": "'[[RegExpMatcher]] internal slot (source)'"
+            "raw": "'[[RegExpMatcher]] internal slot (source)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +331,9 @@
                 "start": 1367,
                 "end": 1375,
                 "value": "\ud834",
-                "raw": "'\\ud834'"
+                "raw": "'\\ud834'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -324,14 +343,18 @@
             "start": 1378,
             "end": 1383,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1385,
             "end": 1429,
             "value": "[[RegExpMatcher]] internal slot (flags #1)",
-            "raw": "'[[RegExpMatcher]] internal slot (flags #1)'"
+            "raw": "'[[RegExpMatcher]] internal slot (flags #1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -394,7 +417,9 @@
                 "start": 1466,
                 "end": 1474,
                 "value": "\udf06",
-                "raw": "'\\udf06'"
+                "raw": "'\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -404,14 +429,18 @@
             "start": 1477,
             "end": 1482,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1484,
             "end": 1528,
             "value": "[[RegExpMatcher]] internal slot (flags #2)",
-            "raw": "'[[RegExpMatcher]] internal slot (flags #2)'"
+            "raw": "'[[RegExpMatcher]] internal slot (flags #2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -474,7 +503,9 @@
                 "start": 1565,
                 "end": 1579,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -484,14 +515,18 @@
             "start": 1584,
             "end": 1588,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1592,
             "end": 1636,
             "value": "[[RegExpMatcher]] internal slot (flags #3)",
-            "raw": "'[[RegExpMatcher]] internal slot (flags #3)'"
+            "raw": "'[[RegExpMatcher]] internal slot (flags #3)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

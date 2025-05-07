@@ -70,7 +70,9 @@
                               "start": 513,
                               "end": 521,
                               "value": "[a-c]*",
-                              "raw": "\"[a-c]*\""
+                              "raw": "\"[a-c]*\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -85,7 +87,9 @@
                 "start": 526,
                 "end": 530,
                 "value": "gm",
-                "raw": "\"gm\""
+                "raw": "\"gm\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -152,7 +156,9 @@
             "start": 590,
             "end": 668,
             "value": "The value of __instance.constructor is expected to equal the value of RegExp",
-            "raw": "'The value of __instance.constructor is expected to equal the value of RegExp'"
+            "raw": "'The value of __instance.constructor is expected to equal the value of RegExp'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,14 +216,18 @@
             "start": 709,
             "end": 717,
             "value": "[a-c]*",
-            "raw": "\"[a-c]*\""
+            "raw": "\"[a-c]*\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 778,
             "value": "The value of __instance.source is expected to be \"[a-c]*\"",
-            "raw": "'The value of __instance.source is expected to be \"[a-c]*\"'"
+            "raw": "'The value of __instance.source is expected to be \"[a-c]*\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

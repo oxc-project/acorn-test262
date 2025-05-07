@@ -65,14 +65,18 @@
                   "start": 631,
                   "end": 644,
                   "value": "good fellow",
-                  "raw": "\"good fellow\""
+                  "raw": "\"good fellow\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "alternate": {
                   "type": "Literal",
                   "start": 647,
                   "end": 653,
                   "value": "liar",
-                  "raw": "\"liar\""
+                  "raw": "\"liar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -119,14 +123,18 @@
                   "start": 725,
                   "end": 726,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "alternate": {
                   "type": "Literal",
                   "start": 729,
                   "end": 730,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -168,7 +176,9 @@
                     "start": 828,
                     "end": 893,
                     "value": "#1: Using declarated variable before it declaration is admitted",
-                    "raw": "'#1: Using declarated variable before it declaration is admitted'"
+                    "raw": "'#1: Using declarated variable before it declaration is admitted'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -284,7 +294,9 @@
               "start": 1355,
               "end": 1361,
               "value": "liar",
-              "raw": "\"liar\""
+              "raw": "\"liar\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -309,7 +321,9 @@
               "start": 1372,
               "end": 1373,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -351,7 +365,9 @@
                         "start": 1402,
                         "end": 1458,
                         "value": "#3: (__y === \"liar\") and (__z === 1). Actual:  __y ===",
-                        "raw": "'#3: (__y === \"liar\") and (__z === 1). Actual:  __y ==='"
+                        "raw": "'#3: (__y === \"liar\") and (__z === 1). Actual:  __y ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -367,7 +383,9 @@
                       "start": 1463,
                       "end": 1477,
                       "value": " and __z ===",
-                      "raw": "' and __z ==='"
+                      "raw": "' and __z ==='",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -417,7 +435,9 @@
             "start": 1586,
             "end": 1590,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -445,14 +465,18 @@
               "start": 1604,
               "end": 1613,
               "value": "smeagol",
-              "raw": "\"smeagol\""
+              "raw": "\"smeagol\"",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 1616,
               "end": 1623,
               "value": "golum",
-              "raw": "\"golum\""
+              "raw": "\"golum\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -507,7 +531,9 @@
                 "start": 1732,
                 "end": 1741,
                 "value": "smeagol",
-                "raw": "\"smeagol\""
+                "raw": "\"smeagol\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -538,7 +564,9 @@
                   "start": 1770,
                   "end": 1895,
                   "value": "#4: A variable with an Initialiser is assigned the value of its AssignmentExpression when the VariableStatement is executed",
-                  "raw": "'#4: A variable with an Initialiser is assigned the value of its AssignmentExpression when the VariableStatement is executed'"
+                  "raw": "'#4: A variable with an Initialiser is assigned the value of its AssignmentExpression when the VariableStatement is executed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

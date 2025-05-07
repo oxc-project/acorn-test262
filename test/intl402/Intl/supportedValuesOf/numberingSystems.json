@@ -47,7 +47,9 @@
                 "start": 1186,
                 "end": 1203,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -109,7 +111,9 @@
             "start": 1247,
             "end": 1273,
             "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "raw": "\"Returns an Array object.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +204,9 @@
             "start": 1368,
             "end": 1408,
             "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "raw": "\"The array prototype is Array.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +256,9 @@
                 "start": 1465,
                 "end": 1482,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -304,7 +312,9 @@
             "start": 1566,
             "end": 1609,
             "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "raw": "\"Returns a new array object for each call.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +385,9 @@
             "start": 1701,
             "end": 1723,
             "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "raw": "\"The array is sorted.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +477,9 @@
             "start": 1818,
             "end": 1857,
             "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "raw": "\"The array doesn't contain duplicates.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,7 +509,8 @@
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -724,7 +739,9 @@
                         "start": 2210,
                         "end": 2215,
                         "value": "und",
-                        "raw": "\"und\""
+                        "raw": "\"und\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

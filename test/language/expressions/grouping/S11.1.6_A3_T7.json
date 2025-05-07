@@ -35,7 +35,9 @@
           "start": 306,
           "end": 317,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -67,7 +69,9 @@
                     "start": 346,
                     "end": 388,
                     "value": "#1: typeof (x) === \"undefined\". Actual: ",
-                    "raw": "'#1: typeof (x) === \"undefined\". Actual: '"
+                    "raw": "'#1: typeof (x) === \"undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -109,7 +109,9 @@
                             "start": 422,
                             "end": 428,
                             "value": "join",
-                            "raw": "\"join\""
+                            "raw": "\"join\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 431,
                         "end": 436,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -34,14 +34,18 @@
                 "start": 830,
                 "end": 834,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 836,
                 "end": 837,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +129,9 @@
               "start": 896,
               "end": 897,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -171,28 +177,36 @@
                   "start": 921,
                   "end": 925,
                   "value": 2016,
-                  "raw": "2016"
+                  "raw": "2016",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 927,
                   "end": 928,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 930,
                   "end": 931,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 933,
                   "end": 934,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -255,7 +269,9 @@
             "start": 990,
             "end": 1032,
             "value": "hour within unit boundary (return value)",
-            "raw": "'hour within unit boundary (return value)'"
+            "raw": "'hour within unit boundary (return value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -326,7 +342,9 @@
             "start": 1082,
             "end": 1130,
             "value": "hour within unit boundary ([[DateValue]] slot)",
-            "raw": "'hour within unit boundary ([[DateValue]] slot)'"
+            "raw": "'hour within unit boundary ([[DateValue]] slot)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +400,9 @@
                 "start": 1164,
                 "end": 1165,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -429,28 +449,36 @@
                   "start": 1189,
                   "end": 1193,
                   "value": 2016,
-                  "raw": "2016"
+                  "raw": "2016",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1195,
                   "end": 1196,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1198,
                   "end": 1200,
                   "value": 30,
-                  "raw": "30"
+                  "raw": "30",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1202,
                   "end": 1204,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -513,7 +541,9 @@
             "start": 1260,
             "end": 1307,
             "value": "hour before time unit boundary (return value)",
-            "raw": "'hour before time unit boundary (return value)'"
+            "raw": "'hour before time unit boundary (return value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -584,7 +614,9 @@
             "start": 1361,
             "end": 1414,
             "value": "hour before time unit boundary ([[DateValue]] slot)",
-            "raw": "'hour before time unit boundary ([[DateValue]] slot)'"
+            "raw": "'hour before time unit boundary ([[DateValue]] slot)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -634,7 +666,9 @@
               "start": 1447,
               "end": 1449,
               "value": 24,
-              "raw": "24"
+              "raw": "24",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -680,21 +714,27 @@
                   "start": 1473,
                   "end": 1477,
                   "value": 2016,
-                  "raw": "2016"
+                  "raw": "2016",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1479,
                   "end": 1480,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1482,
                   "end": 1483,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -757,7 +797,9 @@
             "start": 1539,
             "end": 1585,
             "value": "hour after time unit boundary (return value)",
-            "raw": "'hour after time unit boundary (return value)'"
+            "raw": "'hour after time unit boundary (return value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -828,7 +870,9 @@
             "start": 1639,
             "end": 1691,
             "value": "hour after time unit boundary ([[DateValue]] slot)",
-            "raw": "'hour after time unit boundary ([[DateValue]] slot)'"
+            "raw": "'hour after time unit boundary ([[DateValue]] slot)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

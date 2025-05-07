@@ -189,7 +189,9 @@
             "start": 998,
             "end": 1017,
             "value": "this is an Object",
-            "raw": "\"this is an Object\""
+            "raw": "\"this is an Object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -295,7 +297,9 @@
             "start": 1093,
             "end": 1111,
             "value": "this is an Array",
-            "raw": "\"this is an Array\""
+            "raw": "\"this is an Array\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +336,9 @@
                 "start": 1140,
                 "end": 1141,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -440,7 +446,9 @@
             "start": 1216,
             "end": 1249,
             "value": "this is an ArrayBuffer instance",
-            "raw": "\"this is an ArrayBuffer instance\""
+            "raw": "\"this is an ArrayBuffer instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -488,7 +496,9 @@
                     "start": 1291,
                     "end": 1292,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -497,14 +507,18 @@
                 "start": 1295,
                 "end": 1296,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1298,
                 "end": 1299,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -612,7 +626,9 @@
             "start": 1374,
             "end": 1403,
             "value": "this is a DataView instance",
-            "raw": "\"this is a DataView instance\""
+            "raw": "\"this is a DataView instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

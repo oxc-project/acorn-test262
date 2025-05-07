@@ -32,7 +32,9 @@ __ESTREE_TEST__:PASS:
             "start": 42,
             "end": 47,
             "raw": "'div'",
-            "value": "div"
+            "value": "div",
+            "regex": null,
+            "bigint": null
           }
         },
         "key": {

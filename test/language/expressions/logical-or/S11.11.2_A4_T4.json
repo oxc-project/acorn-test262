@@ -24,7 +24,9 @@
               "start": 286,
               "end": 290,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "operator": "||",
             "right": {
@@ -41,7 +43,9 @@
           "start": 309,
           "end": 313,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -69,7 +73,9 @@
                   "start": 342,
                   "end": 376,
                   "value": "#1: (true || undefined) === true",
-                  "raw": "'#1: (true || undefined) === true'"
+                  "raw": "'#1: (true || undefined) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 397,
               "end": 401,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "operator": "||",
             "right": {
@@ -107,7 +115,9 @@
               "start": 405,
               "end": 409,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -117,7 +127,9 @@
           "start": 415,
           "end": 419,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -145,7 +157,9 @@
                   "start": 448,
                   "end": 477,
                   "value": "#2: (true || null) === true",
-                  "raw": "'#2: (true || null) === true'"
+                  "raw": "'#2: (true || null) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

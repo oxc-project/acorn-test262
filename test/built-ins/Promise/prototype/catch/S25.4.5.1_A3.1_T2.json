@@ -158,7 +158,9 @@
                                 "start": 362,
                                 "end": 424,
                                 "value": "Should not be called: did not expect promise to be fulfilled",
-                                "raw": "\"Should not be called: did not expect promise to be fulfilled\""
+                                "raw": "\"Should not be called: did not expect promise to be fulfilled\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -245,7 +247,9 @@
                             "start": 487,
                             "end": 546,
                             "value": "The value of result is expected to equal the value of arg",
-                            "raw": "'The value of result is expected to equal the value of arg'"
+                            "raw": "'The value of result is expected to equal the value of arg'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

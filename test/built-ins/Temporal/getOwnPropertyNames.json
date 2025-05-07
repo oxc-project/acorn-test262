@@ -103,7 +103,9 @@
                   "start": 306,
                   "end": 315,
                   "value": "Instant",
-                  "raw": "\"Instant\""
+                  "raw": "\"Instant\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -120,7 +122,9 @@
                 "start": 320,
                 "end": 321,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -129,7 +133,9 @@
             "start": 323,
             "end": 332,
             "value": "Instant",
-            "raw": "\"Instant\""
+            "raw": "\"Instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -183,7 +189,9 @@
                   "start": 355,
                   "end": 366,
                   "value": "PlainDate",
-                  "raw": "\"PlainDate\""
+                  "raw": "\"PlainDate\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -200,7 +208,9 @@
                 "start": 371,
                 "end": 372,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -209,7 +219,9 @@
             "start": 374,
             "end": 385,
             "value": "PlainDate",
-            "raw": "\"PlainDate\""
+            "raw": "\"PlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +275,9 @@
                   "start": 408,
                   "end": 419,
                   "value": "PlainTime",
-                  "raw": "\"PlainTime\""
+                  "raw": "\"PlainTime\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -280,7 +294,9 @@
                 "start": 424,
                 "end": 425,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -289,7 +305,9 @@
             "start": 427,
             "end": 438,
             "value": "PlainTime",
-            "raw": "\"PlainTime\""
+            "raw": "\"PlainTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +361,9 @@
                   "start": 461,
                   "end": 476,
                   "value": "PlainDateTime",
-                  "raw": "\"PlainDateTime\""
+                  "raw": "\"PlainDateTime\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -360,7 +380,9 @@
                 "start": 481,
                 "end": 482,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -369,7 +391,9 @@
             "start": 484,
             "end": 499,
             "value": "PlainDateTime",
-            "raw": "\"PlainDateTime\""
+            "raw": "\"PlainDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,7 +447,9 @@
                   "start": 522,
                   "end": 537,
                   "value": "ZonedDateTime",
-                  "raw": "\"ZonedDateTime\""
+                  "raw": "\"ZonedDateTime\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -440,7 +466,9 @@
                 "start": 542,
                 "end": 543,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -449,7 +477,9 @@
             "start": 545,
             "end": 560,
             "value": "ZonedDateTime",
-            "raw": "\"ZonedDateTime\""
+            "raw": "\"ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -503,7 +533,9 @@
                   "start": 583,
                   "end": 599,
                   "value": "PlainYearMonth",
-                  "raw": "\"PlainYearMonth\""
+                  "raw": "\"PlainYearMonth\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -520,7 +552,9 @@
                 "start": 604,
                 "end": 605,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -529,7 +563,9 @@
             "start": 607,
             "end": 623,
             "value": "PlainYearMonth",
-            "raw": "\"PlainYearMonth\""
+            "raw": "\"PlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -583,7 +619,9 @@
                   "start": 646,
                   "end": 661,
                   "value": "PlainMonthDay",
-                  "raw": "\"PlainMonthDay\""
+                  "raw": "\"PlainMonthDay\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -600,7 +638,9 @@
                 "start": 666,
                 "end": 667,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -609,7 +649,9 @@
             "start": 669,
             "end": 684,
             "value": "PlainMonthDay",
-            "raw": "\"PlainMonthDay\""
+            "raw": "\"PlainMonthDay\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -663,7 +705,9 @@
                   "start": 707,
                   "end": 717,
                   "value": "Duration",
-                  "raw": "\"Duration\""
+                  "raw": "\"Duration\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -680,7 +724,9 @@
                 "start": 722,
                 "end": 723,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -689,7 +735,9 @@
             "start": 725,
             "end": 735,
             "value": "Duration",
-            "raw": "\"Duration\""
+            "raw": "\"Duration\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -743,7 +791,9 @@
                   "start": 758,
                   "end": 763,
                   "value": "Now",
-                  "raw": "\"Now\""
+                  "raw": "\"Now\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -760,7 +810,9 @@
                 "start": 768,
                 "end": 769,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -769,7 +821,9 @@
             "start": 771,
             "end": 776,
             "value": "Now",
-            "raw": "\"Now\""
+            "raw": "\"Now\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

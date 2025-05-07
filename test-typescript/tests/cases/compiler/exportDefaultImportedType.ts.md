@@ -84,7 +84,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 32,
         "raw": "\"./exported\"",
-        "value": "./exported"
+        "value": "./exported",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

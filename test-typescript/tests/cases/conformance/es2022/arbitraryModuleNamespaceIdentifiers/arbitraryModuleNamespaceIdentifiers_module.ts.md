@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 18,
             "end": 29,
             "raw": "\"someValue\"",
-            "value": "someValue"
+            "value": "someValue",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -59,7 +61,9 @@ __ESTREE_TEST__:PASS:
           "start": 47,
           "end": 57,
           "raw": "\"someType\"",
-          "value": "someType"
+          "value": "someType",
+          "regex": null,
+          "bigint": null
         }
       },
       "typeParameters": null
@@ -82,7 +86,9 @@ __ESTREE_TEST__:PASS:
             "start": 82,
             "end": 87,
             "raw": "\"<X>\"",
-            "value": "<X>"
+            "value": "<X>",
+            "regex": null,
+            "bigint": null
           },
           "exportKind": "value",
           "local": {
@@ -108,7 +114,9 @@ __ESTREE_TEST__:PASS:
         "start": 123,
         "end": 169,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -120,7 +128,9 @@ __ESTREE_TEST__:PASS:
             "start": 100,
             "end": 105,
             "raw": "\"<X>\"",
-            "value": "<X>"
+            "value": "<X>",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "value",
           "local": {
@@ -149,7 +159,9 @@ __ESTREE_TEST__:PASS:
           "start": 205,
           "end": 226,
           "raw": "\"should be someValue\"",
-          "value": "should be someValue"
+          "value": "should be someValue",
+          "regex": null,
+          "bigint": null
         }
       },
       "test": {
@@ -171,7 +183,9 @@ __ESTREE_TEST__:PASS:
           "start": 186,
           "end": 197,
           "raw": "\"someValue\"",
-          "value": "someValue"
+          "value": "someValue",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -187,7 +201,9 @@ __ESTREE_TEST__:PASS:
         "start": 260,
         "end": 306,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -199,7 +215,9 @@ __ESTREE_TEST__:PASS:
             "start": 247,
             "end": 252,
             "raw": "\"<Y>\"",
-            "value": "<Y>"
+            "value": "<Y>",
+            "regex": null,
+            "bigint": null
           },
           "exportKind": "value",
           "local": {
@@ -207,7 +225,9 @@ __ESTREE_TEST__:PASS:
             "start": 238,
             "end": 243,
             "raw": "\"<X>\"",
-            "value": "<X>"
+            "value": "<X>",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -223,7 +243,9 @@ __ESTREE_TEST__:PASS:
         "start": 340,
         "end": 386,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -235,7 +257,9 @@ __ESTREE_TEST__:PASS:
             "start": 317,
             "end": 322,
             "raw": "\"<Y>\"",
-            "value": "<Y>"
+            "value": "<Y>",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "value",
           "local": {
@@ -264,7 +288,9 @@ __ESTREE_TEST__:PASS:
           "start": 422,
           "end": 443,
           "raw": "\"should be someValue\"",
-          "value": "should be someValue"
+          "value": "should be someValue",
+          "regex": null,
+          "bigint": null
         }
       },
       "test": {
@@ -286,7 +312,9 @@ __ESTREE_TEST__:PASS:
           "start": 403,
           "end": 414,
           "raw": "\"someValue\"",
-          "value": "someValue"
+          "value": "someValue",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -300,7 +328,9 @@ __ESTREE_TEST__:PASS:
         "start": 458,
         "end": 463,
         "raw": "\"<Z>\"",
-        "value": "<Z>"
+        "value": "<Z>",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value",
       "source": {
@@ -308,7 +338,9 @@ __ESTREE_TEST__:PASS:
         "start": 469,
         "end": 515,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -322,7 +354,9 @@ __ESTREE_TEST__:PASS:
         "start": 549,
         "end": 595,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -334,7 +368,9 @@ __ESTREE_TEST__:PASS:
             "start": 526,
             "end": 531,
             "raw": "\"<Z>\"",
-            "value": "<Z>"
+            "value": "<Z>",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "value",
           "local": {
@@ -363,7 +399,9 @@ __ESTREE_TEST__:PASS:
           "start": 638,
           "end": 659,
           "raw": "\"should be someValue\"",
-          "value": "should be someValue"
+          "value": "should be someValue",
+          "regex": null,
+          "bigint": null
         }
       },
       "test": {
@@ -391,7 +429,9 @@ __ESTREE_TEST__:PASS:
             "start": 608,
             "end": 613,
             "raw": "\"<X>\"",
-            "value": "<X>"
+            "value": "<X>",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {
@@ -399,7 +439,9 @@ __ESTREE_TEST__:PASS:
           "start": 619,
           "end": 630,
           "raw": "\"someValue\"",
-          "value": "someValue"
+          "value": "someValue",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -417,7 +459,9 @@ __ESTREE_TEST__:PASS:
           "start": 702,
           "end": 723,
           "raw": "\"should be someValue\"",
-          "value": "should be someValue"
+          "value": "should be someValue",
+          "regex": null,
+          "bigint": null
         }
       },
       "test": {
@@ -445,7 +489,9 @@ __ESTREE_TEST__:PASS:
             "start": 672,
             "end": 677,
             "raw": "\"<Y>\"",
-            "value": "<Y>"
+            "value": "<Y>",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {
@@ -453,7 +499,9 @@ __ESTREE_TEST__:PASS:
           "start": 683,
           "end": 694,
           "raw": "\"someValue\"",
-          "value": "someValue"
+          "value": "someValue",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -471,7 +519,9 @@ __ESTREE_TEST__:PASS:
           "start": 761,
           "end": 789,
           "raw": "\"should be export namespace\"",
-          "value": "should be export namespace"
+          "value": "should be export namespace",
+          "regex": null,
+          "bigint": null
         }
       },
       "test": {
@@ -499,7 +549,9 @@ __ESTREE_TEST__:PASS:
             "start": 736,
             "end": 741,
             "raw": "\"<Z>\"",
-            "value": "<Z>"
+            "value": "<Z>",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {
@@ -531,7 +583,9 @@ __ESTREE_TEST__:PASS:
             "start": 818,
             "end": 823,
             "raw": "\"<A>\"",
-            "value": "<A>"
+            "value": "<A>",
+            "regex": null,
+            "bigint": null
           },
           "exportKind": "type",
           "local": {
@@ -557,7 +611,9 @@ __ESTREE_TEST__:PASS:
         "start": 863,
         "end": 909,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -569,7 +625,9 @@ __ESTREE_TEST__:PASS:
             "start": 841,
             "end": 846,
             "raw": "\"<A>\"",
-            "value": "<A>"
+            "value": "<A>",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "type",
           "local": {
@@ -627,7 +685,9 @@ __ESTREE_TEST__:PASS:
             "start": 937,
             "end": 966,
             "raw": "\"expect error about someType\"",
-            "value": "expect error about someType"
+            "value": "expect error about someType",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -646,7 +706,9 @@ __ESTREE_TEST__:PASS:
         "start": 1005,
         "end": 1051,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -658,7 +720,9 @@ __ESTREE_TEST__:PASS:
             "start": 992,
             "end": 997,
             "raw": "\"<B>\"",
-            "value": "<B>"
+            "value": "<B>",
+            "regex": null,
+            "bigint": null
           },
           "exportKind": "type",
           "local": {
@@ -666,7 +730,9 @@ __ESTREE_TEST__:PASS:
             "start": 983,
             "end": 988,
             "raw": "\"<A>\"",
-            "value": "<A>"
+            "value": "<A>",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -682,7 +748,9 @@ __ESTREE_TEST__:PASS:
         "start": 1089,
         "end": 1135,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -694,7 +762,9 @@ __ESTREE_TEST__:PASS:
             "start": 1067,
             "end": 1072,
             "raw": "\"<B>\"",
-            "value": "<B>"
+            "value": "<B>",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "type",
           "local": {
@@ -752,7 +822,9 @@ __ESTREE_TEST__:PASS:
             "start": 1165,
             "end": 1194,
             "raw": "\"expect error about someType\"",
-            "value": "expect error about someType"
+            "value": "expect error about someType",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -769,7 +841,9 @@ __ESTREE_TEST__:PASS:
         "start": 1214,
         "end": 1219,
         "raw": "\"<C>\"",
-        "value": "<C>"
+        "value": "<C>",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "type",
       "source": {
@@ -777,7 +851,9 @@ __ESTREE_TEST__:PASS:
         "start": 1225,
         "end": 1271,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -791,7 +867,9 @@ __ESTREE_TEST__:PASS:
         "start": 1309,
         "end": 1355,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_module\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_module"
+        "value": "./arbitraryModuleNamespaceIdentifiers_module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -803,7 +881,9 @@ __ESTREE_TEST__:PASS:
             "start": 1287,
             "end": 1292,
             "raw": "\"<C>\"",
-            "value": "<C>"
+            "value": "<C>",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "type",
           "local": {
@@ -846,7 +926,9 @@ __ESTREE_TEST__:PASS:
             "start": 1381,
             "end": 1392,
             "raw": "\"otherType\"",
-            "value": "otherType"
+            "value": "otherType",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeParameters": null
@@ -912,7 +994,9 @@ __ESTREE_TEST__:PASS:
             "start": 1435,
             "end": 1465,
             "raw": "\"expect error about otherType\"",
-            "value": "expect error about otherType"
+            "value": "expect error about otherType",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

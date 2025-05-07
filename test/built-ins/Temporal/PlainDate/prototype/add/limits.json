@@ -60,7 +60,9 @@
                 "start": 342,
                 "end": 357,
                 "value": "-271821-04-19",
-                "raw": "\"-271821-04-19\""
+                "raw": "\"-271821-04-19\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
                 "start": 396,
                 "end": 411,
                 "value": "+275760-09-13",
-                "raw": "\"+275760-09-13\""
+                "raw": "\"+275760-09-13\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -157,14 +161,18 @@
                 "start": 415,
                 "end": 423,
                 "value": "reject",
-                "raw": "\"reject\""
+                "raw": "\"reject\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 436,
                 "value": "constrain",
-                "raw": "\"constrain\""
+                "raw": "\"constrain\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -295,7 +303,9 @@
                                       "start": 513,
                                       "end": 514,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "kind": "init"
@@ -463,7 +473,9 @@
                                     "start": 608,
                                     "end": 609,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }

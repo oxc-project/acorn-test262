@@ -28,175 +28,225 @@
                 "start": 393,
                 "end": 398,
                 "value": "ACT",
-                "raw": "\"ACT\""
+                "raw": "\"ACT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 407,
                 "value": "AET",
-                "raw": "\"AET\""
+                "raw": "\"AET\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 416,
                 "value": "AGT",
-                "raw": "\"AGT\""
+                "raw": "\"AGT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 425,
                 "value": "ART",
-                "raw": "\"ART\""
+                "raw": "\"ART\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 429,
                 "end": 434,
                 "value": "AST",
-                "raw": "\"AST\""
+                "raw": "\"AST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 443,
                 "value": "BET",
-                "raw": "\"BET\""
+                "raw": "\"BET\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 447,
                 "end": 452,
                 "value": "BST",
-                "raw": "\"BST\""
+                "raw": "\"BST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 461,
                 "value": "CAT",
-                "raw": "\"CAT\""
+                "raw": "\"CAT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 470,
                 "value": "CNT",
-                "raw": "\"CNT\""
+                "raw": "\"CNT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 479,
                 "value": "CST",
-                "raw": "\"CST\""
+                "raw": "\"CST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 483,
                 "end": 488,
                 "value": "CTT",
-                "raw": "\"CTT\""
+                "raw": "\"CTT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 492,
                 "end": 497,
                 "value": "EAT",
-                "raw": "\"EAT\""
+                "raw": "\"EAT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 506,
                 "value": "ECT",
-                "raw": "\"ECT\""
+                "raw": "\"ECT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 510,
                 "end": 515,
                 "value": "IET",
-                "raw": "\"IET\""
+                "raw": "\"IET\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 519,
                 "end": 524,
                 "value": "IST",
-                "raw": "\"IST\""
+                "raw": "\"IST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 528,
                 "end": 533,
                 "value": "JST",
-                "raw": "\"JST\""
+                "raw": "\"JST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 537,
                 "end": 542,
                 "value": "MIT",
-                "raw": "\"MIT\""
+                "raw": "\"MIT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 551,
                 "value": "NET",
-                "raw": "\"NET\""
+                "raw": "\"NET\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 560,
                 "value": "NST",
-                "raw": "\"NST\""
+                "raw": "\"NST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 564,
                 "end": 569,
                 "value": "PLT",
-                "raw": "\"PLT\""
+                "raw": "\"PLT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 573,
                 "end": 578,
                 "value": "PNT",
-                "raw": "\"PNT\""
+                "raw": "\"PNT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 587,
                 "value": "PRT",
-                "raw": "\"PRT\""
+                "raw": "\"PRT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 591,
                 "end": 596,
                 "value": "PST",
-                "raw": "\"PST\""
+                "raw": "\"PST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 600,
                 "end": 605,
                 "value": "SST",
-                "raw": "\"SST\""
+                "raw": "\"SST\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 609,
                 "end": 614,
                 "value": "VST",
-                "raw": "\"VST\""
+                "raw": "\"VST\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -365,7 +415,9 @@
                     "start": 754,
                     "end": 767,
                     "value": "Time zone: ",
-                    "raw": "\"Time zone: \""
+                    "raw": "\"Time zone: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

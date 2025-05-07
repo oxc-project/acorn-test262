@@ -186,7 +186,9 @@
             "start": 394,
             "end": 421,
             "value": "Object.getPrototypeOf(bf)",
-            "raw": "'Object.getPrototypeOf(bf)'"
+            "raw": "'Object.getPrototypeOf(bf)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

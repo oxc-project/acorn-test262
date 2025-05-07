@@ -23,7 +23,9 @@
             "start": 341,
             "end": 347,
             "value": "soap",
-            "raw": "\"soap\""
+            "raw": "\"soap\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -102,7 +104,9 @@
                             "start": 394,
                             "end": 398,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -202,14 +206,18 @@
             "start": 468,
             "end": 479,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 546,
             "value": "The value of `typeof obj.touched` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj.touched` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof obj.touched` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +253,9 @@
               "start": 563,
               "end": 572,
               "value": "touched",
-              "raw": "\"touched\""
+              "raw": "\"touched\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -255,7 +265,9 @@
             "start": 575,
             "end": 630,
             "value": "The value of retobj[\"touched\"] is expected to be true",
-            "raw": "'The value of retobj[\"touched\"] is expected to be true'"
+            "raw": "'The value of retobj[\"touched\"] is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

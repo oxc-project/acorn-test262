@@ -41,7 +41,9 @@
                   "start": 274,
                   "end": 278,
                   "value": 1976,
-                  "raw": "1976"
+                  "raw": "1976",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 291,
                   "end": 296,
                   "value": "M11",
-                  "raw": "\"M11\""
+                  "raw": "\"M11\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 303,
                   "end": 305,
                   "value": 18,
-                  "raw": "18"
+                  "raw": "18",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 317,
                   "end": 326,
                   "value": "IsO8601",
-                  "raw": "\"IsO8601\""
+                  "raw": "\"IsO8601\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -204,21 +212,27 @@
                     "start": 409,
                     "end": 413,
                     "value": 1976,
-                    "raw": "1976"
+                    "raw": "1976",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 415,
                     "end": 417,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 419,
                     "end": 421,
                     "value": 18,
-                    "raw": "18"
+                    "raw": "18",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -268,14 +282,18 @@
             "start": 451,
             "end": 452,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 501,
             "value": "Calendar is case-insensitive (first argument)",
-            "raw": "\"Calendar is case-insensitive (first argument)\""
+            "raw": "\"Calendar is case-insensitive (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -362,21 +380,27 @@
                     "start": 578,
                     "end": 582,
                     "value": 1976,
-                    "raw": "1976"
+                    "raw": "1976",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 584,
                     "end": 586,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 588,
                     "end": 590,
                     "value": 18,
-                    "raw": "18"
+                    "raw": "18",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -432,14 +456,18 @@
             "start": 625,
             "end": 626,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 628,
             "end": 676,
             "value": "Calendar is case-insensitive (second argument)",
-            "raw": "\"Calendar is case-insensitive (second argument)\""
+            "raw": "\"Calendar is case-insensitive (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +506,9 @@
           "start": 695,
           "end": 709,
           "value": "İSO8601",
-          "raw": "\"\\u0130SO8601\""
+          "raw": "\"\\u0130SO8601\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -597,21 +627,27 @@
                       "start": 811,
                       "end": 815,
                       "value": 1976,
-                      "raw": "1976"
+                      "raw": "1976",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 817,
                       "end": 819,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 821,
                       "end": 823,
                       "value": 18,
-                      "raw": "18"
+                      "raw": "18",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -624,7 +660,9 @@
             "start": 829,
             "end": 897,
             "value": "calendar ID is capital dotted I is not lowercased (first argument)",
-            "raw": "\"calendar ID is capital dotted I is not lowercased (first argument)\""
+            "raw": "\"calendar ID is capital dotted I is not lowercased (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -739,21 +777,27 @@
                       "start": 996,
                       "end": 1000,
                       "value": 1976,
-                      "raw": "1976"
+                      "raw": "1976",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1002,
                       "end": 1004,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1006,
                       "end": 1008,
                       "value": 18,
-                      "raw": "18"
+                      "raw": "18",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -772,7 +816,9 @@
             "start": 1019,
             "end": 1088,
             "value": "calendar ID is capital dotted I is not lowercased (second argument)",
-            "raw": "\"calendar ID is capital dotted I is not lowercased (second argument)\""
+            "raw": "\"calendar ID is capital dotted I is not lowercased (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

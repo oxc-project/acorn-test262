@@ -75,14 +75,18 @@
             "start": 395,
             "end": 405,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 482,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +167,9 @@
                 "start": 551,
                 "end": 561,
                 "value": "() => {}",
-                "raw": "'() => {}'"
+                "raw": "'() => {}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -218,14 +224,18 @@
             "start": 611,
             "end": 621,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 683,
             "value": "This test must fail if wrappedFunction is not a function",
-            "raw": "'This test must fail if wrappedFunction is not a function'"
+            "raw": "'This test must fail if wrappedFunction is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +300,9 @@
                   "start": 735,
                   "end": 736,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -307,7 +319,9 @@
             "start": 751,
             "end": 763,
             "value": "globalThis",
-            "raw": "'globalThis'"
+            "raw": "'globalThis'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -372,7 +386,9 @@
                   "start": 813,
                   "end": 814,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ArrayExpression",
@@ -389,7 +405,9 @@
             "start": 821,
             "end": 836,
             "value": "array literal",
-            "raw": "'array literal'"
+            "raw": "'array literal'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -454,7 +472,9 @@
                   "start": 886,
                   "end": 887,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -510,7 +530,9 @@
                                 "start": 925,
                                 "end": 933,
                                 "value": "string",
-                                "raw": "'string'"
+                                "raw": "'string'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -554,7 +576,9 @@
                                 "start": 960,
                                 "end": 965,
                                 "value": "str",
-                                "raw": "'str'"
+                                "raw": "'str'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -598,7 +622,9 @@
                                 "start": 991,
                                 "end": 992,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -617,7 +643,9 @@
             "start": 1000,
             "end": 1058,
             "value": "object literal with immediate primitive coercion methods",
-            "raw": "'object literal with immediate primitive coercion methods'"
+            "raw": "'object literal with immediate primitive coercion methods'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -682,7 +710,9 @@
                   "start": 1108,
                   "end": 1109,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "CallExpression",
@@ -713,7 +743,9 @@
                       "start": 1125,
                       "end": 1129,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -727,7 +759,9 @@
             "start": 1133,
             "end": 1170,
             "value": "ordinary object with null __proto__",
-            "raw": "'ordinary object with null __proto__'"
+            "raw": "'ordinary object with null __proto__'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -792,7 +826,9 @@
                   "start": 1220,
                   "end": 1221,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "NewExpression",
@@ -860,7 +896,9 @@
             "start": 1255,
             "end": 1275,
             "value": "non-callable proxy",
-            "raw": "'non-callable proxy'"
+            "raw": "'non-callable proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

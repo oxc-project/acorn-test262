@@ -82,14 +82,18 @@
             "start": 420,
             "end": 425,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 429,
             "end": 488,
             "value": "isConstructor(Set.prototype.isSubsetOf) must return false",
-            "raw": "\"isConstructor(Set.prototype.isSubsetOf) must return false\""
+            "raw": "\"isConstructor(Set.prototype.isSubsetOf) must return false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

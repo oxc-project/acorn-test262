@@ -47,7 +47,9 @@
                 "start": 741,
                 "end": 774,
                 "value": "1; for (var a in undefined) { }",
-                "raw": "'1; for (var a in undefined) { }'"
+                "raw": "'1; for (var a in undefined) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 811,
                 "end": 847,
                 "value": "2; for (var b in undefined) { 3; }",
-                "raw": "'2; for (var b in undefined) { 3; }'"
+                "raw": "'2; for (var b in undefined) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -165,7 +169,9 @@
                 "start": 884,
                 "end": 912,
                 "value": "4; for (var c in null) { }",
-                "raw": "'4; for (var c in null) { }'"
+                "raw": "'4; for (var c in null) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -224,7 +230,9 @@
                 "start": 949,
                 "end": 980,
                 "value": "5; for (var d in null) { 6; }",
-                "raw": "'5; for (var d in null) { 6; }'"
+                "raw": "'5; for (var d in null) { 6; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

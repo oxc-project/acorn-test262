@@ -59,7 +59,9 @@
                           "start": 326,
                           "end": 331,
                           "value": "sup",
-                          "raw": "'sup'"
+                          "raw": "'sup'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -226,7 +228,9 @@
                               "start": 436,
                               "end": 441,
                               "value": "sup",
-                              "raw": "'sup'"
+                              "raw": "'sup'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

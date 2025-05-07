@@ -115,7 +115,8 @@
               "regex": {
                 "pattern": "e",
                 "flags": "g"
-              }
+              },
+              "bigint": null
             },
             {
               "type": "UnaryExpression",
@@ -128,7 +129,9 @@
                 "start": 533,
                 "end": 534,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -140,7 +143,9 @@
           "start": 540,
           "end": 567,
           "value": "undundefinedfinundefinedd",
-          "raw": "\"undundefinedfinundefinedd\""
+          "raw": "\"undundefinedfinundefinedd\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -172,7 +177,9 @@
                     "start": 596,
                     "end": 711,
                     "value": "#1: __obj = {toString:function(){}}; String(__obj).replace(/e/g,void 0) === \"undundefinedfinundefinedd\". Actual: ",
-                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).replace(/e/g,void 0) === \"undundefinedfinundefinedd\". Actual: '"
+                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).replace(/e/g,void 0) === \"undundefinedfinundefinedd\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -222,7 +229,8 @@
                         "regex": {
                           "pattern": "e",
                           "flags": "g"
-                        }
+                        },
+                        "bigint": null
                       },
                       {
                         "type": "UnaryExpression",
@@ -235,7 +243,9 @@
                           "start": 747,
                           "end": 748,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

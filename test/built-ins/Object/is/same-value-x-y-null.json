@@ -60,14 +60,18 @@
                 "start": 399,
                 "end": 403,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 409,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -77,14 +81,18 @@
             "start": 412,
             "end": 416,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 458,
             "value": "`Object.is(null, null)` returns `true`",
-            "raw": "\"`Object.is(null, null)` returns `true`\""
+            "raw": "\"`Object.is(null, null)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

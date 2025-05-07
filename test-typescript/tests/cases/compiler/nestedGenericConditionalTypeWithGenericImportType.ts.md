@@ -147,7 +147,9 @@ __ESTREE_TEST__:PASS:
                 "start": 79,
                 "end": 87,
                 "raw": "\"./name\"",
-                "value": "./name"
+                "value": "./name",
+                "regex": null,
+                "bigint": null
               }
             },
             "options": null,

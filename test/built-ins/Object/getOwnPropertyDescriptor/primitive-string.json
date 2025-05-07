@@ -60,14 +60,18 @@
                 "start": 769,
                 "end": 771,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 773,
                 "end": 776,
                 "value": "0",
-                "raw": "'0'"
+                "raw": "'0'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,14 +130,18 @@
                 "start": 840,
                 "end": 845,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 847,
                 "end": 850,
                 "value": "0",
-                "raw": "'0'"
+                "raw": "'0'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -194,14 +202,18 @@
             "start": 888,
             "end": 891,
             "value": "f",
-            "raw": "'f'"
+            "raw": "'f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 893,
             "end": 904,
             "value": "[[Value]]",
-            "raw": "'[[Value]]'"
+            "raw": "'[[Value]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,14 +271,18 @@
             "start": 944,
             "end": 949,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 951,
             "end": 965,
             "value": "[[Writable]]",
-            "raw": "'[[Writable]]'"
+            "raw": "'[[Writable]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,14 +340,18 @@
             "start": 1007,
             "end": 1011,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1013,
             "end": 1029,
             "value": "[[Enumerable]]",
-            "raw": "'[[Enumerable]]'"
+            "raw": "'[[Enumerable]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -389,14 +409,18 @@
             "start": 1073,
             "end": 1078,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1098,
             "value": "[[Configurable]]",
-            "raw": "'[[Configurable]]'"
+            "raw": "'[[Configurable]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,14 +470,18 @@
                 "start": 1151,
                 "end": 1156,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1158,
                 "end": 1166,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -514,14 +542,18 @@
             "start": 1205,
             "end": 1206,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1208,
             "end": 1219,
             "value": "[[Value]]",
-            "raw": "'[[Value]]'"
+            "raw": "'[[Value]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -579,14 +611,18 @@
             "start": 1260,
             "end": 1265,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1281,
             "value": "[[Writable]]",
-            "raw": "'[[Writable]]'"
+            "raw": "'[[Writable]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -644,14 +680,18 @@
             "start": 1324,
             "end": 1329,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1331,
             "end": 1347,
             "value": "[[Enumerable]]",
-            "raw": "'[[Enumerable]]'"
+            "raw": "'[[Enumerable]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -709,14 +749,18 @@
             "start": 1392,
             "end": 1397,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1399,
             "end": 1417,
             "value": "[[Configurable]]",
-            "raw": "'[[Configurable]]'"
+            "raw": "'[[Configurable]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

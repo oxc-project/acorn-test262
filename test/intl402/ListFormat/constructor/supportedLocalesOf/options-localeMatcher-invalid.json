@@ -75,14 +75,18 @@
             "start": 612,
             "end": 622,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 641,
             "end": 693,
             "value": "Should support Intl.ListFormat.supportedLocalesOf.",
-            "raw": "\"Should support Intl.ListFormat.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.ListFormat.supportedLocalesOf.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,63 +117,81 @@
                 "start": 724,
                 "end": 728,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 732,
                 "end": 733,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 737,
                 "end": 739,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 751,
                 "value": "Lookup",
-                "raw": "\"Lookup\""
+                "raw": "\"Lookup\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 755,
                 "end": 763,
                 "value": "LOOKUP",
-                "raw": "\"LOOKUP\""
+                "raw": "\"LOOKUP\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 767,
                 "end": 777,
                 "value": "lookup\u0000",
-                "raw": "\"lookup\\0\""
+                "raw": "\"lookup\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 781,
                 "end": 791,
                 "value": "Best fit",
-                "raw": "\"Best fit\""
+                "raw": "\"Best fit\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 795,
                 "end": 805,
                 "value": "BEST FIT",
-                "raw": "\"BEST FIT\""
+                "raw": "\"BEST FIT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 809,
                 "end": 824,
                 "value": "best fit",
-                "raw": "\"best\\u00a0fit\""
+                "raw": "\"best\\u00a0fit\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -325,7 +347,9 @@
                                     "start": 961,
                                     "end": 976,
                                     "value": "localeMatcher",
-                                    "raw": "\"localeMatcher\""
+                                    "raw": "\"localeMatcher\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Identifier",

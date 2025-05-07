@@ -422,7 +422,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "'ph'",
-        "value": "ph"
+        "value": "ph",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -447,7 +449,9 @@ __ESTREE_TEST__:PASS:
               "start": 763,
               "end": 767,
               "raw": "'ph'",
-              "value": "ph"
+              "value": "ph",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -459,7 +463,9 @@ __ESTREE_TEST__:PASS:
         "start": 733,
         "end": 742,
         "raw": "'node:ph'",
-        "value": "node:ph"
+        "value": "node:ph",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -485,7 +491,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 29,
         "raw": "'node:ph'",
-        "value": "node:ph"
+        "value": "node:ph",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

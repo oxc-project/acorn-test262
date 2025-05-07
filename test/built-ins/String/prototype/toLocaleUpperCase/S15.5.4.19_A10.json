@@ -72,7 +72,9 @@
                 "start": 544,
                 "end": 552,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 583,
                     "end": 672,
                     "value": "#1: String.prototype.toLocaleUpperCase.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.toLocaleUpperCase.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#1: String.prototype.toLocaleUpperCase.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 725,
                         "end": 733,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -295,14 +301,18 @@
             "start": 932,
             "end": 940,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 942,
             "end": 946,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -327,7 +337,9 @@
                     "start": 970,
                     "end": 979,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -427,7 +439,9 @@
                     "start": 1159,
                     "end": 1352,
                     "value": "#2: __obj = String.prototype.toLocaleUpperCase.length; String.prototype.toLocaleUpperCase.length = function(){return \"shifted\";}; String.prototype.toLocaleUpperCase.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.toLocaleUpperCase.length; String.prototype.toLocaleUpperCase.length = function(){return \"shifted\";}; String.prototype.toLocaleUpperCase.length === __obj. Actual: '"
+                    "raw": "'#2: __obj = String.prototype.toLocaleUpperCase.length; String.prototype.toLocaleUpperCase.length = function(){return \"shifted\";}; String.prototype.toLocaleUpperCase.length === __obj. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

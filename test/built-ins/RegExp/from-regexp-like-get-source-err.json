@@ -88,7 +88,9 @@
             "start": 545,
             "end": 553,
             "value": "source",
-            "raw": "'source'"
+            "raw": "'source'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -189,7 +191,9 @@
             "start": 641,
             "end": 648,
             "value": "flags",
-            "raw": "'flags'"
+            "raw": "'flags'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -243,7 +247,9 @@
                               "start": 699,
                               "end": 762,
                               "value": "the `flags` property should not be referenced before `source`",
-                              "raw": "'the `flags` property should not be referenced before `source`'"
+                              "raw": "'the `flags` property should not be referenced before `source`'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -305,7 +311,9 @@
           "start": 794,
           "end": 798,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -434,7 +442,9 @@
           "start": 884,
           "end": 892,
           "value": "string",
-          "raw": "'string'"
+          "raw": "'string'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -826,7 +836,9 @@
           "start": 1160,
           "end": 1162,
           "value": 86,
-          "raw": "86"
+          "raw": "86",
+          "regex": null,
+          "bigint": null
         }
       }
     },

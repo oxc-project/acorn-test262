@@ -47,14 +47,18 @@
                 "start": 323,
                 "end": 327,
                 "value": 2019,
-                "raw": "2019"
+                "raw": "2019",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 331,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,42 +91,54 @@
                 "start": 360,
                 "end": 372,
                 "value": "-271821-04",
-                "raw": "\"-271821-04\""
+                "raw": "\"-271821-04\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 391,
                 "value": "-271821-04-01",
-                "raw": "\"-271821-04-01\""
+                "raw": "\"-271821-04-01\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 416,
                 "value": "-271821-04-01T00:00",
-                "raw": "\"-271821-04-01T00:00\""
+                "raw": "\"-271821-04-01T00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 432,
                 "value": "+275760-09",
-                "raw": "\"+275760-09\""
+                "raw": "\"+275760-09\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 451,
                 "value": "+275760-09-30",
-                "raw": "\"+275760-09-30\""
+                "raw": "\"+275760-09-30\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 455,
                 "end": 489,
                 "value": "+275760-09-30T23:59:59.999999999",
-                "raw": "\"+275760-09-30T23:59:59.999999999\""
+                "raw": "\"+275760-09-30T23:59:59.999999999\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -232,35 +248,45 @@
                 "start": 583,
                 "end": 598,
                 "value": "-271821-03-31",
-                "raw": "\"-271821-03-31\""
+                "raw": "\"-271821-03-31\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 602,
                 "end": 636,
                 "value": "-271821-03-31T23:59:59.999999999",
-                "raw": "\"-271821-03-31T23:59:59.999999999\""
+                "raw": "\"-271821-03-31T23:59:59.999999999\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 640,
                 "end": 652,
                 "value": "+275760-10",
-                "raw": "\"+275760-10\""
+                "raw": "\"+275760-10\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 656,
                 "end": 671,
                 "value": "+275760-10-01",
-                "raw": "\"+275760-10-01\""
+                "raw": "\"+275760-10-01\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 675,
                 "end": 696,
                 "value": "+275760-10-01T00:00",
-                "raw": "\"+275760-10-01T00:00\""
+                "raw": "\"+275760-10-01T00:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

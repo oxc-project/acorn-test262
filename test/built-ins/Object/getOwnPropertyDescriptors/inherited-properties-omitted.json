@@ -267,7 +267,9 @@
             "start": 452,
             "end": 455,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -292,7 +294,9 @@
                   "start": 473,
                   "end": 478,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -314,7 +318,9 @@
                   "start": 496,
                   "end": 500,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -336,7 +342,9 @@
                   "start": 514,
                   "end": 519,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -485,14 +493,18 @@
             "start": 644,
             "end": 648,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 650,
             "end": 670,
             "value": "b has a descriptor",
-            "raw": "'b has a descriptor'"
+            "raw": "'b has a descriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -564,14 +576,18 @@
             "start": 702,
             "end": 706,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 728,
             "value": "c has a descriptor",
-            "raw": "'c has a descriptor'"
+            "raw": "'c has a descriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -642,14 +658,18 @@
             "start": 770,
             "end": 774,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 793,
             "value": "b is enumerable",
-            "raw": "'b is enumerable'"
+            "raw": "'b is enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -720,14 +740,18 @@
             "start": 836,
             "end": 840,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 842,
             "end": 861,
             "value": "b is configurable",
-            "raw": "'b is configurable'"
+            "raw": "'b is configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,14 +822,18 @@
             "start": 900,
             "end": 904,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 906,
             "end": 921,
             "value": "b is writable",
-            "raw": "'b is writable'"
+            "raw": "'b is writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -882,7 +910,9 @@
             "start": 965,
             "end": 988,
             "value": "b’s value is `bValue`",
-            "raw": "'b’s value is `bValue`'"
+            "raw": "'b’s value is `bValue`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -953,14 +983,18 @@
             "start": 1030,
             "end": 1035,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1037,
             "end": 1054,
             "value": "c is enumerable",
-            "raw": "'c is enumerable'"
+            "raw": "'c is enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1031,14 +1065,18 @@
             "start": 1097,
             "end": 1101,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1103,
             "end": 1122,
             "value": "c is configurable",
-            "raw": "'c is configurable'"
+            "raw": "'c is configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1109,14 +1147,18 @@
             "start": 1161,
             "end": 1166,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1168,
             "end": 1183,
             "value": "c is writable",
-            "raw": "'c is writable'"
+            "raw": "'c is writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1206,7 +1248,9 @@
             "start": 1224,
             "end": 1244,
             "value": "c’s value is `f.c`",
-            "raw": "'c’s value is `f.c`'"
+            "raw": "'c’s value is `f.c`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1291,14 +1335,18 @@
             "start": 1298,
             "end": 1299,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1303,
             "end": 1354,
             "value": "result has same number of own property names as f",
-            "raw": "'result has same number of own property names as f'"
+            "raw": "'result has same number of own property names as f'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

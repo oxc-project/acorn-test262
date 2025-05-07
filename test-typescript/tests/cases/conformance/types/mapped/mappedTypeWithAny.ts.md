@@ -1586,7 +1586,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1746,
                     "end": 1747,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "void",
                   "prefix": true
@@ -1818,7 +1820,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1908,
                     "end": 1909,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "void",
                   "prefix": true

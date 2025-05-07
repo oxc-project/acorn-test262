@@ -34,7 +34,9 @@
                 "start": 400,
                 "end": 463,
                 "value": "return gNonStrict.caller || gNonStrict.caller.throwTypeError;",
-                "raw": "\"return gNonStrict.caller || gNonStrict.caller.throwTypeError;\""
+                "raw": "\"return gNonStrict.caller || gNonStrict.caller.throwTypeError;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -71,7 +73,9 @@
               "start": 484,
               "end": 496,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },

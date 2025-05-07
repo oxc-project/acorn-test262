@@ -41,6 +41,7 @@
               "end": 927,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<",
@@ -69,14 +70,18 @@
             "start": 948,
             "end": 952,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 1001,
             "value": "The result of (1n < Number.MAX_VALUE) is true",
-            "raw": "'The result of (1n < Number.MAX_VALUE) is true'"
+            "raw": "'The result of (1n < Number.MAX_VALUE) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,6 +145,7 @@
               "end": 1042,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -148,14 +154,18 @@
             "start": 1044,
             "end": 1049,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1051,
             "end": 1099,
             "value": "The result of (Number.MAX_VALUE < 1n) is false",
-            "raw": "'The result of (Number.MAX_VALUE < 1n) is false'"
+            "raw": "'The result of (Number.MAX_VALUE < 1n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,6 +209,7 @@
               "end": 1121,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<",
@@ -234,14 +245,18 @@
             "start": 1143,
             "end": 1148,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1150,
             "end": 1199,
             "value": "The result of (1n < -Number.MAX_VALUE) is false",
-            "raw": "'The result of (1n < -Number.MAX_VALUE) is false'"
+            "raw": "'The result of (1n < -Number.MAX_VALUE) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,6 +327,7 @@
               "end": 1241,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -320,14 +336,18 @@
             "start": 1243,
             "end": 1247,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1249,
             "end": 1297,
             "value": "The result of (-Number.MAX_VALUE < 1n) is true",
-            "raw": "'The result of (-Number.MAX_VALUE < 1n) is true'"
+            "raw": "'The result of (-Number.MAX_VALUE < 1n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,6 +391,7 @@
               "end": 1580,
               "value": null,
               "raw": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn",
+              "regex": null,
               "bigint": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             },
             "operator": "<",
@@ -399,14 +420,18 @@
             "start": 1603,
             "end": 1607,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1611,
             "end": 1915,
             "value": "The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn < Number.MAX_VALUE) is true",
-            "raw": "'The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn < Number.MAX_VALUE) is true'"
+            "raw": "'The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn < Number.MAX_VALUE) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -470,6 +495,7 @@
               "end": 2218,
               "value": null,
               "raw": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn",
+              "regex": null,
               "bigint": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             }
           },
@@ -478,14 +504,18 @@
             "start": 2222,
             "end": 2227,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2231,
             "end": 2536,
             "value": "The result of (Number.MAX_VALUE < 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is false",
-            "raw": "'The result of (Number.MAX_VALUE < 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is false'"
+            "raw": "'The result of (Number.MAX_VALUE < 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -529,6 +559,7 @@
               "end": 2820,
               "value": null,
               "raw": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n",
+              "regex": null,
               "bigint": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
             },
             "operator": "<",
@@ -557,14 +588,18 @@
             "start": 2843,
             "end": 2848,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2852,
             "end": 3157,
             "value": "The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n < Number.MAX_VALUE) is false",
-            "raw": "'The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n < Number.MAX_VALUE) is false'"
+            "raw": "'The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n < Number.MAX_VALUE) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -628,6 +663,7 @@
               "end": 3460,
               "value": null,
               "raw": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n",
+              "regex": null,
               "bigint": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
             }
           },
@@ -636,14 +672,18 @@
             "start": 3464,
             "end": 3468,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3472,
             "end": 3776,
             "value": "The result of (Number.MAX_VALUE < 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true",
-            "raw": "'The result of (Number.MAX_VALUE < 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true'"
+            "raw": "'The result of (Number.MAX_VALUE < 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

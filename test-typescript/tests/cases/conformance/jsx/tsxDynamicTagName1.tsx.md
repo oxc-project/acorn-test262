@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 16,
             "end": 20,
             "raw": "\"h1\"",
-            "value": "h1"
+            "value": "h1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

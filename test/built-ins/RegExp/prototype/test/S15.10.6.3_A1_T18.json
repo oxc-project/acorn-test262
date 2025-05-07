@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "nd|ne",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -137,7 +138,9 @@
               "start": 395,
               "end": 399,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -145,7 +148,9 @@
             "start": 403,
             "end": 467,
             "value": "__re.test(undefined) must return __re.exec(undefined) !== null",
-            "raw": "'__re.test(undefined) must return __re.exec(undefined) !== null'"
+            "raw": "'__re.test(undefined) must return __re.exec(undefined) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

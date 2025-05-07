@@ -34,7 +34,9 @@
                 "start": 375,
                 "end": 380,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -75,7 +77,9 @@
           "start": 403,
           "end": 417,
           "value": "BooleanValue",
-          "raw": "\"BooleanValue\""
+          "raw": "\"BooleanValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -211,14 +215,18 @@
             "start": 507,
             "end": 521,
             "value": "BooleanValue",
-            "raw": "\"BooleanValue\""
+            "raw": "\"BooleanValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 536,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

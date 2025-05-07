@@ -28,7 +28,9 @@
             "start": 279,
             "end": 289,
             "value": "isFinite",
-            "raw": "\"isFinite\""
+            "raw": "\"isFinite\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -53,7 +55,9 @@
                   "start": 305,
                   "end": 309,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -75,7 +79,9 @@
                   "start": 325,
                   "end": 330,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,7 +103,9 @@
                   "start": 348,
                   "end": 352,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

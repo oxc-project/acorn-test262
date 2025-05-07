@@ -104,7 +104,9 @@
             "start": 553,
             "end": 563,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

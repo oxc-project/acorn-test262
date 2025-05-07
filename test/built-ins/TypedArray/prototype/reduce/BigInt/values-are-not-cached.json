@@ -76,6 +76,7 @@
                                 "end": 1042,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 1047,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 1052,
                                 "value": null,
                                 "raw": "44n",
+                                "regex": null,
                                 "bigint": "44"
                               }
                             ]
@@ -207,7 +210,9 @@
                                     "start": 1121,
                                     "end": 1122,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               },
@@ -251,7 +256,9 @@
                                             "start": 1141,
                                             "end": 1142,
                                             "value": 1,
-                                            "raw": "1"
+                                            "raw": "1",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "computed": true,
@@ -263,6 +270,7 @@
                                         "end": 1149,
                                         "value": null,
                                         "raw": "42n",
+                                        "regex": null,
                                         "bigint": "42"
                                       }
                                     }
@@ -311,6 +319,7 @@
                                     "end": 1192,
                                     "value": null,
                                     "raw": "42n",
+                                    "regex": null,
                                     "bigint": "42"
                                   },
                                   {
@@ -318,7 +327,9 @@
                                     "start": 1194,
                                     "end": 1248,
                                     "value": "method does not cache values before callbackfn calls",
-                                    "raw": "\"method does not cache values before callbackfn calls\""
+                                    "raw": "\"method does not cache values before callbackfn calls\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -332,7 +343,9 @@
                         "start": 1261,
                         "end": 1262,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

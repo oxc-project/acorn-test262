@@ -80,7 +80,9 @@
                 "start": 556,
                 "end": 633,
                 "value": "new Proxy(function() {}, { construct: function(_, args) { return args; } })",
-                "raw": "'new Proxy(function() {}, { construct: function(_, args) { return args; } })'"
+                "raw": "'new Proxy(function() {}, { construct: function(_, args) { return args; } })'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

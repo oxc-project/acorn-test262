@@ -75,21 +75,27 @@
                   "start": 387,
                   "end": 391,
                   "value": 1970,
-                  "raw": "1970"
+                  "raw": "1970",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 393,
                   "end": 394,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 396,
                   "end": 397,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -129,7 +129,9 @@
             "start": 331,
             "end": 405,
             "value": "Function.prototype.bind.call(undefined, {}) throws a TypeError exception",
-            "raw": "'Function.prototype.bind.call(undefined, {}) throws a TypeError exception'"
+            "raw": "'Function.prototype.bind.call(undefined, {}) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

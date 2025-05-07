@@ -31,7 +31,9 @@
               "start": 274,
               "end": 286,
               "value": "use strict",
-              "raw": "'use strict'"
+              "raw": "'use strict'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -44,7 +46,9 @@
               "start": 293,
               "end": 305,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },

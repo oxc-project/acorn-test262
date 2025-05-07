@@ -47,21 +47,27 @@
                 "start": 309,
                 "end": 313,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 317,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 319,
                 "end": 321,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -89,7 +95,9 @@
             "start": 335,
             "end": 356,
             "value": "2016-12-31T23:59:60",
-            "raw": "\"2016-12-31T23:59:60\""
+            "raw": "\"2016-12-31T23:59:60\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -186,14 +194,18 @@
             "start": 427,
             "end": 431,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 484,
             "value": "leap second is a valid ISO string for PlainDate",
-            "raw": "\"leap second is a valid ISO string for PlainDate\""
+            "raw": "\"leap second is a valid ISO string for PlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,7 +249,9 @@
                 "start": 503,
                 "end": 507,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -259,7 +273,9 @@
                 "start": 516,
                 "end": 518,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -281,7 +297,9 @@
                 "start": 525,
                 "end": 527,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -303,7 +321,9 @@
                 "start": 535,
                 "end": 537,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -325,7 +345,9 @@
                 "start": 547,
                 "end": 549,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -347,7 +369,9 @@
                 "start": 559,
                 "end": 561,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -446,14 +470,18 @@
             "start": 634,
             "end": 638,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 642,
             "end": 695,
             "value": "second: 60 is ignored in property bag for PlainDate",
-            "raw": "\"second: 60 is ignored in property bag for PlainDate\""
+            "raw": "\"second: 60 is ignored in property bag for PlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

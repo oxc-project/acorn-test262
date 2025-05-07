@@ -62,14 +62,18 @@
             "start": 330,
             "end": 340,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 342,
             "end": 403,
             "value": "The value of `typeof Math.max` is expected to be \"function\"",
-            "raw": "'The value of `typeof Math.max` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Math.max` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -147,14 +151,18 @@
             "start": 450,
             "end": 461,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 519,
             "value": "The value of typeof Math.max.length is not \"undefined\"",
-            "raw": "'The value of typeof Math.max.length is not \"undefined\"'"
+            "raw": "'The value of typeof Math.max.length is not \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -225,14 +233,18 @@
             "start": 556,
             "end": 557,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 609,
             "value": "The value of Math.max.length is expected to be 2",
-            "raw": "'The value of Math.max.length is expected to be 2'"
+            "raw": "'The value of Math.max.length is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

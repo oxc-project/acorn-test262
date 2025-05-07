@@ -23,7 +23,9 @@
             "start": 1778,
             "end": 1779,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1799,
             "end": 1800,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 1818,
             "end": 1822,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 1835,
             "end": 1839,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -248,7 +256,9 @@
                             "start": 1965,
                             "end": 1966,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -567,7 +577,9 @@
                 "start": 2215,
                 "end": 2216,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -723,7 +735,9 @@
               "start": 2301,
               "end": 2304,
               "value": 444,
-              "raw": "444"
+              "raw": "444",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -769,7 +783,9 @@
             "start": 2338,
             "end": 2339,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -814,14 +830,18 @@
             "start": 2372,
             "end": 2373,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2375,
             "end": 2415,
             "value": "Unreachable statement was not executed",
-            "raw": "'Unreachable statement was not executed'"
+            "raw": "'Unreachable statement was not executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -879,7 +899,9 @@
             "start": 2449,
             "end": 2452,
             "value": 444,
-            "raw": "444"
+            "raw": "444",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -924,7 +946,9 @@
             "start": 2475,
             "end": 2502,
             "value": "Iterator correctly closed",
-            "raw": "'Iterator correctly closed'"
+            "raw": "'Iterator correctly closed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -975,7 +999,9 @@
             "start": 2543,
             "end": 2565,
             "value": "correct `this` value",
-            "raw": "'correct `this` value'"
+            "raw": "'correct `this` value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1021,7 +1047,9 @@
             "start": 2583,
             "end": 2610,
             "value": "arguments object provided",
-            "raw": "'arguments object provided'"
+            "raw": "'arguments object provided'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1079,14 +1107,18 @@
             "start": 2643,
             "end": 2644,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2646,
             "end": 2672,
             "value": "zero arguments specified",
-            "raw": "'zero arguments specified'"
+            "raw": "'zero arguments specified'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

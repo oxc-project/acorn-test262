@@ -128,7 +128,9 @@
                                 "start": 2071,
                                 "end": 2072,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

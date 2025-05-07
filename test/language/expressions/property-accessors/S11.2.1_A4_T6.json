@@ -43,7 +43,9 @@
           "start": 306,
           "end": 314,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +72,9 @@
                 "start": 341,
                 "end": 394,
                 "value": "#1: typeof Boolean.prototype === \"object\". Actual: ",
-                "raw": "'#1: typeof Boolean.prototype === \"object\". Actual: '"
+                "raw": "'#1: typeof Boolean.prototype === \"object\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -139,7 +143,9 @@
               "start": 446,
               "end": 457,
               "value": "prototype",
-              "raw": "'prototype'"
+              "raw": "'prototype'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -151,7 +157,9 @@
           "start": 464,
           "end": 472,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                 "start": 498,
                 "end": 554,
                 "value": "#2: typeof Boolean[\"prototype\"] === \"object\". Actual: ",
-                "raw": "'#2: typeof Boolean[\"prototype\"] === \"object\". Actual: '"
+                "raw": "'#2: typeof Boolean[\"prototype\"] === \"object\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -206,7 +216,9 @@
                       "start": 573,
                       "end": 584,
                       "value": "prototype",
-                      "raw": "\"prototype\""
+                      "raw": "\"prototype\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -259,7 +271,9 @@
           "start": 626,
           "end": 636,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -286,7 +300,9 @@
                 "start": 662,
                 "end": 719,
                 "value": "#3: typeof Boolean.constructor === \"function\". Actual: ",
-                "raw": "'#3: typeof Boolean.constructor === \"function\". Actual: '"
+                "raw": "'#3: typeof Boolean.constructor === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -355,7 +371,9 @@
               "start": 773,
               "end": 786,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -367,7 +385,9 @@
           "start": 793,
           "end": 803,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -394,7 +414,9 @@
                 "start": 829,
                 "end": 889,
                 "value": "#4: typeof Boolean[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#4: typeof Boolean[\"constructor\"] === \"function\". Actual: '"
+                "raw": "'#4: typeof Boolean[\"constructor\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -422,7 +444,9 @@
                       "start": 908,
                       "end": 921,
                       "value": "constructor",
-                      "raw": "\"constructor\""
+                      "raw": "\"constructor\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -488,7 +512,9 @@
           "start": 969,
           "end": 979,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -515,7 +541,9 @@
                 "start": 1005,
                 "end": 1068,
                 "value": "#5: typeof Boolean.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#5: typeof Boolean.prototype.valueOf === \"function\". Actual: '"
+                "raw": "'#5: typeof Boolean.prototype.valueOf === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -610,7 +638,9 @@
               "start": 1138,
               "end": 1147,
               "value": "valueOf",
-              "raw": "'valueOf'"
+              "raw": "'valueOf'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -622,7 +652,9 @@
           "start": 1153,
           "end": 1163,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -649,7 +681,9 @@
                 "start": 1189,
                 "end": 1255,
                 "value": "#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "raw": "'#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -690,7 +724,9 @@
                       "start": 1284,
                       "end": 1293,
                       "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "raw": "\"valueOf\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -756,7 +792,9 @@
           "start": 1341,
           "end": 1351,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -783,7 +821,9 @@
                 "start": 1377,
                 "end": 1441,
                 "value": "#7: typeof Boolean.prototype.toString === \"function\". Actual: ",
-                "raw": "'#7: typeof Boolean.prototype.toString === \"function\". Actual: '"
+                "raw": "'#7: typeof Boolean.prototype.toString === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -878,7 +918,9 @@
               "start": 1512,
               "end": 1522,
               "value": "toString",
-              "raw": "'toString'"
+              "raw": "'toString'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -890,7 +932,9 @@
           "start": 1528,
           "end": 1538,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -917,7 +961,9 @@
                 "start": 1564,
                 "end": 1631,
                 "value": "#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: '"
+                "raw": "'#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -958,7 +1004,9 @@
                       "start": 1660,
                       "end": 1670,
                       "value": "toString",
-                      "raw": "\"toString\""
+                      "raw": "\"toString\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

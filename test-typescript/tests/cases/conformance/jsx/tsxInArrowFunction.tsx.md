@@ -181,7 +181,9 @@ __ESTREE_TEST__:PASS:
                         "start": 183,
                         "end": 188,
                         "raw": "\"wat\"",
-                        "value": "wat"
+                        "value": "wat",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -276,7 +278,9 @@ __ESTREE_TEST__:PASS:
                         "start": 237,
                         "end": 242,
                         "raw": "\"wat\"",
-                        "value": "wat"
+                        "value": "wat",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -381,7 +385,9 @@ __ESTREE_TEST__:PASS:
                         "start": 288,
                         "end": 293,
                         "raw": "\"wat\"",
-                        "value": "wat"
+                        "value": "wat",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -486,7 +492,9 @@ __ESTREE_TEST__:PASS:
                         "start": 343,
                         "end": 348,
                         "raw": "\"wat\"",
-                        "value": "wat"
+                        "value": "wat",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],

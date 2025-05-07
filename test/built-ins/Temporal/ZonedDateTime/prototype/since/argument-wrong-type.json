@@ -23,7 +23,9 @@
             "start": 374,
             "end": 379,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 427,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -124,7 +127,9 @@
                     "start": 480,
                     "end": 491,
                     "value": "undefined",
-                    "raw": "\"undefined\""
+                    "raw": "\"undefined\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -138,14 +143,18 @@
                     "start": 497,
                     "end": 501,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 503,
                     "end": 509,
                     "value": "null",
-                    "raw": "\"null\""
+                    "raw": "\"null\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -159,14 +168,18 @@
                     "start": 515,
                     "end": 519,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 521,
                     "end": 530,
                     "value": "boolean",
-                    "raw": "\"boolean\""
+                    "raw": "\"boolean\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -180,14 +193,18 @@
                     "start": 536,
                     "end": 538,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 540,
                     "end": 554,
                     "value": "empty string",
-                    "raw": "\"empty string\""
+                    "raw": "\"empty string\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -201,14 +218,18 @@
                     "start": 560,
                     "end": 561,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 563,
                     "end": 614,
                     "value": "number that doesn't convert to a valid ISO string",
-                    "raw": "\"number that doesn't convert to a valid ISO string\""
+                    "raw": "\"number that doesn't convert to a valid ISO string\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -222,14 +243,18 @@
                     "start": 620,
                     "end": 628,
                     "value": 19761118,
-                    "raw": "19761118"
+                    "raw": "19761118",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 630,
                     "end": 697,
                     "value": "number that would convert to a valid ISO string in other contexts",
-                    "raw": "\"number that would convert to a valid ISO string in other contexts\""
+                    "raw": "\"number that would convert to a valid ISO string in other contexts\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -244,6 +269,7 @@
                     "end": 705,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   },
                   {
@@ -251,7 +277,9 @@
                     "start": 707,
                     "end": 715,
                     "value": "bigint",
-                    "raw": "\"bigint\""
+                    "raw": "\"bigint\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -365,7 +393,9 @@
                       "start": 809,
                       "end": 817,
                       "value": "string",
-                      "raw": "'string'"
+                      "raw": "'string'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -509,7 +539,9 @@
                     "start": 981,
                     "end": 989,
                     "value": "symbol",
-                    "raw": "\"symbol\""
+                    "raw": "\"symbol\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -529,7 +561,9 @@
                     "start": 999,
                     "end": 1013,
                     "value": "plain object",
-                    "raw": "\"plain object\""
+                    "raw": "\"plain object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -562,7 +596,9 @@
                     "start": 1043,
                     "end": 1075,
                     "value": "Temporal.ZonedDateTime, object",
-                    "raw": "\"Temporal.ZonedDateTime, object\""
+                    "raw": "\"Temporal.ZonedDateTime, object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -608,7 +644,9 @@
                     "start": 1115,
                     "end": 1157,
                     "value": "Temporal.ZonedDateTime.prototype, object",
-                    "raw": "\"Temporal.ZonedDateTime.prototype, object\""
+                    "raw": "\"Temporal.ZonedDateTime.prototype, object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

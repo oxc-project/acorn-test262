@@ -90,7 +90,9 @@
                         "start": 1262,
                         "end": 1269,
                         "value": "hello",
-                        "raw": "'hello'"
+                        "raw": "'hello'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

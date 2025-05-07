@@ -68,7 +68,9 @@
                     "start": 388,
                     "end": 389,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

@@ -75,14 +75,18 @@
             "start": 474,
             "end": 484,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 549,
             "value": "The value of `typeof TypedArray.prototype.at` is \"function\"",
-            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'"
+            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +318,9 @@
                         "start": 699,
                         "end": 703,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -435,14 +441,18 @@
                         "start": 793,
                         "end": 803,
                         "value": "function",
-                        "raw": "'function'"
+                        "raw": "'function'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 805,
                         "end": 858,
                         "value": "The value of `typeof TA.prototype.at` is \"function\"",
-                        "raw": "'The value of `typeof TA.prototype.at` is \"function\"'"
+                        "raw": "'The value of `typeof TA.prototype.at` is \"function\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -674,7 +684,9 @@
                                     "start": 1001,
                                     "end": 1005,
                                     "value": null,
-                                    "raw": "null"
+                                    "raw": "null",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

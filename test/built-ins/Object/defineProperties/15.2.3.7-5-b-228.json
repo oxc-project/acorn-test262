@@ -23,7 +23,9 @@
             "start": 300,
             "end": 306,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -216,7 +218,9 @@
           "start": 443,
           "end": 457,
           "value": "overrideData",
-          "raw": "\"overrideData\""
+          "raw": "\"overrideData\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -264,7 +268,9 @@
                 "start": 486,
                 "end": 495,
                 "value": "descObj",
-                "raw": "\"descObj\""
+                "raw": "\"descObj\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -274,7 +280,9 @@
             "start": 498,
             "end": 538,
             "value": "obj.hasOwnProperty(\"descObj\") !== true",
-            "raw": "'obj.hasOwnProperty(\"descObj\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"descObj\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,14 +327,18 @@
             "start": 564,
             "end": 578,
             "value": "overrideData",
-            "raw": "\"overrideData\""
+            "raw": "\"overrideData\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 586,
             "value": "data",
-            "raw": "'data'"
+            "raw": "'data'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

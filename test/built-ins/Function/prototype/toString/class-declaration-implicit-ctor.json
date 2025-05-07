@@ -124,7 +124,9 @@
             "start": 645,
             "end": 682,
             "value": "class /* a */ A /* b */ { /* c */ }",
-            "raw": "\"class /* a */ A /* b */ { /* c */ }\""
+            "raw": "\"class /* a */ A /* b */ { /* c */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -156,7 +158,9 @@
             "start": 719,
             "end": 782,
             "value": "class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }",
-            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\""
+            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -188,7 +192,9 @@
             "start": 819,
             "end": 932,
             "value": "class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }",
-            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\""
+            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

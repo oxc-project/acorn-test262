@@ -40,7 +40,9 @@
               "start": 448,
               "end": 449,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -61,7 +63,9 @@
                       "start": 453,
                       "end": 457,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -80,7 +84,9 @@
                   "start": 467,
                   "end": 471,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "UnaryExpression",
@@ -93,7 +99,9 @@
                     "start": 474,
                     "end": 475,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

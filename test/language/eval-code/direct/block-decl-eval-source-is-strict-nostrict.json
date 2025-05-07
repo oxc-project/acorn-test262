@@ -43,7 +43,9 @@
             "start": 469,
             "end": 503,
             "value": "\"use strict\";{ function f() {} }",
-            "raw": "'\"use strict\";{ function f() {} }'"
+            "raw": "'\"use strict\";{ function f() {} }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

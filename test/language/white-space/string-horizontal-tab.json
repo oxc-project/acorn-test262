@@ -27,7 +27,9 @@
               "start": 287,
               "end": 315,
               "value": "'\tstr\ting\t'",
-              "raw": "\"'\\u0009str\\u0009ing\\u0009'\""
+              "raw": "\"'\\u0009str\\u0009ing\\u0009'\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 321,
           "end": 347,
           "value": "\tstr\ting\t",
-          "raw": "\"\\u0009str\\u0009ing\\u0009\""
+          "raw": "\"\\u0009str\\u0009ing\\u0009\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 376,
                   "end": 455,
                   "value": "#1: eval(\"'\\u0009str\\u0009ing\\u0009'\") === \"\\u0009str\\u0009ing\\u0009\"",
-                  "raw": "'#1: eval(\"\\'\\\\u0009str\\\\u0009ing\\\\u0009\\'\") === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'"
+                  "raw": "'#1: eval(\"\\'\\\\u0009str\\\\u0009ing\\\\u0009\\'\") === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 480,
               "end": 496,
               "value": "'\tstr\ting\t'",
-              "raw": "\"'\\tstr\\ting\\t'\""
+              "raw": "\"'\\tstr\\ting\\t'\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 502,
           "end": 516,
           "value": "\tstr\ting\t",
-          "raw": "\"\\tstr\\ting\\t\""
+          "raw": "\"\\tstr\\ting\\t\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 545,
                   "end": 600,
                   "value": "#2: eval(\"'\\tstr\\ting\\t'\") === \"\\tstr\\ting\\t\"",
-                  "raw": "'#2: eval(\"\\'\\\\tstr\\\\ting\\\\t\\'\") === \"\\\\tstr\\\\ting\\\\t\"'"
+                  "raw": "'#2: eval(\"\\'\\\\tstr\\\\ting\\\\t\\'\") === \"\\\\tstr\\\\ting\\\\t\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -67,7 +67,9 @@
             "start": 342,
             "end": 347,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                   "start": 389,
                   "end": 394,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -274,7 +278,9 @@
             "start": 524,
             "end": 529,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -299,7 +305,9 @@
                   "start": 549,
                   "end": 553,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -353,7 +361,9 @@
                 "start": 585,
                 "end": 590,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -363,7 +373,9 @@
             "start": 593,
             "end": 629,
             "value": "obj.hasOwnProperty(\"foo\") !== true",
-            "raw": "'obj.hasOwnProperty(\"foo\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"foo\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -428,14 +440,18 @@
             "start": 665,
             "end": 676,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 694,
             "value": "typeof obj.foo",
-            "raw": "'typeof obj.foo'"
+            "raw": "'typeof obj.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

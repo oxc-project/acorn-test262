@@ -33,6 +33,7 @@
                   "end": 251,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               }
@@ -76,7 +77,9 @@
                     "start": 292,
                     "end": 354,
                     "value": "Expected RequireObjectCoercible to succeed for BigInt values",
-                    "raw": "'Expected RequireObjectCoercible to succeed for BigInt values'"
+                    "raw": "'Expected RequireObjectCoercible to succeed for BigInt values'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -144,6 +147,7 @@
                 "end": 401,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -151,7 +155,9 @@
                 "start": 403,
                 "end": 407,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -162,6 +168,7 @@
             "end": 412,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           }
         ],

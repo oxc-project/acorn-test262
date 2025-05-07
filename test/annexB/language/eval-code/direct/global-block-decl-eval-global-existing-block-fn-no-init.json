@@ -23,7 +23,9 @@
             "start": 564,
             "end": 653,
             "value": "assert.sameValue(f, undefined);    {    function f() {}  }{ function f() {  } }",
-            "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }{ function f() {  } }'"
+            "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }{ function f() {  } }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 274,
                 "end": 291,
                 "value": "hello\nworld\\!",
-                "raw": "\"hello\\nworld\\\\!\""
+                "raw": "\"hello\\nworld\\\\!\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -62,7 +64,9 @@
             "start": 309,
             "end": 314,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -132,7 +136,9 @@
                 "start": 377,
                 "end": 381,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -244,7 +250,9 @@
                 "start": 473,
                 "end": 476,
                 "value": "h",
-                "raw": "\"h\""
+                "raw": "\"h\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -254,7 +262,9 @@
             "start": 479,
             "end": 544,
             "value": "Array.prototype.reduceRight.call(obj, callbackfn, \"h\") !== true",
-            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, \"h\") !== true'"
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, \"h\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -286,7 +296,9 @@
             "start": 564,
             "end": 583,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

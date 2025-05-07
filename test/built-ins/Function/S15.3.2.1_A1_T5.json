@@ -34,7 +34,9 @@
                 "start": 900,
                 "end": 914,
                 "value": "return 'A'",
-                "raw": "\"return \\'A\\'\""
+                "raw": "\"return \\'A\\'\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -131,7 +133,9 @@
                       "start": 993,
                       "end": 1022,
                       "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "raw": "'#1: test failed with error '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -207,7 +211,9 @@
             "start": 1074,
             "end": 1145,
             "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "raw": "'The value of f.constructor is expected to equal the value of Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,14 +265,18 @@
             "start": 1170,
             "end": 1178,
             "value": "A",
-            "raw": "\"\\u0041\""
+            "raw": "\"\\u0041\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1180,
             "end": 1205,
             "value": "f() must return \"u0041\"",
-            "raw": "'f() must return \"u0041\"'"
+            "raw": "'f() must return \"u0041\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

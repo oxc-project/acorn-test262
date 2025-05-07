@@ -34,7 +34,9 @@
                 "start": 1667,
                 "end": 1668,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 1705,
                 "end": 1706,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -333,7 +337,9 @@
                           "start": 1928,
                           "end": 1929,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Identifier",
@@ -346,7 +352,9 @@
                           "start": 1938,
                           "end": 1943,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -410,7 +418,9 @@
                             "start": 1989,
                             "end": 1990,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -430,7 +440,9 @@
                           "start": 2011,
                           "end": 2020,
                           "value": "value: ",
-                          "raw": "\"value: \""
+                          "raw": "\"value: \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -493,7 +505,9 @@
                           "start": 2085,
                           "end": 2115,
                           "value": "return is undefined, value: ",
-                          "raw": "\"return is undefined, value: \""
+                          "raw": "\"return is undefined, value: \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

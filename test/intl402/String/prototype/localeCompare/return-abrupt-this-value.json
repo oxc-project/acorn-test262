@@ -34,7 +34,9 @@
                 "start": 319,
                 "end": 323,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -215,7 +217,9 @@
                                         "start": 475,
                                         "end": 477,
                                         "value": "",
-                                        "raw": "\"\""
+                                        "raw": "\"\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -240,7 +244,9 @@
                             "start": 487,
                             "end": 542,
                             "value": "String.prototype.localeCompare did not reject this = ",
-                            "raw": "\"String.prototype.localeCompare did not reject this = \""
+                            "raw": "\"String.prototype.localeCompare did not reject this = \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -256,7 +262,9 @@
                           "start": 553,
                           "end": 556,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

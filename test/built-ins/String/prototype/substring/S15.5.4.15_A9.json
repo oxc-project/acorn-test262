@@ -72,7 +72,9 @@
                 "start": 502,
                 "end": 510,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 541,
                     "end": 622,
                     "value": "#0: String.prototype.substring.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.substring.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#0: String.prototype.substring.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 667,
                         "end": 675,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -267,7 +273,9 @@
                   "start": 927,
                   "end": 985,
                   "value": "#1: delete String.prototype.substring.length return true",
-                  "raw": "'#1: delete String.prototype.substring.length return true'"
+                  "raw": "'#1: delete String.prototype.substring.length return true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -335,7 +343,9 @@
             "start": 1208,
             "end": 1216,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +379,9 @@
                     "start": 1246,
                     "end": 1370,
                     "value": "#2: delete String.prototype.substring.length; String.prototype.substring.hasOwnProperty('length') return false. Actual: ",
-                    "raw": "'#2: delete String.prototype.substring.length; String.prototype.substring.hasOwnProperty(\\'length\\') return false. Actual: '"
+                    "raw": "'#2: delete String.prototype.substring.length; String.prototype.substring.hasOwnProperty(\\'length\\') return false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -427,7 +439,9 @@
                         "start": 1415,
                         "end": 1423,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -39,7 +39,9 @@
                       "start": 310,
                       "end": 313,
                       "value": 987,
-                      "raw": "987"
+                      "raw": "987",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -59,14 +61,18 @@
                           "start": 327,
                           "end": 334,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 336,
                           "end": 347,
                           "value": "-987 km/h",
-                          "raw": "\"-987 km/h\""
+                          "raw": "\"-987 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -82,14 +88,18 @@
                           "start": 355,
                           "end": 363,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 365,
                           "end": 376,
                           "value": "-987 km/h",
-                          "raw": "\"-987 km/h\""
+                          "raw": "\"-987 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -105,14 +115,18 @@
                           "start": 384,
                           "end": 390,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 392,
                           "end": 419,
                           "value": "-987 Kilometer pro Stunde",
-                          "raw": "\"-987 Kilometer pro Stunde\""
+                          "raw": "\"-987 Kilometer pro Stunde\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -136,7 +150,9 @@
                       "start": 441,
                       "end": 446,
                       "value": 0.001,
-                      "raw": "0.001"
+                      "raw": "0.001",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -156,14 +172,18 @@
                           "start": 460,
                           "end": 467,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 469,
                           "end": 482,
                           "value": "-0,001 km/h",
-                          "raw": "\"-0,001 km/h\""
+                          "raw": "\"-0,001 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -179,14 +199,18 @@
                           "start": 490,
                           "end": 498,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 500,
                           "end": 513,
                           "value": "-0,001 km/h",
-                          "raw": "\"-0,001 km/h\""
+                          "raw": "\"-0,001 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -202,14 +226,18 @@
                           "start": 521,
                           "end": 527,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 529,
                           "end": 558,
                           "value": "-0,001 Kilometer pro Stunde",
-                          "raw": "\"-0,001 Kilometer pro Stunde\""
+                          "raw": "\"-0,001 Kilometer pro Stunde\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -233,7 +261,9 @@
                       "start": 580,
                       "end": 581,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -253,14 +283,18 @@
                           "start": 595,
                           "end": 602,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 604,
                           "end": 613,
                           "value": "-0 km/h",
-                          "raw": "\"-0 km/h\""
+                          "raw": "\"-0 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -276,14 +310,18 @@
                           "start": 621,
                           "end": 629,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 631,
                           "end": 640,
                           "value": "-0 km/h",
-                          "raw": "\"-0 km/h\""
+                          "raw": "\"-0 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -299,14 +337,18 @@
                           "start": 648,
                           "end": 654,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 656,
                           "end": 681,
                           "value": "-0 Kilometer pro Stunde",
-                          "raw": "\"-0 Kilometer pro Stunde\""
+                          "raw": "\"-0 Kilometer pro Stunde\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -324,7 +366,9 @@
                     "start": 702,
                     "end": 703,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -343,14 +387,18 @@
                           "start": 717,
                           "end": 724,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 726,
                           "end": 734,
                           "value": "0 km/h",
-                          "raw": "\"0 km/h\""
+                          "raw": "\"0 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -366,14 +414,18 @@
                           "start": 742,
                           "end": 750,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 752,
                           "end": 760,
                           "value": "0 km/h",
-                          "raw": "\"0 km/h\""
+                          "raw": "\"0 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -389,14 +441,18 @@
                           "start": 768,
                           "end": 774,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 776,
                           "end": 800,
                           "value": "0 Kilometer pro Stunde",
-                          "raw": "\"0 Kilometer pro Stunde\""
+                          "raw": "\"0 Kilometer pro Stunde\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -414,7 +470,9 @@
                     "start": 821,
                     "end": 826,
                     "value": 0.001,
-                    "raw": "0.001"
+                    "raw": "0.001",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -433,14 +491,18 @@
                           "start": 840,
                           "end": 847,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 849,
                           "end": 861,
                           "value": "0,001 km/h",
-                          "raw": "\"0,001 km/h\""
+                          "raw": "\"0,001 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -456,14 +518,18 @@
                           "start": 869,
                           "end": 877,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 879,
                           "end": 891,
                           "value": "0,001 km/h",
-                          "raw": "\"0,001 km/h\""
+                          "raw": "\"0,001 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -479,14 +545,18 @@
                           "start": 899,
                           "end": 905,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 907,
                           "end": 935,
                           "value": "0,001 Kilometer pro Stunde",
-                          "raw": "\"0,001 Kilometer pro Stunde\""
+                          "raw": "\"0,001 Kilometer pro Stunde\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -504,7 +574,9 @@
                     "start": 956,
                     "end": 959,
                     "value": 987,
-                    "raw": "987"
+                    "raw": "987",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -523,14 +595,18 @@
                           "start": 973,
                           "end": 980,
                           "value": "short",
-                          "raw": "\"short\""
+                          "raw": "\"short\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 982,
                           "end": 992,
                           "value": "987 km/h",
-                          "raw": "\"987 km/h\""
+                          "raw": "\"987 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -546,14 +622,18 @@
                           "start": 1000,
                           "end": 1008,
                           "value": "narrow",
-                          "raw": "\"narrow\""
+                          "raw": "\"narrow\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 1010,
                           "end": 1020,
                           "value": "987 km/h",
-                          "raw": "\"987 km/h\""
+                          "raw": "\"987 km/h\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -569,14 +649,18 @@
                           "start": 1028,
                           "end": 1034,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 1036,
                           "end": 1062,
                           "value": "987 Kilometer pro Stunde",
-                          "raw": "\"987 Kilometer pro Stunde\""
+                          "raw": "\"987 Kilometer pro Stunde\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -759,7 +843,9 @@
                             "start": 1234,
                             "end": 1241,
                             "value": "de-DE",
-                            "raw": "\"de-DE\""
+                            "raw": "\"de-DE\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -784,7 +870,9 @@
                                   "start": 1252,
                                   "end": 1258,
                                   "value": "unit",
-                                  "raw": "\"unit\""
+                                  "raw": "\"unit\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -806,7 +894,9 @@
                                   "start": 1266,
                                   "end": 1286,
                                   "value": "kilometer-per-hour",
-                                  "raw": "\"kilometer-per-hour\""
+                                  "raw": "\"kilometer-per-hour\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },

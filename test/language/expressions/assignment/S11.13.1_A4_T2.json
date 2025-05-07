@@ -59,7 +59,9 @@
                     "start": 353,
                     "end": 397,
                     "value": "#1.1: x = x throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x = x throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: x = x throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -143,7 +145,9 @@
                   "start": 463,
                   "end": 467,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -175,7 +179,9 @@
                             "start": 498,
                             "end": 542,
                             "value": "#1.2: x = x throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x = x throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: x = x throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

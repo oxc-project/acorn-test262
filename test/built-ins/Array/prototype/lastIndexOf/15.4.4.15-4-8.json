@@ -101,7 +101,9 @@
                 "start": 1185,
                 "end": 1186,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -155,7 +157,9 @@
               "start": 1212,
               "end": 1213,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -163,7 +167,9 @@
             "start": 1215,
             "end": 1218,
             "value": "i",
-            "raw": "'i'"
+            "raw": "'i'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

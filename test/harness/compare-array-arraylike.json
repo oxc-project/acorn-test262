@@ -55,7 +55,9 @@
                   "start": 294,
                   "end": 299,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -125,7 +127,9 @@
                         "start": 358,
                         "end": 362,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -349,7 +353,9 @@
                   "start": 571,
                   "end": 572,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -365,14 +371,18 @@
                   "start": 574,
                   "end": 575,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 577,
                   "end": 578,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -388,14 +398,18 @@
                   "start": 580,
                   "end": 581,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 583,
                   "end": 586,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -411,7 +425,9 @@
                   "start": 588,
                   "end": 589,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -471,14 +487,18 @@
                 "start": 634,
                 "end": 635,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 640,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -530,14 +550,18 @@
                 "start": 676,
                 "end": 677,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 679,
                 "end": 682,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -631,7 +655,9 @@
                         "start": 780,
                         "end": 796,
                         "value": "fixture and []",
-                        "raw": "'fixture and []'"
+                        "raw": "'fixture and []'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -645,7 +671,9 @@
             "start": 802,
             "end": 890,
             "value": "Actual [0, a, undefined] and expected [] should have the same contents. fixture and []",
-            "raw": "'Actual [0, a, undefined] and expected [] should have the same contents. fixture and []'"
+            "raw": "'Actual [0, a, undefined] and expected [] should have the same contents. fixture and []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -725,7 +753,9 @@
                         "start": 967,
                         "end": 983,
                         "value": "[] and fixture",
-                        "raw": "'[] and fixture'"
+                        "raw": "'[] and fixture'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -739,7 +769,9 @@
             "start": 989,
             "end": 1077,
             "value": "Actual [] and expected [0, a, undefined] should have the same contents. [] and fixture",
-            "raw": "'Actual [] and expected [0, a, undefined] should have the same contents. [] and fixture'"
+            "raw": "'Actual [] and expected [0, a, undefined] should have the same contents. [] and fixture'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

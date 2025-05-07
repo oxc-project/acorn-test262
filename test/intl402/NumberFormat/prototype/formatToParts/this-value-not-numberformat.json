@@ -34,28 +34,36 @@
                 "start": 416,
                 "end": 420,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 426,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 428,
                 "end": 429,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 445,
                 "value": "NumberFormat",
-                "raw": "'NumberFormat'"
+                "raw": "'NumberFormat'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",

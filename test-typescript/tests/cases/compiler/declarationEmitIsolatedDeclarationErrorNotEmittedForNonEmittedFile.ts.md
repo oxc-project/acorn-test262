@@ -951,7 +951,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 47,
         "raw": "'./internals/config'",
-        "value": "./internals/config"
+        "value": "./internals/config",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -991,7 +993,9 @@ __ESTREE_TEST__:PASS:
         "start": 138,
         "end": 157,
         "raw": "'./internals/utils'",
-        "value": "./internals/utils"
+        "value": "./internals/utils",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1223,7 +1227,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 345,
                                       "end": 359,
                                       "raw": "\"./middleware\"",
-                                      "value": "./middleware"
+                                      "value": "./middleware",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "options": null,
@@ -1335,7 +1341,9 @@ __ESTREE_TEST__:PASS:
                                                                               "start": 490,
                                                                               "end": 506,
                                                                               "raw": "\"errorFormatter\"",
-                                                                              "value": "errorFormatter"
+                                                                              "value": "errorFormatter",
+                                                                              "regex": null,
+                                                                              "bigint": null
                                                                             }
                                                                           },
                                                                           "objectType": {
@@ -1380,7 +1388,9 @@ __ESTREE_TEST__:PASS:
                                                                                       "start": 532,
                                                                                       "end": 537,
                                                                                       "raw": "\"ctx\"",
-                                                                                      "value": "ctx"
+                                                                                      "value": "ctx",
+                                                                                      "regex": null,
+                                                                                      "bigint": null
                                                                                     }
                                                                                   },
                                                                                   "objectType": {
@@ -1422,7 +1432,9 @@ __ESTREE_TEST__:PASS:
                                                                                       "start": 564,
                                                                                       "end": 569,
                                                                                       "raw": "\"ctx\"",
-                                                                                      "value": "ctx"
+                                                                                      "value": "ctx",
+                                                                                      "regex": null,
+                                                                                      "bigint": null
                                                                                     }
                                                                                   },
                                                                                   "objectType": {
@@ -1551,7 +1563,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 653,
                                   "end": 667,
                                   "raw": "\"./middleware\"",
-                                  "value": "./middleware"
+                                  "value": "./middleware",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "options": null,
@@ -1663,7 +1677,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 797,
                                                                           "end": 813,
                                                                           "raw": "\"errorFormatter\"",
-                                                                          "value": "errorFormatter"
+                                                                          "value": "errorFormatter",
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         }
                                                                       },
                                                                       "objectType": {
@@ -1708,7 +1724,9 @@ __ESTREE_TEST__:PASS:
                                                                                   "start": 839,
                                                                                   "end": 844,
                                                                                   "raw": "\"ctx\"",
-                                                                                  "value": "ctx"
+                                                                                  "value": "ctx",
+                                                                                  "regex": null,
+                                                                                  "bigint": null
                                                                                 }
                                                                               },
                                                                               "objectType": {
@@ -1750,7 +1768,9 @@ __ESTREE_TEST__:PASS:
                                                                                   "start": 871,
                                                                                   "end": 876,
                                                                                   "raw": "\"ctx\"",
-                                                                                  "value": "ctx"
+                                                                                  "value": "ctx",
+                                                                                  "regex": null,
+                                                                                  "bigint": null
                                                                                 }
                                                                               },
                                                                               "objectType": {
@@ -2150,7 +2170,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 39,
         "raw": "\"@trpc/server\"",
-        "value": "@trpc/server"
+        "value": "@trpc/server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

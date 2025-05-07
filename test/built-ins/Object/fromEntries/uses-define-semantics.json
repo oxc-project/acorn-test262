@@ -55,7 +55,9 @@
             "start": 304,
             "end": 314,
             "value": "property",
-            "raw": "'property'"
+            "raw": "'property'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -109,7 +111,9 @@
                               "start": 365,
                               "end": 412,
                               "value": "should not trigger getter on Object.prototype",
-                              "raw": "'should not trigger getter on Object.prototype'"
+                              "raw": "'should not trigger getter on Object.prototype'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -166,7 +170,9 @@
                               "start": 467,
                               "end": 514,
                               "value": "should not trigger setter on Object.prototype",
-                              "raw": "'should not trigger setter on Object.prototype'"
+                              "raw": "'should not trigger setter on Object.prototype'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -236,14 +242,18 @@
                         "start": 561,
                         "end": 571,
                         "value": "property",
-                        "raw": "'property'"
+                        "raw": "'property'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 573,
                         "end": 580,
                         "value": "value",
-                        "raw": "'value'"
+                        "raw": "'value'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -299,7 +309,9 @@
               "start": 609,
               "end": 619,
               "value": "property",
-              "raw": "'property'"
+              "raw": "'property'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -309,14 +321,18 @@
             "start": 622,
             "end": 629,
             "value": "value",
-            "raw": "'value'"
+            "raw": "'value'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 631,
             "end": 633,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

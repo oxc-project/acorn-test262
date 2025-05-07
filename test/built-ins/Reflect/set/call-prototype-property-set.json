@@ -43,7 +43,9 @@
             "start": 738,
             "end": 739,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -133,7 +135,9 @@
             "start": 797,
             "end": 800,
             "value": "p",
-            "raw": "'p'"
+            "raw": "'p'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -343,14 +347,18 @@
                 "start": 954,
                 "end": 957,
                 "value": "p",
-                "raw": "'p'"
+                "raw": "'p'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 959,
                 "end": 961,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -398,14 +406,18 @@
             "start": 989,
             "end": 993,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1009,
             "value": "returns true",
-            "raw": "'returns true'"
+            "raw": "'returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -463,14 +475,18 @@
             "start": 1042,
             "end": 1043,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1045,
             "end": 1085,
             "value": "prototype `set` called with 1 argument",
-            "raw": "'prototype `set` called with 1 argument'"
+            "raw": "'prototype `set` called with 1 argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -519,7 +535,9 @@
               "start": 1110,
               "end": 1111,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -529,14 +547,18 @@
             "start": 1114,
             "end": 1116,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1118,
             "end": 1150,
             "value": "prototype `set` called with 42",
-            "raw": "'prototype `set` called with 42'"
+            "raw": "'prototype `set` called with 42'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +609,9 @@
             "start": 1185,
             "end": 1231,
             "value": "prototype `set` called with target as `this`",
-            "raw": "'prototype `set` called with target as `this`'"
+            "raw": "'prototype `set` called with target as `this`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -632,14 +656,18 @@
             "start": 1258,
             "end": 1259,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1261,
             "end": 1290,
             "value": "prototype `set` called once",
-            "raw": "'prototype `set` called once'"
+            "raw": "'prototype `set` called once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

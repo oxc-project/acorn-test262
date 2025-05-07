@@ -60,7 +60,9 @@
           "start": 367,
           "end": 375,
           "value": "global",
-          "raw": "\"global\""
+          "raw": "\"global\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -181,14 +183,18 @@
             "start": 462,
             "end": 470,
             "value": "global",
-            "raw": "\"global\""
+            "raw": "\"global\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 486,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

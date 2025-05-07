@@ -71,7 +71,9 @@
                     "start": 349,
                     "end": 351,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -102,7 +104,9 @@
             "start": 373,
             "end": 412,
             "value": "Object.getPrototypeOf(new Number(42))",
-            "raw": "'Object.getPrototypeOf(new Number(42))'"
+            "raw": "'Object.getPrototypeOf(new Number(42))'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

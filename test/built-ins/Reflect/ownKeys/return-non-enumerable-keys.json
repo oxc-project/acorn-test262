@@ -74,7 +74,9 @@
                 "start": 494,
                 "end": 502,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -83,7 +85,9 @@
             "start": 507,
             "end": 556,
             "value": "return non enumerable `length` from empty array",
-            "raw": "'return non enumerable `length` from empty array'"
+            "raw": "'return non enumerable `length` from empty array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +157,9 @@
                     "start": 602,
                     "end": 603,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -170,14 +176,18 @@
                 "start": 608,
                 "end": 611,
                 "value": "2",
-                "raw": "'2'"
+                "raw": "'2'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 621,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -186,7 +196,9 @@
             "start": 624,
             "end": 643,
             "value": "return array keys",
-            "raw": "'return array keys'"
+            "raw": "'return array keys'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,7 +268,9 @@
             "start": 684,
             "end": 688,
             "value": "p1",
-            "raw": "'p1'"
+            "raw": "'p1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -281,7 +295,9 @@
                   "start": 701,
                   "end": 703,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -303,7 +319,9 @@
                   "start": 719,
                   "end": 724,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -352,7 +370,9 @@
             "start": 754,
             "end": 758,
             "value": "p2",
-            "raw": "'p2'"
+            "raw": "'p2'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -408,7 +428,9 @@
                   "start": 798,
                   "end": 803,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -489,14 +511,18 @@
                 "start": 850,
                 "end": 854,
                 "value": "p1",
-                "raw": "'p1'"
+                "raw": "'p1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 856,
                 "end": 860,
                 "value": "p2",
-                "raw": "'p2'"
+                "raw": "'p2'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

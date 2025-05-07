@@ -168,7 +168,9 @@ __ESTREE_TEST__:PASS:
                           "start": 278,
                           "end": 286,
                           "raw": "\"uh-oh?\"",
-                          "value": "uh-oh?"
+                          "value": "uh-oh?",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

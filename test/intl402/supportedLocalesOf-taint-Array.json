@@ -243,7 +243,9 @@
                           "start": 592,
                           "end": 593,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -251,14 +253,18 @@
                         "start": 595,
                         "end": 600,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 602,
                         "end": 676,
                         "value": "Canonicalization didn't remove duplicate language tags from locale list.",
-                        "raw": "\"Canonicalization didn't remove duplicate language tags from locale list.\""
+                        "raw": "\"Canonicalization didn't remove duplicate language tags from locale list.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

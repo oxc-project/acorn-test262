@@ -23,7 +23,9 @@
             "start": 446,
             "end": 451,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +126,9 @@
                     "start": 520,
                     "end": 521,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "quasis": [
@@ -182,7 +186,9 @@
                 "start": 540,
                 "end": 544,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -258,14 +264,18 @@
             "start": 589,
             "end": 594,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 624,
             "value": "generator initially paused",
-            "raw": "'generator initially paused'"
+            "raw": "'generator initially paused'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,7 +326,9 @@
             "start": 660,
             "end": 690,
             "value": "first statement not executed",
-            "raw": "'first statement not executed'"
+            "raw": "'first statement not executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -404,14 +416,18 @@
             "start": 748,
             "end": 753,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 794,
             "value": "generator paused following expression",
-            "raw": "'generator paused following expression'"
+            "raw": "'generator paused following expression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +478,9 @@
             "start": 830,
             "end": 860,
             "value": "first statement not executed",
-            "raw": "'first statement not executed'"
+            "raw": "'first statement not executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -520,14 +538,18 @@
             "start": 898,
             "end": 903,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 905,
             "end": 929,
             "value": "iteration not complete",
-            "raw": "'iteration not complete'"
+            "raw": "'iteration not complete'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -591,7 +613,9 @@
             "start": 978,
             "end": 1000,
             "value": "first iterated value",
-            "raw": "'first iterated value'"
+            "raw": "'first iterated value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,7 +665,9 @@
               "start": 1027,
               "end": 1028,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -687,14 +713,18 @@
             "start": 1054,
             "end": 1061,
             "value": "12345",
-            "raw": "'12345'"
+            "raw": "'12345'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1063,
             "end": 1086,
             "value": "YieldExpression value",
-            "raw": "'YieldExpression value'"
+            "raw": "'YieldExpression value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -739,14 +769,18 @@
             "start": 1116,
             "end": 1120,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1122,
             "end": 1154,
             "value": "generator correctly re-started",
-            "raw": "'generator correctly re-started'"
+            "raw": "'generator correctly re-started'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -804,14 +838,18 @@
             "start": 1191,
             "end": 1195,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1197,
             "end": 1217,
             "value": "iteration complete",
-            "raw": "'iteration complete'"
+            "raw": "'iteration complete'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,7 +913,9 @@
             "start": 1266,
             "end": 1289,
             "value": "second iterated value",
-            "raw": "'second iterated value'"
+            "raw": "'second iterated value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

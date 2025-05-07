@@ -35,7 +35,9 @@
                   "start": 1137,
                   "end": 1290,
                   "value": "assert.sameValue(    f, undefined, \"Initialized binding created prior to evaluation\"  );    try {    throw null;  } catch (f) {switch (1) {",
-                  "raw": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {switch (1) {'"
+                  "raw": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -43,7 +45,9 @@
                   "start": 1295,
                   "end": 1306,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "raw": "'  case 1:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -52,7 +56,9 @@
                 "start": 1311,
                 "end": 1345,
                 "value": "    function f() { return 123; }",
-                "raw": "'    function f() { return 123; }'"
+                "raw": "'    function f() { return 123; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -61,7 +67,9 @@
               "start": 1350,
               "end": 1505,
               "value": "}  }    assert.sameValue(    typeof f,    \"function\",    \"binding value is updated following evaluation\"  );  assert.sameValue(f(), 123);",
-              "raw": "'}\\\n  }\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'"
+              "raw": "'}\\\n  }\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

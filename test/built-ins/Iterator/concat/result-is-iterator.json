@@ -86,7 +86,9 @@
             "start": 438,
             "end": 481,
             "value": "Iterator.concat() must return an Iterator",
-            "raw": "\"Iterator.concat() must return an Iterator\""
+            "raw": "\"Iterator.concat() must return an Iterator\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +168,9 @@
                                 "start": 528,
                                 "end": 532,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -350,7 +354,9 @@
             "start": 664,
             "end": 710,
             "value": "Iterator.concat(...) must return an Iterator",
-            "raw": "\"Iterator.concat(...) must return an Iterator\""
+            "raw": "\"Iterator.concat(...) must return an Iterator\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

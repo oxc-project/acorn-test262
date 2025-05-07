@@ -12,7 +12,9 @@
         "start": 535,
         "end": 537,
         "value": "",
-        "raw": "''"
+        "raw": "''",
+        "regex": null,
+        "bigint": null
       },
       "directive": ""
     },
@@ -25,7 +27,9 @@
         "start": 542,
         "end": 544,
         "value": "",
-        "raw": "''"
+        "raw": "''",
+        "regex": null,
+        "bigint": null
       },
       "directive": ""
     }

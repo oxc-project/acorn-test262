@@ -71,14 +71,18 @@
                         "start": 547,
                         "end": 555,
                         "value": "(?=.)*",
-                        "raw": "\"(?=.)*\""
+                        "raw": "\"(?=.)*\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 557,
                         "end": 560,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -92,7 +96,9 @@
             "start": 566,
             "end": 591,
             "value": "RegExp(\"(?=.)*\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)*\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)*\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,14 +172,18 @@
                         "start": 643,
                         "end": 651,
                         "value": "(?=.)+",
-                        "raw": "\"(?=.)+\""
+                        "raw": "\"(?=.)+\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 653,
                         "end": 656,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -187,7 +197,9 @@
             "start": 662,
             "end": 687,
             "value": "RegExp(\"(?=.)+\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)+\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)+\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -261,14 +273,18 @@
                         "start": 739,
                         "end": 747,
                         "value": "(?=.)?",
-                        "raw": "\"(?=.)?\""
+                        "raw": "\"(?=.)?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 749,
                         "end": 752,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -282,7 +298,9 @@
             "start": 758,
             "end": 783,
             "value": "RegExp(\"(?=.)?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +374,18 @@
                         "start": 835,
                         "end": 845,
                         "value": "(?=.){1}",
-                        "raw": "\"(?=.){1}\""
+                        "raw": "\"(?=.){1}\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 847,
                         "end": 850,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -377,7 +399,9 @@
             "start": 856,
             "end": 883,
             "value": "RegExp(\"(?=.){1}\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1}\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1}\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,14 +475,18 @@
                         "start": 935,
                         "end": 946,
                         "value": "(?=.){1,}",
-                        "raw": "\"(?=.){1,}\""
+                        "raw": "\"(?=.){1,}\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 948,
                         "end": 951,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -472,7 +500,9 @@
             "start": 957,
             "end": 985,
             "value": "RegExp(\"(?=.){1,}\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,}\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,}\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,14 +576,18 @@
                         "start": 1037,
                         "end": 1049,
                         "value": "(?=.){1,2}",
-                        "raw": "\"(?=.){1,2}\""
+                        "raw": "\"(?=.){1,2}\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1051,
                         "end": 1054,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -567,7 +601,9 @@
             "start": 1060,
             "end": 1089,
             "value": "RegExp(\"(?=.){1,2}\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,2}\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,2}\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,14 +677,18 @@
                         "start": 1192,
                         "end": 1201,
                         "value": "(?=.)*?",
-                        "raw": "\"(?=.)*?\""
+                        "raw": "\"(?=.)*?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1203,
                         "end": 1206,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -662,7 +702,9 @@
             "start": 1212,
             "end": 1238,
             "value": "RegExp(\"(?=.)*?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)*?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)*?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -736,14 +778,18 @@
                         "start": 1290,
                         "end": 1299,
                         "value": "(?=.)+?",
-                        "raw": "\"(?=.)+?\""
+                        "raw": "\"(?=.)+?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1301,
                         "end": 1304,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -757,7 +803,9 @@
             "start": 1310,
             "end": 1336,
             "value": "RegExp(\"(?=.)+?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)+?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)+?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -831,14 +879,18 @@
                         "start": 1388,
                         "end": 1397,
                         "value": "(?=.)??",
-                        "raw": "\"(?=.)??\""
+                        "raw": "\"(?=.)??\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1399,
                         "end": 1402,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -852,7 +904,9 @@
             "start": 1408,
             "end": 1434,
             "value": "RegExp(\"(?=.)??\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)??\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)??\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -926,14 +980,18 @@
                         "start": 1486,
                         "end": 1497,
                         "value": "(?=.){1}?",
-                        "raw": "\"(?=.){1}?\""
+                        "raw": "\"(?=.){1}?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1499,
                         "end": 1502,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -947,7 +1005,9 @@
             "start": 1508,
             "end": 1536,
             "value": "RegExp(\"(?=.){1}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1}?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1021,14 +1081,18 @@
                         "start": 1588,
                         "end": 1600,
                         "value": "(?=.){1,}?",
-                        "raw": "\"(?=.){1,}?\""
+                        "raw": "\"(?=.){1,}?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1602,
                         "end": 1605,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1042,7 +1106,9 @@
             "start": 1611,
             "end": 1640,
             "value": "RegExp(\"(?=.){1,}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,}?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1116,14 +1182,18 @@
                         "start": 1692,
                         "end": 1705,
                         "value": "(?=.){1,2}?",
-                        "raw": "\"(?=.){1,2}?\""
+                        "raw": "\"(?=.){1,2}?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1707,
                         "end": 1710,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1137,7 +1207,9 @@
             "start": 1716,
             "end": 1746,
             "value": "RegExp(\"(?=.){1,2}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,2}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,2}?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1211,14 +1283,18 @@
                         "start": 1839,
                         "end": 1847,
                         "value": "(?!.)*",
-                        "raw": "\"(?!.)*\""
+                        "raw": "\"(?!.)*\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1849,
                         "end": 1852,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1232,7 +1308,9 @@
             "start": 1858,
             "end": 1883,
             "value": "RegExp(\"(?!.)*\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)*\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)*\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1306,14 +1384,18 @@
                         "start": 1935,
                         "end": 1943,
                         "value": "(?!.)+",
-                        "raw": "\"(?!.)+\""
+                        "raw": "\"(?!.)+\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1945,
                         "end": 1948,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1327,7 +1409,9 @@
             "start": 1954,
             "end": 1979,
             "value": "RegExp(\"(?!.)+\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)+\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)+\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1401,14 +1485,18 @@
                         "start": 2031,
                         "end": 2039,
                         "value": "(?!.)?",
-                        "raw": "\"(?!.)?\""
+                        "raw": "\"(?!.)?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2041,
                         "end": 2044,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1422,7 +1510,9 @@
             "start": 2050,
             "end": 2075,
             "value": "RegExp(\"(?!.)?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1496,14 +1586,18 @@
                         "start": 2127,
                         "end": 2137,
                         "value": "(?!.){1}",
-                        "raw": "\"(?!.){1}\""
+                        "raw": "\"(?!.){1}\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2139,
                         "end": 2142,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1517,7 +1611,9 @@
             "start": 2148,
             "end": 2175,
             "value": "RegExp(\"(?!.){1}\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1}\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1}\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1591,14 +1687,18 @@
                         "start": 2227,
                         "end": 2238,
                         "value": "(?!.){1,}",
-                        "raw": "\"(?!.){1,}\""
+                        "raw": "\"(?!.){1,}\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2240,
                         "end": 2243,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1612,7 +1712,9 @@
             "start": 2249,
             "end": 2277,
             "value": "RegExp(\"(?!.){1,}\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,}\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,}\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1686,14 +1788,18 @@
                         "start": 2329,
                         "end": 2341,
                         "value": "(?!.){1,2}",
-                        "raw": "\"(?!.){1,2}\""
+                        "raw": "\"(?!.){1,2}\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2343,
                         "end": 2346,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1707,7 +1813,9 @@
             "start": 2352,
             "end": 2381,
             "value": "RegExp(\"(?!.){1,2}\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,2}\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,2}\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1781,14 +1889,18 @@
                         "start": 2484,
                         "end": 2493,
                         "value": "(?!.)*?",
-                        "raw": "\"(?!.)*?\""
+                        "raw": "\"(?!.)*?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2495,
                         "end": 2498,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1802,7 +1914,9 @@
             "start": 2504,
             "end": 2530,
             "value": "RegExp(\"(?!.)*?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)*?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)*?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1876,14 +1990,18 @@
                         "start": 2582,
                         "end": 2591,
                         "value": "(?!.)+?",
-                        "raw": "\"(?!.)+?\""
+                        "raw": "\"(?!.)+?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2593,
                         "end": 2596,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1897,7 +2015,9 @@
             "start": 2602,
             "end": 2628,
             "value": "RegExp(\"(?!.)+?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)+?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)+?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1971,14 +2091,18 @@
                         "start": 2680,
                         "end": 2689,
                         "value": "(?!.)??",
-                        "raw": "\"(?!.)??\""
+                        "raw": "\"(?!.)??\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2691,
                         "end": 2694,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1992,7 +2116,9 @@
             "start": 2700,
             "end": 2726,
             "value": "RegExp(\"(?!.)??\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)??\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)??\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2066,14 +2192,18 @@
                         "start": 2778,
                         "end": 2789,
                         "value": "(?!.){1}?",
-                        "raw": "\"(?!.){1}?\""
+                        "raw": "\"(?!.){1}?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2791,
                         "end": 2794,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2087,7 +2217,9 @@
             "start": 2800,
             "end": 2828,
             "value": "RegExp(\"(?!.){1}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1}?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2161,14 +2293,18 @@
                         "start": 2880,
                         "end": 2892,
                         "value": "(?!.){1,}?",
-                        "raw": "\"(?!.){1,}?\""
+                        "raw": "\"(?!.){1,}?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2894,
                         "end": 2897,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2182,7 +2318,9 @@
             "start": 2903,
             "end": 2932,
             "value": "RegExp(\"(?!.){1,}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,}?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2256,14 +2394,18 @@
                         "start": 2984,
                         "end": 2997,
                         "value": "(?!.){1,2}?",
-                        "raw": "\"(?!.){1,2}?\""
+                        "raw": "\"(?!.){1,2}?\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2999,
                         "end": 3002,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2277,7 +2419,9 @@
             "start": 3008,
             "end": 3038,
             "value": "RegExp(\"(?!.){1,2}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,2}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,2}?\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

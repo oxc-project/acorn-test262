@@ -100,7 +100,9 @@ __ESTREE_TEST__:PASS:
               "start": 161,
               "end": 185,
               "raw": "'vscode-bulkeditpreview'",
-              "value": "vscode-bulkeditpreview"
+              "value": "vscode-bulkeditpreview",
+              "regex": null,
+              "bigint": null
             }
           },
           {

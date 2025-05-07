@@ -106,7 +106,9 @@
           "start": 1267,
           "end": 1268,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -162,7 +164,9 @@
             "start": 1311,
             "end": 1319,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -240,7 +244,9 @@
                               "start": 1371,
                               "end": 1408,
                               "value": "this is an object from given symbol",
-                              "raw": "'this is an object from given symbol'"
+                              "raw": "'this is an object from given symbol'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -310,7 +316,9 @@
                               "start": 1456,
                               "end": 1486,
                               "value": "internal value is the symbol",
-                              "raw": "'internal value is the symbol'"
+                              "raw": "'internal value is the symbol'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -385,7 +393,9 @@
                               "start": 1540,
                               "end": 1548,
                               "value": "length",
-                              "raw": "'length'"
+                              "raw": "'length'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -400,7 +410,9 @@
                           "start": 1562,
                           "end": 1563,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -466,7 +478,9 @@
             "start": 1614,
             "end": 1617,
             "value": "0",
-            "raw": "'0'"
+            "raw": "'0'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -544,7 +558,9 @@
                               "start": 1669,
                               "end": 1706,
                               "value": "this is an object from given symbol",
-                              "raw": "'this is an object from given symbol'"
+                              "raw": "'this is an object from given symbol'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -614,7 +630,9 @@
                               "start": 1754,
                               "end": 1784,
                               "value": "internal value is the symbol",
-                              "raw": "'internal value is the symbol'"
+                              "raw": "'internal value is the symbol'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -689,7 +707,9 @@
                               "start": 1838,
                               "end": 1841,
                               "value": "0",
-                              "raw": "'0'"
+                              "raw": "'0'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -704,7 +724,9 @@
                           "start": 1855,
                           "end": 1859,
                           "value": "en",
-                          "raw": "'en'"
+                          "raw": "'en'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -775,7 +797,9 @@
                   "start": 1907,
                   "end": 1917,
                   "value": "language",
-                  "raw": "'language'"
+                  "raw": "'language'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -828,14 +852,18 @@
                 "start": 1950,
                 "end": 1958,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1960,
                 "end": 1963,
                 "value": "0",
-                "raw": "'0'"
+                "raw": "'0'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

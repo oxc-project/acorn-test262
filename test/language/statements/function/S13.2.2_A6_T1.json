@@ -79,7 +79,9 @@
           "start": 681,
           "end": 691,
           "value": "fooValue",
-          "raw": "\"fooValue\""
+          "raw": "\"fooValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -103,7 +105,9 @@
           "start": 699,
           "end": 709,
           "value": "barValue",
-          "raw": "\"barValue\""
+          "raw": "\"barValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -187,7 +191,9 @@
                   "start": 762,
                   "end": 763,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -232,7 +238,9 @@
                       "start": 785,
                       "end": 786,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -350,7 +358,9 @@
                     "start": 966,
                     "end": 1013,
                     "value": "#1: __obj.foo === __FOO. Actual: __obj.foo===",
-                    "raw": "'#1: __obj.foo === __FOO. Actual: __obj.foo==='"
+                    "raw": "'#1: __obj.foo === __FOO. Actual: __obj.foo==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -444,7 +454,9 @@
                     "start": 1253,
                     "end": 1304,
                     "value": "#2: __obj.bar === undefined. Actual: __obj.bar===",
-                    "raw": "'#2: __obj.bar === undefined. Actual: __obj.bar==='"
+                    "raw": "'#2: __obj.bar === undefined. Actual: __obj.bar==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

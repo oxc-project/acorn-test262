@@ -23,7 +23,9 @@
             "start": 282,
             "end": 327,
             "value": "/*\t multi line \t comment \t*/",
-            "raw": "\"/*\\u0009 multi line \\u0009 comment \\u0009*/\""
+            "raw": "\"/*\\u0009 multi line \\u0009 comment \\u0009*/\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -49,7 +51,9 @@
             "start": 349,
             "end": 350,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 357,
             "end": 409,
             "value": "/*\t multi line \t comment \t x = 1;*/",
-            "raw": "\"/*\\u0009 multi line \\u0009 comment \\u0009 x = 1;*/\""
+            "raw": "\"/*\\u0009 multi line \\u0009 comment \\u0009 x = 1;*/\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +107,9 @@
           "start": 422,
           "end": 423,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -133,7 +141,9 @@
                     "start": 452,
                     "end": 549,
                     "value": "#1: var x = 0; eval(\"/*\\u0009 multi line \\u0009 comment \\u0009 x = 1;*/\"); x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; eval(\"/*\\\\u0009 multi line \\\\u0009 comment \\\\u0009 x = 1;*/\"); x === 0. Actual: '"
+                    "raw": "'#1: var x = 0; eval(\"/*\\\\u0009 multi line \\\\u0009 comment \\\\u0009 x = 1;*/\"); x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

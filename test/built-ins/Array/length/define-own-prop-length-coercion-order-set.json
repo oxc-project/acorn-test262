@@ -28,21 +28,27 @@
                 "start": 665,
                 "end": 666,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 668,
                 "end": 669,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 671,
                 "end": 672,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -239,7 +245,9 @@
                       "start": 805,
                       "end": 813,
                       "value": "length",
-                      "raw": "\"length\""
+                      "raw": "\"length\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -264,7 +272,9 @@
                             "start": 826,
                             "end": 831,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -283,7 +293,9 @@
                   "start": 844,
                   "end": 845,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -348,7 +360,9 @@
                     "start": 891,
                     "end": 903,
                     "value": "use strict",
-                    "raw": "\"use strict\""
+                    "raw": "\"use strict\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "directive": "use strict"
                 },
@@ -396,7 +410,9 @@
             "start": 933,
             "end": 1001,
             "value": "`\"use strict\"; array.length = length` throws a TypeError exception",
-            "raw": "'`\"use strict\"; array.length = length` throws a TypeError exception'"
+            "raw": "'`\"use strict\"; array.length = length` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,14 +462,18 @@
                 "start": 1032,
                 "end": 1040,
                 "value": "number",
-                "raw": "\"number\""
+                "raw": "\"number\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1042,
                 "end": 1050,
                 "value": "number",
-                "raw": "\"number\""
+                "raw": "\"number\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -462,7 +482,9 @@
             "start": 1053,
             "end": 1112,
             "value": "The value of hints is expected to be [\"number\", \"number\"]",
-            "raw": "'The value of hints is expected to be [\"number\", \"number\"]'"
+            "raw": "'The value of hints is expected to be [\"number\", \"number\"]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -493,21 +515,27 @@
               "start": 1126,
               "end": 1127,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1129,
               "end": 1130,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1132,
               "end": 1133,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -592,7 +620,9 @@
                   "start": 1179,
                   "end": 1187,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -609,7 +639,9 @@
             "start": 1200,
             "end": 1275,
             "value": "The value of !Reflect.set(array, \"length\", length) is expected to be true",
-            "raw": "'The value of !Reflect.set(array, \"length\", length) is expected to be true'"
+            "raw": "'The value of !Reflect.set(array, \"length\", length) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -659,14 +691,18 @@
                 "start": 1307,
                 "end": 1315,
                 "value": "number",
-                "raw": "\"number\""
+                "raw": "\"number\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1317,
                 "end": 1325,
                 "value": "number",
-                "raw": "\"number\""
+                "raw": "\"number\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -675,7 +711,9 @@
             "start": 1328,
             "end": 1387,
             "value": "The value of hints is expected to be [\"number\", \"number\"]",
-            "raw": "'The value of hints is expected to be [\"number\", \"number\"]'"
+            "raw": "'The value of hints is expected to be [\"number\", \"number\"]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

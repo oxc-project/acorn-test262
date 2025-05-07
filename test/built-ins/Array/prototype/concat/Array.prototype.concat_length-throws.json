@@ -74,7 +74,9 @@
           "start": 407,
           "end": 411,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -117,7 +119,9 @@
             "start": 467,
             "end": 475,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -273,7 +277,9 @@
             "start": 627,
             "end": 702,
             "value": "[].concat(spreadablePoisonedLengthGetter) throws a Test262Error exception",
-            "raw": "'[].concat(spreadablePoisonedLengthGetter) throws a Test262Error exception'"
+            "raw": "'[].concat(spreadablePoisonedLengthGetter) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -392,21 +398,27 @@
                         "start": 809,
                         "end": 810,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 812,
                         "end": 813,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 815,
                         "end": 816,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -420,7 +432,9 @@
             "start": 822,
             "end": 924,
             "value": "Array.prototype.concat.call(spreadablePoisonedLengthGetter, 1, 2, 3) throws a Test262Error exception",
-            "raw": "'Array.prototype.concat.call(spreadablePoisonedLengthGetter, 1, 2, 3) throws a Test262Error exception'"
+            "raw": "'Array.prototype.concat.call(spreadablePoisonedLengthGetter, 1, 2, 3) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

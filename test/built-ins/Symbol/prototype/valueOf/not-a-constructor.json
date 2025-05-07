@@ -82,14 +82,18 @@
             "start": 767,
             "end": 772,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 835,
             "value": "isConstructor(Symbol.prototype.valueOf) must return false",
-            "raw": "'isConstructor(Symbol.prototype.valueOf) must return false'"
+            "raw": "'isConstructor(Symbol.prototype.valueOf) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

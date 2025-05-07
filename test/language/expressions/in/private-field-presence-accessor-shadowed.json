@@ -43,7 +43,9 @@
             "start": 688,
             "end": 689,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -69,7 +71,9 @@
             "start": 708,
             "end": 709,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -138,7 +142,9 @@
                         "start": 766,
                         "end": 767,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -246,7 +252,9 @@
                                           "start": 858,
                                           "end": 859,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -430,7 +438,9 @@
             "start": 1021,
             "end": 1026,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -475,14 +485,18 @@
             "start": 1059,
             "end": 1060,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1062,
             "end": 1091,
             "value": "parent accessor not invoked",
-            "raw": "'parent accessor not invoked'"
+            "raw": "'parent accessor not invoked'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -560,7 +574,9 @@
             "start": 1140,
             "end": 1144,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -605,14 +621,18 @@
             "start": 1176,
             "end": 1177,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1179,
             "end": 1207,
             "value": "child accessor not invoked",
-            "raw": "'child accessor not invoked'"
+            "raw": "'child accessor not invoked'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

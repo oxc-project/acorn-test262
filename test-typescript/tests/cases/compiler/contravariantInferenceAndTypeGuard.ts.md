@@ -2029,7 +2029,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1134,
                       "end": 1137,
                       "raw": "'c'",
-                      "value": "c"
+                      "value": "c",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

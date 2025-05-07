@@ -113,7 +113,9 @@
             "start": 377,
             "end": 387,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,7 +170,9 @@
                     "start": 427,
                     "end": 428,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -266,7 +270,9 @@
             "start": 497,
             "end": 508,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +350,9 @@
                   "start": 557,
                   "end": 561,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -361,7 +369,9 @@
             "start": 570,
             "end": 576,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -439,7 +449,9 @@
                   "start": 625,
                   "end": 629,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -456,7 +468,9 @@
             "start": 638,
             "end": 644,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +548,9 @@
                   "start": 693,
                   "end": 695,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -551,7 +567,9 @@
             "start": 704,
             "end": 718,
             "value": "empty string",
-            "raw": "\"empty string\""
+            "raw": "\"empty string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -652,7 +670,9 @@
             "start": 784,
             "end": 792,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -730,7 +750,9 @@
                   "start": 841,
                   "end": 842,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -747,7 +769,9 @@
             "start": 851,
             "end": 854,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -841,7 +865,9 @@
             "start": 914,
             "end": 928,
             "value": "plain object",
-            "raw": "\"plain object\""
+            "raw": "\"plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -948,7 +974,9 @@
             "start": 1009,
             "end": 1034,
             "value": "Temporal.PlainYearMonth",
-            "raw": "\"Temporal.PlainYearMonth\""
+            "raw": "\"Temporal.PlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1068,7 +1096,9 @@
             "start": 1125,
             "end": 1160,
             "value": "Temporal.PlainYearMonth.prototype",
-            "raw": "\"Temporal.PlainYearMonth.prototype\""
+            "raw": "\"Temporal.PlainYearMonth.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

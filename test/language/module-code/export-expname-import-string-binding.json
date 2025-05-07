@@ -17,7 +17,9 @@
             "start": 387,
             "end": 390,
             "value": "☿",
-            "raw": "\"☿\""
+            "raw": "\"☿\"",
+            "regex": null,
+            "bigint": null
           },
           "local": {
             "type": "Identifier",
@@ -32,7 +34,9 @@
         "start": 405,
         "end": 434,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },

@@ -113,7 +113,9 @@
             "start": 403,
             "end": 413,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -201,7 +203,9 @@
             "start": 481,
             "end": 492,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +283,9 @@
                   "start": 547,
                   "end": 551,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -290,7 +296,9 @@
             "start": 554,
             "end": 560,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +376,9 @@
                   "start": 615,
                   "end": 619,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -379,7 +389,9 @@
             "start": 622,
             "end": 628,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -457,7 +469,9 @@
                   "start": 683,
                   "end": 685,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -468,7 +482,9 @@
             "start": 688,
             "end": 702,
             "value": "empty string",
-            "raw": "\"empty string\""
+            "raw": "\"empty string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -563,7 +579,9 @@
             "start": 768,
             "end": 776,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,7 +659,9 @@
                   "start": 831,
                   "end": 832,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -652,7 +672,9 @@
             "start": 835,
             "end": 838,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -740,7 +762,9 @@
             "start": 898,
             "end": 912,
             "value": "plain object",
-            "raw": "\"plain object\""
+            "raw": "\"plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -841,7 +865,9 @@
             "start": 992,
             "end": 1016,
             "value": "Temporal.ZonedDateTime",
-            "raw": "\"Temporal.ZonedDateTime\""
+            "raw": "\"Temporal.ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -955,7 +981,9 @@
             "start": 1106,
             "end": 1140,
             "value": "Temporal.ZonedDateTime.prototype",
-            "raw": "\"Temporal.ZonedDateTime.prototype\""
+            "raw": "\"Temporal.ZonedDateTime.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

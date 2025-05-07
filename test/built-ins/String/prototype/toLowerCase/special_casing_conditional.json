@@ -44,7 +44,9 @@
                 "start": 933,
                 "end": 941,
                 "value": "Σ",
-                "raw": "\"\\u03A3\""
+                "raw": "\"\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 959,
             "end": 967,
             "value": "σ",
-            "raw": "\"\\u03C3\""
+            "raw": "\"\\u03C3\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 971,
             "end": 1006,
             "value": "Single GREEK CAPITAL LETTER SIGMA",
-            "raw": "\"Single GREEK CAPITAL LETTER SIGMA\""
+            "raw": "\"Single GREEK CAPITAL LETTER SIGMA\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -117,7 +123,9 @@
                 "start": 1091,
                 "end": 1100,
                 "value": "AΣ",
-                "raw": "\"A\\u03A3\""
+                "raw": "\"A\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -136,14 +144,18 @@
             "start": 1118,
             "end": 1127,
             "value": "aς",
-            "raw": "\"a\\u03C2\""
+            "raw": "\"a\\u03C2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1131,
             "end": 1173,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A\""
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +202,9 @@
                 "start": 1197,
                 "end": 1217,
                 "value": "𝒢Σ",
-                "raw": "\"\\uD835\\uDCA2\\u03A3\""
+                "raw": "\"\\uD835\\uDCA2\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -209,14 +223,18 @@
             "start": 1235,
             "end": 1255,
             "value": "𝒢ς",
-            "raw": "\"\\uD835\\uDCA2\\u03C2\""
+            "raw": "\"\\uD835\\uDCA2\\u03C2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1328,
             "value": "Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)",
-            "raw": "\"Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\""
+            "raw": "\"Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +281,9 @@
                 "start": 1352,
                 "end": 1362,
                 "value": "A.Σ",
-                "raw": "\"A.\\u03A3\""
+                "raw": "\"A.\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -282,14 +302,18 @@
             "start": 1380,
             "end": 1390,
             "value": "a.ς",
-            "raw": "\"a.\\u03C2\""
+            "raw": "\"a.\\u03C2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1394,
             "end": 1423,
             "value": "Sigma preceded by FULL STOP",
-            "raw": "\"Sigma preceded by FULL STOP\""
+            "raw": "\"Sigma preceded by FULL STOP\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -336,7 +360,9 @@
                 "start": 1447,
                 "end": 1462,
                 "value": "A­Σ",
-                "raw": "\"A\\u00AD\\u03A3\""
+                "raw": "\"A\\u00AD\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -355,14 +381,18 @@
             "start": 1480,
             "end": 1495,
             "value": "a­ς",
-            "raw": "\"a\\u00AD\\u03C2\""
+            "raw": "\"a\\u00AD\\u03C2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1499,
             "end": 1537,
             "value": "Sigma preceded by SOFT HYPHEN (00AD)",
-            "raw": "\"Sigma preceded by SOFT HYPHEN (00AD)\""
+            "raw": "\"Sigma preceded by SOFT HYPHEN (00AD)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +439,9 @@
                 "start": 1561,
                 "end": 1582,
                 "value": "A𝉂Σ",
-                "raw": "\"A\\uD834\\uDE42\\u03A3\""
+                "raw": "\"A\\uD834\\uDE42\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -428,14 +460,18 @@
             "start": 1600,
             "end": 1621,
             "value": "a𝉂ς",
-            "raw": "\"a\\uD834\\uDE42\\u03C2\""
+            "raw": "\"a\\uD834\\uDE42\\u03C2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1625,
             "end": 1696,
             "value": "Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)",
-            "raw": "\"Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\""
+            "raw": "\"Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +518,9 @@
                 "start": 1720,
                 "end": 1734,
                 "value": "ͅΣ",
-                "raw": "\"\\u0345\\u03A3\""
+                "raw": "\"\\u0345\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -501,14 +539,18 @@
             "start": 1752,
             "end": 1766,
             "value": "ͅσ",
-            "raw": "\"\\u0345\\u03C3\""
+            "raw": "\"\\u0345\\u03C3\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1770,
             "end": 1826,
             "value": "Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)",
-            "raw": "\"Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)\""
+            "raw": "\"Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +597,9 @@
                 "start": 1850,
                 "end": 1870,
                 "value": "ᾼΣ",
-                "raw": "\"\\u0391\\u0345\\u03A3\""
+                "raw": "\"\\u0391\\u0345\\u03A3\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -574,14 +618,18 @@
             "start": 1888,
             "end": 1908,
             "value": "ᾳς",
-            "raw": "\"\\u03B1\\u0345\\u03C2\""
+            "raw": "\"\\u03B1\\u0345\\u03C2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1912,
             "end": 2003,
             "value": "Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)",
-            "raw": "\"Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)\""
+            "raw": "\"Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -628,7 +676,9 @@
                 "start": 2097,
                 "end": 2107,
                 "value": "AΣB",
-                "raw": "\"A\\u03A3B\""
+                "raw": "\"A\\u03A3B\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -647,14 +697,18 @@
             "start": 2125,
             "end": 2135,
             "value": "aσb",
-            "raw": "\"a\\u03C3b\""
+            "raw": "\"a\\u03C3b\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2139,
             "end": 2181,
             "value": "Sigma followed by LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma followed by LATIN CAPITAL LETTER B\""
+            "raw": "\"Sigma followed by LATIN CAPITAL LETTER B\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -701,7 +755,9 @@
                 "start": 2205,
                 "end": 2226,
                 "value": "AΣ𝒢",
-                "raw": "\"A\\u03A3\\uD835\\uDCA2\""
+                "raw": "\"A\\u03A3\\uD835\\uDCA2\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -720,14 +776,18 @@
             "start": 2244,
             "end": 2265,
             "value": "aσ𝒢",
-            "raw": "\"a\\u03C3\\uD835\\uDCA2\""
+            "raw": "\"a\\u03C3\\uD835\\uDCA2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2269,
             "end": 2338,
             "value": "Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)",
-            "raw": "\"Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\""
+            "raw": "\"Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -774,7 +834,9 @@
                 "start": 2362,
                 "end": 2373,
                 "value": "AΣ.b",
-                "raw": "\"A\\u03A3.b\""
+                "raw": "\"A\\u03A3.b\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -793,14 +855,18 @@
             "start": 2391,
             "end": 2402,
             "value": "aσ.b",
-            "raw": "\"a\\u03C3.b\""
+            "raw": "\"a\\u03C3.b\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2406,
             "end": 2435,
             "value": "Sigma followed by FULL STOP",
-            "raw": "\"Sigma followed by FULL STOP\""
+            "raw": "\"Sigma followed by FULL STOP\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -847,7 +913,9 @@
                 "start": 2459,
                 "end": 2475,
                 "value": "AΣ­B",
-                "raw": "\"A\\u03A3\\u00ADB\""
+                "raw": "\"A\\u03A3\\u00ADB\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -866,14 +934,18 @@
             "start": 2493,
             "end": 2509,
             "value": "aσ­b",
-            "raw": "\"a\\u03C3\\u00ADb\""
+            "raw": "\"a\\u03C3\\u00ADb\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2513,
             "end": 2551,
             "value": "Sigma followed by SOFT HYPHEN (00AD)",
-            "raw": "\"Sigma followed by SOFT HYPHEN (00AD)\""
+            "raw": "\"Sigma followed by SOFT HYPHEN (00AD)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -920,7 +992,9 @@
                 "start": 2575,
                 "end": 2597,
                 "value": "AΣ𝉂B",
-                "raw": "\"A\\u03A3\\uD834\\uDE42B\""
+                "raw": "\"A\\u03A3\\uD834\\uDE42B\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -939,14 +1013,18 @@
             "start": 2615,
             "end": 2637,
             "value": "aσ𝉂b",
-            "raw": "\"a\\u03C3\\uD834\\uDE42b\""
+            "raw": "\"a\\u03C3\\uD834\\uDE42b\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2641,
             "end": 2712,
             "value": "Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)",
-            "raw": "\"Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\""
+            "raw": "\"Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -993,7 +1071,9 @@
                 "start": 2736,
                 "end": 2751,
                 "value": "AΣͅ",
-                "raw": "\"A\\u03A3\\u0345\""
+                "raw": "\"A\\u03A3\\u0345\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1012,14 +1092,18 @@
             "start": 2769,
             "end": 2784,
             "value": "aςͅ",
-            "raw": "\"a\\u03C2\\u0345\""
+            "raw": "\"a\\u03C2\\u0345\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2788,
             "end": 2844,
             "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)",
-            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)\""
+            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1066,7 +1150,9 @@
                 "start": 2868,
                 "end": 2889,
                 "value": "AΣͅΑ",
-                "raw": "\"A\\u03A3\\u0345\\u0391\""
+                "raw": "\"A\\u03A3\\u0345\\u0391\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1085,14 +1171,18 @@
             "start": 2907,
             "end": 2928,
             "value": "aσͅα",
-            "raw": "\"a\\u03C3\\u0345\\u03B1\""
+            "raw": "\"a\\u03C3\\u0345\\u03B1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2932,
             "end": 3023,
             "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)",
-            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)\""
+            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

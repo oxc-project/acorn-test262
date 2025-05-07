@@ -109,7 +109,9 @@
                             "start": 426,
                             "end": 434,
                             "value": "filter",
-                            "raw": "\"filter\""
+                            "raw": "\"filter\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 437,
                         "end": 442,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

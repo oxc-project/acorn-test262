@@ -126,7 +126,9 @@
                                               "start": 812,
                                               "end": 813,
                                               "value": 1,
-                                              "raw": "1"
+                                              "raw": "1",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           },
@@ -148,7 +150,9 @@
                                               "start": 821,
                                               "end": 826,
                                               "value": false,
-                                              "raw": "false"
+                                              "raw": "false",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           }
@@ -401,7 +405,9 @@
                           "start": 1054,
                           "end": 1082,
                           "value": "Promise should be rejected",
-                          "raw": "\"Promise should be rejected\""
+                          "raw": "\"Promise should be rejected\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -497,7 +503,9 @@
                         "start": 1143,
                         "end": 1170,
                         "value": "the iterator is completed",
-                        "raw": "\"the iterator is completed\""
+                        "raw": "\"the iterator is completed\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -561,7 +569,9 @@
                         "start": 1217,
                         "end": 1237,
                         "value": "value is undefined",
-                        "raw": "\"value is undefined\""
+                        "raw": "\"value is undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

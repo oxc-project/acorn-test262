@@ -59,7 +59,9 @@
                             "start": 1602,
                             "end": 1650,
                             "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js",
-                            "raw": "'./eval-gtbndng-indirect-update-dflt_FIXTURE.js'"
+                            "raw": "'./eval-gtbndng-indirect-update-dflt_FIXTURE.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": null
                         },
@@ -153,7 +155,9 @@
                                       "start": 1713,
                                       "end": 1714,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -211,7 +215,9 @@
                                       "start": 1756,
                                       "end": 1757,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

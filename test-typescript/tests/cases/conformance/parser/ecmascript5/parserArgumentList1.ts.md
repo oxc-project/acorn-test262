@@ -110,14 +110,18 @@ __ESTREE_TEST__:PASS:
                                 "start": 266,
                                 "end": 268,
                                 "raw": "''",
-                                "value": ""
+                                "value": "",
+                                "regex": null,
+                                "bigint": null
                               },
                               "consequent": {
                                 "type": "Literal",
                                 "start": 260,
                                 "end": 263,
                                 "raw": "' '",
-                                "value": " "
+                                "value": " ",
+                                "regex": null,
+                                "bigint": null
                               },
                               "test": {
                                 "type": "BinaryExpression",
@@ -185,7 +189,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 256,
                                   "end": 257,
                                   "raw": "2",
-                                  "value": 2
+                                  "value": 2,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }

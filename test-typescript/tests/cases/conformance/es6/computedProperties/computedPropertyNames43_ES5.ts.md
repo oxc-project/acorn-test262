@@ -234,7 +234,9 @@ __ESTREE_TEST__:PASS:
               "start": 129,
               "end": 135,
               "raw": "\"get1\"",
-              "value": "get1"
+              "value": "get1",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "optional": false,
@@ -294,7 +296,9 @@ __ESTREE_TEST__:PASS:
               "start": 167,
               "end": 173,
               "raw": "\"set1\"",
-              "value": "set1"
+              "value": "set1",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "optional": false,

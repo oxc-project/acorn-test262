@@ -110,7 +110,9 @@
                         "start": 665,
                         "end": 667,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -124,7 +126,9 @@
             "start": 673,
             "end": 703,
             "value": "Array.prototype.pop.call('')",
-            "raw": "\"Array.prototype.pop.call('')\""
+            "raw": "\"Array.prototype.pop.call('')\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,7 +241,9 @@
                         "start": 767,
                         "end": 772,
                         "value": "abc",
-                        "raw": "'abc'"
+                        "raw": "'abc'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -251,7 +257,9 @@
             "start": 778,
             "end": 811,
             "value": "Array.prototype.pop.call('abc')",
-            "raw": "\"Array.prototype.pop.call('abc')\""
+            "raw": "\"Array.prototype.pop.call('abc')\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

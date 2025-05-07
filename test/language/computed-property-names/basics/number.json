@@ -81,7 +81,9 @@
                   "start": 304,
                   "end": 307,
                   "value": "A",
-                  "raw": "'A'"
+                  "raw": "'A'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,14 +99,18 @@
                   "start": 312,
                   "end": 313,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 316,
                   "end": 319,
                   "value": "B",
-                  "raw": "'B'"
+                  "raw": "'B'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -126,7 +132,9 @@
                   "start": 326,
                   "end": 329,
                   "value": "C",
-                  "raw": "'C'"
+                  "raw": "'C'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -153,7 +161,9 @@
                       "start": 337,
                       "end": 338,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -163,7 +173,9 @@
                   "start": 342,
                   "end": 345,
                   "value": "D",
-                  "raw": "'D'"
+                  "raw": "'D'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -225,14 +237,18 @@
             "start": 377,
             "end": 380,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 382,
             "end": 449,
             "value": "The value of `object.a` is `'A'`. Defined in `object` as `a: 'A'`",
-            "raw": "\"The value of `object.a` is `'A'`. Defined in `object` as `a: 'A'`\""
+            "raw": "\"The value of `object.a` is `'A'`. Defined in `object` as `a: 'A'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +297,9 @@
               "start": 476,
               "end": 477,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -291,14 +309,18 @@
             "start": 480,
             "end": 483,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 555,
             "value": "The value of `object[1]` is `'B'`. Defined in `object` as `[1]: 'B'`",
-            "raw": "\"The value of `object[1]` is `'B'`. Defined in `object` as `[1]: 'B'`\""
+            "raw": "\"The value of `object[1]` is `'B'`. Defined in `object` as `[1]: 'B'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +378,18 @@
             "start": 585,
             "end": 588,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 657,
             "value": "The value of `object.c` is `'C'`. Defined in `object` as `c: 'C'`",
-            "raw": "\"The value of `object.c` is `'C'`. Defined in `object` as `c: 'C'`\""
+            "raw": "\"The value of `object.c` is `'C'`. Defined in `object` as `c: 'C'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -412,7 +438,9 @@
               "start": 684,
               "end": 685,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -422,14 +450,18 @@
             "start": 688,
             "end": 691,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 693,
             "end": 767,
             "value": "The value of `object[2]` is `'D'`. Defined in `object` as `[ID(2)]: 'D'`",
-            "raw": "\"The value of `object[2]` is `'D'`. Defined in `object` as `[ID(2)]: 'D'`\""
+            "raw": "\"The value of `object[2]` is `'D'`. Defined in `object` as `[ID(2)]: 'D'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -506,28 +538,36 @@
                 "start": 832,
                 "end": 835,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 837,
                 "end": 840,
                 "value": "2",
-                "raw": "'2'"
+                "raw": "'2'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 842,
                 "end": 845,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 847,
                 "end": 850,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

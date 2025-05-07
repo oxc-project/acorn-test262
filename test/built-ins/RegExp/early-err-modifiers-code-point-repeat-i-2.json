@@ -71,14 +71,18 @@
                         "start": 731,
                         "end": 742,
                         "value": "(?imsi:a)",
-                        "raw": "\"(?imsi:a)\""
+                        "raw": "\"(?imsi:a)\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 744,
                         "end": 746,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -92,7 +96,9 @@
             "start": 752,
             "end": 779,
             "value": "RegExp(\"(?imsi:a)\", \"\"): ",
-            "raw": "'RegExp(\"(?imsi:a)\", \"\"): '"
+            "raw": "'RegExp(\"(?imsi:a)\", \"\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

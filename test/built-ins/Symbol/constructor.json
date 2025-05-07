@@ -75,7 +75,9 @@
                       "start": 272,
                       "end": 276,
                       "value": "66",
-                      "raw": "'66'"
+                      "raw": "'66'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -103,7 +105,9 @@
             "start": 304,
             "end": 380,
             "value": "The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`",
-            "raw": "\"The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`\""
+            "raw": "\"The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +196,9 @@
                           "start": 440,
                           "end": 444,
                           "value": "66",
-                          "raw": "'66'"
+                          "raw": "'66'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -223,7 +229,9 @@
             "start": 473,
             "end": 557,
             "value": "The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`",
-            "raw": "\"The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`\""
+            "raw": "\"The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

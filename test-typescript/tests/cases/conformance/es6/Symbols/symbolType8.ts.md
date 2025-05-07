@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 28,
                 "raw": "\"compare\"",
-                "value": "compare"
+                "value": "compare",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -124,7 +126,9 @@ __ESTREE_TEST__:PASS:
           "start": 42,
           "end": 43,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -182,7 +186,9 @@ __ESTREE_TEST__:PASS:
           "start": 56,
           "end": 57,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -240,7 +246,9 @@ __ESTREE_TEST__:PASS:
           "start": 72,
           "end": 73,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -298,7 +306,9 @@ __ESTREE_TEST__:PASS:
           "start": 88,
           "end": 89,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -317,7 +327,9 @@ __ESTREE_TEST__:PASS:
           "start": 92,
           "end": 93,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "LogicalExpression",
@@ -338,7 +350,9 @@ __ESTREE_TEST__:PASS:
             "start": 103,
             "end": 104,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -372,7 +386,9 @@ __ESTREE_TEST__:PASS:
             "start": 113,
             "end": 114,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {

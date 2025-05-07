@@ -47,14 +47,18 @@
                 "start": 380,
                 "end": 381,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 384,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -153,14 +157,18 @@
                             "start": 432,
                             "end": 443,
                             "value": "constrain",
-                            "raw": "\"constrain\""
+                            "raw": "\"constrain\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 445,
                             "end": 453,
                             "value": "reject",
-                            "raw": "\"reject\""
+                            "raw": "\"reject\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -458,7 +466,9 @@
                                         "start": 701,
                                         "end": 706,
                                         "value": "day",
-                                        "raw": "\"day\""
+                                        "raw": "\"day\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -642,14 +652,18 @@
                                         "start": 821,
                                         "end": 838,
                                         "value": "get day.valueOf",
-                                        "raw": "\"get day.valueOf\""
+                                        "raw": "\"get day.valueOf\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 840,
                                         "end": 858,
                                         "value": "call day.valueOf",
-                                        "raw": "\"call day.valueOf\""
+                                        "raw": "\"call day.valueOf\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   },
@@ -658,7 +672,9 @@
                                     "start": 861,
                                     "end": 906,
                                     "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "raw": "\"it fails after fetching the primitive value\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

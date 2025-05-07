@@ -41,7 +41,9 @@
                   "start": 268,
                   "end": 272,
                   "value": 1001,
-                  "raw": "1001"
+                  "raw": "1001",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 283,
                   "end": 287,
                   "value": 1002,
-                  "raw": "1002"
+                  "raw": "1002",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -112,7 +116,9 @@
             "start": 319,
             "end": 326,
             "value": "prop3",
-            "raw": "\"prop3\""
+            "raw": "\"prop3\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -137,7 +143,9 @@
                   "start": 339,
                   "end": 343,
                   "value": 1003,
-                  "raw": "1003"
+                  "raw": "1003",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +167,9 @@
                   "start": 359,
                   "end": 363,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -181,7 +191,9 @@
                   "start": 381,
                   "end": 385,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -230,7 +242,9 @@
             "start": 418,
             "end": 425,
             "value": "prop4",
-            "raw": "\"prop4\""
+            "raw": "\"prop4\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -273,7 +287,9 @@
                           "start": 460,
                           "end": 464,
                           "value": 1003,
-                          "raw": "1003"
+                          "raw": "1003",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -299,7 +315,9 @@
                   "start": 485,
                   "end": 489,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -321,7 +339,9 @@
                   "start": 507,
                   "end": 511,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -427,7 +447,9 @@
                 "start": 572,
                 "end": 573,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -437,7 +459,9 @@
             "start": 576,
             "end": 608,
             "value": "arr.hasOwnProperty(0) !== true",
-            "raw": "'arr.hasOwnProperty(0) !== true'"
+            "raw": "'arr.hasOwnProperty(0) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +510,9 @@
               "start": 632,
               "end": 633,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -496,14 +522,18 @@
             "start": 636,
             "end": 643,
             "value": "prop1",
-            "raw": "\"prop1\""
+            "raw": "\"prop1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 653,
             "value": "arr[0]",
-            "raw": "'arr[0]'"
+            "raw": "'arr[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

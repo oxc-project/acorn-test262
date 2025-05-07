@@ -59,7 +59,9 @@
                           "start": 373,
                           "end": 382,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -162,7 +164,9 @@
             "start": 463,
             "end": 479,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -221,7 +225,9 @@
           "start": 612,
           "end": 613,
           "value": 7,
-          "raw": "7"
+          "raw": "7",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -253,7 +259,9 @@
                     "start": 642,
                     "end": 828,
                     "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __obj2 = {valueOf:function(){return NaN;}}; var __str = \"ABBABABAB\";lastIndexOf(__obj, __obj2) === 7. Actual: ",
-                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return NaN;}}; var __str = \"ABB\\u0041BABAB\";lastIndexOf(__obj, __obj2) === 7. Actual: '"
+                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return NaN;}}; var __str = \"ABB\\u0041BABAB\";lastIndexOf(__obj, __obj2) === 7. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

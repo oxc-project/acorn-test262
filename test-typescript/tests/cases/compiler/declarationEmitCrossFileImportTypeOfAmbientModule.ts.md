@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 37,
         "raw": "'@namespace/component'",
-        "value": "@namespace/component"
+        "value": "@namespace/component",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 42,
         "raw": "\"@namespace/component\"",
-        "value": "@namespace/component"
+        "value": "@namespace/component",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -191,7 +195,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 37,
         "raw": "\"../somepackage\"",
-        "value": "../somepackage"
+        "value": "../somepackage",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

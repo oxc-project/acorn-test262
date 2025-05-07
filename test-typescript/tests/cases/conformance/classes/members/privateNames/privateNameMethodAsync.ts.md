@@ -79,7 +79,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 66,
                                   "end": 68,
                                   "raw": "42",
-                                  "value": 42
+                                  "value": 42,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "callee": {
@@ -307,7 +309,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 176,
                                   "end": 177,
                                   "raw": "0",
-                                  "value": 0
+                                  "value": 0,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -392,7 +396,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 218,
                                 "end": 219,
                                 "raw": "0",
-                                "value": 0
+                                "value": 0,
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -449,7 +455,9 @@ __ESTREE_TEST__:PASS:
                               "start": 248,
                               "end": 250,
                               "raw": "42",
-                              "value": 42
+                              "value": 42,
+                              "regex": null,
+                              "bigint": null
                             },
                             "delegate": false
                           }
@@ -515,7 +523,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 311,
                                     "end": 313,
                                     "raw": "42",
-                                    "value": 42
+                                    "value": 42,
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "callee": {

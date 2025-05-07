@@ -105,7 +105,9 @@ __ESTREE_TEST__:PASS:
               "start": 85,
               "end": 91,
               "raw": "'roar'",
-              "value": "roar"
+              "value": "roar",
+              "regex": null,
+              "bigint": null
             }
           },
           {

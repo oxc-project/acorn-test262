@@ -78,7 +78,9 @@
                       "start": 442,
                       "end": 446,
                       "value": 1919,
-                      "raw": "1919"
+                      "raw": "1919",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 457,
                       "end": 458,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 467,
                       "end": 469,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 479,
                       "end": 481,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +174,9 @@
                       "start": 495,
                       "end": 512,
                       "value": "America/Toronto",
-                      "raw": "\"America/Toronto\""
+                      "raw": "\"America/Toronto\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -276,14 +286,18 @@
             "start": 586,
             "end": 587,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 619,
             "value": "1919-03-31 started at hour 0",
-            "raw": "\"1919-03-31 started at hour 0\""
+            "raw": "\"1919-03-31 started at hour 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -341,14 +355,18 @@
             "start": 654,
             "end": 656,
             "value": 30,
-            "raw": "30"
+            "raw": "30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 691,
             "value": "1919-03-31 started at minute 30",
-            "raw": "\"1919-03-31 started at minute 30\""
+            "raw": "\"1919-03-31 started at minute 30\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

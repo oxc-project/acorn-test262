@@ -26,7 +26,9 @@
             "start": 380,
             "end": 397,
             "value": "__declared__var",
-            "raw": "'__declared__var'"
+            "raw": "'__declared__var'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -36,7 +38,9 @@
           "start": 401,
           "end": 409,
           "value": "baloon",
-          "raw": "\"baloon\""
+          "raw": "\"baloon\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -62,7 +66,9 @@
             "start": 420,
             "end": 437,
             "value": "__declared__var",
-            "raw": "'__declared__var'"
+            "raw": "'__declared__var'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -73,7 +79,9 @@
           "start": 443,
           "end": 451,
           "value": "baloon",
-          "raw": "\"baloon\""
+          "raw": "\"baloon\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -105,7 +113,9 @@
                     "start": 479,
                     "end": 563,
                     "value": "#1: this['__declared__var'] === \"baloon\". Actual:  this['__declared__var'] ===",
-                    "raw": "'#1: this[\\'__declared__var\\'] === \"baloon\". Actual:  this[\\'__declared__var\\'] ==='"
+                    "raw": "'#1: this[\\'__declared__var\\'] === \"baloon\". Actual:  this[\\'__declared__var\\'] ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -122,7 +132,9 @@
                       "start": 570,
                       "end": 587,
                       "value": "__declared__var",
-                      "raw": "'__declared__var'"
+                      "raw": "'__declared__var'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -155,7 +167,9 @@
           "start": 791,
           "end": 799,
           "value": "baloon",
-          "raw": "\"baloon\""
+          "raw": "\"baloon\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -187,7 +201,9 @@
                     "start": 827,
                     "end": 891,
                     "value": "#2: __declared__var === \"baloon\". Actual:  __declared__var ===",
-                    "raw": "'#2: __declared__var === \"baloon\". Actual:  __declared__var ==='"
+                    "raw": "'#2: __declared__var === \"baloon\". Actual:  __declared__var ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

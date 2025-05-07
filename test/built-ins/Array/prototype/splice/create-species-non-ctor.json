@@ -56,14 +56,18 @@
             "start": 779,
             "end": 784,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 788,
             "end": 845,
             "value": "precondition: isConstructor(parseInt) must return false",
-            "raw": "'precondition: isConstructor(parseInt) must return false'"
+            "raw": "'precondition: isConstructor(parseInt) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +283,9 @@
             "start": 981,
             "end": 1022,
             "value": "a.splice() throws a TypeError exception",
-            "raw": "'a.splice() throws a TypeError exception'"
+            "raw": "'a.splice() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

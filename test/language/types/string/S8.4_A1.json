@@ -23,7 +23,9 @@
             "start": 408,
             "end": 416,
             "value": "abcdfg",
-            "raw": "\"abcdfg\""
+            "raw": "\"abcdfg\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -61,7 +63,9 @@
           "start": 436,
           "end": 444,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -93,7 +97,9 @@
                     "start": 472,
                     "end": 530,
                     "value": "#1: var str=\"abcdfg\"; typeof(str) === \"string\". Actual: ",
-                    "raw": "'#1: var str=\"abcdfg\"; typeof(str) === \"string\". Actual: '"
+                    "raw": "'#1: var str=\"abcdfg\"; typeof(str) === \"string\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -147,7 +153,9 @@
             "start": 690,
             "end": 698,
             "value": "qwerty",
-            "raw": "'qwerty'"
+            "raw": "'qwerty'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -185,7 +193,9 @@
           "start": 719,
           "end": 727,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -217,7 +227,9 @@
                     "start": 755,
                     "end": 816,
                     "value": "#2: var str2='qwerty'; typeof(str) === \"string\". Actual: ",
-                    "raw": "'#2: var str2=\\'qwerty\\'; typeof(str) === \"string\". Actual: '"
+                    "raw": "'#2: var str2=\\'qwerty\\'; typeof(str) === \"string\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -271,7 +283,9 @@
             "start": 978,
             "end": 1022,
             "value": "BCDEFGH",
-            "raw": "'\\u0042\\u0043\\u0044\\u0045\\u0046\\u0047\\u0048'"
+            "raw": "'\\u0042\\u0043\\u0044\\u0045\\u0046\\u0047\\u0048'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -309,7 +323,9 @@
           "start": 1044,
           "end": 1052,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -341,7 +357,9 @@
                     "start": 1080,
                     "end": 1187,
                     "value": "#3: var __str='\\u0042\\u0043\\u0044\\u0045\\u0046\\u0047\\u0048'; typeof(__str) === \"string\". Actual: ",
-                    "raw": "'#3: var __str=\\'\\\\u0042\\\\u0043\\\\u0044\\\\u0045\\\\u0046\\\\u0047\\\\u0048\\'; typeof(__str) === \"string\". Actual: '"
+                    "raw": "'#3: var __str=\\'\\\\u0042\\\\u0043\\\\u0044\\\\u0045\\\\u0046\\\\u0047\\\\u0048\\'; typeof(__str) === \"string\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -395,7 +413,9 @@
             "start": 1350,
             "end": 1394,
             "value": "BCDEFGH",
-            "raw": "\"\\u0042\\u0043\\u0044\\u0045\\u0046\\u0047\\u0048\""
+            "raw": "\"\\u0042\\u0043\\u0044\\u0045\\u0046\\u0047\\u0048\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -433,7 +453,9 @@
           "start": 1416,
           "end": 1424,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -465,7 +487,9 @@
                     "start": 1452,
                     "end": 1514,
                     "value": "#4: var str__=\"abcdfg\"; typeof(str__) === \"string\". Actual: ",
-                    "raw": "'#4: var str__=\"abcdfg\"; typeof(str__) === \"string\". Actual: '"
+                    "raw": "'#4: var str__=\"abcdfg\"; typeof(str__) === \"string\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

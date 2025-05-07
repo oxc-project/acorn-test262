@@ -57,7 +57,9 @@
                 "start": 331,
                 "end": 333,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             }
           }

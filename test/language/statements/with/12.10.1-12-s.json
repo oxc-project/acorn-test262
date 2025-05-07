@@ -71,7 +71,9 @@
                         "start": 313,
                         "end": 398,
                         "value": "          'use strict';           var o = {};           with (o) {}        ",
-                        "raw": "\"\\\n          'use strict'; \\\n          var o = {}; \\\n          with (o) {}\\\n        \""
+                        "raw": "\"\\\n          'use strict'; \\\n          var o = {}; \\\n          with (o) {}\\\n        \"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

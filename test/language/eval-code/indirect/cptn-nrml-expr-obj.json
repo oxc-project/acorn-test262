@@ -94,7 +94,9 @@
                     "start": 402,
                     "end": 403,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -111,7 +113,9 @@
                 "start": 410,
                 "end": 417,
                 "value": "y = x",
-                "raw": "\"y = x\""
+                "raw": "\"y = x\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -127,7 +131,9 @@
             "start": 424,
             "end": 446,
             "value": "AssignmentExpression",
-            "raw": "'AssignmentExpression'"
+            "raw": "'AssignmentExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +185,9 @@
                     "start": 468,
                     "end": 469,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -196,7 +204,9 @@
                 "start": 476,
                 "end": 479,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -212,7 +222,9 @@
             "start": 485,
             "end": 506,
             "value": "IdentifierReference",
-            "raw": "'IdentifierReference'"
+            "raw": "'IdentifierReference'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

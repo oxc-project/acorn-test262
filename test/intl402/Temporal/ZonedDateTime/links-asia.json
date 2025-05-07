@@ -28,56 +28,72 @@
                 "start": 313,
                 "end": 329,
                 "value": "Europe/Nicosia",
-                "raw": "\"Europe/Nicosia\""
+                "raw": "\"Europe/Nicosia\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 390,
                 "value": "Asia/Bahrain",
-                "raw": "\"Asia/Bahrain\""
+                "raw": "\"Asia/Bahrain\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 427,
                 "end": 445,
                 "value": "Antarctica/Syowa",
-                "raw": "\"Antarctica/Syowa\""
+                "raw": "\"Antarctica/Syowa\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 487,
                 "end": 498,
                 "value": "Asia/Aden",
-                "raw": "\"Asia/Aden\""
+                "raw": "\"Asia/Aden\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 559,
                 "value": "Asia/Kuwait",
-                "raw": "\"Asia/Kuwait\""
+                "raw": "\"Asia/Kuwait\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 596,
                 "end": 613,
                 "value": "Asia/Phnom_Penh",
-                "raw": "\"Asia/Phnom_Penh\""
+                "raw": "\"Asia/Phnom_Penh\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 672,
                 "end": 688,
                 "value": "Asia/Vientiane",
-                "raw": "\"Asia/Vientiane\""
+                "raw": "\"Asia/Vientiane\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 756,
                 "value": "Asia/Muscat",
-                "raw": "\"Asia/Muscat\""
+                "raw": "\"Asia/Muscat\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -166,6 +182,7 @@
                       "end": 881,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

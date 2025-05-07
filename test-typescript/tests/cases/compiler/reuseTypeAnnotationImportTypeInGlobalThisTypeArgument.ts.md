@@ -137,7 +137,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 120,
                                           "end": 132,
                                           "raw": "\"./types.js\"",
-                                          "value": "./types.js"
+                                          "value": "./types.js",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "options": null,
@@ -318,7 +320,9 @@ __ESTREE_TEST__:PASS:
         "start": 86,
         "end": 98,
         "raw": "'./types.js'",
-        "value": "./types.js"
+        "value": "./types.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -475,7 +479,9 @@ __ESTREE_TEST__:PASS:
         "start": 38,
         "end": 59,
         "raw": "'./contractHelper.js'",
-        "value": "./contractHelper.js"
+        "value": "./contractHelper.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

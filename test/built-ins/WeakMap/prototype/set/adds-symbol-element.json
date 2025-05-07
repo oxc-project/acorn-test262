@@ -65,7 +65,9 @@
                 "start": 478,
                 "end": 493,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,7 +107,9 @@
                 "start": 513,
                 "end": 528,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -153,7 +157,9 @@
             "start": 545,
             "end": 546,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +204,9 @@
             "start": 562,
             "end": 563,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,7 +264,9 @@
             "start": 594,
             "end": 595,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +325,9 @@
             "start": 620,
             "end": 643,
             "value": "Regular symbol as key",
-            "raw": "'Regular symbol as key'"
+            "raw": "'Regular symbol as key'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -387,14 +399,18 @@
             "start": 677,
             "end": 678,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 742,
             "value": "Symbols with the same description don't overwrite each other",
-            "raw": "\"Symbols with the same description don't overwrite each other\""
+            "raw": "\"Symbols with the same description don't overwrite each other\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,7 +482,9 @@
             "start": 781,
             "end": 807,
             "value": "Well-known symbol as key",
-            "raw": "'Well-known symbol as key'"
+            "raw": "'Well-known symbol as key'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

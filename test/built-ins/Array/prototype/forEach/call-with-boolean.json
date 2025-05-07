@@ -86,7 +86,9 @@
                 "start": 292,
                 "end": 296,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -118,7 +120,9 @@
             "start": 324,
             "end": 392,
             "value": "Array.prototype.forEach.call(true, () => {}) must return undefined",
-            "raw": "'Array.prototype.forEach.call(true, () => {}) must return undefined'"
+            "raw": "'Array.prototype.forEach.call(true, () => {}) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +211,9 @@
                 "start": 445,
                 "end": 450,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -239,7 +245,9 @@
             "start": 478,
             "end": 547,
             "value": "Array.prototype.forEach.call(false, () => {}) must return undefined",
-            "raw": "'Array.prototype.forEach.call(false, () => {}) must return undefined'"
+            "raw": "'Array.prototype.forEach.call(false, () => {}) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

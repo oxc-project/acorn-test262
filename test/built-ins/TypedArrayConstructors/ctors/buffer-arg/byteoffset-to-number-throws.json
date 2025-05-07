@@ -34,7 +34,9 @@
                 "start": 685,
                 "end": 686,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

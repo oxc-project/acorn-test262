@@ -33,14 +33,18 @@
                     "start": 865,
                     "end": 870,
                     "value": "mon",
-                    "raw": "\"mon\""
+                    "raw": "\"mon\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 872,
                     "end": 885,
                     "value": "en-u-fw-mon",
-                    "raw": "\"en-u-fw-mon\""
+                    "raw": "\"en-u-fw-mon\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 891,
                     "end": 896,
                     "value": "tue",
-                    "raw": "\"tue\""
+                    "raw": "\"tue\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 898,
                     "end": 911,
                     "value": "en-u-fw-tue",
-                    "raw": "\"en-u-fw-tue\""
+                    "raw": "\"en-u-fw-tue\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 917,
                     "end": 922,
                     "value": "wed",
-                    "raw": "\"wed\""
+                    "raw": "\"wed\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 924,
                     "end": 937,
                     "value": "en-u-fw-wed",
-                    "raw": "\"en-u-fw-wed\""
+                    "raw": "\"en-u-fw-wed\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -96,14 +108,18 @@
                     "start": 943,
                     "end": 948,
                     "value": "thu",
-                    "raw": "\"thu\""
+                    "raw": "\"thu\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 950,
                     "end": 963,
                     "value": "en-u-fw-thu",
-                    "raw": "\"en-u-fw-thu\""
+                    "raw": "\"en-u-fw-thu\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -117,14 +133,18 @@
                     "start": 969,
                     "end": 974,
                     "value": "fri",
-                    "raw": "\"fri\""
+                    "raw": "\"fri\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 976,
                     "end": 989,
                     "value": "en-u-fw-fri",
-                    "raw": "\"en-u-fw-fri\""
+                    "raw": "\"en-u-fw-fri\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -138,14 +158,18 @@
                     "start": 995,
                     "end": 1000,
                     "value": "sat",
-                    "raw": "\"sat\""
+                    "raw": "\"sat\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1002,
                     "end": 1015,
                     "value": "en-u-fw-sat",
-                    "raw": "\"en-u-fw-sat\""
+                    "raw": "\"en-u-fw-sat\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -159,14 +183,18 @@
                     "start": 1021,
                     "end": 1026,
                     "value": "sun",
-                    "raw": "\"sun\""
+                    "raw": "\"sun\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1028,
                     "end": 1041,
                     "value": "en-u-fw-sun",
-                    "raw": "\"en-u-fw-sun\""
+                    "raw": "\"en-u-fw-sun\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -180,14 +208,18 @@
                     "start": 1047,
                     "end": 1050,
                     "value": "1",
-                    "raw": "\"1\""
+                    "raw": "\"1\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1052,
                     "end": 1065,
                     "value": "en-u-fw-mon",
-                    "raw": "\"en-u-fw-mon\""
+                    "raw": "\"en-u-fw-mon\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -201,14 +233,18 @@
                     "start": 1071,
                     "end": 1074,
                     "value": "2",
-                    "raw": "\"2\""
+                    "raw": "\"2\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1076,
                     "end": 1089,
                     "value": "en-u-fw-tue",
-                    "raw": "\"en-u-fw-tue\""
+                    "raw": "\"en-u-fw-tue\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -222,14 +258,18 @@
                     "start": 1095,
                     "end": 1098,
                     "value": "3",
-                    "raw": "\"3\""
+                    "raw": "\"3\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1100,
                     "end": 1113,
                     "value": "en-u-fw-wed",
-                    "raw": "\"en-u-fw-wed\""
+                    "raw": "\"en-u-fw-wed\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -243,14 +283,18 @@
                     "start": 1119,
                     "end": 1122,
                     "value": "4",
-                    "raw": "\"4\""
+                    "raw": "\"4\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1124,
                     "end": 1137,
                     "value": "en-u-fw-thu",
-                    "raw": "\"en-u-fw-thu\""
+                    "raw": "\"en-u-fw-thu\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -264,14 +308,18 @@
                     "start": 1143,
                     "end": 1146,
                     "value": "5",
-                    "raw": "\"5\""
+                    "raw": "\"5\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1148,
                     "end": 1161,
                     "value": "en-u-fw-fri",
-                    "raw": "\"en-u-fw-fri\""
+                    "raw": "\"en-u-fw-fri\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -285,14 +333,18 @@
                     "start": 1167,
                     "end": 1170,
                     "value": "6",
-                    "raw": "\"6\""
+                    "raw": "\"6\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1172,
                     "end": 1185,
                     "value": "en-u-fw-sat",
-                    "raw": "\"en-u-fw-sat\""
+                    "raw": "\"en-u-fw-sat\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -306,14 +358,18 @@
                     "start": 1191,
                     "end": 1194,
                     "value": "7",
-                    "raw": "\"7\""
+                    "raw": "\"7\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1196,
                     "end": 1209,
                     "value": "en-u-fw-sun",
-                    "raw": "\"en-u-fw-sun\""
+                    "raw": "\"en-u-fw-sun\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -327,14 +383,18 @@
                     "start": 1215,
                     "end": 1218,
                     "value": "0",
-                    "raw": "\"0\""
+                    "raw": "\"0\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1220,
                     "end": 1233,
                     "value": "en-u-fw-sun",
-                    "raw": "\"en-u-fw-sun\""
+                    "raw": "\"en-u-fw-sun\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -348,14 +408,18 @@
                     "start": 1239,
                     "end": 1240,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1242,
                     "end": 1255,
                     "value": "en-u-fw-mon",
-                    "raw": "\"en-u-fw-mon\""
+                    "raw": "\"en-u-fw-mon\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -369,14 +433,18 @@
                     "start": 1261,
                     "end": 1262,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1264,
                     "end": 1277,
                     "value": "en-u-fw-tue",
-                    "raw": "\"en-u-fw-tue\""
+                    "raw": "\"en-u-fw-tue\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -390,14 +458,18 @@
                     "start": 1283,
                     "end": 1284,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1286,
                     "end": 1299,
                     "value": "en-u-fw-wed",
-                    "raw": "\"en-u-fw-wed\""
+                    "raw": "\"en-u-fw-wed\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -411,14 +483,18 @@
                     "start": 1305,
                     "end": 1306,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1308,
                     "end": 1321,
                     "value": "en-u-fw-thu",
-                    "raw": "\"en-u-fw-thu\""
+                    "raw": "\"en-u-fw-thu\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -432,14 +508,18 @@
                     "start": 1327,
                     "end": 1328,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1330,
                     "end": 1343,
                     "value": "en-u-fw-fri",
-                    "raw": "\"en-u-fw-fri\""
+                    "raw": "\"en-u-fw-fri\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -453,14 +533,18 @@
                     "start": 1349,
                     "end": 1350,
                     "value": 6,
-                    "raw": "6"
+                    "raw": "6",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1352,
                     "end": 1365,
                     "value": "en-u-fw-sat",
-                    "raw": "\"en-u-fw-sat\""
+                    "raw": "\"en-u-fw-sat\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -474,14 +558,18 @@
                     "start": 1371,
                     "end": 1372,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1374,
                     "end": 1387,
                     "value": "en-u-fw-sun",
-                    "raw": "\"en-u-fw-sun\""
+                    "raw": "\"en-u-fw-sun\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -495,14 +583,18 @@
                     "start": 1393,
                     "end": 1394,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1396,
                     "end": 1409,
                     "value": "en-u-fw-sun",
-                    "raw": "\"en-u-fw-sun\""
+                    "raw": "\"en-u-fw-sun\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -516,14 +608,18 @@
                     "start": 1415,
                     "end": 1419,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1421,
                     "end": 1430,
                     "value": "en-u-fw",
-                    "raw": "\"en-u-fw\""
+                    "raw": "\"en-u-fw\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -537,14 +633,18 @@
                     "start": 1436,
                     "end": 1441,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1443,
                     "end": 1458,
                     "value": "en-u-fw-false",
-                    "raw": "\"en-u-fw-false\""
+                    "raw": "\"en-u-fw-false\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -558,14 +658,18 @@
                     "start": 1464,
                     "end": 1468,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1470,
                     "end": 1484,
                     "value": "en-u-fw-null",
-                    "raw": "\"en-u-fw-null\""
+                    "raw": "\"en-u-fw-null\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -579,14 +683,18 @@
                     "start": 1490,
                     "end": 1499,
                     "value": "primidi",
-                    "raw": "\"primidi\""
+                    "raw": "\"primidi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1501,
                     "end": 1518,
                     "value": "en-u-fw-primidi",
-                    "raw": "\"en-u-fw-primidi\""
+                    "raw": "\"en-u-fw-primidi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -600,14 +708,18 @@
                     "start": 1524,
                     "end": 1531,
                     "value": "duodi",
-                    "raw": "\"duodi\""
+                    "raw": "\"duodi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1533,
                     "end": 1548,
                     "value": "en-u-fw-duodi",
-                    "raw": "\"en-u-fw-duodi\""
+                    "raw": "\"en-u-fw-duodi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -621,14 +733,18 @@
                     "start": 1554,
                     "end": 1561,
                     "value": "tridi",
-                    "raw": "\"tridi\""
+                    "raw": "\"tridi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1563,
                     "end": 1578,
                     "value": "en-u-fw-tridi",
-                    "raw": "\"en-u-fw-tridi\""
+                    "raw": "\"en-u-fw-tridi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -642,14 +758,18 @@
                     "start": 1584,
                     "end": 1594,
                     "value": "quartidi",
-                    "raw": "\"quartidi\""
+                    "raw": "\"quartidi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1596,
                     "end": 1614,
                     "value": "en-u-fw-quartidi",
-                    "raw": "\"en-u-fw-quartidi\""
+                    "raw": "\"en-u-fw-quartidi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -663,14 +783,18 @@
                     "start": 1620,
                     "end": 1630,
                     "value": "quintidi",
-                    "raw": "\"quintidi\""
+                    "raw": "\"quintidi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1632,
                     "end": 1650,
                     "value": "en-u-fw-quintidi",
-                    "raw": "\"en-u-fw-quintidi\""
+                    "raw": "\"en-u-fw-quintidi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -684,14 +808,18 @@
                     "start": 1656,
                     "end": 1665,
                     "value": "sextidi",
-                    "raw": "\"sextidi\""
+                    "raw": "\"sextidi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1667,
                     "end": 1684,
                     "value": "en-u-fw-sextidi",
-                    "raw": "\"en-u-fw-sextidi\""
+                    "raw": "\"en-u-fw-sextidi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -705,14 +833,18 @@
                     "start": 1690,
                     "end": 1699,
                     "value": "septidi",
-                    "raw": "\"septidi\""
+                    "raw": "\"septidi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1701,
                     "end": 1718,
                     "value": "en-u-fw-septidi",
-                    "raw": "\"en-u-fw-septidi\""
+                    "raw": "\"en-u-fw-septidi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -726,14 +858,18 @@
                     "start": 1724,
                     "end": 1732,
                     "value": "octidi",
-                    "raw": "\"octidi\""
+                    "raw": "\"octidi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1734,
                     "end": 1750,
                     "value": "en-u-fw-octidi",
-                    "raw": "\"en-u-fw-octidi\""
+                    "raw": "\"en-u-fw-octidi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -747,14 +883,18 @@
                     "start": 1756,
                     "end": 1764,
                     "value": "nonidi",
-                    "raw": "\"nonidi\""
+                    "raw": "\"nonidi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1766,
                     "end": 1782,
                     "value": "en-u-fw-nonidi",
-                    "raw": "\"en-u-fw-nonidi\""
+                    "raw": "\"en-u-fw-nonidi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -768,14 +908,18 @@
                     "start": 1788,
                     "end": 1796,
                     "value": "decadi",
-                    "raw": "\"decadi\""
+                    "raw": "\"decadi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1798,
                     "end": 1814,
                     "value": "en-u-fw-decadi",
-                    "raw": "\"en-u-fw-decadi\""
+                    "raw": "\"en-u-fw-decadi\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -789,14 +933,18 @@
                     "start": 1820,
                     "end": 1827,
                     "value": "frank",
-                    "raw": "\"frank\""
+                    "raw": "\"frank\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1829,
                     "end": 1844,
                     "value": "en-u-fw-frank",
-                    "raw": "\"en-u-fw-frank\""
+                    "raw": "\"en-u-fw-frank\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -810,14 +958,18 @@
                     "start": 1850,
                     "end": 1860,
                     "value": "yungfong",
-                    "raw": "\"yungfong\""
+                    "raw": "\"yungfong\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1862,
                     "end": 1880,
                     "value": "en-u-fw-yungfong",
-                    "raw": "\"en-u-fw-yungfong\""
+                    "raw": "\"en-u-fw-yungfong\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -831,14 +983,18 @@
                     "start": 1886,
                     "end": 1897,
                     "value": "yung-fong",
-                    "raw": "\"yung-fong\""
+                    "raw": "\"yung-fong\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1899,
                     "end": 1918,
                     "value": "en-u-fw-yung-fong",
-                    "raw": "\"en-u-fw-yung-fong\""
+                    "raw": "\"en-u-fw-yung-fong\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -852,14 +1008,18 @@
                     "start": 1924,
                     "end": 1930,
                     "value": "tang",
-                    "raw": "\"tang\""
+                    "raw": "\"tang\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1932,
                     "end": 1946,
                     "value": "en-u-fw-tang",
-                    "raw": "\"en-u-fw-tang\""
+                    "raw": "\"en-u-fw-tang\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -873,14 +1033,18 @@
                     "start": 1952,
                     "end": 1974,
                     "value": "frank-yung-fong-tang",
-                    "raw": "\"frank-yung-fong-tang\""
+                    "raw": "\"frank-yung-fong-tang\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1976,
                     "end": 2006,
                     "value": "en-u-fw-frank-yung-fong-tang",
-                    "raw": "\"en-u-fw-frank-yung-fong-tang\""
+                    "raw": "\"en-u-fw-frank-yung-fong-tang\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -1004,7 +1168,9 @@
                           "start": 2123,
                           "end": 2127,
                           "value": "en",
-                          "raw": "'en'"
+                          "raw": "'en'",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",
@@ -1174,7 +1340,9 @@
                           "start": 2320,
                           "end": 2333,
                           "value": "en-u-fw-WED",
-                          "raw": "'en-u-fw-WED'"
+                          "raw": "'en-u-fw-WED'",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",

@@ -61,7 +61,9 @@
                               "start": 2312,
                               "end": 2357,
                               "value": "./instn-iee-err-ambiguous-export_FIXTURE.js",
-                              "raw": "'./instn-iee-err-ambiguous-export_FIXTURE.js'"
+                              "raw": "'./instn-iee-err-ambiguous-export_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": null
                           },
@@ -148,7 +150,9 @@
                                         "start": 2410,
                                         "end": 2423,
                                         "value": "SyntaxError",
-                                        "raw": "'SyntaxError'"
+                                        "raw": "'SyntaxError'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false

@@ -31,7 +31,9 @@
                 "start": 383,
                 "end": 386,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -48,7 +50,9 @@
                 "start": 394,
                 "end": 398,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -187,7 +191,9 @@
                 "start": 491,
                 "end": 495,
                 "value": "PT",
-                "raw": "\"PT\""
+                "raw": "\"PT\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -203,7 +209,9 @@
               "start": 505,
               "end": 508,
               "value": "S",
-              "raw": "\"S\""
+              "raw": "\"S\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }

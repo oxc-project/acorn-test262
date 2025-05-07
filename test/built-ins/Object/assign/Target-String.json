@@ -47,7 +47,9 @@
                 "start": 360,
                 "end": 366,
                 "value": "test",
-                "raw": "\"test\""
+                "raw": "\"test\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -72,7 +74,9 @@
                       "start": 375,
                       "end": 376,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -131,14 +135,18 @@
             "start": 413,
             "end": 421,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 458,
             "value": "Return value should be an object.",
-            "raw": "\"Return value should be an object.\""
+            "raw": "\"Return value should be an object.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -203,14 +211,18 @@
             "start": 496,
             "end": 502,
             "value": "test",
-            "raw": "\"test\""
+            "raw": "\"test\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 536,
             "value": "Return value should be 'test'.",
-            "raw": "\"Return value should be 'test'.\""
+            "raw": "\"Return value should be 'test'.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

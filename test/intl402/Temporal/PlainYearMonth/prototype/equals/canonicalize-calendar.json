@@ -47,28 +47,36 @@
                 "start": 300,
                 "end": 304,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 307,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 309,
                 "end": 324,
                 "value": "islamic-civil",
-                "raw": "\"islamic-civil\""
+                "raw": "\"islamic-civil\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -98,7 +106,9 @@
                 "start": 335,
                 "end": 362,
                 "value": "2024-06-08[u-ca=islamicc]",
-                "raw": "\"2024-06-08[u-ca=islamicc]\""
+                "raw": "\"2024-06-08[u-ca=islamicc]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -123,7 +133,9 @@
                       "start": 374,
                       "end": 378,
                       "value": 1445,
-                      "raw": "1445"
+                      "raw": "1445",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -145,7 +157,9 @@
                       "start": 387,
                       "end": 389,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -167,7 +181,9 @@
                       "start": 401,
                       "end": 411,
                       "value": "islamicc",
-                      "raw": "\"islamicc\""
+                      "raw": "\"islamicc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -250,7 +266,9 @@
                   "start": 463,
                   "end": 493,
                   "value": "calendar ID is canonicalized",
-                  "raw": "\"calendar ID is canonicalized\""
+                  "raw": "\"calendar ID is canonicalized\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -126,7 +126,9 @@
                                 "start": 1113,
                                 "end": 1118,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }

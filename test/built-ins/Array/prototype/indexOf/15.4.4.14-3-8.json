@@ -35,14 +35,18 @@
                   "start": 296,
                   "end": 297,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 299,
                   "end": 300,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -162,7 +166,9 @@
                 "start": 376,
                 "end": 377,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -172,14 +178,18 @@
             "start": 380,
             "end": 381,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 421,
             "value": "Array.prototype.indexOf.call(obj, 0)",
-            "raw": "'Array.prototype.indexOf.call(obj, 0)'"
+            "raw": "'Array.prototype.indexOf.call(obj, 0)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

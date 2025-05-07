@@ -23,7 +23,9 @@
             "start": 1018,
             "end": 1019,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -137,7 +139,9 @@
                   "start": 1119,
                   "end": 1120,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -237,7 +241,9 @@
                                 "start": 1171,
                                 "end": 1204,
                                 "value": "function should not be resolved",
-                                "raw": "'function should not be resolved'"
+                                "raw": "'function should not be resolved'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -380,14 +386,18 @@
                             "start": 1320,
                             "end": 1321,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1323,
                             "end": 1355,
                             "value": "function body is not evaluated",
-                            "raw": "'function body is not evaluated'"
+                            "raw": "'function body is not evaluated'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -23,7 +23,9 @@
             "start": 4080,
             "end": 4091,
             "value": "foo-x-bar",
-            "raw": "'foo-x-bar'"
+            "raw": "'foo-x-bar'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 4102,
             "end": 4105,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -79,7 +83,8 @@
             "regex": {
               "pattern": "x",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -109,7 +114,8 @@
             "regex": {
               "pattern": "(x)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -139,7 +145,8 @@
             "regex": {
               "pattern": "(x)($^)?",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -169,7 +176,8 @@
             "regex": {
               "pattern": "((((((((((x))))))))))",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -238,7 +246,9 @@
                 "start": 4231,
                 "end": 4237,
                 "value": "|$0|",
-                "raw": "'|$0|'"
+                "raw": "'|$0|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -248,7 +258,9 @@
             "start": 4240,
             "end": 4254,
             "value": "foo-|$0|-bar",
-            "raw": "'foo-|$0|-bar'"
+            "raw": "'foo-|$0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -263,7 +275,9 @@
                 "start": 4258,
                 "end": 4300,
                 "value": "`$0` is not a capture index for string \"",
-                "raw": "'`$0` is not a capture index for string \"'"
+                "raw": "'`$0` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -279,7 +293,9 @@
               "start": 4307,
               "end": 4310,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -349,7 +365,9 @@
                 "start": 4347,
                 "end": 4353,
                 "value": "|$0|",
-                "raw": "'|$0|'"
+                "raw": "'|$0|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -359,7 +377,9 @@
             "start": 4356,
             "end": 4370,
             "value": "foo-|$0|-bar",
-            "raw": "'foo-|$0|-bar'"
+            "raw": "'foo-|$0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -370,7 +390,9 @@
               "start": 4374,
               "end": 4407,
               "value": "`$0` is not a capture index in ",
-              "raw": "'`$0` is not a capture index in '"
+              "raw": "'`$0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -461,7 +483,9 @@
                 "start": 4458,
                 "end": 4464,
                 "value": "|$0|",
-                "raw": "'|$0|'"
+                "raw": "'|$0|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -471,7 +495,9 @@
             "start": 4467,
             "end": 4481,
             "value": "foo-|$0|-bar",
-            "raw": "'foo-|$0|-bar'"
+            "raw": "'foo-|$0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -482,7 +508,9 @@
               "start": 4485,
               "end": 4518,
               "value": "`$0` is not a capture index in ",
-              "raw": "'`$0` is not a capture index in '"
+              "raw": "'`$0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -573,7 +601,9 @@
                 "start": 4570,
                 "end": 4576,
                 "value": "|$0|",
-                "raw": "'|$0|'"
+                "raw": "'|$0|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -583,7 +613,9 @@
             "start": 4579,
             "end": 4593,
             "value": "foo-|$0|-bar",
-            "raw": "'foo-|$0|-bar'"
+            "raw": "'foo-|$0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -594,7 +626,9 @@
               "start": 4597,
               "end": 4630,
               "value": "`$0` is not a capture index in ",
-              "raw": "'`$0` is not a capture index in '"
+              "raw": "'`$0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -685,7 +719,9 @@
                 "start": 4683,
                 "end": 4689,
                 "value": "|$0|",
-                "raw": "'|$0|'"
+                "raw": "'|$0|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -695,7 +731,9 @@
             "start": 4692,
             "end": 4706,
             "value": "foo-|$0|-bar",
-            "raw": "'foo-|$0|-bar'"
+            "raw": "'foo-|$0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -706,7 +744,9 @@
               "start": 4710,
               "end": 4743,
               "value": "`$0` is not a capture index in ",
-              "raw": "'`$0` is not a capture index in '"
+              "raw": "'`$0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -797,7 +837,9 @@
                 "start": 4794,
                 "end": 4801,
                 "value": "|$00|",
-                "raw": "'|$00|'"
+                "raw": "'|$00|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -807,7 +849,9 @@
             "start": 4804,
             "end": 4819,
             "value": "foo-|$00|-bar",
-            "raw": "'foo-|$00|-bar'"
+            "raw": "'foo-|$00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -822,7 +866,9 @@
                 "start": 4823,
                 "end": 4866,
                 "value": "`$00` is not a capture index for string \"",
-                "raw": "'`$00` is not a capture index for string \"'"
+                "raw": "'`$00` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -838,7 +884,9 @@
               "start": 4873,
               "end": 4876,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -908,7 +956,9 @@
                 "start": 4913,
                 "end": 4920,
                 "value": "|$00|",
-                "raw": "'|$00|'"
+                "raw": "'|$00|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -918,7 +968,9 @@
             "start": 4923,
             "end": 4938,
             "value": "foo-|$00|-bar",
-            "raw": "'foo-|$00|-bar'"
+            "raw": "'foo-|$00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -929,7 +981,9 @@
               "start": 4942,
               "end": 4976,
               "value": "`$00` is not a capture index in ",
-              "raw": "'`$00` is not a capture index in '"
+              "raw": "'`$00` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1020,7 +1074,9 @@
                 "start": 5027,
                 "end": 5034,
                 "value": "|$00|",
-                "raw": "'|$00|'"
+                "raw": "'|$00|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1030,7 +1086,9 @@
             "start": 5037,
             "end": 5052,
             "value": "foo-|$00|-bar",
-            "raw": "'foo-|$00|-bar'"
+            "raw": "'foo-|$00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1041,7 +1099,9 @@
               "start": 5056,
               "end": 5090,
               "value": "`$00` is not a capture index in ",
-              "raw": "'`$00` is not a capture index in '"
+              "raw": "'`$00` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1132,7 +1192,9 @@
                 "start": 5142,
                 "end": 5149,
                 "value": "|$00|",
-                "raw": "'|$00|'"
+                "raw": "'|$00|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1142,7 +1204,9 @@
             "start": 5152,
             "end": 5167,
             "value": "foo-|$00|-bar",
-            "raw": "'foo-|$00|-bar'"
+            "raw": "'foo-|$00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1153,7 +1217,9 @@
               "start": 5171,
               "end": 5205,
               "value": "`$00` is not a capture index in ",
-              "raw": "'`$00` is not a capture index in '"
+              "raw": "'`$00` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1244,7 +1310,9 @@
                 "start": 5258,
                 "end": 5265,
                 "value": "|$00|",
-                "raw": "'|$00|'"
+                "raw": "'|$00|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1254,7 +1322,9 @@
             "start": 5268,
             "end": 5283,
             "value": "foo-|$00|-bar",
-            "raw": "'foo-|$00|-bar'"
+            "raw": "'foo-|$00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1265,7 +1335,9 @@
               "start": 5287,
               "end": 5321,
               "value": "`$00` is not a capture index in ",
-              "raw": "'`$00` is not a capture index in '"
+              "raw": "'`$00` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1356,7 +1428,9 @@
                 "start": 5372,
                 "end": 5380,
                 "value": "|$000|",
-                "raw": "'|$000|'"
+                "raw": "'|$000|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1366,7 +1440,9 @@
             "start": 5383,
             "end": 5399,
             "value": "foo-|$000|-bar",
-            "raw": "'foo-|$000|-bar'"
+            "raw": "'foo-|$000|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1381,7 +1457,9 @@
                 "start": 5403,
                 "end": 5457,
                 "value": "`$00` before `0` is not a capture index for string \"",
-                "raw": "'`$00` before `0` is not a capture index for string \"'"
+                "raw": "'`$00` before `0` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1397,7 +1475,9 @@
               "start": 5464,
               "end": 5467,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1467,7 +1547,9 @@
                 "start": 5504,
                 "end": 5512,
                 "value": "|$000|",
-                "raw": "'|$000|'"
+                "raw": "'|$000|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1477,7 +1559,9 @@
             "start": 5515,
             "end": 5531,
             "value": "foo-|$000|-bar",
-            "raw": "'foo-|$000|-bar'"
+            "raw": "'foo-|$000|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1488,7 +1572,9 @@
               "start": 5535,
               "end": 5580,
               "value": "`$00` before `0` is not a capture index in ",
-              "raw": "'`$00` before `0` is not a capture index in '"
+              "raw": "'`$00` before `0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1579,7 +1665,9 @@
                 "start": 5631,
                 "end": 5639,
                 "value": "|$000|",
-                "raw": "'|$000|'"
+                "raw": "'|$000|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1589,7 +1677,9 @@
             "start": 5642,
             "end": 5658,
             "value": "foo-|$000|-bar",
-            "raw": "'foo-|$000|-bar'"
+            "raw": "'foo-|$000|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1600,7 +1690,9 @@
               "start": 5662,
               "end": 5707,
               "value": "`$00` before `0` is not a capture index in ",
-              "raw": "'`$00` before `0` is not a capture index in '"
+              "raw": "'`$00` before `0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1691,7 +1783,9 @@
                 "start": 5759,
                 "end": 5767,
                 "value": "|$000|",
-                "raw": "'|$000|'"
+                "raw": "'|$000|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1701,7 +1795,9 @@
             "start": 5770,
             "end": 5786,
             "value": "foo-|$000|-bar",
-            "raw": "'foo-|$000|-bar'"
+            "raw": "'foo-|$000|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1712,7 +1808,9 @@
               "start": 5790,
               "end": 5835,
               "value": "`$00` before `0` is not a capture index in ",
-              "raw": "'`$00` before `0` is not a capture index in '"
+              "raw": "'`$00` before `0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1803,7 +1901,9 @@
                 "start": 5888,
                 "end": 5896,
                 "value": "|$000|",
-                "raw": "'|$000|'"
+                "raw": "'|$000|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1813,7 +1913,9 @@
             "start": 5899,
             "end": 5915,
             "value": "foo-|$000|-bar",
-            "raw": "'foo-|$000|-bar'"
+            "raw": "'foo-|$000|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1824,7 +1926,9 @@
               "start": 5919,
               "end": 5964,
               "value": "`$00` before `0` is not a capture index in ",
-              "raw": "'`$00` before `0` is not a capture index in '"
+              "raw": "'`$00` before `0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -1915,7 +2019,9 @@
                 "start": 6015,
                 "end": 6021,
                 "value": "|$1|",
-                "raw": "'|$1|'"
+                "raw": "'|$1|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1925,7 +2031,9 @@
             "start": 6024,
             "end": 6038,
             "value": "foo-|$1|-bar",
-            "raw": "'foo-|$1|-bar'"
+            "raw": "'foo-|$1|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -1940,7 +2048,9 @@
                 "start": 6042,
                 "end": 6084,
                 "value": "`$1` is not a capture index for string \"",
-                "raw": "'`$1` is not a capture index for string \"'"
+                "raw": "'`$1` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1956,7 +2066,9 @@
               "start": 6091,
               "end": 6094,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -2026,7 +2138,9 @@
                 "start": 6131,
                 "end": 6137,
                 "value": "|$1|",
-                "raw": "'|$1|'"
+                "raw": "'|$1|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2036,7 +2150,9 @@
             "start": 6140,
             "end": 6154,
             "value": "foo-|$1|-bar",
-            "raw": "'foo-|$1|-bar'"
+            "raw": "'foo-|$1|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2047,7 +2163,9 @@
               "start": 6158,
               "end": 6191,
               "value": "`$1` is not a capture index in ",
-              "raw": "'`$1` is not a capture index in '"
+              "raw": "'`$1` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -2138,7 +2256,9 @@
                 "start": 6242,
                 "end": 6248,
                 "value": "|$1|",
-                "raw": "'|$1|'"
+                "raw": "'|$1|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2148,7 +2268,9 @@
             "start": 6251,
             "end": 6264,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2159,7 +2281,9 @@
               "start": 6268,
               "end": 6297,
               "value": "`$1` is a capture index in ",
-              "raw": "'`$1` is a capture index in '"
+              "raw": "'`$1` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -2250,7 +2374,9 @@
                 "start": 6349,
                 "end": 6355,
                 "value": "|$1|",
-                "raw": "'|$1|'"
+                "raw": "'|$1|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2260,7 +2386,9 @@
             "start": 6358,
             "end": 6371,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2271,7 +2399,9 @@
               "start": 6375,
               "end": 6404,
               "value": "`$1` is a capture index in ",
-              "raw": "'`$1` is a capture index in '"
+              "raw": "'`$1` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -2362,7 +2492,9 @@
                 "start": 6457,
                 "end": 6463,
                 "value": "|$1|",
-                "raw": "'|$1|'"
+                "raw": "'|$1|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2372,7 +2504,9 @@
             "start": 6466,
             "end": 6479,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2383,7 +2517,9 @@
               "start": 6483,
               "end": 6512,
               "value": "`$1` is a capture index in ",
-              "raw": "'`$1` is a capture index in '"
+              "raw": "'`$1` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -2474,7 +2610,9 @@
                 "start": 6563,
                 "end": 6570,
                 "value": "|$01|",
-                "raw": "'|$01|'"
+                "raw": "'|$01|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2484,7 +2622,9 @@
             "start": 6573,
             "end": 6588,
             "value": "foo-|$01|-bar",
-            "raw": "'foo-|$01|-bar'"
+            "raw": "'foo-|$01|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2499,7 +2639,9 @@
                 "start": 6592,
                 "end": 6635,
                 "value": "`$01` is not a capture index for string \"",
-                "raw": "'`$01` is not a capture index for string \"'"
+                "raw": "'`$01` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2515,7 +2657,9 @@
               "start": 6642,
               "end": 6645,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -2585,7 +2729,9 @@
                 "start": 6682,
                 "end": 6689,
                 "value": "|$01|",
-                "raw": "'|$01|'"
+                "raw": "'|$01|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2595,7 +2741,9 @@
             "start": 6692,
             "end": 6707,
             "value": "foo-|$01|-bar",
-            "raw": "'foo-|$01|-bar'"
+            "raw": "'foo-|$01|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2606,7 +2754,9 @@
               "start": 6711,
               "end": 6745,
               "value": "`$01` is not a capture index in ",
-              "raw": "'`$01` is not a capture index in '"
+              "raw": "'`$01` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -2697,7 +2847,9 @@
                 "start": 6796,
                 "end": 6803,
                 "value": "|$01|",
-                "raw": "'|$01|'"
+                "raw": "'|$01|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2707,7 +2859,9 @@
             "start": 6806,
             "end": 6819,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2718,7 +2872,9 @@
               "start": 6823,
               "end": 6853,
               "value": "`$01` is a capture index in ",
-              "raw": "'`$01` is a capture index in '"
+              "raw": "'`$01` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -2809,7 +2965,9 @@
                 "start": 6905,
                 "end": 6912,
                 "value": "|$01|",
-                "raw": "'|$01|'"
+                "raw": "'|$01|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2819,7 +2977,9 @@
             "start": 6915,
             "end": 6928,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2830,7 +2990,9 @@
               "start": 6932,
               "end": 6962,
               "value": "`$01` is a capture index in ",
-              "raw": "'`$01` is a capture index in '"
+              "raw": "'`$01` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -2921,7 +3083,9 @@
                 "start": 7015,
                 "end": 7022,
                 "value": "|$01|",
-                "raw": "'|$01|'"
+                "raw": "'|$01|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2931,7 +3095,9 @@
             "start": 7025,
             "end": 7038,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -2942,7 +3108,9 @@
               "start": 7042,
               "end": 7072,
               "value": "`$01` is a capture index in ",
-              "raw": "'`$01` is a capture index in '"
+              "raw": "'`$01` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -3033,7 +3201,9 @@
                 "start": 7123,
                 "end": 7131,
                 "value": "|$010|",
-                "raw": "'|$010|'"
+                "raw": "'|$010|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3043,7 +3213,9 @@
             "start": 7134,
             "end": 7150,
             "value": "foo-|$010|-bar",
-            "raw": "'foo-|$010|-bar'"
+            "raw": "'foo-|$010|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3058,7 +3230,9 @@
                 "start": 7154,
                 "end": 7208,
                 "value": "`$01` before `0` is not a capture index for string \"",
-                "raw": "'`$01` before `0` is not a capture index for string \"'"
+                "raw": "'`$01` before `0` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3074,7 +3248,9 @@
               "start": 7215,
               "end": 7218,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -3144,7 +3320,9 @@
                 "start": 7255,
                 "end": 7263,
                 "value": "|$010|",
-                "raw": "'|$010|'"
+                "raw": "'|$010|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3154,7 +3332,9 @@
             "start": 7266,
             "end": 7282,
             "value": "foo-|$010|-bar",
-            "raw": "'foo-|$010|-bar'"
+            "raw": "'foo-|$010|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3165,7 +3345,9 @@
               "start": 7286,
               "end": 7331,
               "value": "`$01` before `0` is not a capture index in ",
-              "raw": "'`$01` before `0` is not a capture index in '"
+              "raw": "'`$01` before `0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -3256,7 +3438,9 @@
                 "start": 7382,
                 "end": 7390,
                 "value": "|$010|",
-                "raw": "'|$010|'"
+                "raw": "'|$010|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3266,7 +3450,9 @@
             "start": 7393,
             "end": 7407,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3277,7 +3463,9 @@
               "start": 7411,
               "end": 7452,
               "value": "`$01` before `0` is a capture index in ",
-              "raw": "'`$01` before `0` is a capture index in '"
+              "raw": "'`$01` before `0` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -3368,7 +3556,9 @@
                 "start": 7504,
                 "end": 7512,
                 "value": "|$010|",
-                "raw": "'|$010|'"
+                "raw": "'|$010|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3378,7 +3568,9 @@
             "start": 7515,
             "end": 7529,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3389,7 +3581,9 @@
               "start": 7533,
               "end": 7574,
               "value": "`$01` before `0` is a capture index in ",
-              "raw": "'`$01` before `0` is a capture index in '"
+              "raw": "'`$01` before `0` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -3480,7 +3674,9 @@
                 "start": 7627,
                 "end": 7635,
                 "value": "|$010|",
-                "raw": "'|$010|'"
+                "raw": "'|$010|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3490,7 +3686,9 @@
             "start": 7638,
             "end": 7652,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3501,7 +3699,9 @@
               "start": 7656,
               "end": 7697,
               "value": "`$01` before `0` is a capture index in ",
-              "raw": "'`$01` before `0` is a capture index in '"
+              "raw": "'`$01` before `0` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -3592,7 +3792,9 @@
                 "start": 7748,
                 "end": 7754,
                 "value": "|$2|",
-                "raw": "'|$2|'"
+                "raw": "'|$2|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3602,7 +3804,9 @@
             "start": 7757,
             "end": 7771,
             "value": "foo-|$2|-bar",
-            "raw": "'foo-|$2|-bar'"
+            "raw": "'foo-|$2|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3617,7 +3821,9 @@
                 "start": 7775,
                 "end": 7817,
                 "value": "`$2` is not a capture index for string \"",
-                "raw": "'`$2` is not a capture index for string \"'"
+                "raw": "'`$2` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3633,7 +3839,9 @@
               "start": 7824,
               "end": 7827,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -3703,7 +3911,9 @@
                 "start": 7864,
                 "end": 7870,
                 "value": "|$2|",
-                "raw": "'|$2|'"
+                "raw": "'|$2|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3713,7 +3923,9 @@
             "start": 7873,
             "end": 7887,
             "value": "foo-|$2|-bar",
-            "raw": "'foo-|$2|-bar'"
+            "raw": "'foo-|$2|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3724,7 +3936,9 @@
               "start": 7891,
               "end": 7924,
               "value": "`$2` is not a capture index in ",
-              "raw": "'`$2` is not a capture index in '"
+              "raw": "'`$2` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -3815,7 +4029,9 @@
                 "start": 7975,
                 "end": 7981,
                 "value": "|$2|",
-                "raw": "'|$2|'"
+                "raw": "'|$2|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3825,7 +4041,9 @@
             "start": 7984,
             "end": 7998,
             "value": "foo-|$2|-bar",
-            "raw": "'foo-|$2|-bar'"
+            "raw": "'foo-|$2|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3836,7 +4054,9 @@
               "start": 8002,
               "end": 8035,
               "value": "`$2` is not a capture index in ",
-              "raw": "'`$2` is not a capture index in '"
+              "raw": "'`$2` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -3927,7 +4147,9 @@
                 "start": 8087,
                 "end": 8093,
                 "value": "|$2|",
-                "raw": "'|$2|'"
+                "raw": "'|$2|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3937,7 +4159,9 @@
             "start": 8096,
             "end": 8108,
             "value": "foo-||-bar",
-            "raw": "'foo-||-bar'"
+            "raw": "'foo-||-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -3948,7 +4172,9 @@
               "start": 8112,
               "end": 8148,
               "value": "`$2` is a failed capture index in ",
-              "raw": "'`$2` is a failed capture index in '"
+              "raw": "'`$2` is a failed capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -4039,7 +4265,9 @@
                 "start": 8201,
                 "end": 8207,
                 "value": "|$2|",
-                "raw": "'|$2|'"
+                "raw": "'|$2|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4049,7 +4277,9 @@
             "start": 8210,
             "end": 8223,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4060,7 +4290,9 @@
               "start": 8227,
               "end": 8256,
               "value": "`$2` is a capture index in ",
-              "raw": "'`$2` is a capture index in '"
+              "raw": "'`$2` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -4151,7 +4383,9 @@
                 "start": 8307,
                 "end": 8314,
                 "value": "|$02|",
-                "raw": "'|$02|'"
+                "raw": "'|$02|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4161,7 +4395,9 @@
             "start": 8317,
             "end": 8332,
             "value": "foo-|$02|-bar",
-            "raw": "'foo-|$02|-bar'"
+            "raw": "'foo-|$02|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4176,7 +4412,9 @@
                 "start": 8336,
                 "end": 8379,
                 "value": "`$02` is not a capture index for string \"",
-                "raw": "'`$02` is not a capture index for string \"'"
+                "raw": "'`$02` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4192,7 +4430,9 @@
               "start": 8386,
               "end": 8389,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -4262,7 +4502,9 @@
                 "start": 8426,
                 "end": 8433,
                 "value": "|$02|",
-                "raw": "'|$02|'"
+                "raw": "'|$02|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4272,7 +4514,9 @@
             "start": 8436,
             "end": 8451,
             "value": "foo-|$02|-bar",
-            "raw": "'foo-|$02|-bar'"
+            "raw": "'foo-|$02|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4283,7 +4527,9 @@
               "start": 8455,
               "end": 8489,
               "value": "`$02` is not a capture index in ",
-              "raw": "'`$02` is not a capture index in '"
+              "raw": "'`$02` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -4374,7 +4620,9 @@
                 "start": 8540,
                 "end": 8547,
                 "value": "|$02|",
-                "raw": "'|$02|'"
+                "raw": "'|$02|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4384,7 +4632,9 @@
             "start": 8550,
             "end": 8565,
             "value": "foo-|$02|-bar",
-            "raw": "'foo-|$02|-bar'"
+            "raw": "'foo-|$02|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4395,7 +4645,9 @@
               "start": 8569,
               "end": 8603,
               "value": "`$02` is not a capture index in ",
-              "raw": "'`$02` is not a capture index in '"
+              "raw": "'`$02` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -4486,7 +4738,9 @@
                 "start": 8655,
                 "end": 8662,
                 "value": "|$02|",
-                "raw": "'|$02|'"
+                "raw": "'|$02|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4496,7 +4750,9 @@
             "start": 8665,
             "end": 8677,
             "value": "foo-||-bar",
-            "raw": "'foo-||-bar'"
+            "raw": "'foo-||-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4507,7 +4763,9 @@
               "start": 8681,
               "end": 8718,
               "value": "`$02` is a failed capture index in ",
-              "raw": "'`$02` is a failed capture index in '"
+              "raw": "'`$02` is a failed capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -4598,7 +4856,9 @@
                 "start": 8771,
                 "end": 8778,
                 "value": "|$02|",
-                "raw": "'|$02|'"
+                "raw": "'|$02|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4608,7 +4868,9 @@
             "start": 8781,
             "end": 8794,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4619,7 +4881,9 @@
               "start": 8798,
               "end": 8828,
               "value": "`$02` is a capture index in ",
-              "raw": "'`$02` is a capture index in '"
+              "raw": "'`$02` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -4710,7 +4974,9 @@
                 "start": 8879,
                 "end": 8887,
                 "value": "|$020|",
-                "raw": "'|$020|'"
+                "raw": "'|$020|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4720,7 +4986,9 @@
             "start": 8890,
             "end": 8906,
             "value": "foo-|$020|-bar",
-            "raw": "'foo-|$020|-bar'"
+            "raw": "'foo-|$020|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4735,7 +5003,9 @@
                 "start": 8910,
                 "end": 8964,
                 "value": "`$02` before `0` is not a capture index for string \"",
-                "raw": "'`$02` before `0` is not a capture index for string \"'"
+                "raw": "'`$02` before `0` is not a capture index for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4751,7 +5021,9 @@
               "start": 8971,
               "end": 8974,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -4821,7 +5093,9 @@
                 "start": 9011,
                 "end": 9019,
                 "value": "|$020|",
-                "raw": "'|$020|'"
+                "raw": "'|$020|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4831,7 +5105,9 @@
             "start": 9022,
             "end": 9038,
             "value": "foo-|$020|-bar",
-            "raw": "'foo-|$020|-bar'"
+            "raw": "'foo-|$020|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4842,7 +5118,9 @@
               "start": 9042,
               "end": 9087,
               "value": "`$02` before `0` is not a capture index in ",
-              "raw": "'`$02` before `0` is not a capture index in '"
+              "raw": "'`$02` before `0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -4933,7 +5211,9 @@
                 "start": 9138,
                 "end": 9146,
                 "value": "|$020|",
-                "raw": "'|$020|'"
+                "raw": "'|$020|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4943,7 +5223,9 @@
             "start": 9149,
             "end": 9165,
             "value": "foo-|$020|-bar",
-            "raw": "'foo-|$020|-bar'"
+            "raw": "'foo-|$020|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -4954,7 +5236,9 @@
               "start": 9169,
               "end": 9214,
               "value": "`$02` before `0` is not a capture index in ",
-              "raw": "'`$02` before `0` is not a capture index in '"
+              "raw": "'`$02` before `0` is not a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -5045,7 +5329,9 @@
                 "start": 9266,
                 "end": 9274,
                 "value": "|$020|",
-                "raw": "'|$020|'"
+                "raw": "'|$020|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5055,7 +5341,9 @@
             "start": 9277,
             "end": 9290,
             "value": "foo-|0|-bar",
-            "raw": "'foo-|0|-bar'"
+            "raw": "'foo-|0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5066,7 +5354,9 @@
               "start": 9294,
               "end": 9342,
               "value": "`$02` before `0` is a failed capture index in ",
-              "raw": "'`$02` before `0` is a failed capture index in '"
+              "raw": "'`$02` before `0` is a failed capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -5157,7 +5447,9 @@
                 "start": 9395,
                 "end": 9403,
                 "value": "|$020|",
-                "raw": "'|$020|'"
+                "raw": "'|$020|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5167,7 +5459,9 @@
             "start": 9406,
             "end": 9420,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5178,7 +5472,9 @@
               "start": 9424,
               "end": 9465,
               "value": "`$02` before `0` is a capture index in ",
-              "raw": "'`$02` before `0` is a capture index in '"
+              "raw": "'`$02` before `0` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -5269,7 +5565,9 @@
                 "start": 9516,
                 "end": 9523,
                 "value": "|$10|",
-                "raw": "'|$10|'"
+                "raw": "'|$10|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5279,7 +5577,9 @@
             "start": 9526,
             "end": 9541,
             "value": "foo-|$10|-bar",
-            "raw": "'foo-|$10|-bar'"
+            "raw": "'foo-|$10|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5294,7 +5594,9 @@
                 "start": 9545,
                 "end": 9602,
                 "value": "`$10` is not a capture index (nor is `$1`) for string \"",
-                "raw": "'`$10` is not a capture index (nor is `$1`) for string \"'"
+                "raw": "'`$10` is not a capture index (nor is `$1`) for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5310,7 +5612,9 @@
               "start": 9609,
               "end": 9612,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -5380,7 +5684,9 @@
                 "start": 9649,
                 "end": 9656,
                 "value": "|$10|",
-                "raw": "'|$10|'"
+                "raw": "'|$10|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5390,7 +5696,9 @@
             "start": 9659,
             "end": 9674,
             "value": "foo-|$10|-bar",
-            "raw": "'foo-|$10|-bar'"
+            "raw": "'foo-|$10|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5401,7 +5709,9 @@
               "start": 9678,
               "end": 9726,
               "value": "`$10` is not a capture index (nor is `$1`) in ",
-              "raw": "'`$10` is not a capture index (nor is `$1`) in '"
+              "raw": "'`$10` is not a capture index (nor is `$1`) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -5492,7 +5802,9 @@
                 "start": 9777,
                 "end": 9784,
                 "value": "|$10|",
-                "raw": "'|$10|'"
+                "raw": "'|$10|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5502,7 +5814,9 @@
             "start": 9787,
             "end": 9801,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5513,7 +5827,9 @@
               "start": 9805,
               "end": 9853,
               "value": "`$10` is not a capture index (but `$1` is) in ",
-              "raw": "'`$10` is not a capture index (but `$1` is) in '"
+              "raw": "'`$10` is not a capture index (but `$1` is) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -5604,7 +5920,9 @@
                 "start": 9905,
                 "end": 9912,
                 "value": "|$10|",
-                "raw": "'|$10|'"
+                "raw": "'|$10|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5614,7 +5932,9 @@
             "start": 9915,
             "end": 9929,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5625,7 +5945,9 @@
               "start": 9933,
               "end": 9981,
               "value": "`$10` is not a capture index (but `$1` is) in ",
-              "raw": "'`$10` is not a capture index (but `$1` is) in '"
+              "raw": "'`$10` is not a capture index (but `$1` is) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -5716,7 +6038,9 @@
                 "start": 10034,
                 "end": 10041,
                 "value": "|$10|",
-                "raw": "'|$10|'"
+                "raw": "'|$10|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5726,7 +6050,9 @@
             "start": 10044,
             "end": 10057,
             "value": "foo-|x|-bar",
-            "raw": "'foo-|x|-bar'"
+            "raw": "'foo-|x|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5737,7 +6063,9 @@
               "start": 10061,
               "end": 10091,
               "value": "`$10` is a capture index in ",
-              "raw": "'`$10` is a capture index in '"
+              "raw": "'`$10` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -5828,7 +6156,9 @@
                 "start": 10142,
                 "end": 10150,
                 "value": "|$100|",
-                "raw": "'|$100|'"
+                "raw": "'|$100|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5838,7 +6168,9 @@
             "start": 10153,
             "end": 10169,
             "value": "foo-|$100|-bar",
-            "raw": "'foo-|$100|-bar'"
+            "raw": "'foo-|$100|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5853,7 +6185,9 @@
                 "start": 10173,
                 "end": 10241,
                 "value": "`$10` before `0` is not a capture index (nor is `$1`) for string \"",
-                "raw": "'`$10` before `0` is not a capture index (nor is `$1`) for string \"'"
+                "raw": "'`$10` before `0` is not a capture index (nor is `$1`) for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5869,7 +6203,9 @@
               "start": 10248,
               "end": 10251,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -5939,7 +6275,9 @@
                 "start": 10288,
                 "end": 10296,
                 "value": "|$100|",
-                "raw": "'|$100|'"
+                "raw": "'|$100|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5949,7 +6287,9 @@
             "start": 10299,
             "end": 10315,
             "value": "foo-|$100|-bar",
-            "raw": "'foo-|$100|-bar'"
+            "raw": "'foo-|$100|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -5960,7 +6300,9 @@
               "start": 10319,
               "end": 10378,
               "value": "`$10` before `0` is not a capture index (nor is `$1`) in ",
-              "raw": "'`$10` before `0` is not a capture index (nor is `$1`) in '"
+              "raw": "'`$10` before `0` is not a capture index (nor is `$1`) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6051,7 +6393,9 @@
                 "start": 10429,
                 "end": 10437,
                 "value": "|$100|",
-                "raw": "'|$100|'"
+                "raw": "'|$100|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6061,7 +6405,9 @@
             "start": 10440,
             "end": 10455,
             "value": "foo-|x00|-bar",
-            "raw": "'foo-|x00|-bar'"
+            "raw": "'foo-|x00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6072,7 +6418,9 @@
               "start": 10459,
               "end": 10518,
               "value": "`$10` before `0` is not a capture index (but `$1` is) in ",
-              "raw": "'`$10` before `0` is not a capture index (but `$1` is) in '"
+              "raw": "'`$10` before `0` is not a capture index (but `$1` is) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6163,7 +6511,9 @@
                 "start": 10570,
                 "end": 10578,
                 "value": "|$100|",
-                "raw": "'|$100|'"
+                "raw": "'|$100|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6173,7 +6523,9 @@
             "start": 10581,
             "end": 10596,
             "value": "foo-|x00|-bar",
-            "raw": "'foo-|x00|-bar'"
+            "raw": "'foo-|x00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6184,7 +6536,9 @@
               "start": 10600,
               "end": 10659,
               "value": "`$10` before `0` is not a capture index (but `$1` is) in ",
-              "raw": "'`$10` before `0` is not a capture index (but `$1` is) in '"
+              "raw": "'`$10` before `0` is not a capture index (but `$1` is) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6275,7 +6629,9 @@
                 "start": 10712,
                 "end": 10720,
                 "value": "|$100|",
-                "raw": "'|$100|'"
+                "raw": "'|$100|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6285,7 +6641,9 @@
             "start": 10723,
             "end": 10737,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6296,7 +6654,9 @@
               "start": 10741,
               "end": 10782,
               "value": "`$10` before `0` is a capture index in ",
-              "raw": "'`$10` before `0` is a capture index in '"
+              "raw": "'`$10` before `0` is a capture index in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6387,7 +6747,9 @@
                 "start": 10833,
                 "end": 10840,
                 "value": "|$20|",
-                "raw": "'|$20|'"
+                "raw": "'|$20|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6397,7 +6759,9 @@
             "start": 10843,
             "end": 10858,
             "value": "foo-|$20|-bar",
-            "raw": "'foo-|$20|-bar'"
+            "raw": "'foo-|$20|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6412,7 +6776,9 @@
                 "start": 10862,
                 "end": 10919,
                 "value": "`$20` is not a capture index (nor is `$2`) for string \"",
-                "raw": "'`$20` is not a capture index (nor is `$2`) for string \"'"
+                "raw": "'`$20` is not a capture index (nor is `$2`) for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6428,7 +6794,9 @@
               "start": 10926,
               "end": 10929,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -6498,7 +6866,9 @@
                 "start": 10966,
                 "end": 10973,
                 "value": "|$20|",
-                "raw": "'|$20|'"
+                "raw": "'|$20|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6508,7 +6878,9 @@
             "start": 10976,
             "end": 10991,
             "value": "foo-|$20|-bar",
-            "raw": "'foo-|$20|-bar'"
+            "raw": "'foo-|$20|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6519,7 +6891,9 @@
               "start": 10995,
               "end": 11043,
               "value": "`$20` is not a capture index (nor is `$2`) in ",
-              "raw": "'`$20` is not a capture index (nor is `$2`) in '"
+              "raw": "'`$20` is not a capture index (nor is `$2`) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6610,7 +6984,9 @@
                 "start": 11094,
                 "end": 11101,
                 "value": "|$20|",
-                "raw": "'|$20|'"
+                "raw": "'|$20|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6620,7 +6996,9 @@
             "start": 11104,
             "end": 11119,
             "value": "foo-|$20|-bar",
-            "raw": "'foo-|$20|-bar'"
+            "raw": "'foo-|$20|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6631,7 +7009,9 @@
               "start": 11123,
               "end": 11171,
               "value": "`$20` is not a capture index (nor is `$2`) in ",
-              "raw": "'`$20` is not a capture index (nor is `$2`) in '"
+              "raw": "'`$20` is not a capture index (nor is `$2`) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6722,7 +7102,9 @@
                 "start": 11223,
                 "end": 11230,
                 "value": "|$20|",
-                "raw": "'|$20|'"
+                "raw": "'|$20|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6732,7 +7114,9 @@
             "start": 11233,
             "end": 11246,
             "value": "foo-|0|-bar",
-            "raw": "'foo-|0|-bar'"
+            "raw": "'foo-|0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6743,7 +7127,9 @@
               "start": 11250,
               "end": 11321,
               "value": "`$20` is not a capture index (but `$2` is a failed capture index) in ",
-              "raw": "'`$20` is not a capture index (but `$2` is a failed capture index) in '"
+              "raw": "'`$20` is not a capture index (but `$2` is a failed capture index) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6834,7 +7220,9 @@
                 "start": 11374,
                 "end": 11381,
                 "value": "|$20|",
-                "raw": "'|$20|'"
+                "raw": "'|$20|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6844,7 +7232,9 @@
             "start": 11384,
             "end": 11398,
             "value": "foo-|x0|-bar",
-            "raw": "'foo-|x0|-bar'"
+            "raw": "'foo-|x0|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6855,7 +7245,9 @@
               "start": 11402,
               "end": 11450,
               "value": "`$20` is not a capture index (but `$2` is) in ",
-              "raw": "'`$20` is not a capture index (but `$2` is) in '"
+              "raw": "'`$20` is not a capture index (but `$2` is) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -6946,7 +7338,9 @@
                 "start": 11501,
                 "end": 11509,
                 "value": "|$200|",
-                "raw": "'|$200|'"
+                "raw": "'|$200|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6956,7 +7350,9 @@
             "start": 11512,
             "end": 11528,
             "value": "foo-|$200|-bar",
-            "raw": "'foo-|$200|-bar'"
+            "raw": "'foo-|$200|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -6971,7 +7367,9 @@
                 "start": 11532,
                 "end": 11600,
                 "value": "`$20` before `0` is not a capture index (nor is `$2`) for string \"",
-                "raw": "'`$20` before `0` is not a capture index (nor is `$2`) for string \"'"
+                "raw": "'`$20` before `0` is not a capture index (nor is `$2`) for string \"'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6987,7 +7385,9 @@
               "start": 11607,
               "end": 11610,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -7057,7 +7457,9 @@
                 "start": 11647,
                 "end": 11655,
                 "value": "|$200|",
-                "raw": "'|$200|'"
+                "raw": "'|$200|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7067,7 +7469,9 @@
             "start": 11658,
             "end": 11674,
             "value": "foo-|$200|-bar",
-            "raw": "'foo-|$200|-bar'"
+            "raw": "'foo-|$200|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -7078,7 +7482,9 @@
               "start": 11678,
               "end": 11737,
               "value": "`$20` before `0` is not a capture index (nor is `$2`) in ",
-              "raw": "'`$20` before `0` is not a capture index (nor is `$2`) in '"
+              "raw": "'`$20` before `0` is not a capture index (nor is `$2`) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -7169,7 +7575,9 @@
                 "start": 11788,
                 "end": 11796,
                 "value": "|$200|",
-                "raw": "'|$200|'"
+                "raw": "'|$200|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7179,7 +7587,9 @@
             "start": 11799,
             "end": 11815,
             "value": "foo-|$200|-bar",
-            "raw": "'foo-|$200|-bar'"
+            "raw": "'foo-|$200|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -7190,7 +7600,9 @@
               "start": 11819,
               "end": 11878,
               "value": "`$20` before `0` is not a capture index (nor is `$2`) in ",
-              "raw": "'`$20` before `0` is not a capture index (nor is `$2`) in '"
+              "raw": "'`$20` before `0` is not a capture index (nor is `$2`) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -7281,7 +7693,9 @@
                 "start": 11930,
                 "end": 11938,
                 "value": "|$200|",
-                "raw": "'|$200|'"
+                "raw": "'|$200|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7291,7 +7705,9 @@
             "start": 11941,
             "end": 11955,
             "value": "foo-|00|-bar",
-            "raw": "'foo-|00|-bar'"
+            "raw": "'foo-|00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -7302,7 +7718,9 @@
               "start": 11959,
               "end": 12041,
               "value": "`$20` before `0` is not a capture index (but `$2` is a failed capture index) in ",
-              "raw": "'`$20` before `0` is not a capture index (but `$2` is a failed capture index) in '"
+              "raw": "'`$20` before `0` is not a capture index (but `$2` is a failed capture index) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -7393,7 +7811,9 @@
                 "start": 12094,
                 "end": 12102,
                 "value": "|$200|",
-                "raw": "'|$200|'"
+                "raw": "'|$200|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7403,7 +7823,9 @@
             "start": 12105,
             "end": 12120,
             "value": "foo-|x00|-bar",
-            "raw": "'foo-|x00|-bar'"
+            "raw": "'foo-|x00|-bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -7414,7 +7836,9 @@
               "start": 12124,
               "end": 12183,
               "value": "`$20` before `0` is not a capture index (but `$2` is) in ",
-              "raw": "'`$20` before `0` is not a capture index (but `$2` is) in '"
+              "raw": "'`$20` before `0` is not a capture index (but `$2` is) in '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {

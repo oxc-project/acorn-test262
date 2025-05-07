@@ -77,7 +77,9 @@
                       "start": 410,
                       "end": 418,
                       "value": "length",
-                      "raw": "\"length\""
+                      "raw": "\"length\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -94,7 +96,9 @@
                           "start": 434,
                           "end": 439,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -113,7 +117,9 @@
               "start": 460,
               "end": 464,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -177,7 +183,9 @@
                         "start": 514,
                         "end": 571,
                         "value": "#1: A property length don't have attribute { DontEnum }",
-                        "raw": "\"#1: A property length don't have attribute { DontEnum }\""
+                        "raw": "\"#1: A property length don't have attribute { DontEnum }\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -223,7 +231,9 @@
                     "start": 615,
                     "end": 650,
                     "value": "#1: arguments object don't exists",
-                    "raw": "\"#1: arguments object don't exists\""
+                    "raw": "\"#1: arguments object don't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -317,7 +327,9 @@
                             "start": 728,
                             "end": 736,
                             "value": "length",
-                            "raw": "\"length\""
+                            "raw": "\"length\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -334,7 +346,9 @@
                                 "start": 752,
                                 "end": 757,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -353,7 +367,9 @@
                     "start": 778,
                     "end": 782,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -421,7 +437,9 @@
                         "start": 832,
                         "end": 889,
                         "value": "#2: A property length don't have attribute { DontEnum }",
-                        "raw": "\"#2: A property length don't have attribute { DontEnum }\""
+                        "raw": "\"#2: A property length don't have attribute { DontEnum }\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -467,7 +485,9 @@
                     "start": 933,
                     "end": 968,
                     "value": "#2: arguments object don't exists",
-                    "raw": "\"#2: arguments object don't exists\""
+                    "raw": "\"#2: arguments object don't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

@@ -47,21 +47,27 @@
                 "start": 525,
                 "end": 526,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 527,
                 "end": 528,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 530,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,21 +119,27 @@
                 "start": 565,
                 "end": 566,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 567,
                 "end": 568,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 569,
                 "end": 570,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -213,7 +225,9 @@
                     "start": 635,
                     "end": 647,
                     "value": "2021-02-19",
-                    "raw": "\"2021-02-19\""
+                    "raw": "\"2021-02-19\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -242,35 +256,45 @@
             "start": 659,
             "end": 663,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 666,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 668,
             "end": 673,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 675,
             "end": 677,
             "value": 26,
-            "raw": "26"
+            "raw": "26",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 683,
             "end": 704,
             "value": "add one week in Feb",
-            "raw": "\"add one week in Feb\""
+            "raw": "\"add one week in Feb\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -354,7 +378,9 @@
                     "start": 768,
                     "end": 780,
                     "value": "2021-02-27",
-                    "raw": "\"2021-02-27\""
+                    "raw": "\"2021-02-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -383,35 +409,45 @@
             "start": 792,
             "end": 796,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 798,
             "end": 799,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 801,
             "end": 806,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 809,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 815,
             "end": 856,
             "value": "add one week in Feb and result in March",
-            "raw": "\"add one week in Feb and result in March\""
+            "raw": "\"add one week in Feb and result in March\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,7 +531,9 @@
                     "start": 920,
                     "end": 932,
                     "value": "2020-02-27",
-                    "raw": "\"2020-02-27\""
+                    "raw": "\"2020-02-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -524,35 +562,45 @@
             "start": 944,
             "end": 948,
             "value": 2020,
-            "raw": "2020"
+            "raw": "2020",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 951,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 953,
             "end": 958,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 960,
             "end": 961,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 967,
             "end": 1023,
             "value": "add one week in Feb and result in March in a leap year",
-            "raw": "\"add one week in Feb and result in March in a leap year\""
+            "raw": "\"add one week in Feb and result in March in a leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -636,7 +684,9 @@
                     "start": 1087,
                     "end": 1099,
                     "value": "2021-12-24",
-                    "raw": "\"2021-12-24\""
+                    "raw": "\"2021-12-24\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -665,35 +715,45 @@
             "start": 1111,
             "end": 1115,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1117,
             "end": 1119,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1121,
             "end": 1126,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1128,
             "end": 1130,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1136,
             "end": 1187,
             "value": "add one week and result in the last day of a year",
-            "raw": "\"add one week and result in the last day of a year\""
+            "raw": "\"add one week and result in the last day of a year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -777,7 +837,9 @@
                     "start": 1251,
                     "end": 1263,
                     "value": "2021-12-25",
-                    "raw": "\"2021-12-25\""
+                    "raw": "\"2021-12-25\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -806,35 +868,45 @@
             "start": 1275,
             "end": 1279,
             "value": 2022,
-            "raw": "2022"
+            "raw": "2022",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1281,
             "end": 1282,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1284,
             "end": 1289,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1291,
             "end": 1292,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1298,
             "end": 1353,
             "value": "add one week and result in the first day of next year",
-            "raw": "\"add one week and result in the first day of next year\""
+            "raw": "\"add one week and result in the first day of next year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -918,7 +990,9 @@
                     "start": 1418,
                     "end": 1430,
                     "value": "2021-01-27",
-                    "raw": "\"2021-01-27\""
+                    "raw": "\"2021-01-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -947,35 +1021,45 @@
             "start": 1442,
             "end": 1446,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1448,
             "end": 1449,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1451,
             "end": 1456,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1458,
             "end": 1459,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1465,
             "end": 1530,
             "value": "add one week and result in next month from a month with 31 days",
-            "raw": "\"add one week and result in next month from a month with 31 days\""
+            "raw": "\"add one week and result in next month from a month with 31 days\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1059,7 +1143,9 @@
                     "start": 1594,
                     "end": 1606,
                     "value": "2021-06-27",
-                    "raw": "\"2021-06-27\""
+                    "raw": "\"2021-06-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1088,35 +1174,45 @@
             "start": 1618,
             "end": 1622,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1624,
             "end": 1625,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1627,
             "end": 1632,
             "value": "M07",
-            "raw": "\"M07\""
+            "raw": "\"M07\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1634,
             "end": 1635,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1641,
             "end": 1706,
             "value": "add one week and result in next month from a month with 30 days",
-            "raw": "\"add one week and result in next month from a month with 30 days\""
+            "raw": "\"add one week and result in next month from a month with 30 days\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1200,7 +1296,9 @@
                     "start": 1770,
                     "end": 1782,
                     "value": "2021-07-27",
-                    "raw": "\"2021-07-27\""
+                    "raw": "\"2021-07-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1229,35 +1327,45 @@
             "start": 1794,
             "end": 1798,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1800,
             "end": 1801,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1803,
             "end": 1808,
             "value": "M08",
-            "raw": "\"M08\""
+            "raw": "\"M08\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1810,
             "end": 1811,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1817,
             "end": 1882,
             "value": "add one week and result in next month from a month with 31 days",
-            "raw": "\"add one week and result in next month from a month with 31 days\""
+            "raw": "\"add one week and result in next month from a month with 31 days\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1341,7 +1449,9 @@
                     "start": 1947,
                     "end": 1959,
                     "value": "2021-02-19",
-                    "raw": "\"2021-02-19\""
+                    "raw": "\"2021-02-19\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1370,35 +1480,45 @@
             "start": 1971,
             "end": 1975,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1977,
             "end": 1978,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1980,
             "end": 1985,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1987,
             "end": 1988,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1994,
             "end": 2062,
             "value": "add six weeks and result in next month from Feb in a non leap year",
-            "raw": "\"add six weeks and result in next month from Feb in a non leap year\""
+            "raw": "\"add six weeks and result in next month from Feb in a non leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1482,7 +1602,9 @@
                     "start": 2126,
                     "end": 2138,
                     "value": "2020-02-19",
-                    "raw": "\"2020-02-19\""
+                    "raw": "\"2020-02-19\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1511,35 +1633,45 @@
             "start": 2150,
             "end": 2154,
             "value": 2020,
-            "raw": "2020"
+            "raw": "2020",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2156,
             "end": 2157,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2159,
             "end": 2164,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2166,
             "end": 2167,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2173,
             "end": 2237,
             "value": "add six weeks and result in next month from Feb in a leap year",
-            "raw": "\"add six weeks and result in next month from Feb in a leap year\""
+            "raw": "\"add six weeks and result in next month from Feb in a leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1623,7 +1755,9 @@
                     "start": 2301,
                     "end": 2313,
                     "value": "2021-12-24",
-                    "raw": "\"2021-12-24\""
+                    "raw": "\"2021-12-24\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1652,35 +1786,45 @@
             "start": 2325,
             "end": 2329,
             "value": 2022,
-            "raw": "2022"
+            "raw": "2022",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2331,
             "end": 2332,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2334,
             "end": 2339,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2341,
             "end": 2342,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2348,
             "end": 2391,
             "value": "add six weeks and result in the next year",
-            "raw": "\"add six weeks and result in the next year\""
+            "raw": "\"add six weeks and result in the next year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1764,7 +1908,9 @@
                     "start": 2455,
                     "end": 2467,
                     "value": "2021-01-27",
-                    "raw": "\"2021-01-27\""
+                    "raw": "\"2021-01-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1793,35 +1939,45 @@
             "start": 2479,
             "end": 2483,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2485,
             "end": 2486,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2488,
             "end": 2493,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2495,
             "end": 2497,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2503,
             "end": 2546,
             "value": "add six weeks and result in the same year",
-            "raw": "\"add six weeks and result in the same year\""
+            "raw": "\"add six weeks and result in the same year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1905,7 +2061,9 @@
                     "start": 2610,
                     "end": 2622,
                     "value": "2020-01-27",
-                    "raw": "\"2020-01-27\""
+                    "raw": "\"2020-01-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1934,35 +2092,45 @@
             "start": 2634,
             "end": 2638,
             "value": 2020,
-            "raw": "2020"
+            "raw": "2020",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2640,
             "end": 2641,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2643,
             "end": 2648,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2650,
             "end": 2651,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2657,
             "end": 2700,
             "value": "add six weeks and result in the same year",
-            "raw": "\"add six weeks and result in the same year\""
+            "raw": "\"add six weeks and result in the same year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2046,7 +2214,9 @@
                     "start": 2764,
                     "end": 2776,
                     "value": "2021-06-27",
-                    "raw": "\"2021-06-27\""
+                    "raw": "\"2021-06-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2075,35 +2245,45 @@
             "start": 2788,
             "end": 2792,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2794,
             "end": 2795,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2797,
             "end": 2802,
             "value": "M08",
-            "raw": "\"M08\""
+            "raw": "\"M08\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2804,
             "end": 2805,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2811,
             "end": 2887,
             "value": "add six weeks and result in the same year crossing month of 30 and 31 days",
-            "raw": "\"add six weeks and result in the same year crossing month of 30 and 31 days\""
+            "raw": "\"add six weeks and result in the same year crossing month of 30 and 31 days\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2187,7 +2367,9 @@
                     "start": 2951,
                     "end": 2963,
                     "value": "2021-07-27",
-                    "raw": "\"2021-07-27\""
+                    "raw": "\"2021-07-27\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2216,35 +2398,45 @@
             "start": 2975,
             "end": 2979,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2981,
             "end": 2982,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2984,
             "end": 2989,
             "value": "M09",
-            "raw": "\"M09\""
+            "raw": "\"M09\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2991,
             "end": 2992,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2998,
             "end": 3074,
             "value": "add six weeks and result in the same year crossing month of 31 and 31 days",
-            "raw": "\"add six weeks and result in the same year crossing month of 31 and 31 days\""
+            "raw": "\"add six weeks and result in the same year crossing month of 31 and 31 days\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

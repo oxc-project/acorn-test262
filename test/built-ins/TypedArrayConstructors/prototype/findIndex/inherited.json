@@ -109,7 +109,9 @@
                             "start": 412,
                             "end": 423,
                             "value": "findIndex",
-                            "raw": "\"findIndex\""
+                            "raw": "\"findIndex\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 426,
                         "end": 431,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -200,7 +200,9 @@
                                         "start": 1135,
                                         "end": 1141,
                                         "value": "has:",
-                                        "raw": "\"has:\""
+                                        "raw": "\"has:\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -360,7 +362,9 @@
                                         "start": 1224,
                                         "end": 1230,
                                         "value": "get:",
-                                        "raw": "\"get:\""
+                                        "raw": "\"get:\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -527,28 +531,36 @@
                 "start": 1373,
                 "end": 1385,
                 "value": "has:Object",
-                "raw": "\"has:Object\""
+                "raw": "\"has:Object\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1415,
                 "end": 1447,
                 "value": "get:Symbol(Symbol.unscopables)",
-                "raw": "\"get:Symbol(Symbol.unscopables)\""
+                "raw": "\"get:Symbol(Symbol.unscopables)\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1482,
                 "end": 1494,
                 "value": "has:Object",
-                "raw": "\"has:Object\""
+                "raw": "\"has:Object\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1529,
                 "end": 1541,
                 "value": "get:Object",
-                "raw": "\"get:Object\""
+                "raw": "\"get:Object\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

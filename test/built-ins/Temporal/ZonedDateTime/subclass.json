@@ -71,6 +71,7 @@
                 "end": 358,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -78,7 +79,9 @@
                 "start": 360,
                 "end": 365,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -139,6 +142,7 @@
             "end": 414,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           }
         ],
@@ -230,7 +234,9 @@
             "start": 498,
             "end": 531,
             "value": "Instance of CustomZonedDateTime",
-            "raw": "\"Instance of CustomZonedDateTime\""
+            "raw": "\"Instance of CustomZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,7 +280,9 @@
             "start": 582,
             "end": 615,
             "value": "Instance of CustomZonedDateTime",
-            "raw": "\"Instance of CustomZonedDateTime\""
+            "raw": "\"Instance of CustomZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,7 +339,9 @@
             "start": 669,
             "end": 705,
             "value": "Instance of Temporal.ZonedDateTime",
-            "raw": "\"Instance of Temporal.ZonedDateTime\""
+            "raw": "\"Instance of Temporal.ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

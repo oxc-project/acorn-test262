@@ -60,7 +60,9 @@
                 "start": 306,
                 "end": 318,
                 "value": "+275760-09",
-                "raw": "\"+275760-09\""
+                "raw": "\"+275760-09\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -104,14 +106,18 @@
             "start": 345,
             "end": 353,
             "value": "reject",
-            "raw": "\"reject\""
+            "raw": "\"reject\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 355,
             "end": 366,
             "value": "constrain",
-            "raw": "\"constrain\""
+            "raw": "\"constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -210,7 +216,9 @@
                               "start": 423,
                               "end": 424,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

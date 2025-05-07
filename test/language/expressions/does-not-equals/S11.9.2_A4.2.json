@@ -30,7 +30,9 @@
                 "start": 271,
                 "end": 272,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "!=",
@@ -45,7 +47,9 @@
                 "start": 277,
                 "end": 278,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -56,7 +60,9 @@
           "start": 284,
           "end": 289,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -84,7 +90,9 @@
                   "start": 318,
                   "end": 344,
                   "value": "#1: (+0 != -0) === false",
-                  "raw": "'#1: (+0 != -0) === false'"
+                  "raw": "'#1: (+0 != -0) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -120,7 +128,9 @@
                 "start": 366,
                 "end": 367,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "!=",
@@ -135,7 +145,9 @@
                 "start": 372,
                 "end": 373,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -146,7 +158,9 @@
           "start": 379,
           "end": 384,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -174,7 +188,9 @@
                   "start": 413,
                   "end": 439,
                   "value": "#2: (-0 != +0) === false",
-                  "raw": "'#2: (-0 != +0) === false'"
+                  "raw": "'#2: (-0 != +0) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

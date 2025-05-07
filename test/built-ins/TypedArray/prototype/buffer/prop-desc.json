@@ -91,7 +91,9 @@
                 "start": 706,
                 "end": 714,
                 "value": "buffer",
-                "raw": "\"buffer\""
+                "raw": "\"buffer\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -216,7 +218,9 @@
             "start": 791,
             "end": 801,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +252,9 @@
             "start": 846,
             "end": 854,
             "value": "buffer",
-            "raw": "\"buffer\""
+            "raw": "\"buffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,7 +286,9 @@
             "start": 897,
             "end": 905,
             "value": "buffer",
-            "raw": "\"buffer\""
+            "raw": "\"buffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

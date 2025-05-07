@@ -27,7 +27,9 @@
               "start": 332,
               "end": 333,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 345,
           "end": 350,
           "value": 65535,
-          "raw": "65535"
+          "raw": "65535",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -90,7 +94,9 @@
                 "start": 381,
                 "end": 385,
                 "value": 37,
-                "raw": "0x25"
+                "raw": "0x25",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -255,7 +261,9 @@
                                     "start": 544,
                                     "end": 547,
                                     "value": "#",
-                                    "raw": "'#'"
+                                    "raw": "'#'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -285,7 +293,9 @@
                                   "start": 579,
                                   "end": 588,
                                   "value": " throws",
-                                  "raw": "' throws'"
+                                  "raw": "' throws'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -339,7 +349,9 @@
                                   "start": 645,
                                   "end": 648,
                                   "value": "#",
-                                  "raw": "'#'"
+                                  "raw": "'#'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -369,7 +381,9 @@
                                 "start": 680,
                                 "end": 690,
                                 "value": " differs",
-                                "raw": "' differs'"
+                                "raw": "' differs'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]

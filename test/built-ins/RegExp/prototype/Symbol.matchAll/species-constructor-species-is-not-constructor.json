@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -169,7 +170,9 @@
                         "start": 1064,
                         "end": 1066,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -228,7 +231,9 @@
           "start": 1109,
           "end": 1113,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -277,7 +282,9 @@
             "start": 1154,
             "end": 1202,
             "value": "`constructor[Symbol.species]` value is Boolean",
-            "raw": "\"`constructor[Symbol.species]` value is Boolean\""
+            "raw": "\"`constructor[Symbol.species]` value is Boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,7 +336,9 @@
           "start": 1243,
           "end": 1244,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -378,7 +387,9 @@
             "start": 1285,
             "end": 1332,
             "value": "`constructor[Symbol.species]` value is Number",
-            "raw": "\"`constructor[Symbol.species]` value is Number\""
+            "raw": "\"`constructor[Symbol.species]` value is Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -485,7 +496,9 @@
             "start": 1422,
             "end": 1469,
             "value": "`constructor[Symbol.species]` value is Symbol",
-            "raw": "\"`constructor[Symbol.species]` value is Symbol\""
+            "raw": "\"`constructor[Symbol.species]` value is Symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -537,7 +550,9 @@
           "start": 1510,
           "end": 1514,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -586,7 +601,9 @@
             "start": 1555,
             "end": 1603,
             "value": "`constructor[Symbol.species]` value is Boolean",
-            "raw": "\"`constructor[Symbol.species]` value is Boolean\""
+            "raw": "\"`constructor[Symbol.species]` value is Boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

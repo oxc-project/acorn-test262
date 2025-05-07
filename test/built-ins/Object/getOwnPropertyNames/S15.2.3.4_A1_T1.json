@@ -100,7 +100,9 @@
               "start": 540,
               "end": 541,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -252,7 +254,9 @@
                   "start": 620,
                   "end": 688,
                   "value": "The value of !!foo.hasOwnProperty(names[i]) is expected to be true",
-                  "raw": "'The value of !!foo.hasOwnProperty(names[i]) is expected to be true'"
+                  "raw": "'The value of !!foo.hasOwnProperty(names[i]) is expected to be true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -34,7 +34,9 @@
                 "start": 586,
                 "end": 588,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -133,7 +135,9 @@
             "start": 657,
             "end": 662,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -158,7 +162,9 @@
                   "start": 682,
                   "end": 686,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -180,7 +186,9 @@
                   "start": 697,
                   "end": 700,
                   "value": 100,
-                  "raw": "100"
+                  "raw": "100",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -262,7 +270,9 @@
                           "start": 769,
                           "end": 781,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "directive": "use strict"
                       },
@@ -321,7 +331,9 @@
                                   "start": 810,
                                   "end": 811,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -401,7 +413,9 @@
                 "start": 877,
                 "end": 882,
                 "value": "NaN",
-                "raw": "\"NaN\""
+                "raw": "\"NaN\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

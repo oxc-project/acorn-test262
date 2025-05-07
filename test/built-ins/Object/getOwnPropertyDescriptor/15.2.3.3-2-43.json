@@ -35,14 +35,18 @@
                   "start": 299,
                   "end": 316,
                   "value": "[object Object]",
-                  "raw": "\"[object Object]\""
+                  "raw": "\"[object Object]\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 318,
                   "end": 319,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 323,
                   "end": 328,
                   "value": "abc",
-                  "raw": "\"abc\""
+                  "raw": "\"abc\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 330,
                   "end": 331,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -131,7 +139,9 @@
                           "start": 387,
                           "end": 392,
                           "value": "abc",
-                          "raw": "\"abc\""
+                          "raw": "\"abc\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -255,14 +265,18 @@
             "start": 490,
             "end": 491,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 505,
             "value": "desc.value",
-            "raw": "'desc.value'"
+            "raw": "'desc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

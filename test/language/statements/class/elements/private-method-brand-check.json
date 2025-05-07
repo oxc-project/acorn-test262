@@ -55,7 +55,9 @@
                       "start": 1122,
                       "end": 1131,
                       "value": "test262",
-                      "raw": "'test262'"
+                      "raw": "'test262'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -231,7 +233,9 @@
             "start": 1225,
             "end": 1234,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,7 +360,9 @@
             "start": 1306,
             "end": 1339,
             "value": "invalid access a private method",
-            "raw": "'invalid access a private method'"
+            "raw": "'invalid access a private method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

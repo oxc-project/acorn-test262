@@ -82,14 +82,18 @@
             "start": 771,
             "end": 776,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 780,
             "end": 845,
             "value": "isConstructor(String.prototype.localeCompare) must return false",
-            "raw": "'isConstructor(String.prototype.localeCompare) must return false'"
+            "raw": "'isConstructor(String.prototype.localeCompare) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

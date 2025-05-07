@@ -142,7 +142,9 @@
             "start": 373,
             "end": 383,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -198,7 +200,9 @@
                   "start": 425,
                   "end": 429,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -272,14 +276,18 @@
             "start": 474,
             "end": 485,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 510,
             "value": "typeof (obj.property)",
-            "raw": "'typeof (obj.property)'"
+            "raw": "'typeof (obj.property)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -108,7 +108,9 @@
             "start": 444,
             "end": 461,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

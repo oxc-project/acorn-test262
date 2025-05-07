@@ -42,7 +42,9 @@
               "start": 411,
               "end": 412,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -50,14 +52,18 @@
             "start": 416,
             "end": 424,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 451,
             "value": "typeof 1 === \"number\"",
-            "raw": "'typeof 1 === \"number\"'"
+            "raw": "'typeof 1 === \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -109,14 +115,18 @@
             "start": 490,
             "end": 498,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 527,
             "value": "typeof NaN === \"number\"",
-            "raw": "'typeof NaN === \"number\"'"
+            "raw": "'typeof NaN === \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,14 +178,18 @@
             "start": 571,
             "end": 579,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 613,
             "value": "typeof Infinity === \"number\"",
-            "raw": "'typeof Infinity === \"number\"'"
+            "raw": "'typeof Infinity === \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,14 +248,18 @@
             "start": 658,
             "end": 666,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 701,
             "value": "typeof -Infinity === \"number\"",
-            "raw": "'typeof -Infinity === \"number\"'"
+            "raw": "'typeof -Infinity === \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -306,14 +324,18 @@
             "start": 744,
             "end": 752,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 785,
             "value": "typeof Math.PI === \"number\"",
-            "raw": "'typeof Math.PI === \"number\"'"
+            "raw": "'typeof Math.PI === \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

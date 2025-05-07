@@ -123,7 +123,9 @@
             "start": 341,
             "end": 384,
             "value": "[object Object] is not a valid ISO string",
-            "raw": "\"[object Object] is not a valid ISO string\""
+            "raw": "\"[object Object] is not a valid ISO string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,7 +182,9 @@
                   "start": 425,
                   "end": 444,
                   "value": "1970-01-01T00:00Z",
-                  "raw": "\"1970-01-01T00:00Z\""
+                  "raw": "\"1970-01-01T00:00Z\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -306,6 +310,7 @@
             "end": 536,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -313,7 +318,9 @@
             "start": 538,
             "end": 587,
             "value": "result of toString is interpreted as ISO string",
-            "raw": "\"result of toString is interpreted as ISO string\""
+            "raw": "\"result of toString is interpreted as ISO string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

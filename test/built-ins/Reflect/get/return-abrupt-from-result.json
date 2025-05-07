@@ -67,7 +67,9 @@
             "start": 406,
             "end": 410,
             "value": "p1",
-            "raw": "'p1'"
+            "raw": "'p1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -216,7 +218,9 @@
                         "start": 532,
                         "end": 536,
                         "value": "p1",
-                        "raw": "'p1'"
+                        "raw": "'p1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -368,7 +372,9 @@
                         "start": 669,
                         "end": 673,
                         "value": "p1",
-                        "raw": "'p1'"
+                        "raw": "'p1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -49,7 +49,9 @@
             "start": 1341,
             "end": 1344,
             "value": "f",
-            "raw": "'f'"
+            "raw": "'f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -74,7 +76,9 @@
                   "start": 1357,
                   "end": 1360,
                   "value": "x",
-                  "raw": "'x'"
+                  "raw": "'x'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -96,7 +100,9 @@
                   "start": 1376,
                   "end": 1381,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -118,7 +124,9 @@
                   "start": 1395,
                   "end": 1399,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -140,7 +148,9 @@
                   "start": 1417,
                   "end": 1421,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -170,7 +180,9 @@
             "start": 1435,
             "end": 1695,
             "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: false,    writable: true,    configurable: true  }, { restore: true });if (false) ; else function f() {  }",
-            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: false,\\\n    writable: true,\\\n    configurable: true\\\n  }, { restore: true });if (false) ; else function f() {  }'"
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: false,\\\n    writable: true,\\\n    configurable: true\\\n  }, { restore: true });if (false) ; else function f() {  }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,7 +234,9 @@
             "start": 1727,
             "end": 1737,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -254,7 +268,9 @@
             "start": 1763,
             "end": 1766,
             "value": "f",
-            "raw": "'f'"
+            "raw": "'f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -279,7 +295,9 @@
                   "start": 1784,
                   "end": 1789,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -301,7 +319,9 @@
                   "start": 1803,
                   "end": 1807,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -323,7 +343,9 @@
                   "start": 1825,
                   "end": 1829,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

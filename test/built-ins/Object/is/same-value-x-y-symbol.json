@@ -66,7 +66,9 @@
                 "start": 420,
                 "end": 433,
                 "value": "description",
-                "raw": "\"description\""
+                "raw": "\"description\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,14 +149,18 @@
             "start": 471,
             "end": 475,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 511,
             "value": "`Object.is(a, a)` returns `true`",
-            "raw": "\"`Object.is(a, a)` returns `true`\""
+            "raw": "\"`Object.is(a, a)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,14 +238,18 @@
             "start": 548,
             "end": 552,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 554,
             "end": 588,
             "value": "`Object.is(b, b)` returns `true`",
-            "raw": "\"`Object.is(b, b)` returns `true`\""
+            "raw": "\"`Object.is(b, b)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

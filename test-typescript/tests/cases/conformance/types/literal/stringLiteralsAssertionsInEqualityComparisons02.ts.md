@@ -98,7 +98,9 @@ __ESTREE_TEST__:PASS:
               "start": 63,
               "end": 68,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "TSAsExpression",
@@ -109,7 +111,9 @@ __ESTREE_TEST__:PASS:
                 "start": 73,
                 "end": 78,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSLiteralType",
@@ -120,7 +124,9 @@ __ESTREE_TEST__:PASS:
                   "start": 82,
                   "end": 87,
                   "raw": "\"baz\"",
-                  "value": "baz"
+                  "value": "baz",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -159,7 +165,9 @@ __ESTREE_TEST__:PASS:
               "start": 97,
               "end": 102,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "TSAsExpression",
@@ -170,7 +178,9 @@ __ESTREE_TEST__:PASS:
                 "start": 108,
                 "end": 113,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSLiteralType",
@@ -181,7 +191,9 @@ __ESTREE_TEST__:PASS:
                   "start": 117,
                   "end": 122,
                   "raw": "\"foo\"",
-                  "value": "foo"
+                  "value": "foo",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -220,7 +232,9 @@ __ESTREE_TEST__:PASS:
               "start": 133,
               "end": 138,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "TSTypeAssertion",
@@ -231,7 +245,9 @@ __ESTREE_TEST__:PASS:
                 "start": 151,
                 "end": 156,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
@@ -274,7 +290,9 @@ __ESTREE_TEST__:PASS:
               "start": 167,
               "end": 172,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "TSAsExpression",
@@ -285,7 +303,9 @@ __ESTREE_TEST__:PASS:
                 "start": 178,
                 "end": 183,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSTypeReference",

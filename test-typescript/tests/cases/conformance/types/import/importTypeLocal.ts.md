@@ -607,7 +607,9 @@ __ESTREE_TEST__:PASS:
                       "start": 23,
                       "end": 30,
                       "raw": "\"./foo\"",
-                      "value": "./foo"
+                      "value": "./foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,
@@ -644,7 +646,9 @@ __ESTREE_TEST__:PASS:
                     "start": 39,
                     "end": 40,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -670,7 +674,9 @@ __ESTREE_TEST__:PASS:
                     "start": 45,
                     "end": 46,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -723,7 +729,9 @@ __ESTREE_TEST__:PASS:
                       "start": 71,
                       "end": 79,
                       "raw": "\"./foo2\"",
-                      "value": "./foo2"
+                      "value": "./foo2",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,
@@ -782,7 +790,9 @@ __ESTREE_TEST__:PASS:
                     "start": 94,
                     "end": 96,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -808,7 +818,9 @@ __ESTREE_TEST__:PASS:
                     "start": 101,
                     "end": 102,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1084,7 +1096,9 @@ __ESTREE_TEST__:PASS:
                         "start": 238,
                         "end": 246,
                         "raw": "\"./foo2\"",
-                        "value": "./foo2"
+                        "value": "./foo2",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "options": null,

@@ -515,7 +515,9 @@ __ESTREE_TEST__:PASS:
           "start": 55,
           "end": 101,
           "raw": "\"./declFileImportModuleWithExportAssignment_0\"",
-          "value": "./declFileImportModuleWithExportAssignment_0"
+          "value": "./declFileImportModuleWithExportAssignment_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -576,21 +578,27 @@ __ESTREE_TEST__:PASS:
             "start": 131,
             "end": 135,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 137,
             "end": 141,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 143,
             "end": 147,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

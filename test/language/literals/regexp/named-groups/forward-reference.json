@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\k<a>(?<a>x)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 281,
                 "end": 284,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

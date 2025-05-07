@@ -48,7 +48,9 @@
         "start": 832,
         "end": 878,
         "value": "./eval-gtbndng-indirect-update-as_FIXTURE.js",
-        "raw": "'./eval-gtbndng-indirect-update-as_FIXTURE.js'"
+        "raw": "'./eval-gtbndng-indirect-update-as_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -91,7 +93,9 @@
             "start": 901,
             "end": 902,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -136,7 +140,9 @@
             "start": 925,
             "end": 926,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,7 +225,9 @@
             "start": 1178,
             "end": 1179,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,7 +272,9 @@
             "start": 1202,
             "end": 1203,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

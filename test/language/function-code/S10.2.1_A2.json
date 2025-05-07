@@ -83,14 +83,18 @@
                   "start": 549,
                   "end": 550,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 552,
                   "end": 553,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -101,7 +105,9 @@
               "start": 559,
               "end": 560,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -131,7 +137,9 @@
                   "start": 590,
                   "end": 610,
                   "value": "#1: f1(1, 2) === 2",
-                  "raw": "\"#1: f1(1, 2) === 2\""
+                  "raw": "\"#1: f1(1, 2) === 2\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -250,21 +258,27 @@
                   "start": 674,
                   "end": 675,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 677,
                   "end": 678,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 680,
                   "end": 681,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -275,7 +289,9 @@
               "start": 687,
               "end": 689,
               "value": 27,
-              "raw": "27"
+              "raw": "27",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -305,7 +321,9 @@
                   "start": 718,
                   "end": 738,
                   "value": "f2(1, 2, 3) === 27",
-                  "raw": "\"f2(1, 2, 3) === 27\""
+                  "raw": "\"f2(1, 2, 3) === 27\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -359,7 +377,9 @@
                 "start": 783,
                 "end": 786,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -407,14 +427,18 @@
                   "start": 802,
                   "end": 803,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 805,
                   "end": 806,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -425,7 +449,9 @@
               "start": 812,
               "end": 816,
               "value": "a2",
-              "raw": "'a2'"
+              "raw": "'a2'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -455,7 +481,9 @@
                   "start": 845,
                   "end": 868,
                   "value": "#3: f3(1, 2) === 'a2'",
-                  "raw": "\"#3: f3(1, 2) === 'a2'\""
+                  "raw": "\"#3: f3(1, 2) === 'a2'\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

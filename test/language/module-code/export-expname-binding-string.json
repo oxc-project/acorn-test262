@@ -25,7 +25,9 @@
         "start": 439,
         "end": 468,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -142,7 +144,9 @@
               "start": 549,
               "end": 552,
               "value": "☿",
-              "raw": "\"☿\""
+              "raw": "\"☿\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

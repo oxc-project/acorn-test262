@@ -309,7 +309,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 328,
                                     "end": 329,
                                     "raw": "0",
-                                    "value": 0
+                                    "value": 0,
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "objectType": {
@@ -704,7 +706,9 @@ __ESTREE_TEST__:PASS:
                       "start": 418,
                       "end": 427,
                       "raw": "\"onclick\"",
-                      "value": "onclick"
+                      "value": "onclick",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -784,7 +788,9 @@ __ESTREE_TEST__:PASS:
                       "start": 477,
                       "end": 488,
                       "raw": "\"onkeydown\"",
-                      "value": "onkeydown"
+                      "value": "onkeydown",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {

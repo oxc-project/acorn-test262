@@ -61,7 +61,9 @@
                           "start": 1154,
                           "end": 1190,
                           "value": "./dynamic-import-module_FIXTURE.js",
-                          "raw": "'./dynamic-import-module_FIXTURE.js'"
+                          "raw": "'./dynamic-import-module_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": null
                       },
@@ -74,7 +76,9 @@
                           "start": 1204,
                           "end": 1240,
                           "value": "./dynamic-import-module_FIXTURE.js",
-                          "raw": "'./dynamic-import-module_FIXTURE.js'"
+                          "raw": "'./dynamic-import-module_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": null
                       }
@@ -172,7 +176,9 @@
                             "start": 1292,
                             "end": 1336,
                             "value": "it returns the same namespace are the same",
-                            "raw": "'it returns the same namespace are the same'"
+                            "raw": "'it returns the same namespace are the same'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

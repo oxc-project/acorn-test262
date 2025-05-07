@@ -28,7 +28,9 @@
                 "start": 343,
                 "end": 357,
                 "value": "valueOf year",
-                "raw": "\"valueOf year\""
+                "raw": "\"valueOf year\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -146,7 +148,9 @@
                                   "start": 424,
                                   "end": 438,
                                   "value": "valueOf year",
-                                  "raw": "\"valueOf year\""
+                                  "raw": "\"valueOf year\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -161,7 +165,9 @@
                               "start": 448,
                               "end": 449,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -307,7 +313,9 @@
             "start": 569,
             "end": 590,
             "value": "order of operations",
-            "raw": "\"order of operations\""
+            "raw": "\"order of operations\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

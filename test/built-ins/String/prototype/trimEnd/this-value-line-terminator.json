@@ -74,7 +74,9 @@
             "start": 683,
             "end": 709,
             "value": "\n\r  ",
-            "raw": "'\\u000A\\u000D\\u2028\\u2029'"
+            "raw": "'\\u000A\\u000D\\u2028\\u2029'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -123,7 +125,9 @@
                     "start": 727,
                     "end": 730,
                     "value": "a",
-                    "raw": "'a'"
+                    "raw": "'a'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -140,7 +144,9 @@
                 "start": 738,
                 "end": 741,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -194,7 +200,9 @@
                   "start": 768,
                   "end": 771,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -211,7 +219,9 @@
               "start": 779,
               "end": 782,
               "value": "b",
-              "raw": "'b'"
+              "raw": "'b'",
+              "regex": null,
+              "bigint": null
             }
           }
         }

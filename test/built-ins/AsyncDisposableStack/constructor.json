@@ -49,14 +49,18 @@
             "start": 458,
             "end": 468,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 513,
             "value": "typeof AsyncDisposableStack is function",
-            "raw": "'typeof AsyncDisposableStack is function'"
+            "raw": "'typeof AsyncDisposableStack is function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

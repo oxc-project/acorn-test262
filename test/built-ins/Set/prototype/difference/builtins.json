@@ -95,14 +95,18 @@
             "start": 383,
             "end": 387,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 391,
             "end": 429,
             "value": "Built-in objects must be extensible.",
-            "raw": "\"Built-in objects must be extensible.\""
+            "raw": "\"Built-in objects must be extensible.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,14 +230,18 @@
             "start": 514,
             "end": 533,
             "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "raw": "\"[object Function]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 537,
             "end": 564,
             "value": "Object.prototype.toString",
-            "raw": "\"Object.prototype.toString\""
+            "raw": "\"Object.prototype.toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,7 +358,9 @@
             "start": 662,
             "end": 673,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

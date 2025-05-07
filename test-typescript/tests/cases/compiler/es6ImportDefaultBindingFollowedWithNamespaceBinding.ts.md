@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 51,
         "end": 106,
         "raw": "\"es6ImportDefaultBindingFollowedWithNamespaceBinding_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamespaceBinding_0"
+        "value": "es6ImportDefaultBindingFollowedWithNamespaceBinding_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

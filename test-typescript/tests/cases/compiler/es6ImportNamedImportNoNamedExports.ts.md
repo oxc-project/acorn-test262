@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 10,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,7 +75,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 58,
         "raw": "\"./es6ImportNamedImportNoNamedExports_0\"",
-        "value": "./es6ImportNamedImportNoNamedExports_0"
+        "value": "./es6ImportNamedImportNoNamedExports_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -113,7 +117,9 @@ __ESTREE_TEST__:PASS:
         "start": 83,
         "end": 123,
         "raw": "\"./es6ImportNamedImportNoNamedExports_0\"",
-        "value": "./es6ImportNamedImportNoNamedExports_0"
+        "value": "./es6ImportNamedImportNoNamedExports_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -73,7 +73,9 @@
                             "start": 810,
                             "end": 811,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -90,7 +92,9 @@
                         "start": 818,
                         "end": 840,
                         "value": "typeof C; class C {}",
-                        "raw": "'typeof C; class C {}'"
+                        "raw": "'typeof C; class C {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

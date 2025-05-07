@@ -58,7 +58,9 @@
             "start": 486,
             "end": 490,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -209,7 +211,9 @@
             "start": 595,
             "end": 618,
             "value": "NewTarget unspecified",
-            "raw": "'NewTarget unspecified'"
+            "raw": "'NewTarget unspecified'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -310,7 +314,9 @@
             "start": 711,
             "end": 741,
             "value": "NewTarget explicitly defined",
-            "raw": "'NewTarget explicitly defined'"
+            "raw": "'NewTarget explicitly defined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

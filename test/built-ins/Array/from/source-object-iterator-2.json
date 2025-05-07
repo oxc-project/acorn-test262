@@ -28,49 +28,63 @@
                 "start": 261,
                 "end": 262,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 264,
                 "end": 265,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 267,
                 "end": 268,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 270,
                 "end": 272,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 276,
                 "value": 32,
-                "raw": "32"
+                "raw": "32",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 278,
                 "end": 280,
                 "value": 64,
-                "raw": "64"
+                "raw": "64",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 282,
                 "end": 285,
                 "value": 128,
-                "raw": "128"
+                "raw": "128",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -165,7 +179,9 @@
                                 "start": 350,
                                 "end": 351,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -297,7 +313,9 @@
                                 "start": 474,
                                 "end": 479,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -390,7 +408,9 @@
                                           "start": 546,
                                           "end": 547,
                                           "value": 7,
-                                          "raw": "7"
+                                          "raw": "7",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "consequent": {
@@ -430,7 +450,9 @@
                                                 "start": 575,
                                                 "end": 579,
                                                 "value": true,
-                                                "raw": "true"
+                                                "raw": "true",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           }
@@ -451,7 +473,9 @@
                                           "start": 606,
                                           "end": 607,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "operator": "<<",
                                         "right": {
@@ -623,7 +647,9 @@
             "start": 721,
             "end": 774,
             "value": "The value of `typeof a` is expected to be typeof {}",
-            "raw": "'The value of `typeof a` is expected to be typeof {}'"
+            "raw": "'The value of `typeof a` is expected to be typeof {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -653,7 +679,9 @@
               "start": 790,
               "end": 791,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -779,7 +807,9 @@
                   "start": 849,
                   "end": 911,
                   "value": "The value of a[j] is expected to equal the value of array[j]",
-                  "raw": "'The value of a[j] is expected to equal the value of array[j]'"
+                  "raw": "'The value of a[j] is expected to equal the value of array[j]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

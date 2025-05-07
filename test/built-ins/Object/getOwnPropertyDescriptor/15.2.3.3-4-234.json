@@ -35,14 +35,18 @@
                   "start": 354,
                   "end": 364,
                   "value": "property",
-                  "raw": "\"property\""
+                  "raw": "\"property\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 366,
                   "end": 383,
                   "value": "ownDataProperty",
-                  "raw": "\"ownDataProperty\""
+                  "raw": "\"ownDataProperty\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -102,7 +106,9 @@
                 "start": 436,
                 "end": 446,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -135,7 +141,9 @@
               "start": 468,
               "end": 480,
               "value": "enumerable",
-              "raw": "\"enumerable\""
+              "raw": "\"enumerable\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -204,7 +212,9 @@
               "start": 533,
               "end": 545,
               "value": "enumerable",
-              "raw": "\"enumerable\""
+              "raw": "\"enumerable\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -244,7 +254,9 @@
             "start": 576,
             "end": 598,
             "value": "propDefined !== true",
-            "raw": "'propDefined !== true'"
+            "raw": "'propDefined !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,14 +301,18 @@
             "start": 631,
             "end": 636,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 651,
             "value": "propDeleted",
-            "raw": "'propDeleted'"
+            "raw": "'propDeleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -32,7 +32,9 @@
         "start": 474,
         "end": 478,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ExpressionStatement",

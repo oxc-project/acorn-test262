@@ -32,7 +32,9 @@
             "start": 888,
             "end": 892,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

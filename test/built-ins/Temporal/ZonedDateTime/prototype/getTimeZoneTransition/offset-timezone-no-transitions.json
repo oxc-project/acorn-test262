@@ -48,6 +48,7 @@
                 "end": 321,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 323,
                 "end": 331,
                 "value": "-10:00",
-                "raw": "\"-10:00\""
+                "raw": "\"-10:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,7 +123,9 @@
                 "start": 377,
                 "end": 383,
                 "value": "next",
-                "raw": "\"next\""
+                "raw": "\"next\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -130,14 +135,18 @@
             "start": 386,
             "end": 390,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 392,
             "end": 436,
             "value": "An offset time zone has no next transition",
-            "raw": "\"An offset time zone has no next transition\""
+            "raw": "\"An offset time zone has no next transition\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +209,9 @@
                 "start": 482,
                 "end": 492,
                 "value": "previous",
-                "raw": "\"previous\""
+                "raw": "\"previous\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -210,14 +221,18 @@
             "start": 495,
             "end": 499,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 549,
             "value": "An offset time zone has no previous transition",
-            "raw": "\"An offset time zone has no previous transition\""
+            "raw": "\"An offset time zone has no previous transition\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

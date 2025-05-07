@@ -67,7 +67,9 @@
           "start": 391,
           "end": 403,
           "value": "ErrorValue",
-          "raw": "\"ErrorValue\""
+          "raw": "\"ErrorValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -203,14 +205,18 @@
             "start": 491,
             "end": 503,
             "value": "ErrorValue",
-            "raw": "\"ErrorValue\""
+            "raw": "\"ErrorValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 518,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

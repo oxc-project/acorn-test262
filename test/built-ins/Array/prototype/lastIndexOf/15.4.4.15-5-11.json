@@ -74,7 +74,9 @@
                     "start": 339,
                     "end": 340,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -87,7 +89,9 @@
                     "start": 353,
                     "end": 357,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -118,7 +122,9 @@
                   "start": 383,
                   "end": 386,
                   "value": 2.5,
-                  "raw": "2.5"
+                  "raw": "2.5",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -129,14 +135,18 @@
             "start": 389,
             "end": 390,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 392,
             "end": 443,
             "value": "[0, targetObj, true].lastIndexOf(targetObj, -2.5)",
-            "raw": "'[0, targetObj, true].lastIndexOf(targetObj, -2.5)'"
+            "raw": "'[0, targetObj, true].lastIndexOf(targetObj, -2.5)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -188,14 +198,18 @@
                     "start": 464,
                     "end": 465,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 467,
                     "end": 471,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -232,7 +246,9 @@
                   "start": 508,
                   "end": 511,
                   "value": 2.5,
-                  "raw": "2.5"
+                  "raw": "2.5",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -249,7 +265,9 @@
               "start": 515,
               "end": 516,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -257,7 +275,9 @@
             "start": 518,
             "end": 569,
             "value": "[0, true, targetObj].lastIndexOf(targetObj, -2.5)",
-            "raw": "'[0, true, targetObj].lastIndexOf(targetObj, -2.5)'"
+            "raw": "'[0, true, targetObj].lastIndexOf(targetObj, -2.5)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

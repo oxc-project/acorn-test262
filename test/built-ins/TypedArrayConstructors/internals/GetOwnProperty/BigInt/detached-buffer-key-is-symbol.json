@@ -76,6 +76,7 @@
                                 "end": 714,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 719,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               }
                             ]
@@ -163,7 +165,9 @@
                             "start": 773,
                             "end": 778,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -235,7 +239,9 @@
                               "start": 825,
                               "end": 830,
                               "value": "baz",
-                              "raw": "\"baz\""
+                              "raw": "\"baz\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -330,14 +336,18 @@
                         "start": 913,
                         "end": 918,
                         "value": "baz",
-                        "raw": "\"baz\""
+                        "raw": "\"baz\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 924,
                         "end": 956,
                         "value": "return value from a Symbol key",
-                        "raw": "\"return value from a Symbol key\""
+                        "raw": "\"return value from a Symbol key\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

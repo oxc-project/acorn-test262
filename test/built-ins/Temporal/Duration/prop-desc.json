@@ -62,14 +62,18 @@
             "start": 317,
             "end": 327,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 331,
             "end": 364,
             "value": "`typeof Duration` is `function`",
-            "raw": "\"`typeof Duration` is `function`\""
+            "raw": "\"`typeof Duration` is `function`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +105,9 @@
             "start": 394,
             "end": 404,
             "value": "Duration",
-            "raw": "\"Duration\""
+            "raw": "\"Duration\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -126,7 +132,9 @@
                   "start": 420,
                   "end": 424,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -148,7 +156,9 @@
                   "start": 440,
                   "end": 445,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -170,7 +180,9 @@
                   "start": 463,
                   "end": 467,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

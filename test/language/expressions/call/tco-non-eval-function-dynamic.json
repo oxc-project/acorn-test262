@@ -23,7 +23,9 @@
             "start": 936,
             "end": 937,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -90,7 +92,9 @@
                           "start": 976,
                           "end": 988,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "directive": "use strict"
                       },
@@ -114,7 +118,9 @@
                             "start": 1004,
                             "end": 1005,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -142,7 +148,9 @@
                                   "start": 1028,
                                   "end": 1029,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -187,7 +195,9 @@
                                 "start": 1070,
                                 "end": 1071,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -217,7 +227,9 @@
                         "start": 1085,
                         "end": 1100,
                         "value": "var eval = f;",
-                        "raw": "\"var eval = f;\""
+                        "raw": "\"var eval = f;\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -295,7 +307,9 @@
             "start": 1160,
             "end": 1161,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

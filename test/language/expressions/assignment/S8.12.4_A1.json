@@ -74,7 +74,9 @@
           "start": 338,
           "end": 339,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -142,7 +144,9 @@
                     "start": 387,
                     "end": 443,
                     "value": "#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: ",
-                    "raw": "'#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: '"
+                    "raw": "'#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

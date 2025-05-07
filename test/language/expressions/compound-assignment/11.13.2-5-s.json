@@ -71,7 +71,9 @@
                         "start": 402,
                         "end": 420,
                         "value": "_11_13_2_5 -= 1;",
-                        "raw": "\"_11_13_2_5 -= 1;\""
+                        "raw": "\"_11_13_2_5 -= 1;\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -174,7 +174,9 @@
                                     "start": 651,
                                     "end": 689,
                                     "value": "right-hand side expression evaluated",
-                                    "raw": "\"right-hand side expression evaluated\""
+                                    "raw": "\"right-hand side expression evaluated\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -461,7 +463,9 @@
                                           "start": 912,
                                           "end": 936,
                                           "value": "property key evaluated",
-                                          "raw": "\"property key evaluated\""
+                                          "raw": "\"property key evaluated\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }

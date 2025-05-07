@@ -175,14 +175,18 @@
             "start": 462,
             "end": 477,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 522,
             "value": "x1.toString() must return \"[object Date]\"",
-            "raw": "'x1.toString() must return \"[object Date]\"'"
+            "raw": "'x1.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,14 +289,18 @@
             "start": 594,
             "end": 609,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 611,
             "end": 654,
             "value": "x2.toString() must return \"[object Date]\"",
-            "raw": "'x2.toString() must return \"[object Date]\"'"
+            "raw": "'x2.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -395,14 +403,18 @@
             "start": 724,
             "end": 739,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 741,
             "end": 784,
             "value": "x3.toString() must return \"[object Date]\"",
-            "raw": "'x3.toString() must return \"[object Date]\"'"
+            "raw": "'x3.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -505,14 +517,18 @@
             "start": 856,
             "end": 871,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 873,
             "end": 916,
             "value": "x4.toString() must return \"[object Date]\"",
-            "raw": "'x4.toString() must return \"[object Date]\"'"
+            "raw": "'x4.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,14 +631,18 @@
             "start": 986,
             "end": 1001,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1046,
             "value": "x5.toString() must return \"[object Date]\"",
-            "raw": "'x5.toString() must return \"[object Date]\"'"
+            "raw": "'x5.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -725,14 +745,18 @@
             "start": 1118,
             "end": 1133,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1135,
             "end": 1178,
             "value": "x6.toString() must return \"[object Date]\"",
-            "raw": "'x6.toString() must return \"[object Date]\"'"
+            "raw": "'x6.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -835,14 +859,18 @@
             "start": 1248,
             "end": 1263,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1265,
             "end": 1308,
             "value": "x7.toString() must return \"[object Date]\"",
-            "raw": "'x7.toString() must return \"[object Date]\"'"
+            "raw": "'x7.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -945,14 +973,18 @@
             "start": 1380,
             "end": 1395,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1397,
             "end": 1440,
             "value": "x8.toString() must return \"[object Date]\"",
-            "raw": "'x8.toString() must return \"[object Date]\"'"
+            "raw": "'x8.toString() must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

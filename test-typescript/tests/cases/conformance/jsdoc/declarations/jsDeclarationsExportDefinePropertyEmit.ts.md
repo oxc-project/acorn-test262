@@ -45,7 +45,9 @@ __ESTREE_TEST__:PASS:
             "start": 38,
             "end": 41,
             "raw": "\"a\"",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -170,7 +172,9 @@ __ESTREE_TEST__:PASS:
             "start": 111,
             "end": 114,
             "raw": "\"b\"",
-            "value": "b"
+            "value": "b",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -311,7 +315,9 @@ __ESTREE_TEST__:PASS:
             "start": 185,
             "end": 190,
             "raw": "\"cat\"",
-            "value": "cat"
+            "value": "cat",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -341,7 +347,9 @@ __ESTREE_TEST__:PASS:
                   "start": 201,
                   "end": 206,
                   "raw": "\"cat\"",
-                  "value": "cat"
+                  "value": "cat",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -395,7 +403,9 @@ __ESTREE_TEST__:PASS:
               "start": 326,
               "end": 330,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -475,7 +485,9 @@ __ESTREE_TEST__:PASS:
             "start": 373,
             "end": 376,
             "raw": "\"d\"",
-            "value": "d"
+            "value": "d",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -561,7 +573,9 @@ __ESTREE_TEST__:PASS:
               "start": 515,
               "end": 519,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -641,7 +655,9 @@ __ESTREE_TEST__:PASS:
             "start": 562,
             "end": 565,
             "raw": "\"e\"",
-            "value": "e"
+            "value": "e",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -800,7 +816,9 @@ __ESTREE_TEST__:PASS:
             "start": 692,
             "end": 695,
             "raw": "\"f\"",
-            "value": "f"
+            "value": "f",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -923,7 +941,9 @@ __ESTREE_TEST__:PASS:
             "start": 752,
             "end": 758,
             "raw": "\"self\"",
-            "value": "self"
+            "value": "self",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1178,7 +1198,9 @@ __ESTREE_TEST__:PASS:
             "start": 952,
             "end": 955,
             "raw": "\"g\"",
-            "value": "g"
+            "value": "g",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1401,7 +1423,9 @@ __ESTREE_TEST__:PASS:
             "start": 1136,
             "end": 1139,
             "raw": "\"h\"",
-            "value": "h"
+            "value": "h",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1508,7 +1532,9 @@ __ESTREE_TEST__:PASS:
             "start": 1196,
             "end": 1199,
             "raw": "\"i\"",
-            "value": "i"
+            "value": "i",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1633,7 +1659,9 @@ __ESTREE_TEST__:PASS:
             "start": 1267,
             "end": 1271,
             "raw": "\"ii\"",
-            "value": "ii"
+            "value": "ii",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1772,7 +1800,9 @@ __ESTREE_TEST__:PASS:
             "start": 1439,
             "end": 1443,
             "raw": "\"jj\"",
-            "value": "jj"
+            "value": "jj",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1911,7 +1941,9 @@ __ESTREE_TEST__:PASS:
             "start": 1513,
             "end": 1516,
             "raw": "\"j\"",
-            "value": "j"
+            "value": "j",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

@@ -139,7 +139,9 @@
             "start": 342,
             "end": 351,
             "value": "boolean",
-            "raw": "'boolean'"
+            "raw": "'boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -109,7 +109,9 @@ __ESTREE_TEST__:PASS:
                   "start": 49,
                   "end": 62,
                   "raw": "\"package/cjs\"",
-                  "value": "package/cjs"
+                  "value": "package/cjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -160,7 +162,9 @@ __ESTREE_TEST__:PASS:
                   "start": 95,
                   "end": 108,
                   "raw": "\"package/mjs\"",
-                  "value": "package/mjs"
+                  "value": "package/mjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -211,7 +215,9 @@ __ESTREE_TEST__:PASS:
                   "start": 141,
                   "end": 150,
                   "raw": "\"package\"",
-                  "value": "package"
+                  "value": "package",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -262,7 +268,9 @@ __ESTREE_TEST__:PASS:
                   "start": 183,
                   "end": 190,
                   "raw": "\"inner\"",
-                  "value": "inner"
+                  "value": "inner",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -325,7 +333,9 @@ __ESTREE_TEST__:PASS:
                   "start": 49,
                   "end": 60,
                   "raw": "\"inner/cjs\"",
-                  "value": "inner/cjs"
+                  "value": "inner/cjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -376,7 +386,9 @@ __ESTREE_TEST__:PASS:
                   "start": 93,
                   "end": 104,
                   "raw": "\"inner/mjs\"",
-                  "value": "inner/mjs"
+                  "value": "inner/mjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -439,7 +451,9 @@ __ESTREE_TEST__:PASS:
                   "start": 49,
                   "end": 62,
                   "raw": "\"package/cjs\"",
-                  "value": "package/cjs"
+                  "value": "package/cjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -490,7 +504,9 @@ __ESTREE_TEST__:PASS:
                   "start": 95,
                   "end": 108,
                   "raw": "\"package/mjs\"",
-                  "value": "package/mjs"
+                  "value": "package/mjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -541,7 +557,9 @@ __ESTREE_TEST__:PASS:
                   "start": 141,
                   "end": 150,
                   "raw": "\"package\"",
-                  "value": "package"
+                  "value": "package",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -592,7 +610,9 @@ __ESTREE_TEST__:PASS:
                   "start": 183,
                   "end": 190,
                   "raw": "\"inner\"",
-                  "value": "inner"
+                  "value": "inner",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -655,7 +675,9 @@ __ESTREE_TEST__:PASS:
                   "start": 49,
                   "end": 60,
                   "raw": "\"inner/cjs\"",
-                  "value": "inner/cjs"
+                  "value": "inner/cjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -706,7 +728,9 @@ __ESTREE_TEST__:PASS:
                   "start": 93,
                   "end": 104,
                   "raw": "\"inner/mjs\"",
-                  "value": "inner/mjs"
+                  "value": "inner/mjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -765,7 +789,9 @@ __ESTREE_TEST__:PASS:
                 "start": 51,
                 "end": 64,
                 "raw": "\"package/cjs\"",
-                "value": "package/cjs"
+                "value": "package/cjs",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -811,7 +837,9 @@ __ESTREE_TEST__:PASS:
                 "start": 91,
                 "end": 104,
                 "raw": "\"package/mjs\"",
-                "value": "package/mjs"
+                "value": "package/mjs",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -857,7 +885,9 @@ __ESTREE_TEST__:PASS:
                 "start": 131,
                 "end": 140,
                 "raw": "\"package\"",
-                "value": "package"
+                "value": "package",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -903,7 +933,9 @@ __ESTREE_TEST__:PASS:
                 "start": 167,
                 "end": 174,
                 "raw": "\"inner\"",
-                "value": "inner"
+                "value": "inner",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -961,7 +993,9 @@ __ESTREE_TEST__:PASS:
                 "start": 51,
                 "end": 62,
                 "raw": "\"inner/cjs\"",
-                "value": "inner/cjs"
+                "value": "inner/cjs",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -1007,7 +1041,9 @@ __ESTREE_TEST__:PASS:
                 "start": 89,
                 "end": 100,
                 "raw": "\"inner/mjs\"",
-                "value": "inner/mjs"
+                "value": "inner/mjs",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -1060,7 +1096,9 @@ __ESTREE_TEST__:PASS:
               "start": 42,
               "end": 46,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1112,7 +1150,9 @@ __ESTREE_TEST__:PASS:
               "start": 38,
               "end": 42,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1164,7 +1204,9 @@ __ESTREE_TEST__:PASS:
               "start": 45,
               "end": 49,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ],

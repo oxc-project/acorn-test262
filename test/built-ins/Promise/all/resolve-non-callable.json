@@ -83,7 +83,9 @@
                               "start": 722,
                               "end": 735,
                               "value": "unreachable",
-                              "raw": "\"unreachable\""
+                              "raw": "\"unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -132,7 +134,9 @@
           "start": 765,
           "end": 789,
           "value": "certainly not callable",
-          "raw": "\"certainly not callable\""
+          "raw": "\"certainly not callable\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -233,7 +237,9 @@
                             "start": 848,
                             "end": 901,
                             "value": "The promise should be rejected, but it was resolved",
-                            "raw": "\"The promise should be rejected, but it was resolved\""
+                            "raw": "\"The promise should be rejected, but it was resolved\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

@@ -28,49 +28,63 @@
                 "start": 430,
                 "end": 438,
                 "value": "en-us-",
-                "raw": "\"en-us-\""
+                "raw": "\"en-us-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 451,
                 "value": "-en-us",
-                "raw": "\"-en-us\""
+                "raw": "\"-en-us\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 469,
                 "value": "en-us-en-us",
-                "raw": "\"en-us-en-us\""
+                "raw": "\"en-us-en-us\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 478,
                 "value": "--",
-                "raw": "\"--\""
+                "raw": "\"--\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 483,
                 "end": 486,
                 "value": "-",
-                "raw": "\"-\""
+                "raw": "\"-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 493,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 503,
                 "value": "-e-",
-                "raw": "\"-e-\""
+                "raw": "\"-e-\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -252,7 +266,9 @@
                 "start": 664,
                 "end": 668,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -264,7 +280,9 @@
                     "start": 675,
                     "end": 679,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -291,7 +309,9 @@
                     "start": 704,
                     "end": 708,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -318,7 +338,9 @@
                     "start": 727,
                     "end": 728,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -343,7 +365,9 @@
                         "start": 743,
                         "end": 748,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

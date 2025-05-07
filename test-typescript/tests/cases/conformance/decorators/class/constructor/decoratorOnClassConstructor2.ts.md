@@ -177,7 +177,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "\"./0.ts\"",
-        "value": "./0.ts"
+        "value": "./0.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -217,7 +219,9 @@ __ESTREE_TEST__:PASS:
         "start": 46,
         "end": 54,
         "raw": "\"./0.ts\"",
-        "value": "./0.ts"
+        "value": "./0.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

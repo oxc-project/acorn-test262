@@ -75,14 +75,18 @@
             "start": 340,
             "end": 350,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 354,
             "end": 427,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -182,7 +186,9 @@
                   "start": 497,
                   "end": 518,
                   "value": "function fn() {} fn",
-                  "raw": "'function fn() {} fn'"
+                  "raw": "'function fn() {} fn'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -193,14 +199,18 @@
             "start": 521,
             "end": 531,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 562,
             "value": "value from a fn declaration",
-            "raw": "'value from a fn declaration'"
+            "raw": "'value from a fn declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,7 +279,9 @@
                   "start": 600,
                   "end": 617,
                   "value": "(function() {})",
-                  "raw": "'(function() {})'"
+                  "raw": "'(function() {})'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -280,14 +292,18 @@
             "start": 620,
             "end": 630,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 653,
             "value": "function expression",
-            "raw": "'function expression'"
+            "raw": "'function expression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,7 +372,9 @@
                   "start": 691,
                   "end": 714,
                   "value": "(async function() {})",
-                  "raw": "'(async function() {})'"
+                  "raw": "'(async function() {})'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -367,14 +385,18 @@
             "start": 717,
             "end": 727,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 729,
             "end": 756,
             "value": "async function expression",
-            "raw": "'async function expression'"
+            "raw": "'async function expression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -443,7 +465,9 @@
                   "start": 794,
                   "end": 812,
                   "value": "(function*() {})",
-                  "raw": "'(function*() {})'"
+                  "raw": "'(function*() {})'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -454,14 +478,18 @@
             "start": 815,
             "end": 825,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 849,
             "value": "generator expression",
-            "raw": "'generator expression'"
+            "raw": "'generator expression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +558,9 @@
                   "start": 887,
                   "end": 911,
                   "value": "(async function*() {})",
-                  "raw": "'(async function*() {})'"
+                  "raw": "'(async function*() {})'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -541,14 +571,18 @@
             "start": 914,
             "end": 924,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 926,
             "end": 954,
             "value": "async generator expression",
-            "raw": "'async generator expression'"
+            "raw": "'async generator expression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,7 +651,9 @@
                   "start": 992,
                   "end": 1002,
                   "value": "() => {}",
-                  "raw": "'() => {}'"
+                  "raw": "'() => {}'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -628,14 +664,18 @@
             "start": 1005,
             "end": 1015,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1017,
             "end": 1033,
             "value": "arrow function",
-            "raw": "'arrow function'"
+            "raw": "'arrow function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -704,7 +744,9 @@
                   "start": 1071,
                   "end": 1108,
                   "value": "new Proxy(() => {}, { apply() {} })",
-                  "raw": "'new Proxy(() => {}, { apply() {} })'"
+                  "raw": "'new Proxy(() => {}, { apply() {} })'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -715,14 +757,18 @@
             "start": 1111,
             "end": 1121,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1139,
             "value": "callable proxy",
-            "raw": "'callable proxy'"
+            "raw": "'callable proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

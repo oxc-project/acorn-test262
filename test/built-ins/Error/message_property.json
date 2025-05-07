@@ -23,7 +23,9 @@
             "start": 516,
             "end": 528,
             "value": "my-message",
-            "raw": "\"my-message\""
+            "raw": "\"my-message\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
             "start": 584,
             "end": 593,
             "value": "message",
-            "raw": "\"message\""
+            "raw": "\"message\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -131,7 +135,9 @@
             "start": 627,
             "end": 636,
             "value": "message",
-            "raw": "\"message\""
+            "raw": "\"message\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -156,7 +162,9 @@
                   "start": 652,
                   "end": 656,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -178,7 +186,9 @@
                   "start": 672,
                   "end": 677,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -200,7 +210,9 @@
                   "start": 695,
                   "end": 699,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

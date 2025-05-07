@@ -69,7 +69,9 @@
                         "start": 1559,
                         "end": 1680,
                         "value": "init = f;if (true) function f() { return \"inner declaration\"; }function f() {      return \"outer declaration\";    }",
-                        "raw": "'init = f;if (true) function f() { return \"inner declaration\"; }function f() {\\\n      return \"outer declaration\";\\\n    }'"
+                        "raw": "'init = f;if (true) function f() { return \"inner declaration\"; }function f() {\\\n      return \"outer declaration\";\\\n    }'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -129,7 +131,9 @@
             "start": 1718,
             "end": 1737,
             "value": "outer declaration",
-            "raw": "'outer declaration'"
+            "raw": "'outer declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

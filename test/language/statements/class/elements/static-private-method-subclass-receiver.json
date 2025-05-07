@@ -116,7 +116,9 @@
                       "start": 988,
                       "end": 990,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -208,7 +210,9 @@
             "start": 1043,
             "end": 1045,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +305,9 @@
             "start": 1100,
             "end": 1145,
             "value": "D does not contain static private method #g",
-            "raw": "'D does not contain static private method #g'"
+            "raw": "'D does not contain static private method #g'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

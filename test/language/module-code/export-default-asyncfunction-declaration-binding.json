@@ -62,7 +62,9 @@
           "start": 504,
           "end": 506,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     }

@@ -52,6 +52,7 @@
                   "end": 351,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -64,6 +65,7 @@
               "end": 358,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -73,6 +75,7 @@
             "end": 362,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -80,7 +83,9 @@
             "start": 364,
             "end": 404,
             "value": "The result of (Object(2n) << 1n) is 4n",
-            "raw": "'The result of (Object(2n) << 1n) is 4n'"
+            "raw": "'The result of (Object(2n) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,6 +129,7 @@
               "end": 426,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -144,6 +150,7 @@
                   "end": 439,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -156,6 +163,7 @@
             "end": 444,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -163,7 +171,9 @@
             "start": 446,
             "end": 486,
             "value": "The result of (1n << Object(2n)) is 4n",
-            "raw": "'The result of (1n << Object(2n)) is 4n'"
+            "raw": "'The result of (1n << Object(2n)) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,6 +266,7 @@
                             "end": 559,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -273,6 +284,7 @@
               "end": 572,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -282,6 +294,7 @@
             "end": 576,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -289,7 +302,9 @@
             "start": 578,
             "end": 657,
             "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,6 +348,7 @@
               "end": 680,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -391,6 +407,7 @@
                             "end": 736,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -408,6 +425,7 @@
             "end": 747,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -415,7 +433,9 @@
             "start": 749,
             "end": 826,
             "value": "The result of (1n << {[Symbol.toPrimitive]: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {[Symbol.toPrimitive]: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {[Symbol.toPrimitive]: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,6 +515,7 @@
                             "end": 886,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -512,6 +533,7 @@
               "end": 899,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -521,6 +543,7 @@
             "end": 903,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -528,7 +551,9 @@
             "start": 905,
             "end": 971,
             "value": "The result of (({valueOf: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({valueOf: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,6 +597,7 @@
               "end": 994,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -617,6 +643,7 @@
                             "end": 1037,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -634,6 +661,7 @@
             "end": 1048,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -641,7 +669,9 @@
             "start": 1050,
             "end": 1114,
             "value": "The result of (1n << {valueOf: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {valueOf: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {valueOf: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,6 +751,7 @@
                             "end": 1175,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -738,6 +769,7 @@
               "end": 1188,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -747,6 +779,7 @@
             "end": 1192,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -754,7 +787,9 @@
             "start": 1194,
             "end": 1261,
             "value": "The result of (({toString: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({toString: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({toString: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,6 +833,7 @@
               "end": 1284,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -843,6 +879,7 @@
                             "end": 1328,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -860,6 +897,7 @@
             "end": 1339,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -867,7 +905,9 @@
             "start": 1341,
             "end": 1406,
             "value": "The result of (1n << {toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -79,7 +79,9 @@
                   "start": 524,
                   "end": 527,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -166,7 +168,9 @@
                         "start": 597,
                         "end": 601,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -263,7 +267,9 @@
                       "start": 657,
                       "end": 660,
                       "value": "0",
-                      "raw": "\"0\""
+                      "raw": "\"0\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "&&",
@@ -296,7 +302,9 @@
                         "start": 683,
                         "end": 686,
                         "value": "0",
-                        "raw": "\"0\""
+                        "raw": "\"0\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -307,14 +315,18 @@
                   "start": 689,
                   "end": 694,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 696,
                   "end": 734,
                   "value": "i === \"0\" && arr.hasOwnProperty(\"0\")",
-                  "raw": "'i === \"0\" && arr.hasOwnProperty(\"0\")'"
+                  "raw": "'i === \"0\" && arr.hasOwnProperty(\"0\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -23,7 +23,9 @@
             "start": 645,
             "end": 658,
             "value": "outer scope",
-            "raw": "'outer scope'"
+            "raw": "'outer scope'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -90,7 +92,9 @@
                       "start": 711,
                       "end": 724,
                       "value": "first block",
-                      "raw": "'first block'"
+                      "raw": "'first block'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -170,7 +174,9 @@
             "start": 793,
             "end": 806,
             "value": "outer scope",
-            "raw": "'outer scope'"
+            "raw": "'outer scope'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

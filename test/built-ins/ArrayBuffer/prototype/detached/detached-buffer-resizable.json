@@ -34,7 +34,9 @@
                 "start": 626,
                 "end": 627,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -59,7 +61,9 @@
                       "start": 646,
                       "end": 647,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -123,14 +127,18 @@
             "start": 683,
             "end": 688,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 753,
             "value": "Resizable ArrayBuffer with maxByteLength of 0 is not detached",
-            "raw": "'Resizable ArrayBuffer with maxByteLength of 0 is not detached'"
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 0 is not detached'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,14 +221,18 @@
             "start": 809,
             "end": 813,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 815,
             "end": 878,
             "value": "Resizable ArrayBuffer with maxByteLength of 0 is now detached",
-            "raw": "'Resizable ArrayBuffer with maxByteLength of 0 is now detached'"
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 0 is now detached'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +269,9 @@
                 "start": 908,
                 "end": 909,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -282,7 +296,9 @@
                       "start": 928,
                       "end": 930,
                       "value": 23,
-                      "raw": "23"
+                      "raw": "23",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -346,14 +362,18 @@
             "start": 966,
             "end": 971,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 973,
             "end": 1037,
             "value": "Resizable ArrayBuffer with maxByteLength of 23 is not detached",
-            "raw": "'Resizable ArrayBuffer with maxByteLength of 23 is not detached'"
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 23 is not detached'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,14 +456,18 @@
             "start": 1093,
             "end": 1097,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1099,
             "end": 1163,
             "value": "Resizable ArrayBuffer with maxByteLength of 23 is now detached",
-            "raw": "'Resizable ArrayBuffer with maxByteLength of 23 is now detached'"
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 23 is now detached'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -480,7 +504,9 @@
                 "start": 1193,
                 "end": 1195,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -505,7 +531,9 @@
                       "start": 1214,
                       "end": 1216,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -569,14 +597,18 @@
             "start": 1252,
             "end": 1257,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1323,
             "value": "Resizable ArrayBuffer with maxByteLength of 42 is not detached",
-            "raw": "'Resizable ArrayBuffer with maxByteLength of 42 is not detached'"
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 42 is not detached'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -659,14 +691,18 @@
             "start": 1379,
             "end": 1383,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1385,
             "end": 1449,
             "value": "Resizable ArrayBuffer with maxByteLength of 42 is now detached",
-            "raw": "'Resizable ArrayBuffer with maxByteLength of 42 is now detached'"
+            "raw": "'Resizable ArrayBuffer with maxByteLength of 42 is now detached'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -55,7 +55,9 @@
             "start": 399,
             "end": 404,
             "value": "set",
-            "raw": "'set'"
+            "raw": "'set'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

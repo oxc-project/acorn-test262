@@ -81,14 +81,18 @@
             "start": 371,
             "end": 389,
             "value": "plainDateTimeISO",
-            "raw": "'plainDateTimeISO'"
+            "raw": "'plainDateTimeISO'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 479,
             "value": "The value of Temporal.Now.plainDateTimeISO.name is expected to be \"plainDateTimeISO\"",
-            "raw": "'The value of Temporal.Now.plainDateTimeISO.name is expected to be \"plainDateTimeISO\"'"
+            "raw": "'The value of Temporal.Now.plainDateTimeISO.name is expected to be \"plainDateTimeISO\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +150,9 @@
             "start": 530,
             "end": 536,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -171,7 +177,9 @@
                   "start": 554,
                   "end": 559,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -193,7 +201,9 @@
                   "start": 573,
                   "end": 578,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -215,7 +225,9 @@
                   "start": 596,
                   "end": 600,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

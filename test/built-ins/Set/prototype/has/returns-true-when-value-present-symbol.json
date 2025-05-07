@@ -170,14 +170,18 @@
             "start": 471,
             "end": 475,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 504,
             "value": "`s.has(a)` returns `true`",
-            "raw": "\"`s.has(a)` returns `true`\""
+            "raw": "\"`s.has(a)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

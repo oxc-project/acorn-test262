@@ -60,14 +60,18 @@
                 "start": 411,
                 "end": 415,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 422,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -77,14 +81,18 @@
             "start": 425,
             "end": 430,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 474,
             "value": "`Object.is(true, false)` returns `false`",
-            "raw": "\"`Object.is(true, false)` returns `false`\""
+            "raw": "\"`Object.is(true, false)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -147,14 +155,18 @@
                 "start": 504,
                 "end": 509,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 515,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -164,14 +176,18 @@
             "start": 518,
             "end": 523,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 567,
             "value": "`Object.is(false, true)` returns `false`",
-            "raw": "\"`Object.is(false, true)` returns `false`\""
+            "raw": "\"`Object.is(false, true)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,14 +250,18 @@
                 "start": 597,
                 "end": 601,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 604,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -251,14 +271,18 @@
             "start": 607,
             "end": 612,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 652,
             "value": "`Object.is(true, 1)` returns `false`",
-            "raw": "\"`Object.is(true, 1)` returns `false`\""
+            "raw": "\"`Object.is(true, 1)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,14 +345,18 @@
                 "start": 682,
                 "end": 687,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 689,
                 "end": 690,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -338,14 +366,18 @@
             "start": 693,
             "end": 698,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 700,
             "end": 739,
             "value": "`Object.is(false, 0)` returns `false`",
-            "raw": "\"`Object.is(false, 0)` returns `false`\""
+            "raw": "\"`Object.is(false, 0)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -408,7 +440,9 @@
                 "start": 769,
                 "end": 773,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -424,14 +458,18 @@
             "start": 780,
             "end": 785,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 826,
             "value": "`Object.is(true, {})` returns `false`",
-            "raw": "\"`Object.is(true, {})` returns `false`\""
+            "raw": "\"`Object.is(true, {})` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -494,7 +532,9 @@
                 "start": 856,
                 "end": 860,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -510,14 +550,18 @@
             "start": 874,
             "end": 879,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 881,
             "end": 927,
             "value": "`Object.is(true, undefined)` returns `false`",
-            "raw": "\"`Object.is(true, undefined)` returns `false`\""
+            "raw": "\"`Object.is(true, undefined)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -580,7 +624,9 @@
                 "start": 957,
                 "end": 962,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -596,14 +642,18 @@
             "start": 976,
             "end": 981,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 983,
             "end": 1030,
             "value": "`Object.is(false, undefined)` returns `false`",
-            "raw": "\"`Object.is(false, undefined)` returns `false`\""
+            "raw": "\"`Object.is(false, undefined)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -666,14 +716,18 @@
                 "start": 1060,
                 "end": 1064,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1066,
                 "end": 1070,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -683,14 +737,18 @@
             "start": 1073,
             "end": 1078,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1121,
             "value": "`Object.is(true, null)` returns `false`",
-            "raw": "\"`Object.is(true, null)` returns `false`\""
+            "raw": "\"`Object.is(true, null)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -753,14 +811,18 @@
                 "start": 1151,
                 "end": 1156,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1158,
                 "end": 1162,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -770,14 +832,18 @@
             "start": 1165,
             "end": 1170,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1172,
             "end": 1214,
             "value": "`Object.is(false, null)` returns `false`",
-            "raw": "\"`Object.is(false, null)` returns `false`\""
+            "raw": "\"`Object.is(false, null)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -840,7 +906,9 @@
                 "start": 1244,
                 "end": 1248,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -856,14 +924,18 @@
             "start": 1256,
             "end": 1261,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1263,
             "end": 1303,
             "value": "`Object.is(true, NaN)` returns `false`",
-            "raw": "\"`Object.is(true, NaN)` returns `false`\""
+            "raw": "\"`Object.is(true, NaN)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -926,7 +998,9 @@
                 "start": 1333,
                 "end": 1338,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -942,14 +1016,18 @@
             "start": 1346,
             "end": 1351,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1353,
             "end": 1394,
             "value": "`Object.is(false, NaN)` returns `false`",
-            "raw": "\"`Object.is(false, NaN)` returns `false`\""
+            "raw": "\"`Object.is(false, NaN)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1012,14 +1090,18 @@
                 "start": 1424,
                 "end": 1428,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1430,
                 "end": 1432,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1029,14 +1111,18 @@
             "start": 1435,
             "end": 1440,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1442,
             "end": 1481,
             "value": "`Object.is(true, '')` returns `false`",
-            "raw": "\"`Object.is(true, '')` returns `false`\""
+            "raw": "\"`Object.is(true, '')` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1099,14 +1185,18 @@
                 "start": 1511,
                 "end": 1516,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1518,
                 "end": 1520,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1116,14 +1206,18 @@
             "start": 1523,
             "end": 1528,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1530,
             "end": 1570,
             "value": "`Object.is(false, '')` returns `false`",
-            "raw": "\"`Object.is(false, '')` returns `false`\""
+            "raw": "\"`Object.is(false, '')` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1186,7 +1280,9 @@
                 "start": 1600,
                 "end": 1604,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -1202,14 +1298,18 @@
             "start": 1611,
             "end": 1616,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1618,
             "end": 1657,
             "value": "`Object.is(true, [])` returns `false`",
-            "raw": "\"`Object.is(true, [])` returns `false`\""
+            "raw": "\"`Object.is(true, [])` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1272,7 +1372,9 @@
                 "start": 1687,
                 "end": 1692,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -1288,14 +1390,18 @@
             "start": 1699,
             "end": 1704,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1706,
             "end": 1746,
             "value": "`Object.is(false, [])` returns `false`",
-            "raw": "\"`Object.is(false, [])` returns `false`\""
+            "raw": "\"`Object.is(false, [])` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 27,
           "raw": "\"./b.js\"",
-          "value": "./b.js"
+          "value": "./b.js",
+          "regex": null,
+          "bigint": null
         }
       }
     },

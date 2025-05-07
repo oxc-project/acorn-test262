@@ -36,7 +36,9 @@
               "start": 1215,
               "end": 1217,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -145,7 +147,9 @@
                                         "start": 1425,
                                         "end": 1426,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   }
@@ -384,7 +388,9 @@
             "start": 1597,
             "end": 1599,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -449,7 +455,9 @@
             "start": 1630,
             "end": 1632,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -545,14 +553,18 @@
             "start": 1676,
             "end": 1678,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1680,
             "end": 1723,
             "value": "value is set on inner class instance only",
-            "raw": "\"value is set on inner class instance only\""
+            "raw": "\"value is set on inner class instance only\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,14 +629,18 @@
             "start": 1754,
             "end": 1755,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1757,
             "end": 1797,
             "value": "value is set from inner class instance",
-            "raw": "\"value is set from inner class instance\""
+            "raw": "\"value is set from inner class instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

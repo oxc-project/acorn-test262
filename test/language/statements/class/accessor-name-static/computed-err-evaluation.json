@@ -168,7 +168,9 @@
             "start": 1019,
             "end": 1035,
             "value": "`get` accessor",
-            "raw": "'`get` accessor'"
+            "raw": "'`get` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +295,9 @@
             "start": 1132,
             "end": 1148,
             "value": "`set` accessor",
-            "raw": "'`set` accessor'"
+            "raw": "'`set` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

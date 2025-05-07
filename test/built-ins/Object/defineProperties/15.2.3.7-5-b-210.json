@@ -59,7 +59,9 @@
                 "start": 371,
                 "end": 372,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -118,7 +120,9 @@
                   "start": 412,
                   "end": 418,
                   "value": "Date",
-                  "raw": "\"Date\""
+                  "raw": "\"Date\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -244,14 +248,18 @@
             "start": 511,
             "end": 517,
             "value": "Date",
-            "raw": "\"Date\""
+            "raw": "\"Date\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 533,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -52,7 +52,9 @@
                   "start": 1061,
                   "end": 1079,
                   "value": "function NaN(){}",
-                  "raw": "\"function NaN(){}\""
+                  "raw": "\"function NaN(){}\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

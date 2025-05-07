@@ -35,14 +35,18 @@
                   "start": 267,
                   "end": 268,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 270,
                   "end": 271,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 275,
                   "end": 276,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 278,
                   "end": 279,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -185,7 +193,9 @@
                 "start": 356,
                 "end": 357,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -201,7 +211,9 @@
               "start": 361,
               "end": 362,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -209,7 +221,9 @@
             "start": 364,
             "end": 402,
             "value": "Array.prototype.indexOf.call(obj, 1)",
-            "raw": "'Array.prototype.indexOf.call(obj, 1)'"
+            "raw": "'Array.prototype.indexOf.call(obj, 1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

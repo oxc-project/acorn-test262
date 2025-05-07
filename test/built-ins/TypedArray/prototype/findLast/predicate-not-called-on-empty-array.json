@@ -90,7 +90,9 @@
                         "start": 597,
                         "end": 602,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -169,7 +171,9 @@
                                       "start": 662,
                                       "end": 666,
                                       "value": true,
-                                      "raw": "true"
+                                      "raw": "true",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 },
@@ -182,7 +186,9 @@
                                     "start": 679,
                                     "end": 683,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -234,14 +240,18 @@
                         "start": 728,
                         "end": 733,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 739,
                         "end": 779,
                         "value": "empty instance does not call predicate",
-                        "raw": "\"empty instance does not call predicate\""
+                        "raw": "\"empty instance does not call predicate\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -292,7 +302,9 @@
                         "start": 836,
                         "end": 893,
                         "value": "findLast returns undefined when predicate is not called",
-                        "raw": "\"findLast returns undefined when predicate is not called\""
+                        "raw": "\"findLast returns undefined when predicate is not called\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

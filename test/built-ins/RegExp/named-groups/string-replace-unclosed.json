@@ -23,7 +23,9 @@
             "start": 370,
             "end": 400,
             "value": "(?<fst>.)(?<snd>.)|(?<thd>x)",
-            "raw": "\"(?<fst>.)(?<snd>.)|(?<thd>x)\""
+            "raw": "\"(?<fst>.)(?<snd>.)|(?<thd>x)\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -64,14 +66,18 @@
             "start": 421,
             "end": 423,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 428,
             "value": "u",
-            "raw": "\"u\""
+            "raw": "\"u\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -157,7 +163,9 @@
                   "start": 490,
                   "end": 499,
                   "value": "$<sndcd",
-                  "raw": "\"$<sndcd\""
+                  "raw": "\"$<sndcd\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "CallExpression",
@@ -172,7 +180,9 @@
                       "start": 501,
                       "end": 507,
                       "value": "abcd",
-                      "raw": "\"abcd\""
+                      "raw": "\"abcd\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -195,7 +205,9 @@
                       "start": 520,
                       "end": 527,
                       "value": "$<snd",
-                      "raw": "\"$<snd\""
+                      "raw": "\"$<snd\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -242,14 +254,18 @@
             "start": 552,
             "end": 555,
             "value": "g",
-            "raw": "\"g\""
+            "raw": "\"g\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 561,
             "value": "gu",
-            "raw": "\"gu\""
+            "raw": "\"gu\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -335,7 +351,9 @@
                   "start": 623,
                   "end": 635,
                   "value": "$<snd$<snd",
-                  "raw": "\"$<snd$<snd\""
+                  "raw": "\"$<snd$<snd\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "CallExpression",
@@ -350,7 +368,9 @@
                       "start": 637,
                       "end": 643,
                       "value": "abcd",
-                      "raw": "\"abcd\""
+                      "raw": "\"abcd\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -373,7 +393,9 @@
                       "start": 656,
                       "end": 663,
                       "value": "$<snd",
-                      "raw": "\"$<snd\""
+                      "raw": "\"$<snd\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

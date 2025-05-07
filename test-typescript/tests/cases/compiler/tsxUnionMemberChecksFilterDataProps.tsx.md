@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 87,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -385,7 +387,9 @@ __ESTREE_TEST__:PASS:
                       "start": 325,
                       "end": 337,
                       "raw": "\"my-test-id\"",
-                      "value": "my-test-id"
+                      "value": "my-test-id",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -461,7 +465,9 @@ __ESTREE_TEST__:PASS:
                       "start": 387,
                       "end": 399,
                       "raw": "\"my-test-id\"",
-                      "value": "my-test-id"
+                      "value": "my-test-id",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],

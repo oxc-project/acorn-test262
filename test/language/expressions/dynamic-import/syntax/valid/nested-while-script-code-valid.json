@@ -64,7 +64,9 @@
             "start": 1245,
             "end": 1246,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -123,7 +125,9 @@
                 "start": 1277,
                 "end": 1297,
                 "value": "./empty_FIXTURE.js",
-                "raw": "'./empty_FIXTURE.js'"
+                "raw": "'./empty_FIXTURE.js'",
+                "regex": null,
+                "bigint": null
               },
               "options": null
             }

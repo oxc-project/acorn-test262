@@ -54,6 +54,7 @@
                   "end": 893,
                   "value": null,
                   "raw": "86_40000_00000_00000_00000n",
+                  "regex": null,
                   "bigint": "8640000000000000000000"
                 }
               },
@@ -62,7 +63,9 @@
                 "start": 895,
                 "end": 900,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,7 +111,9 @@
                   "start": 948,
                   "end": 953,
                   "value": "+01",
-                  "raw": "\"+01\""
+                  "raw": "\"+01\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -156,7 +161,9 @@
                   "start": 985,
                   "end": 990,
                   "value": "use",
-                  "raw": "\"use\""
+                  "raw": "\"use\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

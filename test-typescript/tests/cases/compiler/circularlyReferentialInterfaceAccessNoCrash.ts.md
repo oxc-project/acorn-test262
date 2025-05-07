@@ -37,7 +37,9 @@ __ESTREE_TEST__:PASS:
                 "start": 14,
                 "end": 20,
                 "raw": "'list'",
-                "value": "list"
+                "value": "list",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -53,7 +55,9 @@ __ESTREE_TEST__:PASS:
                   "start": 26,
                   "end": 30,
                   "raw": "'p1'",
-                  "value": "p1"
+                  "value": "p1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "objectType": {
@@ -264,7 +268,9 @@ __ESTREE_TEST__:PASS:
                 "start": 93,
                 "end": 99,
                 "raw": "'list'",
-                "value": "list"
+                "value": "list",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -280,7 +286,9 @@ __ESTREE_TEST__:PASS:
                   "start": 117,
                   "end": 118,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "objectType": {
@@ -347,7 +355,9 @@ __ESTREE_TEST__:PASS:
                   "start": 144,
                   "end": 150,
                   "raw": "'list'",
-                  "value": "list"
+                  "value": "list",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -363,7 +373,9 @@ __ESTREE_TEST__:PASS:
                     "start": 165,
                     "end": 166,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {
@@ -379,7 +391,9 @@ __ESTREE_TEST__:PASS:
                       "start": 162,
                       "end": 163,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "objectType": {

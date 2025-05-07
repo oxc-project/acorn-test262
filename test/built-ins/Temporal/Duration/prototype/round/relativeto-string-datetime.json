@@ -47,35 +47,45 @@
                 "start": 418,
                 "end": 419,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 422,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 425,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 427,
                 "end": 428,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 432,
                 "value": 24,
-                "raw": "24"
+                "raw": "24",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -103,7 +113,9 @@
             "start": 453,
             "end": 471,
             "value": "2019-11-01T00:00",
-            "raw": "\"2019-11-01T00:00\""
+            "raw": "\"2019-11-01T00:00\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -171,7 +183,9 @@
                       "start": 519,
                       "end": 526,
                       "value": "years",
-                      "raw": "\"years\""
+                      "raw": "\"years\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -244,77 +258,99 @@
             "start": 583,
             "end": 584,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 587,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 590,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 593,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 595,
             "end": 596,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 598,
             "end": 599,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 601,
             "end": 602,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 604,
             "end": 605,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 608,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 611,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 658,
             "value": "bare date-time string is a plain relativeTo",
-            "raw": "\"bare date-time string is a plain relativeTo\""
+            "raw": "\"bare date-time string is a plain relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -340,7 +376,9 @@
           "start": 675,
           "end": 699,
           "value": "2019-11-01T00:00-07:00",
-          "raw": "\"2019-11-01T00:00-07:00\""
+          "raw": "\"2019-11-01T00:00-07:00\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -406,7 +444,9 @@
                       "start": 747,
                       "end": 754,
                       "value": "years",
-                      "raw": "\"years\""
+                      "raw": "\"years\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -479,77 +519,99 @@
             "start": 811,
             "end": 812,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 814,
             "end": 815,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 817,
             "end": 818,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 820,
             "end": 821,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 823,
             "end": 824,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 827,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 829,
             "end": 830,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 833,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 835,
             "end": 836,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 838,
             "end": 839,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 883,
             "value": "date-time + offset is a plain relativeTo",
-            "raw": "\"date-time + offset is a plain relativeTo\""
+            "raw": "\"date-time + offset is a plain relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -575,7 +637,9 @@
           "start": 900,
           "end": 926,
           "value": "2019-11-01T00:00[-07:00]",
-          "raw": "\"2019-11-01T00:00[-07:00]\""
+          "raw": "\"2019-11-01T00:00[-07:00]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -641,7 +705,9 @@
                       "start": 974,
                       "end": 981,
                       "value": "years",
-                      "raw": "\"years\""
+                      "raw": "\"years\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -714,77 +780,99 @@
             "start": 1038,
             "end": 1039,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1041,
             "end": 1042,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1044,
             "end": 1045,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1047,
             "end": 1048,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1051,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1053,
             "end": 1054,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1056,
             "end": 1057,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1059,
             "end": 1060,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1062,
             "end": 1063,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1065,
             "end": 1066,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1068,
             "end": 1119,
             "value": "date-time + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + IANA annotation is a zoned relativeTo\""
+            "raw": "\"date-time + IANA annotation is a zoned relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -810,7 +898,9 @@
           "start": 1136,
           "end": 1163,
           "value": "2019-11-01T00:00Z[-07:00]",
-          "raw": "\"2019-11-01T00:00Z[-07:00]\""
+          "raw": "\"2019-11-01T00:00Z[-07:00]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -876,7 +966,9 @@
                       "start": 1211,
                       "end": 1218,
                       "value": "years",
-                      "raw": "\"years\""
+                      "raw": "\"years\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -949,77 +1041,99 @@
             "start": 1275,
             "end": 1276,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1278,
             "end": 1279,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1281,
             "end": 1282,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1284,
             "end": 1285,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1287,
             "end": 1288,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1290,
             "end": 1291,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1293,
             "end": 1294,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1296,
             "end": 1297,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1299,
             "end": 1300,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1302,
             "end": 1303,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1305,
             "end": 1360,
             "value": "date-time + Z + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + Z + IANA annotation is a zoned relativeTo\""
+            "raw": "\"date-time + Z + IANA annotation is a zoned relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1045,7 +1159,9 @@
           "start": 1377,
           "end": 1406,
           "value": "2019-11-01T00:00+00:00[UTC]",
-          "raw": "\"2019-11-01T00:00+00:00[UTC]\""
+          "raw": "\"2019-11-01T00:00+00:00[UTC]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1111,7 +1227,9 @@
                       "start": 1454,
                       "end": 1461,
                       "value": "years",
-                      "raw": "\"years\""
+                      "raw": "\"years\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1184,77 +1302,99 @@
             "start": 1518,
             "end": 1519,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1521,
             "end": 1522,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1524,
             "end": 1525,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1527,
             "end": 1528,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1530,
             "end": 1531,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1533,
             "end": 1534,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1536,
             "end": 1537,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1539,
             "end": 1540,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1542,
             "end": 1543,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1545,
             "end": 1546,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1548,
             "end": 1608,
             "value": "date-time + offset + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + offset + IANA annotation is a zoned relativeTo\""
+            "raw": "\"date-time + offset + IANA annotation is a zoned relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1280,7 +1420,9 @@
           "start": 1625,
           "end": 1644,
           "value": "2019-11-01T00:00Z",
-          "raw": "\"2019-11-01T00:00Z\""
+          "raw": "\"2019-11-01T00:00Z\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1374,7 +1516,9 @@
                         "start": 1708,
                         "end": 1715,
                         "value": "years",
-                        "raw": "\"years\""
+                        "raw": "\"years\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1410,7 +1554,9 @@
             "start": 1732,
             "end": 1781,
             "value": "date-time + Z throws without an IANA annotation",
-            "raw": "\"date-time + Z throws without an IANA annotation\""
+            "raw": "\"date-time + Z throws without an IANA annotation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1436,7 +1582,9 @@
           "start": 1797,
           "end": 1826,
           "value": "2019-11-01T00:00+04:15[UTC]",
-          "raw": "\"2019-11-01T00:00+04:15[UTC]\""
+          "raw": "\"2019-11-01T00:00+04:15[UTC]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1530,7 +1678,9 @@
                         "start": 1890,
                         "end": 1897,
                         "value": "years",
-                        "raw": "\"years\""
+                        "raw": "\"years\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1566,7 +1716,9 @@
             "start": 1914,
             "end": 1996,
             "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch",
-            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\""
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

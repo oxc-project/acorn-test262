@@ -25,7 +25,9 @@
         "start": 616,
         "end": 651,
         "value": "./json-value-boolean_FIXTURE.json",
-        "raw": "'./json-value-boolean_FIXTURE.json'"
+        "raw": "'./json-value-boolean_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -43,7 +45,9 @@
             "start": 665,
             "end": 671,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -87,7 +91,9 @@
             "start": 700,
             "end": 704,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

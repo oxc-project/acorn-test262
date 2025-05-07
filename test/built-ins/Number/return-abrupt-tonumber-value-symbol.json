@@ -34,7 +34,9 @@
                 "start": 430,
                 "end": 434,
                 "value": "66",
-                "raw": "\"66\""
+                "raw": "\"66\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,7 +126,9 @@
             "start": 492,
             "end": 516,
             "value": "NewTarget is undefined",
-            "raw": "\"NewTarget is undefined\""
+            "raw": "\"NewTarget is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,7 +214,9 @@
             "start": 578,
             "end": 600,
             "value": "NewTarget is defined",
-            "raw": "\"NewTarget is defined\""
+            "raw": "\"NewTarget is defined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

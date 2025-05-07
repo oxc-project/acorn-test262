@@ -65,7 +65,9 @@
             "start": 366,
             "end": 367,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -75,7 +77,9 @@
           "start": 371,
           "end": 376,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -118,7 +122,9 @@
             "start": 405,
             "end": 408,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -161,7 +167,9 @@
                           "start": 443,
                           "end": 447,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -187,7 +195,9 @@
                   "start": 470,
                   "end": 474,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -254,7 +264,9 @@
                 "start": 509,
                 "end": 513,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -264,14 +276,18 @@
             "start": 516,
             "end": 517,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 538,
             "value": "arr.indexOf(true)",
-            "raw": "'arr.indexOf(true)'"
+            "raw": "'arr.indexOf(true)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

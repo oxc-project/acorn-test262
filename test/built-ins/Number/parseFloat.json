@@ -86,7 +86,9 @@
             "start": 805,
             "end": 817,
             "value": "parseFloat",
-            "raw": "\"parseFloat\""
+            "raw": "\"parseFloat\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -111,7 +113,9 @@
                   "start": 833,
                   "end": 837,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -133,7 +137,9 @@
                   "start": 853,
                   "end": 858,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -155,7 +161,9 @@
                   "start": 876,
                   "end": 880,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -73,7 +73,9 @@
                 "start": 352,
                 "end": 390,
                 "value": "-009999-11-18T15:23:30.12+00:00[UTC]",
-                "raw": "\"-009999-11-18T15:23:30.12+00:00[UTC]\""
+                "raw": "\"-009999-11-18T15:23:30.12+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -114,6 +116,7 @@
                   "end": 447,
                   "value": null,
                   "raw": "377677326989880000000n",
+                  "regex": null,
                   "bigint": "377677326989880000000"
                 }
               },
@@ -122,7 +125,9 @@
                 "start": 449,
                 "end": 454,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "'./utils'",
-        "value": "./utils"
+        "value": "./utils",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -132,7 +134,9 @@ __ESTREE_TEST__:PASS:
                     "start": 68,
                     "end": 72,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "expression": true,
@@ -254,7 +258,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "'./decl'",
-        "value": "./decl"
+        "value": "./decl",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -294,7 +300,9 @@ __ESTREE_TEST__:PASS:
         "start": 49,
         "end": 58,
         "raw": "'./utils'",
-        "value": "./utils"
+        "value": "./utils",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -411,7 +419,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 89,
                                   "end": 93,
                                   "raw": "null",
-                                  "value": null
+                                  "value": null,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "typeAnnotation": {

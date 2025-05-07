@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 36,
         "raw": "\"source-map-support/register\"",
-        "value": "source-map-support/register"
+        "value": "source-map-support/register",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

@@ -108,7 +108,9 @@
               "start": 294,
               "end": 295,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -116,7 +118,9 @@
             "start": 297,
             "end": 329,
             "value": "[+NaN, NaN, -NaN].indexOf(NaN)",
-            "raw": "'[+NaN, NaN, -NaN].indexOf(NaN)'"
+            "raw": "'[+NaN, NaN, -NaN].indexOf(NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

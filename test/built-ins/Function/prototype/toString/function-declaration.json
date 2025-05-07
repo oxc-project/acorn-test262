@@ -74,7 +74,9 @@
             "start": 491,
             "end": 601,
             "value": "function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }",
-            "raw": "\"function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\""
+            "raw": "\"function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

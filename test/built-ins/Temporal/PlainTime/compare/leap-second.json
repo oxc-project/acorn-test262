@@ -23,7 +23,9 @@
             "start": 270,
             "end": 291,
             "value": "2016-12-31T23:59:60",
-            "raw": "\"2016-12-31T23:59:60\""
+            "raw": "\"2016-12-31T23:59:60\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -116,21 +118,27 @@
                     "start": 364,
                     "end": 366,
                     "value": 23,
-                    "raw": "23"
+                    "raw": "23",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 368,
                     "end": 370,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 372,
                     "end": 374,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -180,14 +188,18 @@
             "start": 404,
             "end": 405,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 473,
             "value": "leap second is a valid ISO string for PlainTime (first argument)",
-            "raw": "\"leap second is a valid ISO string for PlainTime (first argument)\""
+            "raw": "\"leap second is a valid ISO string for PlainTime (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,21 +286,27 @@
                     "start": 542,
                     "end": 544,
                     "value": 23,
-                    "raw": "23"
+                    "raw": "23",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 546,
                     "end": 548,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 550,
                     "end": 552,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -344,14 +362,18 @@
             "start": 587,
             "end": 588,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 656,
             "value": "leap second is a valid ISO string for PlainTime (first argument)",
-            "raw": "\"leap second is a valid ISO string for PlainTime (first argument)\""
+            "raw": "\"leap second is a valid ISO string for PlainTime (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -395,7 +417,9 @@
                 "start": 674,
                 "end": 678,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -417,7 +441,9 @@
                 "start": 687,
                 "end": 689,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -439,7 +465,9 @@
                 "start": 696,
                 "end": 698,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -461,7 +489,9 @@
                 "start": 706,
                 "end": 708,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -483,7 +513,9 @@
                 "start": 718,
                 "end": 720,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -505,7 +537,9 @@
                 "start": 730,
                 "end": 732,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -600,21 +634,27 @@
                     "start": 807,
                     "end": 809,
                     "value": 23,
-                    "raw": "23"
+                    "raw": "23",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 811,
                     "end": 813,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 815,
                     "end": 817,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -664,14 +704,18 @@
             "start": 847,
             "end": 848,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 920,
             "value": "second: 60 is ignored in property bag for PlainTime (first argument)",
-            "raw": "\"second: 60 is ignored in property bag for PlainTime (first argument)\""
+            "raw": "\"second: 60 is ignored in property bag for PlainTime (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -758,21 +802,27 @@
                     "start": 989,
                     "end": 991,
                     "value": 23,
-                    "raw": "23"
+                    "raw": "23",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 993,
                     "end": 995,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 997,
                     "end": 999,
                     "value": 59,
-                    "raw": "59"
+                    "raw": "59",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -828,14 +878,18 @@
             "start": 1034,
             "end": 1035,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1037,
             "end": 1108,
             "value": "second: 60 is ignored in property bag for PlainTime (second argument)",
-            "raw": "\"second: 60 is ignored in property bag for PlainTime (second argument)\""
+            "raw": "\"second: 60 is ignored in property bag for PlainTime (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

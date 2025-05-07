@@ -74,7 +74,9 @@
                     "start": 345,
                     "end": 346,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -93,14 +95,18 @@
                     "start": 364,
                     "end": 365,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 367,
                     "end": 372,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -125,7 +131,9 @@
                 "start": 397,
                 "end": 402,
                 "value": "2E0",
-                "raw": "\"2E0\""
+                "raw": "\"2E0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -135,14 +143,18 @@
             "start": 405,
             "end": 406,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 469,
             "value": "[0, NaN, targetObj, 3, false].lastIndexOf(targetObj, \"2E0\")",
-            "raw": "'[0, NaN, targetObj, 3, false].lastIndexOf(targetObj, \"2E0\")'"
+            "raw": "'[0, NaN, targetObj, 3, false].lastIndexOf(targetObj, \"2E0\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +206,9 @@
                     "start": 490,
                     "end": 491,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -207,7 +221,9 @@
                     "start": 498,
                     "end": 499,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -220,7 +236,9 @@
                     "start": 512,
                     "end": 517,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -245,7 +263,9 @@
                 "start": 542,
                 "end": 547,
                 "value": "2E0",
-                "raw": "\"2E0\""
+                "raw": "\"2E0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -261,7 +281,9 @@
               "start": 551,
               "end": 552,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -269,7 +291,9 @@
             "start": 554,
             "end": 615,
             "value": "[0, NaN, 3, targetObj, false].lastIndexOf(targetObj, \"2E0\")",
-            "raw": "'[0, NaN, 3, targetObj, false].lastIndexOf(targetObj, \"2E0\")'"
+            "raw": "'[0, NaN, 3, targetObj, false].lastIndexOf(targetObj, \"2E0\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

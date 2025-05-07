@@ -23,7 +23,9 @@
             "start": 366,
             "end": 367,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 417,
             "end": 418,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 489,
             "end": 490,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 509,
             "end": 510,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +135,9 @@
             "start": 532,
             "end": 533,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -221,7 +231,9 @@
               "start": 592,
               "end": 593,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -675,7 +687,9 @@
                 "start": 1469,
                 "end": 1470,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -697,7 +711,9 @@
             "start": 1503,
             "end": 1576,
             "value": "Atomics.notify(i32a, 0, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`",
-            "raw": "'Atomics.notify(i32a, 0, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`'"
+            "raw": "'Atomics.notify(i32a, 0, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -803,7 +819,9 @@
               "start": 1708,
               "end": 1709,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -974,7 +992,9 @@
               "start": 1804,
               "end": 1805,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1068,14 +1088,18 @@
                   "start": 1862,
                   "end": 1866,
                   "value": "ok",
-                  "raw": "'ok'"
+                  "raw": "'ok'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1868,
                   "end": 1901,
                   "value": "The value of reports[i] is \"ok\"",
-                  "raw": "'The value of reports[i] is \"ok\"'"
+                  "raw": "'The value of reports[i] is \"ok\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1201,14 +1225,18 @@
                   "start": 1984,
                   "end": 1995,
                   "value": "timed-out",
-                  "raw": "'timed-out'"
+                  "raw": "'timed-out'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1997,
                   "end": 2037,
                   "value": "The value of reports[i] is \"timed-out\"",
-                  "raw": "'The value of reports[i] is \"timed-out\"'"
+                  "raw": "'The value of reports[i] is \"timed-out\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

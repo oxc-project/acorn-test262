@@ -28,21 +28,27 @@
                 "start": 340,
                 "end": 392,
                 "value": "1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]",
-                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]\""
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][!u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 448,
                 "value": "1970-01-01T00:00[UTC][!u-ca=iso8601][u-ca=iso8601]",
-                "raw": "\"1970-01-01T00:00[UTC][!u-ca=iso8601][u-ca=iso8601]\""
+                "raw": "\"1970-01-01T00:00[UTC][!u-ca=iso8601][u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 452,
                 "end": 513,
                 "value": "1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar][!u-ca=iso8601]",
-                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar][!u-ca=iso8601]\""
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar][!u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -95,6 +101,7 @@
                 "end": 564,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -102,7 +109,9 @@
                 "start": 566,
                 "end": 571,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

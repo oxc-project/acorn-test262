@@ -126,7 +126,9 @@
                             "start": 2141,
                             "end": 2142,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -208,7 +210,9 @@
                             "start": 2200,
                             "end": 2201,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -290,7 +294,9 @@
                             "start": 2259,
                             "end": 2265,
                             "value": "tc39",
-                            "raw": "'tc39'"
+                            "raw": "'tc39'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -378,7 +384,9 @@
                             "start": 2324,
                             "end": 2333,
                             "value": "test262",
-                            "raw": "'test262'"
+                            "raw": "'test262'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -731,7 +739,9 @@
                                       "start": 2584,
                                       "end": 2594,
                                       "value": "rejected",
-                                      "raw": "'rejected'"
+                                      "raw": "'rejected'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -753,7 +763,9 @@
                                       "start": 2604,
                                       "end": 2605,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -782,7 +794,9 @@
                                       "start": 2623,
                                       "end": 2634,
                                       "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "raw": "'fulfilled'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -804,7 +818,9 @@
                                       "start": 2643,
                                       "end": 2644,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -833,7 +849,9 @@
                                       "start": 2662,
                                       "end": 2673,
                                       "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "raw": "'fulfilled'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -855,7 +873,9 @@
                                       "start": 2682,
                                       "end": 2688,
                                       "value": "tc39",
-                                      "raw": "'tc39'"
+                                      "raw": "'tc39'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -884,7 +904,9 @@
                                       "start": 2706,
                                       "end": 2716,
                                       "value": "rejected",
-                                      "raw": "'rejected'"
+                                      "raw": "'rejected'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -906,7 +928,9 @@
                                       "start": 2726,
                                       "end": 2735,
                                       "value": "test262",
-                                      "raw": "'test262'"
+                                      "raw": "'test262'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -935,7 +959,9 @@
                                       "start": 2753,
                                       "end": 2763,
                                       "value": "rejected",
-                                      "raw": "'rejected'"
+                                      "raw": "'rejected'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -985,7 +1011,9 @@
                                       "start": 2795,
                                       "end": 2806,
                                       "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "raw": "'fulfilled'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -1019,7 +1047,9 @@
                             "start": 2827,
                             "end": 2836,
                             "value": "settled",
-                            "raw": "'settled'"
+                            "raw": "'settled'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

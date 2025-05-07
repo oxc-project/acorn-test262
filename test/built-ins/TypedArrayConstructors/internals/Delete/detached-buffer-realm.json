@@ -179,7 +179,9 @@
                             "start": 936,
                             "end": 937,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -274,7 +276,9 @@
                             "start": 1007,
                             "end": 1008,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -285,14 +289,18 @@
                         "start": 1011,
                         "end": 1015,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1017,
                         "end": 1058,
                         "value": "The value of `delete sample[0]` is true",
-                        "raw": "'The value of `delete sample[0]` is true'"
+                        "raw": "'The value of `delete sample[0]` is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

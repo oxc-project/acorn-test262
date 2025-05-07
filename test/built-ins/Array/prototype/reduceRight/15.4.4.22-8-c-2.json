@@ -80,7 +80,9 @@
                 "start": 429,
                 "end": 431,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -112,7 +114,9 @@
             "start": 438,
             "end": 439,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -122,7 +126,9 @@
           "start": 443,
           "end": 444,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -159,7 +165,9 @@
           "start": 459,
           "end": 460,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       }
     },

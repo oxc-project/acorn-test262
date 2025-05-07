@@ -82,14 +82,18 @@
             "start": 769,
             "end": 774,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 778,
             "end": 842,
             "value": "isConstructor(Date.prototype.toLocaleString) must return false",
-            "raw": "'isConstructor(Date.prototype.toLocaleString) must return false'"
+            "raw": "'isConstructor(Date.prototype.toLocaleString) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -47,7 +47,8 @@
             "regex": {
               "pattern": "1|12",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -157,7 +158,9 @@
               "start": 410,
               "end": 414,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -165,7 +168,9 @@
             "start": 418,
             "end": 472,
             "value": "__re.test() must return __re.exec(__string) !== null",
-            "raw": "'__re.test() must return __re.exec(__string) !== null'"
+            "raw": "'__re.test() must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

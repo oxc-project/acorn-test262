@@ -52,14 +52,18 @@
                     "start": 1179,
                     "end": 1180,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1182,
                     "end": 1183,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -86,7 +90,9 @@
                       "start": 1201,
                       "end": 1206,
                       "value": "M05",
-                      "raw": "\"M05\""
+                      "raw": "\"M05\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -108,7 +114,9 @@
                       "start": 1213,
                       "end": 1214,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -119,7 +127,9 @@
                 "start": 1220,
                 "end": 1227,
                 "value": "05-02",
-                "raw": "\"05-02\""
+                "raw": "\"05-02\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -152,42 +162,54 @@
                 "start": 1255,
                 "end": 1257,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1259,
                 "end": 1270,
                 "value": "CONSTRAIN",
-                "raw": "\"CONSTRAIN\""
+                "raw": "\"CONSTRAIN\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1272,
                 "end": 1281,
                 "value": "balance",
-                "raw": "\"balance\""
+                "raw": "\"balance\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1283,
                 "end": 1297,
                 "value": "other string",
-                "raw": "\"other string\""
+                "raw": "\"other string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1299,
                 "end": 1315,
                 "value": "constraın",
-                "raw": "\"constra\\u0131n\""
+                "raw": "\"constra\\u0131n\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1317,
                 "end": 1327,
                 "value": "reject\u0000",
-                "raw": "\"reject\\0\""
+                "raw": "\"reject\\0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

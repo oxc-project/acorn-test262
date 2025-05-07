@@ -23,7 +23,9 @@
             "start": 272,
             "end": 280,
             "value": "uid=31",
-            "raw": "'uid=31'"
+            "raw": "'uid=31'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "(uid=)(\\d+)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -106,7 +109,9 @@
                 "start": 422,
                 "end": 427,
                 "value": "$11",
-                "raw": "\"$11\""
+                "raw": "\"$11\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -114,7 +119,9 @@
                 "start": 430,
                 "end": 435,
                 "value": "A15",
-                "raw": "'A15'"
+                "raw": "'A15'",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -126,7 +133,9 @@
           "start": 441,
           "end": 451,
           "value": "uid=1A15",
-          "raw": "'uid=1A15'"
+          "raw": "'uid=1A15'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -158,7 +167,9 @@
                     "start": 480,
                     "end": 598,
                     "value": "#1: var __str = 'uid=31'; var __re = /(uid=)(d+)/; __str.replace(__re, \"$11\" + 'A15')==='uid=1A15' . Actual: ",
-                    "raw": "'#1: var __str = \\'uid=31\\'; var __re = /(uid=)(\\d+)/; __str.replace(__re, \"$11\" + \\'A15\\')===\\'uid=1A15\\' . Actual: '"
+                    "raw": "'#1: var __str = \\'uid=31\\'; var __re = /(uid=)(\\d+)/; __str.replace(__re, \"$11\" + \\'A15\\')===\\'uid=1A15\\' . Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -200,7 +211,9 @@
                           "start": 621,
                           "end": 626,
                           "value": "$11",
-                          "raw": "\"$11\""
+                          "raw": "\"$11\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -208,7 +221,9 @@
                           "start": 629,
                           "end": 634,
                           "value": "A15",
-                          "raw": "'A15'"
+                          "raw": "'A15'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

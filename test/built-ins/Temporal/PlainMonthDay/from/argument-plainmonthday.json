@@ -47,14 +47,18 @@
                 "start": 340,
                 "end": 341,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 344,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -67,7 +71,9 @@
                 "start": 357,
                 "end": 361,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -179,28 +185,36 @@
             "start": 464,
             "end": 469,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 471,
             "end": 472,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 476,
             "end": 501,
             "value": "PlainMonthDay is copied",
-            "raw": "\"PlainMonthDay is copied\""
+            "raw": "\"PlainMonthDay is copied\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 525,
             "value": 2000,
-            "raw": "2000"
+            "raw": "2000",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +291,9 @@
             "start": 583,
             "end": 603,
             "value": "Calendar is copied",
-            "raw": "\"Calendar is copied\""
+            "raw": "\"Calendar is copied\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,7 +344,9 @@
             "start": 648,
             "end": 733,
             "value": "When a PlainMonthDay is given, the returned value is not the original PlainMonthDay",
-            "raw": "\"When a PlainMonthDay is given, the returned value is not the original PlainMonthDay\""
+            "raw": "\"When a PlainMonthDay is given, the returned value is not the original PlainMonthDay\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

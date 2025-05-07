@@ -84,7 +84,9 @@
                         "start": 296,
                         "end": 315,
                         "value": "\\u0022abc\\u0022",
-                        "raw": "\"\\\\u0022abc\\\\u0022\""
+                        "raw": "\"\\\\u0022abc\\\\u0022\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

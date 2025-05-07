@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
                 "start": 143,
                 "end": 145,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "CallExpression",
@@ -89,7 +91,9 @@ __ESTREE_TEST__:PASS:
                   "start": 107,
                   "end": 115,
                   "raw": "\"string\"",
-                  "value": "string"
+                  "value": "string",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -209,7 +213,9 @@ __ESTREE_TEST__:PASS:
                 "start": 273,
                 "end": 275,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "CallExpression",
@@ -270,7 +276,9 @@ __ESTREE_TEST__:PASS:
                   "start": 237,
                   "end": 245,
                   "raw": "\"string\"",
-                  "value": "string"
+                  "value": "string",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -357,7 +365,9 @@ __ESTREE_TEST__:PASS:
                 "start": 470,
                 "end": 472,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "CallExpression",
@@ -418,7 +428,9 @@ __ESTREE_TEST__:PASS:
                   "start": 434,
                   "end": 442,
                   "raw": "\"string\"",
-                  "value": "string"
+                  "value": "string",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -504,7 +516,9 @@ __ESTREE_TEST__:PASS:
                 "start": 621,
                 "end": 623,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "CallExpression",
@@ -565,7 +579,9 @@ __ESTREE_TEST__:PASS:
                   "start": 585,
                   "end": 593,
                   "raw": "\"string\"",
-                  "value": "string"
+                  "value": "string",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }

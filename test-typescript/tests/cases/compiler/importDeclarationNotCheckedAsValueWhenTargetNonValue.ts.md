@@ -345,7 +345,9 @@ __ESTREE_TEST__:PASS:
         "start": 361,
         "end": 402,
         "raw": "\"dojox/charting/axis2d/common.createText\"",
-        "value": "dojox/charting/axis2d/common.createText"
+        "value": "dojox/charting/axis2d/common.createText",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

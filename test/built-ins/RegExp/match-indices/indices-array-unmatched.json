@@ -23,7 +23,9 @@
             "start": 874,
             "end": 879,
             "value": "abd",
-            "raw": "\"abd\""
+            "raw": "\"abd\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -61,7 +63,8 @@
                 "regex": {
                   "pattern": "b(c)?",
                   "flags": "d"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -237,7 +240,9 @@
               "start": 1117,
               "end": 1118,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

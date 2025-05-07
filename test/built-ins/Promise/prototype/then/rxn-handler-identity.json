@@ -186,7 +186,9 @@
                                     "start": 404,
                                     "end": 458,
                                     "value": "Expected promise to be fulfilled with obj, actually ",
-                                    "raw": "\"Expected promise to be fulfilled with obj, actually \""
+                                    "raw": "\"Expected promise to be fulfilled with obj, actually \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -265,7 +267,9 @@
                             "start": 528,
                             "end": 565,
                             "value": "The promise should not be rejected.",
-                            "raw": "'The promise should not be rejected.'"
+                            "raw": "'The promise should not be rejected.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

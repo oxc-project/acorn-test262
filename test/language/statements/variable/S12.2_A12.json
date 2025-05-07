@@ -72,7 +72,9 @@
                     "start": 421,
                     "end": 487,
                     "value": "#1: Declaration variable inside \"do-while\" statement is admitted",
-                    "raw": "'#1: Declaration variable inside \"do-while\" statement is admitted'"
+                    "raw": "'#1: Declaration variable inside \"do-while\" statement is admitted'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -111,7 +113,9 @@
         "start": 592,
         "end": 597,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

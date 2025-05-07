@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
               "start": 24,
               "end": 36,
               "raw": "\"$$whatever\"",
-              "value": "$$whatever"
+              "value": "$$whatever",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -273,7 +275,9 @@ __ESTREE_TEST__:PASS:
         "start": 38,
         "end": 63,
         "raw": "\"hoist-non-react-statics\"",
-        "value": "hoist-non-react-statics"
+        "value": "hoist-non-react-statics",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -991,7 +995,9 @@ __ESTREE_TEST__:PASS:
                               "start": 608,
                               "end": 613,
                               "raw": "\"div\"",
-                              "value": "div"
+                              "value": "div",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1112,7 +1118,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 38,
         "raw": "\"styled-components\"",
-        "value": "styled-components"
+        "value": "styled-components",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

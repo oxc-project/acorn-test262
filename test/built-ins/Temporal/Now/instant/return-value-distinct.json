@@ -164,7 +164,9 @@
             "start": 400,
             "end": 472,
             "value": "The value of instant1 is expected to not equal the value of `instant2`",
-            "raw": "'The value of instant1 is expected to not equal the value of `instant2`'"
+            "raw": "'The value of instant1 is expected to not equal the value of `instant2`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

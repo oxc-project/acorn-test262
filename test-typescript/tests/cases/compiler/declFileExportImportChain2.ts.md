@@ -147,7 +147,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 49,
           "raw": "\"declFileExportImportChain2_a\"",
-          "value": "declFileExportImportChain2_a"
+          "value": "declFileExportImportChain2_a",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -205,7 +207,9 @@ __ESTREE_TEST__:PASS:
             "start": 26,
             "end": 56,
             "raw": "\"declFileExportImportChain2_b\"",
-            "value": "declFileExportImportChain2_b"
+            "value": "declFileExportImportChain2_b",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -248,7 +252,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 49,
           "raw": "\"declFileExportImportChain2_c\"",
-          "value": "declFileExportImportChain2_c"
+          "value": "declFileExportImportChain2_c",
+          "regex": null,
+          "bigint": null
         }
       }
     },

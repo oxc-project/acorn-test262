@@ -98,7 +98,9 @@
             "start": 694,
             "end": 705,
             "value": "x = yield",
-            "raw": "'x = yield'"
+            "raw": "'x = yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,14 +174,18 @@
                         "start": 769,
                         "end": 780,
                         "value": "x = yield",
-                        "raw": "'x = yield'"
+                        "raw": "'x = yield'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 782,
                         "end": 784,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -193,7 +199,9 @@
             "start": 790,
             "end": 831,
             "value": "YieldExpression not permitted generally",
-            "raw": "'YieldExpression not permitted generally'"
+            "raw": "'YieldExpression not permitted generally'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,14 +256,18 @@
                         "start": 891,
                         "end": 902,
                         "value": "x = yield",
-                        "raw": "'x = yield'"
+                        "raw": "'x = yield'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 904,
                         "end": 906,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -362,7 +374,9 @@
             "start": 984,
             "end": 1051,
             "value": "YieldExpression not permitted when calling context is a generator",
-            "raw": "'YieldExpression not permitted when calling context is a generator'"
+            "raw": "'YieldExpression not permitted when calling context is a generator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

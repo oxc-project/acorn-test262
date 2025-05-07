@@ -62,7 +62,9 @@
             "start": 1101,
             "end": 1106,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -175,7 +177,9 @@
                             "start": 1209,
                             "end": 1213,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "value": null
@@ -191,7 +195,9 @@
             "start": 1223,
             "end": 1272,
             "value": "computed property should have abrupt completion",
-            "raw": "'computed property should have abrupt completion'"
+            "raw": "'computed property should have abrupt completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +242,9 @@
             "start": 1307,
             "end": 1312,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -349,7 +357,9 @@
                             "start": 1423,
                             "end": 1427,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "value": null
@@ -365,7 +375,9 @@
             "start": 1437,
             "end": 1493,
             "value": "static computed property should have abrupt completion",
-            "raw": "'static computed property should have abrupt completion'"
+            "raw": "'static computed property should have abrupt completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -410,7 +422,9 @@
             "start": 1528,
             "end": 1533,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

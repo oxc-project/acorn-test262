@@ -62,14 +62,18 @@
             "start": 391,
             "end": 399,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 470,
             "value": "The value of `typeof Number.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof Number.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Number.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -119,7 +123,9 @@
               "start": 502,
               "end": 503,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -127,7 +133,9 @@
             "start": 505,
             "end": 556,
             "value": "The value of Number.prototype is expected to be 0",
-            "raw": "'The value of Number.prototype is expected to be 0'"
+            "raw": "'The value of Number.prototype is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -249,14 +257,18 @@
             "start": 646,
             "end": 663,
             "value": "[object Number]",
-            "raw": "\"[object Number]\""
+            "raw": "\"[object Number]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 726,
             "value": "Number.prototype.toString() must return \"[object Number]\"",
-            "raw": "'Number.prototype.toString() must return \"[object Number]\"'"
+            "raw": "'Number.prototype.toString() must return \"[object Number]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

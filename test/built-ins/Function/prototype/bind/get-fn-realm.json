@@ -254,7 +254,9 @@
           "start": 1527,
           "end": 1532,
           "value": "str",
-          "raw": "\"str\""
+          "raw": "\"str\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },

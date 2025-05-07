@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "[\\\\c-f]",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 437,
                 "end": 441,
                 "value": "\\",
-                "raw": "\"\\\\\""
+                "raw": "\"\\\\\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -136,7 +139,9 @@
                   "start": 460,
                   "end": 463,
                   "value": "b",
-                  "raw": "\"b\""
+                  "raw": "\"b\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -190,7 +195,9 @@
                 "start": 481,
                 "end": 484,
                 "value": "c",
-                "raw": "\"c\""
+                "raw": "\"c\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -243,7 +250,9 @@
                 "start": 502,
                 "end": 505,
                 "value": "d",
-                "raw": "\"d\""
+                "raw": "\"d\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -296,7 +305,9 @@
                 "start": 523,
                 "end": 526,
                 "value": "e",
-                "raw": "\"e\""
+                "raw": "\"e\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -349,7 +360,9 @@
                 "start": 544,
                 "end": 547,
                 "value": "f",
-                "raw": "\"f\""
+                "raw": "\"f\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -408,7 +421,9 @@
                   "start": 566,
                   "end": 569,
                   "value": "g",
-                  "raw": "\"g\""
+                  "raw": "\"g\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -468,7 +483,9 @@
                   "start": 588,
                   "end": 591,
                   "value": "-",
-                  "raw": "\"-\""
+                  "raw": "\"-\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

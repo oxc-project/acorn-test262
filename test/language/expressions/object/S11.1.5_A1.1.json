@@ -55,7 +55,9 @@
           "start": 362,
           "end": 370,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -87,7 +89,9 @@
                     "start": 399,
                     "end": 458,
                     "value": "#1: var object = {}; typeof object === \"object\". Actual: ",
-                    "raw": "'#1: var object = {}; typeof object === \"object\". Actual: '"
+                    "raw": "'#1: var object = {}; typeof object === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -148,7 +152,9 @@
           "start": 525,
           "end": 529,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -176,7 +182,9 @@
                   "start": 558,
                   "end": 614,
                   "value": "#2: var object = {}; object instanceof Object === true",
-                  "raw": "'#2: var object = {}; object instanceof Object === true'"
+                  "raw": "'#2: var object = {}; object instanceof Object === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -275,7 +283,9 @@
                     "start": 708,
                     "end": 786,
                     "value": "#3: var object = {}; object.toString === Object.prototype.toString. Actual: ",
-                    "raw": "'#3: var object = {}; object.toString === Object.prototype.toString. Actual: '"
+                    "raw": "'#3: var object = {}; object.toString === Object.prototype.toString. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -350,7 +360,9 @@
           "start": 848,
           "end": 865,
           "value": "[object Object]",
-          "raw": "\"[object Object]\""
+          "raw": "\"[object Object]\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -382,7 +394,9 @@
                     "start": 894,
                     "end": 964,
                     "value": "#4: var object = {}; object.toString === \"[object Object]\". Actual: ",
-                    "raw": "'#4: var object = {}; object.toString === \"[object Object]\". Actual: '"
+                    "raw": "'#4: var object = {}; object.toString === \"[object Object]\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

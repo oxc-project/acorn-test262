@@ -28,7 +28,9 @@
                 "start": 369,
                 "end": 380,
                 "value": "dayPeriod",
-                "raw": "\"dayPeriod\""
+                "raw": "\"dayPeriod\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -116,7 +118,9 @@
                             "start": 449,
                             "end": 457,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -197,7 +201,9 @@
                 "start": 546,
                 "end": 586,
                 "value": "DateTimeFormat returns invalid locale ",
-                "raw": "\"DateTimeFormat returns invalid locale \""
+                "raw": "\"DateTimeFormat returns invalid locale \"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -213,7 +219,9 @@
               "start": 598,
               "end": 601,
               "value": ".",
-              "raw": "\".\""
+              "raw": "\".\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

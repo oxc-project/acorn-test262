@@ -123,7 +123,9 @@
           "start": 731,
           "end": 735,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -197,7 +199,9 @@
                             "start": 779,
                             "end": 780,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -229,7 +233,9 @@
             "start": 821,
             "end": 890,
             "value": "[1].concat(spreadableLengthOutOfRange) throws a TypeError exception",
-            "raw": "'[1].concat(spreadableLengthOutOfRange) throws a TypeError exception'"
+            "raw": "'[1].concat(spreadableLengthOutOfRange) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +338,9 @@
                                 "start": 998,
                                 "end": 1006,
                                 "value": "length",
-                                "raw": "\"length\""
+                                "raw": "\"length\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -462,7 +470,9 @@
                         "start": 1114,
                         "end": 1115,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -482,7 +492,9 @@
             "start": 1156,
             "end": 1234,
             "value": "[].concat(1, proxyForArrayWithLengthOutOfRange) throws a TypeError exception",
-            "raw": "'[].concat(1, proxyForArrayWithLengthOutOfRange) throws a TypeError exception'"
+            "raw": "'[].concat(1, proxyForArrayWithLengthOutOfRange) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

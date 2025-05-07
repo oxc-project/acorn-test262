@@ -118,7 +118,9 @@
                   "start": 612,
                   "end": 621,
                   "value": "SHIFTED",
-                  "raw": "\"SHIFTED\""
+                  "raw": "\"SHIFTED\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -240,7 +242,9 @@
           "start": 833,
           "end": 841,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -272,7 +276,9 @@
                     "start": 870,
                     "end": 951,
                     "value": "#1: __str = new String({}); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String({}); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String({}); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -360,7 +366,9 @@
                     "start": 1206,
                     "end": 1297,
                     "value": "#1.5: __str = new String({}); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String({}); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String({}); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -410,7 +418,9 @@
           "start": 1507,
           "end": 1516,
           "value": "SHIFTED",
-          "raw": "\"SHIFTED\""
+          "raw": "\"SHIFTED\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -442,7 +452,9 @@
                     "start": 1545,
                     "end": 1666,
                     "value": "#2: Object.prototype.toString=function(){return \"SHIFTED\"}; __str = new String({}); __str ==\"SHIFTED\". Actual: __str ==",
-                    "raw": "'#2: Object.prototype.toString=function(){return \"SHIFTED\"}; __str = new String({}); __str ==\"SHIFTED\". Actual: __str =='"
+                    "raw": "'#2: Object.prototype.toString=function(){return \"SHIFTED\"}; __str = new String({}); __str ==\"SHIFTED\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:)",
               "flags": "m"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -171,7 +172,9 @@
                 "start": 753,
                 "end": 765,
                 "value": "ignoreCase",
-                "raw": "\"ignoreCase\""
+                "raw": "\"ignoreCase\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -254,7 +257,9 @@
               "start": 815,
               "end": 826,
               "value": "lastIndex",
-              "raw": "\"lastIndex\""
+              "raw": "\"lastIndex\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -417,7 +422,9 @@
               "start": 971,
               "end": 977,
               "value": "name",
-              "raw": "\"name\""
+              "raw": "\"name\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -455,7 +462,9 @@
               "start": 1004,
               "end": 1012,
               "value": "length",
-              "raw": "\"length\""
+              "raw": "\"length\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {

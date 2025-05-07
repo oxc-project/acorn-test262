@@ -71,7 +71,9 @@
                               "start": 410,
                               "end": 444,
                               "value": "This error should be propagated.",
-                              "raw": "'This error should be propagated.'"
+                              "raw": "'This error should be propagated.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

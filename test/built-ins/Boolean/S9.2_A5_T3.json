@@ -47,7 +47,9 @@
                 "start": 415,
                 "end": 418,
                 "value": " ",
-                "raw": "\" \""
+                "raw": "\" \"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 421,
             "end": 425,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 458,
             "value": "Boolean(\" \") must return true",
-            "raw": "'Boolean(\" \") must return true'"
+            "raw": "'Boolean(\" \") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +120,9 @@
                 "start": 486,
                 "end": 503,
                 "value": "Nonempty String",
-                "raw": "\"Nonempty String\""
+                "raw": "\"Nonempty String\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,14 +132,18 @@
             "start": 506,
             "end": 510,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 557,
             "value": "Boolean(\"Nonempty String\") must return true",
-            "raw": "'Boolean(\"Nonempty String\") must return true'"
+            "raw": "'Boolean(\"Nonempty String\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

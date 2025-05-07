@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 33,
                 "end": 34,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -82,7 +84,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 29,
         "raw": "\"./enum\"",
-        "value": "./enum"
+        "value": "./enum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -223,7 +227,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 30,
         "raw": "\"./merge\"",
-        "value": "./merge"
+        "value": "./merge",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -52,6 +52,7 @@
                   "end": 356,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -64,6 +65,7 @@
               "end": 362,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -73,6 +75,7 @@
             "end": 366,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -80,7 +83,9 @@
             "start": 368,
             "end": 407,
             "value": "The result of (Object(2n) | 1n) is 3n",
-            "raw": "'The result of (Object(2n) | 1n) is 3n'"
+            "raw": "'The result of (Object(2n) | 1n) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,6 +129,7 @@
               "end": 429,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "|",
@@ -144,6 +150,7 @@
                   "end": 441,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -156,6 +163,7 @@
             "end": 446,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -163,7 +171,9 @@
             "start": 448,
             "end": 487,
             "value": "The result of (1n | Object(2n)) is 3n",
-            "raw": "'The result of (1n | Object(2n)) is 3n'"
+            "raw": "'The result of (1n | Object(2n)) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,6 +266,7 @@
                             "end": 560,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -273,6 +284,7 @@
               "end": 572,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -282,6 +294,7 @@
             "end": 576,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -289,7 +302,9 @@
             "start": 578,
             "end": 656,
             "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) | 1n) is 3n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) | 1n) is 3n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) | 1n) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,6 +348,7 @@
               "end": 679,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "|",
@@ -391,6 +407,7 @@
                             "end": 734,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -408,6 +425,7 @@
             "end": 745,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -415,7 +433,9 @@
             "start": 747,
             "end": 823,
             "value": "The result of (1n | {[Symbol.toPrimitive]: function() {return 2n;}}) is 3n",
-            "raw": "'The result of (1n | {[Symbol.toPrimitive]: function() {return 2n;}}) is 3n'"
+            "raw": "'The result of (1n | {[Symbol.toPrimitive]: function() {return 2n;}}) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,6 +515,7 @@
                             "end": 883,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -512,6 +533,7 @@
               "end": 895,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -521,6 +543,7 @@
             "end": 899,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -528,7 +551,9 @@
             "start": 901,
             "end": 966,
             "value": "The result of (({valueOf: function() {return 2n;}}) | 1n) is 3n",
-            "raw": "'The result of (({valueOf: function() {return 2n;}}) | 1n) is 3n'"
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) | 1n) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,6 +597,7 @@
               "end": 989,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "|",
@@ -617,6 +643,7 @@
                             "end": 1031,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -634,6 +661,7 @@
             "end": 1042,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -641,7 +669,9 @@
             "start": 1044,
             "end": 1107,
             "value": "The result of (1n | {valueOf: function() {return 2n;}}) is 3n",
-            "raw": "'The result of (1n | {valueOf: function() {return 2n;}}) is 3n'"
+            "raw": "'The result of (1n | {valueOf: function() {return 2n;}}) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,6 +751,7 @@
                             "end": 1168,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -738,6 +769,7 @@
               "end": 1180,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -747,6 +779,7 @@
             "end": 1184,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -754,7 +787,9 @@
             "start": 1186,
             "end": 1252,
             "value": "The result of (({toString: function() {return 2n;}}) | 1n) is 3n",
-            "raw": "'The result of (({toString: function() {return 2n;}}) | 1n) is 3n'"
+            "raw": "'The result of (({toString: function() {return 2n;}}) | 1n) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,6 +833,7 @@
               "end": 1275,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "|",
@@ -843,6 +879,7 @@
                             "end": 1318,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -860,6 +897,7 @@
             "end": 1329,
             "value": null,
             "raw": "3n",
+            "regex": null,
             "bigint": "3"
           },
           {
@@ -867,7 +905,9 @@
             "start": 1331,
             "end": 1395,
             "value": "The result of (1n | {toString: function() {return 2n;}}) is 3n",
-            "raw": "'The result of (1n | {toString: function() {return 2n;}}) is 3n'"
+            "raw": "'The result of (1n | {toString: function() {return 2n;}}) is 3n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

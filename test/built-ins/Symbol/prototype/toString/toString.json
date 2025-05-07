@@ -58,7 +58,9 @@
                     "start": 269,
                     "end": 273,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -71,14 +73,18 @@
             "start": 279,
             "end": 291,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 295,
             "end": 342,
             "value": "`String(Symbol('66'))` returns `'Symbol(66)'`",
-            "raw": "\"`String(Symbol('66'))` returns `'Symbol(66)'`\""
+            "raw": "\"`String(Symbol('66'))` returns `'Symbol(66)'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -136,7 +142,9 @@
                     "start": 372,
                     "end": 376,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -158,14 +166,18 @@
             "start": 392,
             "end": 404,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 458,
             "value": "`Symbol('66').toString()` returns `'Symbol(66)'`",
-            "raw": "\"`Symbol('66').toString()` returns `'Symbol(66)'`\""
+            "raw": "\"`Symbol('66').toString()` returns `'Symbol(66)'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +246,9 @@
                         "start": 496,
                         "end": 500,
                         "value": "66",
-                        "raw": "'66'"
+                        "raw": "'66'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -259,14 +273,18 @@
             "start": 517,
             "end": 529,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 591,
             "value": "`Object(Symbol('66')).toString()` returns `'Symbol(66)'`",
-            "raw": "\"`Object(Symbol('66')).toString()` returns `'Symbol(66)'`\""
+            "raw": "\"`Object(Symbol('66')).toString()` returns `'Symbol(66)'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -366,7 +384,9 @@
                     "start": 653,
                     "end": 657,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -379,14 +399,18 @@
             "start": 663,
             "end": 675,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 679,
             "end": 750,
             "value": "`Symbol.prototype.toString.call(Symbol('66'))` returns `'Symbol(66)'`",
-            "raw": "\"`Symbol.prototype.toString.call(Symbol('66'))` returns `'Symbol(66)'`\""
+            "raw": "\"`Symbol.prototype.toString.call(Symbol('66'))` returns `'Symbol(66)'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -115,7 +115,9 @@
             "start": 583,
             "end": 615,
             "value": "`length` parameter is a Symbol",
-            "raw": "\"`length` parameter is a Symbol\""
+            "raw": "\"`length` parameter is a Symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

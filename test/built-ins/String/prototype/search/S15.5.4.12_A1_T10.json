@@ -59,7 +59,9 @@
                           "start": 367,
                           "end": 376,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -93,7 +95,9 @@
             "start": 397,
             "end": 415,
             "value": "ssABBABABAB",
-            "raw": "\"ssABB\\u0041BABAB\""
+            "raw": "\"ssABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -146,7 +150,9 @@
           "start": 535,
           "end": 536,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +184,9 @@
                     "start": 565,
                     "end": 691,
                     "value": "#1: var __obj = {toString:function(){return \"AB\";}}; var __str = \"ssABBABABAB\"; __str.search(__obj) ===2. Actual: ",
-                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; var __str = \"ssABB\\u0041BABAB\"; __str.search(__obj) ===2. Actual: '"
+                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; var __str = \"ssABB\\u0041BABAB\"; __str.search(__obj) ===2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -94,7 +94,9 @@
                     "start": 518,
                     "end": 586,
                     "value": "#1: Function.prototype.isPrototypeOf(String) return true. Actual: ",
-                    "raw": "'#1: Function.prototype.isPrototypeOf(String) return true. Actual: '"
+                    "raw": "'#1: Function.prototype.isPrototypeOf(String) return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

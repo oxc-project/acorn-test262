@@ -70,7 +70,9 @@
                             "start": 1015,
                             "end": 1016,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -175,14 +177,18 @@
                         "start": 1095,
                         "end": 1099,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1101,
                         "end": 1148,
                         "value": "The value of `delete sample.Infinity` is true",
-                        "raw": "'The value of `delete sample.Infinity` is true'"
+                        "raw": "'The value of `delete sample.Infinity` is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -73,7 +73,9 @@
                 "start": 457,
                 "end": 461,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 464,
             "end": 471,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 527,
             "value": "Boolean.prototype.toString(true) must return \"false\"",
-            "raw": "'Boolean.prototype.toString(true) must return \"false\"'"
+            "raw": "'Boolean.prototype.toString(true) must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -164,7 +170,9 @@
                 "start": 572,
                 "end": 576,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -174,14 +182,18 @@
             "start": 579,
             "end": 586,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 640,
             "value": "(new Boolean()).toString(true) must return \"false\"",
-            "raw": "'(new Boolean()).toString(true) must return \"false\"'"
+            "raw": "'(new Boolean()).toString(true) must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +255,9 @@
                       "start": 677,
                       "end": 682,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -263,7 +277,9 @@
                 "start": 694,
                 "end": 698,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -273,14 +289,18 @@
             "start": 703,
             "end": 710,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 714,
             "end": 771,
             "value": "(new Boolean(false)).toString(true) must return \"false\"",
-            "raw": "'(new Boolean(false)).toString(true) must return \"false\"'"
+            "raw": "'(new Boolean(false)).toString(true) must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -342,7 +362,9 @@
                       "start": 809,
                       "end": 813,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -362,7 +384,9 @@
                 "start": 825,
                 "end": 830,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -372,14 +396,18 @@
             "start": 835,
             "end": 841,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 845,
             "end": 901,
             "value": "(new Boolean(true)).toString(false) must return \"true\"",
-            "raw": "'(new Boolean(true)).toString(false) must return \"true\"'"
+            "raw": "'(new Boolean(true)).toString(false) must return \"true\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -441,7 +469,9 @@
                       "start": 936,
                       "end": 937,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -461,7 +491,9 @@
                 "start": 949,
                 "end": 954,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -471,14 +503,18 @@
             "start": 957,
             "end": 963,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 965,
             "end": 1018,
             "value": "(new Boolean(1)).toString(false) must return \"true\"",
-            "raw": "'(new Boolean(1)).toString(false) must return \"true\"'"
+            "raw": "'(new Boolean(1)).toString(false) must return \"true\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,7 +576,9 @@
                       "start": 1051,
                       "end": 1052,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -560,7 +598,9 @@
                 "start": 1064,
                 "end": 1068,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -570,14 +610,18 @@
             "start": 1071,
             "end": 1078,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1133,
             "value": "(new Boolean(0)).toString(true) must return \"false\"",
-            "raw": "'(new Boolean(0)).toString(true) must return \"false\"'"
+            "raw": "'(new Boolean(0)).toString(true) must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -664,7 +708,9 @@
                 "start": 1194,
                 "end": 1199,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -674,14 +720,18 @@
             "start": 1204,
             "end": 1210,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1214,
             "end": 1278,
             "value": "(new Boolean(new Object())).toString(false) must return \"true\"",
-            "raw": "'(new Boolean(new Object())).toString(false) must return \"true\"'"
+            "raw": "'(new Boolean(new Object())).toString(false) must return \"true\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -92,28 +92,36 @@
                 "start": 407,
                 "end": 415,
                 "value": "locale",
-                "raw": "\"locale\""
+                "raw": "\"locale\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 419,
                 "end": 426,
                 "value": "style",
-                "raw": "\"style\""
+                "raw": "\"style\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 439,
                 "value": "numeric",
-                "raw": "\"numeric\""
+                "raw": "\"numeric\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 460,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -221,7 +229,9 @@
                   "start": 649,
                   "end": 657,
                   "value": "locale",
-                  "raw": "\"locale\""
+                  "raw": "\"locale\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -238,7 +248,9 @@
                 "start": 662,
                 "end": 663,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -247,7 +259,9 @@
             "start": 665,
             "end": 688,
             "value": "\"locale\" is present",
-            "raw": "\"\\\"locale\\\" is present\""
+            "raw": "\"\\\"locale\\\" is present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +291,9 @@
               "start": 704,
               "end": 705,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -401,7 +417,9 @@
                             "start": 849,
                             "end": 850,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "computed": true,
@@ -489,7 +507,9 @@
                           "start": 899,
                           "end": 900,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "computed": true,

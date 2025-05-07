@@ -59,7 +59,9 @@
                       "start": 323,
                       "end": 326,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -81,14 +83,18 @@
             "start": 340,
             "end": 345,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 347,
             "end": 394,
             "value": "(new Number(\"a\")).toFixed() must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed() must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed() must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +156,9 @@
                       "start": 426,
                       "end": 429,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -170,7 +178,9 @@
                 "start": 440,
                 "end": 441,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -180,14 +190,18 @@
             "start": 444,
             "end": 449,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 499,
             "value": "(new Number(\"a\")).toFixed(0) must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(0) must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(0) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -249,7 +263,9 @@
                       "start": 531,
                       "end": 534,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -269,7 +285,9 @@
                 "start": 545,
                 "end": 546,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -279,14 +297,18 @@
             "start": 549,
             "end": 554,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 604,
             "value": "(new Number(\"a\")).toFixed(1) must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(1) must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(1) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +370,9 @@
                       "start": 636,
                       "end": 639,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -368,7 +392,9 @@
                 "start": 650,
                 "end": 653,
                 "value": 1.1,
-                "raw": "1.1"
+                "raw": "1.1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -378,14 +404,18 @@
             "start": 656,
             "end": 661,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 713,
             "value": "(new Number(\"a\")).toFixed(1.1) must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(1.1) must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(1.1) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -447,7 +477,9 @@
                       "start": 745,
                       "end": 748,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -467,7 +499,9 @@
                 "start": 759,
                 "end": 762,
                 "value": 0.9,
-                "raw": "0.9"
+                "raw": "0.9",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -477,14 +511,18 @@
             "start": 765,
             "end": 770,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 822,
             "value": "(new Number(\"a\")).toFixed(0.9) must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(0.9) must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(0.9) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +584,9 @@
                       "start": 854,
                       "end": 857,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -566,7 +606,9 @@
                 "start": 868,
                 "end": 871,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -576,14 +618,18 @@
             "start": 874,
             "end": 879,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 881,
             "end": 931,
             "value": "(new Number(\"a\")).toFixed(\"1\") must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(\"1\") must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(\"1\") must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -645,7 +691,9 @@
                       "start": 963,
                       "end": 966,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -665,7 +713,9 @@
                 "start": 977,
                 "end": 982,
                 "value": "1.1",
-                "raw": "\"1.1\""
+                "raw": "\"1.1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -675,14 +725,18 @@
             "start": 985,
             "end": 990,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 992,
             "end": 1044,
             "value": "(new Number(\"a\")).toFixed(\"1.1\") must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(\"1.1\") must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(\"1.1\") must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -744,7 +798,9 @@
                       "start": 1076,
                       "end": 1079,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -764,7 +820,9 @@
                 "start": 1090,
                 "end": 1095,
                 "value": "0.9",
-                "raw": "\"0.9\""
+                "raw": "\"0.9\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -774,14 +832,18 @@
             "start": 1098,
             "end": 1103,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1105,
             "end": 1157,
             "value": "(new Number(\"a\")).toFixed(\"0.9\") must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(\"0.9\") must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(\"0.9\") must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -843,7 +905,9 @@
                       "start": 1193,
                       "end": 1196,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -885,14 +949,18 @@
             "start": 1222,
             "end": 1227,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1231,
             "end": 1288,
             "value": "(new Number(\"a\")).toFixed(Number.NaN) must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(Number.NaN) must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(Number.NaN) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -954,7 +1022,9 @@
                       "start": 1325,
                       "end": 1328,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -974,7 +1044,9 @@
                 "start": 1339,
                 "end": 1352,
                 "value": "some string",
-                "raw": "\"some string\""
+                "raw": "\"some string\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -984,14 +1056,18 @@
             "start": 1357,
             "end": 1362,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1366,
             "end": 1426,
             "value": "(new Number(\"a\")).toFixed(\"some string\") must return \"NaN\"",
-            "raw": "'(new Number(\"a\")).toFixed(\"some string\") must return \"NaN\"'"
+            "raw": "'(new Number(\"a\")).toFixed(\"some string\") must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1049,7 +1125,9 @@
                           "start": 1455,
                           "end": 1458,
                           "value": "a",
-                          "raw": "\"a\""
+                          "raw": "\"a\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -1108,7 +1186,9 @@
                   "start": 1521,
                   "end": 1619,
                   "value": "#10: (new Number(\"a\")).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN",
-                  "raw": "'#10: (new Number(\"a\")).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN'"
+                  "raw": "'#10: (new Number(\"a\")).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1168,7 +1248,9 @@
                     "start": 1670,
                     "end": 1745,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

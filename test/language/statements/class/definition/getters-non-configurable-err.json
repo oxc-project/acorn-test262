@@ -78,7 +78,9 @@
                           "start": 578,
                           "end": 589,
                           "value": "prototype",
-                          "raw": "'prototype'"
+                          "raw": "'prototype'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "get",
                         "value": {

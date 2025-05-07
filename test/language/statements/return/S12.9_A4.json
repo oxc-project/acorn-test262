@@ -122,7 +122,9 @@
                                 "start": 504,
                                 "end": 505,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "*",
                               "right": {
@@ -285,7 +287,9 @@
               "start": 582,
               "end": 589,
               "value": 0.00001,
-              "raw": "0.00001"
+              "raw": "0.00001",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -344,7 +348,9 @@
                   "start": 728,
                   "end": 729,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -404,7 +410,9 @@
                   "start": 752,
                   "end": 753,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -417,7 +425,9 @@
           "start": 758,
           "end": 765,
           "value": 0.00001,
-          "raw": "0.00001"
+          "raw": "0.00001",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -445,7 +455,9 @@
                   "start": 793,
                   "end": 880,
                   "value": "#1: return Expression yields to Return (return, GetValue(Evaluate Expression), empty)",
-                  "raw": "'#1: return Expression yields to Return (return, GetValue(Evaluate Expression), empty)'"
+                  "raw": "'#1: return Expression yields to Return (return, GetValue(Evaluate Expression), empty)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -104,7 +104,9 @@
                       "start": 767,
                       "end": 770,
                       "value": 123,
-                      "raw": "123"
+                      "raw": "123",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -140,7 +142,9 @@
                     "start": 798,
                     "end": 799,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "cases": [
                     {
@@ -175,7 +179,9 @@
                         "start": 812,
                         "end": 813,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -233,7 +239,9 @@
             "start": 888,
             "end": 927,
             "value": "binding is initialized to `undefined`",
-            "raw": "'binding is initialized to `undefined`'"
+            "raw": "'binding is initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,14 +286,18 @@
             "start": 956,
             "end": 959,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 961,
             "end": 981,
             "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "raw": "'binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -358,7 +370,9 @@
             "start": 1035,
             "end": 1066,
             "value": "global binding is not created",
-            "raw": "'global binding is not created'"
+            "raw": "'global binding is not created'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

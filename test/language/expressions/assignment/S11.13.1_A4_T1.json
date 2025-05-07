@@ -54,7 +54,9 @@
             "start": 295,
             "end": 296,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -79,7 +81,9 @@
           "start": 308,
           "end": 309,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -111,7 +115,9 @@
                     "start": 338,
                     "end": 419,
                     "value": "#1: The expression x = x = 1 is the same x = (x = 1), not (x = x) = 1. Actual: ",
-                    "raw": "'#1: The expression x = x = 1 is the same x = (x = 1), not (x = x) = 1. Actual: '"
+                    "raw": "'#1: The expression x = x = 1 is the same x = (x = 1), not (x = x) = 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

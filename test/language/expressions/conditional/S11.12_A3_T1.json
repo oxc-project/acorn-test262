@@ -24,21 +24,27 @@
               "start": 277,
               "end": 282,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 285,
               "end": 290,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 293,
               "end": 297,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -48,7 +54,9 @@
           "start": 303,
           "end": 307,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +84,9 @@
                   "start": 336,
                   "end": 373,
                   "value": "#1: (false ? false : true) === true",
-                  "raw": "'#1: (false ? false : true) === true'"
+                  "raw": "'#1: (false ? false : true) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -116,7 +126,9 @@
                 "start": 409,
                 "end": 413,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -145,14 +157,18 @@
               "start": 421,
               "end": 426,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 429,
               "end": 433,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Identifier",
@@ -195,7 +211,9 @@
                   "start": 473,
                   "end": 531,
                   "value": "#2: (var y = new Boolean(true); (false ? true : z) === z",
-                  "raw": "'#2: (var y = new Boolean(true); (false ? true : z) === z'"
+                  "raw": "'#2: (var y = new Boolean(true); (false ? true : z) === z'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

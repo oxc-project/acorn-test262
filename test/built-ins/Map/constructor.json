@@ -49,14 +49,18 @@
             "start": 339,
             "end": 349,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 377,
             "value": "typeof Map is \"function\"",
-            "raw": "'typeof Map is \"function\"'"
+            "raw": "'typeof Map is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,7 +35,9 @@
                   "start": 400,
                   "end": 415,
                   "value": "format getter",
-                  "raw": "\"format getter\""
+                  "raw": "\"format getter\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "MemberExpression",
@@ -102,7 +104,9 @@
                         "start": 480,
                         "end": 488,
                         "value": "format",
-                        "raw": "\"format\""
+                        "raw": "\"format\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -215,28 +219,36 @@
                 "start": 598,
                 "end": 602,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 604,
                 "end": 608,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 610,
                 "end": 611,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 629,
                 "value": "DateTimeFormat",
-                "raw": "\"DateTimeFormat\""
+                "raw": "\"DateTimeFormat\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -529,7 +541,9 @@
                                             "start": 882,
                                             "end": 892,
                                             "value": "Calling ",
-                                            "raw": "\"Calling \""
+                                            "raw": "\"Calling \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -545,7 +559,9 @@
                                           "start": 910,
                                           "end": 916,
                                           "value": " on ",
-                                          "raw": "\" on \""
+                                          "raw": "\" on \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -562,7 +578,9 @@
                                       "start": 928,
                                       "end": 948,
                                       "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "raw": "\" was not rejected.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

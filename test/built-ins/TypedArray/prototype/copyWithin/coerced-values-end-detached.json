@@ -125,7 +125,9 @@
                           "start": 986,
                           "end": 989,
                           "value": 900,
-                          "raw": "900"
+                          "raw": "900",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -189,7 +191,9 @@
                       "start": 1031,
                       "end": 1036,
                       "value": 10000,
-                      "raw": "10000"
+                      "raw": "10000",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -226,14 +230,18 @@
                         "start": 1140,
                         "end": 1141,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1143,
                         "end": 1144,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -356,14 +364,18 @@
                                     "start": 1226,
                                     "end": 1227,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1229,
                                     "end": 1232,
                                     "value": 100,
-                                    "raw": "100"
+                                    "raw": "100",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -405,7 +417,9 @@
                         "start": 1274,
                         "end": 1319,
                         "value": "should throw TypeError as array is detached",
-                        "raw": "\"should throw TypeError as array is detached\""
+                        "raw": "\"should throw TypeError as array is detached\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

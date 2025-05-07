@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "abc",
               "flags": "gim"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -57,7 +58,8 @@
             "regex": {
               "pattern": "def",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -116,7 +118,9 @@
           "start": 755,
           "end": 757,
           "value": 23,
-          "raw": "23"
+          "raw": "23",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -153,7 +157,9 @@
           "start": 779,
           "end": 781,
           "value": 45,
-          "raw": "45"
+          "raw": "45",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -252,7 +258,9 @@
             "start": 854,
             "end": 875,
             "value": "method return value",
-            "raw": "'method return value'"
+            "raw": "'method return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -310,7 +318,9 @@
             "start": 914,
             "end": 915,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +378,9 @@
             "start": 954,
             "end": 956,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,7 +464,9 @@
                     "start": 1008,
                     "end": 1013,
                     "value": "def",
-                    "raw": "'def'"
+                    "raw": "'def'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -529,7 +543,9 @@
                 "start": 1061,
                 "end": 1066,
                 "value": "def",
-                "raw": "'def'"
+                "raw": "'def'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -539,14 +555,18 @@
             "start": 1069,
             "end": 1073,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1075,
             "end": 1117,
             "value": "[[RegExpMatcher]] internal slot (source)",
-            "raw": "'[[RegExpMatcher]] internal slot (source)'"
+            "raw": "'[[RegExpMatcher]] internal slot (source)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -609,7 +629,9 @@
                 "start": 1154,
                 "end": 1159,
                 "value": "DEF",
-                "raw": "'DEF'"
+                "raw": "'DEF'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -619,14 +641,18 @@
             "start": 1162,
             "end": 1167,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1169,
             "end": 1208,
             "value": "[[RegExpMatch]] internal slot (flags)",
-            "raw": "'[[RegExpMatch]] internal slot (flags)'"
+            "raw": "'[[RegExpMatch]] internal slot (flags)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

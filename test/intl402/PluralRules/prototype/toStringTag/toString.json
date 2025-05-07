@@ -121,7 +121,9 @@
             "start": 790,
             "end": 817,
             "value": "[object Intl.PluralRules]",
-            "raw": "\"[object Intl.PluralRules]\""
+            "raw": "\"[object Intl.PluralRules]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +240,9 @@
             "start": 893,
             "end": 920,
             "value": "[object Intl.PluralRules]",
-            "raw": "\"[object Intl.PluralRules]\""
+            "raw": "\"[object Intl.PluralRules]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

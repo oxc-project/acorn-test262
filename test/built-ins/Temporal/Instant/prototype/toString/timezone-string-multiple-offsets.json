@@ -48,6 +48,7 @@
                 "end": 322,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -76,7 +77,9 @@
             "start": 342,
             "end": 387,
             "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]",
-            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\""
+            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -219,7 +222,9 @@
                   "start": 470,
                   "end": 471,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -230,14 +235,18 @@
             "start": 474,
             "end": 482,
             "value": "+01:46",
-            "raw": "\"+01:46\""
+            "raw": "\"+01:46\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 531,
             "value": "Time zone string determined from bracket name",
-            "raw": "\"Time zone string determined from bracket name\""
+            "raw": "\"Time zone string determined from bracket name\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

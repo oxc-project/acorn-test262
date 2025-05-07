@@ -65,7 +65,9 @@
                         "start": 541,
                         "end": 542,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",

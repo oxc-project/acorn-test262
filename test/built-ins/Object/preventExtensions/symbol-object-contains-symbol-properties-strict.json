@@ -34,7 +34,9 @@
                 "start": 306,
                 "end": 309,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 330,
                 "end": 333,
                 "value": "B",
-                "raw": "\"B\""
+                "raw": "\"B\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -114,7 +118,9 @@
                 "start": 354,
                 "end": 357,
                 "value": "C",
-                "raw": "\"C\""
+                "raw": "\"C\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -181,7 +187,9 @@
           "start": 386,
           "end": 387,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -256,7 +264,9 @@
           "start": 432,
           "end": 433,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -341,7 +351,9 @@
                       "start": 488,
                       "end": 489,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -463,7 +475,9 @@
                               "start": 582,
                               "end": 583,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -532,14 +546,18 @@
             "start": 623,
             "end": 624,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 659,
             "value": "The value of `obj[symA]` is `2`",
-            "raw": "\"The value of `obj[symA]` is `2`\""
+            "raw": "\"The value of `obj[symA]` is `2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -604,14 +622,18 @@
             "start": 697,
             "end": 701,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 733,
             "value": "`delete obj[symA]` is `true`",
-            "raw": "\"`delete obj[symA]` is `true`\""
+            "raw": "\"`delete obj[symA]` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -675,7 +697,9 @@
             "start": 775,
             "end": 816,
             "value": "The value of `obj[symB]` is `undefined`",
-            "raw": "\"The value of `obj[symB]` is `undefined`\""
+            "raw": "\"The value of `obj[symB]` is `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -739,7 +763,9 @@
             "start": 858,
             "end": 899,
             "value": "The value of `obj[symC]` is `undefined`",
-            "raw": "\"The value of `obj[symC]` is `undefined`\""
+            "raw": "\"The value of `obj[symC]` is `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

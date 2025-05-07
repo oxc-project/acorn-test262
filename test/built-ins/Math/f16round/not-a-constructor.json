@@ -63,7 +63,9 @@
             "start": 382,
             "end": 418,
             "value": "Math.f16round is not a constructor",
-            "raw": "\"Math.f16round is not a constructor\""
+            "raw": "\"Math.f16round is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

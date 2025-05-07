@@ -48,6 +48,7 @@
                 "end": 339,
                 "value": null,
                 "raw": "1588377600_000_000_000n",
+                "regex": null,
                 "bigint": "1588377600000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 341,
                 "end": 346,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,7 +86,9 @@
             "start": 364,
             "end": 396,
             "value": "2016-12-31T23:59:60+00:00[UTC]",
-            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -151,7 +156,9 @@
                       "start": 430,
                       "end": 434,
                       "value": 2020,
-                      "raw": "2020"
+                      "raw": "2020",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -173,7 +180,9 @@
                       "start": 443,
                       "end": 444,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -195,7 +204,9 @@
                       "start": 451,
                       "end": 452,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -230,7 +241,9 @@
             "start": 467,
             "end": 515,
             "value": "leap second is a valid ISO string for TimeZone",
-            "raw": "\"leap second is a valid ISO string for TimeZone\""
+            "raw": "\"leap second is a valid ISO string for TimeZone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,7 +269,9 @@
           "start": 530,
           "end": 578,
           "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
-          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\""
+          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -350,7 +365,9 @@
                         "start": 636,
                         "end": 640,
                         "value": 2020,
-                        "raw": "2020"
+                        "raw": "2020",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -372,7 +389,9 @@
                         "start": 649,
                         "end": 650,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -394,7 +413,9 @@
                         "start": 657,
                         "end": 658,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -430,7 +451,9 @@
             "start": 673,
             "end": 714,
             "value": "leap second in time zone name not valid",
-            "raw": "\"leap second in time zone name not valid\""
+            "raw": "\"leap second in time zone name not valid\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

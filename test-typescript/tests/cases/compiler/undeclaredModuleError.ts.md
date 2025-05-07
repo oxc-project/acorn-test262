@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 24,
           "raw": "'fs'",
-          "value": "fs"
+          "value": "fs",
+          "regex": null,
+          "bigint": null
         }
       }
     },

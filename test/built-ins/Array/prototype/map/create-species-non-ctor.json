@@ -56,14 +56,18 @@
             "start": 762,
             "end": 767,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 771,
             "end": 828,
             "value": "precondition: isConstructor(parseInt) must return false",
-            "raw": "'precondition: isConstructor(parseInt) must return false'"
+            "raw": "'precondition: isConstructor(parseInt) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +118,9 @@
             "start": 861,
             "end": 862,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -169,7 +175,9 @@
                       "start": 901,
                       "end": 902,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -372,7 +380,9 @@
             "start": 1025,
             "end": 1065,
             "value": "a.map(cb) throws a TypeError exception",
-            "raw": "'a.map(cb) throws a TypeError exception'"
+            "raw": "'a.map(cb) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -417,7 +427,9 @@
             "start": 1096,
             "end": 1097,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

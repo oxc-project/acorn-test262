@@ -86,7 +86,9 @@
                               "start": 271,
                               "end": 278,
                               "value": "inner",
-                              "raw": "'inner'"
+                              "raw": "'inner'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -169,7 +171,9 @@
                         "start": 395,
                         "end": 402,
                         "value": "outer",
-                        "raw": "'outer'"
+                        "raw": "'outer'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -185,7 +189,9 @@
             "start": 408,
             "end": 415,
             "value": "outer",
-            "raw": "'outer'"
+            "raw": "'outer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,7 +48,9 @@ __ESTREE_TEST__:PASS:
                       "start": 35,
                       "end": 42,
                       "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -118,7 +120,9 @@ __ESTREE_TEST__:PASS:
           "start": 55,
           "end": 64,
           "raw": "\"goodbye\"",
-          "value": "goodbye"
+          "value": "goodbye",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -136,7 +140,9 @@ __ESTREE_TEST__:PASS:
           "start": 71,
           "end": 72,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         },
         "operator": "void",
         "prefix": true

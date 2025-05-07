@@ -61,7 +61,9 @@
             "start": 533,
             "end": 534,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -117,7 +119,9 @@
                       "start": 556,
                       "end": 581,
                       "value": "var arguments = 'param'",
-                      "raw": "\"var arguments = 'param'\""
+                      "raw": "\"var arguments = 'param'\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -176,7 +180,9 @@
                         "start": 628,
                         "end": 635,
                         "value": "local",
-                        "raw": "\"local\""
+                        "raw": "\"local\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -221,7 +227,9 @@
                         "start": 667,
                         "end": 674,
                         "value": "local",
-                        "raw": "\"local\""
+                        "raw": "\"local\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -273,7 +281,9 @@
                         "start": 701,
                         "end": 708,
                         "value": "param",
-                        "raw": "\"param\""
+                        "raw": "\"param\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -361,7 +371,9 @@
             "start": 753,
             "end": 754,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -425,7 +437,9 @@
             "start": 810,
             "end": 842,
             "value": "globalThis.arguments unchanged",
-            "raw": "\"globalThis.arguments unchanged\""
+            "raw": "\"globalThis.arguments unchanged\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

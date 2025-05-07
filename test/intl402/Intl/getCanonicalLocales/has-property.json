@@ -35,14 +35,18 @@
                   "start": 399,
                   "end": 402,
                   "value": "0",
-                  "raw": "'0'"
+                  "raw": "'0'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 404,
                   "end": 411,
                   "value": "en-US",
-                  "raw": "'en-US'"
+                  "raw": "'en-US'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 415,
                   "end": 418,
                   "value": "1",
-                  "raw": "'1'"
+                  "raw": "'1'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 420,
                   "end": 427,
                   "value": "pt-BR",
-                  "raw": "'pt-BR'"
+                  "raw": "'pt-BR'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -87,7 +95,9 @@
                   "start": 439,
                   "end": 440,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -194,7 +204,9 @@
                                 "start": 518,
                                 "end": 521,
                                 "value": "0",
-                                "raw": "'0'"
+                                "raw": "'0'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {

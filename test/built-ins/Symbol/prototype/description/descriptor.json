@@ -66,7 +66,9 @@
                 "start": 494,
                 "end": 507,
                 "value": "description",
-                "raw": "'description'"
+                "raw": "'description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -133,7 +135,9 @@
             "start": 556,
             "end": 594,
             "value": "The value of desc.set is `undefined`",
-            "raw": "'The value of desc.set is `undefined`'"
+            "raw": "'The value of desc.set is `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +201,9 @@
             "start": 649,
             "end": 692,
             "value": "The value of desc.writable is `undefined`",
-            "raw": "'The value of desc.writable is `undefined`'"
+            "raw": "'The value of desc.writable is `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,14 +268,18 @@
             "start": 736,
             "end": 746,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 796,
             "value": "The value of `typeof desc.get` is \"function\"",
-            "raw": "'The value of `typeof desc.get` is \"function\"'"
+            "raw": "'The value of `typeof desc.get` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +324,9 @@
             "start": 834,
             "end": 847,
             "value": "description",
-            "raw": "'description'"
+            "raw": "'description'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -339,7 +351,9 @@
                   "start": 865,
                   "end": 870,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -361,7 +375,9 @@
                   "start": 888,
                   "end": 892,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -89,7 +89,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 44,
           "raw": "\"cjs-dep\"",
-          "value": "cjs-dep"
+          "value": "cjs-dep",
+          "regex": null,
+          "bigint": null
         }
       }
     },

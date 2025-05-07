@@ -23,7 +23,9 @@
             "start": 1043,
             "end": 1120,
             "value": "var f = 123;  assert.sameValue(f, 123);if (true) function f() {  } else ;",
-            "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);if (true) function f() {  } else ;'"
+            "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);if (true) function f() {  } else ;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

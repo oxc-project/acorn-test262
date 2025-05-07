@@ -83,7 +83,9 @@ __ESTREE_TEST__:PASS:
               "start": 104,
               "end": 105,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -195,7 +197,9 @@ __ESTREE_TEST__:PASS:
               "start": 308,
               "end": 316,
               "raw": "\"monehh\"",
-              "value": "monehh"
+              "value": "monehh",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -242,7 +246,9 @@ __ESTREE_TEST__:PASS:
               "start": 398,
               "end": 403,
               "raw": "\"emu\"",
-              "value": "emu"
+              "value": "emu",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -286,7 +292,9 @@ __ESTREE_TEST__:PASS:
               "start": 455,
               "end": 459,
               "raw": "\"hi\"",
-              "value": "hi"
+              "value": "hi",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -330,7 +338,9 @@ __ESTREE_TEST__:PASS:
               "start": 510,
               "end": 512,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -371,7 +381,9 @@ __ESTREE_TEST__:PASS:
             "start": 531,
             "end": 535,
             "raw": "\"hi\"",
-            "value": "hi"
+            "value": "hi",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -677,7 +689,9 @@ __ESTREE_TEST__:PASS:
                   "start": 723,
                   "end": 726,
                   "raw": "\"0\"",
-                  "value": "0"
+                  "value": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -688,7 +702,9 @@ __ESTREE_TEST__:PASS:
                   "start": 728,
                   "end": 729,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -701,7 +717,9 @@ __ESTREE_TEST__:PASS:
                   "start": 735,
                   "end": 738,
                   "raw": "\"1\"",
-                  "value": "1"
+                  "value": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -712,7 +730,9 @@ __ESTREE_TEST__:PASS:
                   "start": 740,
                   "end": 741,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -725,7 +745,9 @@ __ESTREE_TEST__:PASS:
                   "start": 747,
                   "end": 750,
                   "raw": "\"2\"",
-                  "value": "2"
+                  "value": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -736,7 +758,9 @@ __ESTREE_TEST__:PASS:
                   "start": 752,
                   "end": 753,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -749,7 +773,9 @@ __ESTREE_TEST__:PASS:
                   "start": 759,
                   "end": 790,
                   "raw": "\"Okay that's enough for today.\"",
-                  "value": "Okay that's enough for today."
+                  "value": "Okay that's enough for today.",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,

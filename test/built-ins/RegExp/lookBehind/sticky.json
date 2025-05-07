@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?<=^(\\w+))def",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -90,7 +91,9 @@
                 "start": 984,
                 "end": 995,
                 "value": "abcdefdef",
-                "raw": "\"abcdefdef\""
+                "raw": "\"abcdefdef\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,14 +108,18 @@
                 "start": 999,
                 "end": 1004,
                 "value": "def",
-                "raw": "\"def\""
+                "raw": "\"def\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1006,
                 "end": 1011,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -121,7 +128,9 @@
             "start": 1014,
             "end": 1018,
             "value": "#1",
-            "raw": "\"#1\""
+            "raw": "\"#1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +193,9 @@
                 "start": 1050,
                 "end": 1061,
                 "value": "abcdefdef",
-                "raw": "\"abcdefdef\""
+                "raw": "\"abcdefdef\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -199,14 +210,18 @@
                 "start": 1065,
                 "end": 1070,
                 "value": "def",
-                "raw": "\"def\""
+                "raw": "\"def\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1072,
                 "end": 1080,
                 "value": "abcdef",
-                "raw": "\"abcdef\""
+                "raw": "\"abcdef\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -215,7 +230,9 @@
             "start": 1083,
             "end": 1087,
             "value": "#2",
-            "raw": "\"#2\""
+            "raw": "\"#2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +262,8 @@
             "regex": {
               "pattern": "\\Bdef",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -308,7 +326,9 @@
                 "start": 1140,
                 "end": 1151,
                 "value": "abcdefdef",
-                "raw": "\"abcdefdef\""
+                "raw": "\"abcdefdef\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -323,7 +343,9 @@
                 "start": 1155,
                 "end": 1160,
                 "value": "def",
-                "raw": "\"def\""
+                "raw": "\"def\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -332,7 +354,9 @@
             "start": 1163,
             "end": 1167,
             "value": "#3",
-            "raw": "\"#3\""
+            "raw": "\"#3\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -395,7 +419,9 @@
                 "start": 1199,
                 "end": 1210,
                 "value": "abcdefdef",
-                "raw": "\"abcdefdef\""
+                "raw": "\"abcdefdef\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -410,7 +436,9 @@
                 "start": 1214,
                 "end": 1219,
                 "value": "def",
-                "raw": "\"def\""
+                "raw": "\"def\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -419,7 +447,9 @@
             "start": 1222,
             "end": 1226,
             "value": "#4",
-            "raw": "\"#4\""
+            "raw": "\"#4\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

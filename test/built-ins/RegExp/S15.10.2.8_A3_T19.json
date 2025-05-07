@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "([\\S]+([ \\t]+[\\S]+)*)[ \\t]*=[ \\t]*[\\S]+",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 728,
                 "end": 751,
                 "value": "Course_Creator = Test",
-                "raw": "\"Course_Creator = Test\""
+                "raw": "\"Course_Creator = Test\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -86,14 +89,18 @@
                 "start": 773,
                 "end": 796,
                 "value": "Course_Creator = Test",
-                "raw": "\"Course_Creator = Test\""
+                "raw": "\"Course_Creator = Test\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 797,
                 "end": 813,
                 "value": "Course_Creator",
-                "raw": "\"Course_Creator\""
+                "raw": "\"Course_Creator\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -140,7 +147,9 @@
           "start": 845,
           "end": 846,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -177,7 +186,9 @@
           "start": 867,
           "end": 890,
           "value": "Course_Creator = Test",
-          "raw": "\"Course_Creator = Test\""
+          "raw": "\"Course_Creator = Test\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -252,7 +263,9 @@
             "start": 955,
             "end": 1039,
             "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,7 +342,9 @@
             "start": 1104,
             "end": 1186,
             "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -406,7 +421,9 @@
             "start": 1251,
             "end": 1333,
             "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +453,9 @@
               "start": 1352,
               "end": 1353,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -562,7 +581,9 @@
                   "start": 1461,
                   "end": 1545,
                   "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

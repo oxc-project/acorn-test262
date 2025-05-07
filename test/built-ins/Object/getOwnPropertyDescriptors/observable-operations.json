@@ -23,7 +23,9 @@
             "start": 374,
             "end": 376,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 398,
                   "end": 399,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -89,7 +93,9 @@
                   "start": 406,
                   "end": 407,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -111,7 +117,9 @@
                   "start": 414,
                   "end": 415,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -237,7 +245,9 @@
                                   "start": 548,
                                   "end": 574,
                                   "value": "getOwnPropertyDescriptor",
-                                  "raw": "\"getOwnPropertyDescriptor\""
+                                  "raw": "\"getOwnPropertyDescriptor\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -267,7 +277,9 @@
                                   "start": 588,
                                   "end": 616,
                                   "value": "|getOwnPropertyDescriptor:",
-                                  "raw": "\"|getOwnPropertyDescriptor:\""
+                                  "raw": "\"|getOwnPropertyDescriptor:\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -407,7 +419,9 @@
                                   "start": 769,
                                   "end": 778,
                                   "value": "ownKeys",
-                                  "raw": "\"ownKeys\""
+                                  "raw": "\"ownKeys\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -433,7 +447,9 @@
                                 "start": 792,
                                 "end": 802,
                                 "value": "|ownKeys",
-                                "raw": "\"|ownKeys\""
+                                "raw": "\"|ownKeys\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -608,7 +624,9 @@
                                     "start": 972,
                                     "end": 989,
                                     "value": "handler check: ",
-                                    "raw": "\"handler check: \""
+                                    "raw": "\"handler check: \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -814,14 +832,18 @@
             "start": 1180,
             "end": 1271,
             "value": "|ownKeys|getOwnPropertyDescriptor:a|getOwnPropertyDescriptor:b|getOwnPropertyDescriptor:c",
-            "raw": "\"|ownKeys|getOwnPropertyDescriptor:a|getOwnPropertyDescriptor:b|getOwnPropertyDescriptor:c\""
+            "raw": "\"|ownKeys|getOwnPropertyDescriptor:a|getOwnPropertyDescriptor:b|getOwnPropertyDescriptor:c\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1273,
             "end": 1278,
             "value": "log",
-            "raw": "'log'"
+            "raw": "'log'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

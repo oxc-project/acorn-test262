@@ -84,7 +84,9 @@
                   "start": 439,
                   "end": 440,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -156,7 +158,9 @@
             "start": 487,
             "end": 490,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -212,7 +216,9 @@
                   "start": 532,
                   "end": 536,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -259,7 +265,9 @@
             "start": 558,
             "end": 559,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -269,7 +277,9 @@
           "start": 563,
           "end": 566,
           "value": 100,
-          "raw": "100"
+          "raw": "100",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -377,14 +387,18 @@
             "start": 638,
             "end": 639,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 641,
             "end": 656,
             "value": "newArr.length",
-            "raw": "'newArr.length'"
+            "raw": "'newArr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -433,7 +447,9 @@
               "start": 683,
               "end": 684,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -449,7 +465,9 @@
             "start": 698,
             "end": 709,
             "value": "newArr[0]",
-            "raw": "'newArr[0]'"
+            "raw": "'newArr[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

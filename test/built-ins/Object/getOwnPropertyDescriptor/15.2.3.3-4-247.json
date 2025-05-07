@@ -35,14 +35,18 @@
                   "start": 282,
                   "end": 292,
                   "value": "property",
-                  "raw": "\"property\""
+                  "raw": "\"property\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 294,
                   "end": 297,
                   "value": 100,
-                  "raw": "100"
+                  "raw": "100",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -102,7 +106,9 @@
                 "start": 350,
                 "end": 360,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -149,7 +155,9 @@
             "start": 395,
             "end": 428,
             "value": "desc instanceof Object !== true",
-            "raw": "'desc instanceof Object !== true'"
+            "raw": "'desc instanceof Object !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

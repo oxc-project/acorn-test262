@@ -60,7 +60,9 @@
                 "start": 746,
                 "end": 750,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             }
           }

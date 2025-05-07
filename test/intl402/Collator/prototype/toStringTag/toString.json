@@ -121,7 +121,9 @@
             "start": 777,
             "end": 801,
             "value": "[object Intl.Collator]",
-            "raw": "\"[object Intl.Collator]\""
+            "raw": "\"[object Intl.Collator]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +240,9 @@
             "start": 874,
             "end": 898,
             "value": "[object Intl.Collator]",
-            "raw": "\"[object Intl.Collator]\""
+            "raw": "\"[object Intl.Collator]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

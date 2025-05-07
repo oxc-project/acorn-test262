@@ -47,7 +47,9 @@
                 "start": 473,
                 "end": 496,
                 "value": "async function f() {}",
-                "raw": "'async function f() {}'"
+                "raw": "'async function f() {}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 533,
                 "end": 559,
                 "value": "1; async function f() {}",
-                "raw": "'1; async function f() {}'"
+                "raw": "'1; async function f() {}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 562,
             "end": 563,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

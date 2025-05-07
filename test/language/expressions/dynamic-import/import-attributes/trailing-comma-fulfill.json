@@ -32,7 +32,9 @@
                   "start": 579,
                   "end": 603,
                   "value": "./2nd-param_FIXTURE.js",
-                  "raw": "'./2nd-param_FIXTURE.js'"
+                  "raw": "'./2nd-param_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": null
               },
@@ -119,7 +121,9 @@
                             "start": 670,
                             "end": 673,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

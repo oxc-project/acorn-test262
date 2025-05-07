@@ -180,21 +180,27 @@
                             "start": 439,
                             "end": 440,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 442,
                             "end": 446,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 448,
                             "end": 451,
                             "value": "a",
-                            "raw": "\"a\""
+                            "raw": "\"a\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -244,7 +250,9 @@
           "start": 477,
           "end": 489,
           "value": "isWritable",
-          "raw": "\"isWritable\""
+          "raw": "\"isWritable\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -300,14 +308,18 @@
             "start": 523,
             "end": 535,
             "value": "isWritable",
-            "raw": "\"isWritable\""
+            "raw": "\"isWritable\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 537,
             "end": 551,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

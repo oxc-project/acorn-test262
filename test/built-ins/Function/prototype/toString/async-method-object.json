@@ -23,7 +23,9 @@
             "start": 363,
             "end": 366,
             "value": "h",
-            "raw": "\"h\""
+            "raw": "\"h\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -135,7 +137,9 @@
                     "start": 500,
                     "end": 503,
                     "value": "g",
-                    "raw": "\"g\""
+                    "raw": "\"g\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "value": {
                     "type": "FunctionExpression",
@@ -266,7 +270,9 @@
             "start": 719,
             "end": 768,
             "value": "async f /* a */ ( /* b */ ) /* c */ { /* d */ }",
-            "raw": "\"async f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
+            "raw": "\"async f /* a */ ( /* b */ ) /* c */ { /* d */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -298,7 +304,9 @@
             "start": 805,
             "end": 886,
             "value": "async /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
-            "raw": "\"async /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
+            "raw": "\"async /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -330,7 +338,9 @@
             "start": 923,
             "end": 1000,
             "value": "async /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
-            "raw": "\"async /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
+            "raw": "\"async /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

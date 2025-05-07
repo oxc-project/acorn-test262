@@ -206,7 +206,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 23,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -232,7 +234,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "\"module\"",
-        "value": "module"
+        "value": "module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

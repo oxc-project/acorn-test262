@@ -69,7 +69,9 @@
                         "start": 1052,
                         "end": 1055,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -107,7 +109,9 @@
                     "start": 1076,
                     "end": 1081,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "EmptyStatement",
@@ -183,7 +187,9 @@
             "start": 1142,
             "end": 1145,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

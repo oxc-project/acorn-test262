@@ -92,7 +92,9 @@
                   "start": 682,
                   "end": 703,
                   "value": "Intl.DateTimeFormat",
-                  "raw": "\"Intl.DateTimeFormat\""
+                  "raw": "\"Intl.DateTimeFormat\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +116,9 @@
                   "start": 717,
                   "end": 722,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +140,9 @@
                   "start": 738,
                   "end": 743,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +164,9 @@
                   "start": 761,
                   "end": 765,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

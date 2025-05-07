@@ -136,7 +136,9 @@
                 "start": 594,
                 "end": 603,
                 "value": "message",
-                "raw": "'message'"
+                "raw": "'message'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -146,14 +148,18 @@
             "start": 608,
             "end": 613,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 617,
             "end": 627,
             "value": "explicit",
-            "raw": "'explicit'"
+            "raw": "'explicit'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -286,7 +292,9 @@
                 "start": 733,
                 "end": 742,
                 "value": "message",
-                "raw": "'message'"
+                "raw": "'message'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -296,14 +304,18 @@
             "start": 747,
             "end": 752,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 766,
             "value": "implicit",
-            "raw": "'implicit'"
+            "raw": "'implicit'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

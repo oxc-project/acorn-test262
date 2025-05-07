@@ -87,7 +87,9 @@
                     "start": 432,
                     "end": 510,
                     "value": "#1.1: exec = RegExp.prototype.exec; exec(\"message to investigate\"). Actual: ",
-                    "raw": "'#1.1: exec = RegExp.prototype.exec; exec(\"message to investigate\"). Actual: '"
+                    "raw": "'#1.1: exec = RegExp.prototype.exec; exec(\"message to investigate\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -110,7 +112,9 @@
                           "start": 519,
                           "end": 543,
                           "value": "message to investigate",
-                          "raw": "\"message to investigate\""
+                          "raw": "\"message to investigate\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -188,14 +192,18 @@
                     "start": 614,
                     "end": 618,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 624,
                     "end": 698,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

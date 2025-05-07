@@ -216,7 +216,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 30,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },

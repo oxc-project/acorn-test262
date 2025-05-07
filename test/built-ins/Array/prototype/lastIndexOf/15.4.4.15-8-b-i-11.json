@@ -65,7 +65,9 @@
             "start": 378,
             "end": 379,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -75,7 +77,9 @@
           "start": 383,
           "end": 388,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -118,7 +122,9 @@
             "start": 417,
             "end": 420,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -161,7 +167,9 @@
                           "start": 455,
                           "end": 459,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -187,7 +195,9 @@
                   "start": 482,
                   "end": 486,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -254,7 +264,9 @@
                 "start": 525,
                 "end": 529,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -264,14 +276,18 @@
             "start": 532,
             "end": 533,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 535,
             "end": 558,
             "value": "arr.lastIndexOf(true)",
-            "raw": "'arr.lastIndexOf(true)'"
+            "raw": "'arr.lastIndexOf(true)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

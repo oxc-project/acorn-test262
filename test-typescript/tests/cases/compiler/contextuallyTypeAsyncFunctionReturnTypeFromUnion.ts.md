@@ -422,7 +422,9 @@ __ESTREE_TEST__:PASS:
                               "start": 292,
                               "end": 302,
                               "raw": "\"some err\"",
-                              "value": "some err"
+                              "value": "some err",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {
@@ -503,7 +505,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 353,
                                     "end": 363,
                                     "raw": "\"some err\"",
-                                    "value": "some err"
+                                    "value": "some err",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "callee": {
@@ -636,7 +640,9 @@ __ESTREE_TEST__:PASS:
                     "start": 504,
                     "end": 514,
                     "raw": "'some err'",
-                    "value": "some err"
+                    "value": "some err",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {

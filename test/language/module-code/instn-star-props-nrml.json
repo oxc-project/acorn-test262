@@ -25,7 +25,9 @@
         "start": 1231,
         "end": 1269,
         "value": "./instn-star-props-nrml-1_FIXTURE.js",
-        "raw": "'./instn-star-props-nrml-1_FIXTURE.js'"
+        "raw": "'./instn-star-props-nrml-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -53,7 +55,9 @@
               "start": 1335,
               "end": 1349,
               "value": "localVarDecl",
-              "raw": "'localVarDecl'"
+              "raw": "'localVarDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -68,7 +72,9 @@
             "start": 1357,
             "end": 1371,
             "value": "localVarDecl",
-            "raw": "'localVarDecl'"
+            "raw": "'localVarDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -98,7 +104,9 @@
               "start": 1381,
               "end": 1395,
               "value": "localLetDecl",
-              "raw": "'localLetDecl'"
+              "raw": "'localLetDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -113,7 +121,9 @@
             "start": 1403,
             "end": 1417,
             "value": "localLetDecl",
-            "raw": "'localLetDecl'"
+            "raw": "'localLetDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -143,7 +153,9 @@
               "start": 1427,
               "end": 1443,
               "value": "localConstDecl",
-              "raw": "'localConstDecl'"
+              "raw": "'localConstDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -158,7 +170,9 @@
             "start": 1451,
             "end": 1467,
             "value": "localConstDecl",
-            "raw": "'localConstDecl'"
+            "raw": "'localConstDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -188,7 +202,9 @@
               "start": 1477,
               "end": 1492,
               "value": "localFuncDecl",
-              "raw": "'localFuncDecl'"
+              "raw": "'localFuncDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -203,7 +219,9 @@
             "start": 1500,
             "end": 1515,
             "value": "localFuncDecl",
-            "raw": "'localFuncDecl'"
+            "raw": "'localFuncDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -233,7 +251,9 @@
               "start": 1525,
               "end": 1539,
               "value": "localGenDecl",
-              "raw": "'localGenDecl'"
+              "raw": "'localGenDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -248,7 +268,9 @@
             "start": 1547,
             "end": 1561,
             "value": "localGenDecl",
-            "raw": "'localGenDecl'"
+            "raw": "'localGenDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,7 +300,9 @@
               "start": 1571,
               "end": 1587,
               "value": "localClassDecl",
-              "raw": "'localClassDecl'"
+              "raw": "'localClassDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -293,7 +317,9 @@
             "start": 1595,
             "end": 1611,
             "value": "localClassDecl",
-            "raw": "'localClassDecl'"
+            "raw": "'localClassDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,7 +349,9 @@
               "start": 1621,
               "end": 1637,
               "value": "localBindingId",
-              "raw": "'localBindingId'"
+              "raw": "'localBindingId'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -338,7 +366,9 @@
             "start": 1645,
             "end": 1661,
             "value": "localBindingId",
-            "raw": "'localBindingId'"
+            "raw": "'localBindingId'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +398,9 @@
               "start": 1671,
               "end": 1684,
               "value": "localIdName",
-              "raw": "'localIdName'"
+              "raw": "'localIdName'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -383,7 +415,9 @@
             "start": 1692,
             "end": 1705,
             "value": "localIdName",
-            "raw": "'localIdName'"
+            "raw": "'localIdName'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -413,7 +447,9 @@
               "start": 1715,
               "end": 1731,
               "value": "indirectIdName",
-              "raw": "'indirectIdName'"
+              "raw": "'indirectIdName'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -428,7 +464,9 @@
             "start": 1739,
             "end": 1755,
             "value": "indirectIdName",
-            "raw": "'indirectIdName'"
+            "raw": "'indirectIdName'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -458,7 +496,9 @@
               "start": 1765,
               "end": 1782,
               "value": "indirectIdName2",
-              "raw": "'indirectIdName2'"
+              "raw": "'indirectIdName2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -473,7 +513,9 @@
             "start": 1790,
             "end": 1807,
             "value": "indirectIdName2",
-            "raw": "'indirectIdName2'"
+            "raw": "'indirectIdName2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -503,7 +545,9 @@
               "start": 1817,
               "end": 1835,
               "value": "namespaceBinding",
-              "raw": "'namespaceBinding'"
+              "raw": "'namespaceBinding'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -518,7 +562,9 @@
             "start": 1843,
             "end": 1861,
             "value": "namespaceBinding",
-            "raw": "'namespaceBinding'"
+            "raw": "'namespaceBinding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -548,7 +594,9 @@
               "start": 1922,
               "end": 1935,
               "value": "starVarDecl",
-              "raw": "'starVarDecl'"
+              "raw": "'starVarDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -563,7 +611,9 @@
             "start": 1943,
             "end": 1956,
             "value": "starVarDecl",
-            "raw": "'starVarDecl'"
+            "raw": "'starVarDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,7 +643,9 @@
               "start": 1966,
               "end": 1979,
               "value": "starLetDecl",
-              "raw": "'starLetDecl'"
+              "raw": "'starLetDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -608,7 +660,9 @@
             "start": 1987,
             "end": 2000,
             "value": "starLetDecl",
-            "raw": "'starLetDecl'"
+            "raw": "'starLetDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -638,7 +692,9 @@
               "start": 2010,
               "end": 2025,
               "value": "starConstDecl",
-              "raw": "'starConstDecl'"
+              "raw": "'starConstDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -653,7 +709,9 @@
             "start": 2033,
             "end": 2048,
             "value": "starConstDecl",
-            "raw": "'starConstDecl'"
+            "raw": "'starConstDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -683,7 +741,9 @@
               "start": 2058,
               "end": 2072,
               "value": "starFuncDecl",
-              "raw": "'starFuncDecl'"
+              "raw": "'starFuncDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -698,7 +758,9 @@
             "start": 2080,
             "end": 2094,
             "value": "starFuncDecl",
-            "raw": "'starFuncDecl'"
+            "raw": "'starFuncDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -728,7 +790,9 @@
               "start": 2104,
               "end": 2117,
               "value": "starGenDecl",
-              "raw": "'starGenDecl'"
+              "raw": "'starGenDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -743,7 +807,9 @@
             "start": 2125,
             "end": 2138,
             "value": "starGenDecl",
-            "raw": "'starGenDecl'"
+            "raw": "'starGenDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -773,7 +839,9 @@
               "start": 2148,
               "end": 2163,
               "value": "starClassDecl",
-              "raw": "'starClassDecl'"
+              "raw": "'starClassDecl'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -788,7 +856,9 @@
             "start": 2171,
             "end": 2186,
             "value": "starClassDecl",
-            "raw": "'starClassDecl'"
+            "raw": "'starClassDecl'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -818,7 +888,9 @@
               "start": 2196,
               "end": 2211,
               "value": "starBindingId",
-              "raw": "'starBindingId'"
+              "raw": "'starBindingId'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -833,7 +905,9 @@
             "start": 2219,
             "end": 2234,
             "value": "starBindingId",
-            "raw": "'starBindingId'"
+            "raw": "'starBindingId'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -863,7 +937,9 @@
               "start": 2244,
               "end": 2256,
               "value": "starIdName",
-              "raw": "'starIdName'"
+              "raw": "'starIdName'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -878,7 +954,9 @@
             "start": 2264,
             "end": 2276,
             "value": "starIdName",
-            "raw": "'starIdName'"
+            "raw": "'starIdName'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -908,7 +986,9 @@
               "start": 2286,
               "end": 2306,
               "value": "starIndirectIdName",
-              "raw": "'starIndirectIdName'"
+              "raw": "'starIndirectIdName'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -923,7 +1003,9 @@
             "start": 2314,
             "end": 2334,
             "value": "starIndirectIdName",
-            "raw": "'starIndirectIdName'"
+            "raw": "'starIndirectIdName'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -953,7 +1035,9 @@
               "start": 2344,
               "end": 2365,
               "value": "starIndirectIdName2",
-              "raw": "'starIndirectIdName2'"
+              "raw": "'starIndirectIdName2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -968,7 +1052,9 @@
             "start": 2373,
             "end": 2394,
             "value": "starIndirectIdName2",
-            "raw": "'starIndirectIdName2'"
+            "raw": "'starIndirectIdName2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -998,7 +1084,9 @@
               "start": 2404,
               "end": 2434,
               "value": "starIndirectNamespaceBinding",
-              "raw": "'starIndirectNamespaceBinding'"
+              "raw": "'starIndirectNamespaceBinding'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1013,7 +1101,9 @@
             "start": 2442,
             "end": 2472,
             "value": "starIndirectNamespaceBinding",
-            "raw": "'starIndirectNamespaceBinding'"
+            "raw": "'starIndirectNamespaceBinding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1056,7 +1146,9 @@
               "start": 2544,
               "end": 2561,
               "value": "nonExportedVar1",
-              "raw": "'nonExportedVar1'"
+              "raw": "'nonExportedVar1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1071,14 +1163,18 @@
             "start": 2569,
             "end": 2574,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2576,
             "end": 2593,
             "value": "nonExportedVar1",
-            "raw": "'nonExportedVar1'"
+            "raw": "'nonExportedVar1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1121,7 +1217,9 @@
               "start": 2613,
               "end": 2630,
               "value": "nonExportedVar2",
-              "raw": "'nonExportedVar2'"
+              "raw": "'nonExportedVar2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1136,14 +1234,18 @@
             "start": 2638,
             "end": 2643,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2645,
             "end": 2662,
             "value": "nonExportedVar2",
-            "raw": "'nonExportedVar2'"
+            "raw": "'nonExportedVar2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1186,7 +1288,9 @@
               "start": 2682,
               "end": 2699,
               "value": "nonExportedLet1",
-              "raw": "'nonExportedLet1'"
+              "raw": "'nonExportedLet1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1201,14 +1305,18 @@
             "start": 2707,
             "end": 2712,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2714,
             "end": 2731,
             "value": "nonExportedLet1",
-            "raw": "'nonExportedLet1'"
+            "raw": "'nonExportedLet1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1251,7 +1359,9 @@
               "start": 2751,
               "end": 2768,
               "value": "nonExportedLet2",
-              "raw": "'nonExportedLet2'"
+              "raw": "'nonExportedLet2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1266,14 +1376,18 @@
             "start": 2776,
             "end": 2781,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2783,
             "end": 2800,
             "value": "nonExportedLet2",
-            "raw": "'nonExportedLet2'"
+            "raw": "'nonExportedLet2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1316,7 +1430,9 @@
               "start": 2820,
               "end": 2839,
               "value": "nonExportedConst1",
-              "raw": "'nonExportedConst1'"
+              "raw": "'nonExportedConst1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1331,14 +1447,18 @@
             "start": 2847,
             "end": 2852,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2854,
             "end": 2873,
             "value": "nonExportedConst1",
-            "raw": "'nonExportedConst1'"
+            "raw": "'nonExportedConst1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1381,7 +1501,9 @@
               "start": 2893,
               "end": 2912,
               "value": "nonExportedConst2",
-              "raw": "'nonExportedConst2'"
+              "raw": "'nonExportedConst2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1396,14 +1518,18 @@
             "start": 2920,
             "end": 2925,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2927,
             "end": 2946,
             "value": "nonExportedConst2",
-            "raw": "'nonExportedConst2'"
+            "raw": "'nonExportedConst2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1446,7 +1572,9 @@
               "start": 2966,
               "end": 2984,
               "value": "nonExportedFunc1",
-              "raw": "'nonExportedFunc1'"
+              "raw": "'nonExportedFunc1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1461,14 +1589,18 @@
             "start": 2992,
             "end": 2997,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2999,
             "end": 3017,
             "value": "nonExportedFunc1",
-            "raw": "'nonExportedFunc1'"
+            "raw": "'nonExportedFunc1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1511,7 +1643,9 @@
               "start": 3037,
               "end": 3055,
               "value": "nonExportedFunc2",
-              "raw": "'nonExportedFunc2'"
+              "raw": "'nonExportedFunc2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1526,14 +1660,18 @@
             "start": 3063,
             "end": 3068,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3070,
             "end": 3088,
             "value": "nonExportedFunc2",
-            "raw": "'nonExportedFunc2'"
+            "raw": "'nonExportedFunc2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1576,7 +1714,9 @@
               "start": 3108,
               "end": 3125,
               "value": "nonExportedGen1",
-              "raw": "'nonExportedGen1'"
+              "raw": "'nonExportedGen1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1591,14 +1731,18 @@
             "start": 3133,
             "end": 3138,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3140,
             "end": 3157,
             "value": "nonExportedGen1",
-            "raw": "'nonExportedGen1'"
+            "raw": "'nonExportedGen1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1641,7 +1785,9 @@
               "start": 3177,
               "end": 3194,
               "value": "nonExportedGen2",
-              "raw": "'nonExportedGen2'"
+              "raw": "'nonExportedGen2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1656,14 +1802,18 @@
             "start": 3202,
             "end": 3207,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3209,
             "end": 3226,
             "value": "nonExportedGen2",
-            "raw": "'nonExportedGen2'"
+            "raw": "'nonExportedGen2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1706,7 +1856,9 @@
               "start": 3246,
               "end": 3265,
               "value": "nonExportedClass1",
-              "raw": "'nonExportedClass1'"
+              "raw": "'nonExportedClass1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1721,14 +1873,18 @@
             "start": 3273,
             "end": 3278,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3280,
             "end": 3299,
             "value": "nonExportedClass1",
-            "raw": "'nonExportedClass1'"
+            "raw": "'nonExportedClass1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1771,7 +1927,9 @@
               "start": 3319,
               "end": 3338,
               "value": "nonExportedClass2",
-              "raw": "'nonExportedClass2'"
+              "raw": "'nonExportedClass2'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -1786,14 +1944,18 @@
             "start": 3346,
             "end": 3351,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3353,
             "end": 3372,
             "value": "nonExportedClass2",
-            "raw": "'nonExportedClass2'"
+            "raw": "'nonExportedClass2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

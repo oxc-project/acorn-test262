@@ -62,7 +62,9 @@ __ESTREE_TEST__:PASS:
           "start": 257,
           "end": 269,
           "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -105,7 +107,9 @@ __ESTREE_TEST__:PASS:
                       "start": 352,
                       "end": 356,
                       "raw": "\"./\"",
-                      "value": "./"
+                      "value": "./",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "MemberExpression",
@@ -153,7 +157,9 @@ __ESTREE_TEST__:PASS:
                       "start": 377,
                       "end": 392,
                       "raw": "\"tsconfig.json\"",
-                      "value": "tsconfig.json"
+                      "value": "tsconfig.json",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -213,7 +219,9 @@ __ESTREE_TEST__:PASS:
                         "start": 442,
                         "end": 483,
                         "raw": "\"Could not find a valid 'tsconfig.json'.\"",
-                        "value": "Could not find a valid 'tsconfig.json'."
+                        "value": "Could not find a valid 'tsconfig.json'.",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -454,7 +462,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1882,
                             "end": 1924,
                             "raw": "\"** We're about to create the program! **\"",
-                            "value": "** We're about to create the program! **"
+                            "value": "** We're about to create the program! **",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {
@@ -702,7 +712,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2128,
                             "end": 2167,
                             "raw": "\"** We finished making the program! **\"",
-                            "value": "** We finished making the program! **"
+                            "value": "** We finished making the program! **",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {

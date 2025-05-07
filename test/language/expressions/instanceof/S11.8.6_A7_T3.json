@@ -93,7 +93,9 @@
                   "start": 431,
                   "end": 536,
                   "value": "#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression",
-                  "raw": "'#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'"
+                  "raw": "'#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -162,7 +164,9 @@
                   "start": 615,
                   "end": 720,
                   "value": "#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression",
-                  "raw": "'#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'"
+                  "raw": "'#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

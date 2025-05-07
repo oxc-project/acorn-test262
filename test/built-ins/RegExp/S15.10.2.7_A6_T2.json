@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "b{8,}c",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 450,
                 "end": 473,
                 "value": "aaabbbbcccddeeeefffff",
-                "raw": "\"aaabbbbcccddeeeefffff\""
+                "raw": "\"aaabbbbcccddeeeefffff\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 497,
             "end": 546,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

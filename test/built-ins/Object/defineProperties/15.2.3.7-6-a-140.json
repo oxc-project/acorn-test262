@@ -103,7 +103,9 @@
                         "start": 451,
                         "end": 459,
                         "value": "0002.0",
-                        "raw": "\"0002.0\""
+                        "raw": "\"0002.0\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -169,14 +171,18 @@
             "start": 498,
             "end": 499,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 513,
             "value": "arr.length",
-            "raw": "'arr.length'"
+            "raw": "'arr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

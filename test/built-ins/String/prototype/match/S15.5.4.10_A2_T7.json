@@ -28,7 +28,9 @@
                 "start": 303,
                 "end": 310,
                 "value": "02134",
-                "raw": "\"02134\""
+                "raw": "\"02134\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -56,7 +58,9 @@
             "start": 329,
             "end": 350,
             "value": "Boston, Mass. 02134",
-            "raw": "\"Boston, Mass. 02134\""
+            "raw": "\"Boston, Mass. 02134\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -107,7 +111,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -127,7 +132,9 @@
           "start": 503,
           "end": 504,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -159,7 +166,9 @@
                     "start": 533,
                     "end": 643,
                     "value": "#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/g).length=== 1. Actual: ",
-                    "raw": "'#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/g).length=== 1. Actual: '"
+                    "raw": "'#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/g).length=== 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -199,7 +208,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": "g"
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -266,7 +276,8 @@
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -276,7 +287,9 @@
             "start": 925,
             "end": 926,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -297,7 +310,9 @@
             "start": 942,
             "end": 943,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -332,7 +347,9 @@
                     "start": 973,
                     "end": 1110,
                     "value": "#2: __matches=[\"02134\"]; __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/g)[0]===__matches[0]. Actual: ",
-                    "raw": "'#2: __matches=[\"02134\"]; __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/g)[0]===__matches[0]. Actual: '"
+                    "raw": "'#2: __matches=[\"02134\"]; __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/g)[0]===__matches[0]. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -372,7 +389,8 @@
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": "g"
-                          }
+                          },
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -382,7 +400,9 @@
                       "start": 1159,
                       "end": 1160,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

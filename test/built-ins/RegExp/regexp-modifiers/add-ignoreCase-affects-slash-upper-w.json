@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?i:\\W)",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -83,7 +84,9 @@
                   "start": 2728,
                   "end": 2736,
                   "value": "ſ",
-                  "raw": "\"\\u017f\""
+                  "raw": "\"\\u017f\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +97,9 @@
             "start": 2739,
             "end": 2768,
             "value": "\\W should not match ſ",
-            "raw": "\"\\\\W should not match \\u017f\""
+            "raw": "\"\\\\W should not match \\u017f\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +155,9 @@
                   "start": 2788,
                   "end": 2796,
                   "value": "K",
-                  "raw": "\"\\u212a\""
+                  "raw": "\"\\u212a\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -161,7 +168,9 @@
             "start": 2799,
             "end": 2828,
             "value": "\\W should not match K",
-            "raw": "\"\\\\W should not match \\u212a\""
+            "raw": "\"\\\\W should not match \\u212a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +200,8 @@
             "regex": {
               "pattern": "(?i-:\\W)",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -247,7 +257,9 @@
                   "start": 2872,
                   "end": 2880,
                   "value": "ſ",
-                  "raw": "\"\\u017f\""
+                  "raw": "\"\\u017f\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -258,7 +270,9 @@
             "start": 2883,
             "end": 2912,
             "value": "\\W should not match ſ",
-            "raw": "\"\\\\W should not match \\u017f\""
+            "raw": "\"\\\\W should not match \\u017f\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +328,9 @@
                   "start": 2932,
                   "end": 2940,
                   "value": "K",
-                  "raw": "\"\\u212a\""
+                  "raw": "\"\\u212a\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -325,7 +341,9 @@
             "start": 2943,
             "end": 2972,
             "value": "\\W should not match K",
-            "raw": "\"\\\\W should not match \\u212a\""
+            "raw": "\"\\\\W should not match \\u212a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

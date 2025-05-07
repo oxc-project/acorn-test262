@@ -201,7 +201,9 @@ __ESTREE_TEST__:PASS:
                   "start": 71,
                   "end": 81,
                   "raw": "\"__type__\"",
-                  "value": "__type__"
+                  "value": "__type__",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "in": false,
@@ -265,7 +267,9 @@ __ESTREE_TEST__:PASS:
                   "start": 256,
                   "end": 272,
                   "raw": "\"BoundedInteger\"",
-                  "value": "BoundedInteger"
+                  "value": "BoundedInteger",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

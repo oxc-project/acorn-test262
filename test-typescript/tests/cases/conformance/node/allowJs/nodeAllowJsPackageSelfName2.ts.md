@@ -40,7 +40,9 @@ __ESTREE_TEST__:PASS:
                     "start": 18,
                     "end": 19,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -118,7 +120,9 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 20,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -152,7 +156,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 48,
         "raw": "\"js-self-name-import/foo.js\"",
-        "value": "js-self-name-import/foo.js"
+        "value": "js-self-name-import/foo.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

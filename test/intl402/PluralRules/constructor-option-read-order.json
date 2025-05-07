@@ -28,77 +28,99 @@
                 "start": 346,
                 "end": 361,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 373,
                 "value": "type",
-                "raw": "\"type\""
+                "raw": "\"type\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 447,
                 "value": "minimumIntegerDigits",
-                "raw": "\"minimumIntegerDigits\""
+                "raw": "\"minimumIntegerDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 480,
                 "value": "minimumFractionDigits",
-                "raw": "\"minimumFractionDigits\""
+                "raw": "\"minimumFractionDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 490,
                 "end": 513,
                 "value": "maximumFractionDigits",
-                "raw": "\"maximumFractionDigits\""
+                "raw": "\"maximumFractionDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 523,
                 "end": 549,
                 "value": "minimumSignificantDigits",
-                "raw": "\"minimumSignificantDigits\""
+                "raw": "\"minimumSignificantDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 559,
                 "end": 585,
                 "value": "maximumSignificantDigits",
-                "raw": "\"maximumSignificantDigits\""
+                "raw": "\"maximumSignificantDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 595,
                 "end": 614,
                 "value": "roundingIncrement",
-                "raw": "\"roundingIncrement\""
+                "raw": "\"roundingIncrement\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 638,
                 "value": "roundingMode",
-                "raw": "\"roundingMode\""
+                "raw": "\"roundingMode\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 648,
                 "end": 666,
                 "value": "roundingPriority",
-                "raw": "\"roundingPriority\""
+                "raw": "\"roundingPriority\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 676,
                 "end": 697,
                 "value": "trailingZeroDisplay",
-                "raw": "\"trailingZeroDisplay\""
+                "raw": "\"trailingZeroDisplay\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -438,7 +460,9 @@
             "start": 1172,
             "end": 1209,
             "value": "Intl.PluralRules options read order",
-            "raw": "\"Intl.PluralRules options read order\""
+            "raw": "\"Intl.PluralRules options read order\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

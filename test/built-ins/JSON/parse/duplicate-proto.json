@@ -47,7 +47,9 @@
                 "start": 650,
                 "end": 686,
                 "value": "{ \"__proto__\": 1, \"__proto__\": 2 }",
-                "raw": "'{ \"__proto__\": 1, \"__proto__\": 2 }'"
+                "raw": "'{ \"__proto__\": 1, \"__proto__\": 2 }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
             "start": 725,
             "end": 726,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 12,
               "end": 17,
               "raw": "\"set\"",
-              "value": "set"
+              "value": "set",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init",
             "method": false,

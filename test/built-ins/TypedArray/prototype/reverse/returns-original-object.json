@@ -34,7 +34,9 @@
                 "start": 696,
                 "end": 698,
                 "value": 64,
-                "raw": "64"
+                "raw": "64",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -159,7 +161,9 @@
                           "start": 813,
                           "end": 814,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -289,7 +293,9 @@
                         "start": 915,
                         "end": 940,
                         "value": "returns the same object",
-                        "raw": "\"returns the same object\""
+                        "raw": "\"returns the same object\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -353,7 +359,9 @@
                         "start": 985,
                         "end": 1008,
                         "value": "keeps the same buffer",
-                        "raw": "\"keeps the same buffer\""
+                        "raw": "\"keeps the same buffer\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -417,7 +425,9 @@
                         "start": 1061,
                         "end": 1082,
                         "value": "length is preserved",
-                        "raw": "\"length is preserved\""
+                        "raw": "\"length is preserved\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -460,14 +470,18 @@
                           "start": 1112,
                           "end": 1113,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1115,
                           "end": 1116,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -561,7 +575,9 @@
                         "start": 1183,
                         "end": 1225,
                         "value": "returns the same object (empty instance)",
-                        "raw": "\"returns the same object (empty instance)\""
+                        "raw": "\"returns the same object (empty instance)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -625,7 +641,9 @@
                         "start": 1270,
                         "end": 1310,
                         "value": "keeps the same buffer (empty instance)",
-                        "raw": "\"keeps the same buffer (empty instance)\""
+                        "raw": "\"keeps the same buffer (empty instance)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -683,14 +701,18 @@
                         "start": 1347,
                         "end": 1348,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1350,
                         "end": 1388,
                         "value": "length is preserved (empty instance)",
-                        "raw": "\"length is preserved (empty instance)\""
+                        "raw": "\"length is preserved (empty instance)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

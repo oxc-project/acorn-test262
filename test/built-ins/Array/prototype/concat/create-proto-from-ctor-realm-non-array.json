@@ -48,7 +48,9 @@
             "start": 842,
             "end": 843,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -227,7 +229,9 @@
                             "start": 982,
                             "end": 983,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -538,7 +542,9 @@
             "start": 1235,
             "end": 1303,
             "value": "Object.getPrototypeOf(array.concat()) returns CustomCtor.prototype",
-            "raw": "'Object.getPrototypeOf(array.concat()) returns CustomCtor.prototype'"
+            "raw": "'Object.getPrototypeOf(array.concat()) returns CustomCtor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -583,14 +589,18 @@
             "start": 1335,
             "end": 1336,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1338,
             "end": 1382,
             "value": "The value of callCount is expected to be 0",
-            "raw": "'The value of callCount is expected to be 0'"
+            "raw": "'The value of callCount is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

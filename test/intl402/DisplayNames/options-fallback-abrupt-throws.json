@@ -41,7 +41,9 @@
                   "start": 1046,
                   "end": 1056,
                   "value": "language",
-                  "raw": "'language'"
+                  "raw": "'language'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -90,7 +92,9 @@
             "start": 1091,
             "end": 1101,
             "value": "fallback",
-            "raw": "'fallback'"
+            "raw": "'fallback'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -233,7 +237,9 @@
                         "start": 1209,
                         "end": 1213,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

@@ -78,7 +78,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 36,
         "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 65,
         "raw": "\"../foo.mts\"",
-        "value": "../foo.mts"
+        "value": "../foo.mts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -108,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 97,
         "raw": "\"../../foo.cts\"",
-        "value": "../../foo.cts"
+        "value": "../../foo.cts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -123,7 +129,9 @@ __ESTREE_TEST__:PASS:
         "start": 114,
         "end": 125,
         "raw": "\"./foo.tsx\"",
-        "value": "./foo.tsx"
+        "value": "./foo.tsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -150,7 +158,9 @@ __ESTREE_TEST__:PASS:
           "start": 148,
           "end": 158,
           "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -165,7 +175,9 @@ __ESTREE_TEST__:PASS:
         "start": 168,
         "end": 178,
         "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -181,7 +193,9 @@ __ESTREE_TEST__:PASS:
         "start": 194,
         "end": 204,
         "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -199,7 +213,9 @@ __ESTREE_TEST__:PASS:
           "start": 220,
           "end": 230,
           "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -247,7 +263,9 @@ __ESTREE_TEST__:PASS:
               "start": 240,
               "end": 250,
               "raw": "\"./foo.ts\"",
-              "value": "./foo.ts"
+              "value": "./foo.ts",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -331,7 +349,9 @@ __ESTREE_TEST__:PASS:
               "start": 317,
               "end": 327,
               "raw": "\"./foo.ts\"",
-              "value": "./foo.ts"
+              "value": "./foo.ts",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -408,7 +428,9 @@ __ESTREE_TEST__:PASS:
                       "start": 366,
                       "end": 373,
                       "raw": "\"value\"",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -421,7 +443,9 @@ __ESTREE_TEST__:PASS:
           "start": 338,
           "end": 348,
           "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -445,14 +469,18 @@ __ESTREE_TEST__:PASS:
             "start": 387,
             "end": 389,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           },
           "right": {
             "type": "Literal",
             "start": 392,
             "end": 402,
             "raw": "\"./foo.ts\"",
-            "value": "./foo.ts"
+            "value": "./foo.ts",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -480,7 +508,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 36,
         "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -495,7 +525,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 65,
         "raw": "\"../foo.mts\"",
-        "value": "../foo.mts"
+        "value": "../foo.mts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -510,7 +542,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 97,
         "raw": "\"../../foo.cts\"",
-        "value": "../../foo.cts"
+        "value": "../../foo.cts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -525,7 +559,9 @@ __ESTREE_TEST__:PASS:
         "start": 114,
         "end": 125,
         "raw": "\"./foo.tsx\"",
-        "value": "./foo.tsx"
+        "value": "./foo.tsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -540,7 +576,9 @@ __ESTREE_TEST__:PASS:
         "start": 134,
         "end": 144,
         "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -556,7 +594,9 @@ __ESTREE_TEST__:PASS:
         "start": 160,
         "end": 170,
         "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -574,7 +614,9 @@ __ESTREE_TEST__:PASS:
           "start": 187,
           "end": 197,
           "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -638,7 +680,9 @@ __ESTREE_TEST__:PASS:
                       "start": 235,
                       "end": 242,
                       "raw": "\"value\"",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -651,7 +695,9 @@ __ESTREE_TEST__:PASS:
           "start": 207,
           "end": 217,
           "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -670,7 +716,9 @@ __ESTREE_TEST__:PASS:
             "start": 257,
             "end": 267,
             "raw": "\"./foo.ts\"",
-            "value": "./foo.ts"
+            "value": "./foo.ts",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -706,7 +754,9 @@ __ESTREE_TEST__:PASS:
                 "start": 282,
                 "end": 292,
                 "raw": "\"./foo.ts\"",
-                "value": "./foo.ts"
+                "value": "./foo.ts",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -788,7 +838,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 32,
         "raw": "\"./foo.ts/foo.js\"",
-        "value": "./foo.ts/foo.js"
+        "value": "./foo.ts/foo.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -803,7 +855,9 @@ __ESTREE_TEST__:PASS:
         "start": 49,
         "end": 57,
         "raw": "\"foo.ts\"",
-        "value": "foo.ts"
+        "value": "foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -818,7 +872,9 @@ __ESTREE_TEST__:PASS:
         "start": 74,
         "end": 86,
         "raw": "\"pkg/foo.ts\"",
-        "value": "pkg/foo.ts"
+        "value": "pkg/foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -833,7 +889,9 @@ __ESTREE_TEST__:PASS:
         "start": 103,
         "end": 112,
         "raw": "\".foo.ts\"",
-        "value": ".foo.ts"
+        "value": ".foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -848,7 +906,9 @@ __ESTREE_TEST__:PASS:
         "start": 129,
         "end": 141,
         "raw": "\"./foo.d.ts\"",
-        "value": "./foo.d.ts"
+        "value": "./foo.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -863,7 +923,9 @@ __ESTREE_TEST__:PASS:
         "start": 158,
         "end": 171,
         "raw": "\"./foo.d.mts\"",
-        "value": "./foo.d.mts"
+        "value": "./foo.d.mts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -878,7 +940,9 @@ __ESTREE_TEST__:PASS:
         "start": 188,
         "end": 204,
         "raw": "\"./foo.d.css.ts\"",
-        "value": "./foo.d.css.ts"
+        "value": "./foo.d.css.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -893,7 +957,9 @@ __ESTREE_TEST__:PASS:
         "start": 221,
         "end": 239,
         "raw": "\"#internal/foo.ts\"",
-        "value": "#internal/foo.ts"
+        "value": "#internal/foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -908,7 +974,9 @@ __ESTREE_TEST__:PASS:
         "start": 256,
         "end": 269,
         "raw": "\"node:foo.ts\"",
-        "value": "node:foo.ts"
+        "value": "node:foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -927,7 +995,9 @@ __ESTREE_TEST__:PASS:
             "start": 281,
             "end": 291,
             "raw": "\"./foo.ts\"",
-            "value": "./foo.ts"
+            "value": "./foo.ts",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -958,7 +1028,9 @@ __ESTREE_TEST__:PASS:
           "start": 301,
           "end": 312,
           "raw": "\"node:path\"",
-          "value": "node:path"
+          "value": "node:path",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -977,7 +1049,9 @@ __ESTREE_TEST__:PASS:
             "start": 323,
             "end": 334,
             "raw": "\"node:path\"",
-            "value": "node:path"
+            "value": "node:path",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

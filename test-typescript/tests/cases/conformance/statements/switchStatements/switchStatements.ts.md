@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                       "start": 62,
                       "end": 64,
                       "raw": "''",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -146,7 +148,9 @@ __ESTREE_TEST__:PASS:
             "start": 109,
             "end": 111,
             "raw": "''",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -159,7 +163,9 @@ __ESTREE_TEST__:PASS:
             "start": 122,
             "end": 124,
             "raw": "12",
-            "value": 12
+            "value": 12,
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -172,7 +178,9 @@ __ESTREE_TEST__:PASS:
             "start": 135,
             "end": 139,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -185,7 +193,9 @@ __ESTREE_TEST__:PASS:
             "start": 150,
             "end": 154,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -218,7 +228,9 @@ __ESTREE_TEST__:PASS:
                 "start": 194,
                 "end": 196,
                 "raw": "12",
-                "value": 12
+                "value": 12,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -269,7 +281,8 @@ __ESTREE_TEST__:PASS:
               "flags": "",
               "pattern": "[a-z]"
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         },
         {
@@ -329,7 +342,9 @@ __ESTREE_TEST__:PASS:
                   "start": 280,
                   "end": 282,
                   "raw": "12",
-                  "value": 12
+                  "value": 12,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -350,7 +365,9 @@ __ESTREE_TEST__:PASS:
                 "start": 295,
                 "end": 298,
                 "raw": "'a'",
-                "value": "a"
+                "value": "a",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -414,7 +431,9 @@ __ESTREE_TEST__:PASS:
                 "start": 353,
                 "end": 354,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -461,7 +480,9 @@ __ESTREE_TEST__:PASS:
               "start": 384,
               "end": 386,
               "raw": "''",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -530,7 +551,9 @@ __ESTREE_TEST__:PASS:
                 "start": 420,
                 "end": 421,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -543,7 +566,9 @@ __ESTREE_TEST__:PASS:
                 "start": 416,
                 "end": 418,
                 "raw": "''",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "expression": true,
               "generator": false,
@@ -810,7 +835,9 @@ __ESTREE_TEST__:PASS:
                   "start": 632,
                   "end": 634,
                   "raw": "12",
-                  "value": 12
+                  "value": 12,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -836,7 +863,9 @@ __ESTREE_TEST__:PASS:
                   "start": 642,
                   "end": 644,
                   "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -892,7 +921,9 @@ __ESTREE_TEST__:PASS:
         "start": 677,
         "end": 679,
         "raw": "''",
-        "value": ""
+        "value": "",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -905,7 +936,9 @@ __ESTREE_TEST__:PASS:
         "start": 693,
         "end": 695,
         "raw": "12",
-        "value": 12
+        "value": 12,
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -918,7 +951,9 @@ __ESTREE_TEST__:PASS:
         "start": 709,
         "end": 713,
         "raw": "true",
-        "value": true
+        "value": true,
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -931,7 +966,9 @@ __ESTREE_TEST__:PASS:
         "start": 727,
         "end": 731,
         "raw": "null",
-        "value": null
+        "value": null,
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -964,7 +1001,9 @@ __ESTREE_TEST__:PASS:
             "start": 777,
             "end": 779,
             "raw": "12",
-            "value": 12
+            "value": 12,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1015,7 +1054,8 @@ __ESTREE_TEST__:PASS:
           "flags": "",
           "pattern": "[a-z]"
         },
-        "value": null
+        "value": null,
+        "bigint": null
       }
     },
     {
@@ -1075,7 +1115,9 @@ __ESTREE_TEST__:PASS:
               "start": 879,
               "end": 881,
               "raw": "12",
-              "value": 12
+              "value": 12,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -1096,7 +1138,9 @@ __ESTREE_TEST__:PASS:
             "start": 898,
             "end": 901,
             "raw": "'a'",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           }
         ]
       }
@@ -1116,7 +1160,9 @@ __ESTREE_TEST__:PASS:
           "start": 934,
           "end": 936,
           "raw": "''",
-          "value": ""
+          "value": "",
+          "regex": null,
+          "bigint": null
         },
         "expression": true,
         "generator": false,
@@ -1185,7 +1231,9 @@ __ESTREE_TEST__:PASS:
             "start": 968,
             "end": 969,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1198,7 +1246,9 @@ __ESTREE_TEST__:PASS:
             "start": 964,
             "end": 966,
             "raw": "''",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           },
           "expression": true,
           "generator": false,

@@ -41,7 +41,9 @@
                   "start": 484,
                   "end": 485,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -71,7 +73,9 @@
             "start": 505,
             "end": 506,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -136,7 +140,9 @@
             "start": 547,
             "end": 560,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -190,7 +196,9 @@
                             "start": 601,
                             "end": 602,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -336,14 +344,18 @@
             "start": 700,
             "end": 701,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 740,
             "value": "`constructor` property not accessed",
-            "raw": "'`constructor` property not accessed'"
+            "raw": "'`constructor` property not accessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +498,9 @@
             "start": 839,
             "end": 873,
             "value": "result is an Array exotic object",
-            "raw": "'result is an Array exotic object'"
+            "raw": "'result is an Array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -544,14 +558,18 @@
             "start": 908,
             "end": 909,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 911,
             "end": 950,
             "value": "array created with appropriate length",
-            "raw": "'array created with appropriate length'"
+            "raw": "'array created with appropriate length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

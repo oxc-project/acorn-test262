@@ -81,14 +81,18 @@
             "start": 746,
             "end": 758,
             "value": "timeZoneId",
-            "raw": "'timeZoneId'"
+            "raw": "'timeZoneId'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 836,
             "value": "The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\"",
-            "raw": "'The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\"'"
+            "raw": "'The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +150,9 @@
             "start": 881,
             "end": 887,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -171,7 +177,9 @@
                   "start": 905,
                   "end": 910,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -193,7 +201,9 @@
                   "start": 924,
                   "end": 929,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -215,7 +225,9 @@
                   "start": 947,
                   "end": 951,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -82,14 +82,18 @@
             "start": 388,
             "end": 393,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 450,
             "value": "isConstructor(Temporal.Now.instant) must return false",
-            "raw": "'isConstructor(Temporal.Now.instant) must return false'"
+            "raw": "'isConstructor(Temporal.Now.instant) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +198,9 @@
             "start": 520,
             "end": 577,
             "value": "new Temporal.Now.instant() throws a TypeError exception",
-            "raw": "'new Temporal.Now.instant() throws a TypeError exception'"
+            "raw": "'new Temporal.Now.instant() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

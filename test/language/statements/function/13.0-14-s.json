@@ -82,14 +82,18 @@
                             "start": 526,
                             "end": 529,
                             "value": " ",
-                            "raw": "\" \""
+                            "raw": "\" \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 531,
                             "end": 558,
                             "value": "'use strict'; eval = 42; ",
-                            "raw": "\"'use strict'; eval = 42; \""
+                            "raw": "\"'use strict'; eval = 42; \"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

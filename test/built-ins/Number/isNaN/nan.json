@@ -69,14 +69,18 @@
             "start": 276,
             "end": 280,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 282,
             "end": 301,
             "value": "Number.isNaN(NaN)",
-            "raw": "'Number.isNaN(NaN)'"
+            "raw": "'Number.isNaN(NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

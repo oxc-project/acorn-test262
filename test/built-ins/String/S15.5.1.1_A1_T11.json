@@ -38,7 +38,9 @@
                   "start": 374,
                   "end": 375,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "/",
                 "right": {
@@ -46,7 +48,9 @@
                   "start": 378,
                   "end": 379,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -83,7 +87,9 @@
           "start": 493,
           "end": 501,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -115,7 +121,9 @@
                     "start": 530,
                     "end": 608,
                     "value": "#1: __str = String(1/0); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(1/0); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(1/0); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -159,7 +167,9 @@
           "start": 814,
           "end": 824,
           "value": "Infinity",
-          "raw": "\"Infinity\""
+          "raw": "\"Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -191,7 +201,9 @@
                     "start": 853,
                     "end": 919,
                     "value": "#2: __str = String(1/0); __str === \"Infinity\". Actual: __str ===",
-                    "raw": "'#2: __str = String(1/0); __str === \"Infinity\". Actual: __str ==='"
+                    "raw": "'#2: __str = String(1/0); __str === \"Infinity\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -249,7 +261,9 @@
                   "start": 1031,
                   "end": 1032,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "/",
@@ -258,7 +272,9 @@
                 "start": 1035,
                 "end": 1036,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -293,7 +309,9 @@
           "start": 1150,
           "end": 1158,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -325,7 +343,9 @@
                     "start": 1187,
                     "end": 1266,
                     "value": "#3: __str = String(-1/0); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#3: __str = String(-1/0); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#3: __str = String(-1/0); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -369,7 +389,9 @@
           "start": 1472,
           "end": 1483,
           "value": "-Infinity",
-          "raw": "\"-Infinity\""
+          "raw": "\"-Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -401,7 +423,9 @@
                     "start": 1512,
                     "end": 1580,
                     "value": "#4: __str = String(-1/0); __str === \"-Infinity\". Actual: __str ===",
-                    "raw": "'#4: __str = String(-1/0); __str === \"-Infinity\". Actual: __str ==='"
+                    "raw": "'#4: __str = String(-1/0); __str === \"-Infinity\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -482,7 +506,9 @@
           "start": 1813,
           "end": 1821,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -514,7 +540,9 @@
                     "start": 1850,
                     "end": 1933,
                     "value": "#5: __str = String(Infinity); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#5: __str = String(Infinity); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#5: __str = String(Infinity); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -558,7 +586,9 @@
           "start": 2139,
           "end": 2149,
           "value": "Infinity",
-          "raw": "\"Infinity\""
+          "raw": "\"Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -590,7 +620,9 @@
                     "start": 2178,
                     "end": 2249,
                     "value": "#6: __str = String(Infinity); __str === \"Infinity\". Actual: __str ===",
-                    "raw": "'#6: __str = String(Infinity); __str === \"Infinity\". Actual: __str ==='"
+                    "raw": "'#6: __str = String(Infinity); __str === \"Infinity\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -678,7 +710,9 @@
           "start": 2483,
           "end": 2491,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -710,7 +744,9 @@
                     "start": 2520,
                     "end": 2604,
                     "value": "#7: __str = String(-Infinity); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#7: __str = String(-Infinity); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#7: __str = String(-Infinity); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -754,7 +790,9 @@
           "start": 2810,
           "end": 2821,
           "value": "-Infinity",
-          "raw": "\"-Infinity\""
+          "raw": "\"-Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -786,7 +824,9 @@
                     "start": 2850,
                     "end": 2923,
                     "value": "#8: __str = String(-Infinity); __str === \"-Infinity\". Actual: __str ===",
-                    "raw": "'#8: __str = String(-Infinity); __str === \"-Infinity\". Actual: __str ==='"
+                    "raw": "'#8: __str = String(-Infinity); __str === \"-Infinity\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -880,7 +920,9 @@
           "start": 3172,
           "end": 3180,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -912,7 +954,9 @@
                     "start": 3209,
                     "end": 3308,
                     "value": "#9: __str = String(Number.POSITIVE_INFINITY); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#9: __str = String(Number.POSITIVE_INFINITY); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#9: __str = String(Number.POSITIVE_INFINITY); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -956,7 +1000,9 @@
           "start": 3515,
           "end": 3525,
           "value": "Infinity",
-          "raw": "\"Infinity\""
+          "raw": "\"Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -988,7 +1034,9 @@
                     "start": 3554,
                     "end": 3642,
                     "value": "#10: __str = String(Number.POSITIVE_INFINITY); __str === \"Infinity\". Actual: __str ===",
-                    "raw": "'#10: __str = String(Number.POSITIVE_INFINITY); __str === \"Infinity\". Actual: __str ==='"
+                    "raw": "'#10: __str = String(Number.POSITIVE_INFINITY); __str === \"Infinity\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1082,7 +1130,9 @@
           "start": 3892,
           "end": 3900,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1114,7 +1164,9 @@
                     "start": 3929,
                     "end": 4029,
                     "value": "#11: __str = String(Number.NEGATIVE_INFINITY); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#11: __str = String(Number.NEGATIVE_INFINITY); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#11: __str = String(Number.NEGATIVE_INFINITY); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1158,7 +1210,9 @@
           "start": 4236,
           "end": 4247,
           "value": "-Infinity",
-          "raw": "\"-Infinity\""
+          "raw": "\"-Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1190,7 +1244,9 @@
                     "start": 4276,
                     "end": 4365,
                     "value": "#12: __str = String(Number.NEGATIVE_INFINITY); __str === \"-Infinity\". Actual: __str ===",
-                    "raw": "'#12: __str = String(Number.NEGATIVE_INFINITY); __str === \"-Infinity\". Actual: __str ==='"
+                    "raw": "'#12: __str = String(Number.NEGATIVE_INFINITY); __str === \"-Infinity\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

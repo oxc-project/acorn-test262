@@ -62,7 +62,9 @@
           "start": 658,
           "end": 659,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -106,7 +108,9 @@
           "start": 786,
           "end": 794,
           "value": "number",
-          "raw": "'number'"
+          "raw": "'number'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +142,9 @@
                     "start": 822,
                     "end": 909,
                     "value": "#1: typeof __FACTORY.prototype === 'number'. Actual: typeof __FACTORY.prototype ===",
-                    "raw": "'#1: typeof __FACTORY.prototype === \\'number\\'. Actual: typeof __FACTORY.prototype ==='"
+                    "raw": "'#1: typeof __FACTORY.prototype === \\'number\\'. Actual: typeof __FACTORY.prototype ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -298,7 +304,9 @@
                   "start": 1223,
                   "end": 1278,
                   "value": "#2: Object.prototype.isPrototypeOf(__device) === true",
-                  "raw": "'#2: Object.prototype.isPrototypeOf(__device) === true'"
+                  "raw": "'#2: Object.prototype.isPrototypeOf(__device) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -102,7 +102,9 @@ __ESTREE_TEST__:PASS:
           "start": 21,
           "end": 26,
           "raw": "\"./b\"",
-          "value": "./b"
+          "value": "./b",
+          "regex": null,
+          "bigint": null
         }
       }
     },

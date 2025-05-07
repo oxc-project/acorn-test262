@@ -80,14 +80,18 @@
                     "start": 469,
                     "end": 473,
                     "value": 1971,
-                    "raw": "1971"
+                    "raw": "1971",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 475,
                     "end": 476,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -164,7 +168,9 @@
                 "start": 520,
                 "end": 522,
                 "value": 71,
-                "raw": "71"
+                "raw": "71",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -180,7 +186,9 @@
             "start": 535,
             "end": 556,
             "value": "method return value",
-            "raw": "'method return value'"
+            "raw": "'method return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +259,9 @@
             "start": 602,
             "end": 631,
             "value": "[[DateValue]] internal slot",
-            "raw": "'[[DateValue]] internal slot'"
+            "raw": "'[[DateValue]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

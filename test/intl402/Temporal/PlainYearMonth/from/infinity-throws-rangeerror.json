@@ -41,7 +41,9 @@
                   "start": 345,
                   "end": 349,
                   "value": "ad",
-                  "raw": "\"ad\""
+                  "raw": "\"ad\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 358,
                   "end": 359,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 371,
                   "end": 380,
                   "value": "gregory",
-                  "raw": "\"gregory\""
+                  "raw": "\"gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -186,14 +192,18 @@
                             "start": 429,
                             "end": 440,
                             "value": "constrain",
-                            "raw": "\"constrain\""
+                            "raw": "\"constrain\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 442,
                             "end": 450,
                             "value": "reject",
-                            "raw": "\"reject\""
+                            "raw": "\"reject\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -515,7 +525,9 @@
                                         "start": 730,
                                         "end": 739,
                                         "value": "eraYear",
-                                        "raw": "\"eraYear\""
+                                        "raw": "\"eraYear\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -723,14 +735,18 @@
                                         "start": 882,
                                         "end": 903,
                                         "value": "get eraYear.valueOf",
-                                        "raw": "\"get eraYear.valueOf\""
+                                        "raw": "\"get eraYear.valueOf\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 905,
                                         "end": 927,
                                         "value": "call eraYear.valueOf",
-                                        "raw": "\"call eraYear.valueOf\""
+                                        "raw": "\"call eraYear.valueOf\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   },
@@ -739,7 +755,9 @@
                                     "start": 930,
                                     "end": 975,
                                     "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "raw": "\"it fails after fetching the primitive value\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

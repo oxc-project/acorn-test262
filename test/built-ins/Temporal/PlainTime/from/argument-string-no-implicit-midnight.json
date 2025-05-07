@@ -23,7 +23,9 @@
             "start": 310,
             "end": 322,
             "value": "2019-10-01",
-            "raw": "\"2019-10-01\""
+            "raw": "\"2019-10-01\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +126,9 @@
             "start": 393,
             "end": 459,
             "value": "Date-only string throws, does not implicitly convert to midnight",
-            "raw": "\"Date-only string throws, does not implicitly convert to midnight\""
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

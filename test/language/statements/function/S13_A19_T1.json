@@ -30,7 +30,9 @@
           "start": 510,
           "end": 520,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -62,7 +64,9 @@
                     "start": 548,
                     "end": 609,
                     "value": "#1: typeof __decl === \"function\". Actual: typeof __decl ===",
-                    "raw": "'#1: typeof __decl === \"function\". Actual: typeof __decl ==='"
+                    "raw": "'#1: typeof __decl === \"function\". Actual: typeof __decl ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -106,7 +110,9 @@
             "start": 724,
             "end": 725,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -132,7 +138,9 @@
           "start": 895,
           "end": 896,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -164,7 +172,9 @@
                     "start": 924,
                     "end": 962,
                     "value": "#2: __decl === 1. Actual: __decl ===",
-                    "raw": "'#2: __decl === 1. Actual: __decl ==='"
+                    "raw": "'#2: __decl === 1. Actual: __decl ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -209,7 +219,9 @@
               "start": 1082,
               "end": 1083,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

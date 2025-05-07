@@ -28,861 +28,1107 @@
                 "start": 313,
                 "end": 328,
                 "value": "Africa/Asmera",
-                "raw": "\"Africa/Asmera\""
+                "raw": "\"Africa/Asmera\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 382,
                 "end": 399,
                 "value": "Africa/Timbuktu",
-                "raw": "\"Africa/Timbuktu\""
+                "raw": "\"Africa/Timbuktu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 455,
                 "end": 489,
                 "value": "America/Argentina/ComodRivadavia",
-                "raw": "\"America/Argentina/ComodRivadavia\""
+                "raw": "\"America/Argentina/ComodRivadavia\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 570,
                 "end": 584,
                 "value": "America/Atka",
-                "raw": "\"America/Atka\""
+                "raw": "\"America/Atka\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 659,
                 "value": "America/Buenos_Aires",
-                "raw": "\"America/Buenos_Aires\""
+                "raw": "\"America/Buenos_Aires\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 728,
                 "end": 747,
                 "value": "America/Catamarca",
-                "raw": "\"America/Catamarca\""
+                "raw": "\"America/Catamarca\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 813,
                 "end": 836,
                 "value": "America/Coral_Harbour",
-                "raw": "\"America/Coral_Harbour\""
+                "raw": "\"America/Coral_Harbour\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 898,
                 "end": 915,
                 "value": "America/Cordoba",
-                "raw": "\"America/Cordoba\""
+                "raw": "\"America/Cordoba\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 979,
                 "end": 997,
                 "value": "America/Ensenada",
-                "raw": "\"America/Ensenada\""
+                "raw": "\"America/Ensenada\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1054,
                 "end": 1074,
                 "value": "America/Fort_Wayne",
-                "raw": "\"America/Fort_Wayne\""
+                "raw": "\"America/Fort_Wayne\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1141,
                 "end": 1158,
                 "value": "America/Godthab",
-                "raw": "\"America/Godthab\""
+                "raw": "\"America/Godthab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1214,
                 "end": 1236,
                 "value": "America/Indianapolis",
-                "raw": "\"America/Indianapolis\""
+                "raw": "\"America/Indianapolis\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1305,
                 "end": 1320,
                 "value": "America/Jujuy",
-                "raw": "\"America/Jujuy\""
+                "raw": "\"America/Jujuy\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1374,
                 "end": 1391,
                 "value": "America/Knox_IN",
-                "raw": "\"America/Knox_IN\""
+                "raw": "\"America/Knox_IN\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1447,
                 "end": 1467,
                 "value": "America/Louisville",
-                "raw": "\"America/Louisville\""
+                "raw": "\"America/Louisville\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1534,
                 "end": 1551,
                 "value": "America/Mendoza",
-                "raw": "\"America/Mendoza\""
+                "raw": "\"America/Mendoza\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1615,
                 "end": 1633,
                 "value": "America/Montreal",
-                "raw": "\"America/Montreal\""
+                "raw": "\"America/Montreal\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1690,
                 "end": 1710,
                 "value": "America/Porto_Acre",
-                "raw": "\"America/Porto_Acre\""
+                "raw": "\"America/Porto_Acre\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1769,
                 "end": 1786,
                 "value": "America/Rosario",
-                "raw": "\"America/Rosario\""
+                "raw": "\"America/Rosario\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1850,
                 "end": 1872,
                 "value": "America/Santa_Isabel",
-                "raw": "\"America/Santa_Isabel\""
+                "raw": "\"America/Santa_Isabel\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1933,
                 "end": 1951,
                 "value": "America/Shiprock",
-                "raw": "\"America/Shiprock\""
+                "raw": "\"America/Shiprock\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2008,
                 "end": 2024,
                 "value": "America/Virgin",
-                "raw": "\"America/Virgin\""
+                "raw": "\"America/Virgin\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2079,
                 "end": 2102,
                 "value": "Antarctica/South_Pole",
-                "raw": "\"Antarctica/South_Pole\""
+                "raw": "\"Antarctica/South_Pole\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2164,
                 "end": 2180,
                 "value": "Asia/Ashkhabad",
-                "raw": "\"Asia/Ashkhabad\""
+                "raw": "\"Asia/Ashkhabad\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2235,
                 "end": 2250,
                 "value": "Asia/Calcutta",
-                "raw": "\"Asia/Calcutta\""
+                "raw": "\"Asia/Calcutta\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2304,
                 "end": 2320,
                 "value": "Asia/Chongqing",
-                "raw": "\"Asia/Chongqing\""
+                "raw": "\"Asia/Chongqing\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2375,
                 "end": 2391,
                 "value": "Asia/Chungking",
-                "raw": "\"Asia/Chungking\""
+                "raw": "\"Asia/Chungking\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2446,
                 "end": 2458,
                 "value": "Asia/Dacca",
-                "raw": "\"Asia/Dacca\""
+                "raw": "\"Asia/Dacca\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2509,
                 "end": 2522,
                 "value": "Asia/Harbin",
-                "raw": "\"Asia/Harbin\""
+                "raw": "\"Asia/Harbin\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2574,
                 "end": 2588,
                 "value": "Asia/Kashgar",
-                "raw": "\"Asia/Kashgar\""
+                "raw": "\"Asia/Kashgar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2641,
                 "end": 2656,
                 "value": "Asia/Katmandu",
-                "raw": "\"Asia/Katmandu\""
+                "raw": "\"Asia/Katmandu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2710,
                 "end": 2722,
                 "value": "Asia/Macao",
-                "raw": "\"Asia/Macao\""
+                "raw": "\"Asia/Macao\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2773,
                 "end": 2787,
                 "value": "Asia/Rangoon",
-                "raw": "\"Asia/Rangoon\""
+                "raw": "\"Asia/Rangoon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2840,
                 "end": 2853,
                 "value": "Asia/Saigon",
-                "raw": "\"Asia/Saigon\""
+                "raw": "\"Asia/Saigon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2905,
                 "end": 2920,
                 "value": "Asia/Tel_Aviv",
-                "raw": "\"Asia/Tel_Aviv\""
+                "raw": "\"Asia/Tel_Aviv\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2974,
                 "end": 2987,
                 "value": "Asia/Thimbu",
-                "raw": "\"Asia/Thimbu\""
+                "raw": "\"Asia/Thimbu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3039,
                 "end": 3059,
                 "value": "Asia/Ujung_Pandang",
-                "raw": "\"Asia/Ujung_Pandang\""
+                "raw": "\"Asia/Ujung_Pandang\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3118,
                 "end": 3135,
                 "value": "Asia/Ulan_Bator",
-                "raw": "\"Asia/Ulan_Bator\""
+                "raw": "\"Asia/Ulan_Bator\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3191,
                 "end": 3208,
                 "value": "Atlantic/Faeroe",
-                "raw": "\"Atlantic/Faeroe\""
+                "raw": "\"Atlantic/Faeroe\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3264,
                 "end": 3284,
                 "value": "Atlantic/Jan_Mayen",
-                "raw": "\"Atlantic/Jan_Mayen\""
+                "raw": "\"Atlantic/Jan_Mayen\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3343,
                 "end": 3358,
                 "value": "Australia/ACT",
-                "raw": "\"Australia/ACT\""
+                "raw": "\"Australia/ACT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3412,
                 "end": 3432,
                 "value": "Australia/Canberra",
-                "raw": "\"Australia/Canberra\""
+                "raw": "\"Australia/Canberra\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3491,
                 "end": 3509,
                 "value": "Australia/Currie",
-                "raw": "\"Australia/Currie\""
+                "raw": "\"Australia/Currie\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3566,
                 "end": 3581,
                 "value": "Australia/LHI",
-                "raw": "\"Australia/LHI\""
+                "raw": "\"Australia/LHI\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3635,
                 "end": 3650,
                 "value": "Australia/NSW",
-                "raw": "\"Australia/NSW\""
+                "raw": "\"Australia/NSW\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3704,
                 "end": 3721,
                 "value": "Australia/North",
-                "raw": "\"Australia/North\""
+                "raw": "\"Australia/North\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3777,
                 "end": 3799,
                 "value": "Australia/Queensland",
-                "raw": "\"Australia/Queensland\""
+                "raw": "\"Australia/Queensland\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3860,
                 "end": 3877,
                 "value": "Australia/South",
-                "raw": "\"Australia/South\""
+                "raw": "\"Australia/South\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3933,
                 "end": 3953,
                 "value": "Australia/Tasmania",
-                "raw": "\"Australia/Tasmania\""
+                "raw": "\"Australia/Tasmania\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4012,
                 "end": 4032,
                 "value": "Australia/Victoria",
-                "raw": "\"Australia/Victoria\""
+                "raw": "\"Australia/Victoria\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4091,
                 "end": 4107,
                 "value": "Australia/West",
-                "raw": "\"Australia/West\""
+                "raw": "\"Australia/West\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4162,
                 "end": 4184,
                 "value": "Australia/Yancowinna",
-                "raw": "\"Australia/Yancowinna\""
+                "raw": "\"Australia/Yancowinna\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4245,
                 "end": 4258,
                 "value": "Brazil/Acre",
-                "raw": "\"Brazil/Acre\""
+                "raw": "\"Brazil/Acre\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4310,
                 "end": 4328,
                 "value": "Brazil/DeNoronha",
-                "raw": "\"Brazil/DeNoronha\""
+                "raw": "\"Brazil/DeNoronha\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4385,
                 "end": 4398,
                 "value": "Brazil/East",
-                "raw": "\"Brazil/East\""
+                "raw": "\"Brazil/East\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4450,
                 "end": 4463,
                 "value": "Brazil/West",
-                "raw": "\"Brazil/West\""
+                "raw": "\"Brazil/West\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4515,
                 "end": 4532,
                 "value": "Canada/Atlantic",
-                "raw": "\"Canada/Atlantic\""
+                "raw": "\"Canada/Atlantic\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4588,
                 "end": 4604,
                 "value": "Canada/Central",
-                "raw": "\"Canada/Central\""
+                "raw": "\"Canada/Central\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4659,
                 "end": 4675,
                 "value": "Canada/Eastern",
-                "raw": "\"Canada/Eastern\""
+                "raw": "\"Canada/Eastern\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4730,
                 "end": 4747,
                 "value": "Canada/Mountain",
-                "raw": "\"Canada/Mountain\""
+                "raw": "\"Canada/Mountain\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4803,
                 "end": 4824,
                 "value": "Canada/Newfoundland",
-                "raw": "\"Canada/Newfoundland\""
+                "raw": "\"Canada/Newfoundland\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4884,
                 "end": 4900,
                 "value": "Canada/Pacific",
-                "raw": "\"Canada/Pacific\""
+                "raw": "\"Canada/Pacific\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4955,
                 "end": 4976,
                 "value": "Canada/Saskatchewan",
-                "raw": "\"Canada/Saskatchewan\""
+                "raw": "\"Canada/Saskatchewan\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5036,
                 "end": 5050,
                 "value": "Canada/Yukon",
-                "raw": "\"Canada/Yukon\""
+                "raw": "\"Canada/Yukon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5103,
                 "end": 5122,
                 "value": "Chile/Continental",
-                "raw": "\"Chile/Continental\""
+                "raw": "\"Chile/Continental\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5180,
                 "end": 5200,
                 "value": "Chile/EasterIsland",
-                "raw": "\"Chile/EasterIsland\""
+                "raw": "\"Chile/EasterIsland\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5259,
                 "end": 5265,
                 "value": "Cuba",
-                "raw": "\"Cuba\""
+                "raw": "\"Cuba\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5310,
                 "end": 5317,
                 "value": "Egypt",
-                "raw": "\"Egypt\""
+                "raw": "\"Egypt\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5363,
                 "end": 5369,
                 "value": "Eire",
-                "raw": "\"Eire\""
+                "raw": "\"Eire\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5414,
                 "end": 5423,
                 "value": "Etc/UCT",
-                "raw": "\"Etc/UCT\""
+                "raw": "\"Etc/UCT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5471,
                 "end": 5487,
                 "value": "Europe/Belfast",
-                "raw": "\"Europe/Belfast\""
+                "raw": "\"Europe/Belfast\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5542,
                 "end": 5555,
                 "value": "Europe/Kiev",
-                "raw": "\"Europe/Kiev\""
+                "raw": "\"Europe/Kiev\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5607,
                 "end": 5624,
                 "value": "Europe/Tiraspol",
-                "raw": "\"Europe/Tiraspol\""
+                "raw": "\"Europe/Tiraspol\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5680,
                 "end": 5684,
                 "value": "GB",
-                "raw": "\"GB\""
+                "raw": "\"GB\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5727,
                 "end": 5736,
                 "value": "GB-Eire",
-                "raw": "\"GB-Eire\""
+                "raw": "\"GB-Eire\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5784,
                 "end": 5791,
                 "value": "GMT+0",
-                "raw": "\"GMT+0\""
+                "raw": "\"GMT+0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5837,
                 "end": 5844,
                 "value": "GMT-0",
-                "raw": "\"GMT-0\""
+                "raw": "\"GMT-0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5890,
                 "end": 5896,
                 "value": "GMT0",
-                "raw": "\"GMT0\""
+                "raw": "\"GMT0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5941,
                 "end": 5952,
                 "value": "Greenwich",
-                "raw": "\"Greenwich\""
+                "raw": "\"Greenwich\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6002,
                 "end": 6012,
                 "value": "Hongkong",
-                "raw": "\"Hongkong\""
+                "raw": "\"Hongkong\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6061,
                 "end": 6070,
                 "value": "Iceland",
-                "raw": "\"Iceland\""
+                "raw": "\"Iceland\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6118,
                 "end": 6124,
                 "value": "Iran",
-                "raw": "\"Iran\""
+                "raw": "\"Iran\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6169,
                 "end": 6177,
                 "value": "Israel",
-                "raw": "\"Israel\""
+                "raw": "\"Israel\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6224,
                 "end": 6233,
                 "value": "Jamaica",
-                "raw": "\"Jamaica\""
+                "raw": "\"Jamaica\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6281,
                 "end": 6288,
                 "value": "Japan",
-                "raw": "\"Japan\""
+                "raw": "\"Japan\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6334,
                 "end": 6345,
                 "value": "Kwajalein",
-                "raw": "\"Kwajalein\""
+                "raw": "\"Kwajalein\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6395,
                 "end": 6402,
                 "value": "Libya",
-                "raw": "\"Libya\""
+                "raw": "\"Libya\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6448,
                 "end": 6466,
                 "value": "Mexico/BajaNorte",
-                "raw": "\"Mexico/BajaNorte\""
+                "raw": "\"Mexico/BajaNorte\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6523,
                 "end": 6539,
                 "value": "Mexico/BajaSur",
-                "raw": "\"Mexico/BajaSur\""
+                "raw": "\"Mexico/BajaSur\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6594,
                 "end": 6610,
                 "value": "Mexico/General",
-                "raw": "\"Mexico/General\""
+                "raw": "\"Mexico/General\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6665,
                 "end": 6669,
                 "value": "NZ",
-                "raw": "\"NZ\""
+                "raw": "\"NZ\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6712,
                 "end": 6721,
                 "value": "NZ-CHAT",
-                "raw": "\"NZ-CHAT\""
+                "raw": "\"NZ-CHAT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6769,
                 "end": 6777,
                 "value": "Navajo",
-                "raw": "\"Navajo\""
+                "raw": "\"Navajo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6824,
                 "end": 6829,
                 "value": "PRC",
-                "raw": "\"PRC\""
+                "raw": "\"PRC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6873,
                 "end": 6892,
                 "value": "Pacific/Enderbury",
-                "raw": "\"Pacific/Enderbury\""
+                "raw": "\"Pacific/Enderbury\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6950,
                 "end": 6968,
                 "value": "Pacific/Johnston",
-                "raw": "\"Pacific/Johnston\""
+                "raw": "\"Pacific/Johnston\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7025,
                 "end": 7041,
                 "value": "Pacific/Ponape",
-                "raw": "\"Pacific/Ponape\""
+                "raw": "\"Pacific/Ponape\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7096,
                 "end": 7111,
                 "value": "Pacific/Samoa",
-                "raw": "\"Pacific/Samoa\""
+                "raw": "\"Pacific/Samoa\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7165,
                 "end": 7179,
                 "value": "Pacific/Truk",
-                "raw": "\"Pacific/Truk\""
+                "raw": "\"Pacific/Truk\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7232,
                 "end": 7245,
                 "value": "Pacific/Yap",
-                "raw": "\"Pacific/Yap\""
+                "raw": "\"Pacific/Yap\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7297,
                 "end": 7305,
                 "value": "Poland",
-                "raw": "\"Poland\""
+                "raw": "\"Poland\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7352,
                 "end": 7362,
                 "value": "Portugal",
-                "raw": "\"Portugal\""
+                "raw": "\"Portugal\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7411,
                 "end": 7416,
                 "value": "ROC",
-                "raw": "\"ROC\""
+                "raw": "\"ROC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7460,
                 "end": 7465,
                 "value": "ROK",
-                "raw": "\"ROK\""
+                "raw": "\"ROK\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7509,
                 "end": 7520,
                 "value": "Singapore",
-                "raw": "\"Singapore\""
+                "raw": "\"Singapore\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7570,
                 "end": 7578,
                 "value": "Turkey",
-                "raw": "\"Turkey\""
+                "raw": "\"Turkey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7625,
                 "end": 7630,
                 "value": "UCT",
-                "raw": "\"UCT\""
+                "raw": "\"UCT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7674,
                 "end": 7685,
                 "value": "US/Alaska",
-                "raw": "\"US/Alaska\""
+                "raw": "\"US/Alaska\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7735,
                 "end": 7748,
                 "value": "US/Aleutian",
-                "raw": "\"US/Aleutian\""
+                "raw": "\"US/Aleutian\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7800,
                 "end": 7812,
                 "value": "US/Arizona",
-                "raw": "\"US/Arizona\""
+                "raw": "\"US/Arizona\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7863,
                 "end": 7875,
                 "value": "US/Central",
-                "raw": "\"US/Central\""
+                "raw": "\"US/Central\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 7926,
                 "end": 7943,
                 "value": "US/East-Indiana",
-                "raw": "\"US/East-Indiana\""
+                "raw": "\"US/East-Indiana\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8007,
                 "end": 8019,
                 "value": "US/Eastern",
-                "raw": "\"US/Eastern\""
+                "raw": "\"US/Eastern\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8070,
                 "end": 8081,
                 "value": "US/Hawaii",
-                "raw": "\"US/Hawaii\""
+                "raw": "\"US/Hawaii\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8131,
                 "end": 8150,
                 "value": "US/Indiana-Starke",
-                "raw": "\"US/Indiana-Starke\""
+                "raw": "\"US/Indiana-Starke\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8208,
                 "end": 8221,
                 "value": "US/Michigan",
-                "raw": "\"US/Michigan\""
+                "raw": "\"US/Michigan\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8273,
                 "end": 8286,
                 "value": "US/Mountain",
-                "raw": "\"US/Mountain\""
+                "raw": "\"US/Mountain\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8338,
                 "end": 8350,
                 "value": "US/Pacific",
-                "raw": "\"US/Pacific\""
+                "raw": "\"US/Pacific\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8401,
                 "end": 8411,
                 "value": "US/Samoa",
-                "raw": "\"US/Samoa\""
+                "raw": "\"US/Samoa\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8460,
                 "end": 8465,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8509,
                 "end": 8520,
                 "value": "Universal",
-                "raw": "\"Universal\""
+                "raw": "\"Universal\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8570,
                 "end": 8576,
                 "value": "W-SU",
-                "raw": "\"W-SU\""
+                "raw": "\"W-SU\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 8621,
                 "end": 8627,
                 "value": "Zulu",
-                "raw": "\"Zulu\""
+                "raw": "\"Zulu\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -971,6 +1217,7 @@
                       "end": 8750,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

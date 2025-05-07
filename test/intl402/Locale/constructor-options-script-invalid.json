@@ -28,105 +28,135 @@
                 "start": 765,
                 "end": 767,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 771,
                 "end": 774,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 778,
                 "end": 782,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 786,
                 "end": 791,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 795,
                 "end": 801,
                 "value": "abc7",
-                "raw": "\"abc7\""
+                "raw": "\"abc7\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 805,
                 "end": 817,
                 "value": "notascript",
-                "raw": "\"notascript\""
+                "raw": "\"notascript\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 821,
                 "end": 832,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 836,
                 "end": 847,
                 "value": "Balİ",
-                "raw": "\"Bal\\u0130\""
+                "raw": "\"Bal\\u0130\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 851,
                 "end": 862,
                 "value": "Balı",
-                "raw": "\"Bal\\u0131\""
+                "raw": "\"Bal\\u0131\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 927,
                 "end": 937,
                 "value": "ary-Arab",
-                "raw": "\"ary-Arab\""
+                "raw": "\"ary-Arab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 941,
                 "end": 950,
                 "value": "Latn-SA",
-                "raw": "\"Latn-SA\""
+                "raw": "\"Latn-SA\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 954,
                 "end": 968,
                 "value": "Latn-vaidika",
-                "raw": "\"Latn-vaidika\""
+                "raw": "\"Latn-vaidika\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 972,
                 "end": 985,
                 "value": "Latn-a-asdf",
-                "raw": "\"Latn-a-asdf\""
+                "raw": "\"Latn-a-asdf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 989,
                 "end": 1005,
                 "value": "Latn-x-private",
-                "raw": "\"Latn-x-private\""
+                "raw": "\"Latn-x-private\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1010,
                 "end": 1011,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -251,7 +281,9 @@
                               "start": 1122,
                               "end": 1126,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

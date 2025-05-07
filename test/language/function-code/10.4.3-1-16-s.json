@@ -34,7 +34,9 @@
                 "start": 327,
                 "end": 365,
                 "value": "\"use strict\";\nreturn typeof this;",
-                "raw": "\"\\\"use strict\\\";\\nreturn typeof this;\""
+                "raw": "\"\\\"use strict\\\";\\nreturn typeof this;\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,14 +90,18 @@
             "start": 391,
             "end": 402,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 409,
             "value": "f()",
-            "raw": "'f()'"
+            "raw": "'f()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

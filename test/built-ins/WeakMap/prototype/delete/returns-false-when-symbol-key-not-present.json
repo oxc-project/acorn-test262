@@ -65,7 +65,9 @@
                 "start": 405,
                 "end": 420,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,7 +107,9 @@
                 "start": 440,
                 "end": 455,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -145,7 +149,9 @@
                 "start": 475,
                 "end": 496,
                 "value": "another description",
-                "raw": "'another description'"
+                "raw": "'another description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -193,7 +199,9 @@
             "start": 513,
             "end": 515,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,14 +273,18 @@
             "start": 553,
             "end": 558,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 592,
             "value": "Regular symbol key not present",
-            "raw": "'Regular symbol key not present'"
+            "raw": "'Regular symbol key not present'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,14 +356,18 @@
             "start": 628,
             "end": 633,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 635,
             "end": 696,
             "value": "Symbols with the same description don't alias to each other",
-            "raw": "\"Symbols with the same description don't alias to each other\""
+            "raw": "\"Symbols with the same description don't alias to each other\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,14 +452,18 @@
             "start": 748,
             "end": 753,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 790,
             "value": "Well-known symbol key not present",
-            "raw": "'Well-known symbol key not present'"
+            "raw": "'Well-known symbol key not present'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

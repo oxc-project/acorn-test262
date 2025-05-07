@@ -43,6 +43,7 @@
               "end": 602,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -51,14 +52,18 @@
             "start": 604,
             "end": 608,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 615,
             "value": "!0n",
-            "raw": "\"!0n\""
+            "raw": "\"!0n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -104,6 +109,7 @@
               "end": 638,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -112,14 +118,18 @@
             "start": 640,
             "end": 645,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 647,
             "end": 652,
             "value": "!1n",
-            "raw": "\"!1n\""
+            "raw": "\"!1n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -171,6 +181,7 @@
                 "end": 676,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             }
@@ -180,14 +191,18 @@
             "start": 678,
             "end": 683,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 685,
             "end": 691,
             "value": "!-1n",
-            "raw": "\"!-1n\""
+            "raw": "\"!-1n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

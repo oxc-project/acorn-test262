@@ -23,7 +23,9 @@
             "start": 1317,
             "end": 1318,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -170,7 +172,9 @@
                                           "start": 1420,
                                           "end": 1421,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -212,7 +216,9 @@
                                                 "start": 1466,
                                                 "end": 1467,
                                                 "value": 3,
-                                                "raw": "3"
+                                                "raw": "3",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "kind": "init"
@@ -372,7 +378,9 @@
             "start": 1622,
             "end": 1623,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -422,14 +430,18 @@
                 "start": 1655,
                 "end": 1656,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1658,
                 "end": 1659,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -510,7 +522,9 @@
             "start": 1724,
             "end": 1770,
             "value": "GetMethod(obj, @@iterator) returns undefined",
-            "raw": "'GetMethod(obj, @@iterator) returns undefined'"
+            "raw": "'GetMethod(obj, @@iterator) returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

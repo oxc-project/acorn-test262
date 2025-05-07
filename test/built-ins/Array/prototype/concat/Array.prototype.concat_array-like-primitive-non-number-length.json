@@ -35,14 +35,18 @@
                   "start": 372,
                   "end": 375,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 377,
                   "end": 380,
                   "value": "A",
-                  "raw": "\"A\""
+                  "raw": "\"A\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 384,
                   "end": 387,
                   "value": "3",
-                  "raw": "\"3\""
+                  "raw": "\"3\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 389,
                   "end": 392,
                   "value": "B",
-                  "raw": "\"B\""
+                  "raw": "\"B\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 396,
                   "end": 399,
                   "value": "5",
-                  "raw": "\"5\""
+                  "raw": "\"5\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 401,
                   "end": 404,
                   "value": "C",
-                  "raw": "\"C\""
+                  "raw": "\"C\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -144,7 +156,9 @@
           "start": 441,
           "end": 445,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -217,7 +231,9 @@
                         "start": 498,
                         "end": 503,
                         "value": "SIX",
-                        "raw": "\"SIX\""
+                        "raw": "\"SIX\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -243,7 +259,9 @@
                 "start": 521,
                 "end": 525,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -323,7 +341,9 @@
             "start": 569,
             "end": 627,
             "value": "[].concat({\"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []",
-            "raw": "'[].concat({\"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []'"
+            "raw": "'[].concat({\"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -380,7 +400,9 @@
                 "start": 657,
                 "end": 661,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -420,7 +442,9 @@
                         "start": 698,
                         "end": 703,
                         "value": "SIX",
-                        "raw": "\"SIX\""
+                        "raw": "\"SIX\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -504,7 +528,9 @@
             "start": 752,
             "end": 810,
             "value": "[].concat({\"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []",
-            "raw": "'[].concat({\"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []'"
+            "raw": "'[].concat({\"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -42,7 +42,9 @@
                   "start": 360,
                   "end": 405,
                   "value": "The overriden version of Object was called!",
-                  "raw": "'The overriden version of Object was called!'"
+                  "raw": "'The overriden version of Object was called!'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -134,7 +136,9 @@
                   "start": 470,
                   "end": 484,
                   "value": "return this;",
-                  "raw": "'return this;'"
+                  "raw": "'return this;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -227,7 +231,9 @@
             "start": 555,
             "end": 612,
             "value": "Sanity check failed: could not modify the global Object",
-            "raw": "'Sanity check failed: could not modify the global Object'"
+            "raw": "'Sanity check failed: could not modify the global Object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,7 +300,9 @@
                   "start": 647,
                   "end": 648,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -313,14 +321,18 @@
             "start": 658,
             "end": 659,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 661,
             "end": 709,
             "value": "Expected number primitive to have zero entries",
-            "raw": "'Expected number primitive to have zero entries'"
+            "raw": "'Expected number primitive to have zero entries'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

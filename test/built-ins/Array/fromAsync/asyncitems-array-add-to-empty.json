@@ -142,7 +142,9 @@
                         "start": 1339,
                         "end": 1340,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

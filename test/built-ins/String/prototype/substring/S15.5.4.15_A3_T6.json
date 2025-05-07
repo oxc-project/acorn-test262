@@ -133,7 +133,9 @@
               "start": 627,
               "end": 628,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "MemberExpression",
@@ -183,7 +185,9 @@
           "start": 664,
           "end": 673,
           "value": "Object]",
-          "raw": "\"Object]\""
+          "raw": "\"Object]\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -215,7 +219,9 @@
                     "start": 702,
                     "end": 863,
                     "value": "#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8, __instance.toString().length) === \"Object]\". Actual: ",
-                    "raw": "'#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8, __instance.toString().length) === \"Object]\". Actual: '"
+                    "raw": "'#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8, __instance.toString().length) === \"Object]\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -247,7 +253,9 @@
                         "start": 887,
                         "end": 888,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",

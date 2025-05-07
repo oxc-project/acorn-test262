@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 5,
         "raw": "\" \u0000 \"",
-        "value": " \u0000 "
+        "value": " \u0000 ",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -41,7 +41,9 @@
                   "start": 320,
                   "end": 323,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 343,
                   "end": 346,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 366,
                   "end": 369,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 391,
                   "end": 404,
                   "value": "myObj_value",
-                  "raw": "'myObj_value'"
+                  "raw": "'myObj_value'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -147,7 +155,9 @@
                           "start": 447,
                           "end": 460,
                           "value": "obj_valueOf",
-                          "raw": "'obj_valueOf'"
+                          "raw": "'obj_valueOf'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -191,7 +201,9 @@
                           "start": 506,
                           "end": 520,
                           "value": "obj_parseInt",
-                          "raw": "'obj_parseInt'"
+                          "raw": "'obj_parseInt'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -217,7 +229,9 @@
                   "start": 543,
                   "end": 552,
                   "value": "obj_NaN",
-                  "raw": "'obj_NaN'"
+                  "raw": "'obj_NaN'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -239,7 +253,9 @@
                   "start": 578,
                   "end": 592,
                   "value": "obj_Infinity",
-                  "raw": "'obj_Infinity'"
+                  "raw": "'obj_Infinity'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -279,7 +295,9 @@
                           "start": 636,
                           "end": 646,
                           "value": "obj_eval",
-                          "raw": "'obj_eval'"
+                          "raw": "'obj_eval'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -323,7 +341,9 @@
                           "start": 694,
                           "end": 710,
                           "value": "obj_parseFloat",
-                          "raw": "'obj_parseFloat'"
+                          "raw": "'obj_parseFloat'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -367,7 +387,9 @@
                           "start": 758,
                           "end": 769,
                           "value": "obj_isNaN",
-                          "raw": "'obj_isNaN'"
+                          "raw": "'obj_isNaN'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -411,7 +433,9 @@
                           "start": 817,
                           "end": 831,
                           "value": "obj_isFinite",
-                          "raw": "'obj_isFinite'"
+                          "raw": "'obj_isFinite'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -437,7 +461,9 @@
                   "start": 850,
                   "end": 851,
                   "value": 7,
-                  "raw": "7"
+                  "raw": "7",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -517,7 +543,9 @@
                   "start": 912,
                   "end": 915,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -544,7 +572,9 @@
                         "start": 940,
                         "end": 977,
                         "value": "#1: e.p1 === \"a\". Actual:  e.p1 ===",
-                        "raw": "'#1: e.p1 === \"a\". Actual:  e.p1 ==='"
+                        "raw": "'#1: e.p1 === \"a\". Actual:  e.p1 ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -605,7 +635,9 @@
                   "start": 1015,
                   "end": 1028,
                   "value": "myObj_value",
-                  "raw": "'myObj_value'"
+                  "raw": "'myObj_value'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -632,7 +664,9 @@
                         "start": 1053,
                         "end": 1102,
                         "value": "#2: e.p1 === 'myObj_value'. Actual:  e.p1 ===",
-                        "raw": "'#2: e.p1 === \\'myObj_value\\'. Actual:  e.p1 ==='"
+                        "raw": "'#2: e.p1 === \\'myObj_value\\'. Actual:  e.p1 ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -700,7 +734,9 @@
                   "start": 1141,
                   "end": 1151,
                   "value": "obj_eval",
-                  "raw": "'obj_eval'"
+                  "raw": "'obj_eval'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -727,7 +763,9 @@
                         "start": 1176,
                         "end": 1222,
                         "value": "#3: e.p1 === 'obj_eval'. Actual:  e.p1 ===",
-                        "raw": "'#3: e.p1 === \\'obj_eval\\'. Actual:  e.p1 ==='"
+                        "raw": "'#3: e.p1 === \\'obj_eval\\'. Actual:  e.p1 ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -793,7 +831,9 @@
           "start": 1255,
           "end": 1256,
           "value": 6,
-          "raw": "6"
+          "raw": "6",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -871,7 +911,9 @@
           "start": 1304,
           "end": 1305,
           "value": 6,
-          "raw": "6"
+          "raw": "6",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -894,7 +936,9 @@
               "start": 1330,
               "end": 1369,
               "value": "#4: Handling of catch must be correct",
-              "raw": "'#4: Handling of catch must be correct'"
+              "raw": "'#4: Handling of catch must be correct'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }

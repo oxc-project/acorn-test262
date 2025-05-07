@@ -62,14 +62,18 @@
             "start": 439,
             "end": 449,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 480,
             "value": "RegExp.escape is a function",
-            "raw": "'RegExp.escape is a function'"
+            "raw": "'RegExp.escape is a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -156,7 +160,9 @@
                         "start": 537,
                         "end": 540,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -170,7 +176,9 @@
             "start": 546,
             "end": 590,
             "value": "non-string input (number) throws TypeError",
-            "raw": "'non-string input (number) throws TypeError'"
+            "raw": "'non-string input (number) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -270,7 +278,9 @@
             "start": 654,
             "end": 698,
             "value": "non-string input (object) throws TypeError",
-            "raw": "'non-string input (object) throws TypeError'"
+            "raw": "'non-string input (object) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -370,7 +380,9 @@
             "start": 762,
             "end": 805,
             "value": "non-string input (array) throws TypeError",
-            "raw": "'non-string input (array) throws TypeError'"
+            "raw": "'non-string input (array) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -457,7 +469,9 @@
                         "start": 861,
                         "end": 865,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -471,7 +485,9 @@
             "start": 871,
             "end": 913,
             "value": "non-string input (null) throws TypeError",
-            "raw": "'non-string input (null) throws TypeError'"
+            "raw": "'non-string input (null) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -571,7 +587,9 @@
             "start": 984,
             "end": 1031,
             "value": "non-string input (undefined) throws TypeError",
-            "raw": "'non-string input (undefined) throws TypeError'"
+            "raw": "'non-string input (undefined) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

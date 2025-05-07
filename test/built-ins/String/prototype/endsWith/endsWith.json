@@ -75,14 +75,18 @@
             "start": 460,
             "end": 470,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 474,
             "end": 524,
             "value": "`typeof String.prototype.endsWith` is `function`",
-            "raw": "'`typeof String.prototype.endsWith` is `function`'"
+            "raw": "'`typeof String.prototype.endsWith` is `function`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 562,
             "end": 572,
             "value": "endsWith",
-            "raw": "'endsWith'"
+            "raw": "'endsWith'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 588,
                   "end": 592,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 608,
                   "end": 613,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 631,
                   "end": 635,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

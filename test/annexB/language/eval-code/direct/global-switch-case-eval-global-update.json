@@ -35,7 +35,9 @@
                   "start": 1089,
                   "end": 1103,
                   "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "raw": "'switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -43,7 +45,9 @@
                   "start": 1108,
                   "end": 1119,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "raw": "'  case 1:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -52,7 +56,9 @@
                 "start": 1124,
                 "end": 1168,
                 "value": "    function f() { return \"declaration\"; }",
-                "raw": "'    function f() { return \"declaration\"; }'"
+                "raw": "'    function f() { return \"declaration\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -61,7 +67,9 @@
               "start": 1173,
               "end": 1260,
               "value": "}  assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");",
-              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'"
+              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

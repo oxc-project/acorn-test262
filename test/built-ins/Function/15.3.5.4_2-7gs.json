@@ -34,7 +34,9 @@
                 "start": 362,
                 "end": 384,
                 "value": "return gNonStrict();",
-                "raw": "\"return gNonStrict();\""
+                "raw": "\"return gNonStrict();\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

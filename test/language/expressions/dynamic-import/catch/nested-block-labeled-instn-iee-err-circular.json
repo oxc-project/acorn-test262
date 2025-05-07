@@ -41,7 +41,9 @@
                         "start": 1706,
                         "end": 1745,
                         "value": "./instn-iee-err-circular-1_FIXTURE.js",
-                        "raw": "'./instn-iee-err-circular-1_FIXTURE.js'"
+                        "raw": "'./instn-iee-err-circular-1_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -128,7 +130,9 @@
                                   "start": 1798,
                                   "end": 1811,
                                   "value": "SyntaxError",
-                                  "raw": "'SyntaxError'"
+                                  "raw": "'SyntaxError'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

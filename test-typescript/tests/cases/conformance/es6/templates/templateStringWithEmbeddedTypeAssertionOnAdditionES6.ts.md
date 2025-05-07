@@ -43,14 +43,18 @@ __ESTREE_TEST__:PASS:
                     "start": 21,
                     "end": 23,
                     "raw": "10",
-                    "value": 10
+                    "value": 10,
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Literal",
                     "start": 26,
                     "end": 28,
                     "raw": "10",
-                    "value": 10
+                    "value": 10,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "typeAnnotation": {

@@ -120,7 +120,9 @@
             "start": 710,
             "end": 720,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +196,9 @@
                         "start": 782,
                         "end": 783,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -207,7 +211,9 @@
             "start": 789,
             "end": 821,
             "value": "production including Arguments",
-            "raw": "'production including Arguments'"
+            "raw": "'production including Arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -286,7 +292,9 @@
             "start": 887,
             "end": 917,
             "value": "production eliding Arguments",
-            "raw": "'production eliding Arguments'"
+            "raw": "'production eliding Arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

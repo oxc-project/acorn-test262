@@ -70,7 +70,9 @@
                       "start": 3955,
                       "end": 3981,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -137,7 +139,9 @@
                   "start": 4028,
                   "end": 4041,
                   "value": "key: local2",
-                  "raw": "'key: local2'"
+                  "raw": "'key: local2'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -201,7 +205,9 @@
                   "start": 4092,
                   "end": 4110,
                   "value": "key: toStringTag",
-                  "raw": "'key: toStringTag'"
+                  "raw": "'key: toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -265,7 +271,9 @@
                   "start": 4158,
                   "end": 4173,
                   "value": "key: iterator",
-                  "raw": "'key: iterator'"
+                  "raw": "'key: iterator'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -329,7 +337,9 @@
                   "start": 4222,
                   "end": 4238,
                   "value": "key: __proto__",
-                  "raw": "'key: __proto__'"
+                  "raw": "'key: __proto__'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

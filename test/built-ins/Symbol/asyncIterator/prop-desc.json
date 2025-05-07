@@ -62,7 +62,9 @@
             "start": 464,
             "end": 472,
             "value": "symbol",
-            "raw": "'symbol'"
+            "raw": "'symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -94,7 +96,9 @@
             "start": 499,
             "end": 514,
             "value": "asyncIterator",
-            "raw": "'asyncIterator'"
+            "raw": "'asyncIterator'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -119,7 +123,9 @@
                   "start": 534,
                   "end": 539,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -141,7 +147,9 @@
                   "start": 555,
                   "end": 560,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -163,7 +171,9 @@
                   "start": 580,
                   "end": 585,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

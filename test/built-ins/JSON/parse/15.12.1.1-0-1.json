@@ -84,7 +84,9 @@
                         "start": 300,
                         "end": 313,
                         "value": "12\t\r\n 34",
-                        "raw": "'12\\t\\r\\n 34'"
+                        "raw": "'12\\t\\r\\n 34'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

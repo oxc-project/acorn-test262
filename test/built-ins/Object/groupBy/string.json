@@ -23,7 +23,9 @@
             "start": 348,
             "end": 358,
             "value": "🥰💩🙏😈",
-            "raw": "'🥰💩🙏😈'"
+            "raw": "'🥰💩🙏😈'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,7 +121,9 @@
                             "start": 430,
                             "end": 434,
                             "value": "🙏",
-                            "raw": "'🙏'"
+                            "raw": "'🙏'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -127,14 +131,18 @@
                           "start": 437,
                           "end": 445,
                           "value": "before",
-                          "raw": "'before'"
+                          "raw": "'before'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "alternate": {
                           "type": "Literal",
                           "start": 448,
                           "end": 455,
                           "value": "after",
-                          "raw": "'after'"
+                          "raw": "'after'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -219,14 +227,18 @@
                 "start": 501,
                 "end": 508,
                 "value": "after",
-                "raw": "'after'"
+                "raw": "'after'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 510,
                 "end": 518,
                 "value": "before",
-                "raw": "'before'"
+                "raw": "'before'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -291,14 +303,18 @@
                 "start": 555,
                 "end": 559,
                 "value": "💩",
-                "raw": "'💩'"
+                "raw": "'💩'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 561,
                 "end": 565,
                 "value": "😈",
-                "raw": "'😈'"
+                "raw": "'😈'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -363,14 +379,18 @@
                 "start": 601,
                 "end": 605,
                 "value": "🥰",
-                "raw": "'🥰'"
+                "raw": "'🥰'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 607,
                 "end": 611,
                 "value": "🙏",
-                "raw": "'🙏'"
+                "raw": "'🙏'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

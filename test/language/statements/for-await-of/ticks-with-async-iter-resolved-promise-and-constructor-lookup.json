@@ -28,35 +28,45 @@
                 "start": 710,
                 "end": 715,
                 "value": "pre",
-                "raw": "\"pre\""
+                "raw": "\"pre\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 749,
                 "end": 757,
                 "value": "tick 1",
-                "raw": "\"tick 1\""
+                "raw": "\"tick 1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 781,
                 "end": 787,
                 "value": "loop",
-                "raw": "\"loop\""
+                "raw": "\"loop\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 820,
                 "end": 828,
                 "value": "tick 2",
-                "raw": "\"tick 2\""
+                "raw": "\"tick 2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 858,
                 "end": 864,
                 "value": "post",
-                "raw": "\"post\""
+                "raw": "\"post\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -282,7 +292,9 @@
                       "start": 1233,
                       "end": 1234,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -324,7 +336,9 @@
                   "start": 1251,
                   "end": 1256,
                   "value": "pre",
-                  "raw": "\"pre\""
+                  "raw": "\"pre\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -420,7 +434,9 @@
                         "start": 1321,
                         "end": 1327,
                         "value": "loop",
-                        "raw": "\"loop\""
+                        "raw": "\"loop\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -462,7 +478,9 @@
                   "start": 1348,
                   "end": 1354,
                   "value": "post",
-                  "raw": "\"post\""
+                  "raw": "\"post\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -536,7 +554,9 @@
                             "start": 1461,
                             "end": 1462,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -589,7 +609,9 @@
                               "start": 1490,
                               "end": 1498,
                               "value": "tick 1",
-                              "raw": "\"tick 1\""
+                              "raw": "\"tick 1\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -646,7 +668,9 @@
                           "start": 1527,
                           "end": 1535,
                           "value": "tick 2",
-                          "raw": "\"tick 2\""
+                          "raw": "\"tick 2\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -724,7 +748,9 @@
                             "start": 1596,
                             "end": 1627,
                             "value": "Ticks and constructor lookups",
-                            "raw": "\"Ticks and constructor lookups\""
+                            "raw": "\"Ticks and constructor lookups\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -814,7 +840,9 @@
             "start": 1881,
             "end": 1894,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -881,7 +909,9 @@
                               "start": 1924,
                               "end": 1937,
                               "value": "constructor",
-                              "raw": "\"constructor\""
+                              "raw": "\"constructor\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -921,7 +951,9 @@
                   "start": 1981,
                   "end": 1985,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

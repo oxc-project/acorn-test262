@@ -42,7 +42,9 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 72,
         "raw": "'./hi'",
-        "value": "./hi"
+        "value": "./hi",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -83,7 +85,9 @@ __ESTREE_TEST__:PASS:
         "start": 103,
         "end": 109,
         "raw": "'./hi'",
-        "value": "./hi"
+        "value": "./hi",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

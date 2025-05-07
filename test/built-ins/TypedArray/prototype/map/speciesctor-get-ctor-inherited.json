@@ -75,28 +75,36 @@
                                 "start": 837,
                                 "end": 839,
                                 "value": 40,
-                                "raw": "40"
+                                "raw": "40",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 841,
                                 "end": 843,
                                 "value": 41,
-                                "raw": "41"
+                                "raw": "41",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 845,
                                 "end": 847,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 849,
                                 "end": 851,
                                 "value": 43,
-                                "raw": "43"
+                                "raw": "43",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -126,7 +134,9 @@
                         "start": 869,
                         "end": 870,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -204,7 +214,9 @@
                         "start": 925,
                         "end": 938,
                         "value": "constructor",
-                        "raw": "\"constructor\""
+                        "raw": "\"constructor\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -329,7 +341,9 @@
                                   "start": 1038,
                                   "end": 1039,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -379,14 +393,18 @@
                         "start": 1074,
                         "end": 1075,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1077,
                         "end": 1115,
                         "value": "called custom ctor get accessor once",
-                        "raw": "\"called custom ctor get accessor once\""
+                        "raw": "\"called custom ctor get accessor once\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -491,7 +509,9 @@
                         "start": 1213,
                         "end": 1276,
                         "value": "use defaultCtor on an undefined return - getPrototypeOf check",
-                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\""
+                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -555,7 +575,9 @@
                         "start": 1345,
                         "end": 1407,
                         "value": "used defaultCtor but still checks the inherited .constructor",
-                        "raw": "\"used defaultCtor but still checks the inherited .constructor\""
+                        "raw": "\"used defaultCtor but still checks the inherited .constructor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -581,7 +603,9 @@
                       "start": 1424,
                       "end": 1425,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -648,14 +672,18 @@
                         "start": 1484,
                         "end": 1485,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1491,
                         "end": 1552,
                         "value": "result.constructor triggers the inherited accessor property",
-                        "raw": "\"result.constructor triggers the inherited accessor property\""
+                        "raw": "\"result.constructor triggers the inherited accessor property\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

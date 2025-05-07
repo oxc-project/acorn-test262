@@ -75,7 +75,9 @@
             "start": 734,
             "end": 744,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -225,7 +227,9 @@
                               "start": 845,
                               "end": 866,
                               "value": "[[DisposableState]]",
-                              "raw": "'[[DisposableState]]'"
+                              "raw": "'[[DisposableState]]'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "ObjectExpression",
@@ -249,7 +253,9 @@
             "start": 879,
             "end": 924,
             "value": "Ordinary object without [[DisposableState]]",
-            "raw": "'Ordinary object without [[DisposableState]]'"
+            "raw": "'Ordinary object without [[DisposableState]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -362,7 +368,9 @@
             "start": 1009,
             "end": 1086,
             "value": "DisposableStack.prototype does not have a [[DisposableState]] internal slot",
-            "raw": "'DisposableStack.prototype does not have a [[DisposableState]] internal slot'"
+            "raw": "'DisposableStack.prototype does not have a [[DisposableState]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +470,9 @@
             "start": 1161,
             "end": 1228,
             "value": "DisposableStack does not have a [[DisposableState]] internal slot",
-            "raw": "'DisposableStack does not have a [[DisposableState]] internal slot'"
+            "raw": "'DisposableStack does not have a [[DisposableState]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,7 +603,9 @@
             "start": 1343,
             "end": 1374,
             "value": "AsyncDisposableStack instance",
-            "raw": "'AsyncDisposableStack instance'"
+            "raw": "'AsyncDisposableStack instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

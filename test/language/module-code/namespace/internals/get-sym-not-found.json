@@ -25,7 +25,9 @@
         "start": 470,
         "end": 494,
         "value": "./get-sym-not-found.js",
-        "raw": "'./get-sym-not-found.js'"
+        "raw": "'./get-sym-not-found.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -83,7 +85,9 @@
                   "start": 524,
                   "end": 533,
                   "value": "test262",
-                  "raw": "'test262'"
+                  "raw": "'test262'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -102,7 +106,9 @@
             "start": 548,
             "end": 565,
             "value": "Symbol: test262",
-            "raw": "'Symbol: test262'"
+            "raw": "'Symbol: test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

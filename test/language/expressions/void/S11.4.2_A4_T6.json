@@ -23,7 +23,9 @@
             "start": 303,
             "end": 304,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -63,7 +65,9 @@
                 "start": 320,
                 "end": 321,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -105,7 +109,9 @@
                     "start": 365,
                     "end": 418,
                     "value": "#1: var x = 0; void (x = 1) === undefined. Actual: ",
-                    "raw": "'#1: var x = 0; void (x = 1) === undefined. Actual: '"
+                    "raw": "'#1: var x = 0; void (x = 1) === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -138,7 +144,9 @@
                             "start": 432,
                             "end": 433,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -175,7 +183,9 @@
                 "start": 459,
                 "end": 460,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -207,7 +217,9 @@
                           "start": 491,
                           "end": 539,
                           "value": "#1: var x = 0; void (x = 1); x === 1. Actual: ",
-                          "raw": "'#1: var x = 0; void (x = 1); x === 1. Actual: '"
+                          "raw": "'#1: var x = 0; void (x = 1); x === 1. Actual: '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

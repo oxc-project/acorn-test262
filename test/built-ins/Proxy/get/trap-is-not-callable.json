@@ -215,7 +215,9 @@
                       "start": 541,
                       "end": 547,
                       "value": "attr",
-                      "raw": "\"attr\""
+                      "raw": "\"attr\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

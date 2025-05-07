@@ -49,14 +49,18 @@
             "start": 450,
             "end": 460,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 505,
             "value": "typeof FinalizationRegistry is function",
-            "raw": "'typeof FinalizationRegistry is function'"
+            "raw": "'typeof FinalizationRegistry is function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

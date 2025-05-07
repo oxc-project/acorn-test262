@@ -57,35 +57,45 @@
                           "start": 523,
                           "end": 531,
                           "value": 773,
-                          "raw": "0x000305"
+                          "raw": "0x000305",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 537,
                           "end": 545,
                           "value": 803,
-                          "raw": "0x000323"
+                          "raw": "0x000323",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 551,
                           "end": 559,
                           "value": 12343,
-                          "raw": "0x003037"
+                          "raw": "0x003037",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 565,
                           "end": 573,
                           "value": 110592,
-                          "raw": "0x01B000"
+                          "raw": "0x01B000",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 579,
                           "end": 587,
                           "value": 110933,
-                          "raw": "0x01B155"
+                          "raw": "0x01B155",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -119,14 +129,18 @@
                               "start": 610,
                               "end": 618,
                               "value": 12289,
-                              "raw": "0x003001"
+                              "raw": "0x003001",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 620,
                               "end": 628,
                               "value": 12291,
-                              "raw": "0x003003"
+                              "raw": "0x003003",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -140,14 +154,18 @@
                               "start": 636,
                               "end": 644,
                               "value": 12296,
-                              "raw": "0x003008"
+                              "raw": "0x003008",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 646,
                               "end": 654,
                               "value": 12305,
-                              "raw": "0x003011"
+                              "raw": "0x003011",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -161,14 +179,18 @@
                               "start": 662,
                               "end": 670,
                               "value": 12307,
-                              "raw": "0x003013"
+                              "raw": "0x003013",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 672,
                               "end": 680,
                               "value": 12319,
-                              "raw": "0x00301F"
+                              "raw": "0x00301F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -182,14 +204,18 @@
                               "start": 688,
                               "end": 696,
                               "value": 12336,
-                              "raw": "0x003030"
+                              "raw": "0x003030",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 698,
                               "end": 706,
                               "value": 12341,
-                              "raw": "0x003035"
+                              "raw": "0x003035",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -203,14 +229,18 @@
                               "start": 714,
                               "end": 722,
                               "value": 12348,
-                              "raw": "0x00303C"
+                              "raw": "0x00303C",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 724,
                               "end": 732,
                               "value": 12349,
-                              "raw": "0x00303D"
+                              "raw": "0x00303D",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -224,14 +254,18 @@
                               "start": 740,
                               "end": 748,
                               "value": 12441,
-                              "raw": "0x003099"
+                              "raw": "0x003099",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 750,
                               "end": 758,
                               "value": 12444,
-                              "raw": "0x00309C"
+                              "raw": "0x00309C",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -245,14 +279,18 @@
                               "start": 766,
                               "end": 774,
                               "value": 12448,
-                              "raw": "0x0030A0"
+                              "raw": "0x0030A0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 776,
                               "end": 784,
                               "value": 12543,
-                              "raw": "0x0030FF"
+                              "raw": "0x0030FF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -266,14 +304,18 @@
                               "start": 792,
                               "end": 800,
                               "value": 12784,
-                              "raw": "0x0031F0"
+                              "raw": "0x0031F0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 802,
                               "end": 810,
                               "value": 12799,
-                              "raw": "0x0031FF"
+                              "raw": "0x0031FF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -287,14 +329,18 @@
                               "start": 818,
                               "end": 826,
                               "value": 13008,
-                              "raw": "0x0032D0"
+                              "raw": "0x0032D0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 828,
                               "end": 836,
                               "value": 13054,
-                              "raw": "0x0032FE"
+                              "raw": "0x0032FE",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -308,14 +354,18 @@
                               "start": 844,
                               "end": 852,
                               "value": 13056,
-                              "raw": "0x003300"
+                              "raw": "0x003300",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 854,
                               "end": 862,
                               "value": 13143,
-                              "raw": "0x003357"
+                              "raw": "0x003357",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -329,14 +379,18 @@
                               "start": 870,
                               "end": 878,
                               "value": 65093,
-                              "raw": "0x00FE45"
+                              "raw": "0x00FE45",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 880,
                               "end": 888,
                               "value": 65094,
-                              "raw": "0x00FE46"
+                              "raw": "0x00FE46",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -350,14 +404,18 @@
                               "start": 896,
                               "end": 904,
                               "value": 65377,
-                              "raw": "0x00FF61"
+                              "raw": "0x00FF61",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 906,
                               "end": 914,
                               "value": 65439,
-                              "raw": "0x00FF9F"
+                              "raw": "0x00FF9F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -371,14 +429,18 @@
                               "start": 922,
                               "end": 930,
                               "value": 110576,
-                              "raw": "0x01AFF0"
+                              "raw": "0x01AFF0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 932,
                               "end": 940,
                               "value": 110579,
-                              "raw": "0x01AFF3"
+                              "raw": "0x01AFF3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -392,14 +454,18 @@
                               "start": 948,
                               "end": 956,
                               "value": 110581,
-                              "raw": "0x01AFF5"
+                              "raw": "0x01AFF5",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 958,
                               "end": 966,
                               "value": 110587,
-                              "raw": "0x01AFFB"
+                              "raw": "0x01AFFB",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -413,14 +479,18 @@
                               "start": 974,
                               "end": 982,
                               "value": 110589,
-                              "raw": "0x01AFFD"
+                              "raw": "0x01AFFD",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 984,
                               "end": 992,
                               "value": 110590,
-                              "raw": "0x01AFFE"
+                              "raw": "0x01AFFE",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -434,14 +504,18 @@
                               "start": 1000,
                               "end": 1008,
                               "value": 110880,
-                              "raw": "0x01B120"
+                              "raw": "0x01B120",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1010,
                               "end": 1018,
                               "value": 110882,
-                              "raw": "0x01B122"
+                              "raw": "0x01B122",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -455,14 +529,18 @@
                               "start": 1026,
                               "end": 1034,
                               "value": 110948,
-                              "raw": "0x01B164"
+                              "raw": "0x01B164",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1036,
                               "end": 1044,
                               "value": 110951,
-                              "raw": "0x01B167"
+                              "raw": "0x01B167",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -503,7 +581,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Katakana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -516,7 +595,9 @@
             "start": 1133,
             "end": 1166,
             "value": "\\p{Script_Extensions=Katakana}",
-            "raw": "\"\\\\p{Script_Extensions=Katakana}\""
+            "raw": "\"\\\\p{Script_Extensions=Katakana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +627,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Kana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -559,7 +641,9 @@
             "start": 1245,
             "end": 1274,
             "value": "\\p{Script_Extensions=Kana}",
-            "raw": "\"\\\\p{Script_Extensions=Kana}\""
+            "raw": "\"\\\\p{Script_Extensions=Kana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,7 +673,8 @@
             "regex": {
               "pattern": "^\\p{scx=Katakana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -602,7 +687,9 @@
             "start": 1343,
             "end": 1362,
             "value": "\\p{scx=Katakana}",
-            "raw": "\"\\\\p{scx=Katakana}\""
+            "raw": "\"\\\\p{scx=Katakana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -632,7 +719,8 @@
             "regex": {
               "pattern": "^\\p{scx=Kana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -645,7 +733,9 @@
             "start": 1427,
             "end": 1442,
             "value": "\\p{scx=Kana}",
-            "raw": "\"\\\\p{scx=Kana}\""
+            "raw": "\"\\\\p{scx=Kana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -705,42 +795,54 @@
                           "start": 1509,
                           "end": 1517,
                           "value": 12306,
-                          "raw": "0x003012"
+                          "raw": "0x003012",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1523,
                           "end": 1531,
                           "value": 12342,
-                          "raw": "0x003036"
+                          "raw": "0x003036",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1537,
                           "end": 1545,
                           "value": 13055,
-                          "raw": "0x0032FF"
+                          "raw": "0x0032FF",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1551,
                           "end": 1559,
                           "value": 110580,
-                          "raw": "0x01AFF4"
+                          "raw": "0x01AFF4",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1565,
                           "end": 1573,
                           "value": 110588,
-                          "raw": "0x01AFFC"
+                          "raw": "0x01AFFC",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1579,
                           "end": 1587,
                           "value": 110591,
-                          "raw": "0x01AFFF"
+                          "raw": "0x01AFFF",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -774,14 +876,18 @@
                               "start": 1610,
                               "end": 1618,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1620,
                               "end": 1628,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -795,14 +901,18 @@
                               "start": 1636,
                               "end": 1644,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1646,
                               "end": 1654,
                               "value": 772,
-                              "raw": "0x000304"
+                              "raw": "0x000304",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -816,14 +926,18 @@
                               "start": 1662,
                               "end": 1670,
                               "value": 774,
-                              "raw": "0x000306"
+                              "raw": "0x000306",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1672,
                               "end": 1680,
                               "value": 802,
-                              "raw": "0x000322"
+                              "raw": "0x000322",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -837,14 +951,18 @@
                               "start": 1688,
                               "end": 1696,
                               "value": 804,
-                              "raw": "0x000324"
+                              "raw": "0x000324",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1698,
                               "end": 1706,
                               "value": 12288,
-                              "raw": "0x003000"
+                              "raw": "0x003000",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -858,14 +976,18 @@
                               "start": 1714,
                               "end": 1722,
                               "value": 12292,
-                              "raw": "0x003004"
+                              "raw": "0x003004",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1724,
                               "end": 1732,
                               "value": 12295,
-                              "raw": "0x003007"
+                              "raw": "0x003007",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -879,14 +1001,18 @@
                               "start": 1740,
                               "end": 1748,
                               "value": 12320,
-                              "raw": "0x003020"
+                              "raw": "0x003020",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1750,
                               "end": 1758,
                               "value": 12335,
-                              "raw": "0x00302F"
+                              "raw": "0x00302F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -900,14 +1026,18 @@
                               "start": 1766,
                               "end": 1774,
                               "value": 12344,
-                              "raw": "0x003038"
+                              "raw": "0x003038",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1776,
                               "end": 1784,
                               "value": 12347,
-                              "raw": "0x00303B"
+                              "raw": "0x00303B",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -921,14 +1051,18 @@
                               "start": 1792,
                               "end": 1800,
                               "value": 12350,
-                              "raw": "0x00303E"
+                              "raw": "0x00303E",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1802,
                               "end": 1810,
                               "value": 12440,
-                              "raw": "0x003098"
+                              "raw": "0x003098",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -942,14 +1076,18 @@
                               "start": 1818,
                               "end": 1826,
                               "value": 12445,
-                              "raw": "0x00309D"
+                              "raw": "0x00309D",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1828,
                               "end": 1836,
                               "value": 12447,
-                              "raw": "0x00309F"
+                              "raw": "0x00309F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -963,14 +1101,18 @@
                               "start": 1844,
                               "end": 1852,
                               "value": 12544,
-                              "raw": "0x003100"
+                              "raw": "0x003100",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1854,
                               "end": 1862,
                               "value": 12783,
-                              "raw": "0x0031EF"
+                              "raw": "0x0031EF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -984,14 +1126,18 @@
                               "start": 1870,
                               "end": 1878,
                               "value": 12800,
-                              "raw": "0x003200"
+                              "raw": "0x003200",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1880,
                               "end": 1888,
                               "value": 13007,
-                              "raw": "0x0032CF"
+                              "raw": "0x0032CF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1005,14 +1151,18 @@
                               "start": 1896,
                               "end": 1904,
                               "value": 13144,
-                              "raw": "0x003358"
+                              "raw": "0x003358",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1906,
                               "end": 1914,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1026,14 +1176,18 @@
                               "start": 1922,
                               "end": 1930,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1932,
                               "end": 1940,
                               "value": 65092,
-                              "raw": "0x00FE44"
+                              "raw": "0x00FE44",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1047,14 +1201,18 @@
                               "start": 1948,
                               "end": 1956,
                               "value": 65095,
-                              "raw": "0x00FE47"
+                              "raw": "0x00FE47",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1958,
                               "end": 1966,
                               "value": 65376,
-                              "raw": "0x00FF60"
+                              "raw": "0x00FF60",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1068,14 +1226,18 @@
                               "start": 1974,
                               "end": 1982,
                               "value": 65440,
-                              "raw": "0x00FFA0"
+                              "raw": "0x00FFA0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1984,
                               "end": 1992,
                               "value": 110575,
-                              "raw": "0x01AFEF"
+                              "raw": "0x01AFEF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1089,14 +1251,18 @@
                               "start": 2000,
                               "end": 2008,
                               "value": 110593,
-                              "raw": "0x01B001"
+                              "raw": "0x01B001",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2010,
                               "end": 2018,
                               "value": 110879,
-                              "raw": "0x01B11F"
+                              "raw": "0x01B11F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1110,14 +1276,18 @@
                               "start": 2026,
                               "end": 2034,
                               "value": 110883,
-                              "raw": "0x01B123"
+                              "raw": "0x01B123",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2036,
                               "end": 2044,
                               "value": 110932,
-                              "raw": "0x01B154"
+                              "raw": "0x01B154",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1131,14 +1301,18 @@
                               "start": 2052,
                               "end": 2060,
                               "value": 110934,
-                              "raw": "0x01B156"
+                              "raw": "0x01B156",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2062,
                               "end": 2070,
                               "value": 110947,
-                              "raw": "0x01B163"
+                              "raw": "0x01B163",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1152,14 +1326,18 @@
                               "start": 2078,
                               "end": 2086,
                               "value": 110952,
-                              "raw": "0x01B168"
+                              "raw": "0x01B168",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2088,
                               "end": 2096,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -1200,7 +1378,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Katakana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1213,7 +1392,9 @@
             "start": 2188,
             "end": 2221,
             "value": "\\P{Script_Extensions=Katakana}",
-            "raw": "\"\\\\P{Script_Extensions=Katakana}\""
+            "raw": "\"\\\\P{Script_Extensions=Katakana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1243,7 +1424,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Kana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1256,7 +1438,9 @@
             "start": 2303,
             "end": 2332,
             "value": "\\P{Script_Extensions=Kana}",
-            "raw": "\"\\\\P{Script_Extensions=Kana}\""
+            "raw": "\"\\\\P{Script_Extensions=Kana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1286,7 +1470,8 @@
             "regex": {
               "pattern": "^\\P{scx=Katakana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1299,7 +1484,9 @@
             "start": 2404,
             "end": 2423,
             "value": "\\P{scx=Katakana}",
-            "raw": "\"\\\\P{scx=Katakana}\""
+            "raw": "\"\\\\P{scx=Katakana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1329,7 +1516,8 @@
             "regex": {
               "pattern": "^\\P{scx=Kana}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1342,7 +1530,9 @@
             "start": 2491,
             "end": 2506,
             "value": "\\P{scx=Kana}",
-            "raw": "\"\\\\P{scx=Kana}\""
+            "raw": "\"\\\\P{scx=Kana}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

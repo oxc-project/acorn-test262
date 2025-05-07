@@ -205,7 +205,9 @@
             "start": 826,
             "end": 885,
             "value": "The prototype of [].entries() is %ArrayIteratorPrototype%",
-            "raw": "'The prototype of [].entries() is %ArrayIteratorPrototype%'"
+            "raw": "'The prototype of [].entries() is %ArrayIteratorPrototype%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

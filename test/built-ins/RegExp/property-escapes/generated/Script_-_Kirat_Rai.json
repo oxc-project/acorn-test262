@@ -83,14 +83,18 @@
                               "start": 528,
                               "end": 536,
                               "value": 93504,
-                              "raw": "0x016D40"
+                              "raw": "0x016D40",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 538,
                               "end": 546,
                               "value": 93561,
-                              "raw": "0x016D79"
+                              "raw": "0x016D79",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Kirat_Rai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 625,
             "end": 648,
             "value": "\\p{Script=Kirat_Rai}",
-            "raw": "\"\\\\p{Script=Kirat_Rai}\""
+            "raw": "\"\\\\p{Script=Kirat_Rai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Krai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 716,
             "end": 734,
             "value": "\\p{Script=Krai}",
-            "raw": "\"\\\\p{Script=Krai}\""
+            "raw": "\"\\\\p{Script=Krai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Kirat_Rai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 803,
             "end": 822,
             "value": "\\p{sc=Kirat_Rai}",
-            "raw": "\"\\\\p{sc=Kirat_Rai}\""
+            "raw": "\"\\\\p{sc=Kirat_Rai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Krai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 886,
             "end": 900,
             "value": "\\p{sc=Krai}",
-            "raw": "\"\\\\p{sc=Krai}\""
+            "raw": "\"\\\\p{sc=Krai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 982,
                               "end": 990,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 992,
                               "end": 1000,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 1008,
                               "end": 1016,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1018,
                               "end": 1026,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1034,
                               "end": 1042,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1044,
                               "end": 1052,
                               "value": 93503,
-                              "raw": "0x016D3F"
+                              "raw": "0x016D3F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1060,
                               "end": 1068,
                               "value": 93562,
-                              "raw": "0x016D7A"
+                              "raw": "0x016D7A",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1070,
                               "end": 1078,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Kirat_Rai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1160,
             "end": 1183,
             "value": "\\P{Script=Kirat_Rai}",
-            "raw": "\"\\\\P{Script=Kirat_Rai}\""
+            "raw": "\"\\\\P{Script=Kirat_Rai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Krai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1254,
             "end": 1272,
             "value": "\\P{Script=Krai}",
-            "raw": "\"\\\\P{Script=Krai}\""
+            "raw": "\"\\\\P{Script=Krai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Kirat_Rai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1344,
             "end": 1363,
             "value": "\\P{sc=Kirat_Rai}",
-            "raw": "\"\\\\P{sc=Kirat_Rai}\""
+            "raw": "\"\\\\P{sc=Kirat_Rai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Krai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1430,
             "end": 1444,
             "value": "\\P{sc=Krai}",
-            "raw": "\"\\\\P{sc=Krai}\""
+            "raw": "\"\\\\P{sc=Krai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

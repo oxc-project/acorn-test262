@@ -139,7 +139,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 76,
                                   "end": 104,
                                   "raw": "\"should log this then throw\"",
-                                  "value": "should log this then throw"
+                                  "value": "should log this then throw",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "callee": {

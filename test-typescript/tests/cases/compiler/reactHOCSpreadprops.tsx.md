@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 67,
           "end": 74,
           "raw": "\"react\"",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },

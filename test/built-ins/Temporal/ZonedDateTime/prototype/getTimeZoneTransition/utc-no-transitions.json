@@ -48,6 +48,7 @@
                 "end": 319,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 321,
                 "end": 326,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,7 +123,9 @@
                 "start": 372,
                 "end": 378,
                 "value": "next",
-                "raw": "\"next\""
+                "raw": "\"next\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -130,14 +135,18 @@
             "start": 381,
             "end": 385,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 429,
             "value": "The UTC time zone has no next transition",
-            "raw": "\"The UTC time zone has no next transition\""
+            "raw": "\"The UTC time zone has no next transition\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +209,9 @@
                 "start": 475,
                 "end": 485,
                 "value": "previous",
-                "raw": "\"previous\""
+                "raw": "\"previous\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -210,14 +221,18 @@
             "start": 488,
             "end": 492,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 540,
             "value": "The UTC time zone has no previous transition",
-            "raw": "\"The UTC time zone has no previous transition\""
+            "raw": "\"The UTC time zone has no previous transition\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

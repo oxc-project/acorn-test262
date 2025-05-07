@@ -48,6 +48,7 @@
                 "end": 319,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 321,
                 "end": 326,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 361,
                       "end": 365,
                       "value": 1970,
-                      "raw": "1970"
+                      "raw": "1970",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -147,7 +152,9 @@
                       "start": 374,
                       "end": 375,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -169,7 +176,9 @@
                       "start": 382,
                       "end": 383,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -191,7 +200,9 @@
                       "start": 395,
                       "end": 400,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -205,7 +216,9 @@
             "start": 405,
             "end": 442,
             "value": "Time zone created from string 'UTC'",
-            "raw": "\"Time zone created from string 'UTC'\""
+            "raw": "\"Time zone created from string 'UTC'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,6 +269,7 @@
                 "end": 493,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -263,7 +277,9 @@
                 "start": 495,
                 "end": 503,
                 "value": "-01:30",
-                "raw": "\"-01:30\""
+                "raw": "\"-01:30\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -333,7 +349,9 @@
                       "start": 538,
                       "end": 542,
                       "value": 1969,
-                      "raw": "1969"
+                      "raw": "1969",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -355,7 +373,9 @@
                       "start": 551,
                       "end": 553,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -377,7 +397,9 @@
                       "start": 560,
                       "end": 562,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -399,7 +421,9 @@
                       "start": 570,
                       "end": 572,
                       "value": 22,
-                      "raw": "22"
+                      "raw": "22",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -421,7 +445,9 @@
                       "start": 582,
                       "end": 584,
                       "value": 30,
-                      "raw": "30"
+                      "raw": "30",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -443,7 +469,9 @@
                       "start": 596,
                       "end": 604,
                       "value": "-01:30",
-                      "raw": "\"-01:30\""
+                      "raw": "\"-01:30\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -457,7 +485,9 @@
             "start": 609,
             "end": 649,
             "value": "Time zone created from string '-01:30'",
-            "raw": "\"Time zone created from string '-01:30'\""
+            "raw": "\"Time zone created from string '-01:30'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

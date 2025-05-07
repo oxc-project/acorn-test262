@@ -48,6 +48,7 @@
                 "end": 413,
                 "value": null,
                 "raw": "86400_0000_0000_000_000_000n",
+                "regex": null,
                 "bigint": "8640000000000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 415,
                 "end": 420,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -131,7 +134,9 @@
             "start": 469,
             "end": 504,
             "value": "Next day boundary is out of range",
-            "raw": "\"Next day boundary is out of range\""
+            "raw": "\"Next day boundary is out of range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

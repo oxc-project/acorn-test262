@@ -62,7 +62,9 @@
                   "start": 238,
                   "end": 246,
                   "value": "a = 10",
-                  "raw": "\"a = 10\""
+                  "raw": "\"a = 10\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -145,14 +147,18 @@
             "start": 301,
             "end": 303,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 305,
             "end": 349,
             "value": "Closure variable was captured incorrectly.",
-            "raw": "\"Closure variable was captured incorrectly.\""
+            "raw": "\"Closure variable was captured incorrectly.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

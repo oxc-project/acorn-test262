@@ -71,21 +71,27 @@
                         "start": 357,
                         "end": 360,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 362,
                         "end": 365,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 367,
                         "end": 382,
                         "value": "\"use strict\";",
-                        "raw": "'\"use strict\";'"
+                        "raw": "'\"use strict\";'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

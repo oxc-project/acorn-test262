@@ -81,7 +81,9 @@
                     "start": 593,
                     "end": 594,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "cases": [
                     {
@@ -117,7 +119,9 @@
                                   "start": 639,
                                   "end": 658,
                                   "value": "inner declaration",
-                                  "raw": "'inner declaration'"
+                                  "raw": "'inner declaration'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -156,7 +160,9 @@
                           "start": 695,
                           "end": 714,
                           "value": "outer declaration",
-                          "raw": "'outer declaration'"
+                          "raw": "'outer declaration'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -216,7 +222,9 @@
             "start": 752,
             "end": 771,
             "value": "outer declaration",
-            "raw": "'outer declaration'"
+            "raw": "'outer declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

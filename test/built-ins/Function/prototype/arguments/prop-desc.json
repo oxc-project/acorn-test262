@@ -66,7 +66,9 @@
                 "start": 862,
                 "end": 873,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -114,7 +116,9 @@
             "start": 917,
             "end": 928,
             "value": "arguments",
-            "raw": "\"arguments\""
+            "raw": "\"arguments\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -139,7 +143,9 @@
                   "start": 946,
                   "end": 951,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -161,7 +167,9 @@
                   "start": 967,
                   "end": 971,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -190,7 +198,9 @@
                   "start": 988,
                   "end": 992,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -259,14 +269,18 @@
             "start": 1042,
             "end": 1052,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1056,
             "end": 1106,
             "value": "Function.prototype.arguments has function getter",
-            "raw": "\"Function.prototype.arguments has function getter\""
+            "raw": "\"Function.prototype.arguments has function getter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,14 +345,18 @@
             "start": 1152,
             "end": 1162,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1166,
             "end": 1216,
             "value": "Function.prototype.arguments has function setter",
-            "raw": "\"Function.prototype.arguments has function setter\""
+            "raw": "\"Function.prototype.arguments has function setter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -415,7 +433,9 @@
             "start": 1276,
             "end": 1351,
             "value": "Function.prototype.arguments property getter/setter are the same function",
-            "raw": "\"Function.prototype.arguments property getter/setter are the same function\""
+            "raw": "\"Function.prototype.arguments property getter/setter are the same function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -523,7 +543,9 @@
                       "start": 1450,
                       "end": 1468,
                       "value": "%ThrowTypeError%",
-                      "raw": "\"%ThrowTypeError%\""
+                      "raw": "\"%ThrowTypeError%\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -651,7 +673,9 @@
                   "start": 1591,
                   "end": 1648,
                   "value": "Function.prototype.arguments getter is %ThrowTypeError%",
-                  "raw": "\"Function.prototype.arguments getter is %ThrowTypeError%\""
+                  "raw": "\"Function.prototype.arguments getter is %ThrowTypeError%\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

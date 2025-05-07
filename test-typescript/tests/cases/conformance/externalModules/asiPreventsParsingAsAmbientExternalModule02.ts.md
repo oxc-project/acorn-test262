@@ -122,7 +122,9 @@ __ESTREE_TEST__:PASS:
               "start": 190,
               "end": 210,
               "raw": "\"my external module\"",
-              "value": "my external module"
+              "value": "my external module",
+              "regex": null,
+              "bigint": null
             }
           },
           {

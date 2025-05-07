@@ -119,14 +119,18 @@
             "start": 421,
             "end": 430,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 464,
             "value": "no locale has the ISO calendar",
-            "raw": "\"no locale has the ISO calendar\""
+            "raw": "\"no locale has the ISO calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -177,6 +181,7 @@
                 "end": 526,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -184,7 +189,9 @@
                 "start": 528,
                 "end": 533,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -289,14 +296,18 @@
             "start": 638,
             "end": 646,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 648,
             "end": 721,
             "value": "toLocaleString() succeeds when instance has the same calendar as locale",
-            "raw": "\"toLocaleString() succeeds when instance has the same calendar as locale\""
+            "raw": "\"toLocaleString() succeeds when instance has the same calendar as locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -347,6 +358,7 @@
                 "end": 774,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -354,14 +366,18 @@
                 "start": 776,
                 "end": 781,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 783,
                 "end": 792,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -434,7 +450,9 @@
             "start": 850,
             "end": 912,
             "value": "toLocaleString() succeeds when instance has the ISO calendar",
-            "raw": "\"toLocaleString() succeeds when instance has the ISO calendar\""
+            "raw": "\"toLocaleString() succeeds when instance has the ISO calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,7 +513,9 @@
                     "start": 1039,
                     "end": 1049,
                     "value": "calendar",
-                    "raw": "\"calendar\""
+                    "raw": "\"calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -539,7 +559,9 @@
             "start": 1070,
             "end": 1079,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -706,6 +728,7 @@
                 "end": 1239,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -713,7 +736,9 @@
                 "start": 1241,
                 "end": 1246,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -802,7 +827,9 @@
             "start": 1344,
             "end": 1363,
             "value": "calendar mismatch",
-            "raw": "\"calendar mismatch\""
+            "raw": "\"calendar mismatch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

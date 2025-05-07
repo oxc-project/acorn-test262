@@ -75,14 +75,18 @@
             "start": 464,
             "end": 474,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 530,
             "value": "`typeof String.prototype.replaceAll` is `function`",
-            "raw": "'`typeof String.prototype.replaceAll` is `function`'"
+            "raw": "'`typeof String.prototype.replaceAll` is `function`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 568,
             "end": 580,
             "value": "replaceAll",
-            "raw": "'replaceAll'"
+            "raw": "'replaceAll'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 598,
                   "end": 603,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 617,
                   "end": 621,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 639,
                   "end": 643,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

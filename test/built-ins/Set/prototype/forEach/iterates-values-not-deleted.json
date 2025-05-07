@@ -28,14 +28,18 @@
                 "start": 813,
                 "end": 814,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 816,
                 "end": 817,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,21 +83,27 @@
                     "start": 837,
                     "end": 838,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 840,
                     "end": 841,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 843,
                     "end": 844,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -136,7 +146,9 @@
             "start": 858,
             "end": 859,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -439,14 +451,18 @@
             "start": 1072,
             "end": 1073,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1075,
             "end": 1101,
             "value": "`forEach` is not a no-op",
-            "raw": "\"`forEach` is not a no-op\""
+            "raw": "\"`forEach` is not a no-op\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

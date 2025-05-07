@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 22,
             "raw": "\"\\u{65}\\u{65}\"",
-            "value": "ee"
+            "value": "ee",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

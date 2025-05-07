@@ -132,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 38,
         "raw": "\"./utils\"",
-        "value": "./utils"
+        "value": "./utils",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

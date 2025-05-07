@@ -101,7 +101,9 @@
                           "start": 1312,
                           "end": 1313,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "FunctionExpression",
@@ -189,7 +191,9 @@
             "start": 1369,
             "end": 1376,
             "value": "cover",
-            "raw": "'cover'"
+            "raw": "'cover'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,7 +251,9 @@
             "start": 1412,
             "end": 1420,
             "value": "xCover",
-            "raw": "'xCover'"
+            "raw": "'xCover'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

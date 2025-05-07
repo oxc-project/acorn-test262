@@ -33,14 +33,18 @@
                     "start": 307,
                     "end": 325,
                     "value": "2019-12-15T15:23",
-                    "raw": "\"2019-12-15T15:23\""
+                    "raw": "\"2019-12-15T15:23\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 327,
                     "end": 340,
                     "value": "uppercase T",
-                    "raw": "\"uppercase T\""
+                    "raw": "\"uppercase T\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 346,
                     "end": 364,
                     "value": "2019-12-15t15:23",
-                    "raw": "\"2019-12-15t15:23\""
+                    "raw": "\"2019-12-15t15:23\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 366,
                     "end": 379,
                     "value": "lowercase T",
-                    "raw": "\"lowercase T\""
+                    "raw": "\"lowercase T\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 385,
                     "end": 403,
                     "value": "2019-12-15 15:23",
-                    "raw": "\"2019-12-15 15:23\""
+                    "raw": "\"2019-12-15 15:23\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 405,
                     "end": 434,
                     "value": "space between date and time",
-                    "raw": "\"space between date and time\""
+                    "raw": "\"space between date and time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -258,21 +270,27 @@
                         "start": 590,
                         "end": 594,
                         "value": 2019,
-                        "raw": "2019"
+                        "raw": "2019",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 596,
                         "end": 598,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 600,
                         "end": 605,
                         "value": "M12",
-                        "raw": "\"M12\""
+                        "raw": "\"M12\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "(a*)b\\1+",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 434,
                 "end": 441,
                 "value": "baaac",
-                "raw": "\"baaac\""
+                "raw": "\"baaac\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -86,14 +89,18 @@
                 "start": 463,
                 "end": 466,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 468,
                 "end": 470,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -134,7 +141,9 @@
           "start": 492,
           "end": 493,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -171,7 +180,9 @@
           "start": 514,
           "end": 521,
           "value": "baaac",
-          "raw": "\"baaac\""
+          "raw": "\"baaac\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -246,7 +257,9 @@
             "start": 586,
             "end": 670,
             "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,7 +336,9 @@
             "start": 735,
             "end": 817,
             "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +415,9 @@
             "start": 882,
             "end": 964,
             "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +447,9 @@
               "start": 983,
               "end": 984,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -556,7 +575,9 @@
                   "start": 1092,
                   "end": 1176,
                   "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

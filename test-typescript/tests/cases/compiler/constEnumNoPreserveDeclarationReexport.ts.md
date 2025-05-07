@@ -92,7 +92,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 41,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -160,7 +162,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 52,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -212,7 +216,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 39,
         "raw": "\"./ConstEnum\"",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -252,7 +258,9 @@ __ESTREE_TEST__:PASS:
         "start": 62,
         "end": 78,
         "raw": "\"./ImportExport\"",
-        "value": "./ImportExport"
+        "value": "./ImportExport",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -282,7 +290,9 @@ __ESTREE_TEST__:PASS:
         "start": 102,
         "end": 114,
         "raw": "\"./ReExport\"",
-        "value": "./ReExport"
+        "value": "./ReExport",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

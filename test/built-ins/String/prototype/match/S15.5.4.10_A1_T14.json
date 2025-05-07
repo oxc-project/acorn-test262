@@ -34,7 +34,9 @@
                 "start": 326,
                 "end": 330,
                 "value": "77",
-                "raw": "\"77\""
+                "raw": "\"77\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -67,7 +69,9 @@
                 "start": 427,
                 "end": 459,
                 "value": "ABBABABAB77BBAA",
-                "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+                "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -93,7 +97,9 @@
             "start": 473,
             "end": 474,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -104,7 +110,9 @@
           "start": 480,
           "end": 484,
           "value": "77",
-          "raw": "\"77\""
+          "raw": "\"77\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -136,7 +144,9 @@
                     "start": 513,
                     "end": 619,
                     "value": "#1: var __reg = new RegExp(\"77\"); \"ABB\\u0041BABAB\\u0037\\u0037BBAA\".match(__reg)[0] === \"77\". Actual: ",
-                    "raw": "'#1: var __reg = new RegExp(\"77\"); \"ABB\\\\u0041BABAB\\\\u0037\\\\u0037BBAA\".match(__reg)[0] === \"77\". Actual: '"
+                    "raw": "'#1: var __reg = new RegExp(\"77\"); \"ABB\\\\u0041BABAB\\\\u0037\\\\u0037BBAA\".match(__reg)[0] === \"77\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -160,7 +170,9 @@
                             "start": 623,
                             "end": 655,
                             "value": "ABBABABAB77BBAA",
-                            "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+                            "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "property": {
                             "type": "Identifier",
@@ -186,7 +198,9 @@
                         "start": 669,
                         "end": 670,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

@@ -87,7 +87,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 151,
                                         "end": 163,
                                         "raw": "\"Bill Gates\"",
-                                        "value": "Bill Gates"
+                                        "value": "Bill Gates",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -205,7 +207,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "\"file1\"",
-          "value": "file1"
+          "value": "file1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

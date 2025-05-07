@@ -82,14 +82,18 @@
             "start": 276,
             "end": 280,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 282,
             "end": 323,
             "value": "Object.getPrototypeOf(Object.prototype)",
-            "raw": "'Object.getPrototypeOf(Object.prototype)'"
+            "raw": "'Object.getPrototypeOf(Object.prototype)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

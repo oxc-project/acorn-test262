@@ -23,7 +23,9 @@
             "start": 350,
             "end": 351,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -58,7 +60,9 @@
                 "start": 365,
                 "end": 366,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -93,7 +97,9 @@
                   "start": 398,
                   "end": 436,
                   "value": "#1.1: \"y\" lead to throwing exception",
-                  "raw": "'#1.1: \"y\" lead to throwing exception'"
+                  "raw": "'#1.1: \"y\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -135,7 +141,9 @@
                   "start": 459,
                   "end": 460,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -164,7 +172,9 @@
           "start": 473,
           "end": 474,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -192,7 +202,9 @@
                   "start": 502,
                   "end": 571,
                   "value": "#1.2: Sequence evaluation of commands try/catch is 1. try, 2. catch",
-                  "raw": "'#1.2: Sequence evaluation of commands try/catch is 1. try, 2. catch'"
+                  "raw": "'#1.2: Sequence evaluation of commands try/catch is 1. try, 2. catch'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -221,7 +233,9 @@
             "start": 596,
             "end": 597,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -256,7 +270,9 @@
                 "start": 610,
                 "end": 611,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -288,7 +304,9 @@
                 "start": 630,
                 "end": 631,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -315,7 +333,9 @@
           "start": 644,
           "end": 645,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -343,7 +363,9 @@
                   "start": 673,
                   "end": 744,
                   "value": "#2: Sequence evaluation of commands try/finally is 1. try, 2. finally",
-                  "raw": "'#2: Sequence evaluation of commands try/finally is 1. try, 2. finally'"
+                  "raw": "'#2: Sequence evaluation of commands try/finally is 1. try, 2. finally'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -372,7 +394,9 @@
             "start": 768,
             "end": 769,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -407,7 +431,9 @@
                 "start": 781,
                 "end": 782,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -459,7 +485,9 @@
                   "start": 809,
                   "end": 810,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -491,7 +519,9 @@
                 "start": 829,
                 "end": 830,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -518,7 +548,9 @@
           "start": 843,
           "end": 844,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -546,7 +578,9 @@
                   "start": 872,
                   "end": 975,
                   "value": "#3: Sequence evaluation of commands try/catch/finally(with exception) is 1. try, 2. catch, 3. finally",
-                  "raw": "'#3: Sequence evaluation of commands try/catch/finally(with exception) is 1. try, 2. catch, 3. finally'"
+                  "raw": "'#3: Sequence evaluation of commands try/catch/finally(with exception) is 1. try, 2. catch, 3. finally'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -575,7 +609,9 @@
             "start": 1000,
             "end": 1001,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -610,7 +646,9 @@
                 "start": 1013,
                 "end": 1014,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -651,7 +689,9 @@
                   "start": 1036,
                   "end": 1037,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -683,7 +723,9 @@
                 "start": 1056,
                 "end": 1057,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -710,7 +752,9 @@
           "start": 1070,
           "end": 1071,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -738,7 +782,9 @@
                   "start": 1099,
                   "end": 1195,
                   "value": "#4: Sequence evaluation of commands try/catch/finally(without exception) is 1. try, 2. finally",
-                  "raw": "'#4: Sequence evaluation of commands try/catch/finally(without exception) is 1. try, 2. finally'"
+                  "raw": "'#4: Sequence evaluation of commands try/catch/finally(without exception) is 1. try, 2. finally'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

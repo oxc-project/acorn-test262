@@ -23,7 +23,9 @@
             "start": 571,
             "end": 572,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,14 +75,18 @@
                 "start": 599,
                 "end": 600,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 602,
                 "end": 604,
                 "value": 32,
-                "raw": "32"
+                "raw": "32",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -139,7 +145,9 @@
                 "start": 643,
                 "end": 651,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -236,7 +244,9 @@
                                 "start": 739,
                                 "end": 740,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -412,14 +422,18 @@
             "start": 863,
             "end": 864,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 868,
             "end": 936,
             "value": "RangeError thrown during array creation, not property modification",
-            "raw": "'RangeError thrown during array creation, not property modification'"
+            "raw": "'RangeError thrown during array creation, not property modification'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

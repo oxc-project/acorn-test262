@@ -178,7 +178,9 @@
                             "start": 921,
                             "end": 936,
                             "value": "accessThrower",
-                            "raw": "'accessThrower'"
+                            "raw": "'accessThrower'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -337,7 +339,9 @@
                             "start": 1083,
                             "end": 1098,
                             "value": "accessCounter",
-                            "raw": "'accessCounter'"
+                            "raw": "'accessCounter'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -379,7 +383,9 @@
                                     "start": 1131,
                                     "end": 1144,
                                     "value": "callCounter",
-                                    "raw": "'callCounter'"
+                                    "raw": "'callCounter'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -418,7 +424,9 @@
           "start": 1164,
           "end": 1166,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -501,7 +509,9 @@
             "start": 1234,
             "end": 1266,
             "value": "error thrown by left-hand side",
-            "raw": "'error thrown by left-hand side'"
+            "raw": "'error thrown by left-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +556,9 @@
             "start": 1291,
             "end": 1306,
             "value": "accessThrower",
-            "raw": "'accessThrower'"
+            "raw": "'accessThrower'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,7 +584,9 @@
           "start": 1316,
           "end": 1318,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -655,7 +669,9 @@
             "start": 1386,
             "end": 1419,
             "value": "error thrown by right-hand side",
-            "raw": "'error thrown by right-hand side'"
+            "raw": "'error thrown by right-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -700,7 +716,9 @@
             "start": 1444,
             "end": 1483,
             "value": "accessCountercallCounteraccessThrower",
-            "raw": "'accessCountercallCounteraccessThrower'"
+            "raw": "'accessCountercallCounteraccessThrower'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

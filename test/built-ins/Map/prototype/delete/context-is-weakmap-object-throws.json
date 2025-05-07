@@ -122,7 +122,9 @@
                         "start": 570,
                         "end": 576,
                         "value": "attr",
-                        "raw": "'attr'"
+                        "raw": "'attr'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

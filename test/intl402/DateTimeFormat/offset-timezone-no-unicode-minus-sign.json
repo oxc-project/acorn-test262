@@ -28,21 +28,27 @@
                 "start": 352,
                 "end": 359,
                 "value": "−0900",
-                "raw": "'−0900'"
+                "raw": "'−0900'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 371,
                 "value": "−10:00",
-                "raw": "'−10:00'"
+                "raw": "'−10:00'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 380,
                 "value": "−05",
-                "raw": "'−05'"
+                "raw": "'−05'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -171,7 +177,9 @@
                               "start": 472,
                               "end": 476,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

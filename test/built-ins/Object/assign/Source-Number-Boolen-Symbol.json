@@ -84,14 +84,18 @@
                 "start": 389,
                 "end": 392,
                 "value": 123,
-                "raw": "123"
+                "raw": "123",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 398,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -109,7 +113,9 @@
                     "start": 407,
                     "end": 412,
                     "value": "foo",
-                    "raw": "'foo'"
+                    "raw": "'foo'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -166,7 +172,9 @@
             "start": 450,
             "end": 512,
             "value": "The value of result is expected to equal the value of target",
-            "raw": "'The value of result is expected to equal the value of target'"
+            "raw": "'The value of result is expected to equal the value of target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

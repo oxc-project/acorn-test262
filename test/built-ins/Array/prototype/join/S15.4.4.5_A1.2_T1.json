@@ -34,28 +34,36 @@
                 "start": 318,
                 "end": 319,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 328,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -103,7 +111,9 @@
           "start": 348,
           "end": 357,
           "value": "0,1,2,3",
-          "raw": "\"0,1,2,3\""
+          "raw": "\"0,1,2,3\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -135,7 +145,9 @@
                     "start": 386,
                     "end": 448,
                     "value": "#1: x = new Array(0,1,2,3); x.join() === \"0,1,2,3\". Actual: ",
-                    "raw": "'#1: x = new Array(0,1,2,3); x.join() === \"0,1,2,3\". Actual: '"
+                    "raw": "'#1: x = new Array(0,1,2,3); x.join() === \"0,1,2,3\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -224,7 +236,9 @@
             "start": 477,
             "end": 478,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -234,7 +248,9 @@
           "start": 482,
           "end": 483,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -262,7 +278,9 @@
             "start": 487,
             "end": 488,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -272,7 +290,9 @@
           "start": 492,
           "end": 493,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -316,7 +336,9 @@
           "start": 512,
           "end": 519,
           "value": "0,,,3",
-          "raw": "\"0,,,3\""
+          "raw": "\"0,,,3\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -348,7 +370,9 @@
                     "start": 548,
                     "end": 612,
                     "value": "#2: x = []; x[0] = 0; x[3] = 3; x.join() === \"0,,,3\". Actual: ",
-                    "raw": "'#2: x = []; x[0] = 0; x[3] = 3; x.join() === \"0,,,3\". Actual: '"
+                    "raw": "'#2: x = []; x[0] = 0; x[3] = 3; x.join() === \"0,,,3\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -437,7 +461,9 @@
             "start": 641,
             "end": 642,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -447,7 +473,9 @@
           "start": 646,
           "end": 647,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -491,7 +519,9 @@
           "start": 666,
           "end": 669,
           "value": "0",
-          "raw": "\"0\""
+          "raw": "\"0\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -523,7 +553,9 @@
                     "start": 698,
                     "end": 748,
                     "value": "#3: x = []; x[0] = 0; x.join() === \"0\". Actual: ",
-                    "raw": "'#3: x = []; x[0] = 0; x.join() === \"0\". Actual: '"
+                    "raw": "'#3: x = []; x[0] = 0; x.join() === \"0\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

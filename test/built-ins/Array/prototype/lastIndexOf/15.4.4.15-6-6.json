@@ -49,21 +49,27 @@
                     "start": 300,
                     "end": 301,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 303,
                     "end": 304,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 306,
                     "end": 307,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -82,14 +88,18 @@
                 "start": 321,
                 "end": 322,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -99,14 +109,18 @@
             "start": 328,
             "end": 329,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 331,
             "end": 360,
             "value": "[1, 2, 3].lastIndexOf(2, 1)",
-            "raw": "'[1, 2, 3].lastIndexOf(2, 1)'"
+            "raw": "'[1, 2, 3].lastIndexOf(2, 1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

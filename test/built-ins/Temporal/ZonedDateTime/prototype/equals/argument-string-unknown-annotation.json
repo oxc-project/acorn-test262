@@ -33,14 +33,18 @@
                     "start": 280,
                     "end": 312,
                     "value": "1970-01-01T00:00[UTC][foo=bar]",
-                    "raw": "\"1970-01-01T00:00[UTC][foo=bar]\""
+                    "raw": "\"1970-01-01T00:00[UTC][foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 314,
                     "end": 330,
                     "value": "with time zone",
-                    "raw": "\"with time zone\""
+                    "raw": "\"with time zone\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 336,
                     "end": 382,
                     "value": "1970-01-01T00:00[UTC][foo=bar][u-ca=iso8601]",
-                    "raw": "\"1970-01-01T00:00[UTC][foo=bar][u-ca=iso8601]\""
+                    "raw": "\"1970-01-01T00:00[UTC][foo=bar][u-ca=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 384,
                     "end": 401,
                     "value": "before calendar",
-                    "raw": "\"before calendar\""
+                    "raw": "\"before calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 407,
                     "end": 453,
                     "value": "1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar]",
-                    "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar]\""
+                    "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 455,
                     "end": 471,
                     "value": "after calendar",
-                    "raw": "\"after calendar\""
+                    "raw": "\"after calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -96,14 +108,18 @@
                     "start": 477,
                     "end": 545,
                     "value": "1970-01-01T00:00[UTC][foo=bar][_foo-bar0=Ignore-This-999999999999]",
-                    "raw": "\"1970-01-01T00:00[UTC][foo=bar][_foo-bar0=Ignore-This-999999999999]\""
+                    "raw": "\"1970-01-01T00:00[UTC][foo=bar][_foo-bar0=Ignore-This-999999999999]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 547,
                     "end": 580,
                     "value": "with another unknown annotation",
-                    "raw": "\"with another unknown annotation\""
+                    "raw": "\"with another unknown annotation\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -158,6 +174,7 @@
                 "end": 633,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -165,7 +182,9 @@
                 "start": 635,
                 "end": 640,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -326,7 +345,9 @@
                         "start": 760,
                         "end": 764,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

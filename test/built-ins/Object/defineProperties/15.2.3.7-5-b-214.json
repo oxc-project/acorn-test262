@@ -121,7 +121,9 @@
                               "start": 425,
                               "end": 436,
                               "value": "arguments",
-                              "raw": "\"arguments\""
+                              "raw": "\"arguments\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -228,7 +230,9 @@
                       "start": 534,
                       "end": 545,
                       "value": "arguments",
-                      "raw": "\"arguments\""
+                      "raw": "\"arguments\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -272,7 +276,9 @@
             "start": 566,
             "end": 583,
             "value": "func() !== true",
-            "raw": "'func() !== true'"
+            "raw": "'func() !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

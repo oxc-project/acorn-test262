@@ -68,7 +68,9 @@
                     "start": 571,
                     "end": 575,
                     "value": "en",
-                    "raw": "'en'"
+                    "raw": "'en'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },

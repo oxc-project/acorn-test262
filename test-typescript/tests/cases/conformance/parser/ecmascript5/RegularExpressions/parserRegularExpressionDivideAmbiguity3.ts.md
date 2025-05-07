@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
                 "flags": "a",
                 "pattern": "regexp"
               },
-              "value": null
+              "value": null,
+              "bigint": null
             },
             "optional": false,
             "property": {
@@ -56,7 +57,9 @@ __ESTREE_TEST__:PASS:
         "start": 4,
         "end": 5,
         "raw": "1",
-        "value": 1
+        "value": 1,
+        "regex": null,
+        "bigint": null
       }
     }
   ],

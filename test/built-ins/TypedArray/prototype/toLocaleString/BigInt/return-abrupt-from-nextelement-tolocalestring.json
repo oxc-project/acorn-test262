@@ -23,7 +23,9 @@
             "start": 1122,
             "end": 1123,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +124,9 @@
                     "start": 1198,
                     "end": 1199,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "consequent": {
@@ -212,7 +216,9 @@
                       "start": 1303,
                       "end": 1304,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -253,6 +259,7 @@
                                 "end": 1332,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -261,6 +268,7 @@
                                 "end": 1336,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               }
                             ]
@@ -396,14 +404,18 @@
                         "start": 1444,
                         "end": 1445,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1447,
                         "end": 1475,
                         "value": "abrupt from a next element",
-                        "raw": "\"abrupt from a next element\""
+                        "raw": "\"abrupt from a next element\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

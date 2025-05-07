@@ -61,14 +61,18 @@
                             "start": 451,
                             "end": 459,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 461,
                             "end": 471,
                             "value": "best fit",
-                            "raw": "\"best fit\""
+                            "raw": "\"best fit\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -348,7 +352,9 @@
                                     "start": 898,
                                     "end": 899,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ],
@@ -600,7 +606,9 @@
                                     "start": 1141,
                                     "end": 1146,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -615,7 +623,9 @@
                                         "start": 1148,
                                         "end": 1157,
                                         "value": "Locale ",
-                                        "raw": "\"Locale \""
+                                        "raw": "\"Locale \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -644,7 +654,9 @@
                                       "start": 1188,
                                       "end": 1252,
                                       "value": " is returned by resolvedOptions but not by supportedLocalesOf.",
-                                      "raw": "\" is returned by resolvedOptions but not by supportedLocalesOf.\""
+                                      "raw": "\" is returned by resolvedOptions but not by supportedLocalesOf.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -715,7 +727,9 @@
                                     "start": 1302,
                                     "end": 1307,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -730,7 +744,9 @@
                                         "start": 1309,
                                         "end": 1318,
                                         "value": "Locale ",
-                                        "raw": "\"Locale \""
+                                        "raw": "\"Locale \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -759,7 +775,9 @@
                                       "start": 1336,
                                       "end": 1400,
                                       "value": " is returned by supportedLocalesOf but not by resolvedOptions.",
-                                      "raw": "\" is returned by supportedLocalesOf but not by resolvedOptions.\""
+                                      "raw": "\" is returned by supportedLocalesOf but not by resolvedOptions.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -828,7 +846,9 @@
                                   "start": 1572,
                                   "end": 1580,
                                   "value": "lookup",
-                                  "raw": "\"lookup\""
+                                  "raw": "\"lookup\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -947,7 +967,9 @@
                                   "start": 1742,
                                   "end": 1750,
                                   "value": "lookup",
-                                  "raw": "\"lookup\""
+                                  "raw": "\"lookup\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -1017,7 +1039,9 @@
                           "start": 1794,
                           "end": 1795,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -1025,7 +1049,9 @@
                         "start": 1797,
                         "end": 1802,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -1040,7 +1066,9 @@
                             "start": 1804,
                             "end": 1813,
                             "value": "Locale ",
-                            "raw": "\"Locale \""
+                            "raw": "\"Locale \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1058,7 +1086,9 @@
                               "start": 1826,
                               "end": 1827,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -1070,7 +1100,9 @@
                           "start": 1831,
                           "end": 1895,
                           "value": " is returned by supportedLocalesOf but not by resolvedOptions.",
-                          "raw": "\" is returned by supportedLocalesOf but not by resolvedOptions.\""
+                          "raw": "\" is returned by supportedLocalesOf but not by resolvedOptions.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

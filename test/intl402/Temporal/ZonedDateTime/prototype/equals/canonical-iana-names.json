@@ -48,6 +48,7 @@
                 "end": 319,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 321,
                 "end": 333,
                 "value": "Asia/Tokyo",
-                "raw": "'Asia/Tokyo'"
+                "raw": "'Asia/Tokyo'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,6 +111,7 @@
                 "end": 377,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -115,7 +119,9 @@
                 "start": 379,
                 "end": 400,
                 "value": "America/Los_Angeles",
-                "raw": "'America/Los_Angeles'"
+                "raw": "'America/Los_Angeles'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -153,14 +159,18 @@
                     "start": 420,
                     "end": 434,
                     "value": "America/Atka",
-                    "raw": "'America/Atka'"
+                    "raw": "'America/Atka'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 436,
                     "end": 450,
                     "value": "America/Adak",
-                    "raw": "'America/Adak'"
+                    "raw": "'America/Adak'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -174,14 +184,18 @@
                     "start": 456,
                     "end": 473,
                     "value": "America/Knox_IN",
-                    "raw": "'America/Knox_IN'"
+                    "raw": "'America/Knox_IN'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 475,
                     "end": 497,
                     "value": "America/Indiana/Knox",
-                    "raw": "'America/Indiana/Knox'"
+                    "raw": "'America/Indiana/Knox'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -195,14 +209,18 @@
                     "start": 503,
                     "end": 519,
                     "value": "Asia/Ashkhabad",
-                    "raw": "'Asia/Ashkhabad'"
+                    "raw": "'Asia/Ashkhabad'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 521,
                     "end": 536,
                     "value": "Asia/Ashgabat",
-                    "raw": "'Asia/Ashgabat'"
+                    "raw": "'Asia/Ashgabat'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -216,14 +234,18 @@
                     "start": 542,
                     "end": 554,
                     "value": "Asia/Dacca",
-                    "raw": "'Asia/Dacca'"
+                    "raw": "'Asia/Dacca'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 556,
                     "end": 568,
                     "value": "Asia/Dhaka",
-                    "raw": "'Asia/Dhaka'"
+                    "raw": "'Asia/Dhaka'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -237,14 +259,18 @@
                     "start": 574,
                     "end": 589,
                     "value": "Asia/Istanbul",
-                    "raw": "'Asia/Istanbul'"
+                    "raw": "'Asia/Istanbul'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 591,
                     "end": 608,
                     "value": "Europe/Istanbul",
-                    "raw": "'Europe/Istanbul'"
+                    "raw": "'Europe/Istanbul'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -258,14 +284,18 @@
                     "start": 614,
                     "end": 626,
                     "value": "Asia/Macao",
-                    "raw": "'Asia/Macao'"
+                    "raw": "'Asia/Macao'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 628,
                     "end": 640,
                     "value": "Asia/Macau",
-                    "raw": "'Asia/Macau'"
+                    "raw": "'Asia/Macau'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -279,14 +309,18 @@
                     "start": 646,
                     "end": 659,
                     "value": "Asia/Thimbu",
-                    "raw": "'Asia/Thimbu'"
+                    "raw": "'Asia/Thimbu'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 661,
                     "end": 675,
                     "value": "Asia/Thimphu",
-                    "raw": "'Asia/Thimphu'"
+                    "raw": "'Asia/Thimphu'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -300,14 +334,18 @@
                     "start": 681,
                     "end": 701,
                     "value": "Asia/Ujung_Pandang",
-                    "raw": "'Asia/Ujung_Pandang'"
+                    "raw": "'Asia/Ujung_Pandang'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 703,
                     "end": 718,
                     "value": "Asia/Makassar",
-                    "raw": "'Asia/Makassar'"
+                    "raw": "'Asia/Makassar'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -321,14 +359,18 @@
                     "start": 724,
                     "end": 741,
                     "value": "Asia/Ulan_Bator",
-                    "raw": "'Asia/Ulan_Bator'"
+                    "raw": "'Asia/Ulan_Bator'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 743,
                     "end": 761,
                     "value": "Asia/Ulaanbaatar",
-                    "raw": "'Asia/Ulaanbaatar'"
+                    "raw": "'Asia/Ulaanbaatar'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -757,7 +799,9 @@
                   "start": 1122,
                   "end": 1163,
                   "value": "not equal to unrelated time zone object",
-                  "raw": "\"not equal to unrelated time zone object\""
+                  "raw": "\"not equal to unrelated time zone object\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1089,7 +1133,9 @@
                   "start": 1426,
                   "end": 1463,
                   "value": "not equal to unrelated IXDTF string",
-                  "raw": "\"not equal to unrelated IXDTF string\""
+                  "raw": "\"not equal to unrelated IXDTF string\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

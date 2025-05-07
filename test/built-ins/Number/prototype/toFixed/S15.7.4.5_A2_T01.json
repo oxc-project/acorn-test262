@@ -86,7 +86,9 @@
                 "start": 327,
                 "end": 335,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 340,
             "end": 344,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 416,
             "value": "Number.prototype.toFixed.hasOwnProperty(\"length\") must return true",
-            "raw": "'Number.prototype.toFixed.hasOwnProperty(\"length\") must return true'"
+            "raw": "'Number.prototype.toFixed.hasOwnProperty(\"length\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,14 +193,18 @@
             "start": 476,
             "end": 477,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 547,
             "value": "The value of Number.prototype.toFixed.length is expected to be 1",
-            "raw": "'The value of Number.prototype.toFixed.length is expected to be 1'"
+            "raw": "'The value of Number.prototype.toFixed.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

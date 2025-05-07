@@ -73,7 +73,9 @@
                 "start": 798,
                 "end": 803,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,7 +158,9 @@
                     "start": 874,
                     "end": 879,
                     "value": "foo",
-                    "raw": "'foo'"
+                    "raw": "'foo'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -166,7 +170,9 @@
                 "start": 882,
                 "end": 895,
                 "value": "description",
-                "raw": "'description'"
+                "raw": "'description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

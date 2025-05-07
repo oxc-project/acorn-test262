@@ -52,7 +52,9 @@ __ESTREE_TEST__:PASS:
                 "start": 68,
                 "end": 72,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -89,7 +91,9 @@ __ESTREE_TEST__:PASS:
                         "start": 132,
                         "end": 170,
                         "raw": "\"The test is passed without an error.\"",
-                        "value": "The test is passed without an error."
+                        "value": "The test is passed without an error.",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -170,7 +174,9 @@ __ESTREE_TEST__:PASS:
             "start": 39,
             "end": 44,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": null
         }

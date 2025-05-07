@@ -60,7 +60,9 @@
                 "start": 276,
                 "end": 284,
                 "value": "\t1234",
-                "raw": "'\\t1234'"
+                "raw": "'\\t1234'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 287,
             "end": 291,
             "value": 1234,
-            "raw": "1234"
+            "raw": "1234",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 293,
             "end": 318,
             "value": "<TAB> should be ignored",
-            "raw": "'<TAB> should be ignored'"
+            "raw": "'<TAB> should be ignored'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -164,7 +170,9 @@
                         "start": 377,
                         "end": 385,
                         "value": "12\t34",
-                        "raw": "'12\\t34'"
+                        "raw": "'12\\t34'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -178,7 +186,9 @@
             "start": 391,
             "end": 464,
             "value": "<TAB> should produce a syntax error as whitespace results in two tokens",
-            "raw": "'<TAB> should produce a syntax error as whitespace results in two tokens'"
+            "raw": "'<TAB> should produce a syntax error as whitespace results in two tokens'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

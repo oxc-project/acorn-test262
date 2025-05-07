@@ -49,7 +49,9 @@ __ESTREE_TEST__:PASS:
                             "start": 69,
                             "end": 80,
                             "raw": "\"Version: \"",
-                            "value": "Version: "
+                            "value": "Version: ",
+                            "regex": null,
+                            "bigint": null
                           },
                           "right": {
                             "type": "MemberExpression",
@@ -314,7 +316,9 @@ __ESTREE_TEST__:PASS:
                           "start": 64,
                           "end": 71,
                           "raw": "\"2.0.5\"",
-                          "value": "2.0.5"
+                          "value": "2.0.5",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]

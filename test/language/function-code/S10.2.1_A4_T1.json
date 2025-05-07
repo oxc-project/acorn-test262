@@ -68,7 +68,9 @@
                     "start": 583,
                     "end": 584,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -182,7 +184,9 @@
                   "start": 675,
                   "end": 702,
                   "value": "#1: f1() returns function",
-                  "raw": "'#1: f1() returns function'"
+                  "raw": "'#1: f1() returns function'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -263,7 +267,9 @@
                     "start": 781,
                     "end": 782,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -309,7 +315,9 @@
               "start": 804,
               "end": 814,
               "value": "function",
-              "raw": "\"function\""
+              "raw": "\"function\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -339,7 +347,9 @@
                   "start": 843,
                   "end": 868,
                   "value": "#2: f2() === \"function\"",
-                  "raw": "'#2: f2() === \"function\"'"
+                  "raw": "'#2: f2() === \"function\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -413,7 +423,9 @@
                     "start": 963,
                     "end": 964,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -459,7 +471,9 @@
               "start": 987,
               "end": 997,
               "value": "function",
-              "raw": "\"function\""
+              "raw": "\"function\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -489,7 +503,9 @@
                   "start": 1026,
                   "end": 1051,
                   "value": "#3: f3() === \"function\"",
-                  "raw": "'#3: f3() === \"function\"'"
+                  "raw": "'#3: f3() === \"function\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

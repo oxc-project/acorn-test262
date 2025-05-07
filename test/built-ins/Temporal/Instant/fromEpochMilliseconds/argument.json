@@ -89,6 +89,7 @@
                   "end": 496,
                   "value": null,
                   "raw": "42n",
+                  "regex": null,
                   "bigint": "42"
                 }
               ],
@@ -100,7 +101,9 @@
             "start": 499,
             "end": 507,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,7 +211,9 @@
             "start": 591,
             "end": 599,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

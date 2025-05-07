@@ -47,7 +47,9 @@
                 "start": 2105,
                 "end": 2152,
                 "value": "1; switch (\"a\") { default: case \"a\": break; }",
-                "raw": "'1; switch (\"a\") { default: case \"a\": break; }'"
+                "raw": "'1; switch (\"a\") { default: case \"a\": break; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 2193,
                 "end": 2247,
                 "value": "2; switch (\"a\") { default: case \"a\": { 3; break; } }",
-                "raw": "'2; switch (\"a\") { default: case \"a\": { 3; break; } }'"
+                "raw": "'2; switch (\"a\") { default: case \"a\": { 3; break; } }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 2250,
             "end": 2251,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +172,9 @@
                 "start": 2281,
                 "end": 2352,
                 "value": "4; do { switch (\"a\") { default: case \"a\": continue; } } while (false)",
-                "raw": "'4; do { switch (\"a\") { default: case \"a\": continue; } } while (false)'"
+                "raw": "'4; do { switch (\"a\") { default: case \"a\": continue; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,7 +233,9 @@
                 "start": 2395,
                 "end": 2473,
                 "value": "5; do { switch (\"a\") { default: case \"a\": { 6; continue; } } } while (false)",
-                "raw": "'5; do { switch (\"a\") { default: case \"a\": { 6; continue; } } } while (false)'"
+                "raw": "'5; do { switch (\"a\") { default: case \"a\": { 6; continue; } } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -235,7 +245,9 @@
             "start": 2478,
             "end": 2479,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -97,7 +97,9 @@ __ESTREE_TEST__:PASS:
             "start": 150,
             "end": 168,
             "raw": "\".\\\\TempTestFiles\"",
-            "value": ".\\TempTestFiles"
+            "value": ".\\TempTestFiles",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -752,7 +754,9 @@ __ESTREE_TEST__:PASS:
                             "start": 634,
                             "end": 638,
                             "raw": "true",
-                            "value": true
+                            "value": true,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -792,7 +796,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 707,
                                   "end": 712,
                                   "raw": "false",
-                                  "value": false
+                                  "value": false,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -913,7 +919,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 806,
                                   "end": 811,
                                   "raw": "false",
-                                  "value": false
+                                  "value": false,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -1019,7 +1027,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 943,
                                         "end": 947,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   },
@@ -1047,7 +1057,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 978,
                                         "end": 983,
                                         "raw": "false",
-                                        "value": false
+                                        "value": false,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   },
@@ -1278,7 +1290,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 1174,
                                                     "end": 1178,
                                                     "raw": "true",
-                                                    "value": true
+                                                    "value": true,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               }
@@ -1319,7 +1333,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 1110,
                                               "end": 1112,
                                               "raw": "\"\"",
-                                              "value": ""
+                                              "value": "",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -1367,7 +1383,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1043,
                                         "end": 1051,
                                         "raw": "\"string\"",
-                                        "value": "string"
+                                        "value": "string",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   },
@@ -1401,7 +1419,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1436,
                                         "end": 1441,
                                         "raw": "false",
-                                        "value": false
+                                        "value": false,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   }
@@ -1456,7 +1476,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1696,
                                         "end": 1701,
                                         "raw": "false",
-                                        "value": false
+                                        "value": false,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   }
@@ -1508,7 +1530,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 1625,
                                       "end": 1630,
                                       "raw": "false",
-                                      "value": false
+                                      "value": false,
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -1803,7 +1827,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 1956,
                                 "end": 1968,
                                 "raw": "\"Basic test\"",
-                                "value": "Basic test"
+                                "value": "Basic test",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -1824,7 +1850,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1991,
                                         "end": 1995,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -1899,7 +1927,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2038,
                                 "end": 2058,
                                 "raw": "\"Test for any error\"",
-                                "value": "Test for any error"
+                                "value": "Test for any error",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -1941,7 +1971,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 2100,
                                         "end": 2105,
                                         "raw": "false",
-                                        "value": false
+                                        "value": false,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -1959,7 +1991,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2110,
                                 "end": 2112,
                                 "raw": "\"\"",
-                                "value": ""
+                                "value": "",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -2023,7 +2057,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2152,
                                 "end": 2184,
                                 "raw": "\"Test RegEx error message match\"",
-                                "value": "Test RegEx error message match"
+                                "value": "Test RegEx error message match",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -2049,7 +2085,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 2216,
                                             "end": 2234,
                                             "raw": "\"Should also pass\"",
-                                            "value": "Should also pass"
+                                            "value": "Should also pass",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "callee": {
@@ -2073,7 +2111,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 2244,
                                         "end": 2249,
                                         "raw": "false",
-                                        "value": false
+                                        "value": false,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -2091,7 +2131,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2254,
                                 "end": 2275,
                                 "raw": "\"Should [also]+ pass\"",
-                                "value": "Should [also]+ pass"
+                                "value": "Should [also]+ pass",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -2155,7 +2197,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2315,
                                 "end": 2340,
                                 "raw": "\"Test array compare true\"",
-                                "value": "Test array compare true"
+                                "value": "Test array compare true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -2186,21 +2230,27 @@ __ESTREE_TEST__:PASS:
                                                 "start": 2388,
                                                 "end": 2389,
                                                 "raw": "1",
-                                                "value": 1
+                                                "value": 1,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 2391,
                                                 "end": 2392,
                                                 "raw": "2",
-                                                "value": 2
+                                                "value": 2,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 2394,
                                                 "end": 2395,
                                                 "raw": "3",
-                                                "value": 3
+                                                "value": 3,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           },
@@ -2214,21 +2264,27 @@ __ESTREE_TEST__:PASS:
                                                 "start": 2399,
                                                 "end": 2400,
                                                 "raw": "1",
-                                                "value": 1
+                                                "value": 1,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 2402,
                                                 "end": 2403,
                                                 "raw": "2",
-                                                "value": 2
+                                                "value": 2,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 2405,
                                                 "end": 2406,
                                                 "raw": "3",
-                                                "value": 3
+                                                "value": 3,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -2334,7 +2390,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2451,
                                 "end": 2477,
                                 "raw": "\"Test array compare false\"",
-                                "value": "Test array compare false"
+                                "value": "Test array compare false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -2369,21 +2427,27 @@ __ESTREE_TEST__:PASS:
                                                   "start": 2526,
                                                   "end": 2527,
                                                   "raw": "3",
-                                                  "value": 3
+                                                  "value": 3,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 },
                                                 {
                                                   "type": "Literal",
                                                   "start": 2529,
                                                   "end": 2530,
                                                   "raw": "2",
-                                                  "value": 2
+                                                  "value": 2,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 },
                                                 {
                                                   "type": "Literal",
                                                   "start": 2532,
                                                   "end": 2533,
                                                   "raw": "3",
-                                                  "value": 3
+                                                  "value": 3,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             },
@@ -2397,21 +2461,27 @@ __ESTREE_TEST__:PASS:
                                                   "start": 2537,
                                                   "end": 2538,
                                                   "raw": "1",
-                                                  "value": 1
+                                                  "value": 1,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 },
                                                 {
                                                   "type": "Literal",
                                                   "start": 2540,
                                                   "end": 2541,
                                                   "raw": "2",
-                                                  "value": 2
+                                                  "value": 2,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 },
                                                 {
                                                   "type": "Literal",
                                                   "start": 2543,
                                                   "end": 2544,
                                                   "raw": "3",
-                                                  "value": 3
+                                                  "value": 3,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }
@@ -2520,7 +2590,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2618,
                                 "end": 2637,
                                 "raw": "\"Check file exists\"",
-                                "value": "Check file exists"
+                                "value": "Check file exists",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -2560,7 +2632,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 2734,
                                               "end": 2746,
                                               "raw": "\"\\\\Test.txt\"",
-                                              "value": "\\Test.txt"
+                                              "value": "\\Test.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ],
@@ -2681,7 +2755,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2798,
                                 "end": 2824,
                                 "raw": "\"Check file doesn't exist\"",
-                                "value": "Check file doesn't exist"
+                                "value": "Check file doesn't exist",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -2725,7 +2801,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 2922,
                                                 "end": 2935,
                                                 "raw": "\"\\\\Test2.txt\"",
-                                                "value": "\\Test2.txt"
+                                                "value": "\\Test2.txt",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           ],
@@ -2849,7 +2927,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 3023,
                                 "end": 3046,
                                 "raw": "\"Check text file match\"",
-                                "value": "Check text file match"
+                                "value": "Check text file match",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -2885,7 +2965,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 3124,
                                                 "end": 3149,
                                                 "raw": "\"C:\\\\somedir\\\\readme.txt\"",
-                                                "value": "C:\\somedir\\readme.txt"
+                                                "value": "C:\\somedir\\readme.txt",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -2942,7 +3024,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 3204,
                                                 "end": 3232,
                                                 "raw": "\"C:\\\\spaces path\\\\myapp.str\"",
-                                                "value": "C:\\spaces path\\myapp.str"
+                                                "value": "C:\\spaces path\\myapp.str",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -3000,7 +3084,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 3287,
                                               "end": 3309,
                                               "raw": "\"C:\\\\somedir\\\\code.js\"",
-                                              "value": "C:\\somedir\\code.js"
+                                              "value": "C:\\somedir\\code.js",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           ],
                                           "callee": {
@@ -3121,7 +3207,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 3361,
                                 "end": 3383,
                                 "raw": "\"Check makefile match\"",
-                                "value": "Check makefile match"
+                                "value": "Check makefile match",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -3147,7 +3235,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 3460,
                                             "end": 3484,
                                             "raw": "\"C:\\\\some dir\\\\makefile\"",
-                                            "value": "C:\\some dir\\makefile"
+                                            "value": "C:\\some dir\\makefile",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "callee": {
@@ -3267,7 +3357,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 3536,
                                 "end": 3569,
                                 "raw": "\"Check binary file doesn't match\"",
-                                "value": "Check binary file doesn't match"
+                                "value": "Check binary file doesn't match",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -3302,7 +3394,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 3648,
                                                 "end": 3670,
                                                 "raw": "\"C:\\\\somedir\\\\app.exe\"",
-                                                "value": "C:\\somedir\\app.exe"
+                                                "value": "C:\\somedir\\app.exe",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -3366,7 +3460,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 3722,
                                                 "end": 3747,
                                                 "raw": "\"C:\\\\somedir\\\\my lib.dll\"",
-                                                "value": "C:\\somedir\\my lib.dll"
+                                                "value": "C:\\somedir\\my lib.dll",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -3490,7 +3586,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 3837,
                                 "end": 3857,
                                 "raw": "\"Check App defaults\"",
-                                "value": "Check App defaults"
+                                "value": "Check App defaults",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -3634,7 +3732,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 3957,
                                                       "end": 3962,
                                                       "raw": "false",
-                                                      "value": false
+                                                      "value": false,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   "right": {
@@ -3672,7 +3772,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 4001,
                                                       "end": 4005,
                                                       "raw": "true",
-                                                      "value": true
+                                                      "value": true,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 },
@@ -3711,7 +3813,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 4048,
                                                     "end": 4054,
                                                     "raw": "\"CRLF\"",
-                                                    "value": "CRLF"
+                                                    "value": "CRLF",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               },
@@ -3791,7 +3895,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 4152,
                                                 "end": 4157,
                                                 "raw": "\".\\\\\"",
-                                                "value": ".\\"
+                                                "value": ".\\",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           },
@@ -3836,7 +3942,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 4194,
                                                 "end": 4195,
                                                 "raw": "0",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "right": {
@@ -3844,7 +3952,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 4201,
                                               "end": 4208,
                                               "raw": "\"ascii\"",
-                                              "value": "ascii"
+                                              "value": "ascii",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         },
@@ -3889,7 +3999,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 4245,
                                               "end": 4246,
                                               "raw": "1",
-                                              "value": 1
+                                              "value": 1,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           },
                                           "right": {
@@ -3897,7 +4009,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 4252,
                                             "end": 4263,
                                             "raw": "\"utf8nobom\"",
-                                            "value": "utf8nobom"
+                                            "value": "utf8nobom",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -3974,7 +4088,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 4315,
                                 "end": 4333,
                                 "raw": "\"Check App params\"",
-                                "value": "Check App params"
+                                "value": "Check App params",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -4020,35 +4136,45 @@ __ESTREE_TEST__:PASS:
                                                     "start": 4392,
                                                     "end": 4411,
                                                     "raw": "\"-dir=C:\\\\test dir\"",
-                                                    "value": "-dir=C:\\test dir"
+                                                    "value": "-dir=C:\\test dir",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   {
                                                     "type": "Literal",
                                                     "start": 4413,
                                                     "end": 4430,
                                                     "raw": "\"-lineEndings=LF\"",
-                                                    "value": "-lineEndings=LF"
+                                                    "value": "-lineEndings=LF",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   {
                                                     "type": "Literal",
                                                     "start": 4432,
                                                     "end": 4458,
                                                     "raw": "\"-encodings=utf16be,ascii\"",
-                                                    "value": "-encodings=utf16be,ascii"
+                                                    "value": "-encodings=utf16be,ascii",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   {
                                                     "type": "Literal",
                                                     "start": 4460,
                                                     "end": 4476,
                                                     "raw": "\"-recurse=false\"",
-                                                    "value": "-recurse=false"
+                                                    "value": "-recurse=false",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   {
                                                     "type": "Literal",
                                                     "start": 4478,
                                                     "end": 4489,
                                                     "raw": "\"-fixlines\"",
-                                                    "value": "-fixlines"
+                                                    "value": "-fixlines",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 ]
                                               }
@@ -4159,7 +4285,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 4530,
                                                         "end": 4534,
                                                         "raw": "true",
-                                                        "value": true
+                                                        "value": true,
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     },
                                                     "right": {
@@ -4197,7 +4325,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 4577,
                                                         "end": 4581,
                                                         "raw": "\"LF\"",
-                                                        "value": "LF"
+                                                        "value": "LF",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   },
@@ -4236,7 +4366,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 4620,
                                                       "end": 4625,
                                                       "raw": "false",
-                                                      "value": false
+                                                      "value": false,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 },
@@ -4316,7 +4448,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 4723,
                                                   "end": 4737,
                                                   "raw": "\"C:\\\\test dir\"",
-                                                  "value": "C:\\test dir"
+                                                  "value": "C:\\test dir",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             },
@@ -4361,7 +4495,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 4774,
                                                   "end": 4775,
                                                   "raw": "0",
-                                                  "value": 0
+                                                  "value": 0,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               },
                                               "right": {
@@ -4369,7 +4505,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 4781,
                                                 "end": 4790,
                                                 "raw": "\"utf16be\"",
-                                                "value": "utf16be"
+                                                "value": "utf16be",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           },
@@ -4414,7 +4552,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 4827,
                                                 "end": 4828,
                                                 "raw": "1",
-                                                "value": 1
+                                                "value": 1,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "right": {
@@ -4422,7 +4562,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 4834,
                                               "end": 4841,
                                               "raw": "\"ascii\"",
-                                              "value": "ascii"
+                                              "value": "ascii",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         },
@@ -4477,7 +4619,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 4889,
                                             "end": 4890,
                                             "raw": "2",
-                                            "value": 2
+                                            "value": 2,
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -4554,7 +4698,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 4975,
                                 "end": 5008,
                                 "raw": "\"Check encoding detection no BOM\"",
-                                "value": "Check encoding detection no BOM"
+                                "value": "Check encoding detection no BOM",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -4609,7 +4755,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 5094,
                                                   "end": 5107,
                                                   "raw": "\"\\\\noBOM.txt\"",
-                                                  "value": "\\noBOM.txt"
+                                                  "value": "\\noBOM.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -4689,7 +4837,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5140,
                                             "end": 5146,
                                             "raw": "'none'",
-                                            "value": "none"
+                                            "value": "none",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "right": {
@@ -4727,7 +4877,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5166,
                                             "end": 5172,
                                             "raw": "'utf8'",
-                                            "value": "utf8"
+                                            "value": "utf8",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -4804,7 +4956,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 5223,
                                 "end": 5258,
                                 "raw": "\"Check encoding detection UTF8 BOM\"",
-                                "value": "Check encoding detection UTF8 BOM"
+                                "value": "Check encoding detection UTF8 BOM",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -4859,7 +5013,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 5344,
                                                   "end": 5359,
                                                   "raw": "\"\\\\UTF8BOM.txt\"",
-                                                  "value": "\\UTF8BOM.txt"
+                                                  "value": "\\UTF8BOM.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -4939,7 +5095,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5392,
                                             "end": 5398,
                                             "raw": "'utf8'",
-                                            "value": "utf8"
+                                            "value": "utf8",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "right": {
@@ -4977,7 +5135,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5418,
                                             "end": 5424,
                                             "raw": "'utf8'",
-                                            "value": "utf8"
+                                            "value": "utf8",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -5054,7 +5214,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 5475,
                                 "end": 5513,
                                 "raw": "\"Check encoding detection UTF16be BOM\"",
-                                "value": "Check encoding detection UTF16be BOM"
+                                "value": "Check encoding detection UTF16be BOM",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -5109,7 +5271,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 5599,
                                                   "end": 5614,
                                                   "raw": "\"\\\\UTF16BE.txt\"",
-                                                  "value": "\\UTF16BE.txt"
+                                                  "value": "\\UTF16BE.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -5189,7 +5353,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5647,
                                             "end": 5656,
                                             "raw": "'utf16be'",
-                                            "value": "utf16be"
+                                            "value": "utf16be",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "right": {
@@ -5227,7 +5393,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5676,
                                             "end": 5685,
                                             "raw": "'utf16be'",
-                                            "value": "utf16be"
+                                            "value": "utf16be",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -5304,7 +5472,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 5736,
                                 "end": 5774,
                                 "raw": "\"Check encoding detection UTF16le BOM\"",
-                                "value": "Check encoding detection UTF16le BOM"
+                                "value": "Check encoding detection UTF16le BOM",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -5359,7 +5529,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 5860,
                                                   "end": 5875,
                                                   "raw": "\"\\\\UTF16LE.txt\"",
-                                                  "value": "\\UTF16LE.txt"
+                                                  "value": "\\UTF16LE.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -5439,7 +5611,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5908,
                                             "end": 5917,
                                             "raw": "'utf16le'",
-                                            "value": "utf16le"
+                                            "value": "utf16le",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "right": {
@@ -5477,7 +5651,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 5937,
                                             "end": 5946,
                                             "raw": "'utf16le'",
-                                            "value": "utf16le"
+                                            "value": "utf16le",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -5554,7 +5730,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 5997,
                                 "end": 6029,
                                 "raw": "\"Check encoding on 1 bytes file\"",
-                                "value": "Check encoding on 1 bytes file"
+                                "value": "Check encoding on 1 bytes file",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -5609,7 +5787,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 6115,
                                                   "end": 6132,
                                                   "raw": "\"\\\\1bytefile.txt\"",
-                                                  "value": "\\1bytefile.txt"
+                                                  "value": "\\1bytefile.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -5689,7 +5869,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 6165,
                                             "end": 6171,
                                             "raw": "'none'",
-                                            "value": "none"
+                                            "value": "none",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "right": {
@@ -5727,7 +5909,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 6191,
                                             "end": 6197,
                                             "raw": "'utf8'",
-                                            "value": "utf8"
+                                            "value": "utf8",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -5804,7 +5988,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 6248,
                                 "end": 6280,
                                 "raw": "\"Check encoding on 0 bytes file\"",
-                                "value": "Check encoding on 0 bytes file"
+                                "value": "Check encoding on 0 bytes file",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -5859,7 +6045,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 6366,
                                                   "end": 6383,
                                                   "raw": "\"\\\\0bytefile.txt\"",
-                                                  "value": "\\0bytefile.txt"
+                                                  "value": "\\0bytefile.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -5939,7 +6127,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 6416,
                                             "end": 6422,
                                             "raw": "'none'",
-                                            "value": "none"
+                                            "value": "none",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "right": {
@@ -5977,7 +6167,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 6442,
                                             "end": 6448,
                                             "raw": "'utf8'",
-                                            "value": "utf8"
+                                            "value": "utf8",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -6054,7 +6246,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 6527,
                                 "end": 6546,
                                 "raw": "\"Check byte reader\"",
-                                "value": "Check byte reader"
+                                "value": "Check byte reader",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -6109,7 +6303,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 6632,
                                                   "end": 6647,
                                                   "raw": "\"\\\\UTF8BOM.txt\"",
-                                                  "value": "\\UTF8BOM.txt"
+                                                  "value": "\\UTF8BOM.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -6283,7 +6479,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 6703,
                                               "end": 6704,
                                               "raw": "0",
-                                              "value": 0
+                                              "value": 0,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ],
@@ -6309,7 +6507,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 6710,
                                           "end": 6712,
                                           "raw": "11",
-                                          "value": 11
+                                          "value": 11,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "update": {
@@ -6357,77 +6557,99 @@ __ESTREE_TEST__:PASS:
                                                 "start": 6829,
                                                 "end": 6833,
                                                 "raw": "0x54",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6835,
                                                 "end": 6839,
                                                 "raw": "0xC3",
-                                                "value": 195
+                                                "value": 195,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6841,
                                                 "end": 6845,
                                                 "raw": "0xA8",
-                                                "value": 168
+                                                "value": 168,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6847,
                                                 "end": 6851,
                                                 "raw": "0xE1",
-                                                "value": 225
+                                                "value": 225,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6853,
                                                 "end": 6857,
                                                 "raw": "0xB4",
-                                                "value": 180
+                                                "value": 180,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6859,
                                                 "end": 6863,
                                                 "raw": "0xA3",
-                                                "value": 163
+                                                "value": 163,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6865,
                                                 "end": 6869,
                                                 "raw": "0xE2",
-                                                "value": 226
+                                                "value": 226,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6871,
                                                 "end": 6875,
                                                 "raw": "0x80",
-                                                "value": 128
+                                                "value": 128,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6877,
                                                 "end": 6881,
                                                 "raw": "0xA0",
-                                                "value": 160
+                                                "value": 160,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6883,
                                                 "end": 6887,
                                                 "raw": "0x0D",
-                                                "value": 13
+                                                "value": 13,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 6889,
                                                 "end": 6893,
                                                 "raw": "0x0A",
-                                                "value": 10
+                                                "value": 10,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -6533,7 +6755,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 6948,
                                 "end": 6969,
                                 "raw": "\"Check UTF8 decoding\"",
-                                "value": "Check UTF8 decoding"
+                                "value": "Check UTF8 decoding",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -6588,7 +6812,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 7055,
                                                   "end": 7070,
                                                   "raw": "\"\\\\UTF8BOM.txt\"",
-                                                  "value": "\\UTF8BOM.txt"
+                                                  "value": "\\UTF8BOM.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -6762,7 +6988,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 7126,
                                               "end": 7127,
                                               "raw": "0",
-                                              "value": 0
+                                              "value": 0,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ],
@@ -6788,7 +7016,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 7133,
                                           "end": 7134,
                                           "raw": "6",
-                                          "value": 6
+                                          "value": 6,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "update": {
@@ -6836,42 +7066,54 @@ __ESTREE_TEST__:PASS:
                                                 "start": 7260,
                                                 "end": 7266,
                                                 "raw": "0x0054",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7268,
                                                 "end": 7274,
                                                 "raw": "0x00E8",
-                                                "value": 232
+                                                "value": 232,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7276,
                                                 "end": 7282,
                                                 "raw": "0x1D23",
-                                                "value": 7459
+                                                "value": 7459,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7284,
                                                 "end": 7290,
                                                 "raw": "0x2020",
-                                                "value": 8224
+                                                "value": 8224,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7292,
                                                 "end": 7298,
                                                 "raw": "0x000D",
-                                                "value": 13
+                                                "value": 13,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7300,
                                                 "end": 7306,
                                                 "raw": "0x000A",
-                                                "value": 10
+                                                "value": 10,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -6977,7 +7219,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 7360,
                                 "end": 7381,
                                 "raw": "\"Check UTF8 encoding\"",
-                                "value": "Check UTF8 encoding"
+                                "value": "Check UTF8 encoding",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -7018,7 +7262,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 7453,
                                                 "end": 7455,
                                                 "raw": "20",
-                                                "value": 20
+                                                "value": 20,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -7121,42 +7367,54 @@ __ESTREE_TEST__:PASS:
                                                 "start": 7514,
                                                 "end": 7520,
                                                 "raw": "0x0054",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7522,
                                                 "end": 7528,
                                                 "raw": "0x00E8",
-                                                "value": 232
+                                                "value": 232,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7530,
                                                 "end": 7536,
                                                 "raw": "0x1D23",
-                                                "value": 7459
+                                                "value": 7459,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7538,
                                                 "end": 7544,
                                                 "raw": "0x2020",
-                                                "value": 8224
+                                                "value": 8224,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7546,
                                                 "end": 7552,
                                                 "raw": "0x000D",
-                                                "value": 13
+                                                "value": 13,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7554,
                                                 "end": 7560,
                                                 "raw": "0x000A",
-                                                "value": 10
+                                                "value": 10,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -7316,7 +7574,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 7684,
                                           "end": 7685,
                                           "raw": "0",
-                                          "value": 0
+                                          "value": 0,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -7458,7 +7718,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 7740,
                                               "end": 7741,
                                               "raw": "0",
-                                              "value": 0
+                                              "value": 0,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ],
@@ -7484,7 +7746,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 7747,
                                           "end": 7749,
                                           "raw": "14",
-                                          "value": 14
+                                          "value": 14,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "update": {
@@ -7533,98 +7797,126 @@ __ESTREE_TEST__:PASS:
                                                 "start": 7843,
                                                 "end": 7847,
                                                 "raw": "0xEF",
-                                                "value": 239
+                                                "value": 239,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7849,
                                                 "end": 7853,
                                                 "raw": "0xBB",
-                                                "value": 187
+                                                "value": 187,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7855,
                                                 "end": 7859,
                                                 "raw": "0xBF",
-                                                "value": 191
+                                                "value": 191,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7861,
                                                 "end": 7865,
                                                 "raw": "0x54",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7867,
                                                 "end": 7871,
                                                 "raw": "0xC3",
-                                                "value": 195
+                                                "value": 195,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7873,
                                                 "end": 7877,
                                                 "raw": "0xA8",
-                                                "value": 168
+                                                "value": 168,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7879,
                                                 "end": 7883,
                                                 "raw": "0xE1",
-                                                "value": 225
+                                                "value": 225,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7885,
                                                 "end": 7889,
                                                 "raw": "0xB4",
-                                                "value": 180
+                                                "value": 180,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7891,
                                                 "end": 7895,
                                                 "raw": "0xA3",
-                                                "value": 163
+                                                "value": 163,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7897,
                                                 "end": 7901,
                                                 "raw": "0xE2",
-                                                "value": 226
+                                                "value": 226,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7903,
                                                 "end": 7907,
                                                 "raw": "0x80",
-                                                "value": 128
+                                                "value": 128,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7909,
                                                 "end": 7913,
                                                 "raw": "0xA0",
-                                                "value": 160
+                                                "value": 160,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7915,
                                                 "end": 7919,
                                                 "raw": "0x0D",
-                                                "value": 13
+                                                "value": 13,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 7921,
                                                 "end": 7925,
                                                 "raw": "0x0A",
-                                                "value": 10
+                                                "value": 10,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -7762,7 +8054,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 8077,
                                 "end": 8098,
                                 "raw": "\"Check saving a file\"",
-                                "value": "Check saving a file"
+                                "value": "Check saving a file",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -7812,7 +8106,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 8163,
                                               "end": 8181,
                                               "raw": "\"\\\\tmpUTF16LE.txt\"",
-                                              "value": "\\tmpUTF16LE.txt"
+                                              "value": "\\tmpUTF16LE.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -7849,7 +8145,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 8231,
                                                 "end": 8233,
                                                 "raw": "14",
-                                                "value": 14
+                                                "value": 14,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -7952,42 +8250,54 @@ __ESTREE_TEST__:PASS:
                                                 "start": 8295,
                                                 "end": 8301,
                                                 "raw": "0x0054",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8303,
                                                 "end": 8309,
                                                 "raw": "0x00E8",
-                                                "value": 232
+                                                "value": 232,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8311,
                                                 "end": 8317,
                                                 "raw": "0x1D23",
-                                                "value": 7459
+                                                "value": 7459,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8319,
                                                 "end": 8325,
                                                 "raw": "0x2020",
-                                                "value": 8224
+                                                "value": 8224,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8327,
                                                 "end": 8333,
                                                 "raw": "0x000D",
-                                                "value": 13
+                                                "value": 13,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8335,
                                                 "end": 8341,
                                                 "raw": "0x000A",
-                                                "value": 10
+                                                "value": 10,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -8040,7 +8350,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 8415,
                                                         "end": 8420,
                                                         "raw": "false",
-                                                        "value": false
+                                                        "value": false,
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -8261,7 +8573,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 8605,
                                                   "end": 8625,
                                                   "raw": "\"Incorrect encoding\"",
-                                                  "value": "Incorrect encoding"
+                                                  "value": "Incorrect encoding",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -8314,7 +8628,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 8564,
                                           "end": 8573,
                                           "raw": "'utf16le'",
-                                          "value": "utf16le"
+                                          "value": "utf16le",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -8347,98 +8663,126 @@ __ESTREE_TEST__:PASS:
                                                 "start": 8675,
                                                 "end": 8679,
                                                 "raw": "0xFF",
-                                                "value": 255
+                                                "value": 255,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8681,
                                                 "end": 8685,
                                                 "raw": "0xFE",
-                                                "value": 254
+                                                "value": 254,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8687,
                                                 "end": 8691,
                                                 "raw": "0x54",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8693,
                                                 "end": 8697,
                                                 "raw": "0x00",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8699,
                                                 "end": 8703,
                                                 "raw": "0xE8",
-                                                "value": 232
+                                                "value": 232,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8705,
                                                 "end": 8709,
                                                 "raw": "0x00",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8711,
                                                 "end": 8715,
                                                 "raw": "0x23",
-                                                "value": 35
+                                                "value": 35,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8717,
                                                 "end": 8721,
                                                 "raw": "0x1D",
-                                                "value": 29
+                                                "value": 29,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8723,
                                                 "end": 8727,
                                                 "raw": "0x20",
-                                                "value": 32
+                                                "value": 32,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8729,
                                                 "end": 8733,
                                                 "raw": "0x20",
-                                                "value": 32
+                                                "value": 32,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8735,
                                                 "end": 8739,
                                                 "raw": "0x0D",
-                                                "value": 13
+                                                "value": 13,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8741,
                                                 "end": 8745,
                                                 "raw": "0x00",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8747,
                                                 "end": 8751,
                                                 "raw": "0x0A",
-                                                "value": 10
+                                                "value": 10,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 8753,
                                                 "end": 8757,
                                                 "raw": "0x00",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -8487,7 +8831,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 8789,
                                           "end": 8790,
                                           "raw": "0",
-                                          "value": 0
+                                          "value": 0,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -8592,7 +8938,9 @@ __ESTREE_TEST__:PASS:
                                                               "start": 8966,
                                                               "end": 8988,
                                                               "raw": "\"Incorrect byte value\"",
-                                                              "value": "Incorrect byte value"
+                                                              "value": "Incorrect byte value",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           ],
                                                           "callee": {
@@ -8694,7 +9042,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 9044,
                                         "end": 9048,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -8769,7 +9119,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 9100,
                                 "end": 9135,
                                 "raw": "\"Check reading past buffer asserts\"",
-                                "value": "Check reading past buffer asserts"
+                                "value": "Check reading past buffer asserts",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -8824,7 +9176,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 9213,
                                                   "end": 9228,
                                                   "raw": "\"\\\\UTF8BOM.txt\"",
-                                                  "value": "\\UTF8BOM.txt"
+                                                  "value": "\\UTF8BOM.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -8889,7 +9243,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 9264,
                                                 "end": 9267,
                                                 "raw": "200",
-                                                "value": 200
+                                                "value": 200,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -8934,7 +9290,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 9285,
                                         "end": 9289,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -8952,7 +9310,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 9298,
                                 "end": 9325,
                                 "raw": "\"read beyond buffer length\"",
-                                "value": "read beyond buffer length"
+                                "value": "read beyond buffer length",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -9016,7 +9376,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 9365,
                                 "end": 9400,
                                 "raw": "\"Check writing past buffer asserts\"",
-                                "value": "Check writing past buffer asserts"
+                                "value": "Check writing past buffer asserts",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -9071,7 +9433,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 9478,
                                                   "end": 9493,
                                                   "raw": "\"\\\\UTF8BOM.txt\"",
-                                                  "value": "\\UTF8BOM.txt"
+                                                  "value": "\\UTF8BOM.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -9122,14 +9486,18 @@ __ESTREE_TEST__:PASS:
                                             "start": 9517,
                                             "end": 9518,
                                             "raw": "5",
-                                            "value": 5
+                                            "value": 5,
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 9520,
                                             "end": 9523,
                                             "raw": "200",
-                                            "value": 200
+                                            "value": 200,
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "callee": {
@@ -9170,7 +9538,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 9541,
                                         "end": 9545,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -9188,7 +9558,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 9554,
                                 "end": 9582,
                                 "raw": "\"write beyond buffer length\"",
-                                "value": "write beyond buffer length"
+                                "value": "write beyond buffer length",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -9252,7 +9624,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 9657,
                                 "end": 9683,
                                 "raw": "\"Read non-BMP utf16 chars\"",
-                                "value": "Read non-BMP utf16 chars"
+                                "value": "Read non-BMP utf16 chars",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -9307,7 +9681,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 9776,
                                                   "end": 9797,
                                                   "raw": "\"\\\\utf16leNonBmp.txt\"",
-                                                  "value": "\\utf16leNonBmp.txt"
+                                                  "value": "\\utf16leNonBmp.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -9367,7 +9743,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 9880,
                                                   "end": 9900,
                                                   "raw": "\"Incorrect encoding\"",
-                                                  "value": "Incorrect encoding"
+                                                  "value": "Incorrect encoding",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -9420,7 +9798,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 9839,
                                           "end": 9848,
                                           "raw": "'utf16le'",
-                                          "value": "utf16le"
+                                          "value": "utf16le",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -9483,7 +9863,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 10054,
                                                       "end": 10059,
                                                       "raw": "false",
-                                                      "value": false
+                                                      "value": false,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   ],
                                                   "callee": {
@@ -9570,7 +9952,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 9976,
                                               "end": 9977,
                                               "raw": "0",
-                                              "value": 0
+                                              "value": 0,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ],
@@ -9596,7 +9980,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 9983,
                                           "end": 9984,
                                           "raw": "6",
-                                          "value": 6
+                                          "value": 6,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "update": {
@@ -9645,42 +10031,54 @@ __ESTREE_TEST__:PASS:
                                                 "start": 10115,
                                                 "end": 10122,
                                                 "raw": "0x10480",
-                                                "value": 66688
+                                                "value": 66688,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10124,
                                                 "end": 10131,
                                                 "raw": "0x10481",
-                                                "value": 66689
+                                                "value": 66689,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10133,
                                                 "end": 10140,
                                                 "raw": "0x10482",
-                                                "value": 66690
+                                                "value": 66690,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10142,
                                                 "end": 10146,
                                                 "raw": "0x54",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10148,
                                                 "end": 10152,
                                                 "raw": "0x68",
-                                                "value": 104
+                                                "value": 104,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10154,
                                                 "end": 10158,
                                                 "raw": "0x69",
-                                                "value": 105
+                                                "value": 105,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -9818,7 +10216,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 10287,
                                 "end": 10312,
                                 "raw": "\"Read non-BMP utf8 chars\"",
-                                "value": "Read non-BMP utf8 chars"
+                                "value": "Read non-BMP utf8 chars",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -9873,7 +10273,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 10405,
                                                   "end": 10423,
                                                   "raw": "\"\\\\utf8NonBmp.txt\"",
-                                                  "value": "\\utf8NonBmp.txt"
+                                                  "value": "\\utf8NonBmp.txt",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -9933,7 +10335,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 10503,
                                                   "end": 10523,
                                                   "raw": "\"Incorrect encoding\"",
-                                                  "value": "Incorrect encoding"
+                                                  "value": "Incorrect encoding",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -9986,7 +10390,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 10465,
                                           "end": 10471,
                                           "raw": "'utf8'",
-                                          "value": "utf8"
+                                          "value": "utf8",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -10128,7 +10534,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 10599,
                                               "end": 10600,
                                               "raw": "0",
-                                              "value": 0
+                                              "value": 0,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ],
@@ -10154,7 +10562,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 10606,
                                           "end": 10607,
                                           "raw": "6",
-                                          "value": 6
+                                          "value": 6,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "update": {
@@ -10203,42 +10613,54 @@ __ESTREE_TEST__:PASS:
                                                 "start": 10732,
                                                 "end": 10739,
                                                 "raw": "0x10480",
-                                                "value": 66688
+                                                "value": 66688,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10741,
                                                 "end": 10748,
                                                 "raw": "0x10481",
-                                                "value": 66689
+                                                "value": 66689,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10750,
                                                 "end": 10757,
                                                 "raw": "0x10482",
-                                                "value": 66690
+                                                "value": 66690,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10759,
                                                 "end": 10763,
                                                 "raw": "0x54",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10765,
                                                 "end": 10769,
                                                 "raw": "0x68",
-                                                "value": 104
+                                                "value": 104,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 10771,
                                                 "end": 10775,
                                                 "raw": "0x69",
-                                                "value": 105
+                                                "value": 105,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -10376,7 +10798,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 10904,
                                 "end": 10930,
                                 "raw": "\"Write non-BMP utf8 chars\"",
-                                "value": "Write non-BMP utf8 chars"
+                                "value": "Write non-BMP utf8 chars",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -10426,7 +10850,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 10995,
                                               "end": 11016,
                                               "raw": "\"\\\\tmpUTF8nonBmp.txt\"",
-                                              "value": "\\tmpUTF8nonBmp.txt"
+                                              "value": "\\tmpUTF8nonBmp.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -10463,7 +10889,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 11066,
                                                 "end": 11068,
                                                 "raw": "15",
-                                                "value": 15
+                                                "value": 15,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -10527,42 +10955,54 @@ __ESTREE_TEST__:PASS:
                                                 "start": 11096,
                                                 "end": 11103,
                                                 "raw": "0x10480",
-                                                "value": 66688
+                                                "value": 66688,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11105,
                                                 "end": 11112,
                                                 "raw": "0x10481",
-                                                "value": 66689
+                                                "value": 66689,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11114,
                                                 "end": 11121,
                                                 "raw": "0x10482",
-                                                "value": 66690
+                                                "value": 66690,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11123,
                                                 "end": 11127,
                                                 "raw": "0x54",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11129,
                                                 "end": 11133,
                                                 "raw": "0x68",
-                                                "value": 104
+                                                "value": 104,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11135,
                                                 "end": 11139,
                                                 "raw": "0x69",
-                                                "value": 105
+                                                "value": 105,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -10829,7 +11269,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 11392,
                                                   "end": 11412,
                                                   "raw": "\"Incorrect encoding\"",
-                                                  "value": "Incorrect encoding"
+                                                  "value": "Incorrect encoding",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -10882,7 +11324,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 11354,
                                           "end": 11360,
                                           "raw": "'utf8'",
-                                          "value": "utf8"
+                                          "value": "utf8",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -10915,105 +11359,135 @@ __ESTREE_TEST__:PASS:
                                                 "start": 11462,
                                                 "end": 11466,
                                                 "raw": "0xF0",
-                                                "value": 240
+                                                "value": 240,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11468,
                                                 "end": 11472,
                                                 "raw": "0x90",
-                                                "value": 144
+                                                "value": 144,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11474,
                                                 "end": 11478,
                                                 "raw": "0x92",
-                                                "value": 146
+                                                "value": 146,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11480,
                                                 "end": 11484,
                                                 "raw": "0x80",
-                                                "value": 128
+                                                "value": 128,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11486,
                                                 "end": 11490,
                                                 "raw": "0xF0",
-                                                "value": 240
+                                                "value": 240,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11492,
                                                 "end": 11496,
                                                 "raw": "0x90",
-                                                "value": 144
+                                                "value": 144,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11498,
                                                 "end": 11502,
                                                 "raw": "0x92",
-                                                "value": 146
+                                                "value": 146,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11504,
                                                 "end": 11508,
                                                 "raw": "0x81",
-                                                "value": 129
+                                                "value": 129,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11510,
                                                 "end": 11514,
                                                 "raw": "0xF0",
-                                                "value": 240
+                                                "value": 240,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11516,
                                                 "end": 11520,
                                                 "raw": "0x90",
-                                                "value": 144
+                                                "value": 144,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11522,
                                                 "end": 11526,
                                                 "raw": "0x92",
-                                                "value": 146
+                                                "value": 146,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11528,
                                                 "end": 11532,
                                                 "raw": "0x82",
-                                                "value": 130
+                                                "value": 130,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11534,
                                                 "end": 11538,
                                                 "raw": "0x54",
-                                                "value": 84
+                                                "value": 84,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11540,
                                                 "end": 11544,
                                                 "raw": "0x68",
-                                                "value": 104
+                                                "value": 104,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 11546,
                                                 "end": 11550,
                                                 "raw": "0x69",
-                                                "value": 105
+                                                "value": 105,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -11123,7 +11597,9 @@ __ESTREE_TEST__:PASS:
                                                               "start": 11727,
                                                               "end": 11749,
                                                               "raw": "\"Incorrect byte value\"",
-                                                              "value": "Incorrect byte value"
+                                                              "value": "Incorrect byte value",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           ],
                                                           "callee": {
@@ -11225,7 +11701,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 11805,
                                         "end": 11809,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -11300,7 +11778,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 11861,
                                 "end": 11890,
                                 "raw": "\"Test invalid lead UTF8 byte\"",
-                                "value": "Test invalid lead UTF8 byte"
+                                "value": "Test invalid lead UTF8 byte",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -11350,7 +11830,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 11955,
                                               "end": 11978,
                                               "raw": "\"\\\\utf8BadLeadByte.txt\"",
-                                              "value": "\\utf8BadLeadByte.txt"
+                                              "value": "\\utf8BadLeadByte.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -11433,7 +11915,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 12058,
                                         "end": 12062,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -11451,7 +11935,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 12075,
                                 "end": 12115,
                                 "raw": "\"Invalid UTF8 byte sequence at index: 4\"",
-                                "value": "Invalid UTF8 byte sequence at index: 4"
+                                "value": "Invalid UTF8 byte sequence at index: 4",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -11515,7 +12001,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 12156,
                                 "end": 12185,
                                 "raw": "\"Test invalid tail UTF8 byte\"",
-                                "value": "Test invalid tail UTF8 byte"
+                                "value": "Test invalid tail UTF8 byte",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -11565,7 +12053,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 12250,
                                               "end": 12273,
                                               "raw": "\"\\\\utf8InvalidTail.txt\"",
-                                              "value": "\\utf8InvalidTail.txt"
+                                              "value": "\\utf8InvalidTail.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -11648,7 +12138,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 12353,
                                         "end": 12357,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -11666,7 +12158,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 12370,
                                 "end": 12405,
                                 "raw": "\"Trailing byte invalid at index: 8\"",
-                                "value": "Trailing byte invalid at index: 8"
+                                "value": "Trailing byte invalid at index: 8",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -11730,7 +12224,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 12446,
                                 "end": 12474,
                                 "raw": "\"Test ANSI fails validation\"",
-                                "value": "Test ANSI fails validation"
+                                "value": "Test ANSI fails validation",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -11780,7 +12276,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 12539,
                                               "end": 12551,
                                               "raw": "\"\\\\ansi.txt\"",
-                                              "value": "\\ansi.txt"
+                                              "value": "\\ansi.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -11863,7 +12361,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 12631,
                                         "end": 12635,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -11881,7 +12381,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 12648,
                                 "end": 12683,
                                 "raw": "\"Trailing byte invalid at index: 6\"",
-                                "value": "Trailing byte invalid at index: 6"
+                                "value": "Trailing byte invalid at index: 6",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -11945,7 +12447,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 12724,
                                 "end": 12774,
                                 "raw": "\"Test UTF-16LE with invalid surrogate trail fails\"",
-                                "value": "Test UTF-16LE with invalid surrogate trail fails"
+                                "value": "Test UTF-16LE with invalid surrogate trail fails",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -11995,7 +12499,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 12839,
                                               "end": 12870,
                                               "raw": "\"\\\\utf16leInvalidSurrogate.txt\"",
-                                              "value": "\\utf16leInvalidSurrogate.txt"
+                                              "value": "\\utf16leInvalidSurrogate.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -12078,7 +12584,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 12950,
                                         "end": 12954,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -12096,7 +12604,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 12967,
                                 "end": 13005,
                                 "raw": "\"Trail surrogate has an invalid value\"",
-                                "value": "Trail surrogate has an invalid value"
+                                "value": "Trail surrogate has an invalid value",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -12160,7 +12670,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 13046,
                                 "end": 13095,
                                 "raw": "\"Test UTF-16BE with invalid surrogate head fails\"",
-                                "value": "Test UTF-16BE with invalid surrogate head fails"
+                                "value": "Test UTF-16BE with invalid surrogate head fails",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -12210,7 +12722,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 13160,
                                               "end": 13191,
                                               "raw": "\"\\\\UTF16BEInvalidSurrogate.txt\"",
-                                              "value": "\\UTF16BEInvalidSurrogate.txt"
+                                              "value": "\\UTF16BEInvalidSurrogate.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -12293,7 +12807,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 13271,
                                         "end": 13275,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -12311,7 +12827,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 13288,
                                 "end": 13333,
                                 "raw": "\"Byte sequence starts with a trail surrogate\"",
-                                "value": "Byte sequence starts with a trail surrogate"
+                                "value": "Byte sequence starts with a trail surrogate",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -12375,7 +12893,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 13374,
                                 "end": 13424,
                                 "raw": "\"Test UTF-16LE with missing trail surrogate fails\"",
-                                "value": "Test UTF-16LE with missing trail surrogate fails"
+                                "value": "Test UTF-16LE with missing trail surrogate fails",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -12425,7 +12945,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 13489,
                                               "end": 13525,
                                               "raw": "\"\\\\utf16leMissingTrailSurrogate.txt\"",
-                                              "value": "\\utf16leMissingTrailSurrogate.txt"
+                                              "value": "\\utf16leMissingTrailSurrogate.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -12508,7 +13030,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 13605,
                                         "end": 13609,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -12526,7 +13050,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 13622,
                                 "end": 13660,
                                 "raw": "\"Trail surrogate has an invalid value\"",
-                                "value": "Trail surrogate has an invalid value"
+                                "value": "Trail surrogate has an invalid value",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -12590,7 +13116,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 13727,
                                 "end": 13756,
                                 "raw": "\"Count character occurrences\"",
-                                "value": "Count character occurrences"
+                                "value": "Count character occurrences",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -12640,7 +13168,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 13821,
                                               "end": 13843,
                                               "raw": "\"\\\\charCountASCII.txt\"",
-                                              "value": "\\charCountASCII.txt"
+                                              "value": "\\charCountASCII.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -12783,7 +13313,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 13945,
                                                     "end": 13946,
                                                     "raw": "5",
-                                                    "value": 5
+                                                    "value": 5,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "right": {
@@ -12821,7 +13353,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 13965,
                                                     "end": 13966,
                                                     "raw": "4",
-                                                    "value": 4
+                                                    "value": 4,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               },
@@ -12860,7 +13394,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 13987,
                                                   "end": 13988,
                                                   "raw": "5",
-                                                  "value": 5
+                                                  "value": 5,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             },
@@ -12899,7 +13435,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 14007,
                                                 "end": 14008,
                                                 "raw": "3",
-                                                "value": 3
+                                                "value": 3,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           }
@@ -12994,7 +13532,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 14122,
                                 "end": 14156,
                                 "raw": "\"Test file with control character\"",
-                                "value": "Test file with control character"
+                                "value": "Test file with control character",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "FunctionExpression",
@@ -13044,7 +13584,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 14221,
                                               "end": 14240,
                                               "raw": "\"\\\\controlChar.txt\"",
-                                              "value": "\\controlChar.txt"
+                                              "value": "\\controlChar.txt",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -13127,7 +13669,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 14320,
                                         "end": 14324,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -13145,7 +13689,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 14337,
                                 "end": 14381,
                                 "raw": "\"Codepoint at index: 3 has control value: 8\"",
-                                "value": "Codepoint at index: 3 has control value: 8"
+                                "value": "Codepoint at index: 3 has control value: 8",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {

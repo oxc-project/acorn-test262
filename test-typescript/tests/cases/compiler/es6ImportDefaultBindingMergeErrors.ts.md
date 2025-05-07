@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 10,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 67,
         "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -160,7 +164,9 @@ __ESTREE_TEST__:PASS:
         "start": 164,
         "end": 204,
         "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -203,7 +209,9 @@ __ESTREE_TEST__:PASS:
             "start": 247,
             "end": 260,
             "raw": "\"hello world\"",
-            "value": "hello world"
+            "value": "hello world",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -221,7 +229,9 @@ __ESTREE_TEST__:PASS:
         "start": 291,
         "end": 331,
         "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -251,7 +261,9 @@ __ESTREE_TEST__:PASS:
         "start": 380,
         "end": 420,
         "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

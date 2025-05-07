@@ -61,7 +61,9 @@
           "start": 365,
           "end": 381,
           "value": "prior to throw",
-          "raw": "\"prior to throw\""
+          "raw": "\"prior to throw\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -128,7 +130,9 @@
                     "start": 448,
                     "end": 470,
                     "value": "initializer in catch",
-                    "raw": "\"initializer in catch\""
+                    "raw": "\"initializer in catch\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -185,7 +189,9 @@
             "start": 509,
             "end": 525,
             "value": "prior to throw",
-            "raw": "\"prior to throw\""
+            "raw": "\"prior to throw\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -52,7 +52,9 @@
                   "start": 598,
                   "end": 611,
                   "value": "new.target;",
-                  "raw": "'new.target;'"
+                  "raw": "'new.target;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -149,7 +151,9 @@
             "start": 681,
             "end": 689,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

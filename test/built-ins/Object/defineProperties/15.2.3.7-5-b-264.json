@@ -162,7 +162,9 @@
                               "start": 454,
                               "end": 460,
                               "value": "prop",
-                              "raw": "\"prop\""
+                              "raw": "\"prop\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "ObjectExpression",
@@ -187,7 +189,9 @@
                                     "start": 480,
                                     "end": 484,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },

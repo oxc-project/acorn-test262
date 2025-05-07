@@ -191,7 +191,9 @@
             "start": 730,
             "end": 747,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -308,7 +310,9 @@
             "start": 823,
             "end": 840,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -62,7 +62,8 @@
             "regex": {
               "pattern": "[db]",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -230,7 +231,9 @@
               "start": 984,
               "end": 991,
               "value": "abcde",
-              "raw": "'abcde'"
+              "raw": "'abcde'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -341,7 +344,9 @@
             "start": 1058,
             "end": 1059,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +395,9 @@
               "start": 1086,
               "end": 1087,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -400,7 +407,9 @@
             "start": 1090,
             "end": 1093,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -449,7 +458,9 @@
               "start": 1120,
               "end": 1121,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -459,7 +470,9 @@
             "start": 1124,
             "end": 1127,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,7 +521,9 @@
               "start": 1154,
               "end": 1155,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -518,7 +533,9 @@
             "start": 1158,
             "end": 1161,
             "value": "e",
-            "raw": "'e'"
+            "raw": "'e'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -570,7 +587,9 @@
           "start": 1193,
           "end": 1197,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -631,7 +650,9 @@
               "start": 1225,
               "end": 1232,
               "value": "abcde",
-              "raw": "'abcde'"
+              "raw": "'abcde'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -742,7 +763,9 @@
             "start": 1299,
             "end": 1300,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -791,7 +814,9 @@
               "start": 1327,
               "end": 1328,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -801,7 +826,9 @@
             "start": 1331,
             "end": 1334,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -850,7 +877,9 @@
               "start": 1361,
               "end": 1362,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -860,7 +889,9 @@
             "start": 1365,
             "end": 1368,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -909,7 +940,9 @@
               "start": 1395,
               "end": 1396,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -919,7 +952,9 @@
             "start": 1399,
             "end": 1402,
             "value": "e",
-            "raw": "'e'"
+            "raw": "'e'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

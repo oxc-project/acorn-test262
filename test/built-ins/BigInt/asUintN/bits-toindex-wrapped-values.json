@@ -71,7 +71,9 @@
                     "start": 413,
                     "end": 414,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -82,6 +84,7 @@
                 "end": 419,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -93,6 +96,7 @@
             "end": 424,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -100,7 +104,9 @@
             "start": 426,
             "end": 472,
             "value": "ToPrimitive: unbox object with internal slot",
-            "raw": "\"ToPrimitive: unbox object with internal slot\""
+            "raw": "\"ToPrimitive: unbox object with internal slot\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -212,7 +218,9 @@
                               "start": 557,
                               "end": 558,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -228,6 +236,7 @@
                 "end": 569,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -239,6 +248,7 @@
             "end": 574,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -246,7 +256,9 @@
             "start": 576,
             "end": 604,
             "value": "ToPrimitive: @@toPrimitive",
-            "raw": "\"ToPrimitive: @@toPrimitive\""
+            "raw": "\"ToPrimitive: @@toPrimitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,7 +357,9 @@
                               "start": 676,
                               "end": 677,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -361,6 +375,7 @@
                 "end": 688,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -372,6 +387,7 @@
             "end": 693,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -379,7 +395,9 @@
             "start": 695,
             "end": 717,
             "value": "ToPrimitive: valueOf",
-            "raw": "\"ToPrimitive: valueOf\""
+            "raw": "\"ToPrimitive: valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +496,9 @@
                               "start": 790,
                               "end": 791,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -494,6 +514,7 @@
                 "end": 802,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -505,6 +526,7 @@
             "end": 807,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -512,7 +534,9 @@
             "start": 809,
             "end": 832,
             "value": "ToPrimitive: toString",
-            "raw": "\"ToPrimitive: toString\""
+            "raw": "\"ToPrimitive: toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -596,6 +620,7 @@
                 "end": 882,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -607,6 +632,7 @@
             "end": 887,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -614,7 +640,9 @@
             "start": 891,
             "end": 945,
             "value": "ToIndex: unbox object with internal slot => NaN => 0",
-            "raw": "\"ToIndex: unbox object with internal slot => NaN => 0\""
+            "raw": "\"ToIndex: unbox object with internal slot => NaN => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -741,6 +769,7 @@
                 "end": 1044,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -752,6 +781,7 @@
             "end": 1049,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -759,7 +789,9 @@
             "start": 1051,
             "end": 1087,
             "value": "ToIndex: @@toPrimitive => NaN => 0",
-            "raw": "\"ToIndex: @@toPrimitive => NaN => 0\""
+            "raw": "\"ToIndex: @@toPrimitive => NaN => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -873,6 +905,7 @@
                 "end": 1173,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -884,6 +917,7 @@
             "end": 1178,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -891,7 +925,9 @@
             "start": 1180,
             "end": 1210,
             "value": "ToIndex: valueOf => NaN => 0",
-            "raw": "\"ToIndex: valueOf => NaN => 0\""
+            "raw": "\"ToIndex: valueOf => NaN => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1005,6 +1041,7 @@
                 "end": 1297,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1016,6 +1053,7 @@
             "end": 1302,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1023,7 +1061,9 @@
             "start": 1304,
             "end": 1335,
             "value": "ToIndex: toString => NaN => 0",
-            "raw": "\"ToIndex: toString => NaN => 0\""
+            "raw": "\"ToIndex: toString => NaN => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1150,6 +1190,7 @@
                 "end": 1440,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1161,6 +1202,7 @@
             "end": 1445,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1168,7 +1210,9 @@
             "start": 1447,
             "end": 1496,
             "value": "ToIndex: @@toPrimitive => undefined => NaN => 0",
-            "raw": "\"ToIndex: @@toPrimitive => undefined => NaN => 0\""
+            "raw": "\"ToIndex: @@toPrimitive => undefined => NaN => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1282,6 +1326,7 @@
                 "end": 1588,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1293,6 +1338,7 @@
             "end": 1593,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1300,7 +1346,9 @@
             "start": 1595,
             "end": 1638,
             "value": "ToIndex: valueOf => undefined => NaN => 0",
-            "raw": "\"ToIndex: valueOf => undefined => NaN => 0\""
+            "raw": "\"ToIndex: valueOf => undefined => NaN => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1414,6 +1462,7 @@
                 "end": 1731,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1425,6 +1474,7 @@
             "end": 1736,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1432,7 +1482,9 @@
             "start": 1738,
             "end": 1782,
             "value": "ToIndex: toString => undefined => NaN => 0",
-            "raw": "\"ToIndex: toString => undefined => NaN => 0\""
+            "raw": "\"ToIndex: toString => undefined => NaN => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1544,7 +1596,9 @@
                               "start": 1867,
                               "end": 1871,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1560,6 +1614,7 @@
                 "end": 1882,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1571,6 +1626,7 @@
             "end": 1887,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1578,7 +1634,9 @@
             "start": 1889,
             "end": 1926,
             "value": "ToIndex: @@toPrimitive => null => 0",
-            "raw": "\"ToIndex: @@toPrimitive => null => 0\""
+            "raw": "\"ToIndex: @@toPrimitive => null => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1677,7 +1735,9 @@
                               "start": 1998,
                               "end": 2002,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1693,6 +1753,7 @@
                 "end": 2013,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1704,6 +1765,7 @@
             "end": 2018,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1711,7 +1773,9 @@
             "start": 2020,
             "end": 2051,
             "value": "ToIndex: valueOf => null => 0",
-            "raw": "\"ToIndex: valueOf => null => 0\""
+            "raw": "\"ToIndex: valueOf => null => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1810,7 +1874,9 @@
                               "start": 2124,
                               "end": 2128,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1826,6 +1892,7 @@
                 "end": 2139,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1837,6 +1904,7 @@
             "end": 2144,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1844,7 +1912,9 @@
             "start": 2146,
             "end": 2178,
             "value": "ToIndex: toString => null => 0",
-            "raw": "\"ToIndex: toString => null => 0\""
+            "raw": "\"ToIndex: toString => null => 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1918,7 +1988,9 @@
                     "start": 2220,
                     "end": 2224,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1929,6 +2001,7 @@
                 "end": 2229,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1940,6 +2013,7 @@
             "end": 2234,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -1947,7 +2021,9 @@
             "start": 2238,
             "end": 2293,
             "value": "ToIndex: unbox object with internal slot => true => 1",
-            "raw": "\"ToIndex: unbox object with internal slot => true => 1\""
+            "raw": "\"ToIndex: unbox object with internal slot => true => 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2059,7 +2135,9 @@
                               "start": 2378,
                               "end": 2382,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2075,6 +2153,7 @@
                 "end": 2393,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -2086,6 +2165,7 @@
             "end": 2398,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -2093,7 +2173,9 @@
             "start": 2400,
             "end": 2437,
             "value": "ToIndex: @@toPrimitive => true => 1",
-            "raw": "\"ToIndex: @@toPrimitive => true => 1\""
+            "raw": "\"ToIndex: @@toPrimitive => true => 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2192,7 +2274,9 @@
                               "start": 2509,
                               "end": 2513,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2208,6 +2292,7 @@
                 "end": 2524,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -2219,6 +2304,7 @@
             "end": 2529,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -2226,7 +2312,9 @@
             "start": 2531,
             "end": 2562,
             "value": "ToIndex: valueOf => true => 1",
-            "raw": "\"ToIndex: valueOf => true => 1\""
+            "raw": "\"ToIndex: valueOf => true => 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2325,7 +2413,9 @@
                               "start": 2635,
                               "end": 2639,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2341,6 +2431,7 @@
                 "end": 2650,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -2352,6 +2443,7 @@
             "end": 2655,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -2359,7 +2451,9 @@
             "start": 2657,
             "end": 2689,
             "value": "ToIndex: toString => true => 1",
-            "raw": "\"ToIndex: toString => true => 1\""
+            "raw": "\"ToIndex: toString => true => 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2433,7 +2527,9 @@
                     "start": 2731,
                     "end": 2734,
                     "value": "1",
-                    "raw": "\"1\""
+                    "raw": "\"1\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2444,6 +2540,7 @@
                 "end": 2739,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -2455,6 +2552,7 @@
             "end": 2744,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -2462,7 +2560,9 @@
             "start": 2748,
             "end": 2806,
             "value": "ToIndex: unbox object with internal slot => parse Number",
-            "raw": "\"ToIndex: unbox object with internal slot => parse Number\""
+            "raw": "\"ToIndex: unbox object with internal slot => parse Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2574,7 +2674,9 @@
                               "start": 2891,
                               "end": 2894,
                               "value": "1",
-                              "raw": "\"1\""
+                              "raw": "\"1\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2590,6 +2692,7 @@
                 "end": 2905,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -2601,6 +2704,7 @@
             "end": 2910,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -2608,7 +2712,9 @@
             "start": 2912,
             "end": 2952,
             "value": "ToIndex: @@toPrimitive => parse Number",
-            "raw": "\"ToIndex: @@toPrimitive => parse Number\""
+            "raw": "\"ToIndex: @@toPrimitive => parse Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2707,7 +2813,9 @@
                               "start": 3024,
                               "end": 3027,
                               "value": "1",
-                              "raw": "\"1\""
+                              "raw": "\"1\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2723,6 +2831,7 @@
                 "end": 3038,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -2734,6 +2843,7 @@
             "end": 3043,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -2741,7 +2851,9 @@
             "start": 3045,
             "end": 3079,
             "value": "ToIndex: valueOf => parse Number",
-            "raw": "\"ToIndex: valueOf => parse Number\""
+            "raw": "\"ToIndex: valueOf => parse Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2840,7 +2952,9 @@
                               "start": 3152,
                               "end": 3155,
                               "value": "1",
-                              "raw": "\"1\""
+                              "raw": "\"1\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2856,6 +2970,7 @@
                 "end": 3166,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -2867,6 +2982,7 @@
             "end": 3171,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -2874,7 +2990,9 @@
             "start": 3173,
             "end": 3208,
             "value": "ToIndex: toString => parse Number",
-            "raw": "\"ToIndex: toString => parse Number\""
+            "raw": "\"ToIndex: toString => parse Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

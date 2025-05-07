@@ -23,7 +23,9 @@
             "start": 790,
             "end": 791,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -109,7 +111,9 @@
                             "start": 871,
                             "end": 900,
                             "value": "target should not be called",
-                            "raw": "'target should not be called'"
+                            "raw": "'target should not be called'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -188,7 +192,9 @@
                                 "start": 971,
                                 "end": 972,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -256,7 +262,9 @@
                                         "start": 1031,
                                         "end": 1032,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "computed": true,
                                       "optional": false
@@ -277,7 +285,9 @@
                                         "start": 1041,
                                         "end": 1042,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "computed": true,
                                       "optional": false
@@ -356,7 +366,9 @@
                       "start": 1100,
                       "end": 1104,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -458,14 +470,18 @@
                     "start": 1173,
                     "end": 1174,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1176,
                     "end": 1177,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -521,14 +537,18 @@
             "start": 1217,
             "end": 1218,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1220,
             "end": 1270,
             "value": "construct is null: [[Construct]] is invoked once",
-            "raw": "\"construct is null: [[Construct]] is invoked once\""
+            "raw": "\"construct is null: [[Construct]] is invoked once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -579,7 +599,9 @@
             "start": 1313,
             "end": 1370,
             "value": "construct is null: NewTarget is passed to [[Construct]]",
-            "raw": "\"construct is null: NewTarget is passed to [[Construct]]\""
+            "raw": "\"construct is null: NewTarget is passed to [[Construct]]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -637,14 +659,18 @@
             "start": 1399,
             "end": 1400,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1402,
             "end": 1458,
             "value": "construct is null: result of [[Construct]] is returned",
-            "raw": "\"construct is null: result of [[Construct]] is returned\""
+            "raw": "\"construct is null: result of [[Construct]] is returned\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

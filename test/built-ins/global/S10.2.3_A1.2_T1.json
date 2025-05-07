@@ -42,7 +42,9 @@
                 "start": 383,
                 "end": 387,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -70,7 +72,9 @@
                         "start": 418,
                         "end": 436,
                         "value": "#1: NaN === null",
-                        "raw": "\"#1: NaN === null\""
+                        "raw": "\"#1: NaN === null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -99,7 +103,9 @@
                 "start": 475,
                 "end": 479,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -127,7 +133,9 @@
                         "start": 510,
                         "end": 533,
                         "value": "#2: Infinity === null",
-                        "raw": "\"#2: Infinity === null\""
+                        "raw": "\"#2: Infinity === null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -156,7 +164,9 @@
                 "start": 573,
                 "end": 577,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -184,7 +194,9 @@
                         "start": 608,
                         "end": 632,
                         "value": "#3: undefined === null",
-                        "raw": "\"#3: undefined === null\""
+                        "raw": "\"#3: undefined === null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

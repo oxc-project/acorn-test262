@@ -47,42 +47,54 @@
                 "start": 339,
                 "end": 341,
                 "value": 15,
-                "raw": "15"
+                "raw": "15",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 345,
                 "value": 30,
-                "raw": "30"
+                "raw": "30",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 347,
                 "end": 349,
                 "value": 45,
-                "raw": "45"
+                "raw": "45",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 354,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 359,
                 "value": 654,
-                "raw": "654"
+                "raw": "654",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 364,
                 "value": 321,
-                "raw": "321"
+                "raw": "321",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -172,7 +184,9 @@
             "start": 424,
             "end": 468,
             "value": "Throws TypeError if no property is present",
-            "raw": "\"Throws TypeError if no property is present\""
+            "raw": "\"Throws TypeError if no property is present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -268,7 +282,9 @@
                         "start": 534,
                         "end": 538,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -283,7 +299,9 @@
             "start": 545,
             "end": 600,
             "value": "Throws TypeError if no recognized property is present",
-            "raw": "\"Throws TypeError if no recognized property is present\""
+            "raw": "\"Throws TypeError if no recognized property is present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -379,7 +397,9 @@
                         "start": 662,
                         "end": 663,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -394,7 +414,9 @@
             "start": 670,
             "end": 703,
             "value": "Sign property is not recognized",
-            "raw": "\"Sign property is not recognized\""
+            "raw": "\"Sign property is not recognized\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

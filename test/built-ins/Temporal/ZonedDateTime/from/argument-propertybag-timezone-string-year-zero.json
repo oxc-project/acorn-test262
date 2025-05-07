@@ -28,14 +28,18 @@
                 "start": 304,
                 "end": 326,
                 "value": "-000000-10-31T17:45Z",
-                "raw": "\"-000000-10-31T17:45Z\""
+                "raw": "\"-000000-10-31T17:45Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 362,
                 "value": "-000000-10-31T17:45+00:00[UTC]",
-                "raw": "\"-000000-10-31T17:45+00:00[UTC]\""
+                "raw": "\"-000000-10-31T17:45+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -195,7 +199,9 @@
                                     "start": 485,
                                     "end": 489,
                                     "value": 2000,
-                                    "raw": "2000"
+                                    "raw": "2000",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -217,7 +223,9 @@
                                     "start": 498,
                                     "end": 499,
                                     "value": 5,
-                                    "raw": "5"
+                                    "raw": "5",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -239,7 +247,9 @@
                                     "start": 506,
                                     "end": 507,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -275,7 +285,9 @@
                         "start": 526,
                         "end": 562,
                         "value": "reject minus zero as extended year",
-                        "raw": "\"reject minus zero as extended year\""
+                        "raw": "\"reject minus zero as extended year\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

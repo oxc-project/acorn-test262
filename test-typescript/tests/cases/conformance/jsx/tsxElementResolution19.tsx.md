@@ -23,7 +23,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -144,7 +146,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 63,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -174,7 +178,9 @@ __ESTREE_TEST__:PASS:
         "start": 87,
         "end": 96,
         "raw": "'./file1'",
-        "value": "./file1"
+        "value": "./file1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

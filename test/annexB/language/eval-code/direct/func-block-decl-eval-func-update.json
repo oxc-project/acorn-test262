@@ -69,7 +69,9 @@
                         "start": 1092,
                         "end": 1146,
                         "value": "{ function f() { return \"declaration\"; } }after = f;",
-                        "raw": "'{ function f() { return \"declaration\"; } }after = f;'"
+                        "raw": "'{ function f() { return \"declaration\"; } }after = f;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -129,7 +131,9 @@
             "start": 1190,
             "end": 1200,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +185,9 @@
             "start": 1229,
             "end": 1242,
             "value": "declaration",
-            "raw": "'declaration'"
+            "raw": "'declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

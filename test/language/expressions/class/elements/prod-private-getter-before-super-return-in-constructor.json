@@ -208,7 +208,9 @@
                       "start": 1398,
                       "end": 1400,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -275,7 +277,9 @@
                 "start": 1441,
                 "end": 1444,
                 "value": "f",
-                "raw": "'f'"
+                "raw": "'f'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -371,7 +375,9 @@
             "start": 1510,
             "end": 1566,
             "value": "private getters are not installed before super returns",
-            "raw": "'private getters are not installed before super returns'"
+            "raw": "'private getters are not installed before super returns'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

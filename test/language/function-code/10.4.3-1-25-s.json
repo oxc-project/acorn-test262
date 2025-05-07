@@ -104,7 +104,9 @@
             "start": 402,
             "end": 407,
             "value": "obj",
-            "raw": "'obj'"
+            "raw": "'obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,14 +163,18 @@
             "start": 444,
             "end": 455,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 471,
             "value": "(typeof obj)",
-            "raw": "'(typeof obj)'"
+            "raw": "'(typeof obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

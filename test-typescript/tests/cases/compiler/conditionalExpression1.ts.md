@@ -42,21 +42,27 @@ __ESTREE_TEST__:PASS:
               "start": 29,
               "end": 31,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 25,
               "end": 26,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "Literal",
               "start": 18,
               "end": 22,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         }

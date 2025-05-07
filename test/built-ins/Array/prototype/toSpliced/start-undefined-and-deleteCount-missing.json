@@ -36,21 +36,27 @@
                     "start": 707,
                     "end": 714,
                     "value": "first",
-                    "raw": "\"first\""
+                    "raw": "\"first\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 716,
                     "end": 724,
                     "value": "second",
-                    "raw": "\"second\""
+                    "raw": "\"second\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 726,
                     "end": 733,
                     "value": "third",
-                    "raw": "\"third\""
+                    "raw": "\"third\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },

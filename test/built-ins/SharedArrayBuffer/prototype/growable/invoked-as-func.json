@@ -70,7 +70,9 @@
                   "start": 551,
                   "end": 561,
                   "value": "growable",
-                  "raw": "'growable'"
+                  "raw": "'growable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -134,7 +136,9 @@
             "start": 602,
             "end": 612,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

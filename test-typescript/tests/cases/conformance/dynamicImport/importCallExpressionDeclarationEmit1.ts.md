@@ -334,7 +334,9 @@ __ESTREE_TEST__:PASS:
                 "start": 296,
                 "end": 308,
                 "raw": "\"defaulPath\"",
-                "value": "defaulPath"
+                "value": "defaulPath",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "CallExpression",

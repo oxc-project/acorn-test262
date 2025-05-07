@@ -201,28 +201,36 @@
                 "start": 515,
                 "end": 519,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 521,
                 "end": 522,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 524,
                 "end": 527,
                 "value": "5",
-                "raw": "\"5\""
+                "raw": "\"5\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 534,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -265,7 +273,9 @@
                               "start": 567,
                               "end": 568,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -568,7 +578,9 @@
                                             "start": 805,
                                             "end": 822,
                                             "value": "Date.prototype.",
-                                            "raw": "\"Date.prototype.\""
+                                            "raw": "\"Date.prototype.\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -584,7 +596,9 @@
                                           "start": 829,
                                           "end": 854,
                                           "value": " did not reject this = ",
-                                          "raw": "\" did not reject this = \""
+                                          "raw": "\" did not reject this = \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -601,7 +615,9 @@
                                       "start": 865,
                                       "end": 868,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

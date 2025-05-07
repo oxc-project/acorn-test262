@@ -28,28 +28,36 @@
                 "start": 657,
                 "end": 662,
                 "value": "1.0",
-                "raw": "\"1.0\""
+                "raw": "\"1.0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 666,
                 "end": 670,
                 "value": "+1",
-                "raw": "\"+1\""
+                "raw": "\"+1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 674,
                 "end": 698,
                 "value": "1000000000000000000000",
-                "raw": "\"1000000000000000000000\""
+                "raw": "\"1000000000000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 702,
                 "end": 713,
                 "value": "0.0000001",
-                "raw": "\"0.0000001\""
+                "raw": "\"0.0000001\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -178,7 +186,9 @@
                                             "start": 820,
                                             "end": 822,
                                             "value": 42,
-                                            "raw": "42"
+                                            "raw": "42",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }
@@ -257,7 +267,9 @@
                                         "start": 880,
                                         "end": 889,
                                         "value": "ecma262",
-                                        "raw": "\"ecma262\""
+                                        "raw": "\"ecma262\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -267,14 +279,18 @@
                                     "start": 898,
                                     "end": 902,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 910,
                                     "end": 964,
                                     "value": "Reflect.set(sample, key, \"ecma262\") must return true",
-                                    "raw": "'Reflect.set(sample, key, \"ecma262\") must return true'"
+                                    "raw": "'Reflect.set(sample, key, \"ecma262\") must return true'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -332,14 +348,18 @@
                                     "start": 1006,
                                     "end": 1015,
                                     "value": "ecma262",
-                                    "raw": "\"ecma262\""
+                                    "raw": "\"ecma262\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1017,
                                     "end": 1056,
                                     "value": "The value of sample[key] is \"ecma262\"",
-                                    "raw": "'The value of sample[key] is \"ecma262\"'"
+                                    "raw": "'The value of sample[key] is \"ecma262\"'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -414,7 +434,9 @@
                                         "start": 1113,
                                         "end": 1121,
                                         "value": "es3000",
-                                        "raw": "\"es3000\""
+                                        "raw": "\"es3000\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -424,14 +446,18 @@
                                     "start": 1130,
                                     "end": 1134,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1142,
                                     "end": 1195,
                                     "value": "Reflect.set(sample, key, \"es3000\") must return true",
-                                    "raw": "'Reflect.set(sample, key, \"es3000\") must return true'"
+                                    "raw": "'Reflect.set(sample, key, \"es3000\") must return true'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -489,14 +515,18 @@
                                     "start": 1237,
                                     "end": 1245,
                                     "value": "es3000",
-                                    "raw": "\"es3000\""
+                                    "raw": "\"es3000\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1247,
                                     "end": 1285,
                                     "value": "The value of sample[key] is \"es3000\"",
-                                    "raw": "'The value of sample[key] is \"es3000\"'"
+                                    "raw": "'The value of sample[key] is \"es3000\"'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -565,7 +595,9 @@
                                           "start": 1346,
                                           "end": 1351,
                                           "value": false,
-                                          "raw": "false"
+                                          "raw": "false",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "kind": "init"
                                       },
@@ -665,7 +697,9 @@
                                         "start": 1437,
                                         "end": 1439,
                                         "value": 42,
-                                        "raw": "42"
+                                        "raw": "42",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -675,14 +709,18 @@
                                     "start": 1448,
                                     "end": 1453,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1461,
                                     "end": 1509,
                                     "value": "Reflect.set(sample, key, 42) must return false",
-                                    "raw": "'Reflect.set(sample, key, 42) must return false'"
+                                    "raw": "'Reflect.set(sample, key, 42) must return false'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -746,7 +784,9 @@
                                     "start": 1569,
                                     "end": 1628,
                                     "value": "The value of sample[key] is expected to equal `undefined`",
-                                    "raw": "'The value of sample[key] is expected to equal `undefined`'"
+                                    "raw": "'The value of sample[key] is expected to equal `undefined`'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

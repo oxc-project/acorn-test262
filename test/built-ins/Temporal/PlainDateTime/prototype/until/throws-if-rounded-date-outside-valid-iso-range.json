@@ -47,21 +47,27 @@
                 "start": 1792,
                 "end": 1796,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1798,
                 "end": 1799,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1801,
                 "end": 1802,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,21 +119,27 @@
                 "start": 1841,
                 "end": 1845,
                 "value": 1971,
-                "raw": "1971"
+                "raw": "1971",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1847,
                 "end": 1848,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1850,
                 "end": 1851,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -173,7 +185,9 @@
                   "start": 1888,
                   "end": 1899,
                   "value": 100000000,
-                  "raw": "100_000_000"
+                  "raw": "100_000_000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -195,7 +209,9 @@
                   "start": 1915,
                   "end": 1923,
                   "value": "months",
-                  "raw": "\"months\""
+                  "raw": "\"months\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -237,7 +237,9 @@
                                         "start": 494,
                                         "end": 495,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -295,14 +297,18 @@
                                         "start": 535,
                                         "end": 536,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 538,
                                         "end": 568,
                                         "value": "onFinally receives zero args",
-                                        "raw": "'onFinally receives zero args'"
+                                        "raw": "'onFinally receives zero args'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -369,7 +375,9 @@
                                     "start": 639,
                                     "end": 704,
                                     "value": "promise is rejected pre-finally; onFulfill should not be called",
-                                    "raw": "'promise is rejected pre-finally; onFulfill should not be called'"
+                                    "raw": "'promise is rejected pre-finally; onFulfill should not be called'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -444,7 +452,9 @@
                                 "start": 751,
                                 "end": 752,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -495,7 +505,9 @@
                                 "start": 792,
                                 "end": 853,
                                 "value": "onFinally can not override the rejection value by returning",
-                                "raw": "'onFinally can not override the rejection value by returning'"
+                                "raw": "'onFinally can not override the rejection value by returning'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -583,7 +595,9 @@
                             "start": 913,
                             "end": 914,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -615,7 +629,9 @@
                             "start": 943,
                             "end": 991,
                             "value": "All expected callbacks called in correct order",
-                            "raw": "\"All expected callbacks called in correct order\""
+                            "raw": "\"All expected callbacks called in correct order\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -28,14 +28,18 @@
                 "start": 347,
                 "end": 369,
                 "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "raw": "\"2019-10-01T09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 400,
                 "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,14 +91,18 @@
                 "start": 450,
                 "end": 454,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 457,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -233,7 +241,9 @@
                         "start": 563,
                         "end": 631,
                         "value": "String with UTC designator should not be valid as a PlainYearMonth",
-                        "raw": "\"String with UTC designator should not be valid as a PlainYearMonth\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainYearMonth\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

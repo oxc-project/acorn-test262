@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
                     "flags": "",
                     "pattern": "^[A-Za-z]+$"
                   },
-                  "value": null
+                  "value": null,
+                  "bigint": null
                 }
               }
             ],

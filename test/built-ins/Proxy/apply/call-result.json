@@ -88,7 +88,9 @@
                             "start": 513,
                             "end": 542,
                             "value": "target should not be called",
-                            "raw": "'target should not be called'"
+                            "raw": "'target should not be called'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

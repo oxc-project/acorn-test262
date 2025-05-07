@@ -30,7 +30,9 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 37,
                 "raw": "\"artist\"",
-                "value": "artist"
+                "value": "artist",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,

@@ -70,7 +70,9 @@
                             "start": 1140,
                             "end": 1141,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -98,7 +100,9 @@
                         "start": 1159,
                         "end": 1160,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -184,7 +188,9 @@
                                     "start": 1228,
                                     "end": 1233,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -236,14 +242,18 @@
                         "start": 1269,
                         "end": 1270,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1272,
                         "end": 1306,
                         "value": "predicate was called three times",
-                        "raw": "\"predicate was called three times\""
+                        "raw": "\"predicate was called three times\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -355,7 +365,9 @@
                                   "start": 1392,
                                   "end": 1394,
                                   "value": "",
-                                  "raw": "\"\""
+                                  "raw": "\"\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -411,7 +423,9 @@
                         "start": 1438,
                         "end": 1463,
                         "value": "ToBoolean(empty string)",
-                        "raw": "\"ToBoolean(empty string)\""
+                        "raw": "\"ToBoolean(empty string)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -534,7 +548,9 @@
                         "start": 1563,
                         "end": 1585,
                         "value": "ToBoolean(undefined)",
-                        "raw": "\"ToBoolean(undefined)\""
+                        "raw": "\"ToBoolean(undefined)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -602,7 +618,9 @@
                                   "start": 1632,
                                   "end": 1636,
                                   "value": null,
-                                  "raw": "null"
+                                  "raw": "null",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -658,7 +676,9 @@
                         "start": 1680,
                         "end": 1697,
                         "value": "ToBoolean(null)",
-                        "raw": "\"ToBoolean(null)\""
+                        "raw": "\"ToBoolean(null)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -726,7 +746,9 @@
                                   "start": 1744,
                                   "end": 1745,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -782,7 +804,9 @@
                         "start": 1789,
                         "end": 1803,
                         "value": "ToBoolean(0)",
-                        "raw": "\"ToBoolean(0)\""
+                        "raw": "\"ToBoolean(0)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -856,7 +880,9 @@
                                     "start": 1851,
                                     "end": 1852,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -913,7 +939,9 @@
                         "start": 1896,
                         "end": 1911,
                         "value": "ToBoolean(-0)",
-                        "raw": "\"ToBoolean(-0)\""
+                        "raw": "\"ToBoolean(-0)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1036,7 +1064,9 @@
                         "start": 2005,
                         "end": 2021,
                         "value": "ToBoolean(NaN)",
-                        "raw": "\"ToBoolean(NaN)\""
+                        "raw": "\"ToBoolean(NaN)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

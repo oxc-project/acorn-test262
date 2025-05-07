@@ -23,7 +23,9 @@
             "start": 301,
             "end": 307,
             "value": "SD咕噜",
-            "raw": "\"SD咕噜\""
+            "raw": "\"SD咕噜\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -94,7 +96,9 @@
             "start": 344,
             "end": 356,
             "value": "str.trim()",
-            "raw": "'str.trim()'"
+            "raw": "'str.trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

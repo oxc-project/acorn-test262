@@ -76,6 +76,7 @@
                                 "end": 849,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 854,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ]
@@ -157,7 +159,9 @@
                             "start": 909,
                             "end": 912,
                             "value": "0",
-                            "raw": "'0'"
+                            "raw": "'0'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -183,6 +187,7 @@
                                   "end": 929,
                                   "value": null,
                                   "raw": "8n",
+                                  "regex": null,
                                   "bigint": "8"
                                 },
                                 "kind": "init"
@@ -205,7 +210,9 @@
                                   "start": 949,
                                   "end": 953,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -227,7 +234,9 @@
                                   "start": 971,
                                   "end": 975,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -249,7 +258,9 @@
                                   "start": 991,
                                   "end": 995,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -263,14 +274,18 @@
                         "start": 1002,
                         "end": 1006,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1008,
                         "end": 1129,
                         "value": "Reflect.defineProperty(sample, \"0\", {value: 8n, configurable: true, enumerable: true, writable: true}) must return true",
-                        "raw": "'Reflect.defineProperty(sample, \"0\", {value: 8n, configurable: true, enumerable: true, writable: true}) must return true'"
+                        "raw": "'Reflect.defineProperty(sample, \"0\", {value: 8n, configurable: true, enumerable: true, writable: true}) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -319,7 +334,9 @@
                           "start": 1159,
                           "end": 1160,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -330,6 +347,7 @@
                         "end": 1165,
                         "value": null,
                         "raw": "8n",
+                        "regex": null,
                         "bigint": "8"
                       },
                       {
@@ -337,7 +355,9 @@
                         "start": 1167,
                         "end": 1197,
                         "value": "The value of sample[0] is 8n",
-                        "raw": "'The value of sample[0] is 8n'"
+                        "raw": "'The value of sample[0] is 8n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -393,7 +413,9 @@
                             "start": 1253,
                             "end": 1256,
                             "value": "0",
-                            "raw": "'0'"
+                            "raw": "'0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -455,6 +477,7 @@
                         "end": 1292,
                         "value": null,
                         "raw": "8n",
+                        "regex": null,
                         "bigint": "8"
                       },
                       {
@@ -462,7 +485,9 @@
                         "start": 1294,
                         "end": 1325,
                         "value": "The value of desc.value is 8n",
-                        "raw": "'The value of desc.value is 8n'"
+                        "raw": "'The value of desc.value is 8n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -520,14 +545,18 @@
                         "start": 1366,
                         "end": 1370,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1372,
                         "end": 1412,
                         "value": "The value of desc.configurable is true",
-                        "raw": "'The value of desc.configurable is true'"
+                        "raw": "'The value of desc.configurable is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -585,14 +614,18 @@
                         "start": 1451,
                         "end": 1455,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1457,
                         "end": 1495,
                         "value": "The value of desc.enumerable is true",
-                        "raw": "'The value of desc.enumerable is true'"
+                        "raw": "'The value of desc.enumerable is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -650,14 +683,18 @@
                         "start": 1532,
                         "end": 1536,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1538,
                         "end": 1574,
                         "value": "The value of desc.writable is true",
-                        "raw": "'The value of desc.writable is true'"
+                        "raw": "'The value of desc.writable is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

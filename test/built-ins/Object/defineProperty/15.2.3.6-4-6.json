@@ -286,7 +286,9 @@
                   "start": 861,
                   "end": 865,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -308,7 +310,9 @@
                   "start": 883,
                   "end": 887,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -357,7 +361,9 @@
             "start": 917,
             "end": 922,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -419,7 +425,9 @@
                 "start": 1112,
                 "end": 1117,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -467,7 +475,9 @@
             "start": 1253,
             "end": 1258,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -529,7 +539,9 @@
                 "start": 1312,
                 "end": 1317,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -597,14 +609,18 @@
             "start": 1376,
             "end": 1380,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1382,
             "end": 1420,
             "value": "sameAccessorDescriptorValues(d1, d2)",
-            "raw": "'sameAccessorDescriptorValues(d1, d2)'"
+            "raw": "'sameAccessorDescriptorValues(d1, d2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

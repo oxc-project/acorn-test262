@@ -47,7 +47,9 @@
                         "start": 342,
                         "end": 353,
                         "value": "this.p1=1",
-                        "raw": "\"this.p1=1\""
+                        "raw": "\"this.p1=1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -116,7 +118,9 @@
                   "start": 414,
                   "end": 483,
                   "value": "#1: Function.prototype.apply can't be used as [[Construct]] caller",
-                  "raw": "'#1: Function.prototype.apply can\\'t be used as [[Construct]] caller'"
+                  "raw": "'#1: Function.prototype.apply can\\'t be used as [[Construct]] caller'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -176,7 +180,9 @@
                     "start": 533,
                     "end": 607,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

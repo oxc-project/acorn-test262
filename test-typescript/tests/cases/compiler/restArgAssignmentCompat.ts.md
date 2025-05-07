@@ -54,7 +54,9 @@ __ESTREE_TEST__:PASS:
                             "start": 59,
                             "end": 66,
                             "raw": "'item '",
-                            "value": "item "
+                            "value": "item ",
+                            "regex": null,
+                            "bigint": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -71,7 +73,9 @@ __ESTREE_TEST__:PASS:
                           "start": 73,
                           "end": 78,
                           "raw": "' = '",
-                          "value": " = "
+                          "value": " = ",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {
@@ -346,7 +350,9 @@ __ESTREE_TEST__:PASS:
                 "start": 149,
                 "end": 150,
                 "raw": "4",
-                "value": 4
+                "value": 4,
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -355,7 +361,9 @@ __ESTREE_TEST__:PASS:
             "start": 153,
             "end": 158,
             "raw": "'foo'",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

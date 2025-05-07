@@ -25,14 +25,18 @@
                 "start": 599,
                 "end": 609,
                 "value": "toString",
-                "raw": "\"toString\""
+                "raw": "\"toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 620,
                 "value": "valueOf",
-                "raw": "\"valueOf\""
+                "raw": "\"valueOf\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -169,7 +173,9 @@
                                             "start": 752,
                                             "end": 785,
                                             "value": " lookup should not be performed",
-                                            "raw": "\" lookup should not be performed\""
+                                            "raw": "\" lookup should not be performed\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -330,7 +336,9 @@
                         "start": 926,
                         "end": 935,
                         "value": "default",
-                        "raw": "\"default\""
+                        "raw": "\"default\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

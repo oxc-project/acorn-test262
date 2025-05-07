@@ -69,14 +69,18 @@
             "start": 775,
             "end": 780,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 847,
             "value": "isConstructor(Object.getOwnPropertySymbols) must return false",
-            "raw": "'isConstructor(Object.getOwnPropertySymbols) must return false'"
+            "raw": "'isConstructor(Object.getOwnPropertySymbols) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

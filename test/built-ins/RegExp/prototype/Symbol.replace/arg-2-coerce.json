@@ -70,7 +70,9 @@
                               "start": 557,
                               "end": 593,
                               "value": "This method should not be invoked.",
-                              "raw": "'This method should not be invoked.'"
+                              "raw": "'This method should not be invoked.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -116,7 +118,9 @@
                           "start": 637,
                           "end": 653,
                           "value": "toString value",
-                          "raw": "'toString value'"
+                          "raw": "'toString value'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -175,7 +179,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -205,7 +210,9 @@
                 "start": 700,
                 "end": 708,
                 "value": "string",
-                "raw": "'string'"
+                "raw": "'string'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -221,7 +228,9 @@
             "start": 716,
             "end": 737,
             "value": "toString valuetring",
-            "raw": "'toString valuetring'"
+            "raw": "'toString valuetring'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

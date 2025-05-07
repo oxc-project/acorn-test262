@@ -34,7 +34,9 @@
                 "start": 652,
                 "end": 667,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 687,
                 "end": 702,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -307,14 +311,18 @@
             "start": 813,
             "end": 817,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 819,
             "end": 852,
             "value": "Returns true for regular symbol",
-            "raw": "'Returns true for regular symbol'"
+            "raw": "'Returns true for regular symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -380,7 +388,9 @@
             "start": 875,
             "end": 911,
             "value": "Regular symbol is removed from set",
-            "raw": "'Regular symbol is removed from set'"
+            "raw": "'Regular symbol is removed from set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -439,7 +449,9 @@
             "start": 933,
             "end": 998,
             "value": "Symbols with the same description are not aliased to each other",
-            "raw": "'Symbols with the same description are not aliased to each other'"
+            "raw": "'Symbols with the same description are not aliased to each other'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -524,14 +536,18 @@
             "start": 1049,
             "end": 1053,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1055,
             "end": 1091,
             "value": "Returns true for well-known symbol",
-            "raw": "'Returns true for well-known symbol'"
+            "raw": "'Returns true for well-known symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -610,7 +626,9 @@
             "start": 1129,
             "end": 1168,
             "value": "Well-known symbol is removed from set",
-            "raw": "'Well-known symbol is removed from set'"
+            "raw": "'Well-known symbol is removed from set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

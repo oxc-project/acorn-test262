@@ -86,7 +86,9 @@
                 "start": 289,
                 "end": 293,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -115,7 +117,9 @@
                   "start": 306,
                   "end": 307,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -132,7 +136,9 @@
               "start": 313,
               "end": 314,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -140,7 +146,9 @@
             "start": 318,
             "end": 382,
             "value": "Array.prototype.reduce.call(true, () => {}, -1) must return -1",
-            "raw": "'Array.prototype.reduce.call(true, () => {}, -1) must return -1'"
+            "raw": "'Array.prototype.reduce.call(true, () => {}, -1) must return -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +237,9 @@
                 "start": 434,
                 "end": 439,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -258,7 +268,9 @@
                   "start": 452,
                   "end": 453,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -275,7 +287,9 @@
               "start": 459,
               "end": 460,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -283,7 +297,9 @@
             "start": 464,
             "end": 529,
             "value": "Array.prototype.reduce.call(false, () => {}, -1) must return -1",
-            "raw": "'Array.prototype.reduce.call(false, () => {}, -1) must return -1'"
+            "raw": "'Array.prototype.reduce.call(false, () => {}, -1) must return -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,14 +35,18 @@
                   "start": 256,
                   "end": 267,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 269,
                   "end": 270,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -160,7 +164,9 @@
                 "start": 385,
                 "end": 396,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -221,14 +227,18 @@
             "start": 430,
             "end": 431,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 446,
             "value": "desc1.value",
-            "raw": "'desc1.value'"
+            "raw": "'desc1.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -286,14 +296,18 @@
             "start": 479,
             "end": 480,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 495,
             "value": "desc2.value",
-            "raw": "'desc2.value'"
+            "raw": "'desc2.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 722,
                 "end": 729,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -86,7 +88,9 @@
                 "start": 762,
                 "end": 765,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -153,7 +157,9 @@
             "start": 821,
             "end": 895,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,14 +217,18 @@
             "start": 933,
             "end": 934,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 936,
             "end": 970,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +277,9 @@
               "start": 998,
               "end": 999,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -277,14 +289,18 @@
             "start": 1002,
             "end": 1009,
             "value": "hello",
-            "raw": "\"hello\""
+            "raw": "\"hello\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1047,
             "value": "The value of __split[0] is \"hello\"",
-            "raw": "'The value of __split[0] is \"hello\"'"
+            "raw": "'The value of __split[0] is \"hello\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

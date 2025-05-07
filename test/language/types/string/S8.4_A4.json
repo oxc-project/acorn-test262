@@ -23,7 +23,9 @@
             "start": 285,
             "end": 287,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -62,7 +64,9 @@
           "start": 399,
           "end": 400,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -94,7 +98,9 @@
                     "start": 429,
                     "end": 479,
                     "value": "#1: var __str = \"\"; __str.length === 0. Actual: ",
-                    "raw": "'#1: var __str = \"\"; __str.length === 0. Actual: '"
+                    "raw": "'#1: var __str = \"\"; __str.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

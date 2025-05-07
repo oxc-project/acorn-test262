@@ -234,7 +234,9 @@ __ESTREE_TEST__:PASS:
           "start": 121,
           "end": 135,
           "raw": "'this is fine'",
-          "value": "this is fine"
+          "value": "this is fine",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -361,7 +363,9 @@ __ESTREE_TEST__:PASS:
           "start": 195,
           "end": 206,
           "raw": "\"that's ok\"",
-          "value": "that's ok"
+          "value": "that's ok",
+          "regex": null,
+          "bigint": null
         }
       }
     }

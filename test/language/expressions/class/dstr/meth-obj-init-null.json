@@ -185,7 +185,9 @@
                         "start": 2316,
                         "end": 2320,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

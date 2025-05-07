@@ -23,7 +23,9 @@
             "start": 379,
             "end": 415,
             "value": " (function(){this.feat=1}).apply()",
-            "raw": "\" (function(){this.feat=1}).apply()\""
+            "raw": "\" (function(){this.feat=1}).apply()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -71,7 +73,9 @@
               "start": 441,
               "end": 447,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -81,14 +85,18 @@
             "start": 450,
             "end": 451,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 500,
             "value": "The value of this[\"feat\"] is expected to be 1",
-            "raw": "'The value of this[\"feat\"] is expected to be 1'"
+            "raw": "'The value of this[\"feat\"] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

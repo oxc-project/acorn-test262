@@ -12,7 +12,9 @@
         "start": 1041,
         "end": 1045,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -27,7 +29,9 @@
             "start": 1054,
             "end": 1056,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           "options": null
         }

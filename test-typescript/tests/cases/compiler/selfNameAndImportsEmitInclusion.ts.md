@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 26,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 26,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -120,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 38,
         "raw": "\"#indirect1\"",
-        "value": "#indirect1"
+        "value": "#indirect1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -160,7 +166,9 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 84,
         "raw": "\"pkg/indirect2.js\"",
-        "value": "pkg/indirect2.js"
+        "value": "pkg/indirect2.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

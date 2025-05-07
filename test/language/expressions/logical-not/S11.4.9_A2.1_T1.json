@@ -22,7 +22,9 @@
             "start": 286,
             "end": 290,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -31,7 +33,9 @@
           "start": 295,
           "end": 300,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -59,7 +63,9 @@
                   "start": 329,
                   "end": 350,
                   "value": "#1: !true === false",
-                  "raw": "'#1: !true === false'"
+                  "raw": "'#1: !true === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -97,7 +103,9 @@
                 "start": 373,
                 "end": 377,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -108,7 +116,9 @@
           "start": 383,
           "end": 387,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -136,7 +146,9 @@
                   "start": 416,
                   "end": 439,
                   "value": "#2: !(!true) === true",
-                  "raw": "'#2: !(!true) === true'"
+                  "raw": "'#2: !(!true) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -165,7 +177,9 @@
             "start": 463,
             "end": 467,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -198,7 +212,9 @@
           "start": 480,
           "end": 485,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -226,7 +242,9 @@
                   "start": 514,
                   "end": 546,
                   "value": "#3: var x = true; !x === false",
-                  "raw": "'#3: var x = true; !x === false'"
+                  "raw": "'#3: var x = true; !x === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -255,7 +273,9 @@
             "start": 570,
             "end": 574,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -300,7 +320,9 @@
           "start": 590,
           "end": 594,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -328,7 +350,9 @@
                   "start": 623,
                   "end": 657,
                   "value": "#4: var x = true; !(!x) === true",
-                  "raw": "'#4: var x = true; !(!x) === true'"
+                  "raw": "'#4: var x = true; !(!x) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -401,7 +425,9 @@
           "start": 714,
           "end": 718,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -445,7 +471,9 @@
           "start": 741,
           "end": 746,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -473,7 +501,9 @@
                   "start": 775,
                   "end": 850,
                   "value": "#5: var object = new Object(); object.prop = true; !object.prop === false",
-                  "raw": "'#5: var object = new Object(); object.prop = true; !object.prop === false'"
+                  "raw": "'#5: var object = new Object(); object.prop = true; !object.prop === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

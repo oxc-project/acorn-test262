@@ -23,7 +23,9 @@
             "start": 744,
             "end": 753,
             "value": "gregory",
-            "raw": "\"gregory\""
+            "raw": "\"gregory\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 821,
                 "value": null,
                 "raw": "1_609_504_496_987_654_321n",
+                "regex": null,
                 "bigint": "1609504496987654321"
               },
               {
@@ -81,7 +84,9 @@
                 "start": 823,
                 "end": 828,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -147,7 +152,9 @@
             "start": 876,
             "end": 880,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,7 +180,9 @@
           "start": 895,
           "end": 904,
           "value": "iso8601",
-          "raw": "\"iso8601\""
+          "raw": "\"iso8601\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -222,6 +231,7 @@
                 "end": 975,
                 "value": null,
                 "raw": "1_609_504_496_987_654_321n",
+                "regex": null,
                 "bigint": "1609504496987654321"
               },
               {
@@ -229,7 +239,9 @@
                 "start": 977,
                 "end": 982,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -295,7 +307,9 @@
             "start": 1033,
             "end": 1037,
             "value": 2020,
-            "raw": "2020"
+            "raw": "2020",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

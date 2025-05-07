@@ -147,7 +147,9 @@
                             "start": 1950,
                             "end": 1954,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

@@ -47,7 +47,9 @@
                 "start": 475,
                 "end": 498,
                 "value": "const test262id1 = 1;",
-                "raw": "'const test262id1 = 1;'"
+                "raw": "'const test262id1 = 1;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 512,
             "end": 532,
             "value": "Single declaration",
-            "raw": "'Single declaration'"
+            "raw": "'Single declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                 "start": 561,
                 "end": 600,
                 "value": "const test262id2 = 2, test262id3 = 3;",
-                "raw": "'const test262id2 = 2, test262id3 = 3;'"
+                "raw": "'const test262id2 = 2, test262id3 = 3;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -129,7 +135,9 @@
             "start": 618,
             "end": 641,
             "value": "Multiple declarations",
-            "raw": "'Multiple declarations'"
+            "raw": "'Multiple declarations'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +187,9 @@
                 "start": 668,
                 "end": 694,
                 "value": "4; const test262id5 = 5;",
-                "raw": "'4; const test262id5 = 5;'"
+                "raw": "'4; const test262id5 = 5;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -189,7 +199,9 @@
             "start": 697,
             "end": 698,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +251,9 @@
                 "start": 723,
                 "end": 763,
                 "value": "6; let test262id7 = 7, test262id8 = 8;",
-                "raw": "'6; let test262id7 = 7, test262id8 = 8;'"
+                "raw": "'6; let test262id7 = 7, test262id8 = 8;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -249,7 +263,9 @@
             "start": 766,
             "end": 767,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

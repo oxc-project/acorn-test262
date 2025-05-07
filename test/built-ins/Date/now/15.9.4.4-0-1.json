@@ -62,14 +62,18 @@
             "start": 249,
             "end": 259,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 261,
             "end": 278,
             "value": "typeof Date.now",
-            "raw": "'typeof Date.now'"
+            "raw": "'typeof Date.now'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

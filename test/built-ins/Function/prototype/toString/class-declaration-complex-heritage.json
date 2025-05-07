@@ -64,7 +64,9 @@
             "start": 486,
             "end": 583,
             "value": "class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }",
-            "raw": "\"class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }\""
+            "raw": "\"class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -49,7 +49,9 @@
             "start": 1202,
             "end": 1205,
             "value": "f",
-            "raw": "'f'"
+            "raw": "'f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -74,7 +76,9 @@
                   "start": 1218,
                   "end": 1221,
                   "value": "x",
-                  "raw": "'x'"
+                  "raw": "'x'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -96,7 +100,9 @@
                   "start": 1237,
                   "end": 1241,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -118,7 +124,9 @@
                   "start": 1255,
                   "end": 1259,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -140,7 +148,9 @@
                   "start": 1277,
                   "end": 1282,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -172,7 +182,9 @@
                 "start": 1289,
                 "end": 1290,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -189,7 +201,9 @@
             "start": 1300,
             "end": 1574,
             "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });if (true) function f() {  } else function _f() {}",
-            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: false\\\n  }, { restore: true });if (true) function f() {  } else function _f() {}'"
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: false\\\n  }, { restore: true });if (true) function f() {  } else function _f() {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -241,7 +255,9 @@
             "start": 1606,
             "end": 1616,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,7 +289,9 @@
             "start": 1642,
             "end": 1645,
             "value": "f",
-            "raw": "\"f\""
+            "raw": "\"f\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -298,7 +316,9 @@
                   "start": 1663,
                   "end": 1667,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -320,7 +340,9 @@
                   "start": 1681,
                   "end": 1685,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -342,7 +364,9 @@
                   "start": 1703,
                   "end": 1708,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

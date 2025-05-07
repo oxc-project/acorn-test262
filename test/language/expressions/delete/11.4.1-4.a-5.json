@@ -67,7 +67,9 @@
           "start": 555,
           "end": 556,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -178,14 +180,18 @@
             "start": 614,
             "end": 619,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 621,
             "end": 624,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,14 +243,18 @@
             "start": 654,
             "end": 662,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 675,
             "value": "typeof(o)",
-            "raw": "'typeof(o)'"
+            "raw": "'typeof(o)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,14 +312,18 @@
             "start": 700,
             "end": 701,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 708,
             "value": "o.x",
-            "raw": "'o.x'"
+            "raw": "'o.x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

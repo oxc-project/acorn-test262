@@ -155,7 +155,9 @@
                               "start": 719,
                               "end": 755,
                               "value": "trap context is the handler object",
-                              "raw": "\"trap context is the handler object\""
+                              "raw": "\"trap context is the handler object\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -206,7 +208,9 @@
                               "start": 795,
                               "end": 833,
                               "value": "first parameter is the target object",
-                              "raw": "\"first parameter is the target object\""
+                              "raw": "\"first parameter is the target object\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -264,14 +268,18 @@
                               "start": 870,
                               "end": 871,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 873,
                               "end": 922,
                               "value": "arguments list contains all construct arguments",
-                              "raw": "\"arguments list contains all construct arguments\""
+                              "raw": "\"arguments list contains all construct arguments\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -307,7 +315,9 @@
                                 "start": 943,
                                 "end": 944,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -346,7 +356,9 @@
                                 "start": 964,
                                 "end": 965,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -394,14 +406,18 @@
                               "start": 992,
                               "end": 993,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 995,
                               "end": 1040,
                               "value": "arguments list has first construct argument",
-                              "raw": "\"arguments list has first construct argument\""
+                              "raw": "\"arguments list has first construct argument\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -446,14 +462,18 @@
                               "start": 1067,
                               "end": 1068,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1070,
                               "end": 1116,
                               "value": "arguments list has second construct argument",
-                              "raw": "\"arguments list has second construct argument\""
+                              "raw": "\"arguments list has second construct argument\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -504,7 +524,9 @@
                               "start": 1162,
                               "end": 1206,
                               "value": "newTarget is passed as the third parameter",
-                              "raw": "\"newTarget is passed as the third parameter\""
+                              "raw": "\"newTarget is passed as the third parameter\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -665,14 +687,18 @@
                     "start": 1324,
                     "end": 1325,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1327,
                     "end": 1328,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -741,7 +767,9 @@
             "start": 1369,
             "end": 1370,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

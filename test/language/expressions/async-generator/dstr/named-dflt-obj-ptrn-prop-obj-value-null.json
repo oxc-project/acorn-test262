@@ -171,7 +171,9 @@
                               "start": 1096,
                               "end": 1097,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -193,7 +195,9 @@
                               "start": 1102,
                               "end": 1103,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -215,7 +219,9 @@
                               "start": 1108,
                               "end": 1109,
                               "value": 6,
-                              "raw": "6"
+                              "raw": "6",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -249,7 +255,9 @@
                       "start": 1121,
                       "end": 1125,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

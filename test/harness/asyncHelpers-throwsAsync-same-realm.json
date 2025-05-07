@@ -77,7 +77,9 @@
                         "start": 429,
                         "end": 434,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -339,7 +341,9 @@
                               "start": 675,
                               "end": 679,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -409,7 +413,9 @@
                                     "start": 752,
                                     "end": 786,
                                     "value": "Expected a Test262Error, but a '",
-                                    "raw": "\"Expected a Test262Error, but a '\""
+                                    "raw": "\"Expected a Test262Error, but a '\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -451,7 +457,9 @@
                                   "start": 828,
                                   "end": 843,
                                   "value": "' was thrown.",
-                                  "raw": "\"' was thrown.\""
+                                  "raw": "\"' was thrown.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -492,7 +500,9 @@
                               "start": 897,
                               "end": 974,
                               "value": "assert.throwsAsync did not reject when a different realm's error was thrown",
-                              "raw": "\"assert.throwsAsync did not reject when a different realm's error was thrown\""
+                              "raw": "\"assert.throwsAsync did not reject when a different realm's error was thrown\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

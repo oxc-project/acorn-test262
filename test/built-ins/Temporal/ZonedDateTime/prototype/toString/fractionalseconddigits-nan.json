@@ -48,6 +48,7 @@
                 "end": 906,
                 "value": null,
                 "raw": "1_000_000_000_987_650_000n",
+                "regex": null,
                 "bigint": "1000000000987650000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 908,
                 "end": 913,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

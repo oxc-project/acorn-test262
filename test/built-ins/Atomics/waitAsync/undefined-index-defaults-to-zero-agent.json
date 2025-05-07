@@ -62,14 +62,18 @@
             "start": 929,
             "end": 939,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 941,
             "end": 996,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -95,7 +99,9 @@
             "start": 1019,
             "end": 1020,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +127,9 @@
             "start": 1038,
             "end": 1039,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +155,9 @@
             "start": 1058,
             "end": 1059,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -173,7 +183,9 @@
             "start": 1081,
             "end": 1082,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -405,7 +417,9 @@
                       "start": 1691,
                       "end": 1692,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -570,7 +584,9 @@
                             "start": 1824,
                             "end": 1894,
                             "value": "The value of `agentCount` is expected to equal the value of NUMAGENT",
-                            "raw": "'The value of `agentCount` is expected to equal the value of NUMAGENT'"
+                            "raw": "'The value of `agentCount` is expected to equal the value of NUMAGENT'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -660,7 +676,9 @@
                             "start": 1990,
                             "end": 2122,
                             "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT",
-                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT'"
+                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -854,7 +872,9 @@
                               "start": 2278,
                               "end": 2279,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -864,14 +884,18 @@
                             "start": 2282,
                             "end": 2288,
                             "value": "A ok",
-                            "raw": "'A ok'"
+                            "raw": "'A ok'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2290,
                             "end": 2325,
                             "value": "The value of reports[0] is \"A ok\"",
-                            "raw": "'The value of reports[0] is \"A ok\"'"
+                            "raw": "'The value of reports[0] is \"A ok\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -920,7 +944,9 @@
                               "start": 2355,
                               "end": 2356,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -930,14 +956,18 @@
                             "start": 2359,
                             "end": 2365,
                             "value": "B ok",
-                            "raw": "'B ok'"
+                            "raw": "'B ok'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2367,
                             "end": 2402,
                             "value": "The value of reports[1] is \"B ok\"",
-                            "raw": "'The value of reports[1] is \"B ok\"'"
+                            "raw": "'The value of reports[1] is \"B ok\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

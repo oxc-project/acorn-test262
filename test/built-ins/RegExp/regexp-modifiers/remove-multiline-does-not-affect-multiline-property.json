@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?-m:)",
               "flags": "m"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 1727,
             "end": 1779,
             "value": "RegExp instance multiline flag should still be set",
-            "raw": "\"RegExp instance multiline flag should still be set\""
+            "raw": "\"RegExp instance multiline flag should still be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -109,14 +112,18 @@
                 "start": 1804,
                 "end": 1812,
                 "value": "(?-m:)",
-                "raw": "\"(?-m:)\""
+                "raw": "\"(?-m:)\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1814,
                 "end": 1817,
                 "value": "m",
-                "raw": "\"m\""
+                "raw": "\"m\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -163,7 +170,9 @@
             "start": 1842,
             "end": 1894,
             "value": "RegExp instance multiline flag should still be set",
-            "raw": "\"RegExp instance multiline flag should still be set\""
+            "raw": "\"RegExp instance multiline flag should still be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -95,7 +95,9 @@
                             "start": 449,
                             "end": 450,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -105,7 +107,9 @@
                         "start": 453,
                         "end": 456,
                         "value": "p",
-                        "raw": "'p'"
+                        "raw": "'p'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

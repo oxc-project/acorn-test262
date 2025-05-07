@@ -185,7 +185,9 @@
             "start": 1468,
             "end": 1489,
             "value": "get Symbol.iterator",
-            "raw": "'get Symbol.iterator'"
+            "raw": "'get Symbol.iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -367,7 +369,9 @@
             "start": 1633,
             "end": 1687,
             "value": "GetMethod(obj, @@iterator) abrupts from non callable",
-            "raw": "'GetMethod(obj, @@iterator) abrupts from non callable'"
+            "raw": "'GetMethod(obj, @@iterator) abrupts from non callable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +559,9 @@
             "start": 1845,
             "end": 1874,
             "value": "Abrupt from @@iterator call",
-            "raw": "'Abrupt from @@iterator call'"
+            "raw": "'Abrupt from @@iterator call'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -630,7 +636,9 @@
                           "start": 1927,
                           "end": 1937,
                           "value": "a string",
-                          "raw": "'a string'"
+                          "raw": "'a string'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -738,7 +746,9 @@
             "start": 2022,
             "end": 2056,
             "value": "@@iterator call returns a string",
-            "raw": "'@@iterator call returns a string'"
+            "raw": "'@@iterator call returns a string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -920,7 +930,9 @@
             "start": 2203,
             "end": 2238,
             "value": "@@iterator call returns undefined",
-            "raw": "'@@iterator call returns undefined'"
+            "raw": "'@@iterator call returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1152,7 +1164,9 @@
             "start": 2446,
             "end": 2483,
             "value": "GetV(iterator, next) returns abrupt",
-            "raw": "'GetV(iterator, next) returns abrupt'"
+            "raw": "'GetV(iterator, next) returns abrupt'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1378,7 +1392,9 @@
             "start": 2673,
             "end": 2718,
             "value": "GetV(iterator, next) returns a non callable",
-            "raw": "'GetV(iterator, next) returns a non callable'"
+            "raw": "'GetV(iterator, next) returns a non callable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1610,7 +1626,9 @@
             "start": 2922,
             "end": 2951,
             "value": "abrupt from iterator.next()",
-            "raw": "'abrupt from iterator.next()'"
+            "raw": "'abrupt from iterator.next()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1836,7 +1854,9 @@
             "start": 3144,
             "end": 3179,
             "value": "iterator.next() returns undefined",
-            "raw": "'iterator.next() returns undefined'"
+            "raw": "'iterator.next() returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1947,7 +1967,9 @@
                                         "start": 3265,
                                         "end": 3275,
                                         "value": "a string",
-                                        "raw": "'a string'"
+                                        "raw": "'a string'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -2063,7 +2085,9 @@
             "start": 3375,
             "end": 3409,
             "value": "iterator.next() returns a string",
-            "raw": "'iterator.next() returns a string'"
+            "raw": "'iterator.next() returns a string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2339,7 +2363,9 @@
             "start": 3682,
             "end": 3733,
             "value": "IteratorCompete abrupts getting the done property",
-            "raw": "'IteratorCompete abrupts getting the done property'"
+            "raw": "'IteratorCompete abrupts getting the done property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

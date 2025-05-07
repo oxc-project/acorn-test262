@@ -23,7 +23,9 @@
             "start": 316,
             "end": 321,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,7 +70,9 @@
                 "start": 355,
                 "end": 359,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -168,7 +172,9 @@
                         "start": 438,
                         "end": 455,
                         "value": "o.bar( foo() );",
-                        "raw": "\"o.bar( foo() );\""
+                        "raw": "\"o.bar( foo() );\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -194,7 +200,9 @@
                         "start": 489,
                         "end": 512,
                         "value": "o.bar does not exist!",
-                        "raw": "\"o.bar does not exist!\""
+                        "raw": "\"o.bar does not exist!\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -245,14 +253,18 @@
             "start": 547,
             "end": 551,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 553,
             "end": 564,
             "value": "fooCalled",
-            "raw": "'fooCalled'"
+            "raw": "'fooCalled'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

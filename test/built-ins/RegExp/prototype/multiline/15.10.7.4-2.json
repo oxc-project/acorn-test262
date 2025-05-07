@@ -66,7 +66,9 @@
                 "start": 343,
                 "end": 354,
                 "value": "multiline",
-                "raw": "'multiline'"
+                "raw": "'multiline'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,14 +136,18 @@
             "start": 392,
             "end": 402,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 418,
             "value": "typeof d.get",
-            "raw": "'typeof d.get'"
+            "raw": "'typeof d.get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,7 +211,9 @@
             "start": 456,
             "end": 463,
             "value": "d.set",
-            "raw": "'d.set'"
+            "raw": "'d.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,14 +271,18 @@
             "start": 497,
             "end": 502,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 518,
             "value": "d.enumerable",
-            "raw": "'d.enumerable'"
+            "raw": "'d.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,14 +340,18 @@
             "start": 554,
             "end": 558,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 576,
             "value": "d.configurable",
-            "raw": "'d.configurable'"
+            "raw": "'d.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

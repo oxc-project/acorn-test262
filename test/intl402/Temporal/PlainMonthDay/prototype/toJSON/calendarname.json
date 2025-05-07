@@ -39,7 +39,9 @@
                     "start": 294,
                     "end": 301,
                     "value": "05-02",
-                    "raw": "\"05-02\""
+                    "raw": "\"05-02\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -58,7 +60,9 @@
                         "start": 308,
                         "end": 317,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -67,7 +71,9 @@
                     "start": 320,
                     "end": 346,
                     "value": "1972-05-02[u-ca=gregory]",
-                    "raw": "\"1972-05-02[u-ca=gregory]\""
+                    "raw": "\"1972-05-02[u-ca=gregory]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -157,7 +163,9 @@
                               "start": 431,
                               "end": 468,
                               "value": "calendarName should not be accessed",
-                              "raw": "\"calendarName should not be accessed\""
+                              "raw": "\"calendarName should not be accessed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -172,7 +180,9 @@
                           "start": 482,
                           "end": 484,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -279,14 +289,18 @@
                       "start": 580,
                       "end": 581,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 583,
                       "end": 584,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "SpreadElement",

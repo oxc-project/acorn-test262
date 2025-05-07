@@ -29,7 +29,9 @@
             "start": 294,
             "end": 305,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -103,14 +105,18 @@
                   "start": 359,
                   "end": 364,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 366,
                   "end": 430,
                   "value": "The value of `delete Object.prototype` is expected to be false",
-                  "raw": "'The value of `delete Object.prototype` is expected to be false'"
+                  "raw": "'The value of `delete Object.prototype` is expected to be false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -213,7 +219,9 @@
                     "start": 532,
                     "end": 606,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -267,7 +275,9 @@
                 "start": 640,
                 "end": 651,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -299,7 +309,9 @@
                   "start": 682,
                   "end": 748,
                   "value": "#2: the Object.prototype property has the attributes DontDelete.",
-                  "raw": "'#2: the Object.prototype property has the attributes DontDelete.'"
+                  "raw": "'#2: the Object.prototype property has the attributes DontDelete.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -96,7 +96,9 @@
                                     "start": 460,
                                     "end": 473,
                                     "value": "kamon beyba",
-                                    "raw": "\"kamon beyba\""
+                                    "raw": "\"kamon beyba\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -174,7 +176,9 @@
               "start": 526,
               "end": 532,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -184,14 +188,18 @@
             "start": 535,
             "end": 548,
             "value": "kamon beyba",
-            "raw": "\"kamon beyba\""
+            "raw": "\"kamon beyba\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 609,
             "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\"",
-            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'"
+            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -30,7 +30,9 @@
           "start": 405,
           "end": 416,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -62,7 +64,9 @@
                     "start": 444,
                     "end": 506,
                     "value": "#0: typeof __func === \"undefined\". Actual: typeof __func ===",
-                    "raw": "'#0: typeof __func === \"undefined\". Actual: typeof __func ==='"
+                    "raw": "'#0: typeof __func === \"undefined\". Actual: typeof __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -106,7 +110,9 @@
             "start": 616,
             "end": 617,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -124,7 +130,9 @@
             "start": 623,
             "end": 626,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -168,7 +176,9 @@
                   "start": 644,
                   "end": 645,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -202,7 +212,9 @@
               "start": 674,
               "end": 675,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "body": {
               "type": "BlockStatement",
@@ -313,7 +325,9 @@
           "start": 899,
           "end": 900,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -345,7 +359,9 @@
                     "start": 928,
                     "end": 970,
                     "value": "#1: __func() === 2. Actual: __func() ===",
-                    "raw": "'#1: __func() === 2. Actual: __func() ==='"
+                    "raw": "'#1: __func() === 2. Actual: __func() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -407,7 +423,9 @@
                   "start": 1082,
                   "end": 1083,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -429,7 +447,9 @@
                   "start": 1086,
                   "end": 1089,
                   "value": "b",
-                  "raw": "\"b\""
+                  "raw": "\"b\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -549,7 +569,9 @@
           "start": 1288,
           "end": 1291,
           "value": "b",
-          "raw": "\"b\""
+          "raw": "\"b\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -581,7 +603,9 @@
                     "start": 1319,
                     "end": 1360,
                     "value": "#2: __func()===\"b\". Actual: __func()===",
-                    "raw": "'#2: __func()===\"b\". Actual: __func()==='"
+                    "raw": "'#2: __func()===\"b\". Actual: __func()==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -632,7 +656,9 @@
               "start": 1466,
               "end": 1468,
               "value": 99,
-              "raw": "99"
+              "raw": "99",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init"
           },
@@ -654,7 +680,9 @@
               "start": 1471,
               "end": 1474,
               "value": "c",
-              "raw": "\"c\""
+              "raw": "\"c\"",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init"
           }
@@ -692,7 +720,9 @@
                 "start": 1597,
                 "end": 1600,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -724,7 +754,9 @@
                           "start": 1632,
                           "end": 1673,
                           "value": "#3: __func()===\"b\". Actual: __func()===",
-                          "raw": "'#3: __func()===\"b\". Actual: __func()==='"
+                          "raw": "'#3: __func()===\"b\". Actual: __func()==='",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

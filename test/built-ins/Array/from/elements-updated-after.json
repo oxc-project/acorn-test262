@@ -28,49 +28,63 @@
                 "start": 234,
                 "end": 237,
                 "value": 127,
-                "raw": "127"
+                "raw": "127",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 239,
                 "end": 240,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 242,
                 "end": 243,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 245,
                 "end": 247,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 249,
                 "end": 251,
                 "value": 32,
-                "raw": "32"
+                "raw": "32",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 253,
                 "end": 255,
                 "value": 64,
-                "raw": "64"
+                "raw": "64",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 257,
                 "end": 260,
                 "value": 128,
-                "raw": "128"
+                "raw": "128",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -104,7 +118,9 @@
               "start": 281,
               "end": 282,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -185,7 +201,9 @@
                   "start": 346,
                   "end": 347,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "<",
@@ -249,7 +267,9 @@
                           "start": 384,
                           "end": 385,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "computed": true,
@@ -260,7 +280,9 @@
                       "start": 389,
                       "end": 392,
                       "value": 127,
-                      "raw": "127"
+                      "raw": "127",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -307,14 +329,18 @@
                   "start": 424,
                   "end": 427,
                   "value": 127,
-                  "raw": "127"
+                  "raw": "127",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 429,
                   "end": 471,
                   "value": "The value of value is expected to be 127",
-                  "raw": "'The value of value is expected to be 127'"
+                  "raw": "'The value of value is expected to be 127'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -365,7 +391,9 @@
                   "start": 512,
                   "end": 577,
                   "value": "The value of index is expected to equal the value of arrayIndex",
-                  "raw": "'The value of index is expected to equal the value of arrayIndex'"
+                  "raw": "'The value of index is expected to equal the value of arrayIndex'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -514,7 +542,9 @@
             "start": 675,
             "end": 745,
             "value": "The value of a.length is expected to equal the value of array.length",
-            "raw": "'The value of a.length is expected to equal the value of array.length'"
+            "raw": "'The value of a.length is expected to equal the value of array.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -544,7 +574,9 @@
               "start": 761,
               "end": 762,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -651,14 +683,18 @@
                   "start": 810,
                   "end": 813,
                   "value": 127,
-                  "raw": "127"
+                  "raw": "127",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 815,
                   "end": 856,
                   "value": "The value of a[j] is expected to be 127",
-                  "raw": "'The value of a[j] is expected to be 127'"
+                  "raw": "'The value of a[j] is expected to be 127'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

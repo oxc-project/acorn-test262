@@ -60,7 +60,9 @@
                 "start": 722,
                 "end": 735,
                 "value": "constructor",
-                "raw": "'constructor'"
+                "raw": "'constructor'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -123,7 +125,9 @@
                   "start": 843,
                   "end": 856,
                   "value": "constructor",
-                  "raw": "'constructor'"
+                  "raw": "'constructor'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -169,7 +173,9 @@
                         "start": 894,
                         "end": 898,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -191,7 +197,9 @@
                         "start": 916,
                         "end": 921,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -213,7 +221,9 @@
                         "start": 941,
                         "end": 945,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

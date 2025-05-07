@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 9,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@ __ESTREE_TEST__:PASS:
             "start": 20,
             "end": 21,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -91,7 +95,9 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 31,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -216,7 +222,9 @@ __ESTREE_TEST__:PASS:
           "start": 154,
           "end": 157,
           "raw": "'x'",
-          "value": "x"
+          "value": "x",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -245,7 +253,9 @@ __ESTREE_TEST__:PASS:
           "start": 176,
           "end": 179,
           "raw": "'y'",
-          "value": "y"
+          "value": "y",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -274,7 +284,9 @@ __ESTREE_TEST__:PASS:
           "start": 225,
           "end": 228,
           "raw": "'z'",
-          "value": "z"
+          "value": "z",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -374,7 +386,9 @@ __ESTREE_TEST__:PASS:
                     "start": 359,
                     "end": 362,
                     "raw": "'x'",
-                    "value": "x"
+                    "value": "x",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {
@@ -435,7 +449,9 @@ __ESTREE_TEST__:PASS:
                     "start": 409,
                     "end": 412,
                     "raw": "'y'",
-                    "value": "y"
+                    "value": "y",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {
@@ -496,7 +512,9 @@ __ESTREE_TEST__:PASS:
                     "start": 462,
                     "end": 465,
                     "raw": "'z'",
-                    "value": "z"
+                    "value": "z",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {

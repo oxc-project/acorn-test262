@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 50,
         "raw": "\"package\"",
-        "value": "package"
+        "value": "package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -73,7 +75,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 50,
         "raw": "\"package\"",
-        "value": "package"
+        "value": "package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -130,7 +134,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 50,
         "raw": "\"package\"",
-        "value": "package"
+        "value": "package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

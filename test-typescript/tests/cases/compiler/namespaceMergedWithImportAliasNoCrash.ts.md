@@ -211,7 +211,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 30,
         "raw": "'./file1'",
-        "value": "./file1"
+        "value": "./file1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -277,7 +279,9 @@ __ESTREE_TEST__:PASS:
                     "start": 103,
                     "end": 105,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

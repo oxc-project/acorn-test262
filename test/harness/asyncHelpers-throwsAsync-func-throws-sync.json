@@ -49,7 +49,9 @@
                   "start": 355,
                   "end": 360,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -151,7 +153,9 @@
                   "start": 445,
                   "end": 489,
                   "value": "assert.throwsAsync should return a promise",
-                  "raw": "\"assert.throwsAsync should return a promise\""
+                  "raw": "\"assert.throwsAsync should return a promise\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -219,7 +223,9 @@
                         "start": 542,
                         "end": 546,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -281,7 +287,9 @@
                           "start": 617,
                           "end": 682,
                           "value": "throwsAsync should reject improper function with a Test262Error",
-                          "raw": "\"throwsAsync should reject improper function with a Test262Error\""
+                          "raw": "\"throwsAsync should reject improper function with a Test262Error\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -325,7 +333,9 @@
                           "start": 736,
                           "end": 790,
                           "value": "assert.throwsAsync did not reject improper function ",
-                          "raw": "\"assert.throwsAsync did not reject improper function \""
+                          "raw": "\"assert.throwsAsync did not reject improper function \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

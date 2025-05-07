@@ -41,7 +41,9 @@
                   "start": 343,
                   "end": 347,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 356,
                   "end": 357,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 364,
                   "end": 365,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -186,21 +192,27 @@
                             "start": 414,
                             "end": 420,
                             "value": "year",
-                            "raw": "\"year\""
+                            "raw": "\"year\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 422,
                             "end": 429,
                             "value": "month",
-                            "raw": "\"month\""
+                            "raw": "\"month\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 431,
                             "end": 436,
                             "value": "day",
-                            "raw": "\"day\""
+                            "raw": "\"day\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -257,14 +269,18 @@
                                         "start": 463,
                                         "end": 474,
                                         "value": "constrain",
-                                        "raw": "\"constrain\""
+                                        "raw": "\"constrain\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 476,
                                         "end": 484,
                                         "value": "reject",
-                                        "raw": "\"reject\""
+                                        "raw": "\"reject\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   },
@@ -881,7 +897,9 @@
                                                 "start": 957,
                                                 "end": 1002,
                                                 "value": "it fails after fetching the primitive value",
-                                                "raw": "\"it fails after fetching the primitive value\""
+                                                "raw": "\"it fails after fetching the primitive value\"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "optional": false

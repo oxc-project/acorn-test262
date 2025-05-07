@@ -123,7 +123,9 @@
             "start": 369,
             "end": 420,
             "value": "TypeError if at least one property is not present",
-            "raw": "\"TypeError if at least one property is not present\""
+            "raw": "\"TypeError if at least one property is not present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -162,7 +164,9 @@
           "start": 439,
           "end": 441,
           "value": 30,
-          "raw": "30"
+          "raw": "30",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -270,49 +274,63 @@
             "start": 530,
             "end": 531,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 535,
             "value": 30,
-            "raw": "30"
+            "raw": "30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 537,
             "end": 538,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 541,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 543,
             "end": 544,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 547,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 582,
             "value": "missing time units default to 0",
-            "raw": "\"missing time units default to 0\""
+            "raw": "\"missing time units default to 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

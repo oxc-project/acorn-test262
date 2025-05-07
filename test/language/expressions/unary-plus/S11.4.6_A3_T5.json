@@ -44,7 +44,9 @@
           "start": 290,
           "end": 294,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +78,9 @@
                     "start": 323,
                     "end": 359,
                     "value": "#1: +{} === Not-a-Number. Actual: ",
-                    "raw": "'#1: +{} === Not-a-Number. Actual: '"
+                    "raw": "'#1: +{} === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -153,7 +157,9 @@
                         "start": 414,
                         "end": 415,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -169,7 +175,9 @@
           "start": 422,
           "end": 426,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -201,7 +209,9 @@
                     "start": 455,
                     "end": 509,
                     "value": "#2: +function(){return 1} === Not-a-Number. Actual: ",
-                    "raw": "'#2: +function(){return 1} === Not-a-Number. Actual: '"
+                    "raw": "'#2: +function(){return 1} === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -237,7 +247,9 @@
                                 "start": 532,
                                 "end": 533,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]

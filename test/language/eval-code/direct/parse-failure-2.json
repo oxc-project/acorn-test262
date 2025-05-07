@@ -91,7 +91,9 @@
                         "start": 374,
                         "end": 392,
                         "value": "x = 1; x\n++",
-                        "raw": "\"x = 1; x\\u000A++\""
+                        "raw": "\"x = 1; x\\u000A++\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

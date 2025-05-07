@@ -47,14 +47,18 @@
                 "start": 369,
                 "end": 373,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 376,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -124,7 +128,9 @@
                       "start": 429,
                       "end": 439,
                       "value": "critical",
-                      "raw": "\"critical\""
+                      "raw": "\"critical\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -176,7 +182,9 @@
             "start": 469,
             "end": 496,
             "value": "2000-05-01[!u-ca=iso8601]",
-            "raw": "\"2000-05-01[!u-ca=iso8601]\""
+            "raw": "\"2000-05-01[!u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TemplateLiteral",

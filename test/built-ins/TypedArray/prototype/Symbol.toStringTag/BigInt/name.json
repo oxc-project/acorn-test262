@@ -126,7 +126,9 @@
             "start": 953,
             "end": 959,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -151,7 +153,9 @@
                   "start": 972,
                   "end": 998,
                   "value": "get [Symbol.toStringTag]",
-                  "raw": "\"get [Symbol.toStringTag]\""
+                  "raw": "\"get [Symbol.toStringTag]\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -173,7 +177,9 @@
                   "start": 1012,
                   "end": 1017,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -195,7 +201,9 @@
                   "start": 1033,
                   "end": 1038,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -217,7 +225,9 @@
                   "start": 1056,
                   "end": 1060,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

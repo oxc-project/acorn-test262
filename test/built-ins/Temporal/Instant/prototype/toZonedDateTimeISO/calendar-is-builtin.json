@@ -48,6 +48,7 @@
                 "end": 349,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -100,7 +101,9 @@
                 "start": 395,
                 "end": 400,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -161,14 +164,18 @@
             "start": 439,
             "end": 448,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 478,
             "value": "calendar string is iso8601",
-            "raw": "\"calendar string is iso8601\""
+            "raw": "\"calendar string is iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

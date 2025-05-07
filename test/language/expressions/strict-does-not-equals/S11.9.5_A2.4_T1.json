@@ -23,7 +23,9 @@
             "start": 287,
             "end": 288,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -57,7 +59,9 @@
               "start": 300,
               "end": 301,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -94,7 +98,9 @@
                   "start": 337,
                   "end": 367,
                   "value": "#1: var x = 0; (x = 1) === x",
-                  "raw": "'#1: var x = 0; (x = 1) === x'"
+                  "raw": "'#1: var x = 0; (x = 1) === x'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -123,7 +129,9 @@
             "start": 391,
             "end": 392,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -174,7 +182,9 @@
                   "start": 412,
                   "end": 413,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -206,7 +216,9 @@
                   "start": 444,
                   "end": 474,
                   "value": "#2: var x = 0; x !== (x = 1)",
-                  "raw": "'#2: var x = 0; x !== (x = 1)'"
+                  "raw": "'#2: var x = 0; x !== (x = 1)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

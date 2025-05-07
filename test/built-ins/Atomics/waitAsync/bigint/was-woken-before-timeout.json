@@ -62,14 +62,18 @@
             "start": 474,
             "end": 484,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 541,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -95,7 +99,9 @@
             "start": 560,
             "end": 561,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -231,7 +237,9 @@
                       "start": 692,
                       "end": 693,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -413,6 +421,7 @@
                     "end": 1172,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 ],
@@ -489,6 +498,7 @@
                             "end": 1234,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           },
                           {
@@ -496,7 +506,9 @@
                             "start": 1236,
                             "end": 1269,
                             "value": "The value of `agentCount` is 1n",
-                            "raw": "'The value of `agentCount` is 1n'"
+                            "raw": "'The value of `agentCount` is 1n'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -565,7 +577,9 @@
                                 "start": 1318,
                                 "end": 1319,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -575,14 +589,18 @@
                             "start": 1326,
                             "end": 1327,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1333,
                             "end": 1445,
                             "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 1",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 1'"
+                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -689,7 +707,9 @@
                             "start": 1529,
                             "end": 1583,
                             "value": "The result of evaluating `(lapse < TIMEOUT)` is true",
-                            "raw": "'The result of evaluating `(lapse < TIMEOUT)` is true'"
+                            "raw": "'The result of evaluating `(lapse < TIMEOUT)` is true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -797,14 +817,18 @@
                             "start": 1665,
                             "end": 1669,
                             "value": "ok",
-                            "raw": "'ok'"
+                            "raw": "'ok'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1671,
                             "end": 1702,
                             "value": "The value of `result` is \"ok\"",
-                            "raw": "'The value of `result` is \"ok\"'"
+                            "raw": "'The value of `result` is \"ok\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -849,14 +873,18 @@
                             "start": 1732,
                             "end": 1736,
                             "value": "ok",
-                            "raw": "'ok'"
+                            "raw": "'ok'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1738,
                             "end": 1769,
                             "value": "The value of `result` is \"ok\"",
-                            "raw": "'The value of `result` is \"ok\"'"
+                            "raw": "'The value of `result` is \"ok\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -925,7 +953,9 @@
                                 "start": 1818,
                                 "end": 1819,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -935,14 +965,18 @@
                             "start": 1826,
                             "end": 1827,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1833,
                             "end": 1945,
                             "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
+                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

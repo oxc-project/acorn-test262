@@ -58988,7 +58988,9 @@ __ESTREE_TEST__:PASS:
         "start": 29041,
         "end": 29052,
         "raw": "\"immutable\"",
-        "value": "immutable"
+        "value": "immutable",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -112,7 +112,9 @@
                                         "start": 2191,
                                         "end": 2195,
                                         "value": null,
-                                        "raw": "null"
+                                        "raw": "null",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -127,7 +129,9 @@
                         "start": 2204,
                         "end": 2233,
                         "value": "abrupt completion from Null",
-                        "raw": "\"abrupt completion from Null\""
+                        "raw": "\"abrupt completion from Null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

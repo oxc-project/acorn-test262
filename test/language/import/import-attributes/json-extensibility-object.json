@@ -25,7 +25,9 @@
         "start": 327,
         "end": 361,
         "value": "./json-value-object_FIXTURE.json",
-        "raw": "'./json-value-object_FIXTURE.json'"
+        "raw": "'./json-value-object_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -43,7 +45,9 @@
             "start": 375,
             "end": 381,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -81,7 +85,9 @@
           "start": 410,
           "end": 425,
           "value": "test262 value",
-          "raw": "'test262 value'"
+          "raw": "'test262 value'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -111,7 +117,9 @@
             "start": 450,
             "end": 467,
             "value": "test262property",
-            "raw": "'test262property'"
+            "raw": "'test262property'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -136,7 +144,9 @@
                   "start": 480,
                   "end": 495,
                   "value": "test262 value",
-                  "raw": "'test262 value'"
+                  "raw": "'test262 value'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +168,9 @@
                   "start": 509,
                   "end": 513,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -180,7 +192,9 @@
                   "start": 529,
                   "end": 533,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -202,7 +216,9 @@
                   "start": 551,
                   "end": 555,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

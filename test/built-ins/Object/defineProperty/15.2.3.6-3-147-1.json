@@ -74,7 +74,9 @@
           "start": 400,
           "end": 406,
           "value": "JSON",
-          "raw": "\"JSON\""
+          "raw": "\"JSON\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -117,7 +119,9 @@
             "start": 436,
             "end": 446,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -181,14 +185,18 @@
             "start": 487,
             "end": 493,
             "value": "JSON",
-            "raw": "\"JSON\""
+            "raw": "\"JSON\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 495,
             "end": 509,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

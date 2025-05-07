@@ -48,6 +48,7 @@
                 "end": 406,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 408,
                 "end": 413,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -154,63 +157,81 @@
                             "start": 461,
                             "end": 467,
                             "value": "year",
-                            "raw": "\"year\""
+                            "raw": "\"year\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 469,
                             "end": 476,
                             "value": "month",
-                            "raw": "\"month\""
+                            "raw": "\"month\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 478,
                             "end": 483,
                             "value": "day",
-                            "raw": "\"day\""
+                            "raw": "\"day\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 485,
                             "end": 491,
                             "value": "hour",
-                            "raw": "\"hour\""
+                            "raw": "\"hour\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 493,
                             "end": 501,
                             "value": "minute",
-                            "raw": "\"minute\""
+                            "raw": "\"minute\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 503,
                             "end": 511,
                             "value": "second",
-                            "raw": "\"second\""
+                            "raw": "\"second\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 513,
                             "end": 526,
                             "value": "millisecond",
-                            "raw": "\"millisecond\""
+                            "raw": "\"millisecond\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 528,
                             "end": 541,
                             "value": "microsecond",
-                            "raw": "\"microsecond\""
+                            "raw": "\"microsecond\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 543,
                             "end": 555,
                             "value": "nanosecond",
-                            "raw": "\"nanosecond\""
+                            "raw": "\"nanosecond\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -267,14 +288,18 @@
                                         "start": 582,
                                         "end": 593,
                                         "value": "constrain",
-                                        "raw": "\"constrain\""
+                                        "raw": "\"constrain\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 595,
                                         "end": 603,
                                         "value": "reject",
-                                        "raw": "\"reject\""
+                                        "raw": "\"reject\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   },
@@ -843,7 +868,9 @@
                                                 "start": 1038,
                                                 "end": 1083,
                                                 "value": "it fails after fetching the primitive value",
-                                                "raw": "\"it fails after fetching the primitive value\""
+                                                "raw": "\"it fails after fetching the primitive value\"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "optional": false

@@ -47,7 +47,9 @@
                 "start": 640,
                 "end": 660,
                 "value": "1; switch(null) {}",
-                "raw": "'1; switch(null) {}'"
+                "raw": "'1; switch(null) {}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

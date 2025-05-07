@@ -81,7 +81,9 @@
             "start": 710,
             "end": 711,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -139,7 +141,9 @@
             "start": 745,
             "end": 758,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -193,7 +197,9 @@
                             "start": 799,
                             "end": 800,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -410,14 +416,18 @@
             "start": 934,
             "end": 935,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 974,
             "value": "`constructor` property not accessed",
-            "raw": "'`constructor` property not accessed'"
+            "raw": "'`constructor` property not accessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

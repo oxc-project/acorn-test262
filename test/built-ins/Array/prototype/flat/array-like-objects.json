@@ -72,7 +72,9 @@
                     "start": 390,
                     "end": 391,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -86,7 +88,9 @@
                     "start": 395,
                     "end": 396,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -206,14 +210,18 @@
                 "start": 459,
                 "end": 460,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 462,
                 "end": 463,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -222,7 +230,9 @@
             "start": 466,
             "end": 512,
             "value": "The value of actual is expected to be [1, 2]",
-            "raw": "'The value of actual is expected to be [1, 2]'"
+            "raw": "'The value of actual is expected to be [1, 2]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,7 +276,9 @@
                 "start": 532,
                 "end": 533,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -282,7 +294,9 @@
                 "start": 537,
                 "end": 538,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "ArrayExpression",
@@ -294,7 +308,9 @@
                     "start": 541,
                     "end": 542,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -411,7 +427,9 @@
                 "start": 603,
                 "end": 604,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -420,7 +438,9 @@
             "start": 607,
             "end": 650,
             "value": "The value of actual is expected to be [1]",
-            "raw": "'The value of actual is expected to be [1]'"
+            "raw": "'The value of actual is expected to be [1]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -479,7 +499,9 @@
                 "start": 683,
                 "end": 684,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "ArrayExpression",
@@ -491,7 +513,9 @@
                     "start": 687,
                     "end": 688,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -609,7 +633,9 @@
             "start": 752,
             "end": 794,
             "value": "The value of actual is expected to be []",
-            "raw": "'The value of actual is expected to be []'"
+            "raw": "'The value of actual is expected to be []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

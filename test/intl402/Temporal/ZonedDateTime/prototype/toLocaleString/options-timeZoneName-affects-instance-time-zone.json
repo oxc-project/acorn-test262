@@ -48,6 +48,7 @@
                 "end": 362,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 364,
                 "end": 379,
                 "value": "Europe/Vienna",
-                "raw": "\"Europe/Vienna\""
+                "raw": "\"Europe/Vienna\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -107,7 +110,9 @@
                 "start": 427,
                 "end": 434,
                 "value": "en-US",
-                "raw": "\"en-US\""
+                "raw": "\"en-US\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -132,7 +137,9 @@
                       "start": 452,
                       "end": 459,
                       "value": "short",
-                      "raw": "\"short\""
+                      "raw": "\"short\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -189,7 +196,9 @@
                 "start": 507,
                 "end": 514,
                 "value": "en-US",
-                "raw": "\"en-US\""
+                "raw": "\"en-US\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -214,7 +223,9 @@
                       "start": 532,
                       "end": 538,
                       "value": "long",
-                      "raw": "\"long\""
+                      "raw": "\"long\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -272,7 +283,9 @@
             "start": 588,
             "end": 653,
             "value": "formats with different timeZoneName options should be different",
-            "raw": "\"formats with different timeZoneName options should be different\""
+            "raw": "\"formats with different timeZoneName options should be different\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +335,9 @@
                 "start": 683,
                 "end": 715,
                 "value": "Central European Standard Time",
-                "raw": "\"Central European Standard Time\""
+                "raw": "\"Central European Standard Time\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -332,7 +347,9 @@
             "start": 718,
             "end": 761,
             "value": "time zone name can be written out in full",
-            "raw": "\"time zone name can be written out in full\""
+            "raw": "\"time zone name can be written out in full\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

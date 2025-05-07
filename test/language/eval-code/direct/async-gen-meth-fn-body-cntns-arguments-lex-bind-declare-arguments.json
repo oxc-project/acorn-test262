@@ -109,7 +109,9 @@
                             "start": 539,
                             "end": 554,
                             "value": "var arguments",
-                            "raw": "\"var arguments\""
+                            "raw": "\"var arguments\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -267,7 +269,9 @@
             "start": 666,
             "end": 698,
             "value": "globalThis.arguments unchanged",
-            "raw": "\"globalThis.arguments unchanged\""
+            "raw": "\"globalThis.arguments unchanged\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

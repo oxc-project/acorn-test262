@@ -103,7 +103,9 @@
             "start": 670,
             "end": 672,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -171,7 +173,9 @@
                       "start": 710,
                       "end": 713,
                       "value": "A",
-                      "raw": "'A'"
+                      "raw": "'A'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -212,7 +216,9 @@
                       "start": 740,
                       "end": 743,
                       "value": "a",
-                      "raw": "'a'"
+                      "raw": "'a'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -285,7 +291,9 @@
                       "start": 785,
                       "end": 788,
                       "value": "B",
-                      "raw": "'B'"
+                      "raw": "'B'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -326,7 +334,9 @@
                       "start": 815,
                       "end": 818,
                       "value": "b",
-                      "raw": "'b'"
+                      "raw": "'b'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -399,7 +409,9 @@
                       "start": 860,
                       "end": 863,
                       "value": "C",
-                      "raw": "'C'"
+                      "raw": "'C'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -440,7 +452,9 @@
                       "start": 890,
                       "end": 893,
                       "value": "c",
-                      "raw": "'c'"
+                      "raw": "'c'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -513,7 +527,9 @@
                         "start": 934,
                         "end": 973,
                         "value": "This promise should not be fulfilled.",
-                        "raw": "'This promise should not be fulfilled.'"
+                        "raw": "'This promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -556,7 +572,9 @@
                       "start": 1006,
                       "end": 1011,
                       "value": "abc",
-                      "raw": "'abc'"
+                      "raw": "'abc'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -592,7 +610,9 @@
                                   "start": 1032,
                                   "end": 1108,
                                   "value": "Expected each \"onFulfilled\" handler to be invoked exactly once in series. ",
-                                  "raw": "'Expected each \"onFulfilled\" handler to be invoked exactly once in series. '"
+                                  "raw": "'Expected each \"onFulfilled\" handler to be invoked exactly once in series. '",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -600,7 +620,9 @@
                                   "start": 1117,
                                   "end": 1142,
                                   "value": "Expected: abc. Actual: ",
-                                  "raw": "'Expected: abc. Actual: '"
+                                  "raw": "'Expected: abc. Actual: '",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "+",

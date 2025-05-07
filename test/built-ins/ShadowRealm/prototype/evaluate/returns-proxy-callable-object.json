@@ -75,14 +75,18 @@
             "start": 346,
             "end": 356,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 433,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,14 +233,18 @@
             "start": 595,
             "end": 605,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 657,
             "value": "wrapped proxy callable object is typeof function",
-            "raw": "'wrapped proxy callable object is typeof function'"
+            "raw": "'wrapped proxy callable object is typeof function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -288,14 +296,18 @@
             "start": 694,
             "end": 696,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 723,
             "value": "wrappedpfn() returns 42",
-            "raw": "'wrappedpfn() returns 42'"
+            "raw": "'wrappedpfn() returns 42'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,14 +383,18 @@
             "start": 777,
             "end": 779,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 781,
             "end": 815,
             "value": "wrapped functions can be proxied",
-            "raw": "'wrapped functions can be proxied'"
+            "raw": "'wrapped functions can be proxied'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

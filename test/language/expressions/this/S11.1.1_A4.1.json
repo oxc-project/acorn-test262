@@ -34,7 +34,9 @@
                 "start": 381,
                 "end": 394,
                 "value": "return this",
-                "raw": "\"return this\""
+                "raw": "\"return this\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -99,7 +101,9 @@
                     "start": 451,
                     "end": 534,
                     "value": "#1: var MyFunction = new Function(\"return this\"); MyFunction() === this. Actual: ",
-                    "raw": "'#1: var MyFunction = new Function(\"return this\"); MyFunction() === this. Actual: '"
+                    "raw": "'#1: var MyFunction = new Function(\"return this\"); MyFunction() === this. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -159,7 +163,9 @@
               "start": 593,
               "end": 616,
               "value": "return eval('this')",
-              "raw": "\"return eval(\\'this\\')\""
+              "raw": "\"return eval(\\'this\\')\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -222,7 +228,9 @@
                     "start": 673,
                     "end": 766,
                     "value": "#2: var MyFunction = new Function(\"return eval('this')\"); MyFunction() === this. Actual: ",
-                    "raw": "'#2: var MyFunction = new Function(\"return eval(\\'this\\')\"); MyFunction() === this. Actual: '"
+                    "raw": "'#2: var MyFunction = new Function(\"return eval(\\'this\\')\"); MyFunction() === this. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -58,7 +58,9 @@
                               "start": 622,
                               "end": 646,
                               "value": "./2nd-param_FIXTURE.js",
-                              "raw": "'./2nd-param_FIXTURE.js'"
+                              "raw": "'./2nd-param_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": {
                               "type": "AwaitExpression",
@@ -163,7 +165,9 @@
                             "start": 735,
                             "end": 738,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

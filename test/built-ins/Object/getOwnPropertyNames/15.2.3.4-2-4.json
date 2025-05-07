@@ -77,7 +77,9 @@
                       "start": 334,
                       "end": 366,
                       "value": "invoke customer defined Array!",
-                      "raw": "\"invoke customer defined Array!\""
+                      "raw": "\"invoke customer defined Array!\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -256,14 +258,18 @@
             "start": 492,
             "end": 508,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 550,
             "value": "Object.prototype.toString.call(result)",
-            "raw": "'Object.prototype.toString.call(result)'"
+            "raw": "'Object.prototype.toString.call(result)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -69,7 +69,9 @@
             "start": 1002,
             "end": 1033,
             "value": "Array.fromAsync is extensible",
-            "raw": "\"Array.fromAsync is extensible\""
+            "raw": "\"Array.fromAsync is extensible\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,7 +175,9 @@
             "start": 1121,
             "end": 1173,
             "value": "Prototype of Array.fromAsync is Function.prototype",
-            "raw": "\"Prototype of Array.fromAsync is Function.prototype\""
+            "raw": "\"Prototype of Array.fromAsync is Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -255,7 +259,9 @@
                 "start": 1247,
                 "end": 1258,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -271,7 +277,9 @@
             "start": 1276,
             "end": 1323,
             "value": "Array.fromAsync has no own prototype property",
-            "raw": "\"Array.fromAsync has no own prototype property\""
+            "raw": "\"Array.fromAsync has no own prototype property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

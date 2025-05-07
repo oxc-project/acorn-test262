@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 39,
           "end": 43,
           "raw": "\"fs\"",
-          "value": "fs"
+          "value": "fs",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -91,7 +93,9 @@ __ESTREE_TEST__:PASS:
             "start": 87,
             "end": 91,
             "raw": "\"fs\"",
-            "value": "fs"
+            "value": "fs",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -134,7 +138,9 @@ __ESTREE_TEST__:PASS:
           "start": 39,
           "end": 43,
           "raw": "\"fs\"",
-          "value": "fs"
+          "value": "fs",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -197,7 +203,9 @@ __ESTREE_TEST__:PASS:
             "start": 87,
             "end": 91,
             "raw": "\"fs\"",
-            "value": "fs"
+            "value": "fs",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -241,7 +249,9 @@ __ESTREE_TEST__:PASS:
             "start": 37,
             "end": 41,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -272,7 +282,9 @@ __ESTREE_TEST__:PASS:
             "start": 66,
             "end": 70,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -302,7 +314,9 @@ __ESTREE_TEST__:PASS:
           "start": 92,
           "end": 96,
           "raw": "\"fs\"",
-          "value": "fs"
+          "value": "fs",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -365,7 +379,9 @@ __ESTREE_TEST__:PASS:
             "start": 140,
             "end": 144,
             "raw": "\"fs\"",
-            "value": "fs"
+            "value": "fs",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -397,7 +413,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

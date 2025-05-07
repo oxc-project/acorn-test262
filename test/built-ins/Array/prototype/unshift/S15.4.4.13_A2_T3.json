@@ -159,7 +159,9 @@
                         "start": 517,
                         "end": 518,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -255,14 +257,18 @@
             "start": 581,
             "end": 582,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 626,
             "value": "The value of unshift is expected to be 3",
-            "raw": "'The value of unshift is expected to be 3'"
+            "raw": "'The value of unshift is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +343,9 @@
                         "start": 670,
                         "end": 671,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -381,7 +389,9 @@
                         "start": 703,
                         "end": 704,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -477,14 +487,18 @@
             "start": 767,
             "end": 768,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 812,
             "value": "The value of unshift is expected to be 3",
-            "raw": "'The value of unshift is expected to be 3'"
+            "raw": "'The value of unshift is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -559,7 +573,9 @@
                         "start": 856,
                         "end": 857,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -698,14 +714,18 @@
             "start": 954,
             "end": 955,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 957,
             "end": 999,
             "value": "The value of unshift is expected to be 3",
-            "raw": "'The value of unshift is expected to be 3'"
+            "raw": "'The value of unshift is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -789,7 +809,9 @@
                               "start": 1055,
                               "end": 1056,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -833,7 +855,9 @@
                               "start": 1093,
                               "end": 1100,
                               "value": "error",
-                              "raw": "\"error\""
+                              "raw": "\"error\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -929,14 +953,18 @@
                   "start": 1171,
                   "end": 1172,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1174,
                   "end": 1216,
                   "value": "The value of unshift is expected to be 3",
-                  "raw": "'The value of unshift is expected to be 3'"
+                  "raw": "'The value of unshift is expected to be 3'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -998,14 +1026,18 @@
                     "start": 1258,
                     "end": 1265,
                     "value": "error",
-                    "raw": "\"error\""
+                    "raw": "\"error\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1267,
                     "end": 1298,
                     "value": "The value of e is not \"error\"",
-                    "raw": "'The value of e is not \"error\"'"
+                    "raw": "'The value of e is not \"error\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1085,7 +1117,9 @@
                         "start": 1345,
                         "end": 1346,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1181,14 +1215,18 @@
             "start": 1409,
             "end": 1410,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1412,
             "end": 1454,
             "value": "The value of unshift is expected to be 1",
-            "raw": "'The value of unshift is expected to be 1'"
+            "raw": "'The value of unshift is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1306,7 +1344,9 @@
                         "start": 1532,
                         "end": 1533,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1402,14 +1442,18 @@
             "start": 1595,
             "end": 1596,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1598,
             "end": 1640,
             "value": "The value of unshift is expected to be 1",
-            "raw": "'The value of unshift is expected to be 1'"
+            "raw": "'The value of unshift is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1493,7 +1537,9 @@
                               "start": 1696,
                               "end": 1703,
                               "value": "error",
-                              "raw": "\"error\""
+                              "raw": "\"error\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1537,7 +1583,9 @@
                               "start": 1741,
                               "end": 1742,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1618,7 +1666,9 @@
                     "start": 1810,
                     "end": 1921,
                     "value": "#7.1:  obj.length = {valueOf() {throw \"error\"}, toString() {return 1}}; obj.unshift() throw \"error\". Actual: ",
-                    "raw": "'#7.1:  obj.length = {valueOf() {throw \"error\"}, toString() {return 1}}; obj.unshift() throw \"error\". Actual: '"
+                    "raw": "'#7.1:  obj.length = {valueOf() {throw \"error\"}, toString() {return 1}}; obj.unshift() throw \"error\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1692,14 +1742,18 @@
                     "start": 1972,
                     "end": 1979,
                     "value": "error",
-                    "raw": "\"error\""
+                    "raw": "\"error\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1981,
                     "end": 2023,
                     "value": "The value of e is expected to be \"error\"",
-                    "raw": "'The value of e is expected to be \"error\"'"
+                    "raw": "'The value of e is expected to be \"error\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1911,7 +1965,9 @@
                     "start": 2192,
                     "end": 2302,
                     "value": "#8.1:  obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.unshift() throw TypeError. Actual: ",
-                    "raw": "'#8.1:  obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.unshift() throw TypeError. Actual: '"
+                    "raw": "'#8.1:  obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.unshift() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1997,14 +2053,18 @@
                     "start": 2383,
                     "end": 2387,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 2393,
                     "end": 2467,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

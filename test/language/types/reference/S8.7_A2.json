@@ -34,21 +34,27 @@
                 "start": 434,
                 "end": 439,
                 "value": "one",
-                "raw": "\"one\""
+                "raw": "\"one\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 446,
                 "value": "two",
-                "raw": "\"two\""
+                "raw": "\"two\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 448,
                 "end": 455,
                 "value": "three",
-                "raw": "\"three\""
+                "raw": "\"three\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -114,7 +120,9 @@
             "start": 574,
             "end": 580,
             "value": "four",
-            "raw": "\"four\""
+            "raw": "\"four\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +186,9 @@
           "start": 727,
           "end": 728,
           "value": 4,
-          "raw": "4"
+          "raw": "4",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -206,7 +216,9 @@
                   "start": 756,
                   "end": 896,
                   "value": "#1: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items.push( \"four\" );var itemsRef = items; itemsRef.length !== 4",
-                  "raw": "'#1: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items.push( \"four\" );var itemsRef = items; itemsRef.length !== 4'"
+                  "raw": "'#1: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items.push( \"four\" );var itemsRef = items; itemsRef.length !== 4'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -251,21 +263,27 @@
                 "start": 1124,
                 "end": 1129,
                 "value": "one",
-                "raw": "\"one\""
+                "raw": "\"one\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1131,
                 "end": 1136,
                 "value": "two",
-                "raw": "\"two\""
+                "raw": "\"two\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1138,
                 "end": 1145,
                 "value": "three",
-                "raw": "\"three\""
+                "raw": "\"three\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -322,7 +340,9 @@
             "start": 1258,
             "end": 1259,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -332,7 +352,9 @@
           "start": 1261,
           "end": 1266,
           "value": "duo",
-          "raw": "\"duo\""
+          "raw": "\"duo\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -359,7 +381,9 @@
             "start": 1379,
             "end": 1380,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -370,7 +394,9 @@
           "start": 1386,
           "end": 1391,
           "value": "duo",
-          "raw": "\"duo\""
+          "raw": "\"duo\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -402,7 +428,9 @@
                     "start": 1419,
                     "end": 1542,
                     "value": "#2: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items[1]=\"duo\"; itemsRef[1] === \"duo\". Actual: ",
-                    "raw": "'#2: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items[1]=\"duo\"; itemsRef[1] === \"duo\". Actual: '"
+                    "raw": "'#2: var items = new Array( \"one\", \"two\", \"three\" ); var itemsRef = items; items[1]=\"duo\"; itemsRef[1] === \"duo\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -424,7 +452,9 @@
                         "start": 1555,
                         "end": 1556,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

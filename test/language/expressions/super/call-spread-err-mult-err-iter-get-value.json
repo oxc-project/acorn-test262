@@ -122,7 +122,9 @@
                           "start": 1283,
                           "end": 1287,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -252,7 +254,9 @@
                           "start": 1428,
                           "end": 1429,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "SpreadElement",

@@ -59,7 +59,9 @@
                 "start": 304,
                 "end": 310,
                 "value": "enum",
-                "raw": "'enum'"
+                "raw": "'enum'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -99,7 +101,9 @@
                 "start": 337,
                 "end": 346,
                 "value": "nonenum",
-                "raw": "'nonenum'"
+                "raw": "'nonenum'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -139,7 +143,9 @@
                 "start": 371,
                 "end": 378,
                 "value": "value",
-                "raw": "'value'"
+                "raw": "'value'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -294,7 +300,9 @@
                   "start": 490,
                   "end": 495,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -443,14 +451,18 @@
             "start": 591,
             "end": 595,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 617,
             "value": "result is an array",
-            "raw": "'result is an array'"
+            "raw": "'result is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,14 +520,18 @@
             "start": 652,
             "end": 653,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 674,
             "value": "result has 1 item",
-            "raw": "'result has 1 item'"
+            "raw": "'result has 1 item'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -564,7 +580,9 @@
               "start": 702,
               "end": 703,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -580,7 +598,9 @@
             "start": 716,
             "end": 743,
             "value": "first value is `symValue`",
-            "raw": "'first value is `symValue`'"
+            "raw": "'first value is `symValue`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

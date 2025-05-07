@@ -47,28 +47,36 @@
                 "start": 1205,
                 "end": 1206,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1208,
                 "end": 1209,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1211,
                 "end": 1212,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1214,
                 "end": 1215,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -81,7 +89,9 @@
                   "start": 1218,
                   "end": 1220,
                   "value": 60,
-                  "raw": "60"
+                  "raw": "60",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -152,7 +162,9 @@
                       "start": 1261,
                       "end": 1267,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -210,7 +222,9 @@
               "start": 1298,
               "end": 1301,
               "value": 2.5,
-              "raw": "2.5"
+              "raw": "2.5",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

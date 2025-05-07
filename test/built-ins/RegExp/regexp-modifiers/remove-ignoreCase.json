@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?-i:fo)o",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -83,7 +84,9 @@
                   "start": 1804,
                   "end": 1809,
                   "value": "FOO",
-                  "raw": "\"FOO\""
+                  "raw": "\"FOO\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +97,9 @@
             "start": 1812,
             "end": 1877,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +155,9 @@
                   "start": 1897,
                   "end": 1902,
                   "value": "FOo",
-                  "raw": "\"FOo\""
+                  "raw": "\"FOo\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -161,7 +168,9 @@
             "start": 1905,
             "end": 1970,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,7 +220,9 @@
                 "start": 1989,
                 "end": 1994,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -221,7 +232,9 @@
             "start": 1997,
             "end": 2047,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +284,9 @@
                 "start": 2066,
                 "end": 2071,
                 "value": "foO",
-                "raw": "\"foO\""
+                "raw": "\"foO\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -281,7 +296,9 @@
             "start": 2074,
             "end": 2124,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,14 +335,18 @@
                 "start": 2149,
                 "end": 2160,
                 "value": "(?-i:fo)o",
-                "raw": "\"(?-i:fo)o\""
+                "raw": "\"(?-i:fo)o\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2162,
                 "end": 2165,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -383,7 +404,9 @@
                   "start": 2185,
                   "end": 2190,
                   "value": "FOO",
-                  "raw": "\"FOO\""
+                  "raw": "\"FOO\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -394,7 +417,9 @@
             "start": 2193,
             "end": 2258,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,7 +475,9 @@
                   "start": 2278,
                   "end": 2283,
                   "value": "FOo",
-                  "raw": "\"FOo\""
+                  "raw": "\"FOo\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -461,7 +488,9 @@
             "start": 2286,
             "end": 2351,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,7 +540,9 @@
                 "start": 2370,
                 "end": 2375,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -521,7 +552,9 @@
             "start": 2378,
             "end": 2428,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -571,7 +604,9 @@
                 "start": 2447,
                 "end": 2452,
                 "value": "foO",
-                "raw": "\"foO\""
+                "raw": "\"foO\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -581,7 +616,9 @@
             "start": 2455,
             "end": 2505,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -611,7 +648,8 @@
             "regex": {
               "pattern": "b(?-i:ar)",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -667,7 +705,9 @@
                   "start": 2550,
                   "end": 2555,
                   "value": "BAR",
-                  "raw": "\"BAR\""
+                  "raw": "\"BAR\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -678,7 +718,9 @@
             "start": 2558,
             "end": 2623,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -734,7 +776,9 @@
                   "start": 2643,
                   "end": 2648,
                   "value": "bAR",
-                  "raw": "\"bAR\""
+                  "raw": "\"bAR\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -745,7 +789,9 @@
             "start": 2651,
             "end": 2716,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -795,7 +841,9 @@
                 "start": 2735,
                 "end": 2740,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -805,7 +853,9 @@
             "start": 2743,
             "end": 2793,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -855,7 +905,9 @@
                 "start": 2812,
                 "end": 2817,
                 "value": "Bar",
-                "raw": "\"Bar\""
+                "raw": "\"Bar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -865,7 +917,9 @@
             "start": 2820,
             "end": 2870,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -902,14 +956,18 @@
                 "start": 2895,
                 "end": 2906,
                 "value": "b(?-i:ar)",
-                "raw": "\"b(?-i:ar)\""
+                "raw": "\"b(?-i:ar)\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2908,
                 "end": 2911,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -967,7 +1025,9 @@
                   "start": 2931,
                   "end": 2936,
                   "value": "BAR",
-                  "raw": "\"BAR\""
+                  "raw": "\"BAR\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -978,7 +1038,9 @@
             "start": 2939,
             "end": 3004,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1034,7 +1096,9 @@
                   "start": 3024,
                   "end": 3029,
                   "value": "bAR",
-                  "raw": "\"bAR\""
+                  "raw": "\"bAR\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1045,7 +1109,9 @@
             "start": 3032,
             "end": 3097,
             "value": "Pattern should not match as modified group does not ignore case",
-            "raw": "\"Pattern should not match as modified group does not ignore case\""
+            "raw": "\"Pattern should not match as modified group does not ignore case\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1095,7 +1161,9 @@
                 "start": 3116,
                 "end": 3121,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1105,7 +1173,9 @@
             "start": 3124,
             "end": 3174,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1155,7 +1225,9 @@
                 "start": 3193,
                 "end": 3198,
                 "value": "Bar",
-                "raw": "\"Bar\""
+                "raw": "\"Bar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1165,7 +1237,9 @@
             "start": 3201,
             "end": 3251,
             "value": "Pattern should not ignore case in modified group",
-            "raw": "\"Pattern should not ignore case in modified group\""
+            "raw": "\"Pattern should not ignore case in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1195,7 +1269,8 @@
             "regex": {
               "pattern": "b(?-i:a)z",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -1245,7 +1320,9 @@
                 "start": 3295,
                 "end": 3300,
                 "value": "baz",
-                "raw": "\"baz\""
+                "raw": "\"baz\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1255,7 +1332,9 @@
             "start": 3303,
             "end": 3328,
             "value": "a should match a in baz",
-            "raw": "\"a should match a in baz\""
+            "raw": "\"a should match a in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1311,7 +1390,9 @@
                   "start": 3348,
                   "end": 3353,
                   "value": "bAz",
-                  "raw": "\"bAz\""
+                  "raw": "\"bAz\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1322,7 +1403,9 @@
             "start": 3356,
             "end": 3385,
             "value": "A should not match a in baz",
-            "raw": "\"A should not match a in baz\""
+            "raw": "\"A should not match a in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1372,7 +1455,9 @@
                 "start": 3404,
                 "end": 3409,
                 "value": "Baz",
-                "raw": "\"Baz\""
+                "raw": "\"Baz\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1382,7 +1467,9 @@
             "start": 3412,
             "end": 3437,
             "value": "B should match b in baz",
-            "raw": "\"B should match b in baz\""
+            "raw": "\"B should match b in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1432,7 +1519,9 @@
                 "start": 3456,
                 "end": 3461,
                 "value": "baZ",
-                "raw": "\"baZ\""
+                "raw": "\"baZ\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1442,7 +1531,9 @@
             "start": 3464,
             "end": 3489,
             "value": "Z should match z in baz",
-            "raw": "\"Z should match z in baz\""
+            "raw": "\"Z should match z in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1492,7 +1583,9 @@
                 "start": 3508,
                 "end": 3513,
                 "value": "BaZ",
-                "raw": "\"BaZ\""
+                "raw": "\"BaZ\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1502,7 +1595,9 @@
             "start": 3516,
             "end": 3534,
             "value": "should match baz",
-            "raw": "\"should match baz\""
+            "raw": "\"should match baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1558,7 +1653,9 @@
                   "start": 3554,
                   "end": 3559,
                   "value": "BAZ",
-                  "raw": "\"BAZ\""
+                  "raw": "\"BAZ\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1569,7 +1666,9 @@
             "start": 3562,
             "end": 3584,
             "value": "should not match baz",
-            "raw": "\"should not match baz\""
+            "raw": "\"should not match baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1606,14 +1705,18 @@
                 "start": 3609,
                 "end": 3620,
                 "value": "b(?-i:a)z",
-                "raw": "\"b(?-i:a)z\""
+                "raw": "\"b(?-i:a)z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3622,
                 "end": 3625,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1665,7 +1768,9 @@
                 "start": 3644,
                 "end": 3649,
                 "value": "baz",
-                "raw": "\"baz\""
+                "raw": "\"baz\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1675,7 +1780,9 @@
             "start": 3652,
             "end": 3677,
             "value": "a should match a in baz",
-            "raw": "\"a should match a in baz\""
+            "raw": "\"a should match a in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1731,7 +1838,9 @@
                   "start": 3697,
                   "end": 3702,
                   "value": "bAz",
-                  "raw": "\"bAz\""
+                  "raw": "\"bAz\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1742,7 +1851,9 @@
             "start": 3705,
             "end": 3734,
             "value": "A should not match a in baz",
-            "raw": "\"A should not match a in baz\""
+            "raw": "\"A should not match a in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1792,7 +1903,9 @@
                 "start": 3753,
                 "end": 3758,
                 "value": "Baz",
-                "raw": "\"Baz\""
+                "raw": "\"Baz\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1802,7 +1915,9 @@
             "start": 3761,
             "end": 3786,
             "value": "B should match b in baz",
-            "raw": "\"B should match b in baz\""
+            "raw": "\"B should match b in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1852,7 +1967,9 @@
                 "start": 3805,
                 "end": 3810,
                 "value": "baZ",
-                "raw": "\"baZ\""
+                "raw": "\"baZ\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1862,7 +1979,9 @@
             "start": 3813,
             "end": 3838,
             "value": "Z should match z in baz",
-            "raw": "\"Z should match z in baz\""
+            "raw": "\"Z should match z in baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1912,7 +2031,9 @@
                 "start": 3857,
                 "end": 3862,
                 "value": "BaZ",
-                "raw": "\"BaZ\""
+                "raw": "\"BaZ\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1922,7 +2043,9 @@
             "start": 3865,
             "end": 3883,
             "value": "should match baz",
-            "raw": "\"should match baz\""
+            "raw": "\"should match baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1978,7 +2101,9 @@
                   "start": 3903,
                   "end": 3908,
                   "value": "BAZ",
-                  "raw": "\"BAZ\""
+                  "raw": "\"BAZ\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1989,7 +2114,9 @@
             "start": 3911,
             "end": 3933,
             "value": "should not match baz",
-            "raw": "\"should not match baz\""
+            "raw": "\"should not match baz\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -81,7 +81,9 @@
                               "start": 610,
                               "end": 676,
                               "value": "init = f;        {      function f() {}    }switch (1) {",
-                              "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }switch (1) {'"
+                              "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -89,7 +91,9 @@
                               "start": 683,
                               "end": 694,
                               "value": "  case 1:",
-                              "raw": "'  case 1:'"
+                              "raw": "'  case 1:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -98,7 +102,9 @@
                             "start": 701,
                             "end": 724,
                             "value": "    function f() {  }",
-                            "raw": "'    function f() {  }'"
+                            "raw": "'    function f() {  }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -107,7 +113,9 @@
                           "start": 731,
                           "end": 740,
                           "value": "}    ",
-                          "raw": "'}\\\n    '"
+                          "raw": "'}\\\n    '",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

@@ -34,7 +34,9 @@
                 "start": 310,
                 "end": 335,
                 "value": "this is a string object",
-                "raw": "\"this is a string object\""
+                "raw": "\"this is a string object\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -89,7 +91,9 @@
           "start": 460,
           "end": 468,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -121,7 +125,9 @@
                     "start": 497,
                     "end": 599,
                     "value": "#1: __string = new String(\"this is a string object\"); typeof __string.slice() === \"string\". Actual: ",
-                    "raw": "'#1: __string = new String(\"this is a string object\"); typeof __string.slice() === \"string\". Actual: '"
+                    "raw": "'#1: __string = new String(\"this is a string object\"); typeof __string.slice() === \"string\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

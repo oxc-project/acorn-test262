@@ -178,7 +178,9 @@
             "start": 1247,
             "end": 1257,
             "value": "NaN/date",
-            "raw": "\"NaN/date\""
+            "raw": "\"NaN/date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -284,7 +286,9 @@
             "start": 1333,
             "end": 1343,
             "value": "date/NaN",
-            "raw": "\"date/NaN\""
+            "raw": "\"date/NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +394,9 @@
             "start": 1418,
             "end": 1427,
             "value": "NaN/NaN",
-            "raw": "\"NaN/NaN\""
+            "raw": "\"NaN/NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

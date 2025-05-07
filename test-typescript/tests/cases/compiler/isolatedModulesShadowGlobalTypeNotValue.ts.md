@@ -508,7 +508,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "'node:console'",
-        "value": "node:console"
+        "value": "node:console",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -534,7 +536,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 37,
         "raw": "'./types'",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -826,7 +830,9 @@ __ESTREE_TEST__:PASS:
                     "start": 175,
                     "end": 180,
                     "raw": "'bar'",
-                    "value": "bar"
+                    "value": "bar",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -912,7 +918,9 @@ __ESTREE_TEST__:PASS:
         "start": 33,
         "end": 42,
         "raw": "'./types'",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -976,7 +984,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 82,
         "raw": "'node:console'",
-        "value": "node:console"
+        "value": "node:console",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1244,7 +1254,9 @@ __ESTREE_TEST__:PASS:
                     "start": 220,
                     "end": 225,
                     "raw": "'bar'",
-                    "value": "bar"
+                    "value": "bar",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {

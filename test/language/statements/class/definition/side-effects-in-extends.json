@@ -23,7 +23,9 @@
             "start": 222,
             "end": 223,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -134,14 +136,18 @@
             "start": 292,
             "end": 293,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 295,
             "end": 324,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -193,14 +199,18 @@
             "start": 354,
             "end": 364,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 366,
             "end": 394,
             "value": "`typeof D` is `'function'`",
-            "raw": "\"`typeof D` is `'function'`\""
+            "raw": "\"`typeof D` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,7 +288,9 @@
             "start": 443,
             "end": 483,
             "value": "`Object.getPrototypeOf(D)` returns `C`",
-            "raw": "\"`Object.getPrototypeOf(D)` returns `C`\""
+            "raw": "\"`Object.getPrototypeOf(D)` returns `C`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +394,9 @@
             "start": 565,
             "end": 633,
             "value": "The value of `C.prototype` is `Object.getPrototypeOf(D.prototype)`",
-            "raw": "\"The value of `C.prototype` is `Object.getPrototypeOf(D.prototype)`\""
+            "raw": "\"The value of `C.prototype` is `Object.getPrototypeOf(D.prototype)`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,14 +35,18 @@
                   "start": 296,
                   "end": 297,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 299,
                   "end": 303,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 307,
                   "end": 308,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 310,
                   "end": 315,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -91,7 +99,9 @@
                     "start": 327,
                     "end": 328,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "-",
                   "right": {
@@ -123,14 +133,18 @@
                         "start": 340,
                         "end": 341,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 343,
                         "end": 345,
                         "value": 32,
-                        "raw": "32"
+                        "raw": "32",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -233,7 +247,9 @@
                 "start": 402,
                 "end": 406,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -249,7 +265,9 @@
               "start": 410,
               "end": 411,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -257,7 +275,9 @@
             "start": 413,
             "end": 454,
             "value": "Array.prototype.indexOf.call(obj, true)",
-            "raw": "'Array.prototype.indexOf.call(obj, true)'"
+            "raw": "'Array.prototype.indexOf.call(obj, true)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -352,7 +372,9 @@
                 "start": 508,
                 "end": 513,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -368,7 +390,9 @@
               "start": 517,
               "end": 518,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -376,7 +400,9 @@
             "start": 520,
             "end": 562,
             "value": "Array.prototype.indexOf.call(obj, false)",
-            "raw": "'Array.prototype.indexOf.call(obj, false)'"
+            "raw": "'Array.prototype.indexOf.call(obj, false)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

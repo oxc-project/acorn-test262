@@ -83,7 +83,9 @@
                               "start": 582,
                               "end": 592,
                               "value": "\"string\"",
-                              "raw": "'\"string\"'"
+                              "raw": "'\"string\"'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -127,7 +129,9 @@
                               "start": 634,
                               "end": 655,
                               "value": "\"default_or_number\"",
-                              "raw": "'\"default_or_number\"'"
+                              "raw": "'\"default_or_number\"'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -183,7 +187,9 @@
             "start": 690,
             "end": 698,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

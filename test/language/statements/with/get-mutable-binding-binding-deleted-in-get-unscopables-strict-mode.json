@@ -23,7 +23,9 @@
             "start": 604,
             "end": 605,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 631,
                   "end": 632,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -169,7 +173,9 @@
                           "start": 725,
                           "end": 729,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -203,7 +209,9 @@
             "start": 752,
             "end": 756,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -281,7 +289,9 @@
                           "start": 820,
                           "end": 832,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "directive": "use strict"
                       },
@@ -357,14 +367,18 @@
             "start": 901,
             "end": 902,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 942,
             "value": "get [Symbol.unscopables] called once",
-            "raw": "\"get [Symbol.unscopables] called once\""
+            "raw": "\"get [Symbol.unscopables] called once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,14 +423,18 @@
             "start": 971,
             "end": 975,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 977,
             "end": 998,
             "value": "result not modified",
-            "raw": "\"result not modified\""
+            "raw": "\"result not modified\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

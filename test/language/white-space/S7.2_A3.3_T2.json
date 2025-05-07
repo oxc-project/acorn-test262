@@ -23,7 +23,9 @@
             "start": 272,
             "end": 273,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
           "start": 315,
           "end": 316,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -81,7 +85,9 @@
                     "start": 345,
                     "end": 409,
                     "value": "#1: var x = 0; //\u000bsingle\u000bline\u000bcomment\u000bx = 1; x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; //\u000bsingle\u000bline\u000bcomment\u000bx = 1; x === 0. Actual: '"
+                    "raw": "'#1: var x = 0; //\u000bsingle\u000bline\u000bcomment\u000bx = 1; x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

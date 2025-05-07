@@ -48,6 +48,7 @@
                 "end": 351,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 353,
                 "end": 358,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,28 +91,36 @@
                 "start": 384,
                 "end": 399,
                 "value": "Asia/Calcutta",
-                "raw": "\"Asia/Calcutta\""
+                "raw": "\"Asia/Calcutta\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 417,
                 "value": "Asia/Kolkata",
-                "raw": "\"Asia/Kolkata\""
+                "raw": "\"Asia/Kolkata\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 436,
                 "value": "ASIA/calcutta",
-                "raw": "\"ASIA/calcutta\""
+                "raw": "\"ASIA/calcutta\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 454,
                 "value": "Asia/KOLKATA",
-                "raw": "\"Asia/KOLKATA\""
+                "raw": "\"Asia/KOLKATA\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -377,14 +388,18 @@
                 "start": 712,
                 "end": 726,
                 "value": "Asia/Colombo",
-                "raw": "\"Asia/Colombo\""
+                "raw": "\"Asia/Colombo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 730,
                 "end": 744,
                 "value": "ASIA/colombo",
-                "raw": "\"ASIA/colombo\""
+                "raw": "\"ASIA/colombo\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

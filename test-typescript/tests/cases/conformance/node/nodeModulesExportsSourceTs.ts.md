@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 54,
         "raw": "\"inner/other\"",
-        "value": "inner/other"
+        "value": "inner/other",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
                       "start": 87,
                       "end": 94,
                       "raw": "\"inner\"",
-                      "value": "inner"
+                      "value": "inner",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -131,7 +135,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 133,
         "raw": "\"package\"",
-        "value": "package"
+        "value": "package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -184,7 +190,9 @@ __ESTREE_TEST__:PASS:
         "start": 37,
         "end": 49,
         "raw": "\"./other.js\"",
-        "value": "./other.js"
+        "value": "./other.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -321,7 +329,9 @@ __ESTREE_TEST__:PASS:
                 "start": 75,
                 "end": 79,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",

@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 28,
         "raw": "\"./this\"",
-        "value": "./this"
+        "value": "./this",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -218,7 +220,9 @@ __ESTREE_TEST__:PASS:
                   "start": 178,
                   "end": 182,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -597,7 +601,9 @@ __ESTREE_TEST__:PASS:
                     "start": 328,
                     "end": 329,
                     "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

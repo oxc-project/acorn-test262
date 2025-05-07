@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 87,
         "raw": "\"./obj\"",
-        "value": "./obj"
+        "value": "./obj",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -138,7 +140,9 @@ __ESTREE_TEST__:PASS:
                       "start": 36,
                       "end": 42,
                       "raw": "\"./id\"",
-                      "value": "./id"
+                      "value": "./id",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,
@@ -196,7 +200,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 65,
                                     "end": 71,
                                     "raw": "\"./id\"",
-                                    "value": "./id"
+                                    "value": "./id",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "options": null,

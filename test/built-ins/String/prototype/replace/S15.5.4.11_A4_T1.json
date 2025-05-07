@@ -23,7 +23,9 @@
             "start": 302,
             "end": 315,
             "value": "abc12 def34",
-            "raw": "\"abc12 def34\""
+            "raw": "\"abc12 def34\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "([a-z]+)([0-9]+)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -112,7 +115,9 @@
           "start": 486,
           "end": 499,
           "value": "12abc def34",
-          "raw": "'12abc def34'"
+          "raw": "'12abc def34'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -144,7 +149,9 @@
                     "start": 528,
                     "end": 718,
                     "value": "#1: var __str = \"abc12 def34\"; var __pattern = /([a-z]+)([0-9]+)/; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)==='12abc def34'. Actual: ",
-                    "raw": "'#1: var __str = \"abc12 def34\"; var __pattern = /([a-z]+)([0-9]+)/; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)===\\'12abc def34\\'. Actual: '"
+                    "raw": "'#1: var __str = \"abc12 def34\"; var __pattern = /([a-z]+)([0-9]+)/; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)===\\'12abc def34\\'. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -236,7 +243,9 @@
                   "start": 884,
                   "end": 885,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -257,7 +266,9 @@
                   "start": 899,
                   "end": 900,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false

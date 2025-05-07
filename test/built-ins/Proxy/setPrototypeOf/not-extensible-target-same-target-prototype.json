@@ -217,7 +217,9 @@
                             "start": 774,
                             "end": 778,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -303,14 +305,18 @@
             "start": 849,
             "end": 853,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 894,
             "value": "prototype arg is the same in target",
-            "raw": "\"prototype arg is the same in target\""
+            "raw": "\"prototype arg is the same in target\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -509,7 +515,9 @@
                             "start": 1054,
                             "end": 1058,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -595,14 +603,18 @@
             "start": 1129,
             "end": 1133,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1137,
             "end": 1185,
             "value": "prototype is set to target inside handler trap",
-            "raw": "\"prototype is set to target inside handler trap\""
+            "raw": "\"prototype is set to target inside handler trap\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -680,7 +692,9 @@
             "start": 1250,
             "end": 1287,
             "value": "target has the custom set prototype",
-            "raw": "\"target has the custom set prototype\""
+            "raw": "\"target has the custom set prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

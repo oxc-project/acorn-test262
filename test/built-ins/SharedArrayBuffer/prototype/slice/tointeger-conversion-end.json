@@ -34,7 +34,9 @@
                 "start": 422,
                 "end": 423,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -106,14 +108,18 @@
               "start": 466,
               "end": 467,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 469,
               "end": 472,
               "value": 4.5,
-              "raw": "4.5"
+              "raw": "4.5",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -172,14 +178,18 @@
             "start": 511,
             "end": 512,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 529,
             "value": "slice(0, 4.5)",
-            "raw": "\"slice(0, 4.5)\""
+            "raw": "\"slice(0, 4.5)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +239,9 @@
               "start": 560,
               "end": 561,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -294,14 +306,18 @@
             "start": 605,
             "end": 606,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 608,
             "end": 623,
             "value": "slice(0, NaN)",
-            "raw": "\"slice(0, NaN)\""
+            "raw": "\"slice(0, NaN)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

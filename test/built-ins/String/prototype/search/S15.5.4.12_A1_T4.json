@@ -24,7 +24,9 @@
               "start": 421,
               "end": 423,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -44,7 +46,9 @@
           "start": 437,
           "end": 438,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +80,9 @@
                     "start": 467,
                     "end": 500,
                     "value": "#1: \"\".search() === 0. Actual: ",
-                    "raw": "'#1: \"\".search() === 0. Actual: '"
+                    "raw": "'#1: \"\".search() === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -96,7 +102,9 @@
                           "start": 504,
                           "end": 506,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -140,7 +148,9 @@
               "start": 526,
               "end": 541,
               "value": "--undefined--",
-              "raw": "\"--undefined--\""
+              "raw": "\"--undefined--\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -160,7 +170,9 @@
           "start": 554,
           "end": 555,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -192,7 +204,9 @@
                     "start": 584,
                     "end": 630,
                     "value": "#1: \"--undefined--\".search() === 0. Actual: ",
-                    "raw": "'#1: \"--undefined--\".search() === 0. Actual: '"
+                    "raw": "'#1: \"--undefined--\".search() === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -212,7 +226,9 @@
                           "start": 634,
                           "end": 649,
                           "value": "--undefined--",
-                          "raw": "\"--undefined--\""
+                          "raw": "\"--undefined--\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",

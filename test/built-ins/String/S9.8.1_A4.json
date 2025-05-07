@@ -37,7 +37,9 @@
           "start": 321,
           "end": 331,
           "value": "Infinity",
-          "raw": "\"Infinity\""
+          "raw": "\"Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -69,7 +71,9 @@
                     "start": 360,
                     "end": 407,
                     "value": "#1: String(Infinity) === \"Infinity\". Actual: ",
-                    "raw": "'#1: String(Infinity) === \"Infinity\". Actual: '"
+                    "raw": "'#1: String(Infinity) === \"Infinity\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -152,7 +156,9 @@
           "start": 486,
           "end": 496,
           "value": "Infinity",
-          "raw": "\"Infinity\""
+          "raw": "\"Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -184,7 +190,9 @@
                     "start": 525,
                     "end": 588,
                     "value": "#2: String(Number.POSITIVE_INFINITY) === \"Infinity\". Actual: ",
-                    "raw": "'#2: String(Number.POSITIVE_INFINITY) === \"Infinity\". Actual: '"
+                    "raw": "'#2: String(Number.POSITIVE_INFINITY) === \"Infinity\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -274,7 +282,9 @@
           "start": 668,
           "end": 679,
           "value": "-Infinity",
-          "raw": "\"-Infinity\""
+          "raw": "\"-Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -306,7 +316,9 @@
                     "start": 708,
                     "end": 757,
                     "value": "#3: String(-Infinity) === \"-Infinity\". Actual: ",
-                    "raw": "'#3: String(-Infinity) === \"-Infinity\". Actual: '"
+                    "raw": "'#3: String(-Infinity) === \"-Infinity\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -396,7 +408,9 @@
           "start": 837,
           "end": 848,
           "value": "-Infinity",
-          "raw": "\"-Infinity\""
+          "raw": "\"-Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -428,7 +442,9 @@
                     "start": 877,
                     "end": 941,
                     "value": "#4: String(Number.NEGATIVE_INFINITY) === \"-Infinity\". Actual: ",
-                    "raw": "'#4: String(Number.NEGATIVE_INFINITY) === \"-Infinity\". Actual: '"
+                    "raw": "'#4: String(Number.NEGATIVE_INFINITY) === \"-Infinity\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

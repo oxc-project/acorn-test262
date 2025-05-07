@@ -70,7 +70,9 @@
                             "start": 2139,
                             "end": 2140,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -150,7 +152,9 @@
                                     "start": 2201,
                                     "end": 2202,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -160,7 +164,9 @@
                                   "start": 2206,
                                   "end": 2231,
                                   "value": "definately not a number",
-                                  "raw": "\"definately not a number\""
+                                  "raw": "\"definately not a number\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }

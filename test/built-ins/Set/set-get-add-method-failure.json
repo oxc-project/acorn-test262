@@ -76,7 +76,9 @@
             "start": 540,
             "end": 545,
             "value": "add",
-            "raw": "'add'"
+            "raw": "'add'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

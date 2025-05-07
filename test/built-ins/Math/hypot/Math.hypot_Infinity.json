@@ -60,7 +60,9 @@
                 "start": 307,
                 "end": 308,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -82,7 +84,9 @@
             "start": 331,
             "end": 356,
             "value": "Math.hypot(3, Infinity)",
-            "raw": "'Math.hypot(3, Infinity)'"
+            "raw": "'Math.hypot(3, Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

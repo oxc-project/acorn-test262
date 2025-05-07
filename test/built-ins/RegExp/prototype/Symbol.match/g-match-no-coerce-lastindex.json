@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -140,7 +141,9 @@
                     "start": 837,
                     "end": 841,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "consequent": {
@@ -157,7 +160,9 @@
                         "start": 856,
                         "end": 860,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -184,7 +189,9 @@
                     "start": 880,
                     "end": 884,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -209,7 +216,9 @@
                         "start": 905,
                         "end": 906,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -305,7 +314,9 @@
                                                     "start": 996,
                                                     "end": 1034,
                                                     "value": "This function should not be invoked.",
-                                                    "raw": "'This function should not be invoked.'"
+                                                    "raw": "'This function should not be invoked.'",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 ]
                                               }
@@ -363,7 +374,9 @@
           "start": 1107,
           "end": 1127,
           "value": "a non-empty string",
-          "raw": "'a non-empty string'"
+          "raw": "'a non-empty string'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -413,7 +426,9 @@
             "start": 1145,
             "end": 1147,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,7 +48,9 @@
             "start": 345,
             "end": 346,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -207,7 +209,9 @@
                     "start": 465,
                     "end": 466,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -229,7 +233,9 @@
                 "start": 472,
                 "end": 475,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {
@@ -535,7 +541,9 @@
                                     "start": 869,
                                     "end": 913,
                                     "value": "assert.throwsAsync should return a promise",
-                                    "raw": "\"assert.throwsAsync should return a promise\""
+                                    "raw": "\"assert.throwsAsync should return a promise\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -680,14 +688,18 @@
                             "start": 1054,
                             "end": 1055,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1057,
                             "end": 1092,
                             "value": "$DONE should not have been called",
-                            "raw": "\"$DONE should not have been called\""
+                            "raw": "\"$DONE should not have been called\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -49,14 +49,18 @@
             "start": 372,
             "end": 382,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 386,
             "end": 414,
             "value": "typeof WeakRef is function",
-            "raw": "'typeof WeakRef is function'"
+            "raw": "'typeof WeakRef is function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

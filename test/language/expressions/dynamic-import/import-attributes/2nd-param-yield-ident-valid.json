@@ -52,7 +52,9 @@
                   "start": 607,
                   "end": 631,
                   "value": "./2nd-param_FIXTURE.js",
-                  "raw": "'./2nd-param_FIXTURE.js'"
+                  "raw": "'./2nd-param_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": {
                   "type": "Identifier",
@@ -144,7 +146,9 @@
                             "start": 704,
                             "end": 707,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

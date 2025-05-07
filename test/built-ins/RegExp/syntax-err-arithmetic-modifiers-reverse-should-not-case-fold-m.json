@@ -71,14 +71,18 @@
                         "start": 500,
                         "end": 509,
                         "value": "(?M-:a)",
-                        "raw": "\"(?M-:a)\""
+                        "raw": "\"(?M-:a)\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 511,
                         "end": 514,
                         "value": "i",
-                        "raw": "\"i\""
+                        "raw": "\"i\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -92,7 +96,9 @@
             "start": 520,
             "end": 546,
             "value": "RegExp(\"(?M-:a)\", \"i\"): ",
-            "raw": "'RegExp(\"(?M-:a)\", \"i\"): '"
+            "raw": "'RegExp(\"(?M-:a)\", \"i\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

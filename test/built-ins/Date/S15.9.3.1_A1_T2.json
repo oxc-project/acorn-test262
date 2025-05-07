@@ -53,21 +53,27 @@
                   "start": 409,
                   "end": 413,
                   "value": 1899,
-                  "raw": "1899"
+                  "raw": "1899",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 415,
                   "end": 417,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 419,
                   "end": 421,
                   "value": 31,
-                  "raw": "31"
+                  "raw": "31",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -77,14 +83,18 @@
             "start": 426,
             "end": 434,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 511,
             "value": "The value of `typeof new Date(1899, 11, 31)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1899, 11, 31)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1899, 11, 31)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -134,21 +144,27 @@
                 "start": 545,
                 "end": 549,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 551,
                 "end": 553,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 557,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -163,7 +179,9 @@
             "start": 571,
             "end": 634,
             "value": "new Date(1899, 11, 31) is expected to not equal ``undefined``",
-            "raw": "'new Date(1899, 11, 31) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1899, 11, 31) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,21 +218,27 @@
                 "start": 657,
                 "end": 661,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 663,
                 "end": 665,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 667,
                 "end": 669,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -268,14 +292,18 @@
             "start": 701,
             "end": 709,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 765,
             "value": "The value of `typeof x13` is expected to be \"object\"",
-            "raw": "'The value of `typeof x13` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x13` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,21 +340,27 @@
                 "start": 788,
                 "end": 792,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 794,
                 "end": 796,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 798,
                 "end": 800,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -379,7 +413,9 @@
             "start": 839,
             "end": 896,
             "value": "The value of x14 is expected to not equal ``undefined``",
-            "raw": "'The value of x14 is expected to not equal ``undefined``'"
+            "raw": "'The value of x14 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -435,21 +471,27 @@
                   "start": 936,
                   "end": 940,
                   "value": 1899,
-                  "raw": "1899"
+                  "raw": "1899",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 942,
                   "end": 944,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 946,
                   "end": 947,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -459,14 +501,18 @@
             "start": 952,
             "end": 960,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 964,
             "end": 1036,
             "value": "The value of `typeof new Date(1899, 12, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1899, 12, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1899, 12, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -516,21 +562,27 @@
                 "start": 1070,
                 "end": 1074,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1076,
                 "end": 1078,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1080,
                 "end": 1081,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -545,7 +597,9 @@
             "start": 1095,
             "end": 1157,
             "value": "new Date(1899, 12, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(1899, 12, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1899, 12, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -582,21 +636,27 @@
                 "start": 1180,
                 "end": 1184,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1186,
                 "end": 1188,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1190,
                 "end": 1191,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -650,14 +710,18 @@
             "start": 1223,
             "end": 1231,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1233,
             "end": 1287,
             "value": "The value of `typeof x23` is expected to be \"object\"",
-            "raw": "'The value of `typeof x23` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x23` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -694,21 +758,27 @@
                 "start": 1310,
                 "end": 1314,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1316,
                 "end": 1318,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1320,
                 "end": 1321,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -761,7 +831,9 @@
             "start": 1360,
             "end": 1417,
             "value": "The value of x24 is expected to not equal ``undefined``",
-            "raw": "'The value of x24 is expected to not equal ``undefined``'"
+            "raw": "'The value of x24 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -817,21 +889,27 @@
                   "start": 1457,
                   "end": 1461,
                   "value": 1900,
-                  "raw": "1900"
+                  "raw": "1900",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1463,
                   "end": 1464,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1466,
                   "end": 1467,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -841,14 +919,18 @@
             "start": 1472,
             "end": 1480,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1484,
             "end": 1555,
             "value": "The value of `typeof new Date(1900, 0, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1900, 0, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1900, 0, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -898,21 +980,27 @@
                 "start": 1589,
                 "end": 1593,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1595,
                 "end": 1596,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1598,
                 "end": 1599,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -927,7 +1015,9 @@
             "start": 1613,
             "end": 1674,
             "value": "new Date(1900, 0, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(1900, 0, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1900, 0, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -964,21 +1054,27 @@
                 "start": 1697,
                 "end": 1701,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1703,
                 "end": 1704,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1706,
                 "end": 1707,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1032,14 +1128,18 @@
             "start": 1739,
             "end": 1747,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1749,
             "end": 1803,
             "value": "The value of `typeof x33` is expected to be \"object\"",
-            "raw": "'The value of `typeof x33` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x33` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1076,21 +1176,27 @@
                 "start": 1826,
                 "end": 1830,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1832,
                 "end": 1833,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1835,
                 "end": 1836,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1143,7 +1249,9 @@
             "start": 1875,
             "end": 1932,
             "value": "The value of x34 is expected to not equal ``undefined``",
-            "raw": "'The value of x34 is expected to not equal ``undefined``'"
+            "raw": "'The value of x34 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1199,21 +1307,27 @@
                   "start": 1972,
                   "end": 1976,
                   "value": 1969,
-                  "raw": "1969"
+                  "raw": "1969",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1978,
                   "end": 1980,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1982,
                   "end": 1984,
                   "value": 31,
-                  "raw": "31"
+                  "raw": "31",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1223,14 +1337,18 @@
             "start": 1989,
             "end": 1997,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2001,
             "end": 2074,
             "value": "The value of `typeof new Date(1969, 11, 31)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1969, 11, 31)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1969, 11, 31)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1280,21 +1398,27 @@
                 "start": 2108,
                 "end": 2112,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2114,
                 "end": 2116,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2118,
                 "end": 2120,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1309,7 +1433,9 @@
             "start": 2134,
             "end": 2197,
             "value": "new Date(1969, 11, 31) is expected to not equal ``undefined``",
-            "raw": "'new Date(1969, 11, 31) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1969, 11, 31) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1346,21 +1472,27 @@
                 "start": 2220,
                 "end": 2224,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2226,
                 "end": 2228,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2230,
                 "end": 2232,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1414,14 +1546,18 @@
             "start": 2264,
             "end": 2272,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2274,
             "end": 2328,
             "value": "The value of `typeof x43` is expected to be \"object\"",
-            "raw": "'The value of `typeof x43` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x43` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1458,21 +1594,27 @@
                 "start": 2351,
                 "end": 2355,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2357,
                 "end": 2359,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2361,
                 "end": 2363,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1525,7 +1667,9 @@
             "start": 2402,
             "end": 2459,
             "value": "The value of x44 is expected to not equal ``undefined``",
-            "raw": "'The value of x44 is expected to not equal ``undefined``'"
+            "raw": "'The value of x44 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1581,21 +1725,27 @@
                   "start": 2499,
                   "end": 2503,
                   "value": 1969,
-                  "raw": "1969"
+                  "raw": "1969",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2505,
                   "end": 2507,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2509,
                   "end": 2510,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1605,14 +1755,18 @@
             "start": 2515,
             "end": 2523,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2527,
             "end": 2599,
             "value": "The value of `typeof new Date(1969, 12, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1969, 12, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1969, 12, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1662,21 +1816,27 @@
                 "start": 2633,
                 "end": 2637,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2639,
                 "end": 2641,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2643,
                 "end": 2644,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1691,7 +1851,9 @@
             "start": 2658,
             "end": 2720,
             "value": "new Date(1969, 12, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(1969, 12, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1969, 12, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1728,21 +1890,27 @@
                 "start": 2743,
                 "end": 2747,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2749,
                 "end": 2751,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2753,
                 "end": 2754,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1796,14 +1964,18 @@
             "start": 2786,
             "end": 2794,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2796,
             "end": 2850,
             "value": "The value of `typeof x53` is expected to be \"object\"",
-            "raw": "'The value of `typeof x53` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x53` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1840,21 +2012,27 @@
                 "start": 2873,
                 "end": 2877,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2879,
                 "end": 2881,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2883,
                 "end": 2884,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1907,7 +2085,9 @@
             "start": 2923,
             "end": 2980,
             "value": "The value of x54 is expected to not equal ``undefined``",
-            "raw": "'The value of x54 is expected to not equal ``undefined``'"
+            "raw": "'The value of x54 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1963,21 +2143,27 @@
                   "start": 3020,
                   "end": 3024,
                   "value": 1970,
-                  "raw": "1970"
+                  "raw": "1970",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 3026,
                   "end": 3027,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 3029,
                   "end": 3030,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1987,14 +2173,18 @@
             "start": 3035,
             "end": 3043,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3047,
             "end": 3118,
             "value": "The value of `typeof new Date(1970, 0, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1970, 0, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1970, 0, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2044,21 +2234,27 @@
                 "start": 3152,
                 "end": 3156,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3158,
                 "end": 3159,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3161,
                 "end": 3162,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2073,7 +2269,9 @@
             "start": 3176,
             "end": 3237,
             "value": "new Date(1970, 0, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(1970, 0, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1970, 0, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2110,21 +2308,27 @@
                 "start": 3260,
                 "end": 3264,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3266,
                 "end": 3267,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3269,
                 "end": 3270,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2178,14 +2382,18 @@
             "start": 3302,
             "end": 3310,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3312,
             "end": 3366,
             "value": "The value of `typeof x63` is expected to be \"object\"",
-            "raw": "'The value of `typeof x63` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x63` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2222,21 +2430,27 @@
                 "start": 3389,
                 "end": 3393,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3395,
                 "end": 3396,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3398,
                 "end": 3399,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2289,7 +2503,9 @@
             "start": 3438,
             "end": 3495,
             "value": "The value of x64 is expected to not equal ``undefined``",
-            "raw": "'The value of x64 is expected to not equal ``undefined``'"
+            "raw": "'The value of x64 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2345,21 +2561,27 @@
                   "start": 3535,
                   "end": 3539,
                   "value": 1999,
-                  "raw": "1999"
+                  "raw": "1999",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 3541,
                   "end": 3543,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 3545,
                   "end": 3547,
                   "value": 31,
-                  "raw": "31"
+                  "raw": "31",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -2369,14 +2591,18 @@
             "start": 3552,
             "end": 3560,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3564,
             "end": 3637,
             "value": "The value of `typeof new Date(1999, 11, 31)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1999, 11, 31)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1999, 11, 31)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2426,21 +2652,27 @@
                 "start": 3671,
                 "end": 3675,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3677,
                 "end": 3679,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3681,
                 "end": 3683,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2455,7 +2687,9 @@
             "start": 3697,
             "end": 3760,
             "value": "new Date(1999, 11, 31) is expected to not equal ``undefined``",
-            "raw": "'new Date(1999, 11, 31) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1999, 11, 31) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2492,21 +2726,27 @@
                 "start": 3783,
                 "end": 3787,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3789,
                 "end": 3791,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3793,
                 "end": 3795,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2560,14 +2800,18 @@
             "start": 3827,
             "end": 3835,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3837,
             "end": 3891,
             "value": "The value of `typeof x73` is expected to be \"object\"",
-            "raw": "'The value of `typeof x73` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x73` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2604,21 +2848,27 @@
                 "start": 3914,
                 "end": 3918,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3920,
                 "end": 3922,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3924,
                 "end": 3926,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2671,7 +2921,9 @@
             "start": 3965,
             "end": 4022,
             "value": "The value of x74 is expected to not equal ``undefined``",
-            "raw": "'The value of x74 is expected to not equal ``undefined``'"
+            "raw": "'The value of x74 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2727,21 +2979,27 @@
                   "start": 4062,
                   "end": 4066,
                   "value": 1999,
-                  "raw": "1999"
+                  "raw": "1999",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4068,
                   "end": 4070,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4072,
                   "end": 4073,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -2751,14 +3009,18 @@
             "start": 4078,
             "end": 4086,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4090,
             "end": 4162,
             "value": "The value of `typeof new Date(1999, 12, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(1999, 12, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(1999, 12, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2808,21 +3070,27 @@
                 "start": 4196,
                 "end": 4200,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4202,
                 "end": 4204,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4206,
                 "end": 4207,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2837,7 +3105,9 @@
             "start": 4221,
             "end": 4283,
             "value": "new Date(1999, 12, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(1999, 12, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(1999, 12, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2874,21 +3144,27 @@
                 "start": 4306,
                 "end": 4310,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4312,
                 "end": 4314,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4316,
                 "end": 4317,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2942,14 +3218,18 @@
             "start": 4349,
             "end": 4357,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4359,
             "end": 4413,
             "value": "The value of `typeof x83` is expected to be \"object\"",
-            "raw": "'The value of `typeof x83` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x83` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2986,21 +3266,27 @@
                 "start": 4436,
                 "end": 4440,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4442,
                 "end": 4444,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4446,
                 "end": 4447,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3053,7 +3339,9 @@
             "start": 4486,
             "end": 4543,
             "value": "The value of x84 is expected to not equal ``undefined``",
-            "raw": "'The value of x84 is expected to not equal ``undefined``'"
+            "raw": "'The value of x84 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3109,21 +3397,27 @@
                   "start": 4583,
                   "end": 4587,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4589,
                   "end": 4590,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4592,
                   "end": 4593,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -3133,14 +3427,18 @@
             "start": 4598,
             "end": 4606,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4610,
             "end": 4681,
             "value": "The value of `typeof new Date(2000, 0, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(2000, 0, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(2000, 0, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3190,21 +3488,27 @@
                 "start": 4715,
                 "end": 4719,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4721,
                 "end": 4722,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4724,
                 "end": 4725,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -3219,7 +3523,9 @@
             "start": 4739,
             "end": 4800,
             "value": "new Date(2000, 0, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(2000, 0, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(2000, 0, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3256,21 +3562,27 @@
                 "start": 4823,
                 "end": 4827,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4829,
                 "end": 4830,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4832,
                 "end": 4833,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3324,14 +3636,18 @@
             "start": 4865,
             "end": 4873,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4875,
             "end": 4929,
             "value": "The value of `typeof x93` is expected to be \"object\"",
-            "raw": "'The value of `typeof x93` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x93` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3368,21 +3684,27 @@
                 "start": 4952,
                 "end": 4956,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4958,
                 "end": 4959,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4961,
                 "end": 4962,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3435,7 +3757,9 @@
             "start": 5001,
             "end": 5058,
             "value": "The value of x94 is expected to not equal ``undefined``",
-            "raw": "'The value of x94 is expected to not equal ``undefined``'"
+            "raw": "'The value of x94 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3491,21 +3815,27 @@
                   "start": 5098,
                   "end": 5102,
                   "value": 2099,
-                  "raw": "2099"
+                  "raw": "2099",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5104,
                   "end": 5106,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5108,
                   "end": 5110,
                   "value": 31,
-                  "raw": "31"
+                  "raw": "31",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -3515,14 +3845,18 @@
             "start": 5115,
             "end": 5123,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5127,
             "end": 5200,
             "value": "The value of `typeof new Date(2099, 11, 31)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(2099, 11, 31)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(2099, 11, 31)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3572,21 +3906,27 @@
                 "start": 5234,
                 "end": 5238,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5240,
                 "end": 5242,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5244,
                 "end": 5246,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -3601,7 +3941,9 @@
             "start": 5260,
             "end": 5323,
             "value": "new Date(2099, 11, 31) is expected to not equal ``undefined``",
-            "raw": "'new Date(2099, 11, 31) is expected to not equal ``undefined``'"
+            "raw": "'new Date(2099, 11, 31) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3638,21 +3980,27 @@
                 "start": 5347,
                 "end": 5351,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5353,
                 "end": 5355,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5357,
                 "end": 5359,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3706,14 +4054,18 @@
             "start": 5392,
             "end": 5400,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5402,
             "end": 5457,
             "value": "The value of `typeof x103` is expected to be \"object\"",
-            "raw": "'The value of `typeof x103` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x103` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3750,21 +4102,27 @@
                 "start": 5481,
                 "end": 5485,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5487,
                 "end": 5489,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5491,
                 "end": 5493,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3817,7 +4175,9 @@
             "start": 5533,
             "end": 5591,
             "value": "The value of x104 is expected to not equal ``undefined``",
-            "raw": "'The value of x104 is expected to not equal ``undefined``'"
+            "raw": "'The value of x104 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3873,21 +4233,27 @@
                   "start": 5631,
                   "end": 5635,
                   "value": 2099,
-                  "raw": "2099"
+                  "raw": "2099",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5637,
                   "end": 5639,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5641,
                   "end": 5642,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -3897,14 +4263,18 @@
             "start": 5647,
             "end": 5655,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5659,
             "end": 5731,
             "value": "The value of `typeof new Date(2099, 12, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(2099, 12, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(2099, 12, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3954,21 +4324,27 @@
                 "start": 5765,
                 "end": 5769,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5771,
                 "end": 5773,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5775,
                 "end": 5776,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -3983,7 +4359,9 @@
             "start": 5790,
             "end": 5852,
             "value": "new Date(2099, 12, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(2099, 12, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(2099, 12, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4020,21 +4398,27 @@
                 "start": 5876,
                 "end": 5880,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5882,
                 "end": 5884,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5886,
                 "end": 5887,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4088,14 +4472,18 @@
             "start": 5920,
             "end": 5928,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5930,
             "end": 5985,
             "value": "The value of `typeof x113` is expected to be \"object\"",
-            "raw": "'The value of `typeof x113` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x113` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4132,21 +4520,27 @@
                 "start": 6009,
                 "end": 6013,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6015,
                 "end": 6017,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6019,
                 "end": 6020,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4199,7 +4593,9 @@
             "start": 6060,
             "end": 6118,
             "value": "The value of x114 is expected to not equal ``undefined``",
-            "raw": "'The value of x114 is expected to not equal ``undefined``'"
+            "raw": "'The value of x114 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4255,21 +4651,27 @@
                   "start": 6158,
                   "end": 6162,
                   "value": 2100,
-                  "raw": "2100"
+                  "raw": "2100",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 6164,
                   "end": 6165,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 6167,
                   "end": 6168,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -4279,14 +4681,18 @@
             "start": 6173,
             "end": 6181,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6185,
             "end": 6256,
             "value": "The value of `typeof new Date(2100, 0, 1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Date(2100, 0, 1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Date(2100, 0, 1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4336,21 +4742,27 @@
                 "start": 6290,
                 "end": 6294,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6296,
                 "end": 6297,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6299,
                 "end": 6300,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -4365,7 +4777,9 @@
             "start": 6314,
             "end": 6375,
             "value": "new Date(2100, 0, 1) is expected to not equal ``undefined``",
-            "raw": "'new Date(2100, 0, 1) is expected to not equal ``undefined``'"
+            "raw": "'new Date(2100, 0, 1) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4402,21 +4816,27 @@
                 "start": 6399,
                 "end": 6403,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6405,
                 "end": 6406,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6408,
                 "end": 6409,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4470,14 +4890,18 @@
             "start": 6442,
             "end": 6450,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6452,
             "end": 6507,
             "value": "The value of `typeof x123` is expected to be \"object\"",
-            "raw": "'The value of `typeof x123` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x123` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4514,21 +4938,27 @@
                 "start": 6531,
                 "end": 6535,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6537,
                 "end": 6538,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6540,
                 "end": 6541,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4581,7 +5011,9 @@
             "start": 6581,
             "end": 6639,
             "value": "The value of x124 is expected to not equal ``undefined``",
-            "raw": "'The value of x124 is expected to not equal ``undefined``'"
+            "raw": "'The value of x124 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

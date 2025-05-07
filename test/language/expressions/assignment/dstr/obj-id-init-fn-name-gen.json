@@ -257,7 +257,9 @@
             "start": 1292,
             "end": 1298,
             "value": "xGen",
-            "raw": "'xGen'"
+            "raw": "'xGen'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +291,9 @@
             "start": 1322,
             "end": 1328,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -314,7 +318,9 @@
                   "start": 1346,
                   "end": 1351,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -336,7 +342,9 @@
                   "start": 1365,
                   "end": 1370,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -358,7 +366,9 @@
                   "start": 1388,
                   "end": 1392,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -380,7 +390,9 @@
                   "start": 1403,
                   "end": 1408,
                   "value": "gen",
-                  "raw": "'gen'"
+                  "raw": "'gen'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

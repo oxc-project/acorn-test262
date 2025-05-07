@@ -88,7 +88,9 @@
             "start": 395,
             "end": 456,
             "value": "`Object.getPrototypeOf(Reflect)` returns `Object.prototype`",
-            "raw": "'`Object.getPrototypeOf(Reflect)` returns `Object.prototype`'"
+            "raw": "'`Object.getPrototypeOf(Reflect)` returns `Object.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

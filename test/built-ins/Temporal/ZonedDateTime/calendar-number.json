@@ -28,7 +28,9 @@
                 "start": 269,
                 "end": 270,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -41,7 +43,9 @@
                   "start": 275,
                   "end": 283,
                   "value": 19761118,
-                  "raw": "19761118"
+                  "raw": "19761118",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -49,14 +53,18 @@
                 "start": 287,
                 "end": 295,
                 "value": 19761118,
-                "raw": "19761118"
+                "raw": "19761118",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 309,
                 "value": 1234567890,
-                "raw": "1234567890"
+                "raw": "1234567890",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -173,6 +181,7 @@
                         "end": 415,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -180,7 +189,9 @@
                         "start": 417,
                         "end": 422,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -196,7 +207,9 @@
                   "start": 434,
                   "end": 483,
                   "value": "A number is not a valid ISO string for Calendar",
-                  "raw": "\"A number is not a valid ISO string for Calendar\""
+                  "raw": "\"A number is not a valid ISO string for Calendar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

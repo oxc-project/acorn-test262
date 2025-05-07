@@ -44,7 +44,9 @@ __ESTREE_TEST__:PASS:
                       "start": 35,
                       "end": 43,
                       "raw": "\"module\"",
-                      "value": "module"
+                      "value": "module",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,

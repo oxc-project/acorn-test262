@@ -31,7 +31,9 @@
         "start": 740,
         "end": 788,
         "value": "./eval-gtbndng-indirect-trlng-comma_FIXTURE.js",
-        "raw": "'./eval-gtbndng-indirect-trlng-comma_FIXTURE.js'"
+        "raw": "'./eval-gtbndng-indirect-trlng-comma_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -74,7 +76,9 @@
             "start": 811,
             "end": 812,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

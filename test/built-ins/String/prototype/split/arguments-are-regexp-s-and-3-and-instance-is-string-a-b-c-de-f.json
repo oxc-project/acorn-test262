@@ -34,7 +34,9 @@
                 "start": 611,
                 "end": 623,
                 "value": "a b c de f",
-                "raw": "\"a b c de f\""
+                "raw": "\"a b c de f\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -66,7 +68,8 @@
             "regex": {
               "pattern": "\\s",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -122,7 +125,9 @@
                 "start": 680,
                 "end": 681,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,21 +161,27 @@
                 "start": 703,
                 "end": 706,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 708,
                 "end": 711,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 713,
                 "end": 716,
                 "value": "c",
-                "raw": "\"c\""
+                "raw": "\"c\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -236,7 +247,9 @@
             "start": 772,
             "end": 846,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +326,9 @@
             "start": 910,
             "end": 991,
             "value": "The value of __split.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __split.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +358,9 @@
               "start": 1185,
               "end": 1186,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -469,7 +486,9 @@
                   "start": 1293,
                   "end": 1374,
                   "value": "The value of __split[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __split[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __split[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

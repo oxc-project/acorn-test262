@@ -44,7 +44,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -60,14 +61,18 @@
             "start": 579,
             "end": 584,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 603,
             "value": "/./.unicodeSets",
-            "raw": "\"/./.unicodeSets\""
+            "raw": "\"/./.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +119,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "d"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -130,14 +136,18 @@
             "start": 641,
             "end": 646,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 648,
             "end": 666,
             "value": "/./d.unicodeSets",
-            "raw": "\"/./d.unicodeSets\""
+            "raw": "\"/./d.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +194,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "g"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -200,14 +211,18 @@
             "start": 704,
             "end": 709,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 729,
             "value": "/./g.unicodeSets",
-            "raw": "\"/./g.unicodeSets\""
+            "raw": "\"/./g.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -254,7 +269,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "i"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -270,14 +286,18 @@
             "start": 767,
             "end": 772,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 792,
             "value": "/./i.unicodeSets",
-            "raw": "\"/./i.unicodeSets\""
+            "raw": "\"/./i.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +344,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "m"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -340,14 +361,18 @@
             "start": 830,
             "end": 835,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 837,
             "end": 855,
             "value": "/./m.unicodeSets",
-            "raw": "\"/./m.unicodeSets\""
+            "raw": "\"/./m.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -394,7 +419,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "s"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -410,14 +436,18 @@
             "start": 893,
             "end": 898,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 900,
             "end": 918,
             "value": "/./s.unicodeSets",
-            "raw": "\"/./s.unicodeSets\""
+            "raw": "\"/./s.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -464,7 +494,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "u"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -480,14 +511,18 @@
             "start": 956,
             "end": 961,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 963,
             "end": 981,
             "value": "/./u.unicodeSets",
-            "raw": "\"/./u.unicodeSets\""
+            "raw": "\"/./u.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +569,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "y"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -550,14 +586,18 @@
             "start": 1019,
             "end": 1024,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1026,
             "end": 1044,
             "value": "/./y.unicodeSets",
-            "raw": "\"/./y.unicodeSets\""
+            "raw": "\"/./y.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -604,7 +644,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "v"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -620,14 +661,18 @@
             "start": 1083,
             "end": 1087,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1089,
             "end": 1107,
             "value": "/./v.unicodeSets",
-            "raw": "\"/./v.unicodeSets\""
+            "raw": "\"/./v.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -674,7 +719,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "dv"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -690,14 +736,18 @@
             "start": 1146,
             "end": 1150,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1152,
             "end": 1171,
             "value": "/./vd.unicodeSets",
-            "raw": "\"/./vd.unicodeSets\""
+            "raw": "\"/./vd.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -744,7 +794,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "gv"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -760,14 +811,18 @@
             "start": 1210,
             "end": 1214,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1216,
             "end": 1235,
             "value": "/./vg.unicodeSets",
-            "raw": "\"/./vg.unicodeSets\""
+            "raw": "\"/./vg.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -814,7 +869,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "iv"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -830,14 +886,18 @@
             "start": 1274,
             "end": 1278,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1280,
             "end": 1299,
             "value": "/./vi.unicodeSets",
-            "raw": "\"/./vi.unicodeSets\""
+            "raw": "\"/./vi.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -884,7 +944,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "mv"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -900,14 +961,18 @@
             "start": 1338,
             "end": 1342,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1344,
             "end": 1363,
             "value": "/./vm.unicodeSets",
-            "raw": "\"/./vm.unicodeSets\""
+            "raw": "\"/./vm.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -954,7 +1019,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "sv"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -970,14 +1036,18 @@
             "start": 1402,
             "end": 1406,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1408,
             "end": 1427,
             "value": "/./vs.unicodeSets",
-            "raw": "\"/./vs.unicodeSets\""
+            "raw": "\"/./vs.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1024,7 +1094,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "vy"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -1040,14 +1111,18 @@
             "start": 1535,
             "end": 1539,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1541,
             "end": 1560,
             "value": "/./vy.unicodeSets",
-            "raw": "\"/./vy.unicodeSets\""
+            "raw": "\"/./vy.unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1101,14 +1176,18 @@
                   "start": 1592,
                   "end": 1595,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1597,
                   "end": 1599,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1126,14 +1205,18 @@
             "start": 1614,
             "end": 1619,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1621,
             "end": 1654,
             "value": "new RegExp('.', '').unicodeSets",
-            "raw": "\"new RegExp('.', '').unicodeSets\""
+            "raw": "\"new RegExp('.', '').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1187,14 +1270,18 @@
                   "start": 1685,
                   "end": 1688,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1690,
                   "end": 1693,
                   "value": "d",
-                  "raw": "\"d\""
+                  "raw": "\"d\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1212,14 +1299,18 @@
             "start": 1708,
             "end": 1713,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1715,
             "end": 1749,
             "value": "new RegExp('.', 'd').unicodeSets",
-            "raw": "\"new RegExp('.', 'd').unicodeSets\""
+            "raw": "\"new RegExp('.', 'd').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1273,14 +1364,18 @@
                   "start": 1780,
                   "end": 1783,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1785,
                   "end": 1788,
                   "value": "g",
-                  "raw": "\"g\""
+                  "raw": "\"g\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1298,14 +1393,18 @@
             "start": 1803,
             "end": 1808,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1810,
             "end": 1844,
             "value": "new RegExp('.', 'g').unicodeSets",
-            "raw": "\"new RegExp('.', 'g').unicodeSets\""
+            "raw": "\"new RegExp('.', 'g').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1359,14 +1458,18 @@
                   "start": 1875,
                   "end": 1878,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1880,
                   "end": 1883,
                   "value": "i",
-                  "raw": "\"i\""
+                  "raw": "\"i\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1384,14 +1487,18 @@
             "start": 1898,
             "end": 1903,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1905,
             "end": 1939,
             "value": "new RegExp('.', 'i').unicodeSets",
-            "raw": "\"new RegExp('.', 'i').unicodeSets\""
+            "raw": "\"new RegExp('.', 'i').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1445,14 +1552,18 @@
                   "start": 1970,
                   "end": 1973,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1975,
                   "end": 1978,
                   "value": "m",
-                  "raw": "\"m\""
+                  "raw": "\"m\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1470,14 +1581,18 @@
             "start": 1993,
             "end": 1998,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2000,
             "end": 2034,
             "value": "new RegExp('.', 'm').unicodeSets",
-            "raw": "\"new RegExp('.', 'm').unicodeSets\""
+            "raw": "\"new RegExp('.', 'm').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1531,14 +1646,18 @@
                   "start": 2065,
                   "end": 2068,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2070,
                   "end": 2073,
                   "value": "s",
-                  "raw": "\"s\""
+                  "raw": "\"s\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1556,14 +1675,18 @@
             "start": 2088,
             "end": 2093,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2095,
             "end": 2129,
             "value": "new RegExp('.', 's').unicodeSets",
-            "raw": "\"new RegExp('.', 's').unicodeSets\""
+            "raw": "\"new RegExp('.', 's').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1617,14 +1740,18 @@
                   "start": 2160,
                   "end": 2163,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2165,
                   "end": 2168,
                   "value": "u",
-                  "raw": "\"u\""
+                  "raw": "\"u\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1642,14 +1769,18 @@
             "start": 2183,
             "end": 2188,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2190,
             "end": 2224,
             "value": "new RegExp('.', 'u').unicodeSets",
-            "raw": "\"new RegExp('.', 'u').unicodeSets\""
+            "raw": "\"new RegExp('.', 'u').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1703,14 +1834,18 @@
                   "start": 2255,
                   "end": 2258,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2260,
                   "end": 2263,
                   "value": "y",
-                  "raw": "\"y\""
+                  "raw": "\"y\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1728,14 +1863,18 @@
             "start": 2278,
             "end": 2283,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2285,
             "end": 2319,
             "value": "new RegExp('.', 'y').unicodeSets",
-            "raw": "\"new RegExp('.', 'y').unicodeSets\""
+            "raw": "\"new RegExp('.', 'y').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1789,14 +1928,18 @@
                   "start": 2351,
                   "end": 2354,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2356,
                   "end": 2359,
                   "value": "v",
-                  "raw": "\"v\""
+                  "raw": "\"v\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1814,14 +1957,18 @@
             "start": 2374,
             "end": 2378,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2380,
             "end": 2414,
             "value": "new RegExp('.', 'v').unicodeSets",
-            "raw": "\"new RegExp('.', 'v').unicodeSets\""
+            "raw": "\"new RegExp('.', 'v').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1875,14 +2022,18 @@
                   "start": 2445,
                   "end": 2448,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2450,
                   "end": 2454,
                   "value": "vd",
-                  "raw": "\"vd\""
+                  "raw": "\"vd\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1900,14 +2051,18 @@
             "start": 2469,
             "end": 2473,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2475,
             "end": 2510,
             "value": "new RegExp('.', 'vd').unicodeSets",
-            "raw": "\"new RegExp('.', 'vd').unicodeSets\""
+            "raw": "\"new RegExp('.', 'vd').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1961,14 +2116,18 @@
                   "start": 2541,
                   "end": 2544,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2546,
                   "end": 2550,
                   "value": "vg",
-                  "raw": "\"vg\""
+                  "raw": "\"vg\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1986,14 +2145,18 @@
             "start": 2565,
             "end": 2569,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2571,
             "end": 2606,
             "value": "new RegExp('.', 'vg').unicodeSets",
-            "raw": "\"new RegExp('.', 'vg').unicodeSets\""
+            "raw": "\"new RegExp('.', 'vg').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2047,14 +2210,18 @@
                   "start": 2637,
                   "end": 2640,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2642,
                   "end": 2646,
                   "value": "vi",
-                  "raw": "\"vi\""
+                  "raw": "\"vi\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -2072,14 +2239,18 @@
             "start": 2661,
             "end": 2665,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2667,
             "end": 2702,
             "value": "new RegExp('.', 'vi').unicodeSets",
-            "raw": "\"new RegExp('.', 'vi').unicodeSets\""
+            "raw": "\"new RegExp('.', 'vi').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2133,14 +2304,18 @@
                   "start": 2733,
                   "end": 2736,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2738,
                   "end": 2742,
                   "value": "vm",
-                  "raw": "\"vm\""
+                  "raw": "\"vm\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -2158,14 +2333,18 @@
             "start": 2757,
             "end": 2761,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2763,
             "end": 2798,
             "value": "new RegExp('.', 'vm').unicodeSets",
-            "raw": "\"new RegExp('.', 'vm').unicodeSets\""
+            "raw": "\"new RegExp('.', 'vm').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2219,14 +2398,18 @@
                   "start": 2829,
                   "end": 2832,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2834,
                   "end": 2838,
                   "value": "vs",
-                  "raw": "\"vs\""
+                  "raw": "\"vs\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -2244,14 +2427,18 @@
             "start": 2853,
             "end": 2857,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2859,
             "end": 2894,
             "value": "new RegExp('.', 'vs').unicodeSets",
-            "raw": "\"new RegExp('.', 'vs').unicodeSets\""
+            "raw": "\"new RegExp('.', 'vs').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2305,14 +2492,18 @@
                   "start": 3011,
                   "end": 3014,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 3016,
                   "end": 3020,
                   "value": "vy",
-                  "raw": "\"vy\""
+                  "raw": "\"vy\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -2330,14 +2521,18 @@
             "start": 3035,
             "end": 3039,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3041,
             "end": 3076,
             "value": "new RegExp('.', 'vy').unicodeSets",
-            "raw": "\"new RegExp('.', 'vy').unicodeSets\""
+            "raw": "\"new RegExp('.', 'vy').unicodeSets\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

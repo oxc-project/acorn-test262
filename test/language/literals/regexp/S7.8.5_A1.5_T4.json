@@ -36,7 +36,9 @@
                     "start": 468,
                     "end": 480,
                     "value": "/\\\r/",
-                    "raw": "\"/\\\\\\u000D/\""
+                    "raw": "\"/\\\\\\u000D/\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -75,7 +77,9 @@
                     "start": 516,
                     "end": 615,
                     "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '"
+                    "raw": "'#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +106,9 @@
                             "start": 624,
                             "end": 636,
                             "value": "/\\\r/",
-                            "raw": "\"/\\\\\\u000D/\""
+                            "raw": "\"/\\\\\\u000D/\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -175,7 +181,9 @@
                   "start": 699,
                   "end": 703,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -207,7 +215,9 @@
                             "start": 735,
                             "end": 834,
                             "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '"
+                            "raw": "'#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

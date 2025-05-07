@@ -75,14 +75,18 @@
             "start": 361,
             "end": 371,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 375,
             "end": 428,
             "value": "`typeof Set.prototype.intersection` is `'function'`",
-            "raw": "\"`typeof Set.prototype.intersection` is `'function'`\""
+            "raw": "\"`typeof Set.prototype.intersection` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 463,
             "end": 477,
             "value": "intersection",
-            "raw": "\"intersection\""
+            "raw": "\"intersection\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 495,
                   "end": 500,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 514,
                   "end": 518,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 536,
                   "end": 540,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

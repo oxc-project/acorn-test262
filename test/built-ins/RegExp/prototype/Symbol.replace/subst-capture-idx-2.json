@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": "b(c)(z)?(.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -78,14 +79,18 @@
                 "start": 1040,
                 "end": 1047,
                 "value": "abcde",
-                "raw": "'abcde'"
+                "raw": "'abcde'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1049,
                 "end": 1062,
                 "value": "[$01$02$03]",
-                "raw": "'[$01$02$03]'"
+                "raw": "'[$01$02$03]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,7 +100,9 @@
             "start": 1065,
             "end": 1073,
             "value": "a[cd]e",
-            "raw": "'a[cd]e'"
+            "raw": "'a[cd]e'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +153,8 @@
                 "regex": {
                   "pattern": "b(c)(z)?(.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -176,14 +184,18 @@
                 "start": 1128,
                 "end": 1135,
                 "value": "abcde",
-                "raw": "'abcde'"
+                "raw": "'abcde'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1137,
                 "end": 1156,
                 "value": "[$01$02$03$04$00]",
-                "raw": "'[$01$02$03$04$00]'"
+                "raw": "'[$01$02$03$04$00]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -193,7 +205,9 @@
             "start": 1159,
             "end": 1173,
             "value": "a[cd$04$00]e",
-            "raw": "'a[cd$04$00]e'"
+            "raw": "'a[cd$04$00]e'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

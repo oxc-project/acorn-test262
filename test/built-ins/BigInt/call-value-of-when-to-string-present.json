@@ -59,7 +59,9 @@
                           "start": 470,
                           "end": 472,
                           "value": 44,
-                          "raw": "44"
+                          "raw": "44",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -114,7 +116,9 @@
                               "start": 532,
                               "end": 545,
                               "value": "unreachable",
-                              "raw": "\"unreachable\""
+                              "raw": "\"unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -184,6 +188,7 @@
             "end": 586,
             "value": null,
             "raw": "44n",
+            "regex": null,
             "bigint": "44"
           }
         ],

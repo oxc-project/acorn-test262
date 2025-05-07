@@ -80,7 +80,9 @@
                     "start": 481,
                     "end": 568,
                     "value": "#1: String.prototype.constructor === String. Actual: String.prototype.constructor ===",
-                    "raw": "'#1: String.prototype.constructor === String. Actual: String.prototype.constructor ==='"
+                    "raw": "'#1: String.prototype.constructor === String. Actual: String.prototype.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -155,7 +155,9 @@
                       "start": 610,
                       "end": 616,
                       "value": "attr",
-                      "raw": "\"attr\""
+                      "raw": "\"attr\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "in",
                     "right": {

@@ -23,7 +23,9 @@
             "start": 321,
             "end": 326,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 374,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -113,42 +116,54 @@
                 "start": 411,
                 "end": 418,
                 "value": "00:00",
-                "raw": "\"00:00\""
+                "raw": "\"00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 445,
                 "value": "+0",
-                "raw": "\"+0\""
+                "raw": "\"+0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 468,
                 "end": 477,
                 "value": "-000:00",
-                "raw": "\"-000:00\""
+                "raw": "\"-000:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 494,
                 "end": 495,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 528,
                 "end": 532,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 562,
                 "end": 566,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -156,6 +171,7 @@
                 "end": 601,
                 "value": null,
                 "raw": "1000n",
+                "regex": null,
                 "bigint": "1000"
               }
             ]
@@ -251,7 +267,9 @@
                               "start": 686,
                               "end": 690,
                               "value": 2021,
-                              "raw": "2021"
+                              "raw": "2021",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -273,7 +291,9 @@
                               "start": 699,
                               "end": 701,
                               "value": 10,
-                              "raw": "10"
+                              "raw": "10",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -295,7 +315,9 @@
                               "start": 708,
                               "end": 710,
                               "value": 28,
-                              "raw": "28"
+                              "raw": "28",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -407,7 +429,9 @@
                             "start": 772,
                             "end": 780,
                             "value": "string",
-                            "raw": "'string'"
+                            "raw": "'string'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {

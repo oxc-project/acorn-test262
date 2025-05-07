@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"#foo.ts\"",
-        "value": "#foo.ts"
+        "value": "#foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -75,7 +77,9 @@ __ESTREE_TEST__:PASS:
         "start": 47,
         "end": 65,
         "raw": "\"#internal/foo.ts\"",
-        "value": "#internal/foo.ts"
+        "value": "#internal/foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -90,7 +94,9 @@ __ESTREE_TEST__:PASS:
         "start": 91,
         "end": 103,
         "raw": "\"pkg/foo.ts\"",
-        "value": "pkg/foo.ts"
+        "value": "pkg/foo.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

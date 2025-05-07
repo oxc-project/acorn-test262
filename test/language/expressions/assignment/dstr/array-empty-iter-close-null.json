@@ -102,7 +102,9 @@
                                 "start": 1341,
                                 "end": 1345,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -150,7 +152,9 @@
                           "start": 1388,
                           "end": 1392,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -297,7 +301,9 @@
                         "start": 1505,
                         "end": 1506,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "AssignmentExpression",

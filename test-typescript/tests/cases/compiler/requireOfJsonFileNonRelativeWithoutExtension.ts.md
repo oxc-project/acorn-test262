@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 27,
           "raw": "\"d.json\"",
-          "value": "d.json"
+          "value": "d.json",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -55,7 +57,9 @@ __ESTREE_TEST__:PASS:
           "start": 64,
           "end": 67,
           "raw": "\"e\"",
-          "value": "e"
+          "value": "e",
+          "regex": null,
+          "bigint": null
         }
       }
     }

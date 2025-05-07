@@ -59,7 +59,9 @@
                           "start": 352,
                           "end": 355,
                           "value": "x",
-                          "raw": "\"x\""
+                          "raw": "\"x\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -129,7 +131,9 @@
                           "start": 401,
                           "end": 404,
                           "value": "y",
-                          "raw": "\"y\""
+                          "raw": "\"y\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -199,7 +203,9 @@
                     "start": 453,
                     "end": 584,
                     "value": "#1.1: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x & y throw \"x\". Actual: ",
-                    "raw": "'#1.1: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x & y throw \"x\". Actual: '"
+                    "raw": "'#1.1: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x & y throw \"x\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -266,7 +272,9 @@
                   "start": 624,
                   "end": 627,
                   "value": "y",
-                  "raw": "\"y\""
+                  "raw": "\"y\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -294,7 +302,9 @@
                           "start": 659,
                           "end": 745,
                           "value": "#1.2: ToInt32(first expression) is called first, and then ToInt32(second expression)",
-                          "raw": "'#1.2: ToInt32(first expression) is called first, and then ToInt32(second expression)'"
+                          "raw": "'#1.2: ToInt32(first expression) is called first, and then ToInt32(second expression)'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -326,7 +336,9 @@
                         "start": 775,
                         "end": 778,
                         "value": "x",
-                        "raw": "\"x\""
+                        "raw": "\"x\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "consequent": {
@@ -358,7 +370,9 @@
                                   "start": 812,
                                   "end": 943,
                                   "value": "#1.3: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x & y throw \"x\". Actual: ",
-                                  "raw": "'#1.3: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x & y throw \"x\". Actual: '"
+                                  "raw": "'#1.3: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x & y throw \"x\". Actual: '",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {

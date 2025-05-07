@@ -279,7 +279,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 252,
                                     "end": 257,
                                     "raw": "\"abc\"",
-                                    "value": "abc"
+                                    "value": "abc",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "expression": true,
                                   "generator": false,

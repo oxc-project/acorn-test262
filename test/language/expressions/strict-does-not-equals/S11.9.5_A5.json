@@ -16,7 +16,9 @@
           "start": 363,
           "end": 365,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -24,7 +26,9 @@
           "start": 370,
           "end": 372,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -52,7 +56,9 @@
                   "start": 401,
                   "end": 416,
                   "value": "#1: \"\" === \"\"",
-                  "raw": "'#1: \"\" === \"\"'"
+                  "raw": "'#1: \"\" === \"\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -74,7 +80,9 @@
           "start": 436,
           "end": 439,
           "value": " ",
-          "raw": "\" \""
+          "raw": "\" \"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -82,7 +90,9 @@
           "start": 444,
           "end": 447,
           "value": " ",
-          "raw": "\" \""
+          "raw": "\" \"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -110,7 +120,9 @@
                   "start": 476,
                   "end": 493,
                   "value": "#2: \" \" === \" \"",
-                  "raw": "'#2: \" \" === \" \"'"
+                  "raw": "'#2: \" \" === \" \"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -132,7 +144,9 @@
           "start": 513,
           "end": 521,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -140,7 +154,9 @@
           "start": 526,
           "end": 534,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -168,7 +184,9 @@
                   "start": 563,
                   "end": 590,
                   "value": "#3: \"string\" === \"string\"",
-                  "raw": "'#3: \"string\" === \"string\"'"
+                  "raw": "'#3: \"string\" === \"string\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -200,7 +218,9 @@
               "start": 612,
               "end": 621,
               "value": " string",
-              "raw": "\" string\""
+              "raw": "\" string\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "!==",
             "right": {
@@ -208,7 +228,9 @@
               "start": 626,
               "end": 635,
               "value": "string ",
-              "raw": "\"string \""
+              "raw": "\"string \"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -238,7 +260,9 @@
                   "start": 665,
                   "end": 694,
                   "value": "#4: \" string\" !== \"string \"",
-                  "raw": "'#4: \" string\" !== \"string \"'"
+                  "raw": "'#4: \" string\" !== \"string \"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -270,7 +294,9 @@
               "start": 716,
               "end": 721,
               "value": "1.0",
-              "raw": "\"1.0\""
+              "raw": "\"1.0\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "!==",
             "right": {
@@ -278,7 +304,9 @@
               "start": 726,
               "end": 729,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -308,7 +336,9 @@
                   "start": 759,
                   "end": 778,
                   "value": "#5: \"1.0\" !== \"1\"",
-                  "raw": "'#5: \"1.0\" !== \"1\"'"
+                  "raw": "'#5: \"1.0\" !== \"1\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

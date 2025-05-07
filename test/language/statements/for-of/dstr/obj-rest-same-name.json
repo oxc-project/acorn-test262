@@ -41,7 +41,9 @@
                   "start": 1112,
                   "end": 1114,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 1123,
                   "end": 1125,
                   "value": 39,
-                  "raw": "39"
+                  "raw": "39",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 1134,
                   "end": 1148,
                   "value": "cheeseburger",
-                  "raw": "'cheeseburger'"
+                  "raw": "'cheeseburger'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -159,7 +165,9 @@
             "start": 1181,
             "end": 1182,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -266,7 +274,9 @@
                   "start": 1234,
                   "end": 1236,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -368,7 +378,9 @@
                   "start": 1297,
                   "end": 1299,
                   "value": 39,
-                  "raw": "39"
+                  "raw": "39",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -426,7 +438,9 @@
                   "start": 1326,
                   "end": 1340,
                   "value": "cheeseburger",
-                  "raw": "'cheeseburger'"
+                  "raw": "'cheeseburger'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -536,7 +550,9 @@
                   "start": 1420,
                   "end": 1421,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -585,7 +601,9 @@
                     "start": 1448,
                     "end": 1449,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -595,7 +613,9 @@
                   "start": 1452,
                   "end": 1455,
                   "value": "y",
-                  "raw": "'y'"
+                  "raw": "'y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -644,7 +664,9 @@
                     "start": 1482,
                     "end": 1483,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -654,7 +676,9 @@
                   "start": 1486,
                   "end": 1489,
                   "value": "z",
-                  "raw": "'z'"
+                  "raw": "'z'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -680,7 +704,9 @@
                 "start": 1505,
                 "end": 1506,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -726,7 +752,9 @@
             "start": 1537,
             "end": 1538,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

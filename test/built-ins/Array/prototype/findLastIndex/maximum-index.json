@@ -61,7 +61,9 @@
             "start": 702,
             "end": 718,
             "value": 9007199254740990,
-            "raw": "9007199254740990"
+            "raw": "9007199254740990",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -273,7 +275,9 @@
                     "start": 901,
                     "end": 905,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -335,14 +339,18 @@
             "start": 953,
             "end": 954,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 980,
             "value": "predicate invoked once",
-            "raw": "'predicate invoked once'"
+            "raw": "'predicate invoked once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -391,7 +399,9 @@
               "start": 1016,
               "end": 1017,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

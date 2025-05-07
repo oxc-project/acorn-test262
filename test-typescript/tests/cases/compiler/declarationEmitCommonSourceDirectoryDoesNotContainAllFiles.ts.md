@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "\"./src/\"",
-        "value": "./src/"
+        "value": "./src/",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -91,7 +93,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 21,
         "raw": "\"b\"",
-        "value": "b"
+        "value": "b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -191,7 +195,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "\"./src/\"",
-        "value": "./src/"
+        "value": "./src/",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

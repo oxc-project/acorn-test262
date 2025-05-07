@@ -44,7 +44,9 @@ __ESTREE_TEST__:PASS:
                     "start": 14,
                     "end": 15,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "quasis": [
@@ -132,7 +134,9 @@ __ESTREE_TEST__:PASS:
                         "start": 58,
                         "end": 59,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "quasis": [
@@ -174,7 +178,9 @@ __ESTREE_TEST__:PASS:
                         "start": 82,
                         "end": 83,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "quasis": [
@@ -205,7 +211,9 @@ __ESTREE_TEST__:PASS:
                     "start": 92,
                     "end": 101,
                     "raw": "\"abc0abc\"",
-                    "value": "abc0abc"
+                    "value": "abc0abc",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -219,7 +227,9 @@ __ESTREE_TEST__:PASS:
                   "start": 113,
                   "end": 122,
                   "raw": "\"abc0abc\"",
-                  "value": "abc0abc"
+                  "value": "abc0abc",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "TemplateLiteral",
@@ -231,7 +241,9 @@ __ESTREE_TEST__:PASS:
                       "start": 133,
                       "end": 134,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "quasis": [

@@ -195,7 +195,9 @@
                 "start": 515,
                 "end": 519,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -220,7 +222,9 @@
                     "start": 529,
                     "end": 532,
                     "value": "i",
-                    "raw": "\"i\""
+                    "raw": "\"i\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -234,7 +238,9 @@
                     "start": 536,
                     "end": 543,
                     "value": "de_DE",
-                    "raw": "\"de_DE\""
+                    "raw": "\"de_DE\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -287,7 +293,9 @@
                       "start": 583,
                       "end": 587,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -316,7 +324,9 @@
                       "start": 605,
                       "end": 614,
                       "value": "invalid",
-                      "raw": "\"invalid\""
+                      "raw": "\"invalid\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -345,7 +355,9 @@
                       "start": 628,
                       "end": 634,
                       "value": "long",
-                      "raw": "\"long\""
+                      "raw": "\"long\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -374,7 +386,9 @@
                       "start": 657,
                       "end": 666,
                       "value": "invalid",
-                      "raw": "\"invalid\""
+                      "raw": "\"invalid\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -739,7 +753,9 @@
                                         "start": 1027,
                                         "end": 1114,
                                         "value": "Internal error: Expected exception was not thrown by Intl.DateTimeFormat for locales ",
-                                        "raw": "\"Internal error: Expected exception was not thrown by Intl.DateTimeFormat for locales \""
+                                        "raw": "\"Internal error: Expected exception was not thrown by Intl.DateTimeFormat for locales \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -755,7 +771,9 @@
                                       "start": 1127,
                                       "end": 1130,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -911,7 +929,9 @@
                                             "start": 1262,
                                             "end": 1279,
                                             "value": "Date.prototype.",
-                                            "raw": "\"Date.prototype.\""
+                                            "raw": "\"Date.prototype.\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -927,7 +947,9 @@
                                           "start": 1286,
                                           "end": 1324,
                                           "value": " didn't throw exception for locales ",
-                                          "raw": "\" didn't throw exception for locales \""
+                                          "raw": "\" didn't throw exception for locales \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -944,7 +966,9 @@
                                       "start": 1337,
                                       "end": 1340,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1203,7 +1227,9 @@
                                         "start": 1628,
                                         "end": 1715,
                                         "value": "Internal error: Expected exception was not thrown by Intl.DateTimeFormat for options ",
-                                        "raw": "\"Internal error: Expected exception was not thrown by Intl.DateTimeFormat for options \""
+                                        "raw": "\"Internal error: Expected exception was not thrown by Intl.DateTimeFormat for options \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1246,7 +1272,9 @@
                                       "start": 1744,
                                       "end": 1747,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1408,7 +1436,9 @@
                                             "start": 1883,
                                             "end": 1900,
                                             "value": "Date.prototype.",
-                                            "raw": "\"Date.prototype.\""
+                                            "raw": "\"Date.prototype.\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1424,7 +1454,9 @@
                                           "start": 1907,
                                           "end": 1945,
                                           "value": " didn't throw exception for options ",
-                                          "raw": "\" didn't throw exception for options \""
+                                          "raw": "\" didn't throw exception for options \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -1468,7 +1500,9 @@
                                       "start": 1974,
                                       "end": 1977,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

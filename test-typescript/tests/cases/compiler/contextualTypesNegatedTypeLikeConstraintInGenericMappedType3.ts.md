@@ -488,7 +488,9 @@ __ESTREE_TEST__:PASS:
               "start": 284,
               "end": 289,
               "raw": "\"div\"",
-              "value": "div"
+              "value": "div",
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
@@ -1203,7 +1205,9 @@ __ESTREE_TEST__:PASS:
                   "start": 893,
                   "end": 894,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {

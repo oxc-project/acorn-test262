@@ -32,7 +32,9 @@ __ESTREE_TEST__:PASS:
             "start": 32,
             "end": 41,
             "raw": "\"noAlias\"",
-            "value": "noAlias"
+            "value": "noAlias",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {

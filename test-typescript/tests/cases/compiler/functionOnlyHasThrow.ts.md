@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
                   "start": 43,
                   "end": 62,
                   "raw": "\"To be implemented\"",
-                  "value": "To be implemented"
+                  "value": "To be implemented",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

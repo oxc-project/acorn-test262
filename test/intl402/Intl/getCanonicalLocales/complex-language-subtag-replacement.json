@@ -35,14 +35,18 @@
                   "start": 1443,
                   "end": 1447,
                   "value": "sh",
-                  "raw": "\"sh\""
+                  "raw": "\"sh\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1449,
                   "end": 1458,
                   "value": "sr-Latn",
-                  "raw": "\"sr-Latn\""
+                  "raw": "\"sr-Latn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 1462,
                   "end": 1471,
                   "value": "sh-Cyrl",
-                  "raw": "\"sh-Cyrl\""
+                  "raw": "\"sh-Cyrl\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1473,
                   "end": 1482,
                   "value": "sr-Cyrl",
-                  "raw": "\"sr-Cyrl\""
+                  "raw": "\"sr-Cyrl\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 1621,
                   "end": 1626,
                   "value": "cnr",
-                  "raw": "\"cnr\""
+                  "raw": "\"cnr\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1628,
                   "end": 1635,
                   "value": "sr-ME",
-                  "raw": "\"sr-ME\""
+                  "raw": "\"sr-ME\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -104,14 +116,18 @@
                   "start": 1639,
                   "end": 1647,
                   "value": "cnr-BA",
-                  "raw": "\"cnr-BA\""
+                  "raw": "\"cnr-BA\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1649,
                   "end": 1656,
                   "value": "sr-BA",
-                  "raw": "\"sr-BA\""
+                  "raw": "\"sr-BA\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -245,7 +261,9 @@
                       "start": 1834,
                       "end": 1838,
                       "value": "\"",
-                      "raw": "\"\\\"\""
+                      "raw": "\"\\\"\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -261,7 +279,9 @@
                     "start": 1853,
                     "end": 1913,
                     "value": "\" is a canonicalized and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonicalized and structurally valid language tag.\""
+                    "raw": "\"\\\" is a canonicalized and structurally valid language tag.\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -372,7 +392,9 @@
                   "start": 2000,
                   "end": 2001,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -421,7 +443,9 @@
                     "start": 2030,
                     "end": 2031,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false

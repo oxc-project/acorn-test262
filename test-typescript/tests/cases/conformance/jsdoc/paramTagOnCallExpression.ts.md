@@ -113,7 +113,9 @@ __ESTREE_TEST__:PASS:
               "start": 103,
               "end": 113,
               "raw": "'inherits'",
-              "value": "inherits"
+              "value": "inherits",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {

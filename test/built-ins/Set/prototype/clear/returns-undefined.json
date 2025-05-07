@@ -99,7 +99,9 @@
             "start": 318,
             "end": 351,
             "value": "`s.clear()` returns `undefined`",
-            "raw": "\"`s.clear()` returns `undefined`\""
+            "raw": "\"`s.clear()` returns `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

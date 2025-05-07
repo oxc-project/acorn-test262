@@ -48,6 +48,7 @@
                 "end": 323,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 325,
                 "end": 330,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -85,14 +88,18 @@
                 "start": 335,
                 "end": 340,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 350,
                 "value": "+01:30",
-                "raw": "\"+01:30\""
+                "raw": "\"+01:30\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },

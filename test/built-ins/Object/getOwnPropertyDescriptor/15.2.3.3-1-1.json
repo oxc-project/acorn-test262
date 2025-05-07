@@ -90,7 +90,9 @@
                         "start": 360,
                         "end": 365,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

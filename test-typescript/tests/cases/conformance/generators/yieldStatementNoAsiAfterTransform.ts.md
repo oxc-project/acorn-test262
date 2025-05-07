@@ -146,7 +146,9 @@ __ESTREE_TEST__:PASS:
                   "start": 168,
                   "end": 169,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "delegate": false
@@ -198,14 +200,18 @@ __ESTREE_TEST__:PASS:
                   "start": 250,
                   "end": 251,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "consequent": {
                   "type": "Literal",
                   "start": 246,
                   "end": 247,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 },
                 "test": {
                   "type": "TSAsExpression",

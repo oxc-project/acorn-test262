@@ -25,7 +25,9 @@
                 "start": 1575,
                 "end": 1576,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -42,7 +44,9 @@
             "start": 1586,
             "end": 1653,
             "value": "if (false) ; else function f() { return \"function declaration\"; }",
-            "raw": "'if (false) ; else function f() { return \"function declaration\"; }'"
+            "raw": "'if (false) ; else function f() { return \"function declaration\"; }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -94,7 +98,9 @@
             "start": 1685,
             "end": 1695,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +152,9 @@
             "start": 1720,
             "end": 1742,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,7 +180,9 @@
             "start": 1754,
             "end": 1757,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

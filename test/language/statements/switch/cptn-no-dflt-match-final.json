@@ -47,7 +47,9 @@
                 "start": 1645,
                 "end": 1676,
                 "value": "1; switch (\"a\") { case \"a\": }",
-                "raw": "'1; switch (\"a\") { case \"a\": }'"
+                "raw": "'1; switch (\"a\") { case \"a\": }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 1694,
             "end": 1727,
             "value": "empty StatementList (lone case)",
-            "raw": "'empty StatementList (lone case)'"
+            "raw": "'empty StatementList (lone case)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                 "start": 1756,
                 "end": 1790,
                 "value": "2; switch (\"a\") { case \"a\": 3; }",
-                "raw": "'2; switch (\"a\") { case \"a\": 3; }'"
+                "raw": "'2; switch (\"a\") { case \"a\": 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -123,14 +129,18 @@
             "start": 1795,
             "end": 1796,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1800,
             "end": 1836,
             "value": "non-empy StatementList (lone case)",
-            "raw": "'non-empy StatementList (lone case)'"
+            "raw": "'non-empy StatementList (lone case)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,7 +190,9 @@
                 "start": 1865,
                 "end": 1906,
                 "value": "4; switch (\"b\") { case \"a\": case \"b\": }",
-                "raw": "'4; switch (\"b\") { case \"a\": case \"b\": }'"
+                "raw": "'4; switch (\"b\") { case \"a\": case \"b\": }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -196,7 +208,9 @@
             "start": 1924,
             "end": 1971,
             "value": "empty StatementList (following an empty case)",
-            "raw": "'empty StatementList (following an empty case)'"
+            "raw": "'empty StatementList (following an empty case)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -246,7 +260,9 @@
                 "start": 2000,
                 "end": 2044,
                 "value": "5; switch (\"b\") { case \"a\": case \"b\": 6; }",
-                "raw": "'5; switch (\"b\") { case \"a\": case \"b\": 6; }'"
+                "raw": "'5; switch (\"b\") { case \"a\": case \"b\": 6; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -256,14 +272,18 @@
             "start": 2049,
             "end": 2050,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2054,
             "end": 2105,
             "value": "non-empty StatementList (following an empty case)",
-            "raw": "'non-empty StatementList (following an empty case)'"
+            "raw": "'non-empty StatementList (following an empty case)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +333,9 @@
                 "start": 2134,
                 "end": 2178,
                 "value": "7; switch (\"b\") { case \"a\": 8; case \"b\": }",
-                "raw": "'7; switch (\"b\") { case \"a\": 8; case \"b\": }'"
+                "raw": "'7; switch (\"b\") { case \"a\": 8; case \"b\": }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -329,7 +351,9 @@
             "start": 2196,
             "end": 2246,
             "value": "empty StatementList (following a non-empty case)",
-            "raw": "'empty StatementList (following a non-empty case)'"
+            "raw": "'empty StatementList (following a non-empty case)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -379,7 +403,9 @@
                 "start": 2275,
                 "end": 2324,
                 "value": "9; switch (\"b\") { case \"a\": 10; case \"b\": 11; }",
-                "raw": "'9; switch (\"b\") { case \"a\": 10; case \"b\": 11; }'"
+                "raw": "'9; switch (\"b\") { case \"a\": 10; case \"b\": 11; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -389,14 +415,18 @@
             "start": 2329,
             "end": 2331,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2335,
             "end": 2389,
             "value": "non-empty StatementList (following a non-empty case)",
-            "raw": "'non-empty StatementList (following a non-empty case)'"
+            "raw": "'non-empty StatementList (following a non-empty case)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 373,
             "end": 382,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -187,7 +189,9 @@
             "start": 486,
             "end": 508,
             "value": "from instance method",
-            "raw": "'from instance method'"
+            "raw": "'from instance method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +236,9 @@
             "start": 531,
             "end": 540,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

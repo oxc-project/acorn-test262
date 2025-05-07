@@ -59,7 +59,9 @@
                           "start": 531,
                           "end": 539,
                           "value": "result",
-                          "raw": "'result'"
+                          "raw": "'result'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -111,7 +113,9 @@
                 "start": 567,
                 "end": 568,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -178,7 +182,9 @@
             "start": 591,
             "end": 605,
             "value": "0 result bar",
-            "raw": "'0 result bar'"
+            "raw": "'0 result bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

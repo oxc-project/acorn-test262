@@ -28,42 +28,54 @@
                 "start": 695,
                 "end": 697,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 701,
                 "end": 704,
                 "value": "u",
-                "raw": "\"u\""
+                "raw": "\"u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 708,
                 "end": 715,
                 "value": "Upper",
-                "raw": "\"Upper\""
+                "raw": "\"Upper\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 719,
                 "end": 728,
                 "value": "upper\u0000",
-                "raw": "\"upper\\0\""
+                "raw": "\"upper\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 732,
                 "end": 743,
                 "value": "uppercase",
-                "raw": "\"uppercase\""
+                "raw": "\"uppercase\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 747,
                 "end": 753,
                 "value": "true",
-                "raw": "\"true\""
+                "raw": "\"true\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -106,7 +118,9 @@
                               "start": 778,
                               "end": 783,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -239,7 +253,9 @@
                               "start": 905,
                               "end": 909,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

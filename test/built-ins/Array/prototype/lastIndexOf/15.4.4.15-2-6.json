@@ -41,7 +41,9 @@
                   "start": 327,
                   "end": 328,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -177,7 +179,9 @@
             "start": 411,
             "end": 412,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -187,7 +191,9 @@
           "start": 416,
           "end": 419,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -215,7 +221,9 @@
             "start": 427,
             "end": 428,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -225,7 +233,9 @@
           "start": 432,
           "end": 435,
           "value": "y",
-          "raw": "\"y\""
+          "raw": "\"y\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -318,7 +328,9 @@
                 "start": 495,
                 "end": 498,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -328,14 +340,18 @@
             "start": 501,
             "end": 502,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 550,
             "value": "Array.prototype.lastIndexOf.call(child, \"x\")",
-            "raw": "'Array.prototype.lastIndexOf.call(child, \"x\")'"
+            "raw": "'Array.prototype.lastIndexOf.call(child, \"x\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +446,9 @@
                 "start": 610,
                 "end": 613,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -446,7 +464,9 @@
               "start": 617,
               "end": 618,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -454,7 +474,9 @@
             "start": 620,
             "end": 666,
             "value": "Array.prototype.lastIndexOf.call(child, \"y\")",
-            "raw": "'Array.prototype.lastIndexOf.call(child, \"y\")'"
+            "raw": "'Array.prototype.lastIndexOf.call(child, \"y\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

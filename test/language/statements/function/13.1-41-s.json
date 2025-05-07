@@ -96,7 +96,9 @@
                         "start": 397,
                         "end": 452,
                         "value": "'use strict'; _13_1_41_s.x = function arguments() {};",
-                        "raw": "\"'use strict'; _13_1_41_s.x = function arguments() {};\""
+                        "raw": "\"'use strict'; _13_1_41_s.x = function arguments() {};\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

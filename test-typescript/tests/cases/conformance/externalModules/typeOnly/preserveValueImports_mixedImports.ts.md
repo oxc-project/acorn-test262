@@ -96,7 +96,9 @@ __ESTREE_TEST__:PASS:
         "start": 42,
         "end": 56,
         "raw": "\"./exports.js\"",
-        "value": "./exports.js"
+        "value": "./exports.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -172,7 +174,9 @@ __ESTREE_TEST__:PASS:
         "start": 47,
         "end": 61,
         "raw": "\"./exports.js\"",
-        "value": "./exports.js"
+        "value": "./exports.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

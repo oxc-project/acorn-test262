@@ -41,7 +41,9 @@
                   "start": 330,
                   "end": 336,
                   "value": "cube",
-                  "raw": "\"cube\""
+                  "raw": "\"cube\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -57,14 +59,18 @@
                   "start": 338,
                   "end": 339,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 340,
                   "end": 346,
                   "value": "five",
-                  "raw": "\"five\""
+                  "raw": "\"five\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -80,14 +86,18 @@
                   "start": 348,
                   "end": 351,
                   "value": "6",
-                  "raw": "\"6\""
+                  "raw": "\"6\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 352,
                   "end": 357,
                   "value": "six",
-                  "raw": "\"six\""
+                  "raw": "\"six\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -130,7 +140,9 @@
           "start": 470,
           "end": 476,
           "value": "cube",
-          "raw": "\"cube\""
+          "raw": "\"cube\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -162,7 +174,9 @@
                     "start": 504,
                     "end": 589,
                     "value": "#1: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map.shape === \"cube\". Actual: ",
-                    "raw": "'#1: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map.shape === \"cube\". Actual: '"
+                    "raw": "'#1: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map.shape === \"cube\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -220,7 +234,9 @@
             "start": 792,
             "end": 799,
             "value": "shape",
-            "raw": "\"shape\""
+            "raw": "\"shape\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -231,7 +247,9 @@
           "start": 805,
           "end": 811,
           "value": "cube",
-          "raw": "\"cube\""
+          "raw": "\"cube\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -263,7 +281,9 @@
                     "start": 839,
                     "end": 927,
                     "value": "#2: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"shape\"] === \"cube\". Actual: ",
-                    "raw": "'#2: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"shape\"] === \"cube\". Actual: '"
+                    "raw": "'#2: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"shape\"] === \"cube\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -285,7 +305,9 @@
                         "start": 937,
                         "end": 944,
                         "value": "shape",
-                        "raw": "\"shape\""
+                        "raw": "\"shape\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -322,7 +344,9 @@
             "start": 1133,
             "end": 1136,
             "value": "5",
-            "raw": "\"5\""
+            "raw": "\"5\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -333,7 +357,9 @@
           "start": 1142,
           "end": 1148,
           "value": "five",
-          "raw": "\"five\""
+          "raw": "\"five\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -365,7 +391,9 @@
                     "start": 1176,
                     "end": 1260,
                     "value": "#3: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"5\"] === \"five\". Actual: ",
-                    "raw": "'#3: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"5\"] === \"five\". Actual: '"
+                    "raw": "'#3: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"5\"] === \"five\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -387,7 +415,9 @@
                         "start": 1270,
                         "end": 1273,
                         "value": "5",
-                        "raw": "\"5\""
+                        "raw": "\"5\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -424,7 +454,9 @@
             "start": 1462,
             "end": 1463,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -435,7 +467,9 @@
           "start": 1469,
           "end": 1475,
           "value": "five",
-          "raw": "\"five\""
+          "raw": "\"five\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -467,7 +501,9 @@
                     "start": 1503,
                     "end": 1585,
                     "value": "#4: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[5] === \"five\". Actual: ",
-                    "raw": "'#4: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[5] === \"five\". Actual: '"
+                    "raw": "'#4: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[5] === \"five\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -489,7 +525,9 @@
                         "start": 1595,
                         "end": 1596,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -526,7 +564,9 @@
             "start": 1785,
             "end": 1788,
             "value": "6",
-            "raw": "\"6\""
+            "raw": "\"6\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -537,7 +577,9 @@
           "start": 1794,
           "end": 1799,
           "value": "six",
-          "raw": "\"six\""
+          "raw": "\"six\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -569,7 +611,9 @@
                     "start": 1827,
                     "end": 1910,
                     "value": "#5: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"6\"] === \"six\". Actual: ",
-                    "raw": "'#5: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"6\"] === \"six\". Actual: '"
+                    "raw": "'#5: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[\"6\"] === \"six\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -591,7 +635,9 @@
                         "start": 1920,
                         "end": 1923,
                         "value": "6",
-                        "raw": "\"6\""
+                        "raw": "\"6\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -628,7 +674,9 @@
             "start": 2112,
             "end": 2113,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -639,7 +687,9 @@
           "start": 2119,
           "end": 2124,
           "value": "six",
-          "raw": "\"six\""
+          "raw": "\"six\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -671,7 +721,9 @@
                     "start": 2152,
                     "end": 2233,
                     "value": "#6: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[6] === \"six\". Actual: ",
-                    "raw": "'#6: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[6] === \"six\". Actual: '"
+                    "raw": "'#6: var __map={shape:\"cube\", 5:\"five\", \"6\":\"six\"}; __map[6] === \"six\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -693,7 +745,9 @@
                         "start": 2243,
                         "end": 2244,
                         "value": 6,
-                        "raw": "6"
+                        "raw": "6",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

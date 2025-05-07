@@ -83,14 +83,18 @@
                               "start": 522,
                               "end": 530,
                               "value": 42240,
-                              "raw": "0x00A500"
+                              "raw": "0x00A500",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 532,
                               "end": 540,
                               "value": 42539,
-                              "raw": "0x00A62B"
+                              "raw": "0x00A62B",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Vai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 613,
             "end": 630,
             "value": "\\p{Script=Vai}",
-            "raw": "\"\\\\p{Script=Vai}\""
+            "raw": "\"\\\\p{Script=Vai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Vaii}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 698,
             "end": 716,
             "value": "\\p{Script=Vaii}",
-            "raw": "\"\\\\p{Script=Vaii}\""
+            "raw": "\"\\\\p{Script=Vaii}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Vai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 779,
             "end": 792,
             "value": "\\p{sc=Vai}",
-            "raw": "\"\\\\p{sc=Vai}\""
+            "raw": "\"\\\\p{sc=Vai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Vaii}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 856,
             "end": 870,
             "value": "\\p{sc=Vaii}",
-            "raw": "\"\\\\p{sc=Vaii}\""
+            "raw": "\"\\\\p{sc=Vaii}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 952,
                               "end": 960,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 962,
                               "end": 970,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 978,
                               "end": 986,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 988,
                               "end": 996,
                               "value": 42239,
-                              "raw": "0x00A4FF"
+                              "raw": "0x00A4FF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1004,
                               "end": 1012,
                               "value": 42540,
-                              "raw": "0x00A62C"
+                              "raw": "0x00A62C",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1014,
                               "end": 1022,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1030,
                               "end": 1038,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1040,
                               "end": 1048,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Vai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1124,
             "end": 1141,
             "value": "\\P{Script=Vai}",
-            "raw": "\"\\\\P{Script=Vai}\""
+            "raw": "\"\\\\P{Script=Vai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Vaii}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1212,
             "end": 1230,
             "value": "\\P{Script=Vaii}",
-            "raw": "\"\\\\P{Script=Vaii}\""
+            "raw": "\"\\\\P{Script=Vaii}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Vai}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1296,
             "end": 1309,
             "value": "\\P{sc=Vai}",
-            "raw": "\"\\\\P{sc=Vai}\""
+            "raw": "\"\\\\P{sc=Vai}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Vaii}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1376,
             "end": 1390,
             "value": "\\P{sc=Vaii}",
-            "raw": "\"\\\\P{sc=Vaii}\""
+            "raw": "\"\\\\P{sc=Vaii}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

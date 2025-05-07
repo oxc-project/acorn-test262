@@ -196,7 +196,9 @@ __ESTREE_TEST__:PASS:
           "start": 76,
           "end": 108,
           "raw": "'./exportAssignClassAndModule_0'",
-          "value": "./exportAssignClassAndModule_0"
+          "value": "./exportAssignClassAndModule_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

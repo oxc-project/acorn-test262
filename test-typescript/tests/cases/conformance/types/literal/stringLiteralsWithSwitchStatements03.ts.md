@@ -35,7 +35,9 @@ __ESTREE_TEST__:PASS:
                   "start": 7,
                   "end": 12,
                   "raw": "\"foo\"",
-                  "value": "foo"
+                  "value": "foo",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -81,7 +83,9 @@ __ESTREE_TEST__:PASS:
                       "start": 21,
                       "end": 26,
                       "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -93,7 +97,9 @@ __ESTREE_TEST__:PASS:
                       "start": 29,
                       "end": 34,
                       "raw": "\"bar\"",
-                      "value": "bar"
+                      "value": "bar",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -136,7 +142,9 @@ __ESTREE_TEST__:PASS:
                   "start": 44,
                   "end": 49,
                   "raw": "\"bar\"",
-                  "value": "bar"
+                  "value": "bar",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -204,14 +212,18 @@ __ESTREE_TEST__:PASS:
               "start": 134,
               "end": 139,
               "raw": "\"baz\"",
-              "value": "baz"
+              "value": "baz",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 126,
               "end": 131,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "CallExpression",
@@ -257,21 +269,27 @@ __ESTREE_TEST__:PASS:
                 "start": 205,
                 "end": 210,
                 "raw": "\"baz\"",
-                "value": "baz"
+                "value": "baz",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "Literal",
                 "start": 197,
                 "end": 202,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "test": {
                 "type": "Literal",
                 "start": 189,
                 "end": 194,
                 "raw": "\"baz\"",
-                "value": "baz"
+                "value": "baz",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -279,7 +297,9 @@ __ESTREE_TEST__:PASS:
               "start": 180,
               "end": 185,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "CallExpression",
@@ -317,7 +337,9 @@ __ESTREE_TEST__:PASS:
             "start": 239,
             "end": 244,
             "raw": "\"bar\"",
-            "value": "bar"
+            "value": "bar",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -390,7 +412,9 @@ __ESTREE_TEST__:PASS:
                 "start": 280,
                 "end": 285,
                 "raw": "\"baz\"",
-                "value": "baz"
+                "value": "baz",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -417,14 +441,18 @@ __ESTREE_TEST__:PASS:
               "start": 337,
               "end": 342,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Literal",
               "start": 347,
               "end": 352,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -450,14 +478,18 @@ __ESTREE_TEST__:PASS:
               "start": 383,
               "end": 388,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Literal",
               "start": 393,
               "end": 398,
               "raw": "\"baz\"",
-              "value": "baz"
+              "value": "baz",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -485,7 +517,9 @@ __ESTREE_TEST__:PASS:
               "start": 432,
               "end": 437,
               "raw": "\"baz\"",
-              "value": "baz"
+              "value": "baz",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -526,7 +560,9 @@ __ESTREE_TEST__:PASS:
               "start": 448,
               "end": 453,
               "raw": "\"baz\"",
-              "value": "baz"
+              "value": "baz",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",

@@ -41,7 +41,9 @@
                   "start": 509,
                   "end": 510,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -129,14 +131,18 @@
                                   "start": 579,
                                   "end": 584,
                                   "value": "foo",
-                                  "raw": "\"foo\""
+                                  "raw": "\"foo\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 586,
                                   "end": 591,
                                   "value": "bar",
-                                  "raw": "\"bar\""
+                                  "raw": "\"bar\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }

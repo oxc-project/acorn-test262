@@ -53,7 +53,9 @@
                   "start": 276,
                   "end": 277,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -75,7 +77,9 @@
                 "start": 289,
                 "end": 293,
                 "value": "-1",
-                "raw": "\"-1\""
+                "raw": "\"-1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -85,7 +89,9 @@
             "start": 296,
             "end": 364,
             "value": "parseInt(-1) must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(-1) must return the same value returned by parseInt(\"-1\")'"
+            "raw": "'parseInt(-1) must return the same value returned by parseInt(\"-1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,14 +164,18 @@
             "start": 412,
             "end": 417,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 465,
             "value": "String(parseInt(Infinity)) must return \"NaN\"",
-            "raw": "'String(parseInt(Infinity)) must return \"NaN\"'"
+            "raw": "'String(parseInt(Infinity)) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,14 +248,18 @@
             "start": 508,
             "end": 513,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 556,
             "value": "String(parseInt(NaN)) must return \"NaN\"",
-            "raw": "'String(parseInt(NaN)) must return \"NaN\"'"
+            "raw": "'String(parseInt(NaN)) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +315,9 @@
                   "start": 586,
                   "end": 587,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -312,14 +328,18 @@
             "start": 590,
             "end": 591,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 593,
             "end": 621,
             "value": "parseInt(-0) must return 0",
-            "raw": "'parseInt(-0) must return 0'"
+            "raw": "'parseInt(-0) must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

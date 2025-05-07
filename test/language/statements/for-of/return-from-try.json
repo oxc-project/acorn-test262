@@ -36,7 +36,9 @@
                 "start": 333,
                 "end": 334,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -60,7 +62,9 @@
                   "start": 361,
                   "end": 418,
                   "value": "This code is unreachable (following `yield` statement).",
-                  "raw": "'This code is unreachable (following `yield` statement).'"
+                  "raw": "'This code is unreachable (following `yield` statement).'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -120,7 +124,9 @@
             "start": 456,
             "end": 457,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -235,7 +241,9 @@
                                     "start": 549,
                                     "end": 551,
                                     "value": 34,
-                                    "raw": "34"
+                                    "raw": "34",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 {
@@ -258,7 +266,9 @@
                                         "start": 583,
                                         "end": 641,
                                         "value": "This code is unreachable (following `return` statement).",
-                                        "raw": "'This code is unreachable (following `return` statement).'"
+                                        "raw": "'This code is unreachable (following `return` statement).'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -300,7 +310,9 @@
                                           "start": 692,
                                           "end": 742,
                                           "value": "This code is unreachable (within `catch` block).",
-                                          "raw": "'This code is unreachable (within `catch` block).'"
+                                          "raw": "'This code is unreachable (within `catch` block).'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }
@@ -330,7 +342,9 @@
                                   "start": 779,
                                   "end": 834,
                                   "value": "This code is unreachable (following `try` statement).",
-                                  "raw": "'This code is unreachable (following `try` statement).'"
+                                  "raw": "'This code is unreachable (following `try` statement).'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -358,7 +372,9 @@
                             "start": 867,
                             "end": 926,
                             "value": "This code is unreachable (following `for..in` statement).",
-                            "raw": "'This code is unreachable (following `for..in` statement).'"
+                            "raw": "'This code is unreachable (following `for..in` statement).'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -413,7 +429,9 @@
             "start": 961,
             "end": 963,
             "value": 34,
-            "raw": "34"
+            "raw": "34",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -458,7 +476,9 @@
             "start": 986,
             "end": 987,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

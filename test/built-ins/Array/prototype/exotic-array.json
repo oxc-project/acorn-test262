@@ -40,7 +40,9 @@
             "start": 509,
             "end": 510,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -50,7 +52,9 @@
           "start": 514,
           "end": 516,
           "value": 42,
-          "raw": "42"
+          "raw": "42",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -119,7 +123,9 @@
             "start": 560,
             "end": 561,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +187,9 @@
               "start": 597,
               "end": 598,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -197,7 +205,9 @@
             "start": 612,
             "end": 632,
             "value": "Array.prototype[0]",
-            "raw": "'Array.prototype[0]'"
+            "raw": "'Array.prototype[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +269,9 @@
               "start": 668,
               "end": 669,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -275,7 +287,9 @@
             "start": 683,
             "end": 703,
             "value": "Array.prototype[1]",
-            "raw": "'Array.prototype[1]'"
+            "raw": "'Array.prototype[1]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +351,9 @@
               "start": 739,
               "end": 740,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -347,14 +363,18 @@
             "start": 743,
             "end": 745,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 767,
             "value": "Array.prototype[2]",
-            "raw": "'Array.prototype[2]'"
+            "raw": "'Array.prototype[2]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,7 +472,9 @@
             "start": 823,
             "end": 839,
             "value": "[object Array]",
-            "raw": "'[object Array]'"
+            "raw": "'[object Array]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

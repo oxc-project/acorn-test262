@@ -104,7 +104,9 @@
                 "start": 513,
                 "end": 522,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -170,7 +172,9 @@
                               "start": 581,
                               "end": 586,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -230,14 +234,18 @@
             "start": 629,
             "end": 630,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 677,
             "value": "ToPrimitive: @@toPrimitive takes precedence",
-            "raw": "\"ToPrimitive: @@toPrimitive takes precedence\""
+            "raw": "\"ToPrimitive: @@toPrimitive takes precedence\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -284,7 +292,9 @@
                 "start": 697,
                 "end": 706,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -337,7 +347,9 @@
                               "start": 753,
                               "end": 758,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -376,14 +388,18 @@
             "start": 784,
             "end": 785,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 840,
             "value": "ToPrimitive: toString takes precedence over valueOf",
-            "raw": "\"ToPrimitive: toString takes precedence over valueOf\""
+            "raw": "\"ToPrimitive: toString takes precedence over valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +446,9 @@
                 "start": 860,
                 "end": 869,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -517,7 +535,9 @@
                               "start": 951,
                               "end": 956,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -535,14 +555,18 @@
             "start": 966,
             "end": 967,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 969,
             "end": 1022,
             "value": "ToPrimitive: skip @@toPrimitive when it's undefined",
-            "raw": "\"ToPrimitive: skip @@toPrimitive when it's undefined\""
+            "raw": "\"ToPrimitive: skip @@toPrimitive when it's undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,7 +613,9 @@
                 "start": 1042,
                 "end": 1051,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -637,7 +663,9 @@
                       "start": 1086,
                       "end": 1090,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -677,7 +705,9 @@
                               "start": 1128,
                               "end": 1133,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -695,14 +725,18 @@
             "start": 1143,
             "end": 1144,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1194,
             "value": "ToPrimitive: skip @@toPrimitive when it's null",
-            "raw": "\"ToPrimitive: skip @@toPrimitive when it's null\""
+            "raw": "\"ToPrimitive: skip @@toPrimitive when it's null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -749,7 +783,9 @@
                 "start": 1214,
                 "end": 1223,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -784,7 +820,9 @@
                       "start": 1246,
                       "end": 1250,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -824,7 +862,9 @@
                               "start": 1287,
                               "end": 1292,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -842,14 +882,18 @@
             "start": 1302,
             "end": 1303,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1305,
             "end": 1356,
             "value": "ToPrimitive: skip toString when it's not callable",
-            "raw": "\"ToPrimitive: skip toString when it's not callable\""
+            "raw": "\"ToPrimitive: skip toString when it's not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -896,7 +940,9 @@
                 "start": 1376,
                 "end": 1385,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -931,7 +977,9 @@
                       "start": 1408,
                       "end": 1409,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -971,7 +1019,9 @@
                               "start": 1446,
                               "end": 1451,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -989,14 +1039,18 @@
             "start": 1461,
             "end": 1462,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1464,
             "end": 1515,
             "value": "ToPrimitive: skip toString when it's not callable",
-            "raw": "\"ToPrimitive: skip toString when it's not callable\""
+            "raw": "\"ToPrimitive: skip toString when it's not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1043,7 +1097,9 @@
                 "start": 1535,
                 "end": 1544,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1117,7 +1173,9 @@
                               "start": 1606,
                               "end": 1611,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1135,14 +1193,18 @@
             "start": 1621,
             "end": 1622,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1624,
             "end": 1675,
             "value": "ToPrimitive: skip toString when it's not callable",
-            "raw": "\"ToPrimitive: skip toString when it's not callable\""
+            "raw": "\"ToPrimitive: skip toString when it's not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1189,7 +1251,9 @@
                 "start": 1695,
                 "end": 1704,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1285,7 +1349,9 @@
                               "start": 1795,
                               "end": 1800,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1303,14 +1369,18 @@
             "start": 1810,
             "end": 1811,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1813,
             "end": 1867,
             "value": "ToPrimitive: skip toString when it returns an object",
-            "raw": "\"ToPrimitive: skip toString when it returns an object\""
+            "raw": "\"ToPrimitive: skip toString when it returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1357,7 +1427,9 @@
                 "start": 1887,
                 "end": 1896,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1421,7 +1493,9 @@
                                   "start": 1950,
                                   "end": 1955,
                                   "value": 12345,
-                                  "raw": "12345"
+                                  "raw": "12345",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1468,7 +1542,9 @@
                               "start": 1998,
                               "end": 2003,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1486,14 +1562,18 @@
             "start": 2013,
             "end": 2014,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2016,
             "end": 2070,
             "value": "ToPrimitive: skip toString when it returns an object",
-            "raw": "\"ToPrimitive: skip toString when it returns an object\""
+            "raw": "\"ToPrimitive: skip toString when it returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1564,7 +1644,9 @@
                         "start": 2113,
                         "end": 2115,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -1612,7 +1694,9 @@
                               "start": 2152,
                               "end": 2153,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -1630,7 +1714,9 @@
             "start": 2163,
             "end": 2218,
             "value": "ToPrimitive: throw when @@toPrimitive is not callable",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1701,7 +1787,9 @@
                         "start": 2261,
                         "end": 2263,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -1766,7 +1854,9 @@
             "start": 2312,
             "end": 2367,
             "value": "ToPrimitive: throw when @@toPrimitive is not callable",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1837,7 +1927,9 @@
                         "start": 2410,
                         "end": 2412,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -1914,7 +2006,9 @@
                                           "start": 2482,
                                           "end": 2483,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -1939,7 +2033,9 @@
             "start": 2501,
             "end": 2558,
             "value": "ToPrimitive: throw when @@toPrimitive returns an object",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2010,7 +2106,9 @@
                         "start": 2601,
                         "end": 2603,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -2097,7 +2195,9 @@
             "start": 2685,
             "end": 2742,
             "value": "ToPrimitive: throw when @@toPrimitive returns an object",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2168,7 +2268,9 @@
                         "start": 2783,
                         "end": 2785,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -2261,7 +2363,9 @@
             "start": 2877,
             "end": 2927,
             "value": "ToPrimitive: propagate errors from @@toPrimitive",
-            "raw": "\"ToPrimitive: propagate errors from @@toPrimitive\""
+            "raw": "\"ToPrimitive: propagate errors from @@toPrimitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2332,7 +2436,9 @@
                         "start": 2968,
                         "end": 2970,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -2416,7 +2522,9 @@
                               "start": 3055,
                               "end": 3059,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -2434,7 +2542,9 @@
             "start": 3069,
             "end": 3113,
             "value": "ToPrimitive: propagate errors from valueOf",
-            "raw": "\"ToPrimitive: propagate errors from valueOf\""
+            "raw": "\"ToPrimitive: propagate errors from valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2505,7 +2615,9 @@
                         "start": 3154,
                         "end": 3156,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -2585,7 +2697,9 @@
             "start": 3236,
             "end": 3281,
             "value": "ToPrimitive: propagate errors from toString",
-            "raw": "\"ToPrimitive: propagate errors from toString\""
+            "raw": "\"ToPrimitive: propagate errors from toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2656,7 +2770,9 @@
                         "start": 3324,
                         "end": 3326,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -2691,7 +2807,9 @@
                               "start": 3350,
                               "end": 3354,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -2713,7 +2831,9 @@
                               "start": 3370,
                               "end": 3374,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -2731,7 +2851,9 @@
             "start": 3384,
             "end": 3444,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2802,7 +2924,9 @@
                         "start": 3487,
                         "end": 3489,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -2837,7 +2961,9 @@
                               "start": 3513,
                               "end": 3514,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -2859,7 +2985,9 @@
                               "start": 3530,
                               "end": 3531,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -2877,7 +3005,9 @@
             "start": 3541,
             "end": 3601,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2948,7 +3078,9 @@
                         "start": 3644,
                         "end": 3646,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -3021,7 +3153,9 @@
             "start": 3700,
             "end": 3760,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3092,7 +3226,9 @@
                         "start": 3803,
                         "end": 3805,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -3156,7 +3292,9 @@
                                           "start": 3862,
                                           "end": 3863,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -3214,7 +3352,9 @@
                                           "start": 3920,
                                           "end": 3921,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -3239,7 +3379,9 @@
             "start": 3939,
             "end": 3999,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3310,7 +3452,9 @@
                         "start": 4042,
                         "end": 4044,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -3427,7 +3571,9 @@
             "start": 4164,
             "end": 4224,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

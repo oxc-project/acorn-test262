@@ -61,7 +61,9 @@
           "start": 251,
           "end": 253,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -219,7 +221,9 @@
             "start": 438,
             "end": 457,
             "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "raw": "'preCheck !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,7 +282,9 @@
             "start": 489,
             "end": 520,
             "value": "Object.isSealed(obj) !== true",
-            "raw": "'Object.isSealed(obj) !== true'"
+            "raw": "'Object.isSealed(obj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

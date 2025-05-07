@@ -33,21 +33,27 @@
                     "start": 310,
                     "end": 315,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 317,
                     "end": 359,
                     "value": "1970-01-01T01:01:01.987654321+00:00[UTC]",
-                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\""
+                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 361,
                     "end": 375,
                     "value": "built-in UTC",
-                    "raw": "\"built-in UTC\""
+                    "raw": "\"built-in UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -61,21 +67,27 @@
                     "start": 381,
                     "end": 389,
                     "value": "+01:00",
-                    "raw": "\"+01:00\""
+                    "raw": "\"+01:00\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 391,
                     "end": 436,
                     "value": "1970-01-01T02:01:01.987654321+01:00[+01:00]",
-                    "raw": "\"1970-01-01T02:01:01.987654321+01:00[+01:00]\""
+                    "raw": "\"1970-01-01T02:01:01.987654321+01:00[+01:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 438,
                     "end": 455,
                     "value": "built-in offset",
-                    "raw": "\"built-in offset\""
+                    "raw": "\"built-in offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -185,6 +197,7 @@
                       "end": 578,
                       "value": null,
                       "raw": "3661_987_654_321n",
+                      "regex": null,
                       "bigint": "3661987654321"
                     },
                     {
@@ -261,7 +274,9 @@
                             "start": 638,
                             "end": 644,
                             "value": "auto",
-                            "raw": "\"auto\""
+                            "raw": "\"auto\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }

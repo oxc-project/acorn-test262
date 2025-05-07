@@ -93,7 +93,9 @@
                   "start": 445,
                   "end": 520,
                   "value": "#1: TypeError is subclass of Error from instanceof operator point of view",
-                  "raw": "'#1: TypeError is subclass of Error from instanceof operator point of view'"
+                  "raw": "'#1: TypeError is subclass of Error from instanceof operator point of view'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -149,7 +151,9 @@
                   "start": 755,
                   "end": 830,
                   "value": "#2: TypeError is subclass of Error from instanceof operator point of view",
-                  "raw": "'#2: TypeError is subclass of Error from instanceof operator point of view'"
+                  "raw": "'#2: TypeError is subclass of Error from instanceof operator point of view'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -189,7 +193,9 @@
                 "start": 936,
                 "end": 944,
                 "value": "failed",
-                "raw": "'failed'"
+                "raw": "'failed'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -257,7 +263,9 @@
                   "start": 1094,
                   "end": 1169,
                   "value": "#3: TypeError is subclass of Error from instanceof operator point of view",
-                  "raw": "'#3: TypeError is subclass of Error from instanceof operator point of view'"
+                  "raw": "'#3: TypeError is subclass of Error from instanceof operator point of view'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -313,7 +321,9 @@
                   "start": 1404,
                   "end": 1479,
                   "value": "#4: TypeError is subclass of Error from instanceof operator point of view",
-                  "raw": "'#4: TypeError is subclass of Error from instanceof operator point of view'"
+                  "raw": "'#4: TypeError is subclass of Error from instanceof operator point of view'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

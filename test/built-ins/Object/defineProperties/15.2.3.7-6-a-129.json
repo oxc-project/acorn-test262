@@ -157,7 +157,9 @@
                                       "start": 469,
                                       "end": 470,
                                       "value": 9,
-                                      "raw": "9"
+                                      "raw": "9",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "kind": "init"
@@ -231,14 +233,18 @@
             "start": 516,
             "end": 517,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 531,
             "value": "arr.length",
-            "raw": "'arr.length'"
+            "raw": "'arr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -54,7 +54,9 @@
             "start": 487,
             "end": 511,
             "value": "NoSubstitutionTemplate",
-            "raw": "'NoSubstitutionTemplate'"
+            "raw": "'NoSubstitutionTemplate'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

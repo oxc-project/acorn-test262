@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\x",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 396,
                 "end": 399,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -62,7 +65,9 @@
             "start": 402,
             "end": 409,
             "value": "/\\x/",
-            "raw": "\"/\\\\x/\""
+            "raw": "\"/\\\\x/\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -100,7 +105,8 @@
                 "regex": {
                   "pattern": "\\xa",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -117,7 +123,9 @@
                 "start": 430,
                 "end": 434,
                 "value": "xa",
-                "raw": "\"xa\""
+                "raw": "\"xa\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -127,7 +135,9 @@
             "start": 437,
             "end": 445,
             "value": "/\\xa/",
-            "raw": "\"/\\\\xa/\""
+            "raw": "\"/\\\\xa/\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,7 +175,8 @@
                 "regex": {
                   "pattern": "\\u",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -182,7 +193,9 @@
                 "start": 484,
                 "end": 487,
                 "value": "u",
-                "raw": "\"u\""
+                "raw": "\"u\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +205,9 @@
             "start": 490,
             "end": 497,
             "value": "/\\u/",
-            "raw": "\"/\\\\u/\""
+            "raw": "\"/\\\\u/\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +245,8 @@
                 "regex": {
                   "pattern": "\\ua",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -247,7 +263,9 @@
                 "start": 518,
                 "end": 522,
                 "value": "ua",
-                "raw": "\"ua\""
+                "raw": "\"ua\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -257,7 +275,9 @@
             "start": 525,
             "end": 533,
             "value": "/\\ua/",
-            "raw": "\"/\\\\ua/\""
+            "raw": "\"/\\\\ua/\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

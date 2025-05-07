@@ -75,7 +75,9 @@
             "start": 389,
             "end": 403,
             "value": "Invalid Date",
-            "raw": "\"Invalid Date\""
+            "raw": "\"Invalid Date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

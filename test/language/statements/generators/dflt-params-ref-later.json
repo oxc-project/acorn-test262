@@ -23,7 +23,9 @@
             "start": 1797,
             "end": 1798,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1817,
             "end": 1818,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -129,7 +133,9 @@
                   "start": 1873,
                   "end": 1874,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -249,14 +255,18 @@
             "start": 1962,
             "end": 1963,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1965,
             "end": 2004,
             "value": "generator function body not evaluated",
-            "raw": "'generator function body not evaluated'"
+            "raw": "'generator function body not evaluated'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

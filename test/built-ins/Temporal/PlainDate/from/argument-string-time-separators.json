@@ -33,14 +33,18 @@
                     "start": 302,
                     "end": 320,
                     "value": "2000-05-02T15:23",
-                    "raw": "\"2000-05-02T15:23\""
+                    "raw": "\"2000-05-02T15:23\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 322,
                     "end": 335,
                     "value": "uppercase T",
-                    "raw": "\"uppercase T\""
+                    "raw": "\"uppercase T\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 341,
                     "end": 359,
                     "value": "2000-05-02t15:23",
-                    "raw": "\"2000-05-02t15:23\""
+                    "raw": "\"2000-05-02t15:23\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 361,
                     "end": 374,
                     "value": "lowercase T",
-                    "raw": "\"lowercase T\""
+                    "raw": "\"lowercase T\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 380,
                     "end": 398,
                     "value": "2000-05-02 15:23",
-                    "raw": "\"2000-05-02 15:23\""
+                    "raw": "\"2000-05-02 15:23\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 400,
                     "end": 429,
                     "value": "space between date and time",
-                    "raw": "\"space between date and time\""
+                    "raw": "\"space between date and time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -258,28 +270,36 @@
                         "start": 575,
                         "end": 579,
                         "value": 2000,
-                        "raw": "2000"
+                        "raw": "2000",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 581,
                         "end": 582,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 584,
                         "end": 589,
                         "value": "M05",
-                        "raw": "\"M05\""
+                        "raw": "\"M05\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 591,
                         "end": 592,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

@@ -31,7 +31,9 @@
                 "start": 542,
                 "end": 544,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",

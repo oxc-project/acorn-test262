@@ -47,7 +47,9 @@
                 "start": 300,
                 "end": 309,
                 "value": " 1",
-                "raw": "\"\\u20281\""
+                "raw": "\"\\u20281\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -68,7 +70,9 @@
                 "start": 321,
                 "end": 324,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -78,7 +82,9 @@
             "start": 327,
             "end": 402,
             "value": "parseInt(\"\\u20281\") must return the same value returned by parseInt(\"1\")",
-            "raw": "'parseInt(\"\\\\u20281\") must return the same value returned by parseInt(\"1\")'"
+            "raw": "'parseInt(\"\\\\u20281\") must return the same value returned by parseInt(\"1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -128,7 +134,9 @@
                 "start": 431,
                 "end": 447,
                 "value": "  -1",
-                "raw": "\"\\u2028\\u2028-1\""
+                "raw": "\"\\u2028\\u2028-1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -149,7 +157,9 @@
                 "start": 459,
                 "end": 463,
                 "value": "-1",
-                "raw": "\"-1\""
+                "raw": "\"-1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -159,7 +169,9 @@
             "start": 466,
             "end": 550,
             "value": "parseInt(\"\\u2028\\u2028-1\") must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(\"\\\\u2028\\\\u2028-1\") must return the same value returned by parseInt(\"-1\")'"
+            "raw": "'parseInt(\"\\\\u2028\\\\u2028-1\") must return the same value returned by parseInt(\"-1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -209,7 +221,9 @@
                 "start": 590,
                 "end": 598,
                 "value": " ",
-                "raw": "\"\\u2028\""
+                "raw": "\"\\u2028\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,7 +239,9 @@
             "start": 606,
             "end": 643,
             "value": "parseInt(\"\\u2028\") must return NaN",
-            "raw": "'parseInt(\"\\\\u2028\") must return NaN'"
+            "raw": "'parseInt(\"\\\\u2028\") must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

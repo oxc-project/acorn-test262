@@ -85,7 +85,9 @@
                     "start": 435,
                     "end": 443,
                     "value": "length",
-                    "raw": "'length'"
+                    "raw": "'length'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -97,7 +99,9 @@
             "start": 448,
             "end": 544,
             "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'"
+            "raw": "'The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +193,9 @@
             "start": 610,
             "end": 695,
             "value": "The value of !!delete Object.prototype.toLocaleString.length is expected to be true",
-            "raw": "'The value of !!delete Object.prototype.toLocaleString.length is expected to be true'"
+            "raw": "'The value of !!delete Object.prototype.toLocaleString.length is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +277,9 @@
                   "start": 758,
                   "end": 766,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -282,7 +290,9 @@
             "start": 771,
             "end": 866,
             "value": "The value of !Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'"
+            "raw": "'The value of !Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

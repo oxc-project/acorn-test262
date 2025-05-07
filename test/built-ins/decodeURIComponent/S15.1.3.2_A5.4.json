@@ -36,7 +36,9 @@
           "start": 337,
           "end": 338,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -68,7 +70,9 @@
                     "start": 367,
                     "end": 414,
                     "value": "#1: decodeURIComponent.length === 1. Actual: ",
-                    "raw": "'#1: decodeURIComponent.length === 1. Actual: '"
+                    "raw": "'#1: decodeURIComponent.length === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

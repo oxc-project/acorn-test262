@@ -81,7 +81,9 @@
                               "start": 1150,
                               "end": 1164,
                               "value": "switch (1) {",
-                              "raw": "'switch (1) {'"
+                              "raw": "'switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -89,7 +91,9 @@
                               "start": 1171,
                               "end": 1183,
                               "value": "  default:",
-                              "raw": "'  default:'"
+                              "raw": "'  default:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -98,7 +102,9 @@
                             "start": 1190,
                             "end": 1243,
                             "value": "    function f() { return \"function declaration\"; }",
-                            "raw": "'    function f() { return \"function declaration\"; }'"
+                            "raw": "'    function f() { return \"function declaration\"; }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -107,7 +113,9 @@
                           "start": 1250,
                           "end": 1293,
                           "value": "}    after = f;        var f = 123;",
-                          "raw": "'}\\\n    after = f;\\\n    \\\n    var f = 123;'"
+                          "raw": "'}\\\n    after = f;\\\n    \\\n    var f = 123;'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -168,7 +176,9 @@
             "start": 1337,
             "end": 1347,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +230,9 @@
             "start": 1376,
             "end": 1398,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

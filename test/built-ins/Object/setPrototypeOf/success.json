@@ -221,7 +221,9 @@
             "start": 763,
             "end": 777,
             "value": "Return value",
-            "raw": "'Return value'"
+            "raw": "'Return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,7 +311,9 @@
                   "start": 833,
                   "end": 846,
                   "value": "test262prop",
-                  "raw": "'test262prop'"
+                  "raw": "'test262prop'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -320,7 +324,9 @@
             "start": 851,
             "end": 898,
             "value": "'test262prop' isn't copied to an own property",
-            "raw": "\"'test262prop' isn't copied to an own property\""
+            "raw": "\"'test262prop' isn't copied to an own property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

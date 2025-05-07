@@ -27,7 +27,9 @@
               "start": 352,
               "end": 370,
               "value": "1\t<=\t1",
-              "raw": "\"1\\u0009<=\\u00091\""
+              "raw": "\"1\\u0009<=\\u00091\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 376,
           "end": 380,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 409,
                   "end": 444,
                   "value": "#1: (1\\u0009<=\\u00091) === true",
-                  "raw": "'#1: (1\\\\u0009<=\\\\u00091) === true'"
+                  "raw": "'#1: (1\\\\u0009<=\\\\u00091) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 469,
               "end": 487,
               "value": "1\u000b<=\u000b1",
-              "raw": "\"1\\u000B<=\\u000B1\""
+              "raw": "\"1\\u000B<=\\u000B1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 493,
           "end": 497,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 526,
                   "end": 561,
                   "value": "#2: (1\\u000B<=\\u000B1) === true",
-                  "raw": "'#2: (1\\\\u000B<=\\\\u000B1) === true'"
+                  "raw": "'#2: (1\\\\u000B<=\\\\u000B1) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -171,7 +183,9 @@
               "start": 588,
               "end": 606,
               "value": "1\f<=\f1",
-              "raw": "\"1\\u000C<=\\u000C1\""
+              "raw": "\"1\\u000C<=\\u000C1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -182,7 +196,9 @@
           "start": 612,
           "end": 616,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +226,9 @@
                   "start": 645,
                   "end": 680,
                   "value": "#3: (1\\u000C<=\\u000C1) === true",
-                  "raw": "'#3: (1\\\\u000C<=\\\\u000C1) === true'"
+                  "raw": "'#3: (1\\\\u000C<=\\\\u000C1) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -243,7 +261,9 @@
               "start": 705,
               "end": 723,
               "value": "1 <= 1",
-              "raw": "\"1\\u0020<=\\u00201\""
+              "raw": "\"1\\u0020<=\\u00201\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -254,7 +274,9 @@
           "start": 729,
           "end": 733,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -282,7 +304,9 @@
                   "start": 762,
                   "end": 797,
                   "value": "#4: (1\\u0020<=\\u00201) === true",
-                  "raw": "'#4: (1\\\\u0020<=\\\\u00201) === true'"
+                  "raw": "'#4: (1\\\\u0020<=\\\\u00201) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -315,7 +339,9 @@
               "start": 822,
               "end": 840,
               "value": "1 <= 1",
-              "raw": "\"1\\u00A0<=\\u00A01\""
+              "raw": "\"1\\u00A0<=\\u00A01\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -326,7 +352,9 @@
           "start": 846,
           "end": 850,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -354,7 +382,9 @@
                   "start": 879,
                   "end": 914,
                   "value": "#5: (1\\u00A0<=\\u00A01) === true",
-                  "raw": "'#5: (1\\\\u00A0<=\\\\u00A01) === true'"
+                  "raw": "'#5: (1\\\\u00A0<=\\\\u00A01) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -387,7 +417,9 @@
               "start": 939,
               "end": 957,
               "value": "1\n<=\n1",
-              "raw": "\"1\\u000A<=\\u000A1\""
+              "raw": "\"1\\u000A<=\\u000A1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -398,7 +430,9 @@
           "start": 963,
           "end": 967,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -426,7 +460,9 @@
                   "start": 996,
                   "end": 1031,
                   "value": "#6: (1\\u000A<=\\u000A1) === true",
-                  "raw": "'#6: (1\\\\u000A<=\\\\u000A1) === true'"
+                  "raw": "'#6: (1\\\\u000A<=\\\\u000A1) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -459,7 +495,9 @@
               "start": 1058,
               "end": 1076,
               "value": "1\r<=\r1",
-              "raw": "\"1\\u000D<=\\u000D1\""
+              "raw": "\"1\\u000D<=\\u000D1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -470,7 +508,9 @@
           "start": 1082,
           "end": 1086,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -498,7 +538,9 @@
                   "start": 1115,
                   "end": 1150,
                   "value": "#7: (1\\u000D<=\\u000D1) === true",
-                  "raw": "'#7: (1\\\\u000D<=\\\\u000D1) === true'"
+                  "raw": "'#7: (1\\\\u000D<=\\\\u000D1) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -531,7 +573,9 @@
               "start": 1175,
               "end": 1193,
               "value": "1 <= 1",
-              "raw": "\"1\\u2028<=\\u20281\""
+              "raw": "\"1\\u2028<=\\u20281\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -542,7 +586,9 @@
           "start": 1199,
           "end": 1203,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -570,7 +616,9 @@
                   "start": 1232,
                   "end": 1267,
                   "value": "#8: (1\\u2028<=\\u20281) === true",
-                  "raw": "'#8: (1\\\\u2028<=\\\\u20281) === true'"
+                  "raw": "'#8: (1\\\\u2028<=\\\\u20281) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -603,7 +651,9 @@
               "start": 1292,
               "end": 1310,
               "value": "1 <= 1",
-              "raw": "\"1\\u2029<=\\u20291\""
+              "raw": "\"1\\u2029<=\\u20291\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -614,7 +664,9 @@
           "start": 1316,
           "end": 1320,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -642,7 +694,9 @@
                   "start": 1349,
                   "end": 1384,
                   "value": "#9: (1\\u2029<=\\u20291) === true",
-                  "raw": "'#9: (1\\\\u2029<=\\\\u20291) === true'"
+                  "raw": "'#9: (1\\\\u2029<=\\\\u20291) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -675,7 +729,9 @@
               "start": 1410,
               "end": 1523,
               "value": "1\t\u000b\f  \n\r  >\t\u000b\f  \n\r  0",
-              "raw": "\"1\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029>\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u20290\""
+              "raw": "\"1\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029>\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u20290\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -686,7 +742,9 @@
           "start": 1529,
           "end": 1533,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -714,7 +772,9 @@
                   "start": 1562,
                   "end": 1709,
                   "value": "#10: (1\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029>\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u20290) === true",
-                  "raw": "'#10: (1\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029>\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u20290) === true'"
+                  "raw": "'#10: (1\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029>\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u20290) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

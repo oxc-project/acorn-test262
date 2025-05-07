@@ -25,7 +25,9 @@
                 "start": 246,
                 "end": 273,
                 "value": "1972-02-11[u-ca=islamicc]",
-                "raw": "\"1972-02-11[u-ca=islamicc]\""
+                "raw": "\"1972-02-11[u-ca=islamicc]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -50,7 +52,9 @@
                       "start": 290,
                       "end": 295,
                       "value": "M12",
-                      "raw": "\"M12\""
+                      "raw": "\"M12\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -72,7 +76,9 @@
                       "start": 302,
                       "end": 304,
                       "value": 25,
-                      "raw": "25"
+                      "raw": "25",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -94,7 +100,9 @@
                       "start": 316,
                       "end": 326,
                       "value": "islamicc",
-                      "raw": "\"islamicc\""
+                      "raw": "\"islamicc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -250,14 +258,18 @@
                         "start": 440,
                         "end": 455,
                         "value": "islamic-civil",
-                        "raw": "\"islamic-civil\""
+                        "raw": "\"islamic-civil\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 457,
                         "end": 487,
                         "value": "calendar ID is canonicalized",
-                        "raw": "\"calendar ID is canonicalized\""
+                        "raw": "\"calendar ID is canonicalized\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

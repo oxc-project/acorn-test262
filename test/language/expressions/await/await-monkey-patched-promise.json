@@ -23,7 +23,9 @@
             "start": 508,
             "end": 509,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 525,
             "end": 527,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -105,7 +109,9 @@
                 "start": 570,
                 "end": 582,
                 "value": "Promise: 1",
-                "raw": "'Promise: 1'"
+                "raw": "'Promise: 1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "BinaryExpression",
@@ -116,7 +122,9 @@
                   "start": 586,
                   "end": 595,
                   "value": "Await: ",
-                  "raw": "'Await: '"
+                  "raw": "'Await: '",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -131,7 +139,9 @@
                 "start": 607,
                 "end": 619,
                 "value": "Promise: 2",
-                "raw": "'Promise: 2'"
+                "raw": "'Promise: 2'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -393,7 +403,9 @@
                     "start": 808,
                     "end": 817,
                     "value": "Await: ",
-                    "raw": "'Await: '"
+                    "raw": "'Await: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -479,7 +491,9 @@
                   "start": 912,
                   "end": 960,
                   "value": "Async/await and promises should be interleaved",
-                  "raw": "'Async/await and promises should be interleaved'"
+                  "raw": "'Async/await and promises should be interleaved'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -524,14 +538,18 @@
                   "start": 997,
                   "end": 998,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1004,
                   "end": 1068,
                   "value": "Monkey-patched \"then\" on native promises should not be called.",
-                  "raw": "'Monkey-patched \"then\" on native promises should not be called.'"
+                  "raw": "'Monkey-patched \"then\" on native promises should not be called.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -695,7 +713,9 @@
                             "start": 1173,
                             "end": 1185,
                             "value": "Promise: 1",
-                            "raw": "'Promise: 1'"
+                            "raw": "'Promise: 1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -781,7 +801,9 @@
                         "start": 1237,
                         "end": 1249,
                         "value": "Promise: 2",
-                        "raw": "'Promise: 2'"
+                        "raw": "'Promise: 2'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

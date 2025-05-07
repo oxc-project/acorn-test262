@@ -105,7 +105,9 @@
               "start": 527,
               "end": 528,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -151,14 +153,18 @@
             "start": 557,
             "end": 558,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 574,
             "value": "return value",
-            "raw": "'return value'"
+            "raw": "'return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,14 +229,18 @@
             "start": 610,
             "end": 611,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 642,
             "value": "[[DateValue]] internal slot",
-            "raw": "'[[DateValue]] internal slot'"
+            "raw": "'[[DateValue]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

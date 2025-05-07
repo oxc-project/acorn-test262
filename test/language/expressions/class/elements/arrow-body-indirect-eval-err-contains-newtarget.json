@@ -59,7 +59,9 @@
                             "start": 1053,
                             "end": 1054,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -76,7 +78,9 @@
                         "start": 1062,
                         "end": 1081,
                         "value": "() => new.target;",
-                        "raw": "'() => new.target;'"
+                        "raw": "'() => new.target;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

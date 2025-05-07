@@ -72,7 +72,9 @@
                 "start": 340,
                 "end": 346,
                 "value": "Zg==",
-                "raw": "\"Zg==\""
+                "raw": "\"Zg==\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -233,7 +235,9 @@
                           "start": 506,
                           "end": 535,
                           "value": "subclass constructor called",
-                          "raw": "\"subclass constructor called\""
+                          "raw": "\"subclass constructor called\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -289,7 +293,9 @@
                 "start": 583,
                 "end": 589,
                 "value": "Zg==",
-                "raw": "\"Zg==\""
+                "raw": "\"Zg==\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

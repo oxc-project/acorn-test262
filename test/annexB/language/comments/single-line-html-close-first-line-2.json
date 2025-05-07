@@ -23,7 +23,9 @@
             "start": 1101,
             "end": 1127,
             "value": "This is not in a comment",
-            "raw": "\"This is not in a comment\""
+            "raw": "\"This is not in a comment\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

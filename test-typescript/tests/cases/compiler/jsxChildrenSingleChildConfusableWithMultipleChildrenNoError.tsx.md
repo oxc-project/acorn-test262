@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 75,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -323,7 +325,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 359,
                                       "end": 366,
                                       "raw": "'Users'",
-                                      "value": "Users"
+                                      "value": "Users",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "JSXElement",
@@ -358,7 +362,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 394,
                                       "end": 404,
                                       "raw": "'Products'",
-                                      "value": "Products"
+                                      "value": "Products",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "JSXElement",

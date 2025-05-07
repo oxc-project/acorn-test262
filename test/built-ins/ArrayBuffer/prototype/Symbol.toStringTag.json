@@ -81,7 +81,9 @@
             "start": 591,
             "end": 604,
             "value": "ArrayBuffer",
-            "raw": "'ArrayBuffer'"
+            "raw": "'ArrayBuffer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +165,9 @@
                   "start": 680,
                   "end": 685,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -185,7 +189,9 @@
                   "start": 701,
                   "end": 706,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -207,7 +213,9 @@
                   "start": 724,
                   "end": 728,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -71,7 +71,9 @@
                         "start": 316,
                         "end": 369,
                         "value": "(function _10_5_7_b_1_fun() { arguments = 10;} ());",
-                        "raw": "\"(function _10_5_7_b_1_fun() { arguments = 10;} ());\""
+                        "raw": "\"(function _10_5_7_b_1_fun() { arguments = 10;} ());\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

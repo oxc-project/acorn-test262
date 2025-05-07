@@ -35,14 +35,18 @@
                   "start": 316,
                   "end": 318,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 320,
                   "end": 325,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -64,7 +68,9 @@
                   "start": 337,
                   "end": 339,
                   "value": 30,
-                  "raw": "30"
+                  "raw": "30",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -146,7 +152,9 @@
                               "start": 401,
                               "end": 403,
                               "value": 10,
-                              "raw": "10"
+                              "raw": "10",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -162,7 +170,9 @@
                           "start": 417,
                           "end": 418,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -265,7 +275,9 @@
                 "start": 479,
                 "end": 484,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -287,7 +299,9 @@
               "start": 499,
               "end": 500,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -295,7 +309,9 @@
             "start": 502,
             "end": 555,
             "value": "Array.prototype.indexOf.call(arr, false, fromIndex)",
-            "raw": "'Array.prototype.indexOf.call(arr, false, fromIndex)'"
+            "raw": "'Array.prototype.indexOf.call(arr, false, fromIndex)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

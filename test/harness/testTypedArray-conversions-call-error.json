@@ -23,7 +23,9 @@
             "start": 304,
             "end": 309,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -116,7 +118,9 @@
                   "start": 386,
                   "end": 390,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -188,7 +192,9 @@
                               "start": 458,
                               "end": 489,
                               "value": "Expected a TypeError, but a \"",
-                              "raw": "'Expected a TypeError, but a \"'"
+                              "raw": "'Expected a TypeError, but a \"'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -230,7 +236,9 @@
                             "start": 521,
                             "end": 536,
                             "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "raw": "'\" was thrown.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -265,7 +273,9 @@
           "start": 565,
           "end": 570,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -293,7 +303,9 @@
                   "start": 592,
                   "end": 640,
                   "value": "Expected a TypeError, but no error was thrown.",
-                  "raw": "'Expected a TypeError, but no error was thrown.'"
+                  "raw": "'Expected a TypeError, but no error was thrown.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

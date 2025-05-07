@@ -242,7 +242,9 @@
             "start": 1061,
             "end": 1107,
             "value": "private getter should have abrupt completion",
-            "raw": "'private getter should have abrupt completion'"
+            "raw": "'private getter should have abrupt completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

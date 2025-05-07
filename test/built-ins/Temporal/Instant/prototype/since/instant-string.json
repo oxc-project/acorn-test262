@@ -48,6 +48,7 @@
                 "end": 355,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -76,7 +77,9 @@
             "start": 369,
             "end": 387,
             "value": "1970-01-01T00:00",
-            "raw": "\"1970-01-01T00:00\""
+            "raw": "\"1970-01-01T00:00\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -164,7 +167,9 @@
             "start": 442,
             "end": 483,
             "value": "bare date-time string is not an instant",
-            "raw": "\"bare date-time string is not an instant\""
+            "raw": "\"bare date-time string is not an instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +195,9 @@
           "start": 492,
           "end": 515,
           "value": "1970-01-01T00:00[UTC]",
-          "raw": "\"1970-01-01T00:00[UTC]\""
+          "raw": "\"1970-01-01T00:00[UTC]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -276,7 +283,9 @@
             "start": 570,
             "end": 617,
             "value": "date-time + IANA annotation is not an instant",
-            "raw": "\"date-time + IANA annotation is not an instant\""
+            "raw": "\"date-time + IANA annotation is not an instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +311,9 @@
           "start": 627,
           "end": 646,
           "value": "1970-01-01T00:00Z",
-          "raw": "\"1970-01-01T00:00Z\""
+          "raw": "\"1970-01-01T00:00Z\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -397,77 +408,99 @@
             "start": 725,
             "end": 726,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 728,
             "end": 729,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 732,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 734,
             "end": 735,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 738,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 741,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 743,
             "end": 744,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 746,
             "end": 747,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 750,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 752,
             "end": 753,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 791,
             "value": "date-time + Z preserves exact time",
-            "raw": "\"date-time + Z preserves exact time\""
+            "raw": "\"date-time + Z preserves exact time\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -493,7 +526,9 @@
           "start": 801,
           "end": 825,
           "value": "1970-01-01T00:00+01:00",
-          "raw": "\"1970-01-01T00:00+01:00\""
+          "raw": "\"1970-01-01T00:00+01:00\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -588,77 +623,99 @@
             "start": 904,
             "end": 905,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 907,
             "end": 908,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 910,
             "end": 911,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 914,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 917,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 919,
             "end": 920,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 926,
             "value": 3600,
-            "raw": "3600"
+            "raw": "3600",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 928,
             "end": 929,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 931,
             "end": 932,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 934,
             "end": 935,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 990,
             "value": "date-time + offset preserves exact time with offset",
-            "raw": "\"date-time + offset preserves exact time with offset\""
+            "raw": "\"date-time + offset preserves exact time with offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -684,7 +741,9 @@
           "start": 1000,
           "end": 1032,
           "value": "1970-01-01T00:00Z[Etc/Ignored]",
-          "raw": "\"1970-01-01T00:00Z[Etc/Ignored]\""
+          "raw": "\"1970-01-01T00:00Z[Etc/Ignored]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -779,77 +838,99 @@
             "start": 1111,
             "end": 1112,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1114,
             "end": 1115,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1117,
             "end": 1118,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1120,
             "end": 1121,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1124,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1126,
             "end": 1127,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1129,
             "end": 1130,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1132,
             "end": 1133,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1135,
             "end": 1136,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1138,
             "end": 1139,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1141,
             "end": 1202,
             "value": "date-time + Z + IANA annotation ignores the IANA annotation",
-            "raw": "\"date-time + Z + IANA annotation ignores the IANA annotation\""
+            "raw": "\"date-time + Z + IANA annotation ignores the IANA annotation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,7 +956,9 @@
           "start": 1212,
           "end": 1249,
           "value": "1970-01-01T00:00+01:00[Etc/Ignored]",
-          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored]\""
+          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -970,77 +1053,99 @@
             "start": 1328,
             "end": 1329,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1331,
             "end": 1332,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1334,
             "end": 1335,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1337,
             "end": 1338,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1340,
             "end": 1341,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1343,
             "end": 1344,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1346,
             "end": 1350,
             "value": 3600,
-            "raw": "3600"
+            "raw": "3600",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1352,
             "end": 1353,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1355,
             "end": 1356,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1358,
             "end": 1359,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1361,
             "end": 1427,
             "value": "date-time + offset + IANA annotation ignores the IANA annotation",
-            "raw": "\"date-time + offset + IANA annotation ignores the IANA annotation\""
+            "raw": "\"date-time + offset + IANA annotation ignores the IANA annotation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1066,7 +1171,9 @@
           "start": 1437,
           "end": 1469,
           "value": "1970-01-01T00:00Z[u-ca=hebrew]",
-          "raw": "\"1970-01-01T00:00Z[u-ca=hebrew]\""
+          "raw": "\"1970-01-01T00:00Z[u-ca=hebrew]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1161,77 +1268,99 @@
             "start": 1548,
             "end": 1549,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1551,
             "end": 1552,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1554,
             "end": 1555,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1557,
             "end": 1558,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1560,
             "end": 1561,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1563,
             "end": 1564,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1566,
             "end": 1567,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1569,
             "end": 1570,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1572,
             "end": 1573,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1575,
             "end": 1576,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1578,
             "end": 1625,
             "value": "date-time + Z + Calendar ignores the Calendar",
-            "raw": "\"date-time + Z + Calendar ignores the Calendar\""
+            "raw": "\"date-time + Z + Calendar ignores the Calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1257,7 +1386,9 @@
           "start": 1635,
           "end": 1672,
           "value": "1970-01-01T00:00+01:00[u-ca=hebrew]",
-          "raw": "\"1970-01-01T00:00+01:00[u-ca=hebrew]\""
+          "raw": "\"1970-01-01T00:00+01:00[u-ca=hebrew]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1352,77 +1483,99 @@
             "start": 1751,
             "end": 1752,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1754,
             "end": 1755,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1757,
             "end": 1758,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1760,
             "end": 1761,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1763,
             "end": 1764,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1766,
             "end": 1767,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1769,
             "end": 1773,
             "value": 3600,
-            "raw": "3600"
+            "raw": "3600",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1775,
             "end": 1776,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1778,
             "end": 1779,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1781,
             "end": 1782,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1784,
             "end": 1836,
             "value": "date-time + offset + Calendar ignores the Calendar",
-            "raw": "\"date-time + offset + Calendar ignores the Calendar\""
+            "raw": "\"date-time + offset + Calendar ignores the Calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1448,7 +1601,9 @@
           "start": 1846,
           "end": 1896,
           "value": "1970-01-01T00:00+01:00[Etc/Ignored][u-ca=hebrew]",
-          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored][u-ca=hebrew]\""
+          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored][u-ca=hebrew]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1543,77 +1698,99 @@
             "start": 1975,
             "end": 1976,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1978,
             "end": 1979,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1981,
             "end": 1982,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1984,
             "end": 1985,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1987,
             "end": 1988,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1990,
             "end": 1991,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1993,
             "end": 1997,
             "value": 3600,
-            "raw": "3600"
+            "raw": "3600",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1999,
             "end": 2000,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2002,
             "end": 2003,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2005,
             "end": 2006,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2008,
             "end": 2098,
             "value": "date-time + offset + IANA annotation + Calendar ignores the Calendar and IANA annotation",
-            "raw": "\"date-time + offset + IANA annotation + Calendar ignores the Calendar and IANA annotation\""
+            "raw": "\"date-time + offset + IANA annotation + Calendar ignores the Calendar and IANA annotation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -60,7 +60,9 @@
           "start": 367,
           "end": 375,
           "value": "global",
-          "raw": "\"global\""
+          "raw": "\"global\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -103,7 +105,9 @@
             "start": 405,
             "end": 415,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ThisExpression",
@@ -166,14 +170,18 @@
             "start": 456,
             "end": 464,
             "value": "global",
-            "raw": "\"global\""
+            "raw": "\"global\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 480,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

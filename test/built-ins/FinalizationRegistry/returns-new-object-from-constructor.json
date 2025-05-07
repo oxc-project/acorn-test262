@@ -205,7 +205,9 @@
             "start": 1113,
             "end": 1148,
             "value": "does not return the same function",
-            "raw": "'does not return the same function'"
+            "raw": "'does not return the same function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,14 +264,18 @@
             "start": 1222,
             "end": 1226,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1228,
             "end": 1240,
             "value": "instanceof",
-            "raw": "'instanceof'"
+            "raw": "'instanceof'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -358,7 +364,9 @@
                   "start": 1321,
                   "end": 1326,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -485,7 +493,9 @@
                   "start": 1462,
                   "end": 1467,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",

@@ -39,7 +39,9 @@
                     "start": 645,
                     "end": 652,
                     "value": "short",
-                    "raw": "\"short\""
+                    "raw": "\"short\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -53,7 +55,9 @@
                     "start": 658,
                     "end": 665,
                     "value": "short",
-                    "raw": "\"short\""
+                    "raw": "\"short\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -67,7 +71,9 @@
                     "start": 671,
                     "end": 677,
                     "value": "long",
-                    "raw": "\"long\""
+                    "raw": "\"long\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -272,7 +278,9 @@
                                         "start": 841,
                                         "end": 851,
                                         "value": "notation",
-                                        "raw": "\"notation\""
+                                        "raw": "\"notation\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -287,7 +295,9 @@
                                     "start": 867,
                                     "end": 876,
                                     "value": "compact",
-                                    "raw": "\"compact\""
+                                    "raw": "\"compact\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -355,7 +365,9 @@
                                         "start": 933,
                                         "end": 949,
                                         "value": "compactDisplay",
-                                        "raw": "\"compactDisplay\""
+                                        "raw": "\"compactDisplay\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -467,7 +479,9 @@
                     "start": 1051,
                     "end": 1067,
                     "value": "compactDisplay",
-                    "raw": "\"compactDisplay\""
+                    "raw": "\"compactDisplay\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -482,7 +496,9 @@
                   "start": 1088,
                   "end": 1092,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -589,14 +605,18 @@
                       "start": 1197,
                       "end": 1207,
                       "value": "notation",
-                      "raw": "\"notation\""
+                      "raw": "\"notation\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1213,
                       "end": 1229,
                       "value": "compactDisplay",
-                      "raw": "\"compactDisplay\""
+                      "raw": "\"compactDisplay\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }

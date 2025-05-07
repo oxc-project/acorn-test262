@@ -34,7 +34,9 @@
                 "start": 405,
                 "end": 414,
                 "value": "seamaid",
-                "raw": "\"seamaid\""
+                "raw": "\"seamaid\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -152,7 +154,9 @@
               "start": 587,
               "end": 597,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -160,7 +164,9 @@
               "start": 600,
               "end": 608,
               "value": "String",
-              "raw": "\"String\""
+              "raw": "\"String\"",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -169,7 +175,9 @@
             "start": 611,
             "end": 614,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -202,7 +210,9 @@
                     "start": 643,
                     "end": 816,
                     "value": "#1: var __str__obj = new String(\"seamaid\"); __str__obj.toString = Object.prototype.toString; __str__obj.toString() === \"[object String]\". Actual: __str__obj.toString() ===",
-                    "raw": "'#1: var __str__obj = new String(\"seamaid\"); __str__obj.toString = Object.prototype.toString; __str__obj.toString() === \"[object String]\". Actual: __str__obj.toString() ==='"
+                    "raw": "'#1: var __str__obj = new String(\"seamaid\"); __str__obj.toString = Object.prototype.toString; __str__obj.toString() === \"[object String]\". Actual: __str__obj.toString() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

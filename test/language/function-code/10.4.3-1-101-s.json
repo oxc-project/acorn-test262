@@ -23,7 +23,9 @@
             "start": 334,
             "end": 335,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -79,7 +81,9 @@
               "start": 378,
               "end": 381,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -140,7 +144,9 @@
                       "start": 415,
                       "end": 427,
                       "value": "use strict",
-                      "raw": "\"use strict\""
+                      "raw": "\"use strict\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "directive": "use strict"
                   },
@@ -161,7 +167,9 @@
                           "start": 436,
                           "end": 440,
                           "value": "ab",
-                          "raw": "\"ab\""
+                          "raw": "\"ab\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -178,7 +186,9 @@
                           "start": 449,
                           "end": 452,
                           "value": "b",
-                          "raw": "\"b\""
+                          "raw": "\"b\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Identifier",
@@ -201,7 +211,9 @@
             "start": 462,
             "end": 466,
             "value": "aa",
-            "raw": "\"aa\""
+            "raw": "\"aa\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +263,9 @@
             "start": 495,
             "end": 498,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

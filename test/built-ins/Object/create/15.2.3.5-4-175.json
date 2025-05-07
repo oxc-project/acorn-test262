@@ -95,7 +95,9 @@
           "start": 424,
           "end": 434,
           "value": "ArgValue",
-          "raw": "\"ArgValue\""
+          "raw": "\"ArgValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -231,14 +233,18 @@
             "start": 520,
             "end": 530,
             "value": "ArgValue",
-            "raw": "\"ArgValue\""
+            "raw": "\"ArgValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 545,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

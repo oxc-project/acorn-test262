@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?-i:\\W)",
               "flags": "iu"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 2731,
                 "end": 2739,
                 "value": "ſ",
-                "raw": "\"\\u017f\""
+                "raw": "\"\\u017f\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 2742,
             "end": 2767,
             "value": "\\W should match ſ",
-            "raw": "\"\\\\W should match \\u017f\""
+            "raw": "\"\\\\W should match \\u017f\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +142,9 @@
                 "start": 2786,
                 "end": 2794,
                 "value": "K",
-                "raw": "\"\\u212a\""
+                "raw": "\"\\u212a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +154,9 @@
             "start": 2797,
             "end": 2822,
             "value": "\\W should match K",
-            "raw": "\"\\\\W should match \\u212a\""
+            "raw": "\"\\\\W should match \\u212a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

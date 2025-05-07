@@ -34,7 +34,9 @@
                 "start": 873,
                 "end": 893,
                 "value": "class C {}{x: 42};",
-                "raw": "'class C {}{x: 42};'"
+                "raw": "'class C {}{x: 42};'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,14 +84,18 @@
             "start": 922,
             "end": 924,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 926,
             "end": 981,
             "value": "it does not evaluate to an Object with the property x",
-            "raw": "'it does not evaluate to an Object with the property x'"
+            "raw": "'it does not evaluate to an Object with the property x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

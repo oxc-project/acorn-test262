@@ -86,6 +86,7 @@
                       "end": 396,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {
@@ -193,21 +194,27 @@
             "start": 491,
             "end": 496,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 530,
             "value": "1970-01-01T00:00:00+00:00[UTC]",
-            "raw": "\"1970-01-01T00:00:00+00:00[UTC]\""
+            "raw": "\"1970-01-01T00:00:00+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 557,
             "value": "offset of UTC is +00:00",
-            "raw": "\"offset of UTC is +00:00\""
+            "raw": "\"offset of UTC is +00:00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -233,21 +240,27 @@
             "start": 565,
             "end": 573,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 610,
             "value": "1970-01-01T01:00:00+01:00[+01:00]",
-            "raw": "\"1970-01-01T01:00:00+01:00[+01:00]\""
+            "raw": "\"1970-01-01T01:00:00+01:00[+01:00]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 629,
             "value": "positive offset",
-            "raw": "\"positive offset\""
+            "raw": "\"positive offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,21 +286,27 @@
             "start": 637,
             "end": 645,
             "value": "-05:00",
-            "raw": "\"-05:00\""
+            "raw": "\"-05:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 647,
             "end": 682,
             "value": "1969-12-31T19:00:00-05:00[-05:00]",
-            "raw": "\"1969-12-31T19:00:00-05:00[-05:00]\""
+            "raw": "\"1969-12-31T19:00:00-05:00[-05:00]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 684,
             "end": 701,
             "value": "negative offset",
-            "raw": "\"negative offset\""
+            "raw": "\"negative offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -44,7 +44,9 @@
             "start": 791,
             "end": 796,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -130,7 +132,9 @@
                               "start": 868,
                               "end": 873,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -207,7 +211,9 @@
                                                   "start": 970,
                                                   "end": 996,
                                                   "value": "should only advance once",
-                                                  "raw": "'should only advance once'"
+                                                  "raw": "'should only advance once'",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }
@@ -236,7 +242,9 @@
                                           "start": 1028,
                                           "end": 1032,
                                           "value": true,
-                                          "raw": "true"
+                                          "raw": "true",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -267,7 +275,9 @@
                                               "start": 1067,
                                               "end": 1072,
                                               "value": false,
-                                              "raw": "false"
+                                              "raw": "false",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           },
@@ -301,7 +311,9 @@
                                                     "start": 1109,
                                                     "end": 1112,
                                                     "value": "0",
-                                                    "raw": "'0'"
+                                                    "raw": "'0'",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   "value": {
                                                     "type": "FunctionExpression",
@@ -326,7 +338,9 @@
                                                             "start": 1138,
                                                             "end": 1143,
                                                             "value": "key",
-                                                            "raw": "'key'"
+                                                            "raw": "'key'",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         }
                                                       ]
@@ -346,7 +360,9 @@
                                                     "start": 1176,
                                                     "end": 1179,
                                                     "value": "1",
-                                                    "raw": "'1'"
+                                                    "raw": "'1'",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   "value": {
                                                     "type": "FunctionExpression",
@@ -458,7 +474,9 @@
                                                   "start": 1354,
                                                   "end": 1379,
                                                   "value": "should only return once",
-                                                  "raw": "'should only return once'"
+                                                  "raw": "'should only return once'",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }
@@ -487,7 +505,9 @@
                                           "start": 1411,
                                           "end": 1415,
                                           "value": true,
-                                          "raw": "true"
+                                          "raw": "true",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -629,7 +649,9 @@
             "start": 1535,
             "end": 1602,
             "value": "iterator should be closed when entry value property access throws",
-            "raw": "'iterator should be closed when entry value property access throws'"
+            "raw": "'iterator should be closed when entry value property access throws'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

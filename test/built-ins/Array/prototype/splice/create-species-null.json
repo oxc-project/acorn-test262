@@ -143,7 +143,9 @@
           "start": 748,
           "end": 752,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -327,7 +329,9 @@
             "start": 873,
             "end": 907,
             "value": "result is an Array exotic object",
-            "raw": "'result is an Array exotic object'"
+            "raw": "'result is an Array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

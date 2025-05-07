@@ -112,14 +112,18 @@ __ESTREE_TEST__:PASS:
                 "start": 115,
                 "end": 120,
                 "raw": "'one'",
-                "value": "one"
+                "value": "one",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 122,
                 "end": 127,
                 "raw": "'two'",
-                "value": "two"
+                "value": "two",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

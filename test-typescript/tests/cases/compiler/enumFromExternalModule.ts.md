@@ -88,7 +88,9 @@ __ESTREE_TEST__:PASS:
           "start": 70,
           "end": 98,
           "raw": "'./enumFromExternalModule_0'",
-          "value": "./enumFromExternalModule_0"
+          "value": "./enumFromExternalModule_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

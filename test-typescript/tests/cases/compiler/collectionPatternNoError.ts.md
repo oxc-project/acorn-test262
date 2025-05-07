@@ -373,7 +373,9 @@ __ESTREE_TEST__:PASS:
                 "start": 305,
                 "end": 309,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -1090,7 +1092,9 @@ __ESTREE_TEST__:PASS:
                         "start": 886,
                         "end": 893,
                         "raw": "\"TType\"",
-                        "value": "TType"
+                        "value": "TType",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {

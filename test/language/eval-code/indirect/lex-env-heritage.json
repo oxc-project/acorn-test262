@@ -63,7 +63,9 @@
             "start": 526,
             "end": 535,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -94,7 +96,9 @@
                 "start": 549,
                 "end": 557,
                 "value": "inside",
-                "raw": "'inside'"
+                "raw": "'inside'",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -133,7 +137,9 @@
                       "start": 580,
                       "end": 581,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -150,7 +156,9 @@
                   "start": 588,
                   "end": 592,
                   "value": "x;",
-                  "raw": "'x;'"
+                  "raw": "'x;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -190,7 +198,9 @@
                       "start": 613,
                       "end": 614,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -207,7 +217,9 @@
                   "start": 621,
                   "end": 639,
                   "value": "\"use strict\"; x;",
-                  "raw": "'\"use strict\"; x;'"
+                  "raw": "'\"use strict\"; x;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -255,14 +267,18 @@
             "start": 679,
             "end": 688,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 707,
             "value": "non strict mode",
-            "raw": "'non strict mode'"
+            "raw": "'non strict mode'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -307,14 +323,18 @@
             "start": 741,
             "end": 750,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 752,
             "end": 765,
             "value": "strict mode",
-            "raw": "'strict mode'"
+            "raw": "'strict mode'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -31,7 +31,9 @@
               "start": 277,
               "end": 289,
               "value": "Use Strict",
-              "raw": "'Use Strict'"
+              "raw": "'Use Strict'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "Use Strict"
           },

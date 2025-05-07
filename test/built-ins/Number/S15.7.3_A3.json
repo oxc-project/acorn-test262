@@ -47,7 +47,9 @@
                 "start": 309,
                 "end": 320,
                 "value": "MIN_VALUE",
-                "raw": "\"MIN_VALUE\""
+                "raw": "\"MIN_VALUE\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 323,
             "end": 376,
             "value": "Number.hasOwnProperty(\"MIN_VALUE\") must return true",
-            "raw": "'Number.hasOwnProperty(\"MIN_VALUE\") must return true'"
+            "raw": "'Number.hasOwnProperty(\"MIN_VALUE\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

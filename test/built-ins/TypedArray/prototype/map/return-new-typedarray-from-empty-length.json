@@ -70,7 +70,9 @@
                             "start": 753,
                             "end": 754,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -185,7 +187,9 @@
                         "start": 839,
                         "end": 862,
                         "value": "new typedArray object",
-                        "raw": "\"new typedArray object\""
+                        "raw": "\"new typedArray object\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -249,7 +253,9 @@
                         "start": 908,
                         "end": 926,
                         "value": "same constructor",
-                        "raw": "\"same constructor\""
+                        "raw": "\"same constructor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -297,7 +303,9 @@
                           "start": 960,
                           "end": 987,
                           "value": "result is an instance of ",
-                          "raw": "\"result is an instance of \""
+                          "raw": "\"result is an instance of \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -423,7 +431,9 @@
                         "start": 1094,
                         "end": 1135,
                         "value": "result has the same prototype of sample",
-                        "raw": "\"result has the same prototype of sample\""
+                        "raw": "\"result has the same prototype of sample\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -481,14 +491,18 @@
                         "start": 1175,
                         "end": 1176,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1178,
                         "end": 1191,
                         "value": "same length",
-                        "raw": "\"same length\""
+                        "raw": "\"same length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -565,7 +579,9 @@
                         "start": 1246,
                         "end": 1258,
                         "value": "new buffer",
-                        "raw": "\"new buffer\""
+                        "raw": "\"new buffer\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

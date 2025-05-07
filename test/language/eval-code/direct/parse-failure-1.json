@@ -52,7 +52,9 @@
                   "start": 380,
                   "end": 398,
                   "value": "x = 1; x\n++",
-                  "raw": "\"x = 1; x\\u000A++\""
+                  "raw": "\"x = 1; x\\u000A++\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -82,7 +84,9 @@
                     "start": 426,
                     "end": 494,
                     "value": "#1.1: eval(\"x = 1; x\\u000A++\") must throw a SyntaxError. Actual: ",
-                    "raw": "'#1.1: eval(\"x = 1; x\\\\u000A++\") must throw a SyntaxError. Actual: '"
+                    "raw": "'#1.1: eval(\"x = 1; x\\\\u000A++\") must throw a SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -105,7 +109,9 @@
                           "start": 503,
                           "end": 521,
                           "value": "x = 1; x\n++",
-                          "raw": "\"x = 1; x\\u000A++\""
+                          "raw": "\"x = 1; x\\u000A++\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -169,7 +175,9 @@
                   "start": 577,
                   "end": 581,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -201,7 +209,9 @@
                             "start": 612,
                             "end": 680,
                             "value": "#1.2: eval(\"x = 1; x\\u000A++\") must throw a SyntaxError. Actual: ",
-                            "raw": "'#1.2: eval(\"x = 1; x\\\\u000A++\") must throw a SyntaxError. Actual: '"
+                            "raw": "'#1.2: eval(\"x = 1; x\\\\u000A++\") must throw a SyntaxError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

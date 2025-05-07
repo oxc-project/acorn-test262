@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 21,
               "end": 22,
               "raw": "6",
-              "value": 6
+              "value": 6,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -114,7 +116,9 @@ __ESTREE_TEST__:PASS:
                       "start": 92,
                       "end": 104,
                       "raw": "\"use strict\"",
-                      "value": "use strict"
+                      "value": "use strict",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -127,7 +131,9 @@ __ESTREE_TEST__:PASS:
                       "start": 114,
                       "end": 139,
                       "raw": "'someStringForEgngInject'",
-                      "value": "someStringForEgngInject"
+                      "value": "someStringForEgngInject",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {

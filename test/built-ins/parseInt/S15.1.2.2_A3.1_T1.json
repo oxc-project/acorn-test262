@@ -47,14 +47,18 @@
                 "start": 276,
                 "end": 280,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 282,
                 "end": 287,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -75,14 +79,18 @@
                 "start": 299,
                 "end": 303,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 307,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -92,7 +100,9 @@
             "start": 310,
             "end": 391,
             "value": "parseInt(\"11\", false) must return the same value returned by parseInt(\"11\", 10)",
-            "raw": "'parseInt(\"11\", false) must return the same value returned by parseInt(\"11\", 10)'"
+            "raw": "'parseInt(\"11\", false) must return the same value returned by parseInt(\"11\", 10)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -142,14 +152,18 @@
                 "start": 431,
                 "end": 435,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 437,
                 "end": 441,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -165,7 +179,9 @@
             "start": 449,
             "end": 487,
             "value": "parseInt(\"11\", true) must return NaN",
-            "raw": "'parseInt(\"11\", true) must return NaN'"
+            "raw": "'parseInt(\"11\", true) must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

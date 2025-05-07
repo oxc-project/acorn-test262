@@ -72,7 +72,9 @@
                 "start": 606,
                 "end": 610,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,14 +84,18 @@
             "start": 613,
             "end": 623,
             "value": "Infinity",
-            "raw": "\"Infinity\""
+            "raw": "\"Infinity\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 641,
             "value": "Infinity value",
-            "raw": "\"Infinity value\""
+            "raw": "\"Infinity value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +203,9 @@
                 "start": 706,
                 "end": 710,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,14 +215,18 @@
             "start": 713,
             "end": 723,
             "value": "Infinity",
-            "raw": "\"Infinity\""
+            "raw": "\"Infinity\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 725,
             "end": 742,
             "value": "Number Infinity",
-            "raw": "\"Number Infinity\""
+            "raw": "\"Number Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +301,9 @@
                 "start": 787,
                 "end": 791,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -299,14 +313,18 @@
             "start": 794,
             "end": 805,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 807,
             "end": 824,
             "value": "-Infinity value",
-            "raw": "\"-Infinity value\""
+            "raw": "\"-Infinity value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,7 +432,9 @@
                 "start": 889,
                 "end": 893,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -424,14 +444,18 @@
             "start": 896,
             "end": 907,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 927,
             "value": "Number -Infinity",
-            "raw": "\"Number -Infinity\""
+            "raw": "\"Number -Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

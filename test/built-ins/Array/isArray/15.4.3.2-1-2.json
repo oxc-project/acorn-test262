@@ -71,7 +71,9 @@
                     "start": 289,
                     "end": 294,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -83,14 +85,18 @@
             "start": 298,
             "end": 303,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 305,
             "end": 358,
             "value": "Array.isArray(new Boolean(false)) must return false",
-            "raw": "'Array.isArray(new Boolean(false)) must return false'"
+            "raw": "'Array.isArray(new Boolean(false)) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

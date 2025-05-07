@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
                   "start": 42,
                   "end": 47,
                   "raw": "'NYI'",
-                  "value": "NYI"
+                  "value": "NYI",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

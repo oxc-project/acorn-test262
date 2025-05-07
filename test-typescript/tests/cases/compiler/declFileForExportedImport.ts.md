@@ -88,7 +88,9 @@ __ESTREE_TEST__:PASS:
             "start": 80,
             "end": 111,
             "raw": "'./declFileForExportedImport_0'",
-            "value": "./declFileForExportedImport_0"
+            "value": "./declFileForExportedImport_0",
+            "regex": null,
+            "bigint": null
           }
         }
       },

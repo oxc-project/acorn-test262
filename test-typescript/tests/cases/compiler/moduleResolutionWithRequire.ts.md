@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 21,
               "end": 24,
               "raw": "123",
-              "value": 123
+              "value": 123,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
                       "start": 67,
                       "end": 94,
                       "raw": "'../outside-of-rootdir/foo'",
-                      "value": "../outside-of-rootdir/foo"
+                      "value": "../outside-of-rootdir/foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -248,7 +252,9 @@ __ESTREE_TEST__:PASS:
                       "start": 146,
                       "end": 155,
                       "raw": "'./other'",
-                      "value": "./other"
+                      "value": "./other",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {

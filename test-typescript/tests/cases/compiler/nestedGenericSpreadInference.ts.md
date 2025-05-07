@@ -494,7 +494,9 @@ __ESTREE_TEST__:PASS:
                 "start": 245,
                 "end": 246,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

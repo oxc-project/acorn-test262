@@ -107,7 +107,9 @@ __ESTREE_TEST__:PASS:
           "start": 73,
           "end": 96,
           "raw": "'exportEqualCallable_0'",
-          "value": "exportEqualCallable_0"
+          "value": "exportEqualCallable_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -73,7 +73,9 @@
                 "start": 360,
                 "end": 371,
                 "value": "getUTCDay",
-                "raw": "\"getUTCDay\""
+                "raw": "\"getUTCDay\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 376,
             "end": 380,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 384,
             "end": 445,
             "value": "Date.prototype.hasOwnProperty(\"getUTCDay\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getUTCDay\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"getUTCDay\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

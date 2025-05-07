@@ -80,7 +80,9 @@
             "start": 441,
             "end": 442,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -153,7 +155,9 @@
                             "start": 501,
                             "end": 502,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -191,7 +195,9 @@
                   "start": 537,
                   "end": 541,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -234,7 +240,9 @@
           "start": 557,
           "end": 558,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -304,14 +312,18 @@
             "start": 618,
             "end": 622,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 680,
             "value": "Returns true if symbol own enumerable property found",
-            "raw": "\"Returns true if symbol own enumerable property found\""
+            "raw": "\"Returns true if symbol own enumerable property found\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +368,18 @@
             "start": 713,
             "end": 714,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 752,
             "value": "valueOf method called exactly once",
-            "raw": "\"valueOf method called exactly once\""
+            "raw": "\"valueOf method called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

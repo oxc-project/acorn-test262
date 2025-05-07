@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 23,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -222,7 +224,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 31,
         "raw": "\"./makeC\"",
-        "value": "./makeC"
+        "value": "./makeC",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

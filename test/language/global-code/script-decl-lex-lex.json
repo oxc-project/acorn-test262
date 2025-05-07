@@ -43,7 +43,9 @@
             "start": 547,
             "end": 551,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -148,7 +150,9 @@
                         "start": 634,
                         "end": 658,
                         "value": "var x; let test262Let;",
-                        "raw": "'var x; let test262Let;'"
+                        "raw": "'var x; let test262Let;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -162,7 +166,9 @@
             "start": 664,
             "end": 679,
             "value": "`let` binding",
-            "raw": "'`let` binding'"
+            "raw": "'`let` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +241,9 @@
             "start": 733,
             "end": 796,
             "value": "No bindings created for script containing `let` redeclaration",
-            "raw": "'No bindings created for script containing `let` redeclaration'"
+            "raw": "'No bindings created for script containing `let` redeclaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +330,9 @@
                         "start": 858,
                         "end": 884,
                         "value": "var x; let test262Const;",
-                        "raw": "'var x; let test262Const;'"
+                        "raw": "'var x; let test262Const;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -336,7 +346,9 @@
             "start": 890,
             "end": 907,
             "value": "`const` binding",
-            "raw": "'`const` binding'"
+            "raw": "'`const` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +421,9 @@
             "start": 961,
             "end": 1026,
             "value": "No bindings created for script containing `const` redeclaration",
-            "raw": "'No bindings created for script containing `const` redeclaration'"
+            "raw": "'No bindings created for script containing `const` redeclaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -496,7 +510,9 @@
                         "start": 1088,
                         "end": 1114,
                         "value": "var x; let test262Class;",
-                        "raw": "'var x; let test262Class;'"
+                        "raw": "'var x; let test262Class;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -510,7 +526,9 @@
             "start": 1120,
             "end": 1137,
             "value": "`class` binding",
-            "raw": "'`class` binding'"
+            "raw": "'`class` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -583,7 +601,9 @@
             "start": 1191,
             "end": 1256,
             "value": "No bindings created for script containing `class` redeclaration",
-            "raw": "'No bindings created for script containing `class` redeclaration'"
+            "raw": "'No bindings created for script containing `class` redeclaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

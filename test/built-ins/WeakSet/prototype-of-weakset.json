@@ -88,7 +88,9 @@
             "start": 420,
             "end": 483,
             "value": "`Object.getPrototypeOf(WeakSet)` returns `Function.prototype`",
-            "raw": "'`Object.getPrototypeOf(WeakSet)` returns `Function.prototype`'"
+            "raw": "'`Object.getPrototypeOf(WeakSet)` returns `Function.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

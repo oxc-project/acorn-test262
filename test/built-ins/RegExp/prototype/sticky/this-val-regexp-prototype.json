@@ -70,7 +70,9 @@
                   "start": 582,
                   "end": 590,
                   "value": "sticky",
-                  "raw": "'sticky'"
+                  "raw": "'sticky'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

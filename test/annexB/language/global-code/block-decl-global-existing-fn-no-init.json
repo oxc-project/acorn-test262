@@ -49,7 +49,9 @@
             "start": 579,
             "end": 598,
             "value": "outer declaration",
-            "raw": "'outer declaration'"
+            "raw": "'outer declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -88,7 +90,9 @@
                   "start": 628,
                   "end": 647,
                   "value": "inner declaration",
-                  "raw": "'inner declaration'"
+                  "raw": "'inner declaration'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -124,7 +128,9 @@
               "start": 678,
               "end": 697,
               "value": "outer declaration",
-              "raw": "'outer declaration'"
+              "raw": "'outer declaration'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

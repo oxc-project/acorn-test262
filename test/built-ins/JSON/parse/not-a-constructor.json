@@ -69,14 +69,18 @@
             "start": 726,
             "end": 731,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 733,
             "end": 778,
             "value": "isConstructor(JSON.parse) must return false",
-            "raw": "'isConstructor(JSON.parse) must return false'"
+            "raw": "'isConstructor(JSON.parse) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +167,9 @@
                         "start": 832,
                         "end": 836,
                         "value": "{}",
-                        "raw": "'{}'"
+                        "raw": "'{}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

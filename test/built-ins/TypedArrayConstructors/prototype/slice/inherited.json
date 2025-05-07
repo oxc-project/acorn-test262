@@ -109,7 +109,9 @@
                             "start": 404,
                             "end": 411,
                             "value": "slice",
-                            "raw": "\"slice\""
+                            "raw": "\"slice\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 414,
                         "end": 419,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

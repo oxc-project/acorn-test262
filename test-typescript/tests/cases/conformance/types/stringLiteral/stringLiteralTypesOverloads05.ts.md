@@ -313,7 +313,9 @@ __ESTREE_TEST__:PASS:
                 "start": 181,
                 "end": 186,
                 "raw": "\"dog\"",
-                "value": "dog"
+                "value": "dog",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -380,7 +382,9 @@ __ESTREE_TEST__:PASS:
                 "start": 214,
                 "end": 219,
                 "raw": "\"cat\"",
-                "value": "cat"
+                "value": "cat",
+                "regex": null,
+                "bigint": null
               }
             }
           }

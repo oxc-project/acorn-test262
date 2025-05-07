@@ -23,7 +23,9 @@
             "start": 1003,
             "end": 1028,
             "value": "it-u-nu-latn-ca-gregory",
-            "raw": "\"it-u-nu-latn-ca-gregory\""
+            "raw": "\"it-u-nu-latn-ca-gregory\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1118,
             "end": 1143,
             "value": "it-u-ca-gregory-nu-latn",
-            "raw": "\"it-u-ca-gregory-nu-latn\""
+            "raw": "\"it-u-ca-gregory-nu-latn\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -159,7 +163,9 @@
             "start": 1245,
             "end": 1246,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,7 +201,9 @@
               "start": 1289,
               "end": 1290,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

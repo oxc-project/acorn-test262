@@ -240,7 +240,9 @@ __ESTREE_TEST__:PASS:
         "start": 117,
         "end": 143,
         "raw": "\"core-js/fn/string/repeat\"",
-        "value": "core-js/fn/string/repeat"
+        "value": "core-js/fn/string/repeat",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -266,7 +268,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 45,
         "raw": "\"core-js/fn/string/repeat\"",
-        "value": "core-js/fn/string/repeat"
+        "value": "core-js/fn/string/repeat",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -368,7 +372,9 @@ __ESTREE_TEST__:PASS:
                   "start": 100,
                   "end": 103,
                   "raw": "\" \"",
-                  "value": " "
+                  "value": " ",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -376,7 +382,9 @@ __ESTREE_TEST__:PASS:
                 "start": 105,
                 "end": 106,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

@@ -31,7 +31,9 @@
         "start": 706,
         "end": 752,
         "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -57,7 +59,9 @@
         "start": 769,
         "end": 802,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -75,7 +79,9 @@
             "start": 817,
             "end": 819,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -90,7 +96,9 @@
         "start": 830,
         "end": 863,
         "value": "./import-attribute-2_FIXTURE.js",
-        "raw": "'./import-attribute-2_FIXTURE.js'"
+        "raw": "'./import-attribute-2_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -108,7 +116,9 @@
             "start": 878,
             "end": 880,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -123,7 +133,9 @@
         "start": 898,
         "end": 931,
         "value": "./import-attribute-3_FIXTURE.js",
-        "raw": "'./import-attribute-3_FIXTURE.js'"
+        "raw": "'./import-attribute-3_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -141,7 +153,9 @@
             "start": 946,
             "end": 948,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]

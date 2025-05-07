@@ -229,7 +229,9 @@
                   "start": 1194,
                   "end": 1198,
                   "value": "de",
-                  "raw": "'de'"
+                  "raw": "'de'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -355,7 +357,9 @@
             "start": 1290,
             "end": 1324,
             "value": "newTarget.prototype is undefined",
-            "raw": "'newTarget.prototype is undefined'"
+            "raw": "'newTarget.prototype is undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -394,7 +398,9 @@
           "start": 1350,
           "end": 1354,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -466,7 +472,9 @@
                   "start": 1397,
                   "end": 1401,
                   "value": "de",
-                  "raw": "'de'"
+                  "raw": "'de'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -592,7 +600,9 @@
             "start": 1493,
             "end": 1522,
             "value": "newTarget.prototype is null",
-            "raw": "'newTarget.prototype is null'"
+            "raw": "'newTarget.prototype is null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -631,7 +641,9 @@
           "start": 1548,
           "end": 1552,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -703,7 +715,9 @@
                   "start": 1595,
                   "end": 1599,
                   "value": "de",
-                  "raw": "'de'"
+                  "raw": "'de'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -829,7 +843,9 @@
             "start": 1691,
             "end": 1725,
             "value": "newTarget.prototype is a Boolean",
-            "raw": "'newTarget.prototype is a Boolean'"
+            "raw": "'newTarget.prototype is a Boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -868,7 +884,9 @@
           "start": 1751,
           "end": 1756,
           "value": "str",
-          "raw": "'str'"
+          "raw": "'str'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -940,7 +958,9 @@
                   "start": 1799,
                   "end": 1803,
                   "value": "de",
-                  "raw": "'de'"
+                  "raw": "'de'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1066,7 +1086,9 @@
             "start": 1895,
             "end": 1928,
             "value": "newTarget.prototype is a String",
-            "raw": "'newTarget.prototype is a String'"
+            "raw": "'newTarget.prototype is a String'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1183,7 +1205,9 @@
                   "start": 2005,
                   "end": 2009,
                   "value": "de",
-                  "raw": "'de'"
+                  "raw": "'de'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1309,7 +1333,9 @@
             "start": 2101,
             "end": 2134,
             "value": "newTarget.prototype is a Symbol",
-            "raw": "'newTarget.prototype is a Symbol'"
+            "raw": "'newTarget.prototype is a Symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1348,7 +1374,9 @@
           "start": 2160,
           "end": 2161,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1420,7 +1448,9 @@
                   "start": 2204,
                   "end": 2208,
                   "value": "de",
-                  "raw": "'de'"
+                  "raw": "'de'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1546,7 +1576,9 @@
             "start": 2300,
             "end": 2333,
             "value": "newTarget.prototype is a Number",
-            "raw": "'newTarget.prototype is a Number'"
+            "raw": "'newTarget.prototype is a Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

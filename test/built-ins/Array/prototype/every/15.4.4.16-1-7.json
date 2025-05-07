@@ -162,7 +162,9 @@
                 "start": 363,
                 "end": 380,
                 "value": "hello\nworld\\!",
-                "raw": "\"hello\\nworld\\\\!\""
+                "raw": "\"hello\\nworld\\\\!\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -178,14 +180,18 @@
             "start": 395,
             "end": 400,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 461,
             "value": "Array.prototype.every.call(\"hello\nworld\\!\", callbackfn)",
-            "raw": "'Array.prototype.every.call(\"hello\\nworld\\\\!\", callbackfn)'"
+            "raw": "'Array.prototype.every.call(\"hello\\nworld\\\\!\", callbackfn)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -101,7 +101,9 @@
             "start": 402,
             "end": 484,
             "value": "Object.getPrototypeOf(Iterator.from) must return the value of Function.prototype",
-            "raw": "'Object.getPrototypeOf(Iterator.from) must return the value of Function.prototype'"
+            "raw": "'Object.getPrototypeOf(Iterator.from) must return the value of Function.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

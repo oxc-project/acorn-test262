@@ -55,14 +55,18 @@
             "start": 397,
             "end": 405,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 470,
             "value": "The value of `typeof new Number()` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Number()` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Number()` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -119,7 +123,9 @@
             "start": 518,
             "end": 571,
             "value": "new Number() is expected to not equal ``undefined``",
-            "raw": "'new Number() is expected to not equal ``undefined``'"
+            "raw": "'new Number() is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,14 +208,18 @@
             "start": 626,
             "end": 634,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 689,
             "value": "The value of `typeof x3` is expected to be \"object\"",
-            "raw": "'The value of `typeof x3` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x3` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -291,7 +301,9 @@
             "start": 751,
             "end": 807,
             "value": "The value of x4 is expected to not equal ``undefined``",
-            "raw": "'The value of x4 is expected to not equal ``undefined``'"
+            "raw": "'The value of x4 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -347,7 +359,9 @@
                   "start": 845,
                   "end": 847,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -357,14 +371,18 @@
             "start": 850,
             "end": 858,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 860,
             "end": 925,
             "value": "The value of `typeof new Number(10)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Number(10)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Number(10)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,7 +432,9 @@
                 "start": 959,
                 "end": 961,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -429,7 +449,9 @@
             "start": 975,
             "end": 1030,
             "value": "new Number(10) is expected to not equal ``undefined``",
-            "raw": "'new Number(10) is expected to not equal ``undefined``'"
+            "raw": "'new Number(10) is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,7 +488,9 @@
                 "start": 1054,
                 "end": 1056,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -520,14 +544,18 @@
             "start": 1087,
             "end": 1095,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1097,
             "end": 1150,
             "value": "The value of `typeof x7` is expected to be \"object\"",
-            "raw": "'The value of `typeof x7` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x7` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -564,7 +592,9 @@
                 "start": 1174,
                 "end": 1176,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -617,7 +647,9 @@
             "start": 1214,
             "end": 1270,
             "value": "The value of x8 is expected to not equal ``undefined``",
-            "raw": "'The value of x8 is expected to not equal ``undefined``'"
+            "raw": "'The value of x8 is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 314,
                 "end": 329,
                 "value": "'use strict';",
-                "raw": "\"'use strict';\""
+                "raw": "\"'use strict';\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -116,14 +118,18 @@
                   "start": 397,
                   "end": 408,
                   "value": "arguments",
-                  "raw": "\"arguments\""
+                  "raw": "\"arguments\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 410,
                   "end": 421,
                   "value": "tempIndex",
-                  "raw": "'tempIndex'"
+                  "raw": "'tempIndex'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

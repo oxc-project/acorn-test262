@@ -144,7 +144,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 18,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -196,7 +198,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 18,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -230,7 +234,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 26,
         "raw": "\"jquery\"",
-        "value": "jquery"
+        "value": "jquery",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -270,7 +276,9 @@ __ESTREE_TEST__:PASS:
         "start": 46,
         "end": 54,
         "raw": "\"kquery\"",
-        "value": "kquery"
+        "value": "kquery",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -310,7 +318,9 @@ __ESTREE_TEST__:PASS:
         "start": 74,
         "end": 82,
         "raw": "\"lquery\"",
-        "value": "lquery"
+        "value": "lquery",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -350,7 +360,9 @@ __ESTREE_TEST__:PASS:
         "start": 102,
         "end": 110,
         "raw": "\"mquery\"",
-        "value": "mquery"
+        "value": "mquery",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -70,7 +70,9 @@
                   "start": 516,
                   "end": 527,
                   "value": "resizable",
-                  "raw": "'resizable'"
+                  "raw": "'resizable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -134,7 +136,9 @@
             "start": 568,
             "end": 578,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

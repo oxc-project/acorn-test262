@@ -27,7 +27,9 @@
               "start": 365,
               "end": 398,
               "value": "~`!@#$%^&*()-+={[}]|\\:;'<,>./?",
-              "raw": "\"~`!@#$%^&*()-+={[}]|\\\\:;'<,>./?\""
+              "raw": "\"~`!@#$%^&*()-+={[}]|\\\\:;'<,>./?\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -35,7 +37,9 @@
               "start": 401,
               "end": 404,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -66,7 +70,9 @@
               "start": 419,
               "end": 420,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -164,7 +170,9 @@
                             "start": 474,
                             "end": 478,
                             "value": "\\",
-                            "raw": "\"\\\\\""
+                            "raw": "\"\\\\\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -192,7 +200,9 @@
                           "start": 495,
                           "end": 498,
                           "value": "g",
-                          "raw": "\"g\""
+                          "raw": "\"g\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },
@@ -258,7 +268,9 @@
                   "start": 544,
                   "end": 548,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -269,7 +281,9 @@
                     "start": 550,
                     "end": 576,
                     "value": "No match for character: ",
-                    "raw": "\"No match for character: \""
+                    "raw": "\"No match for character: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -339,7 +353,9 @@
                     "start": 617,
                     "end": 618,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false

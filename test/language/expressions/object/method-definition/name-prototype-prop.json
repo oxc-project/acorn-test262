@@ -155,7 +155,9 @@
                   "start": 347,
                   "end": 358,
                   "value": "prototype",
-                  "raw": "'prototype'"
+                  "raw": "'prototype'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -166,7 +168,9 @@
             "start": 363,
             "end": 431,
             "value": "Functions declared as methods do not define a 'prototype' property",
-            "raw": "\"Functions declared as methods do not define a 'prototype' property\""
+            "raw": "\"Functions declared as methods do not define a 'prototype' property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

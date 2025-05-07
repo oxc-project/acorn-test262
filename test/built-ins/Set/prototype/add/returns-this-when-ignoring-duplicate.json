@@ -39,7 +39,9 @@
                     "start": 435,
                     "end": 436,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -106,7 +108,9 @@
                 "start": 464,
                 "end": 465,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,7 +126,9 @@
             "start": 471,
             "end": 495,
             "value": "`s.add(1)` returns `s`",
-            "raw": "\"`s.add(1)` returns `s`\""
+            "raw": "\"`s.add(1)` returns `s`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

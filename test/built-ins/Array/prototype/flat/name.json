@@ -81,14 +81,18 @@
             "start": 416,
             "end": 422,
             "value": "flat",
-            "raw": "'flat'"
+            "raw": "'flat'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 480,
             "value": "The value of `Array.prototype.flat.name` is `\"flat\"`",
-            "raw": "'The value of `Array.prototype.flat.name` is `\"flat\"`'"
+            "raw": "'The value of `Array.prototype.flat.name` is `\"flat\"`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +150,9 @@
             "start": 522,
             "end": 528,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -171,7 +177,9 @@
                   "start": 546,
                   "end": 551,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -193,7 +201,9 @@
                   "start": 565,
                   "end": 570,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -215,7 +225,9 @@
                   "start": 588,
                   "end": 592,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

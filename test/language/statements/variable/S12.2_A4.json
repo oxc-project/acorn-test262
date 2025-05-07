@@ -72,7 +72,9 @@
                     "start": 438,
                     "end": 493,
                     "value": "#1: Unicode characters in variable Identifier allowed",
-                    "raw": "'#1: Unicode characters in variable Identifier allowed'"
+                    "raw": "'#1: Unicode characters in variable Identifier allowed'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -102,7 +104,9 @@
             "start": 618,
             "end": 619,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -128,7 +132,9 @@
           "start": 725,
           "end": 726,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -160,7 +166,9 @@
                     "start": 754,
                     "end": 791,
                     "value": "#2: __var === 1. Actual:  __var ===",
-                    "raw": "'#2: __var === 1. Actual:  __var ==='"
+                    "raw": "'#2: __var === 1. Actual:  __var ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

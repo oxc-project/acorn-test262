@@ -24,6 +24,7 @@
             "end": 294,
             "value": null,
             "raw": "217_178_580_000_000_000n",
+            "regex": null,
             "bigint": "217178580000000000"
           }
         }
@@ -87,7 +88,9 @@
                 "start": 333,
                 "end": 352,
                 "value": "1976-11-18T15:23Z",
-                "raw": "\"1976-11-18T15:23Z\""
+                "raw": "\"1976-11-18T15:23Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -154,7 +157,9 @@
             "start": 416,
             "end": 470,
             "value": "ISO string with UTC designator and minutes precision",
-            "raw": "\"ISO string with UTC designator and minutes precision\""
+            "raw": "\"ISO string with UTC designator and minutes precision\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +222,9 @@
               "start": 507,
               "end": 529,
               "value": "1976-11-18T15:23:30Z",
-              "raw": "\"1976-11-18T15:23:30Z\""
+              "raw": "\"1976-11-18T15:23:30Z\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -288,6 +295,7 @@
               "end": 607,
               "value": null,
               "raw": "30_000_000_000n",
+              "regex": null,
               "bigint": "30000000000"
             }
           },
@@ -296,7 +304,9 @@
             "start": 611,
             "end": 665,
             "value": "ISO string with UTC designator and seconds precision",
-            "raw": "\"ISO string with UTC designator and seconds precision\""
+            "raw": "\"ISO string with UTC designator and seconds precision\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +369,9 @@
               "start": 702,
               "end": 728,
               "value": "1976-11-18T15:23:30.123Z",
-              "raw": "\"1976-11-18T15:23:30.123Z\""
+              "raw": "\"1976-11-18T15:23:30.123Z\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -430,6 +442,7 @@
               "end": 806,
               "value": null,
               "raw": "30_123_000_000n",
+              "regex": null,
               "bigint": "30123000000"
             }
           },
@@ -438,7 +451,9 @@
             "start": 810,
             "end": 869,
             "value": "ISO string with UTC designator and milliseconds precision",
-            "raw": "\"ISO string with UTC designator and milliseconds precision\""
+            "raw": "\"ISO string with UTC designator and milliseconds precision\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -501,7 +516,9 @@
               "start": 906,
               "end": 935,
               "value": "1976-11-18T15:23:30.123456Z",
-              "raw": "\"1976-11-18T15:23:30.123456Z\""
+              "raw": "\"1976-11-18T15:23:30.123456Z\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -572,6 +589,7 @@
               "end": 1013,
               "value": null,
               "raw": "30_123_456_000n",
+              "regex": null,
               "bigint": "30123456000"
             }
           },
@@ -580,7 +598,9 @@
             "start": 1017,
             "end": 1076,
             "value": "ISO string with UTC designator and microseconds precision",
-            "raw": "\"ISO string with UTC designator and microseconds precision\""
+            "raw": "\"ISO string with UTC designator and microseconds precision\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -643,7 +663,9 @@
               "start": 1113,
               "end": 1145,
               "value": "1976-11-18T15:23:30.123456789Z",
-              "raw": "\"1976-11-18T15:23:30.123456789Z\""
+              "raw": "\"1976-11-18T15:23:30.123456789Z\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -714,6 +736,7 @@
               "end": 1223,
               "value": null,
               "raw": "30_123_456_789n",
+              "regex": null,
               "bigint": "30123456789"
             }
           },
@@ -722,7 +745,9 @@
             "start": 1227,
             "end": 1285,
             "value": "ISO string with UTC designator and nanoseconds precision",
-            "raw": "\"ISO string with UTC designator and nanoseconds precision\""
+            "raw": "\"ISO string with UTC designator and nanoseconds precision\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -785,7 +810,9 @@
               "start": 1322,
               "end": 1346,
               "value": "1976-11-18T15:23-01:00",
-              "raw": "\"1976-11-18T15:23-01:00\""
+              "raw": "\"1976-11-18T15:23-01:00\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -856,6 +883,7 @@
               "end": 1426,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -864,7 +892,9 @@
             "start": 1430,
             "end": 1467,
             "value": "ISO string with negative UTC offset",
-            "raw": "\"ISO string with negative UTC offset\""
+            "raw": "\"ISO string with negative UTC offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -927,7 +957,9 @@
               "start": 1504,
               "end": 1528,
               "value": "1976-11-18T15:23+01:00",
-              "raw": "\"1976-11-18T15:23+01:00\""
+              "raw": "\"1976-11-18T15:23+01:00\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -998,6 +1030,7 @@
               "end": 1608,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -1006,7 +1039,9 @@
             "start": 1612,
             "end": 1649,
             "value": "ISO string with positive UTC offset",
-            "raw": "\"ISO string with positive UTC offset\""
+            "raw": "\"ISO string with positive UTC offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

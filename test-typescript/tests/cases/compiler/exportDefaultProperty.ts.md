@@ -166,7 +166,9 @@ __ESTREE_TEST__:PASS:
         "start": 178,
         "end": 186,
         "raw": "\"foobar\"",
-        "value": "foobar"
+        "value": "foobar",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -235,7 +237,9 @@ __ESTREE_TEST__:PASS:
         "start": 235,
         "end": 244,
         "raw": "\"foobarx\"",
-        "value": "foobarx"
+        "value": "foobarx",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -407,7 +411,9 @@ __ESTREE_TEST__:PASS:
                             "start": 113,
                             "end": 114,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -509,7 +515,9 @@ __ESTREE_TEST__:PASS:
           "start": 15,
           "end": 20,
           "raw": "\"foo\"",
-          "value": "foo"
+          "value": "foo",
+          "regex": null,
+          "bigint": null
         },
         "optional": false,
         "property": {
@@ -547,7 +555,9 @@ __ESTREE_TEST__:PASS:
         "start": 62,
         "end": 70,
         "raw": "\"foobar\"",
-        "value": "foobar"
+        "value": "foobar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -615,7 +625,9 @@ __ESTREE_TEST__:PASS:
         "start": 108,
         "end": 117,
         "raw": "\"foobarx\"",
-        "value": "foobarx"
+        "value": "foobarx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -749,7 +761,9 @@ __ESTREE_TEST__:PASS:
         "start": 169,
         "end": 174,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -864,7 +878,9 @@ __ESTREE_TEST__:PASS:
         "start": 224,
         "end": 229,
         "raw": "\"./b\"",
-        "value": "./b"
+        "value": "./b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -907,7 +923,9 @@ __ESTREE_TEST__:PASS:
           "start": 243,
           "end": 244,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     }

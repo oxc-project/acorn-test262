@@ -430,7 +430,9 @@ __ESTREE_TEST__:PASS:
                             "start": 255,
                             "end": 256,
                             "raw": "2",
-                            "value": 2
+                            "value": 2,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -482,7 +484,9 @@ __ESTREE_TEST__:PASS:
                             "start": 314,
                             "end": 315,
                             "raw": "2",
-                            "value": 2
+                            "value": 2,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -505,7 +509,9 @@ __ESTREE_TEST__:PASS:
                             "start": 330,
                             "end": 337,
                             "raw": "\"hello\"",
-                            "value": "hello"
+                            "value": "hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -557,7 +563,9 @@ __ESTREE_TEST__:PASS:
                             "start": 393,
                             "end": 397,
                             "raw": "true",
-                            "value": true
+                            "value": true,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -580,7 +588,9 @@ __ESTREE_TEST__:PASS:
                             "start": 412,
                             "end": 419,
                             "raw": "\"hello\"",
-                            "value": "hello"
+                            "value": "hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }

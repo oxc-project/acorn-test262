@@ -34,7 +34,9 @@
                 "start": 545,
                 "end": 548,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 567,
                 "end": 570,
                 "value": "2",
-                "raw": "'2'"
+                "raw": "'2'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,6 +160,7 @@
                                 "end": 652,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ]
@@ -235,7 +240,9 @@
                             "start": 705,
                             "end": 714,
                             "value": "ecma262",
-                            "raw": "'ecma262'"
+                            "raw": "'ecma262'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -245,14 +252,18 @@
                         "start": 721,
                         "end": 725,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 731,
                         "end": 808,
                         "value": "Reflect.set(\"new TA([42n])\", \"Symbol(\\\"1\\\")\", \"ecma262\") must return true",
-                        "raw": "'Reflect.set(\"new TA([42n])\", \"Symbol(\\\\\"1\\\\\")\", \"ecma262\") must return true'"
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"Symbol(\\\\\"1\\\\\")\", \"ecma262\") must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -310,14 +321,18 @@
                         "start": 846,
                         "end": 855,
                         "value": "ecma262",
-                        "raw": "'ecma262'"
+                        "raw": "'ecma262'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 857,
                         "end": 895,
                         "value": "The value of sample[s1] is \"ecma262\"",
-                        "raw": "'The value of sample[s1] is \"ecma262\"'"
+                        "raw": "'The value of sample[s1] is \"ecma262\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -392,7 +407,9 @@
                             "start": 947,
                             "end": 955,
                             "value": "es3000",
-                            "raw": "'es3000'"
+                            "raw": "'es3000'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -402,14 +419,18 @@
                         "start": 962,
                         "end": 966,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 972,
                         "end": 1048,
                         "value": "Reflect.set(\"new TA([42n])\", \"Symbol(\\\"1\\\")\", \"es3000\") must return true",
-                        "raw": "'Reflect.set(\"new TA([42n])\", \"Symbol(\\\\\"1\\\\\")\", \"es3000\") must return true'"
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"Symbol(\\\\\"1\\\\\")\", \"es3000\") must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -467,14 +488,18 @@
                         "start": 1086,
                         "end": 1094,
                         "value": "es3000",
-                        "raw": "'es3000'"
+                        "raw": "'es3000'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1096,
                         "end": 1133,
                         "value": "The value of sample[s1] is \"es3000\"",
-                        "raw": "'The value of sample[s1] is \"es3000\"'"
+                        "raw": "'The value of sample[s1] is \"es3000\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -543,7 +568,9 @@
                               "start": 1189,
                               "end": 1194,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -643,7 +670,9 @@
                             "start": 1272,
                             "end": 1274,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -653,14 +682,18 @@
                         "start": 1281,
                         "end": 1286,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1292,
                         "end": 1363,
                         "value": "Reflect.set(\"new TA([42n])\", \"Symbol(\\\"2\\\")\", 42) must return false",
-                        "raw": "'Reflect.set(\"new TA([42n])\", \"Symbol(\\\\\"2\\\\\")\", 42) must return false'"
+                        "raw": "'Reflect.set(\"new TA([42n])\", \"Symbol(\\\\\"2\\\\\")\", 42) must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -724,7 +757,9 @@
                         "start": 1412,
                         "end": 1470,
                         "value": "The value of sample[s2] is expected to equal `undefined`",
-                        "raw": "'The value of sample[s2] is expected to equal `undefined`'"
+                        "raw": "'The value of sample[s2] is expected to equal `undefined`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

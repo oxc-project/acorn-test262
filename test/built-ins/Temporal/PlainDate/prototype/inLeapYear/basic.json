@@ -68,21 +68,27 @@
                     "start": 296,
                     "end": 300,
                     "value": 1976,
-                    "raw": "1976"
+                    "raw": "1976",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 302,
                     "end": 304,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 306,
                     "end": 308,
                     "value": 18,
-                    "raw": "18"
+                    "raw": "18",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -101,14 +107,18 @@
             "start": 325,
             "end": 329,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 331,
             "end": 342,
             "value": "leap year",
-            "raw": "\"leap year\""
+            "raw": "\"leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,21 +189,27 @@
                     "start": 386,
                     "end": 390,
                     "value": 1977,
-                    "raw": "1977"
+                    "raw": "1977",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 392,
                     "end": 394,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 396,
                     "end": 398,
                     "value": 18,
-                    "raw": "18"
+                    "raw": "18",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -212,14 +228,18 @@
             "start": 415,
             "end": 420,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 437,
             "value": "non-leap year",
-            "raw": "\"non-leap year\""
+            "raw": "\"non-leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 371,
             "end": 394,
             "value": "AABBCC",
-            "raw": "\"\\u0041A\\u0042B\\u0043C\""
+            "raw": "\"\\u0041A\\u0042B\\u0043C\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
           "start": 410,
           "end": 418,
           "value": "AABBCC",
-          "raw": "'AABBCC'"
+          "raw": "'AABBCC'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -81,7 +85,9 @@
                     "start": 446,
                     "end": 522,
                     "value": "#1: var __str = \"\\u0041A\\u0042B\\u0043C\"; __str === 'AABBCC'. Actual: ",
-                    "raw": "'#1: var __str = \"\\\\u0041A\\\\u0042B\\\\u0043C\"; __str === \\'AABBCC\\'. Actual: '"
+                    "raw": "'#1: var __str = \"\\\\u0041A\\\\u0042B\\\\u0043C\"; __str === \\'AABBCC\\'. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -132,7 +138,9 @@
               "start": 724,
               "end": 744,
               "value": "ABC",
-              "raw": "\"\\u0041\\u0042\\u0043\""
+              "raw": "\"\\u0041\\u0042\\u0043\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -140,7 +148,9 @@
               "start": 745,
               "end": 750,
               "value": "ABC",
-              "raw": "'ABC'"
+              "raw": "'ABC'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -167,7 +177,9 @@
           "start": 768,
           "end": 776,
           "value": "ABCABC",
-          "raw": "'ABCABC'"
+          "raw": "'ABCABC'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -199,7 +211,9 @@
                     "start": 804,
                     "end": 889,
                     "value": "#2: var __str__ = \"\\u0041\\u0042\\u0043\"+'ABC'; __str__ === 'ABCABC'. Actual: ",
-                    "raw": "'#2: var __str__ = \"\\\\u0041\\\\u0042\\\\u0043\"+\\'ABC\\'; __str__ === \\'ABCABC\\'. Actual: '"
+                    "raw": "'#2: var __str__ = \"\\\\u0041\\\\u0042\\\\u0043\"+\\'ABC\\'; __str__ === \\'ABCABC\\'. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -250,7 +264,9 @@
               "start": 1091,
               "end": 1096,
               "value": "ABC",
-              "raw": "\"ABC\""
+              "raw": "\"ABC\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -258,7 +274,9 @@
               "start": 1097,
               "end": 1117,
               "value": "ABC",
-              "raw": "'\\u0041\\u0042\\u0043'"
+              "raw": "'\\u0041\\u0042\\u0043'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -285,7 +303,9 @@
           "start": 1133,
           "end": 1141,
           "value": "ABCABC",
-          "raw": "\"ABCABC\""
+          "raw": "\"ABCABC\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -317,7 +337,9 @@
                     "start": 1169,
                     "end": 1248,
                     "value": "#2: var str__ = \"ABC\"+'\\u0041\\u0042\\u0043'; str__ === \"ABCABC\". Actual: ",
-                    "raw": "'#2: var str__ = \"ABC\"+\\'\\\\u0041\\\\u0042\\\\u0043\\'; str__ === \"ABCABC\". Actual: '"
+                    "raw": "'#2: var str__ = \"ABC\"+\\'\\\\u0041\\\\u0042\\\\u0043\\'; str__ === \"ABCABC\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

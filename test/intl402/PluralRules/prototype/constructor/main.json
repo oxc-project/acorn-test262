@@ -100,7 +100,9 @@
             "start": 412,
             "end": 488,
             "value": "Intl.PluralRules.prototype.constructor is not the same as Intl.PluralRules",
-            "raw": "\"Intl.PluralRules.prototype.constructor is not the same as Intl.PluralRules\""
+            "raw": "\"Intl.PluralRules.prototype.constructor is not the same as Intl.PluralRules\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

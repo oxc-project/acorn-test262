@@ -58,7 +58,9 @@
             "start": 335,
             "end": 336,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -68,7 +70,9 @@
           "start": 340,
           "end": 346,
           "value": "Saab",
-          "raw": "\"Saab\""
+          "raw": "\"Saab\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -96,7 +100,9 @@
             "start": 355,
             "end": 356,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -106,7 +112,9 @@
           "start": 360,
           "end": 367,
           "value": "Volvo",
-          "raw": "\"Volvo\""
+          "raw": "\"Volvo\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -134,7 +142,9 @@
             "start": 376,
             "end": 377,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -144,7 +154,9 @@
           "start": 381,
           "end": 386,
           "value": "BMW",
-          "raw": "\"BMW\""
+          "raw": "\"BMW\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -203,7 +215,9 @@
             "start": 424,
             "end": 425,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -213,7 +227,9 @@
           "start": 429,
           "end": 439,
           "value": "Mercedes",
-          "raw": "\"Mercedes\""
+          "raw": "\"Mercedes\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -241,7 +257,9 @@
             "start": 449,
             "end": 450,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -251,7 +269,9 @@
           "start": 454,
           "end": 460,
           "value": "Jeep",
-          "raw": "\"Jeep\""
+          "raw": "\"Jeep\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -279,7 +299,9 @@
             "start": 470,
             "end": 471,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -289,7 +311,9 @@
           "start": 475,
           "end": 483,
           "value": "Suzuki",
-          "raw": "\"Suzuki\""
+          "raw": "\"Suzuki\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -354,7 +378,9 @@
                       "start": 543,
                       "end": 544,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -376,7 +402,9 @@
                   "start": 547,
                   "end": 548,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "update": {
@@ -501,7 +529,9 @@
                                               "start": 604,
                                               "end": 609,
                                               "value": "#1.",
-                                              "raw": "'#1.'"
+                                              "raw": "'#1.'",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "operator": "+",
                                             "right": {
@@ -517,7 +547,9 @@
                                             "start": 612,
                                             "end": 626,
                                             "value": ": Exception[",
-                                            "raw": "': Exception['"
+                                            "raw": "': Exception['",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "operator": "+",
@@ -534,7 +566,9 @@
                                         "start": 629,
                                         "end": 644,
                                         "value": "] === mycars[",
-                                        "raw": "'] === mycars['"
+                                        "raw": "'] === mycars['",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "operator": "+",
@@ -551,7 +585,9 @@
                                     "start": 647,
                                     "end": 671,
                                     "value": "]. Actual:  Exception[",
-                                    "raw": "']. Actual:  Exception['"
+                                    "raw": "']. Actual:  Exception['",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -568,7 +604,9 @@
                                 "start": 674,
                                 "end": 681,
                                 "value": "] ===",
-                                "raw": "'] ==='"
+                                "raw": "'] ==='",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",

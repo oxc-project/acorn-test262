@@ -20,7 +20,9 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 14,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -72,7 +74,9 @@ __ESTREE_TEST__:PASS:
               "start": 36,
               "end": 39,
               "raw": "180",
-              "value": 180
+              "value": 180,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -125,7 +129,9 @@ __ESTREE_TEST__:PASS:
               "start": 61,
               "end": 64,
               "raw": "180",
-              "value": 180
+              "value": 180,
+              "regex": null,
+              "bigint": null
             }
           }
         ],

@@ -28,21 +28,27 @@
                 "start": 299,
                 "end": 300,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 303,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 306,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,21 +89,27 @@
             "start": 319,
             "end": 320,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 322,
             "end": 323,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 325,
             "end": 326,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -136,7 +148,9 @@
           "start": 347,
           "end": 348,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -168,7 +182,9 @@
                     "start": 377,
                     "end": 413,
                     "value": "Expected a.length === 2, actually ",
-                    "raw": "\"Expected a.length === 2, actually \""
+                    "raw": "\"Expected a.length === 2, actually \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -221,7 +237,9 @@
             "start": 436,
             "end": 437,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -232,7 +250,9 @@
           "start": 443,
           "end": 444,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -264,7 +284,9 @@
                     "start": 473,
                     "end": 505,
                     "value": "Expected a[0] === 0, actually ",
-                    "raw": "\"Expected a[0] === 0, actually \""
+                    "raw": "\"Expected a[0] === 0, actually \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -282,7 +304,9 @@
                       "start": 510,
                       "end": 511,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -318,7 +342,9 @@
             "start": 524,
             "end": 525,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -329,7 +355,9 @@
           "start": 531,
           "end": 532,
           "value": 4,
-          "raw": "4"
+          "raw": "4",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -361,7 +389,9 @@
                     "start": 561,
                     "end": 593,
                     "value": "Expected a[1] === 4, actually ",
-                    "raw": "\"Expected a[1] === 4, actually \""
+                    "raw": "\"Expected a[1] === 4, actually \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -379,7 +409,9 @@
                       "start": 598,
                       "end": 599,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

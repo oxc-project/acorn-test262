@@ -34,7 +34,9 @@
                 "start": 1239,
                 "end": 1263,
                 "value": "class C {}() => 1, 42;",
-                "raw": "'class C {}() => 1, 42;'"
+                "raw": "'class C {}() => 1, 42;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,7 +84,9 @@
             "start": 1292,
             "end": 1294,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

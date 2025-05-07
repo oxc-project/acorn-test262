@@ -75,28 +75,36 @@
                                 "start": 757,
                                 "end": 758,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 760,
                                 "end": 761,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 763,
                                 "end": 764,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 766,
                                 "end": 767,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -208,14 +216,18 @@
                             "start": 849,
                             "end": 850,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 852,
                             "end": 853,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -230,21 +242,27 @@
                             "start": 861,
                             "end": 862,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 864,
                             "end": 865,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 867,
                             "end": 868,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -253,7 +271,9 @@
                         "start": 875,
                         "end": 927,
                         "value": "copyWithin should respect typedarray's byteOffset",
-                        "raw": "'copyWithin should respect typedarray\\'s byteOffset'"
+                        "raw": "'copyWithin should respect typedarray\\'s byteOffset'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -303,28 +323,36 @@
                             "start": 970,
                             "end": 971,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 973,
                             "end": 974,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 976,
                             "end": 977,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 979,
                             "end": 980,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -333,7 +361,9 @@
                         "start": 987,
                         "end": 1036,
                         "value": "underlying arraybuffer should have been updated",
-                        "raw": "'underlying arraybuffer should have been updated'"
+                        "raw": "'underlying arraybuffer should have been updated'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

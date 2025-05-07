@@ -36,7 +36,9 @@
                     "start": 311,
                     "end": 364,
                     "value": "#1.1: RegExp(\"a|b\",\"g\")() throw TypeError. Actual: ",
-                    "raw": "'#1.1: RegExp(\"a|b\",\"g\")() throw TypeError. Actual: '"
+                    "raw": "'#1.1: RegExp(\"a|b\",\"g\")() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -63,14 +65,18 @@
                             "start": 375,
                             "end": 380,
                             "value": "a|b",
-                            "raw": "\"a|b\""
+                            "raw": "\"a|b\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 381,
                             "end": 384,
                             "value": "g",
-                            "raw": "\"g\""
+                            "raw": "\"g\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -151,14 +157,18 @@
                     "start": 457,
                     "end": 461,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 467,
                     "end": 541,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

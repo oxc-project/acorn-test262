@@ -62,7 +62,9 @@
                 "start": 492,
                 "end": 500,
                 "value": "bigint",
-                "raw": "\"bigint\""
+                "raw": "\"bigint\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -74,7 +76,9 @@
                 "start": 517,
                 "end": 525,
                 "value": "bigint",
-                "raw": "\"bigint\""
+                "raw": "\"bigint\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "alternate": {
@@ -150,6 +154,7 @@
                 "end": 591,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -166,7 +171,9 @@
             "start": 604,
             "end": 614,
             "value": "\"bigint\"",
-            "raw": "'\"bigint\"'"
+            "raw": "'\"bigint\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,6 +255,7 @@
                       "end": 655,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "kind": "init"
@@ -268,7 +276,9 @@
             "start": 669,
             "end": 685,
             "value": "{\"x\":\"bigint\"}",
-            "raw": "'{\"x\":\"bigint\"}'"
+            "raw": "'{\"x\":\"bigint\"}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -65,7 +65,9 @@
             "start": 319,
             "end": 320,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -124,7 +126,9 @@
                     "start": 354,
                     "end": 355,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -158,14 +162,18 @@
             "start": 392,
             "end": 393,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 434,
             "value": "[0, targetObj].lastIndexOf(targetObj)",
-            "raw": "'[0, targetObj].lastIndexOf(targetObj)'"
+            "raw": "'[0, targetObj].lastIndexOf(targetObj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,14 +225,18 @@
                     "start": 455,
                     "end": 456,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 458,
                     "end": 459,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -258,7 +270,9 @@
               "start": 486,
               "end": 487,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -266,7 +280,9 @@
             "start": 489,
             "end": 520,
             "value": "[0, 1].lastIndexOf(targetObj)",
-            "raw": "'[0, 1].lastIndexOf(targetObj)'"
+            "raw": "'[0, 1].lastIndexOf(targetObj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

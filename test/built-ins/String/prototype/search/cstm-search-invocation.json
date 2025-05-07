@@ -73,7 +73,9 @@
             "start": 573,
             "end": 574,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -186,7 +188,9 @@
                     "start": 648,
                     "end": 649,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -292,7 +296,9 @@
                 "start": 730,
                 "end": 733,
                 "value": "O",
-                "raw": "'O'"
+                "raw": "'O'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -362,14 +368,18 @@
             "start": 790,
             "end": 791,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 826,
             "value": "Invokes the method exactly once",
-            "raw": "'Invokes the method exactly once'"
+            "raw": "'Invokes the method exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,7 +525,9 @@
             "start": 932,
             "end": 933,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -564,7 +576,9 @@
               "start": 958,
               "end": 959,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -574,7 +588,9 @@
             "start": 962,
             "end": 965,
             "value": "O",
-            "raw": "'O'"
+            "raw": "'O'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 21,
         "raw": "'./op'",
-        "value": "./op"
+        "value": "./op",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 42,
         "end": 48,
         "raw": "'./po'",
-        "value": "./po"
+        "value": "./po",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

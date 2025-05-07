@@ -80,7 +80,9 @@
                 "start": 976,
                 "end": 987,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Identifier",
@@ -179,7 +181,9 @@
             "start": 1070,
             "end": 1126,
             "value": "does not change the object prototype (ordinary object)",
-            "raw": "'does not change the object prototype (ordinary object)'"
+            "raw": "'does not change the object prototype (ordinary object)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +233,9 @@
                 "start": 1159,
                 "end": 1170,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -239,7 +245,9 @@
             "start": 1175,
             "end": 1248,
             "value": "computed __proto__ property is set as an own property (ordinary object)",
-            "raw": "'computed __proto__ property is set as an own property (ordinary object)'"
+            "raw": "'computed __proto__ property is set as an own property (ordinary object)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +311,9 @@
             "start": 1299,
             "end": 1344,
             "value": "value is properly defined (ordinary object)",
-            "raw": "'value is properly defined (ordinary object)'"
+            "raw": "'value is properly defined (ordinary object)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -341,14 +351,18 @@
                 "start": 1360,
                 "end": 1371,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 1374,
                 "end": 1378,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -441,7 +455,9 @@
             "start": 1452,
             "end": 1497,
             "value": "does not change the object prototype (null)",
-            "raw": "'does not change the object prototype (null)'"
+            "raw": "'does not change the object prototype (null)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -491,7 +507,9 @@
                 "start": 1530,
                 "end": 1541,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -501,7 +519,9 @@
             "start": 1546,
             "end": 1608,
             "value": "computed __proto__ property is set as an own property (null)",
-            "raw": "'computed __proto__ property is set as an own property (null)'"
+            "raw": "'computed __proto__ property is set as an own property (null)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -559,14 +579,18 @@
             "start": 1649,
             "end": 1653,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1657,
             "end": 1691,
             "value": "value is properly defined (null)",
-            "raw": "'value is properly defined (null)'"
+            "raw": "'value is properly defined (null)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -604,7 +628,9 @@
                 "start": 1707,
                 "end": 1718,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Identifier",
@@ -703,7 +729,9 @@
             "start": 1804,
             "end": 1854,
             "value": "does not change the object prototype (undefined)",
-            "raw": "'does not change the object prototype (undefined)'"
+            "raw": "'does not change the object prototype (undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -753,7 +781,9 @@
                 "start": 1887,
                 "end": 1898,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -763,7 +793,9 @@
             "start": 1903,
             "end": 1970,
             "value": "computed __proto__ property is set as an own property (undefined)",
-            "raw": "'computed __proto__ property is set as an own property (undefined)'"
+            "raw": "'computed __proto__ property is set as an own property (undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -827,7 +859,9 @@
             "start": 2024,
             "end": 2063,
             "value": "value is properly defined (undefined)",
-            "raw": "'value is properly defined (undefined)'"
+            "raw": "'value is properly defined (undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -900,7 +934,9 @@
                 "start": 2105,
                 "end": 2116,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Identifier",
@@ -999,7 +1035,9 @@
             "start": 2197,
             "end": 2242,
             "value": "does not change the object prototype (func)",
-            "raw": "'does not change the object prototype (func)'"
+            "raw": "'does not change the object prototype (func)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1049,7 +1087,9 @@
                 "start": 2275,
                 "end": 2286,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1059,7 +1099,9 @@
             "start": 2291,
             "end": 2353,
             "value": "computed __proto__ property is set as an own property (func)",
-            "raw": "'computed __proto__ property is set as an own property (func)'"
+            "raw": "'computed __proto__ property is set as an own property (func)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1123,7 +1165,9 @@
             "start": 2402,
             "end": 2436,
             "value": "value is properly defined (func)",
-            "raw": "'value is properly defined (func)'"
+            "raw": "'value is properly defined (func)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1160,7 +1204,9 @@
                 "start": 2461,
                 "end": 2466,
                 "value": "Leo",
-                "raw": "'Leo'"
+                "raw": "'Leo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1201,7 +1247,9 @@
                 "start": 2480,
                 "end": 2491,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Identifier",
@@ -1300,7 +1348,9 @@
             "start": 2574,
             "end": 2621,
             "value": "does not change the object prototype (symbol)",
-            "raw": "'does not change the object prototype (symbol)'"
+            "raw": "'does not change the object prototype (symbol)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1350,7 +1400,9 @@
                 "start": 2654,
                 "end": 2665,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1360,7 +1412,9 @@
             "start": 2670,
             "end": 2734,
             "value": "computed __proto__ property is set as an own property (symbol)",
-            "raw": "'computed __proto__ property is set as an own property (symbol)'"
+            "raw": "'computed __proto__ property is set as an own property (symbol)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1424,7 +1478,9 @@
             "start": 2785,
             "end": 2821,
             "value": "value is properly defined (symbol)",
-            "raw": "'value is properly defined (symbol)'"
+            "raw": "'value is properly defined (symbol)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1462,14 +1518,18 @@
                 "start": 2837,
                 "end": 2848,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 2851,
                 "end": 2853,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -1562,7 +1622,9 @@
             "start": 2927,
             "end": 2974,
             "value": "does not change the object prototype (number)",
-            "raw": "'does not change the object prototype (number)'"
+            "raw": "'does not change the object prototype (number)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1612,7 +1674,9 @@
                 "start": 3007,
                 "end": 3018,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1622,7 +1686,9 @@
             "start": 3023,
             "end": 3087,
             "value": "computed __proto__ property is set as an own property (number)",
-            "raw": "'computed __proto__ property is set as an own property (number)'"
+            "raw": "'computed __proto__ property is set as an own property (number)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1680,14 +1746,18 @@
             "start": 3128,
             "end": 3130,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3134,
             "end": 3170,
             "value": "value is properly defined (number)",
-            "raw": "'value is properly defined (number)'"
+            "raw": "'value is properly defined (number)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1725,14 +1795,18 @@
                 "start": 3186,
                 "end": 3197,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 3200,
                 "end": 3202,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -1825,7 +1899,9 @@
             "start": 3276,
             "end": 3323,
             "value": "does not change the object prototype (string)",
-            "raw": "'does not change the object prototype (string)'"
+            "raw": "'does not change the object prototype (string)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1875,7 +1951,9 @@
                 "start": 3356,
                 "end": 3367,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1885,7 +1963,9 @@
             "start": 3372,
             "end": 3436,
             "value": "computed __proto__ property is set as an own property (string)",
-            "raw": "'computed __proto__ property is set as an own property (string)'"
+            "raw": "'computed __proto__ property is set as an own property (string)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1943,14 +2023,18 @@
             "start": 3477,
             "end": 3479,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3483,
             "end": 3519,
             "value": "value is properly defined (string)",
-            "raw": "'value is properly defined (string)'"
+            "raw": "'value is properly defined (string)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1988,14 +2072,18 @@
                 "start": 3535,
                 "end": 3546,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 3549,
                 "end": 3554,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -2088,7 +2176,9 @@
             "start": 3628,
             "end": 3676,
             "value": "does not change the object prototype (boolean)",
-            "raw": "'does not change the object prototype (boolean)'"
+            "raw": "'does not change the object prototype (boolean)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2138,7 +2228,9 @@
                 "start": 3709,
                 "end": 3720,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2148,7 +2240,9 @@
             "start": 3725,
             "end": 3790,
             "value": "computed __proto__ property is set as an own property (boolean)",
-            "raw": "'computed __proto__ property is set as an own property (boolean)'"
+            "raw": "'computed __proto__ property is set as an own property (boolean)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2206,14 +2300,18 @@
             "start": 3831,
             "end": 3836,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3840,
             "end": 3877,
             "value": "value is properly defined (boolean)",
-            "raw": "'value is properly defined (boolean)'"
+            "raw": "'value is properly defined (boolean)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

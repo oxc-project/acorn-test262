@@ -25,7 +25,9 @@
         "start": 538,
         "end": 565,
         "value": "./get-str-found-uninit.js",
-        "raw": "'./get-str-found-uninit.js'"
+        "raw": "'./get-str-found-uninit.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -369,7 +371,9 @@
               "start": 833,
               "end": 835,
               "value": 23,
-              "raw": "23"
+              "raw": "23",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -399,7 +403,9 @@
             "start": 850,
             "end": 852,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -461,7 +467,9 @@
         "start": 919,
         "end": 946,
         "value": "./get-str-found-uninit.js",
-        "raw": "'./get-str-found-uninit.js'"
+        "raw": "'./get-str-found-uninit.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -474,7 +482,9 @@
         "start": 963,
         "end": 967,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

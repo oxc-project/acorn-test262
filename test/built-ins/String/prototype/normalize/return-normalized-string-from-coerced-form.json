@@ -23,7 +23,9 @@
             "start": 711,
             "end": 743,
             "value": "Å⫝̸क़Ω̈́",
-            "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
+            "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 755,
             "end": 803,
             "value": "Å⫝̸क़Ω̈́",
-            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
+            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 815,
             "end": 866,
             "value": "Å⫝̸क़Ω̈́",
-            "raw": "'A\\u030A\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
+            "raw": "'A\\u030A\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -137,7 +143,9 @@
                           "start": 914,
                           "end": 919,
                           "value": "NFC",
-                          "raw": "'NFC'"
+                          "raw": "'NFC'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -213,7 +221,9 @@
                     "start": 959,
                     "end": 964,
                     "value": "NFC",
-                    "raw": "'NFC'"
+                    "raw": "'NFC'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -231,7 +241,9 @@
             "start": 973,
             "end": 994,
             "value": "coerced array - NFC",
-            "raw": "'coerced array - NFC'"
+            "raw": "'coerced array - NFC'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,7 +321,9 @@
             "start": 1035,
             "end": 1057,
             "value": "coerced object - NFC",
-            "raw": "'coerced object - NFC'"
+            "raw": "'coerced object - NFC'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,7 +385,9 @@
                         "start": 1103,
                         "end": 1108,
                         "value": "NFD",
-                        "raw": "'NFD'"
+                        "raw": "'NFD'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -445,7 +461,9 @@
                     "start": 1148,
                     "end": 1153,
                     "value": "NFD",
-                    "raw": "'NFD'"
+                    "raw": "'NFD'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -463,7 +481,9 @@
             "start": 1162,
             "end": 1183,
             "value": "coerced array - NFD",
-            "raw": "'coerced array - NFD'"
+            "raw": "'coerced array - NFD'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -541,7 +561,9 @@
             "start": 1224,
             "end": 1246,
             "value": "coerced object - NFD",
-            "raw": "'coerced object - NFD'"
+            "raw": "'coerced object - NFD'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "\\w",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 581,
             "end": 588,
             "value": "flags",
-            "raw": "'flags'"
+            "raw": "'flags'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -133,7 +136,9 @@
                                 "start": 633,
                                 "end": 636,
                                 "value": "g",
-                                "raw": "'g'"
+                                "raw": "'g'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -171,7 +176,9 @@
             "start": 662,
             "end": 667,
             "value": "a*b",
-            "raw": "'a*b'"
+            "raw": "'a*b'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -277,7 +284,9 @@
                         "start": 743,
                         "end": 746,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -286,7 +295,9 @@
                     "start": 749,
                     "end": 750,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -318,7 +329,9 @@
                         "start": 776,
                         "end": 779,
                         "value": "b",
-                        "raw": "'b'"
+                        "raw": "'b'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -327,7 +340,9 @@
                     "start": 782,
                     "end": 783,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",

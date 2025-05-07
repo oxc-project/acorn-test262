@@ -38,14 +38,17 @@
                 "regex": {
                   "pattern": "\\u0042",
                   "flags": "i"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 434,
                 "end": 437,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

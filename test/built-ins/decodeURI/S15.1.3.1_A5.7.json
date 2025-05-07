@@ -53,7 +53,9 @@
                     "start": 413,
                     "end": 462,
                     "value": "#1.1: new decodeURI() throw TypeError. Actual: ",
-                    "raw": "'#1.1: new decodeURI() throw TypeError. Actual: '"
+                    "raw": "'#1.1: new decodeURI() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -131,7 +133,9 @@
                   "start": 534,
                   "end": 538,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -163,7 +167,9 @@
                             "start": 569,
                             "end": 618,
                             "value": "#1.2: new decodeURI() throw TypeError. Actual: ",
-                            "raw": "'#1.2: new decodeURI() throw TypeError. Actual: '"
+                            "raw": "'#1.2: new decodeURI() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

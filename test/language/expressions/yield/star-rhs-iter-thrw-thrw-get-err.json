@@ -133,7 +133,9 @@
                                 "start": 901,
                                 "end": 906,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -190,7 +192,9 @@
             "start": 954,
             "end": 961,
             "value": "throw",
-            "raw": "'throw'"
+            "raw": "'throw'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -550,7 +554,9 @@
             "start": 1252,
             "end": 1290,
             "value": "`throw` property not accesed eagerly",
-            "raw": "'`throw` property not accesed eagerly'"
+            "raw": "'`throw` property not accesed eagerly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -708,7 +714,9 @@
             "start": 1391,
             "end": 1395,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

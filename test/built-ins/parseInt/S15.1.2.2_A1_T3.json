@@ -62,7 +62,9 @@
             "start": 294,
             "end": 331,
             "value": "parseInt(undefined) must return NaN",
-            "raw": "'parseInt(undefined) must return NaN'"
+            "raw": "'parseInt(undefined) must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -112,7 +114,9 @@
                 "start": 360,
                 "end": 364,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -128,7 +132,9 @@
             "start": 372,
             "end": 404,
             "value": "parseInt(null) must return NaN",
-            "raw": "'parseInt(null) must return NaN'"
+            "raw": "'parseInt(null) must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

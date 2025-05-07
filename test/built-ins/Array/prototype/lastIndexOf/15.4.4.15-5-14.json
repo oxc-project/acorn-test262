@@ -49,14 +49,18 @@
                     "start": 342,
                     "end": 343,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 345,
                     "end": 349,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,7 +79,9 @@
                 "start": 363,
                 "end": 367,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -97,7 +103,9 @@
               "start": 376,
               "end": 377,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -105,7 +113,9 @@
             "start": 379,
             "end": 413,
             "value": "[0, true].lastIndexOf(true, NaN)",
-            "raw": "'[0, true].lastIndexOf(true, NaN)'"
+            "raw": "'[0, true].lastIndexOf(true, NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -157,14 +167,18 @@
                     "start": 434,
                     "end": 438,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 440,
                     "end": 441,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -183,7 +197,9 @@
                 "start": 455,
                 "end": 459,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -199,14 +215,18 @@
             "start": 467,
             "end": 468,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 504,
             "value": "[true, 0].lastIndexOf(true, NaN)",
-            "raw": "'[true, 0].lastIndexOf(true, NaN)'"
+            "raw": "'[true, 0].lastIndexOf(true, NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,14 +278,18 @@
                     "start": 525,
                     "end": 526,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 528,
                     "end": 532,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -284,7 +308,9 @@
                 "start": 546,
                 "end": 550,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -313,7 +339,9 @@
               "start": 560,
               "end": 561,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -321,7 +349,9 @@
             "start": 563,
             "end": 598,
             "value": "[0, true].lastIndexOf(true, -NaN)",
-            "raw": "'[0, true].lastIndexOf(true, -NaN)'"
+            "raw": "'[0, true].lastIndexOf(true, -NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -373,14 +403,18 @@
                     "start": 619,
                     "end": 623,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 625,
                     "end": 626,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -399,7 +433,9 @@
                 "start": 640,
                 "end": 644,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -422,14 +458,18 @@
             "start": 653,
             "end": 654,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 691,
             "value": "[true, 0].lastIndexOf(true, -NaN)",
-            "raw": "'[true, 0].lastIndexOf(true, -NaN)'"
+            "raw": "'[true, 0].lastIndexOf(true, -NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

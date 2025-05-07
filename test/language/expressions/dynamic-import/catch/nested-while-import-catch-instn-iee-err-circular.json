@@ -23,7 +23,9 @@
             "start": 1681,
             "end": 1682,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -98,7 +100,9 @@
                         "start": 1713,
                         "end": 1752,
                         "value": "./instn-iee-err-circular-1_FIXTURE.js",
-                        "raw": "'./instn-iee-err-circular-1_FIXTURE.js'"
+                        "raw": "'./instn-iee-err-circular-1_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -185,7 +189,9 @@
                                   "start": 1805,
                                   "end": 1818,
                                   "value": "SyntaxError",
-                                  "raw": "'SyntaxError'"
+                                  "raw": "'SyntaxError'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

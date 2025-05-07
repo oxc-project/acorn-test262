@@ -60,7 +60,9 @@
                 "start": 340,
                 "end": 351,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 354,
             "end": 358,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 415,
             "value": "RegExp.hasOwnProperty('prototype') must return true",
-            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'"
+            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                 "start": 467,
                 "end": 478,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -150,14 +158,18 @@
             "start": 483,
             "end": 488,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 554,
             "value": "RegExp.propertyIsEnumerable('prototype') must return false",
-            "raw": "'RegExp.propertyIsEnumerable(\\'prototype\\') must return false'"
+            "raw": "'RegExp.propertyIsEnumerable(\\'prototype\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -183,7 +195,9 @@
             "start": 569,
             "end": 570,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -244,7 +258,9 @@
                 "start": 607,
                 "end": 618,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -316,14 +332,18 @@
             "start": 670,
             "end": 671,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 673,
             "end": 713,
             "value": "The value of count is expected to be 0",
-            "raw": "'The value of count is expected to be 0'"
+            "raw": "'The value of count is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

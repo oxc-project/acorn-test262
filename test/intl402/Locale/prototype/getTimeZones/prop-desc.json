@@ -88,14 +88,18 @@
             "start": 958,
             "end": 968,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 972,
             "end": 1027,
             "value": "typeof Intl.Locale.prototype.getTimeZones is function",
-            "raw": "\"typeof Intl.Locale.prototype.getTimeZones is function\""
+            "raw": "\"typeof Intl.Locale.prototype.getTimeZones is function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +157,9 @@
             "start": 1070,
             "end": 1084,
             "value": "getTimeZones",
-            "raw": "\"getTimeZones\""
+            "raw": "\"getTimeZones\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -178,7 +184,9 @@
                   "start": 1100,
                   "end": 1104,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -200,7 +208,9 @@
                   "start": 1120,
                   "end": 1125,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -222,7 +232,9 @@
                   "start": 1143,
                   "end": 1147,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

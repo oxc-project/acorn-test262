@@ -254,7 +254,9 @@
                                         "start": 845,
                                         "end": 851,
                                         "value": "pass",
-                                        "raw": "\"pass\""
+                                        "raw": "\"pass\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -381,7 +383,9 @@
                           "start": 937,
                           "end": 943,
                           "value": "pass",
-                          "raw": "\"pass\""
+                          "raw": "\"pass\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

@@ -127,7 +127,9 @@
             "start": 614,
             "end": 628,
             "value": "Map Iterator",
-            "raw": "'Map Iterator'"
+            "raw": "'Map Iterator'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -228,7 +230,9 @@
                   "start": 737,
                   "end": 742,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -250,7 +254,9 @@
                   "start": 758,
                   "end": 763,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -272,7 +278,9 @@
                   "start": 781,
                   "end": 785,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

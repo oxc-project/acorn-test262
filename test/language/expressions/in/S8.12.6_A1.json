@@ -41,7 +41,9 @@
                   "start": 369,
                   "end": 379,
                   "value": "fooooooo",
-                  "raw": "\"fooooooo\""
+                  "raw": "\"fooooooo\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -74,7 +76,9 @@
               "start": 478,
               "end": 487,
               "value": "fooProp",
-              "raw": "\"fooProp\""
+              "raw": "\"fooProp\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -111,7 +115,9 @@
                   "start": 526,
                   "end": 582,
                   "value": "#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj",
-                  "raw": "'#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj'"
+                  "raw": "'#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

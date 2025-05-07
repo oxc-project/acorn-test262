@@ -13,7 +13,9 @@
         "start": 452,
         "end": 457,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "update": null,
       "body": {

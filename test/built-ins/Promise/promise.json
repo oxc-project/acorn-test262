@@ -28,7 +28,9 @@
             "start": 627,
             "end": 636,
             "value": "Promise",
-            "raw": "'Promise'"
+            "raw": "'Promise'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -74,7 +76,9 @@
                   "start": 670,
                   "end": 674,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -96,7 +100,9 @@
                   "start": 690,
                   "end": 695,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -118,7 +124,9 @@
                   "start": 713,
                   "end": 717,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

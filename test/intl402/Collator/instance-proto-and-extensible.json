@@ -170,7 +170,9 @@
             "start": 438,
             "end": 519,
             "value": "Prototype of object constructed by Intl.Collator isn't Intl.Collator.prototype.",
-            "raw": "\"Prototype of object constructed by Intl.Collator isn't Intl.Collator.prototype.\""
+            "raw": "\"Prototype of object constructed by Intl.Collator isn't Intl.Collator.prototype.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +231,9 @@
             "start": 556,
             "end": 613,
             "value": "Object constructed by Intl.Collator must be extensible.",
-            "raw": "\"Object constructed by Intl.Collator must be extensible.\""
+            "raw": "\"Object constructed by Intl.Collator must be extensible.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

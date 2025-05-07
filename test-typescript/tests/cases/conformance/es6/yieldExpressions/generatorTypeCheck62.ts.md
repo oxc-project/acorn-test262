@@ -860,7 +860,9 @@ __ESTREE_TEST__:PASS:
                   "start": 655,
                   "end": 664,
                   "raw": "\"Nothing\"",
-                  "value": "Nothing"
+                  "value": "Nothing",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "FunctionExpression",
@@ -1021,7 +1023,9 @@ __ESTREE_TEST__:PASS:
                   "start": 840,
                   "end": 849,
                   "raw": "\"Nothing\"",
-                  "value": "Nothing"
+                  "value": "Nothing",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "FunctionExpression",
@@ -1189,7 +1193,9 @@ __ESTREE_TEST__:PASS:
                   "start": 949,
                   "end": 958,
                   "raw": "\"Nothing\"",
-                  "value": "Nothing"
+                  "value": "Nothing",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "FunctionExpression",

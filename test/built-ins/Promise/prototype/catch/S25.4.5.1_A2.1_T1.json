@@ -47,7 +47,9 @@
                 "start": 256,
                 "end": 257,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
             "start": 306,
             "end": 375,
             "value": "The value of !!(p.catch instanceof Function) is expected to be true",
-            "raw": "'The value of !!(p.catch instanceof Function) is expected to be true'"
+            "raw": "'The value of !!(p.catch instanceof Function) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

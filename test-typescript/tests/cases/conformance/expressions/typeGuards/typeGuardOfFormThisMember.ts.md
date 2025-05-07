@@ -870,14 +870,18 @@ __ESTREE_TEST__:PASS:
                       "start": 731,
                       "end": 744,
                       "raw": "\"foo/bar.txt\"",
-                      "value": "foo/bar.txt"
+                      "value": "foo/bar.txt",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 746,
                       "end": 751,
                       "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -936,7 +940,9 @@ __ESTREE_TEST__:PASS:
                 "start": 774,
                 "end": 779,
                 "raw": "false",
-                "value": false
+                "value": false,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -1042,7 +1048,9 @@ __ESTREE_TEST__:PASS:
                 "start": 823,
                 "end": 827,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             }
           },

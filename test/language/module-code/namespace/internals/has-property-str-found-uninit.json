@@ -25,7 +25,9 @@
         "start": 555,
         "end": 591,
         "value": "./has-property-str-found-uninit.js",
-        "raw": "'./has-property-str-found-uninit.js'"
+        "raw": "'./has-property-str-found-uninit.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -53,7 +55,9 @@
               "start": 601,
               "end": 609,
               "value": "local1",
-              "raw": "'local1'"
+              "raw": "'local1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -68,7 +72,9 @@
             "start": 617,
             "end": 629,
             "value": "in: local1",
-            "raw": "'in: local1'"
+            "raw": "'in: local1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,7 +130,9 @@
                 "start": 655,
                 "end": 663,
                 "value": "local1",
-                "raw": "'local1'"
+                "raw": "'local1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,7 +142,9 @@
             "start": 666,
             "end": 687,
             "value": "Reflect.has: local1",
-            "raw": "'Reflect.has: local1'"
+            "raw": "'Reflect.has: local1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -164,7 +174,9 @@
               "start": 698,
               "end": 707,
               "value": "renamed",
-              "raw": "'renamed'"
+              "raw": "'renamed'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -179,7 +191,9 @@
             "start": 715,
             "end": 728,
             "value": "in: renamed",
-            "raw": "'in: renamed'"
+            "raw": "'in: renamed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +249,9 @@
                 "start": 754,
                 "end": 763,
                 "value": "renamed",
-                "raw": "'renamed'"
+                "raw": "'renamed'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -245,7 +261,9 @@
             "start": 766,
             "end": 788,
             "value": "Reflect.has: renamed",
-            "raw": "'Reflect.has: renamed'"
+            "raw": "'Reflect.has: renamed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,7 +293,9 @@
               "start": 799,
               "end": 809,
               "value": "indirect",
-              "raw": "'indirect'"
+              "raw": "'indirect'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -290,7 +310,9 @@
             "start": 817,
             "end": 831,
             "value": "in: indirect",
-            "raw": "'in: indirect'"
+            "raw": "'in: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -346,7 +368,9 @@
                 "start": 857,
                 "end": 867,
                 "value": "indirect",
-                "raw": "'indirect'"
+                "raw": "'indirect'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -356,7 +380,9 @@
             "start": 870,
             "end": 893,
             "value": "Reflect.has: indirect",
-            "raw": "'Reflect.has: indirect'"
+            "raw": "'Reflect.has: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,7 +412,9 @@
               "start": 904,
               "end": 913,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -401,7 +429,9 @@
             "start": 921,
             "end": 934,
             "value": "in: default",
-            "raw": "'in: default'"
+            "raw": "'in: default'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -457,7 +487,9 @@
                 "start": 960,
                 "end": 969,
                 "value": "default",
-                "raw": "'default'"
+                "raw": "'default'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -467,7 +499,9 @@
             "start": 972,
             "end": 994,
             "value": "Reflect.has: default",
-            "raw": "'Reflect.has: default'"
+            "raw": "'Reflect.has: default'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,7 +531,9 @@
               "start": 1018,
               "end": 1020,
               "value": 23,
-              "raw": "23"
+              "raw": "23",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -527,7 +563,9 @@
             "start": 1035,
             "end": 1037,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -589,7 +627,9 @@
         "start": 1104,
         "end": 1140,
         "value": "./has-property-str-found-uninit.js",
-        "raw": "'./has-property-str-found-uninit.js'"
+        "raw": "'./has-property-str-found-uninit.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -602,7 +642,9 @@
         "start": 1157,
         "end": 1161,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -86,7 +86,9 @@
                 "start": 431,
                 "end": 439,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 444,
             "end": 448,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 523,
             "value": "RegExp.prototype.toString.hasOwnProperty('length') must return true",
-            "raw": "'RegExp.prototype.toString.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'RegExp.prototype.toString.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -225,14 +231,18 @@
             "start": 620,
             "end": 628,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 634,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -257,7 +267,9 @@
                     "start": 654,
                     "end": 663,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -351,7 +363,9 @@
             "start": 734,
             "end": 821,
             "value": "The value of RegExp.prototype.toString.length is expected to equal the value of __obj",
-            "raw": "'The value of RegExp.prototype.toString.length is expected to equal the value of __obj'"
+            "raw": "'The value of RegExp.prototype.toString.length is expected to equal the value of __obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

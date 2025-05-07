@@ -35,7 +35,9 @@
                   "start": 496,
                   "end": 507,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -64,7 +66,9 @@
           "start": 523,
           "end": 524,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -96,7 +100,9 @@
                     "start": 553,
                     "end": 615,
                     "value": "#1: var x; new String(\"undefined\").search(x) === 0. Actual: ",
-                    "raw": "'#1: var x; new String(\"undefined\").search(x) === 0. Actual: '"
+                    "raw": "'#1: var x; new String(\"undefined\").search(x) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -123,7 +129,9 @@
                             "start": 629,
                             "end": 640,
                             "value": "undefined",
-                            "raw": "\"undefined\""
+                            "raw": "\"undefined\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },

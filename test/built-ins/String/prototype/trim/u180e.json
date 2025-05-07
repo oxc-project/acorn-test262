@@ -44,7 +44,9 @@
                 "start": 429,
                 "end": 438,
                 "value": "_᠎",
-                "raw": "\"_\\u180E\""
+                "raw": "\"_\\u180E\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,7 +65,9 @@
             "start": 447,
             "end": 456,
             "value": "_᠎",
-            "raw": "\"_\\u180E\""
+            "raw": "\"_\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -110,7 +114,9 @@
                 "start": 476,
                 "end": 484,
                 "value": "᠎",
-                "raw": "\"\\u180E\""
+                "raw": "\"\\u180E\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -129,7 +135,9 @@
             "start": 493,
             "end": 501,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +184,9 @@
                 "start": 521,
                 "end": 530,
                 "value": "᠎_",
-                "raw": "\"\\u180E_\""
+                "raw": "\"\\u180E_\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -195,7 +205,9 @@
             "start": 539,
             "end": 548,
             "value": "᠎_",
-            "raw": "\"\\u180E_\""
+            "raw": "\"\\u180E_\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

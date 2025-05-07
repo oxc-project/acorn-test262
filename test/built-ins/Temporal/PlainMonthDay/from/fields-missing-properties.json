@@ -98,7 +98,9 @@
             "start": 345,
             "end": 360,
             "value": "No properties",
-            "raw": "\"No properties\""
+            "raw": "\"No properties\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +209,9 @@
                         "start": 429,
                         "end": 431,
                         "value": 15,
-                        "raw": "15"
+                        "raw": "15",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -222,7 +226,9 @@
             "start": 436,
             "end": 446,
             "value": "Only day",
-            "raw": "\"Only day\""
+            "raw": "\"Only day\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,7 +337,9 @@
                         "start": 517,
                         "end": 519,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -346,7 +354,9 @@
             "start": 524,
             "end": 552,
             "value": "day is required with month",
-            "raw": "\"day is required with month\""
+            "raw": "\"day is required with month\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -455,7 +465,9 @@
                         "start": 627,
                         "end": 632,
                         "value": "M12",
-                        "raw": "'M12'"
+                        "raw": "'M12'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -470,7 +482,9 @@
             "start": 637,
             "end": 653,
             "value": "Only monthCode",
-            "raw": "\"Only monthCode\""
+            "raw": "\"Only monthCode\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -600,7 +614,9 @@
                         "start": 744,
                         "end": 746,
                         "value": 15,
-                        "raw": "15"
+                        "raw": "15",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -615,7 +631,9 @@
             "start": 751,
             "end": 772,
             "value": "monthCode undefined",
-            "raw": "\"monthCode undefined\""
+            "raw": "\"monthCode undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -724,7 +742,9 @@
                         "start": 844,
                         "end": 846,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -746,7 +766,9 @@
                         "start": 853,
                         "end": 855,
                         "value": 31,
-                        "raw": "31"
+                        "raw": "31",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -761,7 +783,9 @@
             "start": 860,
             "end": 875,
             "value": "months plural",
-            "raw": "\"months plural\""
+            "raw": "\"months plural\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -870,7 +894,9 @@
                         "start": 945,
                         "end": 949,
                         "value": 2021,
-                        "raw": "2021"
+                        "raw": "2021",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -892,7 +918,9 @@
                         "start": 958,
                         "end": 960,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -907,7 +935,9 @@
             "start": 965,
             "end": 1002,
             "value": "day is required with year and month",
-            "raw": "\"day is required with year and month\""
+            "raw": "\"day is required with year and month\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1016,7 +1046,9 @@
                         "start": 1072,
                         "end": 1076,
                         "value": 2021,
-                        "raw": "2021"
+                        "raw": "2021",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1038,7 +1070,9 @@
                         "start": 1089,
                         "end": 1094,
                         "value": "M12",
-                        "raw": "\"M12\""
+                        "raw": "\"M12\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1053,7 +1087,9 @@
             "start": 1099,
             "end": 1140,
             "value": "day is required with year and monthCode",
-            "raw": "\"day is required with year and monthCode\""
+            "raw": "\"day is required with year and monthCode\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1162,7 +1198,9 @@
                         "start": 1210,
                         "end": 1214,
                         "value": 2021,
-                        "raw": "2021"
+                        "raw": "2021",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1184,7 +1222,9 @@
                         "start": 1221,
                         "end": 1223,
                         "value": 17,
-                        "raw": "17"
+                        "raw": "17",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1199,7 +1239,9 @@
             "start": 1228,
             "end": 1267,
             "value": "either month or monthCode is required",
-            "raw": "\"either month or monthCode is required\""
+            "raw": "\"either month or monthCode is required\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

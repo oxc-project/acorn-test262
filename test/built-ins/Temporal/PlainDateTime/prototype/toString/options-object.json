@@ -47,21 +47,27 @@
                 "start": 321,
                 "end": 325,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 328,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 331,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -160,14 +166,18 @@
             "start": 403,
             "end": 424,
             "value": "2000-05-02T00:00:00",
-            "raw": "\"2000-05-02T00:00:00\""
+            "raw": "\"2000-05-02T00:00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 466,
             "value": "options may be an empty plain object",
-            "raw": "\"options may be an empty plain object\""
+            "raw": "\"options may be an empty plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,14 +284,18 @@
             "start": 545,
             "end": 566,
             "value": "2000-05-02T00:00:00",
-            "raw": "\"2000-05-02T00:00:00\""
+            "raw": "\"2000-05-02T00:00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 604,
             "value": "options may be a function object",
-            "raw": "\"options may be a function object\""
+            "raw": "\"options may be a function object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

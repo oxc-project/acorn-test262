@@ -71,7 +71,9 @@
                         "start": 523,
                         "end": 559,
                         "value": "\"use strict\"; unresolvable = null;",
-                        "raw": "'\"use strict\"; unresolvable = null;'"
+                        "raw": "'\"use strict\"; unresolvable = null;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

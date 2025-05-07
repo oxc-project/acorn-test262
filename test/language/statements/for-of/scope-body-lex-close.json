@@ -23,7 +23,9 @@
             "start": 986,
             "end": 995,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -159,7 +161,9 @@
                 "start": 1097,
                 "end": 1105,
                 "value": "inside",
-                "raw": "'inside'"
+                "raw": "'inside'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -257,14 +261,18 @@
             "start": 1183,
             "end": 1191,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1193,
             "end": 1224,
             "value": "reference from ForDeclaration",
-            "raw": "'reference from ForDeclaration'"
+            "raw": "'reference from ForDeclaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,14 +324,18 @@
             "start": 1257,
             "end": 1265,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1298,
             "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "raw": "'reference from statement body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +380,9 @@
             "start": 1321,
             "end": 1330,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

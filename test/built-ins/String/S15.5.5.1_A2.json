@@ -34,7 +34,9 @@
                 "start": 323,
                 "end": 333,
                 "value": "globglob",
-                "raw": "\"globglob\""
+                "raw": "\"globglob\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -85,7 +87,9 @@
                 "start": 463,
                 "end": 471,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -121,7 +125,9 @@
                     "start": 502,
                     "end": 616,
                     "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: ",
-                    "raw": "'#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: '"
+                    "raw": "'#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -153,7 +159,9 @@
                         "start": 650,
                         "end": 658,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -221,7 +229,9 @@
                 "start": 887,
                 "end": 895,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -249,7 +259,9 @@
                         "start": 926,
                         "end": 977,
                         "value": "#2: length property has the attributes {DontEnum}",
-                        "raw": "'#2: length property has the attributes {DontEnum}'"
+                        "raw": "'#2: length property has the attributes {DontEnum}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

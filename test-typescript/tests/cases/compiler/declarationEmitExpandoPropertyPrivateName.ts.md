@@ -56,7 +56,9 @@ __ESTREE_TEST__:PASS:
                   "start": 47,
                   "end": 51,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSTypeReference",
@@ -139,7 +141,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 21,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

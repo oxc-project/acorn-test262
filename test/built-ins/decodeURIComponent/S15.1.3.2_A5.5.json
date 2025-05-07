@@ -39,7 +39,9 @@
               "start": 355,
               "end": 375,
               "value": "decodeURIComponent",
-              "raw": "'decodeURIComponent'"
+              "raw": "'decodeURIComponent'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -50,7 +52,9 @@
           "start": 381,
           "end": 386,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -82,7 +86,9 @@
                     "start": 415,
                     "end": 490,
                     "value": "#1: this.propertyIsEnumerable('decodeURIComponent') === false. Actual: ",
-                    "raw": "'#1: this.propertyIsEnumerable(\\'decodeURIComponent\\') === false. Actual: '"
+                    "raw": "'#1: this.propertyIsEnumerable(\\'decodeURIComponent\\') === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -117,7 +123,9 @@
                           "start": 520,
                           "end": 540,
                           "value": "decodeURIComponent",
-                          "raw": "'decodeURIComponent'"
+                          "raw": "'decodeURIComponent'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -151,7 +159,9 @@
             "start": 571,
             "end": 575,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -211,7 +221,9 @@
                 "start": 611,
                 "end": 631,
                 "value": "decodeURIComponent",
-                "raw": "\"decodeURIComponent\""
+                "raw": "\"decodeURIComponent\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -239,7 +251,9 @@
                       "start": 648,
                       "end": 653,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -270,7 +284,9 @@
           "start": 677,
           "end": 681,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -298,7 +314,9 @@
                   "start": 710,
                   "end": 816,
                   "value": "#2: result = true; for (p in this) { if (p === \"decodeURIComponent\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in this) { if (p === \"decodeURIComponent\") result = false; }  result === true;'"
+                  "raw": "'#2: result = true; for (p in this) { if (p === \"decodeURIComponent\") result = false; }  result === true;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

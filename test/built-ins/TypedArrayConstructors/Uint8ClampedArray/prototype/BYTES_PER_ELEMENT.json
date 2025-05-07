@@ -68,7 +68,9 @@
             "start": 660,
             "end": 661,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +115,9 @@
             "start": 714,
             "end": 733,
             "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "raw": "\"BYTES_PER_ELEMENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,7 +162,9 @@
             "start": 783,
             "end": 802,
             "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "raw": "\"BYTES_PER_ELEMENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -203,7 +209,9 @@
             "start": 856,
             "end": 875,
             "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "raw": "\"BYTES_PER_ELEMENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

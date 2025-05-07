@@ -12,7 +12,9 @@
         "start": 1313,
         "end": 1317,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -48,7 +50,9 @@
                         "start": 1330,
                         "end": 1371,
                         "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js",
-                        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'"
+                        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -135,7 +139,9 @@
                                   "start": 1424,
                                   "end": 1435,
                                   "value": "TypeError",
-                                  "raw": "'TypeError'"
+                                  "raw": "'TypeError'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

@@ -77,7 +77,9 @@
                     "start": 401,
                     "end": 409,
                     "value": "[1,[]]",
-                    "raw": "'[1,[]]'"
+                    "raw": "'[1,[]]'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "FunctionExpression",
@@ -285,7 +287,9 @@
                               "start": 539,
                               "end": 540,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "consequent": {
@@ -319,7 +323,9 @@
                                         "start": 555,
                                         "end": 556,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "computed": true,
                                       "optional": false
@@ -339,7 +345,9 @@
                                       "start": 563,
                                       "end": 569,
                                       "value": "barf",
-                                      "raw": "'barf'"
+                                      "raw": "'barf'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -426,28 +434,36 @@
                     "start": 637,
                     "end": 668,
                     "value": "key: |0| value: 1 source: |1|",
-                    "raw": "'key: |0| value: 1 source: |1|'"
+                    "raw": "'key: |0| value: 1 source: |1|'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 674,
                     "end": 718,
                     "value": "key: |0| value: \"barf\" source: |undefined|",
-                    "raw": "'key: |0| value: \"barf\" source: |undefined|'"
+                    "raw": "'key: |0| value: \"barf\" source: |undefined|'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 724,
                     "end": 770,
                     "value": "key: |1| value: [\"barf\"] source: |undefined|",
-                    "raw": "'key: |1| value: [\"barf\"] source: |undefined|'"
+                    "raw": "'key: |1| value: [\"barf\"] source: |undefined|'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 776,
                     "end": 825,
                     "value": "key: || value: [1,[\"barf\"]] source: |undefined|",
-                    "raw": "'key: || value: [1,[\"barf\"]] source: |undefined|'"
+                    "raw": "'key: || value: [1,[\"barf\"]] source: |undefined|'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -531,7 +547,9 @@
                     "start": 905,
                     "end": 921,
                     "value": "{\"p\":1,\"q\":{}}",
-                    "raw": "'{\"p\":1,\"q\":{}}'"
+                    "raw": "'{\"p\":1,\"q\":{}}'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "FunctionExpression",
@@ -734,7 +752,9 @@
                               "start": 1044,
                               "end": 1045,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "consequent": {
@@ -787,7 +807,9 @@
                                     "start": 1070,
                                     "end": 1076,
                                     "value": "barf",
-                                    "raw": "'barf'"
+                                    "raw": "'barf'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -872,28 +894,36 @@
                     "start": 1143,
                     "end": 1174,
                     "value": "key: |p| value: 1 source: |1|",
-                    "raw": "'key: |p| value: 1 source: |1|'"
+                    "raw": "'key: |p| value: 1 source: |1|'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1180,
                     "end": 1228,
                     "value": "key: |added| value: \"barf\" source: |undefined|",
-                    "raw": "'key: |added| value: \"barf\" source: |undefined|'"
+                    "raw": "'key: |added| value: \"barf\" source: |undefined|'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1234,
                     "end": 1288,
                     "value": "key: |q| value: {\"added\":\"barf\"} source: |undefined|",
-                    "raw": "'key: |q| value: {\"added\":\"barf\"} source: |undefined|'"
+                    "raw": "'key: |q| value: {\"added\":\"barf\"} source: |undefined|'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1294,
                     "end": 1359,
                     "value": "key: || value: {\"p\":1,\"q\":{\"added\":\"barf\"}} source: |undefined|",
-                    "raw": "'key: || value: {\"p\":1,\"q\":{\"added\":\"barf\"}} source: |undefined|'"
+                    "raw": "'key: || value: {\"p\":1,\"q\":{\"added\":\"barf\"}} source: |undefined|'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

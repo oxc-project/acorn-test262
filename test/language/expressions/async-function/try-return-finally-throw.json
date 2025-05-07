@@ -50,7 +50,9 @@
                           "start": 393,
                           "end": 407,
                           "value": "early-return",
-                          "raw": "\"early-return\""
+                          "raw": "\"early-return\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -70,7 +72,9 @@
                           "start": 433,
                           "end": 443,
                           "value": "override",
-                          "raw": "\"override\""
+                          "raw": "\"override\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -192,14 +196,18 @@
                             "start": 513,
                             "end": 523,
                             "value": "override",
-                            "raw": "\"override\""
+                            "raw": "\"override\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 525,
                             "end": 560,
                             "value": "Exception thrown in finally block",
-                            "raw": "\"Exception thrown in finally block\""
+                            "raw": "\"Exception thrown in finally block\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

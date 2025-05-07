@@ -55,7 +55,9 @@
                     "start": 560,
                     "end": 564,
                     "value": "en",
-                    "raw": "'en'"
+                    "raw": "'en'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -146,7 +148,9 @@
                 "start": 628,
                 "end": 639,
                 "value": "direction",
-                "raw": "'direction'"
+                "raw": "'direction'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -180,7 +184,9 @@
             "start": 667,
             "end": 678,
             "value": "direction",
-            "raw": "'direction'"
+            "raw": "'direction'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -205,7 +211,9 @@
                   "start": 694,
                   "end": 698,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -227,7 +235,9 @@
                   "start": 714,
                   "end": 718,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -249,7 +259,9 @@
                   "start": 736,
                   "end": 740,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -315,7 +327,9 @@
                       "start": 780,
                       "end": 784,
                       "value": "en",
-                      "raw": "'en'"
+                      "raw": "'en'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -379,7 +393,9 @@
                 "start": 835,
                 "end": 840,
                 "value": "rtl",
-                "raw": "'rtl'"
+                "raw": "'rtl'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "||",
@@ -399,7 +415,9 @@
                 "start": 858,
                 "end": 863,
                 "value": "ltr",
-                "raw": "'ltr'"
+                "raw": "'ltr'",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -408,7 +426,9 @@
             "start": 867,
             "end": 902,
             "value": "value of the `direction` property",
-            "raw": "'value of the `direction` property'"
+            "raw": "'value of the `direction` property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

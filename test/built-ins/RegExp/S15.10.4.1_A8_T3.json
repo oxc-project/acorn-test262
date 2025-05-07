@@ -70,7 +70,9 @@
                               "start": 395,
                               "end": 402,
                               "value": "[0-9]",
-                              "raw": "\"[0-9]\""
+                              "raw": "\"[0-9]\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -111,7 +113,9 @@
                             "start": 426,
                             "end": 429,
                             "value": "m",
-                            "raw": "\"m\""
+                            "raw": "\"m\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -179,14 +183,18 @@
             "start": 472,
             "end": 477,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 533,
             "value": "The value of __re.ignoreCase is expected to be false",
-            "raw": "'The value of __re.ignoreCase is expected to be false'"
+            "raw": "'The value of __re.ignoreCase is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,14 +252,18 @@
             "start": 569,
             "end": 573,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 627,
             "value": "The value of __re.multiline is expected to be true",
-            "raw": "'The value of __re.multiline is expected to be true'"
+            "raw": "'The value of __re.multiline is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,14 +321,18 @@
             "start": 660,
             "end": 665,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 717,
             "value": "The value of __re.global is expected to be false",
-            "raw": "'The value of __re.global is expected to be false'"
+            "raw": "'The value of __re.global is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -374,14 +390,18 @@
             "start": 753,
             "end": 754,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 805,
             "value": "The value of __re.lastIndex is expected to be 0",
-            "raw": "'The value of __re.lastIndex is expected to be 0'"
+            "raw": "'The value of __re.lastIndex is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,14 +466,18 @@
             "start": 848,
             "end": 859,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 861,
             "end": 913,
             "value": "The value of typeof __re.source is not \"undefined\"",
-            "raw": "'The value of typeof __re.source is not \"undefined\"'"
+            "raw": "'The value of typeof __re.source is not \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -62,7 +62,9 @@
             "start": 461,
             "end": 469,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

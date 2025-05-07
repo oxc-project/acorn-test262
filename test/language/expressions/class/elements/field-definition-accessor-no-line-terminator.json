@@ -218,7 +218,9 @@
                   "start": 699,
                   "end": 709,
                   "value": "accessor",
-                  "raw": "'accessor'"
+                  "raw": "'accessor'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -229,7 +231,9 @@
             "start": 714,
             "end": 773,
             "value": "accessor doesn't appear as an own property on C prototype",
-            "raw": "\"accessor doesn't appear as an own property on C prototype\""
+            "raw": "\"accessor doesn't appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -330,7 +334,9 @@
                   "start": 838,
                   "end": 841,
                   "value": "$",
-                  "raw": "'$'"
+                  "raw": "'$'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -341,7 +347,9 @@
             "start": 846,
             "end": 898,
             "value": "$ doesn't appear as an own property on C prototype",
-            "raw": "\"$ doesn't appear as an own property on C prototype\""
+            "raw": "\"$ doesn't appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,7 +431,9 @@
                 "start": 952,
                 "end": 962,
                 "value": "accessor",
-                "raw": "'accessor'"
+                "raw": "'accessor'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -433,7 +443,9 @@
             "start": 967,
             "end": 1011,
             "value": "C constructor has an own property accessor",
-            "raw": "\"C constructor has an own property accessor\""
+            "raw": "\"C constructor has an own property accessor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +533,9 @@
                   "start": 1066,
                   "end": 1069,
                   "value": "$",
-                  "raw": "'$'"
+                  "raw": "'$'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -532,7 +546,9 @@
             "start": 1074,
             "end": 1128,
             "value": "$ doesn't appear as an own property on C constructor",
-            "raw": "\"$ doesn't appear as an own property on C constructor\""
+            "raw": "\"$ doesn't appear as an own property on C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -614,7 +630,9 @@
                 "start": 1182,
                 "end": 1192,
                 "value": "accessor",
-                "raw": "'accessor'"
+                "raw": "'accessor'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -624,7 +642,9 @@
             "start": 1197,
             "end": 1238,
             "value": "C instance has an own property accessor",
-            "raw": "\"C instance has an own property accessor\""
+            "raw": "\"C instance has an own property accessor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -706,7 +726,9 @@
                 "start": 1292,
                 "end": 1295,
                 "value": "$",
-                "raw": "'$'"
+                "raw": "'$'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -716,7 +738,9 @@
             "start": 1300,
             "end": 1334,
             "value": "C instance has an own property $",
-            "raw": "\"C instance has an own property $\""
+            "raw": "\"C instance has an own property $\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

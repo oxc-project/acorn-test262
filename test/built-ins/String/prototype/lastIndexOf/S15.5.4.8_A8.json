@@ -72,7 +72,9 @@
                 "start": 498,
                 "end": 506,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 537,
                     "end": 620,
                     "value": "#0: String.prototype.lastIndexOf.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.lastIndexOf.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#0: String.prototype.lastIndexOf.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 667,
                         "end": 675,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -238,7 +244,9 @@
             "start": 909,
             "end": 917,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,7 +280,9 @@
                     "start": 947,
                     "end": 1037,
                     "value": "#1: String.prototype.lastIndexOf.propertyIsEnumerable('length') return false. Actual: ",
-                    "raw": "'#1: String.prototype.lastIndexOf.propertyIsEnumerable(\\'length\\') return false. Actual: '"
+                    "raw": "'#1: String.prototype.lastIndexOf.propertyIsEnumerable(\\'length\\') return false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -330,7 +340,9 @@
                         "start": 1090,
                         "end": 1098,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -363,7 +375,9 @@
             "start": 1289,
             "end": 1290,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -450,7 +464,9 @@
                 "start": 1351,
                 "end": 1359,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -496,7 +512,9 @@
           "start": 1387,
           "end": 1388,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -528,7 +546,9 @@
                     "start": 1417,
                     "end": 1522,
                     "value": "#2: count=0; for (p in String.prototype.lastIndexOf){if (p===\"length\") count++;}; count === 0. Actual: ",
-                    "raw": "'#2: count=0; for (p in String.prototype.lastIndexOf){if (p===\"length\") count++;}; count === 0. Actual: '"
+                    "raw": "'#2: count=0; for (p in String.prototype.lastIndexOf){if (p===\"length\") count++;}; count === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -122,14 +122,18 @@
                         "start": 567,
                         "end": 568,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 570,
                         "end": 590,
                         "value": "Regular typedArray",
-                        "raw": "\"Regular typedArray\""
+                        "raw": "\"Regular typedArray\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -159,7 +163,9 @@
                           "start": 609,
                           "end": 610,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "*",
                         "right": {
@@ -221,7 +227,9 @@
                               "start": 668,
                               "end": 669,
                               "value": 8,
-                              "raw": "8"
+                              "raw": "8",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "*",
                             "right": {
@@ -352,7 +360,9 @@
                         "start": 775,
                         "end": 795,
                         "value": "TA(buffer, offset)",
-                        "raw": "\"TA(buffer, offset)\""
+                        "raw": "\"TA(buffer, offset)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -393,7 +403,9 @@
                               "start": 831,
                               "end": 832,
                               "value": 8,
-                              "raw": "8"
+                              "raw": "8",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "*",
                             "right": {
@@ -556,14 +568,18 @@
                         "start": 961,
                         "end": 962,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 964,
                         "end": 980,
                         "value": "TA(typedArray)",
-                        "raw": "\"TA(typedArray)\""
+                        "raw": "\"TA(typedArray)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

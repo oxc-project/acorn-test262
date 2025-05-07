@@ -71,14 +71,18 @@
                         "start": 666,
                         "end": 671,
                         "value": "\\x",
-                        "raw": "\"\\\\x\""
+                        "raw": "\"\\\\x\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 673,
                         "end": 676,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -92,7 +96,9 @@
             "start": 682,
             "end": 704,
             "value": "RegExp(\"\\x\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\x\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\x\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,14 +172,18 @@
                         "start": 756,
                         "end": 762,
                         "value": "\\x1",
-                        "raw": "\"\\\\x1\""
+                        "raw": "\"\\\\x1\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 764,
                         "end": 767,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -187,7 +197,9 @@
             "start": 773,
             "end": 796,
             "value": "RegExp(\"\\x1\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\x1\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\x1\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -261,14 +273,18 @@
                         "start": 1014,
                         "end": 1021,
                         "value": "[\\x]",
-                        "raw": "\"[\\\\x]\""
+                        "raw": "\"[\\\\x]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1023,
                         "end": 1026,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -282,7 +298,9 @@
             "start": 1032,
             "end": 1056,
             "value": "RegExp(\"[\\x]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\x]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\x]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +374,18 @@
                         "start": 1108,
                         "end": 1116,
                         "value": "[\\x1]",
-                        "raw": "\"[\\\\x1]\""
+                        "raw": "\"[\\\\x1]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1118,
                         "end": 1121,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -377,7 +399,9 @@
             "start": 1127,
             "end": 1152,
             "value": "RegExp(\"[\\x1]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\x1]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\x1]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

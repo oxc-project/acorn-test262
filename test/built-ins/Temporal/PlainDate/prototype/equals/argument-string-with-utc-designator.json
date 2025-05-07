@@ -28,14 +28,18 @@
                 "start": 337,
                 "end": 359,
                 "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "raw": "\"2019-10-01T09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 390,
                 "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,21 +91,27 @@
                 "start": 435,
                 "end": 439,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 442,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 444,
                 "end": 445,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -240,7 +250,9 @@
                         "start": 551,
                         "end": 614,
                         "value": "String with UTC designator should not be valid as a PlainDate",
-                        "raw": "\"String with UTC designator should not be valid as a PlainDate\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainDate\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -23,7 +23,9 @@
             "start": 729,
             "end": 762,
             "value": "this123is123a123string123object",
-            "raw": "\"this123is123a123string123object\""
+            "raw": "\"this123is123a123string123object\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -54,35 +56,45 @@
                 "start": 782,
                 "end": 788,
                 "value": "this",
-                "raw": "\"this\""
+                "raw": "\"this\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 790,
                 "end": 794,
                 "value": "is",
-                "raw": "\"is\""
+                "raw": "\"is\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 796,
                 "end": 799,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 809,
                 "value": "string",
-                "raw": "\"string\""
+                "raw": "\"string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 811,
                 "end": 819,
                 "value": "object",
-                "raw": "\"object\""
+                "raw": "\"object\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -134,7 +146,9 @@
                 "start": 852,
                 "end": 855,
                 "value": 123,
-                "raw": "123"
+                "raw": "123",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -201,7 +215,9 @@
             "start": 911,
             "end": 985,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,7 +294,9 @@
             "start": 1049,
             "end": 1130,
             "value": "The value of __split.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __split.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -308,7 +326,9 @@
               "start": 1320,
               "end": 1321,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -434,7 +454,9 @@
                   "start": 1399,
                   "end": 1472,
                   "value": "The value of __expected[i] is expected to equal the value of __split[i]",
-                  "raw": "'The value of __expected[i] is expected to equal the value of __split[i]'"
+                  "raw": "'The value of __expected[i] is expected to equal the value of __split[i]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

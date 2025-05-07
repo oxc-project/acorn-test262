@@ -47,7 +47,9 @@
                 "start": 277,
                 "end": 281,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,14 +124,18 @@
             "start": 329,
             "end": 333,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 335,
             "end": 359,
             "value": "trueResult is an array",
-            "raw": "'trueResult is an array'"
+            "raw": "'trueResult is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,14 +193,18 @@
             "start": 398,
             "end": 399,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 401,
             "end": 425,
             "value": "trueResult has 0 items",
-            "raw": "'trueResult has 0 items'"
+            "raw": "'trueResult has 0 items'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +254,9 @@
                 "start": 461,
                 "end": 466,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -319,14 +331,18 @@
             "start": 515,
             "end": 519,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 546,
             "value": "falseResult is an array",
-            "raw": "'falseResult is an array'"
+            "raw": "'falseResult is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -384,14 +400,18 @@
             "start": 586,
             "end": 587,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 614,
             "value": "falseResult has 0 items",
-            "raw": "'falseResult has 0 items'"
+            "raw": "'falseResult has 0 items'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

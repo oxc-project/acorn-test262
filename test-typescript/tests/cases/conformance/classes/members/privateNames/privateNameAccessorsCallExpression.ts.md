@@ -92,7 +92,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 63,
                                 "end": 65,
                                 "raw": "10",
-                                "value": 10
+                                "value": 10,
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -236,7 +238,9 @@ __ESTREE_TEST__:PASS:
               "start": 135,
               "end": 136,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -426,14 +430,18 @@ __ESTREE_TEST__:PASS:
                               "start": 286,
                               "end": 287,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 289,
                               "end": 290,
                               "raw": "2",
-                              "value": 2
+                              "value": 2,
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -457,7 +465,9 @@ __ESTREE_TEST__:PASS:
                           "start": 319,
                           "end": 320,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "SpreadElement",
@@ -478,7 +488,9 @@ __ESTREE_TEST__:PASS:
                           "start": 330,
                           "end": 331,
                           "raw": "3",
-                          "value": 3
+                          "value": 3,
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -532,7 +544,9 @@ __ESTREE_TEST__:PASS:
                               "start": 373,
                               "end": 374,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "SpreadElement",
@@ -553,7 +567,9 @@ __ESTREE_TEST__:PASS:
                               "start": 384,
                               "end": 385,
                               "raw": "3",
-                              "value": 3
+                              "value": 3,
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {
@@ -614,14 +630,18 @@ __ESTREE_TEST__:PASS:
                                 "start": 431,
                                 "end": 432,
                                 "raw": "1",
-                                "value": 1
+                                "value": 1,
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 441,
                                 "end": 442,
                                 "raw": "2",
-                                "value": 2
+                                "value": 2,
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "quasis": [
@@ -701,14 +721,18 @@ __ESTREE_TEST__:PASS:
                             "start": 495,
                             "end": 496,
                             "raw": "1",
-                            "value": 1
+                            "value": 1,
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 502,
                             "end": 503,
                             "raw": "2",
-                            "value": 2
+                            "value": 2,
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "quasis": [

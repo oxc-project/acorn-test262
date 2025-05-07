@@ -70,7 +70,9 @@
                               "start": 426,
                               "end": 458,
                               "value": "$262.detachArrayBuffer called.",
-                              "raw": "'$262.detachArrayBuffer called.'"
+                              "raw": "'$262.detachArrayBuffer called.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -148,7 +150,9 @@
                 "start": 510,
                 "end": 511,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -176,7 +180,9 @@
             "start": 526,
             "end": 531,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -253,7 +259,9 @@
                   "start": 586,
                   "end": 590,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -325,7 +333,9 @@
                               "start": 661,
                               "end": 695,
                               "value": "Expected a Test262Error, but a \"",
-                              "raw": "'Expected a Test262Error, but a \"'"
+                              "raw": "'Expected a Test262Error, but a \"'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -367,7 +377,9 @@
                             "start": 727,
                             "end": 742,
                             "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "raw": "'\" was thrown.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -410,7 +422,9 @@
                   "start": 776,
                   "end": 808,
                   "value": "$262.detachArrayBuffer called.",
-                  "raw": "'$262.detachArrayBuffer called.'"
+                  "raw": "'$262.detachArrayBuffer called.'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -513,7 +527,9 @@
           "start": 896,
           "end": 901,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -541,7 +557,9 @@
                   "start": 923,
                   "end": 974,
                   "value": "Expected a Test262Error, but no error was thrown.",
-                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                  "raw": "'Expected a Test262Error, but no error was thrown.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -102,14 +102,18 @@
             "start": 349,
             "end": 360,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 401,
             "value": "String.prototype.trim.call(-Infinity)",
-            "raw": "'String.prototype.trim.call(-Infinity)'"
+            "raw": "'String.prototype.trim.call(-Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

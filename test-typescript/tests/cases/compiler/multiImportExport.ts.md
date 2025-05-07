@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 25,
           "end": 36,
           "raw": "'./Drawing'",
-          "value": "./Drawing"
+          "value": "./Drawing",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -144,7 +146,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 42,
             "raw": "'./Math/Math'",
-            "value": "./Math/Math"
+            "value": "./Math/Math",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -187,7 +191,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 32,
           "raw": "'./Adder'",
-          "value": "./Adder"
+          "value": "./Adder",
+          "regex": null,
+          "bigint": null
         }
       }
     },

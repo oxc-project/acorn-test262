@@ -137,7 +137,9 @@
           "start": 361,
           "end": 362,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -165,7 +167,9 @@
             "start": 368,
             "end": 369,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -175,7 +179,9 @@
           "start": 373,
           "end": 374,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -261,7 +267,9 @@
                 "start": 429,
                 "end": 430,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -271,7 +279,9 @@
             "start": 433,
             "end": 491,
             "value": "Array.prototype.reduce.call(obj, callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1) !== true'"
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

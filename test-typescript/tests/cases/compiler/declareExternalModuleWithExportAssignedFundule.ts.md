@@ -367,7 +367,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"express\"",
-        "value": "express"
+        "value": "express",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

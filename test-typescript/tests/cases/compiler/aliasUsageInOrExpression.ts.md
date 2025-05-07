@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 63,
           "raw": "\"./aliasUsageInOrExpression_backbone\"",
-          "value": "./aliasUsageInOrExpression_backbone"
+          "value": "./aliasUsageInOrExpression_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 63,
           "raw": "\"./aliasUsageInOrExpression_backbone\"",
-          "value": "./aliasUsageInOrExpression_backbone"
+          "value": "./aliasUsageInOrExpression_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
           "start": 91,
           "end": 127,
           "raw": "\"./aliasUsageInOrExpression_moduleA\"",
-          "value": "./aliasUsageInOrExpression_moduleA"
+          "value": "./aliasUsageInOrExpression_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -627,7 +633,9 @@ __ESTREE_TEST__:PASS:
                 "start": 432,
                 "end": 436,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
@@ -795,7 +803,9 @@ __ESTREE_TEST__:PASS:
               "start": 550,
               "end": 554,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "ObjectExpression",
@@ -841,7 +851,9 @@ __ESTREE_TEST__:PASS:
                 "start": 526,
                 "end": 530,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSTypeLiteral",

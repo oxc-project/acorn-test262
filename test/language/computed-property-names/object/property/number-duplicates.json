@@ -35,14 +35,18 @@
                   "start": 240,
                   "end": 243,
                   "value": 1.2,
-                  "raw": "1.2"
+                  "raw": "1.2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 246,
                   "end": 249,
                   "value": "A",
-                  "raw": "'A'"
+                  "raw": "'A'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 254,
                   "end": 258,
                   "value": 1e+55,
-                  "raw": "1e55"
+                  "raw": "1e55",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 261,
                   "end": 264,
                   "value": "B",
-                  "raw": "'B'"
+                  "raw": "'B'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 269,
                   "end": 277,
                   "value": 0.000001,
-                  "raw": "0.000001"
+                  "raw": "0.000001",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 280,
                   "end": 283,
                   "value": "C",
-                  "raw": "'C'"
+                  "raw": "'C'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -110,7 +122,9 @@
                     "start": 289,
                     "end": 290,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "value": {
@@ -118,7 +132,9 @@
                   "start": 293,
                   "end": 296,
                   "value": "D",
-                  "raw": "'D'"
+                  "raw": "'D'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -140,7 +156,9 @@
                   "start": 312,
                   "end": 315,
                   "value": "E",
-                  "raw": "'E'"
+                  "raw": "'E'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -169,7 +187,9 @@
                   "start": 332,
                   "end": 335,
                   "value": "F",
-                  "raw": "'F'"
+                  "raw": "'F'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -191,7 +211,9 @@
                   "start": 346,
                   "end": 349,
                   "value": "G",
-                  "raw": "'G'"
+                  "raw": "'G'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -244,7 +266,9 @@
               "start": 381,
               "end": 386,
               "value": "1.2",
-              "raw": "'1.2'"
+              "raw": "'1.2'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -254,14 +278,18 @@
             "start": 391,
             "end": 394,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 462,
             "value": "The value of `object['1.2']` is `'A'`. Defined as `[1.2]: 'A'`",
-            "raw": "\"The value of `object['1.2']` is `'A'`. Defined as `[1.2]: 'A'`\""
+            "raw": "\"The value of `object['1.2']` is `'A'`. Defined as `[1.2]: 'A'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -310,7 +338,9 @@
               "start": 493,
               "end": 500,
               "value": "1e+55",
-              "raw": "'1e+55'"
+              "raw": "'1e+55'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -320,14 +350,18 @@
             "start": 505,
             "end": 508,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 579,
             "value": "The value of `object['1e+55']` is `'B'`. Defined as `[1e55]: 'B'`",
-            "raw": "\"The value of `object['1e+55']` is `'B'`. Defined as `[1e55]: 'B'`\""
+            "raw": "\"The value of `object['1e+55']` is `'B'`. Defined as `[1e55]: 'B'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,7 +410,9 @@
               "start": 610,
               "end": 620,
               "value": "0.000001",
-              "raw": "'0.000001'"
+              "raw": "'0.000001'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -386,14 +422,18 @@
             "start": 625,
             "end": 628,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 706,
             "value": "The value of `object['0.000001']` is `'C'`. Defined as `[0.000001]: 'C'`",
-            "raw": "\"The value of `object['0.000001']` is `'C'`. Defined as `[0.000001]: 'C'`\""
+            "raw": "\"The value of `object['0.000001']` is `'C'`. Defined as `[0.000001]: 'C'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -442,7 +482,9 @@
               "start": 737,
               "end": 738,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -452,14 +494,18 @@
             "start": 743,
             "end": 746,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 809,
             "value": "The value of `object[0]` is `'D'`. Defined as `[-0]: 'D'`",
-            "raw": "\"The value of `object[0]` is `'D'`. Defined as `[-0]: 'D'`\""
+            "raw": "\"The value of `object[0]` is `'D'`. Defined as `[-0]: 'D'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -517,14 +563,18 @@
             "start": 850,
             "end": 853,
             "value": "E",
-            "raw": "'E'"
+            "raw": "'E'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 929,
             "value": "The value of `object[Infinity]` is `'E'`. Defined as `[Infinity]: 'E'`",
-            "raw": "\"The value of `object[Infinity]` is `'E'`. Defined as `[Infinity]: 'E'`\""
+            "raw": "\"The value of `object[Infinity]` is `'E'`. Defined as `[Infinity]: 'E'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,14 +639,18 @@
             "start": 974,
             "end": 977,
             "value": "F",
-            "raw": "'F'"
+            "raw": "'F'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 981,
             "end": 1055,
             "value": "The value of `object[-Infinity]` is `'F'`. Defined as `[-Infinity]: 'F'`",
-            "raw": "\"The value of `object[-Infinity]` is `'F'`. Defined as `[-Infinity]: 'F'`\""
+            "raw": "\"The value of `object[-Infinity]` is `'F'`. Defined as `[-Infinity]: 'F'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -654,14 +708,18 @@
             "start": 1094,
             "end": 1097,
             "value": "G",
-            "raw": "'G'"
+            "raw": "'G'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1101,
             "end": 1163,
             "value": "The value of `object[NaN]` is `'G'`. Defined as `[NaN]: 'G'`",
-            "raw": "\"The value of `object[NaN]` is `'G'`. Defined as `[NaN]: 'G'`\""
+            "raw": "\"The value of `object[NaN]` is `'G'`. Defined as `[NaN]: 'G'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

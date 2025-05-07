@@ -23,7 +23,9 @@
             "start": 272,
             "end": 277,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
                 "start": 342,
                 "end": 346,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -124,7 +128,9 @@
                 "start": 376,
                 "end": 387,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -163,14 +169,18 @@
                   "start": 406,
                   "end": 407,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 409,
                   "end": 411,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -192,7 +202,9 @@
                   "start": 423,
                   "end": 424,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -306,14 +318,18 @@
             "start": 503,
             "end": 507,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 566,
             "value": "Array.prototype.reduce.call(obj, callbackfn, undefined)",
-            "raw": "'Array.prototype.reduce.call(obj, callbackfn, undefined)'"
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,7 +361,9 @@
             "start": 586,
             "end": 605,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

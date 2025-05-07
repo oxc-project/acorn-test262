@@ -201,7 +201,9 @@ __ESTREE_TEST__:PASS:
                   "start": 150,
                   "end": 154,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "right": {
@@ -385,7 +387,9 @@ __ESTREE_TEST__:PASS:
                 "start": 314,
                 "end": 327,
                 "raw": "\"Dear nobody\"",
-                "value": "Dear nobody"
+                "value": "Dear nobody",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "BinaryExpression",
@@ -397,7 +401,9 @@ __ESTREE_TEST__:PASS:
                   "start": 298,
                   "end": 305,
                   "raw": "\"Dear \"",
-                  "value": "Dear "
+                  "value": "Dear ",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -444,7 +450,9 @@ __ESTREE_TEST__:PASS:
                   "start": 294,
                   "end": 295,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -500,7 +508,9 @@ __ESTREE_TEST__:PASS:
           "start": 368,
           "end": 372,
           "raw": "null",
-          "value": null
+          "value": null,
+          "regex": null,
+          "bigint": null
         },
         "consequent": {
           "type": "CallExpression",

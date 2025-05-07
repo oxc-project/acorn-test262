@@ -51,7 +51,9 @@
                     "start": 344,
                     "end": 351,
                     "value": "\"g\"",
-                    "raw": "\"\\\"g\\\"\""
+                    "raw": "\"\\\"g\\\"\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -114,14 +116,18 @@
             "start": 390,
             "end": 395,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 397,
             "end": 451,
             "value": "The value of __re.ignoreCase is expected to be false",
-            "raw": "'The value of __re.ignoreCase is expected to be false'"
+            "raw": "'The value of __re.ignoreCase is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,14 +185,18 @@
             "start": 487,
             "end": 492,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 547,
             "value": "The value of __re.multiline is expected to be false",
-            "raw": "'The value of __re.multiline is expected to be false'"
+            "raw": "'The value of __re.multiline is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,14 +254,18 @@
             "start": 580,
             "end": 584,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 635,
             "value": "The value of __re.global is expected to be true",
-            "raw": "'The value of __re.global is expected to be true'"
+            "raw": "'The value of __re.global is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,14 +323,18 @@
             "start": 671,
             "end": 672,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 674,
             "end": 723,
             "value": "The value of __re.lastIndex is expected to be 0",
-            "raw": "'The value of __re.lastIndex is expected to be 0'"
+            "raw": "'The value of __re.lastIndex is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -381,14 +399,18 @@
             "start": 766,
             "end": 777,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 779,
             "end": 831,
             "value": "The value of typeof __re.source is not \"undefined\"",
-            "raw": "'The value of typeof __re.source is not \"undefined\"'"
+            "raw": "'The value of typeof __re.source is not \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

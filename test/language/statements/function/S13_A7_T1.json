@@ -31,7 +31,9 @@
               "start": 289,
               "end": 318,
               "value": "ground control to major tom",
-              "raw": "'ground control to major tom'"
+              "raw": "'ground control to major tom'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "ground control to major tom"
           }
@@ -70,7 +72,9 @@
           "start": 432,
           "end": 442,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -102,7 +106,9 @@
                     "start": 470,
                     "end": 531,
                     "value": "#1: typeof __func === \"function\". Actual: typeof __func ===",
-                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='"
+                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -191,7 +197,9 @@
           "start": 772,
           "end": 782,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -223,7 +231,9 @@
                     "start": 810,
                     "end": 877,
                     "value": "#2: typeof __func__2 === \"function\". Actual: typeof __func__2 ===",
-                    "raw": "'#2: typeof __func__2 === \"function\". Actual: typeof __func__2 ==='"
+                    "raw": "'#2: typeof __func__2 === \"function\". Actual: typeof __func__2 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -275,7 +285,9 @@
               "start": 1003,
               "end": 1004,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -313,7 +325,9 @@
           "start": 1121,
           "end": 1131,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -345,7 +359,9 @@
                     "start": 1159,
                     "end": 1226,
                     "value": "#3: typeof __func__3 === \"function\". Actual: typeof __func__3 ===",
-                    "raw": "'#3: typeof __func__3 === \"function\". Actual: typeof __func__3 ==='"
+                    "raw": "'#3: typeof __func__3 === \"function\". Actual: typeof __func__3 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -401,7 +417,9 @@
                 "start": 1352,
                 "end": 1353,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -447,7 +465,9 @@
           "start": 1472,
           "end": 1482,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -479,7 +499,9 @@
                     "start": 1510,
                     "end": 1577,
                     "value": "#4: typeof __func__4 === \"function\". Actual: typeof __func__4 ===",
-                    "raw": "'#4: typeof __func__4 === \"function\". Actual: typeof __func__4 ==='"
+                    "raw": "'#4: typeof __func__4 === \"function\". Actual: typeof __func__4 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -582,7 +604,9 @@
           "start": 1826,
           "end": 1836,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -614,7 +638,9 @@
                     "start": 1864,
                     "end": 1931,
                     "value": "#5: typeof __func__5 === \"function\". Actual: typeof __func__5 ===",
-                    "raw": "'#5: typeof __func__5 === \"function\". Actual: typeof __func__5 ==='"
+                    "raw": "'#5: typeof __func__5 === \"function\". Actual: typeof __func__5 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -677,7 +703,9 @@
                   "start": 2070,
                   "end": 2071,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -718,7 +746,9 @@
           "start": 2189,
           "end": 2199,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -750,7 +780,9 @@
                     "start": 2227,
                     "end": 2294,
                     "value": "#6: typeof __func__6 === \"function\". Actual: typeof __func__6 ===",
-                    "raw": "'#6: typeof __func__6 === \"function\". Actual: typeof __func__6 ==='"
+                    "raw": "'#6: typeof __func__6 === \"function\". Actual: typeof __func__6 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

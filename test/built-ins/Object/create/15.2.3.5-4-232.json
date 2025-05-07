@@ -147,14 +147,18 @@
             "start": 376,
             "end": 387,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 411,
             "value": "typeof (newObj.prop)",
-            "raw": "'typeof (newObj.prop)'"
+            "raw": "'typeof (newObj.prop)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

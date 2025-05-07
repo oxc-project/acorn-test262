@@ -60,7 +60,9 @@
                 "start": 294,
                 "end": 303,
                 "value": "1994-11",
-                "raw": "\"1994-11\""
+                "raw": "\"1994-11\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
                 "start": 352,
                 "end": 361,
                 "value": "1994-11",
-                "raw": "\"1994-11\""
+                "raw": "\"1994-11\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +196,9 @@
                 "start": 407,
                 "end": 416,
                 "value": "2013-06",
-                "raw": "\"2013-06\""
+                "raw": "\"2013-06\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -267,14 +273,18 @@
             "start": 457,
             "end": 461,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 476,
             "value": "same object",
-            "raw": "\"same object\""
+            "raw": "\"same object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -346,14 +356,18 @@
             "start": 520,
             "end": 524,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 526,
             "end": 544,
             "value": "different object",
-            "raw": "\"different object\""
+            "raw": "\"different object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -425,14 +439,18 @@
             "start": 585,
             "end": 590,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 615,
             "value": "different year-months",
-            "raw": "\"different year-months\""
+            "raw": "\"different year-months\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

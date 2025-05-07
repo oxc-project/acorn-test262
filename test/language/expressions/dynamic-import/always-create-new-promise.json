@@ -27,7 +27,9 @@
               "start": 934,
               "end": 970,
               "value": "./dynamic-import-module_FIXTURE.js",
-              "raw": "'./dynamic-import-module_FIXTURE.js'"
+              "raw": "'./dynamic-import-module_FIXTURE.js'",
+              "regex": null,
+              "bigint": null
             },
             "options": null
           }
@@ -59,7 +61,9 @@
               "start": 991,
               "end": 1027,
               "value": "./dynamic-import-module_FIXTURE.js",
-              "raw": "'./dynamic-import-module_FIXTURE.js'"
+              "raw": "'./dynamic-import-module_FIXTURE.js'",
+              "regex": null,
+              "bigint": null
             },
             "options": null
           }
@@ -112,7 +116,9 @@
             "start": 1059,
             "end": 1144,
             "value": "the returned promises are not the same, regardless the reference and specifier pair",
-            "raw": "'the returned promises are not the same, regardless the reference and specifier pair'"
+            "raw": "'the returned promises are not the same, regardless the reference and specifier pair'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +182,9 @@
             "start": 1190,
             "end": 1219,
             "value": "p1 constructor is %Promise%",
-            "raw": "'p1 constructor is %Promise%'"
+            "raw": "'p1 constructor is %Promise%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +275,9 @@
             "start": 1285,
             "end": 1321,
             "value": "p1 prototype is %PromisePrototype%",
-            "raw": "'p1 prototype is %PromisePrototype%'"
+            "raw": "'p1 prototype is %PromisePrototype%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,7 +341,9 @@
             "start": 1367,
             "end": 1396,
             "value": "p2 constructor is %Promise%",
-            "raw": "'p2 constructor is %Promise%'"
+            "raw": "'p2 constructor is %Promise%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -422,7 +434,9 @@
             "start": 1462,
             "end": 1498,
             "value": "p2 prototype is %PromisePrototype%",
-            "raw": "'p2 prototype is %PromisePrototype%'"
+            "raw": "'p2 prototype is %PromisePrototype%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -62,7 +62,9 @@
             "start": 426,
             "end": 436,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -149,7 +151,9 @@
                         "start": 496,
                         "end": 500,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -162,7 +166,9 @@
             "start": 506,
             "end": 536,
             "value": "null is an invalid tag value",
-            "raw": "\"null is an invalid tag value\""
+            "raw": "\"null is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

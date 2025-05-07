@@ -69,14 +69,18 @@
             "start": 735,
             "end": 740,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 786,
             "value": "isConstructor(Object.is) must return false",
-            "raw": "'isConstructor(Object.is) must return false'"
+            "raw": "'isConstructor(Object.is) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,14 +167,18 @@
                         "start": 839,
                         "end": 840,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 842,
                         "end": 843,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

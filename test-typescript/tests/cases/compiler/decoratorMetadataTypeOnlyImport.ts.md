@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 37,
         "raw": "'unknown-module'",
-        "value": "unknown-module"
+        "value": "unknown-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -119,7 +121,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 33,
         "raw": "'./a'",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

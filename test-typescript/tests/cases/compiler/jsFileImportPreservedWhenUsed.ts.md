@@ -554,7 +554,9 @@ __ESTREE_TEST__:PASS:
               "start": 27,
               "end": 36,
               "raw": "'__INDEX'",
-              "value": "__INDEX"
+              "value": "__INDEX",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -588,7 +590,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "'./dash'",
-        "value": "./dash"
+        "value": "./dash",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -618,7 +622,9 @@ __ESTREE_TEST__:PASS:
         "start": 57,
         "end": 67,
         "raw": "'./Consts'",
-        "value": "./Consts"
+        "value": "./Consts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -716,7 +722,9 @@ __ESTREE_TEST__:PASS:
                             "start": 199,
                             "end": 200,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],

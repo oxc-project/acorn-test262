@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 75,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -220,7 +222,9 @@ __ESTREE_TEST__:PASS:
                           "start": 358,
                           "end": 362,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSAnyKeyword",
@@ -280,7 +284,9 @@ __ESTREE_TEST__:PASS:
                           "start": 414,
                           "end": 418,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSAnyKeyword",
@@ -342,7 +348,9 @@ __ESTREE_TEST__:PASS:
                               "start": 469,
                               "end": 478,
                               "raw": "'1000000'",
-                              "value": "1000000"
+                              "value": "1000000",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -407,7 +415,9 @@ __ESTREE_TEST__:PASS:
                               "start": 525,
                               "end": 532,
                               "raw": "1000000",
-                              "value": 1000000
+                              "value": 1000000,
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }

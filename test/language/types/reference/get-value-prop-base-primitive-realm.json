@@ -120,7 +120,9 @@
           "start": 754,
           "end": 772,
           "value": "number prototype",
-          "raw": "'number prototype'"
+          "raw": "'number prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -157,7 +159,9 @@
           "start": 788,
           "end": 789,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -218,7 +222,9 @@
                 "start": 819,
                 "end": 834,
                 "value": "value.test262",
-                "raw": "'value.test262'"
+                "raw": "'value.test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -228,7 +234,9 @@
             "start": 837,
             "end": 855,
             "value": "number prototype",
-            "raw": "'number prototype'"
+            "raw": "'number prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +301,9 @@
           "start": 892,
           "end": 910,
           "value": "string prototype",
-          "raw": "'string prototype'"
+          "raw": "'string prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -330,7 +340,9 @@
           "start": 926,
           "end": 928,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -391,7 +403,9 @@
                 "start": 958,
                 "end": 973,
                 "value": "value.test262",
-                "raw": "'value.test262'"
+                "raw": "'value.test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -401,7 +415,9 @@
             "start": 976,
             "end": 994,
             "value": "string prototype",
-            "raw": "'string prototype'"
+            "raw": "'string prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,7 +482,9 @@
           "start": 1032,
           "end": 1051,
           "value": "Boolean prototype",
-          "raw": "'Boolean prototype'"
+          "raw": "'Boolean prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -503,7 +521,9 @@
           "start": 1067,
           "end": 1071,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -564,7 +584,9 @@
                 "start": 1101,
                 "end": 1116,
                 "value": "value.test262",
-                "raw": "'value.test262'"
+                "raw": "'value.test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -574,7 +596,9 @@
             "start": 1119,
             "end": 1138,
             "value": "Boolean prototype",
-            "raw": "'Boolean prototype'"
+            "raw": "'Boolean prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -639,7 +663,9 @@
           "start": 1175,
           "end": 1193,
           "value": "Symbol prototype",
-          "raw": "'Symbol prototype'"
+          "raw": "'Symbol prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -743,7 +769,9 @@
                 "start": 1247,
                 "end": 1262,
                 "value": "value.test262",
-                "raw": "'value.test262'"
+                "raw": "'value.test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -753,7 +781,9 @@
             "start": 1265,
             "end": 1283,
             "value": "Symbol prototype",
-            "raw": "'Symbol prototype'"
+            "raw": "'Symbol prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -70,7 +70,9 @@
                             "start": 1215,
                             "end": 1217,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -136,7 +138,9 @@
                         "start": 1269,
                         "end": 1270,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -237,14 +241,18 @@
                         "start": 1347,
                         "end": 1348,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1350,
                         "end": 1379,
                         "value": "The value of `counter` is 0",
-                        "raw": "'The value of `counter` is 0'"
+                        "raw": "'The value of `counter` is 0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

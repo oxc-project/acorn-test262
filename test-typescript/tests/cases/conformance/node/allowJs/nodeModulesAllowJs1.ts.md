@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -107,7 +109,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -185,7 +189,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -263,7 +269,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -341,7 +349,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -419,7 +429,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -497,7 +509,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -575,7 +589,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -653,7 +669,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 30,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -718,7 +736,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 32,
         "raw": "\"./index.js\"",
-        "value": "./index.js"
+        "value": "./index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -748,7 +768,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 67,
         "raw": "\"./index.mjs\"",
-        "value": "./index.mjs"
+        "value": "./index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -778,7 +800,9 @@ __ESTREE_TEST__:PASS:
         "start": 89,
         "end": 102,
         "raw": "\"./index.cjs\"",
-        "value": "./index.cjs"
+        "value": "./index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -808,7 +832,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 146,
         "raw": "\"./subfolder/index.js\"",
-        "value": "./subfolder/index.js"
+        "value": "./subfolder/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -838,7 +864,9 @@ __ESTREE_TEST__:PASS:
         "start": 168,
         "end": 191,
         "raw": "\"./subfolder/index.mjs\"",
-        "value": "./subfolder/index.mjs"
+        "value": "./subfolder/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -868,7 +896,9 @@ __ESTREE_TEST__:PASS:
         "start": 213,
         "end": 236,
         "raw": "\"./subfolder/index.cjs\"",
-        "value": "./subfolder/index.cjs"
+        "value": "./subfolder/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -898,7 +928,9 @@ __ESTREE_TEST__:PASS:
         "start": 258,
         "end": 281,
         "raw": "\"./subfolder2/index.js\"",
-        "value": "./subfolder2/index.js"
+        "value": "./subfolder2/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -928,7 +960,9 @@ __ESTREE_TEST__:PASS:
         "start": 303,
         "end": 327,
         "raw": "\"./subfolder2/index.mjs\"",
-        "value": "./subfolder2/index.mjs"
+        "value": "./subfolder2/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -958,7 +992,9 @@ __ESTREE_TEST__:PASS:
         "start": 349,
         "end": 373,
         "raw": "\"./subfolder2/index.cjs\"",
-        "value": "./subfolder2/index.cjs"
+        "value": "./subfolder2/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -988,7 +1024,9 @@ __ESTREE_TEST__:PASS:
         "start": 396,
         "end": 427,
         "raw": "\"./subfolder2/another/index.js\"",
-        "value": "./subfolder2/another/index.js"
+        "value": "./subfolder2/another/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1018,7 +1056,9 @@ __ESTREE_TEST__:PASS:
         "start": 450,
         "end": 482,
         "raw": "\"./subfolder2/another/index.mjs\"",
-        "value": "./subfolder2/another/index.mjs"
+        "value": "./subfolder2/another/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1048,7 +1088,9 @@ __ESTREE_TEST__:PASS:
         "start": 505,
         "end": 537,
         "raw": "\"./subfolder2/another/index.cjs\"",
-        "value": "./subfolder2/another/index.cjs"
+        "value": "./subfolder2/another/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1078,7 +1120,9 @@ __ESTREE_TEST__:PASS:
         "start": 664,
         "end": 668,
         "raw": "\"./\"",
-        "value": "./"
+        "value": "./",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1108,7 +1152,9 @@ __ESTREE_TEST__:PASS:
         "start": 691,
         "end": 700,
         "raw": "\"./index\"",
-        "value": "./index"
+        "value": "./index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1138,7 +1184,9 @@ __ESTREE_TEST__:PASS:
         "start": 723,
         "end": 736,
         "raw": "\"./subfolder\"",
-        "value": "./subfolder"
+        "value": "./subfolder",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1168,7 +1216,9 @@ __ESTREE_TEST__:PASS:
         "start": 759,
         "end": 773,
         "raw": "\"./subfolder/\"",
-        "value": "./subfolder/"
+        "value": "./subfolder/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1198,7 +1248,9 @@ __ESTREE_TEST__:PASS:
         "start": 796,
         "end": 815,
         "raw": "\"./subfolder/index\"",
-        "value": "./subfolder/index"
+        "value": "./subfolder/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1228,7 +1280,9 @@ __ESTREE_TEST__:PASS:
         "start": 838,
         "end": 852,
         "raw": "\"./subfolder2\"",
-        "value": "./subfolder2"
+        "value": "./subfolder2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1258,7 +1312,9 @@ __ESTREE_TEST__:PASS:
         "start": 875,
         "end": 890,
         "raw": "\"./subfolder2/\"",
-        "value": "./subfolder2/"
+        "value": "./subfolder2/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1288,7 +1344,9 @@ __ESTREE_TEST__:PASS:
         "start": 913,
         "end": 933,
         "raw": "\"./subfolder2/index\"",
-        "value": "./subfolder2/index"
+        "value": "./subfolder2/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1318,7 +1376,9 @@ __ESTREE_TEST__:PASS:
         "start": 956,
         "end": 978,
         "raw": "\"./subfolder2/another\"",
-        "value": "./subfolder2/another"
+        "value": "./subfolder2/another",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1348,7 +1408,9 @@ __ESTREE_TEST__:PASS:
         "start": 1001,
         "end": 1024,
         "raw": "\"./subfolder2/another/\"",
-        "value": "./subfolder2/another/"
+        "value": "./subfolder2/another/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1378,7 +1440,9 @@ __ESTREE_TEST__:PASS:
         "start": 1047,
         "end": 1075,
         "raw": "\"./subfolder2/another/index\"",
-        "value": "./subfolder2/another/index"
+        "value": "./subfolder2/another/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1926,7 +1990,9 @@ __ESTREE_TEST__:PASS:
           "start": 1498,
           "end": 1502,
           "raw": "\"./\"",
-          "value": "./"
+          "value": "./",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1953,7 +2019,9 @@ __ESTREE_TEST__:PASS:
           "start": 1526,
           "end": 1535,
           "raw": "\"./index\"",
-          "value": "./index"
+          "value": "./index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1980,7 +2048,9 @@ __ESTREE_TEST__:PASS:
           "start": 1559,
           "end": 1572,
           "raw": "\"./subfolder\"",
-          "value": "./subfolder"
+          "value": "./subfolder",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2007,7 +2077,9 @@ __ESTREE_TEST__:PASS:
           "start": 1596,
           "end": 1610,
           "raw": "\"./subfolder/\"",
-          "value": "./subfolder/"
+          "value": "./subfolder/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2034,7 +2106,9 @@ __ESTREE_TEST__:PASS:
           "start": 1634,
           "end": 1653,
           "raw": "\"./subfolder/index\"",
-          "value": "./subfolder/index"
+          "value": "./subfolder/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2061,7 +2135,9 @@ __ESTREE_TEST__:PASS:
           "start": 1677,
           "end": 1691,
           "raw": "\"./subfolder2\"",
-          "value": "./subfolder2"
+          "value": "./subfolder2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2088,7 +2164,9 @@ __ESTREE_TEST__:PASS:
           "start": 1715,
           "end": 1730,
           "raw": "\"./subfolder2/\"",
-          "value": "./subfolder2/"
+          "value": "./subfolder2/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2115,7 +2193,9 @@ __ESTREE_TEST__:PASS:
           "start": 1754,
           "end": 1774,
           "raw": "\"./subfolder2/index\"",
-          "value": "./subfolder2/index"
+          "value": "./subfolder2/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2142,7 +2222,9 @@ __ESTREE_TEST__:PASS:
           "start": 1798,
           "end": 1820,
           "raw": "\"./subfolder2/another\"",
-          "value": "./subfolder2/another"
+          "value": "./subfolder2/another",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2169,7 +2251,9 @@ __ESTREE_TEST__:PASS:
           "start": 1844,
           "end": 1867,
           "raw": "\"./subfolder2/another/\"",
-          "value": "./subfolder2/another/"
+          "value": "./subfolder2/another/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2196,7 +2280,9 @@ __ESTREE_TEST__:PASS:
           "start": 1891,
           "end": 1919,
           "raw": "\"./subfolder2/another/index\"",
-          "value": "./subfolder2/another/index"
+          "value": "./subfolder2/another/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -2471,7 +2557,9 @@ __ESTREE_TEST__:PASS:
               "start": 2169,
               "end": 2173,
               "raw": "\"./\"",
-              "value": "./"
+              "value": "./",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2508,7 +2596,9 @@ __ESTREE_TEST__:PASS:
               "start": 2196,
               "end": 2205,
               "raw": "\"./index\"",
-              "value": "./index"
+              "value": "./index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2545,7 +2635,9 @@ __ESTREE_TEST__:PASS:
               "start": 2228,
               "end": 2241,
               "raw": "\"./subfolder\"",
-              "value": "./subfolder"
+              "value": "./subfolder",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2582,7 +2674,9 @@ __ESTREE_TEST__:PASS:
               "start": 2264,
               "end": 2278,
               "raw": "\"./subfolder/\"",
-              "value": "./subfolder/"
+              "value": "./subfolder/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2619,7 +2713,9 @@ __ESTREE_TEST__:PASS:
               "start": 2301,
               "end": 2320,
               "raw": "\"./subfolder/index\"",
-              "value": "./subfolder/index"
+              "value": "./subfolder/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2656,7 +2752,9 @@ __ESTREE_TEST__:PASS:
               "start": 2343,
               "end": 2357,
               "raw": "\"./subfolder2\"",
-              "value": "./subfolder2"
+              "value": "./subfolder2",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2693,7 +2791,9 @@ __ESTREE_TEST__:PASS:
               "start": 2380,
               "end": 2395,
               "raw": "\"./subfolder2/\"",
-              "value": "./subfolder2/"
+              "value": "./subfolder2/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2730,7 +2830,9 @@ __ESTREE_TEST__:PASS:
               "start": 2418,
               "end": 2438,
               "raw": "\"./subfolder2/index\"",
-              "value": "./subfolder2/index"
+              "value": "./subfolder2/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2767,7 +2869,9 @@ __ESTREE_TEST__:PASS:
               "start": 2461,
               "end": 2483,
               "raw": "\"./subfolder2/another\"",
-              "value": "./subfolder2/another"
+              "value": "./subfolder2/another",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2804,7 +2908,9 @@ __ESTREE_TEST__:PASS:
               "start": 2506,
               "end": 2529,
               "raw": "\"./subfolder2/another/\"",
-              "value": "./subfolder2/another/"
+              "value": "./subfolder2/another/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2841,7 +2947,9 @@ __ESTREE_TEST__:PASS:
               "start": 2552,
               "end": 2580,
               "raw": "\"./subfolder2/another/index\"",
-              "value": "./subfolder2/another/index"
+              "value": "./subfolder2/another/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -2873,7 +2981,9 @@ __ESTREE_TEST__:PASS:
             "start": 2612,
             "end": 2613,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2938,7 +3048,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 80,
         "raw": "\"./index.js\"",
-        "value": "./index.js"
+        "value": "./index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2968,7 +3080,9 @@ __ESTREE_TEST__:PASS:
         "start": 102,
         "end": 115,
         "raw": "\"./index.mjs\"",
-        "value": "./index.mjs"
+        "value": "./index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2998,7 +3112,9 @@ __ESTREE_TEST__:PASS:
         "start": 137,
         "end": 150,
         "raw": "\"./index.cjs\"",
-        "value": "./index.cjs"
+        "value": "./index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3028,7 +3144,9 @@ __ESTREE_TEST__:PASS:
         "start": 172,
         "end": 194,
         "raw": "\"./subfolder/index.js\"",
-        "value": "./subfolder/index.js"
+        "value": "./subfolder/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3058,7 +3176,9 @@ __ESTREE_TEST__:PASS:
         "start": 216,
         "end": 239,
         "raw": "\"./subfolder/index.mjs\"",
-        "value": "./subfolder/index.mjs"
+        "value": "./subfolder/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3088,7 +3208,9 @@ __ESTREE_TEST__:PASS:
         "start": 261,
         "end": 284,
         "raw": "\"./subfolder/index.cjs\"",
-        "value": "./subfolder/index.cjs"
+        "value": "./subfolder/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3118,7 +3240,9 @@ __ESTREE_TEST__:PASS:
         "start": 306,
         "end": 329,
         "raw": "\"./subfolder2/index.js\"",
-        "value": "./subfolder2/index.js"
+        "value": "./subfolder2/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3148,7 +3272,9 @@ __ESTREE_TEST__:PASS:
         "start": 351,
         "end": 375,
         "raw": "\"./subfolder2/index.mjs\"",
-        "value": "./subfolder2/index.mjs"
+        "value": "./subfolder2/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3178,7 +3304,9 @@ __ESTREE_TEST__:PASS:
         "start": 397,
         "end": 421,
         "raw": "\"./subfolder2/index.cjs\"",
-        "value": "./subfolder2/index.cjs"
+        "value": "./subfolder2/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3208,7 +3336,9 @@ __ESTREE_TEST__:PASS:
         "start": 444,
         "end": 475,
         "raw": "\"./subfolder2/another/index.js\"",
-        "value": "./subfolder2/another/index.js"
+        "value": "./subfolder2/another/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3238,7 +3368,9 @@ __ESTREE_TEST__:PASS:
         "start": 498,
         "end": 530,
         "raw": "\"./subfolder2/another/index.mjs\"",
-        "value": "./subfolder2/another/index.mjs"
+        "value": "./subfolder2/another/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3268,7 +3400,9 @@ __ESTREE_TEST__:PASS:
         "start": 553,
         "end": 585,
         "raw": "\"./subfolder2/another/index.cjs\"",
-        "value": "./subfolder2/another/index.cjs"
+        "value": "./subfolder2/another/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3298,7 +3432,9 @@ __ESTREE_TEST__:PASS:
         "start": 767,
         "end": 771,
         "raw": "\"./\"",
-        "value": "./"
+        "value": "./",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3328,7 +3464,9 @@ __ESTREE_TEST__:PASS:
         "start": 794,
         "end": 803,
         "raw": "\"./index\"",
-        "value": "./index"
+        "value": "./index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3358,7 +3496,9 @@ __ESTREE_TEST__:PASS:
         "start": 826,
         "end": 839,
         "raw": "\"./subfolder\"",
-        "value": "./subfolder"
+        "value": "./subfolder",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3388,7 +3528,9 @@ __ESTREE_TEST__:PASS:
         "start": 862,
         "end": 876,
         "raw": "\"./subfolder/\"",
-        "value": "./subfolder/"
+        "value": "./subfolder/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3418,7 +3560,9 @@ __ESTREE_TEST__:PASS:
         "start": 899,
         "end": 918,
         "raw": "\"./subfolder/index\"",
-        "value": "./subfolder/index"
+        "value": "./subfolder/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3448,7 +3592,9 @@ __ESTREE_TEST__:PASS:
         "start": 941,
         "end": 955,
         "raw": "\"./subfolder2\"",
-        "value": "./subfolder2"
+        "value": "./subfolder2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3478,7 +3624,9 @@ __ESTREE_TEST__:PASS:
         "start": 978,
         "end": 993,
         "raw": "\"./subfolder2/\"",
-        "value": "./subfolder2/"
+        "value": "./subfolder2/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3508,7 +3656,9 @@ __ESTREE_TEST__:PASS:
         "start": 1016,
         "end": 1036,
         "raw": "\"./subfolder2/index\"",
-        "value": "./subfolder2/index"
+        "value": "./subfolder2/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3538,7 +3688,9 @@ __ESTREE_TEST__:PASS:
         "start": 1059,
         "end": 1081,
         "raw": "\"./subfolder2/another\"",
-        "value": "./subfolder2/another"
+        "value": "./subfolder2/another",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3568,7 +3720,9 @@ __ESTREE_TEST__:PASS:
         "start": 1104,
         "end": 1127,
         "raw": "\"./subfolder2/another/\"",
-        "value": "./subfolder2/another/"
+        "value": "./subfolder2/another/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -3598,7 +3752,9 @@ __ESTREE_TEST__:PASS:
         "start": 1150,
         "end": 1178,
         "raw": "\"./subfolder2/another/index\"",
-        "value": "./subfolder2/another/index"
+        "value": "./subfolder2/another/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -4146,7 +4302,9 @@ __ESTREE_TEST__:PASS:
           "start": 1601,
           "end": 1605,
           "raw": "\"./\"",
-          "value": "./"
+          "value": "./",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4173,7 +4331,9 @@ __ESTREE_TEST__:PASS:
           "start": 1629,
           "end": 1638,
           "raw": "\"./index\"",
-          "value": "./index"
+          "value": "./index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4200,7 +4360,9 @@ __ESTREE_TEST__:PASS:
           "start": 1662,
           "end": 1675,
           "raw": "\"./subfolder\"",
-          "value": "./subfolder"
+          "value": "./subfolder",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4227,7 +4389,9 @@ __ESTREE_TEST__:PASS:
           "start": 1699,
           "end": 1713,
           "raw": "\"./subfolder/\"",
-          "value": "./subfolder/"
+          "value": "./subfolder/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4254,7 +4418,9 @@ __ESTREE_TEST__:PASS:
           "start": 1737,
           "end": 1756,
           "raw": "\"./subfolder/index\"",
-          "value": "./subfolder/index"
+          "value": "./subfolder/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4281,7 +4447,9 @@ __ESTREE_TEST__:PASS:
           "start": 1780,
           "end": 1794,
           "raw": "\"./subfolder2\"",
-          "value": "./subfolder2"
+          "value": "./subfolder2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4308,7 +4476,9 @@ __ESTREE_TEST__:PASS:
           "start": 1818,
           "end": 1833,
           "raw": "\"./subfolder2/\"",
-          "value": "./subfolder2/"
+          "value": "./subfolder2/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4335,7 +4505,9 @@ __ESTREE_TEST__:PASS:
           "start": 1857,
           "end": 1877,
           "raw": "\"./subfolder2/index\"",
-          "value": "./subfolder2/index"
+          "value": "./subfolder2/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4362,7 +4534,9 @@ __ESTREE_TEST__:PASS:
           "start": 1901,
           "end": 1923,
           "raw": "\"./subfolder2/another\"",
-          "value": "./subfolder2/another"
+          "value": "./subfolder2/another",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4389,7 +4563,9 @@ __ESTREE_TEST__:PASS:
           "start": 1947,
           "end": 1970,
           "raw": "\"./subfolder2/another/\"",
-          "value": "./subfolder2/another/"
+          "value": "./subfolder2/another/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4416,7 +4592,9 @@ __ESTREE_TEST__:PASS:
           "start": 1994,
           "end": 2022,
           "raw": "\"./subfolder2/another/index\"",
-          "value": "./subfolder2/another/index"
+          "value": "./subfolder2/another/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -4691,7 +4869,9 @@ __ESTREE_TEST__:PASS:
               "start": 2272,
               "end": 2276,
               "raw": "\"./\"",
-              "value": "./"
+              "value": "./",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4728,7 +4908,9 @@ __ESTREE_TEST__:PASS:
               "start": 2299,
               "end": 2308,
               "raw": "\"./index\"",
-              "value": "./index"
+              "value": "./index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4765,7 +4947,9 @@ __ESTREE_TEST__:PASS:
               "start": 2331,
               "end": 2344,
               "raw": "\"./subfolder\"",
-              "value": "./subfolder"
+              "value": "./subfolder",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4802,7 +4986,9 @@ __ESTREE_TEST__:PASS:
               "start": 2367,
               "end": 2381,
               "raw": "\"./subfolder/\"",
-              "value": "./subfolder/"
+              "value": "./subfolder/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4839,7 +5025,9 @@ __ESTREE_TEST__:PASS:
               "start": 2404,
               "end": 2423,
               "raw": "\"./subfolder/index\"",
-              "value": "./subfolder/index"
+              "value": "./subfolder/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4876,7 +5064,9 @@ __ESTREE_TEST__:PASS:
               "start": 2446,
               "end": 2460,
               "raw": "\"./subfolder2\"",
-              "value": "./subfolder2"
+              "value": "./subfolder2",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4913,7 +5103,9 @@ __ESTREE_TEST__:PASS:
               "start": 2483,
               "end": 2498,
               "raw": "\"./subfolder2/\"",
-              "value": "./subfolder2/"
+              "value": "./subfolder2/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4950,7 +5142,9 @@ __ESTREE_TEST__:PASS:
               "start": 2521,
               "end": 2541,
               "raw": "\"./subfolder2/index\"",
-              "value": "./subfolder2/index"
+              "value": "./subfolder2/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -4987,7 +5181,9 @@ __ESTREE_TEST__:PASS:
               "start": 2564,
               "end": 2586,
               "raw": "\"./subfolder2/another\"",
-              "value": "./subfolder2/another"
+              "value": "./subfolder2/another",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -5024,7 +5220,9 @@ __ESTREE_TEST__:PASS:
               "start": 2609,
               "end": 2632,
               "raw": "\"./subfolder2/another/\"",
-              "value": "./subfolder2/another/"
+              "value": "./subfolder2/another/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -5061,7 +5259,9 @@ __ESTREE_TEST__:PASS:
               "start": 2655,
               "end": 2683,
               "raw": "\"./subfolder2/another/index\"",
-              "value": "./subfolder2/another/index"
+              "value": "./subfolder2/another/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -5093,7 +5293,9 @@ __ESTREE_TEST__:PASS:
             "start": 2715,
             "end": 2716,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -5158,7 +5360,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 32,
         "raw": "\"./index.js\"",
-        "value": "./index.js"
+        "value": "./index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5188,7 +5392,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 67,
         "raw": "\"./index.mjs\"",
-        "value": "./index.mjs"
+        "value": "./index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5218,7 +5424,9 @@ __ESTREE_TEST__:PASS:
         "start": 89,
         "end": 102,
         "raw": "\"./index.cjs\"",
-        "value": "./index.cjs"
+        "value": "./index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5248,7 +5456,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 146,
         "raw": "\"./subfolder/index.js\"",
-        "value": "./subfolder/index.js"
+        "value": "./subfolder/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5278,7 +5488,9 @@ __ESTREE_TEST__:PASS:
         "start": 168,
         "end": 191,
         "raw": "\"./subfolder/index.mjs\"",
-        "value": "./subfolder/index.mjs"
+        "value": "./subfolder/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5308,7 +5520,9 @@ __ESTREE_TEST__:PASS:
         "start": 213,
         "end": 236,
         "raw": "\"./subfolder/index.cjs\"",
-        "value": "./subfolder/index.cjs"
+        "value": "./subfolder/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5338,7 +5552,9 @@ __ESTREE_TEST__:PASS:
         "start": 258,
         "end": 281,
         "raw": "\"./subfolder2/index.js\"",
-        "value": "./subfolder2/index.js"
+        "value": "./subfolder2/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5368,7 +5584,9 @@ __ESTREE_TEST__:PASS:
         "start": 303,
         "end": 327,
         "raw": "\"./subfolder2/index.mjs\"",
-        "value": "./subfolder2/index.mjs"
+        "value": "./subfolder2/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5398,7 +5616,9 @@ __ESTREE_TEST__:PASS:
         "start": 349,
         "end": 373,
         "raw": "\"./subfolder2/index.cjs\"",
-        "value": "./subfolder2/index.cjs"
+        "value": "./subfolder2/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5428,7 +5648,9 @@ __ESTREE_TEST__:PASS:
         "start": 396,
         "end": 427,
         "raw": "\"./subfolder2/another/index.js\"",
-        "value": "./subfolder2/another/index.js"
+        "value": "./subfolder2/another/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5458,7 +5680,9 @@ __ESTREE_TEST__:PASS:
         "start": 450,
         "end": 482,
         "raw": "\"./subfolder2/another/index.mjs\"",
-        "value": "./subfolder2/another/index.mjs"
+        "value": "./subfolder2/another/index.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5488,7 +5712,9 @@ __ESTREE_TEST__:PASS:
         "start": 505,
         "end": 537,
         "raw": "\"./subfolder2/another/index.cjs\"",
-        "value": "./subfolder2/another/index.cjs"
+        "value": "./subfolder2/another/index.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5518,7 +5744,9 @@ __ESTREE_TEST__:PASS:
         "start": 661,
         "end": 665,
         "raw": "\"./\"",
-        "value": "./"
+        "value": "./",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5548,7 +5776,9 @@ __ESTREE_TEST__:PASS:
         "start": 688,
         "end": 697,
         "raw": "\"./index\"",
-        "value": "./index"
+        "value": "./index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5578,7 +5808,9 @@ __ESTREE_TEST__:PASS:
         "start": 720,
         "end": 733,
         "raw": "\"./subfolder\"",
-        "value": "./subfolder"
+        "value": "./subfolder",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5608,7 +5840,9 @@ __ESTREE_TEST__:PASS:
         "start": 756,
         "end": 770,
         "raw": "\"./subfolder/\"",
-        "value": "./subfolder/"
+        "value": "./subfolder/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5638,7 +5872,9 @@ __ESTREE_TEST__:PASS:
         "start": 793,
         "end": 812,
         "raw": "\"./subfolder/index\"",
-        "value": "./subfolder/index"
+        "value": "./subfolder/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5668,7 +5904,9 @@ __ESTREE_TEST__:PASS:
         "start": 835,
         "end": 849,
         "raw": "\"./subfolder2\"",
-        "value": "./subfolder2"
+        "value": "./subfolder2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5698,7 +5936,9 @@ __ESTREE_TEST__:PASS:
         "start": 872,
         "end": 887,
         "raw": "\"./subfolder2/\"",
-        "value": "./subfolder2/"
+        "value": "./subfolder2/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5728,7 +5968,9 @@ __ESTREE_TEST__:PASS:
         "start": 910,
         "end": 930,
         "raw": "\"./subfolder2/index\"",
-        "value": "./subfolder2/index"
+        "value": "./subfolder2/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5758,7 +6000,9 @@ __ESTREE_TEST__:PASS:
         "start": 953,
         "end": 975,
         "raw": "\"./subfolder2/another\"",
-        "value": "./subfolder2/another"
+        "value": "./subfolder2/another",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5788,7 +6032,9 @@ __ESTREE_TEST__:PASS:
         "start": 998,
         "end": 1021,
         "raw": "\"./subfolder2/another/\"",
-        "value": "./subfolder2/another/"
+        "value": "./subfolder2/another/",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -5818,7 +6064,9 @@ __ESTREE_TEST__:PASS:
         "start": 1044,
         "end": 1072,
         "raw": "\"./subfolder2/another/index\"",
-        "value": "./subfolder2/another/index"
+        "value": "./subfolder2/another/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -6366,7 +6614,9 @@ __ESTREE_TEST__:PASS:
           "start": 1495,
           "end": 1499,
           "raw": "\"./\"",
-          "value": "./"
+          "value": "./",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6393,7 +6643,9 @@ __ESTREE_TEST__:PASS:
           "start": 1523,
           "end": 1532,
           "raw": "\"./index\"",
-          "value": "./index"
+          "value": "./index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6420,7 +6672,9 @@ __ESTREE_TEST__:PASS:
           "start": 1556,
           "end": 1569,
           "raw": "\"./subfolder\"",
-          "value": "./subfolder"
+          "value": "./subfolder",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6447,7 +6701,9 @@ __ESTREE_TEST__:PASS:
           "start": 1593,
           "end": 1607,
           "raw": "\"./subfolder/\"",
-          "value": "./subfolder/"
+          "value": "./subfolder/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6474,7 +6730,9 @@ __ESTREE_TEST__:PASS:
           "start": 1631,
           "end": 1650,
           "raw": "\"./subfolder/index\"",
-          "value": "./subfolder/index"
+          "value": "./subfolder/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6501,7 +6759,9 @@ __ESTREE_TEST__:PASS:
           "start": 1674,
           "end": 1688,
           "raw": "\"./subfolder2\"",
-          "value": "./subfolder2"
+          "value": "./subfolder2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6528,7 +6788,9 @@ __ESTREE_TEST__:PASS:
           "start": 1712,
           "end": 1727,
           "raw": "\"./subfolder2/\"",
-          "value": "./subfolder2/"
+          "value": "./subfolder2/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6555,7 +6817,9 @@ __ESTREE_TEST__:PASS:
           "start": 1751,
           "end": 1771,
           "raw": "\"./subfolder2/index\"",
-          "value": "./subfolder2/index"
+          "value": "./subfolder2/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6582,7 +6846,9 @@ __ESTREE_TEST__:PASS:
           "start": 1795,
           "end": 1817,
           "raw": "\"./subfolder2/another\"",
-          "value": "./subfolder2/another"
+          "value": "./subfolder2/another",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6609,7 +6875,9 @@ __ESTREE_TEST__:PASS:
           "start": 1841,
           "end": 1864,
           "raw": "\"./subfolder2/another/\"",
-          "value": "./subfolder2/another/"
+          "value": "./subfolder2/another/",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6636,7 +6904,9 @@ __ESTREE_TEST__:PASS:
           "start": 1888,
           "end": 1916,
           "raw": "\"./subfolder2/another/index\"",
-          "value": "./subfolder2/another/index"
+          "value": "./subfolder2/another/index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -6911,7 +7181,9 @@ __ESTREE_TEST__:PASS:
               "start": 2166,
               "end": 2170,
               "raw": "\"./\"",
-              "value": "./"
+              "value": "./",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -6948,7 +7220,9 @@ __ESTREE_TEST__:PASS:
               "start": 2193,
               "end": 2202,
               "raw": "\"./index\"",
-              "value": "./index"
+              "value": "./index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -6985,7 +7259,9 @@ __ESTREE_TEST__:PASS:
               "start": 2225,
               "end": 2238,
               "raw": "\"./subfolder\"",
-              "value": "./subfolder"
+              "value": "./subfolder",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7022,7 +7298,9 @@ __ESTREE_TEST__:PASS:
               "start": 2261,
               "end": 2275,
               "raw": "\"./subfolder/\"",
-              "value": "./subfolder/"
+              "value": "./subfolder/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7059,7 +7337,9 @@ __ESTREE_TEST__:PASS:
               "start": 2298,
               "end": 2317,
               "raw": "\"./subfolder/index\"",
-              "value": "./subfolder/index"
+              "value": "./subfolder/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7096,7 +7376,9 @@ __ESTREE_TEST__:PASS:
               "start": 2340,
               "end": 2354,
               "raw": "\"./subfolder2\"",
-              "value": "./subfolder2"
+              "value": "./subfolder2",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7133,7 +7415,9 @@ __ESTREE_TEST__:PASS:
               "start": 2377,
               "end": 2392,
               "raw": "\"./subfolder2/\"",
-              "value": "./subfolder2/"
+              "value": "./subfolder2/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7170,7 +7454,9 @@ __ESTREE_TEST__:PASS:
               "start": 2415,
               "end": 2435,
               "raw": "\"./subfolder2/index\"",
-              "value": "./subfolder2/index"
+              "value": "./subfolder2/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7207,7 +7493,9 @@ __ESTREE_TEST__:PASS:
               "start": 2458,
               "end": 2480,
               "raw": "\"./subfolder2/another\"",
-              "value": "./subfolder2/another"
+              "value": "./subfolder2/another",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7244,7 +7532,9 @@ __ESTREE_TEST__:PASS:
               "start": 2503,
               "end": 2526,
               "raw": "\"./subfolder2/another/\"",
-              "value": "./subfolder2/another/"
+              "value": "./subfolder2/another/",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7281,7 +7571,9 @@ __ESTREE_TEST__:PASS:
               "start": 2549,
               "end": 2577,
               "raw": "\"./subfolder2/another/index\"",
-              "value": "./subfolder2/another/index"
+              "value": "./subfolder2/another/index",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -7313,7 +7605,9 @@ __ESTREE_TEST__:PASS:
             "start": 2610,
             "end": 2611,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

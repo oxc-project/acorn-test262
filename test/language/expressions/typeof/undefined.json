@@ -49,14 +49,18 @@
             "start": 435,
             "end": 446,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 484,
             "value": "typeof undefined === \"undefined\"",
-            "raw": "'typeof undefined === \"undefined\"'"
+            "raw": "'typeof undefined === \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -107,7 +111,9 @@
                 "start": 521,
                 "end": 522,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -116,14 +122,18 @@
             "start": 526,
             "end": 537,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 572,
             "value": "typeof void 0 === \"undefined\"",
-            "raw": "'typeof void 0 === \"undefined\"'"
+            "raw": "'typeof void 0 === \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

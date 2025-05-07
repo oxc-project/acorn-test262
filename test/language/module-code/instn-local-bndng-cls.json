@@ -109,7 +109,9 @@
             "start": 763,
             "end": 804,
             "value": "Binding is created but not initialized.",
-            "raw": "'Binding is created but not initialized.'"
+            "raw": "'Binding is created but not initialized.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +180,9 @@
                 "start": 867,
                 "end": 876,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -257,7 +261,9 @@
             "start": 944,
             "end": 954,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -326,7 +332,9 @@
                 "start": 1017,
                 "end": 1026,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -361,7 +369,9 @@
           "start": 1053,
           "end": 1057,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -404,14 +414,18 @@
             "start": 1086,
             "end": 1090,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1092,
             "end": 1112,
             "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "raw": "'binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -480,7 +494,9 @@
                 "start": 1175,
                 "end": 1184,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -496,7 +512,9 @@
             "start": 1202,
             "end": 1250,
             "value": "global binding is not effected by modification",
-            "raw": "'global binding is not effected by modification'"
+            "raw": "'global binding is not effected by modification'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

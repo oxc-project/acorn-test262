@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 16,
         "raw": "0",
-        "value": 0
+        "value": 0,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -39,7 +41,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 16,
         "raw": "1",
-        "value": 1
+        "value": 1,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -64,7 +68,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 25,
         "raw": "'fallback'",
-        "value": "fallback"
+        "value": "fallback",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -156,7 +162,9 @@ __ESTREE_TEST__:PASS:
                               "start": 60,
                               "end": 61,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -191,7 +199,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 116,
                                       "end": 128,
                                       "raw": "\"./case0.js\"",
-                                      "value": "./case0.js"
+                                      "value": "./case0.js",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -202,7 +212,9 @@ __ESTREE_TEST__:PASS:
                               "start": 87,
                               "end": 88,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -228,7 +240,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 169,
                                       "end": 181,
                                       "raw": "\"./case1.js\"",
-                                      "value": "./case1.js"
+                                      "value": "./case1.js",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -239,7 +253,9 @@ __ESTREE_TEST__:PASS:
                               "start": 140,
                               "end": 141,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -265,7 +281,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 223,
                                       "end": 242,
                                       "raw": "\"./caseFallback.js\"",
-                                      "value": "./caseFallback.js"
+                                      "value": "./caseFallback.js",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }

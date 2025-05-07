@@ -128,7 +128,9 @@
             "start": 441,
             "end": 525,
             "value": "`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception",
-            "raw": "'`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception'"
+            "raw": "'`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

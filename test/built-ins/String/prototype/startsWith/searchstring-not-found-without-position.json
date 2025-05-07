@@ -23,7 +23,9 @@
             "start": 727,
             "end": 748,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "raw": "'The future is cool!'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +88,9 @@
                 "start": 786,
                 "end": 793,
                 "value": "Flash",
-                "raw": "'Flash'"
+                "raw": "'Flash'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +100,18 @@
             "start": 796,
             "end": 801,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 840,
             "value": "str.startsWith(\"Flash\") === false",
-            "raw": "'str.startsWith(\"Flash\") === false'"
+            "raw": "'str.startsWith(\"Flash\") === false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,7 +174,9 @@
                 "start": 879,
                 "end": 891,
                 "value": "THE FUTURE",
-                "raw": "'THE FUTURE'"
+                "raw": "'THE FUTURE'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -176,14 +186,18 @@
             "start": 894,
             "end": 899,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 903,
             "end": 933,
             "value": "startsWith is case sensitive",
-            "raw": "'startsWith is case sensitive'"
+            "raw": "'startsWith is case sensitive'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -246,7 +260,9 @@
                 "start": 972,
                 "end": 989,
                 "value": "future is cool!",
-                "raw": "'future is cool!'"
+                "raw": "'future is cool!'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -256,14 +272,18 @@
             "start": 992,
             "end": 997,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1001,
             "end": 1046,
             "value": "str.startsWith(\"future is cool!\") === false",
-            "raw": "'str.startsWith(\"future is cool!\") === false'"
+            "raw": "'str.startsWith(\"future is cool!\") === false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -70,7 +70,9 @@
                   "start": 678,
                   "end": 686,
                   "value": "dotAll",
-                  "raw": "'dotAll'"
+                  "raw": "'dotAll'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -182,7 +184,9 @@
             "start": 754,
             "end": 771,
             "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "raw": "'ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -282,7 +286,9 @@
             "start": 835,
             "end": 856,
             "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "raw": "'array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +388,9 @@
             "start": 927,
             "end": 945,
             "value": "arguments object",
-            "raw": "'arguments object'"
+            "raw": "'arguments object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -492,7 +500,9 @@
             "start": 1015,
             "end": 1032,
             "value": "function object",
-            "raw": "'function object'"
+            "raw": "'function object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

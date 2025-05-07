@@ -59,7 +59,9 @@
                           "start": 355,
                           "end": 364,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -129,7 +131,9 @@
                           "start": 422,
                           "end": 426,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -163,7 +167,9 @@
             "start": 446,
             "end": 462,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -222,7 +228,9 @@
           "start": 591,
           "end": 592,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -254,7 +262,9 @@
                     "start": 621,
                     "end": 811,
                     "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __obj2 = {valueOf:function(){return true;}}; var __str = \"ABBABABAB\"; __str.indexOf(__obj, __obj2) === 3. Actual: ",
-                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return true;}}; var __str = \"ABB\\u0041BABAB\"; __str.indexOf(__obj, __obj2) === 3. Actual: '"
+                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return true;}}; var __str = \"ABB\\u0041BABAB\"; __str.indexOf(__obj, __obj2) === 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -208,7 +208,9 @@ __ESTREE_TEST__:PASS:
                           "start": 145,
                           "end": 148,
                           "raw": "\"x\"",
-                          "value": "x"
+                          "value": "x",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -268,7 +270,9 @@ __ESTREE_TEST__:PASS:
                     "start": 169,
                     "end": 172,
                     "raw": "\"x\"",
-                    "value": "x"
+                    "value": "x",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -490,7 +494,9 @@ __ESTREE_TEST__:PASS:
                           "start": 336,
                           "end": 339,
                           "raw": "\"x\"",
-                          "value": "x"
+                          "value": "x",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -550,7 +556,9 @@ __ESTREE_TEST__:PASS:
                     "start": 365,
                     "end": 368,
                     "raw": "\"x\"",
-                    "value": "x"
+                    "value": "x",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1469,7 +1477,9 @@ __ESTREE_TEST__:PASS:
               "start": 902,
               "end": 906,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
@@ -1688,7 +1698,9 @@ __ESTREE_TEST__:PASS:
               "start": 1075,
               "end": 1079,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",

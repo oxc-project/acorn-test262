@@ -47,14 +47,18 @@
                 "start": 464,
                 "end": 469,
                 "value": "0x1",
-                "raw": "\"0x1\""
+                "raw": "\"0x1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 471,
                 "end": 473,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -64,14 +68,18 @@
             "start": 476,
             "end": 477,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 514,
             "value": "parseInt(\"0x1\", 16) must return 1",
-            "raw": "'parseInt(\"0x1\", 16) must return 1'"
+            "raw": "'parseInt(\"0x1\", 16) must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -121,14 +129,18 @@
                 "start": 543,
                 "end": 549,
                 "value": "0X10",
-                "raw": "\"0X10\""
+                "raw": "\"0X10\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 551,
                 "end": 553,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -138,14 +150,18 @@
             "start": 556,
             "end": 558,
             "value": 16,
-            "raw": "16"
+            "raw": "16",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 597,
             "value": "parseInt(\"0X10\", 16) must return 16",
-            "raw": "'parseInt(\"0X10\", 16) must return 16'"
+            "raw": "'parseInt(\"0X10\", 16) must return 16'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,14 +211,18 @@
                 "start": 626,
                 "end": 633,
                 "value": "0x100",
-                "raw": "\"0x100\""
+                "raw": "\"0x100\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 635,
                 "end": 637,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -212,14 +232,18 @@
             "start": 640,
             "end": 643,
             "value": 256,
-            "raw": "256"
+            "raw": "256",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 684,
             "value": "parseInt(\"0x100\", 16) must return 256",
-            "raw": "'parseInt(\"0x100\", 16) must return 256'"
+            "raw": "'parseInt(\"0x100\", 16) must return 256'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,14 +293,18 @@
                 "start": 713,
                 "end": 721,
                 "value": "0X1000",
-                "raw": "\"0X1000\""
+                "raw": "\"0X1000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 723,
                 "end": 725,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -286,14 +314,18 @@
             "start": 728,
             "end": 732,
             "value": 4096,
-            "raw": "4096"
+            "raw": "4096",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 734,
             "end": 775,
             "value": "parseInt(\"0X1000\", 16) must return 4096",
-            "raw": "'parseInt(\"0X1000\", 16) must return 4096'"
+            "raw": "'parseInt(\"0X1000\", 16) must return 4096'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,14 +375,18 @@
                 "start": 804,
                 "end": 813,
                 "value": "0x10000",
-                "raw": "\"0x10000\""
+                "raw": "\"0x10000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 815,
                 "end": 817,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -360,14 +396,18 @@
             "start": 820,
             "end": 825,
             "value": 65536,
-            "raw": "65536"
+            "raw": "65536",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 870,
             "value": "parseInt(\"0x10000\", 16) must return 65536",
-            "raw": "'parseInt(\"0x10000\", 16) must return 65536'"
+            "raw": "'parseInt(\"0x10000\", 16) must return 65536'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -417,14 +457,18 @@
                 "start": 899,
                 "end": 909,
                 "value": "0X100000",
-                "raw": "\"0X100000\""
+                "raw": "\"0X100000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 911,
                 "end": 913,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -434,14 +478,18 @@
             "start": 916,
             "end": 923,
             "value": 1048576,
-            "raw": "1048576"
+            "raw": "1048576",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 925,
             "end": 971,
             "value": "parseInt(\"0X100000\", 16) must return 1048576",
-            "raw": "'parseInt(\"0X100000\", 16) must return 1048576'"
+            "raw": "'parseInt(\"0X100000\", 16) must return 1048576'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -491,14 +539,18 @@
                 "start": 1000,
                 "end": 1011,
                 "value": "0x1000000",
-                "raw": "\"0x1000000\""
+                "raw": "\"0x1000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1013,
                 "end": 1015,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -508,14 +560,18 @@
             "start": 1018,
             "end": 1026,
             "value": 16777216,
-            "raw": "16777216"
+            "raw": "16777216",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1028,
             "end": 1076,
             "value": "parseInt(\"0x1000000\", 16) must return 16777216",
-            "raw": "'parseInt(\"0x1000000\", 16) must return 16777216'"
+            "raw": "'parseInt(\"0x1000000\", 16) must return 16777216'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -565,14 +621,18 @@
                 "start": 1105,
                 "end": 1117,
                 "value": "0x10000000",
-                "raw": "\"0x10000000\""
+                "raw": "\"0x10000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1119,
                 "end": 1121,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -582,14 +642,18 @@
             "start": 1124,
             "end": 1133,
             "value": 268435456,
-            "raw": "268435456"
+            "raw": "268435456",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1135,
             "end": 1185,
             "value": "parseInt(\"0x10000000\", 16) must return 268435456",
-            "raw": "'parseInt(\"0x10000000\", 16) must return 268435456'"
+            "raw": "'parseInt(\"0x10000000\", 16) must return 268435456'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -639,14 +703,18 @@
                 "start": 1214,
                 "end": 1227,
                 "value": "0x100000000",
-                "raw": "\"0x100000000\""
+                "raw": "\"0x100000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1229,
                 "end": 1231,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -656,14 +724,18 @@
             "start": 1234,
             "end": 1244,
             "value": 4294967296,
-            "raw": "4294967296"
+            "raw": "4294967296",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1246,
             "end": 1298,
             "value": "parseInt(\"0x100000000\", 16) must return 4294967296",
-            "raw": "'parseInt(\"0x100000000\", 16) must return 4294967296'"
+            "raw": "'parseInt(\"0x100000000\", 16) must return 4294967296'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -713,14 +785,18 @@
                 "start": 1327,
                 "end": 1341,
                 "value": "0x1000000000",
-                "raw": "\"0x1000000000\""
+                "raw": "\"0x1000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1343,
                 "end": 1345,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -730,14 +806,18 @@
             "start": 1348,
             "end": 1359,
             "value": 68719476736,
-            "raw": "68719476736"
+            "raw": "68719476736",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1361,
             "end": 1415,
             "value": "parseInt(\"0x1000000000\", 16) must return 68719476736",
-            "raw": "'parseInt(\"0x1000000000\", 16) must return 68719476736'"
+            "raw": "'parseInt(\"0x1000000000\", 16) must return 68719476736'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -787,14 +867,18 @@
                 "start": 1444,
                 "end": 1459,
                 "value": "0x10000000000",
-                "raw": "\"0x10000000000\""
+                "raw": "\"0x10000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1461,
                 "end": 1463,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -804,14 +888,18 @@
             "start": 1466,
             "end": 1479,
             "value": 1099511627776,
-            "raw": "1099511627776"
+            "raw": "1099511627776",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1481,
             "end": 1538,
             "value": "parseInt(\"0x10000000000\", 16) must return 1099511627776",
-            "raw": "'parseInt(\"0x10000000000\", 16) must return 1099511627776'"
+            "raw": "'parseInt(\"0x10000000000\", 16) must return 1099511627776'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -861,14 +949,18 @@
                 "start": 1571,
                 "end": 1587,
                 "value": "0x100000000000",
-                "raw": "\"0x100000000000\""
+                "raw": "\"0x100000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1589,
                 "end": 1591,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -878,14 +970,18 @@
             "start": 1596,
             "end": 1610,
             "value": 17592186044416,
-            "raw": "17592186044416"
+            "raw": "17592186044416",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1614,
             "end": 1673,
             "value": "parseInt(\"0x100000000000\", 16) must return 17592186044416",
-            "raw": "'parseInt(\"0x100000000000\", 16) must return 17592186044416'"
+            "raw": "'parseInt(\"0x100000000000\", 16) must return 17592186044416'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -935,14 +1031,18 @@
                 "start": 1707,
                 "end": 1724,
                 "value": "0x1000000000000",
-                "raw": "\"0x1000000000000\""
+                "raw": "\"0x1000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1726,
                 "end": 1728,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -952,14 +1052,18 @@
             "start": 1733,
             "end": 1748,
             "value": 281474976710656,
-            "raw": "281474976710656"
+            "raw": "281474976710656",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1752,
             "end": 1813,
             "value": "parseInt(\"0x1000000000000\", 16) must return 281474976710656",
-            "raw": "'parseInt(\"0x1000000000000\", 16) must return 281474976710656'"
+            "raw": "'parseInt(\"0x1000000000000\", 16) must return 281474976710656'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1009,14 +1113,18 @@
                 "start": 1847,
                 "end": 1865,
                 "value": "0x10000000000000",
-                "raw": "\"0x10000000000000\""
+                "raw": "\"0x10000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1867,
                 "end": 1869,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1026,14 +1134,18 @@
             "start": 1874,
             "end": 1890,
             "value": 4503599627370496,
-            "raw": "4503599627370496"
+            "raw": "4503599627370496",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1894,
             "end": 1957,
             "value": "parseInt(\"0x10000000000000\", 16) must return 4503599627370496",
-            "raw": "'parseInt(\"0x10000000000000\", 16) must return 4503599627370496'"
+            "raw": "'parseInt(\"0x10000000000000\", 16) must return 4503599627370496'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1083,14 +1195,18 @@
                 "start": 1991,
                 "end": 2010,
                 "value": "0x100000000000000",
-                "raw": "\"0x100000000000000\""
+                "raw": "\"0x100000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2012,
                 "end": 2014,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1100,14 +1216,18 @@
             "start": 2019,
             "end": 2036,
             "value": 72057594037927940,
-            "raw": "72057594037927936"
+            "raw": "72057594037927936",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2040,
             "end": 2105,
             "value": "parseInt(\"0x100000000000000\", 16) must return 72057594037927936",
-            "raw": "'parseInt(\"0x100000000000000\", 16) must return 72057594037927936'"
+            "raw": "'parseInt(\"0x100000000000000\", 16) must return 72057594037927936'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1157,14 +1277,18 @@
                 "start": 2139,
                 "end": 2159,
                 "value": "0x1000000000000000",
-                "raw": "\"0x1000000000000000\""
+                "raw": "\"0x1000000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2161,
                 "end": 2163,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1174,14 +1298,18 @@
             "start": 2168,
             "end": 2187,
             "value": 1152921504606847000,
-            "raw": "1152921504606846976"
+            "raw": "1152921504606846976",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2191,
             "end": 2259,
             "value": "parseInt(\"0x1000000000000000\", 16) must return 1152921504606846976",
-            "raw": "'parseInt(\"0x1000000000000000\", 16) must return 1152921504606846976'"
+            "raw": "'parseInt(\"0x1000000000000000\", 16) must return 1152921504606846976'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1231,14 +1359,18 @@
                 "start": 2293,
                 "end": 2314,
                 "value": "0x10000000000000000",
-                "raw": "\"0x10000000000000000\""
+                "raw": "\"0x10000000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2316,
                 "end": 2318,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1248,14 +1380,18 @@
             "start": 2323,
             "end": 2343,
             "value": 18446744073709552000,
-            "raw": "18446744073709551616"
+            "raw": "18446744073709551616",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2347,
             "end": 2417,
             "value": "parseInt(\"0x10000000000000000\", 16) must return 18446744073709551616",
-            "raw": "'parseInt(\"0x10000000000000000\", 16) must return 18446744073709551616'"
+            "raw": "'parseInt(\"0x10000000000000000\", 16) must return 18446744073709551616'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1305,14 +1441,18 @@
                 "start": 2451,
                 "end": 2473,
                 "value": "0x100000000000000000",
-                "raw": "\"0x100000000000000000\""
+                "raw": "\"0x100000000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2475,
                 "end": 2477,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1322,14 +1462,18 @@
             "start": 2482,
             "end": 2503,
             "value": 295147905179352830000,
-            "raw": "295147905179352825856"
+            "raw": "295147905179352825856",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2507,
             "end": 2579,
             "value": "parseInt(\"0x100000000000000000\", 16) must return 295147905179352825856",
-            "raw": "'parseInt(\"0x100000000000000000\", 16) must return 295147905179352825856'"
+            "raw": "'parseInt(\"0x100000000000000000\", 16) must return 295147905179352825856'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1379,14 +1523,18 @@
                 "start": 2613,
                 "end": 2636,
                 "value": "0x1000000000000000000",
-                "raw": "\"0x1000000000000000000\""
+                "raw": "\"0x1000000000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2638,
                 "end": 2640,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1396,14 +1544,18 @@
             "start": 2645,
             "end": 2667,
             "value": 4.722366482869645e+21,
-            "raw": "4722366482869645213696"
+            "raw": "4722366482869645213696",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2671,
             "end": 2745,
             "value": "parseInt(\"0x1000000000000000000\", 16) must return 4722366482869645213696",
-            "raw": "'parseInt(\"0x1000000000000000000\", 16) must return 4722366482869645213696'"
+            "raw": "'parseInt(\"0x1000000000000000000\", 16) must return 4722366482869645213696'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1453,14 +1605,18 @@
                 "start": 2779,
                 "end": 2803,
                 "value": "0x10000000000000000000",
-                "raw": "\"0x10000000000000000000\""
+                "raw": "\"0x10000000000000000000\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2805,
                 "end": 2807,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1470,14 +1626,18 @@
             "start": 2812,
             "end": 2835,
             "value": 7.555786372591432e+22,
-            "raw": "75557863725914323419136"
+            "raw": "75557863725914323419136",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2839,
             "end": 2915,
             "value": "parseInt(\"0x10000000000000000000\", 16) must return 75557863725914323419136",
-            "raw": "'parseInt(\"0x10000000000000000000\", 16) must return 75557863725914323419136'"
+            "raw": "'parseInt(\"0x10000000000000000000\", 16) must return 75557863725914323419136'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

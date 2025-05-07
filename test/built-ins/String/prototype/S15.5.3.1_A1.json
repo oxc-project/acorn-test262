@@ -46,7 +46,9 @@
                 "start": 379,
                 "end": 390,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,7 +84,9 @@
                     "start": 421,
                     "end": 485,
                     "value": "#1: String.hasOwnProperty('prototype') return true. Actual: ",
-                    "raw": "'#1: String.hasOwnProperty(\\'prototype\\') return true. Actual: '"
+                    "raw": "'#1: String.hasOwnProperty(\\'prototype\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -114,7 +118,9 @@
                         "start": 510,
                         "end": 521,
                         "value": "prototype",
-                        "raw": "'prototype'"
+                        "raw": "'prototype'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

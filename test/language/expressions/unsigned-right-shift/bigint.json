@@ -65,6 +65,7 @@
                       "end": 491,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": ">>>",
@@ -74,6 +75,7 @@
                       "end": 498,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -86,7 +88,9 @@
             "start": 503,
             "end": 541,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -154,6 +158,7 @@
                       "end": 584,
                       "value": null,
                       "raw": "5n",
+                      "regex": null,
                       "bigint": "5"
                     },
                     "operator": ">>>",
@@ -163,6 +168,7 @@
                       "end": 591,
                       "value": null,
                       "raw": "1n",
+                      "regex": null,
                       "bigint": "1"
                     }
                   }
@@ -175,7 +181,9 @@
             "start": 596,
             "end": 634,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,6 +251,7 @@
                       "end": 677,
                       "value": null,
                       "raw": "5n",
+                      "regex": null,
                       "bigint": "5"
                     },
                     "operator": ">>>",
@@ -252,6 +261,7 @@
                       "end": 684,
                       "value": null,
                       "raw": "2n",
+                      "regex": null,
                       "bigint": "2"
                     }
                   }
@@ -264,7 +274,9 @@
             "start": 689,
             "end": 727,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,6 +344,7 @@
                       "end": 770,
                       "value": null,
                       "raw": "5n",
+                      "regex": null,
                       "bigint": "5"
                     },
                     "operator": ">>>",
@@ -341,6 +354,7 @@
                       "end": 777,
                       "value": null,
                       "raw": "3n",
+                      "regex": null,
                       "bigint": "3"
                     }
                   }
@@ -353,7 +367,9 @@
             "start": 782,
             "end": 820,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,6 +437,7 @@
                       "end": 863,
                       "value": null,
                       "raw": "5n",
+                      "regex": null,
                       "bigint": "5"
                     },
                     "operator": ">>>",
@@ -436,6 +453,7 @@
                         "end": 871,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     }
@@ -449,7 +467,9 @@
             "start": 876,
             "end": 914,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -517,6 +537,7 @@
                       "end": 957,
                       "value": null,
                       "raw": "5n",
+                      "regex": null,
                       "bigint": "5"
                     },
                     "operator": ">>>",
@@ -532,6 +553,7 @@
                         "end": 965,
                         "value": null,
                         "raw": "2n",
+                        "regex": null,
                         "bigint": "2"
                       }
                     }
@@ -545,7 +567,9 @@
             "start": 970,
             "end": 1008,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -613,6 +637,7 @@
                       "end": 1051,
                       "value": null,
                       "raw": "5n",
+                      "regex": null,
                       "bigint": "5"
                     },
                     "operator": ">>>",
@@ -628,6 +653,7 @@
                         "end": 1059,
                         "value": null,
                         "raw": "3n",
+                        "regex": null,
                         "bigint": "3"
                       }
                     }
@@ -641,7 +667,9 @@
             "start": 1064,
             "end": 1102,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -709,6 +737,7 @@
                       "end": 1145,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": ">>>",
@@ -718,6 +747,7 @@
                       "end": 1154,
                       "value": null,
                       "raw": "128n",
+                      "regex": null,
                       "bigint": "128"
                     }
                   }
@@ -730,7 +760,9 @@
             "start": 1159,
             "end": 1197,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,6 +830,7 @@
                       "end": 1240,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": ">>>",
@@ -813,6 +846,7 @@
                         "end": 1250,
                         "value": null,
                         "raw": "128n",
+                        "regex": null,
                         "bigint": "128"
                       }
                     }
@@ -826,7 +860,9 @@
             "start": 1255,
             "end": 1293,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -894,6 +930,7 @@
                       "end": 1338,
                       "value": null,
                       "raw": "582n",
+                      "regex": null,
                       "bigint": "582"
                     },
                     "operator": ">>>",
@@ -903,6 +940,7 @@
                       "end": 1345,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -915,7 +953,9 @@
             "start": 1350,
             "end": 1388,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -983,6 +1023,7 @@
                       "end": 1433,
                       "value": null,
                       "raw": "582n",
+                      "regex": null,
                       "bigint": "582"
                     },
                     "operator": ">>>",
@@ -992,6 +1033,7 @@
                       "end": 1442,
                       "value": null,
                       "raw": "127n",
+                      "regex": null,
                       "bigint": "127"
                     }
                   }
@@ -1004,7 +1046,9 @@
             "start": 1447,
             "end": 1485,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1072,6 +1116,7 @@
                       "end": 1530,
                       "value": null,
                       "raw": "582n",
+                      "regex": null,
                       "bigint": "582"
                     },
                     "operator": ">>>",
@@ -1081,6 +1126,7 @@
                       "end": 1539,
                       "value": null,
                       "raw": "128n",
+                      "regex": null,
                       "bigint": "128"
                     }
                   }
@@ -1093,7 +1139,9 @@
             "start": 1544,
             "end": 1582,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1161,6 +1209,7 @@
                       "end": 1627,
                       "value": null,
                       "raw": "582n",
+                      "regex": null,
                       "bigint": "582"
                     },
                     "operator": ">>>",
@@ -1170,6 +1219,7 @@
                       "end": 1636,
                       "value": null,
                       "raw": "129n",
+                      "regex": null,
                       "bigint": "129"
                     }
                   }
@@ -1182,7 +1232,9 @@
             "start": 1641,
             "end": 1679,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1250,6 +1302,7 @@
                       "end": 1724,
                       "value": null,
                       "raw": "582n",
+                      "regex": null,
                       "bigint": "582"
                     },
                     "operator": ">>>",
@@ -1265,6 +1318,7 @@
                         "end": 1734,
                         "value": null,
                         "raw": "128n",
+                        "regex": null,
                         "bigint": "128"
                       }
                     }
@@ -1278,7 +1332,9 @@
             "start": 1739,
             "end": 1777,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1346,6 +1402,7 @@
                       "end": 1864,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -1355,6 +1412,7 @@
                       "end": 1872,
                       "value": null,
                       "raw": "64n",
+                      "regex": null,
                       "bigint": "64"
                     }
                   }
@@ -1367,7 +1425,9 @@
             "start": 1877,
             "end": 1915,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1435,6 +1495,7 @@
                       "end": 2002,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -1444,6 +1505,7 @@
                       "end": 2010,
                       "value": null,
                       "raw": "32n",
+                      "regex": null,
                       "bigint": "32"
                     }
                   }
@@ -1456,7 +1518,9 @@
             "start": 2015,
             "end": 2053,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1524,6 +1588,7 @@
                       "end": 2140,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -1533,6 +1598,7 @@
                       "end": 2148,
                       "value": null,
                       "raw": "16n",
+                      "regex": null,
                       "bigint": "16"
                     }
                   }
@@ -1545,7 +1611,9 @@
             "start": 2153,
             "end": 2191,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1613,6 +1681,7 @@
                       "end": 2278,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -1622,6 +1691,7 @@
                       "end": 2285,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -1634,7 +1704,9 @@
             "start": 2290,
             "end": 2328,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1702,6 +1774,7 @@
                       "end": 2415,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -1717,6 +1790,7 @@
                         "end": 2424,
                         "value": null,
                         "raw": "16n",
+                        "regex": null,
                         "bigint": "16"
                       }
                     }
@@ -1730,7 +1804,9 @@
             "start": 2429,
             "end": 2467,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1798,6 +1874,7 @@
                       "end": 2554,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -1813,6 +1890,7 @@
                         "end": 2563,
                         "value": null,
                         "raw": "32n",
+                        "regex": null,
                         "bigint": "32"
                       }
                     }
@@ -1826,7 +1904,9 @@
             "start": 2568,
             "end": 2606,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1894,6 +1974,7 @@
                       "end": 2693,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -1909,6 +1990,7 @@
                         "end": 2702,
                         "value": null,
                         "raw": "64n",
+                        "regex": null,
                         "bigint": "64"
                       }
                     }
@@ -1922,7 +2004,9 @@
             "start": 2707,
             "end": 2745,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1990,6 +2074,7 @@
                       "end": 2832,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -2005,6 +2090,7 @@
                         "end": 2842,
                         "value": null,
                         "raw": "127n",
+                        "regex": null,
                         "bigint": "127"
                       }
                     }
@@ -2018,7 +2104,9 @@
             "start": 2847,
             "end": 2885,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2086,6 +2174,7 @@
                       "end": 2972,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -2101,6 +2190,7 @@
                         "end": 2982,
                         "value": null,
                         "raw": "128n",
+                        "regex": null,
                         "bigint": "128"
                       }
                     }
@@ -2114,7 +2204,9 @@
             "start": 2987,
             "end": 3025,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2182,6 +2274,7 @@
                       "end": 3112,
                       "value": null,
                       "raw": "405972677036361916727469983882855107238581880n",
+                      "regex": null,
                       "bigint": "405972677036361916727469983882855107238581880"
                     },
                     "operator": ">>>",
@@ -2197,6 +2290,7 @@
                         "end": 3122,
                         "value": null,
                         "raw": "129n",
+                        "regex": null,
                         "bigint": "129"
                       }
                     }
@@ -2210,7 +2304,9 @@
             "start": 3127,
             "end": 3165,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2284,6 +2380,7 @@
                         "end": 3209,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     },
@@ -2294,6 +2391,7 @@
                       "end": 3216,
                       "value": null,
                       "raw": "1n",
+                      "regex": null,
                       "bigint": "1"
                     }
                   }
@@ -2306,7 +2404,9 @@
             "start": 3221,
             "end": 3259,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2380,6 +2480,7 @@
                         "end": 3303,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     },
@@ -2390,6 +2491,7 @@
                       "end": 3310,
                       "value": null,
                       "raw": "2n",
+                      "regex": null,
                       "bigint": "2"
                     }
                   }
@@ -2402,7 +2504,9 @@
             "start": 3315,
             "end": 3353,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2476,6 +2580,7 @@
                         "end": 3397,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     },
@@ -2486,6 +2591,7 @@
                       "end": 3404,
                       "value": null,
                       "raw": "3n",
+                      "regex": null,
                       "bigint": "3"
                     }
                   }
@@ -2498,7 +2604,9 @@
             "start": 3409,
             "end": 3447,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2572,6 +2680,7 @@
                         "end": 3491,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     },
@@ -2588,6 +2697,7 @@
                         "end": 3499,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     }
@@ -2601,7 +2711,9 @@
             "start": 3504,
             "end": 3542,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2675,6 +2787,7 @@
                         "end": 3586,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     },
@@ -2691,6 +2804,7 @@
                         "end": 3594,
                         "value": null,
                         "raw": "2n",
+                        "regex": null,
                         "bigint": "2"
                       }
                     }
@@ -2704,7 +2818,9 @@
             "start": 3599,
             "end": 3637,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2778,6 +2894,7 @@
                         "end": 3681,
                         "value": null,
                         "raw": "5n",
+                        "regex": null,
                         "bigint": "5"
                       }
                     },
@@ -2794,6 +2911,7 @@
                         "end": 3689,
                         "value": null,
                         "raw": "3n",
+                        "regex": null,
                         "bigint": "3"
                       }
                     }
@@ -2807,7 +2925,9 @@
             "start": 3694,
             "end": 3732,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2881,6 +3001,7 @@
                         "end": 3776,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     },
@@ -2891,6 +3012,7 @@
                       "end": 3785,
                       "value": null,
                       "raw": "128n",
+                      "regex": null,
                       "bigint": "128"
                     }
                   }
@@ -2903,7 +3025,9 @@
             "start": 3790,
             "end": 3828,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2977,6 +3101,7 @@
                         "end": 3872,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     },
@@ -2987,6 +3112,7 @@
                       "end": 3879,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -2999,7 +3125,9 @@
             "start": 3884,
             "end": 3922,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3073,6 +3201,7 @@
                         "end": 3966,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     },
@@ -3089,6 +3218,7 @@
                         "end": 3976,
                         "value": null,
                         "raw": "128n",
+                        "regex": null,
                         "bigint": "128"
                       }
                     }
@@ -3102,7 +3232,9 @@
             "start": 3981,
             "end": 4019,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3176,6 +3308,7 @@
                         "end": 4065,
                         "value": null,
                         "raw": "582n",
+                        "regex": null,
                         "bigint": "582"
                       }
                     },
@@ -3186,6 +3319,7 @@
                       "end": 4072,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -3198,7 +3332,9 @@
             "start": 4077,
             "end": 4115,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3272,6 +3408,7 @@
                         "end": 4161,
                         "value": null,
                         "raw": "582n",
+                        "regex": null,
                         "bigint": "582"
                       }
                     },
@@ -3282,6 +3419,7 @@
                       "end": 4170,
                       "value": null,
                       "raw": "127n",
+                      "regex": null,
                       "bigint": "127"
                     }
                   }
@@ -3294,7 +3432,9 @@
             "start": 4175,
             "end": 4213,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3368,6 +3508,7 @@
                         "end": 4259,
                         "value": null,
                         "raw": "582n",
+                        "regex": null,
                         "bigint": "582"
                       }
                     },
@@ -3378,6 +3519,7 @@
                       "end": 4268,
                       "value": null,
                       "raw": "128n",
+                      "regex": null,
                       "bigint": "128"
                     }
                   }
@@ -3390,7 +3532,9 @@
             "start": 4273,
             "end": 4311,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3464,6 +3608,7 @@
                         "end": 4357,
                         "value": null,
                         "raw": "582n",
+                        "regex": null,
                         "bigint": "582"
                       }
                     },
@@ -3474,6 +3619,7 @@
                       "end": 4366,
                       "value": null,
                       "raw": "129n",
+                      "regex": null,
                       "bigint": "129"
                     }
                   }
@@ -3486,7 +3632,9 @@
             "start": 4371,
             "end": 4409,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3560,6 +3708,7 @@
                         "end": 4455,
                         "value": null,
                         "raw": "582n",
+                        "regex": null,
                         "bigint": "582"
                       }
                     },
@@ -3576,6 +3725,7 @@
                         "end": 4465,
                         "value": null,
                         "raw": "128n",
+                        "regex": null,
                         "bigint": "128"
                       }
                     }
@@ -3589,7 +3739,9 @@
             "start": 4470,
             "end": 4508,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3663,6 +3815,7 @@
                         "end": 4596,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -3673,6 +3826,7 @@
                       "end": 4604,
                       "value": null,
                       "raw": "64n",
+                      "regex": null,
                       "bigint": "64"
                     }
                   }
@@ -3685,7 +3839,9 @@
             "start": 4609,
             "end": 4647,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3759,6 +3915,7 @@
                         "end": 4735,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -3769,6 +3926,7 @@
                       "end": 4743,
                       "value": null,
                       "raw": "32n",
+                      "regex": null,
                       "bigint": "32"
                     }
                   }
@@ -3781,7 +3939,9 @@
             "start": 4748,
             "end": 4786,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3855,6 +4015,7 @@
                         "end": 4874,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -3865,6 +4026,7 @@
                       "end": 4882,
                       "value": null,
                       "raw": "16n",
+                      "regex": null,
                       "bigint": "16"
                     }
                   }
@@ -3877,7 +4039,9 @@
             "start": 4887,
             "end": 4925,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3951,6 +4115,7 @@
                         "end": 5013,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -3961,6 +4126,7 @@
                       "end": 5020,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -3973,7 +4139,9 @@
             "start": 5025,
             "end": 5063,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4047,6 +4215,7 @@
                         "end": 5151,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -4063,6 +4232,7 @@
                         "end": 5160,
                         "value": null,
                         "raw": "16n",
+                        "regex": null,
                         "bigint": "16"
                       }
                     }
@@ -4076,7 +4246,9 @@
             "start": 5165,
             "end": 5203,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4150,6 +4322,7 @@
                         "end": 5291,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -4166,6 +4339,7 @@
                         "end": 5300,
                         "value": null,
                         "raw": "32n",
+                        "regex": null,
                         "bigint": "32"
                       }
                     }
@@ -4179,7 +4353,9 @@
             "start": 5305,
             "end": 5343,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4253,6 +4429,7 @@
                         "end": 5431,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -4269,6 +4446,7 @@
                         "end": 5440,
                         "value": null,
                         "raw": "64n",
+                        "regex": null,
                         "bigint": "64"
                       }
                     }
@@ -4282,7 +4460,9 @@
             "start": 5445,
             "end": 5483,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4356,6 +4536,7 @@
                         "end": 5571,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -4372,6 +4553,7 @@
                         "end": 5581,
                         "value": null,
                         "raw": "127n",
+                        "regex": null,
                         "bigint": "127"
                       }
                     }
@@ -4385,7 +4567,9 @@
             "start": 5586,
             "end": 5624,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4459,6 +4643,7 @@
                         "end": 5712,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -4475,6 +4660,7 @@
                         "end": 5722,
                         "value": null,
                         "raw": "128n",
+                        "regex": null,
                         "bigint": "128"
                       }
                     }
@@ -4488,7 +4674,9 @@
             "start": 5727,
             "end": 5765,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4562,6 +4750,7 @@
                         "end": 5853,
                         "value": null,
                         "raw": "405972677036361916727469983882855107238581880n",
+                        "regex": null,
                         "bigint": "405972677036361916727469983882855107238581880"
                       }
                     },
@@ -4578,6 +4767,7 @@
                         "end": 5863,
                         "value": null,
                         "raw": "129n",
+                        "regex": null,
                         "bigint": "129"
                       }
                     }
@@ -4591,7 +4781,9 @@
             "start": 5868,
             "end": 5906,
             "value": "bigint >>> bigint throws a TypeError",
-            "raw": "\"bigint >>> bigint throws a TypeError\""
+            "raw": "\"bigint >>> bigint throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

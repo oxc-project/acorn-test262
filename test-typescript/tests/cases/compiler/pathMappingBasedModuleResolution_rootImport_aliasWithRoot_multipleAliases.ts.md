@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 33,
         "raw": "\"/import/foo\"",
-        "value": "/import/foo"
+        "value": "/import/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -152,7 +154,9 @@ __ESTREE_TEST__:PASS:
         "start": 55,
         "end": 68,
         "raw": "\"/client/bar\"",
-        "value": "/client/bar"
+        "value": "/client/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

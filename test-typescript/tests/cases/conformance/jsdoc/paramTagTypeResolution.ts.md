@@ -154,7 +154,9 @@ __ESTREE_TEST__:PASS:
                 "start": 16,
                 "end": 25,
                 "raw": "'./first'",
-                "value": "./first"
+                "value": "./first",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -189,7 +191,9 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 31,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",

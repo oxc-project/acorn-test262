@@ -16,7 +16,9 @@
           "start": 1341,
           "end": 1343,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {

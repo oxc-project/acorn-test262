@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
             "start": 65,
             "end": 75,
             "raw": "\"instance\"",
-            "value": "instance"
+            "value": "instance",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

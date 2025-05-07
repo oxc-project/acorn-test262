@@ -160,7 +160,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 154,
                                       "end": 160,
                                       "raw": "\"test\"",
-                                      "value": "test"
+                                      "value": "test",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

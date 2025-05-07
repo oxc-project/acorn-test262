@@ -23,7 +23,9 @@
             "start": 1510,
             "end": 1511,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1536,
             "end": 1537,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 1561,
             "end": 1562,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -161,7 +167,9 @@
                             "start": 1638,
                             "end": 1639,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -228,7 +236,9 @@
                             "start": 1711,
                             "end": 1712,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -295,7 +305,9 @@
                             "start": 1782,
                             "end": 1783,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -326,7 +338,9 @@
                                   "start": 1822,
                                   "end": 1827,
                                   "value": " 42",
-                                  "raw": "' 42'"
+                                  "raw": "' 42'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -461,14 +475,18 @@
             "start": 2032,
             "end": 2033,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2037,
             "end": 2087,
             "value": "thisVal.toString expected to have been accessed.",
-            "raw": "'thisVal.toString expected to have been accessed.'"
+            "raw": "'thisVal.toString expected to have been accessed.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,14 +531,18 @@
             "start": 2121,
             "end": 2125,
             "value": "42",
-            "raw": "'42'"
+            "raw": "'42'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2129,
             "end": 2176,
             "value": "thisVal.valueOf expected to have been called.",
-            "raw": "'thisVal.valueOf expected to have been called.'"
+            "raw": "'thisVal.valueOf expected to have been called.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -565,14 +587,18 @@
             "start": 2299,
             "end": 2300,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2304,
             "end": 2359,
             "value": "thisVal[Symbol.toPrimitive should have been accessed.",
-            "raw": "'thisVal[Symbol.toPrimitive should have been accessed.'"
+            "raw": "'thisVal[Symbol.toPrimitive should have been accessed.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,14 +643,18 @@
             "start": 2403,
             "end": 2404,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2408,
             "end": 2460,
             "value": "thisVal[Symbol.toString should have been accessed.",
-            "raw": "'thisVal[Symbol.toString should have been accessed.'"
+            "raw": "'thisVal[Symbol.toString should have been accessed.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

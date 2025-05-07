@@ -50,7 +50,9 @@
                       "start": 4790,
                       "end": 4840,
                       "value": "./get-nested-namespace-dflt-skip-prod_FIXTURE.js",
-                      "raw": "'./get-nested-namespace-dflt-skip-prod_FIXTURE.js'"
+                      "raw": "'./get-nested-namespace-dflt-skip-prod_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -109,7 +111,9 @@
                       "start": 4895,
                       "end": 4910,
                       "value": "productionNS2",
-                      "raw": "'productionNS2'"
+                      "raw": "'productionNS2'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -170,14 +174,18 @@
                   "start": 4952,
                   "end": 4956,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4958,
                   "end": 4991,
                   "value": "ns.productionNS2: is enumerable",
-                  "raw": "'ns.productionNS2: is enumerable'"
+                  "raw": "'ns.productionNS2: is enumerable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -235,14 +243,18 @@
                   "start": 5030,
                   "end": 5034,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5036,
                   "end": 5067,
                   "value": "ns.productionNS2: is writable",
-                  "raw": "'ns.productionNS2: is writable'"
+                  "raw": "'ns.productionNS2: is writable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -300,14 +312,18 @@
                   "start": 5110,
                   "end": 5115,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5117,
                   "end": 5156,
                   "value": "ns.productionNS2: is non-configurable",
-                  "raw": "'ns.productionNS2: is non-configurable'"
+                  "raw": "'ns.productionNS2: is non-configurable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -430,7 +446,9 @@
                   "start": 5256,
                   "end": 5257,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -479,7 +497,9 @@
                     "start": 5286,
                     "end": 5287,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -489,7 +509,9 @@
                   "start": 5290,
                   "end": 5299,
                   "value": "default",
-                  "raw": "'default'"
+                  "raw": "'default'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -538,7 +560,9 @@
                     "start": 5328,
                     "end": 5329,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -548,7 +572,9 @@
                   "start": 5332,
                   "end": 5349,
                   "value": "productionOther",
-                  "raw": "'productionOther'"
+                  "raw": "'productionOther'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -617,7 +643,9 @@
                     "start": 5414,
                     "end": 5431,
                     "value": "productionOther",
-                    "raw": "'productionOther'"
+                    "raw": "'productionOther'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -676,14 +704,18 @@
                   "start": 5468,
                   "end": 5472,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5474,
                   "end": 5523,
                   "value": "ns.productionNS2.productionOther: value is null",
-                  "raw": "'ns.productionNS2.productionOther: value is null'"
+                  "raw": "'ns.productionNS2.productionOther: value is null'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -741,14 +773,18 @@
                   "start": 5564,
                   "end": 5568,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5570,
                   "end": 5619,
                   "value": "ns.productionNS2.productionOther: is enumerable",
-                  "raw": "'ns.productionNS2.productionOther: is enumerable'"
+                  "raw": "'ns.productionNS2.productionOther: is enumerable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -806,14 +842,18 @@
                   "start": 5658,
                   "end": 5662,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5664,
                   "end": 5711,
                   "value": "ns.productionNS2.productionOther: is writable",
-                  "raw": "'ns.productionNS2.productionOther: is writable'"
+                  "raw": "'ns.productionNS2.productionOther: is writable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -871,14 +911,18 @@
                   "start": 5754,
                   "end": 5759,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5761,
                   "end": 5816,
                   "value": "ns.productionNS2.productionOther: is non-configurable",
-                  "raw": "'ns.productionNS2.productionOther: is non-configurable'"
+                  "raw": "'ns.productionNS2.productionOther: is non-configurable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -947,7 +991,9 @@
                     "start": 5881,
                     "end": 5890,
                     "value": "default",
-                    "raw": "'default'"
+                    "raw": "'default'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1006,14 +1052,18 @@
                   "start": 5927,
                   "end": 5929,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 5931,
                   "end": 5969,
                   "value": "ns.productionNS2.default value is 42",
-                  "raw": "'ns.productionNS2.default value is 42'"
+                  "raw": "'ns.productionNS2.default value is 42'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1071,14 +1121,18 @@
                   "start": 6010,
                   "end": 6014,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 6016,
                   "end": 6056,
                   "value": "ns.productionNS2.default is enumerable",
-                  "raw": "'ns.productionNS2.default is enumerable'"
+                  "raw": "'ns.productionNS2.default is enumerable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1136,14 +1190,18 @@
                   "start": 6095,
                   "end": 6099,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 6101,
                   "end": 6139,
                   "value": "ns.productionNS2.default is writable",
-                  "raw": "'ns.productionNS2.default is writable'"
+                  "raw": "'ns.productionNS2.default is writable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1201,14 +1259,18 @@
                   "start": 6182,
                   "end": 6187,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 6189,
                   "end": 6235,
                   "value": "ns.productionNS2.default is non-configurable",
-                  "raw": "'ns.productionNS2.default is non-configurable'"
+                  "raw": "'ns.productionNS2.default is non-configurable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

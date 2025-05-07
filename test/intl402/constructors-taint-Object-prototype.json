@@ -28,21 +28,27 @@
                 "start": 348,
                 "end": 356,
                 "value": "locale",
-                "raw": "\"locale\""
+                "raw": "\"locale\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 369,
                 "value": "extension",
-                "raw": "\"extension\""
+                "raw": "\"extension\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 387,
                 "value": "extensionIndex",
-                "raw": "\"extensionIndex\""
+                "raw": "\"extensionIndex\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -153,7 +159,9 @@
                                         "start": 502,
                                         "end": 510,
                                         "value": "lookup",
-                                        "raw": "\"lookup\""
+                                        "raw": "\"lookup\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -234,7 +242,9 @@
                             "start": 603,
                             "end": 640,
                             "value": "Constructor returns invalid locale ",
-                            "raw": "\"Constructor returns invalid locale \""
+                            "raw": "\"Constructor returns invalid locale \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -250,7 +260,9 @@
                           "start": 652,
                           "end": 655,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

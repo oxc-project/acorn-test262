@@ -159,7 +159,9 @@
                       "start": 1075,
                       "end": 1077,
                       "value": 23,
-                      "raw": "23"
+                      "raw": "23",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -239,7 +241,9 @@
                       "start": 1126,
                       "end": 1128,
                       "value": 23,
-                      "raw": "23"
+                      "raw": "23",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -267,7 +271,9 @@
                               "start": 1142,
                               "end": 1200,
                               "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "raw": "'The promise should be fulfilled with the provided value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -338,7 +344,9 @@
                         "start": 1255,
                         "end": 1292,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 23,
         "raw": "'./types'",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -643,7 +645,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 23,
         "raw": "'./types'",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -670,7 +674,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 33,
         "raw": "'@raymondfeng/pkg1'",
-        "value": "@raymondfeng/pkg1"
+        "value": "@raymondfeng/pkg1",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -697,7 +703,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "'./keys'",
-        "value": "./keys"
+        "value": "./keys",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -723,7 +731,9 @@ __ESTREE_TEST__:PASS:
         "start": 31,
         "end": 50,
         "raw": "\"@raymondfeng/pkg2\"",
-        "value": "@raymondfeng/pkg2"
+        "value": "@raymondfeng/pkg2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -786,7 +796,9 @@ __ESTREE_TEST__:PASS:
                   "start": 107,
                   "end": 110,
                   "raw": "'1'",
-                  "value": "1"
+                  "value": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

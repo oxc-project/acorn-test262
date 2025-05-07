@@ -430,7 +430,9 @@
             "start": 1296,
             "end": 1305,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -502,7 +504,9 @@
             "start": 1340,
             "end": 1349,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,7 +645,9 @@
             "start": 1427,
             "end": 1464,
             "value": "invalid access of c1 private method",
-            "raw": "'invalid access of c1 private method'"
+            "raw": "'invalid access of c1 private method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -780,7 +786,9 @@
             "start": 1542,
             "end": 1579,
             "value": "invalid access of c2 private method",
-            "raw": "'invalid access of c2 private method'"
+            "raw": "'invalid access of c2 private method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 285,
             "end": 290,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +129,9 @@
             "start": 377,
             "end": 383,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -189,7 +193,9 @@
                                 "start": 421,
                                 "end": 441,
                                 "value": "[object Arguments]",
-                                "raw": "'[object Arguments]'"
+                                "raw": "'[object Arguments]'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "===",
                               "right": {
@@ -288,7 +294,9 @@
                   "start": 519,
                   "end": 523,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -382,7 +390,9 @@
             "start": 585,
             "end": 602,
             "value": "result !== true",
-            "raw": "'result !== true'"
+            "raw": "'result !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -432,7 +442,9 @@
                 "start": 634,
                 "end": 640,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -442,7 +454,9 @@
             "start": 643,
             "end": 683,
             "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

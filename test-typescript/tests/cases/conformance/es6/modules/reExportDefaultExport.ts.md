@@ -96,7 +96,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 22,
         "raw": "\"./m1\"",
-        "value": "./m1"
+        "value": "./m1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -126,7 +128,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 46,
         "raw": "\"./m1\"",
-        "value": "./m1"
+        "value": "./m1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -61,14 +61,18 @@
             "start": 543,
             "end": 544,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 584,
             "value": "The value of `new Set().size` is `0`",
-            "raw": "\"The value of `new Set().size` is `0`\""
+            "raw": "\"The value of `new Set().size` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -139,14 +143,18 @@
             "start": 629,
             "end": 630,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 679,
             "value": "The value of `new Set(undefined).size` is `0`",
-            "raw": "\"The value of `new Set(undefined).size` is `0`\""
+            "raw": "\"The value of `new Set(undefined).size` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +208,9 @@
                   "start": 707,
                   "end": 711,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -218,14 +228,18 @@
             "start": 719,
             "end": 720,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 722,
             "end": 764,
             "value": "The value of `new Set(null).size` is `0`",
-            "raw": "\"The value of `new Set(null).size` is `0`\""
+            "raw": "\"The value of `new Set(null).size` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

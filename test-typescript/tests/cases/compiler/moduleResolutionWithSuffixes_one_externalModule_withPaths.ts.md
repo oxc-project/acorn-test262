@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -58,7 +60,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 39,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -209,7 +213,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -252,7 +258,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 39,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -404,7 +412,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 34,
         "raw": "\"some-library\"",
-        "value": "some-library"
+        "value": "some-library",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -444,7 +454,9 @@ __ESTREE_TEST__:PASS:
         "start": 64,
         "end": 84,
         "raw": "\"some-library/index\"",
-        "value": "some-library/index"
+        "value": "some-library/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -484,7 +496,9 @@ __ESTREE_TEST__:PASS:
         "start": 114,
         "end": 137,
         "raw": "\"some-library/index.js\"",
-        "value": "some-library/index.js"
+        "value": "some-library/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -25,7 +25,9 @@
                 "start": 260,
                 "end": 271,
                 "value": "exception",
-                "raw": "\"exception\""
+                "raw": "\"exception\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -33,7 +35,9 @@
                 "start": 272,
                 "end": 277,
                 "value": " #1",
-                "raw": "\" #1\""
+                "raw": "\" #1\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -74,7 +78,9 @@
                   "start": 301,
                   "end": 315,
                   "value": "exception #1",
-                  "raw": "\"exception #1\""
+                  "raw": "\"exception #1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -101,7 +107,9 @@
                         "start": 340,
                         "end": 410,
                         "value": "#1: Exception === \"exception #1\"(operaton +). Actual:  Exception ===",
-                        "raw": "'#1: Exception === \"exception #1\"(operaton +). Actual:  Exception ==='"
+                        "raw": "'#1: Exception === \"exception #1\"(operaton +). Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -141,7 +149,9 @@
             "start": 437,
             "end": 448,
             "value": "exception",
-            "raw": "\"exception\""
+            "raw": "\"exception\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -167,7 +177,9 @@
             "start": 455,
             "end": 460,
             "value": " #1",
-            "raw": "\" #1\""
+            "raw": "\" #1\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -242,7 +254,9 @@
                   "start": 502,
                   "end": 516,
                   "value": "exception #1",
-                  "raw": "\"exception #1\""
+                  "raw": "\"exception #1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -269,7 +283,9 @@
                         "start": 541,
                         "end": 611,
                         "value": "#2: Exception === \"exception #1\"(operaton +). Actual:  Exception ===",
-                        "raw": "'#2: Exception === \"exception #1\"(operaton +). Actual:  Exception ==='"
+                        "raw": "'#2: Exception === \"exception #1\"(operaton +). Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

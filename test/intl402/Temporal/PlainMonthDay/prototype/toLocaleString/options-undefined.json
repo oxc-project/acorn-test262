@@ -47,7 +47,9 @@
                 "start": 335,
                 "end": 339,
                 "value": "en",
-                "raw": "'en'"
+                "raw": "'en'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -78,7 +80,9 @@
                     "start": 355,
                     "end": 359,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -200,14 +204,18 @@
                 "start": 464,
                 "end": 465,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 467,
                 "end": 468,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -317,7 +325,9 @@
                 "start": 581,
                 "end": 585,
                 "value": "en",
-                "raw": "'en'"
+                "raw": "'en'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -377,7 +387,9 @@
             "start": 642,
             "end": 695,
             "value": "default locale is determined by Intl.DateTimeFormat",
-            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +439,9 @@
                 "start": 746,
                 "end": 750,
                 "value": "en",
-                "raw": "'en'"
+                "raw": "'en'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -481,7 +495,9 @@
             "start": 796,
             "end": 849,
             "value": "default locale is determined by Intl.DateTimeFormat",
-            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
+            "raw": "\"default locale is determined by Intl.DateTimeFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

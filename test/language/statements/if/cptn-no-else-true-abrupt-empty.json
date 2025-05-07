@@ -47,7 +47,9 @@
                 "start": 614,
                 "end": 669,
                 "value": "1; do { 2; if (true) { 3; break; } 4; } while (false)",
-                "raw": "'1; do { 2; if (true) { 3; break; } 4; } while (false)'"
+                "raw": "'1; do { 2; if (true) { 3; break; } 4; } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 672,
             "end": 673,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -107,7 +111,9 @@
                 "start": 702,
                 "end": 754,
                 "value": "5; do { 6; if (true) { break; } 7; } while (false)",
-                "raw": "'5; do { 6; if (true) { break; } 7; } while (false)'"
+                "raw": "'5; do { 6; if (true) { break; } 7; } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -166,7 +172,9 @@
                 "start": 796,
                 "end": 856,
                 "value": "8; do { 9; if (true) { 10; continue; } 11; } while (false)",
-                "raw": "'8; do { 9; if (true) { 10; continue; } 11; } while (false)'"
+                "raw": "'8; do { 9; if (true) { 10; continue; } 11; } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -176,7 +184,9 @@
             "start": 859,
             "end": 861,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +236,9 @@
                 "start": 890,
                 "end": 948,
                 "value": "12; do { 13; if (true) { continue; } 14; } while (false)",
-                "raw": "'12; do { 13; if (true) { continue; } 14; } while (false)'"
+                "raw": "'12; do { 13; if (true) { continue; } 14; } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

@@ -34,35 +34,45 @@
                 "start": 460,
                 "end": 464,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 468,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 470,
                 "end": 472,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 476,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 478,
                 "end": 480,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -142,14 +152,18 @@
             "start": 540,
             "end": 548,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 628,
             "value": "The value of `typeof x11.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x11.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x11.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -186,35 +200,45 @@
                 "start": 652,
                 "end": 656,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 658,
                 "end": 660,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 662,
                 "end": 664,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 666,
                 "end": 668,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 670,
                 "end": 672,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -288,7 +312,9 @@
             "start": 717,
             "end": 769,
             "value": "Date.prototype.isPrototypeOf(x12) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x12) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x12) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,35 +351,45 @@
                 "start": 792,
                 "end": 796,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 798,
                 "end": 800,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 802,
                 "end": 804,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 806,
                 "end": 808,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 810,
                 "end": 812,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -445,7 +481,9 @@
             "start": 883,
             "end": 972,
             "value": "The value of Date.prototype is expected to equal the value of x13.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x13.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x13.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,35 +520,45 @@
                 "start": 996,
                 "end": 1000,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1002,
                 "end": 1004,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1006,
                 "end": 1007,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1009,
                 "end": 1010,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1012,
                 "end": 1013,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -590,14 +638,18 @@
             "start": 1073,
             "end": 1081,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1085,
             "end": 1161,
             "value": "The value of `typeof x21.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x21.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x21.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -634,35 +686,45 @@
                 "start": 1185,
                 "end": 1189,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1191,
                 "end": 1193,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1195,
                 "end": 1196,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1198,
                 "end": 1199,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1201,
                 "end": 1202,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -736,7 +798,9 @@
             "start": 1247,
             "end": 1299,
             "value": "Date.prototype.isPrototypeOf(x22) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x22) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x22) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -773,35 +837,45 @@
                 "start": 1322,
                 "end": 1326,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1328,
                 "end": 1330,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1332,
                 "end": 1333,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1335,
                 "end": 1336,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1338,
                 "end": 1339,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -893,7 +967,9 @@
             "start": 1410,
             "end": 1499,
             "value": "The value of Date.prototype is expected to equal the value of x23.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x23.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x23.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -930,35 +1006,45 @@
                 "start": 1523,
                 "end": 1527,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1529,
                 "end": 1530,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1532,
                 "end": 1533,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1535,
                 "end": 1536,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1538,
                 "end": 1539,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1038,14 +1124,18 @@
             "start": 1599,
             "end": 1607,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1611,
             "end": 1687,
             "value": "The value of `typeof x31.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x31.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x31.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1082,35 +1172,45 @@
                 "start": 1711,
                 "end": 1715,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1717,
                 "end": 1718,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1720,
                 "end": 1721,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1723,
                 "end": 1724,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1726,
                 "end": 1727,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1184,7 +1284,9 @@
             "start": 1772,
             "end": 1824,
             "value": "Date.prototype.isPrototypeOf(x32) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x32) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x32) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1221,35 +1323,45 @@
                 "start": 1847,
                 "end": 1851,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1853,
                 "end": 1854,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1856,
                 "end": 1857,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1859,
                 "end": 1860,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1862,
                 "end": 1863,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1341,7 +1453,9 @@
             "start": 1934,
             "end": 2023,
             "value": "The value of Date.prototype is expected to equal the value of x33.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x33.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x33.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1378,35 +1492,45 @@
                 "start": 2047,
                 "end": 2051,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2053,
                 "end": 2055,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2057,
                 "end": 2059,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2061,
                 "end": 2063,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2065,
                 "end": 2067,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1486,14 +1610,18 @@
             "start": 2127,
             "end": 2135,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2139,
             "end": 2215,
             "value": "The value of `typeof x41.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x41.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x41.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1530,35 +1658,45 @@
                 "start": 2239,
                 "end": 2243,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2245,
                 "end": 2247,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2249,
                 "end": 2251,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2253,
                 "end": 2255,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2257,
                 "end": 2259,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1632,7 +1770,9 @@
             "start": 2304,
             "end": 2356,
             "value": "Date.prototype.isPrototypeOf(x42) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x42) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x42) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1669,35 +1809,45 @@
                 "start": 2379,
                 "end": 2383,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2385,
                 "end": 2387,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2389,
                 "end": 2391,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2393,
                 "end": 2395,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2397,
                 "end": 2399,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1789,7 +1939,9 @@
             "start": 2470,
             "end": 2559,
             "value": "The value of Date.prototype is expected to equal the value of x43.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x43.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x43.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1826,35 +1978,45 @@
                 "start": 2583,
                 "end": 2587,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2589,
                 "end": 2591,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2593,
                 "end": 2594,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2596,
                 "end": 2597,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2599,
                 "end": 2600,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1934,14 +2096,18 @@
             "start": 2660,
             "end": 2668,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2672,
             "end": 2748,
             "value": "The value of `typeof x51.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x51.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x51.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1978,35 +2144,45 @@
                 "start": 2772,
                 "end": 2776,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2778,
                 "end": 2780,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2782,
                 "end": 2783,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2785,
                 "end": 2786,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2788,
                 "end": 2789,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2080,7 +2256,9 @@
             "start": 2834,
             "end": 2886,
             "value": "Date.prototype.isPrototypeOf(x52) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x52) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x52) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2117,35 +2295,45 @@
                 "start": 2909,
                 "end": 2913,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2915,
                 "end": 2917,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2919,
                 "end": 2920,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2922,
                 "end": 2923,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2925,
                 "end": 2926,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2237,7 +2425,9 @@
             "start": 2997,
             "end": 3086,
             "value": "The value of Date.prototype is expected to equal the value of x53.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x53.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x53.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2274,35 +2464,45 @@
                 "start": 3110,
                 "end": 3114,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3116,
                 "end": 3117,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3119,
                 "end": 3120,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3122,
                 "end": 3123,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3125,
                 "end": 3126,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2382,14 +2582,18 @@
             "start": 3186,
             "end": 3194,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3198,
             "end": 3274,
             "value": "The value of `typeof x61.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x61.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x61.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2426,35 +2630,45 @@
                 "start": 3298,
                 "end": 3302,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3304,
                 "end": 3305,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3307,
                 "end": 3308,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3310,
                 "end": 3311,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3313,
                 "end": 3314,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2528,7 +2742,9 @@
             "start": 3359,
             "end": 3411,
             "value": "Date.prototype.isPrototypeOf(x62) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x62) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x62) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2565,35 +2781,45 @@
                 "start": 3434,
                 "end": 3438,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3440,
                 "end": 3441,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3443,
                 "end": 3444,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3446,
                 "end": 3447,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3449,
                 "end": 3450,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2685,7 +2911,9 @@
             "start": 3521,
             "end": 3610,
             "value": "The value of Date.prototype is expected to equal the value of x63.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x63.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x63.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2722,35 +2950,45 @@
                 "start": 3634,
                 "end": 3638,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3640,
                 "end": 3642,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3644,
                 "end": 3646,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3648,
                 "end": 3650,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3652,
                 "end": 3654,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2830,14 +3068,18 @@
             "start": 3714,
             "end": 3722,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3726,
             "end": 3802,
             "value": "The value of `typeof x71.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x71.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x71.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2874,35 +3116,45 @@
                 "start": 3826,
                 "end": 3830,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3832,
                 "end": 3834,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3836,
                 "end": 3838,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3840,
                 "end": 3842,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3844,
                 "end": 3846,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2976,7 +3228,9 @@
             "start": 3891,
             "end": 3943,
             "value": "Date.prototype.isPrototypeOf(x72) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x72) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x72) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3013,35 +3267,45 @@
                 "start": 3966,
                 "end": 3970,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3972,
                 "end": 3974,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3976,
                 "end": 3978,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3980,
                 "end": 3982,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3984,
                 "end": 3986,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3133,7 +3397,9 @@
             "start": 4057,
             "end": 4146,
             "value": "The value of Date.prototype is expected to equal the value of x73.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x73.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x73.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3170,35 +3436,45 @@
                 "start": 4170,
                 "end": 4174,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4176,
                 "end": 4178,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4180,
                 "end": 4181,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4183,
                 "end": 4184,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4186,
                 "end": 4187,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3278,14 +3554,18 @@
             "start": 4247,
             "end": 4255,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4259,
             "end": 4335,
             "value": "The value of `typeof x81.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x81.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x81.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3322,35 +3602,45 @@
                 "start": 4359,
                 "end": 4363,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4365,
                 "end": 4367,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4369,
                 "end": 4370,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4372,
                 "end": 4373,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4375,
                 "end": 4376,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3424,7 +3714,9 @@
             "start": 4421,
             "end": 4473,
             "value": "Date.prototype.isPrototypeOf(x82) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x82) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x82) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3461,35 +3753,45 @@
                 "start": 4496,
                 "end": 4500,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4502,
                 "end": 4504,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4506,
                 "end": 4507,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4509,
                 "end": 4510,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4512,
                 "end": 4513,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3581,7 +3883,9 @@
             "start": 4584,
             "end": 4673,
             "value": "The value of Date.prototype is expected to equal the value of x83.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x83.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x83.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3618,35 +3922,45 @@
                 "start": 4697,
                 "end": 4701,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4703,
                 "end": 4704,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4706,
                 "end": 4707,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4709,
                 "end": 4710,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4712,
                 "end": 4713,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3726,14 +4040,18 @@
             "start": 4773,
             "end": 4781,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4785,
             "end": 4861,
             "value": "The value of `typeof x91.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x91.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x91.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3770,35 +4088,45 @@
                 "start": 4885,
                 "end": 4889,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4891,
                 "end": 4892,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4894,
                 "end": 4895,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4897,
                 "end": 4898,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4900,
                 "end": 4901,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3872,7 +4200,9 @@
             "start": 4946,
             "end": 4998,
             "value": "Date.prototype.isPrototypeOf(x92) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x92) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x92) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3909,35 +4239,45 @@
                 "start": 5021,
                 "end": 5025,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5027,
                 "end": 5028,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5030,
                 "end": 5031,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5033,
                 "end": 5034,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5036,
                 "end": 5037,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4029,7 +4369,9 @@
             "start": 5108,
             "end": 5197,
             "value": "The value of Date.prototype is expected to equal the value of x93.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x93.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x93.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4066,35 +4408,45 @@
                 "start": 5222,
                 "end": 5226,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5228,
                 "end": 5230,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5232,
                 "end": 5234,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5236,
                 "end": 5238,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5240,
                 "end": 5242,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4174,14 +4526,18 @@
             "start": 5303,
             "end": 5311,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5315,
             "end": 5392,
             "value": "The value of `typeof x101.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x101.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x101.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4218,35 +4574,45 @@
                 "start": 5417,
                 "end": 5421,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5423,
                 "end": 5425,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5427,
                 "end": 5429,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5431,
                 "end": 5433,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5435,
                 "end": 5437,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4320,7 +4686,9 @@
             "start": 5483,
             "end": 5536,
             "value": "Date.prototype.isPrototypeOf(x102) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x102) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x102) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4357,35 +4725,45 @@
                 "start": 5560,
                 "end": 5564,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5566,
                 "end": 5568,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5570,
                 "end": 5572,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5574,
                 "end": 5576,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5578,
                 "end": 5580,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4477,7 +4855,9 @@
             "start": 5652,
             "end": 5742,
             "value": "The value of Date.prototype is expected to equal the value of x103.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x103.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x103.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4514,35 +4894,45 @@
                 "start": 5767,
                 "end": 5771,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5773,
                 "end": 5775,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5777,
                 "end": 5778,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5780,
                 "end": 5781,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5783,
                 "end": 5784,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4622,14 +5012,18 @@
             "start": 5845,
             "end": 5853,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5857,
             "end": 5934,
             "value": "The value of `typeof x111.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x111.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x111.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4666,35 +5060,45 @@
                 "start": 5959,
                 "end": 5963,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5965,
                 "end": 5967,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5969,
                 "end": 5970,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5972,
                 "end": 5973,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5975,
                 "end": 5976,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4768,7 +5172,9 @@
             "start": 6022,
             "end": 6075,
             "value": "Date.prototype.isPrototypeOf(x112) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x112) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x112) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4805,35 +5211,45 @@
                 "start": 6099,
                 "end": 6103,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6105,
                 "end": 6107,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6109,
                 "end": 6110,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6112,
                 "end": 6113,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6115,
                 "end": 6116,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4925,7 +5341,9 @@
             "start": 6188,
             "end": 6278,
             "value": "The value of Date.prototype is expected to equal the value of x113.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x113.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x113.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4962,35 +5380,45 @@
                 "start": 6303,
                 "end": 6307,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6309,
                 "end": 6310,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6312,
                 "end": 6313,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6315,
                 "end": 6316,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6318,
                 "end": 6319,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -5070,14 +5498,18 @@
             "start": 6380,
             "end": 6388,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6392,
             "end": 6469,
             "value": "The value of `typeof x121.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x121.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x121.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5114,35 +5546,45 @@
                 "start": 6494,
                 "end": 6498,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6500,
                 "end": 6501,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6503,
                 "end": 6504,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6506,
                 "end": 6507,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6509,
                 "end": 6510,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -5216,7 +5658,9 @@
             "start": 6556,
             "end": 6609,
             "value": "Date.prototype.isPrototypeOf(x122) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x122) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x122) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5253,35 +5697,45 @@
                 "start": 6633,
                 "end": 6637,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6639,
                 "end": 6640,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6642,
                 "end": 6643,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6645,
                 "end": 6646,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6648,
                 "end": 6649,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -5373,7 +5827,9 @@
             "start": 6721,
             "end": 6811,
             "value": "The value of Date.prototype is expected to equal the value of x123.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x123.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x123.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

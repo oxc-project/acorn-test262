@@ -70,7 +70,9 @@
                               "start": 385,
                               "end": 386,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -86,14 +88,18 @@
                               "start": 392,
                               "end": 393,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "Literal",
                               "start": 395,
                               "end": 396,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

@@ -71,7 +71,9 @@ __ESTREE_TEST__:PASS:
                           "start": 101,
                           "end": 112,
                           "raw": "\"arguments\"",
-                          "value": "arguments"
+                          "value": "arguments",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {

@@ -59,7 +59,9 @@
                           "start": 425,
                           "end": 437,
                           "value": "intostring",
-                          "raw": "\"intostring\""
+                          "raw": "\"intostring\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -129,7 +131,9 @@
                           "start": 495,
                           "end": 507,
                           "value": "infirstarg",
-                          "raw": "\"infirstarg\""
+                          "raw": "\"infirstarg\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -310,7 +314,9 @@
                   "start": 744,
                   "end": 835,
                   "value": "#1: \"String.prototype.concat.call(__instance,__obj, notexist)\" lead to throwing exception",
-                  "raw": "'#1: \"String.prototype.concat.call(__instance,__obj, notexist)\" lead to throwing exception'"
+                  "raw": "'#1: \"String.prototype.concat.call(__instance,__obj, notexist)\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -352,7 +358,9 @@
                   "start": 864,
                   "end": 876,
                   "value": "intostring",
-                  "raw": "\"intostring\""
+                  "raw": "\"intostring\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -384,7 +392,9 @@
                             "start": 907,
                             "end": 941,
                             "value": "#1: e === \"intostring\". Actual: ",
-                            "raw": "'#1: e === \"intostring\". Actual: '"
+                            "raw": "'#1: e === \"intostring\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

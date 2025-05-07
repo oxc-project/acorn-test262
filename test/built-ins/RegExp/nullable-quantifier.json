@@ -23,7 +23,9 @@
             "start": 1028,
             "end": 1032,
             "value": "ab",
-            "raw": "\"ab\""
+            "raw": "\"ab\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "(a?b??)*",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -131,7 +134,9 @@
             "start": 1104,
             "end": 1108,
             "value": "ab",
-            "raw": "\"ab\""
+            "raw": "\"ab\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -180,7 +185,9 @@
               "start": 1134,
               "end": 1135,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -196,7 +203,9 @@
             "start": 1148,
             "end": 1197,
             "value": "The regex is expected to match the whole string",
-            "raw": "\"The regex is expected to match the whole string\""
+            "raw": "\"The regex is expected to match the whole string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

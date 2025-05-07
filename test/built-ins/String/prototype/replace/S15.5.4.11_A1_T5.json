@@ -46,7 +46,9 @@
                         "start": 472,
                         "end": 482,
                         "value": "gnulluna",
-                        "raw": "\"gnulluna\""
+                        "raw": "\"gnulluna\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -70,7 +72,9 @@
               "start": 497,
               "end": 501,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "CallExpression",
@@ -94,7 +98,9 @@
           "start": 519,
           "end": 534,
           "value": "gundefineduna",
-          "raw": "\"gundefineduna\""
+          "raw": "\"gundefineduna\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -126,7 +132,9 @@
                     "start": 563,
                     "end": 656,
                     "value": "#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: ",
-                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: '"
+                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -164,7 +172,9 @@
                                   "start": 683,
                                   "end": 693,
                                   "value": "gnulluna",
-                                  "raw": "\"gnulluna\""
+                                  "raw": "\"gnulluna\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -188,7 +198,9 @@
                         "start": 708,
                         "end": 712,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",

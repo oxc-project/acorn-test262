@@ -28,7 +28,9 @@
             "start": 623,
             "end": 630,
             "value": "Array",
-            "raw": "'Array'"
+            "raw": "'Array'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -74,7 +76,9 @@
                   "start": 662,
                   "end": 666,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -96,7 +100,9 @@
                   "start": 682,
                   "end": 687,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -118,7 +124,9 @@
                   "start": 705,
                   "end": 709,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

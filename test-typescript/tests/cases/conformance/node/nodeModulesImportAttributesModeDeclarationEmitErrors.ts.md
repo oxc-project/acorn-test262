@@ -107,14 +107,18 @@ __ESTREE_TEST__:PASS:
             "start": 69,
             "end": 86,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 88,
             "end": 96,
             "raw": "\"foobar\"",
-            "value": "foobar"
+            "value": "foobar",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +128,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 61,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -167,14 +173,18 @@ __ESTREE_TEST__:PASS:
             "start": 162,
             "end": 179,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 181,
             "end": 189,
             "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -184,7 +194,9 @@ __ESTREE_TEST__:PASS:
         "start": 149,
         "end": 154,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -227,14 +239,18 @@ __ESTREE_TEST__:PASS:
             "start": 304,
             "end": 321,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 323,
             "end": 332,
             "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -244,7 +260,9 @@ __ESTREE_TEST__:PASS:
         "start": 291,
         "end": 296,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -28,21 +28,27 @@
                 "start": 371,
                 "end": 397,
                 "value": "get options.calendarName",
-                "raw": "\"get options.calendarName\""
+                "raw": "\"get options.calendarName\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 401,
                 "end": 436,
                 "value": "get options.calendarName.toString",
-                "raw": "\"get options.calendarName.toString\""
+                "raw": "\"get options.calendarName.toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 476,
                 "value": "call options.calendarName.toString",
-                "raw": "\"call options.calendarName.toString\""
+                "raw": "\"call options.calendarName.toString\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -119,28 +125,36 @@
                 "start": 541,
                 "end": 545,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 547,
                 "end": 548,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 550,
                 "end": 551,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 553,
                 "end": 562,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -216,7 +230,9 @@
                       "start": 644,
                       "end": 650,
                       "value": "auto",
-                      "raw": "\"auto\""
+                      "raw": "\"auto\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -227,7 +243,9 @@
                 "start": 655,
                 "end": 664,
                 "value": "options",
-                "raw": "\"options\""
+                "raw": "\"options\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -319,7 +337,9 @@
             "start": 734,
             "end": 755,
             "value": "order of operations",
-            "raw": "\"order of operations\""
+            "raw": "\"order of operations\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

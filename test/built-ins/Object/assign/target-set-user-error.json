@@ -67,7 +67,9 @@
             "start": 659,
             "end": 665,
             "value": "attr",
-            "raw": "'attr'"
+            "raw": "'attr'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -241,7 +243,9 @@
                               "start": 806,
                               "end": 807,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

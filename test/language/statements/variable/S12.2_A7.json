@@ -72,7 +72,9 @@
                     "start": 429,
                     "end": 485,
                     "value": "#1: Variable declaration inside \"for\" loop is admitted",
-                    "raw": "'#1: Variable declaration inside \"for\" loop is admitted'"
+                    "raw": "'#1: Variable declaration inside \"for\" loop is admitted'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

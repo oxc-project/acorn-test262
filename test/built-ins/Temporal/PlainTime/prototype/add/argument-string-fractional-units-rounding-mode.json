@@ -104,7 +104,9 @@
                 "start": 420,
                 "end": 432,
                 "value": "PT1.03125H",
-                "raw": "\"PT1.03125H\""
+                "raw": "\"PT1.03125H\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -114,49 +116,63 @@
             "start": 435,
             "end": 436,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 439,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 443,
             "value": 52,
-            "raw": "52"
+            "raw": "52",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 448,
             "value": 500,
-            "raw": "500"
+            "raw": "500",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 451,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 454,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 458,
             "end": 520,
             "value": "positive fractional units rounded with correct rounding mode",
-            "raw": "\"positive fractional units rounded with correct rounding mode\""
+            "raw": "\"positive fractional units rounded with correct rounding mode\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,7 +235,9 @@
                 "start": 568,
                 "end": 581,
                 "value": "-PT1.03125H",
-                "raw": "\"-PT1.03125H\""
+                "raw": "\"-PT1.03125H\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -229,49 +247,63 @@
             "start": 584,
             "end": 586,
             "value": 22,
-            "raw": "22"
+            "raw": "22",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 590,
             "value": 58,
-            "raw": "58"
+            "raw": "58",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 593,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 595,
             "end": 598,
             "value": 500,
-            "raw": "500"
+            "raw": "500",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 600,
             "end": 601,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 604,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 608,
             "end": 670,
             "value": "negative fractional units rounded with correct rounding mode",
-            "raw": "\"negative fractional units rounded with correct rounding mode\""
+            "raw": "\"negative fractional units rounded with correct rounding mode\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

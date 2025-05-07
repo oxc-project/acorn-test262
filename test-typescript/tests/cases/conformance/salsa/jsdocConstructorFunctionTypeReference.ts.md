@@ -70,7 +70,9 @@ __ESTREE_TEST__:PASS:
                       "start": 52,
                       "end": 57,
                       "raw": "\"gim\"",
-                      "value": "gim"
+                      "value": "gim",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -153,7 +155,9 @@ __ESTREE_TEST__:PASS:
           "start": 88,
           "end": 90,
           "raw": "12",
-          "value": 12
+          "value": 12,
+          "regex": null,
+          "bigint": null
         }
       }
     },

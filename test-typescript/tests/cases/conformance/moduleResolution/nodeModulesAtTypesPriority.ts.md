@@ -290,7 +290,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 25,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -320,7 +322,9 @@ __ESTREE_TEST__:PASS:
         "start": 55,
         "end": 62,
         "raw": "\"redux\"",
-        "value": "redux"
+        "value": "redux",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

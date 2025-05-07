@@ -23,7 +23,9 @@
             "start": 312,
             "end": 317,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 371,
                 "end": 372,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -131,7 +135,9 @@
               "start": 416,
               "end": 421,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -169,7 +175,9 @@
                   "start": 442,
                   "end": 443,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -197,7 +205,9 @@
                   "start": 463,
                   "end": 465,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -436,7 +446,9 @@
               "start": 626,
               "end": 627,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -446,14 +458,18 @@
             "start": 630,
             "end": 634,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 647,
             "value": "newArr[5]",
-            "raw": "'newArr[5]'"
+            "raw": "'newArr[5]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

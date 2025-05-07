@@ -60,7 +60,9 @@
                 "start": 484,
                 "end": 529,
                 "value": "2010-11-06T00:00:00-02:30[America/St_Johns]",
-                "raw": "'2010-11-06T00:00:00-02:30[America/St_Johns]'"
+                "raw": "'2010-11-06T00:00:00-02:30[America/St_Johns]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
                 "start": 573,
                 "end": 618,
                 "value": "2010-11-07T23:00:00-03:30[America/St_Johns]",
-                "raw": "'2010-11-07T23:00:00-03:30[America/St_Johns]'"
+                "raw": "'2010-11-07T23:00:00-03:30[America/St_Johns]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +196,9 @@
                 "start": 662,
                 "end": 707,
                 "value": "2010-11-08T23:00:00-03:30[America/St_Johns]",
-                "raw": "'2010-11-08T23:00:00-03:30[America/St_Johns]'"
+                "raw": "'2010-11-08T23:00:00-03:30[America/St_Johns]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -253,7 +259,9 @@
             "start": 745,
             "end": 747,
             "value": 24,
-            "raw": "24"
+            "raw": "24",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -311,7 +319,9 @@
             "start": 784,
             "end": 786,
             "value": 25,
-            "raw": "25"
+            "raw": "25",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +379,9 @@
             "start": 823,
             "end": 825,
             "value": 24,
-            "raw": "24"
+            "raw": "24",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

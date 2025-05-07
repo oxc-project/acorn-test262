@@ -77,7 +77,9 @@ __ESTREE_TEST__:PASS:
                   "start": 209,
                   "end": 215,
                   "raw": "'name'",
-                  "value": "name"
+                  "value": "name",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -126,7 +128,9 @@ __ESTREE_TEST__:PASS:
                         "start": 247,
                         "end": 254,
                         "raw": "'x.png'",
-                        "value": "x.png"
+                        "value": "x.png",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -152,7 +156,9 @@ __ESTREE_TEST__:PASS:
                         "start": 273,
                         "end": 280,
                         "raw": "'y.png'",
-                        "value": "y.png"
+                        "value": "y.png",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -189,7 +195,9 @@ __ESTREE_TEST__:PASS:
             "start": 447,
             "end": 448,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -268,7 +276,9 @@ __ESTREE_TEST__:PASS:
                   "start": 634,
                   "end": 643,
                   "raw": "'uppsala'",
-                  "value": "uppsala"
+                  "value": "uppsala",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -294,7 +304,9 @@ __ESTREE_TEST__:PASS:
                   "start": 650,
                   "end": 651,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -320,7 +332,9 @@ __ESTREE_TEST__:PASS:
                   "start": 661,
                   "end": 665,
                   "raw": "\"ok\"",
-                  "value": "ok"
+                  "value": "ok",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

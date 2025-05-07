@@ -34,7 +34,9 @@
                 "start": 964,
                 "end": 990,
                 "value": "function fn() {}{x: 42};",
-                "raw": "'function fn() {}{x: 42};'"
+                "raw": "'function fn() {}{x: 42};'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,14 +84,18 @@
             "start": 1019,
             "end": 1021,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1023,
             "end": 1078,
             "value": "it does not evaluate to an Object with the property x",
-            "raw": "'it does not evaluate to an Object with the property x'"
+            "raw": "'it does not evaluate to an Object with the property x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

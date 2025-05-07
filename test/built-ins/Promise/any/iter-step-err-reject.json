@@ -228,7 +228,9 @@
                                     "start": 1068,
                                     "end": 1114,
                                     "value": "The `value` property should not be accessed.",
-                                    "raw": "'The `value` property should not be accessed.'"
+                                    "raw": "'The `value` property should not be accessed.'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -472,7 +474,9 @@
                             "start": 1310,
                             "end": 1343,
                             "value": "The promise should be rejected.",
-                            "raw": "'The promise should be rejected.'"
+                            "raw": "'The promise should be rejected.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

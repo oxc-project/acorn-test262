@@ -36,14 +36,18 @@
                     "start": 1378,
                     "end": 1380,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1382,
                     "end": 1384,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -205,7 +209,9 @@
                                   "start": 1529,
                                   "end": 1536,
                                   "value": "hacks",
-                                  "raw": "\"hacks\""
+                                  "raw": "\"hacks\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -268,7 +274,9 @@
                                     "start": 1608,
                                     "end": 1656,
                                     "value": "should not call valueOf if toString is present",
-                                    "raw": "\"should not call valueOf if toString is present\""
+                                    "raw": "\"should not call valueOf if toString is present\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -312,6 +320,7 @@
                 "end": 1688,
                 "value": null,
                 "raw": "42n",
+                "regex": null,
                 "bigint": "42"
               },
               {
@@ -320,6 +329,7 @@
                 "end": 1692,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -361,14 +371,18 @@
                     "start": 1711,
                     "end": 1719,
                     "value": "hacks1",
-                    "raw": "\"hacks1\""
+                    "raw": "\"hacks1\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1721,
                     "end": 1729,
                     "value": "hacks2",
-                    "raw": "\"hacks2\""
+                    "raw": "\"hacks2\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -489,7 +503,9 @@
                       "start": 1839,
                       "end": 1840,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -558,7 +574,9 @@
                         "start": 1896,
                         "end": 1920,
                         "value": "returns expected value",
-                        "raw": "\"returns expected value\""
+                        "raw": "\"returns expected value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -603,14 +621,18 @@
                         "start": 1949,
                         "end": 1950,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1952,
                         "end": 1988,
                         "value": "toString called once for each item",
-                        "raw": "\"toString called once for each item\""
+                        "raw": "\"toString called once for each item\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

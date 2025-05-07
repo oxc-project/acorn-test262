@@ -77,7 +77,9 @@
                         "start": 294,
                         "end": 310,
                         "value": "JeanPaulSartre",
-                        "raw": "'JeanPaulSartre'"
+                        "raw": "'JeanPaulSartre'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -97,7 +99,9 @@
             "start": 320,
             "end": 341,
             "value": "inexisting property",
-            "raw": "\"inexisting property\""
+            "raw": "\"inexisting property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -177,7 +181,9 @@
                         "start": 402,
                         "end": 418,
                         "value": "hasOwnProperty",
-                        "raw": "'hasOwnProperty'"
+                        "raw": "'hasOwnProperty'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -197,7 +203,9 @@
             "start": 428,
             "end": 453,
             "value": "inexisting own property",
-            "raw": "\"inexisting own property\""
+            "raw": "\"inexisting own property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

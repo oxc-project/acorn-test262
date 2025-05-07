@@ -47,21 +47,27 @@
                 "start": 740,
                 "end": 745,
                 "value": 256,
-                "raw": "0x100"
+                "raw": "0x100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 747,
                 "end": 752,
                 "value": 512,
-                "raw": "0x200"
+                "raw": "0x200",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 754,
                 "end": 759,
                 "value": 768,
-                "raw": "0x300"
+                "raw": "0x300",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -142,7 +148,9 @@
             "start": 819,
             "end": 857,
             "value": "characters are correctly not escaped",
-            "raw": "'characters are correctly not escaped'"
+            "raw": "'characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -205,7 +213,9 @@
                 "start": 892,
                 "end": 896,
                 "value": "你好",
-                "raw": "'你好'"
+                "raw": "'你好'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -215,14 +225,18 @@
             "start": 899,
             "end": 903,
             "value": "你好",
-            "raw": "'你好'"
+            "raw": "'你好'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 905,
             "end": 951,
             "value": "Chinese characters are correctly not escaped",
-            "raw": "'Chinese characters are correctly not escaped'"
+            "raw": "'Chinese characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,7 +299,9 @@
                 "start": 985,
                 "end": 992,
                 "value": "こんにちは",
-                "raw": "'こんにちは'"
+                "raw": "'こんにちは'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -295,14 +311,18 @@
             "start": 995,
             "end": 1002,
             "value": "こんにちは",
-            "raw": "'こんにちは'"
+            "raw": "'こんにちは'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1004,
             "end": 1051,
             "value": "Japanese characters are correctly not escaped",
-            "raw": "'Japanese characters are correctly not escaped'"
+            "raw": "'Japanese characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -365,7 +385,9 @@
                 "start": 1085,
                 "end": 1092,
                 "value": "안녕하세요",
-                "raw": "'안녕하세요'"
+                "raw": "'안녕하세요'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -375,14 +397,18 @@
             "start": 1095,
             "end": 1102,
             "value": "안녕하세요",
-            "raw": "'안녕하세요'"
+            "raw": "'안녕하세요'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1104,
             "end": 1149,
             "value": "Korean characters are correctly not escaped",
-            "raw": "'Korean characters are correctly not escaped'"
+            "raw": "'Korean characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -445,7 +471,9 @@
                 "start": 1183,
                 "end": 1191,
                 "value": "Привет",
-                "raw": "'Привет'"
+                "raw": "'Привет'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -455,14 +483,18 @@
             "start": 1194,
             "end": 1202,
             "value": "Привет",
-            "raw": "'Привет'"
+            "raw": "'Привет'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1204,
             "end": 1251,
             "value": "Cyrillic characters are correctly not escaped",
-            "raw": "'Cyrillic characters are correctly not escaped'"
+            "raw": "'Cyrillic characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -525,7 +557,9 @@
                 "start": 1285,
                 "end": 1292,
                 "value": "مرحبا",
-                "raw": "'مرحبا'"
+                "raw": "'مرحبا'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -535,14 +569,18 @@
             "start": 1295,
             "end": 1302,
             "value": "مرحبا",
-            "raw": "'مرحبا'"
+            "raw": "'مرحبا'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1304,
             "end": 1349,
             "value": "Arabic characters are correctly not escaped",
-            "raw": "'Arabic characters are correctly not escaped'"
+            "raw": "'Arabic characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -605,7 +643,9 @@
                 "start": 1383,
                 "end": 1389,
                 "value": "हेलो",
-                "raw": "'हेलो'"
+                "raw": "'हेलो'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -615,14 +655,18 @@
             "start": 1392,
             "end": 1398,
             "value": "हेलो",
-            "raw": "'हेलो'"
+            "raw": "'हेलो'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1400,
             "end": 1449,
             "value": "Devanagari characters are correctly not escaped",
-            "raw": "'Devanagari characters are correctly not escaped'"
+            "raw": "'Devanagari characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -685,7 +729,9 @@
                 "start": 1483,
                 "end": 1493,
                 "value": "Γειά σου",
-                "raw": "'Γειά σου'"
+                "raw": "'Γειά σου'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -695,14 +741,18 @@
             "start": 1496,
             "end": 1510,
             "value": "Γειά\\x20σου",
-            "raw": "'Γειά\\\\x20σου'"
+            "raw": "'Γειά\\\\x20σου'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1512,
             "end": 1556,
             "value": "Greek characters are correctly not escaped",
-            "raw": "'Greek characters are correctly not escaped'"
+            "raw": "'Greek characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -765,7 +815,9 @@
                 "start": 1590,
                 "end": 1596,
                 "value": "שלום",
-                "raw": "'שלום'"
+                "raw": "'שלום'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -775,14 +827,18 @@
             "start": 1599,
             "end": 1605,
             "value": "שלום",
-            "raw": "'שלום'"
+            "raw": "'שלום'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1607,
             "end": 1652,
             "value": "Hebrew characters are correctly not escaped",
-            "raw": "'Hebrew characters are correctly not escaped'"
+            "raw": "'Hebrew characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -845,7 +901,9 @@
                 "start": 1686,
                 "end": 1694,
                 "value": "สวัสดี",
-                "raw": "'สวัสดี'"
+                "raw": "'สวัสดี'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -855,14 +913,18 @@
             "start": 1697,
             "end": 1705,
             "value": "สวัสดี",
-            "raw": "'สวัสดี'"
+            "raw": "'สวัสดี'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1707,
             "end": 1750,
             "value": "Thai characters are correctly not escaped",
-            "raw": "'Thai characters are correctly not escaped'"
+            "raw": "'Thai characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -925,7 +987,9 @@
                 "start": 1784,
                 "end": 1792,
                 "value": "नमस्ते",
-                "raw": "'नमस्ते'"
+                "raw": "'नमस्ते'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -935,14 +999,18 @@
             "start": 1795,
             "end": 1803,
             "value": "नमस्ते",
-            "raw": "'नमस्ते'"
+            "raw": "'नमस्ते'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1805,
             "end": 1849,
             "value": "Hindi characters are correctly not escaped",
-            "raw": "'Hindi characters are correctly not escaped'"
+            "raw": "'Hindi characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1005,7 +1073,9 @@
                 "start": 1883,
                 "end": 1888,
                 "value": "ሰላም",
-                "raw": "'ሰላም'"
+                "raw": "'ሰላም'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1015,14 +1085,18 @@
             "start": 1891,
             "end": 1896,
             "value": "ሰላም",
-            "raw": "'ሰላም'"
+            "raw": "'ሰላም'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1898,
             "end": 1944,
             "value": "Amharic characters are correctly not escaped",
-            "raw": "'Amharic characters are correctly not escaped'"
+            "raw": "'Amharic characters are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1085,7 +1159,9 @@
                 "start": 1978,
                 "end": 1984,
                 "value": "हैलो",
-                "raw": "'हैलो'"
+                "raw": "'हैलो'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1095,14 +1171,18 @@
             "start": 1987,
             "end": 1993,
             "value": "हैलो",
-            "raw": "'हैलो'"
+            "raw": "'हैलो'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1995,
             "end": 2055,
             "value": "Hindi characters with diacritics are correctly not escaped",
-            "raw": "'Hindi characters with diacritics are correctly not escaped'"
+            "raw": "'Hindi characters with diacritics are correctly not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1165,7 +1245,9 @@
                 "start": 2089,
                 "end": 2094,
                 "value": "안녕!",
-                "raw": "'안녕!'"
+                "raw": "'안녕!'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1175,14 +1257,18 @@
             "start": 2097,
             "end": 2106,
             "value": "안녕\\x21",
-            "raw": "'안녕\\\\x21'"
+            "raw": "'안녕\\\\x21'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2108,
             "end": 2170,
             "value": "Korean character with special character is correctly escaped",
-            "raw": "'Korean character with special character is correctly escaped'"
+            "raw": "'Korean character with special character is correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1245,7 +1331,9 @@
                 "start": 2204,
                 "end": 2223,
                 "value": ".hello퟿world",
-                "raw": "'.hello\\uD7FFworld'"
+                "raw": "'.hello\\uD7FFworld'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1255,14 +1343,18 @@
             "start": 2226,
             "end": 2247,
             "value": "\\.hello퟿world",
-            "raw": "'\\\\.hello\\uD7FFworld'"
+            "raw": "'\\\\.hello\\uD7FFworld'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2249,
             "end": 2307,
             "value": "Mixed ASCII and Unicode characters are correctly escaped",
-            "raw": "'Mixed ASCII and Unicode characters are correctly escaped'"
+            "raw": "'Mixed ASCII and Unicode characters are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

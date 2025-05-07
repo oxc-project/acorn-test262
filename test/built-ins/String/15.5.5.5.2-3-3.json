@@ -34,7 +34,9 @@
                 "start": 443,
                 "end": 456,
                 "value": "hello world",
-                "raw": "\"hello world\""
+                "raw": "\"hello world\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -100,7 +102,9 @@
             "start": 496,
             "end": 504,
             "value": "s[NaN]",
-            "raw": "'s[NaN]'"
+            "raw": "'s[NaN]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

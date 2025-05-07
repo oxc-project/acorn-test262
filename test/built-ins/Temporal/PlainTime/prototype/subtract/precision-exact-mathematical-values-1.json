@@ -118,7 +118,9 @@
                         "start": 412,
                         "end": 416,
                         "value": 1000,
-                        "raw": "1000"
+                        "raw": "1000",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -207,7 +209,9 @@
                       "start": 475,
                       "end": 476,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -311,42 +315,54 @@
             "start": 562,
             "end": 564,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 568,
             "value": 47,
-            "raw": "47"
+            "raw": "47",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 572,
             "value": 34,
-            "raw": "34"
+            "raw": "34",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 577,
             "value": 740,
-            "raw": "740"
+            "raw": "740",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 579,
             "end": 582,
             "value": 993,
-            "raw": "993"
+            "raw": "993",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 585,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

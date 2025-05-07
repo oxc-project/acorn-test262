@@ -23,7 +23,9 @@
             "start": 1904,
             "end": 1905,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -138,7 +140,9 @@
                             "start": 1964,
                             "end": 1965,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "FunctionExpression",
@@ -227,7 +231,9 @@
                       "start": 2022,
                       "end": 2029,
                       "value": "cover",
-                      "raw": "'cover'"
+                      "raw": "'cover'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -285,7 +291,9 @@
                       "start": 2067,
                       "end": 2075,
                       "value": "xCover",
-                      "raw": "'xCover'"
+                      "raw": "'xCover'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -322,7 +330,9 @@
                       "start": 2104,
                       "end": 2105,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -389,14 +399,18 @@
             "start": 2144,
             "end": 2145,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2147,
             "end": 2178,
             "value": "function invoked exactly once",
-            "raw": "'function invoked exactly once'"
+            "raw": "'function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

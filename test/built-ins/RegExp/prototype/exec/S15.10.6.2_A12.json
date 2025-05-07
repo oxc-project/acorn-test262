@@ -28,7 +28,8 @@
               "regex": {
                 "pattern": "foo",
                 "flags": ""
-              }
+              },
+              "bigint": null
             }
           },
           "property": {
@@ -46,7 +47,9 @@
             "start": 288,
             "end": 295,
             "value": "xfoox",
-            "raw": "'xfoox'"
+            "raw": "'xfoox'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -95,14 +98,18 @@
                       "start": 321,
                       "end": 333,
                       "value": "(.|\r|\n)*",
-                      "raw": "'(.|\\r|\\n)*'"
+                      "raw": "'(.|\\r|\\n)*'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 334,
                       "end": 336,
                       "value": "",
-                      "raw": "''"
+                      "raw": "''",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -123,7 +130,9 @@
               "start": 345,
               "end": 346,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -171,14 +180,18 @@
             "start": 376,
             "end": 383,
             "value": "xfoox",
-            "raw": "'xfoox'"
+            "raw": "'xfoox'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 385,
             "end": 420,
             "value": "The value of match is not \"xfoox\"",
-            "raw": "'The value of match is not \"xfoox\"'"
+            "raw": "'The value of match is not \"xfoox\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,14 +236,18 @@
             "start": 447,
             "end": 458,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 510,
             "value": "The value of match is expected to be \"undefined\"",
-            "raw": "'The value of match is expected to be \"undefined\"'"
+            "raw": "'The value of match is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -76,7 +76,9 @@
             "start": 666,
             "end": 716,
             "value": "ArrayBuffer.prototype.slice is not a constructor",
-            "raw": "\"ArrayBuffer.prototype.slice is not a constructor\""
+            "raw": "\"ArrayBuffer.prototype.slice is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +115,9 @@
                 "start": 754,
                 "end": 755,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

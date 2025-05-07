@@ -78,14 +78,18 @@
                           "start": 803,
                           "end": 814,
                           "value": "prototype",
-                          "raw": "'prototype'"
+                          "raw": "'prototype'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 818,
                           "end": 820,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -173,7 +177,9 @@
                           "start": 893,
                           "end": 904,
                           "value": "prototype",
-                          "raw": "'prototype'"
+                          "raw": "'prototype'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": null
                       }

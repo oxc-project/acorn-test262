@@ -28,84 +28,108 @@
                 "start": 493,
                 "end": 497,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 502,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 506,
                 "end": 508,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 525,
                 "value": "Conjunction",
-                "raw": "\"Conjunction\""
+                "raw": "\"Conjunction\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 542,
                 "value": "CONJUNCTION",
-                "raw": "\"CONJUNCTION\""
+                "raw": "\"CONJUNCTION\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 561,
                 "value": "conjunction\u0000",
-                "raw": "\"conjunction\\0\""
+                "raw": "\"conjunction\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 565,
                 "end": 578,
                 "value": "Disjunction",
-                "raw": "\"Disjunction\""
+                "raw": "\"Disjunction\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 595,
                 "value": "DISJUNCTION",
-                "raw": "\"DISJUNCTION\""
+                "raw": "\"DISJUNCTION\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 599,
                 "end": 614,
                 "value": "disjunction\u0000",
-                "raw": "\"disjunction\\0\""
+                "raw": "\"disjunction\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 618,
                 "end": 624,
                 "value": "Unit",
-                "raw": "\"Unit\""
+                "raw": "\"Unit\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 628,
                 "end": 634,
                 "value": "UNIT",
-                "raw": "\"UNIT\""
+                "raw": "\"UNIT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 638,
                 "end": 646,
                 "value": "unit\u0000",
-                "raw": "\"unit\\0\""
+                "raw": "\"unit\\0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -248,7 +272,9 @@
                                     "start": 768,
                                     "end": 774,
                                     "value": "type",
-                                    "raw": "\"type\""
+                                    "raw": "\"type\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Identifier",

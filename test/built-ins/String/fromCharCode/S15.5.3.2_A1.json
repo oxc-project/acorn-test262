@@ -43,7 +43,9 @@
           "start": 398,
           "end": 408,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -75,7 +77,9 @@
                     "start": 437,
                     "end": 524,
                     "value": "#1: typeof String.fromCharCode === \"function\". Actual: typeof String.fromCharCode ===",
-                    "raw": "'#1: typeof String.fromCharCode === \"function\". Actual: typeof String.fromCharCode ==='"
+                    "raw": "'#1: typeof String.fromCharCode === \"function\". Actual: typeof String.fromCharCode ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -155,7 +159,9 @@
                 "start": 758,
                 "end": 772,
                 "value": "fromCharCode",
-                "raw": "\"fromCharCode\""
+                "raw": "\"fromCharCode\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,7 +197,9 @@
                     "start": 803,
                     "end": 868,
                     "value": "#2: String.hasOwnProperty(\"fromCharCode\") return true. Actual: ",
-                    "raw": "'#2: String.hasOwnProperty(\"fromCharCode\") return true. Actual: '"
+                    "raw": "'#2: String.hasOwnProperty(\"fromCharCode\") return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -223,7 +231,9 @@
                         "start": 893,
                         "end": 907,
                         "value": "fromCharCode",
-                        "raw": "\"fromCharCode\""
+                        "raw": "\"fromCharCode\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -282,7 +292,9 @@
           "start": 1120,
           "end": 1121,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -314,7 +326,9 @@
                     "start": 1150,
                     "end": 1228,
                     "value": "#3: String.fromCharCode.length === 1. Actual: String.fromCharCode.length ===",
-                    "raw": "'#3: String.fromCharCode.length === 1. Actual: String.fromCharCode.length ==='"
+                    "raw": "'#3: String.fromCharCode.length === 1. Actual: String.fromCharCode.length ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

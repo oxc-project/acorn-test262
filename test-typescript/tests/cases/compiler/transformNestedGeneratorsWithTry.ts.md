@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 92,
         "raw": "'bluebird'",
-        "value": "bluebird"
+        "value": "bluebird",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -479,7 +481,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 25,
         "raw": "\"bluebird\"",
-        "value": "bluebird"
+        "value": "bluebird",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

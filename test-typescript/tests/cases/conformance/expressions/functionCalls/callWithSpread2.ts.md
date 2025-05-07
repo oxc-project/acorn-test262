@@ -857,7 +857,9 @@ __ESTREE_TEST__:PASS:
             "start": 604,
             "end": 607,
             "raw": "\"a\"",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -902,7 +904,9 @@ __ESTREE_TEST__:PASS:
             "start": 621,
             "end": 624,
             "raw": "\"d\"",
-            "value": "d"
+            "value": "d",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -947,7 +951,9 @@ __ESTREE_TEST__:PASS:
             "start": 661,
             "end": 664,
             "raw": "\"g\"",
-            "value": "g"
+            "value": "g",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1106,7 +1112,9 @@ __ESTREE_TEST__:PASS:
             "start": 729,
             "end": 732,
             "raw": "\"b\"",
-            "value": "b"
+            "value": "b",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1151,7 +1159,9 @@ __ESTREE_TEST__:PASS:
             "start": 751,
             "end": 754,
             "raw": "\"c\"",
-            "value": "c"
+            "value": "c",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1196,7 +1206,9 @@ __ESTREE_TEST__:PASS:
             "start": 771,
             "end": 774,
             "raw": "\"e\"",
-            "value": "e"
+            "value": "e",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1241,7 +1253,9 @@ __ESTREE_TEST__:PASS:
             "start": 791,
             "end": 794,
             "raw": "\"f\"",
-            "value": "f"
+            "value": "f",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1400,7 +1414,9 @@ __ESTREE_TEST__:PASS:
             "start": 898,
             "end": 901,
             "raw": "\"g\"",
-            "value": "g"
+            "value": "g",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",

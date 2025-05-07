@@ -58,7 +58,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "\"*.foo\"",
-        "value": "*.foo"
+        "value": "*.foo",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -84,7 +86,9 @@ __ESTREE_TEST__:PASS:
         "start": 36,
         "end": 43,
         "raw": "\"a.foo\"",
-        "value": "a.foo"
+        "value": "a.foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -190,7 +194,9 @@ __ESTREE_TEST__:PASS:
         "start": 60,
         "end": 67,
         "raw": "\"a.foo\"",
-        "value": "a.foo"
+        "value": "a.foo",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -216,7 +222,9 @@ __ESTREE_TEST__:PASS:
         "start": 36,
         "end": 43,
         "raw": "\"b.foo\"",
-        "value": "b.foo"
+        "value": "b.foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

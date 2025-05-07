@@ -47,35 +47,45 @@
                 "start": 311,
                 "end": 315,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 319,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 323,
                 "value": 29,
-                "raw": "29"
+                "raw": "29",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 330,
                 "value": 45,
-                "raw": "45"
+                "raw": "45",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -118,28 +128,36 @@
             "start": 364,
             "end": 376,
             "value": "compatible",
-            "raw": "\"compatible\""
+            "raw": "\"compatible\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 387,
             "value": "earlier",
-            "raw": "\"earlier\""
+            "raw": "\"earlier\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 396,
             "value": "later",
-            "raw": "\"later\""
+            "raw": "\"later\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 406,
             "value": "reject",
-            "raw": "\"reject\""
+            "raw": "\"reject\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -192,7 +210,9 @@
                       "start": 448,
                       "end": 453,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -282,6 +302,7 @@
                   "end": 542,
                   "value": null,
                   "raw": "972783900_000_000_000n",
+                  "regex": null,
                   "bigint": "972783900000000000"
                 },
                 {
@@ -289,7 +310,9 @@
                   "start": 544,
                   "end": 580,
                   "value": "epoch nanoseconds remains constant",
-                  "raw": "\"epoch nanoseconds remains constant\""
+                  "raw": "\"epoch nanoseconds remains constant\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -347,14 +370,18 @@
                   "start": 621,
                   "end": 626,
                   "value": "UTC",
-                  "raw": "\"UTC\""
+                  "raw": "\"UTC\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 628,
                   "end": 650,
                   "value": "time zone is adopted",
-                  "raw": "\"time zone is adopted\""
+                  "raw": "\"time zone is adopted\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -398,28 +425,36 @@
             "start": 686,
             "end": 698,
             "value": "compatible",
-            "raw": "\"compatible\""
+            "raw": "\"compatible\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 700,
             "end": 709,
             "value": "earlier",
-            "raw": "\"earlier\""
+            "raw": "\"earlier\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 718,
             "value": "later",
-            "raw": "\"later\""
+            "raw": "\"later\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 728,
             "value": "reject",
-            "raw": "\"reject\""
+            "raw": "\"reject\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -472,7 +507,9 @@
                       "start": 770,
                       "end": 778,
                       "value": "+03:30",
-                      "raw": "\"+03:30\""
+                      "raw": "\"+03:30\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -562,6 +599,7 @@
                   "end": 867,
                   "value": null,
                   "raw": "972771300_000_000_000n",
+                  "regex": null,
                   "bigint": "972771300000000000"
                 },
                 {
@@ -569,7 +607,9 @@
                   "start": 869,
                   "end": 905,
                   "value": "epoch nanoseconds remains constant",
-                  "raw": "\"epoch nanoseconds remains constant\""
+                  "raw": "\"epoch nanoseconds remains constant\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -627,14 +667,18 @@
                   "start": 946,
                   "end": 954,
                   "value": "+03:30",
-                  "raw": "\"+03:30\""
+                  "raw": "\"+03:30\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 956,
                   "end": 978,
                   "value": "time zone is adopted",
-                  "raw": "\"time zone is adopted\""
+                  "raw": "\"time zone is adopted\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -95,7 +95,9 @@
           "start": 462,
           "end": 468,
           "value": "data",
-          "raw": "\"data\""
+          "raw": "\"data\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -277,7 +279,9 @@
             "start": 621,
             "end": 624,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -344,7 +348,9 @@
                   "start": 674,
                   "end": 678,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -366,7 +372,9 @@
                   "start": 696,
                   "end": 700,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -426,7 +434,9 @@
                 "start": 754,
                 "end": 757,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -474,7 +484,9 @@
             "start": 788,
             "end": 791,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -499,7 +511,9 @@
                   "start": 804,
                   "end": 808,
                   "value": 1001,
-                  "raw": "1001"
+                  "raw": "1001",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -559,7 +573,9 @@
                 "start": 862,
                 "end": 865,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -607,7 +623,9 @@
               "start": 895,
               "end": 900,
               "value": "get",
-              "raw": "\"get\""
+              "raw": "\"get\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -642,7 +660,9 @@
                     "start": 930,
                     "end": 990,
                     "value": "Expected desc1.hasOwnProperty(\"get\") to be true, actually ",
-                    "raw": "'Expected desc1.hasOwnProperty(\"get\") to be true, actually '"
+                    "raw": "'Expected desc1.hasOwnProperty(\"get\") to be true, actually '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -674,7 +694,9 @@
                         "start": 1014,
                         "end": 1019,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -726,7 +748,9 @@
               "start": 1052,
               "end": 1059,
               "value": "value",
-              "raw": "\"value\""
+              "raw": "\"value\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -761,7 +785,9 @@
                     "start": 1089,
                     "end": 1151,
                     "value": "Expected desc2.hasOwnProperty(\"value\") to be true, actually ",
-                    "raw": "'Expected desc2.hasOwnProperty(\"value\") to be true, actually '"
+                    "raw": "'Expected desc2.hasOwnProperty(\"value\") to be true, actually '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -793,7 +819,9 @@
                         "start": 1175,
                         "end": 1182,
                         "value": "value",
-                        "raw": "\"value\""
+                        "raw": "\"value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -846,7 +874,9 @@
           "start": 1214,
           "end": 1225,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -878,7 +908,9 @@
                     "start": 1254,
                     "end": 1309,
                     "value": "Expected typeof desc2.get === \"undefined\" , actually ",
-                    "raw": "'Expected typeof desc2.get === \"undefined\" , actually '"
+                    "raw": "'Expected typeof desc2.get === \"undefined\" , actually '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -955,7 +987,9 @@
           "start": 1359,
           "end": 1370,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -987,7 +1021,9 @@
                     "start": 1399,
                     "end": 1454,
                     "value": "Expected typeof desc2.set === \"undefined\" , actually ",
-                    "raw": "'Expected typeof desc2.set === \"undefined\" , actually '"
+                    "raw": "'Expected typeof desc2.set === \"undefined\" , actually '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1050,14 +1086,18 @@
             "start": 1498,
             "end": 1501,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1503,
             "end": 1507,
             "value": 1001,
-            "raw": "1001"
+            "raw": "1001",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1089,7 +1129,9 @@
             "start": 1534,
             "end": 1537,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1121,7 +1163,9 @@
             "start": 1561,
             "end": 1564,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1146,7 +1190,9 @@
                   "start": 1582,
                   "end": 1586,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1168,7 +1214,9 @@
                   "start": 1604,
                   "end": 1608,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

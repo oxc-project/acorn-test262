@@ -143,7 +143,9 @@
             "start": 684,
             "end": 687,
             "value": "C",
-            "raw": "\"C\""
+            "raw": "\"C\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

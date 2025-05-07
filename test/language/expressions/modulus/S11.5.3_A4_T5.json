@@ -20,7 +20,9 @@
             "start": 413,
             "end": 414,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "operator": "%",
           "right": {
@@ -49,7 +51,9 @@
           "start": 446,
           "end": 447,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -81,7 +85,9 @@
                     "start": 476,
                     "end": 511,
                     "value": "#1: 1 % -Infinity === 1. Actual: ",
-                    "raw": "'#1: 1 % -Infinity === 1. Actual: '"
+                    "raw": "'#1: 1 % -Infinity === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -97,7 +103,9 @@
                         "start": 515,
                         "end": 516,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "%",
                       "right": {
@@ -140,7 +148,9 @@
             "start": 548,
             "end": 549,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "operator": "%",
           "right": {
@@ -169,7 +179,9 @@
           "start": 580,
           "end": 581,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -201,7 +213,9 @@
                     "start": 610,
                     "end": 644,
                     "value": "#2: 1 % Infinity === 1. Actual: ",
-                    "raw": "'#2: 1 % Infinity === 1. Actual: '"
+                    "raw": "'#2: 1 % Infinity === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -217,7 +231,9 @@
                         "start": 648,
                         "end": 649,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "%",
                       "right": {
@@ -259,7 +275,9 @@
               "start": 682,
               "end": 683,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "%",
@@ -295,7 +313,9 @@
             "start": 716,
             "end": 717,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -328,7 +348,9 @@
                     "start": 746,
                     "end": 782,
                     "value": "#3: -1 % Infinity === -1. Actual: ",
-                    "raw": "'#3: -1 % Infinity === -1. Actual: '"
+                    "raw": "'#3: -1 % Infinity === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -350,7 +372,9 @@
                           "start": 787,
                           "end": 788,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "%",
@@ -393,7 +417,9 @@
               "start": 821,
               "end": 822,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "%",
@@ -429,7 +455,9 @@
             "start": 855,
             "end": 856,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -462,7 +490,9 @@
                     "start": 885,
                     "end": 922,
                     "value": "#4: -1 % -Infinity === -1. Actual: ",
-                    "raw": "'#4: -1 % -Infinity === -1. Actual: '"
+                    "raw": "'#4: -1 % -Infinity === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -484,7 +514,9 @@
                           "start": 927,
                           "end": 928,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "%",
@@ -528,7 +560,9 @@
             "start": 961,
             "end": 962,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "operator": "%",
           "right": {
@@ -557,7 +591,9 @@
           "start": 994,
           "end": 995,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -589,7 +625,9 @@
                     "start": 1024,
                     "end": 1060,
                     "value": "#5.1: 0 % Infinity === 0. Actual: ",
-                    "raw": "'#5.1: 0 % Infinity === 0. Actual: '"
+                    "raw": "'#5.1: 0 % Infinity === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -605,7 +643,9 @@
                         "start": 1064,
                         "end": 1065,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "%",
                       "right": {
@@ -644,7 +684,9 @@
                   "start": 1095,
                   "end": 1096,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "/",
                 "right": {
@@ -660,7 +702,9 @@
                       "start": 1100,
                       "end": 1101,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "%",
                     "right": {
@@ -731,7 +775,9 @@
                         "start": 1189,
                         "end": 1229,
                         "value": "#5.2: 0 % Infinity === + 0. Actual: -0",
-                        "raw": "'#5.2: 0 % Infinity === + 0. Actual: -0'"
+                        "raw": "'#5.2: 0 % Infinity === + 0. Actual: -0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -760,7 +806,9 @@
             "start": 1253,
             "end": 1254,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "operator": "%",
           "right": {
@@ -789,7 +837,9 @@
           "start": 1286,
           "end": 1287,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -821,7 +871,9 @@
                     "start": 1316,
                     "end": 1353,
                     "value": "#6.1: 0 % -Infinity === 0. Actual: ",
-                    "raw": "'#6.1: 0 % -Infinity === 0. Actual: '"
+                    "raw": "'#6.1: 0 % -Infinity === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -837,7 +889,9 @@
                         "start": 1357,
                         "end": 1358,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "%",
                       "right": {
@@ -883,7 +937,9 @@
                   "start": 1389,
                   "end": 1390,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "/",
                 "right": {
@@ -899,7 +955,9 @@
                       "start": 1394,
                       "end": 1395,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "%",
                     "right": {
@@ -970,7 +1028,9 @@
                         "start": 1484,
                         "end": 1525,
                         "value": "#6.2: 0 % -Infinity === + 0. Actual: -0",
-                        "raw": "'#6.2: 0 % -Infinity === + 0. Actual: -0'"
+                        "raw": "'#6.2: 0 % -Infinity === + 0. Actual: -0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -1005,7 +1065,9 @@
               "start": 1550,
               "end": 1551,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "%",
@@ -1041,7 +1103,9 @@
             "start": 1584,
             "end": 1585,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1074,7 +1138,9 @@
                     "start": 1614,
                     "end": 1651,
                     "value": "#7.1: -0 % Infinity === 0. Actual: ",
-                    "raw": "'#7.1: -0 % Infinity === 0. Actual: '"
+                    "raw": "'#7.1: -0 % Infinity === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1096,7 +1162,9 @@
                           "start": 1656,
                           "end": 1657,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "%",
@@ -1136,7 +1204,9 @@
                   "start": 1687,
                   "end": 1688,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "/",
                 "right": {
@@ -1158,7 +1228,9 @@
                         "start": 1693,
                         "end": 1694,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "%",
@@ -1230,7 +1302,9 @@
                         "start": 1782,
                         "end": 1823,
                         "value": "#7.2: -0 % Infinity === - 0. Actual: +0",
-                        "raw": "'#7.2: -0 % Infinity === - 0. Actual: +0'"
+                        "raw": "'#7.2: -0 % Infinity === - 0. Actual: +0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -1265,7 +1339,9 @@
               "start": 1848,
               "end": 1849,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "%",
@@ -1301,7 +1377,9 @@
             "start": 1883,
             "end": 1884,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1334,7 +1412,9 @@
                     "start": 1913,
                     "end": 1951,
                     "value": "#8.1: -0 % -Infinity === 0. Actual: ",
-                    "raw": "'#8.1: -0 % -Infinity === 0. Actual: '"
+                    "raw": "'#8.1: -0 % -Infinity === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1356,7 +1436,9 @@
                           "start": 1956,
                           "end": 1957,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "%",
@@ -1403,7 +1485,9 @@
                   "start": 1988,
                   "end": 1989,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "/",
                 "right": {
@@ -1425,7 +1509,9 @@
                         "start": 1994,
                         "end": 1995,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "%",
@@ -1497,7 +1583,9 @@
                         "start": 2084,
                         "end": 2126,
                         "value": "#8.2: -0 % -Infinity === - 0. Actual: +0",
-                        "raw": "'#8.2: -0 % -Infinity === - 0. Actual: +0'"
+                        "raw": "'#8.2: -0 % -Infinity === - 0. Actual: +0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -1611,7 +1699,9 @@
                     "start": 2243,
                     "end": 2308,
                     "value": "#9: Number.MAX_VALUE % -Infinity === Number.MAX_VALUE. Actual: ",
-                    "raw": "'#9: Number.MAX_VALUE % -Infinity === Number.MAX_VALUE. Actual: '"
+                    "raw": "'#9: Number.MAX_VALUE % -Infinity === Number.MAX_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1767,7 +1857,9 @@
                     "start": 2455,
                     "end": 2520,
                     "value": "#10: Number.MAX_VALUE % Infinity === Number.MAX_VALUE. Actual: ",
-                    "raw": "'#10: Number.MAX_VALUE % Infinity === Number.MAX_VALUE. Actual: '"
+                    "raw": "'#10: Number.MAX_VALUE % Infinity === Number.MAX_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1930,7 +2022,9 @@
                     "start": 2668,
                     "end": 2735,
                     "value": "#11: -Number.MAX_VALUE % Infinity === -Number.MAX_VALUE. Actual: ",
-                    "raw": "'#11: -Number.MAX_VALUE % Infinity === -Number.MAX_VALUE. Actual: '"
+                    "raw": "'#11: -Number.MAX_VALUE % Infinity === -Number.MAX_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2100,7 +2194,9 @@
                     "start": 2884,
                     "end": 2952,
                     "value": "#12: -Number.MAX_VALUE % -Infinity === -Number.MAX_VALUE. Actual: ",
-                    "raw": "'#12: -Number.MAX_VALUE % -Infinity === -Number.MAX_VALUE. Actual: '"
+                    "raw": "'#12: -Number.MAX_VALUE % -Infinity === -Number.MAX_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2263,7 +2359,9 @@
                     "start": 3100,
                     "end": 3166,
                     "value": "#13: Number.MIN_VALUE % -Infinity === Number.MIN_VALUE. Actual: ",
-                    "raw": "'#13: Number.MIN_VALUE % -Infinity === Number.MIN_VALUE. Actual: '"
+                    "raw": "'#13: Number.MIN_VALUE % -Infinity === Number.MIN_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2419,7 +2517,9 @@
                     "start": 3312,
                     "end": 3377,
                     "value": "#14: Number.MIN_VALUE % Infinity === Number.MIN_VALUE. Actual: ",
-                    "raw": "'#14: Number.MIN_VALUE % Infinity === Number.MIN_VALUE. Actual: '"
+                    "raw": "'#14: Number.MIN_VALUE % Infinity === Number.MIN_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2582,7 +2682,9 @@
                     "start": 3525,
                     "end": 3592,
                     "value": "#15: -Number.MIN_VALUE % Infinity === -Number.MIN_VALUE. Actual: ",
-                    "raw": "'#15: -Number.MIN_VALUE % Infinity === -Number.MIN_VALUE. Actual: '"
+                    "raw": "'#15: -Number.MIN_VALUE % Infinity === -Number.MIN_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2752,7 +2854,9 @@
                     "start": 3741,
                     "end": 3809,
                     "value": "#16: -Number.MIN_VALUE % -Infinity === -Number.MIN_VALUE. Actual: ",
-                    "raw": "'#16: -Number.MIN_VALUE % -Infinity === -Number.MIN_VALUE. Actual: '"
+                    "raw": "'#16: -Number.MIN_VALUE % -Infinity === -Number.MIN_VALUE. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

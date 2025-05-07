@@ -23,7 +23,9 @@
             "start": 772,
             "end": 773,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +129,9 @@
                               "start": 840,
                               "end": 848,
                               "value": "reason",
-                              "raw": "'reason'"
+                              "raw": "'reason'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -240,7 +244,9 @@
                         "start": 909,
                         "end": 947,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -309,14 +315,18 @@
                         "start": 1000,
                         "end": 1001,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1003,
                         "end": 1020,
                         "value": "callCount === 1",
-                        "raw": "\"callCount === 1\""
+                        "raw": "\"callCount === 1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -360,7 +370,9 @@
                         "start": 1067,
                         "end": 1100,
                         "value": "error instanceof AggregateError",
-                        "raw": "\"error instanceof AggregateError\""
+                        "raw": "\"error instanceof AggregateError\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -422,7 +434,9 @@
                           "start": 1137,
                           "end": 1138,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -432,14 +446,18 @@
                         "start": 1141,
                         "end": 1149,
                         "value": "reason",
-                        "raw": "\"reason\""
+                        "raw": "\"reason\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1151,
                         "end": 1181,
                         "value": "error.errors[0] === 'reason'",
-                        "raw": "\"error.errors[0] === 'reason'\""
+                        "raw": "\"error.errors[0] === 'reason'\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

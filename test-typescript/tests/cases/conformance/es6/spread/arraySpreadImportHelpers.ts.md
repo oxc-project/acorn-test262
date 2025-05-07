@@ -44,7 +44,9 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 23,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               null,
               {
@@ -52,7 +54,9 @@ __ESTREE_TEST__:PASS:
                 "start": 27,
                 "end": 28,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -90,7 +94,9 @@ __ESTREE_TEST__:PASS:
                 "start": 42,
                 "end": 43,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "SpreadElement",
@@ -111,7 +117,9 @@ __ESTREE_TEST__:PASS:
                 "start": 51,
                 "end": 52,
                 "raw": "4",
-                "value": 4
+                "value": 4,
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -234,7 +242,9 @@ __ESTREE_TEST__:PASS:
         "start": 97,
         "end": 104,
         "raw": "\"tslib\"",
-        "value": "tslib"
+        "value": "tslib",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

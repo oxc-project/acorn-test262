@@ -102,7 +102,9 @@
                           "start": 470,
                           "end": 478,
                           "value": "aabaac",
-                          "raw": "\"aabaac\""
+                          "raw": "\"aabaac\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -140,7 +142,8 @@
             "regex": {
               "pattern": "(aa|aabaac|ba|b|c)*",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -250,7 +253,9 @@
               "start": 585,
               "end": 589,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -258,7 +263,9 @@
             "start": 593,
             "end": 719,
             "value": "__re.test(\"{toString:function(){return {};}, valueOf:function(){return \"aabaac\";}}) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(\"{toString:function(){return {};}, valueOf:function(){return \"aabaac\";}}) must return __re.exec(__string) !== null'"
+            "raw": "'__re.test(\"{toString:function(){return {};}, valueOf:function(){return \"aabaac\";}}) must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

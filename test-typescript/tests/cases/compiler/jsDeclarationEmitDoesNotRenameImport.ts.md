@@ -124,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 33,
         "raw": "'./test/Test.js'",
-        "value": "./test/Test.js"
+        "value": "./test/Test.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

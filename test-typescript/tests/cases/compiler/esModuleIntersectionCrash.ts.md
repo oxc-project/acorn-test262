@@ -319,7 +319,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 28,
         "raw": "\"./mod\"",
-        "value": "./mod"
+        "value": "./mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

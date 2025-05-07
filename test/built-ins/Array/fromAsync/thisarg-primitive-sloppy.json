@@ -74,21 +74,27 @@
                               "start": 1051,
                               "end": 1052,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1054,
                               "end": 1055,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1057,
                               "end": 1058,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -150,7 +156,9 @@
                                       "start": 1139,
                                       "end": 1220,
                                       "value": "the global should be bound as the this-value of mapfn when thisArg is undefined",
-                                      "raw": "\"the global should be bound as the this-value of mapfn when thisArg is undefined\""
+                                      "raw": "\"the global should be bound as the this-value of mapfn when thisArg is undefined\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -212,21 +220,27 @@
                               "start": 1271,
                               "end": 1272,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1274,
                               "end": 1275,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1277,
                               "end": 1278,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -288,7 +302,9 @@
                                       "start": 1359,
                                       "end": 1435,
                                       "value": "the global should be bound as the this-value of mapfn when thisArg is null",
-                                      "raw": "\"the global should be bound as the this-value of mapfn when thisArg is null\""
+                                      "raw": "\"the global should be bound as the this-value of mapfn when thisArg is null\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -302,7 +318,9 @@
                           "start": 1448,
                           "end": 1452,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -351,21 +369,27 @@
                               "start": 1481,
                               "end": 1482,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1484,
                               "end": 1485,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1487,
                               "end": 1488,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -421,14 +445,18 @@
                                       "start": 1541,
                                       "end": 1549,
                                       "value": "string",
-                                      "raw": "\"string\""
+                                      "raw": "\"string\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1551,
                                       "end": 1614,
                                       "value": "string thisArg should not be bound as the this-value of mapfn",
-                                      "raw": "\"string thisArg should not be bound as the this-value of mapfn\""
+                                      "raw": "\"string thisArg should not be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -479,14 +507,18 @@
                                       "start": 1651,
                                       "end": 1659,
                                       "value": "object",
-                                      "raw": "\"object\""
+                                      "raw": "\"object\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1661,
                                       "end": 1754,
                                       "value": "a String wrapper object should be bound as the this-value of mapfn when thisArg is a string",
-                                      "raw": "\"a String wrapper object should be bound as the this-value of mapfn when thisArg is a string\""
+                                      "raw": "\"a String wrapper object should be bound as the this-value of mapfn when thisArg is a string\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -550,14 +582,18 @@
                                       "start": 1793,
                                       "end": 1801,
                                       "value": "string",
-                                      "raw": "\"string\""
+                                      "raw": "\"string\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1803,
                                       "end": 1874,
                                       "value": "String wrapper object should have the same primitive value as thisArg",
-                                      "raw": "\"String wrapper object should have the same primitive value as thisArg\""
+                                      "raw": "\"String wrapper object should have the same primitive value as thisArg\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -571,7 +607,9 @@
                           "start": 1882,
                           "end": 1890,
                           "value": "string",
-                          "raw": "\"string\""
+                          "raw": "\"string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -620,21 +658,27 @@
                               "start": 1919,
                               "end": 1920,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1922,
                               "end": 1923,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1925,
                               "end": 1926,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -690,14 +734,18 @@
                                       "start": 1979,
                                       "end": 1985,
                                       "value": 3.1416,
-                                      "raw": "3.1416"
+                                      "raw": "3.1416",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1987,
                                       "end": 2050,
                                       "value": "number thisArg should be not bound as the this-value of mapfn",
-                                      "raw": "\"number thisArg should be not bound as the this-value of mapfn\""
+                                      "raw": "\"number thisArg should be not bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -748,14 +796,18 @@
                                       "start": 2087,
                                       "end": 2095,
                                       "value": "object",
-                                      "raw": "\"object\""
+                                      "raw": "\"object\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2097,
                                       "end": 2190,
                                       "value": "a Number wrapper object should be bound as the this-value of mapfn when thisArg is a number",
-                                      "raw": "\"a Number wrapper object should be bound as the this-value of mapfn when thisArg is a number\""
+                                      "raw": "\"a Number wrapper object should be bound as the this-value of mapfn when thisArg is a number\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -819,14 +871,18 @@
                                       "start": 2229,
                                       "end": 2235,
                                       "value": 3.1416,
-                                      "raw": "3.1416"
+                                      "raw": "3.1416",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2237,
                                       "end": 2308,
                                       "value": "Number wrapper object should have the same primitive value as thisArg",
-                                      "raw": "\"Number wrapper object should have the same primitive value as thisArg\""
+                                      "raw": "\"Number wrapper object should have the same primitive value as thisArg\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -840,7 +896,9 @@
                           "start": 2316,
                           "end": 2322,
                           "value": 3.1416,
-                          "raw": "3.1416"
+                          "raw": "3.1416",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -889,21 +947,27 @@
                               "start": 2351,
                               "end": 2352,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2354,
                               "end": 2355,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2357,
                               "end": 2358,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -960,6 +1024,7 @@
                                       "end": 2414,
                                       "value": null,
                                       "raw": "42n",
+                                      "regex": null,
                                       "bigint": "42"
                                     },
                                     {
@@ -967,7 +1032,9 @@
                                       "start": 2416,
                                       "end": 2479,
                                       "value": "bigint thisArg should not be bound as the this-value of mapfn",
-                                      "raw": "\"bigint thisArg should not be bound as the this-value of mapfn\""
+                                      "raw": "\"bigint thisArg should not be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1018,14 +1085,18 @@
                                       "start": 2516,
                                       "end": 2524,
                                       "value": "object",
-                                      "raw": "\"object\""
+                                      "raw": "\"object\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2526,
                                       "end": 2619,
                                       "value": "a BigInt wrapper object should be bound as the this-value of mapfn when thisArg is a bigint",
-                                      "raw": "\"a BigInt wrapper object should be bound as the this-value of mapfn when thisArg is a bigint\""
+                                      "raw": "\"a BigInt wrapper object should be bound as the this-value of mapfn when thisArg is a bigint\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1090,6 +1161,7 @@
                                       "end": 2661,
                                       "value": null,
                                       "raw": "42n",
+                                      "regex": null,
                                       "bigint": "42"
                                     },
                                     {
@@ -1097,7 +1169,9 @@
                                       "start": 2663,
                                       "end": 2734,
                                       "value": "BigInt wrapper object should have the same primitive value as thisArg",
-                                      "raw": "\"BigInt wrapper object should have the same primitive value as thisArg\""
+                                      "raw": "\"BigInt wrapper object should have the same primitive value as thisArg\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1112,6 +1186,7 @@
                           "end": 2745,
                           "value": null,
                           "raw": "42n",
+                          "regex": null,
                           "bigint": "42"
                         }
                       ],
@@ -1161,21 +1236,27 @@
                               "start": 2774,
                               "end": 2775,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2777,
                               "end": 2778,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2780,
                               "end": 2781,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1231,14 +1312,18 @@
                                       "start": 2834,
                                       "end": 2838,
                                       "value": true,
-                                      "raw": "true"
+                                      "raw": "true",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2840,
                                       "end": 2904,
                                       "value": "boolean thisArg should not be bound as the this-value of mapfn",
-                                      "raw": "\"boolean thisArg should not be bound as the this-value of mapfn\""
+                                      "raw": "\"boolean thisArg should not be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1289,14 +1374,18 @@
                                       "start": 2941,
                                       "end": 2949,
                                       "value": "object",
-                                      "raw": "\"object\""
+                                      "raw": "\"object\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2951,
                                       "end": 3046,
                                       "value": "a Boolean wrapper object should be bound as the this-value of mapfn when thisArg is a boolean",
-                                      "raw": "\"a Boolean wrapper object should be bound as the this-value of mapfn when thisArg is a boolean\""
+                                      "raw": "\"a Boolean wrapper object should be bound as the this-value of mapfn when thisArg is a boolean\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1360,14 +1449,18 @@
                                       "start": 3085,
                                       "end": 3089,
                                       "value": true,
-                                      "raw": "true"
+                                      "raw": "true",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 3091,
                                       "end": 3163,
                                       "value": "Boolean wrapper object should have the same primitive value as thisArg",
-                                      "raw": "\"Boolean wrapper object should have the same primitive value as thisArg\""
+                                      "raw": "\"Boolean wrapper object should have the same primitive value as thisArg\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1381,7 +1474,9 @@
                           "start": 3171,
                           "end": 3175,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1419,7 +1514,9 @@
                             "start": 3207,
                             "end": 3215,
                             "value": "symbol",
-                            "raw": "\"symbol\""
+                            "raw": "\"symbol\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1470,21 +1567,27 @@
                               "start": 3243,
                               "end": 3244,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 3246,
                               "end": 3247,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 3249,
                               "end": 3250,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1546,7 +1649,9 @@
                                       "start": 3315,
                                       "end": 3378,
                                       "value": "symbol thisArg should not be bound as the this-value of mapfn",
-                                      "raw": "\"symbol thisArg should not be bound as the this-value of mapfn\""
+                                      "raw": "\"symbol thisArg should not be bound as the this-value of mapfn\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1597,14 +1702,18 @@
                                       "start": 3415,
                                       "end": 3423,
                                       "value": "object",
-                                      "raw": "\"object\""
+                                      "raw": "\"object\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 3425,
                                       "end": 3518,
                                       "value": "a Symbol wrapper object should be bound as the this-value of mapfn when thisArg is a symbol",
-                                      "raw": "\"a Symbol wrapper object should be bound as the this-value of mapfn when thisArg is a symbol\""
+                                      "raw": "\"a Symbol wrapper object should be bound as the this-value of mapfn when thisArg is a symbol\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -1674,7 +1783,9 @@
                                       "start": 3569,
                                       "end": 3640,
                                       "value": "Symbol wrapper object should have the same primitive value as thisArg",
-                                      "raw": "\"Symbol wrapper object should have the same primitive value as thisArg\""
+                                      "raw": "\"Symbol wrapper object should have the same primitive value as thisArg\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

@@ -31,7 +31,9 @@
                 "start": 340,
                 "end": 362,
                 "value": "this.field=\"green\"",
-                "raw": "\"this.field=\\\"green\\\"\""
+                "raw": "\"this.field=\\\"green\\\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -51,7 +53,9 @@
             "start": 370,
             "end": 374,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -99,7 +103,9 @@
               "start": 400,
               "end": 407,
               "value": "field",
-              "raw": "\"field\""
+              "raw": "\"field\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -109,14 +115,18 @@
             "start": 410,
             "end": 417,
             "value": "green",
-            "raw": "\"green\""
+            "raw": "\"green\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 473,
             "value": "The value of this[\"field\"] is expected to be \"green\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"green\"'"
+            "raw": "'The value of this[\"field\"] is expected to be \"green\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

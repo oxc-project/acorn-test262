@@ -48,6 +48,7 @@
                 "end": 304,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 306,
                 "end": 311,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,21 +91,27 @@
                 "start": 341,
                 "end": 369,
                 "value": "-0000000-01-01T00:02Z[UTC]",
-                "raw": "\"-0000000-01-01T00:02Z[UTC]\""
+                "raw": "\"-0000000-01-01T00:02Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 406,
                 "value": "-0000000-01-01T00:02+00:00[UTC]",
-                "raw": "\"-0000000-01-01T00:02+00:00[UTC]\""
+                "raw": "\"-0000000-01-01T00:02+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 456,
                 "value": "-0000000-01-01T00:02:00.000000000+00:00[UTC]",
-                "raw": "\"-0000000-01-01T00:02:00.000000000+00:00[UTC]\""
+                "raw": "\"-0000000-01-01T00:02:00.000000000+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -260,7 +269,9 @@
                         "start": 585,
                         "end": 645,
                         "value": "cannot use negative zero as extended year (first argument)",
-                        "raw": "\"cannot use negative zero as extended year (first argument)\""
+                        "raw": "\"cannot use negative zero as extended year (first argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -367,7 +378,9 @@
                         "start": 740,
                         "end": 801,
                         "value": "cannot use negative zero as extended year (second argument)",
-                        "raw": "\"cannot use negative zero as extended year (second argument)\""
+                        "raw": "\"cannot use negative zero as extended year (second argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

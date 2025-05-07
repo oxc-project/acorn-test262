@@ -65,7 +65,9 @@
                             "start": 1520,
                             "end": 1522,
                             "value": 13,
-                            "raw": "13"
+                            "raw": "13",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -160,7 +162,9 @@
                 "start": 1576,
                 "end": 1587,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -226,7 +230,9 @@
                 "start": 1625,
                 "end": 1636,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -383,7 +389,9 @@
             "start": 1737,
             "end": 1739,
             "value": 13,
-            "raw": "13"
+            "raw": "13",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -428,7 +436,9 @@
             "start": 1770,
             "end": 1781,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -453,7 +463,9 @@
                   "start": 1801,
                   "end": 1806,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -475,7 +487,9 @@
                   "start": 1826,
                   "end": 1830,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

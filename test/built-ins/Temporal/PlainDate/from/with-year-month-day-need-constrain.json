@@ -91,7 +91,9 @@
                       "start": 811,
                       "end": 815,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -113,7 +115,9 @@
                       "start": 824,
                       "end": 825,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -135,7 +139,9 @@
                       "start": 832,
                       "end": 835,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -149,35 +155,45 @@
             "start": 843,
             "end": 847,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 850,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 852,
             "end": 857,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 859,
             "end": 861,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 867,
             "end": 922,
             "value": "year/month/day with day need to be constrained in Jan",
-            "raw": "\"year/month/day with day need to be constrained in Jan\""
+            "raw": "\"year/month/day with day need to be constrained in Jan\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +287,9 @@
                       "start": 994,
                       "end": 998,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -293,7 +311,9 @@
                       "start": 1007,
                       "end": 1008,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -315,7 +335,9 @@
                       "start": 1015,
                       "end": 1018,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -329,35 +351,45 @@
             "start": 1026,
             "end": 1030,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1032,
             "end": 1033,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1035,
             "end": 1040,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1042,
             "end": 1044,
             "value": 28,
-            "raw": "28"
+            "raw": "28",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1105,
             "value": "year/month/day with day need to be constrained in Feb",
-            "raw": "\"year/month/day with day need to be constrained in Feb\""
+            "raw": "\"year/month/day with day need to be constrained in Feb\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,7 +483,9 @@
                       "start": 1177,
                       "end": 1181,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -473,7 +507,9 @@
                       "start": 1190,
                       "end": 1191,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -495,7 +531,9 @@
                       "start": 1198,
                       "end": 1201,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -509,35 +547,45 @@
             "start": 1209,
             "end": 1213,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1215,
             "end": 1216,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1218,
             "end": 1223,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1225,
             "end": 1227,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1233,
             "end": 1290,
             "value": "year/month/day with day need to be constrained in March",
-            "raw": "\"year/month/day with day need to be constrained in March\""
+            "raw": "\"year/month/day with day need to be constrained in March\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -631,7 +679,9 @@
                       "start": 1362,
                       "end": 1366,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -653,7 +703,9 @@
                       "start": 1375,
                       "end": 1376,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -675,7 +727,9 @@
                       "start": 1383,
                       "end": 1386,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -689,35 +743,45 @@
             "start": 1394,
             "end": 1398,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1400,
             "end": 1401,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1403,
             "end": 1408,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1410,
             "end": 1412,
             "value": 30,
-            "raw": "30"
+            "raw": "30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1418,
             "end": 1475,
             "value": "year/month/day with day need to be constrained in April",
-            "raw": "\"year/month/day with day need to be constrained in April\""
+            "raw": "\"year/month/day with day need to be constrained in April\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -811,7 +875,9 @@
                       "start": 1547,
                       "end": 1551,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -833,7 +899,9 @@
                       "start": 1560,
                       "end": 1561,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -855,7 +923,9 @@
                       "start": 1568,
                       "end": 1571,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -869,35 +939,45 @@
             "start": 1579,
             "end": 1583,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1585,
             "end": 1586,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1588,
             "end": 1593,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1595,
             "end": 1597,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1603,
             "end": 1658,
             "value": "year/month/day with day need to be constrained in May",
-            "raw": "\"year/month/day with day need to be constrained in May\""
+            "raw": "\"year/month/day with day need to be constrained in May\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -991,7 +1071,9 @@
                       "start": 1730,
                       "end": 1734,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1013,7 +1095,9 @@
                       "start": 1743,
                       "end": 1744,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1035,7 +1119,9 @@
                       "start": 1751,
                       "end": 1754,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1049,35 +1135,45 @@
             "start": 1762,
             "end": 1766,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1768,
             "end": 1769,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1771,
             "end": 1776,
             "value": "M06",
-            "raw": "\"M06\""
+            "raw": "\"M06\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1778,
             "end": 1780,
             "value": 30,
-            "raw": "30"
+            "raw": "30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1786,
             "end": 1841,
             "value": "year/month/day with day need to be constrained in Jun",
-            "raw": "\"year/month/day with day need to be constrained in Jun\""
+            "raw": "\"year/month/day with day need to be constrained in Jun\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1171,7 +1267,9 @@
                       "start": 1913,
                       "end": 1917,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1193,7 +1291,9 @@
                       "start": 1926,
                       "end": 1927,
                       "value": 7,
-                      "raw": "7"
+                      "raw": "7",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1215,7 +1315,9 @@
                       "start": 1934,
                       "end": 1937,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1229,35 +1331,45 @@
             "start": 1945,
             "end": 1949,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1951,
             "end": 1952,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1954,
             "end": 1959,
             "value": "M07",
-            "raw": "\"M07\""
+            "raw": "\"M07\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1961,
             "end": 1963,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1969,
             "end": 2025,
             "value": "year/month/day with day need to be constrained in July",
-            "raw": "\"year/month/day with day need to be constrained in July\""
+            "raw": "\"year/month/day with day need to be constrained in July\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1351,7 +1463,9 @@
                       "start": 2097,
                       "end": 2101,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1373,7 +1487,9 @@
                       "start": 2110,
                       "end": 2111,
                       "value": 8,
-                      "raw": "8"
+                      "raw": "8",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1395,7 +1511,9 @@
                       "start": 2118,
                       "end": 2121,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1409,35 +1527,45 @@
             "start": 2129,
             "end": 2133,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2135,
             "end": 2136,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2138,
             "end": 2143,
             "value": "M08",
-            "raw": "\"M08\""
+            "raw": "\"M08\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2145,
             "end": 2147,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2153,
             "end": 2208,
             "value": "year/month/day with day need to be constrained in Aug",
-            "raw": "\"year/month/day with day need to be constrained in Aug\""
+            "raw": "\"year/month/day with day need to be constrained in Aug\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1531,7 +1659,9 @@
                       "start": 2280,
                       "end": 2284,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1553,7 +1683,9 @@
                       "start": 2293,
                       "end": 2294,
                       "value": 9,
-                      "raw": "9"
+                      "raw": "9",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1575,7 +1707,9 @@
                       "start": 2301,
                       "end": 2304,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1589,35 +1723,45 @@
             "start": 2312,
             "end": 2316,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2318,
             "end": 2319,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2321,
             "end": 2326,
             "value": "M09",
-            "raw": "\"M09\""
+            "raw": "\"M09\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2328,
             "end": 2330,
             "value": 30,
-            "raw": "30"
+            "raw": "30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2336,
             "end": 2393,
             "value": "year/month/day with day need to be constrained in Sept.",
-            "raw": "\"year/month/day with day need to be constrained in Sept.\""
+            "raw": "\"year/month/day with day need to be constrained in Sept.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1711,7 +1855,9 @@
                       "start": 2465,
                       "end": 2469,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1733,7 +1879,9 @@
                       "start": 2478,
                       "end": 2480,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1755,7 +1903,9 @@
                       "start": 2487,
                       "end": 2490,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1769,35 +1919,45 @@
             "start": 2498,
             "end": 2502,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2504,
             "end": 2506,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2508,
             "end": 2513,
             "value": "M10",
-            "raw": "\"M10\""
+            "raw": "\"M10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2515,
             "end": 2517,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2523,
             "end": 2579,
             "value": "year/month/day with day need to be constrained in Oct.",
-            "raw": "\"year/month/day with day need to be constrained in Oct.\""
+            "raw": "\"year/month/day with day need to be constrained in Oct.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1891,7 +2051,9 @@
                       "start": 2651,
                       "end": 2655,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1913,7 +2075,9 @@
                       "start": 2664,
                       "end": 2666,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1935,7 +2099,9 @@
                       "start": 2673,
                       "end": 2676,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1949,35 +2115,45 @@
             "start": 2684,
             "end": 2688,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2690,
             "end": 2692,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2694,
             "end": 2699,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2701,
             "end": 2703,
             "value": 30,
-            "raw": "30"
+            "raw": "30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2709,
             "end": 2765,
             "value": "year/month/day with day need to be constrained in Nov.",
-            "raw": "\"year/month/day with day need to be constrained in Nov.\""
+            "raw": "\"year/month/day with day need to be constrained in Nov.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2071,7 +2247,9 @@
                       "start": 2837,
                       "end": 2841,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2093,7 +2271,9 @@
                       "start": 2850,
                       "end": 2852,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2115,7 +2295,9 @@
                       "start": 2859,
                       "end": 2862,
                       "value": 133,
-                      "raw": "133"
+                      "raw": "133",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2129,35 +2311,45 @@
             "start": 2870,
             "end": 2874,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2876,
             "end": 2878,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2880,
             "end": 2885,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2887,
             "end": 2889,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2895,
             "end": 2951,
             "value": "year/month/day with day need to be constrained in Dec.",
-            "raw": "\"year/month/day with day need to be constrained in Dec.\""
+            "raw": "\"year/month/day with day need to be constrained in Dec.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2251,7 +2443,9 @@
                       "start": 3023,
                       "end": 3027,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2273,7 +2467,9 @@
                       "start": 3036,
                       "end": 3038,
                       "value": 13,
-                      "raw": "13"
+                      "raw": "13",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2295,7 +2491,9 @@
                       "start": 3045,
                       "end": 3048,
                       "value": 500,
-                      "raw": "500"
+                      "raw": "500",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2309,35 +2507,45 @@
             "start": 3056,
             "end": 3060,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3062,
             "end": 3064,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3066,
             "end": 3071,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3073,
             "end": 3075,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3081,
             "end": 3139,
             "value": "year/month/day with month and day need to be constrained",
-            "raw": "\"year/month/day with month and day need to be constrained\""
+            "raw": "\"year/month/day with month and day need to be constrained\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2431,7 +2639,9 @@
                       "start": 3211,
                       "end": 3215,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2453,7 +2663,9 @@
                       "start": 3224,
                       "end": 3230,
                       "value": 999999,
-                      "raw": "999999"
+                      "raw": "999999",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2475,7 +2687,9 @@
                       "start": 3237,
                       "end": 3240,
                       "value": 500,
-                      "raw": "500"
+                      "raw": "500",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2489,35 +2703,45 @@
             "start": 3248,
             "end": 3252,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3254,
             "end": 3256,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3258,
             "end": 3263,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3265,
             "end": 3267,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3273,
             "end": 3331,
             "value": "year/month/day with month and day need to be constrained",
-            "raw": "\"year/month/day with month and day need to be constrained\""
+            "raw": "\"year/month/day with month and day need to be constrained\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

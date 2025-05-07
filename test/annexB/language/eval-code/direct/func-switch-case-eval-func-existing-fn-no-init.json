@@ -81,7 +81,9 @@
                               "start": 1113,
                               "end": 1136,
                               "value": "init = f;switch (1) {",
-                              "raw": "'init = f;switch (1) {'"
+                              "raw": "'init = f;switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -89,7 +91,9 @@
                               "start": 1143,
                               "end": 1154,
                               "value": "  case 1:",
-                              "raw": "'  case 1:'"
+                              "raw": "'  case 1:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -98,7 +102,9 @@
                             "start": 1161,
                             "end": 1211,
                             "value": "    function f() { return \"inner declaration\"; }",
-                            "raw": "'    function f() { return \"inner declaration\"; }'"
+                            "raw": "'    function f() { return \"inner declaration\"; }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -107,7 +113,9 @@
                           "start": 1218,
                           "end": 1283,
                           "value": "}    function f() {      return \"outer declaration\";    }",
-                          "raw": "'}\\\n    function f() {\\\n      return \"outer declaration\";\\\n    }'"
+                          "raw": "'}\\\n    function f() {\\\n      return \"outer declaration\";\\\n    }'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -168,7 +176,9 @@
             "start": 1321,
             "end": 1340,
             "value": "outer declaration",
-            "raw": "'outer declaration'"
+            "raw": "'outer declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

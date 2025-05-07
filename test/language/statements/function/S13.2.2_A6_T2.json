@@ -23,7 +23,9 @@
             "start": 650,
             "end": 660,
             "value": "fooValue",
-            "raw": "\"fooValue\""
+            "raw": "\"fooValue\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 672,
             "end": 682,
             "value": "barValue",
-            "raw": "\"barValue\""
+            "raw": "\"barValue\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -125,7 +129,9 @@
               "start": 734,
               "end": 738,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -170,7 +176,9 @@
                   "start": 760,
                   "end": 761,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -293,7 +301,9 @@
                     "start": 945,
                     "end": 992,
                     "value": "#1: __obj.foo === __FOO. Actual: __obj.foo===",
-                    "raw": "'#1: __obj.foo === __FOO. Actual: __obj.foo==='"
+                    "raw": "'#1: __obj.foo === __FOO. Actual: __obj.foo==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -387,7 +397,9 @@
                     "start": 1232,
                     "end": 1283,
                     "value": "#2: __obj.bar === undefined. Actual: __obj.bar===",
-                    "raw": "'#2: __obj.bar === undefined. Actual: __obj.bar==='"
+                    "raw": "'#2: __obj.bar === undefined. Actual: __obj.bar==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

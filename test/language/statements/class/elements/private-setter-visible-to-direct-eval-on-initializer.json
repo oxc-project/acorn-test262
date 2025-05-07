@@ -129,7 +129,9 @@
                         "start": 1934,
                         "end": 1948,
                         "value": "this.#m = 53",
-                        "raw": "\"this.#m = 53\""
+                        "raw": "\"this.#m = 53\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -242,7 +244,9 @@
             "start": 2003,
             "end": 2005,
             "value": 53,
-            "raw": "53"
+            "raw": "53",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -134,7 +134,9 @@
             "start": 578,
             "end": 597,
             "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "raw": "\"[object Function]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -145,7 +147,9 @@
               "start": 616,
               "end": 681,
               "value": "The [[Class]] internal property of a built-in function must be ",
-              "raw": "\"The [[Class]] internal property of a built-in function must be \""
+              "raw": "\"The [[Class]] internal property of a built-in function must be \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -153,7 +157,9 @@
               "start": 701,
               "end": 716,
               "value": "\"Function\".",
-              "raw": "\"\\\"Function\\\".\""
+              "raw": "\"\\\"Function\\\".\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -252,7 +258,9 @@
             "start": 799,
             "end": 837,
             "value": "Built-in objects must be extensible.",
-            "raw": "\"Built-in objects must be extensible.\""
+            "raw": "\"Built-in objects must be extensible.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -477,7 +485,9 @@
                 "start": 1022,
                 "end": 1033,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -487,14 +497,18 @@
             "start": 1036,
             "end": 1041,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1060,
             "end": 1141,
             "value": "Built-in functions that aren't constructors must not have a prototype property.",
-            "raw": "\"Built-in functions that aren't constructors must not have a prototype property.\""
+            "raw": "\"Built-in functions that aren't constructors must not have a prototype property.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -592,14 +606,18 @@
             "start": 1221,
             "end": 1226,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1245,
             "end": 1324,
             "value": "Built-in functions don't implement [[Construct]] unless explicitly specified.",
-            "raw": "\"Built-in functions don't implement [[Construct]] unless explicitly specified.\""
+            "raw": "\"Built-in functions don't implement [[Construct]] unless explicitly specified.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

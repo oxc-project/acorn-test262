@@ -143,7 +143,9 @@ __ESTREE_TEST__:PASS:
                     "start": 221,
                     "end": 225,
                     "raw": "3.14",
-                    "value": 3.14
+                    "value": 3.14,
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "MemberExpression",
@@ -354,7 +356,9 @@ __ESTREE_TEST__:PASS:
                 "start": 457,
                 "end": 458,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "operator": "-",
               "prefix": true
@@ -642,7 +646,9 @@ __ESTREE_TEST__:PASS:
                         "start": 664,
                         "end": 666,
                         "raw": "12",
-                        "value": 12
+                        "value": 12,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -781,7 +787,9 @@ __ESTREE_TEST__:PASS:
                               "start": 1073,
                               "end": 1074,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -806,7 +814,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 933,
                                 "end": 972,
                                 "raw": "\"please do not use XML. It was a joke.\"",
-                                "value": "please do not use XML. It was a joke."
+                                "value": "please do not use XML. It was a joke.",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -842,7 +852,9 @@ __ESTREE_TEST__:PASS:
                         "start": 888,
                         "end": 901,
                         "raw": "\"xmlolololol\"",
-                        "value": "xmlolololol"
+                        "value": "xmlolololol",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -1291,7 +1303,9 @@ __ESTREE_TEST__:PASS:
                           "start": 309,
                           "end": 315,
                           "raw": "'nope'",
-                          "value": "nope"
+                          "value": "nope",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1337,7 +1351,9 @@ __ESTREE_TEST__:PASS:
                           "start": 258,
                           "end": 262,
                           "raw": "true",
-                          "value": true
+                          "value": true,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -1510,7 +1526,9 @@ __ESTREE_TEST__:PASS:
                 "start": 478,
                 "end": 482,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -1815,7 +1833,9 @@ __ESTREE_TEST__:PASS:
                 "start": 257,
                 "end": 258,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -1917,7 +1937,9 @@ __ESTREE_TEST__:PASS:
                       "start": 309,
                       "end": 319,
                       "raw": "\"ignorant\"",
-                      "value": "ignorant"
+                      "value": "ignorant",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -2055,7 +2077,9 @@ __ESTREE_TEST__:PASS:
                 "start": 410,
                 "end": 411,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

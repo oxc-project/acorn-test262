@@ -65,7 +65,9 @@
               "start": 516,
               "end": 527,
               "value": "exception",
-              "raw": "'exception'"
+              "raw": "'exception'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -155,7 +157,9 @@
                       "start": 595,
                       "end": 599,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -259,7 +263,9 @@
             "start": 670,
             "end": 681,
             "value": "exception",
-            "raw": "'exception'"
+            "raw": "'exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,14 +310,18 @@
             "start": 709,
             "end": 723,
             "value": "propertyName",
-            "raw": "'propertyName'"
+            "raw": "'propertyName'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 725,
             "end": 754,
             "value": "during loop body evaluation",
-            "raw": "'during loop body evaluation'"
+            "raw": "'during loop body evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +366,18 @@
             "start": 781,
             "end": 795,
             "value": "propertyName",
-            "raw": "'propertyName'"
+            "raw": "'propertyName'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 825,
             "value": "after loop body evaluation",
-            "raw": "'after loop body evaluation'"
+            "raw": "'after loop body evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

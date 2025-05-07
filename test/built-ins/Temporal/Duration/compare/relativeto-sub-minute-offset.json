@@ -47,28 +47,36 @@
                 "start": 318,
                 "end": 319,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 329,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,14 +128,18 @@
                 "start": 372,
                 "end": 373,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 376,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -311,7 +323,9 @@
           "start": 519,
           "end": 554,
           "value": "1970-01-01T00:00-00:45:00[-00:45]",
-          "raw": "\"1970-01-01T00:00-00:45:00[-00:45]\""
+          "raw": "\"1970-01-01T00:00-00:45:00[-00:45]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -391,14 +405,18 @@
             "start": 610,
             "end": 611,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 668,
             "value": "ISO string offset accepted with zero seconds (string)",
-            "raw": "\"ISO string offset accepted with zero seconds (string)\""
+            "raw": "\"ISO string offset accepted with zero seconds (string)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -442,7 +460,9 @@
                 "start": 693,
                 "end": 697,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -464,7 +484,9 @@
                 "start": 706,
                 "end": 707,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -486,7 +508,9 @@
                 "start": 714,
                 "end": 715,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -508,7 +532,9 @@
                 "start": 725,
                 "end": 746,
                 "value": "+00:45:00.000000000",
-                "raw": "\"+00:45:00.000000000\""
+                "raw": "\"+00:45:00.000000000\"",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -530,7 +556,9 @@
                 "start": 758,
                 "end": 766,
                 "value": "+00:45",
-                "raw": "\"+00:45\""
+                "raw": "\"+00:45\"",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -614,14 +642,18 @@
             "start": 824,
             "end": 825,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 888,
             "value": "ISO string offset accepted with zero seconds (property bag)",
-            "raw": "\"ISO string offset accepted with zero seconds (property bag)\""
+            "raw": "\"ISO string offset accepted with zero seconds (property bag)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -647,7 +679,9 @@
           "start": 905,
           "end": 950,
           "value": "1970-01-01T00:00+00:44:30.123456789[+00:45]",
-          "raw": "\"1970-01-01T00:00+00:44:30.123456789[+00:45]\""
+          "raw": "\"1970-01-01T00:00+00:44:30.123456789[+00:45]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -720,7 +754,9 @@
             "start": 1004,
             "end": 1063,
             "value": "rounding is not accepted between ISO offset and time zone",
-            "raw": "\"rounding is not accepted between ISO offset and time zone\""
+            "raw": "\"rounding is not accepted between ISO offset and time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -746,7 +782,9 @@
           "start": 1080,
           "end": 1118,
           "value": "1970-01-01T00:00-00:44:59[-00:44:59]",
-          "raw": "\"1970-01-01T00:00-00:44:59[-00:44:59]\""
+          "raw": "\"1970-01-01T00:00-00:44:59[-00:44:59]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -819,7 +857,9 @@
             "start": 1172,
             "end": 1228,
             "value": "sub-minute offset not accepted as time zone identifier",
-            "raw": "\"sub-minute offset not accepted as time zone identifier\""
+            "raw": "\"sub-minute offset not accepted as time zone identifier\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

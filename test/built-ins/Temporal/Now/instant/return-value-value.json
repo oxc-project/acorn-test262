@@ -137,6 +137,7 @@
                   "end": 438,
                   "value": null,
                   "raw": "1000000n",
+                  "regex": null,
                   "bigint": "1000000"
                 }
               }
@@ -230,7 +231,9 @@
             "start": 497,
             "end": 569,
             "value": "The result of evaluating (seconds >= nowBefore) is expected to be true",
-            "raw": "'The result of evaluating (seconds >= nowBefore) is expected to be true'"
+            "raw": "'The result of evaluating (seconds >= nowBefore) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,7 +277,9 @@
             "start": 600,
             "end": 671,
             "value": "The result of evaluating (seconds <= nowAfter) is expected to be true",
-            "raw": "'The result of evaluating (seconds <= nowAfter) is expected to be true'"
+            "raw": "'The result of evaluating (seconds <= nowAfter) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

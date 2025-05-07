@@ -107,7 +107,9 @@
                 "start": 525,
                 "end": 540,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -188,7 +190,9 @@
             "start": 593,
             "end": 620,
             "value": "Register a regular symbol",
-            "raw": "'Register a regular symbol'"
+            "raw": "'Register a regular symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,7 +270,9 @@
             "start": 673,
             "end": 705,
             "value": "Register the same symbol again",
-            "raw": "'Register the same symbol again'"
+            "raw": "'Register the same symbol again'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +350,9 @@
             "start": 758,
             "end": 797,
             "value": "Register the same symbol a third time",
-            "raw": "'Register the same symbol a third time'"
+            "raw": "'Register the same symbol a third time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -418,7 +426,9 @@
                     "start": 841,
                     "end": 856,
                     "value": "a description",
-                    "raw": "'a description'"
+                    "raw": "'a description'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -437,7 +447,9 @@
             "start": 875,
             "end": 926,
             "value": "Register another symbol with the same description",
-            "raw": "'Register another symbol with the same description'"
+            "raw": "'Register another symbol with the same description'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,7 +523,9 @@
                     "start": 970,
                     "end": 995,
                     "value": "a different description",
-                    "raw": "'a different description'"
+                    "raw": "'a different description'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -530,7 +544,9 @@
             "start": 1014,
             "end": 1064,
             "value": "Register another symbol with another description",
-            "raw": "'Register another symbol with another description'"
+            "raw": "'Register another symbol with another description'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -616,7 +632,9 @@
                     "start": 1128,
                     "end": 1146,
                     "value": "unregister token",
-                    "raw": "'unregister token'"
+                    "raw": "'unregister token'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -635,7 +653,9 @@
             "start": 1165,
             "end": 1223,
             "value": "Register a regular symbol with a symbol unregister token",
-            "raw": "'Register a regular symbol with a symbol unregister token'"
+            "raw": "'Register a regular symbol with a symbol unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -725,7 +745,9 @@
             "start": 1303,
             "end": 1366,
             "value": "Register a regular symbol with itself as the unregister token",
-            "raw": "'Register a regular symbol with itself as the unregister token'"
+            "raw": "'Register a regular symbol with itself as the unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -815,7 +837,9 @@
             "start": 1450,
             "end": 1518,
             "value": "Register a regular symbol with explicit undefined unregister token",
-            "raw": "'Register a regular symbol with explicit undefined unregister token'"
+            "raw": "'Register a regular symbol with explicit undefined unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -906,7 +930,9 @@
             "start": 1585,
             "end": 1615,
             "value": "Register a well-known symbol",
-            "raw": "'Register a well-known symbol'"
+            "raw": "'Register a well-known symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -997,7 +1023,9 @@
             "start": 1680,
             "end": 1723,
             "value": "Register the same well-known symbol again",
-            "raw": "'Register the same well-known symbol again'"
+            "raw": "'Register the same well-known symbol again'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1088,7 +1116,9 @@
             "start": 1788,
             "end": 1838,
             "value": "Register the same well-known symbol a third time",
-            "raw": "'Register the same well-known symbol a third time'"
+            "raw": "'Register the same well-known symbol a third time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1191,7 +1221,9 @@
             "start": 1930,
             "end": 1999,
             "value": "Register a regular symbol with a well-known symbol unregister token",
-            "raw": "'Register a regular symbol with a well-known symbol unregister token'"
+            "raw": "'Register a regular symbol with a well-known symbol unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1307,7 +1339,9 @@
             "start": 2100,
             "end": 2185,
             "value": "Register a well-known symbol with a different well-known symbol as unregister token",
-            "raw": "'Register a well-known symbol with a different well-known symbol as unregister token'"
+            "raw": "'Register a well-known symbol with a different well-known symbol as unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1423,7 +1457,9 @@
             "start": 2289,
             "end": 2355,
             "value": "Register a well-known symbol with itself as the unregister token",
-            "raw": "'Register a well-known symbol with itself as the unregister token'"
+            "raw": "'Register a well-known symbol with itself as the unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1526,7 +1562,9 @@
             "start": 2451,
             "end": 2522,
             "value": "Register a well-known symbol with explicit undefined unregister token",
-            "raw": "'Register a well-known symbol with explicit undefined unregister token'"
+            "raw": "'Register a well-known symbol with explicit undefined unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

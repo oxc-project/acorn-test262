@@ -137,14 +137,18 @@
             "start": 458,
             "end": 477,
             "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "raw": "\"[object Function]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 531,
             "value": "Array.toString() must return \"[object Function]\"",
-            "raw": "'Array.toString() must return \"[object Function]\"'"
+            "raw": "'Array.toString() must return \"[object Function]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

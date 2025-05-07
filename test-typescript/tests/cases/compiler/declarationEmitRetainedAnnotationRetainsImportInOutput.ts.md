@@ -282,7 +282,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 29,
         "raw": "'whatever'",
-        "value": "whatever"
+        "value": "whatever",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

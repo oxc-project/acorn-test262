@@ -19,7 +19,9 @@ __ESTREE_TEST__:PASS:
           "start": 49,
           "end": 53,
           "raw": "null",
-          "value": null
+          "value": null,
+          "regex": null,
+          "bigint": null
         },
         "consequent": {
           "type": "ConditionalExpression",
@@ -30,7 +32,9 @@ __ESTREE_TEST__:PASS:
             "start": 42,
             "end": 46,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           "consequent": {
             "type": "ArrowFunctionExpression",
@@ -77,7 +81,9 @@ __ESTREE_TEST__:PASS:
             "start": 7,
             "end": 12,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           }
         },
         "test": {
@@ -85,7 +91,9 @@ __ESTREE_TEST__:PASS:
           "start": 0,
           "end": 4,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -115,7 +123,9 @@ __ESTREE_TEST__:PASS:
           "start": 49,
           "end": 53,
           "raw": "null",
-          "value": null
+          "value": null,
+          "regex": null,
+          "bigint": null
         },
         "consequent": {
           "type": "ConditionalExpression",
@@ -126,7 +136,9 @@ __ESTREE_TEST__:PASS:
             "start": 42,
             "end": 46,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           "consequent": {
             "type": "ArrowFunctionExpression",
@@ -173,7 +185,9 @@ __ESTREE_TEST__:PASS:
             "start": 7,
             "end": 12,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           }
         },
         "test": {
@@ -181,7 +195,9 @@ __ESTREE_TEST__:PASS:
           "start": 0,
           "end": 4,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     }

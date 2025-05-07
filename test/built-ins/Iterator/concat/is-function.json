@@ -62,14 +62,18 @@
             "start": 303,
             "end": 313,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 317,
             "end": 370,
             "value": "The value of `typeof Iterator.concat` is 'function'",
-            "raw": "\"The value of `typeof Iterator.concat` is 'function'\""
+            "raw": "\"The value of `typeof Iterator.concat` is 'function'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -42,7 +42,9 @@
                   "start": 375,
                   "end": 380,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -72,7 +74,9 @@
                     "start": 397,
                     "end": 398,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -218,28 +222,36 @@
               "start": 599,
               "end": 602,
               "value": "A",
-              "raw": "\"A\""
+              "raw": "\"A\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 603,
               "end": 606,
               "value": "B",
-              "raw": "\"B\""
+              "raw": "\"B\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 607,
               "end": 608,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 609,
               "end": 610,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -270,7 +282,9 @@
                   "start": 639,
                   "end": 735,
                   "value": "#1: Since arguments property has attribute { DontDelete } elements of arguments can be deleted",
-                  "raw": "'#1: Since arguments property has attribute { DontDelete } elements of arguments can be deleted'"
+                  "raw": "'#1: Since arguments property has attribute { DontDelete } elements of arguments can be deleted'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

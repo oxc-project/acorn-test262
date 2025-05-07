@@ -327,7 +327,9 @@
                         "start": 1197,
                         "end": 1235,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -404,7 +406,9 @@
                               "start": 1289,
                               "end": 1372,
                               "value": "The promise should be rejected with the resolution value of the provided promise.",
-                              "raw": "'The promise should be rejected with the resolution value of the provided promise.'"
+                              "raw": "'The promise should be rejected with the resolution value of the provided promise.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

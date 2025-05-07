@@ -23,7 +23,9 @@
             "start": 876,
             "end": 877,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 895,
                   "end": 896,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -127,7 +131,9 @@
                           "start": 935,
                           "end": 947,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "directive": "use strict"
                       },
@@ -252,7 +258,9 @@
                                               "start": 1033,
                                               "end": 1034,
                                               "value": 2,
-                                              "raw": "2"
+                                              "raw": "2",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           ]
                                         }
@@ -352,7 +360,9 @@
             "start": 1108,
             "end": 1109,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -392,7 +402,9 @@
                   "start": 1121,
                   "end": 1124,
                   "value": "x",
-                  "raw": "'x'"
+                  "raw": "'x'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "in",
                 "right": {

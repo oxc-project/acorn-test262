@@ -55,7 +55,9 @@
                 "start": 330,
                 "end": 333,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -76,7 +78,8 @@
                 "regex": {
                   "pattern": "x",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "FunctionExpression",
@@ -127,7 +130,9 @@
                               "start": 402,
                               "end": 405,
                               "value": "y",
-                              "raw": "'y'"
+                              "raw": "'y'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -146,7 +151,9 @@
                               "start": 433,
                               "end": 436,
                               "value": "z",
-                              "raw": "'z'"
+                              "raw": "'z'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -201,14 +208,18 @@
             "start": 476,
             "end": 479,
             "value": "y",
-            "raw": "'y'"
+            "raw": "'y'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 489,
             "value": "retVal",
-            "raw": "'retVal'"
+            "raw": "'retVal'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

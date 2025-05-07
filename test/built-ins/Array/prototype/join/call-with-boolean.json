@@ -86,7 +86,9 @@
                 "start": 280,
                 "end": 284,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 287,
             "end": 289,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 291,
             "end": 339,
             "value": "Array.prototype.join.call(true) must return \"\"",
-            "raw": "'Array.prototype.join.call(true) must return \"\"'"
+            "raw": "'Array.prototype.join.call(true) must return \"\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +198,9 @@
                 "start": 385,
                 "end": 390,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -202,14 +210,18 @@
             "start": 393,
             "end": 395,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 397,
             "end": 446,
             "value": "Array.prototype.join.call(false) must return \"\"",
-            "raw": "'Array.prototype.join.call(false) must return \"\"'"
+            "raw": "'Array.prototype.join.call(false) must return \"\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -47,21 +47,27 @@
                 "start": 815,
                 "end": 819,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 821,
                 "end": 822,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 824,
                 "end": 825,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -94,28 +100,36 @@
                 "start": 851,
                 "end": 859,
                 "value": "ALWAYS",
-                "raw": "\"ALWAYS\""
+                "raw": "\"ALWAYS\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 861,
                 "end": 872,
                 "value": "sometimes",
-                "raw": "\"sometimes\""
+                "raw": "\"sometimes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 874,
                 "end": 888,
                 "value": "other string",
-                "raw": "\"other string\""
+                "raw": "\"other string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 890,
                 "end": 898,
                 "value": "auto\u0000",
-                "raw": "\"auto\\0\""
+                "raw": "\"auto\\0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

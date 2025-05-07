@@ -75,14 +75,18 @@
             "start": 519,
             "end": 529,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 599,
             "value": "Should support Intl.Segmenter.supportedLocalesOf.",
-            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

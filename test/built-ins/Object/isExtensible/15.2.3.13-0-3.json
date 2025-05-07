@@ -100,14 +100,18 @@
             "start": 476,
             "end": 480,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 506,
             "value": "Object.isExtensible(o)",
-            "raw": "'Object.isExtensible(o)'"
+            "raw": "'Object.isExtensible(o)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

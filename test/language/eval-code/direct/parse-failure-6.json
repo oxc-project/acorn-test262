@@ -71,7 +71,9 @@
                         "start": 664,
                         "end": 678,
                         "value": "for(;false;)",
-                        "raw": "\"for(;false;)\""
+                        "raw": "\"for(;false;)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

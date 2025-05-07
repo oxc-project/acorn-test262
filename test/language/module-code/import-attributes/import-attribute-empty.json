@@ -25,7 +25,9 @@
         "start": 622,
         "end": 655,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -39,7 +41,9 @@
         "start": 672,
         "end": 705,
         "value": "./import-attribute-2_FIXTURE.js",
-        "raw": "'./import-attribute-2_FIXTURE.js'"
+        "raw": "'./import-attribute-2_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -53,7 +57,9 @@
         "start": 729,
         "end": 762,
         "value": "./import-attribute-3_FIXTURE.js",
-        "raw": "'./import-attribute-3_FIXTURE.js'"
+        "raw": "'./import-attribute-3_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -96,7 +102,9 @@
             "start": 793,
             "end": 798,
             "value": 262.1,
-            "raw": "262.1"
+            "raw": "262.1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

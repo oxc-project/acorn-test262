@@ -189,7 +189,9 @@
                                     "start": 999,
                                     "end": 1000,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -207,7 +209,9 @@
                                       "start": 1008,
                                       "end": 1009,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]

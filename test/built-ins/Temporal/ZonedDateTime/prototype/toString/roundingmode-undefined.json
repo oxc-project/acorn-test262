@@ -48,6 +48,7 @@
                 "end": 336,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 338,
                 "end": 343,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 399,
                       "end": 412,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -198,14 +203,18 @@
             "start": 470,
             "end": 509,
             "value": "2001-09-09T01:46:40.123987+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 542,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,7 +282,9 @@
                       "start": 597,
                       "end": 610,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -325,14 +336,18 @@
             "start": 643,
             "end": 682,
             "value": "2001-09-09T01:46:40.123987+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 684,
             "end": 715,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +415,9 @@
                       "start": 771,
                       "end": 784,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -473,14 +490,18 @@
             "start": 842,
             "end": 878,
             "value": "2001-09-09T01:46:40.123+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 880,
             "end": 911,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -548,7 +569,9 @@
                       "start": 966,
                       "end": 979,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -600,14 +623,18 @@
             "start": 1012,
             "end": 1048,
             "value": "2001-09-09T01:46:40.123+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1081,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -675,7 +702,9 @@
                       "start": 1137,
                       "end": 1145,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -748,14 +777,18 @@
             "start": 1203,
             "end": 1235,
             "value": "2001-09-09T01:46:40+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1237,
             "end": 1268,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -823,7 +856,9 @@
                       "start": 1323,
                       "end": 1331,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -875,14 +910,18 @@
             "start": 1364,
             "end": 1396,
             "value": "2001-09-09T01:46:40+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1398,
             "end": 1429,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

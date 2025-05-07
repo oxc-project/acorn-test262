@@ -25,7 +25,9 @@
                 "start": 1119,
                 "end": 1120,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -54,7 +56,9 @@
                   "start": 1130,
                   "end": 1144,
                   "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "raw": "'switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -62,7 +66,9 @@
                   "start": 1149,
                   "end": 1161,
                   "value": "  default:",
-                  "raw": "'  default:'"
+                  "raw": "'  default:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -71,7 +77,9 @@
                 "start": 1166,
                 "end": 1216,
                 "value": "    function f() { return \"inner declaration\"; }",
-                "raw": "'    function f() { return \"inner declaration\"; }'"
+                "raw": "'    function f() { return \"inner declaration\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -80,7 +88,9 @@
               "start": 1221,
               "end": 1374,
               "value": "}  assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }",
-              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
+              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

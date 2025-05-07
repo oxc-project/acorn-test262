@@ -34,28 +34,36 @@
                 "start": 387,
                 "end": 403,
                 "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "raw": "\"arg1,arg2,arg3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 416,
                 "value": "arg1,arg2",
-                "raw": "\"arg1,arg2\""
+                "raw": "\"arg1,arg2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 424,
                 "value": "arg3",
-                "raw": "\"arg3\""
+                "raw": "\"arg3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 430,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -107,7 +115,9 @@
                 "start": 458,
                 "end": 466,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -117,7 +127,9 @@
             "start": 469,
             "end": 516,
             "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +216,9 @@
                   "start": 563,
                   "end": 571,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -215,7 +229,9 @@
             "start": 574,
             "end": 641,
             "value": "The value of !f.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'"
+            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,14 +289,18 @@
             "start": 674,
             "end": 675,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 709,
             "value": "The value of f.length is not 6",
-            "raw": "'The value of f.length is not 6'"
+            "raw": "'The value of f.length is not 6'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

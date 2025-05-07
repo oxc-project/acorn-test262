@@ -23,7 +23,9 @@
             "start": 323,
             "end": 324,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,7 +70,9 @@
                     "start": 349,
                     "end": 383,
                     "value": "this.touched= true; return this;",
-                    "raw": "\"this.touched= true; return this;\""
+                    "raw": "\"this.touched= true; return this;\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -155,14 +159,18 @@
             "start": 435,
             "end": 446,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 448,
             "end": 513,
             "value": "The value of `typeof obj.touched` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj.touched` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof obj.touched` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +206,9 @@
               "start": 530,
               "end": 539,
               "value": "touched",
-              "raw": "\"touched\""
+              "raw": "\"touched\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -208,7 +218,9 @@
             "start": 542,
             "end": 597,
             "value": "The value of retobj[\"touched\"] is expected to be true",
-            "raw": "'The value of retobj[\"touched\"] is expected to be true'"
+            "raw": "'The value of retobj[\"touched\"] is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -164,7 +164,9 @@ __ESTREE_TEST__:PASS:
                   "start": 22,
                   "end": 34,
                   "raw": "\"./some-mod\"",
-                  "value": "./some-mod"
+                  "value": "./some-mod",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

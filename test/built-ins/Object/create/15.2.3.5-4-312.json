@@ -23,7 +23,9 @@
             "start": 353,
             "end": 358,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -177,7 +179,9 @@
                             "start": 469,
                             "end": 473,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -238,7 +242,9 @@
                 "start": 522,
                 "end": 528,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -302,7 +308,9 @@
                 "start": 567,
                 "end": 573,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -330,7 +338,9 @@
                       "start": 596,
                       "end": 600,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -367,7 +377,9 @@
             "start": 629,
             "end": 651,
             "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "raw": "'hasProperty !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -412,14 +424,18 @@
             "start": 685,
             "end": 690,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 706,
             "value": "isEnumerable",
-            "raw": "'isEnumerable'"
+            "raw": "'isEnumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

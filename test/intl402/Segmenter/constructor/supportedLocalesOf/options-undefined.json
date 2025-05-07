@@ -75,14 +75,18 @@
             "start": 595,
             "end": 605,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 675,
             "value": "Should support Intl.Segmenter.supportedLocalesOf.",
-            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -152,7 +156,9 @@
                   "start": 725,
                   "end": 740,
                   "value": "localeMatcher",
-                  "raw": "\"localeMatcher\""
+                  "raw": "\"localeMatcher\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -206,7 +212,9 @@
                                     "start": 772,
                                     "end": 810,
                                     "value": "Should not call localeMatcher getter",
-                                    "raw": "\"Should not call localeMatcher getter\""
+                                    "raw": "\"Should not call localeMatcher getter\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -325,14 +333,18 @@
             "start": 893,
             "end": 897,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 899,
             "end": 913,
             "value": "No arguments",
-            "raw": "\"No arguments\""
+            "raw": "\"No arguments\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,14 +456,18 @@
             "start": 987,
             "end": 991,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 993,
             "end": 1007,
             "value": "One argument",
-            "raw": "\"One argument\""
+            "raw": "\"One argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,14 +585,18 @@
             "start": 1092,
             "end": 1096,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1098,
             "end": 1113,
             "value": "Two arguments",
-            "raw": "\"Two arguments\""
+            "raw": "\"Two arguments\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

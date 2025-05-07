@@ -40,7 +40,9 @@
                       "start": 3955,
                       "end": 3975,
                       "value": "./empty_FIXTURE.js",
-                      "raw": "'./empty_FIXTURE.js'"
+                      "raw": "'./empty_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -121,7 +123,9 @@
                                 "start": 4019,
                                 "end": 4034,
                                 "value": "delete: undef",
-                                "raw": "'delete: undef'"
+                                "raw": "'delete: undef'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -177,7 +181,9 @@
                                     "start": 4075,
                                     "end": 4082,
                                     "value": "undef",
-                                    "raw": "'undef'"
+                                    "raw": "'undef'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -187,7 +193,9 @@
                                 "start": 4085,
                                 "end": 4116,
                                 "value": "Reflect.deleteProperty: undef",
-                                "raw": "'Reflect.deleteProperty: undef'"
+                                "raw": "'Reflect.deleteProperty: undef'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -239,7 +247,9 @@
                                 "start": 4150,
                                 "end": 4167,
                                 "value": "delete: default",
-                                "raw": "'delete: default'"
+                                "raw": "'delete: default'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -295,7 +305,9 @@
                                     "start": 4215,
                                     "end": 4224,
                                     "value": "default",
-                                    "raw": "'default'"
+                                    "raw": "'default'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -305,7 +317,9 @@
                                 "start": 4227,
                                 "end": 4260,
                                 "value": "Reflect.deleteProperty: default",
-                                "raw": "'Reflect.deleteProperty: default'"
+                                "raw": "'Reflect.deleteProperty: default'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -383,14 +397,18 @@
                                 "start": 4321,
                                 "end": 4326,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4328,
                                 "end": 4356,
                                 "value": "delete: Symbol.toStringTag",
-                                "raw": "'delete: Symbol.toStringTag'"
+                                "raw": "'delete: Symbol.toStringTag'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -481,14 +499,18 @@
                                 "start": 4435,
                                 "end": 4440,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4448,
                                 "end": 4492,
                                 "value": "Reflect.deleteProperty: Symbol.toStringTag",
-                                "raw": "'Reflect.deleteProperty: Symbol.toStringTag'"
+                                "raw": "'Reflect.deleteProperty: Symbol.toStringTag'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -525,7 +547,9 @@
                                     "start": 4522,
                                     "end": 4531,
                                     "value": "test262",
-                                    "raw": "'test262'"
+                                    "raw": "'test262'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -580,7 +604,9 @@
                                 "start": 4561,
                                 "end": 4577,
                                 "value": "delete: symbol",
-                                "raw": "'delete: symbol'"
+                                "raw": "'delete: symbol'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -645,7 +671,9 @@
                                 "start": 4624,
                                 "end": 4656,
                                 "value": "Reflect.deleteProperty: symbol",
-                                "raw": "'Reflect.deleteProperty: symbol'"
+                                "raw": "'Reflect.deleteProperty: symbol'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

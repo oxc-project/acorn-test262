@@ -89,14 +89,18 @@
             "start": 440,
             "end": 445,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 498,
             "value": "`Object.is(Symbol(), Symbol())` returns `false`",
-            "raw": "\"`Object.is(Symbol(), Symbol())` returns `false`\""
+            "raw": "\"`Object.is(Symbol(), Symbol())` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -170,7 +174,9 @@
                     "start": 539,
                     "end": 552,
                     "value": "description",
-                    "raw": "'description'"
+                    "raw": "'description'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -191,7 +197,9 @@
                     "start": 562,
                     "end": 575,
                     "value": "description",
-                    "raw": "'description'"
+                    "raw": "'description'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -204,14 +212,18 @@
             "start": 581,
             "end": 586,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 665,
             "value": "`Object.is(Symbol('description'), Symbol('description'))` returns `false`",
-            "raw": "\"`Object.is(Symbol('description'), Symbol('description'))` returns `false`\""
+            "raw": "\"`Object.is(Symbol('description'), Symbol('description'))` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

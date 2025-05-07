@@ -49,7 +49,9 @@
                         "start": 1396,
                         "end": 1437,
                         "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js",
-                        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'"
+                        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     }
@@ -178,7 +180,9 @@
                             "start": 1496,
                             "end": 1507,
                             "value": "TypeError",
-                            "raw": "'TypeError'"
+                            "raw": "'TypeError'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

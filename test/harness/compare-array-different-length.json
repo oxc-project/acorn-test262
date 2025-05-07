@@ -110,7 +110,9 @@
             "start": 327,
             "end": 376,
             "value": "Arrays of differing lengths are not equivalent.",
-            "raw": "'Arrays of differing lengths are not equivalent.'"
+            "raw": "'Arrays of differing lengths are not equivalent.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,7 +225,9 @@
             "start": 459,
             "end": 508,
             "value": "Arrays of differing lengths are not equivalent.",
-            "raw": "'Arrays of differing lengths are not equivalent.'"
+            "raw": "'Arrays of differing lengths are not equivalent.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

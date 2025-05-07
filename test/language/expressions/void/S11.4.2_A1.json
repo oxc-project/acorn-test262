@@ -27,7 +27,9 @@
               "start": 313,
               "end": 326,
               "value": "void\t0",
-              "raw": "\"void\\u00090\""
+              "raw": "\"void\\u00090\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -65,7 +67,9 @@
                   "start": 370,
                   "end": 402,
                   "value": "#1: void\\u00090 === undefined",
-                  "raw": "'#1: void\\\\u00090 === undefined'"
+                  "raw": "'#1: void\\\\u00090 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -98,7 +102,9 @@
               "start": 427,
               "end": 440,
               "value": "void\u000b0",
-              "raw": "\"void\\u000B0\""
+              "raw": "\"void\\u000B0\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -136,7 +142,9 @@
                   "start": 484,
                   "end": 516,
                   "value": "#2: void\\u000B0 === undefined",
-                  "raw": "'#2: void\\\\u000B0 === undefined'"
+                  "raw": "'#2: void\\\\u000B0 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -169,7 +177,9 @@
               "start": 543,
               "end": 556,
               "value": "void\f0",
-              "raw": "\"void\\u000C0\""
+              "raw": "\"void\\u000C0\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -207,7 +217,9 @@
                   "start": 600,
                   "end": 632,
                   "value": "#3: void\\u000C0 === undefined",
-                  "raw": "'#3: void\\\\u000C0 === undefined'"
+                  "raw": "'#3: void\\\\u000C0 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -240,7 +252,9 @@
               "start": 657,
               "end": 670,
               "value": "void 0",
-              "raw": "\"void\\u00200\""
+              "raw": "\"void\\u00200\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -278,7 +292,9 @@
                   "start": 714,
                   "end": 746,
                   "value": "#4: void\\u00200 === undefined",
-                  "raw": "'#4: void\\\\u00200 === undefined'"
+                  "raw": "'#4: void\\\\u00200 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -311,7 +327,9 @@
               "start": 771,
               "end": 784,
               "value": "void 0",
-              "raw": "\"void\\u00A00\""
+              "raw": "\"void\\u00A00\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -349,7 +367,9 @@
                   "start": 828,
                   "end": 860,
                   "value": "#5: void\\u00A00 === undefined",
-                  "raw": "'#5: void\\\\u00A00 === undefined'"
+                  "raw": "'#5: void\\\\u00A00 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -382,7 +402,9 @@
               "start": 885,
               "end": 898,
               "value": "void\n0",
-              "raw": "\"void\\u000A0\""
+              "raw": "\"void\\u000A0\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -420,7 +442,9 @@
                   "start": 942,
                   "end": 974,
                   "value": "#6: void\\u000A0 === undefined",
-                  "raw": "'#6: void\\\\u000A0 === undefined'"
+                  "raw": "'#6: void\\\\u000A0 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -453,7 +477,9 @@
               "start": 1001,
               "end": 1014,
               "value": "void\r0",
-              "raw": "\"void\\u000D0\""
+              "raw": "\"void\\u000D0\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -491,7 +517,9 @@
                   "start": 1058,
                   "end": 1090,
                   "value": "#7: void\\u000D0 === undefined",
-                  "raw": "'#7: void\\\\u000D0 === undefined'"
+                  "raw": "'#7: void\\\\u000D0 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -524,7 +552,9 @@
               "start": 1115,
               "end": 1128,
               "value": "void 0",
-              "raw": "\"void\\u20280\""
+              "raw": "\"void\\u20280\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -562,7 +592,9 @@
                   "start": 1172,
                   "end": 1204,
                   "value": "#8: void\\u20280 === undefined",
-                  "raw": "'#8: void\\\\u20280 === undefined'"
+                  "raw": "'#8: void\\\\u20280 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -595,7 +627,9 @@
               "start": 1229,
               "end": 1242,
               "value": "void 0",
-              "raw": "\"void\\u20290\""
+              "raw": "\"void\\u20290\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -633,7 +667,9 @@
                   "start": 1286,
                   "end": 1318,
                   "value": "#9: void\\u20290 === undefined",
-                  "raw": "'#9: void\\\\u20290 === undefined'"
+                  "raw": "'#9: void\\\\u20290 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -666,7 +702,9 @@
               "start": 1344,
               "end": 1405,
               "value": "void\t\u000b\f  \n\r  0",
-              "raw": "\"void\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u20290\""
+              "raw": "\"void\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u20290\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -704,7 +742,9 @@
                   "start": 1449,
                   "end": 1538,
                   "value": "#10: void\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u20290 === undefined",
-                  "raw": "'#10: void\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u20290 === undefined'"
+                  "raw": "'#10: void\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u20290 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

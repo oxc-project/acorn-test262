@@ -205,7 +205,9 @@ __ESTREE_TEST__:PASS:
                       "start": 104,
                       "end": 112,
                       "raw": "\"Apollo\"",
-                      "value": "Apollo"
+                      "value": "Apollo",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -217,7 +219,9 @@ __ESTREE_TEST__:PASS:
                       "start": 115,
                       "end": 124,
                       "raw": "\"Artemis\"",
-                      "value": "Artemis"
+                      "value": "Artemis",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -229,7 +233,9 @@ __ESTREE_TEST__:PASS:
                       "start": 127,
                       "end": 137,
                       "raw": "\"Dionysus\"",
-                      "value": "Dionysus"
+                      "value": "Dionysus",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -241,7 +247,9 @@ __ESTREE_TEST__:PASS:
                       "start": 140,
                       "end": 152,
                       "raw": "\"Persephone\"",
-                      "value": "Persephone"
+                      "value": "Persephone",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -471,7 +479,9 @@ __ESTREE_TEST__:PASS:
                         "start": 212,
                         "end": 221,
                         "raw": "\"Artemis\"",
-                        "value": "Artemis"
+                        "value": "Artemis",
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": null
                     }
@@ -738,7 +748,9 @@ __ESTREE_TEST__:PASS:
                         "start": 322,
                         "end": 331,
                         "raw": "\"Artemis\"",
-                        "value": "Artemis"
+                        "value": "Artemis",
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": null
                     }

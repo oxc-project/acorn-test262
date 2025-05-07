@@ -94,7 +94,9 @@
                     "start": 289,
                     "end": 293,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -104,7 +106,9 @@
                 "start": 295,
                 "end": 296,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -122,14 +126,18 @@
             "start": 320,
             "end": 324,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 435,
             "value": "The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true'"
+            "raw": "'The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +234,9 @@
                     "start": 487,
                     "end": 492,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -236,7 +246,9 @@
                 "start": 494,
                 "end": 495,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -254,14 +266,18 @@
             "start": 519,
             "end": 523,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 527,
             "end": 635,
             "value": "The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true'"
+            "raw": "'The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -89,7 +89,9 @@
                           "start": 804,
                           "end": 805,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -115,7 +117,9 @@
                   "start": 817,
                   "end": 818,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -187,7 +191,9 @@
                       "start": 876,
                       "end": 879,
                       "value": "b",
-                      "raw": "'b'"
+                      "raw": "'b'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -248,7 +254,9 @@
                           "start": 934,
                           "end": 946,
                           "value": "<replaced>",
-                          "raw": "'<replaced>'"
+                          "raw": "'<replaced>'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -345,7 +353,9 @@
             "start": 1026,
             "end": 1052,
             "value": "{\"a\":1,\"b\":\"<replaced>\"}",
-            "raw": "'{\"a\":1,\"b\":\"<replaced>\"}'"
+            "raw": "'{\"a\":1,\"b\":\"<replaced>\"}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

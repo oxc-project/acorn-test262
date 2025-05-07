@@ -100,7 +100,9 @@
             "start": 375,
             "end": 380,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

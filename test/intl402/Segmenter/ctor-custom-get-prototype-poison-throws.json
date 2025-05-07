@@ -106,7 +106,9 @@
                                 "start": 903,
                                 "end": 914,
                                 "value": "prototype",
-                                "raw": "'prototype'"
+                                "raw": "'prototype'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {

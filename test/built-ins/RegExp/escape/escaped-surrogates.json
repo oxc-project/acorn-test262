@@ -60,7 +60,9 @@
                 "start": 868,
                 "end": 876,
                 "value": "\ud800",
-                "raw": "'\\uD800'"
+                "raw": "'\\uD800'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 879,
             "end": 888,
             "value": "\\ud800",
-            "raw": "'\\\\ud800'"
+            "raw": "'\\\\ud800'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 890,
             "end": 935,
             "value": "High surrogate \\uD800 is correctly escaped",
-            "raw": "'High surrogate \\\\uD800 is correctly escaped'"
+            "raw": "'High surrogate \\\\uD800 is correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                 "start": 969,
                 "end": 977,
                 "value": "\udbff",
-                "raw": "'\\uDBFF'"
+                "raw": "'\\uDBFF'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -150,14 +158,18 @@
             "start": 980,
             "end": 989,
             "value": "\\udbff",
-            "raw": "'\\\\udbff'"
+            "raw": "'\\\\udbff'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 991,
             "end": 1036,
             "value": "High surrogate \\uDBFF is correctly escaped",
-            "raw": "'High surrogate \\\\uDBFF is correctly escaped'"
+            "raw": "'High surrogate \\\\uDBFF is correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +232,9 @@
                 "start": 1070,
                 "end": 1078,
                 "value": "\udc00",
-                "raw": "'\\uDC00'"
+                "raw": "'\\uDC00'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -230,14 +244,18 @@
             "start": 1081,
             "end": 1090,
             "value": "\\udc00",
-            "raw": "'\\\\udc00'"
+            "raw": "'\\\\udc00'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1092,
             "end": 1136,
             "value": "Low surrogate \\uDC00 is correctly escaped",
-            "raw": "'Low surrogate \\\\uDC00 is correctly escaped'"
+            "raw": "'Low surrogate \\\\uDC00 is correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +318,9 @@
                 "start": 1170,
                 "end": 1178,
                 "value": "\udfff",
-                "raw": "'\\uDFFF'"
+                "raw": "'\\uDFFF'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,14 +330,18 @@
             "start": 1181,
             "end": 1190,
             "value": "\\udfff",
-            "raw": "'\\\\udfff'"
+            "raw": "'\\\\udfff'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1192,
             "end": 1236,
             "value": "Low surrogate \\uDFFF is correctly escaped",
-            "raw": "'Low surrogate \\\\uDFFF is correctly escaped'"
+            "raw": "'Low surrogate \\\\uDFFF is correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +367,9 @@
             "start": 1291,
             "end": 1389,
             "value": "\ud800\ud801\ud802\ud803\ud804\ud805\ud806\ud807\ud808\ud809\ud80a\ud80b\ud80c\ud80d\ud80e\ud80f",
-            "raw": "'\\uD800\\uD801\\uD802\\uD803\\uD804\\uD805\\uD806\\uD807\\uD808\\uD809\\uD80A\\uD80B\\uD80C\\uD80D\\uD80E\\uD80F'"
+            "raw": "'\\uD800\\uD801\\uD802\\uD803\\uD804\\uD805\\uD806\\uD807\\uD808\\uD809\\uD80A\\uD80B\\uD80C\\uD80D\\uD80E\\uD80F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -369,7 +395,9 @@
             "start": 1420,
             "end": 1518,
             "value": "\ud810\ud811\ud812\ud813\ud814\ud815\ud816\ud817\ud818\ud819\ud81a\ud81b\ud81c\ud81d\ud81e\ud81f",
-            "raw": "'\\uD810\\uD811\\uD812\\uD813\\uD814\\uD815\\uD816\\uD817\\uD818\\uD819\\uD81A\\uD81B\\uD81C\\uD81D\\uD81E\\uD81F'"
+            "raw": "'\\uD810\\uD811\\uD812\\uD813\\uD814\\uD815\\uD816\\uD817\\uD818\\uD819\\uD81A\\uD81B\\uD81C\\uD81D\\uD81E\\uD81F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -395,7 +423,9 @@
             "start": 1549,
             "end": 1647,
             "value": "\ud820\ud821\ud822\ud823\ud824\ud825\ud826\ud827\ud828\ud829\ud82a\ud82b\ud82c\ud82d\ud82e\ud82f",
-            "raw": "'\\uD820\\uD821\\uD822\\uD823\\uD824\\uD825\\uD826\\uD827\\uD828\\uD829\\uD82A\\uD82B\\uD82C\\uD82D\\uD82E\\uD82F'"
+            "raw": "'\\uD820\\uD821\\uD822\\uD823\\uD824\\uD825\\uD826\\uD827\\uD828\\uD829\\uD82A\\uD82B\\uD82C\\uD82D\\uD82E\\uD82F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -421,7 +451,9 @@
             "start": 1678,
             "end": 1776,
             "value": "\ud830\ud831\ud832\ud833\ud834\ud835\ud836\ud837\ud838\ud839\ud83a\ud83b\ud83c\ud83d\ud83e\ud83f",
-            "raw": "'\\uD830\\uD831\\uD832\\uD833\\uD834\\uD835\\uD836\\uD837\\uD838\\uD839\\uD83A\\uD83B\\uD83C\\uD83D\\uD83E\\uD83F'"
+            "raw": "'\\uD830\\uD831\\uD832\\uD833\\uD834\\uD835\\uD836\\uD837\\uD838\\uD839\\uD83A\\uD83B\\uD83C\\uD83D\\uD83E\\uD83F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -447,7 +479,9 @@
             "start": 1807,
             "end": 1905,
             "value": "\ud840\ud841\ud842\ud843\ud844\ud845\ud846\ud847\ud848\ud849\ud84a\ud84b\ud84c\ud84d\ud84e\ud84f",
-            "raw": "'\\uD840\\uD841\\uD842\\uD843\\uD844\\uD845\\uD846\\uD847\\uD848\\uD849\\uD84A\\uD84B\\uD84C\\uD84D\\uD84E\\uD84F'"
+            "raw": "'\\uD840\\uD841\\uD842\\uD843\\uD844\\uD845\\uD846\\uD847\\uD848\\uD849\\uD84A\\uD84B\\uD84C\\uD84D\\uD84E\\uD84F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -473,7 +507,9 @@
             "start": 1936,
             "end": 2034,
             "value": "\ud850\ud851\ud852\ud853\ud854\ud855\ud856\ud857\ud858\ud859\ud85a\ud85b\ud85c\ud85d\ud85e\ud85f",
-            "raw": "'\\uD850\\uD851\\uD852\\uD853\\uD854\\uD855\\uD856\\uD857\\uD858\\uD859\\uD85A\\uD85B\\uD85C\\uD85D\\uD85E\\uD85F'"
+            "raw": "'\\uD850\\uD851\\uD852\\uD853\\uD854\\uD855\\uD856\\uD857\\uD858\\uD859\\uD85A\\uD85B\\uD85C\\uD85D\\uD85E\\uD85F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -499,7 +535,9 @@
             "start": 2065,
             "end": 2163,
             "value": "\ud860\ud861\ud862\ud863\ud864\ud865\ud866\ud867\ud868\ud869\ud86a\ud86b\ud86c\ud86d\ud86e\ud86f",
-            "raw": "'\\uD860\\uD861\\uD862\\uD863\\uD864\\uD865\\uD866\\uD867\\uD868\\uD869\\uD86A\\uD86B\\uD86C\\uD86D\\uD86E\\uD86F'"
+            "raw": "'\\uD860\\uD861\\uD862\\uD863\\uD864\\uD865\\uD866\\uD867\\uD868\\uD869\\uD86A\\uD86B\\uD86C\\uD86D\\uD86E\\uD86F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -525,7 +563,9 @@
             "start": 2194,
             "end": 2292,
             "value": "\ud870\ud871\ud872\ud873\ud874\ud875\ud876\ud877\ud878\ud879\ud87a\ud87b\ud87c\ud87d\ud87e\ud87f",
-            "raw": "'\\uD870\\uD871\\uD872\\uD873\\uD874\\uD875\\uD876\\uD877\\uD878\\uD879\\uD87A\\uD87B\\uD87C\\uD87D\\uD87E\\uD87F'"
+            "raw": "'\\uD870\\uD871\\uD872\\uD873\\uD874\\uD875\\uD876\\uD877\\uD878\\uD879\\uD87A\\uD87B\\uD87C\\uD87D\\uD87E\\uD87F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -551,7 +591,9 @@
             "start": 2323,
             "end": 2421,
             "value": "\ud880\ud881\ud882\ud883\ud884\ud885\ud886\ud887\ud888\ud889\ud88a\ud88b\ud88c\ud88d\ud88e\ud88f",
-            "raw": "'\\uD880\\uD881\\uD882\\uD883\\uD884\\uD885\\uD886\\uD887\\uD888\\uD889\\uD88A\\uD88B\\uD88C\\uD88D\\uD88E\\uD88F'"
+            "raw": "'\\uD880\\uD881\\uD882\\uD883\\uD884\\uD885\\uD886\\uD887\\uD888\\uD889\\uD88A\\uD88B\\uD88C\\uD88D\\uD88E\\uD88F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -577,7 +619,9 @@
             "start": 2453,
             "end": 2551,
             "value": "\ud890\ud891\ud892\ud893\ud894\ud895\ud896\ud897\ud898\ud899\ud89a\ud89b\ud89c\ud89d\ud89e\ud89f",
-            "raw": "'\\uD890\\uD891\\uD892\\uD893\\uD894\\uD895\\uD896\\uD897\\uD898\\uD899\\uD89A\\uD89B\\uD89C\\uD89D\\uD89E\\uD89F'"
+            "raw": "'\\uD890\\uD891\\uD892\\uD893\\uD894\\uD895\\uD896\\uD897\\uD898\\uD899\\uD89A\\uD89B\\uD89C\\uD89D\\uD89E\\uD89F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -603,7 +647,9 @@
             "start": 2583,
             "end": 2681,
             "value": "\ud8a0\ud8a1\ud8a2\ud8a3\ud8a4\ud8a5\ud8a6\ud8a7\ud8a8\ud8a9\ud8aa\ud8ab\ud8ac\ud8ad\ud8ae\ud8af",
-            "raw": "'\\uD8A0\\uD8A1\\uD8A2\\uD8A3\\uD8A4\\uD8A5\\uD8A6\\uD8A7\\uD8A8\\uD8A9\\uD8AA\\uD8AB\\uD8AC\\uD8AD\\uD8AE\\uD8AF'"
+            "raw": "'\\uD8A0\\uD8A1\\uD8A2\\uD8A3\\uD8A4\\uD8A5\\uD8A6\\uD8A7\\uD8A8\\uD8A9\\uD8AA\\uD8AB\\uD8AC\\uD8AD\\uD8AE\\uD8AF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -629,7 +675,9 @@
             "start": 2713,
             "end": 2811,
             "value": "\ud8b0\ud8b1\ud8b2\ud8b3\ud8b4\ud8b5\ud8b6\ud8b7\ud8b8\ud8b9\ud8ba\ud8bb\ud8bc\ud8bd\ud8be\ud8bf",
-            "raw": "'\\uD8B0\\uD8B1\\uD8B2\\uD8B3\\uD8B4\\uD8B5\\uD8B6\\uD8B7\\uD8B8\\uD8B9\\uD8BA\\uD8BB\\uD8BC\\uD8BD\\uD8BE\\uD8BF'"
+            "raw": "'\\uD8B0\\uD8B1\\uD8B2\\uD8B3\\uD8B4\\uD8B5\\uD8B6\\uD8B7\\uD8B8\\uD8B9\\uD8BA\\uD8BB\\uD8BC\\uD8BD\\uD8BE\\uD8BF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -655,7 +703,9 @@
             "start": 2843,
             "end": 2941,
             "value": "\ud8c0\ud8c1\ud8c2\ud8c3\ud8c4\ud8c5\ud8c6\ud8c7\ud8c8\ud8c9\ud8ca\ud8cb\ud8cc\ud8cd\ud8ce\ud8cf",
-            "raw": "'\\uD8C0\\uD8C1\\uD8C2\\uD8C3\\uD8C4\\uD8C5\\uD8C6\\uD8C7\\uD8C8\\uD8C9\\uD8CA\\uD8CB\\uD8CC\\uD8CD\\uD8CE\\uD8CF'"
+            "raw": "'\\uD8C0\\uD8C1\\uD8C2\\uD8C3\\uD8C4\\uD8C5\\uD8C6\\uD8C7\\uD8C8\\uD8C9\\uD8CA\\uD8CB\\uD8CC\\uD8CD\\uD8CE\\uD8CF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -681,7 +731,9 @@
             "start": 2973,
             "end": 3071,
             "value": "\ud8d0\ud8d1\ud8d2\ud8d3\ud8d4\ud8d5\ud8d6\ud8d7\ud8d8\ud8d9\ud8da\ud8db\ud8dc\ud8dd\ud8de\ud8df",
-            "raw": "'\\uD8D0\\uD8D1\\uD8D2\\uD8D3\\uD8D4\\uD8D5\\uD8D6\\uD8D7\\uD8D8\\uD8D9\\uD8DA\\uD8DB\\uD8DC\\uD8DD\\uD8DE\\uD8DF'"
+            "raw": "'\\uD8D0\\uD8D1\\uD8D2\\uD8D3\\uD8D4\\uD8D5\\uD8D6\\uD8D7\\uD8D8\\uD8D9\\uD8DA\\uD8DB\\uD8DC\\uD8DD\\uD8DE\\uD8DF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -707,7 +759,9 @@
             "start": 3103,
             "end": 3201,
             "value": "\ud8e0\ud8e1\ud8e2\ud8e3\ud8e4\ud8e5\ud8e6\ud8e7\ud8e8\ud8e9\ud8ea\ud8eb\ud8ec\ud8ed\ud8ee\ud8ef",
-            "raw": "'\\uD8E0\\uD8E1\\uD8E2\\uD8E3\\uD8E4\\uD8E5\\uD8E6\\uD8E7\\uD8E8\\uD8E9\\uD8EA\\uD8EB\\uD8EC\\uD8ED\\uD8EE\\uD8EF'"
+            "raw": "'\\uD8E0\\uD8E1\\uD8E2\\uD8E3\\uD8E4\\uD8E5\\uD8E6\\uD8E7\\uD8E8\\uD8E9\\uD8EA\\uD8EB\\uD8EC\\uD8ED\\uD8EE\\uD8EF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -733,7 +787,9 @@
             "start": 3233,
             "end": 3331,
             "value": "\ud8f0\ud8f1\ud8f2\ud8f3\ud8f4\ud8f5\ud8f6\ud8f7\ud8f8\ud8f9\ud8fa\ud8fb\ud8fc\ud8fd\ud8fe\ud8ff",
-            "raw": "'\\uD8F0\\uD8F1\\uD8F2\\uD8F3\\uD8F4\\uD8F5\\uD8F6\\uD8F7\\uD8F8\\uD8F9\\uD8FA\\uD8FB\\uD8FC\\uD8FD\\uD8FE\\uD8FF'"
+            "raw": "'\\uD8F0\\uD8F1\\uD8F2\\uD8F3\\uD8F4\\uD8F5\\uD8F6\\uD8F7\\uD8F8\\uD8F9\\uD8FA\\uD8FB\\uD8FC\\uD8FD\\uD8FE\\uD8FF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -805,14 +861,18 @@
             "start": 3389,
             "end": 3503,
             "value": "\\ud800\\ud801\\ud802\\ud803\\ud804\\ud805\\ud806\\ud807\\ud808\\ud809\\ud80a\\ud80b\\ud80c\\ud80d\\ud80e\\ud80f",
-            "raw": "'\\\\ud800\\\\ud801\\\\ud802\\\\ud803\\\\ud804\\\\ud805\\\\ud806\\\\ud807\\\\ud808\\\\ud809\\\\ud80a\\\\ud80b\\\\ud80c\\\\ud80d\\\\ud80e\\\\ud80f'"
+            "raw": "'\\\\ud800\\\\ud801\\\\ud802\\\\ud803\\\\ud804\\\\ud805\\\\ud806\\\\ud807\\\\ud808\\\\ud809\\\\ud80a\\\\ud80b\\\\ud80c\\\\ud80d\\\\ud80e\\\\ud80f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3505,
             "end": 3552,
             "value": "High surrogates group 1 are correctly escaped",
-            "raw": "'High surrogates group 1 are correctly escaped'"
+            "raw": "'High surrogates group 1 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -884,14 +944,18 @@
             "start": 3610,
             "end": 3724,
             "value": "\\ud810\\ud811\\ud812\\ud813\\ud814\\ud815\\ud816\\ud817\\ud818\\ud819\\ud81a\\ud81b\\ud81c\\ud81d\\ud81e\\ud81f",
-            "raw": "'\\\\ud810\\\\ud811\\\\ud812\\\\ud813\\\\ud814\\\\ud815\\\\ud816\\\\ud817\\\\ud818\\\\ud819\\\\ud81a\\\\ud81b\\\\ud81c\\\\ud81d\\\\ud81e\\\\ud81f'"
+            "raw": "'\\\\ud810\\\\ud811\\\\ud812\\\\ud813\\\\ud814\\\\ud815\\\\ud816\\\\ud817\\\\ud818\\\\ud819\\\\ud81a\\\\ud81b\\\\ud81c\\\\ud81d\\\\ud81e\\\\ud81f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3726,
             "end": 3773,
             "value": "High surrogates group 2 are correctly escaped",
-            "raw": "'High surrogates group 2 are correctly escaped'"
+            "raw": "'High surrogates group 2 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -963,14 +1027,18 @@
             "start": 3831,
             "end": 3945,
             "value": "\\ud820\\ud821\\ud822\\ud823\\ud824\\ud825\\ud826\\ud827\\ud828\\ud829\\ud82a\\ud82b\\ud82c\\ud82d\\ud82e\\ud82f",
-            "raw": "'\\\\ud820\\\\ud821\\\\ud822\\\\ud823\\\\ud824\\\\ud825\\\\ud826\\\\ud827\\\\ud828\\\\ud829\\\\ud82a\\\\ud82b\\\\ud82c\\\\ud82d\\\\ud82e\\\\ud82f'"
+            "raw": "'\\\\ud820\\\\ud821\\\\ud822\\\\ud823\\\\ud824\\\\ud825\\\\ud826\\\\ud827\\\\ud828\\\\ud829\\\\ud82a\\\\ud82b\\\\ud82c\\\\ud82d\\\\ud82e\\\\ud82f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3947,
             "end": 3994,
             "value": "High surrogates group 3 are correctly escaped",
-            "raw": "'High surrogates group 3 are correctly escaped'"
+            "raw": "'High surrogates group 3 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1042,14 +1110,18 @@
             "start": 4052,
             "end": 4166,
             "value": "\\ud830\\ud831\\ud832\\ud833\\ud834\\ud835\\ud836\\ud837\\ud838\\ud839\\ud83a\\ud83b\\ud83c\\ud83d\\ud83e\\ud83f",
-            "raw": "'\\\\ud830\\\\ud831\\\\ud832\\\\ud833\\\\ud834\\\\ud835\\\\ud836\\\\ud837\\\\ud838\\\\ud839\\\\ud83a\\\\ud83b\\\\ud83c\\\\ud83d\\\\ud83e\\\\ud83f'"
+            "raw": "'\\\\ud830\\\\ud831\\\\ud832\\\\ud833\\\\ud834\\\\ud835\\\\ud836\\\\ud837\\\\ud838\\\\ud839\\\\ud83a\\\\ud83b\\\\ud83c\\\\ud83d\\\\ud83e\\\\ud83f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4168,
             "end": 4215,
             "value": "High surrogates group 4 are correctly escaped",
-            "raw": "'High surrogates group 4 are correctly escaped'"
+            "raw": "'High surrogates group 4 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1121,14 +1193,18 @@
             "start": 4273,
             "end": 4387,
             "value": "\\ud840\\ud841\\ud842\\ud843\\ud844\\ud845\\ud846\\ud847\\ud848\\ud849\\ud84a\\ud84b\\ud84c\\ud84d\\ud84e\\ud84f",
-            "raw": "'\\\\ud840\\\\ud841\\\\ud842\\\\ud843\\\\ud844\\\\ud845\\\\ud846\\\\ud847\\\\ud848\\\\ud849\\\\ud84a\\\\ud84b\\\\ud84c\\\\ud84d\\\\ud84e\\\\ud84f'"
+            "raw": "'\\\\ud840\\\\ud841\\\\ud842\\\\ud843\\\\ud844\\\\ud845\\\\ud846\\\\ud847\\\\ud848\\\\ud849\\\\ud84a\\\\ud84b\\\\ud84c\\\\ud84d\\\\ud84e\\\\ud84f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4389,
             "end": 4436,
             "value": "High surrogates group 5 are correctly escaped",
-            "raw": "'High surrogates group 5 are correctly escaped'"
+            "raw": "'High surrogates group 5 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1200,14 +1276,18 @@
             "start": 4494,
             "end": 4608,
             "value": "\\ud850\\ud851\\ud852\\ud853\\ud854\\ud855\\ud856\\ud857\\ud858\\ud859\\ud85a\\ud85b\\ud85c\\ud85d\\ud85e\\ud85f",
-            "raw": "'\\\\ud850\\\\ud851\\\\ud852\\\\ud853\\\\ud854\\\\ud855\\\\ud856\\\\ud857\\\\ud858\\\\ud859\\\\ud85a\\\\ud85b\\\\ud85c\\\\ud85d\\\\ud85e\\\\ud85f'"
+            "raw": "'\\\\ud850\\\\ud851\\\\ud852\\\\ud853\\\\ud854\\\\ud855\\\\ud856\\\\ud857\\\\ud858\\\\ud859\\\\ud85a\\\\ud85b\\\\ud85c\\\\ud85d\\\\ud85e\\\\ud85f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4610,
             "end": 4657,
             "value": "High surrogates group 6 are correctly escaped",
-            "raw": "'High surrogates group 6 are correctly escaped'"
+            "raw": "'High surrogates group 6 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1279,14 +1359,18 @@
             "start": 4715,
             "end": 4829,
             "value": "\\ud860\\ud861\\ud862\\ud863\\ud864\\ud865\\ud866\\ud867\\ud868\\ud869\\ud86a\\ud86b\\ud86c\\ud86d\\ud86e\\ud86f",
-            "raw": "'\\\\ud860\\\\ud861\\\\ud862\\\\ud863\\\\ud864\\\\ud865\\\\ud866\\\\ud867\\\\ud868\\\\ud869\\\\ud86a\\\\ud86b\\\\ud86c\\\\ud86d\\\\ud86e\\\\ud86f'"
+            "raw": "'\\\\ud860\\\\ud861\\\\ud862\\\\ud863\\\\ud864\\\\ud865\\\\ud866\\\\ud867\\\\ud868\\\\ud869\\\\ud86a\\\\ud86b\\\\ud86c\\\\ud86d\\\\ud86e\\\\ud86f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4831,
             "end": 4878,
             "value": "High surrogates group 7 are correctly escaped",
-            "raw": "'High surrogates group 7 are correctly escaped'"
+            "raw": "'High surrogates group 7 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1358,14 +1442,18 @@
             "start": 4936,
             "end": 5050,
             "value": "\\ud870\\ud871\\ud872\\ud873\\ud874\\ud875\\ud876\\ud877\\ud878\\ud879\\ud87a\\ud87b\\ud87c\\ud87d\\ud87e\\ud87f",
-            "raw": "'\\\\ud870\\\\ud871\\\\ud872\\\\ud873\\\\ud874\\\\ud875\\\\ud876\\\\ud877\\\\ud878\\\\ud879\\\\ud87a\\\\ud87b\\\\ud87c\\\\ud87d\\\\ud87e\\\\ud87f'"
+            "raw": "'\\\\ud870\\\\ud871\\\\ud872\\\\ud873\\\\ud874\\\\ud875\\\\ud876\\\\ud877\\\\ud878\\\\ud879\\\\ud87a\\\\ud87b\\\\ud87c\\\\ud87d\\\\ud87e\\\\ud87f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5052,
             "end": 5099,
             "value": "High surrogates group 8 are correctly escaped",
-            "raw": "'High surrogates group 8 are correctly escaped'"
+            "raw": "'High surrogates group 8 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1437,14 +1525,18 @@
             "start": 5157,
             "end": 5271,
             "value": "\\ud880\\ud881\\ud882\\ud883\\ud884\\ud885\\ud886\\ud887\\ud888\\ud889\\ud88a\\ud88b\\ud88c\\ud88d\\ud88e\\ud88f",
-            "raw": "'\\\\ud880\\\\ud881\\\\ud882\\\\ud883\\\\ud884\\\\ud885\\\\ud886\\\\ud887\\\\ud888\\\\ud889\\\\ud88a\\\\ud88b\\\\ud88c\\\\ud88d\\\\ud88e\\\\ud88f'"
+            "raw": "'\\\\ud880\\\\ud881\\\\ud882\\\\ud883\\\\ud884\\\\ud885\\\\ud886\\\\ud887\\\\ud888\\\\ud889\\\\ud88a\\\\ud88b\\\\ud88c\\\\ud88d\\\\ud88e\\\\ud88f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5273,
             "end": 5320,
             "value": "High surrogates group 9 are correctly escaped",
-            "raw": "'High surrogates group 9 are correctly escaped'"
+            "raw": "'High surrogates group 9 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1516,14 +1608,18 @@
             "start": 5378,
             "end": 5492,
             "value": "\\ud890\\ud891\\ud892\\ud893\\ud894\\ud895\\ud896\\ud897\\ud898\\ud899\\ud89a\\ud89b\\ud89c\\ud89d\\ud89e\\ud89f",
-            "raw": "'\\\\ud890\\\\ud891\\\\ud892\\\\ud893\\\\ud894\\\\ud895\\\\ud896\\\\ud897\\\\ud898\\\\ud899\\\\ud89a\\\\ud89b\\\\ud89c\\\\ud89d\\\\ud89e\\\\ud89f'"
+            "raw": "'\\\\ud890\\\\ud891\\\\ud892\\\\ud893\\\\ud894\\\\ud895\\\\ud896\\\\ud897\\\\ud898\\\\ud899\\\\ud89a\\\\ud89b\\\\ud89c\\\\ud89d\\\\ud89e\\\\ud89f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5494,
             "end": 5542,
             "value": "High surrogates group 10 are correctly escaped",
-            "raw": "'High surrogates group 10 are correctly escaped'"
+            "raw": "'High surrogates group 10 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1595,14 +1691,18 @@
             "start": 5600,
             "end": 5714,
             "value": "\\ud8a0\\ud8a1\\ud8a2\\ud8a3\\ud8a4\\ud8a5\\ud8a6\\ud8a7\\ud8a8\\ud8a9\\ud8aa\\ud8ab\\ud8ac\\ud8ad\\ud8ae\\ud8af",
-            "raw": "'\\\\ud8a0\\\\ud8a1\\\\ud8a2\\\\ud8a3\\\\ud8a4\\\\ud8a5\\\\ud8a6\\\\ud8a7\\\\ud8a8\\\\ud8a9\\\\ud8aa\\\\ud8ab\\\\ud8ac\\\\ud8ad\\\\ud8ae\\\\ud8af'"
+            "raw": "'\\\\ud8a0\\\\ud8a1\\\\ud8a2\\\\ud8a3\\\\ud8a4\\\\ud8a5\\\\ud8a6\\\\ud8a7\\\\ud8a8\\\\ud8a9\\\\ud8aa\\\\ud8ab\\\\ud8ac\\\\ud8ad\\\\ud8ae\\\\ud8af'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5716,
             "end": 5764,
             "value": "High surrogates group 11 are correctly escaped",
-            "raw": "'High surrogates group 11 are correctly escaped'"
+            "raw": "'High surrogates group 11 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1674,14 +1774,18 @@
             "start": 5822,
             "end": 5936,
             "value": "\\ud8b0\\ud8b1\\ud8b2\\ud8b3\\ud8b4\\ud8b5\\ud8b6\\ud8b7\\ud8b8\\ud8b9\\ud8ba\\ud8bb\\ud8bc\\ud8bd\\ud8be\\ud8bf",
-            "raw": "'\\\\ud8b0\\\\ud8b1\\\\ud8b2\\\\ud8b3\\\\ud8b4\\\\ud8b5\\\\ud8b6\\\\ud8b7\\\\ud8b8\\\\ud8b9\\\\ud8ba\\\\ud8bb\\\\ud8bc\\\\ud8bd\\\\ud8be\\\\ud8bf'"
+            "raw": "'\\\\ud8b0\\\\ud8b1\\\\ud8b2\\\\ud8b3\\\\ud8b4\\\\ud8b5\\\\ud8b6\\\\ud8b7\\\\ud8b8\\\\ud8b9\\\\ud8ba\\\\ud8bb\\\\ud8bc\\\\ud8bd\\\\ud8be\\\\ud8bf'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5938,
             "end": 5986,
             "value": "High surrogates group 12 are correctly escaped",
-            "raw": "'High surrogates group 12 are correctly escaped'"
+            "raw": "'High surrogates group 12 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1753,14 +1857,18 @@
             "start": 6044,
             "end": 6158,
             "value": "\\ud8c0\\ud8c1\\ud8c2\\ud8c3\\ud8c4\\ud8c5\\ud8c6\\ud8c7\\ud8c8\\ud8c9\\ud8ca\\ud8cb\\ud8cc\\ud8cd\\ud8ce\\ud8cf",
-            "raw": "'\\\\ud8c0\\\\ud8c1\\\\ud8c2\\\\ud8c3\\\\ud8c4\\\\ud8c5\\\\ud8c6\\\\ud8c7\\\\ud8c8\\\\ud8c9\\\\ud8ca\\\\ud8cb\\\\ud8cc\\\\ud8cd\\\\ud8ce\\\\ud8cf'"
+            "raw": "'\\\\ud8c0\\\\ud8c1\\\\ud8c2\\\\ud8c3\\\\ud8c4\\\\ud8c5\\\\ud8c6\\\\ud8c7\\\\ud8c8\\\\ud8c9\\\\ud8ca\\\\ud8cb\\\\ud8cc\\\\ud8cd\\\\ud8ce\\\\ud8cf'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6160,
             "end": 6208,
             "value": "High surrogates group 13 are correctly escaped",
-            "raw": "'High surrogates group 13 are correctly escaped'"
+            "raw": "'High surrogates group 13 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1832,14 +1940,18 @@
             "start": 6266,
             "end": 6380,
             "value": "\\ud8d0\\ud8d1\\ud8d2\\ud8d3\\ud8d4\\ud8d5\\ud8d6\\ud8d7\\ud8d8\\ud8d9\\ud8da\\ud8db\\ud8dc\\ud8dd\\ud8de\\ud8df",
-            "raw": "'\\\\ud8d0\\\\ud8d1\\\\ud8d2\\\\ud8d3\\\\ud8d4\\\\ud8d5\\\\ud8d6\\\\ud8d7\\\\ud8d8\\\\ud8d9\\\\ud8da\\\\ud8db\\\\ud8dc\\\\ud8dd\\\\ud8de\\\\ud8df'"
+            "raw": "'\\\\ud8d0\\\\ud8d1\\\\ud8d2\\\\ud8d3\\\\ud8d4\\\\ud8d5\\\\ud8d6\\\\ud8d7\\\\ud8d8\\\\ud8d9\\\\ud8da\\\\ud8db\\\\ud8dc\\\\ud8dd\\\\ud8de\\\\ud8df'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6382,
             "end": 6430,
             "value": "High surrogates group 14 are correctly escaped",
-            "raw": "'High surrogates group 14 are correctly escaped'"
+            "raw": "'High surrogates group 14 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1911,14 +2023,18 @@
             "start": 6488,
             "end": 6602,
             "value": "\\ud8e0\\ud8e1\\ud8e2\\ud8e3\\ud8e4\\ud8e5\\ud8e6\\ud8e7\\ud8e8\\ud8e9\\ud8ea\\ud8eb\\ud8ec\\ud8ed\\ud8ee\\ud8ef",
-            "raw": "'\\\\ud8e0\\\\ud8e1\\\\ud8e2\\\\ud8e3\\\\ud8e4\\\\ud8e5\\\\ud8e6\\\\ud8e7\\\\ud8e8\\\\ud8e9\\\\ud8ea\\\\ud8eb\\\\ud8ec\\\\ud8ed\\\\ud8ee\\\\ud8ef'"
+            "raw": "'\\\\ud8e0\\\\ud8e1\\\\ud8e2\\\\ud8e3\\\\ud8e4\\\\ud8e5\\\\ud8e6\\\\ud8e7\\\\ud8e8\\\\ud8e9\\\\ud8ea\\\\ud8eb\\\\ud8ec\\\\ud8ed\\\\ud8ee\\\\ud8ef'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6604,
             "end": 6652,
             "value": "High surrogates group 15 are correctly escaped",
-            "raw": "'High surrogates group 15 are correctly escaped'"
+            "raw": "'High surrogates group 15 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1990,14 +2106,18 @@
             "start": 6710,
             "end": 6824,
             "value": "\\ud8f0\\ud8f1\\ud8f2\\ud8f3\\ud8f4\\ud8f5\\ud8f6\\ud8f7\\ud8f8\\ud8f9\\ud8fa\\ud8fb\\ud8fc\\ud8fd\\ud8fe\\ud8ff",
-            "raw": "'\\\\ud8f0\\\\ud8f1\\\\ud8f2\\\\ud8f3\\\\ud8f4\\\\ud8f5\\\\ud8f6\\\\ud8f7\\\\ud8f8\\\\ud8f9\\\\ud8fa\\\\ud8fb\\\\ud8fc\\\\ud8fd\\\\ud8fe\\\\ud8ff'"
+            "raw": "'\\\\ud8f0\\\\ud8f1\\\\ud8f2\\\\ud8f3\\\\ud8f4\\\\ud8f5\\\\ud8f6\\\\ud8f7\\\\ud8f8\\\\ud8f9\\\\ud8fa\\\\ud8fb\\\\ud8fc\\\\ud8fd\\\\ud8fe\\\\ud8ff'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6826,
             "end": 6874,
             "value": "High surrogates group 16 are correctly escaped",
-            "raw": "'High surrogates group 16 are correctly escaped'"
+            "raw": "'High surrogates group 16 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2023,7 +2143,9 @@
             "start": 6929,
             "end": 7027,
             "value": "\udc00\udc01\udc02\udc03\udc04\udc05\udc06\udc07\udc08\udc09\udc0a\udc0b\udc0c\udc0d\udc0e\udc0f",
-            "raw": "'\\uDC00\\uDC01\\uDC02\\uDC03\\uDC04\\uDC05\\uDC06\\uDC07\\uDC08\\uDC09\\uDC0A\\uDC0B\\uDC0C\\uDC0D\\uDC0E\\uDC0F'"
+            "raw": "'\\uDC00\\uDC01\\uDC02\\uDC03\\uDC04\\uDC05\\uDC06\\uDC07\\uDC08\\uDC09\\uDC0A\\uDC0B\\uDC0C\\uDC0D\\uDC0E\\uDC0F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2049,7 +2171,9 @@
             "start": 7057,
             "end": 7155,
             "value": "\udc10\udc11\udc12\udc13\udc14\udc15\udc16\udc17\udc18\udc19\udc1a\udc1b\udc1c\udc1d\udc1e\udc1f",
-            "raw": "'\\uDC10\\uDC11\\uDC12\\uDC13\\uDC14\\uDC15\\uDC16\\uDC17\\uDC18\\uDC19\\uDC1A\\uDC1B\\uDC1C\\uDC1D\\uDC1E\\uDC1F'"
+            "raw": "'\\uDC10\\uDC11\\uDC12\\uDC13\\uDC14\\uDC15\\uDC16\\uDC17\\uDC18\\uDC19\\uDC1A\\uDC1B\\uDC1C\\uDC1D\\uDC1E\\uDC1F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2075,7 +2199,9 @@
             "start": 7185,
             "end": 7283,
             "value": "\udc20\udc21\udc22\udc23\udc24\udc25\udc26\udc27\udc28\udc29\udc2a\udc2b\udc2c\udc2d\udc2e\udc2f",
-            "raw": "'\\uDC20\\uDC21\\uDC22\\uDC23\\uDC24\\uDC25\\uDC26\\uDC27\\uDC28\\uDC29\\uDC2A\\uDC2B\\uDC2C\\uDC2D\\uDC2E\\uDC2F'"
+            "raw": "'\\uDC20\\uDC21\\uDC22\\uDC23\\uDC24\\uDC25\\uDC26\\uDC27\\uDC28\\uDC29\\uDC2A\\uDC2B\\uDC2C\\uDC2D\\uDC2E\\uDC2F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2101,7 +2227,9 @@
             "start": 7313,
             "end": 7411,
             "value": "\udc30\udc31\udc32\udc33\udc34\udc35\udc36\udc37\udc38\udc39\udc3a\udc3b\udc3c\udc3d\udc3e\udc3f",
-            "raw": "'\\uDC30\\uDC31\\uDC32\\uDC33\\uDC34\\uDC35\\uDC36\\uDC37\\uDC38\\uDC39\\uDC3A\\uDC3B\\uDC3C\\uDC3D\\uDC3E\\uDC3F'"
+            "raw": "'\\uDC30\\uDC31\\uDC32\\uDC33\\uDC34\\uDC35\\uDC36\\uDC37\\uDC38\\uDC39\\uDC3A\\uDC3B\\uDC3C\\uDC3D\\uDC3E\\uDC3F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2127,7 +2255,9 @@
             "start": 7441,
             "end": 7539,
             "value": "\udc40\udc41\udc42\udc43\udc44\udc45\udc46\udc47\udc48\udc49\udc4a\udc4b\udc4c\udc4d\udc4e\udc4f",
-            "raw": "'\\uDC40\\uDC41\\uDC42\\uDC43\\uDC44\\uDC45\\uDC46\\uDC47\\uDC48\\uDC49\\uDC4A\\uDC4B\\uDC4C\\uDC4D\\uDC4E\\uDC4F'"
+            "raw": "'\\uDC40\\uDC41\\uDC42\\uDC43\\uDC44\\uDC45\\uDC46\\uDC47\\uDC48\\uDC49\\uDC4A\\uDC4B\\uDC4C\\uDC4D\\uDC4E\\uDC4F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2153,7 +2283,9 @@
             "start": 7569,
             "end": 7667,
             "value": "\udc50\udc51\udc52\udc53\udc54\udc55\udc56\udc57\udc58\udc59\udc5a\udc5b\udc5c\udc5d\udc5e\udc5f",
-            "raw": "'\\uDC50\\uDC51\\uDC52\\uDC53\\uDC54\\uDC55\\uDC56\\uDC57\\uDC58\\uDC59\\uDC5A\\uDC5B\\uDC5C\\uDC5D\\uDC5E\\uDC5F'"
+            "raw": "'\\uDC50\\uDC51\\uDC52\\uDC53\\uDC54\\uDC55\\uDC56\\uDC57\\uDC58\\uDC59\\uDC5A\\uDC5B\\uDC5C\\uDC5D\\uDC5E\\uDC5F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2179,7 +2311,9 @@
             "start": 7697,
             "end": 7795,
             "value": "\udc60\udc61\udc62\udc63\udc64\udc65\udc66\udc67\udc68\udc69\udc6a\udc6b\udc6c\udc6d\udc6e\udc6f",
-            "raw": "'\\uDC60\\uDC61\\uDC62\\uDC63\\uDC64\\uDC65\\uDC66\\uDC67\\uDC68\\uDC69\\uDC6A\\uDC6B\\uDC6C\\uDC6D\\uDC6E\\uDC6F'"
+            "raw": "'\\uDC60\\uDC61\\uDC62\\uDC63\\uDC64\\uDC65\\uDC66\\uDC67\\uDC68\\uDC69\\uDC6A\\uDC6B\\uDC6C\\uDC6D\\uDC6E\\uDC6F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2205,7 +2339,9 @@
             "start": 7825,
             "end": 7923,
             "value": "\udc70\udc71\udc72\udc73\udc74\udc75\udc76\udc77\udc78\udc79\udc7a\udc7b\udc7c\udc7d\udc7e\udc7f",
-            "raw": "'\\uDC70\\uDC71\\uDC72\\uDC73\\uDC74\\uDC75\\uDC76\\uDC77\\uDC78\\uDC79\\uDC7A\\uDC7B\\uDC7C\\uDC7D\\uDC7E\\uDC7F'"
+            "raw": "'\\uDC70\\uDC71\\uDC72\\uDC73\\uDC74\\uDC75\\uDC76\\uDC77\\uDC78\\uDC79\\uDC7A\\uDC7B\\uDC7C\\uDC7D\\uDC7E\\uDC7F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2231,7 +2367,9 @@
             "start": 7953,
             "end": 8051,
             "value": "\udc80\udc81\udc82\udc83\udc84\udc85\udc86\udc87\udc88\udc89\udc8a\udc8b\udc8c\udc8d\udc8e\udc8f",
-            "raw": "'\\uDC80\\uDC81\\uDC82\\uDC83\\uDC84\\uDC85\\uDC86\\uDC87\\uDC88\\uDC89\\uDC8A\\uDC8B\\uDC8C\\uDC8D\\uDC8E\\uDC8F'"
+            "raw": "'\\uDC80\\uDC81\\uDC82\\uDC83\\uDC84\\uDC85\\uDC86\\uDC87\\uDC88\\uDC89\\uDC8A\\uDC8B\\uDC8C\\uDC8D\\uDC8E\\uDC8F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2257,7 +2395,9 @@
             "start": 8082,
             "end": 8180,
             "value": "\udc90\udc91\udc92\udc93\udc94\udc95\udc96\udc97\udc98\udc99\udc9a\udc9b\udc9c\udc9d\udc9e\udc9f",
-            "raw": "'\\uDC90\\uDC91\\uDC92\\uDC93\\uDC94\\uDC95\\uDC96\\uDC97\\uDC98\\uDC99\\uDC9A\\uDC9B\\uDC9C\\uDC9D\\uDC9E\\uDC9F'"
+            "raw": "'\\uDC90\\uDC91\\uDC92\\uDC93\\uDC94\\uDC95\\uDC96\\uDC97\\uDC98\\uDC99\\uDC9A\\uDC9B\\uDC9C\\uDC9D\\uDC9E\\uDC9F'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2283,7 +2423,9 @@
             "start": 8211,
             "end": 8309,
             "value": "\udca0\udca1\udca2\udca3\udca4\udca5\udca6\udca7\udca8\udca9\udcaa\udcab\udcac\udcad\udcae\udcaf",
-            "raw": "'\\uDCA0\\uDCA1\\uDCA2\\uDCA3\\uDCA4\\uDCA5\\uDCA6\\uDCA7\\uDCA8\\uDCA9\\uDCAA\\uDCAB\\uDCAC\\uDCAD\\uDCAE\\uDCAF'"
+            "raw": "'\\uDCA0\\uDCA1\\uDCA2\\uDCA3\\uDCA4\\uDCA5\\uDCA6\\uDCA7\\uDCA8\\uDCA9\\uDCAA\\uDCAB\\uDCAC\\uDCAD\\uDCAE\\uDCAF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2309,7 +2451,9 @@
             "start": 8340,
             "end": 8438,
             "value": "\udcb0\udcb1\udcb2\udcb3\udcb4\udcb5\udcb6\udcb7\udcb8\udcb9\udcba\udcbb\udcbc\udcbd\udcbe\udcbf",
-            "raw": "'\\uDCB0\\uDCB1\\uDCB2\\uDCB3\\uDCB4\\uDCB5\\uDCB6\\uDCB7\\uDCB8\\uDCB9\\uDCBA\\uDCBB\\uDCBC\\uDCBD\\uDCBE\\uDCBF'"
+            "raw": "'\\uDCB0\\uDCB1\\uDCB2\\uDCB3\\uDCB4\\uDCB5\\uDCB6\\uDCB7\\uDCB8\\uDCB9\\uDCBA\\uDCBB\\uDCBC\\uDCBD\\uDCBE\\uDCBF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2335,7 +2479,9 @@
             "start": 8469,
             "end": 8567,
             "value": "\udcc0\udcc1\udcc2\udcc3\udcc4\udcc5\udcc6\udcc7\udcc8\udcc9\udcca\udccb\udccc\udccd\udcce\udccf",
-            "raw": "'\\uDCC0\\uDCC1\\uDCC2\\uDCC3\\uDCC4\\uDCC5\\uDCC6\\uDCC7\\uDCC8\\uDCC9\\uDCCA\\uDCCB\\uDCCC\\uDCCD\\uDCCE\\uDCCF'"
+            "raw": "'\\uDCC0\\uDCC1\\uDCC2\\uDCC3\\uDCC4\\uDCC5\\uDCC6\\uDCC7\\uDCC8\\uDCC9\\uDCCA\\uDCCB\\uDCCC\\uDCCD\\uDCCE\\uDCCF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2361,7 +2507,9 @@
             "start": 8598,
             "end": 8696,
             "value": "\udcd0\udcd1\udcd2\udcd3\udcd4\udcd5\udcd6\udcd7\udcd8\udcd9\udcda\udcdb\udcdc\udcdd\udcde\udcdf",
-            "raw": "'\\uDCD0\\uDCD1\\uDCD2\\uDCD3\\uDCD4\\uDCD5\\uDCD6\\uDCD7\\uDCD8\\uDCD9\\uDCDA\\uDCDB\\uDCDC\\uDCDD\\uDCDE\\uDCDF'"
+            "raw": "'\\uDCD0\\uDCD1\\uDCD2\\uDCD3\\uDCD4\\uDCD5\\uDCD6\\uDCD7\\uDCD8\\uDCD9\\uDCDA\\uDCDB\\uDCDC\\uDCDD\\uDCDE\\uDCDF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2387,7 +2535,9 @@
             "start": 8727,
             "end": 8825,
             "value": "\udce0\udce1\udce2\udce3\udce4\udce5\udce6\udce7\udce8\udce9\udcea\udceb\udcec\udced\udcee\udcef",
-            "raw": "'\\uDCE0\\uDCE1\\uDCE2\\uDCE3\\uDCE4\\uDCE5\\uDCE6\\uDCE7\\uDCE8\\uDCE9\\uDCEA\\uDCEB\\uDCEC\\uDCED\\uDCEE\\uDCEF'"
+            "raw": "'\\uDCE0\\uDCE1\\uDCE2\\uDCE3\\uDCE4\\uDCE5\\uDCE6\\uDCE7\\uDCE8\\uDCE9\\uDCEA\\uDCEB\\uDCEC\\uDCED\\uDCEE\\uDCEF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2413,7 +2563,9 @@
             "start": 8856,
             "end": 8954,
             "value": "\udcf0\udcf1\udcf2\udcf3\udcf4\udcf5\udcf6\udcf7\udcf8\udcf9\udcfa\udcfb\udcfc\udcfd\udcfe\udcff",
-            "raw": "'\\uDCF0\\uDCF1\\uDCF2\\uDCF3\\uDCF4\\uDCF5\\uDCF6\\uDCF7\\uDCF8\\uDCF9\\uDCFA\\uDCFB\\uDCFC\\uDCFD\\uDCFE\\uDCFF'"
+            "raw": "'\\uDCF0\\uDCF1\\uDCF2\\uDCF3\\uDCF4\\uDCF5\\uDCF6\\uDCF7\\uDCF8\\uDCF9\\uDCFA\\uDCFB\\uDCFC\\uDCFD\\uDCFE\\uDCFF'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -2485,14 +2637,18 @@
             "start": 9011,
             "end": 9125,
             "value": "\\udc00\\udc01\\udc02\\udc03\\udc04\\udc05\\udc06\\udc07\\udc08\\udc09\\udc0a\\udc0b\\udc0c\\udc0d\\udc0e\\udc0f",
-            "raw": "'\\\\udc00\\\\udc01\\\\udc02\\\\udc03\\\\udc04\\\\udc05\\\\udc06\\\\udc07\\\\udc08\\\\udc09\\\\udc0a\\\\udc0b\\\\udc0c\\\\udc0d\\\\udc0e\\\\udc0f'"
+            "raw": "'\\\\udc00\\\\udc01\\\\udc02\\\\udc03\\\\udc04\\\\udc05\\\\udc06\\\\udc07\\\\udc08\\\\udc09\\\\udc0a\\\\udc0b\\\\udc0c\\\\udc0d\\\\udc0e\\\\udc0f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9127,
             "end": 9173,
             "value": "Low surrogates group 1 are correctly escaped",
-            "raw": "'Low surrogates group 1 are correctly escaped'"
+            "raw": "'Low surrogates group 1 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2564,14 +2720,18 @@
             "start": 9230,
             "end": 9344,
             "value": "\\udc10\\udc11\\udc12\\udc13\\udc14\\udc15\\udc16\\udc17\\udc18\\udc19\\udc1a\\udc1b\\udc1c\\udc1d\\udc1e\\udc1f",
-            "raw": "'\\\\udc10\\\\udc11\\\\udc12\\\\udc13\\\\udc14\\\\udc15\\\\udc16\\\\udc17\\\\udc18\\\\udc19\\\\udc1a\\\\udc1b\\\\udc1c\\\\udc1d\\\\udc1e\\\\udc1f'"
+            "raw": "'\\\\udc10\\\\udc11\\\\udc12\\\\udc13\\\\udc14\\\\udc15\\\\udc16\\\\udc17\\\\udc18\\\\udc19\\\\udc1a\\\\udc1b\\\\udc1c\\\\udc1d\\\\udc1e\\\\udc1f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9346,
             "end": 9392,
             "value": "Low surrogates group 2 are correctly escaped",
-            "raw": "'Low surrogates group 2 are correctly escaped'"
+            "raw": "'Low surrogates group 2 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2643,14 +2803,18 @@
             "start": 9449,
             "end": 9563,
             "value": "\\udc20\\udc21\\udc22\\udc23\\udc24\\udc25\\udc26\\udc27\\udc28\\udc29\\udc2a\\udc2b\\udc2c\\udc2d\\udc2e\\udc2f",
-            "raw": "'\\\\udc20\\\\udc21\\\\udc22\\\\udc23\\\\udc24\\\\udc25\\\\udc26\\\\udc27\\\\udc28\\\\udc29\\\\udc2a\\\\udc2b\\\\udc2c\\\\udc2d\\\\udc2e\\\\udc2f'"
+            "raw": "'\\\\udc20\\\\udc21\\\\udc22\\\\udc23\\\\udc24\\\\udc25\\\\udc26\\\\udc27\\\\udc28\\\\udc29\\\\udc2a\\\\udc2b\\\\udc2c\\\\udc2d\\\\udc2e\\\\udc2f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9565,
             "end": 9611,
             "value": "Low surrogates group 3 are correctly escaped",
-            "raw": "'Low surrogates group 3 are correctly escaped'"
+            "raw": "'Low surrogates group 3 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2722,14 +2886,18 @@
             "start": 9668,
             "end": 9782,
             "value": "\\udc30\\udc31\\udc32\\udc33\\udc34\\udc35\\udc36\\udc37\\udc38\\udc39\\udc3a\\udc3b\\udc3c\\udc3d\\udc3e\\udc3f",
-            "raw": "'\\\\udc30\\\\udc31\\\\udc32\\\\udc33\\\\udc34\\\\udc35\\\\udc36\\\\udc37\\\\udc38\\\\udc39\\\\udc3a\\\\udc3b\\\\udc3c\\\\udc3d\\\\udc3e\\\\udc3f'"
+            "raw": "'\\\\udc30\\\\udc31\\\\udc32\\\\udc33\\\\udc34\\\\udc35\\\\udc36\\\\udc37\\\\udc38\\\\udc39\\\\udc3a\\\\udc3b\\\\udc3c\\\\udc3d\\\\udc3e\\\\udc3f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9784,
             "end": 9830,
             "value": "Low surrogates group 4 are correctly escaped",
-            "raw": "'Low surrogates group 4 are correctly escaped'"
+            "raw": "'Low surrogates group 4 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2801,14 +2969,18 @@
             "start": 9887,
             "end": 10001,
             "value": "\\udc40\\udc41\\udc42\\udc43\\udc44\\udc45\\udc46\\udc47\\udc48\\udc49\\udc4a\\udc4b\\udc4c\\udc4d\\udc4e\\udc4f",
-            "raw": "'\\\\udc40\\\\udc41\\\\udc42\\\\udc43\\\\udc44\\\\udc45\\\\udc46\\\\udc47\\\\udc48\\\\udc49\\\\udc4a\\\\udc4b\\\\udc4c\\\\udc4d\\\\udc4e\\\\udc4f'"
+            "raw": "'\\\\udc40\\\\udc41\\\\udc42\\\\udc43\\\\udc44\\\\udc45\\\\udc46\\\\udc47\\\\udc48\\\\udc49\\\\udc4a\\\\udc4b\\\\udc4c\\\\udc4d\\\\udc4e\\\\udc4f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10003,
             "end": 10049,
             "value": "Low surrogates group 5 are correctly escaped",
-            "raw": "'Low surrogates group 5 are correctly escaped'"
+            "raw": "'Low surrogates group 5 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2880,14 +3052,18 @@
             "start": 10106,
             "end": 10220,
             "value": "\\udc50\\udc51\\udc52\\udc53\\udc54\\udc55\\udc56\\udc57\\udc58\\udc59\\udc5a\\udc5b\\udc5c\\udc5d\\udc5e\\udc5f",
-            "raw": "'\\\\udc50\\\\udc51\\\\udc52\\\\udc53\\\\udc54\\\\udc55\\\\udc56\\\\udc57\\\\udc58\\\\udc59\\\\udc5a\\\\udc5b\\\\udc5c\\\\udc5d\\\\udc5e\\\\udc5f'"
+            "raw": "'\\\\udc50\\\\udc51\\\\udc52\\\\udc53\\\\udc54\\\\udc55\\\\udc56\\\\udc57\\\\udc58\\\\udc59\\\\udc5a\\\\udc5b\\\\udc5c\\\\udc5d\\\\udc5e\\\\udc5f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10222,
             "end": 10268,
             "value": "Low surrogates group 6 are correctly escaped",
-            "raw": "'Low surrogates group 6 are correctly escaped'"
+            "raw": "'Low surrogates group 6 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2959,14 +3135,18 @@
             "start": 10325,
             "end": 10439,
             "value": "\\udc60\\udc61\\udc62\\udc63\\udc64\\udc65\\udc66\\udc67\\udc68\\udc69\\udc6a\\udc6b\\udc6c\\udc6d\\udc6e\\udc6f",
-            "raw": "'\\\\udc60\\\\udc61\\\\udc62\\\\udc63\\\\udc64\\\\udc65\\\\udc66\\\\udc67\\\\udc68\\\\udc69\\\\udc6a\\\\udc6b\\\\udc6c\\\\udc6d\\\\udc6e\\\\udc6f'"
+            "raw": "'\\\\udc60\\\\udc61\\\\udc62\\\\udc63\\\\udc64\\\\udc65\\\\udc66\\\\udc67\\\\udc68\\\\udc69\\\\udc6a\\\\udc6b\\\\udc6c\\\\udc6d\\\\udc6e\\\\udc6f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10441,
             "end": 10487,
             "value": "Low surrogates group 7 are correctly escaped",
-            "raw": "'Low surrogates group 7 are correctly escaped'"
+            "raw": "'Low surrogates group 7 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3038,14 +3218,18 @@
             "start": 10544,
             "end": 10658,
             "value": "\\udc70\\udc71\\udc72\\udc73\\udc74\\udc75\\udc76\\udc77\\udc78\\udc79\\udc7a\\udc7b\\udc7c\\udc7d\\udc7e\\udc7f",
-            "raw": "'\\\\udc70\\\\udc71\\\\udc72\\\\udc73\\\\udc74\\\\udc75\\\\udc76\\\\udc77\\\\udc78\\\\udc79\\\\udc7a\\\\udc7b\\\\udc7c\\\\udc7d\\\\udc7e\\\\udc7f'"
+            "raw": "'\\\\udc70\\\\udc71\\\\udc72\\\\udc73\\\\udc74\\\\udc75\\\\udc76\\\\udc77\\\\udc78\\\\udc79\\\\udc7a\\\\udc7b\\\\udc7c\\\\udc7d\\\\udc7e\\\\udc7f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10660,
             "end": 10706,
             "value": "Low surrogates group 8 are correctly escaped",
-            "raw": "'Low surrogates group 8 are correctly escaped'"
+            "raw": "'Low surrogates group 8 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3117,14 +3301,18 @@
             "start": 10763,
             "end": 10877,
             "value": "\\udc80\\udc81\\udc82\\udc83\\udc84\\udc85\\udc86\\udc87\\udc88\\udc89\\udc8a\\udc8b\\udc8c\\udc8d\\udc8e\\udc8f",
-            "raw": "'\\\\udc80\\\\udc81\\\\udc82\\\\udc83\\\\udc84\\\\udc85\\\\udc86\\\\udc87\\\\udc88\\\\udc89\\\\udc8a\\\\udc8b\\\\udc8c\\\\udc8d\\\\udc8e\\\\udc8f'"
+            "raw": "'\\\\udc80\\\\udc81\\\\udc82\\\\udc83\\\\udc84\\\\udc85\\\\udc86\\\\udc87\\\\udc88\\\\udc89\\\\udc8a\\\\udc8b\\\\udc8c\\\\udc8d\\\\udc8e\\\\udc8f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10879,
             "end": 10925,
             "value": "Low surrogates group 9 are correctly escaped",
-            "raw": "'Low surrogates group 9 are correctly escaped'"
+            "raw": "'Low surrogates group 9 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3196,14 +3384,18 @@
             "start": 10982,
             "end": 11096,
             "value": "\\udc90\\udc91\\udc92\\udc93\\udc94\\udc95\\udc96\\udc97\\udc98\\udc99\\udc9a\\udc9b\\udc9c\\udc9d\\udc9e\\udc9f",
-            "raw": "'\\\\udc90\\\\udc91\\\\udc92\\\\udc93\\\\udc94\\\\udc95\\\\udc96\\\\udc97\\\\udc98\\\\udc99\\\\udc9a\\\\udc9b\\\\udc9c\\\\udc9d\\\\udc9e\\\\udc9f'"
+            "raw": "'\\\\udc90\\\\udc91\\\\udc92\\\\udc93\\\\udc94\\\\udc95\\\\udc96\\\\udc97\\\\udc98\\\\udc99\\\\udc9a\\\\udc9b\\\\udc9c\\\\udc9d\\\\udc9e\\\\udc9f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11098,
             "end": 11145,
             "value": "Low surrogates group 10 are correctly escaped",
-            "raw": "'Low surrogates group 10 are correctly escaped'"
+            "raw": "'Low surrogates group 10 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3275,14 +3467,18 @@
             "start": 11202,
             "end": 11316,
             "value": "\\udca0\\udca1\\udca2\\udca3\\udca4\\udca5\\udca6\\udca7\\udca8\\udca9\\udcaa\\udcab\\udcac\\udcad\\udcae\\udcaf",
-            "raw": "'\\\\udca0\\\\udca1\\\\udca2\\\\udca3\\\\udca4\\\\udca5\\\\udca6\\\\udca7\\\\udca8\\\\udca9\\\\udcaa\\\\udcab\\\\udcac\\\\udcad\\\\udcae\\\\udcaf'"
+            "raw": "'\\\\udca0\\\\udca1\\\\udca2\\\\udca3\\\\udca4\\\\udca5\\\\udca6\\\\udca7\\\\udca8\\\\udca9\\\\udcaa\\\\udcab\\\\udcac\\\\udcad\\\\udcae\\\\udcaf'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11318,
             "end": 11365,
             "value": "Low surrogates group 11 are correctly escaped",
-            "raw": "'Low surrogates group 11 are correctly escaped'"
+            "raw": "'Low surrogates group 11 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3354,14 +3550,18 @@
             "start": 11422,
             "end": 11536,
             "value": "\\udcb0\\udcb1\\udcb2\\udcb3\\udcb4\\udcb5\\udcb6\\udcb7\\udcb8\\udcb9\\udcba\\udcbb\\udcbc\\udcbd\\udcbe\\udcbf",
-            "raw": "'\\\\udcb0\\\\udcb1\\\\udcb2\\\\udcb3\\\\udcb4\\\\udcb5\\\\udcb6\\\\udcb7\\\\udcb8\\\\udcb9\\\\udcba\\\\udcbb\\\\udcbc\\\\udcbd\\\\udcbe\\\\udcbf'"
+            "raw": "'\\\\udcb0\\\\udcb1\\\\udcb2\\\\udcb3\\\\udcb4\\\\udcb5\\\\udcb6\\\\udcb7\\\\udcb8\\\\udcb9\\\\udcba\\\\udcbb\\\\udcbc\\\\udcbd\\\\udcbe\\\\udcbf'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11538,
             "end": 11585,
             "value": "Low surrogates group 12 are correctly escaped",
-            "raw": "'Low surrogates group 12 are correctly escaped'"
+            "raw": "'Low surrogates group 12 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3433,14 +3633,18 @@
             "start": 11642,
             "end": 11756,
             "value": "\\udcc0\\udcc1\\udcc2\\udcc3\\udcc4\\udcc5\\udcc6\\udcc7\\udcc8\\udcc9\\udcca\\udccb\\udccc\\udccd\\udcce\\udccf",
-            "raw": "'\\\\udcc0\\\\udcc1\\\\udcc2\\\\udcc3\\\\udcc4\\\\udcc5\\\\udcc6\\\\udcc7\\\\udcc8\\\\udcc9\\\\udcca\\\\udccb\\\\udccc\\\\udccd\\\\udcce\\\\udccf'"
+            "raw": "'\\\\udcc0\\\\udcc1\\\\udcc2\\\\udcc3\\\\udcc4\\\\udcc5\\\\udcc6\\\\udcc7\\\\udcc8\\\\udcc9\\\\udcca\\\\udccb\\\\udccc\\\\udccd\\\\udcce\\\\udccf'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11758,
             "end": 11805,
             "value": "Low surrogates group 13 are correctly escaped",
-            "raw": "'Low surrogates group 13 are correctly escaped'"
+            "raw": "'Low surrogates group 13 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3512,14 +3716,18 @@
             "start": 11862,
             "end": 11976,
             "value": "\\udcd0\\udcd1\\udcd2\\udcd3\\udcd4\\udcd5\\udcd6\\udcd7\\udcd8\\udcd9\\udcda\\udcdb\\udcdc\\udcdd\\udcde\\udcdf",
-            "raw": "'\\\\udcd0\\\\udcd1\\\\udcd2\\\\udcd3\\\\udcd4\\\\udcd5\\\\udcd6\\\\udcd7\\\\udcd8\\\\udcd9\\\\udcda\\\\udcdb\\\\udcdc\\\\udcdd\\\\udcde\\\\udcdf'"
+            "raw": "'\\\\udcd0\\\\udcd1\\\\udcd2\\\\udcd3\\\\udcd4\\\\udcd5\\\\udcd6\\\\udcd7\\\\udcd8\\\\udcd9\\\\udcda\\\\udcdb\\\\udcdc\\\\udcdd\\\\udcde\\\\udcdf'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11978,
             "end": 12025,
             "value": "Low surrogates group 14 are correctly escaped",
-            "raw": "'Low surrogates group 14 are correctly escaped'"
+            "raw": "'Low surrogates group 14 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3591,14 +3799,18 @@
             "start": 12082,
             "end": 12196,
             "value": "\\udce0\\udce1\\udce2\\udce3\\udce4\\udce5\\udce6\\udce7\\udce8\\udce9\\udcea\\udceb\\udcec\\udced\\udcee\\udcef",
-            "raw": "'\\\\udce0\\\\udce1\\\\udce2\\\\udce3\\\\udce4\\\\udce5\\\\udce6\\\\udce7\\\\udce8\\\\udce9\\\\udcea\\\\udceb\\\\udcec\\\\udced\\\\udcee\\\\udcef'"
+            "raw": "'\\\\udce0\\\\udce1\\\\udce2\\\\udce3\\\\udce4\\\\udce5\\\\udce6\\\\udce7\\\\udce8\\\\udce9\\\\udcea\\\\udceb\\\\udcec\\\\udced\\\\udcee\\\\udcef'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12198,
             "end": 12245,
             "value": "Low surrogates group 15 are correctly escaped",
-            "raw": "'Low surrogates group 15 are correctly escaped'"
+            "raw": "'Low surrogates group 15 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3670,14 +3882,18 @@
             "start": 12302,
             "end": 12416,
             "value": "\\udcf0\\udcf1\\udcf2\\udcf3\\udcf4\\udcf5\\udcf6\\udcf7\\udcf8\\udcf9\\udcfa\\udcfb\\udcfc\\udcfd\\udcfe\\udcff",
-            "raw": "'\\\\udcf0\\\\udcf1\\\\udcf2\\\\udcf3\\\\udcf4\\\\udcf5\\\\udcf6\\\\udcf7\\\\udcf8\\\\udcf9\\\\udcfa\\\\udcfb\\\\udcfc\\\\udcfd\\\\udcfe\\\\udcff'"
+            "raw": "'\\\\udcf0\\\\udcf1\\\\udcf2\\\\udcf3\\\\udcf4\\\\udcf5\\\\udcf6\\\\udcf7\\\\udcf8\\\\udcf9\\\\udcfa\\\\udcfb\\\\udcfc\\\\udcfd\\\\udcfe\\\\udcff'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12418,
             "end": 12465,
             "value": "Low surrogates group 16 are correctly escaped",
-            "raw": "'Low surrogates group 16 are correctly escaped'"
+            "raw": "'Low surrogates group 16 are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

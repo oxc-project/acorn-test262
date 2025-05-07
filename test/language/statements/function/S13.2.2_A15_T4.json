@@ -108,7 +108,9 @@
                     "start": 563,
                     "end": 564,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -168,7 +170,9 @@
                     "start": 595,
                     "end": 598,
                     "value": "A",
-                    "raw": "\"A\""
+                    "raw": "\"A\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -285,7 +289,9 @@
           "start": 772,
           "end": 775,
           "value": "A",
-          "raw": "\"A\""
+          "raw": "\"A\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -317,7 +323,9 @@
                     "start": 803,
                     "end": 847,
                     "value": "#1: obj.prop === \"A\". Actual: obj.prop ===",
-                    "raw": "'#1: obj.prop === \"A\". Actual: obj.prop ==='"
+                    "raw": "'#1: obj.prop === \"A\". Actual: obj.prop ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -380,7 +388,9 @@
           "start": 1052,
           "end": 1055,
           "value": "A",
-          "raw": "\"A\""
+          "raw": "\"A\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -412,7 +422,9 @@
                     "start": 1083,
                     "end": 1131,
                     "value": "#2: __obj.prop === \"A\". Actual: __obj.prop ===",
-                    "raw": "'#2: __obj.prop === \"A\". Actual: __obj.prop ==='"
+                    "raw": "'#2: __obj.prop === \"A\". Actual: __obj.prop ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -488,7 +500,9 @@
           "start": 1340,
           "end": 1341,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -520,7 +534,9 @@
                     "start": 1369,
                     "end": 1424,
                     "value": "#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ===",
-                    "raw": "'#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ==='"
+                    "raw": "'#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

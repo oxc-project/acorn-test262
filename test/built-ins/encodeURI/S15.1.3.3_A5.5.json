@@ -39,7 +39,9 @@
               "start": 321,
               "end": 332,
               "value": "encodeURI",
-              "raw": "'encodeURI'"
+              "raw": "'encodeURI'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -50,7 +52,9 @@
           "start": 338,
           "end": 343,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -82,7 +86,9 @@
                     "start": 372,
                     "end": 438,
                     "value": "#1: this.propertyIsEnumerable('encodeURI') === false. Actual: ",
-                    "raw": "'#1: this.propertyIsEnumerable(\\'encodeURI\\') === false. Actual: '"
+                    "raw": "'#1: this.propertyIsEnumerable(\\'encodeURI\\') === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -117,7 +123,9 @@
                           "start": 468,
                           "end": 479,
                           "value": "encodeURI",
-                          "raw": "'encodeURI'"
+                          "raw": "'encodeURI'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -151,7 +159,9 @@
             "start": 510,
             "end": 514,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -211,7 +221,9 @@
                 "start": 550,
                 "end": 561,
                 "value": "encodeURI",
-                "raw": "\"encodeURI\""
+                "raw": "\"encodeURI\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -239,7 +251,9 @@
                       "start": 578,
                       "end": 583,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -270,7 +284,9 @@
           "start": 607,
           "end": 611,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -298,7 +314,9 @@
                   "start": 640,
                   "end": 737,
                   "value": "#2: result = true; for (p in this) { if (p === \"encodeURI\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in this) { if (p === \"encodeURI\") result = false; }  result === true;'"
+                  "raw": "'#2: result = true; for (p in this) { if (p === \"encodeURI\") result = false; }  result === true;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

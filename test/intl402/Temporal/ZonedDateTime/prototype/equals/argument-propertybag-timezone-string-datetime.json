@@ -23,7 +23,9 @@
             "start": 326,
             "end": 345,
             "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "raw": "\"America/Vancouver\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 393,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -108,7 +111,9 @@
             "start": 429,
             "end": 466,
             "value": "2021-08-19T17:30[America/Vancouver]",
-            "raw": "\"2021-08-19T17:30[America/Vancouver]\""
+            "raw": "\"2021-08-19T17:30[America/Vancouver]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -176,7 +181,9 @@
                       "start": 499,
                       "end": 503,
                       "value": 1969,
-                      "raw": "1969"
+                      "raw": "1969",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -198,7 +205,9 @@
                       "start": 512,
                       "end": 514,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -220,7 +229,9 @@
                       "start": 521,
                       "end": 523,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -242,7 +253,9 @@
                       "start": 531,
                       "end": 533,
                       "value": 16,
-                      "raw": "16"
+                      "raw": "16",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -277,7 +290,9 @@
             "start": 548,
             "end": 599,
             "value": "date-time + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + IANA annotation is the IANA time zone\""
+            "raw": "\"date-time + IANA annotation is the IANA time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +318,9 @@
           "start": 614,
           "end": 652,
           "value": "2021-08-19T17:30Z[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30Z[America/Vancouver]\""
+          "raw": "\"2021-08-19T17:30Z[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -369,7 +386,9 @@
                       "start": 685,
                       "end": 689,
                       "value": 1969,
-                      "raw": "1969"
+                      "raw": "1969",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -391,7 +410,9 @@
                       "start": 698,
                       "end": 700,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -413,7 +434,9 @@
                       "start": 707,
                       "end": 709,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -435,7 +458,9 @@
                       "start": 717,
                       "end": 719,
                       "value": 16,
-                      "raw": "16"
+                      "raw": "16",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -470,7 +495,9 @@
             "start": 734,
             "end": 789,
             "value": "date-time + Z + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\""
+            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -496,7 +523,9 @@
           "start": 804,
           "end": 847,
           "value": "2021-08-19T17:30-07:00[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\""
+          "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -562,7 +591,9 @@
                       "start": 880,
                       "end": 884,
                       "value": 1969,
-                      "raw": "1969"
+                      "raw": "1969",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -584,7 +615,9 @@
                       "start": 893,
                       "end": 895,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -606,7 +639,9 @@
                       "start": 902,
                       "end": 904,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -628,7 +663,9 @@
                       "start": 912,
                       "end": 914,
                       "value": 16,
-                      "raw": "16"
+                      "raw": "16",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -663,7 +700,9 @@
             "start": 929,
             "end": 989,
             "value": "date-time + offset + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\""
+            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

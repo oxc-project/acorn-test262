@@ -115,7 +115,9 @@
             "start": 640,
             "end": 648,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -302,7 +304,9 @@
                                       "start": 812,
                                       "end": 816,
                                       "value": true,
-                                      "raw": "true"
+                                      "raw": "true",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -435,7 +439,9 @@
             "start": 936,
             "end": 1017,
             "value": "Array.from.call(poisonedPrototypeLength, items) throws a Test262Error exception",
-            "raw": "'Array.from.call(poisonedPrototypeLength, items) throws a Test262Error exception'"
+            "raw": "'Array.from.call(poisonedPrototypeLength, items) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

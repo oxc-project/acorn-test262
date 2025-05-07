@@ -82,7 +82,9 @@
                             "start": 365,
                             "end": 366,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -162,7 +164,9 @@
             "start": 418,
             "end": 457,
             "value": "`this` value cannot be an ArrayBuffer",
-            "raw": "\"`this` value cannot be an ArrayBuffer\""
+            "raw": "\"`this` value cannot be an ArrayBuffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

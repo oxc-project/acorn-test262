@@ -63,7 +63,9 @@
             "start": 473,
             "end": 477,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -120,7 +122,9 @@
             "start": 518,
             "end": 535,
             "value": "var test262Var;",
-            "raw": "'var test262Var;'"
+            "raw": "'var test262Var;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -159,7 +163,9 @@
             "start": 554,
             "end": 580,
             "value": "function test262Var() {}",
-            "raw": "'function test262Var() {}'"
+            "raw": "'function test262Var() {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -246,7 +252,9 @@
                         "start": 642,
                         "end": 666,
                         "value": "var x; var test262Let;",
-                        "raw": "'var x; var test262Let;'"
+                        "raw": "'var x; var test262Let;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -260,7 +268,9 @@
             "start": 672,
             "end": 696,
             "value": "`var` on `let` binding",
-            "raw": "'`var` on `let` binding'"
+            "raw": "'`var` on `let` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +343,9 @@
             "start": 750,
             "end": 817,
             "value": "no bindings created (script declaring a `var` on a `let` binding)",
-            "raw": "'no bindings created (script declaring a `var` on a `let` binding)'"
+            "raw": "'no bindings created (script declaring a `var` on a `let` binding)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -420,7 +432,9 @@
                         "start": 879,
                         "end": 905,
                         "value": "var x; var test262Const;",
-                        "raw": "'var x; var test262Const;'"
+                        "raw": "'var x; var test262Const;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -434,7 +448,9 @@
             "start": 911,
             "end": 937,
             "value": "`var` on `const` binding",
-            "raw": "'`var` on `const` binding'"
+            "raw": "'`var` on `const` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -507,7 +523,9 @@
             "start": 991,
             "end": 1060,
             "value": "no bindings created (script declaring a `var` on a `const` binding)",
-            "raw": "'no bindings created (script declaring a `var` on a `const` binding)'"
+            "raw": "'no bindings created (script declaring a `var` on a `const` binding)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -594,7 +612,9 @@
                         "start": 1122,
                         "end": 1148,
                         "value": "var x; var test262Class;",
-                        "raw": "'var x; var test262Class;'"
+                        "raw": "'var x; var test262Class;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -608,7 +628,9 @@
             "start": 1154,
             "end": 1180,
             "value": "`var` on `class` binding",
-            "raw": "'`var` on `class` binding'"
+            "raw": "'`var` on `class` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -681,7 +703,9 @@
             "start": 1234,
             "end": 1303,
             "value": "no bindings created (script declaring a `var` on a `class` binding)",
-            "raw": "'no bindings created (script declaring a `var` on a `class` binding)'"
+            "raw": "'no bindings created (script declaring a `var` on a `class` binding)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -768,7 +792,9 @@
                         "start": 1365,
                         "end": 1398,
                         "value": "var x; function test262Let() {}",
-                        "raw": "'var x; function test262Let() {}'"
+                        "raw": "'var x; function test262Let() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -782,7 +808,9 @@
             "start": 1404,
             "end": 1431,
             "value": "function on `let` binding",
-            "raw": "'function on `let` binding'"
+            "raw": "'function on `let` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -855,7 +883,9 @@
             "start": 1485,
             "end": 1555,
             "value": "no bindings created (script declaring a function on a `let` binding)",
-            "raw": "'no bindings created (script declaring a function on a `let` binding)'"
+            "raw": "'no bindings created (script declaring a function on a `let` binding)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -942,7 +972,9 @@
                         "start": 1617,
                         "end": 1652,
                         "value": "var x; function test262Const() {}",
-                        "raw": "'var x; function test262Const() {}'"
+                        "raw": "'var x; function test262Const() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -956,7 +988,9 @@
             "start": 1658,
             "end": 1687,
             "value": "function on `const` binding",
-            "raw": "'function on `const` binding'"
+            "raw": "'function on `const` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1029,7 +1063,9 @@
             "start": 1741,
             "end": 1813,
             "value": "no bindings created (script declaring a function on a `const` binding)",
-            "raw": "'no bindings created (script declaring a function on a `const` binding)'"
+            "raw": "'no bindings created (script declaring a function on a `const` binding)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1116,7 +1152,9 @@
                         "start": 1875,
                         "end": 1910,
                         "value": "var x; function test262Class() {}",
-                        "raw": "'var x; function test262Class() {}'"
+                        "raw": "'var x; function test262Class() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1130,7 +1168,9 @@
             "start": 1917,
             "end": 1946,
             "value": "function on `class` binding",
-            "raw": "'function on `class` binding'"
+            "raw": "'function on `class` binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1203,7 +1243,9 @@
             "start": 2000,
             "end": 2070,
             "value": "no bindings created (script declaring a function on a class binding)",
-            "raw": "'no bindings created (script declaring a function on a class binding)'"
+            "raw": "'no bindings created (script declaring a function on a class binding)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

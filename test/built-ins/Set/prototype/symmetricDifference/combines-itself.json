@@ -39,14 +39,18 @@
                     "start": 361,
                     "end": 362,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 364,
                     "end": 365,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -240,14 +244,18 @@
             "start": 524,
             "end": 528,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 560,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,14 +312,18 @@
             "start": 597,
             "end": 602,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 604,
             "end": 641,
             "value": "The returned object is a new object",
-            "raw": "\"The returned object is a new object\""
+            "raw": "\"The returned object is a new object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

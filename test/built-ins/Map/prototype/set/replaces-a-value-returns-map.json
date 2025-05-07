@@ -44,14 +44,18 @@
                         "start": 578,
                         "end": 584,
                         "value": "item",
-                        "raw": "'item'"
+                        "raw": "'item'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 586,
                         "end": 587,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -138,14 +142,18 @@
                 "start": 631,
                 "end": 637,
                 "value": "item",
-                "raw": "'item'"
+                "raw": "'item'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 639,
                 "end": 641,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -274,14 +282,18 @@
               "start": 703,
               "end": 709,
               "value": "item",
-              "raw": "'item'"
+              "raw": "'item'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 711,
               "end": 712,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -395,14 +407,18 @@
               "start": 765,
               "end": 771,
               "value": "item",
-              "raw": "'item'"
+              "raw": "'item'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 773,
               "end": 774,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -454,7 +470,9 @@
             "start": 802,
             "end": 840,
             "value": "Map#set returns the map `this` value",
-            "raw": "'Map#set returns the map `this` value'"
+            "raw": "'Map#set returns the map `this` value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

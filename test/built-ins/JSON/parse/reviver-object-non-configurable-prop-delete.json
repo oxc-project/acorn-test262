@@ -23,7 +23,9 @@
             "start": 1075,
             "end": 1093,
             "value": "{\"a\": 1, \"b\": 2}",
-            "raw": "'{\"a\": 1, \"b\": 2}'"
+            "raw": "'{\"a\": 1, \"b\": 2}'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +123,9 @@
                           "start": 1159,
                           "end": 1162,
                           "value": "a",
-                          "raw": "'a'"
+                          "raw": "'a'",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "consequent": {
@@ -167,7 +171,9 @@
                                   "start": 1198,
                                   "end": 1201,
                                   "value": "b",
-                                  "raw": "'b'"
+                                  "raw": "'b'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "ObjectExpression",
@@ -192,7 +198,9 @@
                                         "start": 1218,
                                         "end": 1223,
                                         "value": false,
-                                        "raw": "false"
+                                        "raw": "false",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -226,7 +234,9 @@
                           "start": 1245,
                           "end": 1248,
                           "value": "b",
-                          "raw": "'b'"
+                          "raw": "'b'",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "consequent": {
@@ -310,7 +320,9 @@
             "start": 1304,
             "end": 1305,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -360,7 +372,9 @@
                 "start": 1334,
                 "end": 1337,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -421,7 +435,9 @@
             "start": 1365,
             "end": 1366,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

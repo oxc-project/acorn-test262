@@ -79,7 +79,9 @@
                 "start": 559,
                 "end": 567,
                 "value": "region",
-                "raw": "\"region\""
+                "raw": "\"region\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -119,21 +121,27 @@
                 "start": 609,
                 "end": 613,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 617,
                 "end": 621,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 627,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -153,7 +161,9 @@
                 "start": 643,
                 "end": 644,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",

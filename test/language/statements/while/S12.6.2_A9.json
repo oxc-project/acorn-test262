@@ -32,7 +32,9 @@
                 "start": 390,
                 "end": 391,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "body": {
@@ -60,7 +62,9 @@
                         "start": 408,
                         "end": 409,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -105,7 +109,9 @@
                   "start": 460,
                   "end": 507,
                   "value": "#1: \"abbracadabra\" lead to throwing exception",
-                  "raw": "'#1: \"abbracadabra\" lead to throwing exception'"
+                  "raw": "'#1: \"abbracadabra\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -187,7 +193,9 @@
           "start": 582,
           "end": 583,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -215,7 +223,9 @@
                   "start": 611,
                   "end": 673,
                   "value": "#1.1: while statement evaluates as is, without syntax checks",
-                  "raw": "'#1.1: while statement evaluates as is, without syntax checks'"
+                  "raw": "'#1.1: while statement evaluates as is, without syntax checks'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

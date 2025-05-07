@@ -29,6 +29,7 @@
                 "end": 1169,
                 "value": null,
                 "raw": "42n",
+                "regex": null,
                 "bigint": "42"
               },
               {
@@ -37,6 +38,7 @@
                 "end": 1174,
                 "value": null,
                 "raw": "43n",
+                "regex": null,
                 "bigint": "43"
               },
               {
@@ -45,6 +47,7 @@
                 "end": 1179,
                 "value": null,
                 "raw": "44n",
+                "regex": null,
                 "bigint": "44"
               }
             ]
@@ -370,7 +373,9 @@
                         "start": 1475,
                         "end": 1491,
                         "value": "values are set",
-                        "raw": "\"values are set\""
+                        "raw": "\"values are set\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -447,7 +452,9 @@
                         "start": 1546,
                         "end": 1568,
                         "value": "creates a new buffer",
-                        "raw": "\"creates a new buffer\""
+                        "raw": "\"creates a new buffer\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -511,7 +518,9 @@
                         "start": 1617,
                         "end": 1639,
                         "value": "used the custom ctor",
-                        "raw": "\"used the custom ctor\""
+                        "raw": "\"used the custom ctor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -121,7 +121,9 @@
                               "start": 363,
                               "end": 364,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -179,7 +181,9 @@
                               "start": 405,
                               "end": 406,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -211,7 +215,9 @@
                               "start": 437,
                               "end": 459,
                               "value": "thenable.then called",
-                              "raw": "\"thenable.then called\""
+                              "raw": "\"thenable.then called\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -261,7 +267,9 @@
                               "start": 500,
                               "end": 548,
                               "value": "thenable.then called with `thenable` as `this`",
-                              "raw": "\"thenable.then called with `thenable` as `this`\""
+                              "raw": "\"thenable.then called with `thenable` as `this`\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -287,7 +295,9 @@
                               "start": 573,
                               "end": 583,
                               "value": "resolved",
-                              "raw": "'resolved'"
+                              "raw": "'resolved'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -337,7 +347,9 @@
             "start": 608,
             "end": 609,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -395,7 +407,9 @@
             "start": 646,
             "end": 647,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +441,9 @@
             "start": 674,
             "end": 694,
             "value": "no async calls yet",
-            "raw": "\"no async calls yet\""
+            "raw": "\"no async calls yet\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -518,7 +534,9 @@
             "start": 748,
             "end": 749,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -576,7 +594,9 @@
             "start": 786,
             "end": 787,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,7 +628,9 @@
             "start": 814,
             "end": 855,
             "value": "thenable.then queued but not yet called",
-            "raw": "\"thenable.then queued but not yet called\""
+            "raw": "\"thenable.then queued but not yet called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -704,7 +726,9 @@
                             "start": 896,
                             "end": 897,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -762,7 +786,9 @@
                             "start": 936,
                             "end": 937,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -794,7 +820,9 @@
                             "start": 966,
                             "end": 976,
                             "value": "all done",
-                            "raw": "\"all done\""
+                            "raw": "\"all done\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -839,7 +867,9 @@
                             "start": 1002,
                             "end": 1012,
                             "value": "resolved",
-                            "raw": "'resolved'"
+                            "raw": "'resolved'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

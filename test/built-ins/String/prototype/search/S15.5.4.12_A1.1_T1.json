@@ -31,7 +31,9 @@
                 "start": 431,
                 "end": 433,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",

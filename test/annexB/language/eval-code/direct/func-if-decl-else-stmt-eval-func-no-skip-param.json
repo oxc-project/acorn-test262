@@ -88,7 +88,9 @@
                         "start": 1207,
                         "end": 1262,
                         "value": "init = f;if (true) function f() {  } else ;after = f;",
-                        "raw": "'init = f;if (true) function f() {  } else ;after = f;'"
+                        "raw": "'init = f;if (true) function f() {  } else ;after = f;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -103,7 +105,9 @@
               "start": 1270,
               "end": 1273,
               "value": 123,
-              "raw": "123"
+              "raw": "123",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -149,14 +153,18 @@
             "start": 1301,
             "end": 1304,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1306,
             "end": 1349,
             "value": "binding is not initialized to `undefined`",
-            "raw": "'binding is not initialized to `undefined`'"
+            "raw": "'binding is not initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,14 +216,18 @@
             "start": 1386,
             "end": 1396,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1398,
             "end": 1437,
             "value": "value is updated following evaluation",
-            "raw": "'value is updated following evaluation'"
+            "raw": "'value is updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

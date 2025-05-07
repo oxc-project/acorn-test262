@@ -178,21 +178,27 @@ __ESTREE_TEST__:PASS:
                 "start": 110,
                 "end": 111,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 113,
                 "end": 120,
                 "raw": "\"mower\"",
-                "value": "mower"
+                "value": "mower",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 122,
                 "end": 130,
                 "raw": "\"mowing\"",
-                "value": "mowing"
+                "value": "mowing",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -755,21 +761,27 @@ __ESTREE_TEST__:PASS:
                 "start": 440,
                 "end": 441,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 452,
                 "raw": "\"trimmer\"",
-                "value": "trimmer"
+                "value": "trimmer",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 454,
                 "end": 464,
                 "raw": "\"trimming\"",
-                "value": "trimming"
+                "value": "trimming",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -840,21 +852,27 @@ __ESTREE_TEST__:PASS:
                 "start": 489,
                 "end": 490,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 492,
                 "end": 501,
                 "raw": "\"trimmer\"",
-                "value": "trimmer"
+                "value": "trimmer",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 513,
                 "raw": "\"trimming\"",
-                "value": "trimming"
+                "value": "trimming",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -925,21 +943,27 @@ __ESTREE_TEST__:PASS:
                 "start": 538,
                 "end": 539,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 550,
                 "raw": "\"trimmer\"",
-                "value": "trimmer"
+                "value": "trimmer",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 552,
                 "end": 562,
                 "raw": "\"trimming\"",
-                "value": "trimming"
+                "value": "trimming",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1010,21 +1034,27 @@ __ESTREE_TEST__:PASS:
                 "start": 587,
                 "end": 588,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 590,
                 "end": 599,
                 "raw": "\"trimmer\"",
-                "value": "trimmer"
+                "value": "trimmer",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 601,
                 "end": 611,
                 "raw": "\"trimming\"",
-                "value": "trimming"
+                "value": "trimming",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

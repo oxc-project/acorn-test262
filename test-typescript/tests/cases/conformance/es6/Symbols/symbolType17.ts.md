@@ -194,7 +194,9 @@ __ESTREE_TEST__:PASS:
           "start": 65,
           "end": 73,
           "raw": "\"symbol\"",
-          "value": "symbol"
+          "value": "symbol",
+          "regex": null,
+          "bigint": null
         }
       }
     }

@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -165,7 +167,9 @@ __ESTREE_TEST__:PASS:
               "start": 236,
               "end": 240,
               "raw": "\"Hi\"",
-              "value": "Hi"
+              "value": "Hi",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -229,7 +233,9 @@ __ESTREE_TEST__:PASS:
               "start": 353,
               "end": 357,
               "raw": "\"Hi\"",
-              "value": "Hi"
+              "value": "Hi",
+              "regex": null,
+              "bigint": null
             }
           },
           {

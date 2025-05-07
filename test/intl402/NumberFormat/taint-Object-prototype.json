@@ -28,7 +28,9 @@
                 "start": 349,
                 "end": 364,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -116,7 +118,9 @@
                             "start": 431,
                             "end": 439,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -197,7 +201,9 @@
                 "start": 528,
                 "end": 566,
                 "value": "NumberFormat returns invalid locale ",
-                "raw": "\"NumberFormat returns invalid locale \""
+                "raw": "\"NumberFormat returns invalid locale \"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -213,7 +219,9 @@
               "start": 578,
               "end": 581,
               "value": ".",
-              "raw": "\".\""
+              "raw": "\".\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

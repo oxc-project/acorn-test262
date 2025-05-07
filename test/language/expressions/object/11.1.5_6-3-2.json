@@ -43,7 +43,9 @@
             "start": 522,
             "end": 551,
             "value": "o = {get foo(){return 1;}};",
-            "raw": "\"o = {get foo(){return 1;}};\""
+            "raw": "\"o = {get foo(){return 1;}};\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -99,7 +101,9 @@
                 "start": 601,
                 "end": 606,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -166,7 +170,9 @@
             "start": 648,
             "end": 658,
             "value": "desc.set",
-            "raw": "'desc.set'"
+            "raw": "'desc.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

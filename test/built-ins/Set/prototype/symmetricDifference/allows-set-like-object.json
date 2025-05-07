@@ -39,14 +39,18 @@
                     "start": 531,
                     "end": 532,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 534,
                     "end": 535,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -94,7 +98,9 @@
                   "start": 560,
                   "end": 561,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -152,7 +158,9 @@
                               "start": 606,
                               "end": 680,
                               "value": "Set.prototype.symmetricDifference should not invoke .has on its argument",
-                              "raw": "\"Set.prototype.symmetricDifference should not invoke .has on its argument\""
+                              "raw": "\"Set.prototype.symmetricDifference should not invoke .has on its argument\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -208,7 +216,9 @@
                             "start": 725,
                             "end": 726,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -226,7 +236,9 @@
                             "start": 738,
                             "end": 739,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -266,14 +278,18 @@
                 "start": 767,
                 "end": 768,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 770,
                 "end": 771,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -440,14 +456,18 @@
             "start": 908,
             "end": 912,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 944,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

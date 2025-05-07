@@ -115,7 +115,9 @@
                       "start": 370,
                       "end": 376,
                       "value": "this",
-                      "raw": "\"this\""
+                      "raw": "\"this\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -131,7 +133,9 @@
                   "start": 387,
                   "end": 404,
                   "value": "my_eval(\"this\")",
-                  "raw": "'my_eval(\"this\")'"
+                  "raw": "'my_eval(\"this\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

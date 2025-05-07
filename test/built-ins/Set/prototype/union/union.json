@@ -75,14 +75,18 @@
             "start": 322,
             "end": 332,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 336,
             "end": 382,
             "value": "`typeof Set.prototype.union` is `'function'`",
-            "raw": "\"`typeof Set.prototype.union` is `'function'`\""
+            "raw": "\"`typeof Set.prototype.union` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +131,9 @@
             "start": 417,
             "end": 424,
             "value": "union",
-            "raw": "\"union\""
+            "raw": "\"union\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +158,9 @@
                   "start": 442,
                   "end": 447,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +182,9 @@
                   "start": 461,
                   "end": 465,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +206,9 @@
                   "start": 483,
                   "end": 487,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

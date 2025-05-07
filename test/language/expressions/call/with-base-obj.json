@@ -261,7 +261,9 @@
             "start": 849,
             "end": 869,
             "value": "via CallExpression",
-            "raw": "'via CallExpression'"
+            "raw": "'via CallExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,7 +314,9 @@
             "start": 905,
             "end": 927,
             "value": "via MemberExpression",
-            "raw": "'via MemberExpression'"
+            "raw": "'via MemberExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

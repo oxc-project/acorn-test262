@@ -56,14 +56,18 @@
             "start": 268,
             "end": 276,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 278,
             "end": 337,
             "value": "The value of `typeof Number()` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number()` is expected to be \"number\"'"
+            "raw": "'The value of `typeof Number()` is expected to be \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -115,14 +119,18 @@
             "start": 367,
             "end": 368,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 394,
             "value": "Number() must return 0",
-            "raw": "'Number() must return 0'"
+            "raw": "'Number() must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

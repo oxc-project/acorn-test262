@@ -126,14 +126,18 @@
             "start": 493,
             "end": 498,
             "value": "Set",
-            "raw": "'Set'"
+            "raw": "'Set'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 558,
             "value": "The value of `SetProto[Symbol.toStringTag]` is `'Set'`",
-            "raw": "\"The value of `SetProto[Symbol.toStringTag]` is `'Set'`\""
+            "raw": "\"The value of `SetProto[Symbol.toStringTag]` is `'Set'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,7 +206,9 @@
                   "start": 622,
                   "end": 627,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -224,7 +230,9 @@
                   "start": 643,
                   "end": 648,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -246,7 +254,9 @@
                   "start": 666,
                   "end": 670,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

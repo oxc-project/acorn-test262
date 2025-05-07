@@ -113,7 +113,9 @@ __ESTREE_TEST__:PASS:
                   "start": 177,
                   "end": 187,
                   "raw": "'NotFound'",
-                  "value": "NotFound"
+                  "value": "NotFound",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "key": {
@@ -174,7 +176,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 35,
         "raw": "'./errors'",
-        "value": "./errors"
+        "value": "./errors",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

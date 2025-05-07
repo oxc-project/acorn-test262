@@ -158,7 +158,9 @@
                         "start": 2252,
                         "end": 2283,
                         "value": "abrupt completion from Symbol",
-                        "raw": "\"abrupt completion from Symbol\""
+                        "raw": "\"abrupt completion from Symbol\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

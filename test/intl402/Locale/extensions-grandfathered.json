@@ -46,7 +46,9 @@
                       "start": 823,
                       "end": 836,
                       "value": "cel-gaulish",
-                      "raw": "\"cel-gaulish\""
+                      "raw": "\"cel-gaulish\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -86,7 +88,9 @@
                             "start": 879,
                             "end": 883,
                             "value": "fr",
-                            "raw": "\"fr\""
+                            "raw": "\"fr\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -108,7 +112,9 @@
                             "start": 905,
                             "end": 911,
                             "value": "Cyrl",
-                            "raw": "\"Cyrl\""
+                            "raw": "\"Cyrl\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -130,7 +136,9 @@
                             "start": 933,
                             "end": 937,
                             "value": "FR",
-                            "raw": "\"FR\""
+                            "raw": "\"FR\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -152,7 +160,9 @@
                             "start": 968,
                             "end": 974,
                             "value": "latn",
-                            "raw": "\"latn\""
+                            "raw": "\"latn\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -178,7 +188,9 @@
                       "start": 1006,
                       "end": 1028,
                       "value": "fr-Cyrl-FR-u-nu-latn",
-                      "raw": "\"fr-Cyrl-FR-u-nu-latn\""
+                      "raw": "\"fr-Cyrl-FR-u-nu-latn\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -207,7 +219,9 @@
                       "start": 1111,
                       "end": 1123,
                       "value": "art-lojban",
-                      "raw": "\"art-lojban\""
+                      "raw": "\"art-lojban\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -247,7 +261,9 @@
                             "start": 1166,
                             "end": 1170,
                             "value": "fr",
-                            "raw": "\"fr\""
+                            "raw": "\"fr\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -269,7 +285,9 @@
                             "start": 1192,
                             "end": 1198,
                             "value": "Cyrl",
-                            "raw": "\"Cyrl\""
+                            "raw": "\"Cyrl\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -291,7 +309,9 @@
                             "start": 1220,
                             "end": 1224,
                             "value": "ZZ",
-                            "raw": "\"ZZ\""
+                            "raw": "\"ZZ\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -313,7 +333,9 @@
                             "start": 1255,
                             "end": 1261,
                             "value": "latn",
-                            "raw": "\"latn\""
+                            "raw": "\"latn\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -339,7 +361,9 @@
                       "start": 1293,
                       "end": 1315,
                       "value": "fr-Cyrl-ZZ-u-nu-latn",
-                      "raw": "\"fr-Cyrl-ZZ-u-nu-latn\""
+                      "raw": "\"fr-Cyrl-ZZ-u-nu-latn\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -783,7 +807,9 @@
                   "start": 1641,
                   "end": 1652,
                   "value": "i-default",
-                  "raw": "\"i-default\""
+                  "raw": "\"i-default\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -808,7 +834,9 @@
                         "start": 1671,
                         "end": 1675,
                         "value": "fr",
-                        "raw": "\"fr\""
+                        "raw": "\"fr\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -830,7 +858,9 @@
                         "start": 1685,
                         "end": 1691,
                         "value": "Cyrl",
-                        "raw": "\"Cyrl\""
+                        "raw": "\"Cyrl\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -852,7 +882,9 @@
                         "start": 1701,
                         "end": 1705,
                         "value": "DE",
-                        "raw": "\"DE\""
+                        "raw": "\"DE\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -874,7 +906,9 @@
                         "start": 1724,
                         "end": 1730,
                         "value": "latn",
-                        "raw": "\"latn\""
+                        "raw": "\"latn\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -959,7 +993,9 @@
                   "start": 1795,
                   "end": 1806,
                   "value": "en-gb-oed",
-                  "raw": "\"en-gb-oed\""
+                  "raw": "\"en-gb-oed\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -984,7 +1020,9 @@
                         "start": 1825,
                         "end": 1829,
                         "value": "fr",
-                        "raw": "\"fr\""
+                        "raw": "\"fr\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1006,7 +1044,9 @@
                         "start": 1839,
                         "end": 1845,
                         "value": "Cyrl",
-                        "raw": "\"Cyrl\""
+                        "raw": "\"Cyrl\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1028,7 +1068,9 @@
                         "start": 1855,
                         "end": 1859,
                         "value": "US",
-                        "raw": "\"US\""
+                        "raw": "\"US\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1050,7 +1092,9 @@
                         "start": 1878,
                         "end": 1884,
                         "value": "latn",
-                        "raw": "\"latn\""
+                        "raw": "\"latn\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

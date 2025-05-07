@@ -28,14 +28,18 @@
                 "start": 276,
                 "end": 281,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 292,
                 "value": "utc",
-                "raw": "\"utc\""
+                "raw": "\"utc\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -141,7 +145,9 @@
                                 "start": 491,
                                 "end": 498,
                                 "value": "de-de",
-                                "raw": "\"de-de\""
+                                "raw": "\"de-de\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           },
@@ -285,7 +291,9 @@
                             "start": 596,
                             "end": 613,
                             "value": "Time zone name ",
-                            "raw": "\"Time zone name \""
+                            "raw": "\"Time zone name \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -301,7 +309,9 @@
                           "start": 623,
                           "end": 653,
                           "value": " was not correctly accepted.",
-                          "raw": "\" was not correctly accepted.\""
+                          "raw": "\" was not correctly accepted.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

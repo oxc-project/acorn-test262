@@ -40,7 +40,9 @@
                       "start": 3693,
                       "end": 3719,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -126,7 +128,9 @@
                                 "start": 3778,
                                 "end": 3783,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -198,14 +202,18 @@
                                 "start": 3834,
                                 "end": 3838,
                                 "value": null,
-                                "raw": "null"
+                                "raw": "null",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 3840,
                                 "end": 3859,
                                 "value": "prototype is null",
-                                "raw": "'prototype is null'"
+                                "raw": "'prototype is null'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

@@ -519,7 +519,9 @@ __ESTREE_TEST__:PASS:
                 "start": 224,
                 "end": 228,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",

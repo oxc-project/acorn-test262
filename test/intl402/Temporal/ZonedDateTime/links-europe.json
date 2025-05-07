@@ -28,112 +28,144 @@
                 "start": 313,
                 "end": 328,
                 "value": "Europe/Jersey",
-                "raw": "\"Europe/Jersey\""
+                "raw": "\"Europe/Jersey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 391,
                 "value": "Europe/Guernsey",
-                "raw": "\"Europe/Guernsey\""
+                "raw": "\"Europe/Guernsey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 459,
                 "value": "Europe/Isle_of_Man",
-                "raw": "\"Europe/Isle_of_Man\""
+                "raw": "\"Europe/Isle_of_Man\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 510,
                 "end": 528,
                 "value": "Europe/Mariehamn",
-                "raw": "\"Europe/Mariehamn\""
+                "raw": "\"Europe/Mariehamn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 577,
                 "end": 594,
                 "value": "Europe/Busingen",
-                "raw": "\"Europe/Busingen\""
+                "raw": "\"Europe/Busingen\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 642,
                 "end": 658,
                 "value": "Europe/Vatican",
-                "raw": "\"Europe/Vatican\""
+                "raw": "\"Europe/Vatican\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 705,
                 "end": 724,
                 "value": "Europe/San_Marino",
-                "raw": "\"Europe/San_Marino\""
+                "raw": "\"Europe/San_Marino\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 774,
                 "end": 788,
                 "value": "Europe/Vaduz",
-                "raw": "\"Europe/Vaduz\""
+                "raw": "\"Europe/Vaduz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 828,
                 "end": 849,
                 "value": "Arctic/Longyearbyen",
-                "raw": "\"Arctic/Longyearbyen\""
+                "raw": "\"Arctic/Longyearbyen\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 901,
                 "end": 919,
                 "value": "Europe/Ljubljana",
-                "raw": "\"Europe/Ljubljana\""
+                "raw": "\"Europe/Ljubljana\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 978,
                 "end": 996,
                 "value": "Europe/Podgorica",
-                "raw": "\"Europe/Podgorica\""
+                "raw": "\"Europe/Podgorica\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1057,
                 "end": 1074,
                 "value": "Europe/Sarajevo",
-                "raw": "\"Europe/Sarajevo\""
+                "raw": "\"Europe/Sarajevo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1147,
                 "end": 1162,
                 "value": "Europe/Skopje",
-                "raw": "\"Europe/Skopje\""
+                "raw": "\"Europe/Skopje\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1228,
                 "end": 1243,
                 "value": "Europe/Zagreb",
-                "raw": "\"Europe/Zagreb\""
+                "raw": "\"Europe/Zagreb\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1301,
                 "end": 1320,
                 "value": "Europe/Bratislava",
-                "raw": "\"Europe/Bratislava\""
+                "raw": "\"Europe/Bratislava\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1365,
                 "end": 1380,
                 "value": "Asia/Istanbul",
-                "raw": "\"Asia/Istanbul\""
+                "raw": "\"Asia/Istanbul\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -222,6 +254,7 @@
                       "end": 1540,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

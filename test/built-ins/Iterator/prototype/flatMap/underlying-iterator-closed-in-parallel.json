@@ -64,7 +64,9 @@
                               "start": 384,
                               "end": 385,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -86,7 +88,9 @@
                           "start": 391,
                           "end": 392,
                           "value": 5,
-                          "raw": "5"
+                          "raw": "5",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "update": {
@@ -416,7 +420,9 @@
             "start": 584,
             "end": 588,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -284,7 +284,9 @@ __ESTREE_TEST__:PASS:
                     "start": 135,
                     "end": 142,
                     "raw": "\"hello\"",
-                    "value": "hello"
+                    "value": "hello",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }

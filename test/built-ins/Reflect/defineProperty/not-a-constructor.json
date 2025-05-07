@@ -69,14 +69,18 @@
             "start": 764,
             "end": 769,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 773,
             "end": 830,
             "value": "isConstructor(Reflect.defineProperty) must return false",
-            "raw": "'isConstructor(Reflect.defineProperty) must return false'"
+            "raw": "'isConstructor(Reflect.defineProperty) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -169,7 +173,9 @@
                         "start": 901,
                         "end": 903,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

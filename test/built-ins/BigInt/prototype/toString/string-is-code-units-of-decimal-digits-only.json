@@ -55,7 +55,9 @@
                     "start": 568,
                     "end": 569,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -77,14 +79,18 @@
             "start": 583,
             "end": 586,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 618,
             "value": "BigInt(0).toString() === '0'",
-            "raw": "\"BigInt(0).toString() === '0'\""
+            "raw": "\"BigInt(0).toString() === '0'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -143,6 +149,7 @@
                     "end": 647,
                     "value": null,
                     "raw": "0n",
+                    "regex": null,
                     "bigint": "0"
                   }
                 ],
@@ -165,14 +172,18 @@
             "start": 661,
             "end": 664,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 697,
             "value": "BigInt(0n).toString() === '0'",
-            "raw": "\"BigInt(0n).toString() === '0'\""
+            "raw": "\"BigInt(0n).toString() === '0'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,6 +231,7 @@
                 "end": 719,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               "property": {
@@ -239,14 +251,18 @@
             "start": 732,
             "end": 735,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 760,
             "value": "0n.toString() === '0'",
-            "raw": "\"0n.toString() === '0'\""
+            "raw": "\"0n.toString() === '0'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

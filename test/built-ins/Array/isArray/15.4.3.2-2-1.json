@@ -196,14 +196,18 @@
             "start": 400,
             "end": 405,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 451,
             "value": "Array.isArray(new Con()) must return false",
-            "raw": "'Array.isArray(new Con()) must return false'"
+            "raw": "'Array.isArray(new Con()) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

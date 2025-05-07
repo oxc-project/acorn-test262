@@ -229,7 +229,9 @@ __ESTREE_TEST__:PASS:
             "start": 143,
             "end": 152,
             "raw": "\"foo/bar\"",
-            "value": "foo/bar"
+            "value": "foo/bar",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -567,7 +569,9 @@ __ESTREE_TEST__:PASS:
             "start": 365,
             "end": 367,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -598,7 +602,9 @@ __ESTREE_TEST__:PASS:
             "start": 379,
             "end": 382,
             "raw": "\"a\"",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -629,7 +635,9 @@ __ESTREE_TEST__:PASS:
             "start": 394,
             "end": 398,
             "raw": "\"ab\"",
-            "value": "ab"
+            "value": "ab",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -660,7 +668,9 @@ __ESTREE_TEST__:PASS:
             "start": 410,
             "end": 415,
             "raw": "\"aba\"",
-            "value": "aba"
+            "value": "aba",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -691,7 +701,9 @@ __ESTREE_TEST__:PASS:
             "start": 427,
             "end": 437,
             "raw": "\"abavvvva\"",
-            "value": "abavvvva"
+            "value": "abavvvva",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
                     "start": 30,
                     "end": 35,
                     "raw": "\"ONE\"",
-                    "value": "ONE"
+                    "value": "ONE",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -99,7 +101,9 @@ __ESTREE_TEST__:PASS:
                   "start": 65,
                   "end": 70,
                   "raw": "\"ONE\"",
-                  "value": "ONE"
+                  "value": "ONE",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

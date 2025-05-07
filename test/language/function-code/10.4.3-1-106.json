@@ -55,7 +55,9 @@
             "start": 436,
             "end": 439,
             "value": "x",
-            "raw": "\"x\""
+            "raw": "\"x\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -157,7 +159,9 @@
                   "start": 507,
                   "end": 508,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "property": {
@@ -175,14 +179,18 @@
             "start": 513,
             "end": 521,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 537,
             "value": "typeof (5).x",
-            "raw": "'typeof (5).x'"
+            "raw": "'typeof (5).x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

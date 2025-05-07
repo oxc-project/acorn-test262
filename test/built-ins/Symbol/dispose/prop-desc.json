@@ -62,7 +62,9 @@
             "start": 465,
             "end": 473,
             "value": "symbol",
-            "raw": "'symbol'"
+            "raw": "'symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -94,7 +96,9 @@
             "start": 499,
             "end": 508,
             "value": "dispose",
-            "raw": "'dispose'"
+            "raw": "'dispose'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -119,7 +123,9 @@
                   "start": 524,
                   "end": 529,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -141,7 +147,9 @@
                   "start": 545,
                   "end": 550,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -163,7 +171,9 @@
                   "start": 568,
                   "end": 573,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

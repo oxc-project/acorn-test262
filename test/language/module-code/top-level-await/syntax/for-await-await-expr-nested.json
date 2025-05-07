@@ -104,7 +104,9 @@
                                           "start": 1882,
                                           "end": 1889,
                                           "value": "await",
-                                          "raw": "'await'"
+                                          "raw": "'await'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -197,7 +199,9 @@
                                             "start": 1986,
                                             "end": 1993,
                                             "value": "await",
-                                            "raw": "'await'"
+                                            "raw": "'await'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -319,7 +323,9 @@
                                           "start": 2260,
                                           "end": 2267,
                                           "value": "await",
-                                          "raw": "'await'"
+                                          "raw": "'await'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -412,7 +418,9 @@
                                             "start": 2364,
                                             "end": 2371,
                                             "value": "await",
-                                            "raw": "'await'"
+                                            "raw": "'await'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -534,7 +542,9 @@
                                           "start": 2638,
                                           "end": 2645,
                                           "value": "await",
-                                          "raw": "'await'"
+                                          "raw": "'await'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -627,7 +637,9 @@
                                             "start": 2742,
                                             "end": 2749,
                                             "value": "await",
-                                            "raw": "'await'"
+                                            "raw": "'await'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }

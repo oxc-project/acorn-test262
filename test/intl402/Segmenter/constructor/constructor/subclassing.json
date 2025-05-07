@@ -248,7 +248,9 @@
                         "start": 668,
                         "end": 672,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -279,7 +281,9 @@
             "start": 696,
             "end": 700,
             "value": "de",
-            "raw": "\"de\""
+            "raw": "\"de\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -305,7 +309,9 @@
             "start": 716,
             "end": 723,
             "value": "Hello",
-            "raw": "\"Hello\""
+            "raw": "\"Hello\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -420,7 +426,9 @@
             "start": 830,
             "end": 847,
             "value": "Custom property",
-            "raw": "\"Custom property\""
+            "raw": "\"Custom property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -516,14 +524,18 @@
             "start": 949,
             "end": 953,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 955,
             "end": 972,
             "value": "Custom property",
-            "raw": "\"Custom property\""
+            "raw": "\"Custom property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -656,7 +668,9 @@
             "start": 1120,
             "end": 1133,
             "value": "Direct call",
-            "raw": "\"Direct call\""
+            "raw": "\"Direct call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -879,7 +893,9 @@
             "start": 1343,
             "end": 1358,
             "value": "Indirect call",
-            "raw": "\"Indirect call\""
+            "raw": "\"Indirect call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -970,7 +986,9 @@
             "start": 1447,
             "end": 1458,
             "value": "Prototype",
-            "raw": "\"Prototype\""
+            "raw": "\"Prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1061,7 +1079,9 @@
             "start": 1551,
             "end": 1614,
             "value": "Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter",
-            "raw": "\"Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter\""
+            "raw": "\"Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1178,7 +1198,9 @@
             "start": 1727,
             "end": 1810,
             "value": "Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype",
-            "raw": "\"Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype\""
+            "raw": "\"Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1248,14 +1270,18 @@
             "start": 1874,
             "end": 1878,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1897,
             "end": 1965,
             "value": "The result of `custom_segmenter instanceof Intl.Segmenter` is true",
-            "raw": "\"The result of `custom_segmenter instanceof Intl.Segmenter` is true\""
+            "raw": "\"The result of `custom_segmenter instanceof Intl.Segmenter` is true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

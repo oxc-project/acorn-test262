@@ -61,7 +61,9 @@
             "start": 485,
             "end": 486,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -165,7 +167,9 @@
                               "start": 553,
                               "end": 554,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -180,7 +184,9 @@
                           "start": 568,
                           "end": 569,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -285,14 +291,18 @@
             "start": 652,
             "end": 653,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 684,
             "value": "valueOf called exactly once",
-            "raw": "\"valueOf called exactly once\""
+            "raw": "\"valueOf called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +353,9 @@
             "start": 718,
             "end": 733,
             "value": "result is NaN",
-            "raw": "\"result is NaN\""
+            "raw": "\"result is NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -408,14 +420,18 @@
             "start": 768,
             "end": 769,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 771,
             "end": 796,
             "value": "time updated in valueOf",
-            "raw": "\"time updated in valueOf\""
+            "raw": "\"time updated in valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -67,7 +67,9 @@
           "start": 602,
           "end": 608,
           "value": "cube",
-          "raw": "\"cube\""
+          "raw": "\"cube\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -310,7 +312,9 @@
                     "start": 903,
                     "end": 975,
                     "value": "#1: __device.printShape !== undefined. Actual: __device.printShape ===",
-                    "raw": "'#1: __device.printShape !== undefined. Actual: __device.printShape ==='"
+                    "raw": "'#1: __device.printShape !== undefined. Actual: __device.printShape ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -411,7 +415,9 @@
                     "start": 1236,
                     "end": 1309,
                     "value": "#2: __device.printShape() === __CUBE. Actual: __device.printShape() ===",
-                    "raw": "'#2: __device.printShape() === __CUBE. Actual: __device.printShape() ==='"
+                    "raw": "'#2: __device.printShape() === __CUBE. Actual: __device.printShape() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

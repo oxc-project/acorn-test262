@@ -52,7 +52,9 @@
             "start": 357,
             "end": 367,
             "value": 4294967295,
-            "raw": "4294967295"
+            "raw": "4294967295",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -62,7 +64,9 @@
           "start": 371,
           "end": 372,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -118,14 +122,18 @@
             "start": 401,
             "end": 402,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 447,
             "value": "The value of x.length is expected to be 0",
-            "raw": "'The value of x.length is expected to be 0'"
+            "raw": "'The value of x.length is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +182,9 @@
               "start": 469,
               "end": 479,
               "value": 4294967295,
-              "raw": "4294967295"
+              "raw": "4294967295",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -184,14 +194,18 @@
             "start": 482,
             "end": 483,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 533,
             "value": "The value of x[4294967295] is expected to be 1",
-            "raw": "'The value of x[4294967295] is expected to be 1'"
+            "raw": "'The value of x[4294967295] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +264,9 @@
               "start": 548,
               "end": 549,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           "computed": true,
@@ -261,7 +277,9 @@
           "start": 553,
           "end": 554,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -317,14 +335,18 @@
             "start": 583,
             "end": 584,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 629,
             "value": "The value of x.length is expected to be 0",
-            "raw": "'The value of x.length is expected to be 0'"
+            "raw": "'The value of x.length is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -379,7 +401,9 @@
                 "start": 652,
                 "end": 653,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "computed": true,
@@ -390,14 +414,18 @@
             "start": 656,
             "end": 657,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 659,
             "end": 699,
             "value": "The value of x[-1] is expected to be 1",
-            "raw": "'The value of x[-1] is expected to be 1'"
+            "raw": "'The value of x[-1] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,7 +478,9 @@
             "start": 713,
             "end": 717,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -460,7 +490,9 @@
           "start": 721,
           "end": 722,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -516,14 +548,18 @@
             "start": 751,
             "end": 752,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 754,
             "end": 797,
             "value": "The value of x.length is expected to be 0",
-            "raw": "'The value of x.length is expected to be 0'"
+            "raw": "'The value of x.length is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,7 +608,9 @@
               "start": 819,
               "end": 823,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -582,14 +620,18 @@
             "start": 826,
             "end": 827,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 829,
             "end": 871,
             "value": "The value of x[true] is expected to be 1",
-            "raw": "'The value of x[true] is expected to be 1'"
+            "raw": "'The value of x[true] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

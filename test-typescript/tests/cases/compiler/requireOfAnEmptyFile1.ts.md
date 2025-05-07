@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 45,
           "end": 72,
           "raw": "'./requireOfAnEmptyFile1_b'",
-          "value": "./requireOfAnEmptyFile1_b"
+          "value": "./requireOfAnEmptyFile1_b",
+          "regex": null,
+          "bigint": null
         }
       }
     }

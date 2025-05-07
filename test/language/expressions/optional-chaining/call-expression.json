@@ -49,7 +49,9 @@
                     "start": 429,
                     "end": 431,
                     "value": 33,
-                    "raw": "33"
+                    "raw": "33",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -120,7 +122,9 @@
                           "start": 472,
                           "end": 474,
                           "value": 44,
-                          "raw": "44"
+                          "raw": "44",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -167,7 +171,9 @@
             "start": 499,
             "end": 501,
             "value": 33,
-            "raw": "33"
+            "raw": "33",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ChainExpression",
@@ -306,7 +312,9 @@
             "start": 568,
             "end": 570,
             "value": 44,
-            "raw": "44"
+            "raw": "44",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ChainExpression",
@@ -565,7 +573,9 @@
                             "start": 802,
                             "end": 804,
                             "value": 66,
-                            "raw": "66"
+                            "raw": "66",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -625,7 +635,9 @@
                       "start": 860,
                       "end": 864,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -668,7 +680,9 @@
             "start": 890,
             "end": 892,
             "value": 66,
-            "raw": "66"
+            "raw": "66",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ChainExpression",
@@ -839,7 +853,9 @@
                         "start": 1012,
                         "end": 1014,
                         "value": 77,
-                        "raw": "77"
+                        "raw": "77",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -917,7 +933,9 @@
             "start": 1070,
             "end": 1072,
             "value": 77,
-            "raw": "77"
+            "raw": "77",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ChainExpression",
@@ -949,7 +967,9 @@
                   "start": 1080,
                   "end": 1081,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1032,7 +1052,9 @@
                   "start": 1122,
                   "end": 1123,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1115,7 +1137,9 @@
                           "start": 1212,
                           "end": 1214,
                           "value": 88,
-                          "raw": "88"
+                          "raw": "88",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -1162,7 +1186,9 @@
             "start": 1245,
             "end": 1247,
             "value": 88,
-            "raw": "88"
+            "raw": "88",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ChainExpression",

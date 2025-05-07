@@ -119,14 +119,18 @@
             "start": 421,
             "end": 430,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 432,
             "end": 464,
             "value": "no locale has the ISO calendar",
-            "raw": "\"no locale has the ISO calendar\""
+            "raw": "\"no locale has the ISO calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +211,9 @@
                       "start": 538,
                       "end": 543,
                       "value": "M01",
-                      "raw": "\"M01\""
+                      "raw": "\"M01\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -229,7 +235,9 @@
                       "start": 550,
                       "end": 551,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -354,14 +362,18 @@
             "start": 668,
             "end": 676,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 751,
             "value": "toLocaleString() succeeds when instance has the same calendar as locale",
-            "raw": "\"toLocaleString() succeeds when instance has the same calendar as locale\""
+            "raw": "\"toLocaleString() succeeds when instance has the same calendar as locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -422,7 +434,9 @@
                     "start": 879,
                     "end": 889,
                     "value": "calendar",
-                    "raw": "\"calendar\""
+                    "raw": "\"calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -466,7 +480,9 @@
             "start": 910,
             "end": 919,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -663,7 +679,9 @@
                       "start": 1091,
                       "end": 1096,
                       "value": "M01",
-                      "raw": "\"M01\""
+                      "raw": "\"M01\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -685,7 +703,9 @@
                       "start": 1103,
                       "end": 1104,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -794,7 +814,9 @@
             "start": 1214,
             "end": 1233,
             "value": "calendar mismatch",
-            "raw": "\"calendar mismatch\""
+            "raw": "\"calendar mismatch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,7 +897,9 @@
                       "start": 1298,
                       "end": 1303,
                       "value": "M01",
-                      "raw": "\"M01\""
+                      "raw": "\"M01\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -897,7 +921,9 @@
                       "start": 1310,
                       "end": 1311,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -919,7 +945,9 @@
                       "start": 1323,
                       "end": 1332,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1007,7 +1035,9 @@
             "start": 1399,
             "end": 1458,
             "value": "calendar mismatch even when instance has the ISO calendar",
-            "raw": "\"calendar mismatch even when instance has the ISO calendar\""
+            "raw": "\"calendar mismatch even when instance has the ISO calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

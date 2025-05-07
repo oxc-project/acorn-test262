@@ -74,7 +74,9 @@
             "start": 812,
             "end": 813,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -264,14 +266,18 @@
             "start": 934,
             "end": 935,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 974,
             "value": "`Map.prototype.set` was not called.",
-            "raw": "'`Map.prototype.set` was not called.'"
+            "raw": "'`Map.prototype.set` was not called.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

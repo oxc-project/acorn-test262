@@ -173,7 +173,9 @@
             "start": 1227,
             "end": 1246,
             "value": "Register a target",
-            "raw": "'Register a target'"
+            "raw": "'Register a target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +253,9 @@
             "start": 1316,
             "end": 1348,
             "value": "Register the same target again",
-            "raw": "'Register the same target again'"
+            "raw": "'Register the same target again'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,7 +333,9 @@
             "start": 1418,
             "end": 1460,
             "value": "Register the same target again and again",
-            "raw": "'Register the same target again and again'"
+            "raw": "'Register the same target again and again'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -407,7 +413,9 @@
             "start": 1527,
             "end": 1551,
             "value": "Register other targets",
-            "raw": "'Register other targets'"
+            "raw": "'Register other targets'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,7 +505,9 @@
             "start": 1637,
             "end": 1675,
             "value": "Register target with unregisterToken",
-            "raw": "'Register target with unregisterToken'"
+            "raw": "'Register target with unregisterToken'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +597,9 @@
             "start": 1771,
             "end": 1837,
             "value": "Register target with unregisterToken being the registered target",
-            "raw": "'Register target with unregisterToken being the registered target'"
+            "raw": "'Register target with unregisterToken being the registered target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -677,7 +689,9 @@
             "start": 1931,
             "end": 1988,
             "value": "Register target with explicit undefined unregisterToken",
-            "raw": "'Register target with explicit undefined unregisterToken'"
+            "raw": "'Register target with explicit undefined unregisterToken'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -755,7 +769,9 @@
             "start": 2055,
             "end": 2089,
             "value": "register the cleanup callback fn",
-            "raw": "'register the cleanup callback fn'"
+            "raw": "'register the cleanup callback fn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

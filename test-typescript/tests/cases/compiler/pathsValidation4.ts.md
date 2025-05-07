@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 19,
         "raw": "'someModule'",
-        "value": "someModule"
+        "value": "someModule",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "^[0-9]{2}:[0-9]{2}:[0-9]{2} GMT[+-][0-9]{4}( \\(.+\\))?$",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -96,7 +97,9 @@
                         "start": 498,
                         "end": 499,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -152,7 +155,9 @@
             "start": 538,
             "end": 542,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",

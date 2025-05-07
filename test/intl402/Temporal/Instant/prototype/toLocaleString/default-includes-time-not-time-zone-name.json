@@ -48,6 +48,7 @@
                 "end": 345,
                 "value": null,
                 "raw": "1735213600_321_000_000n",
+                "regex": null,
                 "bigint": "1735213600321000000"
               }
             ]
@@ -100,7 +101,9 @@
                 "start": 414,
                 "end": 418,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -125,7 +128,9 @@
                       "start": 432,
                       "end": 437,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -182,7 +187,9 @@
                 "start": 466,
                 "end": 472,
                 "value": "2024",
-                "raw": "\"2024\""
+                "raw": "\"2024\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -274,7 +281,9 @@
                   "start": 566,
                   "end": 570,
                   "value": "12",
-                  "raw": "\"12\""
+                  "raw": "\"12\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -309,7 +318,9 @@
                   "start": 591,
                   "end": 596,
                   "value": "Dec",
-                  "raw": "\"Dec\""
+                  "raw": "\"Dec\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -398,7 +409,9 @@
                 "start": 691,
                 "end": 695,
                 "value": "26",
-                "raw": "\"26\""
+                "raw": "\"26\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -486,7 +499,9 @@
                 "start": 788,
                 "end": 792,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -574,7 +589,9 @@
                 "start": 886,
                 "end": 890,
                 "value": "46",
-                "raw": "\"46\""
+                "raw": "\"46\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -662,7 +679,9 @@
                 "start": 986,
                 "end": 990,
                 "value": "40",
-                "raw": "\"40\""
+                "raw": "\"40\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -756,7 +775,9 @@
                   "start": 1087,
                   "end": 1092,
                   "value": "321",
-                  "raw": "\"321\""
+                  "raw": "\"321\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -855,7 +876,9 @@
                     "start": 1214,
                     "end": 1219,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -897,7 +920,9 @@
                     "start": 1241,
                     "end": 1269,
                     "value": "Coordinated Universal Time",
-                    "raw": "\"Coordinated Universal Time\""
+                    "raw": "\"Coordinated Universal Time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

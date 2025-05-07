@@ -35,7 +35,9 @@
           "start": 443,
           "end": 444,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -59,7 +61,9 @@
             "start": 460,
             "end": 468,
             "value": "result",
-            "raw": "\"result\""
+            "raw": "\"result\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -103,7 +107,9 @@
                   "start": 493,
                   "end": 496,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -125,7 +131,9 @@
                   "start": 510,
                   "end": 523,
                   "value": "myObj_value",
-                  "raw": "'myObj_value'"
+                  "raw": "'myObj_value'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -165,7 +173,9 @@
                           "start": 557,
                           "end": 570,
                           "value": "obj_valueOf",
-                          "raw": "'obj_valueOf'"
+                          "raw": "'obj_valueOf'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -262,7 +272,9 @@
                               "start": 648,
                               "end": 652,
                               "value": "x1",
-                              "raw": "'x1'"
+                              "raw": "'x1'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -298,7 +310,9 @@
           "start": 766,
           "end": 767,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -330,7 +344,9 @@
                     "start": 795,
                     "end": 826,
                     "value": "#1: p1 === 1. Actual:  p1 ===",
-                    "raw": "'#1: p1 === 1. Actual:  p1 ==='"
+                    "raw": "'#1: p1 === 1. Actual:  p1 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -367,7 +383,9 @@
           "start": 1023,
           "end": 1036,
           "value": "myObj_value",
-          "raw": "'myObj_value'"
+          "raw": "'myObj_value'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -399,7 +417,9 @@
                     "start": 1064,
                     "end": 1117,
                     "value": "#2: result === 'myObj_value'. Actual:  result ===",
-                    "raw": "'#2: result === \\'myObj_value\\'. Actual:  result ==='"
+                    "raw": "'#2: result === \\'myObj_value\\'. Actual:  result ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -449,7 +469,9 @@
           "start": 1320,
           "end": 1323,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -481,7 +503,9 @@
                     "start": 1351,
                     "end": 1396,
                     "value": "#3: myObj.p1 === \"a\". Actual:  myObj.p1 ===",
-                    "raw": "'#3: myObj.p1 === \"a\". Actual:  myObj.p1 ==='"
+                    "raw": "'#3: myObj.p1 === \"a\". Actual:  myObj.p1 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

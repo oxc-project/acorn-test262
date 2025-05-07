@@ -57,7 +57,9 @@
                 "start": 283,
                 "end": 294,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -85,7 +87,9 @@
                         "start": 325,
                         "end": 356,
                         "value": "#1: The undefined is DontEnum",
-                        "raw": "'#1: The undefined is DontEnum'"
+                        "raw": "'#1: The undefined is DontEnum'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -75,14 +75,18 @@
             "start": 552,
             "end": 562,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 581,
             "end": 641,
             "value": "Should support Intl.RelativeTimeFormat.supportedLocalesOf.",
-            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -188,7 +192,9 @@
                         "start": 732,
                         "end": 736,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -202,7 +208,9 @@
             "start": 742,
             "end": 798,
             "value": "Should throw when passing null as the options argument",
-            "raw": "\"Should throw when passing null as the options argument\""
+            "raw": "\"Should throw when passing null as the options argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,14 +35,18 @@
                   "start": 423,
                   "end": 452,
                   "value": "da-u-ca-gregory-ca-buddhist",
-                  "raw": "\"da-u-ca-gregory-ca-buddhist\""
+                  "raw": "\"da-u-ca-gregory-ca-buddhist\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 454,
                   "end": 471,
                   "value": "da-u-ca-gregory",
-                  "raw": "\"da-u-ca-gregory\""
+                  "raw": "\"da-u-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 556,
                   "end": 581,
                   "value": "zh-u-nu-hans-ca-chinese",
-                  "raw": "\"zh-u-nu-hans-ca-chinese\""
+                  "raw": "\"zh-u-nu-hans-ca-chinese\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 583,
                   "end": 608,
                   "value": "zh-u-ca-chinese-nu-hans",
-                  "raw": "\"zh-u-ca-chinese-nu-hans\""
+                  "raw": "\"zh-u-ca-chinese-nu-hans\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 614,
                   "end": 639,
                   "value": "zh-u-ca-chinese-nu-hans",
-                  "raw": "\"zh-u-ca-chinese-nu-hans\""
+                  "raw": "\"zh-u-ca-chinese-nu-hans\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 641,
                   "end": 666,
                   "value": "zh-u-ca-chinese-nu-hans",
-                  "raw": "\"zh-u-ca-chinese-nu-hans\""
+                  "raw": "\"zh-u-ca-chinese-nu-hans\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -104,14 +116,18 @@
                   "start": 760,
                   "end": 781,
                   "value": "de-u-cu-eur-nu-latn",
-                  "raw": "\"de-u-cu-eur-nu-latn\""
+                  "raw": "\"de-u-cu-eur-nu-latn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 783,
                   "end": 804,
                   "value": "de-u-cu-eur-nu-latn",
-                  "raw": "\"de-u-cu-eur-nu-latn\""
+                  "raw": "\"de-u-cu-eur-nu-latn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -127,14 +143,18 @@
                   "start": 810,
                   "end": 831,
                   "value": "de-u-nu-latn-cu-eur",
-                  "raw": "\"de-u-nu-latn-cu-eur\""
+                  "raw": "\"de-u-nu-latn-cu-eur\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 833,
                   "end": 854,
                   "value": "de-u-cu-eur-nu-latn",
-                  "raw": "\"de-u-cu-eur-nu-latn\""
+                  "raw": "\"de-u-cu-eur-nu-latn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -150,14 +170,18 @@
                   "start": 934,
                   "end": 956,
                   "value": "pt-u-attr-ca-gregory",
-                  "raw": "\"pt-u-attr-ca-gregory\""
+                  "raw": "\"pt-u-attr-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 958,
                   "end": 980,
                   "value": "pt-u-attr-ca-gregory",
-                  "raw": "\"pt-u-attr-ca-gregory\""
+                  "raw": "\"pt-u-attr-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -173,14 +197,18 @@
                   "start": 986,
                   "end": 1015,
                   "value": "pt-u-attr1-attr2-ca-gregory",
-                  "raw": "\"pt-u-attr1-attr2-ca-gregory\""
+                  "raw": "\"pt-u-attr1-attr2-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1017,
                   "end": 1046,
                   "value": "pt-u-attr1-attr2-ca-gregory",
-                  "raw": "\"pt-u-attr1-attr2-ca-gregory\""
+                  "raw": "\"pt-u-attr1-attr2-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,14 +224,18 @@
                   "start": 1052,
                   "end": 1081,
                   "value": "pt-u-attr2-attr1-ca-gregory",
-                  "raw": "\"pt-u-attr2-attr1-ca-gregory\""
+                  "raw": "\"pt-u-attr2-attr1-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1083,
                   "end": 1112,
                   "value": "pt-u-attr1-attr2-ca-gregory",
-                  "raw": "\"pt-u-attr1-attr2-ca-gregory\""
+                  "raw": "\"pt-u-attr1-attr2-ca-gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

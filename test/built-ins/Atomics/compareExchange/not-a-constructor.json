@@ -69,14 +69,18 @@
             "start": 797,
             "end": 802,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 864,
             "value": "isConstructor(Atomics.compareExchange) must return false",
-            "raw": "'isConstructor(Atomics.compareExchange) must return false'"
+            "raw": "'isConstructor(Atomics.compareExchange) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

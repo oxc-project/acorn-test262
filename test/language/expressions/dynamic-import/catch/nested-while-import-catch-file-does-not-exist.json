@@ -23,7 +23,9 @@
             "start": 1240,
             "end": 1241,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -98,7 +100,9 @@
                         "start": 1272,
                         "end": 1303,
                         "value": "./THIS_FILE_DOES_NOT_EXIST.js",
-                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
+                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -179,7 +183,9 @@
                                   "start": 1361,
                                   "end": 1372,
                                   "value": "undefined",
-                                  "raw": "'undefined'"
+                                  "raw": "'undefined'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

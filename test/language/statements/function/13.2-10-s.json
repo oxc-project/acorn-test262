@@ -34,7 +34,9 @@
                 "start": 311,
                 "end": 326,
                 "value": "'use strict';",
-                "raw": "\"'use strict';\""
+                "raw": "\"'use strict';\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,7 +126,9 @@
                       "start": 385,
                       "end": 387,
                       "value": 41,
-                      "raw": "41"
+                      "raw": "41",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

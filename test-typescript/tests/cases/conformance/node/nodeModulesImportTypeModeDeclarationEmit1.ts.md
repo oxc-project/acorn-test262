@@ -130,7 +130,9 @@ __ESTREE_TEST__:PASS:
                   "start": 42,
                   "end": 47,
                   "raw": "\"pkg\"",
-                  "value": "pkg"
+                  "value": "pkg",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "options": {
@@ -171,7 +173,9 @@ __ESTREE_TEST__:PASS:
                             "start": 60,
                             "end": 77,
                             "raw": "\"resolution-mode\"",
-                            "value": "resolution-mode"
+                            "value": "resolution-mode",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init",
                           "method": false,
@@ -182,7 +186,9 @@ __ESTREE_TEST__:PASS:
                             "start": 79,
                             "end": 88,
                             "raw": "\"require\"",
-                            "value": "require"
+                            "value": "require",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -214,7 +220,9 @@ __ESTREE_TEST__:PASS:
                   "start": 123,
                   "end": 128,
                   "raw": "\"pkg\"",
-                  "value": "pkg"
+                  "value": "pkg",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "options": {
@@ -255,7 +263,9 @@ __ESTREE_TEST__:PASS:
                             "start": 141,
                             "end": 158,
                             "raw": "\"resolution-mode\"",
-                            "value": "resolution-mode"
+                            "value": "resolution-mode",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init",
                           "method": false,
@@ -266,7 +276,9 @@ __ESTREE_TEST__:PASS:
                             "start": 160,
                             "end": 168,
                             "raw": "\"import\"",
-                            "value": "import"
+                            "value": "import",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -330,7 +342,9 @@ __ESTREE_TEST__:PASS:
                   "start": 209,
                   "end": 213,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -351,7 +365,9 @@ __ESTREE_TEST__:PASS:
                     "start": 231,
                     "end": 236,
                     "raw": "\"pkg\"",
-                    "value": "pkg"
+                    "value": "pkg",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "options": {
@@ -392,7 +408,9 @@ __ESTREE_TEST__:PASS:
                               "start": 249,
                               "end": 266,
                               "raw": "\"resolution-mode\"",
-                              "value": "resolution-mode"
+                              "value": "resolution-mode",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init",
                             "method": false,
@@ -403,7 +421,9 @@ __ESTREE_TEST__:PASS:
                               "start": 268,
                               "end": 277,
                               "raw": "\"require\"",
-                              "value": "require"
+                              "value": "require",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -469,7 +489,9 @@ __ESTREE_TEST__:PASS:
                   "start": 319,
                   "end": 323,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -490,7 +512,9 @@ __ESTREE_TEST__:PASS:
                     "start": 341,
                     "end": 346,
                     "raw": "\"pkg\"",
-                    "value": "pkg"
+                    "value": "pkg",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "options": {
@@ -531,7 +555,9 @@ __ESTREE_TEST__:PASS:
                               "start": 359,
                               "end": 376,
                               "raw": "\"resolution-mode\"",
-                              "value": "resolution-mode"
+                              "value": "resolution-mode",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init",
                             "method": false,
@@ -542,7 +568,9 @@ __ESTREE_TEST__:PASS:
                               "start": 378,
                               "end": 386,
                               "raw": "\"import\"",
-                              "value": "import"
+                              "value": "import",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

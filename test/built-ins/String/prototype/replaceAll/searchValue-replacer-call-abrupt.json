@@ -23,7 +23,9 @@
             "start": 964,
             "end": 965,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 1013,
                             "end": 1014,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -109,7 +113,9 @@
                           "start": 1026,
                           "end": 1073,
                           "value": "Should not call toString on this/replaceValue",
-                          "raw": "'Should not call toString on this/replaceValue'"
+                          "raw": "'Should not call toString on this/replaceValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -174,7 +180,9 @@
                   "start": 1122,
                   "end": 1127,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +204,9 @@
                   "start": 1138,
                   "end": 1141,
                   "value": "g",
-                  "raw": "'g'"
+                  "raw": "'g'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -298,7 +308,9 @@
                           "start": 1226,
                           "end": 1267,
                           "value": "Should not call toString on searchValue",
-                          "raw": "'Should not call toString on searchValue'"
+                          "raw": "'Should not call toString on searchValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -381,7 +393,9 @@
                           "start": 1320,
                           "end": 1322,
                           "value": "",
-                          "raw": "''"
+                          "raw": "''",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -470,7 +484,9 @@
             "start": 1401,
             "end": 1402,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

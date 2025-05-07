@@ -41,7 +41,9 @@
                   "start": 263,
                   "end": 264,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 271,
                   "end": 272,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -242,14 +246,18 @@
             "start": 365,
             "end": 381,
             "value": "[object Array]",
-            "raw": "'[object Array]'"
+            "raw": "'[object Array]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 386,
             "value": "s",
-            "raw": "'s'"
+            "raw": "'s'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

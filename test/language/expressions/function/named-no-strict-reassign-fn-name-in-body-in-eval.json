@@ -23,7 +23,9 @@
             "start": 595,
             "end": 596,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +103,9 @@
                         "start": 661,
                         "end": 684,
                         "value": "BindingIdentifier = 1",
-                        "raw": "\"BindingIdentifier = 1\""
+                        "raw": "\"BindingIdentifier = 1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -215,14 +219,18 @@
             "start": 777,
             "end": 778,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 780,
             "end": 811,
             "value": "function invoked exactly once",
-            "raw": "'function invoked exactly once'"
+            "raw": "'function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

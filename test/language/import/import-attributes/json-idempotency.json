@@ -25,7 +25,9 @@
         "start": 379,
         "end": 412,
         "value": "./json-idempotency_FIXTURE.json",
-        "raw": "'./json-idempotency_FIXTURE.json'"
+        "raw": "'./json-idempotency_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -43,7 +45,9 @@
             "start": 426,
             "end": 432,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -76,7 +80,9 @@
         "start": 478,
         "end": 511,
         "value": "./json-idempotency_FIXTURE.json",
-        "raw": "'./json-idempotency_FIXTURE.json'"
+        "raw": "'./json-idempotency_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -94,7 +100,9 @@
             "start": 525,
             "end": 531,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -109,7 +117,9 @@
         "start": 542,
         "end": 582,
         "value": "./json-idempotency-indirect_FIXTURE.js",
-        "raw": "'./json-idempotency-indirect_FIXTURE.js'"
+        "raw": "'./json-idempotency-indirect_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -243,7 +253,9 @@
                   "start": 711,
                   "end": 744,
                   "value": "./json-idempotency_FIXTURE.json",
-                  "raw": "'./json-idempotency_FIXTURE.json'"
+                  "raw": "'./json-idempotency_FIXTURE.json'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": {
                   "type": "ObjectExpression",
@@ -286,7 +298,9 @@
                               "start": 762,
                               "end": 768,
                               "value": "json",
-                              "raw": "'json'"
+                              "raw": "'json'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

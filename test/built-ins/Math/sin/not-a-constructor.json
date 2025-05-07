@@ -69,14 +69,18 @@
             "start": 722,
             "end": 727,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 729,
             "end": 772,
             "value": "isConstructor(Math.sin) must return false",
-            "raw": "'isConstructor(Math.sin) must return false'"
+            "raw": "'isConstructor(Math.sin) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

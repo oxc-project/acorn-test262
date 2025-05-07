@@ -124,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "\"./file\"",
-        "value": "./file"
+        "value": "./file",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -150,7 +152,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 32,
         "raw": "\"./reexport\"",
-        "value": "./reexport"
+        "value": "./reexport",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -293,7 +297,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 62,
         "raw": "\"./reexport\"",
-        "value": "./reexport"
+        "value": "./reexport",
+        "regex": null,
+        "bigint": null
       }
     },
     {

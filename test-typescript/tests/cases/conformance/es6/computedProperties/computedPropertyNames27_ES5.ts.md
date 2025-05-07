@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
                   "start": 53,
                   "end": 59,
                   "raw": "\"prop\"",
-                  "value": "prop"
+                  "value": "prop",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },

@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
             "start": 77,
             "end": 83,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -78,7 +80,9 @@ __ESTREE_TEST__:PASS:
             "start": 161,
             "end": 167,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -118,7 +122,9 @@ __ESTREE_TEST__:PASS:
             "start": 220,
             "end": 226,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -158,7 +164,9 @@ __ESTREE_TEST__:PASS:
             "start": 277,
             "end": 283,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -198,7 +206,9 @@ __ESTREE_TEST__:PASS:
             "start": 313,
             "end": 319,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -238,7 +248,9 @@ __ESTREE_TEST__:PASS:
             "start": 347,
             "end": 353,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -278,7 +290,9 @@ __ESTREE_TEST__:PASS:
             "start": 434,
             "end": 440,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -318,7 +332,9 @@ __ESTREE_TEST__:PASS:
             "start": 519,
             "end": 525,
             "raw": "'nope'",
-            "value": "nope"
+            "value": "nope",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

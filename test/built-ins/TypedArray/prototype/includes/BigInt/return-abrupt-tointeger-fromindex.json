@@ -151,6 +151,7 @@
                                 "end": 1012,
                                 "value": null,
                                 "raw": "7n",
+                                "regex": null,
                                 "bigint": "7"
                               }
                             ]
@@ -243,6 +244,7 @@
                                     "end": 1082,
                                     "value": null,
                                     "raw": "7n",
+                                    "regex": null,
                                     "bigint": "7"
                                   },
                                   {

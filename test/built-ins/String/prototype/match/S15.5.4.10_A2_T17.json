@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "0.",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -53,7 +54,9 @@
             "start": 292,
             "end": 312,
             "value": 10203040506070809000,
-            "raw": "10203040506070809000"
+            "raw": "10203040506070809000",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -184,7 +187,9 @@
             "start": 499,
             "end": 500,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -195,7 +200,9 @@
           "start": 506,
           "end": 510,
           "value": "02",
-          "raw": "\"02\""
+          "raw": "\"02\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -227,7 +234,9 @@
                     "start": 539,
                     "end": 583,
                     "value": "#1: __num.match(__re)[0]=== \"02\". Actual: ",
-                    "raw": "'#1: __num.match(__re)[0]=== \"02\". Actual: '"
+                    "raw": "'#1: __num.match(__re)[0]=== \"02\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -272,7 +281,9 @@
                       "start": 604,
                       "end": 605,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -345,7 +356,9 @@
           "start": 816,
           "end": 817,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -377,7 +390,9 @@
                     "start": 846,
                     "end": 891,
                     "value": "#2: __num.match(__re).length ===1. Actual: ",
-                    "raw": "'#2: __num.match(__re).length ===1. Actual: '"
+                    "raw": "'#2: __num.match(__re).length ===1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -494,7 +509,9 @@
           "start": 1127,
           "end": 1128,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -526,7 +543,9 @@
                     "start": 1157,
                     "end": 1201,
                     "value": "#3: __num.match(__re).index ===1. Actual: ",
-                    "raw": "'#3: __num.match(__re).index ===1. Actual: '"
+                    "raw": "'#3: __num.match(__re).index ===1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -688,7 +707,9 @@
                     "start": 1478,
                     "end": 1534,
                     "value": "#4: __num.match(__re).input ===String(__num). Actual: ",
-                    "raw": "'#4: __num.match(__re).input ===String(__num). Actual: '"
+                    "raw": "'#4: __num.match(__re).input ===String(__num). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

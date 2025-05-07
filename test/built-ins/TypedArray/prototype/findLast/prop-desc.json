@@ -80,7 +80,9 @@
             "start": 645,
             "end": 655,
             "value": "findLast",
-            "raw": "\"findLast\""
+            "raw": "\"findLast\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -105,7 +107,9 @@
                   "start": 673,
                   "end": 678,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -127,7 +131,9 @@
                   "start": 692,
                   "end": 696,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -149,7 +155,9 @@
                   "start": 714,
                   "end": 718,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

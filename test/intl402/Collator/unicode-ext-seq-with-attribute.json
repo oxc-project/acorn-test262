@@ -47,7 +47,9 @@
                 "start": 919,
                 "end": 944,
                 "value": "de-u-attrval-co-phonebk",
-                "raw": "\"de-u-attrval-co-phonebk\""
+                "raw": "\"de-u-attrval-co-phonebk\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -99,7 +101,9 @@
                 "start": 981,
                 "end": 998,
                 "value": "de-u-co-phonebk",
-                "raw": "\"de-u-co-phonebk\""
+                "raw": "\"de-u-co-phonebk\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

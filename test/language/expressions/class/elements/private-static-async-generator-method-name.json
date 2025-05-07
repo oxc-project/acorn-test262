@@ -192,7 +192,9 @@
             "start": 2361,
             "end": 2370,
             "value": "#method",
-            "raw": "\"#method\""
+            "raw": "\"#method\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

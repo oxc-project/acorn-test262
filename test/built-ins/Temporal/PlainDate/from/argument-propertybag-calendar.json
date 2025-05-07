@@ -23,7 +23,9 @@
             "start": 308,
             "end": 317,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,7 +106,9 @@
                       "start": 369,
                       "end": 373,
                       "value": 1976,
-                      "raw": "1976"
+                      "raw": "1976",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -126,7 +130,9 @@
                       "start": 382,
                       "end": 384,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -148,7 +154,9 @@
                       "start": 391,
                       "end": 393,
                       "value": 18,
-                      "raw": "18"
+                      "raw": "18",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -221,28 +229,36 @@
             "start": 451,
             "end": 455,
             "value": 1976,
-            "raw": "1976"
+            "raw": "1976",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 459,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 466,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 470,
             "value": 18,
-            "raw": "18"
+            "raw": "18",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,14 +316,18 @@
             "start": 512,
             "end": 521,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 551,
             "value": "calendar string is iso8601",
-            "raw": "\"calendar string is iso8601\""
+            "raw": "\"calendar string is iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

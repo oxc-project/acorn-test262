@@ -52,7 +52,9 @@ __ESTREE_TEST__:PASS:
                   "start": 98,
                   "end": 100,
                   "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -125,7 +127,9 @@ __ESTREE_TEST__:PASS:
                     "start": 122,
                     "end": 127,
                     "raw": "\"foo\"",
-                    "value": "foo"
+                    "value": "foo",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -235,7 +239,9 @@ __ESTREE_TEST__:PASS:
                     "start": 181,
                     "end": 186,
                     "raw": "\"bar\"",
-                    "value": "bar"
+                    "value": "bar",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -287,7 +293,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 90,
         "raw": "\"./preact\"",
-        "value": "./preact"
+        "value": "./preact",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -338,7 +346,9 @@ __ESTREE_TEST__:PASS:
                   "start": 117,
                   "end": 119,
                   "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -411,7 +421,9 @@ __ESTREE_TEST__:PASS:
                     "start": 142,
                     "end": 147,
                     "raw": "\"foo\"",
-                    "value": "foo"
+                    "value": "foo",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -521,7 +533,9 @@ __ESTREE_TEST__:PASS:
                     "start": 204,
                     "end": 209,
                     "raw": "\"bar\"",
-                    "value": "bar"
+                    "value": "bar",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

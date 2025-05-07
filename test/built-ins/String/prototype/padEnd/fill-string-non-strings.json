@@ -44,7 +44,9 @@
                 "start": 292,
                 "end": 297,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -61,14 +63,18 @@
                 "start": 305,
                 "end": 307,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 309,
                 "end": 314,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -78,7 +84,9 @@
             "start": 317,
             "end": 329,
             "value": "abcfalsefa",
-            "raw": "'abcfalsefa'"
+            "raw": "'abcfalsefa'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -125,7 +133,9 @@
                 "start": 349,
                 "end": 354,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -142,14 +152,18 @@
                 "start": 362,
                 "end": 364,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 370,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -159,7 +173,9 @@
             "start": 373,
             "end": 385,
             "value": "abctruetru",
-            "raw": "'abctruetru'"
+            "raw": "'abctruetru'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,7 +222,9 @@
                 "start": 405,
                 "end": 410,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -223,14 +241,18 @@
                 "start": 418,
                 "end": 420,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 426,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -240,7 +262,9 @@
             "start": 429,
             "end": 441,
             "value": "abcnullnul",
-            "raw": "'abcnullnul'"
+            "raw": "'abcnullnul'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +311,9 @@
                 "start": 461,
                 "end": 466,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -304,14 +330,18 @@
                 "start": 474,
                 "end": 476,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 478,
                 "end": 479,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -321,7 +351,9 @@
             "start": 482,
             "end": 494,
             "value": "abc0000000",
-            "raw": "'abc0000000'"
+            "raw": "'abc0000000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +400,9 @@
                 "start": 514,
                 "end": 519,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -385,7 +419,9 @@
                 "start": 527,
                 "end": 529,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -398,7 +434,9 @@
                   "start": 532,
                   "end": 533,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -409,7 +447,9 @@
             "start": 536,
             "end": 548,
             "value": "abc0000000",
-            "raw": "'abc0000000'"
+            "raw": "'abc0000000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -456,7 +496,9 @@
                 "start": 568,
                 "end": 573,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -473,7 +515,9 @@
                 "start": 581,
                 "end": 583,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -489,7 +533,9 @@
             "start": 591,
             "end": 603,
             "value": "abcNaNNaNN",
-            "raw": "'abcNaNNaNN'"
+            "raw": "'abcNaNNaNN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

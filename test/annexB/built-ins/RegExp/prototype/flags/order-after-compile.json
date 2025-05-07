@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,14 +67,18 @@
             "start": 1263,
             "end": 1269,
             "value": "(?:)",
-            "raw": "\"(?:)\""
+            "raw": "\"(?:)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1271,
             "end": 1279,
             "value": "imsuyg",
-            "raw": "\"imsuyg\""
+            "raw": "\"imsuyg\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -131,7 +136,9 @@
             "start": 1309,
             "end": 1317,
             "value": "gimsuy",
-            "raw": "\"gimsuy\""
+            "raw": "\"gimsuy\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

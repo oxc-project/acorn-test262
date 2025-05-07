@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 36,
               "raw": "\"nImported\"",
-              "value": "nImported"
+              "value": "nImported",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
               "start": 65,
               "end": 79,
               "raw": "\"nNotImported\"",
-              "value": "nNotImported"
+              "value": "nNotImported",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -109,7 +113,9 @@ __ESTREE_TEST__:PASS:
             "start": 97,
             "end": 106,
             "raw": "\"private\"",
-            "value": "private"
+            "value": "private",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -158,7 +164,9 @@ __ESTREE_TEST__:PASS:
                     "start": 196,
                     "end": 200,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "typeAnnotation": {
@@ -410,7 +418,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 34,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -577,7 +587,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 24,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

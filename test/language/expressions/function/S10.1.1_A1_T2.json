@@ -50,7 +50,9 @@
                       "start": 480,
                       "end": 481,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -83,7 +85,9 @@
           "start": 494,
           "end": 495,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -106,7 +110,9 @@
               "start": 522,
               "end": 592,
               "value": "#1: Create function dynamically either by using a FunctionExpression",
-              "raw": "'#1: Create function dynamically either by using a FunctionExpression'"
+              "raw": "'#1: Create function dynamically either by using a FunctionExpression'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -155,7 +161,9 @@
                       "start": 632,
                       "end": 633,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -188,7 +196,9 @@
           "start": 646,
           "end": 647,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -216,7 +226,9 @@
                   "start": 675,
                   "end": 758,
                   "value": "#2: Create an anonymous function dynamically either by using a FunctionExpression",
-                  "raw": "'#2: Create an anonymous function dynamically either by using a FunctionExpression'"
+                  "raw": "'#2: Create an anonymous function dynamically either by using a FunctionExpression'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -271,7 +283,9 @@
                         "start": 801,
                         "end": 802,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -305,7 +319,9 @@
           "start": 816,
           "end": 817,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -333,7 +349,9 @@
                   "start": 845,
                   "end": 956,
                   "value": "#3: Create an anonymous function dynamically either by using a FunctionExpression wrapped in a group operator",
-                  "raw": "'#3: Create an anonymous function dynamically either by using a FunctionExpression wrapped in a group operator'"
+                  "raw": "'#3: Create an anonymous function dynamically either by using a FunctionExpression wrapped in a group operator'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

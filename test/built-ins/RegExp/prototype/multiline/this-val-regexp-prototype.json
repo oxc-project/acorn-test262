@@ -70,7 +70,9 @@
                   "start": 585,
                   "end": 596,
                   "value": "multiline",
-                  "raw": "'multiline'"
+                  "raw": "'multiline'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\d{2,4}",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 372,
                 "end": 385,
                 "value": "the 7 movie",
-                "raw": "\"the 7 movie\""
+                "raw": "\"the 7 movie\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 409,
             "end": 458,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

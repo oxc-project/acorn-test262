@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -194,7 +196,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 55,
         "raw": "\"./es6ImportNamedImportMergeErrors_0\"",
-        "value": "./es6ImportNamedImportMergeErrors_0"
+        "value": "./es6ImportNamedImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -257,7 +261,9 @@ __ESTREE_TEST__:PASS:
         "start": 118,
         "end": 155,
         "raw": "\"./es6ImportNamedImportMergeErrors_0\"",
-        "value": "./es6ImportNamedImportMergeErrors_0"
+        "value": "./es6ImportNamedImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -320,7 +326,9 @@ __ESTREE_TEST__:PASS:
         "start": 213,
         "end": 250,
         "raw": "\"./es6ImportNamedImportMergeErrors_0\"",
-        "value": "./es6ImportNamedImportMergeErrors_0"
+        "value": "./es6ImportNamedImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -373,7 +381,9 @@ __ESTREE_TEST__:PASS:
             "start": 279,
             "end": 281,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -391,7 +401,9 @@ __ESTREE_TEST__:PASS:
         "start": 309,
         "end": 346,
         "raw": "\"./es6ImportNamedImportMergeErrors_0\"",
-        "value": "./es6ImportNamedImportMergeErrors_0"
+        "value": "./es6ImportNamedImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -444,7 +456,9 @@ __ESTREE_TEST__:PASS:
             "start": 377,
             "end": 379,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -462,7 +476,9 @@ __ESTREE_TEST__:PASS:
         "start": 400,
         "end": 437,
         "raw": "\"./es6ImportNamedImportMergeErrors_0\"",
-        "value": "./es6ImportNamedImportMergeErrors_0"
+        "value": "./es6ImportNamedImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -502,7 +518,9 @@ __ESTREE_TEST__:PASS:
         "start": 482,
         "end": 519,
         "raw": "\"./es6ImportNamedImportMergeErrors_0\"",
-        "value": "./es6ImportNamedImportMergeErrors_0"
+        "value": "./es6ImportNamedImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

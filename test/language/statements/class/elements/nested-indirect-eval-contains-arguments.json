@@ -23,7 +23,9 @@
             "start": 608,
             "end": 609,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -113,7 +115,9 @@
                                     "start": 654,
                                     "end": 655,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -130,7 +134,9 @@
                                 "start": 663,
                                 "end": 675,
                                 "value": "arguments;",
-                                "raw": "'arguments;'"
+                                "raw": "'arguments;'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

@@ -230,7 +230,9 @@
                         "start": 1139,
                         "end": 1167,
                         "value": "new instance is extensible",
-                        "raw": "\"new instance is extensible\""
+                        "raw": "\"new instance is extensible\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -327,7 +329,9 @@
                         "start": 1262,
                         "end": 1332,
                         "value": "new instance does not inherit extensibility from typedarray argument",
-                        "raw": "\"new instance does not inherit extensibility from typedarray argument\""
+                        "raw": "\"new instance does not inherit extensibility from typedarray argument\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

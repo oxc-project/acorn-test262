@@ -78,7 +78,9 @@
                       "start": 328,
                       "end": 332,
                       "value": 2018,
-                      "raw": "2018"
+                      "raw": "2018",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 343,
                       "end": 344,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 353,
                       "end": 355,
                       "value": 17,
-                      "raw": "17"
+                      "raw": "17",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 365,
                       "end": 367,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +174,9 @@
                       "start": 381,
                       "end": 400,
                       "value": "America/Sao_Paulo",
-                      "raw": "\"America/Sao_Paulo\""
+                      "raw": "\"America/Sao_Paulo\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -231,14 +241,18 @@
             "start": 440,
             "end": 442,
             "value": 25,
-            "raw": "25"
+            "raw": "25",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 488,
             "value": "25-hour day with backward jump at midnight",
-            "raw": "\"25-hour day with backward jump at midnight\""
+            "raw": "\"25-hour day with backward jump at midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +333,9 @@
                       "start": 545,
                       "end": 549,
                       "value": 2018,
-                      "raw": "2018"
+                      "raw": "2018",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -341,7 +357,9 @@
                       "start": 560,
                       "end": 562,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -363,7 +381,9 @@
                       "start": 571,
                       "end": 572,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -385,7 +405,9 @@
                       "start": 582,
                       "end": 584,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -407,7 +429,9 @@
                       "start": 598,
                       "end": 617,
                       "value": "America/Sao_Paulo",
-                      "raw": "\"America/Sao_Paulo\""
+                      "raw": "\"America/Sao_Paulo\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -472,14 +496,18 @@
             "start": 659,
             "end": 661,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 706,
             "value": "23-hour day with forward jump at midnight",
-            "raw": "\"23-hour day with forward jump at midnight\""
+            "raw": "\"23-hour day with forward jump at midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

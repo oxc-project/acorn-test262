@@ -51,7 +51,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 27,
         "raw": "\"Observable\"",
-        "value": "Observable"
+        "value": "Observable",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -135,7 +137,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 75,
         "raw": "\"M\"",
-        "value": "M"
+        "value": "M",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -159,7 +163,9 @@ __ESTREE_TEST__:PASS:
               "start": 156,
               "end": 159,
               "raw": "\"M\"",
-              "value": "M"
+              "value": "M",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -273,7 +279,9 @@ __ESTREE_TEST__:PASS:
               "start": 172,
               "end": 184,
               "raw": "\"Observable\"",
-              "value": "Observable"
+              "value": "Observable",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -285,7 +293,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 129,
         "raw": "\"Map\"",
-        "value": "Map"
+        "value": "Map",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -311,7 +321,9 @@ __ESTREE_TEST__:PASS:
         "start": 58,
         "end": 70,
         "raw": "\"Observable\"",
-        "value": "Observable"
+        "value": "Observable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -351,7 +363,9 @@ __ESTREE_TEST__:PASS:
         "start": 79,
         "end": 84,
         "raw": "\"Map\"",
-        "value": "Map"
+        "value": "Map",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },

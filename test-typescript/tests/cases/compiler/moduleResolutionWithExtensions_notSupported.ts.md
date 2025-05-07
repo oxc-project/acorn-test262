@@ -49,7 +49,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 23,
         "raw": "\"./tsx\"",
-        "value": "./tsx"
+        "value": "./tsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -79,7 +81,9 @@ __ESTREE_TEST__:PASS:
         "start": 57,
         "end": 64,
         "raw": "\"./jsx\"",
-        "value": "./jsx"
+        "value": "./jsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -109,7 +113,9 @@ __ESTREE_TEST__:PASS:
         "start": 97,
         "end": 103,
         "raw": "\"./js\"",
-        "value": "./js"
+        "value": "./js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

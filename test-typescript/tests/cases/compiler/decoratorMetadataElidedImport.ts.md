@@ -89,7 +89,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 41,
         "raw": "'./observable'",
-        "value": "./observable"
+        "value": "./observable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -253,7 +255,9 @@ __ESTREE_TEST__:PASS:
                         "start": 218,
                         "end": 222,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

@@ -75,7 +75,9 @@
             "start": 299,
             "end": 322,
             "value": "Math.fround(Infinity)",
-            "raw": "'Math.fround(Infinity)'"
+            "raw": "'Math.fround(Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

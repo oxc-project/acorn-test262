@@ -47,28 +47,36 @@
                 "start": 937,
                 "end": 938,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 940,
                 "end": 941,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 943,
                 "end": 944,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 946,
                 "end": 947,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -109,14 +117,18 @@
             "start": 993,
             "end": 999,
             "value": "unit",
-            "raw": "\"unit\""
+            "raw": "\"unit\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1001,
             "end": 1007,
             "value": "hour",
-            "raw": "\"hour\""
+            "raw": "\"hour\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -247,7 +259,9 @@
                   "start": 1093,
                   "end": 1095,
                   "value": 24,
-                  "raw": "24"
+                  "raw": "24",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

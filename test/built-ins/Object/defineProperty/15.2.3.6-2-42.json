@@ -78,7 +78,9 @@
                 "start": 327,
                 "end": 330,
                 "value": 123,
-                "raw": "123"
+                "raw": "123",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -136,7 +138,9 @@
                 "start": 365,
                 "end": 370,
                 "value": "123",
-                "raw": "\"123\""
+                "raw": "\"123\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -146,7 +150,9 @@
             "start": 373,
             "end": 409,
             "value": "obj.hasOwnProperty(\"123\") !== true",
-            "raw": "'obj.hasOwnProperty(\"123\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"123\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -77,7 +77,9 @@
                     "start": 282,
                     "end": 283,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -121,7 +123,9 @@
             "start": 302,
             "end": 303,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,7 +214,9 @@
                             "start": 343,
                             "end": 344,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -268,7 +274,9 @@
                             "start": 383,
                             "end": 384,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -300,7 +308,9 @@
                             "start": 413,
                             "end": 434,
                             "value": "This happens second",
-                            "raw": "\"This happens second\""
+                            "raw": "\"This happens second\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -443,7 +453,9 @@
                                 "start": 507,
                                 "end": 508,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -501,7 +513,9 @@
                                 "start": 547,
                                 "end": 548,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -533,7 +547,9 @@
                                 "start": 577,
                                 "end": 597,
                                 "value": "This happens first",
-                                "raw": "\"This happens first\""
+                                "raw": "\"This happens first\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -602,7 +618,9 @@
                             "start": 637,
                             "end": 638,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -660,7 +678,9 @@
                             "start": 677,
                             "end": 678,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -692,7 +712,9 @@
                             "start": 707,
                             "end": 727,
                             "value": "This happens third",
-                            "raw": "\"This happens third\""
+                            "raw": "\"This happens third\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -763,7 +785,9 @@
             "start": 768,
             "end": 769,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

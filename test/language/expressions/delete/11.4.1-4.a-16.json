@@ -75,14 +75,18 @@
                         "start": 527,
                         "end": 532,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 534,
                         "end": 552,
                         "value": "delete arguments",
-                        "raw": "'delete arguments'"
+                        "raw": "'delete arguments'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -133,7 +137,9 @@
                         "start": 599,
                         "end": 610,
                         "value": "arguments",
-                        "raw": "'arguments'"
+                        "raw": "'arguments'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

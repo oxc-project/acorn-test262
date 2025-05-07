@@ -93,7 +93,9 @@ __ESTREE_TEST__:PASS:
               "start": 72,
               "end": 93,
               "raw": "\"harmless extra line\"",
-              "value": "harmless extra line"
+              "value": "harmless extra line",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

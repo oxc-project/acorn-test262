@@ -630,7 +630,9 @@ __ESTREE_TEST__:PASS:
                             "start": 304,
                             "end": 309,
                             "raw": "'asd'",
-                            "value": "asd"
+                            "value": "asd",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

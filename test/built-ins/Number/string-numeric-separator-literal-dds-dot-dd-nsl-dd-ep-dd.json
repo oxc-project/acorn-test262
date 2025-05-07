@@ -47,7 +47,9 @@
                 "start": 671,
                 "end": 683,
                 "value": "10.00_01e2",
-                "raw": "\"10.00_01e2\""
+                "raw": "\"10.00_01e2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 691,
             "end": 703,
             "value": "10.00_01e2",
-            "raw": "\"10.00_01e2\""
+            "raw": "\"10.00_01e2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

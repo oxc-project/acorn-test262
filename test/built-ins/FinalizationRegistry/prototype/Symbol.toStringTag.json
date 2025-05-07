@@ -79,7 +79,9 @@
                   "start": 637,
                   "end": 659,
                   "value": "FinalizationRegistry",
-                  "raw": "'FinalizationRegistry'"
+                  "raw": "'FinalizationRegistry'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -101,7 +103,9 @@
                   "start": 673,
                   "end": 678,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -123,7 +127,9 @@
                   "start": 694,
                   "end": 699,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -145,7 +151,9 @@
                   "start": 717,
                   "end": 721,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

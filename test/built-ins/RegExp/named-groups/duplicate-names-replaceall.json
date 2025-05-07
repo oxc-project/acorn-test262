@@ -44,7 +44,9 @@
                 "start": 307,
                 "end": 314,
                 "value": "abxab",
-                "raw": "\"abxab\""
+                "raw": "\"abxab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -65,14 +67,17 @@
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 354,
                 "value": "[$<x>]",
-                "raw": "\"[$<x>]\""
+                "raw": "\"[$<x>]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,7 +87,9 @@
             "start": 357,
             "end": 372,
             "value": "[a][b]x[a][b]",
-            "raw": "\"[a][b]x[a][b]\""
+            "raw": "\"[a][b]x[a][b]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -129,7 +136,9 @@
                 "start": 392,
                 "end": 399,
                 "value": "baxba",
-                "raw": "\"baxba\""
+                "raw": "\"baxba\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -150,14 +159,17 @@
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 439,
                 "value": "[$<x>]",
-                "raw": "\"[$<x>]\""
+                "raw": "\"[$<x>]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -167,7 +179,9 @@
             "start": 442,
             "end": 457,
             "value": "[b][a]x[b][a]",
-            "raw": "\"[b][a]x[b][a]\""
+            "raw": "\"[b][a]x[b][a]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,7 +228,9 @@
                 "start": 478,
                 "end": 485,
                 "value": "abxab",
-                "raw": "\"abxab\""
+                "raw": "\"abxab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -235,14 +251,17 @@
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 517,
                 "end": 533,
                 "value": "[$<x>][$1][$2]",
-                "raw": "\"[$<x>][$1][$2]\""
+                "raw": "\"[$<x>][$1][$2]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -252,7 +271,9 @@
             "start": 536,
             "end": 571,
             "value": "[a][a][][b][][b]x[a][a][][b][][b]",
-            "raw": "\"[a][a][][b][][b]x[a][a][][b][][b]\""
+            "raw": "\"[a][a][][b][][b]x[a][a][][b][][b]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,7 +320,9 @@
                 "start": 591,
                 "end": 598,
                 "value": "baxba",
-                "raw": "\"baxba\""
+                "raw": "\"baxba\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -320,14 +343,17 @@
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 630,
                 "end": 646,
                 "value": "[$<x>][$1][$2]",
-                "raw": "\"[$<x>][$1][$2]\""
+                "raw": "\"[$<x>][$1][$2]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -337,7 +363,9 @@
             "start": 649,
             "end": 684,
             "value": "[b][][b][a][a][]x[b][][b][a][a][]",
-            "raw": "\"[b][][b][a][a][]x[b][][b][a][a][]\""
+            "raw": "\"[b][][b][a][a][]x[b][][b][a][a][]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 775,
                 "end": 850,
                 "value": "Developing with JavaScript is dangerous, do not try it without assistance",
-                "raw": "\"Developing with JavaScript is dangerous, do not try it without assistance\""
+                "raw": "\"Developing with JavaScript is dangerous, do not try it without assistance\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 874,
             "end": 923,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

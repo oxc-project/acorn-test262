@@ -158,7 +158,9 @@ __ESTREE_TEST__:PASS:
         "start": 45,
         "end": 52,
         "raw": "\"./ref\"",
-        "value": "./ref"
+        "value": "./ref",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

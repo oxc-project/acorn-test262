@@ -77,7 +77,9 @@
             "start": 685,
             "end": 696,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -131,7 +133,9 @@
                               "start": 747,
                               "end": 786,
                               "value": "`superclass.prototype` is unreachable",
-                              "raw": "\"`superclass.prototype` is unreachable\""
+                              "raw": "\"`superclass.prototype` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -324,7 +328,9 @@
             "start": 926,
             "end": 937,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -378,7 +384,9 @@
                               "start": 988,
                               "end": 1027,
                               "value": "`superclass.prototype` is unreachable",
-                              "raw": "\"`superclass.prototype` is unreachable\""
+                              "raw": "\"`superclass.prototype` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -566,7 +574,9 @@
                                   "start": 1191,
                                   "end": 1230,
                                   "value": "`superclass.prototype` is unreachable",
-                                  "raw": "\"`superclass.prototype` is unreachable\""
+                                  "raw": "\"`superclass.prototype` is unreachable\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }

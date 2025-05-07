@@ -59,7 +59,9 @@
                           "start": 484,
                           "end": 498,
                           "value": "function(){}",
-                          "raw": "\"function(){}\""
+                          "raw": "\"function(){}\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -185,7 +187,9 @@
               "start": 685,
               "end": 686,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -196,7 +200,9 @@
           "start": 692,
           "end": 702,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -228,7 +234,9 @@
                     "start": 731,
                     "end": 874,
                     "value": "#1: __instance = function(){}; __instance.substring = String.prototype.substring;  __instance.substring(-Infinity,8) === \"function\". Actual: ",
-                    "raw": "'#1: __instance = function(){}; __instance.substring = String.prototype.substring;  __instance.substring(-Infinity,8) === \"function\". Actual: '"
+                    "raw": "'#1: __instance = function(){}; __instance.substring = String.prototype.substring;  __instance.substring(-Infinity,8) === \"function\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -268,7 +276,9 @@
                             "start": 898,
                             "end": 899,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -307,7 +317,9 @@
                         "start": 932,
                         "end": 933,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

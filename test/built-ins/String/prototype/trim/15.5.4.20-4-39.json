@@ -44,7 +44,9 @@
                 "start": 283,
                 "end": 294,
                 "value": "abc",
-                "raw": "\"ab\\u0085c\""
+                "raw": "\"ab\\u0085c\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 303,
             "end": 314,
             "value": "abc",
-            "raw": "\"ab\\u0085c\""
+            "raw": "\"ab\\u0085c\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 316,
             "end": 336,
             "value": "\"abc\".trim()",
-            "raw": "'\"ab\\u0085c\".trim()'"
+            "raw": "'\"ab\\u0085c\".trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

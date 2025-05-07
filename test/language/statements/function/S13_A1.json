@@ -46,7 +46,9 @@
                     "start": 360,
                     "end": 361,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -83,7 +85,9 @@
           "start": 481,
           "end": 491,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -115,7 +119,9 @@
                     "start": 519,
                     "end": 580,
                     "value": "#1: typeof __func === \"function\". Actual: typeof __func ===",
-                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='"
+                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +172,9 @@
           "start": 800,
           "end": 811,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -198,7 +206,9 @@
                     "start": 841,
                     "end": 913,
                     "value": "#2: typeof __exp__func === \"undefined\". Actual: typeof __exp__func ===",
-                    "raw": "'#2: typeof __exp__func === \"undefined\". Actual: typeof __exp__func ==='"
+                    "raw": "'#2: typeof __exp__func === \"undefined\". Actual: typeof __exp__func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

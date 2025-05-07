@@ -140,7 +140,9 @@
                                 "start": 1150,
                                 "end": 1153,
                                 "value": 123,
-                                "raw": "123"
+                                "raw": "123",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -176,7 +178,9 @@
                               "start": 1177,
                               "end": 1183,
                               "value": "decl",
-                              "raw": "'decl'"
+                              "raw": "'decl'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -279,14 +283,18 @@
             "start": 1260,
             "end": 1266,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1270,
             "end": 1335,
             "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "raw": "'Block-scoped binding value is function object at execution time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,14 +339,18 @@
             "start": 1367,
             "end": 1370,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1372,
             "end": 1405,
             "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "raw": "'Block-scoped binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,14 +402,18 @@
             "start": 1444,
             "end": 1450,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1454,
             "end": 1519,
             "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

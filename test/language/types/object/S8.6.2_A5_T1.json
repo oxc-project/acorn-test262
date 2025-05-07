@@ -35,7 +35,9 @@
           "start": 353,
           "end": 354,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -166,7 +168,9 @@
           "start": 525,
           "end": 526,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -198,7 +202,9 @@
                     "start": 555,
                     "end": 658,
                     "value": "#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: ",
-                    "raw": "'#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: '"
+                    "raw": "'#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -243,7 +249,9 @@
             "start": 856,
             "end": 863,
             "value": "touch",
-            "raw": "'touch'"
+            "raw": "'touch'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -272,7 +280,9 @@
           "start": 881,
           "end": 882,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -304,7 +314,9 @@
                     "start": 911,
                     "end": 1039,
                     "value": "#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen['touch'](); count === 2. Actual: ",
-                    "raw": "'#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen[\\'touch\\'](); count === 2. Actual: '"
+                    "raw": "'#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen[\\'touch\\'](); count === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

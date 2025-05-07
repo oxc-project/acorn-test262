@@ -95,6 +95,7 @@
                                         "end": 1134,
                                         "value": null,
                                         "raw": "0n",
+                                        "regex": null,
                                         "bigint": "0"
                                       },
                                       {
@@ -103,6 +104,7 @@
                                         "end": 1138,
                                         "value": null,
                                         "raw": "1n",
+                                        "regex": null,
                                         "bigint": "1"
                                       },
                                       {
@@ -111,6 +113,7 @@
                                         "end": 1142,
                                         "value": null,
                                         "raw": "2n",
+                                        "regex": null,
                                         "bigint": "2"
                                       },
                                       {
@@ -119,6 +122,7 @@
                                         "end": 1146,
                                         "value": null,
                                         "raw": "3n",
+                                        "regex": null,
                                         "bigint": "3"
                                       }
                                     ]
@@ -146,7 +150,9 @@
                                   "start": 1161,
                                   "end": 1163,
                                   "value": 10,
-                                  "raw": "10"
+                                  "raw": "10",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -154,7 +160,9 @@
                                 "start": 1165,
                                 "end": 1166,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -170,6 +178,7 @@
                                 "end": 1178,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               },
                               {
@@ -178,6 +187,7 @@
                                 "end": 1182,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               },
                               {
@@ -186,6 +196,7 @@
                                 "end": 1186,
                                 "value": null,
                                 "raw": "2n",
+                                "regex": null,
                                 "bigint": "2"
                               },
                               {
@@ -194,6 +205,7 @@
                                 "end": 1190,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               }
                             ]
@@ -206,7 +218,9 @@
                         "start": 1203,
                         "end": 1252,
                         "value": "[0, 1, 2, 3].copyWithin(-10, 0) -> [0, 1, 2, 3]",
-                        "raw": "'[0, 1, 2, 3].copyWithin(-10, 0) -> [0, 1, 2, 3]'"
+                        "raw": "'[0, 1, 2, 3].copyWithin(-10, 0) -> [0, 1, 2, 3]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -268,6 +282,7 @@
                                         "end": 1303,
                                         "value": null,
                                         "raw": "1n",
+                                        "regex": null,
                                         "bigint": "1"
                                       },
                                       {
@@ -276,6 +291,7 @@
                                         "end": 1307,
                                         "value": null,
                                         "raw": "2n",
+                                        "regex": null,
                                         "bigint": "2"
                                       },
                                       {
@@ -284,6 +300,7 @@
                                         "end": 1311,
                                         "value": null,
                                         "raw": "3n",
+                                        "regex": null,
                                         "bigint": "3"
                                       },
                                       {
@@ -292,6 +309,7 @@
                                         "end": 1315,
                                         "value": null,
                                         "raw": "4n",
+                                        "regex": null,
                                         "bigint": "4"
                                       },
                                       {
@@ -300,6 +318,7 @@
                                         "end": 1319,
                                         "value": null,
                                         "raw": "5n",
+                                        "regex": null,
                                         "bigint": "5"
                                       }
                                     ]
@@ -334,7 +353,9 @@
                                 "start": 1344,
                                 "end": 1345,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -350,6 +371,7 @@
                                 "end": 1357,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               },
                               {
@@ -358,6 +380,7 @@
                                 "end": 1361,
                                 "value": null,
                                 "raw": "2n",
+                                "regex": null,
                                 "bigint": "2"
                               },
                               {
@@ -366,6 +389,7 @@
                                 "end": 1365,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               },
                               {
@@ -374,6 +398,7 @@
                                 "end": 1369,
                                 "value": null,
                                 "raw": "4n",
+                                "regex": null,
                                 "bigint": "4"
                               },
                               {
@@ -382,6 +407,7 @@
                                 "end": 1373,
                                 "value": null,
                                 "raw": "5n",
+                                "regex": null,
                                 "bigint": "5"
                               }
                             ]
@@ -394,7 +420,9 @@
                         "start": 1386,
                         "end": 1447,
                         "value": "[1, 2, 3, 4, 5].copyWithin(-Infinity, 0) -> [1, 2, 3, 4, 5]",
-                        "raw": "'[1, 2, 3, 4, 5].copyWithin(-Infinity, 0) -> [1, 2, 3, 4, 5]'"
+                        "raw": "'[1, 2, 3, 4, 5].copyWithin(-Infinity, 0) -> [1, 2, 3, 4, 5]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -456,6 +484,7 @@
                                         "end": 1498,
                                         "value": null,
                                         "raw": "0n",
+                                        "regex": null,
                                         "bigint": "0"
                                       },
                                       {
@@ -464,6 +493,7 @@
                                         "end": 1502,
                                         "value": null,
                                         "raw": "1n",
+                                        "regex": null,
                                         "bigint": "1"
                                       },
                                       {
@@ -472,6 +502,7 @@
                                         "end": 1506,
                                         "value": null,
                                         "raw": "2n",
+                                        "regex": null,
                                         "bigint": "2"
                                       },
                                       {
@@ -480,6 +511,7 @@
                                         "end": 1510,
                                         "value": null,
                                         "raw": "3n",
+                                        "regex": null,
                                         "bigint": "3"
                                       },
                                       {
@@ -488,6 +520,7 @@
                                         "end": 1514,
                                         "value": null,
                                         "raw": "4n",
+                                        "regex": null,
                                         "bigint": "4"
                                       }
                                     ]
@@ -515,7 +548,9 @@
                                   "start": 1529,
                                   "end": 1531,
                                   "value": 10,
-                                  "raw": "10"
+                                  "raw": "10",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -523,7 +558,9 @@
                                 "start": 1533,
                                 "end": 1534,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -539,6 +576,7 @@
                                 "end": 1546,
                                 "value": null,
                                 "raw": "2n",
+                                "regex": null,
                                 "bigint": "2"
                               },
                               {
@@ -547,6 +585,7 @@
                                 "end": 1550,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               },
                               {
@@ -555,6 +594,7 @@
                                 "end": 1554,
                                 "value": null,
                                 "raw": "4n",
+                                "regex": null,
                                 "bigint": "4"
                               },
                               {
@@ -563,6 +603,7 @@
                                 "end": 1558,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               },
                               {
@@ -571,6 +612,7 @@
                                 "end": 1562,
                                 "value": null,
                                 "raw": "4n",
+                                "regex": null,
                                 "bigint": "4"
                               }
                             ]
@@ -583,7 +625,9 @@
                         "start": 1575,
                         "end": 1630,
                         "value": "[0, 1, 2, 3, 4].copyWithin(-10, 2) -> [2, 3, 4, 3, 4]",
-                        "raw": "'[0, 1, 2, 3, 4].copyWithin(-10, 2) -> [2, 3, 4, 3, 4]'"
+                        "raw": "'[0, 1, 2, 3, 4].copyWithin(-10, 2) -> [2, 3, 4, 3, 4]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -645,6 +689,7 @@
                                         "end": 1681,
                                         "value": null,
                                         "raw": "1n",
+                                        "regex": null,
                                         "bigint": "1"
                                       },
                                       {
@@ -653,6 +698,7 @@
                                         "end": 1685,
                                         "value": null,
                                         "raw": "2n",
+                                        "regex": null,
                                         "bigint": "2"
                                       },
                                       {
@@ -661,6 +707,7 @@
                                         "end": 1689,
                                         "value": null,
                                         "raw": "3n",
+                                        "regex": null,
                                         "bigint": "3"
                                       },
                                       {
@@ -669,6 +716,7 @@
                                         "end": 1693,
                                         "value": null,
                                         "raw": "4n",
+                                        "regex": null,
                                         "bigint": "4"
                                       },
                                       {
@@ -677,6 +725,7 @@
                                         "end": 1697,
                                         "value": null,
                                         "raw": "5n",
+                                        "regex": null,
                                         "bigint": "5"
                                       }
                                     ]
@@ -711,7 +760,9 @@
                                 "start": 1722,
                                 "end": 1723,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -727,6 +778,7 @@
                                 "end": 1735,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               },
                               {
@@ -735,6 +787,7 @@
                                 "end": 1739,
                                 "value": null,
                                 "raw": "4n",
+                                "regex": null,
                                 "bigint": "4"
                               },
                               {
@@ -743,6 +796,7 @@
                                 "end": 1743,
                                 "value": null,
                                 "raw": "5n",
+                                "regex": null,
                                 "bigint": "5"
                               },
                               {
@@ -751,6 +805,7 @@
                                 "end": 1747,
                                 "value": null,
                                 "raw": "4n",
+                                "regex": null,
                                 "bigint": "4"
                               },
                               {
@@ -759,6 +814,7 @@
                                 "end": 1751,
                                 "value": null,
                                 "raw": "5n",
+                                "regex": null,
                                 "bigint": "5"
                               }
                             ]
@@ -771,7 +827,9 @@
                         "start": 1764,
                         "end": 1825,
                         "value": "[1, 2, 3, 4, 5].copyWithin(-Infinity, 2) -> [3, 4, 5, 4, 5]",
-                        "raw": "'[1, 2, 3, 4, 5].copyWithin(-Infinity, 2) -> [3, 4, 5, 4, 5]'"
+                        "raw": "'[1, 2, 3, 4, 5].copyWithin(-Infinity, 2) -> [3, 4, 5, 4, 5]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

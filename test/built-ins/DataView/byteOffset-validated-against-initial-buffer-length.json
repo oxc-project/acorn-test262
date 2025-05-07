@@ -83,7 +83,9 @@
                 "start": 991,
                 "end": 1002,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -137,7 +139,9 @@
                                   "start": 1043,
                                   "end": 1085,
                                   "value": "GetPrototypeFromConstructor not executed",
-                                  "raw": "\"GetPrototypeFromConstructor not executed\""
+                                  "raw": "\"GetPrototypeFromConstructor not executed\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -187,7 +191,9 @@
                 "start": 1145,
                 "end": 1146,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -215,7 +221,9 @@
             "start": 1231,
             "end": 1233,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

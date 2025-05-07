@@ -59,7 +59,9 @@ __ESTREE_TEST__:PASS:
                         "start": 38,
                         "end": 46,
                         "raw": "\"I am B\"",
-                        "value": "I am B"
+                        "value": "I am B",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -119,7 +121,9 @@ __ESTREE_TEST__:PASS:
                 "start": 82,
                 "end": 87,
                 "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -180,7 +184,9 @@ __ESTREE_TEST__:PASS:
                 "start": 34,
                 "end": 42,
                 "raw": "\"backup\"",
-                "value": "backup"
+                "value": "backup",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -285,7 +291,9 @@ __ESTREE_TEST__:PASS:
               "start": 57,
               "end": 62,
               "raw": "\"./0\"",
-              "value": "./0"
+              "value": "./0",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "CallExpression",
@@ -421,14 +429,18 @@ __ESTREE_TEST__:PASS:
                 "start": 182,
                 "end": 186,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "Literal",
                 "start": 174,
                 "end": 179,
                 "raw": "\"./1\"",
-                "value": "./1"
+                "value": "./1",
+                "regex": null,
+                "bigint": null
               },
               "test": {
                 "type": "CallExpression",
@@ -483,7 +495,9 @@ __ESTREE_TEST__:PASS:
               "start": 212,
               "end": 216,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         }

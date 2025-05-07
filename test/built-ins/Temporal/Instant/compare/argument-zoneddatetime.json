@@ -48,6 +48,7 @@
                 "end": 736,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               }
             ]
@@ -215,14 +216,18 @@
                         "start": 892,
                         "end": 893,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 895,
                         "end": 914,
                         "value": "comparison result",
-                        "raw": "\"comparison result\""
+                        "raw": "\"comparison result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -400,7 +405,9 @@
                           "start": 1075,
                           "end": 1076,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -408,7 +415,9 @@
                         "start": 1078,
                         "end": 1097,
                         "value": "comparison result",
-                        "raw": "\"comparison result\""
+                        "raw": "\"comparison result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

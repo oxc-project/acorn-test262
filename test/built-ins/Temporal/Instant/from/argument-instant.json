@@ -48,6 +48,7 @@
                 "end": 315,
                 "value": null,
                 "raw": "217_175_010_123_456_789n",
+                "regex": null,
                 "bigint": "217175010123456789"
               }
             ]
@@ -174,6 +175,7 @@
             "end": 429,
             "value": null,
             "raw": "217_175_010_123_456_789n",
+            "regex": null,
             "bigint": "217175010123456789"
           },
           {
@@ -181,7 +183,9 @@
             "start": 431,
             "end": 450,
             "value": "Instant is copied",
-            "raw": "\"Instant is copied\""
+            "raw": "\"Instant is copied\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +236,9 @@
             "start": 495,
             "end": 569,
             "value": "When an Instant is given, the returned value is not the original Instant",
-            "raw": "\"When an Instant is given, the returned value is not the original Instant\""
+            "raw": "\"When an Instant is given, the returned value is not the original Instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -32,7 +32,9 @@
         "start": 807,
         "end": 812,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "update": null,
       "body": {
@@ -71,7 +73,9 @@
         "start": 837,
         "end": 842,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "update": null,
       "body": {

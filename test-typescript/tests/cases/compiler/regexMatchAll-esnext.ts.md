@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 39,
                 "end": 49,
                 "raw": "\"matchAll\"",
-                "value": "matchAll"
+                "value": "matchAll",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "g",
                   "pattern": "\\w"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               "optional": false,
               "property": {
@@ -229,7 +232,9 @@ __ESTREE_TEST__:PASS:
               "start": 111,
               "end": 112,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         }

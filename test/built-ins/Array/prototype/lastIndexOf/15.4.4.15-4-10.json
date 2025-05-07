@@ -60,7 +60,9 @@
                   "start": 300,
                   "end": 301,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -82,7 +84,9 @@
                   "start": 316,
                   "end": 319,
                   "value": 100,
-                  "raw": "100"
+                  "raw": "100",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -116,7 +120,9 @@
                     "start": 343,
                     "end": 347,
                     "value": 0.6,
-                    "raw": "6e-1"
+                    "raw": "6e-1",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init"
@@ -231,7 +237,9 @@
               "start": 420,
               "end": 421,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -239,7 +247,9 @@
             "start": 423,
             "end": 473,
             "value": "Array.prototype.lastIndexOf.call(obj, targetObj)",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, targetObj)'"
+            "raw": "'Array.prototype.lastIndexOf.call(obj, targetObj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

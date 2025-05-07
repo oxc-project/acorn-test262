@@ -201,7 +201,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 33,
           "raw": "\"file1\"",
-          "value": "file1"
+          "value": "file1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

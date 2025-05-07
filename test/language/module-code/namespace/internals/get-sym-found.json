@@ -25,7 +25,9 @@
         "start": 479,
         "end": 499,
         "value": "./get-sym-found.js",
-        "raw": "'./get-sym-found.js'"
+        "raw": "'./get-sym-found.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -101,7 +103,9 @@
             "start": 550,
             "end": 558,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

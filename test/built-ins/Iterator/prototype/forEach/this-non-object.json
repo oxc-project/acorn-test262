@@ -110,7 +110,9 @@
                         "start": 435,
                         "end": 439,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -191,7 +193,9 @@
             "start": 497,
             "end": 503,
             "value": "next",
-            "raw": "'next'"
+            "raw": "'next'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -360,7 +364,9 @@
                         "start": 640,
                         "end": 641,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrowFunctionExpression",

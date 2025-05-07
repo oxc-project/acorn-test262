@@ -76,6 +76,7 @@
                                 "end": 2145,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ]

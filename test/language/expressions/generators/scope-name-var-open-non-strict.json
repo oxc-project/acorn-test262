@@ -23,7 +23,9 @@
             "start": 796,
             "end": 805,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -125,7 +127,9 @@
                       "start": 884,
                       "end": 888,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -325,7 +329,9 @@
                                     "start": 1051,
                                     "end": 1055,
                                     "value": null,
-                                    "raw": "null"
+                                    "raw": "null",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -437,7 +443,9 @@
                                 "start": 1140,
                                 "end": 1144,
                                 "value": null,
-                                "raw": "null"
+                                "raw": "null",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -537,7 +545,9 @@
             "start": 1201,
             "end": 1210,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -607,7 +617,9 @@
             "start": 1258,
             "end": 1262,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -665,7 +677,9 @@
             "start": 1304,
             "end": 1343,
             "value": "inner binding value (from parameters)",
-            "raw": "'inner binding value (from parameters)'"
+            "raw": "'inner binding value (from parameters)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -741,7 +755,9 @@
             "start": 1400,
             "end": 1446,
             "value": "inner binding is immutable (from parameters)",
-            "raw": "'inner binding is immutable (from parameters)'"
+            "raw": "'inner binding is immutable (from parameters)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -799,7 +815,9 @@
             "start": 1487,
             "end": 1520,
             "value": "inner binding value (from body)",
-            "raw": "'inner binding value (from body)'"
+            "raw": "'inner binding value (from body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,7 +893,9 @@
             "start": 1570,
             "end": 1610,
             "value": "inner binding is immutable (from body)",
-            "raw": "'inner binding is immutable (from body)'"
+            "raw": "'inner binding is immutable (from body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

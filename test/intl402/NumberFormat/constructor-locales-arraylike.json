@@ -73,7 +73,9 @@
                           "start": 358,
                           "end": 359,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -89,14 +91,18 @@
                           "start": 363,
                           "end": 364,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "value": {
                           "type": "Literal",
                           "start": 366,
                           "end": 373,
                           "value": "en-US",
-                          "raw": "'en-US'"
+                          "raw": "'en-US'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -178,7 +184,9 @@
                         "start": 432,
                         "end": 439,
                         "value": "en-US",
-                        "raw": "'en-US'"
+                        "raw": "'en-US'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

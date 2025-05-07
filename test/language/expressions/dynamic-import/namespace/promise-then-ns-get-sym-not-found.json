@@ -40,7 +40,9 @@
                       "start": 3845,
                       "end": 3871,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -129,7 +131,9 @@
                                       "start": 3918,
                                       "end": 3927,
                                       "value": "test262",
-                                      "raw": "'test262'"
+                                      "raw": "'test262'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -148,7 +152,9 @@
                                 "start": 3942,
                                 "end": 3959,
                                 "value": "Symbol: test262",
-                                "raw": "'Symbol: test262'"
+                                "raw": "'Symbol: test262'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

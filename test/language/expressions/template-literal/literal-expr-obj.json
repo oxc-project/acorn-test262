@@ -84,7 +84,9 @@
                           "start": 530,
                           "end": 546,
                           "value": "\"own\" toString",
-                          "raw": "'\"own\" toString'"
+                          "raw": "'\"own\" toString'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -166,7 +168,9 @@
             "start": 585,
             "end": 602,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,7 +244,9 @@
             "start": 635,
             "end": 653,
             "value": "1[object Object]",
-            "raw": "'1[object Object]'"
+            "raw": "'1[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +320,9 @@
             "start": 686,
             "end": 704,
             "value": "[object Object]2",
-            "raw": "'[object Object]2'"
+            "raw": "'[object Object]2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -388,7 +396,9 @@
             "start": 738,
             "end": 757,
             "value": "1[object Object]2",
-            "raw": "'1[object Object]2'"
+            "raw": "'1[object Object]2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +472,9 @@
             "start": 791,
             "end": 807,
             "value": "\"own\" toString",
-            "raw": "'\"own\" toString'"
+            "raw": "'\"own\" toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -536,7 +548,9 @@
             "start": 841,
             "end": 858,
             "value": "1\"own\" toString",
-            "raw": "'1\"own\" toString'"
+            "raw": "'1\"own\" toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -610,7 +624,9 @@
             "start": 892,
             "end": 909,
             "value": "\"own\" toString2",
-            "raw": "'\"own\" toString2'"
+            "raw": "'\"own\" toString2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -684,7 +700,9 @@
             "start": 944,
             "end": 962,
             "value": "1\"own\" toString2",
-            "raw": "'1\"own\" toString2'"
+            "raw": "'1\"own\" toString2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

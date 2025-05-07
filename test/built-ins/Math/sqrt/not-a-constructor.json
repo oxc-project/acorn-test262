@@ -69,14 +69,18 @@
             "start": 724,
             "end": 729,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 775,
             "value": "isConstructor(Math.sqrt) must return false",
-            "raw": "'isConstructor(Math.sqrt) must return false'"
+            "raw": "'isConstructor(Math.sqrt) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

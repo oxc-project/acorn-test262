@@ -159,7 +159,9 @@
                       "start": 383,
                       "end": 386,
                       "value": "A",
-                      "raw": "'A'"
+                      "raw": "'A'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -202,7 +204,9 @@
                       "start": 410,
                       "end": 413,
                       "value": "B",
-                      "raw": "'B'"
+                      "raw": "'B'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -245,7 +249,9 @@
                       "start": 432,
                       "end": 435,
                       "value": "C",
-                      "raw": "'C'"
+                      "raw": "'C'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -302,7 +308,9 @@
                       "start": 463,
                       "end": 466,
                       "value": "D",
-                      "raw": "'D'"
+                      "raw": "'D'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -377,14 +385,18 @@
             "start": 502,
             "end": 505,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 570,
             "value": "`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`",
-            "raw": "\"`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`\""
+            "raw": "\"`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -455,14 +467,18 @@
             "start": 607,
             "end": 610,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 684,
             "value": "`new C()[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`",
-            "raw": "\"`new C()[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`\""
+            "raw": "\"`new C()[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -533,14 +549,18 @@
             "start": 717,
             "end": 720,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 722,
             "end": 785,
             "value": "`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`",
-            "raw": "\"`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`\""
+            "raw": "\"`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -611,14 +631,18 @@
             "start": 822,
             "end": 825,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 903,
             "value": "`new C()[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`",
-            "raw": "\"`new C()[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`\""
+            "raw": "\"`new C()[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -716,14 +740,18 @@
             "start": 956,
             "end": 957,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 959,
             "end": 990,
             "value": "No enum keys from C.prototype",
-            "raw": "\"No enum keys from C.prototype\""
+            "raw": "\"No enum keys from C.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -813,21 +841,27 @@
                 "start": 1060,
                 "end": 1073,
                 "value": "constructor",
-                "raw": "'constructor'"
+                "raw": "'constructor'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1075,
                 "end": 1078,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1080,
                 "end": 1083,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

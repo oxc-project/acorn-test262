@@ -49,14 +49,18 @@
                     "start": 291,
                     "end": 295,
                     "value": "AE",
-                    "raw": "\"AE\""
+                    "raw": "\"AE\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 297,
                     "end": 305,
                     "value": "Ä",
-                    "raw": "\"\\u00C4\""
+                    "raw": "\"\\u00C4\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -103,7 +107,9 @@
                       "start": 330,
                       "end": 334,
                       "value": "de",
-                      "raw": "\"de\""
+                      "raw": "\"de\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -128,7 +134,9 @@
                             "start": 344,
                             "end": 350,
                             "value": "sort",
-                            "raw": "\"sort\""
+                            "raw": "\"sort\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -158,14 +166,18 @@
                 "start": 384,
                 "end": 392,
                 "value": "Ä",
-                "raw": "\"\\u00C4\""
+                "raw": "\"\\u00C4\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 398,
                 "value": "AE",
-                "raw": "\"AE\""
+                "raw": "\"AE\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -174,7 +186,9 @@
             "start": 421,
             "end": 427,
             "value": "sort",
-            "raw": "\"sort\""
+            "raw": "\"sort\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,14 +240,18 @@
                     "start": 451,
                     "end": 455,
                     "value": "AE",
-                    "raw": "\"AE\""
+                    "raw": "\"AE\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 457,
                     "end": 465,
                     "value": "Ä",
-                    "raw": "\"\\u00C4\""
+                    "raw": "\"\\u00C4\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -280,7 +298,9 @@
                       "start": 490,
                       "end": 494,
                       "value": "de",
-                      "raw": "\"de\""
+                      "raw": "\"de\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -305,7 +325,9 @@
                             "start": 504,
                             "end": 512,
                             "value": "search",
-                            "raw": "\"search\""
+                            "raw": "\"search\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -335,14 +357,18 @@
                 "start": 546,
                 "end": 550,
                 "value": "AE",
-                "raw": "\"AE\""
+                "raw": "\"AE\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 552,
                 "end": 560,
                 "value": "Ä",
-                "raw": "\"\\u00C4\""
+                "raw": "\"\\u00C4\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -351,7 +377,9 @@
             "start": 583,
             "end": 591,
             "value": "search",
-            "raw": "\"search\""
+            "raw": "\"search\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

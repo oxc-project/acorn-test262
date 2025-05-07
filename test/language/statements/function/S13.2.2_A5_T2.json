@@ -163,7 +163,9 @@
           "start": 660,
           "end": 661,
           "value": 8,
-          "raw": "8"
+          "raw": "8",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -187,7 +189,9 @@
           "start": 669,
           "end": 674,
           "value": "red",
-          "raw": "\"red\""
+          "raw": "\"red\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -211,7 +215,9 @@
           "start": 681,
           "end": 686,
           "value": 12342,
-          "raw": "12342"
+          "raw": "12342",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -235,7 +241,9 @@
           "start": 697,
           "end": 700,
           "value": 1.1,
-          "raw": "1.1"
+          "raw": "1.1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -259,7 +267,9 @@
           "start": 708,
           "end": 711,
           "value": 0.1,
-          "raw": "0.1"
+          "raw": "0.1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -283,7 +293,9 @@
           "start": 720,
           "end": 723,
           "value": 0.5,
-          "raw": "0.5"
+          "raw": "0.5",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -487,7 +499,9 @@
                       "start": 847,
                       "end": 848,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -524,7 +538,9 @@
                       "start": 867,
                       "end": 868,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -654,7 +670,9 @@
                     "start": 1082,
                     "end": 1144,
                     "value": "#1: __device.color === undefined. Actual: __device.color ===",
-                    "raw": "'#1: __device.color === undefined. Actual: __device.color ==='"
+                    "raw": "'#1: __device.color === undefined. Actual: __device.color ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -748,7 +766,9 @@
                     "start": 1396,
                     "end": 1459,
                     "value": "#2: __device.volume === __VOLUME. Actual: __device.volume ===",
-                    "raw": "'#2: __device.volume === __VOLUME. Actual: __device.volume ==='"
+                    "raw": "'#2: __device.volume === __VOLUME. Actual: __device.volume ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -842,7 +862,9 @@
                     "start": 1713,
                     "end": 1777,
                     "value": "#3: __device.bottom === undefined. Actual: __device.bottom ===",
-                    "raw": "'#3: __device.bottom === undefined. Actual: __device.bottom ==='"
+                    "raw": "'#3: __device.bottom === undefined. Actual: __device.bottom ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -936,7 +958,9 @@
                     "start": 2022,
                     "end": 2073,
                     "value": "#4: __device.id === __ID. Actual: __device.id ===",
-                    "raw": "'#4: __device.id === __ID. Actual: __device.id ==='"
+                    "raw": "'#4: __device.id === __ID. Actual: __device.id ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1030,7 +1054,9 @@
                     "start": 2321,
                     "end": 2381,
                     "value": "#5: __device.left === undefined. Actual: __device.left ===",
-                    "raw": "'#5: __device.left === undefined. Actual: __device.left ==='"
+                    "raw": "'#5: __device.left === undefined. Actual: __device.left ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1124,7 +1150,9 @@
                     "start": 2626,
                     "end": 2680,
                     "value": "#6: __device.top === __TOP. Actual: __device.top ===",
-                    "raw": "'#6: __device.top === __TOP. Actual: __device.top ==='"
+                    "raw": "'#6: __device.top === __TOP. Actual: __device.top ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

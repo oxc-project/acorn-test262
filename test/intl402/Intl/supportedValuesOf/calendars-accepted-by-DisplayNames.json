@@ -47,7 +47,9 @@
                 "start": 1014,
                 "end": 1024,
                 "value": "calendar",
-                "raw": "\"calendar\""
+                "raw": "\"calendar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -100,7 +102,9 @@
                 "start": 1062,
                 "end": 1066,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -125,7 +129,9 @@
                       "start": 1075,
                       "end": 1085,
                       "value": "calendar",
-                      "raw": "\"calendar\""
+                      "raw": "\"calendar\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -147,7 +153,9 @@
                       "start": 1097,
                       "end": 1103,
                       "value": "none",
-                      "raw": "\"none\""
+                      "raw": "\"none\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -268,7 +276,9 @@
                   "start": 1186,
                   "end": 1194,
                   "value": "string",
-                  "raw": "\"string\""
+                  "raw": "\"string\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -409,7 +419,9 @@
                 "start": 1336,
                 "end": 1344,
                 "value": "string",
-                "raw": "\"string\""
+                "raw": "\"string\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {

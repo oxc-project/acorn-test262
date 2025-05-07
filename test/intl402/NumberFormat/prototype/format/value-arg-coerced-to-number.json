@@ -78,21 +78,27 @@
                 "start": 355,
                 "end": 359,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 365,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 378,
                 "value": "0.6666666",
-                "raw": "'0.6666666'"
+                "raw": "'0.6666666'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -135,7 +141,9 @@
                               "start": 411,
                               "end": 422,
                               "value": "0.1234567",
-                              "raw": "'0.1234567'"
+                              "raw": "'0.1234567'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -467,7 +475,9 @@
                       "start": 679,
                       "end": 748,
                       "value": "Intl.NumberFormat does not convert other types to numbers. Input: \"",
-                      "raw": "'Intl.NumberFormat does not convert other types to numbers. Input: \"'"
+                      "raw": "'Intl.NumberFormat does not convert other types to numbers. Input: \"'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -483,7 +493,9 @@
                     "start": 759,
                     "end": 763,
                     "value": "\".",
-                    "raw": "'\".'"
+                    "raw": "'\".'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

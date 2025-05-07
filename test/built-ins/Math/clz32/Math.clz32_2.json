@@ -60,7 +60,9 @@
                 "start": 265,
                 "end": 275,
                 "value": 2147483648,
-                "raw": "2147483648"
+                "raw": "2147483648",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 278,
             "end": 279,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 281,
             "end": 305,
             "value": "Math.clz32(2147483648)",
-            "raw": "'Math.clz32(2147483648)'"
+            "raw": "'Math.clz32(2147483648)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

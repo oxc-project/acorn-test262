@@ -38,21 +38,27 @@
             "start": 683,
             "end": 692,
             "value": "compact",
-            "raw": "\"compact\""
+            "raw": "\"compact\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 694,
             "end": 707,
             "value": "engineering",
-            "raw": "\"engineering\""
+            "raw": "\"engineering\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 721,
             "value": "scientific",
-            "raw": "\"scientific\""
+            "raw": "\"scientific\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -96,21 +102,27 @@
                   "start": 752,
                   "end": 757,
                   "value": "JPY",
-                  "raw": "\"JPY\""
+                  "raw": "\"JPY\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 759,
                   "end": 764,
                   "value": "KWD",
-                  "raw": "\"KWD\""
+                  "raw": "\"KWD\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 766,
                   "end": 771,
                   "value": "USD",
-                  "raw": "\"USD\""
+                  "raw": "\"USD\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -163,7 +175,9 @@
                             "start": 811,
                             "end": 818,
                             "value": "en-US",
-                            "raw": "'en-US'"
+                            "raw": "'en-US'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -188,7 +202,9 @@
                                   "start": 828,
                                   "end": 838,
                                   "value": "currency",
-                                  "raw": "\"currency\""
+                                  "raw": "\"currency\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -402,7 +418,9 @@
                         "start": 1103,
                         "end": 1104,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -425,7 +443,9 @@
                                 "start": 1106,
                                 "end": 1153,
                                 "value": "Didn't get correct minimumFractionDigits for ",
-                                "raw": "\"Didn't get correct minimumFractionDigits for \""
+                                "raw": "\"Didn't get correct minimumFractionDigits for \"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -441,7 +461,9 @@
                               "start": 1167,
                               "end": 1173,
                               "value": " in ",
-                              "raw": "\" in \""
+                              "raw": "\" in \"",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -458,7 +480,9 @@
                           "start": 1187,
                           "end": 1199,
                           "value": " notation.",
-                          "raw": "\" notation.\""
+                          "raw": "\" notation.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -504,7 +528,9 @@
                         "start": 1246,
                         "end": 1247,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -527,7 +553,9 @@
                                 "start": 1249,
                                 "end": 1296,
                                 "value": "Didn't get correct maximumFractionDigits for ",
-                                "raw": "\"Didn't get correct maximumFractionDigits for \""
+                                "raw": "\"Didn't get correct maximumFractionDigits for \"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -543,7 +571,9 @@
                               "start": 1310,
                               "end": 1316,
                               "value": " in ",
-                              "raw": "\" in \""
+                              "raw": "\" in \"",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -560,7 +590,9 @@
                           "start": 1330,
                           "end": 1342,
                           "value": " notation.",
-                          "raw": "\" notation.\""
+                          "raw": "\" notation.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

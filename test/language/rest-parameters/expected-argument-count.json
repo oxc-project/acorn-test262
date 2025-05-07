@@ -127,14 +127,18 @@
             "start": 441,
             "end": 442,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 477,
             "value": "The value of `af.length` is `0`",
-            "raw": "\"The value of `af.length` is `0`\""
+            "raw": "\"The value of `af.length` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,14 +196,18 @@
             "start": 508,
             "end": 509,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 544,
             "value": "The value of `bf.length` is `1`",
-            "raw": "\"The value of `bf.length` is `1`\""
+            "raw": "\"The value of `bf.length` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

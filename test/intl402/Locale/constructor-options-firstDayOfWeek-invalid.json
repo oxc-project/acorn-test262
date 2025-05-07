@@ -28,28 +28,36 @@
                 "start": 692,
                 "end": 694,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 698,
                 "end": 701,
                 "value": "m",
-                "raw": "\"m\""
+                "raw": "\"m\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 705,
                 "end": 709,
                 "value": "mo",
-                "raw": "\"mo\""
+                "raw": "\"mo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 713,
                 "end": 731,
                 "value": "longerThan8Chars",
-                "raw": "\"longerThan8Chars\""
+                "raw": "\"longerThan8Chars\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -174,7 +182,9 @@
                               "start": 858,
                               "end": 862,
                               "value": "en",
-                              "raw": "'en'"
+                              "raw": "'en'",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

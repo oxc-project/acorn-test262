@@ -143,7 +143,9 @@
                         "start": 423,
                         "end": 428,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -165,7 +167,9 @@
                         "start": 448,
                         "end": 452,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -234,14 +238,18 @@
                   "start": 496,
                   "end": 506,
                   "value": "function",
-                  "raw": "'function'"
+                  "raw": "'function'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 508,
                   "end": 543,
                   "value": "`typeof desc.get` is `'function'`",
-                  "raw": "\"`typeof desc.get` is `'function'`\""
+                  "raw": "\"`typeof desc.get` is `'function'`\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -284,7 +292,9 @@
                     "start": 565,
                     "end": 576,
                     "value": "prototype",
-                    "raw": "'prototype'"
+                    "raw": "'prototype'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -312,14 +322,18 @@
                   "start": 590,
                   "end": 595,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 597,
                   "end": 649,
                   "value": "The result of `'prototype' in desc.get` is `false`",
-                  "raw": "\"The result of `'prototype' in desc.get` is `false`\""
+                  "raw": "\"The result of `'prototype' in desc.get` is `false`\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -383,7 +397,9 @@
                   "start": 692,
                   "end": 732,
                   "value": "The value of `desc.set` is `undefined`",
-                  "raw": "\"The value of `desc.set` is `undefined`\""
+                  "raw": "\"The value of `desc.set` is `undefined`\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -444,7 +460,9 @@
                       "start": 767,
                       "end": 768,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -487,7 +505,9 @@
                       "start": 804,
                       "end": 805,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -530,7 +550,9 @@
                       "start": 828,
                       "end": 829,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -573,7 +595,9 @@
                       "start": 865,
                       "end": 866,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -641,14 +665,18 @@
             "start": 901,
             "end": 902,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 973,
             "value": "The value of `new C().x` is `1`. Defined as `get x() { return 1; }`",
-            "raw": "\"The value of `new C().x` is `1`. Defined as `get x() { return 1; }`\""
+            "raw": "\"The value of `new C().x` is `1`. Defined as `get x() { return 1; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -706,14 +734,18 @@
             "start": 1004,
             "end": 1005,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1007,
             "end": 1089,
             "value": "The value of `C.staticX` is `2`. Defined as `static get staticX() { return 2; }`",
-            "raw": "\"The value of `C.staticX` is `2`. Defined as `static get staticX() { return 2; }`\""
+            "raw": "\"The value of `C.staticX` is `2`. Defined as `static get staticX() { return 2; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -777,14 +809,18 @@
             "start": 1120,
             "end": 1121,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1192,
             "value": "The value of `new C().y` is `3`. Defined as `get y() { return 3; }`",
-            "raw": "\"The value of `new C().y` is `3`. Defined as `get y() { return 3; }`\""
+            "raw": "\"The value of `new C().y` is `3`. Defined as `get y() { return 3; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -842,14 +878,18 @@
             "start": 1223,
             "end": 1224,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1226,
             "end": 1308,
             "value": "The value of `C.staticY` is `4`. Defined as `static get staticY() { return 4; }`",
-            "raw": "\"The value of `C.staticY` is `4`. Defined as `static get staticY() { return 4; }`\""
+            "raw": "\"The value of `C.staticY` is `4`. Defined as `static get staticY() { return 4; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -894,7 +934,9 @@
             "start": 1348,
             "end": 1351,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -939,7 +981,9 @@
             "start": 1390,
             "end": 1393,
             "value": "y",
-            "raw": "'y'"
+            "raw": "'y'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -971,7 +1015,9 @@
             "start": 1422,
             "end": 1431,
             "value": "staticX",
-            "raw": "'staticX'"
+            "raw": "'staticX'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1003,7 +1049,9 @@
             "start": 1460,
             "end": 1469,
             "value": "staticY",
-            "raw": "'staticY'"
+            "raw": "'staticY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -38,70 +38,90 @@
             "start": 1280,
             "end": 1287,
             "value": "years",
-            "raw": "\"years\""
+            "raw": "\"years\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1291,
             "end": 1299,
             "value": "months",
-            "raw": "\"months\""
+            "raw": "\"months\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1303,
             "end": 1310,
             "value": "weeks",
-            "raw": "\"weeks\""
+            "raw": "\"weeks\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1314,
             "end": 1320,
             "value": "days",
-            "raw": "\"days\""
+            "raw": "\"days\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1324,
             "end": 1331,
             "value": "hours",
-            "raw": "\"hours\""
+            "raw": "\"hours\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1335,
             "end": 1344,
             "value": "minutes",
-            "raw": "\"minutes\""
+            "raw": "\"minutes\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1348,
             "end": 1357,
             "value": "seconds",
-            "raw": "\"seconds\""
+            "raw": "\"seconds\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1361,
             "end": 1375,
             "value": "milliseconds",
-            "raw": "\"milliseconds\""
+            "raw": "\"milliseconds\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1379,
             "end": 1393,
             "value": "microseconds",
-            "raw": "\"microseconds\""
+            "raw": "\"microseconds\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1397,
             "end": 1410,
             "value": "nanoseconds",
-            "raw": "\"nanoseconds\""
+            "raw": "\"nanoseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },

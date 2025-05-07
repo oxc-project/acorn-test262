@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
                   "start": 114,
                   "end": 118,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -204,7 +206,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 48,
         "raw": "'../lib/operators/scalar'",
-        "value": "../lib/operators/scalar"
+        "value": "../lib/operators/scalar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -284,7 +288,9 @@ __ESTREE_TEST__:PASS:
                           "start": 96,
                           "end": 102,
                           "raw": "\"14px\"",
-                          "value": "14px"
+                          "value": "14px",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

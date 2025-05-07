@@ -25,7 +25,9 @@
         "start": 311,
         "end": 334,
         "value": "./get-prototype-of.js",
-        "raw": "'./get-prototype-of.js'"
+        "raw": "'./get-prototype-of.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -80,7 +82,9 @@
             "start": 376,
             "end": 381,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -152,7 +156,9 @@
             "start": 428,
             "end": 432,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

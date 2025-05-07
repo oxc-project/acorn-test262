@@ -29,6 +29,7 @@
                 "end": 2774,
                 "value": null,
                 "raw": "18446744073709551618n",
+                "regex": null,
                 "bigint": "18446744073709551618"
               },
               {
@@ -37,6 +38,7 @@
                 "end": 2816,
                 "value": null,
                 "raw": "9223372036854775810n",
+                "regex": null,
                 "bigint": "9223372036854775810"
               },
               {
@@ -45,6 +47,7 @@
                 "end": 2840,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               },
               {
@@ -53,6 +56,7 @@
                 "end": 2846,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -67,6 +71,7 @@
                   "end": 2853,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               },
@@ -82,6 +87,7 @@
                   "end": 2878,
                   "value": null,
                   "raw": "9223372036854775810n",
+                  "regex": null,
                   "bigint": "9223372036854775810"
                 }
               },
@@ -97,6 +103,7 @@
                   "end": 2925,
                   "value": null,
                   "raw": "18446744073709551618n",
+                  "regex": null,
                   "bigint": "18446744073709551618"
                 }
               }
@@ -187,7 +194,9 @@
               "start": 3023,
               "end": 3024,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -198,6 +207,7 @@
             "end": 3029,
             "value": null,
             "raw": "2n",
+            "regex": null,
             "bigint": "2"
           },
           {
@@ -205,7 +215,9 @@
             "start": 3048,
             "end": 3082,
             "value": "ToBigInt64(2n ** 64n + 2n) => 2n",
-            "raw": "\"ToBigInt64(2n ** 64n + 2n) => 2n\""
+            "raw": "\"ToBigInt64(2n ** 64n + 2n) => 2n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -254,7 +266,9 @@
               "start": 3114,
               "end": 3115,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -271,6 +285,7 @@
               "end": 3139,
               "value": null,
               "raw": "9223372036854775806n",
+              "regex": null,
               "bigint": "9223372036854775806"
             }
           },
@@ -279,7 +294,9 @@
             "start": 3176,
             "end": 3229,
             "value": "ToBigInt64(2n ** 63n + 2n) => -9223372036854775806n",
-            "raw": "\"ToBigInt64(2n ** 63n + 2n) => -9223372036854775806n\""
+            "raw": "\"ToBigInt64(2n ** 63n + 2n) => -9223372036854775806n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,7 +345,9 @@
               "start": 3261,
               "end": 3262,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -339,6 +358,7 @@
             "end": 3267,
             "value": null,
             "raw": "2n",
+            "regex": null,
             "bigint": "2"
           },
           {
@@ -346,7 +366,9 @@
             "start": 3286,
             "end": 3308,
             "value": "ToBigInt64(2n) => 2n",
-            "raw": "\"ToBigInt64(2n) => 2n\""
+            "raw": "\"ToBigInt64(2n) => 2n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -395,7 +417,9 @@
               "start": 3340,
               "end": 3341,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -406,6 +430,7 @@
             "end": 3346,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -413,7 +438,9 @@
             "start": 3365,
             "end": 3387,
             "value": "ToBigInt64(0n) => 0n",
-            "raw": "\"ToBigInt64(0n) => 0n\""
+            "raw": "\"ToBigInt64(0n) => 0n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +489,9 @@
               "start": 3419,
               "end": 3420,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -479,6 +508,7 @@
               "end": 3426,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -487,7 +517,9 @@
             "start": 3445,
             "end": 3470,
             "value": "ToBigInt64( -2n) => -2n",
-            "raw": "\"ToBigInt64( -2n) => -2n\""
+            "raw": "\"ToBigInt64( -2n) => -2n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -536,7 +568,9 @@
               "start": 3502,
               "end": 3503,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -547,6 +581,7 @@
             "end": 3526,
             "value": null,
             "raw": "9223372036854775806n",
+            "regex": null,
             "bigint": "9223372036854775806"
           },
           {
@@ -554,7 +589,9 @@
             "start": 3562,
             "end": 3618,
             "value": "ToBigInt64( -(2n ** 64n) - 2n) => 9223372036854775806n",
-            "raw": "\"ToBigInt64( -(2n ** 64n) - 2n) => 9223372036854775806n\""
+            "raw": "\"ToBigInt64( -(2n ** 64n) - 2n) => 9223372036854775806n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -603,7 +640,9 @@
               "start": 3650,
               "end": 3651,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -620,6 +659,7 @@
               "end": 3657,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -628,7 +668,9 @@
             "start": 3676,
             "end": 3715,
             "value": "ToBigInt64( -(2n ** 64n) - 2n) => -2n",
-            "raw": "\"ToBigInt64( -(2n ** 64n) - 2n) => -2n\""
+            "raw": "\"ToBigInt64( -(2n ** 64n) - 2n) => -2n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

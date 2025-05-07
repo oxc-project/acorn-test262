@@ -46,7 +46,9 @@
                 "start": 444,
                 "end": 455,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,7 +84,9 @@
                     "start": 486,
                     "end": 550,
                     "value": "#1: String.hasOwnProperty('prototype') return true. Actual: ",
-                    "raw": "'#1: String.hasOwnProperty(\\'prototype\\') return true. Actual: '"
+                    "raw": "'#1: String.hasOwnProperty(\\'prototype\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -114,7 +118,9 @@
                         "start": 575,
                         "end": 586,
                         "value": "prototype",
-                        "raw": "'prototype'"
+                        "raw": "'prototype'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -191,14 +197,18 @@
             "start": 732,
             "end": 743,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 749,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -223,7 +233,9 @@
                     "start": 773,
                     "end": 782,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -297,7 +309,9 @@
                     "start": 937,
                     "end": 1075,
                     "value": "#2: __obj = String.prototype; String.prototype = function(){return \"shifted\";}; String.prototype === __obj. Actual: String.prototype ===",
-                    "raw": "'#2: __obj = String.prototype; String.prototype = function(){return \"shifted\";}; String.prototype === __obj. Actual: String.prototype ==='"
+                    "raw": "'#2: __obj = String.prototype; String.prototype = function(){return \"shifted\";}; String.prototype === __obj. Actual: String.prototype ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

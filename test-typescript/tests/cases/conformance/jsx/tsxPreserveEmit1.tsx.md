@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -189,7 +191,9 @@ __ESTREE_TEST__:PASS:
         "start": 138,
         "end": 152,
         "raw": "'react-router'",
-        "value": "react-router"
+        "value": "react-router",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -227,7 +231,9 @@ __ESTREE_TEST__:PASS:
           "start": 80,
           "end": 87,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -254,7 +260,9 @@ __ESTREE_TEST__:PASS:
           "start": 119,
           "end": 133,
           "raw": "'react-router'",
-          "value": "react-router"
+          "value": "react-router",
+          "regex": null,
+          "bigint": null
         }
       }
     },

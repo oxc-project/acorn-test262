@@ -28,231 +28,297 @@
                 "start": 416,
                 "end": 419,
                 "value": "ё",
-                "raw": "\"ё\""
+                "raw": "\"ё\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 424,
                 "value": "я",
-                "raw": "\"я\""
+                "raw": "\"я\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 429,
                 "value": "ю",
-                "raw": "\"ю\""
+                "raw": "\"ю\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 434,
                 "value": "э",
-                "raw": "\"э\""
+                "raw": "\"э\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 439,
                 "value": "ь",
-                "raw": "\"ь\""
+                "raw": "\"ь\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 444,
                 "value": "ы",
-                "raw": "\"ы\""
+                "raw": "\"ы\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 449,
                 "value": "ъ",
-                "raw": "\"ъ\""
+                "raw": "\"ъ\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 454,
                 "value": "щ",
-                "raw": "\"щ\""
+                "raw": "\"щ\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 459,
                 "value": "ш",
-                "raw": "\"ш\""
+                "raw": "\"ш\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 461,
                 "end": 464,
                 "value": "ч",
-                "raw": "\"ч\""
+                "raw": "\"ч\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 469,
                 "value": "ц",
-                "raw": "\"ц\""
+                "raw": "\"ц\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 471,
                 "end": 474,
                 "value": "х",
-                "raw": "\"х\""
+                "raw": "\"х\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 476,
                 "end": 479,
                 "value": "ф",
-                "raw": "\"ф\""
+                "raw": "\"ф\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 484,
                 "value": "у",
-                "raw": "\"у\""
+                "raw": "\"у\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 486,
                 "end": 489,
                 "value": "т",
-                "raw": "\"т\""
+                "raw": "\"т\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 494,
                 "value": "с",
-                "raw": "\"с\""
+                "raw": "\"с\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 499,
                 "value": "р",
-                "raw": "\"р\""
+                "raw": "\"р\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 504,
                 "value": "П",
-                "raw": "\"П\""
+                "raw": "\"П\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 506,
                 "end": 509,
                 "value": "О",
-                "raw": "\"О\""
+                "raw": "\"О\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 514,
                 "value": "Н",
-                "raw": "\"Н\""
+                "raw": "\"Н\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 516,
                 "end": 519,
                 "value": "М",
-                "raw": "\"М\""
+                "raw": "\"М\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 521,
                 "end": 524,
                 "value": "Л",
-                "raw": "\"Л\""
+                "raw": "\"Л\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 526,
                 "end": 529,
                 "value": "К",
-                "raw": "\"К\""
+                "raw": "\"К\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 531,
                 "end": 534,
                 "value": "Й",
-                "raw": "\"Й\""
+                "raw": "\"Й\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 539,
                 "value": "И",
-                "raw": "\"И\""
+                "raw": "\"И\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 544,
                 "value": "З",
-                "raw": "\"З\""
+                "raw": "\"З\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 549,
                 "value": "Ж",
-                "raw": "\"Ж\""
+                "raw": "\"Ж\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 551,
                 "end": 554,
                 "value": "Е",
-                "raw": "\"Е\""
+                "raw": "\"Е\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 556,
                 "end": 559,
                 "value": "Д",
-                "raw": "\"Д\""
+                "raw": "\"Д\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 561,
                 "end": 564,
                 "value": "Г",
-                "raw": "\"Г\""
+                "raw": "\"Г\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 566,
                 "end": 569,
                 "value": "В",
-                "raw": "\"В\""
+                "raw": "\"В\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 571,
                 "end": 574,
                 "value": "Б",
-                "raw": "\"Б\""
+                "raw": "\"Б\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 576,
                 "end": 579,
                 "value": "А",
-                "raw": "\"А\""
+                "raw": "\"А\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -285,231 +351,297 @@
                 "start": 598,
                 "end": 601,
                 "value": "А",
-                "raw": "\"А\""
+                "raw": "\"А\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 606,
                 "value": "Б",
-                "raw": "\"Б\""
+                "raw": "\"Б\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 608,
                 "end": 611,
                 "value": "В",
-                "raw": "\"В\""
+                "raw": "\"В\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 616,
                 "value": "Г",
-                "raw": "\"Г\""
+                "raw": "\"Г\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 618,
                 "end": 621,
                 "value": "Д",
-                "raw": "\"Д\""
+                "raw": "\"Д\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 623,
                 "end": 626,
                 "value": "Е",
-                "raw": "\"Е\""
+                "raw": "\"Е\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 628,
                 "end": 631,
                 "value": "Ж",
-                "raw": "\"Ж\""
+                "raw": "\"Ж\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 633,
                 "end": 636,
                 "value": "З",
-                "raw": "\"З\""
+                "raw": "\"З\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 638,
                 "end": 641,
                 "value": "И",
-                "raw": "\"И\""
+                "raw": "\"И\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 643,
                 "end": 646,
                 "value": "Й",
-                "raw": "\"Й\""
+                "raw": "\"Й\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 648,
                 "end": 651,
                 "value": "К",
-                "raw": "\"К\""
+                "raw": "\"К\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 653,
                 "end": 656,
                 "value": "Л",
-                "raw": "\"Л\""
+                "raw": "\"Л\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 658,
                 "end": 661,
                 "value": "М",
-                "raw": "\"М\""
+                "raw": "\"М\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 663,
                 "end": 666,
                 "value": "Н",
-                "raw": "\"Н\""
+                "raw": "\"Н\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 668,
                 "end": 671,
                 "value": "О",
-                "raw": "\"О\""
+                "raw": "\"О\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 673,
                 "end": 676,
                 "value": "П",
-                "raw": "\"П\""
+                "raw": "\"П\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 678,
                 "end": 681,
                 "value": "р",
-                "raw": "\"р\""
+                "raw": "\"р\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 683,
                 "end": 686,
                 "value": "с",
-                "raw": "\"с\""
+                "raw": "\"с\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 688,
                 "end": 691,
                 "value": "т",
-                "raw": "\"т\""
+                "raw": "\"т\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 693,
                 "end": 696,
                 "value": "у",
-                "raw": "\"у\""
+                "raw": "\"у\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 698,
                 "end": 701,
                 "value": "ф",
-                "raw": "\"ф\""
+                "raw": "\"ф\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 703,
                 "end": 706,
                 "value": "х",
-                "raw": "\"х\""
+                "raw": "\"х\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 708,
                 "end": 711,
                 "value": "ц",
-                "raw": "\"ц\""
+                "raw": "\"ц\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 713,
                 "end": 716,
                 "value": "ч",
-                "raw": "\"ч\""
+                "raw": "\"ч\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 718,
                 "end": 721,
                 "value": "ш",
-                "raw": "\"ш\""
+                "raw": "\"ш\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 723,
                 "end": 726,
                 "value": "щ",
-                "raw": "\"щ\""
+                "raw": "\"щ\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 728,
                 "end": 731,
                 "value": "ъ",
-                "raw": "\"ъ\""
+                "raw": "\"ъ\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 733,
                 "end": 736,
                 "value": "ы",
-                "raw": "\"ы\""
+                "raw": "\"ы\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 738,
                 "end": 741,
                 "value": "ь",
-                "raw": "\"ь\""
+                "raw": "\"ь\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 746,
                 "value": "э",
-                "raw": "\"э\""
+                "raw": "\"э\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 748,
                 "end": 751,
                 "value": "ю",
-                "raw": "\"ю\""
+                "raw": "\"ю\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 753,
                 "end": 756,
                 "value": "я",
-                "raw": "\"я\""
+                "raw": "\"я\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 761,
                 "value": "ё",
-                "raw": "\"ё\""
+                "raw": "\"ё\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -568,7 +700,9 @@
             "start": 796,
             "end": 800,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -598,7 +732,9 @@
               "start": 815,
               "end": 816,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -620,7 +756,9 @@
           "start": 822,
           "end": 824,
           "value": 26,
-          "raw": "26"
+          "raw": "26",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -709,7 +847,9 @@
                   "start": 878,
                   "end": 883,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -738,7 +878,9 @@
           "start": 903,
           "end": 907,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -766,7 +908,9 @@
                   "start": 936,
                   "end": 964,
                   "value": "#1: CHECK RUSSIAN ALPHABET",
-                  "raw": "'#1: CHECK RUSSIAN ALPHABET'"
+                  "raw": "'#1: CHECK RUSSIAN ALPHABET'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

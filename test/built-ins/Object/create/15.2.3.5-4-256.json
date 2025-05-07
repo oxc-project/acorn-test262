@@ -53,7 +53,9 @@
                   "start": 378,
                   "end": 398,
                   "value": "VerifyGlobalObject",
-                  "raw": "\"VerifyGlobalObject\""
+                  "raw": "\"VerifyGlobalObject\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -192,14 +194,18 @@
             "start": 485,
             "end": 505,
             "value": "VerifyGlobalObject",
-            "raw": "\"VerifyGlobalObject\""
+            "raw": "\"VerifyGlobalObject\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 520,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

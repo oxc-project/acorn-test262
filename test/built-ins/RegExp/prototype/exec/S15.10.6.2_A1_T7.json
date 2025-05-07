@@ -36,7 +36,9 @@
                     "start": 531,
                     "end": 617,
                     "value": "#1.1: /[a-z]/.exec({toString:function(){throw \"intostr\"}}) throw \"intostr\". Actual: ",
-                    "raw": "'#1.1: /[a-z]/.exec({toString:function(){throw \"intostr\"}}) throw \"intostr\". Actual: '"
+                    "raw": "'#1.1: /[a-z]/.exec({toString:function(){throw \"intostr\"}}) throw \"intostr\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -60,7 +62,8 @@
                           "regex": {
                             "pattern": "[a-z]",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -113,7 +116,9 @@
                                         "start": 661,
                                         "end": 670,
                                         "value": "intostr",
-                                        "raw": "\"intostr\""
+                                        "raw": "\"intostr\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -187,14 +192,18 @@
                     "start": 713,
                     "end": 722,
                     "value": "intostr",
-                    "raw": "\"intostr\""
+                    "raw": "\"intostr\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 724,
                     "end": 768,
                     "value": "The value of e is expected to be \"intostr\"",
-                    "raw": "'The value of e is expected to be \"intostr\"'"
+                    "raw": "'The value of e is expected to be \"intostr\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

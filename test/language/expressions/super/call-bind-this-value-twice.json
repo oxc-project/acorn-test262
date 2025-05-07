@@ -250,7 +250,9 @@
             "start": 917,
             "end": 925,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

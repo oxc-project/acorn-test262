@@ -23,7 +23,9 @@
             "start": 324,
             "end": 329,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 401,
                 "value": null,
                 "raw": "1_483_228_799_000_000_000n",
+                "regex": null,
                 "bigint": "1483228799000000000"
               },
               {
@@ -108,7 +111,9 @@
             "start": 425,
             "end": 457,
             "value": "2016-12-31T23:59:60+00:00[UTC]",
-            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -205,77 +210,99 @@
             "start": 539,
             "end": 540,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 543,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 546,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 549,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 551,
             "end": 552,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 554,
             "end": 555,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 558,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 561,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 564,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 567,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 624,
             "value": "leap second is a valid ISO string for ZonedDateTime",
-            "raw": "\"leap second is a valid ISO string for ZonedDateTime\""
+            "raw": "\"leap second is a valid ISO string for ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +328,9 @@
           "start": 635,
           "end": 673,
           "value": "2000-05-02T12:34:56+23:59[+23:59:60]",
-          "raw": "\"2000-05-02T12:34:56+23:59[+23:59:60]\""
+          "raw": "\"2000-05-02T12:34:56+23:59[+23:59:60]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -387,7 +416,9 @@
             "start": 735,
             "end": 776,
             "value": "leap second in time zone name not valid",
-            "raw": "\"leap second in time zone name not valid\""
+            "raw": "\"leap second in time zone name not valid\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

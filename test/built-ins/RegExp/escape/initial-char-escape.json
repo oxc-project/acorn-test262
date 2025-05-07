@@ -60,7 +60,9 @@
                 "start": 1363,
                 "end": 1369,
                 "value": "1111",
-                "raw": "'1111'"
+                "raw": "'1111'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 1372,
             "end": 1382,
             "value": "\\x31111",
-            "raw": "'\\\\x31111'"
+            "raw": "'\\\\x31111'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1384,
             "end": 1420,
             "value": "Initial decimal digit 1 is escaped",
-            "raw": "'Initial decimal digit 1 is escaped'"
+            "raw": "'Initial decimal digit 1 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                 "start": 1454,
                 "end": 1460,
                 "value": "2222",
-                "raw": "'2222'"
+                "raw": "'2222'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -150,14 +158,18 @@
             "start": 1463,
             "end": 1473,
             "value": "\\x32222",
-            "raw": "'\\\\x32222'"
+            "raw": "'\\\\x32222'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1475,
             "end": 1511,
             "value": "Initial decimal digit 2 is escaped",
-            "raw": "'Initial decimal digit 2 is escaped'"
+            "raw": "'Initial decimal digit 2 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +232,9 @@
                 "start": 1545,
                 "end": 1551,
                 "value": "3333",
-                "raw": "'3333'"
+                "raw": "'3333'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -230,14 +244,18 @@
             "start": 1554,
             "end": 1564,
             "value": "\\x33333",
-            "raw": "'\\\\x33333'"
+            "raw": "'\\\\x33333'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1566,
             "end": 1602,
             "value": "Initial decimal digit 3 is escaped",
-            "raw": "'Initial decimal digit 3 is escaped'"
+            "raw": "'Initial decimal digit 3 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +318,9 @@
                 "start": 1636,
                 "end": 1642,
                 "value": "4444",
-                "raw": "'4444'"
+                "raw": "'4444'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,14 +330,18 @@
             "start": 1645,
             "end": 1655,
             "value": "\\x34444",
-            "raw": "'\\\\x34444'"
+            "raw": "'\\\\x34444'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1657,
             "end": 1693,
             "value": "Initial decimal digit 4 is escaped",
-            "raw": "'Initial decimal digit 4 is escaped'"
+            "raw": "'Initial decimal digit 4 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -380,7 +404,9 @@
                 "start": 1727,
                 "end": 1733,
                 "value": "5555",
-                "raw": "'5555'"
+                "raw": "'5555'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -390,14 +416,18 @@
             "start": 1736,
             "end": 1746,
             "value": "\\x35555",
-            "raw": "'\\\\x35555'"
+            "raw": "'\\\\x35555'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1748,
             "end": 1784,
             "value": "Initial decimal digit 5 is escaped",
-            "raw": "'Initial decimal digit 5 is escaped'"
+            "raw": "'Initial decimal digit 5 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +490,9 @@
                 "start": 1818,
                 "end": 1824,
                 "value": "6666",
-                "raw": "'6666'"
+                "raw": "'6666'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -470,14 +502,18 @@
             "start": 1827,
             "end": 1837,
             "value": "\\x36666",
-            "raw": "'\\\\x36666'"
+            "raw": "'\\\\x36666'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1839,
             "end": 1875,
             "value": "Initial decimal digit 6 is escaped",
-            "raw": "'Initial decimal digit 6 is escaped'"
+            "raw": "'Initial decimal digit 6 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,7 +576,9 @@
                 "start": 1909,
                 "end": 1915,
                 "value": "7777",
-                "raw": "'7777'"
+                "raw": "'7777'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -550,14 +588,18 @@
             "start": 1918,
             "end": 1928,
             "value": "\\x37777",
-            "raw": "'\\\\x37777'"
+            "raw": "'\\\\x37777'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1930,
             "end": 1966,
             "value": "Initial decimal digit 7 is escaped",
-            "raw": "'Initial decimal digit 7 is escaped'"
+            "raw": "'Initial decimal digit 7 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,7 +662,9 @@
                 "start": 2000,
                 "end": 2006,
                 "value": "8888",
-                "raw": "'8888'"
+                "raw": "'8888'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -630,14 +674,18 @@
             "start": 2009,
             "end": 2019,
             "value": "\\x38888",
-            "raw": "'\\\\x38888'"
+            "raw": "'\\\\x38888'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2021,
             "end": 2057,
             "value": "Initial decimal digit 8 is escaped",
-            "raw": "'Initial decimal digit 8 is escaped'"
+            "raw": "'Initial decimal digit 8 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -700,7 +748,9 @@
                 "start": 2091,
                 "end": 2097,
                 "value": "9999",
-                "raw": "'9999'"
+                "raw": "'9999'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -710,14 +760,18 @@
             "start": 2100,
             "end": 2110,
             "value": "\\x39999",
-            "raw": "'\\\\x39999'"
+            "raw": "'\\\\x39999'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2112,
             "end": 2148,
             "value": "Initial decimal digit 9 is escaped",
-            "raw": "'Initial decimal digit 9 is escaped'"
+            "raw": "'Initial decimal digit 9 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -780,7 +834,9 @@
                 "start": 2182,
                 "end": 2188,
                 "value": "0000",
-                "raw": "'0000'"
+                "raw": "'0000'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -790,14 +846,18 @@
             "start": 2191,
             "end": 2201,
             "value": "\\x30000",
-            "raw": "'\\\\x30000'"
+            "raw": "'\\\\x30000'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2203,
             "end": 2239,
             "value": "Initial decimal digit 0 is escaped",
-            "raw": "'Initial decimal digit 0 is escaped'"
+            "raw": "'Initial decimal digit 0 is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -860,7 +920,9 @@
                 "start": 2308,
                 "end": 2313,
                 "value": "aaa",
-                "raw": "'aaa'"
+                "raw": "'aaa'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -870,14 +932,18 @@
             "start": 2316,
             "end": 2325,
             "value": "\\x61aa",
-            "raw": "'\\\\x61aa'"
+            "raw": "'\\\\x61aa'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2327,
             "end": 2362,
             "value": "Initial ASCII letter a is escaped",
-            "raw": "'Initial ASCII letter a is escaped'"
+            "raw": "'Initial ASCII letter a is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -940,7 +1006,9 @@
                 "start": 2396,
                 "end": 2401,
                 "value": "bbb",
-                "raw": "'bbb'"
+                "raw": "'bbb'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -950,14 +1018,18 @@
             "start": 2404,
             "end": 2413,
             "value": "\\x62bb",
-            "raw": "'\\\\x62bb'"
+            "raw": "'\\\\x62bb'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2415,
             "end": 2450,
             "value": "Initial ASCII letter b is escaped",
-            "raw": "'Initial ASCII letter b is escaped'"
+            "raw": "'Initial ASCII letter b is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1020,7 +1092,9 @@
                 "start": 2484,
                 "end": 2489,
                 "value": "ccc",
-                "raw": "'ccc'"
+                "raw": "'ccc'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1030,14 +1104,18 @@
             "start": 2492,
             "end": 2501,
             "value": "\\x63cc",
-            "raw": "'\\\\x63cc'"
+            "raw": "'\\\\x63cc'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2503,
             "end": 2538,
             "value": "Initial ASCII letter c is escaped",
-            "raw": "'Initial ASCII letter c is escaped'"
+            "raw": "'Initial ASCII letter c is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1100,7 +1178,9 @@
                 "start": 2572,
                 "end": 2577,
                 "value": "ddd",
-                "raw": "'ddd'"
+                "raw": "'ddd'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1110,14 +1190,18 @@
             "start": 2580,
             "end": 2589,
             "value": "\\x64dd",
-            "raw": "'\\\\x64dd'"
+            "raw": "'\\\\x64dd'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2591,
             "end": 2626,
             "value": "Initial ASCII letter d is escaped",
-            "raw": "'Initial ASCII letter d is escaped'"
+            "raw": "'Initial ASCII letter d is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1180,7 +1264,9 @@
                 "start": 2660,
                 "end": 2665,
                 "value": "eee",
-                "raw": "'eee'"
+                "raw": "'eee'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1190,14 +1276,18 @@
             "start": 2668,
             "end": 2677,
             "value": "\\x65ee",
-            "raw": "'\\\\x65ee'"
+            "raw": "'\\\\x65ee'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2679,
             "end": 2714,
             "value": "Initial ASCII letter e is escaped",
-            "raw": "'Initial ASCII letter e is escaped'"
+            "raw": "'Initial ASCII letter e is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1260,7 +1350,9 @@
                 "start": 2748,
                 "end": 2753,
                 "value": "fff",
-                "raw": "'fff'"
+                "raw": "'fff'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1270,14 +1362,18 @@
             "start": 2756,
             "end": 2765,
             "value": "\\x66ff",
-            "raw": "'\\\\x66ff'"
+            "raw": "'\\\\x66ff'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2767,
             "end": 2802,
             "value": "Initial ASCII letter f is escaped",
-            "raw": "'Initial ASCII letter f is escaped'"
+            "raw": "'Initial ASCII letter f is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1340,7 +1436,9 @@
                 "start": 2836,
                 "end": 2841,
                 "value": "ggg",
-                "raw": "'ggg'"
+                "raw": "'ggg'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1350,14 +1448,18 @@
             "start": 2844,
             "end": 2853,
             "value": "\\x67gg",
-            "raw": "'\\\\x67gg'"
+            "raw": "'\\\\x67gg'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2855,
             "end": 2890,
             "value": "Initial ASCII letter g is escaped",
-            "raw": "'Initial ASCII letter g is escaped'"
+            "raw": "'Initial ASCII letter g is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1420,7 +1522,9 @@
                 "start": 2924,
                 "end": 2929,
                 "value": "hhh",
-                "raw": "'hhh'"
+                "raw": "'hhh'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1430,14 +1534,18 @@
             "start": 2932,
             "end": 2941,
             "value": "\\x68hh",
-            "raw": "'\\\\x68hh'"
+            "raw": "'\\\\x68hh'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2943,
             "end": 2978,
             "value": "Initial ASCII letter h is escaped",
-            "raw": "'Initial ASCII letter h is escaped'"
+            "raw": "'Initial ASCII letter h is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1500,7 +1608,9 @@
                 "start": 3012,
                 "end": 3017,
                 "value": "iii",
-                "raw": "'iii'"
+                "raw": "'iii'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1510,14 +1620,18 @@
             "start": 3020,
             "end": 3029,
             "value": "\\x69ii",
-            "raw": "'\\\\x69ii'"
+            "raw": "'\\\\x69ii'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3031,
             "end": 3066,
             "value": "Initial ASCII letter i is escaped",
-            "raw": "'Initial ASCII letter i is escaped'"
+            "raw": "'Initial ASCII letter i is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1580,7 +1694,9 @@
                 "start": 3100,
                 "end": 3105,
                 "value": "jjj",
-                "raw": "'jjj'"
+                "raw": "'jjj'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1590,14 +1706,18 @@
             "start": 3108,
             "end": 3117,
             "value": "\\x6ajj",
-            "raw": "'\\\\x6ajj'"
+            "raw": "'\\\\x6ajj'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3119,
             "end": 3154,
             "value": "Initial ASCII letter j is escaped",
-            "raw": "'Initial ASCII letter j is escaped'"
+            "raw": "'Initial ASCII letter j is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1660,7 +1780,9 @@
                 "start": 3188,
                 "end": 3193,
                 "value": "kkk",
-                "raw": "'kkk'"
+                "raw": "'kkk'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1670,14 +1792,18 @@
             "start": 3196,
             "end": 3205,
             "value": "\\x6bkk",
-            "raw": "'\\\\x6bkk'"
+            "raw": "'\\\\x6bkk'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3207,
             "end": 3242,
             "value": "Initial ASCII letter k is escaped",
-            "raw": "'Initial ASCII letter k is escaped'"
+            "raw": "'Initial ASCII letter k is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1740,7 +1866,9 @@
                 "start": 3276,
                 "end": 3281,
                 "value": "lll",
-                "raw": "'lll'"
+                "raw": "'lll'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1750,14 +1878,18 @@
             "start": 3284,
             "end": 3293,
             "value": "\\x6cll",
-            "raw": "'\\\\x6cll'"
+            "raw": "'\\\\x6cll'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3295,
             "end": 3330,
             "value": "Initial ASCII letter l is escaped",
-            "raw": "'Initial ASCII letter l is escaped'"
+            "raw": "'Initial ASCII letter l is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1820,7 +1952,9 @@
                 "start": 3364,
                 "end": 3369,
                 "value": "mmm",
-                "raw": "'mmm'"
+                "raw": "'mmm'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1830,14 +1964,18 @@
             "start": 3372,
             "end": 3381,
             "value": "\\x6dmm",
-            "raw": "'\\\\x6dmm'"
+            "raw": "'\\\\x6dmm'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3383,
             "end": 3418,
             "value": "Initial ASCII letter m is escaped",
-            "raw": "'Initial ASCII letter m is escaped'"
+            "raw": "'Initial ASCII letter m is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1900,7 +2038,9 @@
                 "start": 3452,
                 "end": 3457,
                 "value": "nnn",
-                "raw": "'nnn'"
+                "raw": "'nnn'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1910,14 +2050,18 @@
             "start": 3460,
             "end": 3469,
             "value": "\\x6enn",
-            "raw": "'\\\\x6enn'"
+            "raw": "'\\\\x6enn'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3471,
             "end": 3506,
             "value": "Initial ASCII letter n is escaped",
-            "raw": "'Initial ASCII letter n is escaped'"
+            "raw": "'Initial ASCII letter n is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1980,7 +2124,9 @@
                 "start": 3540,
                 "end": 3545,
                 "value": "ooo",
-                "raw": "'ooo'"
+                "raw": "'ooo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1990,14 +2136,18 @@
             "start": 3548,
             "end": 3557,
             "value": "\\x6foo",
-            "raw": "'\\\\x6foo'"
+            "raw": "'\\\\x6foo'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3559,
             "end": 3594,
             "value": "Initial ASCII letter o is escaped",
-            "raw": "'Initial ASCII letter o is escaped'"
+            "raw": "'Initial ASCII letter o is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2060,7 +2210,9 @@
                 "start": 3628,
                 "end": 3633,
                 "value": "ppp",
-                "raw": "'ppp'"
+                "raw": "'ppp'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2070,14 +2222,18 @@
             "start": 3636,
             "end": 3645,
             "value": "\\x70pp",
-            "raw": "'\\\\x70pp'"
+            "raw": "'\\\\x70pp'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3647,
             "end": 3682,
             "value": "Initial ASCII letter p is escaped",
-            "raw": "'Initial ASCII letter p is escaped'"
+            "raw": "'Initial ASCII letter p is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2140,7 +2296,9 @@
                 "start": 3716,
                 "end": 3721,
                 "value": "qqq",
-                "raw": "'qqq'"
+                "raw": "'qqq'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2150,14 +2308,18 @@
             "start": 3724,
             "end": 3733,
             "value": "\\x71qq",
-            "raw": "'\\\\x71qq'"
+            "raw": "'\\\\x71qq'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3735,
             "end": 3770,
             "value": "Initial ASCII letter q is escaped",
-            "raw": "'Initial ASCII letter q is escaped'"
+            "raw": "'Initial ASCII letter q is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2220,7 +2382,9 @@
                 "start": 3804,
                 "end": 3809,
                 "value": "rrr",
-                "raw": "'rrr'"
+                "raw": "'rrr'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2230,14 +2394,18 @@
             "start": 3812,
             "end": 3821,
             "value": "\\x72rr",
-            "raw": "'\\\\x72rr'"
+            "raw": "'\\\\x72rr'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3823,
             "end": 3858,
             "value": "Initial ASCII letter r is escaped",
-            "raw": "'Initial ASCII letter r is escaped'"
+            "raw": "'Initial ASCII letter r is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2300,7 +2468,9 @@
                 "start": 3892,
                 "end": 3897,
                 "value": "sss",
-                "raw": "'sss'"
+                "raw": "'sss'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2310,14 +2480,18 @@
             "start": 3900,
             "end": 3909,
             "value": "\\x73ss",
-            "raw": "'\\\\x73ss'"
+            "raw": "'\\\\x73ss'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3911,
             "end": 3946,
             "value": "Initial ASCII letter s is escaped",
-            "raw": "'Initial ASCII letter s is escaped'"
+            "raw": "'Initial ASCII letter s is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2380,7 +2554,9 @@
                 "start": 3980,
                 "end": 3985,
                 "value": "ttt",
-                "raw": "'ttt'"
+                "raw": "'ttt'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2390,14 +2566,18 @@
             "start": 3988,
             "end": 3997,
             "value": "\\x74tt",
-            "raw": "'\\\\x74tt'"
+            "raw": "'\\\\x74tt'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3999,
             "end": 4034,
             "value": "Initial ASCII letter t is escaped",
-            "raw": "'Initial ASCII letter t is escaped'"
+            "raw": "'Initial ASCII letter t is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2460,7 +2640,9 @@
                 "start": 4068,
                 "end": 4073,
                 "value": "uuu",
-                "raw": "'uuu'"
+                "raw": "'uuu'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2470,14 +2652,18 @@
             "start": 4076,
             "end": 4085,
             "value": "\\x75uu",
-            "raw": "'\\\\x75uu'"
+            "raw": "'\\\\x75uu'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4087,
             "end": 4122,
             "value": "Initial ASCII letter u is escaped",
-            "raw": "'Initial ASCII letter u is escaped'"
+            "raw": "'Initial ASCII letter u is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2540,7 +2726,9 @@
                 "start": 4156,
                 "end": 4161,
                 "value": "vvv",
-                "raw": "'vvv'"
+                "raw": "'vvv'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2550,14 +2738,18 @@
             "start": 4164,
             "end": 4173,
             "value": "\\x76vv",
-            "raw": "'\\\\x76vv'"
+            "raw": "'\\\\x76vv'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4175,
             "end": 4210,
             "value": "Initial ASCII letter v is escaped",
-            "raw": "'Initial ASCII letter v is escaped'"
+            "raw": "'Initial ASCII letter v is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2620,7 +2812,9 @@
                 "start": 4244,
                 "end": 4249,
                 "value": "www",
-                "raw": "'www'"
+                "raw": "'www'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2630,14 +2824,18 @@
             "start": 4252,
             "end": 4261,
             "value": "\\x77ww",
-            "raw": "'\\\\x77ww'"
+            "raw": "'\\\\x77ww'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4263,
             "end": 4298,
             "value": "Initial ASCII letter w is escaped",
-            "raw": "'Initial ASCII letter w is escaped'"
+            "raw": "'Initial ASCII letter w is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2700,7 +2898,9 @@
                 "start": 4332,
                 "end": 4337,
                 "value": "xxx",
-                "raw": "'xxx'"
+                "raw": "'xxx'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2710,14 +2910,18 @@
             "start": 4340,
             "end": 4349,
             "value": "\\x78xx",
-            "raw": "'\\\\x78xx'"
+            "raw": "'\\\\x78xx'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4351,
             "end": 4386,
             "value": "Initial ASCII letter x is escaped",
-            "raw": "'Initial ASCII letter x is escaped'"
+            "raw": "'Initial ASCII letter x is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2780,7 +2984,9 @@
                 "start": 4420,
                 "end": 4425,
                 "value": "yyy",
-                "raw": "'yyy'"
+                "raw": "'yyy'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2790,14 +2996,18 @@
             "start": 4428,
             "end": 4437,
             "value": "\\x79yy",
-            "raw": "'\\\\x79yy'"
+            "raw": "'\\\\x79yy'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4439,
             "end": 4474,
             "value": "Initial ASCII letter y is escaped",
-            "raw": "'Initial ASCII letter y is escaped'"
+            "raw": "'Initial ASCII letter y is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2860,7 +3070,9 @@
                 "start": 4508,
                 "end": 4513,
                 "value": "zzz",
-                "raw": "'zzz'"
+                "raw": "'zzz'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2870,14 +3082,18 @@
             "start": 4516,
             "end": 4525,
             "value": "\\x7azz",
-            "raw": "'\\\\x7azz'"
+            "raw": "'\\\\x7azz'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4527,
             "end": 4562,
             "value": "Initial ASCII letter z is escaped",
-            "raw": "'Initial ASCII letter z is escaped'"
+            "raw": "'Initial ASCII letter z is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2940,7 +3156,9 @@
                 "start": 4596,
                 "end": 4601,
                 "value": "AAA",
-                "raw": "'AAA'"
+                "raw": "'AAA'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2950,14 +3168,18 @@
             "start": 4604,
             "end": 4613,
             "value": "\\x41AA",
-            "raw": "'\\\\x41AA'"
+            "raw": "'\\\\x41AA'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4615,
             "end": 4650,
             "value": "Initial ASCII letter A is escaped",
-            "raw": "'Initial ASCII letter A is escaped'"
+            "raw": "'Initial ASCII letter A is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3020,7 +3242,9 @@
                 "start": 4684,
                 "end": 4689,
                 "value": "BBB",
-                "raw": "'BBB'"
+                "raw": "'BBB'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3030,14 +3254,18 @@
             "start": 4692,
             "end": 4701,
             "value": "\\x42BB",
-            "raw": "'\\\\x42BB'"
+            "raw": "'\\\\x42BB'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4703,
             "end": 4738,
             "value": "Initial ASCII letter B is escaped",
-            "raw": "'Initial ASCII letter B is escaped'"
+            "raw": "'Initial ASCII letter B is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3100,7 +3328,9 @@
                 "start": 4772,
                 "end": 4777,
                 "value": "CCC",
-                "raw": "'CCC'"
+                "raw": "'CCC'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3110,14 +3340,18 @@
             "start": 4780,
             "end": 4789,
             "value": "\\x43CC",
-            "raw": "'\\\\x43CC'"
+            "raw": "'\\\\x43CC'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4791,
             "end": 4826,
             "value": "Initial ASCII letter C is escaped",
-            "raw": "'Initial ASCII letter C is escaped'"
+            "raw": "'Initial ASCII letter C is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3180,7 +3414,9 @@
                 "start": 4860,
                 "end": 4865,
                 "value": "DDD",
-                "raw": "'DDD'"
+                "raw": "'DDD'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3190,14 +3426,18 @@
             "start": 4868,
             "end": 4877,
             "value": "\\x44DD",
-            "raw": "'\\\\x44DD'"
+            "raw": "'\\\\x44DD'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4879,
             "end": 4914,
             "value": "Initial ASCII letter D is escaped",
-            "raw": "'Initial ASCII letter D is escaped'"
+            "raw": "'Initial ASCII letter D is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3260,7 +3500,9 @@
                 "start": 4948,
                 "end": 4953,
                 "value": "EEE",
-                "raw": "'EEE'"
+                "raw": "'EEE'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3270,14 +3512,18 @@
             "start": 4956,
             "end": 4965,
             "value": "\\x45EE",
-            "raw": "'\\\\x45EE'"
+            "raw": "'\\\\x45EE'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4967,
             "end": 5002,
             "value": "Initial ASCII letter E is escaped",
-            "raw": "'Initial ASCII letter E is escaped'"
+            "raw": "'Initial ASCII letter E is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3340,7 +3586,9 @@
                 "start": 5036,
                 "end": 5041,
                 "value": "FFF",
-                "raw": "'FFF'"
+                "raw": "'FFF'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3350,14 +3598,18 @@
             "start": 5044,
             "end": 5053,
             "value": "\\x46FF",
-            "raw": "'\\\\x46FF'"
+            "raw": "'\\\\x46FF'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5055,
             "end": 5090,
             "value": "Initial ASCII letter F is escaped",
-            "raw": "'Initial ASCII letter F is escaped'"
+            "raw": "'Initial ASCII letter F is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3420,7 +3672,9 @@
                 "start": 5124,
                 "end": 5129,
                 "value": "GGG",
-                "raw": "'GGG'"
+                "raw": "'GGG'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3430,14 +3684,18 @@
             "start": 5132,
             "end": 5141,
             "value": "\\x47GG",
-            "raw": "'\\\\x47GG'"
+            "raw": "'\\\\x47GG'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5143,
             "end": 5178,
             "value": "Initial ASCII letter G is escaped",
-            "raw": "'Initial ASCII letter G is escaped'"
+            "raw": "'Initial ASCII letter G is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3500,7 +3758,9 @@
                 "start": 5212,
                 "end": 5217,
                 "value": "HHH",
-                "raw": "'HHH'"
+                "raw": "'HHH'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3510,14 +3770,18 @@
             "start": 5220,
             "end": 5229,
             "value": "\\x48HH",
-            "raw": "'\\\\x48HH'"
+            "raw": "'\\\\x48HH'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5231,
             "end": 5266,
             "value": "Initial ASCII letter H is escaped",
-            "raw": "'Initial ASCII letter H is escaped'"
+            "raw": "'Initial ASCII letter H is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3580,7 +3844,9 @@
                 "start": 5300,
                 "end": 5305,
                 "value": "III",
-                "raw": "'III'"
+                "raw": "'III'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3590,14 +3856,18 @@
             "start": 5308,
             "end": 5317,
             "value": "\\x49II",
-            "raw": "'\\\\x49II'"
+            "raw": "'\\\\x49II'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5319,
             "end": 5354,
             "value": "Initial ASCII letter I is escaped",
-            "raw": "'Initial ASCII letter I is escaped'"
+            "raw": "'Initial ASCII letter I is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3660,7 +3930,9 @@
                 "start": 5388,
                 "end": 5393,
                 "value": "JJJ",
-                "raw": "'JJJ'"
+                "raw": "'JJJ'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3670,14 +3942,18 @@
             "start": 5396,
             "end": 5405,
             "value": "\\x4aJJ",
-            "raw": "'\\\\x4aJJ'"
+            "raw": "'\\\\x4aJJ'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5407,
             "end": 5442,
             "value": "Initial ASCII letter J is escaped",
-            "raw": "'Initial ASCII letter J is escaped'"
+            "raw": "'Initial ASCII letter J is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3740,7 +4016,9 @@
                 "start": 5476,
                 "end": 5481,
                 "value": "KKK",
-                "raw": "'KKK'"
+                "raw": "'KKK'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3750,14 +4028,18 @@
             "start": 5484,
             "end": 5493,
             "value": "\\x4bKK",
-            "raw": "'\\\\x4bKK'"
+            "raw": "'\\\\x4bKK'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5495,
             "end": 5530,
             "value": "Initial ASCII letter K is escaped",
-            "raw": "'Initial ASCII letter K is escaped'"
+            "raw": "'Initial ASCII letter K is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3820,7 +4102,9 @@
                 "start": 5564,
                 "end": 5569,
                 "value": "LLL",
-                "raw": "'LLL'"
+                "raw": "'LLL'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3830,14 +4114,18 @@
             "start": 5572,
             "end": 5581,
             "value": "\\x4cLL",
-            "raw": "'\\\\x4cLL'"
+            "raw": "'\\\\x4cLL'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5583,
             "end": 5618,
             "value": "Initial ASCII letter L is escaped",
-            "raw": "'Initial ASCII letter L is escaped'"
+            "raw": "'Initial ASCII letter L is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3900,7 +4188,9 @@
                 "start": 5652,
                 "end": 5657,
                 "value": "MMM",
-                "raw": "'MMM'"
+                "raw": "'MMM'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3910,14 +4200,18 @@
             "start": 5660,
             "end": 5669,
             "value": "\\x4dMM",
-            "raw": "'\\\\x4dMM'"
+            "raw": "'\\\\x4dMM'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5671,
             "end": 5706,
             "value": "Initial ASCII letter M is escaped",
-            "raw": "'Initial ASCII letter M is escaped'"
+            "raw": "'Initial ASCII letter M is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3980,7 +4274,9 @@
                 "start": 5740,
                 "end": 5745,
                 "value": "NNN",
-                "raw": "'NNN'"
+                "raw": "'NNN'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -3990,14 +4286,18 @@
             "start": 5748,
             "end": 5757,
             "value": "\\x4eNN",
-            "raw": "'\\\\x4eNN'"
+            "raw": "'\\\\x4eNN'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5759,
             "end": 5794,
             "value": "Initial ASCII letter N is escaped",
-            "raw": "'Initial ASCII letter N is escaped'"
+            "raw": "'Initial ASCII letter N is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4060,7 +4360,9 @@
                 "start": 5828,
                 "end": 5833,
                 "value": "OOO",
-                "raw": "'OOO'"
+                "raw": "'OOO'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4070,14 +4372,18 @@
             "start": 5836,
             "end": 5845,
             "value": "\\x4fOO",
-            "raw": "'\\\\x4fOO'"
+            "raw": "'\\\\x4fOO'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5847,
             "end": 5882,
             "value": "Initial ASCII letter O is escaped",
-            "raw": "'Initial ASCII letter O is escaped'"
+            "raw": "'Initial ASCII letter O is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4140,7 +4446,9 @@
                 "start": 5916,
                 "end": 5921,
                 "value": "PPP",
-                "raw": "'PPP'"
+                "raw": "'PPP'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4150,14 +4458,18 @@
             "start": 5924,
             "end": 5933,
             "value": "\\x50PP",
-            "raw": "'\\\\x50PP'"
+            "raw": "'\\\\x50PP'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5935,
             "end": 5970,
             "value": "Initial ASCII letter P is escaped",
-            "raw": "'Initial ASCII letter P is escaped'"
+            "raw": "'Initial ASCII letter P is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4220,7 +4532,9 @@
                 "start": 6004,
                 "end": 6009,
                 "value": "QQQ",
-                "raw": "'QQQ'"
+                "raw": "'QQQ'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4230,14 +4544,18 @@
             "start": 6012,
             "end": 6021,
             "value": "\\x51QQ",
-            "raw": "'\\\\x51QQ'"
+            "raw": "'\\\\x51QQ'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6023,
             "end": 6058,
             "value": "Initial ASCII letter Q is escaped",
-            "raw": "'Initial ASCII letter Q is escaped'"
+            "raw": "'Initial ASCII letter Q is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4300,7 +4618,9 @@
                 "start": 6092,
                 "end": 6097,
                 "value": "RRR",
-                "raw": "'RRR'"
+                "raw": "'RRR'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4310,14 +4630,18 @@
             "start": 6100,
             "end": 6109,
             "value": "\\x52RR",
-            "raw": "'\\\\x52RR'"
+            "raw": "'\\\\x52RR'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6111,
             "end": 6146,
             "value": "Initial ASCII letter R is escaped",
-            "raw": "'Initial ASCII letter R is escaped'"
+            "raw": "'Initial ASCII letter R is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4380,7 +4704,9 @@
                 "start": 6180,
                 "end": 6185,
                 "value": "SSS",
-                "raw": "'SSS'"
+                "raw": "'SSS'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4390,14 +4716,18 @@
             "start": 6188,
             "end": 6197,
             "value": "\\x53SS",
-            "raw": "'\\\\x53SS'"
+            "raw": "'\\\\x53SS'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6199,
             "end": 6234,
             "value": "Initial ASCII letter S is escaped",
-            "raw": "'Initial ASCII letter S is escaped'"
+            "raw": "'Initial ASCII letter S is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4460,7 +4790,9 @@
                 "start": 6268,
                 "end": 6273,
                 "value": "TTT",
-                "raw": "'TTT'"
+                "raw": "'TTT'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4470,14 +4802,18 @@
             "start": 6276,
             "end": 6285,
             "value": "\\x54TT",
-            "raw": "'\\\\x54TT'"
+            "raw": "'\\\\x54TT'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6287,
             "end": 6322,
             "value": "Initial ASCII letter T is escaped",
-            "raw": "'Initial ASCII letter T is escaped'"
+            "raw": "'Initial ASCII letter T is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4540,7 +4876,9 @@
                 "start": 6356,
                 "end": 6361,
                 "value": "UUU",
-                "raw": "'UUU'"
+                "raw": "'UUU'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4550,14 +4888,18 @@
             "start": 6364,
             "end": 6373,
             "value": "\\x55UU",
-            "raw": "'\\\\x55UU'"
+            "raw": "'\\\\x55UU'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6375,
             "end": 6410,
             "value": "Initial ASCII letter U is escaped",
-            "raw": "'Initial ASCII letter U is escaped'"
+            "raw": "'Initial ASCII letter U is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4620,7 +4962,9 @@
                 "start": 6444,
                 "end": 6449,
                 "value": "VVV",
-                "raw": "'VVV'"
+                "raw": "'VVV'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4630,14 +4974,18 @@
             "start": 6452,
             "end": 6461,
             "value": "\\x56VV",
-            "raw": "'\\\\x56VV'"
+            "raw": "'\\\\x56VV'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6463,
             "end": 6498,
             "value": "Initial ASCII letter V is escaped",
-            "raw": "'Initial ASCII letter V is escaped'"
+            "raw": "'Initial ASCII letter V is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4700,7 +5048,9 @@
                 "start": 6532,
                 "end": 6537,
                 "value": "WWW",
-                "raw": "'WWW'"
+                "raw": "'WWW'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4710,14 +5060,18 @@
             "start": 6540,
             "end": 6549,
             "value": "\\x57WW",
-            "raw": "'\\\\x57WW'"
+            "raw": "'\\\\x57WW'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6551,
             "end": 6586,
             "value": "Initial ASCII letter W is escaped",
-            "raw": "'Initial ASCII letter W is escaped'"
+            "raw": "'Initial ASCII letter W is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4780,7 +5134,9 @@
                 "start": 6620,
                 "end": 6625,
                 "value": "XXX",
-                "raw": "'XXX'"
+                "raw": "'XXX'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4790,14 +5146,18 @@
             "start": 6628,
             "end": 6637,
             "value": "\\x58XX",
-            "raw": "'\\\\x58XX'"
+            "raw": "'\\\\x58XX'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6639,
             "end": 6674,
             "value": "Initial ASCII letter X is escaped",
-            "raw": "'Initial ASCII letter X is escaped'"
+            "raw": "'Initial ASCII letter X is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4860,7 +5220,9 @@
                 "start": 6708,
                 "end": 6713,
                 "value": "YYY",
-                "raw": "'YYY'"
+                "raw": "'YYY'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4870,14 +5232,18 @@
             "start": 6716,
             "end": 6725,
             "value": "\\x59YY",
-            "raw": "'\\\\x59YY'"
+            "raw": "'\\\\x59YY'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6727,
             "end": 6762,
             "value": "Initial ASCII letter Y is escaped",
-            "raw": "'Initial ASCII letter Y is escaped'"
+            "raw": "'Initial ASCII letter Y is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4940,7 +5306,9 @@
                 "start": 6796,
                 "end": 6801,
                 "value": "ZZZ",
-                "raw": "'ZZZ'"
+                "raw": "'ZZZ'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -4950,14 +5318,18 @@
             "start": 6804,
             "end": 6813,
             "value": "\\x5aZZ",
-            "raw": "'\\\\x5aZZ'"
+            "raw": "'\\\\x5aZZ'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6815,
             "end": 6850,
             "value": "Initial ASCII letter Z is escaped",
-            "raw": "'Initial ASCII letter Z is escaped'"
+            "raw": "'Initial ASCII letter Z is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5020,7 +5392,9 @@
                 "start": 6923,
                 "end": 6928,
                 "value": "1+1",
-                "raw": "'1+1'"
+                "raw": "'1+1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5030,14 +5404,18 @@
             "start": 6931,
             "end": 6942,
             "value": "\\x31\\+1",
-            "raw": "'\\\\x31\\\\+1'"
+            "raw": "'\\\\x31\\\\+1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6944,
             "end": 7003,
             "value": "Initial decimal digit 1 with special character is escaped",
-            "raw": "'Initial decimal digit 1 with special character is escaped'"
+            "raw": "'Initial decimal digit 1 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5100,7 +5478,9 @@
                 "start": 7037,
                 "end": 7042,
                 "value": "2+2",
-                "raw": "'2+2'"
+                "raw": "'2+2'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5110,14 +5490,18 @@
             "start": 7045,
             "end": 7056,
             "value": "\\x32\\+2",
-            "raw": "'\\\\x32\\\\+2'"
+            "raw": "'\\\\x32\\\\+2'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7058,
             "end": 7117,
             "value": "Initial decimal digit 2 with special character is escaped",
-            "raw": "'Initial decimal digit 2 with special character is escaped'"
+            "raw": "'Initial decimal digit 2 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5180,7 +5564,9 @@
                 "start": 7151,
                 "end": 7156,
                 "value": "3+3",
-                "raw": "'3+3'"
+                "raw": "'3+3'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5190,14 +5576,18 @@
             "start": 7159,
             "end": 7170,
             "value": "\\x33\\+3",
-            "raw": "'\\\\x33\\\\+3'"
+            "raw": "'\\\\x33\\\\+3'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7172,
             "end": 7231,
             "value": "Initial decimal digit 3 with special character is escaped",
-            "raw": "'Initial decimal digit 3 with special character is escaped'"
+            "raw": "'Initial decimal digit 3 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5260,7 +5650,9 @@
                 "start": 7265,
                 "end": 7270,
                 "value": "4+4",
-                "raw": "'4+4'"
+                "raw": "'4+4'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5270,14 +5662,18 @@
             "start": 7273,
             "end": 7284,
             "value": "\\x34\\+4",
-            "raw": "'\\\\x34\\\\+4'"
+            "raw": "'\\\\x34\\\\+4'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7286,
             "end": 7345,
             "value": "Initial decimal digit 4 with special character is escaped",
-            "raw": "'Initial decimal digit 4 with special character is escaped'"
+            "raw": "'Initial decimal digit 4 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5340,7 +5736,9 @@
                 "start": 7379,
                 "end": 7384,
                 "value": "5+5",
-                "raw": "'5+5'"
+                "raw": "'5+5'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5350,14 +5748,18 @@
             "start": 7387,
             "end": 7398,
             "value": "\\x35\\+5",
-            "raw": "'\\\\x35\\\\+5'"
+            "raw": "'\\\\x35\\\\+5'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7400,
             "end": 7459,
             "value": "Initial decimal digit 5 with special character is escaped",
-            "raw": "'Initial decimal digit 5 with special character is escaped'"
+            "raw": "'Initial decimal digit 5 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5420,7 +5822,9 @@
                 "start": 7493,
                 "end": 7498,
                 "value": "6+6",
-                "raw": "'6+6'"
+                "raw": "'6+6'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5430,14 +5834,18 @@
             "start": 7501,
             "end": 7512,
             "value": "\\x36\\+6",
-            "raw": "'\\\\x36\\\\+6'"
+            "raw": "'\\\\x36\\\\+6'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7514,
             "end": 7573,
             "value": "Initial decimal digit 6 with special character is escaped",
-            "raw": "'Initial decimal digit 6 with special character is escaped'"
+            "raw": "'Initial decimal digit 6 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5500,7 +5908,9 @@
                 "start": 7607,
                 "end": 7612,
                 "value": "7+7",
-                "raw": "'7+7'"
+                "raw": "'7+7'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5510,14 +5920,18 @@
             "start": 7615,
             "end": 7626,
             "value": "\\x37\\+7",
-            "raw": "'\\\\x37\\\\+7'"
+            "raw": "'\\\\x37\\\\+7'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7628,
             "end": 7687,
             "value": "Initial decimal digit 7 with special character is escaped",
-            "raw": "'Initial decimal digit 7 with special character is escaped'"
+            "raw": "'Initial decimal digit 7 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5580,7 +5994,9 @@
                 "start": 7721,
                 "end": 7726,
                 "value": "8+8",
-                "raw": "'8+8'"
+                "raw": "'8+8'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5590,14 +6006,18 @@
             "start": 7729,
             "end": 7740,
             "value": "\\x38\\+8",
-            "raw": "'\\\\x38\\\\+8'"
+            "raw": "'\\\\x38\\\\+8'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7742,
             "end": 7801,
             "value": "Initial decimal digit 8 with special character is escaped",
-            "raw": "'Initial decimal digit 8 with special character is escaped'"
+            "raw": "'Initial decimal digit 8 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5660,7 +6080,9 @@
                 "start": 7835,
                 "end": 7840,
                 "value": "9+9",
-                "raw": "'9+9'"
+                "raw": "'9+9'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5670,14 +6092,18 @@
             "start": 7843,
             "end": 7854,
             "value": "\\x39\\+9",
-            "raw": "'\\\\x39\\\\+9'"
+            "raw": "'\\\\x39\\\\+9'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7856,
             "end": 7915,
             "value": "Initial decimal digit 9 with special character is escaped",
-            "raw": "'Initial decimal digit 9 with special character is escaped'"
+            "raw": "'Initial decimal digit 9 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5740,7 +6166,9 @@
                 "start": 7949,
                 "end": 7954,
                 "value": "0+0",
-                "raw": "'0+0'"
+                "raw": "'0+0'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5750,14 +6178,18 @@
             "start": 7957,
             "end": 7968,
             "value": "\\x30\\+0",
-            "raw": "'\\\\x30\\\\+0'"
+            "raw": "'\\\\x30\\\\+0'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7970,
             "end": 8029,
             "value": "Initial decimal digit 0 with special character is escaped",
-            "raw": "'Initial decimal digit 0 with special character is escaped'"
+            "raw": "'Initial decimal digit 0 with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5820,7 +6252,9 @@
                 "start": 8064,
                 "end": 8069,
                 "value": "a*a",
-                "raw": "'a*a'"
+                "raw": "'a*a'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5830,14 +6264,18 @@
             "start": 8072,
             "end": 8083,
             "value": "\\x61\\*a",
-            "raw": "'\\\\x61\\\\*a'"
+            "raw": "'\\\\x61\\\\*a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8085,
             "end": 8143,
             "value": "Initial ASCII letter a with special character is escaped",
-            "raw": "'Initial ASCII letter a with special character is escaped'"
+            "raw": "'Initial ASCII letter a with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5900,7 +6338,9 @@
                 "start": 8177,
                 "end": 8182,
                 "value": "b*b",
-                "raw": "'b*b'"
+                "raw": "'b*b'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5910,14 +6350,18 @@
             "start": 8185,
             "end": 8196,
             "value": "\\x62\\*b",
-            "raw": "'\\\\x62\\\\*b'"
+            "raw": "'\\\\x62\\\\*b'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8198,
             "end": 8256,
             "value": "Initial ASCII letter b with special character is escaped",
-            "raw": "'Initial ASCII letter b with special character is escaped'"
+            "raw": "'Initial ASCII letter b with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5980,7 +6424,9 @@
                 "start": 8290,
                 "end": 8295,
                 "value": "c*c",
-                "raw": "'c*c'"
+                "raw": "'c*c'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -5990,14 +6436,18 @@
             "start": 8298,
             "end": 8309,
             "value": "\\x63\\*c",
-            "raw": "'\\\\x63\\\\*c'"
+            "raw": "'\\\\x63\\\\*c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8311,
             "end": 8369,
             "value": "Initial ASCII letter c with special character is escaped",
-            "raw": "'Initial ASCII letter c with special character is escaped'"
+            "raw": "'Initial ASCII letter c with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6060,7 +6510,9 @@
                 "start": 8403,
                 "end": 8408,
                 "value": "d*d",
-                "raw": "'d*d'"
+                "raw": "'d*d'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6070,14 +6522,18 @@
             "start": 8411,
             "end": 8422,
             "value": "\\x64\\*d",
-            "raw": "'\\\\x64\\\\*d'"
+            "raw": "'\\\\x64\\\\*d'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8424,
             "end": 8482,
             "value": "Initial ASCII letter d with special character is escaped",
-            "raw": "'Initial ASCII letter d with special character is escaped'"
+            "raw": "'Initial ASCII letter d with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6140,7 +6596,9 @@
                 "start": 8516,
                 "end": 8521,
                 "value": "e*e",
-                "raw": "'e*e'"
+                "raw": "'e*e'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6150,14 +6608,18 @@
             "start": 8524,
             "end": 8535,
             "value": "\\x65\\*e",
-            "raw": "'\\\\x65\\\\*e'"
+            "raw": "'\\\\x65\\\\*e'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8537,
             "end": 8595,
             "value": "Initial ASCII letter e with special character is escaped",
-            "raw": "'Initial ASCII letter e with special character is escaped'"
+            "raw": "'Initial ASCII letter e with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6220,7 +6682,9 @@
                 "start": 8629,
                 "end": 8634,
                 "value": "f*f",
-                "raw": "'f*f'"
+                "raw": "'f*f'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6230,14 +6694,18 @@
             "start": 8637,
             "end": 8648,
             "value": "\\x66\\*f",
-            "raw": "'\\\\x66\\\\*f'"
+            "raw": "'\\\\x66\\\\*f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8650,
             "end": 8708,
             "value": "Initial ASCII letter f with special character is escaped",
-            "raw": "'Initial ASCII letter f with special character is escaped'"
+            "raw": "'Initial ASCII letter f with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6300,7 +6768,9 @@
                 "start": 8742,
                 "end": 8747,
                 "value": "g*g",
-                "raw": "'g*g'"
+                "raw": "'g*g'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6310,14 +6780,18 @@
             "start": 8750,
             "end": 8761,
             "value": "\\x67\\*g",
-            "raw": "'\\\\x67\\\\*g'"
+            "raw": "'\\\\x67\\\\*g'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8763,
             "end": 8821,
             "value": "Initial ASCII letter g with special character is escaped",
-            "raw": "'Initial ASCII letter g with special character is escaped'"
+            "raw": "'Initial ASCII letter g with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6380,7 +6854,9 @@
                 "start": 8855,
                 "end": 8860,
                 "value": "h*h",
-                "raw": "'h*h'"
+                "raw": "'h*h'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6390,14 +6866,18 @@
             "start": 8863,
             "end": 8874,
             "value": "\\x68\\*h",
-            "raw": "'\\\\x68\\\\*h'"
+            "raw": "'\\\\x68\\\\*h'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8876,
             "end": 8934,
             "value": "Initial ASCII letter h with special character is escaped",
-            "raw": "'Initial ASCII letter h with special character is escaped'"
+            "raw": "'Initial ASCII letter h with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6460,7 +6940,9 @@
                 "start": 8968,
                 "end": 8973,
                 "value": "i*i",
-                "raw": "'i*i'"
+                "raw": "'i*i'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6470,14 +6952,18 @@
             "start": 8976,
             "end": 8987,
             "value": "\\x69\\*i",
-            "raw": "'\\\\x69\\\\*i'"
+            "raw": "'\\\\x69\\\\*i'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 8989,
             "end": 9047,
             "value": "Initial ASCII letter i with special character is escaped",
-            "raw": "'Initial ASCII letter i with special character is escaped'"
+            "raw": "'Initial ASCII letter i with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6540,7 +7026,9 @@
                 "start": 9081,
                 "end": 9086,
                 "value": "j*j",
-                "raw": "'j*j'"
+                "raw": "'j*j'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6550,14 +7038,18 @@
             "start": 9089,
             "end": 9100,
             "value": "\\x6a\\*j",
-            "raw": "'\\\\x6a\\\\*j'"
+            "raw": "'\\\\x6a\\\\*j'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9102,
             "end": 9160,
             "value": "Initial ASCII letter j with special character is escaped",
-            "raw": "'Initial ASCII letter j with special character is escaped'"
+            "raw": "'Initial ASCII letter j with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6620,7 +7112,9 @@
                 "start": 9194,
                 "end": 9199,
                 "value": "k*k",
-                "raw": "'k*k'"
+                "raw": "'k*k'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6630,14 +7124,18 @@
             "start": 9202,
             "end": 9213,
             "value": "\\x6b\\*k",
-            "raw": "'\\\\x6b\\\\*k'"
+            "raw": "'\\\\x6b\\\\*k'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9215,
             "end": 9273,
             "value": "Initial ASCII letter k with special character is escaped",
-            "raw": "'Initial ASCII letter k with special character is escaped'"
+            "raw": "'Initial ASCII letter k with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6700,7 +7198,9 @@
                 "start": 9307,
                 "end": 9312,
                 "value": "l*l",
-                "raw": "'l*l'"
+                "raw": "'l*l'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6710,14 +7210,18 @@
             "start": 9315,
             "end": 9326,
             "value": "\\x6c\\*l",
-            "raw": "'\\\\x6c\\\\*l'"
+            "raw": "'\\\\x6c\\\\*l'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9328,
             "end": 9386,
             "value": "Initial ASCII letter l with special character is escaped",
-            "raw": "'Initial ASCII letter l with special character is escaped'"
+            "raw": "'Initial ASCII letter l with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6780,7 +7284,9 @@
                 "start": 9420,
                 "end": 9425,
                 "value": "m*m",
-                "raw": "'m*m'"
+                "raw": "'m*m'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6790,14 +7296,18 @@
             "start": 9428,
             "end": 9439,
             "value": "\\x6d\\*m",
-            "raw": "'\\\\x6d\\\\*m'"
+            "raw": "'\\\\x6d\\\\*m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9441,
             "end": 9499,
             "value": "Initial ASCII letter m with special character is escaped",
-            "raw": "'Initial ASCII letter m with special character is escaped'"
+            "raw": "'Initial ASCII letter m with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6860,7 +7370,9 @@
                 "start": 9533,
                 "end": 9538,
                 "value": "n*n",
-                "raw": "'n*n'"
+                "raw": "'n*n'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6870,14 +7382,18 @@
             "start": 9541,
             "end": 9552,
             "value": "\\x6e\\*n",
-            "raw": "'\\\\x6e\\\\*n'"
+            "raw": "'\\\\x6e\\\\*n'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9554,
             "end": 9612,
             "value": "Initial ASCII letter n with special character is escaped",
-            "raw": "'Initial ASCII letter n with special character is escaped'"
+            "raw": "'Initial ASCII letter n with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6940,7 +7456,9 @@
                 "start": 9646,
                 "end": 9651,
                 "value": "o*o",
-                "raw": "'o*o'"
+                "raw": "'o*o'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -6950,14 +7468,18 @@
             "start": 9654,
             "end": 9665,
             "value": "\\x6f\\*o",
-            "raw": "'\\\\x6f\\\\*o'"
+            "raw": "'\\\\x6f\\\\*o'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9667,
             "end": 9725,
             "value": "Initial ASCII letter o with special character is escaped",
-            "raw": "'Initial ASCII letter o with special character is escaped'"
+            "raw": "'Initial ASCII letter o with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7020,7 +7542,9 @@
                 "start": 9759,
                 "end": 9764,
                 "value": "p*p",
-                "raw": "'p*p'"
+                "raw": "'p*p'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7030,14 +7554,18 @@
             "start": 9767,
             "end": 9778,
             "value": "\\x70\\*p",
-            "raw": "'\\\\x70\\\\*p'"
+            "raw": "'\\\\x70\\\\*p'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9780,
             "end": 9838,
             "value": "Initial ASCII letter p with special character is escaped",
-            "raw": "'Initial ASCII letter p with special character is escaped'"
+            "raw": "'Initial ASCII letter p with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7100,7 +7628,9 @@
                 "start": 9872,
                 "end": 9877,
                 "value": "q*q",
-                "raw": "'q*q'"
+                "raw": "'q*q'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7110,14 +7640,18 @@
             "start": 9880,
             "end": 9891,
             "value": "\\x71\\*q",
-            "raw": "'\\\\x71\\\\*q'"
+            "raw": "'\\\\x71\\\\*q'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 9893,
             "end": 9951,
             "value": "Initial ASCII letter q with special character is escaped",
-            "raw": "'Initial ASCII letter q with special character is escaped'"
+            "raw": "'Initial ASCII letter q with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7180,7 +7714,9 @@
                 "start": 9985,
                 "end": 9990,
                 "value": "r*r",
-                "raw": "'r*r'"
+                "raw": "'r*r'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7190,14 +7726,18 @@
             "start": 9993,
             "end": 10004,
             "value": "\\x72\\*r",
-            "raw": "'\\\\x72\\\\*r'"
+            "raw": "'\\\\x72\\\\*r'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10006,
             "end": 10064,
             "value": "Initial ASCII letter r with special character is escaped",
-            "raw": "'Initial ASCII letter r with special character is escaped'"
+            "raw": "'Initial ASCII letter r with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7260,7 +7800,9 @@
                 "start": 10098,
                 "end": 10103,
                 "value": "s*s",
-                "raw": "'s*s'"
+                "raw": "'s*s'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7270,14 +7812,18 @@
             "start": 10106,
             "end": 10117,
             "value": "\\x73\\*s",
-            "raw": "'\\\\x73\\\\*s'"
+            "raw": "'\\\\x73\\\\*s'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10119,
             "end": 10177,
             "value": "Initial ASCII letter s with special character is escaped",
-            "raw": "'Initial ASCII letter s with special character is escaped'"
+            "raw": "'Initial ASCII letter s with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7340,7 +7886,9 @@
                 "start": 10211,
                 "end": 10216,
                 "value": "t*t",
-                "raw": "'t*t'"
+                "raw": "'t*t'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7350,14 +7898,18 @@
             "start": 10219,
             "end": 10230,
             "value": "\\x74\\*t",
-            "raw": "'\\\\x74\\\\*t'"
+            "raw": "'\\\\x74\\\\*t'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10232,
             "end": 10290,
             "value": "Initial ASCII letter t with special character is escaped",
-            "raw": "'Initial ASCII letter t with special character is escaped'"
+            "raw": "'Initial ASCII letter t with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7420,7 +7972,9 @@
                 "start": 10324,
                 "end": 10329,
                 "value": "u*u",
-                "raw": "'u*u'"
+                "raw": "'u*u'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7430,14 +7984,18 @@
             "start": 10332,
             "end": 10343,
             "value": "\\x75\\*u",
-            "raw": "'\\\\x75\\\\*u'"
+            "raw": "'\\\\x75\\\\*u'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10345,
             "end": 10403,
             "value": "Initial ASCII letter u with special character is escaped",
-            "raw": "'Initial ASCII letter u with special character is escaped'"
+            "raw": "'Initial ASCII letter u with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7500,7 +8058,9 @@
                 "start": 10437,
                 "end": 10442,
                 "value": "v*v",
-                "raw": "'v*v'"
+                "raw": "'v*v'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7510,14 +8070,18 @@
             "start": 10445,
             "end": 10456,
             "value": "\\x76\\*v",
-            "raw": "'\\\\x76\\\\*v'"
+            "raw": "'\\\\x76\\\\*v'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10458,
             "end": 10516,
             "value": "Initial ASCII letter v with special character is escaped",
-            "raw": "'Initial ASCII letter v with special character is escaped'"
+            "raw": "'Initial ASCII letter v with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7580,7 +8144,9 @@
                 "start": 10550,
                 "end": 10555,
                 "value": "w*w",
-                "raw": "'w*w'"
+                "raw": "'w*w'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7590,14 +8156,18 @@
             "start": 10558,
             "end": 10569,
             "value": "\\x77\\*w",
-            "raw": "'\\\\x77\\\\*w'"
+            "raw": "'\\\\x77\\\\*w'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10571,
             "end": 10629,
             "value": "Initial ASCII letter w with special character is escaped",
-            "raw": "'Initial ASCII letter w with special character is escaped'"
+            "raw": "'Initial ASCII letter w with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7660,7 +8230,9 @@
                 "start": 10663,
                 "end": 10668,
                 "value": "x*x",
-                "raw": "'x*x'"
+                "raw": "'x*x'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7670,14 +8242,18 @@
             "start": 10671,
             "end": 10682,
             "value": "\\x78\\*x",
-            "raw": "'\\\\x78\\\\*x'"
+            "raw": "'\\\\x78\\\\*x'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10684,
             "end": 10742,
             "value": "Initial ASCII letter x with special character is escaped",
-            "raw": "'Initial ASCII letter x with special character is escaped'"
+            "raw": "'Initial ASCII letter x with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7740,7 +8316,9 @@
                 "start": 10776,
                 "end": 10781,
                 "value": "y*y",
-                "raw": "'y*y'"
+                "raw": "'y*y'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7750,14 +8328,18 @@
             "start": 10784,
             "end": 10795,
             "value": "\\x79\\*y",
-            "raw": "'\\\\x79\\\\*y'"
+            "raw": "'\\\\x79\\\\*y'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10797,
             "end": 10855,
             "value": "Initial ASCII letter y with special character is escaped",
-            "raw": "'Initial ASCII letter y with special character is escaped'"
+            "raw": "'Initial ASCII letter y with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7820,7 +8402,9 @@
                 "start": 10889,
                 "end": 10894,
                 "value": "z*z",
-                "raw": "'z*z'"
+                "raw": "'z*z'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7830,14 +8414,18 @@
             "start": 10897,
             "end": 10908,
             "value": "\\x7a\\*z",
-            "raw": "'\\\\x7a\\\\*z'"
+            "raw": "'\\\\x7a\\\\*z'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 10910,
             "end": 10968,
             "value": "Initial ASCII letter z with special character is escaped",
-            "raw": "'Initial ASCII letter z with special character is escaped'"
+            "raw": "'Initial ASCII letter z with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7900,7 +8488,9 @@
                 "start": 11002,
                 "end": 11007,
                 "value": "A*A",
-                "raw": "'A*A'"
+                "raw": "'A*A'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7910,14 +8500,18 @@
             "start": 11010,
             "end": 11021,
             "value": "\\x41\\*A",
-            "raw": "'\\\\x41\\\\*A'"
+            "raw": "'\\\\x41\\\\*A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11023,
             "end": 11081,
             "value": "Initial ASCII letter A with special character is escaped",
-            "raw": "'Initial ASCII letter A with special character is escaped'"
+            "raw": "'Initial ASCII letter A with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -7980,7 +8574,9 @@
                 "start": 11115,
                 "end": 11120,
                 "value": "B*B",
-                "raw": "'B*B'"
+                "raw": "'B*B'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -7990,14 +8586,18 @@
             "start": 11123,
             "end": 11134,
             "value": "\\x42\\*B",
-            "raw": "'\\\\x42\\\\*B'"
+            "raw": "'\\\\x42\\\\*B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11136,
             "end": 11194,
             "value": "Initial ASCII letter B with special character is escaped",
-            "raw": "'Initial ASCII letter B with special character is escaped'"
+            "raw": "'Initial ASCII letter B with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8060,7 +8660,9 @@
                 "start": 11228,
                 "end": 11233,
                 "value": "C*C",
-                "raw": "'C*C'"
+                "raw": "'C*C'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8070,14 +8672,18 @@
             "start": 11236,
             "end": 11247,
             "value": "\\x43\\*C",
-            "raw": "'\\\\x43\\\\*C'"
+            "raw": "'\\\\x43\\\\*C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11249,
             "end": 11307,
             "value": "Initial ASCII letter C with special character is escaped",
-            "raw": "'Initial ASCII letter C with special character is escaped'"
+            "raw": "'Initial ASCII letter C with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8140,7 +8746,9 @@
                 "start": 11341,
                 "end": 11346,
                 "value": "D*D",
-                "raw": "'D*D'"
+                "raw": "'D*D'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8150,14 +8758,18 @@
             "start": 11349,
             "end": 11360,
             "value": "\\x44\\*D",
-            "raw": "'\\\\x44\\\\*D'"
+            "raw": "'\\\\x44\\\\*D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11362,
             "end": 11420,
             "value": "Initial ASCII letter D with special character is escaped",
-            "raw": "'Initial ASCII letter D with special character is escaped'"
+            "raw": "'Initial ASCII letter D with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8220,7 +8832,9 @@
                 "start": 11454,
                 "end": 11459,
                 "value": "E*E",
-                "raw": "'E*E'"
+                "raw": "'E*E'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8230,14 +8844,18 @@
             "start": 11462,
             "end": 11473,
             "value": "\\x45\\*E",
-            "raw": "'\\\\x45\\\\*E'"
+            "raw": "'\\\\x45\\\\*E'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11475,
             "end": 11533,
             "value": "Initial ASCII letter E with special character is escaped",
-            "raw": "'Initial ASCII letter E with special character is escaped'"
+            "raw": "'Initial ASCII letter E with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8300,7 +8918,9 @@
                 "start": 11567,
                 "end": 11572,
                 "value": "F*F",
-                "raw": "'F*F'"
+                "raw": "'F*F'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8310,14 +8930,18 @@
             "start": 11575,
             "end": 11586,
             "value": "\\x46\\*F",
-            "raw": "'\\\\x46\\\\*F'"
+            "raw": "'\\\\x46\\\\*F'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11588,
             "end": 11646,
             "value": "Initial ASCII letter F with special character is escaped",
-            "raw": "'Initial ASCII letter F with special character is escaped'"
+            "raw": "'Initial ASCII letter F with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8380,7 +9004,9 @@
                 "start": 11680,
                 "end": 11685,
                 "value": "G*G",
-                "raw": "'G*G'"
+                "raw": "'G*G'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8390,14 +9016,18 @@
             "start": 11688,
             "end": 11699,
             "value": "\\x47\\*G",
-            "raw": "'\\\\x47\\\\*G'"
+            "raw": "'\\\\x47\\\\*G'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11701,
             "end": 11759,
             "value": "Initial ASCII letter G with special character is escaped",
-            "raw": "'Initial ASCII letter G with special character is escaped'"
+            "raw": "'Initial ASCII letter G with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8460,7 +9090,9 @@
                 "start": 11793,
                 "end": 11798,
                 "value": "H*H",
-                "raw": "'H*H'"
+                "raw": "'H*H'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8470,14 +9102,18 @@
             "start": 11801,
             "end": 11812,
             "value": "\\x48\\*H",
-            "raw": "'\\\\x48\\\\*H'"
+            "raw": "'\\\\x48\\\\*H'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11814,
             "end": 11872,
             "value": "Initial ASCII letter H with special character is escaped",
-            "raw": "'Initial ASCII letter H with special character is escaped'"
+            "raw": "'Initial ASCII letter H with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8540,7 +9176,9 @@
                 "start": 11906,
                 "end": 11911,
                 "value": "I*I",
-                "raw": "'I*I'"
+                "raw": "'I*I'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8550,14 +9188,18 @@
             "start": 11914,
             "end": 11925,
             "value": "\\x49\\*I",
-            "raw": "'\\\\x49\\\\*I'"
+            "raw": "'\\\\x49\\\\*I'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 11927,
             "end": 11985,
             "value": "Initial ASCII letter I with special character is escaped",
-            "raw": "'Initial ASCII letter I with special character is escaped'"
+            "raw": "'Initial ASCII letter I with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8620,7 +9262,9 @@
                 "start": 12019,
                 "end": 12024,
                 "value": "J*J",
-                "raw": "'J*J'"
+                "raw": "'J*J'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8630,14 +9274,18 @@
             "start": 12027,
             "end": 12038,
             "value": "\\x4a\\*J",
-            "raw": "'\\\\x4a\\\\*J'"
+            "raw": "'\\\\x4a\\\\*J'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12040,
             "end": 12098,
             "value": "Initial ASCII letter J with special character is escaped",
-            "raw": "'Initial ASCII letter J with special character is escaped'"
+            "raw": "'Initial ASCII letter J with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8700,7 +9348,9 @@
                 "start": 12132,
                 "end": 12137,
                 "value": "K*K",
-                "raw": "'K*K'"
+                "raw": "'K*K'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8710,14 +9360,18 @@
             "start": 12140,
             "end": 12151,
             "value": "\\x4b\\*K",
-            "raw": "'\\\\x4b\\\\*K'"
+            "raw": "'\\\\x4b\\\\*K'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12153,
             "end": 12211,
             "value": "Initial ASCII letter K with special character is escaped",
-            "raw": "'Initial ASCII letter K with special character is escaped'"
+            "raw": "'Initial ASCII letter K with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8780,7 +9434,9 @@
                 "start": 12245,
                 "end": 12250,
                 "value": "L*L",
-                "raw": "'L*L'"
+                "raw": "'L*L'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8790,14 +9446,18 @@
             "start": 12253,
             "end": 12264,
             "value": "\\x4c\\*L",
-            "raw": "'\\\\x4c\\\\*L'"
+            "raw": "'\\\\x4c\\\\*L'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12266,
             "end": 12324,
             "value": "Initial ASCII letter L with special character is escaped",
-            "raw": "'Initial ASCII letter L with special character is escaped'"
+            "raw": "'Initial ASCII letter L with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8860,7 +9520,9 @@
                 "start": 12358,
                 "end": 12363,
                 "value": "M*M",
-                "raw": "'M*M'"
+                "raw": "'M*M'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8870,14 +9532,18 @@
             "start": 12366,
             "end": 12377,
             "value": "\\x4d\\*M",
-            "raw": "'\\\\x4d\\\\*M'"
+            "raw": "'\\\\x4d\\\\*M'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12379,
             "end": 12437,
             "value": "Initial ASCII letter M with special character is escaped",
-            "raw": "'Initial ASCII letter M with special character is escaped'"
+            "raw": "'Initial ASCII letter M with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -8940,7 +9606,9 @@
                 "start": 12471,
                 "end": 12476,
                 "value": "N*N",
-                "raw": "'N*N'"
+                "raw": "'N*N'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -8950,14 +9618,18 @@
             "start": 12479,
             "end": 12490,
             "value": "\\x4e\\*N",
-            "raw": "'\\\\x4e\\\\*N'"
+            "raw": "'\\\\x4e\\\\*N'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12492,
             "end": 12550,
             "value": "Initial ASCII letter N with special character is escaped",
-            "raw": "'Initial ASCII letter N with special character is escaped'"
+            "raw": "'Initial ASCII letter N with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9020,7 +9692,9 @@
                 "start": 12584,
                 "end": 12589,
                 "value": "O*O",
-                "raw": "'O*O'"
+                "raw": "'O*O'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9030,14 +9704,18 @@
             "start": 12592,
             "end": 12603,
             "value": "\\x4f\\*O",
-            "raw": "'\\\\x4f\\\\*O'"
+            "raw": "'\\\\x4f\\\\*O'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12605,
             "end": 12663,
             "value": "Initial ASCII letter O with special character is escaped",
-            "raw": "'Initial ASCII letter O with special character is escaped'"
+            "raw": "'Initial ASCII letter O with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9100,7 +9778,9 @@
                 "start": 12697,
                 "end": 12702,
                 "value": "P*P",
-                "raw": "'P*P'"
+                "raw": "'P*P'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9110,14 +9790,18 @@
             "start": 12705,
             "end": 12716,
             "value": "\\x50\\*P",
-            "raw": "'\\\\x50\\\\*P'"
+            "raw": "'\\\\x50\\\\*P'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12718,
             "end": 12776,
             "value": "Initial ASCII letter P with special character is escaped",
-            "raw": "'Initial ASCII letter P with special character is escaped'"
+            "raw": "'Initial ASCII letter P with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9180,7 +9864,9 @@
                 "start": 12810,
                 "end": 12815,
                 "value": "Q*Q",
-                "raw": "'Q*Q'"
+                "raw": "'Q*Q'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9190,14 +9876,18 @@
             "start": 12818,
             "end": 12829,
             "value": "\\x51\\*Q",
-            "raw": "'\\\\x51\\\\*Q'"
+            "raw": "'\\\\x51\\\\*Q'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12831,
             "end": 12889,
             "value": "Initial ASCII letter Q with special character is escaped",
-            "raw": "'Initial ASCII letter Q with special character is escaped'"
+            "raw": "'Initial ASCII letter Q with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9260,7 +9950,9 @@
                 "start": 12923,
                 "end": 12928,
                 "value": "R*R",
-                "raw": "'R*R'"
+                "raw": "'R*R'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9270,14 +9962,18 @@
             "start": 12931,
             "end": 12942,
             "value": "\\x52\\*R",
-            "raw": "'\\\\x52\\\\*R'"
+            "raw": "'\\\\x52\\\\*R'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 12944,
             "end": 13002,
             "value": "Initial ASCII letter R with special character is escaped",
-            "raw": "'Initial ASCII letter R with special character is escaped'"
+            "raw": "'Initial ASCII letter R with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9340,7 +10036,9 @@
                 "start": 13036,
                 "end": 13041,
                 "value": "S*S",
-                "raw": "'S*S'"
+                "raw": "'S*S'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9350,14 +10048,18 @@
             "start": 13044,
             "end": 13055,
             "value": "\\x53\\*S",
-            "raw": "'\\\\x53\\\\*S'"
+            "raw": "'\\\\x53\\\\*S'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13057,
             "end": 13115,
             "value": "Initial ASCII letter S with special character is escaped",
-            "raw": "'Initial ASCII letter S with special character is escaped'"
+            "raw": "'Initial ASCII letter S with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9420,7 +10122,9 @@
                 "start": 13149,
                 "end": 13154,
                 "value": "T*T",
-                "raw": "'T*T'"
+                "raw": "'T*T'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9430,14 +10134,18 @@
             "start": 13157,
             "end": 13168,
             "value": "\\x54\\*T",
-            "raw": "'\\\\x54\\\\*T'"
+            "raw": "'\\\\x54\\\\*T'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13170,
             "end": 13228,
             "value": "Initial ASCII letter T with special character is escaped",
-            "raw": "'Initial ASCII letter T with special character is escaped'"
+            "raw": "'Initial ASCII letter T with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9500,7 +10208,9 @@
                 "start": 13262,
                 "end": 13267,
                 "value": "U*U",
-                "raw": "'U*U'"
+                "raw": "'U*U'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9510,14 +10220,18 @@
             "start": 13270,
             "end": 13281,
             "value": "\\x55\\*U",
-            "raw": "'\\\\x55\\\\*U'"
+            "raw": "'\\\\x55\\\\*U'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13283,
             "end": 13341,
             "value": "Initial ASCII letter U with special character is escaped",
-            "raw": "'Initial ASCII letter U with special character is escaped'"
+            "raw": "'Initial ASCII letter U with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9580,7 +10294,9 @@
                 "start": 13375,
                 "end": 13380,
                 "value": "V*V",
-                "raw": "'V*V'"
+                "raw": "'V*V'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9590,14 +10306,18 @@
             "start": 13383,
             "end": 13394,
             "value": "\\x56\\*V",
-            "raw": "'\\\\x56\\\\*V'"
+            "raw": "'\\\\x56\\\\*V'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13396,
             "end": 13454,
             "value": "Initial ASCII letter V with special character is escaped",
-            "raw": "'Initial ASCII letter V with special character is escaped'"
+            "raw": "'Initial ASCII letter V with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9660,7 +10380,9 @@
                 "start": 13488,
                 "end": 13493,
                 "value": "W*W",
-                "raw": "'W*W'"
+                "raw": "'W*W'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9670,14 +10392,18 @@
             "start": 13496,
             "end": 13507,
             "value": "\\x57\\*W",
-            "raw": "'\\\\x57\\\\*W'"
+            "raw": "'\\\\x57\\\\*W'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13509,
             "end": 13567,
             "value": "Initial ASCII letter W with special character is escaped",
-            "raw": "'Initial ASCII letter W with special character is escaped'"
+            "raw": "'Initial ASCII letter W with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9740,7 +10466,9 @@
                 "start": 13601,
                 "end": 13606,
                 "value": "X*X",
-                "raw": "'X*X'"
+                "raw": "'X*X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9750,14 +10478,18 @@
             "start": 13609,
             "end": 13620,
             "value": "\\x58\\*X",
-            "raw": "'\\\\x58\\\\*X'"
+            "raw": "'\\\\x58\\\\*X'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13622,
             "end": 13680,
             "value": "Initial ASCII letter X with special character is escaped",
-            "raw": "'Initial ASCII letter X with special character is escaped'"
+            "raw": "'Initial ASCII letter X with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9820,7 +10552,9 @@
                 "start": 13714,
                 "end": 13719,
                 "value": "Y*Y",
-                "raw": "'Y*Y'"
+                "raw": "'Y*Y'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9830,14 +10564,18 @@
             "start": 13722,
             "end": 13733,
             "value": "\\x59\\*Y",
-            "raw": "'\\\\x59\\\\*Y'"
+            "raw": "'\\\\x59\\\\*Y'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13735,
             "end": 13793,
             "value": "Initial ASCII letter Y with special character is escaped",
-            "raw": "'Initial ASCII letter Y with special character is escaped'"
+            "raw": "'Initial ASCII letter Y with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -9900,7 +10638,9 @@
                 "start": 13827,
                 "end": 13832,
                 "value": "Z*Z",
-                "raw": "'Z*Z'"
+                "raw": "'Z*Z'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -9910,14 +10650,18 @@
             "start": 13835,
             "end": 13846,
             "value": "\\x5a\\*Z",
-            "raw": "'\\\\x5a\\\\*Z'"
+            "raw": "'\\\\x5a\\\\*Z'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 13848,
             "end": 13906,
             "value": "Initial ASCII letter Z with special character is escaped",
-            "raw": "'Initial ASCII letter Z with special character is escaped'"
+            "raw": "'Initial ASCII letter Z with special character is escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

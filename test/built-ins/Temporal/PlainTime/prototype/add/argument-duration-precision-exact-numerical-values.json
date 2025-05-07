@@ -95,7 +95,9 @@
                           "start": 451,
                           "end": 471,
                           "value": 4503599627370497000,
-                          "raw": "4503599627370497_000"
+                          "raw": "4503599627370497_000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -117,7 +119,9 @@
                           "start": 546,
                           "end": 569,
                           "value": 4.503599627370495e+21,
-                          "raw": "4503599627370495_000000"
+                          "raw": "4503599627370495_000000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -128,7 +132,9 @@
                     "start": 779,
                     "end": 852,
                     "value": "case where floating point inaccuracy brings total below limit, positive",
-                    "raw": "\"case where floating point inaccuracy brings total below limit, positive\""
+                    "raw": "\"case where floating point inaccuracy brings total below limit, positive\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -166,7 +172,9 @@
                             "start": 889,
                             "end": 909,
                             "value": 4503599627370497000,
-                            "raw": "4503599627370497_000"
+                            "raw": "4503599627370497_000",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "kind": "init"
@@ -195,7 +203,9 @@
                             "start": 932,
                             "end": 955,
                             "value": 4.503599627370495e+21,
-                            "raw": "4503599627370495_000000"
+                            "raw": "4503599627370495_000000",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "kind": "init"
@@ -207,7 +217,9 @@
                     "start": 968,
                     "end": 1041,
                     "value": "case where floating point inaccuracy brings total below limit, negative",
-                    "raw": "\"case where floating point inaccuracy brings total below limit, negative\""
+                    "raw": "\"case where floating point inaccuracy brings total below limit, negative\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

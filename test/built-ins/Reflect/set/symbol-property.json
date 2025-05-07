@@ -59,7 +59,9 @@
                 "start": 504,
                 "end": 507,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,7 +126,9 @@
                 "start": 542,
                 "end": 544,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -172,14 +176,18 @@
             "start": 572,
             "end": 576,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 578,
             "end": 616,
             "value": "returns true on a successful setting",
-            "raw": "'returns true on a successful setting'"
+            "raw": "'returns true on a successful setting'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,14 +245,18 @@
             "start": 643,
             "end": 645,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 647,
             "end": 667,
             "value": "sets the new value",
-            "raw": "'sets the new value'"
+            "raw": "'sets the new value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -308,7 +320,9 @@
           "start": 692,
           "end": 694,
           "value": 43,
-          "raw": "43"
+          "raw": "43",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -370,7 +384,9 @@
           "start": 729,
           "end": 731,
           "value": 44,
-          "raw": "44"
+          "raw": "44",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -430,7 +446,9 @@
                 "start": 765,
                 "end": 767,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -484,14 +502,18 @@
             "start": 805,
             "end": 809,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 811,
             "end": 849,
             "value": "returns true on a successful setting",
-            "raw": "'returns true on a successful setting'"
+            "raw": "'returns true on a successful setting'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -549,14 +571,18 @@
             "start": 876,
             "end": 878,
             "value": 43,
-            "raw": "43"
+            "raw": "43",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 880,
             "end": 929,
             "value": "with a receiver, does not set a value on target",
-            "raw": "'with a receiver, does not set a value on target'"
+            "raw": "'with a receiver, does not set a value on target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -614,14 +640,18 @@
             "start": 962,
             "end": 964,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 966,
             "end": 1002,
             "value": "sets the new value on the receiver",
-            "raw": "'sets the new value on the receiver'"
+            "raw": "'sets the new value on the receiver'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

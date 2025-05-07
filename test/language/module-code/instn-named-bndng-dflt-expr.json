@@ -77,7 +77,9 @@
             "start": 1240,
             "end": 1280,
             "value": "binding is created but not initialized",
-            "raw": "'binding is created but not initialized'"
+            "raw": "'binding is created but not initialized'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -105,7 +107,9 @@
         "start": 1301,
         "end": 1335,
         "value": "./instn-named-bndng-dflt-expr.js",
-        "raw": "'./instn-named-bndng-dflt-expr.js'"
+        "raw": "'./instn-named-bndng-dflt-expr.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },

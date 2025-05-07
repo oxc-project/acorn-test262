@@ -238,7 +238,9 @@
                         "start": 605,
                         "end": 611,
                         "value": "attr",
-                        "raw": "'attr'"
+                        "raw": "'attr'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

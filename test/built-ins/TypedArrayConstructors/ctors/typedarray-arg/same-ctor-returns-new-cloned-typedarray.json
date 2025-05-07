@@ -70,7 +70,9 @@
                             "start": 777,
                             "end": 778,
                             "value": 7,
-                            "raw": "7"
+                            "raw": "7",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -168,7 +170,9 @@
                         "start": 855,
                         "end": 856,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

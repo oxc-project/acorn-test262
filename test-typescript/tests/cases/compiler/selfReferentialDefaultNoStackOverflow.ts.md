@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 39,
         "raw": "'./QSpinner'",
-        "value": "./QSpinner"
+        "value": "./QSpinner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -102,7 +104,9 @@ __ESTREE_TEST__:PASS:
               "start": 94,
               "end": 104,
               "raw": "'QSpinner'",
-              "value": "QSpinner"
+              "value": "QSpinner",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

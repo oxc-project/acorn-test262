@@ -45,7 +45,9 @@
                     "start": 343,
                     "end": 344,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,7 +56,9 @@
                 "start": 347,
                 "end": 348,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -218,7 +222,9 @@
                         "start": 485,
                         "end": 488,
                         "value": 100,
-                        "raw": "100"
+                        "raw": "100",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -238,7 +244,9 @@
             "start": 504,
             "end": 532,
             "value": "setBigInt64(100, poisoned)",
-            "raw": "\"setBigInt64(100, poisoned)\""
+            "raw": "\"setBigInt64(100, poisoned)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,7 +333,9 @@
                         "start": 600,
                         "end": 605,
                         "value": "100",
-                        "raw": "'100'"
+                        "raw": "'100'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -345,7 +355,9 @@
             "start": 621,
             "end": 651,
             "value": "setBigInt64('100', poisoned)",
-            "raw": "\"setBigInt64('100', poisoned)\""
+            "raw": "\"setBigInt64('100', poisoned)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

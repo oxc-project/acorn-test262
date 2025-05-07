@@ -55,7 +55,9 @@
                   "start": 303,
                   "end": 308,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -125,7 +127,9 @@
                         "start": 375,
                         "end": 379,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -367,7 +371,9 @@
             "start": 612,
             "end": 652,
             "value": "Actual argument shouldn't be nullish. ",
-            "raw": "\"Actual argument shouldn't be nullish. \""
+            "raw": "\"Actual argument shouldn't be nullish. \"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -426,7 +432,9 @@
                   "start": 694,
                   "end": 698,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ArrayExpression",
@@ -443,7 +451,9 @@
             "start": 705,
             "end": 745,
             "value": "Actual argument shouldn't be nullish. ",
-            "raw": "\"Actual argument shouldn't be nullish. \""
+            "raw": "\"Actual argument shouldn't be nullish. \"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -502,7 +512,9 @@
                   "start": 787,
                   "end": 791,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ArrayExpression",
@@ -515,7 +527,9 @@
                   "start": 797,
                   "end": 802,
                   "value": "foo",
-                  "raw": "\"foo\""
+                  "raw": "\"foo\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -526,7 +540,9 @@
             "start": 805,
             "end": 848,
             "value": "Actual argument shouldn't be nullish. foo",
-            "raw": "\"Actual argument shouldn't be nullish. foo\""
+            "raw": "\"Actual argument shouldn't be nullish. foo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -595,7 +611,9 @@
             "start": 896,
             "end": 938,
             "value": "Expected argument shouldn't be nullish. ",
-            "raw": "\"Expected argument shouldn't be nullish. \""
+            "raw": "\"Expected argument shouldn't be nullish. \"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -666,7 +684,9 @@
                   "start": 995,
                   "end": 1000,
                   "value": "foo",
-                  "raw": "\"foo\""
+                  "raw": "\"foo\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -677,7 +697,9 @@
             "start": 1003,
             "end": 1048,
             "value": "Expected argument shouldn't be nullish. foo",
-            "raw": "\"Expected argument shouldn't be nullish. foo\""
+            "raw": "\"Expected argument shouldn't be nullish. foo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

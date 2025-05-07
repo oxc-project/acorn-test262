@@ -60,7 +60,9 @@
                 "start": 1642,
                 "end": 1650,
                 "value": " ",
-                "raw": "'\\u2028'"
+                "raw": "'\\u2028'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 1653,
             "end": 1662,
             "value": "\\u2028",
-            "raw": "'\\\\u2028'"
+            "raw": "'\\\\u2028'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1664,
             "end": 1721,
             "value": "line terminator \\u2028 is escaped correctly to \\u2028",
-            "raw": "'line terminator \\\\u2028 is escaped correctly to \\\\u2028'"
+            "raw": "'line terminator \\\\u2028 is escaped correctly to \\\\u2028'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                 "start": 1755,
                 "end": 1763,
                 "value": " ",
-                "raw": "'\\u2029'"
+                "raw": "'\\u2029'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -150,14 +158,18 @@
             "start": 1766,
             "end": 1775,
             "value": "\\u2029",
-            "raw": "'\\\\u2029'"
+            "raw": "'\\\\u2029'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1777,
             "end": 1834,
             "value": "line terminator \\u2029 is escaped correctly to \\u2029",
-            "raw": "'line terminator \\\\u2029 is escaped correctly to \\\\u2029'"
+            "raw": "'line terminator \\\\u2029 is escaped correctly to \\\\u2029'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +232,9 @@
                 "start": 1870,
                 "end": 1884,
                 "value": "  ",
-                "raw": "'\\u2028\\u2029'"
+                "raw": "'\\u2028\\u2029'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -230,14 +244,18 @@
             "start": 1887,
             "end": 1903,
             "value": "\\u2028\\u2029",
-            "raw": "'\\\\u2028\\\\u2029'"
+            "raw": "'\\\\u2028\\\\u2029'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1905,
             "end": 1945,
             "value": "line terminators are escaped correctly",
-            "raw": "'line terminators are escaped correctly'"
+            "raw": "'line terminators are escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +318,9 @@
                 "start": 1979,
                 "end": 1995,
                 "value": " a a",
-                "raw": "'\\u2028a\\u2029a'"
+                "raw": "'\\u2028a\\u2029a'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,14 +330,18 @@
             "start": 1998,
             "end": 2016,
             "value": "\\u2028a\\u2029a",
-            "raw": "'\\\\u2028a\\\\u2029a'"
+            "raw": "'\\\\u2028a\\\\u2029a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2018,
             "end": 2064,
             "value": "mixed line terminators are escaped correctly",
-            "raw": "'mixed line terminators are escaped correctly'"
+            "raw": "'mixed line terminators are escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

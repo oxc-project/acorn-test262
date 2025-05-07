@@ -69,7 +69,9 @@
                       "start": 877,
                       "end": 878,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -100,7 +102,9 @@
             "start": 900,
             "end": 934,
             "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "raw": "0b00000001000000001000000010000001",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -169,7 +173,9 @@
                 "start": 972,
                 "end": 973,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -185,14 +191,18 @@
             "start": 986,
             "end": 987,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 989,
             "end": 1031,
             "value": "Atomics.add(i32a, 0, newValue) returns 0",
-            "raw": "'Atomics.add(i32a, 0, newValue) returns 0'"
+            "raw": "'Atomics.add(i32a, 0, newValue) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -241,7 +251,9 @@
               "start": 1056,
               "end": 1057,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -257,7 +269,9 @@
             "start": 1070,
             "end": 1160,
             "value": "The value of i32a[0] equals the value of `newValue` (0b00000001000000001000000010000001)",
-            "raw": "'The value of i32a[0] equals the value of `newValue` (0b00000001000000001000000010000001)'"
+            "raw": "'The value of i32a[0] equals the value of `newValue` (0b00000001000000001000000010000001)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

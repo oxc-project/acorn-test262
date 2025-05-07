@@ -12,7 +12,9 @@
         "start": 1230,
         "end": 1234,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -48,7 +50,9 @@
                         "start": 1247,
                         "end": 1278,
                         "value": "./THIS_FILE_DOES_NOT_EXIST.js",
-                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
+                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -129,7 +133,9 @@
                                   "start": 1336,
                                   "end": 1347,
                                   "value": "undefined",
-                                  "raw": "'undefined'"
+                                  "raw": "'undefined'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

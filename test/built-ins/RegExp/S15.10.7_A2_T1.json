@@ -36,7 +36,9 @@
                     "start": 317,
                     "end": 360,
                     "value": "#1.1: new /z/() throw TypeError. Actual: ",
-                    "raw": "'#1.1: new /z/() throw TypeError. Actual: '"
+                    "raw": "'#1.1: new /z/() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -56,7 +58,8 @@
                         "regex": {
                           "pattern": "z",
                           "flags": ""
-                        }
+                        },
+                        "bigint": null
                       },
                       "arguments": []
                     }
@@ -133,14 +136,18 @@
                     "start": 443,
                     "end": 447,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 453,
                     "end": 527,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

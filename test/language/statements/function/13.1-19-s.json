@@ -71,7 +71,9 @@
                         "start": 625,
                         "end": 676,
                         "value": "'use strict';function _13_1_19_fun(arguments) { }",
-                        "raw": "\"'use strict';function _13_1_19_fun(arguments) { }\""
+                        "raw": "\"'use strict';function _13_1_19_fun(arguments) { }\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

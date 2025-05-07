@@ -95,7 +95,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 31,
         "raw": "'./event'",
-        "value": "./event"
+        "value": "./event",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

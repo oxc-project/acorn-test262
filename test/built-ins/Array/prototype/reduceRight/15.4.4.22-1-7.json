@@ -23,7 +23,9 @@
             "start": 271,
             "end": 276,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
                 "start": 341,
                 "end": 345,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -193,7 +197,9 @@
                 "start": 422,
                 "end": 439,
                 "value": "hello\nworld\\!",
-                "raw": "\"hello\\nworld\\\\!\""
+                "raw": "\"hello\\nworld\\\\!\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -206,7 +212,9 @@
                 "start": 453,
                 "end": 456,
                 "value": "h",
-                "raw": "\"h\""
+                "raw": "\"h\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -216,7 +224,9 @@
             "start": 459,
             "end": 538,
             "value": "Array.prototype.reduceRight.call(\"hello\nworld\\!\", callbackfn, \"h\") !== true",
-            "raw": "'Array.prototype.reduceRight.call(\"hello\\nworld\\\\!\", callbackfn, \"h\") !== true'"
+            "raw": "'Array.prototype.reduceRight.call(\"hello\\nworld\\\\!\", callbackfn, \"h\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +258,9 @@
             "start": 558,
             "end": 577,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

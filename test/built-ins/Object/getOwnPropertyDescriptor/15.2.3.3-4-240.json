@@ -66,7 +66,9 @@
                     "start": 371,
                     "end": 387,
                     "value": "ownGetProperty",
-                    "raw": "\"ownGetProperty\""
+                    "raw": "\"ownGetProperty\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -115,7 +117,9 @@
             "start": 419,
             "end": 429,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -161,7 +165,9 @@
                   "start": 461,
                   "end": 465,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -221,7 +227,9 @@
                 "start": 519,
                 "end": 529,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -263,7 +271,9 @@
           "start": 544,
           "end": 566,
           "value": "overwriteGetProperty",
-          "raw": "\"overwriteGetProperty\""
+          "raw": "\"overwriteGetProperty\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -319,14 +329,18 @@
             "start": 596,
             "end": 618,
             "value": "overwriteGetProperty",
-            "raw": "\"overwriteGetProperty\""
+            "raw": "\"overwriteGetProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 620,
             "end": 630,
             "value": "desc.get",
-            "raw": "'desc.get'"
+            "raw": "'desc.get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

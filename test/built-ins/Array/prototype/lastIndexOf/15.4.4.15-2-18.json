@@ -34,7 +34,9 @@
                 "start": 329,
                 "end": 334,
                 "value": "012",
-                "raw": "\"012\""
+                "raw": "\"012\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
             "start": 355,
             "end": 356,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -89,7 +93,9 @@
           "start": 360,
           "end": 363,
           "value": "3",
-          "raw": "\"3\""
+          "raw": "\"3\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -182,7 +188,9 @@
                 "start": 421,
                 "end": 424,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,14 +200,18 @@
             "start": 427,
             "end": 428,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 474,
             "value": "Array.prototype.lastIndexOf.call(str, \"2\")",
-            "raw": "'Array.prototype.lastIndexOf.call(str, \"2\")'"
+            "raw": "'Array.prototype.lastIndexOf.call(str, \"2\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,7 +306,9 @@
                 "start": 532,
                 "end": 535,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,7 +324,9 @@
               "start": 539,
               "end": 540,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -318,7 +334,9 @@
             "start": 542,
             "end": 586,
             "value": "Array.prototype.lastIndexOf.call(str, \"3\")",
-            "raw": "'Array.prototype.lastIndexOf.call(str, \"3\")'"
+            "raw": "'Array.prototype.lastIndexOf.call(str, \"3\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

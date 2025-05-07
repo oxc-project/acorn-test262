@@ -73,7 +73,9 @@
                 "start": 364,
                 "end": 377,
                 "value": "constructor",
-                "raw": "\"constructor\""
+                "raw": "\"constructor\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 382,
             "end": 386,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 453,
             "value": "Date.prototype.hasOwnProperty(\"constructor\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"constructor\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"constructor\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

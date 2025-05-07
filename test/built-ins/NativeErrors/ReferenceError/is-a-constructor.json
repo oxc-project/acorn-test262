@@ -56,14 +56,18 @@
             "start": 766,
             "end": 770,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 820,
             "value": "isConstructor(ReferenceError) must return true",
-            "raw": "'isConstructor(ReferenceError) must return true'"
+            "raw": "'isConstructor(ReferenceError) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

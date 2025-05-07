@@ -83,14 +83,18 @@
                               "start": 527,
                               "end": 535,
                               "value": 7248,
-                              "raw": "0x001C50"
+                              "raw": "0x001C50",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 537,
                               "end": 545,
                               "value": 7295,
-                              "raw": "0x001C7F"
+                              "raw": "0x001C7F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Ol_Chiki}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 623,
             "end": 645,
             "value": "\\p{Script=Ol_Chiki}",
-            "raw": "\"\\\\p{Script=Ol_Chiki}\""
+            "raw": "\"\\\\p{Script=Ol_Chiki}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Olck}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 713,
             "end": 731,
             "value": "\\p{Script=Olck}",
-            "raw": "\"\\\\p{Script=Olck}\""
+            "raw": "\"\\\\p{Script=Olck}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Ol_Chiki}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 799,
             "end": 817,
             "value": "\\p{sc=Ol_Chiki}",
-            "raw": "\"\\\\p{sc=Ol_Chiki}\""
+            "raw": "\"\\\\p{sc=Ol_Chiki}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Olck}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 881,
             "end": 895,
             "value": "\\p{sc=Olck}",
-            "raw": "\"\\\\p{sc=Olck}\""
+            "raw": "\"\\\\p{sc=Olck}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 977,
                               "end": 985,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 987,
                               "end": 995,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 1003,
                               "end": 1011,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1013,
                               "end": 1021,
                               "value": 7247,
-                              "raw": "0x001C4F"
+                              "raw": "0x001C4F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1029,
                               "end": 1037,
                               "value": 7296,
-                              "raw": "0x001C80"
+                              "raw": "0x001C80",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1039,
                               "end": 1047,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1055,
                               "end": 1063,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1065,
                               "end": 1073,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Ol_Chiki}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1154,
             "end": 1176,
             "value": "\\P{Script=Ol_Chiki}",
-            "raw": "\"\\\\P{Script=Ol_Chiki}\""
+            "raw": "\"\\\\P{Script=Ol_Chiki}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Olck}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1247,
             "end": 1265,
             "value": "\\P{Script=Olck}",
-            "raw": "\"\\\\P{Script=Olck}\""
+            "raw": "\"\\\\P{Script=Olck}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Ol_Chiki}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1336,
             "end": 1354,
             "value": "\\P{sc=Ol_Chiki}",
-            "raw": "\"\\\\P{sc=Ol_Chiki}\""
+            "raw": "\"\\\\P{sc=Ol_Chiki}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Olck}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1421,
             "end": 1435,
             "value": "\\P{sc=Olck}",
-            "raw": "\"\\\\P{sc=Olck}\""
+            "raw": "\"\\\\P{sc=Olck}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -43,7 +43,9 @@
         "start": 647,
         "end": 676,
         "value": "./json-invalid_FIXTURE.json",
-        "raw": "'./json-invalid_FIXTURE.json'"
+        "raw": "'./json-invalid_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -61,7 +63,9 @@
             "start": 690,
             "end": 696,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]

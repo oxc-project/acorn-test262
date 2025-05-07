@@ -78,7 +78,9 @@
                     "start": 321,
                     "end": 322,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init"
@@ -167,7 +169,9 @@
             "start": 396,
             "end": 407,
             "value": "UNDEFINED",
-            "raw": "\"UNDEFINED\""
+            "raw": "\"UNDEFINED\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -250,7 +254,9 @@
                     "start": 572,
                     "end": 749,
                     "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.length === __expected.length. Actual: ",
-                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.length === __expected.length. Actual: '"
+                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.length === __expected.length. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -357,7 +363,9 @@
                     "start": 1018,
                     "end": 1193,
                     "value": "#2: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.index === __expected.index. Actual: ",
-                    "raw": "'#2: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.index === __expected.index. Actual: '"
+                    "raw": "'#2: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.index === __expected.index. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -464,7 +472,9 @@
                     "start": 1461,
                     "end": 1636,
                     "value": "#3: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.input === __expected.input. Actual: ",
-                    "raw": "'#3: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.input === __expected.input. Actual: '"
+                    "raw": "'#3: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.input === __expected.input. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -518,7 +528,9 @@
               "start": 1850,
               "end": 1851,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -674,7 +686,9 @@
                                       "start": 1968,
                                       "end": 1973,
                                       "value": "#4.",
-                                      "raw": "'#4.'"
+                                      "raw": "'#4.'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -690,7 +704,9 @@
                                     "start": 1984,
                                     "end": 2121,
                                     "value": ": __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase[",
-                                    "raw": "': __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase['"
+                                    "raw": "': __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase['",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -707,7 +723,9 @@
                                 "start": 2132,
                                 "end": 2138,
                                 "value": "]===",
-                                "raw": "']==='"
+                                "raw": "']==='",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -737,7 +755,9 @@
                             "start": 2161,
                             "end": 2173,
                             "value": ". Actual: ",
-                            "raw": "'. Actual: '"
+                            "raw": "'. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

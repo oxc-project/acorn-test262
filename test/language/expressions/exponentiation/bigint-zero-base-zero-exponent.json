@@ -41,6 +41,7 @@
               "end": 706,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             },
             "operator": "**",
@@ -50,6 +51,7 @@
               "end": 712,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -59,6 +61,7 @@
             "end": 716,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -66,7 +69,9 @@
             "start": 718,
             "end": 750,
             "value": "The result of (0n ** 0n) is 1n",
-            "raw": "'The result of (0n ** 0n) is 1n'"
+            "raw": "'The result of (0n ** 0n) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

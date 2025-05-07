@@ -23,7 +23,9 @@
             "start": 296,
             "end": 301,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 349,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -108,7 +111,9 @@
             "start": 385,
             "end": 417,
             "value": "2016-12-31T23:59:60+00:00[UTC]",
-            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -165,7 +170,9 @@
                   "start": 617,
                   "end": 621,
                   "value": 2020,
-                  "raw": "2020"
+                  "raw": "2020",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -187,7 +194,9 @@
                   "start": 630,
                   "end": 631,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -209,7 +218,9 @@
                   "start": 638,
                   "end": 639,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -260,7 +271,9 @@
           "start": 666,
           "end": 714,
           "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
-          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\""
+          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -354,7 +367,9 @@
                         "start": 771,
                         "end": 775,
                         "value": 2020,
-                        "raw": "2020"
+                        "raw": "2020",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -376,7 +391,9 @@
                         "start": 784,
                         "end": 785,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -398,7 +415,9 @@
                         "start": 792,
                         "end": 793,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -434,7 +453,9 @@
             "start": 808,
             "end": 849,
             "value": "leap second in time zone name not valid",
-            "raw": "\"leap second in time zone name not valid\""
+            "raw": "\"leap second in time zone name not valid\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

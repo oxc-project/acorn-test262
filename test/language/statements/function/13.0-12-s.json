@@ -34,14 +34,18 @@
                 "start": 520,
                 "end": 523,
                 "value": " ",
-                "raw": "\" \""
+                "raw": "\" \"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 524,
                 "end": 536,
                 "value": "eval = 42;",
-                "raw": "\"eval = 42;\""
+                "raw": "\"eval = 42;\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -41,7 +41,9 @@
                   "start": 273,
                   "end": 290,
                   "value": "ownDataProperty",
-                  "raw": "\"ownDataProperty\""
+                  "raw": "\"ownDataProperty\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -101,7 +103,9 @@
                 "start": 343,
                 "end": 361,
                 "value": "propertyNonExist",
-                "raw": "\"propertyNonExist\""
+                "raw": "\"propertyNonExist\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,14 +160,18 @@
             "start": 395,
             "end": 406,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 421,
             "value": "typeof desc",
-            "raw": "'typeof desc'"
+            "raw": "'typeof desc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -296,7 +296,9 @@ __ESTREE_TEST__:PASS:
                               "start": 204,
                               "end": 209,
                               "raw": "'red'",
-                              "value": "red"
+                              "value": "red",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

@@ -169,7 +169,8 @@
                         "regex": {
                           "pattern": "x",
                           "flags": ""
-                        }
+                        },
+                        "bigint": null
                       },
                       "property": {
                         "type": "MemberExpression",
@@ -199,7 +200,9 @@
                         "start": 1031,
                         "end": 1036,
                         "value": "[x]",
-                        "raw": "'[x]'"
+                        "raw": "'[x]'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

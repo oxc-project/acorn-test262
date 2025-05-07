@@ -54,14 +54,18 @@
               "start": 407,
               "end": 413,
               "value": "name",
-              "raw": "\"name\""
+              "raw": "\"name\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 414,
               "end": 431,
               "value": "this.name=name;",
-              "raw": "\"this.name=name;\""
+              "raw": "\"this.name=name;\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -95,7 +99,9 @@
                 "start": 455,
                 "end": 456,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "instanceof",
@@ -113,7 +119,9 @@
           "start": 480,
           "end": 485,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -141,7 +149,9 @@
                   "start": 514,
                   "end": 681,
                   "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false",
-                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'"
+                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

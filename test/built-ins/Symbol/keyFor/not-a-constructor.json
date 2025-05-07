@@ -69,14 +69,18 @@
             "start": 740,
             "end": 745,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 795,
             "value": "isConstructor(Symbol.keyFor) must return false",
-            "raw": "'isConstructor(Symbol.keyFor) must return false'"
+            "raw": "'isConstructor(Symbol.keyFor) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

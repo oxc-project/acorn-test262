@@ -59,7 +59,9 @@
                           "start": 311,
                           "end": 312,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -93,7 +95,9 @@
             "start": 332,
             "end": 338,
             "value": "lego",
-            "raw": "\"lego\""
+            "raw": "\"lego\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -146,7 +150,9 @@
           "start": 458,
           "end": 461,
           "value": "e",
-          "raw": "\"e\""
+          "raw": "\"e\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +184,9 @@
                     "start": 490,
                     "end": 599,
                     "value": "#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charAt(__obj) === \"e\". Actual: ",
-                    "raw": "'#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charAt(__obj) === \"e\". Actual: '"
+                    "raw": "'#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charAt(__obj) === \"e\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

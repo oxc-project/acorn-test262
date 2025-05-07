@@ -23,7 +23,9 @@
             "start": 289,
             "end": 292,
             "value": 1.1,
-            "raw": "1.1"
+            "raw": "1.1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -71,7 +73,9 @@
             "start": 310,
             "end": 313,
             "value": 1.1,
-            "raw": "1.1"
+            "raw": "1.1",
+            "regex": null,
+            "bigint": null
           },
           "operator": "-",
           "right": {
@@ -79,7 +83,9 @@
             "start": 316,
             "end": 317,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -112,7 +118,9 @@
                     "start": 346,
                     "end": 393,
                     "value": "#1: var x = 1.1; x--; x === 1.1 - 1. Actual: ",
-                    "raw": "'#1: var x = 1.1; x--; x === 1.1 - 1. Actual: '"
+                    "raw": "'#1: var x = 1.1; x--; x === 1.1 - 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -171,7 +179,9 @@
                   "start": 435,
                   "end": 438,
                   "value": 0.1,
-                  "raw": "0.1"
+                  "raw": "0.1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -228,7 +238,9 @@
               "start": 459,
               "end": 462,
               "value": 0.1,
-              "raw": "0.1"
+              "raw": "0.1",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "-",
@@ -237,7 +249,9 @@
             "start": 465,
             "end": 466,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -270,7 +284,9 @@
                     "start": 495,
                     "end": 556,
                     "value": "#2: var x = new Number(-0.1); x--; x === -0.1 - 1. Actual: ",
-                    "raw": "'#2: var x = new Number(-0.1); x--; x === -0.1 - 1. Actual: '"
+                    "raw": "'#2: var x = new Number(-0.1); x--; x === -0.1 - 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

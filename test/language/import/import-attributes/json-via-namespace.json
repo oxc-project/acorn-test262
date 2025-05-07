@@ -25,7 +25,9 @@
         "start": 318,
         "end": 353,
         "value": "./json-via-namespace_FIXTURE.json",
-        "raw": "'./json-via-namespace_FIXTURE.json'"
+        "raw": "'./json-via-namespace_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -43,7 +45,9 @@
             "start": 367,
             "end": 373,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -127,7 +131,9 @@
             "start": 434,
             "end": 435,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +191,9 @@
             "start": 467,
             "end": 470,
             "value": 262,
-            "raw": "262"
+            "raw": "262",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

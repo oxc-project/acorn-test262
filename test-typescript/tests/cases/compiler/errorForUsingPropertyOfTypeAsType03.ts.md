@@ -253,7 +253,9 @@ __ESTREE_TEST__:PASS:
                           "start": 187,
                           "end": 197,
                           "raw": "\"toString\"",
-                          "value": "toString"
+                          "value": "toString",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -328,7 +330,9 @@ __ESTREE_TEST__:PASS:
                           "start": 225,
                           "end": 235,
                           "raw": "\"toString\"",
-                          "value": "toString"
+                          "value": "toString",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -344,7 +348,9 @@ __ESTREE_TEST__:PASS:
                             "start": 218,
                             "end": 223,
                             "raw": "\"Red\"",
-                            "value": "Red"
+                            "value": "Red",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {
@@ -406,7 +412,9 @@ __ESTREE_TEST__:PASS:
                           "start": 362,
                           "end": 372,
                           "raw": "\"toString\"",
-                          "value": "toString"
+                          "value": "toString",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -422,7 +430,9 @@ __ESTREE_TEST__:PASS:
                             "start": 355,
                             "end": 360,
                             "raw": "\"Red\"",
-                            "value": "Red"
+                            "value": "Red",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {
@@ -556,7 +566,9 @@ __ESTREE_TEST__:PASS:
                           "start": 424,
                           "end": 434,
                           "raw": "\"toString\"",
-                          "value": "toString"
+                          "value": "toString",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -631,7 +643,9 @@ __ESTREE_TEST__:PASS:
                           "start": 459,
                           "end": 469,
                           "raw": "\"toString\"",
-                          "value": "toString"
+                          "value": "toString",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -647,7 +661,9 @@ __ESTREE_TEST__:PASS:
                             "start": 452,
                             "end": 457,
                             "raw": "\"Red\"",
-                            "value": "Red"
+                            "value": "Red",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {
@@ -781,7 +797,9 @@ __ESTREE_TEST__:PASS:
                           "start": 521,
                           "end": 531,
                           "raw": "\"toString\"",
-                          "value": "toString"
+                          "value": "toString",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -856,7 +874,9 @@ __ESTREE_TEST__:PASS:
                           "start": 556,
                           "end": 566,
                           "raw": "\"toString\"",
-                          "value": "toString"
+                          "value": "toString",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -872,7 +892,9 @@ __ESTREE_TEST__:PASS:
                             "start": 549,
                             "end": 554,
                             "raw": "\"Red\"",
-                            "value": "Red"
+                            "value": "Red",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {

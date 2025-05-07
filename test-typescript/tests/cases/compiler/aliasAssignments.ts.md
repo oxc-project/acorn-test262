@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 25,
           "end": 53,
           "raw": "\"./aliasAssignments_moduleA\"",
-          "value": "./aliasAssignments_moduleA"
+          "value": "./aliasAssignments_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -172,7 +174,9 @@ __ESTREE_TEST__:PASS:
           "start": 77,
           "end": 78,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -200,7 +204,9 @@ __ESTREE_TEST__:PASS:
             "start": 107,
             "end": 108,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

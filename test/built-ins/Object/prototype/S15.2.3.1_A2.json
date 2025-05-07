@@ -53,7 +53,9 @@
                   "start": 337,
                   "end": 348,
                   "value": "prototype",
-                  "raw": "'prototype'"
+                  "raw": "'prototype'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -64,7 +66,9 @@
             "start": 353,
             "end": 432,
             "value": "The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true",
-            "raw": "'The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true'"
+            "raw": "'The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -90,7 +94,9 @@
             "start": 448,
             "end": 449,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -151,7 +157,9 @@
                 "start": 488,
                 "end": 499,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -223,14 +231,18 @@
             "start": 545,
             "end": 546,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 587,
             "value": "The value of cout is expected to be 0",
-            "raw": "'The value of cout is expected to be 0'"
+            "raw": "'The value of cout is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "[\\d][\\12-\\14]{1,}[^\\d]",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 531,
                 "end": 553,
                 "value": "line1\n\n\n\n\nline2",
-                "raw": "\"line1\\n\\n\\n\\n\\nline2\""
+                "raw": "\"line1\\n\\n\\n\\n\\nline2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -86,7 +89,9 @@
                 "start": 575,
                 "end": 589,
                 "value": "1\n\n\n\n\nl",
-                "raw": "\"1\\n\\n\\n\\n\\nl\""
+                "raw": "\"1\\n\\n\\n\\n\\nl\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -127,7 +132,9 @@
           "start": 611,
           "end": 612,
           "value": 4,
-          "raw": "4"
+          "raw": "4",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -164,7 +171,9 @@
           "start": 633,
           "end": 655,
           "value": "line1\n\n\n\n\nline2",
-          "raw": "\"line1\\n\\n\\n\\n\\nline2\""
+          "raw": "\"line1\\n\\n\\n\\n\\nline2\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -239,7 +248,9 @@
             "start": 713,
             "end": 722,
             "value": ".length",
-            "raw": "'.length'"
+            "raw": "'.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,7 +327,9 @@
             "start": 778,
             "end": 786,
             "value": ".index",
-            "raw": "'.index'"
+            "raw": "'.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,7 +406,9 @@
             "start": 842,
             "end": 850,
             "value": ".input",
-            "raw": "'.input'"
+            "raw": "'.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,7 +438,9 @@
               "start": 878,
               "end": 879,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -553,7 +570,9 @@
                     "start": 976,
                     "end": 985,
                     "value": "index: ",
-                    "raw": "'index: '"
+                    "raw": "'index: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

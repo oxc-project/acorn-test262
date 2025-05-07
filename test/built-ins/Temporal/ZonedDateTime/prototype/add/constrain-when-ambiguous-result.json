@@ -48,6 +48,7 @@
                 "end": 384,
                 "value": null,
                 "raw": "1580511600000000000n",
+                "regex": null,
                 "bigint": "1580511600000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 386,
                 "end": 394,
                 "value": "-08:00",
-                "raw": "\"-08:00\""
+                "raw": "\"-08:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,6 +111,7 @@
                 "end": 500,
                 "value": null,
                 "raw": "1583017200000000000n",
+                "regex": null,
                 "bigint": "1583017200000000000"
               },
               {
@@ -115,7 +119,9 @@
                 "start": 502,
                 "end": 510,
                 "value": "-08:00",
-                "raw": "\"-08:00\""
+                "raw": "\"-08:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -198,7 +204,9 @@
                       "start": 576,
                       "end": 577,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -292,7 +300,9 @@
                       "start": 660,
                       "end": 661,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -321,7 +331,9 @@
                       "start": 677,
                       "end": 688,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 18,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -61,7 +63,9 @@ __ESTREE_TEST__:PASS:
               "start": 34,
               "end": 37,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,

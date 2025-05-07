@@ -174,7 +174,9 @@
               "start": 464,
               "end": 556,
               "value": "Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got ",
-              "raw": "\"Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got \""
+              "raw": "\"Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -241,7 +243,9 @@
             "start": 611,
             "end": 671,
             "value": "Object constructed by Intl.PluralRules must be extensible.",
-            "raw": "\"Object constructed by Intl.PluralRules must be extensible.\""
+            "raw": "\"Object constructed by Intl.PluralRules must be extensible.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

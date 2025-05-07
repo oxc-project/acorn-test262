@@ -65,7 +65,9 @@
                         "start": 419,
                         "end": 439,
                         "value": "de-DE-u-ca-gregory",
-                        "raw": "\"de-DE-u-ca-gregory\""
+                        "raw": "\"de-DE-u-ca-gregory\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -139,7 +141,9 @@
                         "start": 518,
                         "end": 538,
                         "value": "de-DE-u-ca-gregory",
-                        "raw": "\"de-DE-u-ca-gregory\""
+                        "raw": "\"de-DE-u-ca-gregory\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -164,7 +168,9 @@
                               "start": 551,
                               "end": 556,
                               "value": "UTC",
-                              "raw": "\"UTC\""
+                              "raw": "\"UTC\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

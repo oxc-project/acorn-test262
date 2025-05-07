@@ -123,7 +123,9 @@
                   "start": 375,
                   "end": 376,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -145,7 +147,9 @@
                   "start": 390,
                   "end": 394,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -206,14 +210,18 @@
             "start": 429,
             "end": 433,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 473,
             "value": "The result of `sym in obj` is `true`",
-            "raw": "\"The result of `sym in obj` is `true`\""
+            "raw": "\"The result of `sym in obj` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,7 +277,9 @@
                   "start": 512,
                   "end": 513,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -291,7 +301,9 @@
                   "start": 531,
                   "end": 536,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -313,7 +325,9 @@
                   "start": 550,
                   "end": 554,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -335,7 +349,9 @@
                   "start": 570,
                   "end": 575,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -443,14 +459,18 @@
             "start": 658,
             "end": 663,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 739,
             "value": "`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`",
-            "raw": "\"`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`\""
+            "raw": "\"`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -489,7 +509,9 @@
           "start": 755,
           "end": 756,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -545,14 +567,18 @@
             "start": 786,
             "end": 787,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 821,
             "value": "The value of `obj[sym]` is `2`",
-            "raw": "\"The value of `obj[sym]` is `2`\""
+            "raw": "\"The value of `obj[sym]` is `2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

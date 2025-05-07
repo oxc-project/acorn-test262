@@ -72,7 +72,9 @@
                       "start": 287,
                       "end": 295,
                       "value": "callee",
-                      "raw": "\"callee\""
+                      "raw": "\"callee\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

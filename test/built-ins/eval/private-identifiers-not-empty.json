@@ -96,7 +96,9 @@
                         "start": 952,
                         "end": 958,
                         "value": "o.#f",
-                        "raw": "\"o.#f\""
+                        "raw": "\"o.#f\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -110,7 +112,9 @@
             "start": 964,
             "end": 1049,
             "value": "It should be a SyntaxError if AllPrivateIdentifiersValid returns false to eval body",
-            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to eval body'"
+            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to eval body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

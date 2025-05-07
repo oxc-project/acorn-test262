@@ -55,7 +55,9 @@
                     "start": 373,
                     "end": 374,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -77,14 +79,18 @@
             "start": 387,
             "end": 388,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 425,
             "value": "Object(0).valueOf() must return 0",
-            "raw": "'Object(0).valueOf() must return 0'"
+            "raw": "'Object(0).valueOf() must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                   "start": 459,
                   "end": 460,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -151,14 +159,18 @@
             "start": 463,
             "end": 471,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 533,
             "value": "The value of `typeof Object(0)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(0)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(0)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +228,9 @@
                     "start": 564,
                     "end": 565,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -263,7 +277,9 @@
             "start": 612,
             "end": 709,
             "value": "The value of Object(0).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(0).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(0).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,7 +343,9 @@
                       "start": 739,
                       "end": 740,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -356,7 +374,9 @@
               "start": 754,
               "end": 755,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -364,7 +384,9 @@
             "start": 757,
             "end": 794,
             "value": "Object(-0).valueOf() must return -0",
-            "raw": "'Object(-0).valueOf() must return -0'"
+            "raw": "'Object(-0).valueOf() must return -0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -426,7 +448,9 @@
                     "start": 829,
                     "end": 830,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -438,14 +462,18 @@
             "start": 833,
             "end": 841,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 904,
             "value": "The value of `typeof Object(-0)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(-0)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(-0)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -509,7 +537,9 @@
                       "start": 936,
                       "end": 937,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -557,7 +587,9 @@
             "start": 984,
             "end": 1082,
             "value": "The value of Object(-0).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(-0).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(-0).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,7 +647,9 @@
                     "start": 1111,
                     "end": 1112,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -637,14 +671,18 @@
             "start": 1125,
             "end": 1126,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1128,
             "end": 1163,
             "value": "Object(1).valueOf() must return 1",
-            "raw": "'Object(1).valueOf() must return 1'"
+            "raw": "'Object(1).valueOf() must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -700,7 +738,9 @@
                   "start": 1197,
                   "end": 1198,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -711,14 +751,18 @@
             "start": 1201,
             "end": 1209,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1211,
             "end": 1271,
             "value": "The value of `typeof Object(1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -776,7 +820,9 @@
                     "start": 1302,
                     "end": 1303,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -823,7 +869,9 @@
             "start": 1350,
             "end": 1447,
             "value": "The value of Object(1).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(1).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(1).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -887,7 +935,9 @@
                       "start": 1477,
                       "end": 1478,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -916,7 +966,9 @@
               "start": 1492,
               "end": 1493,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -924,7 +976,9 @@
             "start": 1495,
             "end": 1532,
             "value": "Object(-1).valueOf() must return -1",
-            "raw": "'Object(-1).valueOf() must return -1'"
+            "raw": "'Object(-1).valueOf() must return -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -986,7 +1040,9 @@
                     "start": 1567,
                     "end": 1568,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -998,14 +1054,18 @@
             "start": 1571,
             "end": 1579,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1581,
             "end": 1642,
             "value": "The value of `typeof Object(-1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(-1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(-1)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1069,7 +1129,9 @@
                       "start": 1674,
                       "end": 1675,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -1117,7 +1179,9 @@
             "start": 1722,
             "end": 1820,
             "value": "The value of Object(-1).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(-1).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(-1).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1228,7 +1292,9 @@
             "start": 1903,
             "end": 1964,
             "value": "Object(Number.MIN_VALUE).valueOf() returns Number.MIN_VALUE",
-            "raw": "'Object(Number.MIN_VALUE).valueOf() returns Number.MIN_VALUE'"
+            "raw": "'Object(Number.MIN_VALUE).valueOf() returns Number.MIN_VALUE'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1307,14 +1373,18 @@
             "start": 2024,
             "end": 2032,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2036,
             "end": 2111,
             "value": "The value of `typeof Object(Number.MIN_VALUE)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(Number.MIN_VALUE)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(Number.MIN_VALUE)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1431,7 +1501,9 @@
             "start": 2206,
             "end": 2318,
             "value": "The value of Object(Number.MIN_VALUE).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(Number.MIN_VALUE).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(Number.MIN_VALUE).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1542,7 +1614,9 @@
             "start": 2401,
             "end": 2462,
             "value": "Object(Number.MAX_VALUE).valueOf() returns Number.MAX_VALUE",
-            "raw": "'Object(Number.MAX_VALUE).valueOf() returns Number.MAX_VALUE'"
+            "raw": "'Object(Number.MAX_VALUE).valueOf() returns Number.MAX_VALUE'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1621,14 +1695,18 @@
             "start": 2522,
             "end": 2530,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2534,
             "end": 2609,
             "value": "The value of `typeof Object(Number.MAX_VALUE)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(Number.MAX_VALUE)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(Number.MAX_VALUE)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1745,7 +1823,9 @@
             "start": 2704,
             "end": 2816,
             "value": "The value of Object(Number.MAX_VALUE).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(Number.MAX_VALUE).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(Number.MAX_VALUE).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1856,7 +1936,9 @@
             "start": 2915,
             "end": 2992,
             "value": "Object(Number.POSITIVE_INFINITY).valueOf() returns Number.POSITIVE_INFINITY",
-            "raw": "'Object(Number.POSITIVE_INFINITY).valueOf() returns Number.POSITIVE_INFINITY'"
+            "raw": "'Object(Number.POSITIVE_INFINITY).valueOf() returns Number.POSITIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1935,14 +2017,18 @@
             "start": 3060,
             "end": 3068,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3072,
             "end": 3155,
             "value": "The value of `typeof Object(Number.POSITIVE_INFINITY)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(Number.POSITIVE_INFINITY)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(Number.POSITIVE_INFINITY)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2059,7 +2145,9 @@
             "start": 3258,
             "end": 3378,
             "value": "The value of Object(Number.POSITIVE_INFINITY).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(Number.POSITIVE_INFINITY).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(Number.POSITIVE_INFINITY).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2170,7 +2258,9 @@
             "start": 3477,
             "end": 3554,
             "value": "Object(Number.NEGATIVE_INFINITY).valueOf() returns Number.NEGATIVE_INFINITY",
-            "raw": "'Object(Number.NEGATIVE_INFINITY).valueOf() returns Number.NEGATIVE_INFINITY'"
+            "raw": "'Object(Number.NEGATIVE_INFINITY).valueOf() returns Number.NEGATIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2249,14 +2339,18 @@
             "start": 3622,
             "end": 3630,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3634,
             "end": 3717,
             "value": "The value of `typeof Object(Number.NEGATIVE_INFINITY)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(Number.NEGATIVE_INFINITY)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(Number.NEGATIVE_INFINITY)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2373,7 +2467,9 @@
             "start": 3820,
             "end": 3940,
             "value": "The value of Object(Number.NEGATIVE_INFINITY).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(Number.NEGATIVE_INFINITY).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(Number.NEGATIVE_INFINITY).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2458,7 +2554,9 @@
             "start": 3990,
             "end": 4025,
             "value": "Object(NaN).valueOf() returns NaN",
-            "raw": "'Object(NaN).valueOf() returns NaN'"
+            "raw": "'Object(NaN).valueOf() returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2537,14 +2635,18 @@
             "start": 4078,
             "end": 4086,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4090,
             "end": 4159,
             "value": "The value of `typeof Object(Number.NaN)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(Number.NaN)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(Number.NaN)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2661,7 +2763,9 @@
             "start": 4248,
             "end": 4354,
             "value": "The value of Object(Number.NaN).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(Number.NaN).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(Number.NaN).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2719,7 +2823,9 @@
                     "start": 4383,
                     "end": 4389,
                     "value": 1.2345,
-                    "raw": "1.2345"
+                    "raw": "1.2345",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2741,14 +2847,18 @@
             "start": 4402,
             "end": 4408,
             "value": 1.2345,
-            "raw": "1.2345"
+            "raw": "1.2345",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4410,
             "end": 4455,
             "value": "Object(1.2345).valueOf() must return 1.2345",
-            "raw": "'Object(1.2345).valueOf() must return 1.2345'"
+            "raw": "'Object(1.2345).valueOf() must return 1.2345'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2804,7 +2914,9 @@
                   "start": 4489,
                   "end": 4495,
                   "value": 1.2345,
-                  "raw": "1.2345"
+                  "raw": "1.2345",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -2815,14 +2927,18 @@
             "start": 4498,
             "end": 4506,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4508,
             "end": 4573,
             "value": "The value of `typeof Object(1.2345)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(1.2345)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(1.2345)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2880,7 +2996,9 @@
                     "start": 4604,
                     "end": 4610,
                     "value": 1.2345,
-                    "raw": "1.2345"
+                    "raw": "1.2345",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2927,7 +3045,9 @@
             "start": 4657,
             "end": 4759,
             "value": "The value of Object(1.2345).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(1.2345).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(1.2345).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2991,7 +3111,9 @@
                       "start": 4789,
                       "end": 4795,
                       "value": 1.2345,
-                      "raw": "1.2345"
+                      "raw": "1.2345",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -3020,7 +3142,9 @@
               "start": 4809,
               "end": 4815,
               "value": 1.2345,
-              "raw": "1.2345"
+              "raw": "1.2345",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -3028,7 +3152,9 @@
             "start": 4817,
             "end": 4864,
             "value": "Object(-1.2345).valueOf() must return -1.2345",
-            "raw": "'Object(-1.2345).valueOf() must return -1.2345'"
+            "raw": "'Object(-1.2345).valueOf() must return -1.2345'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3090,7 +3216,9 @@
                     "start": 4899,
                     "end": 4905,
                     "value": 1.2345,
-                    "raw": "1.2345"
+                    "raw": "1.2345",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -3102,14 +3230,18 @@
             "start": 4908,
             "end": 4916,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4918,
             "end": 4984,
             "value": "The value of `typeof Object(-1.2345)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(-1.2345)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(-1.2345)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3173,7 +3305,9 @@
                       "start": 5016,
                       "end": 5022,
                       "value": 1.2345,
-                      "raw": "1.2345"
+                      "raw": "1.2345",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -3221,7 +3355,9 @@
             "start": 5069,
             "end": 5172,
             "value": "The value of Object(-1.2345).constructor.prototype is expected to equal the value of Number.prototype",
-            "raw": "'The value of Object(-1.2345).constructor.prototype is expected to equal the value of Number.prototype'"
+            "raw": "'The value of Object(-1.2345).constructor.prototype is expected to equal the value of Number.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

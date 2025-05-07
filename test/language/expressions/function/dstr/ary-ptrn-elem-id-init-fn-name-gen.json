@@ -23,7 +23,9 @@
             "start": 1852,
             "end": 1853,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -197,7 +199,9 @@
                       "start": 1956,
                       "end": 1961,
                       "value": "gen",
-                      "raw": "'gen'"
+                      "raw": "'gen'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -255,7 +259,9 @@
                       "start": 1997,
                       "end": 2003,
                       "value": "xGen",
-                      "raw": "'xGen'"
+                      "raw": "'xGen'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -292,7 +298,9 @@
                       "start": 2032,
                       "end": 2033,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -366,14 +374,18 @@
             "start": 2074,
             "end": 2075,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2077,
             "end": 2108,
             "value": "function invoked exactly once",
-            "raw": "'function invoked exactly once'"
+            "raw": "'function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

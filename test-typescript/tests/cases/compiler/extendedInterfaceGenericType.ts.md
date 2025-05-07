@@ -411,7 +411,9 @@ __ESTREE_TEST__:PASS:
             "start": 232,
             "end": 233,
             "raw": "5",
-            "value": 5
+            "value": 5,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

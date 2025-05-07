@@ -72,7 +72,9 @@
               "start": 519,
               "end": 520,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false

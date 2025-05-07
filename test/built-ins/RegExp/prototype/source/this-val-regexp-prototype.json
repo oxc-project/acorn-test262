@@ -70,7 +70,9 @@
                   "start": 563,
                   "end": 571,
                   "value": "source",
-                  "raw": "'source'"
+                  "raw": "'source'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -167,7 +169,9 @@
             "start": 624,
             "end": 630,
             "value": "(?:)",
-            "raw": "'(?:)'"
+            "raw": "'(?:)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

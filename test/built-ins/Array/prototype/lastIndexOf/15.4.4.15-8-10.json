@@ -59,7 +59,9 @@
                 "start": 437,
                 "end": 442,
                 "value": "NaN",
-                "raw": "\"NaN\""
+                "raw": "\"NaN\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -84,21 +86,27 @@
                 "start": 466,
                 "end": 467,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 474,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 476,
                 "end": 480,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -155,7 +163,9 @@
                 "start": 531,
                 "end": 538,
                 "value": "false",
-                "raw": "\"false\""
+                "raw": "\"false\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -235,7 +245,9 @@
               "start": 580,
               "end": 581,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -243,7 +255,9 @@
             "start": 583,
             "end": 621,
             "value": "NaN matches nothing, not even itself",
-            "raw": "'NaN matches nothing, not even itself'"
+            "raw": "'NaN matches nothing, not even itself'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

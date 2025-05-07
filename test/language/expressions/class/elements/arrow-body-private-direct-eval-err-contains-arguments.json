@@ -57,7 +57,9 @@
                         "start": 1080,
                         "end": 1098,
                         "value": "() => arguments;",
-                        "raw": "'() => arguments;'"
+                        "raw": "'() => arguments;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

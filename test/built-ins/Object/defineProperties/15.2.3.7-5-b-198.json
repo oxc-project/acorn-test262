@@ -92,7 +92,9 @@
             "start": 360,
             "end": 365,
             "value": "get",
-            "raw": "\"get\""
+            "raw": "\"get\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -153,7 +155,9 @@
                                   "start": 426,
                                   "end": 453,
                                   "value": "inheritedAccessorProperty",
-                                  "raw": "\"inheritedAccessorProperty\""
+                                  "raw": "\"inheritedAccessorProperty\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -391,14 +395,18 @@
             "start": 633,
             "end": 660,
             "value": "inheritedAccessorProperty",
-            "raw": "\"inheritedAccessorProperty\""
+            "raw": "\"inheritedAccessorProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 662,
             "end": 676,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -53,126 +53,162 @@
                 "start": 388,
                 "end": 412,
                 "value": "get plainTimeLike.hour",
-                "raw": "\"get plainTimeLike.hour\""
+                "raw": "\"get plainTimeLike.hour\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 448,
                 "value": "get plainTimeLike.hour.valueOf",
-                "raw": "\"get plainTimeLike.hour.valueOf\""
+                "raw": "\"get plainTimeLike.hour.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 452,
                 "end": 485,
                 "value": "call plainTimeLike.hour.valueOf",
-                "raw": "\"call plainTimeLike.hour.valueOf\""
+                "raw": "\"call plainTimeLike.hour.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 489,
                 "end": 520,
                 "value": "get plainTimeLike.microsecond",
-                "raw": "\"get plainTimeLike.microsecond\""
+                "raw": "\"get plainTimeLike.microsecond\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 524,
                 "end": 563,
                 "value": "get plainTimeLike.microsecond.valueOf",
-                "raw": "\"get plainTimeLike.microsecond.valueOf\""
+                "raw": "\"get plainTimeLike.microsecond.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 567,
                 "end": 607,
                 "value": "call plainTimeLike.microsecond.valueOf",
-                "raw": "\"call plainTimeLike.microsecond.valueOf\""
+                "raw": "\"call plainTimeLike.microsecond.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 642,
                 "value": "get plainTimeLike.millisecond",
-                "raw": "\"get plainTimeLike.millisecond\""
+                "raw": "\"get plainTimeLike.millisecond\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 685,
                 "value": "get plainTimeLike.millisecond.valueOf",
-                "raw": "\"get plainTimeLike.millisecond.valueOf\""
+                "raw": "\"get plainTimeLike.millisecond.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 689,
                 "end": 729,
                 "value": "call plainTimeLike.millisecond.valueOf",
-                "raw": "\"call plainTimeLike.millisecond.valueOf\""
+                "raw": "\"call plainTimeLike.millisecond.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 733,
                 "end": 759,
                 "value": "get plainTimeLike.minute",
-                "raw": "\"get plainTimeLike.minute\""
+                "raw": "\"get plainTimeLike.minute\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 763,
                 "end": 797,
                 "value": "get plainTimeLike.minute.valueOf",
-                "raw": "\"get plainTimeLike.minute.valueOf\""
+                "raw": "\"get plainTimeLike.minute.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 836,
                 "value": "call plainTimeLike.minute.valueOf",
-                "raw": "\"call plainTimeLike.minute.valueOf\""
+                "raw": "\"call plainTimeLike.minute.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 840,
                 "end": 870,
                 "value": "get plainTimeLike.nanosecond",
-                "raw": "\"get plainTimeLike.nanosecond\""
+                "raw": "\"get plainTimeLike.nanosecond\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 874,
                 "end": 912,
                 "value": "get plainTimeLike.nanosecond.valueOf",
-                "raw": "\"get plainTimeLike.nanosecond.valueOf\""
+                "raw": "\"get plainTimeLike.nanosecond.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 916,
                 "end": 955,
                 "value": "call plainTimeLike.nanosecond.valueOf",
-                "raw": "\"call plainTimeLike.nanosecond.valueOf\""
+                "raw": "\"call plainTimeLike.nanosecond.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 959,
                 "end": 985,
                 "value": "get plainTimeLike.second",
-                "raw": "\"get plainTimeLike.second\""
+                "raw": "\"get plainTimeLike.second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 989,
                 "end": 1023,
                 "value": "get plainTimeLike.second.valueOf",
-                "raw": "\"get plainTimeLike.second.valueOf\""
+                "raw": "\"get plainTimeLike.second.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1027,
                 "end": 1062,
                 "value": "call plainTimeLike.second.valueOf",
-                "raw": "\"call plainTimeLike.second.valueOf\""
+                "raw": "\"call plainTimeLike.second.valueOf\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -225,6 +261,7 @@
                 "end": 1134,
                 "value": null,
                 "raw": "946713600_000_000_000n",
+                "regex": null,
                 "bigint": "946713600000000000"
               },
               {
@@ -232,7 +269,9 @@
                 "start": 1165,
                 "end": 1170,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -308,7 +347,9 @@
                       "start": 1250,
                       "end": 1251,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -330,7 +371,9 @@
                       "start": 1263,
                       "end": 1265,
                       "value": 30,
-                      "raw": "30"
+                      "raw": "30",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -352,7 +395,9 @@
                       "start": 1277,
                       "end": 1278,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -374,7 +419,9 @@
                       "start": 1295,
                       "end": 1296,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -396,7 +443,9 @@
                       "start": 1313,
                       "end": 1314,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -418,7 +467,9 @@
                       "start": 1330,
                       "end": 1331,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -429,7 +480,9 @@
                 "start": 1336,
                 "end": 1351,
                 "value": "plainTimeLike",
-                "raw": "\"plainTimeLike\""
+                "raw": "\"plainTimeLike\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -521,7 +574,9 @@
             "start": 1432,
             "end": 1453,
             "value": "order of operations",
-            "raw": "\"order of operations\""
+            "raw": "\"order of operations\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -560,7 +615,9 @@
             "start": 1470,
             "end": 1471,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

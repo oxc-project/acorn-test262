@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 29,
           "raw": "\"./j.json\"",
-          "value": "./j.json"
+          "value": "./j.json",
+          "regex": null,
+          "bigint": null
         }
       }
     }

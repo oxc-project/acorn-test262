@@ -44,7 +44,9 @@
                 "start": 303,
                 "end": 308,
                 "value": "xab",
-                "raw": "\"xab\""
+                "raw": "\"xab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -65,7 +67,8 @@
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -75,7 +78,9 @@
             "start": 336,
             "end": 337,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -122,7 +127,9 @@
                 "start": 357,
                 "end": 362,
                 "value": "xba",
-                "raw": "\"xba\""
+                "raw": "\"xba\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -143,7 +150,8 @@
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -153,7 +161,9 @@
             "start": 390,
             "end": 391,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

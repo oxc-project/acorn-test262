@@ -113,7 +113,9 @@
             "start": 423,
             "end": 450,
             "value": "return default prototypes",
-            "raw": "'return default prototypes'"
+            "raw": "'return default prototypes'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

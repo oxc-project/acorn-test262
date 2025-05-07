@@ -55,7 +55,9 @@
                     "start": 375,
                     "end": 379,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -77,14 +79,18 @@
             "start": 392,
             "end": 396,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 439,
             "value": "Object(true).valueOf() must return true",
-            "raw": "'Object(true).valueOf() must return true'"
+            "raw": "'Object(true).valueOf() must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                   "start": 473,
                   "end": 477,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -151,14 +159,18 @@
             "start": 480,
             "end": 488,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 553,
             "value": "The value of `typeof Object(true)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(true)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(true)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +228,9 @@
                     "start": 584,
                     "end": 588,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -263,7 +277,9 @@
             "start": 636,
             "end": 737,
             "value": "The value of Object(true).constructor.prototype is expected to equal the value of Boolean.prototype",
-            "raw": "'The value of Object(true).constructor.prototype is expected to equal the value of Boolean.prototype'"
+            "raw": "'The value of Object(true).constructor.prototype is expected to equal the value of Boolean.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,7 +337,9 @@
                     "start": 766,
                     "end": 771,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -343,14 +361,18 @@
             "start": 784,
             "end": 789,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 834,
             "value": "Object(false).valueOf() must return false",
-            "raw": "'Object(false).valueOf() must return false'"
+            "raw": "'Object(false).valueOf() must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -406,7 +428,9 @@
                   "start": 868,
                   "end": 873,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -417,14 +441,18 @@
             "start": 876,
             "end": 884,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 886,
             "end": 950,
             "value": "The value of `typeof Object(false)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(false)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Object(false)` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +510,9 @@
                     "start": 981,
                     "end": 986,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -529,7 +559,9 @@
             "start": 1034,
             "end": 1136,
             "value": "The value of Object(false).constructor.prototype is expected to equal the value of Boolean.prototype",
-            "raw": "'The value of Object(false).constructor.prototype is expected to equal the value of Boolean.prototype'"
+            "raw": "'The value of Object(false).constructor.prototype is expected to equal the value of Boolean.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

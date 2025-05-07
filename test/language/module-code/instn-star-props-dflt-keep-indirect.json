@@ -25,7 +25,9 @@
         "start": 1064,
         "end": 1123,
         "value": "./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js'"
+        "raw": "'./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -66,7 +68,9 @@
               "start": 1143,
               "end": 1152,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -81,7 +85,9 @@
             "start": 1160,
             "end": 1164,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

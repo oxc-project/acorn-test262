@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "[]",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 460,
                 "end": 474,
                 "value": "a[b\n[]\tc]d",
-                "raw": "\"a[b\\n[]\\tc]d\""
+                "raw": "\"a[b\\n[]\\tc]d\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -100,14 +103,18 @@
             "start": 507,
             "end": 511,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 513,
             "end": 561,
             "value": "The value of __executed is expected to be null",
-            "raw": "'The value of __executed is expected to be null'"
+            "raw": "'The value of __executed is expected to be null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

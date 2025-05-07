@@ -110,7 +110,9 @@
                         "start": 411,
                         "end": 415,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -124,7 +126,9 @@
             "start": 421,
             "end": 487,
             "value": "Object.prototype.valueOf.call(null) throws a TypeError exception",
-            "raw": "'Object.prototype.valueOf.call(null) throws a TypeError exception'"
+            "raw": "'Object.prototype.valueOf.call(null) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

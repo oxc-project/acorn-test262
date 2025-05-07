@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
               "start": 16,
               "end": 17,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "optional": false,

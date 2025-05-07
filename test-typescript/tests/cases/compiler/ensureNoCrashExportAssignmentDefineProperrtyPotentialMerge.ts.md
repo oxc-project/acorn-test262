@@ -232,7 +232,9 @@ __ESTREE_TEST__:PASS:
               "start": 28,
               "end": 42,
               "raw": "\"./namespacey\"",
-              "value": "./namespacey"
+              "value": "./namespacey",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {
@@ -273,7 +275,9 @@ __ESTREE_TEST__:PASS:
             "start": 70,
             "end": 74,
             "raw": "\"NS\"",
-            "value": "NS"
+            "value": "NS",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -303,7 +307,9 @@ __ESTREE_TEST__:PASS:
                   "start": 85,
                   "end": 97,
                   "raw": "\"why though\"",
-                  "value": "why though"
+                  "value": "why though",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -329,7 +335,9 @@ __ESTREE_TEST__:PASS:
                   "start": 109,
                   "end": 113,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -451,7 +459,9 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 36,
                 "raw": "\"./namespacer\"",
-                "value": "./namespacer"
+                "value": "./namespacer",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -511,7 +521,9 @@ __ESTREE_TEST__:PASS:
           "start": 56,
           "end": 58,
           "raw": "12",
-          "value": 12
+          "value": 12,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -539,7 +551,9 @@ __ESTREE_TEST__:PASS:
             "start": 90,
             "end": 99,
             "raw": "\"exports\"",
-            "value": "exports"
+            "value": "exports",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -569,7 +583,9 @@ __ESTREE_TEST__:PASS:
                   "start": 110,
                   "end": 117,
                   "raw": "\"oh no\"",
-                  "value": "oh no"
+                  "value": "oh no",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

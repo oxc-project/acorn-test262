@@ -23,7 +23,9 @@
             "start": 728,
             "end": 729,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 749,
             "end": 750,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +126,9 @@
                             "start": 803,
                             "end": 804,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -178,7 +184,9 @@
                             "start": 855,
                             "end": 856,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -191,7 +199,9 @@
                           "start": 869,
                           "end": 887,
                           "value": "toString test262",
-                          "raw": "'toString test262'"
+                          "raw": "'toString test262'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -307,7 +317,9 @@
                 "start": 962,
                 "end": 970,
                 "value": "string",
-                "raw": "'string'"
+                "raw": "'string'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -317,7 +329,9 @@
             "start": 975,
             "end": 993,
             "value": "toString test262",
-            "raw": "'toString test262'"
+            "raw": "'toString test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -362,14 +376,18 @@
             "start": 1029,
             "end": 1030,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1032,
             "end": 1069,
             "value": "`valueOf` method was not referenced",
-            "raw": "'`valueOf` method was not referenced'"
+            "raw": "'`valueOf` method was not referenced'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,14 +432,18 @@
             "start": 1102,
             "end": 1103,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1105,
             "end": 1149,
             "value": "`toString` method was invoked exactly once",
-            "raw": "'`toString` method was invoked exactly once'"
+            "raw": "'`toString` method was invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 283,
             "end": 288,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -79,7 +81,9 @@
                 "start": 329,
                 "end": 335,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -104,7 +108,9 @@
                       "start": 348,
                       "end": 349,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -152,7 +158,9 @@
                   "start": 386,
                   "end": 392,
                   "value": "prop",
-                  "raw": "\"prop\""
+                  "raw": "\"prop\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -177,7 +185,9 @@
                         "start": 407,
                         "end": 408,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -224,7 +234,9 @@
                   "start": 440,
                   "end": 444,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -296,7 +308,9 @@
                               "start": 515,
                               "end": 549,
                               "value": "Expected a Test262Error, but a \"",
-                              "raw": "'Expected a Test262Error, but a \"'"
+                              "raw": "'Expected a Test262Error, but a \"'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -338,7 +352,9 @@
                             "start": 581,
                             "end": 596,
                             "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "raw": "'\" was thrown.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -381,7 +397,9 @@
                   "start": 631,
                   "end": 687,
                   "value": "descriptor value should be 2; object value should be 2",
-                  "raw": "'descriptor value should be 2; object value should be 2'"
+                  "raw": "'descriptor value should be 2; object value should be 2'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -409,7 +427,9 @@
                           "start": 711,
                           "end": 766,
                           "value": "The error thrown did not define the specified message",
-                          "raw": "'The error thrown did not define the specified message'"
+                          "raw": "'The error thrown did not define the specified message'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -443,7 +463,9 @@
           "start": 790,
           "end": 795,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -471,7 +493,9 @@
                   "start": 817,
                   "end": 868,
                   "value": "Expected a Test262Error, but no error was thrown.",
-                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                  "raw": "'Expected a Test262Error, but no error was thrown.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

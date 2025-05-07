@@ -155,7 +155,9 @@
             "start": 646,
             "end": 674,
             "value": "[object GeneratorFunction]",
-            "raw": "'[object GeneratorFunction]'"
+            "raw": "'[object GeneratorFunction]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +261,9 @@
             "start": 734,
             "end": 754,
             "value": "[object Generator]",
-            "raw": "'[object Generator]'"
+            "raw": "'[object Generator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,7 +454,9 @@
                   "start": 917,
                   "end": 921,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -569,7 +575,9 @@
             "start": 998,
             "end": 1015,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -685,7 +693,9 @@
             "start": 1093,
             "end": 1113,
             "value": "[object Generator]",
-            "raw": "'[object Generator]'"
+            "raw": "'[object Generator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

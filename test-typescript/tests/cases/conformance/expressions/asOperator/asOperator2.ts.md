@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
               "start": 8,
               "end": 10,
               "raw": "23",
-              "value": 23
+              "value": 23,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSStringKeyword",

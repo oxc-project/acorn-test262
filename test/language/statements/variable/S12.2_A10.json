@@ -76,7 +76,9 @@
                       "start": 440,
                       "end": 475,
                       "value": "#1: var inside \"for\" is admitted ",
-                      "raw": "'#1: var inside \"for\" is admitted '"
+                      "raw": "'#1: var inside \"for\" is admitted '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {

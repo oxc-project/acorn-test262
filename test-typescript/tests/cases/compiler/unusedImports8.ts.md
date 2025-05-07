@@ -177,7 +177,9 @@ __ESTREE_TEST__:PASS:
         "start": 58,
         "end": 67,
         "raw": "\"./file1\"",
-        "value": "./file1"
+        "value": "./file1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

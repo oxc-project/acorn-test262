@@ -64,7 +64,9 @@
                   "start": 358,
                   "end": 364,
                   "value": "test",
-                  "raw": "'test'"
+                  "raw": "'test'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -96,14 +98,18 @@
             "start": 375,
             "end": 408,
             "value": "\\u0065\\`\\r\\r\\n\\ntestcheck",
-            "raw": "'\\\\u0065\\\\`\\\\r\\\\r\\\\n\\\\ntestcheck'"
+            "raw": "'\\\\u0065\\\\`\\\\r\\\\r\\\\n\\\\ntestcheck'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 438,
             "value": "Unicode escape sequences",
-            "raw": "'Unicode escape sequences'"
+            "raw": "'Unicode escape sequences'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,14 +190,18 @@
             "start": 485,
             "end": 499,
             "value": "\\\n\\\n\\\n",
-            "raw": "'\\\\\\n\\\\\\n\\\\\\n'"
+            "raw": "'\\\\\\n\\\\\\n\\\\\\n'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 523,
             "value": "Literal characters",
-            "raw": "'Literal characters'"
+            "raw": "'Literal characters'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

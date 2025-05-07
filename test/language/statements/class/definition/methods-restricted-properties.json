@@ -218,7 +218,9 @@
                 "start": 497,
                 "end": 507,
                 "value": "accessor",
-                "raw": "\"accessor\""
+                "raw": "\"accessor\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -297,7 +299,9 @@
                 "start": 562,
                 "end": 570,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -307,14 +311,18 @@
             "start": 575,
             "end": 580,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 619,
             "value": "No \"caller\" own property (method)",
-            "raw": "'No \"caller\" own property (method)'"
+            "raw": "'No \"caller\" own property (method)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +398,9 @@
                 "start": 674,
                 "end": 685,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -400,14 +410,18 @@
             "start": 690,
             "end": 695,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 699,
             "end": 737,
             "value": "No \"arguments\" own property (method)",
-            "raw": "'No \"arguments\" own property (method)'"
+            "raw": "'No \"arguments\" own property (method)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -483,7 +497,9 @@
                 "start": 789,
                 "end": 797,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -493,14 +509,18 @@
             "start": 802,
             "end": 807,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 811,
             "end": 854,
             "value": "No \"caller\" own property (\"get\" accessor)",
-            "raw": "'No \"caller\" own property (\"get\" accessor)'"
+            "raw": "'No \"caller\" own property (\"get\" accessor)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -576,7 +596,9 @@
                 "start": 906,
                 "end": 917,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -586,14 +608,18 @@
             "start": 922,
             "end": 927,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 931,
             "end": 977,
             "value": "No \"arguments\" own property (\"get\" accessor)",
-            "raw": "'No \"arguments\" own property (\"get\" accessor)'"
+            "raw": "'No \"arguments\" own property (\"get\" accessor)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -669,7 +695,9 @@
                 "start": 1029,
                 "end": 1037,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -679,14 +707,18 @@
             "start": 1042,
             "end": 1047,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1051,
             "end": 1094,
             "value": "No \"caller\" own property (\"set\" accessor)",
-            "raw": "'No \"caller\" own property (\"set\" accessor)'"
+            "raw": "'No \"caller\" own property (\"set\" accessor)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -762,7 +794,9 @@
                 "start": 1146,
                 "end": 1157,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -772,14 +806,18 @@
             "start": 1162,
             "end": 1167,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1171,
             "end": 1217,
             "value": "No \"arguments\" own property (\"set\" accessor)",
-            "raw": "'No \"arguments\" own property (\"set\" accessor)'"
+            "raw": "'No \"arguments\" own property (\"set\" accessor)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 460,
                 "end": 461,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -114,14 +116,18 @@
             "start": 520,
             "end": 528,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 607,
             "value": "The value of `typeof x1.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x1.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x1.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,7 +164,9 @@
                 "start": 633,
                 "end": 634,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -232,7 +240,9 @@
             "start": 681,
             "end": 735,
             "value": "Boolean.prototype.isPrototypeOf(x2) must return true",
-            "raw": "'Boolean.prototype.isPrototypeOf(x2) must return true'"
+            "raw": "'Boolean.prototype.isPrototypeOf(x2) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,7 +279,9 @@
                 "start": 760,
                 "end": 761,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -361,7 +373,9 @@
             "start": 834,
             "end": 925,
             "value": "The value of Boolean.prototype is expected to equal the value of x3.constructor.prototype",
-            "raw": "'The value of Boolean.prototype is expected to equal the value of x3.constructor.prototype'"
+            "raw": "'The value of Boolean.prototype is expected to equal the value of x3.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

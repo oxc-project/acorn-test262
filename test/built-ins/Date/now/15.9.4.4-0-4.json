@@ -69,14 +69,18 @@
             "start": 243,
             "end": 251,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 253,
             "end": 272,
             "value": "typeof Date.now()",
-            "raw": "'typeof Date.now()'"
+            "raw": "'typeof Date.now()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

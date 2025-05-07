@@ -66,7 +66,9 @@
                   "start": 537,
                   "end": 546,
                   "value": "Reflect",
-                  "raw": "'Reflect'"
+                  "raw": "'Reflect'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -88,7 +90,9 @@
                   "start": 562,
                   "end": 567,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -110,7 +114,9 @@
                   "start": 581,
                   "end": 586,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -132,7 +138,9 @@
                   "start": 604,
                   "end": 608,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

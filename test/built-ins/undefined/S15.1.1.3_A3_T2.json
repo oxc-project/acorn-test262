@@ -30,7 +30,9 @@
           "start": 278,
           "end": 283,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -62,7 +64,9 @@
                     "start": 312,
                     "end": 354,
                     "value": "#1: delete undefined === false. Actual: ",
-                    "raw": "'#1: delete undefined === false. Actual: '"
+                    "raw": "'#1: delete undefined === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

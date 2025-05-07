@@ -48,6 +48,7 @@
                 "end": 712,
                 "value": null,
                 "raw": "1_000_000_000_987_650_000n",
+                "regex": null,
                 "bigint": "1000000000987650000"
               }
             ]
@@ -118,7 +119,9 @@
                       "start": 772,
                       "end": 775,
                       "value": 2.5,
-                      "raw": "2.5"
+                      "raw": "2.5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -170,14 +173,18 @@
             "start": 805,
             "end": 830,
             "value": "2001-09-09T01:46:40.98Z",
-            "raw": "\"2001-09-09T01:46:40.98Z\""
+            "raw": "\"2001-09-09T01:46:40.98Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 872,
             "value": "fractionalSecondDigits 2.5 floors to 2",
-            "raw": "\"fractionalSecondDigits 2.5 floors to 2\""
+            "raw": "\"fractionalSecondDigits 2.5 floors to 2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +252,9 @@
                     "start": 928,
                     "end": 931,
                     "value": 9.7,
-                    "raw": "9.7"
+                    "raw": "9.7",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -295,14 +304,18 @@
             "start": 961,
             "end": 993,
             "value": "2001-09-09T01:46:40.987650000Z",
-            "raw": "\"2001-09-09T01:46:40.987650000Z\""
+            "raw": "\"2001-09-09T01:46:40.987650000Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1059,
             "value": "fractionalSecondDigits 9.7 floors to 9 and is not out of range",
-            "raw": "\"fractionalSecondDigits 9.7 floors to 9 and is not out of range\""
+            "raw": "\"fractionalSecondDigits 9.7 floors to 9 and is not out of range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -404,7 +417,9 @@
                           "start": 1144,
                           "end": 1147,
                           "value": 0.6,
-                          "raw": "0.6"
+                          "raw": "0.6",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -420,7 +435,9 @@
             "start": 1154,
             "end": 1216,
             "value": "fractionalSecondDigits -0.6 floors to -1 and is out of range",
-            "raw": "\"fractionalSecondDigits -0.6 floors to -1 and is out of range\""
+            "raw": "\"fractionalSecondDigits -0.6 floors to -1 and is out of range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

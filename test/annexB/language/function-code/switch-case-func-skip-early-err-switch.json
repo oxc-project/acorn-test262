@@ -96,7 +96,9 @@
                         "start": 851,
                         "end": 910,
                         "value": "An initialized binding is not created prior to evaluation",
-                        "raw": "'An initialized binding is not created prior to evaluation'"
+                        "raw": "'An initialized binding is not created prior to evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -148,14 +150,18 @@
                         "start": 951,
                         "end": 962,
                         "value": "undefined",
-                        "raw": "'undefined'"
+                        "raw": "'undefined'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 968,
                         "end": 1029,
                         "value": "An uninitialized binding is not created prior to evaluation",
-                        "raw": "'An uninitialized binding is not created prior to evaluation'"
+                        "raw": "'An uninitialized binding is not created prior to evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -170,7 +176,9 @@
                     "start": 1046,
                     "end": 1047,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "cases": [
                     {
@@ -207,7 +215,9 @@
                             "start": 1088,
                             "end": 1089,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "cases": [
                             {
@@ -242,7 +252,9 @@
                                 "start": 1102,
                                 "end": 1103,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -319,7 +331,9 @@
                         "start": 1196,
                         "end": 1256,
                         "value": "An initialized binding is not created following evaluation",
-                        "raw": "'An initialized binding is not created following evaluation'"
+                        "raw": "'An initialized binding is not created following evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -371,14 +385,18 @@
                         "start": 1297,
                         "end": 1308,
                         "value": "undefined",
-                        "raw": "'undefined'"
+                        "raw": "'undefined'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1314,
                         "end": 1376,
                         "value": "An uninitialized binding is not created following evaluation",
-                        "raw": "'An uninitialized binding is not created following evaluation'"
+                        "raw": "'An uninitialized binding is not created following evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

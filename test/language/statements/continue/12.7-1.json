@@ -23,7 +23,9 @@
             "start": 312,
             "end": 313,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,9 @@
               "start": 328,
               "end": 329,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -75,7 +79,9 @@
           "start": 336,
           "end": 338,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -105,7 +111,9 @@
               "start": 355,
               "end": 359,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "ContinueStatement",
@@ -185,14 +193,18 @@
             "start": 423,
             "end": 424,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 431,
             "value": "sum",
-            "raw": "'sum'"
+            "raw": "'sum'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

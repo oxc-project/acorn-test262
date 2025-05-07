@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 28,
               "raw": "\"w\"",
-              "value": "w"
+              "value": "w",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -61,7 +63,9 @@ __ESTREE_TEST__:PASS:
               "start": 50,
               "end": 53,
               "raw": "\"x\"",
-              "value": "x"
+              "value": "x",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -73,7 +77,9 @@ __ESTREE_TEST__:PASS:
               "start": 57,
               "end": 58,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -90,7 +96,9 @@ __ESTREE_TEST__:PASS:
               "start": 81,
               "end": 84,
               "raw": "\"y\"",
-              "value": "y"
+              "value": "y",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -122,7 +130,9 @@ __ESTREE_TEST__:PASS:
               "start": 113,
               "end": 116,
               "raw": "\"z\"",
-              "value": "z"
+              "value": "z",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -134,7 +144,9 @@ __ESTREE_TEST__:PASS:
               "start": 120,
               "end": 121,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -235,7 +247,9 @@ __ESTREE_TEST__:PASS:
               "start": 178,
               "end": 179,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

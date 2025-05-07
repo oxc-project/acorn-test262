@@ -23,7 +23,9 @@
             "start": 949,
             "end": 956,
             "value": "a,b,c",
-            "raw": "\"a,b,c\""
+            "raw": "\"a,b,c\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -123,7 +125,9 @@
                       "start": 1042,
                       "end": 1071,
                       "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "raw": "'#1: test failed with error '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -199,7 +203,9 @@
             "start": 1123,
             "end": 1194,
             "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "raw": "'The value of f.constructor is expected to equal the value of Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +263,9 @@
             "start": 1230,
             "end": 1253,
             "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "raw": "'f() returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

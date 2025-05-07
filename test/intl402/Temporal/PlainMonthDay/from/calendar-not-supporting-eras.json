@@ -78,7 +78,9 @@
                       "start": 355,
                       "end": 363,
                       "value": "foobar",
-                      "raw": "\"foobar\""
+                      "raw": "\"foobar\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 376,
                       "end": 377,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 392,
                       "end": 397,
                       "value": "M01",
-                      "raw": "\"M01\""
+                      "raw": "\"M01\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 406,
                       "end": 407,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +174,9 @@
                       "start": 421,
                       "end": 430,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -218,21 +228,27 @@
             "start": 480,
             "end": 485,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 488,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 559,
             "value": "era and eraYear are ignored for calendar not using eras (iso8601)",
-            "raw": "\"era and eraYear are ignored for calendar not using eras (iso8601)\""
+            "raw": "\"era and eraYear are ignored for calendar not using eras (iso8601)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +329,9 @@
                       "start": 621,
                       "end": 629,
                       "value": "foobar",
-                      "raw": "\"foobar\""
+                      "raw": "\"foobar\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -335,7 +353,9 @@
                       "start": 642,
                       "end": 643,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -357,7 +377,9 @@
                       "start": 658,
                       "end": 663,
                       "value": "M01",
-                      "raw": "\"M01\""
+                      "raw": "\"M01\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -379,7 +401,9 @@
                       "start": 672,
                       "end": 673,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -401,7 +425,9 @@
                       "start": 687,
                       "end": 695,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -453,21 +479,27 @@
             "start": 751,
             "end": 756,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 758,
             "end": 759,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 763,
             "end": 829,
             "value": "era and eraYear are ignored for calendar not using eras (Hebrew)",
-            "raw": "\"era and eraYear are ignored for calendar not using eras (Hebrew)\""
+            "raw": "\"era and eraYear are ignored for calendar not using eras (Hebrew)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -525,7 +557,9 @@
             "start": 874,
             "end": 882,
             "value": "hebrew",
-            "raw": "\"hebrew\""
+            "raw": "\"hebrew\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

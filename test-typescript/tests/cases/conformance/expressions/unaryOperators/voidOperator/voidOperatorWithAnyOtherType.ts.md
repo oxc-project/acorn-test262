@@ -107,14 +107,18 @@ __ESTREE_TEST__:PASS:
                 "start": 74,
                 "end": 76,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 78,
                 "end": 80,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -217,7 +221,9 @@ __ESTREE_TEST__:PASS:
                   "start": 115,
                   "end": 117,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -243,7 +249,9 @@ __ESTREE_TEST__:PASS:
                   "start": 120,
                   "end": 121,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -886,7 +894,9 @@ __ESTREE_TEST__:PASS:
               "start": 589,
               "end": 593,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "operator": "void",
             "prefix": true
@@ -939,7 +949,9 @@ __ESTREE_TEST__:PASS:
                 "start": 649,
                 "end": 650,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "void",
@@ -1374,7 +1386,9 @@ __ESTREE_TEST__:PASS:
                 "start": 912,
                 "end": 916,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -1427,14 +1441,18 @@ __ESTREE_TEST__:PASS:
                 "start": 957,
                 "end": 961,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 964,
                 "end": 968,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "void",
@@ -1689,7 +1707,9 @@ __ESTREE_TEST__:PASS:
             "start": 1195,
             "end": 1196,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "void",

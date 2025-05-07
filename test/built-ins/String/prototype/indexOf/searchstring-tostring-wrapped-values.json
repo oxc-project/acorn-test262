@@ -44,7 +44,9 @@
                 "start": 442,
                 "end": 451,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -72,7 +74,9 @@
                     "start": 467,
                     "end": 472,
                     "value": "foo",
-                    "raw": "\"foo\""
+                    "raw": "\"foo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -85,14 +89,18 @@
             "start": 476,
             "end": 477,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 527,
             "value": "ToPrimitive: unbox object with internal slot",
-            "raw": "\"ToPrimitive: unbox object with internal slot\""
+            "raw": "\"ToPrimitive: unbox object with internal slot\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -139,7 +147,9 @@
                 "start": 547,
                 "end": 556,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -205,7 +215,9 @@
                               "start": 615,
                               "end": 620,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -223,14 +235,18 @@
             "start": 630,
             "end": 631,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 661,
             "value": "ToPrimitive: @@toPrimitive",
-            "raw": "\"ToPrimitive: @@toPrimitive\""
+            "raw": "\"ToPrimitive: @@toPrimitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +293,9 @@
                 "start": 681,
                 "end": 690,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -330,7 +348,9 @@
                               "start": 736,
                               "end": 741,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -356,7 +376,9 @@
                       "start": 760,
                       "end": 764,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -370,14 +392,18 @@
             "start": 769,
             "end": 770,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 794,
             "value": "ToPrimitive: valueOf",
-            "raw": "\"ToPrimitive: valueOf\""
+            "raw": "\"ToPrimitive: valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -424,7 +450,9 @@
                 "start": 814,
                 "end": 823,
                 "value": "__foo__",
-                "raw": "\"__foo__\""
+                "raw": "\"__foo__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -477,7 +505,9 @@
                               "start": 870,
                               "end": 875,
                               "value": "foo",
-                              "raw": "\"foo\""
+                              "raw": "\"foo\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -495,14 +525,18 @@
             "start": 885,
             "end": 886,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 888,
             "end": 911,
             "value": "ToPrimitive: toString",
-            "raw": "\"ToPrimitive: toString\""
+            "raw": "\"ToPrimitive: toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -549,7 +583,9 @@
                 "start": 931,
                 "end": 946,
                 "value": "__undefined__",
-                "raw": "\"__undefined__\""
+                "raw": "\"__undefined__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -632,14 +668,18 @@
             "start": 1024,
             "end": 1025,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1027,
             "end": 1080,
             "value": "ToString: @@toPrimitive => undefined => \"undefined\"",
-            "raw": "'ToString: @@toPrimitive => undefined => \"undefined\"'"
+            "raw": "'ToString: @@toPrimitive => undefined => \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -686,7 +726,9 @@
                 "start": 1100,
                 "end": 1115,
                 "value": "__undefined__",
-                "raw": "\"__undefined__\""
+                "raw": "\"__undefined__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -764,7 +806,9 @@
                       "start": 1189,
                       "end": 1193,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -778,14 +822,18 @@
             "start": 1198,
             "end": 1199,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1201,
             "end": 1248,
             "value": "ToString: valueOf => undefined => \"undefined\"",
-            "raw": "'ToString: valueOf => undefined => \"undefined\"'"
+            "raw": "'ToString: valueOf => undefined => \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -832,7 +880,9 @@
                 "start": 1268,
                 "end": 1283,
                 "value": "__undefined__",
-                "raw": "\"__undefined__\""
+                "raw": "\"__undefined__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -902,14 +952,18 @@
             "start": 1349,
             "end": 1350,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1352,
             "end": 1400,
             "value": "ToString: toString => undefined => \"undefined\"",
-            "raw": "'ToString: toString => undefined => \"undefined\"'"
+            "raw": "'ToString: toString => undefined => \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -956,7 +1010,9 @@
                 "start": 1420,
                 "end": 1430,
                 "value": "__null__",
-                "raw": "\"__null__\""
+                "raw": "\"__null__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1022,7 +1078,9 @@
                               "start": 1489,
                               "end": 1493,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1040,14 +1098,18 @@
             "start": 1503,
             "end": 1504,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1506,
             "end": 1549,
             "value": "ToString: @@toPrimitive => null => \"null\"",
-            "raw": "'ToString: @@toPrimitive => null => \"null\"'"
+            "raw": "'ToString: @@toPrimitive => null => \"null\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1094,7 +1156,9 @@
                 "start": 1569,
                 "end": 1579,
                 "value": "__null__",
-                "raw": "\"__null__\""
+                "raw": "\"__null__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1147,7 +1211,9 @@
                               "start": 1625,
                               "end": 1629,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1173,7 +1239,9 @@
                       "start": 1648,
                       "end": 1652,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1187,14 +1255,18 @@
             "start": 1657,
             "end": 1658,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1660,
             "end": 1697,
             "value": "ToString: valueOf => null => \"null\"",
-            "raw": "'ToString: valueOf => null => \"null\"'"
+            "raw": "'ToString: valueOf => null => \"null\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1241,7 +1313,9 @@
                 "start": 1717,
                 "end": 1727,
                 "value": "__null__",
-                "raw": "\"__null__\""
+                "raw": "\"__null__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1294,7 +1368,9 @@
                               "start": 1774,
                               "end": 1778,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1312,14 +1388,18 @@
             "start": 1788,
             "end": 1789,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1791,
             "end": 1829,
             "value": "ToString: toString => null => \"null\"",
-            "raw": "'ToString: toString => null => \"null\"'"
+            "raw": "'ToString: toString => null => \"null\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1366,7 +1446,9 @@
                 "start": 1849,
                 "end": 1860,
                 "value": "__false__",
-                "raw": "\"__false__\""
+                "raw": "\"__false__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1394,7 +1476,9 @@
                     "start": 1876,
                     "end": 1881,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1407,14 +1491,18 @@
             "start": 1885,
             "end": 1886,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1890,
             "end": 1953,
             "value": "ToString: unbox object with internal slot => false => \"false\"",
-            "raw": "'ToString: unbox object with internal slot => false => \"false\"'"
+            "raw": "'ToString: unbox object with internal slot => false => \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1461,7 +1549,9 @@
                 "start": 1973,
                 "end": 1984,
                 "value": "__false__",
-                "raw": "\"__false__\""
+                "raw": "\"__false__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1527,7 +1617,9 @@
                               "start": 2043,
                               "end": 2048,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1545,14 +1637,18 @@
             "start": 2058,
             "end": 2059,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2061,
             "end": 2106,
             "value": "ToString: @@toPrimitive => false => \"false\"",
-            "raw": "'ToString: @@toPrimitive => false => \"false\"'"
+            "raw": "'ToString: @@toPrimitive => false => \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1599,7 +1695,9 @@
                 "start": 2126,
                 "end": 2137,
                 "value": "__false__",
-                "raw": "\"__false__\""
+                "raw": "\"__false__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1652,7 +1750,9 @@
                               "start": 2183,
                               "end": 2188,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1678,7 +1778,9 @@
                       "start": 2207,
                       "end": 2211,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1692,14 +1794,18 @@
             "start": 2216,
             "end": 2217,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2219,
             "end": 2258,
             "value": "ToString: valueOf => false => \"false\"",
-            "raw": "'ToString: valueOf => false => \"false\"'"
+            "raw": "'ToString: valueOf => false => \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1746,7 +1852,9 @@
                 "start": 2278,
                 "end": 2289,
                 "value": "__false__",
-                "raw": "\"__false__\""
+                "raw": "\"__false__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1799,7 +1907,9 @@
                               "start": 2336,
                               "end": 2341,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1817,14 +1927,18 @@
             "start": 2351,
             "end": 2352,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2354,
             "end": 2394,
             "value": "ToString: toString => false => \"false\"",
-            "raw": "'ToString: toString => false => \"false\"'"
+            "raw": "'ToString: toString => false => \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1871,7 +1985,9 @@
                 "start": 2414,
                 "end": 2421,
                 "value": "__0__",
-                "raw": "\"__0__\""
+                "raw": "\"__0__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1899,7 +2015,9 @@
                     "start": 2437,
                     "end": 2438,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1912,14 +2030,18 @@
             "start": 2442,
             "end": 2443,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2447,
             "end": 2510,
             "value": "ToString: unbox object with internal slot => Number to String",
-            "raw": "\"ToString: unbox object with internal slot => Number to String\""
+            "raw": "\"ToString: unbox object with internal slot => Number to String\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1966,7 +2088,9 @@
                 "start": 2530,
                 "end": 2537,
                 "value": "__0__",
-                "raw": "\"__0__\""
+                "raw": "\"__0__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2032,7 +2156,9 @@
                               "start": 2596,
                               "end": 2597,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2050,14 +2176,18 @@
             "start": 2607,
             "end": 2608,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2610,
             "end": 2655,
             "value": "ToString: @@toPrimitive => Number to String",
-            "raw": "\"ToString: @@toPrimitive => Number to String\""
+            "raw": "\"ToString: @@toPrimitive => Number to String\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2104,7 +2234,9 @@
                 "start": 2675,
                 "end": 2682,
                 "value": "__0__",
-                "raw": "\"__0__\""
+                "raw": "\"__0__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2157,7 +2289,9 @@
                               "start": 2728,
                               "end": 2729,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2183,7 +2317,9 @@
                       "start": 2748,
                       "end": 2752,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2197,14 +2333,18 @@
             "start": 2757,
             "end": 2758,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2760,
             "end": 2799,
             "value": "ToString: valueOf => Number to String",
-            "raw": "\"ToString: valueOf => Number to String\""
+            "raw": "\"ToString: valueOf => Number to String\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2251,7 +2391,9 @@
                 "start": 2819,
                 "end": 2826,
                 "value": "__0__",
-                "raw": "\"__0__\""
+                "raw": "\"__0__\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2304,7 +2446,9 @@
                               "start": 2873,
                               "end": 2874,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -2322,14 +2466,18 @@
             "start": 2884,
             "end": 2885,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2887,
             "end": 2927,
             "value": "ToString: toString => Number to String",
-            "raw": "\"ToString: toString => Number to String\""
+            "raw": "\"ToString: toString => Number to String\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

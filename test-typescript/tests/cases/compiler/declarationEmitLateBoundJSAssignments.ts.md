@@ -81,7 +81,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 37,
           "raw": "12",
-          "value": 12
+          "value": 12,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -166,7 +168,9 @@ __ESTREE_TEST__:PASS:
           "start": 82,
           "end": 86,
           "raw": "\"ok\"",
-          "value": "ok"
+          "value": "ok",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -194,7 +198,9 @@ __ESTREE_TEST__:PASS:
             "start": 103,
             "end": 115,
             "raw": "\"strMemName\"",
-            "value": "strMemName"
+            "value": "strMemName",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -241,7 +247,9 @@ __ESTREE_TEST__:PASS:
           "start": 131,
           "end": 135,
           "raw": "\"ok\"",
-          "value": "ok"
+          "value": "ok",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -269,7 +277,9 @@ __ESTREE_TEST__:PASS:
             "start": 156,
             "end": 172,
             "raw": "\"dashed-str-mem\"",
-            "value": "dashed-str-mem"
+            "value": "dashed-str-mem",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -316,7 +326,9 @@ __ESTREE_TEST__:PASS:
           "start": 192,
           "end": 196,
           "raw": "\"ok\"",
-          "value": "ok"
+          "value": "ok",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -344,7 +356,9 @@ __ESTREE_TEST__:PASS:
             "start": 213,
             "end": 215,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -391,7 +405,9 @@ __ESTREE_TEST__:PASS:
           "start": 231,
           "end": 235,
           "raw": "\"ok\"",
-          "value": "ok"
+          "value": "ok",
+          "regex": null,
+          "bigint": null
         }
       }
     },

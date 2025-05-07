@@ -34,7 +34,9 @@
                 "start": 428,
                 "end": 453,
                 "value": "one,two,three,four,five",
-                "raw": "\"one,two,three,four,five\""
+                "raw": "\"one,two,three,four,five\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -145,7 +147,9 @@
             "start": 542,
             "end": 616,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -203,14 +207,18 @@
             "start": 654,
             "end": 655,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 657,
             "end": 691,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +267,9 @@
               "start": 719,
               "end": 720,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -269,14 +279,18 @@
             "start": 723,
             "end": 748,
             "value": "one,two,three,four,five",
-            "raw": "\"one,two,three,four,five\""
+            "raw": "\"one,two,three,four,five\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 804,
             "value": "The value of __split[0] is \"one,two,three,four,five\"",
-            "raw": "'The value of __split[0] is \"one,two,three,four,five\"'"
+            "raw": "'The value of __split[0] is \"one,two,three,four,five\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

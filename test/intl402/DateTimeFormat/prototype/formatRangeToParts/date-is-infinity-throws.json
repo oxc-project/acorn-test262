@@ -178,7 +178,9 @@
             "start": 1352,
             "end": 1368,
             "value": "+Infinity/date",
-            "raw": "\"+Infinity/date\""
+            "raw": "\"+Infinity/date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -291,7 +293,9 @@
             "start": 1457,
             "end": 1473,
             "value": "-Infinity/date",
-            "raw": "\"-Infinity/date\""
+            "raw": "\"-Infinity/date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -397,7 +401,9 @@
             "start": 1561,
             "end": 1577,
             "value": "date/+Infinity",
-            "raw": "\"date/+Infinity\""
+            "raw": "\"date/+Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,7 +516,9 @@
             "start": 1666,
             "end": 1682,
             "value": "date/-Infinity",
-            "raw": "\"date/-Infinity\""
+            "raw": "\"date/-Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -616,7 +624,9 @@
             "start": 1774,
             "end": 1795,
             "value": "+Infinity/+Infinity",
-            "raw": "\"+Infinity/+Infinity\""
+            "raw": "\"+Infinity/+Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -736,7 +746,9 @@
             "start": 1889,
             "end": 1910,
             "value": "-Infinity/-Infinity",
-            "raw": "\"-Infinity/-Infinity\""
+            "raw": "\"-Infinity/-Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -849,7 +861,9 @@
             "start": 2003,
             "end": 2024,
             "value": "+Infinity/-Infinity",
-            "raw": "\"+Infinity/-Infinity\""
+            "raw": "\"+Infinity/-Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -962,7 +976,9 @@
             "start": 2117,
             "end": 2138,
             "value": "-Infinity/+Infinity",
-            "raw": "\"-Infinity/+Infinity\""
+            "raw": "\"-Infinity/+Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

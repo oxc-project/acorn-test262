@@ -68,14 +68,18 @@
             "start": 276,
             "end": 277,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 279,
             "end": 299,
             "value": "Object.keys.length",
-            "raw": "'Object.keys.length'"
+            "raw": "'Object.keys.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

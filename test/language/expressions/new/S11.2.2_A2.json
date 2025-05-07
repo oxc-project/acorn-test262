@@ -53,7 +53,9 @@
                     "start": 356,
                     "end": 400,
                     "value": "#1.1: new x throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: new x throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: new x throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -131,7 +133,9 @@
                   "start": 469,
                   "end": 473,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -163,7 +167,9 @@
                             "start": 504,
                             "end": 548,
                             "value": "#1.2: new x throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: new x throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: new x throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -236,7 +242,9 @@
                   "start": 618,
                   "end": 652,
                   "value": "#2: new x() throw ReferenceError",
-                  "raw": "'#2: new x() throw ReferenceError'"
+                  "raw": "'#2: new x() throw ReferenceError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -295,7 +303,9 @@
                   "start": 710,
                   "end": 714,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -323,7 +333,9 @@
                           "start": 745,
                           "end": 779,
                           "value": "#2: new x() throw ReferenceError",
-                          "raw": "'#2: new x() throw ReferenceError'"
+                          "raw": "'#2: new x() throw ReferenceError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

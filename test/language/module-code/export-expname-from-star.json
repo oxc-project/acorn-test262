@@ -25,7 +25,9 @@
         "start": 335,
         "end": 366,
         "value": "./export-expname-from-star.js",
-        "raw": "\"./export-expname-from-star.js\""
+        "raw": "\"./export-expname-from-star.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -39,7 +41,9 @@
         "start": 382,
         "end": 411,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -86,7 +90,9 @@
               "start": 438,
               "end": 441,
               "value": "☿",
-              "raw": "\"☿\""
+              "raw": "\"☿\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

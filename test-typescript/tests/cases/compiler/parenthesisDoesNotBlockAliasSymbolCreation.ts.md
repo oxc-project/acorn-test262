@@ -278,7 +278,9 @@ __ESTREE_TEST__:PASS:
                       "start": 213,
                       "end": 216,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -383,7 +385,9 @@ __ESTREE_TEST__:PASS:
                       "start": 264,
                       "end": 267,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -464,7 +468,9 @@ __ESTREE_TEST__:PASS:
                 "start": 290,
                 "end": 294,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSTypeReference",
@@ -566,7 +572,9 @@ __ESTREE_TEST__:PASS:
                 "start": 335,
                 "end": 339,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSTypeReference",
@@ -668,7 +676,9 @@ __ESTREE_TEST__:PASS:
                 "start": 381,
                 "end": 385,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSIntersectionType",
@@ -729,7 +739,9 @@ __ESTREE_TEST__:PASS:
                             "start": 418,
                             "end": 421,
                             "raw": "\"a\"",
-                            "value": "a"
+                            "value": "a",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -789,7 +801,9 @@ __ESTREE_TEST__:PASS:
                 "start": 442,
                 "end": 446,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSIntersectionType",
@@ -850,7 +864,9 @@ __ESTREE_TEST__:PASS:
                             "start": 480,
                             "end": 483,
                             "raw": "\"a\"",
-                            "value": "a"
+                            "value": "a",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

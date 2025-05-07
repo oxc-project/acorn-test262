@@ -23,7 +23,9 @@
             "start": 575,
             "end": 576,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -249,14 +251,18 @@
             "start": 737,
             "end": 747,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 773,
             "value": "type of first argument",
-            "raw": "'type of first argument'"
+            "raw": "'type of first argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,14 +320,18 @@
             "start": 809,
             "end": 810,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 812,
             "end": 838,
             "value": "length of first argument",
-            "raw": "'length of first argument'"
+            "raw": "'length of first argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -373,14 +383,18 @@
             "start": 873,
             "end": 883,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 885,
             "end": 910,
             "value": "type of second argument",
-            "raw": "'type of second argument'"
+            "raw": "'type of second argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -438,14 +452,18 @@
             "start": 945,
             "end": 946,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 948,
             "end": 975,
             "value": "length of second argument",
-            "raw": "'length of second argument'"
+            "raw": "'length of second argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -490,7 +508,9 @@
             "start": 1005,
             "end": 1006,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

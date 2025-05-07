@@ -152,7 +152,9 @@
             "start": 918,
             "end": 923,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -252,7 +252,9 @@ __ESTREE_TEST__:PASS:
                     "start": 104,
                     "end": 105,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",

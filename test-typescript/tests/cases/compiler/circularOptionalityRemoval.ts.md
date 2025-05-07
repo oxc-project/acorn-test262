@@ -74,7 +74,9 @@ __ESTREE_TEST__:PASS:
               "start": 70,
               "end": 71,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Identifier",
@@ -104,7 +106,9 @@ __ESTREE_TEST__:PASS:
                 "start": 62,
                 "end": 63,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -180,7 +184,9 @@ __ESTREE_TEST__:PASS:
               "start": 140,
               "end": 148,
               "raw": "'value1'",
-              "value": "value1"
+              "value": "value1",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "Identifier",

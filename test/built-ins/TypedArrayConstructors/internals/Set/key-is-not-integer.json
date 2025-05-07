@@ -75,7 +75,9 @@
                                 "start": 755,
                                 "end": 757,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -148,14 +150,18 @@
                             "start": 801,
                             "end": 806,
                             "value": "1.1",
-                            "raw": "\"1.1\""
+                            "raw": "\"1.1\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 808,
                             "end": 809,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -165,14 +171,18 @@
                         "start": 812,
                         "end": 816,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 818,
                         "end": 866,
                         "value": "Reflect.set(sample, \"1.1\", 1) must return true",
-                        "raw": "'Reflect.set(sample, \"1.1\", 1) must return true'"
+                        "raw": "'Reflect.set(sample, \"1.1\", 1) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -241,14 +251,18 @@
                             "start": 908,
                             "end": 916,
                             "value": "0.0001",
-                            "raw": "\"0.0001\""
+                            "raw": "\"0.0001\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 918,
                             "end": 919,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -258,14 +272,18 @@
                         "start": 922,
                         "end": 926,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 928,
                         "end": 979,
                         "value": "Reflect.set(sample, \"0.0001\", 1) must return true",
-                        "raw": "'Reflect.set(sample, \"0.0001\", 1) must return true'"
+                        "raw": "'Reflect.set(sample, \"0.0001\", 1) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -328,7 +346,9 @@
                             "start": 1024,
                             "end": 1029,
                             "value": "1.1",
-                            "raw": "\"1.1\""
+                            "raw": "\"1.1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -338,14 +358,18 @@
                         "start": 1032,
                         "end": 1037,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1039,
                         "end": 1087,
                         "value": "sample.hasOwnProperty(\"1.1\") must return false",
-                        "raw": "'sample.hasOwnProperty(\"1.1\") must return false'"
+                        "raw": "'sample.hasOwnProperty(\"1.1\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -408,7 +432,9 @@
                             "start": 1136,
                             "end": 1144,
                             "value": "0.0001",
-                            "raw": "\"0.0001\""
+                            "raw": "\"0.0001\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -418,14 +444,18 @@
                         "start": 1151,
                         "end": 1156,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1162,
                         "end": 1213,
                         "value": "sample.hasOwnProperty(\"0.0001\") must return false",
-                        "raw": "'sample.hasOwnProperty(\"0.0001\") must return false'"
+                        "raw": "'sample.hasOwnProperty(\"0.0001\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

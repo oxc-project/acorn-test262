@@ -70,7 +70,9 @@
                               "start": 421,
                               "end": 449,
                               "value": "this should be unreachable",
-                              "raw": "'this should be unreachable'"
+                              "raw": "'this should be unreachable'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -127,7 +129,9 @@
                               "start": 492,
                               "end": 520,
                               "value": "this should be unreachable",
-                              "raw": "'this should be unreachable'"
+                              "raw": "'this should be unreachable'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

@@ -47,7 +47,9 @@
                 "start": 272,
                 "end": 277,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,14 +124,18 @@
             "start": 321,
             "end": 325,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 327,
             "end": 347,
             "value": "result is an array",
-            "raw": "'result is an array'"
+            "raw": "'result is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,14 +193,18 @@
             "start": 382,
             "end": 383,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 385,
             "end": 405,
             "value": "result has 3 items",
-            "raw": "'result has 3 items'"
+            "raw": "'result has 3 items'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +253,9 @@
               "start": 433,
               "end": 434,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -253,14 +265,18 @@
             "start": 437,
             "end": 440,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 442,
             "end": 462,
             "value": "first value is \"a\"",
-            "raw": "'first value is \"a\"'"
+            "raw": "'first value is \"a\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,7 +325,9 @@
               "start": 489,
               "end": 490,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -319,14 +337,18 @@
             "start": 493,
             "end": 496,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 519,
             "value": "second value is \"b\"",
-            "raw": "'second value is \"b\"'"
+            "raw": "'second value is \"b\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +397,9 @@
               "start": 546,
               "end": 547,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -385,14 +409,18 @@
             "start": 550,
             "end": 553,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 575,
             "value": "third value is \"c\"",
-            "raw": "'third value is \"c\"'"
+            "raw": "'third value is \"c\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

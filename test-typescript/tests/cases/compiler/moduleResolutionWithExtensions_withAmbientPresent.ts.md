@@ -55,7 +55,9 @@ __ESTREE_TEST__:PASS:
                     "start": 43,
                     "end": 44,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -75,7 +77,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "\"js\"",
-        "value": "js"
+        "value": "js",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -101,7 +105,9 @@ __ESTREE_TEST__:PASS:
         "start": 61,
         "end": 65,
         "raw": "\"js\"",
-        "value": "js"
+        "value": "js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -34,7 +34,9 @@
                 "start": 361,
                 "end": 362,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 399,
                 "end": 400,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -184,7 +188,9 @@
                   "start": 478,
                   "end": 479,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -195,7 +201,9 @@
             "start": 484,
             "end": 523,
             "value": "detached DataView access should throw",
-            "raw": "\"detached DataView access should throw\""
+            "raw": "\"detached DataView access should throw\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

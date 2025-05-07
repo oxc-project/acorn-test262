@@ -67,14 +67,18 @@
             "start": 390,
             "end": 398,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 400,
             "end": 404,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -150,7 +154,9 @@
                     "start": 472,
                     "end": 561,
                     "value": "#1: x = encodeURI.length; encodeURI.length = Infinity; encodeURI.length === x. Actual: ",
-                    "raw": "'#1: x = encodeURI.length; encodeURI.length = Infinity; encodeURI.length === x. Actual: '"
+                    "raw": "'#1: x = encodeURI.length; encodeURI.length = Infinity; encodeURI.length === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -32,7 +32,9 @@
                 "start": 362,
                 "end": 363,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -85,7 +87,9 @@
                   "start": 407,
                   "end": 444,
                   "value": "#1: x = 1; delete x; x is not exist",
-                  "raw": "'#1: x = 1; delete x; x is not exist'"
+                  "raw": "'#1: x = 1; delete x; x is not exist'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -139,7 +143,9 @@
                   "start": 499,
                   "end": 503,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -167,7 +173,9 @@
                           "start": 534,
                           "end": 571,
                           "value": "#1: x = 1; delete x; x is not exist",
-                          "raw": "'#1: x = 1; delete x; x is not exist'"
+                          "raw": "'#1: x = 1; delete x; x is not exist'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

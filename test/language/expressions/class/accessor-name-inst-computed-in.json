@@ -47,7 +47,9 @@
                 "start": 780,
                 "end": 784,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -129,7 +131,9 @@
                     "start": 824,
                     "end": 827,
                     "value": "x",
-                    "raw": "'x'"
+                    "raw": "'x'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -163,7 +167,9 @@
                           "start": 849,
                           "end": 858,
                           "value": "via get",
-                          "raw": "'via get'"
+                          "raw": "'via get'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -278,7 +284,9 @@
             "start": 936,
             "end": 945,
             "value": "via get",
-            "raw": "'via get'"
+            "raw": "'via get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,7 +333,9 @@
                     "start": 971,
                     "end": 974,
                     "value": "x",
-                    "raw": "'x'"
+                    "raw": "'x'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -441,7 +451,9 @@
                 "start": 1042,
                 "end": 1051,
                 "value": "via set",
-                "raw": "'via set'"
+                "raw": "'via set'",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -493,7 +505,9 @@
             "start": 1089,
             "end": 1098,
             "value": "via set",
-            "raw": "'via set'"
+            "raw": "'via set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

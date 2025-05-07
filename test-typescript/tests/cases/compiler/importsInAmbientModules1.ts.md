@@ -81,7 +81,9 @@ __ESTREE_TEST__:PASS:
               "start": 41,
               "end": 51,
               "raw": "\"external\"",
-              "value": "external"
+              "value": "external",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -119,7 +121,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 18,
         "raw": "\"M\"",
-        "value": "M"
+        "value": "M",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

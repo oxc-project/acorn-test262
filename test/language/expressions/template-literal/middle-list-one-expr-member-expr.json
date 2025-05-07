@@ -41,7 +41,9 @@
                   "start": 515,
                   "end": 516,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 528,
                   "end": 541,
                   "value": "stringValue",
-                  "raw": "'stringValue'"
+                  "raw": "'stringValue'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -111,7 +115,9 @@
                 "start": 569,
                 "end": 570,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -171,14 +177,18 @@
             "start": 595,
             "end": 604,
             "value": "0 5 bar",
-            "raw": "'0 5 bar'"
+            "raw": "'0 5 bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 629,
             "value": "number value property",
-            "raw": "'number value property'"
+            "raw": "'number value property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,7 +232,9 @@
                 "start": 656,
                 "end": 657,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -282,14 +294,18 @@
             "start": 682,
             "end": 701,
             "value": "0 stringValue bar",
-            "raw": "'0 stringValue bar'"
+            "raw": "'0 stringValue bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 726,
             "value": "string value property",
-            "raw": "'string value property'"
+            "raw": "'string value property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +349,9 @@
                 "start": 753,
                 "end": 754,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -350,7 +368,9 @@
                   "start": 765,
                   "end": 773,
                   "value": "string",
-                  "raw": "'string'"
+                  "raw": "'string'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -394,14 +414,18 @@
             "start": 784,
             "end": 803,
             "value": "0 stringValue bar",
-            "raw": "'0 stringValue bar'"
+            "raw": "'0 stringValue bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 807,
             "end": 864,
             "value": "string value property (single-quote string dereference)",
-            "raw": "'string value property (single-quote string dereference)'"
+            "raw": "'string value property (single-quote string dereference)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -445,7 +469,9 @@
                 "start": 891,
                 "end": 892,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -462,7 +488,9 @@
                   "start": 903,
                   "end": 911,
                   "value": "string",
-                  "raw": "\"string\""
+                  "raw": "\"string\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -506,14 +534,18 @@
             "start": 922,
             "end": 941,
             "value": "0 stringValue bar",
-            "raw": "'0 stringValue bar'"
+            "raw": "'0 stringValue bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 945,
             "end": 1002,
             "value": "string value property (double-quote string dereference)",
-            "raw": "'string value property (double-quote string dereference)'"
+            "raw": "'string value property (double-quote string dereference)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -40,7 +40,9 @@
                   "start": 385,
                   "end": 386,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -114,7 +116,9 @@
               "start": 424,
               "end": 425,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -122,7 +126,9 @@
             "start": 427,
             "end": 467,
             "value": "TimeClip does not return negative zero",
-            "raw": "\"TimeClip does not return negative zero\""
+            "raw": "\"TimeClip does not return negative zero\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

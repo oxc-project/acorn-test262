@@ -45,7 +45,9 @@ __ESTREE_TEST__:PASS:
           "start": 12,
           "end": 13,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
             "start": 32,
             "end": 33,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           },
           "operator": "void",
           "prefix": true
@@ -170,7 +174,9 @@ __ESTREE_TEST__:PASS:
           "start": 52,
           "end": 53,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -218,7 +224,9 @@ __ESTREE_TEST__:PASS:
             "start": 65,
             "end": 66,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           },
           "operator": "void",
           "prefix": true
@@ -333,7 +341,9 @@ __ESTREE_TEST__:PASS:
                 "start": 106,
                 "end": 107,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -377,7 +387,9 @@ __ESTREE_TEST__:PASS:
                   "start": 126,
                   "end": 127,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "void",
                 "prefix": true
@@ -527,7 +539,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 46,
         "raw": "'./assignmentToVoidZero2'",
-        "value": "./assignmentToVoidZero2"
+        "value": "./assignmentToVoidZero2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

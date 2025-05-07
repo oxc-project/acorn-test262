@@ -85,7 +85,9 @@
                       "start": 915,
                       "end": 920,
                       "value": "baz",
-                      "raw": "\"baz\""
+                      "raw": "\"baz\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -120,7 +122,9 @@
                             "start": 944,
                             "end": 945,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -187,14 +191,18 @@
                         "start": 992,
                         "end": 996,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1002,
                         "end": 1044,
                         "value": "The value of `delete sample.foo` is true",
-                        "raw": "'The value of `delete sample.foo` is true'"
+                        "raw": "'The value of `delete sample.foo` is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -233,7 +241,9 @@
                       "start": 1066,
                       "end": 1071,
                       "value": "foo",
-                      "raw": "\"foo\""
+                      "raw": "\"foo\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -296,14 +306,18 @@
                         "start": 1111,
                         "end": 1115,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1117,
                         "end": 1159,
                         "value": "The value of `delete sample.foo` is true",
-                        "raw": "'The value of `delete sample.foo` is true'"
+                        "raw": "'The value of `delete sample.foo` is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -348,7 +362,9 @@
                         "start": 1195,
                         "end": 1200,
                         "value": "bar",
-                        "raw": "\"bar\""
+                        "raw": "\"bar\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -391,7 +407,9 @@
                                       "start": 1223,
                                       "end": 1228,
                                       "value": "bar",
-                                      "raw": "\"bar\""
+                                      "raw": "\"bar\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -550,14 +568,18 @@
                         "start": 1342,
                         "end": 1346,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1348,
                         "end": 1390,
                         "value": "The value of `delete sample.baz` is true",
-                        "raw": "'The value of `delete sample.baz` is true'"
+                        "raw": "'The value of `delete sample.baz` is true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

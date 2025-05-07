@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 40,
         "raw": "\"foo/bar/foobar.json\"",
-        "value": "foo/bar/foobar.json"
+        "value": "foo/bar/foobar.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

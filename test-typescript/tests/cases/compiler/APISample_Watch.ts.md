@@ -130,7 +130,9 @@ __ESTREE_TEST__:PASS:
           "start": 407,
           "end": 419,
           "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -419,7 +421,9 @@ __ESTREE_TEST__:PASS:
                       "start": 683,
                       "end": 687,
                       "raw": "\"./\"",
-                      "value": "./"
+                      "value": "./",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "MemberExpression",
@@ -467,7 +471,9 @@ __ESTREE_TEST__:PASS:
                       "start": 708,
                       "end": 723,
                       "raw": "\"tsconfig.json\"",
-                      "value": "tsconfig.json"
+                      "value": "tsconfig.json",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -527,7 +533,9 @@ __ESTREE_TEST__:PASS:
                         "start": 773,
                         "end": 814,
                         "raw": "\"Could not find a valid 'tsconfig.json'.\"",
-                        "value": "Could not find a valid 'tsconfig.json'."
+                        "value": "Could not find a valid 'tsconfig.json'.",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -811,7 +819,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2354,
                             "end": 2396,
                             "raw": "\"** We're about to create the program! **\"",
-                            "value": "** We're about to create the program! **"
+                            "value": "** We're about to create the program! **",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {
@@ -1089,7 +1099,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2600,
                             "end": 2639,
                             "raw": "\"** We finished making the program! **\"",
-                            "value": "** We finished making the program! **"
+                            "value": "** We finished making the program! **",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {
@@ -1272,7 +1284,9 @@ __ESTREE_TEST__:PASS:
                   "start": 2906,
                   "end": 2913,
                   "raw": "\"Error\"",
-                  "value": "Error"
+                  "value": "Error",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "MemberExpression",
@@ -1304,7 +1318,9 @@ __ESTREE_TEST__:PASS:
                   "start": 2932,
                   "end": 2935,
                   "raw": "\":\"",
-                  "value": ":"
+                  "value": ":",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "CallExpression",

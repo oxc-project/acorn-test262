@@ -34,7 +34,9 @@
                 "start": 700,
                 "end": 721,
                 "value": "one-1 two-2 three-3",
-                "raw": "\"one-1 two-2 three-3\""
+                "raw": "\"one-1 two-2 three-3\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -158,7 +160,9 @@
             "start": 820,
             "end": 894,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +239,9 @@
             "start": 956,
             "end": 1035,
             "value": "The value of __split.length is expected to equal the value of __string.length",
-            "raw": "'The value of __split.length is expected to equal the value of __string.length'"
+            "raw": "'The value of __split.length is expected to equal the value of __string.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +271,9 @@
               "start": 1225,
               "end": 1226,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -405,7 +413,9 @@
                   "start": 1307,
                   "end": 1365,
                   "value": "__string.charAt(\"0\") must return the value of __split[i]",
-                  "raw": "'__string.charAt(\"0\") must return the value of __split[i]'"
+                  "raw": "'__string.charAt(\"0\") must return the value of __split[i]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

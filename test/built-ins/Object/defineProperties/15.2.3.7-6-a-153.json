@@ -151,7 +151,9 @@
                                     "start": 502,
                                     "end": 512,
                                     "value": 4294967297,
-                                    "raw": "4294967297"
+                                    "raw": "4294967297",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -224,14 +226,18 @@
             "start": 558,
             "end": 559,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 561,
             "end": 573,
             "value": "arr.length",
-            "raw": "'arr.length'"
+            "raw": "'arr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

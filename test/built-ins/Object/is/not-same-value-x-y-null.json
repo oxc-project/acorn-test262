@@ -60,7 +60,9 @@
                 "start": 399,
                 "end": 403,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 406,
             "end": 411,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 448,
             "value": "`Object.is(null)` returns `false`",
-            "raw": "\"`Object.is(null)` returns `false`\""
+            "raw": "\"`Object.is(null)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                 "start": 478,
                 "end": 482,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -156,14 +164,18 @@
             "start": 496,
             "end": 501,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 549,
             "value": "`Object.is(null, undefined)` returns `false`",
-            "raw": "\"`Object.is(null, undefined)` returns `false`\""
+            "raw": "\"`Object.is(null, undefined)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

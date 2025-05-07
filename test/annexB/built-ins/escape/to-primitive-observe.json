@@ -70,7 +70,9 @@
                               "start": 385,
                               "end": 413,
                               "value": "this should be unreachable",
-                              "raw": "'this should be unreachable'"
+                              "raw": "'this should be unreachable'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -127,7 +129,9 @@
                               "start": 456,
                               "end": 484,
                               "value": "this should be unreachable",
-                              "raw": "'this should be unreachable'"
+                              "raw": "'this should be unreachable'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -186,7 +190,9 @@
                           "start": 524,
                           "end": 533,
                           "value": "success",
-                          "raw": "'success'"
+                          "raw": "'success'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -253,7 +259,9 @@
             "start": 571,
             "end": 580,
             "value": "success",
-            "raw": "'success'"
+            "raw": "'success'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

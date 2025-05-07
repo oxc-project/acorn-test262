@@ -23,7 +23,9 @@
             "start": 1193,
             "end": 1198,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1212,
             "end": 1217,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -107,7 +111,9 @@
             "start": 1246,
             "end": 1247,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -181,7 +187,9 @@
                         "start": 1303,
                         "end": 1307,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -226,7 +234,9 @@
                         "start": 1324,
                         "end": 1328,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -262,7 +272,9 @@
                         "start": 1340,
                         "end": 1341,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -314,14 +326,18 @@
                         "start": 1372,
                         "end": 1376,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1378,
                         "end": 1392,
                         "value": "value of `x`",
-                        "raw": "'value of `x`'"
+                        "raw": "'value of `x`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -366,14 +382,18 @@
                         "start": 1423,
                         "end": 1427,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1429,
                         "end": 1447,
                         "value": "value of `flag1`",
-                        "raw": "'value of `flag1`'"
+                        "raw": "'value of `flag1`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -418,14 +438,18 @@
                         "start": 1474,
                         "end": 1475,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1477,
                         "end": 1491,
                         "value": "value of `y`",
-                        "raw": "'value of `y`'"
+                        "raw": "'value of `y`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -470,14 +494,18 @@
                         "start": 1522,
                         "end": 1527,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1529,
                         "end": 1547,
                         "value": "value of `flag2`",
-                        "raw": "'value of `flag2`'"
+                        "raw": "'value of `flag2`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -503,7 +531,9 @@
                       "start": 1567,
                       "end": 1568,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -645,14 +675,18 @@
                       "start": 1655,
                       "end": 1656,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1658,
                       "end": 1690,
                       "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "raw": "'iteration occurred as expected'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

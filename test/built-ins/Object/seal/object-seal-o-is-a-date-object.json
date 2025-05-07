@@ -34,7 +34,9 @@
                 "start": 248,
                 "end": 249,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -158,7 +160,9 @@
             "start": 337,
             "end": 356,
             "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "raw": "'preCheck !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +221,9 @@
             "start": 392,
             "end": 427,
             "value": "Object.isSealed(dateObj) !== true",
-            "raw": "'Object.isSealed(dateObj) !== true'"
+            "raw": "'Object.isSealed(dateObj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

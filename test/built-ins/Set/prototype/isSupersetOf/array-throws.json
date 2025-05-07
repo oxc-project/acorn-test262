@@ -39,14 +39,18 @@
                     "start": 308,
                     "end": 309,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 311,
                     "end": 312,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -81,7 +85,9 @@
                 "start": 328,
                 "end": 329,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -183,7 +189,9 @@
             "start": 408,
             "end": 447,
             "value": "Throws an error when an array is used",
-            "raw": "\"Throws an error when an array is used\""
+            "raw": "\"Throws an error when an array is used\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

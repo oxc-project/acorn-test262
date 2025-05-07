@@ -35,14 +35,18 @@
                   "start": 358,
                   "end": 364,
                   "value": "prop",
-                  "raw": "\"prop\""
+                  "raw": "\"prop\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 366,
                   "end": 369,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -234,7 +238,9 @@
             "start": 506,
             "end": 517,
             "value": "newFunc()",
-            "raw": "'newFunc()'"
+            "raw": "'newFunc()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

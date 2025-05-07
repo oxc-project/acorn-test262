@@ -99,7 +99,9 @@
             "start": 325,
             "end": 367,
             "value": "async functions return promise instances",
-            "raw": "\"async functions return promise instances\""
+            "raw": "\"async functions return promise instances\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

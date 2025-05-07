@@ -34,7 +34,9 @@
                 "start": 597,
                 "end": 604,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -66,7 +68,8 @@
             "regex": {
               "pattern": "l",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -122,7 +125,9 @@
                 "start": 660,
                 "end": 664,
                 "value": "hi",
-                "raw": "\"hi\""
+                "raw": "\"hi\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -189,7 +194,9 @@
             "start": 720,
             "end": 794,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,14 +254,18 @@
             "start": 832,
             "end": 833,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 835,
             "end": 869,
             "value": "The value of __split.length is 0",
-            "raw": "'The value of __split.length is 0'"
+            "raw": "'The value of __split.length is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -97,7 +97,9 @@
                     "start": 302,
                     "end": 303,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -109,14 +111,18 @@
             "start": 309,
             "end": 324,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 395,
             "value": "Object.prototype.toString.call(new Date(0)) returns [object Date]",
-            "raw": "\"Object.prototype.toString.call(new Date(0)) returns [object Date]\""
+            "raw": "\"Object.prototype.toString.call(new Date(0)) returns [object Date]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -227,7 +233,9 @@
                         "start": 466,
                         "end": 467,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -242,14 +250,18 @@
             "start": 474,
             "end": 489,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 568,
             "value": "Object.prototype.toString.call(Object(new Date(0))) returns [object Date]",
-            "raw": "\"Object.prototype.toString.call(Object(new Date(0))) returns [object Date]\""
+            "raw": "\"Object.prototype.toString.call(Object(new Date(0))) returns [object Date]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

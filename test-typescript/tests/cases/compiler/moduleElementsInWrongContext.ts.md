@@ -153,7 +153,9 @@ __ESTREE_TEST__:PASS:
             "start": 124,
             "end": 133,
             "raw": "\"ambient\"",
-            "value": "ambient"
+            "value": "ambient",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -234,7 +236,9 @@ __ESTREE_TEST__:PASS:
             "start": 213,
             "end": 222,
             "raw": "\"ambient\"",
-            "value": "ambient"
+            "value": "ambient",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -284,7 +288,9 @@ __ESTREE_TEST__:PASS:
             "start": 273,
             "end": 282,
             "raw": "\"ambient\"",
-            "value": "ambient"
+            "value": "ambient",
+            "regex": null,
+            "bigint": null
           },
           "specifiers": [
             {
@@ -444,7 +450,9 @@ __ESTREE_TEST__:PASS:
               "start": 409,
               "end": 414,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -459,7 +467,9 @@ __ESTREE_TEST__:PASS:
             "start": 442,
             "end": 451,
             "raw": "\"ambient\"",
-            "value": "ambient"
+            "value": "ambient",
+            "regex": null,
+            "bigint": null
           },
           "specifiers": [
             {
@@ -489,7 +499,9 @@ __ESTREE_TEST__:PASS:
             "start": 473,
             "end": 482,
             "raw": "\"ambient\"",
-            "value": "ambient"
+            "value": "ambient",
+            "regex": null,
+            "bigint": null
           },
           "specifiers": [
             {
@@ -519,7 +531,9 @@ __ESTREE_TEST__:PASS:
             "start": 508,
             "end": 517,
             "raw": "\"ambient\"",
-            "value": "ambient"
+            "value": "ambient",
+            "regex": null,
+            "bigint": null
           },
           "specifiers": [
             {
@@ -559,7 +573,9 @@ __ESTREE_TEST__:PASS:
             "start": 530,
             "end": 539,
             "raw": "\"ambient\"",
-            "value": "ambient"
+            "value": "ambient",
+            "regex": null,
+            "bigint": null
           },
           "specifiers": []
         }

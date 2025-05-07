@@ -34,7 +34,9 @@
                 "start": 251,
                 "end": 254,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -158,7 +160,9 @@
             "start": 340,
             "end": 359,
             "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "raw": "'preCheck !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +221,9 @@
             "start": 394,
             "end": 428,
             "value": "Object.isSealed(strObj) !== true",
-            "raw": "'Object.isSealed(strObj) !== true'"
+            "raw": "'Object.isSealed(strObj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

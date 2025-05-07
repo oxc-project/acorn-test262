@@ -54,6 +54,7 @@
                   "end": 735,
                   "value": null,
                   "raw": "13849764_999_999_999n",
+                  "regex": null,
                   "bigint": "13849764999999999"
                 }
               },
@@ -62,7 +63,9 @@
                 "start": 737,
                 "end": 742,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -132,7 +135,9 @@
                       "start": 941,
                       "end": 954,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -204,6 +209,7 @@
               "end": 1023,
               "value": null,
               "raw": "13849765_000_000_000n",
+              "regex": null,
               "bigint": "13849765000000000"
             }
           }

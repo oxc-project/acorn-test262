@@ -41,7 +41,9 @@
                   "start": 552,
                   "end": 558,
                   "value": "avis",
-                  "raw": "\"avis\""
+                  "raw": "\"avis\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -74,7 +76,9 @@
               "start": 658,
               "end": 667,
               "value": "valueOf",
-              "raw": "\"valueOf\""
+              "raw": "\"valueOf\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -111,7 +115,9 @@
                   "start": 708,
                   "end": 763,
                   "value": "#1: var __proto={phylum:\"avis\"}; \"valueOf\" in __proto",
-                  "raw": "'#1: var __proto={phylum:\"avis\"}; \"valueOf\" in __proto'"
+                  "raw": "'#1: var __proto={phylum:\"avis\"}; \"valueOf\" in __proto'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -171,7 +177,9 @@
                 "start": 878,
                 "end": 885,
                 "value": "robin",
-                "raw": "\"robin\""
+                "raw": "\"robin\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -273,7 +281,9 @@
               "start": 1039,
               "end": 1047,
               "value": "phylum",
-              "raw": "\"phylum\""
+              "raw": "\"phylum\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -310,7 +320,9 @@
                   "start": 1092,
                   "end": 1241,
                   "value": "#2: var __proto={phylum:\"avis\"}; function Robin(){this.name=\"robin\"}; Robin.prototype=__proto; var __my__robin = new Robin; \"phylum\" in __my__robin",
-                  "raw": "'#2: var __proto={phylum:\"avis\"}; function Robin(){this.name=\"robin\"}; Robin.prototype=__proto; var __my__robin = new Robin; \"phylum\" in __my__robin'"
+                  "raw": "'#2: var __proto={phylum:\"avis\"}; function Robin(){this.name=\"robin\"}; Robin.prototype=__proto; var __my__robin = new Robin; \"phylum\" in __my__robin'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -352,7 +364,9 @@
             "start": 1449,
             "end": 1457,
             "value": "phylum",
-            "raw": "\"phylum\""
+            "raw": "\"phylum\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,7 +400,9 @@
                     "start": 1487,
                     "end": 1669,
                     "value": "#3: var __proto={phylum:\"avis\"}; function Robin(){this.name=\"robin\"}; Robin.prototype=__proto; var __my__robin = new Robin; __my__robin.hasOwnProperty(\"phylum\") === false. Actual: ",
-                    "raw": "'#3: var __proto={phylum:\"avis\"}; function Robin(){this.name=\"robin\"}; Robin.prototype=__proto; var __my__robin = new Robin; __my__robin.hasOwnProperty(\"phylum\") === false. Actual: '"
+                    "raw": "'#3: var __proto={phylum:\"avis\"}; function Robin(){this.name=\"robin\"}; Robin.prototype=__proto; var __my__robin = new Robin; __my__robin.hasOwnProperty(\"phylum\") === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -422,7 +438,9 @@
                           "start": 1700,
                           "end": 1708,
                           "value": "phylum",
-                          "raw": "\"phylum\""
+                          "raw": "\"phylum\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

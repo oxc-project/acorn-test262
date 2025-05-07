@@ -47,7 +47,9 @@
                 "start": 301,
                 "end": 308,
                 "value": "this;",
-                "raw": "'this;'"
+                "raw": "'this;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

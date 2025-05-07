@@ -365,14 +365,18 @@ __ESTREE_TEST__:PASS:
                                       "start": 245,
                                       "end": 249,
                                       "raw": "true",
-                                      "value": true
+                                      "value": true,
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 251,
                                       "end": 255,
                                       "raw": "null",
-                                      "value": null
+                                      "value": null,
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "callee": {

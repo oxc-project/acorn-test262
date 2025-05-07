@@ -17,7 +17,9 @@
         "start": 340,
         "end": 341,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -34,7 +36,9 @@
         "start": 344,
         "end": 345,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -46,7 +50,9 @@
         "start": 347,
         "end": 348,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -63,7 +69,9 @@
         "start": 351,
         "end": 352,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -121,7 +121,9 @@
             "start": 568,
             "end": 602,
             "value": "[object Intl.RelativeTimeFormat]",
-            "raw": "\"[object Intl.RelativeTimeFormat]\""
+            "raw": "\"[object Intl.RelativeTimeFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +236,9 @@
                     "start": 681,
                     "end": 685,
                     "value": "en",
-                    "raw": "\"en\""
+                    "raw": "\"en\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -246,7 +250,9 @@
             "start": 689,
             "end": 723,
             "value": "[object Intl.RelativeTimeFormat]",
-            "raw": "\"[object Intl.RelativeTimeFormat]\""
+            "raw": "\"[object Intl.RelativeTimeFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -96,7 +96,9 @@
           "start": 803,
           "end": 807,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -204,7 +206,9 @@
           "start": 866,
           "end": 874,
           "value": "string",
-          "raw": "'string'"
+          "raw": "'string'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -533,7 +537,9 @@
           "start": 1061,
           "end": 1063,
           "value": 86,
-          "raw": "86"
+          "raw": "86",
+          "regex": null,
+          "bigint": null
         }
       }
     },

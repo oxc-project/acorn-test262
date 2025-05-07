@@ -59,7 +59,8 @@
                     "regex": {
                       "pattern": ".",
                       "flags": ""
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "MemberExpression",
@@ -89,7 +90,9 @@
                     "start": 460,
                     "end": 462,
                     "value": "",
-                    "raw": "''"
+                    "raw": "''",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -228,7 +231,9 @@
           "start": 576,
           "end": 580,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -277,7 +282,9 @@
             "start": 617,
             "end": 637,
             "value": "this value is null",
-            "raw": "'this value is null'"
+            "raw": "'this value is null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +310,9 @@
           "start": 653,
           "end": 657,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -352,7 +361,9 @@
             "start": 694,
             "end": 717,
             "value": "this value is Boolean",
-            "raw": "'this value is Boolean'"
+            "raw": "'this value is Boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -378,7 +389,9 @@
           "start": 733,
           "end": 735,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -427,7 +440,9 @@
             "start": 772,
             "end": 794,
             "value": "this value is String",
-            "raw": "'this value is String'"
+            "raw": "'this value is String'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,7 +523,9 @@
             "start": 855,
             "end": 877,
             "value": "this value is Symbol",
-            "raw": "'this value is Symbol'"
+            "raw": "'this value is Symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +551,9 @@
           "start": 893,
           "end": 894,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -583,7 +602,9 @@
             "start": 931,
             "end": 953,
             "value": "this value is Number",
-            "raw": "'this value is Number'"
+            "raw": "'this value is Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

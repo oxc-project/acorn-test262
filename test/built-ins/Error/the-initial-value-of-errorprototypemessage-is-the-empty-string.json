@@ -51,7 +51,9 @@
                   "start": 278,
                   "end": 281,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -70,14 +72,18 @@
             "start": 292,
             "end": 295,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 297,
             "end": 331,
             "value": "The value of err1.message is \"a\"",
-            "raw": "'The value of err1.message is \"a\"'"
+            "raw": "'The value of err1.message is \"a\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -131,7 +137,9 @@
                   "start": 361,
                   "end": 364,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -149,14 +157,18 @@
             "start": 375,
             "end": 378,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 414,
             "value": "The value of err1.message is \"a\"",
-            "raw": "'The value of err1.message is \"a\"'"
+            "raw": "'The value of err1.message is \"a\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,7 +231,9 @@
                   "start": 448,
                   "end": 457,
                   "value": "message",
-                  "raw": "'message'"
+                  "raw": "'message'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -285,7 +299,9 @@
                   "start": 496,
                   "end": 505,
                   "value": "message",
-                  "raw": "'message'"
+                  "raw": "'message'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -385,7 +401,9 @@
             "start": 572,
             "end": 637,
             "value": "The value of new Error().message equals Error.prototype.message",
-            "raw": "'The value of new Error().message equals Error.prototype.message'"
+            "raw": "'The value of new Error().message equals Error.prototype.message'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

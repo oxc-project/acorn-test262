@@ -84,7 +84,9 @@
                         "start": 1005,
                         "end": 1008,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrayExpression",
@@ -96,7 +98,9 @@
                             "start": 1011,
                             "end": 1012,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

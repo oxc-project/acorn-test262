@@ -44,7 +44,9 @@
                 "start": 871,
                 "end": 880,
                 "value": "Ì",
-                "raw": "\"I\\u0300\""
+                "raw": "\"I\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +63,9 @@
                 "start": 899,
                 "end": 903,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -71,14 +75,18 @@
             "start": 908,
             "end": 923,
             "value": "i̇̀",
-            "raw": "\"i\\u0307\\u0300\""
+            "raw": "\"i\\u0307\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 927,
             "end": 986,
             "value": "LATIN CAPITAL LETTER I followed by COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -125,7 +133,9 @@
                 "start": 1010,
                 "end": 1019,
                 "value": "J̀",
-                "raw": "\"J\\u0300\""
+                "raw": "\"J\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -142,7 +152,9 @@
                 "start": 1038,
                 "end": 1042,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -152,14 +164,18 @@
             "start": 1047,
             "end": 1062,
             "value": "j̇̀",
-            "raw": "\"j\\u0307\\u0300\""
+            "raw": "\"j\\u0307\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1066,
             "end": 1125,
             "value": "LATIN CAPITAL LETTER J followed by COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,7 +222,9 @@
                 "start": 1149,
                 "end": 1163,
                 "value": "Į̀",
-                "raw": "\"\\u012E\\u0300\""
+                "raw": "\"\\u012E\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -223,7 +241,9 @@
                 "start": 1182,
                 "end": 1186,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -233,14 +253,18 @@
             "start": 1191,
             "end": 1211,
             "value": "į̇̀",
-            "raw": "\"\\u012F\\u0307\\u0300\""
+            "raw": "\"\\u012F\\u0307\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1215,
             "end": 1286,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +311,9 @@
                 "start": 1560,
                 "end": 1575,
                 "value": "I𝆅",
-                "raw": "\"I\\uD834\\uDD85\""
+                "raw": "\"I\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -304,7 +330,9 @@
                 "start": 1594,
                 "end": 1598,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -314,14 +342,18 @@
             "start": 1603,
             "end": 1624,
             "value": "i̇𝆅",
-            "raw": "\"i\\u0307\\uD834\\uDD85\""
+            "raw": "\"i\\u0307\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1628,
             "end": 1694,
             "value": "LATIN CAPITAL LETTER I followed by MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +400,9 @@
                 "start": 1718,
                 "end": 1733,
                 "value": "J𝆅",
-                "raw": "\"J\\uD834\\uDD85\""
+                "raw": "\"J\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -385,7 +419,9 @@
                 "start": 1752,
                 "end": 1756,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -395,14 +431,18 @@
             "start": 1761,
             "end": 1782,
             "value": "j̇𝆅",
-            "raw": "\"j\\u0307\\uD834\\uDD85\""
+            "raw": "\"j\\u0307\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1786,
             "end": 1852,
             "value": "LATIN CAPITAL LETTER J followed by MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -449,7 +489,9 @@
                 "start": 1876,
                 "end": 1896,
                 "value": "Į𝆅",
-                "raw": "\"\\u012E\\uD834\\uDD85\""
+                "raw": "\"\\u012E\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -466,7 +508,9 @@
                 "start": 1915,
                 "end": 1919,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -476,14 +520,18 @@
             "start": 1924,
             "end": 1950,
             "value": "į̇𝆅",
-            "raw": "\"\\u012F\\u0307\\uD834\\uDD85\""
+            "raw": "\"\\u012F\\u0307\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1954,
             "end": 2032,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK followed by MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +578,9 @@
                 "start": 2355,
                 "end": 2370,
                 "value": "Ì̥",
-                "raw": "\"I\\u0325\\u0300\""
+                "raw": "\"I\\u0325\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -547,7 +597,9 @@
                 "start": 2389,
                 "end": 2393,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -557,14 +609,18 @@
             "start": 2398,
             "end": 2419,
             "value": "i̥̇̀",
-            "raw": "\"i\\u0307\\u0325\\u0300\""
+            "raw": "\"i\\u0307\\u0325\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2423,
             "end": 2504,
             "value": "LATIN CAPITAL LETTER I followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -611,7 +667,9 @@
                 "start": 2528,
                 "end": 2543,
                 "value": "J̥̀",
-                "raw": "\"J\\u0325\\u0300\""
+                "raw": "\"J\\u0325\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -628,7 +686,9 @@
                 "start": 2562,
                 "end": 2566,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -638,14 +698,18 @@
             "start": 2571,
             "end": 2592,
             "value": "j̥̇̀",
-            "raw": "\"j\\u0307\\u0325\\u0300\""
+            "raw": "\"j\\u0307\\u0325\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2596,
             "end": 2677,
             "value": "LATIN CAPITAL LETTER J followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -692,7 +756,9 @@
                 "start": 2701,
                 "end": 2721,
                 "value": "Į̥̀",
-                "raw": "\"\\u012E\\u0325\\u0300\""
+                "raw": "\"\\u012E\\u0325\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -709,7 +775,9 @@
                 "start": 2740,
                 "end": 2744,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -719,14 +787,18 @@
             "start": 2749,
             "end": 2775,
             "value": "į̥̇̀",
-            "raw": "\"\\u012F\\u0307\\u0325\\u0300\""
+            "raw": "\"\\u012F\\u0307\\u0325\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2779,
             "end": 2872,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING RING BELOW, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -773,7 +845,9 @@
                 "start": 3230,
                 "end": 3251,
                 "value": "Ì𐇽",
-                "raw": "\"I\\uD800\\uDDFD\\u0300\""
+                "raw": "\"I\\uD800\\uDDFD\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -790,7 +864,9 @@
                 "start": 3270,
                 "end": 3274,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -800,14 +876,18 @@
             "start": 3279,
             "end": 3306,
             "value": "i𐇽̇̀",
-            "raw": "\"i\\u0307\\uD800\\uDDFD\\u0300\""
+            "raw": "\"i\\u0307\\uD800\\uDDFD\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3310,
             "end": 3414,
             "value": "LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -854,7 +934,9 @@
                 "start": 3438,
                 "end": 3459,
                 "value": "J𐇽̀",
-                "raw": "\"J\\uD800\\uDDFD\\u0300\""
+                "raw": "\"J\\uD800\\uDDFD\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -871,7 +953,9 @@
                 "start": 3478,
                 "end": 3482,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -881,14 +965,18 @@
             "start": 3487,
             "end": 3514,
             "value": "j𐇽̇̀",
-            "raw": "\"j\\u0307\\uD800\\uDDFD\\u0300\""
+            "raw": "\"j\\u0307\\uD800\\uDDFD\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3518,
             "end": 3622,
             "value": "LATIN CAPITAL LETTER J followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -935,7 +1023,9 @@
                 "start": 3646,
                 "end": 3672,
                 "value": "Į𐇽̀",
-                "raw": "\"\\u012E\\uD800\\uDDFD\\u0300\""
+                "raw": "\"\\u012E\\uD800\\uDDFD\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -952,7 +1042,9 @@
                 "start": 3691,
                 "end": 3695,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -962,14 +1054,18 @@
             "start": 3700,
             "end": 3732,
             "value": "į𐇽̇̀",
-            "raw": "\"\\u012F\\u0307\\uD800\\uDDFD\\u0300\""
+            "raw": "\"\\u012F\\u0307\\uD800\\uDDFD\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3736,
             "end": 3852,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1016,7 +1112,9 @@
                 "start": 4194,
                 "end": 4215,
                 "value": "I̥𝆅",
-                "raw": "\"I\\u0325\\uD834\\uDD85\""
+                "raw": "\"I\\u0325\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1033,7 +1131,9 @@
                 "start": 4234,
                 "end": 4238,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1043,14 +1143,18 @@
             "start": 4243,
             "end": 4270,
             "value": "i̥̇𝆅",
-            "raw": "\"i\\u0307\\u0325\\uD834\\uDD85\""
+            "raw": "\"i\\u0307\\u0325\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4274,
             "end": 4362,
             "value": "LATIN CAPITAL LETTER I followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1097,7 +1201,9 @@
                 "start": 4386,
                 "end": 4407,
                 "value": "J̥𝆅",
-                "raw": "\"J\\u0325\\uD834\\uDD85\""
+                "raw": "\"J\\u0325\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1114,7 +1220,9 @@
                 "start": 4426,
                 "end": 4430,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1124,14 +1232,18 @@
             "start": 4435,
             "end": 4462,
             "value": "j̥̇𝆅",
-            "raw": "\"j\\u0307\\u0325\\uD834\\uDD85\""
+            "raw": "\"j\\u0307\\u0325\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4466,
             "end": 4554,
             "value": "LATIN CAPITAL LETTER J followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1178,7 +1290,9 @@
                 "start": 4578,
                 "end": 4604,
                 "value": "Į̥𝆅",
-                "raw": "\"\\u012E\\u0325\\uD834\\uDD85\""
+                "raw": "\"\\u012E\\u0325\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1195,7 +1309,9 @@
                 "start": 4623,
                 "end": 4627,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1205,14 +1321,18 @@
             "start": 4632,
             "end": 4664,
             "value": "į̥̇𝆅",
-            "raw": "\"\\u012F\\u0307\\u0325\\uD834\\uDD85\""
+            "raw": "\"\\u012F\\u0307\\u0325\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4668,
             "end": 4768,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by COMBINING RING BELOW, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1259,7 +1379,9 @@
                 "start": 5145,
                 "end": 5172,
                 "value": "I𐇽𝆅",
-                "raw": "\"I\\uD800\\uDDFD\\uD834\\uDD85\""
+                "raw": "\"I\\uD800\\uDDFD\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1276,7 +1398,9 @@
                 "start": 5191,
                 "end": 5195,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1286,14 +1410,18 @@
             "start": 5200,
             "end": 5233,
             "value": "i𐇽̇𝆅",
-            "raw": "\"i\\u0307\\uD800\\uDDFD\\uD834\\uDD85\""
+            "raw": "\"i\\u0307\\uD800\\uDDFD\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5237,
             "end": 5348,
             "value": "LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1340,7 +1468,9 @@
                 "start": 5372,
                 "end": 5399,
                 "value": "J𐇽𝆅",
-                "raw": "\"J\\uD800\\uDDFD\\uD834\\uDD85\""
+                "raw": "\"J\\uD800\\uDDFD\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1357,7 +1487,9 @@
                 "start": 5418,
                 "end": 5422,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1367,14 +1499,18 @@
             "start": 5427,
             "end": 5460,
             "value": "j𐇽̇𝆅",
-            "raw": "\"j\\u0307\\uD800\\uDDFD\\uD834\\uDD85\""
+            "raw": "\"j\\u0307\\uD800\\uDDFD\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5464,
             "end": 5575,
             "value": "LATIN CAPITAL LETTER J followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1421,7 +1557,9 @@
                 "start": 5599,
                 "end": 5631,
                 "value": "Į𐇽𝆅",
-                "raw": "\"\\u012E\\uD800\\uDDFD\\uD834\\uDD85\""
+                "raw": "\"\\u012E\\uD800\\uDDFD\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1438,7 +1576,9 @@
                 "start": 5650,
                 "end": 5654,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1448,14 +1588,18 @@
             "start": 5659,
             "end": 5697,
             "value": "į𐇽̇𝆅",
-            "raw": "\"\\u012F\\u0307\\uD800\\uDDFD\\uD834\\uDD85\""
+            "raw": "\"\\u012F\\u0307\\uD800\\uDDFD\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5701,
             "end": 5824,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1502,7 +1646,9 @@
                 "start": 6013,
                 "end": 6023,
                 "value": "IÀ",
-                "raw": "\"IA\\u0300\""
+                "raw": "\"IA\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1519,7 +1665,9 @@
                 "start": 6042,
                 "end": 6046,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1529,14 +1677,18 @@
             "start": 6051,
             "end": 6061,
             "value": "ià",
-            "raw": "\"ia\\u0300\""
+            "raw": "\"ia\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6065,
             "end": 6148,
             "value": "LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1583,7 +1735,9 @@
                 "start": 6172,
                 "end": 6182,
                 "value": "JÀ",
-                "raw": "\"JA\\u0300\""
+                "raw": "\"JA\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1600,7 +1754,9 @@
                 "start": 6201,
                 "end": 6205,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1610,14 +1766,18 @@
             "start": 6210,
             "end": 6220,
             "value": "jà",
-            "raw": "\"ja\\u0300\""
+            "raw": "\"ja\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6224,
             "end": 6307,
             "value": "LATIN CAPITAL LETTER J followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1664,7 +1824,9 @@
                 "start": 6331,
                 "end": 6346,
                 "value": "ĮÀ",
-                "raw": "\"\\u012EA\\u0300\""
+                "raw": "\"\\u012EA\\u0300\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1681,7 +1843,9 @@
                 "start": 6365,
                 "end": 6369,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1691,14 +1855,18 @@
             "start": 6374,
             "end": 6389,
             "value": "įà",
-            "raw": "\"\\u012Fa\\u0300\""
+            "raw": "\"\\u012Fa\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6393,
             "end": 6488,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK followed by LATIN CAPITAL LETTER A, COMBINING GRAVE ACCENT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1745,7 +1913,9 @@
                 "start": 6696,
                 "end": 6712,
                 "value": "IA𝆅",
-                "raw": "\"IA\\uD834\\uDD85\""
+                "raw": "\"IA\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1762,7 +1932,9 @@
                 "start": 6731,
                 "end": 6735,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1772,14 +1944,18 @@
             "start": 6740,
             "end": 6756,
             "value": "ia𝆅",
-            "raw": "\"ia\\uD834\\uDD85\""
+            "raw": "\"ia\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6760,
             "end": 6850,
             "value": "LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1826,7 +2002,9 @@
                 "start": 6874,
                 "end": 6890,
                 "value": "JA𝆅",
-                "raw": "\"JA\\uD834\\uDD85\""
+                "raw": "\"JA\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1843,7 +2021,9 @@
                 "start": 6909,
                 "end": 6913,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1853,14 +2033,18 @@
             "start": 6918,
             "end": 6934,
             "value": "ja𝆅",
-            "raw": "\"ja\\uD834\\uDD85\""
+            "raw": "\"ja\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6938,
             "end": 7028,
             "value": "LATIN CAPITAL LETTER J followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER J followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER J followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1907,7 +2091,9 @@
                 "start": 7052,
                 "end": 7073,
                 "value": "ĮA𝆅",
-                "raw": "\"\\u012EA\\uD834\\uDD85\""
+                "raw": "\"\\u012EA\\uD834\\uDD85\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1924,7 +2110,9 @@
                 "start": 7092,
                 "end": 7096,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1934,14 +2122,18 @@
             "start": 7101,
             "end": 7122,
             "value": "įa𝆅",
-            "raw": "\"\\u012Fa\\uD834\\uDD85\""
+            "raw": "\"\\u012Fa\\uD834\\uDD85\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7126,
             "end": 7237,
             "value": "LATIN CAPITAL LETTER I WITH OGONEK (U+012E) followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT",
-            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK (U+012E) followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH OGONEK (U+012E) followed by LATIN CAPITAL LETTER A, MUSICAL SYMBOL COMBINING DOIT\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1988,7 +2180,9 @@
                 "start": 7309,
                 "end": 7317,
                 "value": "Ì",
-                "raw": "\"\\u00CC\""
+                "raw": "\"\\u00CC\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2005,7 +2199,9 @@
                 "start": 7336,
                 "end": 7340,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2015,14 +2211,18 @@
             "start": 7345,
             "end": 7365,
             "value": "i̇̀",
-            "raw": "\"\\u0069\\u0307\\u0300\""
+            "raw": "\"\\u0069\\u0307\\u0300\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7369,
             "end": 7404,
             "value": "LATIN CAPITAL LETTER I WITH GRAVE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH GRAVE\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH GRAVE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2069,7 +2269,9 @@
                 "start": 7428,
                 "end": 7436,
                 "value": "Í",
-                "raw": "\"\\u00CD\""
+                "raw": "\"\\u00CD\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2086,7 +2288,9 @@
                 "start": 7455,
                 "end": 7459,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2096,14 +2300,18 @@
             "start": 7464,
             "end": 7484,
             "value": "i̇́",
-            "raw": "\"\\u0069\\u0307\\u0301\""
+            "raw": "\"\\u0069\\u0307\\u0301\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7488,
             "end": 7523,
             "value": "LATIN CAPITAL LETTER I WITH ACUTE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH ACUTE\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH ACUTE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2150,7 +2358,9 @@
                 "start": 7547,
                 "end": 7555,
                 "value": "Ĩ",
-                "raw": "\"\\u0128\""
+                "raw": "\"\\u0128\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2167,7 +2377,9 @@
                 "start": 7574,
                 "end": 7578,
                 "value": "lt",
-                "raw": "\"lt\""
+                "raw": "\"lt\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -2177,14 +2389,18 @@
             "start": 7583,
             "end": 7603,
             "value": "i̇̃",
-            "raw": "\"\\u0069\\u0307\\u0303\""
+            "raw": "\"\\u0069\\u0307\\u0303\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 7607,
             "end": 7642,
             "value": "LATIN CAPITAL LETTER I WITH TILDE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH TILDE\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH TILDE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

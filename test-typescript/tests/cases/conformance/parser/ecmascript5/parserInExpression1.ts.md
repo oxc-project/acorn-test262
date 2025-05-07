@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
               "start": 12,
               "end": 15,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "ObjectExpression",
@@ -42,7 +44,9 @@ __ESTREE_TEST__:PASS:
                     "start": 21,
                     "end": 24,
                     "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init",
                   "method": false,
@@ -53,7 +57,9 @@ __ESTREE_TEST__:PASS:
                     "start": 26,
                     "end": 30,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

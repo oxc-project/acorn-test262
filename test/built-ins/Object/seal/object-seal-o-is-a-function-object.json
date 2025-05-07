@@ -154,7 +154,9 @@
             "start": 331,
             "end": 350,
             "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "raw": "'preCheck !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +215,9 @@
             "start": 382,
             "end": 413,
             "value": "Object.isSealed(fun) !== true",
-            "raw": "'Object.isSealed(fun) !== true'"
+            "raw": "'Object.isSealed(fun) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

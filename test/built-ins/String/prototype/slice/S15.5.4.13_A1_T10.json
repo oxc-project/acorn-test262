@@ -59,7 +59,9 @@
                           "start": 387,
                           "end": 388,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -93,7 +95,9 @@
             "start": 410,
             "end": 426,
             "value": "5ABBBABAB",
-            "raw": "\"\\u0035ABBBABAB\""
+            "raw": "\"\\u0035ABBBABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -188,14 +192,18 @@
                             "start": 577,
                             "end": 578,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 580,
                             "end": 581,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -216,7 +224,9 @@
           "start": 595,
           "end": 600,
           "value": "BBB",
-          "raw": "\"BBB\""
+          "raw": "\"BBB\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -248,7 +258,9 @@
                     "start": 629,
                     "end": 795,
                     "value": "#1: var x; var __obj = {valueOf:function(){return 2;}}; var __str = \"5ABBBABAB\"; __str.slice(__obj, function(){return __str.slice(0,1);}()) === \"BBB\". Actual: ",
-                    "raw": "'#1: var x; var __obj = {valueOf:function(){return 2;}}; var __str = \"\\u0035ABBBABAB\"; __str.slice(__obj, function(){return __str.slice(0,1);}()) === \"BBB\". Actual: '"
+                    "raw": "'#1: var x; var __obj = {valueOf:function(){return 2;}}; var __str = \"\\u0035ABBBABAB\"; __str.slice(__obj, function(){return __str.slice(0,1);}()) === \"BBB\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -332,14 +344,18 @@
                                       "start": 853,
                                       "end": 854,
                                       "value": 0,
-                                      "raw": "0"
+                                      "raw": "0",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 856,
                                       "end": 857,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

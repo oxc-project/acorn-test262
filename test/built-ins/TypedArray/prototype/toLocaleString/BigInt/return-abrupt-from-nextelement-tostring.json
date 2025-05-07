@@ -23,7 +23,9 @@
             "start": 1358,
             "end": 1359,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -158,7 +160,9 @@
                                   "start": 1480,
                                   "end": 1481,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "consequent": {
@@ -273,6 +277,7 @@
                                 "end": 1620,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -281,6 +286,7 @@
                                 "end": 1624,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               }
                             ]
@@ -311,7 +317,9 @@
                       "start": 1638,
                       "end": 1639,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -440,14 +448,18 @@
                         "start": 1745,
                         "end": 1746,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1748,
                         "end": 1775,
                         "value": "abrupt from a nextElement",
-                        "raw": "\"abrupt from a nextElement\""
+                        "raw": "\"abrupt from a nextElement\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

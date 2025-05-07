@@ -115,7 +115,9 @@
             "start": 517,
             "end": 518,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -145,7 +147,9 @@
               "start": 533,
               "end": 534,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -167,7 +171,9 @@
           "start": 540,
           "end": 541,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -294,7 +300,9 @@
             "start": 609,
             "end": 610,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +351,9 @@
               "start": 644,
               "end": 645,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -363,7 +373,9 @@
               "start": 660,
               "end": 661,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -373,7 +385,9 @@
             "start": 666,
             "end": 746,
             "value": "The realm's template cache is for source code locations in a top-level script",
-            "raw": "'The realm\\'s template cache is for source code locations in a top-level script'"
+            "raw": "'The realm\\'s template cache is for source code locations in a top-level script'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

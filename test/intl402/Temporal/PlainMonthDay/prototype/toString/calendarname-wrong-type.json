@@ -47,21 +47,27 @@
                 "start": 754,
                 "end": 755,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 757,
                 "end": 758,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 760,
                 "end": 769,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -102,14 +108,18 @@
             "start": 816,
             "end": 830,
             "value": "calendarName",
-            "raw": "\"calendarName\""
+            "raw": "\"calendarName\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 838,
             "value": "auto",
-            "raw": "\"auto\""
+            "raw": "\"auto\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -240,7 +250,9 @@
                   "start": 943,
                   "end": 969,
                   "value": "1972-05-02[u-ca=gregory]",
-                  "raw": "\"1972-05-02[u-ca=gregory]\""
+                  "raw": "\"1972-05-02[u-ca=gregory]\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

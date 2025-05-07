@@ -48,6 +48,7 @@
                 "end": 336,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 338,
                 "end": 343,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -146,7 +149,9 @@
                       "start": 434,
                       "end": 435,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -198,14 +203,18 @@
             "start": 468,
             "end": 507,
             "value": "2001-09-09T01:46:40.123987+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 564,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,7 +282,9 @@
                       "start": 629,
                       "end": 630,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -325,14 +336,18 @@
             "start": 663,
             "end": 702,
             "value": "2001-09-09T01:46:40.123987+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123987+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 759,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,7 +436,9 @@
                       "start": 850,
                       "end": 851,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -473,14 +490,18 @@
             "start": 884,
             "end": 920,
             "value": "2001-09-09T01:46:40.123+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 977,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -548,7 +569,9 @@
                       "start": 1042,
                       "end": 1043,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -600,14 +623,18 @@
             "start": 1076,
             "end": 1112,
             "value": "2001-09-09T01:46:40.123+00:00[UTC]",
-            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\""
+            "raw": "\"2001-09-09T01:46:40.123+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1114,
             "end": 1169,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 18,
               "end": 21,
               "raw": "123",
-              "value": 123
+              "value": 123,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -71,7 +73,9 @@ __ESTREE_TEST__:PASS:
               "start": 32,
               "end": 34,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -102,7 +106,9 @@ __ESTREE_TEST__:PASS:
               "start": 44,
               "end": 51,
               "raw": "\"hello\"",
-              "value": "hello"
+              "value": "hello",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -248,7 +254,9 @@ __ESTREE_TEST__:PASS:
                         "start": 124,
                         "end": 131,
                         "raw": "\"hello\"",
-                        "value": "hello"
+                        "value": "hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -346,7 +354,9 @@ __ESTREE_TEST__:PASS:
               "start": 185,
               "end": 191,
               "raw": "\"test\"",
-              "value": "test"
+              "value": "test",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -497,7 +507,9 @@ __ESTREE_TEST__:PASS:
                             "start": 288,
                             "end": 294,
                             "raw": "\"test\"",
-                            "value": "test"
+                            "value": "test",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -571,7 +583,9 @@ __ESTREE_TEST__:PASS:
                 "start": 326,
                 "end": 330,
                 "raw": "1234",
-                "value": 1234
+                "value": 1234,
+                "regex": null,
+                "bigint": null
               },
               "expression": true,
               "generator": false,

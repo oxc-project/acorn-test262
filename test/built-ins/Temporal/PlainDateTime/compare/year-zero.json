@@ -47,28 +47,36 @@
                 "start": 296,
                 "end": 300,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 303,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 306,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 308,
                 "end": 310,
                 "value": 15,
-                "raw": "15"
+                "raw": "15",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -101,28 +109,36 @@
                 "start": 340,
                 "end": 355,
                 "value": "-000000-12-07",
-                "raw": "\"-000000-12-07\""
+                "raw": "\"-000000-12-07\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 383,
                 "value": "-000000-12-07T03:24:30",
-                "raw": "\"-000000-12-07T03:24:30\""
+                "raw": "\"-000000-12-07T03:24:30\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 417,
                 "value": "-000000-12-07T03:24:30+01:00",
-                "raw": "\"-000000-12-07T03:24:30+01:00\""
+                "raw": "\"-000000-12-07T03:24:30+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 456,
                 "value": "-000000-12-07T03:24:30+00:00[UTC]",
-                "raw": "\"-000000-12-07T03:24:30+00:00[UTC]\""
+                "raw": "\"-000000-12-07T03:24:30+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -280,7 +296,9 @@
                         "start": 579,
                         "end": 636,
                         "value": "Cannot use minus zero as extended year (first argument)",
-                        "raw": "\"Cannot use minus zero as extended year (first argument)\""
+                        "raw": "\"Cannot use minus zero as extended year (first argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -387,7 +405,9 @@
                         "start": 726,
                         "end": 784,
                         "value": "Cannot use minus zero as extended year (second argument)",
-                        "raw": "\"Cannot use minus zero as extended year (second argument)\""
+                        "raw": "\"Cannot use minus zero as extended year (second argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

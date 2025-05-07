@@ -67,7 +67,9 @@
             "start": 316,
             "end": 324,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -125,7 +127,9 @@
                               "start": 356,
                               "end": 357,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -135,7 +139,9 @@
                             "start": 361,
                             "end": 374,
                             "value": "accumulator",
-                            "raw": "\"accumulator\""
+                            "raw": "\"accumulator\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -148,7 +154,9 @@
                           "start": 387,
                           "end": 388,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -174,7 +182,9 @@
                   "start": 411,
                   "end": 415,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -292,14 +302,18 @@
             "start": 487,
             "end": 500,
             "value": "accumulator",
-            "raw": "\"accumulator\""
+            "raw": "\"accumulator\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 553,
             "value": "Array.prototype.reduce.call(obj, function () { })",
-            "raw": "'Array.prototype.reduce.call(obj, function () { })'"
+            "raw": "'Array.prototype.reduce.call(obj, function () { })'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

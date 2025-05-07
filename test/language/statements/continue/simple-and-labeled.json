@@ -23,7 +23,9 @@
             "start": 231,
             "end": 232,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -57,7 +59,9 @@
                 "start": 254,
                 "end": 255,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -79,7 +83,9 @@
             "start": 261,
             "end": 263,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": null,
@@ -184,14 +190,18 @@
             "start": 330,
             "end": 332,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 364,
             "value": "The value of `count` is `10`",
-            "raw": "\"The value of `count` is `10`\""
+            "raw": "\"The value of `count` is `10`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

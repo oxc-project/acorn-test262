@@ -35,7 +35,9 @@
                   "start": 588,
                   "end": 645,
                   "value": "assert.sameValue(f(), \"outer declaration\");switch (1) {",
-                  "raw": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'"
+                  "raw": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -43,7 +45,9 @@
                   "start": 650,
                   "end": 662,
                   "value": "  default:",
-                  "raw": "'  default:'"
+                  "raw": "'  default:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -52,7 +56,9 @@
                 "start": 667,
                 "end": 717,
                 "value": "    function f() { return \"inner declaration\"; }",
-                "raw": "'    function f() { return \"inner declaration\"; }'"
+                "raw": "'    function f() { return \"inner declaration\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -61,7 +67,9 @@
               "start": 722,
               "end": 781,
               "value": "}  function f() {    return \"outer declaration\";  }",
-              "raw": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
+              "raw": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

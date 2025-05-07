@@ -80,7 +80,9 @@
                           "start": 359,
                           "end": 366,
                           "value": "this;",
-                          "raw": "'this;'"
+                          "raw": "'this;'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

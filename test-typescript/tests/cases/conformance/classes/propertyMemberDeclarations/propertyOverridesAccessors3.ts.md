@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 28,
               "end": 58,
               "raw": "'rustling noise in the bushes'",
-              "value": "rustling noise in the bushes"
+              "value": "rustling noise in the bushes",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -443,7 +445,9 @@ __ESTREE_TEST__:PASS:
               "start": 395,
               "end": 402,
               "raw": "'RAWR!'",
-              "value": "RAWR!"
+              "value": "RAWR!",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

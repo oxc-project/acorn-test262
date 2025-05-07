@@ -23,7 +23,9 @@
             "start": 543,
             "end": 544,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 560,
             "end": 561,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 580,
             "end": 581,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 598,
             "end": 599,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -173,7 +181,9 @@
                       "start": 692,
                       "end": 693,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -208,7 +218,9 @@
               "start": 712,
               "end": 713,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -599,7 +611,9 @@
               "start": 1637,
               "end": 1638,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -700,6 +714,7 @@
                   "end": 1759,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -867,6 +882,7 @@
                   "end": 2119,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -900,7 +916,9 @@
               "start": 2186,
               "end": 2187,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -962,7 +980,9 @@
                   "start": 2224,
                   "end": 2225,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -1032,7 +1052,9 @@
                         "start": 2278,
                         "end": 2279,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1045,7 +1067,9 @@
                 "start": 2286,
                 "end": 2287,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "body": {
@@ -1093,7 +1117,9 @@
                   "start": 2318,
                   "end": 2319,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1104,7 +1130,9 @@
                     "start": 2340,
                     "end": 2400,
                     "value": "Atomics.notify(i64a, WAIT_INDEX, 1) returns 1, at index = ",
-                    "raw": "'Atomics.notify(i64a, WAIT_INDEX, 1) returns 1, at index = '"
+                    "raw": "'Atomics.notify(i64a, WAIT_INDEX, 1) returns 1, at index = '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1190,7 +1218,9 @@
                   "start": 2451,
                   "end": 2455,
                   "value": "ok",
-                  "raw": "'ok'"
+                  "raw": "'ok'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1201,7 +1231,9 @@
                     "start": 2476,
                     "end": 2526,
                     "value": "$262.agent.getReport() returns \"ok\", at index = ",
-                    "raw": "'$262.agent.getReport() returns \"ok\", at index = '"
+                    "raw": "'$262.agent.getReport() returns \"ok\", at index = '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1314,7 +1346,9 @@
                       "start": 2608,
                       "end": 2663,
                       "value": "$262.agent.getReport() returns the value of `started[",
-                      "raw": "'$262.agent.getReport() returns the value of `started['"
+                      "raw": "'$262.agent.getReport() returns the value of `started['",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -1330,7 +1364,9 @@
                     "start": 2670,
                     "end": 2674,
                     "value": "]`",
-                    "raw": "']`'"
+                    "raw": "']`'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

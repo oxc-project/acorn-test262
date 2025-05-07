@@ -23,7 +23,9 @@
             "start": 445,
             "end": 499,
             "value": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            "raw": "'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'"
+            "raw": "'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 523,
             "end": 535,
             "value": "0123456789",
-            "raw": "'0123456789'"
+            "raw": "'0123456789'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -112,7 +116,9 @@
                 "start": 569,
                 "end": 571,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,14 +128,18 @@
             "start": 574,
             "end": 576,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 578,
             "end": 611,
             "value": "the empty string is not escaped",
-            "raw": "'the empty string is not escaped'"
+            "raw": "'the empty string is not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +186,9 @@
                 "start": 633,
                 "end": 635,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -513,7 +525,9 @@
             "start": 832,
             "end": 863,
             "value": "ASCII letters are not escaped",
-            "raw": "'ASCII letters are not escaped'"
+            "raw": "'ASCII letters are not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -560,7 +574,9 @@
                 "start": 887,
                 "end": 889,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -897,7 +913,9 @@
             "start": 1091,
             "end": 1123,
             "value": "decimal digits are not escaped",
-            "raw": "'decimal digits are not escaped'"
+            "raw": "'decimal digits are not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -960,7 +978,9 @@
                 "start": 1158,
                 "end": 1173,
                 "value": ".a1b2c3D4E5F6",
-                "raw": "'.a1b2c3D4E5F6'"
+                "raw": "'.a1b2c3D4E5F6'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -970,14 +990,18 @@
             "start": 1176,
             "end": 1193,
             "value": "\\.a1b2c3D4E5F6",
-            "raw": "'\\\\.a1b2c3D4E5F6'"
+            "raw": "'\\\\.a1b2c3D4E5F6'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1195,
             "end": 1262,
             "value": "mixed string with ASCII letters and decimal digits is not escaped",
-            "raw": "'mixed string with ASCII letters and decimal digits is not escaped'"
+            "raw": "'mixed string with ASCII letters and decimal digits is not escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

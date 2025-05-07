@@ -19,7 +19,8 @@ __ESTREE_TEST__:PASS:
           "flags": "g",
           "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)"
         },
-        "value": null
+        "value": null,
+        "bigint": null
       }
     }
   ],

@@ -121,7 +121,9 @@
                           "start": 1633,
                           "end": 1642,
                           "value": "Test262",
-                          "raw": "'Test262'"
+                          "raw": "'Test262'",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -141,7 +143,9 @@
                           "start": 1653,
                           "end": 1658,
                           "value": "foo",
-                          "raw": "'foo'"
+                          "raw": "'foo'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -155,7 +159,9 @@
             "start": 1667,
             "end": 1741,
             "value": "access to a not defined private field in object should throw a TypeError",
-            "raw": "'access to a not defined private field in object should throw a TypeError'"
+            "raw": "'access to a not defined private field in object should throw a TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

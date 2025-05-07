@@ -140,6 +140,7 @@
                             "end": 767,
                             "value": null,
                             "raw": "42n",
+                            "regex": null,
                             "bigint": "42"
                           },
                           {
@@ -154,6 +155,7 @@
                             "end": 776,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         ]
@@ -403,7 +405,9 @@
                         "start": 991,
                         "end": 1021,
                         "value": "interrupted source iteration",
-                        "raw": "\"interrupted source iteration\""
+                        "raw": "\"interrupted source iteration\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

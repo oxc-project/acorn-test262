@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,7 +67,9 @@
           "start": 652,
           "end": 656,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -129,7 +132,9 @@
             "start": 709,
             "end": 736,
             "value": "RegExp returns new object",
-            "raw": "\"RegExp returns new object\""
+            "raw": "\"RegExp returns new object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

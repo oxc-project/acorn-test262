@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 61,
                 "end": 73,
                 "raw": "'MainModule'",
-                "value": "MainModule"
+                "value": "MainModule",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -240,7 +242,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 26,
         "raw": "\"SubModule\"",
-        "value": "SubModule"
+        "value": "SubModule",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -276,7 +280,9 @@ __ESTREE_TEST__:PASS:
                 "start": 324,
                 "end": 335,
                 "raw": "'SubModule'",
-                "value": "SubModule"
+                "value": "SubModule",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -410,7 +416,9 @@ __ESTREE_TEST__:PASS:
         "start": 278,
         "end": 290,
         "raw": "\"MainModule\"",
-        "value": "MainModule"
+        "value": "MainModule",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

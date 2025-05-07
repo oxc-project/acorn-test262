@@ -47,21 +47,27 @@
                 "start": 709,
                 "end": 715,
                 "value": "Mike",
-                "raw": "'Mike'"
+                "raw": "'Mike'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 717,
                 "end": 723,
                 "value": "Rick",
-                "raw": "'Rick'"
+                "raw": "'Rick'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 725,
                 "end": 730,
                 "value": "Leo",
-                "raw": "'Leo'"
+                "raw": "'Leo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,14 +128,18 @@
             "start": 764,
             "end": 765,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 813,
             "value": "The value of a1.length is expected to be 3",
-            "raw": "'The value of a1.length is expected to be 3'"
+            "raw": "'The value of a1.length is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +188,9 @@
               "start": 837,
               "end": 838,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -188,14 +200,18 @@
             "start": 841,
             "end": 847,
             "value": "Mike",
-            "raw": "'Mike'"
+            "raw": "'Mike'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 894,
             "value": "The value of a1[0] is expected to be \"Mike\"",
-            "raw": "'The value of a1[0] is expected to be \"Mike\"'"
+            "raw": "'The value of a1[0] is expected to be \"Mike\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +260,9 @@
               "start": 917,
               "end": 918,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -254,14 +272,18 @@
             "start": 921,
             "end": 927,
             "value": "Rick",
-            "raw": "'Rick'"
+            "raw": "'Rick'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 929,
             "end": 974,
             "value": "The value of a1[1] is expected to be \"Rick\"",
-            "raw": "'The value of a1[1] is expected to be \"Rick\"'"
+            "raw": "'The value of a1[1] is expected to be \"Rick\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -310,7 +332,9 @@
               "start": 997,
               "end": 998,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -320,14 +344,18 @@
             "start": 1001,
             "end": 1006,
             "value": "Leo",
-            "raw": "'Leo'"
+            "raw": "'Leo'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1008,
             "end": 1052,
             "value": "The value of a1[2] is expected to be \"Leo\"",
-            "raw": "'The value of a1[2] is expected to be \"Leo\"'"
+            "raw": "'The value of a1[2] is expected to be \"Leo\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,14 +411,18 @@
                 "start": 1085,
                 "end": 1090,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1092,
                 "end": 1096,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -457,14 +489,18 @@
             "start": 1141,
             "end": 1142,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1190,
             "value": "The value of a2.length is expected to be 4",
-            "raw": "'The value of a2.length is expected to be 4'"
+            "raw": "'The value of a2.length is expected to be 4'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +549,9 @@
               "start": 1214,
               "end": 1215,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -529,7 +567,9 @@
             "start": 1229,
             "end": 1280,
             "value": "The value of a2[0] is expected to equal undefined",
-            "raw": "'The value of a2[0] is expected to equal undefined'"
+            "raw": "'The value of a2[0] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -578,7 +618,9 @@
               "start": 1303,
               "end": 1304,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -588,14 +630,18 @@
             "start": 1307,
             "end": 1312,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1314,
             "end": 1358,
             "value": "The value of a2[1] is expected to be false",
-            "raw": "'The value of a2[1] is expected to be false'"
+            "raw": "'The value of a2[1] is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -644,7 +690,9 @@
               "start": 1381,
               "end": 1382,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -654,14 +702,18 @@
             "start": 1385,
             "end": 1389,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1391,
             "end": 1434,
             "value": "The value of a2[2] is expected to be null",
-            "raw": "'The value of a2[2] is expected to be null'"
+            "raw": "'The value of a2[2] is expected to be null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -710,7 +762,9 @@
               "start": 1457,
               "end": 1458,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -726,7 +780,9 @@
             "start": 1472,
             "end": 1523,
             "value": "The value of a2[3] is expected to equal undefined",
-            "raw": "'The value of a2[3] is expected to equal undefined'"
+            "raw": "'The value of a2[3] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -829,14 +885,18 @@
             "start": 1576,
             "end": 1577,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1579,
             "end": 1623,
             "value": "The value of a3.length is expected to be 0",
-            "raw": "'The value of a3.length is expected to be 0'"
+            "raw": "'The value of a3.length is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

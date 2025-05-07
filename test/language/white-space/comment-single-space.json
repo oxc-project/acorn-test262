@@ -23,7 +23,9 @@
             "start": 265,
             "end": 309,
             "value": "//  single line   comment  ",
-            "raw": "\"//\\u0020 single line \\u0020 comment \\u0020\""
+            "raw": "\"//\\u0020 single line \\u0020 comment \\u0020\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -49,7 +51,9 @@
             "start": 331,
             "end": 332,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 339,
             "end": 390,
             "value": "//  single line   comment   x = 1;",
-            "raw": "\"//\\u0020 single line \\u0020 comment \\u0020 x = 1;\""
+            "raw": "\"//\\u0020 single line \\u0020 comment \\u0020 x = 1;\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +107,9 @@
           "start": 403,
           "end": 404,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -133,7 +141,9 @@
                     "start": 433,
                     "end": 529,
                     "value": "#1: var x = 0; eval(\"//\\u0020 single line \\u0020 comment \\u0020 x = 1;\"); x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; eval(\"//\\\\u0020 single line \\\\u0020 comment \\\\u0020 x = 1;\"); x === 0. Actual: '"
+                    "raw": "'#1: var x = 0; eval(\"//\\\\u0020 single line \\\\u0020 comment \\\\u0020 x = 1;\"); x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

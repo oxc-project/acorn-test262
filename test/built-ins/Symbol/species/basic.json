@@ -41,7 +41,9 @@
             "start": 305,
             "end": 320,
             "value": "Symbol exists",
-            "raw": "\"Symbol exists\""
+            "raw": "\"Symbol exists\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -98,7 +100,9 @@
             "start": 360,
             "end": 383,
             "value": "Symbol.species exists",
-            "raw": "\"Symbol.species exists\""
+            "raw": "\"Symbol.species exists\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -130,7 +134,9 @@
             "start": 410,
             "end": 419,
             "value": "species",
-            "raw": "\"species\""
+            "raw": "\"species\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -155,7 +161,9 @@
                   "start": 435,
                   "end": 440,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -177,7 +185,9 @@
                   "start": 456,
                   "end": 461,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -199,7 +209,9 @@
                   "start": 479,
                   "end": 484,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

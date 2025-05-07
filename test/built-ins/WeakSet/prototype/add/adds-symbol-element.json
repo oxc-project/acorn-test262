@@ -65,7 +65,9 @@
                 "start": 397,
                 "end": 412,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,7 +107,9 @@
                 "start": 432,
                 "end": 447,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -145,7 +149,9 @@
                 "start": 467,
                 "end": 492,
                 "value": "a different description",
-                "raw": "'a different description'"
+                "raw": "'a different description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -334,7 +340,9 @@
             "start": 567,
             "end": 583,
             "value": "Regular symbol",
-            "raw": "'Regular symbol'"
+            "raw": "'Regular symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +408,9 @@
             "start": 606,
             "end": 664,
             "value": "Symbols with the same description don't alias each other",
-            "raw": "\"Symbols with the same description don't alias each other\""
+            "raw": "\"Symbols with the same description don't alias each other\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -459,7 +469,9 @@
             "start": 686,
             "end": 729,
             "value": "Regular symbol with different description",
-            "raw": "'Regular symbol with different description'"
+            "raw": "'Regular symbol with different description'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -531,7 +543,9 @@
             "start": 766,
             "end": 785,
             "value": "Well-known symbol",
-            "raw": "'Well-known symbol'"
+            "raw": "'Well-known symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

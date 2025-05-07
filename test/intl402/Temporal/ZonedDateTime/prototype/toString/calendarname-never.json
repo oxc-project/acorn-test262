@@ -39,14 +39,18 @@
                     "start": 313,
                     "end": 355,
                     "value": "1970-01-01T01:01:01.987654321+00:00[UTC]",
-                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\""
+                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 357,
                     "end": 371,
                     "value": "built-in ISO",
-                    "raw": "\"built-in ISO\""
+                    "raw": "\"built-in ISO\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -65,7 +69,9 @@
                         "start": 378,
                         "end": 387,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -74,14 +80,18 @@
                     "start": 390,
                     "end": 432,
                     "value": "1970-01-01T01:01:01.987654321+00:00[UTC]",
-                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\""
+                    "raw": "\"1970-01-01T01:01:01.987654321+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 434,
                     "end": 454,
                     "value": "built-in Gregorian",
-                    "raw": "\"built-in Gregorian\""
+                    "raw": "\"built-in Gregorian\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -191,6 +201,7 @@
                       "end": 573,
                       "value": null,
                       "raw": "3661_987_654_321n",
+                      "regex": null,
                       "bigint": "3661987654321"
                     },
                     {
@@ -198,7 +209,9 @@
                       "start": 575,
                       "end": 580,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "SpreadElement",
@@ -279,7 +292,9 @@
                             "start": 639,
                             "end": 646,
                             "value": "never",
-                            "raw": "\"never\""
+                            "raw": "\"never\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }

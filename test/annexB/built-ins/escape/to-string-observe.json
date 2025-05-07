@@ -55,7 +55,9 @@
           "start": 316,
           "end": 318,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -126,7 +128,9 @@
                           "start": 364,
                           "end": 374,
                           "value": "toString",
-                          "raw": "'toString'"
+                          "raw": "'toString'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -182,7 +186,9 @@
                           "start": 416,
                           "end": 425,
                           "value": "valueOf",
-                          "raw": "'valueOf'"
+                          "raw": "'valueOf'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -259,7 +265,9 @@
             "start": 471,
             "end": 481,
             "value": "toString",
-            "raw": "'toString'"
+            "raw": "'toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,7 +293,9 @@
           "start": 491,
           "end": 493,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -327,7 +337,9 @@
                 "start": 515,
                 "end": 519,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -378,7 +390,9 @@
                           "start": 556,
                           "end": 565,
                           "value": "valueOf",
-                          "raw": "'valueOf'"
+                          "raw": "'valueOf'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -455,7 +469,9 @@
             "start": 611,
             "end": 620,
             "value": "valueOf",
-            "raw": "'valueOf'"
+            "raw": "'valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -481,7 +497,9 @@
           "start": 630,
           "end": 632,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -552,7 +570,9 @@
                           "start": 678,
                           "end": 688,
                           "value": "toString",
-                          "raw": "'toString'"
+                          "raw": "'toString'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     },
@@ -619,7 +639,9 @@
                           "start": 745,
                           "end": 754,
                           "value": "valueOf",
-                          "raw": "'valueOf'"
+                          "raw": "'valueOf'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -696,7 +718,9 @@
             "start": 800,
             "end": 817,
             "value": "toStringvalueOf",
-            "raw": "'toStringvalueOf'"
+            "raw": "'toStringvalueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

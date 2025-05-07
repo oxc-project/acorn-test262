@@ -23,7 +23,9 @@
             "start": 2052,
             "end": 2059,
             "value": "outer",
-            "raw": "\"outer\""
+            "raw": "\"outer\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 2078,
             "end": 2079,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +131,9 @@
                                     "start": 2109,
                                     "end": 2110,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -149,7 +155,9 @@
                                     "start": 2115,
                                     "end": 2116,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -171,7 +179,9 @@
                                     "start": 2121,
                                     "end": 2122,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -193,7 +203,9 @@
                                     "start": 2127,
                                     "end": 2128,
                                     "value": 3,
-                                    "raw": "3"
+                                    "raw": "3",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -239,21 +251,27 @@
                             "start": 2149,
                             "end": 2150,
                             "value": 7,
-                            "raw": "7"
+                            "raw": "7",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2152,
                             "end": 2153,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2155,
                             "end": 2156,
                             "value": 9,
-                            "raw": "9"
+                            "raw": "9",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -303,7 +321,9 @@
                               "start": 2185,
                               "end": 2186,
                               "value": 7,
-                              "raw": "7"
+                              "raw": "7",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -348,7 +368,9 @@
                               "start": 2213,
                               "end": 2214,
                               "value": 8,
-                              "raw": "8"
+                              "raw": "8",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -393,7 +415,9 @@
                               "start": 2241,
                               "end": 2242,
                               "value": 9,
-                              "raw": "9"
+                              "raw": "9",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -482,7 +506,9 @@
                               "start": 2305,
                               "end": 2306,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -527,14 +553,18 @@
                               "start": 2339,
                               "end": 2346,
                               "value": "outer",
-                              "raw": "\"outer\""
+                              "raw": "\"outer\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2348,
                               "end": 2394,
                               "value": "the length prop is not set as a binding name",
-                              "raw": "\"the length prop is not set as a binding name\""
+                              "raw": "\"the length prop is not set as a binding name\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -571,7 +601,9 @@
                               "start": 2425,
                               "end": 2426,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -677,14 +709,18 @@
             "start": 2485,
             "end": 2486,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2488,
             "end": 2527,
             "value": "generator method invoked exactly once",
-            "raw": "'generator method invoked exactly once'"
+            "raw": "'generator method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

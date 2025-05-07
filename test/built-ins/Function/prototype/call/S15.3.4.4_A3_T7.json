@@ -62,7 +62,9 @@
                             "start": 417,
                             "end": 443,
                             "value": "this.feat=\"in da haus\"",
-                            "raw": "\"this.feat=\\\"in da haus\\\"\""
+                            "raw": "\"this.feat=\\\"in da haus\\\"\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -88,7 +90,9 @@
                           "start": 455,
                           "end": 456,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -145,7 +149,9 @@
               "start": 489,
               "end": 495,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -155,14 +161,18 @@
             "start": 498,
             "end": 510,
             "value": "in da haus",
-            "raw": "\"in da haus\""
+            "raw": "\"in da haus\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 570,
             "value": "The value of this[\"feat\"] is expected to be \"in da haus\"",
-            "raw": "'The value of this[\"feat\"] is expected to be \"in da haus\"'"
+            "raw": "'The value of this[\"feat\"] is expected to be \"in da haus\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

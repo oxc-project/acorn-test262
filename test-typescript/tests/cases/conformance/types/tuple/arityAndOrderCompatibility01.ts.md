@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
               "start": 52,
               "end": 53,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -52,7 +54,9 @@ __ESTREE_TEST__:PASS:
               "start": 67,
               "end": 68,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -99,7 +103,9 @@ __ESTREE_TEST__:PASS:
                   "start": 90,
                   "end": 91,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -285,7 +291,9 @@ __ESTREE_TEST__:PASS:
                       "start": 148,
                       "end": 149,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -312,7 +320,9 @@ __ESTREE_TEST__:PASS:
                       "start": 163,
                       "end": 164,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -359,7 +369,9 @@ __ESTREE_TEST__:PASS:
                           "start": 186,
                           "end": 187,
                           "raw": "2",
-                          "value": 2
+                          "value": 2,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }

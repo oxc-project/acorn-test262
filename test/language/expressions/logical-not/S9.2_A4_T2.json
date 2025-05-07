@@ -32,7 +32,9 @@
                 "start": 381,
                 "end": 382,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -43,7 +45,9 @@
           "start": 388,
           "end": 392,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -75,7 +79,9 @@
                     "start": 421,
                     "end": 451,
                     "value": "#1: !(+0) === true. Actual: ",
-                    "raw": "'#1: !(+0) === true. Actual: '"
+                    "raw": "'#1: !(+0) === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -103,7 +109,9 @@
                             "start": 458,
                             "end": 459,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -146,7 +154,9 @@
                 "start": 488,
                 "end": 489,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -157,7 +167,9 @@
           "start": 495,
           "end": 499,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -189,7 +201,9 @@
                     "start": 528,
                     "end": 558,
                     "value": "#2: !(-0) === true. Actual: ",
-                    "raw": "'#2: !(-0) === true. Actual: '"
+                    "raw": "'#2: !(-0) === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -217,7 +231,9 @@
                             "start": 565,
                             "end": 566,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -276,7 +292,9 @@
           "start": 607,
           "end": 611,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -308,7 +326,9 @@
                     "start": 640,
                     "end": 678,
                     "value": "#3: !(Number.NaN) === true. Actual: ",
-                    "raw": "'#3: !(Number.NaN) === true. Actual: '"
+                    "raw": "'#3: !(Number.NaN) === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

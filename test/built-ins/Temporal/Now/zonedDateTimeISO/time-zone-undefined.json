@@ -184,7 +184,9 @@
             "start": 436,
             "end": 485,
             "value": "time zone string should be the system time zone",
-            "raw": "\"time zone string should be the system time zone\""
+            "raw": "\"time zone string should be the system time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -306,7 +308,9 @@
             "start": 605,
             "end": 654,
             "value": "time zone string should be the system time zone",
-            "raw": "\"time zone string should be the system time zone\""
+            "raw": "\"time zone string should be the system time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

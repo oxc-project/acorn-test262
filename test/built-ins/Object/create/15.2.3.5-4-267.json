@@ -107,7 +107,9 @@
                                     "start": 396,
                                     "end": 402,
                                     "value": "data",
-                                    "raw": "\"data\""
+                                    "raw": "\"data\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -172,7 +174,9 @@
                 "start": 448,
                 "end": 454,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +211,9 @@
             "start": 484,
             "end": 490,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

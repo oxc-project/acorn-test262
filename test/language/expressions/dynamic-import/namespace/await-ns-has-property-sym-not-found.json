@@ -34,7 +34,9 @@
                 "start": 3843,
                 "end": 3852,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -90,7 +92,9 @@
                       "start": 3907,
                       "end": 3933,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -150,14 +154,18 @@
                   "start": 3969,
                   "end": 3974,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 3976,
                   "end": 3980,
                   "value": "in",
-                  "raw": "'in'"
+                  "raw": "'in'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -235,14 +243,18 @@
                   "start": 4026,
                   "end": 4031,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4033,
                   "end": 4046,
                   "value": "Reflect.has",
-                  "raw": "'Reflect.has'"
+                  "raw": "'Reflect.has'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

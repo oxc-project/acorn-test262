@@ -23,7 +23,9 @@
             "start": 340,
             "end": 341,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -100,7 +102,9 @@
                     "start": 493,
                     "end": 536,
                     "value": "#1: y = 1; (delete y) === false. Actual: ",
-                    "raw": "'#1: y = 1; (delete y) === false. Actual: '"
+                    "raw": "'#1: y = 1; (delete y) === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -142,7 +146,9 @@
           "start": 733,
           "end": 734,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -174,7 +180,9 @@
                     "start": 763,
                     "end": 803,
                     "value": "#2: y = 1; delete y; y === 1. Actual: ",
-                    "raw": "'#2: y = 1; delete y; y === 1. Actual: '"
+                    "raw": "'#2: y = 1; delete y; y === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

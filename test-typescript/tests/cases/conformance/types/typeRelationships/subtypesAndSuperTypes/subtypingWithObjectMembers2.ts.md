@@ -366,7 +366,9 @@ __ESTREE_TEST__:PASS:
                     "start": 478,
                     "end": 479,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -403,7 +405,9 @@ __ESTREE_TEST__:PASS:
                     "start": 495,
                     "end": 498,
                     "raw": "2.0",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -464,7 +468,9 @@ __ESTREE_TEST__:PASS:
                     "start": 551,
                     "end": 552,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -501,7 +507,9 @@ __ESTREE_TEST__:PASS:
                     "start": 577,
                     "end": 578,
                     "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -568,7 +576,9 @@ __ESTREE_TEST__:PASS:
                     "start": 631,
                     "end": 634,
                     "raw": "'1'",
-                    "value": "1"
+                    "value": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -605,7 +615,9 @@ __ESTREE_TEST__:PASS:
                     "start": 650,
                     "end": 655,
                     "raw": "'2.0'",
-                    "value": "2.0"
+                    "value": "2.0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -666,7 +678,9 @@ __ESTREE_TEST__:PASS:
                     "start": 708,
                     "end": 711,
                     "raw": "'1'",
-                    "value": "1"
+                    "value": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -703,7 +717,9 @@ __ESTREE_TEST__:PASS:
                     "start": 736,
                     "end": 741,
                     "raw": "'2.0'",
-                    "value": "2.0"
+                    "value": "2.0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -1004,7 +1020,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1015,
                     "end": 1016,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1041,7 +1059,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1033,
                     "end": 1036,
                     "raw": "2.0",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1102,7 +1122,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1090,
                     "end": 1091,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1139,7 +1161,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1117,
                     "end": 1118,
                     "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1206,7 +1230,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1172,
                     "end": 1175,
                     "raw": "'1'",
-                    "value": "1"
+                    "value": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1243,7 +1269,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1192,
                     "end": 1197,
                     "raw": "'2.0'",
-                    "value": "2.0"
+                    "value": "2.0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1304,7 +1332,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1251,
                     "end": 1254,
                     "raw": "'1'",
-                    "value": "1"
+                    "value": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1341,7 +1371,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1280,
                     "end": 1285,
                     "raw": "'2.0'",
-                    "value": "2.0"
+                    "value": "2.0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,

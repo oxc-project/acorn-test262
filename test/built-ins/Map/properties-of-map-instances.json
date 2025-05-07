@@ -94,7 +94,9 @@
             "start": 340,
             "end": 400,
             "value": "`Object.getPrototypeOf(new Map())` returns `Map.prototype`",
-            "raw": "'`Object.getPrototypeOf(new Map())` returns `Map.prototype`'"
+            "raw": "'`Object.getPrototypeOf(new Map())` returns `Map.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

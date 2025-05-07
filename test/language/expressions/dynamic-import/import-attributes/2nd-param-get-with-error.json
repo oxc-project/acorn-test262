@@ -132,7 +132,9 @@
                   "start": 996,
                   "end": 1020,
                   "value": "./2nd-param_FIXTURE.js",
-                  "raw": "'./2nd-param_FIXTURE.js'"
+                  "raw": "'./2nd-param_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": {
                   "type": "Identifier",
@@ -185,7 +187,9 @@
                             "start": 1079,
                             "end": 1121,
                             "value": "Expected an error, but observed no error",
-                            "raw": "'Expected an error, but observed no error'"
+                            "raw": "'Expected an error, but observed no error'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

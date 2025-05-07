@@ -85,7 +85,9 @@ __ESTREE_TEST__:PASS:
             "start": 48,
             "end": 53,
             "raw": "\"wat\"",
-            "value": "wat"
+            "value": "wat",
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": null
         }

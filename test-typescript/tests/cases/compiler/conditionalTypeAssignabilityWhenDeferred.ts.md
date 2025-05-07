@@ -511,7 +511,9 @@ __ESTREE_TEST__:PASS:
                     "start": 368,
                     "end": 375,
                     "raw": "\"value\"",
-                    "value": "value"
+                    "value": "value",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -1213,7 +1215,9 @@ __ESTREE_TEST__:PASS:
                     "start": 879,
                     "end": 883,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   },
                   "test": {
                     "type": "BinaryExpression",
@@ -1258,7 +1262,9 @@ __ESTREE_TEST__:PASS:
                       "start": 873,
                       "end": 876,
                       "raw": "0.5",
-                      "value": 0.5
+                      "value": 0.5,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -1797,7 +1803,9 @@ __ESTREE_TEST__:PASS:
             "start": 1122,
             "end": 1126,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         },
         "falseType": {
@@ -1809,7 +1817,9 @@ __ESTREE_TEST__:PASS:
             "start": 1138,
             "end": 1141,
             "raw": "\"a\"",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           }
         },
         "trueType": {
@@ -1879,7 +1889,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1191,
                 "end": 1194,
                 "raw": "\"a\"",
-                "value": "a"
+                "value": "a",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -2250,7 +2262,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1411,
                         "end": 1412,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -2276,7 +2290,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1417,
                         "end": 1418,
                         "raw": "2",
-                        "value": 2
+                        "value": 2,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -4120,14 +4136,18 @@ __ESTREE_TEST__:PASS:
                           "start": 3251,
                           "end": 3257,
                           "raw": "\"prop\"",
-                          "value": "prop"
+                          "value": "prop",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 3259,
                           "end": 3263,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -4203,14 +4223,18 @@ __ESTREE_TEST__:PASS:
             "start": 3307,
             "end": 3313,
             "raw": "\"prop\"",
-            "value": "prop"
+            "value": "prop",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3315,
             "end": 3319,
             "raw": "\"hi\"",
-            "value": "hi"
+            "value": "hi",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

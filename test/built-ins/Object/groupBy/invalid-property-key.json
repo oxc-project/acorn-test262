@@ -76,7 +76,9 @@
                             "start": 621,
                             "end": 622,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -188,7 +190,9 @@
                                                   "start": 726,
                                                   "end": 746,
                                                   "value": "not a property key",
-                                                  "raw": "'not a property key'"
+                                                  "raw": "'not a property key'",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }

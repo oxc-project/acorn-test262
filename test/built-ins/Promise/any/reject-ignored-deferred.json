@@ -23,7 +23,9 @@
             "start": 1197,
             "end": 1198,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -608,14 +610,18 @@
                         "start": 1695,
                         "end": 1696,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1698,
                         "end": 1715,
                         "value": "callCount === 4",
-                        "raw": "\"callCount === 4\""
+                        "raw": "\"callCount === 4\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -676,7 +682,9 @@
                         "start": 1754,
                         "end": 1791,
                         "value": "The promise should not be rejected.",
-                        "raw": "\"The promise should not be rejected.\""
+                        "raw": "\"The promise should not be rejected.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

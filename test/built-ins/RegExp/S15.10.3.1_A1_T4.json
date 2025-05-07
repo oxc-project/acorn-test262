@@ -78,7 +78,9 @@
                   "start": 417,
                   "end": 418,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -121,7 +123,9 @@
           "start": 438,
           "end": 439,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -177,14 +181,18 @@
             "start": 481,
             "end": 482,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 539,
             "value": "The value of __instance.indicator is expected to be 1",
-            "raw": "'The value of __instance.indicator is expected to be 1'"
+            "raw": "'The value of __instance.indicator is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

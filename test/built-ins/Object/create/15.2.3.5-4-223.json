@@ -155,7 +155,9 @@
                 "start": 417,
                 "end": 423,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -197,7 +199,9 @@
           "start": 441,
           "end": 444,
           "value": 121,
-          "raw": "121"
+          "raw": "121",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -227,7 +231,9 @@
             "start": 467,
             "end": 489,
             "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "raw": "'hasProperty !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,14 +291,18 @@
             "start": 522,
             "end": 525,
             "value": 121,
-            "raw": "121"
+            "raw": "121",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 527,
             "end": 540,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -107,7 +107,9 @@ __ESTREE_TEST__:PASS:
           "start": 25,
           "end": 85,
           "raw": "\"./aliasWithInterfaceExportAssignmentUsedInVarInitializer_0\"",
-          "value": "./aliasWithInterfaceExportAssignmentUsedInVarInitializer_0"
+          "value": "./aliasWithInterfaceExportAssignmentUsedInVarInitializer_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

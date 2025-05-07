@@ -47,7 +47,9 @@
                 "start": 829,
                 "end": 854,
                 "value": "1; do { } while (false)",
-                "raw": "'1; do { } while (false)'"
+                "raw": "'1; do { } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 891,
                 "end": 919,
                 "value": "2; do { 3; } while (false)",
-                "raw": "'2; do { 3; } while (false)'"
+                "raw": "'2; do { 3; } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 922,
             "end": 923,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -191,7 +191,9 @@
             "start": 567,
             "end": 584,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,7 +306,9 @@
                     "start": 651,
                     "end": 655,
                     "value": "en",
-                    "raw": "\"en\""
+                    "raw": "\"en\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -316,7 +320,9 @@
             "start": 659,
             "end": 676,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -67,14 +67,18 @@
             "start": 390,
             "end": 401,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 407,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -99,7 +103,9 @@
                     "start": 431,
                     "end": 440,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -167,7 +173,9 @@
             "start": 489,
             "end": 560,
             "value": "The value of Function.prototype is expected to equal the value of obj",
-            "raw": "'The value of Function.prototype is expected to equal the value of obj'"
+            "raw": "'The value of Function.prototype is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,7 +255,9 @@
                   "start": 622,
                   "end": 662,
                   "value": "Function.prototype() returns undefined",
-                  "raw": "'Function.prototype() returns undefined'"
+                  "raw": "'Function.prototype() returns undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -294,7 +304,9 @@
                       "start": 704,
                       "end": 773,
                       "value": "#2.1: the Function.prototype property has the attributes ReadOnly: ",
-                      "raw": "'#2.1: the Function.prototype property has the attributes ReadOnly: '"
+                      "raw": "'#2.1: the Function.prototype property has the attributes ReadOnly: '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {

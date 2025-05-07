@@ -201,7 +201,9 @@
                       "start": 740,
                       "end": 746,
                       "value": "attr",
-                      "raw": "\"attr\""
+                      "raw": "\"attr\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "in",
                     "right": {

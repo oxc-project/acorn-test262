@@ -54,7 +54,9 @@
                     "start": 320,
                     "end": 365,
                     "value": "#1.1: undefined() throw TypeError. Actual: ",
-                    "raw": "'#1.1: undefined() throw TypeError. Actual: '"
+                    "raw": "'#1.1: undefined() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -126,7 +128,9 @@
                   "start": 424,
                   "end": 428,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -158,7 +162,9 @@
                             "start": 459,
                             "end": 504,
                             "value": "#1.2: undefined() throw TypeError. Actual: ",
-                            "raw": "'#1.2: undefined() throw TypeError. Actual: '"
+                            "raw": "'#1.2: undefined() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -261,7 +267,9 @@
                     "start": 592,
                     "end": 648,
                     "value": "#2.1: var x = undefined; x() throw TypeError. Actual: ",
-                    "raw": "'#2.1: var x = undefined; x() throw TypeError. Actual: '"
+                    "raw": "'#2.1: var x = undefined; x() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -333,7 +341,9 @@
                   "start": 707,
                   "end": 711,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -365,7 +375,9 @@
                             "start": 742,
                             "end": 798,
                             "value": "#2.2: var x = undefined; x() throw TypeError. Actual: ",
-                            "raw": "'#2.2: var x = undefined; x() throw TypeError. Actual: '"
+                            "raw": "'#2.2: var x = undefined; x() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

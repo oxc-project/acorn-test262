@@ -44,7 +44,9 @@
                 "start": 472,
                 "end": 475,
                 "value": "_",
-                "raw": "'_'"
+                "raw": "'_'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,7 +65,9 @@
             "start": 485,
             "end": 503,
             "value": "<small>_</small>",
-            "raw": "'<small>_</small>'"
+            "raw": "'<small>_</small>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -110,7 +114,9 @@
                 "start": 523,
                 "end": 526,
                 "value": "<",
-                "raw": "'<'"
+                "raw": "'<'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -129,7 +135,9 @@
             "start": 536,
             "end": 554,
             "value": "<small><</small>",
-            "raw": "'<small><</small>'"
+            "raw": "'<small><</small>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,7 +226,9 @@
                 "start": 602,
                 "end": 606,
                 "value": 42,
-                "raw": "0x2A"
+                "raw": "0x2A",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -228,7 +238,9 @@
             "start": 609,
             "end": 628,
             "value": "<small>42</small>",
-            "raw": "'<small>42</small>'"
+            "raw": "'<small>42</small>'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +472,9 @@
                         "start": 783,
                         "end": 787,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

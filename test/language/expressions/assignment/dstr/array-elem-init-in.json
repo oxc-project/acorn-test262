@@ -112,7 +112,9 @@
                     "start": 761,
                     "end": 764,
                     "value": "x",
-                    "raw": "'x'"
+                    "raw": "'x'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -173,7 +175,9 @@
             "start": 802,
             "end": 807,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

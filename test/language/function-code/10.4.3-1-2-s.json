@@ -31,7 +31,9 @@
               "start": 276,
               "end": 288,
               "value": "use strict",
-              "raw": "'use strict'"
+              "raw": "'use strict'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -161,7 +163,9 @@
                 "start": 385,
                 "end": 388,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -171,14 +175,18 @@
             "start": 391,
             "end": 399,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 401,
             "end": 416,
             "value": "foo.call(\"1\")",
-            "raw": "'foo.call(\"1\")'"
+            "raw": "'foo.call(\"1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -241,7 +249,9 @@
                 "start": 445,
                 "end": 448,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -251,14 +261,18 @@
             "start": 451,
             "end": 459,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 476,
             "value": "bar.call(\"1\")",
-            "raw": "'bar.call(\"1\")'"
+            "raw": "'bar.call(\"1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

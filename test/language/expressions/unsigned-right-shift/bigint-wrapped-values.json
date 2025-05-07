@@ -76,6 +76,7 @@
                           "end": 486,
                           "value": null,
                           "raw": "2n",
+                          "regex": null,
                           "bigint": "2"
                         }
                       ],
@@ -88,6 +89,7 @@
                       "end": 494,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -100,7 +102,9 @@
             "start": 499,
             "end": 535,
             "value": "Object(2n) >>> 0n throws TypeError",
-            "raw": "'Object(2n) >>> 0n throws TypeError'"
+            "raw": "'Object(2n) >>> 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,6 +172,7 @@
                       "end": 581,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": ">>>",
@@ -188,6 +193,7 @@
                           "end": 595,
                           "value": null,
                           "raw": "2n",
+                          "regex": null,
                           "bigint": "2"
                         }
                       ],
@@ -203,7 +209,9 @@
             "start": 601,
             "end": 637,
             "value": "0n >>> Object(2n) throws TypeError",
-            "raw": "'0n >>> Object(2n) throws TypeError'"
+            "raw": "'0n >>> Object(2n) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,6 +332,7 @@
                                       "end": 738,
                                       "value": null,
                                       "raw": "2n",
+                                      "regex": null,
                                       "bigint": "2"
                                     }
                                   }
@@ -342,6 +351,7 @@
                       "end": 757,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -354,7 +364,9 @@
             "start": 762,
             "end": 837,
             "value": "({[Symbol.toPrimitive]: function() {return 2n;}}) >>> 0n throws TypeError",
-            "raw": "'({[Symbol.toPrimitive]: function() {return 2n;}}) >>> 0n throws TypeError'"
+            "raw": "'({[Symbol.toPrimitive]: function() {return 2n;}}) >>> 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -422,6 +434,7 @@
                       "end": 883,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": ">>>",
@@ -480,6 +493,7 @@
                                     "end": 944,
                                     "value": null,
                                     "raw": "2n",
+                                    "regex": null,
                                     "bigint": "2"
                                   }
                                 }
@@ -500,7 +514,9 @@
             "start": 960,
             "end": 1033,
             "value": "0n >>> {[Symbol.toPrimitive]: function() {return 2n;}} throws TypeError",
-            "raw": "'0n >>> {[Symbol.toPrimitive]: function() {return 2n;}} throws TypeError'"
+            "raw": "'0n >>> {[Symbol.toPrimitive]: function() {return 2n;}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,6 +624,7 @@
                                       "end": 1121,
                                       "value": null,
                                       "raw": "2n",
+                                      "regex": null,
                                       "bigint": "2"
                                     }
                                   }
@@ -626,6 +643,7 @@
                       "end": 1140,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -638,7 +656,9 @@
             "start": 1145,
             "end": 1207,
             "value": "({valueOf: function() {return 2n;}}) >>> 0n throws TypeError",
-            "raw": "'({valueOf: function() {return 2n;}}) >>> 0n throws TypeError'"
+            "raw": "'({valueOf: function() {return 2n;}}) >>> 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -706,6 +726,7 @@
                       "end": 1253,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": ">>>",
@@ -751,6 +772,7 @@
                                     "end": 1301,
                                     "value": null,
                                     "raw": "2n",
+                                    "regex": null,
                                     "bigint": "2"
                                   }
                                 }
@@ -771,7 +793,9 @@
             "start": 1317,
             "end": 1377,
             "value": "0n >>> {valueOf: function() {return 2n;}} throws TypeError",
-            "raw": "'0n >>> {valueOf: function() {return 2n;}} throws TypeError'"
+            "raw": "'0n >>> {valueOf: function() {return 2n;}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -879,6 +903,7 @@
                                       "end": 1466,
                                       "value": null,
                                       "raw": "2n",
+                                      "regex": null,
                                       "bigint": "2"
                                     }
                                   }
@@ -897,6 +922,7 @@
                       "end": 1485,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -909,7 +935,9 @@
             "start": 1490,
             "end": 1553,
             "value": "({toString: function() {return 2n;}}) >>> 0n throws TypeError",
-            "raw": "'({toString: function() {return 2n;}}) >>> 0n throws TypeError'"
+            "raw": "'({toString: function() {return 2n;}}) >>> 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -977,6 +1005,7 @@
                       "end": 1599,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": ">>>",
@@ -1022,6 +1051,7 @@
                                     "end": 1648,
                                     "value": null,
                                     "raw": "2n",
+                                    "regex": null,
                                     "bigint": "2"
                                   }
                                 }
@@ -1042,7 +1072,9 @@
             "start": 1664,
             "end": 1725,
             "value": "0n >>> {toString: function() {return 2n;}} throws TypeError",
-            "raw": "'0n >>> {toString: function() {return 2n;}} throws TypeError'"
+            "raw": "'0n >>> {toString: function() {return 2n;}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

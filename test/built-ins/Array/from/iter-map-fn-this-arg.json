@@ -66,7 +66,9 @@
                   "start": 823,
                   "end": 828,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -135,7 +137,9 @@
                   "start": 876,
                   "end": 881,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -466,7 +470,9 @@
                                         "start": 1161,
                                         "end": 1165,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -600,14 +606,18 @@
             "start": 1282,
             "end": 1283,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1285,
             "end": 1335,
             "value": "The value of thisVals.length is expected to be 2",
-            "raw": "'The value of thisVals.length is expected to be 2'"
+            "raw": "'The value of thisVals.length is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -656,7 +666,9 @@
               "start": 1364,
               "end": 1365,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -672,7 +684,9 @@
             "start": 1377,
             "end": 1445,
             "value": "The value of thisVals[0] is expected to equal the value of thisVal",
-            "raw": "'The value of thisVals[0] is expected to equal the value of thisVal'"
+            "raw": "'The value of thisVals[0] is expected to equal the value of thisVal'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,7 +735,9 @@
               "start": 1474,
               "end": 1475,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -737,7 +753,9 @@
             "start": 1487,
             "end": 1555,
             "value": "The value of thisVals[1] is expected to equal the value of thisVal",
-            "raw": "'The value of thisVals[1] is expected to equal the value of thisVal'"
+            "raw": "'The value of thisVals[1] is expected to equal the value of thisVal'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

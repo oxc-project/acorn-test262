@@ -73,7 +73,9 @@
                             "start": 805,
                             "end": 806,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -90,7 +92,9 @@
                         "start": 813,
                         "end": 831,
                         "value": "typeof x; let x;",
-                        "raw": "'typeof x; let x;'"
+                        "raw": "'typeof x; let x;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

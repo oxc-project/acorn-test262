@@ -92,7 +92,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "\"./enum\"",
-        "value": "./enum"
+        "value": "./enum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

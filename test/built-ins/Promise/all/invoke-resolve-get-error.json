@@ -83,7 +83,9 @@
                               "start": 648,
                               "end": 661,
                               "value": "unreachable",
-                              "raw": "'unreachable'"
+                              "raw": "'unreachable'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -137,7 +139,9 @@
                   "start": 702,
                   "end": 711,
                   "value": "MyError",
-                  "raw": "'MyError'"
+                  "raw": "'MyError'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -186,7 +190,9 @@
             "start": 746,
             "end": 755,
             "value": "resolve",
-            "raw": "'resolve'"
+            "raw": "'resolve'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -339,7 +345,9 @@
                             "start": 859,
                             "end": 912,
                             "value": "The promise should be rejected, but it was resolved",
-                            "raw": "'The promise should be rejected, but it was resolved'"
+                            "raw": "'The promise should be rejected, but it was resolved'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

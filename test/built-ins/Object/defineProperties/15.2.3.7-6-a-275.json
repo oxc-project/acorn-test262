@@ -132,7 +132,9 @@
             "start": 555,
             "end": 565,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -226,7 +228,9 @@
                         "start": 632,
                         "end": 642,
                         "value": "property",
-                        "raw": "\"property\""
+                        "raw": "\"property\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "ObjectExpression",
@@ -317,14 +321,18 @@
                     "start": 719,
                     "end": 729,
                     "value": "property",
-                    "raw": "\"property\""
+                    "raw": "\"property\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 731,
                     "end": 750,
                     "value": "setVerifyHelpProp",
-                    "raw": "\"setVerifyHelpProp\""
+                    "raw": "\"setVerifyHelpProp\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -393,7 +401,9 @@
                             "start": 816,
                             "end": 842,
                             "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "raw": "\"Expected TypeError, got \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -441,7 +451,9 @@
             "start": 876,
             "end": 886,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -466,7 +478,9 @@
                   "start": 904,
                   "end": 909,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -488,7 +502,9 @@
                   "start": 927,
                   "end": 932,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -47,35 +47,45 @@
                 "start": 306,
                 "end": 310,
                 "value": 2020,
-                "raw": "2020"
+                "raw": "2020",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 312,
                 "end": 313,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 316,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 319,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -127,7 +137,9 @@
                 "start": 356,
                 "end": 361,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -189,6 +201,7 @@
             "end": 424,
             "value": null,
             "raw": "1577836800000000000n",
+            "regex": null,
             "bigint": "1577836800000000000"
           },
           {
@@ -196,7 +209,9 @@
             "start": 426,
             "end": 439,
             "value": "nanoseconds",
-            "raw": "\"nanoseconds\""
+            "raw": "\"nanoseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -254,14 +269,18 @@
             "start": 475,
             "end": 484,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 486,
             "end": 496,
             "value": "calendar",
-            "raw": "\"calendar\""
+            "raw": "\"calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,14 +338,18 @@
             "start": 532,
             "end": 537,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 549,
             "value": "timezone",
-            "raw": "\"timezone\""
+            "raw": "\"timezone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

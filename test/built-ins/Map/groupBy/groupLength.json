@@ -28,21 +28,27 @@
                 "start": 380,
                 "end": 387,
                 "value": "hello",
-                "raw": "'hello'"
+                "raw": "'hello'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 395,
                 "value": "test",
-                "raw": "'test'"
+                "raw": "'test'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 397,
                 "end": 404,
                 "value": "world",
-                "raw": "'world'"
+                "raw": "'world'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -241,14 +247,18 @@
                 "start": 519,
                 "end": 520,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 522,
                 "end": 523,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -313,7 +323,9 @@
                 "start": 555,
                 "end": 556,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -328,14 +340,18 @@
                 "start": 560,
                 "end": 567,
                 "value": "hello",
-                "raw": "'hello'"
+                "raw": "'hello'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 569,
                 "end": 576,
                 "value": "world",
-                "raw": "'world'"
+                "raw": "'world'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -400,7 +416,9 @@
                 "start": 608,
                 "end": 609,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -415,7 +433,9 @@
                 "start": 613,
                 "end": 619,
                 "value": "test",
-                "raw": "'test'"
+                "raw": "'test'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

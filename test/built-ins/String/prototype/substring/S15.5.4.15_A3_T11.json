@@ -156,7 +156,9 @@
                   "start": 655,
                   "end": 656,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -169,7 +171,9 @@
           "start": 663,
           "end": 666,
           "value": "f",
-          "raw": "\"f\""
+          "raw": "\"f\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -201,7 +205,9 @@
                     "start": 695,
                     "end": 848,
                     "value": "#1: __instance = new Boolean(); __instance.substring = String.prototype.substring;  __instance.substring(new Array(), new Boolean(1)) === \"f\". Actual: ",
-                    "raw": "'#1: __instance = new Boolean(); __instance.substring = String.prototype.substring;  __instance.substring(new Array(), new Boolean(1)) === \"f\". Actual: '"
+                    "raw": "'#1: __instance = new Boolean(); __instance.substring = String.prototype.substring;  __instance.substring(new Array(), new Boolean(1)) === \"f\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -256,7 +262,9 @@
                             "start": 897,
                             "end": 898,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

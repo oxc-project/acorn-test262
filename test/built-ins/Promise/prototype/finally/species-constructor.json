@@ -23,7 +23,9 @@
             "start": 351,
             "end": 352,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -308,14 +310,18 @@
                             "start": 567,
                             "end": 568,
                             "value": 7,
-                            "raw": "7"
+                            "raw": "7",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 570,
                             "end": 599,
                             "value": "7 new promises were created",
-                            "raw": "\"7 new promises were created\""
+                            "raw": "\"7 new promises were created\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

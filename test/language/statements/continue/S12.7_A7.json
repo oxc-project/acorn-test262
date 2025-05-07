@@ -23,7 +23,9 @@
             "start": 333,
             "end": 334,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -41,7 +43,9 @@
             "start": 337,
             "end": 338,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -107,7 +111,9 @@
                           "start": 476,
                           "end": 493,
                           "value": "continue LABEL1",
-                          "raw": "\"continue LABEL1\""
+                          "raw": "\"continue LABEL1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -138,7 +144,9 @@
                 "start": 521,
                 "end": 522,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "label": {
@@ -168,7 +176,9 @@
                   "start": 549,
                   "end": 614,
                   "value": "#1: eval(\"continue LABEL1\") does not lead to throwing exception",
-                  "raw": "'#1: eval(\"continue LABEL1\") does not lead to throwing exception'"
+                  "raw": "'#1: eval(\"continue LABEL1\") does not lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -249,7 +259,9 @@
                           "start": 688,
                           "end": 786,
                           "value": "1.1: Appearing of continue within eval statement inside of IterationStatement yields SyntaxError",
-                          "raw": "\"1.1: Appearing of continue within eval statement inside of IterationStatement yields SyntaxError\""
+                          "raw": "\"1.1: Appearing of continue within eval statement inside of IterationStatement yields SyntaxError\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

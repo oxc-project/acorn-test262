@@ -219,7 +219,9 @@
             "start": 1881,
             "end": 1882,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +292,9 @@
             "start": 1918,
             "end": 1919,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

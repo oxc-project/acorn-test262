@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 46,
         "end": 60,
         "raw": "\"./exports.js\"",
-        "value": "./exports.js"
+        "value": "./exports.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -252,7 +254,9 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 14,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -283,7 +287,9 @@ __ESTREE_TEST__:PASS:
             "start": 27,
             "end": 28,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -314,7 +320,9 @@ __ESTREE_TEST__:PASS:
             "start": 48,
             "end": 49,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

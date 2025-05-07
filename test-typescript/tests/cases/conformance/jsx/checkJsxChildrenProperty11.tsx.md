@@ -760,7 +760,9 @@ __ESTREE_TEST__:PASS:
                   "start": 410,
                   "end": 411,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -779,7 +781,9 @@ __ESTREE_TEST__:PASS:
                   "start": 414,
                   "end": 432,
                   "raw": "\"That is a number\"",
-                  "value": "That is a number"
+                  "value": "That is a number",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {

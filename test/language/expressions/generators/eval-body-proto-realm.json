@@ -105,7 +105,9 @@
                 "start": 873,
                 "end": 894,
                 "value": "(0, function*() {})",
-                "raw": "'(0, function*() {})'"
+                "raw": "'(0, function*() {})'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -212,7 +214,9 @@
           "start": 972,
           "end": 976,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -12,7 +12,9 @@
         "start": 467,
         "end": 472,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -47,7 +49,9 @@
           "start": 489,
           "end": 490,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     }

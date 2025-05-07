@@ -362,7 +362,9 @@ __ESTREE_TEST__:PASS:
         "start": 38,
         "end": 47,
         "raw": "\"./react\"",
-        "value": "./react"
+        "value": "./react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -492,7 +494,9 @@ __ESTREE_TEST__:PASS:
         "start": 57,
         "end": 67,
         "raw": "\"./preact\"",
-        "value": "./preact"
+        "value": "./preact",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -622,7 +626,9 @@ __ESTREE_TEST__:PASS:
         "start": 51,
         "end": 63,
         "raw": "\"./snabbdom\"",
-        "value": "./snabbdom"
+        "value": "./snabbdom",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -728,7 +734,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 63,
         "raw": "\"./preact\"",
-        "value": "./preact"
+        "value": "./preact",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -768,7 +776,9 @@ __ESTREE_TEST__:PASS:
         "start": 88,
         "end": 97,
         "raw": "\"./react\"",
-        "value": "./react"
+        "value": "./react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -48,6 +48,7 @@
                 "end": 323,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               }
             ]
@@ -118,7 +119,9 @@
                       "start": 378,
                       "end": 391,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -191,14 +194,18 @@
             "start": 449,
             "end": 478,
             "value": "2001-09-09T01:46:40.123987Z",
-            "raw": "\"2001-09-09T01:46:40.123987Z\""
+            "raw": "\"2001-09-09T01:46:40.123987Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 480,
             "end": 511,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,7 +273,9 @@
                       "start": 565,
                       "end": 578,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -318,14 +327,18 @@
             "start": 611,
             "end": 640,
             "value": "2001-09-09T01:46:40.123987Z",
-            "raw": "\"2001-09-09T01:46:40.123987Z\""
+            "raw": "\"2001-09-09T01:46:40.123987Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 642,
             "end": 673,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,7 +406,9 @@
                       "start": 728,
                       "end": 741,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -466,14 +481,18 @@
             "start": 799,
             "end": 825,
             "value": "2001-09-09T01:46:40.123Z",
-            "raw": "\"2001-09-09T01:46:40.123Z\""
+            "raw": "\"2001-09-09T01:46:40.123Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 858,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -541,7 +560,9 @@
                       "start": 912,
                       "end": 925,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -593,14 +614,18 @@
             "start": 958,
             "end": 984,
             "value": "2001-09-09T01:46:40.123Z",
-            "raw": "\"2001-09-09T01:46:40.123Z\""
+            "raw": "\"2001-09-09T01:46:40.123Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 986,
             "end": 1017,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -668,7 +693,9 @@
                       "start": 1072,
                       "end": 1080,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -741,14 +768,18 @@
             "start": 1138,
             "end": 1160,
             "value": "2001-09-09T01:46:40Z",
-            "raw": "\"2001-09-09T01:46:40Z\""
+            "raw": "\"2001-09-09T01:46:40Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1162,
             "end": 1193,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -816,7 +847,9 @@
                       "start": 1247,
                       "end": 1255,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -868,14 +901,18 @@
             "start": 1288,
             "end": 1310,
             "value": "2001-09-09T01:46:40Z",
-            "raw": "\"2001-09-09T01:46:40Z\""
+            "raw": "\"2001-09-09T01:46:40Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1312,
             "end": 1343,
             "value": "default roundingMode is trunc",
-            "raw": "\"default roundingMode is trunc\""
+            "raw": "\"default roundingMode is trunc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

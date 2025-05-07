@@ -48,7 +48,9 @@
             "start": 2027,
             "end": 2028,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -160,7 +162,9 @@
                                 "start": 2114,
                                 "end": 2119,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -253,7 +257,9 @@
                           "start": 2206,
                           "end": 2248,
                           "value": "this value has no effect on the protocol",
-                          "raw": "'this value has no effect on the protocol'"
+                          "raw": "'this value has no effect on the protocol'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -306,7 +312,9 @@
             "start": 2295,
             "end": 2302,
             "value": "throw",
-            "raw": "'throw'"
+            "raw": "'throw'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -360,7 +368,9 @@
                             "start": 2344,
                             "end": 2345,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -692,7 +702,9 @@
             "start": 2596,
             "end": 2597,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -743,7 +755,9 @@
             "start": 2644,
             "end": 2658,
             "value": "\"this\" value",
-            "raw": "'\"this\" value'"
+            "raw": "'\"this\" value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -795,14 +809,18 @@
             "start": 2694,
             "end": 2702,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2704,
             "end": 2747,
             "value": "method invoked, arguments object provided",
-            "raw": "'method invoked, arguments object provided'"
+            "raw": "'method invoked, arguments object provided'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -860,7 +878,9 @@
             "start": 2781,
             "end": 2782,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -912,14 +932,18 @@
             "start": 2817,
             "end": 2825,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2827,
             "end": 2848,
             "value": "object value thrown",
-            "raw": "'object value thrown'"
+            "raw": "'object value thrown'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

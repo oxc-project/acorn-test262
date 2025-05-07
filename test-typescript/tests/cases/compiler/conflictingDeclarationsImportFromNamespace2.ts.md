@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 28,
           "raw": "\"./index\"",
-          "value": "./index"
+          "value": "./index",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -317,7 +319,9 @@ __ESTREE_TEST__:PASS:
         "start": 46,
         "end": 55,
         "raw": "\"./index\"",
-        "value": "./index"
+        "value": "./index",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -343,7 +347,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 30,
         "raw": "\"./index\"",
-        "value": "./index"
+        "value": "./index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -554,7 +560,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 35,
         "raw": "'lodash/pick'",
-        "value": "lodash/pick"
+        "value": "lodash/pick",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

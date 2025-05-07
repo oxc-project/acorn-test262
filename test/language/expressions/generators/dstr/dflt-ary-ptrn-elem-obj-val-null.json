@@ -76,7 +76,9 @@
                       "start": 1949,
                       "end": 1953,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }

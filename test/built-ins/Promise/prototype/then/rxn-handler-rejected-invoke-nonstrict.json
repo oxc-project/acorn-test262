@@ -144,7 +144,9 @@
                             "start": 431,
                             "end": 476,
                             "value": "Unexpected fulfillment; expected rejection.",
-                            "raw": "\"Unexpected fulfillment; expected rejection.\""
+                            "raw": "\"Unexpected fulfillment; expected rejection.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -224,7 +226,9 @@
                                     "start": 539,
                                     "end": 575,
                                     "value": "'this' must be global object, got ",
-                                    "raw": "\"'this' must be global object, got \""
+                                    "raw": "\"'this' must be global object, got \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -298,7 +302,9 @@
                                     "start": 633,
                                     "end": 686,
                                     "value": "Expected promise to be rejected with obj, actually ",
-                                    "raw": "\"Expected promise to be rejected with obj, actually \""
+                                    "raw": "\"Expected promise to be rejected with obj, actually \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -355,7 +361,9 @@
                           "start": 739,
                           "end": 740,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "consequent": {
@@ -383,7 +391,9 @@
                                   "start": 754,
                                   "end": 819,
                                   "value": "Expected handler function to be called with exactly 1 argument.",
-                                  "raw": "'Expected handler function to be called with exactly 1 argument.'"
+                                  "raw": "'Expected handler function to be called with exactly 1 argument.'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

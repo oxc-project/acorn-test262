@@ -23,7 +23,9 @@
             "start": 771,
             "end": 772,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,6 +106,7 @@
                           "end": 845,
                           "value": null,
                           "raw": "2n",
+                          "regex": null,
                           "bigint": "2"
                         }
                       }
@@ -208,14 +211,18 @@
                             "start": 936,
                             "end": 937,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 939,
                             "end": 942,
                             "value": 1.5,
-                            "raw": "1.5"
+                            "raw": "1.5",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "UnaryExpression",
@@ -228,7 +235,9 @@
                               "start": 945,
                               "end": 946,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -380,7 +389,9 @@
                                                         "start": 1072,
                                                         "end": 1104,
                                                         "value": " getter should be unreachable!",
-                                                        "raw": "\" getter should be unreachable!\""
+                                                        "raw": "\" getter should be unreachable!\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ]
@@ -456,7 +467,9 @@
                                                         "start": 1165,
                                                         "end": 1197,
                                                         "value": " setter should be unreachable!",
-                                                        "raw": "\" setter should be unreachable!\""
+                                                        "raw": "\" setter should be unreachable!\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ]
@@ -485,7 +498,9 @@
                                           "start": 1223,
                                           "end": 1227,
                                           "value": true,
-                                          "raw": "true"
+                                          "raw": "true",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "kind": "init"
                                       }
@@ -532,6 +547,7 @@
                                           "end": 1262,
                                           "value": null,
                                           "raw": "0n",
+                                          "regex": null,
                                           "bigint": "0"
                                         }
                                       ]
@@ -642,7 +658,9 @@
                                         "start": 1339,
                                         "end": 1374,
                                         "value": "Reflect.set should succeed (key: ",
-                                        "raw": "\"Reflect.set should succeed (key: \""
+                                        "raw": "\"Reflect.set should succeed (key: \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -658,7 +676,9 @@
                                       "start": 1383,
                                       "end": 1410,
                                       "value": ", receiver: empty object)",
-                                      "raw": "\", receiver: empty object)\""
+                                      "raw": "\", receiver: empty object)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -733,7 +753,9 @@
                                         "start": 1453,
                                         "end": 1462,
                                         "value": "target[",
-                                        "raw": "\"target[\""
+                                        "raw": "\"target[\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -749,7 +771,9 @@
                                       "start": 1471,
                                       "end": 1521,
                                       "value": "] should not be created (receiver: empty object)",
-                                      "raw": "\"] should not be created (receiver: empty object)\""
+                                      "raw": "\"] should not be created (receiver: empty object)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -824,7 +848,9 @@
                                         "start": 1566,
                                         "end": 1577,
                                         "value": "receiver[",
-                                        "raw": "\"receiver[\""
+                                        "raw": "\"receiver[\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -840,7 +866,9 @@
                                       "start": 1586,
                                       "end": 1636,
                                       "value": "] should not be created (receiver: empty object)",
-                                      "raw": "\"] should not be created (receiver: empty object)\""
+                                      "raw": "\"] should not be created (receiver: empty object)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -884,6 +912,7 @@
                                           "end": 1664,
                                           "value": null,
                                           "raw": "0n",
+                                          "regex": null,
                                           "bigint": "0"
                                         }
                                       ]
@@ -929,6 +958,7 @@
                                           "end": 1693,
                                           "value": null,
                                           "raw": "1n",
+                                          "regex": null,
                                           "bigint": "1"
                                         }
                                       ]
@@ -1016,7 +1046,9 @@
                                         "start": 1751,
                                         "end": 1786,
                                         "value": "Reflect.set should succeed (key: ",
-                                        "raw": "\"Reflect.set should succeed (key: \""
+                                        "raw": "\"Reflect.set should succeed (key: \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1032,7 +1064,9 @@
                                       "start": 1795,
                                       "end": 1848,
                                       "value": ", receiver: another typed array of the same length)",
-                                      "raw": "\", receiver: another typed array of the same length)\""
+                                      "raw": "\", receiver: another typed array of the same length)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1107,7 +1141,9 @@
                                         "start": 1891,
                                         "end": 1900,
                                         "value": "target[",
-                                        "raw": "\"target[\""
+                                        "raw": "\"target[\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1123,7 +1159,9 @@
                                       "start": 1909,
                                       "end": 1985,
                                       "value": "] should not be created (receiver: another typed array of the same length)",
-                                      "raw": "\"] should not be created (receiver: another typed array of the same length)\""
+                                      "raw": "\"] should not be created (receiver: another typed array of the same length)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1198,7 +1236,9 @@
                                         "start": 2030,
                                         "end": 2041,
                                         "value": "receiver[",
-                                        "raw": "\"receiver[\""
+                                        "raw": "\"receiver[\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1214,7 +1254,9 @@
                                       "start": 2050,
                                       "end": 2126,
                                       "value": "] should not be created (receiver: another typed array of the same length)",
-                                      "raw": "\"] should not be created (receiver: another typed array of the same length)\""
+                                      "raw": "\"] should not be created (receiver: another typed array of the same length)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1258,6 +1300,7 @@
                                           "end": 2154,
                                           "value": null,
                                           "raw": "0n",
+                                          "regex": null,
                                           "bigint": "0"
                                         }
                                       ]
@@ -1359,6 +1402,7 @@
                                                     "end": 2239,
                                                     "value": null,
                                                     "raw": "1n",
+                                                    "regex": null,
                                                     "bigint": "1"
                                                   }
                                                 }
@@ -1432,7 +1476,9 @@
                                                           "start": 2299,
                                                           "end": 2331,
                                                           "value": " setter should be unreachable!",
-                                                          "raw": "\" setter should be unreachable!\""
+                                                          "raw": "\" setter should be unreachable!\"",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       }
                                                     ]
@@ -1461,7 +1507,9 @@
                                             "start": 2357,
                                             "end": 2361,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init"
                                         }
@@ -1551,7 +1599,9 @@
                                         "start": 2425,
                                         "end": 2483,
                                         "value": "Reflect.set should succeed (receiver: plain object with ",
-                                        "raw": "\"Reflect.set should succeed (receiver: plain object with \""
+                                        "raw": "\"Reflect.set should succeed (receiver: plain object with \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1567,7 +1617,9 @@
                                       "start": 2492,
                                       "end": 2504,
                                       "value": " accessor)",
-                                      "raw": "\" accessor)\""
+                                      "raw": "\" accessor)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1650,7 +1702,9 @@
                                             "start": 2547,
                                             "end": 2556,
                                             "value": "target[",
-                                            "raw": "\"target[\""
+                                            "raw": "\"target[\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1666,7 +1720,9 @@
                                           "start": 2565,
                                           "end": 2620,
                                           "value": "] should not be created (receiver: plain object with ",
-                                          "raw": "\"] should not be created (receiver: plain object with \""
+                                          "raw": "\"] should not be created (receiver: plain object with \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -1683,7 +1739,9 @@
                                       "start": 2629,
                                       "end": 2641,
                                       "value": " accessor)",
-                                      "raw": "\" accessor)\""
+                                      "raw": "\" accessor)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1743,6 +1801,7 @@
                                     "end": 2682,
                                     "value": null,
                                     "raw": "1n",
+                                    "regex": null,
                                     "bigint": "1"
                                   },
                                   {
@@ -1766,7 +1825,9 @@
                                             "start": 2684,
                                             "end": 2695,
                                             "value": "receiver[",
-                                            "raw": "\"receiver[\""
+                                            "raw": "\"receiver[\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1782,7 +1843,9 @@
                                           "start": 2704,
                                           "end": 2761,
                                           "value": "] should remain unchanged (receiver: plain object with ",
-                                          "raw": "\"] should remain unchanged (receiver: plain object with \""
+                                          "raw": "\"] should remain unchanged (receiver: plain object with \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -1799,7 +1862,9 @@
                                       "start": 2770,
                                       "end": 2782,
                                       "value": " accessor)",
-                                      "raw": "\" accessor)\""
+                                      "raw": "\" accessor)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -1843,6 +1908,7 @@
                                           "end": 2810,
                                           "value": null,
                                           "raw": "0n",
+                                          "regex": null,
                                           "bigint": "0"
                                         }
                                       ]
@@ -1926,6 +1992,7 @@
                                             "end": 2871,
                                             "value": null,
                                             "raw": "1n",
+                                            "regex": null,
                                             "bigint": "1"
                                           },
                                           "kind": "init"
@@ -1948,7 +2015,9 @@
                                             "start": 2883,
                                             "end": 2888,
                                             "value": false,
-                                            "raw": "false"
+                                            "raw": "false",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init"
                                         },
@@ -1970,7 +2039,9 @@
                                             "start": 2904,
                                             "end": 2908,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init"
                                         }
@@ -2060,7 +2131,9 @@
                                         "start": 2967,
                                         "end": 3038,
                                         "value": "Reflect.set should succeed (receiver: plain object with non-writable ",
-                                        "raw": "\"Reflect.set should succeed (receiver: plain object with non-writable \""
+                                        "raw": "\"Reflect.set should succeed (receiver: plain object with non-writable \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2076,7 +2149,9 @@
                                       "start": 3047,
                                       "end": 3050,
                                       "value": ")",
-                                      "raw": "\")\""
+                                      "raw": "\")\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -2159,7 +2234,9 @@
                                             "start": 3093,
                                             "end": 3102,
                                             "value": "target[",
-                                            "raw": "\"target[\""
+                                            "raw": "\"target[\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -2175,7 +2252,9 @@
                                           "start": 3111,
                                           "end": 3179,
                                           "value": "] should not be created (receiver: plain object with non-writable ",
-                                          "raw": "\"] should not be created (receiver: plain object with non-writable \""
+                                          "raw": "\"] should not be created (receiver: plain object with non-writable \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -2192,7 +2271,9 @@
                                       "start": 3188,
                                       "end": 3191,
                                       "value": ")",
-                                      "raw": "\")\""
+                                      "raw": "\")\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -2252,6 +2333,7 @@
                                     "end": 3232,
                                     "value": null,
                                     "raw": "1n",
+                                    "regex": null,
                                     "bigint": "1"
                                   },
                                   {
@@ -2275,7 +2357,9 @@
                                             "start": 3234,
                                             "end": 3245,
                                             "value": "receiver[",
-                                            "raw": "\"receiver[\""
+                                            "raw": "\"receiver[\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -2291,7 +2375,9 @@
                                           "start": 3254,
                                           "end": 3324,
                                           "value": "] should remain unchanged (receiver: plain object with non-writable ",
-                                          "raw": "\"] should remain unchanged (receiver: plain object with non-writable \""
+                                          "raw": "\"] should remain unchanged (receiver: plain object with non-writable \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -2308,7 +2394,9 @@
                                       "start": 3333,
                                       "end": 3336,
                                       "value": ")",
-                                      "raw": "\")\""
+                                      "raw": "\")\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -2352,6 +2440,7 @@
                                           "end": 3364,
                                           "value": null,
                                           "raw": "0n",
+                                          "regex": null,
                                           "bigint": "0"
                                         }
                                       ]
@@ -2489,7 +2578,9 @@
                                         "start": 3467,
                                         "end": 3499,
                                         "value": "Reflect.set should fail (key: ",
-                                        "raw": "\"Reflect.set should fail (key: \""
+                                        "raw": "\"Reflect.set should fail (key: \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2505,7 +2596,9 @@
                                       "start": 3508,
                                       "end": 3550,
                                       "value": ", receiver: non-extensible empty object)",
-                                      "raw": "\", receiver: non-extensible empty object)\""
+                                      "raw": "\", receiver: non-extensible empty object)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -2580,7 +2673,9 @@
                                         "start": 3593,
                                         "end": 3602,
                                         "value": "target[",
-                                        "raw": "\"target[\""
+                                        "raw": "\"target[\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2596,7 +2691,9 @@
                                       "start": 3611,
                                       "end": 3676,
                                       "value": "] should not be created (receiver: non-extensible empty object)",
-                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\""
+                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -2671,7 +2768,9 @@
                                         "start": 3721,
                                         "end": 3732,
                                         "value": "receiver[",
-                                        "raw": "\"receiver[\""
+                                        "raw": "\"receiver[\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -2687,7 +2786,9 @@
                                       "start": 3741,
                                       "end": 3806,
                                       "value": "] should not be created (receiver: non-extensible empty object)",
-                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\""
+                                      "raw": "\"] should not be created (receiver: non-extensible empty object)\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -2796,6 +2897,7 @@
                               "end": 3878,
                               "value": null,
                               "raw": "0n",
+                              "regex": null,
                               "bigint": "0"
                             }
                           ]
@@ -2841,6 +2943,7 @@
                               "end": 3905,
                               "value": null,
                               "raw": "1n",
+                              "regex": null,
                               "bigint": "1"
                             },
                             {
@@ -2849,6 +2952,7 @@
                               "end": 3909,
                               "value": null,
                               "raw": "1n",
+                              "regex": null,
                               "bigint": "1"
                             }
                           ]
@@ -2907,7 +3011,9 @@
                             "start": 3942,
                             "end": 3943,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -2929,7 +3035,9 @@
                         "start": 3963,
                         "end": 4041,
                         "value": "Reflect.set should succeed (receiver: another typed array of greater length)",
-                        "raw": "\"Reflect.set should succeed (receiver: another typed array of greater length)\""
+                        "raw": "\"Reflect.set should succeed (receiver: another typed array of greater length)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2985,7 +3093,9 @@
                               "start": 4076,
                               "end": 4077,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -2996,7 +3106,9 @@
                         "start": 4080,
                         "end": 4163,
                         "value": "target[1] should not be created (receiver: another typed array of greater length)",
-                        "raw": "\"target[1] should not be created (receiver: another typed array of greater length)\""
+                        "raw": "\"target[1] should not be created (receiver: another typed array of greater length)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3045,7 +3157,9 @@
                           "start": 4194,
                           "end": 4195,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -3056,6 +3170,7 @@
                         "end": 4200,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {
@@ -3063,7 +3178,9 @@
                         "start": 4202,
                         "end": 4289,
                         "value": "receiver[1] should remain unchanged (receiver: another typed array of greater length)",
-                        "raw": "\"receiver[1] should remain unchanged (receiver: another typed array of greater length)\""
+                        "raw": "\"receiver[1] should remain unchanged (receiver: another typed array of greater length)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3115,14 +3232,18 @@
             "start": 4328,
             "end": 4329,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4331,
             "end": 4360,
             "value": "value should not be coerced",
-            "raw": "\"value should not be coerced\""
+            "raw": "\"value should not be coerced\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

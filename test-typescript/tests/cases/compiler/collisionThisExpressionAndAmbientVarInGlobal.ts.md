@@ -104,7 +104,9 @@ __ESTREE_TEST__:PASS:
           "start": 82,
           "end": 84,
           "raw": "10",
-          "value": 10
+          "value": 10,
+          "regex": null,
+          "bigint": null
         }
       }
     }

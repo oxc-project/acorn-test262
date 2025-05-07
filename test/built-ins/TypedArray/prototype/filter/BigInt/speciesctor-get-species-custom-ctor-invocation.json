@@ -76,6 +76,7 @@
                                 "end": 1196,
                                 "value": null,
                                 "raw": "40n",
+                                "regex": null,
                                 "bigint": "40"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 1201,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 1206,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ]
@@ -389,6 +392,7 @@
                                   "end": 1442,
                                   "value": null,
                                   "raw": "42n",
+                                  "regex": null,
                                   "bigint": "42"
                                 }
                               }
@@ -452,14 +456,18 @@
                         "start": 1483,
                         "end": 1484,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1486,
                         "end": 1510,
                         "value": "called with 1 argument",
-                        "raw": "\"called with 1 argument\""
+                        "raw": "\"called with 1 argument\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -508,7 +516,9 @@
                           "start": 1539,
                           "end": 1540,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -518,14 +528,18 @@
                         "start": 1543,
                         "end": 1544,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1546,
                         "end": 1578,
                         "value": "[0] is the new captured length",
-                        "raw": "\"[0] is the new captured length\""
+                        "raw": "\"[0] is the new captured length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -608,7 +622,9 @@
                         "start": 1656,
                         "end": 1728,
                         "value": "`this` value in the @@species fn is an instance of the function itself",
-                        "raw": "\"`this` value in the @@species fn is an instance of the function itself\""
+                        "raw": "\"`this` value in the @@species fn is an instance of the function itself\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

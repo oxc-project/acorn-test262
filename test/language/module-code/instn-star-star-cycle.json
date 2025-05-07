@@ -25,7 +25,9 @@
         "start": 2147,
         "end": 2185,
         "value": "./instn-star-star-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-star-cycle-2_FIXTURE.js'"
+        "raw": "'./instn-star-star-cycle-2_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -81,7 +83,9 @@
             "start": 2211,
             "end": 2213,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -139,7 +143,9 @@
             "start": 2239,
             "end": 2241,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

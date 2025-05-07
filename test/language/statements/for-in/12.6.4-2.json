@@ -41,7 +41,9 @@
                   "start": 423,
                   "end": 440,
                   "value": "enumerableValue",
-                  "raw": "\"enumerableValue\""
+                  "raw": "\"enumerableValue\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -192,7 +194,9 @@
             "start": 616,
             "end": 622,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -217,7 +221,9 @@
                   "start": 645,
                   "end": 665,
                   "value": "nonEnumerableValue",
-                  "raw": "\"nonEnumerableValue\""
+                  "raw": "\"nonEnumerableValue\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -239,7 +245,9 @@
                   "start": 691,
                   "end": 696,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -269,7 +277,9 @@
             "start": 737,
             "end": 742,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -330,7 +340,9 @@
                 "start": 798,
                 "end": 804,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -358,7 +370,9 @@
                       "start": 839,
                       "end": 843,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -408,14 +422,18 @@
             "start": 901,
             "end": 906,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 908,
             "end": 922,
             "value": "accessedProp",
-            "raw": "'accessedProp'"
+            "raw": "'accessedProp'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

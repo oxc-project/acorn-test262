@@ -84,7 +84,9 @@ __ESTREE_TEST__:PASS:
               "start": 49,
               "end": 75,
               "raw": "\" should be converted to \"",
-              "value": " should be converted to "
+              "value": " should be converted to ",
+              "regex": null,
+              "bigint": null
             }
           ],
           "quasis": [

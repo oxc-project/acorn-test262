@@ -202,7 +202,9 @@ __ESTREE_TEST__:PASS:
                   "start": 113,
                   "end": 118,
                   "raw": "'bar'",
-                  "value": "bar"
+                  "value": "bar",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -228,7 +230,9 @@ __ESTREE_TEST__:PASS:
                   "start": 127,
                   "end": 132,
                   "raw": "'qux'",
-                  "value": "qux"
+                  "value": "qux",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -254,7 +258,9 @@ __ESTREE_TEST__:PASS:
                   "start": 142,
                   "end": 148,
                   "raw": "'quuz'",
-                  "value": "quuz"
+                  "value": "quuz",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

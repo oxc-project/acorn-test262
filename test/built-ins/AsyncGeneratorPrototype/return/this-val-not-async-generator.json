@@ -264,7 +264,9 @@
                                   "start": 1200,
                                   "end": 1253,
                                   "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -272,7 +274,9 @@
                                   "start": 1285,
                                   "end": 1318,
                                   "value": " when `this` value is an object",
-                                  "raw": "\" when `this` value is an object\""
+                                  "raw": "\" when `this` value is an object\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -365,7 +369,9 @@
                                         "start": 1416,
                                         "end": 1454,
                                         "value": "(object) expected TypeError but got ",
-                                        "raw": "\"(object) expected TypeError but got \""
+                                        "raw": "\"(object) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -500,7 +506,9 @@
                                   "start": 1586,
                                   "end": 1639,
                                   "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -508,7 +516,9 @@
                                   "start": 1671,
                                   "end": 1705,
                                   "value": " when `this` value is a function",
-                                  "raw": "\" when `this` value is a function\""
+                                  "raw": "\" when `this` value is a function\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -601,7 +611,9 @@
                                         "start": 1803,
                                         "end": 1843,
                                         "value": "(function) expected TypeError but got ",
-                                        "raw": "\"(function) expected TypeError but got \""
+                                        "raw": "\"(function) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -726,7 +738,9 @@
                                   "start": 1963,
                                   "end": 2016,
                                   "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -734,7 +748,9 @@
                                   "start": 2048,
                                   "end": 2099,
                                   "value": " when `this` value is an async generator function",
-                                  "raw": "\" when `this` value is an async generator function\""
+                                  "raw": "\" when `this` value is an async generator function\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -827,7 +843,9 @@
                                         "start": 2197,
                                         "end": 2253,
                                         "value": "(async generator function) expected TypeError but got ",
-                                        "raw": "\"(async generator function) expected TypeError but got \""
+                                        "raw": "\"(async generator function) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -965,7 +983,9 @@
                                   "start": 2383,
                                   "end": 2436,
                                   "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -973,7 +993,9 @@
                                   "start": 2468,
                                   "end": 2536,
                                   "value": " when `this` value is an async generator function prototype object",
-                                  "raw": "\" when `this` value is an async generator function prototype object\""
+                                  "raw": "\" when `this` value is an async generator function prototype object\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -1066,7 +1088,9 @@
                                         "start": 2634,
                                         "end": 2700,
                                         "value": "(async generator function prototype) expected TypeError but got ",
-                                        "raw": "\"(async generator function prototype) expected TypeError but got \""
+                                        "raw": "\"(async generator function prototype) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1191,7 +1215,9 @@
                                   "start": 2832,
                                   "end": 2885,
                                   "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -1199,7 +1225,9 @@
                                   "start": 2917,
                                   "end": 2952,
                                   "value": " when `this` value is a generator",
-                                  "raw": "\" when `this` value is a generator\""
+                                  "raw": "\" when `this` value is a generator\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -1292,7 +1320,9 @@
                                         "start": 3050,
                                         "end": 3091,
                                         "value": "(generator) expected TypeError but got ",
-                                        "raw": "\"(generator) expected TypeError but got \""
+                                        "raw": "\"(generator) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {

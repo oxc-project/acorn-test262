@@ -113,7 +113,9 @@
             "start": 353,
             "end": 363,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -162,7 +164,9 @@
                       "start": 389,
                       "end": 390,
                       "value": 7,
-                      "raw": "7"
+                      "raw": "7",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -262,7 +266,9 @@
             "start": 457,
             "end": 468,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -340,7 +346,9 @@
                   "start": 514,
                   "end": 518,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -357,7 +365,9 @@
             "start": 527,
             "end": 533,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -435,7 +445,9 @@
                   "start": 579,
                   "end": 583,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -452,7 +464,9 @@
             "start": 592,
             "end": 598,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +544,9 @@
                   "start": 644,
                   "end": 646,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -547,7 +563,9 @@
             "start": 655,
             "end": 669,
             "value": "empty string",
-            "raw": "\"empty string\""
+            "raw": "\"empty string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -648,7 +666,9 @@
             "start": 732,
             "end": 740,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -726,7 +746,9 @@
                   "start": 786,
                   "end": 787,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -743,7 +765,9 @@
             "start": 796,
             "end": 799,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -837,7 +861,9 @@
             "start": 856,
             "end": 870,
             "value": "plain object",
-            "raw": "\"plain object\""
+            "raw": "\"plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -944,7 +970,9 @@
             "start": 943,
             "end": 963,
             "value": "Temporal.PlainTime",
-            "raw": "\"Temporal.PlainTime\""
+            "raw": "\"Temporal.PlainTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1064,7 +1092,9 @@
             "start": 1046,
             "end": 1076,
             "value": "Temporal.PlainTime.prototype",
-            "raw": "\"Temporal.PlainTime.prototype\""
+            "raw": "\"Temporal.PlainTime.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

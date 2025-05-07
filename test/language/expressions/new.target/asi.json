@@ -23,7 +23,9 @@
             "start": 321,
             "end": 325,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -162,7 +164,9 @@
             "start": 447,
             "end": 479,
             "value": "tokens seperated by whitespace",
-            "raw": "'tokens seperated by whitespace'"
+            "raw": "'tokens seperated by whitespace'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +234,9 @@
             "start": 541,
             "end": 574,
             "value": "tokens separateed by whitespace",
-            "raw": "'tokens separateed by whitespace'"
+            "raw": "'tokens separateed by whitespace'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,7 +262,9 @@
           "start": 590,
           "end": 594,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -393,7 +401,9 @@
             "start": 722,
             "end": 755,
             "value": "tokens seperated by line breaks",
-            "raw": "'tokens seperated by line breaks'"
+            "raw": "'tokens seperated by line breaks'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +471,9 @@
             "start": 825,
             "end": 858,
             "value": "tokens seperated by line breaks",
-            "raw": "'tokens seperated by line breaks'"
+            "raw": "'tokens seperated by line breaks'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -600,7 +612,9 @@
             "start": 984,
             "end": 1033,
             "value": "tokens separated by SingleLineDelimitedComments",
-            "raw": "'tokens separated by SingleLineDelimitedComments'"
+            "raw": "'tokens separated by SingleLineDelimitedComments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -668,7 +682,9 @@
             "start": 1095,
             "end": 1144,
             "value": "tokens separated by SingleLineDelimitedComments",
-            "raw": "'tokens separated by SingleLineDelimitedComments'"
+            "raw": "'tokens separated by SingleLineDelimitedComments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -807,7 +823,9 @@
             "start": 1274,
             "end": 1313,
             "value": "tokens separated by MultiLineComments",
-            "raw": "'tokens separated by MultiLineComments'"
+            "raw": "'tokens separated by MultiLineComments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,7 +893,9 @@
             "start": 1373,
             "end": 1412,
             "value": "tokens separated by MultiLineComments",
-            "raw": "'tokens separated by MultiLineComments'"
+            "raw": "'tokens separated by MultiLineComments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

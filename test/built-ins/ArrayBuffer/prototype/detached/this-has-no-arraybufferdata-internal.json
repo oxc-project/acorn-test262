@@ -70,7 +70,9 @@
                   "start": 580,
                   "end": 590,
                   "value": "detached",
-                  "raw": "\"detached\""
+                  "raw": "\"detached\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -134,7 +136,9 @@
             "start": 631,
             "end": 641,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,7 +361,9 @@
                 "start": 792,
                 "end": 793,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -500,7 +506,9 @@
                     "start": 896,
                     "end": 897,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -509,7 +517,9 @@
                 "start": 900,
                 "end": 901,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

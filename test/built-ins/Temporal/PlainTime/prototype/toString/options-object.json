@@ -138,14 +138,18 @@
             "start": 385,
             "end": 395,
             "value": "00:00:00",
-            "raw": "\"00:00:00\""
+            "raw": "\"00:00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 399,
             "end": 437,
             "value": "options may be an empty plain object",
-            "raw": "\"options may be an empty plain object\""
+            "raw": "\"options may be an empty plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -252,14 +256,18 @@
             "start": 516,
             "end": 526,
             "value": "00:00:00",
-            "raw": "\"00:00:00\""
+            "raw": "\"00:00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 564,
             "value": "options may be a function object",
-            "raw": "\"options may be a function object\""
+            "raw": "\"options may be a function object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

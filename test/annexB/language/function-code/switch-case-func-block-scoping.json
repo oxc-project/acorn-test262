@@ -82,7 +82,9 @@
                     "start": 1140,
                     "end": 1141,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "cases": [
                     {
@@ -152,7 +154,9 @@
                                     "start": 1197,
                                     "end": 1200,
                                     "value": 123,
-                                    "raw": "123"
+                                    "raw": "123",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               },
@@ -188,7 +192,9 @@
                                   "start": 1224,
                                   "end": 1230,
                                   "value": "decl",
-                                  "raw": "'decl'"
+                                  "raw": "'decl'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -200,7 +206,9 @@
                         "start": 1154,
                         "end": 1155,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -300,14 +308,18 @@
             "start": 1307,
             "end": 1313,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1317,
             "end": 1382,
             "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "raw": "'Block-scoped binding value is function object at execution time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -352,14 +364,18 @@
             "start": 1414,
             "end": 1417,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1419,
             "end": 1452,
             "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "raw": "'Block-scoped binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -411,14 +427,18 @@
             "start": 1491,
             "end": 1497,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1501,
             "end": 1566,
             "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

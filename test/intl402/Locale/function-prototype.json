@@ -101,7 +101,9 @@
             "start": 404,
             "end": 479,
             "value": "Object.getPrototypeOf(Intl.Locale) equals the value of Function.prototype",
-            "raw": "\"Object.getPrototypeOf(Intl.Locale) equals the value of Function.prototype\""
+            "raw": "\"Object.getPrototypeOf(Intl.Locale) equals the value of Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

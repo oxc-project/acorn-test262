@@ -121,7 +121,9 @@
             "start": 941,
             "end": 947,
             "value": "then",
-            "raw": "'then'"
+            "raw": "'then'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -281,7 +283,9 @@
                             "start": 1063,
                             "end": 1095,
                             "value": "The promise should be rejected",
-                            "raw": "'The promise should be rejected'"
+                            "raw": "'The promise should be rejected'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

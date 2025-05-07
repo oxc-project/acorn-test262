@@ -71,7 +71,9 @@
                         "start": 480,
                         "end": 493,
                         "value": "import.meta",
-                        "raw": "\"import.meta\""
+                        "raw": "\"import.meta\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -85,7 +87,9 @@
             "start": 499,
             "end": 528,
             "value": "import.meta in FunctionBody",
-            "raw": "\"import.meta in FunctionBody\""
+            "raw": "\"import.meta in FunctionBody\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -159,14 +163,18 @@
                         "start": 585,
                         "end": 602,
                         "value": "a = import.meta",
-                        "raw": "\"a = import.meta\""
+                        "raw": "\"a = import.meta\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 604,
                         "end": 606,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -180,7 +188,9 @@
             "start": 612,
             "end": 645,
             "value": "import.meta in FormalParameters",
-            "raw": "\"import.meta in FormalParameters\""
+            "raw": "\"import.meta in FormalParameters\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

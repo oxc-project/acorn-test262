@@ -31,7 +31,9 @@
               "start": 316,
               "end": 328,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -101,14 +103,18 @@
             "start": 379,
             "end": 390,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 392,
             "end": 397,
             "value": "f()",
-            "raw": "'f()'"
+            "raw": "'f()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

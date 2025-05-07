@@ -32,7 +32,9 @@
                   "start": 344,
                   "end": 354,
                   "value": "throw 1;",
-                  "raw": "\"throw 1;\""
+                  "raw": "\"throw 1;\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -62,7 +64,9 @@
                     "start": 382,
                     "end": 430,
                     "value": "#1.1: throw 1 must throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: throw 1 must throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: throw 1 must throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -85,7 +89,9 @@
                           "start": 439,
                           "end": 449,
                           "value": "throw 1;",
-                          "raw": "\"throw 1;\""
+                          "raw": "\"throw 1;\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -132,7 +138,9 @@
                   "start": 479,
                   "end": 480,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -164,7 +172,9 @@
                             "start": 511,
                             "end": 559,
                             "value": "#1.2: throw 1 must throw SyntaxError. Actual: ",
-                            "raw": "'#1.2: throw 1 must throw SyntaxError. Actual: '"
+                            "raw": "'#1.2: throw 1 must throw SyntaxError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

@@ -64,7 +64,9 @@
                       "start": 362,
                       "end": 366,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -177,7 +179,9 @@
             "start": 421,
             "end": 470,
             "value": "The value of obj.touched is expected to be true",
-            "raw": "'The value of obj.touched is expected to be true'"
+            "raw": "'The value of obj.touched is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

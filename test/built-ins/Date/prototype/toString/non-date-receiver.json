@@ -295,7 +295,9 @@
                   "start": 539,
                   "end": 540,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -510,7 +512,9 @@
                   "start": 672,
                   "end": 713,
                   "value": "Tue Mar 21 2017 12:16:43 GMT-0400 (EDT)",
-                  "raw": "\"Tue Mar 21 2017 12:16:43 GMT-0400 (EDT)\""
+                  "raw": "\"Tue Mar 21 2017 12:16:43 GMT-0400 (EDT)\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -618,7 +622,9 @@
                   "start": 779,
                   "end": 792,
                   "value": 1490113011493,
-                  "raw": "1490113011493"
+                  "raw": "1490113011493",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

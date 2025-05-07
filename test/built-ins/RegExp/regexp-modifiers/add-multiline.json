@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?m:es$)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 1697,
                 "end": 1704,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 1707,
             "end": 1749,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,7 +129,9 @@
                 "start": 1774,
                 "end": 1784,
                 "value": "(?m:es$)",
-                "raw": "\"(?m:es$)\""
+                "raw": "\"(?m:es$)\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -176,7 +183,9 @@
                 "start": 1803,
                 "end": 1810,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -186,7 +195,9 @@
             "start": 1813,
             "end": 1855,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +227,8 @@
             "regex": {
               "pattern": "(?m-:es$)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -266,7 +278,9 @@
                 "start": 1898,
                 "end": 1905,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -276,7 +290,9 @@
             "start": 1908,
             "end": 1950,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +329,9 @@
                 "start": 1975,
                 "end": 1986,
                 "value": "(?m-:es$)",
-                "raw": "\"(?m-:es$)\""
+                "raw": "\"(?m-:es$)\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -365,7 +383,9 @@
                 "start": 2005,
                 "end": 2012,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -375,7 +395,9 @@
             "start": 2015,
             "end": 2057,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -405,7 +427,8 @@
             "regex": {
               "pattern": "^a\\n(?m:^b$)\\nc$",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -455,7 +478,9 @@
                 "start": 2107,
                 "end": 2116,
                 "value": "a\nb\nc",
-                "raw": "\"a\\nb\\nc\""
+                "raw": "\"a\\nb\\nc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -465,7 +490,9 @@
             "start": 2119,
             "end": 2167,
             "value": "^ and $ should match newline in modified group",
-            "raw": "\"^ and $ should match newline in modified group\""
+            "raw": "\"^ and $ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +548,9 @@
                   "start": 2187,
                   "end": 2198,
                   "value": "\na\nb\nc",
-                  "raw": "\"\\na\\nb\\nc\""
+                  "raw": "\"\\na\\nb\\nc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -532,7 +561,9 @@
             "start": 2201,
             "end": 2252,
             "value": "^ should not match newline outside modified group",
-            "raw": "\"^ should not match newline outside modified group\""
+            "raw": "\"^ should not match newline outside modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -588,7 +619,9 @@
                   "start": 2272,
                   "end": 2283,
                   "value": "a\nb\nc\n",
-                  "raw": "\"a\\nb\\nc\\n\""
+                  "raw": "\"a\\nb\\nc\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -599,7 +632,9 @@
             "start": 2286,
             "end": 2337,
             "value": "$ should not match newline outside modified group",
-            "raw": "\"$ should not match newline outside modified group\""
+            "raw": "\"$ should not match newline outside modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -655,7 +690,9 @@
                   "start": 2357,
                   "end": 2370,
                   "value": "\na\nb\nc\n",
-                  "raw": "\"\\na\\nb\\nc\\n\""
+                  "raw": "\"\\na\\nb\\nc\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -666,7 +703,9 @@
             "start": 2373,
             "end": 2430,
             "value": "^ and $ should not match newline outside modified group",
-            "raw": "\"^ and $ should not match newline outside modified group\""
+            "raw": "\"^ and $ should not match newline outside modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -703,7 +742,9 @@
                 "start": 2455,
                 "end": 2475,
                 "value": "^a\\n(?m:^b$)\\nc$",
-                "raw": "\"^a\\\\n(?m:^b$)\\\\nc$\""
+                "raw": "\"^a\\\\n(?m:^b$)\\\\nc$\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -755,7 +796,9 @@
                 "start": 2494,
                 "end": 2503,
                 "value": "a\nb\nc",
-                "raw": "\"a\\nb\\nc\""
+                "raw": "\"a\\nb\\nc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -765,7 +808,9 @@
             "start": 2506,
             "end": 2554,
             "value": "^ and $ should match newline in modified group",
-            "raw": "\"^ and $ should match newline in modified group\""
+            "raw": "\"^ and $ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -821,7 +866,9 @@
                   "start": 2574,
                   "end": 2585,
                   "value": "\na\nb\nc",
-                  "raw": "\"\\na\\nb\\nc\""
+                  "raw": "\"\\na\\nb\\nc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -832,7 +879,9 @@
             "start": 2588,
             "end": 2639,
             "value": "^ should not match newline outside modified group",
-            "raw": "\"^ should not match newline outside modified group\""
+            "raw": "\"^ should not match newline outside modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -888,7 +937,9 @@
                   "start": 2659,
                   "end": 2670,
                   "value": "a\nb\nc\n",
-                  "raw": "\"a\\nb\\nc\\n\""
+                  "raw": "\"a\\nb\\nc\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -899,7 +950,9 @@
             "start": 2673,
             "end": 2724,
             "value": "$ should not match newline outside modified group",
-            "raw": "\"$ should not match newline outside modified group\""
+            "raw": "\"$ should not match newline outside modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -955,7 +1008,9 @@
                   "start": 2744,
                   "end": 2757,
                   "value": "\na\nb\nc\n",
-                  "raw": "\"\\na\\nb\\nc\\n\""
+                  "raw": "\"\\na\\nb\\nc\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -966,7 +1021,9 @@
             "start": 2760,
             "end": 2817,
             "value": "^ and $ should not match newline outside modified group",
-            "raw": "\"^ and $ should not match newline outside modified group\""
+            "raw": "\"^ and $ should not match newline outside modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

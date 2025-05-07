@@ -48,7 +48,9 @@
             "start": 478,
             "end": 483,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,7 +76,9 @@
             "start": 507,
             "end": 512,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -250,7 +254,9 @@
                                                     "start": 674,
                                                     "end": 678,
                                                     "value": true,
-                                                    "raw": "true"
+                                                    "raw": "true",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               },
@@ -317,7 +323,9 @@
                                                     "start": 771,
                                                     "end": 775,
                                                     "value": true,
-                                                    "raw": "true"
+                                                    "raw": "true",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               },
@@ -384,7 +392,9 @@
             "start": 857,
             "end": 884,
             "value": "toStringAccessed !== true",
-            "raw": "'toStringAccessed !== true'"
+            "raw": "'toStringAccessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -416,7 +426,9 @@
             "start": 911,
             "end": 937,
             "value": "valueOfAccessed !== true",
-            "raw": "'valueOfAccessed !== true'"
+            "raw": "'valueOfAccessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

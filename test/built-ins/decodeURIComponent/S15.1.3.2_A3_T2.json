@@ -27,7 +27,9 @@
               "start": 382,
               "end": 387,
               "value": "%3b",
-              "raw": "\"%3b\""
+              "raw": "\"%3b\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 393,
           "end": 396,
           "value": ";",
-          "raw": "\";\""
+          "raw": "\";\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 425,
                   "end": 486,
                   "value": "#1: decodeURIComponent(\"%3b\") equal \";\", not \"%3B\" or \"%3b\"",
-                  "raw": "'#1: decodeURIComponent(\"%3b\") equal \";\", not \"%3B\" or \"%3b\"'"
+                  "raw": "'#1: decodeURIComponent(\"%3b\") equal \";\", not \"%3B\" or \"%3b\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 525,
               "end": 530,
               "value": "%2f",
-              "raw": "\"%2f\""
+              "raw": "\"%2f\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 536,
           "end": 539,
           "value": "/",
-          "raw": "\"/\""
+          "raw": "\"/\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 568,
                   "end": 629,
                   "value": "#2: decodeURIComponent(\"%2f\") equal \"/\", not \"%2F\" or \"%2f\"",
-                  "raw": "'#2: decodeURIComponent(\"%2f\") equal \"/\", not \"%2F\" or \"%2f\"'"
+                  "raw": "'#2: decodeURIComponent(\"%2f\") equal \"/\", not \"%2F\" or \"%2f\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -171,7 +183,9 @@
               "start": 668,
               "end": 673,
               "value": "%3f",
-              "raw": "\"%3f\""
+              "raw": "\"%3f\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -182,7 +196,9 @@
           "start": 679,
           "end": 682,
           "value": "?",
-          "raw": "\"?\""
+          "raw": "\"?\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +226,9 @@
                   "start": 711,
                   "end": 772,
                   "value": "#3: decodeURIComponent(\"%3f\") equal \"?\", not \"%3F\" or \"%3f\"",
-                  "raw": "'#3: decodeURIComponent(\"%3f\") equal \"?\", not \"%3F\" or \"%3f\"'"
+                  "raw": "'#3: decodeURIComponent(\"%3f\") equal \"?\", not \"%3F\" or \"%3f\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -243,7 +261,9 @@
               "start": 811,
               "end": 816,
               "value": "%3a",
-              "raw": "\"%3a\""
+              "raw": "\"%3a\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -254,7 +274,9 @@
           "start": 822,
           "end": 825,
           "value": ":",
-          "raw": "\":\""
+          "raw": "\":\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -282,7 +304,9 @@
                   "start": 854,
                   "end": 915,
                   "value": "#4: decodeURIComponent(\"%3a\") equal \":\", not \"%3A\" or \"%3a\"",
-                  "raw": "'#4: decodeURIComponent(\"%3a\") equal \":\", not \"%3A\" or \"%3a\"'"
+                  "raw": "'#4: decodeURIComponent(\"%3a\") equal \":\", not \"%3A\" or \"%3a\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -315,7 +339,9 @@
               "start": 954,
               "end": 959,
               "value": "%40",
-              "raw": "\"%40\""
+              "raw": "\"%40\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -326,7 +352,9 @@
           "start": 965,
           "end": 968,
           "value": "@",
-          "raw": "\"@\""
+          "raw": "\"@\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -354,7 +382,9 @@
                   "start": 997,
                   "end": 1049,
                   "value": "#5: decodeURIComponent(\"%40\") equal \"@\", not \"%40\"",
-                  "raw": "'#5: decodeURIComponent(\"%40\") equal \"@\", not \"%40\"'"
+                  "raw": "'#5: decodeURIComponent(\"%40\") equal \"@\", not \"%40\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -387,7 +417,9 @@
               "start": 1088,
               "end": 1093,
               "value": "%26",
-              "raw": "\"%26\""
+              "raw": "\"%26\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -398,7 +430,9 @@
           "start": 1099,
           "end": 1102,
           "value": "&",
-          "raw": "\"&\""
+          "raw": "\"&\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -426,7 +460,9 @@
                   "start": 1131,
                   "end": 1183,
                   "value": "#6: decodeURIComponent(\"%26\") equal \"&\", not \"%26\"",
-                  "raw": "'#6: decodeURIComponent(\"%26\") equal \"&\", not \"%26\"'"
+                  "raw": "'#6: decodeURIComponent(\"%26\") equal \"&\", not \"%26\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -459,7 +495,9 @@
               "start": 1222,
               "end": 1227,
               "value": "%3d",
-              "raw": "\"%3d\""
+              "raw": "\"%3d\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -470,7 +508,9 @@
           "start": 1233,
           "end": 1236,
           "value": "=",
-          "raw": "\"=\""
+          "raw": "\"=\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -498,7 +538,9 @@
                   "start": 1265,
                   "end": 1328,
                   "value": "#7.1: decodeURIComponent(\"%3d\") equal \"=\", not \"%3D\" or \"%3d\"",
-                  "raw": "'#7.1: decodeURIComponent(\"%3d\") equal \"=\", not \"%3D\" or \"%3d\"'"
+                  "raw": "'#7.1: decodeURIComponent(\"%3d\") equal \"=\", not \"%3D\" or \"%3d\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -531,7 +573,9 @@
               "start": 1367,
               "end": 1372,
               "value": "%2b",
-              "raw": "\"%2b\""
+              "raw": "\"%2b\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -542,7 +586,9 @@
           "start": 1378,
           "end": 1381,
           "value": "+",
-          "raw": "\"+\""
+          "raw": "\"+\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -570,7 +616,9 @@
                   "start": 1410,
                   "end": 1473,
                   "value": "#8.1: decodeURIComponent(\"%2b\") equal \"+\", not \"%2B\" or \"%2b\"",
-                  "raw": "'#8.1: decodeURIComponent(\"%2b\") equal \"+\", not \"%2B\" or \"%2b\"'"
+                  "raw": "'#8.1: decodeURIComponent(\"%2b\") equal \"+\", not \"%2B\" or \"%2b\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -603,7 +651,9 @@
               "start": 1512,
               "end": 1517,
               "value": "%24",
-              "raw": "\"%24\""
+              "raw": "\"%24\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -614,7 +664,9 @@
           "start": 1523,
           "end": 1526,
           "value": "$",
-          "raw": "\"$\""
+          "raw": "\"$\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -642,7 +694,9 @@
                   "start": 1555,
                   "end": 1607,
                   "value": "#9: decodeURIComponent(\"%24\") equal \"$\", not \"%24\"",
-                  "raw": "'#9: decodeURIComponent(\"%24\") equal \"$\", not \"%24\"'"
+                  "raw": "'#9: decodeURIComponent(\"%24\") equal \"$\", not \"%24\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -675,7 +729,9 @@
               "start": 1647,
               "end": 1652,
               "value": "%2c",
-              "raw": "\"%2c\""
+              "raw": "\"%2c\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -686,7 +742,9 @@
           "start": 1658,
           "end": 1661,
           "value": ",",
-          "raw": "\",\""
+          "raw": "\",\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -714,7 +772,9 @@
                   "start": 1690,
                   "end": 1752,
                   "value": "#10: decodeURIComponent(\"%2c\") equal \",\", not \"%2C\" or \"%2c\"",
-                  "raw": "'#10: decodeURIComponent(\"%2c\") equal \",\", not \"%2C\" or \"%2c\"'"
+                  "raw": "'#10: decodeURIComponent(\"%2c\") equal \",\", not \"%2C\" or \"%2c\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -747,7 +807,9 @@
               "start": 1792,
               "end": 1797,
               "value": "%23",
-              "raw": "\"%23\""
+              "raw": "\"%23\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -758,7 +820,9 @@
           "start": 1803,
           "end": 1806,
           "value": "#",
-          "raw": "\"#\""
+          "raw": "\"#\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -786,7 +850,9 @@
                   "start": 1835,
                   "end": 1888,
                   "value": "#11: decodeURIComponent(\"%23\") equal \"#\", not \"%23\"",
-                  "raw": "'#11: decodeURIComponent(\"%23\") equal \"#\", not \"%23\"'"
+                  "raw": "'#11: decodeURIComponent(\"%23\") equal \"#\", not \"%23\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

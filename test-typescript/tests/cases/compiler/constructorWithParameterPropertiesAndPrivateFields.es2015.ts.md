@@ -492,7 +492,9 @@ __ESTREE_TEST__:PASS:
                       "start": 421,
                       "end": 431,
                       "raw": "\"prologue\"",
-                      "value": "prologue"
+                      "value": "prologue",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {

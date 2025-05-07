@@ -95,7 +95,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -121,7 +123,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 30,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -190,7 +194,9 @@ __ESTREE_TEST__:PASS:
                     "start": 97,
                     "end": 102,
                     "raw": "\"div\"",
-                    "value": "div"
+                    "value": "div",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -199,7 +205,9 @@ __ESTREE_TEST__:PASS:
                 "start": 105,
                 "end": 110,
                 "raw": "'div'",
-                "value": "div"
+                "value": "div",
+                "regex": null,
+                "bigint": null
               }
             },
             {

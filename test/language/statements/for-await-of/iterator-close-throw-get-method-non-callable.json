@@ -146,7 +146,9 @@
                                       "start": 1012,
                                       "end": 1017,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -168,7 +170,9 @@
                                       "start": 1026,
                                       "end": 1030,
                                       "value": null,
-                                      "raw": "null"
+                                      "raw": "null",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -198,7 +202,9 @@
                         "start": 1053,
                         "end": 1057,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -230,7 +236,9 @@
             "start": 1089,
             "end": 1090,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -329,7 +337,9 @@
                                 "start": 1191,
                                 "end": 1192,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -353,7 +363,9 @@
                                   "start": 1221,
                                   "end": 1246,
                                   "value": "should not be overriden",
-                                  "raw": "\"should not be overriden\""
+                                  "raw": "\"should not be overriden\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -453,7 +465,9 @@
                               "start": 1316,
                               "end": 1351,
                               "value": "Promise should be rejected, got: ",
-                              "raw": "\"Promise should be rejected, got: \""
+                              "raw": "\"Promise should be rejected, got: \"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -586,14 +600,18 @@
                             "start": 1471,
                             "end": 1472,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1474,
                             "end": 1502,
                             "value": "The loop body is evaluated",
-                            "raw": "\"The loop body is evaluated\""
+                            "raw": "\"The loop body is evaluated\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

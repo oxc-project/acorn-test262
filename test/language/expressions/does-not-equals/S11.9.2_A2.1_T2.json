@@ -32,7 +32,9 @@
                 "start": 284,
                 "end": 285,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -60,7 +62,9 @@
                     "start": 312,
                     "end": 357,
                     "value": "#1.1: x != 1 throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x != 1 throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: x != 1 throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -83,7 +87,9 @@
                         "start": 366,
                         "end": 367,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -145,7 +151,9 @@
                   "start": 427,
                   "end": 431,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -177,7 +185,9 @@
                             "start": 462,
                             "end": 507,
                             "value": "#1.2: x != 1 throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x != 1 throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: x != 1 throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

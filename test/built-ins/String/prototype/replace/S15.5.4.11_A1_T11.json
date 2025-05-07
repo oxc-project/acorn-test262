@@ -59,7 +59,9 @@
                           "start": 459,
                           "end": 474,
                           "value": "insearchValue",
-                          "raw": "\"insearchValue\""
+                          "raw": "\"insearchValue\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -129,7 +131,9 @@
                           "start": 533,
                           "end": 549,
                           "value": "inreplaceValue",
-                          "raw": "\"inreplaceValue\""
+                          "raw": "\"inreplaceValue\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -163,7 +167,9 @@
             "start": 570,
             "end": 586,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -256,7 +262,9 @@
                   "start": 749,
                   "end": 819,
                   "value": "#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception'"
+                  "raw": "'#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -298,7 +306,9 @@
                   "start": 848,
                   "end": 863,
                   "value": "insearchValue",
-                  "raw": "\"insearchValue\""
+                  "raw": "\"insearchValue\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -330,7 +340,9 @@
                             "start": 894,
                             "end": 941,
                             "value": "#1.1: Exception === \"insearchValue\". Actual: ",
-                            "raw": "'#1.1: Exception === \"insearchValue\". Actual: '"
+                            "raw": "'#1.1: Exception === \"insearchValue\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

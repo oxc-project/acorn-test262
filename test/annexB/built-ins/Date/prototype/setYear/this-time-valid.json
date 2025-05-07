@@ -34,42 +34,54 @@
                 "start": 457,
                 "end": 461,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 463,
                 "end": 464,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 467,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 470,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 473,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 475,
                 "end": 476,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -116,42 +128,54 @@
                     "start": 503,
                     "end": 507,
                     "value": 1971,
-                    "raw": "1971"
+                    "raw": "1971",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 509,
                     "end": 510,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 512,
                     "end": 513,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 515,
                     "end": 516,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 518,
                     "end": 519,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 521,
                     "end": 522,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -228,7 +252,9 @@
                 "start": 566,
                 "end": 568,
                 "value": 71,
-                "raw": "71"
+                "raw": "71",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -244,7 +270,9 @@
             "start": 581,
             "end": 602,
             "value": "method return value",
-            "raw": "'method return value'"
+            "raw": "'method return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +343,9 @@
             "start": 648,
             "end": 677,
             "value": "[[DateValue]] internal slot",
-            "raw": "'[[DateValue]] internal slot'"
+            "raw": "'[[DateValue]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

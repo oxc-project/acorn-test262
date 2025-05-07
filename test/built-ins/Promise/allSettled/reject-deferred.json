@@ -365,7 +365,9 @@
                             "start": 1352,
                             "end": 1353,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -418,7 +420,9 @@
                                 "start": 1386,
                                 "end": 1387,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -437,7 +441,9 @@
                             "start": 1397,
                             "end": 1407,
                             "value": "rejected",
-                            "raw": "'rejected'"
+                            "raw": "'rejected'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -490,7 +496,9 @@
                                 "start": 1440,
                                 "end": 1441,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false

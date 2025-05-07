@@ -100,7 +100,9 @@
             "start": 354,
             "end": 432,
             "value": "Intl.NumberFormat.prototype.constructor is not the same as Intl.NumberFormat",
-            "raw": "\"Intl.NumberFormat.prototype.constructor is not the same as Intl.NumberFormat\""
+            "raw": "\"Intl.NumberFormat.prototype.constructor is not the same as Intl.NumberFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

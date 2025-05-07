@@ -75,7 +75,9 @@
                                 "start": 1811,
                                 "end": 1813,
                                 "value": 17,
-                                "raw": "17"
+                                "raw": "17",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -197,7 +199,9 @@
                                             "start": 1925,
                                             "end": 1927,
                                             "value": 42,
-                                            "raw": "42"
+                                            "raw": "42",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -278,7 +282,9 @@
                             "start": 2006,
                             "end": 2007,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -294,14 +300,18 @@
                         "start": 2020,
                         "end": 2024,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2030,
                         "end": 2140,
                         "value": "Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42;}}} ) must return true",
-                        "raw": "'Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42;}}} ) must return true'"
+                        "raw": "'Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42;}}} ) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -350,7 +360,9 @@
                           "start": 2168,
                           "end": 2169,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -366,7 +378,9 @@
                         "start": 2183,
                         "end": 2236,
                         "value": "The value of ta[0] is expected to equal `undefined`",
-                        "raw": "'The value of ta[0] is expected to equal `undefined`'"
+                        "raw": "'The value of ta[0] is expected to equal `undefined`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

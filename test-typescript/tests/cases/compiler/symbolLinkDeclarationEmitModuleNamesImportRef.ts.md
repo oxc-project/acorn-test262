@@ -48,7 +48,9 @@ __ESTREE_TEST__:PASS:
                         "start": 36,
                         "end": 55,
                         "raw": "\"styled-components\"",
-                        "value": "styled-components"
+                        "value": "styled-components",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "options": null,
@@ -143,7 +145,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 34,
         "raw": "\"package-a\"",
-        "value": "package-a"
+        "value": "package-a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

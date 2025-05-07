@@ -37,7 +37,9 @@
           "start": 380,
           "end": 391,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -69,7 +71,9 @@
                     "start": 420,
                     "end": 469,
                     "value": "#1: String(undefined) === \"undefined\". Actual: ",
-                    "raw": "'#1: String(undefined) === \"undefined\". Actual: '"
+                    "raw": "'#1: String(undefined) === \"undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -135,7 +139,9 @@
                 "start": 524,
                 "end": 525,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -147,7 +153,9 @@
           "start": 531,
           "end": 542,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -179,7 +187,9 @@
                     "start": 571,
                     "end": 617,
                     "value": "#2: String(void 0) === \"undefined\". Actual: ",
-                    "raw": "'#2: String(void 0) === \"undefined\". Actual: '"
+                    "raw": "'#2: String(void 0) === \"undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -208,7 +218,9 @@
                             "start": 633,
                             "end": 634,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -258,7 +270,9 @@
                   "start": 669,
                   "end": 676,
                   "value": "var x",
-                  "raw": "\"var x\""
+                  "raw": "\"var x\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -272,7 +286,9 @@
           "start": 683,
           "end": 694,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -304,7 +320,9 @@
                     "start": 723,
                     "end": 777,
                     "value": "#3: String(eval(\"var x\")) === \"undefined\" . Actual: ",
-                    "raw": "'#3: String(eval(\"var x\")) === \"undefined\" . Actual: '"
+                    "raw": "'#3: String(eval(\"var x\")) === \"undefined\" . Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -338,7 +356,9 @@
                               "start": 793,
                               "end": 800,
                               "value": "var x",
-                              "raw": "\"var x\""
+                              "raw": "\"var x\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

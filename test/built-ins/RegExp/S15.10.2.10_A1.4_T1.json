@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 346,
                 "end": 354,
                 "value": "\f",
-                "raw": "\"\\u000C\""
+                "raw": "\"\\u000C\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +92,9 @@
               "start": 370,
               "end": 374,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -117,7 +122,9 @@
                 "start": 384,
                 "end": 385,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -128,7 +135,9 @@
               "start": 391,
               "end": 399,
               "value": "\f",
-              "raw": "\"\\u000C\""
+              "raw": "\"\\u000C\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -162,7 +171,9 @@
                     "start": 429,
                     "end": 498,
                     "value": "#1: var arr = /\\f/.exec(\"\\u000C\"); arr[0] === \"\\u000C\". Actual. ",
-                    "raw": "'#1: var arr = /\\\\f/.exec(\"\\\\u000C\"); arr[0] === \"\\\\u000C\". Actual. '"
+                    "raw": "'#1: var arr = /\\\\f/.exec(\"\\\\u000C\"); arr[0] === \"\\\\u000C\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +206,9 @@
                           "start": 513,
                           "end": 514,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -242,7 +255,8 @@
                 "regex": {
                   "pattern": "\\f\\f",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -259,7 +273,9 @@
                 "start": 544,
                 "end": 560,
                 "value": "a\f\fb",
-                "raw": "\"a\\u000C\\u000Cb\""
+                "raw": "\"a\\u000C\\u000Cb\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -296,7 +312,9 @@
               "start": 576,
               "end": 580,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -324,7 +342,9 @@
                 "start": 590,
                 "end": 591,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -335,7 +355,9 @@
               "start": 597,
               "end": 611,
               "value": "\f\f",
-              "raw": "\"\\u000C\\u000C\""
+              "raw": "\"\\u000C\\u000C\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -369,7 +391,9 @@
                     "start": 641,
                     "end": 729,
                     "value": "#2: var arr = /\\f\\f/.exec(\"a\\u000C\\u000Cb\"); arr[0] === \"\\u000C\\u000C\". Actual. ",
-                    "raw": "'#2: var arr = /\\\\f\\\\f/.exec(\"a\\\\u000C\\\\u000Cb\"); arr[0] === \"\\\\u000C\\\\u000C\". Actual. '"
+                    "raw": "'#2: var arr = /\\\\f\\\\f/.exec(\"a\\\\u000C\\\\u000Cb\"); arr[0] === \"\\\\u000C\\\\u000C\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -402,7 +426,9 @@
                           "start": 744,
                           "end": 745,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

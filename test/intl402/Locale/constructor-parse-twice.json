@@ -46,7 +46,9 @@
                       "start": 1112,
                       "end": 1128,
                       "value": "en-GB-oxendict",
-                      "raw": "\"en-GB-oxendict\""
+                      "raw": "\"en-GB-oxendict\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -86,7 +88,9 @@
                             "start": 1159,
                             "end": 1163,
                             "value": "US",
-                            "raw": "\"US\""
+                            "raw": "\"US\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -108,7 +112,9 @@
                             "start": 1181,
                             "end": 1190,
                             "value": "gregory",
-                            "raw": "\"gregory\""
+                            "raw": "\"gregory\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -134,7 +140,9 @@
                       "start": 1214,
                       "end": 1243,
                       "value": "en-US-oxendict-u-ca-gregory",
-                      "raw": "\"en-US-oxendict-u-ca-gregory\""
+                      "raw": "\"en-US-oxendict-u-ca-gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -484,7 +492,9 @@
                   "start": 1525,
                   "end": 1533,
                   "value": "no-bok",
-                  "raw": "\"no-bok\""
+                  "raw": "\"no-bok\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -509,7 +519,9 @@
                         "start": 1544,
                         "end": 1548,
                         "value": "NO",
-                        "raw": "\"NO\""
+                        "raw": "\"NO\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -531,7 +543,9 @@
                         "start": 1560,
                         "end": 1569,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -616,7 +630,9 @@
                   "start": 1626,
                   "end": 1634,
                   "value": "no-bok",
-                  "raw": "\"no-bok\""
+                  "raw": "\"no-bok\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -641,7 +657,9 @@
                         "start": 1645,
                         "end": 1649,
                         "value": "SE",
-                        "raw": "\"SE\""
+                        "raw": "\"SE\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -663,7 +681,9 @@
                         "start": 1661,
                         "end": 1670,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -748,7 +768,9 @@
                   "start": 1727,
                   "end": 1738,
                   "value": "no-bok-NO",
-                  "raw": "\"no-bok-NO\""
+                  "raw": "\"no-bok-NO\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -773,7 +795,9 @@
                         "start": 1749,
                         "end": 1753,
                         "value": "SE",
-                        "raw": "\"SE\""
+                        "raw": "\"SE\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -795,7 +819,9 @@
                         "start": 1765,
                         "end": 1774,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -880,7 +906,9 @@
                   "start": 1831,
                   "end": 1842,
                   "value": "no-bok-SE",
-                  "raw": "\"no-bok-SE\""
+                  "raw": "\"no-bok-SE\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -905,7 +933,9 @@
                         "start": 1853,
                         "end": 1857,
                         "value": "NO",
-                        "raw": "\"NO\""
+                        "raw": "\"NO\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -927,7 +957,9 @@
                         "start": 1869,
                         "end": 1878,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

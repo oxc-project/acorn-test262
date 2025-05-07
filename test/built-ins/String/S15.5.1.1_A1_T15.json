@@ -23,7 +23,9 @@
             "start": 338,
             "end": 344,
             "value": "caps",
-            "raw": "\"caps\""
+            "raw": "\"caps\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,7 +121,9 @@
                     "start": 544,
                     "end": 638,
                     "value": "#1: __obj__str = \"caps\"; __str = String(__obj__str); __str === __obj__str. Actual: __str ===",
-                    "raw": "'#1: __obj__str = \"caps\"; __str = String(__obj__str); __str === __obj__str. Actual: __str ==='"
+                    "raw": "'#1: __obj__str = \"caps\"; __str = String(__obj__str); __str === __obj__str. Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

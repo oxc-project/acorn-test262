@@ -47,21 +47,27 @@
                 "start": 374,
                 "end": 378,
                 "value": 2021,
-                "raw": "2021"
+                "raw": "2021",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 392,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,7 +119,9 @@
                 "start": 431,
                 "end": 435,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -138,7 +146,9 @@
                       "start": 449,
                       "end": 463,
                       "value": "Pacific/Apia",
-                      "raw": "\"Pacific/Apia\""
+                      "raw": "\"Pacific/Apia\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -190,7 +200,9 @@
             "start": 493,
             "end": 501,
             "value": "8/2021",
-            "raw": "\"8/2021\""
+            "raw": "\"8/2021\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

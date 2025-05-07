@@ -139,7 +139,9 @@
           "start": 1066,
           "end": 1068,
           "value": 86,
-          "raw": "86"
+          "raw": "86",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -180,7 +182,9 @@
               "start": 1087,
               "end": 1088,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "operator": "==",
             "right": {
@@ -195,14 +199,18 @@
             "start": 1095,
             "end": 1100,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1102,
             "end": 1132,
             "value": "number primitive (not equal)",
-            "raw": "'number primitive (not equal)'"
+            "raw": "'number primitive (not equal)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +253,9 @@
               "start": 1152,
               "end": 1154,
               "value": 86,
-              "raw": "86"
+              "raw": "86",
+              "regex": null,
+              "bigint": null
             },
             "operator": "==",
             "right": {
@@ -260,14 +270,18 @@
             "start": 1161,
             "end": 1165,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1167,
             "end": 1193,
             "value": "number primitive (equal)",
-            "raw": "'number primitive (equal)'"
+            "raw": "'number primitive (equal)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +307,9 @@
           "start": 1206,
           "end": 1211,
           "value": "str",
-          "raw": "'str'"
+          "raw": "'str'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -334,7 +350,9 @@
               "start": 1230,
               "end": 1231,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "operator": "==",
             "right": {
@@ -349,14 +367,18 @@
             "start": 1238,
             "end": 1243,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1245,
             "end": 1275,
             "value": "string primitive (not equal)",
-            "raw": "'string primitive (not equal)'"
+            "raw": "'string primitive (not equal)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -399,7 +421,9 @@
               "start": 1295,
               "end": 1300,
               "value": "str",
-              "raw": "'str'"
+              "raw": "'str'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "==",
             "right": {
@@ -414,14 +438,18 @@
             "start": 1307,
             "end": 1311,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1313,
             "end": 1338,
             "value": "sting primitive (equal)",
-            "raw": "'sting primitive (equal)'"
+            "raw": "'sting primitive (equal)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -500,7 +528,9 @@
               "start": 1388,
               "end": 1389,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "operator": "==",
             "right": {
@@ -515,14 +545,18 @@
             "start": 1396,
             "end": 1401,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1403,
             "end": 1423,
             "value": "symbol (not equal)",
-            "raw": "'symbol (not equal)'"
+            "raw": "'symbol (not equal)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -592,14 +626,18 @@
             "start": 1468,
             "end": 1472,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1474,
             "end": 1490,
             "value": "symbol (equal)",
-            "raw": "'symbol (equal)'"
+            "raw": "'symbol (equal)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -13,7 +13,9 @@
         "start": 959,
         "end": 980,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -27,7 +29,9 @@
         "start": 989,
         "end": 1010,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -53,7 +57,9 @@
         "start": 1033,
         "end": 1054,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -79,7 +85,9 @@
         "start": 1074,
         "end": 1095,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -94,7 +102,9 @@
         "start": 1112,
         "end": 1133,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -120,7 +130,9 @@
         "start": 1157,
         "end": 1178,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -134,7 +146,9 @@
         "start": 1194,
         "end": 1215,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -153,7 +167,9 @@
         "start": 1238,
         "end": 1259,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -190,7 +206,9 @@
         "start": 1288,
         "end": 1309,
         "value": "./eval-self-once.js",
-        "raw": "'./eval-self-once.js'"
+        "raw": "'./eval-self-once.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -203,7 +221,9 @@
         "start": 1326,
         "end": 1330,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -296,7 +316,9 @@
             "start": 1409,
             "end": 1442,
             "value": "global property initially unset",
-            "raw": "'global property initially unset'"
+            "raw": "'global property initially unset'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,7 +357,9 @@
           "start": 1463,
           "end": 1466,
           "value": 262,
-          "raw": "262"
+          "raw": "262",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -391,14 +415,18 @@
             "start": 1502,
             "end": 1505,
             "value": 262,
-            "raw": "262"
+            "raw": "262",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1507,
             "end": 1536,
             "value": "global property was defined",
-            "raw": "'global property was defined'"
+            "raw": "'global property was defined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

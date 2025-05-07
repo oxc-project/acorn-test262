@@ -48,6 +48,7 @@
                 "end": 790,
                 "value": null,
                 "raw": "1_000_000_000_000_000_005n",
+                "regex": null,
                 "bigint": "1000000000000000005"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 792,
                 "end": 797,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 846,
                       "end": 858,
                       "value": "nanosecond",
-                      "raw": "\"nanosecond\""
+                      "raw": "\"nanosecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -147,7 +152,9 @@
                       "start": 879,
                       "end": 882,
                       "value": 2.5,
-                      "raw": "2.5"
+                      "raw": "2.5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -169,7 +176,9 @@
                       "start": 898,
                       "end": 906,
                       "value": "expand",
-                      "raw": "\"expand\""
+                      "raw": "\"expand\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -235,6 +244,7 @@
             "end": 979,
             "value": null,
             "raw": "1_000_000_000_000_000_006n",
+            "regex": null,
             "bigint": "1000000000000000006"
           },
           {
@@ -242,7 +252,9 @@
             "start": 981,
             "end": 1019,
             "value": "roundingIncrement 2.5 truncates to 2",
-            "raw": "\"roundingIncrement 2.5 truncates to 2\""
+            "raw": "\"roundingIncrement 2.5 truncates to 2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

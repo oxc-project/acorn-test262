@@ -34,7 +34,9 @@
                 "start": 324,
                 "end": 424,
                 "value": "'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}",
-                "raw": "\"'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}\""
+                "raw": "\"'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -155,14 +155,18 @@
             "start": 393,
             "end": 409,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 454,
             "value": "x.getClass() must return \"[object Array]\"",
-            "raw": "'x.getClass() must return \"[object Array]\"'"
+            "raw": "'x.getClass() must return \"[object Array]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,21 +203,27 @@
                 "start": 476,
                 "end": 477,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 479,
                 "end": 480,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -342,14 +352,18 @@
             "start": 557,
             "end": 573,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 618,
             "value": "x.getClass() must return \"[object Array]\"",
-            "raw": "'x.getClass() must return \"[object Array]\"'"
+            "raw": "'x.getClass() must return \"[object Array]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

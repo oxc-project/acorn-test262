@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 73,
           "end": 100,
           "raw": "'./moduleInTypePosition1_0'",
-          "value": "./moduleInTypePosition1_0"
+          "value": "./moduleInTypePosition1_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

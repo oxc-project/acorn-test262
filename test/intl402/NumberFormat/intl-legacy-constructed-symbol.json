@@ -197,7 +197,9 @@
           "start": 523,
           "end": 524,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -257,7 +259,9 @@
                   "start": 565,
                   "end": 566,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -310,7 +314,9 @@
                       "start": 598,
                       "end": 599,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -329,7 +335,9 @@
                   "start": 614,
                   "end": 643,
                   "value": "IntlLegacyConstructedSymbol",
-                  "raw": "\"IntlLegacyConstructedSymbol\""
+                  "raw": "\"IntlLegacyConstructedSymbol\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -24,7 +24,9 @@
               "start": 290,
               "end": 294,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Identifier",
@@ -37,7 +39,9 @@
               "start": 309,
               "end": 313,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -74,7 +78,9 @@
                   "start": 357,
                   "end": 402,
                   "value": "#1: (true ? undefined : true) === undefined",
-                  "raw": "'#1: (true ? undefined : true) === undefined'"
+                  "raw": "'#1: (true ? undefined : true) === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -104,21 +110,27 @@
               "start": 423,
               "end": 427,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 430,
               "end": 434,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 437,
               "end": 441,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -128,7 +140,9 @@
           "start": 447,
           "end": 451,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -156,7 +170,9 @@
                   "start": 480,
                   "end": 515,
                   "value": "#2: (true ? null : true) === null",
-                  "raw": "'#2: (true ? null : true) === null'"
+                  "raw": "'#2: (true ? null : true) === null'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

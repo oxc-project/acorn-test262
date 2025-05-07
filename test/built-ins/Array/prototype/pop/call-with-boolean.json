@@ -86,7 +86,9 @@
                 "start": 277,
                 "end": 281,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -102,7 +104,9 @@
             "start": 295,
             "end": 349,
             "value": "Array.prototype.pop.call(true) must return undefined",
-            "raw": "'Array.prototype.pop.call(true) must return undefined'"
+            "raw": "'Array.prototype.pop.call(true) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +195,9 @@
                 "start": 394,
                 "end": 399,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +213,9 @@
             "start": 413,
             "end": 468,
             "value": "Array.prototype.pop.call(false) must return undefined",
-            "raw": "'Array.prototype.pop.call(false) must return undefined'"
+            "raw": "'Array.prototype.pop.call(false) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

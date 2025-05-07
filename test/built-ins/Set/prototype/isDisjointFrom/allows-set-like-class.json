@@ -39,14 +39,18 @@
                     "start": 511,
                     "end": 512,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 514,
                     "end": 515,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -122,7 +126,9 @@
                               "start": 568,
                               "end": 569,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -187,7 +193,9 @@
                                   "start": 600,
                                   "end": 601,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "||",
@@ -207,7 +215,9 @@
                                   "start": 611,
                                   "end": 612,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -220,7 +230,9 @@
                                 "start": 621,
                                 "end": 626,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "alternate": null
@@ -245,7 +257,9 @@
                                   "start": 655,
                                   "end": 750,
                                   "value": "Set.prototype.isDisjointFrom should only call its argument's has method with contents of this",
-                                  "raw": "\"Set.prototype.isDisjointFrom should only call its argument's has method with contents of this\""
+                                  "raw": "\"Set.prototype.isDisjointFrom should only call its argument's has method with contents of this\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -301,7 +315,9 @@
                                   "start": 797,
                                   "end": 898,
                                   "value": "Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size",
-                                  "raw": "\"Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size\""
+                                  "raw": "\"Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -385,7 +401,9 @@
             "start": 949,
             "end": 953,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -59,7 +59,9 @@ __ESTREE_TEST__:PASS:
                         "start": 38,
                         "end": 46,
                         "raw": "\"I am B\"",
-                        "value": "I am B"
+                        "value": "I am B",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -359,7 +361,9 @@ __ESTREE_TEST__:PASS:
               "start": 209,
               "end": 214,
               "raw": "\"./0\"",
-              "value": "./0"
+              "value": "./0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

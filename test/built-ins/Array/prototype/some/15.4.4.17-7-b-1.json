@@ -23,7 +23,9 @@
             "start": 301,
             "end": 302,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -94,7 +96,9 @@
               "start": 364,
               "end": 369,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -131,7 +135,9 @@
                 "start": 394,
                 "end": 396,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -163,7 +169,9 @@
             "start": 403,
             "end": 404,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -253,14 +261,18 @@
             "start": 468,
             "end": 469,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 471,
             "end": 480,
             "value": "callCnt",
-            "raw": "'callCnt'"
+            "raw": "'callCnt'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 652,
             "end": 653,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,6 +106,7 @@
                           "end": 726,
                           "value": null,
                           "raw": "2n",
+                          "regex": null,
                           "bigint": "2"
                         }
                       }
@@ -238,7 +241,9 @@
                         "start": 852,
                         "end": 853,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -292,7 +297,9 @@
                                           "start": 902,
                                           "end": 935,
                                           "value": "0 getter should be unreachable!",
-                                          "raw": "\"0 getter should be unreachable!\""
+                                          "raw": "\"0 getter should be unreachable!\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }
@@ -356,7 +363,9 @@
                                           "start": 988,
                                           "end": 1021,
                                           "value": "0 setter should be unreachable!",
-                                          "raw": "\"0 setter should be unreachable!\""
+                                          "raw": "\"0 setter should be unreachable!\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }
@@ -384,7 +393,9 @@
                               "start": 1045,
                               "end": 1049,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -431,6 +442,7 @@
                               "end": 1080,
                               "value": null,
                               "raw": "0n",
+                              "regex": null,
                               "bigint": "0"
                             }
                           ]
@@ -513,7 +525,9 @@
                         "start": 1131,
                         "end": 1132,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -569,7 +583,9 @@
                           "start": 1169,
                           "end": 1170,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -580,6 +596,7 @@
                         "end": 1175,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -587,7 +604,9 @@
                         "start": 1177,
                         "end": 1237,
                         "value": "target[0] should remain unchanged (receiver: empty object)",
-                        "raw": "\"target[0] should remain unchanged (receiver: empty object)\""
+                        "raw": "\"target[0] should remain unchanged (receiver: empty object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -636,7 +655,9 @@
                           "start": 1268,
                           "end": 1269,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -652,7 +673,9 @@
                         "start": 1279,
                         "end": 1335,
                         "value": "receiver[0] should be updated (receiver: empty object)",
-                        "raw": "\"receiver[0] should be updated (receiver: empty object)\""
+                        "raw": "\"receiver[0] should be updated (receiver: empty object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -678,7 +701,9 @@
                         "start": 1363,
                         "end": 1364,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -721,6 +746,7 @@
                               "end": 1387,
                               "value": null,
                               "raw": "0n",
+                              "regex": null,
                               "bigint": "0"
                             }
                           ]
@@ -916,7 +942,9 @@
                                         "start": 1566,
                                         "end": 1570,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -954,7 +982,9 @@
                         "start": 1596,
                         "end": 1597,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1010,7 +1040,9 @@
                           "start": 1634,
                           "end": 1635,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1021,6 +1053,7 @@
                         "end": 1640,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -1028,7 +1061,9 @@
                         "start": 1642,
                         "end": 1714,
                         "value": "target[0] should remain unchanged (receiver: proxy of an empty object)",
-                        "raw": "\"target[0] should remain unchanged (receiver: proxy of an empty object)\""
+                        "raw": "\"target[0] should remain unchanged (receiver: proxy of an empty object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1077,7 +1112,9 @@
                           "start": 1745,
                           "end": 1746,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1093,7 +1130,9 @@
                         "start": 1756,
                         "end": 1824,
                         "value": "receiver[0] should be created (receiver: proxy of an empty object)",
-                        "raw": "\"receiver[0] should be created (receiver: proxy of an empty object)\""
+                        "raw": "\"receiver[0] should be created (receiver: proxy of an empty object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1138,14 +1177,18 @@
                         "start": 1862,
                         "end": 1863,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1865,
                         "end": 1927,
                         "value": "Proxy's [[DefineOwnProperty]] exotic method should be called",
-                        "raw": "\"Proxy's [[DefineOwnProperty]] exotic method should be called\""
+                        "raw": "\"Proxy's [[DefineOwnProperty]] exotic method should be called\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1188,6 +1231,7 @@
                               "end": 1953,
                               "value": null,
                               "raw": "0n",
+                              "regex": null,
                               "bigint": "0"
                             }
                           ]
@@ -1330,7 +1374,9 @@
                                 "start": 2059,
                                 "end": 2071,
                                 "value": "use strict",
-                                "raw": "\"use strict\""
+                                "raw": "\"use strict\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "directive": "use strict"
                             },
@@ -1358,7 +1404,9 @@
                                     "start": 2082,
                                     "end": 2083,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -1379,7 +1427,9 @@
                         "start": 2101,
                         "end": 2190,
                         "value": "setting receiver[0] should throw in strict mode (receiver: non-extensible empty object)",
-                        "raw": "\"setting receiver[0] should throw in strict mode (receiver: non-extensible empty object)\""
+                        "raw": "\"setting receiver[0] should throw in strict mode (receiver: non-extensible empty object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1428,7 +1478,9 @@
                           "start": 2219,
                           "end": 2220,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1439,6 +1491,7 @@
                         "end": 2225,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -1446,7 +1499,9 @@
                         "start": 2227,
                         "end": 2302,
                         "value": "target[0] should remain unchanged (receiver: non-extensible empty object)",
-                        "raw": "\"target[0] should remain unchanged (receiver: non-extensible empty object)\""
+                        "raw": "\"target[0] should remain unchanged (receiver: non-extensible empty object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1502,7 +1557,9 @@
                               "start": 2339,
                               "end": 2340,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1513,7 +1570,9 @@
                         "start": 2343,
                         "end": 2418,
                         "value": "receiver[0] should not be created (receiver: non-extensible empty object)",
-                        "raw": "\"receiver[0] should not be created (receiver: non-extensible empty object)\""
+                        "raw": "\"receiver[0] should not be created (receiver: non-extensible empty object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1556,6 +1615,7 @@
                               "end": 2444,
                               "value": null,
                               "raw": "0n",
+                              "regex": null,
                               "bigint": "0"
                             }
                           ]
@@ -1644,7 +1704,9 @@
                         "start": 2507,
                         "end": 2508,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1700,7 +1762,9 @@
                           "start": 2545,
                           "end": 2546,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1711,6 +1775,7 @@
                         "end": 2551,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -1718,7 +1783,9 @@
                         "start": 2553,
                         "end": 2614,
                         "value": "target[0] should remain unchanged (receiver: regular array)",
-                        "raw": "\"target[0] should remain unchanged (receiver: regular array)\""
+                        "raw": "\"target[0] should remain unchanged (receiver: regular array)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1767,7 +1834,9 @@
                           "start": 2645,
                           "end": 2646,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -1783,7 +1852,9 @@
                         "start": 2656,
                         "end": 2713,
                         "value": "receiver[0] should be created (receiver: regular array)",
-                        "raw": "\"receiver[0] should be created (receiver: regular array)\""
+                        "raw": "\"receiver[0] should be created (receiver: regular array)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1841,14 +1912,18 @@
                         "start": 2752,
                         "end": 2753,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2755,
                         "end": 2817,
                         "value": "Array's [[DefineOwnProperty]] exotic method should be called",
-                        "raw": "\"Array's [[DefineOwnProperty]] exotic method should be called\""
+                        "raw": "\"Array's [[DefineOwnProperty]] exotic method should be called\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1891,6 +1966,7 @@
                               "end": 2843,
                               "value": null,
                               "raw": "0n",
+                              "regex": null,
                               "bigint": "0"
                             }
                           ]
@@ -1954,7 +2030,9 @@
                               "start": 2893,
                               "end": 2895,
                               "value": "",
-                              "raw": "\"\""
+                              "raw": "\"\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -1993,7 +2071,9 @@
                         "start": 2918,
                         "end": 2919,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -2049,7 +2129,9 @@
                           "start": 2956,
                           "end": 2957,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -2060,6 +2142,7 @@
                         "end": 2962,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -2067,7 +2150,9 @@
                         "start": 2964,
                         "end": 3031,
                         "value": "target[0] should remain unchanged (receiver: empty String object)",
-                        "raw": "\"target[0] should remain unchanged (receiver: empty String object)\""
+                        "raw": "\"target[0] should remain unchanged (receiver: empty String object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2116,7 +2201,9 @@
                           "start": 3062,
                           "end": 3063,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -2132,7 +2219,9 @@
                         "start": 3073,
                         "end": 3136,
                         "value": "receiver[0] should be created (receiver: empty String object)",
-                        "raw": "\"receiver[0] should be created (receiver: empty String object)\""
+                        "raw": "\"receiver[0] should be created (receiver: empty String object)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2187,7 +2276,9 @@
                             "start": 3170,
                             "end": 3171,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -2243,14 +2334,18 @@
             "start": 3211,
             "end": 3212,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3214,
             "end": 3243,
             "value": "value should not be coerced",
-            "raw": "\"value should not be coerced\""
+            "raw": "\"value should not be coerced\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

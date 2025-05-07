@@ -71,7 +71,9 @@
                 "start": 377,
                 "end": 392,
                 "value": "toExponential",
-                "raw": "\"toExponential\""
+                "raw": "\"toExponential\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -81,14 +83,18 @@
             "start": 397,
             "end": 402,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 406,
             "end": 472,
             "value": "(new Number()).hasOwnProperty(\"toExponential\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toExponential\") must return false'"
+            "raw": "'(new Number()).hasOwnProperty(\"toExponential\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +195,9 @@
             "start": 563,
             "end": 671,
             "value": "The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential",
-            "raw": "'The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential'"
+            "raw": "'The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

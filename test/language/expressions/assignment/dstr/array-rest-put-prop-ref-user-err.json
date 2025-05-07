@@ -147,7 +147,9 @@
                         "start": 847,
                         "end": 848,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "AssignmentExpression",
@@ -195,7 +197,9 @@
                               "start": 862,
                               "end": 864,
                               "value": 23,
-                              "raw": "23"
+                              "raw": "23",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

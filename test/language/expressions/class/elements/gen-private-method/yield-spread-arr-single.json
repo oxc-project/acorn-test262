@@ -28,21 +28,27 @@
                 "start": 756,
                 "end": 759,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 764,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 766,
                 "end": 769,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -70,7 +76,9 @@
             "start": 789,
             "end": 790,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -149,7 +157,9 @@
                               "start": 844,
                               "end": 845,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -374,7 +384,9 @@
                   "start": 1074,
                   "end": 1080,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -385,7 +397,9 @@
             "start": 1085,
             "end": 1157,
             "value": "Private field '#gen' does not appear as an own property on C prototype",
-            "raw": "\"Private field '#gen' does not appear as an own property on C prototype\""
+            "raw": "\"Private field '#gen' does not appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -473,7 +487,9 @@
                   "start": 1212,
                   "end": 1218,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -484,7 +500,9 @@
             "start": 1223,
             "end": 1297,
             "value": "Private field '#gen' does not appear as an own property on C constructor",
-            "raw": "\"Private field '#gen' does not appear as an own property on C constructor\""
+            "raw": "\"Private field '#gen' does not appear as an own property on C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,7 +590,9 @@
                   "start": 1352,
                   "end": 1358,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -583,7 +603,9 @@
             "start": 1363,
             "end": 1434,
             "value": "Private field '#gen' does not appear as an own property on C instance",
-            "raw": "\"Private field '#gen' does not appear as an own property on C instance\""
+            "raw": "\"Private field '#gen' does not appear as an own property on C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -667,7 +689,9 @@
             "start": 1470,
             "end": 1475,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -808,7 +832,9 @@
             "start": 1562,
             "end": 1584,
             "value": "value is a new array",
-            "raw": "'value is a new array'"
+            "raw": "'value is a new array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -867,7 +893,9 @@
             "start": 1616,
             "end": 1649,
             "value": "value is an Array exotic object",
-            "raw": "'value is an Array exotic object'"
+            "raw": "'value is an Array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -925,7 +953,9 @@
             "start": 1683,
             "end": 1684,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -974,7 +1004,9 @@
               "start": 1709,
               "end": 1710,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -984,7 +1016,9 @@
             "start": 1713,
             "end": 1716,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1033,7 +1067,9 @@
               "start": 1742,
               "end": 1743,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1043,7 +1079,9 @@
             "start": 1746,
             "end": 1749,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1092,7 +1130,9 @@
               "start": 1775,
               "end": 1776,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1102,7 +1142,9 @@
             "start": 1779,
             "end": 1782,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1160,7 +1202,9 @@
             "start": 1813,
             "end": 1818,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1205,7 +1249,9 @@
             "start": 1850,
             "end": 1851,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1306,7 +1352,9 @@
                   "start": 1990,
                   "end": 1996,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1317,7 +1365,9 @@
             "start": 2001,
             "end": 2073,
             "value": "Private field '#gen' does not appear as an own property on C prototype",
-            "raw": "\"Private field '#gen' does not appear as an own property on C prototype\""
+            "raw": "\"Private field '#gen' does not appear as an own property on C prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1405,7 +1455,9 @@
                   "start": 2128,
                   "end": 2134,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1416,7 +1468,9 @@
             "start": 2139,
             "end": 2213,
             "value": "Private field '#gen' does not appear as an own property on C constructor",
-            "raw": "\"Private field '#gen' does not appear as an own property on C constructor\""
+            "raw": "\"Private field '#gen' does not appear as an own property on C constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1504,7 +1558,9 @@
                   "start": 2268,
                   "end": 2274,
                   "value": "#gen",
-                  "raw": "\"#gen\""
+                  "raw": "\"#gen\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1515,7 +1571,9 @@
             "start": 2279,
             "end": 2350,
             "value": "Private field '#gen' does not appear as an own property on C instance",
-            "raw": "\"Private field '#gen' does not appear as an own property on C instance\""
+            "raw": "\"Private field '#gen' does not appear as an own property on C instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

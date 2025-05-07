@@ -35,14 +35,18 @@
                   "start": 799,
                   "end": 802,
                   "value": "0",
-                  "raw": "'0'"
+                  "raw": "'0'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 804,
                   "end": 806,
                   "value": 41,
-                  "raw": "41"
+                  "raw": "41",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 810,
                   "end": 813,
                   "value": "1",
-                  "raw": "'1'"
+                  "raw": "'1'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 815,
                   "end": 817,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 821,
                   "end": 824,
                   "value": "2",
-                  "raw": "'2'"
+                  "raw": "'2'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 826,
                   "end": 828,
                   "value": 43,
-                  "raw": "43"
+                  "raw": "43",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -110,7 +122,9 @@
                   "start": 840,
                   "end": 841,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -271,7 +285,9 @@
                 "start": 963,
                 "end": 964,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -388,14 +404,18 @@
             "start": 1040,
             "end": 1041,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1091,
             "value": "The value of result.length is expected to be 3",
-            "raw": "'The value of result.length is expected to be 3'"
+            "raw": "'The value of result.length is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,7 +464,9 @@
               "start": 1118,
               "end": 1119,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -454,14 +476,18 @@
             "start": 1122,
             "end": 1124,
             "value": 82,
-            "raw": "82"
+            "raw": "82",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1126,
             "end": 1171,
             "value": "The value of result[0] is expected to be 82",
-            "raw": "'The value of result[0] is expected to be 82'"
+            "raw": "'The value of result[0] is expected to be 82'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,7 +536,9 @@
               "start": 1198,
               "end": 1199,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -520,14 +548,18 @@
             "start": 1202,
             "end": 1204,
             "value": 84,
-            "raw": "84"
+            "raw": "84",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1206,
             "end": 1251,
             "value": "The value of result[1] is expected to be 84",
-            "raw": "'The value of result[1] is expected to be 84'"
+            "raw": "'The value of result[1] is expected to be 84'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -576,7 +608,9 @@
               "start": 1278,
               "end": 1279,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -586,14 +620,18 @@
             "start": 1282,
             "end": 1284,
             "value": 86,
-            "raw": "86"
+            "raw": "86",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1286,
             "end": 1331,
             "value": "The value of result[2] is expected to be 86",
-            "raw": "'The value of result[2] is expected to be 86'"
+            "raw": "'The value of result[2] is expected to be 86'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -651,14 +689,18 @@
             "start": 1366,
             "end": 1367,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1369,
             "end": 1416,
             "value": "The value of calls.length is expected to be 3",
-            "raw": "'The value of calls.length is expected to be 3'"
+            "raw": "'The value of calls.length is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -715,7 +757,9 @@
                   "start": 1443,
                   "end": 1444,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -743,14 +787,18 @@
             "start": 1459,
             "end": 1460,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1462,
             "end": 1517,
             "value": "The value of calls[0].args.length is expected to be 2",
-            "raw": "'The value of calls[0].args.length is expected to be 2'"
+            "raw": "'The value of calls[0].args.length is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -807,7 +855,9 @@
                   "start": 1543,
                   "end": 1544,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -826,7 +876,9 @@
               "start": 1551,
               "end": 1552,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -836,14 +888,18 @@
             "start": 1555,
             "end": 1557,
             "value": 41,
-            "raw": "41"
+            "raw": "41",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1559,
             "end": 1611,
             "value": "The value of calls[0].args[0] is expected to be 41",
-            "raw": "'The value of calls[0].args[0] is expected to be 41'"
+            "raw": "'The value of calls[0].args[0] is expected to be 41'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -900,7 +956,9 @@
                   "start": 1637,
                   "end": 1638,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -919,7 +977,9 @@
               "start": 1645,
               "end": 1646,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -929,14 +989,18 @@
             "start": 1649,
             "end": 1650,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1652,
             "end": 1703,
             "value": "The value of calls[0].args[1] is expected to be 0",
-            "raw": "'The value of calls[0].args[1] is expected to be 0'"
+            "raw": "'The value of calls[0].args[1] is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -989,7 +1053,9 @@
                 "start": 1729,
                 "end": 1730,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -1014,7 +1080,9 @@
             "start": 1752,
             "end": 1814,
             "value": "The value of calls[0].thisArg is expected to equal undefined",
-            "raw": "'The value of calls[0].thisArg is expected to equal undefined'"
+            "raw": "'The value of calls[0].thisArg is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1071,7 +1139,9 @@
                   "start": 1841,
                   "end": 1842,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1099,14 +1169,18 @@
             "start": 1857,
             "end": 1858,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1860,
             "end": 1915,
             "value": "The value of calls[1].args.length is expected to be 2",
-            "raw": "'The value of calls[1].args.length is expected to be 2'"
+            "raw": "'The value of calls[1].args.length is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1163,7 +1237,9 @@
                   "start": 1941,
                   "end": 1942,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1182,7 +1258,9 @@
               "start": 1949,
               "end": 1950,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1192,14 +1270,18 @@
             "start": 1953,
             "end": 1955,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1957,
             "end": 2009,
             "value": "The value of calls[1].args[0] is expected to be 42",
-            "raw": "'The value of calls[1].args[0] is expected to be 42'"
+            "raw": "'The value of calls[1].args[0] is expected to be 42'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1256,7 +1338,9 @@
                   "start": 2035,
                   "end": 2036,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1275,7 +1359,9 @@
               "start": 2043,
               "end": 2044,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1285,14 +1371,18 @@
             "start": 2047,
             "end": 2048,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2050,
             "end": 2101,
             "value": "The value of calls[1].args[1] is expected to be 1",
-            "raw": "'The value of calls[1].args[1] is expected to be 1'"
+            "raw": "'The value of calls[1].args[1] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1345,7 +1435,9 @@
                 "start": 2127,
                 "end": 2128,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -1370,7 +1462,9 @@
             "start": 2150,
             "end": 2212,
             "value": "The value of calls[1].thisArg is expected to equal undefined",
-            "raw": "'The value of calls[1].thisArg is expected to equal undefined'"
+            "raw": "'The value of calls[1].thisArg is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1427,7 +1521,9 @@
                   "start": 2239,
                   "end": 2240,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1455,14 +1551,18 @@
             "start": 2255,
             "end": 2256,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2258,
             "end": 2313,
             "value": "The value of calls[2].args.length is expected to be 2",
-            "raw": "'The value of calls[2].args.length is expected to be 2'"
+            "raw": "'The value of calls[2].args.length is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1519,7 +1619,9 @@
                   "start": 2339,
                   "end": 2340,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1538,7 +1640,9 @@
               "start": 2347,
               "end": 2348,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1548,14 +1652,18 @@
             "start": 2351,
             "end": 2353,
             "value": 43,
-            "raw": "43"
+            "raw": "43",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2355,
             "end": 2407,
             "value": "The value of calls[2].args[0] is expected to be 43",
-            "raw": "'The value of calls[2].args[0] is expected to be 43'"
+            "raw": "'The value of calls[2].args[0] is expected to be 43'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1612,7 +1720,9 @@
                   "start": 2433,
                   "end": 2434,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1631,7 +1741,9 @@
               "start": 2441,
               "end": 2442,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1641,14 +1753,18 @@
             "start": 2445,
             "end": 2446,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2448,
             "end": 2499,
             "value": "The value of calls[2].args[1] is expected to be 2",
-            "raw": "'The value of calls[2].args[1] is expected to be 2'"
+            "raw": "'The value of calls[2].args[1] is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1701,7 +1817,9 @@
                 "start": 2525,
                 "end": 2526,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -1726,7 +1844,9 @@
             "start": 2548,
             "end": 2610,
             "value": "The value of calls[2].thisArg is expected to equal undefined",
-            "raw": "'The value of calls[2].thisArg is expected to equal undefined'"
+            "raw": "'The value of calls[2].thisArg is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

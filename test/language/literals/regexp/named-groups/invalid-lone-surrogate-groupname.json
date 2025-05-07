@@ -62,7 +62,9 @@
                   "start": 295,
                   "end": 312,
                   "value": "/(?<a\ud801>.)/",
-                  "raw": "\"/(?<a\\uD801>.)/\""
+                  "raw": "\"/(?<a\\uD801>.)/\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -73,7 +75,9 @@
             "start": 315,
             "end": 321,
             "value": "Lead",
-            "raw": "\"Lead\""
+            "raw": "\"Lead\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -138,7 +142,9 @@
                   "start": 362,
                   "end": 379,
                   "value": "/(?<a\udca4>.)/",
-                  "raw": "\"/(?<a\\uDCA4>.)/\""
+                  "raw": "\"/(?<a\\uDCA4>.)/\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -149,7 +155,9 @@
             "start": 382,
             "end": 389,
             "value": "Trail",
-            "raw": "\"Trail\""
+            "raw": "\"Trail\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,7 +222,9 @@
                   "start": 430,
                   "end": 448,
                   "value": "/(?<a\ud801>.)/u",
-                  "raw": "\"/(?<a\\uD801>.)/u\""
+                  "raw": "\"/(?<a\\uD801>.)/u\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -225,7 +235,9 @@
             "start": 451,
             "end": 469,
             "value": "Lead with u flag",
-            "raw": "\"Lead with u flag\""
+            "raw": "\"Lead with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +302,9 @@
                   "start": 510,
                   "end": 528,
                   "value": "/(?<a\udca4>.)/u",
-                  "raw": "\"/(?<a\\uDCA4>.)/u\""
+                  "raw": "\"/(?<a\\uDCA4>.)/u\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -301,7 +315,9 @@
             "start": 531,
             "end": 550,
             "value": "Trail with u flag",
-            "raw": "\"Trail with u flag\""
+            "raw": "\"Trail with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -168,7 +168,9 @@ __ESTREE_TEST__:PASS:
                   "start": 111,
                   "end": 119,
                   "raw": "'marker'",
-                  "value": "marker"
+                  "value": "marker",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -272,7 +274,9 @@ __ESTREE_TEST__:PASS:
                   "start": 194,
                   "end": 202,
                   "raw": "'marker'",
-                  "value": "marker"
+                  "value": "marker",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "SpreadElement",

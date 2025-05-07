@@ -28,28 +28,36 @@
                 "start": 353,
                 "end": 372,
                 "value": "get month.valueOf",
-                "raw": "\"get month.valueOf\""
+                "raw": "\"get month.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 394,
                 "value": "call month.valueOf",
-                "raw": "\"call month.valueOf\""
+                "raw": "\"call month.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 413,
                 "value": "get day.valueOf",
-                "raw": "\"get day.valueOf\""
+                "raw": "\"get day.valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 415,
                 "end": 433,
                 "value": "call day.valueOf",
-                "raw": "\"call day.valueOf\""
+                "raw": "\"call day.valueOf\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -137,14 +145,18 @@
                     "start": 516,
                     "end": 517,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 519,
                     "end": 526,
                     "value": "month",
-                    "raw": "\"month\""
+                    "raw": "\"month\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -184,14 +196,18 @@
                     "start": 575,
                     "end": 576,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 578,
                     "end": 583,
                     "value": "day",
-                    "raw": "\"day\""
+                    "raw": "\"day\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -201,7 +217,9 @@
                 "start": 588,
                 "end": 595,
                 "value": "local",
-                "raw": "\"local\""
+                "raw": "\"local\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -238,14 +256,18 @@
                     "start": 643,
                     "end": 644,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 646,
                     "end": 652,
                     "value": "year",
-                    "raw": "\"year\""
+                    "raw": "\"year\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -386,7 +408,9 @@
             "start": 765,
             "end": 786,
             "value": "order of operations",
-            "raw": "\"order of operations\""
+            "raw": "\"order of operations\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

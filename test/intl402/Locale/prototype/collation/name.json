@@ -83,7 +83,9 @@
                   "start": 1293,
                   "end": 1304,
                   "value": "collation",
-                  "raw": "\"collation\""
+                  "raw": "\"collation\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -127,7 +129,9 @@
             "start": 1334,
             "end": 1340,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +156,9 @@
                   "start": 1353,
                   "end": 1368,
                   "value": "get collation",
-                  "raw": "\"get collation\""
+                  "raw": "\"get collation\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +180,9 @@
                   "start": 1382,
                   "end": 1387,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +204,9 @@
                   "start": 1403,
                   "end": 1408,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -218,7 +228,9 @@
                   "start": 1426,
                   "end": 1430,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

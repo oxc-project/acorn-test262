@@ -54,7 +54,9 @@
             "start": 638,
             "end": 639,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -114,7 +116,9 @@
                       "start": 689,
                       "end": 690,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -176,7 +180,9 @@
                       "start": 731,
                       "end": 744,
                       "value": "unreachable",
-                      "raw": "\"unreachable\""
+                      "raw": "\"unreachable\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -309,7 +315,9 @@
                             "start": 819,
                             "end": 850,
                             "value": "Promise incorrectly resolved.",
-                            "raw": "\"Promise incorrectly resolved.\""
+                            "raw": "\"Promise incorrectly resolved.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -541,14 +549,18 @@
                                             "start": 1042,
                                             "end": 1046,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1048,
                                             "end": 1092,
                                             "value": "The value of IteratorResult.done is `true`",
-                                            "raw": "\"The value of IteratorResult.done is `true`\""
+                                            "raw": "\"The value of IteratorResult.done is `true`\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -599,7 +611,9 @@
                                             "start": 1134,
                                             "end": 1184,
                                             "value": "The value of IteratorResult.value is `undefined`",
-                                            "raw": "\"The value of IteratorResult.value is `undefined`\""
+                                            "raw": "\"The value of IteratorResult.value is `undefined`\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -702,7 +716,9 @@
             "start": 1258,
             "end": 1259,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

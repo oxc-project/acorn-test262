@@ -307,7 +307,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 27,
           "raw": "\"./file\"",
-          "value": "./file"
+          "value": "./file",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -326,7 +328,9 @@ __ESTREE_TEST__:PASS:
             "start": 33,
             "end": 34,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

@@ -34,7 +34,9 @@
                 "start": 294,
                 "end": 297,
                 "value": "h",
-                "raw": "\"h\""
+                "raw": "\"h\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -73,7 +75,9 @@
                 "start": 332,
                 "end": 338,
                 "value": "h",
-                "raw": "\"\\x68\""
+                "raw": "\"\\x68\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -128,7 +132,9 @@
           "start": 374,
           "end": 375,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -160,7 +166,9 @@
                     "start": 404,
                     "end": 509,
                     "value": "#1: var str1 = new String(\"h\"); var str2 = new String (\"\\x68\"); str1.localeCompare(str2)===0. Actual: ",
-                    "raw": "'#1: var str1 = new String(\"h\"); var str2 = new String (\"\\\\x68\"); str1.localeCompare(str2)===0. Actual: '"
+                    "raw": "'#1: var str1 = new String(\"h\"); var str2 = new String (\"\\\\x68\"); str1.localeCompare(str2)===0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -235,7 +243,9 @@
                 "start": 574,
                 "end": 582,
                 "value": "h",
-                "raw": "\"\\u0068\""
+                "raw": "\"\\u0068\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -290,7 +300,9 @@
           "start": 618,
           "end": 619,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -322,7 +334,9 @@
                     "start": 648,
                     "end": 755,
                     "value": "#2: var str1 = new String(\"h\"); var str2 = new String (\"\\u0068\"); str1.localeCompare(str2)===0. Actual: ",
-                    "raw": "'#2: var str1 = new String(\"h\"); var str2 = new String (\"\\\\u0068\"); str1.localeCompare(str2)===0. Actual: '"
+                    "raw": "'#2: var str1 = new String(\"h\"); var str2 = new String (\"\\\\u0068\"); str1.localeCompare(str2)===0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -397,7 +411,9 @@
                 "start": 820,
                 "end": 823,
                 "value": "h",
-                "raw": "\"h\""
+                "raw": "\"h\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -452,7 +468,9 @@
           "start": 859,
           "end": 860,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -484,7 +502,9 @@
                     "start": 889,
                     "end": 990,
                     "value": "#3: var str1 = new String(\"h\"); var str2 = new String (\"h\"); str1.localeCompare(str2)===0. Actual: ",
-                    "raw": "'#3: var str1 = new String(\"h\"); var str2 = new String (\"h\"); str1.localeCompare(str2)===0. Actual: '"
+                    "raw": "'#3: var str1 = new String(\"h\"); var str2 = new String (\"h\"); str1.localeCompare(str2)===0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

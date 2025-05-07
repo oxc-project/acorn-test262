@@ -48,6 +48,7 @@
                 "end": 317,
                 "value": null,
                 "raw": "1_483_228_799_000_000_000n",
+                "regex": null,
                 "bigint": "1483228799000000000"
               }
             ]
@@ -76,7 +77,9 @@
             "start": 332,
             "end": 354,
             "value": "2016-12-31T23:59:60Z",
-            "raw": "\"2016-12-31T23:59:60Z\""
+            "raw": "\"2016-12-31T23:59:60Z\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -192,14 +195,18 @@
             "start": 436,
             "end": 437,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 439,
             "end": 503,
             "value": "leap second is a valid ISO string for Instant (first argument)",
-            "raw": "\"leap second is a valid ISO string for Instant (first argument)\""
+            "raw": "\"leap second is a valid ISO string for Instant (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,14 +322,18 @@
             "start": 586,
             "end": 587,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 654,
             "value": "leap second is a valid ISO string for Instant (second argument)",
-            "raw": "\"leap second is a valid ISO string for Instant (second argument)\""
+            "raw": "\"leap second is a valid ISO string for Instant (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

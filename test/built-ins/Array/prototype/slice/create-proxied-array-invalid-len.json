@@ -72,14 +72,18 @@
                 "start": 719,
                 "end": 720,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 722,
                 "end": 724,
                 "value": 32,
-                "raw": "32"
+                "raw": "32",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +112,9 @@
             "start": 743,
             "end": 744,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -211,7 +217,9 @@
                                 "start": 821,
                                 "end": 829,
                                 "value": "length",
-                                "raw": "'length'"
+                                "raw": "'length'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -310,7 +318,9 @@
                                 "start": 929,
                                 "end": 930,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -323,7 +333,9 @@
                               "start": 943,
                               "end": 947,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -497,14 +509,18 @@
             "start": 1072,
             "end": 1073,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1077,
             "end": 1145,
             "value": "RangeError thrown during array creation, not property modification",
-            "raw": "'RangeError thrown during array creation, not property modification'"
+            "raw": "'RangeError thrown during array creation, not property modification'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

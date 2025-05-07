@@ -28,7 +28,9 @@
               "start": 268,
               "end": 269,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -38,7 +40,9 @@
           "start": 274,
           "end": 278,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 307,
                   "end": 329,
                   "value": "#1: !void 0 === true",
-                  "raw": "'#1: !void 0 === true'"
+                  "raw": "'#1: !void 0 === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -94,7 +100,9 @@
             "start": 350,
             "end": 354,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -103,7 +111,9 @@
           "start": 359,
           "end": 363,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -131,7 +141,9 @@
                   "start": 392,
                   "end": 412,
                   "value": "#2: !null === true",
-                  "raw": "'#2: !null === true'"
+                  "raw": "'#2: !null === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

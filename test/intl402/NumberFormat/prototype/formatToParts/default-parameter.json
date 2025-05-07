@@ -239,7 +239,9 @@
                       "start": 735,
                       "end": 740,
                       "value": "nan",
-                      "raw": "'nan'"
+                      "raw": "'nan'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -318,7 +320,9 @@
             "start": 809,
             "end": 875,
             "value": "formatToParts() should be equivalent to formatToParts(undefined)",
-            "raw": "'formatToParts() should be equivalent to formatToParts(undefined)'"
+            "raw": "'formatToParts() should be equivalent to formatToParts(undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -370,7 +374,9 @@
             "start": 923,
             "end": 988,
             "value": "Both implicit and explicit calls should have the correct result",
-            "raw": "'Both implicit and explicit calls should have the correct result'"
+            "raw": "'Both implicit and explicit calls should have the correct result'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +471,9 @@
                 "start": 1078,
                 "end": 1083,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             },
             "alternate": null
@@ -494,7 +502,9 @@
                     "start": 1100,
                     "end": 1101,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -682,7 +692,9 @@
                       "start": 1225,
                       "end": 1230,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "alternate": null
@@ -744,7 +756,9 @@
                       "start": 1276,
                       "end": 1281,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "alternate": null
@@ -761,7 +775,9 @@
               "start": 1296,
               "end": 1300,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

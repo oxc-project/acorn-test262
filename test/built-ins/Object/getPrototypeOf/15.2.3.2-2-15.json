@@ -75,7 +75,9 @@
             "start": 332,
             "end": 368,
             "value": "Object.getPrototypeOf(SyntaxError)",
-            "raw": "'Object.getPrototypeOf(SyntaxError)'"
+            "raw": "'Object.getPrototypeOf(SyntaxError)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

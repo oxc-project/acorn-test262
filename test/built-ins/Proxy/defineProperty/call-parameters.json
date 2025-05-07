@@ -122,7 +122,9 @@
                   "start": 594,
                   "end": 598,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -144,7 +146,9 @@
                   "start": 614,
                   "end": 618,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -166,7 +170,9 @@
                   "start": 632,
                   "end": 636,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -188,7 +194,9 @@
                   "start": 647,
                   "end": 648,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -364,7 +372,9 @@
                           "start": 798,
                           "end": 802,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -461,7 +471,9 @@
             "start": 873,
             "end": 879,
             "value": "attr",
-            "raw": "\"attr\""
+            "raw": "\"attr\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -600,7 +612,9 @@
             "start": 991,
             "end": 997,
             "value": "attr",
-            "raw": "\"attr\""
+            "raw": "\"attr\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -685,14 +699,18 @@
             "start": 1048,
             "end": 1049,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1053,
             "end": 1117,
             "value": "descriptor arg has the same amount of keys as given descriptor",
-            "raw": "\"descriptor arg has the same amount of keys as given descriptor\""
+            "raw": "\"descriptor arg has the same amount of keys as given descriptor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -864,7 +882,9 @@
             "start": 1230,
             "end": 1231,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

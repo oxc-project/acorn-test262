@@ -60,7 +60,9 @@
                 "start": 264,
                 "end": 265,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 268,
             "end": 269,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 271,
             "end": 286,
             "value": "Math.trunc(0)",
-            "raw": "'Math.trunc(0)'"
+            "raw": "'Math.trunc(0)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

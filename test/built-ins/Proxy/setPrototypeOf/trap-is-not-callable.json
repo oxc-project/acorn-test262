@@ -199,7 +199,9 @@
                               "start": 865,
                               "end": 866,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

@@ -72,7 +72,9 @@
                               "start": 353,
                               "end": 354,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -83,7 +85,9 @@
                             "start": 357,
                             "end": 360,
                             "value": "-",
-                            "raw": "\"-\""
+                            "raw": "\"-\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -102,7 +106,9 @@
                             "start": 372,
                             "end": 373,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -119,14 +125,18 @@
                 "start": 377,
                 "end": 382,
                 "value": "Obi",
-                "raw": "\"Obi\""
+                "raw": "\"Obi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 388,
                 "value": "Wan",
-                "raw": "\"Wan\""
+                "raw": "\"Wan\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -155,7 +165,9 @@
           "start": 491,
           "end": 500,
           "value": "Obi-Wan",
-          "raw": "\"Obi-Wan\""
+          "raw": "\"Obi-Wan\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -187,7 +199,9 @@
                     "start": 528,
                     "end": 564,
                     "value": "#1: x === \"Obi-Wan\". Actual: x ===",
-                    "raw": "'#1: x === \"Obi-Wan\". Actual: x ==='"
+                    "raw": "'#1: x === \"Obi-Wan\". Actual: x ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -231,7 +245,9 @@
           "start": 766,
           "end": 777,
           "value": "undefined",
-          "raw": "'undefined'"
+          "raw": "'undefined'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -263,7 +279,9 @@
                     "start": 805,
                     "end": 869,
                     "value": "#2: typeof __func === 'undefined'. Actual: typeof __func ===",
-                    "raw": "'#2: typeof __func === \\'undefined\\'. Actual: typeof __func ==='"
+                    "raw": "'#2: typeof __func === \\'undefined\\'. Actual: typeof __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -66,7 +66,9 @@
                 "start": 365,
                 "end": 376,
                 "value": "multiline",
-                "raw": "\"multiline\""
+                "raw": "\"multiline\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -132,7 +134,9 @@
                 "start": 417,
                 "end": 427,
                 "value": "writable",
-                "raw": "'writable'"
+                "raw": "'writable'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -142,14 +146,18 @@
             "start": 430,
             "end": 435,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 470,
             "value": "desc.hasOwnProperty(\"writable\")",
-            "raw": "'desc.hasOwnProperty(\"writable\")'"
+            "raw": "'desc.hasOwnProperty(\"writable\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,14 +215,18 @@
             "start": 507,
             "end": 512,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 531,
             "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "raw": "'desc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,14 +284,18 @@
             "start": 570,
             "end": 574,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 576,
             "end": 595,
             "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "raw": "'desc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,14 +360,18 @@
             "start": 632,
             "end": 642,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 661,
             "value": "typeof desc.get",
-            "raw": "'typeof desc.get'"
+            "raw": "'typeof desc.get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -415,7 +435,9 @@
             "start": 702,
             "end": 712,
             "value": "desc.set",
-            "raw": "'desc.set'"
+            "raw": "'desc.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

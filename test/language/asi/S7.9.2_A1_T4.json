@@ -23,7 +23,9 @@
             "start": 397,
             "end": 398,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -41,7 +43,9 @@
             "start": 401,
             "end": 402,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -172,7 +176,9 @@
               "start": 492,
               "end": 548,
               "value": "#1: Automatic semicolon insertion not work with return",
-              "raw": "'#1: Automatic semicolon insertion not work with return'"
+              "raw": "'#1: Automatic semicolon insertion not work with return'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }

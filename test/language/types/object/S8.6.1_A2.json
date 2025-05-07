@@ -23,7 +23,9 @@
             "start": 308,
             "end": 309,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -84,7 +86,9 @@
           "start": 350,
           "end": 351,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -116,7 +120,9 @@
                     "start": 379,
                     "end": 440,
                     "value": "#1: count=0; for (p in Number) count++; count > 0. Actual: ",
-                    "raw": "'#1: count=0; for (p in Number) count++; count > 0. Actual: '"
+                    "raw": "'#1: count=0; for (p in Number) count++; count > 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

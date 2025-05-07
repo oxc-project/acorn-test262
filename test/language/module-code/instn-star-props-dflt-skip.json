@@ -25,7 +25,9 @@
         "start": 1057,
         "end": 1109,
         "value": "./instn-star-props-dflt-skip-star-named_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-skip-star-named_FIXTURE.js'"
+        "raw": "'./instn-star-props-dflt-skip-star-named_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -51,7 +53,9 @@
         "start": 1139,
         "end": 1190,
         "value": "./instn-star-props-dflt-skip-star-prod_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-skip-star-prod_FIXTURE.js'"
+        "raw": "'./instn-star-props-dflt-skip-star-prod_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -79,7 +83,9 @@
               "start": 1200,
               "end": 1212,
               "value": "namedOther",
-              "raw": "'namedOther'"
+              "raw": "'namedOther'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -130,7 +136,9 @@
               "start": 1244,
               "end": 1253,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -145,14 +153,18 @@
             "start": 1264,
             "end": 1269,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1271,
             "end": 1305,
             "value": "default specified via identifier",
-            "raw": "'default specified via identifier'"
+            "raw": "'default specified via identifier'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -182,7 +194,9 @@
               "start": 1317,
               "end": 1334,
               "value": "productionOther",
-              "raw": "'productionOther'"
+              "raw": "'productionOther'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -233,7 +247,9 @@
               "start": 1371,
               "end": 1380,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -248,14 +264,18 @@
             "start": 1396,
             "end": 1401,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1403,
             "end": 1447,
             "value": "default specified via dedicated production",
-            "raw": "'default specified via dedicated production'"
+            "raw": "'default specified via dedicated production'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

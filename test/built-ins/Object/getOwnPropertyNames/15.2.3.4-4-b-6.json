@@ -35,14 +35,18 @@
                   "start": 285,
                   "end": 288,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 290,
                   "end": 293,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -152,7 +156,9 @@
                   "start": 388,
                   "end": 391,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -187,7 +193,9 @@
             "start": 409,
             "end": 410,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -242,7 +250,9 @@
                   "start": 455,
                   "end": 458,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -278,7 +288,9 @@
             "start": 485,
             "end": 509,
             "value": "beforeDeleted !== true",
-            "raw": "'beforeDeleted !== true'"
+            "raw": "'beforeDeleted !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,14 +335,18 @@
             "start": 543,
             "end": 548,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 564,
             "value": "afterDeleted",
-            "raw": "'afterDeleted'"
+            "raw": "'afterDeleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

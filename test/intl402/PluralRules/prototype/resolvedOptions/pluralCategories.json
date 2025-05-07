@@ -28,42 +28,54 @@
                 "start": 438,
                 "end": 444,
                 "value": "zero",
-                "raw": "\"zero\""
+                "raw": "\"zero\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 451,
                 "value": "one",
-                "raw": "\"one\""
+                "raw": "\"one\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 453,
                 "end": 458,
                 "value": "two",
-                "raw": "\"two\""
+                "raw": "\"two\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 460,
                 "end": 465,
                 "value": "few",
-                "raw": "\"few\""
+                "raw": "\"few\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 467,
                 "end": 473,
                 "value": "many",
-                "raw": "\"many\""
+                "raw": "\"many\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 475,
                 "end": 482,
                 "value": "other",
-                "raw": "\"other\""
+                "raw": "\"other\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -276,7 +288,9 @@
             "start": 701,
             "end": 731,
             "value": "Should have different arrays",
-            "raw": "\"Should have different arrays\""
+            "raw": "\"Should have different arrays\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -353,7 +367,9 @@
             "start": 808,
             "end": 840,
             "value": "Arrays should have same values",
-            "raw": "\"Arrays should have same values\""
+            "raw": "\"Arrays should have same values\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,7 +556,9 @@
             "start": 1023,
             "end": 1041,
             "value": "pluralCategories",
-            "raw": "\"pluralCategories\""
+            "raw": "\"pluralCategories\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -565,7 +583,9 @@
                   "start": 1057,
                   "end": 1061,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -587,7 +607,9 @@
                   "start": 1077,
                   "end": 1081,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -609,7 +631,9 @@
                   "start": 1099,
                   "end": 1103,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

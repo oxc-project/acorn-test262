@@ -164,7 +164,9 @@
             "start": 663,
             "end": 674,
             "value": "Generator",
-            "raw": "'Generator'"
+            "raw": "'Generator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -233,7 +235,9 @@
                   "start": 747,
                   "end": 752,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -255,7 +259,9 @@
                   "start": 768,
                   "end": 773,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -277,7 +283,9 @@
                   "start": 791,
                   "end": 795,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

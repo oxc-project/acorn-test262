@@ -23,7 +23,9 @@
             "start": 601,
             "end": 602,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 619,
             "end": 624,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -111,7 +115,9 @@
                             "start": 649,
                             "end": 650,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -128,7 +134,9 @@
                         "start": 658,
                         "end": 670,
                         "value": "arguments;",
-                        "raw": "'arguments;'"
+                        "raw": "'arguments;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

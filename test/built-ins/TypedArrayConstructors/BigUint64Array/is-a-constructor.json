@@ -56,14 +56,18 @@
             "start": 778,
             "end": 782,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 832,
             "value": "isConstructor(BigUint64Array) must return true",
-            "raw": "'isConstructor(BigUint64Array) must return true'"
+            "raw": "'isConstructor(BigUint64Array) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

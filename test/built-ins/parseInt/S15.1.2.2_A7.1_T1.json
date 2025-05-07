@@ -27,7 +27,9 @@
               "start": 272,
               "end": 273,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 280,
           "end": 282,
           "value": 36,
-          "raw": "36"
+          "raw": "36",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -114,7 +118,9 @@
                       "start": 319,
                       "end": 328,
                       "value": "$string",
-                      "raw": "\"$string\""
+                      "raw": "\"$string\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -136,7 +142,9 @@
                   "start": 339,
                   "end": 379,
                   "value": "parseInt(\"$string\", i) must return NaN",
-                  "raw": "'parseInt(\"$string\", i) must return NaN'"
+                  "raw": "'parseInt(\"$string\", i) must return NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

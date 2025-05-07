@@ -23,7 +23,9 @@
             "start": 258,
             "end": 259,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -184,7 +186,9 @@
                             "start": 392,
                             "end": 393,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -197,7 +201,9 @@
                           "start": 406,
                           "end": 409,
                           "value": "b",
-                          "raw": "'b'"
+                          "raw": "'b'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -316,7 +322,9 @@
                             "start": 503,
                             "end": 504,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -329,7 +337,9 @@
                           "start": 517,
                           "end": 520,
                           "value": "d",
-                          "raw": "'d'"
+                          "raw": "'d'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -395,7 +405,9 @@
                       "start": 554,
                       "end": 557,
                       "value": "A",
-                      "raw": "'A'"
+                      "raw": "'A'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -438,7 +450,9 @@
                       "start": 581,
                       "end": 584,
                       "value": "B",
-                      "raw": "'B'"
+                      "raw": "'B'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -481,7 +495,9 @@
                       "start": 603,
                       "end": 606,
                       "value": "C",
-                      "raw": "'C'"
+                      "raw": "'C'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -524,7 +540,9 @@
                       "start": 630,
                       "end": 633,
                       "value": "D",
-                      "raw": "'D'"
+                      "raw": "'D'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -578,7 +596,9 @@
                 "start": 675,
                 "end": 676,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -587,7 +607,9 @@
             "start": 679,
             "end": 699,
             "value": "order set for key1",
-            "raw": "\"order set for key1\""
+            "raw": "\"order set for key1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -637,7 +659,9 @@
                 "start": 737,
                 "end": 738,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -646,7 +670,9 @@
             "start": 741,
             "end": 761,
             "value": "order set for key2",
-            "raw": "\"order set for key2\""
+            "raw": "\"order set for key2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -691,14 +717,18 @@
             "start": 791,
             "end": 792,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 794,
             "end": 825,
             "value": "The value of `counter` is `2`",
-            "raw": "\"The value of `counter` is `2`\""
+            "raw": "\"The value of `counter` is `2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -769,14 +799,18 @@
             "start": 858,
             "end": 861,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 863,
             "end": 926,
             "value": "`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`",
-            "raw": "\"`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`\""
+            "raw": "\"`new C().a()` returns `'A'`. Defined as `a() { return 'A'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -847,14 +881,18 @@
             "start": 959,
             "end": 962,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 964,
             "end": 1032,
             "value": "`new C().b()` returns `'B'`. Defined as `[key1]() { return 'B'; }`",
-            "raw": "\"`new C().b()` returns `'B'`. Defined as `[key1]() { return 'B'; }`\""
+            "raw": "\"`new C().b()` returns `'B'`. Defined as `[key1]() { return 'B'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -925,14 +963,18 @@
             "start": 1065,
             "end": 1068,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1070,
             "end": 1133,
             "value": "`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`",
-            "raw": "\"`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`\""
+            "raw": "\"`new C().c()` returns `'C'`. Defined as `c() { return 'C'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1003,14 +1045,18 @@
             "start": 1166,
             "end": 1169,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1171,
             "end": 1239,
             "value": "`new C().d()` returns `'D'`. Defined as `[key2]() { return 'D'; }`",
-            "raw": "\"`new C().d()` returns `'D'`. Defined as `[key2]() { return 'D'; }`\""
+            "raw": "\"`new C().d()` returns `'D'`. Defined as `[key2]() { return 'D'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1108,14 +1154,18 @@
             "start": 1292,
             "end": 1293,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1295,
             "end": 1326,
             "value": "No enum keys from C.prototype",
-            "raw": "\"No enum keys from C.prototype\""
+            "raw": "\"No enum keys from C.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1203,35 +1253,45 @@
                     "start": 1394,
                     "end": 1407,
                     "value": "constructor",
-                    "raw": "'constructor'"
+                    "raw": "'constructor'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1409,
                     "end": 1412,
                     "value": "a",
-                    "raw": "'a'"
+                    "raw": "'a'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1414,
                     "end": 1417,
                     "value": "b",
-                    "raw": "'b'"
+                    "raw": "'b'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1419,
                     "end": 1422,
                     "value": "c",
-                    "raw": "'c'"
+                    "raw": "'c'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1424,
                     "end": 1427,
                     "value": "d",
-                    "raw": "'d'"
+                    "raw": "'d'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -1243,7 +1303,9 @@
             "start": 1433,
             "end": 1542,
             "value": "`compareArray(Object.getOwnPropertyNames(C.prototype), ['constructor', 'a', 'b', 'c', 'd'])` returns `true`",
-            "raw": "\"`compareArray(Object.getOwnPropertyNames(C.prototype), ['constructor', 'a', 'b', 'c', 'd'])` returns `true`\""
+            "raw": "\"`compareArray(Object.getOwnPropertyNames(C.prototype), ['constructor', 'a', 'b', 'c', 'd'])` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

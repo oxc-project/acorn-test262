@@ -69,14 +69,18 @@
             "start": 296,
             "end": 300,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 302,
             "end": 338,
             "value": "Array.isArray([]) must return true",
-            "raw": "'Array.isArray([]) must return true'"
+            "raw": "'Array.isArray([]) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -145,14 +145,18 @@
             "start": 300,
             "end": 316,
             "value": "[object Array]",
-            "raw": "'[object Array]'"
+            "raw": "'[object Array]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 369,
             "value": "The value of s is expected to be \"[object Array]\"",
-            "raw": "'The value of s is expected to be \"[object Array]\"'"
+            "raw": "'The value of s is expected to be \"[object Array]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

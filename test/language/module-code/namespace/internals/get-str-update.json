@@ -25,7 +25,9 @@
         "start": 468,
         "end": 489,
         "value": "./get-str-update.js",
-        "raw": "'./get-str-update.js'"
+        "raw": "'./get-str-update.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -53,7 +55,9 @@
               "start": 511,
               "end": 514,
               "value": 111,
-              "raw": "111"
+              "raw": "111",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -83,7 +87,9 @@
             "start": 529,
             "end": 532,
             "value": 222,
-            "raw": "222"
+            "raw": "222",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -145,7 +151,9 @@
         "start": 599,
         "end": 620,
         "value": "./get-str-update.js",
-        "raw": "'./get-str-update.js'"
+        "raw": "'./get-str-update.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -169,7 +177,9 @@
           "start": 632,
           "end": 635,
           "value": 333,
-          "raw": "333"
+          "raw": "333",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -193,7 +203,9 @@
           "start": 646,
           "end": 649,
           "value": 444,
-          "raw": "444"
+          "raw": "444",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -249,7 +261,9 @@
             "start": 680,
             "end": 683,
             "value": 333,
-            "raw": "333"
+            "raw": "333",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -307,7 +321,9 @@
             "start": 715,
             "end": 718,
             "value": 444,
-            "raw": "444"
+            "raw": "444",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -365,7 +381,9 @@
             "start": 751,
             "end": 754,
             "value": 333,
-            "raw": "333"
+            "raw": "333",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

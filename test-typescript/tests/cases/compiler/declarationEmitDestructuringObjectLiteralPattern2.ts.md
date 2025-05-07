@@ -195,7 +195,9 @@ __ESTREE_TEST__:PASS:
                   "start": 50,
                   "end": 51,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -244,7 +246,9 @@ __ESTREE_TEST__:PASS:
                         "start": 61,
                         "end": 68,
                         "raw": "\"hello\"",
-                        "value": "hello"
+                        "value": "hello",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -293,7 +297,9 @@ __ESTREE_TEST__:PASS:
                               "start": 78,
                               "end": 82,
                               "raw": "true",
-                              "value": true
+                              "value": true,
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -343,7 +349,9 @@ __ESTREE_TEST__:PASS:
                   "start": 121,
                   "end": 128,
                   "raw": "\"hello\"",
-                  "value": "hello"
+                  "value": "hello",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -374,7 +382,9 @@ __ESTREE_TEST__:PASS:
                   "start": 143,
                   "end": 144,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -405,7 +415,9 @@ __ESTREE_TEST__:PASS:
                   "start": 159,
                   "end": 163,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

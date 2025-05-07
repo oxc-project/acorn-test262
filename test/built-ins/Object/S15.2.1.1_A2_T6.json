@@ -74,14 +74,18 @@
             "start": 445,
             "end": 453,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 509,
             "value": "The value of `typeof num` is expected to be \"number\"",
-            "raw": "'The value of `typeof num` is expected to be \"number\"'"
+            "raw": "'The value of `typeof num` is expected to be \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +188,9 @@
             "start": 579,
             "end": 650,
             "value": "The value of obj.constructor is expected to equal the value of Number",
-            "raw": "'The value of obj.constructor is expected to equal the value of Number'"
+            "raw": "'The value of obj.constructor is expected to equal the value of Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,14 +242,18 @@
             "start": 682,
             "end": 690,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 746,
             "value": "The value of `typeof obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +297,9 @@
             "start": 773,
             "end": 840,
             "value": "The result of evaluating (obj == Infinity) is expected to be true",
-            "raw": "'The result of evaluating (obj == Infinity) is expected to be true'"
+            "raw": "'The result of evaluating (obj == Infinity) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -338,7 +350,9 @@
             "start": 878,
             "end": 934,
             "value": "The value of obj is expected to not equal ``Infinity``",
-            "raw": "'The value of obj is expected to not equal ``Infinity``'"
+            "raw": "'The value of obj is expected to not equal ``Infinity``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

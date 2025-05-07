@@ -62,7 +62,9 @@
             "start": 727,
             "end": 737,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +246,9 @@
             "start": 1278,
             "end": 1303,
             "value": "de-t-en-emodeng-emodeng",
-            "raw": "\"de-t-en-emodeng-emodeng\""
+            "raw": "\"de-t-en-emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -270,7 +274,9 @@
             "start": 1364,
             "end": 1389,
             "value": "de-t-en-Emodeng-emodeng",
-            "raw": "\"de-t-en-Emodeng-emodeng\""
+            "raw": "\"de-t-en-Emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +302,9 @@
             "start": 1430,
             "end": 1455,
             "value": "de-t-en-emodeng-Emodeng",
-            "raw": "\"de-t-en-emodeng-Emodeng\""
+            "raw": "\"de-t-en-emodeng-Emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +330,9 @@
             "start": 1569,
             "end": 1602,
             "value": "de-t-en-variant-emodeng-emodeng",
-            "raw": "\"de-t-en-variant-emodeng-emodeng\""
+            "raw": "\"de-t-en-variant-emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +358,9 @@
             "start": 1616,
             "end": 1649,
             "value": "de-t-en-variant-Emodeng-emodeng",
-            "raw": "\"de-t-en-variant-Emodeng-emodeng\""
+            "raw": "\"de-t-en-variant-Emodeng-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -374,7 +386,9 @@
             "start": 1663,
             "end": 1696,
             "value": "de-t-en-variant-emodeng-Emodeng",
-            "raw": "\"de-t-en-variant-emodeng-Emodeng\""
+            "raw": "\"de-t-en-variant-emodeng-Emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +414,9 @@
             "start": 1710,
             "end": 1743,
             "value": "de-t-en-emodeng-variant-emodeng",
-            "raw": "\"de-t-en-emodeng-variant-emodeng\""
+            "raw": "\"de-t-en-emodeng-variant-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -426,7 +442,9 @@
             "start": 1757,
             "end": 1790,
             "value": "de-t-en-Emodeng-variant-emodeng",
-            "raw": "\"de-t-en-Emodeng-variant-emodeng\""
+            "raw": "\"de-t-en-Emodeng-variant-emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,7 +470,9 @@
             "start": 1804,
             "end": 1837,
             "value": "de-t-en-emodeng-variant-Emodeng",
-            "raw": "\"de-t-en-emodeng-variant-Emodeng\""
+            "raw": "\"de-t-en-emodeng-variant-Emodeng\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +498,9 @@
             "start": 1851,
             "end": 1884,
             "value": "de-t-en-emodeng-emodeng-variant",
-            "raw": "\"de-t-en-emodeng-emodeng-variant\""
+            "raw": "\"de-t-en-emodeng-emodeng-variant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -504,7 +526,9 @@
             "start": 1898,
             "end": 1931,
             "value": "de-t-en-Emodeng-emodeng-variant",
-            "raw": "\"de-t-en-Emodeng-emodeng-variant\""
+            "raw": "\"de-t-en-Emodeng-emodeng-variant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +554,9 @@
             "start": 1945,
             "end": 1978,
             "value": "de-t-en-emodeng-Emodeng-variant",
-            "raw": "\"de-t-en-emodeng-Emodeng-variant\""
+            "raw": "\"de-t-en-emodeng-Emodeng-variant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

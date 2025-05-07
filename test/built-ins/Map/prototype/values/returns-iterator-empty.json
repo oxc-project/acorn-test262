@@ -182,7 +182,9 @@
             "start": 533,
             "end": 577,
             "value": "The value of `result.value` is `undefined`",
-            "raw": "'The value of `result.value` is `undefined`'"
+            "raw": "'The value of `result.value` is `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,14 +242,18 @@
             "start": 611,
             "end": 615,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 617,
             "end": 655,
             "value": "The value of `result.done` is `true`",
-            "raw": "'The value of `result.done` is `true`'"
+            "raw": "'The value of `result.done` is `true`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

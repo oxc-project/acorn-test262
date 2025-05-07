@@ -56,14 +56,18 @@
             "start": 750,
             "end": 754,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 796,
             "value": "isConstructor(RegExp) must return true",
-            "raw": "'isConstructor(RegExp) must return true'"
+            "raw": "'isConstructor(RegExp) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -89,7 +93,9 @@
             "start": 810,
             "end": 812,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

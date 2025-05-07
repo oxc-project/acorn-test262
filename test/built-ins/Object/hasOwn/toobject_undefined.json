@@ -90,7 +90,9 @@
                         "start": 374,
                         "end": 379,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

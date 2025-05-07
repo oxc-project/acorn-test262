@@ -28,14 +28,18 @@
                 "start": 777,
                 "end": 778,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 780,
                 "end": 781,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -81,7 +85,9 @@
                   "start": 812,
                   "end": 813,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -178,7 +184,9 @@
                             "start": 900,
                             "end": 901,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -347,7 +355,9 @@
                         "start": 1041,
                         "end": 1070,
                         "value": "using iterator, same length",
-                        "raw": "\"using iterator, same length\""
+                        "raw": "\"using iterator, same length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -467,7 +477,9 @@
                         "start": 1159,
                         "end": 1192,
                         "value": "not using iterator, same length",
-                        "raw": "\"not using iterator, same length\""
+                        "raw": "\"not using iterator, same length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -504,7 +516,9 @@
                           "start": 1214,
                           "end": 1215,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -624,7 +638,9 @@
                         "start": 1305,
                         "end": 1336,
                         "value": "using iterator, higher length",
-                        "raw": "\"using iterator, higher length\""
+                        "raw": "\"using iterator, higher length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -744,7 +760,9 @@
                         "start": 1425,
                         "end": 1460,
                         "value": "not using iterator, higher length",
-                        "raw": "\"not using iterator, higher length\""
+                        "raw": "\"not using iterator, higher length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

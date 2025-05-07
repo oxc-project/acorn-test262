@@ -151,7 +151,9 @@
             "start": 581,
             "end": 588,
             "value": "value",
-            "raw": "\"value\""
+            "raw": "\"value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

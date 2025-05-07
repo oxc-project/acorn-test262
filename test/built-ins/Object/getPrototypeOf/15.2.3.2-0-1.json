@@ -67,14 +67,18 @@
             "start": 277,
             "end": 287,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 289,
             "end": 320,
             "value": "typeof(Object.getPrototypeOf)",
-            "raw": "'typeof(Object.getPrototypeOf)'"
+            "raw": "'typeof(Object.getPrototypeOf)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

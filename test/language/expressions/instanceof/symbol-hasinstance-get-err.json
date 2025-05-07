@@ -202,7 +202,9 @@
                       "start": 601,
                       "end": 602,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "instanceof",
                     "right": {

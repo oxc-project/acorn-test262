@@ -53,7 +53,9 @@
                 "start": 514,
                 "end": 532,
                 "value": "MIN_SAFE_INTEGER",
-                "raw": "'MIN_SAFE_INTEGER'"
+                "raw": "'MIN_SAFE_INTEGER'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -120,7 +122,9 @@
             "start": 574,
             "end": 608,
             "value": "Does not define a `get` accessor",
-            "raw": "'Does not define a `get` accessor'"
+            "raw": "'Does not define a `get` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +188,9 @@
             "start": 649,
             "end": 683,
             "value": "Does not define a `set` accessor",
-            "raw": "'Does not define a `set` accessor'"
+            "raw": "'Does not define a `set` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +254,9 @@
               "start": 716,
               "end": 732,
               "value": 9007199254740991,
-              "raw": "9007199254740991"
+              "raw": "9007199254740991",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -281,7 +289,9 @@
             "start": 764,
             "end": 782,
             "value": "MIN_SAFE_INTEGER",
-            "raw": "'MIN_SAFE_INTEGER'"
+            "raw": "'MIN_SAFE_INTEGER'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +323,9 @@
             "start": 811,
             "end": 829,
             "value": "MIN_SAFE_INTEGER",
-            "raw": "'MIN_SAFE_INTEGER'"
+            "raw": "'MIN_SAFE_INTEGER'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,7 +357,9 @@
             "start": 862,
             "end": 880,
             "value": "MIN_SAFE_INTEGER",
-            "raw": "'MIN_SAFE_INTEGER'"
+            "raw": "'MIN_SAFE_INTEGER'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

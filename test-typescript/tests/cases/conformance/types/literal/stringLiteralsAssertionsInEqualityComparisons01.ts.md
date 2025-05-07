@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 8,
               "end": 13,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "TSAsExpression",
@@ -45,7 +47,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 23,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSStringKeyword",
@@ -88,7 +92,9 @@ __ESTREE_TEST__:PASS:
               "start": 43,
               "end": 48,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "TSAsExpression",
@@ -99,7 +105,9 @@ __ESTREE_TEST__:PASS:
                 "start": 54,
                 "end": 59,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSStringKeyword",
@@ -142,7 +150,9 @@ __ESTREE_TEST__:PASS:
               "start": 80,
               "end": 85,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "TSTypeAssertion",
@@ -153,7 +163,9 @@ __ESTREE_TEST__:PASS:
                 "start": 95,
                 "end": 100,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",

@@ -60,14 +60,18 @@
                 "start": 411,
                 "end": 415,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 421,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -77,14 +81,18 @@
             "start": 424,
             "end": 428,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 470,
             "value": "`Object.is(true, true)` returns `true`",
-            "raw": "\"`Object.is(true, true)` returns `true`\""
+            "raw": "\"`Object.is(true, true)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -147,14 +155,18 @@
                 "start": 500,
                 "end": 505,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 507,
                 "end": 512,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -164,14 +176,18 @@
             "start": 515,
             "end": 519,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 563,
             "value": "`Object.is(false, false)` returns `true`",
-            "raw": "\"`Object.is(false, false)` returns `true`\""
+            "raw": "\"`Object.is(false, false)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -31,7 +31,9 @@
               "start": 277,
               "end": 294,
               "value": "bogus directive",
-              "raw": "\"bogus directive\""
+              "raw": "\"bogus directive\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "bogus directive"
           },
@@ -44,7 +46,9 @@
               "start": 301,
               "end": 313,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },

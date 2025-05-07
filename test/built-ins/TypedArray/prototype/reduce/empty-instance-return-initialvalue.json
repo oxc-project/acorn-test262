@@ -59,7 +59,9 @@
                         "start": 1105,
                         "end": 1110,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -144,7 +146,9 @@
                                       "start": 1169,
                                       "end": 1173,
                                       "value": true,
-                                      "raw": "true"
+                                      "raw": "true",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -156,7 +160,9 @@
                             "start": 1180,
                             "end": 1182,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -204,7 +210,9 @@
                         "start": 1213,
                         "end": 1215,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -249,7 +257,9 @@
                         "start": 1245,
                         "end": 1250,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

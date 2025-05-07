@@ -80,7 +80,9 @@
             "start": 459,
             "end": 460,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -186,7 +188,9 @@
                     "start": 538,
                     "end": 539,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -239,7 +243,9 @@
           "start": 570,
           "end": 571,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -309,14 +315,18 @@
             "start": 631,
             "end": 635,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 693,
             "value": "Returns true if symbol own enumerable property found",
-            "raw": "\"Returns true if symbol own enumerable property found\""
+            "raw": "\"Returns true if symbol own enumerable property found\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,14 +371,18 @@
             "start": 726,
             "end": 727,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 729,
             "end": 769,
             "value": "toPrimitive method called exactly once",
-            "raw": "\"toPrimitive method called exactly once\""
+            "raw": "\"toPrimitive method called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

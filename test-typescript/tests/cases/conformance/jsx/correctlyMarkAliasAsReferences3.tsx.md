@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 27,
         "raw": "\"classnames\"",
-        "value": "classnames"
+        "value": "classnames",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -43,7 +45,9 @@ __ESTREE_TEST__:PASS:
         "start": 61,
         "end": 73,
         "raw": "'classnames'",
-        "value": "classnames"
+        "value": "classnames",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -73,7 +77,9 @@ __ESTREE_TEST__:PASS:
         "start": 98,
         "end": 105,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -183,7 +189,9 @@ __ESTREE_TEST__:PASS:
                               "start": 191,
                               "end": 199,
                               "raw": "'class1'",
-                              "value": "class1"
+                              "value": "class1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",
@@ -213,7 +221,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 211,
                                     "end": 215,
                                     "raw": "true",
-                                    "value": true
+                                    "value": true,
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]

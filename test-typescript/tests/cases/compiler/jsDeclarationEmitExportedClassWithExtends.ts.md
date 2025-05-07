@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 42,
         "raw": "\"lit-element/lit-element.js\"",
-        "value": "lit-element/lit-element.js"
+        "value": "lit-element/lit-element.js",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -44,7 +46,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 32,
         "raw": "\"./lit-element.js\"",
-        "value": "./lit-element.js"
+        "value": "./lit-element.js",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -118,7 +122,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 59,
         "raw": "\"lit\"",
-        "value": "lit"
+        "value": "lit",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

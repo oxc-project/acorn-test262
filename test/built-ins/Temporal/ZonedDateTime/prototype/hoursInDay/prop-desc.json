@@ -79,7 +79,9 @@
                 "start": 380,
                 "end": 392,
                 "value": "hoursInDay",
-                "raw": "\"hoursInDay\""
+                "raw": "\"hoursInDay\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +149,9 @@
             "start": 435,
             "end": 445,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,7 +266,9 @@
             "start": 533,
             "end": 538,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,7 +326,9 @@
             "start": 583,
             "end": 587,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

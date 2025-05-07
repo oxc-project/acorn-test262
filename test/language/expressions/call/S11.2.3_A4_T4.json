@@ -53,7 +53,9 @@
                     "start": 359,
                     "end": 399,
                     "value": "#1.1: this() throw TypeError. Actual: ",
-                    "raw": "'#1.1: this() throw TypeError. Actual: '"
+                    "raw": "'#1.1: this() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -131,7 +133,9 @@
                   "start": 463,
                   "end": 467,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -163,7 +167,9 @@
                             "start": 498,
                             "end": 538,
                             "value": "#1.2: this() throw TypeError. Actual: ",
-                            "raw": "'#1.2: this() throw TypeError. Actual: '"
+                            "raw": "'#1.2: this() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

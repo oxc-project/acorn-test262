@@ -23,7 +23,9 @@
             "start": 1430,
             "end": 1431,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -145,7 +147,9 @@
                                   "start": 1507,
                                   "end": 1518,
                                   "value": "arguments",
-                                  "raw": "\"arguments\""
+                                  "raw": "\"arguments\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -155,7 +159,9 @@
                               "start": 1521,
                               "end": 1526,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -280,14 +286,18 @@
             "start": 1603,
             "end": 1604,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1606,
             "end": 1639,
             "value": "generator method body evaluated",
-            "raw": "'generator method body evaluated'"
+            "raw": "'generator method body evaluated'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

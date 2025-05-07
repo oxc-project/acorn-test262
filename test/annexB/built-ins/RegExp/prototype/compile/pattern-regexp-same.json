@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "abc",
               "flags": "gim"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -86,7 +87,9 @@
           "start": 732,
           "end": 734,
           "value": 23,
-          "raw": "23"
+          "raw": "23",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -185,7 +188,9 @@
             "start": 807,
             "end": 828,
             "value": "method return value",
-            "raw": "'method return value'"
+            "raw": "'method return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,14 +274,18 @@
                     "start": 884,
                     "end": 889,
                     "value": "abc",
-                    "raw": "'abc'"
+                    "raw": "'abc'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 891,
                     "end": 896,
                     "value": "gim",
-                    "raw": "'gim'"
+                    "raw": "'gim'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -297,7 +306,9 @@
             "start": 912,
             "end": 946,
             "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "raw": "'[[OriginalSource]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -355,7 +366,9 @@
             "start": 986,
             "end": 987,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -418,7 +431,9 @@
                 "start": 1020,
                 "end": 1025,
                 "value": "aBc",
-                "raw": "'aBc'"
+                "raw": "'aBc'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -428,14 +443,18 @@
             "start": 1028,
             "end": 1032,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1034,
             "end": 1067,
             "value": "[[RegExpMatcher]] internal slot",
-            "raw": "'[[RegExpMatcher]] internal slot'"
+            "raw": "'[[RegExpMatcher]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

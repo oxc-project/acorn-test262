@@ -358,7 +358,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 27,
         "raw": "\"lib/result\"",
-        "value": "lib/result"
+        "value": "lib/result",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -384,7 +386,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 35,
         "raw": "\"lib/result\"",
-        "value": "lib/result"
+        "value": "lib/result",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -537,7 +541,9 @@ __ESTREE_TEST__:PASS:
         "start": 33,
         "end": 55,
         "raw": "\"src/datastore_result\"",
-        "value": "src/datastore_result"
+        "value": "src/datastore_result",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -599,7 +605,9 @@ __ESTREE_TEST__:PASS:
                       "start": 122,
                       "end": 126,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

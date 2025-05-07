@@ -69,7 +69,9 @@
                         "start": 1105,
                         "end": 1233,
                         "value": "{ function f() { return \"inner declaration\"; } }after = f;        function f() {      return \"outer declaration\";    }",
-                        "raw": "'{ function f() { return \"inner declaration\"; } }after = f;\\\n    \\\n    function f() {\\\n      return \"outer declaration\";\\\n    }'"
+                        "raw": "'{ function f() { return \"inner declaration\"; } }after = f;\\\n    \\\n    function f() {\\\n      return \"outer declaration\";\\\n    }'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -129,7 +131,9 @@
             "start": 1277,
             "end": 1287,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +185,9 @@
             "start": 1316,
             "end": 1335,
             "value": "inner declaration",
-            "raw": "'inner declaration'"
+            "raw": "'inner declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -12,7 +12,9 @@
         "start": 287,
         "end": 291,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -46,7 +48,9 @@
             "start": 300,
             "end": 304,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ]

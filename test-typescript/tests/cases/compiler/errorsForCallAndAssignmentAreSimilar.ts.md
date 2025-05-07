@@ -70,7 +70,9 @@ __ESTREE_TEST__:PASS:
                             "start": 63,
                             "end": 70,
                             "raw": "\"hddvd\"",
-                            "value": "hddvd"
+                            "value": "hddvd",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -113,7 +115,9 @@ __ESTREE_TEST__:PASS:
                             "start": 91,
                             "end": 99,
                             "raw": "\"bluray\"",
-                            "value": "bluray"
+                            "value": "bluray",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -228,7 +232,9 @@ __ESTREE_TEST__:PASS:
                             "start": 166,
                             "end": 174,
                             "raw": "\"bluray\"",
-                            "value": "bluray"
+                            "value": "bluray",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -261,7 +267,9 @@ __ESTREE_TEST__:PASS:
                             "start": 195,
                             "end": 202,
                             "raw": "\"hdpvd\"",
-                            "value": "hdpvd"
+                            "value": "hdpvd",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -358,7 +366,9 @@ __ESTREE_TEST__:PASS:
                             "start": 256,
                             "end": 264,
                             "raw": "\"bluray\"",
-                            "value": "bluray"
+                            "value": "bluray",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -391,7 +401,9 @@ __ESTREE_TEST__:PASS:
                             "start": 285,
                             "end": 292,
                             "raw": "\"hdpvd\"",
-                            "value": "hdpvd"
+                            "value": "hdpvd",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

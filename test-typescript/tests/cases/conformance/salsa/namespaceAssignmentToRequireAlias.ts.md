@@ -89,7 +89,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 27,
                 "raw": "'untyped'",
-                "value": "untyped"
+                "value": "untyped",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -165,7 +167,9 @@ __ESTREE_TEST__:PASS:
           "start": 52,
           "end": 56,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },

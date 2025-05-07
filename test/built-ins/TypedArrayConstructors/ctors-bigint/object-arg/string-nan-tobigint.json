@@ -112,7 +112,9 @@
                                         "start": 2331,
                                         "end": 2356,
                                         "value": "definately not a number",
-                                        "raw": "\"definately not a number\""
+                                        "raw": "\"definately not a number\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -127,7 +129,9 @@
                         "start": 2365,
                         "end": 2394,
                         "value": "StringToBigInt(prim) == NaN",
-                        "raw": "\"StringToBigInt(prim) == NaN\""
+                        "raw": "\"StringToBigInt(prim) == NaN\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -69,14 +69,18 @@
             "start": 753,
             "end": 758,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 818,
             "value": "isConstructor(Object.setPrototypeOf) must return false",
-            "raw": "'isConstructor(Object.setPrototypeOf) must return false'"
+            "raw": "'isConstructor(Object.setPrototypeOf) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

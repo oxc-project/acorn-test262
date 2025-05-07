@@ -67,7 +67,9 @@
                   "start": 1120,
                   "end": 1134,
                   "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "raw": "'switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -75,7 +77,9 @@
                   "start": 1139,
                   "end": 1150,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "raw": "'  case 1:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -84,7 +88,9 @@
                 "start": 1155,
                 "end": 1231,
                 "value": "    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }",
-                "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'"
+                "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -93,7 +99,9 @@
               "start": 1236,
               "end": 1243,
               "value": "}  ",
-              "raw": "'}\\\n  '"
+              "raw": "'}\\\n  '",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -164,14 +172,18 @@
             "start": 1289,
             "end": 1295,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1299,
             "end": 1364,
             "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "raw": "'Block-scoped binding value is function object at execution time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,14 +228,18 @@
             "start": 1396,
             "end": 1399,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1401,
             "end": 1434,
             "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "raw": "'Block-scoped binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,14 +291,18 @@
             "start": 1464,
             "end": 1470,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1474,
             "end": 1539,
             "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -70,7 +70,9 @@
                             "start": 881,
                             "end": 882,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -276,7 +278,9 @@
                         "start": 1050,
                         "end": 1090,
                         "value": "undefined @@species - prototype check ",
-                        "raw": "\"undefined @@species - prototype check \""
+                        "raw": "\"undefined @@species - prototype check \"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -340,7 +344,9 @@
                         "start": 1139,
                         "end": 1173,
                         "value": "undefined @@species - ctor check",
-                        "raw": "\"undefined @@species - ctor check\""
+                        "raw": "\"undefined @@species - ctor check\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -405,7 +411,9 @@
                       "start": 1216,
                       "end": 1220,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -551,7 +559,9 @@
                         "start": 1344,
                         "end": 1379,
                         "value": "null @@species - prototype check ",
-                        "raw": "\"null @@species - prototype check \""
+                        "raw": "\"null @@species - prototype check \"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -615,7 +625,9 @@
                         "start": 1428,
                         "end": 1457,
                         "value": "null @@species - ctor check",
-                        "raw": "\"null @@species - ctor check\""
+                        "raw": "\"null @@species - ctor check\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

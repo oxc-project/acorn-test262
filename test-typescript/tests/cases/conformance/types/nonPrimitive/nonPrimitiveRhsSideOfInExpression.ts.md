@@ -121,7 +121,9 @@ __ESTREE_TEST__:PASS:
               "start": 70,
               "end": 75,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",
@@ -167,7 +169,9 @@ __ESTREE_TEST__:PASS:
               "start": 93,
               "end": 98,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "CallExpression",

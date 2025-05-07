@@ -38,7 +38,9 @@
                   "start": 278,
                   "end": 284,
                   "value": "-1.1",
-                  "raw": "\"-1.1\""
+                  "raw": "\"-1.1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -62,7 +64,9 @@
               "start": 302,
               "end": 308,
               "value": "-1.1",
-              "raw": "\"-1.1\""
+              "raw": "\"-1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -97,7 +101,9 @@
                     "start": 338,
                     "end": 407,
                     "value": "#1: parseFloat(new String(\"-1.1\")) === parseFloat(\"-1.1\"). Actual: ",
-                    "raw": "'#1: parseFloat(new String(\"-1.1\")) === parseFloat(\"-1.1\"). Actual: '"
+                    "raw": "'#1: parseFloat(new String(\"-1.1\")) === parseFloat(\"-1.1\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -131,7 +137,9 @@
                               "start": 433,
                               "end": 439,
                               "value": "-1.1",
-                              "raw": "\"-1.1\""
+                              "raw": "\"-1.1\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -182,7 +190,9 @@
                   "start": 484,
                   "end": 494,
                   "value": "Infinity",
-                  "raw": "\"Infinity\""
+                  "raw": "\"Infinity\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -206,7 +216,9 @@
               "start": 512,
               "end": 522,
               "value": "Infinity",
-              "raw": "\"Infinity\""
+              "raw": "\"Infinity\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -241,7 +253,9 @@
                     "start": 552,
                     "end": 629,
                     "value": "#2: parseFloat(new String(\"Infinity\")) === parseFloat(\"Infinity\"). Actual: ",
-                    "raw": "'#2: parseFloat(new String(\"Infinity\")) === parseFloat(\"Infinity\"). Actual: '"
+                    "raw": "'#2: parseFloat(new String(\"Infinity\")) === parseFloat(\"Infinity\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -275,7 +289,9 @@
                               "start": 655,
                               "end": 665,
                               "value": "Infinity",
-                              "raw": "\"Infinity\""
+                              "raw": "\"Infinity\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -337,7 +353,9 @@
                       "start": 717,
                       "end": 722,
                       "value": "NaN",
-                      "raw": "\"NaN\""
+                      "raw": "\"NaN\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -353,7 +371,9 @@
           "start": 730,
           "end": 735,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -385,7 +405,9 @@
                     "start": 764,
                     "end": 827,
                     "value": "#3: String(parseFloat(new String(\"NaN\"))) === \"NaN\". Actual: ",
-                    "raw": "'#3: String(parseFloat(new String(\"NaN\"))) === \"NaN\". Actual: '"
+                    "raw": "'#3: String(parseFloat(new String(\"NaN\"))) === \"NaN\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -430,7 +452,9 @@
                                   "start": 860,
                                   "end": 865,
                                   "value": "NaN",
-                                  "raw": "\"NaN\""
+                                  "raw": "\"NaN\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -484,7 +508,9 @@
                   "start": 911,
                   "end": 919,
                   "value": ".01e+2",
-                  "raw": "\".01e+2\""
+                  "raw": "\".01e+2\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -508,7 +534,9 @@
               "start": 937,
               "end": 945,
               "value": ".01e+2",
-              "raw": "\".01e+2\""
+              "raw": "\".01e+2\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -543,7 +571,9 @@
                     "start": 975,
                     "end": 1048,
                     "value": "#4: parseFloat(new String(\".01e+2\")) === parseFloat(\".01e+2\"). Actual: ",
-                    "raw": "'#4: parseFloat(new String(\".01e+2\")) === parseFloat(\".01e+2\"). Actual: '"
+                    "raw": "'#4: parseFloat(new String(\".01e+2\")) === parseFloat(\".01e+2\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -577,7 +607,9 @@
                               "start": 1074,
                               "end": 1082,
                               "value": ".01e+2",
-                              "raw": "\".01e+2\""
+                              "raw": "\".01e+2\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -639,7 +671,9 @@
                       "start": 1134,
                       "end": 1141,
                       "value": "false",
-                      "raw": "\"false\""
+                      "raw": "\"false\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -655,7 +689,9 @@
           "start": 1149,
           "end": 1154,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -687,7 +723,9 @@
                     "start": 1183,
                     "end": 1248,
                     "value": "#5: String(parseFloat(new String(\"false\"))) === \"NaN\". Actual: ",
-                    "raw": "'#5: String(parseFloat(new String(\"false\"))) === \"NaN\". Actual: '"
+                    "raw": "'#5: String(parseFloat(new String(\"false\"))) === \"NaN\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -732,7 +770,9 @@
                                   "start": 1281,
                                   "end": 1288,
                                   "value": "false",
-                                  "raw": "\"false\""
+                                  "raw": "\"false\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }

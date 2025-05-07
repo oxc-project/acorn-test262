@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 734,
                 "end": 772,
                 "value": "Learning javaScript is funny, really",
-                "raw": "\"Learning javaScript is funny, really\""
+                "raw": "\"Learning javaScript is funny, really\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -86,28 +89,36 @@
                 "start": 794,
                 "end": 815,
                 "value": "javaScript is funny",
-                "raw": "\"javaScript is funny\""
+                "raw": "\"javaScript is funny\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 816,
                 "end": 828,
                 "value": "javaScript",
-                "raw": "\"javaScript\""
+                "raw": "\"javaScript\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 829,
                 "end": 837,
                 "value": "Script",
-                "raw": "\"Script\""
+                "raw": "\"Script\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 838,
                 "end": 845,
                 "value": "funny",
-                "raw": "\"funny\""
+                "raw": "\"funny\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -148,7 +159,9 @@
           "start": 867,
           "end": 868,
           "value": 9,
-          "raw": "9"
+          "raw": "9",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -185,7 +198,9 @@
           "start": 889,
           "end": 927,
           "value": "Learning javaScript is funny, really",
-          "raw": "\"Learning javaScript is funny, really\""
+          "raw": "\"Learning javaScript is funny, really\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -260,7 +275,9 @@
             "start": 992,
             "end": 1076,
             "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +354,9 @@
             "start": 1141,
             "end": 1223,
             "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,7 +433,9 @@
             "start": 1288,
             "end": 1370,
             "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,7 +465,9 @@
               "start": 1389,
               "end": 1390,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -570,7 +593,9 @@
                   "start": 1498,
                   "end": 1582,
                   "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

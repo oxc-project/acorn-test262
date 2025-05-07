@@ -263,7 +263,9 @@
                             "start": 484,
                             "end": 500,
                             "value": "Invalid value ",
-                            "raw": "\"Invalid value \""
+                            "raw": "\"Invalid value \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -279,7 +281,9 @@
                           "start": 511,
                           "end": 531,
                           "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "raw": "\" was not rejected.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

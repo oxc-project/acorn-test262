@@ -67,7 +67,9 @@
             "start": 999,
             "end": 1014,
             "value": "localeMatcher",
-            "raw": "'localeMatcher'"
+            "raw": "'localeMatcher'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -210,7 +212,9 @@
                         "start": 1122,
                         "end": 1126,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

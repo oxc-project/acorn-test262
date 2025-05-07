@@ -82,7 +82,9 @@ __ESTREE_TEST__:PASS:
           "start": 12,
           "end": 16,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       },
       "label": {

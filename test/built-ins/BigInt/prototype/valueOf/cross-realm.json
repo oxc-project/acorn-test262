@@ -129,7 +129,9 @@
                     "start": 351,
                     "end": 352,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -234,6 +236,7 @@
             "end": 416,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -241,7 +244,9 @@
             "start": 435,
             "end": 456,
             "value": "cross-realm valueOf",
-            "raw": "\"cross-realm valueOf\""
+            "raw": "\"cross-realm valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

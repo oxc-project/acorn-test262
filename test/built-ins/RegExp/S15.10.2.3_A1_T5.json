@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\d{3}|[a-z]{4}",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 598,
                 "end": 623,
                 "value": "2, 12 and 23 AND 0.00.1",
-                "raw": "\"2, 12 and 23 AND 0.00.1\""
+                "raw": "\"2, 12 and 23 AND 0.00.1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 647,
             "end": 696,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -69,7 +69,9 @@
             "start": 403,
             "end": 462,
             "value": "Function.prototype.isPrototypeOf(Number) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Number) must return true'"
+            "raw": "'Function.prototype.isPrototypeOf(Number) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

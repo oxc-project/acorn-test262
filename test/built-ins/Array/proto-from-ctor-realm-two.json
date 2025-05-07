@@ -216,14 +216,18 @@
                   "start": 1058,
                   "end": 1061,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1063,
                   "end": 1066,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -336,7 +340,9 @@
             "start": 1149,
             "end": 1251,
             "value": "Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'"
+            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +381,9 @@
           "start": 1277,
           "end": 1281,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -434,14 +442,18 @@
                   "start": 1315,
                   "end": 1318,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1320,
                   "end": 1323,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -554,7 +566,9 @@
             "start": 1406,
             "end": 1508,
             "value": "Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'"
+            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,7 +607,9 @@
           "start": 1534,
           "end": 1539,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -652,14 +668,18 @@
                   "start": 1573,
                   "end": 1576,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1578,
                   "end": 1581,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -772,7 +792,9 @@
             "start": 1664,
             "end": 1766,
             "value": "Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'"
+            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -811,7 +833,9 @@
           "start": 1792,
           "end": 1794,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -870,14 +894,18 @@
                   "start": 1828,
                   "end": 1831,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1833,
                   "end": 1836,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -990,7 +1018,9 @@
             "start": 1919,
             "end": 2021,
             "value": "Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'"
+            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1094,14 +1124,18 @@
                   "start": 2089,
                   "end": 2092,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2094,
                   "end": 2097,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1214,7 +1248,9 @@
             "start": 2180,
             "end": 2282,
             "value": "Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'"
+            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1259,7 +1295,9 @@
             "start": 2309,
             "end": 2310,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -1319,14 +1357,18 @@
                   "start": 2344,
                   "end": 2347,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2349,
                   "end": 2352,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -1439,7 +1481,9 @@
             "start": 2435,
             "end": 2537,
             "value": "Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'"
+            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [\"a\", \"b\"], newTarget)) returns other.Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

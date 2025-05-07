@@ -28,28 +28,36 @@
                 "start": 434,
                 "end": 446,
                 "value": "en-x-u-foo",
-                "raw": "\"en-x-u-foo\""
+                "raw": "\"en-x-u-foo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 469,
                 "value": "en-a-bar-x-u-foo",
-                "raw": "\"en-a-bar-x-u-foo\""
+                "raw": "\"en-a-bar-x-u-foo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 492,
                 "value": "en-x-u-foo-a-bar",
-                "raw": "\"en-x-u-foo-a-bar\""
+                "raw": "\"en-x-u-foo-a-bar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 497,
                 "end": 521,
                 "value": "en-a-bar-u-baz-x-u-foo",
-                "raw": "\"en-a-bar-u-baz-x-u-foo\""
+                "raw": "\"en-a-bar-u-baz-x-u-foo\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

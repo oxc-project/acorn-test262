@@ -73,7 +73,9 @@
             "start": 342,
             "end": 348,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -118,7 +120,9 @@
             "start": 379,
             "end": 384,
             "value": "set",
-            "raw": "\"set\""
+            "raw": "\"set\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -356,7 +360,9 @@
             "start": 600,
             "end": 610,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -401,7 +407,9 @@
           "start": 635,
           "end": 662,
           "value": "inheritedAccessorProperty",
-          "raw": "\"inheritedAccessorProperty\""
+          "raw": "\"inheritedAccessorProperty\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -449,7 +457,9 @@
                 "start": 691,
                 "end": 701,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -459,7 +469,9 @@
             "start": 704,
             "end": 745,
             "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"property\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -504,14 +516,18 @@
             "start": 771,
             "end": 798,
             "value": "inheritedAccessorProperty",
-            "raw": "\"inheritedAccessorProperty\""
+            "raw": "\"inheritedAccessorProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 800,
             "end": 806,
             "value": "data",
-            "raw": "'data'"
+            "raw": "'data'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -55,7 +55,9 @@
                       "start": 3551,
                       "end": 3564,
                       "value": "outer class",
-                      "raw": "'outer class'"
+                      "raw": "'outer class'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -163,7 +165,9 @@
                       "start": 3652,
                       "end": 3665,
                       "value": "inner class",
-                      "raw": "'inner class'"
+                      "raw": "'inner class'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -294,7 +298,9 @@
             "start": 3762,
             "end": 3775,
             "value": "outer class",
-            "raw": "'outer class'"
+            "raw": "'outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,7 +429,9 @@
             "start": 3836,
             "end": 3849,
             "value": "inner class",
-            "raw": "'inner class'"
+            "raw": "'inner class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -536,7 +544,9 @@
             "start": 3916,
             "end": 3965,
             "value": "accessed private field from an arbritary object",
-            "raw": "'accessed private field from an arbritary object'"
+            "raw": "'accessed private field from an arbritary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

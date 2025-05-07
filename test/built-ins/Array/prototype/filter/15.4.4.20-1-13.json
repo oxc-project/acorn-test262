@@ -54,7 +54,9 @@
                 "start": 291,
                 "end": 306,
                 "value": "[object JSON]",
-                "raw": "'[object JSON]'"
+                "raw": "'[object JSON]'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "===",
               "right": {
@@ -154,7 +156,9 @@
           "start": 366,
           "end": 367,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -182,7 +186,9 @@
             "start": 374,
             "end": 375,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -192,7 +198,9 @@
           "start": 379,
           "end": 380,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -323,7 +331,9 @@
               "start": 467,
               "end": 468,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -333,14 +343,18 @@
             "start": 471,
             "end": 472,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 474,
             "end": 485,
             "value": "newArr[0]",
-            "raw": "'newArr[0]'"
+            "raw": "'newArr[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

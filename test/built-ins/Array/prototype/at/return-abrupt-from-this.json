@@ -75,14 +75,18 @@
             "start": 382,
             "end": 392,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 467,
             "value": "The value of `typeof Array.prototype.at` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,7 +212,9 @@
             "start": 546,
             "end": 611,
             "value": "Array.prototype.at.call(undefined) throws a TypeError exception",
-            "raw": "'Array.prototype.at.call(undefined) throws a TypeError exception'"
+            "raw": "'Array.prototype.at.call(undefined) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,7 +327,9 @@
                         "start": 674,
                         "end": 678,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -335,7 +343,9 @@
             "start": 684,
             "end": 744,
             "value": "Array.prototype.at.call(null) throws a TypeError exception",
-            "raw": "'Array.prototype.at.call(null) throws a TypeError exception'"
+            "raw": "'Array.prototype.at.call(null) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -89,7 +89,9 @@
           "start": 328,
           "end": 329,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -121,7 +123,9 @@
                     "start": 358,
                     "end": 434,
                     "value": "#1: function f_arg(x,y) {return arguments;} f_arg().length === 0. Actual: ",
-                    "raw": "'#1: function f_arg(x,y) {return arguments;} f_arg().length === 0. Actual: '"
+                    "raw": "'#1: function f_arg(x,y) {return arguments;} f_arg().length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -193,7 +197,9 @@
             "start": 481,
             "end": 482,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -235,7 +241,9 @@
                     "start": 526,
                     "end": 606,
                     "value": "#2: function f_arg(x,y) {return arguments;} f_arg()[0] === undefined. Actual: ",
-                    "raw": "'#2: function f_arg(x,y) {return arguments;} f_arg()[0] === undefined. Actual: '"
+                    "raw": "'#2: function f_arg(x,y) {return arguments;} f_arg()[0] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -264,7 +272,9 @@
                         "start": 618,
                         "end": 619,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -311,7 +321,9 @@
           "start": 658,
           "end": 659,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -343,7 +355,9 @@
                     "start": 688,
                     "end": 762,
                     "value": "#3: function f_arg(x,y) {return arguments;} f_arg.length === 2. Actual: ",
-                    "raw": "'#3: function f_arg(x,y) {return arguments;} f_arg.length === 2. Actual: '"
+                    "raw": "'#3: function f_arg(x,y) {return arguments;} f_arg.length === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

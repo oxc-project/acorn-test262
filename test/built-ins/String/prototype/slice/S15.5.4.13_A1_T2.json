@@ -155,7 +155,9 @@
                         "start": 527,
                         "end": 531,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -179,7 +181,9 @@
           "start": 547,
           "end": 553,
           "value": "alse",
-          "raw": "\"alse\""
+          "raw": "\"alse\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -211,7 +215,9 @@
                     "start": 582,
                     "end": 732,
                     "value": "#1: var x; __instance = new Boolean; __instance.slice = String.prototype.slice;  __instance.slice(function(){return true;}(),x) === \"alse\". Actual: ",
-                    "raw": "'#1: var x; __instance = new Boolean; __instance.slice = String.prototype.slice;  __instance.slice(function(){return true;}(),x) === \"alse\". Actual: '"
+                    "raw": "'#1: var x; __instance = new Boolean; __instance.slice = String.prototype.slice;  __instance.slice(function(){return true;}(),x) === \"alse\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -265,7 +271,9 @@
                                   "start": 776,
                                   "end": 780,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]

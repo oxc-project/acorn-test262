@@ -59,7 +59,9 @@
                           "start": 413,
                           "end": 427,
                           "value": "function(){}",
-                          "raw": "\"function(){}\""
+                          "raw": "\"function(){}\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -193,7 +195,9 @@
                   "start": 602,
                   "end": 603,
                   "value": 8,
-                  "raw": "8"
+                  "raw": "8",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -213,7 +217,9 @@
               "start": 611,
               "end": 612,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -230,7 +236,9 @@
           "start": 628,
           "end": 637,
           "value": "unction",
-          "raw": "\"unction\""
+          "raw": "\"unction\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -262,7 +270,9 @@
                     "start": 666,
                     "end": 813,
                     "value": "#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: ",
-                    "raw": "'#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: '"
+                    "raw": "'#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -315,7 +325,9 @@
                             "start": 844,
                             "end": 845,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -335,7 +347,9 @@
                         "start": 853,
                         "end": 854,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

@@ -297,7 +297,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 39,
         "raw": "\"search/lib/index\"",
-        "value": "search/lib/index"
+        "value": "search/lib/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -337,7 +339,9 @@ __ESTREE_TEST__:PASS:
         "start": 73,
         "end": 102,
         "raw": "\"../API/NotificationAPIUtils\"",
-        "value": "../API/NotificationAPIUtils"
+        "value": "../API/NotificationAPIUtils",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

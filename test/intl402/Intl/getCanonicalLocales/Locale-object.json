@@ -65,7 +65,9 @@
                     "start": 543,
                     "end": 550,
                     "value": "fr-CA",
-                    "raw": "\"fr-CA\""
+                    "raw": "\"fr-CA\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "NewExpression",
@@ -96,7 +98,9 @@
                         "start": 570,
                         "end": 586,
                         "value": "en-gb-oxendict",
-                        "raw": "\"en-gb-oxendict\""
+                        "raw": "\"en-gb-oxendict\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -105,7 +109,9 @@
                     "start": 591,
                     "end": 595,
                     "value": "de",
-                    "raw": "\"de\""
+                    "raw": "\"de\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "NewExpression",
@@ -136,7 +142,9 @@
                         "start": 615,
                         "end": 619,
                         "value": "jp",
-                        "raw": "\"jp\""
+                        "raw": "\"jp\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -155,14 +163,18 @@
                               "start": 623,
                               "end": 633,
                               "value": "calendar",
-                              "raw": "\"calendar\""
+                              "raw": "\"calendar\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "Literal",
                               "start": 635,
                               "end": 644,
                               "value": "gregory",
-                              "raw": "\"gregory\""
+                              "raw": "\"gregory\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -175,7 +187,9 @@
                     "start": 651,
                     "end": 655,
                     "value": "zh",
-                    "raw": "\"zh\""
+                    "raw": "\"zh\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "NewExpression",
@@ -206,7 +220,9 @@
                         "start": 675,
                         "end": 682,
                         "value": "fr-CA",
-                        "raw": "\"fr-CA\""
+                        "raw": "\"fr-CA\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -225,35 +241,45 @@
                 "start": 693,
                 "end": 700,
                 "value": "fr-CA",
-                "raw": "\"fr-CA\""
+                "raw": "\"fr-CA\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 704,
                 "end": 720,
                 "value": "en-GB-oxendict",
-                "raw": "\"en-GB-oxendict\""
+                "raw": "\"en-GB-oxendict\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 724,
                 "end": 728,
                 "value": "de",
-                "raw": "\"de\""
+                "raw": "\"de\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 732,
                 "end": 749,
                 "value": "jp-u-ca-gregory",
-                "raw": "\"jp-u-ca-gregory\""
+                "raw": "\"jp-u-ca-gregory\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 753,
                 "end": 757,
                 "value": "zh",
-                "raw": "\"zh\""
+                "raw": "\"zh\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

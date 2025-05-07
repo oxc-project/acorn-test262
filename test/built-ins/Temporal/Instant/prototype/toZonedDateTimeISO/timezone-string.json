@@ -48,6 +48,7 @@
                 "end": 317,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -78,14 +79,18 @@
                 "start": 322,
                 "end": 327,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 337,
                 "value": "+01:30",
-                "raw": "\"+01:30\""
+                "raw": "\"+01:30\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },

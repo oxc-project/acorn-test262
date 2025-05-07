@@ -16,7 +16,9 @@
           "start": 271,
           "end": 282,
           "value": "\tstr\ting\t",
-          "raw": "\"\tstr\ting\t\""
+          "raw": "\"\tstr\ting\t\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -24,7 +26,9 @@
           "start": 287,
           "end": 313,
           "value": "\tstr\ting\t",
-          "raw": "\"\\u0009str\\u0009ing\\u0009\""
+          "raw": "\"\\u0009str\\u0009ing\\u0009\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -52,7 +56,9 @@
                   "start": 342,
                   "end": 393,
                   "value": "#1: \"\tstr\ting\t\" === \"\\u0009str\\u0009ing\\u0009\"",
-                  "raw": "'#1: \"\tstr\ting\t\" === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'"
+                  "raw": "'#1: \"\tstr\ting\t\" === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

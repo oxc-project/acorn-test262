@@ -67,7 +67,9 @@
             "start": 334,
             "end": 339,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 374,
                           "end": 376,
                           "value": 12,
-                          "raw": "12"
+                          "raw": "12",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -136,7 +140,9 @@
                   "start": 399,
                   "end": 404,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -287,7 +293,9 @@
             "start": 512,
             "end": 517,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -330,7 +338,9 @@
                           "start": 552,
                           "end": 553,
                           "value": 9,
-                          "raw": "9"
+                          "raw": "9",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -356,7 +366,9 @@
                   "start": 576,
                   "end": 580,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -470,14 +482,18 @@
             "start": 661,
             "end": 666,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 668,
             "end": 692,
             "value": "Object.isFrozen(child)",
-            "raw": "'Object.isFrozen(child)'"
+            "raw": "'Object.isFrozen(child)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

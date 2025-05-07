@@ -110,7 +110,9 @@
                         "start": 532,
                         "end": 533,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -124,7 +126,9 @@
             "start": 539,
             "end": 633,
             "value": "Intl.PluralRules.prototype is not an object that has been initialized as an Intl.PluralRules",
-            "raw": "\"Intl.PluralRules.prototype is not an object that has been initialized as an Intl.PluralRules\""
+            "raw": "\"Intl.PluralRules.prototype is not an object that has been initialized as an Intl.PluralRules\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

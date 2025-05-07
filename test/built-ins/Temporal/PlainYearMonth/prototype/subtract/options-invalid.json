@@ -60,7 +60,9 @@
                 "start": 290,
                 "end": 299,
                 "value": "2019-11",
-                "raw": "\"2019-11\""
+                "raw": "\"2019-11\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,21 +96,27 @@
                 "start": 318,
                 "end": 322,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 328,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 337,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -126,7 +134,9 @@
                     "start": 346,
                     "end": 351,
                     "value": "foo",
-                    "raw": "\"foo\""
+                    "raw": "\"foo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -136,7 +146,9 @@
                 "start": 354,
                 "end": 355,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -144,6 +156,7 @@
                 "end": 359,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ]
@@ -278,7 +291,9 @@
                               "start": 451,
                               "end": 452,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

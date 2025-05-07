@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 46,
         "end": 65,
         "raw": "\"  function f() {}\"",
-        "value": "  function f() {}"
+        "value": "  function f() {}",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -28,7 +30,9 @@ __ESTREE_TEST__:PASS:
         "start": 113,
         "end": 132,
         "raw": "\"  function f() {}\"",
-        "value": "  function f() {}"
+        "value": "  function f() {}",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

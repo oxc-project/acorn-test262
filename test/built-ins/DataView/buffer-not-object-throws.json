@@ -70,7 +70,9 @@
                               "start": 537,
                               "end": 582,
                               "value": "buffer should be verified before byteOffset",
-                              "raw": "\"buffer should be verified before byteOffset\""
+                              "raw": "\"buffer should be verified before byteOffset\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -154,7 +156,9 @@
                         "start": 646,
                         "end": 647,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -173,7 +177,9 @@
             "start": 658,
             "end": 661,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,7 +253,9 @@
                         "start": 718,
                         "end": 719,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -266,7 +274,9 @@
             "start": 730,
             "end": 733,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -340,7 +350,9 @@
                         "start": 790,
                         "end": 792,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -359,7 +371,9 @@
             "start": 803,
             "end": 821,
             "value": "the empty string",
-            "raw": "\"the empty string\""
+            "raw": "\"the empty string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -433,7 +447,9 @@
                         "start": 878,
                         "end": 886,
                         "value": "buffer",
-                        "raw": "\"buffer\""
+                        "raw": "\"buffer\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -452,7 +468,9 @@
             "start": 897,
             "end": 905,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -526,7 +544,9 @@
                         "start": 962,
                         "end": 967,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -545,7 +565,9 @@
             "start": 978,
             "end": 985,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -619,7 +641,9 @@
                         "start": 1042,
                         "end": 1046,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -638,7 +662,9 @@
             "start": 1057,
             "end": 1063,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -730,7 +756,9 @@
             "start": 1134,
             "end": 1139,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -815,7 +843,9 @@
                             "start": 1203,
                             "end": 1206,
                             "value": "1",
-                            "raw": "\"1\""
+                            "raw": "\"1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -837,7 +867,9 @@
             "start": 1218,
             "end": 1226,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

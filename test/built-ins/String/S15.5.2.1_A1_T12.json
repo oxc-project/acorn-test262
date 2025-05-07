@@ -59,7 +59,9 @@
                           "start": 651,
                           "end": 660,
                           "value": "intostr",
-                          "raw": "\"intostr\""
+                          "raw": "\"intostr\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -124,7 +126,9 @@
                   "start": 707,
                   "end": 711,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -199,7 +203,9 @@
                   "start": 869,
                   "end": 976,
                   "value": "#1: var __obj = {toString:function(){throw \"intostr\"}}; __str = new String(__obj) lead throwing exception",
-                  "raw": "'#1: var __obj = {toString:function(){throw \"intostr\"}}; __str = new String(__obj) lead throwing exception'"
+                  "raw": "'#1: var __obj = {toString:function(){throw \"intostr\"}}; __str = new String(__obj) lead throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -241,7 +247,9 @@
                   "start": 1005,
                   "end": 1014,
                   "value": "intostr",
-                  "raw": "\"intostr\""
+                  "raw": "\"intostr\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -273,7 +281,9 @@
                             "start": 1045,
                             "end": 1080,
                             "value": "#1.1: e===\"intostr\". Actual: e===",
-                            "raw": "'#1.1: e===\"intostr\". Actual: e==='"
+                            "raw": "'#1.1: e===\"intostr\". Actual: e==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

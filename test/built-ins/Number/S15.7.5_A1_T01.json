@@ -71,7 +71,9 @@
                 "start": 375,
                 "end": 388,
                 "value": "constructor",
-                "raw": "\"constructor\""
+                "raw": "\"constructor\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -81,14 +83,18 @@
             "start": 393,
             "end": 398,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 466,
             "value": "(new Number()).hasOwnProperty(\"constructor\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"constructor\") must return false'"
+            "raw": "'(new Number()).hasOwnProperty(\"constructor\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +195,9 @@
             "start": 553,
             "end": 657,
             "value": "The value of (new Number()).constructor is expected to equal the value of Number.prototype.constructor",
-            "raw": "'The value of (new Number()).constructor is expected to equal the value of Number.prototype.constructor'"
+            "raw": "'The value of (new Number()).constructor is expected to equal the value of Number.prototype.constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

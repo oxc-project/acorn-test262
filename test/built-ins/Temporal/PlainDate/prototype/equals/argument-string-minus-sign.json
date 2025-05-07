@@ -28,14 +28,18 @@
                 "start": 287,
                 "end": 322,
                 "value": "1976-11-18T15:23:30.12−02:00",
-                "raw": "\"1976-11-18T15:23:30.12\\u221202:00\""
+                "raw": "\"1976-11-18T15:23:30.12\\u221202:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 358,
                 "value": "−009999-11-18T15:23:30.12",
-                "raw": "\"\\u2212009999-11-18T15:23:30.12\""
+                "raw": "\"\\u2212009999-11-18T15:23:30.12\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,21 +91,27 @@
                 "start": 403,
                 "end": 407,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 409,
                 "end": 410,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 412,
                 "end": 413,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

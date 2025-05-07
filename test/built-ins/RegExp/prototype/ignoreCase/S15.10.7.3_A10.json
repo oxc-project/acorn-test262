@@ -98,7 +98,9 @@
                 "start": 403,
                 "end": 415,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 418,
             "end": 422,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 424,
             "end": 478,
             "value": "__re.hasOwnProperty('ignoreCase') must return true",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -145,7 +151,8 @@
             "regex": {
               "pattern": "a|b|c",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -215,21 +222,27 @@
             "start": 568,
             "end": 580,
             "value": "ignoreCase",
-            "raw": "\"ignoreCase\""
+            "raw": "\"ignoreCase\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 582,
             "end": 594,
             "value": "ignoreCase",
-            "raw": "\"ignoreCase\""
+            "raw": "\"ignoreCase\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 605,
             "value": "shifted",
-            "raw": "\"shifted\""
+            "raw": "\"shifted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +306,9 @@
             "start": 661,
             "end": 735,
             "value": "The value of __sample.ignoreCase is expected to equal the value of __obj",
-            "raw": "'The value of __sample.ignoreCase is expected to equal the value of __obj'"
+            "raw": "'The value of __sample.ignoreCase is expected to equal the value of __obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

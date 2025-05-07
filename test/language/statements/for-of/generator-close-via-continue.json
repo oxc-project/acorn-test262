@@ -23,7 +23,9 @@
             "start": 902,
             "end": 903,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 924,
             "end": 925,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 948,
             "end": 949,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -120,7 +126,9 @@
                 "start": 990,
                 "end": 991,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -165,7 +173,9 @@
                         "start": 1039,
                         "end": 1086,
                         "value": "This code is unreachable (within `try` block)",
-                        "raw": "'This code is unreachable (within `try` block)'"
+                        "raw": "'This code is unreachable (within `try` block)'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -198,7 +208,9 @@
                       "start": 1123,
                       "end": 1124,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -225,7 +237,9 @@
                   "start": 1155,
                   "end": 1209,
                   "value": "This code is unreachable (following `try` statement)",
-                  "raw": "'This code is unreachable (following `try` statement)'"
+                  "raw": "'This code is unreachable (following `try` statement)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -304,14 +318,18 @@
             "start": 1274,
             "end": 1275,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1277,
             "end": 1322,
             "value": "Generator is initialized in suspended state",
-            "raw": "'Generator is initialized in suspended state'"
+            "raw": "'Generator is initialized in suspended state'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -405,14 +423,18 @@
                           "start": 1405,
                           "end": 1406,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1408,
                           "end": 1453,
                           "value": "Generator executes prior to first iteration",
-                          "raw": "'Generator executes prior to first iteration'"
+                          "raw": "'Generator executes prior to first iteration'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -457,14 +479,18 @@
                           "start": 1503,
                           "end": 1504,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1506,
                           "end": 1550,
                           "value": "Generator is paused during first iteration",
-                          "raw": "'Generator is paused during first iteration'"
+                          "raw": "'Generator is paused during first iteration'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -490,7 +516,9 @@
                         "start": 1580,
                         "end": 1581,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -515,7 +543,9 @@
           "start": 1612,
           "end": 1617,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "label": {
@@ -564,14 +594,18 @@
             "start": 1655,
             "end": 1656,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1658,
             "end": 1709,
             "value": "Generator does not restart following interruption",
-            "raw": "'Generator does not restart following interruption'"
+            "raw": "'Generator does not restart following interruption'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -616,14 +650,18 @@
             "start": 1746,
             "end": 1747,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1749,
             "end": 1776,
             "value": "A single iteration occurs",
-            "raw": "'A single iteration occurs'"
+            "raw": "'A single iteration occurs'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -668,14 +706,18 @@
             "start": 1813,
             "end": 1814,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1816,
             "end": 1864,
             "value": "Generator is closed after `continue` statement",
-            "raw": "'Generator is closed after `continue` statement'"
+            "raw": "'Generator is closed after `continue` statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

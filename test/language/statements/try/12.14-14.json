@@ -132,7 +132,9 @@
                                     "start": 481,
                                     "end": 487,
                                     "value": "test",
-                                    "raw": "\"test\""
+                                    "raw": "\"test\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -263,14 +265,18 @@
             "start": 628,
             "end": 634,
             "value": "test",
-            "raw": "\"test\""
+            "raw": "\"test\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 644,
             "value": "result",
-            "raw": "'result'"
+            "raw": "'result'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

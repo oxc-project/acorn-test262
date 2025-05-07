@@ -23,7 +23,9 @@
             "start": 955,
             "end": 960,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -81,7 +83,9 @@
             "start": 1174,
             "end": 1185,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -154,14 +158,18 @@
                               "start": 1244,
                               "end": 1249,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1251,
                               "end": 1283,
                               "value": "'prototype' getter called once",
-                              "raw": "\"'prototype' getter called once\""
+                              "raw": "\"'prototype' getter called once\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -187,7 +195,9 @@
                             "start": 1305,
                             "end": 1309,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -302,7 +312,9 @@
             "start": 1411,
             "end": 1456,
             "value": "[] should be instance of Function.prototype",
-            "raw": "\"[] should be instance of Function.prototype\""
+            "raw": "\"[] should be instance of Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -334,7 +346,9 @@
             "start": 1480,
             "end": 1507,
             "value": "'prototype' getter called",
-            "raw": "\"'prototype' getter called\""
+            "raw": "\"'prototype' getter called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

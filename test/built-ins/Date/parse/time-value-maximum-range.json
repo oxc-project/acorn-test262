@@ -23,7 +23,9 @@
             "start": 894,
             "end": 923,
             "value": "-271821-04-20T00:00:00.000Z",
-            "raw": "\"-271821-04-20T00:00:00.000Z\""
+            "raw": "\"-271821-04-20T00:00:00.000Z\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -66,7 +68,9 @@
                   "start": 951,
                   "end": 967,
                   "value": 8640000000000000,
-                  "raw": "8640000000000000"
+                  "raw": "8640000000000000",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -140,7 +144,9 @@
             "start": 1023,
             "end": 1035,
             "value": "minDateStr",
-            "raw": "\"minDateStr\""
+            "raw": "\"minDateStr\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +244,9 @@
             "start": 1098,
             "end": 1116,
             "value": "parse minDateStr",
-            "raw": "\"parse minDateStr\""
+            "raw": "\"parse minDateStr\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,7 +272,9 @@
             "start": 1139,
             "end": 1168,
             "value": "+275760-09-13T00:00:00.000Z",
-            "raw": "\"+275760-09-13T00:00:00.000Z\""
+            "raw": "\"+275760-09-13T00:00:00.000Z\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -301,7 +311,9 @@
                 "start": 1195,
                 "end": 1211,
                 "value": 8640000000000000,
-                "raw": "8640000000000000"
+                "raw": "8640000000000000",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -374,7 +386,9 @@
             "start": 1267,
             "end": 1279,
             "value": "maxDateStr",
-            "raw": "\"maxDateStr\""
+            "raw": "\"maxDateStr\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -472,7 +486,9 @@
             "start": 1342,
             "end": 1360,
             "value": "parse maxDateStr",
-            "raw": "\"parse maxDateStr\""
+            "raw": "\"parse maxDateStr\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -498,7 +514,9 @@
             "start": 1383,
             "end": 1412,
             "value": "-271821-04-19T23:59:59.999Z",
-            "raw": "\"-271821-04-19T23:59:59.999Z\""
+            "raw": "\"-271821-04-19T23:59:59.999Z\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -524,7 +542,9 @@
             "start": 1433,
             "end": 1462,
             "value": "+275760-09-13T00:00:00.001Z",
-            "raw": "\"+275760-09-13T00:00:00.001Z\""
+            "raw": "\"+275760-09-13T00:00:00.001Z\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -602,7 +622,9 @@
             "start": 1511,
             "end": 1543,
             "value": "parse below minimum time value",
-            "raw": "\"parse below minimum time value\""
+            "raw": "\"parse below minimum time value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -680,7 +702,9 @@
             "start": 1592,
             "end": 1624,
             "value": "parse above maximum time value",
-            "raw": "\"parse above maximum time value\""
+            "raw": "\"parse above maximum time value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

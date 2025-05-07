@@ -29,7 +29,9 @@
             "start": 429,
             "end": 443,
             "value": "NumberFormat",
-            "raw": "\"NumberFormat\""
+            "raw": "\"NumberFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -53,6 +55,7 @@
             "end": 448,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           "property": {

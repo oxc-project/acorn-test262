@@ -60,7 +60,9 @@
                 "start": 292,
                 "end": 303,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 306,
             "end": 310,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 312,
             "end": 367,
             "value": "RegExp.hasOwnProperty('prototype') must return true",
-            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'"
+            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 314,
             "end": 315,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 325,
             "end": 326,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,7 +108,9 @@
           "start": 344,
           "end": 345,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -132,7 +138,9 @@
                   "start": 374,
                   "end": 445,
                   "value": "#1: Check Prefix Decrement Operator for automatic semicolon insertion",
-                  "raw": "'#1: Check Prefix Decrement Operator for automatic semicolon insertion'"
+                  "raw": "'#1: Check Prefix Decrement Operator for automatic semicolon insertion'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -164,7 +172,9 @@
                 "start": 469,
                 "end": 470,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -192,7 +202,9 @@
                         "start": 501,
                         "end": 572,
                         "value": "#1: Check Prefix Decrement Operator for automatic semicolon insertion",
-                        "raw": "'#1: Check Prefix Decrement Operator for automatic semicolon insertion'"
+                        "raw": "'#1: Check Prefix Decrement Operator for automatic semicolon insertion'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

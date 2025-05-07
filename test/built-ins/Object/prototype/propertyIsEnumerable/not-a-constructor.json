@@ -82,14 +82,18 @@
             "start": 785,
             "end": 790,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 794,
             "end": 866,
             "value": "isConstructor(Object.prototype.propertyIsEnumerable) must return false",
-            "raw": "'isConstructor(Object.prototype.propertyIsEnumerable) must return false'"
+            "raw": "'isConstructor(Object.prototype.propertyIsEnumerable) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +193,9 @@
                         "start": 948,
                         "end": 950,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

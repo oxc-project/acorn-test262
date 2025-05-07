@@ -62,14 +62,18 @@
             "start": 247,
             "end": 257,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 259,
             "end": 323,
             "value": "The value of `typeof Promise.all` is expected to be \"function\"",
-            "raw": "'The value of `typeof Promise.all` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Promise.all` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

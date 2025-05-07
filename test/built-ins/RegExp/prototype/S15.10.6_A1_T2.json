@@ -49,7 +49,9 @@
           "start": 409,
           "end": 410,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -118,14 +120,18 @@
             "start": 458,
             "end": 459,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 522,
             "value": "The value of RegExp.prototype.indicator is expected to be 1",
-            "raw": "'The value of RegExp.prototype.indicator is expected to be 1'"
+            "raw": "'The value of RegExp.prototype.indicator is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

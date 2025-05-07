@@ -82,14 +82,18 @@
             "start": 754,
             "end": 759,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 763,
             "end": 820,
             "value": "isConstructor(Date.prototype.getYear) must return false",
-            "raw": "'isConstructor(Date.prototype.getYear) must return false'"
+            "raw": "'isConstructor(Date.prototype.getYear) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

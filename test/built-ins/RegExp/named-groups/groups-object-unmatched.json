@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?<a>a).|(?<x>x)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 611,
                 "end": 615,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -214,7 +217,9 @@
                 "start": 713,
                 "end": 721,
                 "value": "groups",
-                "raw": "\"groups\""
+                "raw": "\"groups\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -256,7 +261,9 @@
             "start": 742,
             "end": 746,
             "value": "ab",
-            "raw": "\"ab\""
+            "raw": "\"ab\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -273,7 +280,9 @@
               "start": 755,
               "end": 756,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -315,7 +324,9 @@
             "start": 777,
             "end": 780,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -332,7 +343,9 @@
               "start": 789,
               "end": 790,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -390,7 +403,9 @@
               "start": 829,
               "end": 830,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -432,7 +447,9 @@
             "start": 851,
             "end": 852,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -490,7 +507,9 @@
             "start": 886,
             "end": 889,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -662,7 +681,9 @@
                 "start": 1091,
                 "end": 1094,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -684,7 +705,9 @@
                 "start": 1099,
                 "end": 1102,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -706,7 +729,9 @@
                 "start": 1107,
                 "end": 1110,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -747,7 +772,9 @@
             "start": 1131,
             "end": 1134,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -762,7 +789,9 @@
                 "start": 1136,
                 "end": 1140,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -785,7 +814,9 @@
                 "start": 1153,
                 "end": 1159,
                 "value": "$<a>",
-                "raw": "\"$<a>\""
+                "raw": "\"$<a>\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -827,7 +858,9 @@
             "start": 1180,
             "end": 1182,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -842,7 +875,9 @@
                 "start": 1184,
                 "end": 1188,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -865,7 +900,9 @@
                 "start": 1201,
                 "end": 1207,
                 "value": "$<x>",
-                "raw": "\"$<x>\""
+                "raw": "\"$<x>\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -907,7 +944,9 @@
             "start": 1228,
             "end": 1230,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -922,7 +961,9 @@
                 "start": 1232,
                 "end": 1236,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -945,7 +986,9 @@
                 "start": 1249,
                 "end": 1255,
                 "value": "$<z>",
-                "raw": "\"$<z>\""
+                "raw": "\"$<z>\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

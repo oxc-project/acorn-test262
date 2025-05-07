@@ -47,21 +47,27 @@
                 "start": 758,
                 "end": 762,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 764,
                 "end": 765,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 767,
                 "end": 776,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -102,14 +108,18 @@
             "start": 823,
             "end": 837,
             "value": "calendarName",
-            "raw": "\"calendarName\""
+            "raw": "\"calendarName\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 839,
             "end": 845,
             "value": "auto",
-            "raw": "\"auto\""
+            "raw": "\"auto\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -240,7 +250,9 @@
                   "start": 951,
                   "end": 960,
                   "value": "2000-05",
-                  "raw": "\"2000-05\""
+                  "raw": "\"2000-05\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

@@ -401,7 +401,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 47,
         "raw": "\"@scoped/typescache\"",
-        "value": "@scoped/typescache"
+        "value": "@scoped/typescache",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -441,7 +443,9 @@ __ESTREE_TEST__:PASS:
         "start": 78,
         "end": 99,
         "raw": "\"@mangled/typescache\"",
-        "value": "@mangled/typescache"
+        "value": "@mangled/typescache",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -481,7 +485,9 @@ __ESTREE_TEST__:PASS:
         "start": 134,
         "end": 160,
         "raw": "\"@scoped/nodemodulescache\"",
-        "value": "@scoped/nodemodulescache"
+        "value": "@scoped/nodemodulescache",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -521,7 +527,9 @@ __ESTREE_TEST__:PASS:
         "start": 197,
         "end": 224,
         "raw": "\"@mangled/nodemodulescache\"",
-        "value": "@mangled/nodemodulescache"
+        "value": "@mangled/nodemodulescache",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -561,7 +569,9 @@ __ESTREE_TEST__:PASS:
         "start": 255,
         "end": 277,
         "raw": "\"@scoped/attypescache\"",
-        "value": "@scoped/attypescache"
+        "value": "@scoped/attypescache",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -601,7 +611,9 @@ __ESTREE_TEST__:PASS:
         "start": 315,
         "end": 338,
         "raw": "\"@mangled/attypescache\"",
-        "value": "@mangled/attypescache"
+        "value": "@mangled/attypescache",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

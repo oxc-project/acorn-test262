@@ -61,7 +61,9 @@
           "start": 960,
           "end": 969,
           "value": "value 1",
-          "raw": "'value 1'"
+          "raw": "'value 1'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -128,7 +130,9 @@
                 "start": 1006,
                 "end": 1010,
                 "value": "p1",
-                "raw": "'p1'"
+                "raw": "'p1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -138,14 +142,18 @@
             "start": 1013,
             "end": 1022,
             "value": "value 1",
-            "raw": "'value 1'"
+            "raw": "'value 1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1026,
             "end": 1061,
             "value": "Return value from data descriptor",
-            "raw": "'Return value from data descriptor'"
+            "raw": "'Return value from data descriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +198,9 @@
             "start": 1091,
             "end": 1095,
             "value": "p2",
-            "raw": "'p2'"
+            "raw": "'p2'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -287,7 +297,9 @@
                 "start": 1155,
                 "end": 1159,
                 "value": "p2",
-                "raw": "'p2'"
+                "raw": "'p2'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -303,7 +315,9 @@
             "start": 1175,
             "end": 1216,
             "value": "Return undefined if getter is undefined",
-            "raw": "'Return undefined if getter is undefined'"
+            "raw": "'Return undefined if getter is undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +362,9 @@
             "start": 1246,
             "end": 1250,
             "value": "p3",
-            "raw": "'p3'"
+            "raw": "'p3'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -391,7 +407,9 @@
                           "start": 1285,
                           "end": 1290,
                           "value": "foo",
-                          "raw": "'foo'"
+                          "raw": "'foo'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -468,7 +486,9 @@
                 "start": 1335,
                 "end": 1339,
                 "value": "p3",
-                "raw": "'p3'"
+                "raw": "'p3'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -478,14 +498,18 @@
             "start": 1342,
             "end": 1347,
             "value": "foo",
-            "raw": "'foo'"
+            "raw": "'foo'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1351,
             "end": 1382,
             "value": "Return Call(getter, Receiver)",
-            "raw": "'Return Call(getter, Receiver)'"
+            "raw": "'Return Call(getter, Receiver)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -553,7 +577,9 @@
                       "start": 1417,
                       "end": 1419,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -629,7 +655,9 @@
                 "start": 1460,
                 "end": 1463,
                 "value": "p",
-                "raw": "'p'"
+                "raw": "'p'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -639,14 +667,18 @@
             "start": 1466,
             "end": 1468,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1472,
             "end": 1523,
             "value": "Return value from prototype without own property.",
-            "raw": "'Return value from prototype without own property.'"
+            "raw": "'Return value from prototype without own property.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -715,7 +747,9 @@
                 "start": 1564,
                 "end": 1567,
                 "value": "u",
-                "raw": "'u'"
+                "raw": "'u'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -731,7 +765,9 @@
             "start": 1583,
             "end": 1650,
             "value": "Return undefined without property on the object and its prototype",
-            "raw": "'Return undefined without property on the object and its prototype'"
+            "raw": "'Return undefined without property on the object and its prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

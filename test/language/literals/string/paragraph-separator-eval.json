@@ -47,7 +47,9 @@
                 "start": 529,
                 "end": 539,
                 "value": "' '",
-                "raw": "\"'\\u2029'\""
+                "raw": "\"'\\u2029'\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 542,
             "end": 550,
             "value": " ",
-            "raw": "\"\\u2029\""
+            "raw": "\"\\u2029\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

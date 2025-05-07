@@ -43,7 +43,9 @@
             "start": 503,
             "end": 535,
             "value": "o = {set foo(arg){return 1;}};",
-            "raw": "\"o = {set foo(arg){return 1;}};\""
+            "raw": "\"o = {set foo(arg){return 1;}};\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -99,7 +101,9 @@
                 "start": 585,
                 "end": 590,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -160,14 +164,18 @@
             "start": 628,
             "end": 632,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 634,
             "end": 651,
             "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "raw": "'desc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -225,14 +233,18 @@
             "start": 690,
             "end": 694,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 715,
             "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "raw": "'desc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

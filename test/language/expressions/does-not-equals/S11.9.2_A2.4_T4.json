@@ -39,7 +39,9 @@
                   "start": 326,
                   "end": 327,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -58,7 +60,9 @@
           "start": 339,
           "end": 344,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -86,7 +90,9 @@
                   "start": 373,
                   "end": 403,
                   "value": "#1: ((y = 1) != y) === false",
-                  "raw": "'#1: ((y = 1) != y) === false'"
+                  "raw": "'#1: ((y = 1) != y) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

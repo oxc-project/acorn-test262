@@ -23,7 +23,9 @@
             "start": 311,
             "end": 316,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 337,
             "end": 342,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +126,9 @@
                             "start": 405,
                             "end": 409,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -178,7 +184,9 @@
                             "start": 455,
                             "end": 459,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -288,7 +296,9 @@
             "start": 551,
             "end": 621,
             "value": "year should be checked after fetching but before resolving the month",
-            "raw": "\"year should be checked after fetching but before resolving the month\""
+            "raw": "\"year should be checked after fetching but before resolving the month\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,7 +330,9 @@
             "start": 641,
             "end": 670,
             "value": "year is fetched after month",
-            "raw": "\"year is fetched after month\""
+            "raw": "\"year is fetched after month\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -352,7 +364,9 @@
             "start": 694,
             "end": 727,
             "value": "year is fetched after monthCode",
-            "raw": "\"year is fetched after monthCode\""
+            "raw": "\"year is fetched after monthCode\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +475,9 @@
                         "start": 799,
                         "end": 803,
                         "value": 2000,
-                        "raw": "2000"
+                        "raw": "2000",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -476,7 +492,9 @@
             "start": 808,
             "end": 839,
             "value": "month should be resolved last",
-            "raw": "\"month should be resolved last\""
+            "raw": "\"month should be resolved last\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

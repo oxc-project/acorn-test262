@@ -121,7 +121,9 @@ __ESTREE_TEST__:PASS:
                       "start": 111,
                       "end": 112,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -351,7 +353,9 @@ __ESTREE_TEST__:PASS:
                 "start": 50,
                 "end": 57,
                 "raw": "'./lib'",
-                "value": "./lib"
+                "value": "./lib",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

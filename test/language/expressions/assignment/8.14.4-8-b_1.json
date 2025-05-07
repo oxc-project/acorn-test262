@@ -81,7 +81,9 @@
             "start": 313,
             "end": 318,
             "value": "bar",
-            "raw": "\"bar\""
+            "raw": "\"bar\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -106,7 +108,9 @@
                   "start": 328,
                   "end": 340,
                   "value": "unwritable",
-                  "raw": "\"unwritable\""
+                  "raw": "\"unwritable\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -180,7 +184,9 @@
           "start": 386,
           "end": 398,
           "value": "overridden",
-          "raw": "\"overridden\""
+          "raw": "\"overridden\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -241,7 +247,9 @@
                 "start": 436,
                 "end": 441,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -251,14 +259,18 @@
             "start": 444,
             "end": 449,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 476,
             "value": "o.hasOwnProperty(\"bar\")",
-            "raw": "'o.hasOwnProperty(\"bar\")'"
+            "raw": "'o.hasOwnProperty(\"bar\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,14 +328,18 @@
             "start": 503,
             "end": 515,
             "value": "unwritable",
-            "raw": "\"unwritable\""
+            "raw": "\"unwritable\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 524,
             "value": "o.bar",
-            "raw": "'o.bar'"
+            "raw": "'o.bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

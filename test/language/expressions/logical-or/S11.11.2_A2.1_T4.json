@@ -24,7 +24,9 @@
               "start": 293,
               "end": 297,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "operator": "||",
             "right": {
@@ -41,7 +43,9 @@
           "start": 308,
           "end": 312,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -69,7 +73,9 @@
                   "start": 341,
                   "end": 367,
                   "value": "#1: (true || x) === true",
-                  "raw": "'#1: (true || x) === true'"
+                  "raw": "'#1: (true || x) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

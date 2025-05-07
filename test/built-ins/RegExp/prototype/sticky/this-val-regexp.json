@@ -44,7 +44,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -60,7 +61,9 @@
             "start": 472,
             "end": 477,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -107,7 +110,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "i"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -123,7 +127,9 @@
             "start": 510,
             "end": 515,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -170,7 +176,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "g"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -186,7 +193,9 @@
             "start": 548,
             "end": 553,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -233,7 +242,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "gi"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -249,7 +259,9 @@
             "start": 587,
             "end": 592,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +308,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "y"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -312,7 +325,9 @@
             "start": 626,
             "end": 630,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +374,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "iy"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -375,7 +391,9 @@
             "start": 664,
             "end": 668,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -422,7 +440,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "gy"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -438,7 +457,9 @@
             "start": 702,
             "end": 706,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -485,7 +506,8 @@
               "regex": {
                 "pattern": ".",
                 "flags": "giy"
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -501,7 +523,9 @@
             "start": 741,
             "end": 745,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

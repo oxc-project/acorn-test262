@@ -107,14 +107,18 @@
               "start": 433,
               "end": 436,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 438,
               "end": 448,
               "value": "await 1;",
-              "raw": "\"await 1;\""
+              "raw": "\"await 1;\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -173,14 +177,18 @@
             "start": 479,
             "end": 480,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 512,
             "value": "length with 1 argument, call",
-            "raw": "\"length with 1 argument, call\""
+            "raw": "\"length with 1 argument, call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,14 +225,18 @@
               "start": 535,
               "end": 540,
               "value": "a,b",
-              "raw": "\"a,b\""
+              "raw": "\"a,b\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 542,
               "end": 552,
               "value": "await 1;",
-              "raw": "\"await 1;\""
+              "raw": "\"await 1;\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -283,14 +295,18 @@
             "start": 583,
             "end": 584,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 624,
             "value": "length with 2 arguments in one, call",
-            "raw": "\"length with 2 arguments in one, call\""
+            "raw": "\"length with 2 arguments in one, call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,21 +343,27 @@
               "start": 647,
               "end": 650,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 652,
               "end": 655,
               "value": "b",
-              "raw": "\"b\""
+              "raw": "\"b\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 657,
               "end": 667,
               "value": "await 1;",
-              "raw": "\"await 1;\""
+              "raw": "\"await 1;\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -400,14 +422,18 @@
             "start": 698,
             "end": 699,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 701,
             "end": 732,
             "value": "length with 2 arguments, call",
-            "raw": "\"length with 2 arguments, call\""
+            "raw": "\"length with 2 arguments, call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,14 +470,18 @@
               "start": 759,
               "end": 762,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 764,
               "end": 774,
               "value": "await 1;",
-              "raw": "\"await 1;\""
+              "raw": "\"await 1;\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -509,14 +539,18 @@
             "start": 805,
             "end": 806,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 843,
             "value": "length with 1 argument, construct",
-            "raw": "\"length with 1 argument, construct\""
+            "raw": "\"length with 1 argument, construct\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -553,14 +587,18 @@
               "start": 870,
               "end": 875,
               "value": "a,b",
-              "raw": "\"a,b\""
+              "raw": "\"a,b\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 877,
               "end": 887,
               "value": "await 1;",
-              "raw": "\"await 1;\""
+              "raw": "\"await 1;\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -618,14 +656,18 @@
             "start": 918,
             "end": 919,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 921,
             "end": 964,
             "value": "length with 2 arguments in one, construct",
-            "raw": "\"length with 2 arguments in one, construct\""
+            "raw": "\"length with 2 arguments in one, construct\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -662,21 +704,27 @@
               "start": 991,
               "end": 994,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 996,
               "end": 999,
               "value": "b",
-              "raw": "\"b\""
+              "raw": "\"b\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1001,
               "end": 1011,
               "value": "await 1;",
-              "raw": "\"await 1;\""
+              "raw": "\"await 1;\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -734,14 +782,18 @@
             "start": 1042,
             "end": 1043,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1045,
             "end": 1081,
             "value": "length with 2 arguments, construct",
-            "raw": "\"length with 2 arguments, construct\""
+            "raw": "\"length with 2 arguments, construct\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

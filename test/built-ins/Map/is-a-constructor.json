@@ -56,14 +56,18 @@
             "start": 749,
             "end": 753,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 792,
             "value": "isConstructor(Map) must return true",
-            "raw": "'isConstructor(Map) must return true'"
+            "raw": "'isConstructor(Map) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

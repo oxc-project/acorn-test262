@@ -43,7 +43,9 @@
           "start": 308,
           "end": 318,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +72,9 @@
                 "start": 344,
                 "end": 400,
                 "value": "#1: typeof Function.prototype === \"function\". Actual: ",
-                "raw": "'#1: typeof Function.prototype === \"function\". Actual: '"
+                "raw": "'#1: typeof Function.prototype === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -139,7 +143,9 @@
               "start": 454,
               "end": 465,
               "value": "prototype",
-              "raw": "'prototype'"
+              "raw": "'prototype'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -151,7 +157,9 @@
           "start": 472,
           "end": 482,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                 "start": 508,
                 "end": 567,
                 "value": "#2: typeof Function[\"prototype\"] === \"function\". Actual: ",
-                "raw": "'#2: typeof Function[\"prototype\"] === \"function\". Actual: '"
+                "raw": "'#2: typeof Function[\"prototype\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -206,7 +216,9 @@
                       "start": 587,
                       "end": 598,
                       "value": "prototype",
-                      "raw": "\"prototype\""
+                      "raw": "\"prototype\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -272,7 +284,9 @@
           "start": 648,
           "end": 658,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -299,7 +313,9 @@
                 "start": 684,
                 "end": 749,
                 "value": "#3: typeof Function.prototype.toString === \"function\". Actual: ",
-                "raw": "'#3: typeof Function.prototype.toString === \"function\". Actual: '"
+                "raw": "'#3: typeof Function.prototype.toString === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -394,7 +410,9 @@
               "start": 822,
               "end": 832,
               "value": "toString",
-              "raw": "'toString'"
+              "raw": "'toString'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -406,7 +424,9 @@
           "start": 839,
           "end": 849,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -433,7 +453,9 @@
                 "start": 875,
                 "end": 943,
                 "value": "#4: typeof Function.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#4: typeof Function.prototype[\"toString\"] === \"function\". Actual: '"
+                "raw": "'#4: typeof Function.prototype[\"toString\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -474,7 +496,9 @@
                       "start": 973,
                       "end": 983,
                       "value": "toString",
-                      "raw": "\"toString\""
+                      "raw": "\"toString\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -540,7 +564,9 @@
           "start": 1030,
           "end": 1038,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -567,7 +593,9 @@
                 "start": 1064,
                 "end": 1125,
                 "value": "#5: typeof Function.prototype.length === \"number\". Actual: ",
-                "raw": "'#5: typeof Function.prototype.length === \"number\". Actual: '"
+                "raw": "'#5: typeof Function.prototype.length === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -662,7 +690,9 @@
               "start": 1196,
               "end": 1204,
               "value": "length",
-              "raw": "'length'"
+              "raw": "'length'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -674,7 +704,9 @@
           "start": 1210,
           "end": 1218,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -701,7 +733,9 @@
                 "start": 1244,
                 "end": 1308,
                 "value": "#6: typeof Function.prototype[\"length\"] === \"number\". Actual: ",
-                "raw": "'#6: typeof Function.prototype[\"length\"] === \"number\". Actual: '"
+                "raw": "'#6: typeof Function.prototype[\"length\"] === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -742,7 +776,9 @@
                       "start": 1338,
                       "end": 1346,
                       "value": "length",
-                      "raw": "\"length\""
+                      "raw": "\"length\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -808,7 +844,9 @@
           "start": 1395,
           "end": 1405,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -835,7 +873,9 @@
                 "start": 1431,
                 "end": 1495,
                 "value": "#7: typeof Function.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#7: typeof Function.prototype.valueOf === \"function\". Actual: '"
+                "raw": "'#7: typeof Function.prototype.valueOf === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -930,7 +970,9 @@
               "start": 1567,
               "end": 1576,
               "value": "valueOf",
-              "raw": "'valueOf'"
+              "raw": "'valueOf'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -942,7 +984,9 @@
           "start": 1583,
           "end": 1593,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -969,7 +1013,9 @@
                 "start": 1619,
                 "end": 1686,
                 "value": "#8: typeof Function.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof Function.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "raw": "'#8: typeof Function.prototype[\"valueOf\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1010,7 +1056,9 @@
                       "start": 1716,
                       "end": 1725,
                       "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "raw": "\"valueOf\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

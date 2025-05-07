@@ -48,6 +48,7 @@
                 "end": 308,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -76,7 +77,9 @@
             "start": 326,
             "end": 358,
             "value": "2016-12-31T23:59:60+00:00[UTC]",
-            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -219,7 +222,9 @@
                   "start": 441,
                   "end": 442,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -230,14 +235,18 @@
             "start": 445,
             "end": 453,
             "value": "+00:00",
-            "raw": "\"+00:00\""
+            "raw": "\"+00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 503,
             "value": "leap second is a valid ISO string for TimeZone",
-            "raw": "\"leap second is a valid ISO string for TimeZone\""
+            "raw": "\"leap second is a valid ISO string for TimeZone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +272,9 @@
           "start": 518,
           "end": 566,
           "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
-          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\""
+          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -371,7 +382,9 @@
             "start": 633,
             "end": 674,
             "value": "leap second in time zone name not valid",
-            "raw": "\"leap second in time zone name not valid\""
+            "raw": "\"leap second in time zone name not valid\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

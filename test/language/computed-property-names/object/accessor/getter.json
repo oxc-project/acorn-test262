@@ -67,7 +67,9 @@
                   "start": 254,
                   "end": 257,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -92,7 +94,9 @@
                           "start": 274,
                           "end": 277,
                           "value": "A",
-                          "raw": "\"A\""
+                          "raw": "\"A\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -112,7 +116,9 @@
                   "start": 291,
                   "end": 292,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -137,7 +143,9 @@
                           "start": 309,
                           "end": 310,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -246,14 +254,18 @@
             "start": 374,
             "end": 377,
             "value": "A",
-            "raw": "\"A\""
+            "raw": "\"A\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 379,
             "end": 408,
             "value": "The value of `A.a` is `'A'`",
-            "raw": "\"The value of `A.a` is `'A'`\""
+            "raw": "\"The value of `A.a` is `'A'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +314,9 @@
               "start": 430,
               "end": 431,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -312,14 +326,18 @@
             "start": 434,
             "end": 435,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 465,
             "value": "The value of `A[1]` is `1`",
-            "raw": "\"The value of `A[1]` is `1`\""
+            "raw": "\"The value of `A[1]` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,7 +401,9 @@
             "start": 494,
             "end": 529,
             "value": "The value of `A[s]` is `Symbol()`",
-            "raw": "\"The value of `A[s]` is `Symbol()`\""
+            "raw": "\"The value of `A[s]` is `Symbol()`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

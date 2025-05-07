@@ -75,7 +75,9 @@
             "start": 353,
             "end": 363,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -182,7 +184,9 @@
             "start": 429,
             "end": 443,
             "value": "symbol value",
-            "raw": "'symbol value'"
+            "raw": "'symbol value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +297,9 @@
                             "start": 509,
                             "end": 513,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -310,7 +316,9 @@
             "start": 520,
             "end": 540,
             "value": "object create null",
-            "raw": "'object create null'"
+            "raw": "'object create null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

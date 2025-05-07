@@ -39,7 +39,9 @@
                     "start": 575,
                     "end": 584,
                     "value": "decimal",
-                    "raw": "\"decimal\""
+                    "raw": "\"decimal\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -53,14 +55,18 @@
                     "start": 590,
                     "end": 596,
                     "value": "unit",
-                    "raw": "\"unit\""
+                    "raw": "\"unit\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 598,
                     "end": 604,
                     "value": "unit",
-                    "raw": "\"unit\""
+                    "raw": "\"unit\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -110,7 +116,9 @@
                                   "start": 632,
                                   "end": 638,
                                   "value": "unit",
-                                  "raw": "\"unit\""
+                                  "raw": "\"unit\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -125,7 +133,9 @@
                     "start": 645,
                     "end": 651,
                     "value": "unit",
-                    "raw": "\"unit\""
+                    "raw": "\"unit\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -246,7 +256,9 @@
                             "start": 752,
                             "end": 759,
                             "value": "style",
-                            "raw": "\"style\""
+                            "raw": "\"style\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "value": {
                             "type": "Identifier",
@@ -268,14 +280,18 @@
                             "start": 774,
                             "end": 780,
                             "value": "unit",
-                            "raw": "\"unit\""
+                            "raw": "\"unit\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "value": {
                             "type": "Literal",
                             "start": 782,
                             "end": 791,
                             "value": "gigabit",
-                            "raw": "\"gigabit\""
+                            "raw": "\"gigabit\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }

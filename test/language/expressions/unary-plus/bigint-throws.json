@@ -67,6 +67,7 @@
                       "end": 546,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -79,7 +80,9 @@
             "start": 551,
             "end": 573,
             "value": "+0n throws TypeError",
-            "raw": "'+0n throws TypeError'"
+            "raw": "'+0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -149,6 +152,7 @@
                       "end": 620,
                       "value": null,
                       "raw": "1n",
+                      "regex": null,
                       "bigint": "1"
                     }
                   }
@@ -161,7 +165,9 @@
             "start": 625,
             "end": 647,
             "value": "+1n throws TypeError",
-            "raw": "'+1n throws TypeError'"
+            "raw": "'+1n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,6 +243,7 @@
                         "end": 695,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     }
@@ -250,7 +257,9 @@
             "start": 700,
             "end": 723,
             "value": "+-1n throws TypeError",
-            "raw": "'+-1n throws TypeError'"
+            "raw": "'+-1n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,6 +329,7 @@
                       "end": 785,
                       "value": null,
                       "raw": "1000000000000000n",
+                      "regex": null,
                       "bigint": "1000000000000000"
                     }
                   }
@@ -332,7 +342,9 @@
             "start": 790,
             "end": 827,
             "value": "+1000000000000000n throws TypeError",
-            "raw": "'+1000000000000000n throws TypeError'"
+            "raw": "'+1000000000000000n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

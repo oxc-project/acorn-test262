@@ -23,7 +23,9 @@
             "start": 442,
             "end": 451,
             "value": "gregory",
-            "raw": "\"gregory\""
+            "raw": "\"gregory\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,21 +75,27 @@
                 "start": 489,
                 "end": 493,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 495,
                 "end": 496,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 499,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -153,7 +161,9 @@
             "start": 547,
             "end": 551,
             "value": 2024,
-            "raw": "2024"
+            "raw": "2024",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +189,9 @@
           "start": 566,
           "end": 574,
           "value": "hebrew",
-          "raw": "\"hebrew\""
+          "raw": "\"hebrew\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -227,21 +239,27 @@
                 "start": 618,
                 "end": 622,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 625,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 627,
                 "end": 628,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",

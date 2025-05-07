@@ -110,7 +110,9 @@
                         "start": 690,
                         "end": 692,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -124,7 +126,9 @@
             "start": 698,
             "end": 730,
             "value": "Array.prototype.shift.call('')",
-            "raw": "\"Array.prototype.shift.call('')\""
+            "raw": "\"Array.prototype.shift.call('')\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,7 +241,9 @@
                         "start": 796,
                         "end": 801,
                         "value": "abc",
-                        "raw": "'abc'"
+                        "raw": "'abc'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -251,7 +257,9 @@
             "start": 807,
             "end": 842,
             "value": "Array.prototype.shift.call('abc')",
-            "raw": "\"Array.prototype.shift.call('abc')\""
+            "raw": "\"Array.prototype.shift.call('abc')\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -387,7 +395,9 @@
             "start": 927,
             "end": 970,
             "value": "Array.prototype.shift.call(function() {})",
-            "raw": "\"Array.prototype.shift.call(function() {})\""
+            "raw": "\"Array.prototype.shift.call(function() {})\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +540,9 @@
                             "start": 1062,
                             "end": 1070,
                             "value": "length",
-                            "raw": "'length'"
+                            "raw": "'length'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -555,7 +567,9 @@
                                   "start": 1083,
                                   "end": 1088,
                                   "value": false,
-                                  "raw": "false"
+                                  "raw": "false",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -576,7 +590,9 @@
             "start": 1096,
             "end": 1180,
             "value": "Array.prototype.shift.call(Object.defineProperty({}, 'length', {writable: false}))",
-            "raw": "\"Array.prototype.shift.call(Object.defineProperty({}, 'length', {writable: false}))\""
+            "raw": "\"Array.prototype.shift.call(Object.defineProperty({}, 'length', {writable: false}))\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

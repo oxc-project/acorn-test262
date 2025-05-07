@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 23,
         "raw": "\"jquery\"",
-        "value": "jquery"
+        "value": "jquery",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -32,7 +34,9 @@ __ESTREE_TEST__:PASS:
         "start": 64,
         "end": 68,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -58,7 +62,9 @@ __ESTREE_TEST__:PASS:
         "start": 64,
         "end": 72,
         "raw": "\"jquery\"",
-        "value": "jquery"
+        "value": "jquery",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -112,7 +118,9 @@ __ESTREE_TEST__:PASS:
         "start": 95,
         "end": 99,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -154,7 +162,9 @@ __ESTREE_TEST__:PASS:
           "start": 123,
           "end": 131,
           "raw": "\"jquery\"",
-          "value": "jquery"
+          "value": "jquery",
+          "regex": null,
+          "bigint": null
         }
       }
     },

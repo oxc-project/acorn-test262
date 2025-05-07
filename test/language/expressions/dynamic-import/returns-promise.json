@@ -86,7 +86,9 @@
                   "start": 1014,
                   "end": 1041,
                   "value": "This should not be called",
-                  "raw": "\"This should not be called\""
+                  "raw": "\"This should not be called\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -118,7 +120,9 @@
               "start": 1064,
               "end": 1100,
               "value": "./dynamic-import-module_FIXTURE.js",
-              "raw": "'./dynamic-import-module_FIXTURE.js'"
+              "raw": "'./dynamic-import-module_FIXTURE.js'",
+              "regex": null,
+              "bigint": null
             },
             "options": null
           }
@@ -184,7 +188,9 @@
             "start": 1153,
             "end": 1179,
             "value": "constructor is %Promise%",
-            "raw": "'constructor is %Promise%'"
+            "raw": "'constructor is %Promise%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,7 +281,9 @@
             "start": 1252,
             "end": 1285,
             "value": "prototype is %PromisePrototype%",
-            "raw": "'prototype is %PromisePrototype%'"
+            "raw": "'prototype is %PromisePrototype%'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -365,7 +373,9 @@
             "start": 1345,
             "end": 1383,
             "value": "preserves the original `then` method",
-            "raw": "'preserves the original `then` method'"
+            "raw": "'preserves the original `then` method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -455,7 +465,9 @@
             "start": 1445,
             "end": 1484,
             "value": "preserves the original `catch` method",
-            "raw": "'preserves the original `catch` method'"
+            "raw": "'preserves the original `catch` method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -545,7 +557,9 @@
             "start": 1550,
             "end": 1591,
             "value": "preserves the original `finally` method",
-            "raw": "'preserves the original `finally` method'"
+            "raw": "'preserves the original `finally` method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -640,7 +654,9 @@
                 "start": 1657,
                 "end": 1663,
                 "value": "then",
-                "raw": "'then'"
+                "raw": "'then'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -650,14 +666,18 @@
             "start": 1666,
             "end": 1671,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1677,
             "end": 1720,
             "value": "returned promise has no own property then",
-            "raw": "'returned promise has no own property then'"
+            "raw": "'returned promise has no own property then'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -752,7 +772,9 @@
                 "start": 1787,
                 "end": 1794,
                 "value": "catch",
-                "raw": "'catch'"
+                "raw": "'catch'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -762,14 +784,18 @@
             "start": 1797,
             "end": 1802,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1808,
             "end": 1852,
             "value": "returned promise has no own property catch",
-            "raw": "'returned promise has no own property catch'"
+            "raw": "'returned promise has no own property catch'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -864,7 +890,9 @@
                 "start": 1919,
                 "end": 1928,
                 "value": "finally",
-                "raw": "'finally'"
+                "raw": "'finally'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -874,14 +902,18 @@
             "start": 1931,
             "end": 1936,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1942,
             "end": 1988,
             "value": "returned promise has no own property finally",
-            "raw": "'returned promise has no own property finally'"
+            "raw": "'returned promise has no own property finally'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

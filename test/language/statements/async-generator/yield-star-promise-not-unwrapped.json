@@ -47,7 +47,9 @@
                 "start": 414,
                 "end": 431,
                 "value": "unwrapped value",
-                "raw": "\"unwrapped value\""
+                "raw": "\"unwrapped value\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -185,7 +187,9 @@
                                 "start": 540,
                                 "end": 545,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -265,7 +269,9 @@
                               "start": 630,
                               "end": 662,
                               "value": ".return should not be accessed",
-                              "raw": "\".return should not be accessed\""
+                              "raw": "\".return should not be accessed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -322,7 +328,9 @@
                               "start": 713,
                               "end": 744,
                               "value": ".throw should not be accessed",
-                              "raw": "\".throw should not be accessed\""
+                              "raw": "\".throw should not be accessed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -519,7 +527,9 @@
                             "start": 874,
                             "end": 951,
                             "value": "yield* should not unwrap promises from manually-implemented async iterators",
-                            "raw": "\"yield* should not unwrap promises from manually-implemented async iterators\""
+                            "raw": "\"yield* should not unwrap promises from manually-implemented async iterators\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

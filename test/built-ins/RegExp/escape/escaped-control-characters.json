@@ -23,7 +23,9 @@
             "start": 839,
             "end": 851,
             "value": "\t\n\u000b\f\r",
-            "raw": "'\\t\\n\\v\\f\\r'"
+            "raw": "'\\t\\n\\v\\f\\r'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 887,
             "end": 904,
             "value": "\\t\\n\\v\\f\\r",
-            "raw": "'\\\\t\\\\n\\\\v\\\\f\\\\r'"
+            "raw": "'\\\\t\\\\n\\\\v\\\\f\\\\r'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +131,9 @@
             "start": 985,
             "end": 1027,
             "value": "Control characters are correctly escaped",
-            "raw": "'Control characters are correctly escaped'"
+            "raw": "'Control characters are correctly escaped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

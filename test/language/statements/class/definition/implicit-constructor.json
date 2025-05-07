@@ -137,7 +137,9 @@
             "start": 305,
             "end": 355,
             "value": "`Object.getPrototypeOf(c)` returns `C.prototype`",
-            "raw": "\"`Object.getPrototypeOf(c)` returns `C.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(c)` returns `C.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

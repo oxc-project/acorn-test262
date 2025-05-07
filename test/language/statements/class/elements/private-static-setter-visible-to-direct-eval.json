@@ -139,7 +139,9 @@
                           "start": 1840,
                           "end": 1861,
                           "value": "this.#m = \"Test262\"",
-                          "raw": "'this.#m = \"Test262\"'"
+                          "raw": "'this.#m = \"Test262\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -222,7 +224,9 @@
                           "start": 1929,
                           "end": 1953,
                           "value": "should never be called",
-                          "raw": "'should never be called'"
+                          "raw": "'should never be called'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -317,7 +321,9 @@
             "start": 2003,
             "end": 2012,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +436,9 @@
             "start": 2082,
             "end": 2125,
             "value": "invalid access to a static private getter",
-            "raw": "'invalid access to a static private getter'"
+            "raw": "'invalid access to a static private getter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -55,7 +55,9 @@
                         "start": 431,
                         "end": 432,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -72,7 +74,9 @@
                     "start": 439,
                     "end": 447,
                     "value": "var x;",
-                    "raw": "'var x;'"
+                    "raw": "'var x;'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

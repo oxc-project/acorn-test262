@@ -41,7 +41,9 @@
               "start": 266,
               "end": 267,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -186,14 +188,18 @@
             "start": 358,
             "end": 359,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 375,
             "value": "f.reduce(cb)",
-            "raw": "'f.reduce(cb)'"
+            "raw": "'f.reduce(cb)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

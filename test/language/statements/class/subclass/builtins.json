@@ -70,7 +70,9 @@
                           "start": 283,
                           "end": 285,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -99,7 +101,9 @@
                           "start": 297,
                           "end": 298,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -109,7 +113,9 @@
                         "start": 302,
                         "end": 305,
                         "value": 255,
-                        "raw": "255"
+                        "raw": "255",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -136,7 +142,9 @@
                           "start": 316,
                           "end": 317,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -146,7 +154,9 @@
                         "start": 321,
                         "end": 326,
                         "value": 4090,
-                        "raw": "0xFFA"
+                        "raw": "0xFFA",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -240,14 +250,18 @@
             "start": 400,
             "end": 402,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 439,
             "value": "The value of `eua.length` is `10`",
-            "raw": "\"The value of `eua.length` is `10`\""
+            "raw": "\"The value of `eua.length` is `10`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -305,14 +319,18 @@
             "start": 475,
             "end": 477,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 518,
             "value": "The value of `eua.byteLength` is `10`",
-            "raw": "\"The value of `eua.byteLength` is `10`\""
+            "raw": "\"The value of `eua.byteLength` is `10`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +379,9 @@
               "start": 542,
               "end": 543,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -371,14 +391,18 @@
             "start": 546,
             "end": 550,
             "value": 255,
-            "raw": "0xFF"
+            "raw": "0xFF",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 585,
             "value": "The value of `eua[0]` is `0xFF`",
-            "raw": "\"The value of `eua[0]` is `0xFF`\""
+            "raw": "\"The value of `eua[0]` is `0xFF`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +451,9 @@
               "start": 609,
               "end": 610,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -437,14 +463,18 @@
             "start": 613,
             "end": 617,
             "value": 250,
-            "raw": "0xFA"
+            "raw": "0xFA",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 619,
             "end": 652,
             "value": "The value of `eua[1]` is `0xFA`",
-            "raw": "\"The value of `eua[1]` is `0xFA`\""
+            "raw": "\"The value of `eua[1]` is `0xFA`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -535,7 +565,9 @@
             "start": 737,
             "end": 806,
             "value": "`Object.getPrototypeOf(eua)` returns `ExtendedUint8Array.prototype`",
-            "raw": "\"`Object.getPrototypeOf(eua)` returns `ExtendedUint8Array.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(eua)` returns `ExtendedUint8Array.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -633,14 +665,18 @@
             "start": 869,
             "end": 890,
             "value": "[object Uint8Array]",
-            "raw": "\"[object Uint8Array]\""
+            "raw": "\"[object Uint8Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 967,
             "value": "`Object.prototype.toString.call(eua)` returns `\"[object Uint8Array]\"`",
-            "raw": "\"`Object.prototype.toString.call(eua)` returns `\\\"[object Uint8Array]\\\"`\""
+            "raw": "\"`Object.prototype.toString.call(eua)` returns `\\\"[object Uint8Array]\\\"`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

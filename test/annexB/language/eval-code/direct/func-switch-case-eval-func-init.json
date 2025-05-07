@@ -93,7 +93,9 @@
                               "start": 945,
                               "end": 1000,
                               "value": "init = f;    f = 123;    changed = f;switch (1) {",
-                              "raw": "'init = f;\\\n    f = 123;\\\n    changed = f;switch (1) {'"
+                              "raw": "'init = f;\\\n    f = 123;\\\n    changed = f;switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -101,7 +103,9 @@
                               "start": 1007,
                               "end": 1018,
                               "value": "  case 1:",
-                              "raw": "'  case 1:'"
+                              "raw": "'  case 1:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -110,7 +114,9 @@
                             "start": 1025,
                             "end": 1048,
                             "value": "    function f() {  }",
-                            "raw": "'    function f() {  }'"
+                            "raw": "'    function f() {  }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -119,7 +125,9 @@
                           "start": 1055,
                           "end": 1064,
                           "value": "}    ",
-                          "raw": "'}\\\n    '"
+                          "raw": "'}\\\n    '",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -179,7 +187,9 @@
             "start": 1111,
             "end": 1150,
             "value": "binding is initialized to `undefined`",
-            "raw": "'binding is initialized to `undefined`'"
+            "raw": "'binding is initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -224,14 +234,18 @@
             "start": 1179,
             "end": 1182,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1184,
             "end": 1204,
             "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "raw": "'binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,7 +318,9 @@
             "start": 1258,
             "end": 1289,
             "value": "global binding is not created",
-            "raw": "'global binding is not created'"
+            "raw": "'global binding is not created'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

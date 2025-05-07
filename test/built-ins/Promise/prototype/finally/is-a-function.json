@@ -80,14 +80,18 @@
             "start": 362,
             "end": 366,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 432,
             "value": "Expected Promise.prototype.finally to be instanceof Function",
-            "raw": "'Expected Promise.prototype.finally to be instanceof Function'"
+            "raw": "'Expected Promise.prototype.finally to be instanceof Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,14 +169,18 @@
             "start": 493,
             "end": 503,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 560,
             "value": "Expected Promise.prototype.finally to be a function",
-            "raw": "'Expected Promise.prototype.finally to be a function'"
+            "raw": "'Expected Promise.prototype.finally to be a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

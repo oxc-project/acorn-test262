@@ -60,7 +60,9 @@
                 "start": 297,
                 "end": 352,
                 "value": "1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]",
-                "raw": "\"1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]\""
+                "raw": "\"1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -121,7 +123,9 @@
             "start": 399,
             "end": 411,
             "value": 160579536123,
-            "raw": "160579536123"
+            "raw": "160579536123",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

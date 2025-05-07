@@ -47,7 +47,9 @@
                 "start": 341,
                 "end": 345,
                 "value": "#!",
-                "raw": "'#!'"
+                "raw": "'#!'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

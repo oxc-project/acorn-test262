@@ -50,7 +50,9 @@
         "start": 954,
         "end": 1001,
         "value": "./instn-iee-err-dflt-thru-star-int_FIXTURE.js",
-        "raw": "'./instn-iee-err-dflt-thru-star-int_FIXTURE.js'"
+        "raw": "'./instn-iee-err-dflt-thru-star-int_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

@@ -20,7 +20,9 @@
             "start": 1919,
             "end": 1962,
             "value": "./module-import-rejection-body_FIXTURE.js",
-            "raw": "'./module-import-rejection-body_FIXTURE.js'"
+            "raw": "'./module-import-rejection-body_FIXTURE.js'",
+            "regex": null,
+            "bigint": null
           },
           "options": null
         }
@@ -46,7 +48,9 @@
             "start": 1989,
             "end": 2017,
             "value": "this should be unreachable",
-            "raw": "'this should be unreachable'"
+            "raw": "'this should be unreachable'",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

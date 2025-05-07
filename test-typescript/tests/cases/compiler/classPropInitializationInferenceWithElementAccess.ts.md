@@ -109,7 +109,9 @@ __ESTREE_TEST__:PASS:
                 "start": 65,
                 "end": 66,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "override": false,
@@ -174,7 +176,9 @@ __ESTREE_TEST__:PASS:
                             "start": 114,
                             "end": 117,
                             "raw": "'x'",
-                            "value": "x"
+                            "value": "x",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -221,7 +225,9 @@ __ESTREE_TEST__:PASS:
                             "start": 142,
                             "end": 145,
                             "raw": "'y'",
-                            "value": "y"
+                            "value": "y",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -287,7 +293,9 @@ __ESTREE_TEST__:PASS:
                             "start": 172,
                             "end": 175,
                             "raw": "'z'",
-                            "value": "z"
+                            "value": "z",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -356,7 +364,9 @@ __ESTREE_TEST__:PASS:
                             "start": 204,
                             "end": 205,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {

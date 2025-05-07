@@ -47,7 +47,9 @@
                 "start": 577,
                 "end": 578,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -100,7 +102,9 @@
                 "start": 606,
                 "end": 607,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -153,7 +157,9 @@
                 "start": 634,
                 "end": 635,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -206,7 +212,9 @@
                 "start": 663,
                 "end": 664,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -273,7 +281,9 @@
             "start": 713,
             "end": 714,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -299,7 +309,9 @@
             "start": 732,
             "end": 733,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -344,7 +356,9 @@
             "start": 767,
             "end": 776,
             "value": "resolve",
-            "raw": "'resolve'"
+            "raw": "'resolve'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -369,7 +383,9 @@
                   "start": 796,
                   "end": 800,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -420,7 +436,9 @@
                             "start": 828,
                             "end": 829,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -462,7 +480,9 @@
                                     "start": 874,
                                     "end": 875,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               },
@@ -627,14 +647,18 @@
             "start": 1004,
             "end": 1005,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1007,
             "end": 1056,
             "value": "Got `resolve` only once for each iterated value",
-            "raw": "'Got `resolve` only once for each iterated value'"
+            "raw": "'Got `resolve` only once for each iterated value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -679,14 +703,18 @@
             "start": 1091,
             "end": 1092,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1094,
             "end": 1142,
             "value": "`resolve` invoked once for each iterated value",
-            "raw": "'`resolve` invoked once for each iterated value'"
+            "raw": "'`resolve` invoked once for each iterated value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -131,7 +131,9 @@
             "start": 375,
             "end": 381,
             "value": "desc",
-            "raw": "'desc'"
+            "raw": "'desc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

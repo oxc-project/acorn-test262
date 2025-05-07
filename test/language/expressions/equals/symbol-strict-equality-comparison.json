@@ -34,7 +34,9 @@
                 "start": 255,
                 "end": 259,
                 "value": "66",
-                "raw": "'66'"
+                "raw": "'66'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 280,
                 "end": 284,
                 "value": "66",
-                "raw": "'66'"
+                "raw": "'66'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,14 +138,18 @@
             "start": 320,
             "end": 324,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 326,
             "end": 367,
             "value": "The result of `symA === symA` is `true`",
-            "raw": "\"The result of `symA === symA` is `true`\""
+            "raw": "\"The result of `symA === symA` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,14 +226,18 @@
             "start": 412,
             "end": 416,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 469,
             "value": "The result of `symA === symA.valueOf()` is `true`",
-            "raw": "\"The result of `symA === symA.valueOf()` is `true`\""
+            "raw": "\"The result of `symA === symA.valueOf()` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,14 +314,18 @@
             "start": 514,
             "end": 518,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 520,
             "end": 571,
             "value": "The result of `symA.valueOf() === symA` is `true`",
-            "raw": "\"The result of `symA.valueOf() === symA` is `true`\""
+            "raw": "\"The result of `symA.valueOf() === symA` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -366,14 +382,18 @@
             "start": 607,
             "end": 611,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 654,
             "value": "The result of `symB === symB` is `true`",
-            "raw": "\"The result of `symB === symB` is `true`\""
+            "raw": "\"The result of `symB === symB` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,14 +470,18 @@
             "start": 699,
             "end": 703,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 705,
             "end": 756,
             "value": "The result of `symB === symB.valueOf()` is `true`",
-            "raw": "\"The result of `symB === symB.valueOf()` is `true`\""
+            "raw": "\"The result of `symB === symB.valueOf()` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,14 +558,18 @@
             "start": 801,
             "end": 805,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 807,
             "end": 858,
             "value": "The result of `symB.valueOf() === symB` is `true`",
-            "raw": "\"The result of `symB.valueOf() === symB` is `true`\""
+            "raw": "\"The result of `symB.valueOf() === symB` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -598,14 +626,18 @@
             "start": 894,
             "end": 899,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 901,
             "end": 943,
             "value": "The result of `symA === symB` is `false`",
-            "raw": "\"The result of `symA === symB` is `false`\""
+            "raw": "\"The result of `symA === symB` is `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

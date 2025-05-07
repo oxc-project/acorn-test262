@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 81,
         "end": 102,
         "raw": "\"non-existent-module\"",
-        "value": "non-existent-module"
+        "value": "non-existent-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

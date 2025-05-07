@@ -23,7 +23,9 @@
             "start": 541,
             "end": 542,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -277,7 +279,9 @@
                               "start": 771,
                               "end": 772,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -583,14 +587,18 @@
             "start": 1010,
             "end": 1011,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1013,
             "end": 1054,
             "value": "The constructor is invoked exactly once",
-            "raw": "'The constructor is invoked exactly once'"
+            "raw": "'The constructor is invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -672,14 +680,18 @@
             "start": 1137,
             "end": 1138,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1140,
             "end": 1191,
             "value": "The constructor is invoked with a single argument",
-            "raw": "'The constructor is invoked with a single argument'"
+            "raw": "'The constructor is invoked with a single argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -731,7 +743,9 @@
             "start": 1244,
             "end": 1254,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -789,14 +803,18 @@
             "start": 1311,
             "end": 1312,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1316,
             "end": 1397,
             "value": "ES6 25.4.1.5.1: The length property of a GetCapabilitiesExecutor function is 2.",
-            "raw": "'ES6 25.4.1.5.1: The length property of a GetCapabilitiesExecutor function is 2.'"
+            "raw": "'ES6 25.4.1.5.1: The length property of a GetCapabilitiesExecutor function is 2.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -840,7 +858,9 @@
             "start": 1447,
             "end": 1502,
             "value": "The returned object is an instance of the constructor",
-            "raw": "'The returned object is an instance of the constructor'"
+            "raw": "'The returned object is an instance of the constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

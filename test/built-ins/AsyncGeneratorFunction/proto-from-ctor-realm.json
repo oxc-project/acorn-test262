@@ -208,7 +208,9 @@
                       "start": 1249,
                       "end": 1277,
                       "value": "(0, async function* () {})",
-                      "raw": "'(0, async function* () {})'"
+                      "raw": "'(0, async function* () {})'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -476,7 +478,9 @@
             "start": 1519,
             "end": 1553,
             "value": "newTarget.prototype is undefined",
-            "raw": "'newTarget.prototype is undefined'"
+            "raw": "'newTarget.prototype is undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,7 +519,9 @@
           "start": 1579,
           "end": 1583,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -666,7 +672,9 @@
             "start": 1731,
             "end": 1760,
             "value": "newTarget.prototype is null",
-            "raw": "'newTarget.prototype is null'"
+            "raw": "'newTarget.prototype is null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -705,7 +713,9 @@
           "start": 1786,
           "end": 1790,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -856,7 +866,9 @@
             "start": 1938,
             "end": 1972,
             "value": "newTarget.prototype is a Boolean",
-            "raw": "'newTarget.prototype is a Boolean'"
+            "raw": "'newTarget.prototype is a Boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -895,7 +907,9 @@
           "start": 1998,
           "end": 2000,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1046,7 +1060,9 @@
             "start": 2148,
             "end": 2181,
             "value": "newTarget.prototype is a String",
-            "raw": "'newTarget.prototype is a String'"
+            "raw": "'newTarget.prototype is a String'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1242,7 +1258,9 @@
             "start": 2363,
             "end": 2396,
             "value": "newTarget.prototype is a Symbol",
-            "raw": "'newTarget.prototype is a Symbol'"
+            "raw": "'newTarget.prototype is a Symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1281,7 +1299,9 @@
           "start": 2422,
           "end": 2423,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1432,7 +1452,9 @@
             "start": 2571,
             "end": 2604,
             "value": "newTarget.prototype is a Number",
-            "raw": "'newTarget.prototype is a Number'"
+            "raw": "'newTarget.prototype is a Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

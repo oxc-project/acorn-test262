@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -359,7 +361,9 @@ __ESTREE_TEST__:PASS:
                         "start": 387,
                         "end": 391,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -490,7 +494,9 @@ __ESTREE_TEST__:PASS:
                     "start": 432,
                     "end": 441,
                     "raw": "'T1B 0L3'",
-                    "value": "T1B 0L3"
+                    "value": "T1B 0L3",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -508,7 +514,9 @@ __ESTREE_TEST__:PASS:
                     "start": 449,
                     "end": 460,
                     "raw": "\"vancouver\"",
-                    "value": "vancouver"
+                    "value": "vancouver",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -526,7 +534,9 @@ __ESTREE_TEST__:PASS:
                     "start": 469,
                     "end": 473,
                     "raw": "\"CA\"",
-                    "value": "CA"
+                    "value": "CA",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

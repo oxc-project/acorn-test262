@@ -59,7 +59,9 @@
                         "start": 668,
                         "end": 670,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -123,7 +125,9 @@
                         "start": 717,
                         "end": 718,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -149,7 +153,9 @@
                         "start": 735,
                         "end": 740,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -230,7 +236,9 @@
                         "start": 802,
                         "end": 815,
                         "value": "constructor",
-                        "raw": "\"constructor\""
+                        "raw": "\"constructor\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -416,14 +424,18 @@
                         "start": 962,
                         "end": 964,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 966,
                         "end": 999,
                         "value": "callbackfn called for each item",
-                        "raw": "\"callbackfn called for each item\""
+                        "raw": "\"callbackfn called for each item\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -468,14 +480,18 @@
                         "start": 1029,
                         "end": 1033,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1035,
                         "end": 1065,
                         "value": "all callbackfn called before",
-                        "raw": "\"all callbackfn called before\""
+                        "raw": "\"all callbackfn called before\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

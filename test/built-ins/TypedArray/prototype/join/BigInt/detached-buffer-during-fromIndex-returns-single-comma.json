@@ -76,6 +76,7 @@
                                 "end": 1355,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 1358,
                                 "value": null,
                                 "raw": "2n",
+                                "regex": null,
                                 "bigint": "2"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 1361,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               }
                             ]
@@ -196,7 +199,9 @@
                                       "start": 1453,
                                       "end": 1456,
                                       "value": ",",
-                                      "raw": "','"
+                                      "raw": "','",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -276,7 +281,9 @@
                         "start": 1513,
                         "end": 1517,
                         "value": ",,",
-                        "raw": "',,'"
+                        "raw": "',,'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

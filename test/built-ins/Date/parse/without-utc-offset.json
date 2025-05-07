@@ -46,7 +46,9 @@
                       "start": 504,
                       "end": 505,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -68,7 +70,9 @@
               "start": 529,
               "end": 534,
               "value": 60000,
-              "raw": "60000"
+              "raw": "60000",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -132,7 +136,9 @@
                 "start": 565,
                 "end": 586,
                 "value": "1970-01-01T00:00:00",
-                "raw": "'1970-01-01T00:00:00'"
+                "raw": "'1970-01-01T00:00:00'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -204,7 +210,9 @@
                 "start": 636,
                 "end": 648,
                 "value": "1970-01-01",
-                "raw": "'1970-01-01'"
+                "raw": "'1970-01-01'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -214,7 +222,9 @@
             "start": 651,
             "end": 652,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

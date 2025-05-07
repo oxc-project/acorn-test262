@@ -89,7 +89,9 @@
                   "start": 587,
                   "end": 590,
                   "value": "f",
-                  "raw": "'f'"
+                  "raw": "'f'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -146,7 +148,9 @@
             "start": 623,
             "end": 634,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

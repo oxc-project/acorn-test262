@@ -82,14 +82,18 @@
             "start": 467,
             "end": 472,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 476,
             "end": 540,
             "value": "isConstructor(DataView.prototype.setFloat16) must return false",
-            "raw": "'isConstructor(DataView.prototype.setFloat16) must return false'"
+            "raw": "'isConstructor(DataView.prototype.setFloat16) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +189,9 @@
                                 "start": 618,
                                 "end": 620,
                                 "value": 16,
-                                "raw": "16"
+                                "raw": "16",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -228,14 +234,18 @@
                         "start": 642,
                         "end": 643,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 645,
                         "end": 646,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

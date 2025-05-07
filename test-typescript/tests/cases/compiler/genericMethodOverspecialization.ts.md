@@ -34,35 +34,45 @@ __ESTREE_TEST__:PASS:
                 "start": 13,
                 "end": 19,
                 "raw": "\"list\"",
-                "value": "list"
+                "value": "list",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 21,
                 "end": 29,
                 "raw": "\"table1\"",
-                "value": "table1"
+                "value": "table1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 31,
                 "end": 39,
                 "raw": "\"table2\"",
-                "value": "table2"
+                "value": "table2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 41,
                 "end": 49,
                 "raw": "\"table3\"",
-                "value": "table3"
+                "value": "table3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 51,
                 "end": 60,
                 "raw": "\"summary\"",
-                "value": "summary"
+                "value": "summary",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

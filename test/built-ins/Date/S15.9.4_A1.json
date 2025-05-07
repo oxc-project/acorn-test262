@@ -47,7 +47,9 @@
                 "start": 315,
                 "end": 326,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 329,
             "end": 380,
             "value": "Date.hasOwnProperty(\"prototype\") must return true",
-            "raw": "'Date.hasOwnProperty(\"prototype\") must return true'"
+            "raw": "'Date.hasOwnProperty(\"prototype\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

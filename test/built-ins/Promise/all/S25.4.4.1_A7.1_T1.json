@@ -47,7 +47,9 @@
                 "start": 360,
                 "end": 361,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -229,7 +231,9 @@
                             "start": 463,
                             "end": 528,
                             "value": "The value of !!(pAll instanceof Promise) is expected to be true",
-                            "raw": "'The value of !!(pAll instanceof Promise) is expected to be true'"
+                            "raw": "'The value of !!(pAll instanceof Promise) is expected to be true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -292,7 +296,9 @@
                             "start": 569,
                             "end": 634,
                             "value": "The value of !!(result instanceof Array) is expected to be true",
-                            "raw": "'The value of !!(result instanceof Array) is expected to be true'"
+                            "raw": "'The value of !!(result instanceof Array) is expected to be true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -350,14 +356,18 @@
                             "start": 671,
                             "end": 672,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 674,
                             "end": 722,
                             "value": "The value of result.length is expected to be 1",
-                            "raw": "'The value of result.length is expected to be 1'"
+                            "raw": "'The value of result.length is expected to be 1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -406,7 +416,9 @@
                               "start": 751,
                               "end": 752,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -416,14 +428,18 @@
                             "start": 755,
                             "end": 756,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 758,
                             "end": 802,
                             "value": "The value of result[0] is expected to be 3",
-                            "raw": "'The value of result[0] is expected to be 3'"
+                            "raw": "'The value of result[0] is expected to be 3'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -75,21 +75,27 @@
                                 "start": 977,
                                 "end": 979,
                                 "value": 40,
-                                "raw": "40"
+                                "raw": "40",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 981,
                                 "end": 983,
                                 "value": 41,
-                                "raw": "41"
+                                "raw": "41",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 985,
                                 "end": 987,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -150,7 +156,9 @@
                                 "start": 1030,
                                 "end": 1031,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -203,7 +211,9 @@
                           "start": 1066,
                           "end": 1067,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -213,14 +223,18 @@
                         "start": 1070,
                         "end": 1072,
                         "value": 40,
-                        "raw": "40"
+                        "raw": "40",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1074,
                         "end": 1085,
                         "value": "[0] == 40",
-                        "raw": "\"[0] == 40\""
+                        "raw": "\"[0] == 40\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -269,7 +283,9 @@
                           "start": 1114,
                           "end": 1115,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -279,14 +295,18 @@
                         "start": 1118,
                         "end": 1120,
                         "value": 41,
-                        "raw": "41"
+                        "raw": "41",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1122,
                         "end": 1133,
                         "value": "[1] == 41",
-                        "raw": "\"[1] == 41\""
+                        "raw": "\"[1] == 41\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -335,7 +355,9 @@
                           "start": 1162,
                           "end": 1163,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -345,14 +367,18 @@
                         "start": 1166,
                         "end": 1168,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1170,
                         "end": 1181,
                         "value": "[2] == 42",
-                        "raw": "\"[2] == 42\""
+                        "raw": "\"[2] == 42\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

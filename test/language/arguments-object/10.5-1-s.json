@@ -102,7 +102,9 @@
                                     "start": 317,
                                     "end": 333,
                                     "value": "arguments = 10",
-                                    "raw": "\"arguments = 10\""
+                                    "raw": "\"arguments = 10\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -118,7 +120,9 @@
                         "start": 343,
                         "end": 345,
                         "value": 30,
-                        "raw": "30"
+                        "raw": "30",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

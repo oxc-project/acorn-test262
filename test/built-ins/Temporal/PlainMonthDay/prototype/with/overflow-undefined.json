@@ -47,14 +47,18 @@
                 "start": 822,
                 "end": 823,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 825,
                 "end": 826,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -124,7 +128,9 @@
                       "start": 867,
                       "end": 869,
                       "value": 33,
-                      "raw": "33"
+                      "raw": "33",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -204,21 +210,27 @@
             "start": 945,
             "end": 950,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 952,
             "end": 954,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 987,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -286,7 +298,9 @@
                       "start": 1028,
                       "end": 1030,
                       "value": 33,
-                      "raw": "33"
+                      "raw": "33",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -344,21 +358,27 @@
             "start": 1085,
             "end": 1090,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1092,
             "end": 1094,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1096,
             "end": 1127,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -426,7 +446,9 @@
                       "start": 1166,
                       "end": 1168,
                       "value": 33,
-                      "raw": "33"
+                      "raw": "33",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -494,21 +516,27 @@
             "start": 1227,
             "end": 1232,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1234,
             "end": 1236,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1238,
             "end": 1269,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

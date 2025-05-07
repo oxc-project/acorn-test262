@@ -69,14 +69,18 @@
             "start": 728,
             "end": 733,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 735,
             "end": 781,
             "value": "isConstructor(Math.fround) must return false",
-            "raw": "'isConstructor(Math.fround) must return false'"
+            "raw": "'isConstructor(Math.fround) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

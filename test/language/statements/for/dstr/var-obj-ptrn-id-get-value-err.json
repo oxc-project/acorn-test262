@@ -53,7 +53,9 @@
                 "start": 1426,
                 "end": 1436,
                 "value": "poisoned",
-                "raw": "'poisoned'"
+                "raw": "'poisoned'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -233,7 +235,9 @@
                       "start": 1596,
                       "end": 1597,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "update": null,

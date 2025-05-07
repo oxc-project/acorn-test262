@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 50,
         "raw": "'./utilities/positioning'",
-        "value": "./utilities/positioning"
+        "value": "./utilities/positioning",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -101,7 +103,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 35,
         "raw": "'./positioning/index'",
-        "value": "./positioning/index"
+        "value": "./positioning/index",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -187,7 +191,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 45,
         "raw": "\"troublesome-lib\"",
-        "value": "troublesome-lib"
+        "value": "troublesome-lib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

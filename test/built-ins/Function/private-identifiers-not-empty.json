@@ -96,7 +96,9 @@
                         "start": 781,
                         "end": 787,
                         "value": "o.#f",
-                        "raw": "\"o.#f\""
+                        "raw": "\"o.#f\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -109,7 +111,9 @@
             "start": 793,
             "end": 890,
             "value": "It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body",
-            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body'"
+            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

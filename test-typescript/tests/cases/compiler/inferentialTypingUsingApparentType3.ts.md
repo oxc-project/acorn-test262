@@ -174,7 +174,9 @@ __ESTREE_TEST__:PASS:
                       "start": 132,
                       "end": 137,
                       "raw": "\"Yup\"",
-                      "value": "Yup"
+                      "value": "Yup",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -301,7 +303,9 @@ __ESTREE_TEST__:PASS:
                       "start": 235,
                       "end": 238,
                       "raw": "123",
-                      "value": 123
+                      "value": 123,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

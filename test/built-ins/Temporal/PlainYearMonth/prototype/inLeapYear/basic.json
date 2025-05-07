@@ -68,14 +68,18 @@
                     "start": 306,
                     "end": 310,
                     "value": 1976,
-                    "raw": "1976"
+                    "raw": "1976",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 312,
                     "end": 314,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -94,14 +98,18 @@
             "start": 331,
             "end": 335,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 348,
             "value": "leap year",
-            "raw": "\"leap year\""
+            "raw": "\"leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,14 +180,18 @@
                     "start": 397,
                     "end": 401,
                     "value": 1977,
-                    "raw": "1977"
+                    "raw": "1977",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 403,
                     "end": 405,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -198,14 +210,18 @@
             "start": 422,
             "end": 427,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 429,
             "end": 444,
             "value": "non-leap year",
-            "raw": "\"non-leap year\""
+            "raw": "\"non-leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

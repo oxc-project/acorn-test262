@@ -73,7 +73,9 @@
                 "start": 382,
                 "end": 383,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 386,
             "end": 389,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 391,
             "end": 437,
             "value": "Number.prototype.toString(6) must return \"0\"",
-            "raw": "'Number.prototype.toString(6) must return \"0\"'"
+            "raw": "'Number.prototype.toString(6) must return \"0\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -164,7 +170,9 @@
                 "start": 481,
                 "end": 482,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -174,14 +182,18 @@
             "start": 485,
             "end": 488,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 534,
             "value": "(new Number()).toString(6) must return \"0\"",
-            "raw": "'(new Number()).toString(6) must return \"0\"'"
+            "raw": "'(new Number()).toString(6) must return \"0\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +255,9 @@
                       "start": 566,
                       "end": 567,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -263,7 +277,9 @@
                 "start": 579,
                 "end": 580,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -273,14 +289,18 @@
             "start": 583,
             "end": 586,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 633,
             "value": "(new Number(0)).toString(6) must return \"0\"",
-            "raw": "'(new Number(0)).toString(6) must return \"0\"'"
+            "raw": "'(new Number(0)).toString(6) must return \"0\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +368,9 @@
                         "start": 666,
                         "end": 667,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -369,7 +391,9 @@
                 "start": 679,
                 "end": 680,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -379,14 +403,18 @@
             "start": 683,
             "end": 687,
             "value": "-1",
-            "raw": "\"-1\""
+            "raw": "\"-1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 736,
             "value": "(new Number(-1)).toString(6) must return \"-1\"",
-            "raw": "'(new Number(-1)).toString(6) must return \"-1\"'"
+            "raw": "'(new Number(-1)).toString(6) must return \"-1\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -448,7 +476,9 @@
                       "start": 768,
                       "end": 769,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -468,7 +498,9 @@
                 "start": 781,
                 "end": 782,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -478,14 +510,18 @@
             "start": 785,
             "end": 788,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 790,
             "end": 835,
             "value": "(new Number(1)).toString(6) must return \"1\"",
-            "raw": "'(new Number(1)).toString(6) must return \"1\"'"
+            "raw": "'(new Number(1)).toString(6) must return \"1\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -579,7 +615,9 @@
                 "start": 893,
                 "end": 894,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -589,14 +627,18 @@
             "start": 899,
             "end": 904,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 908,
             "end": 964,
             "value": "(new Number(Number.NaN)).toString(6) must return \"NaN\"",
-            "raw": "'(new Number(Number.NaN)).toString(6) must return \"NaN\"'"
+            "raw": "'(new Number(Number.NaN)).toString(6) must return \"NaN\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -690,7 +732,9 @@
                 "start": 1037,
                 "end": 1038,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -700,14 +744,18 @@
             "start": 1043,
             "end": 1053,
             "value": "Infinity",
-            "raw": "\"Infinity\""
+            "raw": "\"Infinity\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1057,
             "end": 1132,
             "value": "(new Number(Number.POSITIVE_INFINITY)).toString(6) must return \"Infinity\"",
-            "raw": "'(new Number(Number.POSITIVE_INFINITY)).toString(6) must return \"Infinity\"'"
+            "raw": "'(new Number(Number.POSITIVE_INFINITY)).toString(6) must return \"Infinity\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -801,7 +849,9 @@
                 "start": 1205,
                 "end": 1206,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -811,14 +861,18 @@
             "start": 1211,
             "end": 1222,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1226,
             "end": 1302,
             "value": "(new Number(Number.NEGATIVE_INFINITY)).toString(6) must return \"-Infinity\"",
-            "raw": "'(new Number(Number.NEGATIVE_INFINITY)).toString(6) must return \"-Infinity\"'"
+            "raw": "'(new Number(Number.NEGATIVE_INFINITY)).toString(6) must return \"-Infinity\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

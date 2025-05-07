@@ -76,6 +76,7 @@
                   "end": 383,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],

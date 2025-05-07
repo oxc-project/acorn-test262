@@ -75,14 +75,18 @@
             "start": 386,
             "end": 396,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 415,
             "end": 456,
             "value": "supportedLocalesOf should be supported.",
-            "raw": "\"supportedLocalesOf should be supported.\""
+            "raw": "\"supportedLocalesOf should be supported.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +189,9 @@
             "start": 555,
             "end": 560,
             "value": "zxx",
-            "raw": "\"zxx\""
+            "raw": "\"zxx\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -346,14 +352,18 @@
             "start": 771,
             "end": 772,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 828,
             "value": "The length of the supported locales list should be 1",
-            "raw": "\"The length of the supported locales list should be 1\""
+            "raw": "\"The length of the supported locales list should be 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,7 +412,9 @@
               "start": 865,
               "end": 866,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -418,7 +430,9 @@
             "start": 884,
             "end": 939,
             "value": "The default locale is returned in the supported list.",
-            "raw": "\"The default locale is returned in the supported list.\""
+            "raw": "\"The default locale is returned in the supported list.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

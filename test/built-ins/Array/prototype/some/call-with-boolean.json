@@ -86,7 +86,9 @@
                 "start": 283,
                 "end": 287,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -112,14 +114,18 @@
             "start": 302,
             "end": 307,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 311,
             "end": 372,
             "value": "Array.prototype.some.call(true, () => {}) must return false",
-            "raw": "'Array.prototype.some.call(true, () => {}) must return false'"
+            "raw": "'Array.prototype.some.call(true, () => {}) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,7 +214,9 @@
                 "start": 422,
                 "end": 427,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -234,14 +242,18 @@
             "start": 442,
             "end": 447,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 451,
             "end": 513,
             "value": "Array.prototype.some.call(false, () => {}) must return false",
-            "raw": "'Array.prototype.some.call(false, () => {}) must return false'"
+            "raw": "'Array.prototype.some.call(false, () => {}) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 354,
                 "end": 355,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 392,
                 "end": 393,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,14 +124,18 @@
             "start": 412,
             "end": 413,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 415,
             "end": 419,
             "value": 255,
-            "raw": "0xff"
+            "raw": "0xff",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +198,9 @@
                 "start": 459,
                 "end": 460,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -201,6 +211,7 @@
             "end": 468,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -208,7 +219,9 @@
             "start": 470,
             "end": 483,
             "value": "no argument",
-            "raw": "\"no argument\""
+            "raw": "\"no argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,14 +284,18 @@
                 "start": 524,
                 "end": 525,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 527,
                 "end": 532,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -289,6 +306,7 @@
             "end": 540,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           }
         ],
@@ -352,14 +370,18 @@
                 "start": 580,
                 "end": 581,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 583,
                 "end": 587,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -370,6 +392,7 @@
             "end": 609,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           }
         ],
@@ -433,14 +456,18 @@
                 "start": 649,
                 "end": 650,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 652,
                 "end": 653,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -451,6 +478,7 @@
             "end": 661,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -458,7 +486,9 @@
             "start": 663,
             "end": 686,
             "value": "ToBoolean: 0 => false",
-            "raw": "\"ToBoolean: 0 => false\""
+            "raw": "\"ToBoolean: 0 => false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +551,9 @@
                 "start": 726,
                 "end": 727,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -534,7 +566,9 @@
                   "start": 730,
                   "end": 731,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -546,6 +580,7 @@
             "end": 739,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -553,7 +588,9 @@
             "start": 741,
             "end": 765,
             "value": "ToBoolean: -0 => false",
-            "raw": "\"ToBoolean: -0 => false\""
+            "raw": "\"ToBoolean: -0 => false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -616,14 +653,18 @@
                 "start": 805,
                 "end": 806,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 808,
                 "end": 809,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -634,6 +675,7 @@
             "end": 831,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -641,7 +683,9 @@
             "start": 833,
             "end": 865,
             "value": "ToBoolean: Number != 0 => true",
-            "raw": "\"ToBoolean: Number != 0 => true\""
+            "raw": "\"ToBoolean: Number != 0 => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -704,7 +748,9 @@
                 "start": 905,
                 "end": 906,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -717,7 +763,9 @@
                   "start": 909,
                   "end": 910,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -729,6 +777,7 @@
             "end": 932,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -736,7 +785,9 @@
             "start": 934,
             "end": 966,
             "value": "ToBoolean: Number != 0 => true",
-            "raw": "\"ToBoolean: Number != 0 => true\""
+            "raw": "\"ToBoolean: Number != 0 => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -799,14 +850,18 @@
                 "start": 1006,
                 "end": 1007,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1009,
                 "end": 1012,
                 "value": 0.1,
-                "raw": "0.1"
+                "raw": "0.1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -817,6 +872,7 @@
             "end": 1034,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -824,7 +880,9 @@
             "start": 1036,
             "end": 1068,
             "value": "ToBoolean: Number != 0 => true",
-            "raw": "\"ToBoolean: Number != 0 => true\""
+            "raw": "\"ToBoolean: Number != 0 => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -887,7 +945,9 @@
                 "start": 1108,
                 "end": 1109,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -904,6 +964,7 @@
             "end": 1141,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -911,7 +972,9 @@
             "start": 1145,
             "end": 1177,
             "value": "ToBoolean: Number != 0 => true",
-            "raw": "\"ToBoolean: Number != 0 => true\""
+            "raw": "\"ToBoolean: Number != 0 => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -974,7 +1037,9 @@
                 "start": 1217,
                 "end": 1218,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -991,6 +1056,7 @@
             "end": 1231,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -998,7 +1064,9 @@
             "start": 1233,
             "end": 1258,
             "value": "ToBoolean: NaN => false",
-            "raw": "\"ToBoolean: NaN => false\""
+            "raw": "\"ToBoolean: NaN => false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1061,7 +1129,9 @@
                 "start": 1298,
                 "end": 1299,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -1078,6 +1148,7 @@
             "end": 1318,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -1085,7 +1156,9 @@
             "start": 1320,
             "end": 1351,
             "value": "ToBoolean: undefined => false",
-            "raw": "\"ToBoolean: undefined => false\""
+            "raw": "\"ToBoolean: undefined => false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1148,14 +1221,18 @@
                 "start": 1391,
                 "end": 1392,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1394,
                 "end": 1398,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1166,6 +1243,7 @@
             "end": 1406,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -1173,7 +1251,9 @@
             "start": 1408,
             "end": 1434,
             "value": "ToBoolean: null => false",
-            "raw": "\"ToBoolean: null => false\""
+            "raw": "\"ToBoolean: null => false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1236,14 +1316,18 @@
                 "start": 1474,
                 "end": 1475,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1477,
                 "end": 1479,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1254,6 +1338,7 @@
             "end": 1487,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -1261,7 +1346,9 @@
             "start": 1489,
             "end": 1530,
             "value": "ToBoolean: String .length == 0 => false",
-            "raw": "\"ToBoolean: String .length == 0 => false\""
+            "raw": "\"ToBoolean: String .length == 0 => false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1324,14 +1411,18 @@
                 "start": 1570,
                 "end": 1571,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1573,
                 "end": 1581,
                 "value": "string",
-                "raw": "\"string\""
+                "raw": "\"string\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1342,6 +1433,7 @@
             "end": 1603,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -1349,7 +1441,9 @@
             "start": 1607,
             "end": 1646,
             "value": "ToBoolean: String .length > 0 => true",
-            "raw": "\"ToBoolean: String .length > 0 => true\""
+            "raw": "\"ToBoolean: String .length > 0 => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1412,14 +1506,18 @@
                 "start": 1686,
                 "end": 1687,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1689,
                 "end": 1696,
                 "value": "false",
-                "raw": "\"false\""
+                "raw": "\"false\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1430,6 +1528,7 @@
             "end": 1718,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -1437,7 +1536,9 @@
             "start": 1722,
             "end": 1761,
             "value": "ToBoolean: String .length > 0 => true",
-            "raw": "\"ToBoolean: String .length > 0 => true\""
+            "raw": "\"ToBoolean: String .length > 0 => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1500,14 +1601,18 @@
                 "start": 1801,
                 "end": 1802,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1804,
                 "end": 1807,
                 "value": " ",
-                "raw": "\" \""
+                "raw": "\" \"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1518,6 +1623,7 @@
             "end": 1829,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -1525,7 +1631,9 @@
             "start": 1833,
             "end": 1872,
             "value": "ToBoolean: String .length > 0 => true",
-            "raw": "\"ToBoolean: String .length > 0 => true\""
+            "raw": "\"ToBoolean: String .length > 0 => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1588,7 +1696,9 @@
                 "start": 1912,
                 "end": 1913,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -1606,7 +1716,9 @@
                     "start": 1922,
                     "end": 1925,
                     "value": "1",
-                    "raw": "\"1\""
+                    "raw": "\"1\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1620,6 +1732,7 @@
             "end": 1948,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -1627,7 +1740,9 @@
             "start": 1952,
             "end": 1979,
             "value": "ToBoolean: Symbol => true",
-            "raw": "\"ToBoolean: Symbol => true\""
+            "raw": "\"ToBoolean: Symbol => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1690,7 +1805,9 @@
                 "start": 2019,
                 "end": 2020,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -1698,6 +1815,7 @@
                 "end": 2024,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ],
@@ -1709,6 +1827,7 @@
             "end": 2032,
             "value": null,
             "raw": "0xffn",
+            "regex": null,
             "bigint": "0xff"
           },
           {
@@ -1716,7 +1835,9 @@
             "start": 2034,
             "end": 2058,
             "value": "ToBoolean: 0n => false",
-            "raw": "\"ToBoolean: 0n => false\""
+            "raw": "\"ToBoolean: 0n => false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1779,7 +1900,9 @@
                 "start": 2098,
                 "end": 2099,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -1787,6 +1910,7 @@
                 "end": 2103,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1798,6 +1922,7 @@
             "end": 2125,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -1805,7 +1930,9 @@
             "start": 2127,
             "end": 2160,
             "value": "ToBoolean: BigInt != 0n => true",
-            "raw": "\"ToBoolean: BigInt != 0n => true\""
+            "raw": "\"ToBoolean: BigInt != 0n => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1868,7 +1995,9 @@
                 "start": 2200,
                 "end": 2201,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -1885,6 +2014,7 @@
             "end": 2227,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -1892,7 +2022,9 @@
             "start": 2229,
             "end": 2260,
             "value": "ToBoolean: any object => true",
-            "raw": "\"ToBoolean: any object => true\""
+            "raw": "\"ToBoolean: any object => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1955,7 +2087,9 @@
                 "start": 2300,
                 "end": 2301,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -1972,6 +2106,7 @@
             "end": 2327,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -1979,7 +2114,9 @@
             "start": 2329,
             "end": 2360,
             "value": "ToBoolean: any object => true",
-            "raw": "\"ToBoolean: any object => true\""
+            "raw": "\"ToBoolean: any object => true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2042,7 +2179,9 @@
                 "start": 2400,
                 "end": 2401,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -2060,7 +2199,9 @@
                     "start": 2410,
                     "end": 2415,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2074,6 +2215,7 @@
             "end": 2438,
             "value": null,
             "raw": "0xff00000000000000n",
+            "regex": null,
             "bigint": "0xff00000000000000"
           },
           {
@@ -2081,7 +2223,9 @@
             "start": 2442,
             "end": 2489,
             "value": "ToBoolean: any object => true; no ToPrimitive",
-            "raw": "\"ToBoolean: any object => true; no ToPrimitive\""
+            "raw": "\"ToBoolean: any object => true; no ToPrimitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

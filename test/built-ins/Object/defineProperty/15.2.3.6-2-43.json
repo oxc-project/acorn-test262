@@ -84,7 +84,9 @@
                           "start": 342,
                           "end": 347,
                           "value": "abc",
-                          "raw": "\"abc\""
+                          "raw": "\"abc\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -192,7 +194,9 @@
                 "start": 425,
                 "end": 430,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -202,7 +206,9 @@
             "start": 433,
             "end": 469,
             "value": "obj.hasOwnProperty(\"abc\") !== true",
-            "raw": "'obj.hasOwnProperty(\"abc\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"abc\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

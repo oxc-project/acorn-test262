@@ -486,7 +486,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 32,
         "raw": "'math2d'",
-        "value": "math2d"
+        "value": "math2d",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -604,7 +606,9 @@ __ESTREE_TEST__:PASS:
         "start": 71,
         "end": 79,
         "raw": "'math2d'",
-        "value": "math2d"
+        "value": "math2d",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -648,14 +652,18 @@ __ESTREE_TEST__:PASS:
                 "start": 127,
                 "end": 128,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 130,
                 "end": 131,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -819,14 +827,18 @@ __ESTREE_TEST__:PASS:
                 "start": 205,
                 "end": 206,
                 "raw": "5",
-                "value": 5
+                "value": 5,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 208,
                 "end": 209,
                 "raw": "5",
-                "value": 5
+                "value": 5,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

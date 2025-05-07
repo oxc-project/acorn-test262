@@ -125,7 +125,9 @@
                         "start": 730,
                         "end": 735,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

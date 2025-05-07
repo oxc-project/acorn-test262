@@ -43,7 +43,9 @@
           "start": 661,
           "end": 662,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -141,7 +143,9 @@
                           "start": 711,
                           "end": 712,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -151,14 +155,18 @@
                         "start": 715,
                         "end": 718,
                         "value": "A",
-                        "raw": "'A'"
+                        "raw": "'A'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 720,
                         "end": 724,
                         "value": "TV",
-                        "raw": "'TV'"
+                        "raw": "'TV'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -220,7 +228,9 @@
                           "start": 752,
                           "end": 753,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -230,14 +240,18 @@
                         "start": 756,
                         "end": 763,
                         "value": "\\x41",
-                        "raw": "'\\\\x41'"
+                        "raw": "'\\\\x41'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 765,
                         "end": 770,
                         "value": "TRV",
-                        "raw": "'TRV'"
+                        "raw": "'TRV'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -306,7 +320,9 @@
             "start": 807,
             "end": 808,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

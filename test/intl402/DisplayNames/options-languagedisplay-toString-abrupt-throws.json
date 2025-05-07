@@ -84,7 +84,9 @@
                         "start": 1064,
                         "end": 1068,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -109,7 +111,9 @@
                               "start": 1082,
                               "end": 1092,
                               "value": "language",
-                              "raw": "'language'"
+                              "raw": "'language'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -197,7 +201,9 @@
             "start": 1164,
             "end": 1179,
             "value": "from toString",
-            "raw": "'from toString'"
+            "raw": "'from toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -284,7 +290,9 @@
                         "start": 1243,
                         "end": 1247,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -309,7 +317,9 @@
                               "start": 1261,
                               "end": 1271,
                               "value": "language",
-                              "raw": "'language'"
+                              "raw": "'language'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -418,7 +428,9 @@
             "start": 1365,
             "end": 1379,
             "value": "from valueOf",
-            "raw": "'from valueOf'"
+            "raw": "'from valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -505,7 +517,9 @@
                         "start": 1443,
                         "end": 1447,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -530,7 +544,9 @@
                               "start": 1461,
                               "end": 1471,
                               "value": "language",
-                              "raw": "'language'"
+                              "raw": "'language'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -631,7 +647,9 @@
             "start": 1560,
             "end": 1578,
             "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "raw": "'from ToPrimitive'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -718,7 +736,9 @@
                         "start": 1639,
                         "end": 1643,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -743,7 +763,9 @@
                               "start": 1657,
                               "end": 1667,
                               "value": "language",
-                              "raw": "'language'"
+                              "raw": "'language'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -788,7 +810,9 @@
             "start": 1708,
             "end": 1722,
             "value": "symbol value",
-            "raw": "'symbol value'"
+            "raw": "'symbol value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

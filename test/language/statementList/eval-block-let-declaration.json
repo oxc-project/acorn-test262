@@ -34,7 +34,9 @@
                 "start": 777,
                 "end": 800,
                 "value": "{}let a, b = 42, c;b;",
-                "raw": "'{}let a, b = 42, c;b;'"
+                "raw": "'{}let a, b = 42, c;b;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,7 +84,9 @@
             "start": 829,
             "end": 831,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

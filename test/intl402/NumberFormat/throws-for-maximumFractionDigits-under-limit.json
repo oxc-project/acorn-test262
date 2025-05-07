@@ -71,7 +71,9 @@
                       "start": 641,
                       "end": 642,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -194,7 +196,9 @@
                                 "start": 760,
                                 "end": 761,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "kind": "init"
@@ -212,7 +216,9 @@
             "start": 768,
             "end": 830,
             "value": "Throws RangeError when maximumFractionDigits is less than 0.",
-            "raw": "\"Throws RangeError when maximumFractionDigits is less than 0.\""
+            "raw": "\"Throws RangeError when maximumFractionDigits is less than 0.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

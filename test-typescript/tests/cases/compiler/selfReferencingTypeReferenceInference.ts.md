@@ -300,7 +300,9 @@ __ESTREE_TEST__:PASS:
             "start": 145,
             "end": 153,
             "raw": "\"never!\"",
-            "value": "never!"
+            "value": "never!",
+            "regex": null,
+            "bigint": null
           }
         },
         "trueType": {

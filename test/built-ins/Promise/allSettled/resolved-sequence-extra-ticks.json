@@ -142,7 +142,9 @@
             "start": 900,
             "end": 901,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,7 +274,9 @@
                             "start": 972,
                             "end": 973,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -330,7 +334,9 @@
                             "start": 1012,
                             "end": 1013,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -362,7 +368,9 @@
                             "start": 1042,
                             "end": 1094,
                             "value": "Expected Promise.allSettled().then to queue second",
-                            "raw": "'Expected Promise.allSettled().then to queue second'"
+                            "raw": "'Expected Promise.allSettled().then to queue second'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -485,7 +493,9 @@
                                 "start": 1152,
                                 "end": 1153,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -543,7 +553,9 @@
                                 "start": 1192,
                                 "end": 1193,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -575,7 +587,9 @@
                                 "start": 1222,
                                 "end": 1255,
                                 "value": "Expected p1.then to queue first",
-                                "raw": "'Expected p1.then to queue first'"
+                                "raw": "'Expected p1.then to queue first'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -644,7 +658,9 @@
                             "start": 1295,
                             "end": 1296,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -702,7 +718,9 @@
                             "start": 1335,
                             "end": 1336,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -734,7 +752,9 @@
                             "start": 1365,
                             "end": 1400,
                             "value": "Expected final then to queue last",
-                            "raw": "'Expected final then to queue last'"
+                            "raw": "'Expected final then to queue last'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -805,7 +825,9 @@
             "start": 1441,
             "end": 1442,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

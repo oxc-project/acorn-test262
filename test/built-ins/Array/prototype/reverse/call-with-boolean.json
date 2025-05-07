@@ -90,7 +90,9 @@
                   "start": 292,
                   "end": 296,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -108,14 +110,18 @@
             "start": 320,
             "end": 324,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 409,
             "value": "The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true",
-            "raw": "'The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true'"
+            "raw": "'The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,7 +214,9 @@
                   "start": 462,
                   "end": 467,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -226,14 +234,18 @@
             "start": 491,
             "end": 495,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 581,
             "value": "The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true",
-            "raw": "'The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true'"
+            "raw": "'The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

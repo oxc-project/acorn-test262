@@ -34,7 +34,9 @@
                 "start": 360,
                 "end": 371,
                 "value": "abcdefghi",
-                "raw": "\"abcdefghi\""
+                "raw": "\"abcdefghi\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -66,7 +68,8 @@
             "regex": {
               "pattern": "a[a-z]{2,4}",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -176,7 +179,9 @@
               "start": 468,
               "end": 472,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -184,7 +189,9 @@
             "start": 476,
             "end": 555,
             "value": "__re.test(\"new Object(\"abcdefghi\")\") must return __re.exec(__string) !== null",
-            "raw": "'__re.test(\"new Object(\"abcdefghi\")\") must return __re.exec(__string) !== null'"
+            "raw": "'__re.test(\"new Object(\"abcdefghi\")\") must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

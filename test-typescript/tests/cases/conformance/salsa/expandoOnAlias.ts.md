@@ -93,7 +93,9 @@ __ESTREE_TEST__:PASS:
                     "start": 47,
                     "end": 48,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 35,
         "raw": "\"./vue\"",
-        "value": "./vue"
+        "value": "./vue",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -288,7 +292,9 @@ __ESTREE_TEST__:PASS:
           "start": 207,
           "end": 208,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },

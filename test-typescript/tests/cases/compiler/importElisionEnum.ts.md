@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 27,
                 "end": 28,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "start": 43,
         "end": 51,
         "raw": "\"./enum\"",
-        "value": "./enum"
+        "value": "./enum",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

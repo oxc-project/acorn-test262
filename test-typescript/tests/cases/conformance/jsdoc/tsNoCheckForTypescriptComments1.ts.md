@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                 "start": 53,
                 "end": 54,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "ObjectExpression",
@@ -171,7 +173,9 @@ __ESTREE_TEST__:PASS:
                 "start": 285,
                 "end": 290,
                 "raw": "'lol'",
-                "value": "lol"
+                "value": "lol",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

@@ -87,14 +87,18 @@
             "start": 549,
             "end": 553,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 558,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,7 +162,9 @@
             "start": 605,
             "end": 621,
             "value": "JSON.stringify",
-            "raw": "'JSON.stringify'"
+            "raw": "'JSON.stringify'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

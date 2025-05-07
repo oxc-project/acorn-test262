@@ -48,6 +48,7 @@
                 "end": 365,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 367,
                 "end": 372,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,7 +86,9 @@
             "start": 392,
             "end": 437,
             "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]",
-            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\""
+            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -193,14 +198,18 @@
             "start": 524,
             "end": 532,
             "value": "+01:46",
-            "raw": "\"+01:46\""
+            "raw": "\"+01:46\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 581,
             "value": "Time zone string determined from bracket name",
-            "raw": "\"Time zone string determined from bracket name\""
+            "raw": "\"Time zone string determined from bracket name\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

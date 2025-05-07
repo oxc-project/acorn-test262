@@ -41,7 +41,9 @@
                   "start": 973,
                   "end": 981,
                   "value": "-04:00",
-                  "raw": "\"-04:00\""
+                  "raw": "\"-04:00\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 991,
                   "end": 999,
                   "value": "+01:00",
-                  "raw": "\"+01:00\""
+                  "raw": "\"+01:00\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 1007,
                   "end": 1011,
                   "value": 2020,
-                  "raw": "2020"
+                  "raw": "2020",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 1020,
                   "end": 1021,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -129,7 +137,9 @@
                   "start": 1028,
                   "end": 1030,
                   "value": 16,
-                  "raw": "16"
+                  "raw": "16",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -151,7 +161,9 @@
                   "start": 1038,
                   "end": 1040,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -173,7 +185,9 @@
                   "start": 1050,
                   "end": 1052,
                   "value": 45,
-                  "raw": "45"
+                  "raw": "45",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -306,7 +320,9 @@
             "start": 1154,
             "end": 1180,
             "value": "default offset is reject",
-            "raw": "\"default offset is reject\""
+            "raw": "\"default offset is reject\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

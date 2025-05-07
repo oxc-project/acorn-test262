@@ -254,7 +254,9 @@
                             "start": 861,
                             "end": 862,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -274,7 +276,9 @@
                             "start": 885,
                             "end": 886,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -294,7 +298,9 @@
                             "start": 909,
                             "end": 910,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -309,7 +315,9 @@
             "start": 917,
             "end": 1033,
             "value": "`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2), new PoisonedValueOf(3))` throws a Test262Error exception",
-            "raw": "'`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2), new PoisonedValueOf(3))` throws a Test262Error exception'"
+            "raw": "'`new Date(new PoisonedValueOf(1), new PoisonedValueOf(2), new PoisonedValueOf(3))` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,7 +391,9 @@
                         "start": 1084,
                         "end": 1085,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "NewExpression",
@@ -401,7 +411,9 @@
                             "start": 1107,
                             "end": 1108,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -421,7 +433,9 @@
                             "start": 1131,
                             "end": 1132,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -436,7 +450,9 @@
             "start": 1139,
             "end": 1234,
             "value": "`new Date(1, new PoisonedValueOf(2), new PoisonedValueOf(3))` throws a Test262Error exception",
-            "raw": "'`new Date(1, new PoisonedValueOf(2), new PoisonedValueOf(3))` throws a Test262Error exception'"
+            "raw": "'`new Date(1, new PoisonedValueOf(2), new PoisonedValueOf(3))` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,14 +526,18 @@
                         "start": 1285,
                         "end": 1286,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1288,
                         "end": 1289,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "NewExpression",
@@ -535,7 +555,9 @@
                             "start": 1311,
                             "end": 1312,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -550,7 +572,9 @@
             "start": 1319,
             "end": 1393,
             "value": "`new Date(1, 2, new PoisonedValueOf(3))` throws a Test262Error exception",
-            "raw": "'`new Date(1, 2, new PoisonedValueOf(3))` throws a Test262Error exception'"
+            "raw": "'`new Date(1, 2, new PoisonedValueOf(3))` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

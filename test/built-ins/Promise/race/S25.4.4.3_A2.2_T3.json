@@ -133,7 +133,9 @@
                               "start": 543,
                               "end": 562,
                               "value": "abrupt completion",
-                              "raw": "\"abrupt completion\""
+                              "raw": "\"abrupt completion\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -246,7 +248,9 @@
                             "start": 642,
                             "end": 713,
                             "value": "Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw",
-                            "raw": "'Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw'"
+                            "raw": "'Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -332,7 +336,9 @@
                             "start": 770,
                             "end": 832,
                             "value": "The value of !!(err instanceof Error) is expected to be true",
-                            "raw": "'The value of !!(err instanceof Error) is expected to be true'"
+                            "raw": "'The value of !!(err instanceof Error) is expected to be true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -49,7 +49,9 @@
                       "start": 451,
                       "end": 452,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -124,7 +126,9 @@
                           "start": 494,
                           "end": 495,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -170,7 +174,9 @@
                   "start": 537,
                   "end": 624,
                   "value": "#1: ({} < function(){return 1}) === ({}.toString() < function(){return 1}.toString())",
-                  "raw": "'#1: ({} < function(){return 1}) === ({}.toString() < function(){return 1}.toString())'"
+                  "raw": "'#1: ({} < function(){return 1}) === ({}.toString() < function(){return 1}.toString())'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -218,7 +224,9 @@
                       "start": 663,
                       "end": 664,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -273,7 +281,9 @@
                           "start": 695,
                           "end": 696,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -346,7 +356,9 @@
                   "start": 754,
                   "end": 841,
                   "value": "#2: (function(){return 1} < {}) === (function(){return 1}.toString() < {}.toString())",
-                  "raw": "'#2: (function(){return 1} < {}) === (function(){return 1}.toString() < {}.toString())'"
+                  "raw": "'#2: (function(){return 1} < {}) === (function(){return 1}.toString() < {}.toString())'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -394,7 +406,9 @@
                       "start": 880,
                       "end": 881,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -424,7 +438,9 @@
                       "start": 903,
                       "end": 904,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -472,7 +488,9 @@
                           "start": 930,
                           "end": 931,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -522,7 +540,9 @@
                           "start": 964,
                           "end": 965,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -568,7 +588,9 @@
                   "start": 1007,
                   "end": 1130,
                   "value": "#3: (function(){return 1} < function(){return 1}) === (function(){return 1}.toString() < function(){return 1}.toString())",
-                  "raw": "'#3: (function(){return 1} < function(){return 1}) === (function(){return 1}.toString() < function(){return 1}.toString())'"
+                  "raw": "'#3: (function(){return 1} < function(){return 1}) === (function(){return 1}.toString() < function(){return 1}.toString())'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -698,7 +720,9 @@
                   "start": 1224,
                   "end": 1275,
                   "value": "#4: ({} < {}) === ({}.toString() < {}.toString())",
-                  "raw": "'#4: ({} < {}) === ({}.toString() < {}.toString())'"
+                  "raw": "'#4: ({} < {}) === ({}.toString() < {}.toString())'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

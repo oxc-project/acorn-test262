@@ -54,6 +54,7 @@
                   "end": 317,
                   "value": null,
                   "raw": "86_40000_00000_00000_00000n",
+                  "regex": null,
                   "bigint": "8640000000000000000000"
                 }
               }
@@ -108,6 +109,7 @@
                 "end": 378,
                 "value": null,
                 "raw": "86_40000_00000_00000_00000n",
+                "regex": null,
                 "bigint": "8640000000000000000000"
               }
             ]
@@ -191,7 +193,9 @@
                       "start": 430,
                       "end": 431,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -279,7 +283,9 @@
                       "start": 482,
                       "end": 483,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -373,7 +379,9 @@
                         "start": 540,
                         "end": 541,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -485,7 +493,9 @@
             "start": 634,
             "end": 670,
             "value": "Adding zero to the minimum instant",
-            "raw": "\"Adding zero to the minimum instant\""
+            "raw": "\"Adding zero to the minimum instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,7 +599,9 @@
             "start": 762,
             "end": 798,
             "value": "Adding zero to the maximum instant",
-            "raw": "\"Adding zero to the maximum instant\""
+            "raw": "\"Adding zero to the maximum instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -677,7 +689,9 @@
             "start": 867,
             "end": 909,
             "value": "Subtracting one from the minimum instant",
-            "raw": "\"Subtracting one from the minimum instant\""
+            "raw": "\"Subtracting one from the minimum instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -765,7 +779,9 @@
             "start": 973,
             "end": 1008,
             "value": "Adding one to the maximum instant",
-            "raw": "\"Adding one to the maximum instant\""
+            "raw": "\"Adding one to the maximum instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,6 +891,7 @@
               "end": 1085,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -883,7 +900,9 @@
             "start": 1104,
             "end": 1139,
             "value": "Adding one to the minimum instant",
-            "raw": "\"Adding one to the minimum instant\""
+            "raw": "\"Adding one to the minimum instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -993,6 +1012,7 @@
               "end": 1221,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -1001,7 +1021,9 @@
             "start": 1240,
             "end": 1282,
             "value": "Subtracting one from the maximum instant",
-            "raw": "\"Subtracting one from the maximum instant\""
+            "raw": "\"Subtracting one from the maximum instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1090,7 +1112,9 @@
                           "start": 1361,
                           "end": 1387,
                           "value": 8.64e+21,
-                          "raw": "86_40000_00000_00000_00000"
+                          "raw": "86_40000_00000_00000_00000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "*",
                         "right": {
@@ -1098,7 +1122,9 @@
                           "start": 1390,
                           "end": 1391,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -1141,7 +1167,9 @@
             "start": 1451,
             "end": 1501,
             "value": "Minimum to maximum instant by adding nanoseconds",
-            "raw": "\"Minimum to maximum instant by adding nanoseconds\""
+            "raw": "\"Minimum to maximum instant by adding nanoseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1230,7 +1258,9 @@
                           "start": 1545,
                           "end": 1567,
                           "value": 8640000000000000000,
-                          "raw": "8640_00000_00000_00000"
+                          "raw": "8640_00000_00000_00000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "*",
                         "right": {
@@ -1238,7 +1268,9 @@
                           "start": 1570,
                           "end": 1571,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -1281,7 +1313,9 @@
             "start": 1631,
             "end": 1682,
             "value": "Minimum to maximum instant by adding microseconds",
-            "raw": "\"Minimum to maximum instant by adding microseconds\""
+            "raw": "\"Minimum to maximum instant by adding microseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1370,7 +1404,9 @@
                           "start": 1726,
                           "end": 1745,
                           "value": 8640000000000000,
-                          "raw": "8_64000_00000_00000"
+                          "raw": "8_64000_00000_00000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "*",
                         "right": {
@@ -1378,7 +1414,9 @@
                           "start": 1748,
                           "end": 1749,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -1421,7 +1459,9 @@
             "start": 1809,
             "end": 1860,
             "value": "Minimum to maximum instant by adding milliseconds",
-            "raw": "\"Minimum to maximum instant by adding milliseconds\""
+            "raw": "\"Minimum to maximum instant by adding milliseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1510,7 +1550,9 @@
                           "start": 1899,
                           "end": 1914,
                           "value": 8640000000000,
-                          "raw": "864_00000_00000"
+                          "raw": "864_00000_00000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "*",
                         "right": {
@@ -1518,7 +1560,9 @@
                           "start": 1917,
                           "end": 1918,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -1561,7 +1605,9 @@
             "start": 1978,
             "end": 2024,
             "value": "Minimum to maximum instant by adding seconds",
-            "raw": "\"Minimum to maximum instant by adding seconds\""
+            "raw": "\"Minimum to maximum instant by adding seconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1656,7 +1702,9 @@
                             "start": 2104,
                             "end": 2130,
                             "value": 8.64e+21,
-                            "raw": "86_40000_00000_00000_00000"
+                            "raw": "86_40000_00000_00000_00000",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "*",
@@ -1665,7 +1713,9 @@
                           "start": 2133,
                           "end": 2134,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -1708,7 +1758,9 @@
             "start": 2194,
             "end": 2244,
             "value": "Maximum to minimum instant by adding nanoseconds",
-            "raw": "\"Maximum to minimum instant by adding nanoseconds\""
+            "raw": "\"Maximum to minimum instant by adding nanoseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1803,7 +1855,9 @@
                             "start": 2289,
                             "end": 2311,
                             "value": 8640000000000000000,
-                            "raw": "8640_00000_00000_00000"
+                            "raw": "8640_00000_00000_00000",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "*",
@@ -1812,7 +1866,9 @@
                           "start": 2314,
                           "end": 2315,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -1855,7 +1911,9 @@
             "start": 2375,
             "end": 2426,
             "value": "Maximum to minimum instant by adding microseconds",
-            "raw": "\"Maximum to minimum instant by adding microseconds\""
+            "raw": "\"Maximum to minimum instant by adding microseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1950,7 +2008,9 @@
                             "start": 2471,
                             "end": 2490,
                             "value": 8640000000000000,
-                            "raw": "8_64000_00000_00000"
+                            "raw": "8_64000_00000_00000",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "*",
@@ -1959,7 +2019,9 @@
                           "start": 2493,
                           "end": 2494,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -2002,7 +2064,9 @@
             "start": 2554,
             "end": 2605,
             "value": "Maximum to minimum instant by adding milliseconds",
-            "raw": "\"Maximum to minimum instant by adding milliseconds\""
+            "raw": "\"Maximum to minimum instant by adding milliseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2097,7 +2161,9 @@
                             "start": 2645,
                             "end": 2660,
                             "value": 8640000000000,
-                            "raw": "864_00000_00000"
+                            "raw": "864_00000_00000",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "*",
@@ -2106,7 +2172,9 @@
                           "start": 2663,
                           "end": 2664,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -2149,7 +2217,9 @@
             "start": 2724,
             "end": 2770,
             "value": "Maximum to minimum instant by adding seconds",
-            "raw": "\"Maximum to minimum instant by adding seconds\""
+            "raw": "\"Maximum to minimum instant by adding seconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -24,7 +24,9 @@
               "start": 403,
               "end": 409,
               "value": "abcd",
-              "raw": "\"abcd\""
+              "raw": "\"abcd\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -41,14 +43,18 @@
               "start": 418,
               "end": 426,
               "value": "abcdab",
-              "raw": "\"abcdab\""
+              "raw": "\"abcdab\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 428,
               "end": 429,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -65,7 +71,9 @@
             "start": 436,
             "end": 437,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -98,7 +106,9 @@
                     "start": 466,
                     "end": 513,
                     "value": "#1: \"abcd\".indexOf(\"abcdab\",0)===-1. Actual: ",
-                    "raw": "'#1: \"abcd\".indexOf(\"abcdab\",0)===-1. Actual: '"
+                    "raw": "'#1: \"abcd\".indexOf(\"abcdab\",0)===-1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -118,7 +128,9 @@
                           "start": 517,
                           "end": 523,
                           "value": "abcd",
-                          "raw": "\"abcd\""
+                          "raw": "\"abcd\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -135,14 +147,18 @@
                           "start": 532,
                           "end": 540,
                           "value": "abcdab",
-                          "raw": "\"abcdab\""
+                          "raw": "\"abcdab\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 542,
                           "end": 543,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

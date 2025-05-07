@@ -23,7 +23,9 @@
             "start": 392,
             "end": 393,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 410,
             "end": 413,
             "value": "1",
-            "raw": "'1'"
+            "raw": "'1'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 432,
             "end": 433,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 452,
             "end": 455,
             "value": "2",
-            "raw": "'2'"
+            "raw": "'2'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -145,7 +153,9 @@
                   "start": 485,
                   "end": 493,
                   "value": 16711680,
-                  "raw": "0xff0000"
+                  "raw": "0xff0000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -167,7 +177,9 @@
                   "start": 507,
                   "end": 515,
                   "value": 255,
-                  "raw": "0x0000ff"
+                  "raw": "0x0000ff",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -189,7 +201,9 @@
                   "start": 526,
                   "end": 534,
                   "value": 65280,
-                  "raw": "0x00ff00"
+                  "raw": "0x00ff00",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -211,7 +225,9 @@
                   "start": 550,
                   "end": 558,
                   "value": 16776960,
-                  "raw": "0xffff00"
+                  "raw": "0xffff00",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -261,7 +277,9 @@
           "start": 693,
           "end": 697,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -289,7 +307,9 @@
                   "start": 731,
                   "end": 941,
                   "value": "#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;",
-                  "raw": "'#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;'"
+                  "raw": "'#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -362,7 +382,9 @@
                     "start": 1197,
                     "end": 1447,
                     "value": "#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: ",
-                    "raw": "'#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: '"
+                    "raw": "'#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -432,7 +454,9 @@
           "start": 1696,
           "end": 1700,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -464,7 +488,9 @@
                     "start": 1734,
                     "end": 1951,
                     "value": "#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: ",
-                    "raw": "'#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: '"
+                    "raw": "'#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -565,7 +591,9 @@
                     "start": 2241,
                     "end": 2487,
                     "value": "#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: ",
-                    "raw": "'#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: '"
+                    "raw": "'#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

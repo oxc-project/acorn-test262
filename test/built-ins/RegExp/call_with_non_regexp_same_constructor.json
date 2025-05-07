@@ -96,7 +96,9 @@
           "start": 688,
           "end": 692,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -159,7 +161,9 @@
             "start": 730,
             "end": 765,
             "value": "RegExp returns its input argument",
-            "raw": "\"RegExp returns its input argument\""
+            "raw": "\"RegExp returns its input argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -55,7 +55,9 @@ __ESTREE_TEST__:PASS:
                   "start": 41,
                   "end": 44,
                   "raw": "123",
-                  "value": 123
+                  "value": 123,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -817,7 +819,9 @@ __ESTREE_TEST__:PASS:
                               "start": 608,
                               "end": 609,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "regex": null,
+                              "bigint": null
                             },
                             "typeAnnotation": {
                               "type": "TSTypeReference",

@@ -23,7 +23,9 @@
             "start": 325,
             "end": 326,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -41,7 +43,9 @@
             "start": 329,
             "end": 330,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -136,7 +140,9 @@
                                     "start": 383,
                                     "end": 385,
                                     "value": 10,
-                                    "raw": "10"
+                                    "raw": "10",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "consequent": {
@@ -156,7 +162,9 @@
                                   "start": 402,
                                   "end": 403,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -230,7 +238,9 @@
           "start": 544,
           "end": 546,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -258,7 +268,9 @@
                   "start": 574,
                   "end": 634,
                   "value": "#1: Continue inside of try-catch nested in loop is allowed",
-                  "raw": "'#1: Continue inside of try-catch nested in loop is allowed'"
+                  "raw": "'#1: Continue inside of try-catch nested in loop is allowed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

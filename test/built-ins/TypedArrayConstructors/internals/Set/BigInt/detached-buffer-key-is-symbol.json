@@ -34,7 +34,9 @@
                 "start": 605,
                 "end": 608,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -110,7 +112,9 @@
                             "start": 686,
                             "end": 687,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -225,7 +229,9 @@
                             "start": 770,
                             "end": 779,
                             "value": "test262",
-                            "raw": "'test262'"
+                            "raw": "'test262'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -235,14 +241,18 @@
                         "start": 786,
                         "end": 790,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 796,
                         "end": 864,
                         "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"test262\") must return true",
-                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"test262\") must return true'"
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"test262\") must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -300,14 +310,18 @@
                         "start": 901,
                         "end": 910,
                         "value": "test262",
-                        "raw": "'test262'"
+                        "raw": "'test262'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 912,
                         "end": 949,
                         "value": "The value of sample[s] is \"test262\"",
-                        "raw": "'The value of sample[s] is \"test262\"'"
+                        "raw": "'The value of sample[s] is \"test262\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

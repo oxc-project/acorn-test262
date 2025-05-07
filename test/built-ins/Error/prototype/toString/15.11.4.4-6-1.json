@@ -93,14 +93,18 @@
             "start": 378,
             "end": 385,
             "value": "Error",
-            "raw": "\"Error\""
+            "raw": "\"Error\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 406,
             "value": "errObj.toString()",
-            "raw": "'errObj.toString()'"
+            "raw": "'errObj.toString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

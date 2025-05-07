@@ -12,7 +12,9 @@
         "start": 447,
         "end": 451,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -125,7 +127,9 @@
                         "start": 542,
                         "end": 565,
                         "value": "var x; let test262Fn;",
-                        "raw": "'var x; let test262Fn;'"
+                        "raw": "'var x; let test262Fn;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -205,7 +209,9 @@
             "start": 624,
             "end": 645,
             "value": "no bindings created",
-            "raw": "'no bindings created'"
+            "raw": "'no bindings created'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

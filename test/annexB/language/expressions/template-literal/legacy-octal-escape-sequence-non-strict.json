@@ -41,7 +41,9 @@
                 "start": 426,
                 "end": 431,
                 "value": "\u0007",
-                "raw": "'\\07'"
+                "raw": "'\\07'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "quasis": [
@@ -72,7 +74,9 @@
             "start": 435,
             "end": 443,
             "value": "\u0007",
-            "raw": "'\\u0007'"
+            "raw": "'\\u0007'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

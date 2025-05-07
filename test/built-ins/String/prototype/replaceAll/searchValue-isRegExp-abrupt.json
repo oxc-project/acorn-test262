@@ -121,7 +121,9 @@
                           "start": 899,
                           "end": 940,
                           "value": "Should not call toString on searchValue",
-                          "raw": "'Should not call toString on searchValue'"
+                          "raw": "'Should not call toString on searchValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -155,7 +157,9 @@
             "start": 965,
             "end": 966,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -228,7 +232,9 @@
                             "start": 1014,
                             "end": 1015,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -241,7 +247,9 @@
                           "start": 1027,
                           "end": 1074,
                           "value": "Should not call toString on this/replaceValue",
-                          "raw": "'Should not call toString on this/replaceValue'"
+                          "raw": "'Should not call toString on this/replaceValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -324,7 +332,9 @@
                           "start": 1128,
                           "end": 1130,
                           "value": "",
-                          "raw": "''"
+                          "raw": "''",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -413,7 +423,9 @@
             "start": 1209,
             "end": 1210,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

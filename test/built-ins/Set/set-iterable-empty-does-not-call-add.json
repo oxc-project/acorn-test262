@@ -74,7 +74,9 @@
             "start": 961,
             "end": 962,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -285,14 +287,18 @@
             "start": 1096,
             "end": 1097,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1099,
             "end": 1136,
             "value": "`Set.prototype.add` was not called.",
-            "raw": "\"`Set.prototype.add` was not called.\""
+            "raw": "\"`Set.prototype.add` was not called.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 1011,
             "end": 1016,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 1050,
                             "end": 1054,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -131,7 +135,9 @@
             "start": 1072,
             "end": 1074,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -154,7 +160,8 @@
           "regex": {
             "pattern": "x.y",
             "flags": "g"
-          }
+          },
+          "bigint": null
         }
       }
     },
@@ -193,7 +200,9 @@
                   "start": 1111,
                   "end": 1134,
                   "value": "It should be a RegExp",
-                  "raw": "'It should be a RegExp'"
+                  "raw": "'It should be a RegExp'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

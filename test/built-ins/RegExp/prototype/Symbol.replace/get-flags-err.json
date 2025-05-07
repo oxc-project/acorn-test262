@@ -140,7 +140,9 @@
                               "start": 870,
                               "end": 906,
                               "value": "global property should not be read",
-                              "raw": "'global property should not be read'"
+                              "raw": "'global property should not be read'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -197,7 +199,9 @@
                               "start": 959,
                               "end": 996,
                               "value": "unicode property should not be read",
-                              "raw": "'unicode property should not be read'"
+                              "raw": "'unicode property should not be read'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "b(.).(.).",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,7 +66,9 @@
                 "start": 1449,
                 "end": 1469,
                 "value": "ab𝌆defg",
-                "raw": "'ab\\ud834\\udf06defg'"
+                "raw": "'ab\\ud834\\udf06defg'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -178,7 +181,9 @@
             "start": 1535,
             "end": 1536,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +241,9 @@
             "start": 1570,
             "end": 1590,
             "value": "ab𝌆defg",
-            "raw": "'ab\\ud834\\udf06defg'"
+            "raw": "'ab\\ud834\\udf06defg'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,7 +301,9 @@
             "start": 1625,
             "end": 1626,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +352,9 @@
               "start": 1653,
               "end": 1654,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -353,7 +364,9 @@
             "start": 1657,
             "end": 1675,
             "value": "b𝌆def",
-            "raw": "'b\\ud834\\udf06def'"
+            "raw": "'b\\ud834\\udf06def'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,7 +415,9 @@
               "start": 1702,
               "end": 1703,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -412,7 +427,9 @@
             "start": 1706,
             "end": 1720,
             "value": "𝌆",
-            "raw": "'\\ud834\\udf06'"
+            "raw": "'\\ud834\\udf06'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +478,9 @@
               "start": 1747,
               "end": 1748,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -471,7 +490,9 @@
             "start": 1751,
             "end": 1754,
             "value": "e",
-            "raw": "'e'"
+            "raw": "'e'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

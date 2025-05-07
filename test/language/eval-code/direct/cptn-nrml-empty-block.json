@@ -27,7 +27,9 @@
               "start": 329,
               "end": 333,
               "value": "{}",
-              "raw": "\"{}\""
+              "raw": "\"{}\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -69,7 +71,9 @@
                     "start": 377,
                     "end": 417,
                     "value": "#1: eval(\"{}\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"{}\") === undefined. Actual: '"
+                    "raw": "'#1: eval(\"{}\") === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -92,7 +96,9 @@
                           "start": 426,
                           "end": 430,
                           "value": "{}",
-                          "raw": "\"{}\""
+                          "raw": "\"{}\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

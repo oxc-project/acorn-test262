@@ -23,7 +23,9 @@
           "start": 278,
           "end": 282,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -78,14 +80,18 @@
             "start": 322,
             "end": 331,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 333,
             "end": 381,
             "value": "The value of typeof(Infinity) is not \"boolean\"",
-            "raw": "'The value of typeof(Infinity) is not \"boolean\"'"
+            "raw": "'The value of typeof(Infinity) is not \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

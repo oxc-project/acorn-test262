@@ -101,7 +101,9 @@
                 "start": 297,
                 "end": 298,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -111,7 +113,9 @@
             "start": 301,
             "end": 302,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

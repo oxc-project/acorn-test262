@@ -67,21 +67,27 @@
             "start": 390,
             "end": 401,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 407,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 410,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -145,7 +151,9 @@
             "start": 452,
             "end": 520,
             "value": "The value of Boolean.prototype is expected to equal the value of x",
-            "raw": "'The value of Boolean.prototype is expected to equal the value of x'"
+            "raw": "'The value of Boolean.prototype is expected to equal the value of x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

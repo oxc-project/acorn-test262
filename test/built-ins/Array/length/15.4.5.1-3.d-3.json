@@ -61,7 +61,9 @@
           "start": 315,
           "end": 325,
           "value": 4294967295,
-          "raw": "4294967295"
+          "raw": "4294967295",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -117,14 +119,18 @@
             "start": 355,
             "end": 365,
             "value": 4294967295,
-            "raw": "4294967295"
+            "raw": "4294967295",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 367,
             "end": 419,
             "value": "The value of a.length is expected to be 4294967295",
-            "raw": "'The value of a.length is expected to be 4294967295'"
+            "raw": "'The value of a.length is expected to be 4294967295'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -212,14 +212,18 @@ __ESTREE_TEST__:PASS:
             "start": 57,
             "end": 59,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 61,
             "end": 62,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",

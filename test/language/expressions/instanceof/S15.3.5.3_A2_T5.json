@@ -54,7 +54,9 @@
               "start": 562,
               "end": 576,
               "value": "this.prop=1;",
-              "raw": "\"this.prop=1;\""
+              "raw": "\"this.prop=1;\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -107,7 +109,9 @@
           "start": 605,
           "end": 612,
           "value": "fairy",
-          "raw": "\"fairy\""
+          "raw": "\"fairy\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -199,7 +203,9 @@
             "start": 679,
             "end": 680,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -256,7 +262,9 @@
                   "start": 756,
                   "end": 809,
                   "value": "#1: O is not an object, throw a TypeError exception",
-                  "raw": "'#1: O is not an object, throw a TypeError exception'"
+                  "raw": "'#1: O is not an object, throw a TypeError exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -337,7 +345,9 @@
                           "start": 888,
                           "end": 943,
                           "value": "#1.1: O is not an object, throw a TypeError exception",
-                          "raw": "'#1.1: O is not an object, throw a TypeError exception'"
+                          "raw": "'#1.1: O is not an object, throw a TypeError exception'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -429,7 +439,9 @@
               "start": 1025,
               "end": 1032,
               "value": "fairy",
-              "raw": "\"fairy\""
+              "raw": "\"fairy\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -459,7 +471,9 @@
                   "start": 1062,
                   "end": 1100,
                   "value": "#2: instance.constructor === FACTORY",
-                  "raw": "'#2: instance.constructor === FACTORY'"
+                  "raw": "'#2: instance.constructor === FACTORY'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

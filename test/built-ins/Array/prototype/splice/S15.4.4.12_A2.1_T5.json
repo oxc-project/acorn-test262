@@ -28,28 +28,36 @@
                 "start": 264,
                 "end": 265,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 267,
                 "end": 268,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 270,
                 "end": 271,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 273,
                 "end": 274,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -137,7 +145,9 @@
                               "start": 333,
                               "end": 334,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -181,7 +191,9 @@
                               "start": 376,
                               "end": 377,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -196,7 +208,9 @@
                 "start": 385,
                 "end": 386,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -315,7 +329,9 @@
               "start": 455,
               "end": 465,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -323,7 +339,9 @@
               "start": 468,
               "end": 475,
               "value": "Array",
-              "raw": "\"Array\""
+              "raw": "\"Array\"",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -332,7 +350,9 @@
             "start": 478,
             "end": 481,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -365,7 +385,9 @@
                     "start": 510,
                     "end": 653,
                     "value": "#1: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr is Array object. Actual: ",
-                    "raw": "'#1: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr is Array object. Actual: '"
+                    "raw": "'#1: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr is Array object. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -440,7 +462,9 @@
           "start": 697,
           "end": 698,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -472,7 +496,9 @@
                     "start": 727,
                     "end": 867,
                     "value": "#2: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr.length === 3. Actual: ",
-                    "raw": "'#2: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr.length === 3. Actual: '"
+                    "raw": "'#2: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr.length === 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -530,7 +556,9 @@
             "start": 896,
             "end": 897,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -541,7 +569,9 @@
           "start": 903,
           "end": 904,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -573,7 +603,9 @@
                     "start": 933,
                     "end": 1069,
                     "value": "#3: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[0] === 0. Actual: ",
-                    "raw": "'#3: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[0] === 0. Actual: '"
+                    "raw": "'#3: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[0] === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -595,7 +627,9 @@
                         "start": 1077,
                         "end": 1078,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -632,7 +666,9 @@
             "start": 1094,
             "end": 1095,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -643,7 +679,9 @@
           "start": 1101,
           "end": 1102,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -675,7 +713,9 @@
                     "start": 1131,
                     "end": 1267,
                     "value": "#4: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[1] === 1. Actual: ",
-                    "raw": "'#4: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[1] === 1. Actual: '"
+                    "raw": "'#4: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[1] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -697,7 +737,9 @@
                         "start": 1275,
                         "end": 1276,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -734,7 +776,9 @@
             "start": 1292,
             "end": 1293,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -745,7 +789,9 @@
           "start": 1299,
           "end": 1300,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -777,7 +823,9 @@
                     "start": 1329,
                     "end": 1465,
                     "value": "#5: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[2] === 2. Actual: ",
-                    "raw": "'#5: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[2] === 2. Actual: '"
+                    "raw": "'#5: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); arr[2] === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -799,7 +847,9 @@
                         "start": 1473,
                         "end": 1474,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -846,7 +896,9 @@
           "start": 1499,
           "end": 1500,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -878,7 +930,9 @@
                     "start": 1529,
                     "end": 1667,
                     "value": "#6: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); x.length === 1. Actual: ",
-                    "raw": "'#6: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); x.length === 1. Actual: '"
+                    "raw": "'#6: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); x.length === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -936,7 +990,9 @@
             "start": 1692,
             "end": 1693,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -947,7 +1003,9 @@
           "start": 1699,
           "end": 1700,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -979,7 +1037,9 @@
                     "start": 1729,
                     "end": 1863,
                     "value": "#7: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); x[0] === 3. Actual: ",
-                    "raw": "'#7: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); x[0] === 3. Actual: '"
+                    "raw": "'#7: var x = [0,1,2,3]; var arr = x.splice({valueOf: function() {return 0}, toString: function() {return 3}},3); x[0] === 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1001,7 +1061,9 @@
                         "start": 1869,
                         "end": 1870,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

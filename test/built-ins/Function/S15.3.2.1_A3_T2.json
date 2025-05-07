@@ -59,7 +59,9 @@
                           "start": 1015,
                           "end": 1018,
                           "value": "a",
-                          "raw": "\"a\""
+                          "raw": "\"a\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -93,7 +95,9 @@
             "start": 1038,
             "end": 1049,
             "value": "return a;",
-            "raw": "\"return a;\""
+            "raw": "\"return a;\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -193,7 +197,9 @@
                       "start": 1130,
                       "end": 1159,
                       "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "raw": "'#1: test failed with error '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -269,7 +275,9 @@
             "start": 1211,
             "end": 1282,
             "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "raw": "'The value of f.constructor is expected to equal the value of Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +327,9 @@
                 "start": 1304,
                 "end": 1306,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -329,14 +339,18 @@
             "start": 1309,
             "end": 1311,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1313,
             "end": 1335,
             "value": "f(42) must return 42",
-            "raw": "'f(42) must return 42'"
+            "raw": "'f(42) must return 42'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -115,7 +115,9 @@ __ESTREE_TEST__:PASS:
                         "start": 102,
                         "end": 105,
                         "raw": "100",
-                        "value": 100
+                        "value": 100,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -249,7 +251,9 @@ __ESTREE_TEST__:PASS:
                             "start": 327,
                             "end": 331,
                             "raw": "true",
-                            "value": true
+                            "value": true,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -295,7 +299,9 @@ __ESTREE_TEST__:PASS:
                               "start": 254,
                               "end": 255,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -308,7 +314,9 @@ __ESTREE_TEST__:PASS:
                             "start": 276,
                             "end": 281,
                             "raw": "false",
-                            "value": false
+                            "value": false,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -344,7 +352,9 @@ __ESTREE_TEST__:PASS:
                         "start": 223,
                         "end": 224,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -647,7 +657,9 @@ __ESTREE_TEST__:PASS:
                           "start": 594,
                           "end": 605,
                           "raw": "\"Ice Cream\"",
-                          "value": "Ice Cream"
+                          "value": "Ice Cream",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Identifier",
@@ -789,7 +801,9 @@ __ESTREE_TEST__:PASS:
                           "start": 744,
                           "end": 752,
                           "raw": "\"Cookie\"",
-                          "value": "Cookie"
+                          "value": "Cookie",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Identifier",
@@ -1112,7 +1126,9 @@ __ESTREE_TEST__:PASS:
                           "start": 995,
                           "end": 1003,
                           "raw": "\"Origen\"",
-                          "value": "Origen"
+                          "value": "Origen",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Identifier",
@@ -1254,7 +1270,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1163,
                           "end": 1179,
                           "raw": "\"Nature's Logic\"",
-                          "value": "Nature's Logic"
+                          "value": "Nature's Logic",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Identifier",
@@ -1450,7 +1468,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1382,
                         "end": 1403,
                         "raw": "'Mint chocolate chip'",
-                        "value": "Mint chocolate chip"
+                        "value": "Mint chocolate chip",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1474,14 +1494,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1414,
                         "end": 1430,
                         "raw": "'Chocolate chip'",
-                        "value": "Chocolate chip"
+                        "value": "Chocolate chip",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1432,
                         "end": 1437,
                         "raw": "false",
-                        "value": false
+                        "value": false,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1506,14 +1530,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1452,
                         "end": 1467,
                         "raw": "'Peanut butter'",
-                        "value": "Peanut butter"
+                        "value": "Peanut butter",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1469,
                         "end": 1473,
                         "raw": "true",
-                        "value": true
+                        "value": true,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1615,7 +1643,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1530,
                         "end": 1551,
                         "raw": "'Mint chocolate chip'",
-                        "value": "Mint chocolate chip"
+                        "value": "Mint chocolate chip",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1639,14 +1669,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1562,
                         "end": 1578,
                         "raw": "'Chocolate chip'",
-                        "value": "Chocolate chip"
+                        "value": "Chocolate chip",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1580,
                         "end": 1585,
                         "raw": "false",
-                        "value": false
+                        "value": false,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1671,14 +1705,18 @@ __ESTREE_TEST__:PASS:
                         "start": 1600,
                         "end": 1615,
                         "raw": "'Peanut butter'",
-                        "value": "Peanut butter"
+                        "value": "Peanut butter",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1617,
                         "end": 1621,
                         "raw": "true",
-                        "value": true
+                        "value": true,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {

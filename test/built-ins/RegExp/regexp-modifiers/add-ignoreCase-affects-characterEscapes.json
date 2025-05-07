@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?i:\\x61)b",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 2199,
                 "end": 2203,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 2206,
             "end": 2228,
             "value": "\\x61 should match a",
-            "raw": "\"\\\\x61 should match a\""
+            "raw": "\"\\\\x61 should match a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +142,9 @@
                 "start": 2247,
                 "end": 2251,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +154,9 @@
             "start": 2254,
             "end": 2276,
             "value": "\\x61 should match A",
-            "raw": "\"\\\\x61 should match A\""
+            "raw": "\"\\\\x61 should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -177,7 +186,8 @@
             "regex": {
               "pattern": "(?i:\\u0061)b",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -227,7 +237,9 @@
                 "start": 2322,
                 "end": 2326,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -237,7 +249,9 @@
             "start": 2329,
             "end": 2353,
             "value": "\\u0061 should match a",
-            "raw": "\"\\\\u0061 should match a\""
+            "raw": "\"\\\\u0061 should match a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +301,9 @@
                 "start": 2372,
                 "end": 2376,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -297,7 +313,9 @@
             "start": 2379,
             "end": 2403,
             "value": "\\u0061 should match A",
-            "raw": "\"\\\\u0061 should match A\""
+            "raw": "\"\\\\u0061 should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,7 +345,8 @@
             "regex": {
               "pattern": "(?i:\\u{0061})b",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -377,7 +396,9 @@
                 "start": 2452,
                 "end": 2456,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -387,7 +408,9 @@
             "start": 2459,
             "end": 2483,
             "value": "\\u0061 should match a",
-            "raw": "\"\\\\u0061 should match a\""
+            "raw": "\"\\\\u0061 should match a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -437,7 +460,9 @@
                 "start": 2502,
                 "end": 2506,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -447,7 +472,9 @@
             "start": 2509,
             "end": 2533,
             "value": "\\u0061 should match A",
-            "raw": "\"\\\\u0061 should match A\""
+            "raw": "\"\\\\u0061 should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -477,7 +504,8 @@
             "regex": {
               "pattern": "(?i-:\\x61)b",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -527,7 +555,9 @@
                 "start": 2578,
                 "end": 2582,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -537,7 +567,9 @@
             "start": 2585,
             "end": 2607,
             "value": "\\x61 should match a",
-            "raw": "\"\\\\x61 should match a\""
+            "raw": "\"\\\\x61 should match a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +619,9 @@
                 "start": 2626,
                 "end": 2630,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -597,7 +631,9 @@
             "start": 2633,
             "end": 2655,
             "value": "\\x61 should match A",
-            "raw": "\"\\\\x61 should match A\""
+            "raw": "\"\\\\x61 should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -627,7 +663,8 @@
             "regex": {
               "pattern": "(?i-:\\u0061)b",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -677,7 +714,9 @@
                 "start": 2702,
                 "end": 2706,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -687,7 +726,9 @@
             "start": 2709,
             "end": 2733,
             "value": "\\u0061 should match a",
-            "raw": "\"\\\\u0061 should match a\""
+            "raw": "\"\\\\u0061 should match a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -737,7 +778,9 @@
                 "start": 2752,
                 "end": 2756,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -747,7 +790,9 @@
             "start": 2759,
             "end": 2783,
             "value": "\\u0061 should match A",
-            "raw": "\"\\\\u0061 should match A\""
+            "raw": "\"\\\\u0061 should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -777,7 +822,8 @@
             "regex": {
               "pattern": "(?i-:\\u{0061})b",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -827,7 +873,9 @@
                 "start": 2833,
                 "end": 2837,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -837,7 +885,9 @@
             "start": 2840,
             "end": 2864,
             "value": "\\u0061 should match a",
-            "raw": "\"\\\\u0061 should match a\""
+            "raw": "\"\\\\u0061 should match a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -887,7 +937,9 @@
                 "start": 2883,
                 "end": 2887,
                 "value": "Ab",
-                "raw": "\"Ab\""
+                "raw": "\"Ab\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -897,7 +949,9 @@
             "start": 2890,
             "end": 2914,
             "value": "\\u0061 should match A",
-            "raw": "\"\\\\u0061 should match A\""
+            "raw": "\"\\\\u0061 should match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

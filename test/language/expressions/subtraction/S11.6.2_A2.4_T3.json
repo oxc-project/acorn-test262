@@ -47,7 +47,9 @@
                     "start": 315,
                     "end": 316,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -77,7 +79,9 @@
                     "start": 344,
                     "end": 394,
                     "value": "#1.1: x - (x = 1) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x - (x = 1) throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: x - (x = 1) throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -115,7 +119,9 @@
                             "start": 407,
                             "end": 408,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -179,7 +185,9 @@
                   "start": 469,
                   "end": 473,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -211,7 +219,9 @@
                             "start": 504,
                             "end": 554,
                             "value": "#1.2: x - (x = 1) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x - (x = 1) throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: x - (x = 1) throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

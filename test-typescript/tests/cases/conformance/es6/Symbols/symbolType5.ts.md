@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 29,
                 "raw": "\"multiply\"",
-                "value": "multiply"
+                "value": "multiply",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -184,7 +186,9 @@ __ESTREE_TEST__:PASS:
           "start": 58,
           "end": 59,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -203,7 +207,9 @@ __ESTREE_TEST__:PASS:
           "start": 61,
           "end": 62,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Identifier",

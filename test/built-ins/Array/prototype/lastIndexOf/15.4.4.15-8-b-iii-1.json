@@ -49,35 +49,45 @@
                     "start": 332,
                     "end": 333,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 335,
                     "end": 336,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 338,
                     "end": 339,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 341,
                     "end": 342,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 344,
                     "end": 345,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -96,7 +106,9 @@
                 "start": 359,
                 "end": 360,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,14 +118,18 @@
             "start": 363,
             "end": 364,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 366,
             "end": 398,
             "value": "[2, 1, 2, 2, 1].lastIndexOf(2)",
-            "raw": "'[2, 1, 2, 2, 1].lastIndexOf(2)'"
+            "raw": "'[2, 1, 2, 2, 1].lastIndexOf(2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

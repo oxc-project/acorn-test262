@@ -78,7 +78,9 @@
                       "start": 564,
                       "end": 568,
                       "value": 2023,
-                      "raw": "2023"
+                      "raw": "2023",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 581,
                       "end": 586,
                       "value": "M01",
-                      "raw": "\"M01\""
+                      "raw": "\"M01\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 593,
                       "end": 595,
                       "value": 13,
-                      "raw": "13"
+                      "raw": "13",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 607,
                       "end": 616,
                       "value": "gregory",
-                      "raw": "\"gregory\""
+                      "raw": "\"gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -196,49 +204,63 @@
             "start": 672,
             "end": 676,
             "value": 2023,
-            "raw": "2023"
+            "raw": "2023",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 679,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 681,
             "end": 686,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 731,
             "value": "reference day is 1 even if day is given",
-            "raw": "\"reference day is 1 even if day is given\""
+            "raw": "\"reference day is 1 even if day is given\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 735,
             "end": 739,
             "value": "ce",
-            "raw": "\"ce\""
+            "raw": "\"ce\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 741,
             "end": 745,
             "value": 2023,
-            "raw": "2023"
+            "raw": "2023",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 770,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +341,9 @@
                       "start": 828,
                       "end": 832,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -341,7 +365,9 @@
                       "start": 845,
                       "end": 850,
                       "value": "M02",
-                      "raw": "\"M02\""
+                      "raw": "\"M02\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -363,7 +389,9 @@
                       "start": 857,
                       "end": 859,
                       "value": 50,
-                      "raw": "50"
+                      "raw": "50",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -385,7 +413,9 @@
                       "start": 871,
                       "end": 880,
                       "value": "gregory",
-                      "raw": "\"gregory\""
+                      "raw": "\"gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -414,7 +444,9 @@
                       "start": 896,
                       "end": 907,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -466,49 +498,63 @@
             "start": 963,
             "end": 967,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 969,
             "end": 970,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 972,
             "end": 977,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 981,
             "end": 1062,
             "value": "reference day is set correctly even if day is out of range (overflow constrain)",
-            "raw": "\"reference day is set correctly even if day is out of range (overflow constrain)\""
+            "raw": "\"reference day is set correctly even if day is out of range (overflow constrain)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1066,
             "end": 1070,
             "value": "ce",
-            "raw": "\"ce\""
+            "raw": "\"ce\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1072,
             "end": 1076,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1100,
             "end": 1101,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,7 +635,9 @@
                       "start": 1159,
                       "end": 1163,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -611,7 +659,9 @@
                       "start": 1176,
                       "end": 1181,
                       "value": "M02",
-                      "raw": "\"M02\""
+                      "raw": "\"M02\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -633,7 +683,9 @@
                       "start": 1188,
                       "end": 1190,
                       "value": 50,
-                      "raw": "50"
+                      "raw": "50",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -655,7 +707,9 @@
                       "start": 1202,
                       "end": 1211,
                       "value": "gregory",
-                      "raw": "\"gregory\""
+                      "raw": "\"gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -684,7 +738,9 @@
                       "start": 1227,
                       "end": 1235,
                       "value": "reject",
-                      "raw": "\"reject\""
+                      "raw": "\"reject\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -736,49 +792,63 @@
             "start": 1291,
             "end": 1295,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1297,
             "end": 1298,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1300,
             "end": 1305,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1309,
             "end": 1387,
             "value": "reference day is set correctly even if day is out of range (overflow reject)",
-            "raw": "\"reference day is set correctly even if day is out of range (overflow reject)\""
+            "raw": "\"reference day is set correctly even if day is out of range (overflow reject)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1391,
             "end": 1395,
             "value": "ce",
-            "raw": "\"ce\""
+            "raw": "\"ce\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1397,
             "end": 1401,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1425,
             "end": 1426,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -53,7 +53,9 @@
                 "start": 662,
                 "end": 670,
                 "value": "target",
-                "raw": "'target'"
+                "raw": "'target'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -138,7 +140,9 @@
                   "start": 717,
                   "end": 721,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -337,7 +341,9 @@
                 "start": 869,
                 "end": 877,
                 "value": "target",
-                "raw": "'target'"
+                "raw": "'target'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

@@ -88,7 +88,9 @@
             "start": 333,
             "end": 363,
             "value": "Object.getPrototypeOf(Error)",
-            "raw": "'Object.getPrototypeOf(Error)'"
+            "raw": "'Object.getPrototypeOf(Error)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

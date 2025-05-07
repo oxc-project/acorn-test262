@@ -91,7 +91,9 @@ __ESTREE_TEST__:PASS:
               "start": 106,
               "end": 110,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
@@ -209,14 +211,18 @@ __ESTREE_TEST__:PASS:
                           "start": 226,
                           "end": 233,
                           "raw": "'hello'",
-                          "value": "hello"
+                          "value": "hello",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 235,
                           "end": 242,
                           "raw": "'world'",
-                          "value": "world"
+                          "value": "world",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

@@ -86,7 +86,9 @@
                 "start": 323,
                 "end": 327,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -118,7 +120,9 @@
             "start": 348,
             "end": 409,
             "value": "Array.prototype.flatMap.call(true, () => {}) must return []",
-            "raw": "'Array.prototype.flatMap.call(true, () => {}) must return []'"
+            "raw": "'Array.prototype.flatMap.call(true, () => {}) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +211,9 @@
                 "start": 465,
                 "end": 470,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -239,7 +245,9 @@
             "start": 491,
             "end": 553,
             "value": "Array.prototype.flatMap.call(false, () => {}) must return []",
-            "raw": "'Array.prototype.flatMap.call(false, () => {}) must return []'"
+            "raw": "'Array.prototype.flatMap.call(false, () => {}) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -54,7 +54,9 @@
                 "start": 483,
                 "end": 484,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -99,7 +101,9 @@
               "start": 518,
               "end": 519,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -157,14 +161,18 @@
             "start": 558,
             "end": 559,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 561,
             "end": 580,
             "value": "sample.byteLength",
-            "raw": "\"sample.byteLength\""
+            "raw": "\"sample.byteLength\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,14 +230,18 @@
             "start": 619,
             "end": 620,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 641,
             "value": "sample.byteOffset",
-            "raw": "\"sample.byteOffset\""
+            "raw": "\"sample.byteOffset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -470,7 +482,9 @@
               "start": 833,
               "end": 834,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -528,14 +542,18 @@
             "start": 873,
             "end": 874,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 876,
             "end": 895,
             "value": "sample.byteLength",
-            "raw": "\"sample.byteLength\""
+            "raw": "\"sample.byteLength\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,14 +611,18 @@
             "start": 934,
             "end": 935,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 956,
             "value": "sample.byteOffset",
-            "raw": "\"sample.byteOffset\""
+            "raw": "\"sample.byteOffset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -841,7 +863,9 @@
               "start": 1148,
               "end": 1149,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -899,14 +923,18 @@
             "start": 1188,
             "end": 1189,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1191,
             "end": 1210,
             "value": "sample.byteLength",
-            "raw": "\"sample.byteLength\""
+            "raw": "\"sample.byteLength\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -964,14 +992,18 @@
             "start": 1249,
             "end": 1250,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1252,
             "end": 1271,
             "value": "sample.byteOffset",
-            "raw": "\"sample.byteOffset\""
+            "raw": "\"sample.byteOffset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1212,7 +1244,9 @@
               "start": 1463,
               "end": 1464,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1270,14 +1304,18 @@
             "start": 1503,
             "end": 1504,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1506,
             "end": 1525,
             "value": "sample.byteLength",
-            "raw": "\"sample.byteLength\""
+            "raw": "\"sample.byteLength\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1335,14 +1373,18 @@
             "start": 1564,
             "end": 1565,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1567,
             "end": 1586,
             "value": "sample.byteOffset",
-            "raw": "\"sample.byteOffset\""
+            "raw": "\"sample.byteOffset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1583,7 +1625,9 @@
               "start": 1778,
               "end": 1779,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1641,14 +1685,18 @@
             "start": 1818,
             "end": 1819,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1821,
             "end": 1840,
             "value": "sample.byteLength",
-            "raw": "\"sample.byteLength\""
+            "raw": "\"sample.byteLength\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1706,14 +1754,18 @@
             "start": 1879,
             "end": 1880,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1882,
             "end": 1901,
             "value": "sample.byteOffset",
-            "raw": "\"sample.byteOffset\""
+            "raw": "\"sample.byteOffset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

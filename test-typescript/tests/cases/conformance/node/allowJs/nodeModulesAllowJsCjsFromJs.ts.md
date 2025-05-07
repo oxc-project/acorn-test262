@@ -45,7 +45,9 @@ __ESTREE_TEST__:PASS:
           "start": 14,
           "end": 19,
           "raw": "\"foo\"",
-          "value": "foo"
+          "value": "foo",
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -72,7 +74,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 27,
         "raw": "\"./foo.cjs\"",
-        "value": "./foo.cjs"
+        "value": "./foo.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -45,7 +45,9 @@ __ESTREE_TEST__:PASS:
                   "start": 88,
                   "end": 95,
                   "raw": "\"hello\"",
-                  "value": "hello"
+                  "value": "hello",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -186,7 +188,9 @@ __ESTREE_TEST__:PASS:
                       "start": 258,
                       "end": 265,
                       "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -195,7 +199,9 @@ __ESTREE_TEST__:PASS:
                   "start": 236,
                   "end": 243,
                   "raw": "\"hello\"",
-                  "value": "hello"
+                  "value": "hello",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -345,7 +351,9 @@ __ESTREE_TEST__:PASS:
                           "start": 369,
                           "end": 376,
                           "raw": "\"hello\"",
-                          "value": "hello"
+                          "value": "hello",
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSTypeReference",
@@ -454,7 +462,9 @@ __ESTREE_TEST__:PASS:
                       "start": 505,
                       "end": 512,
                       "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -463,7 +473,9 @@ __ESTREE_TEST__:PASS:
                   "start": 483,
                   "end": 490,
                   "raw": "\"hello\"",
-                  "value": "hello"
+                  "value": "hello",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -560,7 +572,9 @@ __ESTREE_TEST__:PASS:
                   "start": 637,
                   "end": 661,
                   "raw": "\"Unreachable path taken\"",
-                  "value": "Unreachable path taken"
+                  "value": "Unreachable path taken",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

@@ -51,7 +51,9 @@
                           "start": 337,
                           "end": 342,
                           "value": "M10",
-                          "raw": "\"M10\""
+                          "raw": "\"M10\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -73,7 +75,9 @@
                           "start": 349,
                           "end": 350,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -84,7 +88,9 @@
                     "start": 354,
                     "end": 381,
                     "value": "option bag with monthCode",
-                    "raw": "\"option bag with monthCode\""
+                    "raw": "\"option bag with monthCode\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -116,7 +122,9 @@
                           "start": 400,
                           "end": 405,
                           "value": "M10",
-                          "raw": "\"M10\""
+                          "raw": "\"M10\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -138,7 +146,9 @@
                           "start": 412,
                           "end": 413,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -160,7 +170,9 @@
                           "start": 421,
                           "end": 425,
                           "value": 2015,
-                          "raw": "2015"
+                          "raw": "2015",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -171,7 +183,9 @@
                     "start": 429,
                     "end": 462,
                     "value": "option bag with year, monthCode",
-                    "raw": "\"option bag with year, monthCode\""
+                    "raw": "\"option bag with year, monthCode\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -203,7 +217,9 @@
                           "start": 477,
                           "end": 479,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -225,7 +241,9 @@
                           "start": 486,
                           "end": 487,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -236,7 +254,9 @@
                     "start": 491,
                     "end": 520,
                     "value": "option bag with year, month",
-                    "raw": "\"option bag with year, month\""
+                    "raw": "\"option bag with year, month\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -268,7 +288,9 @@
                           "start": 535,
                           "end": 537,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -290,7 +312,9 @@
                           "start": 544,
                           "end": 545,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -312,7 +336,9 @@
                           "start": 553,
                           "end": 557,
                           "value": 2015,
-                          "raw": "2015"
+                          "raw": "2015",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -323,7 +349,9 @@
                     "start": 561,
                     "end": 590,
                     "value": "option bag with year, month",
-                    "raw": "\"option bag with year, month\""
+                    "raw": "\"option bag with year, month\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -355,7 +383,9 @@
                           "start": 605,
                           "end": 607,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -377,7 +407,9 @@
                           "start": 614,
                           "end": 615,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -399,7 +431,9 @@
                           "start": 623,
                           "end": 625,
                           "value": 31,
-                          "raw": "31"
+                          "raw": "31",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -410,7 +444,9 @@
                     "start": 629,
                     "end": 660,
                     "value": "option bag with plural 'days'",
-                    "raw": "\"option bag with plural 'days'\""
+                    "raw": "\"option bag with plural 'days'\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -448,14 +484,18 @@
                         "start": 693,
                         "end": 695,
                         "value": 10,
-                        "raw": "10"
+                        "raw": "10",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 697,
                         "end": 698,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -464,7 +504,9 @@
                     "start": 701,
                     "end": 723,
                     "value": "PlainMonthDay object",
-                    "raw": "\"PlainMonthDay object\""
+                    "raw": "\"PlainMonthDay object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -515,7 +557,9 @@
                         "start": 753,
                         "end": 765,
                         "value": "2019-10-01",
-                        "raw": "\"2019-10-01\""
+                        "raw": "\"2019-10-01\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -525,7 +569,9 @@
                     "start": 768,
                     "end": 786,
                     "value": "PlainDate object",
-                    "raw": "\"PlainDate object\""
+                    "raw": "\"PlainDate object\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -557,7 +603,9 @@
                           "start": 805,
                           "end": 810,
                           "value": "M10",
-                          "raw": "\"M10\""
+                          "raw": "\"M10\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -579,7 +627,9 @@
                           "start": 817,
                           "end": 818,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -601,7 +651,9 @@
                           "start": 830,
                           "end": 839,
                           "value": "iso8601",
-                          "raw": "\"iso8601\""
+                          "raw": "\"iso8601\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -612,7 +664,9 @@
                     "start": 843,
                     "end": 896,
                     "value": "option bag with monthCode and explicit ISO calendar",
-                    "raw": "\"option bag with monthCode and explicit ISO calendar\""
+                    "raw": "\"option bag with monthCode and explicit ISO calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -644,7 +698,9 @@
                           "start": 911,
                           "end": 913,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -666,7 +722,9 @@
                           "start": 920,
                           "end": 921,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -688,7 +746,9 @@
                           "start": 933,
                           "end": 942,
                           "value": "iso8601",
-                          "raw": "\"iso8601\""
+                          "raw": "\"iso8601\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -699,7 +759,9 @@
                     "start": 946,
                     "end": 995,
                     "value": "option bag with month and explicit ISO calendar",
-                    "raw": "\"option bag with month and explicit ISO calendar\""
+                    "raw": "\"option bag with month and explicit ISO calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -952,14 +1014,18 @@
                   "start": 1256,
                   "end": 1261,
                   "value": "M10",
-                  "raw": "\"M10\""
+                  "raw": "\"M10\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1263,
                   "end": 1264,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -1052,7 +1118,9 @@
                   "start": 1335,
                   "end": 1344,
                   "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "raw": "\"iso8601\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",

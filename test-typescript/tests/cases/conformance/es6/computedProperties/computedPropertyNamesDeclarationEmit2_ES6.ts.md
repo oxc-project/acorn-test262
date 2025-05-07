@@ -32,14 +32,18 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 24,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 27,
                 "end": 29,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             },
             "kind": "method",
@@ -83,14 +87,18 @@ __ESTREE_TEST__:PASS:
                 "start": 53,
                 "end": 55,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 58,
                 "end": 60,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             },
             "kind": "get",
@@ -116,7 +124,9 @@ __ESTREE_TEST__:PASS:
                       "start": 73,
                       "end": 74,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -147,14 +157,18 @@ __ESTREE_TEST__:PASS:
                 "start": 94,
                 "end": 96,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 99,
                 "end": 101,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             },
             "kind": "set",

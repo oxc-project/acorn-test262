@@ -95,7 +95,9 @@
                             "start": 710,
                             "end": 715,
                             "value": "123",
-                            "raw": "'123'"
+                            "raw": "'123'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

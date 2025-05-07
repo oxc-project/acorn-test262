@@ -71,7 +71,9 @@
                         "start": 751,
                         "end": 758,
                         "value": 0.00005,
-                        "raw": "0.00005"
+                        "raw": "0.00005",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -158,7 +160,9 @@
                           "start": 815,
                           "end": 822,
                           "value": 0.00005,
-                          "raw": "0.00005"
+                          "raw": "0.00005",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -240,7 +244,9 @@
                         "start": 878,
                         "end": 880,
                         "value": 0.1,
-                        "raw": ".1"
+                        "raw": ".1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -327,7 +333,9 @@
                           "start": 937,
                           "end": 939,
                           "value": 0.1,
-                          "raw": ".1"
+                          "raw": ".1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -409,7 +417,9 @@
                         "start": 995,
                         "end": 998,
                         "value": 1.1,
-                        "raw": "1.1"
+                        "raw": "1.1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -496,7 +506,9 @@
                           "start": 1055,
                           "end": 1058,
                           "value": 1.1,
-                          "raw": "1.1"
+                          "raw": "1.1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

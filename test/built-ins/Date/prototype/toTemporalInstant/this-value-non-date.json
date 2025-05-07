@@ -159,7 +159,9 @@
             "start": 613,
             "end": 623,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +261,9 @@
             "start": 698,
             "end": 715,
             "value": "ordinary object",
-            "raw": "\"ordinary object\""
+            "raw": "\"ordinary object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +363,9 @@
             "start": 790,
             "end": 811,
             "value": "array exotic object",
-            "raw": "\"array exotic object\""
+            "raw": "\"array exotic object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -459,7 +465,9 @@
             "start": 888,
             "end": 913,
             "value": "arguments exotic object",
-            "raw": "\"arguments exotic object\""
+            "raw": "\"arguments exotic object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,7 +577,9 @@
             "start": 998,
             "end": 1015,
             "value": "function object",
-            "raw": "\"function object\""
+            "raw": "\"function object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -682,7 +692,9 @@
             "start": 1102,
             "end": 1118,
             "value": "Date.prototype",
-            "raw": "\"Date.prototype\""
+            "raw": "\"Date.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 64,
             "end": 65,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -166,7 +168,9 @@ __ESTREE_TEST__:PASS:
                     "start": 223,
                     "end": 243,
                     "raw": "\"/root/my/cool/path\"",
-                    "value": "/root/my/cool/path"
+                    "value": "/root/my/cool/path",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

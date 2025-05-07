@@ -48,7 +48,9 @@
             "start": 290,
             "end": 306,
             "value": "var arguments;",
-            "raw": "'var arguments;'"
+            "raw": "'var arguments;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -145,7 +145,9 @@ __ESTREE_TEST__:PASS:
             "start": 113,
             "end": 114,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -176,7 +178,9 @@ __ESTREE_TEST__:PASS:
             "start": 120,
             "end": 121,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -212,14 +216,18 @@ __ESTREE_TEST__:PASS:
               "start": 158,
               "end": 159,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Literal",
               "start": 160,
               "end": 162,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

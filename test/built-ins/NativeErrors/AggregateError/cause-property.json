@@ -48,7 +48,9 @@
             "start": 705,
             "end": 717,
             "value": "my-message",
-            "raw": "\"my-message\""
+            "raw": "\"my-message\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -92,7 +94,9 @@
                   "start": 742,
                   "end": 752,
                   "value": "my-cause",
-                  "raw": "\"my-cause\""
+                  "raw": "\"my-cause\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -200,7 +204,9 @@
             "start": 839,
             "end": 846,
             "value": "cause",
-            "raw": "\"cause\""
+            "raw": "\"cause\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -225,7 +231,9 @@
                   "start": 866,
                   "end": 870,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -247,7 +255,9 @@
                   "start": 886,
                   "end": 891,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -269,7 +279,9 @@
                   "start": 905,
                   "end": 909,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -345,7 +357,9 @@
             "start": 984,
             "end": 991,
             "value": "cause",
-            "raw": "\"cause\""
+            "raw": "\"cause\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -430,7 +444,9 @@
             "start": 1079,
             "end": 1086,
             "value": "cause",
-            "raw": "\"cause\""
+            "raw": "\"cause\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

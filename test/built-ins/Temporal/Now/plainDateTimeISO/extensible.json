@@ -82,7 +82,9 @@
             "start": 334,
             "end": 403,
             "value": "Object.isExtensible(Temporal.Now.plainDateTimeISO) must return true",
-            "raw": "'Object.isExtensible(Temporal.Now.plainDateTimeISO) must return true'"
+            "raw": "'Object.isExtensible(Temporal.Now.plainDateTimeISO) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

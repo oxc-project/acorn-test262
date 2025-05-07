@@ -23,7 +23,9 @@
             "start": 1063,
             "end": 1064,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +103,9 @@
                       "start": 1146,
                       "end": 1147,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -154,7 +158,9 @@
                                   "start": 1208,
                                   "end": 1219,
                                   "value": "fulfilled",
-                                  "raw": "'fulfilled'"
+                                  "raw": "'fulfilled'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -176,7 +182,9 @@
                                   "start": 1236,
                                   "end": 1248,
                                   "value": "p1-fulfill",
-                                  "raw": "'p1-fulfill'"
+                                  "raw": "'p1-fulfill'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -205,7 +213,9 @@
                                   "start": 1282,
                                   "end": 1293,
                                   "value": "fulfilled",
-                                  "raw": "'fulfilled'"
+                                  "raw": "'fulfilled'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -227,7 +237,9 @@
                                   "start": 1310,
                                   "end": 1322,
                                   "value": "p2-fulfill",
-                                  "raw": "'p2-fulfill'"
+                                  "raw": "'p2-fulfill'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -256,7 +268,9 @@
                                   "start": 1356,
                                   "end": 1367,
                                   "value": "fulfilled",
-                                  "raw": "'fulfilled'"
+                                  "raw": "'fulfilled'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -278,7 +292,9 @@
                                   "start": 1384,
                                   "end": 1396,
                                   "value": "p3-fulfill",
-                                  "raw": "'p3-fulfill'"
+                                  "raw": "'p3-fulfill'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -291,7 +307,9 @@
                         "start": 1412,
                         "end": 1420,
                         "value": "values",
-                        "raw": "'values'"
+                        "raw": "'values'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -606,7 +624,9 @@
                               "start": 1692,
                               "end": 1704,
                               "value": "p1-fulfill",
-                              "raw": "'p1-fulfill'"
+                              "raw": "'p1-fulfill'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -632,7 +652,9 @@
                               "start": 1723,
                               "end": 1735,
                               "value": "p2-fulfill",
-                              "raw": "'p2-fulfill'"
+                              "raw": "'p2-fulfill'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -729,7 +751,9 @@
                               "start": 1806,
                               "end": 1818,
                               "value": "p3-fulfill",
-                              "raw": "'p3-fulfill'"
+                              "raw": "'p3-fulfill'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -785,14 +809,18 @@
             "start": 1857,
             "end": 1858,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1860,
             "end": 1892,
             "value": "callCount before call to all()",
-            "raw": "'callCount before call to all()'"
+            "raw": "'callCount before call to all()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -913,14 +941,18 @@
             "start": 1977,
             "end": 1978,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1980,
             "end": 2011,
             "value": "callCount after call to all()",
-            "raw": "'callCount after call to all()'"
+            "raw": "'callCount after call to all()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -343,7 +343,9 @@ __ESTREE_TEST__:PASS:
                 "start": 26,
                 "end": 61,
                 "raw": "'./moduleExportAliasDuplicateAlias'",
-                "value": "./moduleExportAliasDuplicateAlias"
+                "value": "./moduleExportAliasDuplicateAlias",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

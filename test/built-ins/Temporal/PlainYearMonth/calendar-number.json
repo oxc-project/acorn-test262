@@ -28,7 +28,9 @@
                 "start": 270,
                 "end": 271,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -41,7 +43,9 @@
                   "start": 276,
                   "end": 284,
                   "value": 19761118,
-                  "raw": "19761118"
+                  "raw": "19761118",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -49,14 +53,18 @@
                 "start": 288,
                 "end": 296,
                 "value": 19761118,
-                "raw": "19761118"
+                "raw": "19761118",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 310,
                 "value": 1234567890,
-                "raw": "1234567890"
+                "raw": "1234567890",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -172,14 +180,18 @@
                         "start": 415,
                         "end": 419,
                         "value": 2000,
-                        "raw": "2000"
+                        "raw": "2000",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 421,
                         "end": 422,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -192,7 +204,9 @@
                         "start": 429,
                         "end": 430,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -202,7 +216,9 @@
                   "start": 437,
                   "end": 486,
                   "value": "A number is not a valid ISO string for Calendar",
-                  "raw": "\"A number is not a valid ISO string for Calendar\""
+                  "raw": "\"A number is not a valid ISO string for Calendar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

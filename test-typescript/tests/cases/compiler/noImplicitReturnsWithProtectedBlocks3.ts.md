@@ -154,7 +154,9 @@ __ESTREE_TEST__:PASS:
                           "start": 165,
                           "end": 175,
                           "raw": "\"in catch\"",
-                          "value": "in catch"
+                          "value": "in catch",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

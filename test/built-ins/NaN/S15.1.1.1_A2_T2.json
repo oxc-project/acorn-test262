@@ -23,7 +23,9 @@
           "start": 265,
           "end": 269,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -78,14 +80,18 @@
             "start": 304,
             "end": 313,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 315,
             "end": 358,
             "value": "The value of typeof(NaN) is not \"boolean\"",
-            "raw": "'The value of typeof(NaN) is not \"boolean\"'"
+            "raw": "'The value of typeof(NaN) is not \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

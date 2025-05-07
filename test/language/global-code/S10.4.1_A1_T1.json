@@ -23,7 +23,9 @@
             "start": 428,
             "end": 429,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -61,7 +63,9 @@
           "start": 447,
           "end": 448,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -89,7 +93,9 @@
                   "start": 477,
                   "end": 524,
                   "value": "#1: variable x is a property of global object",
-                  "raw": "\"#1: variable x is a property of global object\""
+                  "raw": "\"#1: variable x is a property of global object\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -137,7 +143,9 @@
           "start": 551,
           "end": 556,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -165,7 +173,9 @@
                   "start": 584,
                   "end": 634,
                   "value": "#2: variable x has property attribute DontDelete",
-                  "raw": "\"#2: variable x has property attribute DontDelete\""
+                  "raw": "\"#2: variable x has property attribute DontDelete\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -85,7 +85,9 @@
                   "start": 733,
                   "end": 734,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -295,7 +297,9 @@
                               "start": 909,
                               "end": 914,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -445,7 +449,9 @@
               "start": 1016,
               "end": 1022,
               "value": "prop",
-              "raw": "'prop'"
+              "raw": "'prop'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -460,7 +466,9 @@
             "start": 1032,
             "end": 1037,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,7 +519,9 @@
             "start": 1076,
             "end": 1096,
             "value": "handler is context",
-            "raw": "'handler is context'"
+            "raw": "'handler is context'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -562,7 +572,9 @@
             "start": 1133,
             "end": 1164,
             "value": "target is the first parameter",
-            "raw": "'target is the first parameter'"
+            "raw": "'target is the first parameter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -607,14 +619,18 @@
             "start": 1191,
             "end": 1197,
             "value": "prop",
-            "raw": "'prop'"
+            "raw": "'prop'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1199,
             "end": 1234,
             "value": "given prop is the second paramter",
-            "raw": "'given prop is the second paramter'"
+            "raw": "'given prop is the second paramter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

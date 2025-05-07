@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
             "start": 17,
             "end": 22,
             "raw": "10000",
-            "value": 10000
+            "value": 10000,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -78,7 +80,9 @@ __ESTREE_TEST__:PASS:
             "start": 43,
             "end": 52,
             "raw": "\"my name\"",
-            "value": "my name"
+            "value": "my name",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

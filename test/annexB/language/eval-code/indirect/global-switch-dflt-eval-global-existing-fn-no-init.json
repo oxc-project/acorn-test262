@@ -25,7 +25,9 @@
                 "start": 583,
                 "end": 584,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -54,7 +56,9 @@
                   "start": 594,
                   "end": 651,
                   "value": "assert.sameValue(f(), \"outer declaration\");switch (1) {",
-                  "raw": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'"
+                  "raw": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -62,7 +66,9 @@
                   "start": 656,
                   "end": 668,
                   "value": "  default:",
-                  "raw": "'  default:'"
+                  "raw": "'  default:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -71,7 +77,9 @@
                 "start": 673,
                 "end": 723,
                 "value": "    function f() { return \"inner declaration\"; }",
-                "raw": "'    function f() { return \"inner declaration\"; }'"
+                "raw": "'    function f() { return \"inner declaration\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -80,7 +88,9 @@
               "start": 728,
               "end": 787,
               "value": "}  function f() {    return \"outer declaration\";  }",
-              "raw": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
+              "raw": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

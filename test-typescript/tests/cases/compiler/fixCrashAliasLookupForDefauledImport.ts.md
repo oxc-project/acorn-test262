@@ -88,7 +88,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "\"./input\"",
-        "value": "./input"
+        "value": "./input",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -136,7 +138,9 @@ __ESTREE_TEST__:PASS:
               "start": 73,
               "end": 74,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -230,7 +234,9 @@ __ESTREE_TEST__:PASS:
               "start": 83,
               "end": 84,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSTypeReference",

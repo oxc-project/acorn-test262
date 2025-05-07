@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                   "start": 22,
                   "end": 23,
                   "raw": "6",
-                  "value": 6
+                  "value": 6,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -75,7 +77,9 @@ __ESTREE_TEST__:PASS:
                           "start": 56,
                           "end": 100,
                           "raw": "'#6.1: var \\\\u0078x = 1; xx === 6. Actual: '",
-                          "value": "#6.1: var \\u0078x = 1; xx === 6. Actual: "
+                          "value": "#6.1: var \\u0078x = 1; xx === 6. Actual: ",
+                          "regex": null,
+                          "bigint": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -122,7 +126,9 @@ __ESTREE_TEST__:PASS:
                 "start": 39,
                 "end": 40,
                 "raw": "6",
-                "value": 6
+                "value": 6,
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -158,7 +164,9 @@ __ESTREE_TEST__:PASS:
                       "start": 139,
                       "end": 183,
                       "raw": "'#6.2: var \\\\u0078x = 1; xx === 6. Actual: '",
-                      "value": "#6.2: var \\u0078x = 1; xx === 6. Actual: "
+                      "value": "#6.2: var \\u0078x = 1; xx === 6. Actual: ",
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",

@@ -92,7 +92,9 @@
                   "start": 416,
                   "end": 434,
                   "value": "arrayGetProperty",
-                  "raw": "\"arrayGetProperty\""
+                  "raw": "\"arrayGetProperty\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -164,7 +166,9 @@
             "start": 484,
             "end": 494,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -228,14 +232,18 @@
             "start": 537,
             "end": 555,
             "value": "arrayGetProperty",
-            "raw": "\"arrayGetProperty\""
+            "raw": "\"arrayGetProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 571,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

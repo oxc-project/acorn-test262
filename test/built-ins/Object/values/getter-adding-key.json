@@ -41,7 +41,9 @@
                   "start": 312,
                   "end": 315,
                   "value": "A",
-                  "raw": "'A'"
+                  "raw": "'A'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -104,7 +106,9 @@
                             "start": 342,
                             "end": 345,
                             "value": "C",
-                            "raw": "'C'"
+                            "raw": "'C'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -117,7 +121,9 @@
                           "start": 358,
                           "end": 361,
                           "value": "B",
-                          "raw": "'B'"
+                          "raw": "'B'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -249,14 +255,18 @@
             "start": 448,
             "end": 452,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 474,
             "value": "result is an array",
-            "raw": "'result is an array'"
+            "raw": "'result is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,14 +324,18 @@
             "start": 509,
             "end": 510,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 532,
             "value": "result has 2 items",
-            "raw": "'result has 2 items'"
+            "raw": "'result has 2 items'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -370,7 +384,9 @@
               "start": 560,
               "end": 561,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -380,14 +396,18 @@
             "start": 564,
             "end": 567,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 569,
             "end": 589,
             "value": "first value is \"A\"",
-            "raw": "'first value is \"A\"'"
+            "raw": "'first value is \"A\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +456,9 @@
               "start": 616,
               "end": 617,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -446,14 +468,18 @@
             "start": 620,
             "end": 623,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 646,
             "value": "second value is \"B\"",
-            "raw": "'second value is \"B\"'"
+            "raw": "'second value is \"B\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

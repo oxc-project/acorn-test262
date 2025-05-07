@@ -104,7 +104,9 @@
                   "start": 397,
                   "end": 404,
                   "value": "Array",
-                  "raw": "\"Array\""
+                  "raw": "\"Array\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -230,14 +232,18 @@
             "start": 493,
             "end": 500,
             "value": "Array",
-            "raw": "\"Array\""
+            "raw": "\"Array\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 516,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

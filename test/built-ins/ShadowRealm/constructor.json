@@ -49,14 +49,18 @@
             "start": 373,
             "end": 383,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 441,
             "value": "This test must fail if ShadowRealm is not a function",
-            "raw": "'This test must fail if ShadowRealm is not a function'"
+            "raw": "'This test must fail if ShadowRealm is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

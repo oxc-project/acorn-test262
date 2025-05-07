@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 35,
         "raw": "\"missing\"",
-        "value": "missing"
+        "value": "missing",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -69,14 +69,18 @@
             "start": 741,
             "end": 746,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 748,
             "end": 796,
             "value": "isConstructor(Reflect.apply) must return false",
-            "raw": "'isConstructor(Reflect.apply) must return false'"
+            "raw": "'isConstructor(Reflect.apply) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

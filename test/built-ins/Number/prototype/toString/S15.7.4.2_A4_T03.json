@@ -34,7 +34,9 @@
                 "start": 448,
                 "end": 449,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -81,7 +83,9 @@
             "start": 478,
             "end": 488,
             "value": "toString",
-            "raw": "\"toString\""
+            "raw": "\"toString\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -215,7 +219,9 @@
                   "start": 584,
                   "end": 661,
                   "value": "#1: Number.prototype.toString on not a Number object should throw TypeError",
-                  "raw": "'#1: Number.prototype.toString on not a Number object should throw TypeError'"
+                  "raw": "'#1: Number.prototype.toString on not a Number object should throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -275,7 +281,9 @@
                     "start": 711,
                     "end": 785,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -317,7 +325,9 @@
                 "start": 809,
                 "end": 810,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -461,7 +471,9 @@
                   "start": 915,
                   "end": 992,
                   "value": "#2: Number.prototype.toString on not a Number object should throw TypeError",
-                  "raw": "'#2: Number.prototype.toString on not a Number object should throw TypeError'"
+                  "raw": "'#2: Number.prototype.toString on not a Number object should throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -521,7 +533,9 @@
                     "start": 1042,
                     "end": 1116,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

@@ -83,7 +83,9 @@
                   "start": 1291,
                   "end": 1301,
                   "value": "calendar",
-                  "raw": "\"calendar\""
+                  "raw": "\"calendar\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -127,7 +129,9 @@
             "start": 1331,
             "end": 1337,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +156,9 @@
                   "start": 1350,
                   "end": 1364,
                   "value": "get calendar",
-                  "raw": "\"get calendar\""
+                  "raw": "\"get calendar\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +180,9 @@
                   "start": 1378,
                   "end": 1383,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +204,9 @@
                   "start": 1399,
                   "end": 1404,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -218,7 +228,9 @@
                   "start": 1422,
                   "end": 1426,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

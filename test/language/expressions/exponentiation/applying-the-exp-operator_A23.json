@@ -77,7 +77,9 @@
             "start": 363,
             "end": 364,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -93,7 +95,9 @@
             "start": 369,
             "end": 391,
             "value": 1.7976931348623157e+308,
-            "raw": "1.7976931348623157E308"
+            "raw": "1.7976931348623157E308",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -122,7 +126,9 @@
             "start": 435,
             "end": 436,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -179,7 +185,9 @@
             "start": 456,
             "end": 457,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -195,7 +203,9 @@
             "start": 462,
             "end": 463,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -224,7 +234,9 @@
             "start": 471,
             "end": 472,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -240,7 +252,9 @@
             "start": 477,
             "end": 494,
             "value": 1e-15,
-            "raw": "0.000000000000001"
+            "raw": "0.000000000000001",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -269,7 +283,9 @@
             "start": 507,
             "end": 508,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -326,7 +342,9 @@
             "start": 532,
             "end": 533,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -383,7 +401,9 @@
             "start": 556,
             "end": 557,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -399,7 +419,9 @@
             "start": 562,
             "end": 579,
             "value": 1.000000000000001,
-            "raw": "1.000000000000001"
+            "raw": "1.000000000000001",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -428,7 +450,9 @@
             "start": 591,
             "end": 592,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -444,7 +468,9 @@
             "start": 597,
             "end": 614,
             "value": 1e-15,
-            "raw": "0.000000000000001"
+            "raw": "0.000000000000001",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -473,7 +499,9 @@
             "start": 626,
             "end": 627,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -483,7 +511,9 @@
           "start": 631,
           "end": 648,
           "value": 1e-15,
-          "raw": "0.000000000000001"
+          "raw": "0.000000000000001",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -511,7 +541,9 @@
             "start": 660,
             "end": 661,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -521,7 +553,9 @@
           "start": 665,
           "end": 682,
           "value": 1.000000000000001,
-          "raw": "1.000000000000001"
+          "raw": "1.000000000000001",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -549,7 +583,9 @@
             "start": 694,
             "end": 695,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -599,7 +635,9 @@
             "start": 717,
             "end": 718,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -649,7 +687,9 @@
               "start": 745,
               "end": 746,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -728,7 +768,9 @@
                     "start": 788,
                     "end": 789,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -894,7 +936,9 @@
                             "start": 902,
                             "end": 908,
                             "value": " ** ",
-                            "raw": "\" ** \""
+                            "raw": "\" ** \"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

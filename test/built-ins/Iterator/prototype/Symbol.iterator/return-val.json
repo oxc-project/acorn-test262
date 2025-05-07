@@ -210,7 +210,9 @@
                 "start": 552,
                 "end": 553,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -218,6 +220,7 @@
                 "end": 557,
                 "value": null,
                 "raw": "4n",
+                "regex": null,
                 "bigint": "4"
               },
               {
@@ -225,7 +228,9 @@
                 "start": 559,
                 "end": 563,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -238,7 +243,9 @@
                 "start": 576,
                 "end": 580,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

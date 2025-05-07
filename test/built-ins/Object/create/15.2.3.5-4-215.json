@@ -89,7 +89,9 @@
                             "start": 359,
                             "end": 364,
                             "value": "abc",
-                            "raw": "\"abc\""
+                            "raw": "\"abc\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -150,7 +152,9 @@
                 "start": 413,
                 "end": 419,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +196,9 @@
           "start": 437,
           "end": 440,
           "value": 121,
-          "raw": "121"
+          "raw": "121",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -222,7 +228,9 @@
             "start": 463,
             "end": 485,
             "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "raw": "'hasProperty !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,14 +288,18 @@
             "start": 518,
             "end": 521,
             "value": 121,
-            "raw": "121"
+            "raw": "121",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 536,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

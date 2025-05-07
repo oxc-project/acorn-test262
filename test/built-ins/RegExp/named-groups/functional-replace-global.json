@@ -23,7 +23,9 @@
             "start": 653,
             "end": 673,
             "value": "(?<fst>.)(?<snd>.)",
-            "raw": "\"(?<fst>.)(?<snd>.)\""
+            "raw": "\"(?<fst>.)(?<snd>.)\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 697,
             "end": 718,
             "value": "(?<fst>.)|(?<snd>.)",
-            "raw": "\"(?<fst>.)|(?<snd>.)\""
+            "raw": "\"(?<fst>.)|(?<snd>.)\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -90,14 +94,18 @@
             "start": 740,
             "end": 743,
             "value": "g",
-            "raw": "\"g\""
+            "raw": "\"g\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 749,
             "value": "gu",
-            "raw": "\"gu\""
+            "raw": "\"gu\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -126,7 +134,9 @@
                   "start": 764,
                   "end": 765,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -204,7 +214,9 @@
                       "start": 820,
                       "end": 826,
                       "value": "abcd",
-                      "raw": "\"abcd\""
+                      "raw": "\"abcd\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -293,7 +305,9 @@
                                 "start": 902,
                                 "end": 903,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -334,7 +348,9 @@
                                         "start": 930,
                                         "end": 934,
                                         "value": "ab",
-                                        "raw": "\"ab\""
+                                        "raw": "\"ab\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -379,7 +395,9 @@
                                         "start": 967,
                                         "end": 970,
                                         "value": "a",
-                                        "raw": "\"a\""
+                                        "raw": "\"a\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "MemberExpression",
@@ -437,7 +455,9 @@
                                         "start": 1008,
                                         "end": 1011,
                                         "value": "b",
-                                        "raw": "\"b\""
+                                        "raw": "\"b\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "MemberExpression",
@@ -495,7 +515,9 @@
                                         "start": 1049,
                                         "end": 1052,
                                         "value": "a",
-                                        "raw": "\"a\""
+                                        "raw": "\"a\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -540,7 +562,9 @@
                                         "start": 1083,
                                         "end": 1086,
                                         "value": "b",
-                                        "raw": "\"b\""
+                                        "raw": "\"b\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -585,7 +609,9 @@
                                         "start": 1117,
                                         "end": 1118,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -630,7 +656,9 @@
                                         "start": 1152,
                                         "end": 1158,
                                         "value": "abcd",
-                                        "raw": "\"abcd\""
+                                        "raw": "\"abcd\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -664,7 +692,9 @@
                                   "start": 1186,
                                   "end": 1187,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "consequent": {
@@ -705,7 +735,9 @@
                                           "start": 1214,
                                           "end": 1218,
                                           "value": "cd",
-                                          "raw": "\"cd\""
+                                          "raw": "\"cd\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -750,7 +782,9 @@
                                           "start": 1251,
                                           "end": 1254,
                                           "value": "c",
-                                          "raw": "\"c\""
+                                          "raw": "\"c\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "MemberExpression",
@@ -808,7 +842,9 @@
                                           "start": 1292,
                                           "end": 1295,
                                           "value": "d",
-                                          "raw": "\"d\""
+                                          "raw": "\"d\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "MemberExpression",
@@ -866,7 +902,9 @@
                                           "start": 1333,
                                           "end": 1336,
                                           "value": "c",
-                                          "raw": "\"c\""
+                                          "raw": "\"c\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -911,7 +949,9 @@
                                           "start": 1367,
                                           "end": 1370,
                                           "value": "d",
-                                          "raw": "\"d\""
+                                          "raw": "\"d\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -956,7 +996,9 @@
                                           "start": 1401,
                                           "end": 1402,
                                           "value": 2,
-                                          "raw": "2"
+                                          "raw": "2",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -1001,7 +1043,9 @@
                                           "start": 1436,
                                           "end": 1442,
                                           "value": "abcd",
-                                          "raw": "\"abcd\""
+                                          "raw": "\"abcd\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -1185,7 +1229,9 @@
                   "start": 1571,
                   "end": 1577,
                   "value": "badc",
-                  "raw": "\"badc\""
+                  "raw": "\"badc\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -1236,7 +1282,9 @@
                   "start": 1610,
                   "end": 1611,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1319,7 +1367,9 @@
                   "start": 1682,
                   "end": 1720,
                   "value": "undefinedundefinedundefinedundefined",
-                  "raw": "\"undefinedundefinedundefinedundefined\""
+                  "raw": "\"undefinedundefinedundefinedundefined\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "CallExpression",
@@ -1334,7 +1384,9 @@
                       "start": 1728,
                       "end": 1734,
                       "value": "abcd",
-                      "raw": "\"abcd\""
+                      "raw": "\"abcd\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",

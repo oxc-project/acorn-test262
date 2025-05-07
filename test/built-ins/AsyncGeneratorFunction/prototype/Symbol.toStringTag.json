@@ -128,7 +128,9 @@
                   "start": 715,
                   "end": 739,
                   "value": "AsyncGeneratorFunction",
-                  "raw": "'AsyncGeneratorFunction'"
+                  "raw": "'AsyncGeneratorFunction'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -150,7 +152,9 @@
                   "start": 755,
                   "end": 760,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -172,7 +176,9 @@
                   "start": 774,
                   "end": 779,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -194,7 +200,9 @@
                   "start": 797,
                   "end": 801,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

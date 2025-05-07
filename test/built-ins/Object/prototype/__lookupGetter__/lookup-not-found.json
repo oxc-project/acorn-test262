@@ -189,7 +189,9 @@
                 "start": 764,
                 "end": 772,
                 "value": "target",
-                "raw": "'target'"
+                "raw": "'target'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

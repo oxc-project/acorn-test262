@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 36,
                 "raw": "\"en-US\"",
-                "value": "en-US"
+                "value": "en-US",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -98,7 +100,9 @@ __ESTREE_TEST__:PASS:
                 "start": 68,
                 "end": 75,
                 "raw": "\"de-DE\"",
-                "value": "de-DE"
+                "value": "de-DE",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -162,7 +166,9 @@ __ESTREE_TEST__:PASS:
                 "start": 107,
                 "end": 114,
                 "raw": "\"ja-JP\"",
-                "value": "ja-JP"
+                "value": "ja-JP",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -261,7 +267,9 @@ __ESTREE_TEST__:PASS:
             "start": 154,
             "end": 158,
             "raw": "1000",
-            "value": 1000
+            "value": 1000,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -291,9 +299,10 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 175,
             "end": 194,
-            "bigint": "123456789123456789",
             "raw": "123456789123456789n",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": "123456789123456789"
           }
         }
       ],
@@ -324,7 +333,9 @@ __ESTREE_TEST__:PASS:
             "start": 208,
             "end": 210,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -395,14 +406,18 @@ __ESTREE_TEST__:PASS:
                 "start": 258,
                 "end": 265,
                 "raw": "'de-DE'",
-                "value": "de-DE"
+                "value": "de-DE",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 267,
                 "end": 274,
                 "raw": "'ja-JP'",
-                "value": "ja-JP"
+                "value": "ja-JP",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

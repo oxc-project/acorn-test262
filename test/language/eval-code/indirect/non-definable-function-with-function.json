@@ -34,7 +34,9 @@
                       "start": 1499,
                       "end": 1500,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -51,7 +53,9 @@
                   "start": 1507,
                   "end": 1594,
                   "value": "function shouldNotBeDefined1() {} function NaN() {} function shouldNotBeDefined2() {}",
-                  "raw": "\"function shouldNotBeDefined1() {} function NaN() {} function shouldNotBeDefined2() {}\""
+                  "raw": "\"function shouldNotBeDefined1() {} function NaN() {} function shouldNotBeDefined2() {}\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -140,7 +144,9 @@
                 "start": 1705,
                 "end": 1726,
                 "value": "shouldNotBeDefined1",
-                "raw": "\"shouldNotBeDefined1\""
+                "raw": "\"shouldNotBeDefined1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,7 +162,9 @@
             "start": 1744,
             "end": 1767,
             "value": "declaration preceding",
-            "raw": "\"declaration preceding\""
+            "raw": "\"declaration preceding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -224,7 +232,9 @@
                 "start": 1829,
                 "end": 1850,
                 "value": "shouldNotBeDefined2",
-                "raw": "\"shouldNotBeDefined2\""
+                "raw": "\"shouldNotBeDefined2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -240,7 +250,9 @@
             "start": 1868,
             "end": 1891,
             "value": "declaration following",
-            "raw": "\"declaration following\""
+            "raw": "\"declaration following\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

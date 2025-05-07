@@ -91,7 +91,9 @@ __ESTREE_TEST__:PASS:
                       "start": 74,
                       "end": 76,
                       "raw": "12",
-                      "value": 12
+                      "value": 12,
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -229,7 +231,9 @@ __ESTREE_TEST__:PASS:
                         "start": 157,
                         "end": 159,
                         "raw": "10",
-                        "value": 10
+                        "value": 10,
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {

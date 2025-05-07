@@ -23,14 +23,18 @@
             "start": 373,
             "end": 384,
             "value": "arguments",
-            "raw": "'arguments'"
+            "raw": "'arguments'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 386,
             "end": 395,
             "value": "return;",
-            "raw": "'return;'"
+            "raw": "'return;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

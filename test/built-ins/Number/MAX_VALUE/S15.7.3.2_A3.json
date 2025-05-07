@@ -29,7 +29,9 @@
             "start": 319,
             "end": 330,
             "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "raw": "\"MAX_VALUE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -103,7 +105,9 @@
                   "start": 395,
                   "end": 400,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

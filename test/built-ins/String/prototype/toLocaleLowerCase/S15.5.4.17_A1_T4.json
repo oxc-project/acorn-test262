@@ -31,7 +31,9 @@
                 "start": 337,
                 "end": 339,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -69,7 +71,9 @@
             "start": 379,
             "end": 381,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -152,7 +156,9 @@
                     "start": 546,
                     "end": 657,
                     "value": "#1: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: ",
-                    "raw": "'#1: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: '"
+                    "raw": "'#1: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -259,7 +265,9 @@
                     "start": 926,
                     "end": 1035,
                     "value": "#2: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: ",
-                    "raw": "'#2: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: '"
+                    "raw": "'#2: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -366,7 +374,9 @@
                     "start": 1303,
                     "end": 1412,
                     "value": "#3: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: ",
-                    "raw": "'#3: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: '"
+                    "raw": "'#3: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -419,7 +429,9 @@
             "start": 1625,
             "end": 1626,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -440,7 +452,9 @@
             "start": 1643,
             "end": 1644,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -475,7 +489,9 @@
                     "start": 1674,
                     "end": 1775,
                     "value": "#4: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase[0]===__expected[0]. Actual: ",
-                    "raw": "'#4: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase[0]===__expected[0]. Actual: '"
+                    "raw": "'#4: __lowerCase = \"\".toLocaleLowerCase(); __expected = \"\"; __lowerCase[0]===__expected[0]. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -493,7 +509,9 @@
                       "start": 1790,
                       "end": 1791,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

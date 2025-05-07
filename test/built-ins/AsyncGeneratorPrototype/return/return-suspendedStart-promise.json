@@ -52,7 +52,9 @@
                         "start": 1064,
                         "end": 1096,
                         "value": "Generator must not be resumed.",
-                        "raw": "'Generator must not be resumed.'"
+                        "raw": "'Generator must not be resumed.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -331,14 +333,18 @@
                             "start": 1274,
                             "end": 1291,
                             "value": "unwrapped-value",
-                            "raw": "'unwrapped-value'"
+                            "raw": "'unwrapped-value'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1293,
                             "end": 1355,
                             "value": "AsyncGeneratorResolve(generator, completion.[[Value]], true)",
-                            "raw": "'AsyncGeneratorResolve(generator, completion.[[Value]], true)'"
+                            "raw": "'AsyncGeneratorResolve(generator, completion.[[Value]], true)'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -396,14 +402,18 @@
                             "start": 1387,
                             "end": 1391,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1393,
                             "end": 1455,
                             "value": "AsyncGeneratorResolve(generator, completion.[[Value]], true)",
-                            "raw": "'AsyncGeneratorResolve(generator, completion.[[Value]], true)'"
+                            "raw": "'AsyncGeneratorResolve(generator, completion.[[Value]], true)'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -544,7 +554,9 @@
                                             "start": 1535,
                                             "end": 1556,
                                             "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "raw": "'Generator is closed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -602,14 +614,18 @@
                                             "start": 1590,
                                             "end": 1594,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1596,
                                             "end": 1617,
                                             "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "raw": "'Generator is closed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -693,7 +709,9 @@
             "start": 1671,
             "end": 1688,
             "value": "unwrapped-value",
-            "raw": "'unwrapped-value'"
+            "raw": "'unwrapped-value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

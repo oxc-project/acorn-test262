@@ -54,7 +54,9 @@
                   "start": 414,
                   "end": 424,
                   "value": "gnulluna",
-                  "raw": "\"gnulluna\""
+                  "raw": "\"gnulluna\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -232,7 +234,9 @@
               "start": 639,
               "end": 643,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "MemberExpression",
@@ -280,7 +284,9 @@
                     "start": 670,
                     "end": 671,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -303,7 +309,9 @@
           "start": 685,
           "end": 692,
           "value": "gnull",
-          "raw": "\"gnull\""
+          "raw": "\"gnull\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -335,7 +343,9 @@
                     "start": 721,
                     "end": 802,
                     "value": "#1: __func.slice(null, Function().slice(__func,5).length) === \"gnull\". Actual: ",
-                    "raw": "'#1: __func.slice(null, Function().slice(__func,5).length) === \"gnull\". Actual: '"
+                    "raw": "'#1: __func.slice(null, Function().slice(__func,5).length) === \"gnull\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -367,7 +377,9 @@
                         "start": 818,
                         "end": 822,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",
@@ -415,7 +427,9 @@
                               "start": 849,
                               "end": 850,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

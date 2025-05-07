@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -449,7 +451,9 @@ __ESTREE_TEST__:PASS:
                           "start": 307,
                           "end": 318,
                           "raw": "\"Component\"",
-                          "value": "Component"
+                          "value": "Component",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -1419,28 +1423,36 @@ __ESTREE_TEST__:PASS:
                           "start": 792,
                           "end": 793,
                           "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 795,
                           "end": 796,
                           "raw": "2",
-                          "value": 2
+                          "value": 2,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 798,
                           "end": 799,
                           "raw": "3",
-                          "value": 3
+                          "value": 3,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 801,
                           "end": 802,
                           "raw": "4",
-                          "value": 4
+                          "value": 4,
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

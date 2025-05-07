@@ -217,7 +217,9 @@
               "start": 1096,
               "end": 1143,
               "value": "(function(strings) { return strings; })`1234`",
-              "raw": "'(function(strings) { return strings; })`1234`'"
+              "raw": "'(function(strings) { return strings; })`1234`'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false

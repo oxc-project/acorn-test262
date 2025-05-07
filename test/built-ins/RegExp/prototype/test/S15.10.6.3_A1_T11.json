@@ -34,7 +34,9 @@
                 "start": 338,
                 "end": 343,
                 "value": 1.012,
-                "raw": "1.012"
+                "raw": "1.012",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -66,7 +68,8 @@
             "regex": {
               "pattern": "2|12",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -176,7 +179,9 @@
               "start": 433,
               "end": 437,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -184,7 +189,9 @@
             "start": 441,
             "end": 512,
             "value": "__re.test(new Number(1.012)) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(new Number(1.012)) must return __re.exec(__string) !== null'"
+            "raw": "'__re.test(new Number(1.012)) must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

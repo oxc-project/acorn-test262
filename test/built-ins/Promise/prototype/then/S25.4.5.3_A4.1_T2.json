@@ -183,7 +183,9 @@
                             "start": 396,
                             "end": 443,
                             "value": "Should not be called -- promise was rejected.",
-                            "raw": "\"Should not be called -- promise was rejected.\""
+                            "raw": "\"Should not be called -- promise was rejected.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -257,7 +259,9 @@
                             "start": 500,
                             "end": 559,
                             "value": "The value of result is expected to equal the value of arg",
-                            "raw": "'The value of result is expected to equal the value of arg'"
+                            "raw": "'The value of result is expected to equal the value of arg'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

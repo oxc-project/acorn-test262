@@ -83,7 +83,9 @@
                   "start": 1331,
                   "end": 1347,
                   "value": "firstDayOfWeek",
-                  "raw": "\"firstDayOfWeek\""
+                  "raw": "\"firstDayOfWeek\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -127,7 +129,9 @@
             "start": 1377,
             "end": 1383,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +156,9 @@
                   "start": 1396,
                   "end": 1416,
                   "value": "get firstDayOfWeek",
-                  "raw": "\"get firstDayOfWeek\""
+                  "raw": "\"get firstDayOfWeek\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +180,9 @@
                   "start": 1430,
                   "end": 1435,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +204,9 @@
                   "start": 1451,
                   "end": 1456,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -218,7 +228,9 @@
                   "start": 1474,
                   "end": 1478,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

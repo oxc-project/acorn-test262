@@ -113,14 +113,18 @@
                     "start": 450,
                     "end": 456,
                     "value": "latn",
-                    "raw": "\"latn\""
+                    "raw": "\"latn\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 458,
                     "end": 464,
                     "value": "arab",
-                    "raw": "\"arab\""
+                    "raw": "\"arab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -210,7 +214,9 @@
                                   "start": 521,
                                   "end": 529,
                                   "value": "-u-nu-",
-                                  "raw": "\"-u-nu-\""
+                                  "raw": "\"-u-nu-\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "+",
@@ -293,7 +299,9 @@
             "start": 625,
             "end": 631,
             "value": "latn",
-            "raw": "\"latn\""
+            "raw": "\"latn\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -358,7 +366,9 @@
                         "start": 699,
                         "end": 711,
                         "value": "-u-nu-lATn",
-                        "raw": "\"-u-nu-lATn\""
+                        "raw": "\"-u-nu-lATn\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -439,14 +449,18 @@
                   "start": 783,
                   "end": 789,
                   "value": "latn",
-                  "raw": "\"latn\""
+                  "raw": "\"latn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 791,
                   "end": 840,
                   "value": "Numbering system option should be in lower case",
-                  "raw": "\"Numbering system option should be in lower case\""
+                  "raw": "\"Numbering system option should be in lower case\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -489,7 +503,9 @@
             "start": 885,
             "end": 891,
             "value": "arab",
-            "raw": "\"arab\""
+            "raw": "\"arab\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -554,7 +570,9 @@
                         "start": 959,
                         "end": 971,
                         "value": "-u-nu-Arab",
-                        "raw": "\"-u-nu-Arab\""
+                        "raw": "\"-u-nu-Arab\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -635,14 +653,18 @@
                   "start": 1043,
                   "end": 1049,
                   "value": "arab",
-                  "raw": "\"arab\""
+                  "raw": "\"arab\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1051,
                   "end": 1100,
                   "value": "Numbering system option should be in lower case",
-                  "raw": "\"Numbering system option should be in lower case\""
+                  "raw": "\"Numbering system option should be in lower case\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -685,14 +707,18 @@
                     "start": 1132,
                     "end": 1141,
                     "value": "gregory",
-                    "raw": "\"gregory\""
+                    "raw": "\"gregory\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1143,
                     "end": 1152,
                     "value": "chinese",
-                    "raw": "\"chinese\""
+                    "raw": "\"chinese\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -782,7 +808,9 @@
                                   "start": 1209,
                                   "end": 1217,
                                   "value": "-u-ca-",
-                                  "raw": "\"-u-ca-\""
+                                  "raw": "\"-u-ca-\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "+",
@@ -865,7 +893,9 @@
             "start": 1299,
             "end": 1308,
             "value": "gregory",
-            "raw": "\"gregory\""
+            "raw": "\"gregory\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -930,7 +960,9 @@
                         "start": 1376,
                         "end": 1391,
                         "value": "-u-ca-Gregory",
-                        "raw": "\"-u-ca-Gregory\""
+                        "raw": "\"-u-ca-Gregory\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1011,14 +1043,18 @@
                   "start": 1456,
                   "end": 1465,
                   "value": "gregory",
-                  "raw": "\"gregory\""
+                  "raw": "\"gregory\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1467,
                   "end": 1508,
                   "value": "Calendar option should be in lower case",
-                  "raw": "\"Calendar option should be in lower case\""
+                  "raw": "\"Calendar option should be in lower case\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1061,7 +1097,9 @@
             "start": 1546,
             "end": 1555,
             "value": "chinese",
-            "raw": "\"chinese\""
+            "raw": "\"chinese\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1126,7 +1164,9 @@
                         "start": 1623,
                         "end": 1638,
                         "value": "-u-ca-CHINESE",
-                        "raw": "\"-u-ca-CHINESE\""
+                        "raw": "\"-u-ca-CHINESE\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1207,14 +1247,18 @@
                   "start": 1703,
                   "end": 1712,
                   "value": "chinese",
-                  "raw": "\"chinese\""
+                  "raw": "\"chinese\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1714,
                   "end": 1755,
                   "value": "Calendar option should be in lower case",
-                  "raw": "\"Calendar option should be in lower case\""
+                  "raw": "\"Calendar option should be in lower case\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

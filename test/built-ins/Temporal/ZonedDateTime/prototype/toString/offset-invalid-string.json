@@ -48,6 +48,7 @@
                 "end": 808,
                 "value": null,
                 "raw": "1_000_000_000_987_64_321n",
+                "regex": null,
                 "bigint": "100000000098764321"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 810,
                 "end": 815,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -153,7 +156,9 @@
                         "start": 878,
                         "end": 892,
                         "value": "other string",
-                        "raw": "\"other string\""
+                        "raw": "\"other string\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

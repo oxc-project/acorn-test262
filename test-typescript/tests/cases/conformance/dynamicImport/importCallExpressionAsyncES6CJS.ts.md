@@ -53,7 +53,9 @@ __ESTREE_TEST__:PASS:
                         "start": 58,
                         "end": 66,
                         "raw": "'./test'",
-                        "value": "./test"
+                        "value": "./test",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -162,7 +164,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 153,
                                 "end": 161,
                                 "raw": "'./test'",
-                                "value": "./test"
+                                "value": "./test",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -294,7 +298,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 254,
                                     "end": 262,
                                     "raw": "'./test'",
-                                    "value": "./test"
+                                    "value": "./test",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -428,7 +434,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 380,
                                       "end": 388,
                                       "raw": "'./test'",
-                                      "value": "./test"
+                                      "value": "./test",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -539,7 +547,9 @@ __ESTREE_TEST__:PASS:
                               "start": 477,
                               "end": 485,
                               "raw": "'./test'",
-                              "value": "./test"
+                              "value": "./test",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }

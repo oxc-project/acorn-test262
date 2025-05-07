@@ -47,14 +47,18 @@
                 "start": 353,
                 "end": 355,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 359,
                 "value": 26,
-                "raw": "26"
+                "raw": "26",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -106,7 +110,9 @@
                 "start": 406,
                 "end": 423,
                 "value": "en-u-ca-iso8601",
-                "raw": "\"en-u-ca-iso8601\""
+                "raw": "\"en-u-ca-iso8601\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -131,7 +137,9 @@
                       "start": 437,
                       "end": 442,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -194,7 +202,9 @@
                   "start": 472,
                   "end": 478,
                   "value": "1972",
-                  "raw": "\"1972\""
+                  "raw": "\"1972\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -287,7 +297,9 @@
                   "start": 592,
                   "end": 596,
                   "value": "12",
-                  "raw": "\"12\""
+                  "raw": "\"12\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -322,7 +334,9 @@
                   "start": 617,
                   "end": 622,
                   "value": "Dec",
-                  "raw": "\"Dec\""
+                  "raw": "\"Dec\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -411,7 +425,9 @@
                 "start": 723,
                 "end": 727,
                 "value": "26",
-                "raw": "\"26\""
+                "raw": "\"26\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -505,7 +521,9 @@
                   "start": 827,
                   "end": 831,
                   "value": "00",
-                  "raw": "\"00\""
+                  "raw": "\"00\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -604,7 +622,9 @@
                     "start": 955,
                     "end": 960,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -646,7 +666,9 @@
                     "start": 982,
                     "end": 1010,
                     "value": "Coordinated Universal Time",
-                    "raw": "\"Coordinated Universal Time\""
+                    "raw": "\"Coordinated Universal Time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

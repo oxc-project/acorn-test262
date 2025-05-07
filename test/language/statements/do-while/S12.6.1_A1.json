@@ -47,7 +47,9 @@
             "start": 349,
             "end": 350,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -56,7 +58,9 @@
         "start": 360,
         "end": 365,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -79,7 +83,9 @@
           "start": 474,
           "end": 475,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -107,7 +113,9 @@
                   "start": 503,
                   "end": 609,
                   "value": "#1: the inner statement of a do-loop should be evaluated before the expression: false evaluates to false",
-                  "raw": "'#1: the inner statement of a do-loop should be evaluated before the expression: false evaluates to false'"
+                  "raw": "'#1: the inner statement of a do-loop should be evaluated before the expression: false evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -140,7 +148,9 @@
             "start": 709,
             "end": 710,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -149,7 +159,9 @@
         "start": 720,
         "end": 721,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -172,7 +184,9 @@
           "start": 830,
           "end": 831,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -200,7 +214,9 @@
                   "start": 859,
                   "end": 961,
                   "value": "#2: the inner statement of a do-loop should be evaluated before the expression: 0 evaluates to false",
-                  "raw": "'#2: the inner statement of a do-loop should be evaluated before the expression: 0 evaluates to false'"
+                  "raw": "'#2: the inner statement of a do-loop should be evaluated before the expression: 0 evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -233,7 +249,9 @@
             "start": 1061,
             "end": 1062,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -242,7 +260,9 @@
         "start": 1072,
         "end": 1074,
         "value": "",
-        "raw": "\"\""
+        "raw": "\"\"",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -265,7 +285,9 @@
           "start": 1183,
           "end": 1184,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -293,7 +315,9 @@
                   "start": 1212,
                   "end": 1315,
                   "value": "#3: the inner statement of a do-loop should be evaluated before the expression: \"\" evaluates to false",
-                  "raw": "'#3: the inner statement of a do-loop should be evaluated before the expression: \"\" evaluates to false'"
+                  "raw": "'#3: the inner statement of a do-loop should be evaluated before the expression: \"\" evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

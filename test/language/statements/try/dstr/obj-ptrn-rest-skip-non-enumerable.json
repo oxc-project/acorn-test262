@@ -41,7 +41,9 @@
                   "start": 638,
                   "end": 639,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 644,
                   "end": 645,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -112,7 +116,9 @@
             "start": 673,
             "end": 676,
             "value": "x",
-            "raw": "\"x\""
+            "raw": "\"x\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -137,7 +143,9 @@
                   "start": 687,
                   "end": 688,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +167,9 @@
                   "start": 702,
                   "end": 707,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -189,7 +199,9 @@
             "start": 728,
             "end": 733,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -327,7 +339,9 @@
                     "start": 838,
                     "end": 841,
                     "value": "a",
-                    "raw": "\"a\""
+                    "raw": "\"a\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -352,7 +366,9 @@
                           "start": 861,
                           "end": 865,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -374,7 +390,9 @@
                           "start": 881,
                           "end": 885,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -396,7 +414,9 @@
                           "start": 905,
                           "end": 909,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -418,7 +438,9 @@
                           "start": 922,
                           "end": 923,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -454,7 +476,9 @@
                     "start": 954,
                     "end": 957,
                     "value": "b",
-                    "raw": "\"b\""
+                    "raw": "\"b\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -479,7 +503,9 @@
                           "start": 977,
                           "end": 981,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -501,7 +527,9 @@
                           "start": 997,
                           "end": 1001,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -523,7 +551,9 @@
                           "start": 1021,
                           "end": 1025,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -545,7 +575,9 @@
                           "start": 1038,
                           "end": 1039,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -575,7 +607,9 @@
                   "start": 1059,
                   "end": 1063,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -610,7 +644,9 @@
             "start": 1085,
             "end": 1109,
             "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "raw": "'executed `catch` block'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

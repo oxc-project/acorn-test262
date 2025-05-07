@@ -23,7 +23,9 @@
             "start": 878,
             "end": 886,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -84,7 +86,9 @@
                   "start": 941,
                   "end": 944,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -101,7 +105,9 @@
             "start": 952,
             "end": 1009,
             "value": "parseInt(mongolianVowelSeparator + \"1\") must return NaN",
-            "raw": "'parseInt(mongolianVowelSeparator + \"1\") must return NaN'"
+            "raw": "'parseInt(mongolianVowelSeparator + \"1\") must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -186,7 +192,9 @@
                   "start": 1116,
                   "end": 1119,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -203,7 +211,9 @@
             "start": 1127,
             "end": 1238,
             "value": "parseInt( mongolianVowelSeparator + mongolianVowelSeparator + mongolianVowelSeparator + \"1\" ) must return NaN",
-            "raw": "'parseInt( mongolianVowelSeparator + mongolianVowelSeparator + mongolianVowelSeparator + \"1\" ) must return NaN'"
+            "raw": "'parseInt( mongolianVowelSeparator + mongolianVowelSeparator + mongolianVowelSeparator + \"1\" ) must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -268,7 +278,9 @@
             "start": 1298,
             "end": 1343,
             "value": "parseInt(\"\\\"\\\\u180E\\\"\") must return NaN",
-            "raw": "'parseInt(\"\\\\\"\\\\\\\\u180E\\\\\"\") must return NaN'"
+            "raw": "'parseInt(\"\\\\\"\\\\\\\\u180E\\\\\"\") must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

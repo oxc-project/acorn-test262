@@ -69,7 +69,9 @@
                         "start": 377,
                         "end": 396,
                         "value": "function fun() {}",
-                        "raw": "'function fun() {}'"
+                        "raw": "'function fun() {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -152,7 +154,9 @@
             "start": 466,
             "end": 476,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +208,9 @@
             "start": 508,
             "end": 519,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -70,7 +70,9 @@
                             "start": 712,
                             "end": 713,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

@@ -113,21 +113,27 @@
                                     "start": 671,
                                     "end": 672,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 674,
                                     "end": 675,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 677,
                                     "end": 678,
                                     "value": 3,
-                                    "raw": "3"
+                                    "raw": "3",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               },
@@ -165,7 +171,9 @@
                                             "start": 722,
                                             "end": 736,
                                             "value": "mapfn throws",
-                                            "raw": "\"mapfn throws\""
+                                            "raw": "\"mapfn throws\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }
@@ -182,7 +190,9 @@
                           "start": 745,
                           "end": 801,
                           "value": "async mapfn rejecting should cause fromAsync to reject",
-                          "raw": "\"async mapfn rejecting should cause fromAsync to reject\""
+                          "raw": "\"async mapfn rejecting should cause fromAsync to reject\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

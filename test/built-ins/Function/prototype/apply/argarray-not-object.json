@@ -105,14 +105,18 @@
                         "start": 569,
                         "end": 573,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 575,
                         "end": 579,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -206,7 +210,9 @@
                         "start": 636,
                         "end": 640,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -306,14 +312,18 @@
                         "start": 702,
                         "end": 706,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 708,
                         "end": 715,
                         "value": "1,2,3",
-                        "raw": "'1,2,3'"
+                        "raw": "'1,2,3'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -407,7 +417,9 @@
                         "start": 772,
                         "end": 776,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",

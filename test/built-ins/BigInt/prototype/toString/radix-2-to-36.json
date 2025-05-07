@@ -27,7 +27,9 @@
               "start": 676,
               "end": 677,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 684,
           "end": 686,
           "value": 36,
-          "raw": "36"
+          "raw": "36",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -116,6 +120,7 @@
                         "end": 717,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     },
@@ -143,7 +148,9 @@
                   "start": 732,
                   "end": 735,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -154,7 +161,9 @@
                     "start": 737,
                     "end": 748,
                     "value": "0, radix ",
-                    "raw": "\"0, radix \""
+                    "raw": "\"0, radix \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -220,6 +229,7 @@
                           "end": 778,
                           "value": null,
                           "raw": "1n",
+                          "regex": null,
                           "bigint": "1"
                         }
                       }
@@ -248,7 +258,9 @@
                   "start": 793,
                   "end": 797,
                   "value": "-1",
-                  "raw": "\"-1\""
+                  "raw": "\"-1\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -259,7 +271,9 @@
                     "start": 799,
                     "end": 811,
                     "value": "-1, radix ",
-                    "raw": "\"-1, radix \""
+                    "raw": "\"-1, radix \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -319,6 +333,7 @@
                         "end": 840,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     },
@@ -346,7 +361,9 @@
                   "start": 855,
                   "end": 858,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -357,7 +374,9 @@
                     "start": 860,
                     "end": 871,
                     "value": "1, radix ",
-                    "raw": "\"1, radix \""
+                    "raw": "\"1, radix \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -94,7 +94,9 @@
           "start": 728,
           "end": 732,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -142,7 +144,9 @@
                 "start": 761,
                 "end": 789,
                 "value": "shared = this; return /./;",
-                "raw": "'shared = this; return /./;'"
+                "raw": "'shared = this; return /./;'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -183,7 +187,9 @@
           "start": 806,
           "end": 810,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -211,7 +217,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],

@@ -48,6 +48,7 @@
                 "end": 416,
                 "value": null,
                 "raw": "86400_0000_0000_000_000_000n",
+                "regex": null,
                 "bigint": "8640000000000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 418,
                 "end": 423,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -153,7 +156,9 @@
                         "start": 489,
                         "end": 494,
                         "value": "day",
-                        "raw": "'day'"
+                        "raw": "'day'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -168,7 +173,9 @@
             "start": 499,
             "end": 541,
             "value": "Upper bound for rounding is out of range",
-            "raw": "\"Upper bound for rounding is out of range\""
+            "raw": "\"Upper bound for rounding is out of range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 589,
             "end": 590,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -159,7 +161,9 @@
                       "start": 720,
                       "end": 721,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -375,7 +379,9 @@
             "start": 1199,
             "end": 1200,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +527,9 @@
             "start": 1396,
             "end": 1440,
             "value": "The result of `(lapse >= TIMEOUT)` is true",
-            "raw": "'The result of `(lapse >= TIMEOUT)` is true'"
+            "raw": "'The result of `(lapse >= TIMEOUT)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,14 +607,18 @@
             "start": 1490,
             "end": 1501,
             "value": "timed-out",
-            "raw": "'timed-out'"
+            "raw": "'timed-out'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1505,
             "end": 1549,
             "value": "$262.agent.getReport() returns \"timed-out\"",
-            "raw": "'$262.agent.getReport() returns \"timed-out\"'"
+            "raw": "'$262.agent.getReport() returns \"timed-out\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -675,7 +687,9 @@
                 "start": 1591,
                 "end": 1592,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -685,14 +699,18 @@
             "start": 1595,
             "end": 1596,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1598,
             "end": 1633,
             "value": "Atomics.notify(i32a, 0) returns 0",
-            "raw": "'Atomics.notify(i32a, 0) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -78,7 +78,9 @@
                       "start": 361,
                       "end": 368,
                       "value": "showa",
-                      "raw": "\"showa\""
+                      "raw": "\"showa\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 379,
                       "end": 381,
                       "value": 64,
-                      "raw": "64"
+                      "raw": "64",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 389,
                       "end": 393,
                       "value": 1989,
-                      "raw": "1989"
+                      "raw": "1989",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 402,
                       "end": 403,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +174,9 @@
                       "start": 416,
                       "end": 421,
                       "value": "M01",
-                      "raw": "\"M01\""
+                      "raw": "\"M01\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -188,7 +198,9 @@
                       "start": 428,
                       "end": 429,
                       "value": 7,
-                      "raw": "7"
+                      "raw": "7",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -210,7 +222,9 @@
                       "start": 441,
                       "end": 451,
                       "value": "japanese",
-                      "raw": "\"japanese\""
+                      "raw": "\"japanese\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -262,49 +276,63 @@
             "start": 505,
             "end": 509,
             "value": 1989,
-            "raw": "1989"
+            "raw": "1989",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 512,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 519,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 522,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 526,
             "end": 549,
             "value": "check expected fields",
-            "raw": "\"check expected fields\""
+            "raw": "\"check expected fields\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 572,
             "value": "showa",
-            "raw": "\"showa\""
+            "raw": "\"showa\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 592,
             "value": 64,
-            "raw": "64"
+            "raw": "64",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -385,7 +413,9 @@
                       "start": 659,
                       "end": 661,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -399,49 +429,63 @@
             "start": 668,
             "end": 672,
             "value": 1989,
-            "raw": "1989"
+            "raw": "1989",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 674,
             "end": 675,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 682,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 684,
             "end": 686,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 720,
             "value": "day excludes era and eraYear",
-            "raw": "\"day excludes era and eraYear\""
+            "raw": "\"day excludes era and eraYear\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 736,
             "end": 744,
             "value": "heisei",
-            "raw": "\"heisei\""
+            "raw": "\"heisei\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 763,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -522,7 +566,9 @@
                       "start": 832,
                       "end": 833,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -536,49 +582,63 @@
             "start": 840,
             "end": 844,
             "value": 1989,
-            "raw": "1989"
+            "raw": "1989",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 847,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 854,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 856,
             "end": 857,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 861,
             "end": 905,
             "value": "month excludes monthCode, era, and eraYear",
-            "raw": "\"month excludes monthCode, era, and eraYear\""
+            "raw": "\"month excludes monthCode, era, and eraYear\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 917,
             "value": "heisei",
-            "raw": "\"heisei\""
+            "raw": "\"heisei\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 919,
             "end": 920,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -659,7 +719,9 @@
                       "start": 993,
                       "end": 998,
                       "value": "M03",
-                      "raw": "\"M03\""
+                      "raw": "\"M03\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -673,49 +735,63 @@
             "start": 1005,
             "end": 1009,
             "value": 1989,
-            "raw": "1989"
+            "raw": "1989",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1012,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1014,
             "end": 1019,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1021,
             "end": 1022,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1026,
             "end": 1070,
             "value": "monthCode excludes month, era, and eraYear",
-            "raw": "\"monthCode excludes month, era, and eraYear\""
+            "raw": "\"monthCode excludes month, era, and eraYear\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1074,
             "end": 1082,
             "value": "heisei",
-            "raw": "\"heisei\""
+            "raw": "\"heisei\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1084,
             "end": 1085,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -796,7 +872,9 @@
                       "start": 1153,
                       "end": 1157,
                       "value": 1988,
-                      "raw": "1988"
+                      "raw": "1988",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -810,49 +888,63 @@
             "start": 1164,
             "end": 1168,
             "value": 1988,
-            "raw": "1988"
+            "raw": "1988",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1170,
             "end": 1171,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1173,
             "end": 1178,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1180,
             "end": 1181,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1185,
             "end": 1234,
             "value": "year excludes era and eraYear (within same era)",
-            "raw": "\"year excludes era and eraYear (within same era)\""
+            "raw": "\"year excludes era and eraYear (within same era)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1238,
             "end": 1245,
             "value": "showa",
-            "raw": "\"showa\""
+            "raw": "\"showa\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1247,
             "end": 1249,
             "value": 63,
-            "raw": "63"
+            "raw": "63",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -933,7 +1025,9 @@
                       "start": 1317,
                       "end": 1321,
                       "value": 1990,
-                      "raw": "1990"
+                      "raw": "1990",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -947,49 +1041,63 @@
             "start": 1328,
             "end": 1332,
             "value": 1990,
-            "raw": "1990"
+            "raw": "1990",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1334,
             "end": 1335,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1337,
             "end": 1342,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1344,
             "end": 1345,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1349,
             "end": 1401,
             "value": "year excludes era and eraYear (in a different era)",
-            "raw": "\"year excludes era and eraYear (in a different era)\""
+            "raw": "\"year excludes era and eraYear (in a different era)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1405,
             "end": 1413,
             "value": "heisei",
-            "raw": "\"heisei\""
+            "raw": "\"heisei\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1415,
             "end": 1416,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1085,7 +1193,9 @@
                         "start": 1488,
                         "end": 1489,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1100,7 +1210,9 @@
             "start": 1496,
             "end": 1563,
             "value": "eraYear excludes year and era, and cannot be provided without era",
-            "raw": "\"eraYear excludes year and era, and cannot be provided without era\""
+            "raw": "\"eraYear excludes year and era, and cannot be provided without era\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1196,7 +1308,9 @@
                         "start": 1632,
                         "end": 1640,
                         "value": "heisei",
-                        "raw": "\"heisei\""
+                        "raw": "\"heisei\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1211,7 +1325,9 @@
             "start": 1647,
             "end": 1718,
             "value": "era excludes year and eraYear, and cannot be provided without eraYear",
-            "raw": "\"era excludes year and eraYear, and cannot be provided without eraYear\""
+            "raw": "\"era excludes year and eraYear, and cannot be provided without eraYear\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

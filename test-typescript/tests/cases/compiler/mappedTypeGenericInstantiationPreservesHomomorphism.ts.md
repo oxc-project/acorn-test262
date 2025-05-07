@@ -295,7 +295,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 41,
         "raw": "'./internal'",
-        "value": "./internal"
+        "value": "./internal",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

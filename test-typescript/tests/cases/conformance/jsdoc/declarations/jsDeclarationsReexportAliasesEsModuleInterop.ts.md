@@ -101,7 +101,9 @@ __ESTREE_TEST__:PASS:
         "start": 30,
         "end": 37,
         "raw": "\"./cls\"",
-        "value": "./cls"
+        "value": "./cls",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -191,7 +193,9 @@ __ESTREE_TEST__:PASS:
         "start": 100,
         "end": 107,
         "raw": "\"./cls\"",
-        "value": "./cls"
+        "value": "./cls",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

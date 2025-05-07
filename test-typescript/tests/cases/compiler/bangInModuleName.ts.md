@@ -23,7 +23,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 21,
         "raw": "\"http\"",
-        "value": "http"
+        "value": "http",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -59,7 +61,9 @@ __ESTREE_TEST__:PASS:
                 "start": 94,
                 "end": 100,
                 "raw": "'http'",
-                "value": "http"
+                "value": "http",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -86,7 +90,9 @@ __ESTREE_TEST__:PASS:
         "start": 42,
         "end": 65,
         "raw": "'intern/dojo/node!http'",
-        "value": "intern/dojo/node!http"
+        "value": "intern/dojo/node!http",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -112,7 +118,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 77,
         "raw": "'intern/dojo/node!http'",
-        "value": "intern/dojo/node!http"
+        "value": "intern/dojo/node!http",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -78,14 +79,18 @@
                 "start": 828,
                 "end": 833,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 835,
                 "end": 839,
                 "value": "$$",
-                "raw": "'$$'"
+                "raw": "'$$'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,14 +100,18 @@
             "start": 842,
             "end": 847,
             "value": "$bc",
-            "raw": "'$bc'"
+            "raw": "'$bc'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 868,
             "value": "\"escaped\" version",
-            "raw": "'\"escaped\" version'"
+            "raw": "'\"escaped\" version'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +162,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -183,14 +193,18 @@
                 "start": 911,
                 "end": 916,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 918,
                 "end": 921,
                 "value": "$",
-                "raw": "'$'"
+                "raw": "'$'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -200,14 +214,18 @@
             "start": 924,
             "end": 929,
             "value": "$bc",
-            "raw": "'$bc'"
+            "raw": "'$bc'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 931,
             "end": 952,
             "value": "\"unescaped\" version",
-            "raw": "'\"unescaped\" version'"
+            "raw": "'\"unescaped\" version'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,7 +276,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -288,14 +307,18 @@
                 "start": 996,
                 "end": 1001,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1003,
                 "end": 1008,
                 "value": "\\$",
-                "raw": "'\\\\$'"
+                "raw": "'\\\\$'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -305,14 +328,18 @@
             "start": 1011,
             "end": 1018,
             "value": "\\$bc",
-            "raw": "'\\\\$bc'"
+            "raw": "'\\\\$bc'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1020,
             "end": 1040,
             "value": "backslash-prefixed",
-            "raw": "'backslash-prefixed'"
+            "raw": "'backslash-prefixed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -363,7 +390,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -393,14 +421,18 @@
                 "start": 1084,
                 "end": 1089,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1091,
                 "end": 1096,
                 "value": "$$$",
-                "raw": "'$$$'"
+                "raw": "'$$$'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -410,14 +442,18 @@
             "start": 1101,
             "end": 1107,
             "value": "$$bc",
-            "raw": "'$$bc'"
+            "raw": "'$$bc'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1111,
             "end": 1147,
             "value": "\"escaped\" followed by \"unuescaped\"",
-            "raw": "'\"escaped\" followed by \"unuescaped\"'"
+            "raw": "'\"escaped\" followed by \"unuescaped\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

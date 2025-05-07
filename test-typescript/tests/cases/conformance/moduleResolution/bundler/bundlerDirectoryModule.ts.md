@@ -116,7 +116,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 29,
         "raw": "'../lib'",
-        "value": "../lib"
+        "value": "../lib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -83,7 +83,9 @@
             "start": 350,
             "end": 358,
             "value": "callee",
-            "raw": "\"callee\""
+            "raw": "\"callee\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -108,7 +110,9 @@
                   "start": 378,
                   "end": 383,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

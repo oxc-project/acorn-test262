@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 35,
         "raw": "'./nonexistent'",
-        "value": "./nonexistent"
+        "value": "./nonexistent",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

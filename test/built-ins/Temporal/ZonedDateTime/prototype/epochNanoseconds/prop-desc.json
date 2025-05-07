@@ -79,7 +79,9 @@
                 "start": 392,
                 "end": 410,
                 "value": "epochNanoseconds",
-                "raw": "\"epochNanoseconds\""
+                "raw": "\"epochNanoseconds\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +149,9 @@
             "start": 453,
             "end": 463,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,7 +266,9 @@
             "start": 551,
             "end": 556,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,7 +326,9 @@
             "start": 601,
             "end": 605,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

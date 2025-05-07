@@ -23,7 +23,9 @@
             "start": 1869,
             "end": 1870,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -108,7 +110,9 @@
                                 "start": 1903,
                                 "end": 1905,
                                 "value": 33,
-                                "raw": "33"
+                                "raw": "33",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "kind": "init"
@@ -167,7 +171,9 @@
                               "start": 1941,
                               "end": 1943,
                               "value": 33,
-                              "raw": "33"
+                              "raw": "33",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -270,7 +276,9 @@
                               "start": 2038,
                               "end": 2039,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -376,14 +384,18 @@
             "start": 2098,
             "end": 2099,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2101,
             "end": 2140,
             "value": "generator method invoked exactly once",
-            "raw": "'generator method invoked exactly once'"
+            "raw": "'generator method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

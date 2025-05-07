@@ -172,7 +172,9 @@
                                       "start": 2567,
                                       "end": 2605,
                                       "value": "The property should not be accessed.",
-                                      "raw": "'The property should not be accessed.'"
+                                      "raw": "'The property should not be accessed.'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ]
                                 }
@@ -260,7 +262,9 @@
                   "start": 2658,
                   "end": 2660,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -313,7 +317,9 @@
             "start": 2698,
             "end": 2700,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

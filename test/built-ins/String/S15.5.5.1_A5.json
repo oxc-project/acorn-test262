@@ -34,7 +34,9 @@
                 "start": 365,
                 "end": 388,
                 "value": "ABCABC",
-                "raw": "\"ABC\\u0041\\u0042\\u0043\""
+                "raw": "\"ABC\\u0041\\u0042\\u0043\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -75,7 +77,9 @@
           "start": 512,
           "end": 513,
           "value": 6,
-          "raw": "6"
+          "raw": "6",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -107,7 +111,9 @@
                     "start": 542,
                     "end": 674,
                     "value": "#1: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.length === 6. Actual: __str__instance.length ===",
-                    "raw": "'#1: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.length === 6. Actual: __str__instance.length ==='"
+                    "raw": "'#1: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.length === 6. Actual: __str__instance.length ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -188,7 +194,9 @@
                   "start": 835,
                   "end": 839,
                   "value": "ed",
-                  "raw": "\"ed\""
+                  "raw": "\"ed\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -247,7 +255,9 @@
                   "start": 892,
                   "end": 896,
                   "value": "ed",
-                  "raw": "\"ed\""
+                  "raw": "\"ed\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -275,7 +285,9 @@
           "start": 1013,
           "end": 1017,
           "value": "ed",
-          "raw": "\"ed\""
+          "raw": "\"ed\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -307,7 +319,9 @@
                     "start": 1046,
                     "end": 1267,
                     "value": "#2: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance ==\"ed\". Actual: __str__instance ==",
-                    "raw": "'#2: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance ==\"ed\". Actual: __str__instance =='"
+                    "raw": "'#2: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance ==\"ed\". Actual: __str__instance =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -357,7 +371,9 @@
           "start": 1493,
           "end": 1494,
           "value": 6,
-          "raw": "6"
+          "raw": "6",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -389,7 +405,9 @@
                     "start": 1523,
                     "end": 1758,
                     "value": "#3: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance.length === 6. Actual: __str__instance.length ===",
-                    "raw": "'#3: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance.length === 6. Actual: __str__instance.length ==='"
+                    "raw": "'#3: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance.length === 6. Actual: __str__instance.length ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

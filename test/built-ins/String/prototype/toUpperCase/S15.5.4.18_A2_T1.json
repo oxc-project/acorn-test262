@@ -24,7 +24,9 @@
               "start": 378,
               "end": 393,
               "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "raw": "\"Hello, WoRlD!\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -44,7 +46,9 @@
           "start": 412,
           "end": 427,
           "value": "HELLO, WORLD!",
-          "raw": "\"HELLO, WORLD!\""
+          "raw": "\"HELLO, WORLD!\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +80,9 @@
                     "start": 456,
                     "end": 521,
                     "value": "#1: \"Hello, WoRlD!\".toUpperCase() === \"HELLO, WORLD!\". Actual: ",
-                    "raw": "'#1: \"Hello, WoRlD!\".toUpperCase() === \"HELLO, WORLD!\". Actual: '"
+                    "raw": "'#1: \"Hello, WoRlD!\".toUpperCase() === \"HELLO, WORLD!\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -96,7 +102,9 @@
                           "start": 525,
                           "end": 540,
                           "value": "Hello, WoRlD!",
-                          "raw": "\"Hello, WoRlD!\""
+                          "raw": "\"Hello, WoRlD!\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -140,7 +148,9 @@
               "start": 736,
               "end": 751,
               "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "raw": "\"Hello, WoRlD!\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -171,7 +181,9 @@
               "start": 777,
               "end": 792,
               "value": "HELLO, WORLD!",
-              "raw": "\"HELLO, WORLD!\""
+              "raw": "\"HELLO, WORLD!\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -206,7 +218,9 @@
                     "start": 822,
                     "end": 895,
                     "value": "#2: \"Hello, WoRlD!\".toUpperCase() === String(\"HELLO, WORLD!\"). Actual: ",
-                    "raw": "'#2: \"Hello, WoRlD!\".toUpperCase() === String(\"HELLO, WORLD!\"). Actual: '"
+                    "raw": "'#2: \"Hello, WoRlD!\".toUpperCase() === String(\"HELLO, WORLD!\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -226,7 +240,9 @@
                           "start": 899,
                           "end": 914,
                           "value": "Hello, WoRlD!",
-                          "raw": "\"Hello, WoRlD!\""
+                          "raw": "\"Hello, WoRlD!\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -270,7 +286,9 @@
               "start": 1110,
               "end": 1125,
               "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "raw": "\"Hello, WoRlD!\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -301,7 +319,9 @@
               "start": 1155,
               "end": 1170,
               "value": "HELLO, WORLD!",
-              "raw": "\"HELLO, WORLD!\""
+              "raw": "\"HELLO, WORLD!\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -331,7 +351,9 @@
                   "start": 1200,
                   "end": 1267,
                   "value": "#3: \"Hello, WoRlD!\".toUpperCase() !== new String(\"HELLO, WORLD!\")",
-                  "raw": "'#3: \"Hello, WoRlD!\".toUpperCase() !== new String(\"HELLO, WORLD!\")'"
+                  "raw": "'#3: \"Hello, WoRlD!\".toUpperCase() !== new String(\"HELLO, WORLD!\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -52,7 +52,9 @@
             "start": 401,
             "end": 405,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -62,7 +64,9 @@
           "start": 409,
           "end": 410,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -109,7 +113,9 @@
               "start": 431,
               "end": 432,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -125,7 +131,9 @@
             "start": 446,
             "end": 496,
             "value": "The value of x[1] is expected to equal undefined",
-            "raw": "'The value of x[1] is expected to equal undefined'"
+            "raw": "'The value of x[1] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +182,9 @@
               "start": 518,
               "end": 524,
               "value": "true",
-              "raw": "\"true\""
+              "raw": "\"true\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -184,14 +194,18 @@
             "start": 527,
             "end": 528,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 574,
             "value": "The value of x[\"true\"] is expected to be 1",
-            "raw": "'The value of x[\"true\"] is expected to be 1'"
+            "raw": "'The value of x[\"true\"] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,7 +235,9 @@
             "start": 580,
             "end": 585,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -231,7 +247,9 @@
           "start": 589,
           "end": 590,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -278,7 +296,9 @@
               "start": 611,
               "end": 612,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -294,7 +314,9 @@
             "start": 626,
             "end": 676,
             "value": "The value of x[0] is expected to equal undefined",
-            "raw": "'The value of x[0] is expected to equal undefined'"
+            "raw": "'The value of x[0] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +365,9 @@
               "start": 698,
               "end": 705,
               "value": "false",
-              "raw": "\"false\""
+              "raw": "\"false\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -353,14 +377,18 @@
             "start": 708,
             "end": 709,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 756,
             "value": "The value of x[\"false\"] is expected to be 0",
-            "raw": "'The value of x[\"false\"] is expected to be 0'"
+            "raw": "'The value of x[\"false\"] is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

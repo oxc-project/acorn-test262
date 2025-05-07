@@ -107,7 +107,9 @@
                             "start": 558,
                             "end": 598,
                             "value": "callback function should not be called",
-                            "raw": "'callback function should not be called'"
+                            "raw": "'callback function should not be called'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -167,7 +169,9 @@
             "start": 640,
             "end": 674,
             "value": "Object.groupBy returns an object",
-            "raw": "'Object.groupBy returns an object'"
+            "raw": "'Object.groupBy returns an object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -252,7 +256,9 @@
             "start": 719,
             "end": 720,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

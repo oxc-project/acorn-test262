@@ -79,7 +79,9 @@
                 "start": 350,
                 "end": 351,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "operator": "===",
               "right": {
@@ -130,7 +132,9 @@
               "start": 403,
               "end": 408,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -173,7 +177,9 @@
             "start": 429,
             "end": 430,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -241,7 +247,9 @@
             "start": 473,
             "end": 505,
             "value": "[, ].some(callbackfn) !== true",
-            "raw": "'[, ].some(callbackfn) !== true'"
+            "raw": "'[, ].some(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

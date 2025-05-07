@@ -23,7 +23,9 @@
             "start": 825,
             "end": 826,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 844,
             "end": 845,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 865,
             "end": 866,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -258,7 +264,9 @@
                                               "start": 1024,
                                               "end": 1028,
                                               "value": true,
-                                              "raw": "true"
+                                              "raw": "true",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           }
@@ -597,7 +605,9 @@
                                               "start": 1381,
                                               "end": 1396,
                                               "value": "reject throws",
-                                              "raw": "'reject throws'"
+                                              "raw": "'reject throws'",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           ]
                                         }
@@ -791,7 +801,9 @@
                             "start": 1498,
                             "end": 1531,
                             "value": "The promise should be rejected.",
-                            "raw": "'The promise should be rejected.'"
+                            "raw": "'The promise should be rejected.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -860,7 +872,9 @@
                             "start": 1581,
                             "end": 1582,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -905,7 +919,9 @@
                             "start": 1617,
                             "end": 1618,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -950,7 +966,9 @@
                             "start": 1651,
                             "end": 1652,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -23,7 +23,9 @@
             "start": 369,
             "end": 370,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -162,14 +164,18 @@
                     "start": 490,
                     "end": 491,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 493,
                     "end": 494,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -215,14 +221,18 @@
                     "start": 518,
                     "end": 519,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 521,
                     "end": 522,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -257,21 +267,27 @@
                 "start": 544,
                 "end": 545,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 547,
                 "end": 548,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 550,
                 "end": 551,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -426,14 +442,18 @@
             "start": 656,
             "end": 657,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 659,
             "end": 691,
             "value": "Symbol.species is never called",
-            "raw": "\"Symbol.species is never called\""
+            "raw": "\"Symbol.species is never called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -490,14 +510,18 @@
             "start": 736,
             "end": 740,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 772,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -554,14 +578,18 @@
             "start": 824,
             "end": 829,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 833,
             "end": 879,
             "value": "The returned object is a Set, not a subclass",
-            "raw": "\"The returned object is a Set, not a subclass\""
+            "raw": "\"The returned object is a Set, not a subclass\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

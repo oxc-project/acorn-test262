@@ -31,7 +31,9 @@
               "start": 582,
               "end": 590,
               "value": "gotten",
-              "raw": "'gotten'"
+              "raw": "'gotten'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -68,7 +70,9 @@
             "start": 619,
             "end": 630,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "&&",
@@ -108,7 +112,9 @@
             "start": 670,
             "end": 680,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -161,7 +167,9 @@
                       "start": 717,
                       "end": 723,
                       "value": "form",
-                      "raw": "\"form\""
+                      "raw": "\"form\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -190,7 +198,9 @@
                   "start": 742,
                   "end": 747,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -244,7 +254,9 @@
                         "start": 786,
                         "end": 791,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -296,7 +308,9 @@
                                 "start": 830,
                                 "end": 831,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "kind": "init"
@@ -344,7 +358,9 @@
                         "start": 926,
                         "end": 930,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -425,7 +441,9 @@
                             "start": 1004,
                             "end": 1009,
                             "value": "foo",
-                            "raw": "'foo'"
+                            "raw": "'foo'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -492,7 +510,9 @@
                         "start": 1051,
                         "end": 1115,
                         "value": "The value of desc.get is expected to equal the value of getter",
-                        "raw": "'The value of desc.get is expected to equal the value of getter'"
+                        "raw": "'The value of desc.get is expected to equal the value of getter'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

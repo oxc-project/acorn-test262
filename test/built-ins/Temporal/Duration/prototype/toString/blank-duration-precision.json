@@ -122,7 +122,9 @@
                       "start": 442,
                       "end": 448,
                       "value": "auto",
-                      "raw": "\"auto\""
+                      "raw": "\"auto\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -136,7 +138,9 @@
             "start": 453,
             "end": 459,
             "value": "PT0S",
-            "raw": "\"PT0S\""
+            "raw": "\"PT0S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +221,9 @@
                       "start": 520,
                       "end": 521,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -231,7 +237,9 @@
             "start": 526,
             "end": 532,
             "value": "PT0S",
-            "raw": "\"PT0S\""
+            "raw": "\"PT0S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,7 +320,9 @@
                       "start": 593,
                       "end": 594,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -326,7 +336,9 @@
             "start": 599,
             "end": 608,
             "value": "PT0.00S",
-            "raw": "\"PT0.00S\""
+            "raw": "\"PT0.00S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -407,7 +419,9 @@
                       "start": 669,
                       "end": 670,
                       "value": 9,
-                      "raw": "9"
+                      "raw": "9",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -421,7 +435,9 @@
             "start": 675,
             "end": 691,
             "value": "PT0.000000000S",
-            "raw": "\"PT0.000000000S\""
+            "raw": "\"PT0.000000000S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -502,7 +518,9 @@
                       "start": 743,
                       "end": 752,
                       "value": "seconds",
-                      "raw": "\"seconds\""
+                      "raw": "\"seconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -516,7 +534,9 @@
             "start": 757,
             "end": 763,
             "value": "PT0S",
-            "raw": "\"PT0S\""
+            "raw": "\"PT0S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -597,7 +617,9 @@
                       "start": 814,
                       "end": 828,
                       "value": "milliseconds",
-                      "raw": "\"milliseconds\""
+                      "raw": "\"milliseconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -611,7 +633,9 @@
             "start": 833,
             "end": 843,
             "value": "PT0.000S",
-            "raw": "\"PT0.000S\""
+            "raw": "\"PT0.000S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -692,7 +716,9 @@
                       "start": 894,
                       "end": 908,
                       "value": "microseconds",
-                      "raw": "\"microseconds\""
+                      "raw": "\"microseconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -706,7 +732,9 @@
             "start": 913,
             "end": 926,
             "value": "PT0.000000S",
-            "raw": "\"PT0.000000S\""
+            "raw": "\"PT0.000000S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -787,7 +815,9 @@
                       "start": 977,
                       "end": 990,
                       "value": "nanoseconds",
-                      "raw": "\"nanoseconds\""
+                      "raw": "\"nanoseconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -801,7 +831,9 @@
             "start": 995,
             "end": 1011,
             "value": "PT0.000000000S",
-            "raw": "\"PT0.000000000S\""
+            "raw": "\"PT0.000000000S\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

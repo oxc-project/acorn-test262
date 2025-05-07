@@ -126,7 +126,9 @@
                 "start": 1050,
                 "end": 1063,
                 "value": "constructor",
-                "raw": "'constructor'"
+                "raw": "'constructor'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +194,9 @@
                 "start": 1101,
                 "end": 1114,
                 "value": "constructor",
-                "raw": "'constructor'"
+                "raw": "'constructor'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

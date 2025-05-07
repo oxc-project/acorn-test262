@@ -76,6 +76,7 @@
                   "end": 401,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 },
                 {
@@ -83,7 +84,9 @@
                   "start": 403,
                   "end": 408,
                   "value": "UTC",
-                  "raw": "\"UTC\""
+                  "raw": "\"UTC\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

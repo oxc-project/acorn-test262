@@ -61,7 +61,9 @@
                 "start": 337,
                 "end": 339,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -106,7 +108,9 @@
                   "start": 366,
                   "end": 374,
                   "value": "asdf!_",
-                  "raw": "\"asdf!_\""
+                  "raw": "\"asdf!_\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -252,14 +256,18 @@
             "start": 468,
             "end": 469,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 471,
             "end": 486,
             "value": "newArr.length",
-            "raw": "'newArr.length'"
+            "raw": "'newArr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -78,7 +78,9 @@
                 "start": 1238,
                 "end": 1245,
                 "value": "value",
-                "raw": "'value'"
+                "raw": "'value'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -374,7 +376,9 @@
                           "start": 1551,
                           "end": 1552,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "SpreadElement",

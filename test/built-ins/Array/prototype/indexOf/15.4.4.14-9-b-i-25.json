@@ -62,7 +62,9 @@
                         "start": 400,
                         "end": 401,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "===",
                       "right": {
@@ -136,7 +138,9 @@
                               "start": 456,
                               "end": 457,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -161,7 +165,9 @@
                           "start": 468,
                           "end": 469,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "===",
@@ -236,7 +242,9 @@
                               "start": 524,
                               "end": 525,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -285,7 +293,9 @@
                 "start": 545,
                 "end": 549,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -295,7 +305,9 @@
             "start": 552,
             "end": 573,
             "value": "func(true) !== true",
-            "raw": "'func(true) !== true'"
+            "raw": "'func(true) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

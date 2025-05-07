@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\k<a>(?<=>)a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 345,
                 "end": 352,
                 "value": "k<a>a",
-                "raw": "\"k<a>a\""
+                "raw": "\"k<a>a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -93,7 +96,8 @@
                 "regex": {
                   "pattern": "(?<=>)\\k<a>",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -110,7 +114,9 @@
                 "start": 382,
                 "end": 389,
                 "value": ">k<a>",
-                "raw": "\">k<a>\""
+                "raw": "\">k<a>\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -151,7 +157,8 @@
                 "regex": {
                   "pattern": "\\k<a>(?<!a)a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -168,7 +175,9 @@
                 "start": 421,
                 "end": 428,
                 "value": "k<a>a",
-                "raw": "\"k<a>a\""
+                "raw": "\"k<a>a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -209,7 +218,8 @@
                 "regex": {
                   "pattern": "(?<!a>)\\k<a>",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -226,7 +236,9 @@
                 "start": 459,
                 "end": 465,
                 "value": "k<a>",
-                "raw": "\"k<a>\""
+                "raw": "\"k<a>\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

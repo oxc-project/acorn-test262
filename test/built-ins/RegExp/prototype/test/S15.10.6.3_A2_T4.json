@@ -34,7 +34,9 @@
                 "start": 401,
                 "end": 408,
                 "value": "[a-b]",
-                "raw": "\"[a-b]\""
+                "raw": "\"[a-b]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -137,7 +139,9 @@
                     "start": 493,
                     "end": 616,
                     "value": "#1.1: __instance = new String(\"[a-b]\"); __instance.test = RegExp.prototype.test; test(\"message to investigate\"). Actual: ",
-                    "raw": "'#1.1: __instance = new String(\"[a-b]\"); __instance.test = RegExp.prototype.test; test(\"message to investigate\"). Actual: '"
+                    "raw": "'#1.1: __instance = new String(\"[a-b]\"); __instance.test = RegExp.prototype.test; test(\"message to investigate\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -173,7 +177,9 @@
                           "start": 636,
                           "end": 660,
                           "value": "message to investigate",
-                          "raw": "\"message to investigate\""
+                          "raw": "\"message to investigate\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -251,14 +257,18 @@
                     "start": 747,
                     "end": 751,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 761,
                     "end": 835,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

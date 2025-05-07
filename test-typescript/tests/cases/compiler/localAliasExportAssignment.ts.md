@@ -107,7 +107,9 @@ __ESTREE_TEST__:PASS:
           "start": 80,
           "end": 112,
           "raw": "'./localAliasExportAssignment_0'",
-          "value": "./localAliasExportAssignment_0"
+          "value": "./localAliasExportAssignment_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

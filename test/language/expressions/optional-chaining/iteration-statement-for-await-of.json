@@ -108,7 +108,9 @@
                                       "start": 485,
                                       "end": 486,
                                       "value": 0,
-                                      "raw": "0"
+                                      "raw": "0",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -171,7 +173,9 @@
                                                 "start": 528,
                                                 "end": 529,
                                                 "value": 3,
-                                                "raw": "3"
+                                                "raw": "3",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "consequent": {
@@ -270,7 +274,9 @@
                                                               "start": 593,
                                                               "end": 598,
                                                               "value": false,
-                                                              "raw": "false"
+                                                              "raw": "false",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             },
                                                             "kind": "init"
                                                           }
@@ -335,7 +341,9 @@
                                                         "start": 656,
                                                         "end": 660,
                                                         "value": true,
-                                                        "raw": "true"
+                                                        "raw": "true",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       },
                                                       "kind": "init"
                                                     }
@@ -407,7 +415,9 @@
                   "start": 746,
                   "end": 747,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -526,7 +536,9 @@
                   "start": 833,
                   "end": 834,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",

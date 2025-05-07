@@ -43,7 +43,9 @@
             "start": 522,
             "end": 545,
             "value": "o = {set foo(arg){}};",
-            "raw": "\"o = {set foo(arg){}};\""
+            "raw": "\"o = {set foo(arg){}};\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -99,7 +101,9 @@
                 "start": 595,
                 "end": 600,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -166,7 +170,9 @@
             "start": 642,
             "end": 652,
             "value": "desc.get",
-            "raw": "'desc.get'"
+            "raw": "'desc.get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

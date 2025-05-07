@@ -342,7 +342,9 @@ __ESTREE_TEST__:PASS:
                         "start": 343,
                         "end": 348,
                         "raw": "'baz'",
-                        "value": "baz"
+                        "value": "baz",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

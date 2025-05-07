@@ -34,7 +34,9 @@
                 "start": 574,
                 "end": 580,
                 "value": "desc",
-                "raw": "'desc'"
+                "raw": "'desc'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

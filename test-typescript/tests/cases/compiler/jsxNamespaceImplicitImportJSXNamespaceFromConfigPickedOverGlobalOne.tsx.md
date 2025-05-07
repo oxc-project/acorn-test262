@@ -411,7 +411,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 51,
         "raw": "'./jsx-namespace'",
-        "value": "./jsx-namespace"
+        "value": "./jsx-namespace",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -463,7 +465,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 14,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -494,7 +498,9 @@ __ESTREE_TEST__:PASS:
             "start": 49,
             "end": 60,
             "raw": "'className'",
-            "value": "className"
+            "value": "className",
+            "regex": null,
+            "bigint": null
           }
         },
         "extendsType": {
@@ -1852,7 +1858,9 @@ __ESTREE_TEST__:PASS:
                         "start": 35,
                         "end": 52,
                         "raw": "\"color: hotpink;\"",
-                        "value": "color: hotpink;"
+                        "value": "color: hotpink;",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],

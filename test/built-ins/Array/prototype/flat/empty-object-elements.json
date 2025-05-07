@@ -124,7 +124,9 @@
             "start": 365,
             "end": 393,
             "value": "[a].flat() must return [a]",
-            "raw": "'[a].flat() must return [a]'"
+            "raw": "'[a].flat() must return [a]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +230,9 @@
             "start": 441,
             "end": 477,
             "value": "[a, [b]].flat() must return [a, b]",
-            "raw": "'[a, [b]].flat() must return [a, b]'"
+            "raw": "'[a, [b]].flat() must return [a, b]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +336,9 @@
             "start": 529,
             "end": 567,
             "value": "[ [a], b ].flat() must return [a, b]",
-            "raw": "'[ [a], b ].flat() must return [a, b]'"
+            "raw": "'[ [a], b ].flat() must return [a, b]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -443,7 +449,9 @@
             "start": 623,
             "end": 663,
             "value": "[ [a], [b] ].flat() must return [a, b]",
-            "raw": "'[ [a], [b] ].flat() must return [a, b]'"
+            "raw": "'[ [a], [b] ].flat() must return [a, b]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

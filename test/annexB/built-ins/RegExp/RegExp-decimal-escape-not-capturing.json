@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\b(\\w+) \\2\\b",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 484,
                 "end": 512,
                 "value": "do you listen the the band",
-                "raw": "\"do you listen the the band\""
+                "raw": "\"do you listen the the band\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -100,7 +103,9 @@
             "start": 543,
             "end": 548,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

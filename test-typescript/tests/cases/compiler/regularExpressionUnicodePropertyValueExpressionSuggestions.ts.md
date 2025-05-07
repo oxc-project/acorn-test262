@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
               "flags": "u",
               "pattern": "\\p{ascii}\\p{Sc=Unknown}\\p{sc=unknownX}\\p{Script_Declensions=Inherited}\\p{scx=inherit}"
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         }
       ],

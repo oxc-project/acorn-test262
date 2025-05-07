@@ -46,14 +46,18 @@
                       "start": 1037,
                       "end": 1038,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "value": {
                       "type": "Literal",
                       "start": 1040,
                       "end": 1044,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -202,7 +206,9 @@
                         "start": 1174,
                         "end": 1191,
                         "value": "[\"first\", null]",
-                        "raw": "'[\"first\", null]'"
+                        "raw": "'[\"first\", null]'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "FunctionExpression",
@@ -251,7 +257,9 @@
                                   "start": 1232,
                                   "end": 1239,
                                   "value": "first",
-                                  "raw": "'first'"
+                                  "raw": "'first'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "consequent": {
@@ -282,7 +290,9 @@
                                           "start": 1254,
                                           "end": 1255,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "computed": true,
                                         "optional": false

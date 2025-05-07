@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
               "start": 30,
               "end": 36,
               "raw": "'TEST'",
-              "value": "TEST"
+              "value": "TEST",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -88,7 +90,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 39,
         "raw": "'./EnumExample'",
-        "value": "./EnumExample"
+        "value": "./EnumExample",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

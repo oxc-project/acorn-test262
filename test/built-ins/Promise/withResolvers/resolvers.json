@@ -107,14 +107,18 @@
             "start": 412,
             "end": 422,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 424,
             "end": 450,
             "value": "type of resolve property",
-            "raw": "'type of resolve property'"
+            "raw": "'type of resolve property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,14 +189,18 @@
             "start": 495,
             "end": 496,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 526,
             "value": "length of resolve property",
-            "raw": "'length of resolve property'"
+            "raw": "'length of resolve property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,14 +265,18 @@
             "start": 570,
             "end": 580,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 582,
             "end": 607,
             "value": "type of reject property",
-            "raw": "'type of reject property'"
+            "raw": "'type of reject property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,14 +347,18 @@
             "start": 651,
             "end": 652,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 654,
             "end": 681,
             "value": "length of reject property",
-            "raw": "'length of reject property'"
+            "raw": "'length of reject property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

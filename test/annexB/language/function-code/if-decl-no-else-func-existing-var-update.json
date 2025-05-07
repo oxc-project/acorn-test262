@@ -58,7 +58,9 @@
                     "start": 1557,
                     "end": 1561,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "FunctionDeclaration",
@@ -88,7 +90,9 @@
                             "start": 1585,
                             "end": 1607,
                             "value": "function declaration",
-                            "raw": "'function declaration'"
+                            "raw": "'function declaration'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -139,7 +143,9 @@
                         "start": 1636,
                         "end": 1639,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -199,7 +205,9 @@
             "start": 1679,
             "end": 1689,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +259,9 @@
             "start": 1718,
             "end": 1740,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

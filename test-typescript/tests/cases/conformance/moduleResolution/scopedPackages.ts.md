@@ -181,7 +181,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 28,
         "raw": "\"@cow/boy\"",
-        "value": "@cow/boy"
+        "value": "@cow/boy",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -221,7 +223,9 @@ __ESTREE_TEST__:PASS:
         "start": 48,
         "end": 57,
         "raw": "\"@be/bop\"",
-        "value": "@be/bop"
+        "value": "@be/bop",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -261,7 +265,9 @@ __ESTREE_TEST__:PASS:
         "start": 77,
         "end": 90,
         "raw": "\"@be/bop/e/z\"",
-        "value": "@be/bop/e/z"
+        "value": "@be/bop/e/z",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

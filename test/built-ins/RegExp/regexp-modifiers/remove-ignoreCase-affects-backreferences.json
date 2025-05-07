@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(a)(?-i:\\1)",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 1816,
                 "end": 1820,
                 "value": "AA",
-                "raw": "\"AA\""
+                "raw": "\"AA\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 1823,
             "end": 1872,
             "value": "a matches first A, so \\1 should match second A",
-            "raw": "\"a matches first A, so \\\\1 should match second A\""
+            "raw": "\"a matches first A, so \\\\1 should match second A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -143,7 +148,9 @@
                   "start": 1892,
                   "end": 1896,
                   "value": "aA",
-                  "raw": "\"aA\""
+                  "raw": "\"aA\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -154,7 +161,9 @@
             "start": 1899,
             "end": 1956,
             "value": "a matches a, so \\1 should not match A (preserves case)",
-            "raw": "\"a matches a, so \\\\1 should not match A (preserves case)\""
+            "raw": "\"a matches a, so \\\\1 should not match A (preserves case)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,7 +219,9 @@
                   "start": 1976,
                   "end": 1980,
                   "value": "Aa",
-                  "raw": "\"Aa\""
+                  "raw": "\"Aa\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -221,7 +232,9 @@
             "start": 1983,
             "end": 2040,
             "value": "a matches A, so \\1 should not match a (preserves case)",
-            "raw": "\"a matches A, so \\\\1 should not match a (preserves case)\""
+            "raw": "\"a matches A, so \\\\1 should not match a (preserves case)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +284,9 @@
                 "start": 2059,
                 "end": 2063,
                 "value": "aa",
-                "raw": "\"aa\""
+                "raw": "\"aa\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -281,7 +296,9 @@
             "start": 2066,
             "end": 2115,
             "value": "a matches first a, so \\1 should match second a",
-            "raw": "\"a matches first a, so \\\\1 should match second a\""
+            "raw": "\"a matches first a, so \\\\1 should match second a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

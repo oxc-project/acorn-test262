@@ -120,7 +120,9 @@
                                     "start": 475,
                                     "end": 505,
                                     "value": "Should not call style getter",
-                                    "raw": "\"Should not call style getter\""
+                                    "raw": "\"Should not call style getter\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -199,7 +201,9 @@
                                     "start": 566,
                                     "end": 598,
                                     "value": "Should not call numeric getter",
-                                    "raw": "\"Should not call numeric getter\""
+                                    "raw": "\"Should not call numeric getter\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -472,7 +476,9 @@
                   "start": 862,
                   "end": 868,
                   "value": "long",
-                  "raw": "\"long\""
+                  "raw": "\"long\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -578,7 +584,9 @@
                   "start": 1010,
                   "end": 1018,
                   "value": "always",
-                  "raw": "\"always\""
+                  "raw": "\"always\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",

@@ -94,7 +94,9 @@
           "start": 1334,
           "end": 1335,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -233,7 +235,9 @@
           "start": 1439,
           "end": 1443,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -305,7 +309,9 @@
                     "start": 1491,
                     "end": 1504,
                     "value": "calls += 1;",
-                    "raw": "\"calls += 1;\""
+                    "raw": "\"calls += 1;\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -637,7 +643,9 @@
             "start": 1746,
             "end": 1747,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

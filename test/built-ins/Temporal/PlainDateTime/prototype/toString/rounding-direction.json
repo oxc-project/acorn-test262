@@ -53,7 +53,9 @@
                   "start": 334,
                   "end": 336,
                   "value": 99,
-                  "raw": "99"
+                  "raw": "99",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -61,42 +63,54 @@
                 "start": 338,
                 "end": 340,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 344,
                 "value": 15,
-                "raw": "15"
+                "raw": "15",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 348,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 359,
                 "value": 500,
-                "raw": "500"
+                "raw": "500",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -179,7 +193,9 @@
                       "start": 416,
                       "end": 424,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -201,7 +217,9 @@
                       "start": 440,
                       "end": 447,
                       "value": "floor",
-                      "raw": "\"floor\""
+                      "raw": "\"floor\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -215,14 +233,18 @@
             "start": 454,
             "end": 478,
             "value": "-000099-12-15T12:00:00",
-            "raw": "\"-000099-12-15T12:00:00\""
+            "raw": "\"-000099-12-15T12:00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 545,
             "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE",
-            "raw": "\"Rounding down is towards the Big Bang, not the epoch or 1 BCE\""
+            "raw": "\"Rounding down is towards the Big Bang, not the epoch or 1 BCE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +325,9 @@
                       "start": 603,
                       "end": 611,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -325,7 +349,9 @@
                       "start": 627,
                       "end": 634,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -339,14 +365,18 @@
             "start": 641,
             "end": 665,
             "value": "-000099-12-15T12:00:00",
-            "raw": "\"-000099-12-15T12:00:00\""
+            "raw": "\"-000099-12-15T12:00:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 669,
             "end": 753,
             "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE (roundingMode trunc)",
-            "raw": "\"Rounding down is towards the Big Bang, not the epoch or 1 BCE (roundingMode trunc)\""
+            "raw": "\"Rounding down is towards the Big Bang, not the epoch or 1 BCE (roundingMode trunc)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +457,9 @@
                       "start": 811,
                       "end": 819,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -449,7 +481,9 @@
                       "start": 835,
                       "end": 841,
                       "value": "ceil",
-                      "raw": "\"ceil\""
+                      "raw": "\"ceil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -463,14 +497,18 @@
             "start": 848,
             "end": 872,
             "value": "-000099-12-15T12:00:01",
-            "raw": "\"-000099-12-15T12:00:01\""
+            "raw": "\"-000099-12-15T12:00:01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 876,
             "end": 959,
             "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode ceil)",
-            "raw": "\"Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode ceil)\""
+            "raw": "\"Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode ceil)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -551,7 +589,9 @@
                       "start": 1017,
                       "end": 1025,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -573,7 +613,9 @@
                       "start": 1041,
                       "end": 1053,
                       "value": "halfExpand",
-                      "raw": "\"halfExpand\""
+                      "raw": "\"halfExpand\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -587,14 +629,18 @@
             "start": 1060,
             "end": 1084,
             "value": "-000099-12-15T12:00:01",
-            "raw": "\"-000099-12-15T12:00:01\""
+            "raw": "\"-000099-12-15T12:00:01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1088,
             "end": 1177,
             "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode halfExpand)",
-            "raw": "\"Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode halfExpand)\""
+            "raw": "\"Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode halfExpand)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

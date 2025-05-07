@@ -67,21 +67,27 @@
             "start": 349,
             "end": 360,
             "value": "MIN_VALUE",
-            "raw": "\"MIN_VALUE\""
+            "raw": "\"MIN_VALUE\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 366,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 368,
             "end": 369,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -145,7 +151,9 @@
             "start": 410,
             "end": 477,
             "value": "The value of Number.MIN_VALUE is expected to equal the value of x",
-            "raw": "'The value of Number.MIN_VALUE is expected to equal the value of x'"
+            "raw": "'The value of Number.MIN_VALUE is expected to equal the value of x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

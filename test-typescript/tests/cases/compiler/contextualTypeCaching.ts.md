@@ -534,7 +534,9 @@ __ESTREE_TEST__:PASS:
             "start": 328,
             "end": 331,
             "raw": "'a'",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1308,7 +1310,9 @@ __ESTREE_TEST__:PASS:
                           "start": 960,
                           "end": 971,
                           "raw": "\"minimizer\"",
-                          "value": "minimizer"
+                          "value": "minimizer",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ArrowFunctionExpression",

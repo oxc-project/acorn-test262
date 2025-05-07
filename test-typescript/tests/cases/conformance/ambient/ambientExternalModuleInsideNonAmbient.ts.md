@@ -37,7 +37,9 @@ __ESTREE_TEST__:PASS:
                 "start": 37,
                 "end": 40,
                 "raw": "\"M\"",
-                "value": "M"
+                "value": "M",
+                "regex": null,
+                "bigint": null
               }
             },
             "exportKind": "type",

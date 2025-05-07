@@ -354,7 +354,9 @@
                             "start": 2690,
                             "end": 2692,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -467,21 +469,27 @@
                                 "start": 2767,
                                 "end": 2771,
                                 "value": "#m",
-                                "raw": "'#m'"
+                                "raw": "'#m'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 2773,
                                 "end": 2778,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 2780,
                                 "end": 2875,
                                 "value": "private methods are defined in an special internal slot and cannot be found as own properties",
-                                "raw": "'private methods are defined in an special internal slot and cannot be found as own properties'"
+                                "raw": "'private methods are defined in an special internal slot and cannot be found as own properties'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -545,7 +553,9 @@
                                 "start": 2915,
                                 "end": 2925,
                                 "value": "function",
-                                "raw": "'function'"
+                                "raw": "'function'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -620,7 +630,9 @@
                                 "start": 2968,
                                 "end": 2992,
                                 "value": "returns the same value",
-                                "raw": "'returns the same value'"
+                                "raw": "'returns the same value'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -717,7 +729,9 @@
                                 "start": 3044,
                                 "end": 3088,
                                 "value": "memberexpression and call expression forms",
-                                "raw": "'memberexpression and call expression forms'"
+                                "raw": "'memberexpression and call expression forms'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -839,14 +853,18 @@
                                 "start": 3156,
                                 "end": 3158,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 3160,
                                 "end": 3203,
                                 "value": "return from generator method, inside ctor",
-                                "raw": "'return from generator method, inside ctor'"
+                                "raw": "'return from generator method, inside ctor'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -904,14 +922,18 @@
                                 "start": 3237,
                                 "end": 3241,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 3243,
                                 "end": 3274,
                                 "value": "iterator is done, inside ctor",
-                                "raw": "'iterator is done, inside ctor'"
+                                "raw": "'iterator is done, inside ctor'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -981,14 +1003,18 @@
                                 "start": 3312,
                                 "end": 3316,
                                 "value": "#m",
-                                "raw": "'#m'"
+                                "raw": "'#m'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 3318,
                                 "end": 3352,
                                 "value": "function name inside constructor",
-                                "raw": "'function name inside constructor'"
+                                "raw": "'function name inside constructor'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -1106,21 +1132,27 @@
             "start": 3423,
             "end": 3427,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3429,
             "end": 3434,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3436,
             "end": 3476,
             "value": "method is not defined in the prototype",
-            "raw": "'method is not defined in the prototype'"
+            "raw": "'method is not defined in the prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1152,21 +1184,27 @@
             "start": 3490,
             "end": 3494,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3496,
             "end": 3501,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3503,
             "end": 3544,
             "value": "method is not defined in the contructor",
-            "raw": "'method is not defined in the contructor'"
+            "raw": "'method is not defined in the contructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1198,21 +1236,27 @@
             "start": 3558,
             "end": 3562,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3564,
             "end": 3569,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3571,
             "end": 3615,
             "value": "method cannot be seen outside of the class",
-            "raw": "'method cannot be seen outside of the class'"
+            "raw": "'method cannot be seen outside of the class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1289,7 +1333,9 @@
             "start": 3839,
             "end": 3901,
             "value": "The method is defined once, and reused on every new instance",
-            "raw": "'The method is defined once, and reused on every new instance'"
+            "raw": "'The method is defined once, and reused on every new instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1412,14 +1458,18 @@
             "start": 3997,
             "end": 3999,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4001,
             "end": 4031,
             "value": "return from generator method",
-            "raw": "'return from generator method'"
+            "raw": "'return from generator method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1477,14 +1527,18 @@
             "start": 4061,
             "end": 4065,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4067,
             "end": 4085,
             "value": "iterator is done",
-            "raw": "'iterator is done'"
+            "raw": "'iterator is done'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1555,14 +1609,18 @@
             "start": 4117,
             "end": 4121,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4123,
             "end": 4170,
             "value": "function name is preserved external reference",
-            "raw": "'function name is preserved external reference'"
+            "raw": "'function name is preserved external reference'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

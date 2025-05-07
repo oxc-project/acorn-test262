@@ -77,7 +77,9 @@
                       "start": 288,
                       "end": 289,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -90,14 +92,18 @@
             "start": 293,
             "end": 298,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 300,
             "end": 349,
             "value": "Array.isArray(new Number(-3)) must return false",
-            "raw": "'Array.isArray(new Number(-3)) must return false'"
+            "raw": "'Array.isArray(new Number(-3)) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

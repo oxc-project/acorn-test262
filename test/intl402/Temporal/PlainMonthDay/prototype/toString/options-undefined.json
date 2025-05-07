@@ -39,7 +39,9 @@
                     "start": 303,
                     "end": 310,
                     "value": "05-02",
-                    "raw": "\"05-02\""
+                    "raw": "\"05-02\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -58,7 +60,9 @@
                         "start": 317,
                         "end": 326,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -67,7 +71,9 @@
                     "start": 329,
                     "end": 355,
                     "value": "1972-05-02[u-ca=gregory]",
-                    "raw": "\"1972-05-02[u-ca=gregory]\""
+                    "raw": "\"1972-05-02[u-ca=gregory]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -170,14 +176,18 @@
                       "start": 448,
                       "end": 449,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 451,
                       "end": 452,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "SpreadElement",
@@ -293,7 +303,9 @@
                   "start": 552,
                   "end": 589,
                   "value": "default calendarName option is auto",
-                  "raw": "\"default calendarName option is auto\""
+                  "raw": "\"default calendarName option is auto\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -389,7 +401,9 @@
                   "start": 672,
                   "end": 709,
                   "value": "default calendarName option is auto",
-                  "raw": "\"default calendarName option is auto\""
+                  "raw": "\"default calendarName option is auto\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

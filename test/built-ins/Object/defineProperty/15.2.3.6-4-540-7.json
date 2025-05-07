@@ -61,7 +61,9 @@
           "start": 482,
           "end": 488,
           "value": "data",
-          "raw": "\"data\""
+          "raw": "\"data\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -243,7 +245,9 @@
             "start": 647,
             "end": 653,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -310,7 +314,9 @@
                   "start": 705,
                   "end": 710,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -340,7 +346,9 @@
             "start": 729,
             "end": 734,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -394,7 +402,9 @@
                   "start": 771,
                   "end": 777,
                   "value": "prop",
-                  "raw": "\"prop\""
+                  "raw": "\"prop\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -437,7 +447,9 @@
                                 "start": 816,
                                 "end": 819,
                                 "value": 100,
-                                "raw": "100"
+                                "raw": "100",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -529,7 +541,9 @@
                     "start": 903,
                     "end": 909,
                     "value": "prop",
-                    "raw": "\"prop\""
+                    "raw": "\"prop\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "CallExpression",
@@ -574,14 +588,18 @@
                     "start": 946,
                     "end": 952,
                     "value": "prop",
-                    "raw": "\"prop\""
+                    "raw": "\"prop\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 954,
                     "end": 973,
                     "value": "verifySetFunction",
-                    "raw": "\"verifySetFunction\""
+                    "raw": "\"verifySetFunction\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -618,7 +636,9 @@
             "start": 999,
             "end": 1005,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -643,7 +663,9 @@
                   "start": 1023,
                   "end": 1028,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -665,7 +687,9 @@
                   "start": 1046,
                   "end": 1051,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -723,7 +747,9 @@
                   "start": 1093,
                   "end": 1099,
                   "value": "prop",
-                  "raw": "\"prop\""
+                  "raw": "\"prop\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -874,7 +900,9 @@
                             "start": 1239,
                             "end": 1278,
                             "value": "Expected result to be true, actually ",
-                            "raw": "'Expected result to be true, actually '"
+                            "raw": "'Expected result to be true, actually '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -917,7 +945,9 @@
                     "start": 1317,
                     "end": 1323,
                     "value": "prop",
-                    "raw": "\"prop\""
+                    "raw": "\"prop\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "CallExpression",
@@ -962,14 +992,18 @@
                     "start": 1360,
                     "end": 1366,
                     "value": "prop",
-                    "raw": "\"prop\""
+                    "raw": "\"prop\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1368,
                     "end": 1387,
                     "value": "verifySetFunction",
-                    "raw": "\"verifySetFunction\""
+                    "raw": "\"verifySetFunction\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1038,7 +1072,9 @@
                             "start": 1454,
                             "end": 1480,
                             "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "raw": "\"Expected TypeError, got \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1086,7 +1122,9 @@
             "start": 1515,
             "end": 1521,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1111,7 +1149,9 @@
                   "start": 1539,
                   "end": 1544,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1133,7 +1173,9 @@
                   "start": 1562,
                   "end": 1567,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

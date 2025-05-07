@@ -230,7 +230,9 @@ __ESTREE_TEST__:PASS:
                   "start": 120,
                   "end": 155,
                   "raw": "\"expects boolean instead of string\"",
-                  "value": "expects boolean instead of string"
+                  "value": "expects boolean instead of string",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -261,7 +263,9 @@ __ESTREE_TEST__:PASS:
                   "start": 224,
                   "end": 228,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

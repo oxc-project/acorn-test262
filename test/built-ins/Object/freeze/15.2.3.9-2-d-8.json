@@ -125,7 +125,9 @@
             "start": 312,
             "end": 346,
             "value": "Object.isFrozen(errObj) !== true",
-            "raw": "'Object.isFrozen(errObj) !== true'"
+            "raw": "'Object.isFrozen(errObj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -47,7 +47,9 @@
                 "start": 414,
                 "end": 431,
                 "value": "zh-u-ca-chinese",
-                "raw": "\"zh-u-ca-chinese\""
+                "raw": "\"zh-u-ca-chinese\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -72,7 +74,9 @@
                       "start": 440,
                       "end": 449,
                       "value": "numeric",
-                      "raw": "\"numeric\""
+                      "raw": "\"numeric\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -115,21 +119,27 @@
                 "start": 475,
                 "end": 479,
                 "value": 2019,
-                "raw": "2019"
+                "raw": "2019",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 482,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 484,
                 "end": 485,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -232,7 +242,9 @@
                       "start": 556,
                       "end": 569,
                       "value": "relatedYear",
-                      "raw": "\"relatedYear\""
+                      "raw": "\"relatedYear\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -254,7 +266,9 @@
                       "start": 578,
                       "end": 584,
                       "value": "2019",
-                      "raw": "\"2019\""
+                      "raw": "\"2019\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -283,7 +297,9 @@
                       "start": 596,
                       "end": 606,
                       "value": "yearName",
-                      "raw": "\"yearName\""
+                      "raw": "\"yearName\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -305,7 +321,9 @@
                       "start": 615,
                       "end": 619,
                       "value": "己亥",
-                      "raw": "\"己亥\""
+                      "raw": "\"己亥\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -334,7 +352,9 @@
                       "start": 631,
                       "end": 640,
                       "value": "literal",
-                      "raw": "\"literal\""
+                      "raw": "\"literal\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -356,7 +376,9 @@
                       "start": 649,
                       "end": 652,
                       "value": "年",
-                      "raw": "\"年\""
+                      "raw": "\"年\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -434,14 +456,18 @@
             "start": 699,
             "end": 703,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 705,
             "end": 722,
             "value": "actual is Array",
-            "raw": "'actual is Array'"
+            "raw": "'actual is Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -480,7 +506,9 @@
           "start": 747,
           "end": 748,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {

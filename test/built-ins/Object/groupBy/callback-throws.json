@@ -76,7 +76,9 @@
                             "start": 559,
                             "end": 560,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -152,7 +154,9 @@
                                     "start": 627,
                                     "end": 646,
                                     "value": "throw in callback",
-                                    "raw": "'throw in callback'"
+                                    "raw": "'throw in callback'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }

@@ -214,7 +214,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -229,7 +231,9 @@ __ESTREE_TEST__:PASS:
         "start": 37,
         "end": 45,
         "raw": "\"./a.js\"",
-        "value": "./a.js"
+        "value": "./a.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -244,7 +248,9 @@ __ESTREE_TEST__:PASS:
         "start": 62,
         "end": 70,
         "raw": "\"./a.ts\"",
-        "value": "./a.ts"
+        "value": "./a.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -259,7 +265,9 @@ __ESTREE_TEST__:PASS:
         "start": 88,
         "end": 93,
         "raw": "\"./b\"",
-        "value": "./b"
+        "value": "./b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -274,7 +282,9 @@ __ESTREE_TEST__:PASS:
         "start": 110,
         "end": 118,
         "raw": "\"./b.js\"",
-        "value": "./b.js"
+        "value": "./b.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -289,7 +299,9 @@ __ESTREE_TEST__:PASS:
         "start": 135,
         "end": 143,
         "raw": "\"./b.ts\"",
-        "value": "./b.ts"
+        "value": "./b.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -304,7 +316,9 @@ __ESTREE_TEST__:PASS:
         "start": 160,
         "end": 170,
         "raw": "\"./b.d.ts\"",
-        "value": "./b.d.ts"
+        "value": "./b.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -319,7 +333,9 @@ __ESTREE_TEST__:PASS:
         "start": 192,
         "end": 202,
         "raw": "\"./b.d.ts\"",
-        "value": "./b.d.ts"
+        "value": "./b.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -334,7 +350,9 @@ __ESTREE_TEST__:PASS:
         "start": 220,
         "end": 228,
         "raw": "\"./c.ts\"",
-        "value": "./c.ts"
+        "value": "./c.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -349,7 +367,9 @@ __ESTREE_TEST__:PASS:
         "start": 245,
         "end": 254,
         "raw": "\"./c.tsx\"",
-        "value": "./c.tsx"
+        "value": "./c.tsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -364,7 +384,9 @@ __ESTREE_TEST__:PASS:
         "start": 272,
         "end": 277,
         "raw": "\"./d\"",
-        "value": "./d"
+        "value": "./d",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -379,7 +401,9 @@ __ESTREE_TEST__:PASS:
         "start": 294,
         "end": 305,
         "raw": "\"./d/index\"",
-        "value": "./d/index"
+        "value": "./d/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -394,7 +418,9 @@ __ESTREE_TEST__:PASS:
         "start": 322,
         "end": 336,
         "raw": "\"./d/index.ts\"",
-        "value": "./d/index.ts"
+        "value": "./d/index.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -409,7 +435,9 @@ __ESTREE_TEST__:PASS:
         "start": 484,
         "end": 489,
         "raw": "\"./e\"",
-        "value": "./e"
+        "value": "./e",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -424,7 +452,9 @@ __ESTREE_TEST__:PASS:
         "start": 506,
         "end": 515,
         "raw": "\"./e.txt\"",
-        "value": "./e.txt"
+        "value": "./e.txt",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -451,7 +481,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 23,
         "raw": "\"./a.ts\"",
-        "value": "./a.ts"
+        "value": "./a.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -466,7 +498,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 50,
         "raw": "\"./a.d.ts\"",
-        "value": "./a.d.ts"
+        "value": "./a.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -481,7 +515,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 82,
         "raw": "\"./a.d.ts\"",
-        "value": "./a.d.ts"
+        "value": "./a.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

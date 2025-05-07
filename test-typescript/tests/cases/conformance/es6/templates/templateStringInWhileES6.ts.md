@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
                   "start": 33,
                   "end": 34,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 14,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         ],
         "quasis": [

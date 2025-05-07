@@ -138,7 +138,9 @@ __ESTREE_TEST__:PASS:
                         "start": 150,
                         "end": 164,
                         "raw": "'translation1'",
-                        "value": "translation1"
+                        "value": "translation1",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -150,7 +152,9 @@ __ESTREE_TEST__:PASS:
                         "start": 167,
                         "end": 181,
                         "raw": "'translation2'",
-                        "value": "translation2"
+                        "value": "translation2",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -217,7 +221,9 @@ __ESTREE_TEST__:PASS:
                               "start": 239,
                               "end": 253,
                               "raw": "'translation1'",
-                              "value": "translation1"
+                              "value": "translation1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "typeAnnotation": {
                               "type": "TSTypeReference",
@@ -263,7 +269,9 @@ __ESTREE_TEST__:PASS:
                               "start": 295,
                               "end": 309,
                               "raw": "'translation2'",
-                              "value": "translation2"
+                              "value": "translation2",
+                              "regex": null,
+                              "bigint": null
                             },
                             "typeAnnotation": {
                               "type": "TSTypeReference",
@@ -335,7 +343,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 43,
         "raw": "\"./translation\"",
-        "value": "./translation"
+        "value": "./translation",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -601,7 +611,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 29,
         "raw": "\"./test\"",
-        "value": "./test"
+        "value": "./test",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

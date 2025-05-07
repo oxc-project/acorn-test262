@@ -29,7 +29,9 @@
                   "start": 385,
                   "end": 389,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "property": {
                   "type": "Identifier",
@@ -68,7 +70,9 @@
                     "start": 427,
                     "end": 476,
                     "value": "#1.1: null.toString() throw TypeError. Actual: ",
-                    "raw": "'#1.1: null.toString() throw TypeError. Actual: '"
+                    "raw": "'#1.1: null.toString() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -88,7 +92,9 @@
                           "start": 480,
                           "end": 484,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -161,7 +167,9 @@
                   "start": 550,
                   "end": 554,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -193,7 +201,9 @@
                             "start": 585,
                             "end": 634,
                             "value": "#1.2: null.toString() throw TypeError. Actual: ",
-                            "raw": "'#1.2: null.toString() throw TypeError. Actual: '"
+                            "raw": "'#1.2: null.toString() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -246,14 +256,18 @@
                   "start": 672,
                   "end": 676,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 "property": {
                   "type": "Literal",
                   "start": 677,
                   "end": 687,
                   "value": "toString",
-                  "raw": "\"toString\""
+                  "raw": "\"toString\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -286,7 +300,9 @@
                     "start": 717,
                     "end": 769,
                     "value": "#2.1: null[\"toString\"]() throw TypeError. Actual: ",
-                    "raw": "'#2.1: null[\"toString\"]() throw TypeError. Actual: '"
+                    "raw": "'#2.1: null[\"toString\"]() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -306,14 +322,18 @@
                           "start": 773,
                           "end": 777,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Literal",
                           "start": 778,
                           "end": 788,
                           "value": "toString",
-                          "raw": "\"toString\""
+                          "raw": "\"toString\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -380,7 +400,9 @@
                   "start": 845,
                   "end": 849,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -412,7 +434,9 @@
                             "start": 880,
                             "end": 932,
                             "value": "#2.2: null[\"toString\"]() throw TypeError. Actual: ",
-                            "raw": "'#2.2: null[\"toString\"]() throw TypeError. Actual: '"
+                            "raw": "'#2.2: null[\"toString\"]() throw TypeError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

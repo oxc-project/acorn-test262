@@ -25,7 +25,9 @@
         "start": 525,
         "end": 550,
         "value": "./Symbol.toStringTag.js",
-        "raw": "'./Symbol.toStringTag.js'"
+        "raw": "'./Symbol.toStringTag.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -94,7 +96,9 @@
             "start": 593,
             "end": 601,
             "value": "Module",
-            "raw": "'Module'"
+            "raw": "'Module'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,14 +227,18 @@
             "start": 960,
             "end": 965,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 967,
             "end": 994,
             "value": "reports as non-enumerable",
-            "raw": "'reports as non-enumerable'"
+            "raw": "'reports as non-enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -288,14 +296,18 @@
             "start": 1029,
             "end": 1034,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1061,
             "value": "reports as non-writable",
-            "raw": "'reports as non-writable'"
+            "raw": "'reports as non-writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -353,14 +365,18 @@
             "start": 1100,
             "end": 1105,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1107,
             "end": 1136,
             "value": "reports as non-configurable",
-            "raw": "'reports as non-configurable'"
+            "raw": "'reports as non-configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

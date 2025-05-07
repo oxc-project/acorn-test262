@@ -149,7 +149,9 @@
             "start": 569,
             "end": 646,
             "value": "The value of __re.source is expected to equal the value of __pattern.source",
-            "raw": "'The value of __re.source is expected to equal the value of __pattern.source'"
+            "raw": "'The value of __re.source is expected to equal the value of __pattern.source'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +228,9 @@
             "start": 712,
             "end": 795,
             "value": "The value of __re.multiline is expected to equal the value of __pattern.multiline",
-            "raw": "'The value of __re.multiline is expected to equal the value of __pattern.multiline'"
+            "raw": "'The value of __re.multiline is expected to equal the value of __pattern.multiline'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +307,9 @@
             "start": 855,
             "end": 932,
             "value": "The value of __re.global is expected to equal the value of __pattern.global",
-            "raw": "'The value of __re.global is expected to equal the value of __pattern.global'"
+            "raw": "'The value of __re.global is expected to equal the value of __pattern.global'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -380,7 +386,9 @@
             "start": 1000,
             "end": 1085,
             "value": "The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase",
-            "raw": "'The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase'"
+            "raw": "'The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

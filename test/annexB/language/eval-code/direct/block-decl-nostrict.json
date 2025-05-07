@@ -43,7 +43,9 @@
             "start": 469,
             "end": 490,
             "value": "{ function f() {} }",
-            "raw": "'{ function f() {} }'"
+            "raw": "'{ function f() {} }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

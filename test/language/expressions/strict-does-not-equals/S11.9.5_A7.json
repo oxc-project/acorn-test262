@@ -74,7 +74,9 @@
                   "start": 463,
                   "end": 498,
                   "value": "#1: new Object() !== new Object()",
-                  "raw": "'#1: new Object() !== new Object()'"
+                  "raw": "'#1: new Object() !== new Object()'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -117,7 +119,9 @@
                   "start": 531,
                   "end": 535,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -138,7 +142,9 @@
                   "start": 552,
                   "end": 556,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -170,7 +176,9 @@
                   "start": 587,
                   "end": 622,
                   "value": "#2: new Object() !== new Object()",
-                  "raw": "'#2: new Object() !== new Object()'"
+                  "raw": "'#2: new Object() !== new Object()'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -213,7 +221,9 @@
                   "start": 655,
                   "end": 660,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -234,7 +244,9 @@
                   "start": 677,
                   "end": 682,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -266,7 +278,9 @@
                   "start": 713,
                   "end": 748,
                   "value": "#3: new Object() !== new Object()",
-                  "raw": "'#3: new Object() !== new Object()'"
+                  "raw": "'#3: new Object() !== new Object()'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -315,7 +329,9 @@
                     "start": 782,
                     "end": 783,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -343,7 +359,9 @@
                     "start": 801,
                     "end": 802,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -376,7 +394,9 @@
                   "start": 833,
                   "end": 872,
                   "value": "#4: new Object(+0) !== new Object(-0)",
-                  "raw": "'#4: new Object(+0) !== new Object(-0)'"
+                  "raw": "'#4: new Object(+0) !== new Object(-0)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -510,7 +530,9 @@
                   "start": 954,
                   "end": 982,
                   "value": "#5: x = {}; y = x; x === y",
-                  "raw": "'#5: x = {}; y = x; x === y'"
+                  "raw": "'#5: x = {}; y = x; x === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -553,7 +575,9 @@
                   "start": 1016,
                   "end": 1020,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -574,7 +598,9 @@
                   "start": 1037,
                   "end": 1038,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -606,7 +632,9 @@
                   "start": 1069,
                   "end": 1109,
                   "value": "#6 new Boolean(true) !== new Number(1)",
-                  "raw": "'#6 new Boolean(true) !== new Number(1)'"
+                  "raw": "'#6 new Boolean(true) !== new Number(1)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -649,7 +677,9 @@
                   "start": 1142,
                   "end": 1143,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -670,7 +700,9 @@
                   "start": 1160,
                   "end": 1163,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -702,7 +734,9 @@
                   "start": 1194,
                   "end": 1233,
                   "value": "#7: new Number(1) !== new String(\"1\")",
-                  "raw": "'#7: new Number(1) !== new String(\"1\")'"
+                  "raw": "'#7: new Number(1) !== new String(\"1\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -745,7 +779,9 @@
                   "start": 1266,
                   "end": 1269,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -766,7 +802,9 @@
                   "start": 1287,
                   "end": 1291,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -798,7 +836,9 @@
                   "start": 1322,
                   "end": 1365,
                   "value": "#8: new String(\"x\") !== new Boolean(true)",
-                  "raw": "'#8: new String(\"x\") !== new Boolean(true)'"
+                  "raw": "'#8: new String(\"x\") !== new Boolean(true)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

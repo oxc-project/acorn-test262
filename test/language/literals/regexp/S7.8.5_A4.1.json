@@ -28,7 +28,8 @@
               "regex": {
                 "pattern": "(?:)",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "operator": "instanceof",
             "right": {
@@ -45,7 +46,9 @@
           "start": 389,
           "end": 393,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -77,7 +80,9 @@
                     "start": 422,
                     "end": 473,
                     "value": "#1: (/(?:)/ instanceof RegExp) === true. Actual: ",
-                    "raw": "'#1: (/(?:)/ instanceof RegExp) === true. Actual: '"
+                    "raw": "'#1: (/(?:)/ instanceof RegExp) === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -101,7 +106,8 @@
                           "regex": {
                             "pattern": "(?:)",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         },
                         "operator": "instanceof",
                         "right": {

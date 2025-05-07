@@ -7642,7 +7642,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 5919,
                                         "end": 5923,
                                         "raw": "true",
-                                        "value": true
+                                        "value": true,
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -7806,7 +7808,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 6054,
                                       "end": 6059,
                                       "raw": "false",
-                                      "value": false
+                                      "value": false,
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Identifier",
@@ -8049,7 +8053,9 @@ __ESTREE_TEST__:PASS:
                           "start": 6216,
                           "end": 6220,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -8308,7 +8314,9 @@ __ESTREE_TEST__:PASS:
                           "start": 6515,
                           "end": 6525,
                           "raw": "\"Callback\"",
-                          "value": "Callback"
+                          "value": "Callback",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -8515,7 +8523,9 @@ __ESTREE_TEST__:PASS:
                     "start": 6754,
                     "end": 6758,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

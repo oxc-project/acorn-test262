@@ -65,7 +65,9 @@
                             "start": 3559,
                             "end": 3572,
                             "value": "outer class",
-                            "raw": "'outer class'"
+                            "raw": "'outer class'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -192,7 +194,9 @@
                                     "start": 3673,
                                     "end": 3686,
                                     "value": "inner class",
-                                    "raw": "'inner class'"
+                                    "raw": "'inner class'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -331,7 +335,9 @@
             "start": 3781,
             "end": 3794,
             "value": "outer class",
-            "raw": "'outer class'"
+            "raw": "'outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +466,9 @@
             "start": 3850,
             "end": 3863,
             "value": "inner class",
-            "raw": "'inner class'"
+            "raw": "'inner class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -573,7 +581,9 @@
             "start": 3925,
             "end": 3975,
             "value": "accessed private getter from an arbritary object",
-            "raw": "'accessed private getter from an arbritary object'"
+            "raw": "'accessed private getter from an arbritary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -58,7 +58,8 @@
             "regex": {
               "pattern": "AL|se",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -168,7 +169,9 @@
               "start": 423,
               "end": 427,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -176,7 +179,9 @@
             "start": 431,
             "end": 496,
             "value": "__re.test(new Boolean) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(new Boolean) must return __re.exec(__string) !== null'"
+            "raw": "'__re.test(new Boolean) must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

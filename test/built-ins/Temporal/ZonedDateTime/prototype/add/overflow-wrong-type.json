@@ -48,6 +48,7 @@
                 "end": 1296,
                 "value": null,
                 "raw": "1_000_000_000_987_654_321n",
+                "regex": null,
                 "bigint": "1000000000987654321"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 1298,
                 "end": 1303,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -107,28 +110,36 @@
                 "start": 1345,
                 "end": 1346,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1348,
                 "end": 1349,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1351,
                 "end": 1352,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1354,
                 "end": 1355,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -169,14 +180,18 @@
             "start": 1401,
             "end": 1411,
             "value": "overflow",
-            "raw": "\"overflow\""
+            "raw": "\"overflow\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1413,
             "end": 1424,
             "value": "constrain",
-            "raw": "\"constrain\""
+            "raw": "\"constrain\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -327,6 +342,7 @@
                   "end": 1569,
                   "value": null,
                   "raw": "1_000_086_400_987_654_321n",
+                  "regex": null,
                   "bigint": "1000086400987654321"
                 },
                 {

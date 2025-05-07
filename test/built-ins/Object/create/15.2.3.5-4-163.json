@@ -67,7 +67,9 @@
             "start": 423,
             "end": 430,
             "value": "value",
-            "raw": "\"value\""
+            "raw": "\"value\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -110,7 +112,9 @@
                           "start": 465,
                           "end": 492,
                           "value": "inheritedAccessorProperty",
-                          "raw": "\"inheritedAccessorProperty\""
+                          "raw": "\"inheritedAccessorProperty\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -265,7 +269,9 @@
             "start": 636,
             "end": 643,
             "value": "value",
-            "raw": "\"value\""
+            "raw": "\"value\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -433,7 +439,9 @@
                 "start": 756,
                 "end": 762,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -443,7 +451,9 @@
             "start": 765,
             "end": 805,
             "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,14 +523,18 @@
             "start": 846,
             "end": 857,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 859,
             "end": 881,
             "value": "typeof (newObj.prop)",
-            "raw": "'typeof (newObj.prop)'"
+            "raw": "'typeof (newObj.prop)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

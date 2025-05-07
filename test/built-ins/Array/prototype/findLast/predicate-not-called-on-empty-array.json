@@ -23,7 +23,9 @@
             "start": 527,
             "end": 532,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -78,7 +80,9 @@
                       "start": 575,
                       "end": 579,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -91,7 +95,9 @@
                     "start": 590,
                     "end": 594,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -192,14 +198,18 @@
             "start": 663,
             "end": 668,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 718,
             "value": "[].findLast(predicate) does not call predicate",
-            "raw": "'[].findLast(predicate) does not call predicate'"
+            "raw": "'[].findLast(predicate) does not call predicate'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +260,9 @@
             "start": 757,
             "end": 800,
             "value": "[].findLast(predicate) returned undefined",
-            "raw": "'[].findLast(predicate) returned undefined'"
+            "raw": "'[].findLast(predicate) returned undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

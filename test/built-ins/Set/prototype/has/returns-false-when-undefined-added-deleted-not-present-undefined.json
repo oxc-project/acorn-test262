@@ -138,14 +138,18 @@
             "start": 330,
             "end": 334,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 336,
             "end": 371,
             "value": "`s.has(undefined)` returns `true`",
-            "raw": "\"`s.has(undefined)` returns `true`\""
+            "raw": "\"`s.has(undefined)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,14 +273,18 @@
             "start": 445,
             "end": 450,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 488,
             "value": "`s.has(undefined)` returns `false`",
-            "raw": "\"`s.has(undefined)` returns `false`\""
+            "raw": "\"`s.has(undefined)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,14 +329,18 @@
             "start": 516,
             "end": 520,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 569,
             "value": "The result of `s.delete(undefined)` is `true`",
-            "raw": "\"The result of `s.delete(undefined)` is `true`\""
+            "raw": "\"The result of `s.delete(undefined)` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

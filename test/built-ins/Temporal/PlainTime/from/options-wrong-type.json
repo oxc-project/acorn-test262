@@ -28,21 +28,27 @@
                 "start": 302,
                 "end": 306,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 314,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 331,
                 "value": "some string",
-                "raw": "\"some string\""
+                "raw": "\"some string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -62,7 +68,9 @@
                 "start": 347,
                 "end": 348,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -70,6 +78,7 @@
                 "end": 354,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             ]
@@ -217,7 +226,9 @@
                               "start": 459,
                               "end": 461,
                               "value": 12,
-                              "raw": "12"
+                              "raw": "12",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -239,7 +250,9 @@
                               "start": 471,
                               "end": 473,
                               "value": 34,
-                              "raw": "34"
+                              "raw": "34",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -410,14 +423,18 @@
                             "start": 621,
                             "end": 623,
                             "value": 12,
-                            "raw": "12"
+                            "raw": "12",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 625,
                             "end": 627,
                             "value": 34,
-                            "raw": "34"
+                            "raw": "34",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -436,7 +453,9 @@
                   "start": 642,
                   "end": 694,
                   "value": "TypeError thrown before cloning PlainTime instance",
-                  "raw": "\"TypeError thrown before cloning PlainTime instance\""
+                  "raw": "\"TypeError thrown before cloning PlainTime instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -552,6 +571,7 @@
                             "end": 783,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {
@@ -559,7 +579,9 @@
                             "start": 785,
                             "end": 790,
                             "value": "UTC",
-                            "raw": "\"UTC\""
+                            "raw": "\"UTC\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -578,7 +600,9 @@
                   "start": 805,
                   "end": 864,
                   "value": "TypeError thrown before converting ZonedDateTime instance",
-                  "raw": "\"TypeError thrown before converting ZonedDateTime instance\""
+                  "raw": "\"TypeError thrown before converting ZonedDateTime instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -693,21 +717,27 @@
                             "start": 951,
                             "end": 955,
                             "value": 1976,
-                            "raw": "1976"
+                            "raw": "1976",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 957,
                             "end": 959,
                             "value": 11,
-                            "raw": "11"
+                            "raw": "11",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 961,
                             "end": 963,
                             "value": 18,
-                            "raw": "18"
+                            "raw": "18",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -726,7 +756,9 @@
                   "start": 978,
                   "end": 1037,
                   "value": "TypeError thrown before converting PlainDateTime instance",
-                  "raw": "\"TypeError thrown before converting PlainDateTime instance\""
+                  "raw": "\"TypeError thrown before converting PlainDateTime instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -817,7 +849,9 @@
                         "start": 1098,
                         "end": 1106,
                         "value": "T99:99",
-                        "raw": "\"T99:99\""
+                        "raw": "\"T99:99\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -834,7 +868,9 @@
                   "start": 1120,
                   "end": 1172,
                   "value": "Invalid string processed before throwing TypeError",
-                  "raw": "\"Invalid string processed before throwing TypeError\""
+                  "raw": "\"Invalid string processed before throwing TypeError\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

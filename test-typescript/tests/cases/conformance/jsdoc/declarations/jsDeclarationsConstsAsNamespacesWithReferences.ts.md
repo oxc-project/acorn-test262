@@ -57,7 +57,9 @@ __ESTREE_TEST__:PASS:
                     "start": 39,
                     "end": 48,
                     "raw": "\"#6400e4\"",
-                    "value": "#6400e4"
+                    "value": "#6400e4",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

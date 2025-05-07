@@ -76,6 +76,7 @@
                                 "end": 994,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ]
@@ -233,7 +234,9 @@
                                     "start": 1127,
                                     "end": 1130,
                                     "value": "0",
-                                    "raw": "'0'"
+                                    "raw": "'0'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -254,7 +257,9 @@
                         "start": 1144,
                         "end": 1185,
                         "value": "`sample[\"0\"] = obj` throws Test262Error",
-                        "raw": "'`sample[\"0\"] = obj` throws Test262Error'"
+                        "raw": "'`sample[\"0\"] = obj` throws Test262Error'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -332,7 +337,9 @@
                                     "start": 1243,
                                     "end": 1248,
                                     "value": "1.1",
-                                    "raw": "'1.1'"
+                                    "raw": "'1.1'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -353,7 +360,9 @@
                         "start": 1262,
                         "end": 1305,
                         "value": "`sample[\"1.1\"] = obj` throws Test262Error",
-                        "raw": "'`sample[\"1.1\"] = obj` throws Test262Error'"
+                        "raw": "'`sample[\"1.1\"] = obj` throws Test262Error'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -431,7 +440,9 @@
                                     "start": 1363,
                                     "end": 1367,
                                     "value": "-0",
-                                    "raw": "'-0'"
+                                    "raw": "'-0'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -452,7 +463,9 @@
                         "start": 1381,
                         "end": 1423,
                         "value": "`sample[\"-0\"] = obj` throws Test262Error",
-                        "raw": "'`sample[\"-0\"] = obj` throws Test262Error'"
+                        "raw": "'`sample[\"-0\"] = obj` throws Test262Error'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -530,7 +543,9 @@
                                     "start": 1481,
                                     "end": 1485,
                                     "value": "-1",
-                                    "raw": "'-1'"
+                                    "raw": "'-1'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -551,7 +566,9 @@
                         "start": 1499,
                         "end": 1541,
                         "value": "`sample[\"-1\"] = obj` throws Test262Error",
-                        "raw": "'`sample[\"-1\"] = obj` throws Test262Error'"
+                        "raw": "'`sample[\"-1\"] = obj` throws Test262Error'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -629,7 +646,9 @@
                                     "start": 1599,
                                     "end": 1602,
                                     "value": "1",
-                                    "raw": "'1'"
+                                    "raw": "'1'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -650,7 +669,9 @@
                         "start": 1616,
                         "end": 1657,
                         "value": "`sample[\"1\"] = obj` throws Test262Error",
-                        "raw": "'`sample[\"1\"] = obj` throws Test262Error'"
+                        "raw": "'`sample[\"1\"] = obj` throws Test262Error'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -728,7 +749,9 @@
                                     "start": 1715,
                                     "end": 1718,
                                     "value": "2",
-                                    "raw": "'2'"
+                                    "raw": "'2'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -749,7 +772,9 @@
                         "start": 1732,
                         "end": 1773,
                         "value": "`sample[\"2\"] = obj` throws Test262Error",
-                        "raw": "'`sample[\"2\"] = obj` throws Test262Error'"
+                        "raw": "'`sample[\"2\"] = obj` throws Test262Error'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

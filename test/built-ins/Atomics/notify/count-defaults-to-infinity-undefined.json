@@ -23,7 +23,9 @@
             "start": 431,
             "end": 432,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 491,
             "end": 492,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 550,
             "end": 551,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 571,
             "end": 572,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -131,7 +139,9 @@
               "start": 622,
               "end": 623,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -606,7 +616,9 @@
             "start": 1591,
             "end": 1668,
             "value": "Atomics.notify(i32a, WAIT_INDEX, undefined) returns the value of `NUMAGENT`",
-            "raw": "'Atomics.notify(i32a, WAIT_INDEX, undefined) returns the value of `NUMAGENT`'"
+            "raw": "'Atomics.notify(i32a, WAIT_INDEX, undefined) returns the value of `NUMAGENT`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -661,7 +673,9 @@
               "start": 1705,
               "end": 1706,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -851,7 +865,9 @@
               "start": 1813,
               "end": 1814,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -861,14 +877,18 @@
             "start": 1817,
             "end": 1823,
             "value": "A ok",
-            "raw": "'A ok'"
+            "raw": "'A ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1825,
             "end": 1860,
             "value": "The value of reports[0] is \"A ok\"",
-            "raw": "'The value of reports[0] is \"A ok\"'"
+            "raw": "'The value of reports[0] is \"A ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -917,7 +937,9 @@
               "start": 1888,
               "end": 1889,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -927,14 +949,18 @@
             "start": 1892,
             "end": 1898,
             "value": "B ok",
-            "raw": "'B ok'"
+            "raw": "'B ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1900,
             "end": 1935,
             "value": "The value of reports[1] is \"B ok\"",
-            "raw": "'The value of reports[1] is \"B ok\"'"
+            "raw": "'The value of reports[1] is \"B ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -983,7 +1009,9 @@
               "start": 1963,
               "end": 1964,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -993,14 +1021,18 @@
             "start": 1967,
             "end": 1973,
             "value": "C ok",
-            "raw": "'C ok'"
+            "raw": "'C ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1975,
             "end": 2010,
             "value": "The value of reports[2] is \"C ok\"",
-            "raw": "'The value of reports[2] is \"C ok\"'"
+            "raw": "'The value of reports[2] is \"C ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1049,7 +1081,9 @@
               "start": 2038,
               "end": 2039,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1059,14 +1093,18 @@
             "start": 2042,
             "end": 2048,
             "value": "D ok",
-            "raw": "'D ok'"
+            "raw": "'D ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2050,
             "end": 2085,
             "value": "The value of reports[3] is \"D ok\"",
-            "raw": "'The value of reports[3] is \"D ok\"'"
+            "raw": "'The value of reports[3] is \"D ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

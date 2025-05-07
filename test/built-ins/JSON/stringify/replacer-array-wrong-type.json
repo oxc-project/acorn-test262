@@ -100,7 +100,9 @@
                                 "start": 699,
                                 "end": 707,
                                 "value": "toJSON",
-                                "raw": "'toJSON'"
+                                "raw": "'toJSON'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -167,21 +169,27 @@
                 "start": 778,
                 "end": 782,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 786,
                 "end": 791,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 795,
                 "end": 799,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -224,7 +232,9 @@
                               "start": 834,
                               "end": 844,
                               "value": "toString",
-                              "raw": "'toString'"
+                              "raw": "'toString'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -325,7 +335,9 @@
             "start": 914,
             "end": 918,
             "value": "{}",
-            "raw": "'{}'"
+            "raw": "'{}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

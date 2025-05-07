@@ -31,7 +31,9 @@
                 "start": 1385,
                 "end": 1388,
                 "value": "9",
-                "raw": "\"9\""
+                "raw": "\"9\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -48,7 +50,9 @@
                 "start": 1396,
                 "end": 1400,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

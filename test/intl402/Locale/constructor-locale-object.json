@@ -47,7 +47,9 @@
                 "start": 428,
                 "end": 435,
                 "value": "en-US",
-                "raw": "\"en-US\""
+                "raw": "\"en-US\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -123,7 +125,9 @@
                       "start": 482,
                       "end": 486,
                       "value": "GB",
-                      "raw": "\"GB\""
+                      "raw": "\"GB\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -194,14 +198,18 @@
             "start": 525,
             "end": 532,
             "value": "en-US",
-            "raw": "\"en-US\""
+            "raw": "\"en-US\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 567,
             "value": "enUS.toString() returns \"en-US\"",
-            "raw": "'enUS.toString() returns \"en-US\"'"
+            "raw": "'enUS.toString() returns \"en-US\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,14 +274,18 @@
             "start": 604,
             "end": 611,
             "value": "en-GB",
-            "raw": "\"en-GB\""
+            "raw": "\"en-GB\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 646,
             "value": "enGB.toString() returns \"en-GB\"",
-            "raw": "'enGB.toString() returns \"en-GB\"'"
+            "raw": "'enGB.toString() returns \"en-GB\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,7 +335,9 @@
                 "start": 749,
                 "end": 765,
                 "value": "zh-u-co-unihan",
-                "raw": "\"zh-u-co-unihan\""
+                "raw": "\"zh-u-co-unihan\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -399,7 +413,9 @@
                       "start": 823,
                       "end": 831,
                       "value": "zhuyin",
-                      "raw": "\"zhuyin\""
+                      "raw": "\"zhuyin\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -470,14 +486,18 @@
             "start": 879,
             "end": 895,
             "value": "zh-u-co-unihan",
-            "raw": "\"zh-u-co-unihan\""
+            "raw": "\"zh-u-co-unihan\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 899,
             "end": 945,
             "value": "zhUnihan.toString() returns \"zh-u-co-unihan\"",
-            "raw": "'zhUnihan.toString() returns \"zh-u-co-unihan\"'"
+            "raw": "'zhUnihan.toString() returns \"zh-u-co-unihan\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -542,14 +562,18 @@
             "start": 992,
             "end": 1008,
             "value": "zh-u-co-zhuyin",
-            "raw": "\"zh-u-co-zhuyin\""
+            "raw": "\"zh-u-co-zhuyin\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1012,
             "end": 1058,
             "value": "zhZhuyin.toString() returns \"zh-u-co-zhuyin\"",
-            "raw": "'zhZhuyin.toString() returns \"zh-u-co-zhuyin\"'"
+            "raw": "'zhZhuyin.toString() returns \"zh-u-co-zhuyin\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -607,14 +631,18 @@
             "start": 1100,
             "end": 1108,
             "value": "unihan",
-            "raw": "\"unihan\""
+            "raw": "\"unihan\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1110,
             "end": 1155,
             "value": "The value of zhUnihan.collation is \"unihan\"",
-            "raw": "'The value of zhUnihan.collation is \"unihan\"'"
+            "raw": "'The value of zhUnihan.collation is \"unihan\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -672,14 +700,18 @@
             "start": 1195,
             "end": 1203,
             "value": "zhuyin",
-            "raw": "\"zhuyin\""
+            "raw": "\"zhuyin\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1205,
             "end": 1250,
             "value": "The value of zhZhuyin.collation is \"zhuyin\"",
-            "raw": "'The value of zhZhuyin.collation is \"zhuyin\"'"
+            "raw": "'The value of zhZhuyin.collation is \"zhuyin\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

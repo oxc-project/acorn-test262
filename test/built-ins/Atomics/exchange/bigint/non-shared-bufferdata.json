@@ -94,7 +94,9 @@
                               "start": 453,
                               "end": 454,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -204,7 +206,9 @@
                             "start": 530,
                             "end": 531,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
@@ -212,6 +216,7 @@
                             "end": 535,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         ],
@@ -223,6 +228,7 @@
                         "end": 540,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -230,7 +236,9 @@
                         "start": 542,
                         "end": 584,
                         "value": "Atomics.exchange(view, 0, 1n) returns 0n",
-                        "raw": "'Atomics.exchange(view, 0, 1n) returns 0n'"
+                        "raw": "'Atomics.exchange(view, 0, 1n) returns 0n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -299,7 +307,9 @@
                             "start": 625,
                             "end": 626,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -310,6 +320,7 @@
                         "end": 631,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {
@@ -317,7 +328,9 @@
                         "start": 633,
                         "end": 667,
                         "value": "Atomics.load(view, 0) returns 1n",
-                        "raw": "'Atomics.load(view, 0) returns 1n'"
+                        "raw": "'Atomics.load(view, 0) returns 1n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

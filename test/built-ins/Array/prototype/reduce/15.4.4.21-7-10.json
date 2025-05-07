@@ -23,7 +23,9 @@
             "start": 256,
             "end": 281,
             "value": "initialValue is present",
-            "raw": "\"initialValue is present\""
+            "raw": "\"initialValue is present\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -117,7 +119,9 @@
             "start": 337,
             "end": 370,
             "value": "[].reduce(function () { }, str)",
-            "raw": "'[].reduce(function () { }, str)'"
+            "raw": "'[].reduce(function () { }, str)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,7 +48,9 @@
                   "start": 379,
                   "end": 409,
                   "value": "#1: new this throw TypeError",
-                  "raw": "'#1: new this throw TypeError'"
+                  "raw": "'#1: new this throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -107,7 +109,9 @@
                   "start": 462,
                   "end": 466,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -135,7 +139,9 @@
                           "start": 497,
                           "end": 527,
                           "value": "#1: new this throw TypeError",
-                          "raw": "'#1: new this throw TypeError'"
+                          "raw": "'#1: new this throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -194,7 +200,9 @@
                   "start": 593,
                   "end": 625,
                   "value": "#2: new this() throw TypeError",
-                  "raw": "'#2: new this() throw TypeError'"
+                  "raw": "'#2: new this() throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -253,7 +261,9 @@
                   "start": 678,
                   "end": 682,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -281,7 +291,9 @@
                           "start": 713,
                           "end": 745,
                           "value": "#2: new this() throw TypeError",
-                          "raw": "'#2: new this() throw TypeError'"
+                          "raw": "'#2: new this() throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

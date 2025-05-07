@@ -241,7 +241,9 @@ __ESTREE_TEST__:PASS:
               "start": 243,
               "end": 247,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",
@@ -287,7 +289,9 @@ __ESTREE_TEST__:PASS:
               "start": 262,
               "end": 266,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",
@@ -333,7 +337,9 @@ __ESTREE_TEST__:PASS:
               "start": 281,
               "end": 285,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",
@@ -388,7 +394,9 @@ __ESTREE_TEST__:PASS:
               "start": 304,
               "end": 308,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -434,7 +442,9 @@ __ESTREE_TEST__:PASS:
               "start": 323,
               "end": 327,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -471,7 +481,9 @@ __ESTREE_TEST__:PASS:
               "start": 338,
               "end": 342,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",
@@ -517,7 +529,9 @@ __ESTREE_TEST__:PASS:
               "start": 373,
               "end": 377,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",
@@ -563,14 +577,18 @@ __ESTREE_TEST__:PASS:
               "start": 392,
               "end": 396,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Literal",
               "start": 399,
               "end": 403,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -607,7 +625,9 @@ __ESTREE_TEST__:PASS:
               "start": 414,
               "end": 418,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "ObjectExpression",
@@ -637,7 +657,9 @@ __ESTREE_TEST__:PASS:
                     "start": 426,
                     "end": 428,
                     "raw": "''",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -677,7 +699,9 @@ __ESTREE_TEST__:PASS:
               "start": 442,
               "end": 446,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "CallExpression",
@@ -731,7 +755,9 @@ __ESTREE_TEST__:PASS:
               "start": 466,
               "end": 470,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "ArrowFunctionExpression",

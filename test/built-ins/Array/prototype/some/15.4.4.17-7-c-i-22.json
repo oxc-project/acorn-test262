@@ -61,7 +61,9 @@
                 "start": 367,
                 "end": 368,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -96,7 +98,9 @@
                       "start": 398,
                       "end": 409,
                       "value": "undefined",
-                      "raw": "\"undefined\""
+                      "raw": "\"undefined\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -113,7 +117,9 @@
               "start": 424,
               "end": 429,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -171,7 +177,9 @@
             "start": 473,
             "end": 476,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -227,7 +235,9 @@
                   "start": 518,
                   "end": 522,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -292,7 +302,9 @@
             "start": 558,
             "end": 590,
             "value": "[, ].some(callbackfn) !== true",
-            "raw": "'[, ].some(callbackfn) !== true'"
+            "raw": "'[, ].some(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -42,7 +42,9 @@
                   "start": 480,
                   "end": 484,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -114,7 +116,9 @@
                   "start": 627,
                   "end": 665,
                   "value": "#0: \"x=x\" lead to throwing exception",
-                  "raw": "'#0: \"x=x\" lead to throwing exception'"
+                  "raw": "'#0: \"x=x\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -258,7 +262,9 @@
                       "start": 965,
                       "end": 1046,
                       "value": "#1: var __x=__func() does not lead to throwing exception. Actual: exception is ",
-                      "raw": "'#1: var __x=__func() does not lead to throwing exception. Actual: exception is '"
+                      "raw": "'#1: var __x=__func() does not lead to throwing exception. Actual: exception is '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -327,7 +333,9 @@
                     "start": 1263,
                     "end": 1298,
                     "value": "#2: __x === true. Actual: __x ===",
-                    "raw": "'#2: __x === true. Actual: __x ==='"
+                    "raw": "'#2: __x === true. Actual: __x ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -396,7 +404,9 @@
                   "start": 1515,
                   "end": 1553,
                   "value": "#3: \"x=x\" lead to throwing exception",
-                  "raw": "'#3: \"x=x\" lead to throwing exception'"
+                  "raw": "'#3: \"x=x\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -62,14 +62,18 @@
             "start": 1001,
             "end": 1011,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1013,
             "end": 1068,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -95,7 +99,9 @@
             "start": 1087,
             "end": 1088,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -231,7 +237,9 @@
                       "start": 1220,
                       "end": 1221,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -413,6 +421,7 @@
                     "end": 1700,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 ],
@@ -489,6 +498,7 @@
                             "end": 1762,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           },
                           {
@@ -496,7 +506,9 @@
                             "start": 1764,
                             "end": 1797,
                             "value": "The value of `agentCount` is 1n",
-                            "raw": "'The value of `agentCount` is 1n'"
+                            "raw": "'The value of `agentCount` is 1n'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -541,7 +553,9 @@
                             "start": 1822,
                             "end": 1823,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
@@ -549,6 +563,7 @@
                             "end": 1832,
                             "value": null,
                             "raw": "0b1010n",
+                            "regex": null,
                             "bigint": "0b1010"
                           }
                         ],
@@ -656,7 +671,9 @@
                             "start": 1913,
                             "end": 1968,
                             "value": "The result of evaluating `(lapse >= TIMEOUT)` is true",
-                            "raw": "'The result of evaluating `(lapse >= TIMEOUT)` is true'"
+                            "raw": "'The result of evaluating `(lapse >= TIMEOUT)` is true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -764,14 +781,18 @@
                             "start": 2050,
                             "end": 2061,
                             "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "raw": "'timed-out'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2063,
                             "end": 2101,
                             "value": "The value of `result` is \"timed-out\"",
-                            "raw": "'The value of `result` is \"timed-out\"'"
+                            "raw": "'The value of `result` is \"timed-out\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -840,7 +861,9 @@
                                 "start": 2150,
                                 "end": 2151,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -850,14 +873,18 @@
                             "start": 2158,
                             "end": 2159,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2165,
                             "end": 2277,
                             "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
+                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

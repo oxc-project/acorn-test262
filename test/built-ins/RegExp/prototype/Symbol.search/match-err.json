@@ -41,7 +41,9 @@
                   "start": 374,
                   "end": 376,
                   "value": 86,
-                  "raw": "86"
+                  "raw": "86",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -284,14 +286,18 @@
             "start": 566,
             "end": 567,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 569,
             "end": 607,
             "value": "`lastIndex` property is not restored",
-            "raw": "'`lastIndex` property is not restored'"
+            "raw": "'`lastIndex` property is not restored'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

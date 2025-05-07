@@ -63,7 +63,9 @@
                           "start": 990,
                           "end": 992,
                           "value": 45,
-                          "raw": "45"
+                          "raw": "45",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -97,7 +99,9 @@
         "start": 1014,
         "end": 1052,
         "value": "./eval-export-dflt-expr-cls-named.js",
-        "raw": "'./eval-export-dflt-expr-cls-named.js'"
+        "raw": "'./eval-export-dflt-expr-cls-named.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -166,14 +170,18 @@
             "start": 1091,
             "end": 1093,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1095,
             "end": 1116,
             "value": "binding initialized",
-            "raw": "'binding initialized'"
+            "raw": "'binding initialized'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -231,14 +239,18 @@
             "start": 1144,
             "end": 1151,
             "value": "cName",
-            "raw": "'cName'"
+            "raw": "'cName'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1153,
             "end": 1179,
             "value": "correct name is assigned",
-            "raw": "'correct name is assigned'"
+            "raw": "'correct name is assigned'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

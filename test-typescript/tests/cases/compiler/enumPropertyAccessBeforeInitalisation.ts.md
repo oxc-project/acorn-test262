@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
                 "start": 43,
                 "end": 46,
                 "raw": "\"C\"",
-                "value": "C"
+                "value": "C",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -140,7 +142,9 @@ __ESTREE_TEST__:PASS:
                 "start": 57,
                 "end": 58,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",

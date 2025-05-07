@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?i:a(?-i:b))c",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -83,7 +84,9 @@
                   "start": 1741,
                   "end": 1746,
                   "value": "ABC",
-                  "raw": "\"ABC\""
+                  "raw": "\"ABC\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +97,9 @@
             "start": 1749,
             "end": 1778,
             "value": "b should not match B in ABC",
-            "raw": "\"b should not match B in ABC\""
+            "raw": "\"b should not match B in ABC\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +155,9 @@
                   "start": 1798,
                   "end": 1803,
                   "value": "ABc",
-                  "raw": "\"ABc\""
+                  "raw": "\"ABc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -161,7 +168,9 @@
             "start": 1806,
             "end": 1835,
             "value": "b should not match B in ABc",
-            "raw": "\"b should not match B in ABc\""
+            "raw": "\"b should not match B in ABc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,7 +220,9 @@
                 "start": 1854,
                 "end": 1859,
                 "value": "Abc",
-                "raw": "\"Abc\""
+                "raw": "\"Abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -221,7 +232,9 @@
             "start": 1862,
             "end": 1887,
             "value": "a should match A in Abc",
-            "raw": "\"a should match A in Abc\""
+            "raw": "\"a should match A in Abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +290,9 @@
                   "start": 1907,
                   "end": 1912,
                   "value": "aBc",
-                  "raw": "\"aBc\""
+                  "raw": "\"aBc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -288,7 +303,9 @@
             "start": 1915,
             "end": 1944,
             "value": "b should not match B in aBc",
-            "raw": "\"b should not match B in aBc\""
+            "raw": "\"b should not match B in aBc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +361,9 @@
                   "start": 1964,
                   "end": 1969,
                   "value": "abC",
-                  "raw": "\"abC\""
+                  "raw": "\"abC\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -355,7 +374,9 @@
             "start": 1972,
             "end": 2001,
             "value": "c should not match C in abC",
-            "raw": "\"c should not match C in abC\""
+            "raw": "\"c should not match C in abC\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -405,7 +426,9 @@
                 "start": 2020,
                 "end": 2025,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -415,7 +438,9 @@
             "start": 2028,
             "end": 2046,
             "value": "should match abc",
-            "raw": "\"should match abc\""
+            "raw": "\"should match abc\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

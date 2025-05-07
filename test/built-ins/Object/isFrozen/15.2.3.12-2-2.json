@@ -56,7 +56,9 @@
               "start": 328,
               "end": 330,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -122,7 +124,9 @@
             "start": 388,
             "end": 396,
             "value": "Father",
-            "raw": "\"Father\""
+            "raw": "\"Father\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -189,7 +193,9 @@
                   "start": 450,
                   "end": 454,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -392,7 +398,9 @@
             "start": 598,
             "end": 631,
             "value": "Object.isFrozen(child) !== true",
-            "raw": "'Object.isFrozen(child) !== true'"
+            "raw": "'Object.isFrozen(child) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

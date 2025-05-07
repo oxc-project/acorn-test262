@@ -134,7 +134,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 29,
         "raw": "\"./somelib\"",
-        "value": "./somelib"
+        "value": "./somelib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -274,7 +276,9 @@ __ESTREE_TEST__:PASS:
                         "start": 121,
                         "end": 123,
                         "raw": "12",
-                        "value": 12
+                        "value": 12,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

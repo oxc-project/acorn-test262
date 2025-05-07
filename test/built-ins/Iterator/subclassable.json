@@ -83,14 +83,18 @@
             "start": 523,
             "end": 527,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 531,
             "end": 599,
             "value": "The result of `(new SubIterator() instanceof SubIterator)` is true",
-            "raw": "'The result of `(new SubIterator() instanceof SubIterator)` is true'"
+            "raw": "'The result of `(new SubIterator() instanceof SubIterator)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,14 +157,18 @@
             "start": 664,
             "end": 668,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 672,
             "end": 737,
             "value": "The result of `(new SubIterator() instanceof Iterator)` is true",
-            "raw": "'The result of `(new SubIterator() instanceof Iterator)` is true'"
+            "raw": "'The result of `(new SubIterator() instanceof Iterator)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

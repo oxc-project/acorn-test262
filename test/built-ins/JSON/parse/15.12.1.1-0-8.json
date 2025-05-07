@@ -84,7 +84,9 @@
                         "start": 341,
                         "end": 359,
                         "value": "  1234",
-                        "raw": "'\\u2028\\u20291234'"
+                        "raw": "'\\u2028\\u20291234'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

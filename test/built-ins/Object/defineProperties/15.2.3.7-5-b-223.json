@@ -66,7 +66,9 @@
                     "start": 341,
                     "end": 344,
                     "value": 100,
-                    "raw": "100"
+                    "raw": "100",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -216,14 +218,18 @@
             "start": 451,
             "end": 454,
             "value": 100,
-            "raw": "100"
+            "raw": "100",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 470,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -73,7 +73,9 @@ __ESTREE_TEST__:PASS:
                     "start": 381,
                     "end": 399,
                     "raw": "\"some other thing\"",
-                    "value": "some other thing"
+                    "value": "some other thing",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -193,7 +195,9 @@ __ESTREE_TEST__:PASS:
             "start": 259,
             "end": 271,
             "raw": "\"javascript\"",
-            "value": "javascript"
+            "value": "javascript",
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": null
         }

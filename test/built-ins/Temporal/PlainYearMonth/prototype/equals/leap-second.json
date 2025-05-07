@@ -47,14 +47,18 @@
                 "start": 324,
                 "end": 328,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 332,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -82,7 +86,9 @@
             "start": 346,
             "end": 367,
             "value": "2016-12-31T23:59:60",
-            "raw": "\"2016-12-31T23:59:60\""
+            "raw": "\"2016-12-31T23:59:60\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -179,14 +185,18 @@
             "start": 438,
             "end": 442,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 446,
             "end": 500,
             "value": "leap second is a valid ISO string for PlainYearMonth",
-            "raw": "\"leap second is a valid ISO string for PlainYearMonth\""
+            "raw": "\"leap second is a valid ISO string for PlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +240,9 @@
                 "start": 519,
                 "end": 523,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -252,7 +264,9 @@
                 "start": 532,
                 "end": 534,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -274,7 +288,9 @@
                 "start": 541,
                 "end": 543,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -296,7 +312,9 @@
                 "start": 551,
                 "end": 553,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -318,7 +336,9 @@
                 "start": 563,
                 "end": 565,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -340,7 +360,9 @@
                 "start": 575,
                 "end": 577,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -439,14 +461,18 @@
             "start": 650,
             "end": 654,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 716,
             "value": "second: 60 is ignored in property bag for PlainYearMonth",
-            "raw": "\"second: 60 is ignored in property bag for PlainYearMonth\""
+            "raw": "\"second: 60 is ignored in property bag for PlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

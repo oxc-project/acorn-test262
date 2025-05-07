@@ -77,7 +77,9 @@
             "start": 1700,
             "end": 1740,
             "value": "binding is created but not initialized",
-            "raw": "'binding is created but not initialized'"
+            "raw": "'binding is created but not initialized'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -111,7 +113,9 @@
         "start": 1767,
         "end": 1795,
         "value": "./instn-named-bndng-cls.js",
-        "raw": "'./instn-named-bndng-cls.js'"
+        "raw": "'./instn-named-bndng-cls.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },

@@ -28,21 +28,27 @@
                 "start": 306,
                 "end": 310,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 314,
                 "end": 318,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 335,
                 "value": "some string",
-                "raw": "\"some string\""
+                "raw": "\"some string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -62,7 +68,9 @@
                 "start": 351,
                 "end": 352,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -70,6 +78,7 @@
                 "end": 358,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             ]
@@ -217,7 +226,9 @@
                               "start": 467,
                               "end": 471,
                               "value": 1976,
-                              "raw": "1976"
+                              "raw": "1976",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -239,7 +250,9 @@
                               "start": 480,
                               "end": 482,
                               "value": 11,
-                              "raw": "11"
+                              "raw": "11",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -261,7 +274,9 @@
                               "start": 489,
                               "end": 491,
                               "value": 18,
-                              "raw": "18"
+                              "raw": "18",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -283,7 +298,9 @@
                               "start": 503,
                               "end": 508,
                               "value": "UTC",
-                              "raw": "\"UTC\""
+                              "raw": "\"UTC\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -455,6 +472,7 @@
                             "end": 666,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {
@@ -462,7 +480,9 @@
                             "start": 668,
                             "end": 673,
                             "value": "UTC",
-                            "raw": "\"UTC\""
+                            "raw": "\"UTC\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -481,7 +501,9 @@
                   "start": 688,
                   "end": 744,
                   "value": "TypeError thrown before cloning ZonedDateTime instance",
-                  "raw": "\"TypeError thrown before cloning ZonedDateTime instance\""
+                  "raw": "\"TypeError thrown before cloning ZonedDateTime instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -572,7 +594,9 @@
                         "start": 809,
                         "end": 822,
                         "value": "1976-11-18Z",
-                        "raw": "\"1976-11-18Z\""
+                        "raw": "\"1976-11-18Z\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -589,7 +613,9 @@
                   "start": 836,
                   "end": 895,
                   "value": "Invalid string string processed before throwing TypeError",
-                  "raw": "\"Invalid string string processed before throwing TypeError\""
+                  "raw": "\"Invalid string string processed before throwing TypeError\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

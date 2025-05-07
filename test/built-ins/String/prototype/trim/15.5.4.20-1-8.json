@@ -34,7 +34,9 @@
                 "start": 282,
                 "end": 291,
                 "value": "    abc",
-                "raw": "\"    abc\""
+                "raw": "\"    abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -102,14 +104,18 @@
             "start": 327,
             "end": 332,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 349,
             "value": "strObj.trim()",
-            "raw": "'strObj.trim()'"
+            "raw": "'strObj.trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,14 +180,18 @@
             "start": 388,
             "end": 397,
             "value": "    abc",
-            "raw": "\"    abc\""
+            "raw": "\"    abc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 399,
             "end": 418,
             "value": "strObj.toString()",
-            "raw": "'strObj.toString()'"
+            "raw": "'strObj.toString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

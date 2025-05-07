@@ -102,14 +102,18 @@
             "start": 375,
             "end": 379,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 383,
             "end": 448,
             "value": "Function.prototype.isPrototypeOf(err1.constructor) returns true",
-            "raw": "'Function.prototype.isPrototypeOf(err1.constructor) returns true'"
+            "raw": "'Function.prototype.isPrototypeOf(err1.constructor) returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,14 +211,18 @@
             "start": 528,
             "end": 532,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 536,
             "end": 602,
             "value": "Function.prototype.isPrototypeOf(Error.constructor) returns true",
-            "raw": "'Function.prototype.isPrototypeOf(Error.constructor) returns true'"
+            "raw": "'Function.prototype.isPrototypeOf(Error.constructor) returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

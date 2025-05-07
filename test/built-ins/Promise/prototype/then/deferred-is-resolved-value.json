@@ -23,7 +23,9 @@
             "start": 1589,
             "end": 1594,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -396,7 +398,9 @@
           "start": 1971,
           "end": 1975,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -465,7 +469,9 @@
           "start": 2014,
           "end": 2019,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -514,7 +520,9 @@
             "start": 2050,
             "end": 2073,
             "value": "then() returns object",
-            "raw": "\"then() returns object\""
+            "raw": "\"then() returns object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

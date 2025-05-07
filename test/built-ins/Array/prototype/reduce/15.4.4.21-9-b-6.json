@@ -23,7 +23,9 @@
             "start": 323,
             "end": 328,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -97,7 +99,9 @@
                   "start": 389,
                   "end": 390,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "&&",
@@ -117,7 +121,9 @@
                   "start": 402,
                   "end": 406,
                   "value": 6.99,
-                  "raw": "6.99"
+                  "raw": "6.99",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -146,7 +152,9 @@
                       "start": 427,
                       "end": 431,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -195,7 +203,9 @@
                   "start": 462,
                   "end": 463,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -244,7 +254,9 @@
             "start": 495,
             "end": 498,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -330,7 +342,9 @@
                               "start": 566,
                               "end": 569,
                               "value": "1",
-                              "raw": "\"1\""
+                              "raw": "\"1\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",
@@ -373,7 +387,9 @@
                                             "start": 612,
                                             "end": 616,
                                             "value": 6.99,
-                                            "raw": "6.99"
+                                            "raw": "6.99",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -399,7 +415,9 @@
                                     "start": 647,
                                     "end": 651,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -418,7 +436,9 @@
                           "start": 671,
                           "end": 672,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -444,7 +464,9 @@
                   "start": 695,
                   "end": 699,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -550,7 +572,9 @@
             "start": 771,
             "end": 792,
             "value": "testResult !== true",
-            "raw": "'testResult !== true'"
+            "raw": "'testResult !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

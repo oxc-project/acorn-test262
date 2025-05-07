@@ -72,7 +72,9 @@
                 "start": 508,
                 "end": 516,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 547,
                     "end": 630,
                     "value": "#0: String.prototype.toLowerCase.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.toLowerCase.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#0: String.prototype.toLowerCase.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 677,
                         "end": 685,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -267,7 +273,9 @@
                   "start": 939,
                   "end": 999,
                   "value": "#1: delete String.prototype.toLowerCase.length return true",
-                  "raw": "'#1: delete String.prototype.toLowerCase.length return true'"
+                  "raw": "'#1: delete String.prototype.toLowerCase.length return true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -335,7 +343,9 @@
             "start": 1224,
             "end": 1232,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +379,9 @@
                     "start": 1262,
                     "end": 1390,
                     "value": "#2: delete String.prototype.toLowerCase.length; String.prototype.toLowerCase.hasOwnProperty('length') return false. Actual: ",
-                    "raw": "'#2: delete String.prototype.toLowerCase.length; String.prototype.toLowerCase.hasOwnProperty(\\'length\\') return false. Actual: '"
+                    "raw": "'#2: delete String.prototype.toLowerCase.length; String.prototype.toLowerCase.hasOwnProperty(\\'length\\') return false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -427,7 +439,9 @@
                         "start": 1437,
                         "end": 1445,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

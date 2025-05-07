@@ -121,7 +121,9 @@
             "start": 446,
             "end": 462,
             "value": "Array Iterator",
-            "raw": "\"Array Iterator\""
+            "raw": "\"Array Iterator\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",

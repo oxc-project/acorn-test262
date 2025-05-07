@@ -98,7 +98,9 @@
                 "start": 975,
                 "end": 981,
                 "value": "then",
-                "raw": "'then'"
+                "raw": "'then'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -419,7 +421,9 @@
                         "start": 1206,
                         "end": 1244,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -496,7 +500,9 @@
                               "start": 1295,
                               "end": 1354,
                               "value": "The promise should be rejected with the thrown exception.",
-                              "raw": "'The promise should be rejected with the thrown exception.'"
+                              "raw": "'The promise should be rejected with the thrown exception.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

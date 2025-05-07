@@ -34,14 +34,18 @@ __ESTREE_TEST__:PASS:
                 "start": 9,
                 "end": 10,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 12,
                 "end": 13,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "TemplateLiteral",
@@ -53,7 +57,9 @@ __ESTREE_TEST__:PASS:
                     "start": 22,
                     "end": 25,
                     "raw": "123",
-                    "value": 123
+                    "value": 123,
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "quasis": [

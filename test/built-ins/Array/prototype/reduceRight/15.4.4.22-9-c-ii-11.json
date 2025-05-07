@@ -23,7 +23,9 @@
             "start": 302,
             "end": 307,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -81,7 +83,9 @@
                 "start": 367,
                 "end": 370,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -109,7 +113,9 @@
                       "start": 391,
                       "end": 395,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -137,7 +143,9 @@
                 "start": 419,
                 "end": 421,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -190,7 +198,9 @@
                     "start": 444,
                     "end": 446,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -215,7 +225,9 @@
                 "start": 472,
                 "end": 475,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,14 +237,18 @@
             "start": 478,
             "end": 482,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 519,
             "value": "[11].reduceRight(callbackfn, 100)",
-            "raw": "'[11].reduceRight(callbackfn, 100)'"
+            "raw": "'[11].reduceRight(callbackfn, 100)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,7 +280,9 @@
             "start": 541,
             "end": 562,
             "value": "testResult !== true",
-            "raw": "'testResult !== true'"
+            "raw": "'testResult !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

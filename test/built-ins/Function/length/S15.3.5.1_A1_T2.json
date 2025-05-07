@@ -34,21 +34,27 @@
                 "start": 426,
                 "end": 442,
                 "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "raw": "\"arg1,arg2,arg3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 444,
                 "end": 455,
                 "value": "arg4,arg5",
-                "raw": "\"arg4,arg5\""
+                "raw": "\"arg4,arg5\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 461,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -101,7 +107,9 @@
                 "start": 489,
                 "end": 497,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -111,7 +119,9 @@
             "start": 500,
             "end": 547,
             "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -169,14 +179,18 @@
             "start": 577,
             "end": 578,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 623,
             "value": "The value of f.length is expected to be 5",
-            "raw": "'The value of f.length is expected to be 5'"
+            "raw": "'The value of f.length is expected to be 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

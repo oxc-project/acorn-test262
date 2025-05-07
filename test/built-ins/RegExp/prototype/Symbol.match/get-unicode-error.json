@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -57,7 +58,8 @@
             "regex": {
               "pattern": ".",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -155,7 +157,9 @@
             "start": 768,
             "end": 777,
             "value": "unicode",
-            "raw": "'unicode'"
+            "raw": "'unicode'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -228,7 +232,9 @@
             "start": 833,
             "end": 842,
             "value": "unicode",
-            "raw": "'unicode'"
+            "raw": "'unicode'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -356,7 +362,9 @@
                         "start": 936,
                         "end": 938,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -463,7 +471,9 @@
                         "start": 1012,
                         "end": 1014,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

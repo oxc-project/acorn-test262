@@ -48,7 +48,9 @@
             "start": 375,
             "end": 380,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,7 +76,9 @@
             "start": 404,
             "end": 409,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +151,9 @@
                             "start": 474,
                             "end": 478,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -160,7 +166,9 @@
                           "start": 491,
                           "end": 497,
                           "value": "test",
-                          "raw": "\"test\""
+                          "raw": "\"test\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -338,7 +346,9 @@
                     "start": 655,
                     "end": 659,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -351,7 +361,9 @@
                   "start": 670,
                   "end": 674,
                   "value": "10",
-                  "raw": "\"10\""
+                  "raw": "\"10\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -453,7 +465,9 @@
                 "start": 746,
                 "end": 752,
                 "value": "test",
-                "raw": "\"test\""
+                "raw": "\"test\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -463,7 +477,9 @@
             "start": 755,
             "end": 792,
             "value": "obj.hasOwnProperty(\"test\") !== true",
-            "raw": "'obj.hasOwnProperty(\"test\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"test\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,14 +524,18 @@
             "start": 829,
             "end": 834,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 836,
             "end": 853,
             "value": "valueOfAccessed",
-            "raw": "'valueOfAccessed'"
+            "raw": "'valueOfAccessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -547,7 +567,9 @@
             "start": 881,
             "end": 908,
             "value": "toStringAccessed !== true",
-            "raw": "'toStringAccessed !== true'"
+            "raw": "'toStringAccessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -21,7 +21,9 @@
               "start": 310,
               "end": 319,
               "value": "catchme",
-              "raw": "\"catchme\""
+              "raw": "\"catchme\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -44,7 +46,9 @@
                   "start": 346,
                   "end": 396,
                   "value": "#1.1: throw \"catchme\" lead to throwing exception",
-                  "raw": "'#1.1: throw \"catchme\" lead to throwing exception'"
+                  "raw": "'#1.1: throw \"catchme\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -108,7 +112,9 @@
                           "start": 457,
                           "end": 498,
                           "value": "#1.2: Exception has DontDelete property",
-                          "raw": "'#1.2: Exception has DontDelete property'"
+                          "raw": "'#1.2: Exception has DontDelete property'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -137,7 +143,9 @@
                   "start": 515,
                   "end": 524,
                   "value": "catchme",
-                  "raw": "\"catchme\""
+                  "raw": "\"catchme\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -169,7 +177,9 @@
                             "start": 555,
                             "end": 610,
                             "value": "#1.3: Exception === \"catchme\". Actual:  Exception ===",
-                            "raw": "'#1.3: Exception === \"catchme\". Actual:  Exception ==='"
+                            "raw": "'#1.3: Exception === \"catchme\". Actual:  Exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -209,7 +219,9 @@
               "start": 650,
               "end": 659,
               "value": "catchme",
-              "raw": "\"catchme\""
+              "raw": "\"catchme\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -232,7 +244,9 @@
                   "start": 686,
                   "end": 736,
                   "value": "#2.1: throw \"catchme\" lead to throwing exception",
-                  "raw": "'#2.1: throw \"catchme\" lead to throwing exception'"
+                  "raw": "'#2.1: throw \"catchme\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -298,7 +312,9 @@
                   "start": 787,
                   "end": 849,
                   "value": "#2.2: Deleting catching exception after ending \"catch\" block",
-                  "raw": "'#2.2: Deleting catching exception after ending \"catch\" block'"
+                  "raw": "'#2.2: Deleting catching exception after ending \"catch\" block'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

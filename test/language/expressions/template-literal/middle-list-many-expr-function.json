@@ -31,7 +31,9 @@
               "start": 598,
               "end": 606,
               "value": "result",
-              "raw": "'result'"
+              "raw": "'result'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -75,14 +77,18 @@
                 "start": 631,
                 "end": 632,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 636,
                 "end": 637,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -146,7 +152,9 @@
             "start": 649,
             "end": 661,
             "value": "0 1 result",
-            "raw": "'0 1 result'"
+            "raw": "'0 1 result'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -41,7 +41,9 @@
                   "start": 808,
                   "end": 809,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -119,7 +121,9 @@
                       "start": 860,
                       "end": 861,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -280,7 +284,9 @@
             "start": 972,
             "end": 1029,
             "value": "Array.from.call(A1, items) throws a TypeError exception",
-            "raw": "'Array.from.call(A1, items) throws a TypeError exception'"
+            "raw": "'Array.from.call(A1, items) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -360,7 +366,9 @@
                         "start": 1092,
                         "end": 1095,
                         "value": "0",
-                        "raw": "\"0\""
+                        "raw": "\"0\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -385,7 +393,9 @@
                               "start": 1113,
                               "end": 1117,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -407,7 +417,9 @@
                               "start": 1137,
                               "end": 1142,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -537,7 +549,9 @@
             "start": 1225,
             "end": 1282,
             "value": "Array.from.call(A2, items) throws a TypeError exception",
-            "raw": "'Array.from.call(A2, items) throws a TypeError exception'"
+            "raw": "'Array.from.call(A2, items) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

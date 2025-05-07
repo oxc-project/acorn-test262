@@ -31,7 +31,9 @@
                 "start": 293,
                 "end": 295,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -100,7 +102,9 @@
                 "start": 337,
                 "end": 339,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -186,7 +190,9 @@
                     "start": 503,
                     "end": 613,
                     "value": "#1: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.length === __expected.length. Actual: ",
-                    "raw": "'#1: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.length === __expected.length. Actual: '"
+                    "raw": "'#1: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.length === __expected.length. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -293,7 +299,9 @@
                     "start": 878,
                     "end": 986,
                     "value": "#2: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.index === __expected.index. Actual: ",
-                    "raw": "'#2: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.index === __expected.index. Actual: '"
+                    "raw": "'#2: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.index === __expected.index. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -400,7 +408,9 @@
                     "start": 1250,
                     "end": 1358,
                     "value": "#3: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.input === __expected.input. Actual: ",
-                    "raw": "'#3: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.input === __expected.input. Actual: '"
+                    "raw": "'#3: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.input === __expected.input. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -454,7 +464,9 @@
               "start": 1570,
               "end": 1571,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -610,7 +622,9 @@
                                       "start": 1686,
                                       "end": 1691,
                                       "value": "#4.",
-                                      "raw": "'#4.'"
+                                      "raw": "'#4.'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -626,7 +640,9 @@
                                     "start": 1702,
                                     "end": 1772,
                                     "value": ": __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched[",
-                                    "raw": "': __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched['"
+                                    "raw": "': __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched['",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -643,7 +659,9 @@
                                 "start": 1783,
                                 "end": 1800,
                                 "value": "]===__expected[",
-                                "raw": "']===__expected['"
+                                "raw": "']===__expected['",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -660,7 +678,9 @@
                             "start": 1811,
                             "end": 1824,
                             "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "raw": "']. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

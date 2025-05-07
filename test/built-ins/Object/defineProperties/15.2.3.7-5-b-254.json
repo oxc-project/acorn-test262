@@ -151,7 +151,9 @@
                                     "start": 413,
                                     "end": 417,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }

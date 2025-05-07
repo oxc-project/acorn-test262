@@ -27,7 +27,9 @@
               "start": 296,
               "end": 307,
               "value": "\t1.1",
-              "raw": "\"\\u00091.1\""
+              "raw": "\"\\u00091.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -49,7 +51,9 @@
               "start": 324,
               "end": 329,
               "value": "1.1",
-              "raw": "\"1.1\""
+              "raw": "\"1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -84,7 +88,9 @@
                     "start": 359,
                     "end": 421,
                     "value": "#1: parseFloat(\"\\u00091.1\") === parseFloat(\"1.1\"). Actual: ",
-                    "raw": "'#1: parseFloat(\"\\\\u00091.1\") === parseFloat(\"1.1\"). Actual: '"
+                    "raw": "'#1: parseFloat(\"\\\\u00091.1\") === parseFloat(\"1.1\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -107,7 +113,9 @@
                           "start": 436,
                           "end": 447,
                           "value": "\t1.1",
-                          "raw": "\"\\u00091.1\""
+                          "raw": "\"\\u00091.1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -145,7 +153,9 @@
               "start": 480,
               "end": 498,
               "value": "\t\t-1.1",
-              "raw": "\"\\u0009\\u0009-1.1\""
+              "raw": "\"\\u0009\\u0009-1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -167,7 +177,9 @@
               "start": 515,
               "end": 521,
               "value": "-1.1",
-              "raw": "\"-1.1\""
+              "raw": "\"-1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -202,7 +214,9 @@
                     "start": 551,
                     "end": 622,
                     "value": "#2: parseFloat(\"\\u0009\\u0009-1.1\") === parseFloat(\"-1.1\"). Actual: ",
-                    "raw": "'#2: parseFloat(\"\\\\u0009\\\\u0009-1.1\") === parseFloat(\"-1.1\"). Actual: '"
+                    "raw": "'#2: parseFloat(\"\\\\u0009\\\\u0009-1.1\") === parseFloat(\"-1.1\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -225,7 +239,9 @@
                           "start": 637,
                           "end": 655,
                           "value": "\t\t-1.1",
-                          "raw": "\"\\u0009\\u0009-1.1\""
+                          "raw": "\"\\u0009\\u0009-1.1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -263,7 +279,9 @@
               "start": 688,
               "end": 694,
               "value": "\t1.1",
-              "raw": "\"\t1.1\""
+              "raw": "\"\t1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -285,7 +303,9 @@
               "start": 711,
               "end": 716,
               "value": "1.1",
-              "raw": "\"1.1\""
+              "raw": "\"1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -320,7 +340,9 @@
                     "start": 746,
                     "end": 802,
                     "value": "#3: parseFloat(\"\t1.1\") === parseFloat(\"1.1\"). Actual: ",
-                    "raw": "'#3: parseFloat(\"\t1.1\") === parseFloat(\"1.1\"). Actual: '"
+                    "raw": "'#3: parseFloat(\"\t1.1\") === parseFloat(\"1.1\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -343,7 +365,9 @@
                           "start": 817,
                           "end": 823,
                           "value": "\t1.1",
-                          "raw": "\"\t1.1\""
+                          "raw": "\"\t1.1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -381,7 +405,9 @@
               "start": 856,
               "end": 864,
               "value": "\t\t\t1.1",
-              "raw": "\"\t\t\t1.1\""
+              "raw": "\"\t\t\t1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -403,7 +429,9 @@
               "start": 881,
               "end": 886,
               "value": "1.1",
-              "raw": "\"1.1\""
+              "raw": "\"1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -438,7 +466,9 @@
                     "start": 916,
                     "end": 974,
                     "value": "#4: parseFloat(\"\t\t\t1.1\") === parseFloat(\"1.1\"). Actual: ",
-                    "raw": "'#4: parseFloat(\"\t\t\t1.1\") === parseFloat(\"1.1\"). Actual: '"
+                    "raw": "'#4: parseFloat(\"\t\t\t1.1\") === parseFloat(\"1.1\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -461,7 +491,9 @@
                           "start": 989,
                           "end": 997,
                           "value": "\t\t\t1.1",
-                          "raw": "\"\t\t\t1.1\""
+                          "raw": "\"\t\t\t1.1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -499,7 +531,9 @@
               "start": 1030,
               "end": 1054,
               "value": "\t\t\t\t\t\t\t\t-1.1",
-              "raw": "\"\t\t\t\\u0009\t\t\t\\u0009-1.1\""
+              "raw": "\"\t\t\t\\u0009\t\t\t\\u0009-1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -521,7 +555,9 @@
               "start": 1071,
               "end": 1077,
               "value": "-1.1",
-              "raw": "\"-1.1\""
+              "raw": "\"-1.1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -556,7 +592,9 @@
                     "start": 1107,
                     "end": 1184,
                     "value": "#5: parseFloat(\"\t\t\t\\u0009\t\t\t\\u0009-1.1\") === parseFloat(\"-1.1\"). Actual: ",
-                    "raw": "'#5: parseFloat(\"\t\t\t\\\\u0009\t\t\t\\\\u0009-1.1\") === parseFloat(\"-1.1\"). Actual: '"
+                    "raw": "'#5: parseFloat(\"\t\t\t\\\\u0009\t\t\t\\\\u0009-1.1\") === parseFloat(\"-1.1\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -579,7 +617,9 @@
                           "start": 1199,
                           "end": 1223,
                           "value": "\t\t\t\t\t\t\t\t-1.1",
-                          "raw": "\"\t\t\t\\u0009\t\t\t\\u0009-1.1\""
+                          "raw": "\"\t\t\t\\u0009\t\t\t\\u0009-1.1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -637,7 +677,9 @@
                 "start": 1269,
                 "end": 1277,
                 "value": "\t",
-                "raw": "\"\\u0009\""
+                "raw": "\"\\u0009\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -653,7 +695,9 @@
             "start": 1285,
             "end": 1295,
             "value": "'\t'",
-            "raw": "\"'\\u0009'\""
+            "raw": "\"'\\u0009'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -49,7 +49,9 @@
           "start": 501,
           "end": 502,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -84,7 +86,9 @@
                 "start": 522,
                 "end": 523,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,14 +148,18 @@
             "start": 557,
             "end": 558,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 607,
             "value": "The value of x.myproperty is expected to be 1",
-            "raw": "'The value of x.myproperty is expected to be 1'"
+            "raw": "'The value of x.myproperty is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

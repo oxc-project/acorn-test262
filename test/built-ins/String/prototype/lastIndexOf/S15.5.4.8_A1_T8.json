@@ -117,7 +117,9 @@
                 "start": 616,
                 "end": 617,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -129,7 +131,9 @@
           "start": 623,
           "end": 624,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -161,7 +165,9 @@
                     "start": 653,
                     "end": 741,
                     "value": "#1: __obj = {toString:function(){}}; String(__obj).lastIndexOf(void 0) === 0. Actual: ",
-                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).lastIndexOf(void 0) === 0. Actual: '"
+                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).lastIndexOf(void 0) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -213,7 +219,9 @@
                           "start": 775,
                           "end": 776,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

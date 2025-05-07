@@ -34,7 +34,9 @@
                 "start": 301,
                 "end": 303,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

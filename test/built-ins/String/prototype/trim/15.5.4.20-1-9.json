@@ -100,14 +100,18 @@
             "start": 335,
             "end": 346,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 363,
             "value": "strObj.trim()",
-            "raw": "'strObj.trim()'"
+            "raw": "'strObj.trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

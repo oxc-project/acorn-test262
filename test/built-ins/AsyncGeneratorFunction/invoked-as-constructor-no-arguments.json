@@ -276,7 +276,9 @@
                             "start": 619,
                             "end": 635,
                             "value": "Result `value`",
-                            "raw": "'Result `value`'"
+                            "raw": "'Result `value`'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -334,14 +336,18 @@
                             "start": 670,
                             "end": 674,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 676,
                             "end": 696,
                             "value": "Result `done` flag",
-                            "raw": "'Result `done` flag'"
+                            "raw": "'Result `done` flag'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

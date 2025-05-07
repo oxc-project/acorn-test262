@@ -209,7 +209,9 @@
                 "start": 829,
                 "end": 840,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

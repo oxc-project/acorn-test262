@@ -28,21 +28,27 @@
                 "start": 307,
                 "end": 311,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 315,
                 "end": 319,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 336,
                 "value": "some string",
-                "raw": "\"some string\""
+                "raw": "\"some string\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -62,7 +68,9 @@
                 "start": 352,
                 "end": 353,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -70,6 +78,7 @@
                 "end": 359,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             ]
@@ -217,7 +226,9 @@
                               "start": 469,
                               "end": 473,
                               "value": 2021,
-                              "raw": "2021"
+                              "raw": "2021",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -239,7 +250,9 @@
                               "start": 486,
                               "end": 491,
                               "value": "M01",
-                              "raw": "\"M01\""
+                              "raw": "\"M01\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -410,14 +423,18 @@
                             "start": 649,
                             "end": 653,
                             "value": 2021,
-                            "raw": "2021"
+                            "raw": "2021",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 655,
                             "end": 656,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -436,7 +453,9 @@
                   "start": 671,
                   "end": 728,
                   "value": "TypeError thrown before cloning PlainYearMonth instance",
-                  "raw": "\"TypeError thrown before cloning PlainYearMonth instance\""
+                  "raw": "\"TypeError thrown before cloning PlainYearMonth instance\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -527,7 +546,9 @@
                         "start": 794,
                         "end": 807,
                         "value": "1976-11-18Z",
-                        "raw": "\"1976-11-18Z\""
+                        "raw": "\"1976-11-18Z\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -544,7 +565,9 @@
                   "start": 821,
                   "end": 880,
                   "value": "Invalid string string processed before throwing TypeError",
-                  "raw": "\"Invalid string string processed before throwing TypeError\""
+                  "raw": "\"Invalid string string processed before throwing TypeError\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -28,49 +28,63 @@
                 "start": 2652,
                 "end": 2659,
                 "value": "start",
-                "raw": "\"start\""
+                "raw": "\"start\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2708,
                 "end": 2716,
                 "value": "tick 1",
-                "raw": "\"tick 1\""
+                "raw": "\"tick 1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2774,
                 "end": 2784,
                 "value": "get then",
-                "raw": "\"get then\""
+                "raw": "\"get then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2847,
                 "end": 2855,
                 "value": "tick 2",
-                "raw": "\"tick 2\""
+                "raw": "\"tick 2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2895,
                 "end": 2907,
                 "value": "get return",
-                "raw": "\"get return\""
+                "raw": "\"get return\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2958,
                 "end": 2968,
                 "value": "get then",
-                "raw": "\"get then\""
+                "raw": "\"get then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3024,
                 "end": 3032,
                 "value": "tick 3",
-                "raw": "\"tick 3\""
+                "raw": "\"tick 3\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -232,7 +246,9 @@
                                 "start": 3161,
                                 "end": 3166,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -304,7 +320,9 @@
                               "start": 3213,
                               "end": 3225,
                               "value": "get return",
-                              "raw": "\"get return\""
+                              "raw": "\"get return\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -373,7 +391,9 @@
                   "start": 3272,
                   "end": 3279,
                   "value": "start",
-                  "raw": "\"start\""
+                  "raw": "\"start\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -429,7 +449,9 @@
                   "start": 3316,
                   "end": 3338,
                   "value": "stop - never reached",
-                  "raw": "\"stop - never reached\""
+                  "raw": "\"stop - never reached\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -511,7 +533,9 @@
                                 "start": 3360,
                                 "end": 3361,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -564,7 +588,9 @@
                                   "start": 3389,
                                   "end": 3397,
                                   "value": "tick 1",
-                                  "raw": "\"tick 1\""
+                                  "raw": "\"tick 1\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -621,7 +647,9 @@
                               "start": 3426,
                               "end": 3434,
                               "value": "tick 2",
-                              "raw": "\"tick 2\""
+                              "raw": "\"tick 2\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -678,7 +706,9 @@
                           "start": 3463,
                           "end": 3471,
                           "value": "tick 3",
-                          "raw": "\"tick 3\""
+                          "raw": "\"tick 3\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -756,7 +786,9 @@
                             "start": 3532,
                             "end": 3571,
                             "value": "Ticks for return with thenable getter",
-                            "raw": "\"Ticks for return with thenable getter\""
+                            "raw": "\"Ticks for return with thenable getter\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -950,7 +982,9 @@
                               "start": 3727,
                               "end": 3737,
                               "value": "get then",
-                              "raw": "\"get then\""
+                              "raw": "\"get then\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

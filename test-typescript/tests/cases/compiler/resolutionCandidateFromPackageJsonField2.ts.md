@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 21,
               "raw": "1234",
-              "value": 1234
+              "value": 1234,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -123,7 +125,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 30,
         "raw": "\"foo/bar.ts\"",
-        "value": "foo/bar.ts"
+        "value": "foo/bar.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -163,7 +167,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 63,
         "raw": "\"baz/main.ts\"",
-        "value": "baz/main.ts"
+        "value": "baz/main.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

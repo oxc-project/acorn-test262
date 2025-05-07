@@ -88,7 +88,9 @@
                     "start": 631,
                     "end": 658,
                     "value": "(class C extends Object {",
-                    "raw": "'(class C extends Object {'"
+                    "raw": "'(class C extends Object {'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -96,7 +98,9 @@
                     "start": 663,
                     "end": 683,
                     "value": "  constructor() {}",
-                    "raw": "'  constructor() {}'"
+                    "raw": "'  constructor() {}'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -105,7 +109,9 @@
                   "start": 688,
                   "end": 693,
                   "value": "});",
-                  "raw": "'});'"
+                  "raw": "'});'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

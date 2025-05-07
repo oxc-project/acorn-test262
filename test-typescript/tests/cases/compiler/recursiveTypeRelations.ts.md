@@ -802,7 +802,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 617,
                                       "end": 621,
                                       "raw": "null",
-                                      "value": null
+                                      "value": null,
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -826,7 +828,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 596,
                                   "end": 600,
                                   "raw": "null",
-                                  "value": null
+                                  "value": null,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -898,7 +902,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 651,
                                   "end": 659,
                                   "raw": "\"string\"",
-                                  "value": "string"
+                                  "value": "string",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -1288,7 +1294,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 717,
                                   "end": 725,
                                   "raw": "\"object\"",
-                                  "value": "object"
+                                  "value": "object",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -1354,7 +1362,9 @@ __ESTREE_TEST__:PASS:
                 "start": 992,
                 "end": 994,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

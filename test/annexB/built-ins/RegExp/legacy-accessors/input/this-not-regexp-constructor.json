@@ -25,14 +25,18 @@
                 "start": 934,
                 "end": 941,
                 "value": "input",
-                "raw": "\"input\""
+                "raw": "\"input\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 943,
                 "end": 947,
                 "value": "$_",
-                "raw": "\"$_\""
+                "raw": "\"$_\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -147,14 +151,18 @@
                             "start": 1049,
                             "end": 1054,
                             "value": "get",
-                            "raw": "\"get\""
+                            "raw": "\"get\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1056,
                             "end": 1061,
                             "value": "set",
-                            "raw": "\"set\""
+                            "raw": "\"set\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -225,7 +233,9 @@
                                             "start": 1119,
                                             "end": 1128,
                                             "value": "RegExp.",
-                                            "raw": "\"RegExp.\""
+                                            "raw": "\"RegExp.\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -241,7 +251,9 @@
                                           "start": 1142,
                                           "end": 1145,
                                           "value": " ",
-                                          "raw": "\" \""
+                                          "raw": "\" \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -258,7 +270,9 @@
                                       "start": 1159,
                                       "end": 1164,
                                       "value": "ter",
-                                      "raw": "\"ter\""
+                                      "raw": "\"ter\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -324,7 +338,9 @@
                                     "start": 1320,
                                     "end": 1330,
                                     "value": "function",
-                                    "raw": "\"function\""
+                                    "raw": "\"function\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -434,7 +450,9 @@
                                       "start": 1535,
                                       "end": 1577,
                                       "value": " throws for property descriptor receiver",
-                                      "raw": "\" throws for property descriptor receiver\""
+                                      "raw": "\" throws for property descriptor receiver\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -539,7 +557,8 @@
                                                 "regex": {
                                                   "pattern": " ",
                                                   "flags": ""
-                                                }
+                                                },
+                                                "bigint": null
                                               }
                                             ],
                                             "optional": false
@@ -564,7 +583,9 @@
                                       "start": 1707,
                                       "end": 1745,
                                       "value": " throws for RegExp instance receiver",
-                                      "raw": "\" throws for RegExp instance receiver\""
+                                      "raw": "\" throws for RegExp instance receiver\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -702,7 +723,9 @@
                                       "start": 1888,
                                       "end": 1929,
                                       "value": " throws for %RegExp.prototype% receiver",
-                                      "raw": "\" throws for %RegExp.prototype% receiver\""
+                                      "raw": "\" throws for %RegExp.prototype% receiver\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -737,7 +760,9 @@
                                         "start": 1954,
                                         "end": 1958,
                                         "value": null,
-                                        "raw": "null"
+                                        "raw": "null",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "ObjectExpression",
@@ -750,35 +775,45 @@
                                         "start": 1964,
                                         "end": 1968,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1970,
                                         "end": 1975,
                                         "value": false,
-                                        "raw": "false"
+                                        "raw": "false",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1977,
                                         "end": 1978,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1980,
                                         "end": 1981,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1983,
                                         "end": 1991,
                                         "value": "string",
-                                        "raw": "\"string\""
+                                        "raw": "\"string\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   },
@@ -939,7 +974,9 @@
                                                       "start": 2155,
                                                       "end": 2180,
                                                       "value": " throws for primitive \"",
-                                                      "raw": "' throws for primitive \"'"
+                                                      "raw": "' throws for primitive \"'",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   "operator": "+",
@@ -956,7 +993,9 @@
                                                   "start": 2191,
                                                   "end": 2203,
                                                   "value": "\" receiver",
-                                                  "raw": "'\" receiver'"
+                                                  "raw": "'\" receiver'",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],

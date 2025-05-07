@@ -41,6 +41,7 @@
               "end": 281,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -49,7 +50,9 @@
               "start": 285,
               "end": 289,
               "value": "0n",
-              "raw": "'0n'"
+              "raw": "'0n'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -57,14 +60,18 @@
             "start": 291,
             "end": 296,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 298,
             "end": 335,
             "value": "The result of (1n >= \"0n\") is false",
-            "raw": "'The result of (1n >= \"0n\") is false'"
+            "raw": "'The result of (1n >= \"0n\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -108,6 +115,7 @@
               "end": 357,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -116,7 +124,9 @@
               "start": 361,
               "end": 365,
               "value": "0.",
-              "raw": "'0.'"
+              "raw": "'0.'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -124,14 +134,18 @@
             "start": 367,
             "end": 372,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 374,
             "end": 411,
             "value": "The result of (1n >= \"0.\") is false",
-            "raw": "'The result of (1n >= \"0.\") is false'"
+            "raw": "'The result of (1n >= \"0.\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -175,6 +189,7 @@
               "end": 433,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -183,7 +198,9 @@
               "start": 437,
               "end": 441,
               "value": ".0",
-              "raw": "'.0'"
+              "raw": "'.0'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -191,14 +208,18 @@
             "start": 443,
             "end": 448,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 487,
             "value": "The result of (1n >= \".0\") is false",
-            "raw": "'The result of (1n >= \".0\") is false'"
+            "raw": "'The result of (1n >= \".0\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -242,6 +263,7 @@
               "end": 509,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -250,7 +272,9 @@
               "start": 513,
               "end": 518,
               "value": "0/1",
-              "raw": "'0/1'"
+              "raw": "'0/1'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -258,14 +282,18 @@
             "start": 520,
             "end": 525,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 527,
             "end": 565,
             "value": "The result of (1n >= \"0/1\") is false",
-            "raw": "'The result of (1n >= \"0/1\") is false'"
+            "raw": "'The result of (1n >= \"0/1\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,6 +337,7 @@
               "end": 587,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -317,7 +346,9 @@
               "start": 591,
               "end": 595,
               "value": "z0",
-              "raw": "'z0'"
+              "raw": "'z0'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -325,14 +356,18 @@
             "start": 597,
             "end": 602,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 604,
             "end": 641,
             "value": "The result of (1n >= \"z0\") is false",
-            "raw": "'The result of (1n >= \"z0\") is false'"
+            "raw": "'The result of (1n >= \"z0\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,6 +411,7 @@
               "end": 663,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -384,7 +420,9 @@
               "start": 667,
               "end": 671,
               "value": "0z",
-              "raw": "'0z'"
+              "raw": "'0z'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -392,14 +430,18 @@
             "start": 673,
             "end": 678,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 717,
             "value": "The result of (1n >= \"0z\") is false",
-            "raw": "'The result of (1n >= \"0z\") is false'"
+            "raw": "'The result of (1n >= \"0z\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -443,6 +485,7 @@
               "end": 739,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -451,7 +494,9 @@
               "start": 743,
               "end": 748,
               "value": "++0",
-              "raw": "'++0'"
+              "raw": "'++0'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -459,14 +504,18 @@
             "start": 750,
             "end": 755,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 795,
             "value": "The result of (1n >= \"++0\") is false",
-            "raw": "'The result of (1n >= \"++0\") is false'"
+            "raw": "'The result of (1n >= \"++0\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,6 +559,7 @@
               "end": 817,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -518,7 +568,9 @@
               "start": 821,
               "end": 826,
               "value": "--0",
-              "raw": "'--0'"
+              "raw": "'--0'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -526,14 +578,18 @@
             "start": 828,
             "end": 833,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 835,
             "end": 873,
             "value": "The result of (1n >= \"--0\") is false",
-            "raw": "'The result of (1n >= \"--0\") is false'"
+            "raw": "'The result of (1n >= \"--0\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -577,6 +633,7 @@
               "end": 895,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -585,7 +642,9 @@
               "start": 899,
               "end": 904,
               "value": "0e0",
-              "raw": "'0e0'"
+              "raw": "'0e0'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -593,14 +652,18 @@
             "start": 906,
             "end": 911,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 951,
             "value": "The result of (1n >= \"0e0\") is false",
-            "raw": "'The result of (1n >= \"0e0\") is false'"
+            "raw": "'The result of (1n >= \"0e0\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -644,6 +707,7 @@
               "end": 973,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": ">=",
@@ -652,7 +716,9 @@
               "start": 977,
               "end": 987,
               "value": "Infinity",
-              "raw": "'Infinity'"
+              "raw": "'Infinity'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -660,14 +726,18 @@
             "start": 989,
             "end": 994,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 996,
             "end": 1039,
             "value": "The result of (1n >= \"Infinity\") is false",
-            "raw": "'The result of (1n >= \"Infinity\") is false'"
+            "raw": "'The result of (1n >= \"Infinity\") is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -710,7 +780,9 @@
               "start": 1059,
               "end": 1063,
               "value": "1n",
-              "raw": "'1n'"
+              "raw": "'1n'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -719,6 +791,7 @@
               "end": 1069,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -727,14 +800,18 @@
             "start": 1071,
             "end": 1076,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1078,
             "end": 1115,
             "value": "The result of (\"1n\" >= 0n) is false",
-            "raw": "'The result of (\"1n\" >= 0n) is false'"
+            "raw": "'The result of (\"1n\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -777,7 +854,9 @@
               "start": 1135,
               "end": 1139,
               "value": "1.",
-              "raw": "'1.'"
+              "raw": "'1.'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -786,6 +865,7 @@
               "end": 1145,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -794,14 +874,18 @@
             "start": 1147,
             "end": 1152,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1154,
             "end": 1191,
             "value": "The result of (\"1.\" >= 0n) is false",
-            "raw": "'The result of (\"1.\" >= 0n) is false'"
+            "raw": "'The result of (\"1.\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -844,7 +928,9 @@
               "start": 1211,
               "end": 1215,
               "value": ".1",
-              "raw": "'.1'"
+              "raw": "'.1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -853,6 +939,7 @@
               "end": 1221,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -861,14 +948,18 @@
             "start": 1223,
             "end": 1228,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1230,
             "end": 1267,
             "value": "The result of (\".1\" >= 0n) is false",
-            "raw": "'The result of (\".1\" >= 0n) is false'"
+            "raw": "'The result of (\".1\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -911,7 +1002,9 @@
               "start": 1287,
               "end": 1292,
               "value": "1/1",
-              "raw": "'1/1'"
+              "raw": "'1/1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -920,6 +1013,7 @@
               "end": 1298,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -928,14 +1022,18 @@
             "start": 1300,
             "end": 1305,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1307,
             "end": 1345,
             "value": "The result of (\"1/1\" >= 0n) is false",
-            "raw": "'The result of (\"1/1\" >= 0n) is false'"
+            "raw": "'The result of (\"1/1\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -978,7 +1076,9 @@
               "start": 1365,
               "end": 1369,
               "value": "z1",
-              "raw": "'z1'"
+              "raw": "'z1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -987,6 +1087,7 @@
               "end": 1375,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -995,14 +1096,18 @@
             "start": 1377,
             "end": 1382,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1384,
             "end": 1421,
             "value": "The result of (\"z1\" >= 0n) is false",
-            "raw": "'The result of (\"z1\" >= 0n) is false'"
+            "raw": "'The result of (\"z1\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1045,7 +1150,9 @@
               "start": 1441,
               "end": 1445,
               "value": "1z",
-              "raw": "'1z'"
+              "raw": "'1z'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -1054,6 +1161,7 @@
               "end": 1451,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1062,14 +1170,18 @@
             "start": 1453,
             "end": 1458,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1460,
             "end": 1497,
             "value": "The result of (\"1z\" >= 0n) is false",
-            "raw": "'The result of (\"1z\" >= 0n) is false'"
+            "raw": "'The result of (\"1z\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1112,7 +1224,9 @@
               "start": 1517,
               "end": 1522,
               "value": "++1",
-              "raw": "'++1'"
+              "raw": "'++1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -1121,6 +1235,7 @@
               "end": 1528,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1129,14 +1244,18 @@
             "start": 1530,
             "end": 1535,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1537,
             "end": 1575,
             "value": "The result of (\"++1\" >= 0n) is false",
-            "raw": "'The result of (\"++1\" >= 0n) is false'"
+            "raw": "'The result of (\"++1\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1179,7 +1298,9 @@
               "start": 1595,
               "end": 1600,
               "value": "--1",
-              "raw": "'--1'"
+              "raw": "'--1'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -1188,6 +1309,7 @@
               "end": 1606,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1196,14 +1318,18 @@
             "start": 1608,
             "end": 1613,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1615,
             "end": 1653,
             "value": "The result of (\"--1\" >= 0n) is false",
-            "raw": "'The result of (\"--1\" >= 0n) is false'"
+            "raw": "'The result of (\"--1\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1246,7 +1372,9 @@
               "start": 1673,
               "end": 1678,
               "value": "1e0",
-              "raw": "'1e0'"
+              "raw": "'1e0'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -1255,6 +1383,7 @@
               "end": 1684,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1263,14 +1392,18 @@
             "start": 1686,
             "end": 1691,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1693,
             "end": 1731,
             "value": "The result of (\"1e0\" >= 0n) is false",
-            "raw": "'The result of (\"1e0\" >= 0n) is false'"
+            "raw": "'The result of (\"1e0\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1313,7 +1446,9 @@
               "start": 1751,
               "end": 1761,
               "value": "Infinity",
-              "raw": "'Infinity'"
+              "raw": "'Infinity'",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">=",
             "right": {
@@ -1322,6 +1457,7 @@
               "end": 1767,
               "value": null,
               "raw": "0n",
+              "regex": null,
               "bigint": "0"
             }
           },
@@ -1330,14 +1466,18 @@
             "start": 1769,
             "end": 1774,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1776,
             "end": 1819,
             "value": "The result of (\"Infinity\" >= 0n) is false",
-            "raw": "'The result of (\"Infinity\" >= 0n) is false'"
+            "raw": "'The result of (\"Infinity\" >= 0n) is false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

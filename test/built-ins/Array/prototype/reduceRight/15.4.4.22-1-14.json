@@ -67,7 +67,9 @@
           "start": 288,
           "end": 289,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -95,7 +97,9 @@
             "start": 295,
             "end": 296,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -105,7 +109,9 @@
           "start": 300,
           "end": 301,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -129,7 +135,9 @@
             "start": 318,
             "end": 323,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -199,7 +207,9 @@
                 "start": 386,
                 "end": 390,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -311,7 +321,9 @@
                 "start": 481,
                 "end": 482,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -321,7 +333,9 @@
             "start": 485,
             "end": 548,
             "value": "Array.prototype.reduceRight.call(obj, callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, 1) !== true'"
+            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, 1) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -353,7 +367,9 @@
             "start": 568,
             "end": 587,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

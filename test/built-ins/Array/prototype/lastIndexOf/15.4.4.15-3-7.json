@@ -35,7 +35,9 @@
                   "start": 313,
                   "end": 314,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "UnaryExpression",
@@ -64,7 +66,9 @@
                   "start": 329,
                   "end": 330,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -96,7 +100,9 @@
                     "start": 352,
                     "end": 353,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "-",
                   "right": {
@@ -128,14 +134,18 @@
                         "start": 365,
                         "end": 366,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 368,
                         "end": 370,
                         "value": 32,
-                        "raw": "32"
+                        "raw": "32",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -260,7 +270,9 @@
               "start": 444,
               "end": 445,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -268,7 +280,9 @@
             "start": 447,
             "end": 497,
             "value": "Array.prototype.lastIndexOf.call(obj, -Infinity)",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, -Infinity)'"
+            "raw": "'Array.prototype.lastIndexOf.call(obj, -Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -378,7 +392,9 @@
               "start": 567,
               "end": 568,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -386,7 +402,9 @@
             "start": 570,
             "end": 619,
             "value": "Array.prototype.lastIndexOf.call(obj, Infinity)",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, Infinity)'"
+            "raw": "'Array.prototype.lastIndexOf.call(obj, Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

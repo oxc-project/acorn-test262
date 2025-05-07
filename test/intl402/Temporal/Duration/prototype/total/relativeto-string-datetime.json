@@ -47,35 +47,45 @@
                 "start": 387,
                 "end": 388,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 391,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 394,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 397,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 401,
                 "value": 24,
-                "raw": "24"
+                "raw": "24",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -103,7 +113,9 @@
             "start": 422,
             "end": 459,
             "value": "2019-11-01T00:00[America/Vancouver]",
-            "raw": "\"2019-11-01T00:00[America/Vancouver]\""
+            "raw": "\"2019-11-01T00:00[America/Vancouver]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -171,7 +183,9 @@
                       "start": 500,
                       "end": 506,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -244,14 +258,18 @@
             "start": 549,
             "end": 555,
             "value": 366.96,
-            "raw": "366.96"
+            "raw": "366.96",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 608,
             "value": "date-time + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + IANA annotation is a zoned relativeTo\""
+            "raw": "\"date-time + IANA annotation is a zoned relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +295,9 @@
           "start": 625,
           "end": 663,
           "value": "2019-11-01T00:00Z[America/Vancouver]",
-          "raw": "\"2019-11-01T00:00Z[America/Vancouver]\""
+          "raw": "\"2019-11-01T00:00Z[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -343,7 +363,9 @@
                       "start": 704,
                       "end": 710,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -416,14 +438,18 @@
             "start": 753,
             "end": 759,
             "value": 366.96,
-            "raw": "366.96"
+            "raw": "366.96",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 761,
             "end": 816,
             "value": "date-time + Z + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + Z + IANA annotation is a zoned relativeTo\""
+            "raw": "\"date-time + Z + IANA annotation is a zoned relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -449,7 +475,9 @@
           "start": 833,
           "end": 876,
           "value": "2019-11-01T00:00-07:00[America/Vancouver]",
-          "raw": "\"2019-11-01T00:00-07:00[America/Vancouver]\""
+          "raw": "\"2019-11-01T00:00-07:00[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -515,7 +543,9 @@
                       "start": 917,
                       "end": 923,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -588,14 +618,18 @@
             "start": 966,
             "end": 972,
             "value": 366.96,
-            "raw": "366.96"
+            "raw": "366.96",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 974,
             "end": 1034,
             "value": "date-time + offset + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + offset + IANA annotation is a zoned relativeTo\""
+            "raw": "\"date-time + offset + IANA annotation is a zoned relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -621,7 +655,9 @@
           "start": 1051,
           "end": 1094,
           "value": "2019-11-01T00:00+04:15[America/Vancouver]",
-          "raw": "\"2019-11-01T00:00+04:15[America/Vancouver]\""
+          "raw": "\"2019-11-01T00:00+04:15[America/Vancouver]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -715,7 +751,9 @@
                         "start": 1151,
                         "end": 1157,
                         "value": "days",
-                        "raw": "\"days\""
+                        "raw": "\"days\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -751,7 +789,9 @@
             "start": 1174,
             "end": 1256,
             "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch",
-            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\""
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

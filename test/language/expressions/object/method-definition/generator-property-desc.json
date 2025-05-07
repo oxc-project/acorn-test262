@@ -86,7 +86,9 @@
             "start": 420,
             "end": 428,
             "value": "method",
-            "raw": "\"method\""
+            "raw": "\"method\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -111,7 +113,9 @@
                   "start": 444,
                   "end": 448,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -133,7 +137,9 @@
                   "start": 464,
                   "end": 468,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -155,7 +161,9 @@
                   "start": 486,
                   "end": 490,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

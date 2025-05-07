@@ -175,7 +175,9 @@ __ESTREE_TEST__:PASS:
                     "start": 145,
                     "end": 146,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ArrowFunctionExpression",
@@ -202,7 +204,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 188,
                                 "end": 195,
                                 "raw": "'Hello'",
-                                "value": "Hello"
+                                "value": "Hello",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {

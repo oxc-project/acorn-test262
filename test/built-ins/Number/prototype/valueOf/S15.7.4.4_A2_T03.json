@@ -34,7 +34,9 @@
                 "start": 447,
                 "end": 448,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -81,7 +83,9 @@
             "start": 477,
             "end": 486,
             "value": "valueOf",
-            "raw": "\"valueOf\""
+            "raw": "\"valueOf\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -215,7 +219,9 @@
                   "start": 580,
                   "end": 656,
                   "value": "#1: Number.prototype.valueOf on not a Number object should throw TypeError",
-                  "raw": "'#1: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                  "raw": "'#1: Number.prototype.valueOf on not a Number object should throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -275,7 +281,9 @@
                     "start": 706,
                     "end": 780,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -317,7 +325,9 @@
                 "start": 804,
                 "end": 805,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -461,7 +471,9 @@
                   "start": 907,
                   "end": 983,
                   "value": "#2: Number.prototype.valueOf on not a Number object should throw TypeError",
-                  "raw": "'#2: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                  "raw": "'#2: Number.prototype.valueOf on not a Number object should throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -521,7 +533,9 @@
                     "start": 1033,
                     "end": 1107,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

@@ -23,14 +23,18 @@
             "start": 747,
             "end": 754,
             "value": "\n-->",
-            "raw": "\"\\n-->\""
+            "raw": "\"\\n-->\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 758,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

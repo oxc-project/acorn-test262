@@ -128,14 +128,18 @@
             "start": 343,
             "end": 347,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 349,
             "end": 369,
             "value": "result is an array",
-            "raw": "'result is an array'"
+            "raw": "'result is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -193,14 +197,18 @@
             "start": 404,
             "end": 405,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 427,
             "value": "result has 0 items",
-            "raw": "'result has 0 items'"
+            "raw": "'result has 0 items'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

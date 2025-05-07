@@ -16,7 +16,9 @@
           "start": 278,
           "end": 279,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         },
         "operator": "instanceof",
         "right": {
@@ -51,7 +53,9 @@
                   "start": 325,
                   "end": 357,
                   "value": "#1: 0 is not instanceof Number",
-                  "raw": "'#1: 0 is not instanceof Number'"
+                  "raw": "'#1: 0 is not instanceof Number'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -84,7 +88,9 @@
               "start": 384,
               "end": 385,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -122,7 +128,9 @@
                   "start": 432,
                   "end": 472,
                   "value": "#2: Number(0) is not instanceof Number",
-                  "raw": "'#2: Number(0) is not instanceof Number'"
+                  "raw": "'#2: Number(0) is not instanceof Number'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -169,7 +177,9 @@
           "start": 525,
           "end": 529,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -197,7 +207,9 @@
                   "start": 557,
                   "end": 591,
                   "value": "#3: new Number instanceof Number",
-                  "raw": "'#3: new Number instanceof Number'"
+                  "raw": "'#3: new Number instanceof Number'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

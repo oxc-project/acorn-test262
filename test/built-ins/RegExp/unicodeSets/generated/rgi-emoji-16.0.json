@@ -45,7 +45,8 @@
                   "regex": {
                     "pattern": "^\\p{RGI_Emoji}+$",
                     "flags": "v"
-                  }
+                  },
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -67,7 +68,9 @@
                   "start": 554,
                   "end": 570,
                   "value": "\\p{RGI_Emoji}",
-                  "raw": "\"\\\\p{RGI_Emoji}\""
+                  "raw": "\"\\\\p{RGI_Emoji}\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -94,56 +97,72 @@
                       "start": 594,
                       "end": 614,
                       "value": "🇨🇶",
-                      "raw": "\"\\u{1F1E8}\\u{1F1F6}\""
+                      "raw": "\"\\u{1F1E8}\\u{1F1F6}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 620,
                       "end": 631,
                       "value": "🪉",
-                      "raw": "\"\\u{1FA89}\""
+                      "raw": "\"\\u{1FA89}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 637,
                       "end": 648,
                       "value": "🪏",
-                      "raw": "\"\\u{1FA8F}\""
+                      "raw": "\"\\u{1FA8F}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 654,
                       "end": 665,
                       "value": "🪾",
-                      "raw": "\"\\u{1FABE}\""
+                      "raw": "\"\\u{1FABE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 671,
                       "end": 682,
                       "value": "🫆",
-                      "raw": "\"\\u{1FAC6}\""
+                      "raw": "\"\\u{1FAC6}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 688,
                       "end": 699,
                       "value": "🫜",
-                      "raw": "\"\\u{1FADC}\""
+                      "raw": "\"\\u{1FADC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 705,
                       "end": 716,
                       "value": "🫟",
-                      "raw": "\"\\u{1FADF}\""
+                      "raw": "\"\\u{1FADF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 722,
                       "end": 733,
                       "value": "🫩",
-                      "raw": "\"\\u{1FAE9}\""
+                      "raw": "\"\\u{1FAE9}\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },

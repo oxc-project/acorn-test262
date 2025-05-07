@@ -47,7 +47,9 @@
                 "start": 513,
                 "end": 518,
                 "value": "010",
-                "raw": "'010'"
+                "raw": "'010'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 521,
             "end": 523,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 559,
             "value": "parseInt('010') must return 10",
-            "raw": "'parseInt(\\'010\\') must return 10'"
+            "raw": "'parseInt(\\'010\\') must return 10'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

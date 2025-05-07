@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
           "start": 22,
           "end": 56,
           "raw": "\"exportAssignmentInternalModule_A\"",
-          "value": "exportAssignmentInternalModule_A"
+          "value": "exportAssignmentInternalModule_A",
+          "regex": null,
+          "bigint": null
         }
       }
     },

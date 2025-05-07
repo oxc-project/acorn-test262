@@ -70,7 +70,9 @@
                   "start": 381,
                   "end": 393,
                   "value": "byteLength",
-                  "raw": "\"byteLength\""
+                  "raw": "\"byteLength\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -167,7 +169,9 @@
                             "start": 467,
                             "end": 468,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -221,7 +225,9 @@
             "start": 493,
             "end": 526,
             "value": "`this` cannot be an ArrayBuffer",
-            "raw": "\"`this` cannot be an ArrayBuffer\""
+            "raw": "\"`this` cannot be an ArrayBuffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -147,7 +147,8 @@
                         "regex": {
                           "pattern": ".",
                           "flags": ""
-                        }
+                        },
+                        "bigint": null
                       },
                       "property": {
                         "type": "MemberExpression",
@@ -258,7 +259,8 @@
                         "regex": {
                           "pattern": ".",
                           "flags": ""
-                        }
+                        },
+                        "bigint": null
                       },
                       "property": {
                         "type": "MemberExpression",

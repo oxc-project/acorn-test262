@@ -102,7 +102,9 @@
                       "start": 1457,
                       "end": 1458,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -411,7 +413,9 @@
             "start": 1762,
             "end": 1767,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -421,7 +425,9 @@
           "start": 1771,
           "end": 1772,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -458,7 +464,9 @@
           "start": 1782,
           "end": 1783,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -495,7 +503,9 @@
           "start": 1793,
           "end": 1794,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -543,21 +553,27 @@
                 "start": 1838,
                 "end": 1843,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1845,
                 "end": 1850,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1852,
                 "end": 1857,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -566,7 +582,9 @@
             "start": 1862,
             "end": 1920,
             "value": "getOwnPropertyDescriptor: key present on [[ProxyTarget]]",
-            "raw": "\"getOwnPropertyDescriptor: key present on [[ProxyTarget]]\""
+            "raw": "\"getOwnPropertyDescriptor: key present on [[ProxyTarget]]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -616,21 +634,27 @@
                 "start": 1964,
                 "end": 1969,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1971,
                 "end": 1976,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1978,
                 "end": 1983,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -639,7 +663,9 @@
             "start": 1988,
             "end": 2036,
             "value": "defineProperty: key present on [[ProxyTarget]]",
-            "raw": "\"defineProperty: key present on [[ProxyTarget]]\""
+            "raw": "\"defineProperty: key present on [[ProxyTarget]]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -724,7 +750,9 @@
           "start": 2099,
           "end": 2100,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -752,7 +780,9 @@
             "start": 2104,
             "end": 2109,
             "value": "bar",
-            "raw": "\"bar\""
+            "raw": "\"bar\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -762,7 +792,9 @@
           "start": 2113,
           "end": 2114,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -799,7 +831,9 @@
           "start": 2124,
           "end": 2125,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -847,21 +881,27 @@
                 "start": 2169,
                 "end": 2174,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2176,
                 "end": 2181,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2183,
                 "end": 2188,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -870,7 +910,9 @@
             "start": 2193,
             "end": 2250,
             "value": "getOwnPropertyDescriptor: key absent on [[ProxyTarget]]",
-            "raw": "\"getOwnPropertyDescriptor: key absent on [[ProxyTarget]]\""
+            "raw": "\"getOwnPropertyDescriptor: key absent on [[ProxyTarget]]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -920,21 +962,27 @@
                 "start": 2294,
                 "end": 2299,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2301,
                 "end": 2306,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2308,
                 "end": 2313,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -943,7 +991,9 @@
             "start": 2318,
             "end": 2365,
             "value": "defineProperty: key absent on [[ProxyTarget]]",
-            "raw": "\"defineProperty: key absent on [[ProxyTarget]]\""
+            "raw": "\"defineProperty: key absent on [[ProxyTarget]]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

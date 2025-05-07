@@ -23,7 +23,9 @@
             "start": 338,
             "end": 346,
             "value": "+01:46",
-            "raw": "\"+01:46\""
+            "raw": "\"+01:46\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 394,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -108,7 +111,9 @@
             "start": 432,
             "end": 477,
             "value": "2021-08-19T17:30:45.123456789-12:12[+01:46]",
-            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\""
+            "raw": "\"2021-08-19T17:30:45.123456789-12:12[+01:46]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -152,7 +157,9 @@
                   "start": 670,
                   "end": 674,
                   "value": 1970,
-                  "raw": "1970"
+                  "raw": "1970",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +181,9 @@
                   "start": 683,
                   "end": 684,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +205,9 @@
                   "start": 691,
                   "end": 692,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -218,7 +229,9 @@
                   "start": 700,
                   "end": 701,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -240,7 +253,9 @@
                   "start": 711,
                   "end": 713,
                   "value": 46,
-                  "raw": "46"
+                  "raw": "46",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -336,7 +351,9 @@
             "start": 770,
             "end": 822,
             "value": "time zone string should produce expected time zone",
-            "raw": "\"time zone string should produce expected time zone\""
+            "raw": "\"time zone string should produce expected time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

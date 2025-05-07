@@ -143,7 +143,9 @@
                         "start": 343,
                         "end": 345,
                         "value": 0,
-                        "raw": "0."
+                        "raw": "0.",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -237,7 +239,9 @@
                         "start": 408,
                         "end": 410,
                         "value": 1,
-                        "raw": "1."
+                        "raw": "1.",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

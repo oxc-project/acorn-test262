@@ -47,7 +47,9 @@
                 "start": 585,
                 "end": 595,
                 "value": "1.0e-1_0",
-                "raw": "\"1.0e-1_0\""
+                "raw": "\"1.0e-1_0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 598,
             "end": 604,
             "value": 0.1,
-            "raw": "1.0e-1"
+            "raw": "1.0e-1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

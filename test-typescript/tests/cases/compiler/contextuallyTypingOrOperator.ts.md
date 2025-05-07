@@ -206,7 +206,9 @@ __ESTREE_TEST__:PASS:
                       "start": 72,
                       "end": 73,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     "expression": true,
                     "generator": false,
@@ -454,7 +456,9 @@ __ESTREE_TEST__:PASS:
                         "start": 208,
                         "end": 209,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -552,7 +556,9 @@ __ESTREE_TEST__:PASS:
                 "start": 237,
                 "end": 238,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "FunctionExpression",

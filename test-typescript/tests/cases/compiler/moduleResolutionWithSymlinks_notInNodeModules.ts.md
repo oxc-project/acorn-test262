@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 194,
               "end": 195,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 32,
         "raw": "\"./shared/abc\"",
-        "value": "./shared/abc"
+        "value": "./shared/abc",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -108,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 58,
         "end": 73,
         "raw": "\"./shared2/abc\"",
-        "value": "./shared2/abc"
+        "value": "./shared2/abc",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

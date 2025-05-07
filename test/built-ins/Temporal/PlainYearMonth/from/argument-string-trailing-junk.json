@@ -88,7 +88,9 @@
                   "start": 352,
                   "end": 365,
                   "value": "1976-11junk",
-                  "raw": "\"1976-11junk\""
+                  "raw": "\"1976-11junk\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -34,7 +34,9 @@
                 "start": 437,
                 "end": 443,
                 "value": "test",
-                "raw": "'test'"
+                "raw": "'test'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,14 +97,18 @@
             "start": 488,
             "end": 494,
             "value": "test",
-            "raw": "'test'"
+            "raw": "'test'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 541,
             "value": "The value of symbol.description is \"test\"",
-            "raw": "'The value of symbol.description is \"test\"'"
+            "raw": "'The value of symbol.description is \"test\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +204,9 @@
             "start": 624,
             "end": 671,
             "value": "The value of empty.description is `undefined`",
-            "raw": "'The value of empty.description is `undefined`'"
+            "raw": "'The value of empty.description is `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +309,9 @@
             "start": 763,
             "end": 810,
             "value": "The value of undef.description is `undefined`",
-            "raw": "'The value of undef.description is `undefined`'"
+            "raw": "'The value of undef.description is `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -338,7 +348,9 @@
                 "start": 839,
                 "end": 841,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -399,14 +411,18 @@
             "start": 888,
             "end": 890,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 935,
             "value": "The value of emptyStr.description is \"\"",
-            "raw": "'The value of emptyStr.description is \"\"'"
+            "raw": "'The value of emptyStr.description is \"\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

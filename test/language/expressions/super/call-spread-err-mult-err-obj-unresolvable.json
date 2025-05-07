@@ -137,7 +137,9 @@
                                 "start": 1168,
                                 "end": 1169,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },

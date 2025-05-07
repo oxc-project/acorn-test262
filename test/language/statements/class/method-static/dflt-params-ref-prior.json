@@ -23,7 +23,9 @@
             "start": 2478,
             "end": 2479,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 2498,
             "end": 2499,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -178,14 +182,18 @@
                           "start": 2570,
                           "end": 2571,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 2573,
                           "end": 2595,
                           "value": "first argument value",
-                          "raw": "'first argument value'"
+                          "raw": "'first argument value'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -230,14 +238,18 @@
                           "start": 2622,
                           "end": 2623,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 2625,
                           "end": 2648,
                           "value": "second argument value",
-                          "raw": "'second argument value'"
+                          "raw": "'second argument value'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -282,14 +294,18 @@
                           "start": 2675,
                           "end": 2676,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 2678,
                           "end": 2700,
                           "value": "third argument value",
-                          "raw": "'third argument value'"
+                          "raw": "'third argument value'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -326,7 +342,9 @@
                           "start": 2731,
                           "end": 2732,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -371,7 +389,9 @@
             "start": 2750,
             "end": 2751,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -454,14 +474,18 @@
             "start": 2852,
             "end": 2853,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2855,
             "end": 2884,
             "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "raw": "'method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -53,7 +53,9 @@
                 "start": 367,
                 "end": 380,
                 "value": "arguments_1",
-                "raw": "\"arguments_1\""
+                "raw": "\"arguments_1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -107,7 +109,9 @@
             "start": 418,
             "end": 424,
             "value": "desc",
-            "raw": "'desc'"
+            "raw": "'desc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

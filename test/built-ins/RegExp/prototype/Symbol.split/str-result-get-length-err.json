@@ -414,7 +414,9 @@
                         "start": 1041,
                         "end": 1047,
                         "value": "abcd",
-                        "raw": "'abcd'"
+                        "raw": "'abcd'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

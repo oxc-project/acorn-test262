@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                   "start": 22,
                   "end": 25,
                   "raw": "123",
-                  "value": 123
+                  "value": 123,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [

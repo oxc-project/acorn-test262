@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 58,
         "raw": "\"es6ImportWithoutFromClauseNonInstantiatedModule_0\"",
-        "value": "es6ImportWithoutFromClauseNonInstantiatedModule_0"
+        "value": "es6ImportWithoutFromClauseNonInstantiatedModule_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

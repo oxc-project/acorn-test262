@@ -48,6 +48,7 @@
                 "end": 522,
                 "value": null,
                 "raw": "217189410123456789n",
+                "regex": null,
                 "bigint": "217189410123456789"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 524,
                 "end": 532,
                 "value": "-03:00",
-                "raw": "\"-03:00\""
+                "raw": "\"-03:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,6 +111,7 @@
                 "end": 596,
                 "value": null,
                 "raw": "1572356798271986102n",
+                "regex": null,
                 "bigint": "1572356798271986102"
               },
               {
@@ -115,7 +119,9 @@
                 "start": 598,
                 "end": 606,
                 "value": "-03:00",
-                "raw": "\"-03:00\""
+                "raw": "\"-03:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -145,21 +151,27 @@
                 "start": 614,
                 "end": 621,
                 "value": "hours",
-                "raw": "\"hours\""
+                "raw": "\"hours\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 634,
                 "value": "minutes",
-                "raw": "\"minutes\""
+                "raw": "\"minutes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 638,
                 "end": 647,
                 "value": "seconds",
-                "raw": "\"seconds\""
+                "raw": "\"seconds\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -719,49 +731,63 @@
                 "start": 1184,
                 "end": 1191,
                 "value": "years",
-                "raw": "\"years\""
+                "raw": "\"years\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1195,
                 "end": 1203,
                 "value": "months",
-                "raw": "\"months\""
+                "raw": "\"months\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1207,
                 "end": 1214,
                 "value": "weeks",
-                "raw": "\"weeks\""
+                "raw": "\"weeks\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1218,
                 "end": 1224,
                 "value": "days",
-                "raw": "\"days\""
+                "raw": "\"days\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1228,
                 "end": 1235,
                 "value": "hours",
-                "raw": "\"hours\""
+                "raw": "\"hours\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1239,
                 "end": 1248,
                 "value": "minutes",
-                "raw": "\"minutes\""
+                "raw": "\"minutes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1252,
                 "end": 1261,
                 "value": "seconds",
-                "raw": "\"seconds\""
+                "raw": "\"seconds\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },

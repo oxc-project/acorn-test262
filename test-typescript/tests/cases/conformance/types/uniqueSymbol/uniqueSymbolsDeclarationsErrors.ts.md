@@ -307,7 +307,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 230,
                                 "end": 244,
                                 "raw": "\"readonlyType\"",
-                                "value": "readonlyType"
+                                "value": "readonlyType",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "objectType": {
@@ -346,7 +348,9 @@ __ESTREE_TEST__:PASS:
                             "start": 250,
                             "end": 264,
                             "raw": "\"readonlyType\"",
-                            "value": "readonlyType"
+                            "value": "readonlyType",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "objectType": {
@@ -592,7 +596,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 413,
                                   "end": 427,
                                   "raw": "\"readonlyType\"",
-                                  "value": "readonlyType"
+                                  "value": "readonlyType",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "objectType": {
@@ -631,7 +637,9 @@ __ESTREE_TEST__:PASS:
                               "start": 433,
                               "end": 447,
                               "raw": "\"readonlyType\"",
-                              "value": "readonlyType"
+                              "value": "readonlyType",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "objectType": {

@@ -280,14 +280,18 @@
                             "start": 1573,
                             "end": 1577,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1579,
                             "end": 1611,
                             "value": "iteration occurred as expected",
-                            "raw": "'iteration occurred as expected'"
+                            "raw": "'iteration occurred as expected'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

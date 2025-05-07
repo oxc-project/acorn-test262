@@ -57,7 +57,9 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 67,
                   "raw": "'.svg-rectangle'",
-                  "value": ".svg-rectangle"
+                  "value": ".svg-rectangle",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

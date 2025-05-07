@@ -63,7 +63,9 @@
             "start": 251,
             "end": 260,
             "value": "staticM",
-            "raw": "'staticM'"
+            "raw": "'staticM'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -117,7 +119,9 @@
                               "start": 311,
                               "end": 343,
                               "value": "`Base.staticM` is unreachable.",
-                              "raw": "\"`Base.staticM` is unreachable.\""
+                              "raw": "\"`Base.staticM` is unreachable.\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -190,7 +194,9 @@
                       "start": 410,
                       "end": 411,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -259,14 +265,18 @@
             "start": 450,
             "end": 451,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 480,
             "value": "`C.staticM()` returns `1`",
-            "raw": "\"`C.staticM()` returns `1`\""
+            "raw": "\"`C.staticM()` returns `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

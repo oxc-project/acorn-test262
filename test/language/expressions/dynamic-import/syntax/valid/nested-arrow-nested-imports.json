@@ -53,7 +53,9 @@
                           "start": 1104,
                           "end": 1124,
                           "value": "./empty_FIXTURE.js",
-                          "raw": "'./empty_FIXTURE.js'"
+                          "raw": "'./empty_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "options": null
                       },

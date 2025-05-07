@@ -66,7 +66,9 @@
                 "start": 366,
                 "end": 372,
                 "value": "size",
-                "raw": "\"size\""
+                "raw": "\"size\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,14 +136,18 @@
             "start": 421,
             "end": 431,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 476,
             "value": "`typeof descriptor.get` is `'function'`",
-            "raw": "\"`typeof descriptor.get` is `'function'`\""
+            "raw": "\"`typeof descriptor.get` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,14 +212,18 @@
             "start": 525,
             "end": 536,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 584,
             "value": "`typeof descriptor.set` is `\"undefined\"`",
-            "raw": "\"`typeof descriptor.set` is `\\\"undefined\\\"`\""
+            "raw": "\"`typeof descriptor.set` is `\\\"undefined\\\"`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,7 +268,9 @@
             "start": 624,
             "end": 630,
             "value": "size",
-            "raw": "\"size\""
+            "raw": "\"size\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +315,9 @@
             "start": 667,
             "end": 673,
             "value": "size",
-            "raw": "\"size\""
+            "raw": "\"size\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

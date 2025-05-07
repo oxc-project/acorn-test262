@@ -34,21 +34,27 @@
                 "start": 356,
                 "end": 358,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 362,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 366,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +99,9 @@
               "start": 380,
               "end": 382,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -104,7 +112,9 @@
           "start": 388,
           "end": 390,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -136,7 +146,9 @@
                     "start": 419,
                     "end": 481,
                     "value": "#0: var x = new Array(\"\",\"\",\"\"); x.join(\"\") === \"\". Actual: ",
-                    "raw": "'#0: var x = new Array(\"\",\"\",\"\"); x.join(\"\") === \"\". Actual: '"
+                    "raw": "'#0: var x = new Array(\"\",\"\",\"\"); x.join(\"\") === \"\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -172,7 +184,9 @@
                           "start": 492,
                           "end": 494,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -217,21 +231,27 @@
                 "start": 520,
                 "end": 524,
                 "value": "\\",
-                "raw": "\"\\\\\""
+                "raw": "\"\\\\\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 526,
                 "end": 530,
                 "value": "\\",
-                "raw": "\"\\\\\""
+                "raw": "\"\\\\\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 532,
                 "end": 536,
                 "value": "\\",
-                "raw": "\"\\\\\""
+                "raw": "\"\\\\\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -276,7 +296,9 @@
               "start": 550,
               "end": 554,
               "value": "\\",
-              "raw": "\"\\\\\""
+              "raw": "\"\\\\\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -287,7 +309,9 @@
           "start": 560,
           "end": 572,
           "value": "\\\\\\\\\\",
-          "raw": "\"\\\\\\\\\\\\\\\\\\\\\""
+          "raw": "\"\\\\\\\\\\\\\\\\\\\\\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -319,7 +343,9 @@
                     "start": 601,
                     "end": 681,
                     "value": "#1: var x = new Array(\"\\\",\"\\\",\"\\\"); x.join(\"\\\") === \"\\\\\\\\\\\". Actual: ",
-                    "raw": "'#1: var x = new Array(\"\\\\\",\"\\\\\",\"\\\\\"); x.join(\"\\\\\") === \"\\\\\\\\\\\\\\\\\\\\\". Actual: '"
+                    "raw": "'#1: var x = new Array(\"\\\\\",\"\\\\\",\"\\\\\"); x.join(\"\\\\\") === \"\\\\\\\\\\\\\\\\\\\\\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -355,7 +381,9 @@
                           "start": 692,
                           "end": 696,
                           "value": "\\",
-                          "raw": "\"\\\\\""
+                          "raw": "\"\\\\\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -400,21 +428,27 @@
                 "start": 722,
                 "end": 725,
                 "value": "&",
-                "raw": "\"&\""
+                "raw": "\"&\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 727,
                 "end": 730,
                 "value": "&",
-                "raw": "\"&\""
+                "raw": "\"&\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 732,
                 "end": 735,
                 "value": "&",
-                "raw": "\"&\""
+                "raw": "\"&\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -459,7 +493,9 @@
               "start": 749,
               "end": 752,
               "value": "&",
-              "raw": "\"&\""
+              "raw": "\"&\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -470,7 +506,9 @@
           "start": 758,
           "end": 765,
           "value": "&&&&&",
-          "raw": "\"&&&&&\""
+          "raw": "\"&&&&&\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -502,7 +540,9 @@
                     "start": 794,
                     "end": 867,
                     "value": "#2: var x = new Array(\"&\", \"&\", \"&\"); x.join(\"&\") === \"&&&&&\". Actual: ",
-                    "raw": "'#2: var x = new Array(\"&\", \"&\", \"&\"); x.join(\"&\") === \"&&&&&\". Actual: '"
+                    "raw": "'#2: var x = new Array(\"&\", \"&\", \"&\"); x.join(\"&\") === \"&&&&&\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -538,7 +578,9 @@
                           "start": 878,
                           "end": 881,
                           "value": "&",
-                          "raw": "\"&\""
+                          "raw": "\"&\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -583,21 +625,27 @@
                 "start": 907,
                 "end": 911,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 913,
                 "end": 917,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 919,
                 "end": 923,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -645,7 +693,9 @@
           "start": 943,
           "end": 959,
           "value": "true,true,true",
-          "raw": "\"true,true,true\""
+          "raw": "\"true,true,true\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -677,7 +727,9 @@
                     "start": 988,
                     "end": 1082,
                     "value": "#3: var x = new Array(true,true,true); x.join(true,true,true) === \"true,true,true\". Actual: ",
-                    "raw": "'#3: var x = new Array(true,true,true); x.join(true,true,true) === \"true,true,true\". Actual: '"
+                    "raw": "'#3: var x = new Array(true,true,true); x.join(true,true,true) === \"true,true,true\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -713,21 +765,27 @@
                           "start": 1093,
                           "end": 1097,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1099,
                           "end": 1103,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1105,
                           "end": 1109,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -772,21 +830,27 @@
                 "start": 1135,
                 "end": 1139,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1141,
                 "end": 1145,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1147,
                 "end": 1151,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -834,7 +898,9 @@
           "start": 1171,
           "end": 1175,
           "value": ",,",
-          "raw": "\",,\""
+          "raw": "\",,\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -866,7 +932,9 @@
                     "start": 1204,
                     "end": 1286,
                     "value": "#4: var x = new Array(null,null,null); x.join(null,null,null) === \",,\". Actual: ",
-                    "raw": "'#4: var x = new Array(null,null,null); x.join(null,null,null) === \",,\". Actual: '"
+                    "raw": "'#4: var x = new Array(null,null,null); x.join(null,null,null) === \",,\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -902,21 +970,27 @@
                           "start": 1297,
                           "end": 1301,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1303,
                           "end": 1307,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1309,
                           "end": 1313,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1020,7 +1094,9 @@
           "start": 1390,
           "end": 1394,
           "value": ",,",
-          "raw": "\",,\""
+          "raw": "\",,\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1052,7 +1128,9 @@
                     "start": 1423,
                     "end": 1535,
                     "value": "#5: var x = new Array(undefined,undefined,undefined); x.join(undefined,undefined,undefined) === \",,\". Actual: ",
-                    "raw": "'#5: var x = new Array(undefined,undefined,undefined); x.join(undefined,undefined,undefined) === \",,\". Actual: '"
+                    "raw": "'#5: var x = new Array(undefined,undefined,undefined); x.join(undefined,undefined,undefined) === \",,\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1203,7 +1281,9 @@
           "start": 1651,
           "end": 1679,
           "value": "Infinity,Infinity,Infinity",
-          "raw": "\"Infinity,Infinity,Infinity\""
+          "raw": "\"Infinity,Infinity,Infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1235,7 +1315,9 @@
                     "start": 1708,
                     "end": 1838,
                     "value": "#6: var x = new Array(Infinity,Infinity,Infinity); x.join(Infinity,Infinity,Infinity) === \"Infinity,Infinity,Infinity\". Actual: ",
-                    "raw": "'#6: var x = new Array(Infinity,Infinity,Infinity); x.join(Infinity,Infinity,Infinity) === \"Infinity,Infinity,Infinity\". Actual: '"
+                    "raw": "'#6: var x = new Array(Infinity,Infinity,Infinity); x.join(Infinity,Infinity,Infinity) === \"Infinity,Infinity,Infinity\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1386,7 +1468,9 @@
           "start": 1936,
           "end": 1949,
           "value": "NaN,NaN,NaN",
-          "raw": "\"NaN,NaN,NaN\""
+          "raw": "\"NaN,NaN,NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1418,7 +1502,9 @@
                     "start": 1978,
                     "end": 2063,
                     "value": "#7: var x = new Array(NaN,NaN,NaN); x.join(NaN,NaN,NaN) === \"NaN,NaN,NaN\". Actual: ",
-                    "raw": "'#7: var x = new Array(NaN,NaN,NaN); x.join(NaN,NaN,NaN) === \"NaN,NaN,NaN\". Actual: '"
+                    "raw": "'#7: var x = new Array(NaN,NaN,NaN); x.join(NaN,NaN,NaN) === \"NaN,NaN,NaN\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

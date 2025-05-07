@@ -35,14 +35,18 @@
                   "start": 319,
                   "end": 324,
                   "value": "-20",
-                  "raw": "\"-20\""
+                  "raw": "\"-20\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 326,
                   "end": 327,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -108,7 +112,9 @@
                   "start": 381,
                   "end": 383,
                   "value": 20,
-                  "raw": "20"
+                  "raw": "20",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -170,14 +176,18 @@
             "start": 416,
             "end": 417,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 431,
             "value": "desc.value",
-            "raw": "'desc.value'"
+            "raw": "'desc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

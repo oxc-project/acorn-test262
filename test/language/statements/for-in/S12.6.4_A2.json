@@ -27,7 +27,9 @@
               "start": 386,
               "end": 390,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             "body": {
               "type": "BlockStatement",
@@ -104,7 +106,9 @@
                     "start": 455,
                     "end": 519,
                     "value": "#1: \"for(__key in null){}\" does not lead to throwing exception",
-                    "raw": "'#1: \"for(__key in null){}\" does not lead to throwing exception'"
+                    "raw": "'#1: \"for(__key in null){}\" does not lead to throwing exception'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -165,7 +169,9 @@
                     "start": 743,
                     "end": 783,
                     "value": "#2: key === undefined. Actual: key ===",
-                    "raw": "'#2: key === undefined. Actual: key ==='"
+                    "raw": "'#2: key === undefined. Actual: key ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

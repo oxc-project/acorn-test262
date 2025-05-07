@@ -58,7 +58,9 @@
                   "start": 290,
                   "end": 305,
                   "value": "[object Math]",
-                  "raw": "'[object Math]'"
+                  "raw": "'[object Math]'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "!==",
                 "right": {
@@ -159,7 +161,9 @@
           "start": 365,
           "end": 366,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -187,7 +191,9 @@
             "start": 373,
             "end": 374,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -197,7 +203,9 @@
           "start": 378,
           "end": 379,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -299,14 +307,18 @@
             "start": 445,
             "end": 450,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 498,
             "value": "Array.prototype.every.call(Math, callbackfn)",
-            "raw": "'Array.prototype.every.call(Math, callbackfn)'"
+            "raw": "'Array.prototype.every.call(Math, callbackfn)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

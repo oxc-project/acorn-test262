@@ -23,7 +23,9 @@
             "start": 707,
             "end": 712,
             "value": "one",
-            "raw": "\"one\""
+            "raw": "\"one\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 725,
             "end": 730,
             "value": "two",
-            "raw": "\"two\""
+            "raw": "\"two\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -188,7 +192,9 @@
                                   "start": 826,
                                   "end": 830,
                                   "value": "BA",
-                                  "raw": "\"BA\""
+                                  "raw": "\"BA\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -361,7 +367,9 @@
                     "start": 1074,
                     "end": 1140,
                     "value": "#1: __instance.first === undefined. Actual: __instance.first ===",
-                    "raw": "'#1: __instance.first === undefined. Actual: __instance.first ==='"
+                    "raw": "'#1: __instance.first === undefined. Actual: __instance.first ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -455,7 +463,9 @@
                     "start": 1390,
                     "end": 1451,
                     "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ===",
-                    "raw": "'#2: __instance.prop === __SCND. Actual: __instance.prop ==='"
+                    "raw": "'#2: __instance.prop === __SCND. Actual: __instance.prop ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -509,7 +519,9 @@
               "start": 1659,
               "end": 1664,
               "value": "SAM",
-              "raw": "\"SAM\""
+              "raw": "\"SAM\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -520,7 +532,9 @@
           "start": 1669,
           "end": 1676,
           "value": "SAMBA",
-          "raw": "\"SAMBA\""
+          "raw": "\"SAMBA\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -552,7 +566,9 @@
                     "start": 1704,
                     "end": 1770,
                     "value": "#2: __instance(\"SAM\") === \"SAMBA\". Actual: __instance(\"SAM\") ===",
-                    "raw": "'#2: __instance(\"SAM\") === \"SAMBA\". Actual: __instance(\"SAM\") ==='"
+                    "raw": "'#2: __instance(\"SAM\") === \"SAMBA\". Actual: __instance(\"SAM\") ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -571,7 +587,9 @@
                         "start": 1782,
                         "end": 1787,
                         "value": "SAM",
-                        "raw": "\"SAM\""
+                        "raw": "\"SAM\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

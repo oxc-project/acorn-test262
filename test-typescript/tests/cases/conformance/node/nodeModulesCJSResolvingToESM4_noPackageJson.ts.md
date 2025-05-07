@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -65,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -92,7 +96,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -119,7 +125,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

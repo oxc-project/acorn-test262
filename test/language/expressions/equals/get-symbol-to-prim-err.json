@@ -191,7 +191,9 @@
                       "start": 937,
                       "end": 938,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "==",
                     "right": {

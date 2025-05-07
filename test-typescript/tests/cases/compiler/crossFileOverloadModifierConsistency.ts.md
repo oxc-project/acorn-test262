@@ -240,7 +240,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 36,
         "raw": "\"library\"",
-        "value": "library"
+        "value": "library",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -321,7 +323,9 @@ __ESTREE_TEST__:PASS:
         "start": 97,
         "end": 110,
         "raw": "\"non-ambient\"",
-        "value": "non-ambient"
+        "value": "non-ambient",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

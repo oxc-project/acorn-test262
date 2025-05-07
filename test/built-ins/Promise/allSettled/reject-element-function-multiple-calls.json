@@ -23,7 +23,9 @@
             "start": 526,
             "end": 527,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -201,7 +203,9 @@
                       "start": 703,
                       "end": 704,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -576,14 +580,18 @@
             "start": 1030,
             "end": 1031,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1033,
             "end": 1078,
             "value": "rejectCallCount before call to allSettled()",
-            "raw": "'rejectCallCount before call to allSettled()'"
+            "raw": "'rejectCallCount before call to allSettled()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -692,14 +700,18 @@
             "start": 1160,
             "end": 1161,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1163,
             "end": 1207,
             "value": "rejectCallCount after call to allSettled()",
-            "raw": "'rejectCallCount after call to allSettled()'"
+            "raw": "'rejectCallCount after call to allSettled()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -795,14 +807,18 @@
             "start": 1288,
             "end": 1289,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1291,
             "end": 1336,
             "value": "rejectCallCount after call to pOnRejected()",
-            "raw": "'rejectCallCount after call to pOnRejected()'"
+            "raw": "'rejectCallCount after call to pOnRejected()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -865,14 +881,18 @@
             "start": 1388,
             "end": 1389,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1391,
             "end": 1436,
             "value": "rejectCallCount after call to pOnRejected()",
-            "raw": "'rejectCallCount after call to pOnRejected()'"
+            "raw": "'rejectCallCount after call to pOnRejected()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,14 +34,18 @@
                 "start": 373,
                 "end": 376,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 435,
                 "value": "eval('public = 1;'); anotherVariable = 2; 'use strict';",
-                "raw": "\"eval('public = 1;'); anotherVariable = 2; 'use strict';\""
+                "raw": "\"eval('public = 1;'); anotherVariable = 2; 'use strict';\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -106,14 +110,18 @@
             "start": 482,
             "end": 483,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 493,
             "value": "public",
-            "raw": "'public'"
+            "raw": "'public'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,14 +166,18 @@
             "start": 530,
             "end": 531,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 550,
             "value": "anotherVariable",
-            "raw": "'anotherVariable'"
+            "raw": "'anotherVariable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

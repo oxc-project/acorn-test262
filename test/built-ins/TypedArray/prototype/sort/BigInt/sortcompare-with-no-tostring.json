@@ -23,7 +23,9 @@
             "start": 673,
             "end": 678,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,7 +106,9 @@
                     "start": 740,
                     "end": 744,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -186,6 +190,7 @@
                                 "end": 827,
                                 "value": null,
                                 "raw": "20n",
+                                "regex": null,
                                 "bigint": "20"
                               },
                               {
@@ -194,6 +199,7 @@
                                 "end": 833,
                                 "value": null,
                                 "raw": "100n",
+                                "regex": null,
                                 "bigint": "100"
                               },
                               {
@@ -202,6 +208,7 @@
                                 "end": 837,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               }
                             ]
@@ -296,14 +303,18 @@
                         "start": 906,
                         "end": 911,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 913,
                         "end": 959,
                         "value": "BigInt.prototype.toString will not be called",
-                        "raw": "\"BigInt.prototype.toString will not be called\""
+                        "raw": "\"BigInt.prototype.toString will not be called\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -352,6 +363,7 @@
                                 "end": 995,
                                 "value": null,
                                 "raw": "3n",
+                                "regex": null,
                                 "bigint": "3"
                               },
                               {
@@ -360,6 +372,7 @@
                                 "end": 1000,
                                 "value": null,
                                 "raw": "20n",
+                                "regex": null,
                                 "bigint": "20"
                               },
                               {
@@ -368,6 +381,7 @@
                                 "end": 1006,
                                 "value": null,
                                 "raw": "100n",
+                                "regex": null,
                                 "bigint": "100"
                               }
                             ]

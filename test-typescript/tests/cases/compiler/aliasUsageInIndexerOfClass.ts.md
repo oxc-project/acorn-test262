@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 65,
           "raw": "\"./aliasUsageInIndexerOfClass_backbone\"",
-          "value": "./aliasUsageInIndexerOfClass_backbone"
+          "value": "./aliasUsageInIndexerOfClass_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 65,
           "raw": "\"./aliasUsageInIndexerOfClass_backbone\"",
-          "value": "./aliasUsageInIndexerOfClass_backbone"
+          "value": "./aliasUsageInIndexerOfClass_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
           "start": 93,
           "end": 131,
           "raw": "\"./aliasUsageInIndexerOfClass_moduleA\"",
-          "value": "./aliasUsageInIndexerOfClass_moduleA"
+          "value": "./aliasUsageInIndexerOfClass_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },

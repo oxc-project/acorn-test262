@@ -53,7 +53,9 @@
         "start": 1245,
         "end": 1249,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -68,7 +70,9 @@
             "start": 1258,
             "end": 1278,
             "value": "./empty_FIXTURE.js",
-            "raw": "'./empty_FIXTURE.js'"
+            "raw": "'./empty_FIXTURE.js'",
+            "regex": null,
+            "bigint": null
           },
           "options": null
         }

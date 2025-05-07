@@ -23,7 +23,9 @@
             "start": 301,
             "end": 302,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -55,7 +57,9 @@
             "start": 310,
             "end": 311,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -86,7 +90,9 @@
             "start": 325,
             "end": 326,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -119,7 +125,9 @@
                     "start": 355,
                     "end": 399,
                     "value": "#1: var x = 1; x *= -1; x === -1. Actual: ",
-                    "raw": "'#1: var x = 1; x *= -1; x === -1. Actual: '"
+                    "raw": "'#1: var x = 1; x *= -1; x === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -181,7 +189,9 @@
           "start": 432,
           "end": 433,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -211,7 +221,9 @@
             "start": 441,
             "end": 442,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -242,7 +254,9 @@
             "start": 455,
             "end": 456,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -275,7 +289,9 @@
                     "start": 485,
                     "end": 525,
                     "value": "#2: y = 1; y *= -1; y === -1. Actual: ",
-                    "raw": "'#2: y = 1; y *= -1; y === -1. Actual: '"
+                    "raw": "'#2: y = 1; y *= -1; y === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

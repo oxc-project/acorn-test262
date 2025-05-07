@@ -49,14 +49,18 @@
             "start": 420,
             "end": 431,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 491,
             "value": "The value of `typeof func` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof func` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof func` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -116,7 +120,9 @@
                         "start": 545,
                         "end": 546,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -186,7 +192,9 @@
             "start": 606,
             "end": 681,
             "value": "The value of n_obj.constructor is expected to equal the value of Function",
-            "raw": "'The value of n_obj.constructor is expected to equal the value of Function'"
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,14 +246,18 @@
             "start": 712,
             "end": 713,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 738,
             "value": "n_obj() must return 1",
-            "raw": "'n_obj() must return 1'"
+            "raw": "'n_obj() must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -297,14 +309,18 @@
             "start": 771,
             "end": 782,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 842,
             "value": "The value of `typeof func` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof func` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof func` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

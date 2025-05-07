@@ -25,7 +25,9 @@
         "start": 466,
         "end": 495,
         "value": "./has-property-sym-found.js",
-        "raw": "'./has-property-sym-found.js'"
+        "raw": "'./has-property-sym-found.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -80,7 +82,9 @@
             "start": 531,
             "end": 555,
             "value": "in: Symbol.toStringTag",
-            "raw": "'in: Symbol.toStringTag'"
+            "raw": "'in: Symbol.toStringTag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,7 +162,9 @@
             "start": 602,
             "end": 635,
             "value": "Reflect.has: Symbol.toStringTag",
-            "raw": "'Reflect.has: Symbol.toStringTag'"
+            "raw": "'Reflect.has: Symbol.toStringTag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

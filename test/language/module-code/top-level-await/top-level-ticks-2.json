@@ -28,56 +28,72 @@
                 "start": 726,
                 "end": 735,
                 "value": "await 1",
-                "raw": "'await 1'"
+                "raw": "'await 1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 739,
                 "end": 747,
                 "value": "tick 1",
-                "raw": "'tick 1'"
+                "raw": "'tick 1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 751,
                 "end": 760,
                 "value": "await 2",
-                "raw": "'await 2'"
+                "raw": "'await 2'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 764,
                 "end": 772,
                 "value": "tick 2",
-                "raw": "'tick 2'"
+                "raw": "'tick 2'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 776,
                 "end": 785,
                 "value": "await 3",
-                "raw": "'await 3'"
+                "raw": "'await 3'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 789,
                 "end": 797,
                 "value": "tick 3",
-                "raw": "'tick 3'"
+                "raw": "'tick 3'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 810,
                 "value": "await 4",
-                "raw": "'await 4'"
+                "raw": "'await 4'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 814,
                 "end": 822,
                 "value": "tick 4",
-                "raw": "'tick 4'"
+                "raw": "'tick 4'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -191,7 +207,9 @@
                                     "start": 862,
                                     "end": 863,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -244,7 +262,9 @@
                                       "start": 891,
                                       "end": 899,
                                       "value": "tick 1",
-                                      "raw": "'tick 1'"
+                                      "raw": "'tick 1'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -301,7 +321,9 @@
                                   "start": 928,
                                   "end": 936,
                                   "value": "tick 2",
-                                  "raw": "'tick 2'"
+                                  "raw": "'tick 2'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -358,7 +380,9 @@
                               "start": 965,
                               "end": 973,
                               "value": "tick 3",
-                              "raw": "'tick 3'"
+                              "raw": "'tick 3'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -415,7 +439,9 @@
                           "start": 1002,
                           "end": 1010,
                           "value": "tick 4",
-                          "raw": "'tick 4'"
+                          "raw": "'tick 4'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -493,7 +519,9 @@
                             "start": 1071,
                             "end": 1111,
                             "value": "Ticks for top level await and promises",
-                            "raw": "'Ticks for top level await and promises'"
+                            "raw": "'Ticks for top level await and promises'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -568,7 +596,9 @@
               "start": 1156,
               "end": 1165,
               "value": "await 1",
-              "raw": "'await 1'"
+              "raw": "'await 1'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -612,7 +642,9 @@
               "start": 1186,
               "end": 1195,
               "value": "await 2",
-              "raw": "'await 2'"
+              "raw": "'await 2'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -656,7 +688,9 @@
               "start": 1216,
               "end": 1225,
               "value": "await 3",
-              "raw": "'await 3'"
+              "raw": "'await 3'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -700,7 +734,9 @@
               "start": 1246,
               "end": 1255,
               "value": "await 4",
-              "raw": "'await 4'"
+              "raw": "'await 4'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false

@@ -215,7 +215,9 @@
                               "start": 1303,
                               "end": 1349,
                               "value": "The promise should be resolved with a value.",
-                              "raw": "'The promise should be resolved with a value.'"
+                              "raw": "'The promise should be resolved with a value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -291,7 +293,9 @@
                               "start": 1424,
                               "end": 1480,
                               "value": "The promise should be resolved with an Array instance.",
-                              "raw": "'The promise should be resolved with an Array instance.'"
+                              "raw": "'The promise should be resolved with an Array instance.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -340,7 +344,9 @@
                       "start": 1530,
                       "end": 1531,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -368,7 +374,9 @@
                               "start": 1547,
                               "end": 1611,
                               "value": "The promise should be resolved with an array of proper length.",
-                              "raw": "'The promise should be resolved with an array of proper length.'"
+                              "raw": "'The promise should be resolved with an array of proper length.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -407,7 +415,9 @@
                         "start": 1650,
                         "end": 1651,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -445,7 +455,9 @@
                               "start": 1675,
                               "end": 1744,
                               "value": "The promise should be resolved with the correct element values (#1)",
-                              "raw": "'The promise should be resolved with the correct element values (#1)'"
+                              "raw": "'The promise should be resolved with the correct element values (#1)'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -484,7 +496,9 @@
                         "start": 1783,
                         "end": 1784,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -522,7 +536,9 @@
                               "start": 1808,
                               "end": 1877,
                               "value": "The promise should be resolved with the correct element values (#2)",
-                              "raw": "'The promise should be resolved with the correct element values (#2)'"
+                              "raw": "'The promise should be resolved with the correct element values (#2)'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -561,7 +577,9 @@
                         "start": 1916,
                         "end": 1917,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -599,7 +617,9 @@
                               "start": 1941,
                               "end": 2010,
                               "value": "The promise should be resolved with the correct element values (#3)",
-                              "raw": "'The promise should be resolved with the correct element values (#3)'"
+                              "raw": "'The promise should be resolved with the correct element values (#3)'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -670,7 +690,9 @@
                         "start": 2075,
                         "end": 2112,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

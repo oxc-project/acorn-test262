@@ -68,14 +68,18 @@
             "start": 280,
             "end": 281,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 283,
             "end": 305,
             "value": "Object.create.length",
-            "raw": "'Object.create.length'"
+            "raw": "'Object.create.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -31,7 +31,9 @@
               "start": 281,
               "end": 300,
               "value": "another directive",
-              "raw": "\"another directive\""
+              "raw": "\"another directive\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "another directive"
           },
@@ -44,7 +46,9 @@
               "start": 305,
               "end": 317,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },

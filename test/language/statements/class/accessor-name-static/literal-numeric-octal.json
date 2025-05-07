@@ -50,7 +50,9 @@
               "start": 993,
               "end": 997,
               "value": 8,
-              "raw": "0o10"
+              "raw": "0o10",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {
@@ -76,7 +78,9 @@
                       "start": 1009,
                       "end": 1021,
                       "value": "get string",
-                      "raw": "'get string'"
+                      "raw": "'get string'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -94,7 +98,9 @@
               "start": 1038,
               "end": 1042,
               "value": 8,
-              "raw": "0o10"
+              "raw": "0o10",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -191,7 +197,9 @@
               "start": 1095,
               "end": 1098,
               "value": "8",
-              "raw": "'8'"
+              "raw": "'8'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -201,7 +209,9 @@
             "start": 1101,
             "end": 1113,
             "value": "get string",
-            "raw": "'get string'"
+            "raw": "'get string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -231,7 +241,9 @@
             "start": 1119,
             "end": 1122,
             "value": "8",
-            "raw": "'8'"
+            "raw": "'8'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -241,7 +253,9 @@
           "start": 1126,
           "end": 1138,
           "value": "set string",
-          "raw": "'set string'"
+          "raw": "'set string'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -284,7 +298,9 @@
             "start": 1168,
             "end": 1180,
             "value": "set string",
-            "raw": "'set string'"
+            "raw": "'set string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

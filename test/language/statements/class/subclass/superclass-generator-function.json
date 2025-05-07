@@ -201,7 +201,9 @@
             "start": 801,
             "end": 812,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -255,7 +257,9 @@
                               "start": 863,
                               "end": 902,
                               "value": "`superclass.prototype` is unreachable",
-                              "raw": "\"`superclass.prototype` is unreachable\""
+                              "raw": "\"`superclass.prototype` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

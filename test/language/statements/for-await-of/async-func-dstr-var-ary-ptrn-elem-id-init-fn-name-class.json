@@ -23,7 +23,9 @@
             "start": 1780,
             "end": 1781,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -252,7 +254,9 @@
                         "start": 1937,
                         "end": 1942,
                         "value": "cls",
-                        "raw": "'cls'"
+                        "raw": "'cls'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -310,7 +314,9 @@
                         "start": 1980,
                         "end": 1986,
                         "value": "xCls",
-                        "raw": "'xCls'"
+                        "raw": "'xCls'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -368,7 +374,9 @@
                         "start": 2025,
                         "end": 2032,
                         "value": "xCls2",
-                        "raw": "'xCls2'"
+                        "raw": "'xCls2'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -394,7 +402,9 @@
                       "start": 2053,
                       "end": 2054,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -491,14 +501,18 @@
                       "start": 2110,
                       "end": 2111,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2113,
                       "end": 2145,
                       "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "raw": "'iteration occurred as expected'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

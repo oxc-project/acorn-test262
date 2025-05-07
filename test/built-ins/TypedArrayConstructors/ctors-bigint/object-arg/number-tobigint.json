@@ -112,7 +112,9 @@
                                         "start": 2216,
                                         "end": 2217,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -127,7 +129,9 @@
                         "start": 2226,
                         "end": 2260,
                         "value": "abrupt completion from Number: 1",
-                        "raw": "\"abrupt completion from Number: 1\""
+                        "raw": "\"abrupt completion from Number: 1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -230,14 +234,18 @@
                                             "start": 2325,
                                             "end": 2326,
                                             "value": 2,
-                                            "raw": "2"
+                                            "raw": "2",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 2328,
                                             "end": 2330,
                                             "value": 63,
-                                            "raw": "63"
+                                            "raw": "63",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -255,7 +263,9 @@
                         "start": 2340,
                         "end": 2378,
                         "value": "abrupt completion from Number: 2**63",
-                        "raw": "\"abrupt completion from Number: 2**63\""
+                        "raw": "\"abrupt completion from Number: 2**63\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -340,7 +350,9 @@
                                           "start": 2435,
                                           "end": 2436,
                                           "value": 0,
-                                          "raw": "0"
+                                          "raw": "0",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -356,7 +368,9 @@
                         "start": 2445,
                         "end": 2480,
                         "value": "abrupt completion from Number: +0",
-                        "raw": "\"abrupt completion from Number: +0\""
+                        "raw": "\"abrupt completion from Number: +0\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -441,7 +455,9 @@
                                           "start": 2537,
                                           "end": 2538,
                                           "value": 0,
-                                          "raw": "0"
+                                          "raw": "0",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -457,7 +473,9 @@
                         "start": 2547,
                         "end": 2582,
                         "value": "abrupt completion from Number: -0",
-                        "raw": "\"abrupt completion from Number: -0\""
+                        "raw": "\"abrupt completion from Number: -0\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -550,7 +568,9 @@
                         "start": 2655,
                         "end": 2696,
                         "value": "abrupt completion from Number: Infinity",
-                        "raw": "\"abrupt completion from Number: Infinity\""
+                        "raw": "\"abrupt completion from Number: Infinity\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -650,7 +670,9 @@
                         "start": 2770,
                         "end": 2812,
                         "value": "abrupt completion from Number: -Infinity",
-                        "raw": "\"abrupt completion from Number: -Infinity\""
+                        "raw": "\"abrupt completion from Number: -Infinity\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -743,7 +765,9 @@
                         "start": 2880,
                         "end": 2916,
                         "value": "abrupt completion from Number: NaN",
-                        "raw": "\"abrupt completion from Number: NaN\""
+                        "raw": "\"abrupt completion from Number: NaN\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

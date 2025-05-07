@@ -34,7 +34,9 @@
                 "start": 371,
                 "end": 376,
                 "value": "ABC",
-                "raw": "\"ABC\""
+                "raw": "\"ABC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
               "start": 491,
               "end": 492,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -90,7 +94,9 @@
           "start": 498,
           "end": 500,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -122,7 +128,9 @@
                     "start": 529,
                     "end": 628,
                     "value": "#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ===",
-                    "raw": "'#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ==='"
+                    "raw": "'#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -154,7 +162,9 @@
                         "start": 649,
                         "end": 650,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

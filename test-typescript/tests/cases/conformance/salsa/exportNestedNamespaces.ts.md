@@ -145,7 +145,9 @@ __ESTREE_TEST__:PASS:
                     "start": 57,
                     "end": 59,
                     "raw": "10",
-                    "value": 10
+                    "value": 10,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -272,7 +274,9 @@ __ESTREE_TEST__:PASS:
                             "start": 126,
                             "end": 127,
                             "raw": "1",
-                            "value": 1
+                            "value": 1,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -322,7 +326,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 26,
         "raw": "'./mod'",
-        "value": "./mod"
+        "value": "./mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

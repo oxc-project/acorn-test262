@@ -82,14 +82,18 @@
             "start": 1933,
             "end": 1935,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1937,
             "end": 1974,
             "value": "generator function value is hoisted",
-            "raw": "'generator function value is hoisted'"
+            "raw": "'generator function value is hoisted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -147,14 +151,18 @@
             "start": 2002,
             "end": 2011,
             "value": "default",
-            "raw": "'default'"
+            "raw": "'default'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2013,
             "end": 2039,
             "value": "correct name is assigned",
-            "raw": "'correct name is assigned'"
+            "raw": "'correct name is assigned'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -182,7 +190,9 @@
         "start": 2057,
         "end": 2095,
         "value": "./instn-named-bndng-dflt-gen-anon.js",
-        "raw": "'./instn-named-bndng-dflt-gen-anon.js'"
+        "raw": "'./instn-named-bndng-dflt-gen-anon.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -213,7 +223,9 @@
                 "start": 2134,
                 "end": 2136,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

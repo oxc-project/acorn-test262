@@ -53,7 +53,9 @@
                 "start": 630,
                 "end": 641,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -78,7 +80,9 @@
                       "start": 652,
                       "end": 655,
                       "value": 123,
-                      "raw": "123"
+                      "raw": "123",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -296,14 +300,18 @@
             "start": 782,
             "end": 785,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 813,
             "value": "first AssignmentProperty",
-            "raw": "'first AssignmentProperty'"
+            "raw": "'first AssignmentProperty'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,14 +356,18 @@
             "start": 836,
             "end": 839,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 868,
             "value": "second AssignmentProperty",
-            "raw": "'second AssignmentProperty'"
+            "raw": "'second AssignmentProperty'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -403,7 +415,9 @@
               "start": 889,
               "end": 893,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -575,14 +589,18 @@
             "start": 1054,
             "end": 1057,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1059,
             "end": 1095,
             "value": "first AssignmentProperty (CPEAAPL)",
-            "raw": "'first AssignmentProperty (CPEAAPL)'"
+            "raw": "'first AssignmentProperty (CPEAAPL)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -627,14 +645,18 @@
             "start": 1118,
             "end": 1121,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1160,
             "value": "second AssignmentProperty (CPEAAPL)",
-            "raw": "'second AssignmentProperty (CPEAAPL)'"
+            "raw": "'second AssignmentProperty (CPEAAPL)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

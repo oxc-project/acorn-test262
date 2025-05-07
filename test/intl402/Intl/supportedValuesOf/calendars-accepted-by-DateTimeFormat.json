@@ -47,7 +47,9 @@
                 "start": 994,
                 "end": 1004,
                 "value": "calendar",
-                "raw": "\"calendar\""
+                "raw": "\"calendar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -136,7 +138,9 @@
                       "start": 1078,
                       "end": 1082,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -374,7 +378,9 @@
                       "start": 1302,
                       "end": 1306,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",

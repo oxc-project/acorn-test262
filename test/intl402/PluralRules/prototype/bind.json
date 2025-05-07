@@ -180,28 +180,36 @@
                 "start": 572,
                 "end": 576,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 578,
                 "end": 582,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 587,
                 "end": 600,
                 "value": "PluralRules",
-                "raw": "\"PluralRules\""
+                "raw": "\"PluralRules\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -494,7 +502,9 @@
                                             "start": 854,
                                             "end": 864,
                                             "value": "Calling ",
-                                            "raw": "\"Calling \""
+                                            "raw": "\"Calling \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -510,7 +520,9 @@
                                           "start": 882,
                                           "end": 888,
                                           "value": " on ",
-                                          "raw": "\" on \""
+                                          "raw": "\" on \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -527,7 +539,9 @@
                                       "start": 900,
                                       "end": 920,
                                       "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "raw": "\" was not rejected.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

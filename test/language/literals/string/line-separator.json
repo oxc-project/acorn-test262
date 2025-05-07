@@ -36,14 +36,18 @@
             "start": 559,
             "end": 562,
             "value": " ",
-            "raw": "\" \""
+            "raw": "\" \"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 564,
             "end": 572,
             "value": " ",
-            "raw": "\"\\u2028\""
+            "raw": "\"\\u2028\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 15,
                   "end": 19,
                   "raw": "\"hi\"",
-                  "value": "hi"
+                  "value": "hi",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "ObjectExpression",
@@ -69,7 +71,9 @@ __ESTREE_TEST__:PASS:
                         "start": 29,
                         "end": 31,
                         "raw": "10",
-                        "value": 10
+                        "value": 10,
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -95,7 +99,9 @@ __ESTREE_TEST__:PASS:
                         "start": 40,
                         "end": 42,
                         "raw": "20",
-                        "value": 20
+                        "value": 20,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

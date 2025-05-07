@@ -23,7 +23,9 @@
             "start": 325,
             "end": 339,
             "value": 1735213600321,
-            "raw": "1735213600_321"
+            "raw": "1735213600_321",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -111,14 +113,18 @@
                 "start": 457,
                 "end": 459,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 461,
                 "end": 463,
                 "value": 26,
-                "raw": "26"
+                "raw": "26",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -173,14 +179,18 @@
                   "start": 495,
                   "end": 502,
                   "value": "month",
-                  "raw": "\"month\""
+                  "raw": "\"month\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 504,
                   "end": 510,
                   "value": "long",
-                  "raw": "\"long\""
+                  "raw": "\"long\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -203,14 +213,18 @@
                   "start": 518,
                   "end": 523,
                   "value": "day",
-                  "raw": "\"day\""
+                  "raw": "\"day\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 525,
                   "end": 534,
                   "value": "numeric",
-                  "raw": "\"numeric\""
+                  "raw": "\"numeric\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -267,7 +281,9 @@
                       "start": 602,
                       "end": 619,
                       "value": "en-u-ca-iso8601",
-                      "raw": "\"en-u-ca-iso8601\""
+                      "raw": "\"en-u-ca-iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -326,7 +342,9 @@
                       "start": 684,
                       "end": 701,
                       "value": "en-u-ca-iso8601",
-                      "raw": "\"en-u-ca-iso8601\""
+                      "raw": "\"en-u-ca-iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",

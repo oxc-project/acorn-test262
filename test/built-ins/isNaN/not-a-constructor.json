@@ -56,14 +56,18 @@
             "start": 716,
             "end": 721,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 763,
             "value": "isConstructor(isNaN) must return false",
-            "raw": "'isConstructor(isNaN) must return false'"
+            "raw": "'isConstructor(isNaN) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +141,9 @@
                         "start": 812,
                         "end": 813,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -67,7 +67,9 @@
             "start": 643,
             "end": 646,
             "value": "p",
-            "raw": "'p'"
+            "raw": "'p'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 662,
                   "end": 667,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 678,
                   "end": 680,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -174,14 +180,18 @@
                 "start": 714,
                 "end": 717,
                 "value": "p",
-                "raw": "'p'"
+                "raw": "'p'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 719,
                 "end": 721,
                 "value": 43,
-                "raw": "43"
+                "raw": "43",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -229,14 +239,18 @@
             "start": 749,
             "end": 754,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 771,
             "value": "returns false",
-            "raw": "'returns false'"
+            "raw": "'returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,14 +308,18 @@
             "start": 797,
             "end": 799,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 801,
             "end": 827,
             "value": "does not set a new value",
-            "raw": "'does not set a new value'"
+            "raw": "'does not set a new value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

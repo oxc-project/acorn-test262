@@ -34,14 +34,18 @@
                 "start": 352,
                 "end": 356,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 364,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -61,7 +65,9 @@
                 "start": 380,
                 "end": 381,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -69,6 +75,7 @@
                 "end": 387,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             ]
@@ -122,6 +129,7 @@
                 "end": 439,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -129,7 +137,9 @@
                 "start": 441,
                 "end": 446,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -212,7 +222,9 @@
             "start": 498,
             "end": 537,
             "value": "TypeError on missing options argument",
-            "raw": "\"TypeError on missing options argument\""
+            "raw": "\"TypeError on missing options argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -96,7 +96,9 @@
                         "start": 736,
                         "end": 763,
                         "value": "0, class extends Object {",
-                        "raw": "'0, class extends Object {'"
+                        "raw": "'0, class extends Object {'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -104,7 +106,9 @@
                         "start": 768,
                         "end": 787,
                         "value": "  constructor() {",
-                        "raw": "'  constructor() {'"
+                        "raw": "'  constructor() {'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -113,7 +117,9 @@
                       "start": 792,
                       "end": 810,
                       "value": "    return null;",
-                      "raw": "'    return null;'"
+                      "raw": "'    return null;'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -122,7 +128,9 @@
                     "start": 815,
                     "end": 820,
                     "value": "  }",
-                    "raw": "'  }'"
+                    "raw": "'  }'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -131,7 +139,9 @@
                   "start": 825,
                   "end": 828,
                   "value": "}",
-                  "raw": "'}'"
+                  "raw": "'}'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

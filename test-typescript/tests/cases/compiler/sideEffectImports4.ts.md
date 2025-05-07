@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 20,
         "raw": "\"server-only\"",
-        "value": "server-only"
+        "value": "server-only",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

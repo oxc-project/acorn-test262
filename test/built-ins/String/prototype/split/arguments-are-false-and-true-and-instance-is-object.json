@@ -34,7 +34,9 @@
                 "start": 551,
                 "end": 555,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -148,14 +150,18 @@
                 "start": 634,
                 "end": 638,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 640,
                 "end": 645,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -210,14 +216,18 @@
             "start": 682,
             "end": 690,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 735,
             "value": "The value of `typeof __split` is \"object\"",
-            "raw": "'The value of `typeof __split` is \"object\"'"
+            "raw": "'The value of `typeof __split` is \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +291,9 @@
             "start": 791,
             "end": 865,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -339,14 +351,18 @@
             "start": 903,
             "end": 904,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 906,
             "end": 940,
             "value": "The value of __split.length is 0",
-            "raw": "'The value of __split.length is 0'"
+            "raw": "'The value of __split.length is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

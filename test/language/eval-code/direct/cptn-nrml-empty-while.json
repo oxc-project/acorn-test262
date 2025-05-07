@@ -27,7 +27,9 @@
               "start": 332,
               "end": 347,
               "value": "while(false);",
-              "raw": "\"while(false);\""
+              "raw": "\"while(false);\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -69,7 +71,9 @@
                     "start": 391,
                     "end": 442,
                     "value": "#1: eval(\"while(false);\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"while(false);\") === undefined. Actual: '"
+                    "raw": "'#1: eval(\"while(false);\") === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -92,7 +96,9 @@
                           "start": 451,
                           "end": 466,
                           "value": "while(false);",
-                          "raw": "\"while(false);\""
+                          "raw": "\"while(false);\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

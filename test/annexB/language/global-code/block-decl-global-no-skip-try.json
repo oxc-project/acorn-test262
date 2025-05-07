@@ -48,7 +48,9 @@
             "start": 1133,
             "end": 1182,
             "value": "Initialized binding created prior to evaluation",
-            "raw": "'Initialized binding created prior to evaluation'"
+            "raw": "'Initialized binding created prior to evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -72,7 +74,9 @@
               "start": 1201,
               "end": 1205,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -125,7 +129,9 @@
                           "start": 1248,
                           "end": 1251,
                           "value": 123,
-                          "raw": "123"
+                          "raw": "123",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -184,14 +190,18 @@
             "start": 1293,
             "end": 1303,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1307,
             "end": 1354,
             "value": "binding value is updated following evaluation",
-            "raw": "'binding value is updated following evaluation'"
+            "raw": "'binding value is updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +253,9 @@
             "start": 1380,
             "end": 1383,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

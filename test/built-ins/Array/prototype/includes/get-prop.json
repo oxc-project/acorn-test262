@@ -183,7 +183,9 @@
                                 "start": 603,
                                 "end": 611,
                                 "value": "length",
-                                "raw": "\"length\""
+                                "raw": "\"length\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -200,7 +202,9 @@
                                     "start": 628,
                                     "end": 629,
                                     "value": 4,
-                                    "raw": "4"
+                                    "raw": "4",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -227,7 +231,9 @@
                                 "start": 655,
                                 "end": 657,
                                 "value": 10,
-                                "raw": "10"
+                                "raw": "10",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -343,7 +349,9 @@
                 "start": 720,
                 "end": 722,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -353,14 +361,18 @@
             "start": 727,
             "end": 732,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 736,
             "end": 889,
             "value": "[].includes.call(\"new Proxy(obj, {get: function(_, key) {calls.push(key); if (key === \"length\") {return 4;} return key * 10;}})\", 42) must return false",
-            "raw": "'[].includes.call(\"new Proxy(obj, {get: function(_, key) {calls.push(key); if (key === \"length\") {return 4;} return key * 10;}})\", 42) must return false'"
+            "raw": "'[].includes.call(\"new Proxy(obj, {get: function(_, key) {calls.push(key); if (key === \"length\") {return 4;} return key * 10;}})\", 42) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -410,35 +422,45 @@
                 "start": 921,
                 "end": 929,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 931,
                 "end": 934,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 936,
                 "end": 939,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 941,
                 "end": 944,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 946,
                 "end": 949,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -447,7 +469,9 @@
             "start": 954,
             "end": 1023,
             "value": "The value of calls is expected to be [\"length\", \"0\", \"1\", \"2\", \"3\"]",
-            "raw": "'The value of calls is expected to be [\"length\", \"0\", \"1\", \"2\", \"3\"]'"
+            "raw": "'The value of calls is expected to be [\"length\", \"0\", \"1\", \"2\", \"3\"]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -552,7 +576,9 @@
                 "start": 1077,
                 "end": 1079,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -562,14 +588,18 @@
             "start": 1082,
             "end": 1086,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1088,
             "end": 1240,
             "value": "[].includes.call(\"new Proxy(obj, {get: function(_, key) {calls.push(key); if (key === \"length\") {return 4;} return key * 10;}})\", 10) must return true",
-            "raw": "'[].includes.call(\"new Proxy(obj, {get: function(_, key) {calls.push(key); if (key === \"length\") {return 4;} return key * 10;}})\", 10) must return true'"
+            "raw": "'[].includes.call(\"new Proxy(obj, {get: function(_, key) {calls.push(key); if (key === \"length\") {return 4;} return key * 10;}})\", 10) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -619,21 +649,27 @@
                 "start": 1271,
                 "end": 1279,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1281,
                 "end": 1284,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1286,
                 "end": 1289,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -642,7 +678,9 @@
             "start": 1292,
             "end": 1351,
             "value": "The value of calls is expected to be [\"length\", \"0\", \"1\"]",
-            "raw": "'The value of calls is expected to be [\"length\", \"0\", \"1\"]'"
+            "raw": "'The value of calls is expected to be [\"length\", \"0\", \"1\"]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

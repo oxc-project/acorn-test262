@@ -1854,7 +1854,9 @@ __ESTREE_TEST__:PASS:
             "start": 2040,
             "end": 2047,
             "raw": "\"hello\"",
-            "value": "hello"
+            "value": "hello",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1901,7 +1903,9 @@ __ESTREE_TEST__:PASS:
             "start": 2076,
             "end": 2078,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

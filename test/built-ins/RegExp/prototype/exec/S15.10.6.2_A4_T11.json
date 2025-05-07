@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:ab|cd)\\d?",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 499,
                 "end": 522,
                 "value": "aacd2233ab12nm444ab42",
-                "raw": "\"aacd2233ab12nm444ab42\""
+                "raw": "\"aacd2233ab12nm444ab42\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -111,7 +114,9 @@
                 "start": 544,
                 "end": 549,
                 "value": "cd2",
-                "raw": "\"cd2\""
+                "raw": "\"cd2\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -152,7 +157,9 @@
           "start": 571,
           "end": 572,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -189,7 +196,9 @@
           "start": 593,
           "end": 616,
           "value": "aacd2233ab12nm444ab42",
-          "raw": "\"aacd2233ab12nm444ab42\""
+          "raw": "\"aacd2233ab12nm444ab42\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -264,7 +273,9 @@
             "start": 681,
             "end": 765,
             "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -341,7 +352,9 @@
             "start": 830,
             "end": 912,
             "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -418,7 +431,9 @@
             "start": 977,
             "end": 1059,
             "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -448,7 +463,9 @@
               "start": 1078,
               "end": 1079,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -574,7 +591,9 @@
                   "start": 1187,
                   "end": 1271,
                   "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -639,7 +658,9 @@
                           "start": 1318,
                           "end": 1327,
                           "value": "intoint",
-                          "raw": "\"intoint\""
+                          "raw": "\"intoint\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -722,7 +743,9 @@
                     "start": 1389,
                     "end": 1542,
                     "value": "#5.1: __obj = {valueOf:function(){throw \"intoint\";}}; __re.lastIndex = __obj; __executed = __re.exec(\"aacd2233ab12nm444ab42\") throw \"intoint\". Actual: ",
-                    "raw": "'#5.1: __obj = {valueOf:function(){throw \"intoint\";}}; __re.lastIndex = __obj; __executed = __re.exec(\"aacd2233ab12nm444ab42\") throw \"intoint\". Actual: '"
+                    "raw": "'#5.1: __obj = {valueOf:function(){throw \"intoint\";}}; __re.lastIndex = __obj; __executed = __re.exec(\"aacd2233ab12nm444ab42\") throw \"intoint\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -758,7 +781,9 @@
                           "start": 1556,
                           "end": 1579,
                           "value": "aacd2233ab12nm444ab42",
-                          "raw": "\"aacd2233ab12nm444ab42\""
+                          "raw": "\"aacd2233ab12nm444ab42\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -824,14 +849,18 @@
                     "start": 1620,
                     "end": 1629,
                     "value": "intoint",
-                    "raw": "\"intoint\""
+                    "raw": "\"intoint\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1631,
                     "end": 1675,
                     "value": "The value of e is expected to be \"intoint\"",
-                    "raw": "'The value of e is expected to be \"intoint\"'"
+                    "raw": "'The value of e is expected to be \"intoint\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

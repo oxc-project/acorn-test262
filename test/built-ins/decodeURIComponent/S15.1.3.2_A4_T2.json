@@ -27,7 +27,9 @@
               "start": 283,
               "end": 350,
               "value": "http://ru.wikipedia.org/wiki/%d0%ae%D0%bd%D0%B8%D0%BA%D0%BE%D0%B4",
-              "raw": "\"http://ru.wikipedia.org/wiki/%d0%ae%D0%bd%D0%B8%D0%BA%D0%BE%D0%B4\""
+              "raw": "\"http://ru.wikipedia.org/wiki/%d0%ae%D0%bd%D0%B8%D0%BA%D0%BE%D0%B4\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 356,
           "end": 393,
           "value": "http://ru.wikipedia.org/wiki/Юникод",
-          "raw": "\"http://ru.wikipedia.org/wiki/Юникод\""
+          "raw": "\"http://ru.wikipedia.org/wiki/Юникод\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 422,
                   "end": 463,
                   "value": "#1: http://ru.wikipedia.org/wiki/Юникод",
-                  "raw": "'#1: http://ru.wikipedia.org/wiki/Юникод'"
+                  "raw": "'#1: http://ru.wikipedia.org/wiki/Юникод'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 502,
               "end": 606,
               "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8",
-              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8\""
+              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 612,
           "end": 656,
           "value": "http://ru.wikipedia.org/wiki/Юникод#Ссылки",
-          "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Ссылки\""
+          "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Ссылки\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 685,
                   "end": 733,
                   "value": "#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки",
-                  "raw": "'#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки'"
+                  "raw": "'#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -171,7 +183,9 @@
               "start": 772,
               "end": 923,
               "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%23%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0",
-              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%23%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0\""
+              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%23%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -182,7 +196,9 @@
           "start": 929,
           "end": 981,
           "value": "http://ru.wikipedia.org/wiki/Юникод#Версии Юникода",
-          "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Версии Юникода\""
+          "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Версии Юникода\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +226,9 @@
                   "start": 1010,
                   "end": 1068,
                   "value": "#3: http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода",
-                  "raw": "'#3: http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода'"
+                  "raw": "'#3: http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

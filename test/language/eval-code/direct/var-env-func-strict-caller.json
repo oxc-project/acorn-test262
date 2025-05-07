@@ -42,7 +42,9 @@
                   "start": 360,
                   "end": 389,
                   "value": "function fun(x){ return x }",
-                  "raw": "\"function fun(x){ return x }\""
+                  "raw": "\"function fun(x){ return x }\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -99,7 +101,9 @@
                   "start": 431,
                   "end": 442,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

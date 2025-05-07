@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
               "start": 34,
               "end": 36,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSNumberKeyword",
@@ -87,7 +91,9 @@ __ESTREE_TEST__:PASS:
               "start": 77,
               "end": 79,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSNumberKeyword",

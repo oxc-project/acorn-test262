@@ -70,7 +70,9 @@
                               "start": 358,
                               "end": 359,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -86,7 +88,9 @@
                               "start": 369,
                               "end": 370,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "FunctionExpression",

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\1(A)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 316,
                 "end": 320,
                 "value": "AA",
-                "raw": "\"AA\""
+                "raw": "\"AA\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +92,9 @@
               "start": 337,
               "end": 341,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -117,7 +122,9 @@
                 "start": 351,
                 "end": 352,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -128,7 +135,9 @@
               "start": 358,
               "end": 361,
               "value": "A",
-              "raw": "\"A\""
+              "raw": "\"A\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -162,7 +171,9 @@
                     "start": 391,
                     "end": 454,
                     "value": "#1: var arr = (/\\1(A)/.exec(\"AA\")); arr[0] === \"A\". Actual. ",
-                    "raw": "'#1: var arr = (/\\\\1(A)/.exec(\"AA\")); arr[0] === \"A\". Actual. '"
+                    "raw": "'#1: var arr = (/\\\\1(A)/.exec(\"AA\")); arr[0] === \"A\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +206,9 @@
                           "start": 469,
                           "end": 470,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -238,7 +251,9 @@
               "start": 491,
               "end": 495,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -266,7 +281,9 @@
                 "start": 505,
                 "end": 506,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -277,7 +294,9 @@
               "start": 512,
               "end": 515,
               "value": "A",
-              "raw": "\"A\""
+              "raw": "\"A\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -311,7 +330,9 @@
                     "start": 545,
                     "end": 608,
                     "value": "#2: var arr = (/\\1(A)/.exec(\"AA\")); arr[1] === \"A\". Actual. ",
-                    "raw": "'#2: var arr = (/\\\\1(A)/.exec(\"AA\")); arr[1] === \"A\". Actual. '"
+                    "raw": "'#2: var arr = (/\\\\1(A)/.exec(\"AA\")); arr[1] === \"A\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -344,7 +365,9 @@
                           "start": 623,
                           "end": 624,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

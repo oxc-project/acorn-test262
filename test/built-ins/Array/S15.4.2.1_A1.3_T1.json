@@ -34,7 +34,9 @@
                 "start": 407,
                 "end": 408,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -94,14 +96,18 @@
             "start": 442,
             "end": 443,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 477,
             "value": "The value of x.length is not 1",
-            "raw": "'The value of x.length is not 1'"
+            "raw": "'The value of x.length is not 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +156,9 @@
               "start": 502,
               "end": 503,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -160,14 +168,18 @@
             "start": 506,
             "end": 507,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 537,
             "value": "The value of x[0] is not 2",
-            "raw": "'The value of x[0] is not 2'"
+            "raw": "'The value of x[0] is not 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

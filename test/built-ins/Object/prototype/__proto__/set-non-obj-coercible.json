@@ -70,7 +70,9 @@
                   "start": 407,
                   "end": 418,
                   "value": "__proto__",
-                  "raw": "'__proto__'"
+                  "raw": "'__proto__'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -134,7 +136,9 @@
             "start": 455,
             "end": 465,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +318,9 @@
                         "start": 584,
                         "end": 588,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

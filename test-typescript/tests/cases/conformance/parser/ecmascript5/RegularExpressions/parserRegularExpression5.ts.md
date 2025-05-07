@@ -60,7 +60,8 @@ __ESTREE_TEST__:PASS:
                 "flags": "",
                 "pattern": " (\\\\ ? | & ) rct = j "
               },
-              "value": null
+              "value": null,
+              "bigint": null
             },
             "optional": false,
             "property": {

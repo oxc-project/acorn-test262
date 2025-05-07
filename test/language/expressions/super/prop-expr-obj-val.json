@@ -73,7 +73,9 @@
                   "start": 1070,
                   "end": 1073,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -95,7 +97,9 @@
                   "start": 1082,
                   "end": 1085,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -143,7 +147,9 @@
                   "start": 1106,
                   "end": 1109,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -235,7 +241,9 @@
                   "start": 1164,
                   "end": 1167,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -257,7 +265,9 @@
                   "start": 1178,
                   "end": 1181,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -317,7 +327,9 @@
                               "start": 1214,
                               "end": 1221,
                               "value": "fromA",
-                              "raw": "'fromA'"
+                              "raw": "'fromA'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -353,7 +365,9 @@
                               "start": 1242,
                               "end": 1249,
                               "value": "fromB",
-                              "raw": "'fromB'"
+                              "raw": "'fromB'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -485,7 +499,9 @@
             "start": 1331,
             "end": 1334,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +546,9 @@
             "start": 1361,
             "end": 1364,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -302,7 +302,9 @@
                               "start": 1172,
                               "end": 1176,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -394,7 +396,9 @@
                 "start": 1250,
                 "end": 1251,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -470,7 +474,9 @@
             "start": 1298,
             "end": 1299,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -480,7 +486,9 @@
           "start": 1303,
           "end": 1304,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -529,7 +537,9 @@
             "start": 1343,
             "end": 1379,
             "value": "handler object is the trap context",
-            "raw": "'handler object is the trap context'"
+            "raw": "'handler object is the trap context'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -580,7 +590,9 @@
             "start": 1416,
             "end": 1453,
             "value": "first argument is the target object",
-            "raw": "'first argument is the target object'"
+            "raw": "'first argument is the target object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -625,14 +637,18 @@
             "start": 1480,
             "end": 1483,
             "value": "0",
-            "raw": "'0'"
+            "raw": "'0'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1485,
             "end": 1523,
             "value": "second argument is the property name",
-            "raw": "'second argument is the property name'"
+            "raw": "'second argument is the property name'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -677,14 +693,18 @@
             "start": 1551,
             "end": 1552,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1554,
             "end": 1587,
             "value": "third argument is the new value",
-            "raw": "'third argument is the new value'"
+            "raw": "'third argument is the new value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -735,7 +755,9 @@
             "start": 1625,
             "end": 1665,
             "value": "fourth argument is the receiver object",
-            "raw": "'fourth argument is the receiver object'"
+            "raw": "'fourth argument is the receiver object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

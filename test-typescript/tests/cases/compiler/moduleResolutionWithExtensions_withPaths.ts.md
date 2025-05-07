@@ -35,7 +35,9 @@ __ESTREE_TEST__:PASS:
                     "start": 38,
                     "end": 44,
                     "raw": "\"test\"",
-                    "value": "test"
+                    "value": "test",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -183,7 +185,9 @@ __ESTREE_TEST__:PASS:
                     "start": 42,
                     "end": 48,
                     "raw": "\"test\"",
-                    "value": "test"
+                    "value": "test",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -312,7 +316,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 34,
         "raw": "\"foo/test.js\"",
-        "value": "foo/test.js"
+        "value": "foo/test.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -352,7 +358,9 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 76,
         "raw": "\"foo/test\"",
-        "value": "foo/test"
+        "value": "foo/test",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -392,7 +400,9 @@ __ESTREE_TEST__:PASS:
         "start": 103,
         "end": 118,
         "raw": "\"./relative.js\"",
-        "value": "./relative.js"
+        "value": "./relative.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -432,7 +442,9 @@ __ESTREE_TEST__:PASS:
         "start": 158,
         "end": 170,
         "raw": "\"./relative\"",
-        "value": "./relative"
+        "value": "./relative",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

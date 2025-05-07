@@ -119,7 +119,9 @@
             "start": 387,
             "end": 487,
             "value": "The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true",
-            "raw": "'The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+            "raw": "'The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +236,9 @@
             "start": 610,
             "end": 710,
             "value": "The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true",
-            "raw": "'The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+            "raw": "'The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

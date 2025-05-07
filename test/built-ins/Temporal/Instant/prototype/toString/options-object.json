@@ -48,6 +48,7 @@
                 "end": 311,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -147,14 +148,18 @@
             "start": 383,
             "end": 405,
             "value": "1970-01-01T00:00:00Z",
-            "raw": "\"1970-01-01T00:00:00Z\""
+            "raw": "\"1970-01-01T00:00:00Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 447,
             "value": "options may be an empty plain object",
-            "raw": "\"options may be an empty plain object\""
+            "raw": "\"options may be an empty plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -261,14 +266,18 @@
             "start": 526,
             "end": 548,
             "value": "1970-01-01T00:00:00Z",
-            "raw": "\"1970-01-01T00:00:00Z\""
+            "raw": "\"1970-01-01T00:00:00Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 586,
             "value": "options may be a function object",
-            "raw": "\"options may be a function object\""
+            "raw": "\"options may be a function object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

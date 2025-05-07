@@ -67,7 +67,9 @@
             "start": 1387,
             "end": 1394,
             "value": "style",
-            "raw": "'style'"
+            "raw": "'style'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -210,7 +212,9 @@
                         "start": 1502,
                         "end": 1506,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

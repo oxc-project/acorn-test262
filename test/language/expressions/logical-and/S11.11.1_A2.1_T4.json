@@ -24,7 +24,9 @@
               "start": 295,
               "end": 300,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "operator": "&&",
             "right": {
@@ -41,7 +43,9 @@
           "start": 311,
           "end": 316,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -69,7 +73,9 @@
                   "start": 345,
                   "end": 373,
                   "value": "#1: (false && x) === false",
-                  "raw": "'#1: (false && x) === false'"
+                  "raw": "'#1: (false && x) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

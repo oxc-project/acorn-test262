@@ -47,7 +47,9 @@
                     "start": 316,
                     "end": 317,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -77,7 +79,9 @@
                     "start": 345,
                     "end": 396,
                     "value": "#1.1: x << (x = 1) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x << (x = 1) throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: x << (x = 1) throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -115,7 +119,9 @@
                             "start": 410,
                             "end": 411,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -179,7 +185,9 @@
                   "start": 472,
                   "end": 476,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -211,7 +219,9 @@
                             "start": 507,
                             "end": 558,
                             "value": "#1.2: x << (x = 1) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x << (x = 1) throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: x << (x = 1) throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

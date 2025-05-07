@@ -39,14 +39,18 @@
                     "start": 494,
                     "end": 495,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 497,
                     "end": 498,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -94,7 +98,9 @@
                   "start": 523,
                   "end": 524,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -152,7 +158,9 @@
                             "start": 556,
                             "end": 557,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -164,7 +172,9 @@
                             "start": 566,
                             "end": 571,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "alternate": null
@@ -189,7 +199,9 @@
                             "start": 587,
                             "end": 588,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -201,7 +213,9 @@
                             "start": 597,
                             "end": 601,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "alternate": null
@@ -226,7 +240,9 @@
                               "start": 630,
                               "end": 721,
                               "value": "Set.prototype.isSubsetOf should only call its argument's has method with contents of this",
-                              "raw": "\"Set.prototype.isSubsetOf should only call its argument's has method with contents of this\""
+                              "raw": "\"Set.prototype.isSubsetOf should only call its argument's has method with contents of this\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -288,7 +304,9 @@
                               "start": 783,
                               "end": 854,
                               "value": "Set.prototype.isSubsetOf should not call its argument's keys iterator",
-                              "raw": "\"Set.prototype.isSubsetOf should not call its argument's keys iterator\""
+                              "raw": "\"Set.prototype.isSubsetOf should not call its argument's keys iterator\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -370,7 +388,9 @@
             "start": 902,
             "end": 907,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

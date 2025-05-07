@@ -96,7 +96,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "\"./color\"",
-        "value": "./color"
+        "value": "./color",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -188,7 +190,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 33,
         "raw": "\"./file1\"",
-        "value": "./file1"
+        "value": "./file1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

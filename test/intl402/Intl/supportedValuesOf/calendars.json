@@ -47,7 +47,9 @@
                 "start": 1016,
                 "end": 1026,
                 "value": "calendar",
-                "raw": "\"calendar\""
+                "raw": "\"calendar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -109,7 +111,9 @@
             "start": 1063,
             "end": 1089,
             "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "raw": "\"Returns an Array object.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +204,9 @@
             "start": 1177,
             "end": 1217,
             "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "raw": "\"The array prototype is Array.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +256,9 @@
                 "start": 1267,
                 "end": 1277,
                 "value": "calendar",
-                "raw": "\"calendar\""
+                "raw": "\"calendar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -304,7 +312,9 @@
             "start": 1347,
             "end": 1390,
             "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "raw": "\"Returns a new array object for each call.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +385,9 @@
             "start": 1468,
             "end": 1490,
             "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "raw": "\"The array is sorted.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +477,9 @@
             "start": 1571,
             "end": 1610,
             "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "raw": "\"The array doesn't contain duplicates.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,7 +509,8 @@
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -724,7 +739,9 @@
                         "start": 1921,
                         "end": 1926,
                         "value": "und",
-                        "raw": "\"und\""
+                        "raw": "\"und\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -857,7 +874,9 @@
                 "start": 2041,
                 "end": 2050,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -867,7 +886,9 @@
             "start": 2053,
             "end": 2087,
             "value": "Includes the Gregorian calendar.",
-            "raw": "\"Includes the Gregorian calendar.\""
+            "raw": "\"Includes the Gregorian calendar.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

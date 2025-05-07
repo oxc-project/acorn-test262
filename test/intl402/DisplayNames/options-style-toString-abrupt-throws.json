@@ -181,7 +181,9 @@
                         "start": 1211,
                         "end": 1215,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -200,7 +202,9 @@
             "start": 1230,
             "end": 1245,
             "value": "from toString",
-            "raw": "'from toString'"
+            "raw": "'from toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -394,7 +398,9 @@
                         "start": 1402,
                         "end": 1406,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -413,7 +419,9 @@
             "start": 1421,
             "end": 1435,
             "value": "from valueOf",
-            "raw": "'from valueOf'"
+            "raw": "'from valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +607,9 @@
                         "start": 1582,
                         "end": 1586,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -618,7 +628,9 @@
             "start": 1601,
             "end": 1619,
             "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "raw": "'from ToPrimitive'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -748,7 +760,9 @@
                         "start": 1707,
                         "end": 1711,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -767,7 +781,9 @@
             "start": 1726,
             "end": 1740,
             "value": "symbol value",
-            "raw": "'symbol value'"
+            "raw": "'symbol value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

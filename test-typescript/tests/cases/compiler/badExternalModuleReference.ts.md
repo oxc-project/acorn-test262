@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 29,
           "raw": "\"garbage\"",
-          "value": "garbage"
+          "value": "garbage",
+          "regex": null,
+          "bigint": null
         }
       }
     },

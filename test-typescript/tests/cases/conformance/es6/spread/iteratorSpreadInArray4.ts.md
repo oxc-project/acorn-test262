@@ -113,7 +113,9 @@ __ESTREE_TEST__:PASS:
                             "start": 100,
                             "end": 105,
                             "raw": "false",
-                            "value": false
+                            "value": false,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -244,14 +246,18 @@ __ESTREE_TEST__:PASS:
                 "start": 193,
                 "end": 194,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 196,
                 "end": 197,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "SpreadElement",

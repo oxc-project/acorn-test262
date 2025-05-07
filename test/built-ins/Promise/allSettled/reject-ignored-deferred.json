@@ -193,7 +193,9 @@
                                           "start": 740,
                                           "end": 742,
                                           "value": 42,
-                                          "raw": "42"
+                                          "raw": "42",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -578,7 +580,9 @@
                             "start": 1063,
                             "end": 1064,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -631,7 +635,9 @@
                                 "start": 1097,
                                 "end": 1098,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -650,7 +656,9 @@
                             "start": 1108,
                             "end": 1119,
                             "value": "fulfilled",
-                            "raw": "'fulfilled'"
+                            "raw": "'fulfilled'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -703,7 +711,9 @@
                                 "start": 1152,
                                 "end": 1153,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -722,7 +732,9 @@
                             "start": 1162,
                             "end": 1164,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -775,7 +787,9 @@
                                 "start": 1197,
                                 "end": 1198,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -794,7 +808,9 @@
                             "start": 1208,
                             "end": 1219,
                             "value": "fulfilled",
-                            "raw": "'fulfilled'"
+                            "raw": "'fulfilled'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -847,7 +863,9 @@
                                 "start": 1252,
                                 "end": 1253,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false

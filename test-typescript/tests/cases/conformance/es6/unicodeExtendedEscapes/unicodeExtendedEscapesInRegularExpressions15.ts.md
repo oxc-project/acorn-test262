@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
               "flags": "gu",
               "pattern": "\\u{abcd}\\u{ef12}\\u{3456}\\u{7890}"
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         }
       ],

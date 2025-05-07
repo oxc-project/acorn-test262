@@ -49,7 +49,9 @@
         "start": 1793,
         "end": 1833,
         "value": "./instn-named-err-ambiguous_FIXTURE.js",
-        "raw": "'./instn-named-err-ambiguous_FIXTURE.js'"
+        "raw": "'./instn-named-err-ambiguous_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

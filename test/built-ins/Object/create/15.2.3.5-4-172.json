@@ -67,7 +67,9 @@
           "start": 388,
           "end": 401,
           "value": "RegExpValue",
-          "raw": "\"RegExpValue\""
+          "raw": "\"RegExpValue\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -203,14 +205,18 @@
             "start": 487,
             "end": 500,
             "value": "RegExpValue",
-            "raw": "\"RegExpValue\""
+            "raw": "\"RegExpValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 515,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

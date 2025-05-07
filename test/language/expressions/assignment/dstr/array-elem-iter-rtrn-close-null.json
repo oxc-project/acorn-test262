@@ -23,7 +23,9 @@
             "start": 1304,
             "end": 1305,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1325,
             "end": 1326,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 1346,
             "end": 1347,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -148,7 +154,9 @@
                             "start": 1404,
                             "end": 1405,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -179,7 +187,9 @@
                                 "start": 1425,
                                 "end": 1430,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -259,7 +269,9 @@
                             "start": 1498,
                             "end": 1499,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -272,7 +284,9 @@
                           "start": 1512,
                           "end": 1516,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -520,7 +534,9 @@
                 "start": 1706,
                 "end": 1707,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -673,7 +689,9 @@
             "start": 1804,
             "end": 1805,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -718,7 +736,9 @@
             "start": 1838,
             "end": 1839,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -849,7 +869,9 @@
             "start": 1929,
             "end": 1930,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -894,7 +916,9 @@
             "start": 1963,
             "end": 1964,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -939,14 +963,18 @@
             "start": 1997,
             "end": 1998,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2000,
             "end": 2040,
             "value": "Unreachable statement was not executed",
-            "raw": "'Unreachable statement was not executed'"
+            "raw": "'Unreachable statement was not executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -41,7 +41,9 @@
                     "start": 348,
                     "end": 358,
                     "value": "__THIS__",
-                    "raw": "\"__THIS__\""
+                    "raw": "\"__THIS__\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -116,7 +118,9 @@
           "start": 501,
           "end": 509,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -148,7 +152,9 @@
                     "start": 538,
                     "end": 617,
                     "value": "#1: __str = String(this); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(this); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(this); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -192,7 +198,9 @@
           "start": 823,
           "end": 833,
           "value": "__THIS__",
-          "raw": "\"__THIS__\""
+          "raw": "\"__THIS__\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -224,7 +232,9 @@
                     "start": 862,
                     "end": 970,
                     "value": "#2: toString=function(){return \"__THIS__\";}; __str = String(this); __str === \"__THIS__\". Actual: __str ===",
-                    "raw": "'#2: toString=function(){return \"__THIS__\";}; __str = String(this); __str === \"__THIS__\". Actual: __str ==='"
+                    "raw": "'#2: toString=function(){return \"__THIS__\";}; __str = String(this); __str === \"__THIS__\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

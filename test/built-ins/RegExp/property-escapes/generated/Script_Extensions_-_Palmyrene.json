@@ -83,14 +83,18 @@
                               "start": 539,
                               "end": 547,
                               "value": 67680,
-                              "raw": "0x010860"
+                              "raw": "0x010860",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 549,
                               "end": 557,
                               "value": 67711,
-                              "raw": "0x01087F"
+                              "raw": "0x01087F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Palmyrene}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 647,
             "end": 681,
             "value": "\\p{Script_Extensions=Palmyrene}",
-            "raw": "\"\\\\p{Script_Extensions=Palmyrene}\""
+            "raw": "\"\\\\p{Script_Extensions=Palmyrene}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script_Extensions=Palm}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 760,
             "end": 789,
             "value": "\\p{Script_Extensions=Palm}",
-            "raw": "\"\\\\p{Script_Extensions=Palm}\""
+            "raw": "\"\\\\p{Script_Extensions=Palm}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{scx=Palmyrene}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 859,
             "end": 879,
             "value": "\\p{scx=Palmyrene}",
-            "raw": "\"\\\\p{scx=Palmyrene}\""
+            "raw": "\"\\\\p{scx=Palmyrene}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{scx=Palm}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 944,
             "end": 959,
             "value": "\\p{scx=Palm}",
-            "raw": "\"\\\\p{scx=Palm}\""
+            "raw": "\"\\\\p{scx=Palm}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 1041,
                               "end": 1049,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1051,
                               "end": 1059,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 1067,
                               "end": 1075,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1077,
                               "end": 1085,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1093,
                               "end": 1101,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1103,
                               "end": 1111,
                               "value": 67679,
-                              "raw": "0x01085F"
+                              "raw": "0x01085F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1119,
                               "end": 1127,
                               "value": 67712,
-                              "raw": "0x010880"
+                              "raw": "0x010880",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1129,
                               "end": 1137,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Palmyrene}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1230,
             "end": 1264,
             "value": "\\P{Script_Extensions=Palmyrene}",
-            "raw": "\"\\\\P{Script_Extensions=Palmyrene}\""
+            "raw": "\"\\\\P{Script_Extensions=Palmyrene}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script_Extensions=Palm}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1346,
             "end": 1375,
             "value": "\\P{Script_Extensions=Palm}",
-            "raw": "\"\\\\P{Script_Extensions=Palm}\""
+            "raw": "\"\\\\P{Script_Extensions=Palm}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{scx=Palmyrene}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1448,
             "end": 1468,
             "value": "\\P{scx=Palmyrene}",
-            "raw": "\"\\\\P{scx=Palmyrene}\""
+            "raw": "\"\\\\P{scx=Palmyrene}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{scx=Palm}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1536,
             "end": 1551,
             "value": "\\P{scx=Palm}",
-            "raw": "\"\\\\P{scx=Palm}\""
+            "raw": "\"\\\\P{scx=Palm}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

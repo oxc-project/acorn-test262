@@ -243,7 +243,9 @@
             "start": 656,
             "end": 707,
             "value": "Array.from(items) throws a Test262Error exception",
-            "raw": "'Array.from(items) throws a Test262Error exception'"
+            "raw": "'Array.from(items) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

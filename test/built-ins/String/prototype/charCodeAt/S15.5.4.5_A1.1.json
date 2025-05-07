@@ -72,7 +72,9 @@
                         "start": 330,
                         "end": 338,
                         "value": "wizard",
-                        "raw": "\"wizard\""
+                        "raw": "\"wizard\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -242,7 +244,9 @@
                   "start": 565,
                   "end": 568,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -252,14 +256,18 @@
               "start": 571,
               "end": 575,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 577,
               "end": 581,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "ObjectExpression",
@@ -276,7 +284,9 @@
           "start": 591,
           "end": 595,
           "value": 105,
-          "raw": "0x69"
+          "raw": "0x69",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -308,7 +318,9 @@
                     "start": 624,
                     "end": 741,
                     "value": "#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})===",
-                    "raw": "'#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})==='"
+                    "raw": "'#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -351,7 +363,9 @@
                             "start": 771,
                             "end": 774,
                             "value": "1",
-                            "raw": "\"1\""
+                            "raw": "\"1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -361,14 +375,18 @@
                         "start": 777,
                         "end": 781,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 783,
                         "end": 787,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

@@ -96,7 +96,9 @@ __ESTREE_TEST__:PASS:
               "start": 68,
               "end": 77,
               "raw": "\"Giraffe\"",
-              "value": "Giraffe"
+              "value": "Giraffe",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -127,7 +129,9 @@ __ESTREE_TEST__:PASS:
               "start": 96,
               "end": 100,
               "raw": "\"3m\"",
-              "value": "3m"
+              "value": "3m",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -186,7 +190,9 @@ __ESTREE_TEST__:PASS:
               "start": 133,
               "end": 143,
               "raw": "\"Elephant\"",
-              "value": "Elephant"
+              "value": "Elephant",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -217,7 +223,9 @@ __ESTREE_TEST__:PASS:
               "start": 165,
               "end": 171,
               "raw": "\"20cm\"",
-              "value": "20cm"
+              "value": "20cm",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

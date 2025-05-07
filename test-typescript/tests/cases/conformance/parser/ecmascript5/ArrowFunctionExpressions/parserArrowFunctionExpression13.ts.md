@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
             "start": 27,
             "end": 31,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           "expression": true,
           "generator": false,
@@ -113,7 +115,9 @@ __ESTREE_TEST__:PASS:
             "start": 27,
             "end": 31,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           },
           "expression": true,
           "generator": false,

@@ -40,7 +40,9 @@ __ESTREE_TEST__:PASS:
                       "start": 14,
                       "end": 19,
                       "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -52,7 +54,9 @@ __ESTREE_TEST__:PASS:
                       "start": 22,
                       "end": 27,
                       "raw": "\"bar\"",
-                      "value": "bar"
+                      "value": "bar",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -93,7 +97,9 @@ __ESTREE_TEST__:PASS:
               "start": 38,
               "end": 43,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSLiteralType",
@@ -104,7 +110,9 @@ __ESTREE_TEST__:PASS:
                 "start": 47,
                 "end": 52,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -141,7 +149,9 @@ __ESTREE_TEST__:PASS:
               "start": 62,
               "end": 67,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSLiteralType",
@@ -152,7 +162,9 @@ __ESTREE_TEST__:PASS:
                 "start": 71,
                 "end": 76,
                 "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -202,7 +214,9 @@ __ESTREE_TEST__:PASS:
                 "start": 98,
                 "end": 103,
                 "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -252,7 +266,9 @@ __ESTREE_TEST__:PASS:
                 "start": 125,
                 "end": 130,
                 "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -302,7 +318,9 @@ __ESTREE_TEST__:PASS:
                 "start": 152,
                 "end": 157,
                 "raw": "\"baz\"",
-                "value": "baz"
+                "value": "baz",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -339,7 +357,9 @@ __ESTREE_TEST__:PASS:
               "start": 167,
               "end": 172,
               "raw": "\"baz\"",
-              "value": "baz"
+              "value": "baz",
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSTypeQuery",

@@ -29,7 +29,9 @@
             "start": 353,
             "end": 363,
             "value": "Collator",
-            "raw": "\"Collator\""
+            "raw": "\"Collator\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -52,7 +54,9 @@
             "start": 366,
             "end": 369,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           "property": {
             "type": "Identifier",
@@ -69,7 +73,9 @@
             "start": 384,
             "end": 387,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

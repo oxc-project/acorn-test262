@@ -399,7 +399,9 @@
                         "start": 998,
                         "end": 1000,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -419,7 +421,9 @@
                         "start": 1014,
                         "end": 1016,
                         "value": 43,
-                        "raw": "43"
+                        "raw": "43",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -483,14 +487,18 @@
             "start": 1056,
             "end": 1057,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1059,
             "end": 1095,
             "value": "Called WeakMap#set for each object",
-            "raw": "'Called WeakMap#set for each object'"
+            "raw": "'Called WeakMap#set for each object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -543,7 +551,9 @@
                 "start": 1123,
                 "end": 1124,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -568,7 +578,9 @@
             "start": 1138,
             "end": 1172,
             "value": "Adds object in order - first key",
-            "raw": "'Adds object in order - first key'"
+            "raw": "'Adds object in order - first key'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -621,7 +633,9 @@
                 "start": 1200,
                 "end": 1201,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -640,14 +654,18 @@
             "start": 1210,
             "end": 1212,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1214,
             "end": 1250,
             "value": "Adds object in order - first value",
-            "raw": "'Adds object in order - first value'"
+            "raw": "'Adds object in order - first value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -700,7 +718,9 @@
                 "start": 1278,
                 "end": 1279,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -725,7 +745,9 @@
             "start": 1293,
             "end": 1322,
             "value": "Adds object in order - this",
-            "raw": "'Adds object in order - this'"
+            "raw": "'Adds object in order - this'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -778,7 +800,9 @@
                 "start": 1350,
                 "end": 1351,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -803,7 +827,9 @@
             "start": 1366,
             "end": 1401,
             "value": "Adds object in order - second key",
-            "raw": "'Adds object in order - second key'"
+            "raw": "'Adds object in order - second key'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -856,7 +882,9 @@
                 "start": 1429,
                 "end": 1430,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -875,14 +903,18 @@
             "start": 1439,
             "end": 1441,
             "value": 43,
-            "raw": "43"
+            "raw": "43",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1443,
             "end": 1480,
             "value": "Adds object in order - second value",
-            "raw": "'Adds object in order - second value'"
+            "raw": "'Adds object in order - second value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -935,7 +967,9 @@
                 "start": 1508,
                 "end": 1509,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -960,7 +994,9 @@
             "start": 1523,
             "end": 1552,
             "value": "Adds object in order - this",
-            "raw": "'Adds object in order - this'"
+            "raw": "'Adds object in order - this'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

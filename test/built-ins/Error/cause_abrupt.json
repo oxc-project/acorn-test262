@@ -23,7 +23,9 @@
             "start": 615,
             "end": 627,
             "value": "my-message",
-            "raw": "\"my-message\""
+            "raw": "\"my-message\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -146,7 +148,9 @@
                               "start": 798,
                               "end": 805,
                               "value": "cause",
-                              "raw": "\"cause\""
+                              "raw": "\"cause\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "consequent": {
@@ -174,7 +178,9 @@
                                       "start": 838,
                                       "end": 851,
                                       "value": "HasProperty",
-                                      "raw": "\"HasProperty\""
+                                      "raw": "\"HasProperty\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ]
                                 }
@@ -303,7 +309,9 @@
             "start": 972,
             "end": 985,
             "value": "HasProperty",
-            "raw": "\"HasProperty\""
+            "raw": "\"HasProperty\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,7 +384,9 @@
                             "start": 1213,
                             "end": 1224,
                             "value": "Get Cause",
-                            "raw": "\"Get Cause\""
+                            "raw": "\"Get Cause\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -476,7 +486,9 @@
             "start": 1311,
             "end": 1322,
             "value": "Get Cause",
-            "raw": "\"Get Cause\""
+            "raw": "\"Get Cause\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

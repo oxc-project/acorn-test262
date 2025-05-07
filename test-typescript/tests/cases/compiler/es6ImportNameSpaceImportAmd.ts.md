@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 65,
         "raw": "\"es6ImportNameSpaceImportAmd_0\"",
-        "value": "es6ImportNameSpaceImportAmd_0"
+        "value": "es6ImportNameSpaceImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -147,7 +151,9 @@ __ESTREE_TEST__:PASS:
         "start": 130,
         "end": 161,
         "raw": "\"es6ImportNameSpaceImportAmd_0\"",
-        "value": "es6ImportNameSpaceImportAmd_0"
+        "value": "es6ImportNameSpaceImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

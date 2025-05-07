@@ -51,7 +51,9 @@
                         "start": 1262,
                         "end": 1293,
                         "value": "./THIS_FILE_DOES_NOT_EXIST.js",
-                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
+                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -132,7 +134,9 @@
                                   "start": 1351,
                                   "end": 1362,
                                   "value": "undefined",
-                                  "raw": "'undefined'"
+                                  "raw": "'undefined'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

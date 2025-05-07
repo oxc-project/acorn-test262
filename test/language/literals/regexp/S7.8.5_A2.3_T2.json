@@ -36,7 +36,9 @@
                     "start": 601,
                     "end": 612,
                     "value": "/a\n/",
-                    "raw": "\"/a\\u000A/\""
+                    "raw": "\"/a\\u000A/\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -75,7 +77,9 @@
                     "start": 648,
                     "end": 712,
                     "value": "#1.1: RegularExpressionChar :: Line Feedis incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionChar :: Line Feedis incorrect. Actual: '"
+                    "raw": "'#1.1: RegularExpressionChar :: Line Feedis incorrect. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +106,9 @@
                             "start": 721,
                             "end": 732,
                             "value": "/a\n/",
-                            "raw": "\"/a\\u000A/\""
+                            "raw": "\"/a\\u000A/\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -175,7 +181,9 @@
                   "start": 795,
                   "end": 799,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -207,7 +215,9 @@
                             "start": 831,
                             "end": 896,
                             "value": "#1.2: RegularExpressionChar :: Line Feed is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionChar :: Line Feed is incorrect. Actual: '"
+                            "raw": "'#1.2: RegularExpressionChar :: Line Feed is incorrect. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

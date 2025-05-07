@@ -23,7 +23,9 @@
             "start": 393,
             "end": 394,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -89,7 +91,9 @@
                             "start": 443,
                             "end": 448,
                             "value": "arg",
-                            "raw": "\"arg\""
+                            "raw": "\"arg\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -181,7 +185,9 @@
                       "start": 500,
                       "end": 524,
                       "value": "return arg1+arg2+arg3;",
-                      "raw": "\"return arg1+arg2+arg3;\""
+                      "raw": "\"return arg1+arg2+arg3;\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -227,7 +233,9 @@
                     "start": 566,
                     "end": 583,
                     "value": "#1: test failed",
-                    "raw": "'#1: test failed'"
+                    "raw": "'#1: test failed'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -275,7 +283,9 @@
             "start": 619,
             "end": 692,
             "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,21 +335,27 @@
                 "start": 714,
                 "end": 715,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 717,
                 "end": 720,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 722,
                 "end": 732,
                 "value": "QUESTION",
-                "raw": "\"QUESTION\""
+                "raw": "\"QUESTION\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -349,14 +365,18 @@
             "start": 735,
             "end": 747,
             "value": "42QUESTION",
-            "raw": "\"42QUESTION\""
+            "raw": "\"42QUESTION\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 793,
             "value": "f(4, 2, QUESTION) must return \"42QUESTION\"",
-            "raw": "'f(4, 2, QUESTION) must return \"42QUESTION\"'"
+            "raw": "'f(4, 2, QUESTION) must return \"42QUESTION\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

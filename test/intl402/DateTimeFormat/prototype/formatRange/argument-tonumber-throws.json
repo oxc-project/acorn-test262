@@ -247,7 +247,9 @@
                     "start": 632,
                     "end": 639,
                     "value": "pt-BR",
-                    "raw": "\"pt-BR\""
+                    "raw": "\"pt-BR\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -357,7 +359,9 @@
             "start": 728,
             "end": 743,
             "value": "valueOf start",
-            "raw": "\"valueOf start\""
+            "raw": "\"valueOf start\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -463,7 +467,9 @@
             "start": 831,
             "end": 844,
             "value": "valueOf end",
-            "raw": "\"valueOf end\""
+            "raw": "\"valueOf end\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,7 +575,9 @@
             "start": 933,
             "end": 949,
             "value": "toString start",
-            "raw": "\"toString start\""
+            "raw": "\"toString start\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -675,7 +683,9 @@
             "start": 1038,
             "end": 1052,
             "value": "toString end",
-            "raw": "\"toString end\""
+            "raw": "\"toString end\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -712,7 +722,9 @@
                 "start": 1073,
                 "end": 1076,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -821,7 +833,9 @@
             "start": 1148,
             "end": 1162,
             "value": "symbol start",
-            "raw": "\"symbol start\""
+            "raw": "\"symbol start\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -927,7 +941,9 @@
             "start": 1235,
             "end": 1247,
             "value": "symbol end",
-            "raw": "\"symbol end\""
+            "raw": "\"symbol end\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

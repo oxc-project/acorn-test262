@@ -153,7 +153,9 @@
             "start": 776,
             "end": 799,
             "value": "prototype (undefined)",
-            "raw": "'prototype (undefined)'"
+            "raw": "'prototype (undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,7 +224,9 @@
                 "start": 863,
                 "end": 874,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -238,7 +242,9 @@
             "start": 892,
             "end": 914,
             "value": "property (undefined)",
-            "raw": "'property (undefined)'"
+            "raw": "'property (undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -282,7 +288,9 @@
                 "start": 943,
                 "end": 944,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -375,7 +383,9 @@
             "start": 1021,
             "end": 1052,
             "value": "prototype (numeric primitive)",
-            "raw": "'prototype (numeric primitive)'"
+            "raw": "'prototype (numeric primitive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,7 +454,9 @@
                 "start": 1116,
                 "end": 1127,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -460,7 +472,9 @@
             "start": 1145,
             "end": 1175,
             "value": "property (numeric primitive)",
-            "raw": "'property (numeric primitive)'"
+            "raw": "'property (numeric primitive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -504,7 +518,9 @@
                 "start": 1204,
                 "end": 1209,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -597,7 +613,9 @@
             "start": 1286,
             "end": 1317,
             "value": "prototype (boolean primitive)",
-            "raw": "'prototype (boolean primitive)'"
+            "raw": "'prototype (boolean primitive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -666,7 +684,9 @@
                 "start": 1381,
                 "end": 1392,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -682,7 +702,9 @@
             "start": 1410,
             "end": 1440,
             "value": "property (boolean primitive)",
-            "raw": "'property (boolean primitive)'"
+            "raw": "'property (boolean primitive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -726,7 +748,9 @@
                 "start": 1469,
                 "end": 1485,
                 "value": "string literal",
-                "raw": "'string literal'"
+                "raw": "'string literal'",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -819,7 +843,9 @@
             "start": 1562,
             "end": 1592,
             "value": "prototype (string primitive)",
-            "raw": "'prototype (string primitive)'"
+            "raw": "'prototype (string primitive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -888,7 +914,9 @@
                 "start": 1656,
                 "end": 1667,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -904,7 +932,9 @@
             "start": 1685,
             "end": 1714,
             "value": "property (string primitive)",
-            "raw": "'property (string primitive)'"
+            "raw": "'property (string primitive)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -959,7 +989,9 @@
                     "start": 1750,
                     "end": 1752,
                     "value": "",
-                    "raw": "''"
+                    "raw": "''",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1055,7 +1087,9 @@
             "start": 1830,
             "end": 1850,
             "value": "prototype (symbol)",
-            "raw": "'prototype (symbol)'"
+            "raw": "'prototype (symbol)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1124,7 +1158,9 @@
                 "start": 1914,
                 "end": 1925,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1140,7 +1176,9 @@
             "start": 1943,
             "end": 1962,
             "value": "property (symbol)",
-            "raw": "'property (symbol)'"
+            "raw": "'property (symbol)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

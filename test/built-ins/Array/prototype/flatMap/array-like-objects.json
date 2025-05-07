@@ -43,7 +43,9 @@
                   "start": 1067,
                   "end": 1069,
                   "value": 39,
-                  "raw": "39"
+                  "raw": "39",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -61,7 +63,9 @@
                     "start": 1075,
                     "end": 1076,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -148,7 +152,9 @@
                 "start": 1174,
                 "end": 1175,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -164,14 +170,18 @@
                 "start": 1179,
                 "end": 1180,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 1182,
                 "end": 1183,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -187,14 +197,18 @@
                 "start": 1225,
                 "end": 1226,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 1228,
                 "end": 1230,
                 "value": 21,
-                "raw": "21"
+                "raw": "21",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -210,7 +224,9 @@
                 "start": 1238,
                 "end": 1239,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "FunctionExpression",
@@ -235,7 +251,9 @@
                         "start": 1250,
                         "end": 1283,
                         "value": "it should not get this property",
-                        "raw": "'it should not get this property'"
+                        "raw": "'it should not get this property'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -360,28 +378,36 @@
                 "start": 1352,
                 "end": 1354,
                 "value": 39,
-                "raw": "39"
+                "raw": "39",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1356,
                 "end": 1357,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1359,
                 "end": 1361,
                 "value": 39,
-                "raw": "39"
+                "raw": "39",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1363,
                 "end": 1365,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -390,7 +416,9 @@
             "start": 1368,
             "end": 1423,
             "value": "The value of actual is expected to be [39, 2, 39, 42]",
-            "raw": "'The value of actual is expected to be [39, 2, 39, 42]'"
+            "raw": "'The value of actual is expected to be [39, 2, 39, 42]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -481,7 +509,9 @@
             "start": 1491,
             "end": 1563,
             "value": "Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,7 +570,9 @@
                 "start": 1600,
                 "end": 1601,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "FunctionExpression",
@@ -565,7 +597,9 @@
                         "start": 1612,
                         "end": 1645,
                         "value": "it should not get this property",
-                        "raw": "'it should not get this property'"
+                        "raw": "'it should not get this property'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -691,7 +725,9 @@
             "start": 1718,
             "end": 1760,
             "value": "The value of actual is expected to be []",
-            "raw": "'The value of actual is expected to be []'"
+            "raw": "'The value of actual is expected to be []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -782,7 +818,9 @@
             "start": 1828,
             "end": 1900,
             "value": "Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -808,7 +846,9 @@
             "start": 1917,
             "end": 1922,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -903,7 +943,9 @@
                                 "start": 1981,
                                 "end": 1985,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -916,7 +958,9 @@
                               "start": 2000,
                               "end": 2001,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -935,7 +979,9 @@
                               "start": 2028,
                               "end": 2064,
                               "value": "is should get the length only once",
-                              "raw": "'is should get the length only once'"
+                              "raw": "'is should get the length only once'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -958,14 +1004,18 @@
                 "start": 2079,
                 "end": 2080,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 2082,
                 "end": 2084,
                 "value": 21,
-                "raw": "21"
+                "raw": "21",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -981,14 +1031,18 @@
                 "start": 2088,
                 "end": 2089,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 2091,
                 "end": 2095,
                 "value": 19.5,
-                "raw": "19.5"
+                "raw": "19.5",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -1004,7 +1058,9 @@
                 "start": 2103,
                 "end": 2104,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "FunctionExpression",
@@ -1029,7 +1085,9 @@
                         "start": 2115,
                         "end": 2148,
                         "value": "it should not get this property",
-                        "raw": "'it should not get this property'"
+                        "raw": "'it should not get this property'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1154,28 +1212,36 @@
                 "start": 2218,
                 "end": 2220,
                 "value": 39,
-                "raw": "39"
+                "raw": "39",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2222,
                 "end": 2224,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2226,
                 "end": 2228,
                 "value": 39,
-                "raw": "39"
+                "raw": "39",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2230,
                 "end": 2232,
                 "value": 39,
-                "raw": "39"
+                "raw": "39",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1184,7 +1250,9 @@
             "start": 2235,
             "end": 2291,
             "value": "The value of actual is expected to be [39, 42, 39, 39]",
-            "raw": "'The value of actual is expected to be [39, 42, 39, 39]'"
+            "raw": "'The value of actual is expected to be [39, 42, 39, 39]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1275,7 +1343,9 @@
             "start": 2359,
             "end": 2431,
             "value": "Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1319,7 +1389,9 @@
                 "start": 2451,
                 "end": 2456,
                 "value": 10001,
-                "raw": "10001"
+                "raw": "10001",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -1335,14 +1407,18 @@
                 "start": 2461,
                 "end": 2466,
                 "value": 10000,
-                "raw": "10000"
+                "raw": "10000",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Literal",
                 "start": 2469,
                 "end": 2470,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -1463,14 +1539,18 @@
                 "start": 2537,
                 "end": 2539,
                 "value": 39,
-                "raw": "39"
+                "raw": "39",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2541,
                 "end": 2543,
                 "value": 14,
-                "raw": "14"
+                "raw": "14",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1479,7 +1559,9 @@
             "start": 2546,
             "end": 2594,
             "value": "The value of actual is expected to be [39, 14]",
-            "raw": "'The value of actual is expected to be [39, 14]'"
+            "raw": "'The value of actual is expected to be [39, 14]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1570,7 +1652,9 @@
             "start": 2662,
             "end": 2734,
             "value": "Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf([].flatMap.call(a, fn)\") returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

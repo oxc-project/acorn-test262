@@ -154,14 +154,18 @@
             "start": 383,
             "end": 391,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 437,
             "value": "typeof(String.prototype.trim.call(funObj))",
-            "raw": "'typeof(String.prototype.trim.call(funObj))'"
+            "raw": "'typeof(String.prototype.trim.call(funObj))'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

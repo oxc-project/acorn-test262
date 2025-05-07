@@ -23,7 +23,9 @@
             "start": 328,
             "end": 331,
             "value": "h",
-            "raw": "\"h\""
+            "raw": "\"h\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -115,7 +117,9 @@
                   "start": 455,
                   "end": 458,
                   "value": "f",
-                  "raw": "\"f\""
+                  "raw": "\"f\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -193,7 +197,9 @@
                         "start": 541,
                         "end": 544,
                         "value": "g",
-                        "raw": "\"g\""
+                        "raw": "\"g\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -220,7 +226,9 @@
                   "start": 609,
                   "end": 612,
                   "value": "g",
-                  "raw": "\"g\""
+                  "raw": "\"g\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -324,7 +332,9 @@
                   "start": 761,
                   "end": 764,
                   "value": "h",
-                  "raw": "\"h\""
+                  "raw": "\"h\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -368,7 +378,9 @@
             "start": 806,
             "end": 861,
             "value": "get /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }",
-            "raw": "\"get /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }\""
+            "raw": "\"get /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +412,9 @@
             "start": 898,
             "end": 977,
             "value": "get /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
-            "raw": "\"get /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
+            "raw": "\"get /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -432,7 +446,9 @@
             "start": 1014,
             "end": 1089,
             "value": "get /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
-            "raw": "\"get /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
+            "raw": "\"get /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

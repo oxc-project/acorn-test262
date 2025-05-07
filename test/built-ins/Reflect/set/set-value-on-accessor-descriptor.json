@@ -43,7 +43,9 @@
             "start": 760,
             "end": 761,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -113,7 +115,9 @@
             "start": 801,
             "end": 804,
             "value": "p",
-            "raw": "'p'"
+            "raw": "'p'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -204,7 +208,9 @@
                           "start": 875,
                           "end": 880,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -268,14 +274,18 @@
                 "start": 920,
                 "end": 923,
                 "value": "p",
-                "raw": "'p'"
+                "raw": "'p'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 925,
                 "end": 927,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -323,14 +333,18 @@
             "start": 958,
             "end": 962,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 966,
             "end": 1019,
             "value": "returns true if target.p has an accessor descriptor",
-            "raw": "'returns true if target.p has an accessor descriptor'"
+            "raw": "'returns true if target.p has an accessor descriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -388,14 +402,18 @@
             "start": 1053,
             "end": 1054,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1056,
             "end": 1096,
             "value": "target.p set is called with 1 argument",
-            "raw": "'target.p set is called with 1 argument'"
+            "raw": "'target.p set is called with 1 argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,7 +462,9 @@
               "start": 1121,
               "end": 1122,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -454,14 +474,18 @@
             "start": 1125,
             "end": 1127,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1129,
             "end": 1160,
             "value": "target.p set is called with V",
-            "raw": "'target.p set is called with V'"
+            "raw": "'target.p set is called with V'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -506,14 +530,18 @@
             "start": 1187,
             "end": 1188,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1190,
             "end": 1219,
             "value": "target.p set is called once",
-            "raw": "'target.p set is called once'"
+            "raw": "'target.p set is called once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

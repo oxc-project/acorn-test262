@@ -68,7 +68,9 @@
           "start": 631,
           "end": 639,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -100,7 +102,9 @@
                     "start": 668,
                     "end": 750,
                     "value": "#1: __str = new String(NaN); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(NaN); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String(NaN); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -188,7 +192,9 @@
                     "start": 1005,
                     "end": 1097,
                     "value": "#1.5: __str = new String(NaN); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(NaN); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(NaN); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -250,7 +256,9 @@
                 "start": 1308,
                 "end": 1309,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "operator": "/",
               "right": {
@@ -258,7 +266,9 @@
                 "start": 1312,
                 "end": 1315,
                 "value": "s",
-                "raw": "\"s\""
+                "raw": "\"s\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -268,7 +278,9 @@
             "start": 1319,
             "end": 1321,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -301,7 +313,9 @@
                     "start": 1350,
                     "end": 1417,
                     "value": "#2: __str = new String(NaN); __str ==(1/\"s\")+\"\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(NaN); __str ==(1/\"s\")+\"\". Actual: __str =='"
+                    "raw": "'#2: __str = new String(NaN); __str ==(1/\"s\")+\"\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

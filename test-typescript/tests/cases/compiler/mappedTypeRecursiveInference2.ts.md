@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
               "start": 27,
               "end": 31,
               "raw": "\"|>\"",
-              "value": "|>"
+              "value": "|>",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -81,7 +83,9 @@ __ESTREE_TEST__:PASS:
               "start": 88,
               "end": 89,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "objectType": {
@@ -109,7 +113,9 @@ __ESTREE_TEST__:PASS:
             "start": 99,
             "end": 103,
             "raw": "\"|>\"",
-            "value": "|>"
+            "value": "|>",
+            "regex": null,
+            "bigint": null
           }
         },
         "falseType": {
@@ -154,7 +160,9 @@ __ESTREE_TEST__:PASS:
                         "start": 134,
                         "end": 135,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {
@@ -194,7 +202,9 @@ __ESTREE_TEST__:PASS:
                 "start": 139,
                 "end": 143,
                 "raw": "\"|>\"",
-                "value": "|>"
+                "value": "|>",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -226,7 +236,9 @@ __ESTREE_TEST__:PASS:
                           "start": 154,
                           "end": 155,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -660,14 +672,18 @@ __ESTREE_TEST__:PASS:
                     "start": 417,
                     "end": 422,
                     "raw": "\"ark\"",
-                    "value": "ark"
+                    "value": "ark",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 424,
                     "end": 428,
                     "raw": "\"|>\"",
-                    "value": "|>"
+                    "value": "|>",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ArrowFunctionExpression",
@@ -793,14 +809,18 @@ __ESTREE_TEST__:PASS:
                           "start": 481,
                           "end": 486,
                           "raw": "\"ark\"",
-                          "value": "ark"
+                          "value": "ark",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 488,
                           "end": 492,
                           "raw": "\"|>\"",
-                          "value": "|>"
+                          "value": "|>",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ArrowFunctionExpression",
@@ -911,14 +931,18 @@ __ESTREE_TEST__:PASS:
                         "start": 541,
                         "end": 546,
                         "raw": "\"ark\"",
-                        "value": "ark"
+                        "value": "ark",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 548,
                         "end": 552,
                         "raw": "\"|>\"",
-                        "value": "|>"
+                        "value": "|>",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ArrowFunctionExpression",

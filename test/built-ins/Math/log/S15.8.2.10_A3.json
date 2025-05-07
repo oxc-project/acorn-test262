@@ -29,7 +29,9 @@
               "start": 310,
               "end": 311,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -115,7 +117,9 @@
             "start": 354,
             "end": 390,
             "value": "Math.log(+0) must return -Infinity",
-            "raw": "'Math.log(+0) must return -Infinity'"
+            "raw": "'Math.log(+0) must return -Infinity'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -147,7 +151,9 @@
               "start": 414,
               "end": 415,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -233,7 +239,9 @@
             "start": 458,
             "end": 494,
             "value": "Math.log(-0) must return -Infinity",
-            "raw": "'Math.log(-0) must return -Infinity'"
+            "raw": "'Math.log(-0) must return -Infinity'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

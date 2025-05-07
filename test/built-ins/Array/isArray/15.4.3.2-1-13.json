@@ -86,21 +86,27 @@
               "start": 298,
               "end": 299,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 301,
               "end": 302,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 304,
               "end": 305,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -173,14 +179,18 @@
             "start": 347,
             "end": 352,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 354,
             "end": 398,
             "value": "Array.isArray(arguments) must return false",
-            "raw": "'Array.isArray(arguments) must return false'"
+            "raw": "'Array.isArray(arguments) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

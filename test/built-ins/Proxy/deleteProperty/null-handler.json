@@ -65,7 +65,9 @@
                       "start": 308,
                       "end": 309,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "(A)\\1(B)\\2",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 321,
                 "end": 327,
                 "value": "AABB",
-                "raw": "\"AABB\""
+                "raw": "\"AABB\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +92,9 @@
               "start": 344,
               "end": 348,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -117,7 +122,9 @@
                 "start": 358,
                 "end": 359,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -128,7 +135,9 @@
               "start": 365,
               "end": 371,
               "value": "AABB",
-              "raw": "\"AABB\""
+              "raw": "\"AABB\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -162,7 +171,9 @@
                     "start": 401,
                     "end": 473,
                     "value": "#1: var arr = /(A)\\1(B)\\2/.exec(\"AABB\"); arr[0] === \"AABB\". Actual. ",
-                    "raw": "'#1: var arr = /(A)\\\\1(B)\\\\2/.exec(\"AABB\"); arr[0] === \"AABB\". Actual. '"
+                    "raw": "'#1: var arr = /(A)\\\\1(B)\\\\2/.exec(\"AABB\"); arr[0] === \"AABB\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +206,9 @@
                           "start": 488,
                           "end": 489,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -238,7 +251,9 @@
               "start": 510,
               "end": 514,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -266,7 +281,9 @@
                 "start": 524,
                 "end": 525,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -277,7 +294,9 @@
               "start": 531,
               "end": 534,
               "value": "A",
-              "raw": "\"A\""
+              "raw": "\"A\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -311,7 +330,9 @@
                     "start": 564,
                     "end": 633,
                     "value": "#2: var arr = /(A)\\1(B)\\2/.exec(\"AABB\"); arr[1] === \"A\". Actual. ",
-                    "raw": "'#2: var arr = /(A)\\\\1(B)\\\\2/.exec(\"AABB\"); arr[1] === \"A\". Actual. '"
+                    "raw": "'#2: var arr = /(A)\\\\1(B)\\\\2/.exec(\"AABB\"); arr[1] === \"A\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -344,7 +365,9 @@
                           "start": 648,
                           "end": 649,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -387,7 +410,9 @@
               "start": 670,
               "end": 674,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -415,7 +440,9 @@
                 "start": 684,
                 "end": 685,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -426,7 +453,9 @@
               "start": 691,
               "end": 694,
               "value": "B",
-              "raw": "\"B\""
+              "raw": "\"B\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -460,7 +489,9 @@
                     "start": 724,
                     "end": 793,
                     "value": "#3: var arr = /(A)\\1(B)\\2/.exec(\"AABB\"); arr[2] === \"B\". Actual. ",
-                    "raw": "'#3: var arr = /(A)\\\\1(B)\\\\2/.exec(\"AABB\"); arr[2] === \"B\". Actual. '"
+                    "raw": "'#3: var arr = /(A)\\\\1(B)\\\\2/.exec(\"AABB\"); arr[2] === \"B\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -493,7 +524,9 @@
                           "start": 808,
                           "end": 809,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

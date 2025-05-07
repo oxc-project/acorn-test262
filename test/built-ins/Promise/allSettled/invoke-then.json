@@ -167,7 +167,9 @@
             "start": 804,
             "end": 805,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -397,14 +399,18 @@
                           "start": 949,
                           "end": 959,
                           "value": "function",
-                          "raw": "'function'"
+                          "raw": "'function'",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 961,
                           "end": 985,
                           "value": "type of first argument",
-                          "raw": "'type of first argument'"
+                          "raw": "'type of first argument'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -462,14 +468,18 @@
                           "start": 1026,
                           "end": 1027,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1033,
                           "end": 1090,
                           "value": "The length property of a promise resolve function is 1.",
-                          "raw": "'The length property of a promise resolve function is 1.'"
+                          "raw": "'The length property of a promise resolve function is 1.'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -521,14 +531,18 @@
                           "start": 1125,
                           "end": 1135,
                           "value": "function",
-                          "raw": "'function'"
+                          "raw": "'function'",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1137,
                           "end": 1162,
                           "value": "type of second argument",
-                          "raw": "'type of second argument'"
+                          "raw": "'type of second argument'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -586,14 +600,18 @@
                           "start": 1203,
                           "end": 1204,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1210,
                           "end": 1266,
                           "value": "The length property of a promise reject function is 1.",
-                          "raw": "'The length property of a promise reject function is 1.'"
+                          "raw": "'The length property of a promise reject function is 1.'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -651,14 +669,18 @@
                           "start": 1309,
                           "end": 1310,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 1312,
                           "end": 1347,
                           "value": "`then` invoked with two arguments",
-                          "raw": "'`then` invoked with two arguments'"
+                          "raw": "'`then` invoked with two arguments'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -708,7 +730,9 @@
                           "start": 1388,
                           "end": 1402,
                           "value": "`this` value",
-                          "raw": "'`this` value'"
+                          "raw": "'`this` value'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -780,7 +804,9 @@
                         "start": 1478,
                         "end": 1482,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -804,7 +830,9 @@
                         "start": 1500,
                         "end": 1501,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -911,14 +939,18 @@
             "start": 1570,
             "end": 1571,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1573,
             "end": 1619,
             "value": "`then` invoked once for every iterated value",
-            "raw": "'`then` invoked once for every iterated value'"
+            "raw": "'`then` invoked once for every iterated value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -88,7 +88,9 @@
             "start": 542,
             "end": 629,
             "value": "Object.getPrototypeOf(AsyncDisposableStack) returns the value of `Function.prototype`",
-            "raw": "'Object.getPrototypeOf(AsyncDisposableStack) returns the value of `Function.prototype`'"
+            "raw": "'Object.getPrototypeOf(AsyncDisposableStack) returns the value of `Function.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

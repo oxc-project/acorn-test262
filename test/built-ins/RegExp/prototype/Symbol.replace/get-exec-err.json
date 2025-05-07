@@ -41,7 +41,9 @@
                   "start": 563,
                   "end": 566,
                   "value": "g",
-                  "raw": "'g'"
+                  "raw": "'g'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 576,
                   "end": 580,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -112,7 +116,9 @@
             "start": 609,
             "end": 615,
             "value": "exec",
-            "raw": "'exec'"
+            "raw": "'exec'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -300,14 +306,18 @@
                         "start": 762,
                         "end": 764,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 766,
                         "end": 768,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -372,14 +382,18 @@
             "start": 806,
             "end": 807,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 849,
             "value": "Error thrown after setting `lastIndex`",
-            "raw": "'Error thrown after setting `lastIndex`'"
+            "raw": "'Error thrown after setting `lastIndex`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

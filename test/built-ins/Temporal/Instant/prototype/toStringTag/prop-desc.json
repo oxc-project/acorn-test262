@@ -92,7 +92,9 @@
                   "start": 377,
                   "end": 395,
                   "value": "Temporal.Instant",
-                  "raw": "\"Temporal.Instant\""
+                  "raw": "\"Temporal.Instant\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +116,9 @@
                   "start": 409,
                   "end": 414,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +140,9 @@
                   "start": 430,
                   "end": 435,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -158,7 +164,9 @@
                   "start": 453,
                   "end": 457,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

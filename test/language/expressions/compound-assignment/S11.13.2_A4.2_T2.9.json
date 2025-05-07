@@ -43,7 +43,9 @@
           "start": 370,
           "end": 374,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -67,7 +69,9 @@
           "start": 381,
           "end": 385,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -135,7 +139,9 @@
                     "start": 450,
                     "end": 502,
                     "value": "#1: x = true; x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#1: x = true; x /= null; x === +Infinity. Actual: '"
+                    "raw": "'#1: x = true; x /= null; x === +Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -177,7 +183,9 @@
           "start": 528,
           "end": 532,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -201,7 +209,9 @@
           "start": 539,
           "end": 543,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -225,7 +235,9 @@
           "start": 555,
           "end": 556,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -257,7 +269,9 @@
                     "start": 585,
                     "end": 629,
                     "value": "#2: x = null; x /= true; x === 0. Actual: ",
-                    "raw": "'#2: x = null; x /= true; x === 0. Actual: '"
+                    "raw": "'#2: x = null; x /= true; x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -310,7 +324,9 @@
               "start": 667,
               "end": 671,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -336,7 +352,9 @@
           "start": 679,
           "end": 683,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -404,7 +422,9 @@
                     "start": 748,
                     "end": 813,
                     "value": "#3: x = new Boolean(true); x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#3: x = new Boolean(true); x /= null; x === +Infinity. Actual: '"
+                    "raw": "'#3: x = new Boolean(true); x /= null; x === +Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -446,7 +466,9 @@
           "start": 839,
           "end": 843,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -481,7 +503,9 @@
               "start": 862,
               "end": 866,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -507,7 +531,9 @@
           "start": 879,
           "end": 880,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -539,7 +565,9 @@
                     "start": 909,
                     "end": 966,
                     "value": "#4: x = null; x /= new Boolean(true); x === 0. Actual: ",
-                    "raw": "'#4: x = null; x /= new Boolean(true); x === 0. Actual: '"
+                    "raw": "'#4: x = null; x /= new Boolean(true); x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

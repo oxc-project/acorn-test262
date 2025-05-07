@@ -100,7 +100,9 @@
             "start": 312,
             "end": 382,
             "value": "Intl.Collator.prototype.constructor is not the same as Intl.Collator",
-            "raw": "\"Intl.Collator.prototype.constructor is not the same as Intl.Collator\""
+            "raw": "\"Intl.Collator.prototype.constructor is not the same as Intl.Collator\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

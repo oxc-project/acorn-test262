@@ -75,7 +75,9 @@
           "start": 371,
           "end": 375,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -107,7 +109,9 @@
                     "start": 404,
                     "end": 446,
                     "value": "#1: NaN / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#1: NaN / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#1: NaN / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -175,7 +179,9 @@
                   "start": 489,
                   "end": 490,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "/",
@@ -208,7 +214,9 @@
           "start": 509,
           "end": 513,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -240,7 +248,9 @@
                     "start": 542,
                     "end": 583,
                     "value": "#2: +0 / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#2: +0 / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#2: +0 / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -262,7 +272,9 @@
                           "start": 588,
                           "end": 589,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "/",
@@ -316,7 +328,9 @@
                   "start": 625,
                   "end": 626,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "/",
@@ -349,7 +363,9 @@
           "start": 645,
           "end": 649,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -381,7 +397,9 @@
                     "start": 678,
                     "end": 719,
                     "value": "#3: -0 / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#3: -0 / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#3: -0 / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -403,7 +421,9 @@
                           "start": 724,
                           "end": 725,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "/",
@@ -495,7 +515,9 @@
           "start": 803,
           "end": 807,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -527,7 +549,9 @@
                     "start": 836,
                     "end": 883,
                     "value": "#4: Infinity / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#4: Infinity / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#4: Infinity / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -633,7 +657,9 @@
           "start": 972,
           "end": 976,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -665,7 +691,9 @@
                     "start": 1005,
                     "end": 1054,
                     "value": "#5:  -Infinity / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#5:  -Infinity / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#5:  -Infinity / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -778,7 +806,9 @@
           "start": 1138,
           "end": 1142,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -810,7 +840,9 @@
                     "start": 1171,
                     "end": 1226,
                     "value": "#6: Number.MAX_VALUE / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#6: Number.MAX_VALUE / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#6: Number.MAX_VALUE / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -929,7 +961,9 @@
           "start": 1315,
           "end": 1319,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -961,7 +995,9 @@
                     "start": 1348,
                     "end": 1403,
                     "value": "#7: Number.MIN_VALUE / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#7: Number.MIN_VALUE / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#7: Number.MIN_VALUE / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1036,7 +1072,9 @@
                 "start": 1457,
                 "end": 1458,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "operator": "/",
               "right": {
@@ -1068,7 +1106,9 @@
           "start": 1477,
           "end": 1481,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1100,7 +1140,9 @@
                     "start": 1510,
                     "end": 1550,
                     "value": "#8: 1 / NaN === Not-a-Number. Actual: ",
-                    "raw": "'#8: 1 / NaN === Not-a-Number. Actual: '"
+                    "raw": "'#8: 1 / NaN === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1116,7 +1158,9 @@
                         "start": 1554,
                         "end": 1555,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "/",
                       "right": {

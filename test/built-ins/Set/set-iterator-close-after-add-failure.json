@@ -23,7 +23,9 @@
             "start": 719,
             "end": 720,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -172,7 +174,9 @@
                                       "start": 846,
                                       "end": 850,
                                       "value": null,
-                                      "raw": "null"
+                                      "raw": "null",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -194,7 +198,9 @@
                                       "start": 866,
                                       "end": 871,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -253,7 +259,9 @@
                                   "start": 928,
                                   "end": 929,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -465,14 +473,18 @@
             "start": 1089,
             "end": 1090,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1092,
             "end": 1158,
             "value": "The iterator is closed when `Set.prototype.add` throws an error.",
-            "raw": "\"The iterator is closed when `Set.prototype.add` throws an error.\""
+            "raw": "\"The iterator is closed when `Set.prototype.add` throws an error.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

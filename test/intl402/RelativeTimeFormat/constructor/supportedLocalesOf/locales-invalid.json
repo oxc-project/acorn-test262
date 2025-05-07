@@ -75,14 +75,18 @@
             "start": 555,
             "end": 565,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 644,
             "value": "Should support Intl.RelativeTimeFormat.supportedLocalesOf.",
-            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

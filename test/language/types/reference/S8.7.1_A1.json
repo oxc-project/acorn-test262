@@ -35,7 +35,9 @@
           "start": 331,
           "end": 332,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -83,7 +85,9 @@
           "start": 446,
           "end": 450,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -115,7 +119,9 @@
                     "start": 478,
                     "end": 530,
                     "value": "#1: this.y = 1; (delete this.y) === true. Actual: ",
-                    "raw": "'#1: this.y = 1; (delete this.y) === true. Actual: '"
+                    "raw": "'#1: this.y = 1; (delete this.y) === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -229,7 +235,9 @@
                     "start": 781,
                     "end": 855,
                     "value": "#2: this.y = 1; (delete this.y) === true; this.y === undefined. Actual: ",
-                    "raw": "'#2: this.y = 1; (delete this.y) === true; this.y === undefined. Actual: '"
+                    "raw": "'#2: this.y = 1; (delete this.y) === true; this.y === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

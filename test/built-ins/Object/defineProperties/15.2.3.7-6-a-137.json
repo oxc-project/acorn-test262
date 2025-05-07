@@ -151,7 +151,9 @@
                                     "start": 482,
                                     "end": 493,
                                     "value": "-Infinity",
-                                    "raw": "\"-Infinity\""
+                                    "raw": "\"-Infinity\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -224,14 +226,18 @@
             "start": 539,
             "end": 540,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 554,
             "value": "arr.length",
-            "raw": "'arr.length'"
+            "raw": "'arr.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

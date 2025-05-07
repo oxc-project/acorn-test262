@@ -41,7 +41,9 @@
                   "start": 907,
                   "end": 909,
                   "value": 86,
-                  "raw": "86"
+                  "raw": "86",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -165,7 +167,9 @@
             "start": 991,
             "end": 994,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

@@ -23,7 +23,9 @@
             "start": 922,
             "end": 926,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,7 +76,9 @@
             "start": 964,
             "end": 965,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -371,7 +375,9 @@
             "start": 1217,
             "end": 1241,
             "value": "\"resolve\" return value",
-            "raw": "'\"resolve\" return value'"
+            "raw": "'\"resolve\" return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -439,7 +445,9 @@
                     "start": 1293,
                     "end": 1294,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -544,7 +552,9 @@
                               "start": 1362,
                               "end": 1420,
                               "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "raw": "'The promise should be fulfilled with the provided value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -580,7 +590,9 @@
                       "start": 1462,
                       "end": 1463,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -608,7 +620,9 @@
                               "start": 1477,
                               "end": 1530,
                               "value": "The `then` method should be executed synchronously.",
-                              "raw": "'The `then` method should be executed synchronously.'"
+                              "raw": "'The `then` method should be executed synchronously.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -673,7 +687,9 @@
                         "start": 1573,
                         "end": 1610,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

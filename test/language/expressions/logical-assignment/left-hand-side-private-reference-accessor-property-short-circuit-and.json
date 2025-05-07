@@ -42,7 +42,9 @@
                   "start": 1730,
                   "end": 1775,
                   "value": "The right-hand side should not be evaluated",
-                  "raw": "\"The right-hand side should not be evaluated\""
+                  "raw": "\"The right-hand side should not be evaluated\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -83,7 +85,9 @@
               "start": 1811,
               "end": 1816,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -122,7 +126,9 @@
                       "start": 1846,
                       "end": 1851,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -195,7 +201,9 @@
                         "start": 1906,
                         "end": 1910,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -369,14 +377,18 @@
             "start": 2048,
             "end": 2053,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2055,
             "end": 2114,
             "value": "The expression should evaluate to the short-circuit value",
-            "raw": "\"The expression should evaluate to the short-circuit value\""
+            "raw": "\"The expression should evaluate to the short-circuit value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -428,7 +440,9 @@
             "start": 2144,
             "end": 2177,
             "value": "The setter should not be called",
-            "raw": "\"The setter should not be called\""
+            "raw": "\"The setter should not be called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

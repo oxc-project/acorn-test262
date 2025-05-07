@@ -47,7 +47,9 @@
                 "start": 461,
                 "end": 469,
                 "value": "1234e5",
-                "raw": "\"1234e5\""
+                "raw": "\"1234e5\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 472,
             "end": 481,
             "value": 123400000,
-            "raw": "123400000"
+            "raw": "123400000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 483,
             "end": 523,
             "value": "Number(\"1234e5\") must return 123400000",
-            "raw": "'Number(\"1234e5\") must return 123400000'"
+            "raw": "'Number(\"1234e5\") must return 123400000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +120,9 @@
                 "start": 550,
                 "end": 559,
                 "value": "1234.e5",
-                "raw": "\"1234.e5\""
+                "raw": "\"1234.e5\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,14 +132,18 @@
             "start": 562,
             "end": 571,
             "value": 123400000,
-            "raw": "123400000"
+            "raw": "123400000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 614,
             "value": "Number(\"1234.e5\") must return 123400000",
-            "raw": "'Number(\"1234.e5\") must return 123400000'"
+            "raw": "'Number(\"1234.e5\") must return 123400000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

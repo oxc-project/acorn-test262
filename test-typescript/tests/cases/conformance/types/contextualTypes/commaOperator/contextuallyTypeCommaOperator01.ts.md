@@ -99,7 +99,9 @@ __ESTREE_TEST__:PASS:
               "start": 36,
               "end": 39,
               "raw": "100",
-              "value": 100
+              "value": 100,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "ArrowFunctionExpression",

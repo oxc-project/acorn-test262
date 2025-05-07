@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,7 +66,9 @@
                 "start": 533,
                 "end": 535,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

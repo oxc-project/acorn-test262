@@ -48,6 +48,7 @@
                 "end": 323,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               }
             ]
@@ -139,7 +140,9 @@
                       "start": 413,
                       "end": 414,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -191,14 +194,18 @@
             "start": 447,
             "end": 476,
             "value": "2001-09-09T01:46:40.123987Z",
-            "raw": "\"2001-09-09T01:46:40.123987Z\""
+            "raw": "\"2001-09-09T01:46:40.123987Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 533,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -266,7 +273,9 @@
                       "start": 597,
                       "end": 598,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -318,14 +327,18 @@
             "start": 631,
             "end": 660,
             "value": "2001-09-09T01:46:40.123987Z",
-            "raw": "\"2001-09-09T01:46:40.123987Z\""
+            "raw": "\"2001-09-09T01:46:40.123987Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 662,
             "end": 717,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,7 +427,9 @@
                       "start": 807,
                       "end": 808,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -466,14 +481,18 @@
             "start": 841,
             "end": 867,
             "value": "2001-09-09T01:46:40.123Z",
-            "raw": "\"2001-09-09T01:46:40.123Z\""
+            "raw": "\"2001-09-09T01:46:40.123Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 869,
             "end": 924,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -541,7 +560,9 @@
                       "start": 988,
                       "end": 989,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -593,14 +614,18 @@
             "start": 1022,
             "end": 1048,
             "value": "2001-09-09T01:46:40.123Z",
-            "raw": "\"2001-09-09T01:46:40.123Z\""
+            "raw": "\"2001-09-09T01:46:40.123Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1105,
             "value": "default smallestUnit defers to fractionalSecondDigits",
-            "raw": "\"default smallestUnit defers to fractionalSecondDigits\""
+            "raw": "\"default smallestUnit defers to fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

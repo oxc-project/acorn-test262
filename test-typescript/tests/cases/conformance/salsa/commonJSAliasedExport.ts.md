@@ -79,7 +79,9 @@ __ESTREE_TEST__:PASS:
               "start": 72,
               "end": 77,
               "raw": "false",
-              "value": false
+              "value": false,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -288,7 +290,9 @@ __ESTREE_TEST__:PASS:
                 "start": 26,
                 "end": 51,
                 "raw": "'./commonJSAliasedExport'",
-                "value": "./commonJSAliasedExport"
+                "value": "./commonJSAliasedExport",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -362,7 +366,9 @@ __ESTREE_TEST__:PASS:
                 "start": 105,
                 "end": 106,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

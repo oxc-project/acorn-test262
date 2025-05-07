@@ -35,7 +35,9 @@
           "start": 306,
           "end": 307,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -77,7 +79,9 @@
                   "start": 329,
                   "end": 332,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -107,7 +111,9 @@
             "start": 342,
             "end": 363,
             "value": "with(myObj){p1='b'}",
-            "raw": "\"with(myObj){p1='b'}\""
+            "raw": "\"with(myObj){p1='b'}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +152,9 @@
           "start": 472,
           "end": 475,
           "value": "b",
-          "raw": "'b'"
+          "raw": "'b'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                     "start": 503,
                     "end": 548,
                     "value": "#1: myObj.p1 === \"b\". Actual:  myObj.p1 ===",
-                    "raw": "'#1: myObj.p1 === \"b\". Actual:  myObj.p1 ==='"
+                    "raw": "'#1: myObj.p1 === \"b\". Actual:  myObj.p1 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -241,7 +251,9 @@
           "start": 753,
           "end": 754,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -269,7 +281,9 @@
                   "start": 782,
                   "end": 802,
                   "value": "#2: myObj.p1 !== 1",
-                  "raw": "'#2: myObj.p1 !== 1'"
+                  "raw": "'#2: myObj.p1 !== 1'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

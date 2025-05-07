@@ -78,7 +78,9 @@
             "start": 856,
             "end": 868,
             "value": "123\\u0065",
-            "raw": "'123\\\\u0065'"
+            "raw": "'123\\\\u0065'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

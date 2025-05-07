@@ -18,7 +18,9 @@
         "start": 931,
         "end": 935,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ClassBody",

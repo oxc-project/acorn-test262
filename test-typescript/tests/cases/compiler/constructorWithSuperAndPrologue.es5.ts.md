@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 68,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -73,7 +75,9 @@ __ESTREE_TEST__:PASS:
                           "start": 128,
                           "end": 131,
                           "raw": "\"A\"",
-                          "value": "A"
+                          "value": "A",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -184,7 +188,9 @@ __ESTREE_TEST__:PASS:
                       "start": 191,
                       "end": 201,
                       "raw": "\"ngInject\"",
-                      "value": "ngInject"
+                      "value": "ngInject",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -202,7 +208,9 @@ __ESTREE_TEST__:PASS:
                           "start": 223,
                           "end": 226,
                           "raw": "\"B\"",
-                          "value": "B"
+                          "value": "B",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

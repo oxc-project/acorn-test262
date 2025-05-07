@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\udf06",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,7 +66,9 @@
                 "start": 890,
                 "end": 904,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +129,9 @@
             "start": 940,
             "end": 941,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

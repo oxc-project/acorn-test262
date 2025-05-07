@@ -83,7 +83,9 @@ __ESTREE_TEST__:PASS:
                         "start": 74,
                         "end": 80,
                         "raw": "\"then\"",
-                        "value": "then"
+                        "value": "then",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -95,7 +97,9 @@ __ESTREE_TEST__:PASS:
                         "start": 83,
                         "end": 90,
                         "raw": "\"catch\"",
-                        "value": "catch"
+                        "value": "catch",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1095,7 +1099,9 @@ __ESTREE_TEST__:PASS:
                           "start": 854,
                           "end": 856,
                           "raw": "''",
-                          "value": ""
+                          "value": "",
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSAnyKeyword",
@@ -1316,7 +1322,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 42,
         "raw": "\"./http-client\"",
-        "value": "./http-client"
+        "value": "./http-client",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -93,7 +93,9 @@
                     "start": 481,
                     "end": 555,
                     "value": "#1: String.prototype.toLocaleUpperCase.prototype === undefined. Actual: ",
-                    "raw": "'#1: String.prototype.toLocaleUpperCase.prototype === undefined. Actual: '"
+                    "raw": "'#1: String.prototype.toLocaleUpperCase.prototype === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

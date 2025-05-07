@@ -28,21 +28,27 @@
                 "start": 584,
                 "end": 585,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 586,
                 "end": 587,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 588,
                 "end": 589,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -70,7 +76,9 @@
             "start": 608,
             "end": 609,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -215,7 +223,9 @@
                     "start": 722,
                     "end": 723,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -370,14 +380,18 @@
                             "start": 845,
                             "end": 846,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 848,
                             "end": 896,
                             "value": "`then` invoked once for every iterated promise",
-                            "raw": "'`then` invoked once for every iterated promise'"
+                            "raw": "'`then` invoked once for every iterated promise'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

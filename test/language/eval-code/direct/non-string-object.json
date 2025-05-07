@@ -93,7 +93,9 @@
                     "start": 314,
                     "end": 351,
                     "value": "#1: x = {}; eval(x) === x. Actual: ",
-                    "raw": "'#1: x = {}; eval(x) === x. Actual: '"
+                    "raw": "'#1: x = {}; eval(x) === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -160,7 +162,9 @@
               "start": 394,
               "end": 395,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -231,7 +235,9 @@
                     "start": 444,
                     "end": 492,
                     "value": "#2: x = new Number(1); eval(x) === x. Actual: ",
-                    "raw": "'#2: x = new Number(1); eval(x) === x. Actual: '"
+                    "raw": "'#2: x = new Number(1); eval(x) === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -298,7 +304,9 @@
               "start": 536,
               "end": 540,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -369,7 +377,9 @@
                     "start": 589,
                     "end": 641,
                     "value": "#3: x = new Boolean(true); eval(x) === x. Actual: ",
-                    "raw": "'#3: x = new Boolean(true); eval(x) === x. Actual: '"
+                    "raw": "'#3: x = new Boolean(true); eval(x) === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -436,7 +446,9 @@
               "start": 684,
               "end": 689,
               "value": "1+1",
-              "raw": "\"1+1\""
+              "raw": "\"1+1\"",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -507,7 +519,9 @@
                     "start": 738,
                     "end": 788,
                     "value": "#4: x = new String(\"1\"); eval(x) === x. Actual: ",
-                    "raw": "'#4: x = new String(\"1\"); eval(x) === x. Actual: '"
+                    "raw": "'#4: x = new String(\"1\"); eval(x) === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

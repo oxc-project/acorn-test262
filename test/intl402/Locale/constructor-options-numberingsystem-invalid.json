@@ -28,84 +28,108 @@
                 "start": 674,
                 "end": 676,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 680,
                 "end": 683,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 687,
                 "end": 691,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 695,
                 "end": 706,
                 "value": "abcdefghi",
-                "raw": "\"abcdefghi\""
+                "raw": "\"abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 710,
                 "end": 725,
                 "value": "abc-abcdefghi",
-                "raw": "\"abc-abcdefghi\""
+                "raw": "\"abc-abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 729,
                 "end": 740,
                 "value": "!invalid!",
-                "raw": "\"!invalid!\""
+                "raw": "\"!invalid!\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 744,
                 "end": 752,
                 "value": "-latn-",
-                "raw": "\"-latn-\""
+                "raw": "\"-latn-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 756,
                 "end": 763,
                 "value": "latn-",
-                "raw": "\"latn-\""
+                "raw": "\"latn-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 767,
                 "end": 775,
                 "value": "latn--",
-                "raw": "\"latn--\""
+                "raw": "\"latn--\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 779,
                 "end": 788,
                 "value": "latn-ca",
-                "raw": "\"latn-ca\""
+                "raw": "\"latn-ca\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 792,
                 "end": 802,
                 "value": "latn-ca-",
-                "raw": "\"latn-ca-\""
+                "raw": "\"latn-ca-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 806,
                 "end": 823,
                 "value": "latn-ca-gregory",
-                "raw": "\"latn-ca-gregory\""
+                "raw": "\"latn-ca-gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -230,7 +254,9 @@
                               "start": 952,
                               "end": 956,
                               "value": "en",
-                              "raw": "'en'"
+                              "raw": "'en'",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

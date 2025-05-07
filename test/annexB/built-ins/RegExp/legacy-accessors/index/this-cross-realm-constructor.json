@@ -85,7 +85,9 @@
               "start": 662,
               "end": 663,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -107,7 +109,9 @@
           "start": 670,
           "end": 671,
           "value": 9,
-          "raw": "9"
+          "raw": "9",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -152,7 +156,9 @@
                     "start": 699,
                     "end": 702,
                     "value": "$",
-                    "raw": "\"$\""
+                    "raw": "\"$\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -293,7 +299,9 @@
                       "start": 820,
                       "end": 829,
                       "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "raw": "\"RegExp.\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -309,7 +317,9 @@
                     "start": 843,
                     "end": 884,
                     "value": " getter throws for cross-realm receiver",
-                    "raw": "\" getter throws for cross-realm receiver\""
+                    "raw": "\" getter throws for cross-realm receiver\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

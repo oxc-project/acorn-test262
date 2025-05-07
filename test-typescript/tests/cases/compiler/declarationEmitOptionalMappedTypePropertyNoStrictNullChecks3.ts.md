@@ -387,7 +387,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 219,
                                   "end": 234,
                                   "raw": "\"uninitialized\"",
-                                  "value": "uninitialized"
+                                  "value": "uninitialized",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -494,7 +496,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 39,
         "raw": "\"./createApi\"",
-        "value": "./createApi"
+        "value": "./createApi",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

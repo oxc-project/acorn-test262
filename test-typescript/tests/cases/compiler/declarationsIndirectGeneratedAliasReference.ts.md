@@ -448,7 +448,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 29,
         "raw": "\"./ctor\"",
-        "value": "./ctor"
+        "value": "./ctor",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -515,7 +517,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 25,
         "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -640,7 +644,9 @@ __ESTREE_TEST__:PASS:
                         "start": 93,
                         "end": 98,
                         "raw": "\"bar\"",
-                        "value": "bar"
+                        "value": "bar",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

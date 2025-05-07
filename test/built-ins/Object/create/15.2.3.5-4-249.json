@@ -34,7 +34,9 @@
                 "start": 364,
                 "end": 365,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +95,9 @@
                   "start": 405,
                   "end": 423,
                   "value": "VerifyDateObject",
-                  "raw": "\"VerifyDateObject\""
+                  "raw": "\"VerifyDateObject\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -233,14 +237,18 @@
             "start": 513,
             "end": 531,
             "value": "VerifyDateObject",
-            "raw": "\"VerifyDateObject\""
+            "raw": "\"VerifyDateObject\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 546,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

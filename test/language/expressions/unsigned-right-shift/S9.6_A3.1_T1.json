@@ -35,7 +35,9 @@
                   "start": 254,
                   "end": 258,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -45,7 +47,9 @@
               "start": 264,
               "end": 265,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -55,7 +59,9 @@
           "start": 271,
           "end": 272,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -87,7 +93,9 @@
                     "start": 301,
                     "end": 348,
                     "value": "#1: (new Boolean(true) >>> 0) === 1. Actual: ",
-                    "raw": "'#1: (new Boolean(true) >>> 0) === 1. Actual: '"
+                    "raw": "'#1: (new Boolean(true) >>> 0) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -118,7 +126,9 @@
                               "start": 365,
                               "end": 369,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -128,7 +138,9 @@
                           "start": 375,
                           "end": 376,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -162,7 +174,9 @@
               "start": 400,
               "end": 405,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "operator": ">>>",
             "right": {
@@ -170,7 +184,9 @@
               "start": 410,
               "end": 411,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -180,7 +196,9 @@
           "start": 417,
           "end": 418,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -212,7 +230,9 @@
                     "start": 447,
                     "end": 482,
                     "value": "#2: (false >>> 0) === 0. Actual: ",
-                    "raw": "'#2: (false >>> 0) === 0. Actual: '"
+                    "raw": "'#2: (false >>> 0) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -232,7 +252,9 @@
                           "start": 487,
                           "end": 492,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": ">>>",
                         "right": {
@@ -240,7 +262,9 @@
                           "start": 497,
                           "end": 498,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }

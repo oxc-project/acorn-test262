@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -699,7 +701,9 @@ __ESTREE_TEST__:PASS:
                       "start": 400,
                       "end": 402,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -718,7 +722,9 @@ __ESTREE_TEST__:PASS:
                     "start": 406,
                     "end": 410,
                     "raw": "\"hi\"",
-                    "value": "hi"
+                    "value": "hi",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -860,7 +866,9 @@ __ESTREE_TEST__:PASS:
                       "start": 493,
                       "end": 495,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -879,7 +887,9 @@ __ESTREE_TEST__:PASS:
                     "start": 499,
                     "end": 503,
                     "raw": "\"hi\"",
-                    "value": "hi"
+                    "value": "hi",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -1014,7 +1024,9 @@ __ESTREE_TEST__:PASS:
                       "start": 598,
                       "end": 600,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -1033,7 +1045,9 @@ __ESTREE_TEST__:PASS:
                     "start": 604,
                     "end": 608,
                     "raw": "\"hi\"",
-                    "value": "hi"
+                    "value": "hi",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -1133,7 +1147,9 @@ __ESTREE_TEST__:PASS:
                       "start": 668,
                       "end": 670,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -1152,7 +1168,9 @@ __ESTREE_TEST__:PASS:
                     "start": 674,
                     "end": 678,
                     "raw": "\"hi\"",
-                    "value": "hi"
+                    "value": "hi",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 25,
         "raw": "\"./account\"",
-        "value": "./account"
+        "value": "./account",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -335,7 +337,9 @@ __ESTREE_TEST__:PASS:
         "start": 150,
         "end": 159,
         "raw": "\"./model\"",
-        "value": "./model"
+        "value": "./model",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

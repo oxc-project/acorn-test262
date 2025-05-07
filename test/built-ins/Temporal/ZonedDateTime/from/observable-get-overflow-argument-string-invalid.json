@@ -96,7 +96,9 @@
                       "start": 429,
                       "end": 441,
                       "value": "compatible",
-                      "raw": "\"compatible\""
+                      "raw": "\"compatible\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -118,7 +120,9 @@
                       "start": 453,
                       "end": 461,
                       "value": "ignore",
-                      "raw": "\"ignore\""
+                      "raw": "\"ignore\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -140,7 +144,9 @@
                       "start": 475,
                       "end": 483,
                       "value": "reject",
-                      "raw": "\"reject\""
+                      "raw": "\"reject\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -151,7 +157,9 @@
                 "start": 488,
                 "end": 497,
                 "value": "options",
-                "raw": "\"options\""
+                "raw": "\"options\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -245,7 +253,9 @@
                   "start": 561,
                   "end": 593,
                   "value": "2020-13-34T25:60:60+99:99[UTC]",
-                  "raw": "\"2020-13-34T25:60:60+99:99[UTC]\""
+                  "raw": "\"2020-13-34T25:60:60+99:99[UTC]\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -306,7 +316,9 @@
             "start": 638,
             "end": 673,
             "value": "options read after string parsing",
-            "raw": "\"options read after string parsing\""
+            "raw": "\"options read after string parsing\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

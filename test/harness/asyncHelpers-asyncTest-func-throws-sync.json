@@ -23,7 +23,9 @@
             "start": 260,
             "end": 265,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 277,
             "end": 301,
             "value": "Should not be rethrown",
-            "raw": "\"Should not be rethrown\""
+            "raw": "\"Should not be rethrown\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +105,9 @@
                 "start": 338,
                 "end": 342,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -200,7 +206,9 @@
                   "start": 424,
                   "end": 453,
                   "value": "Should report correct error",
-                  "raw": "\"Should report correct error\""
+                  "raw": "\"Should report correct error\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -295,7 +303,9 @@
             "start": 532,
             "end": 590,
             "value": "asyncTest called $DONE with a synchronously thrown error",
-            "raw": "\"asyncTest called $DONE with a synchronously thrown error\""
+            "raw": "\"asyncTest called $DONE with a synchronously thrown error\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,14 +23,18 @@
             "start": 370,
             "end": 376,
             "value": "eval",
-            "raw": "'eval'"
+            "raw": "'eval'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 387,
             "value": "return;",
-            "raw": "'return;'"
+            "raw": "'return;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

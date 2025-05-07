@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -158,7 +160,9 @@ __ESTREE_TEST__:PASS:
               "start": 71,
               "end": 73,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -198,7 +202,9 @@ __ESTREE_TEST__:PASS:
               "start": 91,
               "end": 93,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -238,7 +244,9 @@ __ESTREE_TEST__:PASS:
               "start": 111,
               "end": 113,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -278,7 +286,9 @@ __ESTREE_TEST__:PASS:
               "start": 131,
               "end": 133,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -318,7 +328,9 @@ __ESTREE_TEST__:PASS:
               "start": 153,
               "end": 155,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -352,7 +364,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 43,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -367,7 +381,9 @@ __ESTREE_TEST__:PASS:
         "start": 63,
         "end": 90,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -440,7 +456,9 @@ __ESTREE_TEST__:PASS:
         "start": 129,
         "end": 156,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -513,7 +531,9 @@ __ESTREE_TEST__:PASS:
         "start": 198,
         "end": 225,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -643,7 +663,9 @@ __ESTREE_TEST__:PASS:
         "start": 280,
         "end": 307,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -716,7 +738,9 @@ __ESTREE_TEST__:PASS:
         "start": 343,
         "end": 370,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -789,7 +813,9 @@ __ESTREE_TEST__:PASS:
         "start": 409,
         "end": 436,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -919,7 +945,9 @@ __ESTREE_TEST__:PASS:
         "start": 505,
         "end": 532,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1049,7 +1077,9 @@ __ESTREE_TEST__:PASS:
         "start": 585,
         "end": 612,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1122,7 +1152,9 @@ __ESTREE_TEST__:PASS:
         "start": 654,
         "end": 681,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1195,7 +1227,9 @@ __ESTREE_TEST__:PASS:
         "start": 775,
         "end": 802,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1235,7 +1269,9 @@ __ESTREE_TEST__:PASS:
         "start": 853,
         "end": 880,
         "raw": "\"es6ImportNamedImportAmd_0\"",
-        "value": "es6ImportNamedImportAmd_0"
+        "value": "es6ImportNamedImportAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

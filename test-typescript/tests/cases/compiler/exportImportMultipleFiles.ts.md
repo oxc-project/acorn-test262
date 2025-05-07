@@ -130,7 +130,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 61,
             "raw": "\"exportImportMultipleFiles_math\"",
-            "value": "exportImportMultipleFiles_math"
+            "value": "exportImportMultipleFiles_math",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -153,14 +155,18 @@ __ESTREE_TEST__:PASS:
             "start": 73,
             "end": 74,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 76,
             "end": 77,
             "raw": "4",
-            "value": 4
+            "value": 4,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -227,7 +233,9 @@ __ESTREE_TEST__:PASS:
           "start": 21,
           "end": 58,
           "raw": "'./exportImportMultipleFiles_library'",
-          "value": "./exportImportMultipleFiles_library"
+          "value": "./exportImportMultipleFiles_library",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -246,14 +254,18 @@ __ESTREE_TEST__:PASS:
             "start": 74,
             "end": 75,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 77,
             "end": 78,
             "raw": "4",
-            "value": 4
+            "value": 4,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

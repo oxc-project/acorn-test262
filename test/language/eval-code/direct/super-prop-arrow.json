@@ -63,7 +63,9 @@
                   "start": 638,
                   "end": 655,
                   "value": "super.property;",
-                  "raw": "'super.property;'"
+                  "raw": "'super.property;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -191,7 +193,9 @@
             "start": 739,
             "end": 747,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

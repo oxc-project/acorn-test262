@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?m-i:^a$)",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -83,7 +84,9 @@
                   "start": 1798,
                   "end": 1803,
                   "value": "A\n",
-                  "raw": "\"A\\n\""
+                  "raw": "\"A\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +97,9 @@
             "start": 1806,
             "end": 1831,
             "value": "Should not match 'A\\n'",
-            "raw": "\"Should not match 'A\\\\n'\""
+            "raw": "\"Should not match 'A\\\\n'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -144,7 +149,9 @@
                 "start": 1850,
                 "end": 1855,
                 "value": "a\n",
-                "raw": "\"a\\n\""
+                "raw": "\"a\\n\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -154,7 +161,9 @@
             "start": 1858,
             "end": 1879,
             "value": "Should match 'a\\n'",
-            "raw": "\"Should match 'a\\\\n'\""
+            "raw": "\"Should match 'a\\\\n'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,14 +200,18 @@
                 "start": 1904,
                 "end": 1916,
                 "value": "(?m-i:^a$)",
-                "raw": "\"(?m-i:^a$)\""
+                "raw": "\"(?m-i:^a$)\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1918,
                 "end": 1921,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -256,7 +269,9 @@
                   "start": 1941,
                   "end": 1946,
                   "value": "A\n",
-                  "raw": "\"A\\n\""
+                  "raw": "\"A\\n\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -267,7 +282,9 @@
             "start": 1949,
             "end": 1974,
             "value": "Should not match 'A\\n'",
-            "raw": "\"Should not match 'A\\\\n'\""
+            "raw": "\"Should not match 'A\\\\n'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -317,7 +334,9 @@
                 "start": 1993,
                 "end": 1998,
                 "value": "a\n",
-                "raw": "\"a\\n\""
+                "raw": "\"a\\n\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -327,7 +346,9 @@
             "start": 2001,
             "end": 2022,
             "value": "Should match 'a\\n'",
-            "raw": "\"Should match 'a\\\\n'\""
+            "raw": "\"Should match 'a\\\\n'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

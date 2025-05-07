@@ -47,7 +47,9 @@
                 "start": 314,
                 "end": 318,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 321,
             "end": 326,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 361,
             "value": "Boolean(null) must return false",
-            "raw": "'Boolean(null) must return false'"
+            "raw": "'Boolean(null) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

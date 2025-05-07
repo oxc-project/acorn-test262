@@ -129,14 +129,18 @@
             "start": 837,
             "end": 842,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 938,
             "value": "isConstructor(Object.getPrototypeOf((function* g() {}).prototype).throw) must return false",
-            "raw": "'isConstructor(Object.getPrototypeOf((function* g() {}).prototype).throw) must return false'"
+            "raw": "'isConstructor(Object.getPrototypeOf((function* g() {}).prototype).throw) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

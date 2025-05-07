@@ -99,7 +99,9 @@
             "start": 878,
             "end": 879,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -228,7 +230,9 @@
                                               "start": 979,
                                               "end": 984,
                                               "value": false,
-                                              "raw": "false"
+                                              "raw": "false",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           },
@@ -308,7 +312,9 @@
                                           "start": 1071,
                                           "end": 1072,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -497,7 +503,9 @@
                             "start": 1202,
                             "end": 1252,
                             "value": "The promise should be rejected, but was resolved",
-                            "raw": "'The promise should be rejected, but was resolved'"
+                            "raw": "'The promise should be rejected, but was resolved'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -566,7 +574,9 @@
                             "start": 1304,
                             "end": 1305,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

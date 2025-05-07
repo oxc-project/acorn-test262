@@ -69,14 +69,18 @@
             "start": 484,
             "end": 489,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 491,
             "end": 508,
             "value": "ordinary object",
-            "raw": "\"ordinary object\""
+            "raw": "\"ordinary object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -148,14 +152,18 @@
             "start": 552,
             "end": 557,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 566,
             "value": "Array",
-            "raw": "\"Array\""
+            "raw": "\"Array\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

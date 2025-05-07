@@ -75,14 +75,18 @@
             "start": 429,
             "end": 439,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 533,
             "value": "The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -126,7 +130,9 @@
                   "start": 564,
                   "end": 570,
                   "value": "avis",
-                  "raw": "\"avis\""
+                  "raw": "\"avis\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -267,7 +273,9 @@
                 "start": 688,
                 "end": 697,
                 "value": "seagull",
-                "raw": "\"seagull\""
+                "raw": "\"seagull\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -334,14 +342,18 @@
             "start": 760,
             "end": 770,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 855,
             "value": "The value of `typeof seagull.propertyIsEnumerable` is expected to be \"function\"",
-            "raw": "'The value of `typeof seagull.propertyIsEnumerable` is expected to be \"function\"'"
+            "raw": "'The value of `typeof seagull.propertyIsEnumerable` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -403,7 +415,9 @@
                     "start": 901,
                     "end": 907,
                     "value": "name",
-                    "raw": "\"name\""
+                    "raw": "\"name\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -415,7 +429,9 @@
             "start": 912,
             "end": 988,
             "value": "The value of !!seagull.propertyIsEnumerable(\"name\") is expected to be true",
-            "raw": "'The value of !!seagull.propertyIsEnumerable(\"name\") is expected to be true'"
+            "raw": "'The value of !!seagull.propertyIsEnumerable(\"name\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -471,7 +487,9 @@
                   "start": 1033,
                   "end": 1043,
                   "value": "rootprop",
-                  "raw": "\"rootprop\""
+                  "raw": "\"rootprop\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -482,7 +500,9 @@
             "start": 1048,
             "end": 1127,
             "value": "The value of !seagull.propertyIsEnumerable(\"rootprop\") is expected to be true",
-            "raw": "'The value of !seagull.propertyIsEnumerable(\"rootprop\") is expected to be true'"
+            "raw": "'The value of !seagull.propertyIsEnumerable(\"rootprop\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

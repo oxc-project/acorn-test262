@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "^[\\ud834\\udf06]$",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 666,
                 "end": 680,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

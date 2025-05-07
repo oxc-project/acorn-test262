@@ -282,14 +282,18 @@
                         "start": 655,
                         "end": 662,
                         "value": "#!\n_",
-                        "raw": "'#!\\n_'"
+                        "raw": "'#!\\n_'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 664,
                         "end": 666,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -406,7 +410,9 @@
                         "start": 740,
                         "end": 747,
                         "value": "#!\n_",
-                        "raw": "'#!\\n_'"
+                        "raw": "'#!\\n_'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -523,14 +529,18 @@
                         "start": 821,
                         "end": 828,
                         "value": "#!\n_",
-                        "raw": "'#!\\n_'"
+                        "raw": "'#!\\n_'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 830,
                         "end": 832,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -646,7 +656,9 @@
                         "start": 915,
                         "end": 922,
                         "value": "#!\n_",
-                        "raw": "'#!\\n_'"
+                        "raw": "'#!\\n_'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

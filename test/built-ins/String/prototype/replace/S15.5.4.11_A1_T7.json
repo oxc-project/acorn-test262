@@ -41,7 +41,9 @@
                     "start": 459,
                     "end": 460,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -62,7 +64,9 @@
               "start": 470,
               "end": 473,
               "value": "e",
-              "raw": "\"e\""
+              "raw": "\"e\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -79,7 +83,9 @@
           "start": 490,
           "end": 509,
           "value": "undundefinedfined",
-          "raw": "\"undundefinedfined\""
+          "raw": "\"undundefinedfined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -111,7 +117,9 @@
                     "start": 538,
                     "end": 615,
                     "value": "#1: String(void 0).replace(\"e\",undefined) === \"undundefinedfined\". Actual: ",
-                    "raw": "'#1: String(void 0).replace(\"e\",undefined) === \"undundefinedfined\". Actual: '"
+                    "raw": "'#1: String(void 0).replace(\"e\",undefined) === \"undundefinedfined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -144,7 +152,9 @@
                               "start": 630,
                               "end": 631,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -165,7 +175,9 @@
                         "start": 641,
                         "end": 644,
                         "value": "e",
-                        "raw": "\"e\""
+                        "raw": "\"e\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

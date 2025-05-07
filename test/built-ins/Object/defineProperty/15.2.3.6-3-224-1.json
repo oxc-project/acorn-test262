@@ -92,7 +92,9 @@
                   "start": 413,
                   "end": 430,
                   "value": "dateGetProperty",
-                  "raw": "\"dateGetProperty\""
+                  "raw": "\"dateGetProperty\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -170,7 +172,9 @@
             "start": 489,
             "end": 499,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -234,14 +238,18 @@
             "start": 543,
             "end": 560,
             "value": "dateGetProperty",
-            "raw": "\"dateGetProperty\""
+            "raw": "\"dateGetProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 562,
             "end": 576,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -22,7 +22,9 @@
             "start": 278,
             "end": 281,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -37,7 +39,9 @@
             "start": 287,
             "end": 288,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -70,7 +74,9 @@
                     "start": 317,
                     "end": 344,
                     "value": "#1: -\"1\" === -1. Actual: ",
-                    "raw": "'#1: -\"1\" === -1. Actual: '"
+                    "raw": "'#1: -\"1\" === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -88,7 +94,9 @@
                         "start": 349,
                         "end": 352,
                         "value": "1",
-                        "raw": "\"1\""
+                        "raw": "\"1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -130,7 +138,9 @@
                 "start": 380,
                 "end": 383,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -142,7 +152,9 @@
           "start": 389,
           "end": 393,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -174,7 +186,9 @@
                     "start": 422,
                     "end": 459,
                     "value": "#2: -\"x\" === Not-a-Number. Actual: ",
-                    "raw": "'#2: -\"x\" === Not-a-Number. Actual: '"
+                    "raw": "'#2: -\"x\" === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -192,7 +206,9 @@
                         "start": 464,
                         "end": 467,
                         "value": "x",
-                        "raw": "\"x\""
+                        "raw": "\"x\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -234,7 +250,9 @@
                 "start": 500,
                 "end": 504,
                 "value": "-1",
-                "raw": "\"-1\""
+                "raw": "\"-1\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -245,7 +263,9 @@
           "start": 510,
           "end": 511,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -277,7 +297,9 @@
                     "start": 540,
                     "end": 579,
                     "value": "#3: -new String(\"-1\") === 1. Actual: ",
-                    "raw": "'#3: -new String(\"-1\") === 1. Actual: '"
+                    "raw": "'#3: -new String(\"-1\") === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -306,7 +328,9 @@
                             "start": 595,
                             "end": 599,
                             "value": "-1",
-                            "raw": "\"-1\""
+                            "raw": "\"-1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

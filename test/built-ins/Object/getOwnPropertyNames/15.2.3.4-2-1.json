@@ -133,7 +133,9 @@
             "start": 366,
             "end": 398,
             "value": "Array.isArray(result) !== true",
-            "raw": "'Array.isArray(result) !== true'"
+            "raw": "'Array.isArray(result) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

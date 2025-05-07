@@ -240,7 +240,9 @@
                 "start": 597,
                 "end": 602,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -286,7 +288,9 @@
                 "start": 626,
                 "end": 630,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -343,7 +347,9 @@
                     "start": 661,
                     "end": 666,
                     "value": "foo",
-                    "raw": "\"foo\""
+                    "raw": "\"foo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -437,7 +443,9 @@
                 "start": 718,
                 "end": 719,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -489,7 +497,9 @@
             "start": 745,
             "end": 746,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -499,7 +509,9 @@
           "start": 750,
           "end": 757,
           "value": "en-US",
-          "raw": "\"en-US\""
+          "raw": "\"en-US\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -549,7 +561,9 @@
           "start": 785,
           "end": 786,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -598,7 +612,9 @@
                 "start": 811,
                 "end": 818,
                 "value": "en-US",
-                "raw": "\"en-US\""
+                "raw": "\"en-US\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

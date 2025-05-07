@@ -47,7 +47,9 @@
                 "start": 244,
                 "end": 245,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -145,7 +147,9 @@
             "start": 302,
             "end": 356,
             "value": "The value of p1 is expected to equal the value of p2",
-            "raw": "'The value of p1 is expected to equal the value of p2'"
+            "raw": "'The value of p1 is expected to equal the value of p2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

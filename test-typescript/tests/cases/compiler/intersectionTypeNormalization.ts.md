@@ -2733,7 +2733,9 @@ __ESTREE_TEST__:PASS:
                       "start": 995,
                       "end": 1000,
                       "raw": "'int'",
-                      "value": "int"
+                      "value": "int",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -2805,7 +2807,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1045,
                       "end": 1053,
                       "raw": "'string'",
-                      "value": "string"
+                      "value": "string",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -2958,7 +2962,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1151,
                           "end": 1156,
                           "raw": "'int'",
-                          "value": "int"
+                          "value": "int",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -3052,7 +3058,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1220,
                           "end": 1228,
                           "raw": "'string'",
-                          "value": "string"
+                          "value": "string",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -3143,7 +3151,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1364,
                       "end": 1366,
                       "raw": "''",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "MemberExpression",
@@ -3209,7 +3219,9 @@ __ESTREE_TEST__:PASS:
                 "start": 1340,
                 "end": 1345,
                 "raw": "'int'",
-                "value": "int"
+                "value": "int",
+                "regex": null,
+                "bigint": null
               }
             }
           },

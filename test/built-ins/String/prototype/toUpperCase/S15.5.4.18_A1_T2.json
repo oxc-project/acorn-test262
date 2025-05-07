@@ -136,7 +136,9 @@
           "start": 455,
           "end": 462,
           "value": "FALSE",
-          "raw": "\"FALSE\""
+          "raw": "\"FALSE\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -168,7 +170,9 @@
                     "start": 491,
                     "end": 625,
                     "value": "#1: __instance = new Boolean; __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"FALSE\". Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"FALSE\". Actual: '"
+                    "raw": "'#1: __instance = new Boolean; __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"FALSE\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -64,7 +64,9 @@
             "start": 315,
             "end": 325,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -201,7 +203,9 @@
               "start": 416,
               "end": 427,
               "value": "prototype",
-              "raw": "\"prototype\""
+              "raw": "\"prototype\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -231,7 +235,9 @@
             "start": 443,
             "end": 448,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

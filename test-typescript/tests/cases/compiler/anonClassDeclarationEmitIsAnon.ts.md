@@ -483,7 +483,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 52,
         "raw": "\"./wrapClass\"",
-        "value": "./wrapClass"
+        "value": "./wrapClass",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -550,7 +552,9 @@ __ESTREE_TEST__:PASS:
             "start": 80,
             "end": 81,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -610,7 +614,9 @@ __ESTREE_TEST__:PASS:
                 "start": 132,
                 "end": 134,
                 "raw": "''",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

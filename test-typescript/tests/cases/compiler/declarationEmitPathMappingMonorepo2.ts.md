@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 23,
         "raw": "\"./utils\"",
-        "value": "./utils"
+        "value": "./utils",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -32,7 +34,9 @@ __ESTREE_TEST__:PASS:
         "start": 60,
         "end": 71,
         "raw": "\"./SvgIcon\"",
-        "value": "./SvgIcon"
+        "value": "./SvgIcon",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -84,7 +88,9 @@ __ESTREE_TEST__:PASS:
         "start": 37,
         "end": 53,
         "raw": "\"@ts-bug/styles\"",
-        "value": "@ts-bug/styles"
+        "value": "@ts-bug/styles",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -192,7 +198,9 @@ __ESTREE_TEST__:PASS:
                     "start": 114,
                     "end": 120,
                     "raw": "\"root\"",
-                    "value": "root"
+                    "value": "root",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -358,7 +366,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 31,
         "raw": "\"./SvgIcon\"",
-        "value": "./SvgIcon"
+        "value": "./SvgIcon",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -626,7 +636,9 @@ __ESTREE_TEST__:PASS:
         "start": 30,
         "end": 50,
         "raw": "\"@ts-bug/core/utils\"",
-        "value": "@ts-bug/core/utils"
+        "value": "@ts-bug/core/utils",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -669,14 +681,18 @@ __ESTREE_TEST__:PASS:
             "start": 81,
             "end": 88,
             "raw": "\"Hello\"",
-            "value": "Hello"
+            "value": "Hello",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 90,
             "end": 101,
             "raw": "\"ArrowLeft\"",
-            "value": "ArrowLeft"
+            "value": "ArrowLeft",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

@@ -94,7 +94,9 @@
             "start": 406,
             "end": 425,
             "value": "Intl.NumberFormat",
-            "raw": "'Intl.NumberFormat'"
+            "raw": "'Intl.NumberFormat'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,7 +213,9 @@
             "start": 507,
             "end": 535,
             "value": "[object Intl.NumberFormat]",
-            "raw": "'[object Intl.NumberFormat]'"
+            "raw": "'[object Intl.NumberFormat]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +323,9 @@
                   "start": 622,
                   "end": 629,
                   "value": "Alpha",
-                  "raw": "'Alpha'"
+                  "raw": "'Alpha'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -420,7 +426,9 @@
             "start": 701,
             "end": 708,
             "value": "Alpha",
-            "raw": "'Alpha'"
+            "raw": "'Alpha'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -537,7 +545,9 @@
             "start": 790,
             "end": 806,
             "value": "[object Alpha]",
-            "raw": "'[object Alpha]'"
+            "raw": "'[object Alpha]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -820,7 +830,9 @@
             "start": 1025,
             "end": 1042,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

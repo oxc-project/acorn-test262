@@ -25,7 +25,9 @@
         "start": 1062,
         "end": 1115,
         "value": "./instn-star-props-dflt-keep-local-named_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-keep-local-named_FIXTURE.js'"
+        "raw": "'./instn-star-props-dflt-keep-local-named_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -51,7 +53,9 @@
         "start": 1145,
         "end": 1197,
         "value": "./instn-star-props-dflt-keep-local-prod_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-keep-local-prod_FIXTURE.js'"
+        "raw": "'./instn-star-props-dflt-keep-local-prod_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -92,7 +96,9 @@
               "start": 1217,
               "end": 1226,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -107,14 +113,18 @@
             "start": 1237,
             "end": 1241,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1243,
             "end": 1277,
             "value": "default specified via identifier",
-            "raw": "'default specified via identifier'"
+            "raw": "'default specified via identifier'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -157,7 +167,9 @@
               "start": 1301,
               "end": 1310,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -172,14 +184,18 @@
             "start": 1326,
             "end": 1330,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1332,
             "end": 1376,
             "value": "default specified via dedicated production",
-            "raw": "'default specified via dedicated production'"
+            "raw": "'default specified via dedicated production'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -53,7 +53,9 @@
                               "start": 1143,
                               "end": 1179,
                               "value": "./dynamic-import-module_FIXTURE.js",
-                              "raw": "'./dynamic-import-module_FIXTURE.js'"
+                              "raw": "'./dynamic-import-module_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": null
                           },
@@ -62,7 +64,9 @@
                             "start": 1181,
                             "end": 1187,
                             "value": "then",
-                            "raw": "'then'"
+                            "raw": "'then'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "computed": true,
                           "optional": false
@@ -177,7 +181,9 @@
                                     "start": 1250,
                                     "end": 1251,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

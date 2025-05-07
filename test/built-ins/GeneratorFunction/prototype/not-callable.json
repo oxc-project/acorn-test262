@@ -111,7 +111,9 @@
             "start": 735,
             "end": 743,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,7 +242,9 @@
                   "start": 871,
                   "end": 879,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -251,7 +255,9 @@
             "start": 882,
             "end": 890,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -307,7 +313,9 @@
                   "start": 943,
                   "end": 949,
                   "value": "name",
-                  "raw": "\"name\""
+                  "raw": "\"name\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -318,7 +326,9 @@
             "start": 952,
             "end": 958,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

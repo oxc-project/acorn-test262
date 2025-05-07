@@ -41,7 +41,9 @@
                   "start": 344,
                   "end": 345,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -119,7 +121,9 @@
                       "start": 391,
                       "end": 392,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -148,7 +152,9 @@
                       "start": 403,
                       "end": 406,
                       "value": "c",
-                      "raw": "\"c\""
+                      "raw": "\"c\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -213,14 +219,18 @@
             "start": 439,
             "end": 442,
             "value": "c",
-            "raw": "\"c\""
+            "raw": "\"c\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 470,
             "value": "The value should be 'c'.",
-            "raw": "\"The value should be 'c'.\""
+            "raw": "\"The value should be 'c'.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

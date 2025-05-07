@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 51,
           "raw": "\"./errorsOnImportedSymbol_0\"",
-          "value": "./errorsOnImportedSymbol_0"
+          "value": "./errorsOnImportedSymbol_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

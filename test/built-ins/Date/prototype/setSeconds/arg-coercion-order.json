@@ -146,7 +146,9 @@
                               "start": 825,
                               "end": 838,
                               "value": "valueOf sec",
-                              "raw": "'valueOf sec'"
+                              "raw": "'valueOf sec'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -161,7 +163,9 @@
                           "start": 852,
                           "end": 853,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -255,7 +259,9 @@
                               "start": 917,
                               "end": 929,
                               "value": "valueOf ms",
-                              "raw": "'valueOf ms'"
+                              "raw": "'valueOf ms'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -270,7 +276,9 @@
                           "start": 943,
                           "end": 944,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -367,14 +375,18 @@
                 "start": 1028,
                 "end": 1041,
                 "value": "valueOf sec",
-                "raw": "'valueOf sec'"
+                "raw": "'valueOf sec'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1043,
                 "end": 1055,
                 "value": "valueOf ms",
-                "raw": "'valueOf ms'"
+                "raw": "'valueOf ms'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -471,7 +483,9 @@
             "start": 1141,
             "end": 1193,
             "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "raw": "'argument is ignored when `this` is an invalid date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -542,7 +556,9 @@
             "start": 1234,
             "end": 1286,
             "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "raw": "'argument is ignored when `this` is an invalid date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

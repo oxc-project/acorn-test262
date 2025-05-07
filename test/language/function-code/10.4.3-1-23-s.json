@@ -104,7 +104,9 @@
             "start": 389,
             "end": 400,
             "value": "(new f())",
-            "raw": "'(new f())'"
+            "raw": "'(new f())'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -167,14 +169,18 @@
             "start": 441,
             "end": 452,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 472,
             "value": "typeof (new f())",
-            "raw": "'typeof (new f())'"
+            "raw": "'typeof (new f())'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

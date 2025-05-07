@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 11,
               "end": 24,
               "raw": "'gold \\u2730'",
-              "value": "gold ✰"
+              "value": "gold ✰",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           }

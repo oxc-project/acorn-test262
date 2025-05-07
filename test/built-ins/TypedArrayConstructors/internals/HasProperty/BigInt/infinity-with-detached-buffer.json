@@ -59,7 +59,9 @@
                         "start": 1008,
                         "end": 1009,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -140,6 +142,7 @@
                                       "end": 1072,
                                       "value": null,
                                       "raw": "9n",
+                                      "regex": null,
                                       "bigint": "9"
                                     }
                                   }
@@ -193,14 +196,18 @@
                         "start": 1114,
                         "end": 1115,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1117,
                         "end": 1146,
                         "value": "The value of `counter` is 0",
-                        "raw": "'The value of `counter` is 0'"
+                        "raw": "'The value of `counter` is 0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -290,14 +297,18 @@
                         "start": 1201,
                         "end": 1202,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1204,
                         "end": 1233,
                         "value": "The value of `counter` is 1",
-                        "raw": "'The value of `counter` is 1'"
+                        "raw": "'The value of `counter` is 1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -406,14 +417,18 @@
                               "start": 1323,
                               "end": 1324,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1326,
                               "end": 1355,
                               "value": "The value of `counter` is 1",
-                              "raw": "'The value of `counter` is 1'"
+                              "raw": "'The value of `counter` is 1'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

@@ -121,7 +121,9 @@
             "start": 516,
             "end": 538,
             "value": "[object Intl.Locale]",
-            "raw": "\"[object Intl.Locale]\""
+            "raw": "\"[object Intl.Locale]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +236,9 @@
                     "start": 605,
                     "end": 609,
                     "value": "en",
-                    "raw": "\"en\""
+                    "raw": "\"en\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -246,7 +250,9 @@
             "start": 613,
             "end": 635,
             "value": "[object Intl.Locale]",
-            "raw": "\"[object Intl.Locale]\""
+            "raw": "\"[object Intl.Locale]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

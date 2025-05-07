@@ -75,14 +75,18 @@
             "start": 445,
             "end": 455,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 520,
             "value": "The value of `typeof TypedArray.prototype.at` is \"function\"",
-            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'"
+            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -196,14 +200,18 @@
                         "start": 607,
                         "end": 617,
                         "value": "function",
-                        "raw": "'function'"
+                        "raw": "'function'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 619,
                         "end": 672,
                         "value": "The value of `typeof TA.prototype.at` is \"function\"",
-                        "raw": "'The value of `typeof TA.prototype.at` is \"function\"'"
+                        "raw": "'The value of `typeof TA.prototype.at` is \"function\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -245,28 +253,36 @@
                                 "start": 693,
                                 "end": 694,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 695,
                                 "end": 696,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 697,
                                 "end": 698,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 699,
                                 "end": 700,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }

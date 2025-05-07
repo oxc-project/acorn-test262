@@ -23,7 +23,9 @@
             "start": 336,
             "end": 341,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 394,
                 "end": 398,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -104,7 +108,9 @@
                 "start": 409,
                 "end": 416,
                 "value": "hello",
-                "raw": "'hello'"
+                "raw": "'hello'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "===",
               "right": {
@@ -169,14 +175,18 @@
                   "start": 454,
                   "end": 455,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 457,
                   "end": 459,
                   "value": 11,
-                  "raw": "11"
+                  "raw": "11",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -198,7 +208,9 @@
                   "start": 471,
                   "end": 472,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -290,7 +302,9 @@
                 "start": 528,
                 "end": 535,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -300,7 +314,9 @@
             "start": 538,
             "end": 601,
             "value": "Array.prototype.every.call(obj, callbackfn, \"hello\") !== true",
-            "raw": "'Array.prototype.every.call(obj, callbackfn, \"hello\") !== true'"
+            "raw": "'Array.prototype.every.call(obj, callbackfn, \"hello\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +348,9 @@
             "start": 621,
             "end": 640,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

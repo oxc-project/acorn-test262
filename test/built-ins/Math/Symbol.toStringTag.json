@@ -68,7 +68,9 @@
             "start": 537,
             "end": 543,
             "value": "Math",
-            "raw": "'Math'"
+            "raw": "'Math'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +139,9 @@
                   "start": 602,
                   "end": 607,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +163,9 @@
                   "start": 623,
                   "end": 628,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -181,7 +187,9 @@
                   "start": 646,
                   "end": 650,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

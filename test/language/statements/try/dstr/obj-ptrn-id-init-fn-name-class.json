@@ -23,7 +23,9 @@
             "start": 1076,
             "end": 1081,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -272,7 +274,9 @@
                     "start": 1217,
                     "end": 1222,
                     "value": "cls",
-                    "raw": "'cls'"
+                    "raw": "'cls'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -330,7 +334,9 @@
                     "start": 1258,
                     "end": 1264,
                     "value": "xCls",
-                    "raw": "'xCls'"
+                    "raw": "'xCls'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -388,7 +394,9 @@
                     "start": 1301,
                     "end": 1308,
                     "value": "xCls2",
-                    "raw": "'xCls2'"
+                    "raw": "'xCls2'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -414,7 +422,9 @@
                   "start": 1324,
                   "end": 1328,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -449,7 +459,9 @@
             "start": 1350,
             "end": 1374,
             "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "raw": "'executed `catch` block'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

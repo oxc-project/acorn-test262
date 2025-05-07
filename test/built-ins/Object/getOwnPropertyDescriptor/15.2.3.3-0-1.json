@@ -67,14 +67,18 @@
             "start": 297,
             "end": 307,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 309,
             "end": 350,
             "value": "typeof(Object.getOwnPropertyDescriptor)",
-            "raw": "'typeof(Object.getOwnPropertyDescriptor)'"
+            "raw": "'typeof(Object.getOwnPropertyDescriptor)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

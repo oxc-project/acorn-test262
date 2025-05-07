@@ -86,7 +86,9 @@ __ESTREE_TEST__:PASS:
                   "start": 35,
                   "end": 36,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -99,7 +101,9 @@ __ESTREE_TEST__:PASS:
                   "start": 43,
                   "end": 47,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -110,7 +114,9 @@ __ESTREE_TEST__:PASS:
                   "start": 50,
                   "end": 51,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -133,7 +139,9 @@ __ESTREE_TEST__:PASS:
                   "start": 63,
                   "end": 64,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -156,7 +164,9 @@ __ESTREE_TEST__:PASS:
                   "start": 76,
                   "end": 77,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -197,7 +207,9 @@ __ESTREE_TEST__:PASS:
                   "start": 112,
                   "end": 116,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -208,7 +220,9 @@ __ESTREE_TEST__:PASS:
                   "start": 119,
                   "end": 123,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

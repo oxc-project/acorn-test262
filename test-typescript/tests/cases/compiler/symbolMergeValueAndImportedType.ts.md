@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "\"./other\"",
-        "value": "./other"
+        "value": "./other",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -69,7 +71,9 @@ __ESTREE_TEST__:PASS:
             "start": 39,
             "end": 41,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +100,9 @@ __ESTREE_TEST__:PASS:
               "start": 55,
               "end": 62,
               "raw": "'X is '",
-              "value": "X is "
+              "value": "X is ",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",

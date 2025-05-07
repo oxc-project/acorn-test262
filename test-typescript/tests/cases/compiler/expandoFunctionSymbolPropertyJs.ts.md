@@ -157,7 +157,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 30,
         "raw": "\"./types\"",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -268,7 +270,9 @@ __ESTREE_TEST__:PASS:
                   "start": 145,
                   "end": 149,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },

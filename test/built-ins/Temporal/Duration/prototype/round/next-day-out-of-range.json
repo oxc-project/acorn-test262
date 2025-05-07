@@ -92,6 +92,7 @@
                 "end": 464,
                 "value": null,
                 "raw": "86400_0000_0000_000_000_000n",
+                "regex": null,
                 "bigint": "8640000000000000000000"
               },
               {
@@ -99,7 +100,9 @@
                 "start": 466,
                 "end": 471,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -197,7 +200,9 @@
                         "start": 541,
                         "end": 547,
                         "value": "days",
-                        "raw": "\"days\""
+                        "raw": "\"days\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -219,7 +224,9 @@
                         "start": 563,
                         "end": 572,
                         "value": "minutes",
-                        "raw": "\"minutes\""
+                        "raw": "\"minutes\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -255,7 +262,9 @@
             "start": 591,
             "end": 626,
             "value": "Next day boundary is out of range",
-            "raw": "\"Next day boundary is out of range\""
+            "raw": "\"Next day boundary is out of range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

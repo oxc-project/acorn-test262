@@ -96,7 +96,9 @@
                         "start": 379,
                         "end": 383,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -154,7 +156,9 @@
             "start": 426,
             "end": 463,
             "value": "Empty map#forEach returns undefined",
-            "raw": "'Empty map#forEach returns undefined'"
+            "raw": "'Empty map#forEach returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -193,14 +197,18 @@
             "start": 475,
             "end": 476,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 479,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -268,7 +276,9 @@
                       "start": 525,
                       "end": 529,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -324,7 +334,9 @@
             "start": 572,
             "end": 603,
             "value": "map#forEach returns undefined",
-            "raw": "'map#forEach returns undefined'"
+            "raw": "'map#forEach returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

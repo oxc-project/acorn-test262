@@ -60,7 +60,9 @@
                 "start": 287,
                 "end": 292,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +91,9 @@
             "start": 313,
             "end": 343,
             "value": "Object.getPrototypeOf(\"abc\")",
-            "raw": "'Object.getPrototypeOf(\"abc\")'"
+            "raw": "'Object.getPrototypeOf(\"abc\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

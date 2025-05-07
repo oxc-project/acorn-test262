@@ -75,14 +75,18 @@
             "start": 388,
             "end": 398,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 475,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -182,7 +186,9 @@
                 "start": 546,
                 "end": 564,
                 "value": "() => globalThis",
-                "raw": "'() => globalThis'"
+                "raw": "'() => globalThis'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +198,9 @@
             "start": 567,
             "end": 579,
             "value": "globalThis",
-            "raw": "'globalThis'"
+            "raw": "'globalThis'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -261,7 +269,9 @@
                 "start": 618,
                 "end": 628,
                 "value": "() => []",
-                "raw": "'() => []'"
+                "raw": "'() => []'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -271,7 +281,9 @@
             "start": 631,
             "end": 646,
             "value": "array literal",
-            "raw": "'array literal'"
+            "raw": "'array literal'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +373,9 @@
             "start": 835,
             "end": 893,
             "value": "object literal with immediate primitive coercion methods",
-            "raw": "'object literal with immediate primitive coercion methods'"
+            "raw": "'object literal with immediate primitive coercion methods'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +444,9 @@
                 "start": 932,
                 "end": 959,
                 "value": "() => Object.create(null)",
-                "raw": "'() => Object.create(null)'"
+                "raw": "'() => Object.create(null)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -440,7 +456,9 @@
             "start": 962,
             "end": 999,
             "value": "ordinary object with null __proto__",
-            "raw": "'ordinary object with null __proto__'"
+            "raw": "'ordinary object with null __proto__'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -509,7 +527,9 @@
                 "start": 1038,
                 "end": 1075,
                 "value": "() => new Proxy({}, { apply() {} })",
-                "raw": "'() => new Proxy({}, { apply() {} })'"
+                "raw": "'() => new Proxy({}, { apply() {} })'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -519,7 +539,9 @@
             "start": 1078,
             "end": 1098,
             "value": "non-callable proxy",
-            "raw": "'non-callable proxy'"
+            "raw": "'non-callable proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

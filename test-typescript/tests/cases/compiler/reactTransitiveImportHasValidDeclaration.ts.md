@@ -299,7 +299,9 @@ __ESTREE_TEST__:PASS:
         "start": 47,
         "end": 54,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -327,7 +329,9 @@ __ESTREE_TEST__:PASS:
                 "start": 181,
                 "end": 186,
                 "raw": "\"div\"",
-                "value": "div"
+                "value": "div",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "readonly": false,
@@ -576,7 +580,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 29,
         "raw": "\"./types/react\"",
-        "value": "./types/react"
+        "value": "./types/react",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -602,7 +608,9 @@ __ESTREE_TEST__:PASS:
         "start": 61,
         "end": 84,
         "raw": "\"create-emotion-styled\"",
-        "value": "create-emotion-styled"
+        "value": "create-emotion-styled",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -757,7 +765,9 @@ __ESTREE_TEST__:PASS:
                           "start": 196,
                           "end": 201,
                           "raw": "\"div\"",
-                          "value": "div"
+                          "value": "div",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -824,7 +834,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 34,
         "raw": "\"react-emotion\"",
-        "value": "react-emotion"
+        "value": "react-emotion",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -895,7 +907,9 @@ __ESTREE_TEST__:PASS:
                       "start": 72,
                       "end": 77,
                       "raw": "\"red\"",
-                      "value": "red"
+                      "value": "red",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -911,7 +925,9 @@ __ESTREE_TEST__:PASS:
                   "start": 56,
                   "end": 61,
                   "raw": "'div'",
-                  "value": "div"
+                  "value": "div",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

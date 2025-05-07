@@ -50,7 +50,9 @@
               "start": 321,
               "end": 339,
               "value": "non-empty string",
-              "raw": "\"non-empty string\""
+              "raw": "\"non-empty string\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -89,7 +91,9 @@
                     "start": 352,
                     "end": 354,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -117,7 +121,9 @@
             "start": 374,
             "end": 406,
             "value": "[11].some(callbackfn) !== true",
-            "raw": "'[11].some(callbackfn) !== true'"
+            "raw": "'[11].some(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

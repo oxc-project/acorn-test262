@@ -71,14 +71,18 @@
                         "start": 731,
                         "end": 740,
                         "value": "(?s‌:a)",
-                        "raw": "\"(?s‌:a)\""
+                        "raw": "\"(?s‌:a)\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 742,
                         "end": 744,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -92,7 +96,9 @@
             "start": 750,
             "end": 775,
             "value": "RegExp(\"(?s‌:a)\", \"\"): ",
-            "raw": "'RegExp(\"(?s‌:a)\", \"\"): '"
+            "raw": "'RegExp(\"(?s‌:a)\", \"\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

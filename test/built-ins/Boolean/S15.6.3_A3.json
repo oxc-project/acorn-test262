@@ -47,7 +47,9 @@
                 "start": 312,
                 "end": 320,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 323,
             "end": 374,
             "value": "Boolean.hasOwnProperty(\"length\") must return true",
-            "raw": "'Boolean.hasOwnProperty(\"length\") must return true'"
+            "raw": "'Boolean.hasOwnProperty(\"length\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -115,14 +119,18 @@
             "start": 410,
             "end": 411,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 462,
             "value": "The value of Boolean.length is expected to be 1",
-            "raw": "'The value of Boolean.length is expected to be 1'"
+            "raw": "'The value of Boolean.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

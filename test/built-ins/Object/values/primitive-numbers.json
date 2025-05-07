@@ -64,7 +64,9 @@
                   "start": 276,
                   "end": 277,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -83,14 +85,18 @@
             "start": 287,
             "end": 288,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 290,
             "end": 309,
             "value": "0 has zero values",
-            "raw": "'0 has zero values'"
+            "raw": "'0 has zero values'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +169,9 @@
                     "start": 344,
                     "end": 345,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -183,14 +191,18 @@
             "start": 355,
             "end": 356,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 358,
             "end": 378,
             "value": "-0 has zero values",
-            "raw": "'-0 has zero values'"
+            "raw": "'-0 has zero values'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,14 +287,18 @@
             "start": 430,
             "end": 431,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 459,
             "value": "Infinity has zero values",
-            "raw": "'Infinity has zero values'"
+            "raw": "'Infinity has zero values'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -374,14 +390,18 @@
             "start": 512,
             "end": 513,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 542,
             "value": "-Infinity has zero values",
-            "raw": "'-Infinity has zero values'"
+            "raw": "'-Infinity has zero values'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,14 +486,18 @@
             "start": 589,
             "end": 590,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 613,
             "value": "NaN has zero values",
-            "raw": "'NaN has zero values'"
+            "raw": "'NaN has zero values'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -571,14 +595,18 @@
             "start": 664,
             "end": 665,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 692,
             "value": "Math.PI has zero values",
-            "raw": "'Math.PI has zero values'"
+            "raw": "'Math.PI has zero values'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

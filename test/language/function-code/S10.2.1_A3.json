@@ -95,14 +95,18 @@
                   "start": 598,
                   "end": 599,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 601,
                   "end": 602,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -142,7 +146,9 @@
                   "start": 646,
                   "end": 674,
                   "value": "#1: f1(1, 2) === undefined",
-                  "raw": "'#1: f1(1, 2) === undefined'"
+                  "raw": "'#1: f1(1, 2) === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

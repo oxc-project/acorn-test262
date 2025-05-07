@@ -31,7 +31,9 @@
               "start": 320,
               "end": 321,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -68,7 +70,9 @@
                   "start": 357,
                   "end": 376,
                   "value": "#1: (y = 1) === y",
-                  "raw": "'#1: (y = 1) === y'"
+                  "raw": "'#1: (y = 1) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

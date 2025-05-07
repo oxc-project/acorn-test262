@@ -28,7 +28,9 @@
                 "start": 315,
                 "end": 319,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -53,7 +55,9 @@
                     "start": 329,
                     "end": 332,
                     "value": "i",
-                    "raw": "\"i\""
+                    "raw": "\"i\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -67,7 +71,9 @@
                     "start": 336,
                     "end": 343,
                     "value": "de_DE",
-                    "raw": "\"de_DE\""
+                    "raw": "\"de_DE\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -120,7 +126,9 @@
                       "start": 383,
                       "end": 387,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -149,7 +157,9 @@
                       "start": 402,
                       "end": 411,
                       "value": "invalid",
-                      "raw": "\"invalid\""
+                      "raw": "\"invalid\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -178,7 +188,9 @@
                       "start": 432,
                       "end": 441,
                       "value": "invalid",
-                      "raw": "\"invalid\""
+                      "raw": "\"invalid\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -429,7 +441,9 @@
                             "start": 679,
                             "end": 760,
                             "value": "Internal error: Expected exception was not thrown by Intl.Collator for locales ",
-                            "raw": "\"Internal error: Expected exception was not thrown by Intl.Collator for locales \""
+                            "raw": "\"Internal error: Expected exception was not thrown by Intl.Collator for locales \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -445,7 +459,9 @@
                           "start": 773,
                           "end": 776,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -541,7 +557,9 @@
                                         "start": 860,
                                         "end": 862,
                                         "value": "",
-                                        "raw": "\"\""
+                                        "raw": "\"\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "property": {
                                         "type": "Identifier",
@@ -558,7 +576,9 @@
                                         "start": 877,
                                         "end": 879,
                                         "value": "",
-                                        "raw": "\"\""
+                                        "raw": "\"\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -589,7 +609,9 @@
                             "start": 898,
                             "end": 966,
                             "value": "String.prototype.localeCompare didn't throw exception for locales ",
-                            "raw": "\"String.prototype.localeCompare didn't throw exception for locales \""
+                            "raw": "\"String.prototype.localeCompare didn't throw exception for locales \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -605,7 +627,9 @@
                           "start": 979,
                           "end": 982,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -864,7 +888,9 @@
                             "start": 1226,
                             "end": 1307,
                             "value": "Internal error: Expected exception was not thrown by Intl.Collator for options ",
-                            "raw": "\"Internal error: Expected exception was not thrown by Intl.Collator for options \""
+                            "raw": "\"Internal error: Expected exception was not thrown by Intl.Collator for options \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -907,7 +933,9 @@
                           "start": 1336,
                           "end": 1339,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -1003,7 +1031,9 @@
                                         "start": 1423,
                                         "end": 1425,
                                         "value": "",
-                                        "raw": "\"\""
+                                        "raw": "\"\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "property": {
                                         "type": "Identifier",
@@ -1020,7 +1050,9 @@
                                         "start": 1440,
                                         "end": 1442,
                                         "value": "",
-                                        "raw": "\"\""
+                                        "raw": "\"\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "ArrayExpression",
@@ -1057,7 +1089,9 @@
                             "start": 1465,
                             "end": 1533,
                             "value": "String.prototype.localeCompare didn't throw exception for options ",
-                            "raw": "\"String.prototype.localeCompare didn't throw exception for options \""
+                            "raw": "\"String.prototype.localeCompare didn't throw exception for options \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1100,7 +1134,9 @@
                           "start": 1562,
                           "end": 1565,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

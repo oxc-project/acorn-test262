@@ -23,7 +23,9 @@
             "start": 428,
             "end": 466,
             "value": "She sells seashells by the seashore.",
-            "raw": "'She sells seashells by the seashore.'"
+            "raw": "'She sells seashells by the seashore.'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "sh",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -102,7 +105,9 @@
               "start": 599,
               "end": 604,
               "value": "sch",
-              "raw": "'sch'"
+              "raw": "'sch'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -113,7 +118,9 @@
           "start": 610,
           "end": 649,
           "value": "She sells seaschells by the seashore.",
-          "raw": "'She sells seaschells by the seashore.'"
+          "raw": "'She sells seaschells by the seashore.'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -145,7 +152,9 @@
                     "start": 678,
                     "end": 837,
                     "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/; __str.replace(__re, 'sch')==='She sells seaschells by the seashore.'. Actual: ",
-                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/; __str.replace(__re, \\'sch\\')===\\'She sells seaschells by the seashore.\\'. Actual: '"
+                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/; __str.replace(__re, \\'sch\\')===\\'She sells seaschells by the seashore.\\'. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -183,7 +192,9 @@
                         "start": 860,
                         "end": 865,
                         "value": "sch",
-                        "raw": "'sch'"
+                        "raw": "'sch'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

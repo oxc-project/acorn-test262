@@ -23,7 +23,9 @@
             "start": 631,
             "end": 632,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -158,7 +160,9 @@
                                 "start": 733,
                                 "end": 734,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -176,7 +180,9 @@
                                   "start": 748,
                                   "end": 757,
                                   "value": "missing",
-                                  "raw": "'missing'"
+                                  "raw": "'missing'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -289,14 +295,18 @@
             "start": 838,
             "end": 839,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 878,
             "value": "Proxy trap was invoked exactly once",
-            "raw": "'Proxy trap was invoked exactly once'"
+            "raw": "'Proxy trap was invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -384,7 +394,9 @@
                   "start": 937,
                   "end": 946,
                   "value": "missing",
-                  "raw": "'missing'"
+                  "raw": "'missing'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -395,7 +407,9 @@
             "start": 951,
             "end": 1029,
             "value": "An own property was not created for a property without a property descriptor",
-            "raw": "'An own property was not created for a property without a property descriptor'"
+            "raw": "'An own property was not created for a property without a property descriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -16,7 +16,9 @@
           "start": 277,
           "end": 278,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         },
         "operator": "*",
         "right": {

@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 35,
               "end": 59,
               "raw": "\"this is my simple func\"",
-              "value": "this is my simple func"
+              "value": "this is my simple func",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -157,7 +159,9 @@ __ESTREE_TEST__:PASS:
               "start": 225,
               "end": 232,
               "raw": "\"Hello\"",
-              "value": "Hello"
+              "value": "Hello",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -604,7 +608,9 @@ __ESTREE_TEST__:PASS:
             "start": 615,
             "end": 617,
             "raw": "30",
-            "value": 30
+            "value": 30,
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": null
         },
@@ -628,7 +634,9 @@ __ESTREE_TEST__:PASS:
             "start": 623,
             "end": 637,
             "raw": "\"string value\"",
-            "value": "string value"
+            "value": "string value",
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": null
         }
@@ -740,7 +748,9 @@ __ESTREE_TEST__:PASS:
             "start": 760,
             "end": 774,
             "raw": "\"hello string\"",
-            "value": "hello string"
+            "value": "hello string",
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": null
         }
@@ -1318,7 +1328,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1293,
                         "end": 1295,
                         "raw": "30",
-                        "value": 30
+                        "value": 30,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -1566,7 +1578,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1501,
                     "end": 1509,
                     "raw": "\"string\"",
-                    "value": "string"
+                    "value": "string",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

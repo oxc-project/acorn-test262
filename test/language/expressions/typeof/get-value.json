@@ -23,7 +23,9 @@
             "start": 371,
             "end": 372,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -103,7 +105,9 @@
                         "start": 425,
                         "end": 426,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -183,7 +187,9 @@
                                 "start": 479,
                                 "end": 480,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -247,14 +253,18 @@
             "start": 530,
             "end": 538,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 565,
             "value": "typeof x === \"number\"",
-            "raw": "'typeof x === \"number\"'"
+            "raw": "'typeof x === \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -306,14 +316,18 @@
             "start": 603,
             "end": 611,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 638,
             "value": "typeof y === \"number\"",
-            "raw": "'typeof y === \"number\"'"
+            "raw": "'typeof y === \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -358,7 +372,9 @@
             "start": 667,
             "end": 668,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

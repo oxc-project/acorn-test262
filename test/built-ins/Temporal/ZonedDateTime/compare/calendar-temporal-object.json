@@ -116,7 +116,9 @@
                               "start": 1343,
                               "end": 1347,
                               "value": 2000,
-                              "raw": "2000"
+                              "raw": "2000",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -138,7 +140,9 @@
                               "start": 1356,
                               "end": 1357,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -160,7 +164,9 @@
                               "start": 1364,
                               "end": 1365,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -182,7 +188,9 @@
                               "start": 1377,
                               "end": 1382,
                               "value": "UTC",
-                              "raw": "\"UTC\""
+                              "raw": "\"UTC\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -232,7 +240,9 @@
                               "start": 1424,
                               "end": 1428,
                               "value": 2001,
-                              "raw": "2001"
+                              "raw": "2001",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -254,7 +264,9 @@
                               "start": 1437,
                               "end": 1438,
                               "value": 6,
-                              "raw": "6"
+                              "raw": "6",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -276,7 +288,9 @@
                               "start": 1445,
                               "end": 1446,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -298,7 +312,9 @@
                               "start": 1458,
                               "end": 1463,
                               "value": "UTC",
-                              "raw": "\"UTC\""
+                              "raw": "\"UTC\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },

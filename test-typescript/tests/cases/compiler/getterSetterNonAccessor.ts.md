@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 30,
               "end": 31,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -112,7 +114,9 @@ __ESTREE_TEST__:PASS:
             "start": 93,
             "end": 96,
             "raw": "\"0\"",
-            "value": "0"
+            "value": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TSTypeAssertion",
@@ -202,7 +206,9 @@ __ESTREE_TEST__:PASS:
                     "start": 193,
                     "end": 197,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

@@ -198,7 +198,9 @@ __ESTREE_TEST__:PASS:
             "start": 122,
             "end": 129,
             "raw": "\"hello\"",
-            "value": "hello"
+            "value": "hello",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -271,7 +273,9 @@ __ESTREE_TEST__:PASS:
                   "start": 159,
                   "end": 166,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -297,7 +301,9 @@ __ESTREE_TEST__:PASS:
                   "start": 175,
                   "end": 183,
                   "raw": "\"mowing\"",
-                  "value": "mowing"
+                  "value": "mowing",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -811,7 +817,9 @@ __ESTREE_TEST__:PASS:
                   "start": 421,
                   "end": 428,
                   "raw": "\"Edger\"",
-                  "value": "Edger"
+                  "value": "Edger",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -837,7 +845,9 @@ __ESTREE_TEST__:PASS:
                   "start": 437,
                   "end": 452,
                   "raw": "\"cutting edges\"",
-                  "value": "cutting edges"
+                  "value": "cutting edges",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -927,7 +937,9 @@ __ESTREE_TEST__:PASS:
                   "start": 485,
                   "end": 492,
                   "raw": "\"Edger\"",
-                  "value": "Edger"
+                  "value": "Edger",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -953,7 +965,9 @@ __ESTREE_TEST__:PASS:
                   "start": 501,
                   "end": 516,
                   "raw": "\"cutting edges\"",
-                  "value": "cutting edges"
+                  "value": "cutting edges",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1043,7 +1057,9 @@ __ESTREE_TEST__:PASS:
                   "start": 549,
                   "end": 556,
                   "raw": "\"Edger\"",
-                  "value": "Edger"
+                  "value": "Edger",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1069,7 +1085,9 @@ __ESTREE_TEST__:PASS:
                   "start": 565,
                   "end": 580,
                   "raw": "\"cutting edges\"",
-                  "value": "cutting edges"
+                  "value": "cutting edges",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

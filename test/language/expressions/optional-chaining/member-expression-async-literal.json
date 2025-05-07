@@ -67,14 +67,18 @@
                         "start": 496,
                         "end": 503,
                         "value": "hello",
-                        "raw": "\"hello\""
+                        "raw": "\"hello\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Literal",
                         "start": 506,
                         "end": 507,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": true
@@ -86,7 +90,9 @@
                   "start": 510,
                   "end": 513,
                   "value": "h",
-                  "raw": "'h'"
+                  "raw": "'h'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -137,7 +143,9 @@
                         "start": 541,
                         "end": 545,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

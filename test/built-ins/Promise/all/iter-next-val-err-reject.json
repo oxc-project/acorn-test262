@@ -66,7 +66,9 @@
                   "start": 955,
                   "end": 960,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -146,7 +148,9 @@
             "start": 1031,
             "end": 1038,
             "value": "value",
-            "raw": "'value'"
+            "raw": "'value'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -414,7 +418,9 @@
                             "start": 1269,
                             "end": 1302,
                             "value": "The promise should be rejected.",
-                            "raw": "'The promise should be rejected.'"
+                            "raw": "'The promise should be rejected.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

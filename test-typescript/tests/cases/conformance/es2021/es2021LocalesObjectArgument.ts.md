@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 36,
                 "raw": "\"en-US\"",
-                "value": "en-US"
+                "value": "en-US",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -98,7 +100,9 @@ __ESTREE_TEST__:PASS:
                 "start": 68,
                 "end": 75,
                 "raw": "\"de-DE\"",
-                "value": "de-DE"
+                "value": "de-DE",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -162,7 +166,9 @@ __ESTREE_TEST__:PASS:
                 "start": 107,
                 "end": 114,
                 "raw": "\"ja-JP\"",
-                "value": "ja-JP"
+                "value": "ja-JP",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

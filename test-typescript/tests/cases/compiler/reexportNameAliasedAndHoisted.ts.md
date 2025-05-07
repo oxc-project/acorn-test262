@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
               "start": 48,
               "end": 52,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -99,7 +101,9 @@ __ESTREE_TEST__:PASS:
         "start": 97,
         "end": 109,
         "raw": "'./gridview'",
-        "value": "./gridview"
+        "value": "./gridview",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -194,7 +198,9 @@ __ESTREE_TEST__:PASS:
                             "start": 175,
                             "end": 187,
                             "raw": "'distribute'",
-                            "value": "distribute"
+                            "value": "distribute",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

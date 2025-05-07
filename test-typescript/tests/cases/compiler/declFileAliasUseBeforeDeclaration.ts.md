@@ -155,7 +155,9 @@ __ESTREE_TEST__:PASS:
           "start": 57,
           "end": 98,
           "raw": "\"./declFileAliasUseBeforeDeclaration_foo\"",
-          "value": "./declFileAliasUseBeforeDeclaration_foo"
+          "value": "./declFileAliasUseBeforeDeclaration_foo",
+          "regex": null,
+          "bigint": null
         }
       }
     }

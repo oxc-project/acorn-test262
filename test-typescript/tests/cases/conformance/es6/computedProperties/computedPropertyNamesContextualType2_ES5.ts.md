@@ -224,7 +224,9 @@ __ESTREE_TEST__:PASS:
                     "start": 132,
                     "end": 137,
                     "raw": "\"foo\"",
-                    "value": "foo"
+                    "value": "foo",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "prefix": true
@@ -308,7 +310,9 @@ __ESTREE_TEST__:PASS:
                     "start": 170,
                     "end": 175,
                     "raw": "\"bar\"",
-                    "value": "bar"
+                    "value": "bar",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "prefix": true

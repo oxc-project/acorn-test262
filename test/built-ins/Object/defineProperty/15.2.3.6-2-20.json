@@ -67,7 +67,9 @@
             "start": 329,
             "end": 337,
             "value": 0.000001,
-            "raw": "0.000001"
+            "raw": "0.000001",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                 "start": 371,
                 "end": 381,
                 "value": "0.000001",
-                "raw": "\"0.000001\""
+                "raw": "\"0.000001\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -133,7 +137,9 @@
             "start": 384,
             "end": 425,
             "value": "obj.hasOwnProperty(\"0.000001\") !== true",
-            "raw": "'obj.hasOwnProperty(\"0.000001\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"0.000001\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

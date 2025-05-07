@@ -86,7 +86,9 @@
                 "start": 298,
                 "end": 302,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -118,7 +120,9 @@
               "start": 318,
               "end": 319,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -126,7 +130,9 @@
             "start": 323,
             "end": 386,
             "value": "Array.prototype.findIndex.call(true, () => {}) must return -1",
-            "raw": "'Array.prototype.findIndex.call(true, () => {}) must return -1'"
+            "raw": "'Array.prototype.findIndex.call(true, () => {}) must return -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -215,7 +221,9 @@
                 "start": 441,
                 "end": 446,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -247,7 +255,9 @@
               "start": 462,
               "end": 463,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -255,7 +265,9 @@
             "start": 467,
             "end": 531,
             "value": "Array.prototype.findIndex.call(false, () => {}) must return -1",
-            "raw": "'Array.prototype.findIndex.call(false, () => {}) must return -1'"
+            "raw": "'Array.prototype.findIndex.call(false, () => {}) must return -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

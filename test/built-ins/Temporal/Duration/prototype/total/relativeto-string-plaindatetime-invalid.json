@@ -78,7 +78,9 @@
                       "start": 629,
                       "end": 630,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -129,7 +131,9 @@
                   "start": 655,
                   "end": 668,
                   "value": "nanoseconds",
-                  "raw": "\"nanoseconds\""
+                  "raw": "\"nanoseconds\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -151,7 +155,9 @@
                   "start": 682,
                   "end": 697,
                   "value": "+999999-01-01",
-                  "raw": "\"+999999-01-01\""
+                  "raw": "\"+999999-01-01\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

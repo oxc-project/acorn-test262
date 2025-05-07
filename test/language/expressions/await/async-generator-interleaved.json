@@ -53,28 +53,36 @@
                 "start": 487,
                 "end": 494,
                 "value": "await",
-                "raw": "'await'"
+                "raw": "'await'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 497,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 499,
                 "end": 506,
                 "value": "await",
-                "raw": "'await'"
+                "raw": "'await'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 509,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -102,7 +110,9 @@
             "start": 532,
             "end": 533,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -160,7 +170,9 @@
                   "start": 579,
                   "end": 586,
                   "value": "await",
-                  "raw": "'await'"
+                  "raw": "'await'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -212,7 +224,9 @@
                     "start": 637,
                     "end": 638,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -289,7 +303,9 @@
               "start": 699,
               "end": 700,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -359,7 +375,9 @@
                   "start": 778,
                   "end": 826,
                   "value": "Async/await and promises should be interleaved",
-                  "raw": "'Async/await and promises should be interleaved'"
+                  "raw": "'Async/await and promises should be interleaved'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -499,7 +517,9 @@
                                     "start": 900,
                                     "end": 901,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -585,7 +605,9 @@
                                 "start": 953,
                                 "end": 954,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

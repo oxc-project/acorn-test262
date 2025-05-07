@@ -103,7 +103,9 @@
             "start": 695,
             "end": 696,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -129,7 +131,9 @@
             "start": 722,
             "end": 723,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -197,7 +201,9 @@
                       "start": 776,
                       "end": 777,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -238,7 +244,9 @@
                       "start": 818,
                       "end": 819,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -328,7 +336,9 @@
                         "start": 881,
                         "end": 920,
                         "value": "This promise should not be fulfilled.",
-                        "raw": "'This promise should not be fulfilled.'"
+                        "raw": "'This promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -371,7 +381,9 @@
                       "start": 968,
                       "end": 969,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -399,7 +411,9 @@
                               "start": 983,
                               "end": 1034,
                               "value": "Expected \"onFulfilled\" handler to not be invoked.",
-                              "raw": "'Expected \"onFulfilled\" handler to not be invoked.'"
+                              "raw": "'Expected \"onFulfilled\" handler to not be invoked.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -435,7 +449,9 @@
                       "start": 1082,
                       "end": 1083,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -463,7 +479,9 @@
                               "start": 1097,
                               "end": 1156,
                               "value": "Expected \"onRejected\" handler to be invoked exactly once.",
-                              "raw": "'Expected \"onRejected\" handler to be invoked exactly once.'"
+                              "raw": "'Expected \"onRejected\" handler to be invoked exactly once.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

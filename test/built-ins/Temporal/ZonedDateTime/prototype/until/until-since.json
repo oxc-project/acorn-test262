@@ -60,7 +60,9 @@
                 "start": 355,
                 "end": 400,
                 "value": "1976-11-18T15:23:30.123456789+01:00[+01:00]",
-                "raw": "\"1976-11-18T15:23:30.123456789+01:00[+01:00]\""
+                "raw": "\"1976-11-18T15:23:30.123456789+01:00[+01:00]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
                       "start": 456,
                       "end": 460,
                       "value": 2016,
-                      "raw": "2016"
+                      "raw": "2016",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +170,9 @@
                       "start": 471,
                       "end": 472,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -188,7 +194,9 @@
                       "start": 481,
                       "end": 482,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -210,7 +218,9 @@
                       "start": 492,
                       "end": 494,
                       "value": 18,
-                      "raw": "18"
+                      "raw": "18",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -232,7 +242,9 @@
                       "start": 508,
                       "end": 516,
                       "value": "+01:00",
-                      "raw": "\"+01:00\""
+                      "raw": "\"+01:00\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

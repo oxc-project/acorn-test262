@@ -223,7 +223,9 @@
                           "start": 1367,
                           "end": 1368,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "SpreadElement",

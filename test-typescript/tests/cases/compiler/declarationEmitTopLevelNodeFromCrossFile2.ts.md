@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 37,
         "raw": "\"./boxedBox\"",
-        "value": "./boxedBox"
+        "value": "./boxedBox",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -138,7 +140,9 @@ __ESTREE_TEST__:PASS:
                       "start": 38,
                       "end": 45,
                       "raw": "\"./box\"",
-                      "value": "./box"
+                      "value": "./box",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,
@@ -196,7 +200,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 71,
                                     "end": 78,
                                     "raw": "\"./box\"",
-                                    "value": "./box"
+                                    "value": "./box",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "options": null,

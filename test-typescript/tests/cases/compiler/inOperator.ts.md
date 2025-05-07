@@ -101,7 +101,9 @@ __ESTREE_TEST__:PASS:
           "start": 36,
           "end": 37,
           "raw": "3",
-          "value": 3
+          "value": 3,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Identifier",
@@ -143,14 +145,18 @@ __ESTREE_TEST__:PASS:
               "start": 56,
               "end": 58,
               "raw": "''",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Literal",
               "start": 62,
               "end": 63,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         }

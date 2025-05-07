@@ -28,119 +28,153 @@
                 "start": 1370,
                 "end": 1381,
                 "value": "en-gb-oed",
-                "raw": "\"en-gb-oed\""
+                "raw": "\"en-gb-oed\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1385,
                 "end": 1392,
                 "value": "i-ami",
-                "raw": "\"i-ami\""
+                "raw": "\"i-ami\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1396,
                 "end": 1403,
                 "value": "i-bnn",
-                "raw": "\"i-bnn\""
+                "raw": "\"i-bnn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1407,
                 "end": 1418,
                 "value": "i-default",
-                "raw": "\"i-default\""
+                "raw": "\"i-default\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1422,
                 "end": 1434,
                 "value": "i-enochian",
-                "raw": "\"i-enochian\""
+                "raw": "\"i-enochian\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1438,
                 "end": 1445,
                 "value": "i-hak",
-                "raw": "\"i-hak\""
+                "raw": "\"i-hak\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1449,
                 "end": 1460,
                 "value": "i-klingon",
-                "raw": "\"i-klingon\""
+                "raw": "\"i-klingon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1464,
                 "end": 1471,
                 "value": "i-lux",
-                "raw": "\"i-lux\""
+                "raw": "\"i-lux\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1475,
                 "end": 1484,
                 "value": "i-mingo",
-                "raw": "\"i-mingo\""
+                "raw": "\"i-mingo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1488,
                 "end": 1498,
                 "value": "i-navajo",
-                "raw": "\"i-navajo\""
+                "raw": "\"i-navajo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1502,
                 "end": 1509,
                 "value": "i-pwn",
-                "raw": "\"i-pwn\""
+                "raw": "\"i-pwn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1513,
                 "end": 1520,
                 "value": "i-tao",
-                "raw": "\"i-tao\""
+                "raw": "\"i-tao\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1524,
                 "end": 1531,
                 "value": "i-tay",
-                "raw": "\"i-tay\""
+                "raw": "\"i-tay\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1535,
                 "end": 1542,
                 "value": "i-tsu",
-                "raw": "\"i-tsu\""
+                "raw": "\"i-tsu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1546,
                 "end": 1557,
                 "value": "sgn-be-fr",
-                "raw": "\"sgn-be-fr\""
+                "raw": "\"sgn-be-fr\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1561,
                 "end": 1572,
                 "value": "sgn-be-nl",
-                "raw": "\"sgn-be-nl\""
+                "raw": "\"sgn-be-nl\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1576,
                 "end": 1587,
                 "value": "sgn-ch-de",
-                "raw": "\"sgn-ch-de\""
+                "raw": "\"sgn-ch-de\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -173,28 +207,36 @@
                 "start": 1632,
                 "end": 1640,
                 "value": "no-bok",
-                "raw": "\"no-bok\""
+                "raw": "\"no-bok\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1644,
                 "end": 1652,
                 "value": "no-nyn",
-                "raw": "\"no-nyn\""
+                "raw": "\"no-nyn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1656,
                 "end": 1664,
                 "value": "zh-min",
-                "raw": "\"zh-min\""
+                "raw": "\"zh-min\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1668,
                 "end": 1680,
                 "value": "zh-min-nan",
-                "raw": "\"zh-min-nan\""
+                "raw": "\"zh-min-nan\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -234,14 +276,18 @@
                   "start": 1722,
                   "end": 1734,
                   "value": "art-lojban",
-                  "raw": "\"art-lojban\""
+                  "raw": "\"art-lojban\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1736,
                   "end": 1741,
                   "value": "jbo",
-                  "raw": "\"jbo\""
+                  "raw": "\"jbo\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -257,14 +303,18 @@
                   "start": 1745,
                   "end": 1758,
                   "value": "cel-gaulish",
-                  "raw": "\"cel-gaulish\""
+                  "raw": "\"cel-gaulish\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1760,
                   "end": 1765,
                   "value": "xtg",
-                  "raw": "\"xtg\""
+                  "raw": "\"xtg\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -280,14 +330,18 @@
                   "start": 1769,
                   "end": 1779,
                   "value": "zh-guoyu",
-                  "raw": "\"zh-guoyu\""
+                  "raw": "\"zh-guoyu\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1781,
                   "end": 1785,
                   "value": "zh",
-                  "raw": "\"zh\""
+                  "raw": "\"zh\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -303,14 +357,18 @@
                   "start": 1789,
                   "end": 1799,
                   "value": "zh-hakka",
-                  "raw": "\"zh-hakka\""
+                  "raw": "\"zh-hakka\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1801,
                   "end": 1806,
                   "value": "hak",
-                  "raw": "\"hak\""
+                  "raw": "\"hak\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -326,14 +384,18 @@
                   "start": 1810,
                   "end": 1820,
                   "value": "zh-xiang",
-                  "raw": "\"zh-xiang\""
+                  "raw": "\"zh-xiang\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1822,
                   "end": 1827,
                   "value": "hsn",
-                  "raw": "\"hsn\""
+                  "raw": "\"hsn\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -445,7 +507,9 @@
                         "start": 1994,
                         "end": 1999,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -460,7 +524,9 @@
                             "start": 2005,
                             "end": 2019,
                             "value": "Test data \"",
-                            "raw": "\"Test data \\\"\""
+                            "raw": "\"Test data \\\"\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -476,7 +542,9 @@
                           "start": 2028,
                           "end": 2074,
                           "value": "\" is not a structurally valid language tag.",
-                          "raw": "\"\\\" is not a structurally valid language tag.\""
+                          "raw": "\"\\\" is not a structurally valid language tag.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -592,7 +660,9 @@
                         "start": 2212,
                         "end": 2217,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -607,7 +677,9 @@
                             "start": 2223,
                             "end": 2237,
                             "value": "Test data \"",
-                            "raw": "\"Test data \\\"\""
+                            "raw": "\"Test data \\\"\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -623,7 +695,9 @@
                           "start": 2246,
                           "end": 2292,
                           "value": "\" is not a structurally valid language tag.",
-                          "raw": "\"\\\" is not a structurally valid language tag.\""
+                          "raw": "\"\\\" is not a structurally valid language tag.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -799,7 +873,9 @@
                             "start": 2519,
                             "end": 2533,
                             "value": "Test data \"",
-                            "raw": "\"Test data \\\"\""
+                            "raw": "\"Test data \\\"\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -815,7 +891,9 @@
                           "start": 2555,
                           "end": 2615,
                           "value": "\" is a canonicalized and structurally valid language tag.",
-                          "raw": "\"\\\" is a canonicalized and structurally valid language tag.\""
+                          "raw": "\"\\\" is a canonicalized and structurally valid language tag.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -1009,7 +1087,9 @@
                         "start": 2805,
                         "end": 2806,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1058,7 +1138,9 @@
                           "start": 2845,
                           "end": 2846,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

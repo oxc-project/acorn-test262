@@ -25,7 +25,9 @@
                 "start": 304,
                 "end": 307,
                 "value": "z",
-                "raw": "'z'"
+                "raw": "'z'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },

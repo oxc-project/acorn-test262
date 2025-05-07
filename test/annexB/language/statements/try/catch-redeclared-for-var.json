@@ -65,7 +65,9 @@
               "start": 513,
               "end": 524,
               "value": "exception",
-              "raw": "'exception'"
+              "raw": "'exception'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -132,7 +134,9 @@
                       "start": 575,
                       "end": 593,
                       "value": "loop initializer",
-                      "raw": "'loop initializer'"
+                      "raw": "'loop initializer'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -154,7 +158,9 @@
                   "start": 603,
                   "end": 614,
                   "value": "increment",
-                  "raw": "'increment'"
+                  "raw": "'increment'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "update": {
@@ -173,7 +179,9 @@
                   "start": 622,
                   "end": 633,
                   "value": "increment",
-                  "raw": "'increment'"
+                  "raw": "'increment'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "body": {
@@ -274,7 +282,9 @@
             "start": 702,
             "end": 713,
             "value": "exception",
-            "raw": "'exception'"
+            "raw": "'exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +329,9 @@
             "start": 741,
             "end": 759,
             "value": "loop initializer",
-            "raw": "'loop initializer'"
+            "raw": "'loop initializer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -364,7 +376,9 @@
             "start": 786,
             "end": 797,
             "value": "increment",
-            "raw": "'increment'"
+            "raw": "'increment'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

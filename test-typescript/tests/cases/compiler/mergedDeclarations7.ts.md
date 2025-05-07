@@ -274,7 +274,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 25,
         "raw": "'passport'",
-        "value": "passport"
+        "value": "passport",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -300,7 +302,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 36,
         "raw": "\"passport\"",
-        "value": "passport"
+        "value": "passport",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -330,7 +334,9 @@ __ESTREE_TEST__:PASS:
         "start": 63,
         "end": 73,
         "raw": "\"passport\"",
-        "value": "passport"
+        "value": "passport",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

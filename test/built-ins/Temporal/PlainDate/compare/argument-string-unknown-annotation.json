@@ -33,14 +33,18 @@
                     "start": 267,
                     "end": 288,
                     "value": "2000-05-02[foo=bar]",
-                    "raw": "\"2000-05-02[foo=bar]\""
+                    "raw": "\"2000-05-02[foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 290,
                     "end": 304,
                     "value": "without time",
-                    "raw": "\"without time\""
+                    "raw": "\"without time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 310,
                     "end": 337,
                     "value": "2000-05-02T15:23[foo=bar]",
-                    "raw": "\"2000-05-02T15:23[foo=bar]\""
+                    "raw": "\"2000-05-02T15:23[foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 339,
                     "end": 346,
                     "value": "alone",
-                    "raw": "\"alone\""
+                    "raw": "\"alone\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 352,
                     "end": 384,
                     "value": "2000-05-02T15:23[UTC][foo=bar]",
-                    "raw": "\"2000-05-02T15:23[UTC][foo=bar]\""
+                    "raw": "\"2000-05-02T15:23[UTC][foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 386,
                     "end": 402,
                     "value": "with time zone",
-                    "raw": "\"with time zone\""
+                    "raw": "\"with time zone\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -96,14 +108,18 @@
                     "start": 408,
                     "end": 449,
                     "value": "2000-05-02T15:23[u-ca=iso8601][foo=bar]",
-                    "raw": "\"2000-05-02T15:23[u-ca=iso8601][foo=bar]\""
+                    "raw": "\"2000-05-02T15:23[u-ca=iso8601][foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 451,
                     "end": 466,
                     "value": "with calendar",
-                    "raw": "\"with calendar\""
+                    "raw": "\"with calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -117,14 +133,18 @@
                     "start": 472,
                     "end": 518,
                     "value": "2000-05-02T15:23[UTC][foo=bar][u-ca=iso8601]",
-                    "raw": "\"2000-05-02T15:23[UTC][foo=bar][u-ca=iso8601]\""
+                    "raw": "\"2000-05-02T15:23[UTC][foo=bar][u-ca=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 520,
                     "end": 549,
                     "value": "with time zone and calendar",
-                    "raw": "\"with time zone and calendar\""
+                    "raw": "\"with time zone and calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -138,14 +158,18 @@
                     "start": 555,
                     "end": 618,
                     "value": "2000-05-02T15:23[foo=bar][_foo-bar0=Ignore-This-999999999999]",
-                    "raw": "\"2000-05-02T15:23[foo=bar][_foo-bar0=Ignore-This-999999999999]\""
+                    "raw": "\"2000-05-02T15:23[foo=bar][_foo-bar0=Ignore-This-999999999999]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 620,
                     "end": 653,
                     "value": "with another unknown annotation",
-                    "raw": "\"with another unknown annotation\""
+                    "raw": "\"with another unknown annotation\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -327,7 +351,9 @@
                         "start": 792,
                         "end": 793,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

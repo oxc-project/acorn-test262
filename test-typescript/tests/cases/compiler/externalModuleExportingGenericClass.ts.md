@@ -151,7 +151,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 64,
           "raw": "'./externalModuleExportingGenericClass_file0'",
-          "value": "./externalModuleExportingGenericClass_file0"
+          "value": "./externalModuleExportingGenericClass_file0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

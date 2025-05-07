@@ -181,7 +181,9 @@
                               "start": 442,
                               "end": 450,
                               "value": "reject",
-                              "raw": "\"reject\""
+                              "raw": "\"reject\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -304,7 +306,9 @@
                               "start": 538,
                               "end": 549,
                               "value": "constrain",
-                              "raw": "\"constrain\""
+                              "raw": "\"constrain\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

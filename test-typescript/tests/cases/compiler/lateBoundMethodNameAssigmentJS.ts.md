@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 23,
                 "end": 29,
                 "raw": "\"_sym\"",
-                "value": "_sym"
+                "value": "_sym",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

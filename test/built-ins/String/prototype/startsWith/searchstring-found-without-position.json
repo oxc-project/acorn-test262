@@ -23,7 +23,9 @@
             "start": 725,
             "end": 746,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "raw": "'The future is cool!'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,7 +75,9 @@
                 "start": 771,
                 "end": 777,
                 "value": "The ",
-                "raw": "'The '"
+                "raw": "'The '",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,7 +87,9 @@
             "start": 780,
             "end": 813,
             "value": "str.startsWith(\"The \") === true",
-            "raw": "'str.startsWith(\"The \") === true'"
+            "raw": "'str.startsWith(\"The \") === true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -133,7 +139,9 @@
                 "start": 838,
                 "end": 850,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -143,7 +151,9 @@
             "start": 853,
             "end": 892,
             "value": "str.startsWith(\"The future\") === true",
-            "raw": "'str.startsWith(\"The future\") === true'"
+            "raw": "'str.startsWith(\"The future\") === true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,7 +212,9 @@
             "start": 923,
             "end": 953,
             "value": "str.startsWith(str) === true",
-            "raw": "'str.startsWith(str) === true'"
+            "raw": "'str.startsWith(str) === true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

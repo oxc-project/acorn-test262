@@ -28,28 +28,36 @@
                 "start": 299,
                 "end": 315,
                 "value": "Pacific/Saipan",
-                "raw": "\"Pacific/Saipan\""
+                "raw": "\"Pacific/Saipan\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 391,
                 "value": "Antarctica/McMurdo",
-                "raw": "\"Antarctica/McMurdo\""
+                "raw": "\"Antarctica/McMurdo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 467,
                 "value": "Antarctica/DumontDUrville",
-                "raw": "\"Antarctica/DumontDUrville\""
+                "raw": "\"Antarctica/DumontDUrville\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 527,
                 "end": 543,
                 "value": "Pacific/Midway",
-                "raw": "\"Pacific/Midway\""
+                "raw": "\"Pacific/Midway\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -138,6 +146,7 @@
                       "end": 698,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

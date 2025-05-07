@@ -68,7 +68,9 @@ __ESTREE_TEST__:PASS:
                     "start": 90,
                     "end": 99,
                     "raw": "\"package\"",
-                    "value": "package"
+                    "value": "package",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,

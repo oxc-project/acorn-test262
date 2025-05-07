@@ -383,14 +383,18 @@ __ESTREE_TEST__:PASS:
                                 "start": 287,
                                 "end": 292,
                                 "raw": "\"bar\"",
-                                "value": "bar"
+                                "value": "bar",
+                                "regex": null,
+                                "bigint": null
                               },
                               "consequent": {
                                 "type": "Literal",
                                 "start": 279,
                                 "end": 284,
                                 "raw": "\"foo\"",
-                                "value": "foo"
+                                "value": "foo",
+                                "regex": null,
+                                "bigint": null
                               },
                               "test": {
                                 "type": "MemberExpression",

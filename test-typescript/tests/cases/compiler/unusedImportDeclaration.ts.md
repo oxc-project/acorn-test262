@@ -116,7 +116,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 54,
           "raw": "\"./unusedImportDeclaration_testerB\"",
-          "value": "./unusedImportDeclaration_testerB"
+          "value": "./unusedImportDeclaration_testerB",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -186,7 +188,9 @@ __ESTREE_TEST__:PASS:
                   "start": 83,
                   "end": 86,
                   "raw": "\"A\"",
-                  "value": "A"
+                  "value": "A",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -271,7 +275,9 @@ __ESTREE_TEST__:PASS:
                 "start": 133,
                 "end": 138,
                 "raw": "\"IN \"",
-                "value": "IN "
+                "value": "IN ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "MemberExpression",
@@ -304,7 +310,9 @@ __ESTREE_TEST__:PASS:
               "start": 153,
               "end": 156,
               "raw": "\"!\"",
-              "value": "!"
+              "value": "!",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

@@ -104,7 +104,9 @@ __ESTREE_TEST__:PASS:
               "start": 51,
               "end": 53,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -140,7 +142,9 @@ __ESTREE_TEST__:PASS:
                 "start": 67,
                 "end": 68,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -163,7 +167,9 @@ __ESTREE_TEST__:PASS:
               "start": 78,
               "end": 80,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -208,7 +214,9 @@ __ESTREE_TEST__:PASS:
               "start": 103,
               "end": 105,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -284,7 +292,9 @@ __ESTREE_TEST__:PASS:
                 "start": 136,
                 "end": 137,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -378,7 +388,9 @@ __ESTREE_TEST__:PASS:
               "start": 180,
               "end": 182,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -430,7 +442,9 @@ __ESTREE_TEST__:PASS:
               "start": 207,
               "end": 215,
               "raw": "\"Friday\"",
-              "value": "Friday"
+              "value": "Friday",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -444,7 +458,9 @@ __ESTREE_TEST__:PASS:
               "start": 221,
               "end": 231,
               "raw": "\"Saturday\"",
-              "value": "Saturday"
+              "value": "Saturday",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -458,7 +474,9 @@ __ESTREE_TEST__:PASS:
               "start": 237,
               "end": 245,
               "raw": "\"Sunday\"",
-              "value": "Sunday"
+              "value": "Sunday",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           },
@@ -472,7 +490,9 @@ __ESTREE_TEST__:PASS:
               "start": 251,
               "end": 265,
               "raw": "\"Weekend days\"",
-              "value": "Weekend days"
+              "value": "Weekend days",
+              "regex": null,
+              "bigint": null
             },
             "initializer": null
           }

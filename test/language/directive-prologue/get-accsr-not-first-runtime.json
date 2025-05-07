@@ -67,7 +67,9 @@
             "start": 435,
             "end": 448,
             "value": "accProperty",
-            "raw": "\"accProperty\""
+            "raw": "\"accProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -121,7 +123,9 @@
                             "start": 521,
                             "end": 525,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -134,7 +138,9 @@
                           "start": 543,
                           "end": 555,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -146,7 +152,9 @@
                           "start": 580,
                           "end": 582,
                           "value": 11,
-                          "raw": "11"
+                          "raw": "11",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -212,14 +220,18 @@
             "start": 645,
             "end": 647,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 666,
             "value": "obj.accProperty",
-            "raw": "'obj.accProperty'"
+            "raw": "'obj.accProperty'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,7 +276,9 @@
             "start": 707,
             "end": 711,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

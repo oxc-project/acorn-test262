@@ -205,7 +205,9 @@ __ESTREE_TEST__:PASS:
               "start": 81,
               "end": 82,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "expression": true,
@@ -273,7 +275,9 @@ __ESTREE_TEST__:PASS:
                 "start": 111,
                 "end": 112,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -336,7 +340,9 @@ __ESTREE_TEST__:PASS:
                 "start": 55,
                 "end": 65,
                 "raw": "\"./semver\"",
-                "value": "./semver"
+                "value": "./semver",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -385,7 +391,9 @@ __ESTREE_TEST__:PASS:
                 "start": 81,
                 "end": 82,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

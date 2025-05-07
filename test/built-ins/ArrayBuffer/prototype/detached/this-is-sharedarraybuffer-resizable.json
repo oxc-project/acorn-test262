@@ -66,7 +66,9 @@
                 "start": 626,
                 "end": 636,
                 "value": "detached",
-                "raw": "\"detached\""
+                "raw": "\"detached\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
                 "start": 700,
                 "end": 701,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -198,7 +202,9 @@
             "start": 737,
             "end": 747,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -298,7 +304,9 @@
             "start": 812,
             "end": 850,
             "value": "`this` cannot be a SharedArrayBuffer",
-            "raw": "\"`this` cannot be a SharedArrayBuffer\""
+            "raw": "\"`this` cannot be a SharedArrayBuffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

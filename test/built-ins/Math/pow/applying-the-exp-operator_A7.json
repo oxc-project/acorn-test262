@@ -90,7 +90,9 @@
             "start": 308,
             "end": 309,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -106,7 +108,9 @@
             "start": 314,
             "end": 315,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -135,7 +139,9 @@
             "start": 322,
             "end": 323,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -145,7 +151,9 @@
           "start": 327,
           "end": 328,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -169,7 +177,9 @@
             "start": 343,
             "end": 344,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -199,7 +209,9 @@
               "start": 360,
               "end": 361,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -348,7 +360,9 @@
                           "start": 449,
                           "end": 452,
                           "value": "(",
-                          "raw": "\"(\""
+                          "raw": "\"(\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -377,7 +391,9 @@
                         "start": 465,
                         "end": 469,
                         "value": ", ",
-                        "raw": "\", \""
+                        "raw": "\", \"",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -394,7 +410,9 @@
                     "start": 483,
                     "end": 486,
                     "value": ")",
-                    "raw": "\")\""
+                    "raw": "\")\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

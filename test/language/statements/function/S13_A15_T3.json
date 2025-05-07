@@ -23,7 +23,9 @@
           "start": 336,
           "end": 382,
           "value": "Answer to Life, the Universe, and Everything",
-          "raw": "\"Answer to Life, the Universe, and Everything\""
+          "raw": "\"Answer to Life, the Universe, and Everything\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -131,7 +133,9 @@
           "start": 586,
           "end": 597,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -163,7 +167,9 @@
                     "start": 625,
                     "end": 691,
                     "value": "#1: typeof __func() === \"undefined\". Actual: typeof __func() ===",
-                    "raw": "'#1: typeof __func() === \"undefined\". Actual: typeof __func() ==='"
+                    "raw": "'#1: typeof __func() === \"undefined\". Actual: typeof __func() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -218,7 +224,9 @@
               "start": 895,
               "end": 918,
               "value": "The Ultimate Question",
-              "raw": "\"The Ultimate Question\""
+              "raw": "\"The Ultimate Question\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -229,7 +237,9 @@
           "start": 924,
           "end": 947,
           "value": "The Ultimate Question",
-          "raw": "\"The Ultimate Question\""
+          "raw": "\"The Ultimate Question\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -261,7 +271,9 @@
                     "start": 975,
                     "end": 1084,
                     "value": "#2: __func(\"The Ultimate Question\") === \"The Ultimate Question\". Actual: __func(\"The Ultimate Question\")===",
-                    "raw": "'#2: __func(\"The Ultimate Question\") === \"The Ultimate Question\". Actual: __func(\"The Ultimate Question\")==='"
+                    "raw": "'#2: __func(\"The Ultimate Question\") === \"The Ultimate Question\". Actual: __func(\"The Ultimate Question\")==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -280,7 +292,9 @@
                         "start": 1092,
                         "end": 1115,
                         "value": "The Ultimate Question",
-                        "raw": "\"The Ultimate Question\""
+                        "raw": "\"The Ultimate Question\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

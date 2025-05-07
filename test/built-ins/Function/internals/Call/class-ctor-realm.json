@@ -105,7 +105,9 @@
                 "start": 432,
                 "end": 444,
                 "value": "(class {})",
-                "raw": "'(class {})'"
+                "raw": "'(class {})'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

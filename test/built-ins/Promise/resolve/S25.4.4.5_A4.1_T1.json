@@ -189,7 +189,9 @@
                             "start": 385,
                             "end": 436,
                             "value": "Should not fulfill: should reject with TypeError.",
-                            "raw": "\"Should not fulfill: should reject with TypeError.\""
+                            "raw": "\"Should not fulfill: should reject with TypeError.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -275,7 +277,9 @@
                             "start": 497,
                             "end": 563,
                             "value": "The value of !!(err instanceof TypeError) is expected to be true",
-                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'"
+                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -23,7 +23,9 @@
             "start": 339,
             "end": 344,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -113,7 +115,9 @@
                 "start": 426,
                 "end": 430,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -150,7 +154,9 @@
                 "start": 456,
                 "end": 457,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -252,7 +258,9 @@
           "start": 525,
           "end": 526,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -289,14 +297,18 @@
                     "start": 537,
                     "end": 539,
                     "value": 12,
-                    "raw": "12"
+                    "raw": "12",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 541,
                     "end": 543,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -321,7 +333,9 @@
                 "start": 569,
                 "end": 571,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -331,7 +345,9 @@
             "start": 574,
             "end": 621,
             "value": "[12, 11].reduceRight(callbackfn, 11) !== true",
-            "raw": "'[12, 11].reduceRight(callbackfn, 11) !== true'"
+            "raw": "'[12, 11].reduceRight(callbackfn, 11) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -363,7 +379,9 @@
             "start": 641,
             "end": 660,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -39,14 +39,18 @@
                     "start": 537,
                     "end": 538,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 540,
                     "end": 541,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -122,7 +126,9 @@
                               "start": 594,
                               "end": 595,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -183,7 +189,9 @@
                                 "start": 626,
                                 "end": 627,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -195,7 +203,9 @@
                                 "start": 636,
                                 "end": 641,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "alternate": null
@@ -220,7 +230,9 @@
                                 "start": 657,
                                 "end": 658,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -232,7 +244,9 @@
                                 "start": 667,
                                 "end": 671,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "alternate": null
@@ -257,7 +271,9 @@
                                   "start": 700,
                                   "end": 793,
                                   "value": "Set.prototype.intersection should only call its argument's has method with contents of this",
-                                  "raw": "\"Set.prototype.intersection should only call its argument's has method with contents of this\""
+                                  "raw": "\"Set.prototype.intersection should only call its argument's has method with contents of this\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -313,7 +329,9 @@
                                   "start": 840,
                                   "end": 939,
                                   "value": "Set.prototype.intersection should not call its argument's keys iterator when this.size ≤ arg.size",
-                                  "raw": "\"Set.prototype.intersection should not call its argument's keys iterator when this.size ≤ arg.size\""
+                                  "raw": "\"Set.prototype.intersection should not call its argument's keys iterator when this.size ≤ arg.size\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -356,7 +374,9 @@
                 "start": 967,
                 "end": 968,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -523,14 +543,18 @@
             "start": 1098,
             "end": 1102,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1104,
             "end": 1134,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

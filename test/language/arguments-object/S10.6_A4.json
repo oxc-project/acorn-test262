@@ -112,7 +112,9 @@
                         "start": 452,
                         "end": 481,
                         "value": "#1: arguments.callee === f1",
-                        "raw": "'#1: arguments.callee === f1'"
+                        "raw": "'#1: arguments.callee === f1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -158,7 +160,9 @@
                     "start": 525,
                     "end": 562,
                     "value": "#1: arguments object doesn't exists",
-                    "raw": "\"#1: arguments object doesn't exists\""
+                    "raw": "\"#1: arguments object doesn't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -291,7 +295,9 @@
                         "start": 677,
                         "end": 706,
                         "value": "#2: arguments.callee === f2",
-                        "raw": "'#2: arguments.callee === f2'"
+                        "raw": "'#2: arguments.callee === f2'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -337,7 +343,9 @@
                     "start": 750,
                     "end": 787,
                     "value": "#1: arguments object doesn't exists",
-                    "raw": "\"#1: arguments object doesn't exists\""
+                    "raw": "\"#1: arguments object doesn't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

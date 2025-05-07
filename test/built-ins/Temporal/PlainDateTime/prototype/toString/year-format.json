@@ -53,7 +53,9 @@
                   "start": 335,
                   "end": 341,
                   "value": 100000,
-                  "raw": "100000"
+                  "raw": "100000",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -61,42 +63,54 @@
                 "start": 343,
                 "end": 345,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 347,
                 "end": 348,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 355,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 363,
                 "value": 890,
-                "raw": "890"
+                "raw": "890",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -163,14 +177,18 @@
             "start": 404,
             "end": 431,
             "value": "-100000-12-03T04:56:07.89",
-            "raw": "\"-100000-12-03T04:56:07.89\""
+            "raw": "\"-100000-12-03T04:56:07.89\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 475,
             "value": "large negative year formatted as 6-digit",
-            "raw": "\"large negative year formatted as 6-digit\""
+            "raw": "\"large negative year formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +244,9 @@
                 "start": 518,
                 "end": 523,
                 "value": 10000,
-                "raw": "10000"
+                "raw": "10000",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -234,42 +254,54 @@
               "start": 525,
               "end": 526,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 528,
               "end": 529,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 531,
               "end": 532,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 534,
               "end": 535,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 537,
               "end": 538,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 540,
               "end": 543,
               "value": 910,
-              "raw": "910"
+              "raw": "910",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -334,14 +366,18 @@
             "start": 584,
             "end": 611,
             "value": "-010000-04-05T06:07:08.91",
-            "raw": "\"-010000-04-05T06:07:08.91\""
+            "raw": "\"-010000-04-05T06:07:08.91\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 666,
             "value": "smallest 5-digit negative year formatted as 6-digit",
-            "raw": "\"smallest 5-digit negative year formatted as 6-digit\""
+            "raw": "\"smallest 5-digit negative year formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -397,7 +433,9 @@
                 "start": 709,
                 "end": 713,
                 "value": 9999,
-                "raw": "9999"
+                "raw": "9999",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -405,42 +443,54 @@
               "start": 715,
               "end": 716,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 718,
               "end": 719,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 721,
               "end": 722,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 724,
               "end": 725,
               "value": 9,
-              "raw": "9"
+              "raw": "9",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 727,
               "end": 729,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 731,
               "end": 734,
               "value": 987,
-              "raw": "987"
+              "raw": "987",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -505,14 +555,18 @@
             "start": 775,
             "end": 803,
             "value": "-009999-06-07T08:09:10.987",
-            "raw": "\"-009999-06-07T08:09:10.987\""
+            "raw": "\"-009999-06-07T08:09:10.987\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 857,
             "value": "largest 4-digit negative year formatted as 6-digit",
-            "raw": "\"largest 4-digit negative year formatted as 6-digit\""
+            "raw": "\"largest 4-digit negative year formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,7 +622,9 @@
                 "start": 900,
                 "end": 904,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -576,42 +632,54 @@
               "start": 906,
               "end": 907,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 909,
               "end": 910,
               "value": 9,
-              "raw": "9"
+              "raw": "9",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 912,
               "end": 914,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 916,
               "end": 917,
               "value": 9,
-              "raw": "9"
+              "raw": "9",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 919,
               "end": 920,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 922,
               "end": 925,
               "value": 765,
-              "raw": "765"
+              "raw": "765",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -676,14 +744,18 @@
             "start": 966,
             "end": 994,
             "value": "-001000-08-09T10:09:08.765",
-            "raw": "\"-001000-08-09T10:09:08.765\""
+            "raw": "\"-001000-08-09T10:09:08.765\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 996,
             "end": 1049,
             "value": "smallest 4-digit negative year formatted as 6-digit",
-            "raw": "\"smallest 4-digit negative year formatted as 6-digit\""
+            "raw": "\"smallest 4-digit negative year formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -739,7 +811,9 @@
                 "start": 1092,
                 "end": 1095,
                 "value": 999,
-                "raw": "999"
+                "raw": "999",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -747,42 +821,54 @@
               "start": 1097,
               "end": 1099,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1101,
               "end": 1102,
               "value": 9,
-              "raw": "9"
+              "raw": "9",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1104,
               "end": 1105,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1107,
               "end": 1108,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1110,
               "end": 1111,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1113,
               "end": 1116,
               "value": 543,
-              "raw": "543"
+              "raw": "543",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -847,14 +933,18 @@
             "start": 1157,
             "end": 1185,
             "value": "-000999-10-09T08:07:06.543",
-            "raw": "\"-000999-10-09T08:07:06.543\""
+            "raw": "\"-000999-10-09T08:07:06.543\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1187,
             "end": 1239,
             "value": "largest 3-digit negative year formatted as 6-digit",
-            "raw": "\"largest 3-digit negative year formatted as 6-digit\""
+            "raw": "\"largest 3-digit negative year formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -910,7 +1000,9 @@
                 "start": 1282,
                 "end": 1283,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -918,42 +1010,54 @@
               "start": 1285,
               "end": 1286,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1288,
               "end": 1289,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1291,
               "end": 1292,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1294,
               "end": 1296,
               "value": 54,
-              "raw": "54"
+              "raw": "54",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1298,
               "end": 1300,
               "value": 32,
-              "raw": "32"
+              "raw": "32",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1302,
               "end": 1305,
               "value": 100,
-              "raw": "100"
+              "raw": "100",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1018,14 +1122,18 @@
             "start": 1346,
             "end": 1372,
             "value": "-000001-08-07T06:54:32.1",
-            "raw": "\"-000001-08-07T06:54:32.1\""
+            "raw": "\"-000001-08-07T06:54:32.1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1374,
             "end": 1404,
             "value": "year -1 formatted as 6-digit",
-            "raw": "\"year -1 formatted as 6-digit\""
+            "raw": "\"year -1 formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1075,49 +1183,63 @@
               "start": 1446,
               "end": 1447,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1449,
               "end": 1450,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1452,
               "end": 1453,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1455,
               "end": 1456,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1458,
               "end": 1460,
               "value": 32,
-              "raw": "32"
+              "raw": "32",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1462,
               "end": 1464,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1466,
               "end": 1469,
               "value": 123,
-              "raw": "123"
+              "raw": "123",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1182,14 +1304,18 @@
             "start": 1510,
             "end": 1535,
             "value": "0000-06-05T04:32:10.123",
-            "raw": "\"0000-06-05T04:32:10.123\""
+            "raw": "\"0000-06-05T04:32:10.123\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1537,
             "end": 1566,
             "value": "year 0 formatted as 4-digit",
-            "raw": "\"year 0 formatted as 4-digit\""
+            "raw": "\"year 0 formatted as 4-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1239,49 +1365,63 @@
               "start": 1608,
               "end": 1609,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1611,
               "end": 1612,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1614,
               "end": 1615,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1617,
               "end": 1619,
               "value": 21,
-              "raw": "21"
+              "raw": "21",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1621,
               "end": 1622,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1624,
               "end": 1626,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1628,
               "end": 1631,
               "value": 345,
-              "raw": "345"
+              "raw": "345",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1346,14 +1486,18 @@
             "start": 1672,
             "end": 1697,
             "value": "0001-04-03T21:00:12.345",
-            "raw": "\"0001-04-03T21:00:12.345\""
+            "raw": "\"0001-04-03T21:00:12.345\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1699,
             "end": 1728,
             "value": "year 1 formatted as 4-digit",
-            "raw": "\"year 1 formatted as 4-digit\""
+            "raw": "\"year 1 formatted as 4-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1403,49 +1547,63 @@
               "start": 1770,
               "end": 1773,
               "value": 999,
-              "raw": "999"
+              "raw": "999",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1775,
               "end": 1776,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1778,
               "end": 1780,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1782,
               "end": 1784,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1786,
               "end": 1788,
               "value": 34,
-              "raw": "34"
+              "raw": "34",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1790,
               "end": 1792,
               "value": 56,
-              "raw": "56"
+              "raw": "56",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1794,
               "end": 1797,
               "value": 789,
-              "raw": "789"
+              "raw": "789",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1510,14 +1668,18 @@
             "start": 1838,
             "end": 1863,
             "value": "0999-02-10T12:34:56.789",
-            "raw": "\"0999-02-10T12:34:56.789\""
+            "raw": "\"0999-02-10T12:34:56.789\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1865,
             "end": 1917,
             "value": "largest 3-digit positive year formatted as 4-digit",
-            "raw": "\"largest 3-digit positive year formatted as 4-digit\""
+            "raw": "\"largest 3-digit positive year formatted as 4-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1567,49 +1729,63 @@
               "start": 1959,
               "end": 1963,
               "value": 1000,
-              "raw": "1000"
+              "raw": "1000",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1965,
               "end": 1966,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1968,
               "end": 1970,
               "value": 23,
-              "raw": "23"
+              "raw": "23",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1972,
               "end": 1973,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1975,
               "end": 1977,
               "value": 56,
-              "raw": "56"
+              "raw": "56",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1979,
               "end": 1980,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1982,
               "end": 1985,
               "value": 890,
-              "raw": "890"
+              "raw": "890",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1674,14 +1850,18 @@
             "start": 2026,
             "end": 2050,
             "value": "1000-01-23T04:56:07.89",
-            "raw": "\"1000-01-23T04:56:07.89\""
+            "raw": "\"1000-01-23T04:56:07.89\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2052,
             "end": 2105,
             "value": "smallest 4-digit positive year formatted as 4-digit",
-            "raw": "\"smallest 4-digit positive year formatted as 4-digit\""
+            "raw": "\"smallest 4-digit positive year formatted as 4-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1731,49 +1911,63 @@
               "start": 2147,
               "end": 2151,
               "value": 9999,
-              "raw": "9999"
+              "raw": "9999",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2153,
               "end": 2154,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2156,
               "end": 2157,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2159,
               "end": 2160,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2162,
               "end": 2163,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2165,
               "end": 2166,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2168,
               "end": 2171,
               "value": 910,
-              "raw": "910"
+              "raw": "910",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1838,14 +2032,18 @@
             "start": 2212,
             "end": 2236,
             "value": "9999-04-05T06:07:08.91",
-            "raw": "\"9999-04-05T06:07:08.91\""
+            "raw": "\"9999-04-05T06:07:08.91\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2238,
             "end": 2290,
             "value": "largest 4-digit positive year formatted as 4-digit",
-            "raw": "\"largest 4-digit positive year formatted as 4-digit\""
+            "raw": "\"largest 4-digit positive year formatted as 4-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1895,49 +2093,63 @@
               "start": 2332,
               "end": 2337,
               "value": 10000,
-              "raw": "10000"
+              "raw": "10000",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2339,
               "end": 2340,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2342,
               "end": 2343,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2345,
               "end": 2346,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2348,
               "end": 2349,
               "value": 9,
-              "raw": "9"
+              "raw": "9",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2351,
               "end": 2353,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2355,
               "end": 2358,
               "value": 987,
-              "raw": "987"
+              "raw": "987",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -2002,14 +2214,18 @@
             "start": 2399,
             "end": 2427,
             "value": "+010000-06-07T08:09:10.987",
-            "raw": "\"+010000-06-07T08:09:10.987\""
+            "raw": "\"+010000-06-07T08:09:10.987\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2429,
             "end": 2482,
             "value": "smallest 5-digit positive year formatted as 6-digit",
-            "raw": "\"smallest 5-digit positive year formatted as 6-digit\""
+            "raw": "\"smallest 5-digit positive year formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2059,49 +2275,63 @@
               "start": 2524,
               "end": 2530,
               "value": 100000,
-              "raw": "100000"
+              "raw": "100000",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2532,
               "end": 2533,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2535,
               "end": 2536,
               "value": 9,
-              "raw": "9"
+              "raw": "9",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2538,
               "end": 2540,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2542,
               "end": 2543,
               "value": 9,
-              "raw": "9"
+              "raw": "9",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2545,
               "end": 2546,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2548,
               "end": 2551,
               "value": 765,
-              "raw": "765"
+              "raw": "765",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -2166,14 +2396,18 @@
             "start": 2592,
             "end": 2620,
             "value": "+100000-08-09T10:09:08.765",
-            "raw": "\"+100000-08-09T10:09:08.765\""
+            "raw": "\"+100000-08-09T10:09:08.765\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2622,
             "end": 2664,
             "value": "large positive year formatted as 6-digit",
-            "raw": "\"large positive year formatted as 6-digit\""
+            "raw": "\"large positive year formatted as 6-digit\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

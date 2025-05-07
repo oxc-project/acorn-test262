@@ -67,7 +67,9 @@
             "start": 588,
             "end": 601,
             "value": "granularity",
-            "raw": "'granularity'"
+            "raw": "'granularity'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",

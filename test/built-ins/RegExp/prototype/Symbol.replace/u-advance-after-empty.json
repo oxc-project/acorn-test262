@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "^|\\udf06",
                   "flags": "gu"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,14 +66,18 @@
                 "start": 952,
                 "end": 966,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 968,
                 "end": 973,
                 "value": "XXX",
-                "raw": "'XXX'"
+                "raw": "'XXX'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -120,7 +125,9 @@
             "start": 998,
             "end": 1015,
             "value": "XXX𝌆",
-            "raw": "'XXX\\ud834\\udf06'"
+            "raw": "'XXX\\ud834\\udf06'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -100,7 +100,9 @@
                                 "start": 709,
                                 "end": 718,
                                 "value": "test262",
-                                "raw": "'test262'"
+                                "raw": "'test262'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {

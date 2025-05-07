@@ -58,7 +58,9 @@
                     "start": 1118,
                     "end": 1119,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "cases": [
                     {
@@ -94,7 +96,9 @@
                                   "start": 1163,
                                   "end": 1182,
                                   "value": "inner declaration",
-                                  "raw": "'inner declaration'"
+                                  "raw": "'inner declaration'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -106,7 +110,9 @@
                         "start": 1132,
                         "end": 1133,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -162,7 +168,9 @@
                           "start": 1233,
                           "end": 1252,
                           "value": "outer declaration",
-                          "raw": "'outer declaration'"
+                          "raw": "'outer declaration'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -222,7 +230,9 @@
             "start": 1296,
             "end": 1306,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,7 +284,9 @@
             "start": 1335,
             "end": 1354,
             "value": "inner declaration",
-            "raw": "'inner declaration'"
+            "raw": "'inner declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

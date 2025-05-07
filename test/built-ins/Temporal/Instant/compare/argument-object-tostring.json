@@ -48,6 +48,7 @@
                 "end": 305,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -182,7 +183,9 @@
             "start": 395,
             "end": 455,
             "value": "[object Object] is not a valid ISO string (first argument)",
-            "raw": "\"[object Object] is not a valid ISO string (first argument)\""
+            "raw": "\"[object Object] is not a valid ISO string (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +292,9 @@
             "start": 528,
             "end": 589,
             "value": "[object Object] is not a valid ISO string (second argument)",
-            "raw": "\"[object Object] is not a valid ISO string (second argument)\""
+            "raw": "\"[object Object] is not a valid ISO string (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -346,7 +351,9 @@
                   "start": 630,
                   "end": 649,
                   "value": "1970-01-01T00:00Z",
-                  "raw": "\"1970-01-01T00:00Z\""
+                  "raw": "\"1970-01-01T00:00Z\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -464,14 +471,18 @@
             "start": 734,
             "end": 735,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 803,
             "value": "result of toString is interpreted as ISO string (first argument)",
-            "raw": "\"result of toString is interpreted as ISO string (first argument)\""
+            "raw": "\"result of toString is interpreted as ISO string (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,14 +598,18 @@
             "start": 886,
             "end": 887,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 889,
             "end": 956,
             "value": "result of toString is interpreted as ISO string (second argument)",
-            "raw": "\"result of toString is interpreted as ISO string (second argument)\""
+            "raw": "\"result of toString is interpreted as ISO string (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

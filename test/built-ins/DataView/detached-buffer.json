@@ -23,7 +23,9 @@
             "start": 513,
             "end": 514,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 574,
                             "end": 575,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -109,7 +113,9 @@
                           "start": 588,
                           "end": 589,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -154,7 +160,9 @@
                 "start": 624,
                 "end": 626,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -273,7 +281,9 @@
             "start": 715,
             "end": 745,
             "value": "throws if buffer is detached",
-            "raw": "\"throws if buffer is detached\""
+            "raw": "\"throws if buffer is detached\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,14 +328,18 @@
             "start": 782,
             "end": 783,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 785,
             "end": 819,
             "value": "ToNumber(byteOffset) runs before",
-            "raw": "\"ToNumber(byteOffset) runs before\""
+            "raw": "\"ToNumber(byteOffset) runs before\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

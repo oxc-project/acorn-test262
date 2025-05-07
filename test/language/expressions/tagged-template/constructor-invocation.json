@@ -152,7 +152,9 @@
             "start": 372,
             "end": 376,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -322,7 +324,9 @@
               "start": 519,
               "end": 520,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -332,7 +336,9 @@
             "start": 523,
             "end": 539,
             "value": "first template",
-            "raw": "'first template'"
+            "raw": "'first template'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +442,9 @@
               "start": 613,
               "end": 635,
               "value": "constructor argument",
-              "raw": "'constructor argument'"
+              "raw": "'constructor argument'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -485,7 +493,9 @@
               "start": 670,
               "end": 671,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -495,14 +505,18 @@
             "start": 674,
             "end": 691,
             "value": "second template",
-            "raw": "'second template'"
+            "raw": "'second template'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 693,
             "end": 711,
             "value": "tagging function",
-            "raw": "'tagging function'"
+            "raw": "'tagging function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -547,7 +561,9 @@
             "start": 736,
             "end": 758,
             "value": "constructor argument",
-            "raw": "'constructor argument'"
+            "raw": "'constructor argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

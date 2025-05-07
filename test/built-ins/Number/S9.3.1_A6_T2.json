@@ -144,14 +144,18 @@
                     "start": 564,
                     "end": 570,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 572,
                     "end": 578,
                     "value": "nity",
-                    "raw": "\"nity\""
+                    "raw": "\"nity\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -183,7 +187,9 @@
             "start": 612,
             "end": 681,
             "value": "Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,14 +250,18 @@
                     "start": 724,
                     "end": 730,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 732,
                     "end": 738,
                     "value": "nity",
-                    "raw": "\"nity\""
+                    "raw": "\"nity\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -264,14 +274,18 @@
             "start": 744,
             "end": 752,
             "value": 1e+400,
-            "raw": "10e10000"
+            "raw": "10e10000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 813,
             "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10e10000",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10e10000'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10e10000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,14 +346,18 @@
                     "start": 856,
                     "end": 862,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 864,
                     "end": 870,
                     "value": "nity",
-                    "raw": "\"nity\""
+                    "raw": "\"nity\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -352,14 +370,18 @@
             "start": 876,
             "end": 884,
             "value": 1e+400,
-            "raw": "10E10000"
+            "raw": "10E10000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 888,
             "end": 945,
             "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10E10000",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10E10000'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10E10000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -420,14 +442,18 @@
                     "start": 988,
                     "end": 994,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 996,
                     "end": 1002,
                     "value": "nity",
-                    "raw": "\"nity\""
+                    "raw": "\"nity\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -451,7 +477,9 @@
                 "start": 1015,
                 "end": 1025,
                 "value": "10e10000",
-                "raw": "\"10e10000\""
+                "raw": "\"10e10000\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -461,7 +489,9 @@
             "start": 1030,
             "end": 1124,
             "value": "Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

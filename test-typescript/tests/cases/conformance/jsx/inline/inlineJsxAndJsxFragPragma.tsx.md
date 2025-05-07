@@ -258,7 +258,9 @@ __ESTREE_TEST__:PASS:
         "start": 65,
         "end": 77,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -388,7 +390,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 65,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -494,7 +498,9 @@ __ESTREE_TEST__:PASS:
         "start": 65,
         "end": 77,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -592,7 +598,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 65,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -666,7 +674,9 @@ __ESTREE_TEST__:PASS:
         "start": 62,
         "end": 74,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -740,7 +750,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 62,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -789,7 +801,9 @@ __ESTREE_TEST__:PASS:
         "start": 65,
         "end": 77,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -902,7 +916,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 65,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -991,7 +1007,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 46,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1039,7 +1057,9 @@ __ESTREE_TEST__:PASS:
               "start": 78,
               "end": 82,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

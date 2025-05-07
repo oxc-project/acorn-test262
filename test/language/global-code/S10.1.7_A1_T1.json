@@ -29,7 +29,9 @@
           "start": 313,
           "end": 317,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -52,7 +54,9 @@
               "start": 344,
               "end": 439,
               "value": "#1: The this value associated with an executioncontext is immutable. Actual: this was deleted",
-              "raw": "'#1: The this value associated with an executioncontext is immutable. Actual: this was deleted'"
+              "raw": "'#1: The this value associated with an executioncontext is immutable. Actual: this was deleted'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }

@@ -43,7 +43,9 @@
           "start": 300,
           "end": 304,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -67,7 +69,9 @@
           "start": 317,
           "end": 321,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -95,7 +99,9 @@
                   "start": 350,
                   "end": 387,
                   "value": "#6: (x\\u000A=\\u000Atrue) === true",
-                  "raw": "'#6: (x\\\\u000A=\\\\u000Atrue) === true'"
+                  "raw": "'#6: (x\\\\u000A=\\\\u000Atrue) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -60,7 +60,9 @@
                         "start": 264,
                         "end": 266,
                         "value": 10,
-                        "raw": "10"
+                        "raw": "10",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -165,14 +167,18 @@
             "start": 348,
             "end": 350,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 352,
             "end": 396,
             "value": "Closure variable was captured incorrectly.",
-            "raw": "\"Closure variable was captured incorrectly.\""
+            "raw": "\"Closure variable was captured incorrectly.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

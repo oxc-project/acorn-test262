@@ -164,14 +164,18 @@
                             "start": 368,
                             "end": 369,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 371,
                             "end": 419,
                             "value": "The value of result.length is expected to be 0",
-                            "raw": "'The value of result.length is expected to be 0'"
+                            "raw": "'The value of result.length is expected to be 0'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

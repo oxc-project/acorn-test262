@@ -79,7 +79,9 @@
                   "start": 365,
                   "end": 379,
                   "value": "Temporal.Now",
-                  "raw": "\"Temporal.Now\""
+                  "raw": "\"Temporal.Now\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -101,7 +103,9 @@
                   "start": 393,
                   "end": 398,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -123,7 +127,9 @@
                   "start": 414,
                   "end": 419,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -145,7 +151,9 @@
                   "start": 437,
                   "end": 441,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

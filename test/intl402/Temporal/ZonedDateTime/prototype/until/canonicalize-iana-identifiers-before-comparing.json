@@ -60,7 +60,9 @@
                 "start": 332,
                 "end": 374,
                 "value": "2020-01-01T00:00:00+05:30[Asia/Calcutta]",
-                "raw": "'2020-01-01T00:00:00+05:30[Asia/Calcutta]'"
+                "raw": "'2020-01-01T00:00:00+05:30[Asia/Calcutta]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
                 "start": 421,
                 "end": 462,
                 "value": "2021-09-01T00:00:00+05:30[Asia/Kolkata]",
-                "raw": "'2021-09-01T00:00:00+05:30[Asia/Kolkata]'"
+                "raw": "'2021-09-01T00:00:00+05:30[Asia/Kolkata]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -192,7 +196,9 @@
                 "start": 509,
                 "end": 550,
                 "value": "2022-08-01T00:00:00+05:30[Asia/Colombo]",
-                "raw": "'2022-08-01T00:00:00+05:30[Asia/Colombo]'"
+                "raw": "'2022-08-01T00:00:00+05:30[Asia/Colombo]'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -290,7 +296,9 @@
                           "start": 691,
                           "end": 696,
                           "value": "day",
-                          "raw": "'day'"
+                          "raw": "'day'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -316,7 +324,9 @@
             "start": 712,
             "end": 719,
             "value": "P609D",
-            "raw": "'P609D'"
+            "raw": "'P609D'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -418,7 +428,9 @@
                         "start": 793,
                         "end": 798,
                         "value": "day",
-                        "raw": "'day'"
+                        "raw": "'day'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

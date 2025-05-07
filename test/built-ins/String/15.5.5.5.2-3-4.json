@@ -34,7 +34,9 @@
                 "start": 448,
                 "end": 461,
                 "value": "hello world",
-                "raw": "\"hello world\""
+                "raw": "\"hello world\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -100,7 +102,9 @@
             "start": 506,
             "end": 519,
             "value": "s[Infinity]",
-            "raw": "'s[Infinity]'"
+            "raw": "'s[Infinity]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

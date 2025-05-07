@@ -23,7 +23,9 @@
             "start": 1049,
             "end": 1050,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": ".",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -245,7 +248,9 @@
                               "start": 1239,
                               "end": 1282,
                               "value": "first arg is the this value of replaceAll",
-                              "raw": "'first arg is the this value of replaceAll'"
+                              "raw": "'first arg is the this value of replaceAll'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -296,7 +301,9 @@
                               "start": 1328,
                               "end": 1360,
                               "value": "second arg is the replaceValue",
-                              "raw": "'second arg is the replaceValue'"
+                              "raw": "'second arg is the replaceValue'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -354,7 +361,9 @@
                               "start": 1402,
                               "end": 1403,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -380,7 +389,9 @@
                             "start": 1420,
                             "end": 1421,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -393,7 +404,9 @@
                           "start": 1434,
                           "end": 1459,
                           "value": "return from searchValue",
-                          "raw": "'return from searchValue'"
+                          "raw": "'return from searchValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -446,7 +459,9 @@
             "start": 1505,
             "end": 1515,
             "value": "toString",
-            "raw": "'toString'"
+            "raw": "'toString'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -489,7 +504,9 @@
                           "start": 1551,
                           "end": 1592,
                           "value": "Should not call toString on searchValue",
-                          "raw": "'Should not call toString on searchValue'"
+                          "raw": "'Should not call toString on searchValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -523,7 +540,9 @@
             "start": 1618,
             "end": 1619,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -596,7 +615,9 @@
                             "start": 1667,
                             "end": 1668,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -609,7 +630,9 @@
                           "start": 1680,
                           "end": 1727,
                           "value": "Should not call toString on this/replaceValue",
-                          "raw": "'Should not call toString on this/replaceValue'"
+                          "raw": "'Should not call toString on this/replaceValue'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -655,7 +678,9 @@
                   "start": 1753,
                   "end": 1755,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 },
                 "property": {
                   "type": "Identifier",
@@ -740,7 +765,9 @@
             "start": 1830,
             "end": 1855,
             "value": "return from searchValue",
-            "raw": "'return from searchValue'"
+            "raw": "'return from searchValue'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -785,7 +812,9 @@
             "start": 1883,
             "end": 1884,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -830,7 +859,9 @@
             "start": 1914,
             "end": 1915,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

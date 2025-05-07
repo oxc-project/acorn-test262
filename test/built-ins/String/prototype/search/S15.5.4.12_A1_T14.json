@@ -34,7 +34,9 @@
                 "start": 296,
                 "end": 300,
                 "value": "77",
-                "raw": "\"77\""
+                "raw": "\"77\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -63,7 +65,9 @@
               "start": 397,
               "end": 429,
               "value": "ABBABABAB77BBAA",
-              "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+              "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -90,7 +94,9 @@
           "start": 448,
           "end": 449,
           "value": 9,
-          "raw": "9"
+          "raw": "9",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -122,7 +128,9 @@
                     "start": 478,
                     "end": 579,
                     "value": "#1: var __reg = new RegExp(\"77\"); \"ABB\\u0041BABAB\\u0037\\u0037BBAA\".search(__reg) === 9. Actual: ",
-                    "raw": "'#1: var __reg = new RegExp(\"77\"); \"ABB\\\\u0041BABAB\\\\u0037\\\\u0037BBAA\".search(__reg) === 9. Actual: '"
+                    "raw": "'#1: var __reg = new RegExp(\"77\"); \"ABB\\\\u0041BABAB\\\\u0037\\\\u0037BBAA\".search(__reg) === 9. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -142,7 +150,9 @@
                           "start": 583,
                           "end": 615,
                           "value": "ABBABABAB77BBAA",
-                          "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+                          "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",

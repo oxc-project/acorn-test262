@@ -182,7 +182,9 @@
                 "start": 980,
                 "end": 992,
                 "value": "unregister",
-                "raw": "'unregister'"
+                "raw": "'unregister'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -257,14 +259,18 @@
             "start": 1036,
             "end": 1041,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1093,
             "value": "unregistering regular symbol from empty registry",
-            "raw": "'unregistering regular symbol from empty registry'"
+            "raw": "'unregistering regular symbol from empty registry'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -349,14 +355,18 @@
             "start": 1149,
             "end": 1154,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1156,
             "end": 1209,
             "value": "unregistering well-known symbol from empty registry",
-            "raw": "'unregistering well-known symbol from empty registry'"
+            "raw": "'unregistering well-known symbol from empty registry'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -654,14 +664,18 @@
             "start": 1477,
             "end": 1481,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1483,
             "end": 1540,
             "value": "unregistering regular symbol from finalization registry",
-            "raw": "'unregistering regular symbol from finalization registry'"
+            "raw": "'unregistering regular symbol from finalization registry'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -733,14 +747,18 @@
             "start": 1583,
             "end": 1588,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1590,
             "end": 1653,
             "value": "unregistering regular symbol again from finalization registry",
-            "raw": "'unregistering regular symbol again from finalization registry'"
+            "raw": "'unregistering regular symbol again from finalization registry'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -825,14 +843,18 @@
             "start": 1714,
             "end": 1718,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1722,
             "end": 1785,
             "value": "unregistering well-known symbol to remove target2 and target3",
-            "raw": "'unregistering well-known symbol to remove target2 and target3'"
+            "raw": "'unregistering well-known symbol to remove target2 and target3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -917,14 +939,18 @@
             "start": 1847,
             "end": 1852,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1856,
             "end": 1915,
             "value": "unregistering well-known again from finalization registry",
-            "raw": "'unregistering well-known again from finalization registry'"
+            "raw": "'unregistering well-known again from finalization registry'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1135,14 +1161,18 @@
             "start": 2282,
             "end": 2287,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2289,
             "end": 2345,
             "value": "nothing to remove with regular symbol unregister token",
-            "raw": "'nothing to remove with regular symbol unregister token'"
+            "raw": "'nothing to remove with regular symbol unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1227,14 +1257,18 @@
             "start": 2406,
             "end": 2411,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2415,
             "end": 2474,
             "value": "nothing to remove with well-known symbol unregister token",
-            "raw": "'nothing to remove with well-known symbol unregister token'"
+            "raw": "'nothing to remove with well-known symbol unregister token'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

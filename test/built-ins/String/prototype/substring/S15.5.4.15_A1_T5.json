@@ -54,7 +54,9 @@
                   "start": 382,
                   "end": 392,
                   "value": "gnulluna",
-                  "raw": "\"gnulluna\""
+                  "raw": "\"gnulluna\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -174,7 +176,9 @@
               "start": 568,
               "end": 572,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "CallExpression",
@@ -198,7 +202,9 @@
           "start": 590,
           "end": 592,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -230,7 +236,9 @@
                     "start": 621,
                     "end": 802,
                     "value": "#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: ",
-                    "raw": "'#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: '"
+                    "raw": "'#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -262,7 +270,9 @@
                         "start": 822,
                         "end": 826,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",

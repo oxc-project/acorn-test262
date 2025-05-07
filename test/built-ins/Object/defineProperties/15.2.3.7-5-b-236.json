@@ -41,7 +41,9 @@
                     "start": 348,
                     "end": 350,
                     "value": 10,
-                    "raw": "10"
+                    "raw": "10",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -137,7 +139,9 @@
             "start": 416,
             "end": 421,
             "value": "set",
-            "raw": "\"set\""
+            "raw": "\"set\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -322,7 +326,9 @@
                 "start": 566,
                 "end": 572,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -375,7 +381,9 @@
                 "start": 602,
                 "end": 608,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -385,7 +393,9 @@
             "start": 611,
             "end": 648,
             "value": "obj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,14 +460,18 @@
             "start": 685,
             "end": 696,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 715,
             "value": "typeof desc.set",
-            "raw": "'typeof desc.set'"
+            "raw": "'typeof desc.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,14 +529,18 @@
             "start": 745,
             "end": 747,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 759,
             "value": "obj.prop",
-            "raw": "'obj.prop'"
+            "raw": "'obj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

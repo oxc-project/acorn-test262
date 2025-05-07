@@ -34,7 +34,9 @@
                 "start": 342,
                 "end": 343,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -75,7 +77,9 @@
           "start": 358,
           "end": 361,
           "value": 100,
-          "raw": "100"
+          "raw": "100",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -112,7 +116,9 @@
           "start": 375,
           "end": 382,
           "value": "prop2",
-          "raw": "\"prop2\""
+          "raw": "\"prop2\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -421,7 +427,9 @@
                   "start": 620,
                   "end": 638,
                   "value": "tempArray[index]",
-                  "raw": "'tempArray[index]'"
+                  "raw": "'tempArray[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -23,7 +23,9 @@
             "start": 1186,
             "end": 1187,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +123,9 @@
                       "start": 1283,
                       "end": 1284,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -227,7 +231,9 @@
                         "start": 1358,
                         "end": 1374,
                         "value": "error is array",
-                        "raw": "\"error is array\""
+                        "raw": "\"error is array\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -298,14 +304,18 @@
                         "start": 1419,
                         "end": 1420,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1422,
                         "end": 1436,
                         "value": "error.length",
-                        "raw": "\"error.length\""
+                        "raw": "\"error.length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -367,7 +377,9 @@
                           "start": 1473,
                           "end": 1474,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -377,14 +389,18 @@
                         "start": 1477,
                         "end": 1491,
                         "value": "p1-rejection",
-                        "raw": "\"p1-rejection\""
+                        "raw": "\"p1-rejection\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1493,
                         "end": 1529,
                         "value": "error.errors[0] === 'p1-rejection'",
-                        "raw": "\"error.errors[0] === 'p1-rejection'\""
+                        "raw": "\"error.errors[0] === 'p1-rejection'\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -446,7 +462,9 @@
                           "start": 1566,
                           "end": 1567,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -456,14 +474,18 @@
                         "start": 1570,
                         "end": 1584,
                         "value": "p2-rejection",
-                        "raw": "\"p2-rejection\""
+                        "raw": "\"p2-rejection\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1586,
                         "end": 1622,
                         "value": "error.errors[1] === 'p2-rejection'",
-                        "raw": "\"error.errors[1] === 'p2-rejection'\""
+                        "raw": "\"error.errors[1] === 'p2-rejection'\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -525,7 +547,9 @@
                           "start": 1659,
                           "end": 1660,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -535,14 +559,18 @@
                         "start": 1663,
                         "end": 1677,
                         "value": "p3-rejection",
-                        "raw": "\"p3-rejection\""
+                        "raw": "\"p3-rejection\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1679,
                         "end": 1715,
                         "value": "error.errors[2] === 'p3-rejection'",
-                        "raw": "\"error.errors[2] === 'p3-rejection'\""
+                        "raw": "\"error.errors[2] === 'p3-rejection'\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -586,7 +614,9 @@
                         "start": 1762,
                         "end": 1795,
                         "value": "error instanceof AggregateError",
-                        "raw": "\"error instanceof AggregateError\""
+                        "raw": "\"error instanceof AggregateError\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -901,7 +931,9 @@
                               "start": 2060,
                               "end": 2074,
                               "value": "p1-rejection",
-                              "raw": "\"p1-rejection\""
+                              "raw": "\"p1-rejection\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -927,7 +959,9 @@
                               "start": 2092,
                               "end": 2106,
                               "value": "p2-rejection",
-                              "raw": "\"p2-rejection\""
+                              "raw": "\"p2-rejection\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1024,7 +1058,9 @@
                               "start": 2175,
                               "end": 2189,
                               "value": "p3-rejection",
-                              "raw": "\"p3-rejection\""
+                              "raw": "\"p3-rejection\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1080,14 +1116,18 @@
             "start": 2228,
             "end": 2229,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2231,
             "end": 2263,
             "value": "callCount before call to any()",
-            "raw": "\"callCount before call to any()\""
+            "raw": "\"callCount before call to any()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1208,14 +1248,18 @@
             "start": 2341,
             "end": 2342,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2344,
             "end": 2375,
             "value": "callCount after call to any()",
-            "raw": "\"callCount after call to any()\""
+            "raw": "\"callCount after call to any()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1264,7 +1308,9 @@
               "start": 2406,
               "end": 2407,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1274,14 +1320,18 @@
             "start": 2410,
             "end": 2424,
             "value": "p1-rejection",
-            "raw": "\"p1-rejection\""
+            "raw": "\"p1-rejection\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2426,
             "end": 2460,
             "value": "errorArray[0] === 'p1-rejection'",
-            "raw": "\"errorArray[0] === 'p1-rejection'\""
+            "raw": "\"errorArray[0] === 'p1-rejection'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1330,7 +1380,9 @@
               "start": 2491,
               "end": 2492,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1340,14 +1392,18 @@
             "start": 2495,
             "end": 2509,
             "value": "p2-rejection",
-            "raw": "\"p2-rejection\""
+            "raw": "\"p2-rejection\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2511,
             "end": 2545,
             "value": "errorArray[1] === 'p2-rejection'",
-            "raw": "\"errorArray[1] === 'p2-rejection'\""
+            "raw": "\"errorArray[1] === 'p2-rejection'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1396,7 +1452,9 @@
               "start": 2576,
               "end": 2577,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1406,14 +1464,18 @@
             "start": 2580,
             "end": 2594,
             "value": "p3-rejection",
-            "raw": "\"p3-rejection\""
+            "raw": "\"p3-rejection\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2596,
             "end": 2630,
             "value": "errorArray[2] === 'p3-rejection'",
-            "raw": "\"errorArray[2] === 'p3-rejection'\""
+            "raw": "\"errorArray[2] === 'p3-rejection'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1439,7 +1501,9 @@
             "start": 2647,
             "end": 2674,
             "value": "unexpectedonRejectedValue",
-            "raw": "\"unexpectedonRejectedValue\""
+            "raw": "\"unexpectedonRejectedValue\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1484,14 +1548,18 @@
             "start": 2706,
             "end": 2707,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2709,
             "end": 2749,
             "value": "callCount after call to p1OnRejected()",
-            "raw": "\"callCount after call to p1OnRejected()\""
+            "raw": "\"callCount after call to p1OnRejected()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1540,7 +1608,9 @@
               "start": 2783,
               "end": 2784,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1550,14 +1620,18 @@
             "start": 2789,
             "end": 2803,
             "value": "p1-rejection",
-            "raw": "\"p1-rejection\""
+            "raw": "\"p1-rejection\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2807,
             "end": 2874,
             "value": "errorArray[0] === 'p1-rejection', after call to p1OnRejected(...)",
-            "raw": "\"errorArray[0] === 'p1-rejection', after call to p1OnRejected(...)\""
+            "raw": "\"errorArray[0] === 'p1-rejection', after call to p1OnRejected(...)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1606,7 +1680,9 @@
               "start": 2909,
               "end": 2910,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1616,14 +1692,18 @@
             "start": 2915,
             "end": 2929,
             "value": "p2-rejection",
-            "raw": "\"p2-rejection\""
+            "raw": "\"p2-rejection\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2933,
             "end": 3000,
             "value": "errorArray[1] === 'p2-rejection', after call to p1OnRejected(...)",
-            "raw": "\"errorArray[1] === 'p2-rejection', after call to p1OnRejected(...)\""
+            "raw": "\"errorArray[1] === 'p2-rejection', after call to p1OnRejected(...)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1672,7 +1752,9 @@
               "start": 3035,
               "end": 3036,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1682,14 +1764,18 @@
             "start": 3041,
             "end": 3055,
             "value": "p3-rejection",
-            "raw": "\"p3-rejection\""
+            "raw": "\"p3-rejection\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3059,
             "end": 3126,
             "value": "errorArray[2] === 'p3-rejection', after call to p1OnRejected(...)",
-            "raw": "\"errorArray[2] === 'p3-rejection', after call to p1OnRejected(...)\""
+            "raw": "\"errorArray[2] === 'p3-rejection', after call to p1OnRejected(...)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

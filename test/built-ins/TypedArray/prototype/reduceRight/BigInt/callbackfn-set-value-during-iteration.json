@@ -76,6 +76,7 @@
                                 "end": 859,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 864,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 869,
                                 "value": null,
                                 "raw": "44n",
+                                "regex": null,
                                 "bigint": "44"
                               }
                             ]
@@ -123,6 +126,7 @@
                         "end": 890,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     }
@@ -234,7 +238,9 @@
                                     "start": 966,
                                     "end": 967,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               },
@@ -297,7 +303,9 @@
                                               "start": 1014,
                                               "end": 1015,
                                               "value": 1,
-                                              "raw": "1"
+                                              "raw": "1",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           },
                                           "computed": true,
@@ -320,6 +328,7 @@
                                             "end": 1029,
                                             "value": null,
                                             "raw": "1n",
+                                            "regex": null,
                                             "bigint": "1"
                                           }
                                         },
@@ -328,7 +337,9 @@
                                           "start": 1039,
                                           "end": 1078,
                                           "value": "get the changed value during the loop",
-                                          "raw": "\"get the changed value during the loop\""
+                                          "raw": "\"get the changed value during the loop\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -397,7 +408,9 @@
                                               "start": 1140,
                                               "end": 1141,
                                               "value": 2,
-                                              "raw": "2"
+                                              "raw": "2",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             {
                                               "type": "Literal",
@@ -405,6 +418,7 @@
                                               "end": 1145,
                                               "value": null,
                                               "raw": "7n",
+                                              "regex": null,
                                               "bigint": "7"
                                             }
                                           ],
@@ -415,14 +429,18 @@
                                           "start": 1156,
                                           "end": 1160,
                                           "value": true,
-                                          "raw": "true"
+                                          "raw": "true",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "Literal",
                                           "start": 1170,
                                           "end": 1200,
                                           "value": "re-set a value for sample[2]",
-                                          "raw": "\"re-set a value for sample[2]\""
+                                          "raw": "\"re-set a value for sample[2]\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -510,14 +528,18 @@
                                     "start": 1282,
                                     "end": 1286,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1294,
                                     "end": 1322,
                                     "value": "set value during iteration",
-                                    "raw": "\"set value during iteration\""
+                                    "raw": "\"set value during iteration\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -549,7 +571,9 @@
                         "start": 1350,
                         "end": 1351,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -598,7 +622,9 @@
                           "start": 1381,
                           "end": 1382,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -609,6 +635,7 @@
                         "end": 1387,
                         "value": null,
                         "raw": "2n",
+                        "regex": null,
                         "bigint": "2"
                       },
                       {
@@ -616,7 +643,9 @@
                         "start": 1389,
                         "end": 1430,
                         "value": "changed values after iteration [0] == 2",
-                        "raw": "\"changed values after iteration [0] == 2\""
+                        "raw": "\"changed values after iteration [0] == 2\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -665,7 +694,9 @@
                           "start": 1459,
                           "end": 1460,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -676,6 +707,7 @@
                         "end": 1465,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {
@@ -683,7 +715,9 @@
                         "start": 1467,
                         "end": 1508,
                         "value": "changed values after iteration [1] == 1",
-                        "raw": "\"changed values after iteration [1] == 1\""
+                        "raw": "\"changed values after iteration [1] == 1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -732,7 +766,9 @@
                           "start": 1537,
                           "end": 1538,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -743,6 +779,7 @@
                         "end": 1543,
                         "value": null,
                         "raw": "7n",
+                        "regex": null,
                         "bigint": "7"
                       },
                       {
@@ -750,7 +787,9 @@
                         "start": 1545,
                         "end": 1586,
                         "value": "changed values after iteration [2] == 7",
-                        "raw": "\"changed values after iteration [2] == 7\""
+                        "raw": "\"changed values after iteration [2] == 7\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

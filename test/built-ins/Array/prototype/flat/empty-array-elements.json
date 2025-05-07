@@ -93,7 +93,9 @@
             "start": 352,
             "end": 378,
             "value": "[].flat() must return []",
-            "raw": "'[].flat() must return []'"
+            "raw": "'[].flat() must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -177,7 +179,9 @@
             "start": 428,
             "end": 462,
             "value": "[ [], [] ].flat() must return []",
-            "raw": "'[ [], [] ].flat() must return []'"
+            "raw": "'[ [], [] ].flat() must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,7 +244,9 @@
                         "start": 496,
                         "end": 497,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -268,7 +274,9 @@
                 "start": 510,
                 "end": 511,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -277,7 +285,9 @@
             "start": 514,
             "end": 550,
             "value": "[ [], [1] ].flat() must return [1]",
-            "raw": "'[ [], [1] ].flat() must return [1]'"
+            "raw": "'[ [], [1] ].flat() must return [1]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -340,7 +350,9 @@
                         "start": 584,
                         "end": 585,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -374,7 +386,9 @@
                 "start": 601,
                 "end": 602,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -389,7 +403,9 @@
             "start": 608,
             "end": 650,
             "value": "[ [], [1, a] ].flat() must return [1, a]",
-            "raw": "'[ [], [1, a] ].flat() must return [1, a]'"
+            "raw": "'[ [], [1, a] ].flat() must return [1, a]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

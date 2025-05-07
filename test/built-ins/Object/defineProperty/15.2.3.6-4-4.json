@@ -92,7 +92,9 @@
             "start": 572,
             "end": 577,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -154,7 +156,9 @@
                 "start": 637,
                 "end": 642,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -221,7 +225,9 @@
             "start": 690,
             "end": 706,
             "value": "propDesc.value",
-            "raw": "'propDesc.value'"
+            "raw": "'propDesc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,14 +285,18 @@
             "start": 769,
             "end": 774,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 795,
             "value": "propDesc.writable",
-            "raw": "'propDesc.writable'"
+            "raw": "'propDesc.writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,14 +354,18 @@
             "start": 856,
             "end": 861,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 863,
             "end": 884,
             "value": "propDesc.enumerable",
-            "raw": "'propDesc.enumerable'"
+            "raw": "'propDesc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,14 +423,18 @@
             "start": 947,
             "end": 952,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 977,
             "value": "propDesc.configurable",
-            "raw": "'propDesc.configurable'"
+            "raw": "'propDesc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

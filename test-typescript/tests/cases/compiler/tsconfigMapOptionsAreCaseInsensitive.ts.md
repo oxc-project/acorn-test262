@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 17,
         "raw": "42",
-        "value": 42
+        "value": 42,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -41,7 +43,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 31,
         "raw": "\"./other.js\"",
-        "value": "./other.js"
+        "value": "./other.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -89,7 +93,9 @@ __ESTREE_TEST__:PASS:
               "start": 43,
               "end": 45,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",

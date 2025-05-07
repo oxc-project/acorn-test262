@@ -165,7 +165,9 @@
             "start": 580,
             "end": 655,
             "value": "__obj.toString() must return the same value returned by n__obj.toString()",
-            "raw": "'__obj.toString() must return the same value returned by n__obj.toString()'"
+            "raw": "'__obj.toString() must return the same value returned by n__obj.toString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -242,7 +244,9 @@
             "start": 723,
             "end": 808,
             "value": "The value of __obj.constructor is expected to equal the value of n__obj.constructor",
-            "raw": "'The value of __obj.constructor is expected to equal the value of n__obj.constructor'"
+            "raw": "'The value of __obj.constructor is expected to equal the value of n__obj.constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +323,9 @@
             "start": 872,
             "end": 953,
             "value": "The value of __obj.prototype is expected to equal the value of n__obj.prototype",
-            "raw": "'The value of __obj.prototype is expected to equal the value of n__obj.prototype'"
+            "raw": "'The value of __obj.prototype is expected to equal the value of n__obj.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -410,7 +416,9 @@
             "start": 1031,
             "end": 1118,
             "value": "__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()",
-            "raw": "'__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()'"
+            "raw": "'__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -475,7 +483,9 @@
             "start": 1169,
             "end": 1230,
             "value": "The value of `typeof __obj` is expected to be typeof n__obj",
-            "raw": "'The value of `typeof __obj` is expected to be typeof n__obj'"
+            "raw": "'The value of `typeof __obj` is expected to be typeof n__obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

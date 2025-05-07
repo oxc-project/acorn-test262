@@ -129,7 +129,9 @@
                     "start": 467,
                     "end": 592,
                     "value": "#1.1: __instance = new Object; __instance.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: ",
-                    "raw": "'#1.1: __instance = new Object; __instance.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: '"
+                    "raw": "'#1.1: __instance = new Object; __instance.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -165,7 +167,9 @@
                           "start": 612,
                           "end": 636,
                           "value": "message to investigate",
-                          "raw": "\"message to investigate\""
+                          "raw": "\"message to investigate\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -243,14 +247,18 @@
                     "start": 707,
                     "end": 711,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 717,
                     "end": 791,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

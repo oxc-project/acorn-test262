@@ -23,7 +23,9 @@
             "start": 1212,
             "end": 1213,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1233,
             "end": 1234,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -189,14 +193,18 @@
                       "start": 1358,
                       "end": 1359,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1361,
                       "end": 1383,
                       "value": "first argument value",
-                      "raw": "'first argument value'"
+                      "raw": "'first argument value'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -241,14 +249,18 @@
                       "start": 1408,
                       "end": 1409,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1411,
                       "end": 1434,
                       "value": "second argument value",
-                      "raw": "'second argument value'"
+                      "raw": "'second argument value'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -293,14 +305,18 @@
                       "start": 1459,
                       "end": 1460,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1462,
                       "end": 1484,
                       "value": "third argument value",
-                      "raw": "'third argument value'"
+                      "raw": "'third argument value'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -337,7 +353,9 @@
                       "start": 1513,
                       "end": 1514,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -391,7 +409,9 @@
                         "start": 1524,
                         "end": 1525,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -471,14 +491,18 @@
                             "start": 1579,
                             "end": 1580,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1582,
                             "end": 1623,
                             "value": "generator function invoked exactly once",
-                            "raw": "'generator function invoked exactly once'"
+                            "raw": "'generator function invoked exactly once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

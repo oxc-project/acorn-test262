@@ -70,7 +70,9 @@
                   "start": 636,
                   "end": 648,
                   "value": "hasIndices",
-                  "raw": "\"hasIndices\""
+                  "raw": "\"hasIndices\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

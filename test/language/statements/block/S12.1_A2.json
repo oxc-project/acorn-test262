@@ -101,7 +101,9 @@
               "start": 734,
               "end": 743,
               "value": "catchme",
-              "raw": "\"catchme\""
+              "raw": "\"catchme\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -124,7 +126,9 @@
                   "start": 773,
                   "end": 821,
                   "value": "#2: throw \"catchme\" lead to throwing exception",
-                  "raw": "'#2: throw \"catchme\" lead to throwing exception'"
+                  "raw": "'#2: throw \"catchme\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -166,7 +170,9 @@
                   "start": 847,
                   "end": 856,
                   "value": "catchme",
-                  "raw": "\"catchme\""
+                  "raw": "\"catchme\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -198,7 +204,9 @@
                             "start": 885,
                             "end": 940,
                             "value": "#2.1: Exception === \"catchme\". Actual:  Exception ===",
-                            "raw": "'#2.1: Exception === \"catchme\". Actual:  Exception ==='"
+                            "raw": "'#2.1: Exception === \"catchme\". Actual:  Exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

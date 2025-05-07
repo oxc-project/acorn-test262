@@ -28,21 +28,27 @@
                 "start": 532,
                 "end": 539,
                 "value": "Shoes",
-                "raw": "'Shoes'"
+                "raw": "'Shoes'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 546,
                 "value": "Car",
-                "raw": "'Car'"
+                "raw": "'Car'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 548,
                 "end": 554,
                 "value": "Bike",
-                "raw": "'Bike'"
+                "raw": "'Bike'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -70,7 +76,9 @@
             "start": 570,
             "end": 571,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -156,7 +164,9 @@
                         "start": 634,
                         "end": 639,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -208,14 +218,18 @@
             "start": 671,
             "end": 672,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 674,
             "end": 708,
             "value": "predicate was called three times",
-            "raw": "'predicate was called three times'"
+            "raw": "'predicate was called three times'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,7 +341,9 @@
                       "start": 793,
                       "end": 795,
                       "value": "",
-                      "raw": "''"
+                      "raw": "''",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -383,7 +399,9 @@
             "start": 837,
             "end": 853,
             "value": "coerced string",
-            "raw": "'coerced string'"
+            "raw": "'coerced string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -506,7 +524,9 @@
             "start": 952,
             "end": 971,
             "value": "coerced undefined",
-            "raw": "'coerced undefined'"
+            "raw": "'coerced undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -574,7 +594,9 @@
                       "start": 1019,
                       "end": 1023,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -630,7 +652,9 @@
             "start": 1065,
             "end": 1079,
             "value": "coerced null",
-            "raw": "'coerced null'"
+            "raw": "'coerced null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -698,7 +722,9 @@
                       "start": 1127,
                       "end": 1128,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -754,7 +780,9 @@
             "start": 1170,
             "end": 1181,
             "value": "coerced 0",
-            "raw": "'coerced 0'"
+            "raw": "'coerced 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -877,7 +905,9 @@
             "start": 1274,
             "end": 1287,
             "value": "coerced NaN",
-            "raw": "'coerced NaN'"
+            "raw": "'coerced NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

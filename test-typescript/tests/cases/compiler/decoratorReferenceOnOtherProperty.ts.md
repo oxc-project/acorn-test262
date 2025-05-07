@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "'./yoha'",
-        "value": "./yoha"
+        "value": "./yoha",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -297,7 +299,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 27,
         "raw": "'./yoha'",
-        "value": "./yoha"
+        "value": "./yoha",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

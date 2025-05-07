@@ -38,7 +38,9 @@
                   "start": 323,
                   "end": 324,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -90,7 +92,9 @@
           "start": 459,
           "end": 460,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -118,7 +122,9 @@
                   "start": 488,
                   "end": 536,
                   "value": "#1: \"{}\" in while expression evaluates to true",
-                  "raw": "'#1: \"{}\" in while expression evaluates to true'"
+                  "raw": "'#1: \"{}\" in while expression evaluates to true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -23,7 +23,9 @@
             "start": 331,
             "end": 332,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -126,7 +128,9 @@
                   "start": 406,
                   "end": 414,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -307,28 +311,36 @@
                 "start": 545,
                 "end": 553,
                 "value": "wolves",
-                "raw": "'wolves'"
+                "raw": "'wolves'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 562,
                 "value": "cards",
-                "raw": "'cards'"
+                "raw": "'cards'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 564,
                 "end": 576,
                 "value": "cigarettes",
-                "raw": "'cigarettes'"
+                "raw": "'cigarettes'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 578,
                 "end": 584,
                 "value": "lies",
-                "raw": "'lies'"
+                "raw": "'lies'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -376,14 +388,18 @@
             "start": 611,
             "end": 612,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 653,
             "value": "The value of hits is expected to be 1",
-            "raw": "'The value of hits is expected to be 1'"
+            "raw": "'The value of hits is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -428,14 +444,18 @@
             "start": 683,
             "end": 684,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 728,
             "value": "The value of value is expected to be 4",
-            "raw": "'The value of value is expected to be 4'"
+            "raw": "'The value of value is expected to be 4'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +506,9 @@
             "start": 765,
             "end": 827,
             "value": "The value of _this_ is expected to equal the value of result",
-            "raw": "'The value of _this_ is expected to equal the value of result'"
+            "raw": "'The value of _this_ is expected to equal the value of result'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

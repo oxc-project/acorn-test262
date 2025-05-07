@@ -103,7 +103,9 @@ __ESTREE_TEST__:PASS:
         "start": 33,
         "end": 39,
         "raw": "'mod1'",
-        "value": "mod1"
+        "value": "mod1",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -139,7 +141,9 @@ __ESTREE_TEST__:PASS:
                 "start": 113,
                 "end": 119,
                 "raw": "'mod1'",
-                "value": "mod1"
+                "value": "mod1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -240,7 +244,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 87,
         "raw": "'moo'",
-        "value": "moo"
+        "value": "moo",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -118,7 +118,9 @@ __ESTREE_TEST__:PASS:
             "start": 74,
             "end": 75,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           }
         },
         "consequent": {
@@ -140,7 +142,9 @@ __ESTREE_TEST__:PASS:
             "start": 65,
             "end": 67,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           }
         },
         "test": {

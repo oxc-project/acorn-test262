@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 28,
                 "raw": "\"bitwise\"",
-                "value": "bitwise"
+                "value": "bitwise",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -184,7 +186,9 @@ __ESTREE_TEST__:PASS:
           "start": 57,
           "end": 58,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -203,7 +207,9 @@ __ESTREE_TEST__:PASS:
           "start": 60,
           "end": 61,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Identifier",

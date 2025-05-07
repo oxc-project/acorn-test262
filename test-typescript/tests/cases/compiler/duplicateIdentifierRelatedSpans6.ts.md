@@ -180,7 +180,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"someMod\"",
-        "value": "someMod"
+        "value": "someMod",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -343,7 +345,9 @@ __ESTREE_TEST__:PASS:
         "start": 49,
         "end": 58,
         "raw": "\"someMod\"",
-        "value": "someMod"
+        "value": "someMod",
+        "regex": null,
+        "bigint": null
       }
     },
     {

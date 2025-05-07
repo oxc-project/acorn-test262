@@ -50,7 +50,9 @@ __ESTREE_TEST__:PASS:
             "start": 45,
             "end": 51,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 31,
         "raw": "\"./example.json\"",
-        "value": "./example.json"
+        "value": "./example.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -75,7 +79,9 @@ __ESTREE_TEST__:PASS:
         "start": 76,
         "end": 90,
         "raw": "\"./styles.css\"",
-        "value": "./styles.css"
+        "value": "./styles.css",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

@@ -60,7 +60,9 @@
                 "start": 308,
                 "end": 315,
                 "value": "\"\\r\"",
-                "raw": "'\"\\\\r\"'"
+                "raw": "'\"\\\\r\"'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 318,
             "end": 322,
             "value": "\r",
-            "raw": "'\\r'"
+            "raw": "'\\r'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 347,
             "value": "JSON.parse('\"\\r\"')",
-            "raw": "'JSON.parse(\\'\"\\\\r\"\\')'"
+            "raw": "'JSON.parse(\\'\"\\\\r\"\\')'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

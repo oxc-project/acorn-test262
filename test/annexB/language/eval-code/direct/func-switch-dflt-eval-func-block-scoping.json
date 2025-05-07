@@ -105,7 +105,9 @@
                               "start": 1167,
                               "end": 1181,
                               "value": "switch (1) {",
-                              "raw": "'switch (1) {'"
+                              "raw": "'switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -113,7 +115,9 @@
                               "start": 1188,
                               "end": 1200,
                               "value": "  default:",
-                              "raw": "'  default:'"
+                              "raw": "'  default:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -122,7 +126,9 @@
                             "start": 1207,
                             "end": 1283,
                             "value": "    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }",
-                            "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'"
+                            "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -131,7 +137,9 @@
                           "start": 1290,
                           "end": 1324,
                           "value": "}    varBinding = f;    f();",
-                          "raw": "'}\\\n    varBinding = f;\\\n    f();'"
+                          "raw": "'}\\\n    varBinding = f;\\\n    f();'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -192,14 +200,18 @@
             "start": 1373,
             "end": 1379,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1383,
             "end": 1448,
             "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "raw": "'Block-scoped binding value is function object at execution time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,14 +256,18 @@
             "start": 1480,
             "end": 1483,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1485,
             "end": 1518,
             "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "raw": "'Block-scoped binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,14 +319,18 @@
             "start": 1557,
             "end": 1563,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1567,
             "end": 1632,
             "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

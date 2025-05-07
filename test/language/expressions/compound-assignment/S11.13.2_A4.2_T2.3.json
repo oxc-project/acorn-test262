@@ -43,7 +43,9 @@
           "start": 369,
           "end": 370,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -67,7 +69,9 @@
           "start": 377,
           "end": 381,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -135,7 +139,9 @@
                     "start": 446,
                     "end": 495,
                     "value": "#1: x = 1; x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#1: x = 1; x /= null; x === +Infinity. Actual: '"
+                    "raw": "'#1: x = 1; x /= null; x === +Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -177,7 +183,9 @@
           "start": 521,
           "end": 525,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -201,7 +209,9 @@
           "start": 532,
           "end": 533,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -225,7 +235,9 @@
           "start": 545,
           "end": 546,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -257,7 +269,9 @@
                     "start": 575,
                     "end": 616,
                     "value": "#2: x = null; x /= 1; x === 0. Actual: ",
-                    "raw": "'#2: x = null; x /= 1; x === 0. Actual: '"
+                    "raw": "'#2: x = null; x /= 1; x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -310,7 +324,9 @@
               "start": 653,
               "end": 654,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -336,7 +352,9 @@
           "start": 662,
           "end": 666,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -404,7 +422,9 @@
                     "start": 731,
                     "end": 792,
                     "value": "#3: x = new Number(1); x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#3: x = new Number(1); x /= null; x === +Infinity. Actual: '"
+                    "raw": "'#3: x = new Number(1); x /= null; x === +Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -446,7 +466,9 @@
           "start": 818,
           "end": 822,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -481,7 +503,9 @@
               "start": 840,
               "end": 841,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -507,7 +531,9 @@
           "start": 854,
           "end": 855,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -539,7 +565,9 @@
                     "start": 884,
                     "end": 937,
                     "value": "#4: x = null; x /= new Number(1); x === 0. Actual: ",
-                    "raw": "'#4: x = null; x /= new Number(1); x === 0. Actual: '"
+                    "raw": "'#4: x = null; x /= new Number(1); x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

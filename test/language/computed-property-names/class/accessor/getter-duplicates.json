@@ -30,7 +30,9 @@
               "start": 362,
               "end": 365,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {
@@ -56,7 +58,9 @@
                       "start": 382,
                       "end": 385,
                       "value": "A",
-                      "raw": "'A'"
+                      "raw": "'A'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -124,14 +128,18 @@
             "start": 421,
             "end": 424,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 461,
             "value": "The value of `new C().a` is `'A'`",
-            "raw": "\"The value of `new C().a` is `'A'`\""
+            "raw": "\"The value of `new C().a` is `'A'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +208,9 @@
                           "start": 515,
                           "end": 571,
                           "value": "The first `b` getter definition in `C2` is unreachable",
-                          "raw": "\"The first `b` getter definition in `C2` is unreachable\""
+                          "raw": "\"The first `b` getter definition in `C2` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -220,7 +230,9 @@
               "start": 585,
               "end": 588,
               "value": "b",
-              "raw": "'b'"
+              "raw": "'b'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {
@@ -246,7 +258,9 @@
                       "start": 605,
                       "end": 608,
                       "value": "B",
-                      "raw": "'B'"
+                      "raw": "'B'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -314,14 +328,18 @@
             "start": 645,
             "end": 648,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 650,
             "end": 686,
             "value": "The value of `new C2().b` is `'B'`",
-            "raw": "\"The value of `new C2().b` is `'B'`\""
+            "raw": "\"The value of `new C2().b` is `'B'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +408,9 @@
                           "start": 740,
                           "end": 796,
                           "value": "The first `c` getter definition in `C3` is unreachable",
-                          "raw": "\"The first `c` getter definition in `C3` is unreachable\""
+                          "raw": "\"The first `c` getter definition in `C3` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -410,7 +430,9 @@
               "start": 810,
               "end": 813,
               "value": "c",
-              "raw": "'c'"
+              "raw": "'c'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {
@@ -447,7 +469,9 @@
                           "start": 846,
                           "end": 903,
                           "value": "The second `c` getter definition in `C3` is unreachable",
-                          "raw": "\"The second `c` getter definition in `C3` is unreachable\""
+                          "raw": "\"The second `c` getter definition in `C3` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -467,7 +491,9 @@
               "start": 917,
               "end": 920,
               "value": "c",
-              "raw": "'c'"
+              "raw": "'c'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {
@@ -493,7 +519,9 @@
                       "start": 937,
                       "end": 940,
                       "value": "C",
-                      "raw": "'C'"
+                      "raw": "'C'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -561,14 +589,18 @@
             "start": 977,
             "end": 980,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 982,
             "end": 1018,
             "value": "The value of `new C3().c` is `'C'`",
-            "raw": "\"The value of `new C3().c` is `'C'`\""
+            "raw": "\"The value of `new C3().c` is `'C'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -601,7 +633,9 @@
               "start": 1040,
               "end": 1043,
               "value": "d",
-              "raw": "'d'"
+              "raw": "'d'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {
@@ -638,7 +672,9 @@
                           "start": 1076,
                           "end": 1132,
                           "value": "The first `d` getter definition in `C4` is unreachable",
-                          "raw": "\"The first `d` getter definition in `C4` is unreachable\""
+                          "raw": "\"The first `d` getter definition in `C4` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -683,7 +719,9 @@
                       "start": 1162,
                       "end": 1165,
                       "value": "D",
-                      "raw": "'D'"
+                      "raw": "'D'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -751,14 +789,18 @@
             "start": 1202,
             "end": 1205,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1207,
             "end": 1243,
             "value": "The value of `new C4().d` is `'D'`",
-            "raw": "\"The value of `new C4().d` is `'D'`\""
+            "raw": "\"The value of `new C4().d` is `'D'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

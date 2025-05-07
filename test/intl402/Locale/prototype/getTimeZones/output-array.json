@@ -79,7 +79,9 @@
                         "start": 500,
                         "end": 507,
                         "value": "en-US",
-                        "raw": "'en-US'"
+                        "raw": "'en-US'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -162,7 +164,9 @@
                         "start": 550,
                         "end": 557,
                         "value": "en-US",
-                        "raw": "'en-US'"
+                        "raw": "'en-US'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -193,7 +197,9 @@
               "start": 583,
               "end": 584,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -201,7 +207,9 @@
             "start": 586,
             "end": 618,
             "value": "array has at least one element",
-            "raw": "'array has at least one element'"
+            "raw": "'array has at least one element'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

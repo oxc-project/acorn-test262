@@ -25,7 +25,9 @@
         "start": 433,
         "end": 473,
         "value": "./export-expname-from-string-string.js",
-        "raw": "\"./export-expname-from-string-string.js\""
+        "raw": "\"./export-expname-from-string-string.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -44,14 +46,18 @@
             "start": 484,
             "end": 487,
             "value": "☿",
-            "raw": "\"☿\""
+            "raw": "\"☿\"",
+            "regex": null,
+            "bigint": null
           },
           "exported": {
             "type": "Literal",
             "start": 491,
             "end": 496,
             "value": "Ami",
-            "raw": "\"Ami\""
+            "raw": "\"Ami\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +66,9 @@
         "start": 504,
         "end": 533,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -107,7 +115,9 @@
               "start": 560,
               "end": 563,
               "value": "☿",
-              "raw": "\"☿\""
+              "raw": "\"☿\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

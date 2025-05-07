@@ -61,7 +61,9 @@
                     "start": 1029,
                     "end": 1076,
                     "value": "./for-await-resolution-and-error-a_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'"
+                    "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "options": null
                 },
@@ -74,7 +76,9 @@
                     "start": 1092,
                     "end": 1139,
                     "value": "./for-await-resolution-and-error-b_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-b_FIXTURE.js'"
+                    "raw": "'./for-await-resolution-and-error-b_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "options": null
                 },
@@ -87,7 +91,9 @@
                     "start": 1155,
                     "end": 1209,
                     "value": "./for-await-resolution-and-error-poisoned_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-poisoned_FIXTURE.js'"
+                    "raw": "'./for-await-resolution-and-error-poisoned_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "options": null
                 }
@@ -382,7 +388,9 @@
                   "start": 1410,
                   "end": 1412,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -450,7 +458,9 @@
                   "start": 1453,
                   "end": 1455,
                   "value": 39,
-                  "raw": "39"
+                  "raw": "39",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -585,7 +595,9 @@
                   "start": 1573,
                   "end": 1578,
                   "value": "foo",
-                  "raw": "'foo'"
+                  "raw": "'foo'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

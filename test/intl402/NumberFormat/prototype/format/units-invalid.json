@@ -28,651 +28,837 @@
                 "start": 291,
                 "end": 302,
                 "value": "acre-foot",
-                "raw": "\"acre-foot\""
+                "raw": "\"acre-foot\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 306,
                 "end": 314,
                 "value": "ampere",
-                "raw": "\"ampere\""
+                "raw": "\"ampere\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 330,
                 "value": "arc-minute",
-                "raw": "\"arc-minute\""
+                "raw": "\"arc-minute\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 346,
                 "value": "arc-second",
-                "raw": "\"arc-second\""
+                "raw": "\"arc-second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 369,
                 "value": "astronomical-unit",
-                "raw": "\"astronomical-unit\""
+                "raw": "\"astronomical-unit\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 385,
                 "value": "atmosphere",
-                "raw": "\"atmosphere\""
+                "raw": "\"atmosphere\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 397,
                 "value": "bushel",
-                "raw": "\"bushel\""
+                "raw": "\"bushel\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 401,
                 "end": 410,
                 "value": "calorie",
-                "raw": "\"calorie\""
+                "raw": "\"calorie\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 421,
                 "value": "carat",
-                "raw": "\"carat\""
+                "raw": "\"carat\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 437,
                 "value": "centiliter",
-                "raw": "\"centiliter\""
+                "raw": "\"centiliter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 450,
                 "value": "century",
-                "raw": "\"century\""
+                "raw": "\"century\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 454,
                 "end": 472,
                 "value": "cubic-centimeter",
-                "raw": "\"cubic-centimeter\""
+                "raw": "\"cubic-centimeter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 476,
                 "end": 488,
                 "value": "cubic-foot",
-                "raw": "\"cubic-foot\""
+                "raw": "\"cubic-foot\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 492,
                 "end": 504,
                 "value": "cubic-inch",
-                "raw": "\"cubic-inch\""
+                "raw": "\"cubic-inch\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 525,
                 "value": "cubic-kilometer",
-                "raw": "\"cubic-kilometer\""
+                "raw": "\"cubic-kilometer\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 542,
                 "value": "cubic-meter",
-                "raw": "\"cubic-meter\""
+                "raw": "\"cubic-meter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 558,
                 "value": "cubic-mile",
-                "raw": "\"cubic-mile\""
+                "raw": "\"cubic-mile\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 562,
                 "end": 574,
                 "value": "cubic-yard",
-                "raw": "\"cubic-yard\""
+                "raw": "\"cubic-yard\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 578,
                 "end": 590,
                 "value": "cup-metric",
-                "raw": "\"cup-metric\""
+                "raw": "\"cup-metric\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 594,
                 "end": 599,
                 "value": "cup",
-                "raw": "\"cup\""
+                "raw": "\"cup\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 615,
                 "value": "day-person",
-                "raw": "\"day-person\""
+                "raw": "\"day-person\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 619,
                 "end": 630,
                 "value": "deciliter",
-                "raw": "\"deciliter\""
+                "raw": "\"deciliter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 634,
                 "end": 645,
                 "value": "decimeter",
-                "raw": "\"decimeter\""
+                "raw": "\"decimeter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 649,
                 "end": 657,
                 "value": "fathom",
-                "raw": "\"fathom\""
+                "raw": "\"fathom\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 661,
                 "end": 674,
                 "value": "foodcalorie",
-                "raw": "\"foodcalorie\""
+                "raw": "\"foodcalorie\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 678,
                 "end": 687,
                 "value": "furlong",
-                "raw": "\"furlong\""
+                "raw": "\"furlong\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 691,
                 "end": 700,
                 "value": "g-force",
-                "raw": "\"g-force\""
+                "raw": "\"g-force\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 704,
                 "end": 721,
                 "value": "gallon-imperial",
-                "raw": "\"gallon-imperial\""
+                "raw": "\"gallon-imperial\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 725,
                 "end": 734,
                 "value": "generic",
-                "raw": "\"generic\""
+                "raw": "\"generic\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 738,
                 "end": 749,
                 "value": "gigahertz",
-                "raw": "\"gigahertz\""
+                "raw": "\"gigahertz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 753,
                 "end": 763,
                 "value": "gigawatt",
-                "raw": "\"gigawatt\""
+                "raw": "\"gigawatt\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 767,
                 "end": 779,
                 "value": "hectoliter",
-                "raw": "\"hectoliter\""
+                "raw": "\"hectoliter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 783,
                 "end": 796,
                 "value": "hectopascal",
-                "raw": "\"hectopascal\""
+                "raw": "\"hectopascal\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 800,
                 "end": 807,
                 "value": "hertz",
-                "raw": "\"hertz\""
+                "raw": "\"hertz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 811,
                 "end": 823,
                 "value": "horsepower",
-                "raw": "\"horsepower\""
+                "raw": "\"horsepower\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 827,
                 "end": 836,
                 "value": "inch-hg",
-                "raw": "\"inch-hg\""
+                "raw": "\"inch-hg\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 840,
                 "end": 847,
                 "value": "joule",
-                "raw": "\"joule\""
+                "raw": "\"joule\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 851,
                 "end": 858,
                 "value": "karat",
-                "raw": "\"karat\""
+                "raw": "\"karat\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 862,
                 "end": 870,
                 "value": "kelvin",
-                "raw": "\"kelvin\""
+                "raw": "\"kelvin\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 874,
                 "end": 887,
                 "value": "kilocalorie",
-                "raw": "\"kilocalorie\""
+                "raw": "\"kilocalorie\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 891,
                 "end": 902,
                 "value": "kilohertz",
-                "raw": "\"kilohertz\""
+                "raw": "\"kilohertz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 906,
                 "end": 917,
                 "value": "kilojoule",
-                "raw": "\"kilojoule\""
+                "raw": "\"kilojoule\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 921,
                 "end": 936,
                 "value": "kilowatt-hour",
-                "raw": "\"kilowatt-hour\""
+                "raw": "\"kilowatt-hour\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 940,
                 "end": 950,
                 "value": "kilowatt",
-                "raw": "\"kilowatt\""
+                "raw": "\"kilowatt\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 954,
                 "end": 960,
                 "value": "knot",
-                "raw": "\"knot\""
+                "raw": "\"knot\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 964,
                 "end": 976,
                 "value": "light-year",
-                "raw": "\"light-year\""
+                "raw": "\"light-year\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 980,
                 "end": 985,
                 "value": "lux",
-                "raw": "\"lux\""
+                "raw": "\"lux\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 989,
                 "end": 1000,
                 "value": "megahertz",
-                "raw": "\"megahertz\""
+                "raw": "\"megahertz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1004,
                 "end": 1015,
                 "value": "megaliter",
-                "raw": "\"megaliter\""
+                "raw": "\"megaliter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1019,
                 "end": 1029,
                 "value": "megawatt",
-                "raw": "\"megawatt\""
+                "raw": "\"megawatt\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1033,
                 "end": 1045,
                 "value": "metric-ton",
-                "raw": "\"metric-ton\""
+                "raw": "\"metric-ton\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1049,
                 "end": 1060,
                 "value": "microgram",
-                "raw": "\"microgram\""
+                "raw": "\"microgram\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1064,
                 "end": 1076,
                 "value": "micrometer",
-                "raw": "\"micrometer\""
+                "raw": "\"micrometer\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1080,
                 "end": 1093,
                 "value": "milliampere",
-                "raw": "\"milliampere\""
+                "raw": "\"milliampere\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1097,
                 "end": 1107,
                 "value": "millibar",
-                "raw": "\"millibar\""
+                "raw": "\"millibar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1111,
                 "end": 1122,
                 "value": "milligram",
-                "raw": "\"milligram\""
+                "raw": "\"milligram\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1126,
                 "end": 1149,
                 "value": "millimeter-of-mercury",
-                "raw": "\"millimeter-of-mercury\""
+                "raw": "\"millimeter-of-mercury\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1153,
                 "end": 1164,
                 "value": "milliwatt",
-                "raw": "\"milliwatt\""
+                "raw": "\"milliwatt\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1168,
                 "end": 1182,
                 "value": "month-person",
-                "raw": "\"month-person\""
+                "raw": "\"month-person\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1186,
                 "end": 1197,
                 "value": "nanometer",
-                "raw": "\"nanometer\""
+                "raw": "\"nanometer\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1201,
                 "end": 1216,
                 "value": "nautical-mile",
-                "raw": "\"nautical-mile\""
+                "raw": "\"nautical-mile\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1220,
                 "end": 1225,
                 "value": "ohm",
-                "raw": "\"ohm\""
+                "raw": "\"ohm\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1229,
                 "end": 1241,
                 "value": "ounce-troy",
-                "raw": "\"ounce-troy\""
+                "raw": "\"ounce-troy\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1245,
                 "end": 1253,
                 "value": "parsec",
-                "raw": "\"parsec\""
+                "raw": "\"parsec\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1257,
                 "end": 1267,
                 "value": "permille",
-                "raw": "\"permille\""
+                "raw": "\"permille\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1271,
                 "end": 1282,
                 "value": "picometer",
-                "raw": "\"picometer\""
+                "raw": "\"picometer\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1286,
                 "end": 1299,
                 "value": "pint-metric",
-                "raw": "\"pint-metric\""
+                "raw": "\"pint-metric\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1303,
                 "end": 1309,
                 "value": "pint",
-                "raw": "\"pint\""
+                "raw": "\"pint\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1313,
                 "end": 1320,
                 "value": "point",
-                "raw": "\"point\""
+                "raw": "\"point\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1324,
                 "end": 1331,
                 "value": "quart",
-                "raw": "\"quart\""
+                "raw": "\"quart\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1335,
                 "end": 1343,
                 "value": "radian",
-                "raw": "\"radian\""
+                "raw": "\"radian\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1347,
                 "end": 1359,
                 "value": "revolution",
-                "raw": "\"revolution\""
+                "raw": "\"revolution\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1363,
                 "end": 1382,
                 "value": "square-centimeter",
-                "raw": "\"square-centimeter\""
+                "raw": "\"square-centimeter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1386,
                 "end": 1399,
                 "value": "square-foot",
-                "raw": "\"square-foot\""
+                "raw": "\"square-foot\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1403,
                 "end": 1416,
                 "value": "square-inch",
-                "raw": "\"square-inch\""
+                "raw": "\"square-inch\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1420,
                 "end": 1438,
                 "value": "square-kilometer",
-                "raw": "\"square-kilometer\""
+                "raw": "\"square-kilometer\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1442,
                 "end": 1456,
                 "value": "square-meter",
-                "raw": "\"square-meter\""
+                "raw": "\"square-meter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1460,
                 "end": 1473,
                 "value": "square-mile",
-                "raw": "\"square-mile\""
+                "raw": "\"square-mile\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1477,
                 "end": 1490,
                 "value": "square-yard",
-                "raw": "\"square-yard\""
+                "raw": "\"square-yard\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1494,
                 "end": 1506,
                 "value": "tablespoon",
-                "raw": "\"tablespoon\""
+                "raw": "\"tablespoon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1510,
                 "end": 1520,
                 "value": "teaspoon",
-                "raw": "\"teaspoon\""
+                "raw": "\"teaspoon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1524,
                 "end": 1529,
                 "value": "ton",
-                "raw": "\"ton\""
+                "raw": "\"ton\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1533,
                 "end": 1539,
                 "value": "volt",
-                "raw": "\"volt\""
+                "raw": "\"volt\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1543,
                 "end": 1549,
                 "value": "watt",
-                "raw": "\"watt\""
+                "raw": "\"watt\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1553,
                 "end": 1566,
                 "value": "week-person",
-                "raw": "\"week-person\""
+                "raw": "\"week-person\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1570,
                 "end": 1583,
                 "value": "year-person",
-                "raw": "\"year-person\""
+                "raw": "\"year-person\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1587,
                 "end": 1612,
                 "value": "liter-per-100kilometers",
-                "raw": "\"liter-per-100kilometers\""
+                "raw": "\"liter-per-100kilometers\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1616,
                 "end": 1642,
                 "value": "meter-per-second-squared",
-                "raw": "\"meter-per-second-squared\""
+                "raw": "\"meter-per-second-squared\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1646,
                 "end": 1672,
                 "value": "mile-per-gallon-imperial",
-                "raw": "\"mile-per-gallon-imperial\""
+                "raw": "\"mile-per-gallon-imperial\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1676,
                 "end": 1701,
                 "value": "milligram-per-deciliter",
-                "raw": "\"milligram-per-deciliter\""
+                "raw": "\"milligram-per-deciliter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1705,
                 "end": 1726,
                 "value": "millimole-per-liter",
-                "raw": "\"millimole-per-liter\""
+                "raw": "\"millimole-per-liter\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1730,
                 "end": 1748,
                 "value": "part-per-million",
-                "raw": "\"part-per-million\""
+                "raw": "\"part-per-million\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1752,
                 "end": 1775,
                 "value": "pound-per-square-inch",
-                "raw": "\"pound-per-square-inch\""
+                "raw": "\"pound-per-square-inch\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -812,7 +998,9 @@
                               "start": 1885,
                               "end": 1891,
                               "value": "unit",
-                              "raw": "\"unit\""
+                              "raw": "\"unit\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },

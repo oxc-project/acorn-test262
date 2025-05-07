@@ -161,7 +161,9 @@
                       "start": 1623,
                       "end": 1624,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "update": null,

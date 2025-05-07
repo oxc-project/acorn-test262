@@ -72,7 +72,9 @@
                                       "start": 1408,
                                       "end": 1415,
                                       "value": "await",
-                                      "raw": "'await'"
+                                      "raw": "'await'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }

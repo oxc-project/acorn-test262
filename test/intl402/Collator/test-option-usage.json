@@ -42,14 +42,18 @@
             "start": 303,
             "end": 310,
             "value": "usage",
-            "raw": "\"usage\""
+            "raw": "\"usage\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 312,
             "end": 320,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -61,14 +65,18 @@
                 "start": 323,
                 "end": 329,
                 "value": "sort",
-                "raw": "\"sort\""
+                "raw": "\"sort\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 339,
                 "value": "search",
-                "raw": "\"search\""
+                "raw": "\"search\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -77,7 +85,9 @@
             "start": 342,
             "end": 348,
             "value": "sort",
-            "raw": "\"sort\""
+            "raw": "\"sort\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

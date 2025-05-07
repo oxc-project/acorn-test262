@@ -28,14 +28,18 @@
                 "start": 265,
                 "end": 266,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 268,
                 "end": 269,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,7 +91,9 @@
                 "start": 291,
                 "end": 292,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -212,7 +218,9 @@
               "start": 366,
               "end": 376,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -220,7 +228,9 @@
               "start": 379,
               "end": 386,
               "value": "Array",
-              "raw": "\"Array\""
+              "raw": "\"Array\"",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -229,7 +239,9 @@
             "start": 389,
             "end": 392,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -262,7 +274,9 @@
                     "start": 421,
                     "end": 498,
                     "value": "#0: var x = [0,1]; var arr = x.splice(0,NaN); arr is Array object. Actual: ",
-                    "raw": "'#0: var x = [0,1]; var arr = x.splice(0,NaN); arr is Array object. Actual: '"
+                    "raw": "'#0: var x = [0,1]; var arr = x.splice(0,NaN); arr is Array object. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -337,7 +351,9 @@
           "start": 542,
           "end": 543,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -369,7 +385,9 @@
                     "start": 572,
                     "end": 646,
                     "value": "#1: var x = [0,1]; var arr = x.splice(0,NaN); arr.length === 0. Actual: ",
-                    "raw": "'#1: var x = [0,1]; var arr = x.splice(0,NaN); arr.length === 0. Actual: '"
+                    "raw": "'#1: var x = [0,1]; var arr = x.splice(0,NaN); arr.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -437,7 +455,9 @@
           "start": 684,
           "end": 685,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -469,7 +489,9 @@
                     "start": 714,
                     "end": 786,
                     "value": "#2: var x = [0,1]; var arr = x.splice(0,NaN); x.length === 2. Actual: ",
-                    "raw": "'#2: var x = [0,1]; var arr = x.splice(0,NaN); x.length === 2. Actual: '"
+                    "raw": "'#2: var x = [0,1]; var arr = x.splice(0,NaN); x.length === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -527,7 +549,9 @@
             "start": 811,
             "end": 812,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -538,7 +562,9 @@
           "start": 818,
           "end": 819,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -570,7 +596,9 @@
                     "start": 848,
                     "end": 916,
                     "value": "#3: var x = [0,1]; var arr = x.splice(0,NaN); x[0] === 0. Actual: ",
-                    "raw": "'#3: var x = [0,1]; var arr = x.splice(0,NaN); x[0] === 0. Actual: '"
+                    "raw": "'#3: var x = [0,1]; var arr = x.splice(0,NaN); x[0] === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -592,7 +620,9 @@
                         "start": 922,
                         "end": 923,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -629,7 +659,9 @@
             "start": 937,
             "end": 938,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -640,7 +672,9 @@
           "start": 944,
           "end": 945,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -672,7 +706,9 @@
                     "start": 974,
                     "end": 1042,
                     "value": "#4: var x = [0,1]; var arr = x.splice(0,NaN); x[1] === 1. Actual: ",
-                    "raw": "'#4: var x = [0,1]; var arr = x.splice(0,NaN); x[1] === 1. Actual: '"
+                    "raw": "'#4: var x = [0,1]; var arr = x.splice(0,NaN); x[1] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -694,7 +730,9 @@
                         "start": 1048,
                         "end": 1049,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

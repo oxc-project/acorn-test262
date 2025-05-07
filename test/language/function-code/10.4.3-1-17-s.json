@@ -90,7 +90,9 @@
                       "start": 330,
                       "end": 343,
                       "value": "typeof this",
-                      "raw": "\"typeof this\""
+                      "raw": "\"typeof this\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -100,14 +102,18 @@
                   "start": 346,
                   "end": 357,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 359,
                   "end": 380,
                   "value": "eval(\"typeof this\")",
-                  "raw": "'eval(\"typeof this\")'"
+                  "raw": "'eval(\"typeof this\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -157,7 +163,9 @@
                       "start": 410,
                       "end": 416,
                       "value": "this",
-                      "raw": "\"this\""
+                      "raw": "\"this\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -173,7 +181,9 @@
                   "start": 427,
                   "end": 441,
                   "value": "eval(\"this\")",
-                  "raw": "'eval(\"this\")'"
+                  "raw": "'eval(\"this\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

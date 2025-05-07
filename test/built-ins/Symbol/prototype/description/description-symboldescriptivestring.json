@@ -34,7 +34,9 @@
                 "start": 655,
                 "end": 660,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,14 +97,18 @@
             "start": 706,
             "end": 711,
             "value": "foo",
-            "raw": "'foo'"
+            "raw": "'foo'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 757,
             "value": "The value of symbol.description is \"foo\"",
-            "raw": "'The value of symbol.description is \"foo\"'"
+            "raw": "'The value of symbol.description is \"foo\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

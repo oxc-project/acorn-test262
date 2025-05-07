@@ -82,14 +82,18 @@
             "start": 767,
             "end": 772,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 776,
             "end": 839,
             "value": "isConstructor(Date.prototype.setUTCSeconds) must return false",
-            "raw": "'isConstructor(Date.prototype.setUTCSeconds) must return false'"
+            "raw": "'isConstructor(Date.prototype.setUTCSeconds) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

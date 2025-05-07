@@ -113,14 +113,18 @@
             "start": 344,
             "end": 353,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 355,
             "end": 390,
             "value": "calendar string should be iso8601",
-            "raw": "\"calendar string should be iso8601\""
+            "raw": "\"calendar string should be iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
                   "start": 55,
                   "end": 56,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeParameters": null
@@ -114,7 +116,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 30,
         "raw": "\"ambientModule\"",
-        "value": "ambientModule"
+        "value": "ambientModule",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -155,7 +159,9 @@ __ESTREE_TEST__:PASS:
                     "start": 124,
                     "end": 125,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -218,7 +224,9 @@ __ESTREE_TEST__:PASS:
                   "start": 174,
                   "end": 175,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeParameters": null
@@ -269,7 +277,9 @@ __ESTREE_TEST__:PASS:
             "start": 232,
             "end": 251,
             "raw": "\"\\\"ambientModule\\\"\"",
-            "value": "\"ambientModule\""
+            "value": "\"ambientModule\"",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {
@@ -317,7 +327,9 @@ __ESTREE_TEST__:PASS:
             "start": 290,
             "end": 303,
             "raw": "\"valueModule\"",
-            "value": "valueModule"
+            "value": "valueModule",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {
@@ -431,7 +443,9 @@ __ESTREE_TEST__:PASS:
                     "start": 385,
                     "end": 404,
                     "raw": "\"\\\"ambientModule\\\"\"",
-                    "value": "\"ambientModule\""
+                    "value": "\"ambientModule\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {
@@ -457,7 +471,9 @@ __ESTREE_TEST__:PASS:
             "start": 408,
             "end": 423,
             "raw": "'ambientModule'",
-            "value": "ambientModule"
+            "value": "ambientModule",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

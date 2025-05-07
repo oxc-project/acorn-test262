@@ -47,7 +47,9 @@
           "start": 293,
           "end": 304,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +72,9 @@
               "start": 330,
               "end": 369,
               "value": "#1: typeof (this.NaN) !== \"undefined\"",
-              "raw": "'#1: typeof (this.NaN) !== \"undefined\"'"
+              "raw": "'#1: typeof (this.NaN) !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -105,7 +109,9 @@
               "start": 388,
               "end": 393,
               "value": "NaN",
-              "raw": "'NaN'"
+              "raw": "'NaN'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -117,7 +123,9 @@
           "start": 400,
           "end": 411,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -140,7 +148,9 @@
               "start": 437,
               "end": 477,
               "value": "#2: typeof this[\"NaN\"] !== \"undefined\"",
-              "raw": "'#2: typeof this[\"NaN\"] !== \"undefined\"'"
+              "raw": "'#2: typeof this[\"NaN\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -186,7 +196,9 @@
           "start": 510,
           "end": 521,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -209,7 +221,9 @@
               "start": 547,
               "end": 589,
               "value": "#3: typeof this.Infinity !== \"undefined\"",
-              "raw": "'#3: typeof this.Infinity !== \"undefined\"'"
+              "raw": "'#3: typeof this.Infinity !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -244,7 +258,9 @@
               "start": 608,
               "end": 618,
               "value": "Infinity",
-              "raw": "'Infinity'"
+              "raw": "'Infinity'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -256,7 +272,9 @@
           "start": 625,
           "end": 636,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -279,7 +297,9 @@
               "start": 662,
               "end": 707,
               "value": "#4: typeof this[\"Infinity\"] !== \"undefined\"",
-              "raw": "'#4: typeof this[\"Infinity\"] !== \"undefined\"'"
+              "raw": "'#4: typeof this[\"Infinity\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -325,7 +345,9 @@
           "start": 740,
           "end": 751,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -348,7 +370,9 @@
               "start": 777,
               "end": 819,
               "value": "#5: typeof this.parseInt !== \"undefined\"",
-              "raw": "'#5: typeof this.parseInt !== \"undefined\"'"
+              "raw": "'#5: typeof this.parseInt !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -383,7 +407,9 @@
               "start": 838,
               "end": 848,
               "value": "parseInt",
-              "raw": "'parseInt'"
+              "raw": "'parseInt'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -395,7 +421,9 @@
           "start": 854,
           "end": 865,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -418,7 +446,9 @@
               "start": 891,
               "end": 936,
               "value": "#6: typeof this[\"parseInt\"] !== \"undefined\"",
-              "raw": "'#6: typeof this[\"parseInt\"] !== \"undefined\"'"
+              "raw": "'#6: typeof this[\"parseInt\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -464,7 +494,9 @@
           "start": 971,
           "end": 982,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -487,7 +519,9 @@
               "start": 1008,
               "end": 1052,
               "value": "#7: typeof this.parseFloat !== \"undefined\"",
-              "raw": "'#7: typeof this.parseFloat !== \"undefined\"'"
+              "raw": "'#7: typeof this.parseFloat !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -522,7 +556,9 @@
               "start": 1071,
               "end": 1083,
               "value": "parseFloat",
-              "raw": "'parseFloat'"
+              "raw": "'parseFloat'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -534,7 +570,9 @@
           "start": 1089,
           "end": 1100,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -557,7 +595,9 @@
               "start": 1126,
               "end": 1173,
               "value": "#8: typeof this[\"parseFloat\"] !== \"undefined\"",
-              "raw": "'#8: typeof this[\"parseFloat\"] !== \"undefined\"'"
+              "raw": "'#8: typeof this[\"parseFloat\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -603,7 +643,9 @@
           "start": 1203,
           "end": 1214,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -626,7 +668,9 @@
               "start": 1240,
               "end": 1280,
               "value": "#13: typeof this.isNaN !== \"undefined\"",
-              "raw": "'#13: typeof this.isNaN !== \"undefined\"'"
+              "raw": "'#13: typeof this.isNaN !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -661,7 +705,9 @@
               "start": 1299,
               "end": 1306,
               "value": "isNaN",
-              "raw": "'isNaN'"
+              "raw": "'isNaN'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -673,7 +719,9 @@
           "start": 1312,
           "end": 1323,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -696,7 +744,9 @@
               "start": 1349,
               "end": 1392,
               "value": "#14: typeof this[\"isNaN\"] !== \"undefined\"",
-              "raw": "'#14: typeof this[\"isNaN\"] !== \"undefined\"'"
+              "raw": "'#14: typeof this[\"isNaN\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -742,7 +792,9 @@
           "start": 1425,
           "end": 1436,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -765,7 +817,9 @@
               "start": 1462,
               "end": 1505,
               "value": "#15: typeof this.isFinite !== \"undefined\"",
-              "raw": "'#15: typeof this.isFinite !== \"undefined\"'"
+              "raw": "'#15: typeof this.isFinite !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -800,7 +854,9 @@
               "start": 1524,
               "end": 1534,
               "value": "isFinite",
-              "raw": "'isFinite'"
+              "raw": "'isFinite'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -812,7 +868,9 @@
           "start": 1540,
           "end": 1551,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -835,7 +893,9 @@
               "start": 1577,
               "end": 1623,
               "value": "#16: typeof this[\"isFinite\"] !== \"undefined\"",
-              "raw": "'#16: typeof this[\"isFinite\"] !== \"undefined\"'"
+              "raw": "'#16: typeof this[\"isFinite\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -881,7 +941,9 @@
           "start": 1653,
           "end": 1664,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -904,7 +966,9 @@
               "start": 1690,
               "end": 1731,
               "value": "#17: typeof this.Object !== \"undefined\"",
-              "raw": "'#17: typeof this.Object !== \"undefined\"'"
+              "raw": "'#17: typeof this.Object !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -939,7 +1003,9 @@
               "start": 1750,
               "end": 1758,
               "value": "Object",
-              "raw": "'Object'"
+              "raw": "'Object'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -951,7 +1017,9 @@
           "start": 1764,
           "end": 1775,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -974,7 +1042,9 @@
               "start": 1801,
               "end": 1845,
               "value": "#18: typeof this[\"Object\"] !== \"undefined\"",
-              "raw": "'#18: typeof this[\"Object\"] !== \"undefined\"'"
+              "raw": "'#18: typeof this[\"Object\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1020,7 +1090,9 @@
           "start": 1875,
           "end": 1886,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1043,7 +1115,9 @@
               "start": 1912,
               "end": 1953,
               "value": "#19: typeof this.Number !== \"undefined\"",
-              "raw": "'#19: typeof this.Number !== \"undefined\"'"
+              "raw": "'#19: typeof this.Number !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1078,7 +1152,9 @@
               "start": 1972,
               "end": 1980,
               "value": "Number",
-              "raw": "'Number'"
+              "raw": "'Number'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1090,7 +1166,9 @@
           "start": 1986,
           "end": 1997,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1113,7 +1191,9 @@
               "start": 2023,
               "end": 2067,
               "value": "#20: typeof this[\"Number\"] !== \"undefined\"",
-              "raw": "'#20: typeof this[\"Number\"] !== \"undefined\"'"
+              "raw": "'#20: typeof this[\"Number\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1159,7 +1239,9 @@
           "start": 2099,
           "end": 2110,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1182,7 +1264,9 @@
               "start": 2136,
               "end": 2179,
               "value": "#21: typeof this.Function !== \"undefined\"",
-              "raw": "'#21: typeof this.Function !== \"undefined\"'"
+              "raw": "'#21: typeof this.Function !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1217,7 +1301,9 @@
               "start": 2198,
               "end": 2208,
               "value": "Function",
-              "raw": "'Function'"
+              "raw": "'Function'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1229,7 +1315,9 @@
           "start": 2214,
           "end": 2225,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1252,7 +1340,9 @@
               "start": 2251,
               "end": 2297,
               "value": "#22: typeof this[\"Function\"] !== \"undefined\"",
-              "raw": "'#22: typeof this[\"Function\"] !== \"undefined\"'"
+              "raw": "'#22: typeof this[\"Function\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1298,7 +1388,9 @@
           "start": 2326,
           "end": 2337,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1321,7 +1413,9 @@
               "start": 2363,
               "end": 2403,
               "value": "#23: typeof this.Array !== \"undefined\"",
-              "raw": "'#23: typeof this.Array !== \"undefined\"'"
+              "raw": "'#23: typeof this.Array !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1356,7 +1450,9 @@
               "start": 2422,
               "end": 2429,
               "value": "Array",
-              "raw": "'Array'"
+              "raw": "'Array'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1368,7 +1464,9 @@
           "start": 2435,
           "end": 2446,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1391,7 +1489,9 @@
               "start": 2472,
               "end": 2515,
               "value": "#24: typeof this[\"Array\"] !== \"undefined\"",
-              "raw": "'#24: typeof this[\"Array\"] !== \"undefined\"'"
+              "raw": "'#24: typeof this[\"Array\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1437,7 +1537,9 @@
           "start": 2545,
           "end": 2556,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1460,7 +1562,9 @@
               "start": 2582,
               "end": 2623,
               "value": "#25: typeof this.String !== \"undefined\"",
-              "raw": "'#25: typeof this.String !== \"undefined\"'"
+              "raw": "'#25: typeof this.String !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1495,7 +1599,9 @@
               "start": 2642,
               "end": 2650,
               "value": "String",
-              "raw": "'String'"
+              "raw": "'String'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1507,7 +1613,9 @@
           "start": 2656,
           "end": 2667,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1530,7 +1638,9 @@
               "start": 2693,
               "end": 2737,
               "value": "#26: typeof this[\"String\"] !== \"undefined\"",
-              "raw": "'#26: typeof this[\"String\"] !== \"undefined\"'"
+              "raw": "'#26: typeof this[\"String\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1576,7 +1686,9 @@
           "start": 2768,
           "end": 2779,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1599,7 +1711,9 @@
               "start": 2805,
               "end": 2847,
               "value": "#27: typeof this.Boolean !== \"undefined\"",
-              "raw": "'#27: typeof this.Boolean !== \"undefined\"'"
+              "raw": "'#27: typeof this.Boolean !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1634,7 +1748,9 @@
               "start": 2866,
               "end": 2875,
               "value": "Boolean",
-              "raw": "'Boolean'"
+              "raw": "'Boolean'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1646,7 +1762,9 @@
           "start": 2881,
           "end": 2892,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1669,7 +1787,9 @@
               "start": 2918,
               "end": 2963,
               "value": "#28: typeof this[\"Boolean\"] !== \"undefined\"",
-              "raw": "'#28: typeof this[\"Boolean\"] !== \"undefined\"'"
+              "raw": "'#28: typeof this[\"Boolean\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1715,7 +1835,9 @@
           "start": 2991,
           "end": 3002,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1738,7 +1860,9 @@
               "start": 3028,
               "end": 3067,
               "value": "#29: typeof this.Date !== \"undefined\"",
-              "raw": "'#29: typeof this.Date !== \"undefined\"'"
+              "raw": "'#29: typeof this.Date !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1773,7 +1897,9 @@
               "start": 3086,
               "end": 3092,
               "value": "Date",
-              "raw": "'Date'"
+              "raw": "'Date'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1785,7 +1911,9 @@
           "start": 3098,
           "end": 3109,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1808,7 +1936,9 @@
               "start": 3135,
               "end": 3177,
               "value": "#30: typeof this[\"Date\"] !== \"undefined\"",
-              "raw": "'#30: typeof this[\"Date\"] !== \"undefined\"'"
+              "raw": "'#30: typeof this[\"Date\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1854,7 +1984,9 @@
           "start": 3205,
           "end": 3216,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1877,7 +2009,9 @@
               "start": 3242,
               "end": 3281,
               "value": "#31: typeof this.Math !== \"undefined\"",
-              "raw": "'#31: typeof this.Math !== \"undefined\"'"
+              "raw": "'#31: typeof this.Math !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1912,7 +2046,9 @@
               "start": 3300,
               "end": 3306,
               "value": "Math",
-              "raw": "'Math'"
+              "raw": "'Math'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1924,7 +2060,9 @@
           "start": 3312,
           "end": 3323,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1947,7 +2085,9 @@
               "start": 3349,
               "end": 3391,
               "value": "#32: typeof this[\"Math\"] !== \"undefined\"",
-              "raw": "'#32: typeof this[\"Math\"] !== \"undefined\"'"
+              "raw": "'#32: typeof this[\"Math\"] !== \"undefined\"'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }

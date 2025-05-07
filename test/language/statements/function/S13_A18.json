@@ -30,7 +30,9 @@
           "start": 363,
           "end": 374,
           "value": "undefined",
-          "raw": "'undefined'"
+          "raw": "'undefined'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -62,7 +64,9 @@
                     "start": 402,
                     "end": 462,
                     "value": "#1: typeof sinx === 'undefined'. Actual: typeof sinx ===",
-                    "raw": "'#1: typeof sinx === \\'undefined\\'. Actual: typeof sinx ==='"
+                    "raw": "'#1: typeof sinx === \\'undefined\\'. Actual: typeof sinx ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -326,7 +330,9 @@
                   "start": 713,
                   "end": 718,
                   "value": 0.0001,
-                  "raw": ".0001"
+                  "raw": ".0001",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -337,7 +343,9 @@
                 "start": 720,
                 "end": 723,
                 "value": 0.5,
-                "raw": "0.5"
+                "raw": "0.5",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -373,7 +381,9 @@
           "start": 836,
           "end": 847,
           "value": "undefined",
-          "raw": "'undefined'"
+          "raw": "'undefined'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -405,7 +415,9 @@
                     "start": 875,
                     "end": 935,
                     "value": "#2: typeof sinx === 'undefined'. Actual: typeof sinx ===",
-                    "raw": "'#2: typeof sinx === \\'undefined\\'. Actual: typeof sinx ==='"
+                    "raw": "'#2: typeof sinx === \\'undefined\\'. Actual: typeof sinx ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

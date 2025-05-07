@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 90,
         "end": 97,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -276,7 +278,9 @@ __ESTREE_TEST__:PASS:
                   "start": 252,
                   "end": 254,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -289,7 +293,9 @@ __ESTREE_TEST__:PASS:
                   "start": 260,
                   "end": 272,
                   "raw": "\"data-yadda\"",
-                  "value": "data-yadda"
+                  "value": "data-yadda",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -300,7 +306,9 @@ __ESTREE_TEST__:PASS:
                   "start": 274,
                   "end": 276,
                   "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -355,7 +363,9 @@ __ESTREE_TEST__:PASS:
                     "start": 312,
                     "end": 319,
                     "raw": "\"hello\"",
-                    "value": "hello"
+                    "value": "hello",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -377,7 +387,9 @@ __ESTREE_TEST__:PASS:
                       "start": 332,
                       "end": 334,
                       "raw": "42",
-                      "value": 42
+                      "value": 42,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -442,7 +454,9 @@ __ESTREE_TEST__:PASS:
                     "start": 359,
                     "end": 366,
                     "raw": "\"hello\"",
-                    "value": "hello"
+                    "value": "hello",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -464,7 +478,9 @@ __ESTREE_TEST__:PASS:
                       "start": 379,
                       "end": 381,
                       "raw": "42",
-                      "value": 42
+                      "value": 42,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

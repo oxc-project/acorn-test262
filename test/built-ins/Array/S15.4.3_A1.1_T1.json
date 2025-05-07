@@ -49,7 +49,9 @@
           "start": 430,
           "end": 431,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -105,14 +107,18 @@
             "start": 469,
             "end": 470,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 523,
             "value": "The value of Array.myproperty is expected to be 1",
-            "raw": "'The value of Array.myproperty is expected to be 1'"
+            "raw": "'The value of Array.myproperty is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -175,7 +181,9 @@
                 "start": 564,
                 "end": 576,
                 "value": "myproperty",
-                "raw": "'myproperty'"
+                "raw": "'myproperty'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -185,14 +193,18 @@
             "start": 579,
             "end": 584,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 640,
             "value": "Array.hasOwnProperty(\"myproperty\") must return false",
-            "raw": "'Array.hasOwnProperty(\"myproperty\") must return false'"
+            "raw": "'Array.hasOwnProperty(\"myproperty\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

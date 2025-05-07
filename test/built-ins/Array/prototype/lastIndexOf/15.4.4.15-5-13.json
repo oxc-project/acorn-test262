@@ -49,7 +49,9 @@
                     "start": 312,
                     "end": 316,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -68,7 +70,9 @@
                 "start": 330,
                 "end": 334,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -97,7 +101,9 @@
               "start": 349,
               "end": 350,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -105,7 +111,9 @@
             "start": 352,
             "end": 389,
             "value": "[true].lastIndexOf(true, -Infinity)",
-            "raw": "'[true].lastIndexOf(true, -Infinity)'"
+            "raw": "'[true].lastIndexOf(true, -Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

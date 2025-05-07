@@ -48,7 +48,9 @@
             "start": 870,
             "end": 871,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -161,7 +163,9 @@
                     "start": 945,
                     "end": 946,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -278,14 +282,18 @@
             "start": 1032,
             "end": 1033,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1035,
             "end": 1064,
             "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "raw": "'method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -336,7 +344,9 @@
             "start": 1096,
             "end": 1139,
             "value": "`this` value is the object being compared",
-            "raw": "'`this` value is the object being compared'"
+            "raw": "'`this` value is the object being compared'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -394,14 +404,18 @@
             "start": 1172,
             "end": 1173,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1175,
             "end": 1217,
             "value": "method invoked with exactly one argument",
-            "raw": "'method invoked with exactly one argument'"
+            "raw": "'method invoked with exactly one argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,7 +464,9 @@
               "start": 1245,
               "end": 1246,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -460,14 +476,18 @@
             "start": 1251,
             "end": 1260,
             "value": "default",
-            "raw": "'default'"
+            "raw": "'default'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1264,
             "end": 1328,
             "value": "method invoked with the string \"default\" as the first argument",
-            "raw": "'method invoked with the string \"default\" as the first argument'"
+            "raw": "'method invoked with the string \"default\" as the first argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

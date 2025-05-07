@@ -49,7 +49,9 @@
                   "start": 355,
                   "end": 360,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -151,7 +153,9 @@
                   "start": 445,
                   "end": 489,
                   "value": "assert.throwsAsync should return a promise",
-                  "raw": "\"assert.throwsAsync should return a promise\""
+                  "raw": "\"assert.throwsAsync should return a promise\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -219,7 +223,9 @@
                         "start": 542,
                         "end": 546,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -281,7 +287,9 @@
                           "start": 617,
                           "end": 682,
                           "value": "throwsAsync should reject improper function with a Test262Error",
-                          "raw": "\"throwsAsync should reject improper function with a Test262Error\""
+                          "raw": "\"throwsAsync should reject improper function with a Test262Error\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -325,7 +333,9 @@
                           "start": 736,
                           "end": 790,
                           "value": "assert.throwsAsync did not reject improper function ",
-                          "raw": "\"assert.throwsAsync did not reject improper function \""
+                          "raw": "\"assert.throwsAsync did not reject improper function \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -398,7 +408,9 @@
                           "start": 863,
                           "end": 867,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -459,7 +471,9 @@
                           "start": 917,
                           "end": 925,
                           "value": "string",
-                          "raw": "\"string\""
+                          "raw": "\"string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -490,7 +504,9 @@
                           "start": 949,
                           "end": 951,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -604,7 +620,9 @@
                                             "start": 1043,
                                             "end": 1047,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -664,7 +682,9 @@
                                   "start": 1109,
                                   "end": 1113,
                                   "value": null,
-                                  "raw": "null"
+                                  "raw": "null",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -769,7 +789,9 @@
                                   "start": 1223,
                                   "end": 1231,
                                   "value": "string",
-                                  "raw": "\"string\""
+                                  "raw": "\"string\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -822,7 +844,9 @@
                                   "start": 1285,
                                   "end": 1287,
                                   "value": 10,
-                                  "raw": "10"
+                                  "raw": "10",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -933,7 +957,9 @@
                                         "start": 1387,
                                         "end": 1391,
                                         "value": null,
-                                        "raw": "null"
+                                        "raw": "null",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -1082,7 +1108,9 @@
                                         "start": 1521,
                                         "end": 1529,
                                         "value": "string",
-                                        "raw": "\"string\""
+                                        "raw": "\"string\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -1157,7 +1185,9 @@
                                         "start": 1593,
                                         "end": 1595,
                                         "value": 10,
-                                        "raw": "10"
+                                        "raw": "10",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }

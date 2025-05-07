@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 82,
                   "end": 99,
                   "raw": "'a unique symbol'",
-                  "value": "a unique symbol"
+                  "value": "a unique symbol",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -108,7 +110,9 @@ __ESTREE_TEST__:PASS:
                     "start": 133,
                     "end": 138,
                     "raw": "'sym'",
-                    "value": "sym"
+                    "value": "sym",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -153,7 +157,9 @@ __ESTREE_TEST__:PASS:
                     "start": 155,
                     "end": 160,
                     "raw": "'str'",
-                    "value": "str"
+                    "value": "str",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -243,7 +249,9 @@ __ESTREE_TEST__:PASS:
                   "start": 184,
                   "end": 189,
                   "raw": "'sym'",
-                  "value": "sym"
+                  "value": "sym",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -319,7 +327,9 @@ __ESTREE_TEST__:PASS:
                   "start": 224,
                   "end": 229,
                   "raw": "'str'",
-                  "value": "str"
+                  "value": "str",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

@@ -52,7 +52,9 @@
             "start": 446,
             "end": 447,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -62,7 +64,9 @@
           "start": 449,
           "end": 454,
           "value": "one",
-          "raw": "\"one\""
+          "raw": "\"one\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -90,7 +94,9 @@
             "start": 462,
             "end": 467,
             "value": "two",
-            "raw": "\"two\""
+            "raw": "\"two\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -100,7 +106,9 @@
           "start": 469,
           "end": 470,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -128,7 +136,9 @@
             "start": 478,
             "end": 481,
             "value": "3",
-            "raw": "\"3\""
+            "raw": "\"3\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -138,7 +148,9 @@
           "start": 483,
           "end": 488,
           "value": "tre",
-          "raw": "\"tre\""
+          "raw": "\"tre\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -165,7 +177,9 @@
             "start": 590,
             "end": 591,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -176,7 +190,9 @@
           "start": 597,
           "end": 602,
           "value": "one",
-          "raw": "\"one\""
+          "raw": "\"one\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -208,7 +224,9 @@
                     "start": 630,
                     "end": 728,
                     "value": "#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: ",
-                    "raw": "'#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: '"
+                    "raw": "'#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -230,7 +248,9 @@
                         "start": 738,
                         "end": 739,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -267,7 +287,9 @@
             "start": 928,
             "end": 933,
             "value": "two",
-            "raw": "\"two\""
+            "raw": "\"two\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -278,7 +300,9 @@
           "start": 939,
           "end": 940,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -310,7 +334,9 @@
                     "start": 968,
                     "end": 1066,
                     "value": "#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: ",
-                    "raw": "'#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: '"
+                    "raw": "'#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -332,7 +358,9 @@
                         "start": 1076,
                         "end": 1081,
                         "value": "two",
-                        "raw": "\"two\""
+                        "raw": "\"two\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -369,7 +397,9 @@
             "start": 1270,
             "end": 1273,
             "value": "3",
-            "raw": "\"3\""
+            "raw": "\"3\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -380,7 +410,9 @@
           "start": 1279,
           "end": 1284,
           "value": "tre",
-          "raw": "\"tre\""
+          "raw": "\"tre\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -412,7 +444,9 @@
                     "start": 1312,
                     "end": 1412,
                     "value": "#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: ",
-                    "raw": "'#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: '"
+                    "raw": "'#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -434,7 +468,9 @@
                         "start": 1422,
                         "end": 1425,
                         "value": "3",
-                        "raw": "\"3\""
+                        "raw": "\"3\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

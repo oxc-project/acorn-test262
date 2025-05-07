@@ -71,7 +71,9 @@
                       "start": 342,
                       "end": 352,
                       "value": "calendar",
-                      "raw": "'calendar'"
+                      "raw": "'calendar'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -164,7 +166,9 @@
                         "start": 414,
                         "end": 418,
                         "value": "00",
-                        "raw": "'00'"
+                        "raw": "'00'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -178,7 +182,9 @@
             "start": 424,
             "end": 445,
             "value": "insufficient length",
-            "raw": "'insufficient length'"
+            "raw": "'insufficient length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +271,9 @@
                         "start": 506,
                         "end": 517,
                         "value": "000000000",
-                        "raw": "'000000000'"
+                        "raw": "'000000000'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -279,7 +287,9 @@
             "start": 523,
             "end": 541,
             "value": "excessive length",
-            "raw": "'excessive length'"
+            "raw": "'excessive length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -366,7 +376,9 @@
                         "start": 602,
                         "end": 613,
                         "value": "-00000000",
-                        "raw": "'-00000000'"
+                        "raw": "'-00000000'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -380,7 +392,9 @@
             "start": 619,
             "end": 645,
             "value": "leading separator (dash)",
-            "raw": "'leading separator (dash)'"
+            "raw": "'leading separator (dash)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -467,7 +481,9 @@
                         "start": 706,
                         "end": 717,
                         "value": "_00000000",
-                        "raw": "'_00000000'"
+                        "raw": "'_00000000'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -481,7 +497,9 @@
             "start": 723,
             "end": 755,
             "value": "leading separator (underscore)",
-            "raw": "'leading separator (underscore)'"
+            "raw": "'leading separator (underscore)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,7 +586,9 @@
                         "start": 816,
                         "end": 827,
                         "value": "00000000-",
-                        "raw": "'00000000-'"
+                        "raw": "'00000000-'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -582,7 +602,9 @@
             "start": 833,
             "end": 860,
             "value": "trailing separator (dash)",
-            "raw": "'trailing separator (dash)'"
+            "raw": "'trailing separator (dash)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -669,7 +691,9 @@
                         "start": 921,
                         "end": 932,
                         "value": "00000000_",
-                        "raw": "'00000000_'"
+                        "raw": "'00000000_'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -683,7 +707,9 @@
             "start": 938,
             "end": 971,
             "value": "trailing separator (underscore)",
-            "raw": "'trailing separator (underscore)'"
+            "raw": "'trailing separator (underscore)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -770,7 +796,9 @@
                         "start": 1032,
                         "end": 1041,
                         "value": " abcdef",
-                        "raw": "' abcdef'"
+                        "raw": "' abcdef'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -784,7 +812,9 @@
             "start": 1047,
             "end": 1062,
             "value": "leading space",
-            "raw": "'leading space'"
+            "raw": "'leading space'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -871,7 +901,9 @@
                         "start": 1123,
                         "end": 1132,
                         "value": "abcdef ",
-                        "raw": "'abcdef '"
+                        "raw": "'abcdef '",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -885,7 +917,9 @@
             "start": 1138,
             "end": 1154,
             "value": "trailing space",
-            "raw": "'trailing space'"
+            "raw": "'trailing space'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -972,7 +1006,9 @@
                         "start": 1215,
                         "end": 1224,
                         "value": "abc def",
-                        "raw": "'abc def'"
+                        "raw": "'abc def'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -986,7 +1022,9 @@
             "start": 1230,
             "end": 1250,
             "value": "interstitial space",
-            "raw": "'interstitial space'"
+            "raw": "'interstitial space'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1073,7 +1111,9 @@
                         "start": 1311,
                         "end": 1320,
                         "value": "123_abc",
-                        "raw": "'123_abc'"
+                        "raw": "'123_abc'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1087,7 +1127,9 @@
             "start": 1326,
             "end": 1366,
             "value": "2 segments, minimum length, underscore",
-            "raw": "'2 segments, minimum length, underscore'"
+            "raw": "'2 segments, minimum length, underscore'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1174,7 +1216,9 @@
                         "start": 1427,
                         "end": 1446,
                         "value": "12345678_abcdefgh",
-                        "raw": "'12345678_abcdefgh'"
+                        "raw": "'12345678_abcdefgh'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1188,7 +1232,9 @@
             "start": 1452,
             "end": 1492,
             "value": "2 segments, maximum length, underscore",
-            "raw": "'2 segments, maximum length, underscore'"
+            "raw": "'2 segments, maximum length, underscore'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1275,7 +1321,9 @@
                         "start": 1553,
                         "end": 1566,
                         "value": "123_abc_ABC",
-                        "raw": "'123_abc_ABC'"
+                        "raw": "'123_abc_ABC'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1289,7 +1337,9 @@
             "start": 1572,
             "end": 1612,
             "value": "3 segments, minimum length, underscore",
-            "raw": "'3 segments, minimum length, underscore'"
+            "raw": "'3 segments, minimum length, underscore'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1376,7 +1426,9 @@
                         "start": 1673,
                         "end": 1701,
                         "value": "12345678_abcdefgh_ABCDEFGH",
-                        "raw": "'12345678_abcdefgh_ABCDEFGH'"
+                        "raw": "'12345678_abcdefgh_ABCDEFGH'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1390,7 +1442,9 @@
             "start": 1707,
             "end": 1747,
             "value": "3 segments, maximum length, underscore",
-            "raw": "'3 segments, maximum length, underscore'"
+            "raw": "'3 segments, maximum length, underscore'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

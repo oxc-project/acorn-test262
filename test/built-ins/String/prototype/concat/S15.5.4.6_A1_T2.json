@@ -133,14 +133,18 @@
               "start": 494,
               "end": 502,
               "value": "A",
-              "raw": "\"\\u0041\""
+              "raw": "\"\\u0041\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 504,
               "end": 508,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "BinaryExpression",
@@ -151,7 +155,9 @@
                 "start": 510,
                 "end": 514,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -159,7 +165,9 @@
                 "start": 517,
                 "end": 518,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -171,7 +179,9 @@
           "start": 524,
           "end": 537,
           "value": "falseAtrue2",
-          "raw": "\"falseAtrue2\""
+          "raw": "\"falseAtrue2\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -203,7 +213,9 @@
                     "start": 566,
                     "end": 712,
                     "value": "#1: __instance = new Boolean; __instance.concat = String.prototype.concat;  __instance.concat(\"\\u0041\",true,true+1) === \"falseAtrue2\". Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.concat = String.prototype.concat;  __instance.concat(\"\\\\u0041\",true,true+1) === \"falseAtrue2\". Actual: '"
+                    "raw": "'#1: __instance = new Boolean; __instance.concat = String.prototype.concat;  __instance.concat(\"\\\\u0041\",true,true+1) === \"falseAtrue2\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -235,14 +247,18 @@
                         "start": 733,
                         "end": 741,
                         "value": "A",
-                        "raw": "\"\\u0041\""
+                        "raw": "\"\\u0041\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 743,
                         "end": 747,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -253,7 +269,9 @@
                           "start": 749,
                           "end": 753,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -261,7 +279,9 @@
                           "start": 756,
                           "end": 757,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

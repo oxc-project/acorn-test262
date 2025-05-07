@@ -75,14 +75,18 @@
             "start": 511,
             "end": 521,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 586,
             "value": "The value of `typeof TypedArray.prototype.at` is \"function\"",
-            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'"
+            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -196,14 +200,18 @@
                         "start": 673,
                         "end": 683,
                         "value": "function",
-                        "raw": "'function'"
+                        "raw": "'function'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 685,
                         "end": 738,
                         "value": "The value of `typeof TA.prototype.at` is \"function\"",
-                        "raw": "'The value of `typeof TA.prototype.at` is \"function\"'"
+                        "raw": "'The value of `typeof TA.prototype.at` is \"function\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -310,7 +318,9 @@
                               "start": 789,
                               "end": 790,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -327,7 +337,9 @@
                         "start": 804,
                         "end": 836,
                         "value": "a.at(-2) must return undefined",
-                        "raw": "'a.at(-2) must return undefined'"
+                        "raw": "'a.at(-2) must return undefined'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -390,7 +402,9 @@
                             "start": 886,
                             "end": 887,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -406,7 +420,9 @@
                         "start": 901,
                         "end": 932,
                         "value": "a.at(0) must return undefined",
-                        "raw": "'a.at(0) must return undefined'"
+                        "raw": "'a.at(0) must return undefined'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -469,7 +485,9 @@
                             "start": 959,
                             "end": 960,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -485,7 +503,9 @@
                         "start": 974,
                         "end": 1005,
                         "value": "a.at(1) must return undefined",
-                        "raw": "'a.at(1) must return undefined'"
+                        "raw": "'a.at(1) must return undefined'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

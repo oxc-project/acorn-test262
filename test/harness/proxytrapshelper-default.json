@@ -101,7 +101,9 @@
                 "start": 417,
                 "end": 427,
                 "value": "function",
-                "raw": "'function'"
+                "raw": "'function'",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -137,7 +139,9 @@
                             "start": 462,
                             "end": 469,
                             "value": "trap ",
-                            "raw": "'trap '"
+                            "raw": "'trap '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -153,7 +157,9 @@
                           "start": 479,
                           "end": 499,
                           "value": " is not a function",
-                          "raw": "' is not a function'"
+                          "raw": "' is not a function'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -183,7 +189,9 @@
                   "start": 532,
                   "end": 537,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -249,7 +257,9 @@
                       "start": 596,
                       "end": 600,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -317,7 +327,9 @@
                             "start": 677,
                             "end": 684,
                             "value": "trap ",
-                            "raw": "'trap '"
+                            "raw": "'trap '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -333,7 +345,9 @@
                           "start": 694,
                           "end": 719,
                           "value": " did not throw an error",
-                          "raw": "' did not throw an error'"
+                          "raw": "' did not throw an error'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -366,7 +380,9 @@
             "start": 748,
             "end": 764,
             "value": "getPrototypeOf",
-            "raw": "'getPrototypeOf'"
+            "raw": "'getPrototypeOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -392,7 +408,9 @@
             "start": 784,
             "end": 800,
             "value": "setPrototypeOf",
-            "raw": "'setPrototypeOf'"
+            "raw": "'setPrototypeOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -418,7 +436,9 @@
             "start": 820,
             "end": 834,
             "value": "isExtensible",
-            "raw": "'isExtensible'"
+            "raw": "'isExtensible'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,7 +464,9 @@
             "start": 854,
             "end": 873,
             "value": "preventExtensions",
-            "raw": "'preventExtensions'"
+            "raw": "'preventExtensions'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -470,7 +492,9 @@
             "start": 893,
             "end": 919,
             "value": "getOwnPropertyDescriptor",
-            "raw": "'getOwnPropertyDescriptor'"
+            "raw": "'getOwnPropertyDescriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -496,7 +520,9 @@
             "start": 939,
             "end": 944,
             "value": "has",
-            "raw": "'has'"
+            "raw": "'has'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -522,7 +548,9 @@
             "start": 964,
             "end": 969,
             "value": "get",
-            "raw": "'get'"
+            "raw": "'get'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -548,7 +576,9 @@
             "start": 989,
             "end": 994,
             "value": "set",
-            "raw": "'set'"
+            "raw": "'set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -574,7 +604,9 @@
             "start": 1014,
             "end": 1030,
             "value": "deleteProperty",
-            "raw": "'deleteProperty'"
+            "raw": "'deleteProperty'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -600,7 +632,9 @@
             "start": 1050,
             "end": 1066,
             "value": "defineProperty",
-            "raw": "'defineProperty'"
+            "raw": "'defineProperty'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -626,7 +660,9 @@
             "start": 1086,
             "end": 1097,
             "value": "enumerate",
-            "raw": "'enumerate'"
+            "raw": "'enumerate'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -652,7 +688,9 @@
             "start": 1117,
             "end": 1126,
             "value": "ownKeys",
-            "raw": "'ownKeys'"
+            "raw": "'ownKeys'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -678,7 +716,9 @@
             "start": 1146,
             "end": 1153,
             "value": "apply",
-            "raw": "'apply'"
+            "raw": "'apply'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -704,7 +744,9 @@
             "start": 1173,
             "end": 1184,
             "value": "construct",
-            "raw": "'construct'"
+            "raw": "'construct'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

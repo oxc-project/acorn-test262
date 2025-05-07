@@ -115,7 +115,9 @@
                         "start": 463,
                         "end": 464,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -209,7 +211,9 @@
                         "start": 518,
                         "end": 523,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -389,7 +393,9 @@
                         "start": 631,
                         "end": 639,
                         "value": "string",
-                        "raw": "'string'"
+                        "raw": "'string'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -483,7 +489,9 @@
                         "start": 693,
                         "end": 697,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -601,7 +609,9 @@
                             "start": 762,
                             "end": 781,
                             "value": "registered symbol",
-                            "raw": "'registered symbol'"
+                            "raw": "'registered symbol'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -618,7 +628,9 @@
             "start": 788,
             "end": 836,
             "value": "Registered symbol not allowed as WeakSet value",
-            "raw": "'Registered symbol not allowed as WeakSet value'"
+            "raw": "'Registered symbol not allowed as WeakSet value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

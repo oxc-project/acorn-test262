@@ -71,7 +71,9 @@
                     "start": 311,
                     "end": 312,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "MemberExpression",
@@ -103,14 +105,18 @@
             "start": 330,
             "end": 335,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 339,
             "end": 394,
             "value": "Atomics.isLockFree(hide(3, Number.NaN)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, Number.NaN)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, Number.NaN)) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +190,9 @@
                     "start": 442,
                     "end": 443,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "UnaryExpression",
@@ -197,7 +205,9 @@
                       "start": 446,
                       "end": 447,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -211,14 +221,18 @@
             "start": 453,
             "end": 458,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 462,
             "end": 509,
             "value": "Atomics.isLockFree(hide(3, -1)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, -1)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, -1)) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -292,14 +306,18 @@
                     "start": 557,
                     "end": 558,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 560,
                     "end": 564,
                     "value": 3.14,
-                    "raw": "3.14"
+                    "raw": "3.14",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -312,14 +330,18 @@
             "start": 570,
             "end": 575,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 579,
             "end": 628,
             "value": "Atomics.isLockFree(hide(3, 3.14)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, 3.14)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, 3.14)) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,14 +415,18 @@
                     "start": 676,
                     "end": 677,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 679,
                     "end": 680,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -413,14 +439,18 @@
             "start": 686,
             "end": 691,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 695,
             "end": 741,
             "value": "Atomics.isLockFree(hide(3, 0)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, 0)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, 0)) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -483,7 +513,9 @@
                 "start": 785,
                 "end": 788,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -517,7 +549,9 @@
                 "start": 812,
                 "end": 813,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -527,7 +561,9 @@
             "start": 818,
             "end": 875,
             "value": "Atomics.isLockFree('1') returns Atomics.isLockFree(1)",
-            "raw": "'Atomics.isLockFree(\\'1\\') returns Atomics.isLockFree(1)'"
+            "raw": "'Atomics.isLockFree(\\'1\\') returns Atomics.isLockFree(1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -590,7 +626,9 @@
                 "start": 918,
                 "end": 921,
                 "value": "3",
-                "raw": "'3'"
+                "raw": "'3'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -624,7 +662,9 @@
                 "start": 945,
                 "end": 946,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -634,7 +674,9 @@
             "start": 951,
             "end": 1008,
             "value": "Atomics.isLockFree('3') returns Atomics.isLockFree(3)",
-            "raw": "'Atomics.isLockFree(\\'3\\') returns Atomics.isLockFree(3)'"
+            "raw": "'Atomics.isLockFree(\\'3\\') returns Atomics.isLockFree(3)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -697,7 +739,9 @@
                 "start": 1052,
                 "end": 1056,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -731,7 +775,9 @@
                 "start": 1080,
                 "end": 1081,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -741,7 +787,9 @@
             "start": 1086,
             "end": 1142,
             "value": "Atomics.isLockFree(true) returns Atomics.isLockFree(1)",
-            "raw": "'Atomics.isLockFree(true) returns Atomics.isLockFree(1)'"
+            "raw": "'Atomics.isLockFree(true) returns Atomics.isLockFree(1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -804,7 +852,9 @@
                 "start": 1186,
                 "end": 1187,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -865,7 +915,9 @@
                         "start": 1227,
                         "end": 1228,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -880,7 +932,9 @@
             "start": 1234,
             "end": 1304,
             "value": "Atomics.isLockFree(1) returns Atomics.isLockFree({valueOf: () => 1})",
-            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({valueOf: () => 1})'"
+            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({valueOf: () => 1})'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -943,7 +997,9 @@
                 "start": 1347,
                 "end": 1348,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1004,7 +1060,9 @@
                         "start": 1388,
                         "end": 1389,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -1019,7 +1077,9 @@
             "start": 1395,
             "end": 1465,
             "value": "Atomics.isLockFree(3) returns Atomics.isLockFree({valueOf: () => 3})",
-            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({valueOf: () => 3})'"
+            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({valueOf: () => 3})'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1082,7 +1142,9 @@
                 "start": 1508,
                 "end": 1509,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1143,7 +1205,9 @@
                         "start": 1550,
                         "end": 1553,
                         "value": "1",
-                        "raw": "'1'"
+                        "raw": "'1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -1158,7 +1222,9 @@
             "start": 1559,
             "end": 1634,
             "value": "Atomics.isLockFree(1) returns Atomics.isLockFree({toString: () => '1'})",
-            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({toString: () => \\'1\\'})'"
+            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({toString: () => \\'1\\'})'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1221,7 +1287,9 @@
                 "start": 1677,
                 "end": 1678,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1282,7 +1350,9 @@
                         "start": 1719,
                         "end": 1722,
                         "value": "3",
-                        "raw": "'3'"
+                        "raw": "'3'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -1297,7 +1367,9 @@
             "start": 1728,
             "end": 1803,
             "value": "Atomics.isLockFree(3) returns Atomics.isLockFree({toString: () => '3'})",
-            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({toString: () => \\'3\\'})'"
+            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({toString: () => \\'3\\'})'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1385,7 +1457,9 @@
                             "start": 1861,
                             "end": 1862,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -1419,7 +1493,9 @@
               "start": 1885,
               "end": 1886,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -1032,7 +1032,9 @@ __ESTREE_TEST__:PASS:
                       "start": 486,
                       "end": 489,
                       "raw": "'x'",
-                      "value": "x"
+                      "value": "x",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -1338,7 +1340,9 @@ __ESTREE_TEST__:PASS:
                     "start": 668,
                     "end": 672,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "expression": true,
@@ -1403,28 +1407,36 @@ __ESTREE_TEST__:PASS:
                     "start": 597,
                     "end": 601,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 603,
                     "end": 607,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 609,
                     "end": 614,
                     "raw": "false",
-                    "value": false
+                    "value": false,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 616,
                     "end": 620,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },

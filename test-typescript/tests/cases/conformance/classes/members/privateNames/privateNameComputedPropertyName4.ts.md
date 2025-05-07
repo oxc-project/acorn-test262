@@ -40,7 +40,9 @@ __ESTREE_TEST__:PASS:
               "start": 85,
               "end": 87,
               "raw": "42",
-              "value": 42
+              "value": 42,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -55,7 +57,9 @@ __ESTREE_TEST__:PASS:
               "start": 94,
               "end": 99,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "optional": false,
@@ -134,7 +138,9 @@ __ESTREE_TEST__:PASS:
               "start": 138,
               "end": 140,
               "raw": "42",
-              "value": 42
+              "value": 42,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -149,7 +155,9 @@ __ESTREE_TEST__:PASS:
               "start": 154,
               "end": 159,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "optional": false,
@@ -228,7 +236,9 @@ __ESTREE_TEST__:PASS:
               "start": 198,
               "end": 200,
               "raw": "42",
-              "value": 42
+              "value": 42,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -245,7 +255,9 @@ __ESTREE_TEST__:PASS:
               "start": 214,
               "end": 219,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -257,7 +269,9 @@ __ESTREE_TEST__:PASS:
               "start": 223,
               "end": 229,
               "raw": "\"test\"",
-              "value": "test"
+              "value": "test",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

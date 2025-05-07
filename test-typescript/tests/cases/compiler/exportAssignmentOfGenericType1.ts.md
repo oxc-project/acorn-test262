@@ -151,7 +151,9 @@ __ESTREE_TEST__:PASS:
           "start": 78,
           "end": 112,
           "raw": "\"exportAssignmentOfGenericType1_0\"",
-          "value": "exportAssignmentOfGenericType1_0"
+          "value": "exportAssignmentOfGenericType1_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

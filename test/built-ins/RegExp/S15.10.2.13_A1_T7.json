@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "ab[erst]de",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 468,
                 "end": 475,
                 "value": "abcde",
-                "raw": "\"abcde\""
+                "raw": "\"abcde\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 499,
             "end": 548,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

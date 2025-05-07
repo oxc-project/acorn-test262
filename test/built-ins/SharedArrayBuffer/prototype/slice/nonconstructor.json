@@ -76,7 +76,9 @@
             "start": 729,
             "end": 785,
             "value": "SharedArrayBuffer.prototype.slice is not a constructor",
-            "raw": "\"SharedArrayBuffer.prototype.slice is not a constructor\""
+            "raw": "\"SharedArrayBuffer.prototype.slice is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +115,9 @@
                 "start": 829,
                 "end": 830,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

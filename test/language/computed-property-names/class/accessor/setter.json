@@ -23,7 +23,9 @@
             "start": 231,
             "end": 232,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -56,7 +58,9 @@
               "start": 251,
               "end": 254,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -144,7 +148,9 @@
           "start": 292,
           "end": 295,
           "value": "A",
-          "raw": "'A'"
+          "raw": "'A'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -187,14 +193,18 @@
             "start": 321,
             "end": 322,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 389,
             "value": "The value of `calls` is `1`, after executing `new C().a = 'A';`",
-            "raw": "\"The value of `calls` is `1`, after executing `new C().a = 'A';`\""
+            "raw": "\"The value of `calls` is `1`, after executing `new C().a = 'A';`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

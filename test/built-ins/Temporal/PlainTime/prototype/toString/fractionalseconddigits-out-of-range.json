@@ -47,42 +47,54 @@
                 "start": 765,
                 "end": 767,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 769,
                 "end": 771,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 773,
                 "end": 775,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 777,
                 "end": 780,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 782,
                 "end": 785,
                 "value": 650,
-                "raw": "650"
+                "raw": "650",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 787,
                 "end": 788,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -201,7 +213,9 @@
             "start": 880,
             "end": 927,
             "value": "−∞ is out of range for fractionalSecondDigits",
-            "raw": "\"−∞ is out of range for fractionalSecondDigits\""
+            "raw": "\"−∞ is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +317,9 @@
                           "start": 1003,
                           "end": 1004,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -319,7 +335,9 @@
             "start": 1011,
             "end": 1058,
             "value": "−1 is out of range for fractionalSecondDigits",
-            "raw": "\"−1 is out of range for fractionalSecondDigits\""
+            "raw": "\"−1 is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -415,7 +433,9 @@
                         "start": 1133,
                         "end": 1135,
                         "value": 10,
-                        "raw": "10"
+                        "raw": "10",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -430,7 +450,9 @@
             "start": 1142,
             "end": 1189,
             "value": "10 is out of range for fractionalSecondDigits",
-            "raw": "\"10 is out of range for fractionalSecondDigits\""
+            "raw": "\"10 is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,7 +562,9 @@
             "start": 1279,
             "end": 1325,
             "value": "∞ is out of range for fractionalSecondDigits",
-            "raw": "\"∞ is out of range for fractionalSecondDigits\""
+            "raw": "\"∞ is out of range for fractionalSecondDigits\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,7 +35,9 @@
                   "start": 607,
                   "end": 610,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -71,7 +73,9 @@
                               "start": 642,
                               "end": 649,
                               "value": "Get 0",
-                              "raw": "\"Get 0\""
+                              "raw": "\"Get 0\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -93,7 +97,9 @@
                   "start": 663,
                   "end": 675,
                   "value": "4294967295",
-                  "raw": "\"4294967295\""
+                  "raw": "\"4294967295\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -129,7 +135,9 @@
                               "start": 723,
                               "end": 739,
                               "value": "Get 2147483648",
-                              "raw": "\"Get 2147483648\""
+                              "raw": "\"Get 2147483648\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -151,7 +159,9 @@
                   "start": 753,
                   "end": 765,
                   "value": "4294967296",
-                  "raw": "\"4294967296\""
+                  "raw": "\"4294967296\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -187,7 +197,9 @@
                               "start": 809,
                               "end": 825,
                               "value": "Get 2147483648",
-                              "raw": "\"Get 2147483648\""
+                              "raw": "\"Get 2147483648\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -219,7 +231,9 @@
                     "start": 843,
                     "end": 844,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -227,7 +241,9 @@
                     "start": 848,
                     "end": 850,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init"

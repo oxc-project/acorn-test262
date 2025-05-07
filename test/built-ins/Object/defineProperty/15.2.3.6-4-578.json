@@ -23,7 +23,9 @@
             "start": 322,
             "end": 328,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -81,7 +83,9 @@
             "start": 371,
             "end": 377,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -211,7 +215,9 @@
                   "start": 485,
                   "end": 489,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -233,7 +239,9 @@
                   "start": 507,
                   "end": 511,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -331,7 +339,9 @@
                 "start": 583,
                 "end": 589,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -341,14 +351,18 @@
             "start": 592,
             "end": 597,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 630,
             "value": "strObj.hasOwnProperty(\"prop\")",
-            "raw": "'strObj.hasOwnProperty(\"prop\")'"
+            "raw": "'strObj.hasOwnProperty(\"prop\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -406,14 +420,18 @@
             "start": 663,
             "end": 669,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 671,
             "end": 684,
             "value": "strObj.prop",
-            "raw": "'strObj.prop'"
+            "raw": "'strObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

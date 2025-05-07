@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 35,
         "end": 48,
         "raw": "\"../index.js\"",
-        "value": "../index.js"
+        "value": "../index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
           "start": 71,
           "end": 84,
           "raw": "\"../index.js\"",
-          "value": "../index.js"
+          "value": "../index.js",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -83,7 +87,9 @@ __ESTREE_TEST__:PASS:
         "start": 109,
         "end": 121,
         "raw": "\"./index.js\"",
-        "value": "./index.js"
+        "value": "./index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -135,7 +141,9 @@ __ESTREE_TEST__:PASS:
           "start": 145,
           "end": 157,
           "raw": "\"./index.js\"",
-          "value": "./index.js"
+          "value": "./index.js",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -187,7 +195,9 @@ __ESTREE_TEST__:PASS:
                         "start": 219,
                         "end": 232,
                         "raw": "\"../index.js\"",
-                        "value": "../index.js"
+                        "value": "../index.js",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -229,7 +239,9 @@ __ESTREE_TEST__:PASS:
                         "start": 266,
                         "end": 278,
                         "raw": "\"./index.js\"",
-                        "value": "./index.js"
+                        "value": "./index.js",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -306,7 +318,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 53,
         "raw": "\"./index.js\"",
-        "value": "./index.js"
+        "value": "./index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -358,7 +372,9 @@ __ESTREE_TEST__:PASS:
           "start": 76,
           "end": 88,
           "raw": "\"./index.js\"",
-          "value": "./index.js"
+          "value": "./index.js",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -373,7 +389,9 @@ __ESTREE_TEST__:PASS:
         "start": 107,
         "end": 129,
         "raw": "\"./subfolder/index.js\"",
-        "value": "./subfolder/index.js"
+        "value": "./subfolder/index.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -425,7 +443,9 @@ __ESTREE_TEST__:PASS:
           "start": 153,
           "end": 175,
           "raw": "\"./subfolder/index.js\"",
-          "value": "./subfolder/index.js"
+          "value": "./subfolder/index.js",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -477,7 +497,9 @@ __ESTREE_TEST__:PASS:
                         "start": 237,
                         "end": 249,
                         "raw": "\"./index.js\"",
-                        "value": "./index.js"
+                        "value": "./index.js",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -519,7 +541,9 @@ __ESTREE_TEST__:PASS:
                         "start": 283,
                         "end": 305,
                         "raw": "\"./subfolder/index.js\"",
-                        "value": "./subfolder/index.js"
+                        "value": "./subfolder/index.js",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

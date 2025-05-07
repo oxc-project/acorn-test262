@@ -28,35 +28,45 @@
                 "start": 348,
                 "end": 360,
                 "value": "dataLocale",
-                "raw": "\"dataLocale\""
+                "raw": "\"dataLocale\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 366,
                 "value": "nu",
-                "raw": "\"nu\""
+                "raw": "\"nu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 372,
                 "value": "ca",
-                "raw": "\"ca\""
+                "raw": "\"ca\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 378,
                 "value": "co",
-                "raw": "\"co\""
+                "raw": "\"co\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 388,
                 "value": "locale",
-                "raw": "\"locale\""
+                "raw": "\"locale\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -167,7 +177,9 @@
                                         "start": 503,
                                         "end": 511,
                                         "value": "lookup",
-                                        "raw": "\"lookup\""
+                                        "raw": "\"lookup\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -248,7 +260,9 @@
                             "start": 604,
                             "end": 641,
                             "value": "Constructor returns invalid locale ",
-                            "raw": "\"Constructor returns invalid locale \""
+                            "raw": "\"Constructor returns invalid locale \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -264,7 +278,9 @@
                           "start": 653,
                           "end": 656,
                           "value": ".",
-                          "raw": "\".\""
+                          "raw": "\".\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

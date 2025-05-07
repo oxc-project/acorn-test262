@@ -81,7 +81,9 @@
             "start": 330,
             "end": 335,
             "value": "bar",
-            "raw": "\"bar\""
+            "raw": "\"bar\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -106,7 +108,9 @@
                   "start": 345,
                   "end": 357,
                   "value": "unwritable",
-                  "raw": "\"unwritable\""
+                  "raw": "\"unwritable\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -228,7 +232,9 @@
                       "start": 445,
                       "end": 457,
                       "value": "overridden",
-                      "raw": "\"overridden\""
+                      "raw": "\"overridden\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -291,14 +297,18 @@
             "start": 487,
             "end": 499,
             "value": "unwritable",
-            "raw": "\"unwritable\""
+            "raw": "\"unwritable\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 508,
             "value": "o.bar",
-            "raw": "'o.bar'"
+            "raw": "'o.bar'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

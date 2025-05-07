@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 204,
         "end": 255,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_importEmpty\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_importEmpty"
+        "value": "./arbitraryModuleNamespaceIdentifiers_importEmpty",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -28,7 +30,9 @@ __ESTREE_TEST__:PASS:
             "start": 150,
             "end": 159,
             "raw": "\"missing\"",
-            "value": "missing"
+            "value": "missing",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "value",
           "local": {
@@ -50,7 +54,9 @@ __ESTREE_TEST__:PASS:
             "start": 168,
             "end": 179,
             "raw": "\"(missing)\"",
-            "value": "(missing)"
+            "value": "(missing)",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "value",
           "local": {
@@ -72,7 +78,9 @@ __ESTREE_TEST__:PASS:
             "start": 188,
             "end": 190,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "value",
           "local": {

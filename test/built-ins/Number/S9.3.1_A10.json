@@ -50,7 +50,9 @@
                   "start": 432,
                   "end": 439,
                   "value": "12345",
-                  "raw": "'12345'"
+                  "raw": "'12345'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -60,7 +62,9 @@
               "start": 441,
               "end": 445,
               "value": 0.00001,
-              "raw": "1e-5"
+              "raw": "1e-5",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -68,7 +72,9 @@
             "start": 447,
             "end": 454,
             "value": 0.12345,
-            "raw": "0.12345"
+            "raw": "0.12345",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -123,7 +123,9 @@
             "start": 384,
             "end": 451,
             "value": "Function.prototype.toString.call({}) throws a TypeError exception",
-            "raw": "'Function.prototype.toString.call({}) throws a TypeError exception'"
+            "raw": "'Function.prototype.toString.call({}) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

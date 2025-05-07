@@ -89,7 +89,9 @@
               "start": 630,
               "end": 631,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -202,7 +204,9 @@
                   "start": 719,
                   "end": 731,
                   "value": "my-message",
-                  "raw": "\"my-message\""
+                  "raw": "\"my-message\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -272,7 +276,9 @@
                   "start": 797,
                   "end": 806,
                   "value": "message",
-                  "raw": "\"message\""
+                  "raw": "\"message\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -310,7 +316,9 @@
                   "start": 847,
                   "end": 856,
                   "value": "message",
-                  "raw": "\"message\""
+                  "raw": "\"message\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -342,7 +350,9 @@
                   "start": 883,
                   "end": 892,
                   "value": "message",
-                  "raw": "\"message\""
+                  "raw": "\"message\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -374,7 +384,9 @@
                   "start": 923,
                   "end": 932,
                   "value": "message",
-                  "raw": "\"message\""
+                  "raw": "\"message\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

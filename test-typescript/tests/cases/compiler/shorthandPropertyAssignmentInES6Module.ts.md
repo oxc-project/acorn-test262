@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 16,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 34,
         "raw": "'./existingModule'",
-        "value": "./existingModule"
+        "value": "./existingModule",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -108,7 +112,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 71,
         "raw": "'./missingModule'",
-        "value": "./missingModule"
+        "value": "./missingModule",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

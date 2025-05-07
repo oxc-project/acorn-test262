@@ -201,7 +201,9 @@ __ESTREE_TEST__:PASS:
                           "start": 104,
                           "end": 110,
                           "raw": "'prop'",
-                          "value": "prop"
+                          "value": "prop",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -266,7 +268,9 @@ __ESTREE_TEST__:PASS:
                               "start": 124,
                               "end": 130,
                               "raw": "'prop'",
-                              "value": "prop"
+                              "value": "prop",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -626,7 +630,9 @@ __ESTREE_TEST__:PASS:
                           "start": 121,
                           "end": 127,
                           "raw": "'prop'",
-                          "value": "prop"
+                          "value": "prop",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -691,7 +697,9 @@ __ESTREE_TEST__:PASS:
                               "start": 141,
                               "end": 147,
                               "raw": "'prop'",
-                              "value": "prop"
+                              "value": "prop",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -848,7 +856,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 22,
         "raw": "'./a'",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -888,7 +898,9 @@ __ESTREE_TEST__:PASS:
         "start": 43,
         "end": 51,
         "raw": "'./aExp'",
-        "value": "./aExp"
+        "value": "./aExp",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

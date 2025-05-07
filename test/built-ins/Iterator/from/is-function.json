@@ -62,14 +62,18 @@
             "start": 287,
             "end": 297,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 299,
             "end": 350,
             "value": "The value of `typeof Iterator.from` is \"function\"",
-            "raw": "'The value of `typeof Iterator.from` is \"function\"'"
+            "raw": "'The value of `typeof Iterator.from` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

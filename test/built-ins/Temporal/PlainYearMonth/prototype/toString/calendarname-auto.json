@@ -47,14 +47,18 @@
                 "start": 330,
                 "end": 334,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 337,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -124,7 +128,9 @@
                       "start": 390,
                       "end": 396,
                       "value": "auto",
-                      "raw": "\"auto\""
+                      "raw": "\"auto\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -176,7 +182,9 @@
             "start": 426,
             "end": 435,
             "value": "2000-05",
-            "raw": "\"2000-05\""
+            "raw": "\"2000-05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TemplateLiteral",

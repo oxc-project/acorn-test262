@@ -49,7 +49,9 @@
             "start": 1146,
             "end": 1149,
             "value": "f",
-            "raw": "'f'"
+            "raw": "'f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                           "start": 1182,
                           "end": 1200,
                           "value": "Another function",
-                          "raw": "'Another function'"
+                          "raw": "'Another function'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -118,7 +122,9 @@
                   "start": 1219,
                   "end": 1223,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -140,7 +146,9 @@
                   "start": 1237,
                   "end": 1241,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -162,7 +170,9 @@
                   "start": 1259,
                   "end": 1264,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -192,7 +202,9 @@
             "start": 1278,
             "end": 1331,
             "value": "{ function f() { return \"function declaration\"; } }",
-            "raw": "'{ function f() { return \"function declaration\"; } }'"
+            "raw": "'{ function f() { return \"function declaration\"; } }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +256,9 @@
             "start": 1363,
             "end": 1373,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +310,9 @@
             "start": 1398,
             "end": 1420,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

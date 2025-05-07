@@ -82,7 +82,9 @@
             "start": 474,
             "end": 485,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +116,9 @@
             "start": 521,
             "end": 532,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +150,9 @@
             "start": 570,
             "end": 581,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

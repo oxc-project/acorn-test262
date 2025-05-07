@@ -83,7 +83,9 @@
                     "start": 350,
                     "end": 354,
                     "value": "BA",
-                    "raw": "\"BA\""
+                    "raw": "\"BA\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -112,7 +114,9 @@
             "start": 366,
             "end": 367,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -138,7 +142,9 @@
           "start": 371,
           "end": 372,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -162,7 +168,9 @@
             "start": 380,
             "end": 384,
             "value": "AB",
-            "raw": "\"AB\""
+            "raw": "\"AB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -188,7 +196,9 @@
           "start": 387,
           "end": 392,
           "value": "SAM",
-          "raw": "\"SAM\""
+          "raw": "\"SAM\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -286,7 +296,9 @@
                 "start": 519,
                 "end": 520,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "||",
@@ -306,7 +318,9 @@
                 "start": 528,
                 "end": 529,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -327,7 +341,9 @@
               "start": 537,
               "end": 541,
               "value": "AB",
-              "raw": "\"AB\""
+              "raw": "\"AB\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -348,7 +364,9 @@
             "start": 549,
             "end": 554,
             "value": "SAM",
-            "raw": "\"SAM\""
+            "raw": "\"SAM\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -405,7 +423,9 @@
                                 "start": 582,
                                 "end": 653,
                                 "value": "#1: x === 1 and y === 2 and a === \"AB\" and b === \"SAM\". Actual: x ===",
-                                "raw": "'#1: x === 1 and y === 2 and a === \"AB\" and b === \"SAM\". Actual: x ==='"
+                                "raw": "'#1: x === 1 and y === 2 and a === \"AB\" and b === \"SAM\". Actual: x ==='",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -421,7 +441,9 @@
                               "start": 656,
                               "end": 668,
                               "value": " and y ===",
-                              "raw": "' and y ==='"
+                              "raw": "' and y ==='",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -438,7 +460,9 @@
                           "start": 671,
                           "end": 683,
                           "value": " and a ===",
-                          "raw": "' and a ==='"
+                          "raw": "' and a ==='",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "+",
@@ -455,7 +479,9 @@
                       "start": 686,
                       "end": 698,
                       "value": " and b ===",
-                      "raw": "' and b ==='"
+                      "raw": "' and b ==='",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",

@@ -47,7 +47,9 @@
                 "start": 1250,
                 "end": 1313,
                 "value": "1; switch (\"a\") { case \"a\": 2; case \"b\": 3; break; default: }",
-                "raw": "'1; switch (\"a\") { case \"a\": 2; case \"b\": 3; break; default: }'"
+                "raw": "'1; switch (\"a\") { case \"a\": 2; case \"b\": 3; break; default: }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 1318,
             "end": 1319,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1323,
             "end": 1374,
             "value": "Non-empty value replaces previous non-empty value",
-            "raw": "'Non-empty value replaces previous non-empty value'"
+            "raw": "'Non-empty value replaces previous non-empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +120,9 @@
                 "start": 1403,
                 "end": 1463,
                 "value": "4; switch (\"a\") { case \"a\": case \"b\": 5; break; default: }",
-                "raw": "'4; switch (\"a\") { case \"a\": case \"b\": 5; break; default: }'"
+                "raw": "'4; switch (\"a\") { case \"a\": case \"b\": 5; break; default: }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,14 +132,18 @@
             "start": 1468,
             "end": 1469,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1473,
             "end": 1511,
             "value": "Non-empty value replaces empty value",
-            "raw": "'Non-empty value replaces empty value'"
+            "raw": "'Non-empty value replaces empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +193,9 @@
                 "start": 1540,
                 "end": 1600,
                 "value": "6; switch (\"a\") { case \"a\": 7; case \"b\": break; default: }",
-                "raw": "'6; switch (\"a\") { case \"a\": 7; case \"b\": break; default: }'"
+                "raw": "'6; switch (\"a\") { case \"a\": 7; case \"b\": break; default: }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,14 +205,18 @@
             "start": 1605,
             "end": 1606,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1610,
             "end": 1665,
             "value": "Empty value does not replace previous non-empty value",
-            "raw": "'Empty value does not replace previous non-empty value'"
+            "raw": "'Empty value does not replace previous non-empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +266,9 @@
                 "start": 1695,
                 "end": 1783,
                 "value": "8; do { switch (\"a\") { case \"a\": 9; case \"b\": 10; continue; default: } } while (false)",
-                "raw": "'8; do { switch (\"a\") { case \"a\": 9; case \"b\": 10; continue; default: } } while (false)'"
+                "raw": "'8; do { switch (\"a\") { case \"a\": 9; case \"b\": 10; continue; default: } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -258,14 +278,18 @@
             "start": 1788,
             "end": 1790,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1794,
             "end": 1845,
             "value": "Non-empty value replaces previous non-empty value",
-            "raw": "'Non-empty value replaces previous non-empty value'"
+            "raw": "'Non-empty value replaces previous non-empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +339,9 @@
                 "start": 1874,
                 "end": 1960,
                 "value": "11; do { switch (\"a\") { case \"a\": case \"b\": 12; continue; default: } } while (false)",
-                "raw": "'11; do { switch (\"a\") { case \"a\": case \"b\": 12; continue; default: } } while (false)'"
+                "raw": "'11; do { switch (\"a\") { case \"a\": case \"b\": 12; continue; default: } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -325,14 +351,18 @@
             "start": 1965,
             "end": 1967,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1971,
             "end": 2009,
             "value": "Non-empty value replaces empty value",
-            "raw": "'Non-empty value replaces empty value'"
+            "raw": "'Non-empty value replaces empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +412,9 @@
                 "start": 2038,
                 "end": 2124,
                 "value": "13; do { switch (\"a\") { case \"a\": 14; case \"b\": continue; default: } } while (false)",
-                "raw": "'13; do { switch (\"a\") { case \"a\": 14; case \"b\": continue; default: } } while (false)'"
+                "raw": "'13; do { switch (\"a\") { case \"a\": 14; case \"b\": continue; default: } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -392,14 +424,18 @@
             "start": 2129,
             "end": 2131,
             "value": 14,
-            "raw": "14"
+            "raw": "14",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2135,
             "end": 2190,
             "value": "Empty value does not replace previous non-empty value",
-            "raw": "'Empty value does not replace previous non-empty value'"
+            "raw": "'Empty value does not replace previous non-empty value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

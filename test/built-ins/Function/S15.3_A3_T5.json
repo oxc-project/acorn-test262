@@ -52,7 +52,9 @@
                 "start": 461,
                 "end": 482,
                 "value": "return this.planet;",
-                "raw": "\"return this.planet;\""
+                "raw": "\"return this.planet;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -110,7 +112,9 @@
                 "start": 513,
                 "end": 533,
                 "value": "return this.color;",
-                "raw": "\"return this.color;\""
+                "raw": "\"return this.color;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -171,7 +175,9 @@
             "start": 570,
             "end": 593,
             "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "raw": "'f() returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +203,9 @@
             "start": 610,
             "end": 616,
             "value": "mars",
-            "raw": "\"mars\""
+            "raw": "\"mars\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -249,14 +257,18 @@
             "start": 641,
             "end": 647,
             "value": "mars",
-            "raw": "\"mars\""
+            "raw": "\"mars\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 673,
             "value": "f() must return \"mars\"",
-            "raw": "'f() must return \"mars\"'"
+            "raw": "'f() must return \"mars\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +326,9 @@
             "start": 709,
             "end": 732,
             "value": "g() returns undefined",
-            "raw": "'g() returns undefined'"
+            "raw": "'g() returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -352,7 +366,9 @@
           "start": 749,
           "end": 754,
           "value": "red",
-          "raw": "\"red\""
+          "raw": "\"red\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -402,14 +418,18 @@
             "start": 779,
             "end": 784,
             "value": "red",
-            "raw": "\"red\""
+            "raw": "\"red\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 809,
             "value": "g() must return \"red\"",
-            "raw": "'g() must return \"red\"'"
+            "raw": "'g() must return \"red\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

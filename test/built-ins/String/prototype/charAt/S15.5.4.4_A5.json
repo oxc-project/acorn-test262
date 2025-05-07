@@ -41,7 +41,9 @@
                   "start": 385,
                   "end": 386,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,7 +83,9 @@
                           "start": 423,
                           "end": 435,
                           "value": "intostring",
-                          "raw": "'intostring'"
+                          "raw": "'intostring'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -216,7 +220,9 @@
                   "start": 624,
                   "end": 773,
                   "value": "#1: __obj={valueOf:1,toString:function(){throw 'intostring'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception",
-                  "raw": "'#1: __obj={valueOf:1,toString:function(){throw \\'intostring\\'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception'"
+                  "raw": "'#1: __obj={valueOf:1,toString:function(){throw \\'intostring\\'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -258,7 +264,9 @@
                   "start": 802,
                   "end": 814,
                   "value": "intostring",
-                  "raw": "'intostring'"
+                  "raw": "'intostring'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -290,7 +298,9 @@
                             "start": 845,
                             "end": 904,
                             "value": "#1.1: Exception === 'intostring'. Actual: exception ===",
-                            "raw": "'#1.1: Exception === \\'intostring\\'. Actual: exception ==='"
+                            "raw": "'#1.1: Exception === \\'intostring\\'. Actual: exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

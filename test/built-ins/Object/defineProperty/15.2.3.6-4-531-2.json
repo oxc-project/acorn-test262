@@ -61,7 +61,9 @@
           "start": 466,
           "end": 472,
           "value": "data",
-          "raw": "\"data\""
+          "raw": "\"data\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -104,7 +106,9 @@
             "start": 501,
             "end": 504,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -260,7 +264,9 @@
                   "start": 648,
                   "end": 652,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -303,7 +309,9 @@
           "start": 683,
           "end": 690,
           "value": "data1",
-          "raw": "\"data1\""
+          "raw": "\"data1\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -485,7 +493,9 @@
             "start": 852,
             "end": 855,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -566,7 +576,9 @@
             "start": 914,
             "end": 917,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -611,14 +623,18 @@
             "start": 952,
             "end": 955,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 957,
             "end": 977,
             "value": "verifySetFunction1",
-            "raw": "\"verifySetFunction1\""
+            "raw": "\"verifySetFunction1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -650,7 +666,9 @@
             "start": 1001,
             "end": 1004,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -675,7 +693,9 @@
                   "start": 1022,
                   "end": 1027,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -697,7 +717,9 @@
                   "start": 1045,
                   "end": 1049,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

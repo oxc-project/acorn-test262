@@ -84,7 +84,9 @@
                         "start": 360,
                         "end": 363,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

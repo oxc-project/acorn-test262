@@ -43,7 +43,9 @@
           "start": 429,
           "end": 431,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -71,7 +73,9 @@
               "start": 447,
               "end": 448,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -93,7 +97,9 @@
           "start": 456,
           "end": 458,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -112,7 +118,9 @@
           "start": 467,
           "end": 468,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "body": {
@@ -140,7 +148,9 @@
                 "start": 483,
                 "end": 484,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -197,7 +207,9 @@
           "start": 522,
           "end": 530,
           "value": "012345",
-          "raw": "\"012345\""
+          "raw": "\"012345\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -229,7 +241,9 @@
                     "start": 558,
                     "end": 602,
                     "value": "#1: __str === \"012345\". Actual:  __str ===",
-                    "raw": "'#1: __str === \"012345\". Actual:  __str ==='"
+                    "raw": "'#1: __str === \"012345\". Actual:  __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

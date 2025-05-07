@@ -78,7 +78,9 @@
                 "start": 483,
                 "end": 484,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -107,7 +109,9 @@
           "start": 503,
           "end": 504,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -139,7 +143,9 @@
                     "start": 533,
                     "end": 584,
                     "value": "#1: x = new Array(); x.unshift(1) === 1. Actual: ",
-                    "raw": "'#1: x = new Array(); x.unshift(1) === 1. Actual: '"
+                    "raw": "'#1: x = new Array(); x.unshift(1) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -184,7 +190,9 @@
             "start": 608,
             "end": 609,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -195,7 +203,9 @@
           "start": 615,
           "end": 616,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -227,7 +237,9 @@
                     "start": 645,
                     "end": 702,
                     "value": "#2: x = new Array(); x.unshift(1); x[0] === 1. Actual: ",
-                    "raw": "'#2: x = new Array(); x.unshift(1); x[0] === 1. Actual: '"
+                    "raw": "'#2: x = new Array(); x.unshift(1); x[0] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -249,7 +261,9 @@
                         "start": 708,
                         "end": 709,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -328,7 +342,9 @@
           "start": 760,
           "end": 761,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -360,7 +376,9 @@
                     "start": 790,
                     "end": 854,
                     "value": "#3: x = new Array(); x.unshift(1); x.unshift() === 1. Actual: ",
-                    "raw": "'#3: x = new Array(); x.unshift(1); x.unshift() === 1. Actual: '"
+                    "raw": "'#3: x = new Array(); x.unshift(1); x.unshift() === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -405,7 +423,9 @@
             "start": 878,
             "end": 879,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -447,7 +467,9 @@
                     "start": 923,
                     "end": 1001,
                     "value": "#4: x = new Array(); x.unshift(1); x.unshift(); x[1] === unedfined. Actual: ",
-                    "raw": "'#4: x = new Array(); x.unshift(1); x.unshift(); x[1] === unedfined. Actual: '"
+                    "raw": "'#4: x = new Array(); x.unshift(1); x.unshift(); x[1] === unedfined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -469,7 +491,9 @@
                         "start": 1007,
                         "end": 1008,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -533,7 +557,9 @@
                   "start": 1041,
                   "end": 1042,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -563,7 +589,9 @@
           "start": 1061,
           "end": 1062,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -595,7 +623,9 @@
                     "start": 1091,
                     "end": 1170,
                     "value": "#5: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1) === 2. Actual: ",
-                    "raw": "'#5: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1) === 2. Actual: '"
+                    "raw": "'#5: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1) === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -640,7 +670,9 @@
             "start": 1194,
             "end": 1195,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -657,7 +689,9 @@
             "start": 1202,
             "end": 1203,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -690,7 +724,9 @@
                     "start": 1232,
                     "end": 1305,
                     "value": "#6: x = new Array(); x.unshift(1); x.unshift(-1); x[0] === -1. Actual: ",
-                    "raw": "'#6: x = new Array(); x.unshift(1); x.unshift(-1); x[0] === -1. Actual: '"
+                    "raw": "'#6: x = new Array(); x.unshift(1); x.unshift(-1); x[0] === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -712,7 +748,9 @@
                         "start": 1311,
                         "end": 1312,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -749,7 +787,9 @@
             "start": 1326,
             "end": 1327,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -760,7 +800,9 @@
           "start": 1333,
           "end": 1334,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -792,7 +834,9 @@
                     "start": 1363,
                     "end": 1435,
                     "value": "#7: x = new Array(); x.unshift(1); x.unshift(-1); x[1] === 1. Actual: ",
-                    "raw": "'#7: x = new Array(); x.unshift(1); x.unshift(-1); x[1] === 1. Actual: '"
+                    "raw": "'#7: x = new Array(); x.unshift(1); x.unshift(-1); x[1] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -814,7 +858,9 @@
                         "start": 1441,
                         "end": 1442,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -861,7 +907,9 @@
           "start": 1467,
           "end": 1468,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -893,7 +941,9 @@
                     "start": 1497,
                     "end": 1586,
                     "value": "#8: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1); x.length === 2. Actual: ",
-                    "raw": "'#8: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1); x.length === 2. Actual: '"
+                    "raw": "'#8: x = new Array(); x.unshift(1); x.unshift(); x.unshift(-1); x.length === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

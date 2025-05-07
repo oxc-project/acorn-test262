@@ -70,7 +70,9 @@
                   "start": 568,
                   "end": 580,
                   "value": "byteLength",
-                  "raw": "'byteLength'"
+                  "raw": "'byteLength'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

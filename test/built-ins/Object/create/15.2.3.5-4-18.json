@@ -281,7 +281,9 @@
                 "start": 518,
                 "end": 524,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -291,14 +293,18 @@
             "start": 527,
             "end": 532,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 565,
             "value": "newObj.hasOwnProperty(\"prop\")",
-            "raw": "'newObj.hasOwnProperty(\"prop\")'"
+            "raw": "'newObj.hasOwnProperty(\"prop\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

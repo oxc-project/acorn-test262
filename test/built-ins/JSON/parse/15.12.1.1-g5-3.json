@@ -84,7 +84,9 @@
                         "start": 328,
                         "end": 339,
                         "value": "\"\\u0X50\"",
-                        "raw": "'\"\\\\u0X50\"'"
+                        "raw": "'\"\\\\u0X50\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -108,7 +108,9 @@
                               "start": 346,
                               "end": 351,
                               "value": "abc",
-                              "raw": "\"abc\""
+                              "raw": "\"abc\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

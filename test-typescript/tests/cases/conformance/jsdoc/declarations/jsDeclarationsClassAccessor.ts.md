@@ -116,7 +116,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 42,
         "raw": "\"./argument.js\"",
-        "value": "./argument.js"
+        "value": "./argument.js",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -401,7 +403,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 32,
         "raw": "\"./base.js\"",
-        "value": "./base.js"
+        "value": "./base.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -541,7 +545,9 @@ __ESTREE_TEST__:PASS:
                         "start": 200,
                         "end": 210,
                         "raw": "\"argument\"",
-                        "value": "argument"
+                        "value": "argument",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

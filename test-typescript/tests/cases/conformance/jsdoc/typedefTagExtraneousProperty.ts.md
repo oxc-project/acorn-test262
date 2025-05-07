@@ -52,7 +52,9 @@ __ESTREE_TEST__:PASS:
                   "start": 134,
                   "end": 138,
                   "raw": "\"no\"",
-                  "value": "no"
+                  "value": "no",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -117,7 +119,9 @@ __ESTREE_TEST__:PASS:
           "start": 157,
           "end": 201,
           "raw": "\"ok but just because of the index signature\"",
-          "value": "ok but just because of the index signature"
+          "value": "ok but just because of the index signature",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -151,7 +155,9 @@ __ESTREE_TEST__:PASS:
             "start": 204,
             "end": 208,
             "raw": "'hi'",
-            "value": "hi"
+            "value": "hi",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {
@@ -159,7 +165,9 @@ __ESTREE_TEST__:PASS:
           "start": 212,
           "end": 217,
           "raw": "\"yes\"",
-          "value": "yes"
+          "value": "yes",
+          "regex": null,
+          "bigint": null
         }
       }
     }

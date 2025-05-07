@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 35,
         "raw": "\"@this/package\"",
-        "value": "@this/package"
+        "value": "@this/package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

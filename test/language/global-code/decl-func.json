@@ -49,14 +49,18 @@
             "start": 1814,
             "end": 1824,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1826,
             "end": 1870,
             "value": "new binding on an extensible global object",
-            "raw": "'new binding on an extensible global object'"
+            "raw": "'new binding on an extensible global object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -87,7 +91,9 @@
             "start": 1895,
             "end": 1905,
             "value": "brandNew",
-            "raw": "'brandNew'"
+            "raw": "'brandNew'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -112,7 +118,9 @@
                   "start": 1921,
                   "end": 1925,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -134,7 +142,9 @@
                   "start": 1941,
                   "end": 1945,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -156,7 +166,9 @@
                   "start": 1963,
                   "end": 1968,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

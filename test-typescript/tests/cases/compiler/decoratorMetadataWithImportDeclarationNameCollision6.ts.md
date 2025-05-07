@@ -102,7 +102,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 27,
         "raw": "'./db'",
-        "value": "./db"
+        "value": "./db",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

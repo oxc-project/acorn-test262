@@ -147,7 +147,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 22,
         "raw": "\"./f1\"",
-        "value": "./f1"
+        "value": "./f1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -414,7 +416,9 @@ __ESTREE_TEST__:PASS:
               "start": 201,
               "end": 207,
               "raw": "\"./f2\"",
-              "value": "./f2"
+              "value": "./f2",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -455,7 +459,9 @@ __ESTREE_TEST__:PASS:
               "start": 229,
               "end": 235,
               "raw": "\"./f2\"",
-              "value": "./f2"
+              "value": "./f2",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -719,7 +725,9 @@ __ESTREE_TEST__:PASS:
         "start": 172,
         "end": 178,
         "raw": "\"./f1\"",
-        "value": "./f1"
+        "value": "./f1",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -745,7 +753,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 22,
         "raw": "\"./f1\"",
-        "value": "./f1"
+        "value": "./f1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -785,7 +795,9 @@ __ESTREE_TEST__:PASS:
         "start": 31,
         "end": 37,
         "raw": "\"./f3\"",
-        "value": "./f3"
+        "value": "./f3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },

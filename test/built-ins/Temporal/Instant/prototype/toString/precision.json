@@ -70,7 +70,9 @@
             "start": 330,
             "end": 359,
             "value": "2020-01-01T23:58:57.012034Z",
-            "raw": "'2020-01-01T23:58:57.012034Z'"
+            "raw": "'2020-01-01T23:58:57.012034Z'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -190,7 +192,9 @@
                       "start": 465,
                       "end": 479,
                       "value": "microseconds",
-                      "raw": "'microseconds'"
+                      "raw": "'microseconds'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

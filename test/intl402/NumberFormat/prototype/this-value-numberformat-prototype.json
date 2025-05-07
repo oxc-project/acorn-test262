@@ -101,7 +101,9 @@
                   "start": 531,
                   "end": 532,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -112,7 +114,9 @@
             "start": 549,
             "end": 647,
             "value": "Intl.NumberFormat's prototype is not an object that has been initialized as an Intl.NumberFormat",
-            "raw": "\"Intl.NumberFormat's prototype is not an object that has been initialized as an Intl.NumberFormat\""
+            "raw": "\"Intl.NumberFormat's prototype is not an object that has been initialized as an Intl.NumberFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

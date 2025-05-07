@@ -34,7 +34,9 @@
                 "start": 444,
                 "end": 457,
                 "value": "hello world",
-                "raw": "\"hello world\""
+                "raw": "\"hello world\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -86,7 +88,9 @@
               "start": 480,
               "end": 482,
               "value": 11,
-              "raw": "11"
+              "raw": "11",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -102,7 +106,9 @@
             "start": 496,
             "end": 503,
             "value": "s[11]",
-            "raw": "'s[11]'"
+            "raw": "'s[11]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

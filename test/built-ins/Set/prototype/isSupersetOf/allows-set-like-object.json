@@ -39,14 +39,18 @@
                     "start": 496,
                     "end": 497,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 499,
                     "end": 500,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -94,7 +98,9 @@
                   "start": 525,
                   "end": 526,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -152,7 +158,9 @@
                               "start": 571,
                               "end": 641,
                               "value": "Set.prototype.isSupersetOf should not call its argument's has method",
-                              "raw": "\"Set.prototype.isSupersetOf should not call its argument's has method\""
+                              "raw": "\"Set.prototype.isSupersetOf should not call its argument's has method\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -208,7 +216,9 @@
                             "start": 686,
                             "end": 687,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -289,7 +299,9 @@
             "start": 736,
             "end": 740,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

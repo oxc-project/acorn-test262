@@ -162,7 +162,9 @@
                           "start": 1400,
                           "end": 1410,
                           "value": "language",
-                          "raw": "'language'"
+                          "raw": "'language'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }

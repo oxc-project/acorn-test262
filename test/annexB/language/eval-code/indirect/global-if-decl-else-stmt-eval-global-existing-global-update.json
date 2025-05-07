@@ -49,7 +49,9 @@
             "start": 1646,
             "end": 1649,
             "value": "f",
-            "raw": "'f'"
+            "raw": "'f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                           "start": 1682,
                           "end": 1700,
                           "value": "Another function",
-                          "raw": "'Another function'"
+                          "raw": "'Another function'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -118,7 +122,9 @@
                   "start": 1719,
                   "end": 1723,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -140,7 +146,9 @@
                   "start": 1737,
                   "end": 1741,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -162,7 +170,9 @@
                   "start": 1759,
                   "end": 1764,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -194,7 +204,9 @@
                 "start": 1771,
                 "end": 1772,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -211,7 +223,9 @@
             "start": 1782,
             "end": 1848,
             "value": "if (true) function f() { return \"function declaration\"; } else ;",
-            "raw": "'if (true) function f() { return \"function declaration\"; } else ;'"
+            "raw": "'if (true) function f() { return \"function declaration\"; } else ;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +277,9 @@
             "start": 1880,
             "end": 1890,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +331,9 @@
             "start": 1915,
             "end": 1937,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

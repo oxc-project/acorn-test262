@@ -137,7 +137,9 @@
                 "start": 535,
                 "end": 538,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "!==",
               "right": {
@@ -145,7 +147,9 @@
                 "start": 543,
                 "end": 551,
                 "value": "A",
-                "raw": "\"\\u0041\""
+                "raw": "\"\\u0041\"",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -175,7 +179,9 @@
                         "start": 577,
                         "end": 578,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -189,7 +195,9 @@
               "start": 587,
               "end": 591,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -200,7 +208,9 @@
           "start": 597,
           "end": 598,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -232,7 +242,9 @@
                     "start": 627,
                     "end": 800,
                     "value": "#1: __instance = new Boolean; __instance.lastIndexOf = String.prototype.lastIndexOf;  __instance.lastIndexOf(\"A\"!==\"\\u0041\", function(){return 0;}(),null) === 0. Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.lastIndexOf = String.prototype.lastIndexOf;  __instance.lastIndexOf(\"A\"!==\"\\\\u0041\", function(){return 0;}(),null) === 0. Actual: '"
+                    "raw": "'#1: __instance = new Boolean; __instance.lastIndexOf = String.prototype.lastIndexOf;  __instance.lastIndexOf(\"A\"!==\"\\\\u0041\", function(){return 0;}(),null) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -268,7 +280,9 @@
                           "start": 826,
                           "end": 829,
                           "value": "A",
-                          "raw": "\"A\""
+                          "raw": "\"A\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "!==",
                         "right": {
@@ -276,7 +290,9 @@
                           "start": 834,
                           "end": 842,
                           "value": "A",
-                          "raw": "\"\\u0041\""
+                          "raw": "\"\\u0041\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -306,7 +322,9 @@
                                   "start": 868,
                                   "end": 869,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -320,7 +338,9 @@
                         "start": 878,
                         "end": 882,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

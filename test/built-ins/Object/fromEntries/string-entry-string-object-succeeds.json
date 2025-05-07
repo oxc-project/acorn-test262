@@ -63,7 +63,9 @@
                         "start": 309,
                         "end": 313,
                         "value": "ab",
-                        "raw": "'ab'"
+                        "raw": "'ab'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -119,7 +121,9 @@
               "start": 342,
               "end": 345,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -129,7 +133,9 @@
             "start": 348,
             "end": 351,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -53,7 +53,9 @@
                 "start": 767,
                 "end": 773,
                 "value": "then",
-                "raw": "'then'"
+                "raw": "'then'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",

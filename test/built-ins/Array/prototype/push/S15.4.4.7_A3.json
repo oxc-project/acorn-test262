@@ -61,7 +61,9 @@
           "start": 308,
           "end": 318,
           "value": 4294967295,
-          "raw": "4294967295"
+          "raw": "4294967295",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -149,14 +151,18 @@
             "start": 365,
             "end": 375,
             "value": 4294967295,
-            "raw": "4294967295"
+            "raw": "4294967295",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 377,
             "end": 425,
             "value": "The value of push is expected to be 4294967295",
-            "raw": "'The value of push is expected to be 4294967295'"
+            "raw": "'The value of push is expected to be 4294967295'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +210,9 @@
                   "start": 444,
                   "end": 447,
                   "value": "x",
-                  "raw": "\"x\""
+                  "raw": "\"x\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -234,7 +242,9 @@
                     "start": 475,
                     "end": 552,
                     "value": "#2.1: x = []; x.length = 4294967295; x.push(\"x\") throw RangeError. Actual: ",
-                    "raw": "'#2.1: x = []; x.length = 4294967295; x.push(\"x\") throw RangeError. Actual: '"
+                    "raw": "'#2.1: x = []; x.length = 4294967295; x.push(\"x\") throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -320,14 +330,18 @@
                     "start": 631,
                     "end": 635,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 641,
                     "end": 716,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -381,7 +395,9 @@
               "start": 744,
               "end": 754,
               "value": 4294967295,
-              "raw": "4294967295"
+              "raw": "4294967295",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -391,14 +407,18 @@
             "start": 757,
             "end": 760,
             "value": "x",
-            "raw": "\"x\""
+            "raw": "\"x\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 812,
             "value": "The value of x[4294967295] is expected to be \"x\"",
-            "raw": "'The value of x[4294967295] is expected to be \"x\"'"
+            "raw": "'The value of x[4294967295] is expected to be \"x\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -456,14 +476,18 @@
             "start": 842,
             "end": 852,
             "value": 4294967295,
-            "raw": "4294967295"
+            "raw": "4294967295",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 854,
             "end": 906,
             "value": "The value of x.length is expected to be 4294967295",
-            "raw": "'The value of x.length is expected to be 4294967295'"
+            "raw": "'The value of x.length is expected to be 4294967295'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

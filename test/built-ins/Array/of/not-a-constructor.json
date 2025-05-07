@@ -69,14 +69,18 @@
             "start": 722,
             "end": 727,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 729,
             "end": 772,
             "value": "isConstructor(Array.of) must return false",
-            "raw": "'isConstructor(Array.of) must return false'"
+            "raw": "'isConstructor(Array.of) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +167,9 @@
                         "start": 824,
                         "end": 825,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -176,7 +182,9 @@
             "start": 831,
             "end": 879,
             "value": "`new Array.of(1)` throws a TypeError exception",
-            "raw": "'`new Array.of(1)` throws a TypeError exception'"
+            "raw": "'`new Array.of(1)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -95,14 +95,18 @@
             "start": 841,
             "end": 846,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 922,
             "value": "isConstructor(TypedArray.prototype[Symbol.iterator]) must return false",
-            "raw": "'isConstructor(TypedArray.prototype[Symbol.iterator]) must return false'"
+            "raw": "'isConstructor(TypedArray.prototype[Symbol.iterator]) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,7 +191,9 @@
                             "start": 986,
                             "end": 987,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

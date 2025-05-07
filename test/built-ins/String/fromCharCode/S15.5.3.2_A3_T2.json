@@ -96,28 +96,36 @@
               "start": 546,
               "end": 548,
               "value": 65,
-              "raw": "65"
+              "raw": "65",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 550,
               "end": 552,
               "value": 66,
-              "raw": "66"
+              "raw": "66",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 554,
               "end": 556,
               "value": 66,
-              "raw": "66"
+              "raw": "66",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 558,
               "end": 560,
               "value": 65,
-              "raw": "65"
+              "raw": "65",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -128,7 +136,9 @@
           "start": 566,
           "end": 572,
           "value": "ABBA",
-          "raw": "\"ABBA\""
+          "raw": "\"ABBA\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -160,7 +170,9 @@
                     "start": 601,
                     "end": 743,
                     "value": "#1: __fcc__func = String.fromCharCode; delete String.fromCharCode; __fcc__func(65,66,66,65) === \"ABBA\". Actual: __fcc__func(65,66,66,65) ===",
-                    "raw": "'#1: __fcc__func = String.fromCharCode; delete String.fromCharCode; __fcc__func(65,66,66,65) === \"ABBA\". Actual: __fcc__func(65,66,66,65) ==='"
+                    "raw": "'#1: __fcc__func = String.fromCharCode; delete String.fromCharCode; __fcc__func(65,66,66,65) === \"ABBA\". Actual: __fcc__func(65,66,66,65) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -179,28 +191,36 @@
                         "start": 758,
                         "end": 760,
                         "value": 65,
-                        "raw": "65"
+                        "raw": "65",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 762,
                         "end": 764,
                         "value": 66,
-                        "raw": "66"
+                        "raw": "66",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 766,
                         "end": 768,
                         "value": 66,
-                        "raw": "66"
+                        "raw": "66",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 770,
                         "end": 772,
                         "value": 65,
-                        "raw": "65"
+                        "raw": "65",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

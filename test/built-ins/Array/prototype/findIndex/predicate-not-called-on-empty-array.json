@@ -23,7 +23,9 @@
             "start": 490,
             "end": 495,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -78,7 +80,9 @@
                       "start": 538,
                       "end": 542,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -91,7 +95,9 @@
                     "start": 553,
                     "end": 557,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -192,14 +198,18 @@
             "start": 630,
             "end": 635,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 688,
             "value": "[].findIndex(predicate) does not call predicate",
-            "raw": "'[].findIndex(predicate) does not call predicate'"
+            "raw": "'[].findIndex(predicate) does not call predicate'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +260,9 @@
               "start": 721,
               "end": 722,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -258,7 +270,9 @@
             "start": 726,
             "end": 770,
             "value": "[].findIndex(predicate) returned undefined",
-            "raw": "'[].findIndex(predicate) returned undefined'"
+            "raw": "'[].findIndex(predicate) returned undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

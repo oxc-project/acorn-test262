@@ -35,14 +35,18 @@
                   "start": 304,
                   "end": 309,
                   "value": "123",
-                  "raw": "\"123\""
+                  "raw": "\"123\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 311,
                   "end": 314,
                   "value": 100,
-                  "raw": "100"
+                  "raw": "100",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -102,7 +106,9 @@
                 "start": 358,
                 "end": 360,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,7 +162,9 @@
             "start": 392,
             "end": 397,
             "value": "obj",
-            "raw": "'obj'"
+            "raw": "'obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

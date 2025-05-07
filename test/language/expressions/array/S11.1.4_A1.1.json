@@ -55,7 +55,9 @@
           "start": 368,
           "end": 376,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -87,7 +89,9 @@
                     "start": 405,
                     "end": 462,
                     "value": "#1: var array = []; typeof array === \"object\". Actual: ",
-                    "raw": "'#1: var array = []; typeof array === \"object\". Actual: '"
+                    "raw": "'#1: var array = []; typeof array === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -148,7 +152,9 @@
           "start": 526,
           "end": 530,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -176,7 +182,9 @@
                   "start": 559,
                   "end": 612,
                   "value": "#2: var array = []; array instanceof Array === true",
-                  "raw": "'#2: var array = []; array instanceof Array === true'"
+                  "raw": "'#2: var array = []; array instanceof Array === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -275,7 +283,9 @@
                     "start": 704,
                     "end": 779,
                     "value": "#3: var array = []; array.toString === Array.prototype.toString. Actual: ",
-                    "raw": "'#3: var array = []; array.toString === Array.prototype.toString. Actual: '"
+                    "raw": "'#3: var array = []; array.toString === Array.prototype.toString. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -343,7 +353,9 @@
           "start": 835,
           "end": 836,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -375,7 +387,9 @@
                     "start": 865,
                     "end": 915,
                     "value": "#4: var array = []; array.length === 0. Actual: ",
-                    "raw": "'#4: var array = []; array.length === 0. Actual: '"
+                    "raw": "'#4: var array = []; array.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

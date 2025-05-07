@@ -49,7 +49,9 @@
                 "start": 359,
                 "end": 370,
                 "value": "dayPeriod",
-                "raw": "\"dayPeriod\""
+                "raw": "\"dayPeriod\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -174,7 +176,9 @@
                               "start": 473,
                               "end": 477,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

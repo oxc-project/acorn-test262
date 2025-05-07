@@ -26,7 +26,9 @@
               "start": 300,
               "end": 304,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -36,7 +38,9 @@
           "start": 310,
           "end": 311,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -68,7 +72,9 @@
                     "start": 340,
                     "end": 371,
                     "value": "#1.1: +(null) === 0. Actual: ",
-                    "raw": "'#1.1: +(null) === 0. Actual: '"
+                    "raw": "'#1.1: +(null) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -90,7 +96,9 @@
                           "start": 377,
                           "end": 381,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -123,7 +131,9 @@
                   "start": 402,
                   "end": 403,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "/",
                 "right": {
@@ -141,7 +151,9 @@
                       "start": 406,
                       "end": 410,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -192,7 +204,9 @@
                         "start": 471,
                         "end": 505,
                         "value": "#1.2: +(null) === +0. Actual: -0",
-                        "raw": "'#1.2: +(null) === +0. Actual: -0'"
+                        "raw": "'#1.2: +(null) === +0. Actual: -0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -59,7 +59,9 @@
                           "start": 321,
                           "end": 330,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -93,7 +95,9 @@
             "start": 350,
             "end": 366,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -149,7 +153,9 @@
             "start": 481,
             "end": 482,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -160,7 +166,9 @@
           "start": 488,
           "end": 492,
           "value": "AB",
-          "raw": "\"AB\""
+          "raw": "\"AB\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -192,7 +200,9 @@
                     "start": 521,
                     "end": 657,
                     "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __str = \"ABBABABAB\"; __str.match(__obj)[0] ===\"AB\". Actual: ",
-                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __str = \"ABB\\u0041BABAB\"; __str.match(__obj)[0] ===\"AB\". Actual: '"
+                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __str = \"ABB\\u0041BABAB\"; __str.match(__obj)[0] ===\"AB\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -237,7 +247,9 @@
                       "start": 679,
                       "end": 680,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

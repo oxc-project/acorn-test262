@@ -39,7 +39,9 @@
                   "start": 272,
                   "end": 273,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -52,7 +54,9 @@
           "start": 279,
           "end": 283,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -84,7 +88,9 @@
                     "start": 312,
                     "end": 352,
                     "value": "#1: +void 0 === Not-a-Number. Actual: ",
-                    "raw": "'#1: +void 0 === Not-a-Number. Actual: '"
+                    "raw": "'#1: +void 0 === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -108,7 +114,9 @@
                           "start": 362,
                           "end": 363,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -140,7 +148,9 @@
             "start": 385,
             "end": 389,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -149,7 +159,9 @@
           "start": 394,
           "end": 395,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -181,7 +193,9 @@
                     "start": 424,
                     "end": 451,
                     "value": "#2: +null === 0. Actual: ",
-                    "raw": "'#2: +null === 0. Actual: '"
+                    "raw": "'#2: +null === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -199,7 +213,9 @@
                         "start": 456,
                         "end": 460,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

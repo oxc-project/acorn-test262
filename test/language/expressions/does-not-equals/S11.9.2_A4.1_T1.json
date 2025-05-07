@@ -44,7 +44,9 @@
               "start": 255,
               "end": 259,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -54,7 +56,9 @@
           "start": 265,
           "end": 269,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -82,7 +86,9 @@
                   "start": 298,
                   "end": 326,
                   "value": "#1: (NaN != true) === true",
-                  "raw": "'#1: (NaN != true) === true'"
+                  "raw": "'#1: (NaN != true) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -132,7 +138,9 @@
               "start": 361,
               "end": 362,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -142,7 +150,9 @@
           "start": 368,
           "end": 372,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -170,7 +180,9 @@
                   "start": 401,
                   "end": 426,
                   "value": "#2: (NaN != 1) === true",
-                  "raw": "'#2: (NaN != 1) === true'"
+                  "raw": "'#2: (NaN != 1) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -242,7 +254,9 @@
           "start": 477,
           "end": 481,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -270,7 +284,9 @@
                   "start": 510,
                   "end": 537,
                   "value": "#3: (NaN != NaN) === true",
-                  "raw": "'#3: (NaN != NaN) === true'"
+                  "raw": "'#3: (NaN != NaN) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -342,7 +358,9 @@
           "start": 602,
           "end": 606,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -370,7 +388,9 @@
                   "start": 635,
                   "end": 668,
                   "value": "#4: (NaN != +Infinity) === true",
-                  "raw": "'#4: (NaN != +Infinity) === true'"
+                  "raw": "'#4: (NaN != +Infinity) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -442,7 +462,9 @@
           "start": 733,
           "end": 737,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -470,7 +492,9 @@
                   "start": 766,
                   "end": 799,
                   "value": "#5: (NaN != -Infinity) === true",
-                  "raw": "'#5: (NaN != -Infinity) === true'"
+                  "raw": "'#5: (NaN != -Infinity) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -542,7 +566,9 @@
           "start": 856,
           "end": 860,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -570,7 +596,9 @@
                   "start": 889,
                   "end": 929,
                   "value": "#6: (NaN != Number.MAX_VALUE) === true",
-                  "raw": "'#6: (NaN != Number.MAX_VALUE) === true'"
+                  "raw": "'#6: (NaN != Number.MAX_VALUE) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -642,7 +670,9 @@
           "start": 986,
           "end": 990,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -670,7 +700,9 @@
                   "start": 1019,
                   "end": 1059,
                   "value": "#7: (NaN != Number.MIN_VALUE) === true",
-                  "raw": "'#7: (NaN != Number.MIN_VALUE) === true'"
+                  "raw": "'#7: (NaN != Number.MIN_VALUE) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -720,7 +752,9 @@
               "start": 1094,
               "end": 1102,
               "value": "string",
-              "raw": "\"string\""
+              "raw": "\"string\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -730,7 +764,9 @@
           "start": 1108,
           "end": 1112,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -758,7 +794,9 @@
                   "start": 1141,
                   "end": 1173,
                   "value": "#8: (NaN != \"string\") === true",
-                  "raw": "'#8: (NaN != \"string\") === true'"
+                  "raw": "'#8: (NaN != \"string\") === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -823,7 +861,9 @@
           "start": 1226,
           "end": 1230,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -851,7 +891,9 @@
                   "start": 1259,
                   "end": 1295,
                   "value": "#9: (NaN != new Object()) === true",
-                  "raw": "'#9: (NaN != new Object()) === true'"
+                  "raw": "'#9: (NaN != new Object()) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

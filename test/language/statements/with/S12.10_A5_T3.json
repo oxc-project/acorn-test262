@@ -35,7 +35,9 @@
           "start": 307,
           "end": 310,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -77,7 +79,9 @@
                   "start": 332,
                   "end": 336,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -99,7 +103,9 @@
                   "start": 344,
                   "end": 349,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -129,7 +135,9 @@
             "start": 359,
             "end": 389,
             "value": "with(myObj){del = delete p1}",
-            "raw": "\"with(myObj){del = delete p1}\""
+            "raw": "\"with(myObj){del = delete p1}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,7 +176,9 @@
           "start": 498,
           "end": 502,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -196,7 +206,9 @@
                   "start": 530,
                   "end": 554,
                   "value": "#1: myObj.p1 !== true ",
-                  "raw": "'#1: myObj.p1 !== true '"
+                  "raw": "'#1: myObj.p1 !== true '",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -269,7 +281,9 @@
                     "start": 784,
                     "end": 836,
                     "value": "#2: myObj.p1 === undefined . Actual:  myObj.p1 ===",
-                    "raw": "'#2: myObj.p1 === undefined . Actual:  myObj.p1 ==='"
+                    "raw": "'#2: myObj.p1 === undefined . Actual:  myObj.p1 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -332,7 +346,9 @@
           "start": 1042,
           "end": 1046,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -364,7 +380,9 @@
                     "start": 1074,
                     "end": 1123,
                     "value": "#3: myObj.del === true . Actual:  myObj.del ===",
-                    "raw": "'#3: myObj.del === true . Actual:  myObj.del ==='"
+                    "raw": "'#3: myObj.del === true . Actual:  myObj.del ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -427,7 +445,9 @@
           "start": 1329,
           "end": 1332,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -455,7 +475,9 @@
                   "start": 1360,
                   "end": 1384,
                   "value": "#4: myObj.p1 !== 'a'",
-                  "raw": "'#4: myObj.p1 !== \\'a\\''"
+                  "raw": "'#4: myObj.p1 !== \\'a\\''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

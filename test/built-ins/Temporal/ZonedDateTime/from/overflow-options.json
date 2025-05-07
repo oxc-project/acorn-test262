@@ -41,7 +41,9 @@
                   "start": 284,
                   "end": 288,
                   "value": 2019,
-                  "raw": "2019"
+                  "raw": "2019",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 299,
                   "end": 300,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 309,
                   "end": 311,
                   "value": 32,
-                  "raw": "32"
+                  "raw": "32",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +113,9 @@
                   "start": 325,
                   "end": 333,
                   "value": "+01:00",
-                  "raw": "\"+01:00\""
+                  "raw": "\"+01:00\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -162,6 +170,7 @@
                 "end": 440,
                 "value": null,
                 "raw": "1548889200000000000n",
+                "regex": null,
                 "bigint": "1548889200000000000"
               },
               {
@@ -169,7 +178,9 @@
                 "start": 442,
                 "end": 450,
                 "value": "+01:00",
-                "raw": "\"+01:00\""
+                "raw": "\"+01:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -286,7 +297,9 @@
                         "start": 532,
                         "end": 540,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -478,7 +491,9 @@
                       "start": 734,
                       "end": 745,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

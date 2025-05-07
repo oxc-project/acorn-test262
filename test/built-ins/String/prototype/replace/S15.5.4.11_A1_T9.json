@@ -78,7 +78,9 @@
                     "start": 404,
                     "end": 405,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init"
@@ -172,7 +174,9 @@
           "start": 558,
           "end": 579,
           "value": "undefined0undefined",
-          "raw": "\"undefined0undefined\""
+          "raw": "\"undefined0undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -204,7 +208,9 @@
                     "start": 608,
                     "end": 792,
                     "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; function __func(a1,a2,a3){return a1+a2+a3;}; new String(__obj).replace(function(){}(),__func) === \"undefined0undefined\". Actual: ",
-                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; function __func(a1,a2,a3){return a1+a2+a3;}; new String(__obj).replace(function(){}(),__func) === \"undefined0undefined\". Actual: '"
+                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; function __func(a1,a2,a3){return a1+a2+a3;}; new String(__obj).replace(function(){}(),__func) === \"undefined0undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

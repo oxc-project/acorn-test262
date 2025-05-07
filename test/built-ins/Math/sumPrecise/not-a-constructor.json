@@ -69,14 +69,18 @@
             "start": 373,
             "end": 378,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 380,
             "end": 430,
             "value": "isConstructor(Math.sumPrecise) must return false",
-            "raw": "\"isConstructor(Math.sumPrecise) must return false\""
+            "raw": "\"isConstructor(Math.sumPrecise) must return false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

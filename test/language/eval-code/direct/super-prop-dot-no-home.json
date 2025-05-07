@@ -71,7 +71,9 @@
                         "start": 1505,
                         "end": 1515,
                         "value": "super.x;",
-                        "raw": "'super.x;'"
+                        "raw": "'super.x;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -189,7 +191,9 @@
             "start": 1599,
             "end": 1607,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

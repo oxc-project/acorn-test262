@@ -68,7 +68,9 @@
                         "start": 452,
                         "end": 457,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -85,7 +87,9 @@
                         "start": 468,
                         "end": 473,
                         "value": "bar",
-                        "raw": "'bar'"
+                        "raw": "'bar'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -163,7 +167,9 @@
                         "start": 522,
                         "end": 527,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -180,7 +186,9 @@
                         "start": 538,
                         "end": 544,
                         "value": "NFC1",
-                        "raw": "'NFC1'"
+                        "raw": "'NFC1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -258,7 +266,9 @@
                         "start": 593,
                         "end": 598,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -275,7 +285,9 @@
                         "start": 609,
                         "end": 613,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

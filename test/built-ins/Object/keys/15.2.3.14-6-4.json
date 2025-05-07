@@ -100,21 +100,27 @@
                 "start": 385,
                 "end": 386,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 391,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 398,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -428,7 +434,9 @@
                   "start": 640,
                   "end": 658,
                   "value": "tempArray[index]",
-                  "raw": "'tempArray[index]'"
+                  "raw": "'tempArray[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

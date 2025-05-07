@@ -435,14 +435,18 @@ __ESTREE_TEST__:PASS:
               "start": 198,
               "end": 199,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 205,
               "end": 206,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           ],
           "quasis": [
@@ -569,14 +573,18 @@ __ESTREE_TEST__:PASS:
                 "start": 238,
                 "end": 239,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 245,
                 "end": 246,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ],
             "quasis": [
@@ -684,7 +692,9 @@ __ESTREE_TEST__:PASS:
           "start": 269,
           "end": 277,
           "raw": "\"member\"",
-          "value": "member"
+          "value": "member",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -712,14 +722,18 @@ __ESTREE_TEST__:PASS:
                 "start": 289,
                 "end": 290,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 296,
                 "end": 297,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ],
             "quasis": [
@@ -772,7 +786,9 @@ __ESTREE_TEST__:PASS:
           "start": 303,
           "end": 311,
           "raw": "\"member\"",
-          "value": "member"
+          "value": "member",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -795,14 +811,18 @@ __ESTREE_TEST__:PASS:
               "start": 339,
               "end": 340,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 346,
               "end": 347,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           ],
           "quasis": [
@@ -887,7 +907,9 @@ __ESTREE_TEST__:PASS:
               "start": 323,
               "end": 324,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -923,14 +945,18 @@ __ESTREE_TEST__:PASS:
               "start": 400,
               "end": 401,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 407,
               "end": 408,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           ],
           "quasis": [
@@ -990,14 +1016,18 @@ __ESTREE_TEST__:PASS:
                     "start": 363,
                     "end": 364,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 370,
                     "end": 371,
                     "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "quasis": [
@@ -1050,7 +1080,9 @@ __ESTREE_TEST__:PASS:
               "start": 377,
               "end": 385,
               "raw": "\"member\"",
-              "value": "member"
+              "value": "member",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -1145,14 +1177,18 @@ __ESTREE_TEST__:PASS:
                 "start": 463,
                 "end": 464,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 470,
                 "end": 471,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ],
             "quasis": [

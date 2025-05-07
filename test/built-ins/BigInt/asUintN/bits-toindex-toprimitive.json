@@ -49,7 +49,9 @@
             "start": 405,
             "end": 415,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +116,9 @@
             "start": 458,
             "end": 468,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -286,7 +290,9 @@
                               "start": 625,
                               "end": 626,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -344,6 +350,7 @@
                 "end": 670,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -355,6 +362,7 @@
             "end": 675,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -362,7 +370,9 @@
             "start": 677,
             "end": 722,
             "value": "ToPrimitive: @@toPrimitive takes precedence",
-            "raw": "\"ToPrimitive: @@toPrimitive takes precedence\""
+            "raw": "\"ToPrimitive: @@toPrimitive takes precedence\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +471,9 @@
                               "start": 794,
                               "end": 795,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -498,6 +510,7 @@
                 "end": 823,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -509,6 +522,7 @@
             "end": 828,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -516,7 +530,9 @@
             "start": 830,
             "end": 883,
             "value": "ToPrimitive: valueOf takes precedence over toString",
-            "raw": "\"ToPrimitive: valueOf takes precedence over toString\""
+            "raw": "\"ToPrimitive: valueOf takes precedence over toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,7 +631,9 @@
                               "start": 956,
                               "end": 957,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -631,6 +649,7 @@
                 "end": 968,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -642,6 +661,7 @@
             "end": 973,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -649,7 +669,9 @@
             "start": 975,
             "end": 1014,
             "value": "ToPrimitive: toString with no valueOf",
-            "raw": "\"ToPrimitive: toString with no valueOf\""
+            "raw": "\"ToPrimitive: toString with no valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -782,7 +804,9 @@
                               "start": 1121,
                               "end": 1122,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -798,6 +822,7 @@
                 "end": 1133,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -809,6 +834,7 @@
             "end": 1138,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -816,7 +842,9 @@
             "start": 1140,
             "end": 1193,
             "value": "ToPrimitive: skip @@toPrimitive when it's undefined",
-            "raw": "\"ToPrimitive: skip @@toPrimitive when it's undefined\""
+            "raw": "\"ToPrimitive: skip @@toPrimitive when it's undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -910,7 +938,9 @@
                       "start": 1254,
                       "end": 1258,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -950,7 +980,9 @@
                               "start": 1295,
                               "end": 1296,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -966,6 +998,7 @@
                 "end": 1307,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -977,6 +1010,7 @@
             "end": 1312,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -984,7 +1018,9 @@
             "start": 1314,
             "end": 1362,
             "value": "ToPrimitive: skip @@toPrimitive when it's null",
-            "raw": "\"ToPrimitive: skip @@toPrimitive when it's null\""
+            "raw": "\"ToPrimitive: skip @@toPrimitive when it's null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1065,7 +1101,9 @@
                       "start": 1410,
                       "end": 1414,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1105,7 +1143,9 @@
                               "start": 1452,
                               "end": 1453,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1121,6 +1161,7 @@
                 "end": 1464,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1132,6 +1173,7 @@
             "end": 1469,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -1139,7 +1181,9 @@
             "start": 1471,
             "end": 1521,
             "value": "ToPrimitive: skip valueOf when it's not callable",
-            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
+            "raw": "\"ToPrimitive: skip valueOf when it's not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1220,7 +1264,9 @@
                       "start": 1569,
                       "end": 1570,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1260,7 +1306,9 @@
                               "start": 1608,
                               "end": 1609,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1276,6 +1324,7 @@
                 "end": 1620,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1287,6 +1336,7 @@
             "end": 1625,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -1294,7 +1344,9 @@
             "start": 1627,
             "end": 1677,
             "value": "ToPrimitive: skip valueOf when it's not callable",
-            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
+            "raw": "\"ToPrimitive: skip valueOf when it's not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1414,7 +1466,9 @@
                               "start": 1765,
                               "end": 1766,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1430,6 +1484,7 @@
                 "end": 1777,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1441,6 +1496,7 @@
             "end": 1782,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -1448,7 +1504,9 @@
             "start": 1784,
             "end": 1834,
             "value": "ToPrimitive: skip valueOf when it's not callable",
-            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
+            "raw": "\"ToPrimitive: skip valueOf when it's not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1590,7 +1648,9 @@
                               "start": 1951,
                               "end": 1952,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1606,6 +1666,7 @@
                 "end": 1963,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1617,6 +1678,7 @@
             "end": 1968,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -1624,7 +1686,9 @@
             "start": 1970,
             "end": 2023,
             "value": "ToPrimitive: skip valueOf when it returns an object",
-            "raw": "\"ToPrimitive: skip valueOf when it returns an object\""
+            "raw": "\"ToPrimitive: skip valueOf when it returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1734,7 +1798,9 @@
                                   "start": 2102,
                                   "end": 2107,
                                   "value": 12345,
-                                  "raw": "12345"
+                                  "raw": "12345",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -1781,7 +1847,9 @@
                               "start": 2151,
                               "end": 2152,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1797,6 +1865,7 @@
                 "end": 2163,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -1808,6 +1877,7 @@
             "end": 2168,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -1815,7 +1885,9 @@
             "start": 2170,
             "end": 2223,
             "value": "ToPrimitive: skip valueOf when it returns an object",
-            "raw": "\"ToPrimitive: skip valueOf when it returns an object\""
+            "raw": "\"ToPrimitive: skip valueOf when it returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1933,7 +2005,9 @@
                               "start": 2309,
                               "end": 2310,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -1945,6 +2019,7 @@
                         "end": 2318,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -1959,7 +2034,9 @@
             "start": 2324,
             "end": 2379,
             "value": "ToPrimitive: throw when @@toPrimitive is not callable",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2088,6 +2165,7 @@
                         "end": 2475,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -2102,7 +2180,9 @@
             "start": 2481,
             "end": 2536,
             "value": "ToPrimitive: throw when @@toPrimitive is not callable",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2249,7 +2329,9 @@
                                           "start": 2655,
                                           "end": 2656,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -2268,6 +2350,7 @@
                         "end": 2672,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -2282,7 +2365,9 @@
             "start": 2678,
             "end": 2735,
             "value": "ToPrimitive: throw when @@toPrimitive returns an object",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2433,6 +2518,7 @@
                         "end": 2864,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -2447,7 +2533,9 @@
             "start": 2870,
             "end": 2927,
             "value": "ToPrimitive: throw when @@toPrimitive returns an object",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
+            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2604,6 +2692,7 @@
                         "end": 3064,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -2618,7 +2707,9 @@
             "start": 3070,
             "end": 3120,
             "value": "ToPrimitive: propagate errors from @@toPrimitive",
-            "raw": "\"ToPrimitive: propagate errors from @@toPrimitive\""
+            "raw": "\"ToPrimitive: propagate errors from @@toPrimitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2762,6 +2853,7 @@
                         "end": 3244,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -2776,7 +2868,9 @@
             "start": 3250,
             "end": 3294,
             "value": "ToPrimitive: propagate errors from valueOf",
-            "raw": "\"ToPrimitive: propagate errors from valueOf\""
+            "raw": "\"ToPrimitive: propagate errors from valueOf\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2920,6 +3014,7 @@
                         "end": 3419,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -2934,7 +3029,9 @@
             "start": 3425,
             "end": 3470,
             "value": "ToPrimitive: propagate errors from toString",
-            "raw": "\"ToPrimitive: propagate errors from toString\""
+            "raw": "\"ToPrimitive: propagate errors from toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3039,7 +3136,9 @@
                               "start": 3543,
                               "end": 3547,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -3061,7 +3160,9 @@
                               "start": 3563,
                               "end": 3567,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -3073,6 +3174,7 @@
                         "end": 3575,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -3087,7 +3189,9 @@
             "start": 3581,
             "end": 3641,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3192,7 +3296,9 @@
                               "start": 3714,
                               "end": 3715,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -3214,7 +3320,9 @@
                               "start": 3731,
                               "end": 3732,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -3226,6 +3334,7 @@
                         "end": 3740,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -3240,7 +3349,9 @@
             "start": 3746,
             "end": 3806,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3377,6 +3488,7 @@
                         "end": 3907,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -3391,7 +3503,9 @@
             "start": 3913,
             "end": 3973,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3525,7 +3639,9 @@
                                           "start": 4079,
                                           "end": 4080,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -3583,7 +3699,9 @@
                                           "start": 4137,
                                           "end": 4138,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -3602,6 +3720,7 @@
                         "end": 4154,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -3616,7 +3735,9 @@
             "start": 4160,
             "end": 4220,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3797,6 +3918,7 @@
                         "end": 4387,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -3811,7 +3933,9 @@
             "start": 4393,
             "end": 4453,
             "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

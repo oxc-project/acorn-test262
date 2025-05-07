@@ -55,7 +55,9 @@
                       "start": 1790,
                       "end": 1799,
                       "value": "Test262",
-                      "raw": "\"Test262\""
+                      "raw": "\"Test262\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -109,7 +111,9 @@
                           "start": 1850,
                           "end": 1861,
                           "value": "this.#m()",
-                          "raw": "\"this.#m()\""
+                          "raw": "\"this.#m()\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -248,7 +252,9 @@
             "start": 1971,
             "end": 1980,
             "value": "Test262",
-            "raw": "\"Test262\""
+            "raw": "\"Test262\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +367,9 @@
             "start": 2053,
             "end": 2088,
             "value": "invalid access to a private field",
-            "raw": "\"invalid access to a private field\""
+            "raw": "\"invalid access to a private field\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

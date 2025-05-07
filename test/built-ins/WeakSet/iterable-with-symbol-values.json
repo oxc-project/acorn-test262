@@ -34,7 +34,9 @@
                 "start": 574,
                 "end": 589,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 612,
                 "end": 627,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -454,7 +458,9 @@
             "start": 915,
             "end": 1002,
             "value": "add() was called 3 times, on the two unregistered and one well-known symbols in order",
-            "raw": "\"add() was called 3 times, on the two unregistered and one well-known symbols in order\""
+            "raw": "\"add() was called 3 times, on the two unregistered and one well-known symbols in order\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -130,7 +130,9 @@
             "start": 467,
             "end": 524,
             "value": "The value of obj is expected to not equal ``undefined``",
-            "raw": "'The value of obj is expected to not equal ``undefined``'"
+            "raw": "'The value of obj is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +196,9 @@
             "start": 569,
             "end": 640,
             "value": "The value of obj.constructor is expected to equal the value of Object",
-            "raw": "'The value of obj.constructor is expected to equal the value of Object'"
+            "raw": "'The value of obj.constructor is expected to equal the value of Object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,7 +284,9 @@
             "start": 695,
             "end": 770,
             "value": "The value of !!Object.prototype.isPrototypeOf(obj) is expected to be true",
-            "raw": "'The value of !!Object.prototype.isPrototypeOf(obj) is expected to be true'"
+            "raw": "'The value of !!Object.prototype.isPrototypeOf(obj) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +320,9 @@
                 "start": 798,
                 "end": 808,
                 "value": "[object ",
-                "raw": "'[object '"
+                "raw": "'[object '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -322,7 +330,9 @@
                 "start": 811,
                 "end": 819,
                 "value": "Object",
-                "raw": "'Object'"
+                "raw": "'Object'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -331,7 +341,9 @@
               "start": 822,
               "end": 825,
               "value": "]",
-              "raw": "']'"
+              "raw": "']'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -403,7 +415,9 @@
             "start": 878,
             "end": 919,
             "value": "obj.toString() returns to_string_result",
-            "raw": "'obj.toString() returns to_string_result'"
+            "raw": "'obj.toString() returns to_string_result'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -494,7 +508,9 @@
             "start": 983,
             "end": 1034,
             "value": "obj.valueOf().toString() returns to_string_result",
-            "raw": "'obj.valueOf().toString() returns to_string_result'"
+            "raw": "'obj.valueOf().toString() returns to_string_result'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

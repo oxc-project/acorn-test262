@@ -34,21 +34,27 @@ __ESTREE_TEST__:PASS:
                 "start": 152,
                 "end": 157,
                 "raw": "'ban'",
-                "value": "ban"
+                "value": "ban",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 159,
                 "end": 175,
                 "raw": "'id-u-co-pinyin'",
-                "value": "id-u-co-pinyin"
+                "value": "id-u-co-pinyin",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 177,
                 "end": 184,
                 "raw": "'de-ID'",
-                "value": "de-ID"
+                "value": "de-ID",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,7 +114,9 @@ __ESTREE_TEST__:PASS:
                     "start": 220,
                     "end": 228,
                     "raw": "'lookup'",
-                    "value": "lookup"
+                    "value": "lookup",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -154,7 +162,9 @@ __ESTREE_TEST__:PASS:
                 "start": 312,
                 "end": 316,
                 "raw": "', '",
-                "value": ", "
+                "value": ", ",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

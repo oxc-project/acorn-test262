@@ -34,7 +34,9 @@
                 "start": 367,
                 "end": 368,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +95,9 @@
                   "start": 407,
                   "end": 427,
                   "value": "VerifyNumberObject",
-                  "raw": "\"VerifyNumberObject\""
+                  "raw": "\"VerifyNumberObject\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -233,14 +237,18 @@
             "start": 516,
             "end": 536,
             "value": "VerifyNumberObject",
-            "raw": "\"VerifyNumberObject\""
+            "raw": "\"VerifyNumberObject\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 551,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

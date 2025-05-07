@@ -47,7 +47,9 @@
                 "start": 924,
                 "end": 932,
                 "value": "%U0000",
-                "raw": "'%U0000'"
+                "raw": "'%U0000'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 935,
             "end": 943,
             "value": "%U0000",
-            "raw": "'%U0000'"
+            "raw": "'%U0000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -107,7 +111,9 @@
                 "start": 972,
                 "end": 980,
                 "value": "%t0000",
-                "raw": "'%t0000'"
+                "raw": "'%t0000'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -117,7 +123,9 @@
             "start": 983,
             "end": 991,
             "value": "%t0000",
-            "raw": "'%t0000'"
+            "raw": "'%t0000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -167,7 +175,9 @@
                 "start": 1020,
                 "end": 1028,
                 "value": "%v0000",
-                "raw": "'%v0000'"
+                "raw": "'%v0000'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -177,7 +187,9 @@
             "start": 1031,
             "end": 1039,
             "value": "%v0000",
-            "raw": "'%v0000'"
+            "raw": "'%v0000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -227,7 +239,9 @@
                 "start": 1068,
                 "end": 1076,
                 "value": "%%0000",
-                "raw": "'%%0000'"
+                "raw": "'%%0000'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -237,7 +251,9 @@
             "start": 1079,
             "end": 1088,
             "value": "%\u000000",
-            "raw": "'%\\x0000'"
+            "raw": "'%\\x0000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

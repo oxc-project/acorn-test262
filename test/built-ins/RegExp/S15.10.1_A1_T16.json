@@ -36,7 +36,9 @@
                     "start": 311,
                     "end": 371,
                     "value": "#1.1: new RegExp(\"x{0,1}{1,}\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"x{0,1}{1,}\") throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(\"x{0,1}{1,}\") throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -59,7 +61,9 @@
                           "start": 386,
                           "end": 398,
                           "value": "x{0,1}{1,}",
-                          "raw": "\"x{0,1}{1,}\""
+                          "raw": "\"x{0,1}{1,}\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -136,14 +140,18 @@
                     "start": 471,
                     "end": 475,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 481,
                     "end": 557,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

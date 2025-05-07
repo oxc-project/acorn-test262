@@ -248,7 +248,9 @@ __ESTREE_TEST__:PASS:
                     "start": 370,
                     "end": 373,
                     "raw": "\"s\"",
-                    "value": "s"
+                    "value": "s",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -321,7 +323,9 @@ __ESTREE_TEST__:PASS:
                   "start": 240,
                   "end": 248,
                   "raw": "\"object\"",
-                  "value": "object"
+                  "value": "object",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }

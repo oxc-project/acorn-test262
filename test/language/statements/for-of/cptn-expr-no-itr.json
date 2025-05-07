@@ -47,7 +47,9 @@
                 "start": 921,
                 "end": 950,
                 "value": "var a; 1; for (a of []) { }",
-                "raw": "'var a; 1; for (a of []) { }'"
+                "raw": "'var a; 1; for (a of []) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 987,
                 "end": 1019,
                 "value": "var b; 2; for (b of []) { 3; }",
-                "raw": "'var b; 2; for (b of []) { 3; }'"
+                "raw": "'var b; 2; for (b of []) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

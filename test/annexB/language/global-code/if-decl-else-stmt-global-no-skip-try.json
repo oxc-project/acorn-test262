@@ -48,7 +48,9 @@
             "start": 1629,
             "end": 1678,
             "value": "Initialized binding created prior to evaluation",
-            "raw": "'Initialized binding created prior to evaluation'"
+            "raw": "'Initialized binding created prior to evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -72,7 +74,9 @@
               "start": 1697,
               "end": 1701,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -101,7 +105,9 @@
                 "start": 1722,
                 "end": 1726,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "FunctionDeclaration",
@@ -131,7 +137,9 @@
                         "start": 1750,
                         "end": 1753,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -194,14 +202,18 @@
             "start": 1800,
             "end": 1810,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1814,
             "end": 1861,
             "value": "binding value is updated following evaluation",
-            "raw": "'binding value is updated following evaluation'"
+            "raw": "'binding value is updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -253,7 +265,9 @@
             "start": 1887,
             "end": 1890,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

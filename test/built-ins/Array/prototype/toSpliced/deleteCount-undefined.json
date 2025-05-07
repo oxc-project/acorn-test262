@@ -36,21 +36,27 @@
                     "start": 885,
                     "end": 892,
                     "value": "first",
-                    "raw": "\"first\""
+                    "raw": "\"first\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 894,
                     "end": 902,
                     "value": "second",
-                    "raw": "\"second\""
+                    "raw": "\"second\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 904,
                     "end": 911,
                     "value": "third",
-                    "raw": "\"third\""
+                    "raw": "\"third\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -69,7 +75,9 @@
                 "start": 923,
                 "end": 924,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -128,21 +136,27 @@
                 "start": 968,
                 "end": 975,
                 "value": "first",
-                "raw": "\"first\""
+                "raw": "\"first\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 977,
                 "end": 985,
                 "value": "second",
-                "raw": "\"second\""
+                "raw": "\"second\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 987,
                 "end": 994,
                 "value": "third",
-                "raw": "\"third\""
+                "raw": "\"third\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

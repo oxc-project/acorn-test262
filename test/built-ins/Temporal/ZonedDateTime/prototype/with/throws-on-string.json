@@ -48,6 +48,7 @@
                 "end": 290,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 292,
                 "end": 297,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -135,7 +138,9 @@
                   "start": 341,
                   "end": 370,
                   "value": "1976-11-18T12:00+00:00[UTC]",
-                  "raw": "\"1976-11-18T12:00+00:00[UTC]\""
+                  "raw": "\"1976-11-18T12:00+00:00[UTC]\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -217,7 +222,9 @@
                   "start": 414,
                   "end": 426,
                   "value": "1976-11-18",
-                  "raw": "\"1976-11-18\""
+                  "raw": "\"1976-11-18\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -299,7 +306,9 @@
                   "start": 470,
                   "end": 477,
                   "value": "12:00",
-                  "raw": "\"12:00\""
+                  "raw": "\"12:00\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -381,7 +390,9 @@
                   "start": 521,
                   "end": 530,
                   "value": "invalid",
-                  "raw": "\"invalid\""
+                  "raw": "\"invalid\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

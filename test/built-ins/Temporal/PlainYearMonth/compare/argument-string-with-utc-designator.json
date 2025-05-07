@@ -28,14 +28,18 @@
                 "start": 338,
                 "end": 360,
                 "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "raw": "\"2019-10-01T09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 391,
                 "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,14 +91,18 @@
                 "start": 442,
                 "end": 446,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 448,
                 "end": 449,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -252,7 +260,9 @@
                         "start": 582,
                         "end": 667,
                         "value": "String with UTC designator should not be valid as a PlainYearMonth (first argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainYearMonth (first argument)\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainYearMonth (first argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -359,7 +369,9 @@
                         "start": 769,
                         "end": 855,
                         "value": "String with UTC designator should not be valid as a PlainYearMonth (second argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainYearMonth (second argument)\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainYearMonth (second argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

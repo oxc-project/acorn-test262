@@ -314,7 +314,9 @@ __ESTREE_TEST__:PASS:
                     "start": 304,
                     "end": 321,
                     "raw": "\"commandLineArgs\"",
-                    "value": "commandLineArgs"
+                    "value": "commandLineArgs",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {

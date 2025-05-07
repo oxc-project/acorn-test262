@@ -23,7 +23,9 @@
             "start": 401,
             "end": 413,
             "value": "my-message",
-            "raw": "\"my-message\""
+            "raw": "\"my-message\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 438,
                   "end": 448,
                   "value": "my-cause",
-                  "raw": "\"my-cause\""
+                  "raw": "\"my-cause\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -182,7 +186,9 @@
                               "start": 524,
                               "end": 534,
                               "value": "toString",
-                              "raw": "\"toString\""
+                              "raw": "\"toString\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -271,7 +277,9 @@
                               "start": 613,
                               "end": 620,
                               "value": "cause",
-                              "raw": "\"cause\""
+                              "raw": "\"cause\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -342,14 +350,18 @@
                 "start": 691,
                 "end": 701,
                 "value": "toString",
-                "raw": "\"toString\""
+                "raw": "\"toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 703,
                 "end": 710,
                 "value": "cause",
-                "raw": "\"cause\""
+                "raw": "\"cause\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -358,7 +370,9 @@
             "start": 714,
             "end": 752,
             "value": "accessing own properties on sequence",
-            "raw": "\"accessing own properties on sequence\""
+            "raw": "\"accessing own properties on sequence\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

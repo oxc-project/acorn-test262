@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 63,
         "end": 70,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -116,7 +118,9 @@ __ESTREE_TEST__:PASS:
                       "start": 135,
                       "end": 138,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -128,7 +132,9 @@ __ESTREE_TEST__:PASS:
                       "start": 141,
                       "end": 144,
                       "raw": "\"b\"",
-                      "value": "b"
+                      "value": "b",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -284,7 +290,9 @@ __ESTREE_TEST__:PASS:
                       "start": 327,
                       "end": 331,
                       "raw": "true",
-                      "value": true
+                      "value": true,
+                      "regex": null,
+                      "bigint": null
                     },
                     "expression": true,
                     "generator": false,
@@ -841,7 +849,9 @@ __ESTREE_TEST__:PASS:
                       "start": 708,
                       "end": 712,
                       "raw": "true",
-                      "value": true
+                      "value": true,
+                      "regex": null,
+                      "bigint": null
                     },
                     "expression": true,
                     "generator": false,
@@ -1539,7 +1549,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1225,
                       "end": 1229,
                       "raw": "true",
-                      "value": true
+                      "value": true,
+                      "regex": null,
+                      "bigint": null
                     },
                     "expression": true,
                     "generator": false,
@@ -1597,7 +1609,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1269,
                           "end": 1274,
                           "raw": "\"now\"",
-                          "value": "now"
+                          "value": "now",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

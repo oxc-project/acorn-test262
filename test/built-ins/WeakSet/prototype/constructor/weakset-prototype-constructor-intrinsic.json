@@ -74,7 +74,9 @@
             "start": 360,
             "end": 417,
             "value": "The value of WeakSet.prototype.constructor is \"WeakSet\"",
-            "raw": "'The value of WeakSet.prototype.constructor is \"WeakSet\"'"
+            "raw": "'The value of WeakSet.prototype.constructor is \"WeakSet\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -74,7 +74,9 @@
                     "start": 521,
                     "end": 559,
                     "value": "#1: var x; x === undefined. Actual: ",
-                    "raw": "'#1: var x; x === undefined. Actual: '"
+                    "raw": "'#1: var x; x === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -161,7 +163,9 @@
                   "start": 794,
                   "end": 827,
                   "value": "#2: var x; x++; x !== undefined",
-                  "raw": "'#2: var x; x++; x !== undefined'"
+                  "raw": "'#2: var x; x++; x !== undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

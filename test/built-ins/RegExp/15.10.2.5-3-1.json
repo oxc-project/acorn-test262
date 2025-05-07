@@ -82,7 +82,9 @@
                             "start": 345,
                             "end": 353,
                             "value": "0{2,1}",
-                            "raw": "\"0{2,1}\""
+                            "raw": "\"0{2,1}\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

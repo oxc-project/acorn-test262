@@ -224,7 +224,9 @@
             "start": 1331,
             "end": 1340,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +291,9 @@
             "start": 1373,
             "end": 1382,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,7 +406,9 @@
             "start": 1449,
             "end": 1493,
             "value": "invalid access of C1 private static getter",
-            "raw": "'invalid access of C1 private static getter'"
+            "raw": "'invalid access of C1 private static getter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,7 +521,9 @@
             "start": 1560,
             "end": 1604,
             "value": "invalid access of C2 private static getter",
-            "raw": "'invalid access of C2 private static getter'"
+            "raw": "'invalid access of C2 private static getter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

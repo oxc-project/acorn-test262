@@ -12,7 +12,9 @@
         "start": 1565,
         "end": 1570,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "EmptyStatement",
@@ -47,7 +49,9 @@
                 "start": 1601,
                 "end": 1620,
                 "value": "inner declaration",
-                "raw": "'inner declaration'"
+                "raw": "'inner declaration'",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -100,7 +104,9 @@
             "start": 1652,
             "end": 1662,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -152,7 +158,9 @@
             "start": 1687,
             "end": 1706,
             "value": "inner declaration",
-            "raw": "'inner declaration'"
+            "raw": "'inner declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -186,7 +194,9 @@
               "start": 1734,
               "end": 1753,
               "value": "outer declaration",
-              "raw": "'outer declaration'"
+              "raw": "'outer declaration'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

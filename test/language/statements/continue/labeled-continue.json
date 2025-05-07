@@ -23,7 +23,9 @@
             "start": 211,
             "end": 212,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -57,7 +59,9 @@
                 "start": 234,
                 "end": 235,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -79,7 +83,9 @@
             "start": 241,
             "end": 243,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           }
         },
         "update": null,
@@ -97,7 +103,9 @@
                 "start": 257,
                 "end": 261,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "body": {
                 "type": "BlockStatement",
@@ -203,14 +211,18 @@
             "start": 337,
             "end": 339,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 341,
             "end": 371,
             "value": "The value of `count` is `10`",
-            "raw": "\"The value of `count` is `10`\""
+            "raw": "\"The value of `count` is `10`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

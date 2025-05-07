@@ -86,7 +86,9 @@
                 "start": 392,
                 "end": 400,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 405,
             "end": 409,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 480,
             "value": "RegExp.prototype.exec.hasOwnProperty('length') must return true",
-            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +198,9 @@
                 "start": 548,
                 "end": 556,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -202,14 +210,18 @@
             "start": 561,
             "end": 566,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 644,
             "value": "RegExp.prototype.exec.propertyIsEnumerable('length') must return false",
-            "raw": "'RegExp.prototype.exec.propertyIsEnumerable(\\'length\\') must return false'"
+            "raw": "'RegExp.prototype.exec.propertyIsEnumerable(\\'length\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +247,9 @@
             "start": 659,
             "end": 660,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -322,7 +336,9 @@
                 "start": 711,
                 "end": 719,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -394,14 +410,18 @@
             "start": 767,
             "end": 768,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 810,
             "value": "The value of count is expected to be 0",
-            "raw": "'The value of count is expected to be 0'"
+            "raw": "'The value of count is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

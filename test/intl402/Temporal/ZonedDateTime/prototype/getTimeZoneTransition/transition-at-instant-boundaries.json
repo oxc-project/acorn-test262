@@ -57,7 +57,9 @@
             "start": 346,
             "end": 356,
             "value": "timeZone",
-            "raw": "\"timeZone\""
+            "raw": "\"timeZone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -118,6 +120,7 @@
                         "end": 430,
                         "value": null,
                         "raw": "86_40000_00000_00000_00000n",
+                        "regex": null,
                         "bigint": "8640000000000000000000"
                       }
                     },
@@ -178,6 +181,7 @@
                       "end": 505,
                       "value": null,
                       "raw": "86_40000_00000_00000_00000n",
+                      "regex": null,
                       "bigint": "8640000000000000000000"
                     },
                     {
@@ -236,7 +240,9 @@
                       "start": 554,
                       "end": 560,
                       "value": "next",
-                      "raw": "\"next\""
+                      "raw": "\"next\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -324,7 +330,9 @@
                         "start": 640,
                         "end": 698,
                         "value": "If there's any next transition, it should be after |min|",
-                        "raw": "\"If there's any next transition, it should be after |min|\""
+                        "raw": "\"If there's any next transition, it should be after |min|\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -378,7 +386,9 @@
                       "start": 747,
                       "end": 757,
                       "value": "previous",
-                      "raw": "\"previous\""
+                      "raw": "\"previous\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -466,7 +476,9 @@
                         "start": 837,
                         "end": 900,
                         "value": "If there's any previous transition, it should be before |max|",
-                        "raw": "\"If there's any previous transition, it should be before |max|\""
+                        "raw": "\"If there's any previous transition, it should be before |max|\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -533,7 +545,9 @@
                       "start": 953,
                       "end": 959,
                       "value": "next",
-                      "raw": "\"next\""
+                      "raw": "\"next\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -543,14 +557,18 @@
                   "start": 962,
                   "end": 966,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 968,
                   "end": 1020,
                   "value": "There shouldn't be any next transition after |max|",
-                  "raw": "\"There shouldn't be any next transition after |max|\""
+                  "raw": "\"There shouldn't be any next transition after |max|\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -613,7 +631,9 @@
                       "start": 1068,
                       "end": 1078,
                       "value": "previous",
-                      "raw": "\"previous\""
+                      "raw": "\"previous\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -623,14 +643,18 @@
                   "start": 1081,
                   "end": 1085,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1091,
                   "end": 1148,
                   "value": "There shouldn't be any previous transition before |min|",
-                  "raw": "\"There shouldn't be any previous transition before |min|\""
+                  "raw": "\"There shouldn't be any previous transition before |min|\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

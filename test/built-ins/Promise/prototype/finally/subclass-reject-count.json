@@ -23,7 +23,9 @@
             "start": 366,
             "end": 367,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -283,7 +285,9 @@
                               "start": 571,
                               "end": 625,
                               "value": "Expected Promise to be rejected, got: resolved with ",
-                              "raw": "\"Expected Promise to be rejected, got: resolved with \""
+                              "raw": "\"Expected Promise to be rejected, got: resolved with \"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -352,7 +356,9 @@
                             "start": 673,
                             "end": 674,
                             "value": 7,
-                            "raw": "7"
+                            "raw": "7",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

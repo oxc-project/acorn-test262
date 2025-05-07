@@ -16,7 +16,9 @@
           "start": 325,
           "end": 334,
           "value": "\u0001F",
-          "raw": "\"\\u0001F\""
+          "raw": "\"\\u0001F\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -52,7 +54,9 @@
                 "start": 359,
                 "end": 362,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +67,9 @@
             "start": 366,
             "end": 369,
             "value": "F",
-            "raw": "\"F\""
+            "raw": "\"F\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -92,7 +98,9 @@
                   "start": 398,
                   "end": 449,
                   "value": "#1: \"\\u0001F\" === String.fromCharCode(\"1\") + \"F\"",
-                  "raw": "'#1: \"\\\\u0001F\" === String.fromCharCode(\"1\") + \"F\"'"
+                  "raw": "'#1: \"\\\\u0001F\" === String.fromCharCode(\"1\") + \"F\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -114,7 +122,9 @@
           "start": 469,
           "end": 478,
           "value": "\u0002E",
-          "raw": "\"\\u0002E\""
+          "raw": "\"\\u0002E\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -150,7 +160,9 @@
                 "start": 503,
                 "end": 506,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -161,7 +173,9 @@
             "start": 510,
             "end": 513,
             "value": "E",
-            "raw": "\"E\""
+            "raw": "\"E\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -190,7 +204,9 @@
                   "start": 542,
                   "end": 593,
                   "value": "#2: \"\\u0002E\" === String.fromCharCode(\"2\") + \"E\"",
-                  "raw": "'#2: \"\\\\u0002E\" === String.fromCharCode(\"2\") + \"E\"'"
+                  "raw": "'#2: \"\\\\u0002E\" === String.fromCharCode(\"2\") + \"E\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -212,7 +228,9 @@
           "start": 613,
           "end": 622,
           "value": "\u0003D",
-          "raw": "\"\\u0003D\""
+          "raw": "\"\\u0003D\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -248,7 +266,9 @@
                 "start": 647,
                 "end": 650,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -259,7 +279,9 @@
             "start": 654,
             "end": 657,
             "value": "D",
-            "raw": "\"D\""
+            "raw": "\"D\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -288,7 +310,9 @@
                   "start": 686,
                   "end": 737,
                   "value": "#3: \"\\u0003D\" === String.fromCharCode(\"3\") + \"D\"",
-                  "raw": "'#3: \"\\\\u0003D\" === String.fromCharCode(\"3\") + \"D\"'"
+                  "raw": "'#3: \"\\\\u0003D\" === String.fromCharCode(\"3\") + \"D\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -310,7 +334,9 @@
           "start": 757,
           "end": 766,
           "value": "\u0004C",
-          "raw": "\"\\u0004C\""
+          "raw": "\"\\u0004C\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -346,7 +372,9 @@
                 "start": 791,
                 "end": 794,
                 "value": "4",
-                "raw": "\"4\""
+                "raw": "\"4\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -357,7 +385,9 @@
             "start": 798,
             "end": 801,
             "value": "C",
-            "raw": "\"C\""
+            "raw": "\"C\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -386,7 +416,9 @@
                   "start": 830,
                   "end": 881,
                   "value": "#4: \"\\u0004C\" === String.fromCharCode(\"4\") + \"C\"",
-                  "raw": "'#4: \"\\\\u0004C\" === String.fromCharCode(\"4\") + \"C\"'"
+                  "raw": "'#4: \"\\\\u0004C\" === String.fromCharCode(\"4\") + \"C\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -408,7 +440,9 @@
           "start": 901,
           "end": 910,
           "value": "\u0005B",
-          "raw": "\"\\u0005B\""
+          "raw": "\"\\u0005B\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -444,7 +478,9 @@
                 "start": 935,
                 "end": 938,
                 "value": "5",
-                "raw": "\"5\""
+                "raw": "\"5\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -455,7 +491,9 @@
             "start": 942,
             "end": 945,
             "value": "B",
-            "raw": "\"B\""
+            "raw": "\"B\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -484,7 +522,9 @@
                   "start": 974,
                   "end": 1025,
                   "value": "#5: \"\\u0005B\" === String.fromCharCode(\"5\") + \"B\"",
-                  "raw": "'#5: \"\\\\u0005B\" === String.fromCharCode(\"5\") + \"B\"'"
+                  "raw": "'#5: \"\\\\u0005B\" === String.fromCharCode(\"5\") + \"B\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -506,7 +546,9 @@
           "start": 1045,
           "end": 1054,
           "value": "\u0006A",
-          "raw": "\"\\u0006A\""
+          "raw": "\"\\u0006A\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -542,7 +584,9 @@
                 "start": 1079,
                 "end": 1082,
                 "value": "6",
-                "raw": "\"6\""
+                "raw": "\"6\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -553,7 +597,9 @@
             "start": 1086,
             "end": 1089,
             "value": "A",
-            "raw": "\"A\""
+            "raw": "\"A\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -582,7 +628,9 @@
                   "start": 1118,
                   "end": 1169,
                   "value": "#6: \"\\u0006A\" === String.fromCharCode(\"6\") + \"A\"",
-                  "raw": "'#6: \"\\\\u0006A\" === String.fromCharCode(\"6\") + \"A\"'"
+                  "raw": "'#6: \"\\\\u0006A\" === String.fromCharCode(\"6\") + \"A\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -604,7 +652,9 @@
           "start": 1189,
           "end": 1198,
           "value": "\u00079",
-          "raw": "\"\\u00079\""
+          "raw": "\"\\u00079\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -640,7 +690,9 @@
                 "start": 1223,
                 "end": 1226,
                 "value": "7",
-                "raw": "\"7\""
+                "raw": "\"7\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -651,7 +703,9 @@
             "start": 1230,
             "end": 1233,
             "value": "9",
-            "raw": "\"9\""
+            "raw": "\"9\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -680,7 +734,9 @@
                   "start": 1262,
                   "end": 1313,
                   "value": "#7: \"\\u00079\" === String.fromCharCode(\"7\") + \"9\"",
-                  "raw": "'#7: \"\\\\u00079\" === String.fromCharCode(\"7\") + \"9\"'"
+                  "raw": "'#7: \"\\\\u00079\" === String.fromCharCode(\"7\") + \"9\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -702,7 +758,9 @@
           "start": 1333,
           "end": 1342,
           "value": "\b8",
-          "raw": "\"\\u00088\""
+          "raw": "\"\\u00088\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -738,7 +796,9 @@
                 "start": 1367,
                 "end": 1370,
                 "value": "8",
-                "raw": "\"8\""
+                "raw": "\"8\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -749,7 +809,9 @@
             "start": 1374,
             "end": 1377,
             "value": "8",
-            "raw": "\"8\""
+            "raw": "\"8\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -778,7 +840,9 @@
                   "start": 1406,
                   "end": 1457,
                   "value": "#8: \"\\u00088\" === String.fromCharCode(\"8\") + \"8\"",
-                  "raw": "'#8: \"\\\\u00088\" === String.fromCharCode(\"8\") + \"8\"'"
+                  "raw": "'#8: \"\\\\u00088\" === String.fromCharCode(\"8\") + \"8\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -800,7 +864,9 @@
           "start": 1477,
           "end": 1486,
           "value": "\t7",
-          "raw": "\"\\u00097\""
+          "raw": "\"\\u00097\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -836,7 +902,9 @@
                 "start": 1511,
                 "end": 1514,
                 "value": "9",
-                "raw": "\"9\""
+                "raw": "\"9\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -847,7 +915,9 @@
             "start": 1518,
             "end": 1521,
             "value": "7",
-            "raw": "\"7\""
+            "raw": "\"7\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -876,7 +946,9 @@
                   "start": 1550,
                   "end": 1601,
                   "value": "#9: \"\\u00097\" === String.fromCharCode(\"9\") + \"7\"",
-                  "raw": "'#9: \"\\\\u00097\" === String.fromCharCode(\"9\") + \"7\"'"
+                  "raw": "'#9: \"\\\\u00097\" === String.fromCharCode(\"9\") + \"7\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -898,7 +970,9 @@
           "start": 1621,
           "end": 1630,
           "value": "\n6",
-          "raw": "\"\\u000A6\""
+          "raw": "\"\\u000A6\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -934,7 +1008,9 @@
                 "start": 1655,
                 "end": 1659,
                 "value": "10",
-                "raw": "\"10\""
+                "raw": "\"10\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -945,7 +1021,9 @@
             "start": 1663,
             "end": 1666,
             "value": "6",
-            "raw": "\"6\""
+            "raw": "\"6\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -974,7 +1052,9 @@
                   "start": 1695,
                   "end": 1747,
                   "value": "#A: \"\\u000A6\" === String.fromCharCode(\"10\") + \"6\"",
-                  "raw": "'#A: \"\\\\u000A6\" === String.fromCharCode(\"10\") + \"6\"'"
+                  "raw": "'#A: \"\\\\u000A6\" === String.fromCharCode(\"10\") + \"6\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -996,7 +1076,9 @@
           "start": 1767,
           "end": 1776,
           "value": "\u000b5",
-          "raw": "\"\\u000B5\""
+          "raw": "\"\\u000B5\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1032,7 +1114,9 @@
                 "start": 1801,
                 "end": 1805,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1043,7 +1127,9 @@
             "start": 1809,
             "end": 1812,
             "value": "5",
-            "raw": "\"5\""
+            "raw": "\"5\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1072,7 +1158,9 @@
                   "start": 1841,
                   "end": 1893,
                   "value": "#B: \"\\u000B5\" === String.fromCharCode(\"11\") + \"5\"",
-                  "raw": "'#B: \"\\\\u000B5\" === String.fromCharCode(\"11\") + \"5\"'"
+                  "raw": "'#B: \"\\\\u000B5\" === String.fromCharCode(\"11\") + \"5\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1094,7 +1182,9 @@
           "start": 1913,
           "end": 1922,
           "value": "\f4",
-          "raw": "\"\\u000C4\""
+          "raw": "\"\\u000C4\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1130,7 +1220,9 @@
                 "start": 1947,
                 "end": 1951,
                 "value": "12",
-                "raw": "\"12\""
+                "raw": "\"12\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1141,7 +1233,9 @@
             "start": 1955,
             "end": 1958,
             "value": "4",
-            "raw": "\"4\""
+            "raw": "\"4\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1170,7 +1264,9 @@
                   "start": 1987,
                   "end": 2039,
                   "value": "#C: \"\\u000C4\" === String.fromCharCode(\"12\") + \"4\"",
-                  "raw": "'#C: \"\\\\u000C4\" === String.fromCharCode(\"12\") + \"4\"'"
+                  "raw": "'#C: \"\\\\u000C4\" === String.fromCharCode(\"12\") + \"4\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1192,7 +1288,9 @@
           "start": 2059,
           "end": 2068,
           "value": "\r3",
-          "raw": "\"\\u000D3\""
+          "raw": "\"\\u000D3\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1228,7 +1326,9 @@
                 "start": 2093,
                 "end": 2097,
                 "value": "13",
-                "raw": "\"13\""
+                "raw": "\"13\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1239,7 +1339,9 @@
             "start": 2101,
             "end": 2104,
             "value": "3",
-            "raw": "\"3\""
+            "raw": "\"3\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1268,7 +1370,9 @@
                   "start": 2133,
                   "end": 2185,
                   "value": "#D: \"\\u000D3\" === String.fromCharCode(\"13\") + \"3\"",
-                  "raw": "'#D: \"\\\\u000D3\" === String.fromCharCode(\"13\") + \"3\"'"
+                  "raw": "'#D: \"\\\\u000D3\" === String.fromCharCode(\"13\") + \"3\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1290,7 +1394,9 @@
           "start": 2205,
           "end": 2214,
           "value": "\u000e2",
-          "raw": "\"\\u000E2\""
+          "raw": "\"\\u000E2\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1326,7 +1432,9 @@
                 "start": 2239,
                 "end": 2243,
                 "value": "14",
-                "raw": "\"14\""
+                "raw": "\"14\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1337,7 +1445,9 @@
             "start": 2247,
             "end": 2250,
             "value": "2",
-            "raw": "\"2\""
+            "raw": "\"2\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1366,7 +1476,9 @@
                   "start": 2279,
                   "end": 2331,
                   "value": "#E: \"\\u000E2\" === String.fromCharCode(\"14\") + \"2\"",
-                  "raw": "'#E: \"\\\\u000E2\" === String.fromCharCode(\"14\") + \"2\"'"
+                  "raw": "'#E: \"\\\\u000E2\" === String.fromCharCode(\"14\") + \"2\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1388,7 +1500,9 @@
           "start": 2351,
           "end": 2360,
           "value": "\u000f1",
-          "raw": "\"\\u000F1\""
+          "raw": "\"\\u000F1\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -1424,7 +1538,9 @@
                 "start": 2385,
                 "end": 2389,
                 "value": "15",
-                "raw": "\"15\""
+                "raw": "\"15\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1435,7 +1551,9 @@
             "start": 2393,
             "end": 2396,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -1464,7 +1582,9 @@
                   "start": 2425,
                   "end": 2477,
                   "value": "#F: \"\\u000F1\" === String.fromCharCode(\"15\") + \"1\"",
-                  "raw": "'#F: \"\\\\u000F1\" === String.fromCharCode(\"15\") + \"1\"'"
+                  "raw": "'#F: \"\\\\u000F1\" === String.fromCharCode(\"15\") + \"1\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -73,7 +73,9 @@
                 "start": 609,
                 "end": 617,
                 "value": "errors",
-                "raw": "\"errors\""
+                "raw": "\"errors\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,7 +85,9 @@
             "start": 620,
             "end": 625,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

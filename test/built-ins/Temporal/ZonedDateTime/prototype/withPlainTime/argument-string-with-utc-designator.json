@@ -28,28 +28,36 @@
                 "start": 348,
                 "end": 370,
                 "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "raw": "\"2019-10-01T09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 401,
                 "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 421,
                 "value": "09:00:00Z[UTC]",
-                "raw": "\"09:00:00Z[UTC]\""
+                "raw": "\"09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 436,
                 "value": "09:00:00Z",
-                "raw": "\"09:00:00Z\""
+                "raw": "\"09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -102,6 +110,7 @@
                 "end": 511,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               },
               {
@@ -109,7 +118,9 @@
                 "start": 513,
                 "end": 518,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -248,7 +259,9 @@
                         "start": 631,
                         "end": 694,
                         "value": "String with UTC designator should not be valid as a PlainTime",
-                        "raw": "\"String with UTC designator should not be valid as a PlainTime\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainTime\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

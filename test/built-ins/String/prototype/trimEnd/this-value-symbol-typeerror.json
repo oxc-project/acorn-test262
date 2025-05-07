@@ -75,7 +75,9 @@
             "start": 512,
             "end": 522,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,7 +260,9 @@
             "start": 666,
             "end": 707,
             "value": "String.prototype.trimEnd.call(Symbol())",
-            "raw": "'String.prototype.trimEnd.call(Symbol())'"
+            "raw": "'String.prototype.trimEnd.call(Symbol())'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

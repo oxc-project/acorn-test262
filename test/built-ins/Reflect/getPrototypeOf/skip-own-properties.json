@@ -114,7 +114,9 @@
                             "start": 439,
                             "end": 448,
                             "value": "invalid",
-                            "raw": "'invalid'"
+                            "raw": "'invalid'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -136,7 +138,9 @@
                             "start": 466,
                             "end": 470,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -225,7 +229,9 @@
             "start": 536,
             "end": 557,
             "value": "skip own properties",
-            "raw": "'skip own properties'"
+            "raw": "'skip own properties'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

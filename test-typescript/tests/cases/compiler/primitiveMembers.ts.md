@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 9,
             "raw": "5",
-            "value": 5
+            "value": 5,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -64,7 +66,8 @@ __ESTREE_TEST__:PASS:
               "flags": "",
               "pattern": "yo"
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         }
       ],
@@ -204,7 +207,9 @@ __ESTREE_TEST__:PASS:
             "start": 70,
             "end": 71,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -510,7 +515,8 @@ __ESTREE_TEST__:PASS:
               "flags": "g",
               "pattern": "."
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         }
       ],
@@ -560,7 +566,9 @@ __ESTREE_TEST__:PASS:
             "start": 276,
             "end": 278,
             "raw": "34",
-            "value": 34
+            "value": 34,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -610,7 +618,9 @@ __ESTREE_TEST__:PASS:
             "start": 296,
             "end": 300,
             "raw": "\"yo\"",
-            "value": "yo"
+            "value": "yo",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -660,7 +670,9 @@ __ESTREE_TEST__:PASS:
             "start": 319,
             "end": 323,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -696,7 +708,9 @@ __ESTREE_TEST__:PASS:
               "start": 335,
               "end": 336,
               "raw": "5",
-              "value": 5
+              "value": 5,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "ObjectExpression",

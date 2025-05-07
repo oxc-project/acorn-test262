@@ -28,35 +28,45 @@
                 "start": 633,
                 "end": 635,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 639,
                 "end": 642,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 650,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 654,
                 "end": 665,
                 "value": "abcdefghi",
-                "raw": "\"abcdefghi\""
+                "raw": "\"abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 669,
                 "end": 684,
                 "value": "abc-abcdefghi",
-                "raw": "\"abc-abcdefghi\""
+                "raw": "\"abc-abcdefghi\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -181,7 +191,9 @@
                               "start": 814,
                               "end": 818,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

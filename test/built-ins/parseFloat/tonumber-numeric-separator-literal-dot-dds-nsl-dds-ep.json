@@ -47,7 +47,9 @@
                 "start": 526,
                 "end": 536,
                 "value": ".00_01e2",
-                "raw": "\".00_01e2\""
+                "raw": "\".00_01e2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 539,
             "end": 542,
             "value": 0,
-            "raw": ".00"
+            "raw": ".00",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

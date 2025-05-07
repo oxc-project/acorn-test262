@@ -47,14 +47,18 @@
                 "start": 298,
                 "end": 302,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 304,
                 "end": 305,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,35 +91,45 @@
                 "start": 335,
                 "end": 347,
                 "value": "-000000-06",
-                "raw": "\"-000000-06\""
+                "raw": "\"-000000-06\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 366,
                 "value": "-000000-06-24",
-                "raw": "\"-000000-06-24\""
+                "raw": "\"-000000-06-24\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 394,
                 "value": "-000000-06-24T15:43:27",
-                "raw": "\"-000000-06-24T15:43:27\""
+                "raw": "\"-000000-06-24T15:43:27\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 428,
                 "value": "-000000-06-24T15:43:27+01:00",
-                "raw": "\"-000000-06-24T15:43:27+01:00\""
+                "raw": "\"-000000-06-24T15:43:27+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 432,
                 "end": 467,
                 "value": "-000000-06-24T15:43:27+00:00[UTC]",
-                "raw": "\"-000000-06-24T15:43:27+00:00[UTC]\""
+                "raw": "\"-000000-06-24T15:43:27+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -273,7 +287,9 @@
                         "start": 596,
                         "end": 653,
                         "value": "Cannot use minus zero as extended year (first argument)",
-                        "raw": "\"Cannot use minus zero as extended year (first argument)\""
+                        "raw": "\"Cannot use minus zero as extended year (first argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -380,7 +396,9 @@
                         "start": 749,
                         "end": 807,
                         "value": "Cannot use minus zero as extended year (second argument)",
-                        "raw": "\"Cannot use minus zero as extended year (second argument)\""
+                        "raw": "\"Cannot use minus zero as extended year (second argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

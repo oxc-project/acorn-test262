@@ -23,7 +23,9 @@
             "start": 908,
             "end": 915,
             "value": 8640000000000000,
-            "raw": "8.64e15"
+            "raw": "8.64e15",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 931,
             "end": 933,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 950,
             "end": 951,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -258,7 +264,9 @@
                 "start": 1081,
                 "end": 1082,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -311,7 +319,9 @@
             "start": 1121,
             "end": 1144,
             "value": "overflow due to month",
-            "raw": "'overflow due to month'"
+            "raw": "'overflow due to month'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,7 +424,9 @@
                 "start": 1221,
                 "end": 1222,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -467,7 +479,9 @@
             "start": 1261,
             "end": 1283,
             "value": "overflow due to date",
-            "raw": "'overflow due to date'"
+            "raw": "'overflow due to date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

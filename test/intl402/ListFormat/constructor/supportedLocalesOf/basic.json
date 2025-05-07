@@ -75,14 +75,18 @@
             "start": 392,
             "end": 402,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 462,
             "value": "supportedLocalesOf should be supported.",
-            "raw": "\"supportedLocalesOf should be supported.\""
+            "raw": "\"supportedLocalesOf should be supported.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +189,9 @@
             "start": 557,
             "end": 562,
             "value": "zxx",
-            "raw": "'zxx'"
+            "raw": "'zxx'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -346,14 +352,18 @@
             "start": 769,
             "end": 770,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 820,
             "value": "The length of supported locales list is not 1.",
-            "raw": "'The length of supported locales list is not 1.'"
+            "raw": "'The length of supported locales list is not 1.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,7 +412,9 @@
               "start": 857,
               "end": 858,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -418,7 +430,9 @@
             "start": 876,
             "end": 935,
             "value": "The default locale is not returned in the supported list.",
-            "raw": "'The default locale is not returned in the supported list.'"
+            "raw": "'The default locale is not returned in the supported list.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

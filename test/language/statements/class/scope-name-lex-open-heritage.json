@@ -52,7 +52,9 @@
                       "start": 821,
                       "end": 825,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -246,7 +248,9 @@
                           "start": 1006,
                           "end": 1010,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -390,7 +394,9 @@
             "start": 1109,
             "end": 1119,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +466,9 @@
             "start": 1167,
             "end": 1171,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -518,7 +526,9 @@
             "start": 1213,
             "end": 1243,
             "value": "inner binding is independent",
-            "raw": "'inner binding is independent'"
+            "raw": "'inner binding is independent'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,7 +579,9 @@
             "start": 1287,
             "end": 1323,
             "value": "inner binding rejects modification",
-            "raw": "'inner binding rejects modification'"
+            "raw": "'inner binding rejects modification'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -628,14 +640,18 @@
             "start": 1371,
             "end": 1381,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1383,
             "end": 1411,
             "value": "inner binding is immutable",
-            "raw": "'inner binding is immutable'"
+            "raw": "'inner binding is immutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -720,14 +736,18 @@
             "start": 1466,
             "end": 1476,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1478,
             "end": 1500,
             "value": "from instance method",
-            "raw": "'from instance method'"
+            "raw": "'from instance method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

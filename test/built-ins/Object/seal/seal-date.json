@@ -47,7 +47,9 @@
                 "start": 1179,
                 "end": 1180,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

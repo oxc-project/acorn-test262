@@ -243,7 +243,9 @@ __ESTREE_TEST__:PASS:
                         "start": 173,
                         "end": 174,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       },
                       "expression": true,
                       "generator": false,

@@ -100,7 +100,9 @@
             "start": 381,
             "end": 463,
             "value": "Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat",
-            "raw": "\"Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat\""
+            "raw": "\"Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

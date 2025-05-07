@@ -54,7 +54,9 @@ __ESTREE_TEST__:PASS:
                       "start": 45,
                       "end": 46,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -164,7 +166,9 @@ __ESTREE_TEST__:PASS:
                       "start": 122,
                       "end": 123,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -274,7 +278,9 @@ __ESTREE_TEST__:PASS:
                       "start": 210,
                       "end": 211,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -384,7 +390,9 @@ __ESTREE_TEST__:PASS:
                       "start": 306,
                       "end": 307,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -494,7 +502,9 @@ __ESTREE_TEST__:PASS:
                       "start": 399,
                       "end": 400,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -604,7 +614,9 @@ __ESTREE_TEST__:PASS:
                       "start": 503,
                       "end": 504,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -714,7 +726,9 @@ __ESTREE_TEST__:PASS:
                       "start": 598,
                       "end": 599,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -824,7 +838,9 @@ __ESTREE_TEST__:PASS:
                       "start": 685,
                       "end": 686,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -934,7 +950,9 @@ __ESTREE_TEST__:PASS:
                       "start": 783,
                       "end": 784,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -1071,7 +1089,9 @@ __ESTREE_TEST__:PASS:
                         "start": 876,
                         "end": 877,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1111,7 +1131,9 @@ __ESTREE_TEST__:PASS:
                         "start": 910,
                         "end": 911,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1151,7 +1173,9 @@ __ESTREE_TEST__:PASS:
                         "start": 942,
                         "end": 943,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1191,7 +1215,9 @@ __ESTREE_TEST__:PASS:
                         "start": 976,
                         "end": 977,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1231,7 +1257,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1013,
                         "end": 1014,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1271,7 +1299,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1048,
                         "end": 1049,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1311,7 +1341,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1080,
                         "end": 1081,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1351,7 +1383,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1115,
                         "end": 1116,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1391,7 +1425,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1148,
                         "end": 1149,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1737,7 +1773,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1494,
                         "end": 1495,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1777,7 +1815,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1529,
                         "end": 1530,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1817,7 +1857,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1562,
                         "end": 1563,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1857,7 +1899,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1597,
                         "end": 1598,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1897,7 +1941,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1635,
                         "end": 1636,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1937,7 +1983,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1671,
                         "end": 1672,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1977,7 +2025,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1704,
                         "end": 1705,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2017,7 +2067,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1740,
                         "end": 1741,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2057,7 +2109,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1774,
                         "end": 1775,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -2166,7 +2220,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1857,
                         "end": 1858,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2206,7 +2262,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1891,
                         "end": 1892,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2246,7 +2304,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1923,
                         "end": 1924,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2286,7 +2346,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1957,
                         "end": 1958,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2326,7 +2388,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1994,
                         "end": 1995,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2366,7 +2430,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2029,
                         "end": 2030,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2406,7 +2472,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2061,
                         "end": 2062,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2446,7 +2514,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2096,
                         "end": 2097,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2486,7 +2556,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2129,
                         "end": 2130,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2832,7 +2904,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2475,
                         "end": 2476,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2872,7 +2946,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2510,
                         "end": 2511,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2912,7 +2988,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2543,
                         "end": 2544,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2952,7 +3030,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2578,
                         "end": 2579,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -2992,7 +3072,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2616,
                         "end": 2617,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -3032,7 +3114,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2652,
                         "end": 2653,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -3072,7 +3156,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2685,
                         "end": 2686,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -3112,7 +3198,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2721,
                         "end": 2722,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -3152,7 +3240,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2755,
                         "end": 2756,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -3322,7 +3412,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2849,
                 "end": 2850,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3366,7 +3458,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2879,
                 "end": 2880,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3410,7 +3504,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2907,
                 "end": 2908,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3454,7 +3550,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2937,
                 "end": 2938,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3498,7 +3596,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2970,
                 "end": 2971,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3542,7 +3642,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3001,
                 "end": 3002,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3586,7 +3688,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3029,
                 "end": 3030,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3630,7 +3734,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3060,
                 "end": 3061,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -3674,7 +3780,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3089,
                 "end": 3090,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4060,7 +4168,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3395,
                 "end": 3396,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4104,7 +4214,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3426,
                 "end": 3427,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4148,7 +4260,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3455,
                 "end": 3456,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4192,7 +4306,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3486,
                 "end": 3487,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4236,7 +4352,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3520,
                 "end": 3521,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4280,7 +4398,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3552,
                 "end": 3553,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4324,7 +4444,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3581,
                 "end": 3582,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4368,7 +4490,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3613,
                 "end": 3614,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4412,7 +4536,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3643,
                 "end": 3644,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4456,7 +4582,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3672,
                 "end": 3673,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4500,7 +4628,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3703,
                 "end": 3704,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4544,7 +4674,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3732,
                 "end": 3733,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4588,7 +4720,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3763,
                 "end": 3764,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4632,7 +4766,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3797,
                 "end": 3798,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4676,7 +4812,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3829,
                 "end": 3830,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4720,7 +4858,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3858,
                 "end": 3859,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4764,7 +4904,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3890,
                 "end": 3891,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -4808,7 +4950,9 @@ __ESTREE_TEST__:PASS:
                 "start": 3920,
                 "end": 3921,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5194,7 +5338,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4236,
                 "end": 4237,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5238,7 +5384,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4268,
                 "end": 4269,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5282,7 +5430,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4298,
                 "end": 4299,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5326,7 +5476,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4330,
                 "end": 4331,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5370,7 +5522,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4365,
                 "end": 4366,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5414,7 +5568,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4398,
                 "end": 4399,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5458,7 +5614,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4428,
                 "end": 4429,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5502,7 +5660,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4461,
                 "end": 4462,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -5546,7 +5706,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4492,
                 "end": 4493,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           }

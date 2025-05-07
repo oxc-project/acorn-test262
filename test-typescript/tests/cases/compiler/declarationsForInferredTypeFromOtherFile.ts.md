@@ -81,7 +81,9 @@ __ESTREE_TEST__:PASS:
                   "start": 58,
                   "end": 62,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -122,7 +124,9 @@ __ESTREE_TEST__:PASS:
                 "start": 30,
                 "end": 39,
                 "raw": "\"./file1\"",
-                "value": "./file1"
+                "value": "./file1",
+                "regex": null,
+                "bigint": null
               }
             },
             "options": null,
@@ -167,7 +171,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 27,
         "raw": "\"./file2\"",
-        "value": "./file2"
+        "value": "./file2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

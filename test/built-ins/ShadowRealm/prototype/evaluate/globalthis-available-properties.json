@@ -75,14 +75,18 @@
             "start": 1251,
             "end": 1261,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1265,
             "end": 1338,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -144,406 +148,522 @@
                 "start": 1394,
                 "end": 1406,
                 "value": "globalThis",
-                "raw": "'globalThis'"
+                "raw": "'globalThis'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1410,
                 "end": 1420,
                 "value": "Infinity",
-                "raw": "'Infinity'"
+                "raw": "'Infinity'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1424,
                 "end": 1429,
                 "value": "NaN",
-                "raw": "'NaN'"
+                "raw": "'NaN'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1433,
                 "end": 1444,
                 "value": "undefined",
-                "raw": "'undefined'"
+                "raw": "'undefined'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1448,
                 "end": 1454,
                 "value": "eval",
-                "raw": "'eval'"
+                "raw": "'eval'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1458,
                 "end": 1468,
                 "value": "isFinite",
-                "raw": "'isFinite'"
+                "raw": "'isFinite'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1472,
                 "end": 1479,
                 "value": "isNaN",
-                "raw": "'isNaN'"
+                "raw": "'isNaN'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1483,
                 "end": 1495,
                 "value": "parseFloat",
-                "raw": "'parseFloat'"
+                "raw": "'parseFloat'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1499,
                 "end": 1509,
                 "value": "parseInt",
-                "raw": "'parseInt'"
+                "raw": "'parseInt'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1513,
                 "end": 1524,
                 "value": "decodeURI",
-                "raw": "'decodeURI'"
+                "raw": "'decodeURI'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1528,
                 "end": 1548,
                 "value": "decodeURIComponent",
-                "raw": "'decodeURIComponent'"
+                "raw": "'decodeURIComponent'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1552,
                 "end": 1563,
                 "value": "encodeURI",
-                "raw": "'encodeURI'"
+                "raw": "'encodeURI'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1567,
                 "end": 1587,
                 "value": "encodeURIComponent",
-                "raw": "'encodeURIComponent'"
+                "raw": "'encodeURIComponent'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1591,
                 "end": 1607,
                 "value": "AggregateError",
-                "raw": "'AggregateError'"
+                "raw": "'AggregateError'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1611,
                 "end": 1618,
                 "value": "Array",
-                "raw": "'Array'"
+                "raw": "'Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1622,
                 "end": 1635,
                 "value": "ArrayBuffer",
-                "raw": "'ArrayBuffer'"
+                "raw": "'ArrayBuffer'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1639,
                 "end": 1647,
                 "value": "BigInt",
-                "raw": "'BigInt'"
+                "raw": "'BigInt'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1651,
                 "end": 1666,
                 "value": "BigInt64Array",
-                "raw": "'BigInt64Array'"
+                "raw": "'BigInt64Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1670,
                 "end": 1686,
                 "value": "BigUint64Array",
-                "raw": "'BigUint64Array'"
+                "raw": "'BigUint64Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1690,
                 "end": 1699,
                 "value": "Boolean",
-                "raw": "'Boolean'"
+                "raw": "'Boolean'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1703,
                 "end": 1713,
                 "value": "DataView",
-                "raw": "'DataView'"
+                "raw": "'DataView'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1717,
                 "end": 1723,
                 "value": "Date",
-                "raw": "'Date'"
+                "raw": "'Date'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1727,
                 "end": 1734,
                 "value": "Error",
-                "raw": "'Error'"
+                "raw": "'Error'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1738,
                 "end": 1749,
                 "value": "EvalError",
-                "raw": "'EvalError'"
+                "raw": "'EvalError'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1753,
                 "end": 1775,
                 "value": "FinalizationRegistry",
-                "raw": "'FinalizationRegistry'"
+                "raw": "'FinalizationRegistry'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1779,
                 "end": 1793,
                 "value": "Float16Array",
-                "raw": "'Float16Array'"
+                "raw": "'Float16Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1797,
                 "end": 1811,
                 "value": "Float32Array",
-                "raw": "'Float32Array'"
+                "raw": "'Float32Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1815,
                 "end": 1829,
                 "value": "Float64Array",
-                "raw": "'Float64Array'"
+                "raw": "'Float64Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1833,
                 "end": 1843,
                 "value": "Function",
-                "raw": "'Function'"
+                "raw": "'Function'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1847,
                 "end": 1858,
                 "value": "Int8Array",
-                "raw": "'Int8Array'"
+                "raw": "'Int8Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1862,
                 "end": 1874,
                 "value": "Int16Array",
-                "raw": "'Int16Array'"
+                "raw": "'Int16Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1878,
                 "end": 1890,
                 "value": "Int32Array",
-                "raw": "'Int32Array'"
+                "raw": "'Int32Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1894,
                 "end": 1899,
                 "value": "Map",
-                "raw": "'Map'"
+                "raw": "'Map'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1903,
                 "end": 1911,
                 "value": "Number",
-                "raw": "'Number'"
+                "raw": "'Number'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1915,
                 "end": 1923,
                 "value": "Object",
-                "raw": "'Object'"
+                "raw": "'Object'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1927,
                 "end": 1936,
                 "value": "Promise",
-                "raw": "'Promise'"
+                "raw": "'Promise'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1940,
                 "end": 1947,
                 "value": "Proxy",
-                "raw": "'Proxy'"
+                "raw": "'Proxy'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1951,
                 "end": 1963,
                 "value": "RangeError",
-                "raw": "'RangeError'"
+                "raw": "'RangeError'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1967,
                 "end": 1983,
                 "value": "ReferenceError",
-                "raw": "'ReferenceError'"
+                "raw": "'ReferenceError'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1987,
                 "end": 1995,
                 "value": "RegExp",
-                "raw": "'RegExp'"
+                "raw": "'RegExp'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1999,
                 "end": 2004,
                 "value": "Set",
-                "raw": "'Set'"
+                "raw": "'Set'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2008,
                 "end": 2027,
                 "value": "SharedArrayBuffer",
-                "raw": "'SharedArrayBuffer'"
+                "raw": "'SharedArrayBuffer'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2031,
                 "end": 2039,
                 "value": "String",
-                "raw": "'String'"
+                "raw": "'String'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2043,
                 "end": 2051,
                 "value": "Symbol",
-                "raw": "'Symbol'"
+                "raw": "'Symbol'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2055,
                 "end": 2068,
                 "value": "SyntaxError",
-                "raw": "'SyntaxError'"
+                "raw": "'SyntaxError'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2072,
                 "end": 2083,
                 "value": "TypeError",
-                "raw": "'TypeError'"
+                "raw": "'TypeError'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2087,
                 "end": 2099,
                 "value": "Uint8Array",
-                "raw": "'Uint8Array'"
+                "raw": "'Uint8Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2103,
                 "end": 2122,
                 "value": "Uint8ClampedArray",
-                "raw": "'Uint8ClampedArray'"
+                "raw": "'Uint8ClampedArray'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2126,
                 "end": 2139,
                 "value": "Uint16Array",
-                "raw": "'Uint16Array'"
+                "raw": "'Uint16Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2143,
                 "end": 2156,
                 "value": "Uint32Array",
-                "raw": "'Uint32Array'"
+                "raw": "'Uint32Array'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2160,
                 "end": 2170,
                 "value": "URIError",
-                "raw": "'URIError'"
+                "raw": "'URIError'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2174,
                 "end": 2183,
                 "value": "WeakMap",
-                "raw": "'WeakMap'"
+                "raw": "'WeakMap'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2187,
                 "end": 2196,
                 "value": "WeakRef",
-                "raw": "'WeakRef'"
+                "raw": "'WeakRef'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2200,
                 "end": 2209,
                 "value": "WeakSet",
-                "raw": "'WeakSet'"
+                "raw": "'WeakSet'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2213,
                 "end": 2222,
                 "value": "Atomics",
-                "raw": "'Atomics'"
+                "raw": "'Atomics'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2226,
                 "end": 2232,
                 "value": "JSON",
-                "raw": "'JSON'"
+                "raw": "'JSON'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2236,
                 "end": 2242,
                 "value": "Math",
-                "raw": "'Math'"
+                "raw": "'Math'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2246,
                 "end": 2255,
                 "value": "Reflect",
-                "raw": "'Reflect'"
+                "raw": "'Reflect'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

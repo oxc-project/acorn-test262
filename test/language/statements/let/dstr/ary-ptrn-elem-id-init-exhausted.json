@@ -32,7 +32,9 @@
                   "start": 1262,
                   "end": 1264,
                   "value": 23,
-                  "raw": "23"
+                  "raw": "23",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -86,7 +88,9 @@
             "start": 1293,
             "end": 1295,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

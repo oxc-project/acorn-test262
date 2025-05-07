@@ -23,7 +23,9 @@
             "start": 247,
             "end": 253,
             "value": "C3PO",
-            "raw": "\"C3PO\""
+            "raw": "\"C3PO\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +88,9 @@
                       "start": 323,
                       "end": 324,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -236,7 +240,9 @@
                     "start": 562,
                     "end": 632,
                     "value": "#1: __FUNC()()(__ROBOT) === __ROBOT. Actual: __FUNC()()(__ROBOT) ===",
-                    "raw": "'#1: __FUNC()()(__ROBOT) === __ROBOT. Actual: __FUNC()()(__ROBOT) ==='"
+                    "raw": "'#1: __FUNC()()(__ROBOT) === __ROBOT. Actual: __FUNC()()(__ROBOT) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

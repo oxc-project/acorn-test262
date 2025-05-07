@@ -23,7 +23,9 @@
             "start": 290,
             "end": 291,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -38,7 +40,9 @@
         "start": 297,
         "end": 302,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -60,7 +64,9 @@
             "start": 308,
             "end": 309,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -86,7 +92,9 @@
           "start": 320,
           "end": 321,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -114,7 +122,9 @@
                   "start": 350,
                   "end": 408,
                   "value": "#1: Check If Statement for automatic semicolon insertion",
-                  "raw": "'#1: Check If Statement for automatic semicolon insertion'"
+                  "raw": "'#1: Check If Statement for automatic semicolon insertion'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

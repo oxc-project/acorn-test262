@@ -84,7 +84,9 @@
                         "start": 302,
                         "end": 306,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

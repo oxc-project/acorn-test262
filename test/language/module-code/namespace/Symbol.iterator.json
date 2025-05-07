@@ -25,7 +25,9 @@
         "start": 298,
         "end": 320,
         "value": "./Symbol.iterator.js",
-        "raw": "'./Symbol.iterator.js'"
+        "raw": "'./Symbol.iterator.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -140,7 +142,9 @@
             "start": 399,
             "end": 404,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

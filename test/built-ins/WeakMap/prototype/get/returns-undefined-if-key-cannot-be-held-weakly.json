@@ -91,7 +91,9 @@
                 "start": 434,
                 "end": 438,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -107,7 +109,9 @@
             "start": 452,
             "end": 486,
             "value": "Returns undefined if key is null",
-            "raw": "'Returns undefined if key is null'"
+            "raw": "'Returns undefined if key is null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +189,9 @@
             "start": 532,
             "end": 565,
             "value": "Returns undefined if key is NaN",
-            "raw": "'Returns undefined if key is NaN'"
+            "raw": "'Returns undefined if key is NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +254,9 @@
                 "start": 597,
                 "end": 602,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -264,7 +272,9 @@
             "start": 618,
             "end": 656,
             "value": "Returns undefined if key is a String",
-            "raw": "'Returns undefined if key is a String'"
+            "raw": "'Returns undefined if key is a String'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,7 +337,9 @@
                 "start": 689,
                 "end": 690,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -343,7 +355,9 @@
             "start": 706,
             "end": 744,
             "value": "Returns undefined if key is a Number",
-            "raw": "'Returns undefined if key is a Number'"
+            "raw": "'Returns undefined if key is a Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -421,7 +435,9 @@
             "start": 802,
             "end": 841,
             "value": "Returns undefined if key is undefined",
-            "raw": "'Returns undefined if key is undefined'"
+            "raw": "'Returns undefined if key is undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,7 +524,9 @@
                     "start": 885,
                     "end": 904,
                     "value": "registered symbol",
-                    "raw": "'registered symbol'"
+                    "raw": "'registered symbol'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -527,7 +545,9 @@
             "start": 921,
             "end": 970,
             "value": "Returns undefined if key is a registered Symbol",
-            "raw": "'Returns undefined if key is a registered Symbol'"
+            "raw": "'Returns undefined if key is a registered Symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

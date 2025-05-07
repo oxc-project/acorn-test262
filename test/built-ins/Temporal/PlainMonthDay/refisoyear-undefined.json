@@ -28,21 +28,27 @@
                 "start": 278,
                 "end": 279,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 281,
                 "end": 282,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 284,
                 "end": 293,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -193,7 +199,9 @@
                               "start": 435,
                               "end": 443,
                               "value": "always",
-                              "raw": "\"always\""
+                              "raw": "\"always\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -217,14 +225,18 @@
                     "start": 453,
                     "end": 454,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 456,
                     "end": 457,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -275,14 +287,18 @@
             "start": 495,
             "end": 499,
             "value": 1972,
-            "raw": "1972"
+            "raw": "1972",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 535,
             "value": "default referenceISOYear is 1972",
-            "raw": "\"default referenceISOYear is 1972\""
+            "raw": "\"default referenceISOYear is 1972\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -425,7 +441,9 @@
                               "start": 666,
                               "end": 674,
                               "value": "always",
-                              "raw": "\"always\""
+                              "raw": "\"always\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -449,14 +467,18 @@
                     "start": 684,
                     "end": 685,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 687,
                     "end": 688,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -507,14 +529,18 @@
             "start": 726,
             "end": 730,
             "value": 1972,
-            "raw": "1972"
+            "raw": "1972",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 766,
             "value": "default referenceISOYear is 1972",
-            "raw": "\"default referenceISOYear is 1972\""
+            "raw": "\"default referenceISOYear is 1972\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

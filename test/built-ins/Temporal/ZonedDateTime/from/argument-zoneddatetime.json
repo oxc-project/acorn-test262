@@ -48,6 +48,7 @@
                 "end": 331,
                 "value": null,
                 "raw": "946684800_000_000_010n",
+                "regex": null,
                 "bigint": "946684800000000010"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 333,
                 "end": 338,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -181,6 +184,7 @@
             "end": 456,
             "value": null,
             "raw": "946684800_000_000_010n",
+            "regex": null,
             "bigint": "946684800000000010"
           },
           {
@@ -188,7 +192,9 @@
             "start": 458,
             "end": 483,
             "value": "ZonedDateTime is copied",
-            "raw": "\"ZonedDateTime is copied\""
+            "raw": "\"ZonedDateTime is copied\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +271,9 @@
             "start": 535,
             "end": 558,
             "value": "time zone is the same",
-            "raw": "\"time zone is the same\""
+            "raw": "\"time zone is the same\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -342,7 +350,9 @@
             "start": 614,
             "end": 636,
             "value": "calendar is the same",
-            "raw": "\"calendar is the same\""
+            "raw": "\"calendar is the same\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -393,7 +403,9 @@
             "start": 681,
             "end": 766,
             "value": "When a ZonedDateTime is given, the returned value is not the original ZonedDateTime",
-            "raw": "\"When a ZonedDateTime is given, the returned value is not the original ZonedDateTime\""
+            "raw": "\"When a ZonedDateTime is given, the returned value is not the original ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

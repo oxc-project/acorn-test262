@@ -23,7 +23,9 @@
             "start": 283,
             "end": 301,
             "value": "1970-01-01T00:00",
-            "raw": "\"1970-01-01T00:00\""
+            "raw": "\"1970-01-01T00:00\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +126,9 @@
             "start": 363,
             "end": 404,
             "value": "bare date-time string is not an instant",
-            "raw": "\"bare date-time string is not an instant\""
+            "raw": "\"bare date-time string is not an instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +154,9 @@
           "start": 413,
           "end": 436,
           "value": "1970-01-01T00:00[UTC]",
-          "raw": "\"1970-01-01T00:00[UTC]\""
+          "raw": "\"1970-01-01T00:00[UTC]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -249,7 +255,9 @@
             "start": 498,
             "end": 545,
             "value": "date-time + IANA annotation is not an instant",
-            "raw": "\"date-time + IANA annotation is not an instant\""
+            "raw": "\"date-time + IANA annotation is not an instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,7 +283,9 @@
           "start": 555,
           "end": 574,
           "value": "1970-01-01T00:00Z",
-          "raw": "\"1970-01-01T00:00Z\""
+          "raw": "\"1970-01-01T00:00Z\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -397,6 +407,7 @@
             "end": 665,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -404,7 +415,9 @@
             "start": 667,
             "end": 703,
             "value": "date-time + Z preserves exact time",
-            "raw": "\"date-time + Z preserves exact time\""
+            "raw": "\"date-time + Z preserves exact time\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +443,9 @@
           "start": 713,
           "end": 737,
           "value": "1970-01-01T00:00+01:00",
-          "raw": "\"1970-01-01T00:00+01:00\""
+          "raw": "\"1970-01-01T00:00+01:00\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -558,6 +573,7 @@
               "end": 844,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -566,7 +582,9 @@
             "start": 846,
             "end": 899,
             "value": "date-time + offset preserves exact time with offset",
-            "raw": "\"date-time + offset preserves exact time with offset\""
+            "raw": "\"date-time + offset preserves exact time with offset\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -592,7 +610,9 @@
           "start": 909,
           "end": 941,
           "value": "1970-01-01T00:00Z[Etc/Ignored]",
-          "raw": "\"1970-01-01T00:00Z[Etc/Ignored]\""
+          "raw": "\"1970-01-01T00:00Z[Etc/Ignored]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -714,6 +734,7 @@
             "end": 1032,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -721,7 +742,9 @@
             "start": 1034,
             "end": 1095,
             "value": "date-time + Z + IANA annotation ignores the IANA annotation",
-            "raw": "\"date-time + Z + IANA annotation ignores the IANA annotation\""
+            "raw": "\"date-time + Z + IANA annotation ignores the IANA annotation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -747,7 +770,9 @@
           "start": 1105,
           "end": 1142,
           "value": "1970-01-01T00:00+01:00[Etc/Ignored]",
-          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored]\""
+          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -875,6 +900,7 @@
               "end": 1249,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -883,7 +909,9 @@
             "start": 1251,
             "end": 1317,
             "value": "date-time + offset + IANA annotation ignores the IANA annotation",
-            "raw": "\"date-time + offset + IANA annotation ignores the IANA annotation\""
+            "raw": "\"date-time + offset + IANA annotation ignores the IANA annotation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -909,7 +937,9 @@
           "start": 1327,
           "end": 1359,
           "value": "1970-01-01T00:00Z[u-ca=hebrew]",
-          "raw": "\"1970-01-01T00:00Z[u-ca=hebrew]\""
+          "raw": "\"1970-01-01T00:00Z[u-ca=hebrew]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1031,6 +1061,7 @@
             "end": 1450,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -1038,7 +1069,9 @@
             "start": 1452,
             "end": 1499,
             "value": "date-time + Z + Calendar ignores the Calendar",
-            "raw": "\"date-time + Z + Calendar ignores the Calendar\""
+            "raw": "\"date-time + Z + Calendar ignores the Calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1064,7 +1097,9 @@
           "start": 1509,
           "end": 1546,
           "value": "1970-01-01T00:00+01:00[u-ca=hebrew]",
-          "raw": "\"1970-01-01T00:00+01:00[u-ca=hebrew]\""
+          "raw": "\"1970-01-01T00:00+01:00[u-ca=hebrew]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1192,6 +1227,7 @@
               "end": 1653,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -1200,7 +1236,9 @@
             "start": 1655,
             "end": 1707,
             "value": "date-time + offset + Calendar ignores the Calendar",
-            "raw": "\"date-time + offset + Calendar ignores the Calendar\""
+            "raw": "\"date-time + offset + Calendar ignores the Calendar\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1226,7 +1264,9 @@
           "start": 1717,
           "end": 1767,
           "value": "1970-01-01T00:00+01:00[Etc/Ignored][u-ca=hebrew]",
-          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored][u-ca=hebrew]\""
+          "raw": "\"1970-01-01T00:00+01:00[Etc/Ignored][u-ca=hebrew]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1354,6 +1394,7 @@
               "end": 1874,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -1362,7 +1403,9 @@
             "start": 1876,
             "end": 1966,
             "value": "date-time + offset + IANA annotation + Calendar ignores the Calendar and IANA annotation",
-            "raw": "\"date-time + offset + IANA annotation + Calendar ignores the Calendar and IANA annotation\""
+            "raw": "\"date-time + offset + IANA annotation + Calendar ignores the Calendar and IANA annotation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

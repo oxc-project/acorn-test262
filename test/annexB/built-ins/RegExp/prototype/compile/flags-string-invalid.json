@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "abcd",
               "flags": "gi"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -114,14 +115,18 @@
                         "start": 753,
                         "end": 755,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 757,
                         "end": 762,
                         "value": "igi",
-                        "raw": "'igi'"
+                        "raw": "'igi'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -135,7 +140,9 @@
             "start": 768,
             "end": 788,
             "value": "invalid flags: igi",
-            "raw": "'invalid flags: igi'"
+            "raw": "'invalid flags: igi'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,14 +229,18 @@
                         "start": 850,
                         "end": 852,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 854,
                         "end": 858,
                         "value": "gI",
-                        "raw": "'gI'"
+                        "raw": "'gI'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -243,7 +254,9 @@
             "start": 864,
             "end": 883,
             "value": "invalid flags: gI",
-            "raw": "'invalid flags: gI'"
+            "raw": "'invalid flags: gI'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -330,14 +343,18 @@
                         "start": 945,
                         "end": 947,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 949,
                         "end": 952,
                         "value": "w",
-                        "raw": "'w'"
+                        "raw": "'w'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -351,7 +368,9 @@
             "start": 958,
             "end": 976,
             "value": "invalid flags: w",
-            "raw": "'invalid flags: w'"
+            "raw": "'invalid flags: w'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -435,14 +454,18 @@
                     "start": 1033,
                     "end": 1039,
                     "value": "abcd",
-                    "raw": "'abcd'"
+                    "raw": "'abcd'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1041,
                     "end": 1045,
                     "value": "ig",
-                    "raw": "'ig'"
+                    "raw": "'ig'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -463,7 +486,9 @@
             "start": 1061,
             "end": 1095,
             "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "raw": "'[[OriginalSource]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -526,7 +551,9 @@
                 "start": 1133,
                 "end": 1139,
                 "value": "AbCD",
-                "raw": "'AbCD'"
+                "raw": "'AbCD'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -536,14 +563,18 @@
             "start": 1142,
             "end": 1146,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1148,
             "end": 1181,
             "value": "[[RegExpMatcher]] internal slot",
-            "raw": "'[[RegExpMatcher]] internal slot'"
+            "raw": "'[[RegExpMatcher]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

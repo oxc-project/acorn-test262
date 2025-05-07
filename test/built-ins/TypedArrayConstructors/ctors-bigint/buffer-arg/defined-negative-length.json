@@ -34,7 +34,9 @@
                 "start": 635,
                 "end": 637,
                 "value": 16,
-                "raw": "16"
+                "raw": "16",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -152,7 +154,9 @@
                                     "start": 753,
                                     "end": 754,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "UnaryExpression",
@@ -165,7 +169,9 @@
                                       "start": 757,
                                       "end": 758,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -252,7 +258,9 @@
                                     "start": 828,
                                     "end": 829,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "UnaryExpression",

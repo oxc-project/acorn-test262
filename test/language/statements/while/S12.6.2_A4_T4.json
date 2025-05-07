@@ -20,7 +20,9 @@
             "start": 356,
             "end": 357,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "operator": "===",
           "right": {
@@ -28,7 +30,9 @@
             "start": 360,
             "end": 361,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         "body": {
@@ -74,7 +78,9 @@
                     "start": 435,
                     "end": 442,
                     "value": "can't",
-                    "raw": "\"can't\""
+                    "raw": "\"can't\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -93,7 +99,9 @@
                   "start": 463,
                   "end": 464,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "body": {
                   "type": "BlockStatement",
@@ -120,7 +128,9 @@
                             "start": 508,
                             "end": 513,
                             "value": "get",
-                            "raw": "\"get\""
+                            "raw": "\"get\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -152,7 +162,9 @@
                             "start": 569,
                             "end": 573,
                             "value": "no",
-                            "raw": "\"no\""
+                            "raw": "\"no\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -193,7 +205,9 @@
                     "start": 614,
                     "end": 628,
                     "value": "Satisfaction",
-                    "raw": "\"Satisfaction\""
+                    "raw": "\"Satisfaction\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -304,7 +318,9 @@
                   "start": 864,
                   "end": 931,
                   "value": "#1: Break inside do-while is allowed as its described at standard",
-                  "raw": "'#1: Break inside do-while is allowed as its described at standard'"
+                  "raw": "'#1: Break inside do-while is allowed as its described at standard'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

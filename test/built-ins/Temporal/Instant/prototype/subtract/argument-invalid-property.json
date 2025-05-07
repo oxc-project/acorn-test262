@@ -48,6 +48,7 @@
                 "end": 366,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               }
             ]
@@ -138,7 +139,9 @@
             "start": 431,
             "end": 475,
             "value": "Throws TypeError if no property is present",
-            "raw": "\"Throws TypeError if no property is present\""
+            "raw": "\"Throws TypeError if no property is present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +237,9 @@
                         "start": 546,
                         "end": 550,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -249,7 +254,9 @@
             "start": 557,
             "end": 612,
             "value": "Throws TypeError if no recognized property is present",
-            "raw": "\"Throws TypeError if no recognized property is present\""
+            "raw": "\"Throws TypeError if no recognized property is present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,7 +352,9 @@
                         "start": 679,
                         "end": 680,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -360,7 +369,9 @@
             "start": 687,
             "end": 720,
             "value": "Sign property is not recognized",
-            "raw": "\"Sign property is not recognized\""
+            "raw": "\"Sign property is not recognized\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 325,
                 "end": 338,
                 "value": "test string",
-                "raw": "\"test string\""
+                "raw": "\"test string\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,7 +85,8 @@
               "regex": {
                 "pattern": "String",
                 "flags": "i"
-              }
+              },
+              "bigint": null
             }
           ],
           "optional": false
@@ -94,7 +97,9 @@
           "start": 465,
           "end": 466,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -126,7 +131,9 @@
                     "start": 495,
                     "end": 582,
                     "value": "#1: var aString = new String(\"test string\"); aString.search(/String/i)=== 5. Actual: ",
-                    "raw": "'#1: var aString = new String(\"test string\"); aString.search(/String/i)=== 5. Actual: '"
+                    "raw": "'#1: var aString = new String(\"test string\"); aString.search(/String/i)=== 5. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -162,7 +169,8 @@
                         "regex": {
                           "pattern": "String",
                           "flags": "i"
-                        }
+                        },
+                        "bigint": null
                       }
                     ],
                     "optional": false

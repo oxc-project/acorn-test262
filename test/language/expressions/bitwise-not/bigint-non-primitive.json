@@ -54,6 +54,7 @@
                   "end": 576,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -72,6 +73,7 @@
               "end": 582,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -80,7 +82,9 @@
             "start": 584,
             "end": 617,
             "value": "The value of ~Object(1n) is -2n",
-            "raw": "'The value of ~Object(1n) is -2n'"
+            "raw": "'The value of ~Object(1n) is -2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,6 +218,7 @@
                             "end": 739,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -279,6 +284,7 @@
               "end": 785,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -287,7 +293,9 @@
             "start": 787,
             "end": 886,
             "value": "The value of ~{[Symbol.toPrimitive]: function() {return 1n;}, valueOf: err, toString: err} is -2n",
-            "raw": "'The value of ~{[Symbol.toPrimitive]: function() {return 1n;}, valueOf: err, toString: err} is -2n'"
+            "raw": "'The value of ~{[Symbol.toPrimitive]: function() {return 1n;}, valueOf: err, toString: err} is -2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,6 +377,7 @@
                             "end": 947,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -413,6 +422,7 @@
               "end": 977,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -421,7 +431,9 @@
             "start": 979,
             "end": 1051,
             "value": "The value of ~{valueOf: function() {return 1n;}, toString: err} is -2n",
-            "raw": "'The value of ~{valueOf: function() {return 1n;}, toString: err} is -2n'"
+            "raw": "'The value of ~{valueOf: function() {return 1n;}, toString: err} is -2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -503,6 +515,7 @@
                             "end": 1113,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -526,6 +539,7 @@
               "end": 1125,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -534,7 +548,9 @@
             "start": 1127,
             "end": 1185,
             "value": "The value of ~{toString: function() {return 1n;}} is -2n",
-            "raw": "'The value of ~{toString: function() {return 1n;}} is -2n'"
+            "raw": "'The value of ~{toString: function() {return 1n;}} is -2n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 10,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
         "start": 33,
         "end": 91,
         "raw": "\"./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0\"",
-        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0"
+        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -146,7 +150,9 @@ __ESTREE_TEST__:PASS:
         "start": 161,
         "end": 219,
         "raw": "\"./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0\"",
-        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0"
+        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -242,7 +248,9 @@ __ESTREE_TEST__:PASS:
         "start": 294,
         "end": 352,
         "raw": "\"./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0\"",
-        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0"
+        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -338,7 +346,9 @@ __ESTREE_TEST__:PASS:
         "start": 430,
         "end": 488,
         "raw": "\"./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0\"",
-        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0"
+        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -458,7 +468,9 @@ __ESTREE_TEST__:PASS:
         "start": 565,
         "end": 623,
         "raw": "\"./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0\"",
-        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0"
+        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -554,7 +566,9 @@ __ESTREE_TEST__:PASS:
         "start": 695,
         "end": 753,
         "raw": "\"./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0\"",
-        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0"
+        "value": "./es6ImportDefaultBindingFollowedWithNamedImport1InEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

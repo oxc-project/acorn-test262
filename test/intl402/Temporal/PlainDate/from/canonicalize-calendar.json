@@ -25,7 +25,9 @@
                 "start": 242,
                 "end": 269,
                 "value": "2024-07-02[u-ca=islamicc]",
-                "raw": "\"2024-07-02[u-ca=islamicc]\""
+                "raw": "\"2024-07-02[u-ca=islamicc]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -50,7 +52,9 @@
                       "start": 281,
                       "end": 285,
                       "value": 1445,
-                      "raw": "1445"
+                      "raw": "1445",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -72,7 +76,9 @@
                       "start": 294,
                       "end": 296,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -94,7 +100,9 @@
                       "start": 303,
                       "end": 305,
                       "value": 25,
-                      "raw": "25"
+                      "raw": "25",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -116,7 +124,9 @@
                       "start": 317,
                       "end": 327,
                       "value": "islamicc",
-                      "raw": "\"islamicc\""
+                      "raw": "\"islamicc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -272,14 +282,18 @@
                         "start": 437,
                         "end": 452,
                         "value": "islamic-civil",
-                        "raw": "\"islamic-civil\""
+                        "raw": "\"islamic-civil\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 454,
                         "end": 484,
                         "value": "calendar ID is canonicalized",
-                        "raw": "\"calendar ID is canonicalized\""
+                        "raw": "\"calendar ID is canonicalized\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

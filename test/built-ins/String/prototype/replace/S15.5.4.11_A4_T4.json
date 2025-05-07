@@ -23,7 +23,9 @@
             "start": 304,
             "end": 317,
             "value": "aBc12 dEf34",
-            "raw": "\"aBc12 dEf34\""
+            "raw": "\"aBc12 dEf34\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "([a-z]+)([0-9]+)",
               "flags": "gi"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -112,7 +115,9 @@
           "start": 490,
           "end": 503,
           "value": "12aBc 34dEf",
-          "raw": "'12aBc 34dEf'"
+          "raw": "'12aBc 34dEf'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -144,7 +149,9 @@
                     "start": 532,
                     "end": 724,
                     "value": "#1: var __str = \"aBc12 dEf34\"; var __pattern = /([a-z]+)([0-9]+)/ig; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)==='12aBc 34dEf'. Actual: ",
-                    "raw": "'#1: var __str = \"aBc12 dEf34\"; var __pattern = /([a-z]+)([0-9]+)/ig; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)===\\'12aBc 34dEf\\'. Actual: '"
+                    "raw": "'#1: var __str = \"aBc12 dEf34\"; var __pattern = /([a-z]+)([0-9]+)/ig; function __replFN() {return arguments[2] + arguments[1];}; __str.replace(__pattern, __replFN)===\\'12aBc 34dEf\\'. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -236,7 +243,9 @@
                   "start": 890,
                   "end": 891,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -257,7 +266,9 @@
                   "start": 905,
                   "end": 906,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false

@@ -75,7 +75,9 @@
           "start": 427,
           "end": 431,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -107,7 +109,9 @@
                     "start": 460,
                     "end": 513,
                     "value": "#1: -Infinity % Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#1: -Infinity % Infinity === Not-a-Number. Actual: '"
+                    "raw": "'#1: -Infinity % Infinity === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -220,7 +224,9 @@
           "start": 621,
           "end": 625,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -252,7 +258,9 @@
                     "start": 654,
                     "end": 708,
                     "value": "#2: -Infinity % -Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#2: -Infinity % -Infinity === Not-a-Number. Actual: '"
+                    "raw": "'#2: -Infinity % -Infinity === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -372,7 +380,9 @@
           "start": 817,
           "end": 821,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -404,7 +414,9 @@
                     "start": 850,
                     "end": 902,
                     "value": "#3: Infinity % Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#3: Infinity % Infinity === Not-a-Number. Actual: '"
+                    "raw": "'#3: Infinity % Infinity === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -510,7 +522,9 @@
           "start": 1009,
           "end": 1013,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -542,7 +556,9 @@
                     "start": 1042,
                     "end": 1095,
                     "value": "#4: Infinity % -Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#4: Infinity % -Infinity === Not-a-Number. Actual: '"
+                    "raw": "'#4: Infinity % -Infinity === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -631,7 +647,9 @@
                 "start": 1173,
                 "end": 1174,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -643,7 +661,9 @@
           "start": 1180,
           "end": 1184,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -675,7 +695,9 @@
                     "start": 1213,
                     "end": 1258,
                     "value": "#5: Infinity % 1 === Not-a-Number. Actual: ",
-                    "raw": "'#5: Infinity % 1 === Not-a-Number. Actual: '"
+                    "raw": "'#5: Infinity % 1 === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -698,7 +720,9 @@
                         "start": 1273,
                         "end": 1274,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -764,7 +788,9 @@
                   "start": 1329,
                   "end": 1330,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -777,7 +803,9 @@
           "start": 1336,
           "end": 1340,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -809,7 +837,9 @@
                     "start": 1369,
                     "end": 1416,
                     "value": "#6: -Infinity % -1 === Not-a-Number. Actual: ",
-                    "raw": "'#6: -Infinity % -1 === Not-a-Number. Actual: '"
+                    "raw": "'#6: -Infinity % -1 === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -845,7 +875,9 @@
                           "start": 1433,
                           "end": 1434,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -906,7 +938,9 @@
                 "start": 1488,
                 "end": 1489,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -918,7 +952,9 @@
           "start": 1495,
           "end": 1499,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -950,7 +986,9 @@
                     "start": 1528,
                     "end": 1573,
                     "value": "#7: Infinity % 1 === Not-a-Number. Actual: ",
-                    "raw": "'#7: Infinity % 1 === Not-a-Number. Actual: '"
+                    "raw": "'#7: Infinity % 1 === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -973,7 +1011,9 @@
                         "start": 1588,
                         "end": 1589,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -1039,7 +1079,9 @@
                   "start": 1644,
                   "end": 1645,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -1052,7 +1094,9 @@
           "start": 1651,
           "end": 1655,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1084,7 +1128,9 @@
                     "start": 1684,
                     "end": 1730,
                     "value": "#8: Infinity % -1 === Not-a-Number. Actual: ",
-                    "raw": "'#8: Infinity % -1 === Not-a-Number. Actual: '"
+                    "raw": "'#8: Infinity % -1 === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1113,7 +1159,9 @@
                           "start": 1746,
                           "end": 1747,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -1198,7 +1246,9 @@
           "start": 1823,
           "end": 1827,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1230,7 +1280,9 @@
                     "start": 1856,
                     "end": 1916,
                     "value": "#9: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: ",
-                    "raw": "'#9: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: '"
+                    "raw": "'#9: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1356,7 +1408,9 @@
           "start": 2025,
           "end": 2029,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1388,7 +1442,9 @@
                     "start": 2058,
                     "end": 2121,
                     "value": "#10: -Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: ",
-                    "raw": "'#10: -Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: '"
+                    "raw": "'#10: -Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1521,7 +1577,9 @@
           "start": 2231,
           "end": 2235,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1553,7 +1611,9 @@
                     "start": 2264,
                     "end": 2325,
                     "value": "#11: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: ",
-                    "raw": "'#11: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: '"
+                    "raw": "'#11: Infinity % Number.MAX_VALUE === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1679,7 +1739,9 @@
           "start": 2434,
           "end": 2438,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1711,7 +1773,9 @@
                     "start": 2467,
                     "end": 2529,
                     "value": "#12: Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: ",
-                    "raw": "'#12: Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: '"
+                    "raw": "'#12: Infinity % -Number.MAX_VALUE === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

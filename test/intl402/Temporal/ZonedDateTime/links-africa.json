@@ -28,259 +28,333 @@
                 "start": 299,
                 "end": 313,
                 "value": "Africa/Accra",
-                "raw": "\"Africa/Accra\""
+                "raw": "\"Africa/Accra\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 384,
                 "value": "Africa/Bamako",
-                "raw": "\"Africa/Bamako\""
+                "raw": "\"Africa/Bamako\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 454,
                 "value": "Africa/Banjul",
-                "raw": "\"Africa/Banjul\""
+                "raw": "\"Africa/Banjul\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 515,
                 "end": 531,
                 "value": "Africa/Conakry",
-                "raw": "\"Africa/Conakry\""
+                "raw": "\"Africa/Conakry\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 588,
                 "end": 602,
                 "value": "Africa/Dakar",
-                "raw": "\"Africa/Dakar\""
+                "raw": "\"Africa/Dakar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 660,
                 "end": 677,
                 "value": "Africa/Freetown",
-                "raw": "\"Africa/Freetown\""
+                "raw": "\"Africa/Freetown\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 740,
                 "end": 753,
                 "value": "Africa/Lome",
-                "raw": "\"Africa/Lome\""
+                "raw": "\"Africa/Lome\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 808,
                 "end": 827,
                 "value": "Africa/Nouakchott",
-                "raw": "\"Africa/Nouakchott\""
+                "raw": "\"Africa/Nouakchott\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 888,
                 "end": 908,
                 "value": "Africa/Ouagadougou",
-                "raw": "\"Africa/Ouagadougou\""
+                "raw": "\"Africa/Ouagadougou\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 971,
                 "end": 991,
                 "value": "Atlantic/St_Helena",
-                "raw": "\"Atlantic/St_Helena\""
+                "raw": "\"Atlantic/St_Helena\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1051,
                 "end": 1071,
                 "value": "Africa/Addis_Ababa",
-                "raw": "\"Africa/Addis_Ababa\""
+                "raw": "\"Africa/Addis_Ababa\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1131,
                 "end": 1146,
                 "value": "Africa/Asmara",
-                "raw": "\"Africa/Asmara\""
+                "raw": "\"Africa/Asmara\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1205,
                 "end": 1227,
                 "value": "Africa/Dar_es_Salaam",
-                "raw": "\"Africa/Dar_es_Salaam\""
+                "raw": "\"Africa/Dar_es_Salaam\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1287,
                 "end": 1304,
                 "value": "Africa/Djibouti",
-                "raw": "\"Africa/Djibouti\""
+                "raw": "\"Africa/Djibouti\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1348,
                 "end": 1364,
                 "value": "Africa/Kampala",
-                "raw": "\"Africa/Kampala\""
+                "raw": "\"Africa/Kampala\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1422,
                 "end": 1440,
                 "value": "Africa/Mogadishu",
-                "raw": "\"Africa/Mogadishu\""
+                "raw": "\"Africa/Mogadishu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1499,
                 "end": 1520,
                 "value": "Indian/Antananarivo",
-                "raw": "\"Indian/Antananarivo\""
+                "raw": "\"Indian/Antananarivo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1582,
                 "end": 1597,
                 "value": "Indian/Comoro",
-                "raw": "\"Indian/Comoro\""
+                "raw": "\"Indian/Comoro\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1639,
                 "end": 1655,
                 "value": "Indian/Mayotte",
-                "raw": "\"Indian/Mayotte\""
+                "raw": "\"Indian/Mayotte\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1698,
                 "end": 1715,
                 "value": "Africa/Blantyre",
-                "raw": "\"Africa/Blantyre\""
+                "raw": "\"Africa/Blantyre\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1772,
                 "end": 1790,
                 "value": "Africa/Bujumbura",
-                "raw": "\"Africa/Bujumbura\""
+                "raw": "\"Africa/Bujumbura\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1848,
                 "end": 1865,
                 "value": "Africa/Gaborone",
-                "raw": "\"Africa/Gaborone\""
+                "raw": "\"Africa/Gaborone\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1924,
                 "end": 1939,
                 "value": "Africa/Harare",
-                "raw": "\"Africa/Harare\""
+                "raw": "\"Africa/Harare\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1998,
                 "end": 2013,
                 "value": "Africa/Kigali",
-                "raw": "\"Africa/Kigali\""
+                "raw": "\"Africa/Kigali\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2070,
                 "end": 2089,
                 "value": "Africa/Lubumbashi",
-                "raw": "\"Africa/Lubumbashi\""
+                "raw": "\"Africa/Lubumbashi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2160,
                 "end": 2175,
                 "value": "Africa/Lusaka",
-                "raw": "\"Africa/Lusaka\""
+                "raw": "\"Africa/Lusaka\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2232,
                 "end": 2247,
                 "value": "Africa/Bangui",
-                "raw": "\"Africa/Bangui\""
+                "raw": "\"Africa/Bangui\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2322,
                 "end": 2342,
                 "value": "Africa/Brazzaville",
-                "raw": "\"Africa/Brazzaville\""
+                "raw": "\"Africa/Brazzaville\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2410,
                 "end": 2425,
                 "value": "Africa/Douala",
-                "raw": "\"Africa/Douala\""
+                "raw": "\"Africa/Douala\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2484,
                 "end": 2501,
                 "value": "Africa/Kinshasa",
-                "raw": "\"Africa/Kinshasa\""
+                "raw": "\"Africa/Kinshasa\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2581,
                 "end": 2600,
                 "value": "Africa/Libreville",
-                "raw": "\"Africa/Libreville\""
+                "raw": "\"Africa/Libreville\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2656,
                 "end": 2671,
                 "value": "Africa/Luanda",
-                "raw": "\"Africa/Luanda\""
+                "raw": "\"Africa/Luanda\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2728,
                 "end": 2743,
                 "value": "Africa/Malabo",
-                "raw": "\"Africa/Malabo\""
+                "raw": "\"Africa/Malabo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2811,
                 "end": 2826,
                 "value": "Africa/Niamey",
-                "raw": "\"Africa/Niamey\""
+                "raw": "\"Africa/Niamey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2882,
                 "end": 2901,
                 "value": "Africa/Porto-Novo",
-                "raw": "\"Africa/Porto-Novo\""
+                "raw": "\"Africa/Porto-Novo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2957,
                 "end": 2972,
                 "value": "Africa/Maseru",
-                "raw": "\"Africa/Maseru\""
+                "raw": "\"Africa/Maseru\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3030,
                 "end": 3046,
                 "value": "Africa/Mbabane",
-                "raw": "\"Africa/Mbabane\""
+                "raw": "\"Africa/Mbabane\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -369,6 +443,7 @@
                       "end": 3183,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

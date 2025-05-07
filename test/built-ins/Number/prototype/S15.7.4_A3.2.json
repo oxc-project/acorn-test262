@@ -73,7 +73,9 @@
                 "start": 327,
                 "end": 337,
                 "value": "toString",
-                "raw": "\"toString\""
+                "raw": "\"toString\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 342,
             "end": 346,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 350,
             "end": 412,
             "value": "Number.prototype.hasOwnProperty(\"toString\") must return true",
-            "raw": "'Number.prototype.hasOwnProperty(\"toString\") must return true'"
+            "raw": "'Number.prototype.hasOwnProperty(\"toString\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 53,
           "end": 57,
           "raw": "\"m2\"",
-          "value": "m2"
+          "value": "m2",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -75,14 +75,18 @@
             "start": 445,
             "end": 455,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 530,
             "value": "The value of `typeof Array.prototype.at` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +180,9 @@
                   "start": 571,
                   "end": 572,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -193,7 +199,9 @@
             "start": 586,
             "end": 614,
             "value": "a.at(-2) returns undefined",
-            "raw": "'a.at(-2) returns undefined'"
+            "raw": "'a.at(-2) returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,7 +264,9 @@
                 "start": 662,
                 "end": 663,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -272,7 +282,9 @@
             "start": 677,
             "end": 704,
             "value": "a.at(0) returns undefined",
-            "raw": "'a.at(0) returns undefined'"
+            "raw": "'a.at(0) returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,7 +347,9 @@
                 "start": 729,
                 "end": 730,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -351,7 +365,9 @@
             "start": 744,
             "end": 771,
             "value": "a.at(1) returns undefined",
-            "raw": "'a.at(1) returns undefined'"
+            "raw": "'a.at(1) returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

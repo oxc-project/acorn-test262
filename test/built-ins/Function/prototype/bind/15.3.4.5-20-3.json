@@ -157,7 +157,9 @@
                       "start": 372,
                       "end": 374,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

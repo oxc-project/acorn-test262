@@ -103,7 +103,9 @@
             "start": 668,
             "end": 669,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -315,14 +317,18 @@
             "start": 824,
             "end": 825,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 872,
             "value": "it fails after fetching the primitive value",
-            "raw": "\"it fails after fetching the primitive value\""
+            "raw": "\"it fails after fetching the primitive value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

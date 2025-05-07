@@ -23,7 +23,9 @@
             "start": 533,
             "end": 534,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 554,
             "end": 555,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 571,
             "end": 572,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 591,
             "end": 592,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -131,7 +139,9 @@
               "start": 608,
               "end": 609,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -411,7 +421,9 @@
                       "start": 1414,
                       "end": 1415,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -585,7 +597,9 @@
               "start": 1608,
               "end": 1609,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -685,7 +699,9 @@
                   "start": 1728,
                   "end": 1729,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -851,7 +867,9 @@
                   "start": 2087,
                   "end": 2088,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -884,7 +902,9 @@
               "start": 2155,
               "end": 2156,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -946,7 +966,9 @@
                   "start": 2193,
                   "end": 2194,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -1016,7 +1038,9 @@
                         "start": 2247,
                         "end": 2248,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1029,7 +1053,9 @@
                 "start": 2255,
                 "end": 2256,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "body": {
@@ -1077,7 +1103,9 @@
                   "start": 2287,
                   "end": 2288,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1088,7 +1116,9 @@
                     "start": 2309,
                     "end": 2369,
                     "value": "Atomics.notify(i32a, WAIT_INDEX, 1) returns 1, at index = ",
-                    "raw": "'Atomics.notify(i32a, WAIT_INDEX, 1) returns 1, at index = '"
+                    "raw": "'Atomics.notify(i32a, WAIT_INDEX, 1) returns 1, at index = '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1174,7 +1204,9 @@
                   "start": 2420,
                   "end": 2424,
                   "value": "ok",
-                  "raw": "'ok'"
+                  "raw": "'ok'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1185,7 +1217,9 @@
                     "start": 2445,
                     "end": 2495,
                     "value": "$262.agent.getReport() returns \"ok\", at index = ",
-                    "raw": "'$262.agent.getReport() returns \"ok\", at index = '"
+                    "raw": "'$262.agent.getReport() returns \"ok\", at index = '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1298,7 +1332,9 @@
                       "start": 2577,
                       "end": 2632,
                       "value": "$262.agent.getReport() returns the value of `started[",
-                      "raw": "'$262.agent.getReport() returns the value of `started['"
+                      "raw": "'$262.agent.getReport() returns the value of `started['",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -1314,7 +1350,9 @@
                     "start": 2639,
                     "end": 2643,
                     "value": "]`",
-                    "raw": "']`'"
+                    "raw": "']`'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

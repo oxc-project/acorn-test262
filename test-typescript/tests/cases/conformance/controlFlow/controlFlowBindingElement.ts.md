@@ -57,7 +57,9 @@ __ESTREE_TEST__:PASS:
                       "start": 29,
                       "end": 36,
                       "raw": "'value'",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -146,7 +148,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 94,
                                       "end": 116,
                                       "raw": "'param is not defined'",
-                                      "value": "param is not defined"
+                                      "value": "param is not defined",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "callee": {
@@ -296,7 +300,9 @@ __ESTREE_TEST__:PASS:
                       "start": 255,
                       "end": 262,
                       "raw": "'value'",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -351,7 +357,9 @@ __ESTREE_TEST__:PASS:
                 "start": 301,
                 "end": 303,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -437,7 +445,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 358,
                                       "end": 380,
                                       "raw": "'param is not defined'",
-                                      "value": "param is not defined"
+                                      "value": "param is not defined",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "callee": {
@@ -553,7 +563,9 @@ __ESTREE_TEST__:PASS:
                       "start": 471,
                       "end": 478,
                       "raw": "'value'",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -608,7 +620,9 @@ __ESTREE_TEST__:PASS:
                 "start": 517,
                 "end": 519,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -811,7 +825,9 @@ __ESTREE_TEST__:PASS:
                       "start": 673,
                       "end": 680,
                       "raw": "'value'",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -866,7 +882,9 @@ __ESTREE_TEST__:PASS:
                 "start": 719,
                 "end": 721,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -952,14 +970,18 @@ __ESTREE_TEST__:PASS:
                                     "start": 767,
                                     "end": 769,
                                     "raw": "\"\"",
-                                    "value": ""
+                                    "value": "",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "right": {
                                     "type": "Literal",
                                     "start": 772,
                                     "end": 773,
                                     "raw": "1",
-                                    "value": 1
+                                    "value": 1,
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -1283,7 +1305,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 1009,
                                   "end": 1011,
                                   "raw": "\"\"",
-                                  "value": ""
+                                  "value": "",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -1300,7 +1324,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 1020,
                                   "end": 1028,
                                   "raw": "'window'",
-                                  "value": "window"
+                                  "value": "window",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "typeAnnotation": {
                                   "type": "TSTypeReference",
@@ -1375,7 +1401,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1072,
                                         "end": 1080,
                                         "raw": "'window'",
-                                        "value": "window"
+                                        "value": "window",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "typeAnnotation": {
                                         "type": "TSTypeReference",
@@ -1718,7 +1746,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 1328,
                                   "end": 1336,
                                   "raw": "'window'",
-                                  "value": "window"
+                                  "value": "window",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "typeAnnotation": {
                                   "type": "TSTypeReference",
@@ -1804,7 +1834,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1379,
                                         "end": 1381,
                                         "raw": "\"\"",
-                                        "value": ""
+                                        "value": "",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   },
@@ -1821,7 +1853,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1390,
                                         "end": 1398,
                                         "raw": "'window'",
-                                        "value": "window"
+                                        "value": "window",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "typeAnnotation": {
                                         "type": "TSTypeReference",
@@ -2164,7 +2198,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 1645,
                                   "end": 1653,
                                   "raw": "'window'",
-                                  "value": "window"
+                                  "value": "window",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "typeAnnotation": {
                                   "type": "TSTypeReference",
@@ -2239,7 +2275,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1697,
                                         "end": 1705,
                                         "raw": "'window'",
-                                        "value": "window"
+                                        "value": "window",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "typeAnnotation": {
                                         "type": "TSTypeReference",
@@ -2328,7 +2366,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 1743,
                                           "end": 1745,
                                           "raw": "\"\"",
-                                          "value": ""
+                                          "value": "",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },

@@ -53,7 +53,9 @@
                   "start": 617,
                   "end": 641,
                   "value": "./2nd-param_FIXTURE.js",
-                  "raw": "'./2nd-param_FIXTURE.js'"
+                  "raw": "'./2nd-param_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": {
                   "type": "CallExpression",
@@ -159,7 +161,9 @@
                             "start": 725,
                             "end": 728,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

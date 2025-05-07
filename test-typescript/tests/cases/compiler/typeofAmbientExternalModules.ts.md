@@ -199,7 +199,9 @@ __ESTREE_TEST__:PASS:
           "start": 135,
           "end": 169,
           "raw": "'./typeofAmbientExternalModules_0'",
-          "value": "./typeofAmbientExternalModules_0"
+          "value": "./typeofAmbientExternalModules_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -226,7 +228,9 @@ __ESTREE_TEST__:PASS:
           "start": 193,
           "end": 227,
           "raw": "'./typeofAmbientExternalModules_1'",
-          "value": "./typeofAmbientExternalModules_1"
+          "value": "./typeofAmbientExternalModules_1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

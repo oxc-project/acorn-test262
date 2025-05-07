@@ -30,7 +30,9 @@
               "start": 260,
               "end": 273,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {

@@ -125,7 +125,9 @@ __ESTREE_TEST__:PASS:
                 "start": 89,
                 "end": 97,
                 "raw": "\"number\"",
-                "value": "number"
+                "value": "number",
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {
@@ -324,7 +326,9 @@ __ESTREE_TEST__:PASS:
                 "start": 232,
                 "end": 240,
                 "raw": "\"number\"",
-                "value": "number"
+                "value": "number",
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {
@@ -523,7 +527,9 @@ __ESTREE_TEST__:PASS:
                 "start": 403,
                 "end": 411,
                 "raw": "\"number\"",
-                "value": "number"
+                "value": "number",
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {

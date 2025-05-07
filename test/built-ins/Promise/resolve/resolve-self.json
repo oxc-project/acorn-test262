@@ -336,7 +336,9 @@
                         "start": 966,
                         "end": 1004,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -408,7 +410,9 @@
                               "start": 1060,
                               "end": 1106,
                               "value": "The promise should be rejected with a value.",
-                              "raw": "'The promise should be rejected with a value.'"
+                              "raw": "'The promise should be rejected with a value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -484,7 +488,9 @@
                               "start": 1184,
                               "end": 1243,
                               "value": "The promise should be rejected with a TypeError instance.",
-                              "raw": "'The promise should be rejected with a TypeError instance.'"
+                              "raw": "'The promise should be rejected with a TypeError instance.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

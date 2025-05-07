@@ -69,14 +69,18 @@
             "start": 313,
             "end": 320,
             "value": "Error",
-            "raw": "'Error'"
+            "raw": "'Error'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 360,
             "value": "Error().toString() returns \"Error\"",
-            "raw": "'Error().toString() returns \"Error\"'"
+            "raw": "'Error().toString() returns \"Error\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,14 +227,18 @@
             "start": 461,
             "end": 477,
             "value": "[object Error]",
-            "raw": "'[object Error]'"
+            "raw": "'[object Error]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 554,
             "value": "Error().toString() returns \"[object Error]\" (Object.prototype.toString)",
-            "raw": "'Error().toString() returns \"[object Error]\" (Object.prototype.toString)'"
+            "raw": "'Error().toString() returns \"[object Error]\" (Object.prototype.toString)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

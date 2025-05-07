@@ -61,7 +61,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 20,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -110,7 +112,9 @@ __ESTREE_TEST__:PASS:
               "start": 47,
               "end": 55,
               "raw": "\"./y.js\"",
-              "value": "./y.js"
+              "value": "./y.js",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {
@@ -167,7 +171,9 @@ __ESTREE_TEST__:PASS:
             "start": 24,
             "end": 25,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         },
         "typeParameters": null

@@ -48,6 +48,7 @@
                 "end": 340,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -117,7 +118,9 @@
                   "start": 376,
                   "end": 388,
                   "value": "PT1.03125H",
-                  "raw": "\"PT1.03125H\""
+                  "raw": "\"PT1.03125H\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -143,6 +146,7 @@
               "end": 426,
               "value": null,
               "raw": "3712_500_000_000n",
+              "regex": null,
               "bigint": "3712500000000"
             }
           },
@@ -151,7 +155,9 @@
             "start": 430,
             "end": 492,
             "value": "positive fractional units rounded with correct rounding mode",
-            "raw": "\"positive fractional units rounded with correct rounding mode\""
+            "raw": "\"positive fractional units rounded with correct rounding mode\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,7 +224,9 @@
                   "start": 527,
                   "end": 540,
                   "value": "-PT1.03125H",
-                  "raw": "\"-PT1.03125H\""
+                  "raw": "\"-PT1.03125H\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -238,6 +246,7 @@
             "end": 577,
             "value": null,
             "raw": "3712_500_000_000n",
+            "regex": null,
             "bigint": "3712500000000"
           },
           {
@@ -245,7 +254,9 @@
             "start": 581,
             "end": 643,
             "value": "negative fractional units rounded with correct rounding mode",
-            "raw": "\"negative fractional units rounded with correct rounding mode\""
+            "raw": "\"negative fractional units rounded with correct rounding mode\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

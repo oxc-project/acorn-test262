@@ -73,7 +73,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 169,
                                     "end": 186,
                                     "raw": "\"../hamsters.jpg\"",
-                                    "value": "../hamsters.jpg"
+                                    "value": "../hamsters.jpg",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "MemberExpression",
@@ -321,7 +323,9 @@ __ESTREE_TEST__:PASS:
                         "start": 314,
                         "end": 317,
                         "raw": "300",
-                        "value": 300
+                        "value": 300,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

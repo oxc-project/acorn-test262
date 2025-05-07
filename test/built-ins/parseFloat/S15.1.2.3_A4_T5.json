@@ -27,7 +27,9 @@
               "start": 412,
               "end": 424,
               "value": "-11.string",
-              "raw": "\"-11.string\""
+              "raw": "\"-11.string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -44,7 +46,9 @@
             "start": 431,
             "end": 433,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -77,7 +81,9 @@
                     "start": 462,
                     "end": 510,
                     "value": "#1: parseFloat(\"-11.string\") === -11. Actual: ",
-                    "raw": "'#1: parseFloat(\"-11.string\") === -11. Actual: '"
+                    "raw": "'#1: parseFloat(\"-11.string\") === -11. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -100,7 +106,9 @@
                           "start": 525,
                           "end": 537,
                           "value": "-11.string",
-                          "raw": "\"-11.string\""
+                          "raw": "\"-11.string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -138,7 +146,9 @@
               "start": 570,
               "end": 581,
               "value": "01.string",
-              "raw": "\"01.string\""
+              "raw": "\"01.string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -149,7 +159,9 @@
           "start": 587,
           "end": 588,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -181,7 +193,9 @@
                     "start": 617,
                     "end": 662,
                     "value": "#2: parseFloat(\"01.string\") === 1. Actual: ",
-                    "raw": "'#2: parseFloat(\"01.string\") === 1. Actual: '"
+                    "raw": "'#2: parseFloat(\"01.string\") === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -204,7 +218,9 @@
                           "start": 677,
                           "end": 688,
                           "value": "01.string",
-                          "raw": "\"01.string\""
+                          "raw": "\"01.string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -242,7 +258,9 @@
               "start": 721,
               "end": 734,
               "value": "+11.1string",
-              "raw": "\"+11.1string\""
+              "raw": "\"+11.1string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -253,7 +271,9 @@
           "start": 740,
           "end": 744,
           "value": 11.1,
-          "raw": "11.1"
+          "raw": "11.1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -285,7 +305,9 @@
                     "start": 773,
                     "end": 823,
                     "value": "#3: parseFloat(\"+11.1string\") === 11.1. Actual: ",
-                    "raw": "'#3: parseFloat(\"+11.1string\") === 11.1. Actual: '"
+                    "raw": "'#3: parseFloat(\"+11.1string\") === 11.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -308,7 +330,9 @@
                           "start": 838,
                           "end": 851,
                           "value": "+11.1string",
-                          "raw": "\"+11.1string\""
+                          "raw": "\"+11.1string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -346,7 +370,9 @@
               "start": 884,
               "end": 896,
               "value": "01.1string",
-              "raw": "\"01.1string\""
+              "raw": "\"01.1string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -357,7 +383,9 @@
           "start": 902,
           "end": 905,
           "value": 1.1,
-          "raw": "1.1"
+          "raw": "1.1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -389,7 +417,9 @@
                     "start": 934,
                     "end": 982,
                     "value": "#4: parseFloat(\"01.1string\") === 1.1. Actual: ",
-                    "raw": "'#4: parseFloat(\"01.1string\") === 1.1. Actual: '"
+                    "raw": "'#4: parseFloat(\"01.1string\") === 1.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -412,7 +442,9 @@
                           "start": 997,
                           "end": 1009,
                           "value": "01.1string",
-                          "raw": "\"01.1string\""
+                          "raw": "\"01.1string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -450,7 +482,9 @@
               "start": 1042,
               "end": 1057,
               "value": "-11.e-1string",
-              "raw": "\"-11.e-1string\""
+              "raw": "\"-11.e-1string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -467,7 +501,9 @@
             "start": 1064,
             "end": 1067,
             "value": 1.1,
-            "raw": "1.1"
+            "raw": "1.1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -500,7 +536,9 @@
                     "start": 1096,
                     "end": 1148,
                     "value": "#5: parseFloat(\"-11.e-1string\") === -1.1. Actual: ",
-                    "raw": "'#5: parseFloat(\"-11.e-1string\") === -1.1. Actual: '"
+                    "raw": "'#5: parseFloat(\"-11.e-1string\") === -1.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -523,7 +561,9 @@
                           "start": 1163,
                           "end": 1178,
                           "value": "-11.e-1string",
-                          "raw": "\"-11.e-1string\""
+                          "raw": "\"-11.e-1string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -561,7 +601,9 @@
               "start": 1211,
               "end": 1224,
               "value": "01.e1string",
-              "raw": "\"01.e1string\""
+              "raw": "\"01.e1string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -572,7 +614,9 @@
           "start": 1230,
           "end": 1232,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -604,7 +648,9 @@
                     "start": 1261,
                     "end": 1309,
                     "value": "#6: parseFloat(\"01.e1string\") === 10. Actual: ",
-                    "raw": "'#6: parseFloat(\"01.e1string\") === 10. Actual: '"
+                    "raw": "'#6: parseFloat(\"01.e1string\") === 10. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -627,7 +673,9 @@
                           "start": 1324,
                           "end": 1337,
                           "value": "01.e1string",
-                          "raw": "\"01.e1string\""
+                          "raw": "\"01.e1string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -665,7 +713,9 @@
               "start": 1370,
               "end": 1387,
               "value": "+11.22e-1string",
-              "raw": "\"+11.22e-1string\""
+              "raw": "\"+11.22e-1string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -676,7 +726,9 @@
           "start": 1393,
           "end": 1398,
           "value": 1.122,
-          "raw": "1.122"
+          "raw": "1.122",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -708,7 +760,9 @@
                     "start": 1427,
                     "end": 1482,
                     "value": "#7: parseFloat(\"+11.22e-1string\") === 1.122. Actual: ",
-                    "raw": "'#7: parseFloat(\"+11.22e-1string\") === 1.122. Actual: '"
+                    "raw": "'#7: parseFloat(\"+11.22e-1string\") === 1.122. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -731,7 +785,9 @@
                           "start": 1497,
                           "end": 1514,
                           "value": "+11.22e-1string",
-                          "raw": "\"+11.22e-1string\""
+                          "raw": "\"+11.22e-1string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -769,7 +825,9 @@
               "start": 1547,
               "end": 1562,
               "value": "01.01e1string",
-              "raw": "\"01.01e1string\""
+              "raw": "\"01.01e1string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -780,7 +838,9 @@
           "start": 1568,
           "end": 1572,
           "value": 10.1,
-          "raw": "10.1"
+          "raw": "10.1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -812,7 +872,9 @@
                     "start": 1601,
                     "end": 1653,
                     "value": "#8: parseFloat(\"01.01e1string\") === 10.1. Actual: ",
-                    "raw": "'#8: parseFloat(\"01.01e1string\") === 10.1. Actual: '"
+                    "raw": "'#8: parseFloat(\"01.01e1string\") === 10.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -835,7 +897,9 @@
                           "start": 1668,
                           "end": 1683,
                           "value": "01.01e1string",
-                          "raw": "\"01.01e1string\""
+                          "raw": "\"01.01e1string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -873,7 +937,9 @@
               "start": 1716,
               "end": 1728,
               "value": "001.string",
-              "raw": "\"001.string\""
+              "raw": "\"001.string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -884,7 +950,9 @@
           "start": 1734,
           "end": 1735,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -916,7 +984,9 @@
                     "start": 1764,
                     "end": 1810,
                     "value": "#9: parseFloat(\"001.string\") === 1. Actual: ",
-                    "raw": "'#9: parseFloat(\"001.string\") === 1. Actual: '"
+                    "raw": "'#9: parseFloat(\"001.string\") === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -939,7 +1009,9 @@
                           "start": 1825,
                           "end": 1837,
                           "value": "001.string",
-                          "raw": "\"001.string\""
+                          "raw": "\"001.string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -977,7 +1049,9 @@
               "start": 1871,
               "end": 1883,
               "value": "010.string",
-              "raw": "\"010.string\""
+              "raw": "\"010.string\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -988,7 +1062,9 @@
           "start": 1889,
           "end": 1891,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1020,7 +1096,9 @@
                     "start": 1920,
                     "end": 1968,
                     "value": "#10: parseFloat(\"010.string\") === 10. Actual: ",
-                    "raw": "'#10: parseFloat(\"010.string\") === 10. Actual: '"
+                    "raw": "'#10: parseFloat(\"010.string\") === 10. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1043,7 +1121,9 @@
                           "start": 1983,
                           "end": 1995,
                           "value": "010.string",
-                          "raw": "\"010.string\""
+                          "raw": "\"010.string\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

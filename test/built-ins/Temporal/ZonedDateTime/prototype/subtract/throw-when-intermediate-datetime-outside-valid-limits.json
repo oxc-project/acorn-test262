@@ -28,6 +28,7 @@
               "end": 1042,
               "value": null,
               "raw": "864n",
+              "regex": null,
               "bigint": "864"
             },
             "operator": "*",
@@ -41,6 +42,7 @@
                 "end": 1048,
                 "value": null,
                 "raw": "10n",
+                "regex": null,
                 "bigint": "10"
               },
               "operator": "**",
@@ -50,6 +52,7 @@
                 "end": 1053,
                 "value": null,
                 "raw": "19n",
+                "regex": null,
                 "bigint": "19"
               }
             }
@@ -165,7 +168,9 @@
                 "start": 1164,
                 "end": 1169,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -263,7 +268,9 @@
                         "start": 1225,
                         "end": 1226,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

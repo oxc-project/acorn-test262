@@ -67,7 +67,9 @@
                   "start": 463,
                   "end": 478,
                   "value": "localeMatcher",
-                  "raw": "\"localeMatcher\""
+                  "raw": "\"localeMatcher\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -86,7 +88,9 @@
                         "start": 486,
                         "end": 491,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -122,7 +126,9 @@
                                     "start": 528,
                                     "end": 587,
                                     "value": "Should not call getter on Object.prototype: localeMatcher",
-                                    "raw": "\"Should not call getter on Object.prototype: localeMatcher\""
+                                    "raw": "\"Should not call getter on Object.prototype: localeMatcher\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -148,7 +154,9 @@
                   "start": 605,
                   "end": 621,
                   "value": "lineBreakStyle",
-                  "raw": "\"lineBreakStyle\""
+                  "raw": "\"lineBreakStyle\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -167,7 +175,9 @@
                         "start": 629,
                         "end": 634,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -203,7 +213,9 @@
                                     "start": 671,
                                     "end": 731,
                                     "value": "Should not call getter on Object.prototype: lineBreakStyle",
-                                    "raw": "\"Should not call getter on Object.prototype: lineBreakStyle\""
+                                    "raw": "\"Should not call getter on Object.prototype: lineBreakStyle\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -229,7 +241,9 @@
                   "start": 749,
                   "end": 762,
                   "value": "granularity",
-                  "raw": "\"granularity\""
+                  "raw": "\"granularity\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -248,7 +262,9 @@
                         "start": 770,
                         "end": 775,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -284,7 +300,9 @@
                                     "start": 812,
                                     "end": 869,
                                     "value": "Should not call getter on Object.prototype: granularity",
-                                    "raw": "\"Should not call getter on Object.prototype: granularity\""
+                                    "raw": "\"Should not call getter on Object.prototype: granularity\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -557,7 +575,9 @@
                   "start": 1144,
                   "end": 1154,
                   "value": "grapheme",
-                  "raw": "\"grapheme\""
+                  "raw": "\"grapheme\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -693,7 +713,9 @@
                         "start": 1326,
                         "end": 1342,
                         "value": "lineBreakStyle",
-                        "raw": "\"lineBreakStyle\""
+                        "raw": "\"lineBreakStyle\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

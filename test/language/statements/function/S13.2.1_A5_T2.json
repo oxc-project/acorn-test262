@@ -222,7 +222,9 @@
                       "start": 687,
                       "end": 693,
                       "value": 0.0001,
-                      "raw": "0.0001"
+                      "raw": "0.0001",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -233,7 +235,9 @@
                     "start": 695,
                     "end": 696,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -278,7 +282,9 @@
                       "start": 721,
                       "end": 727,
                       "value": 0.0001,
-                      "raw": "0.0001"
+                      "raw": "0.0001",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -293,7 +299,9 @@
                       "start": 729,
                       "end": 730,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "*",
                     "right": {
@@ -333,7 +341,9 @@
             "start": 744,
             "end": 745,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "operator": "/",
           "right": {
@@ -341,7 +351,9 @@
             "start": 746,
             "end": 753,
             "value": 65536,
-            "raw": "65536.0"
+            "raw": "65536.0",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -370,7 +382,9 @@
                   "start": 781,
                   "end": 883,
                   "value": "#1: Math.abs(derivative(Math.sin, 0.0001)(0) - derivative(Math.sin, 0.0001)(2*Math.PI)) <= 1/65536.0",
-                  "raw": "'#1: Math.abs(derivative(Math.sin, 0.0001)(0) - derivative(Math.sin, 0.0001)(2*Math.PI)) <= 1/65536.0'"
+                  "raw": "'#1: Math.abs(derivative(Math.sin, 0.0001)(0) - derivative(Math.sin, 0.0001)(2*Math.PI)) <= 1/65536.0'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

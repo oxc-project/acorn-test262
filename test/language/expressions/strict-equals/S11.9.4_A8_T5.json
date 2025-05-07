@@ -21,7 +21,9 @@
               "start": 370,
               "end": 371,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -61,7 +63,9 @@
                   "start": 398,
                   "end": 401,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -89,7 +93,9 @@
                           "start": 432,
                           "end": 453,
                           "value": "#1: throw 1 !== \"1\"",
-                          "raw": "'#1: throw 1 !== \"1\"'"
+                          "raw": "'#1: throw 1 !== \"1\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -121,7 +127,9 @@
               "start": 487,
               "end": 490,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -154,7 +162,9 @@
                   "start": 511,
                   "end": 512,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "===",
                 "right": {
@@ -189,7 +199,9 @@
                           "start": 549,
                           "end": 570,
                           "value": "#2: 1 !== throw \"1\"",
-                          "raw": "'#2: 1 !== throw \"1\"'"
+                          "raw": "'#2: 1 !== throw \"1\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": "^[^❤️]$",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -65,7 +66,9 @@
                 "start": 929,
                 "end": 933,
                 "value": "❤️",
-                "raw": "\"❤️\""
+                "raw": "\"❤️\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -75,7 +78,9 @@
             "start": 936,
             "end": 940,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -126,7 +131,8 @@
                 "regex": {
                   "pattern": "^[^🧡]",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -143,7 +149,9 @@
                 "start": 975,
                 "end": 979,
                 "value": "🧡",
-                "raw": "\"🧡\""
+                "raw": "\"🧡\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -153,7 +161,9 @@
             "start": 982,
             "end": 986,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +214,8 @@
                 "regex": {
                   "pattern": "[^💛]$",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -221,7 +232,9 @@
                 "start": 1021,
                 "end": 1025,
                 "value": "💛",
-                "raw": "\"💛\""
+                "raw": "\"💛\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -231,7 +244,9 @@
             "start": 1028,
             "end": 1032,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -282,7 +297,8 @@
                 "regex": {
                   "pattern": "[^💚]",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -299,7 +315,9 @@
                 "start": 1066,
                 "end": 1070,
                 "value": "💚",
-                "raw": "\"💚\""
+                "raw": "\"💚\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -309,7 +327,9 @@
             "start": 1073,
             "end": 1077,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

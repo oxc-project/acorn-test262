@@ -42,7 +42,9 @@
                 "start": 9,
                 "end": 14,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "regex": null,
+                "bigint": null
               }
             }
           ],

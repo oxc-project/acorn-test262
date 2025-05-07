@@ -47,7 +47,9 @@
                 "start": 413,
                 "end": 432,
                 "value": "1; if (false) { }",
-                "raw": "'1; if (false) { }'"
+                "raw": "'1; if (false) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 469,
                 "end": 491,
                 "value": "2; if (false) { 3; }",
-                "raw": "'2; if (false) { 3; }'"
+                "raw": "'2; if (false) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

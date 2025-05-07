@@ -34,7 +34,9 @@
                 "start": 1251,
                 "end": 1278,
                 "value": "function fn() {}() => 42;",
-                "raw": "'function fn() {}() => 42;'"
+                "raw": "'function fn() {}() => 42;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +91,9 @@
             "start": 1309,
             "end": 1311,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

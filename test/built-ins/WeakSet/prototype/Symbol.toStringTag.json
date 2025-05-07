@@ -81,7 +81,9 @@
             "start": 579,
             "end": 588,
             "value": "WeakSet",
-            "raw": "'WeakSet'"
+            "raw": "'WeakSet'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +165,9 @@
                   "start": 660,
                   "end": 665,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -185,7 +189,9 @@
                   "start": 681,
                   "end": 686,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -207,7 +213,9 @@
                   "start": 704,
                   "end": 708,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

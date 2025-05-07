@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?-i:\\P{Lu})",
               "flags": "iu"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -83,7 +84,9 @@
                   "start": 2738,
                   "end": 2741,
                   "value": "A",
-                  "raw": "\"A\""
+                  "raw": "\"A\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +97,9 @@
             "start": 2744,
             "end": 2772,
             "value": "\\P{Lu} should not match A",
-            "raw": "\"\\\\P{Lu} should not match A\""
+            "raw": "\"\\\\P{Lu} should not match A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -144,7 +149,9 @@
                 "start": 2791,
                 "end": 2794,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -154,7 +161,9 @@
             "start": 2797,
             "end": 2821,
             "value": "\\P{Lu} should match a",
-            "raw": "\"\\\\P{Lu} should match a\""
+            "raw": "\"\\\\P{Lu} should match a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,7 +219,9 @@
                   "start": 2841,
                   "end": 2844,
                   "value": "Z",
-                  "raw": "\"Z\""
+                  "raw": "\"Z\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -221,7 +232,9 @@
             "start": 2847,
             "end": 2875,
             "value": "\\P{Lu} should not match Z",
-            "raw": "\"\\\\P{Lu} should not match Z\""
+            "raw": "\"\\\\P{Lu} should not match Z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +284,9 @@
                 "start": 2894,
                 "end": 2897,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -281,7 +296,9 @@
             "start": 2900,
             "end": 2924,
             "value": "\\P{Lu} should match z",
-            "raw": "\"\\\\P{Lu} should match z\""
+            "raw": "\"\\\\P{Lu} should match z\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,7 +348,9 @@
                 "start": 2943,
                 "end": 2946,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -341,7 +360,9 @@
             "start": 2949,
             "end": 2973,
             "value": "\\P{Lu} should match 0",
-            "raw": "\"\\\\P{Lu} should match 0\""
+            "raw": "\"\\\\P{Lu} should match 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

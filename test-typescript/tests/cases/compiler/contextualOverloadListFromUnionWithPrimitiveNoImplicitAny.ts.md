@@ -464,7 +464,9 @@ __ESTREE_TEST__:PASS:
                           "start": 351,
                           "end": 356,
                           "raw": "false",
-                          "value": false
+                          "value": false,
+                          "regex": null,
+                          "bigint": null
                         },
                         "expression": true,
                         "generator": false,

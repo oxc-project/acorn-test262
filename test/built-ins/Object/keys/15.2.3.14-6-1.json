@@ -28,21 +28,27 @@
                 "start": 327,
                 "end": 328,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 331,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 334,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -355,7 +361,9 @@
                   "start": 594,
                   "end": 612,
                   "value": "tempArray[index]",
-                  "raw": "'tempArray[index]'"
+                  "raw": "'tempArray[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -47,7 +47,9 @@
                 "start": 1011,
                 "end": 1046,
                 "value": "var a; 1; for (a in { x: 0 }) { }",
-                "raw": "'var a; 1; for (a in { x: 0 }) { }'"
+                "raw": "'var a; 1; for (a in { x: 0 }) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 1083,
                 "end": 1121,
                 "value": "var b; 2; for (b in { x: 0 }) { 3; }",
-                "raw": "'var b; 2; for (b in { x: 0 }) { 3; }'"
+                "raw": "'var b; 2; for (b in { x: 0 }) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 1124,
             "end": 1125,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

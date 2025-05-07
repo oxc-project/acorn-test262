@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 24,
         "raw": "'fs'",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 73,
         "raw": "'@truffle/contract'",
-        "value": "@truffle/contract"
+        "value": "@truffle/contract",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -129,7 +133,9 @@ __ESTREE_TEST__:PASS:
             "start": 155,
             "end": 176,
             "raw": "'TruffleContract is '",
-            "value": "TruffleContract is "
+            "value": "TruffleContract is ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "UnaryExpression",
@@ -349,7 +355,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 34,
         "raw": "\"@truffle/contract\"",
-        "value": "@truffle/contract"
+        "value": "@truffle/contract",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

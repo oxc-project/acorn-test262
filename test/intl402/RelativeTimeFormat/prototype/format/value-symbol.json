@@ -47,7 +47,9 @@
                 "start": 480,
                 "end": 487,
                 "value": "en-US",
-                "raw": "\"en-US\""
+                "raw": "\"en-US\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -114,14 +116,18 @@
             "start": 527,
             "end": 537,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 567,
             "value": "format should be supported",
-            "raw": "\"format should be supported\""
+            "raw": "\"format should be supported\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -237,7 +243,9 @@
                   "start": 646,
                   "end": 654,
                   "value": "second",
-                  "raw": "\"second\""
+                  "raw": "\"second\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

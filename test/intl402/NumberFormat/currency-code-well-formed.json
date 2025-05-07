@@ -28,35 +28,45 @@
                 "start": 288,
                 "end": 293,
                 "value": "BOB",
-                "raw": "\"BOB\""
+                "raw": "\"BOB\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 304,
                 "value": "EUR",
-                "raw": "\"EUR\""
+                "raw": "\"EUR\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 315,
                 "value": "usd",
-                "raw": "\"usd\""
+                "raw": "\"usd\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 365,
                 "value": "XdR",
-                "raw": "\"XdR\""
+                "raw": "\"XdR\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 376,
                 "value": "xTs",
-                "raw": "\"xTs\""
+                "raw": "\"xTs\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -162,7 +172,9 @@
                                 "start": 537,
                                 "end": 544,
                                 "value": "de-de",
-                                "raw": "\"de-de\""
+                                "raw": "\"de-de\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           },
@@ -189,7 +201,9 @@
                                   "start": 555,
                                   "end": 565,
                                   "value": "currency",
-                                  "raw": "\"currency\""
+                                  "raw": "\"currency\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -328,7 +342,9 @@
                             "start": 661,
                             "end": 672,
                             "value": "Currency ",
-                            "raw": "\"Currency \""
+                            "raw": "\"Currency \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -344,7 +360,9 @@
                           "start": 682,
                           "end": 712,
                           "value": " was not correctly accepted.",
-                          "raw": "\" was not correctly accepted.\""
+                          "raw": "\" was not correctly accepted.\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

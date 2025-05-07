@@ -69,7 +69,9 @@
             "start": 418,
             "end": 472,
             "value": "Object.isExtensible(JSON.stringify) must return true",
-            "raw": "'Object.isExtensible(JSON.stringify) must return true'"
+            "raw": "'Object.isExtensible(JSON.stringify) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,14 +182,18 @@
             "start": 545,
             "end": 564,
             "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "raw": "'[object Function]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 648,
             "value": "Object.prototype.toString.call(JSON.stringify) must return \"[object Function]\"",
-            "raw": "'Object.prototype.toString.call(JSON.stringify) must return \"[object Function]\"'"
+            "raw": "'Object.prototype.toString.call(JSON.stringify) must return \"[object Function]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -291,7 +297,9 @@
             "start": 735,
             "end": 818,
             "value": "Object.getPrototypeOf(JSON.stringify) must return the value of Function.prototype",
-            "raw": "'Object.getPrototypeOf(JSON.stringify) must return the value of Function.prototype'"
+            "raw": "'Object.getPrototypeOf(JSON.stringify) must return the value of Function.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -367,7 +375,9 @@
                 "start": 872,
                 "end": 883,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -377,14 +387,18 @@
             "start": 888,
             "end": 893,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 897,
             "end": 959,
             "value": "JSON.stringify.hasOwnProperty(\"prototype\") must return false",
-            "raw": "'JSON.stringify.hasOwnProperty(\"prototype\") must return false'"
+            "raw": "'JSON.stringify.hasOwnProperty(\"prototype\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -25,7 +25,9 @@
                 "start": 290,
                 "end": 294,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "operator": "instanceof",
               "right": {
@@ -33,7 +35,9 @@
                 "start": 306,
                 "end": 310,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -57,7 +61,9 @@
                   "start": 337,
                   "end": 379,
                   "value": "#1: true instanceof true throw TypeError",
-                  "raw": "'#1: true instanceof true throw TypeError'"
+                  "raw": "'#1: true instanceof true throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -111,7 +117,9 @@
                   "start": 431,
                   "end": 435,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -139,7 +147,9 @@
                           "start": 466,
                           "end": 508,
                           "value": "#1: true instanceof true throw TypeError",
-                          "raw": "'#1: true instanceof true throw TypeError'"
+                          "raw": "'#1: true instanceof true throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -175,7 +185,9 @@
                 "start": 538,
                 "end": 539,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "operator": "instanceof",
               "right": {
@@ -183,7 +195,9 @@
                 "start": 551,
                 "end": 552,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -207,7 +221,9 @@
                   "start": 579,
                   "end": 615,
                   "value": "#2: 1 instanceof 1 throw TypeError",
-                  "raw": "'#2: 1 instanceof 1 throw TypeError'"
+                  "raw": "'#2: 1 instanceof 1 throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -261,7 +277,9 @@
                   "start": 667,
                   "end": 671,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -289,7 +307,9 @@
                           "start": 702,
                           "end": 738,
                           "value": "#2: 1 instanceof 1 throw TypeError",
-                          "raw": "'#2: 1 instanceof 1 throw TypeError'"
+                          "raw": "'#2: 1 instanceof 1 throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -325,7 +345,9 @@
                 "start": 768,
                 "end": 776,
                 "value": "string",
-                "raw": "\"string\""
+                "raw": "\"string\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "instanceof",
               "right": {
@@ -333,7 +355,9 @@
                 "start": 788,
                 "end": 796,
                 "value": "string",
-                "raw": "\"string\""
+                "raw": "\"string\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -357,7 +381,9 @@
                   "start": 823,
                   "end": 873,
                   "value": "#3: \"string\" instanceof \"string\" throw TypeError",
-                  "raw": "'#3: \"string\" instanceof \"string\" throw TypeError'"
+                  "raw": "'#3: \"string\" instanceof \"string\" throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -411,7 +437,9 @@
                   "start": 925,
                   "end": 929,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -439,7 +467,9 @@
                           "start": 960,
                           "end": 1010,
                           "value": "#3: \"string\" instanceof \"string\" throw TypeError",
-                          "raw": "'#3: \"string\" instanceof \"string\" throw TypeError'"
+                          "raw": "'#3: \"string\" instanceof \"string\" throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -505,7 +535,9 @@
                   "start": 1097,
                   "end": 1149,
                   "value": "#4: undefined instanceof undefined throw TypeError",
-                  "raw": "'#4: undefined instanceof undefined throw TypeError'"
+                  "raw": "'#4: undefined instanceof undefined throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -559,7 +591,9 @@
                   "start": 1201,
                   "end": 1205,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -587,7 +621,9 @@
                           "start": 1236,
                           "end": 1288,
                           "value": "#4: undefined instanceof undefined throw TypeError",
-                          "raw": "'#4: undefined instanceof undefined throw TypeError'"
+                          "raw": "'#4: undefined instanceof undefined throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -623,7 +659,9 @@
                 "start": 1318,
                 "end": 1322,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               "operator": "instanceof",
               "right": {
@@ -631,7 +669,9 @@
                 "start": 1334,
                 "end": 1338,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -655,7 +695,9 @@
                   "start": 1365,
                   "end": 1407,
                   "value": "#5: null instanceof null throw TypeError",
-                  "raw": "'#5: null instanceof null throw TypeError'"
+                  "raw": "'#5: null instanceof null throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -709,7 +751,9 @@
                   "start": 1459,
                   "end": 1463,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -737,7 +781,9 @@
                           "start": 1494,
                           "end": 1536,
                           "value": "#5: null instanceof null throw TypeError",
-                          "raw": "'#5: null instanceof null throw TypeError'"
+                          "raw": "'#5: null instanceof null throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

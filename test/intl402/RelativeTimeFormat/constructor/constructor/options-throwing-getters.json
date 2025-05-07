@@ -129,7 +129,9 @@
                           "start": 1449,
                           "end": 1513,
                           "value": "should not get the numberingSystem option before localeMatcher",
-                          "raw": "\"should not get the numberingSystem option before localeMatcher\""
+                          "raw": "\"should not get the numberingSystem option before localeMatcher\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -173,7 +175,9 @@
                           "start": 1546,
                           "end": 1600,
                           "value": "should not get the style option before localeMatcher",
-                          "raw": "\"should not get the style option before localeMatcher\""
+                          "raw": "\"should not get the style option before localeMatcher\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -217,7 +221,9 @@
                           "start": 1635,
                           "end": 1691,
                           "value": "should not get the numeric option before localeMatcher",
-                          "raw": "\"should not get the numeric option before localeMatcher\""
+                          "raw": "\"should not get the numeric option before localeMatcher\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -336,7 +342,9 @@
                               "start": 1781,
                               "end": 1796,
                               "value": "localeMatcher",
-                              "raw": "'localeMatcher'"
+                              "raw": "'localeMatcher'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -432,7 +440,9 @@
                           "start": 1890,
                           "end": 1946,
                           "value": "should not get the style option before numberingSystem",
-                          "raw": "\"should not get the style option before numberingSystem\""
+                          "raw": "\"should not get the style option before numberingSystem\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -476,7 +486,9 @@
                           "start": 1981,
                           "end": 2039,
                           "value": "should not get the numeric option before numberingSystem",
-                          "raw": "\"should not get the numeric option before numberingSystem\""
+                          "raw": "\"should not get the numeric option before numberingSystem\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -595,7 +607,9 @@
                               "start": 2129,
                               "end": 2144,
                               "value": "localeMatcher",
-                              "raw": "'localeMatcher'"
+                              "raw": "'localeMatcher'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -666,7 +680,9 @@
                               "start": 2198,
                               "end": 2215,
                               "value": "numberingSystem",
-                              "raw": "'numberingSystem'"
+                              "raw": "'numberingSystem'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -762,7 +778,9 @@
                           "start": 2301,
                           "end": 2349,
                           "value": "should not get the numeric option before style",
-                          "raw": "\"should not get the numeric option before style\""
+                          "raw": "\"should not get the numeric option before style\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -881,7 +899,9 @@
                               "start": 2439,
                               "end": 2454,
                               "value": "localeMatcher",
-                              "raw": "'localeMatcher'"
+                              "raw": "'localeMatcher'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -952,7 +972,9 @@
                               "start": 2508,
                               "end": 2525,
                               "value": "numberingSystem",
-                              "raw": "'numberingSystem'"
+                              "raw": "'numberingSystem'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1023,7 +1045,9 @@
                               "start": 2569,
                               "end": 2576,
                               "value": "style",
-                              "raw": "'style'"
+                              "raw": "'style'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1170,7 +1194,9 @@
                         "start": 2704,
                         "end": 2708,
                         "value": "en",
-                        "raw": "\"en\""
+                        "raw": "\"en\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -1287,7 +1313,9 @@
                         "start": 2845,
                         "end": 2849,
                         "value": "en",
-                        "raw": "\"en\""
+                        "raw": "\"en\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -1367,7 +1395,9 @@
                 "start": 2955,
                 "end": 2970,
                 "value": "localeMatcher",
-                "raw": "'localeMatcher'"
+                "raw": "'localeMatcher'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1456,7 +1486,9 @@
                         "start": 3040,
                         "end": 3044,
                         "value": "en",
-                        "raw": "\"en\""
+                        "raw": "\"en\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -1536,14 +1568,18 @@
                 "start": 3140,
                 "end": 3155,
                 "value": "localeMatcher",
-                "raw": "'localeMatcher'"
+                "raw": "'localeMatcher'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3157,
                 "end": 3174,
                 "value": "numberingSystem",
-                "raw": "'numberingSystem'"
+                "raw": "'numberingSystem'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1632,7 +1668,9 @@
                         "start": 3244,
                         "end": 3248,
                         "value": "en",
-                        "raw": "\"en\""
+                        "raw": "\"en\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -1712,21 +1750,27 @@
                 "start": 3346,
                 "end": 3361,
                 "value": "localeMatcher",
-                "raw": "'localeMatcher'"
+                "raw": "'localeMatcher'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3363,
                 "end": 3380,
                 "value": "numberingSystem",
-                "raw": "'numberingSystem'"
+                "raw": "'numberingSystem'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3382,
                 "end": 3389,
                 "value": "style",
-                "raw": "'style'"
+                "raw": "'style'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

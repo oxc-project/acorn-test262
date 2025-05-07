@@ -226,7 +226,9 @@ __ESTREE_TEST__:PASS:
                         "start": 77,
                         "end": 86,
                         "raw": "\"queries\"",
-                        "value": "queries"
+                        "value": "queries",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {

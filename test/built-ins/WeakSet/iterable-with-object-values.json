@@ -380,14 +380,18 @@
             "start": 755,
             "end": 756,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 758,
             "end": 794,
             "value": "Called WeakSet#add for each object",
-            "raw": "'Called WeakSet#add for each object'"
+            "raw": "'Called WeakSet#add for each object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +440,9 @@
               "start": 820,
               "end": 821,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -452,7 +458,9 @@
             "start": 831,
             "end": 861,
             "value": "Adds object in order - first",
-            "raw": "'Adds object in order - first'"
+            "raw": "'Adds object in order - first'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -501,7 +509,9 @@
               "start": 887,
               "end": 888,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -517,7 +527,9 @@
             "start": 899,
             "end": 930,
             "value": "Adds object in order - second",
-            "raw": "'Adds object in order - second'"
+            "raw": "'Adds object in order - second'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

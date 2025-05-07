@@ -71,7 +71,9 @@
                         "start": 564,
                         "end": 579,
                         "value": "var᠎foo;",
-                        "raw": "\"var\\u180Efoo;\""
+                        "raw": "\"var\\u180Efoo;\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -28,7 +28,9 @@
                 "start": 1314,
                 "end": 1316,
                 "value": 33,
-                "raw": "33"
+                "raw": "33",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -101,7 +103,9 @@
             "start": 1370,
             "end": 1371,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -173,7 +177,9 @@
                       "start": 1428,
                       "end": 1430,
                       "value": 33,
-                      "raw": "33"
+                      "raw": "33",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -204,7 +210,9 @@
                       "start": 1460,
                       "end": 1461,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -424,7 +432,9 @@
                         "start": 1621,
                         "end": 1626,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -536,7 +546,9 @@
                                 "start": 1681,
                                 "end": 1687,
                                 "value": "prop",
-                                "raw": "'prop'"
+                                "raw": "'prop'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -681,7 +693,9 @@
                                         "start": 1814,
                                         "end": 1818,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -739,7 +753,9 @@
                                         "start": 1850,
                                         "end": 1852,
                                         "value": 33,
-                                        "raw": "33"
+                                        "raw": "33",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false

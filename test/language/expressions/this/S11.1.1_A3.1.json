@@ -92,7 +92,9 @@
                     "start": 464,
                     "end": 537,
                     "value": "#1: function ReturnThis() {return this} ReturnThis() === this. Actual: ",
-                    "raw": "'#1: function ReturnThis() {return this} ReturnThis() === this. Actual: '"
+                    "raw": "'#1: function ReturnThis() {return this} ReturnThis() === this. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -160,7 +162,9 @@
                   "start": 609,
                   "end": 615,
                   "value": "this",
-                  "raw": "\"this\""
+                  "raw": "\"this\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -226,7 +230,9 @@
                     "start": 676,
                     "end": 765,
                     "value": "#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: ",
-                    "raw": "'#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: '"
+                    "raw": "'#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

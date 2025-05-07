@@ -149,7 +149,9 @@
             "start": 685,
             "end": 735,
             "value": "Array.of.call(T) throws a Test262Error exception",
-            "raw": "'Array.of.call(T) throws a Test262Error exception'"
+            "raw": "'Array.of.call(T) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

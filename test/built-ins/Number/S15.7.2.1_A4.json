@@ -137,14 +137,18 @@
             "start": 399,
             "end": 416,
             "value": "[object Number]",
-            "raw": "\"[object Number]\""
+            "raw": "\"[object Number]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 464,
             "value": "obj.toString() must return \"[object Number]\"",
-            "raw": "'obj.toString() must return \"[object Number]\"'"
+            "raw": "'obj.toString() must return \"[object Number]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

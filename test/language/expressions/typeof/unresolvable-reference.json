@@ -49,14 +49,18 @@
             "start": 491,
             "end": 502,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 506,
             "end": 532,
             "value": "typeof x === 'undefined'",
-            "raw": "\"typeof x === 'undefined'\""
+            "raw": "\"typeof x === 'undefined'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

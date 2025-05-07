@@ -354,7 +354,9 @@
                             "start": 2670,
                             "end": 2672,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -467,21 +469,27 @@
                                 "start": 2747,
                                 "end": 2751,
                                 "value": "#m",
-                                "raw": "'#m'"
+                                "raw": "'#m'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 2753,
                                 "end": 2758,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 2760,
                                 "end": 2855,
                                 "value": "private methods are defined in an special internal slot and cannot be found as own properties",
-                                "raw": "'private methods are defined in an special internal slot and cannot be found as own properties'"
+                                "raw": "'private methods are defined in an special internal slot and cannot be found as own properties'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -545,7 +553,9 @@
                                 "start": 2895,
                                 "end": 2905,
                                 "value": "function",
-                                "raw": "'function'"
+                                "raw": "'function'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -620,7 +630,9 @@
                                 "start": 2948,
                                 "end": 2972,
                                 "value": "returns the same value",
-                                "raw": "'returns the same value'"
+                                "raw": "'returns the same value'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -717,7 +729,9 @@
                                 "start": 3024,
                                 "end": 3068,
                                 "value": "memberexpression and call expression forms",
-                                "raw": "'memberexpression and call expression forms'"
+                                "raw": "'memberexpression and call expression forms'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -781,14 +795,18 @@
                                 "start": 3104,
                                 "end": 3106,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 3108,
                                 "end": 3137,
                                 "value": "already defined in the ctor",
-                                "raw": "'already defined in the ctor'"
+                                "raw": "'already defined in the ctor'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -858,14 +876,18 @@
                                 "start": 3175,
                                 "end": 3179,
                                 "value": "#m",
-                                "raw": "'#m'"
+                                "raw": "'#m'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 3181,
                                 "end": 3215,
                                 "value": "function name inside constructor",
-                                "raw": "'function name inside constructor'"
+                                "raw": "'function name inside constructor'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -983,21 +1005,27 @@
             "start": 3286,
             "end": 3290,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3292,
             "end": 3297,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3299,
             "end": 3339,
             "value": "method is not defined in the prototype",
-            "raw": "'method is not defined in the prototype'"
+            "raw": "'method is not defined in the prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1029,21 +1057,27 @@
             "start": 3353,
             "end": 3357,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3359,
             "end": 3364,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3366,
             "end": 3407,
             "value": "method is not defined in the contructor",
-            "raw": "'method is not defined in the contructor'"
+            "raw": "'method is not defined in the contructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1075,21 +1109,27 @@
             "start": 3421,
             "end": 3425,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3427,
             "end": 3432,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3434,
             "end": 3478,
             "value": "method cannot be seen outside of the class",
-            "raw": "'method cannot be seen outside of the class'"
+            "raw": "'method cannot be seen outside of the class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1166,7 +1206,9 @@
             "start": 3702,
             "end": 3764,
             "value": "The method is defined once, and reused on every new instance",
-            "raw": "'The method is defined once, and reused on every new instance'"
+            "raw": "'The method is defined once, and reused on every new instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1231,14 +1273,18 @@
             "start": 3829,
             "end": 3831,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3833,
             "end": 3850,
             "value": "function return",
-            "raw": "'function return'"
+            "raw": "'function return'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1309,14 +1355,18 @@
             "start": 3882,
             "end": 3886,
             "value": "#m",
-            "raw": "'#m'"
+            "raw": "'#m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3888,
             "end": 3935,
             "value": "function name is preserved external reference",
-            "raw": "'function name is preserved external reference'"
+            "raw": "'function name is preserved external reference'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

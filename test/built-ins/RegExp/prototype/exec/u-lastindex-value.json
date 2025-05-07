@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": "gu"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,7 +67,9 @@
             "start": 1072,
             "end": 1076,
             "value": "𝌆",
-            "raw": "'𝌆'"
+            "raw": "'𝌆'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,7 +127,9 @@
             "start": 1109,
             "end": 1110,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

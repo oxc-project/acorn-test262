@@ -20,7 +20,9 @@ __ESTREE_TEST__:PASS:
             "start": 324,
             "end": 352,
             "raw": "\"\\u00A0var x\\u00A0= 1\\u00A0\"",
-            "value": " var x = 1 "
+            "value": " var x = 1 ",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -66,7 +68,9 @@ __ESTREE_TEST__:PASS:
                     "start": 379,
                     "end": 441,
                     "raw": "'#1: eval(\"\\\\u00A0var x\\\\u00A0= 1\\\\u00A0\"); x === 1. Actual: '",
-                    "value": "#1: eval(\"\\u00A0var x\\u00A0= 1\\u00A0\"); x === 1. Actual: "
+                    "value": "#1: eval(\"\\u00A0var x\\u00A0= 1\\u00A0\"); x === 1. Actual: ",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -113,7 +117,9 @@ __ESTREE_TEST__:PASS:
           "start": 365,
           "end": 366,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -141,7 +147,9 @@ __ESTREE_TEST__:PASS:
             "start": 472,
             "end": 473,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -178,7 +186,9 @@ __ESTREE_TEST__:PASS:
                     "start": 500,
                     "end": 536,
                     "raw": "'#2:  var x = 1 ; x === 1. Actual: '",
-                    "value": "#2:  var x = 1 ; x === 1. Actual: "
+                    "value": "#2:  var x = 1 ; x === 1. Actual: ",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -225,7 +235,9 @@ __ESTREE_TEST__:PASS:
           "start": 486,
           "end": 487,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     }

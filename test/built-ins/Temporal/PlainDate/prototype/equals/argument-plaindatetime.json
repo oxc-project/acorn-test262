@@ -96,21 +96,27 @@
                             "start": 824,
                             "end": 828,
                             "value": 2000,
-                            "raw": "2000"
+                            "raw": "2000",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 830,
                             "end": 831,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 833,
                             "end": 834,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

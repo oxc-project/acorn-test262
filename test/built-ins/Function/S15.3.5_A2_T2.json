@@ -55,14 +55,18 @@
                     "start": 373,
                     "end": 384,
                     "value": "arg1,arg2",
-                    "raw": "\"arg1,arg2\""
+                    "raw": "\"arg1,arg2\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 386,
                     "end": 430,
                     "value": "var x =arg1; this.y=arg2;return arg1+arg2;",
-                    "raw": "\"var x =arg1; this.y=arg2;return arg1+arg2;\""
+                    "raw": "\"var x =arg1; this.y=arg2;return arg1+arg2;\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -73,14 +77,18 @@
                 "start": 433,
                 "end": 436,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 439,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -90,14 +98,18 @@
             "start": 444,
             "end": 448,
             "value": "12",
-            "raw": "\"12\""
+            "raw": "\"12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 548,
             "value": "new Function(\"arg1,arg2\", \"var x =arg1; this.y=arg2;return arg1+arg2;\")(1, 2) must return \"12\"",
-            "raw": "'new Function(\"arg1,arg2\", \"var x =arg1; this.y=arg2;return arg1+arg2;\")(1, 2) must return \"12\"'"
+            "raw": "'new Function(\"arg1,arg2\", \"var x =arg1; this.y=arg2;return arg1+arg2;\")(1, 2) must return \"12\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -149,14 +161,18 @@
             "start": 580,
             "end": 591,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 593,
             "end": 648,
             "value": "The value of `typeof x` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof x` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof x` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -201,14 +217,18 @@
             "start": 671,
             "end": 672,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 674,
             "end": 710,
             "value": "The value of y is expected to be 2",
-            "raw": "'The value of y is expected to be 2'"
+            "raw": "'The value of y is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

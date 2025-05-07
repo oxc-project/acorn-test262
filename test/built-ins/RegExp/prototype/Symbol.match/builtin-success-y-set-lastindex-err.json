@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "a",
               "flags": "y"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 827,
             "end": 838,
             "value": "lastIndex",
-            "raw": "'lastIndex'"
+            "raw": "'lastIndex'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -97,7 +100,9 @@
                   "start": 852,
                   "end": 857,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -201,7 +206,9 @@
                         "start": 919,
                         "end": 922,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

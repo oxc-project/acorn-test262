@@ -227,6 +227,7 @@
                                     "end": 1296,
                                     "value": null,
                                     "raw": "1n",
+                                    "regex": null,
                                     "bigint": "1"
                                   },
                                   {

@@ -84,7 +84,9 @@
                               "start": 453,
                               "end": 466,
                               "value": "kamon beyba",
-                              "raw": "\"kamon beyba\""
+                              "raw": "\"kamon beyba\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -107,7 +109,9 @@
                   "start": 477,
                   "end": 481,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -189,7 +193,9 @@
               "start": 533,
               "end": 539,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -199,14 +205,18 @@
             "start": 542,
             "end": 555,
             "value": "kamon beyba",
-            "raw": "\"kamon beyba\""
+            "raw": "\"kamon beyba\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 616,
             "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\"",
-            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'"
+            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,14 +281,18 @@
             "start": 653,
             "end": 664,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 728,
             "value": "The value of `typeof obj.feat` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj.feat` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof obj.feat` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -61,14 +61,18 @@
                             "start": 476,
                             "end": 484,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 486,
                             "end": 496,
                             "value": "best fit",
-                            "raw": "\"best fit\""
+                            "raw": "\"best fit\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -187,7 +191,9 @@
                                     "start": 633,
                                     "end": 638,
                                     "value": "zxx",
-                                    "raw": "\"zxx\""
+                                    "raw": "\"zxx\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ],
@@ -358,7 +364,9 @@
                                       "start": 835,
                                       "end": 836,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -374,7 +382,9 @@
                                         "start": 838,
                                         "end": 899,
                                         "value": "SupportedLocales didn't return default locale with matcher ",
-                                        "raw": "\"SupportedLocales didn't return default locale with matcher \""
+                                        "raw": "\"SupportedLocales didn't return default locale with matcher \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -390,7 +400,9 @@
                                       "start": 912,
                                       "end": 915,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -469,7 +481,9 @@
                                       "start": 984,
                                       "end": 985,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -485,7 +499,9 @@
                                         "start": 987,
                                         "end": 1065,
                                         "value": "SupportedLocales returned the \"no linguistic content\" locale with matcher ",
-                                        "raw": "\"SupportedLocales returned the \\\"no linguistic content\\\" locale with matcher \""
+                                        "raw": "\"SupportedLocales returned the \\\"no linguistic content\\\" locale with matcher \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -501,7 +517,9 @@
                                       "start": 1078,
                                       "end": 1081,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -565,7 +583,9 @@
                                       "start": 1128,
                                       "end": 1129,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -573,7 +593,9 @@
                                     "start": 1131,
                                     "end": 1136,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -596,7 +618,9 @@
                                             "start": 1138,
                                             "end": 1181,
                                             "value": "SupportedLocales returned stray locales: ",
-                                            "raw": "\"SupportedLocales returned stray locales: \""
+                                            "raw": "\"SupportedLocales returned stray locales: \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -628,7 +652,9 @@
                                                 "start": 1199,
                                                 "end": 1203,
                                                 "value": ", ",
-                                                "raw": "\", \""
+                                                "raw": "\", \"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "optional": false
@@ -640,7 +666,9 @@
                                           "start": 1207,
                                           "end": 1223,
                                           "value": " with matcher ",
-                                          "raw": "\" with matcher \""
+                                          "raw": "\" with matcher \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -657,7 +685,9 @@
                                       "start": 1236,
                                       "end": 1239,
                                       "value": ".",
-                                      "raw": "\".\""
+                                      "raw": "\".\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

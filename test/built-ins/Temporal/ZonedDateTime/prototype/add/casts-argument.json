@@ -54,6 +54,7 @@
                   "end": 383,
                   "value": null,
                   "raw": "560174321098766n",
+                  "regex": null,
                   "bigint": "560174321098766"
                 }
               },
@@ -62,7 +63,9 @@
                 "start": 385,
                 "end": 390,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -115,6 +118,7 @@
                 "end": 498,
                 "value": null,
                 "raw": "303825678902034n",
+                "regex": null,
                 "bigint": "303825678902034"
               },
               {
@@ -122,7 +126,9 @@
                 "start": 500,
                 "end": 505,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -187,7 +193,9 @@
                 "start": 559,
                 "end": 579,
                 "value": "PT240H0.000000800S",
-                "raw": "\"PT240H0.000000800S\""
+                "raw": "\"PT240H0.000000800S\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

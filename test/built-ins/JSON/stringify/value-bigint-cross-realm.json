@@ -129,7 +129,9 @@
                     "start": 355,
                     "end": 358,
                     "value": 100,
-                    "raw": "100"
+                    "raw": "100",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -223,7 +225,9 @@
             "start": 433,
             "end": 482,
             "value": "cross-realm BigInt object without toJSON method",
-            "raw": "\"cross-realm BigInt object without toJSON method\""
+            "raw": "\"cross-realm BigInt object without toJSON method\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -398,14 +402,18 @@
             "start": 602,
             "end": 611,
             "value": "\"100\"",
-            "raw": "\"\\\"100\\\"\""
+            "raw": "\"\\\"100\\\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 676,
             "value": "cross-realm BigInt object with toJSON method",
-            "raw": "\"cross-realm BigInt object with toJSON method\""
+            "raw": "\"cross-realm BigInt object with toJSON method\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

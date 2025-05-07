@@ -78,7 +78,9 @@
                     "start": 349,
                     "end": 405,
                     "value": "#1: (new Object()).newProperty === undefined. Actual: ",
-                    "raw": "'#1: (new Object()).newProperty === undefined. Actual: '"
+                    "raw": "'#1: (new Object()).newProperty === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

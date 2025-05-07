@@ -55,7 +55,9 @@
             "start": 544,
             "end": 549,
             "value": "add",
-            "raw": "'add'"
+            "raw": "'add'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -154,7 +156,9 @@
             "start": 639,
             "end": 643,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

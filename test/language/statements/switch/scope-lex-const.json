@@ -12,7 +12,9 @@
         "start": 832,
         "end": 833,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -40,7 +42,9 @@
                     "start": 856,
                     "end": 857,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 255,
                 "end": 266,
                 "raw": "\"redisHash\"",
-                "value": "redisHash"
+                "value": "redisHash",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -60,7 +62,9 @@ __ESTREE_TEST__:PASS:
                 "start": 297,
                 "end": 321,
                 "raw": "\"jsonEncodedRedisString\"",
-                "value": "jsonEncodedRedisString"
+                "value": "jsonEncodedRedisString",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -1132,7 +1136,9 @@ __ESTREE_TEST__:PASS:
                   "start": 819,
                   "end": 825,
                   "raw": "\"name\"",
-                  "value": "name"
+                  "value": "name",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2164,7 +2170,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1479,
                   "end": 1489,
                   "raw": "\"storedAs\"",
-                  "value": "storedAs"
+                  "value": "storedAs",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2560,7 +2568,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 2213,
                                       "end": 2221,
                                       "raw": "\"record\"",
-                                      "value": "record"
+                                      "value": "record",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "objectType": {
@@ -3093,7 +3103,9 @@ __ESTREE_TEST__:PASS:
                     "start": 2378,
                     "end": 2390,
                     "raw": "\"identifier\"",
-                    "value": "identifier"
+                    "value": "identifier",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3119,7 +3131,9 @@ __ESTREE_TEST__:PASS:
                       "start": 2406,
                       "end": 2414,
                       "raw": "\"record\"",
-                      "value": "record"
+                      "value": "record",
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -3933,7 +3947,9 @@ __ESTREE_TEST__:PASS:
                   "start": 2921,
                   "end": 2929,
                   "raw": "\"record\"",
-                  "value": "record"
+                  "value": "record",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -4316,7 +4332,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 3515,
                                           "end": 3516,
                                           "raw": "0",
-                                          "value": 0
+                                          "value": 0,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -4657,7 +4675,9 @@ __ESTREE_TEST__:PASS:
                               "start": 3777,
                               "end": 3778,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             },
                             "typeAnnotation": null
                           }
@@ -4746,7 +4766,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 4073,
                                           "end": 4074,
                                           "raw": "0",
-                                          "value": 0
+                                          "value": 0,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -4858,7 +4880,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 4142,
                                                 "end": 4143,
                                                 "raw": "0",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           }
@@ -4906,7 +4930,9 @@ __ESTREE_TEST__:PASS:
                     "start": 3674,
                     "end": 3703,
                     "raw": "\"maxMsToWaitBeforePublishing\"",
-                    "value": "maxMsToWaitBeforePublishing"
+                    "value": "maxMsToWaitBeforePublishing",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5794,7 +5820,9 @@ __ESTREE_TEST__:PASS:
                         "start": 4585,
                         "end": 4597,
                         "raw": "\"identifier\"",
-                        "value": "identifier"
+                        "value": "identifier",
+                        "regex": null,
+                        "bigint": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -5816,7 +5844,9 @@ __ESTREE_TEST__:PASS:
                         "start": 4610,
                         "end": 4618,
                         "raw": "\"object\"",
-                        "value": "object"
+                        "value": "object",
+                        "regex": null,
+                        "bigint": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -5839,7 +5869,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4631,
                       "end": 4660,
                       "raw": "\"maxMsToWaitBeforePublishing\"",
-                      "value": "maxMsToWaitBeforePublishing"
+                      "value": "maxMsToWaitBeforePublishing",
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -5862,7 +5894,9 @@ __ESTREE_TEST__:PASS:
                     "start": 4673,
                     "end": 4705,
                     "raw": "\"PubSubRecordIsStoredInRedisAsA\"",
-                    "value": "PubSubRecordIsStoredInRedisAsA"
+                    "value": "PubSubRecordIsStoredInRedisAsA",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Identifier",

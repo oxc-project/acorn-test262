@@ -62,7 +62,9 @@
             "start": 288,
             "end": 298,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

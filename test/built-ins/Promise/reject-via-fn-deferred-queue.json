@@ -68,7 +68,9 @@
             "start": 1277,
             "end": 1281,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -249,7 +251,9 @@
                             "start": 1391,
                             "end": 1429,
                             "value": "The promise should not be fulfilled.",
-                            "raw": "'The promise should not be fulfilled.'"
+                            "raw": "'The promise should not be fulfilled.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -305,7 +309,9 @@
                         "start": 1461,
                         "end": 1499,
                         "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "raw": "'The promise should not be fulfilled.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -382,7 +388,9 @@
                               "start": 1553,
                               "end": 1612,
                               "value": "The promise should be rejected with the resolution value.",
-                              "raw": "'The promise should be rejected with the resolution value.'"
+                              "raw": "'The promise should be rejected with the resolution value.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -505,7 +513,9 @@
             "start": 1722,
             "end": 1754,
             "value": "\"reject\" function return value",
-            "raw": "'\"reject\" function return value'"
+            "raw": "'\"reject\" function return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

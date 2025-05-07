@@ -105,7 +105,9 @@
                     "start": 528,
                     "end": 578,
                     "value": "#1: -Infinity * -Infinity === Infinity. Actual: ",
-                    "raw": "'#1: -Infinity * -Infinity === Infinity. Actual: '"
+                    "raw": "'#1: -Infinity * -Infinity === Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -255,7 +257,9 @@
                     "start": 733,
                     "end": 781,
                     "value": "#2: Infinity * Infinity === Infinity. Actual: ",
-                    "raw": "'#2: Infinity * Infinity === Infinity. Actual: '"
+                    "raw": "'#2: Infinity * Infinity === Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -391,7 +395,9 @@
                     "start": 934,
                     "end": 984,
                     "value": "#3: -Infinity * Infinity === -Infinity. Actual: ",
-                    "raw": "'#3: -Infinity * Infinity === -Infinity. Actual: '"
+                    "raw": "'#3: -Infinity * Infinity === -Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -534,7 +540,9 @@
                     "start": 1138,
                     "end": 1188,
                     "value": "#4: Infinity * -Infinity === -Infinity. Actual: ",
-                    "raw": "'#4: Infinity * -Infinity === -Infinity. Actual: '"
+                    "raw": "'#4: Infinity * -Infinity === -Infinity. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

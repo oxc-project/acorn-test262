@@ -46,7 +46,9 @@
                         "start": 465,
                         "end": 471,
                         "value": "lego",
-                        "raw": "\"lego\""
+                        "raw": "\"lego\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -70,7 +72,9 @@
               "start": 485,
               "end": 489,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -81,7 +85,9 @@
           "start": 495,
           "end": 498,
           "value": "l",
-          "raw": "\"l\""
+          "raw": "\"l\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -113,7 +119,9 @@
                     "start": 527,
                     "end": 635,
                     "value": "#1: function(){return \"lego\"}().charAt(null) === \"l\". Actual: function(){return \"lego\"}().charAt(null) ===",
-                    "raw": "'#1: function(){return \"lego\"}().charAt(null) === \"l\". Actual: function(){return \"lego\"}().charAt(null) ==='"
+                    "raw": "'#1: function(){return \"lego\"}().charAt(null) === \"l\". Actual: function(){return \"lego\"}().charAt(null) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -151,7 +159,9 @@
                                   "start": 662,
                                   "end": 668,
                                   "value": "lego",
-                                  "raw": "\"lego\""
+                                  "raw": "\"lego\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -175,7 +185,9 @@
                         "start": 682,
                         "end": 686,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

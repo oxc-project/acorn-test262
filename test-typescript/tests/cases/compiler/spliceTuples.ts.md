@@ -131,7 +131,9 @@ __ESTREE_TEST__:PASS:
               "start": 79,
               "end": 80,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",
@@ -236,7 +238,9 @@ __ESTREE_TEST__:PASS:
               "start": 140,
               "end": 141,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",
@@ -257,7 +261,9 @@ __ESTREE_TEST__:PASS:
               "start": 150,
               "end": 151,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -409,7 +415,9 @@ __ESTREE_TEST__:PASS:
               "start": 245,
               "end": 246,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",
@@ -580,7 +588,9 @@ __ESTREE_TEST__:PASS:
               "start": 358,
               "end": 359,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",
@@ -695,7 +705,9 @@ __ESTREE_TEST__:PASS:
               "start": 427,
               "end": 428,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",
@@ -815,7 +827,9 @@ __ESTREE_TEST__:PASS:
               "start": 505,
               "end": 506,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",

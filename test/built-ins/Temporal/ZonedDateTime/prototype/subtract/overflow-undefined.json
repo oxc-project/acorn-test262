@@ -54,6 +54,7 @@
                   "end": 1251,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               },
@@ -62,7 +63,9 @@
                 "start": 1253,
                 "end": 1258,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -114,14 +117,18 @@
                 "start": 1300,
                 "end": 1301,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1303,
                 "end": 1304,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -268,6 +275,7 @@
               "end": 1444,
               "value": null,
               "raw": "2678400_000_000_001n",
+              "regex": null,
               "bigint": "2678400000000001"
             }
           },
@@ -276,7 +284,9 @@
             "start": 1446,
             "end": 1477,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -399,6 +409,7 @@
               "end": 1595,
               "value": null,
               "raw": "2678400_000_000_001n",
+              "regex": null,
               "bigint": "2678400000000001"
             }
           },
@@ -407,7 +418,9 @@
             "start": 1597,
             "end": 1628,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

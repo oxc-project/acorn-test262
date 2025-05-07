@@ -53,7 +53,9 @@
                 "start": 385,
                 "end": 399,
                 "value": "return name;",
-                "raw": "\"return name;\""
+                "raw": "\"return name;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -100,7 +102,9 @@
                   "start": 423,
                   "end": 429,
                   "value": "mars",
-                  "raw": "\"mars\""
+                  "raw": "\"mars\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -122,7 +126,9 @@
                   "start": 440,
                   "end": 445,
                   "value": "red",
-                  "raw": "\"red\""
+                  "raw": "\"red\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -144,7 +150,9 @@
                   "start": 457,
                   "end": 458,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -204,7 +212,9 @@
                 "start": 491,
                 "end": 534,
                 "value": "this.godname=\"ares\"; return this.color;",
-                "raw": "\"this.godname=\\\"ares\\\"; return this.color;\""
+                "raw": "\"this.godname=\\\"ares\\\"; return this.color;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -325,7 +335,9 @@
             "start": 624,
             "end": 630,
             "value": "ares",
-            "raw": "\"ares\""
+            "raw": "\"ares\"",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "&&",
@@ -386,7 +398,9 @@
                   "start": 689,
                   "end": 764,
                   "value": "#3: When applied to the Function object itself, thisArg should be ignored",
-                  "raw": "'#3: When applied to the Function object itself, thisArg should be ignored'"
+                  "raw": "'#3: When applied to the Function object itself, thisArg should be ignored'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

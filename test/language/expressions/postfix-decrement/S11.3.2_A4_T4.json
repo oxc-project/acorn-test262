@@ -89,7 +89,9 @@
           "start": 298,
           "end": 302,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -121,7 +123,9 @@
                     "start": 331,
                     "end": 385,
                     "value": "#1: var x; var y = x--; y === Not-a-Number. Actual: ",
-                    "raw": "'#1: var x; var y = x--; y === Not-a-Number. Actual: '"
+                    "raw": "'#1: var x; var y = x--; y === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -163,7 +167,9 @@
             "start": 415,
             "end": 419,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -221,7 +227,9 @@
           "start": 444,
           "end": 445,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -253,7 +261,9 @@
                     "start": 474,
                     "end": 524,
                     "value": "#2: var x = null; var y = x--; y === 0. Actual: ",
-                    "raw": "'#2: var x = null; var y = x--; y === 0. Actual: '"
+                    "raw": "'#2: var x = null; var y = x--; y === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -175,14 +175,18 @@
             "start": 504,
             "end": 521,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 581,
             "value": "The value of __tostr is expected to be \"[object Object]\"",
-            "raw": "'The value of __tostr is expected to be \"[object Object]\"'"
+            "raw": "'The value of __tostr is expected to be \"[object Object]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

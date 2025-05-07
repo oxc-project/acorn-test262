@@ -23,7 +23,9 @@
             "start": 412,
             "end": 413,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "$",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -186,7 +189,9 @@
                     "start": 543,
                     "end": 544,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -241,7 +246,9 @@
                 "start": 590,
                 "end": 592,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -258,7 +265,9 @@
                 "start": 601,
                 "end": 604,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -312,7 +321,9 @@
             "start": 649,
             "end": 651,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,7 +368,9 @@
             "start": 678,
             "end": 679,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -404,7 +417,9 @@
                 "start": 699,
                 "end": 707,
                 "value": "dollar",
-                "raw": "\"dollar\""
+                "raw": "\"dollar\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -421,7 +436,9 @@
                 "start": 716,
                 "end": 724,
                 "value": "dollar",
-                "raw": "\"dollar\""
+                "raw": "\"dollar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -432,7 +449,8 @@
                 "regex": {
                   "pattern": "$",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -442,7 +460,9 @@
             "start": 732,
             "end": 737,
             "value": "/$/",
-            "raw": "\"/$/\""
+            "raw": "\"/$/\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

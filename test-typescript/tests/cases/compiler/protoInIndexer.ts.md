@@ -71,7 +71,9 @@ __ESTREE_TEST__:PASS:
                           "start": 43,
                           "end": 54,
                           "raw": "'__proto__'",
-                          "value": "__proto__"
+                          "value": "__proto__",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {
@@ -79,7 +81,9 @@ __ESTREE_TEST__:PASS:
                         "start": 58,
                         "end": 62,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

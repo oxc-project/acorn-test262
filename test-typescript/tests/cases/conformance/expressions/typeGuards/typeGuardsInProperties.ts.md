@@ -334,7 +334,9 @@ __ESTREE_TEST__:PASS:
                             "start": 395,
                             "end": 403,
                             "raw": "\"string\"",
-                            "value": "string"
+                            "value": "string",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -423,7 +425,9 @@ __ESTREE_TEST__:PASS:
                             "start": 475,
                             "end": 483,
                             "raw": "\"string\"",
-                            "value": "string"
+                            "value": "string",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -512,7 +516,9 @@ __ESTREE_TEST__:PASS:
                             "start": 555,
                             "end": 563,
                             "raw": "\"string\"",
-                            "value": "string"
+                            "value": "string",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -678,7 +684,9 @@ __ESTREE_TEST__:PASS:
               "start": 645,
               "end": 653,
               "raw": "\"string\"",
-              "value": "string"
+              "value": "string",
+              "regex": null,
+              "bigint": null
             }
           },
           "right": {
@@ -775,7 +783,9 @@ __ESTREE_TEST__:PASS:
               "start": 713,
               "end": 721,
               "raw": "\"string\"",
-              "value": "string"
+              "value": "string",
+              "regex": null,
+              "bigint": null
             }
           },
           "right": {
@@ -949,7 +959,9 @@ __ESTREE_TEST__:PASS:
               "start": 820,
               "end": 828,
               "raw": "\"string\"",
-              "value": "string"
+              "value": "string",
+              "regex": null,
+              "bigint": null
             }
           },
           "right": {

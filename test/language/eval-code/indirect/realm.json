@@ -119,7 +119,9 @@
             "start": 1048,
             "end": 1061,
             "value": "var x = 23;",
-            "raw": "'var x = 23;'"
+            "raw": "'var x = 23;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -171,7 +173,9 @@
             "start": 1091,
             "end": 1102,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +233,9 @@
             "start": 1131,
             "end": 1133,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

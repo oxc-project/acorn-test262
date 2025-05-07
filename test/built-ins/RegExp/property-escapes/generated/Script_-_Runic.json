@@ -83,14 +83,18 @@
                               "start": 524,
                               "end": 532,
                               "value": 5792,
-                              "raw": "0x0016A0"
+                              "raw": "0x0016A0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 534,
                               "end": 542,
                               "value": 5866,
-                              "raw": "0x0016EA"
+                              "raw": "0x0016EA",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -104,14 +108,18 @@
                               "start": 550,
                               "end": 558,
                               "value": 5870,
-                              "raw": "0x0016EE"
+                              "raw": "0x0016EE",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 560,
                               "end": 568,
                               "value": 5880,
-                              "raw": "0x0016F8"
+                              "raw": "0x0016F8",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -152,7 +160,8 @@
             "regex": {
               "pattern": "^\\p{Script=Runic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -165,7 +174,9 @@
             "start": 643,
             "end": 662,
             "value": "\\p{Script=Runic}",
-            "raw": "\"\\\\p{Script=Runic}\""
+            "raw": "\"\\\\p{Script=Runic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,7 +206,8 @@
             "regex": {
               "pattern": "^\\p{Script=Runr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -208,7 +220,9 @@
             "start": 730,
             "end": 748,
             "value": "\\p{Script=Runr}",
-            "raw": "\"\\\\p{Script=Runr}\""
+            "raw": "\"\\\\p{Script=Runr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +252,8 @@
             "regex": {
               "pattern": "^\\p{sc=Runic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -251,7 +266,9 @@
             "start": 813,
             "end": 828,
             "value": "\\p{sc=Runic}",
-            "raw": "\"\\\\p{sc=Runic}\""
+            "raw": "\"\\\\p{sc=Runic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -281,7 +298,8 @@
             "regex": {
               "pattern": "^\\p{sc=Runr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -294,7 +312,9 @@
             "start": 892,
             "end": 906,
             "value": "\\p{sc=Runr}",
-            "raw": "\"\\\\p{sc=Runr}\""
+            "raw": "\"\\\\p{sc=Runr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -380,14 +400,18 @@
                               "start": 988,
                               "end": 996,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 998,
                               "end": 1006,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1014,
                               "end": 1022,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1024,
                               "end": 1032,
                               "value": 5791,
-                              "raw": "0x00169F"
+                              "raw": "0x00169F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1040,
                               "end": 1048,
                               "value": 5867,
-                              "raw": "0x0016EB"
+                              "raw": "0x0016EB",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1050,
                               "end": 1058,
                               "value": 5869,
-                              "raw": "0x0016ED"
+                              "raw": "0x0016ED",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -443,14 +475,18 @@
                               "start": 1066,
                               "end": 1074,
                               "value": 5881,
-                              "raw": "0x0016F9"
+                              "raw": "0x0016F9",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1076,
                               "end": 1084,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -464,14 +500,18 @@
                               "start": 1092,
                               "end": 1100,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1102,
                               "end": 1110,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -512,7 +552,8 @@
             "regex": {
               "pattern": "^\\P{Script=Runic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -525,7 +566,9 @@
             "start": 1188,
             "end": 1207,
             "value": "\\P{Script=Runic}",
-            "raw": "\"\\\\P{Script=Runic}\""
+            "raw": "\"\\\\P{Script=Runic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +598,8 @@
             "regex": {
               "pattern": "^\\P{Script=Runr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -568,7 +612,9 @@
             "start": 1278,
             "end": 1296,
             "value": "\\P{Script=Runr}",
-            "raw": "\"\\\\P{Script=Runr}\""
+            "raw": "\"\\\\P{Script=Runr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -598,7 +644,8 @@
             "regex": {
               "pattern": "^\\P{sc=Runic}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -611,7 +658,9 @@
             "start": 1364,
             "end": 1379,
             "value": "\\P{sc=Runic}",
-            "raw": "\"\\\\P{sc=Runic}\""
+            "raw": "\"\\\\P{sc=Runic}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,7 +690,8 @@
             "regex": {
               "pattern": "^\\P{sc=Runr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -654,7 +704,9 @@
             "start": 1446,
             "end": 1460,
             "value": "\\P{sc=Runr}",
-            "raw": "\"\\\\P{sc=Runr}\""
+            "raw": "\"\\\\P{sc=Runr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

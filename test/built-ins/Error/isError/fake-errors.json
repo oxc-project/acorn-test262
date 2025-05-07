@@ -96,7 +96,9 @@
                   "start": 354,
                   "end": 356,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -177,7 +179,9 @@
             "start": 411,
             "end": 421,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "&&",
@@ -217,7 +221,9 @@
             "start": 455,
             "end": 463,
             "value": "symbol",
-            "raw": "'symbol'"
+            "raw": "'symbol'",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -272,7 +278,9 @@
                 "start": 501,
                 "end": 508,
                 "value": "Error",
-                "raw": "'Error'"
+                "raw": "'Error'",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -346,7 +354,9 @@
             "start": 556,
             "end": 561,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

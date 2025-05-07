@@ -54,6 +54,7 @@
                   "end": 576,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -72,6 +73,7 @@
               "end": 582,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -80,7 +82,9 @@
             "start": 584,
             "end": 617,
             "value": "The value of -Object(1n) is -1n",
-            "raw": "'The value of -Object(1n) is -1n'"
+            "raw": "'The value of -Object(1n) is -1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,6 +141,7 @@
                   "end": 650,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -149,6 +154,7 @@
             "end": 655,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -156,7 +162,9 @@
             "start": 657,
             "end": 693,
             "value": "The value of -Object(1n) is not 1n",
-            "raw": "'The value of -Object(1n) is not 1n'"
+            "raw": "'The value of -Object(1n) is not 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,6 +221,7 @@
                   "end": 726,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -242,6 +251,7 @@
                   "end": 739,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               }
@@ -253,7 +263,9 @@
             "start": 742,
             "end": 787,
             "value": "The value of -Object(1n) is not Object(-1n)",
-            "raw": "'The value of -Object(1n) is not Object(-1n)'"
+            "raw": "'The value of -Object(1n) is not Object(-1n)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,6 +328,7 @@
                     "end": 818,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 }
@@ -329,6 +342,7 @@
             "end": 823,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -336,7 +350,9 @@
             "start": 825,
             "end": 858,
             "value": "The value of -Object(-1n) is 1n",
-            "raw": "'The value of -Object(-1n) is 1n'"
+            "raw": "'The value of -Object(-1n) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -399,6 +415,7 @@
                     "end": 892,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 }
@@ -418,6 +435,7 @@
               "end": 898,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -426,7 +444,9 @@
             "start": 900,
             "end": 938,
             "value": "The value of -Object(-1n) is not -1n",
-            "raw": "'The value of -Object(-1n) is not -1n'"
+            "raw": "'The value of -Object(-1n) is not -1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -489,6 +509,7 @@
                     "end": 972,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 }
@@ -513,6 +534,7 @@
                 "end": 984,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -523,7 +545,9 @@
             "start": 987,
             "end": 1032,
             "value": "The value of -Object(-1n) is not Object(1n)",
-            "raw": "'The value of -Object(-1n) is not Object(1n)'"
+            "raw": "'The value of -Object(-1n) is not Object(1n)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -618,6 +642,7 @@
                             "end": 1106,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -739,6 +764,7 @@
               "end": 1239,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -747,7 +773,9 @@
             "start": 1241,
             "end": 1410,
             "value": "The value of -{[Symbol.toPrimitive]: function() {return 1n;}, valueOf: function() {throw new Test262Error();}, toString: function() {throw new Test262Error();}} is -1n",
-            "raw": "'The value of -{[Symbol.toPrimitive]: function() {return 1n;}, valueOf: function() {throw new Test262Error();}, toString: function() {throw new Test262Error();}} is -1n'"
+            "raw": "'The value of -{[Symbol.toPrimitive]: function() {return 1n;}, valueOf: function() {throw new Test262Error();}, toString: function() {throw new Test262Error();}} is -1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -829,6 +857,7 @@
                             "end": 1471,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -901,6 +930,7 @@
               "end": 1544,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -909,7 +939,9 @@
             "start": 1546,
             "end": 1653,
             "value": "The value of -{valueOf: function() {return 1n;}, toString: function() {throw new Test262Error();}} is -1n",
-            "raw": "'The value of -{valueOf: function() {return 1n;}, toString: function() {throw new Test262Error();}} is -1n'"
+            "raw": "'The value of -{valueOf: function() {return 1n;}, toString: function() {throw new Test262Error();}} is -1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -991,6 +1023,7 @@
                             "end": 1715,
                             "value": null,
                             "raw": "1n",
+                            "regex": null,
                             "bigint": "1"
                           }
                         }
@@ -1014,6 +1047,7 @@
               "end": 1727,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -1022,7 +1056,9 @@
             "start": 1729,
             "end": 1787,
             "value": "The value of -{toString: function() {return 1n;}} is -1n",
-            "raw": "'The value of -{toString: function() {return 1n;}} is -1n'"
+            "raw": "'The value of -{toString: function() {return 1n;}} is -1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

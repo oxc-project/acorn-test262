@@ -47,7 +47,9 @@
                 "start": 382,
                 "end": 387,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,7 +97,9 @@
             "start": 416,
             "end": 429,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -267,7 +271,9 @@
                                     "start": 582,
                                     "end": 607,
                                     "value": "Should never be called.",
-                                    "raw": "\"Should never be called.\""
+                                    "raw": "\"Should never be called.\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -309,7 +315,9 @@
                                     "start": 655,
                                     "end": 680,
                                     "value": "Should never be called.",
-                                    "raw": "\"Should never be called.\""
+                                    "raw": "\"Should never be called.\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }

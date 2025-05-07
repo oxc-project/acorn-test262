@@ -72,7 +72,9 @@
                 "start": 473,
                 "end": 481,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 512,
                     "end": 590,
                     "value": "#0: String.prototype.concat.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.concat.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#0: String.prototype.concat.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 632,
                         "end": 640,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -238,7 +244,9 @@
             "start": 869,
             "end": 877,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,7 +280,9 @@
                     "start": 907,
                     "end": 992,
                     "value": "#1: String.prototype.concat.propertyIsEnumerable('length') return false. Actual: ",
-                    "raw": "'#1: String.prototype.concat.propertyIsEnumerable(\\'length\\') return false. Actual: '"
+                    "raw": "'#1: String.prototype.concat.propertyIsEnumerable(\\'length\\') return false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -330,7 +340,9 @@
                         "start": 1040,
                         "end": 1048,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -363,7 +375,9 @@
             "start": 1239,
             "end": 1240,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -450,7 +464,9 @@
                 "start": 1296,
                 "end": 1304,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -496,7 +512,9 @@
           "start": 1332,
           "end": 1333,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -528,7 +546,9 @@
                     "start": 1362,
                     "end": 1465,
                     "value": "#2: count = 0; for (p in String.prototype.concat){ if (p===\"length\") count++;}; count === 0. Actual: ",
-                    "raw": "'#2: count = 0; for (p in String.prototype.concat){ if (p===\"length\") count++;}; count === 0. Actual: '"
+                    "raw": "'#2: count = 0; for (p in String.prototype.concat){ if (p===\"length\") count++;}; count === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

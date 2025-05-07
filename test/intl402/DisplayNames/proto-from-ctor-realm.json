@@ -138,7 +138,9 @@
           "start": 1417,
           "end": 1421,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -234,7 +236,9 @@
                           "start": 1488,
                           "end": 1498,
                           "value": "language",
-                          "raw": "'language'"
+                          "raw": "'language'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }

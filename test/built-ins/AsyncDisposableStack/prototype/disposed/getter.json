@@ -66,7 +66,9 @@
                 "start": 491,
                 "end": 501,
                 "value": "disposed",
-                "raw": "'disposed'"
+                "raw": "'disposed'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,14 +136,18 @@
             "start": 550,
             "end": 560,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 564,
             "end": 599,
             "value": "typeof descriptor.get is function",
-            "raw": "'typeof descriptor.get is function'"
+            "raw": "'typeof descriptor.get is function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,14 +212,18 @@
             "start": 648,
             "end": 659,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 699,
             "value": "typeof descriptor.set is undefined",
-            "raw": "'typeof descriptor.set is undefined'"
+            "raw": "'typeof descriptor.set is undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,7 +268,9 @@
             "start": 751,
             "end": 761,
             "value": "disposed",
-            "raw": "'disposed'"
+            "raw": "'disposed'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -283,7 +295,9 @@
                   "start": 779,
                   "end": 784,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -305,7 +319,9 @@
                   "start": 802,
                   "end": 806,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

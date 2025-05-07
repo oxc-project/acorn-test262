@@ -92,7 +92,9 @@
             "start": 378,
             "end": 385,
             "value": "prop1",
-            "raw": "\"prop1\""
+            "raw": "\"prop1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -138,7 +140,9 @@
                   "start": 416,
                   "end": 421,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -187,7 +191,9 @@
             "start": 456,
             "end": 463,
             "value": "prop2",
-            "raw": "\"prop2\""
+            "raw": "\"prop2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -255,7 +261,9 @@
                   "start": 521,
                   "end": 526,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -366,7 +374,9 @@
                 "start": 606,
                 "end": 613,
                 "value": "prop1",
-                "raw": "\"prop1\""
+                "raw": "\"prop1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -376,14 +386,18 @@
             "start": 616,
             "end": 621,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 652,
             "value": "obj.hasOwnProperty(\"prop1\")",
-            "raw": "'obj.hasOwnProperty(\"prop1\")'"
+            "raw": "'obj.hasOwnProperty(\"prop1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -446,7 +460,9 @@
                 "start": 691,
                 "end": 698,
                 "value": "prop2",
-                "raw": "\"prop2\""
+                "raw": "\"prop2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -456,14 +472,18 @@
             "start": 701,
             "end": 706,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 737,
             "value": "obj.hasOwnProperty(\"prop2\")",
-            "raw": "'obj.hasOwnProperty(\"prop2\")'"
+            "raw": "'obj.hasOwnProperty(\"prop2\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

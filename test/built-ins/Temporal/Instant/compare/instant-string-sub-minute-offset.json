@@ -48,6 +48,7 @@
                 "end": 294,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -76,7 +77,9 @@
             "start": 309,
             "end": 345,
             "value": "1970-01-01T00:19:32.37+00:19:32.37",
-            "raw": "\"1970-01-01T00:19:32.37+00:19:32.37\""
+            "raw": "\"1970-01-01T00:19:32.37+00:19:32.37\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -192,14 +195,18 @@
             "start": 428,
             "end": 429,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 499,
             "value": "if present, sub-minute offset is accepted exactly (first argument)",
-            "raw": "\"if present, sub-minute offset is accepted exactly (first argument)\""
+            "raw": "\"if present, sub-minute offset is accepted exactly (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,14 +322,18 @@
             "start": 583,
             "end": 584,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 655,
             "value": "if present, sub-minute offset is accepted exactly (second argument)",
-            "raw": "\"if present, sub-minute offset is accepted exactly (second argument)\""
+            "raw": "\"if present, sub-minute offset is accepted exactly (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

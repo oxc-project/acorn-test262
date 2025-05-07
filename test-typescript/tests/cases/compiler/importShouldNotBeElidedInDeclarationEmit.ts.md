@@ -153,7 +153,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 31,
         "raw": "\"umd\"",
-        "value": "umd"
+        "value": "umd",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

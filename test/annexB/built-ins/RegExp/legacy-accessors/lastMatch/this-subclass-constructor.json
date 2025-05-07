@@ -106,7 +106,9 @@
             "start": 709,
             "end": 763,
             "value": "RegExp.lastMatch getter throws for subclass receiver",
-            "raw": "\"RegExp.lastMatch getter throws for subclass receiver\""
+            "raw": "\"RegExp.lastMatch getter throws for subclass receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +181,9 @@
                       "start": 825,
                       "end": 829,
                       "value": "$&",
-                      "raw": "\"$&\""
+                      "raw": "\"$&\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -193,7 +197,9 @@
             "start": 839,
             "end": 886,
             "value": "RegExp.$& getter throws for subclass receiver",
-            "raw": "\"RegExp.$& getter throws for subclass receiver\""
+            "raw": "\"RegExp.$& getter throws for subclass receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -47,21 +47,27 @@
                 "start": 302,
                 "end": 306,
                 "value": 1914,
-                "raw": "1914"
+                "raw": "1914",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 308,
                 "end": 309,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 313,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,21 +119,27 @@
                 "start": 353,
                 "end": 357,
                 "value": 1914,
-                "raw": "1914"
+                "raw": "1914",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 364,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -220,14 +232,18 @@
             "start": 427,
             "end": 428,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 443,
             "value": "same object",
-            "raw": "\"same object\""
+            "raw": "\"same object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,14 +334,18 @@
             "start": 505,
             "end": 506,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 519,
             "value": "same date",
-            "raw": "\"same date\""
+            "raw": "\"same date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

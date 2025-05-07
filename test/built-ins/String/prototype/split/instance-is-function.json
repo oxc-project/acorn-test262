@@ -59,7 +59,9 @@
                           "start": 436,
                           "end": 450,
                           "value": "function(){}",
-                          "raw": "\"function(){}\""
+                          "raw": "\"function(){}\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -238,7 +240,9 @@
             "start": 591,
             "end": 665,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,14 +300,18 @@
             "start": 703,
             "end": 704,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 740,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -360,7 +368,9 @@
                   "start": 768,
                   "end": 769,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -380,14 +390,18 @@
                 "start": 781,
                 "end": 782,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 784,
                 "end": 785,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -397,14 +411,18 @@
             "start": 788,
             "end": 798,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 800,
             "end": 851,
             "value": "__split[0].substring(0, 8) must return \"function\"",
-            "raw": "'__split[0].substring(0, 8) must return \"function\"'"
+            "raw": "'__split[0].substring(0, 8) must return \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

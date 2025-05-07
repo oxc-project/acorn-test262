@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "a",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -103,7 +104,9 @@
                 "start": 1004,
                 "end": 1007,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -113,7 +116,9 @@
             "start": 1010,
             "end": 1014,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

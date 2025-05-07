@@ -23,7 +23,9 @@
             "start": 328,
             "end": 336,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 384,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -126,7 +129,9 @@
                   "start": 425,
                   "end": 429,
                   "value": 2021,
-                  "raw": "2021"
+                  "raw": "2021",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -148,7 +153,9 @@
                   "start": 438,
                   "end": 440,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -170,7 +177,9 @@
                   "start": 447,
                   "end": 449,
                   "value": 28,
-                  "raw": "28"
+                  "raw": "28",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -192,7 +201,9 @@
                   "start": 459,
                   "end": 467,
                   "value": "-07:00",
-                  "raw": "\"-07:00\""
+                  "raw": "\"-07:00\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -305,7 +316,9 @@
             "start": 542,
             "end": 594,
             "value": "offset property not matching time zone is rejected",
-            "raw": "\"offset property not matching time zone is rejected\""
+            "raw": "\"offset property not matching time zone is rejected\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

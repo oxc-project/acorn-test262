@@ -28,28 +28,36 @@
                 "start": 300,
                 "end": 321,
                 "value": "1970-01-01T00Z[UTC]",
-                "raw": "\"1970-01-01T00Z[UTC]\""
+                "raw": "\"1970-01-01T00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 347,
                 "value": "1970-01-01T00Z[!UTC]",
-                "raw": "\"1970-01-01T00Z[!UTC]\""
+                "raw": "\"1970-01-01T00Z[!UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 377,
                 "value": "1970-01-01T00+00:00[UTC]",
-                "raw": "\"1970-01-01T00+00:00[UTC]\""
+                "raw": "\"1970-01-01T00+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 408,
                 "value": "1970-01-01T00+00:00[!UTC]",
-                "raw": "\"1970-01-01T00+00:00[!UTC]\""
+                "raw": "\"1970-01-01T00+00:00[!UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -210,7 +218,9 @@
                   "start": 547,
                   "end": 552,
                   "value": "UTC",
-                  "raw": "\"UTC\""
+                  "raw": "\"UTC\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -279,28 +289,36 @@
                 "start": 654,
                 "end": 672,
                 "value": "2022-09-15Z[UTC]",
-                "raw": "\"2022-09-15Z[UTC]\""
+                "raw": "\"2022-09-15Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 676,
                 "end": 704,
                 "value": "2022-09-15Z[Europe/Vienna]",
-                "raw": "\"2022-09-15Z[Europe/Vienna]\""
+                "raw": "\"2022-09-15Z[Europe/Vienna]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 708,
                 "end": 731,
                 "value": "2022-09-15+00:00[UTC]",
-                "raw": "\"2022-09-15+00:00[UTC]\""
+                "raw": "\"2022-09-15+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 735,
                 "end": 771,
                 "value": "2022-09-15-02:30[America/St_Johns]",
-                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -264,7 +264,9 @@
                                       "start": 764,
                                       "end": 774,
                                       "value": "rejected",
-                                      "raw": "'rejected'"
+                                      "raw": "'rejected'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },

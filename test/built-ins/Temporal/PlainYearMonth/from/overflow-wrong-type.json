@@ -52,14 +52,18 @@
                     "start": 1109,
                     "end": 1113,
                     "value": 2000,
-                    "raw": "2000"
+                    "raw": "2000",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1115,
                     "end": 1116,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -86,7 +90,9 @@
                       "start": 1129,
                       "end": 1133,
                       "value": 2000,
-                      "raw": "2000"
+                      "raw": "2000",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -108,7 +114,9 @@
                       "start": 1142,
                       "end": 1143,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -119,7 +127,9 @@
                 "start": 1149,
                 "end": 1158,
                 "value": "2000-05",
-                "raw": "\"2000-05\""
+                "raw": "\"2000-05\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -200,14 +210,18 @@
                   "start": 1237,
                   "end": 1247,
                   "value": "overflow",
-                  "raw": "\"overflow\""
+                  "raw": "\"overflow\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1249,
                   "end": 1260,
                   "value": "constrain",
-                  "raw": "\"constrain\""
+                  "raw": "\"constrain\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -357,21 +371,27 @@
                         "start": 1395,
                         "end": 1399,
                         "value": 2000,
-                        "raw": "2000"
+                        "raw": "2000",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1401,
                         "end": 1402,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1404,
                         "end": 1409,
                         "value": "M05",
-                        "raw": "\"M05\""
+                        "raw": "\"M05\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

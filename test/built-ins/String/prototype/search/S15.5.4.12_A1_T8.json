@@ -117,7 +117,9 @@
                 "start": 575,
                 "end": 576,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -129,7 +131,9 @@
           "start": 582,
           "end": 583,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -161,7 +165,9 @@
                     "start": 612,
                     "end": 695,
                     "value": "#1: __obj = {toString:function(){}}; String(__obj).search(void 0) === 0. Actual: ",
-                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).search(void 0) === 0. Actual: '"
+                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).search(void 0) === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -213,7 +219,9 @@
                           "start": 724,
                           "end": 725,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

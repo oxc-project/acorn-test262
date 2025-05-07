@@ -61,7 +61,9 @@
             "start": 709,
             "end": 710,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
             "start": 728,
             "end": 729,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -132,7 +136,9 @@
             "start": 763,
             "end": 772,
             "value": "resolve",
-            "raw": "'resolve'"
+            "raw": "'resolve'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -157,7 +163,9 @@
                   "start": 792,
                   "end": 796,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -208,7 +216,9 @@
                             "start": 824,
                             "end": 825,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -250,7 +260,9 @@
                                     "start": 870,
                                     "end": 871,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               },
@@ -390,14 +402,18 @@
             "start": 992,
             "end": 993,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1044,
             "value": "Got `resolve` only once for each iterated value",
-            "raw": "'Got `resolve` only once for each iterated value'"
+            "raw": "'Got `resolve` only once for each iterated value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -442,14 +458,18 @@
             "start": 1079,
             "end": 1080,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1082,
             "end": 1123,
             "value": "`resolve` not called for empty iterator",
-            "raw": "'`resolve` not called for empty iterator'"
+            "raw": "'`resolve` not called for empty iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

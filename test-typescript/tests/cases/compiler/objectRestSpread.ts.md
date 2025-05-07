@@ -242,14 +242,18 @@ __ESTREE_TEST__:PASS:
                     "start": 97,
                     "end": 99,
                     "raw": "''",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Literal",
                     "start": 102,
                     "end": 109,
                     "raw": "'other'",
-                    "value": "other"
+                    "value": "other",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init",
@@ -370,14 +374,18 @@ __ESTREE_TEST__:PASS:
                                     "start": 160,
                                     "end": 168,
                                     "raw": "'nested'",
-                                    "value": "nested"
+                                    "value": "nested",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "right": {
                                     "type": "Literal",
                                     "start": 171,
                                     "end": 177,
                                     "raw": "'prop'",
-                                    "value": "prop"
+                                    "value": "prop",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "kind": "init",
@@ -683,14 +691,18 @@ __ESTREE_TEST__:PASS:
                   "start": 340,
                   "end": 342,
                   "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Literal",
                   "start": 345,
                   "end": 352,
                   "raw": "'other'",
-                  "value": "other"
+                  "value": "other",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "kind": "init",

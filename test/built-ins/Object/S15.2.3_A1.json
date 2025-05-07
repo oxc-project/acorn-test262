@@ -59,7 +59,9 @@
                     "start": 314,
                     "end": 325,
                     "value": "prototype",
-                    "raw": "\"prototype\""
+                    "raw": "\"prototype\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -71,7 +73,9 @@
             "start": 330,
             "end": 404,
             "value": "The value of !!Object.hasOwnProperty(\"prototype\") is expected to be true",
-            "raw": "'The value of !!Object.hasOwnProperty(\"prototype\") is expected to be true'"
+            "raw": "'The value of !!Object.hasOwnProperty(\"prototype\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -25,7 +25,9 @@
         "start": 449,
         "end": 475,
         "value": "./define-own-property.js",
-        "raw": "'./define-own-property.js'"
+        "raw": "'./define-own-property.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -133,7 +135,9 @@
         "start": 573,
         "end": 599,
         "value": "./define-own-property.js",
-        "raw": "'./define-own-property.js'"
+        "raw": "'./define-own-property.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -168,7 +172,9 @@
                 "start": 618,
                 "end": 627,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -202,21 +208,27 @@
                 "start": 649,
                 "end": 657,
                 "value": "local1",
-                "raw": "'local1'"
+                "raw": "'local1'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 659,
                 "end": 668,
                 "value": "renamed",
-                "raw": "'renamed'"
+                "raw": "'renamed'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 670,
                 "end": 680,
                 "value": "indirect",
-                "raw": "'indirect'"
+                "raw": "'indirect'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -259,14 +271,18 @@
             "start": 733,
             "end": 741,
             "value": "local2",
-            "raw": "'local2'"
+            "raw": "'local2'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 743,
             "end": 744,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -378,7 +394,9 @@
                   "start": 836,
                   "end": 841,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -389,7 +407,9 @@
                     "start": 847,
                     "end": 873,
                     "value": "Reflect.defineProperty: ",
-                    "raw": "'Reflect.defineProperty: '"
+                    "raw": "'Reflect.defineProperty: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -533,7 +553,9 @@
                     "start": 981,
                     "end": 1006,
                     "value": "Object.defineProperty: ",
-                    "raw": "'Object.defineProperty: '"
+                    "raw": "'Object.defineProperty: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -720,7 +742,9 @@
                   "start": 1193,
                   "end": 1197,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -731,7 +755,9 @@
                     "start": 1203,
                     "end": 1229,
                     "value": "Reflect.defineProperty: ",
-                    "raw": "'Reflect.defineProperty: '"
+                    "raw": "'Reflect.defineProperty: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -853,7 +879,9 @@
                     "start": 1324,
                     "end": 1349,
                     "value": "Object.defineProperty: ",
-                    "raw": "'Object.defineProperty: '"
+                    "raw": "'Object.defineProperty: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -953,7 +981,9 @@
                 "start": 1423,
                 "end": 1433,
                 "value": "indirect",
-                "raw": "'indirect'"
+                "raw": "'indirect'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -978,7 +1008,9 @@
                       "start": 1452,
                       "end": 1456,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1000,7 +1032,9 @@
                       "start": 1470,
                       "end": 1474,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1022,7 +1056,9 @@
                       "start": 1490,
                       "end": 1495,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1036,14 +1072,18 @@
             "start": 1501,
             "end": 1505,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1509,
             "end": 1543,
             "value": "Reflect.defineProperty: indirect",
-            "raw": "'Reflect.defineProperty: indirect'"
+            "raw": "'Reflect.defineProperty: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1112,7 +1152,9 @@
                 "start": 1593,
                 "end": 1603,
                 "value": "indirect",
-                "raw": "'indirect'"
+                "raw": "'indirect'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -1137,7 +1179,9 @@
                       "start": 1622,
                       "end": 1626,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1159,7 +1203,9 @@
                       "start": 1640,
                       "end": 1644,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1181,7 +1227,9 @@
                       "start": 1660,
                       "end": 1665,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1201,7 +1249,9 @@
             "start": 1677,
             "end": 1710,
             "value": "Object.defineProperty: indirect",
-            "raw": "'Object.defineProperty: indirect'"
+            "raw": "'Object.defineProperty: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1307,7 +1357,9 @@
                       "start": 1796,
                       "end": 1804,
                       "value": "Module",
-                      "raw": "\"Module\""
+                      "raw": "\"Module\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1329,7 +1381,9 @@
                       "start": 1816,
                       "end": 1821,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1351,7 +1405,9 @@
                       "start": 1835,
                       "end": 1840,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1373,7 +1429,9 @@
                       "start": 1863,
                       "end": 1868,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1387,14 +1445,18 @@
             "start": 1874,
             "end": 1878,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1882,
             "end": 1926,
             "value": "Reflect.defineProperty: Symbol.toStringTag",
-            "raw": "'Reflect.defineProperty: Symbol.toStringTag'"
+            "raw": "'Reflect.defineProperty: Symbol.toStringTag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1500,7 +1562,9 @@
                       "start": 2010,
                       "end": 2018,
                       "value": "Module",
-                      "raw": "\"Module\""
+                      "raw": "\"Module\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1522,7 +1586,9 @@
                       "start": 2030,
                       "end": 2035,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1544,7 +1610,9 @@
                       "start": 2049,
                       "end": 2054,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1566,7 +1634,9 @@
                       "start": 2077,
                       "end": 2082,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1586,7 +1656,9 @@
             "start": 2094,
             "end": 2137,
             "value": "Object.defineProperty: Symbol.toStringTag",
-            "raw": "'Object.defineProperty: Symbol.toStringTag'"
+            "raw": "'Object.defineProperty: Symbol.toStringTag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1751,7 +1823,9 @@
                             "start": 2302,
                             "end": 2305,
                             "value": 123,
-                            "raw": "123"
+                            "raw": "123",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -1765,7 +1839,9 @@
                   "start": 2313,
                   "end": 2318,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1776,7 +1852,9 @@
                     "start": 2324,
                     "end": 2350,
                     "value": "Reflect.defineProperty: ",
-                    "raw": "'Reflect.defineProperty: '"
+                    "raw": "'Reflect.defineProperty: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1921,7 +1999,9 @@
                                     "start": 2456,
                                     "end": 2459,
                                     "value": 123,
-                                    "raw": "123"
+                                    "raw": "123",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -1943,7 +2023,9 @@
                     "start": 2468,
                     "end": 2493,
                     "value": "Object.defineProperty: ",
-                    "raw": "'Object.defineProperty: '"
+                    "raw": "'Object.defineProperty: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2043,7 +2125,9 @@
                 "start": 2563,
                 "end": 2573,
                 "value": "indirect",
-                "raw": "'indirect'"
+                "raw": "'indirect'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -2068,7 +2152,9 @@
                       "start": 2592,
                       "end": 2596,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2090,7 +2176,9 @@
                       "start": 2610,
                       "end": 2614,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2112,7 +2200,9 @@
                       "start": 2630,
                       "end": 2634,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2126,14 +2216,18 @@
             "start": 2640,
             "end": 2645,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2649,
             "end": 2683,
             "value": "Reflect.defineProperty: indirect",
-            "raw": "'Reflect.defineProperty: indirect'"
+            "raw": "'Reflect.defineProperty: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2226,7 +2320,9 @@
                         "start": 2753,
                         "end": 2763,
                         "value": "indirect",
-                        "raw": "'indirect'"
+                        "raw": "'indirect'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -2251,7 +2347,9 @@
                               "start": 2782,
                               "end": 2786,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -2273,7 +2371,9 @@
                               "start": 2800,
                               "end": 2804,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -2295,7 +2395,9 @@
                               "start": 2820,
                               "end": 2824,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -2313,7 +2415,9 @@
             "start": 2831,
             "end": 2864,
             "value": "Object.defineProperty: indirect",
-            "raw": "'Object.defineProperty: indirect'"
+            "raw": "'Object.defineProperty: indirect'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2419,7 +2523,9 @@
                       "start": 2949,
                       "end": 2957,
                       "value": "module",
-                      "raw": "\"module\""
+                      "raw": "\"module\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2441,7 +2547,9 @@
                       "start": 2969,
                       "end": 2974,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2463,7 +2571,9 @@
                       "start": 2988,
                       "end": 2993,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -2485,7 +2595,9 @@
                       "start": 3016,
                       "end": 3021,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -2499,14 +2611,18 @@
             "start": 3027,
             "end": 3032,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3036,
             "end": 3080,
             "value": "Reflect.defineProperty: Symbol.toStringTag",
-            "raw": "'Reflect.defineProperty: Symbol.toStringTag'"
+            "raw": "'Reflect.defineProperty: Symbol.toStringTag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2636,7 +2752,9 @@
                               "start": 3184,
                               "end": 3192,
                               "value": "module",
-                              "raw": "\"module\""
+                              "raw": "\"module\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -2658,7 +2776,9 @@
                               "start": 3204,
                               "end": 3209,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -2680,7 +2800,9 @@
                               "start": 3223,
                               "end": 3228,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -2702,7 +2824,9 @@
                               "start": 3251,
                               "end": 3256,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -2720,7 +2844,9 @@
             "start": 3263,
             "end": 3306,
             "value": "Object.defineProperty: Symbol.toStringTag",
-            "raw": "'Object.defineProperty: Symbol.toStringTag'"
+            "raw": "'Object.defineProperty: Symbol.toStringTag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2750,7 +2876,9 @@
               "start": 3438,
               "end": 3439,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -2796,7 +2924,9 @@
             "start": 3463,
             "end": 3464,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -2916,7 +3046,9 @@
                     "start": 3559,
                     "end": 3576,
                     "value": "Object.freeze: ",
-                    "raw": "\"Object.freeze: \""
+                    "raw": "\"Object.freeze: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -3093,7 +3225,9 @@
                   "start": 3718,
                   "end": 3722,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -3125,7 +3259,9 @@
                     "start": 3738,
                     "end": 3749,
                     "value": " writable",
-                    "raw": "\" writable\""
+                    "raw": "\" writable\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -3195,7 +3331,9 @@
             "start": 3784,
             "end": 3813,
             "value": "namespace object not frozen",
-            "raw": "\"namespace object not frozen\""
+            "raw": "\"namespace object not frozen\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

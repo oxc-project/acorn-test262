@@ -57,7 +57,9 @@
                 "start": 329,
                 "end": 335,
                 "value": "Math",
-                "raw": "'Math'"
+                "raw": "'Math'",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -85,7 +87,9 @@
                         "start": 366,
                         "end": 402,
                         "value": "#1: 'Math' have attribute DontEnum",
-                        "raw": "\"#1: 'Math' have attribute DontEnum\""
+                        "raw": "\"#1: 'Math' have attribute DontEnum\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -74,7 +74,9 @@
             "start": 632,
             "end": 633,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +149,9 @@
                             "start": 688,
                             "end": 689,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -160,7 +164,9 @@
                           "start": 702,
                           "end": 703,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -279,7 +285,9 @@
             "start": 800,
             "end": 810,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -385,7 +393,9 @@
             "start": 883,
             "end": 900,
             "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "raw": "'ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -491,7 +501,9 @@
             "start": 973,
             "end": 994,
             "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "raw": "'array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -597,7 +609,9 @@
             "start": 1069,
             "end": 1094,
             "value": "arguments exotic object",
-            "raw": "'arguments exotic object'"
+            "raw": "'arguments exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -642,14 +656,18 @@
             "start": 1126,
             "end": 1127,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1129,
             "end": 1165,
             "value": "validation precedes input coercion",
-            "raw": "'validation precedes input coercion'"
+            "raw": "'validation precedes input coercion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

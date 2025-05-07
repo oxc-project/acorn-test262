@@ -73,7 +73,9 @@
                 "start": 326,
                 "end": 335,
                 "value": "toFixed",
-                "raw": "\"toFixed\""
+                "raw": "\"toFixed\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 340,
             "end": 344,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 409,
             "value": "Number.prototype.hasOwnProperty(\"toFixed\") must return true",
-            "raw": "'Number.prototype.hasOwnProperty(\"toFixed\") must return true'"
+            "raw": "'Number.prototype.hasOwnProperty(\"toFixed\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

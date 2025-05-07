@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -53,7 +54,9 @@
             "start": 990,
             "end": 995,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -97,7 +100,9 @@
                   "start": 1030,
                   "end": 1031,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -113,7 +118,9 @@
                   "start": 1035,
                   "end": 1036,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -156,7 +163,9 @@
                                 "start": 1080,
                                 "end": 1082,
                                 "value": "",
-                                "raw": "''"
+                                "raw": "''",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -211,7 +220,9 @@
                                     "start": 1146,
                                     "end": 1182,
                                     "value": "This method should not be invoked.",
-                                    "raw": "'This method should not be invoked.'"
+                                    "raw": "'This method should not be invoked.'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -243,7 +254,9 @@
                   "start": 1206,
                   "end": 1207,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -319,7 +332,9 @@
                         "start": 1281,
                         "end": 1285,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -346,7 +361,9 @@
                     "start": 1322,
                     "end": 1326,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -436,14 +453,18 @@
                 "start": 1392,
                 "end": 1394,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1396,
                 "end": 1401,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -453,7 +474,9 @@
             "start": 1404,
             "end": 1409,
             "value": "foo",
-            "raw": "'foo'"
+            "raw": "'foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,7 +534,9 @@
             "start": 1442,
             "end": 1443,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -80,7 +80,9 @@
               "start": 372,
               "end": 384,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -138,7 +140,9 @@
             "start": 414,
             "end": 430,
             "value": "foo() !== true",
-            "raw": "'foo() !== true'"
+            "raw": "'foo() !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

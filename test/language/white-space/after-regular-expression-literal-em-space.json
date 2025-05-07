@@ -16,7 +16,8 @@
         "regex": {
           "pattern": "x",
           "flags": "g"
-        }
+        },
+        "bigint": null
       }
     }
   ],

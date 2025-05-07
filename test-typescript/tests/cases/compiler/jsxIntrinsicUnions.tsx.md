@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 75,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -63,14 +65,18 @@ __ESTREE_TEST__:PASS:
               "start": 112,
               "end": 116,
               "raw": "'h2'",
-              "value": "h2"
+              "value": "h2",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 105,
               "end": 109,
               "raw": "'h1'",
-              "value": "h1"
+              "value": "h1",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "CallExpression",
@@ -144,7 +150,9 @@ __ESTREE_TEST__:PASS:
                   "start": 161,
                   "end": 168,
                   "raw": "\"Title\"",
-                  "value": "Title"
+                  "value": "Title",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -179,7 +187,9 @@ __ESTREE_TEST__:PASS:
                     "start": 145,
                     "end": 149,
                     "raw": "\"ok\"",
-                    "value": "ok"
+                    "value": "ok",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -197,7 +207,9 @@ __ESTREE_TEST__:PASS:
                     "start": 154,
                     "end": 159,
                     "raw": "\"key\"",
-                    "value": "key"
+                    "value": "key",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

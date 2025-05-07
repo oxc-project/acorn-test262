@@ -20,7 +20,9 @@
             "start": 304,
             "end": 308,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           "operator": ">>",
           "right": {
@@ -36,7 +38,9 @@
           "start": 326,
           "end": 327,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -68,7 +72,9 @@
                     "start": 356,
                     "end": 395,
                     "value": "#1: null >> undefined === 0. Actual: ",
-                    "raw": "'#1: null >> undefined === 0. Actual: '"
+                    "raw": "'#1: null >> undefined === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -84,7 +90,9 @@
                         "start": 399,
                         "end": 403,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": ">>",
                       "right": {
@@ -127,7 +135,9 @@
             "start": 450,
             "end": 454,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -136,7 +146,9 @@
           "start": 459,
           "end": 460,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -168,7 +180,9 @@
                     "start": 489,
                     "end": 528,
                     "value": "#2: undefined >> null === 0. Actual: ",
-                    "raw": "'#2: undefined >> null === 0. Actual: '"
+                    "raw": "'#2: undefined >> null === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -191,7 +205,9 @@
                         "start": 545,
                         "end": 549,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -235,7 +251,9 @@
           "start": 597,
           "end": 598,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -267,7 +285,9 @@
                     "start": 627,
                     "end": 671,
                     "value": "#3: undefined >> undefined === 0. Actual: ",
-                    "raw": "'#3: undefined >> undefined === 0. Actual: '"
+                    "raw": "'#3: undefined >> undefined === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -318,7 +338,9 @@
             "start": 718,
             "end": 722,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           "operator": ">>",
           "right": {
@@ -326,7 +348,9 @@
             "start": 726,
             "end": 730,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -335,7 +359,9 @@
           "start": 735,
           "end": 736,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -367,7 +393,9 @@
                     "start": 765,
                     "end": 799,
                     "value": "#4: null >> null === 0. Actual: ",
-                    "raw": "'#4: null >> null === 0. Actual: '"
+                    "raw": "'#4: null >> null === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -383,7 +411,9 @@
                         "start": 803,
                         "end": 807,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": ">>",
                       "right": {
@@ -391,7 +421,9 @@
                         "start": 811,
                         "end": 815,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

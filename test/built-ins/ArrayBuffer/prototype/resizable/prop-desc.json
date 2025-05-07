@@ -66,7 +66,9 @@
                 "start": 661,
                 "end": 672,
                 "value": "resizable",
-                "raw": "'resizable'"
+                "raw": "'resizable'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,7 +193,9 @@
             "start": 749,
             "end": 759,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +240,9 @@
             "start": 801,
             "end": 812,
             "value": "resizable",
-            "raw": "'resizable'"
+            "raw": "'resizable'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -261,7 +267,9 @@
                   "start": 830,
                   "end": 835,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -283,7 +291,9 @@
                   "start": 853,
                   "end": 857,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

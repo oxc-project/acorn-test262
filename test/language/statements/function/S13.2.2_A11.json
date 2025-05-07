@@ -54,7 +54,9 @@
                 "start": 422,
                 "end": 423,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -140,7 +142,9 @@
                     "start": 495,
                     "end": 506,
                     "value": "id_string",
-                    "raw": "\"id_string\""
+                    "raw": "\"id_string\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -209,7 +213,9 @@
                   "start": 666,
                   "end": 722,
                   "value": "#1: var obj = new FACTORY() lead to throwing exception",
-                  "raw": "'#1: var obj = new FACTORY() lead to throwing exception'"
+                  "raw": "'#1: var obj = new FACTORY() lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

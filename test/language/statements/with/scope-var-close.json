@@ -50,7 +50,9 @@
               "start": 720,
               "end": 721,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init"
           }
@@ -76,7 +78,9 @@
               "start": 735,
               "end": 736,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -154,7 +158,9 @@
             "start": 789,
             "end": 790,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -206,14 +212,18 @@
             "start": 823,
             "end": 824,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 857,
             "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "raw": "'reference from statement body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,14 +268,18 @@
             "start": 880,
             "end": 881,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 883,
             "end": 914,
             "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "raw": "'reference following statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

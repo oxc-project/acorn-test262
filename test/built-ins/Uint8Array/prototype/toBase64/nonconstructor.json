@@ -76,7 +76,9 @@
             "start": 404,
             "end": 456,
             "value": "Uint8Array.prototype.toBase64 is not a constructor",
-            "raw": "\"Uint8Array.prototype.toBase64 is not a constructor\""
+            "raw": "\"Uint8Array.prototype.toBase64 is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +115,9 @@
                 "start": 492,
                 "end": 493,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

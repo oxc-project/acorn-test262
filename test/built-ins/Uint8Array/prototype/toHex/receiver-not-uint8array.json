@@ -151,7 +151,9 @@
                             "start": 476,
                             "end": 477,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

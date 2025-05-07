@@ -23,7 +23,9 @@
             "start": 1119,
             "end": 1121,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 1166,
                             "end": 1172,
                             "value": "year",
-                            "raw": "'year'"
+                            "raw": "'year'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -109,7 +113,9 @@
                           "start": 1181,
                           "end": 1182,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -190,7 +196,9 @@
                             "start": 1233,
                             "end": 1240,
                             "value": "month",
-                            "raw": "'month'"
+                            "raw": "'month'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -203,7 +211,9 @@
                           "start": 1249,
                           "end": 1250,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -284,7 +294,9 @@
                             "start": 1300,
                             "end": 1306,
                             "value": "date",
-                            "raw": "'date'"
+                            "raw": "'date'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -297,7 +309,9 @@
                           "start": 1315,
                           "end": 1316,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -378,7 +392,9 @@
                             "start": 1367,
                             "end": 1374,
                             "value": "hours",
-                            "raw": "'hours'"
+                            "raw": "'hours'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -391,7 +407,9 @@
                           "start": 1383,
                           "end": 1384,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -472,7 +490,9 @@
                             "start": 1437,
                             "end": 1446,
                             "value": "minutes",
-                            "raw": "'minutes'"
+                            "raw": "'minutes'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -485,7 +505,9 @@
                           "start": 1455,
                           "end": 1456,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -566,7 +588,9 @@
                             "start": 1509,
                             "end": 1518,
                             "value": "seconds",
-                            "raw": "'seconds'"
+                            "raw": "'seconds'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -579,7 +603,9 @@
                           "start": 1527,
                           "end": 1528,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -660,7 +686,9 @@
                             "start": 1576,
                             "end": 1580,
                             "value": "ms",
-                            "raw": "'ms'"
+                            "raw": "'ms'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -673,7 +701,9 @@
                           "start": 1589,
                           "end": 1590,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -786,7 +816,9 @@
             "start": 1678,
             "end": 1714,
             "value": "yearmonthdatehoursminutessecondsms",
-            "raw": "'yearmonthdatehoursminutessecondsms'"
+            "raw": "'yearmonthdatehoursminutessecondsms'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -99,7 +99,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 31,
         "raw": "\"package-a\"",
-        "value": "package-a"
+        "value": "package-a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -201,7 +203,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 32,
         "raw": "\"package-b\"",
-        "value": "package-b"
+        "value": "package-b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

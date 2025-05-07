@@ -24,7 +24,9 @@
               "start": 304,
               "end": 306,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "&&",
             "right": {
@@ -32,7 +34,9 @@
               "start": 310,
               "end": 313,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -42,7 +46,9 @@
           "start": 319,
           "end": 321,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +76,9 @@
                   "start": 350,
                   "end": 374,
                   "value": "#1: (\"\" && \"1\") === \"\"",
-                  "raw": "'#1: (\"\" && \"1\") === \"\"'"
+                  "raw": "'#1: (\"\" && \"1\") === \"\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -100,7 +108,9 @@
               "start": 395,
               "end": 397,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "&&",
             "right": {
@@ -119,7 +129,9 @@
                   "start": 412,
                   "end": 415,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -131,7 +143,9 @@
           "start": 422,
           "end": 424,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -159,7 +173,9 @@
                   "start": 453,
                   "end": 489,
                   "value": "#2: (\"\" && new String(\"1\")) === \"\"",
-                  "raw": "'#2: (\"\" && new String(\"1\")) === \"\"'"
+                  "raw": "'#2: (\"\" && new String(\"1\")) === \"\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

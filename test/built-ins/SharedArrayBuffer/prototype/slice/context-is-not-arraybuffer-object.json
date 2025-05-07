@@ -123,7 +123,9 @@
             "start": 422,
             "end": 446,
             "value": "`this` value is Object",
-            "raw": "\"`this` value is Object\""
+            "raw": "\"`this` value is Object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -249,7 +251,9 @@
             "start": 537,
             "end": 560,
             "value": "`this` value is Array",
-            "raw": "\"`this` value is Array\""
+            "raw": "\"`this` value is Array\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

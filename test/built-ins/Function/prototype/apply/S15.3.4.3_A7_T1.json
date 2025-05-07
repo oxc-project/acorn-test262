@@ -31,14 +31,18 @@
                 "start": 416,
                 "end": 426,
                 "value": "a1,a2,a3",
-                "raw": "\"a1,a2,a3\""
+                "raw": "\"a1,a2,a3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 428,
                 "end": 446,
                 "value": "this.shifted=a1;",
-                "raw": "\"this.shifted=a1;\""
+                "raw": "\"this.shifted=a1;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -58,7 +62,9 @@
             "start": 454,
             "end": 458,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -70,7 +76,9 @@
                 "start": 461,
                 "end": 462,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,7 +128,9 @@
               "start": 489,
               "end": 498,
               "value": "shifted",
-              "raw": "\"shifted\""
+              "raw": "\"shifted\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -130,14 +140,18 @@
             "start": 501,
             "end": 502,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 554,
             "value": "The value of this[\"shifted\"] is expected to be 1",
-            "raw": "'The value of this[\"shifted\"] is expected to be 1'"
+            "raw": "'The value of this[\"shifted\"] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

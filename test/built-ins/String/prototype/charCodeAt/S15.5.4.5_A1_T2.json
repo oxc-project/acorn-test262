@@ -133,7 +133,9 @@
               "start": 488,
               "end": 493,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -144,7 +146,9 @@
           "start": 499,
           "end": 503,
           "value": 102,
-          "raw": "0x66"
+          "raw": "0x66",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -176,7 +180,9 @@
                     "start": 532,
                     "end": 662,
                     "value": "#1: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(false)===0x66. Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(false)===0x66. Actual: '"
+                    "raw": "'#1: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(false)===0x66. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -208,7 +214,9 @@
                         "start": 687,
                         "end": 692,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -258,7 +266,9 @@
               "start": 896,
               "end": 900,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -269,7 +279,9 @@
           "start": 906,
           "end": 910,
           "value": 97,
-          "raw": "0x61"
+          "raw": "0x61",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -301,7 +313,9 @@
                     "start": 939,
                     "end": 1068,
                     "value": "#2: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true)===0x61. Actual: ",
-                    "raw": "'#2: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true)===0x61. Actual: '"
+                    "raw": "'#2: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true)===0x61. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -333,7 +347,9 @@
                         "start": 1093,
                         "end": 1097,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -387,7 +403,9 @@
                 "start": 1301,
                 "end": 1305,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -395,7 +413,9 @@
                 "start": 1308,
                 "end": 1309,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -407,7 +427,9 @@
           "start": 1315,
           "end": 1319,
           "value": 108,
-          "raw": "0x6C"
+          "raw": "0x6C",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -439,7 +461,9 @@
                     "start": 1348,
                     "end": 1481,
                     "value": "#3: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true+1) === 0x6C. Actual: ",
-                    "raw": "'#3: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true+1) === 0x6C. Actual: '"
+                    "raw": "'#3: __instance = new Boolean; __instance.charCodeAt = String.prototype.charCodeAt; __instance.charCodeAt(true+1) === 0x6C. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -475,7 +499,9 @@
                           "start": 1506,
                           "end": 1510,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -483,7 +509,9 @@
                           "start": 1513,
                           "end": 1514,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

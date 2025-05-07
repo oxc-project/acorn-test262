@@ -47,7 +47,9 @@
                 "start": 276,
                 "end": 280,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "NewExpression",
@@ -65,7 +67,9 @@
                     "start": 294,
                     "end": 299,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -88,14 +92,18 @@
                 "start": 314,
                 "end": 318,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 325,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -105,7 +113,9 @@
             "start": 330,
             "end": 427,
             "value": "parseInt(\"11\", new Boolean(false)) must return the same value returned by parseInt(\"11\", false)",
-            "raw": "'parseInt(\"11\", new Boolean(false)) must return the same value returned by parseInt(\"11\", false)'"
+            "raw": "'parseInt(\"11\", new Boolean(false)) must return the same value returned by parseInt(\"11\", false)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,7 +165,9 @@
                 "start": 468,
                 "end": 472,
                 "value": "11",
-                "raw": "\"11\""
+                "raw": "\"11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "NewExpression",
@@ -173,7 +185,9 @@
                     "start": 486,
                     "end": 490,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -191,7 +205,9 @@
             "start": 499,
             "end": 550,
             "value": "parseInt(\"11\", new Boolean(true)) must return NaN",
-            "raw": "'parseInt(\"11\", new Boolean(true)) must return NaN'"
+            "raw": "'parseInt(\"11\", new Boolean(true)) must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

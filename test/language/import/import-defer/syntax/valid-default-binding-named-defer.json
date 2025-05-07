@@ -25,7 +25,9 @@
         "start": 596,
         "end": 614,
         "value": "./dep_FIXTURE.js",
-        "raw": "\"./dep_FIXTURE.js\""
+        "raw": "\"./dep_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -68,14 +70,18 @@
             "start": 641,
             "end": 642,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 683,
             "value": "`defer` is the default export binding",
-            "raw": "\"`defer` is the default export binding\""
+            "raw": "\"`defer` is the default export binding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

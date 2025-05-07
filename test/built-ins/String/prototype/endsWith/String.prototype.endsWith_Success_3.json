@@ -44,7 +44,9 @@
                 "start": 333,
                 "end": 339,
                 "value": "word",
-                "raw": "'word'"
+                "raw": "'word'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -61,14 +63,18 @@
                 "start": 349,
                 "end": 352,
                 "value": "d",
-                "raw": "'d'"
+                "raw": "'d'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 356,
                 "value": 25,
-                "raw": "25"
+                "raw": "25",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -78,14 +84,18 @@
             "start": 359,
             "end": 363,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 365,
             "end": 391,
             "value": "\"word\".endsWith(\"d\", 25)",
-            "raw": "'\"word\".endsWith(\"d\", 25)'"
+            "raw": "'\"word\".endsWith(\"d\", 25)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

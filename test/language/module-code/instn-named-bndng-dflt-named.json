@@ -129,7 +129,9 @@
         "start": 587,
         "end": 588,
         "value": 3,
-        "raw": "3"
+        "raw": "3",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -199,7 +201,9 @@
         "start": 636,
         "end": 671,
         "value": "./instn-named-bndng-dflt-named.js",
-        "raw": "'./instn-named-bndng-dflt-named.js'"
+        "raw": "'./instn-named-bndng-dflt-named.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

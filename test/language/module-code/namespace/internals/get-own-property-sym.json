@@ -25,7 +25,9 @@
         "start": 378,
         "end": 405,
         "value": "./get-own-property-sym.js",
-        "raw": "'./get-own-property-sym.js'"
+        "raw": "'./get-own-property-sym.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -60,7 +62,9 @@
                 "start": 429,
                 "end": 438,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -200,7 +204,9 @@
             "start": 534,
             "end": 538,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -410,14 +416,18 @@
             "start": 694,
             "end": 699,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 701,
             "end": 732,
             "value": "Symbol.toStringTag enumerable",
-            "raw": "'Symbol.toStringTag enumerable'"
+            "raw": "'Symbol.toStringTag enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -475,14 +485,18 @@
             "start": 767,
             "end": 772,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 803,
             "value": "Symbol.toStringTag writable",
-            "raw": "'Symbol.toStringTag writable'"
+            "raw": "'Symbol.toStringTag writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,14 +554,18 @@
             "start": 842,
             "end": 847,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 882,
             "value": "Symbol.toStringTag configurable",
-            "raw": "'Symbol.toStringTag configurable'"
+            "raw": "'Symbol.toStringTag configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -651,7 +669,9 @@
             "start": 955,
             "end": 960,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

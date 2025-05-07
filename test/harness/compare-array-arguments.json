@@ -28,14 +28,18 @@
                 "start": 235,
                 "end": 236,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 238,
                 "end": 241,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -101,7 +105,9 @@
                   "start": 332,
                   "end": 337,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -171,7 +177,9 @@
                         "start": 396,
                         "end": 400,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -538,7 +546,9 @@
                               "start": 764,
                               "end": 782,
                               "value": "arguments and []",
-                              "raw": "'arguments and []'"
+                              "raw": "'arguments and []'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -552,7 +562,9 @@
                   "start": 790,
                   "end": 880,
                   "value": "Actual [0, a, undefined] and expected [] should have the same contents. arguments and []",
-                  "raw": "'Actual [0, a, undefined] and expected [] should have the same contents. arguments and []'"
+                  "raw": "'Actual [0, a, undefined] and expected [] should have the same contents. arguments and []'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -632,7 +644,9 @@
                               "start": 963,
                               "end": 981,
                               "value": "[] and arguments",
-                              "raw": "'[] and arguments'"
+                              "raw": "'[] and arguments'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -646,7 +660,9 @@
                   "start": 989,
                   "end": 1079,
                   "value": "Actual [] and expected [0, a, undefined] should have the same contents. [] and arguments",
-                  "raw": "'Actual [] and expected [0, a, undefined] should have the same contents. [] and arguments'"
+                  "raw": "'Actual [] and expected [0, a, undefined] should have the same contents. [] and arguments'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

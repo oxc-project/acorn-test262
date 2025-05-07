@@ -68,14 +68,18 @@
             "start": 284,
             "end": 285,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 287,
             "end": 311,
             "value": "Object.isSealed.length",
-            "raw": "'Object.isSealed.length'"
+            "raw": "'Object.isSealed.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

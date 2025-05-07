@@ -197,7 +197,9 @@
                         "start": 564,
                         "end": 570,
                         "value": "attr",
-                        "raw": "\"attr\""
+                        "raw": "\"attr\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

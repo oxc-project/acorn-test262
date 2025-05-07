@@ -153,7 +153,9 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 42,
             "raw": "\"./react.js\"",
-            "value": "./react.js"
+            "value": "./react.js",
+            "regex": null,
+            "bigint": null
           }
         }
       },

@@ -75,7 +75,9 @@
             "start": 715,
             "end": 725,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -112,7 +114,9 @@
                 "start": 754,
                 "end": 755,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -137,7 +141,9 @@
                       "start": 773,
                       "end": 774,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -186,14 +192,18 @@
                 "start": 810,
                 "end": 811,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 813,
                 "end": 814,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -253,7 +263,9 @@
             "start": 856,
             "end": 857,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,7 +313,9 @@
                   "start": 879,
                   "end": 880,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -380,14 +394,18 @@
             "start": 937,
             "end": 938,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 940,
             "end": 956,
             "value": "following grow",
-            "raw": "\"following grow\""
+            "raw": "\"following grow\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -435,7 +453,9 @@
                   "start": 978,
                   "end": 979,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -514,14 +534,18 @@
             "start": 1036,
             "end": 1037,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1039,
             "end": 1073,
             "value": "following shrink (within bounds)",
-            "raw": "\"following shrink (within bounds)\""
+            "raw": "\"following shrink (within bounds)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,7 +613,9 @@
                   "start": 1114,
                   "end": 1115,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -755,7 +781,9 @@
                         "start": 1286,
                         "end": 1324,
                         "value": "the operation completed successfully",
-                        "raw": "'the operation completed successfully'"
+                        "raw": "'the operation completed successfully'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

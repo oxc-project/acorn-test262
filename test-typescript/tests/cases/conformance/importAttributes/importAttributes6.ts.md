@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
             "start": 50,
             "end": 51,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -38,7 +40,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 35,
         "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
+        "value": "./mod.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -101,7 +105,9 @@ __ESTREE_TEST__:PASS:
         "start": 79,
         "end": 90,
         "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
+        "value": "./mod.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -147,7 +153,8 @@ __ESTREE_TEST__:PASS:
               "flags": "g",
               "pattern": "a"
             },
-            "value": null
+            "value": null,
+            "bigint": null
           }
         }
       ],
@@ -157,7 +164,9 @@ __ESTREE_TEST__:PASS:
         "start": 136,
         "end": 147,
         "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
+        "value": "./mod.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -204,7 +213,9 @@ __ESTREE_TEST__:PASS:
                 "start": 221,
                 "end": 224,
                 "raw": "\"a\"",
-                "value": "a"
+                "value": "a",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -216,7 +227,9 @@ __ESTREE_TEST__:PASS:
         "start": 194,
         "end": 205,
         "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
+        "value": "./mod.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -281,7 +294,9 @@ __ESTREE_TEST__:PASS:
                   "start": 284,
                   "end": 285,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -294,7 +309,9 @@ __ESTREE_TEST__:PASS:
         "start": 253,
         "end": 264,
         "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
+        "value": "./mod.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -336,7 +353,9 @@ __ESTREE_TEST__:PASS:
             "start": 340,
             "end": 346,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -367,7 +386,9 @@ __ESTREE_TEST__:PASS:
                 "start": 355,
                 "end": 357,
                 "raw": "0.",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "property": {
@@ -391,7 +412,9 @@ __ESTREE_TEST__:PASS:
         "start": 315,
         "end": 326,
         "raw": "\"./mod.mjs\"",
-        "value": "./mod.mjs"
+        "value": "./mod.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

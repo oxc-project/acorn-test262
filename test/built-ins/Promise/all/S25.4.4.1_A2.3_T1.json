@@ -169,7 +169,9 @@
                             "start": 375,
                             "end": 440,
                             "value": "The value of !!(result instanceof Array) is expected to be true",
-                            "raw": "'The value of !!(result instanceof Array) is expected to be true'"
+                            "raw": "'The value of !!(result instanceof Array) is expected to be true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

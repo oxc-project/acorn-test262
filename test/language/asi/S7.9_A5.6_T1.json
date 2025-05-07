@@ -23,7 +23,9 @@
             "start": 495,
             "end": 496,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -41,7 +43,9 @@
             "start": 500,
             "end": 501,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -104,7 +108,9 @@
               "start": 610,
               "end": 611,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -129,7 +135,9 @@
               "start": 618,
               "end": 619,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -159,7 +167,9 @@
                   "start": 648,
                   "end": 720,
                   "value": "#1: Check Postfix Increment Operator for automatic semicolon insertion",
-                  "raw": "'#1: Check Postfix Increment Operator for automatic semicolon insertion'"
+                  "raw": "'#1: Check Postfix Increment Operator for automatic semicolon insertion'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -225,7 +235,9 @@
               "start": 913,
               "end": 914,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -250,7 +262,9 @@
               "start": 921,
               "end": 922,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -280,7 +294,9 @@
                   "start": 951,
                   "end": 1023,
                   "value": "#2: Check Postfix Increment Operator for automatic semicolon insertion",
-                  "raw": "'#2: Check Postfix Increment Operator for automatic semicolon insertion'"
+                  "raw": "'#2: Check Postfix Increment Operator for automatic semicolon insertion'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

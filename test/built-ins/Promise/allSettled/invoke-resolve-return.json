@@ -23,7 +23,9 @@
             "start": 624,
             "end": 625,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 646,
             "end": 647,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -274,7 +278,9 @@
                             "start": 835,
                             "end": 836,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -356,7 +362,9 @@
                             "start": 896,
                             "end": 897,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -474,14 +482,18 @@
             "start": 992,
             "end": 993,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 995,
             "end": 1031,
             "value": "original `then` method not invoked",
-            "raw": "'original `then` method not invoked'"
+            "raw": "'original `then` method not invoked'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -526,14 +538,18 @@
             "start": 1065,
             "end": 1066,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1068,
             "end": 1108,
             "value": "new `then` method invoked exactly once",
-            "raw": "'new `then` method invoked exactly once'"
+            "raw": "'new `then` method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

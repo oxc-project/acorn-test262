@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 26,
             "raw": "\"my-fake-sym\"",
-            "value": "my-fake-sym"
+            "value": "my-fake-sym",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -117,7 +119,9 @@ __ESTREE_TEST__:PASS:
                           "start": 92,
                           "end": 96,
                           "raw": "\"ok\"",
-                          "value": "ok"
+                          "value": "ok",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -198,7 +202,9 @@ __ESTREE_TEST__:PASS:
                           "start": 141,
                           "end": 146,
                           "raw": "\"yep\"",
-                          "value": "yep"
+                          "value": "yep",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     },

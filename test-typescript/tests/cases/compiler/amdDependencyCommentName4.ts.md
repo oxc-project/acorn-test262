@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 204,
         "end": 222,
         "raw": "\"unaliasedModule1\"",
-        "value": "unaliasedModule1"
+        "value": "unaliasedModule1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -43,7 +45,9 @@ __ESTREE_TEST__:PASS:
           "start": 245,
           "end": 261,
           "raw": "\"aliasedModule1\"",
-          "value": "aliasedModule1"
+          "value": "aliasedModule1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -73,7 +77,9 @@ __ESTREE_TEST__:PASS:
         "start": 294,
         "end": 310,
         "raw": "\"aliasedModule2\"",
-        "value": "aliasedModule2"
+        "value": "aliasedModule2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -176,7 +182,9 @@ __ESTREE_TEST__:PASS:
         "start": 331,
         "end": 347,
         "raw": "\"aliasedModule3\"",
-        "value": "aliasedModule3"
+        "value": "aliasedModule3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -221,7 +229,9 @@ __ESTREE_TEST__:PASS:
         "start": 373,
         "end": 389,
         "raw": "\"aliasedModule4\"",
-        "value": "aliasedModule4"
+        "value": "aliasedModule4",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -266,7 +276,9 @@ __ESTREE_TEST__:PASS:
         "start": 403,
         "end": 421,
         "raw": "\"unaliasedModule2\"",
-        "value": "unaliasedModule2"
+        "value": "unaliasedModule2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

@@ -54,7 +54,9 @@
                 "start": 378,
                 "end": 379,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -108,7 +110,9 @@
                         "start": 426,
                         "end": 427,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -254,7 +258,9 @@
                       "start": 631,
                       "end": 719,
                       "value": "#1: var obj = new FACTORY() does not lead to throwing exception. Actual: Exception is ",
-                      "raw": "'#1: var obj = new FACTORY() does not lead to throwing exception. Actual: Exception is '"
+                      "raw": "'#1: var obj = new FACTORY() does not lead to throwing exception. Actual: Exception is '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -305,7 +311,9 @@
           "start": 913,
           "end": 914,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -337,7 +345,9 @@
                     "start": 942,
                     "end": 980,
                     "value": "#2: obj.id === 5. Actual: obj.id ===",
-                    "raw": "'#2: obj.id === 5. Actual: obj.id ==='"
+                    "raw": "'#2: obj.id === 5. Actual: obj.id ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

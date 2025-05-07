@@ -83,7 +83,9 @@
                             "start": 508,
                             "end": 511,
                             "value": "0",
-                            "raw": "'0'"
+                            "raw": "'0'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -139,14 +141,18 @@
             "start": 545,
             "end": 547,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 595,
             "value": "result is an empty string when length == \"0\"",
-            "raw": "'result is an empty string when length == \"0\"'"
+            "raw": "'result is an empty string when length == \"0\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +238,9 @@
                           "start": 642,
                           "end": 646,
                           "value": "-1",
-                          "raw": "'-1'"
+                          "raw": "'-1'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -286,14 +294,18 @@
             "start": 680,
             "end": 682,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 684,
             "end": 731,
             "value": "result is an empty string when length == \"-1\"",
-            "raw": "'result is an empty string when length == \"-1\"'"
+            "raw": "'result is an empty string when length == \"-1\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -379,7 +391,9 @@
                           "start": 778,
                           "end": 780,
                           "value": "",
-                          "raw": "''"
+                          "raw": "''",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -433,14 +447,18 @@
             "start": 814,
             "end": 816,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 818,
             "end": 863,
             "value": "result is an empty string when length == \"\"",
-            "raw": "'result is an empty string when length == \"\"'"
+            "raw": "'result is an empty string when length == \"\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

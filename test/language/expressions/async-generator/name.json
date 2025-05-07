@@ -39,7 +39,9 @@
             "start": 1191,
             "end": 1197,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -64,7 +66,9 @@
                   "start": 1210,
                   "end": 1212,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -86,7 +90,9 @@
                   "start": 1224,
                   "end": 1229,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -108,7 +114,9 @@
                   "start": 1243,
                   "end": 1248,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -130,7 +138,9 @@
                   "start": 1264,
                   "end": 1268,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -181,7 +191,9 @@
             "start": 1316,
             "end": 1322,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -206,7 +218,9 @@
                   "start": 1335,
                   "end": 1341,
                   "value": "func",
-                  "raw": "\"func\""
+                  "raw": "\"func\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -228,7 +242,9 @@
                   "start": 1353,
                   "end": 1358,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -250,7 +266,9 @@
                   "start": 1372,
                   "end": 1377,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -272,7 +290,9 @@
                   "start": 1393,
                   "end": 1397,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

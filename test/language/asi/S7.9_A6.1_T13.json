@@ -12,21 +12,27 @@
         "start": 306,
         "end": 311,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "test": {
         "type": "Literal",
         "start": 317,
         "end": 322,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "update": {
         "type": "Literal",
         "start": 328,
         "end": 333,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "BlockStatement",

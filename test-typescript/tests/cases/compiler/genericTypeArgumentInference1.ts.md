@@ -592,28 +592,36 @@ __ESTREE_TEST__:PASS:
                     "start": 310,
                     "end": 314,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 316,
                     "end": 317,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 319,
                     "end": 323,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 325,
                     "end": 330,
                     "raw": "'yes'",
-                    "value": "yes"
+                    "value": "yes",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -710,7 +718,9 @@ __ESTREE_TEST__:PASS:
                     "start": 362,
                     "end": 366,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -900,7 +910,9 @@ __ESTREE_TEST__:PASS:
                       "start": 435,
                       "end": 439,
                       "raw": "true",
-                      "value": true
+                      "value": true,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",

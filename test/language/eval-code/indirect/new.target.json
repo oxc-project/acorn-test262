@@ -54,7 +54,9 @@
                       "start": 586,
                       "end": 587,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -71,7 +73,9 @@
                   "start": 594,
                   "end": 607,
                   "value": "new.target;",
-                  "raw": "'new.target;'"
+                  "raw": "'new.target;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -168,14 +172,18 @@
             "start": 677,
             "end": 685,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 687,
             "end": 722,
             "value": "object value thrown (global code)",
-            "raw": "'object value thrown (global code)'"
+            "raw": "'object value thrown (global code)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +247,9 @@
             "start": 778,
             "end": 812,
             "value": "SyntaxError thrown (global code)",
-            "raw": "'SyntaxError thrown (global code)'"
+            "raw": "'SyntaxError thrown (global code)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +275,9 @@
           "start": 826,
           "end": 830,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -326,7 +338,9 @@
                                   "start": 860,
                                   "end": 861,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Identifier",
@@ -343,7 +357,9 @@
                               "start": 868,
                               "end": 881,
                               "value": "new.target;",
-                              "raw": "'new.target;'"
+                              "raw": "'new.target;'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -448,14 +464,18 @@
             "start": 962,
             "end": 970,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 972,
             "end": 1009,
             "value": "object value thrown (function code)",
-            "raw": "'object value thrown (function code)'"
+            "raw": "'object value thrown (function code)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -519,7 +539,9 @@
             "start": 1066,
             "end": 1102,
             "value": "SyntaxError thrown (function code)",
-            "raw": "'SyntaxError thrown (function code)'"
+            "raw": "'SyntaxError thrown (function code)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

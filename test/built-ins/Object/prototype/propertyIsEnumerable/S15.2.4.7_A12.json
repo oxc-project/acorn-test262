@@ -116,7 +116,9 @@
                         "start": 363,
                         "end": 368,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -130,7 +132,9 @@
             "start": 374,
             "end": 465,
             "value": "Object.prototype.propertyIsEnumerable.call(undefined, \"foo\") throws a TypeError exception",
-            "raw": "'Object.prototype.propertyIsEnumerable.call(undefined, \"foo\") throws a TypeError exception'"
+            "raw": "'Object.prototype.propertyIsEnumerable.call(undefined, \"foo\") throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

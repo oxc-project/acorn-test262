@@ -25,7 +25,9 @@
         "start": 308,
         "end": 328,
         "value": "./is-extensible.js",
-        "raw": "'./is-extensible.js'"
+        "raw": "'./is-extensible.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -95,7 +97,9 @@
             "start": 373,
             "end": 378,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

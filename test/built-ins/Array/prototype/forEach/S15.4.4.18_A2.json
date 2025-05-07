@@ -44,7 +44,9 @@
                       "start": 323,
                       "end": 326,
                       "value": "z",
-                      "raw": "'z'"
+                      "raw": "'z'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },

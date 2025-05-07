@@ -63,7 +63,9 @@
             "start": 380,
             "end": 424,
             "value": "Uint8Array.fromBase64 is not a constructor",
-            "raw": "\"Uint8Array.fromBase64 is not a constructor\""
+            "raw": "\"Uint8Array.fromBase64 is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +152,9 @@
                         "start": 494,
                         "end": 496,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

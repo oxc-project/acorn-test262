@@ -31,7 +31,9 @@
               "start": 402,
               "end": 419,
               "value": "zig-zig-sputnik",
-              "raw": "\"zig-zig-sputnik\""
+              "raw": "\"zig-zig-sputnik\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -69,7 +71,9 @@
           "start": 536,
           "end": 546,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -101,7 +105,9 @@
                     "start": 574,
                     "end": 635,
                     "value": "#1: typeof __func === \"function\". Actual: typeof __func ===",
-                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='"
+                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -152,7 +158,9 @@
           "start": 843,
           "end": 860,
           "value": "zig-zig-sputnik",
-          "raw": "\"zig-zig-sputnik\""
+          "raw": "\"zig-zig-sputnik\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -184,7 +192,9 @@
                     "start": 888,
                     "end": 946,
                     "value": "#2: __func() === \"zig-zig-sputnik\". Actual: __func() ===",
-                    "raw": "'#2: __func() === \"zig-zig-sputnik\". Actual: __func() ==='"
+                    "raw": "'#2: __func() === \"zig-zig-sputnik\". Actual: __func() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

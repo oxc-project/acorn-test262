@@ -89,7 +89,9 @@
                               "start": 709,
                               "end": 717,
                               "value": "length",
-                              "raw": "\"length\""
+                              "raw": "\"length\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",
@@ -114,7 +116,9 @@
                                     "start": 739,
                                     "end": 743,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -136,7 +140,9 @@
                                     "start": 761,
                                     "end": 766,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -158,7 +164,9 @@
                                     "start": 788,
                                     "end": 792,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -180,7 +188,9 @@
                                     "start": 807,
                                     "end": 809,
                                     "value": 99,
-                                    "raw": "99"
+                                    "raw": "99",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -293,21 +303,27 @@
                                     "start": 898,
                                     "end": 899,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 901,
                                     "end": 902,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 904,
                                     "end": 905,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -320,7 +336,9 @@
                           "start": 909,
                           "end": 941,
                           "value": "Setting read-only length fails",
-                          "raw": "\"Setting read-only length fails\""
+                          "raw": "\"Setting read-only length fails\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -440,7 +458,9 @@
                                       "start": 1032,
                                       "end": 1033,
                                       "value": 3,
-                                      "raw": "3"
+                                      "raw": "3",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -456,14 +476,18 @@
                                       "start": 1039,
                                       "end": 1040,
                                       "value": 0,
-                                      "raw": "0"
+                                      "raw": "0",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "value": {
                                       "type": "Literal",
                                       "start": 1042,
                                       "end": 1043,
                                       "value": 0,
-                                      "raw": "0"
+                                      "raw": "0",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -479,14 +503,18 @@
                                       "start": 1049,
                                       "end": 1050,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "value": {
                                       "type": "Literal",
                                       "start": 1052,
                                       "end": 1053,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -502,14 +530,18 @@
                                       "start": 1059,
                                       "end": 1060,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "value": {
                                       "type": "Literal",
                                       "start": 1062,
                                       "end": 1063,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -524,7 +556,9 @@
                           "start": 1070,
                           "end": 1121,
                           "value": "Setting read-only length fails in array-like case",
-                          "raw": "\"Setting read-only length fails in array-like case\""
+                          "raw": "\"Setting read-only length fails in array-like case\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

@@ -33,7 +33,9 @@
                     "start": 388,
                     "end": 392,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "MemberExpression",
@@ -66,7 +68,9 @@
                     "start": 417,
                     "end": 418,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "MemberExpression",
@@ -100,6 +104,7 @@
                     "end": 444,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   },
                   {
@@ -433,7 +438,9 @@
                   "start": 734,
                   "end": 738,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -559,7 +566,9 @@
                       "start": 837,
                       "end": 891,
                       "value": "should not call toString on the prototype for Symbol",
-                      "raw": "\"should not call toString on the prototype for Symbol\""
+                      "raw": "\"should not call toString on the prototype for Symbol\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }

@@ -69,7 +69,9 @@ __ESTREE_TEST__:PASS:
                     "start": 64,
                     "end": 67,
                     "raw": "\"_\"",
-                    "value": "_"
+                    "value": "_",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -153,7 +155,9 @@ __ESTREE_TEST__:PASS:
                     "start": 111,
                     "end": 115,
                     "raw": "\"__\"",
-                    "value": "__"
+                    "value": "__",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
                     "start": 160,
                     "end": 165,
                     "raw": "\"___\"",
-                    "value": "___"
+                    "value": "___",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -321,7 +327,9 @@ __ESTREE_TEST__:PASS:
                     "start": 210,
                     "end": 215,
                     "raw": "\"_hi\"",
-                    "value": "_hi"
+                    "value": "_hi",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -405,7 +413,9 @@ __ESTREE_TEST__:PASS:
                     "start": 264,
                     "end": 273,
                     "raw": "\"__proto\"",
-                    "value": "__proto"
+                    "value": "__proto",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -489,7 +499,9 @@ __ESTREE_TEST__:PASS:
                     "start": 325,
                     "end": 337,
                     "raw": "\"__esmodule\"",
-                    "value": "__esmodule"
+                    "value": "__esmodule",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -573,7 +585,9 @@ __ESTREE_TEST__:PASS:
                     "start": 386,
                     "end": 396,
                     "raw": "\"___hello\"",
-                    "value": "___hello"
+                    "value": "___hello",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -650,7 +664,9 @@ __ESTREE_TEST__:PASS:
         "start": 57,
         "end": 63,
         "raw": "\"./m1\"",
-        "value": "./m1"
+        "value": "./m1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

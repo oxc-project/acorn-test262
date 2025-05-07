@@ -47,7 +47,9 @@
                 "start": 538,
                 "end": 544,
                 "value": 6158,
-                "raw": "0x180E"
+                "raw": "0x180E",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -117,14 +119,17 @@
                 "regex": {
                   "pattern": "\\S+",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 587,
                 "end": 596,
                 "value": "test262",
-                "raw": "\"test262\""
+                "raw": "\"test262\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,14 +139,18 @@
             "start": 601,
             "end": 610,
             "value": "test262",
-            "raw": "\"test262\""
+            "raw": "\"test262\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 649,
             "value": "Non WhiteSpace character: \\u180E",
-            "raw": "\"Non WhiteSpace character: \\\\u180E\""
+            "raw": "\"Non WhiteSpace character: \\\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

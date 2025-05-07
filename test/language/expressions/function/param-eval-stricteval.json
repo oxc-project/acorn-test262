@@ -71,7 +71,9 @@
                         "start": 626,
                         "end": 680,
                         "value": "'use strict'; var _13_1_17_fun = function (eval) { }",
-                        "raw": "\"'use strict'; var _13_1_17_fun = function (eval) { }\""
+                        "raw": "\"'use strict'; var _13_1_17_fun = function (eval) { }\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

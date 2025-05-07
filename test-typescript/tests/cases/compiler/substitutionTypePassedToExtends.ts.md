@@ -84,7 +84,9 @@ __ESTREE_TEST__:PASS:
             "start": 61,
             "end": 67,
             "raw": "'else'",
-            "value": "else"
+            "value": "else",
+            "regex": null,
+            "bigint": null
           }
         },
         "trueType": {
@@ -356,7 +358,9 @@ __ESTREE_TEST__:PASS:
             "start": 168,
             "end": 174,
             "raw": "'else'",
-            "value": "else"
+            "value": "else",
+            "regex": null,
+            "bigint": null
           }
         },
         "trueType": {

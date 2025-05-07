@@ -36,7 +36,9 @@
                     "start": 391,
                     "end": 494,
                     "value": "#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: ",
-                    "raw": "'#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '"
+                    "raw": "'#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -60,7 +62,8 @@
                           "regex": {
                             "pattern": "[a-z]",
                             "flags": ""
-                          }
+                          },
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -101,7 +104,9 @@
                                   "start": 526,
                                   "end": 527,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "kind": "init"
@@ -142,7 +147,9 @@
                                         "start": 554,
                                         "end": 563,
                                         "value": "invalof",
-                                        "raw": "\"invalof\""
+                                        "raw": "\"invalof\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -216,14 +223,18 @@
                     "start": 607,
                     "end": 616,
                     "value": "invalof",
-                    "raw": "\"invalof\""
+                    "raw": "\"invalof\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 618,
                     "end": 662,
                     "value": "The value of e is expected to be \"invalof\"",
-                    "raw": "'The value of e is expected to be \"invalof\"'"
+                    "raw": "'The value of e is expected to be \"invalof\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

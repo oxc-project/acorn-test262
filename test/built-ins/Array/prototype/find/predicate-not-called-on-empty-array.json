@@ -23,7 +23,9 @@
             "start": 487,
             "end": 492,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -78,7 +80,9 @@
                       "start": 535,
                       "end": 539,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -91,7 +95,9 @@
                     "start": 550,
                     "end": 554,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -192,14 +198,18 @@
             "start": 619,
             "end": 624,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 670,
             "value": "[].find(predicate) does not call predicate",
-            "raw": "'[].find(predicate) does not call predicate'"
+            "raw": "'[].find(predicate) does not call predicate'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +260,9 @@
             "start": 709,
             "end": 748,
             "value": "[].find(predicate) returned undefined",
-            "raw": "'[].find(predicate) returned undefined'"
+            "raw": "'[].find(predicate) returned undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

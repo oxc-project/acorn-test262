@@ -55,7 +55,9 @@
             "start": 516,
             "end": 518,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -109,7 +111,9 @@
                               "start": 569,
                               "end": 600,
                               "value": "[[Set]] should not be called.",
-                              "raw": "'[[Set]] should not be called.'"
+                              "raw": "'[[Set]] should not be called.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -293,7 +297,9 @@
             "start": 733,
             "end": 741,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +468,9 @@
             "start": 873,
             "end": 874,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +554,9 @@
             "start": 940,
             "end": 942,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -592,7 +602,9 @@
                   "start": 974,
                   "end": 978,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -614,7 +626,9 @@
                   "start": 994,
                   "end": 998,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -636,7 +650,9 @@
                   "start": 1016,
                   "end": 1020,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

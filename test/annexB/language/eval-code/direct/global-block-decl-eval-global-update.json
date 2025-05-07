@@ -23,7 +23,9 @@
             "start": 1067,
             "end": 1191,
             "value": "{ function f() { return \"declaration\"; } }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");",
-            "raw": "'{ function f() { return \"declaration\"; } }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'"
+            "raw": "'{ function f() { return \"declaration\"; } }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

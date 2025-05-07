@@ -76,6 +76,7 @@
                                 "end": 1184,
                                 "value": null,
                                 "raw": "40n",
+                                "regex": null,
                                 "bigint": "40"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 1189,
                                 "value": null,
                                 "raw": "41n",
+                                "regex": null,
                                 "bigint": "41"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 1194,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ]
@@ -122,7 +125,9 @@
                         "start": 1212,
                         "end": 1213,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -422,6 +427,7 @@
                                     "end": 1430,
                                     "value": null,
                                     "raw": "7n",
+                                    "regex": null,
                                     "bigint": "7"
                                   }
                                 }
@@ -473,14 +479,18 @@
                         "start": 1463,
                         "end": 1464,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1466,
                         "end": 1484,
                         "value": "ctor called once",
-                        "raw": "\"ctor called once\""
+                        "raw": "\"ctor called once\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -531,7 +541,9 @@
                         "start": 1521,
                         "end": 1563,
                         "value": "return is instance of custom constructor",
-                        "raw": "\"return is instance of custom constructor\""
+                        "raw": "\"return is instance of custom constructor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -580,6 +592,7 @@
                                 "end": 1600,
                                 "value": null,
                                 "raw": "47n",
+                                "regex": null,
                                 "bigint": "47"
                               },
                               {
@@ -588,6 +601,7 @@
                                 "end": 1605,
                                 "value": null,
                                 "raw": "48n",
+                                "regex": null,
                                 "bigint": "48"
                               },
                               {
@@ -596,6 +610,7 @@
                                 "end": 1610,
                                 "value": null,
                                 "raw": "49n",
+                                "regex": null,
                                 "bigint": "49"
                               }
                             ]
@@ -608,7 +623,9 @@
                         "start": 1614,
                         "end": 1645,
                         "value": "values are set on the new obj",
-                        "raw": "\"values are set on the new obj\""
+                        "raw": "\"values are set on the new obj\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

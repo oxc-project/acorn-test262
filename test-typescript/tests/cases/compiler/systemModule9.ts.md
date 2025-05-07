@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 27,
         "raw": "'file1'",
-        "value": "file1"
+        "value": "file1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 60,
         "raw": "'file2'",
-        "value": "file2"
+        "value": "file2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -110,7 +114,9 @@ __ESTREE_TEST__:PASS:
         "start": 76,
         "end": 83,
         "raw": "'file3'",
-        "value": "file3"
+        "value": "file3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -140,7 +146,9 @@ __ESTREE_TEST__:PASS:
         "start": 91,
         "end": 98,
         "raw": "'file4'",
-        "value": "file4"
+        "value": "file4",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -155,7 +163,9 @@ __ESTREE_TEST__:PASS:
         "start": 123,
         "end": 130,
         "raw": "'file5'",
-        "value": "file5"
+        "value": "file5",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -211,7 +221,9 @@ __ESTREE_TEST__:PASS:
           "start": 153,
           "end": 160,
           "raw": "'file6'",
-          "value": "file6"
+          "value": "file6",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -436,7 +448,9 @@ __ESTREE_TEST__:PASS:
         "start": 225,
         "end": 232,
         "raw": "'file7'",
-        "value": "file7"
+        "value": "file7",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -479,7 +493,9 @@ __ESTREE_TEST__:PASS:
             "start": 246,
             "end": 250,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

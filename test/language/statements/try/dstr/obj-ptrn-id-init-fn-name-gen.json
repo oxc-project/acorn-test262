@@ -23,7 +23,9 @@
             "start": 1097,
             "end": 1102,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -208,7 +210,9 @@
                     "start": 1215,
                     "end": 1220,
                     "value": "gen",
-                    "raw": "'gen'"
+                    "raw": "'gen'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -266,7 +270,9 @@
                     "start": 1256,
                     "end": 1262,
                     "value": "xGen",
-                    "raw": "'xGen'"
+                    "raw": "'xGen'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -292,7 +298,9 @@
                   "start": 1278,
                   "end": 1282,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -327,7 +335,9 @@
             "start": 1304,
             "end": 1328,
             "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "raw": "'executed `catch` block'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,14 +34,18 @@
                 "start": 819,
                 "end": 827,
                 "value": "lookup",
-                "raw": "'lookup'"
+                "raw": "'lookup'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 831,
                 "end": 841,
                 "value": "best fit",
-                "raw": "'best fit'"
+                "raw": "'best fit'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

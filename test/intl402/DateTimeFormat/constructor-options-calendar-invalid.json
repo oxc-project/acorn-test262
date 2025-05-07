@@ -28,98 +28,126 @@
                 "start": 687,
                 "end": 689,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 693,
                 "end": 696,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 700,
                 "end": 704,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 708,
                 "end": 719,
                 "value": "abcdefghi",
-                "raw": "\"abcdefghi\""
+                "raw": "\"abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 723,
                 "end": 738,
                 "value": "abc-abcdefghi",
-                "raw": "\"abc-abcdefghi\""
+                "raw": "\"abc-abcdefghi\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 742,
                 "end": 753,
                 "value": "!invalid!",
-                "raw": "\"!invalid!\""
+                "raw": "\"!invalid!\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 757,
                 "end": 768,
                 "value": "-gregory-",
-                "raw": "\"-gregory-\""
+                "raw": "\"-gregory-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 772,
                 "end": 782,
                 "value": "gregory-",
-                "raw": "\"gregory-\""
+                "raw": "\"gregory-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 786,
                 "end": 797,
                 "value": "gregory--",
-                "raw": "\"gregory--\""
+                "raw": "\"gregory--\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 813,
                 "value": "gregory-nu",
-                "raw": "\"gregory-nu\""
+                "raw": "\"gregory-nu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 817,
                 "end": 830,
                 "value": "gregory-nu-",
-                "raw": "\"gregory-nu-\""
+                "raw": "\"gregory-nu-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 834,
                 "end": 851,
                 "value": "gregory-nu-latn",
-                "raw": "\"gregory-nu-latn\""
+                "raw": "\"gregory-nu-latn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 855,
                 "end": 865,
                 "value": "gregoryé",
-                "raw": "\"gregoryé\""
+                "raw": "\"gregoryé\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 869,
                 "end": 880,
                 "value": "gregory역법",
-                "raw": "\"gregory역법\""
+                "raw": "\"gregory역법\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -244,7 +272,9 @@
                               "start": 1003,
                               "end": 1007,
                               "value": "en",
-                              "raw": "'en'"
+                              "raw": "'en'",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

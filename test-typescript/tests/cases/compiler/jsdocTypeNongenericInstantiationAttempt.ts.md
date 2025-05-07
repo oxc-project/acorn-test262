@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
                 "start": 99,
                 "end": 107,
                 "raw": "'Hello '",
-                "value": "Hello "
+                "value": "Hello ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -106,7 +108,9 @@ __ESTREE_TEST__:PASS:
                 "start": 97,
                 "end": 105,
                 "raw": "'Hello '",
-                "value": "Hello "
+                "value": "Hello ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -183,7 +187,9 @@ __ESTREE_TEST__:PASS:
                 "start": 102,
                 "end": 110,
                 "raw": "'Hello '",
-                "value": "Hello "
+                "value": "Hello ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -260,7 +266,9 @@ __ESTREE_TEST__:PASS:
                 "start": 101,
                 "end": 109,
                 "raw": "'Hello '",
-                "value": "Hello "
+                "value": "Hello ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -337,7 +345,9 @@ __ESTREE_TEST__:PASS:
                 "start": 99,
                 "end": 107,
                 "raw": "'Hello '",
-                "value": "Hello "
+                "value": "Hello ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -414,7 +424,9 @@ __ESTREE_TEST__:PASS:
                 "start": 99,
                 "end": 107,
                 "raw": "'Hello '",
-                "value": "Hello "
+                "value": "Hello ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -491,7 +503,9 @@ __ESTREE_TEST__:PASS:
                 "start": 99,
                 "end": 107,
                 "raw": "'Hello '",
-                "value": "Hello "
+                "value": "Hello ",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",

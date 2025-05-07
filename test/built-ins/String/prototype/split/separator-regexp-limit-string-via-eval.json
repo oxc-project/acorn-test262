@@ -34,7 +34,9 @@
                 "start": 533,
                 "end": 537,
                 "value": "00",
-                "raw": "\"00\""
+                "raw": "\"00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -149,7 +151,9 @@
                   "start": 606,
                   "end": 632,
                   "value": 6776767677.006771,
-                  "raw": "6776767677.006771122677555"
+                  "raw": "6776767677.006771122677555",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "property": {
@@ -184,7 +188,9 @@
                     "start": 651,
                     "end": 658,
                     "value": "\"1\"",
-                    "raw": "\"\\\"1\\\"\""
+                    "raw": "\"\\\"1\\\"\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -242,14 +248,18 @@
             "start": 696,
             "end": 704,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 749,
             "value": "The value of `typeof __split` is \"object\"",
-            "raw": "'The value of `typeof __split` is \"object\"'"
+            "raw": "'The value of `typeof __split` is \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +323,9 @@
             "start": 805,
             "end": 879,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,14 +383,18 @@
             "start": 917,
             "end": 918,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 920,
             "end": 954,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +443,9 @@
               "start": 982,
               "end": 983,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -437,14 +455,18 @@
             "start": 986,
             "end": 999,
             "value": "6776767677.",
-            "raw": "\"6776767677.\""
+            "raw": "\"6776767677.\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1001,
             "end": 1043,
             "value": "The value of __split[0] is \"6776767677.\"",
-            "raw": "'The value of __split[0] is \"6776767677.\"'"
+            "raw": "'The value of __split[0] is \"6776767677.\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

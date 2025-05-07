@@ -114,7 +114,9 @@
                                 "start": 594,
                                 "end": 598,
                                 "value": null,
-                                "raw": "null"
+                                "raw": "null",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -125,7 +127,9 @@
                           "start": 601,
                           "end": 613,
                           "value": "null mapfn",
-                          "raw": "\"null mapfn\""
+                          "raw": "\"null mapfn\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -224,7 +228,9 @@
                           "start": 685,
                           "end": 712,
                           "value": "non-callable object mapfn",
-                          "raw": "\"non-callable object mapfn\""
+                          "raw": "\"non-callable object mapfn\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -313,7 +319,9 @@
                                 "start": 779,
                                 "end": 787,
                                 "value": "String",
-                                "raw": "\"String\""
+                                "raw": "\"String\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -324,7 +332,9 @@
                           "start": 790,
                           "end": 804,
                           "value": "string mapfn",
-                          "raw": "\"string mapfn\""
+                          "raw": "\"string mapfn\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -413,7 +423,9 @@
                                 "start": 871,
                                 "end": 875,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -424,7 +436,9 @@
                           "start": 878,
                           "end": 893,
                           "value": "boolean mapfn",
-                          "raw": "\"boolean mapfn\""
+                          "raw": "\"boolean mapfn\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -513,7 +527,9 @@
                                 "start": 960,
                                 "end": 966,
                                 "value": 3.1416,
-                                "raw": "3.1416"
+                                "raw": "3.1416",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -524,7 +540,9 @@
                           "start": 969,
                           "end": 983,
                           "value": "number mapfn",
-                          "raw": "\"number mapfn\""
+                          "raw": "\"number mapfn\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -614,6 +632,7 @@
                                 "end": 1053,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               }
                             ],
@@ -625,7 +644,9 @@
                           "start": 1056,
                           "end": 1070,
                           "value": "bigint mapfn",
-                          "raw": "\"bigint mapfn\""
+                          "raw": "\"bigint mapfn\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -731,7 +752,9 @@
                           "start": 1148,
                           "end": 1162,
                           "value": "symbol mapfn",
-                          "raw": "\"symbol mapfn\""
+                          "raw": "\"symbol mapfn\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

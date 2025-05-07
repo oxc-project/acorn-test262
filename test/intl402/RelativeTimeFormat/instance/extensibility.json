@@ -88,14 +88,18 @@
             "start": 528,
             "end": 532,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 536,
             "end": 601,
             "value": "Object.isExtensible(new Intl.RelativeTimeFormat()) returns true",
-            "raw": "\"Object.isExtensible(new Intl.RelativeTimeFormat()) returns true\""
+            "raw": "\"Object.isExtensible(new Intl.RelativeTimeFormat()) returns true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

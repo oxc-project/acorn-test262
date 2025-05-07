@@ -134,7 +134,9 @@
                         "start": 630,
                         "end": 633,
                         "value": 201,
-                        "raw": "201"
+                        "raw": "201",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -228,7 +230,9 @@
                         "start": 687,
                         "end": 690,
                         "value": 102,
-                        "raw": "102"
+                        "raw": "102",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

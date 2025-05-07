@@ -69,7 +69,9 @@
                       "start": 638,
                       "end": 639,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -192,7 +194,9 @@
                             "start": 707,
                             "end": 708,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -208,14 +212,18 @@
                         "start": 716,
                         "end": 717,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 719,
                         "end": 759,
                         "value": "Atomics.notify(i32a, 0, nan) returns 0",
-                        "raw": "'Atomics.notify(i32a, 0, nan) returns 0'"
+                        "raw": "'Atomics.notify(i32a, 0, nan) returns 0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

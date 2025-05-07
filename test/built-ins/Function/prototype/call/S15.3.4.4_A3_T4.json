@@ -31,7 +31,9 @@
                 "start": 344,
                 "end": 364,
                 "value": "this.field=\"oil\"",
-                "raw": "\"this.field=\\\"oil\\\"\""
+                "raw": "\"this.field=\\\"oil\\\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -98,7 +100,9 @@
               "start": 406,
               "end": 413,
               "value": "field",
-              "raw": "\"field\""
+              "raw": "\"field\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -108,14 +112,18 @@
             "start": 416,
             "end": 421,
             "value": "oil",
-            "raw": "\"oil\""
+            "raw": "\"oil\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 475,
             "value": "The value of this[\"field\"] is expected to be \"oil\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"oil\"'"
+            "raw": "'The value of this[\"field\"] is expected to be \"oil\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

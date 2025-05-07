@@ -101,7 +101,9 @@
             "start": 413,
             "end": 497,
             "value": "Object.getPrototypeOf(Iterator.concat) must return the value of Function.prototype",
-            "raw": "\"Object.getPrototypeOf(Iterator.concat) must return the value of Function.prototype\""
+            "raw": "\"Object.getPrototypeOf(Iterator.concat) must return the value of Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

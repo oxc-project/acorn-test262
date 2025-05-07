@@ -73,7 +73,9 @@
                             "start": 1117,
                             "end": 1118,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -90,7 +92,9 @@
                         "start": 1125,
                         "end": 1144,
                         "value": "function NaN() {}",
-                        "raw": "\"function NaN() {}\""
+                        "raw": "\"function NaN() {}\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

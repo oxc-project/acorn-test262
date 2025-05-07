@@ -23,7 +23,9 @@
             "start": 451,
             "end": 452,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -89,7 +91,9 @@
                             "start": 501,
                             "end": 504,
                             "value": "a",
-                            "raw": "\"a\""
+                            "raw": "\"a\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -182,14 +186,18 @@
                 "start": 549,
                 "end": 556,
                 "value": "a2,a3",
-                "raw": "\"a2,a3\""
+                "raw": "\"a2,a3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 558,
                 "end": 576,
                 "value": "this.shifted=a1;",
-                "raw": "\"this.shifted=a1;\""
+                "raw": "\"this.shifted=a1;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -226,21 +234,27 @@
                 "start": 598,
                 "end": 604,
                 "value": "nine",
-                "raw": "\"nine\""
+                "raw": "\"nine\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 606,
                 "end": 612,
                 "value": "inch",
-                "raw": "\"inch\""
+                "raw": "\"inch\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 614,
                 "end": 621,
                 "value": "nails",
-                "raw": "\"nails\""
+                "raw": "\"nails\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -295,7 +309,9 @@
                 "start": 647,
                 "end": 656,
                 "value": "shifted",
-                "raw": "\"shifted\""
+                "raw": "\"shifted\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -314,7 +330,9 @@
             "start": 666,
             "end": 667,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +377,9 @@
                     "start": 680,
                     "end": 689,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -369,7 +389,9 @@
                   "start": 691,
                   "end": 692,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -380,7 +402,9 @@
                 "start": 698,
                 "end": 704,
                 "value": "nine",
-                "raw": "\"nine\""
+                "raw": "\"nine\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -412,7 +436,9 @@
                     "start": 714,
                     "end": 723,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -422,7 +448,9 @@
                   "start": 725,
                   "end": 726,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -433,7 +461,9 @@
                 "start": 732,
                 "end": 738,
                 "value": "inch",
-                "raw": "\"inch\""
+                "raw": "\"inch\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -466,7 +496,9 @@
                   "start": 748,
                   "end": 757,
                   "value": "shifted",
-                  "raw": "\"shifted\""
+                  "raw": "\"shifted\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -476,7 +508,9 @@
                 "start": 759,
                 "end": 760,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -487,7 +521,9 @@
               "start": 766,
               "end": 773,
               "value": "nails",
-              "raw": "\"nails\""
+              "raw": "\"nails\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -517,7 +553,9 @@
                   "start": 803,
                   "end": 965,
                   "value": "#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object",
-                  "raw": "'#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'"
+                  "raw": "'#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -554,7 +592,9 @@
               "start": 987,
               "end": 996,
               "value": "shifted",
-              "raw": "\"shifted\""
+              "raw": "\"shifted\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -566,7 +606,9 @@
           "start": 1002,
           "end": 1013,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -594,7 +636,9 @@
                   "start": 1042,
                   "end": 1204,
                   "value": "#3: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object",
-                  "raw": "'#3: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'"
+                  "raw": "'#3: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

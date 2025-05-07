@@ -111,7 +111,9 @@
                             "start": 846,
                             "end": 854,
                             "value": "string",
-                            "raw": "'string'"
+                            "raw": "'string'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -160,7 +162,9 @@
                               "start": 922,
                               "end": 973,
                               "value": "@@toPrimitive should be called with hint \"string\"",
-                              "raw": "'@@toPrimitive should be called with hint \"string\"'"
+                              "raw": "'@@toPrimitive should be called with hint \"string\"'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -217,7 +221,9 @@
                               "start": 1023,
                               "end": 1061,
                               "value": "toString property should not be read",
-                              "raw": "'toString property should not be read'"
+                              "raw": "'toString property should not be read'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -274,7 +280,9 @@
                               "start": 1108,
                               "end": 1145,
                               "value": "valueOf property should not be read",
-                              "raw": "'valueOf property should not be read'"
+                              "raw": "'valueOf property should not be read'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -314,7 +322,8 @@
             "regex": {
               "pattern": ".",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -489,7 +498,9 @@
                                     "start": 1299,
                                     "end": 1335,
                                     "value": "global property should not be read",
-                                    "raw": "'global property should not be read'"
+                                    "raw": "'global property should not be read'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -568,7 +579,9 @@
                                     "start": 1393,
                                     "end": 1430,
                                     "value": "unicode property should not be read",
-                                    "raw": "'unicode property should not be read'"
+                                    "raw": "'unicode property should not be read'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -682,7 +695,9 @@
                         "start": 1505,
                         "end": 1507,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

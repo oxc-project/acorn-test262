@@ -23,7 +23,9 @@
             "start": 288,
             "end": 292,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -65,7 +67,9 @@
                   "start": 305,
                   "end": 310,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -84,7 +88,9 @@
           "start": 322,
           "end": 327,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -112,7 +118,9 @@
                   "start": 356,
                   "end": 404,
                   "value": "#1: var x = true; ((x = false) || x) === false",
-                  "raw": "'#1: var x = true; ((x = false) || x) === false'"
+                  "raw": "'#1: var x = true; ((x = false) || x) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -141,7 +149,9 @@
             "start": 428,
             "end": 432,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -190,7 +200,9 @@
                   "start": 450,
                   "end": 455,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -202,7 +214,9 @@
           "start": 462,
           "end": 466,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -230,7 +244,9 @@
                   "start": 495,
                   "end": 542,
                   "value": "#2: var x = true; (x || (x = false)) === true",
-                  "raw": "'#2: var x = true; (x || (x = false)) === true'"
+                  "raw": "'#2: var x = true; (x || (x = false)) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

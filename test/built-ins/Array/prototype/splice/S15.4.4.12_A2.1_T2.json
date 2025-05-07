@@ -28,28 +28,36 @@
                 "start": 253,
                 "end": 254,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 256,
                 "end": 257,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 259,
                 "end": 260,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 262,
                 "end": 263,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -107,7 +115,9 @@
                 "start": 290,
                 "end": 291,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -226,7 +236,9 @@
               "start": 360,
               "end": 370,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -234,7 +246,9 @@
               "start": 373,
               "end": 380,
               "value": "Array",
-              "raw": "\"Array\""
+              "raw": "\"Array\"",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -243,7 +257,9 @@
             "start": 383,
             "end": 386,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -276,7 +292,9 @@
                     "start": 415,
                     "end": 496,
                     "value": "#1: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr is Array object. Actual: ",
-                    "raw": "'#1: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr is Array object. Actual: '"
+                    "raw": "'#1: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr is Array object. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -351,7 +369,9 @@
           "start": 540,
           "end": 541,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -383,7 +403,9 @@
                     "start": 570,
                     "end": 648,
                     "value": "#2: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr.length === 3. Actual: ",
-                    "raw": "'#2: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr.length === 3. Actual: '"
+                    "raw": "'#2: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr.length === 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -441,7 +463,9 @@
             "start": 677,
             "end": 678,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -452,7 +476,9 @@
           "start": 684,
           "end": 685,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -484,7 +510,9 @@
                     "start": 714,
                     "end": 788,
                     "value": "#3: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[0] === 0. Actual: ",
-                    "raw": "'#3: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[0] === 0. Actual: '"
+                    "raw": "'#3: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[0] === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -506,7 +534,9 @@
                         "start": 796,
                         "end": 797,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -543,7 +573,9 @@
             "start": 813,
             "end": 814,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -554,7 +586,9 @@
           "start": 820,
           "end": 821,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -586,7 +620,9 @@
                     "start": 850,
                     "end": 924,
                     "value": "#4: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[1] === 1. Actual: ",
-                    "raw": "'#4: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[1] === 1. Actual: '"
+                    "raw": "'#4: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[1] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -608,7 +644,9 @@
                         "start": 932,
                         "end": 933,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -645,7 +683,9 @@
             "start": 949,
             "end": 950,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -656,7 +696,9 @@
           "start": 956,
           "end": 957,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -688,7 +730,9 @@
                     "start": 986,
                     "end": 1060,
                     "value": "#5: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[2] === 2. Actual: ",
-                    "raw": "'#5: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[2] === 2. Actual: '"
+                    "raw": "'#5: var x = [0,1,2,3]; var arr = x.splice(NaN,3); arr[2] === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -710,7 +754,9 @@
                         "start": 1068,
                         "end": 1069,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -757,7 +803,9 @@
           "start": 1094,
           "end": 1095,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -789,7 +837,9 @@
                     "start": 1124,
                     "end": 1200,
                     "value": "#6: var x = [0,1,2,3]; var arr = x.splice(NaN,3); x.length === 1. Actual: ",
-                    "raw": "'#6: var x = [0,1,2,3]; var arr = x.splice(NaN,3); x.length === 1. Actual: '"
+                    "raw": "'#6: var x = [0,1,2,3]; var arr = x.splice(NaN,3); x.length === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -847,7 +897,9 @@
             "start": 1225,
             "end": 1226,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -858,7 +910,9 @@
           "start": 1232,
           "end": 1233,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -890,7 +944,9 @@
                     "start": 1262,
                     "end": 1334,
                     "value": "#7: var x = [0,1,2,3]; var arr = x.splice(NaN,3); x[0] === 3. Actual: ",
-                    "raw": "'#7: var x = [0,1,2,3]; var arr = x.splice(NaN,3); x[0] === 3. Actual: '"
+                    "raw": "'#7: var x = [0,1,2,3]; var arr = x.splice(NaN,3); x[0] === 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -912,7 +968,9 @@
                         "start": 1340,
                         "end": 1341,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

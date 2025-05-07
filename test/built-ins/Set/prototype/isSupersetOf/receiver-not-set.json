@@ -78,7 +78,9 @@
                         "start": 349,
                         "end": 350,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -187,7 +189,9 @@
                                   "start": 424,
                                   "end": 425,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -205,7 +209,9 @@
                                   "start": 439,
                                   "end": 440,
                                   "value": 3,
-                                  "raw": "3"
+                                  "raw": "3",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -409,7 +415,9 @@
             "start": 596,
             "end": 612,
             "value": "Set-like class",
-            "raw": "\"Set-like class\""
+            "raw": "\"Set-like class\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -453,7 +461,9 @@
                   "start": 638,
                   "end": 639,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -534,7 +544,9 @@
                             "start": 695,
                             "end": 696,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -552,7 +564,9 @@
                             "start": 708,
                             "end": 709,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -693,7 +707,9 @@
             "start": 809,
             "end": 826,
             "value": "Set-like object",
-            "raw": "\"Set-like object\""
+            "raw": "\"Set-like object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

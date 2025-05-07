@@ -116,7 +116,9 @@ __ESTREE_TEST__:PASS:
             "start": 60,
             "end": 92,
             "raw": "\"This is what I'd expect to see\"",
-            "value": "This is what I'd expect to see"
+            "value": "This is what I'd expect to see",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

@@ -92,7 +92,9 @@
             "start": 417,
             "end": 422,
             "value": "set",
-            "raw": "\"set\""
+            "raw": "\"set\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -277,7 +279,9 @@
             "start": 579,
             "end": 589,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -333,7 +337,9 @@
                 "start": 626,
                 "end": 636,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -368,7 +374,9 @@
             "start": 663,
             "end": 673,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

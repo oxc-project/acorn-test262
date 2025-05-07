@@ -128,7 +128,9 @@
                               "start": 465,
                               "end": 466,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -148,7 +150,9 @@
                           "start": 476,
                           "end": 480,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

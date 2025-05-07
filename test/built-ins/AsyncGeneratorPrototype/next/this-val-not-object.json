@@ -243,7 +243,9 @@
                                   "start": 1095,
                                   "end": 1147,
                                   "value": "AsyncGeneratorPrototype.next should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -251,7 +253,9 @@
                                   "start": 1179,
                                   "end": 1211,
                                   "value": " when `this` value `undefined`",
-                                  "raw": "\" when `this` value `undefined`\""
+                                  "raw": "\" when `this` value `undefined`\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -344,7 +348,9 @@
                                         "start": 1309,
                                         "end": 1350,
                                         "value": "(undefined) expected TypeError but got ",
-                                        "raw": "\"(undefined) expected TypeError but got \""
+                                        "raw": "\"(undefined) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -417,7 +423,9 @@
                         "start": 1412,
                         "end": 1413,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -470,7 +478,9 @@
                                   "start": 1468,
                                   "end": 1520,
                                   "value": "AsyncGeneratorPrototype.next should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -478,7 +488,9 @@
                                   "start": 1552,
                                   "end": 1584,
                                   "value": " when `this` value is a Number",
-                                  "raw": "\" when `this` value is a Number\""
+                                  "raw": "\" when `this` value is a Number\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -571,7 +583,9 @@
                                         "start": 1682,
                                         "end": 1720,
                                         "value": "(Number) expected TypeError but got ",
-                                        "raw": "\"(Number) expected TypeError but got \""
+                                        "raw": "\"(Number) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -644,7 +658,9 @@
                         "start": 1782,
                         "end": 1790,
                         "value": "string",
-                        "raw": "\"string\""
+                        "raw": "\"string\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -697,7 +713,9 @@
                                   "start": 1845,
                                   "end": 1897,
                                   "value": "AsyncGeneratorPrototype.next should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -705,7 +723,9 @@
                                   "start": 1929,
                                   "end": 1961,
                                   "value": " when `this` value is a String",
-                                  "raw": "\" when `this` value is a String\""
+                                  "raw": "\" when `this` value is a String\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -798,7 +818,9 @@
                                         "start": 2059,
                                         "end": 2097,
                                         "value": "(String) expected TypeError but got ",
-                                        "raw": "\"(String) expected TypeError but got \""
+                                        "raw": "\"(String) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -871,7 +893,9 @@
                         "start": 2159,
                         "end": 2163,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -924,7 +948,9 @@
                                   "start": 2218,
                                   "end": 2270,
                                   "value": "AsyncGeneratorPrototype.next should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -932,7 +958,9 @@
                                   "start": 2302,
                                   "end": 2329,
                                   "value": " when `this` value `null`",
-                                  "raw": "\" when `this` value `null`\""
+                                  "raw": "\" when `this` value `null`\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -1025,7 +1053,9 @@
                                         "start": 2427,
                                         "end": 2463,
                                         "value": "(null) expected TypeError but got ",
-                                        "raw": "\"(null) expected TypeError but got \""
+                                        "raw": "\"(null) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1098,7 +1128,9 @@
                         "start": 2525,
                         "end": 2529,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1151,7 +1183,9 @@
                                   "start": 2584,
                                   "end": 2636,
                                   "value": "AsyncGeneratorPrototype.next should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -1159,7 +1193,9 @@
                                   "start": 2668,
                                   "end": 2701,
                                   "value": " when `this` value is a Boolean",
-                                  "raw": "\" when `this` value is a Boolean\""
+                                  "raw": "\" when `this` value is a Boolean\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -1252,7 +1288,9 @@
                                         "start": 2799,
                                         "end": 2838,
                                         "value": "(Boolean) expected TypeError but got ",
-                                        "raw": "\"(Boolean) expected TypeError but got \""
+                                        "raw": "\"(Boolean) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1377,7 +1415,9 @@
                                   "start": 2961,
                                   "end": 3013,
                                   "value": "AsyncGeneratorPrototype.next should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\""
+                                  "raw": "\"AsyncGeneratorPrototype.next should reject promise\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -1385,7 +1425,9 @@
                                   "start": 3045,
                                   "end": 3077,
                                   "value": " when `this` value is a Symbol",
-                                  "raw": "\" when `this` value is a Symbol\""
+                                  "raw": "\" when `this` value is a Symbol\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -1478,7 +1520,9 @@
                                         "start": 3175,
                                         "end": 3213,
                                         "value": "(Symbol) expected TypeError but got ",
-                                        "raw": "\"(Symbol) expected TypeError but got \""
+                                        "raw": "\"(Symbol) expected TypeError but got \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {

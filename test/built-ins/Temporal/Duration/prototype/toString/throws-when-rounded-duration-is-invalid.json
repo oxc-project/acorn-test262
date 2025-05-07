@@ -112,7 +112,9 @@
                       "start": 1530,
                       "end": 1533,
                       "value": 999,
-                      "raw": "999"
+                      "raw": "999",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -163,7 +165,9 @@
                   "start": 1569,
                   "end": 1578,
                   "value": "seconds",
-                  "raw": "\"seconds\""
+                  "raw": "\"seconds\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -185,7 +189,9 @@
                   "start": 1594,
                   "end": 1600,
                   "value": "ceil",
-                  "raw": "\"ceil\""
+                  "raw": "\"ceil\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

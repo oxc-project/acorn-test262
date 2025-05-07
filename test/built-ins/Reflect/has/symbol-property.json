@@ -59,7 +59,9 @@
                 "start": 502,
                 "end": 505,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -101,7 +103,9 @@
           "start": 516,
           "end": 518,
           "value": 42,
-          "raw": "42"
+          "raw": "42",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -136,7 +140,9 @@
                 "start": 537,
                 "end": 540,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -217,14 +223,18 @@
             "start": 582,
             "end": 586,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 612,
             "value": "true from own property",
-            "raw": "'true from own property'"
+            "raw": "'true from own property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,14 +312,18 @@
             "start": 655,
             "end": 660,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 700,
             "value": "false when property is not present",
-            "raw": "'false when property is not present'"
+            "raw": "'false when property is not present'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

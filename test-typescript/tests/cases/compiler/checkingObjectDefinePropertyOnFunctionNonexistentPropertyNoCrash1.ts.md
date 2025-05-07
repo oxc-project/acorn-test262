@@ -106,7 +106,9 @@ __ESTREE_TEST__:PASS:
                     "start": 104,
                     "end": 110,
                     "raw": "'name'",
-                    "value": "name"
+                    "value": "name",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -166,7 +168,9 @@ __ESTREE_TEST__:PASS:
                             "start": 139,
                             "end": 146,
                             "raw": "'_test'",
-                            "value": "_test"
+                            "value": "_test",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }

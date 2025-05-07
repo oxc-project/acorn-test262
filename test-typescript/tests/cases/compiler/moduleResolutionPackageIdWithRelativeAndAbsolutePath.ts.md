@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 33,
         "raw": "'./Option'",
-        "value": "./Option"
+        "value": "./Option",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -232,7 +234,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 51,
         "raw": "\"troublesome-lib/lib/Option\"",
-        "value": "troublesome-lib/lib/Option"
+        "value": "troublesome-lib/lib/Option",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -393,7 +397,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 61,
         "raw": "\"troublesome-lib/lib/Compactable\"",
-        "value": "troublesome-lib/lib/Compactable"
+        "value": "troublesome-lib/lib/Compactable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -445,7 +451,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 33,
         "raw": "'./Option'",
-        "value": "./Option"
+        "value": "./Option",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -661,7 +669,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 31,
         "raw": "\"anotherLib\"",
-        "value": "anotherLib"
+        "value": "anotherLib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -691,7 +701,9 @@ __ESTREE_TEST__:PASS:
         "start": 166,
         "end": 183,
         "raw": "\"@shared/lib/app\"",
-        "value": "@shared/lib/app"
+        "value": "@shared/lib/app",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

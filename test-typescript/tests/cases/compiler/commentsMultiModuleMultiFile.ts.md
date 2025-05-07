@@ -290,7 +290,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 51,
           "raw": "'commentsMultiModuleMultiFile_0'",
-          "value": "commentsMultiModuleMultiFile_0"
+          "value": "commentsMultiModuleMultiFile_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -51,14 +51,18 @@
                   "start": 1223,
                   "end": 1225,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1227,
                   "end": 1236,
                   "value": "dgimsuy",
-                  "raw": "\"dgimsuy\""
+                  "raw": "\"dgimsuy\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -76,14 +80,18 @@
             "start": 1245,
             "end": 1254,
             "value": "dgimsuy",
-            "raw": "\"dgimsuy\""
+            "raw": "\"dgimsuy\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1256,
             "end": 1276,
             "value": "dgimsuy => dgimsuy",
-            "raw": "\"dgimsuy => dgimsuy\""
+            "raw": "\"dgimsuy => dgimsuy\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,14 +145,18 @@
                   "start": 1307,
                   "end": 1309,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1311,
                   "end": 1320,
                   "value": "yusmigd",
-                  "raw": "\"yusmigd\""
+                  "raw": "\"yusmigd\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -162,14 +174,18 @@
             "start": 1329,
             "end": 1338,
             "value": "dgimsuy",
-            "raw": "\"dgimsuy\""
+            "raw": "\"dgimsuy\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1340,
             "end": 1360,
             "value": "yusmigd => dgimsuy",
-            "raw": "\"yusmigd => dgimsuy\""
+            "raw": "\"yusmigd => dgimsuy\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

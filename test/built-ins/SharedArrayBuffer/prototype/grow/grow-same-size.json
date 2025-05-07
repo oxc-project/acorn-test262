@@ -34,7 +34,9 @@
                 "start": 788,
                 "end": 789,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -59,7 +61,9 @@
                       "start": 807,
                       "end": 808,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -150,7 +154,9 @@
             "start": 1162,
             "end": 1172,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -209,7 +215,9 @@
                     "start": 1201,
                     "end": 1202,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -282,7 +290,9 @@
             "start": 1667,
             "end": 1692,
             "value": "normal completion value",
-            "raw": "'normal completion value'"
+            "raw": "'normal completion value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

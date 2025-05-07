@@ -90,7 +90,9 @@ __ESTREE_TEST__:PASS:
             "start": 130,
             "end": 135,
             "raw": "'str'",
-            "value": "str"
+            "value": "str",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

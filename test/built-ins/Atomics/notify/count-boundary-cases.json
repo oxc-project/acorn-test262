@@ -69,7 +69,9 @@
                       "start": 815,
                       "end": 816,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -143,7 +145,9 @@
                 "start": 863,
                 "end": 864,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -156,7 +160,9 @@
                   "start": 867,
                   "end": 868,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -167,14 +173,18 @@
             "start": 873,
             "end": 874,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 878,
             "end": 917,
             "value": "Atomics.notify(i32a, 0, -3) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, -3) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0, -3) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +253,9 @@
                 "start": 962,
                 "end": 963,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -272,14 +284,18 @@
             "start": 994,
             "end": 995,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 999,
             "end": 1060,
             "value": "Atomics.notify(i32a, 0, Number.POSITIVE_INFINITY) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, Number.POSITIVE_INFINITY) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0, Number.POSITIVE_INFINITY) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +364,9 @@
                 "start": 1105,
                 "end": 1106,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -364,14 +382,18 @@
             "start": 1122,
             "end": 1123,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1127,
             "end": 1173,
             "value": "Atomics.notify(i32a, 0, undefined) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, undefined) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0, undefined) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -440,14 +462,18 @@
                 "start": 1218,
                 "end": 1219,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1221,
                 "end": 1225,
                 "value": "33",
-                "raw": "'33'"
+                "raw": "'33'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -457,14 +483,18 @@
             "start": 1230,
             "end": 1231,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1235,
             "end": 1278,
             "value": "Atomics.notify(i32a, 0, '33') returns 0",
-            "raw": "'Atomics.notify(i32a, 0, \\'33\\') returns 0'"
+            "raw": "'Atomics.notify(i32a, 0, \\'33\\') returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -533,7 +563,9 @@
                 "start": 1323,
                 "end": 1324,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -558,7 +590,9 @@
                       "start": 1337,
                       "end": 1338,
                       "value": 8,
-                      "raw": "8"
+                      "raw": "8",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -572,14 +606,18 @@
             "start": 1345,
             "end": 1346,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1350,
             "end": 1399,
             "value": "Atomics.notify(i32a, 0, {valueOf: 8}) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, {valueOf: 8}) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0, {valueOf: 8}) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -648,7 +686,9 @@
                 "start": 1444,
                 "end": 1445,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -658,14 +698,18 @@
             "start": 1450,
             "end": 1451,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1455,
             "end": 1490,
             "value": "Atomics.notify(i32a, 0) returns 0",
-            "raw": "'Atomics.notify(i32a, 0) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

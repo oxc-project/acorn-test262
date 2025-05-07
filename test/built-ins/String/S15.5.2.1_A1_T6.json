@@ -34,7 +34,9 @@
                 "start": 516,
                 "end": 521,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -69,7 +71,9 @@
           "start": 635,
           "end": 643,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -101,7 +105,9 @@
                     "start": 672,
                     "end": 756,
                     "value": "#1: __str = new String(false); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(false); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String(false); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -189,7 +195,9 @@
                     "start": 1011,
                     "end": 1105,
                     "value": "#1.5: __str = new String(false); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(false); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(false); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -243,7 +251,9 @@
             "start": 1315,
             "end": 1320,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           "operator": "+",
           "right": {
@@ -251,7 +261,9 @@
             "start": 1323,
             "end": 1325,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -284,7 +296,9 @@
                     "start": 1354,
                     "end": 1421,
                     "value": "#2: __str = new String(false); __str ==false+\"\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(false); __str ==false+\"\". Actual: __str =='"
+                    "raw": "'#2: __str = new String(false); __str ==false+\"\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -85,7 +85,9 @@
                     "start": 419,
                     "end": 427,
                     "value": "length",
-                    "raw": "'length'"
+                    "raw": "'length'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -97,7 +99,9 @@
             "start": 432,
             "end": 521,
             "value": "The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'"
+            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,14 +223,18 @@
             "start": 614,
             "end": 622,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 628,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -251,7 +259,9 @@
                     "start": 652,
                     "end": 661,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -345,7 +355,9 @@
             "start": 730,
             "end": 814,
             "value": "The value of Object.prototype.valueOf.length is expected to equal the value of obj",
-            "raw": "'The value of Object.prototype.valueOf.length is expected to equal the value of obj'"
+            "raw": "'The value of Object.prototype.valueOf.length is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

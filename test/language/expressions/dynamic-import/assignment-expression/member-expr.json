@@ -41,7 +41,9 @@
                   "start": 878,
                   "end": 904,
                   "value": "./module-code_FIXTURE.js",
-                  "raw": "'./module-code_FIXTURE.js'"
+                  "raw": "'./module-code_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 913,
                   "end": 945,
                   "value": "./module-code-other_FIXTURE.js",
-                  "raw": "'./module-code-other_FIXTURE.js'"
+                  "raw": "'./module-code-other_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -130,7 +134,9 @@
                         "start": 1043,
                         "end": 1046,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -194,7 +200,9 @@
                   "start": 1122,
                   "end": 1131,
                   "value": "Test262",
-                  "raw": "'Test262'"
+                  "raw": "'Test262'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -252,7 +260,9 @@
                   "start": 1168,
                   "end": 1170,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -359,7 +369,9 @@
                   "start": 1330,
                   "end": 1347,
                   "value": "one six one two",
-                  "raw": "'one six one two'"
+                  "raw": "'one six one two'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -417,7 +429,9 @@
                   "start": 1384,
                   "end": 1388,
                   "value": 1612,
-                  "raw": "1612"
+                  "raw": "1612",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

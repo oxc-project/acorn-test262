@@ -32,7 +32,9 @@
               "start": 1269,
               "end": 1295,
               "value": "./module-code_FIXTURE.js",
-              "raw": "'./module-code_FIXTURE.js'"
+              "raw": "'./module-code_FIXTURE.js'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -68,7 +70,9 @@
               "start": 1313,
               "end": 1345,
               "value": "./module-code-other_FIXTURE.js",
-              "raw": "'./module-code-other_FIXTURE.js'"
+              "raw": "'./module-code-other_FIXTURE.js'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -189,7 +193,9 @@
                   "start": 1477,
                   "end": 1486,
                   "value": "Test262",
-                  "raw": "'Test262'"
+                  "raw": "'Test262'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -247,7 +253,9 @@
                   "start": 1523,
                   "end": 1525,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -348,7 +356,9 @@
                   "start": 1642,
                   "end": 1659,
                   "value": "one six one two",
-                  "raw": "'one six one two'"
+                  "raw": "'one six one two'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -406,7 +416,9 @@
                   "start": 1696,
                   "end": 1700,
                   "value": 1612,
-                  "raw": "1612"
+                  "raw": "1612",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

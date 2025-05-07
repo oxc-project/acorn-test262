@@ -41,7 +41,9 @@
                   "start": 369,
                   "end": 370,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -148,7 +150,9 @@
                                 "start": 446,
                                 "end": 454,
                                 "value": "assert",
-                                "raw": "\"assert\""
+                                "raw": "\"assert\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -165,7 +169,9 @@
                                     "start": 471,
                                     "end": 473,
                                     "value": 42,
-                                    "raw": "42"
+                                    "raw": "42",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -205,7 +211,9 @@
             "start": 501,
             "end": 502,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -265,7 +273,9 @@
                   "start": 539,
                   "end": 540,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

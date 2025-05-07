@@ -67,7 +67,9 @@
             "start": 415,
             "end": 425,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                   "start": 467,
                   "end": 471,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -183,7 +187,9 @@
                 "start": 525,
                 "end": 535,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -216,7 +222,9 @@
               "start": 546,
               "end": 551,
               "value": "set",
-              "raw": "\"set\""
+              "raw": "\"set\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -231,7 +239,9 @@
             "start": 561,
             "end": 585,
             "value": "\"set\" in desc !== true",
-            "raw": "'\"set\" in desc !== true'"
+            "raw": "'\"set\" in desc !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

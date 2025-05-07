@@ -53,63 +53,81 @@
                 "start": 622,
                 "end": 636,
                 "value": "call mapping",
-                "raw": "\"call mapping\""
+                "raw": "\"call mapping\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 640,
                 "end": 661,
                 "value": "get thenable_0.then",
-                "raw": "\"get thenable_0.then\""
+                "raw": "\"get thenable_0.then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 665,
                 "end": 687,
                 "value": "call thenable_0.then",
-                "raw": "\"call thenable_0.then\""
+                "raw": "\"call thenable_0.then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 691,
                 "end": 705,
                 "value": "call mapping",
-                "raw": "\"call mapping\""
+                "raw": "\"call mapping\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 709,
                 "end": 730,
                 "value": "get thenable_1.then",
-                "raw": "\"get thenable_1.then\""
+                "raw": "\"get thenable_1.then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 734,
                 "end": 756,
                 "value": "call thenable_1.then",
-                "raw": "\"call thenable_1.then\""
+                "raw": "\"call thenable_1.then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 760,
                 "end": 774,
                 "value": "call mapping",
-                "raw": "\"call mapping\""
+                "raw": "\"call mapping\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 778,
                 "end": 799,
                 "value": "get thenable_2.then",
-                "raw": "\"get thenable_2.then\""
+                "raw": "\"get thenable_2.then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 803,
                 "end": 825,
                 "value": "call thenable_2.then",
-                "raw": "\"call thenable_2.then\""
+                "raw": "\"call thenable_2.then\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -182,7 +200,9 @@
                   "start": 872,
                   "end": 886,
                   "value": "call mapping",
-                  "raw": "\"call mapping\""
+                  "raw": "\"call mapping\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -419,7 +439,9 @@
                                       "start": 1079,
                                       "end": 1080,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -528,21 +550,27 @@
                                   "start": 1175,
                                   "end": 1176,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 1178,
                                   "end": 1179,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 1181,
                                   "end": 1182,
                                   "value": 3,
-                                  "raw": "3"
+                                  "raw": "3",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             },
@@ -604,21 +632,27 @@
                             "start": 1226,
                             "end": 1227,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1229,
                             "end": 1230,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1232,
                             "end": 1233,
                             "value": 6,
-                            "raw": "6"
+                            "raw": "6",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -627,7 +661,9 @@
                         "start": 1236,
                         "end": 1262,
                         "value": "mapping function applied",
-                        "raw": "\"mapping function applied\""
+                        "raw": "\"mapping function applied\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -678,7 +714,9 @@
                         "start": 1304,
                         "end": 1327,
                         "value": "observable operations",
-                        "raw": "\"observable operations\""
+                        "raw": "\"observable operations\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

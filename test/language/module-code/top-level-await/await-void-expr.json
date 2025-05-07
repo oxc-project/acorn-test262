@@ -33,7 +33,9 @@
                 "start": 554,
                 "end": 555,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }

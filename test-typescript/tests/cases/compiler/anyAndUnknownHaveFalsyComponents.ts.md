@@ -77,7 +77,9 @@ __ESTREE_TEST__:PASS:
               "start": 38,
               "end": 39,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -161,7 +163,9 @@ __ESTREE_TEST__:PASS:
                     "start": 126,
                     "end": 133,
                     "raw": "\"block\"",
-                    "value": "block"
+                    "value": "block",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -210,7 +214,9 @@ __ESTREE_TEST__:PASS:
                             "start": 177,
                             "end": 183,
                             "raw": "\"flex\"",
-                            "value": "flex"
+                            "value": "flex",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -310,7 +316,9 @@ __ESTREE_TEST__:PASS:
               "start": 242,
               "end": 243,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -394,7 +402,9 @@ __ESTREE_TEST__:PASS:
                     "start": 334,
                     "end": 341,
                     "raw": "\"block\"",
-                    "value": "block"
+                    "value": "block",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -443,7 +453,9 @@ __ESTREE_TEST__:PASS:
                             "start": 385,
                             "end": 391,
                             "raw": "\"flex\"",
-                            "value": "flex"
+                            "value": "flex",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

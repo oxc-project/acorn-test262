@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
                           "start": 58,
                           "end": 76,
                           "raw": "\"I'm a rectangle!\"",
-                          "value": "I'm a rectangle!"
+                          "value": "I'm a rectangle!",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -263,7 +265,9 @@ __ESTREE_TEST__:PASS:
                 "start": 28,
                 "end": 41,
                 "raw": "'./rectangle'",
-                "value": "./rectangle"
+                "value": "./rectangle",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -689,7 +693,9 @@ __ESTREE_TEST__:PASS:
                 "start": 25,
                 "end": 34,
                 "raw": "\"./index\"",
-                "value": "./index"
+                "value": "./index",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -803,7 +809,9 @@ __ESTREE_TEST__:PASS:
             "start": 100,
             "end": 109,
             "raw": "\"Objects\"",
-            "value": "Objects"
+            "value": "Objects",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",

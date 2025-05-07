@@ -79,7 +79,9 @@
                 "start": 315,
                 "end": 323,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +91,9 @@
             "start": 328,
             "end": 380,
             "value": "The Object constructor has a 'length' own property",
-            "raw": "\"The Object constructor has a 'length' own property\""
+            "raw": "\"The Object constructor has a 'length' own property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -147,14 +151,18 @@
             "start": 417,
             "end": 418,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 420,
             "end": 468,
             "value": "The value of Object.length is expected to be 1",
-            "raw": "'The value of Object.length is expected to be 1'"
+            "raw": "'The value of Object.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

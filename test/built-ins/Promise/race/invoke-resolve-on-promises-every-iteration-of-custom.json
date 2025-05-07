@@ -51,21 +51,27 @@
                 "start": 576,
                 "end": 577,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 579,
                 "end": 580,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 583,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +99,9 @@
             "start": 610,
             "end": 611,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,7 +127,9 @@
             "start": 637,
             "end": 638,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -329,7 +339,9 @@
                     "start": 812,
                     "end": 813,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -442,7 +454,9 @@
                     "start": 918,
                     "end": 919,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -616,14 +630,18 @@
                             "start": 1056,
                             "end": 1057,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1059,
                             "end": 1095,
                             "value": "`Promise.resolve` is never invoked",
-                            "raw": "'`Promise.resolve` is never invoked'"
+                            "raw": "'`Promise.resolve` is never invoked'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -668,14 +686,18 @@
                             "start": 1140,
                             "end": 1141,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1143,
                             "end": 1205,
                             "value": "`Custom.resolve` invoked once for every item in iterable arg",
-                            "raw": "'`Custom.resolve` invoked once for every item in iterable arg'"
+                            "raw": "'`Custom.resolve` invoked once for every item in iterable arg'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

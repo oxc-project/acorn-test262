@@ -54,7 +54,9 @@
                       "start": 1273,
                       "end": 1299,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -76,7 +78,9 @@
                       "start": 1308,
                       "end": 1340,
                       "value": "./module-code-other_FIXTURE.js",
-                      "raw": "'./module-code-other_FIXTURE.js'"
+                      "raw": "'./module-code-other_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -215,7 +219,9 @@
                   "start": 1477,
                   "end": 1486,
                   "value": "Test262",
-                  "raw": "'Test262'"
+                  "raw": "'Test262'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -273,7 +279,9 @@
                   "start": 1523,
                   "end": 1525,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -387,7 +395,9 @@
                   "start": 1644,
                   "end": 1661,
                   "value": "one six one two",
-                  "raw": "'one six one two'"
+                  "raw": "'one six one two'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -445,7 +455,9 @@
                   "start": 1698,
                   "end": 1702,
                   "value": 1612,
-                  "raw": "1612"
+                  "raw": "1612",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

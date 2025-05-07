@@ -23,7 +23,9 @@
             "start": 637,
             "end": 638,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -81,7 +83,9 @@
             "start": 679,
             "end": 687,
             "value": "groups",
-            "raw": "\"groups\""
+            "raw": "\"groups\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -176,7 +180,8 @@
                 "regex": {
                   "pattern": "(?<x>.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -193,7 +198,9 @@
                 "start": 746,
                 "end": 749,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -241,7 +248,9 @@
             "start": 778,
             "end": 779,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,7 +282,9 @@
             "start": 888,
             "end": 896,
             "value": "groups",
-            "raw": "\"groups\""
+            "raw": "\"groups\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -298,7 +309,9 @@
                   "start": 912,
                   "end": 916,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -320,7 +333,9 @@
                   "start": 932,
                   "end": 936,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -342,7 +357,9 @@
                   "start": 954,
                   "end": 958,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -406,7 +423,8 @@
                 "regex": {
                   "pattern": "(?<__proto__>.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -423,7 +441,9 @@
                 "start": 1141,
                 "end": 1144,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -465,7 +485,9 @@
             "start": 1164,
             "end": 1167,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -523,7 +545,9 @@
             "start": 1205,
             "end": 1209,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",

@@ -47,7 +47,9 @@
                 "start": 309,
                 "end": 320,
                 "value": "MAX_VALUE",
-                "raw": "\"MAX_VALUE\""
+                "raw": "\"MAX_VALUE\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 323,
             "end": 376,
             "value": "Number.hasOwnProperty(\"MAX_VALUE\") must return true",
-            "raw": "'Number.hasOwnProperty(\"MAX_VALUE\") must return true'"
+            "raw": "'Number.hasOwnProperty(\"MAX_VALUE\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

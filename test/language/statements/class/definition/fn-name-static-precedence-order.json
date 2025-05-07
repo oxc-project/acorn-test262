@@ -66,7 +66,9 @@
                           "start": 959,
                           "end": 1015,
                           "value": "Static method should not be executed during definition",
-                          "raw": "'Static method should not be executed during definition'"
+                          "raw": "'Static method should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -122,7 +124,9 @@
                           "start": 1067,
                           "end": 1123,
                           "value": "Static method should not be executed during definition",
-                          "raw": "'Static method should not be executed during definition'"
+                          "raw": "'Static method should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -205,28 +209,36 @@
                 "start": 1185,
                 "end": 1193,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1195,
                 "end": 1201,
                 "value": "name",
-                "raw": "'name'"
+                "raw": "'name'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1203,
                 "end": 1214,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1216,
                 "end": 1224,
                 "value": "method",
-                "raw": "'method'"
+                "raw": "'method'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -254,7 +266,9 @@
             "start": 1239,
             "end": 1245,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -327,7 +341,9 @@
                             "start": 1311,
                             "end": 1380,
                             "value": "Static method defined via computed property should not be executed ",
-                            "raw": "'Static method defined via computed property should not be executed '"
+                            "raw": "'Static method defined via computed property should not be executed '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -335,7 +351,9 @@
                             "start": 1389,
                             "end": 1408,
                             "value": "during definition",
-                            "raw": "'during definition'"
+                            "raw": "'during definition'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -419,21 +437,27 @@
                 "start": 1475,
                 "end": 1483,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1485,
                 "end": 1491,
                 "value": "name",
-                "raw": "'name'"
+                "raw": "'name'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1493,
                 "end": 1504,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -504,7 +528,9 @@
                           "start": 1567,
                           "end": 1631,
                           "value": "Static `get` accessor should not be executed during definition",
-                          "raw": "'Static `get` accessor should not be executed during definition'"
+                          "raw": "'Static `get` accessor should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -587,21 +613,27 @@
                 "start": 1693,
                 "end": 1701,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1703,
                 "end": 1709,
                 "value": "name",
-                "raw": "'name'"
+                "raw": "'name'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1711,
                 "end": 1722,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -679,7 +711,9 @@
                           "start": 1786,
                           "end": 1850,
                           "value": "Static `set` accessor should not be executed during definition",
-                          "raw": "'Static `set` accessor should not be executed during definition'"
+                          "raw": "'Static `set` accessor should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -762,21 +796,27 @@
                 "start": 1912,
                 "end": 1920,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1922,
                 "end": 1928,
                 "value": "name",
-                "raw": "'name'"
+                "raw": "'name'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1930,
                 "end": 1941,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -847,7 +887,9 @@
                           "start": 2001,
                           "end": 2066,
                           "value": "Static GeneratorMethod should not be executed during definition",
-                          "raw": "'Static GeneratorMethod should not be executed during definition'"
+                          "raw": "'Static GeneratorMethod should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -930,21 +972,27 @@
                 "start": 2128,
                 "end": 2136,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2138,
                 "end": 2144,
                 "value": "name",
-                "raw": "'name'"
+                "raw": "'name'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2146,
                 "end": 2157,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

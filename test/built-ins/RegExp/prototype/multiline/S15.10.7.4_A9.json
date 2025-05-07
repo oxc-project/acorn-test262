@@ -98,7 +98,9 @@
                 "start": 394,
                 "end": 405,
                 "value": "multiline",
-                "raw": "'multiline'"
+                "raw": "'multiline'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 408,
             "end": 412,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 414,
             "end": 467,
             "value": "__re.hasOwnProperty('multiline') must return true",
-            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,14 +186,18 @@
             "start": 510,
             "end": 514,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 577,
             "value": "The value of `delete __re.multiline` is expected to be true",
-            "raw": "'The value of `delete __re.multiline` is expected to be true'"
+            "raw": "'The value of `delete __re.multiline` is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +260,9 @@
                 "start": 617,
                 "end": 628,
                 "value": "multiline",
-                "raw": "'multiline'"
+                "raw": "'multiline'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -260,14 +272,18 @@
             "start": 631,
             "end": 636,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 692,
             "value": "__re.hasOwnProperty('multiline') must return false",
-            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return false'"
+            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

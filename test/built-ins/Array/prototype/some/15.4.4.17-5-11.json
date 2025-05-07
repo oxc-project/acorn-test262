@@ -130,7 +130,9 @@
                     "start": 361,
                     "end": 363,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -164,7 +166,9 @@
             "start": 394,
             "end": 437,
             "value": "[11].some(callbackfn, objString) !== true",
-            "raw": "'[11].some(callbackfn, objString) !== true'"
+            "raw": "'[11].some(callbackfn, objString) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

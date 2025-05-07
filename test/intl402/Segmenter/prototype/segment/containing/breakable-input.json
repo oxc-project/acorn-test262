@@ -34,14 +34,18 @@
                 "start": 583,
                 "end": 593,
                 "value": "grapheme",
-                "raw": "\"grapheme\""
+                "raw": "\"grapheme\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 595,
                 "end": 601,
                 "value": "word",
-                "raw": "\"word\""
+                "raw": "\"word\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -74,91 +78,117 @@
                 "start": 725,
                 "end": 731,
                 "value": "123 ",
-                "raw": "\"123 \""
+                "raw": "\"123 \"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 737,
                 "end": 741,
                 "value": "a ",
-                "raw": "\"a \""
+                "raw": "\"a \"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 747,
                 "end": 751,
                 "value": " a",
-                "raw": "\" a\""
+                "raw": "\" a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 757,
                 "end": 772,
                 "value": " 𐀀",
-                "raw": "\" \\ud800\\udc00\""
+                "raw": "\" \\ud800\\udc00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 799,
                 "end": 814,
                 "value": "𐀀 ",
-                "raw": "\"\\ud800\\udc00 \""
+                "raw": "\"\\ud800\\udc00 \"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 841,
                 "end": 855,
                 "value": "\udc00\ud800",
-                "raw": "\"\\udc00\\ud800\""
+                "raw": "\"\\udc00\\ud800\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 900,
                 "end": 909,
                 "value": "\ud800 ",
-                "raw": "\"\\ud800 \""
+                "raw": "\"\\ud800 \"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 949,
                 "end": 958,
                 "value": "\udc00 ",
-                "raw": "\"\\udc00 \""
+                "raw": "\"\\udc00 \"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 999,
                 "end": 1008,
                 "value": " \ud800",
-                "raw": "\" \\ud800\""
+                "raw": "\" \\ud800\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1048,
                 "end": 1057,
                 "value": " \udc00",
-                "raw": "\" \\udc00\""
+                "raw": "\" \\udc00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1098,
                 "end": 1102,
                 "value": " 台",
-                "raw": "\" 台\""
+                "raw": "\" 台\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1135,
                 "end": 1139,
                 "value": "台 ",
-                "raw": "\"台 \""
+                "raw": "\"台 \"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1172,
                 "end": 1181,
                 "value": "́ ",
-                "raw": "\"\\u0301 \""
+                "raw": "\"\\u0301 \"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -509,7 +539,9 @@
                                         "start": 1525,
                                         "end": 1526,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -551,7 +583,9 @@
                                     "start": 1554,
                                     "end": 1555,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "MemberExpression",
@@ -736,7 +770,9 @@
                                     "start": 1702,
                                     "end": 1707,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -876,7 +912,9 @@
                                           "start": 1833,
                                           "end": 1834,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ],
@@ -935,7 +973,9 @@
                                         "start": 1882,
                                         "end": 1883,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ],
@@ -997,7 +1037,9 @@
                                     "start": 1913,
                                     "end": 1917,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -1028,7 +1070,9 @@
                                       "start": 1932,
                                       "end": 1933,
                                       "value": 0,
-                                      "raw": "0"
+                                      "raw": "0",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -1103,7 +1147,9 @@
                                     "start": 1981,
                                     "end": 1985,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -1313,7 +1359,9 @@
                                     "start": 2117,
                                     "end": 2122,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",

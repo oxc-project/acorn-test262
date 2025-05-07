@@ -23,7 +23,9 @@
             "start": 346,
             "end": 352,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -280,7 +282,9 @@
           "start": 509,
           "end": 518,
           "value": "arrData",
-          "raw": "\"arrData\""
+          "raw": "\"arrData\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -328,7 +332,9 @@
                 "start": 547,
                 "end": 553,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -338,7 +344,9 @@
             "start": 556,
             "end": 593,
             "value": "obj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"prop\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,14 +391,18 @@
             "start": 619,
             "end": 628,
             "value": "arrData",
-            "raw": "\"arrData\""
+            "raw": "\"arrData\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 636,
             "value": "data",
-            "raw": "'data'"
+            "raw": "'data'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

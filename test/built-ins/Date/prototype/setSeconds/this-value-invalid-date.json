@@ -105,7 +105,9 @@
               "start": 747,
               "end": 748,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -157,7 +159,9 @@
             "start": 782,
             "end": 805,
             "value": "return value (second)",
-            "raw": "'return value (second)'"
+            "raw": "'return value (second)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +232,9 @@
             "start": 846,
             "end": 884,
             "value": "[[DateValue]] internal slot (second)",
-            "raw": "'[[DateValue]] internal slot (second)'"
+            "raw": "'[[DateValue]] internal slot (second)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,14 +284,18 @@
               "start": 913,
               "end": 914,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 916,
               "end": 917,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -337,7 +347,9 @@
             "start": 951,
             "end": 970,
             "value": "return value (ms)",
-            "raw": "'return value (ms)'"
+            "raw": "'return value (ms)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -408,7 +420,9 @@
             "start": 1011,
             "end": 1045,
             "value": "[[DateValue]] internal slot (ms)",
-            "raw": "'[[DateValue]] internal slot (ms)'"
+            "raw": "'[[DateValue]] internal slot (ms)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

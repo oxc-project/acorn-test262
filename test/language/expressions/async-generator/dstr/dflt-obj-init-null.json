@@ -42,7 +42,9 @@
                   "start": 864,
                   "end": 868,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

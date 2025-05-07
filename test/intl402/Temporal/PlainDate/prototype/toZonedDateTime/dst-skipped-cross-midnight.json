@@ -47,21 +47,27 @@
                 "start": 466,
                 "end": 470,
                 "value": 1919,
-                "raw": "1919"
+                "raw": "1919",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 473,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 475,
                 "end": 477,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,7 +119,9 @@
                 "start": 524,
                 "end": 541,
                 "value": "America/Toronto",
-                "raw": "\"America/Toronto\""
+                "raw": "\"America/Toronto\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -184,7 +192,9 @@
                       "start": 613,
                       "end": 630,
                       "value": "America/Toronto",
-                      "raw": "\"America/Toronto\""
+                      "raw": "\"America/Toronto\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -303,77 +313,99 @@
             "start": 752,
             "end": 753,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 756,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 758,
             "end": 759,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 761,
             "end": 762,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 764,
             "end": 765,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 783,
             "end": 785,
             "value": 30,
-            "raw": "30"
+            "raw": "30",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 788,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 790,
             "end": 791,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 794,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 796,
             "end": 797,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 801,
             "end": 893,
             "value": "start of day is 30 minutes earlier than following the disambiguation strategy for midnight",
-            "raw": "\"start of day is 30 minutes earlier than following the disambiguation strategy for midnight\""
+            "raw": "\"start of day is 30 minutes earlier than following the disambiguation strategy for midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -477,7 +509,9 @@
                         "start": 986,
                         "end": 1003,
                         "value": "America/Toronto",
-                        "raw": "\"America/Toronto\""
+                        "raw": "\"America/Toronto\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -500,7 +534,9 @@
             "start": 1027,
             "end": 1095,
             "value": "omitted plainTime is the same result as using the string shorthand",
-            "raw": "\"omitted plainTime is the same result as using the string shorthand\""
+            "raw": "\"omitted plainTime is the same result as using the string shorthand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -604,7 +640,9 @@
                         "start": 1187,
                         "end": 1204,
                         "value": "America/Toronto",
-                        "raw": "\"America/Toronto\""
+                        "raw": "\"America/Toronto\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -648,7 +686,9 @@
             "start": 1250,
             "end": 1331,
             "value": "explicitly undefined plainTime is the same result as using the string shorthand",
-            "raw": "\"explicitly undefined plainTime is the same result as using the string shorthand\""
+            "raw": "\"explicitly undefined plainTime is the same result as using the string shorthand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

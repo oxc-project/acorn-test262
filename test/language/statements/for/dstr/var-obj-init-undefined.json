@@ -96,7 +96,9 @@
                       "start": 1372,
                       "end": 1373,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "update": null,

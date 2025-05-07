@@ -161,7 +161,9 @@
                               "start": 1625,
                               "end": 1634,
                               "value": "Test262",
-                              "raw": "'Test262'"
+                              "raw": "'Test262'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -259,7 +261,9 @@
             "start": 1678,
             "end": 1687,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -372,7 +376,9 @@
             "start": 1752,
             "end": 1809,
             "value": "Accessed static private setter from an arbitrary object",
-            "raw": "'Accessed static private setter from an arbitrary object'"
+            "raw": "'Accessed static private setter from an arbitrary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

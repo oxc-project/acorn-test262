@@ -28,133 +28,171 @@
                 "start": 1164,
                 "end": 1166,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1170,
                 "end": 1173,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1177,
                 "end": 1182,
                 "value": "ab7",
-                "raw": "\"ab7\""
+                "raw": "\"ab7\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1186,
                 "end": 1200,
                 "value": "notalanguage",
-                "raw": "\"notalanguage\""
+                "raw": "\"notalanguage\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1204,
                 "end": 1215,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1282,
                 "end": 1291,
                 "value": "fr-Latn",
-                "raw": "\"fr-Latn\""
+                "raw": "\"fr-Latn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1295,
                 "end": 1302,
                 "value": "fr-FR",
-                "raw": "\"fr-FR\""
+                "raw": "\"fr-FR\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1306,
                 "end": 1318,
                 "value": "sa-vaidika",
-                "raw": "\"sa-vaidika\""
+                "raw": "\"sa-vaidika\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1322,
                 "end": 1333,
                 "value": "fr-a-asdf",
-                "raw": "\"fr-a-asdf\""
+                "raw": "\"fr-a-asdf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1337,
                 "end": 1351,
                 "value": "fr-x-private",
-                "raw": "\"fr-x-private\""
+                "raw": "\"fr-x-private\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1399,
                 "end": 1410,
                 "value": "i-klingon",
-                "raw": "\"i-klingon\""
+                "raw": "\"i-klingon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1456,
                 "end": 1464,
                 "value": "zh-min",
-                "raw": "\"zh-min\""
+                "raw": "\"zh-min\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1468,
                 "end": 1480,
                 "value": "zh-min-nan",
-                "raw": "\"zh-min-nan\""
+                "raw": "\"zh-min-nan\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1529,
                 "end": 1538,
                 "value": "abcd-US",
-                "raw": "\"abcd-US\""
+                "raw": "\"abcd-US\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1542,
                 "end": 1552,
                 "value": "abcde-US",
-                "raw": "\"abcde-US\""
+                "raw": "\"abcde-US\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1556,
                 "end": 1567,
                 "value": "abcdef-US",
-                "raw": "\"abcdef-US\""
+                "raw": "\"abcdef-US\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1571,
                 "end": 1583,
                 "value": "abcdefg-US",
-                "raw": "\"abcdefg-US\""
+                "raw": "\"abcdefg-US\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1587,
                 "end": 1600,
                 "value": "abcdefgh-US",
-                "raw": "\"abcdefgh-US\""
+                "raw": "\"abcdefgh-US\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1605,
                 "end": 1606,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -279,7 +317,9 @@
                               "start": 1721,
                               "end": 1725,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

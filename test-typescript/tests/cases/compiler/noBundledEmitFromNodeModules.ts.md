@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 25,
         "raw": "\"projB\"",
-        "value": "projB"
+        "value": "projB",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

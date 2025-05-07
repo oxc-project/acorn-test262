@@ -108,7 +108,9 @@ __ESTREE_TEST__:PASS:
               "start": 74,
               "end": 87,
               "raw": "\"__@iterator\"",
-              "value": "__@iterator"
+              "value": "__@iterator",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,

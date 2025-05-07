@@ -34,7 +34,9 @@
                 "start": 826,
                 "end": 827,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 864,
                 "end": 865,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +148,9 @@
                 "start": 902,
                 "end": 903,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -154,14 +160,18 @@
             "start": 906,
             "end": 907,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 929,
             "value": "sample.getUint8(0)",
-            "raw": "\"sample.getUint8(0)\""
+            "raw": "\"sample.getUint8(0)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -224,7 +234,9 @@
                 "start": 965,
                 "end": 966,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -234,14 +246,18 @@
             "start": 969,
             "end": 970,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 972,
             "end": 992,
             "value": "sample.getUint8(1)",
-            "raw": "\"sample.getUint8(1)\""
+            "raw": "\"sample.getUint8(1)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,7 +320,9 @@
                 "start": 1028,
                 "end": 1029,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -314,14 +332,18 @@
             "start": 1032,
             "end": 1033,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1035,
             "end": 1055,
             "value": "sample.getUint8(2)",
-            "raw": "\"sample.getUint8(2)\""
+            "raw": "\"sample.getUint8(2)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -384,7 +406,9 @@
                 "start": 1091,
                 "end": 1092,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -394,14 +418,18 @@
             "start": 1095,
             "end": 1096,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1098,
             "end": 1118,
             "value": "sample.getUint8(3)",
-            "raw": "\"sample.getUint8(3)\""
+            "raw": "\"sample.getUint8(3)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

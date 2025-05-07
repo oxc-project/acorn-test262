@@ -73,7 +73,9 @@
                 "start": 358,
                 "end": 368,
                 "value": "getHours",
-                "raw": "\"getHours\""
+                "raw": "\"getHours\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 373,
             "end": 377,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 381,
             "end": 441,
             "value": "Date.prototype.hasOwnProperty(\"getHours\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getHours\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"getHours\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

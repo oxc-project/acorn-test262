@@ -65,7 +65,9 @@
                         "start": 415,
                         "end": 432,
                         "value": "de-DE-u-nu-latn",
-                        "raw": "\"de-DE-u-nu-latn\""
+                        "raw": "\"de-DE-u-nu-latn\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -139,7 +141,9 @@
                         "start": 509,
                         "end": 526,
                         "value": "de-DE-u-nu-latn",
-                        "raw": "\"de-DE-u-nu-latn\""
+                        "raw": "\"de-DE-u-nu-latn\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -164,7 +168,9 @@
                               "start": 536,
                               "end": 546,
                               "value": "currency",
-                              "raw": "\"currency\""
+                              "raw": "\"currency\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -186,7 +192,9 @@
                               "start": 558,
                               "end": 563,
                               "value": "EUR",
-                              "raw": "\"EUR\""
+                              "raw": "\"EUR\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

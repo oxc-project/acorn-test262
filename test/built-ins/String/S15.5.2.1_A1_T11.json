@@ -80,7 +80,9 @@
                   "start": 639,
                   "end": 643,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -211,7 +213,9 @@
           "start": 840,
           "end": 848,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -243,7 +247,9 @@
                     "start": 877,
                     "end": 981,
                     "value": "#1: function __obj(){}; __str = new String(__obj); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: function __obj(){}; __str = new String(__obj); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: function __obj(){}; __str = new String(__obj); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -331,7 +337,9 @@
                     "start": 1236,
                     "end": 1330,
                     "value": "#1.5: __str = new String(__obj); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(__obj); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(__obj); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -381,7 +389,9 @@
           "start": 1540,
           "end": 1546,
           "value": "true",
-          "raw": "\"true\""
+          "raw": "\"true\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -413,7 +423,9 @@
                     "start": 1575,
                     "end": 1660,
                     "value": "#2: function __obj(){}; __str = new String(__obj); __str ==\"true\". Actual: __str ==",
-                    "raw": "'#2: function __obj(){}; __str = new String(__obj); __str ==\"true\". Actual: __str =='"
+                    "raw": "'#2: function __obj(){}; __str = new String(__obj); __str ==\"true\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

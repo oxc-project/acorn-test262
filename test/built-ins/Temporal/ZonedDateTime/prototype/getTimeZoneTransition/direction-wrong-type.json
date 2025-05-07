@@ -48,6 +48,7 @@
                 "end": 421,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 423,
                 "end": 428,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,14 +91,18 @@
                 "start": 458,
                 "end": 463,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 467,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -103,6 +110,7 @@
                 "end": 472,
                 "value": null,
                 "raw": "55n",
+                "regex": null,
                 "bigint": "55"
               },
               {
@@ -110,7 +118,9 @@
                 "start": 474,
                 "end": 478,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -258,7 +268,9 @@
                   "start": 610,
                   "end": 642,
                   "value": "Non-Symbol throws a RangeError",
-                  "raw": "\"Non-Symbol throws a RangeError\""
+                  "raw": "\"Non-Symbol throws a RangeError\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -368,7 +380,9 @@
                             "start": 724,
                             "end": 730,
                             "value": "next",
-                            "raw": "\"next\""
+                            "raw": "\"next\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -386,7 +400,9 @@
             "start": 736,
             "end": 763,
             "value": "Symbol throws a TypeError",
-            "raw": "\"Symbol throws a TypeError\""
+            "raw": "\"Symbol throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

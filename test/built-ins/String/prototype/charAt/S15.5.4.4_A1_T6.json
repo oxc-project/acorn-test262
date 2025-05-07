@@ -35,7 +35,9 @@
                   "start": 497,
                   "end": 503,
                   "value": "lego",
-                  "raw": "\"lego\""
+                  "raw": "\"lego\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -64,7 +66,9 @@
           "start": 519,
           "end": 522,
           "value": "l",
-          "raw": "\"l\""
+          "raw": "\"l\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -96,7 +100,9 @@
                     "start": 551,
                     "end": 642,
                     "value": "#1: var x; new String(\"lego\").charAt(x) === \"l\". Actual: new String(\"lego\").charAt(x) ===",
-                    "raw": "'#1: var x; new String(\"lego\").charAt(x) === \"l\". Actual: new String(\"lego\").charAt(x) ==='"
+                    "raw": "'#1: var x; new String(\"lego\").charAt(x) === \"l\". Actual: new String(\"lego\").charAt(x) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -123,7 +129,9 @@
                             "start": 656,
                             "end": 662,
                             "value": "lego",
-                            "raw": "\"lego\""
+                            "raw": "\"lego\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },

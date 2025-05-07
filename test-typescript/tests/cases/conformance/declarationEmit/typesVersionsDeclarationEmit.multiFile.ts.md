@@ -392,7 +392,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 24,
         "raw": "\"ext\"",
-        "value": "ext"
+        "value": "ext",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -432,7 +434,9 @@ __ESTREE_TEST__:PASS:
         "start": 45,
         "end": 56,
         "raw": "\"ext/other\"",
-        "value": "ext/other"
+        "value": "ext/other",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -47,14 +47,18 @@
                 "start": 331,
                 "end": 332,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 335,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,77 +91,99 @@
                 "start": 364,
                 "end": 386,
                 "value": "05-02[Asia/Katmandu]",
-                "raw": "\"05-02[Asia/Katmandu]\""
+                "raw": "\"05-02[Asia/Katmandu]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 413,
                 "value": "05-02[!Asia/Katmandu]",
-                "raw": "\"05-02[!Asia/Katmandu]\""
+                "raw": "\"05-02[!Asia/Katmandu]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 438,
                 "value": "05-02[u-ca=iso8601]",
-                "raw": "\"05-02[u-ca=iso8601]\""
+                "raw": "\"05-02[u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 442,
                 "end": 475,
                 "value": "05-02[Asia/Tokyo][u-ca=iso8601]",
-                "raw": "\"05-02[Asia/Tokyo][u-ca=iso8601]\""
+                "raw": "\"05-02[Asia/Tokyo][u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 479,
                 "end": 503,
                 "value": "--05-02[Asia/Katmandu]",
-                "raw": "\"--05-02[Asia/Katmandu]\""
+                "raw": "\"--05-02[Asia/Katmandu]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 507,
                 "end": 532,
                 "value": "--05-02[!Asia/Katmandu]",
-                "raw": "\"--05-02[!Asia/Katmandu]\""
+                "raw": "\"--05-02[!Asia/Katmandu]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 559,
                 "value": "--05-02[u-ca=iso8601]",
-                "raw": "\"--05-02[u-ca=iso8601]\""
+                "raw": "\"--05-02[u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 563,
                 "end": 598,
                 "value": "--05-02[Asia/Tokyo][u-ca=iso8601]",
-                "raw": "\"--05-02[Asia/Tokyo][u-ca=iso8601]\""
+                "raw": "\"--05-02[Asia/Tokyo][u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 602,
                 "end": 623,
                 "value": "2000-05-02T00+00:00",
-                "raw": "\"2000-05-02T00+00:00\""
+                "raw": "\"2000-05-02T00+00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 627,
                 "end": 653,
                 "value": "2000-05-02T00+00:00[UTC]",
-                "raw": "\"2000-05-02T00+00:00[UTC]\""
+                "raw": "\"2000-05-02T00+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 657,
                 "end": 696,
                 "value": "2000-05-02T00-02:30[America/St_Johns]",
-                "raw": "\"2000-05-02T00-02:30[America/St_Johns]\""
+                "raw": "\"2000-05-02T00-02:30[America/St_Johns]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -292,7 +318,9 @@
                   "start": 812,
                   "end": 816,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -361,112 +389,144 @@
                 "start": 918,
                 "end": 926,
                 "value": "09-15Z",
-                "raw": "\"09-15Z\""
+                "raw": "\"09-15Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 930,
                 "end": 943,
                 "value": "09-15Z[UTC]",
-                "raw": "\"09-15Z[UTC]\""
+                "raw": "\"09-15Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 947,
                 "end": 960,
                 "value": "09-15+01:00",
-                "raw": "\"09-15+01:00\""
+                "raw": "\"09-15+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 964,
                 "end": 992,
                 "value": "09-15+01:00[Europe/Vienna]",
-                "raw": "\"09-15+01:00[Europe/Vienna]\""
+                "raw": "\"09-15+01:00[Europe/Vienna]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 996,
                 "end": 1006,
                 "value": "--09-15Z",
-                "raw": "\"--09-15Z\""
+                "raw": "\"--09-15Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1010,
                 "end": 1025,
                 "value": "--09-15Z[UTC]",
-                "raw": "\"--09-15Z[UTC]\""
+                "raw": "\"--09-15Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1029,
                 "end": 1044,
                 "value": "--09-15+01:00",
-                "raw": "\"--09-15+01:00\""
+                "raw": "\"--09-15+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1048,
                 "end": 1078,
                 "value": "--09-15+01:00[Europe/Vienna]",
-                "raw": "\"--09-15+01:00[Europe/Vienna]\""
+                "raw": "\"--09-15+01:00[Europe/Vienna]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1082,
                 "end": 1095,
                 "value": "2022-09-15Z",
-                "raw": "\"2022-09-15Z\""
+                "raw": "\"2022-09-15Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1099,
                 "end": 1117,
                 "value": "2022-09-15Z[UTC]",
-                "raw": "\"2022-09-15Z[UTC]\""
+                "raw": "\"2022-09-15Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1121,
                 "end": 1149,
                 "value": "2022-09-15Z[Europe/Vienna]",
-                "raw": "\"2022-09-15Z[Europe/Vienna]\""
+                "raw": "\"2022-09-15Z[Europe/Vienna]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1153,
                 "end": 1171,
                 "value": "2022-09-15+00:00",
-                "raw": "\"2022-09-15+00:00\""
+                "raw": "\"2022-09-15+00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1175,
                 "end": 1198,
                 "value": "2022-09-15+00:00[UTC]",
-                "raw": "\"2022-09-15+00:00[UTC]\""
+                "raw": "\"2022-09-15+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1202,
                 "end": 1220,
                 "value": "2022-09-15-02:30",
-                "raw": "\"2022-09-15-02:30\""
+                "raw": "\"2022-09-15-02:30\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1224,
                 "end": 1260,
                 "value": "2022-09-15-02:30[America/St_Johns]",
-                "raw": "\"2022-09-15-02:30[America/St_Johns]\""
+                "raw": "\"2022-09-15-02:30[America/St_Johns]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1264,
                 "end": 1285,
                 "value": "09-15[u-ca=chinese]",
-                "raw": "\"09-15[u-ca=chinese]\""
+                "raw": "\"09-15[u-ca=chinese]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

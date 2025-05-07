@@ -167,7 +167,9 @@
             "start": 623,
             "end": 631,
             "value": "[null]",
-            "raw": "'[null]'"
+            "raw": "'[null]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +273,9 @@
             "start": 689,
             "end": 693,
             "value": "{}",
-            "raw": "'{}'"
+            "raw": "'{}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

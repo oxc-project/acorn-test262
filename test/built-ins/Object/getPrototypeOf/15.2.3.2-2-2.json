@@ -236,14 +236,18 @@
             "start": 564,
             "end": 568,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 590,
             "value": "x.isPrototypeOf(d)",
-            "raw": "'x.isPrototypeOf(d)'"
+            "raw": "'x.isPrototypeOf(d)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

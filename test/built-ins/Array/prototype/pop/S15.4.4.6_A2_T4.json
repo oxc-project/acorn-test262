@@ -114,7 +114,9 @@
             "start": 465,
             "end": 466,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -130,7 +132,9 @@
             "start": 471,
             "end": 472,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -204,7 +208,9 @@
                         "start": 514,
                         "end": 515,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -306,7 +312,9 @@
               "start": 567,
               "end": 568,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -314,7 +322,9 @@
             "start": 570,
             "end": 609,
             "value": "The value of pop is expected to be -1",
-            "raw": "'The value of pop is expected to be -1'"
+            "raw": "'The value of pop is expected to be -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +354,9 @@
             "start": 617,
             "end": 618,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -360,7 +372,9 @@
             "start": 623,
             "end": 624,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -434,7 +448,9 @@
                         "start": 666,
                         "end": 667,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -478,7 +494,9 @@
                         "start": 699,
                         "end": 700,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -580,7 +598,9 @@
               "start": 752,
               "end": 753,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -588,7 +608,9 @@
             "start": 755,
             "end": 794,
             "value": "The value of pop is expected to be -1",
-            "raw": "'The value of pop is expected to be -1'"
+            "raw": "'The value of pop is expected to be -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -618,7 +640,9 @@
             "start": 802,
             "end": 803,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -634,7 +658,9 @@
             "start": 808,
             "end": 809,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -708,7 +734,9 @@
                         "start": 851,
                         "end": 852,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -853,7 +881,9 @@
               "start": 938,
               "end": 939,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -861,7 +891,9 @@
             "start": 941,
             "end": 980,
             "value": "The value of pop is expected to be -1",
-            "raw": "'The value of pop is expected to be -1'"
+            "raw": "'The value of pop is expected to be -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -900,7 +932,9 @@
                   "start": 996,
                   "end": 997,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -916,7 +950,9 @@
                   "start": 1002,
                   "end": 1003,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -990,7 +1026,9 @@
                               "start": 1051,
                               "end": 1052,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1034,7 +1072,9 @@
                               "start": 1089,
                               "end": 1096,
                               "value": "error",
-                              "raw": "\"error\""
+                              "raw": "\"error\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1136,7 +1176,9 @@
                     "start": 1156,
                     "end": 1157,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -1144,7 +1186,9 @@
                   "start": 1159,
                   "end": 1198,
                   "value": "The value of pop is expected to be -1",
-                  "raw": "'The value of pop is expected to be -1'"
+                  "raw": "'The value of pop is expected to be -1'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1206,14 +1250,18 @@
                     "start": 1240,
                     "end": 1247,
                     "value": "error",
-                    "raw": "\"error\""
+                    "raw": "\"error\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1249,
                     "end": 1280,
                     "value": "The value of e is not \"error\"",
-                    "raw": "'The value of e is not \"error\"'"
+                    "raw": "'The value of e is not \"error\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1248,7 +1296,9 @@
             "start": 1290,
             "end": 1291,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1264,7 +1314,9 @@
             "start": 1296,
             "end": 1297,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -1338,7 +1390,9 @@
                         "start": 1340,
                         "end": 1341,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1440,7 +1494,9 @@
             "start": 1403,
             "end": 1452,
             "value": "The value of pop is expected to equal undefined",
-            "raw": "'The value of pop is expected to equal undefined'"
+            "raw": "'The value of pop is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1470,7 +1526,9 @@
             "start": 1460,
             "end": 1461,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -1486,7 +1544,9 @@
             "start": 1466,
             "end": 1467,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -1603,7 +1663,9 @@
                         "start": 1543,
                         "end": 1544,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1705,7 +1767,9 @@
             "start": 1605,
             "end": 1654,
             "value": "The value of pop is expected to equal undefined",
-            "raw": "'The value of pop is expected to equal undefined'"
+            "raw": "'The value of pop is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1744,7 +1808,9 @@
                   "start": 1670,
                   "end": 1671,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -1760,7 +1826,9 @@
                   "start": 1676,
                   "end": 1677,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -1834,7 +1902,9 @@
                               "start": 1724,
                               "end": 1731,
                               "value": "error",
-                              "raw": "\"error\""
+                              "raw": "\"error\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1878,7 +1948,9 @@
                               "start": 1769,
                               "end": 1770,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -1959,7 +2031,9 @@
                     "start": 1830,
                     "end": 1949,
                     "value": "#7.1: obj[0] = -1; obj.length = {valueOf() {throw \"error\"}, toString() {return 0}}; obj.pop() throw \"error\". Actual: ",
-                    "raw": "'#7.1: obj[0] = -1; obj.length = {valueOf() {throw \"error\"}, toString() {return 0}}; obj.pop() throw \"error\". Actual: '"
+                    "raw": "'#7.1: obj[0] = -1; obj.length = {valueOf() {throw \"error\"}, toString() {return 0}}; obj.pop() throw \"error\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2033,14 +2107,18 @@
                     "start": 1996,
                     "end": 2003,
                     "value": "error",
-                    "raw": "\"error\""
+                    "raw": "\"error\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 2005,
                     "end": 2047,
                     "value": "The value of e is expected to be \"error\"",
-                    "raw": "'The value of e is expected to be \"error\"'"
+                    "raw": "'The value of e is expected to be \"error\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2084,7 +2162,9 @@
                   "start": 2065,
                   "end": 2066,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -2100,7 +2180,9 @@
                   "start": 2071,
                   "end": 2072,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -2297,7 +2379,9 @@
                     "start": 2222,
                     "end": 2340,
                     "value": "#8.1: obj[0] = -1; obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.pop() throw TypeError. Actual: ",
-                    "raw": "'#8.1: obj[0] = -1; obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.pop() throw TypeError. Actual: '"
+                    "raw": "'#8.1: obj[0] = -1; obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.pop() throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2383,14 +2467,18 @@
                     "start": 2417,
                     "end": 2421,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 2427,
                     "end": 2501,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

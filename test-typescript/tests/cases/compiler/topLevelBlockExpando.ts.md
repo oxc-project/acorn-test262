@@ -164,7 +164,9 @@ __ESTREE_TEST__:PASS:
                         "start": 220,
                         "end": 221,
                         "raw": "6",
-                        "value": 6
+                        "value": 6,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -248,7 +250,9 @@ __ESTREE_TEST__:PASS:
               "start": 239,
               "end": 246,
               "raw": "'Rando'",
-              "value": "Rando"
+              "value": "Rando",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -292,7 +296,9 @@ __ESTREE_TEST__:PASS:
               "start": 264,
               "end": 276,
               "raw": "'Calrissian'",
-              "value": "Calrissian"
+              "value": "Calrissian",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -471,7 +477,9 @@ __ESTREE_TEST__:PASS:
                     "start": 390,
                     "end": 391,
                     "raw": "6",
-                    "value": 6
+                    "value": 6,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -555,7 +563,9 @@ __ESTREE_TEST__:PASS:
           "start": 433,
           "end": 445,
           "raw": "'Calrissian'",
-          "value": "Calrissian"
+          "value": "Calrissian",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -636,7 +646,9 @@ __ESTREE_TEST__:PASS:
                         "start": 572,
                         "end": 573,
                         "raw": "6",
-                        "value": 6
+                        "value": 6,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -720,7 +732,9 @@ __ESTREE_TEST__:PASS:
               "start": 592,
               "end": 599,
               "raw": "'Rando'",
-              "value": "Rando"
+              "value": "Rando",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -764,7 +778,9 @@ __ESTREE_TEST__:PASS:
               "start": 616,
               "end": 628,
               "raw": "'Calrissian'",
-              "value": "Calrissian"
+              "value": "Calrissian",
+              "regex": null,
+              "bigint": null
             }
           }
         },

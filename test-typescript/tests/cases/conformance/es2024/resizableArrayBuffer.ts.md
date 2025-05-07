@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 31,
                 "end": 32,
                 "raw": "8",
-                "value": 8
+                "value": 8,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -64,7 +66,9 @@ __ESTREE_TEST__:PASS:
                       "start": 51,
                       "end": 53,
                       "raw": "16",
-                      "value": 16
+                      "value": 16,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

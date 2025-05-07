@@ -138,7 +138,9 @@
             "start": 368,
             "end": 372,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

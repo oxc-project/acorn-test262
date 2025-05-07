@@ -45,7 +45,8 @@
                   "regex": {
                     "pattern": "^\\p{RGI_Emoji}+$",
                     "flags": "v"
-                  }
+                  },
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -67,7 +68,9 @@
                   "start": 554,
                   "end": 570,
                   "value": "\\p{RGI_Emoji}",
-                  "raw": "\"\\\\p{RGI_Emoji}\""
+                  "raw": "\"\\\\p{RGI_Emoji}\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -94,1519 +97,1953 @@
                       "start": 594,
                       "end": 623,
                       "value": "❤️‍🔥",
-                      "raw": "\"\\u2764\\uFE0F\\u200D\\u{1F525}\""
+                      "raw": "\"\\u2764\\uFE0F\\u200D\\u{1F525}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 629,
                       "end": 658,
                       "value": "❤️‍🩹",
-                      "raw": "\"\\u2764\\uFE0F\\u200D\\u{1FA79}\""
+                      "raw": "\"\\u2764\\uFE0F\\u200D\\u{1FA79}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 664,
                       "end": 726,
                       "value": "👨🏻‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 732,
                       "end": 794,
                       "value": "👨🏻‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 800,
                       "end": 862,
                       "value": "👨🏻‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 868,
                       "end": 930,
                       "value": "👨🏻‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 936,
                       "end": 998,
                       "value": "👨🏻‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1004,
                       "end": 1081,
                       "value": "👨🏻‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1087,
                       "end": 1164,
                       "value": "👨🏻‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1170,
                       "end": 1247,
                       "value": "👨🏻‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1253,
                       "end": 1330,
                       "value": "👨🏻‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1336,
                       "end": 1413,
                       "value": "👨🏻‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1419,
                       "end": 1481,
                       "value": "👨🏼‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1487,
                       "end": 1549,
                       "value": "👨🏼‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1555,
                       "end": 1617,
                       "value": "👨🏼‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1623,
                       "end": 1685,
                       "value": "👨🏼‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1691,
                       "end": 1753,
                       "value": "👨🏼‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1759,
                       "end": 1836,
                       "value": "👨🏼‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1842,
                       "end": 1919,
                       "value": "👨🏼‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1925,
                       "end": 2002,
                       "value": "👨🏼‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2008,
                       "end": 2085,
                       "value": "👨🏼‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2091,
                       "end": 2168,
                       "value": "👨🏼‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2174,
                       "end": 2236,
                       "value": "👨🏽‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2242,
                       "end": 2304,
                       "value": "👨🏽‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2310,
                       "end": 2372,
                       "value": "👨🏽‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2378,
                       "end": 2440,
                       "value": "👨🏽‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2446,
                       "end": 2508,
                       "value": "👨🏽‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2514,
                       "end": 2591,
                       "value": "👨🏽‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2597,
                       "end": 2674,
                       "value": "👨🏽‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2680,
                       "end": 2757,
                       "value": "👨🏽‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2763,
                       "end": 2840,
                       "value": "👨🏽‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2846,
                       "end": 2923,
                       "value": "👨🏽‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2929,
                       "end": 2991,
                       "value": "👨🏾‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2997,
                       "end": 3059,
                       "value": "👨🏾‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3065,
                       "end": 3127,
                       "value": "👨🏾‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3133,
                       "end": 3195,
                       "value": "👨🏾‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3201,
                       "end": 3263,
                       "value": "👨🏾‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3269,
                       "end": 3346,
                       "value": "👨🏾‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3352,
                       "end": 3429,
                       "value": "👨🏾‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3435,
                       "end": 3512,
                       "value": "👨🏾‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3518,
                       "end": 3595,
                       "value": "👨🏾‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3601,
                       "end": 3678,
                       "value": "👨🏾‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3684,
                       "end": 3746,
                       "value": "👨🏿‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3752,
                       "end": 3814,
                       "value": "👨🏿‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3820,
                       "end": 3882,
                       "value": "👨🏿‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3888,
                       "end": 3950,
                       "value": "👨🏿‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 3956,
                       "end": 4018,
                       "value": "👨🏿‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4024,
                       "end": 4101,
                       "value": "👨🏿‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4107,
                       "end": 4184,
                       "value": "👨🏿‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4190,
                       "end": 4267,
                       "value": "👨🏿‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4273,
                       "end": 4350,
                       "value": "👨🏿‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4356,
                       "end": 4433,
                       "value": "👨🏿‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4439,
                       "end": 4501,
                       "value": "👩🏻‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4507,
                       "end": 4569,
                       "value": "👩🏻‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4575,
                       "end": 4637,
                       "value": "👩🏻‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4643,
                       "end": 4705,
                       "value": "👩🏻‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4711,
                       "end": 4773,
                       "value": "👩🏻‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4779,
                       "end": 4841,
                       "value": "👩🏻‍❤️‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4847,
                       "end": 4909,
                       "value": "👩🏻‍❤️‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4915,
                       "end": 4977,
                       "value": "👩🏻‍❤️‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 4983,
                       "end": 5045,
                       "value": "👩🏻‍❤️‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5051,
                       "end": 5113,
                       "value": "👩🏻‍❤️‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5119,
                       "end": 5196,
                       "value": "👩🏻‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5202,
                       "end": 5279,
                       "value": "👩🏻‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5285,
                       "end": 5362,
                       "value": "👩🏻‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5368,
                       "end": 5445,
                       "value": "👩🏻‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5451,
                       "end": 5528,
                       "value": "👩🏻‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5534,
                       "end": 5611,
                       "value": "👩🏻‍❤️‍💋‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5617,
                       "end": 5694,
                       "value": "👩🏻‍❤️‍💋‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5700,
                       "end": 5777,
                       "value": "👩🏻‍❤️‍💋‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5783,
                       "end": 5860,
                       "value": "👩🏻‍❤️‍💋‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5866,
                       "end": 5943,
                       "value": "👩🏻‍❤️‍💋‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 5949,
                       "end": 6011,
                       "value": "👩🏼‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6017,
                       "end": 6079,
                       "value": "👩🏼‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6085,
                       "end": 6147,
                       "value": "👩🏼‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6153,
                       "end": 6215,
                       "value": "👩🏼‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6221,
                       "end": 6283,
                       "value": "👩🏼‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6289,
                       "end": 6351,
                       "value": "👩🏼‍❤️‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6357,
                       "end": 6419,
                       "value": "👩🏼‍❤️‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6425,
                       "end": 6487,
                       "value": "👩🏼‍❤️‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6493,
                       "end": 6555,
                       "value": "👩🏼‍❤️‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6561,
                       "end": 6623,
                       "value": "👩🏼‍❤️‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6629,
                       "end": 6706,
                       "value": "👩🏼‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6712,
                       "end": 6789,
                       "value": "👩🏼‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6795,
                       "end": 6872,
                       "value": "👩🏼‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6878,
                       "end": 6955,
                       "value": "👩🏼‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 6961,
                       "end": 7038,
                       "value": "👩🏼‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7044,
                       "end": 7121,
                       "value": "👩🏼‍❤️‍💋‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7127,
                       "end": 7204,
                       "value": "👩🏼‍❤️‍💋‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7210,
                       "end": 7287,
                       "value": "👩🏼‍❤️‍💋‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7293,
                       "end": 7370,
                       "value": "👩🏼‍❤️‍💋‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7376,
                       "end": 7453,
                       "value": "👩🏼‍❤️‍💋‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7459,
                       "end": 7521,
                       "value": "👩🏽‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7527,
                       "end": 7589,
                       "value": "👩🏽‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7595,
                       "end": 7657,
                       "value": "👩🏽‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7663,
                       "end": 7725,
                       "value": "👩🏽‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7731,
                       "end": 7793,
                       "value": "👩🏽‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7799,
                       "end": 7861,
                       "value": "👩🏽‍❤️‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7867,
                       "end": 7929,
                       "value": "👩🏽‍❤️‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 7935,
                       "end": 7997,
                       "value": "👩🏽‍❤️‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8003,
                       "end": 8065,
                       "value": "👩🏽‍❤️‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8071,
                       "end": 8133,
                       "value": "👩🏽‍❤️‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8139,
                       "end": 8216,
                       "value": "👩🏽‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8222,
                       "end": 8299,
                       "value": "👩🏽‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8305,
                       "end": 8382,
                       "value": "👩🏽‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8388,
                       "end": 8465,
                       "value": "👩🏽‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8471,
                       "end": 8548,
                       "value": "👩🏽‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8554,
                       "end": 8631,
                       "value": "👩🏽‍❤️‍💋‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8637,
                       "end": 8714,
                       "value": "👩🏽‍❤️‍💋‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8720,
                       "end": 8797,
                       "value": "👩🏽‍❤️‍💋‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8803,
                       "end": 8880,
                       "value": "👩🏽‍❤️‍💋‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8886,
                       "end": 8963,
                       "value": "👩🏽‍❤️‍💋‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 8969,
                       "end": 9031,
                       "value": "👩🏾‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9037,
                       "end": 9099,
                       "value": "👩🏾‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9105,
                       "end": 9167,
                       "value": "👩🏾‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9173,
                       "end": 9235,
                       "value": "👩🏾‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9241,
                       "end": 9303,
                       "value": "👩🏾‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9309,
                       "end": 9371,
                       "value": "👩🏾‍❤️‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9377,
                       "end": 9439,
                       "value": "👩🏾‍❤️‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9445,
                       "end": 9507,
                       "value": "👩🏾‍❤️‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9513,
                       "end": 9575,
                       "value": "👩🏾‍❤️‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9581,
                       "end": 9643,
                       "value": "👩🏾‍❤️‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9649,
                       "end": 9726,
                       "value": "👩🏾‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9732,
                       "end": 9809,
                       "value": "👩🏾‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9815,
                       "end": 9892,
                       "value": "👩🏾‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9898,
                       "end": 9975,
                       "value": "👩🏾‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 9981,
                       "end": 10058,
                       "value": "👩🏾‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10064,
                       "end": 10141,
                       "value": "👩🏾‍❤️‍💋‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10147,
                       "end": 10224,
                       "value": "👩🏾‍❤️‍💋‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10230,
                       "end": 10307,
                       "value": "👩🏾‍❤️‍💋‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10313,
                       "end": 10390,
                       "value": "👩🏾‍❤️‍💋‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10396,
                       "end": 10473,
                       "value": "👩🏾‍❤️‍💋‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10479,
                       "end": 10541,
                       "value": "👩🏿‍❤️‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10547,
                       "end": 10609,
                       "value": "👩🏿‍❤️‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10615,
                       "end": 10677,
                       "value": "👩🏿‍❤️‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10683,
                       "end": 10745,
                       "value": "👩🏿‍❤️‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10751,
                       "end": 10813,
                       "value": "👩🏿‍❤️‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10819,
                       "end": 10881,
                       "value": "👩🏿‍❤️‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10887,
                       "end": 10949,
                       "value": "👩🏿‍❤️‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 10955,
                       "end": 11017,
                       "value": "👩🏿‍❤️‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11023,
                       "end": 11085,
                       "value": "👩🏿‍❤️‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11091,
                       "end": 11153,
                       "value": "👩🏿‍❤️‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11159,
                       "end": 11236,
                       "value": "👩🏿‍❤️‍💋‍👨🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11242,
                       "end": 11319,
                       "value": "👩🏿‍❤️‍💋‍👨🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11325,
                       "end": 11402,
                       "value": "👩🏿‍❤️‍💋‍👨🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11408,
                       "end": 11485,
                       "value": "👩🏿‍❤️‍💋‍👨🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11491,
                       "end": 11568,
                       "value": "👩🏿‍❤️‍💋‍👨🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11574,
                       "end": 11651,
                       "value": "👩🏿‍❤️‍💋‍👩🏻",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11657,
                       "end": 11734,
                       "value": "👩🏿‍❤️‍💋‍👩🏼",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11740,
                       "end": 11817,
                       "value": "👩🏿‍❤️‍💋‍👩🏽",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11823,
                       "end": 11900,
                       "value": "👩🏿‍❤️‍💋‍👩🏾",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11906,
                       "end": 11983,
                       "value": "👩🏿‍❤️‍💋‍👩🏿",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 11989,
                       "end": 12009,
                       "value": "💏🏻",
-                      "raw": "\"\\u{1F48F}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F48F}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12015,
                       "end": 12035,
                       "value": "💏🏼",
-                      "raw": "\"\\u{1F48F}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F48F}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12041,
                       "end": 12061,
                       "value": "💏🏽",
-                      "raw": "\"\\u{1F48F}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F48F}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12067,
                       "end": 12087,
                       "value": "💏🏾",
-                      "raw": "\"\\u{1F48F}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F48F}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12093,
                       "end": 12113,
                       "value": "💏🏿",
-                      "raw": "\"\\u{1F48F}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F48F}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12119,
                       "end": 12139,
                       "value": "💑🏻",
-                      "raw": "\"\\u{1F491}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F491}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12145,
                       "end": 12165,
                       "value": "💑🏼",
-                      "raw": "\"\\u{1F491}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F491}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12171,
                       "end": 12191,
                       "value": "💑🏽",
-                      "raw": "\"\\u{1F491}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F491}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12197,
                       "end": 12217,
                       "value": "💑🏾",
-                      "raw": "\"\\u{1F491}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F491}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12223,
                       "end": 12243,
                       "value": "💑🏿",
-                      "raw": "\"\\u{1F491}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F491}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12249,
                       "end": 12275,
                       "value": "😮‍💨",
-                      "raw": "\"\\u{1F62E}\\u200D\\u{1F4A8}\""
+                      "raw": "\"\\u{1F62E}\\u200D\\u{1F4A8}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12281,
                       "end": 12307,
                       "value": "😵‍💫",
-                      "raw": "\"\\u{1F635}\\u200D\\u{1F4AB}\""
+                      "raw": "\"\\u{1F635}\\u200D\\u{1F4AB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12313,
                       "end": 12345,
                       "value": "😶‍🌫️",
-                      "raw": "\"\\u{1F636}\\u200D\\u{1F32B}\\uFE0F\""
+                      "raw": "\"\\u{1F636}\\u200D\\u{1F32B}\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12351,
                       "end": 12428,
                       "value": "🧑🏻‍❤️‍💋‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12434,
                       "end": 12511,
                       "value": "🧑🏻‍❤️‍💋‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12517,
                       "end": 12594,
                       "value": "🧑🏻‍❤️‍💋‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12600,
                       "end": 12677,
                       "value": "🧑🏻‍❤️‍💋‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12683,
                       "end": 12745,
                       "value": "🧑🏻‍❤️‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12751,
                       "end": 12813,
                       "value": "🧑🏻‍❤️‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12819,
                       "end": 12881,
                       "value": "🧑🏻‍❤️‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12887,
                       "end": 12949,
                       "value": "🧑🏻‍❤️‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 12955,
                       "end": 13032,
                       "value": "🧑🏼‍❤️‍💋‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13038,
                       "end": 13115,
                       "value": "🧑🏼‍❤️‍💋‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13121,
                       "end": 13198,
                       "value": "🧑🏼‍❤️‍💋‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13204,
                       "end": 13281,
                       "value": "🧑🏼‍❤️‍💋‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13287,
                       "end": 13349,
                       "value": "🧑🏼‍❤️‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13355,
                       "end": 13417,
                       "value": "🧑🏼‍❤️‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13423,
                       "end": 13485,
                       "value": "🧑🏼‍❤️‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13491,
                       "end": 13553,
                       "value": "🧑🏼‍❤️‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13559,
                       "end": 13636,
                       "value": "🧑🏽‍❤️‍💋‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13642,
                       "end": 13719,
                       "value": "🧑🏽‍❤️‍💋‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13725,
                       "end": 13802,
                       "value": "🧑🏽‍❤️‍💋‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13808,
                       "end": 13885,
                       "value": "🧑🏽‍❤️‍💋‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13891,
                       "end": 13953,
                       "value": "🧑🏽‍❤️‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 13959,
                       "end": 14021,
                       "value": "🧑🏽‍❤️‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14027,
                       "end": 14089,
                       "value": "🧑🏽‍❤️‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14095,
                       "end": 14157,
                       "value": "🧑🏽‍❤️‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14163,
                       "end": 14240,
                       "value": "🧑🏾‍❤️‍💋‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14246,
                       "end": 14323,
                       "value": "🧑🏾‍❤️‍💋‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14329,
                       "end": 14406,
                       "value": "🧑🏾‍❤️‍💋‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14412,
                       "end": 14489,
                       "value": "🧑🏾‍❤️‍💋‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14495,
                       "end": 14557,
                       "value": "🧑🏾‍❤️‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14563,
                       "end": 14625,
                       "value": "🧑🏾‍❤️‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14631,
                       "end": 14693,
                       "value": "🧑🏾‍❤️‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14699,
                       "end": 14761,
                       "value": "🧑🏾‍❤️‍🧑🏿",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14767,
                       "end": 14844,
                       "value": "🧑🏿‍❤️‍💋‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14850,
                       "end": 14927,
                       "value": "🧑🏿‍❤️‍💋‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 14933,
                       "end": 15010,
                       "value": "🧑🏿‍❤️‍💋‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15016,
                       "end": 15093,
                       "value": "🧑🏿‍❤️‍💋‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F48B}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15099,
                       "end": 15161,
                       "value": "🧑🏿‍❤️‍🧑🏻",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15167,
                       "end": 15229,
                       "value": "🧑🏿‍❤️‍🧑🏼",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15235,
                       "end": 15297,
                       "value": "🧑🏿‍❤️‍🧑🏽",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15303,
                       "end": 15365,
                       "value": "🧑🏿‍❤️‍🧑🏾",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u2764\\uFE0F\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15371,
                       "end": 15400,
                       "value": "🧔‍♀️",
-                      "raw": "\"\\u{1F9D4}\\u200D\\u2640\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u200D\\u2640\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15406,
                       "end": 15435,
                       "value": "🧔‍♂️",
-                      "raw": "\"\\u{1F9D4}\\u200D\\u2642\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u200D\\u2642\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15441,
                       "end": 15479,
                       "value": "🧔🏻‍♀️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FB}\\u200D\\u2640\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FB}\\u200D\\u2640\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15485,
                       "end": 15523,
                       "value": "🧔🏻‍♂️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FB}\\u200D\\u2642\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FB}\\u200D\\u2642\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15529,
                       "end": 15567,
                       "value": "🧔🏼‍♀️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FC}\\u200D\\u2640\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FC}\\u200D\\u2640\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15573,
                       "end": 15611,
                       "value": "🧔🏼‍♂️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FC}\\u200D\\u2642\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FC}\\u200D\\u2642\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15617,
                       "end": 15655,
                       "value": "🧔🏽‍♀️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FD}\\u200D\\u2640\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FD}\\u200D\\u2640\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15661,
                       "end": 15699,
                       "value": "🧔🏽‍♂️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FD}\\u200D\\u2642\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FD}\\u200D\\u2642\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15705,
                       "end": 15743,
                       "value": "🧔🏾‍♀️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FE}\\u200D\\u2640\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FE}\\u200D\\u2640\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15749,
                       "end": 15787,
                       "value": "🧔🏾‍♂️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FE}\\u200D\\u2642\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FE}\\u200D\\u2642\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15793,
                       "end": 15831,
                       "value": "🧔🏿‍♀️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FF}\\u200D\\u2640\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FF}\\u200D\\u2640\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 15837,
                       "end": 15875,
                       "value": "🧔🏿‍♂️",
-                      "raw": "\"\\u{1F9D4}\\u{1F3FF}\\u200D\\u2642\\uFE0F\""
+                      "raw": "\"\\u{1F9D4}\\u{1F3FF}\\u200D\\u2642\\uFE0F\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },

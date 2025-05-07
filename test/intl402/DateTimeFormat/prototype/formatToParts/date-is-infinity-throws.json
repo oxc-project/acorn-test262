@@ -52,7 +52,9 @@
                     "start": 736,
                     "end": 743,
                     "value": "pt-BR",
-                    "raw": "\"pt-BR\""
+                    "raw": "\"pt-BR\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -156,7 +158,9 @@
             "start": 821,
             "end": 832,
             "value": "+Infinity",
-            "raw": "\"+Infinity\""
+            "raw": "\"+Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +267,9 @@
             "start": 910,
             "end": 921,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

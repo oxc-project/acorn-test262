@@ -62,7 +62,9 @@
                   "start": 777,
                   "end": 780,
                   "value": "/",
-                  "raw": "'/'"
+                  "raw": "'/'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -78,7 +80,8 @@
                     "regex": {
                       "pattern": "\\ud834\\udf06",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -96,7 +99,9 @@
                 "start": 808,
                 "end": 812,
                 "value": "/u",
-                "raw": "'/u'"
+                "raw": "'/u'",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -161,7 +166,9 @@
                 "start": 841,
                 "end": 855,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -171,7 +178,9 @@
             "start": 858,
             "end": 862,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +243,9 @@
                 "start": 890,
                 "end": 894,
                 "value": "𝌆",
-                "raw": "'𝌆'"
+                "raw": "'𝌆'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -244,7 +255,9 @@
             "start": 897,
             "end": 901,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +302,9 @@
                   "start": 915,
                   "end": 918,
                   "value": "/",
-                  "raw": "'/'"
+                  "raw": "'/'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -305,7 +320,8 @@
                     "regex": {
                       "pattern": "\\u{1d306}",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -323,7 +339,9 @@
                 "start": 943,
                 "end": 947,
                 "value": "/u",
-                "raw": "'/u'"
+                "raw": "'/u'",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -388,7 +406,9 @@
                 "start": 976,
                 "end": 990,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -398,7 +418,9 @@
             "start": 993,
             "end": 997,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +483,9 @@
                 "start": 1025,
                 "end": 1029,
                 "value": "𝌆",
-                "raw": "'𝌆'"
+                "raw": "'𝌆'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -471,7 +495,9 @@
             "start": 1032,
             "end": 1036,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

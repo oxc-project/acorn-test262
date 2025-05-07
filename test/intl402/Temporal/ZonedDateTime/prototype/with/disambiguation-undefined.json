@@ -48,6 +48,7 @@
                 "end": 763,
                 "value": null,
                 "raw": "954702001_000_000_000n",
+                "regex": null,
                 "bigint": "954702001000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 765,
                 "end": 784,
                 "value": "America/Vancouver",
-                "raw": "\"America/Vancouver\""
+                "raw": "\"America/Vancouver\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,6 +111,7 @@
                 "end": 861,
                 "value": null,
                 "raw": "972849601_000_000_000n",
+                "regex": null,
                 "bigint": "972849601000000000"
               },
               {
@@ -115,7 +119,9 @@
                 "start": 863,
                 "end": 882,
                 "value": "America/Vancouver",
-                "raw": "\"America/Vancouver\""
+                "raw": "\"America/Vancouver\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -143,7 +149,9 @@
             "start": 900,
             "end": 908,
             "value": "ignore",
-            "raw": "\"ignore\""
+            "raw": "\"ignore\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -200,7 +208,9 @@
                           "start": 947,
                           "end": 948,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -222,7 +232,9 @@
                           "start": 958,
                           "end": 960,
                           "value": 30,
-                          "raw": "30"
+                          "raw": "30",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -234,6 +246,7 @@
                     "end": 986,
                     "value": null,
                     "raw": "954671401_000_000_000n",
+                    "regex": null,
                     "bigint": "954671401000000000"
                   }
                 ]
@@ -272,7 +285,9 @@
                           "start": 1018,
                           "end": 1019,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -294,7 +309,9 @@
                           "start": 1029,
                           "end": 1031,
                           "value": 30,
-                          "raw": "30"
+                          "raw": "30",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -306,6 +323,7 @@
                     "end": 1057,
                     "value": null,
                     "raw": "972808201_000_000_000n",
+                    "regex": null,
                     "bigint": "972808201000000000"
                   }
                 ]
@@ -521,7 +539,9 @@
                         "start": 1243,
                         "end": 1281,
                         "value": "default disambiguation is compatible",
-                        "raw": "\"default disambiguation is compatible\""
+                        "raw": "\"default disambiguation is compatible\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -665,7 +685,9 @@
                         "start": 1394,
                         "end": 1432,
                         "value": "default disambiguation is compatible",
-                        "raw": "\"default disambiguation is compatible\""
+                        "raw": "\"default disambiguation is compatible\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

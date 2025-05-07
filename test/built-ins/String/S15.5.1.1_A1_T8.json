@@ -118,7 +118,9 @@
                   "start": 432,
                   "end": 443,
                   "value": "__ARRAY__",
-                  "raw": "\"__ARRAY__\""
+                  "raw": "\"__ARRAY__\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -247,7 +249,9 @@
           "start": 698,
           "end": 706,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -279,7 +283,9 @@
                     "start": 735,
                     "end": 819,
                     "value": "#1: __str = String(new Array); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(new Array); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(new Array); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -323,7 +329,9 @@
           "start": 1025,
           "end": 1036,
           "value": "__ARRAY__",
-          "raw": "\"__ARRAY__\""
+          "raw": "\"__ARRAY__\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -355,7 +363,9 @@
                     "start": 1065,
                     "end": 1196,
                     "value": "#2: Array.prototype.toString=function(){return \"__ARRAY__\";}; __str = String(new Array); __str === \"__ARRAY__\". Actual: __str ===",
-                    "raw": "'#2: Array.prototype.toString=function(){return \"__ARRAY__\";}; __str = String(new Array); __str === \"__ARRAY__\". Actual: __str ==='"
+                    "raw": "'#2: Array.prototype.toString=function(){return \"__ARRAY__\";}; __str = String(new Array); __str === \"__ARRAY__\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

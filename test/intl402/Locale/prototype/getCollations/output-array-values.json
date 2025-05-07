@@ -55,7 +55,9 @@
                     "start": 809,
                     "end": 813,
                     "value": "en",
-                    "raw": "'en'"
+                    "raw": "'en'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -119,7 +121,9 @@
               "start": 855,
               "end": 856,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -127,7 +131,9 @@
             "start": 858,
             "end": 890,
             "value": "array has at least one element",
-            "raw": "'array has at least one element'"
+            "raw": "'array has at least one element'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,14 +210,18 @@
                             "start": 921,
                             "end": 931,
                             "value": "standard",
-                            "raw": "'standard'"
+                            "raw": "'standard'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 933,
                             "end": 941,
                             "value": "search",
-                            "raw": "'search'"
+                            "raw": "'search'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },

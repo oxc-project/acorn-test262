@@ -354,7 +354,9 @@ __ESTREE_TEST__:PASS:
                         "start": 224,
                         "end": 232,
                         "raw": "\"unlock\"",
-                        "value": "unlock"
+                        "value": "unlock",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -478,7 +480,9 @@ __ESTREE_TEST__:PASS:
                               "start": 354,
                               "end": 362,
                               "raw": "\"unlock\"",
-                              "value": "unlock"
+                              "value": "unlock",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ArrowFunctionExpression",

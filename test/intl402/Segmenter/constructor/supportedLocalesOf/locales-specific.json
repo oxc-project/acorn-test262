@@ -75,14 +75,18 @@
             "start": 600,
             "end": 610,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 629,
             "end": 680,
             "value": "Should support Intl.Segmenter.supportedLocalesOf.",
-            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,7 +162,9 @@
                 "start": 738,
                 "end": 742,
                 "value": "sr",
-                "raw": "\"sr\""
+                "raw": "\"sr\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -173,7 +179,9 @@
                 "start": 746,
                 "end": 750,
                 "value": "sr",
-                "raw": "\"sr\""
+                "raw": "\"sr\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -206,21 +214,27 @@
                 "start": 776,
                 "end": 788,
                 "value": "sr-Thai-RS",
-                "raw": "\"sr-Thai-RS\""
+                "raw": "\"sr-Thai-RS\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 790,
                 "end": 794,
                 "value": "de",
-                "raw": "\"de\""
+                "raw": "\"de\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 796,
                 "end": 803,
                 "value": "zh-CN",
-                "raw": "\"zh-CN\""
+                "raw": "\"zh-CN\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -322,7 +336,9 @@
                       "start": 889,
                       "end": 897,
                       "value": "lookup",
-                      "raw": "\"lookup\""
+                      "raw": "\"lookup\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

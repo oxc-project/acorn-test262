@@ -40,7 +40,9 @@
                   "start": 296,
                   "end": 297,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -134,7 +136,9 @@
             "start": 364,
             "end": 392,
             "value": "Object.getPrototypeOf(obj)",
-            "raw": "'Object.getPrototypeOf(obj)'"
+            "raw": "'Object.getPrototypeOf(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

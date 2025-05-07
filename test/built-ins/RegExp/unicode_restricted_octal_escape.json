@@ -71,14 +71,18 @@
                         "start": 645,
                         "end": 650,
                         "value": "\\1",
-                        "raw": "\"\\\\1\""
+                        "raw": "\"\\\\1\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 652,
                         "end": 655,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -92,7 +96,9 @@
             "start": 661,
             "end": 683,
             "value": "RegExp(\"\\1\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\1\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\1\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,14 +172,18 @@
                         "start": 735,
                         "end": 740,
                         "value": "\\2",
-                        "raw": "\"\\\\2\""
+                        "raw": "\"\\\\2\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 742,
                         "end": 745,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -187,7 +197,9 @@
             "start": 751,
             "end": 773,
             "value": "RegExp(\"\\2\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\2\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\2\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -261,14 +273,18 @@
                         "start": 825,
                         "end": 830,
                         "value": "\\3",
-                        "raw": "\"\\\\3\""
+                        "raw": "\"\\\\3\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 832,
                         "end": 835,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -282,7 +298,9 @@
             "start": 841,
             "end": 863,
             "value": "RegExp(\"\\3\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\3\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\3\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +374,18 @@
                         "start": 915,
                         "end": 920,
                         "value": "\\4",
-                        "raw": "\"\\\\4\""
+                        "raw": "\"\\\\4\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 922,
                         "end": 925,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -377,7 +399,9 @@
             "start": 931,
             "end": 953,
             "value": "RegExp(\"\\4\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\4\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\4\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,14 +475,18 @@
                         "start": 1005,
                         "end": 1010,
                         "value": "\\5",
-                        "raw": "\"\\\\5\""
+                        "raw": "\"\\\\5\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1012,
                         "end": 1015,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -472,7 +500,9 @@
             "start": 1021,
             "end": 1043,
             "value": "RegExp(\"\\5\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\5\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\5\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,14 +576,18 @@
                         "start": 1095,
                         "end": 1100,
                         "value": "\\6",
-                        "raw": "\"\\\\6\""
+                        "raw": "\"\\\\6\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1102,
                         "end": 1105,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -567,7 +601,9 @@
             "start": 1111,
             "end": 1133,
             "value": "RegExp(\"\\6\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\6\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\6\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -641,14 +677,18 @@
                         "start": 1185,
                         "end": 1190,
                         "value": "\\7",
-                        "raw": "\"\\\\7\""
+                        "raw": "\"\\\\7\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1192,
                         "end": 1195,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -662,7 +702,9 @@
             "start": 1201,
             "end": 1223,
             "value": "RegExp(\"\\7\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\7\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\7\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -736,14 +778,18 @@
                         "start": 1275,
                         "end": 1280,
                         "value": "\\8",
-                        "raw": "\"\\\\8\""
+                        "raw": "\"\\\\8\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1282,
                         "end": 1285,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -757,7 +803,9 @@
             "start": 1291,
             "end": 1313,
             "value": "RegExp(\"\\8\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\8\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\8\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -831,14 +879,18 @@
                         "start": 1365,
                         "end": 1370,
                         "value": "\\9",
-                        "raw": "\"\\\\9\""
+                        "raw": "\"\\\\9\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1372,
                         "end": 1375,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -852,7 +904,9 @@
             "start": 1381,
             "end": 1403,
             "value": "RegExp(\"\\9\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\9\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\9\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -926,14 +980,18 @@
                         "start": 1616,
                         "end": 1623,
                         "value": "[\\1]",
-                        "raw": "\"[\\\\1]\""
+                        "raw": "\"[\\\\1]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1625,
                         "end": 1628,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -947,7 +1005,9 @@
             "start": 1634,
             "end": 1658,
             "value": "RegExp(\"[\\1]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\1]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\1]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1021,14 +1081,18 @@
                         "start": 1710,
                         "end": 1717,
                         "value": "[\\2]",
-                        "raw": "\"[\\\\2]\""
+                        "raw": "\"[\\\\2]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1719,
                         "end": 1722,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1042,7 +1106,9 @@
             "start": 1728,
             "end": 1752,
             "value": "RegExp(\"[\\2]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\2]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\2]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1116,14 +1182,18 @@
                         "start": 1804,
                         "end": 1811,
                         "value": "[\\3]",
-                        "raw": "\"[\\\\3]\""
+                        "raw": "\"[\\\\3]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1813,
                         "end": 1816,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1137,7 +1207,9 @@
             "start": 1822,
             "end": 1846,
             "value": "RegExp(\"[\\3]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\3]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\3]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1211,14 +1283,18 @@
                         "start": 1898,
                         "end": 1905,
                         "value": "[\\4]",
-                        "raw": "\"[\\\\4]\""
+                        "raw": "\"[\\\\4]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1907,
                         "end": 1910,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1232,7 +1308,9 @@
             "start": 1916,
             "end": 1940,
             "value": "RegExp(\"[\\4]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\4]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\4]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1306,14 +1384,18 @@
                         "start": 1992,
                         "end": 1999,
                         "value": "[\\5]",
-                        "raw": "\"[\\\\5]\""
+                        "raw": "\"[\\\\5]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2001,
                         "end": 2004,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1327,7 +1409,9 @@
             "start": 2010,
             "end": 2034,
             "value": "RegExp(\"[\\5]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\5]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\5]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1401,14 +1485,18 @@
                         "start": 2086,
                         "end": 2093,
                         "value": "[\\6]",
-                        "raw": "\"[\\\\6]\""
+                        "raw": "\"[\\\\6]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2095,
                         "end": 2098,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1422,7 +1510,9 @@
             "start": 2104,
             "end": 2128,
             "value": "RegExp(\"[\\6]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\6]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\6]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1496,14 +1586,18 @@
                         "start": 2180,
                         "end": 2187,
                         "value": "[\\7]",
-                        "raw": "\"[\\\\7]\""
+                        "raw": "\"[\\\\7]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2189,
                         "end": 2192,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1517,7 +1611,9 @@
             "start": 2198,
             "end": 2222,
             "value": "RegExp(\"[\\7]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\7]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\7]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1591,14 +1687,18 @@
                         "start": 2274,
                         "end": 2281,
                         "value": "[\\8]",
-                        "raw": "\"[\\\\8]\""
+                        "raw": "\"[\\\\8]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2283,
                         "end": 2286,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1612,7 +1712,9 @@
             "start": 2292,
             "end": 2316,
             "value": "RegExp(\"[\\8]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\8]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\8]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1686,14 +1788,18 @@
                         "start": 2368,
                         "end": 2375,
                         "value": "[\\9]",
-                        "raw": "\"[\\\\9]\""
+                        "raw": "\"[\\\\9]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2377,
                         "end": 2380,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1707,7 +1813,9 @@
             "start": 2386,
             "end": 2410,
             "value": "RegExp(\"[\\9]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\9]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\9]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1781,14 +1889,18 @@
                         "start": 2612,
                         "end": 2618,
                         "value": "\\00",
-                        "raw": "\"\\\\00\""
+                        "raw": "\"\\\\00\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2620,
                         "end": 2623,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1802,7 +1914,9 @@
             "start": 2629,
             "end": 2652,
             "value": "RegExp(\"\\00\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\00\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\00\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1876,14 +1990,18 @@
                         "start": 2704,
                         "end": 2710,
                         "value": "\\01",
-                        "raw": "\"\\\\01\""
+                        "raw": "\"\\\\01\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2712,
                         "end": 2715,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1897,7 +2015,9 @@
             "start": 2721,
             "end": 2744,
             "value": "RegExp(\"\\01\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\01\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\01\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1971,14 +2091,18 @@
                         "start": 2796,
                         "end": 2802,
                         "value": "\\02",
-                        "raw": "\"\\\\02\""
+                        "raw": "\"\\\\02\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2804,
                         "end": 2807,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1992,7 +2116,9 @@
             "start": 2813,
             "end": 2836,
             "value": "RegExp(\"\\02\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\02\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\02\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2066,14 +2192,18 @@
                         "start": 2888,
                         "end": 2894,
                         "value": "\\03",
-                        "raw": "\"\\\\03\""
+                        "raw": "\"\\\\03\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2896,
                         "end": 2899,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2087,7 +2217,9 @@
             "start": 2905,
             "end": 2928,
             "value": "RegExp(\"\\03\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\03\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\03\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2161,14 +2293,18 @@
                         "start": 2980,
                         "end": 2986,
                         "value": "\\04",
-                        "raw": "\"\\\\04\""
+                        "raw": "\"\\\\04\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2988,
                         "end": 2991,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2182,7 +2318,9 @@
             "start": 2997,
             "end": 3020,
             "value": "RegExp(\"\\04\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\04\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\04\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2256,14 +2394,18 @@
                         "start": 3072,
                         "end": 3078,
                         "value": "\\05",
-                        "raw": "\"\\\\05\""
+                        "raw": "\"\\\\05\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3080,
                         "end": 3083,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2277,7 +2419,9 @@
             "start": 3089,
             "end": 3112,
             "value": "RegExp(\"\\05\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\05\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\05\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2351,14 +2495,18 @@
                         "start": 3164,
                         "end": 3170,
                         "value": "\\06",
-                        "raw": "\"\\\\06\""
+                        "raw": "\"\\\\06\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3172,
                         "end": 3175,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2372,7 +2520,9 @@
             "start": 3181,
             "end": 3204,
             "value": "RegExp(\"\\06\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\06\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\06\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2446,14 +2596,18 @@
                         "start": 3256,
                         "end": 3262,
                         "value": "\\07",
-                        "raw": "\"\\\\07\""
+                        "raw": "\"\\\\07\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3264,
                         "end": 3267,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2467,7 +2621,9 @@
             "start": 3273,
             "end": 3296,
             "value": "RegExp(\"\\07\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\07\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\07\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2541,14 +2697,18 @@
                         "start": 3348,
                         "end": 3354,
                         "value": "\\08",
-                        "raw": "\"\\\\08\""
+                        "raw": "\"\\\\08\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3356,
                         "end": 3359,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2562,7 +2722,9 @@
             "start": 3365,
             "end": 3388,
             "value": "RegExp(\"\\08\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\08\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\08\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2636,14 +2798,18 @@
                         "start": 3440,
                         "end": 3446,
                         "value": "\\09",
-                        "raw": "\"\\\\09\""
+                        "raw": "\"\\\\09\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3448,
                         "end": 3451,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2657,7 +2823,9 @@
             "start": 3457,
             "end": 3480,
             "value": "RegExp(\"\\09\", \"u\"): ",
-            "raw": "'RegExp(\"\\\\09\", \"u\"): '"
+            "raw": "'RegExp(\"\\\\09\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2731,14 +2899,18 @@
                         "start": 3690,
                         "end": 3698,
                         "value": "[\\00]",
-                        "raw": "\"[\\\\00]\""
+                        "raw": "\"[\\\\00]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3700,
                         "end": 3703,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2752,7 +2924,9 @@
             "start": 3709,
             "end": 3734,
             "value": "RegExp(\"[\\00]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\00]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\00]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2826,14 +3000,18 @@
                         "start": 3786,
                         "end": 3794,
                         "value": "[\\01]",
-                        "raw": "\"[\\\\01]\""
+                        "raw": "\"[\\\\01]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3796,
                         "end": 3799,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2847,7 +3025,9 @@
             "start": 3805,
             "end": 3830,
             "value": "RegExp(\"[\\01]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\01]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\01]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2921,14 +3101,18 @@
                         "start": 3882,
                         "end": 3890,
                         "value": "[\\02]",
-                        "raw": "\"[\\\\02]\""
+                        "raw": "\"[\\\\02]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3892,
                         "end": 3895,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -2942,7 +3126,9 @@
             "start": 3901,
             "end": 3926,
             "value": "RegExp(\"[\\02]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\02]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\02]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3016,14 +3202,18 @@
                         "start": 3978,
                         "end": 3986,
                         "value": "[\\03]",
-                        "raw": "\"[\\\\03]\""
+                        "raw": "\"[\\\\03]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 3988,
                         "end": 3991,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3037,7 +3227,9 @@
             "start": 3997,
             "end": 4022,
             "value": "RegExp(\"[\\03]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\03]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\03]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3111,14 +3303,18 @@
                         "start": 4074,
                         "end": 4082,
                         "value": "[\\04]",
-                        "raw": "\"[\\\\04]\""
+                        "raw": "\"[\\\\04]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 4084,
                         "end": 4087,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3132,7 +3328,9 @@
             "start": 4093,
             "end": 4118,
             "value": "RegExp(\"[\\04]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\04]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\04]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3206,14 +3404,18 @@
                         "start": 4170,
                         "end": 4178,
                         "value": "[\\05]",
-                        "raw": "\"[\\\\05]\""
+                        "raw": "\"[\\\\05]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 4180,
                         "end": 4183,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3227,7 +3429,9 @@
             "start": 4189,
             "end": 4214,
             "value": "RegExp(\"[\\05]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\05]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\05]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3301,14 +3505,18 @@
                         "start": 4266,
                         "end": 4274,
                         "value": "[\\06]",
-                        "raw": "\"[\\\\06]\""
+                        "raw": "\"[\\\\06]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 4276,
                         "end": 4279,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3322,7 +3530,9 @@
             "start": 4285,
             "end": 4310,
             "value": "RegExp(\"[\\06]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\06]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\06]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3396,14 +3606,18 @@
                         "start": 4362,
                         "end": 4370,
                         "value": "[\\07]",
-                        "raw": "\"[\\\\07]\""
+                        "raw": "\"[\\\\07]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 4372,
                         "end": 4375,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3417,7 +3631,9 @@
             "start": 4381,
             "end": 4406,
             "value": "RegExp(\"[\\07]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\07]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\07]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3491,14 +3707,18 @@
                         "start": 4458,
                         "end": 4466,
                         "value": "[\\08]",
-                        "raw": "\"[\\\\08]\""
+                        "raw": "\"[\\\\08]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 4468,
                         "end": 4471,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3512,7 +3732,9 @@
             "start": 4477,
             "end": 4502,
             "value": "RegExp(\"[\\08]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\08]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\08]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3586,14 +3808,18 @@
                         "start": 4554,
                         "end": 4562,
                         "value": "[\\09]",
-                        "raw": "\"[\\\\09]\""
+                        "raw": "\"[\\\\09]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 4564,
                         "end": 4567,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -3607,7 +3833,9 @@
             "start": 4573,
             "end": 4598,
             "value": "RegExp(\"[\\09]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\09]\", \"u\"): '"
+            "raw": "'RegExp(\"[\\\\09]\", \"u\"): '",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

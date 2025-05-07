@@ -46,7 +46,9 @@ __ESTREE_TEST__:PASS:
               "start": 79,
               "end": 83,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
                     "start": 116,
                     "end": 118,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",
@@ -182,7 +186,9 @@ __ESTREE_TEST__:PASS:
               "start": 151,
               "end": 155,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -204,7 +210,9 @@ __ESTREE_TEST__:PASS:
                     "start": 198,
                     "end": 200,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",
@@ -343,7 +351,9 @@ __ESTREE_TEST__:PASS:
               "start": 233,
               "end": 237,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -365,7 +375,9 @@ __ESTREE_TEST__:PASS:
                     "start": 299,
                     "end": 301,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",
@@ -511,7 +523,9 @@ __ESTREE_TEST__:PASS:
               "start": 334,
               "end": 338,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -533,7 +547,9 @@ __ESTREE_TEST__:PASS:
                     "start": 406,
                     "end": 408,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",

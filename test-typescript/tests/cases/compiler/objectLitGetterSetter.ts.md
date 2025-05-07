@@ -59,7 +59,9 @@ __ESTREE_TEST__:PASS:
             "start": 65,
             "end": 78,
             "raw": "\"accProperty\"",
-            "value": "accProperty"
+            "value": "accProperty",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TSTypeAssertion",
@@ -113,7 +115,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 163,
                                 "end": 176,
                                 "raw": "\"public = 1;\"",
-                                "value": "public = 1;"
+                                "value": "public = 1;",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -138,7 +142,9 @@ __ESTREE_TEST__:PASS:
                             "start": 206,
                             "end": 208,
                             "raw": "11",
-                            "value": 11
+                            "value": 11,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

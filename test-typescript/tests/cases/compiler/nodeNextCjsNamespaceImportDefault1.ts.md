@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 26,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -77,7 +79,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 28,
         "raw": "'./a.cjs'",
-        "value": "./a.cjs"
+        "value": "./a.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -131,7 +135,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 59,
         "raw": "'./a.cjs'",
-        "value": "./a.cjs"
+        "value": "./a.cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

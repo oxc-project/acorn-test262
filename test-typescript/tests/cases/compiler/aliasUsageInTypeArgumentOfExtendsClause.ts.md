@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 78,
           "raw": "\"./aliasUsageInTypeArgumentOfExtendsClause_backbone\"",
-          "value": "./aliasUsageInTypeArgumentOfExtendsClause_backbone"
+          "value": "./aliasUsageInTypeArgumentOfExtendsClause_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 78,
           "raw": "\"./aliasUsageInTypeArgumentOfExtendsClause_backbone\"",
-          "value": "./aliasUsageInTypeArgumentOfExtendsClause_backbone"
+          "value": "./aliasUsageInTypeArgumentOfExtendsClause_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
           "start": 106,
           "end": 157,
           "raw": "\"./aliasUsageInTypeArgumentOfExtendsClause_moduleA\"",
-          "value": "./aliasUsageInTypeArgumentOfExtendsClause_moduleA"
+          "value": "./aliasUsageInTypeArgumentOfExtendsClause_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },

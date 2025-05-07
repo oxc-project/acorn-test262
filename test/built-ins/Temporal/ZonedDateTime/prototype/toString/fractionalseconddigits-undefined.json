@@ -58,6 +58,7 @@
                         "end": 886,
                         "value": null,
                         "raw": "192_258_181_000_000_000n",
+                        "regex": null,
                         "bigint": "192258181000000000"
                       },
                       {
@@ -65,7 +66,9 @@
                         "start": 888,
                         "end": 893,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -74,7 +77,9 @@
                     "start": 896,
                     "end": 928,
                     "value": "1976-02-04T05:03:01+00:00[UTC]",
-                    "raw": "\"1976-02-04T05:03:01+00:00[UTC]\""
+                    "raw": "\"1976-02-04T05:03:01+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -113,6 +118,7 @@
                         "end": 963,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -120,7 +126,9 @@
                         "start": 965,
                         "end": 970,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -129,7 +137,9 @@
                     "start": 973,
                     "end": 1005,
                     "value": "1970-01-01T00:00:00+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00:00+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00:00+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -168,6 +178,7 @@
                         "end": 1053,
                         "value": null,
                         "raw": "30_000_000_000n",
+                        "regex": null,
                         "bigint": "30000000000"
                       },
                       {
@@ -175,7 +186,9 @@
                         "start": 1055,
                         "end": 1060,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -184,7 +197,9 @@
                     "start": 1063,
                     "end": 1095,
                     "value": "1970-01-01T00:00:30+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00:30+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00:30+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -223,6 +238,7 @@
                         "end": 1143,
                         "value": null,
                         "raw": "30_123_400_000n",
+                        "regex": null,
                         "bigint": "30123400000"
                       },
                       {
@@ -230,7 +246,9 @@
                         "start": 1145,
                         "end": 1150,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -239,7 +257,9 @@
                     "start": 1153,
                     "end": 1190,
                     "value": "1970-01-01T00:00:30.1234+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00:30.1234+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00:30.1234+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -417,7 +437,9 @@
                   "start": 1357,
                   "end": 1430,
                   "value": "default fractionalSecondDigits is auto (property present but undefined)",
-                  "raw": "\"default fractionalSecondDigits is auto (property present but undefined)\""
+                  "raw": "\"default fractionalSecondDigits is auto (property present but undefined)\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -520,7 +542,9 @@
                   "start": 1515,
                   "end": 1578,
                   "value": "default fractionalSecondDigits is auto (property not present)",
-                  "raw": "\"default fractionalSecondDigits is auto (property not present)\""
+                  "raw": "\"default fractionalSecondDigits is auto (property not present)\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -633,7 +657,9 @@
                   "start": 1665,
                   "end": 1745,
                   "value": "default fractionalSecondDigits is auto (property not present, function object)",
-                  "raw": "\"default fractionalSecondDigits is auto (property not present, function object)\""
+                  "raw": "\"default fractionalSecondDigits is auto (property not present, function object)\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

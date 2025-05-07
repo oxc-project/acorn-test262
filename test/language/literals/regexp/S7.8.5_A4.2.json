@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -57,7 +58,8 @@
             "regex": {
               "pattern": "(?:)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -108,7 +110,9 @@
             "start": 506,
             "end": 571,
             "value": "var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2",
-            "raw": "\"var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2\""
+            "raw": "\"var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

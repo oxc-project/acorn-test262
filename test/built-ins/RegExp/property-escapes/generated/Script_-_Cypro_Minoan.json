@@ -83,14 +83,18 @@
                               "start": 531,
                               "end": 539,
                               "value": 77712,
-                              "raw": "0x012F90"
+                              "raw": "0x012F90",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 541,
                               "end": 549,
                               "value": 77810,
-                              "raw": "0x012FF2"
+                              "raw": "0x012FF2",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Cypro_Minoan}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 631,
             "end": 657,
             "value": "\\p{Script=Cypro_Minoan}",
-            "raw": "\"\\\\p{Script=Cypro_Minoan}\""
+            "raw": "\"\\\\p{Script=Cypro_Minoan}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Cpmn}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 725,
             "end": 743,
             "value": "\\p{Script=Cpmn}",
-            "raw": "\"\\\\p{Script=Cpmn}\""
+            "raw": "\"\\\\p{Script=Cpmn}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Cypro_Minoan}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 815,
             "end": 837,
             "value": "\\p{sc=Cypro_Minoan}",
-            "raw": "\"\\\\p{sc=Cypro_Minoan}\""
+            "raw": "\"\\\\p{sc=Cypro_Minoan}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Cpmn}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 901,
             "end": 915,
             "value": "\\p{sc=Cpmn}",
-            "raw": "\"\\\\p{sc=Cpmn}\""
+            "raw": "\"\\\\p{sc=Cpmn}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 997,
                               "end": 1005,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1007,
                               "end": 1015,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 1023,
                               "end": 1031,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1033,
                               "end": 1041,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1049,
                               "end": 1057,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1059,
                               "end": 1067,
                               "value": 77711,
-                              "raw": "0x012F8F"
+                              "raw": "0x012F8F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1075,
                               "end": 1083,
                               "value": 77811,
-                              "raw": "0x012FF3"
+                              "raw": "0x012FF3",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1085,
                               "end": 1093,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Cypro_Minoan}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1178,
             "end": 1204,
             "value": "\\P{Script=Cypro_Minoan}",
-            "raw": "\"\\\\P{Script=Cypro_Minoan}\""
+            "raw": "\"\\\\P{Script=Cypro_Minoan}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Cpmn}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1275,
             "end": 1293,
             "value": "\\P{Script=Cpmn}",
-            "raw": "\"\\\\P{Script=Cpmn}\""
+            "raw": "\"\\\\P{Script=Cpmn}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Cypro_Minoan}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1368,
             "end": 1390,
             "value": "\\P{sc=Cypro_Minoan}",
-            "raw": "\"\\\\P{sc=Cypro_Minoan}\""
+            "raw": "\"\\\\P{sc=Cypro_Minoan}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Cpmn}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1457,
             "end": 1471,
             "value": "\\P{sc=Cpmn}",
-            "raw": "\"\\\\P{sc=Cpmn}\""
+            "raw": "\"\\\\P{sc=Cpmn}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

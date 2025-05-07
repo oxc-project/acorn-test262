@@ -160,7 +160,9 @@
                                   "start": 1996,
                                   "end": 1997,
                                   "value": 4,
-                                  "raw": "4"
+                                  "raw": "4",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -182,7 +184,9 @@
                                   "start": 2002,
                                   "end": 2003,
                                   "value": 5,
-                                  "raw": "5"
+                                  "raw": "5",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -204,7 +208,9 @@
                                   "start": 2008,
                                   "end": 2009,
                                   "value": 6,
-                                  "raw": "6"
+                                  "raw": "6",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -238,7 +244,9 @@
                           "start": 2021,
                           "end": 2025,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }

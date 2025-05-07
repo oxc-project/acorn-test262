@@ -43,7 +43,9 @@
             "start": 324,
             "end": 325,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -80,7 +82,9 @@
               "start": 346,
               "end": 397,
               "value": "do eval(\"__condition++\"); while (__condition<5)",
-              "raw": "\"do eval(\\\"__condition++\\\"); while (__condition<5)\""
+              "raw": "\"do eval(\\\"__condition++\\\"); while (__condition<5)\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -107,7 +111,9 @@
           "start": 510,
           "end": 511,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -135,7 +141,9 @@
                   "start": 539,
                   "end": 608,
                   "value": "#1: The \"do-while\" statement is evaluted according to the Standard ",
-                  "raw": "'#1: The \"do-while\" statement is evaluted according to the Standard '"
+                  "raw": "'#1: The \"do-while\" statement is evaluted according to the Standard '",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -164,7 +172,9 @@
           "start": 805,
           "end": 806,
           "value": 4,
-          "raw": "4"
+          "raw": "4",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -192,7 +202,9 @@
                   "start": 834,
                   "end": 891,
                   "value": "#2: The \"do-while\" statement returns (normal, V, empty)",
-                  "raw": "'#2: The \"do-while\" statement returns (normal, V, empty)'"
+                  "raw": "'#2: The \"do-while\" statement returns (normal, V, empty)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

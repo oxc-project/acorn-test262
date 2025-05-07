@@ -150,6 +150,7 @@
                             "end": 465,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -209,6 +210,7 @@
               "end": 512,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -218,6 +220,7 @@
             "end": 516,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -225,7 +228,9 @@
             "start": 518,
             "end": 626,
             "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) << 1n) is 4n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) << 1n) is 4n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,6 +274,7 @@
               "end": 649,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -327,6 +333,7 @@
                             "end": 705,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -386,6 +393,7 @@
             "end": 750,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -393,7 +401,9 @@
             "start": 752,
             "end": 858,
             "value": "The result of (1n << {[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) is 4n",
-            "raw": "'The result of (1n << {[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) is 4n'"
+            "raw": "'The result of (1n << {[Symbol.toPrimitive]: function() {return 2n;}, valueOf: err, toString: err}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -473,6 +483,7 @@
                             "end": 918,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -511,6 +522,7 @@
               "end": 949,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -520,6 +532,7 @@
             "end": 953,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -527,7 +540,9 @@
             "start": 955,
             "end": 1036,
             "value": "The result of (({valueOf: function() {return 2n;}, toString: err}) << 1n) is 4n",
-            "raw": "'The result of (({valueOf: function() {return 2n;}, toString: err}) << 1n) is 4n'"
+            "raw": "'The result of (({valueOf: function() {return 2n;}, toString: err}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -571,6 +586,7 @@
               "end": 1059,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -616,6 +632,7 @@
                             "end": 1102,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -654,6 +671,7 @@
             "end": 1131,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -661,7 +679,9 @@
             "start": 1133,
             "end": 1212,
             "value": "The result of (1n << {valueOf: function() {return 2n;}, toString: err}) is 4n",
-            "raw": "'The result of (1n << {valueOf: function() {return 2n;}, toString: err}) is 4n'"
+            "raw": "'The result of (1n << {valueOf: function() {return 2n;}, toString: err}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -741,6 +761,7 @@
                             "end": 1273,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -758,6 +779,7 @@
               "end": 1286,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -767,6 +789,7 @@
             "end": 1290,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -774,7 +797,9 @@
             "start": 1292,
             "end": 1359,
             "value": "The result of (({toString: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({toString: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({toString: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -818,6 +843,7 @@
               "end": 1382,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -863,6 +889,7 @@
                             "end": 1426,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -880,6 +907,7 @@
             "end": 1437,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -887,7 +915,9 @@
             "start": 1439,
             "end": 1504,
             "value": "The result of (1n << {toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1001,6 +1031,7 @@
                             "end": 1600,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -1018,6 +1049,7 @@
               "end": 1613,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -1027,6 +1059,7 @@
             "end": 1617,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -1034,7 +1067,9 @@
             "start": 1619,
             "end": 1718,
             "value": "The result of (({[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1078,6 +1113,7 @@
               "end": 1741,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -1157,6 +1193,7 @@
                             "end": 1820,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -1174,6 +1211,7 @@
             "end": 1831,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -1181,7 +1219,9 @@
             "start": 1833,
             "end": 1930,
             "value": "The result of (1n << {[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {[Symbol.toPrimitive]: undefined, valueOf: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1255,7 +1295,9 @@
                     "start": 1977,
                     "end": 1981,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1296,6 +1338,7 @@
                             "end": 2021,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -1313,6 +1356,7 @@
               "end": 2034,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -1322,6 +1366,7 @@
             "end": 2038,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -1329,7 +1374,9 @@
             "start": 2040,
             "end": 2134,
             "value": "The result of (({[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1373,6 +1420,7 @@
               "end": 2157,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -1412,7 +1460,9 @@
                     "start": 2187,
                     "end": 2191,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1453,6 +1503,7 @@
                             "end": 2231,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -1470,6 +1521,7 @@
             "end": 2242,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -1477,7 +1529,9 @@
             "start": 2244,
             "end": 2336,
             "value": "The result of (1n << {[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {[Symbol.toPrimitive]: null, valueOf: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1538,7 +1592,9 @@
                     "start": 2370,
                     "end": 2374,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1579,6 +1635,7 @@
                             "end": 2415,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -1596,6 +1653,7 @@
               "end": 2428,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -1605,6 +1663,7 @@
             "end": 2432,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -1612,7 +1671,9 @@
             "start": 2434,
             "end": 2516,
             "value": "The result of (({valueOf: null, toString: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({valueOf: null, toString: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({valueOf: null, toString: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1656,6 +1717,7 @@
               "end": 2539,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -1682,7 +1744,9 @@
                     "start": 2556,
                     "end": 2560,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1723,6 +1787,7 @@
                             "end": 2601,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -1740,6 +1805,7 @@
             "end": 2612,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -1747,7 +1813,9 @@
             "start": 2614,
             "end": 2694,
             "value": "The result of (1n << {valueOf: null, toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {valueOf: null, toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {valueOf: null, toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1808,7 +1876,9 @@
                     "start": 2728,
                     "end": 2729,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1849,6 +1919,7 @@
                             "end": 2770,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -1866,6 +1937,7 @@
               "end": 2783,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -1875,6 +1947,7 @@
             "end": 2787,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -1882,7 +1955,9 @@
             "start": 2789,
             "end": 2868,
             "value": "The result of (({valueOf: 1, toString: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({valueOf: 1, toString: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({valueOf: 1, toString: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1926,6 +2001,7 @@
               "end": 2891,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -1952,7 +2028,9 @@
                     "start": 2908,
                     "end": 2909,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1993,6 +2071,7 @@
                             "end": 2950,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -2010,6 +2089,7 @@
             "end": 2961,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -2017,7 +2097,9 @@
             "start": 2963,
             "end": 3040,
             "value": "The result of (1n << {valueOf: 1, toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {valueOf: 1, toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {valueOf: 1, toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2118,6 +2200,7 @@
                             "end": 3117,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -2135,6 +2218,7 @@
               "end": 3130,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -2144,6 +2228,7 @@
             "end": 3134,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -2151,7 +2236,9 @@
             "start": 3136,
             "end": 3216,
             "value": "The result of (({valueOf: {}, toString: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({valueOf: {}, toString: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({valueOf: {}, toString: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2195,6 +2282,7 @@
               "end": 3239,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -2261,6 +2349,7 @@
                             "end": 3299,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -2278,6 +2367,7 @@
             "end": 3310,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -2285,7 +2375,9 @@
             "start": 3312,
             "end": 3390,
             "value": "The result of (1n << {valueOf: {}, toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {valueOf: {}, toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {valueOf: {}, toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2408,6 +2500,7 @@
                             "end": 3496,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -2425,6 +2518,7 @@
               "end": 3509,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -2434,6 +2528,7 @@
             "end": 3513,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -2441,7 +2536,9 @@
             "start": 3515,
             "end": 3616,
             "value": "The result of (({valueOf: function() {return {};}, toString: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({valueOf: function() {return {};}, toString: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({valueOf: function() {return {};}, toString: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2485,6 +2582,7 @@
               "end": 3639,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -2573,6 +2671,7 @@
                             "end": 3728,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -2590,6 +2689,7 @@
             "end": 3739,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -2597,7 +2697,9 @@
             "start": 3741,
             "end": 3840,
             "value": "The result of (1n << {valueOf: function() {return {};}, toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {valueOf: function() {return {};}, toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {valueOf: function() {return {};}, toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2687,7 +2789,9 @@
                                 "start": 3905,
                                 "end": 3910,
                                 "value": 12345,
-                                "raw": "12345"
+                                "raw": "12345",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -2735,6 +2839,7 @@
                             "end": 3957,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -2752,6 +2857,7 @@
               "end": 3970,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             }
           },
@@ -2761,6 +2867,7 @@
             "end": 3974,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -2768,7 +2875,9 @@
             "start": 3976,
             "end": 4088,
             "value": "The result of (({valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) << 1n) is 4n",
-            "raw": "'The result of (({valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) << 1n) is 4n'"
+            "raw": "'The result of (({valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) << 1n) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2812,6 +2921,7 @@
               "end": 4111,
               "value": null,
               "raw": "1n",
+              "regex": null,
               "bigint": "1"
             },
             "operator": "<<",
@@ -2867,7 +2977,9 @@
                                 "start": 4159,
                                 "end": 4164,
                                 "value": 12345,
-                                "raw": "12345"
+                                "raw": "12345",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -2915,6 +3027,7 @@
                             "end": 4211,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -2932,6 +3045,7 @@
             "end": 4222,
             "value": null,
             "raw": "4n",
+            "regex": null,
             "bigint": "4"
           },
           {
@@ -2939,7 +3053,9 @@
             "start": 4224,
             "end": 4334,
             "value": "The result of (1n << {valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) is 4n",
-            "raw": "'The result of (1n << {valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) is 4n'"
+            "raw": "'The result of (1n << {valueOf: function() {return Object(12345);}, toString: function() {return 2n;}}) is 4n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3041,7 +3157,9 @@
                               "start": 4407,
                               "end": 4408,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -3055,6 +3173,7 @@
                       "end": 4419,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -3067,7 +3186,9 @@
             "start": 4424,
             "end": 4476,
             "value": "({[Symbol.toPrimitive]: 1}) << 0n throws TypeError",
-            "raw": "'({[Symbol.toPrimitive]: 1}) << 0n throws TypeError'"
+            "raw": "'({[Symbol.toPrimitive]: 1}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3135,6 +3256,7 @@
                       "end": 4522,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -3174,7 +3296,9 @@
                             "start": 4554,
                             "end": 4555,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -3190,7 +3314,9 @@
             "start": 4564,
             "end": 4614,
             "value": "0n << {[Symbol.toPrimitive]: 1} throws TypeError",
-            "raw": "'0n << {[Symbol.toPrimitive]: 1} throws TypeError'"
+            "raw": "'0n << {[Symbol.toPrimitive]: 1} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3305,6 +3431,7 @@
                       "end": 4700,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -3317,7 +3444,9 @@
             "start": 4705,
             "end": 4758,
             "value": "({[Symbol.toPrimitive]: {}}) << 0n throws TypeError",
-            "raw": "'({[Symbol.toPrimitive]: {}}) << 0n throws TypeError'"
+            "raw": "'({[Symbol.toPrimitive]: {}}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3385,6 +3514,7 @@
                       "end": 4804,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -3439,7 +3569,9 @@
             "start": 4847,
             "end": 4898,
             "value": "0n << {[Symbol.toPrimitive]: {}} throws TypeError",
-            "raw": "'0n << {[Symbol.toPrimitive]: {}} throws TypeError'"
+            "raw": "'0n << {[Symbol.toPrimitive]: {}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3570,7 +3702,9 @@
                                           "start": 5004,
                                           "end": 5005,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -3591,6 +3725,7 @@
                       "end": 5024,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -3603,7 +3738,9 @@
             "start": 5029,
             "end": 5110,
             "value": "({[Symbol.toPrimitive]: function() {return Object(1);}}) << 0n throws TypeError",
-            "raw": "'({[Symbol.toPrimitive]: function() {return Object(1);}}) << 0n throws TypeError'"
+            "raw": "'({[Symbol.toPrimitive]: function() {return Object(1);}}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3671,6 +3808,7 @@
                       "end": 5156,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -3739,7 +3877,9 @@
                                         "start": 5221,
                                         "end": 5222,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -3762,7 +3902,9 @@
             "start": 5239,
             "end": 5318,
             "value": "0n << {[Symbol.toPrimitive]: function() {return Object(1);}} throws TypeError",
-            "raw": "'0n << {[Symbol.toPrimitive]: function() {return Object(1);}} throws TypeError'"
+            "raw": "'0n << {[Symbol.toPrimitive]: function() {return Object(1);}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3899,6 +4041,7 @@
                       "end": 5437,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -3911,7 +4054,9 @@
             "start": 5442,
             "end": 5516,
             "value": "({[Symbol.toPrimitive]: function() {return {};}}) << 0n throws TypeError",
-            "raw": "'({[Symbol.toPrimitive]: function() {return {};}}) << 0n throws TypeError'"
+            "raw": "'({[Symbol.toPrimitive]: function() {return {};}}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3979,6 +4124,7 @@
                       "end": 5562,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -4055,7 +4201,9 @@
             "start": 5638,
             "end": 5710,
             "value": "0n << {[Symbol.toPrimitive]: function() {return {};}} throws TypeError",
-            "raw": "'0n << {[Symbol.toPrimitive]: function() {return {};}} throws TypeError'"
+            "raw": "'0n << {[Symbol.toPrimitive]: function() {return {};}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4198,6 +4346,7 @@
                       "end": 5837,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -4210,7 +4359,9 @@
             "start": 5842,
             "end": 5924,
             "value": "({[Symbol.toPrimitive]: function() {throw new MyError();}}) << 0n throws MyError",
-            "raw": "'({[Symbol.toPrimitive]: function() {throw new MyError();}}) << 0n throws MyError'"
+            "raw": "'({[Symbol.toPrimitive]: function() {throw new MyError();}}) << 0n throws MyError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4278,6 +4429,7 @@
                       "end": 5968,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -4360,7 +4512,9 @@
             "start": 6054,
             "end": 6134,
             "value": "0n << {[Symbol.toPrimitive]: function() {throw new MyError();}} throws MyError",
-            "raw": "'0n << {[Symbol.toPrimitive]: function() {throw new MyError();}} throws MyError'"
+            "raw": "'0n << {[Symbol.toPrimitive]: function() {throw new MyError();}} throws MyError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4490,6 +4644,7 @@
                       "end": 6248,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -4502,7 +4657,9 @@
             "start": 6253,
             "end": 6322,
             "value": "({valueOf: function() {throw new MyError();}}) << 0n throws MyError",
-            "raw": "'({valueOf: function() {throw new MyError();}}) << 0n throws MyError'"
+            "raw": "'({valueOf: function() {throw new MyError();}}) << 0n throws MyError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4570,6 +4727,7 @@
                       "end": 6366,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -4639,7 +4797,9 @@
             "start": 6439,
             "end": 6506,
             "value": "0n << {valueOf: function() {throw new MyError();}} throws MyError",
-            "raw": "'0n << {valueOf: function() {throw new MyError();}} throws MyError'"
+            "raw": "'0n << {valueOf: function() {throw new MyError();}} throws MyError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4769,6 +4929,7 @@
                       "end": 6621,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -4781,7 +4942,9 @@
             "start": 6626,
             "end": 6696,
             "value": "({toString: function() {throw new MyError();}}) << 0n throws MyError",
-            "raw": "'({toString: function() {throw new MyError();}}) << 0n throws MyError'"
+            "raw": "'({toString: function() {throw new MyError();}}) << 0n throws MyError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4849,6 +5012,7 @@
                       "end": 6740,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -4918,7 +5082,9 @@
             "start": 6814,
             "end": 6882,
             "value": "0n << {toString: function() {throw new MyError();}} throws MyError",
-            "raw": "'0n << {toString: function() {throw new MyError();}} throws MyError'"
+            "raw": "'0n << {toString: function() {throw new MyError();}} throws MyError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5007,7 +5173,9 @@
                               "start": 6942,
                               "end": 6946,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -5029,7 +5197,9 @@
                               "start": 6962,
                               "end": 6966,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -5043,6 +5213,7 @@
                       "end": 6977,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -5055,7 +5226,9 @@
             "start": 6982,
             "end": 7040,
             "value": "({valueOf: null, toString: null}) << 0n throws TypeError",
-            "raw": "'({valueOf: null, toString: null}) << 0n throws TypeError'"
+            "raw": "'({valueOf: null, toString: null}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5123,6 +5296,7 @@
                       "end": 7086,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -5149,7 +5323,9 @@
                             "start": 7105,
                             "end": 7109,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -5171,7 +5347,9 @@
                             "start": 7125,
                             "end": 7129,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -5187,7 +5365,9 @@
             "start": 7138,
             "end": 7194,
             "value": "0n << {valueOf: null, toString: null} throws TypeError",
-            "raw": "'0n << {valueOf: null, toString: null} throws TypeError'"
+            "raw": "'0n << {valueOf: null, toString: null} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5276,7 +5456,9 @@
                               "start": 7254,
                               "end": 7255,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -5298,7 +5480,9 @@
                               "start": 7271,
                               "end": 7272,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -5312,6 +5496,7 @@
                       "end": 7283,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -5324,7 +5509,9 @@
             "start": 7288,
             "end": 7340,
             "value": "({valueOf: 1, toString: 1}) << 0n throws TypeError",
-            "raw": "'({valueOf: 1, toString: 1}) << 0n throws TypeError'"
+            "raw": "'({valueOf: 1, toString: 1}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5392,6 +5579,7 @@
                       "end": 7386,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -5418,7 +5606,9 @@
                             "start": 7405,
                             "end": 7406,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -5440,7 +5630,9 @@
                             "start": 7422,
                             "end": 7423,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -5456,7 +5648,9 @@
             "start": 7432,
             "end": 7482,
             "value": "0n << {valueOf: 1, toString: 1} throws TypeError",
-            "raw": "'0n << {valueOf: 1, toString: 1} throws TypeError'"
+            "raw": "'0n << {valueOf: 1, toString: 1} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5579,6 +5773,7 @@
                       "end": 7573,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -5591,7 +5786,9 @@
             "start": 7578,
             "end": 7632,
             "value": "({valueOf: {}, toString: {}}) << 0n throws TypeError",
-            "raw": "'({valueOf: {}, toString: {}}) << 0n throws TypeError'"
+            "raw": "'({valueOf: {}, toString: {}}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5659,6 +5856,7 @@
                       "end": 7678,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -5721,7 +5919,9 @@
             "start": 7726,
             "end": 7778,
             "value": "0n << {valueOf: {}, toString: {}} throws TypeError",
-            "raw": "'0n << {valueOf: {}, toString: {}} throws TypeError'"
+            "raw": "'0n << {valueOf: {}, toString: {}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5839,7 +6039,9 @@
                                           "start": 7871,
                                           "end": 7872,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -5897,7 +6099,9 @@
                                           "start": 7930,
                                           "end": 7931,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -5918,6 +6122,7 @@
                       "end": 7950,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -5930,7 +6135,9 @@
             "start": 7955,
             "end": 8065,
             "value": "({valueOf: function() {return Object(1);}, toString: function() {return Object(1);}}) << 0n throws TypeError",
-            "raw": "'({valueOf: function() {return Object(1);}, toString: function() {return Object(1);}}) << 0n throws TypeError'"
+            "raw": "'({valueOf: function() {return Object(1);}, toString: function() {return Object(1);}}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5998,6 +6205,7 @@
                       "end": 8111,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -6053,7 +6261,9 @@
                                         "start": 8163,
                                         "end": 8164,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -6111,7 +6321,9 @@
                                         "start": 8222,
                                         "end": 8223,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -6134,7 +6346,9 @@
             "start": 8240,
             "end": 8348,
             "value": "0n << {valueOf: function() {return Object(1);}, toString: function() {return Object(1);}} throws TypeError",
-            "raw": "'0n << {valueOf: function() {return Object(1);}, toString: function() {return Object(1);}} throws TypeError'"
+            "raw": "'0n << {valueOf: function() {return Object(1);}, toString: function() {return Object(1);}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6301,6 +6515,7 @@
                       "end": 8506,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     }
                   }
@@ -6313,7 +6528,9 @@
             "start": 8511,
             "end": 8607,
             "value": "({valueOf: function() {return {};}, toString: function() {return {};}}) << 0n throws TypeError",
-            "raw": "'({valueOf: function() {return {};}, toString: function() {return {};}}) << 0n throws TypeError'"
+            "raw": "'({valueOf: function() {return {};}, toString: function() {return {};}}) << 0n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -6381,6 +6598,7 @@
                       "end": 8653,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     "operator": "<<",
@@ -6487,7 +6705,9 @@
             "start": 8768,
             "end": 8862,
             "value": "0n << {valueOf: function() {return {};}, toString: function() {return {};}} throws TypeError",
-            "raw": "'0n << {valueOf: function() {return {};}, toString: function() {return {};}} throws TypeError'"
+            "raw": "'0n << {valueOf: function() {return {};}, toString: function() {return {};}} throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

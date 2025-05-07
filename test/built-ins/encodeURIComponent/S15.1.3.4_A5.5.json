@@ -39,7 +39,9 @@
               "start": 348,
               "end": 368,
               "value": "encodeURIComponent",
-              "raw": "'encodeURIComponent'"
+              "raw": "'encodeURIComponent'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -50,7 +52,9 @@
           "start": 374,
           "end": 379,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -82,7 +86,9 @@
                     "start": 408,
                     "end": 483,
                     "value": "#1: this.propertyIsEnumerable('encodeURIComponent') === false. Actual: ",
-                    "raw": "'#1: this.propertyIsEnumerable(\\'encodeURIComponent\\') === false. Actual: '"
+                    "raw": "'#1: this.propertyIsEnumerable(\\'encodeURIComponent\\') === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -117,7 +123,9 @@
                           "start": 513,
                           "end": 533,
                           "value": "encodeURIComponent",
-                          "raw": "'encodeURIComponent'"
+                          "raw": "'encodeURIComponent'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -151,7 +159,9 @@
             "start": 564,
             "end": 568,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -211,7 +221,9 @@
                 "start": 604,
                 "end": 624,
                 "value": "encodeURIComponent",
-                "raw": "\"encodeURIComponent\""
+                "raw": "\"encodeURIComponent\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -239,7 +251,9 @@
                       "start": 641,
                       "end": 646,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -270,7 +284,9 @@
           "start": 670,
           "end": 674,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -298,7 +314,9 @@
                   "start": 703,
                   "end": 809,
                   "value": "#2: result = true; for (p in this) { if (p === \"encodeURIComponent\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in this) { if (p === \"encodeURIComponent\") result = false; }  result === true;'"
+                  "raw": "'#2: result = true; for (p in this) { if (p === \"encodeURIComponent\") result = false; }  result === true;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

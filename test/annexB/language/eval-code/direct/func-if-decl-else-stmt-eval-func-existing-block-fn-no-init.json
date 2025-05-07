@@ -69,7 +69,9 @@
                         "start": 1086,
                         "end": 1174,
                         "value": "init = f;        {      function f() {}    }if (true) function f() {  } else ;",
-                        "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }if (true) function f() {  } else ;'"
+                        "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }if (true) function f() {  } else ;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -23,7 +23,9 @@
             "start": 410,
             "end": 411,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 476,
             "end": 477,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 545,
             "end": 546,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 613,
             "end": 614,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +135,9 @@
             "start": 682,
             "end": 683,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -153,7 +163,9 @@
             "start": 716,
             "end": 717,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -179,7 +191,9 @@
             "start": 783,
             "end": 784,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -349,7 +363,9 @@
               "start": 1051,
               "end": 1052,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -749,7 +765,9 @@
                   "start": 2078,
                   "end": 2079,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -881,7 +899,9 @@
             "start": 2414,
             "end": 2480,
             "value": "Atomics.notify(i64a, WAIT_INDEX) returns the value of `NUMAGENT`",
-            "raw": "'Atomics.notify(i64a, WAIT_INDEX) returns the value of `NUMAGENT`'"
+            "raw": "'Atomics.notify(i64a, WAIT_INDEX) returns the value of `NUMAGENT`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -933,6 +953,7 @@
             "end": 2521,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           }
         ],
@@ -988,7 +1009,9 @@
               "start": 2558,
               "end": 2559,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1171,7 +1194,9 @@
               "start": 2680,
               "end": 2681,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1265,14 +1290,18 @@
                   "start": 2735,
                   "end": 2741,
                   "value": "A ok",
-                  "raw": "'A ok'"
+                  "raw": "'A ok'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2743,
                   "end": 2778,
                   "value": "The value of reports[i] is \"A ok\"",
-                  "raw": "'The value of reports[i] is \"A ok\"'"
+                  "raw": "'The value of reports[i] is \"A ok\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1333,14 +1362,18 @@
             "start": 2819,
             "end": 2832,
             "value": "B timed-out",
-            "raw": "'B timed-out'"
+            "raw": "'B timed-out'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2834,
             "end": 2883,
             "value": "The value of reports[NUMAGENT] is \"B timed-out\"",
-            "raw": "'The value of reports[NUMAGENT] is \"B timed-out\"'"
+            "raw": "'The value of reports[NUMAGENT] is \"B timed-out\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1400,7 +1433,9 @@
                 "start": 2922,
                 "end": 2923,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "computed": true,
@@ -1411,14 +1446,18 @@
             "start": 2926,
             "end": 2958,
             "value": "W timeout after Atomics.notify",
-            "raw": "\"W timeout after Atomics.notify\""
+            "raw": "\"W timeout after Atomics.notify\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2977,
             "end": 3049,
             "value": "The value of reports[NUMAGENT + 1] is \"W timeout after Atomics.notify\"",
-            "raw": "'The value of reports[NUMAGENT + 1] is \"W timeout after Atomics.notify\"'"
+            "raw": "'The value of reports[NUMAGENT + 1] is \"W timeout after Atomics.notify\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

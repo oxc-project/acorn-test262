@@ -62,14 +62,18 @@
             "start": 260,
             "end": 270,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 274,
             "end": 342,
             "value": "The value of `typeof Promise.resolve` is expected to be \"function\"",
-            "raw": "'The value of `typeof Promise.resolve` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Promise.resolve` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

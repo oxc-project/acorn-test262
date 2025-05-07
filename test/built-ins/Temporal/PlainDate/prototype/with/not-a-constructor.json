@@ -115,7 +115,9 @@
             "start": 643,
             "end": 667,
             "value": "Calling as constructor",
-            "raw": "\"Calling as constructor\""
+            "raw": "\"Calling as constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,14 +215,18 @@
             "start": 738,
             "end": 743,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 797,
             "value": "isConstructor(Temporal.PlainDate.prototype.with)",
-            "raw": "\"isConstructor(Temporal.PlainDate.prototype.with)\""
+            "raw": "\"isConstructor(Temporal.PlainDate.prototype.with)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

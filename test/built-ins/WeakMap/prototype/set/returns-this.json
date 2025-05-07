@@ -97,7 +97,9 @@
                 "start": 389,
                 "end": 390,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -113,7 +115,9 @@
             "start": 398,
             "end": 430,
             "value": "`map.set({}, 1)` returns `map`",
-            "raw": "'`map.set({}, 1)` returns `map`'"
+            "raw": "'`map.set({}, 1)` returns `map`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

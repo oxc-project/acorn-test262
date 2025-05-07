@@ -131,14 +131,18 @@
                 "start": 414,
                 "end": 422,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 430,
                 "value": "name",
-                "raw": "'name'"
+                "raw": "'name'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

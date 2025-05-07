@@ -123,7 +123,9 @@
               "start": 374,
               "end": 375,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -214,7 +216,9 @@
             "start": 435,
             "end": 444,
             "value": "Float32",
-            "raw": "\"Float32\""
+            "raw": "\"Float32\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,7 +308,9 @@
             "start": 504,
             "end": 513,
             "value": "Float64",
-            "raw": "\"Float64\""
+            "raw": "\"Float64\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -394,7 +400,9 @@
             "start": 570,
             "end": 576,
             "value": "Int8",
-            "raw": "\"Int8\""
+            "raw": "\"Int8\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -484,7 +492,9 @@
             "start": 634,
             "end": 641,
             "value": "Int16",
-            "raw": "\"Int16\""
+            "raw": "\"Int16\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -574,7 +584,9 @@
             "start": 699,
             "end": 706,
             "value": "Int32",
-            "raw": "\"Int32\""
+            "raw": "\"Int32\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -664,7 +676,9 @@
             "start": 764,
             "end": 771,
             "value": "Uint8",
-            "raw": "\"Uint8\""
+            "raw": "\"Uint8\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -754,7 +768,9 @@
             "start": 830,
             "end": 838,
             "value": "Uint16",
-            "raw": "\"Uint16\""
+            "raw": "\"Uint16\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -844,7 +860,9 @@
             "start": 897,
             "end": 905,
             "value": "Uint32",
-            "raw": "\"Uint32\""
+            "raw": "\"Uint32\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -934,7 +952,9 @@
             "start": 970,
             "end": 984,
             "value": "Uint8Clamped",
-            "raw": "\"Uint8Clamped\""
+            "raw": "\"Uint8Clamped\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

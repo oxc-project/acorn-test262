@@ -227,6 +227,7 @@
                                     "end": 1340,
                                     "value": null,
                                     "raw": "1n",
+                                    "regex": null,
                                     "bigint": "1"
                                   },
                                   {
@@ -234,7 +235,9 @@
                                     "start": 1342,
                                     "end": 1343,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",

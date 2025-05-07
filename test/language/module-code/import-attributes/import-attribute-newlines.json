@@ -31,7 +31,9 @@
         "start": 796,
         "end": 842,
         "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -57,7 +59,9 @@
         "start": 859,
         "end": 892,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -75,7 +79,9 @@
             "start": 922,
             "end": 924,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -90,7 +96,9 @@
         "start": 938,
         "end": 971,
         "value": "./import-attribute-2_FIXTURE.js",
-        "raw": "'./import-attribute-2_FIXTURE.js'"
+        "raw": "'./import-attribute-2_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -108,7 +116,9 @@
             "start": 1001,
             "end": 1003,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -123,7 +133,9 @@
         "start": 1024,
         "end": 1057,
         "value": "./import-attribute-3_FIXTURE.js",
-        "raw": "'./import-attribute-3_FIXTURE.js'"
+        "raw": "'./import-attribute-3_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -141,7 +153,9 @@
             "start": 1087,
             "end": 1089,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -185,7 +199,9 @@
             "start": 1117,
             "end": 1122,
             "value": 262.1,
-            "raw": "262.1"
+            "raw": "262.1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +259,9 @@
             "start": 1162,
             "end": 1167,
             "value": 262.2,
-            "raw": "262.2"
+            "raw": "262.2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

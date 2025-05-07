@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 79,
           "raw": "\"./extendingClassFromAliasAndUsageInIndexer_backbone\"",
-          "value": "./extendingClassFromAliasAndUsageInIndexer_backbone"
+          "value": "./extendingClassFromAliasAndUsageInIndexer_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 79,
           "raw": "\"./extendingClassFromAliasAndUsageInIndexer_backbone\"",
-          "value": "./extendingClassFromAliasAndUsageInIndexer_backbone"
+          "value": "./extendingClassFromAliasAndUsageInIndexer_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -309,7 +313,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 79,
           "raw": "\"./extendingClassFromAliasAndUsageInIndexer_backbone\"",
-          "value": "./extendingClassFromAliasAndUsageInIndexer_backbone"
+          "value": "./extendingClassFromAliasAndUsageInIndexer_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -336,7 +342,9 @@ __ESTREE_TEST__:PASS:
           "start": 107,
           "end": 159,
           "raw": "\"./extendingClassFromAliasAndUsageInIndexer_moduleA\"",
-          "value": "./extendingClassFromAliasAndUsageInIndexer_moduleA"
+          "value": "./extendingClassFromAliasAndUsageInIndexer_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -363,7 +371,9 @@ __ESTREE_TEST__:PASS:
           "start": 187,
           "end": 239,
           "raw": "\"./extendingClassFromAliasAndUsageInIndexer_moduleB\"",
-          "value": "./extendingClassFromAliasAndUsageInIndexer_moduleB"
+          "value": "./extendingClassFromAliasAndUsageInIndexer_moduleB",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -589,7 +599,9 @@ __ESTREE_TEST__:PASS:
                   "start": 443,
                   "end": 452,
                   "raw": "\"moduleA\"",
-                  "value": "moduleA"
+                  "value": "moduleA",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,
@@ -615,7 +627,9 @@ __ESTREE_TEST__:PASS:
                   "start": 467,
                   "end": 476,
                   "raw": "\"moduleB\"",
-                  "value": "moduleB"
+                  "value": "moduleB",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": false,

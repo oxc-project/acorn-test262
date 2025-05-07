@@ -195,7 +195,9 @@ __ESTREE_TEST__:PASS:
             "start": 138,
             "end": 139,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           },
           "operator": "void",
           "prefix": true

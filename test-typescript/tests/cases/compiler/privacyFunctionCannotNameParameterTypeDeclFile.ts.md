@@ -290,7 +290,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 30,
         "raw": "\"GlobalWidgets\"",
-        "value": "GlobalWidgets"
+        "value": "GlobalWidgets",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -348,7 +350,9 @@ __ESTREE_TEST__:PASS:
                 "start": 34,
                 "end": 39,
                 "raw": "'one'",
-                "value": "one"
+                "value": "one",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -488,7 +492,9 @@ __ESTREE_TEST__:PASS:
                         "start": 182,
                         "end": 187,
                         "raw": "'one'",
-                        "value": "one"
+                        "value": "one",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -625,7 +631,9 @@ __ESTREE_TEST__:PASS:
           "start": 112,
           "end": 170,
           "raw": "\"./privacyFunctionCannotNameParameterTypeDeclFile_Widgets\"",
-          "value": "./privacyFunctionCannotNameParameterTypeDeclFile_Widgets"
+          "value": "./privacyFunctionCannotNameParameterTypeDeclFile_Widgets",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -652,7 +660,9 @@ __ESTREE_TEST__:PASS:
           "start": 199,
           "end": 214,
           "raw": "\"GlobalWidgets\"",
-          "value": "GlobalWidgets"
+          "value": "GlobalWidgets",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1023,7 +1033,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 85,
           "raw": "\"./privacyFunctionCannotNameParameterTypeDeclFile_exporter\"",
-          "value": "./privacyFunctionCannotNameParameterTypeDeclFile_exporter"
+          "value": "./privacyFunctionCannotNameParameterTypeDeclFile_exporter",
+          "regex": null,
+          "bigint": null
         }
       }
     },

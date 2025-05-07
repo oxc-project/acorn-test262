@@ -63,14 +63,18 @@
                   "start": 345,
                   "end": 356,
                   "value": "prototype",
-                  "raw": "\"prototype\""
+                  "raw": "\"prototype\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 358,
                   "end": 393,
                   "value": "The value of x is not \"prototype\"",
-                  "raw": "'The value of x is not \"prototype\"'"
+                  "raw": "'The value of x is not \"prototype\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -129,7 +133,9 @@
                   "start": 439,
                   "end": 450,
                   "value": "prototype",
-                  "raw": "'prototype'"
+                  "raw": "'prototype'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -140,7 +146,9 @@
             "start": 455,
             "end": 537,
             "value": "The value of !Boolean.propertyIsEnumerable('prototype') is expected to be true",
-            "raw": "'The value of !Boolean.propertyIsEnumerable(\\'prototype\\') is expected to be true'"
+            "raw": "'The value of !Boolean.propertyIsEnumerable(\\'prototype\\') is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

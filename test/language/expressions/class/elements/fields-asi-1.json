@@ -86,7 +86,9 @@
                         "start": 349,
                         "end": 354,
                         "value": "lol",
-                        "raw": "'lol'"
+                        "raw": "'lol'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -96,7 +98,9 @@
                       "start": 358,
                       "end": 360,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -190,7 +194,9 @@
             "start": 404,
             "end": 406,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +245,9 @@
               "start": 429,
               "end": 434,
               "value": "lol",
-              "raw": "'lol'"
+              "raw": "'lol'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -249,7 +257,9 @@
             "start": 437,
             "end": 439,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

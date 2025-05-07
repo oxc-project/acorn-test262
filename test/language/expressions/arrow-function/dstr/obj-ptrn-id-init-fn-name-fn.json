@@ -23,7 +23,9 @@
             "start": 1738,
             "end": 1739,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -227,7 +229,9 @@
                       "start": 1834,
                       "end": 1838,
                       "value": "fn",
-                      "raw": "'fn'"
+                      "raw": "'fn'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -285,7 +289,9 @@
                       "start": 1873,
                       "end": 1878,
                       "value": "xFn",
-                      "raw": "'xFn'"
+                      "raw": "'xFn'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -322,7 +328,9 @@
                       "start": 1907,
                       "end": 1908,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -396,14 +404,18 @@
             "start": 1949,
             "end": 1950,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1952,
             "end": 1989,
             "value": "arrow function invoked exactly once",
-            "raw": "'arrow function invoked exactly once'"
+            "raw": "'arrow function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 787,
             "end": 792,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -77,7 +79,9 @@
                   "start": 841,
                   "end": 854,
                   "value": "unreachable",
-                  "raw": "\"unreachable\""
+                  "raw": "\"unreachable\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -109,7 +113,9 @@
                 "start": 877,
                 "end": 881,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           }

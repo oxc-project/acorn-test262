@@ -36,7 +36,9 @@
                 "start": 341,
                 "end": 342,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -60,7 +62,9 @@
                   "start": 369,
                   "end": 426,
                   "value": "This code is unreachable (following `yield` statement).",
-                  "raw": "'This code is unreachable (following `yield` statement).'"
+                  "raw": "'This code is unreachable (following `yield` statement).'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -120,7 +124,9 @@
             "start": 464,
             "end": 465,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -222,7 +228,9 @@
                         "start": 564,
                         "end": 621,
                         "value": "This code is unreachable (following `break` statement).",
-                        "raw": "'This code is unreachable (following `break` statement).'"
+                        "raw": "'This code is unreachable (following `break` statement).'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -250,7 +258,9 @@
                   "start": 654,
                   "end": 709,
                   "value": "This code is unreachable (following `try` statement).",
-                  "raw": "'This code is unreachable (following `try` statement).'"
+                  "raw": "'This code is unreachable (following `try` statement).'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -297,7 +307,9 @@
             "start": 735,
             "end": 736,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

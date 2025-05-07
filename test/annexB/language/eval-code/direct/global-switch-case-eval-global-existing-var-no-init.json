@@ -35,7 +35,9 @@
                   "start": 567,
                   "end": 622,
                   "value": "var f = 123;  assert.sameValue(f, 123);switch (1) {",
-                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'"
+                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -43,7 +45,9 @@
                   "start": 627,
                   "end": 638,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "raw": "'  case 1:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -52,7 +56,9 @@
                 "start": 643,
                 "end": 666,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "raw": "'    function f() {  }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -61,7 +67,9 @@
               "start": 671,
               "end": 678,
               "value": "}  ",
-              "raw": "'}\\\n  '"
+              "raw": "'}\\\n  '",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

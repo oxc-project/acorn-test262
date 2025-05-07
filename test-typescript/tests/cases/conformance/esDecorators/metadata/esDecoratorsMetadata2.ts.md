@@ -206,14 +206,18 @@ __ESTREE_TEST__:PASS:
                       "start": 158,
                       "end": 161,
                       "raw": "'b'",
-                      "value": "b"
+                      "value": "b",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 163,
                       "end": 166,
                       "raw": "'y'",
-                      "value": "y"
+                      "value": "y",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -281,14 +285,18 @@ __ESTREE_TEST__:PASS:
                 "start": 128,
                 "end": 131,
                 "raw": "'a'",
-                "value": "a"
+                "value": "a",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 133,
                 "end": 136,
                 "raw": "'x'",
-                "value": "x"
+                "value": "x",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -476,14 +484,18 @@ __ESTREE_TEST__:PASS:
                       "start": 271,
                       "end": 274,
                       "raw": "'b'",
-                      "value": "b"
+                      "value": "b",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 276,
                       "end": 279,
                       "raw": "'z'",
-                      "value": "z"
+                      "value": "z",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {

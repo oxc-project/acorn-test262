@@ -71,7 +71,9 @@
                         "start": 662,
                         "end": 678,
                         "value": 9007199254740992,
-                        "raw": "9007199254740992"
+                        "raw": "9007199254740992",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -84,7 +86,9 @@
             "start": 684,
             "end": 717,
             "value": "`length` parameter is too large",
-            "raw": "\"`length` parameter is too large\""
+            "raw": "\"`length` parameter is too large\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -170,7 +174,9 @@
             "start": 792,
             "end": 833,
             "value": "`length` parameter is positive Infinity",
-            "raw": "\"`length` parameter is positive Infinity\""
+            "raw": "\"`length` parameter is positive Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 367,
             "end": 370,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -316,7 +318,9 @@
             "start": 645,
             "end": 678,
             "value": "Object.keys returns a new Array",
-            "raw": "'Object.keys returns a new Array'"
+            "raw": "'Object.keys returns a new Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -388,14 +392,18 @@
             "start": 719,
             "end": 723,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 725,
             "end": 755,
             "value": "Object.keys returns an Array",
-            "raw": "'Object.keys returns an Array'"
+            "raw": "'Object.keys returns an Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -472,7 +480,9 @@
             "start": 804,
             "end": 843,
             "value": "keys and ownKeys have the same length",
-            "raw": "'keys and ownKeys have the same length'"
+            "raw": "'keys and ownKeys have the same length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +531,9 @@
               "start": 868,
               "end": 869,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -541,7 +553,9 @@
               "start": 880,
               "end": 881,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -551,7 +565,9 @@
             "start": 884,
             "end": 925,
             "value": "keys and ownKeys have the same contents",
-            "raw": "'keys and ownKeys have the same contents'"
+            "raw": "'keys and ownKeys have the same contents'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -660,7 +676,9 @@
             "start": 1031,
             "end": 1095,
             "value": "Descriptor matches result of [[GetOwnPropertyDescriptor]] trap",
-            "raw": "\"Descriptor matches result of [[GetOwnPropertyDescriptor]] trap\""
+            "raw": "\"Descriptor matches result of [[GetOwnPropertyDescriptor]] trap\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -769,14 +787,18 @@
             "start": 1185,
             "end": 1190,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1192,
             "end": 1222,
             "value": "key is not present in result",
-            "raw": "\"key is not present in result\""
+            "raw": "\"key is not present in result\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

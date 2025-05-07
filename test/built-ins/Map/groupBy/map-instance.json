@@ -28,21 +28,27 @@
                 "start": 384,
                 "end": 385,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 388,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 391,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +150,9 @@
                               "start": 454,
                               "end": 455,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "===",
@@ -153,7 +161,9 @@
                             "start": 460,
                             "end": 461,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -161,14 +171,18 @@
                           "start": 464,
                           "end": 470,
                           "value": "even",
-                          "raw": "'even'"
+                          "raw": "'even'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "alternate": {
                           "type": "Literal",
                           "start": 473,
                           "end": 478,
                           "value": "odd",
-                          "raw": "'odd'"
+                          "raw": "'odd'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -233,7 +247,9 @@
             "start": 522,
             "end": 526,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -62,14 +62,18 @@
             "start": 276,
             "end": 277,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 279,
             "end": 293,
             "value": "Math.hypot()",
-            "raw": "'Math.hypot()'"
+            "raw": "'Math.hypot()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

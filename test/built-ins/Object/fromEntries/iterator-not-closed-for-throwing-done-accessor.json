@@ -44,7 +44,9 @@
             "start": 931,
             "end": 936,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -259,7 +261,9 @@
                                             "start": 1194,
                                             "end": 1218,
                                             "value": "should not call return",
-                                            "raw": "'should not call return'"
+                                            "raw": "'should not call return'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }

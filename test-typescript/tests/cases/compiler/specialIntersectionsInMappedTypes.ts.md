@@ -51,7 +51,9 @@ __ESTREE_TEST__:PASS:
               "start": 55,
               "end": 61,
               "raw": "\"left\"",
-              "value": "left"
+              "value": "left",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -63,7 +65,9 @@ __ESTREE_TEST__:PASS:
               "start": 64,
               "end": 72,
               "raw": "\"center\"",
-              "value": "center"
+              "value": "center",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -75,7 +79,9 @@ __ESTREE_TEST__:PASS:
               "start": 75,
               "end": 82,
               "raw": "\"right\"",
-              "value": "right"
+              "value": "right",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -205,7 +211,9 @@ __ESTREE_TEST__:PASS:
                   "start": 164,
                   "end": 176,
                   "raw": "\"align-left\"",
-                  "value": "align-left"
+                  "value": "align-left",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -231,7 +239,9 @@ __ESTREE_TEST__:PASS:
                   "start": 190,
                   "end": 204,
                   "raw": "\"align-center\"",
-                  "value": "align-center"
+                  "value": "align-center",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -257,7 +267,9 @@ __ESTREE_TEST__:PASS:
                   "start": 217,
                   "end": 230,
                   "raw": "\"align-right\"",
-                  "value": "align-right"
+                  "value": "align-right",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -283,7 +295,9 @@ __ESTREE_TEST__:PASS:
                   "start": 243,
                   "end": 256,
                   "raw": "\"align-other\"",
-                  "value": "align-other"
+                  "value": "align-other",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

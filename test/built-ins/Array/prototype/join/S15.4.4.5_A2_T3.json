@@ -123,7 +123,9 @@
           "start": 423,
           "end": 426,
           "value": 4.5,
-          "raw": "4.5"
+          "raw": "4.5",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -167,7 +169,9 @@
           "start": 447,
           "end": 452,
           "value": ",,,",
-          "raw": "\",,,\""
+          "raw": "\",,,\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -199,7 +203,9 @@
                     "start": 481,
                     "end": 582,
                     "value": "#1: var obj = {}; obj.length = 4.5; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: ",
-                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: '"
+                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -265,7 +271,9 @@
             "start": 607,
             "end": 608,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -302,7 +310,9 @@
             "start": 627,
             "end": 628,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -312,7 +322,9 @@
           "start": 632,
           "end": 633,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -340,7 +352,9 @@
             "start": 639,
             "end": 640,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -350,7 +364,9 @@
           "start": 644,
           "end": 648,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -394,7 +410,9 @@
           "start": 669,
           "end": 675,
           "value": ",1,,",
-          "raw": "\",1,,\""
+          "raw": "\",1,,\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -426,7 +444,9 @@
                     "start": 704,
                     "end": 853,
                     "value": "#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: ",
-                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: '"
+                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -501,7 +521,9 @@
           "start": 893,
           "end": 896,
           "value": 4.5,
-          "raw": "4.5"
+          "raw": "4.5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -533,7 +555,9 @@
                     "start": 925,
                     "end": 1083,
                     "value": "#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === 4.5. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === 4.5. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.length = 4.5; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === 4.5. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -686,7 +710,9 @@
                 "start": 1171,
                 "end": 1174,
                 "value": 4.5,
-                "raw": "4.5"
+                "raw": "4.5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -770,7 +796,9 @@
           "start": 1212,
           "end": 1217,
           "value": ",,,",
-          "raw": "\",,,\""
+          "raw": "\",,,\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -802,7 +830,9 @@
                     "start": 1246,
                     "end": 1370,
                     "value": "#4: var obj = {}; var x = new Number(4.5); obj.length = x; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: ",
-                    "raw": "'#4: var obj = {}; var x = new Number(4.5); obj.length = x; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: '"
+                    "raw": "'#4: var obj = {}; var x = new Number(4.5); obj.length = x; obj.join = Array.prototype.join; obj.join() === \",,,\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -868,7 +898,9 @@
             "start": 1395,
             "end": 1396,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -905,7 +937,9 @@
             "start": 1415,
             "end": 1416,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -915,7 +949,9 @@
           "start": 1420,
           "end": 1421,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -943,7 +979,9 @@
             "start": 1427,
             "end": 1428,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -953,7 +991,9 @@
           "start": 1432,
           "end": 1436,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -997,7 +1037,9 @@
           "start": 1457,
           "end": 1463,
           "value": ",1,,",
-          "raw": "\",1,,\""
+          "raw": "\",1,,\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1029,7 +1071,9 @@
                     "start": 1492,
                     "end": 1664,
                     "value": "#5: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: ",
-                    "raw": "'#5: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: '"
+                    "raw": "'#5: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join() === \",1,,\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1135,7 +1179,9 @@
                     "start": 1734,
                     "end": 1913,
                     "value": "#6: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === x. Actual: ",
-                    "raw": "'#6: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === x. Actual: '"
+                    "raw": "'#6: var obj = {}; var x = new Number(4.5); obj.length = x; obj[0] = undefined; obj[1] = 1; obj[2] = null; obj.join = Array.prototype.join; obj.join(); obj.length === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

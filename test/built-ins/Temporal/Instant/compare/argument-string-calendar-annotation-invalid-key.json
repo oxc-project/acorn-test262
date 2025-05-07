@@ -48,6 +48,7 @@
                 "end": 283,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -86,14 +87,18 @@
                     "start": 315,
                     "end": 348,
                     "value": "1970-01-01T00:00Z[U-CA=iso8601]",
-                    "raw": "\"1970-01-01T00:00Z[U-CA=iso8601]\""
+                    "raw": "\"1970-01-01T00:00Z[U-CA=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 350,
                     "end": 375,
                     "value": "invalid capitalized key",
-                    "raw": "\"invalid capitalized key\""
+                    "raw": "\"invalid capitalized key\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -107,14 +112,18 @@
                     "start": 381,
                     "end": 414,
                     "value": "1970-01-01T00:00Z[u-CA=iso8601]",
-                    "raw": "\"1970-01-01T00:00Z[u-CA=iso8601]\""
+                    "raw": "\"1970-01-01T00:00Z[u-CA=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 416,
                     "end": 451,
                     "value": "invalid partially-capitalized key",
-                    "raw": "\"invalid partially-capitalized key\""
+                    "raw": "\"invalid partially-capitalized key\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -128,14 +137,18 @@
                     "start": 457,
                     "end": 485,
                     "value": "1970-01-01T00:00Z[FOO=bar]",
-                    "raw": "\"1970-01-01T00:00Z[FOO=bar]\""
+                    "raw": "\"1970-01-01T00:00Z[FOO=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 487,
                     "end": 525,
                     "value": "invalid capitalized unrecognized key",
-                    "raw": "\"invalid capitalized unrecognized key\""
+                    "raw": "\"invalid capitalized unrecognized key\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

@@ -49,63 +49,81 @@
                 "start": 325,
                 "end": 335,
                 "value": "language",
-                "raw": "\"language\""
+                "raw": "\"language\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 347,
                 "value": "script",
-                "raw": "\"script\""
+                "raw": "\"script\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 359,
                 "value": "region",
-                "raw": "\"region\""
+                "raw": "\"region\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 373,
                 "value": "calendar",
-                "raw": "\"calendar\""
+                "raw": "\"calendar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 377,
                 "end": 388,
                 "value": "collation",
-                "raw": "\"collation\""
+                "raw": "\"collation\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 403,
                 "value": "hourCycle",
-                "raw": "\"hourCycle\""
+                "raw": "\"hourCycle\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 418,
                 "value": "caseFirst",
-                "raw": "\"caseFirst\""
+                "raw": "\"caseFirst\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 431,
                 "value": "numeric",
-                "raw": "\"numeric\""
+                "raw": "\"numeric\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 452,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -230,7 +248,9 @@
                               "start": 547,
                               "end": 551,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

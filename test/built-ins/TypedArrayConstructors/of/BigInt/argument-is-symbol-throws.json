@@ -34,7 +34,9 @@
                 "start": 1142,
                 "end": 1145,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

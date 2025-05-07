@@ -56,14 +56,18 @@
             "start": 791,
             "end": 795,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 848,
             "value": "isConstructor(SharedArrayBuffer) must return true",
-            "raw": "'isConstructor(SharedArrayBuffer) must return true'"
+            "raw": "'isConstructor(SharedArrayBuffer) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -89,7 +93,9 @@
             "start": 873,
             "end": 874,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

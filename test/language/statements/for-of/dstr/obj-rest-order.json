@@ -128,7 +128,9 @@
                               "start": 1164,
                               "end": 1167,
                               "value": "z",
-                              "raw": "'z'"
+                              "raw": "'z'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -199,7 +201,9 @@
                               "start": 1193,
                               "end": 1196,
                               "value": "a",
-                              "raw": "'a'"
+                              "raw": "'a'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -255,7 +259,9 @@
             "start": 1228,
             "end": 1229,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -322,7 +328,9 @@
                               "start": 1257,
                               "end": 1258,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -351,7 +359,9 @@
                   "start": 1275,
                   "end": 1279,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -411,7 +421,9 @@
                 "start": 1316,
                 "end": 1321,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -481,7 +493,9 @@
                               "start": 1350,
                               "end": 1363,
                               "value": "Symbol(foo)",
-                              "raw": "\"Symbol(foo)\""
+                              "raw": "\"Symbol(foo)\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -510,7 +524,9 @@
                   "start": 1380,
                   "end": 1384,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -540,7 +556,9 @@
             "start": 1404,
             "end": 1405,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -631,28 +649,36 @@
                       "start": 1463,
                       "end": 1464,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1466,
                       "end": 1469,
                       "value": "z",
-                      "raw": "'z'"
+                      "raw": "'z'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1471,
                       "end": 1474,
                       "value": "a",
-                      "raw": "'a'"
+                      "raw": "'a'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1476,
                       "end": 1489,
                       "value": "Symbol(foo)",
-                      "raw": "\"Symbol(foo)\""
+                      "raw": "\"Symbol(foo)\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -739,7 +765,9 @@
                   "start": 1538,
                   "end": 1539,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -765,7 +793,9 @@
                 "start": 1555,
                 "end": 1556,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -811,7 +841,9 @@
             "start": 1587,
             "end": 1588,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

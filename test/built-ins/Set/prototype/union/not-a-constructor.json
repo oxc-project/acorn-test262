@@ -82,14 +82,18 @@
             "start": 387,
             "end": 392,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 450,
             "value": "isConstructor(Set.prototype.union) must return false",
-            "raw": "\"isConstructor(Set.prototype.union) must return false\""
+            "raw": "\"isConstructor(Set.prototype.union) must return false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

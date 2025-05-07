@@ -88,7 +88,9 @@
             "start": 250,
             "end": 295,
             "value": "Math.tanh produces incorrect output for NaN",
-            "raw": "\"Math.tanh produces incorrect output for NaN\""
+            "raw": "\"Math.tanh produces incorrect output for NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +181,9 @@
               "start": 353,
               "end": 354,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -187,7 +191,9 @@
             "start": 358,
             "end": 416,
             "value": "Math.tanh should produce -1 for Number.NEGATIVE_INFINITY",
-            "raw": "\"Math.tanh should produce -1 for Number.NEGATIVE_INFINITY\""
+            "raw": "\"Math.tanh should produce -1 for Number.NEGATIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,14 +278,18 @@
             "start": 473,
             "end": 474,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 535,
             "value": "Math.tanh should produce 1 for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.tanh should produce 1 for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.tanh should produce 1 for Number.POSITIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +332,9 @@
               "start": 555,
               "end": 556,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -360,7 +372,9 @@
                     "start": 570,
                     "end": 571,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -391,7 +405,9 @@
             "start": 602,
             "end": 638,
             "value": "Math.tanh should produce -0 for -0",
-            "raw": "\"Math.tanh should produce -0 for -0\""
+            "raw": "\"Math.tanh should produce -0 for -0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -434,7 +450,9 @@
               "start": 658,
               "end": 659,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -466,7 +484,9 @@
                   "start": 672,
                   "end": 673,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -496,7 +516,9 @@
             "start": 704,
             "end": 740,
             "value": "Math.tanh should produce +0 for +0",
-            "raw": "\"Math.tanh should produce +0 for +0\""
+            "raw": "\"Math.tanh should produce +0 for +0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

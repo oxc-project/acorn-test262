@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": "y"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,7 +67,9 @@
           "start": 739,
           "end": 740,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -140,14 +143,18 @@
                 "start": 777,
                 "end": 782,
                 "value": "aaa",
-                "raw": "'aaa'"
+                "raw": "'aaa'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 784,
                 "end": 787,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -157,7 +164,9 @@
             "start": 790,
             "end": 795,
             "value": "axa",
-            "raw": "'axa'"
+            "raw": "'axa'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -94,7 +94,9 @@
                             "start": 2004,
                             "end": 2008,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

@@ -108,7 +108,9 @@
                               "start": 1519,
                               "end": 1530,
                               "value": "sourceKey",
-                              "raw": "\"sourceKey\""
+                              "raw": "\"sourceKey\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -123,7 +125,9 @@
                           "start": 1544,
                           "end": 1547,
                           "value": "p",
-                          "raw": "\"p\""
+                          "raw": "\"p\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -217,7 +221,9 @@
                               "start": 1597,
                               "end": 1609,
                               "value": "get source",
-                              "raw": "\"get source\""
+                              "raw": "\"get source\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -359,7 +365,9 @@
                                     "start": 1696,
                                     "end": 1707,
                                     "value": "binding::",
-                                    "raw": "\"binding::\""
+                                    "raw": "\"binding::\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -382,7 +390,9 @@
                               "start": 1726,
                               "end": 1731,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -418,7 +428,9 @@
             "start": 1761,
             "end": 1762,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -564,42 +576,54 @@
                 "start": 1890,
                 "end": 1907,
                 "value": "binding::source",
-                "raw": "\"binding::source\""
+                "raw": "\"binding::source\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1911,
                 "end": 1931,
                 "value": "binding::sourceKey",
-                "raw": "\"binding::sourceKey\""
+                "raw": "\"binding::sourceKey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1935,
                 "end": 1946,
                 "value": "sourceKey",
-                "raw": "\"sourceKey\""
+                "raw": "\"sourceKey\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1950,
                 "end": 1970,
                 "value": "binding::varTarget",
-                "raw": "\"binding::varTarget\""
+                "raw": "\"binding::varTarget\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1974,
                 "end": 1986,
                 "value": "get source",
-                "raw": "\"get source\""
+                "raw": "\"get source\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1990,
                 "end": 2013,
                 "value": "binding::defaultValue",
-                "raw": "\"binding::defaultValue\""
+                "raw": "\"binding::defaultValue\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

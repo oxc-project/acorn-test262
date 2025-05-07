@@ -23,7 +23,9 @@
             "start": 2184,
             "end": 2251,
             "value": "Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.",
-            "raw": "'Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.'"
+            "raw": "'Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,14 +95,18 @@
               "start": 2291,
               "end": 2300,
               "value": "ninguém",
-              "raw": "'ninguém'"
+              "raw": "'ninguém'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2302,
               "end": 2305,
               "value": "$",
-              "raw": "'$'"
+              "raw": "'$'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -146,7 +152,9 @@
             "start": 2333,
             "end": 2394,
             "value": "Ninguém é igual a $. Todo o ser humano é um estranho ímpar.",
-            "raw": "'Ninguém é igual a $. Todo o ser humano é um estranho ímpar.'"
+            "raw": "'Ninguém é igual a $. Todo o ser humano é um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -196,14 +204,18 @@
               "start": 2422,
               "end": 2425,
               "value": "é",
-              "raw": "'é'"
+              "raw": "'é'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2427,
               "end": 2430,
               "value": "$",
-              "raw": "'$'"
+              "raw": "'$'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -249,7 +261,9 @@
             "start": 2458,
             "end": 2525,
             "value": "Ningu$m $ igual a ningu$m. Todo o ser humano $ um estranho ímpar.",
-            "raw": "'Ningu$m $ igual a ningu$m. Todo o ser humano $ um estranho ímpar.'"
+            "raw": "'Ningu$m $ igual a ningu$m. Todo o ser humano $ um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,14 +313,18 @@
               "start": 2553,
               "end": 2556,
               "value": "é",
-              "raw": "'é'"
+              "raw": "'é'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2558,
               "end": 2563,
               "value": "$ -",
-              "raw": "'$ -'"
+              "raw": "'$ -'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -352,7 +370,9 @@
             "start": 2591,
             "end": 2666,
             "value": "Ningu$ -m $ - igual a ningu$ -m. Todo o ser humano $ - um estranho ímpar.",
-            "raw": "'Ningu$ -m $ - igual a ningu$ -m. Todo o ser humano $ - um estranho ímpar.'"
+            "raw": "'Ningu$ -m $ - igual a ningu$ -m. Todo o ser humano $ - um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,14 +422,18 @@
               "start": 2694,
               "end": 2697,
               "value": "é",
-              "raw": "'é'"
+              "raw": "'é'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 2699,
               "end": 2704,
               "value": "$$$",
-              "raw": "'$$$'"
+              "raw": "'$$$'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -455,7 +479,9 @@
             "start": 2732,
             "end": 2803,
             "value": "Ningu$$m $$ igual a ningu$$m. Todo o ser humano $$ um estranho ímpar.",
-            "raw": "'Ningu$$m $$ igual a ningu$$m. Todo o ser humano $$ um estranho ímpar.'"
+            "raw": "'Ningu$$m $$ igual a ningu$$m. Todo o ser humano $$ um estranho ímpar.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

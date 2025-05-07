@@ -89,7 +89,9 @@
                             "start": 352,
                             "end": 369,
                             "value": "ownDataProperty",
-                            "raw": "\"ownDataProperty\""
+                            "raw": "\"ownDataProperty\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -158,14 +160,18 @@
             "start": 409,
             "end": 426,
             "value": "ownDataProperty",
-            "raw": "\"ownDataProperty\""
+            "raw": "\"ownDataProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 441,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

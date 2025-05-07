@@ -23,7 +23,9 @@
             "start": 316,
             "end": 320,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -58,7 +60,9 @@
                   "start": 354,
                   "end": 424,
                   "value": "'use strict'; var public = 1; var anotherVariableNotReserveWord = 2;",
-                  "raw": "\"'use strict'; var public = 1; var anotherVariableNotReserveWord = 2;\""
+                  "raw": "\"'use strict'; var public = 1; var anotherVariableNotReserveWord = 2;\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -147,7 +151,9 @@
             "start": 516,
             "end": 544,
             "value": "err instanceof SyntaxError",
-            "raw": "'err instanceof SyntaxError'"
+            "raw": "'err instanceof SyntaxError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,14 +205,18 @@
             "start": 579,
             "end": 590,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 607,
             "value": "typeof public",
-            "raw": "'typeof public'"
+            "raw": "'typeof public'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,14 +268,18 @@
             "start": 665,
             "end": 676,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 716,
             "value": "typeof anotherVariableNotReserveWord",
-            "raw": "'typeof anotherVariableNotReserveWord'"
+            "raw": "'typeof anotherVariableNotReserveWord'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -114,7 +114,9 @@
             "start": 301,
             "end": 311,
             "value": 4294967294,
-            "raw": "4294967294"
+            "raw": "4294967294",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -124,7 +126,9 @@
           "start": 315,
           "end": 318,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -167,7 +171,9 @@
             "start": 334,
             "end": 335,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -268,7 +274,9 @@
                     "start": 409,
                     "end": 533,
                     "value": "#1: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop() === undefined. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop() === undefined. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop() === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -323,7 +331,9 @@
           "start": 566,
           "end": 567,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -355,7 +365,9 @@
                     "start": 596,
                     "end": 724,
                     "value": "#2: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop(); obj.length === 0. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop(); obj.length === 0. Actual: '"
+                    "raw": "'#2: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop(); obj.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -413,7 +425,9 @@
             "start": 753,
             "end": 763,
             "value": 4294967294,
-            "raw": "4294967294"
+            "raw": "4294967294",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -424,7 +438,9 @@
           "start": 769,
           "end": 772,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -456,7 +472,9 @@
                     "start": 801,
                     "end": 936,
                     "value": "#3: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop(); obj[4294967294] === \"x\". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop(); obj[4294967294] === \"x\". Actual: '"
+                    "raw": "'#3: var obj = {}; obj.pop = Array.prototype.pop; obj[4294967294] = \"x\"; obj.length = -1; obj.pop(); obj[4294967294] === \"x\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -478,7 +496,9 @@
                         "start": 944,
                         "end": 954,
                         "value": 4294967294,
-                        "raw": "4294967294"
+                        "raw": "4294967294",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

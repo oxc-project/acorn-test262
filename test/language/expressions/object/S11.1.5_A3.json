@@ -35,14 +35,18 @@
                   "start": 351,
                   "end": 352,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 355,
                   "end": 356,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 358,
                   "end": 361,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 364,
                   "end": 367,
                   "value": "x",
-                  "raw": "\"x\""
+                  "raw": "\"x\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -119,7 +127,9 @@
             "start": 400,
             "end": 401,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -130,7 +140,9 @@
           "start": 407,
           "end": 408,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -162,7 +174,9 @@
                     "start": 437,
                     "end": 509,
                     "value": "#1: var object = {0 : 1; \"1\" : \"x\"; o : {}}; object[0] === 1. Actual: ",
-                    "raw": "'#1: var object = {0 : 1; \"1\" : \"x\"; o : {}}; object[0] === 1. Actual: '"
+                    "raw": "'#1: var object = {0 : 1; \"1\" : \"x\"; o : {}}; object[0] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -184,7 +198,9 @@
                         "start": 520,
                         "end": 521,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -221,7 +237,9 @@
             "start": 550,
             "end": 553,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -232,7 +250,9 @@
           "start": 559,
           "end": 562,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -264,7 +284,9 @@
                     "start": 591,
                     "end": 667,
                     "value": "#2: var object = {0 : 1; \"1\" : \"x\"; o : {}}; object[\"1\"] === \"x\". Actual: ",
-                    "raw": "'#2: var object = {0 : 1; \"1\" : \"x\"; o : {}}; object[\"1\"] === \"x\". Actual: '"
+                    "raw": "'#2: var object = {0 : 1; \"1\" : \"x\"; o : {}}; object[\"1\"] === \"x\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -286,7 +308,9 @@
                         "start": 678,
                         "end": 681,
                         "value": "1",
-                        "raw": "\"1\""
+                        "raw": "\"1\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -340,7 +364,9 @@
           "start": 723,
           "end": 731,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -372,7 +398,9 @@
                     "start": 760,
                     "end": 845,
                     "value": "#1: var object = {0 : 1; \"1\" : \"x\"; o : {}}; typeof object.o === \"object\". Actual: ",
-                    "raw": "'#1: var object = {0 : 1; \"1\" : \"x\"; o : {}}; typeof object.o === \"object\". Actual: '"
+                    "raw": "'#1: var object = {0 : 1; \"1\" : \"x\"; o : {}}; typeof object.o === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

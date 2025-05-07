@@ -42,7 +42,9 @@
                   "start": 343,
                   "end": 387,
                   "value": "'use strict'; function _10_4_2_1_4_fun(){}",
-                  "raw": "\"'use strict'; function _10_4_2_1_4_fun(){}\""
+                  "raw": "\"'use strict'; function _10_4_2_1_4_fun(){}\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +96,9 @@
                   "start": 439,
                   "end": 450,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

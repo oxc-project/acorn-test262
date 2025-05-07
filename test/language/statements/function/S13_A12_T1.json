@@ -23,7 +23,9 @@
           "start": 354,
           "end": 370,
           "value": "Letov is alive",
-          "raw": "\"Letov is alive\""
+          "raw": "\"Letov is alive\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -107,7 +109,9 @@
                   "start": 547,
                   "end": 582,
                   "value": "#1: delete __func returning false",
-                  "raw": "'#1: delete __func returning false'"
+                  "raw": "'#1: delete __func returning false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -174,7 +178,9 @@
                     "start": 809,
                     "end": 855,
                     "value": "#2: __func() === ALIVE. Actual: __func() ===",
-                    "raw": "'#2: __func() === ALIVE. Actual: __func() ==='"
+                    "raw": "'#2: __func() === ALIVE. Actual: __func() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

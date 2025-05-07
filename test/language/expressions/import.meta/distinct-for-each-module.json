@@ -48,7 +48,9 @@
         "start": 663,
         "end": 702,
         "value": "./distinct-for-each-module_FIXTURE.js",
-        "raw": "\"./distinct-for-each-module_FIXTURE.js\""
+        "raw": "\"./distinct-for-each-module_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -108,7 +110,9 @@
             "start": 830,
             "end": 879,
             "value": "foreign import.meta accessed via import binding",
-            "raw": "\"foreign import.meta accessed via import binding\""
+            "raw": "\"foreign import.meta accessed via import binding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -177,7 +181,9 @@
             "start": 946,
             "end": 994,
             "value": "foreign import.meta accessed via function call",
-            "raw": "\"foreign import.meta accessed via function call\""
+            "raw": "\"foreign import.meta accessed via function call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +241,9 @@
             "start": 1190,
             "end": 1273,
             "value": "import.meta accessed via import binding is identical to the one accessed via call",
-            "raw": "\"import.meta accessed via import binding is identical to the one accessed via call\""
+            "raw": "\"import.meta accessed via import binding is identical to the one accessed via call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

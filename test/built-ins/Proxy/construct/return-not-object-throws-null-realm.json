@@ -134,7 +134,9 @@
                             "start": 627,
                             "end": 656,
                             "value": "target should not be called",
-                            "raw": "'target should not be called'"
+                            "raw": "'target should not be called'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -183,7 +185,9 @@
                               "start": 701,
                               "end": 705,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

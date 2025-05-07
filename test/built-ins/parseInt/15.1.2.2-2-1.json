@@ -47,7 +47,9 @@
                 "start": 319,
                 "end": 321,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 329,
             "end": 359,
             "value": "parseInt(\"\") must return NaN",
-            "raw": "'parseInt(\"\") must return NaN'"
+            "raw": "'parseInt(\"\") must return NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

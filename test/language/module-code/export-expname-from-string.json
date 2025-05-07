@@ -25,7 +25,9 @@
         "start": 449,
         "end": 482,
         "value": "./export-expname-from-string.js",
-        "raw": "\"./export-expname-from-string.js\""
+        "raw": "\"./export-expname-from-string.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -44,14 +46,18 @@
             "start": 493,
             "end": 496,
             "value": "☿",
-            "raw": "\"☿\""
+            "raw": "\"☿\"",
+            "regex": null,
+            "bigint": null
           },
           "exported": {
             "type": "Literal",
             "start": 493,
             "end": 496,
             "value": "☿",
-            "raw": "\"☿\""
+            "raw": "\"☿\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +66,9 @@
         "start": 504,
         "end": 533,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -113,7 +121,9 @@
                 "start": 567,
                 "end": 570,
                 "value": "☿",
-                "raw": "\"☿\""
+                "raw": "\"☿\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -124,7 +134,9 @@
             "start": 573,
             "end": 583,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

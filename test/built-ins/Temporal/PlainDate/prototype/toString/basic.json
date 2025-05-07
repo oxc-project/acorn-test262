@@ -47,21 +47,27 @@
                 "start": 271,
                 "end": 275,
                 "value": 1976,
-                "raw": "1976"
+                "raw": "1976",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 279,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 281,
                 "end": 283,
                 "value": 18,
-                "raw": "18"
+                "raw": "18",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -128,7 +134,9 @@
             "start": 321,
             "end": 333,
             "value": "1976-11-18",
-            "raw": "\"1976-11-18\""
+            "raw": "\"1976-11-18\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,21 +186,27 @@
                 "start": 374,
                 "end": 378,
                 "value": 1914,
-                "raw": "1914"
+                "raw": "1914",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 385,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -259,7 +273,9 @@
             "start": 423,
             "end": 435,
             "value": "1914-02-23",
-            "raw": "\"1914-02-23\""
+            "raw": "\"1914-02-23\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -309,21 +325,27 @@
                 "start": 476,
                 "end": 480,
                 "value": 1996,
-                "raw": "1996"
+                "raw": "1996",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 487,
                 "value": 29,
-                "raw": "29"
+                "raw": "29",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -390,7 +412,9 @@
             "start": 525,
             "end": 537,
             "value": "1996-02-29",
-            "raw": "\"1996-02-29\""
+            "raw": "\"1996-02-29\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 123,
               "end": 128,
               "raw": "\"asd\"",
-              "value": "asd"
+              "value": "asd",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,

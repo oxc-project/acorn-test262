@@ -50,7 +50,9 @@
                           "start": 486,
                           "end": 496,
                           "value": "gnulluna",
-                          "raw": "\"gnulluna\""
+                          "raw": "\"gnulluna\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -74,7 +76,9 @@
                 "start": 509,
                 "end": 513,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -84,7 +88,9 @@
             "start": 515,
             "end": 516,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -95,7 +101,9 @@
           "start": 522,
           "end": 528,
           "value": "null",
-          "raw": "\"null\""
+          "raw": "\"null\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -127,7 +135,9 @@
                     "start": 557,
                     "end": 630,
                     "value": "#1: function(){return \"gnulluna\"}().match(null)[0] === \"null\". Actual: ",
-                    "raw": "'#1: function(){return \"gnulluna\"}().match(null)[0] === \"null\". Actual: '"
+                    "raw": "'#1: function(){return \"gnulluna\"}().match(null)[0] === \"null\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -169,7 +179,9 @@
                                     "start": 657,
                                     "end": 667,
                                     "value": "gnulluna",
-                                    "raw": "\"gnulluna\""
+                                    "raw": "\"gnulluna\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -193,7 +205,9 @@
                           "start": 680,
                           "end": 684,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -203,7 +217,9 @@
                       "start": 686,
                       "end": 687,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

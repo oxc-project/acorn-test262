@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 94,
         "raw": "'prop-types'",
-        "value": "prop-types"
+        "value": "prop-types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 114,
         "end": 121,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -187,7 +191,9 @@ __ESTREE_TEST__:PASS:
                   "start": 201,
                   "end": 206,
                   "raw": "false",
-                  "value": false
+                  "value": false,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

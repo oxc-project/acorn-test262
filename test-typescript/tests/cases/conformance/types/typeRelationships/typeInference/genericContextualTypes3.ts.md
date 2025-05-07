@@ -560,7 +560,9 @@ __ESTREE_TEST__:PASS:
                   "start": 348,
                   "end": 363,
                   "raw": "\"xstate.assign\"",
-                  "value": "xstate.assign"
+                  "value": "xstate.assign",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -1172,7 +1174,9 @@ __ESTREE_TEST__:PASS:
                         "start": 748,
                         "end": 749,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

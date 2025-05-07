@@ -64,7 +64,9 @@
                   "start": 484,
                   "end": 542,
                   "value": "#1.1: var __result = __func() lead to throwing exception",
-                  "raw": "\"#1.1: var __result = __func() lead to throwing exception\""
+                  "raw": "\"#1.1: var __result = __func() lead to throwing exception\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -123,7 +125,9 @@
                   "start": 593,
                   "end": 597,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -155,7 +159,9 @@
                             "start": 628,
                             "end": 675,
                             "value": "#1.2: func should throw a TypeError  Actual: ",
-                            "raw": "'#1.2: func should throw a TypeError  Actual: '"
+                            "raw": "'#1.2: func should throw a TypeError  Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -220,7 +226,9 @@
                     "start": 807,
                     "end": 812,
                     "value": "ONE",
-                    "raw": "\"ONE\""
+                    "raw": "\"ONE\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -282,7 +290,9 @@
           "start": 948,
           "end": 953,
           "value": "ONE",
-          "raw": "\"ONE\""
+          "raw": "\"ONE\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -314,7 +324,9 @@
                     "start": 981,
                     "end": 1027,
                     "value": "#2: __result === \"ONE\". Actual: __result ===",
-                    "raw": "'#2: __result === \"ONE\". Actual: __result ==='"
+                    "raw": "'#2: __result === \"ONE\". Actual: __result ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -369,7 +381,9 @@
                   "start": 1152,
                   "end": 1157,
                   "value": "TWO",
-                  "raw": "\"TWO\""
+                  "raw": "\"TWO\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -429,7 +443,9 @@
           "start": 1293,
           "end": 1298,
           "value": "TWO",
-          "raw": "\"TWO\""
+          "raw": "\"TWO\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -461,7 +477,9 @@
                     "start": 1326,
                     "end": 1372,
                     "value": "#3: __result === \"TWO\". Actual: __result ===",
-                    "raw": "'#3: __result === \"TWO\". Actual: __result ==='"
+                    "raw": "'#3: __result === \"TWO\". Actual: __result ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

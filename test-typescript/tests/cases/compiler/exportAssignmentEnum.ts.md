@@ -125,7 +125,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 49,
           "raw": "\"./exportAssignmentEnum_A\"",
-          "value": "./exportAssignmentEnum_A"
+          "value": "./exportAssignmentEnum_A",
+          "regex": null,
+          "bigint": null
         }
       }
     },

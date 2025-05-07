@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": "(.+).*\\1",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -65,7 +66,9 @@
                 "start": 1028,
                 "end": 1048,
                 "value": "𐀀\ud800",
-                "raw": "'\\ud800\\udc00\\ud800'"
+                "raw": "'\\ud800\\udc00\\ud800'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -75,7 +78,9 @@
             "start": 1051,
             "end": 1056,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

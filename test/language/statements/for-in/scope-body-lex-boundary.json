@@ -23,7 +23,9 @@
             "start": 984,
             "end": 993,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -108,7 +110,9 @@
               "start": 1044,
               "end": 1045,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init"
           },
@@ -130,7 +134,9 @@
               "start": 1050,
               "end": 1051,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init"
           }
@@ -345,7 +351,9 @@
                 "start": 1382,
                 "end": 1385,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "||",
@@ -372,7 +380,9 @@
                 "start": 1406,
                 "end": 1409,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -381,7 +391,9 @@
             "start": 1413,
             "end": 1449,
             "value": "First binding is either \"a\" or \"b\"",
-            "raw": "'First binding is either \"a\" or \"b\"'"
+            "raw": "'First binding is either \"a\" or \"b\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -429,7 +441,9 @@
                 "start": 1481,
                 "end": 1484,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "||",
@@ -456,7 +470,9 @@
                 "start": 1506,
                 "end": 1509,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -465,7 +481,9 @@
             "start": 1513,
             "end": 1550,
             "value": "Second binding is either \"a\" or \"b\"",
-            "raw": "'Second binding is either \"a\" or \"b\"'"
+            "raw": "'Second binding is either \"a\" or \"b\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

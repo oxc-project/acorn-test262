@@ -34,7 +34,9 @@
               "start": 326,
               "end": 328,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -80,14 +82,18 @@
             "start": 361,
             "end": 363,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 365,
             "end": 378,
             "value": "newProperty",
-            "raw": "'newProperty'"
+            "raw": "'newProperty'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

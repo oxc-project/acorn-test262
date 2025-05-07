@@ -37,6 +37,7 @@
             "end": 817,
             "value": null,
             "raw": "0o0_10n",
+            "regex": null,
             "bigint": "0o010"
           },
           {
@@ -45,6 +46,7 @@
             "end": 825,
             "value": null,
             "raw": "0o010n",
+            "regex": null,
             "bigint": "0o010"
           }
         ],
@@ -85,6 +87,7 @@
             "end": 852,
             "value": null,
             "raw": "0O0_10n",
+            "regex": null,
             "bigint": "0O010"
           },
           {
@@ -93,6 +96,7 @@
             "end": 860,
             "value": null,
             "raw": "0O010n",
+            "regex": null,
             "bigint": "0O010"
           }
         ],

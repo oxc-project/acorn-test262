@@ -98,7 +98,9 @@
             "start": 554,
             "end": 626,
             "value": "function \\u0061(\\u{62}, \\u0063) { \\u0062 = \\u{00063}; return b; }",
-            "raw": "\"function \\\\u0061(\\\\u{62}, \\\\u0063) { \\\\u0062 = \\\\u{00063}; return b; }\""
+            "raw": "\"function \\\\u0061(\\\\u{62}, \\\\u0063) { \\\\u0062 = \\\\u{00063}; return b; }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

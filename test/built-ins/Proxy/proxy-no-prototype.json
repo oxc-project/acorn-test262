@@ -85,7 +85,9 @@
                   "start": 423,
                   "end": 434,
                   "value": "prototype",
-                  "raw": "'prototype'"
+                  "raw": "'prototype'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -96,7 +98,9 @@
             "start": 439,
             "end": 493,
             "value": "Proxy constructor does not have a prototype property",
-            "raw": "\"Proxy constructor does not have a prototype property\""
+            "raw": "\"Proxy constructor does not have a prototype property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

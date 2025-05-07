@@ -80,6 +80,7 @@
                     "end": 348,
                     "value": null,
                     "raw": "2n",
+                    "regex": null,
                     "bigint": "2"
                   },
                   "operator": "**",
@@ -89,6 +90,7 @@
                     "end": 356,
                     "value": null,
                     "raw": "128n",
+                    "regex": null,
                     "bigint": "128"
                   }
                 }
@@ -100,7 +102,9 @@
             "start": 361,
             "end": 373,
             "value": "2n ** 128n",
-            "raw": "\"2n ** 128n\""
+            "raw": "\"2n ** 128n\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -193,6 +197,7 @@
                         "end": 440,
                         "value": null,
                         "raw": "2n",
+                        "regex": null,
                         "bigint": "2"
                       },
                       "operator": "**",
@@ -202,6 +207,7 @@
                         "end": 448,
                         "value": null,
                         "raw": "128n",
+                        "regex": null,
                         "bigint": "128"
                       }
                     }
@@ -215,7 +221,9 @@
             "start": 454,
             "end": 469,
             "value": "-(2n ** 128n)",
-            "raw": "\"-(2n ** 128n)\""
+            "raw": "\"-(2n ** 128n)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

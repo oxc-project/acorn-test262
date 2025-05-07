@@ -23,7 +23,9 @@
             "start": 471,
             "end": 472,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 490,
             "end": 491,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 511,
             "end": 512,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -129,7 +135,9 @@
                       "start": 551,
                       "end": 552,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -174,7 +182,9 @@
                             "start": 596,
                             "end": 597,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -231,7 +241,9 @@
                       "start": 657,
                       "end": 658,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -263,7 +275,9 @@
                       "start": 691,
                       "end": 692,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -290,7 +304,9 @@
                 "start": 715,
                 "end": 716,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -419,14 +435,18 @@
             "start": 787,
             "end": 788,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 790,
             "end": 816,
             "value": "`try` code path executed",
-            "raw": "'`try` code path executed'"
+            "raw": "'`try` code path executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -471,14 +491,18 @@
             "start": 847,
             "end": 848,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 884,
             "value": "`finally` code path not executed",
-            "raw": "'`finally` code path not executed'"
+            "raw": "'`finally` code path not executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -528,7 +552,9 @@
               "start": 909,
               "end": 911,
               "value": 45,
-              "raw": "45"
+              "raw": "45",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -587,14 +613,18 @@
             "start": 945,
             "end": 947,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 949,
             "end": 972,
             "value": "Second result `value`",
-            "raw": "'Second result `value`'"
+            "raw": "'Second result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -652,14 +682,18 @@
             "start": 1005,
             "end": 1009,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1038,
             "value": "Second result `done` flag",
-            "raw": "'Second result `done` flag'"
+            "raw": "'Second result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -704,14 +738,18 @@
             "start": 1069,
             "end": 1070,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1072,
             "end": 1102,
             "value": "`finally` code path executed",
-            "raw": "'`finally` code path executed'"
+            "raw": "'`finally` code path executed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -756,14 +794,18 @@
             "start": 1141,
             "end": 1142,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1209,
             "value": "statement following `yield` not executed (following `return`)",
-            "raw": "'statement following `yield` not executed (following `return`)'"
+            "raw": "'statement following `yield` not executed (following `return`)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -870,7 +912,9 @@
             "start": 1281,
             "end": 1324,
             "value": "Result `value` is undefined when complete",
-            "raw": "'Result `value` is undefined when complete'"
+            "raw": "'Result `value` is undefined when complete'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -928,14 +972,18 @@
             "start": 1361,
             "end": 1365,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1367,
             "end": 1411,
             "value": "Result `done` flag is `true` when complete",
-            "raw": "'Result `done` flag is `true` when complete'"
+            "raw": "'Result `done` flag is `true` when complete'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -980,14 +1028,18 @@
             "start": 1448,
             "end": 1449,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1451,
             "end": 1512,
             "value": "statement following `yield` not executed (once \"completed\")",
-            "raw": "'statement following `yield` not executed (once \"completed\")'"
+            "raw": "'statement following `yield` not executed (once \"completed\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

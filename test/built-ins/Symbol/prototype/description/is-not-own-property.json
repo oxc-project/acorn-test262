@@ -67,7 +67,9 @@
                 "start": 334,
                 "end": 347,
                 "value": "description",
-                "raw": "'description'"
+                "raw": "'description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -77,14 +79,18 @@
             "start": 352,
             "end": 357,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 415,
             "value": "Symbol().hasOwnProperty(\"description\") returns false",
-            "raw": "'Symbol().hasOwnProperty(\"description\") returns false'"
+            "raw": "'Symbol().hasOwnProperty(\"description\") returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

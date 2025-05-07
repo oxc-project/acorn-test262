@@ -49,14 +49,18 @@
             "start": 343,
             "end": 353,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 355,
             "end": 385,
             "value": "`typeof Set` is `'function'`",
-            "raw": "\"`typeof Set` is `'function'`\""
+            "raw": "\"`typeof Set` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

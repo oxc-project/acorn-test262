@@ -57,7 +57,9 @@
                 "start": 329,
                 "end": 334,
                 "value": "NaN",
-                "raw": "'NaN'"
+                "raw": "'NaN'",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -85,7 +87,9 @@
                         "start": 365,
                         "end": 400,
                         "value": "#1: 'NaN' have attribute DontEnum",
-                        "raw": "\"#1: 'NaN' have attribute DontEnum\""
+                        "raw": "\"#1: 'NaN' have attribute DontEnum\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -112,7 +116,9 @@
                   "start": 422,
                   "end": 432,
                   "value": "Infinity",
-                  "raw": "'Infinity'"
+                  "raw": "'Infinity'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -140,7 +146,9 @@
                           "start": 463,
                           "end": 503,
                           "value": "#1: 'Infinity' have attribute DontEnum",
-                          "raw": "\"#1: 'Infinity' have attribute DontEnum\""
+                          "raw": "\"#1: 'Infinity' have attribute DontEnum\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -167,7 +175,9 @@
                     "start": 525,
                     "end": 536,
                     "value": "undefined",
-                    "raw": "'undefined'"
+                    "raw": "'undefined'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "consequent": {
@@ -195,7 +205,9 @@
                             "start": 567,
                             "end": 608,
                             "value": "#1: 'undefined' have attribute DontEnum",
-                            "raw": "\"#1: 'undefined' have attribute DontEnum\""
+                            "raw": "\"#1: 'undefined' have attribute DontEnum\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

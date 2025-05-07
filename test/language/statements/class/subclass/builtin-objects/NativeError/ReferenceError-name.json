@@ -109,7 +109,9 @@
             "start": 550,
             "end": 566,
             "value": "ReferenceError",
-            "raw": "'ReferenceError'"
+            "raw": "'ReferenceError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

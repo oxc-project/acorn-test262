@@ -54,7 +54,9 @@
                       "start": 480,
                       "end": 483,
                       "value": "A",
-                      "raw": "\"A\""
+                      "raw": "\"A\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "<=",
                     "right": {
@@ -81,7 +83,9 @@
                       "start": 497,
                       "end": 500,
                       "value": "Z",
-                      "raw": "\"Z\""
+                      "raw": "\"Z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -104,7 +108,9 @@
                       "start": 506,
                       "end": 509,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "<=",
                     "right": {
@@ -131,7 +137,9 @@
                       "start": 523,
                       "end": 526,
                       "value": "z",
-                      "raw": "\"z\""
+                      "raw": "\"z\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -209,14 +217,18 @@
                         "start": 709,
                         "end": 714,
                         "value": "\\c",
-                        "raw": "\"\\\\c\""
+                        "raw": "\"\\\\c\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 716,
                         "end": 719,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -253,7 +265,9 @@
               "start": 740,
               "end": 744,
               "value": 0,
-              "raw": "0x00"
+              "raw": "0x00",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -275,7 +289,9 @@
           "start": 752,
           "end": 756,
           "value": 127,
-          "raw": "0x7f"
+          "raw": "0x7f",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -456,7 +472,9 @@
                                       "start": 879,
                                       "end": 884,
                                       "value": "\\c",
-                                      "raw": "\"\\\\c\""
+                                      "raw": "\"\\\\c\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -471,7 +489,9 @@
                                     "start": 890,
                                     "end": 893,
                                     "value": "u",
-                                    "raw": "\"u\""
+                                    "raw": "\"u\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -493,7 +513,9 @@
                             "start": 903,
                             "end": 942,
                             "value": "ControlLetter escape in AtomEscape: '",
-                            "raw": "\"ControlLetter escape in AtomEscape: '\""
+                            "raw": "\"ControlLetter escape in AtomEscape: '\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -509,7 +531,9 @@
                           "start": 949,
                           "end": 952,
                           "value": "'",
-                          "raw": "\"'\""
+                          "raw": "\"'\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -591,14 +615,18 @@
                         "start": 1141,
                         "end": 1148,
                         "value": "[\\c]",
-                        "raw": "\"[\\\\c]\""
+                        "raw": "\"[\\\\c]\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1150,
                         "end": 1153,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -635,7 +663,9 @@
               "start": 1174,
               "end": 1178,
               "value": 0,
-              "raw": "0x00"
+              "raw": "0x00",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -657,7 +687,9 @@
           "start": 1186,
           "end": 1190,
           "value": 127,
-          "raw": "0x7f"
+          "raw": "0x7f",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -842,7 +874,9 @@
                                         "start": 1313,
                                         "end": 1319,
                                         "value": "[\\c",
-                                        "raw": "\"[\\\\c\""
+                                        "raw": "\"[\\\\c\"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -858,7 +892,9 @@
                                       "start": 1326,
                                       "end": 1329,
                                       "value": "]",
-                                      "raw": "\"]\""
+                                      "raw": "\"]\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -866,7 +902,9 @@
                                     "start": 1331,
                                     "end": 1334,
                                     "value": "u",
-                                    "raw": "\"u\""
+                                    "raw": "\"u\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -888,7 +926,9 @@
                             "start": 1344,
                             "end": 1384,
                             "value": "ControlLetter escape in ClassEscape: '",
-                            "raw": "\"ControlLetter escape in ClassEscape: '\""
+                            "raw": "\"ControlLetter escape in ClassEscape: '\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -904,7 +944,9 @@
                           "start": 1391,
                           "end": 1394,
                           "value": "'",
-                          "raw": "\"'\""
+                          "raw": "\"'\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

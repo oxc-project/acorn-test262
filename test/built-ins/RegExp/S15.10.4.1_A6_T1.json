@@ -163,7 +163,9 @@
                 "start": 423,
                 "end": 433,
                 "value": "[object ",
-                "raw": "\"[object \""
+                "raw": "\"[object \"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -171,7 +173,9 @@
                 "start": 434,
                 "end": 442,
                 "value": "RegExp",
-                "raw": "\"RegExp\""
+                "raw": "\"RegExp\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -180,7 +184,9 @@
               "start": 443,
               "end": 446,
               "value": "]",
-              "raw": "\"]\""
+              "raw": "\"]\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -188,7 +194,9 @@
             "start": 448,
             "end": 501,
             "value": "__re.toString() must return \"[object \"+\"RegExp\"+\"]\"",
-            "raw": "'__re.toString() must return \"[object \"+\"RegExp\"+\"]\"'"
+            "raw": "'__re.toString() must return \"[object \"+\"RegExp\"+\"]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

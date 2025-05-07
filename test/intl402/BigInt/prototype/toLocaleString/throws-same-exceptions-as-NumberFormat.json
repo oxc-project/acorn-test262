@@ -28,7 +28,9 @@
                 "start": 393,
                 "end": 397,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -53,7 +55,9 @@
                     "start": 407,
                     "end": 410,
                     "value": "i",
-                    "raw": "\"i\""
+                    "raw": "\"i\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -67,7 +71,9 @@
                     "start": 414,
                     "end": 421,
                     "value": "de_DE",
-                    "raw": "\"de_DE\""
+                    "raw": "\"de_DE\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -120,7 +126,9 @@
                       "start": 467,
                       "end": 471,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -149,7 +157,9 @@
                       "start": 486,
                       "end": 495,
                       "value": "invalid",
-                      "raw": "\"invalid\""
+                      "raw": "\"invalid\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -178,7 +188,9 @@
                       "start": 510,
                       "end": 520,
                       "value": "currency",
-                      "raw": "\"currency\""
+                      "raw": "\"currency\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -207,7 +219,9 @@
                       "start": 535,
                       "end": 545,
                       "value": "currency",
-                      "raw": "\"currency\""
+                      "raw": "\"currency\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -229,7 +243,9 @@
                       "start": 557,
                       "end": 561,
                       "value": "ßP",
-                      "raw": "\"ßP\""
+                      "raw": "\"ßP\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -502,7 +518,9 @@
                       "start": 846,
                       "end": 931,
                       "value": "Internal error: Expected exception was not thrown by Intl.NumberFormat for locales ",
-                      "raw": "\"Internal error: Expected exception was not thrown by Intl.NumberFormat for locales \""
+                      "raw": "\"Internal error: Expected exception was not thrown by Intl.NumberFormat for locales \"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -518,7 +536,9 @@
                     "start": 944,
                     "end": 947,
                     "value": ".",
-                    "raw": "\".\""
+                    "raw": "\".\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -615,6 +635,7 @@
                                   "end": 1033,
                                   "value": null,
                                   "raw": "0n",
+                                  "regex": null,
                                   "bigint": "0"
                                 },
                                 "property": {
@@ -656,7 +677,9 @@
                       "start": 1066,
                       "end": 1135,
                       "value": "BigInt.prototype.toLocaleString didn't throw exception for locales ",
-                      "raw": "\"BigInt.prototype.toLocaleString didn't throw exception for locales \""
+                      "raw": "\"BigInt.prototype.toLocaleString didn't throw exception for locales \"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -672,7 +695,9 @@
                     "start": 1148,
                     "end": 1151,
                     "value": ".",
-                    "raw": "\".\""
+                    "raw": "\".\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -914,7 +939,9 @@
                       "start": 1397,
                       "end": 1482,
                       "value": "Internal error: Expected exception was not thrown by Intl.NumberFormat for options ",
-                      "raw": "\"Internal error: Expected exception was not thrown by Intl.NumberFormat for options \""
+                      "raw": "\"Internal error: Expected exception was not thrown by Intl.NumberFormat for options \"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -957,7 +984,9 @@
                     "start": 1511,
                     "end": 1514,
                     "value": ".",
-                    "raw": "\".\""
+                    "raw": "\".\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -1054,6 +1083,7 @@
                                   "end": 1600,
                                   "value": null,
                                   "raw": "0n",
+                                  "regex": null,
                                   "bigint": "0"
                                 },
                                 "property": {
@@ -1101,7 +1131,9 @@
                       "start": 1637,
                       "end": 1706,
                       "value": "BigInt.prototype.toLocaleString didn't throw exception for options ",
-                      "raw": "\"BigInt.prototype.toLocaleString didn't throw exception for options \""
+                      "raw": "\"BigInt.prototype.toLocaleString didn't throw exception for options \"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -1144,7 +1176,9 @@
                     "start": 1735,
                     "end": 1738,
                     "value": ".",
-                    "raw": "\".\""
+                    "raw": "\".\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

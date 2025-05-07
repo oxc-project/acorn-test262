@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "[\\b]",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 426,
                 "end": 434,
                 "value": "\b",
-                "raw": "'\\u0008'"
+                "raw": "'\\u0008'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -93,7 +96,8 @@
                 "regex": {
                   "pattern": "[\\b-A]",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -110,7 +114,9 @@
                 "start": 460,
                 "end": 463,
                 "value": "A",
-                "raw": "'A'"
+                "raw": "'A'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

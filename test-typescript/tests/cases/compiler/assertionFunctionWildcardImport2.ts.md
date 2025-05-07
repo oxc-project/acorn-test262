@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                         "start": 136,
                         "end": 166,
                         "raw": "\"Must not be a nullable value\"",
-                        "value": "Must not be a nullable value"
+                        "value": "Must not be a nullable value",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -104,7 +106,9 @@ __ESTREE_TEST__:PASS:
                   "start": 104,
                   "end": 108,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -299,7 +303,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 36,
         "raw": "\"./asserts\"",
-        "value": "./asserts"
+        "value": "./asserts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

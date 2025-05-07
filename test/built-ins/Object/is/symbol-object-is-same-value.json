@@ -34,7 +34,9 @@
                 "start": 265,
                 "end": 269,
                 "value": "66",
-                "raw": "'66'"
+                "raw": "'66'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 290,
                 "end": 294,
                 "value": "66",
-                "raw": "'66'"
+                "raw": "'66'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -155,14 +159,18 @@
             "start": 339,
             "end": 343,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 345,
             "end": 385,
             "value": "`Object.is(symA, symA)` returns `true`",
-            "raw": "\"`Object.is(symA, symA)` returns `true`\""
+            "raw": "\"`Object.is(symA, symA)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,14 +248,18 @@
             "start": 428,
             "end": 432,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 434,
             "end": 474,
             "value": "`Object.is(symB, symB)` returns `true`",
-            "raw": "\"`Object.is(symB, symB)` returns `true`\""
+            "raw": "\"`Object.is(symB, symB)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,14 +337,18 @@
             "start": 517,
             "end": 522,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 524,
             "end": 565,
             "value": "`Object.is(symA, symB)` returns `false`",
-            "raw": "\"`Object.is(symA, symB)` returns `false`\""
+            "raw": "\"`Object.is(symA, symB)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

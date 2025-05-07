@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
                               "start": 39,
                               "end": 46,
                               "raw": "'apple'",
-                              "value": "apple"
+                              "value": "apple",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -110,7 +112,9 @@ __ESTREE_TEST__:PASS:
                               "start": 58,
                               "end": 66,
                               "raw": "'banana'",
-                              "value": "banana"
+                              "value": "banana",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -153,7 +157,9 @@ __ESTREE_TEST__:PASS:
                               "start": 79,
                               "end": 87,
                               "raw": "'cherry'",
-                              "value": "cherry"
+                              "value": "cherry",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -459,14 +465,18 @@ __ESTREE_TEST__:PASS:
                   "start": 198,
                   "end": 205,
                   "raw": "'apple'",
-                  "value": "apple"
+                  "value": "apple",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 207,
                   "end": 215,
                   "raw": "'banana'",
-                  "value": "banana"
+                  "value": "banana",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -562,7 +572,9 @@ __ESTREE_TEST__:PASS:
                               "start": 288,
                               "end": 295,
                               "raw": "'apple'",
-                              "value": "apple"
+                              "value": "apple",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -605,7 +617,9 @@ __ESTREE_TEST__:PASS:
                               "start": 307,
                               "end": 315,
                               "raw": "'banana'",
-                              "value": "banana"
+                              "value": "banana",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -648,7 +662,9 @@ __ESTREE_TEST__:PASS:
                               "start": 328,
                               "end": 336,
                               "raw": "'cherry'",
-                              "value": "cherry"
+                              "value": "cherry",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -800,14 +816,18 @@ __ESTREE_TEST__:PASS:
                   "start": 384,
                   "end": 391,
                   "raw": "'apple'",
-                  "value": "apple"
+                  "value": "apple",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 393,
                   "end": 401,
                   "raw": "'banana'",
-                  "value": "banana"
+                  "value": "banana",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },

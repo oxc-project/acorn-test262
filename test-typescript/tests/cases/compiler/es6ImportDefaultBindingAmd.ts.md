@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 10,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 57,
         "raw": "\"es6ImportDefaultBindingAmd_0\"",
-        "value": "es6ImportDefaultBindingAmd_0"
+        "value": "es6ImportDefaultBindingAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -137,7 +141,9 @@ __ESTREE_TEST__:PASS:
         "start": 111,
         "end": 141,
         "raw": "\"es6ImportDefaultBindingAmd_0\"",
-        "value": "es6ImportDefaultBindingAmd_0"
+        "value": "es6ImportDefaultBindingAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

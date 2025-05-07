@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 69,
         "raw": "\"./es6ImportNameSpaceImportInEs5_0\"",
-        "value": "./es6ImportNameSpaceImportInEs5_0"
+        "value": "./es6ImportNameSpaceImportInEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -147,7 +151,9 @@ __ESTREE_TEST__:PASS:
         "start": 134,
         "end": 169,
         "raw": "\"./es6ImportNameSpaceImportInEs5_0\"",
-        "value": "./es6ImportNameSpaceImportInEs5_0"
+        "value": "./es6ImportNameSpaceImportInEs5_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

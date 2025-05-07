@@ -23,7 +23,9 @@
             "start": 435,
             "end": 436,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 456,
                   "end": 461,
                   "value": "obj",
-                  "raw": "\"obj\""
+                  "raw": "\"obj\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -165,7 +169,9 @@
               "start": 530,
               "end": 535,
               "value": "obj",
-              "raw": "\"obj\""
+              "raw": "\"obj\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -195,7 +201,9 @@
                   "start": 564,
                   "end": 591,
                   "value": "#1: Scope chain disturbed",
-                  "raw": "\"#1: Scope chain disturbed\""
+                  "raw": "\"#1: Scope chain disturbed\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

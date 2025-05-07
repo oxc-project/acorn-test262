@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": "abcd",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -78,14 +79,18 @@
                 "start": 396,
                 "end": 402,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 404,
                 "end": 407,
                 "value": "X",
-                "raw": "'X'"
+                "raw": "'X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,7 +100,9 @@
             "start": 410,
             "end": 413,
             "value": "X",
-            "raw": "'X'"
+            "raw": "'X'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +153,8 @@
                 "regex": {
                   "pattern": "bcd",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -176,14 +184,18 @@
                 "start": 455,
                 "end": 461,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 463,
                 "end": 466,
                 "value": "X",
-                "raw": "'X'"
+                "raw": "'X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -193,7 +205,9 @@
             "start": 469,
             "end": 473,
             "value": "aX",
-            "raw": "'aX'"
+            "raw": "'aX'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +258,8 @@
                 "regex": {
                   "pattern": "cd",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -274,14 +289,18 @@
                 "start": 514,
                 "end": 520,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 522,
                 "end": 525,
                 "value": "X",
-                "raw": "'X'"
+                "raw": "'X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -291,7 +310,9 @@
             "start": 528,
             "end": 533,
             "value": "abX",
-            "raw": "'abX'"
+            "raw": "'abX'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -342,7 +363,8 @@
                 "regex": {
                   "pattern": "d",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -372,14 +394,18 @@
                 "start": 573,
                 "end": 579,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 581,
                 "end": 584,
                 "value": "X",
-                "raw": "'X'"
+                "raw": "'X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -389,7 +415,9 @@
             "start": 587,
             "end": 593,
             "value": "abcX",
-            "raw": "'abcX'"
+            "raw": "'abcX'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -20,7 +20,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "consequent": {

@@ -23,7 +23,9 @@
             "start": 627,
             "end": 638,
             "value": "(?<fst>.)",
-            "raw": "\"(?<fst>.)\""
+            "raw": "\"(?<fst>.)\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -64,14 +66,18 @@
             "start": 659,
             "end": 661,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 666,
             "value": "u",
-            "raw": "\"u\""
+            "raw": "\"u\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -157,7 +163,9 @@
                   "start": 728,
                   "end": 738,
                   "value": "$<fst>bc",
-                  "raw": "\"$<fst>bc\""
+                  "raw": "\"$<fst>bc\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "CallExpression",
@@ -172,7 +180,9 @@
                       "start": 740,
                       "end": 745,
                       "value": "abc",
-                      "raw": "\"abc\""
+                      "raw": "\"abc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -195,7 +205,9 @@
                       "start": 758,
                       "end": 767,
                       "value": "$$<fst>",
-                      "raw": "\"$$<fst>\""
+                      "raw": "\"$$<fst>\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

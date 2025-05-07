@@ -34,7 +34,9 @@
                 "start": 645,
                 "end": 660,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 680,
                 "end": 695,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -114,7 +118,9 @@
                 "start": 715,
                 "end": 738,
                 "value": "different description",
-                "raw": "'different description'"
+                "raw": "'different description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -170,7 +176,9 @@
                         "start": 773,
                         "end": 774,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -248,14 +256,18 @@
             "start": 813,
             "end": 814,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 816,
             "end": 861,
             "value": "Regular symbol as key, added in constructor",
-            "raw": "'Regular symbol as key, added in constructor'"
+            "raw": "'Regular symbol as key, added in constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +312,9 @@
             "start": 878,
             "end": 879,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,7 +359,9 @@
             "start": 895,
             "end": 896,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -417,14 +433,18 @@
             "start": 930,
             "end": 931,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 974,
             "value": "Regular symbol as key, added with set()",
-            "raw": "'Regular symbol as key, added with set()'"
+            "raw": "'Regular symbol as key, added with set()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -496,14 +516,18 @@
             "start": 1008,
             "end": 1009,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1073,
             "value": "Symbols with the same description don't overwrite each other",
-            "raw": "\"Symbols with the same description don't overwrite each other\""
+            "raw": "\"Symbols with the same description don't overwrite each other\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -561,7 +585,9 @@
             "start": 1105,
             "end": 1106,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -646,14 +672,18 @@
             "start": 1155,
             "end": 1156,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1158,
             "end": 1184,
             "value": "Well-known symbol as key",
-            "raw": "'Well-known symbol as key'"
+            "raw": "'Well-known symbol as key'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

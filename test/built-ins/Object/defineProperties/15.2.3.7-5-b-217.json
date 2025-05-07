@@ -160,7 +160,9 @@
                 "start": 404,
                 "end": 414,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -170,7 +172,9 @@
             "start": 417,
             "end": 458,
             "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"property\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,14 +239,18 @@
             "start": 499,
             "end": 510,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 533,
             "value": "typeof obj.property",
-            "raw": "'typeof obj.property'"
+            "raw": "'typeof obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 439,
                 "end": 444,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

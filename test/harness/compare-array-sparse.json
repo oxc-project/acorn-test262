@@ -52,7 +52,9 @@
             "start": 294,
             "end": 344,
             "value": "Sparse arrays of the same length are equivalent.",
-            "raw": "'Sparse arrays of the same length are equivalent.'"
+            "raw": "'Sparse arrays of the same length are equivalent.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +165,9 @@
             "start": 420,
             "end": 476,
             "value": "Sparse arrays of differing lengths are not equivalent.",
-            "raw": "'Sparse arrays of differing lengths are not equivalent.'"
+            "raw": "'Sparse arrays of differing lengths are not equivalent.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,7 +278,9 @@
             "start": 552,
             "end": 608,
             "value": "Sparse arrays of differing lengths are not equivalent.",
-            "raw": "'Sparse arrays of differing lengths are not equivalent.'"
+            "raw": "'Sparse arrays of differing lengths are not equivalent.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +388,9 @@
             "start": 682,
             "end": 733,
             "value": "Sparse arrays are not equivalent to empty arrays.",
-            "raw": "'Sparse arrays are not equivalent to empty arrays.'"
+            "raw": "'Sparse arrays are not equivalent to empty arrays.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -490,7 +498,9 @@
             "start": 807,
             "end": 858,
             "value": "Sparse arrays are not equivalent to empty arrays.",
-            "raw": "'Sparse arrays are not equivalent to empty arrays.'"
+            "raw": "'Sparse arrays are not equivalent to empty arrays.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

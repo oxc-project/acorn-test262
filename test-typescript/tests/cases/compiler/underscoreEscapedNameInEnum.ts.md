@@ -24,14 +24,18 @@ __ESTREE_TEST__:PASS:
               "start": 13,
               "end": 20,
               "raw": "\"__foo\"",
-              "value": "__foo"
+              "value": "__foo",
+              "regex": null,
+              "bigint": null
             },
             "initializer": {
               "type": "Literal",
               "start": 23,
               "end": 24,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -73,7 +77,9 @@ __ESTREE_TEST__:PASS:
                   "start": 38,
                   "end": 45,
                   "raw": "\"__foo\"",
-                  "value": "__foo"
+                  "value": "__foo",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "right": {
@@ -81,7 +87,9 @@ __ESTREE_TEST__:PASS:
                 "start": 49,
                 "end": 50,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           }

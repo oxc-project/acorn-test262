@@ -36,7 +36,9 @@
                     "start": 393,
                     "end": 400,
                     "value": "black",
-                    "raw": "\"black\""
+                    "raw": "\"black\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -75,7 +77,9 @@
                             "start": 459,
                             "end": 465,
                             "value": "hole",
-                            "raw": "\"hole\""
+                            "raw": "\"hole\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -112,7 +116,9 @@
                             "start": 528,
                             "end": 533,
                             "value": "sun",
-                            "raw": "\"sun\""
+                            "raw": "\"sun\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -125,7 +131,9 @@
                   "start": 548,
                   "end": 549,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "label": {
@@ -155,7 +163,9 @@
                     "start": 583,
                     "end": 599,
                     "value": "won't you come",
-                    "raw": "\"won't you come\""
+                    "raw": "\"won't you come\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -172,7 +182,9 @@
             "start": 609,
             "end": 610,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "operator": "==",
           "right": {
@@ -180,7 +192,9 @@
             "start": 612,
             "end": 613,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -285,7 +299,9 @@
                     "start": 846,
                     "end": 1087,
                     "value": "#1: (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===true. Actual:  (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===",
-                    "raw": "'#1: (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===true. Actual:  (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)==='"
+                    "raw": "'#1: (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===true. Actual:  (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

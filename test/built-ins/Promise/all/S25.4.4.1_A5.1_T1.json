@@ -271,7 +271,9 @@
                             "start": 575,
                             "end": 654,
                             "value": "Promise unexpectedly resolved: Promise.all(iterThrows) should throw TypeError",
-                            "raw": "'Promise unexpectedly resolved: Promise.all(iterThrows) should throw TypeError'"
+                            "raw": "'Promise unexpectedly resolved: Promise.all(iterThrows) should throw TypeError'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -345,7 +347,9 @@
                             "start": 713,
                             "end": 774,
                             "value": "The value of reason is expected to equal the value of error",
-                            "raw": "'The value of reason is expected to equal the value of error'"
+                            "raw": "'The value of reason is expected to equal the value of error'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

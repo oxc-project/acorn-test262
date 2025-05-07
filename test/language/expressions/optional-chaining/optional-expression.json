@@ -59,7 +59,9 @@
                         "start": 390,
                         "end": 392,
                         "value": 22,
-                        "raw": "22"
+                        "raw": "22",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -139,7 +141,9 @@
             "start": 520,
             "end": 522,
             "value": 22,
-            "raw": "22"
+            "raw": "22",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ChainExpression",

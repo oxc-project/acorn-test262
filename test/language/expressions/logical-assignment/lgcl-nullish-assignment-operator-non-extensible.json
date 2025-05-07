@@ -147,7 +147,9 @@
                       "start": 593,
                       "end": 594,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -216,7 +218,9 @@
             "start": 638,
             "end": 648,
             "value": "obj.prop",
-            "raw": "\"obj.prop\""
+            "raw": "\"obj.prop\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

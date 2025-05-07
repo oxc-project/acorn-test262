@@ -27,7 +27,9 @@
               "start": 495,
               "end": 496,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 502,
           "end": 505,
           "value": "1",
-          "raw": "\"1\""
+          "raw": "\"1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +74,9 @@
                     "start": 534,
                     "end": 567,
                     "value": "#1: String(1) === \"1\". Actual: ",
-                    "raw": "'#1: String(1) === \"1\". Actual: '"
+                    "raw": "'#1: String(1) === \"1\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -93,7 +99,9 @@
                           "start": 578,
                           "end": 579,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -131,7 +139,9 @@
               "start": 609,
               "end": 611,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -142,7 +152,9 @@
           "start": 617,
           "end": 621,
           "value": "10",
-          "raw": "\"10\""
+          "raw": "\"10\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -174,7 +186,9 @@
                     "start": 650,
                     "end": 685,
                     "value": "#2: String(10) === \"10\". Actual: ",
-                    "raw": "'#2: String(10) === \"10\". Actual: '"
+                    "raw": "'#2: String(10) === \"10\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -197,7 +211,9 @@
                           "start": 696,
                           "end": 698,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -235,7 +251,9 @@
               "start": 728,
               "end": 731,
               "value": 100,
-              "raw": "100"
+              "raw": "100",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -246,7 +264,9 @@
           "start": 737,
           "end": 742,
           "value": "100",
-          "raw": "\"100\""
+          "raw": "\"100\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -278,7 +298,9 @@
                     "start": 771,
                     "end": 808,
                     "value": "#3: String(100) === \"100\". Actual: ",
-                    "raw": "'#3: String(100) === \"100\". Actual: '"
+                    "raw": "'#3: String(100) === \"100\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -301,7 +323,9 @@
                           "start": 819,
                           "end": 822,
                           "value": 100,
-                          "raw": "100"
+                          "raw": "100",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -339,7 +363,9 @@
               "start": 852,
               "end": 873,
               "value": 100000000000000000000,
-              "raw": "100000000000000000000"
+              "raw": "100000000000000000000",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -350,7 +376,9 @@
           "start": 879,
           "end": 902,
           "value": "100000000000000000000",
-          "raw": "\"100000000000000000000\""
+          "raw": "\"100000000000000000000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -382,7 +410,9 @@
                     "start": 931,
                     "end": 1004,
                     "value": "#4: String(100000000000000000000) === \"100000000000000000000\". Actual: ",
-                    "raw": "'#4: String(100000000000000000000) === \"100000000000000000000\". Actual: '"
+                    "raw": "'#4: String(100000000000000000000) === \"100000000000000000000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -405,7 +435,9 @@
                           "start": 1015,
                           "end": 1036,
                           "value": 100000000000000000000,
-                          "raw": "100000000000000000000"
+                          "raw": "100000000000000000000",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -443,7 +475,9 @@
               "start": 1066,
               "end": 1070,
               "value": 100000000000000000000,
-              "raw": "1e20"
+              "raw": "1e20",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -454,7 +488,9 @@
           "start": 1076,
           "end": 1099,
           "value": "100000000000000000000",
-          "raw": "\"100000000000000000000\""
+          "raw": "\"100000000000000000000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -486,7 +522,9 @@
                     "start": 1128,
                     "end": 1184,
                     "value": "#5: String(1e20) === \"100000000000000000000\". Actual: ",
-                    "raw": "'#5: String(1e20) === \"100000000000000000000\". Actual: '"
+                    "raw": "'#5: String(1e20) === \"100000000000000000000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -509,7 +547,9 @@
                           "start": 1195,
                           "end": 1199,
                           "value": 100000000000000000000,
-                          "raw": "1e20"
+                          "raw": "1e20",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -547,7 +587,9 @@
               "start": 1229,
               "end": 1234,
               "value": 12345,
-              "raw": "12345"
+              "raw": "12345",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -558,7 +600,9 @@
           "start": 1240,
           "end": 1247,
           "value": "12345",
-          "raw": "\"12345\""
+          "raw": "\"12345\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -590,7 +634,9 @@
                     "start": 1276,
                     "end": 1317,
                     "value": "#6: String(12345) === \"12345\". Actual: ",
-                    "raw": "'#6: String(12345) === \"12345\". Actual: '"
+                    "raw": "'#6: String(12345) === \"12345\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -613,7 +659,9 @@
                           "start": 1328,
                           "end": 1333,
                           "value": 12345,
-                          "raw": "12345"
+                          "raw": "12345",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -651,7 +699,9 @@
               "start": 1363,
               "end": 1371,
               "value": 12345000,
-              "raw": "12345000"
+              "raw": "12345000",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -662,7 +712,9 @@
           "start": 1377,
           "end": 1387,
           "value": "12345000",
-          "raw": "\"12345000\""
+          "raw": "\"12345000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -694,7 +746,9 @@
                     "start": 1416,
                     "end": 1463,
                     "value": "#7: String(12345000) === \"12345000\". Actual: ",
-                    "raw": "'#7: String(12345000) === \"12345000\". Actual: '"
+                    "raw": "'#7: String(12345000) === \"12345000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -717,7 +771,9 @@
                           "start": 1474,
                           "end": 1482,
                           "value": 12345000,
-                          "raw": "12345000"
+                          "raw": "12345000",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -761,7 +817,9 @@
                 "start": 1513,
                 "end": 1514,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -773,7 +831,9 @@
           "start": 1520,
           "end": 1524,
           "value": "-1",
-          "raw": "\"-1\""
+          "raw": "\"-1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -805,7 +865,9 @@
                     "start": 1553,
                     "end": 1588,
                     "value": "#8: String(-1) === \"-1\". Actual: ",
-                    "raw": "'#8: String(-1) === \"-1\". Actual: '"
+                    "raw": "'#8: String(-1) === \"-1\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -834,7 +896,9 @@
                             "start": 1600,
                             "end": 1601,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -879,7 +943,9 @@
                 "start": 1632,
                 "end": 1634,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -891,7 +957,9 @@
           "start": 1640,
           "end": 1645,
           "value": "-10",
-          "raw": "\"-10\""
+          "raw": "\"-10\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -923,7 +991,9 @@
                     "start": 1674,
                     "end": 1711,
                     "value": "#9: String(-10) === \"-10\". Actual: ",
-                    "raw": "'#9: String(-10) === \"-10\". Actual: '"
+                    "raw": "'#9: String(-10) === \"-10\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -952,7 +1022,9 @@
                             "start": 1723,
                             "end": 1725,
                             "value": 10,
-                            "raw": "10"
+                            "raw": "10",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -997,7 +1069,9 @@
                 "start": 1757,
                 "end": 1760,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -1009,7 +1083,9 @@
           "start": 1766,
           "end": 1772,
           "value": "-100",
-          "raw": "\"-100\""
+          "raw": "\"-100\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1041,7 +1117,9 @@
                     "start": 1801,
                     "end": 1840,
                     "value": "#3: String(-100) === \"-100\". Actual: ",
-                    "raw": "'#3: String(-100) === \"-100\". Actual: '"
+                    "raw": "'#3: String(-100) === \"-100\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1070,7 +1148,9 @@
                             "start": 1852,
                             "end": 1855,
                             "value": 100,
-                            "raw": "100"
+                            "raw": "100",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -1115,7 +1195,9 @@
                 "start": 1887,
                 "end": 1908,
                 "value": 100000000000000000000,
-                "raw": "100000000000000000000"
+                "raw": "100000000000000000000",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -1127,7 +1209,9 @@
           "start": 1914,
           "end": 1938,
           "value": "-100000000000000000000",
-          "raw": "\"-100000000000000000000\""
+          "raw": "\"-100000000000000000000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1159,7 +1243,9 @@
                     "start": 1967,
                     "end": 2043,
                     "value": "#10: String(-100000000000000000000) === \"-100000000000000000000\". Actual: ",
-                    "raw": "'#10: String(-100000000000000000000) === \"-100000000000000000000\". Actual: '"
+                    "raw": "'#10: String(-100000000000000000000) === \"-100000000000000000000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1188,7 +1274,9 @@
                             "start": 2055,
                             "end": 2076,
                             "value": 100000000000000000000,
-                            "raw": "100000000000000000000"
+                            "raw": "100000000000000000000",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -1233,7 +1321,9 @@
                 "start": 2108,
                 "end": 2112,
                 "value": 100000000000000000000,
-                "raw": "1e20"
+                "raw": "1e20",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -1245,7 +1335,9 @@
           "start": 2118,
           "end": 2142,
           "value": "-100000000000000000000",
-          "raw": "\"-100000000000000000000\""
+          "raw": "\"-100000000000000000000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1277,7 +1369,9 @@
                     "start": 2171,
                     "end": 2230,
                     "value": "#11: String(-1e20) === \"-100000000000000000000\". Actual: ",
-                    "raw": "'#11: String(-1e20) === \"-100000000000000000000\". Actual: '"
+                    "raw": "'#11: String(-1e20) === \"-100000000000000000000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1306,7 +1400,9 @@
                             "start": 2242,
                             "end": 2246,
                             "value": 100000000000000000000,
-                            "raw": "1e20"
+                            "raw": "1e20",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -1351,7 +1447,9 @@
                 "start": 2278,
                 "end": 2283,
                 "value": 12345,
-                "raw": "12345"
+                "raw": "12345",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -1363,7 +1461,9 @@
           "start": 2289,
           "end": 2297,
           "value": "-12345",
-          "raw": "\"-12345\""
+          "raw": "\"-12345\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1395,7 +1495,9 @@
                     "start": 2326,
                     "end": 2370,
                     "value": "#12: String(-12345) === \"-12345\". Actual: ",
-                    "raw": "'#12: String(-12345) === \"-12345\". Actual: '"
+                    "raw": "'#12: String(-12345) === \"-12345\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1424,7 +1526,9 @@
                             "start": 2382,
                             "end": 2387,
                             "value": 12345,
-                            "raw": "12345"
+                            "raw": "12345",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -1469,7 +1573,9 @@
                 "start": 2419,
                 "end": 2427,
                 "value": 12345000,
-                "raw": "12345000"
+                "raw": "12345000",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -1481,7 +1587,9 @@
           "start": 2433,
           "end": 2444,
           "value": "-12345000",
-          "raw": "\"-12345000\""
+          "raw": "\"-12345000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1513,7 +1621,9 @@
                     "start": 2473,
                     "end": 2523,
                     "value": "#13: String(-12345000) === \"-12345000\". Actual: ",
-                    "raw": "'#13: String(-12345000) === \"-12345000\". Actual: '"
+                    "raw": "'#13: String(-12345000) === \"-12345000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1542,7 +1652,9 @@
                             "start": 2535,
                             "end": 2543,
                             "value": 12345000,
-                            "raw": "12345000"
+                            "raw": "12345000",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -1581,7 +1693,9 @@
               "start": 2574,
               "end": 2578,
               "value": 100000000000000000000,
-              "raw": "1E20"
+              "raw": "1E20",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1592,7 +1706,9 @@
           "start": 2584,
           "end": 2607,
           "value": "100000000000000000000",
-          "raw": "\"100000000000000000000\""
+          "raw": "\"100000000000000000000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1624,7 +1740,9 @@
                     "start": 2636,
                     "end": 2693,
                     "value": "#14: String(1E20) === \"100000000000000000000\". Actual: ",
-                    "raw": "'#14: String(1E20) === \"100000000000000000000\". Actual: '"
+                    "raw": "'#14: String(1E20) === \"100000000000000000000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1647,7 +1765,9 @@
                           "start": 2704,
                           "end": 2708,
                           "value": 100000000000000000000,
-                          "raw": "1E20"
+                          "raw": "1E20",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -1691,7 +1811,9 @@
                 "start": 2740,
                 "end": 2744,
                 "value": 100000000000000000000,
-                "raw": "1E20"
+                "raw": "1E20",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -1703,7 +1825,9 @@
           "start": 2750,
           "end": 2774,
           "value": "-100000000000000000000",
-          "raw": "\"-100000000000000000000\""
+          "raw": "\"-100000000000000000000\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1735,7 +1859,9 @@
                     "start": 2803,
                     "end": 2862,
                     "value": "#15: String(-1E20) === \"-100000000000000000000\". Actual: ",
-                    "raw": "'#15: String(-1E20) === \"-100000000000000000000\". Actual: '"
+                    "raw": "'#15: String(-1E20) === \"-100000000000000000000\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1764,7 +1890,9 @@
                             "start": 2874,
                             "end": 2878,
                             "value": 100000000000000000000,
-                            "raw": "1E20"
+                            "raw": "1E20",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],

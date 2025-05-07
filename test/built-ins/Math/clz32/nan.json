@@ -69,7 +69,9 @@
             "start": 505,
             "end": 507,
             "value": 32,
-            "raw": "32"
+            "raw": "32",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

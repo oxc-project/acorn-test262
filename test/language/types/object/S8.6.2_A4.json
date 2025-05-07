@@ -91,7 +91,9 @@
                     "start": 556,
                     "end": 620,
                     "value": "#1: var __obj={}; (__obj instanceof Object) === true. Actual: ",
-                    "raw": "'#1: var __obj={}; (__obj instanceof Object) === true. Actual: '"
+                    "raw": "'#1: var __obj={}; (__obj instanceof Object) === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -181,7 +183,9 @@
                     "start": 885,
                     "end": 952,
                     "value": "#2: var __obj={}; (__obj instanceof Function) === false. Actual: ",
-                    "raw": "'#2: var __obj={}; (__obj instanceof Function) === false. Actual: '"
+                    "raw": "'#2: var __obj={}; (__obj instanceof Function) === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -271,7 +275,9 @@
                     "start": 1217,
                     "end": 1282,
                     "value": "#3: var __obj={}; (__obj instanceof String) === false. Actual: ",
-                    "raw": "'#3: var __obj={}; (__obj instanceof String) === false. Actual: '"
+                    "raw": "'#3: var __obj={}; (__obj instanceof String) === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -361,7 +367,9 @@
                     "start": 1545,
                     "end": 1610,
                     "value": "#4: var __obj={}; (__obj instanceof Number) === false. Actual: ",
-                    "raw": "'#4: var __obj={}; (__obj instanceof Number) === false. Actual: '"
+                    "raw": "'#4: var __obj={}; (__obj instanceof Number) === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -451,7 +459,9 @@
                     "start": 1872,
                     "end": 1936,
                     "value": "#5: var __obj={}; (__obj instanceof Array) === false. Actual: ",
-                    "raw": "'#5: var __obj={}; (__obj instanceof Array) === false. Actual: '"
+                    "raw": "'#5: var __obj={}; (__obj instanceof Array) === false. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

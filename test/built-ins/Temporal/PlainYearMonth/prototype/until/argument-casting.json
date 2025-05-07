@@ -47,14 +47,18 @@
                 "start": 333,
                 "end": 337,
                 "value": 1994,
-                "raw": "1994"
+                "raw": "1994",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -106,14 +110,18 @@
                 "start": 386,
                 "end": 390,
                 "value": 2013,
-                "raw": "2013"
+                "raw": "2013",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 393,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -248,7 +256,9 @@
                       "start": 487,
                       "end": 491,
                       "value": 2013,
-                      "raw": "2013"
+                      "raw": "2013",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -270,7 +280,9 @@
                       "start": 500,
                       "end": 501,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -290,7 +302,9 @@
             "start": 512,
             "end": 535,
             "value": "Casts object argument",
-            "raw": "\"Casts object argument\""
+            "raw": "\"Casts object argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -353,7 +367,9 @@
                 "start": 587,
                 "end": 596,
                 "value": "2013-06",
-                "raw": "\"2013-06\""
+                "raw": "\"2013-06\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -369,7 +385,9 @@
             "start": 605,
             "end": 628,
             "value": "Casts string argument",
-            "raw": "\"Casts string argument\""
+            "raw": "\"Casts string argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

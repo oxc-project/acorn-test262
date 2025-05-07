@@ -75,14 +75,18 @@
             "start": 1907,
             "end": 1917,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1921,
             "end": 1997,
             "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,14 +172,18 @@
                     "start": 2046,
                     "end": 2073,
                     "value": "./import-value_FIXTURE.js",
-                    "raw": "'./import-value_FIXTURE.js'"
+                    "raw": "'./import-value_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 2075,
                     "end": 2078,
                     "value": "y",
-                    "raw": "'y'"
+                    "raw": "'y'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -224,7 +232,9 @@
                             "start": 2130,
                             "end": 2150,
                             "value": "Expected rejection",
-                            "raw": "\"Expected rejection\""
+                            "raw": "\"Expected rejection\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -338,7 +348,9 @@
                             "start": 2245,
                             "end": 2280,
                             "value": "should be rejected with TypeError",
-                            "raw": "'should be rejected with TypeError'"
+                            "raw": "'should be rejected with TypeError'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

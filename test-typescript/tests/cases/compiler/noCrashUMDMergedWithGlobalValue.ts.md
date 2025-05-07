@@ -52,7 +52,9 @@ __ESTREE_TEST__:PASS:
                 "start": 56,
                 "end": 62,
                 "raw": "\"PUSH\"",
-                "value": "PUSH"
+                "value": "PUSH",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -64,7 +66,9 @@ __ESTREE_TEST__:PASS:
                 "start": 65,
                 "end": 70,
                 "raw": "\"POP\"",
-                "value": "POP"
+                "value": "POP",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -76,7 +80,9 @@ __ESTREE_TEST__:PASS:
                 "start": 73,
                 "end": 82,
                 "raw": "\"REPLACE\"",
-                "value": "REPLACE"
+                "value": "REPLACE",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

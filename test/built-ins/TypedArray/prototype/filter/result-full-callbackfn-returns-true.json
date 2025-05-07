@@ -75,21 +75,27 @@
                                 "start": 632,
                                 "end": 634,
                                 "value": 40,
-                                "raw": "40"
+                                "raw": "40",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 636,
                                 "end": 638,
                                 "value": 41,
-                                "raw": "41"
+                                "raw": "41",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 640,
                                 "end": 642,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -121,21 +127,27 @@
                             "start": 655,
                             "end": 659,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 665,
                             "end": 666,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 672,
                             "end": 681,
                             "value": "test262",
-                            "raw": "\"test262\""
+                            "raw": "\"test262\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "CallExpression",
@@ -153,7 +165,9 @@
                                 "start": 694,
                                 "end": 697,
                                 "value": "1",
-                                "raw": "\"1\""
+                                "raw": "\"1\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -181,7 +195,9 @@
                               "start": 721,
                               "end": 722,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -208,7 +224,9 @@
                             "start": 757,
                             "end": 760,
                             "value": 0.1,
-                            "raw": "0.1"
+                            "raw": "0.1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "UnaryExpression",
@@ -221,7 +239,9 @@
                               "start": 767,
                               "end": 770,
                               "value": 0.1,
-                              "raw": "0.1"
+                              "raw": "0.1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

@@ -41,7 +41,9 @@
                   "start": 379,
                   "end": 383,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -84,7 +86,9 @@
           "start": 411,
           "end": 415,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -112,7 +116,9 @@
                   "start": 444,
                   "end": 508,
                   "value": "#1: var object = {undefined : true}; object.undefined === true",
-                  "raw": "'#1: var object = {undefined : true}; object.undefined === true'"
+                  "raw": "'#1: var object = {undefined : true}; object.undefined === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -159,7 +165,9 @@
                   "start": 550,
                   "end": 554,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -192,7 +200,9 @@
             "start": 568,
             "end": 579,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -203,7 +213,9 @@
           "start": 585,
           "end": 589,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -231,7 +243,9 @@
                   "start": 618,
                   "end": 685,
                   "value": "#2: var object = {undefined : true}; object[\"undefined\"] === true",
-                  "raw": "'#2: var object = {undefined : true}; object[\"undefined\"] === true'"
+                  "raw": "'#2: var object = {undefined : true}; object[\"undefined\"] === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -272,14 +286,18 @@
                   "start": 715,
                   "end": 721,
                   "value": "true",
-                  "raw": "\"true\""
+                  "raw": "\"true\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 724,
                   "end": 728,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -312,7 +330,9 @@
             "start": 742,
             "end": 748,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -323,7 +343,9 @@
           "start": 754,
           "end": 758,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -351,7 +373,9 @@
                   "start": 787,
                   "end": 846,
                   "value": "#3: var object = {\"true\" : true}; object[\"true\"] === true",
-                  "raw": "'#3: var object = {\"true\" : true}; object[\"true\"] === true'"
+                  "raw": "'#3: var object = {\"true\" : true}; object[\"true\"] === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -392,14 +416,18 @@
                   "start": 876,
                   "end": 882,
                   "value": "null",
-                  "raw": "\"null\""
+                  "raw": "\"null\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 885,
                   "end": 889,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -432,7 +460,9 @@
             "start": 903,
             "end": 909,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -443,7 +473,9 @@
           "start": 915,
           "end": 919,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -471,7 +503,9 @@
                   "start": 948,
                   "end": 1007,
                   "value": "#4: var object = {\"null\" : true}; object[\"null\"] === true",
-                  "raw": "'#4: var object = {\"null\" : true}; object[\"null\"] === true'"
+                  "raw": "'#4: var object = {\"null\" : true}; object[\"null\"] === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

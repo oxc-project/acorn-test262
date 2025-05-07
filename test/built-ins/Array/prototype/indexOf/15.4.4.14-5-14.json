@@ -49,7 +49,9 @@
                     "start": 298,
                     "end": 302,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -68,7 +70,9 @@
                 "start": 312,
                 "end": 316,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -84,14 +88,18 @@
             "start": 324,
             "end": 325,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 327,
             "end": 354,
             "value": "[true].indexOf(true, NaN)",
-            "raw": "'[true].indexOf(true, NaN)'"
+            "raw": "'[true].indexOf(true, NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -143,7 +151,9 @@
                     "start": 375,
                     "end": 379,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -162,7 +172,9 @@
                 "start": 389,
                 "end": 393,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -185,14 +197,18 @@
             "start": 402,
             "end": 403,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 433,
             "value": "[true].indexOf(true, -NaN)",
-            "raw": "'[true].indexOf(true, -NaN)'"
+            "raw": "'[true].indexOf(true, -NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

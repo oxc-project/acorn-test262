@@ -792,7 +792,9 @@ __ESTREE_TEST__:PASS:
                         "start": 653,
                         "end": 661,
                         "raw": "\"public\"",
-                        "value": "public"
+                        "value": "public",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {
@@ -824,7 +826,9 @@ __ESTREE_TEST__:PASS:
                         "start": 667,
                         "end": 675,
                         "raw": "\"public\"",
-                        "value": "public"
+                        "value": "public",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {
@@ -887,7 +891,9 @@ __ESTREE_TEST__:PASS:
                         "start": 691,
                         "end": 700,
                         "raw": "\"private\"",
-                        "value": "private"
+                        "value": "private",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {
@@ -919,7 +925,9 @@ __ESTREE_TEST__:PASS:
                         "start": 706,
                         "end": 715,
                         "raw": "\"private\"",
-                        "value": "private"
+                        "value": "private",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "objectType": {
@@ -1314,7 +1322,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 1023,
                                 "end": 1038,
                                 "raw": "\"publicExtends\"",
-                                "value": "publicExtends"
+                                "value": "publicExtends",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "objectType": {
@@ -1379,7 +1389,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1074,
                           "end": 1090,
                           "raw": "\"privateExtends\"",
-                          "value": "privateExtends"
+                          "value": "privateExtends",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -2384,7 +2396,9 @@ __ESTREE_TEST__:PASS:
               "start": 1596,
               "end": 1600,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,

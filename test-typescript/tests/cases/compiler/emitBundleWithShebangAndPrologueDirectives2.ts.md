@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 31,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -102,7 +104,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 31,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -115,7 +119,9 @@ __ESTREE_TEST__:PASS:
         "start": 32,
         "end": 50,
         "raw": "\"Another prologue\"",
-        "value": "Another prologue"
+        "value": "Another prologue",
+        "regex": null,
+        "bigint": null
       }
     },
     {

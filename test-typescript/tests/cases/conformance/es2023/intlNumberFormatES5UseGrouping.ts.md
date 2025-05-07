@@ -20,7 +20,9 @@ __ESTREE_TEST__:PASS:
             "start": 22,
             "end": 29,
             "raw": "'en-GB'",
-            "value": "en-GB"
+            "value": "en-GB",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -50,7 +52,9 @@ __ESTREE_TEST__:PASS:
                   "start": 46,
                   "end": 50,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -99,7 +103,9 @@ __ESTREE_TEST__:PASS:
             "start": 77,
             "end": 84,
             "raw": "'en-GB'",
-            "value": "en-GB"
+            "value": "en-GB",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -129,7 +135,9 @@ __ESTREE_TEST__:PASS:
                   "start": 101,
                   "end": 107,
                   "raw": "'true'",
-                  "value": "true"
+                  "value": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -178,7 +186,9 @@ __ESTREE_TEST__:PASS:
             "start": 150,
             "end": 157,
             "raw": "'en-GB'",
-            "value": "en-GB"
+            "value": "en-GB",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -208,7 +218,9 @@ __ESTREE_TEST__:PASS:
                   "start": 174,
                   "end": 182,
                   "raw": "'always'",
-                  "value": "always"
+                  "value": "always",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -310,7 +322,9 @@ __ESTREE_TEST__:PASS:
                     "start": 250,
                     "end": 257,
                     "raw": "'en-GB'",
-                    "value": "en-GB"
+                    "value": "en-GB",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {

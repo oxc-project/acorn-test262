@@ -99,7 +99,9 @@
             "start": 400,
             "end": 443,
             "value": "f /* a */ ( /* b */ ) /* c */ { /* d */ }",
-            "raw": "\"f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
+            "raw": "\"f /* a */ ( /* b */ ) /* c */ { /* d */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

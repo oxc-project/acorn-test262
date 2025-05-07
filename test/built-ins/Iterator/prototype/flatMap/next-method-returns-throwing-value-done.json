@@ -78,7 +78,9 @@
                             "start": 452,
                             "end": 456,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },

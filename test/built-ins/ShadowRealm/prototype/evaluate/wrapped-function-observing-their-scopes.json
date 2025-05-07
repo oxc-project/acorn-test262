@@ -75,14 +75,18 @@
             "start": 355,
             "end": 365,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 369,
             "end": 442,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +323,9 @@
             "start": 803,
             "end": 808,
             "value": "red",
-            "raw": "'red'"
+            "raw": "'red'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -364,7 +370,9 @@
             "start": 837,
             "end": 839,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -1365,7 +1365,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1230,
                   "end": 1242,
                   "raw": "\"The Matrix\"",
-                  "value": "The Matrix"
+                  "value": "The Matrix",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1391,7 +1393,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1258,
                   "end": 1262,
                   "raw": "1999",
-                  "value": 1999
+                  "value": 1999,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

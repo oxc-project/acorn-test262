@@ -75,7 +75,9 @@
             "start": 758,
             "end": 768,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -225,7 +227,9 @@
                               "start": 864,
                               "end": 876,
                               "value": "[[Target]]",
-                              "raw": "'[[Target]]'"
+                              "raw": "'[[Target]]'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "ObjectExpression",
@@ -249,7 +253,9 @@
             "start": 889,
             "end": 925,
             "value": "Ordinary object without [[Target]]",
-            "raw": "'Ordinary object without [[Target]]'"
+            "raw": "'Ordinary object without [[Target]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -362,7 +368,9 @@
             "start": 1003,
             "end": 1063,
             "value": "WeakRef.prototype does not have a [[Target]] internal slot",
-            "raw": "'WeakRef.prototype does not have a [[Target]] internal slot'"
+            "raw": "'WeakRef.prototype does not have a [[Target]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +470,9 @@
             "start": 1131,
             "end": 1181,
             "value": "WeakRef does not have a [[Target]] internal slot",
-            "raw": "'WeakRef does not have a [[Target]] internal slot'"
+            "raw": "'WeakRef does not have a [[Target]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -610,7 +620,9 @@
             "start": 1330,
             "end": 1361,
             "value": "FinalizationRegistry instance",
-            "raw": "'FinalizationRegistry instance'"
+            "raw": "'FinalizationRegistry instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -741,7 +753,9 @@
             "start": 1448,
             "end": 1466,
             "value": "WeakMap instance",
-            "raw": "'WeakMap instance'"
+            "raw": "'WeakMap instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -872,7 +886,9 @@
             "start": 1553,
             "end": 1571,
             "value": "WeakSet instance",
-            "raw": "'WeakSet instance'"
+            "raw": "'WeakSet instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

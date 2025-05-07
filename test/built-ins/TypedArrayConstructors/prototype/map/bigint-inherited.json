@@ -109,7 +109,9 @@
                             "start": 420,
                             "end": 425,
                             "value": "map",
-                            "raw": "\"map\""
+                            "raw": "\"map\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 428,
                         "end": 433,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

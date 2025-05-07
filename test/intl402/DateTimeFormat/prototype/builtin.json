@@ -82,7 +82,9 @@
             "start": 439,
             "end": 477,
             "value": "Built-in objects must be extensible.",
-            "raw": "\"Built-in objects must be extensible.\""
+            "raw": "\"Built-in objects must be extensible.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,7 +201,9 @@
             "start": 587,
             "end": 662,
             "value": "Built-in prototype objects must have Object.prototype as their prototype.",
-            "raw": "\"Built-in prototype objects must have Object.prototype as their prototype.\""
+            "raw": "\"Built-in prototype objects must have Object.prototype as their prototype.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

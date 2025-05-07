@@ -80,7 +80,9 @@
             "start": 768,
             "end": 769,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -106,7 +108,9 @@
             "start": 785,
             "end": 787,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -220,7 +224,9 @@
                               "start": 869,
                               "end": 872,
                               "value": ",",
-                              "raw": "','"
+                              "raw": "','",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -320,7 +326,9 @@
                             "start": 964,
                             "end": 965,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -338,7 +346,9 @@
                               "start": 979,
                               "end": 982,
                               "value": "a",
-                              "raw": "'a'"
+                              "raw": "'a'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -516,7 +526,9 @@
             "start": 1101,
             "end": 1107,
             "value": "abcd",
-            "raw": "'abcd'"
+            "raw": "'abcd'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -561,7 +573,9 @@
             "start": 1137,
             "end": 1147,
             "value": "0,1,2,3,",
-            "raw": "'0,1,2,3,'"
+            "raw": "'0,1,2,3,'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

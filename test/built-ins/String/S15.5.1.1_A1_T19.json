@@ -45,21 +45,27 @@
                     "start": 359,
                     "end": 360,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 362,
                     "end": 363,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 365,
                     "end": 366,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -97,7 +103,9 @@
           "start": 481,
           "end": 489,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -129,7 +137,9 @@
                     "start": 518,
                     "end": 609,
                     "value": "#1: __str = String(new Array(1,2,3)); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(new Array(1,2,3)); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(new Array(1,2,3)); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -173,7 +183,9 @@
           "start": 815,
           "end": 822,
           "value": "1,2,3",
-          "raw": "\"1,2,3\""
+          "raw": "\"1,2,3\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -205,7 +217,9 @@
                     "start": 851,
                     "end": 927,
                     "value": "#2: __str = String(new Array(1,2,3)); __str === \"1,2,3\". Actual: __str ===",
-                    "raw": "'#2: __str = String(new Array(1,2,3)); __str === \"1,2,3\". Actual: __str ==='"
+                    "raw": "'#2: __str = String(new Array(1,2,3)); __str === \"1,2,3\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

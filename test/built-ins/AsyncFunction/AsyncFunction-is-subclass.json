@@ -139,7 +139,9 @@
             "start": 414,
             "end": 452,
             "value": "Prototype of constructor is Function",
-            "raw": "\"Prototype of constructor is Function\""
+            "raw": "\"Prototype of constructor is Function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +245,9 @@
             "start": 540,
             "end": 600,
             "value": "Prototype of constructor's prototype is Function.prototype",
-            "raw": "\"Prototype of constructor's prototype is Function.prototype\""
+            "raw": "\"Prototype of constructor's prototype is Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +291,9 @@
             "start": 635,
             "end": 683,
             "value": "async function instance is instanceof Function",
-            "raw": "'async function instance is instanceof Function'"
+            "raw": "'async function instance is instanceof Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

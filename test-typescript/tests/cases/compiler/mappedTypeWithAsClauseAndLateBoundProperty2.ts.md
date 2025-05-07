@@ -46,7 +46,9 @@ __ESTREE_TEST__:PASS:
                     "start": 22,
                     "end": 26,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "typeAnnotation": {
@@ -111,7 +113,9 @@ __ESTREE_TEST__:PASS:
                             "start": 68,
                             "end": 76,
                             "raw": "\"length\"",
-                            "value": "length"
+                            "value": "length",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

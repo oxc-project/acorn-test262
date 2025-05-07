@@ -129,7 +129,9 @@
             "start": 369,
             "end": 396,
             "value": "Array.isArray(a) !== true",
-            "raw": "'Array.isArray(a) !== true'"
+            "raw": "'Array.isArray(a) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,14 +189,18 @@
             "start": 426,
             "end": 427,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 429,
             "end": 439,
             "value": "a.length",
-            "raw": "'a.length'"
+            "raw": "'a.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

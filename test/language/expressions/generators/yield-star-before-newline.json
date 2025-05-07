@@ -277,7 +277,9 @@
             "start": 453,
             "end": 457,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

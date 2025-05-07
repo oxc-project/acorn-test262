@@ -75,7 +75,9 @@ __ESTREE_TEST__:PASS:
                     "start": 81,
                     "end": 91,
                     "raw": "2147024809",
-                    "value": 2147024809
+                    "value": 2147024809,
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "-",
                   "prefix": true

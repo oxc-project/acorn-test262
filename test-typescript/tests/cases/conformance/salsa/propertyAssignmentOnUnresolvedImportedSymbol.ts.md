@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 24,
         "raw": "'arglebaz'",
-        "value": "arglebaz"
+        "value": "arglebaz",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -80,7 +82,9 @@ __ESTREE_TEST__:PASS:
               "start": 39,
               "end": 40,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         }

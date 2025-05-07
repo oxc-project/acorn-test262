@@ -31,7 +31,9 @@
               "start": 245,
               "end": 257,
               "value": "use strict",
-              "raw": "'use strict'"
+              "raw": "'use strict'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -191,14 +193,18 @@
             "start": 386,
             "end": 396,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 416,
             "value": "foo.call(foobar)",
-            "raw": "'foo.call(foobar)'"
+            "raw": "'foo.call(foobar)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -270,14 +276,18 @@
             "start": 454,
             "end": 464,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 484,
             "value": "bar.call(foobar)",
-            "raw": "'bar.call(foobar)'"
+            "raw": "'bar.call(foobar)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

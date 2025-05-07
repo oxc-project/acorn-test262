@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
               "start": 12,
               "end": 15,
               "raw": "\"A\"",
-              "value": "A"
+              "value": "A",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -45,7 +47,9 @@ __ESTREE_TEST__:PASS:
               "start": 18,
               "end": 21,
               "raw": "\"B\"",
-              "value": "B"
+              "value": "B",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -119,7 +123,9 @@ __ESTREE_TEST__:PASS:
                 "start": 55,
                 "end": 58,
                 "raw": "\"A\"",
-                "value": "A"
+                "value": "A",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -156,7 +162,9 @@ __ESTREE_TEST__:PASS:
                 "start": 69,
                 "end": 72,
                 "raw": "\"A\"",
-                "value": "A"
+                "value": "A",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -231,7 +239,9 @@ __ESTREE_TEST__:PASS:
                 "start": 106,
                 "end": 109,
                 "raw": "\"B\"",
-                "value": "B"
+                "value": "B",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -268,7 +278,9 @@ __ESTREE_TEST__:PASS:
                 "start": 120,
                 "end": 123,
                 "raw": "\"B\"",
-                "value": "B"
+                "value": "B",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -554,7 +566,9 @@ __ESTREE_TEST__:PASS:
             "start": 241,
             "end": 244,
             "raw": "\"A\"",
-            "value": "A"
+            "value": "A",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -677,7 +691,9 @@ __ESTREE_TEST__:PASS:
               "start": 306,
               "end": 309,
               "raw": "\"B\"",
-              "value": "B"
+              "value": "B",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {

@@ -112,7 +112,9 @@ __ESTREE_TEST__:PASS:
             "start": 26,
             "end": 32,
             "raw": "'./w1'",
-            "value": "./w1"
+            "value": "./w1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -155,7 +157,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 31,
           "raw": "'./exporter'",
-          "value": "./exporter"
+          "value": "./exporter",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -206,7 +210,9 @@ __ESTREE_TEST__:PASS:
                       "start": 96,
                       "end": 103,
                       "raw": "'value'",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

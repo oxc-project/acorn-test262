@@ -107,7 +107,9 @@
                     "start": 545,
                     "end": 621,
                     "value": "#1: Object.prototype.isPrototypeOf(String.prototype) return true. Actual: ",
-                    "raw": "'#1: Object.prototype.isPrototypeOf(String.prototype) return true. Actual: '"
+                    "raw": "'#1: Object.prototype.isPrototypeOf(String.prototype) return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -282,7 +284,9 @@
               "start": 919,
               "end": 929,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -290,7 +294,9 @@
               "start": 932,
               "end": 940,
               "value": "String",
-              "raw": "\"String\""
+              "raw": "\"String\"",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -299,7 +305,9 @@
             "start": 943,
             "end": 946,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -332,7 +340,9 @@
                     "start": 975,
                     "end": 1109,
                     "value": "#2: delete String.prototype.toString; String.prototype.toString() == \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ==",
-                    "raw": "'#2: delete String.prototype.toString; String.prototype.toString() == \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() =='"
+                    "raw": "'#2: delete String.prototype.toString; String.prototype.toString() == \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

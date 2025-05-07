@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -427,7 +429,9 @@ __ESTREE_TEST__:PASS:
                   "start": 189,
                   "end": 190,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -446,7 +450,9 @@ __ESTREE_TEST__:PASS:
                   "start": 193,
                   "end": 211,
                   "raw": "\"That is a number\"",
-                  "value": "That is a number"
+                  "value": "That is a number",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {

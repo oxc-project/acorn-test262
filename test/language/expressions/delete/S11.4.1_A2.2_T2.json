@@ -95,7 +95,9 @@
           "start": 436,
           "end": 440,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -123,7 +125,9 @@
                   "start": 474,
                   "end": 567,
                   "value": "#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true",
-                  "raw": "'#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true'"
+                  "raw": "'#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -203,7 +207,9 @@
           "start": 644,
           "end": 648,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -231,7 +237,9 @@
                   "start": 677,
                   "end": 741,
                   "value": "#2: var MyObject = new Object(); delete MyObject.prop === true",
-                  "raw": "'#2: var MyObject = new Object(); delete MyObject.prop === true'"
+                  "raw": "'#2: var MyObject = new Object(); delete MyObject.prop === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

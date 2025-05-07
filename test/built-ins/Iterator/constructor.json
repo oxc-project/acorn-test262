@@ -49,14 +49,18 @@
             "start": 301,
             "end": 311,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 359,
             "value": "The value of `typeof Iterator` is \"function\"",
-            "raw": "'The value of `typeof Iterator` is \"function\"'"
+            "raw": "'The value of `typeof Iterator` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

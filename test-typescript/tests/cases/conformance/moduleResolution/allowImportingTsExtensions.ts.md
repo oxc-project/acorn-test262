@@ -82,7 +82,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"./ts.js\"",
-        "value": "./ts.js"
+        "value": "./ts.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -97,7 +99,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 50,
         "raw": "\"./ts.ts\"",
-        "value": "./ts.ts"
+        "value": "./ts.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -112,7 +116,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 83,
         "raw": "\"./ts.d.ts\"",
-        "value": "./ts.d.ts"
+        "value": "./ts.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -127,7 +133,9 @@ __ESTREE_TEST__:PASS:
         "start": 101,
         "end": 111,
         "raw": "\"./tsx.js\"",
-        "value": "./tsx.js"
+        "value": "./tsx.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -142,7 +150,9 @@ __ESTREE_TEST__:PASS:
         "start": 128,
         "end": 139,
         "raw": "\"./tsx.jsx\"",
-        "value": "./tsx.jsx"
+        "value": "./tsx.jsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -157,7 +167,9 @@ __ESTREE_TEST__:PASS:
         "start": 156,
         "end": 166,
         "raw": "\"./tsx.ts\"",
-        "value": "./tsx.ts"
+        "value": "./tsx.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -172,7 +184,9 @@ __ESTREE_TEST__:PASS:
         "start": 183,
         "end": 194,
         "raw": "\"./tsx.tsx\"",
-        "value": "./tsx.tsx"
+        "value": "./tsx.tsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -187,7 +201,9 @@ __ESTREE_TEST__:PASS:
         "start": 216,
         "end": 228,
         "raw": "\"./tsx.d.ts\"",
-        "value": "./tsx.d.ts"
+        "value": "./tsx.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -202,7 +218,9 @@ __ESTREE_TEST__:PASS:
         "start": 246,
         "end": 256,
         "raw": "\"./dts.js\"",
-        "value": "./dts.js"
+        "value": "./dts.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -217,7 +235,9 @@ __ESTREE_TEST__:PASS:
         "start": 273,
         "end": 283,
         "raw": "\"./dts.ts\"",
-        "value": "./dts.ts"
+        "value": "./dts.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -232,7 +252,9 @@ __ESTREE_TEST__:PASS:
         "start": 305,
         "end": 317,
         "raw": "\"./dts.d.ts\"",
-        "value": "./dts.d.ts"
+        "value": "./dts.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -259,7 +281,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 42,
         "raw": "\"./thisfiledoesnotexist.ts\"",
-        "value": "./thisfiledoesnotexist.ts"
+        "value": "./thisfiledoesnotexist.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

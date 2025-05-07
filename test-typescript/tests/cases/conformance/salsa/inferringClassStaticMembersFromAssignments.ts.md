@@ -81,7 +81,9 @@ __ESTREE_TEST__:PASS:
           "start": 36,
           "end": 37,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -161,7 +163,9 @@ __ESTREE_TEST__:PASS:
           "start": 81,
           "end": 82,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -257,7 +261,9 @@ __ESTREE_TEST__:PASS:
           "start": 128,
           "end": 129,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -353,7 +359,9 @@ __ESTREE_TEST__:PASS:
           "start": 181,
           "end": 182,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -436,7 +444,9 @@ __ESTREE_TEST__:PASS:
           "start": 29,
           "end": 30,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -507,7 +517,9 @@ __ESTREE_TEST__:PASS:
           "start": 67,
           "end": 68,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -594,7 +606,9 @@ __ESTREE_TEST__:PASS:
           "start": 107,
           "end": 108,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -681,7 +695,9 @@ __ESTREE_TEST__:PASS:
           "start": 153,
           "end": 154,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         }
       }
     }
@@ -708,7 +724,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 24,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

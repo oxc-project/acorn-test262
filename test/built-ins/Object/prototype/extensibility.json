@@ -69,7 +69,9 @@
             "start": 557,
             "end": 589,
             "value": "Object.prototype is extensible",
-            "raw": "\"Object.prototype is extensible\""
+            "raw": "\"Object.prototype is extensible\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,7 +175,9 @@
             "start": 680,
             "end": 728,
             "value": "Object.prototype may have extensions prevented",
-            "raw": "\"Object.prototype may have extensions prevented\""
+            "raw": "\"Object.prototype may have extensions prevented\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,14 +262,18 @@
             "start": 794,
             "end": 799,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 875,
             "value": "Object.prototype is not extensible after a preventExtensions operation",
-            "raw": "\"Object.prototype is not extensible after a preventExtensions operation\""
+            "raw": "\"Object.prototype is not extensible after a preventExtensions operation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

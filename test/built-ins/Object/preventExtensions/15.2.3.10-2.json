@@ -148,7 +148,9 @@
             "start": 456,
             "end": 460,
             "value": "o2",
-            "raw": "'o2'"
+            "raw": "'o2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,14 +222,18 @@
             "start": 505,
             "end": 510,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 537,
             "value": "Object.isExtensible(o2)",
-            "raw": "'Object.isExtensible(o2)'"
+            "raw": "'Object.isExtensible(o2)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

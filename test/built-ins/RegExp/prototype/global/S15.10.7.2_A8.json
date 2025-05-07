@@ -98,7 +98,9 @@
                 "start": 396,
                 "end": 404,
                 "value": "global",
-                "raw": "'global'"
+                "raw": "'global'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,14 +110,18 @@
             "start": 407,
             "end": 411,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 463,
             "value": "__re.hasOwnProperty('global') must return true",
-            "raw": "'__re.hasOwnProperty(\\'global\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'global\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +184,9 @@
                 "start": 513,
                 "end": 521,
                 "value": "global",
-                "raw": "'global'"
+                "raw": "'global'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -188,14 +196,18 @@
             "start": 526,
             "end": 531,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 535,
             "end": 592,
             "value": "__re.propertyIsEnumerable('global') must return false",
-            "raw": "'__re.propertyIsEnumerable(\\'global\\') must return false'"
+            "raw": "'__re.propertyIsEnumerable(\\'global\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,7 +233,9 @@
             "start": 609,
             "end": 610,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -282,7 +296,9 @@
                 "start": 642,
                 "end": 650,
                 "value": "global",
-                "raw": "\"global\""
+                "raw": "\"global\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -354,14 +370,18 @@
             "start": 700,
             "end": 701,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 743,
             "value": "The value of count is expected to be 0",
-            "raw": "'The value of count is expected to be 0'"
+            "raw": "'The value of count is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

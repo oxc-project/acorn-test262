@@ -126,7 +126,9 @@
                         "start": 1119,
                         "end": 1128,
                         "value": "Test262",
-                        "raw": "'Test262'"
+                        "raw": "'Test262'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -224,7 +226,9 @@
             "start": 1195,
             "end": 1268,
             "value": "set operation on private accessor without setter should throw TypeError",
-            "raw": "'set operation on private accessor without setter should throw TypeError'"
+            "raw": "'set operation on private accessor without setter should throw TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

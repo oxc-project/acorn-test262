@@ -73,7 +73,9 @@
                 "start": 333,
                 "end": 349,
                 "value": "toLocaleString",
-                "raw": "\"toLocaleString\""
+                "raw": "\"toLocaleString\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 354,
             "end": 358,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 430,
             "value": "Number.prototype.hasOwnProperty(\"toLocaleString\") must return true",
-            "raw": "'Number.prototype.hasOwnProperty(\"toLocaleString\") must return true'"
+            "raw": "'Number.prototype.hasOwnProperty(\"toLocaleString\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

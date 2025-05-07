@@ -48,6 +48,7 @@
                 "end": 320,
                 "value": null,
                 "raw": "217175010123456789n",
+                "regex": null,
                 "bigint": "217175010123456789"
               }
             ]
@@ -107,7 +108,9 @@
             "start": 373,
             "end": 392,
             "value": "BigInt instanceof",
-            "raw": "\"BigInt instanceof\""
+            "raw": "\"BigInt instanceof\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,14 +168,18 @@
             "start": 445,
             "end": 457,
             "value": 217175010123,
-            "raw": "217175010123"
+            "raw": "217175010123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 485,
             "value": "BigInt epochMilliseconds",
-            "raw": "\"BigInt epochMilliseconds\""
+            "raw": "\"BigInt epochMilliseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,7 +229,9 @@
                 "start": 532,
                 "end": 552,
                 "value": "217175010123456789",
-                "raw": "\"217175010123456789\""
+                "raw": "\"217175010123456789\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -281,7 +290,9 @@
             "start": 605,
             "end": 624,
             "value": "String instanceof",
-            "raw": "\"String instanceof\""
+            "raw": "\"String instanceof\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -339,14 +350,18 @@
             "start": 677,
             "end": 689,
             "value": 217175010123,
-            "raw": "217175010123"
+            "raw": "217175010123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 691,
             "end": 717,
             "value": "String epochMilliseconds",
-            "raw": "\"String epochMilliseconds\""
+            "raw": "\"String epochMilliseconds\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -424,7 +439,9 @@
                   "start": 775,
                   "end": 783,
                   "value": "abc123",
-                  "raw": "\"abc123\""
+                  "raw": "\"abc123\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -434,7 +451,9 @@
             "start": 786,
             "end": 809,
             "value": "invalid BigInt syntax",
-            "raw": "\"invalid BigInt syntax\""
+            "raw": "\"invalid BigInt syntax\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -71,7 +71,9 @@
                 "start": 372,
                 "end": 382,
                 "value": "toString",
-                "raw": "\"toString\""
+                "raw": "\"toString\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -81,14 +83,18 @@
             "start": 387,
             "end": 392,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 457,
             "value": "(new Number()).hasOwnProperty(\"toString\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toString\") must return false'"
+            "raw": "'(new Number()).hasOwnProperty(\"toString\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +195,9 @@
             "start": 538,
             "end": 636,
             "value": "The value of (new Number()).toString is expected to equal the value of Number.prototype.toString",
-            "raw": "'The value of (new Number()).toString is expected to equal the value of Number.prototype.toString'"
+            "raw": "'The value of (new Number()).toString is expected to equal the value of Number.prototype.toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

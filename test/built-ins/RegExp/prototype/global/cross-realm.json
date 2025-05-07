@@ -70,7 +70,9 @@
                   "start": 644,
                   "end": 652,
                   "value": "global",
-                  "raw": "'global'"
+                  "raw": "'global'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -251,7 +253,9 @@
                   "start": 819,
                   "end": 827,
                   "value": "global",
-                  "raw": "'global'"
+                  "raw": "'global'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -363,7 +367,9 @@
             "start": 906,
             "end": 936,
             "value": "cross-realm RegExp.prototype",
-            "raw": "'cross-realm RegExp.prototype'"
+            "raw": "'cross-realm RegExp.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -489,7 +495,9 @@
             "start": 1031,
             "end": 1114,
             "value": "cross-realm RegExp.prototype getter method against primary realm RegExp.prototype",
-            "raw": "'cross-realm RegExp.prototype getter method against primary realm RegExp.prototype'"
+            "raw": "'cross-realm RegExp.prototype getter method against primary realm RegExp.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

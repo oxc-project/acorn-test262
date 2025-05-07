@@ -84,7 +84,9 @@ __ESTREE_TEST__:PASS:
               "start": 42,
               "end": 60,
               "raw": "\"Interrupted CRLF\"",
-              "value": "Interrupted CRLF"
+              "value": "Interrupted CRLF",
+              "regex": null,
+              "bigint": null
             }
           ],
           "quasis": [

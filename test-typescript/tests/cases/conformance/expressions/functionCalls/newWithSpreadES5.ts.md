@@ -450,7 +450,9 @@ __ESTREE_TEST__:PASS:
               "start": 258,
               "end": 263,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -511,7 +513,9 @@ __ESTREE_TEST__:PASS:
               "start": 296,
               "end": 297,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -1014,21 +1018,27 @@ __ESTREE_TEST__:PASS:
             "start": 472,
             "end": 473,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 475,
             "end": 476,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 486,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1058,14 +1068,18 @@ __ESTREE_TEST__:PASS:
             "start": 495,
             "end": 496,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 499,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1109,14 +1123,18 @@ __ESTREE_TEST__:PASS:
             "start": 514,
             "end": 515,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 518,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1137,7 +1155,9 @@ __ESTREE_TEST__:PASS:
             "start": 526,
             "end": 534,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1218,14 +1238,18 @@ __ESTREE_TEST__:PASS:
             "start": 594,
             "end": 595,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 598,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1288,21 +1312,27 @@ __ESTREE_TEST__:PASS:
               "start": 639,
               "end": 640,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 642,
               "end": 643,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 645,
               "end": 653,
               "raw": "\"string\"",
-              "value": "string"
+              "value": "string",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {
@@ -1340,14 +1370,18 @@ __ESTREE_TEST__:PASS:
               "start": 664,
               "end": 665,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 667,
               "end": 668,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",
@@ -1399,14 +1433,18 @@ __ESTREE_TEST__:PASS:
               "start": 685,
               "end": 686,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 688,
               "end": 689,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "SpreadElement",
@@ -1427,7 +1465,9 @@ __ESTREE_TEST__:PASS:
               "start": 697,
               "end": 705,
               "raw": "\"string\"",
-              "value": "string"
+              "value": "string",
+              "regex": null,
+              "bigint": null
             }
           ],
           "callee": {
@@ -1460,21 +1500,27 @@ __ESTREE_TEST__:PASS:
             "start": 749,
             "end": 750,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 752,
             "end": 753,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 763,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1520,14 +1566,18 @@ __ESTREE_TEST__:PASS:
             "start": 774,
             "end": 775,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 777,
             "end": 778,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1587,14 +1637,18 @@ __ESTREE_TEST__:PASS:
             "start": 795,
             "end": 796,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 798,
             "end": 799,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1615,7 +1669,9 @@ __ESTREE_TEST__:PASS:
             "start": 807,
             "end": 815,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1661,21 +1717,27 @@ __ESTREE_TEST__:PASS:
             "start": 858,
             "end": 859,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 861,
             "end": 862,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 864,
             "end": 872,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1721,14 +1783,18 @@ __ESTREE_TEST__:PASS:
             "start": 885,
             "end": 886,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 888,
             "end": 889,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1788,14 +1854,18 @@ __ESTREE_TEST__:PASS:
             "start": 908,
             "end": 909,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 911,
             "end": 912,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1816,7 +1886,9 @@ __ESTREE_TEST__:PASS:
             "start": 920,
             "end": 928,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1862,21 +1934,27 @@ __ESTREE_TEST__:PASS:
             "start": 973,
             "end": 974,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 976,
             "end": 977,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 979,
             "end": 987,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1904,7 +1982,9 @@ __ESTREE_TEST__:PASS:
               "start": 968,
               "end": 969,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -1936,14 +2016,18 @@ __ESTREE_TEST__:PASS:
             "start": 1001,
             "end": 1002,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1004,
             "end": 1005,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -1985,7 +2069,9 @@ __ESTREE_TEST__:PASS:
               "start": 996,
               "end": 997,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -2017,14 +2103,18 @@ __ESTREE_TEST__:PASS:
             "start": 1025,
             "end": 1026,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1028,
             "end": 1029,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2045,7 +2135,9 @@ __ESTREE_TEST__:PASS:
             "start": 1037,
             "end": 1045,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2073,7 +2165,9 @@ __ESTREE_TEST__:PASS:
               "start": 1020,
               "end": 1021,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -2105,21 +2199,27 @@ __ESTREE_TEST__:PASS:
             "start": 1115,
             "end": 1116,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1118,
             "end": 1119,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1121,
             "end": 1129,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2147,7 +2247,9 @@ __ESTREE_TEST__:PASS:
               "start": 1106,
               "end": 1111,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -2179,14 +2281,18 @@ __ESTREE_TEST__:PASS:
             "start": 1147,
             "end": 1148,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1150,
             "end": 1151,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2228,7 +2334,9 @@ __ESTREE_TEST__:PASS:
               "start": 1138,
               "end": 1143,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -2260,14 +2368,18 @@ __ESTREE_TEST__:PASS:
             "start": 1175,
             "end": 1176,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1178,
             "end": 1179,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2288,7 +2400,9 @@ __ESTREE_TEST__:PASS:
             "start": 1187,
             "end": 1195,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2316,7 +2430,9 @@ __ESTREE_TEST__:PASS:
               "start": 1166,
               "end": 1171,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -2348,21 +2464,27 @@ __ESTREE_TEST__:PASS:
             "start": 1225,
             "end": 1226,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1228,
             "end": 1229,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1231,
             "end": 1239,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2392,14 +2514,18 @@ __ESTREE_TEST__:PASS:
             "start": 1248,
             "end": 1249,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1251,
             "end": 1252,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2443,14 +2569,18 @@ __ESTREE_TEST__:PASS:
             "start": 1267,
             "end": 1268,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1270,
             "end": 1271,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2471,7 +2601,9 @@ __ESTREE_TEST__:PASS:
             "start": 1279,
             "end": 1287,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2501,21 +2633,27 @@ __ESTREE_TEST__:PASS:
             "start": 1334,
             "end": 1335,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1337,
             "end": 1338,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1340,
             "end": 1348,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2538,7 +2676,9 @@ __ESTREE_TEST__:PASS:
             "start": 1327,
             "end": 1332,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -2559,14 +2699,18 @@ __ESTREE_TEST__:PASS:
             "start": 1364,
             "end": 1365,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1367,
             "end": 1368,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2603,7 +2747,9 @@ __ESTREE_TEST__:PASS:
             "start": 1357,
             "end": 1362,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -2624,14 +2770,18 @@ __ESTREE_TEST__:PASS:
             "start": 1390,
             "end": 1391,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1393,
             "end": 1394,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2652,7 +2802,9 @@ __ESTREE_TEST__:PASS:
             "start": 1402,
             "end": 1410,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2675,7 +2827,9 @@ __ESTREE_TEST__:PASS:
             "start": 1383,
             "end": 1388,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -2696,21 +2850,27 @@ __ESTREE_TEST__:PASS:
             "start": 1457,
             "end": 1458,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1460,
             "end": 1461,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1463,
             "end": 1471,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2733,7 +2893,9 @@ __ESTREE_TEST__:PASS:
             "start": 1449,
             "end": 1454,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -2754,14 +2916,18 @@ __ESTREE_TEST__:PASS:
             "start": 1489,
             "end": 1490,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1492,
             "end": 1493,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2798,7 +2964,9 @@ __ESTREE_TEST__:PASS:
             "start": 1481,
             "end": 1486,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -2819,14 +2987,18 @@ __ESTREE_TEST__:PASS:
             "start": 1517,
             "end": 1518,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1520,
             "end": 1521,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -2847,7 +3019,9 @@ __ESTREE_TEST__:PASS:
             "start": 1529,
             "end": 1537,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2870,7 +3044,9 @@ __ESTREE_TEST__:PASS:
             "start": 1509,
             "end": 1514,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -2891,21 +3067,27 @@ __ESTREE_TEST__:PASS:
             "start": 1586,
             "end": 1587,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1589,
             "end": 1590,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1592,
             "end": 1600,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -2933,7 +3115,9 @@ __ESTREE_TEST__:PASS:
               "start": 1576,
               "end": 1577,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -2942,7 +3126,9 @@ __ESTREE_TEST__:PASS:
             "start": 1579,
             "end": 1584,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -2963,14 +3149,18 @@ __ESTREE_TEST__:PASS:
             "start": 1619,
             "end": 1620,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1622,
             "end": 1623,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -3012,7 +3202,9 @@ __ESTREE_TEST__:PASS:
               "start": 1609,
               "end": 1610,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3021,7 +3213,9 @@ __ESTREE_TEST__:PASS:
             "start": 1612,
             "end": 1617,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -3042,14 +3236,18 @@ __ESTREE_TEST__:PASS:
             "start": 1648,
             "end": 1649,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1651,
             "end": 1652,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -3070,7 +3268,9 @@ __ESTREE_TEST__:PASS:
             "start": 1660,
             "end": 1668,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -3098,7 +3298,9 @@ __ESTREE_TEST__:PASS:
               "start": 1638,
               "end": 1639,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3107,7 +3309,9 @@ __ESTREE_TEST__:PASS:
             "start": 1641,
             "end": 1646,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -3128,21 +3332,27 @@ __ESTREE_TEST__:PASS:
             "start": 1743,
             "end": 1744,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1746,
             "end": 1747,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1749,
             "end": 1757,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -3170,7 +3380,9 @@ __ESTREE_TEST__:PASS:
               "start": 1729,
               "end": 1734,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3179,7 +3391,9 @@ __ESTREE_TEST__:PASS:
             "start": 1736,
             "end": 1741,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -3200,14 +3414,18 @@ __ESTREE_TEST__:PASS:
             "start": 1780,
             "end": 1781,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1783,
             "end": 1784,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -3249,7 +3467,9 @@ __ESTREE_TEST__:PASS:
               "start": 1766,
               "end": 1771,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3258,7 +3478,9 @@ __ESTREE_TEST__:PASS:
             "start": 1773,
             "end": 1778,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -3279,14 +3501,18 @@ __ESTREE_TEST__:PASS:
             "start": 1813,
             "end": 1814,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1816,
             "end": 1817,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -3307,7 +3533,9 @@ __ESTREE_TEST__:PASS:
             "start": 1825,
             "end": 1833,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -3335,7 +3563,9 @@ __ESTREE_TEST__:PASS:
               "start": 1799,
               "end": 1804,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3344,7 +3574,9 @@ __ESTREE_TEST__:PASS:
             "start": 1806,
             "end": 1811,
             "raw": "\"a-b\"",
-            "value": "a-b"
+            "value": "a-b",
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -3365,21 +3597,27 @@ __ESTREE_TEST__:PASS:
             "start": 1896,
             "end": 1897,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1899,
             "end": 1900,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1902,
             "end": 1910,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -3407,7 +3645,9 @@ __ESTREE_TEST__:PASS:
               "start": 1886,
               "end": 1891,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3416,7 +3656,9 @@ __ESTREE_TEST__:PASS:
             "start": 1893,
             "end": 1894,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -3437,14 +3679,18 @@ __ESTREE_TEST__:PASS:
             "start": 1929,
             "end": 1930,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1932,
             "end": 1933,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -3486,7 +3732,9 @@ __ESTREE_TEST__:PASS:
               "start": 1919,
               "end": 1924,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3495,7 +3743,9 @@ __ESTREE_TEST__:PASS:
             "start": 1926,
             "end": 1927,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null
@@ -3516,14 +3766,18 @@ __ESTREE_TEST__:PASS:
             "start": 1958,
             "end": 1959,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1961,
             "end": 1962,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "SpreadElement",
@@ -3544,7 +3798,9 @@ __ESTREE_TEST__:PASS:
             "start": 1970,
             "end": 1978,
             "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -3572,7 +3828,9 @@ __ESTREE_TEST__:PASS:
               "start": 1948,
               "end": 1953,
               "raw": "\"a-b\"",
-              "value": "a-b"
+              "value": "a-b",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,
@@ -3581,7 +3839,9 @@ __ESTREE_TEST__:PASS:
             "start": 1955,
             "end": 1956,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         },
         "typeArguments": null

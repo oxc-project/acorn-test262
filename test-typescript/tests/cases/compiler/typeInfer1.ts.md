@@ -393,7 +393,9 @@ __ESTREE_TEST__:PASS:
                           "start": 253,
                           "end": 258,
                           "raw": "\"cow\"",
-                          "value": "cow"
+                          "value": "cow",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]

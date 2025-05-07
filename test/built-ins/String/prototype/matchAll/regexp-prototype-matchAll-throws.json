@@ -158,7 +158,9 @@
                         "start": 619,
                         "end": 621,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -179,7 +181,8 @@
                         "regex": {
                           "pattern": ".",
                           "flags": "g"
-                        }
+                        },
+                        "bigint": null
                       }
                     ],
                     "optional": false

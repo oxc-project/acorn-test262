@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 23,
         "raw": "\"jquery\"",
-        "value": "jquery"
+        "value": "jquery",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -44,7 +46,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 24,
         "raw": "\"jquery\"",
-        "value": "jquery"
+        "value": "jquery",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -97,7 +101,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "\"jquery\"",
-        "value": "jquery"
+        "value": "jquery",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -123,7 +129,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 29,
         "raw": "\"./reExportX\"",
-        "value": "./reExportX"
+        "value": "./reExportX",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -163,7 +171,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 65,
         "raw": "\"./reExportAll\"",
-        "value": "./reExportAll"
+        "value": "./reExportAll",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

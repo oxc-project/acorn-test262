@@ -70,7 +70,9 @@
                               "start": 621,
                               "end": 646,
                               "value": "ToPropertyKey performed",
-                              "raw": "\"ToPropertyKey performed\""
+                              "raw": "\"ToPropertyKey performed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

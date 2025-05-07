@@ -58,7 +58,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 55,
         "raw": "\"foo\"",
-        "value": "foo"
+        "value": "foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -146,7 +148,9 @@ __ESTREE_TEST__:PASS:
             "start": 79,
             "end": 80,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

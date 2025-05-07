@@ -86,14 +86,18 @@
                 "start": 294,
                 "end": 299,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 301,
                 "end": 304,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -103,14 +107,18 @@
             "start": 307,
             "end": 308,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 310,
             "end": 352,
             "value": "Array.prototype.indexOf.call(\"abc\", \"b\")",
-            "raw": "'Array.prototype.indexOf.call(\"abc\", \"b\")'"
+            "raw": "'Array.prototype.indexOf.call(\"abc\", \"b\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

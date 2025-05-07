@@ -1660,7 +1660,9 @@ __ESTREE_TEST__:PASS:
                         "start": 704,
                         "end": 706,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -1686,7 +1688,9 @@ __ESTREE_TEST__:PASS:
                         "start": 719,
                         "end": 720,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1715,7 +1719,9 @@ __ESTREE_TEST__:PASS:
                   "start": 736,
                   "end": 741,
                   "raw": "false",
-                  "value": false
+                  "value": false,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1787,14 +1793,18 @@ __ESTREE_TEST__:PASS:
                     "start": 783,
                     "end": 786,
                     "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 788,
                     "end": 791,
                     "raw": "'b'",
-                    "value": "b"
+                    "value": "b",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -1803,7 +1813,9 @@ __ESTREE_TEST__:PASS:
                 "start": 794,
                 "end": 799,
                 "raw": "'why'",
-                "value": "why"
+                "value": "why",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

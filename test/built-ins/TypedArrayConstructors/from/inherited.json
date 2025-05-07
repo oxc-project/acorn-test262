@@ -110,7 +110,9 @@
                         "start": 560,
                         "end": 599,
                         "value": "method is inherited %TypedArray%.from",
-                        "raw": "\"method is inherited %TypedArray%.from\""
+                        "raw": "\"method is inherited %TypedArray%.from\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -173,7 +175,9 @@
                             "start": 647,
                             "end": 653,
                             "value": "from",
-                            "raw": "\"from\""
+                            "raw": "\"from\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -183,14 +187,18 @@
                         "start": 656,
                         "end": 661,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 667,
                         "end": 725,
                         "value": "constructor does not define an own property named 'from'",
-                        "raw": "\"constructor does not define an own property named 'from'\""
+                        "raw": "\"constructor does not define an own property named 'from'\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

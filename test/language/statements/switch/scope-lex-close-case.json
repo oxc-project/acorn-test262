@@ -23,7 +23,9 @@
             "start": 800,
             "end": 809,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -70,7 +72,9 @@
         "start": 840,
         "end": 844,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -98,7 +102,9 @@
                     "start": 873,
                     "end": 881,
                     "value": "inside",
-                    "raw": "'inside'"
+                    "raw": "'inside'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -155,7 +161,9 @@
             "start": 855,
             "end": 859,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -214,7 +222,9 @@
             "start": 929,
             "end": 933,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -265,14 +275,18 @@
             "start": 1004,
             "end": 1012,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1014,
             "end": 1040,
             "value": "from first `case` clause",
-            "raw": "'from first `case` clause'"
+            "raw": "'from first `case` clause'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,14 +338,18 @@
             "start": 1070,
             "end": 1078,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1107,
             "value": "from second `case` clause",
-            "raw": "'from second `case` clause'"
+            "raw": "'from second `case` clause'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,7 +394,9 @@
             "start": 1130,
             "end": 1139,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

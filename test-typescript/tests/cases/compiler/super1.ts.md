@@ -54,7 +54,9 @@ __ESTREE_TEST__:PASS:
                       "start": 58,
                       "end": 64,
                       "raw": "\"base\"",
-                      "value": "base"
+                      "value": "base",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -135,7 +137,9 @@ __ESTREE_TEST__:PASS:
                       "start": 136,
                       "end": 142,
                       "raw": "\"base\"",
-                      "value": "base"
+                      "value": "base",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -343,7 +347,9 @@ __ESTREE_TEST__:PASS:
                       "start": 300,
                       "end": 306,
                       "raw": "\"base\"",
-                      "value": "base"
+                      "value": "base",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -466,7 +472,9 @@ __ESTREE_TEST__:PASS:
                         "start": 401,
                         "end": 405,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -556,7 +564,9 @@ __ESTREE_TEST__:PASS:
                       "start": 474,
                       "end": 480,
                       "raw": "\"base\"",
-                      "value": "base"
+                      "value": "base",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -757,7 +767,9 @@ __ESTREE_TEST__:PASS:
                             "start": 656,
                             "end": 663,
                             "raw": "\"hello\"",
-                            "value": "hello"
+                            "value": "hello",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

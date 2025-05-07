@@ -90,7 +90,9 @@
                   "start": 301,
                   "end": 305,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -108,14 +110,18 @@
             "start": 329,
             "end": 333,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 445,
             "value": "The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true'"
+            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,7 +214,9 @@
                   "start": 501,
                   "end": 506,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -226,14 +234,18 @@
             "start": 530,
             "end": 534,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 647,
             "value": "The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true'"
+            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

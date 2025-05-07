@@ -151,7 +151,9 @@ __ESTREE_TEST__:PASS:
                 "start": 143,
                 "end": 147,
                 "raw": "\"no\"",
-                "value": "no"
+                "value": "no",
+                "regex": null,
+                "bigint": null
               }
             }
           }

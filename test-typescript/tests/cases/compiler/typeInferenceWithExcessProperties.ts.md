@@ -225,7 +225,9 @@ __ESTREE_TEST__:PASS:
                   "start": 146,
                   "end": 158,
                   "raw": "\"TypeScript\"",
-                  "value": "TypeScript"
+                  "value": "TypeScript",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -282,7 +284,9 @@ __ESTREE_TEST__:PASS:
                   "start": 184,
                   "end": 196,
                   "raw": "\"TypeScript\"",
-                  "value": "TypeScript"
+                  "value": "TypeScript",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -308,7 +312,9 @@ __ESTREE_TEST__:PASS:
                   "start": 207,
                   "end": 208,
                   "raw": "5",
-                  "value": 5
+                  "value": 5,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -365,7 +371,9 @@ __ESTREE_TEST__:PASS:
                   "start": 234,
                   "end": 246,
                   "raw": "\"TypeScript\"",
-                  "value": "TypeScript"
+                  "value": "TypeScript",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -460,7 +468,9 @@ __ESTREE_TEST__:PASS:
                   "start": 298,
                   "end": 310,
                   "raw": "\"TypeScript\"",
-                  "value": "TypeScript"
+                  "value": "TypeScript",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {

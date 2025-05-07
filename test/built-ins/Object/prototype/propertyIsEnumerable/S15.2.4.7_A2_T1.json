@@ -75,14 +75,18 @@
             "start": 671,
             "end": 681,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 685,
             "end": 775,
             "value": "The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -151,7 +155,9 @@
                   "start": 829,
                   "end": 851,
                   "value": "propertyIsEnumerable",
-                  "raw": "\"propertyIsEnumerable\""
+                  "raw": "\"propertyIsEnumerable\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -162,7 +168,9 @@
             "start": 856,
             "end": 956,
             "value": "The value of !Object.prototype.propertyIsEnumerable(\"propertyIsEnumerable\") is expected to be true",
-            "raw": "'The value of !Object.prototype.propertyIsEnumerable(\"propertyIsEnumerable\") is expected to be true'"
+            "raw": "'The value of !Object.prototype.propertyIsEnumerable(\"propertyIsEnumerable\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

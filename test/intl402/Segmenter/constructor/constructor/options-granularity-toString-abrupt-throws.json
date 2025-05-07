@@ -199,7 +199,9 @@
             "start": 756,
             "end": 771,
             "value": "from toString",
-            "raw": "'from toString'"
+            "raw": "'from toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -411,7 +413,9 @@
             "start": 955,
             "end": 969,
             "value": "from valueOf",
-            "raw": "'from valueOf'"
+            "raw": "'from valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,7 +619,9 @@
             "start": 1143,
             "end": 1161,
             "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "raw": "'from ToPrimitive'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -763,7 +769,9 @@
             "start": 1276,
             "end": 1290,
             "value": "symbol value",
-            "raw": "'symbol value'"
+            "raw": "'symbol value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

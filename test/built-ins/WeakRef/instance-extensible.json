@@ -107,7 +107,9 @@
             "start": 929,
             "end": 933,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

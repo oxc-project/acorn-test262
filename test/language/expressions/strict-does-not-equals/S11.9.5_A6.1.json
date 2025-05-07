@@ -50,7 +50,9 @@
                   "start": 338,
                   "end": 367,
                   "value": "#1: undefined === undefined",
-                  "raw": "'#1: undefined === undefined'"
+                  "raw": "'#1: undefined === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -78,7 +80,9 @@
             "start": 392,
             "end": 393,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -114,7 +118,9 @@
                   "start": 436,
                   "end": 462,
                   "value": "#2: void 0 === undefined",
-                  "raw": "'#2: void 0 === undefined'"
+                  "raw": "'#2: void 0 === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -154,7 +160,9 @@
               "start": 501,
               "end": 508,
               "value": "var x",
-              "raw": "\"var x\""
+              "raw": "\"var x\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -185,7 +193,9 @@
                   "start": 538,
                   "end": 571,
                   "value": "#3: undefined === eval(\"var x\")",
-                  "raw": "'#3: undefined === eval(\"var x\")'"
+                  "raw": "'#3: undefined === eval(\"var x\")'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

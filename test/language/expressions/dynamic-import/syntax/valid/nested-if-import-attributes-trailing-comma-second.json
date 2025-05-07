@@ -12,7 +12,9 @@
         "start": 1286,
         "end": 1290,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -32,7 +34,9 @@
                 "start": 1303,
                 "end": 1323,
                 "value": "./empty_FIXTURE.js",
-                "raw": "'./empty_FIXTURE.js'"
+                "raw": "'./empty_FIXTURE.js'",
+                "regex": null,
+                "bigint": null
               },
               "options": {
                 "type": "ObjectExpression",

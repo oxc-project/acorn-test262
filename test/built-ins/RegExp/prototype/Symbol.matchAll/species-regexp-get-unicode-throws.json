@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -143,14 +144,17 @@
                             "regex": {
                               "pattern": ".",
                               "flags": ""
-                            }
+                            },
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 723,
                             "end": 732,
                             "value": "unicode",
-                            "raw": "'unicode'"
+                            "raw": "'unicode'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -267,7 +271,9 @@
             "start": 832,
             "end": 834,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

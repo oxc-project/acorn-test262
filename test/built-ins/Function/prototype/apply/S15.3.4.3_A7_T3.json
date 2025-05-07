@@ -23,7 +23,9 @@
             "start": 453,
             "end": 454,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -89,7 +91,9 @@
                             "start": 503,
                             "end": 506,
                             "value": "a",
-                            "raw": "\"a\""
+                            "raw": "\"a\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -182,14 +186,18 @@
                 "start": 551,
                 "end": 558,
                 "value": "a2,a3",
-                "raw": "\"a2,a3\""
+                "raw": "\"a2,a3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 560,
                 "end": 578,
                 "value": "this.shifted=a1;",
-                "raw": "\"this.shifted=a1;\""
+                "raw": "\"this.shifted=a1;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -226,21 +234,27 @@
                 "start": 601,
                 "end": 607,
                 "value": "nine",
-                "raw": "\"nine\""
+                "raw": "\"nine\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 609,
                 "end": 615,
                 "value": "inch",
-                "raw": "\"inch\""
+                "raw": "\"inch\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 617,
                 "end": 624,
                 "value": "nails",
-                "raw": "\"nails\""
+                "raw": "\"nails\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -291,7 +305,9 @@
               "start": 650,
               "end": 659,
               "value": "shifted",
-              "raw": "\"shifted\""
+              "raw": "\"shifted\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -301,14 +317,18 @@
             "start": 662,
             "end": 668,
             "value": "nine",
-            "raw": "\"nine\""
+            "raw": "\"nine\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 724,
             "value": "The value of obj[\"shifted\"] is expected to be \"nine\"",
-            "raw": "'The value of obj[\"shifted\"] is expected to be \"nine\"'"
+            "raw": "'The value of obj[\"shifted\"] is expected to be \"nine\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -362,7 +382,9 @@
                 "start": 760,
                 "end": 769,
                 "value": "shifted",
-                "raw": "\"shifted\""
+                "raw": "\"shifted\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -373,14 +395,18 @@
             "start": 774,
             "end": 785,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 858,
             "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

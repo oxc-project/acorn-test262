@@ -106,7 +106,9 @@
             "start": 717,
             "end": 773,
             "value": "RegExp.leftContext getter throws for subclass receiver",
-            "raw": "\"RegExp.leftContext getter throws for subclass receiver\""
+            "raw": "\"RegExp.leftContext getter throws for subclass receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +181,9 @@
                       "start": 835,
                       "end": 839,
                       "value": "$`",
-                      "raw": "\"$`\""
+                      "raw": "\"$`\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -193,7 +197,9 @@
             "start": 849,
             "end": 896,
             "value": "RegExp.$` getter throws for subclass receiver",
-            "raw": "\"RegExp.$` getter throws for subclass receiver\""
+            "raw": "\"RegExp.$` getter throws for subclass receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

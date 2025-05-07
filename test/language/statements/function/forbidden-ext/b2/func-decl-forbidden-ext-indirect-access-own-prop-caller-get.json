@@ -91,7 +91,9 @@
                     "start": 1067,
                     "end": 1075,
                     "value": "caller",
-                    "raw": "\"caller\""
+                    "raw": "\"caller\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -146,7 +148,9 @@
             "start": 1157,
             "end": 1158,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -180,7 +184,9 @@
               "start": 1177,
               "end": 1189,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -234,7 +240,9 @@
                       "start": 1534,
                       "end": 1542,
                       "value": "caller",
-                      "raw": "\"caller\""
+                      "raw": "\"caller\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -288,7 +296,9 @@
                 "start": 1592,
                 "end": 1596,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -335,7 +345,9 @@
                         "start": 1633,
                         "end": 1641,
                         "value": "caller",
-                        "raw": "\"caller\""
+                        "raw": "\"caller\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -378,7 +390,9 @@
                                       "start": 1657,
                                       "end": 1658,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -473,7 +487,9 @@
                 "start": 1738,
                 "end": 1742,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -520,14 +536,18 @@
                         "start": 1775,
                         "end": 1776,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1778,
                         "end": 1920,
                         "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
-                        "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
+                        "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -690,14 +710,18 @@
             "start": 2457,
             "end": 2458,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2460,
             "end": 2476,
             "value": "body evaluated",
-            "raw": "'body evaluated'"
+            "raw": "'body evaluated'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 40,
                 "end": 43,
                 "raw": "\"A\"",
-                "value": "A"
+                "value": "A",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -83,7 +85,9 @@ __ESTREE_TEST__:PASS:
                 "start": 63,
                 "end": 66,
                 "raw": "\"B\"",
-                "value": "B"
+                "value": "B",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -395,7 +399,9 @@ __ESTREE_TEST__:PASS:
                     "start": 269,
                     "end": 275,
                     "raw": "'type'",
-                    "value": "type"
+                    "value": "type",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {

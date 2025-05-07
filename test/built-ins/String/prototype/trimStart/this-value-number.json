@@ -120,14 +120,18 @@
             "start": 550,
             "end": 555,
             "value": "NaN",
-            "raw": "'NaN'"
+            "raw": "'NaN'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 597,
             "value": "String.prototype.trimStart.call(NaN)",
-            "raw": "'String.prototype.trimStart.call(NaN)'"
+            "raw": "'String.prototype.trimStart.call(NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,14 +203,18 @@
             "start": 650,
             "end": 660,
             "value": "Infinity",
-            "raw": "'Infinity'"
+            "raw": "'Infinity'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 707,
             "value": "String.prototype.trimStart.call(Infinity)",
-            "raw": "'String.prototype.trimStart.call(Infinity)'"
+            "raw": "'String.prototype.trimStart.call(Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,7 +283,9 @@
                   "start": 748,
                   "end": 749,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -286,14 +296,18 @@
             "start": 754,
             "end": 757,
             "value": "0",
-            "raw": "'0'"
+            "raw": "'0'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 761,
             "end": 798,
             "value": "String.prototype.trimStart.call(-0)",
-            "raw": "'String.prototype.trimStart.call(-0)'"
+            "raw": "'String.prototype.trimStart.call(-0)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,7 +370,9 @@
                 "start": 838,
                 "end": 839,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -366,14 +382,18 @@
             "start": 844,
             "end": 847,
             "value": "1",
-            "raw": "'1'"
+            "raw": "'1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 851,
             "end": 887,
             "value": "String.prototype.trimStart.call(1)",
-            "raw": "'String.prototype.trimStart.call(1)'"
+            "raw": "'String.prototype.trimStart.call(1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -442,7 +462,9 @@
                   "start": 928,
                   "end": 929,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -453,14 +475,18 @@
             "start": 934,
             "end": 938,
             "value": "-1",
-            "raw": "'-1'"
+            "raw": "'-1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 942,
             "end": 979,
             "value": "String.prototype.trimStart.call(-1)",
-            "raw": "'String.prototype.trimStart.call(-1)'"
+            "raw": "'String.prototype.trimStart.call(-1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -136,7 +136,9 @@
                         "start": 603,
                         "end": 607,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

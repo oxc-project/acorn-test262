@@ -34,21 +34,27 @@
                 "start": 406,
                 "end": 410,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 412,
                 "end": 414,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 418,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -148,14 +154,18 @@
             "start": 480,
             "end": 495,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 583,
             "value": "Object.prototype.toString.call(new Date(1899, 11, 31)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1899, 11, 31)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1899, 11, 31)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,21 +202,27 @@
                 "start": 606,
                 "end": 610,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 612,
                 "end": 614,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 616,
                 "end": 617,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -306,14 +322,18 @@
             "start": 679,
             "end": 694,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 781,
             "value": "Object.prototype.toString.call(new Date(1899, 12, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1899, 12, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1899, 12, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,21 +370,27 @@
                 "start": 804,
                 "end": 808,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 810,
                 "end": 811,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 813,
                 "end": 814,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -464,14 +490,18 @@
             "start": 876,
             "end": 891,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 895,
             "end": 977,
             "value": "Object.prototype.toString.call(new Date(1900, 0, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1900, 0, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1900, 0, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,21 +538,27 @@
                 "start": 1000,
                 "end": 1004,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1006,
                 "end": 1008,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1010,
                 "end": 1012,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -622,14 +658,18 @@
             "start": 1074,
             "end": 1089,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1093,
             "end": 1177,
             "value": "Object.prototype.toString.call(new Date(1969, 11, 31)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1969, 11, 31)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1969, 11, 31)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -666,21 +706,27 @@
                 "start": 1200,
                 "end": 1204,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1206,
                 "end": 1208,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1210,
                 "end": 1211,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -780,14 +826,18 @@
             "start": 1273,
             "end": 1288,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1292,
             "end": 1375,
             "value": "Object.prototype.toString.call(new Date(1969, 12, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1969, 12, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1969, 12, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -824,21 +874,27 @@
                 "start": 1398,
                 "end": 1402,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1404,
                 "end": 1405,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1407,
                 "end": 1408,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -938,14 +994,18 @@
             "start": 1470,
             "end": 1485,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1489,
             "end": 1571,
             "value": "Object.prototype.toString.call(new Date(1970, 0, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1970, 0, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1970, 0, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -982,21 +1042,27 @@
                 "start": 1594,
                 "end": 1598,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1600,
                 "end": 1602,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1604,
                 "end": 1606,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1096,14 +1162,18 @@
             "start": 1668,
             "end": 1683,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1687,
             "end": 1771,
             "value": "Object.prototype.toString.call(new Date(1999, 11, 31)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1999, 11, 31)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1999, 11, 31)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1140,21 +1210,27 @@
                 "start": 1794,
                 "end": 1798,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1800,
                 "end": 1802,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1804,
                 "end": 1805,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1254,14 +1330,18 @@
             "start": 1867,
             "end": 1882,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1886,
             "end": 1969,
             "value": "Object.prototype.toString.call(new Date(1999, 12, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(1999, 12, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(1999, 12, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1298,21 +1378,27 @@
                 "start": 1992,
                 "end": 1996,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1998,
                 "end": 1999,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2001,
                 "end": 2002,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1412,14 +1498,18 @@
             "start": 2064,
             "end": 2079,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2083,
             "end": 2165,
             "value": "Object.prototype.toString.call(new Date(2000, 0, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(2000, 0, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(2000, 0, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1456,21 +1546,27 @@
                 "start": 2189,
                 "end": 2193,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2195,
                 "end": 2197,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2199,
                 "end": 2201,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1570,14 +1666,18 @@
             "start": 2264,
             "end": 2279,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2283,
             "end": 2367,
             "value": "Object.prototype.toString.call(new Date(2099, 11, 31)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(2099, 11, 31)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(2099, 11, 31)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1614,21 +1714,27 @@
                 "start": 2391,
                 "end": 2395,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2397,
                 "end": 2399,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2401,
                 "end": 2402,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1728,14 +1834,18 @@
             "start": 2465,
             "end": 2480,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2484,
             "end": 2567,
             "value": "Object.prototype.toString.call(new Date(2099, 12, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(2099, 12, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(2099, 12, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1772,21 +1882,27 @@
                 "start": 2591,
                 "end": 2595,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2597,
                 "end": 2598,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2600,
                 "end": 2601,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1886,14 +2002,18 @@
             "start": 2664,
             "end": 2679,
             "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "raw": "\"[object Date]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2683,
             "end": 2765,
             "value": "Object.prototype.toString.call(new Date(2100, 0, 1)) must return \"[object Date]\"",
-            "raw": "'Object.prototype.toString.call(new Date(2100, 0, 1)) must return \"[object Date]\"'"
+            "raw": "'Object.prototype.toString.call(new Date(2100, 0, 1)) must return \"[object Date]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

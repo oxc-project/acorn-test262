@@ -69,7 +69,9 @@
                       "start": 598,
                       "end": 599,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -100,7 +102,9 @@
             "start": 619,
             "end": 653,
             "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "raw": "0b00000001000000001000000010000001",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -169,7 +173,9 @@
                 "start": 696,
                 "end": 697,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -191,7 +197,9 @@
             "start": 720,
             "end": 819,
             "value": "Atomics.store(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)",
-            "raw": "'Atomics.store(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)'"
+            "raw": "'Atomics.store(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -240,7 +248,9 @@
               "start": 848,
               "end": 849,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -256,7 +266,9 @@
             "start": 864,
             "end": 952,
             "value": "The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)",
-            "raw": "'The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)'"
+            "raw": "'The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

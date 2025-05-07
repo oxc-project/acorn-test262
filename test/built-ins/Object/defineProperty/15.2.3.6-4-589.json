@@ -48,7 +48,9 @@
             "start": 339,
             "end": 343,
             "value": 1001,
-            "raw": "1001"
+            "raw": "1001",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
             "start": 380,
             "end": 391,
             "value": "startTime",
-            "raw": "\"startTime\""
+            "raw": "\"startTime\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -223,7 +227,9 @@
                   "start": 501,
                   "end": 505,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -245,7 +251,9 @@
                   "start": 523,
                   "end": 527,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -275,7 +283,9 @@
             "start": 544,
             "end": 550,
             "value": "NAME",
-            "raw": "\"NAME\""
+            "raw": "\"NAME\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -320,7 +330,9 @@
             "start": 587,
             "end": 593,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -450,7 +462,9 @@
                   "start": 703,
                   "end": 707,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -472,7 +486,9 @@
                   "start": 725,
                   "end": 730,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -554,7 +570,9 @@
             "start": 790,
             "end": 809,
             "value": "In-person meeting",
-            "raw": "\"In-person meeting\""
+            "raw": "\"In-person meeting\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -599,7 +617,9 @@
             "start": 842,
             "end": 858,
             "value": "conferenceCall",
-            "raw": "\"conferenceCall\""
+            "raw": "\"conferenceCall\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -729,7 +749,9 @@
                   "start": 968,
                   "end": 972,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -751,7 +773,9 @@
                   "start": 990,
                   "end": 995,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -846,7 +870,9 @@
           "start": 1062,
           "end": 1076,
           "value": "Team Meeting",
-          "raw": "\"Team Meeting\""
+          "raw": "\"Team Meeting\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -881,7 +907,9 @@
                 "start": 1101,
                 "end": 1119,
                 "value": "10/31/2010 08:00",
-                "raw": "\"10/31/2010 08:00\""
+                "raw": "\"10/31/2010 08:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -958,7 +986,9 @@
           "start": 1184,
           "end": 1196,
           "value": "4255551212",
-          "raw": "\"4255551212\""
+          "raw": "\"4255551212\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1020,7 +1050,9 @@
                       "start": 1248,
                       "end": 1254,
                       "value": "name",
-                      "raw": "\"name\""
+                      "raw": "\"name\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -1062,7 +1094,9 @@
                       "start": 1289,
                       "end": 1300,
                       "value": "startTime",
-                      "raw": "\"startTime\""
+                      "raw": "\"startTime\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -1105,7 +1139,9 @@
                     "start": 1335,
                     "end": 1351,
                     "value": "conferenceCall",
-                    "raw": "'conferenceCall'"
+                    "raw": "'conferenceCall'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1142,7 +1178,9 @@
             "start": 1378,
             "end": 1403,
             "value": "hasOwnProperty !== true",
-            "raw": "'hasOwnProperty !== true'"
+            "raw": "'hasOwnProperty !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1200,14 +1238,18 @@
             "start": 1441,
             "end": 1455,
             "value": "Team Meeting",
-            "raw": "\"Team Meeting\""
+            "raw": "\"Team Meeting\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1457,
             "end": 1475,
             "value": "teamMeeting.name",
-            "raw": "'teamMeeting.name'"
+            "raw": "'teamMeeting.name'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1271,7 +1313,9 @@
             "start": 1527,
             "end": 1550,
             "value": "teamMeeting.startTime",
-            "raw": "'teamMeeting.startTime'"
+            "raw": "'teamMeeting.startTime'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1329,14 +1373,18 @@
             "start": 1598,
             "end": 1610,
             "value": "4255551212",
-            "raw": "\"4255551212\""
+            "raw": "\"4255551212\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1612,
             "end": 1640,
             "value": "teamMeeting.conferenceCall",
-            "raw": "'teamMeeting.conferenceCall'"
+            "raw": "'teamMeeting.conferenceCall'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

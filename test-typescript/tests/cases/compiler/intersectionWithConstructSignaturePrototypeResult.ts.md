@@ -370,7 +370,9 @@ __ESTREE_TEST__:PASS:
             "start": 308,
             "end": 319,
             "raw": "\"prototype\"",
-            "value": "prototype"
+            "value": "prototype",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {

@@ -47,28 +47,36 @@
                 "start": 318,
                 "end": 322,
                 "value": 2019,
-                "raw": "2019"
+                "raw": "2019",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 326,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 337,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -151,7 +159,9 @@
                       "start": 394,
                       "end": 402,
                       "value": "always",
-                      "raw": "'always'"
+                      "raw": "'always'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -165,14 +175,18 @@
             "start": 409,
             "end": 435,
             "value": "2019-10-31[u-ca=iso8601]",
-            "raw": "\"2019-10-31[u-ca=iso8601]\""
+            "raw": "\"2019-10-31[u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 439,
             "end": 515,
             "value": "emit year-month-day if calendarName = 'always' (four-argument constructor)",
-            "raw": "\"emit year-month-day if calendarName = 'always' (four-argument constructor)\""
+            "raw": "\"emit year-month-day if calendarName = 'always' (four-argument constructor)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +249,9 @@
                 "start": 568,
                 "end": 580,
                 "value": "2019-10-31",
-                "raw": "\"2019-10-31\""
+                "raw": "\"2019-10-31\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -319,7 +335,9 @@
                       "start": 663,
                       "end": 671,
                       "value": "always",
-                      "raw": "'always'"
+                      "raw": "'always'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -333,14 +351,18 @@
             "start": 678,
             "end": 704,
             "value": "2019-10-01[u-ca=iso8601]",
-            "raw": "\"2019-10-01[u-ca=iso8601]\""
+            "raw": "\"2019-10-01[u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 768,
             "value": "emit fallback day if calendarName = 'always' (static from)",
-            "raw": "\"emit fallback day if calendarName = 'always' (static from)\""
+            "raw": "\"emit fallback day if calendarName = 'always' (static from)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

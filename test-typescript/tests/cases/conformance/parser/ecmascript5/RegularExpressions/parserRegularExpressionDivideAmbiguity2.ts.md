@@ -25,7 +25,9 @@ __ESTREE_TEST__:PASS:
             "start": 1,
             "end": 2,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           },
           "right": {
             "type": "Identifier",

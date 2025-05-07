@@ -78,7 +78,9 @@
                       "start": 506,
                       "end": 510,
                       "value": 5779,
-                      "raw": "5779"
+                      "raw": "5779",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 525,
                       "end": 531,
                       "value": "M05L",
-                      "raw": "\"M05L\""
+                      "raw": "\"M05L\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 545,
                       "end": 553,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -173,7 +179,9 @@
                   "start": 584,
                   "end": 585,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

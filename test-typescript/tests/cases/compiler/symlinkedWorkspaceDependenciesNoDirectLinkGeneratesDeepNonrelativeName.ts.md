@@ -99,7 +99,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 30,
         "raw": "\"./foo.js\"",
-        "value": "./foo.js"
+        "value": "./foo.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -201,7 +203,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 34,
         "raw": "\"package-a\"",
-        "value": "package-a"
+        "value": "package-a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -324,7 +328,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 32,
         "raw": "\"package-b\"",
-        "value": "package-b"
+        "value": "package-b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

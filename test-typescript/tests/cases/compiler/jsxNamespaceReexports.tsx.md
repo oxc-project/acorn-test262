@@ -313,7 +313,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 34,
         "raw": "\"./library\"",
-        "value": "./library"
+        "value": "./library",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

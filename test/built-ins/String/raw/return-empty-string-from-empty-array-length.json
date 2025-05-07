@@ -116,7 +116,9 @@
             "start": 527,
             "end": 529,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

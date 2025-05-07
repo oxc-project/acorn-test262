@@ -34,7 +34,9 @@
                 "start": 3779,
                 "end": 3788,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -90,7 +92,9 @@
                       "start": 3843,
                       "end": 3869,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -230,7 +234,9 @@
                   "start": 3978,
                   "end": 3982,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -440,14 +446,18 @@
                   "start": 4154,
                   "end": 4159,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4161,
                   "end": 4192,
                   "value": "Symbol.toStringTag enumerable",
-                  "raw": "'Symbol.toStringTag enumerable'"
+                  "raw": "'Symbol.toStringTag enumerable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -505,14 +515,18 @@
                   "start": 4231,
                   "end": 4236,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4238,
                   "end": 4267,
                   "value": "Symbol.toStringTag writable",
-                  "raw": "'Symbol.toStringTag writable'"
+                  "raw": "'Symbol.toStringTag writable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -570,14 +584,18 @@
                   "start": 4310,
                   "end": 4315,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4317,
                   "end": 4350,
                   "value": "Symbol.toStringTag configurable",
-                  "raw": "'Symbol.toStringTag configurable'"
+                  "raw": "'Symbol.toStringTag configurable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -681,7 +699,9 @@
                   "start": 4427,
                   "end": 4432,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

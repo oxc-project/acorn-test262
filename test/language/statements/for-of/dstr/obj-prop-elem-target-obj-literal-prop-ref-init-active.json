@@ -43,7 +43,9 @@
             "start": 3112,
             "end": 3113,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -132,7 +134,9 @@
                                     "start": 3167,
                                     "end": 3205,
                                     "value": "The property should not be accessed.",
-                                    "raw": "'The property should not be accessed.'"
+                                    "raw": "'The property should not be accessed.'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -220,7 +224,9 @@
                 "start": 3258,
                 "end": 3260,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             },
             "kind": "init"
@@ -306,7 +312,9 @@
                   "start": 3314,
                   "end": 3316,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -332,7 +340,9 @@
                 "start": 3333,
                 "end": 3334,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -378,7 +388,9 @@
             "start": 3365,
             "end": 3366,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -96,7 +96,9 @@
                         "start": 407,
                         "end": 457,
                         "value": "'use strict'; _13_1_37_s.x = function eval() {};",
-                        "raw": "\"'use strict'; _13_1_37_s.x = function eval() {};\""
+                        "raw": "\"'use strict'; _13_1_37_s.x = function eval() {};\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

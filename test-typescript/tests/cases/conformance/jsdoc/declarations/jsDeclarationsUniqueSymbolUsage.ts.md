@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 30,
                   "end": 41,
                   "raw": "\"my-symbol\"",
-                  "value": "my-symbol"
+                  "value": "my-symbol",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

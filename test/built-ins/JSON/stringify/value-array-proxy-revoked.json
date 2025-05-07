@@ -199,7 +199,9 @@
             "start": 838,
             "end": 855,
             "value": "top-level value",
-            "raw": "'top-level value'"
+            "raw": "'top-level value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +335,9 @@
             "start": 938,
             "end": 952,
             "value": "nested value",
-            "raw": "'nested value'"
+            "raw": "'nested value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

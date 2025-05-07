@@ -47,7 +47,9 @@
                 "start": 303,
                 "end": 308,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 311,
             "end": 356,
             "value": "Date.hasOwnProperty(\"UTC\") must return true",
-            "raw": "'Date.hasOwnProperty(\"UTC\") must return true'"
+            "raw": "'Date.hasOwnProperty(\"UTC\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

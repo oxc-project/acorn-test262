@@ -25,7 +25,9 @@
         "start": 336,
         "end": 364,
         "value": "./set-prototype-of-null.js",
-        "raw": "'./set-prototype-of-null.js'"
+        "raw": "'./set-prototype-of-null.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -88,7 +90,9 @@
             "start": 414,
             "end": 424,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +167,9 @@
                 "start": 474,
                 "end": 478,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

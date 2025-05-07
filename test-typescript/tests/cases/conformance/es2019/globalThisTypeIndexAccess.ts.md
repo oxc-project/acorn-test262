@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                     "start": 39,
                     "end": 51,
                     "raw": "\"globalThis\"",
-                    "value": "globalThis"
+                    "value": "globalThis",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {

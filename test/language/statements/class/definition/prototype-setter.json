@@ -97,7 +97,9 @@
             "start": 265,
             "end": 276,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -151,7 +153,9 @@
                               "start": 327,
                               "end": 378,
                               "value": "Cannot create a setter property named `prototype`",
-                              "raw": "\"Cannot create a setter property named `prototype`\""
+                              "raw": "\"Cannot create a setter property named `prototype`\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

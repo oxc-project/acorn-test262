@@ -151,14 +151,18 @@
                 "start": 459,
                 "end": 462,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 464,
                 "end": 467,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -211,7 +215,9 @@
                 "start": 496,
                 "end": 499,
                 "value": "c",
-                "raw": "\"c\""
+                "raw": "\"c\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -221,14 +227,18 @@
             "start": 502,
             "end": 505,
             "value": "c",
-            "raw": "\"c\""
+            "raw": "\"c\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 521,
             "value": "newFunc(\"c\")",
-            "raw": "'newFunc(\"c\")'"
+            "raw": "'newFunc(\"c\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

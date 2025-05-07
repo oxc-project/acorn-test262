@@ -70,7 +70,9 @@
                             "start": 2743,
                             "end": 2744,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -98,7 +100,9 @@
                         "start": 2763,
                         "end": 2764,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -259,7 +263,9 @@
                                         "start": 2905,
                                         "end": 2906,
                                         "value": 8,
-                                        "raw": "8"
+                                        "raw": "8",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -280,7 +286,9 @@
                         "start": 2923,
                         "end": 2964,
                         "value": "abrupt completion from ToNumber(sample)",
-                        "raw": "\"abrupt completion from ToNumber(sample)\""
+                        "raw": "\"abrupt completion from ToNumber(sample)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -325,14 +333,18 @@
                         "start": 2996,
                         "end": 2997,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2999,
                         "end": 3020,
                         "value": "valueOf called once",
-                        "raw": "\"valueOf called once\""
+                        "raw": "\"valueOf called once\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

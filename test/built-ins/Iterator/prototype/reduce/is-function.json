@@ -75,7 +75,9 @@
             "start": 322,
             "end": 332,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

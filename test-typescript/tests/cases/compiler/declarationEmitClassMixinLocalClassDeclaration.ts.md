@@ -574,7 +574,9 @@ __ESTREE_TEST__:PASS:
                 "start": 377,
                 "end": 381,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -733,7 +735,9 @@ __ESTREE_TEST__:PASS:
                             "start": 584,
                             "end": 585,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]

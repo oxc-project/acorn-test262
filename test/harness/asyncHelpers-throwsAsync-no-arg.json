@@ -52,7 +52,9 @@
                         "start": 299,
                         "end": 304,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -202,7 +204,9 @@
                               "start": 425,
                               "end": 429,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -272,7 +276,9 @@
                                     "start": 502,
                                     "end": 536,
                                     "value": "Expected a Test262Error, but a '",
-                                    "raw": "\"Expected a Test262Error, but a '\""
+                                    "raw": "\"Expected a Test262Error, but a '\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -314,7 +320,9 @@
                                   "start": 578,
                                   "end": 593,
                                   "value": "' was thrown.",
-                                  "raw": "\"' was thrown.\""
+                                  "raw": "\"' was thrown.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -355,7 +363,9 @@
                               "start": 647,
                               "end": 713,
                               "value": "assert.throwsAsync did not reject when invoked without arguments",
-                              "raw": "\"assert.throwsAsync did not reject when invoked without arguments\""
+                              "raw": "\"assert.throwsAsync did not reject when invoked without arguments\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

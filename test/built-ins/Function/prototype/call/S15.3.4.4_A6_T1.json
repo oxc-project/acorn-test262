@@ -31,14 +31,18 @@
                 "start": 404,
                 "end": 414,
                 "value": "a1,a2,a3",
-                "raw": "\"a1,a2,a3\""
+                "raw": "\"a1,a2,a3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 434,
                 "value": "this.shifted=a1;",
-                "raw": "\"this.shifted=a1;\""
+                "raw": "\"this.shifted=a1;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -58,7 +62,9 @@
             "start": 441,
             "end": 445,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -70,7 +76,9 @@
                 "start": 448,
                 "end": 449,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -124,7 +132,9 @@
                 "start": 479,
                 "end": 488,
                 "value": "shifted",
-                "raw": "\"shifted\""
+                "raw": "\"shifted\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -149,7 +159,9 @@
             "start": 514,
             "end": 596,
             "value": "The value of this[\"shifted\"].constructor is expected to equal the value of Array",
-            "raw": "'The value of this[\"shifted\"].constructor is expected to equal the value of Array'"
+            "raw": "'The value of this[\"shifted\"].constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -201,7 +213,9 @@
                 "start": 623,
                 "end": 632,
                 "value": "shifted",
-                "raw": "\"shifted\""
+                "raw": "\"shifted\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -220,14 +234,18 @@
             "start": 642,
             "end": 643,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 702,
             "value": "The value of this[\"shifted\"].length is expected to be 1",
-            "raw": "'The value of this[\"shifted\"].length is expected to be 1'"
+            "raw": "'The value of this[\"shifted\"].length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +297,9 @@
                 "start": 727,
                 "end": 736,
                 "value": "shifted",
-                "raw": "\"shifted\""
+                "raw": "\"shifted\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -289,7 +309,9 @@
               "start": 738,
               "end": 739,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -299,14 +321,18 @@
             "start": 742,
             "end": 743,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 798,
             "value": "The value of this[\"shifted\"][0] is expected to be 1",
-            "raw": "'The value of this[\"shifted\"][0] is expected to be 1'"
+            "raw": "'The value of this[\"shifted\"][0] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

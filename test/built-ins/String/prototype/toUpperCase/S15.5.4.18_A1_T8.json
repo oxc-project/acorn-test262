@@ -118,7 +118,9 @@
           "start": 353,
           "end": 363,
           "value": "INFINITY",
-          "raw": "\"INFINITY\""
+          "raw": "\"INFINITY\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -150,7 +152,9 @@
                     "start": 392,
                     "end": 505,
                     "value": "#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; Infinity.toUpperCase()=== \"INFINITY\". Actual: ",
-                    "raw": "'#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; Infinity.toUpperCase()=== \"INFINITY\". Actual: '"
+                    "raw": "'#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; Infinity.toUpperCase()=== \"INFINITY\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

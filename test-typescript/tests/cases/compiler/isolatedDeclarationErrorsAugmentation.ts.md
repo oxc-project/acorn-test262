@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 38,
         "raw": "'./parent'",
-        "value": "./parent"
+        "value": "./parent",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -166,7 +168,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 66,
         "raw": "'./parent'",
-        "value": "./parent"
+        "value": "./parent",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -368,7 +372,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 33,
         "raw": "'./child1'",
-        "value": "./child1"
+        "value": "./child1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

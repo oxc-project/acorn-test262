@@ -49,7 +49,9 @@
           "start": 759,
           "end": 763,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -136,14 +138,18 @@
             "start": 811,
             "end": 812,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 814,
             "end": 844,
             "value": "The value of `m.size` is `0`",
-            "raw": "'The value of `m.size` is `0`'"
+            "raw": "'The value of `m.size` is `0`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -190,7 +190,9 @@
                                           "start": 996,
                                           "end": 1005,
                                           "value": "Test262",
-                                          "raw": "'Test262'"
+                                          "raw": "'Test262'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -344,7 +346,9 @@
             "start": 1094,
             "end": 1103,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +486,9 @@
             "start": 1179,
             "end": 1228,
             "value": "accessed private setter from an ordinary object",
-            "raw": "'accessed private setter from an ordinary object'"
+            "raw": "'accessed private setter from an ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

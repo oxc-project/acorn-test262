@@ -630,7 +630,9 @@ __ESTREE_TEST__:PASS:
                   "start": 374,
                   "end": 384,
                   "raw": "'someDate'",
-                  "value": "someDate"
+                  "value": "someDate",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -656,7 +658,9 @@ __ESTREE_TEST__:PASS:
                   "start": 399,
                   "end": 408,
                   "raw": "'My Date'",
-                  "value": "My Date"
+                  "value": "My Date",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -691,7 +695,9 @@ __ESTREE_TEST__:PASS:
                       "start": 463,
                       "end": 466,
                       "raw": "'-'",
-                      "value": "-"
+                      "value": "-",
+                      "regex": null,
+                      "bigint": null
                     },
                     "consequent": {
                       "type": "CallExpression",

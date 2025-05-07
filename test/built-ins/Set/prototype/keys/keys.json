@@ -100,7 +100,9 @@
             "start": 382,
             "end": 443,
             "value": "The value of `Set.prototype.keys` is `Set.prototype.values`",
-            "raw": "\"The value of `Set.prototype.keys` is `Set.prototype.values`\""
+            "raw": "\"The value of `Set.prototype.keys` is `Set.prototype.values`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

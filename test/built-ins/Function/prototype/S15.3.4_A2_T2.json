@@ -69,7 +69,9 @@
                       "start": 398,
                       "end": 402,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "UnaryExpression",
@@ -82,7 +84,9 @@
                         "start": 409,
                         "end": 410,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -99,7 +103,9 @@
                   "start": 424,
                   "end": 476,
                   "value": "Function.prototype(null, void 0) returns undefined",
-                  "raw": "'Function.prototype(null, void 0) returns undefined'"
+                  "raw": "'Function.prototype(null, void 0) returns undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -146,7 +152,9 @@
                       "start": 518,
                       "end": 649,
                       "value": "#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: ",
-                      "raw": "'#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: '"
+                      "raw": "'#1.1: The Function prototype object is itself a Function object that, when invoked, accepts any arguments and returns undefined: '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {

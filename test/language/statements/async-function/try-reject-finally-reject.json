@@ -97,7 +97,9 @@
                                       "start": 439,
                                       "end": 453,
                                       "value": "early-reject",
-                                      "raw": "\"early-reject\""
+                                      "raw": "\"early-reject\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -184,7 +186,9 @@
                                       "start": 541,
                                       "end": 551,
                                       "value": "override",
-                                      "raw": "\"override\""
+                                      "raw": "\"override\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -312,14 +316,18 @@
                             "start": 629,
                             "end": 639,
                             "value": "override",
-                            "raw": "\"override\""
+                            "raw": "\"override\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 641,
                             "end": 677,
                             "value": "Awaited rejection in finally block",
-                            "raw": "\"Awaited rejection in finally block\""
+                            "raw": "\"Awaited rejection in finally block\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

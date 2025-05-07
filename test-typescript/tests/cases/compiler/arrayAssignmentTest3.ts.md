@@ -219,14 +219,18 @@ __ESTREE_TEST__:PASS:
                 "start": 209,
                 "end": 213,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 215,
                 "end": 216,
                 "raw": "7",
-                "value": 7
+                "value": 7,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "NewExpression",

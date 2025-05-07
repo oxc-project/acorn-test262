@@ -63,7 +63,9 @@ __ESTREE_TEST__:PASS:
                             "start": 83,
                             "end": 84,
                             "raw": "1",
-                            "value": 1
+                            "value": 1,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -85,14 +87,18 @@ __ESTREE_TEST__:PASS:
                 "start": 119,
                 "end": 122,
                 "raw": "'1'",
-                "value": "1"
+                "value": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 151,
                 "end": 152,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -122,7 +128,9 @@ __ESTREE_TEST__:PASS:
                       "start": 185,
                       "end": 186,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -137,21 +145,27 @@ __ESTREE_TEST__:PASS:
                     "start": 216,
                     "end": 217,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 219,
                     "end": 220,
                     "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 222,
                     "end": 223,
                     "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "[Jj]ava([Ss]cript)?(?=\\:)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 685,
                 "end": 719,
                 "value": "just Javascript: the way af jedi",
-                "raw": "\"just Javascript: the way af jedi\""
+                "raw": "\"just Javascript: the way af jedi\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -86,14 +89,18 @@
                 "start": 741,
                 "end": 753,
                 "value": "Javascript",
-                "raw": "\"Javascript\""
+                "raw": "\"Javascript\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 755,
                 "end": 763,
                 "value": "script",
-                "raw": "\"script\""
+                "raw": "\"script\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -134,7 +141,9 @@
           "start": 785,
           "end": 786,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -171,7 +180,9 @@
           "start": 807,
           "end": 841,
           "value": "just Javascript: the way af jedi",
-          "raw": "\"just Javascript: the way af jedi\""
+          "raw": "\"just Javascript: the way af jedi\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -246,7 +257,9 @@
             "start": 906,
             "end": 990,
             "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,7 +336,9 @@
             "start": 1055,
             "end": 1137,
             "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +415,9 @@
             "start": 1202,
             "end": 1284,
             "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,7 +447,9 @@
               "start": 1303,
               "end": 1304,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -556,7 +575,9 @@
                   "start": 1412,
                   "end": 1496,
                   "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

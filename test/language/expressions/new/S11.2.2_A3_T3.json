@@ -25,7 +25,9 @@
                 "start": 330,
                 "end": 331,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "arguments": []
             }
@@ -50,7 +52,9 @@
                   "start": 358,
                   "end": 387,
                   "value": "#1: new \"1\" throw TypeError",
-                  "raw": "'#1: new \"1\" throw TypeError'"
+                  "raw": "'#1: new \"1\" throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -109,7 +113,9 @@
                   "start": 440,
                   "end": 444,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -137,7 +143,9 @@
                           "start": 475,
                           "end": 504,
                           "value": "#1: new \"1\" throw TypeError",
-                          "raw": "'#1: new \"1\" throw TypeError'"
+                          "raw": "'#1: new \"1\" throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -180,7 +188,9 @@
                   "start": 541,
                   "end": 544,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -223,7 +233,9 @@
                   "start": 580,
                   "end": 620,
                   "value": "#2: var x = \"1\"; new x throw TypeError",
-                  "raw": "'#2: var x = \"1\"; new x throw TypeError'"
+                  "raw": "'#2: var x = \"1\"; new x throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -282,7 +294,9 @@
                   "start": 673,
                   "end": 677,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -310,7 +324,9 @@
                           "start": 708,
                           "end": 748,
                           "value": "#2: var x = \"1\"; new x throw TypeError",
-                          "raw": "'#2: var x = \"1\"; new x throw TypeError'"
+                          "raw": "'#2: var x = \"1\"; new x throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -353,7 +369,9 @@
                   "start": 785,
                   "end": 788,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -396,7 +414,9 @@
                   "start": 826,
                   "end": 868,
                   "value": "#3: var x = \"1\"; new x() throw TypeError",
-                  "raw": "'#3: var x = \"1\"; new x() throw TypeError'"
+                  "raw": "'#3: var x = \"1\"; new x() throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -455,7 +475,9 @@
                   "start": 921,
                   "end": 925,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -483,7 +505,9 @@
                           "start": 956,
                           "end": 998,
                           "value": "#3: var x = \"1\"; new x() throw TypeError",
-                          "raw": "'#3: var x = \"1\"; new x() throw TypeError'"
+                          "raw": "'#3: var x = \"1\"; new x() throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 18,
                   "end": 24,
                   "raw": "'./ch'",
-                  "value": "./ch"
+                  "value": "./ch",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

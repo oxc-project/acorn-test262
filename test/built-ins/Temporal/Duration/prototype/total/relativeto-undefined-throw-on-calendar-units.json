@@ -47,7 +47,9 @@
                 "start": 414,
                 "end": 415,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -99,14 +101,18 @@
                 "start": 457,
                 "end": 458,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 460,
                 "end": 461,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -158,21 +164,27 @@
                 "start": 502,
                 "end": 503,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 506,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 508,
                 "end": 509,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -224,28 +236,36 @@
                 "start": 549,
                 "end": 550,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 552,
                 "end": 553,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 556,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 558,
                 "end": 559,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -291,7 +311,9 @@
                   "start": 587,
                   "end": 593,
                   "value": "days",
-                  "raw": "\"days\""
+                  "raw": "\"days\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -367,14 +389,18 @@
             "start": 637,
             "end": 638,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 640,
             "end": 672,
             "value": "days do not require relativeTo",
-            "raw": "\"days do not require relativeTo\""
+            "raw": "\"days do not require relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -437,7 +463,9 @@
                 "start": 705,
                 "end": 711,
                 "value": "days",
-                "raw": "\"days\""
+                "raw": "\"days\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -447,14 +475,18 @@
             "start": 714,
             "end": 715,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 768,
             "value": "days do not require relativeTo (string shorthand)",
-            "raw": "\"days do not require relativeTo (string shorthand)\""
+            "raw": "\"days do not require relativeTo (string shorthand)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -542,7 +574,9 @@
             "start": 827,
             "end": 868,
             "value": "total days of weeks requires relativeTo",
-            "raw": "\"total days of weeks requires relativeTo\""
+            "raw": "\"total days of weeks requires relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,7 +654,9 @@
                   "start": 917,
                   "end": 923,
                   "value": "days",
-                  "raw": "\"days\""
+                  "raw": "\"days\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -631,7 +667,9 @@
             "start": 926,
             "end": 986,
             "value": "total days of weeks requires relativeTo (string shorthand)",
-            "raw": "\"total days of weeks requires relativeTo (string shorthand)\""
+            "raw": "\"total days of weeks requires relativeTo (string shorthand)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -719,7 +757,9 @@
             "start": 1046,
             "end": 1088,
             "value": "total days of months requires relativeTo",
-            "raw": "\"total days of months requires relativeTo\""
+            "raw": "\"total days of months requires relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -797,7 +837,9 @@
                   "start": 1138,
                   "end": 1144,
                   "value": "days",
-                  "raw": "\"days\""
+                  "raw": "\"days\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -808,7 +850,9 @@
             "start": 1147,
             "end": 1208,
             "value": "total days of months requires relativeTo (string shorthand)",
-            "raw": "\"total days of months requires relativeTo (string shorthand)\""
+            "raw": "\"total days of months requires relativeTo (string shorthand)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -896,7 +940,9 @@
             "start": 1267,
             "end": 1308,
             "value": "total days of years requires relativeTo",
-            "raw": "\"total days of years requires relativeTo\""
+            "raw": "\"total days of years requires relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -974,7 +1020,9 @@
                   "start": 1357,
                   "end": 1363,
                   "value": "days",
-                  "raw": "\"days\""
+                  "raw": "\"days\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -985,7 +1033,9 @@
             "start": 1366,
             "end": 1426,
             "value": "total days of years requires relativeTo (string shorthand)",
-            "raw": "\"total days of years requires relativeTo (string shorthand)\""
+            "raw": "\"total days of years requires relativeTo (string shorthand)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1013,14 +1063,18 @@
                 "start": 1431,
                 "end": 1439,
                 "value": "months",
-                "raw": "\"months\""
+                "raw": "\"months\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1441,
                 "end": 1448,
                 "value": "weeks",
-                "raw": "\"weeks\""
+                "raw": "\"weeks\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },

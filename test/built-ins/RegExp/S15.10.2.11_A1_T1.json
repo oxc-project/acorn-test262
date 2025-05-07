@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\0",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 400,
                 "end": 408,
                 "value": "\u0000",
-                "raw": "\"\\u0000\""
+                "raw": "\"\\u0000\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +92,9 @@
               "start": 425,
               "end": 429,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -117,7 +122,9 @@
                 "start": 439,
                 "end": 440,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -128,7 +135,9 @@
               "start": 446,
               "end": 454,
               "value": "\u0000",
-              "raw": "\"\\u0000\""
+              "raw": "\"\\u0000\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -162,7 +171,9 @@
                     "start": 484,
                     "end": 551,
                     "value": "#1: var arr = /\\0/.exec(\\u0000); arr[0] === \"\\u0000\". Actual. ",
-                    "raw": "'#1: var arr = /\\\\0/.exec(\\\\u0000); arr[0] === \"\\\\u0000\". Actual. '"
+                    "raw": "'#1: var arr = /\\\\0/.exec(\\\\u0000); arr[0] === \"\\\\u0000\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +206,9 @@
                           "start": 566,
                           "end": 567,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -253,7 +266,9 @@
                       "start": 597,
                       "end": 602,
                       "value": "\\0",
-                      "raw": "\"\\\\0\""
+                      "raw": "\"\\\\0\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -273,7 +288,9 @@
                 "start": 610,
                 "end": 618,
                 "value": "\u0000",
-                "raw": "\"\\u0000\""
+                "raw": "\"\\u0000\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,7 +327,9 @@
               "start": 635,
               "end": 639,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -338,7 +357,9 @@
                 "start": 649,
                 "end": 650,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -349,7 +370,9 @@
               "start": 656,
               "end": 664,
               "value": "\u0000",
-              "raw": "\"\\u0000\""
+              "raw": "\"\\u0000\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -383,7 +406,9 @@
                     "start": 694,
                     "end": 775,
                     "value": "#2: var arr = (new RegExp(\"\\0\")).exec(\\u0000); arr[0] === \"\\u0000\". Actual. ",
-                    "raw": "'#2: var arr = (new RegExp(\"\\\\0\")).exec(\\\\u0000); arr[0] === \"\\\\u0000\". Actual. '"
+                    "raw": "'#2: var arr = (new RegExp(\"\\\\0\")).exec(\\\\u0000); arr[0] === \"\\\\u0000\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -416,7 +441,9 @@
                           "start": 790,
                           "end": 791,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

@@ -58,7 +58,9 @@
                     "start": 493,
                     "end": 497,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -71,7 +73,9 @@
             "start": 501,
             "end": 513,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,14 +141,18 @@
             "start": 551,
             "end": 561,
             "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "raw": "'Symbol()'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 585,
             "value": "implicit `undefined`",
-            "raw": "'implicit `undefined`'"
+            "raw": "'implicit `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,14 +225,18 @@
             "start": 635,
             "end": 645,
             "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "raw": "'Symbol()'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 647,
             "end": 669,
             "value": "explicit `undefined`",
-            "raw": "'explicit `undefined`'"
+            "raw": "'explicit `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

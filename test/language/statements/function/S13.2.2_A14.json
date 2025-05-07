@@ -54,7 +54,9 @@
                 "start": 437,
                 "end": 438,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -78,7 +80,9 @@
                   "start": 449,
                   "end": 489,
                   "value": "function func(){return \"id_string\";}",
-                  "raw": "\"function func(){return \\\"id_string\\\";}\""
+                  "raw": "\"function func(){return \\\"id_string\\\";}\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -206,7 +210,9 @@
                     "start": 676,
                     "end": 741,
                     "value": "#1: var obj = new FACTORY() does not lead to throwing exception",
-                    "raw": "'#1: var obj = new FACTORY() does not lead to throwing exception'"
+                    "raw": "'#1: var obj = new FACTORY() does not lead to throwing exception'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

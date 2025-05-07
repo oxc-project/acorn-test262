@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": "a",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -78,7 +79,9 @@
                 "start": 584,
                 "end": 587,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -88,7 +91,9 @@
             "start": 590,
             "end": 594,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

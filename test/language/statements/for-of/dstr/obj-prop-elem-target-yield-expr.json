@@ -117,7 +117,9 @@
                           "start": 1286,
                           "end": 1287,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -198,7 +200,9 @@
                                 "start": 1320,
                                 "end": 1322,
                                 "value": 23,
-                                "raw": "23"
+                                "raw": "23",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -231,7 +235,9 @@
                               "start": 1345,
                               "end": 1346,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -277,7 +283,9 @@
                           "start": 1377,
                           "end": 1378,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -444,7 +452,9 @@
             "start": 1512,
             "end": 1517,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -551,7 +561,9 @@
               "start": 1586,
               "end": 1592,
               "value": "prop",
-              "raw": "'prop'"
+              "raw": "'prop'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -667,7 +679,9 @@
             "start": 1687,
             "end": 1691,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -725,7 +739,9 @@
             "start": 1719,
             "end": 1721,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

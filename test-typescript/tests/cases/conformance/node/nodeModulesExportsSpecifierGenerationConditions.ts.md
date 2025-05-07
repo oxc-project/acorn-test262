@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 57,
         "raw": "\"inner/other.js\"",
-        "value": "inner/other.js"
+        "value": "inner/other.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
                       "start": 105,
                       "end": 112,
                       "raw": "\"inner\"",
-                      "value": "inner"
+                      "value": "inner",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -144,7 +148,9 @@ __ESTREE_TEST__:PASS:
         "start": 37,
         "end": 49,
         "raw": "\"./other.js\"",
-        "value": "./other.js"
+        "value": "./other.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

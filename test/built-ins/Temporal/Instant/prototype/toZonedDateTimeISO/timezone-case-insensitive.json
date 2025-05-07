@@ -48,6 +48,7 @@
                 "end": 308,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -76,7 +77,9 @@
             "start": 329,
             "end": 334,
             "value": "uTc",
-            "raw": "'uTc'"
+            "raw": "'uTc'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -186,7 +189,9 @@
             "start": 426,
             "end": 431,
             "value": "UTC",
-            "raw": "'UTC'"
+            "raw": "'UTC'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TemplateLiteral",

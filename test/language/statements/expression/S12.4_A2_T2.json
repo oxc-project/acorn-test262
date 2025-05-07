@@ -55,7 +55,9 @@
           "start": 476,
           "end": 487,
           "value": "5+1|0===0",
-          "raw": "\"5+1|0===0\""
+          "raw": "\"5+1|0===0\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -116,7 +118,9 @@
           "start": 623,
           "end": 624,
           "value": 7,
-          "raw": "7"
+          "raw": "7",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -148,7 +152,9 @@
                     "start": 652,
                     "end": 701,
                     "value": "#1: __evaluated === 7. Actual:  __evaluated ===",
-                    "raw": "'#1: __evaluated === 7. Actual:  __evaluated ==='"
+                    "raw": "'#1: __evaluated === 7. Actual:  __evaluated ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -204,7 +210,9 @@
                   "start": 823,
                   "end": 827,
                   "value": "2*",
-                  "raw": "\"2*\""
+                  "raw": "\"2*\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -220,7 +228,9 @@
                 "start": 830,
                 "end": 835,
                 "value": ">-1",
-                "raw": "\">-1\""
+                "raw": "\">-1\"",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -248,7 +258,9 @@
           "start": 948,
           "end": 950,
           "value": 11,
-          "raw": "11"
+          "raw": "11",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -280,7 +292,9 @@
                     "start": 978,
                     "end": 1028,
                     "value": "#2: __evaluated === 11. Actual:  __evaluated ===",
-                    "raw": "'#2: __evaluated === 11. Actual:  __evaluated ==='"
+                    "raw": "'#2: __evaluated === 11. Actual:  __evaluated ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

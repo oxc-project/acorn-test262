@@ -69,14 +69,18 @@
             "start": 782,
             "end": 787,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 842,
             "value": "isConstructor(Atomics.isLockFree) must return false",
-            "raw": "'isConstructor(Atomics.isLockFree) must return false'"
+            "raw": "'isConstructor(Atomics.isLockFree) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

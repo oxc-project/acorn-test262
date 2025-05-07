@@ -23,7 +23,9 @@
             "start": 293,
             "end": 303,
             "value": "𠮷a𠮷b𠮷",
-            "raw": "'𠮷a𠮷b𠮷'"
+            "raw": "'𠮷a𠮷b𠮷'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -201,14 +203,17 @@
                 "regex": {
                   "pattern": "𠮷",
                   "flags": "g"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 458,
                 "end": 461,
                 "value": "-",
-                "raw": "'-'"
+                "raw": "'-'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -218,14 +223,18 @@
             "start": 464,
             "end": 471,
             "value": "-a-b-",
-            "raw": "\"-a-b-\""
+            "raw": "\"-a-b-\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 500,
             "value": "Basic replace with g flag",
-            "raw": "\"Basic replace with g flag\""
+            "raw": "\"Basic replace with g flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,14 +288,17 @@
                 "regex": {
                   "pattern": "𠮷",
                   "flags": "v"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 537,
                 "end": 540,
                 "value": "-",
-                "raw": "'-'"
+                "raw": "'-'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -296,14 +308,18 @@
             "start": 543,
             "end": 552,
             "value": "-a𠮷b𠮷",
-            "raw": "\"-a𠮷b𠮷\""
+            "raw": "\"-a𠮷b𠮷\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 554,
             "end": 575,
             "value": "Replace with v flag",
-            "raw": "\"Replace with v flag\""
+            "raw": "\"Replace with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,14 +373,17 @@
                 "regex": {
                   "pattern": "\\p{Script=Han}",
                   "flags": "gv"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 628,
                 "value": "X",
-                "raw": "'X'"
+                "raw": "'X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -374,14 +393,18 @@
             "start": 631,
             "end": 638,
             "value": "XaXbX",
-            "raw": "\"XaXbX\""
+            "raw": "\"XaXbX\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 640,
             "end": 678,
             "value": "Unicode property escapes with v flag",
-            "raw": "\"Unicode property escapes with v flag\""
+            "raw": "\"Unicode property escapes with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -435,14 +458,17 @@
                 "regex": {
                   "pattern": ".",
                   "flags": "gv"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 715,
                 "end": 721,
                 "value": "$&$&",
-                "raw": "'$&$&'"
+                "raw": "'$&$&'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -452,14 +478,18 @@
             "start": 724,
             "end": 742,
             "value": "𠮷𠮷aa𠮷𠮷bb𠮷𠮷",
-            "raw": "\"𠮷𠮷aa𠮷𠮷bb𠮷𠮷\""
+            "raw": "\"𠮷𠮷aa𠮷𠮷bb𠮷𠮷\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 761,
             "value": "Dot with v flag",
-            "raw": "\"Dot with v flag\""
+            "raw": "\"Dot with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +543,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": "gv"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -597,14 +628,18 @@
             "start": 845,
             "end": 875,
             "value": "[𠮷:0][a:2][𠮷:3][b:5][𠮷:6]",
-            "raw": "\"[𠮷:0][a:2][𠮷:3][b:5][𠮷:6]\""
+            "raw": "\"[𠮷:0][a:2][𠮷:3][b:5][𠮷:6]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 879,
             "end": 902,
             "value": "Replace with function",
-            "raw": "\"Replace with function\""
+            "raw": "\"Replace with function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -658,14 +693,17 @@
                 "regex": {
                   "pattern": "\\p{Script=Han}",
                   "flags": "gu"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 954,
                 "end": 957,
                 "value": "X",
-                "raw": "'X'"
+                "raw": "'X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -675,14 +713,18 @@
             "start": 960,
             "end": 967,
             "value": "XaXbX",
-            "raw": "\"XaXbX\""
+            "raw": "\"XaXbX\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 969,
             "end": 1007,
             "value": "Unicode property escapes with u flag",
-            "raw": "\"Unicode property escapes with u flag\""
+            "raw": "\"Unicode property escapes with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -736,14 +778,17 @@
                 "regex": {
                   "pattern": "\\p{Script=Han}",
                   "flags": "gv"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1057,
                 "end": 1060,
                 "value": "X",
-                "raw": "'X'"
+                "raw": "'X'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -753,14 +798,18 @@
             "start": 1063,
             "end": 1070,
             "value": "XaXbX",
-            "raw": "\"XaXbX\""
+            "raw": "\"XaXbX\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1072,
             "end": 1110,
             "value": "Unicode property escapes with v flag",
-            "raw": "\"Unicode property escapes with v flag\""
+            "raw": "\"Unicode property escapes with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

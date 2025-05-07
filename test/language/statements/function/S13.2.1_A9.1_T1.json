@@ -62,7 +62,9 @@
                 "start": 480,
                 "end": 484,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -127,7 +129,9 @@
                     "start": 632,
                     "end": 682,
                     "value": "#1: __func() === undefined. Actual: __func() ===",
-                    "raw": "'#1: __func() === undefined. Actual: __func() ==='"
+                    "raw": "'#1: __func() === undefined. Actual: __func() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -202,7 +206,9 @@
                     "start": 903,
                     "end": 935,
                     "value": "#2: x === true. Actual: x === ",
-                    "raw": "'#2: x === true. Actual: x === '"
+                    "raw": "'#2: x === true. Actual: x === '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

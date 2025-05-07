@@ -90,7 +90,9 @@ __ESTREE_TEST__:PASS:
                 "start": 100,
                 "end": 101,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -102,7 +104,9 @@ __ESTREE_TEST__:PASS:
                 "start": 84,
                 "end": 86,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             },
             "test": {
@@ -110,7 +114,9 @@ __ESTREE_TEST__:PASS:
               "start": 71,
               "end": 75,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -34,7 +34,9 @@
                 "start": 372,
                 "end": 384,
                 "value": "eval = 42;",
-                "raw": "'eval = 42;'"
+                "raw": "'eval = 42;'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

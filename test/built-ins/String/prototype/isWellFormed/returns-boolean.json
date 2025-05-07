@@ -75,7 +75,9 @@
             "start": 501,
             "end": 511,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +103,9 @@
             "start": 532,
             "end": 540,
             "value": "\ud83d",
-            "raw": "'\\uD83D'"
+            "raw": "'\\uD83D'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +131,9 @@
             "start": 560,
             "end": 568,
             "value": "\udca9",
-            "raw": "'\\uDCA9'"
+            "raw": "'\\uDCA9'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -231,7 +237,9 @@
                           "start": 633,
                           "end": 636,
                           "value": "a",
-                          "raw": "'a'"
+                          "raw": "'a'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -247,7 +255,9 @@
                         "start": 652,
                         "end": 655,
                         "value": "c",
-                        "raw": "'c'"
+                        "raw": "'c'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -264,7 +274,9 @@
                     "start": 671,
                     "end": 674,
                     "value": "e",
-                    "raw": "'e'"
+                    "raw": "'e'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -285,14 +297,18 @@
             "start": 694,
             "end": 699,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 703,
             "end": 748,
             "value": "lone leading surrogates are not well-formed",
-            "raw": "'lone leading surrogates are not well-formed'"
+            "raw": "'lone leading surrogates are not well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +375,9 @@
                           "start": 773,
                           "end": 776,
                           "value": "a",
-                          "raw": "'a'"
+                          "raw": "'a'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -375,7 +393,9 @@
                         "start": 793,
                         "end": 796,
                         "value": "c",
-                        "raw": "'c'"
+                        "raw": "'c'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -392,7 +412,9 @@
                     "start": 813,
                     "end": 816,
                     "value": "e",
-                    "raw": "'e'"
+                    "raw": "'e'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -413,14 +435,18 @@
             "start": 836,
             "end": 841,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 845,
             "end": 891,
             "value": "lone trailing surrogates are not well-formed",
-            "raw": "'lone trailing surrogates are not well-formed'"
+            "raw": "'lone trailing surrogates are not well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -483,7 +509,9 @@
                         "start": 916,
                         "end": 919,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -507,7 +535,9 @@
                     "start": 949,
                     "end": 952,
                     "value": "d",
-                    "raw": "'d'"
+                    "raw": "'d'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -528,14 +558,18 @@
             "start": 972,
             "end": 977,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 981,
             "end": 1032,
             "value": "a wrong-ordered surrogate pair is not well-formed",
-            "raw": "'a wrong-ordered surrogate pair is not well-formed'"
+            "raw": "'a wrong-ordered surrogate pair is not well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -582,7 +616,9 @@
                 "start": 1053,
                 "end": 1059,
                 "value": "a💩c",
-                "raw": "'a💩c'"
+                "raw": "'a💩c'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -601,14 +637,18 @@
             "start": 1076,
             "end": 1080,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1082,
             "end": 1142,
             "value": "a surrogate pair using a literal code point is well-formed",
-            "raw": "'a surrogate pair using a literal code point is well-formed'"
+            "raw": "'a surrogate pair using a literal code point is well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -655,7 +695,9 @@
                 "start": 1162,
                 "end": 1178,
                 "value": "a💩c",
-                "raw": "'a\\uD83D\\uDCA9c'"
+                "raw": "'a\\uD83D\\uDCA9c'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -674,14 +716,18 @@
             "start": 1195,
             "end": 1199,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1201,
             "end": 1261,
             "value": "a surrogate pair formed by escape sequences is well-formed",
-            "raw": "'a surrogate pair formed by escape sequences is well-formed'"
+            "raw": "'a surrogate pair formed by escape sequences is well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -744,7 +790,9 @@
                         "start": 1282,
                         "end": 1285,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -768,7 +816,9 @@
                     "start": 1315,
                     "end": 1318,
                     "value": "d",
-                    "raw": "'d'"
+                    "raw": "'d'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -789,14 +839,18 @@
             "start": 1336,
             "end": 1340,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1342,
             "end": 1399,
             "value": "a surrogate pair formed by concatenation is well-formed",
-            "raw": "'a surrogate pair formed by concatenation is well-formed'"
+            "raw": "'a surrogate pair formed by concatenation is well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -867,14 +921,18 @@
                     "start": 1434,
                     "end": 1435,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1437,
                     "end": 1438,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -896,14 +954,18 @@
             "start": 1456,
             "end": 1461,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1463,
             "end": 1532,
             "value": "a surrogate pair sliced to the leading surrogate is not well-formed",
-            "raw": "'a surrogate pair sliced to the leading surrogate is not well-formed'"
+            "raw": "'a surrogate pair sliced to the leading surrogate is not well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -974,7 +1036,9 @@
                     "start": 1567,
                     "end": 1568,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -996,14 +1060,18 @@
             "start": 1586,
             "end": 1591,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1593,
             "end": 1663,
             "value": "a surrogate pair sliced to the trailing surrogate is not well-formed",
-            "raw": "'a surrogate pair sliced to the trailing surrogate is not well-formed'"
+            "raw": "'a surrogate pair sliced to the trailing surrogate is not well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1050,7 +1118,9 @@
                 "start": 1683,
                 "end": 1688,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1069,14 +1139,18 @@
             "start": 1705,
             "end": 1709,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1711,
             "end": 1744,
             "value": "a latin-1 string is well-formed",
-            "raw": "'a latin-1 string is well-formed'"
+            "raw": "'a latin-1 string is well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1123,7 +1197,9 @@
                 "start": 1764,
                 "end": 1774,
                 "value": "a▨c",
-                "raw": "'a\\u25A8c'"
+                "raw": "'a\\u25A8c'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1142,14 +1218,18 @@
             "start": 1791,
             "end": 1795,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1797,
             "end": 1835,
             "value": "a non-ASCII character is well-formed",
-            "raw": "'a non-ASCII character is well-formed'"
+            "raw": "'a non-ASCII character is well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

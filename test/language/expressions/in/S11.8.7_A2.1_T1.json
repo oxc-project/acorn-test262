@@ -20,7 +20,9 @@
             "start": 287,
             "end": 298,
             "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "raw": "\"MAX_VALUE\"",
+            "regex": null,
+            "bigint": null
           },
           "operator": "in",
           "right": {
@@ -36,7 +38,9 @@
           "start": 313,
           "end": 317,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -64,7 +68,9 @@
                   "start": 346,
                   "end": 382,
                   "value": "#1: \"MAX_VALUE\" in Number === true",
-                  "raw": "'#1: \"MAX_VALUE\" in Number === true'"
+                  "raw": "'#1: \"MAX_VALUE\" in Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -93,7 +99,9 @@
             "start": 406,
             "end": 417,
             "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "raw": "\"MAX_VALUE\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -131,7 +139,9 @@
           "start": 439,
           "end": 443,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -159,7 +169,9 @@
                   "start": 472,
                   "end": 519,
                   "value": "#2: var x = \"MAX_VALUE\"; x in Number === true",
-                  "raw": "'#2: var x = \"MAX_VALUE\"; x in Number === true'"
+                  "raw": "'#2: var x = \"MAX_VALUE\"; x in Number === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -210,7 +222,9 @@
             "start": 555,
             "end": 566,
             "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "raw": "\"MAX_VALUE\"",
+            "regex": null,
+            "bigint": null
           },
           "operator": "in",
           "right": {
@@ -226,7 +240,9 @@
           "start": 577,
           "end": 581,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -254,7 +270,9 @@
                   "start": 610,
                   "end": 657,
                   "value": "#3: var y = Number; \"MAX_VALUE\" in y === true",
-                  "raw": "'#3: var y = Number; \"MAX_VALUE\" in y === true'"
+                  "raw": "'#3: var y = Number; \"MAX_VALUE\" in y === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -283,7 +301,9 @@
             "start": 681,
             "end": 692,
             "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "raw": "\"MAX_VALUE\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -346,7 +366,9 @@
           "start": 725,
           "end": 729,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -374,7 +396,9 @@
                   "start": 758,
                   "end": 816,
                   "value": "#4: var x = \"MAX_VALUE\"; var y = Number; x in y === true",
-                  "raw": "'#4: var x = \"MAX_VALUE\"; var y = Number; x in y === true'"
+                  "raw": "'#4: var x = \"MAX_VALUE\"; var y = Number; x in y === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

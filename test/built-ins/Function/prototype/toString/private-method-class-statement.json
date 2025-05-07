@@ -197,7 +197,9 @@
             "start": 479,
             "end": 523,
             "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }",
-            "raw": "\"#f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
+            "raw": "\"#f /* a */ ( /* b */ ) /* c */ { /* d */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

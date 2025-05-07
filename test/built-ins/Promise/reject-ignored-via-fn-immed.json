@@ -23,7 +23,9 @@
             "start": 758,
             "end": 762,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -239,7 +241,9 @@
             "start": 948,
             "end": 980,
             "value": "\"reject\" function return value",
-            "raw": "'\"reject\" function return value'"
+            "raw": "'\"reject\" function return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -342,7 +346,9 @@
                         "start": 1039,
                         "end": 1076,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

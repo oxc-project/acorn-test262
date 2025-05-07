@@ -52,7 +52,9 @@
                     "start": 497,
                     "end": 501,
                     "value": "en",
-                    "raw": "\"en\""
+                    "raw": "\"en\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -83,7 +85,9 @@
           "start": 532,
           "end": 536,
           "value": "en",
-          "raw": "\"en\""
+          "raw": "\"en\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -137,7 +141,9 @@
                 "start": 583,
                 "end": 584,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -182,7 +188,9 @@
                       "start": 605,
                       "end": 609,
                       "value": 1.23,
-                      "raw": "1.23"
+                      "raw": "1.23",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -199,7 +207,9 @@
                       "start": 625,
                       "end": 629,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -209,7 +219,9 @@
                   "start": 632,
                   "end": 638,
                   "value": "1.23",
-                  "raw": "\"1.23\""
+                  "raw": "\"1.23\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -72,14 +72,18 @@
                       "start": 337,
                       "end": 338,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "value": {
                       "type": "Literal",
                       "start": 340,
                       "end": 342,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -95,14 +99,18 @@
                       "start": 346,
                       "end": 347,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "value": {
                       "type": "Literal",
                       "start": 349,
                       "end": 350,
                       "value": 9,
-                      "raw": "9"
+                      "raw": "9",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -124,7 +132,9 @@
                       "start": 362,
                       "end": 363,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -138,14 +148,18 @@
             "start": 368,
             "end": 373,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 375,
             "end": 434,
             "value": "Array.isArray({0: 12, 1: 9, length: 2}) must return false",
-            "raw": "'Array.isArray({0: 12, 1: 9, length: 2}) must return false'"
+            "raw": "'Array.isArray({0: 12, 1: 9, length: 2}) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

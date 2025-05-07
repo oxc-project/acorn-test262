@@ -48,6 +48,7 @@
                 "end": 310,
                 "value": null,
                 "raw": "946_684_799_999_999_999n",
+                "regex": null,
                 "bigint": "946684799999999999"
               }
             ]
@@ -91,14 +92,18 @@
             "start": 387,
             "end": 393,
             "value": "ceil",
-            "raw": "\"ceil\""
+            "raw": "\"ceil\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 395,
             "end": 407,
             "value": "halfExpand",
-            "raw": "\"halfExpand\""
+            "raw": "\"halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -182,7 +187,9 @@
                             "start": 474,
                             "end": 475,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -217,7 +224,9 @@
                   "start": 494,
                   "end": 525,
                   "value": "2000-01-01T00:00:00.00000000Z",
-                  "raw": "\"2000-01-01T00:00:00.00000000Z\""
+                  "raw": "\"2000-01-01T00:00:00.00000000Z\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

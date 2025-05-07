@@ -12,7 +12,9 @@
         "start": 1577,
         "end": 1582,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -62,7 +64,9 @@
                             "start": 1605,
                             "end": 1648,
                             "value": "./eval-gtbndng-indirect-update_FIXTURE.js",
-                            "raw": "'./eval-gtbndng-indirect-update_FIXTURE.js'"
+                            "raw": "'./eval-gtbndng-indirect-update_FIXTURE.js'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "options": null
                         },
@@ -149,7 +153,9 @@
                                       "start": 1703,
                                       "end": 1704,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -245,7 +251,9 @@
                                       "start": 1985,
                                       "end": 1986,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

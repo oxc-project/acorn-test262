@@ -75,14 +75,18 @@
             "start": 339,
             "end": 349,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 353,
             "end": 426,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +248,9 @@
                         "start": 542,
                         "end": 592,
                         "value": "This is invalid code and should not be evaluated",
-                        "raw": "'This is invalid code and should not be evaluated'"
+                        "raw": "'This is invalid code and should not be evaluated'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -258,7 +264,9 @@
             "start": 598,
             "end": 654,
             "value": "throws a TypeError if this is not a ShadowRealm object",
-            "raw": "'throws a TypeError if this is not a ShadowRealm object'"
+            "raw": "'throws a TypeError if this is not a ShadowRealm object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

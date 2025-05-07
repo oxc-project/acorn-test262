@@ -23,7 +23,9 @@
             "start": 291,
             "end": 305,
             "value": "Hello World!",
-            "raw": "\"Hello World!\""
+            "raw": "\"Hello World!\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@
                 "start": 339,
                 "end": 346,
                 "value": "World",
-                "raw": "\"World\""
+                "raw": "\"World\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,7 +92,9 @@
             "start": 370,
             "end": 375,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -172,7 +178,9 @@
             "start": 426,
             "end": 433,
             "value": "World",
-            "raw": "\"World\""
+            "raw": "\"World\"",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -203,7 +211,9 @@
             "start": 451,
             "end": 468,
             "value": "result !== true",
-            "raw": "'result !== true'"
+            "raw": "'result !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

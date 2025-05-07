@@ -79,7 +79,9 @@
                   "start": 383,
                   "end": 389,
                   "value": "JSON",
-                  "raw": "\"JSON\""
+                  "raw": "\"JSON\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -205,14 +207,18 @@
             "start": 479,
             "end": 485,
             "value": "JSON",
-            "raw": "\"JSON\""
+            "raw": "\"JSON\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 501,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

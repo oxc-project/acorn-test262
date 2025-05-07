@@ -24,7 +24,9 @@
               "start": 405,
               "end": 411,
               "value": "abcd",
-              "raw": "\"abcd\""
+              "raw": "\"abcd\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -41,7 +43,9 @@
               "start": 420,
               "end": 428,
               "value": "abcdab",
-              "raw": "\"abcdab\""
+              "raw": "\"abcdab\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -64,7 +68,9 @@
             "start": 440,
             "end": 441,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -97,7 +103,9 @@
                     "start": 470,
                     "end": 519,
                     "value": "#1: \"abcd\".indexOf(\"abcdab\",NaN)===-1. Actual: ",
-                    "raw": "'#1: \"abcd\".indexOf(\"abcdab\",NaN)===-1. Actual: '"
+                    "raw": "'#1: \"abcd\".indexOf(\"abcdab\",NaN)===-1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -117,7 +125,9 @@
                           "start": 523,
                           "end": 529,
                           "value": "abcd",
-                          "raw": "\"abcd\""
+                          "raw": "\"abcd\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -134,7 +144,9 @@
                           "start": 538,
                           "end": 546,
                           "value": "abcdab",
-                          "raw": "\"abcdab\""
+                          "raw": "\"abcdab\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Identifier",

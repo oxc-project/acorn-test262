@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
                 "start": 36,
                 "end": 48,
                 "raw": "\"__esmodule\"",
-                "value": "__esmodule"
+                "value": "__esmodule",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init",
               "method": false,
@@ -83,7 +85,9 @@ __ESTREE_TEST__:PASS:
                 "start": 50,
                 "end": 54,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -96,7 +100,9 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 71,
                 "raw": "\"__proto__\"",
-                "value": "__proto__"
+                "value": "__proto__",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init",
               "method": false,
@@ -137,7 +143,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 20,
         "raw": "\"./m1\"",
-        "value": "./m1"
+        "value": "./m1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

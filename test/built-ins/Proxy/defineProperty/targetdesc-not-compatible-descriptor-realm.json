@@ -118,7 +118,9 @@
                 "start": 763,
                 "end": 767,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -200,7 +202,9 @@
                               "start": 841,
                               "end": 845,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -255,7 +259,9 @@
             "start": 886,
             "end": 892,
             "value": "prop",
-            "raw": "'prop'"
+            "raw": "'prop'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -280,7 +286,9 @@
                   "start": 905,
                   "end": 906,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -377,7 +385,9 @@
                         "start": 977,
                         "end": 983,
                         "value": "prop",
-                        "raw": "'prop'"
+                        "raw": "'prop'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -402,7 +412,9 @@
                               "start": 998,
                               "end": 999,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

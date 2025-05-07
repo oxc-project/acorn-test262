@@ -81,7 +81,9 @@
                   "start": 1461,
                   "end": 1462,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,14 +99,18 @@
                   "start": 1466,
                   "end": 1467,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1469,
                   "end": 1472,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -144,7 +150,9 @@
                           "start": 1496,
                           "end": 1502,
                           "value": "obj1",
-                          "raw": "'obj1'"
+                          "raw": "'obj1'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -189,7 +197,9 @@
                 "start": 1536,
                 "end": 1537,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -253,7 +263,9 @@
                           "start": 1577,
                           "end": 1623,
                           "value": "should not even consider the length property",
-                          "raw": "\"should not even consider the length property\""
+                          "raw": "\"should not even consider the length property\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -297,7 +309,9 @@
                           "start": 1649,
                           "end": 1655,
                           "value": "obj3",
-                          "raw": "'obj3'"
+                          "raw": "'obj3'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -452,7 +466,9 @@
             "start": 1756,
             "end": 1815,
             "value": "The value of actual is expected to equal the value of arr",
-            "raw": "'The value of actual is expected to equal the value of arr'"
+            "raw": "'The value of actual is expected to equal the value of arr'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -503,7 +519,9 @@
             "start": 1851,
             "end": 1916,
             "value": "The value of actual is expected to not equal the value of `arr`",
-            "raw": "'The value of actual is expected to not equal the value of `arr`'"
+            "raw": "'The value of actual is expected to not equal the value of `arr`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -547,7 +565,9 @@
                   "start": 1946,
                   "end": 1947,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -563,7 +583,9 @@
                   "start": 1951,
                   "end": 1952,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -585,7 +607,9 @@
                   "start": 1962,
                   "end": 1963,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -607,7 +631,9 @@
                   "start": 1973,
                   "end": 1974,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -629,7 +655,9 @@
                   "start": 1988,
                   "end": 1989,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -697,7 +725,9 @@
                           "start": 2034,
                           "end": 2040,
                           "value": "obj4",
-                          "raw": "'obj4'"
+                          "raw": "'obj4'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -850,7 +880,9 @@
             "start": 2144,
             "end": 2211,
             "value": "The value of actual is expected to be [obj1, obj2, obj3, arrLike]",
-            "raw": "'The value of actual is expected to be [obj1, obj2, obj3, arrLike]'"
+            "raw": "'The value of actual is expected to be [obj1, obj2, obj3, arrLike]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -901,7 +933,9 @@
             "start": 2251,
             "end": 2320,
             "value": "The value of actual is expected to not equal the value of `arrLike`",
-            "raw": "'The value of actual is expected to not equal the value of `arrLike`'"
+            "raw": "'The value of actual is expected to not equal the value of `arrLike`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -992,7 +1026,9 @@
             "start": 2395,
             "end": 2473,
             "value": "Object.getPrototypeOf([].flatMap.call(arrLike, fn)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(arrLike, fn)\") returns Array.prototype'"
+            "raw": "'Object.getPrototypeOf([].flatMap.call(arrLike, fn)\") returns Array.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

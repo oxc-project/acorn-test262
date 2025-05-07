@@ -45,7 +45,9 @@ __ESTREE_TEST__:PASS:
                   "start": 21,
                   "end": 28,
                   "raw": "\"value\"",
-                  "value": "value"
+                  "value": "value",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -107,7 +109,9 @@ __ESTREE_TEST__:PASS:
                     "start": 88,
                     "end": 95,
                     "raw": "\"value\"",
-                    "value": "value"
+                    "value": "value",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -238,7 +242,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 198,
                                     "end": 205,
                                     "raw": "\"value\"",
-                                    "value": "value"
+                                    "value": "value",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -393,7 +399,9 @@ __ESTREE_TEST__:PASS:
                       "start": 282,
                       "end": 289,
                       "raw": "\"value\"",
-                      "value": "value"
+                      "value": "value",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -529,7 +537,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 398,
                                       "end": 405,
                                       "raw": "\"value\"",
-                                      "value": "value"
+                                      "value": "value",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -1522,7 +1532,9 @@ __ESTREE_TEST__:PASS:
             "start": 1044,
             "end": 1066,
             "raw": "\"windows-process-tree\"",
-            "value": "windows-process-tree"
+            "value": "windows-process-tree",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrowFunctionExpression",
@@ -1568,7 +1580,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 1145,
                                     "end": 1148,
                                     "raw": "123",
-                                    "value": 123
+                                    "value": 123,
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "ArrowFunctionExpression",
@@ -1609,7 +1623,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 1239,
                                                           "end": 1261,
                                                           "raw": "\"windows-process-tree\"",
-                                                          "value": "windows-process-tree"
+                                                          "value": "windows-process-tree",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {

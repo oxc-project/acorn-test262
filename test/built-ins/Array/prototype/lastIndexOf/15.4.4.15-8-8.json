@@ -34,7 +34,9 @@
                 "start": 280,
                 "end": 285,
                 "value": "0,1",
-                "raw": "\"0,1\""
+                "raw": "\"0,1\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -73,7 +75,9 @@
                 "start": 306,
                 "end": 307,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -86,14 +90,18 @@
                 "start": 312,
                 "end": 317,
                 "value": "0,1",
-                "raw": "\"0,1\""
+                "raw": "\"0,1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 319,
                 "end": 320,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -187,14 +195,18 @@
             "start": 370,
             "end": 371,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 402,
             "value": "a.lastIndexOf(b.toString())",
-            "raw": "'a.lastIndexOf(b.toString())'"
+            "raw": "'a.lastIndexOf(b.toString())'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +269,9 @@
                 "start": 436,
                 "end": 441,
                 "value": "0,1",
-                "raw": "\"0,1\""
+                "raw": "\"0,1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -267,14 +281,18 @@
             "start": 444,
             "end": 445,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 469,
             "value": "a.lastIndexOf(\"0,1\")",
-            "raw": "'a.lastIndexOf(\"0,1\")'"
+            "raw": "'a.lastIndexOf(\"0,1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

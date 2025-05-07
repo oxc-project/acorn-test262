@@ -56,7 +56,9 @@
               "start": 688,
               "end": 697,
               "value": "private",
-              "raw": "'private'"
+              "raw": "'private'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -144,7 +146,9 @@
             "start": 766,
             "end": 775,
             "value": "private",
-            "raw": "'private'"
+            "raw": "'private'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

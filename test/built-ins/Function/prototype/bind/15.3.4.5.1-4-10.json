@@ -41,7 +41,9 @@
                   "start": 342,
                   "end": 347,
                   "value": "abc",
-                  "raw": "\"abc\""
+                  "raw": "\"abc\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -136,7 +138,9 @@
                         "start": 415,
                         "end": 426,
                         "value": "undefined",
-                        "raw": "\"undefined\""
+                        "raw": "\"undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -265,7 +269,9 @@
             "start": 506,
             "end": 526,
             "value": "newFunc() !== true",
-            "raw": "'newFunc() !== true'"
+            "raw": "'newFunc() !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

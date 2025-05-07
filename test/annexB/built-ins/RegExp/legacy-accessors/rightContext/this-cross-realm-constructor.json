@@ -148,7 +148,9 @@
                         "start": 736,
                         "end": 750,
                         "value": "rightContext",
-                        "raw": "\"rightContext\""
+                        "raw": "\"rightContext\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",
@@ -181,7 +183,9 @@
             "start": 774,
             "end": 834,
             "value": "RegExp.rightContext getter throws for cross-realm receiver",
-            "raw": "\"RegExp.rightContext getter throws for cross-realm receiver\""
+            "raw": "\"RegExp.rightContext getter throws for cross-realm receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,7 +278,9 @@
                         "start": 907,
                         "end": 911,
                         "value": "$'",
-                        "raw": "\"$'\""
+                        "raw": "\"$'\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",
@@ -307,7 +313,9 @@
             "start": 935,
             "end": 985,
             "value": "RegExp.$' getter throws for cross-realm receiver",
-            "raw": "\"RegExp.$' getter throws for cross-realm receiver\""
+            "raw": "\"RegExp.$' getter throws for cross-realm receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

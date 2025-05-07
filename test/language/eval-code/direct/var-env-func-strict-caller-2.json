@@ -42,7 +42,9 @@
                   "start": 362,
                   "end": 392,
                   "value": "function _10_4_2_1_2_fun(){}",
-                  "raw": "\"function _10_4_2_1_2_fun(){}\""
+                  "raw": "\"function _10_4_2_1_2_fun(){}\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +96,9 @@
                   "start": 444,
                   "end": 455,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

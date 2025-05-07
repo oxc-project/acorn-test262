@@ -44,14 +44,18 @@
                         "start": 459,
                         "end": 465,
                         "value": "attr",
-                        "raw": "\"attr\""
+                        "raw": "\"attr\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 467,
                         "end": 468,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -65,14 +69,18 @@
                         "start": 474,
                         "end": 479,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 481,
                         "end": 482,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -136,14 +144,18 @@
             "start": 514,
             "end": 515,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 547,
             "value": "The value of `m.size` is `2`",
-            "raw": "'The value of `m.size` is `2`'"
+            "raw": "'The value of `m.size` is `2`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,7 +218,9 @@
                 "start": 573,
                 "end": 579,
                 "value": "attr",
-                "raw": "\"attr\""
+                "raw": "\"attr\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -216,7 +230,9 @@
             "start": 582,
             "end": 583,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +295,9 @@
                 "start": 609,
                 "end": 614,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -289,7 +307,9 @@
             "start": 617,
             "end": 618,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

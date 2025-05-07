@@ -93,14 +93,18 @@
             "start": 334,
             "end": 344,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 405,
             "value": "The value of `typeof f.call` is expected to be \"function\"",
-            "raw": "'The value of `typeof f.call` is expected to be \"function\"'"
+            "raw": "'The value of `typeof f.call` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,14 +182,18 @@
             "start": 450,
             "end": 461,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 517,
             "value": "The value of typeof f.call.length is not \"undefined\"",
-            "raw": "'The value of typeof f.call.length is not \"undefined\"'"
+            "raw": "'The value of typeof f.call.length is not \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,14 +264,18 @@
             "start": 552,
             "end": 553,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 603,
             "value": "The value of f.call.length is expected to be 1",
-            "raw": "'The value of f.call.length is expected to be 1'"
+            "raw": "'The value of f.call.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

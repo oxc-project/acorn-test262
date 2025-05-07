@@ -27,7 +27,9 @@
               "start": 270,
               "end": 271,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 278,
           "end": 279,
           "value": 7,
-          "raw": "7"
+          "raw": "7",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -114,14 +118,18 @@
                       "start": 331,
                       "end": 335,
                       "value": 1976,
-                      "raw": "1976"
+                      "raw": "1976",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 337,
                       "end": 339,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "BinaryExpression",
@@ -132,7 +140,9 @@
                         "start": 341,
                         "end": 343,
                         "value": 14,
-                        "raw": "14"
+                        "raw": "14",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -204,7 +214,9 @@
                     "start": 390,
                     "end": 393,
                     "value": 319,
-                    "raw": "319"
+                    "raw": "319",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -234,7 +246,9 @@
                         "start": 432,
                         "end": 435,
                         "value": 319,
-                        "raw": "319"
+                        "raw": "319",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

@@ -55,7 +55,9 @@
                       "start": 932,
                       "end": 945,
                       "value": "super class",
-                      "raw": "'super class'"
+                      "raw": "'super class'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -183,7 +185,9 @@
                       "start": 1039,
                       "end": 1048,
                       "value": "test262",
-                      "raw": "'test262'"
+                      "raw": "'test262'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -344,7 +348,9 @@
             "start": 1151,
             "end": 1160,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +415,9 @@
             "start": 1197,
             "end": 1210,
             "value": "super class",
-            "raw": "'super class'"
+            "raw": "'super class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -505,7 +513,9 @@
             "start": 1265,
             "end": 1278,
             "value": "super class",
-            "raw": "'super class'"
+            "raw": "'super class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -618,7 +628,9 @@
             "start": 1342,
             "end": 1378,
             "value": "invalid access of C private method",
-            "raw": "'invalid access of C private method'"
+            "raw": "'invalid access of C private method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

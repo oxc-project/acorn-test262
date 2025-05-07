@@ -603,7 +603,9 @@ __ESTREE_TEST__:PASS:
                       "start": 681,
                       "end": 683,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],

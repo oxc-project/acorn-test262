@@ -196,7 +196,9 @@
             "start": 829,
             "end": 862,
             "value": "ordinary object (without value)",
-            "raw": "'ordinary object (without value)'"
+            "raw": "'ordinary object (without value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +304,9 @@
                         "start": 947,
                         "end": 948,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -316,7 +320,9 @@
             "start": 958,
             "end": 988,
             "value": "ordinary object (with value)",
-            "raw": "'ordinary object (with value)'"
+            "raw": "'ordinary object (with value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -439,7 +445,9 @@
             "start": 1093,
             "end": 1126,
             "value": "function object (without value)",
-            "raw": "'function object (without value)'"
+            "raw": "'function object (without value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +563,9 @@
                         "start": 1222,
                         "end": 1223,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -569,7 +579,9 @@
             "start": 1233,
             "end": 1263,
             "value": "function object (with value)",
-            "raw": "'function object (with value)'"
+            "raw": "'function object (with value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -682,7 +694,9 @@
             "start": 1356,
             "end": 1399,
             "value": "generator function object (without value)",
-            "raw": "'generator function object (without value)'"
+            "raw": "'generator function object (without value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -788,7 +802,9 @@
                         "start": 1483,
                         "end": 1484,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -802,7 +818,9 @@
             "start": 1494,
             "end": 1534,
             "value": "generator function object (with value)",
-            "raw": "'generator function object (with value)'"
+            "raw": "'generator function object (with value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -928,7 +946,9 @@
             "start": 1637,
             "end": 1690,
             "value": "generator function prototype object (without value)",
-            "raw": "'generator function prototype object (without value)'"
+            "raw": "'generator function prototype object (without value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1047,7 +1067,9 @@
                         "start": 1784,
                         "end": 1785,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1061,7 +1083,9 @@
             "start": 1795,
             "end": 1845,
             "value": "generator function prototype object (with value)",
-            "raw": "'generator function prototype object (with value)'"
+            "raw": "'generator function prototype object (with value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

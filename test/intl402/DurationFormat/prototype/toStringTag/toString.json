@@ -121,7 +121,9 @@
             "start": 574,
             "end": 604,
             "value": "[object Intl.DurationFormat]",
-            "raw": "\"[object Intl.DurationFormat]\""
+            "raw": "\"[object Intl.DurationFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +240,9 @@
             "start": 683,
             "end": 713,
             "value": "[object Intl.DurationFormat]",
-            "raw": "\"[object Intl.DurationFormat]\""
+            "raw": "\"[object Intl.DurationFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

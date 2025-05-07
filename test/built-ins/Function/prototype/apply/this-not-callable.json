@@ -241,7 +241,9 @@
                         "start": 575,
                         "end": 579,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -508,7 +510,8 @@
                         "regex": {
                           "pattern": "re",
                           "flags": ""
-                        }
+                        },
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

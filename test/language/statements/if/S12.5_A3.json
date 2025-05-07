@@ -47,7 +47,9 @@
                           "start": 474,
                           "end": 475,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -107,7 +109,9 @@
                   "start": 518,
                   "end": 519,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -139,7 +143,9 @@
                             "start": 548,
                             "end": 593,
                             "value": "#1: Exception === 1. Actual:  Exception ===",
-                            "raw": "'#1: Exception === 1. Actual:  Exception ==='"
+                            "raw": "'#1: Exception === 1. Actual:  Exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -205,7 +211,9 @@
                           "start": 805,
                           "end": 806,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -275,7 +283,9 @@
                   "start": 867,
                   "end": 868,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -307,7 +317,9 @@
                             "start": 897,
                             "end": 942,
                             "value": "#2: Exception === 1. Actual:  Exception ===",
-                            "raw": "'#2: Exception === 1. Actual:  Exception ==='"
+                            "raw": "'#2: Exception === 1. Actual:  Exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

@@ -23,7 +23,9 @@
             "start": 314,
             "end": 319,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -54,21 +56,27 @@
                 "start": 333,
                 "end": 334,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 337,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 340,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -109,7 +117,9 @@
           "start": 361,
           "end": 371,
           "value": "ownArray",
-          "raw": "\"ownArray\""
+          "raw": "\"ownArray\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -233,7 +243,9 @@
                 "start": 465,
                 "end": 478,
                 "value": "ownProperty",
-                "raw": "\"ownProperty\""
+                "raw": "\"ownProperty\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -261,7 +273,9 @@
                       "start": 502,
                       "end": 506,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -304,7 +318,9 @@
             "start": 548,
             "end": 568,
             "value": "Property not found",
-            "raw": "'Property not found'"
+            "raw": "'Property not found'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

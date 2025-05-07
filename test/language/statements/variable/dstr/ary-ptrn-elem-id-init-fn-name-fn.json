@@ -140,7 +140,9 @@
             "start": 1306,
             "end": 1310,
             "value": "fn",
-            "raw": "'fn'"
+            "raw": "'fn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +200,9 @@
             "start": 1343,
             "end": 1348,
             "value": "xFn",
-            "raw": "'xFn'"
+            "raw": "'xFn'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

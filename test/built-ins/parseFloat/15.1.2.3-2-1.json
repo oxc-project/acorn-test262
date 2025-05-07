@@ -47,7 +47,9 @@
                 "start": 332,
                 "end": 334,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 342,
             "end": 358,
             "value": "parseFloat(\"\")",
-            "raw": "'parseFloat(\"\")'"
+            "raw": "'parseFloat(\"\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

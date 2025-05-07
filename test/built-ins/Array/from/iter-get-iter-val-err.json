@@ -92,7 +92,9 @@
             "start": 556,
             "end": 563,
             "value": "value",
-            "raw": "'value'"
+            "raw": "'value'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -363,7 +365,9 @@
             "start": 847,
             "end": 919,
             "value": "Array.from(itemsPoisonedIteratorValue) throws a Test262Error exception",
-            "raw": "'Array.from(itemsPoisonedIteratorValue) throws a Test262Error exception'"
+            "raw": "'Array.from(itemsPoisonedIteratorValue) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 327,
                 "end": 340,
                 "value": "description",
-                "raw": "\"description\""
+                "raw": "\"description\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -101,7 +103,9 @@
           "start": 369,
           "end": 370,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -200,7 +204,9 @@
               "start": 442,
               "end": 443,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -216,7 +222,9 @@
             "start": 451,
             "end": 532,
             "value": "Array of symbols returned by `Object.getOwnPropertySymbols(obj)` includes `sym`",
-            "raw": "\"Array of symbols returned by `Object.getOwnPropertySymbols(obj)` includes `sym`\""
+            "raw": "\"Array of symbols returned by `Object.getOwnPropertySymbols(obj)` includes `sym`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,14 +282,18 @@
             "start": 565,
             "end": 566,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 603,
             "value": "The value of `syms.length` is `1`",
-            "raw": "\"The value of `syms.length` is `1`\""
+            "raw": "\"The value of `syms.length` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

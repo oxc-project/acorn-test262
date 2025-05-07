@@ -90,7 +90,9 @@
                               "start": 2093,
                               "end": 2101,
                               "value": "var x;",
-                              "raw": "'var x;'"
+                              "raw": "'var x;'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

@@ -121,7 +121,9 @@
             "start": 807,
             "end": 837,
             "value": "[object Intl.DateTimeFormat]",
-            "raw": "\"[object Intl.DateTimeFormat]\""
+            "raw": "\"[object Intl.DateTimeFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +240,9 @@
             "start": 916,
             "end": 946,
             "value": "[object Intl.DateTimeFormat]",
-            "raw": "\"[object Intl.DateTimeFormat]\""
+            "raw": "\"[object Intl.DateTimeFormat]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

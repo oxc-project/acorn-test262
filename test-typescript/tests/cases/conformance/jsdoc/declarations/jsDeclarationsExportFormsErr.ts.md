@@ -76,7 +76,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 27,
           "raw": "\"./cls\"",
-          "value": "./cls"
+          "value": "./cls",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -117,7 +119,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 27,
         "raw": "\"./cls\"",
-        "value": "./cls"
+        "value": "./cls",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -206,7 +210,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 21,
         "raw": "\"./cls\"",
-        "value": "./cls"
+        "value": "./cls",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -246,7 +252,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 14,
         "raw": "\"./bar\"",
-        "value": "./bar"
+        "value": "./bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -261,7 +269,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 30,
         "raw": "\"./bin\"",
-        "value": "./bin"
+        "value": "./bin",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -276,7 +286,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 51,
         "raw": "\"./globalNs\"",
-        "value": "./globalNs"
+        "value": "./globalNs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

@@ -39,7 +39,9 @@
                   "start": 986,
                   "end": 987,
                   "value": 7,
-                  "raw": "7"
+                  "raw": "7",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -69,7 +71,9 @@
         "start": 1007,
         "end": 1044,
         "value": "./eval-export-dflt-expr-fn-named.js",
-        "raw": "'./eval-export-dflt-expr-fn-named.js'"
+        "raw": "'./eval-export-dflt-expr-fn-named.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -119,14 +123,18 @@
             "start": 1069,
             "end": 1070,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1072,
             "end": 1093,
             "value": "binding initialized",
-            "raw": "'binding initialized'"
+            "raw": "'binding initialized'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,14 +192,18 @@
             "start": 1121,
             "end": 1128,
             "value": "fName",
-            "raw": "'fName'"
+            "raw": "'fName'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1130,
             "end": 1156,
             "value": "correct name is assigned",
-            "raw": "'correct name is assigned'"
+            "raw": "'correct name is assigned'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

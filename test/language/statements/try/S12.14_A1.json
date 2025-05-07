@@ -32,7 +32,9 @@
                   "start": 438,
                   "end": 439,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -75,7 +77,9 @@
                     "start": 480,
                     "end": 563,
                     "value": "#1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))",
-                    "raw": "'#1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))'"
+                    "raw": "'#1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -105,7 +109,9 @@
             "start": 587,
             "end": 588,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -140,7 +146,9 @@
                   "start": 604,
                   "end": 605,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -174,7 +182,9 @@
                 "start": 624,
                 "end": 625,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -201,7 +211,9 @@
           "start": 637,
           "end": 638,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -229,7 +241,9 @@
                   "start": 666,
                   "end": 745,
                   "value": "#2.1: \"try\" block must be evaluated. Actual: try Block has not been evaluated",
-                  "raw": "'#2.1: \"try\" block must be evaluated. Actual: try Block has not been evaluated'"
+                  "raw": "'#2.1: \"try\" block must be evaluated. Actual: try Block has not been evaluated'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -258,7 +272,9 @@
           "start": 759,
           "end": 760,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -286,7 +302,9 @@
                   "start": 788,
                   "end": 875,
                   "value": "#2.2: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated",
-                  "raw": "'#2.2: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated'"
+                  "raw": "'#2.2: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -315,7 +333,9 @@
             "start": 899,
             "end": 900,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -350,7 +370,9 @@
                   "start": 916,
                   "end": 917,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -393,7 +415,9 @@
                     "start": 956,
                     "end": 1041,
                     "value": "#3.1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))",
-                    "raw": "'#3.1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))'"
+                    "raw": "'#3.1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -426,7 +450,9 @@
                 "start": 1061,
                 "end": 1062,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -453,7 +479,9 @@
           "start": 1074,
           "end": 1075,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -481,7 +509,9 @@
                   "start": 1103,
                   "end": 1182,
                   "value": "#3.2: \"try\" block must be evaluated. Actual: try Block has not been evaluated",
-                  "raw": "'#3.2: \"try\" block must be evaluated. Actual: try Block has not been evaluated'"
+                  "raw": "'#3.2: \"try\" block must be evaluated. Actual: try Block has not been evaluated'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -510,7 +540,9 @@
           "start": 1196,
           "end": 1197,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -538,7 +570,9 @@
                   "start": 1225,
                   "end": 1312,
                   "value": "#3.3: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated",
-                  "raw": "'#3.3: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated'"
+                  "raw": "'#3.3: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

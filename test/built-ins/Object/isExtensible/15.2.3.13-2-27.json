@@ -272,14 +272,18 @@
             "start": 516,
             "end": 521,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 549,
             "value": "Object.isExtensible(obj)",
-            "raw": "'Object.isExtensible(obj)'"
+            "raw": "'Object.isExtensible(obj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

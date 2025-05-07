@@ -37,7 +37,9 @@ __ESTREE_TEST__:PASS:
             "start": 28,
             "end": 29,
             "raw": "5",
-            "value": 5
+            "value": 5,
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -80,7 +82,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 33,
         "raw": "\"./other.mjs\"",
-        "value": "./other.mjs"
+        "value": "./other.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

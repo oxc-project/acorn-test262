@@ -34,7 +34,9 @@
                 "start": 355,
                 "end": 361,
                 "value": "test",
-                "raw": "\"test\""
+                "raw": "\"test\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -174,7 +176,9 @@
                             "start": 455,
                             "end": 457,
                             "value": 11,
-                            "raw": "11"
+                            "raw": "11",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -196,7 +200,9 @@
                             "start": 477,
                             "end": 481,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -262,7 +268,9 @@
                 "start": 528,
                 "end": 530,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -284,7 +292,9 @@
                 "start": 546,
                 "end": 550,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -394,7 +404,9 @@
                 "start": 623,
                 "end": 642,
                 "value": "prop15_2_3_5_4_37",
-                "raw": "\"prop15_2_3_5_4_37\""
+                "raw": "\"prop15_2_3_5_4_37\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -404,7 +416,9 @@
             "start": 645,
             "end": 698,
             "value": "newObj.hasOwnProperty(\"prop15_2_3_5_4_37\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop15_2_3_5_4_37\") !== true'"
+            "raw": "'newObj.hasOwnProperty(\"prop15_2_3_5_4_37\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

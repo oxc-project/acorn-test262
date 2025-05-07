@@ -31,7 +31,9 @@
                 "start": 633,
                 "end": 691,
                 "value": "To sign up click |here|https:www.xxxx.org/subscribe.htm|",
-                "raw": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\""
+                "raw": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,14 +54,17 @@
                 "regex": {
                   "pattern": "(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)",
                   "flags": "gi"
-                }
+                },
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 766,
                 "end": 787,
                 "value": "<a href=\"$4\">$2</a>",
-                "raw": "'<a href=\"$4\">$2</a>'"
+                "raw": "'<a href=\"$4\">$2</a>'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -88,7 +93,9 @@
             "start": 808,
             "end": 878,
             "value": "To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>",
-            "raw": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'"
+            "raw": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -139,7 +146,9 @@
             "start": 922,
             "end": 992,
             "value": "The value of __replaced is expected to equal the value of __expected",
-            "raw": "'The value of __replaced is expected to equal the value of __expected'"
+            "raw": "'The value of __replaced is expected to equal the value of __expected'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

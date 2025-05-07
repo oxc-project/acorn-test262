@@ -87,14 +87,18 @@
             "start": 296,
             "end": 306,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 308,
             "end": 362,
             "value": "The value of `typeof f` is expected to be \"function\"",
-            "raw": "'The value of `typeof f` is expected to be \"function\"'"
+            "raw": "'The value of `typeof f` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

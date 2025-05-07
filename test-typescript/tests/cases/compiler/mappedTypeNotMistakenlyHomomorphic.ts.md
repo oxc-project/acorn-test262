@@ -573,7 +573,9 @@ __ESTREE_TEST__:PASS:
                   "start": 363,
                   "end": 371,
                   "raw": "\"I am A\"",
-                  "value": "I am A"
+                  "value": "I am A",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -599,7 +601,9 @@ __ESTREE_TEST__:PASS:
                   "start": 376,
                   "end": 378,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -710,7 +714,9 @@ __ESTREE_TEST__:PASS:
                   "start": 419,
                   "end": 427,
                   "raw": "\"I am B\"",
-                  "value": "I am B"
+                  "value": "I am B",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -736,7 +742,9 @@ __ESTREE_TEST__:PASS:
                   "start": 432,
                   "end": 434,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

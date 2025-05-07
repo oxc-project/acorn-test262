@@ -65,7 +65,9 @@
                         "start": 407,
                         "end": 427,
                         "value": "de-DE-u-co-phonebk",
-                        "raw": "\"de-DE-u-co-phonebk\""
+                        "raw": "\"de-DE-u-co-phonebk\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

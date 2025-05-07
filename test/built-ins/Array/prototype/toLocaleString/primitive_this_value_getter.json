@@ -36,14 +36,18 @@
                     "start": 650,
                     "end": 652,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 654,
                     "end": 656,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -115,7 +119,9 @@
             "start": 718,
             "end": 728,
             "value": "toString",
-            "raw": "\"toString\""
+            "raw": "\"toString\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -270,14 +276,18 @@
                     "start": 851,
                     "end": 855,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 857,
                     "end": 862,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -310,7 +320,9 @@
                   "start": 883,
                   "end": 892,
                   "value": "boolean",
-                  "raw": "\"boolean\""
+                  "raw": "\"boolean\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -326,7 +338,9 @@
                 "start": 911,
                 "end": 920,
                 "value": "boolean",
-                "raw": "\"boolean\""
+                "raw": "\"boolean\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }

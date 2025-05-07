@@ -75,7 +75,9 @@
             "start": 496,
             "end": 497,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +103,9 @@
             "start": 517,
             "end": 521,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +131,9 @@
             "start": 544,
             "end": 548,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -278,7 +284,9 @@
               "start": 669,
               "end": 673,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -305,7 +313,9 @@
           "start": 693,
           "end": 697,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -372,7 +382,9 @@
             "start": 769,
             "end": 841,
             "value": "The realm's template cache is for source code locations in a function",
-            "raw": "'The realm\\'s template cache is for source code locations in a function'"
+            "raw": "'The realm\\'s template cache is for source code locations in a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -151,7 +151,9 @@
                                     "start": 427,
                                     "end": 430,
                                     "value": 123,
-                                    "raw": "123"
+                                    "raw": "123",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }

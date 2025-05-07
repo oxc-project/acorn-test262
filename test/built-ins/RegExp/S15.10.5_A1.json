@@ -55,14 +55,18 @@
             "start": 302,
             "end": 303,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 305,
             "end": 353,
             "value": "The value of RegExp.length is expected to be 2",
-            "raw": "'The value of RegExp.length is expected to be 2'"
+            "raw": "'The value of RegExp.length is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

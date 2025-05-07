@@ -23,7 +23,9 @@
             "start": 296,
             "end": 298,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +129,9 @@
                                 "start": 408,
                                 "end": 420,
                                 "value": "|toString:",
-                                "raw": "'|toString:'"
+                                "raw": "'|toString:'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -206,7 +210,9 @@
                                 "start": 496,
                                 "end": 507,
                                 "value": "|valueOf:",
-                                "raw": "'|valueOf:'"
+                                "raw": "'|valueOf:'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -276,7 +282,9 @@
                 "start": 590,
                 "end": 600,
                 "value": "receiver",
-                "raw": "'receiver'"
+                "raw": "'receiver'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -289,7 +297,9 @@
                 "start": 606,
                 "end": 611,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -329,7 +339,9 @@
                 "start": 656,
                 "end": 668,
                 "value": "fillString",
-                "raw": "'fillString'"
+                "raw": "'fillString'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -342,7 +354,9 @@
                 "start": 674,
                 "end": 679,
                 "value": "def",
-                "raw": "'def'"
+                "raw": "'def'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -382,14 +396,18 @@
                 "start": 723,
                 "end": 734,
                 "value": "maxLength",
-                "raw": "'maxLength'"
+                "raw": "'maxLength'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 736,
                 "end": 738,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -533,7 +551,9 @@
             "start": 848,
             "end": 861,
             "value": "abcdefdefde",
-            "raw": "'abcdefdefde'"
+            "raw": "'abcdefdefde'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -582,7 +602,9 @@
               "start": 887,
               "end": 890,
               "value": "|",
-              "raw": "'|'"
+              "raw": "'|'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -603,42 +625,54 @@
                       "start": 897,
                       "end": 916,
                       "value": "toString:receiver",
-                      "raw": "'toString:receiver'"
+                      "raw": "'toString:receiver'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 920,
                       "end": 938,
                       "value": "valueOf:receiver",
-                      "raw": "'valueOf:receiver'"
+                      "raw": "'valueOf:receiver'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 942,
                       "end": 961,
                       "value": "valueOf:maxLength",
-                      "raw": "'valueOf:maxLength'"
+                      "raw": "'valueOf:maxLength'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 965,
                       "end": 985,
                       "value": "toString:maxLength",
-                      "raw": "'toString:maxLength'"
+                      "raw": "'toString:maxLength'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 989,
                       "end": 1010,
                       "value": "toString:fillString",
-                      "raw": "'toString:fillString'"
+                      "raw": "'toString:fillString'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1014,
                       "end": 1034,
                       "value": "valueOf:fillString",
-                      "raw": "'valueOf:fillString'"
+                      "raw": "'valueOf:fillString'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -657,7 +691,9 @@
                   "start": 1042,
                   "end": 1045,
                   "value": "|",
-                  "raw": "'|'"
+                  "raw": "'|'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

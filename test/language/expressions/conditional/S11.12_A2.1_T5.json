@@ -55,7 +55,9 @@
               "start": 315,
               "end": 319,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Identifier",
@@ -104,7 +106,9 @@
                   "start": 363,
                   "end": 411,
                   "value": "#1: var y = new Object(); (true ? y : z) === y",
-                  "raw": "'#1: var y = new Object(); (true ? y : z) === y'"
+                  "raw": "'#1: var y = new Object(); (true ? y : z) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

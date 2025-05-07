@@ -86,7 +86,9 @@ __ESTREE_TEST__:PASS:
                 "start": 58,
                 "end": 62,
                 "raw": "\"fs\"",
-                "value": "fs"
+                "value": "fs",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -135,7 +137,9 @@ __ESTREE_TEST__:PASS:
                 "start": 94,
                 "end": 102,
                 "raw": "\"/a/b/c\"",
-                "value": "/a/b/c"
+                "value": "/a/b/c",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

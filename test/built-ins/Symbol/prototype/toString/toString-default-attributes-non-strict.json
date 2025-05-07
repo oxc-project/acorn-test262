@@ -34,7 +34,9 @@
                 "start": 276,
                 "end": 280,
                 "value": "66",
-                "raw": "'66'"
+                "raw": "'66'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -76,7 +78,9 @@
           "start": 299,
           "end": 300,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -139,14 +143,18 @@
             "start": 335,
             "end": 347,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 349,
             "end": 427,
             "value": "`sym.toString()` returns `'Symbol(66)'`, after executing `sym.toString = 0;`",
-            "raw": "\"`sym.toString()` returns `'Symbol(66)'`, after executing `sym.toString = 0;`\""
+            "raw": "\"`sym.toString()` returns `'Symbol(66)'`, after executing `sym.toString = 0;`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +193,9 @@
           "start": 445,
           "end": 446,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -254,7 +264,9 @@
             "start": 485,
             "end": 560,
             "value": "The value of `sym` is `sym.valueOf()`, after executing `sym.valueOf = 0;`",
-            "raw": "\"The value of `sym` is `sym.valueOf()`, after executing `sym.valueOf = 0;`\""
+            "raw": "\"The value of `sym` is `sym.valueOf()`, after executing `sym.valueOf = 0;`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

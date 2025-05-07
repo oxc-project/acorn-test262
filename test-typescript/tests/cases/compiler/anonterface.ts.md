@@ -313,7 +313,9 @@ __ESTREE_TEST__:PASS:
                       "start": 176,
                       "end": 185,
                       "raw": "\"hello: \"",
-                      "value": "hello: "
+                      "value": "hello: ",
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -351,7 +353,9 @@ __ESTREE_TEST__:PASS:
             "start": 191,
             "end": 193,
             "raw": "18",
-            "value": 18
+            "value": 18,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

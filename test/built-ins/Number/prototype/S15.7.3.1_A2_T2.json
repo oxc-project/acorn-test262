@@ -62,14 +62,18 @@
             "start": 384,
             "end": 392,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 463,
             "value": "The value of `typeof Number.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof Number.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof Number.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,14 +226,18 @@
             "start": 575,
             "end": 592,
             "value": "[object Number]",
-            "raw": "\"[object Number]\""
+            "raw": "\"[object Number]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 655,
             "value": "Number.prototype.toString() must return \"[object Number]\"",
-            "raw": "'Number.prototype.toString() must return \"[object Number]\"'"
+            "raw": "'Number.prototype.toString() must return \"[object Number]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

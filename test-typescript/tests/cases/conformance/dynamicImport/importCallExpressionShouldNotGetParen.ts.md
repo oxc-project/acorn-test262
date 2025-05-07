@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 19,
             "end": 26,
             "raw": "\"zh-CN\"",
-            "value": "zh-CN"
+            "value": "zh-CN",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -271,7 +273,9 @@ __ESTREE_TEST__:PASS:
                   "start": 108,
                   "end": 120,
                   "raw": "\"./locales/\"",
-                  "value": "./locales/"
+                  "value": "./locales/",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -288,7 +292,9 @@ __ESTREE_TEST__:PASS:
                 "start": 136,
                 "end": 141,
                 "raw": "\".js\"",
-                "value": ".js"
+                "value": ".js",
+                "regex": null,
+                "bigint": null
               }
             }
           },

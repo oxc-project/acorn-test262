@@ -446,7 +446,9 @@ __ESTREE_TEST__:PASS:
               "start": 301,
               "end": 305,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

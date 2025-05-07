@@ -86,14 +86,18 @@
             "start": 610,
             "end": 611,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 643,
             "value": "The value of `s.size` is `0`",
-            "raw": "\"The value of `s.size` is `0`\""
+            "raw": "\"The value of `s.size` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -132,7 +136,9 @@
             "start": 653,
             "end": 654,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -171,7 +177,9 @@
             "start": 663,
             "end": 664,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,14 +237,18 @@
             "start": 693,
             "end": 694,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 765,
             "value": "The value of `s.size` is `1`, after executing `s.add(1); s.add(1);`",
-            "raw": "\"The value of `s.size` is `1`, after executing `s.add(1); s.add(1);`\""
+            "raw": "\"The value of `s.size` is `1`, after executing `s.add(1); s.add(1);`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

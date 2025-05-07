@@ -28,56 +28,72 @@
                 "start": 375,
                 "end": 382,
                 "value": "Zm.9v",
-                "raw": "'Zm.9v'"
+                "raw": "'Zm.9v'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 393,
                 "value": "Zm9v^",
-                "raw": "'Zm9v^'"
+                "raw": "'Zm9v^'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 397,
                 "end": 404,
                 "value": "Zg==&",
-                "raw": "'Zg==&'"
+                "raw": "'Zg==&'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 414,
                 "value": "Z−==",
-                "raw": "'Z−=='"
+                "raw": "'Z−=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 447,
                 "value": "Z＋==",
-                "raw": "'Z＋=='"
+                "raw": "'Z＋=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 483,
                 "end": 495,
                 "value": "Zg ==",
-                "raw": "'Zg\\u00A0=='"
+                "raw": "'Zg\\u00A0=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 507,
                 "end": 519,
                 "value": "Zg ==",
-                "raw": "'Zg\\u2009=='"
+                "raw": "'Zg\\u2009=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 537,
                 "end": 549,
                 "value": "Zg ==",
-                "raw": "'Zg\\u2028=='"
+                "raw": "'Zg\\u2028=='",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -218,35 +234,45 @@
                                             "start": 681,
                                             "end": 684,
                                             "value": 255,
-                                            "raw": "255"
+                                            "raw": "255",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 686,
                                             "end": 689,
                                             "value": 255,
-                                            "raw": "255"
+                                            "raw": "255",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 691,
                                             "end": 694,
                                             "value": 255,
-                                            "raw": "255"
+                                            "raw": "255",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 696,
                                             "end": 699,
                                             "value": 255,
-                                            "raw": "255"
+                                            "raw": "255",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 701,
                                             "end": 704,
                                             "value": 255,
-                                            "raw": "255"
+                                            "raw": "255",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }

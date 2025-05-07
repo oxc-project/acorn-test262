@@ -196,7 +196,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 25,
         "raw": "\"./bar\"",
-        "value": "./bar"
+        "value": "./bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -259,7 +261,9 @@ __ESTREE_TEST__:PASS:
               "start": 45,
               "end": 50,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -297,7 +301,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"baz\"",
-        "value": "baz"
+        "value": "baz",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -324,7 +330,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 38,
         "raw": "\"./exportValue\"",
-        "value": "./exportValue"
+        "value": "./exportValue",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -377,7 +385,9 @@ __ESTREE_TEST__:PASS:
         "start": 74,
         "end": 85,
         "raw": "\"./exportT\"",
-        "value": "./exportT"
+        "value": "./exportT",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -434,7 +444,9 @@ __ESTREE_TEST__:PASS:
             "start": 114,
             "end": 131,
             "raw": "\"./exportEqualsT\"",
-            "value": "./exportEqualsT"
+            "value": "./exportEqualsT",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -454,7 +466,9 @@ __ESTREE_TEST__:PASS:
         "start": 177,
         "end": 192,
         "raw": "\"./exportValue\"",
-        "value": "./exportValue"
+        "value": "./exportValue",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -494,7 +508,9 @@ __ESTREE_TEST__:PASS:
         "start": 274,
         "end": 285,
         "raw": "\"./exportT\"",
-        "value": "./exportT"
+        "value": "./exportT",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -599,7 +615,9 @@ __ESTREE_TEST__:PASS:
         "start": 471,
         "end": 482,
         "raw": "\"./exportT\"",
-        "value": "./exportT"
+        "value": "./exportT",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -674,7 +692,9 @@ __ESTREE_TEST__:PASS:
         "start": 599,
         "end": 610,
         "raw": "\"./exportT\"",
-        "value": "./exportT"
+        "value": "./exportT",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -749,7 +769,9 @@ __ESTREE_TEST__:PASS:
         "start": 708,
         "end": 735,
         "raw": "\"./reExportValueAsTypeOnly\"",
-        "value": "./reExportValueAsTypeOnly"
+        "value": "./reExportValueAsTypeOnly",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

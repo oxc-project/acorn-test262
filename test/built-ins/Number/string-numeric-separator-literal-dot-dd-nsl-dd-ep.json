@@ -47,7 +47,9 @@
                 "start": 656,
                 "end": 664,
                 "value": ".0_1e2",
-                "raw": "\".0_1e2\""
+                "raw": "\".0_1e2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 672,
             "end": 680,
             "value": ".0_1e2",
-            "raw": "\".0_1e2\""
+            "raw": "\".0_1e2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

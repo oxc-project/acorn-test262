@@ -151,7 +151,9 @@ __ESTREE_TEST__:PASS:
           "start": 85,
           "end": 90,
           "raw": "'baz'",
-          "value": "baz"
+          "value": "baz",
+          "regex": null,
+          "bigint": null
         }
       }
     }

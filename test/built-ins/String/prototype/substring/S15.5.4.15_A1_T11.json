@@ -59,7 +59,9 @@
                           "start": 397,
                           "end": 406,
                           "value": "instart",
-                          "raw": "\"instart\""
+                          "raw": "\"instart\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -129,7 +131,9 @@
                           "start": 464,
                           "end": 471,
                           "value": "inend",
-                          "raw": "\"inend\""
+                          "raw": "\"inend\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -163,7 +167,9 @@
             "start": 492,
             "end": 508,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -256,7 +262,9 @@
                   "start": 673,
                   "end": 742,
                   "value": "#1: \"var x = __str.substring(__obj,__obj2)\" lead to throw exception",
-                  "raw": "'#1: \"var x = __str.substring(__obj,__obj2)\" lead to throw exception'"
+                  "raw": "'#1: \"var x = __str.substring(__obj,__obj2)\" lead to throw exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -298,7 +306,9 @@
                   "start": 771,
                   "end": 780,
                   "value": "instart",
-                  "raw": "\"instart\""
+                  "raw": "\"instart\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -330,7 +340,9 @@
                             "start": 811,
                             "end": 852,
                             "value": "#1.1: Exception === \"instart\". Actual: ",
-                            "raw": "'#1.1: Exception === \"instart\". Actual: '"
+                            "raw": "'#1.1: Exception === \"instart\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

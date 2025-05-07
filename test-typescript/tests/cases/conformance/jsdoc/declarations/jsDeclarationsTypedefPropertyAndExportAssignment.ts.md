@@ -75,7 +75,9 @@ __ESTREE_TEST__:PASS:
                         "start": 303,
                         "end": 314,
                         "raw": "'parseHTML'",
-                        "value": "parseHTML"
+                        "value": "parseHTML",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -101,7 +103,9 @@ __ESTREE_TEST__:PASS:
                         "start": 331,
                         "end": 349,
                         "raw": "'Parse HTML & CSS'",
-                        "value": "Parse HTML & CSS"
+                        "value": "Parse HTML & CSS",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -153,7 +157,9 @@ __ESTREE_TEST__:PASS:
                         "start": 388,
                         "end": 401,
                         "raw": "'styleLayout'",
-                        "value": "styleLayout"
+                        "value": "styleLayout",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -179,7 +185,9 @@ __ESTREE_TEST__:PASS:
                         "start": 418,
                         "end": 434,
                         "raw": "'Style & Layout'",
-                        "value": "Style & Layout"
+                        "value": "Style & Layout",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -420,7 +428,9 @@ __ESTREE_TEST__:PASS:
                 "start": 46,
                 "end": 59,
                 "raw": "'./module.js'",
-                "value": "./module.js"
+                "value": "./module.js",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

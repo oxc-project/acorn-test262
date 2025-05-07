@@ -71,7 +71,9 @@
                         "start": 502,
                         "end": 589,
                         "value": "var _13_0_13_fun = new Function(\" \", \"'use strict'; eval = 42;\"); _13_0_13_fun();",
-                        "raw": "\"var _13_0_13_fun = new Function(\\\" \\\", \\\"'use strict'; eval = 42;\\\"); _13_0_13_fun();\""
+                        "raw": "\"var _13_0_13_fun = new Function(\\\" \\\", \\\"'use strict'; eval = 42;\\\"); _13_0_13_fun();\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

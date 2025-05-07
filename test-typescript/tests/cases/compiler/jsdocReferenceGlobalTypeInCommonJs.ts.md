@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 31,
                 "raw": "'./other'",
-                "value": "./other"
+                "value": "./other",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

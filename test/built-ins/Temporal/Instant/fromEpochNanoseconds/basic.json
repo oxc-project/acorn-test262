@@ -61,6 +61,7 @@
                 "end": 358,
                 "value": null,
                 "raw": "217175010_123_456_789n",
+                "regex": null,
                 "bigint": "217175010123456789"
               }
             ],
@@ -123,6 +124,7 @@
             "end": 429,
             "value": null,
             "raw": "217175010_123_456_789n",
+            "regex": null,
             "bigint": "217175010123456789"
           },
           {
@@ -130,7 +132,9 @@
             "start": 431,
             "end": 464,
             "value": "fromEpochNanoseconds post epoch",
-            "raw": "\"fromEpochNanoseconds post epoch\""
+            "raw": "\"fromEpochNanoseconds post epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,6 +204,7 @@
                   "end": 549,
                   "value": null,
                   "raw": "217175010_876_543_211n",
+                  "regex": null,
                   "bigint": "217175010876543211"
                 }
               }
@@ -269,6 +274,7 @@
               "end": 622,
               "value": null,
               "raw": "217175010_876_543_211n",
+              "regex": null,
               "bigint": "217175010876543211"
             }
           },
@@ -277,7 +283,9 @@
             "start": 624,
             "end": 656,
             "value": "fromEpochNanoseconds pre epoch",
-            "raw": "\"fromEpochNanoseconds pre epoch\""
+            "raw": "\"fromEpochNanoseconds pre epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

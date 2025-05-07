@@ -225,14 +225,18 @@ __ESTREE_TEST__:PASS:
                     "start": 131,
                     "end": 133,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Literal",
                     "start": 136,
                     "end": 137,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init",
@@ -315,14 +319,18 @@ __ESTREE_TEST__:PASS:
                     "start": 169,
                     "end": 171,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "Literal",
                     "start": 174,
                     "end": 175,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init",

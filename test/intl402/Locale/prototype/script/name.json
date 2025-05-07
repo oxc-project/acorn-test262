@@ -83,7 +83,9 @@
                   "start": 1287,
                   "end": 1295,
                   "value": "script",
-                  "raw": "\"script\""
+                  "raw": "\"script\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -127,7 +129,9 @@
             "start": 1325,
             "end": 1331,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -152,7 +156,9 @@
                   "start": 1344,
                   "end": 1356,
                   "value": "get script",
-                  "raw": "\"get script\""
+                  "raw": "\"get script\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -174,7 +180,9 @@
                   "start": 1370,
                   "end": 1375,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +204,9 @@
                   "start": 1391,
                   "end": 1396,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -218,7 +228,9 @@
                   "start": 1414,
                   "end": 1418,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

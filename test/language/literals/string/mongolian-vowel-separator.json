@@ -36,14 +36,18 @@
             "start": 958,
             "end": 961,
             "value": "᠎",
-            "raw": "\"᠎\""
+            "raw": "\"᠎\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 963,
             "end": 971,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

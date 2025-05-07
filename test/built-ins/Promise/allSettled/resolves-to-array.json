@@ -293,7 +293,9 @@
                             "start": 962,
                             "end": 997,
                             "value": "the resolved array is a new array",
-                            "raw": "'the resolved array is a new array'"
+                            "raw": "'the resolved array is a new array'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

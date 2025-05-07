@@ -86,7 +86,9 @@
               "start": 280,
               "end": 284,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -94,14 +96,18 @@
             "start": 286,
             "end": 290,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 292,
             "end": 318,
             "value": "`!sym || true` is `true`",
-            "raw": "\"`!sym || true` is `true`\""
+            "raw": "\"`!sym || true` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -151,7 +157,9 @@
               "start": 345,
               "end": 350,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -165,7 +173,9 @@
             "start": 357,
             "end": 382,
             "value": "`sym || false` is `sym`",
-            "raw": "\"`sym || false` is `sym`\""
+            "raw": "\"`sym || false` is `sym`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

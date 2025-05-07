@@ -31,7 +31,9 @@
               "start": 336,
               "end": 348,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -130,7 +132,9 @@
             "start": 405,
             "end": 421,
             "value": "f.bind(this)()",
-            "raw": "'f.bind(this)()'"
+            "raw": "'f.bind(this)()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

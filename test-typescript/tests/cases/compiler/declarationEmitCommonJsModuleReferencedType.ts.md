@@ -148,7 +148,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 36,
         "raw": "\"./other\"",
-        "value": "./other"
+        "value": "./other",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -188,7 +190,9 @@ __ESTREE_TEST__:PASS:
         "start": 70,
         "end": 85,
         "raw": "\"./other/index\"",
-        "value": "./other/index"
+        "value": "./other/index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -228,7 +232,9 @@ __ESTREE_TEST__:PASS:
         "start": 115,
         "end": 123,
         "raw": "\"nested\"",
-        "value": "nested"
+        "value": "nested",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -508,7 +514,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 25,
         "raw": "\"foo\"",
-        "value": "foo"
+        "value": "foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -548,7 +556,9 @@ __ESTREE_TEST__:PASS:
         "start": 47,
         "end": 53,
         "raw": "\"root\"",
-        "value": "root"
+        "value": "root",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -114,7 +114,9 @@
                     "start": 450,
                     "end": 480,
                     "value": "#1: arguments doesn't exists",
-                    "raw": "\"#1: arguments doesn't exists\""
+                    "raw": "\"#1: arguments doesn't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -249,7 +251,9 @@
                     "start": 598,
                     "end": 628,
                     "value": "#2: arguments doesn't exists",
-                    "raw": "\"#2: arguments doesn't exists\""
+                    "raw": "\"#2: arguments doesn't exists\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

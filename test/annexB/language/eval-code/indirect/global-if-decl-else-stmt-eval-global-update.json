@@ -25,7 +25,9 @@
                 "start": 1560,
                 "end": 1561,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -42,7 +44,9 @@
             "start": 1571,
             "end": 1708,
             "value": "if (true) function f() { return \"declaration\"; } else ;assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");",
-            "raw": "'if (true) function f() { return \"declaration\"; } else ;assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'"
+            "raw": "'if (true) function f() { return \"declaration\"; } else ;assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

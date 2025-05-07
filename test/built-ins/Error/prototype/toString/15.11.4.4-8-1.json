@@ -34,7 +34,9 @@
                 "start": 321,
                 "end": 335,
                 "value": "ErrorMessage",
-                "raw": "\"ErrorMessage\""
+                "raw": "\"ErrorMessage\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -75,7 +77,9 @@
           "start": 352,
           "end": 354,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -138,14 +142,18 @@
             "start": 393,
             "end": 407,
             "value": "ErrorMessage",
-            "raw": "\"ErrorMessage\""
+            "raw": "\"ErrorMessage\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 428,
             "value": "errObj.toString()",
-            "raw": "'errObj.toString()'"
+            "raw": "'errObj.toString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

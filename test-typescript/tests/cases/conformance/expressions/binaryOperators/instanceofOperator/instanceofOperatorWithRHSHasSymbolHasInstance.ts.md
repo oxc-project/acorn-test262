@@ -5662,7 +5662,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 3763,
                                 "end": 3768,
                                 "raw": "false",
-                                "value": false
+                                "value": false,
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "trueType": {
@@ -5674,7 +5676,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 3756,
                                 "end": 3760,
                                 "raw": "true",
-                                "value": true
+                                "value": true,
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },

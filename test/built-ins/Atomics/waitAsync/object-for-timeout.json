@@ -62,14 +62,18 @@
             "start": 828,
             "end": 838,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 840,
             "end": 895,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -141,7 +145,9 @@
                       "start": 982,
                       "end": 983,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -208,7 +214,9 @@
                           "start": 1032,
                           "end": 1033,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -278,7 +286,9 @@
                           "start": 1088,
                           "end": 1091,
                           "value": "0",
-                          "raw": "\"0\""
+                          "raw": "\"0\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -361,7 +371,9 @@
                           "start": 1161,
                           "end": 1162,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -442,14 +454,18 @@
                   "start": 1216,
                   "end": 1217,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1219,
                   "end": 1220,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -474,14 +490,18 @@
             "start": 1240,
             "end": 1251,
             "value": "timed-out",
-            "raw": "'timed-out'"
+            "raw": "'timed-out'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1255,
             "end": 1329,
             "value": "The value of Atomics.waitAsync(i32a, 0, 0, valueOf).value is \"timed-out\"",
-            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, valueOf).value is \"timed-out\"'"
+            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, valueOf).value is \"timed-out\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -554,14 +574,18 @@
                   "start": 1377,
                   "end": 1378,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1380,
                   "end": 1381,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -586,14 +610,18 @@
             "start": 1402,
             "end": 1413,
             "value": "timed-out",
-            "raw": "'timed-out'"
+            "raw": "'timed-out'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1417,
             "end": 1492,
             "value": "The value of Atomics.waitAsync(i32a, 0, 0, toString).value is \"timed-out\"",
-            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, toString).value is \"timed-out\"'"
+            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, toString).value is \"timed-out\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -666,14 +694,18 @@
                   "start": 1540,
                   "end": 1541,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1543,
                   "end": 1544,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -698,14 +730,18 @@
             "start": 1568,
             "end": 1579,
             "value": "timed-out",
-            "raw": "'timed-out'"
+            "raw": "'timed-out'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1583,
             "end": 1661,
             "value": "The value of Atomics.waitAsync(i32a, 0, 0, toPrimitive).value is \"timed-out\"",
-            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, toPrimitive).value is \"timed-out\"'"
+            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, toPrimitive).value is \"timed-out\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -799,14 +835,18 @@
                               "start": 1708,
                               "end": 1709,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1711,
                               "end": 1712,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Identifier",
@@ -865,14 +905,18 @@
                               "start": 1758,
                               "end": 1759,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1761,
                               "end": 1762,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Identifier",
@@ -931,14 +975,18 @@
                               "start": 1809,
                               "end": 1810,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1812,
                               "end": 1813,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Identifier",
@@ -1037,7 +1085,9 @@
                               "start": 1889,
                               "end": 1890,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -1047,14 +1097,18 @@
                             "start": 1893,
                             "end": 1904,
                             "value": "timed-out",
-                            "raw": "\"timed-out\""
+                            "raw": "\"timed-out\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1906,
                             "end": 1947,
                             "value": "The value of outcomes[0] is \"timed-out\"",
-                            "raw": "'The value of outcomes[0] is \"timed-out\"'"
+                            "raw": "'The value of outcomes[0] is \"timed-out\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1103,7 +1157,9 @@
                               "start": 1980,
                               "end": 1981,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -1113,14 +1169,18 @@
                             "start": 1984,
                             "end": 1995,
                             "value": "timed-out",
-                            "raw": "\"timed-out\""
+                            "raw": "\"timed-out\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1997,
                             "end": 2038,
                             "value": "The value of outcomes[1] is \"timed-out\"",
-                            "raw": "'The value of outcomes[1] is \"timed-out\"'"
+                            "raw": "'The value of outcomes[1] is \"timed-out\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1169,7 +1229,9 @@
                               "start": 2071,
                               "end": 2072,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -1179,14 +1241,18 @@
                             "start": 2075,
                             "end": 2086,
                             "value": "timed-out",
-                            "raw": "\"timed-out\""
+                            "raw": "\"timed-out\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2088,
                             "end": 2129,
                             "value": "The value of outcomes[2] is \"timed-out\"",
-                            "raw": "'The value of outcomes[2] is \"timed-out\"'"
+                            "raw": "'The value of outcomes[2] is \"timed-out\"'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

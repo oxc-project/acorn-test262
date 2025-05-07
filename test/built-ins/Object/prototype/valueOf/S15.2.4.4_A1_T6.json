@@ -75,14 +75,18 @@
             "start": 319,
             "end": 329,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 333,
             "end": 410,
             "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.valueOf` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Object.prototype.valueOf` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,14 +189,18 @@
             "start": 486,
             "end": 496,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 562,
             "value": "The value of `typeof obj.valueOf` is expected to be \"function\"",
-            "raw": "'The value of `typeof obj.valueOf` is expected to be \"function\"'"
+            "raw": "'The value of `typeof obj.valueOf` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +271,9 @@
             "start": 602,
             "end": 629,
             "value": "obj.valueOf() returns obj",
-            "raw": "'obj.valueOf() returns obj'"
+            "raw": "'obj.valueOf() returns obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

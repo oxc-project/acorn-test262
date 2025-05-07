@@ -103,7 +103,9 @@ __ESTREE_TEST__:PASS:
                   "start": 69,
                   "end": 79,
                   "raw": "\"key-attr\"",
-                  "value": "key-attr"
+                  "value": "key-attr",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }

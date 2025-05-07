@@ -44,7 +44,9 @@
                 "start": 1152,
                 "end": 1166,
                 "value": "𐐨",
-                "raw": "\"\\uD801\\uDC28\""
+                "raw": "\"\\uD801\\uDC28\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 1188,
             "end": 1202,
             "value": "𐐀",
-            "raw": "\"\\uD801\\uDC00\""
+            "raw": "\"\\uD801\\uDC00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1204,
             "end": 1233,
             "value": "DESERET SMALL LETTER LONG I",
-            "raw": "\"DESERET SMALL LETTER LONG I\""
+            "raw": "\"DESERET SMALL LETTER LONG I\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -117,7 +123,9 @@
                 "start": 1253,
                 "end": 1267,
                 "value": "𐐩",
-                "raw": "\"\\uD801\\uDC29\""
+                "raw": "\"\\uD801\\uDC29\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -136,14 +144,18 @@
             "start": 1289,
             "end": 1303,
             "value": "𐐁",
-            "raw": "\"\\uD801\\uDC01\""
+            "raw": "\"\\uD801\\uDC01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1305,
             "end": 1334,
             "value": "DESERET SMALL LETTER LONG E",
-            "raw": "\"DESERET SMALL LETTER LONG E\""
+            "raw": "\"DESERET SMALL LETTER LONG E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +202,9 @@
                 "start": 1354,
                 "end": 1368,
                 "value": "𐐪",
-                "raw": "\"\\uD801\\uDC2A\""
+                "raw": "\"\\uD801\\uDC2A\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -209,14 +223,18 @@
             "start": 1390,
             "end": 1404,
             "value": "𐐂",
-            "raw": "\"\\uD801\\uDC02\""
+            "raw": "\"\\uD801\\uDC02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1406,
             "end": 1435,
             "value": "DESERET SMALL LETTER LONG A",
-            "raw": "\"DESERET SMALL LETTER LONG A\""
+            "raw": "\"DESERET SMALL LETTER LONG A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +281,9 @@
                 "start": 1455,
                 "end": 1469,
                 "value": "𐐫",
-                "raw": "\"\\uD801\\uDC2B\""
+                "raw": "\"\\uD801\\uDC2B\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -282,14 +302,18 @@
             "start": 1491,
             "end": 1505,
             "value": "𐐃",
-            "raw": "\"\\uD801\\uDC03\""
+            "raw": "\"\\uD801\\uDC03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1507,
             "end": 1537,
             "value": "DESERET SMALL LETTER LONG AH",
-            "raw": "\"DESERET SMALL LETTER LONG AH\""
+            "raw": "\"DESERET SMALL LETTER LONG AH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -336,7 +360,9 @@
                 "start": 1557,
                 "end": 1571,
                 "value": "𐐬",
-                "raw": "\"\\uD801\\uDC2C\""
+                "raw": "\"\\uD801\\uDC2C\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -355,14 +381,18 @@
             "start": 1593,
             "end": 1607,
             "value": "𐐄",
-            "raw": "\"\\uD801\\uDC04\""
+            "raw": "\"\\uD801\\uDC04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1609,
             "end": 1638,
             "value": "DESERET SMALL LETTER LONG O",
-            "raw": "\"DESERET SMALL LETTER LONG O\""
+            "raw": "\"DESERET SMALL LETTER LONG O\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +439,9 @@
                 "start": 1658,
                 "end": 1672,
                 "value": "𐐭",
-                "raw": "\"\\uD801\\uDC2D\""
+                "raw": "\"\\uD801\\uDC2D\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -428,14 +460,18 @@
             "start": 1694,
             "end": 1708,
             "value": "𐐅",
-            "raw": "\"\\uD801\\uDC05\""
+            "raw": "\"\\uD801\\uDC05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1710,
             "end": 1740,
             "value": "DESERET SMALL LETTER LONG OO",
-            "raw": "\"DESERET SMALL LETTER LONG OO\""
+            "raw": "\"DESERET SMALL LETTER LONG OO\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +518,9 @@
                 "start": 1760,
                 "end": 1774,
                 "value": "𐐮",
-                "raw": "\"\\uD801\\uDC2E\""
+                "raw": "\"\\uD801\\uDC2E\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -501,14 +539,18 @@
             "start": 1796,
             "end": 1810,
             "value": "𐐆",
-            "raw": "\"\\uD801\\uDC06\""
+            "raw": "\"\\uD801\\uDC06\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1812,
             "end": 1842,
             "value": "DESERET SMALL LETTER SHORT I",
-            "raw": "\"DESERET SMALL LETTER SHORT I\""
+            "raw": "\"DESERET SMALL LETTER SHORT I\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +597,9 @@
                 "start": 1862,
                 "end": 1876,
                 "value": "𐐯",
-                "raw": "\"\\uD801\\uDC2F\""
+                "raw": "\"\\uD801\\uDC2F\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -574,14 +618,18 @@
             "start": 1898,
             "end": 1912,
             "value": "𐐇",
-            "raw": "\"\\uD801\\uDC07\""
+            "raw": "\"\\uD801\\uDC07\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1914,
             "end": 1944,
             "value": "DESERET SMALL LETTER SHORT E",
-            "raw": "\"DESERET SMALL LETTER SHORT E\""
+            "raw": "\"DESERET SMALL LETTER SHORT E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -628,7 +676,9 @@
                 "start": 1964,
                 "end": 1978,
                 "value": "𐐰",
-                "raw": "\"\\uD801\\uDC30\""
+                "raw": "\"\\uD801\\uDC30\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -647,14 +697,18 @@
             "start": 2000,
             "end": 2014,
             "value": "𐐈",
-            "raw": "\"\\uD801\\uDC08\""
+            "raw": "\"\\uD801\\uDC08\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2016,
             "end": 2046,
             "value": "DESERET SMALL LETTER SHORT A",
-            "raw": "\"DESERET SMALL LETTER SHORT A\""
+            "raw": "\"DESERET SMALL LETTER SHORT A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -701,7 +755,9 @@
                 "start": 2066,
                 "end": 2080,
                 "value": "𐐱",
-                "raw": "\"\\uD801\\uDC31\""
+                "raw": "\"\\uD801\\uDC31\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -720,14 +776,18 @@
             "start": 2102,
             "end": 2116,
             "value": "𐐉",
-            "raw": "\"\\uD801\\uDC09\""
+            "raw": "\"\\uD801\\uDC09\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2118,
             "end": 2149,
             "value": "DESERET SMALL LETTER SHORT AH",
-            "raw": "\"DESERET SMALL LETTER SHORT AH\""
+            "raw": "\"DESERET SMALL LETTER SHORT AH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -774,7 +834,9 @@
                 "start": 2169,
                 "end": 2183,
                 "value": "𐐲",
-                "raw": "\"\\uD801\\uDC32\""
+                "raw": "\"\\uD801\\uDC32\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -793,14 +855,18 @@
             "start": 2205,
             "end": 2219,
             "value": "𐐊",
-            "raw": "\"\\uD801\\uDC0A\""
+            "raw": "\"\\uD801\\uDC0A\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2221,
             "end": 2251,
             "value": "DESERET SMALL LETTER SHORT O",
-            "raw": "\"DESERET SMALL LETTER SHORT O\""
+            "raw": "\"DESERET SMALL LETTER SHORT O\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -847,7 +913,9 @@
                 "start": 2271,
                 "end": 2285,
                 "value": "𐐳",
-                "raw": "\"\\uD801\\uDC33\""
+                "raw": "\"\\uD801\\uDC33\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -866,14 +934,18 @@
             "start": 2307,
             "end": 2321,
             "value": "𐐋",
-            "raw": "\"\\uD801\\uDC0B\""
+            "raw": "\"\\uD801\\uDC0B\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2323,
             "end": 2354,
             "value": "DESERET SMALL LETTER SHORT OO",
-            "raw": "\"DESERET SMALL LETTER SHORT OO\""
+            "raw": "\"DESERET SMALL LETTER SHORT OO\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -920,7 +992,9 @@
                 "start": 2374,
                 "end": 2388,
                 "value": "𐐴",
-                "raw": "\"\\uD801\\uDC34\""
+                "raw": "\"\\uD801\\uDC34\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -939,14 +1013,18 @@
             "start": 2410,
             "end": 2424,
             "value": "𐐌",
-            "raw": "\"\\uD801\\uDC0C\""
+            "raw": "\"\\uD801\\uDC0C\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2426,
             "end": 2451,
             "value": "DESERET SMALL LETTER AY",
-            "raw": "\"DESERET SMALL LETTER AY\""
+            "raw": "\"DESERET SMALL LETTER AY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -993,7 +1071,9 @@
                 "start": 2471,
                 "end": 2485,
                 "value": "𐐵",
-                "raw": "\"\\uD801\\uDC35\""
+                "raw": "\"\\uD801\\uDC35\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1012,14 +1092,18 @@
             "start": 2507,
             "end": 2521,
             "value": "𐐍",
-            "raw": "\"\\uD801\\uDC0D\""
+            "raw": "\"\\uD801\\uDC0D\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2523,
             "end": 2548,
             "value": "DESERET SMALL LETTER OW",
-            "raw": "\"DESERET SMALL LETTER OW\""
+            "raw": "\"DESERET SMALL LETTER OW\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1066,7 +1150,9 @@
                 "start": 2568,
                 "end": 2582,
                 "value": "𐐶",
-                "raw": "\"\\uD801\\uDC36\""
+                "raw": "\"\\uD801\\uDC36\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1085,14 +1171,18 @@
             "start": 2604,
             "end": 2618,
             "value": "𐐎",
-            "raw": "\"\\uD801\\uDC0E\""
+            "raw": "\"\\uD801\\uDC0E\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2620,
             "end": 2645,
             "value": "DESERET SMALL LETTER WU",
-            "raw": "\"DESERET SMALL LETTER WU\""
+            "raw": "\"DESERET SMALL LETTER WU\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1139,7 +1229,9 @@
                 "start": 2665,
                 "end": 2679,
                 "value": "𐐷",
-                "raw": "\"\\uD801\\uDC37\""
+                "raw": "\"\\uD801\\uDC37\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1158,14 +1250,18 @@
             "start": 2701,
             "end": 2715,
             "value": "𐐏",
-            "raw": "\"\\uD801\\uDC0F\""
+            "raw": "\"\\uD801\\uDC0F\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2717,
             "end": 2743,
             "value": "DESERET SMALL LETTER YEE",
-            "raw": "\"DESERET SMALL LETTER YEE\""
+            "raw": "\"DESERET SMALL LETTER YEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1212,7 +1308,9 @@
                 "start": 2763,
                 "end": 2777,
                 "value": "𐐸",
-                "raw": "\"\\uD801\\uDC38\""
+                "raw": "\"\\uD801\\uDC38\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1231,14 +1329,18 @@
             "start": 2799,
             "end": 2813,
             "value": "𐐐",
-            "raw": "\"\\uD801\\uDC10\""
+            "raw": "\"\\uD801\\uDC10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2815,
             "end": 2839,
             "value": "DESERET SMALL LETTER H",
-            "raw": "\"DESERET SMALL LETTER H\""
+            "raw": "\"DESERET SMALL LETTER H\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1285,7 +1387,9 @@
                 "start": 2859,
                 "end": 2873,
                 "value": "𐐹",
-                "raw": "\"\\uD801\\uDC39\""
+                "raw": "\"\\uD801\\uDC39\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1304,14 +1408,18 @@
             "start": 2895,
             "end": 2909,
             "value": "𐐑",
-            "raw": "\"\\uD801\\uDC11\""
+            "raw": "\"\\uD801\\uDC11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2911,
             "end": 2937,
             "value": "DESERET SMALL LETTER PEE",
-            "raw": "\"DESERET SMALL LETTER PEE\""
+            "raw": "\"DESERET SMALL LETTER PEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1358,7 +1466,9 @@
                 "start": 2957,
                 "end": 2971,
                 "value": "𐐺",
-                "raw": "\"\\uD801\\uDC3A\""
+                "raw": "\"\\uD801\\uDC3A\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1377,14 +1487,18 @@
             "start": 2993,
             "end": 3007,
             "value": "𐐒",
-            "raw": "\"\\uD801\\uDC12\""
+            "raw": "\"\\uD801\\uDC12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3009,
             "end": 3035,
             "value": "DESERET SMALL LETTER BEE",
-            "raw": "\"DESERET SMALL LETTER BEE\""
+            "raw": "\"DESERET SMALL LETTER BEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1431,7 +1545,9 @@
                 "start": 3055,
                 "end": 3069,
                 "value": "𐐻",
-                "raw": "\"\\uD801\\uDC3B\""
+                "raw": "\"\\uD801\\uDC3B\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1450,14 +1566,18 @@
             "start": 3091,
             "end": 3105,
             "value": "𐐓",
-            "raw": "\"\\uD801\\uDC13\""
+            "raw": "\"\\uD801\\uDC13\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3107,
             "end": 3133,
             "value": "DESERET SMALL LETTER TEE",
-            "raw": "\"DESERET SMALL LETTER TEE\""
+            "raw": "\"DESERET SMALL LETTER TEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1504,7 +1624,9 @@
                 "start": 3153,
                 "end": 3167,
                 "value": "𐐼",
-                "raw": "\"\\uD801\\uDC3C\""
+                "raw": "\"\\uD801\\uDC3C\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1523,14 +1645,18 @@
             "start": 3189,
             "end": 3203,
             "value": "𐐔",
-            "raw": "\"\\uD801\\uDC14\""
+            "raw": "\"\\uD801\\uDC14\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3205,
             "end": 3231,
             "value": "DESERET SMALL LETTER DEE",
-            "raw": "\"DESERET SMALL LETTER DEE\""
+            "raw": "\"DESERET SMALL LETTER DEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1577,7 +1703,9 @@
                 "start": 3251,
                 "end": 3265,
                 "value": "𐐽",
-                "raw": "\"\\uD801\\uDC3D\""
+                "raw": "\"\\uD801\\uDC3D\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1596,14 +1724,18 @@
             "start": 3287,
             "end": 3301,
             "value": "𐐕",
-            "raw": "\"\\uD801\\uDC15\""
+            "raw": "\"\\uD801\\uDC15\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3303,
             "end": 3330,
             "value": "DESERET SMALL LETTER CHEE",
-            "raw": "\"DESERET SMALL LETTER CHEE\""
+            "raw": "\"DESERET SMALL LETTER CHEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1650,7 +1782,9 @@
                 "start": 3350,
                 "end": 3364,
                 "value": "𐐾",
-                "raw": "\"\\uD801\\uDC3E\""
+                "raw": "\"\\uD801\\uDC3E\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1669,14 +1803,18 @@
             "start": 3386,
             "end": 3400,
             "value": "𐐖",
-            "raw": "\"\\uD801\\uDC16\""
+            "raw": "\"\\uD801\\uDC16\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3402,
             "end": 3428,
             "value": "DESERET SMALL LETTER JEE",
-            "raw": "\"DESERET SMALL LETTER JEE\""
+            "raw": "\"DESERET SMALL LETTER JEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1723,7 +1861,9 @@
                 "start": 3448,
                 "end": 3462,
                 "value": "𐐿",
-                "raw": "\"\\uD801\\uDC3F\""
+                "raw": "\"\\uD801\\uDC3F\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1742,14 +1882,18 @@
             "start": 3484,
             "end": 3498,
             "value": "𐐗",
-            "raw": "\"\\uD801\\uDC17\""
+            "raw": "\"\\uD801\\uDC17\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3500,
             "end": 3526,
             "value": "DESERET SMALL LETTER KAY",
-            "raw": "\"DESERET SMALL LETTER KAY\""
+            "raw": "\"DESERET SMALL LETTER KAY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1796,7 +1940,9 @@
                 "start": 3546,
                 "end": 3560,
                 "value": "𐑀",
-                "raw": "\"\\uD801\\uDC40\""
+                "raw": "\"\\uD801\\uDC40\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1815,14 +1961,18 @@
             "start": 3582,
             "end": 3596,
             "value": "𐐘",
-            "raw": "\"\\uD801\\uDC18\""
+            "raw": "\"\\uD801\\uDC18\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3598,
             "end": 3624,
             "value": "DESERET SMALL LETTER GAY",
-            "raw": "\"DESERET SMALL LETTER GAY\""
+            "raw": "\"DESERET SMALL LETTER GAY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1869,7 +2019,9 @@
                 "start": 3644,
                 "end": 3658,
                 "value": "𐑁",
-                "raw": "\"\\uD801\\uDC41\""
+                "raw": "\"\\uD801\\uDC41\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1888,14 +2040,18 @@
             "start": 3680,
             "end": 3694,
             "value": "𐐙",
-            "raw": "\"\\uD801\\uDC19\""
+            "raw": "\"\\uD801\\uDC19\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3696,
             "end": 3721,
             "value": "DESERET SMALL LETTER EF",
-            "raw": "\"DESERET SMALL LETTER EF\""
+            "raw": "\"DESERET SMALL LETTER EF\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1942,7 +2098,9 @@
                 "start": 3741,
                 "end": 3755,
                 "value": "𐑂",
-                "raw": "\"\\uD801\\uDC42\""
+                "raw": "\"\\uD801\\uDC42\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1961,14 +2119,18 @@
             "start": 3777,
             "end": 3791,
             "value": "𐐚",
-            "raw": "\"\\uD801\\uDC1A\""
+            "raw": "\"\\uD801\\uDC1A\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3793,
             "end": 3819,
             "value": "DESERET SMALL LETTER VEE",
-            "raw": "\"DESERET SMALL LETTER VEE\""
+            "raw": "\"DESERET SMALL LETTER VEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2015,7 +2177,9 @@
                 "start": 3839,
                 "end": 3853,
                 "value": "𐑃",
-                "raw": "\"\\uD801\\uDC43\""
+                "raw": "\"\\uD801\\uDC43\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2034,14 +2198,18 @@
             "start": 3875,
             "end": 3889,
             "value": "𐐛",
-            "raw": "\"\\uD801\\uDC1B\""
+            "raw": "\"\\uD801\\uDC1B\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3891,
             "end": 3917,
             "value": "DESERET SMALL LETTER ETH",
-            "raw": "\"DESERET SMALL LETTER ETH\""
+            "raw": "\"DESERET SMALL LETTER ETH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2088,7 +2256,9 @@
                 "start": 3937,
                 "end": 3951,
                 "value": "𐑄",
-                "raw": "\"\\uD801\\uDC44\""
+                "raw": "\"\\uD801\\uDC44\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2107,14 +2277,18 @@
             "start": 3973,
             "end": 3987,
             "value": "𐐜",
-            "raw": "\"\\uD801\\uDC1C\""
+            "raw": "\"\\uD801\\uDC1C\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3989,
             "end": 4016,
             "value": "DESERET SMALL LETTER THEE",
-            "raw": "\"DESERET SMALL LETTER THEE\""
+            "raw": "\"DESERET SMALL LETTER THEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2161,7 +2335,9 @@
                 "start": 4036,
                 "end": 4050,
                 "value": "𐑅",
-                "raw": "\"\\uD801\\uDC45\""
+                "raw": "\"\\uD801\\uDC45\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2180,14 +2356,18 @@
             "start": 4072,
             "end": 4086,
             "value": "𐐝",
-            "raw": "\"\\uD801\\uDC1D\""
+            "raw": "\"\\uD801\\uDC1D\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4088,
             "end": 4113,
             "value": "DESERET SMALL LETTER ES",
-            "raw": "\"DESERET SMALL LETTER ES\""
+            "raw": "\"DESERET SMALL LETTER ES\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2234,7 +2414,9 @@
                 "start": 4133,
                 "end": 4147,
                 "value": "𐑆",
-                "raw": "\"\\uD801\\uDC46\""
+                "raw": "\"\\uD801\\uDC46\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2253,14 +2435,18 @@
             "start": 4169,
             "end": 4183,
             "value": "𐐞",
-            "raw": "\"\\uD801\\uDC1E\""
+            "raw": "\"\\uD801\\uDC1E\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4185,
             "end": 4211,
             "value": "DESERET SMALL LETTER ZEE",
-            "raw": "\"DESERET SMALL LETTER ZEE\""
+            "raw": "\"DESERET SMALL LETTER ZEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2307,7 +2493,9 @@
                 "start": 4231,
                 "end": 4245,
                 "value": "𐑇",
-                "raw": "\"\\uD801\\uDC47\""
+                "raw": "\"\\uD801\\uDC47\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2326,14 +2514,18 @@
             "start": 4267,
             "end": 4281,
             "value": "𐐟",
-            "raw": "\"\\uD801\\uDC1F\""
+            "raw": "\"\\uD801\\uDC1F\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4283,
             "end": 4309,
             "value": "DESERET SMALL LETTER ESH",
-            "raw": "\"DESERET SMALL LETTER ESH\""
+            "raw": "\"DESERET SMALL LETTER ESH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2380,7 +2572,9 @@
                 "start": 4329,
                 "end": 4343,
                 "value": "𐑈",
-                "raw": "\"\\uD801\\uDC48\""
+                "raw": "\"\\uD801\\uDC48\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2399,14 +2593,18 @@
             "start": 4365,
             "end": 4379,
             "value": "𐐠",
-            "raw": "\"\\uD801\\uDC20\""
+            "raw": "\"\\uD801\\uDC20\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4381,
             "end": 4408,
             "value": "DESERET SMALL LETTER ZHEE",
-            "raw": "\"DESERET SMALL LETTER ZHEE\""
+            "raw": "\"DESERET SMALL LETTER ZHEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2453,7 +2651,9 @@
                 "start": 4428,
                 "end": 4442,
                 "value": "𐑉",
-                "raw": "\"\\uD801\\uDC49\""
+                "raw": "\"\\uD801\\uDC49\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2472,14 +2672,18 @@
             "start": 4464,
             "end": 4478,
             "value": "𐐡",
-            "raw": "\"\\uD801\\uDC21\""
+            "raw": "\"\\uD801\\uDC21\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4480,
             "end": 4505,
             "value": "DESERET SMALL LETTER ER",
-            "raw": "\"DESERET SMALL LETTER ER\""
+            "raw": "\"DESERET SMALL LETTER ER\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2526,7 +2730,9 @@
                 "start": 4525,
                 "end": 4539,
                 "value": "𐑊",
-                "raw": "\"\\uD801\\uDC4A\""
+                "raw": "\"\\uD801\\uDC4A\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2545,14 +2751,18 @@
             "start": 4561,
             "end": 4575,
             "value": "𐐢",
-            "raw": "\"\\uD801\\uDC22\""
+            "raw": "\"\\uD801\\uDC22\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4577,
             "end": 4602,
             "value": "DESERET SMALL LETTER EL",
-            "raw": "\"DESERET SMALL LETTER EL\""
+            "raw": "\"DESERET SMALL LETTER EL\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2599,7 +2809,9 @@
                 "start": 4622,
                 "end": 4636,
                 "value": "𐑋",
-                "raw": "\"\\uD801\\uDC4B\""
+                "raw": "\"\\uD801\\uDC4B\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2618,14 +2830,18 @@
             "start": 4658,
             "end": 4672,
             "value": "𐐣",
-            "raw": "\"\\uD801\\uDC23\""
+            "raw": "\"\\uD801\\uDC23\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4674,
             "end": 4699,
             "value": "DESERET SMALL LETTER EM",
-            "raw": "\"DESERET SMALL LETTER EM\""
+            "raw": "\"DESERET SMALL LETTER EM\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2672,7 +2888,9 @@
                 "start": 4719,
                 "end": 4733,
                 "value": "𐑌",
-                "raw": "\"\\uD801\\uDC4C\""
+                "raw": "\"\\uD801\\uDC4C\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2691,14 +2909,18 @@
             "start": 4755,
             "end": 4769,
             "value": "𐐤",
-            "raw": "\"\\uD801\\uDC24\""
+            "raw": "\"\\uD801\\uDC24\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4771,
             "end": 4796,
             "value": "DESERET SMALL LETTER EN",
-            "raw": "\"DESERET SMALL LETTER EN\""
+            "raw": "\"DESERET SMALL LETTER EN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2745,7 +2967,9 @@
                 "start": 4816,
                 "end": 4830,
                 "value": "𐑍",
-                "raw": "\"\\uD801\\uDC4D\""
+                "raw": "\"\\uD801\\uDC4D\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2764,14 +2988,18 @@
             "start": 4852,
             "end": 4866,
             "value": "𐐥",
-            "raw": "\"\\uD801\\uDC25\""
+            "raw": "\"\\uD801\\uDC25\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4868,
             "end": 4894,
             "value": "DESERET SMALL LETTER ENG",
-            "raw": "\"DESERET SMALL LETTER ENG\""
+            "raw": "\"DESERET SMALL LETTER ENG\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2818,7 +3046,9 @@
                 "start": 4914,
                 "end": 4928,
                 "value": "𐑎",
-                "raw": "\"\\uD801\\uDC4E\""
+                "raw": "\"\\uD801\\uDC4E\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2837,14 +3067,18 @@
             "start": 4950,
             "end": 4964,
             "value": "𐐦",
-            "raw": "\"\\uD801\\uDC26\""
+            "raw": "\"\\uD801\\uDC26\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4966,
             "end": 4991,
             "value": "DESERET SMALL LETTER OI",
-            "raw": "\"DESERET SMALL LETTER OI\""
+            "raw": "\"DESERET SMALL LETTER OI\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2891,7 +3125,9 @@
                 "start": 5011,
                 "end": 5025,
                 "value": "𐑏",
-                "raw": "\"\\uD801\\uDC4F\""
+                "raw": "\"\\uD801\\uDC4F\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2910,14 +3146,18 @@
             "start": 5047,
             "end": 5061,
             "value": "𐐧",
-            "raw": "\"\\uD801\\uDC27\""
+            "raw": "\"\\uD801\\uDC27\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5063,
             "end": 5088,
             "value": "DESERET SMALL LETTER EW",
-            "raw": "\"DESERET SMALL LETTER EW\""
+            "raw": "\"DESERET SMALL LETTER EW\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -110,7 +110,9 @@
                         "start": 365,
                         "end": 367,
                         "value": 15,
-                        "raw": "15"
+                        "raw": "15",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

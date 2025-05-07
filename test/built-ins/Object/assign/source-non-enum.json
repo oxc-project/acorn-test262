@@ -78,7 +78,9 @@
                 "start": 614,
                 "end": 620,
                 "value": "attr",
-                "raw": "'attr'"
+                "raw": "'attr'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -103,7 +105,9 @@
                       "start": 633,
                       "end": 634,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -125,7 +129,9 @@
                       "start": 650,
                       "end": 655,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -296,7 +302,9 @@
                   "start": 770,
                   "end": 776,
                   "value": "attr",
-                  "raw": "'attr'"
+                  "raw": "'attr'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -307,7 +315,9 @@
             "start": 781,
             "end": 843,
             "value": "Non-enumerable property 'attr' does not get copied to target",
-            "raw": "\"Non-enumerable property 'attr' does not get copied to target\""
+            "raw": "\"Non-enumerable property 'attr' does not get copied to target\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

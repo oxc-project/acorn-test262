@@ -35,14 +35,18 @@
                   "start": 393,
                   "end": 396,
                   "value": "x",
-                  "raw": "\"x\""
+                  "raw": "\"x\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 399,
                   "end": 403,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -79,7 +83,9 @@
           "start": 439,
           "end": 447,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -111,7 +117,9 @@
                     "start": 476,
                     "end": 545,
                     "value": "#1: var object = {\"x\" : true}; typeof object === \"object\". Actual: ",
-                    "raw": "'#1: var object = {\"x\" : true}; typeof object === \"object\". Actual: '"
+                    "raw": "'#1: var object = {\"x\" : true}; typeof object === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -172,7 +180,9 @@
           "start": 612,
           "end": 616,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -200,7 +210,9 @@
                   "start": 645,
                   "end": 711,
                   "value": "#2: var object = {\"x\" : true}; object instanceof Object === true",
-                  "raw": "'#2: var object = {\"x\" : true}; object instanceof Object === true'"
+                  "raw": "'#2: var object = {\"x\" : true}; object instanceof Object === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -299,7 +311,9 @@
                     "start": 805,
                     "end": 893,
                     "value": "#3: var object = {\"x\" : true}; object.toString === Object.prototype.toString. Actual: ",
-                    "raw": "'#3: var object = {\"x\" : true}; object.toString === Object.prototype.toString. Actual: '"
+                    "raw": "'#3: var object = {\"x\" : true}; object.toString === Object.prototype.toString. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -357,7 +371,9 @@
             "start": 940,
             "end": 943,
             "value": "x",
-            "raw": "\"x\""
+            "raw": "\"x\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -368,7 +384,9 @@
           "start": 949,
           "end": 953,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -396,7 +414,9 @@
                   "start": 982,
                   "end": 1035,
                   "value": "#4: var object = {\"x\" : true}; object[\"x\"] === true",
-                  "raw": "'#4: var object = {\"x\" : true}; object[\"x\"] === true'"
+                  "raw": "'#4: var object = {\"x\" : true}; object[\"x\"] === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -438,7 +458,9 @@
           "start": 1068,
           "end": 1072,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -466,7 +488,9 @@
                   "start": 1101,
                   "end": 1151,
                   "value": "#5: var object = {\"x\" : true}; object.x === true",
-                  "raw": "'#5: var object = {\"x\" : true}; object.x === true'"
+                  "raw": "'#5: var object = {\"x\" : true}; object.x === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

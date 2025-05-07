@@ -118,7 +118,9 @@
             "start": 436,
             "end": 446,
             "value": "alphabet",
-            "raw": "\"alphabet\""
+            "raw": "\"alphabet\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -172,7 +174,9 @@
                               "start": 497,
                               "end": 554,
                               "value": "options.alphabet accessed despite incompatible receiver",
-                              "raw": "\"options.alphabet accessed despite incompatible receiver\""
+                              "raw": "\"options.alphabet accessed despite incompatible receiver\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -285,7 +289,9 @@
                             "start": 667,
                             "end": 668,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

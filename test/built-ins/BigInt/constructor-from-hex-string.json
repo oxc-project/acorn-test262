@@ -47,7 +47,9 @@
                 "start": 592,
                 "end": 597,
                 "value": "0xa",
-                "raw": "\"0xa\""
+                "raw": "\"0xa\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -58,6 +60,7 @@
             "end": 603,
             "value": null,
             "raw": "10n",
+            "regex": null,
             "bigint": "10"
           }
         ],
@@ -108,7 +111,9 @@
                 "start": 630,
                 "end": 636,
                 "value": "0xff",
-                "raw": "\"0xff\""
+                "raw": "\"0xff\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -119,6 +124,7 @@
             "end": 643,
             "value": null,
             "raw": "255n",
+            "regex": null,
             "bigint": "255"
           }
         ],
@@ -169,7 +175,9 @@
                 "start": 670,
                 "end": 678,
                 "value": "0xfabc",
-                "raw": "\"0xfabc\""
+                "raw": "\"0xfabc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -180,6 +188,7 @@
             "end": 687,
             "value": null,
             "raw": "64188n",
+            "regex": null,
             "bigint": "64188"
           }
         ],
@@ -230,7 +239,9 @@
                 "start": 714,
                 "end": 737,
                 "value": "0xfffffffffffffffffff",
-                "raw": "\"0xfffffffffffffffffff\""
+                "raw": "\"0xfffffffffffffffffff\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -241,6 +252,7 @@
             "end": 764,
             "value": null,
             "raw": "75557863725914323419135n",
+            "regex": null,
             "bigint": "75557863725914323419135"
           }
         ],
@@ -291,7 +303,9 @@
                 "start": 792,
                 "end": 797,
                 "value": "0Xa",
-                "raw": "\"0Xa\""
+                "raw": "\"0Xa\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -302,6 +316,7 @@
             "end": 803,
             "value": null,
             "raw": "10n",
+            "regex": null,
             "bigint": "10"
           }
         ],
@@ -352,7 +367,9 @@
                 "start": 830,
                 "end": 836,
                 "value": "0Xff",
-                "raw": "\"0Xff\""
+                "raw": "\"0Xff\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -363,6 +380,7 @@
             "end": 843,
             "value": null,
             "raw": "255n",
+            "regex": null,
             "bigint": "255"
           }
         ],
@@ -413,7 +431,9 @@
                 "start": 870,
                 "end": 878,
                 "value": "0Xfabc",
-                "raw": "\"0Xfabc\""
+                "raw": "\"0Xfabc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -424,6 +444,7 @@
             "end": 887,
             "value": null,
             "raw": "64188n",
+            "regex": null,
             "bigint": "64188"
           }
         ],
@@ -474,7 +495,9 @@
                 "start": 914,
                 "end": 937,
                 "value": "0Xfffffffffffffffffff",
-                "raw": "\"0Xfffffffffffffffffff\""
+                "raw": "\"0Xfffffffffffffffffff\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -485,6 +508,7 @@
             "end": 964,
             "value": null,
             "raw": "75557863725914323419135n",
+            "regex": null,
             "bigint": "75557863725914323419135"
           }
         ],

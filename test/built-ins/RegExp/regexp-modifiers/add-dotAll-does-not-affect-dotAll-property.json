@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?s:)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -79,7 +80,9 @@
             "start": 1715,
             "end": 1762,
             "value": "RegExp instance dotAll flag should not be set",
-            "raw": "\"RegExp instance dotAll flag should not be set\""
+            "raw": "\"RegExp instance dotAll flag should not be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -116,7 +119,9 @@
                 "start": 1787,
                 "end": 1794,
                 "value": "(?s:)",
-                "raw": "\"(?s:)\""
+                "raw": "\"(?s:)\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -170,7 +175,9 @@
             "start": 1817,
             "end": 1864,
             "value": "RegExp instance dotAll flag should not be set",
-            "raw": "\"RegExp instance dotAll flag should not be set\""
+            "raw": "\"RegExp instance dotAll flag should not be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +207,8 @@
             "regex": {
               "pattern": "(?s-:)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -252,7 +260,9 @@
             "start": 1908,
             "end": 1955,
             "value": "RegExp instance dotAll flag should not be set",
-            "raw": "\"RegExp instance dotAll flag should not be set\""
+            "raw": "\"RegExp instance dotAll flag should not be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -289,7 +299,9 @@
                 "start": 1980,
                 "end": 1988,
                 "value": "(?s-:)",
-                "raw": "\"(?s-:)\""
+                "raw": "\"(?s-:)\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -343,7 +355,9 @@
             "start": 2011,
             "end": 2058,
             "value": "RegExp instance dotAll flag should not be set",
-            "raw": "\"RegExp instance dotAll flag should not be set\""
+            "raw": "\"RegExp instance dotAll flag should not be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

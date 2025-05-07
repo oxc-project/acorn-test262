@@ -108,7 +108,9 @@
                               "start": 901,
                               "end": 912,
                               "value": "leftValue",
-                              "raw": "\"leftValue\""
+                              "raw": "\"leftValue\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -123,7 +125,9 @@
                           "start": 922,
                           "end": 923,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -217,7 +221,9 @@
                               "start": 973,
                               "end": 985,
                               "value": "rightValue",
-                              "raw": "\"rightValue\""
+                              "raw": "\"rightValue\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -232,7 +238,9 @@
                           "start": 995,
                           "end": 996,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -292,7 +300,9 @@
                     "start": 1017,
                     "end": 1023,
                     "value": "left",
-                    "raw": "\"left\""
+                    "raw": "\"left\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -345,7 +355,9 @@
                     "start": 1054,
                     "end": 1061,
                     "value": "right",
-                    "raw": "\"right\""
+                    "raw": "\"right\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -404,7 +416,9 @@
               "start": 1190,
               "end": 1191,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -414,14 +428,18 @@
             "start": 1194,
             "end": 1200,
             "value": "left",
-            "raw": "\"left\""
+            "raw": "\"left\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1202,
             "end": 1250,
             "value": "Expected the 1st element captured to be 'left'",
-            "raw": "\"Expected the 1st element captured to be 'left'\""
+            "raw": "\"Expected the 1st element captured to be 'left'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -470,7 +488,9 @@
               "start": 1278,
               "end": 1279,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -480,14 +500,18 @@
             "start": 1282,
             "end": 1289,
             "value": "right",
-            "raw": "\"right\""
+            "raw": "\"right\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1291,
             "end": 1340,
             "value": "Expected the 2nd element captured to be 'right'",
-            "raw": "\"Expected the 2nd element captured to be 'right'\""
+            "raw": "\"Expected the 2nd element captured to be 'right'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -536,7 +560,9 @@
               "start": 1368,
               "end": 1369,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -546,14 +572,18 @@
             "start": 1372,
             "end": 1383,
             "value": "leftValue",
-            "raw": "\"leftValue\""
+            "raw": "\"leftValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1385,
             "end": 1438,
             "value": "Expected the 3rd element captured to be 'leftValue'",
-            "raw": "\"Expected the 3rd element captured to be 'leftValue'\""
+            "raw": "\"Expected the 3rd element captured to be 'leftValue'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -602,7 +632,9 @@
               "start": 1466,
               "end": 1467,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -612,14 +644,18 @@
             "start": 1470,
             "end": 1482,
             "value": "rightValue",
-            "raw": "\"rightValue\""
+            "raw": "\"rightValue\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1484,
             "end": 1538,
             "value": "Expected the 4th element captured to be 'rightValue'",
-            "raw": "\"Expected the 4th element captured to be 'rightValue'\""
+            "raw": "\"Expected the 4th element captured to be 'rightValue'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

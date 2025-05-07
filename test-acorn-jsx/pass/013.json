@@ -31,7 +31,9 @@
                 "start": 16,
                 "end": 31,
                 "value": "&&",
-                "raw": "\"&#x0026;&#38;\""
+                "raw": "\"&#x0026;&#38;\"",
+                "regex": null,
+                "bigint": null
               }
             }
           ],

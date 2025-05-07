@@ -49,49 +49,63 @@
                 "start": 317,
                 "end": 332,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 342,
                 "value": "type",
-                "raw": "\"type\""
+                "raw": "\"type\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 368,
                 "value": "minimumIntegerDigits",
-                "raw": "\"minimumIntegerDigits\""
+                "raw": "\"minimumIntegerDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 395,
                 "value": "minimumFractionDigits",
-                "raw": "\"minimumFractionDigits\""
+                "raw": "\"minimumFractionDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 422,
                 "value": "maximumFractionDigits",
-                "raw": "\"maximumFractionDigits\""
+                "raw": "\"maximumFractionDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 452,
                 "value": "minimumSignificantDigits",
-                "raw": "\"minimumSignificantDigits\""
+                "raw": "\"minimumSignificantDigits\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 482,
                 "value": "maximumSignificantDigits",
-                "raw": "\"maximumSignificantDigits\""
+                "raw": "\"maximumSignificantDigits\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -216,7 +230,9 @@
                               "start": 582,
                               "end": 586,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

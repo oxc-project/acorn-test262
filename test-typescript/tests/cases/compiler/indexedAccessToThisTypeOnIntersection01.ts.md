@@ -78,7 +78,9 @@ __ESTREE_TEST__:PASS:
                     "start": 40,
                     "end": 43,
                     "raw": "'a'",
-                    "value": "a"
+                    "value": "a",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {
@@ -131,7 +133,9 @@ __ESTREE_TEST__:PASS:
             "start": 78,
             "end": 84,
             "raw": "'getA'",
-            "value": "getA"
+            "value": "getA",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {

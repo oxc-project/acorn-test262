@@ -23,7 +23,9 @@
             "start": 406,
             "end": 407,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -144,7 +146,9 @@
               "start": 493,
               "end": 494,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -174,7 +178,9 @@
                   "start": 523,
                   "end": 550,
                   "value": "#1: Scope chain disturbed",
-                  "raw": "\"#1: Scope chain disturbed\""
+                  "raw": "\"#1: Scope chain disturbed\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

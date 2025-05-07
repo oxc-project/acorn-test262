@@ -109,7 +109,9 @@
                             "start": 410,
                             "end": 420,
                             "value": "subarray",
-                            "raw": "\"subarray\""
+                            "raw": "\"subarray\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 423,
                         "end": 428,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

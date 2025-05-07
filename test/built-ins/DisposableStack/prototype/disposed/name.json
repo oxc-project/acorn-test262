@@ -66,7 +66,9 @@
                 "start": 659,
                 "end": 669,
                 "value": "disposed",
-                "raw": "'disposed'"
+                "raw": "'disposed'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -140,14 +142,18 @@
             "start": 713,
             "end": 727,
             "value": "get disposed",
-            "raw": "'get disposed'"
+            "raw": "'get disposed'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 785,
             "value": "The value of `descriptor.get.name` is `get disposed`",
-            "raw": "'The value of `descriptor.get.name` is `get disposed`'"
+            "raw": "'The value of `descriptor.get.name` is `get disposed`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +198,9 @@
             "start": 821,
             "end": 827,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -217,7 +225,9 @@
                   "start": 843,
                   "end": 848,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -239,7 +249,9 @@
                   "start": 864,
                   "end": 869,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -261,7 +273,9 @@
                   "start": 887,
                   "end": 891,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

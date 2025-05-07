@@ -67,7 +67,9 @@
           "start": 384,
           "end": 386,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -102,7 +104,9 @@
               "start": 408,
               "end": 474,
               "value": "for(var ind in (hash={2:'b',1:'a',4:'d',3:'c'}))__str+=hash[ind]",
-              "raw": "\"for(var ind in (hash={2:'b',1:'a',4:'d',3:'c'}))__str+=hash[ind]\""
+              "raw": "\"for(var ind in (hash={2:'b',1:'a',4:'d',3:'c'}))__str+=hash[ind]\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -172,7 +176,9 @@
                           "start": 596,
                           "end": 599,
                           "value": "a",
-                          "raw": "\"a\""
+                          "raw": "\"a\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -189,7 +195,9 @@
                         "start": 604,
                         "end": 605,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -232,7 +240,9 @@
                           "start": 629,
                           "end": 632,
                           "value": "b",
-                          "raw": "\"b\""
+                          "raw": "\"b\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -249,7 +259,9 @@
                         "start": 637,
                         "end": 638,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -293,7 +305,9 @@
                         "start": 662,
                         "end": 665,
                         "value": "c",
-                        "raw": "\"c\""
+                        "raw": "\"c\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -310,7 +324,9 @@
                       "start": 670,
                       "end": 671,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -354,7 +370,9 @@
                       "start": 694,
                       "end": 697,
                       "value": "d",
-                      "raw": "\"d\""
+                      "raw": "\"d\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -371,7 +389,9 @@
                     "start": 702,
                     "end": 703,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -404,7 +424,9 @@
                   "start": 735,
                   "end": 870,
                   "value": "#1: (__evaluated.indexOf(\"a\")!==-1)& (__evaluated.indexOf(\"b\")!==-1)& (__evaluated.indexOf(\"c\")!==-1)&(__evaluated.indexOf(\"d\")!==-1)",
-                  "raw": "'#1: (__evaluated.indexOf(\"a\")!==-1)& (__evaluated.indexOf(\"b\")!==-1)& (__evaluated.indexOf(\"c\")!==-1)&(__evaluated.indexOf(\"d\")!==-1)'"
+                  "raw": "'#1: (__evaluated.indexOf(\"a\")!==-1)& (__evaluated.indexOf(\"b\")!==-1)& (__evaluated.indexOf(\"c\")!==-1)&(__evaluated.indexOf(\"d\")!==-1)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -464,7 +486,9 @@
                     "start": 1100,
                     "end": 1147,
                     "value": "#2: __str === __evaluated. Actual:  __str ===",
-                    "raw": "'#2: __str === __evaluated. Actual:  __str ==='"
+                    "raw": "'#2: __str === __evaluated. Actual:  __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

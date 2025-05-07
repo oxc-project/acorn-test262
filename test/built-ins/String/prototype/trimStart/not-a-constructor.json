@@ -82,14 +82,18 @@
             "start": 808,
             "end": 813,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 817,
             "end": 878,
             "value": "isConstructor(String.prototype.trimStart) must return false",
-            "raw": "'isConstructor(String.prototype.trimStart) must return false'"
+            "raw": "'isConstructor(String.prototype.trimStart) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

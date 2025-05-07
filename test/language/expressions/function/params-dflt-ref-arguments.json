@@ -23,7 +23,9 @@
             "start": 1704,
             "end": 1705,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -98,7 +100,9 @@
                   "start": 1741,
                   "end": 1742,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -129,7 +133,9 @@
                   "start": 1759,
                   "end": 1760,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -186,14 +192,18 @@
                       "start": 1790,
                       "end": 1797,
                       "value": "third",
-                      "raw": "'third'"
+                      "raw": "'third'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1799,
                       "end": 1816,
                       "value": "first parameter",
-                      "raw": "'first parameter'"
+                      "raw": "'first parameter'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -238,14 +248,18 @@
                       "start": 1841,
                       "end": 1849,
                       "value": "fourth",
-                      "raw": "'fourth'"
+                      "raw": "'fourth'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1851,
                       "end": 1869,
                       "value": "second parameter",
-                      "raw": "'second parameter'"
+                      "raw": "'second parameter'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -290,14 +304,18 @@
                       "start": 1894,
                       "end": 1901,
                       "value": "third",
-                      "raw": "'third'"
+                      "raw": "'third'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1903,
                       "end": 1920,
                       "value": "third parameter",
-                      "raw": "'third parameter'"
+                      "raw": "'third parameter'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -334,7 +352,9 @@
                       "start": 1949,
                       "end": 1950,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -376,14 +396,18 @@
             "start": 1980,
             "end": 1987,
             "value": "third",
-            "raw": "'third'"
+            "raw": "'third'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1989,
             "end": 1997,
             "value": "fourth",
-            "raw": "'fourth'"
+            "raw": "'fourth'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -428,14 +452,18 @@
             "start": 2029,
             "end": 2030,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2032,
             "end": 2063,
             "value": "function invoked exactly once",
-            "raw": "'function invoked exactly once'"
+            "raw": "'function invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

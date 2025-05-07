@@ -44,14 +44,18 @@
                         "start": 532,
                         "end": 537,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 539,
                         "end": 544,
                         "value": "bar",
-                        "raw": "'bar'"
+                        "raw": "'bar'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -65,14 +69,18 @@
                         "start": 550,
                         "end": 551,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 553,
                         "end": 554,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -149,7 +157,9 @@
             "start": 601,
             "end": 637,
             "value": "clears a map and returns undefined",
-            "raw": "'clears a map and returns undefined'"
+            "raw": "'clears a map and returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +230,9 @@
             "start": 680,
             "end": 715,
             "value": "returns undefined on an empty map",
-            "raw": "'returns undefined on an empty map'"
+            "raw": "'returns undefined on an empty map'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -4839,7 +4839,9 @@ __ESTREE_TEST__:PASS:
                           "start": 3895,
                           "end": 3897,
                           "raw": "\"\"",
-                          "value": ""
+                          "value": "",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -4945,7 +4947,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 4267,
                                                 "end": 4279,
                                                 "raw": "\"someString\"",
-                                                "value": "someString"
+                                                "value": "someString",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -5026,7 +5030,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 4373,
                                               "end": 4376,
                                               "raw": "201",
-                                              "value": 201
+                                              "value": 201,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -5363,7 +5369,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 3999,
                                         "end": 4005,
                                         "raw": "'root'",
-                                        "value": "root"
+                                        "value": "root",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Identifier",
@@ -5439,7 +5447,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 4032,
                                     "end": 4038,
                                     "raw": "'POST'",
-                                    "value": "POST"
+                                    "value": "POST",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 {
@@ -5490,7 +5500,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 4083,
                                     "end": 4093,
                                     "raw": "\"someData\"",
-                                    "value": "someData"
+                                    "value": "someData",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]

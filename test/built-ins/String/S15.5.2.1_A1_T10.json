@@ -93,7 +93,9 @@
                   "start": 658,
                   "end": 665,
                   "value": "tostr",
-                  "raw": "\"tostr\""
+                  "raw": "\"tostr\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -197,7 +199,9 @@
           "start": 840,
           "end": 848,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -229,7 +233,9 @@
                     "start": 877,
                     "end": 961,
                     "value": "#1: __str = new String(__obj); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(__obj); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String(__obj); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -317,7 +323,9 @@
                     "start": 1216,
                     "end": 1310,
                     "value": "#1.5: __str = new String(__obj); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(__obj); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(__obj); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -367,7 +375,9 @@
           "start": 1520,
           "end": 1527,
           "value": "tostr",
-          "raw": "\"tostr\""
+          "raw": "\"tostr\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -399,7 +409,9 @@
                     "start": 1556,
                     "end": 1622,
                     "value": "#2: __str = new String(__obj); __str ==\"tostr\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(__obj); __str ==\"tostr\". Actual: __str =='"
+                    "raw": "'#2: __str = new String(__obj); __str ==\"tostr\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

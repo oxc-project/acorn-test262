@@ -59,7 +59,9 @@
                           "start": 388,
                           "end": 397,
                           "value": "intostr",
-                          "raw": "\"intostr\""
+                          "raw": "\"intostr\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -93,7 +95,9 @@
             "start": 417,
             "end": 433,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -180,7 +184,9 @@
                   "start": 587,
                   "end": 647,
                   "value": "#1: var x = __str.search(__obj) lead to throwing exception",
-                  "raw": "'#1: var x = __str.search(__obj) lead to throwing exception'"
+                  "raw": "'#1: var x = __str.search(__obj) lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -222,7 +228,9 @@
                   "start": 676,
                   "end": 685,
                   "value": "intostr",
-                  "raw": "\"intostr\""
+                  "raw": "\"intostr\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -254,7 +262,9 @@
                             "start": 716,
                             "end": 757,
                             "value": "#1.1: Exception === \"intostr\". Actual: ",
-                            "raw": "'#1.1: Exception === \"intostr\". Actual: '"
+                            "raw": "'#1.1: Exception === \"intostr\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

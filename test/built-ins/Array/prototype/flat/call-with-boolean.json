@@ -86,7 +86,9 @@
                 "start": 311,
                 "end": 315,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -102,7 +104,9 @@
             "start": 322,
             "end": 370,
             "value": "Array.prototype.flat.call(true) must return []",
-            "raw": "'Array.prototype.flat.call(true) must return []'"
+            "raw": "'Array.prototype.flat.call(true) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +195,9 @@
                 "start": 419,
                 "end": 424,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +213,9 @@
             "start": 431,
             "end": 480,
             "value": "Array.prototype.flat.call(false) must return []",
-            "raw": "'Array.prototype.flat.call(false) must return []'"
+            "raw": "'Array.prototype.flat.call(false) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

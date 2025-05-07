@@ -67,7 +67,9 @@
             "start": 327,
             "end": 342,
             "value": "inheritedProp",
-            "raw": "\"inheritedProp\""
+            "raw": "\"inheritedProp\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 355,
                   "end": 359,
                   "value": 1003,
-                  "raw": "1003"
+                  "raw": "1003",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 375,
                   "end": 379,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -136,7 +142,9 @@
                   "start": 397,
                   "end": 401,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -281,7 +289,9 @@
           "start": 487,
           "end": 491,
           "value": 1004,
-          "raw": "1004"
+          "raw": "1004",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -424,14 +434,18 @@
                   "start": 574,
                   "end": 589,
                   "value": "inheritedProp",
-                  "raw": "\"inheritedProp\""
+                  "raw": "\"inheritedProp\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 591,
                   "end": 599,
                   "value": "arr[p]",
-                  "raw": "'arr[p]'"
+                  "raw": "'arr[p]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -60,7 +60,9 @@
                 "start": 246,
                 "end": 250,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -113,7 +115,9 @@
             "start": 290,
             "end": 365,
             "value": "The result of evaluating (result instanceof Array) is expected to be true",
-            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'"
+            "raw": "'The result of evaluating (result instanceof Array) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -171,14 +175,18 @@
             "start": 400,
             "end": 401,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 451,
             "value": "The value of result.length is expected to be 0",
-            "raw": "'The value of result.length is expected to be 0'"
+            "raw": "'The value of result.length is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

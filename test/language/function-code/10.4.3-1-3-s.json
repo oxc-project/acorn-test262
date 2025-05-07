@@ -31,7 +31,9 @@
               "start": 279,
               "end": 291,
               "value": "use strict",
-              "raw": "'use strict'"
+              "raw": "'use strict'",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -170,14 +172,18 @@
             "start": 400,
             "end": 411,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 434,
             "value": "foo.call(undefined)",
-            "raw": "'foo.call(undefined)'"
+            "raw": "'foo.call(undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -242,14 +248,18 @@
             "start": 466,
             "end": 474,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 476,
             "end": 488,
             "value": "bar.call()",
-            "raw": "'bar.call()'"
+            "raw": "'bar.call()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

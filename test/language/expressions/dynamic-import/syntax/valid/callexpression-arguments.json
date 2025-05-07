@@ -68,7 +68,9 @@
                         "start": 470,
                         "end": 490,
                         "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "raw": "'./empty_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -84,7 +86,9 @@
             "start": 498,
             "end": 515,
             "value": "empty arguments",
-            "raw": "'empty arguments'"
+            "raw": "'empty arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,7 +159,9 @@
                         "start": 563,
                         "end": 583,
                         "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "raw": "'./empty_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -165,7 +171,9 @@
                         "start": 585,
                         "end": 586,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -179,7 +187,9 @@
             "start": 593,
             "end": 624,
             "value": "arguments with trailing comma",
-            "raw": "'arguments with trailing comma'"
+            "raw": "'arguments with trailing comma'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +260,9 @@
                         "start": 672,
                         "end": 692,
                         "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "raw": "'./empty_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -260,14 +272,18 @@
                         "start": 694,
                         "end": 695,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 697,
                         "end": 698,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -281,7 +297,9 @@
             "start": 704,
             "end": 717,
             "value": "2 arguments",
-            "raw": "'2 arguments'"
+            "raw": "'2 arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -352,7 +370,9 @@
                         "start": 765,
                         "end": 785,
                         "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "raw": "'./empty_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -380,7 +400,9 @@
             "start": 798,
             "end": 811,
             "value": "spread args",
-            "raw": "'spread args'"
+            "raw": "'spread args'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

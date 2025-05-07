@@ -30,14 +30,18 @@ __ESTREE_TEST__:PASS:
                   "start": 12,
                   "end": 14,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Literal",
                   "start": 17,
                   "end": 27,
                   "raw": "\"./foo.ts\"",
-                  "value": "./foo.ts"
+                  "value": "./foo.ts",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -74,14 +78,18 @@ __ESTREE_TEST__:PASS:
                 "start": 39,
                 "end": 41,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 44,
                 "end": 54,
                 "raw": "\"./foo.ts\"",
-                "value": "./foo.ts"
+                "value": "./foo.ts",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -101,7 +109,9 @@ __ESTREE_TEST__:PASS:
                 "start": 67,
                 "end": 77,
                 "raw": "\"./foo.ts\"",
-                "value": "./foo.ts"
+                "value": "./foo.ts",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -132,7 +142,9 @@ __ESTREE_TEST__:PASS:
               "start": 89,
               "end": 99,
               "raw": "\"./foo.ts\"",
-              "value": "./foo.ts"
+              "value": "./foo.ts",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -175,14 +187,18 @@ __ESTREE_TEST__:PASS:
                 "start": 11,
                 "end": 13,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Literal",
                 "start": 16,
                 "end": 26,
                 "raw": "\"./foo.ts\"",
-                "value": "./foo.ts"
+                "value": "./foo.ts",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -202,7 +218,9 @@ __ESTREE_TEST__:PASS:
               "start": 38,
               "end": 48,
               "raw": "\"./foo.ts\"",
-              "value": "./foo.ts"
+              "value": "./foo.ts",
+              "regex": null,
+              "bigint": null
             }
           }
         }

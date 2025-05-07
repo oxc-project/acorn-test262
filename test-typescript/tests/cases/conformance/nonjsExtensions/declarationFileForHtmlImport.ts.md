@@ -229,7 +229,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 39,
         "raw": "\"./component.html\"",
-        "value": "./component.html"
+        "value": "./component.html",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -263,7 +265,9 @@ __ESTREE_TEST__:PASS:
             "start": 71,
             "end": 89,
             "raw": "\"my-html5-element\"",
-            "value": "my-html5-element"
+            "value": "my-html5-element",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",

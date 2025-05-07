@@ -870,14 +870,18 @@ __ESTREE_TEST__:PASS:
                       "start": 731,
                       "end": 744,
                       "raw": "\"foo/bar.txt\"",
-                      "value": "foo/bar.txt"
+                      "value": "foo/bar.txt",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 746,
                       "end": 751,
                       "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {

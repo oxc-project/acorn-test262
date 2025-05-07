@@ -37,7 +37,9 @@ __ESTREE_TEST__:PASS:
             "start": 43,
             "end": 46,
             "raw": "\"d\"",
-            "value": "d"
+            "value": "d",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -212,7 +214,9 @@ __ESTREE_TEST__:PASS:
                   "start": 153,
                   "end": 156,
                   "raw": "\"d\"",
-                  "value": "d"
+                  "value": "d",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -610,7 +614,9 @@ __ESTREE_TEST__:PASS:
                   "start": 359,
                   "end": 385,
                   "raw": "'expects a string literal'",
-                  "value": "expects a string literal"
+                  "value": "expects a string literal",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -1020,7 +1026,9 @@ __ESTREE_TEST__:PASS:
                     "start": 656,
                     "end": 682,
                     "raw": "'expects a string literal'",
-                    "value": "expects a string literal"
+                    "value": "expects a string literal",
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -1068,7 +1076,9 @@ __ESTREE_TEST__:PASS:
                     "start": 700,
                     "end": 704,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -1103,7 +1113,9 @@ __ESTREE_TEST__:PASS:
                       "start": 722,
                       "end": 727,
                       "raw": "'bar'",
-                      "value": "bar"
+                      "value": "bar",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -1132,7 +1144,9 @@ __ESTREE_TEST__:PASS:
                     "start": 740,
                     "end": 745,
                     "raw": "51345",
-                    "value": 51345
+                    "value": 51345,
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,

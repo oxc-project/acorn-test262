@@ -100,7 +100,9 @@
             "start": 445,
             "end": 504,
             "value": "function*(){}().flatMap(() => []) must return an Iterator",
-            "raw": "'function*(){}().flatMap(() => []) must return an Iterator'"
+            "raw": "'function*(){}().flatMap(() => []) must return an Iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

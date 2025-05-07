@@ -56,14 +56,18 @@
             "start": 754,
             "end": 758,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 760,
             "end": 802,
             "value": "isConstructor(Function) must return true",
-            "raw": "'isConstructor(Function) must return true'"
+            "raw": "'isConstructor(Function) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

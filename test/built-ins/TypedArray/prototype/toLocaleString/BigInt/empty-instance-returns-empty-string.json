@@ -129,7 +129,9 @@
                         "start": 963,
                         "end": 965,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

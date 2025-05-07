@@ -169,7 +169,9 @@ __ESTREE_TEST__:PASS:
           "start": 68,
           "end": 92,
           "raw": "\"requireEmitSemicolon_0\"",
-          "value": "requireEmitSemicolon_0"
+          "value": "requireEmitSemicolon_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -246,7 +248,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 308,
                                     "end": 314,
                                     "raw": "\"Rock\"",
-                                    "value": "Rock"
+                                    "value": "Rock",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "callee": {

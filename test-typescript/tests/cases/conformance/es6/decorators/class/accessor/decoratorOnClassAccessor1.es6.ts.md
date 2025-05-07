@@ -246,7 +246,9 @@ __ESTREE_TEST__:PASS:
                         "start": 184,
                         "end": 185,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

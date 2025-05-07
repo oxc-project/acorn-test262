@@ -101,7 +101,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 69,
                                     "end": 83,
                                     "raw": "\"called arrow\"",
-                                    "value": "called arrow"
+                                    "value": "called arrow",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "callee": {
@@ -200,7 +202,9 @@ __ESTREE_TEST__:PASS:
                           "start": 123,
                           "end": 138,
                           "raw": "\"called method\"",
-                          "value": "called method"
+                          "value": "called method",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -316,7 +320,9 @@ __ESTREE_TEST__:PASS:
                           "start": 194,
                           "end": 202,
                           "raw": "\"SUPER:\"",
-                          "value": "SUPER:"
+                          "value": "SUPER:",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -398,7 +404,9 @@ __ESTREE_TEST__:PASS:
                           "start": 238,
                           "end": 245,
                           "raw": "\"THIS:\"",
-                          "value": "THIS:"
+                          "value": "THIS:",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

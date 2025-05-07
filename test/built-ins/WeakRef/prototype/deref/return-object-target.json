@@ -131,7 +131,9 @@
             "start": 610,
             "end": 626,
             "value": "returns target",
-            "raw": "'returns target'"
+            "raw": "'returns target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,7 +204,9 @@
             "start": 668,
             "end": 698,
             "value": "[[Target]] is not emptied #1",
-            "raw": "'[[Target]] is not emptied #1'"
+            "raw": "'[[Target]] is not emptied #1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,7 +277,9 @@
             "start": 740,
             "end": 770,
             "value": "[[Target]] is not emptied #2",
-            "raw": "'[[Target]] is not emptied #2'"
+            "raw": "'[[Target]] is not emptied #2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +350,9 @@
             "start": 812,
             "end": 842,
             "value": "[[Target]] is not emptied #3",
-            "raw": "'[[Target]] is not emptied #3'"
+            "raw": "'[[Target]] is not emptied #3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

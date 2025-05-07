@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 12,
             "end": 13,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -271,7 +273,9 @@ __ESTREE_TEST__:PASS:
               "start": 125,
               "end": 130,
               "raw": "\"obj\"",
-              "value": "obj"
+              "value": "obj",
+              "regex": null,
+              "bigint": null
             }
           },
           "optional": false,

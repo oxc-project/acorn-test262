@@ -47,21 +47,27 @@
                 "start": 317,
                 "end": 321,
                 "value": 1976,
-                "raw": "1976"
+                "raw": "1976",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 325,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 329,
                 "value": 18,
-                "raw": "18"
+                "raw": "18",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -94,14 +100,18 @@
                 "start": 353,
                 "end": 354,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 366,
                 "value": 19761118,
-                "raw": "19761118"
+                "raw": "19761118",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -114,7 +124,9 @@
                   "start": 371,
                   "end": 379,
                   "value": 19761118,
-                  "raw": "19761118"
+                  "raw": "19761118",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -122,7 +134,9 @@
                 "start": 383,
                 "end": 393,
                 "value": 1234567890,
-                "raw": "1234567890"
+                "raw": "1234567890",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -248,7 +262,9 @@
                   "start": 495,
                   "end": 559,
                   "value": "Numbers cannot be used in place of an ISO string for PlainDate",
-                  "raw": "'Numbers cannot be used in place of an ISO string for PlainDate'"
+                  "raw": "'Numbers cannot be used in place of an ISO string for PlainDate'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

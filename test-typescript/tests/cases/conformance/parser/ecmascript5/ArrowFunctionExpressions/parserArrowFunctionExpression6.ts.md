@@ -98,14 +98,18 @@ __ESTREE_TEST__:PASS:
                   "start": 67,
                   "end": 72,
                   "raw": "false",
-                  "value": false
+                  "value": false,
+                  "regex": null,
+                  "bigint": null
                 },
                 "consequent": {
                   "type": "Literal",
                   "start": 60,
                   "end": 64,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 },
                 "test": {
                   "type": "Identifier",
@@ -122,7 +126,9 @@ __ESTREE_TEST__:PASS:
                 "start": 48,
                 "end": 52,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             }
           }

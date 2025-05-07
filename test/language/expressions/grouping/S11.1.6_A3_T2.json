@@ -20,7 +20,9 @@
             "start": 303,
             "end": 304,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -29,7 +31,9 @@
           "start": 310,
           "end": 311,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -61,7 +65,9 @@
                     "start": 340,
                     "end": 365,
                     "value": "#1: (1) === 1. Actual: ",
-                    "raw": "'#1: (1) === 1. Actual: '"
+                    "raw": "'#1: (1) === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -77,7 +83,9 @@
                         "start": 370,
                         "end": 371,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -120,7 +128,9 @@
                 "start": 408,
                 "end": 409,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -184,7 +194,9 @@
                     "start": 454,
                     "end": 502,
                     "value": "#2: var x = new Number(1); (x) === x. Actual: ",
-                    "raw": "'#2: var x = new Number(1); (x) === x. Actual: '"
+                    "raw": "'#2: var x = new Number(1); (x) === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -66,7 +66,9 @@
                 "start": 344,
                 "end": 348,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -76,14 +78,18 @@
             "start": 351,
             "end": 356,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 358,
             "end": 404,
             "value": "`Object.is(undefined, null)` returns `false`",
-            "raw": "\"`Object.is(undefined, null)` returns `false`\""
+            "raw": "\"`Object.is(undefined, null)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

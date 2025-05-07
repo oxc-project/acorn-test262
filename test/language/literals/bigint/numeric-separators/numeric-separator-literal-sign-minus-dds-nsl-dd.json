@@ -43,6 +43,7 @@
               "end": 641,
               "value": null,
               "raw": "123456789_0n",
+              "regex": null,
               "bigint": "1234567890"
             }
           },
@@ -58,6 +59,7 @@
               "end": 655,
               "value": null,
               "raw": "1234567890n",
+              "regex": null,
               "bigint": "1234567890"
             }
           }
@@ -105,6 +107,7 @@
               "end": 688,
               "value": null,
               "raw": "123456789_1n",
+              "regex": null,
               "bigint": "1234567891"
             }
           },
@@ -120,6 +123,7 @@
               "end": 702,
               "value": null,
               "raw": "1234567891n",
+              "regex": null,
               "bigint": "1234567891"
             }
           }
@@ -167,6 +171,7 @@
               "end": 735,
               "value": null,
               "raw": "123456789_2n",
+              "regex": null,
               "bigint": "1234567892"
             }
           },
@@ -182,6 +187,7 @@
               "end": 749,
               "value": null,
               "raw": "1234567892n",
+              "regex": null,
               "bigint": "1234567892"
             }
           }
@@ -229,6 +235,7 @@
               "end": 782,
               "value": null,
               "raw": "123456789_3n",
+              "regex": null,
               "bigint": "1234567893"
             }
           },
@@ -244,6 +251,7 @@
               "end": 796,
               "value": null,
               "raw": "1234567893n",
+              "regex": null,
               "bigint": "1234567893"
             }
           }
@@ -291,6 +299,7 @@
               "end": 829,
               "value": null,
               "raw": "123456789_4n",
+              "regex": null,
               "bigint": "1234567894"
             }
           },
@@ -306,6 +315,7 @@
               "end": 843,
               "value": null,
               "raw": "1234567894n",
+              "regex": null,
               "bigint": "1234567894"
             }
           }
@@ -353,6 +363,7 @@
               "end": 876,
               "value": null,
               "raw": "123456789_5n",
+              "regex": null,
               "bigint": "1234567895"
             }
           },
@@ -368,6 +379,7 @@
               "end": 890,
               "value": null,
               "raw": "1234567895n",
+              "regex": null,
               "bigint": "1234567895"
             }
           }
@@ -415,6 +427,7 @@
               "end": 923,
               "value": null,
               "raw": "123456789_6n",
+              "regex": null,
               "bigint": "1234567896"
             }
           },
@@ -430,6 +443,7 @@
               "end": 937,
               "value": null,
               "raw": "1234567896n",
+              "regex": null,
               "bigint": "1234567896"
             }
           }
@@ -477,6 +491,7 @@
               "end": 970,
               "value": null,
               "raw": "123456789_7n",
+              "regex": null,
               "bigint": "1234567897"
             }
           },
@@ -492,6 +507,7 @@
               "end": 984,
               "value": null,
               "raw": "1234567897n",
+              "regex": null,
               "bigint": "1234567897"
             }
           }
@@ -539,6 +555,7 @@
               "end": 1017,
               "value": null,
               "raw": "123456789_8n",
+              "regex": null,
               "bigint": "1234567898"
             }
           },
@@ -554,6 +571,7 @@
               "end": 1031,
               "value": null,
               "raw": "1234567898n",
+              "regex": null,
               "bigint": "1234567898"
             }
           }
@@ -601,6 +619,7 @@
               "end": 1064,
               "value": null,
               "raw": "123456789_9n",
+              "regex": null,
               "bigint": "1234567899"
             }
           },
@@ -616,6 +635,7 @@
               "end": 1078,
               "value": null,
               "raw": "1234567899n",
+              "regex": null,
               "bigint": "1234567899"
             }
           }

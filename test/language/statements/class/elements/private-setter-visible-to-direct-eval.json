@@ -146,7 +146,9 @@
                           "start": 1918,
                           "end": 1931,
                           "value": "this.#m = v",
-                          "raw": "\"this.#m = v\""
+                          "raw": "\"this.#m = v\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -297,7 +299,9 @@
             "start": 2028,
             "end": 2037,
             "value": "Test262",
-            "raw": "\"Test262\""
+            "raw": "\"Test262\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -355,7 +359,9 @@
             "start": 2063,
             "end": 2072,
             "value": "Test262",
-            "raw": "\"Test262\""
+            "raw": "\"Test262\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -499,7 +505,9 @@
             "start": 2159,
             "end": 2195,
             "value": "invalid access to a private setter",
-            "raw": "\"invalid access to a private setter\""
+            "raw": "\"invalid access to a private setter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

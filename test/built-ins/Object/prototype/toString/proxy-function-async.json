@@ -193,14 +193,18 @@
             "start": 723,
             "end": 747,
             "value": "[object AsyncFunction]",
-            "raw": "'[object AsyncFunction]'"
+            "raw": "'[object AsyncFunction]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 751,
             "end": 773,
             "value": "async function proxy",
-            "raw": "'async function proxy'"
+            "raw": "'async function proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -298,14 +302,18 @@
             "start": 848,
             "end": 872,
             "value": "[object AsyncFunction]",
-            "raw": "'[object AsyncFunction]'"
+            "raw": "'[object AsyncFunction]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 876,
             "end": 908,
             "value": "proxy for async function proxy",
-            "raw": "'proxy for async function proxy'"
+            "raw": "'proxy for async function proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

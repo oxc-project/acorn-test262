@@ -48,6 +48,7 @@
                 "end": 354,
                 "value": null,
                 "raw": "1572342398_271_986_102n",
+                "regex": null,
                 "bigint": "1572342398271986102"
               },
               {
@@ -55,14 +56,18 @@
                 "start": 356,
                 "end": 364,
                 "value": "-07:00",
-                "raw": "\"-07:00\""
+                "raw": "\"-07:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 375,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -167,14 +172,18 @@
             "start": 453,
             "end": 462,
             "value": "gregory",
-            "raw": "\"gregory\""
+            "raw": "\"gregory\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 503,
             "value": "Calendar is preserved in return value",
-            "raw": "\"Calendar is preserved in return value\""
+            "raw": "\"Calendar is preserved in return value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

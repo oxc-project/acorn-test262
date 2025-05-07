@@ -28,21 +28,27 @@
                 "start": 583,
                 "end": 593,
                 "value": "grapheme",
-                "raw": "\"grapheme\""
+                "raw": "\"grapheme\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 595,
                 "end": 601,
                 "value": "word",
-                "raw": "\"word\""
+                "raw": "\"word\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 613,
                 "value": "sentence",
-                "raw": "\"sentence\""
+                "raw": "\"sentence\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -119,7 +125,9 @@
                 "start": 670,
                 "end": 680,
                 "value": "grapheme",
-                "raw": "\"grapheme\""
+                "raw": "\"grapheme\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",

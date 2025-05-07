@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 15,
             "raw": "\"Ü­ਲ\u000eĭ\"",
-            "value": "Ü­ਲ\u000eĭ"
+            "value": "Ü­ਲ\u000eĭ",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

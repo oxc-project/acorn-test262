@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 20,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "optional": false,
               "property": {

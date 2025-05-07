@@ -34,14 +34,18 @@
                 "start": 805,
                 "end": 809,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 811,
                 "end": 812,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +129,9 @@
               "start": 874,
               "end": 878,
               "value": 2015,
-              "raw": "2015"
+              "raw": "2015",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -171,14 +177,18 @@
                   "start": 902,
                   "end": 906,
                   "value": 2015,
-                  "raw": "2015"
+                  "raw": "2015",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 908,
                   "end": 909,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -241,7 +251,9 @@
             "start": 962,
             "end": 983,
             "value": "year (return value)",
-            "raw": "'year (return value)'"
+            "raw": "'year (return value)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,7 +324,9 @@
             "start": 1029,
             "end": 1056,
             "value": "year ([[DateValue]] slot)",
-            "raw": "'year ([[DateValue]] slot)'"
+            "raw": "'year ([[DateValue]] slot)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

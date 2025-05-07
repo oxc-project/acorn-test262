@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 24,
         "raw": "\"./nested\"",
-        "value": "./nested"
+        "value": "./nested",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -43,7 +45,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 28,
         "raw": "\"./shared\"",
-        "value": "./shared"
+        "value": "./shared",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -153,7 +157,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 26,
         "raw": "\"./base\"",
-        "value": "./base"
+        "value": "./base",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -265,7 +271,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "\"./base\"",
-        "value": "./base"
+        "value": "./base",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -280,7 +288,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 50,
         "raw": "\"./derived\"",
-        "value": "./derived"
+        "value": "./derived",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -295,7 +305,9 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 76,
         "raw": "\"./shared\"",
-        "value": "./shared"
+        "value": "./shared",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

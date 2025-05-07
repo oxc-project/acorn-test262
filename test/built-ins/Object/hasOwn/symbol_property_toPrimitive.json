@@ -80,7 +80,9 @@
             "start": 468,
             "end": 469,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -186,7 +188,9 @@
                     "start": 547,
                     "end": 548,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -239,7 +243,9 @@
           "start": 579,
           "end": 580,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -315,14 +321,18 @@
             "start": 634,
             "end": 638,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 642,
             "end": 685,
             "value": "Returns true if symbol own property found",
-            "raw": "\"Returns true if symbol own property found\""
+            "raw": "\"Returns true if symbol own property found\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -367,14 +377,18 @@
             "start": 718,
             "end": 719,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 721,
             "end": 761,
             "value": "toPrimitive method called exactly once",
-            "raw": "\"toPrimitive method called exactly once\""
+            "raw": "\"toPrimitive method called exactly once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

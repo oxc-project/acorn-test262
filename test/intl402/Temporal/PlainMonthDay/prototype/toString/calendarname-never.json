@@ -39,14 +39,18 @@
                     "start": 313,
                     "end": 320,
                     "value": "05-02",
-                    "raw": "\"05-02\""
+                    "raw": "\"05-02\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 322,
                     "end": 336,
                     "value": "built-in ISO",
-                    "raw": "\"built-in ISO\""
+                    "raw": "\"built-in ISO\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -65,7 +69,9 @@
                         "start": 343,
                         "end": 352,
                         "value": "gregory",
-                        "raw": "\"gregory\""
+                        "raw": "\"gregory\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -74,14 +80,18 @@
                     "start": 355,
                     "end": 367,
                     "value": "1972-05-02",
-                    "raw": "\"1972-05-02\""
+                    "raw": "\"1972-05-02\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 369,
                     "end": 389,
                     "value": "built-in Gregorian",
-                    "raw": "\"built-in Gregorian\""
+                    "raw": "\"built-in Gregorian\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -190,14 +200,18 @@
                       "start": 495,
                       "end": 496,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 498,
                       "end": 499,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "SpreadElement",
@@ -278,7 +292,9 @@
                             "start": 562,
                             "end": 569,
                             "value": "never",
-                            "raw": "\"never\""
+                            "raw": "\"never\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }

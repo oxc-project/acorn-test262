@@ -488,7 +488,9 @@
                                     "start": 743,
                                     "end": 757,
                                     "value": "Invalid Date",
-                                    "raw": "\"Invalid Date\""
+                                    "raw": "\"Invalid Date\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -507,7 +509,9 @@
                                           "start": 759,
                                           "end": 776,
                                           "value": "Date.prototype.",
-                                          "raw": "\"Date.prototype.\""
+                                          "raw": "\"Date.prototype.\"",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "operator": "+",
                                         "right": {
@@ -523,7 +527,9 @@
                                         "start": 783,
                                         "end": 822,
                                         "value": " did not return \"Invalid Date\" for ",
-                                        "raw": "\" did not return \\\"Invalid Date\\\" for \""
+                                        "raw": "\" did not return \\\"Invalid Date\\\" for \"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "operator": "+",

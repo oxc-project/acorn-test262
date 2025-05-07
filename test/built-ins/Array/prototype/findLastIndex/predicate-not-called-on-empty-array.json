@@ -23,7 +23,9 @@
             "start": 524,
             "end": 529,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -78,7 +80,9 @@
                       "start": 572,
                       "end": 576,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -91,7 +95,9 @@
                     "start": 587,
                     "end": 591,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -192,14 +198,18 @@
             "start": 668,
             "end": 673,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 730,
             "value": "[].findLastIndex(predicate) does not call predicate",
-            "raw": "'[].findLastIndex(predicate) does not call predicate'"
+            "raw": "'[].findLastIndex(predicate) does not call predicate'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +260,9 @@
               "start": 763,
               "end": 764,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -258,7 +270,9 @@
             "start": 768,
             "end": 816,
             "value": "[].findLastIndex(predicate) returned undefined",
-            "raw": "'[].findLastIndex(predicate) returned undefined'"
+            "raw": "'[].findLastIndex(predicate) returned undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

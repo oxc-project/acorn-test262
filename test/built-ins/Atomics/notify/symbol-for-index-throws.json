@@ -69,7 +69,9 @@
                       "start": 832,
                       "end": 833,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -147,7 +149,9 @@
                               "start": 916,
                               "end": 947,
                               "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "raw": "'should not evaluate this code'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -243,7 +247,9 @@
                               "start": 1052,
                               "end": 1099,
                               "value": "passing a poisoned object using @@ToPrimitive",
-                              "raw": "\"passing a poisoned object using @@ToPrimitive\""
+                              "raw": "\"passing a poisoned object using @@ToPrimitive\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -567,7 +573,9 @@
                             "start": 1394,
                             "end": 1399,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -687,7 +695,9 @@
                             "start": 1493,
                             "end": 1498,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

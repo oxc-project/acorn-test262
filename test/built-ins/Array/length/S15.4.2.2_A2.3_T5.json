@@ -40,7 +40,9 @@
                   "start": 443,
                   "end": 444,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -139,14 +141,18 @@
             "start": 499,
             "end": 500,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 545,
             "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "raw": "'The value of x.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -195,7 +201,9 @@
               "start": 567,
               "end": 568,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -211,7 +219,9 @@
             "start": 576,
             "end": 633,
             "value": "The value of x[0] is expected to equal the value of obj",
-            "raw": "'The value of x[0] is expected to equal the value of obj'"
+            "raw": "'The value of x[0] is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +258,9 @@
                 "start": 658,
                 "end": 668,
                 "value": 4294967296,
-                "raw": "4294967296"
+                "raw": "4294967296",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -346,14 +358,18 @@
             "start": 723,
             "end": 724,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 769,
             "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "raw": "'The value of x.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,7 +418,9 @@
               "start": 791,
               "end": 792,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -418,7 +436,9 @@
             "start": 800,
             "end": 857,
             "value": "The value of x[0] is expected to equal the value of obj",
-            "raw": "'The value of x[0] is expected to equal the value of obj'"
+            "raw": "'The value of x[0] is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -455,7 +475,9 @@
                 "start": 882,
                 "end": 892,
                 "value": 4294967297,
-                "raw": "4294967297"
+                "raw": "4294967297",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -553,14 +575,18 @@
             "start": 947,
             "end": 948,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 993,
             "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "raw": "'The value of x.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -609,7 +635,9 @@
               "start": 1015,
               "end": 1016,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -625,7 +653,9 @@
             "start": 1024,
             "end": 1081,
             "value": "The value of x[0] is expected to equal the value of obj",
-            "raw": "'The value of x[0] is expected to equal the value of obj'"
+            "raw": "'The value of x[0] is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

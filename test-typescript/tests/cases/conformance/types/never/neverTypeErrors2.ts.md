@@ -73,7 +73,9 @@ __ESTREE_TEST__:PASS:
                 "start": 42,
                 "end": 43,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -101,7 +103,9 @@ __ESTREE_TEST__:PASS:
                 "start": 53,
                 "end": 58,
                 "raw": "\"abc\"",
-                "value": "abc"
+                "value": "abc",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -129,7 +133,9 @@ __ESTREE_TEST__:PASS:
                 "start": 68,
                 "end": 73,
                 "raw": "false",
-                "value": false
+                "value": false,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -187,7 +193,9 @@ __ESTREE_TEST__:PASS:
                 "start": 102,
                 "end": 106,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -321,7 +329,9 @@ __ESTREE_TEST__:PASS:
               "start": 204,
               "end": 205,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -606,7 +616,9 @@ __ESTREE_TEST__:PASS:
                   "start": 383,
                   "end": 386,
                   "raw": "\"a\"",
-                  "value": "a"
+                  "value": "a",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -666,7 +678,9 @@ __ESTREE_TEST__:PASS:
                   "start": 414,
                   "end": 417,
                   "raw": "\"b\"",
-                  "value": "b"
+                  "value": "b",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }

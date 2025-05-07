@@ -110,7 +110,9 @@
                         "start": 604,
                         "end": 608,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "FunctionExpression",

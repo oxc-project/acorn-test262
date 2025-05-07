@@ -47,70 +47,90 @@
                 "start": 329,
                 "end": 333,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 343,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 347,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 351,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 356,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 361,
                 "value": 654,
-                "raw": "654"
+                "raw": "654",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 366,
                 "value": 321,
-                "raw": "321"
+                "raw": "321",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 376,
                 "value": "hebrew",
-                "raw": "\"hebrew\""
+                "raw": "\"hebrew\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -180,7 +200,9 @@
                       "start": 421,
                       "end": 425,
                       "value": 5783,
-                      "raw": "5783"
+                      "raw": "5783",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -245,14 +267,18 @@
             "start": 464,
             "end": 468,
             "value": 5783,
-            "raw": "5783"
+            "raw": "5783",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 487,
             "value": "year is changed",
-            "raw": "\"year is changed\""
+            "raw": "\"year is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -310,14 +336,18 @@
             "start": 525,
             "end": 527,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 591,
             "value": "month is changed because year has different number of months",
-            "raw": "\"month is changed because year has different number of months\""
+            "raw": "\"month is changed because year has different number of months\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,14 +405,18 @@
             "start": 633,
             "end": 638,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 640,
             "end": 667,
             "value": "month code is not changed",
-            "raw": "\"month code is not changed\""
+            "raw": "\"month code is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -440,14 +474,18 @@
             "start": 703,
             "end": 704,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 726,
             "value": "day is not changed",
-            "raw": "\"day is not changed\""
+            "raw": "\"day is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -515,7 +553,9 @@
                       "start": 773,
                       "end": 775,
                       "value": 13,
-                      "raw": "13"
+                      "raw": "13",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -580,14 +620,18 @@
             "start": 815,
             "end": 819,
             "value": 5784,
-            "raw": "5784"
+            "raw": "5784",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 821,
             "end": 842,
             "value": "year is not changed",
-            "raw": "\"year is not changed\""
+            "raw": "\"year is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -645,14 +689,18 @@
             "start": 881,
             "end": 883,
             "value": 13,
-            "raw": "13"
+            "raw": "13",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 885,
             "end": 903,
             "value": "month is changed",
-            "raw": "\"month is changed\""
+            "raw": "\"month is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -710,14 +758,18 @@
             "start": 946,
             "end": 951,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 953,
             "end": 976,
             "value": "month code is changed",
-            "raw": "\"month code is changed\""
+            "raw": "\"month code is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -775,14 +827,18 @@
             "start": 1013,
             "end": 1014,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1016,
             "end": 1036,
             "value": "day is not changed",
-            "raw": "\"day is not changed\""
+            "raw": "\"day is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -850,7 +906,9 @@
                       "start": 1091,
                       "end": 1096,
                       "value": "M10",
-                      "raw": "\"M10\""
+                      "raw": "\"M10\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -915,14 +973,18 @@
             "start": 1140,
             "end": 1144,
             "value": 5784,
-            "raw": "5784"
+            "raw": "5784",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1167,
             "value": "year is not changed",
-            "raw": "\"year is not changed\""
+            "raw": "\"year is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -980,14 +1042,18 @@
             "start": 1210,
             "end": 1212,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1214,
             "end": 1232,
             "value": "month is changed",
-            "raw": "\"month is changed\""
+            "raw": "\"month is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1045,14 +1111,18 @@
             "start": 1279,
             "end": 1284,
             "value": "M10",
-            "raw": "\"M10\""
+            "raw": "\"M10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1286,
             "end": 1309,
             "value": "month code is changed",
-            "raw": "\"month code is changed\""
+            "raw": "\"month code is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1110,14 +1180,18 @@
             "start": 1350,
             "end": 1351,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1353,
             "end": 1373,
             "value": "day is not changed",
-            "raw": "\"day is not changed\""
+            "raw": "\"day is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1185,7 +1259,9 @@
                       "start": 1416,
                       "end": 1418,
                       "value": 24,
-                      "raw": "24"
+                      "raw": "24",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1250,14 +1326,18 @@
             "start": 1456,
             "end": 1460,
             "value": 5784,
-            "raw": "5784"
+            "raw": "5784",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1462,
             "end": 1483,
             "value": "year is not changed",
-            "raw": "\"year is not changed\""
+            "raw": "\"year is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1315,14 +1395,18 @@
             "start": 1520,
             "end": 1522,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1524,
             "end": 1546,
             "value": "month is not changed",
-            "raw": "\"month is not changed\""
+            "raw": "\"month is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1380,14 +1464,18 @@
             "start": 1587,
             "end": 1592,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1594,
             "end": 1621,
             "value": "month code is not changed",
-            "raw": "\"month code is not changed\""
+            "raw": "\"month code is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1445,14 +1533,18 @@
             "start": 1656,
             "end": 1658,
             "value": 24,
-            "raw": "24"
+            "raw": "24",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1660,
             "end": 1676,
             "value": "day is changed",
-            "raw": "\"day is changed\""
+            "raw": "\"day is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

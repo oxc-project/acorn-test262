@@ -94,7 +94,9 @@
                                   "start": 519,
                                   "end": 527,
                                   "value": "lookup",
-                                  "raw": "\"lookup\""
+                                  "raw": "\"lookup\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -188,7 +190,8 @@
                                   "regex": {
                                     "pattern": "^([a-z]{2,3})(-[A-Z][a-z]{3})?(-(?:[A-Z]{2}|[0-9]{3}))?$",
                                     "flags": ""
-                                  }
+                                  },
+                                  "bigint": null
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -252,7 +255,9 @@
                               "start": 700,
                               "end": 704,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "BinaryExpression",
@@ -267,7 +272,9 @@
                                   "start": 706,
                                   "end": 715,
                                   "value": "Locale ",
-                                  "raw": "\"Locale \""
+                                  "raw": "\"Locale \"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -283,7 +290,9 @@
                                 "start": 727,
                                 "end": 764,
                                 "value": " is supported, but can't be parsed.",
-                                "raw": "\" is supported, but can't be parsed.\""
+                                "raw": "\" is supported, but can't be parsed.\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -353,7 +362,9 @@
                                   "start": 820,
                                   "end": 821,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -560,7 +571,9 @@
                                             "start": 1018,
                                             "end": 1027,
                                             "value": "Locale ",
-                                            "raw": "\"Locale \""
+                                            "raw": "\"Locale \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -576,7 +589,9 @@
                                           "start": 1039,
                                           "end": 1069,
                                           "value": " is supported, but fallback ",
-                                          "raw": "\" is supported, but fallback \""
+                                          "raw": "\" is supported, but fallback \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -593,7 +608,9 @@
                                       "start": 1083,
                                       "end": 1092,
                                       "value": " isn't.",
-                                      "raw": "\" isn't.\""
+                                      "raw": "\" isn't.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],
@@ -802,7 +819,9 @@
                                             "start": 1299,
                                             "end": 1308,
                                             "value": "Locale ",
-                                            "raw": "\"Locale \""
+                                            "raw": "\"Locale \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -818,7 +837,9 @@
                                           "start": 1320,
                                           "end": 1350,
                                           "value": " is supported, but fallback ",
-                                          "raw": "\" is supported, but fallback \""
+                                          "raw": "\" is supported, but fallback \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -835,7 +856,9 @@
                                       "start": 1364,
                                       "end": 1373,
                                       "value": " isn't.",
-                                      "raw": "\" isn't.\""
+                                      "raw": "\" isn't.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

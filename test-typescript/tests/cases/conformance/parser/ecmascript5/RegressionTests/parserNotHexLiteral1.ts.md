@@ -52,7 +52,9 @@ __ESTREE_TEST__:PASS:
                   "start": 13,
                   "end": 18,
                   "raw": "'cat'",
-                  "value": "cat"
+                  "value": "cat",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -78,7 +80,9 @@ __ESTREE_TEST__:PASS:
                   "start": 24,
                   "end": 29,
                   "raw": "'dog'",
-                  "value": "dog"
+                  "value": "dog",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

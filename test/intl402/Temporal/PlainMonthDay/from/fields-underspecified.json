@@ -33,7 +33,9 @@
                     "start": 296,
                     "end": 305,
                     "value": "gregory",
-                    "raw": "\"gregory\""
+                    "raw": "\"gregory\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -58,7 +60,9 @@
                           "start": 315,
                           "end": 319,
                           "value": 2000,
-                          "raw": "2000"
+                          "raw": "2000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -80,7 +84,9 @@
                           "start": 328,
                           "end": 329,
                           "value": 5,
-                          "raw": "5"
+                          "raw": "5",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -102,7 +108,9 @@
                           "start": 336,
                           "end": 337,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -124,7 +132,9 @@
                           "start": 344,
                           "end": 348,
                           "value": "ce",
-                          "raw": "\"ce\""
+                          "raw": "\"ce\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -135,7 +145,9 @@
                     "start": 352,
                     "end": 381,
                     "value": "era present but not eraYear",
-                    "raw": "\"era present but not eraYear\""
+                    "raw": "\"era present but not eraYear\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -149,7 +161,9 @@
                     "start": 387,
                     "end": 396,
                     "value": "gregory",
-                    "raw": "\"gregory\""
+                    "raw": "\"gregory\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -174,7 +188,9 @@
                           "start": 406,
                           "end": 410,
                           "value": 2000,
-                          "raw": "2000"
+                          "raw": "2000",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -196,7 +212,9 @@
                           "start": 419,
                           "end": 420,
                           "value": 5,
-                          "raw": "5"
+                          "raw": "5",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -218,7 +236,9 @@
                           "start": 427,
                           "end": 428,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -240,7 +260,9 @@
                           "start": 439,
                           "end": 440,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -251,7 +273,9 @@
                     "start": 444,
                     "end": 473,
                     "value": "eraYear present but not era",
-                    "raw": "\"eraYear present but not era\""
+                    "raw": "\"eraYear present but not era\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -265,7 +289,9 @@
                     "start": 479,
                     "end": 488,
                     "value": "gregory",
-                    "raw": "\"gregory\""
+                    "raw": "\"gregory\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -290,7 +316,9 @@
                           "start": 499,
                           "end": 500,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -312,7 +340,9 @@
                           "start": 507,
                           "end": 508,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -323,7 +353,9 @@
                     "start": 512,
                     "end": 567,
                     "value": "no monthCode or year specification, non-ISO Gregorian",
-                    "raw": "\"no monthCode or year specification, non-ISO Gregorian\""
+                    "raw": "\"no monthCode or year specification, non-ISO Gregorian\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -337,7 +369,9 @@
                     "start": 573,
                     "end": 581,
                     "value": "hebrew",
-                    "raw": "\"hebrew\""
+                    "raw": "\"hebrew\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -362,7 +396,9 @@
                           "start": 592,
                           "end": 593,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -384,7 +420,9 @@
                           "start": 600,
                           "end": 601,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -395,7 +433,9 @@
                     "start": 605,
                     "end": 664,
                     "value": "no monthCode or year specification, non-ISO non-Gregorian",
-                    "raw": "\"no monthCode or year specification, non-ISO non-Gregorian\""
+                    "raw": "\"no monthCode or year specification, non-ISO non-Gregorian\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

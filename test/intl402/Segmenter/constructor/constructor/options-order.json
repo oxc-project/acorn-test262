@@ -127,7 +127,9 @@
                               "start": 692,
                               "end": 707,
                               "value": "localeMatcher",
-                              "raw": "\"localeMatcher\""
+                              "raw": "\"localeMatcher\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -202,7 +204,9 @@
                                             "start": 765,
                                             "end": 789,
                                             "value": "localeMatcher toString",
-                                            "raw": "\"localeMatcher toString\""
+                                            "raw": "\"localeMatcher toString\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -217,7 +221,9 @@
                                         "start": 807,
                                         "end": 817,
                                         "value": "best fit",
-                                        "raw": "\"best fit\""
+                                        "raw": "\"best fit\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -293,7 +299,9 @@
                               "start": 883,
                               "end": 899,
                               "value": "lineBreakStyle",
-                              "raw": "\"lineBreakStyle\""
+                              "raw": "\"lineBreakStyle\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -368,7 +376,9 @@
                                             "start": 957,
                                             "end": 982,
                                             "value": "lineBreakStyle toString",
-                                            "raw": "\"lineBreakStyle toString\""
+                                            "raw": "\"lineBreakStyle toString\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -383,7 +393,9 @@
                                         "start": 1000,
                                         "end": 1008,
                                         "value": "strict",
-                                        "raw": "\"strict\""
+                                        "raw": "\"strict\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -459,7 +471,9 @@
                               "start": 1071,
                               "end": 1084,
                               "value": "granularity",
-                              "raw": "\"granularity\""
+                              "raw": "\"granularity\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -534,7 +548,9 @@
                                             "start": 1142,
                                             "end": 1164,
                                             "value": "granularity toString",
-                                            "raw": "\"granularity toString\""
+                                            "raw": "\"granularity toString\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -549,7 +565,9 @@
                                         "start": 1182,
                                         "end": 1188,
                                         "value": "word",
-                                        "raw": "\"word\""
+                                        "raw": "\"word\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -614,28 +632,36 @@
                 "start": 1250,
                 "end": 1265,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1269,
                 "end": 1293,
                 "value": "localeMatcher toString",
-                "raw": "\"localeMatcher toString\""
+                "raw": "\"localeMatcher toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1297,
                 "end": 1310,
                 "value": "granularity",
-                "raw": "\"granularity\""
+                "raw": "\"granularity\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1314,
                 "end": 1336,
                 "value": "granularity toString",
-                "raw": "\"granularity toString\""
+                "raw": "\"granularity toString\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

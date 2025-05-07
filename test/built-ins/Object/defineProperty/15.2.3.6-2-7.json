@@ -73,7 +73,9 @@
               "start": 323,
               "end": 324,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -130,7 +132,9 @@
                 "start": 358,
                 "end": 361,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -140,7 +144,9 @@
             "start": 364,
             "end": 398,
             "value": "obj.hasOwnProperty(\"0\") !== true",
-            "raw": "'obj.hasOwnProperty(\"0\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"0\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

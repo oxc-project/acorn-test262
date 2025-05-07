@@ -199,21 +199,27 @@
               "start": 538,
               "end": 542,
               "value": 1899,
-              "raw": "1899"
+              "raw": "1899",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 544,
               "end": 546,
               "value": 11,
-              "raw": "11"
+              "raw": "11",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 548,
               "end": 550,
               "value": 31,
-              "raw": "31"
+              "raw": "31",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -265,7 +271,9 @@
             "start": 578,
             "end": 619,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,21 +310,27 @@
               "start": 637,
               "end": 641,
               "value": 1899,
-              "raw": "1899"
+              "raw": "1899",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 643,
               "end": 645,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 647,
               "end": 648,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -368,7 +382,9 @@
             "start": 676,
             "end": 717,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -405,21 +421,27 @@
               "start": 735,
               "end": 739,
               "value": 1900,
-              "raw": "1900"
+              "raw": "1900",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 741,
               "end": 742,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 744,
               "end": 745,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -471,7 +493,9 @@
             "start": 773,
             "end": 814,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,21 +532,27 @@
               "start": 832,
               "end": 836,
               "value": 1969,
-              "raw": "1969"
+              "raw": "1969",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 838,
               "end": 840,
               "value": 11,
-              "raw": "11"
+              "raw": "11",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 842,
               "end": 844,
               "value": 31,
-              "raw": "31"
+              "raw": "31",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -574,7 +604,9 @@
             "start": 872,
             "end": 913,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -611,21 +643,27 @@
               "start": 931,
               "end": 935,
               "value": 1969,
-              "raw": "1969"
+              "raw": "1969",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 937,
               "end": 939,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 941,
               "end": 942,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -677,7 +715,9 @@
             "start": 970,
             "end": 1011,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -714,21 +754,27 @@
               "start": 1029,
               "end": 1033,
               "value": 1970,
-              "raw": "1970"
+              "raw": "1970",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1035,
               "end": 1036,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1038,
               "end": 1039,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -780,7 +826,9 @@
             "start": 1067,
             "end": 1108,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -817,21 +865,27 @@
               "start": 1126,
               "end": 1130,
               "value": 1999,
-              "raw": "1999"
+              "raw": "1999",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1132,
               "end": 1134,
               "value": 11,
-              "raw": "11"
+              "raw": "11",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1136,
               "end": 1138,
               "value": 31,
-              "raw": "31"
+              "raw": "31",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -883,7 +937,9 @@
             "start": 1166,
             "end": 1207,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -920,21 +976,27 @@
               "start": 1225,
               "end": 1229,
               "value": 1999,
-              "raw": "1999"
+              "raw": "1999",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1231,
               "end": 1233,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1235,
               "end": 1236,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -986,7 +1048,9 @@
             "start": 1264,
             "end": 1305,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1023,21 +1087,27 @@
               "start": 1323,
               "end": 1327,
               "value": 2000,
-              "raw": "2000"
+              "raw": "2000",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1329,
               "end": 1330,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1332,
               "end": 1333,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1089,7 +1159,9 @@
             "start": 1361,
             "end": 1402,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1126,21 +1198,27 @@
               "start": 1420,
               "end": 1424,
               "value": 2099,
-              "raw": "2099"
+              "raw": "2099",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1426,
               "end": 1428,
               "value": 11,
-              "raw": "11"
+              "raw": "11",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1430,
               "end": 1432,
               "value": 31,
-              "raw": "31"
+              "raw": "31",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1192,7 +1270,9 @@
             "start": 1460,
             "end": 1501,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1229,21 +1309,27 @@
               "start": 1519,
               "end": 1523,
               "value": 2099,
-              "raw": "2099"
+              "raw": "2099",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1525,
               "end": 1527,
               "value": 12,
-              "raw": "12"
+              "raw": "12",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1529,
               "end": 1530,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1295,7 +1381,9 @@
             "start": 1558,
             "end": 1599,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1332,21 +1420,27 @@
               "start": 1617,
               "end": 1621,
               "value": 2100,
-              "raw": "2100"
+              "raw": "2100",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1623,
               "end": 1624,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1626,
               "end": 1627,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1398,7 +1492,9 @@
             "start": 1655,
             "end": 1696,
             "value": "The value of x is expected to equal NaN",
-            "raw": "'The value of x is expected to equal NaN'"
+            "raw": "'The value of x is expected to equal NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -59,7 +59,9 @@
                       "start": 723,
                       "end": 729,
                       "value": "1234",
-                      "raw": "\"1234\""
+                      "raw": "\"1234\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -89,7 +91,9 @@
                           "start": 741,
                           "end": 747,
                           "value": "5678",
-                          "raw": "\"5678\""
+                          "raw": "\"5678\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -100,7 +104,9 @@
                       "start": 751,
                       "end": 755,
                       "value": 0.0001,
-                      "raw": "1e-4"
+                      "raw": "1e-4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -112,7 +118,9 @@
               "start": 760,
               "end": 763,
               "value": 1000000000,
-              "raw": "1e9"
+              "raw": "1e9",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -120,14 +128,18 @@
             "start": 767,
             "end": 778,
             "value": 1234567800000,
-            "raw": "1234.5678e9"
+            "raw": "1234.5678e9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 782,
             "end": 866,
             "value": "Number(\"1234.5678e9\") must return (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e9",
-            "raw": "'Number(\"1234.5678e9\") must return (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e9'"
+            "raw": "'Number(\"1234.5678e9\") must return (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e9'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -189,7 +201,9 @@
                       "start": 899,
                       "end": 905,
                       "value": "1234",
-                      "raw": "\"1234\""
+                      "raw": "\"1234\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -219,7 +233,9 @@
                           "start": 917,
                           "end": 923,
                           "value": "5678",
-                          "raw": "\"5678\""
+                          "raw": "\"5678\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -230,7 +246,9 @@
                       "start": 927,
                       "end": 931,
                       "value": 0.0001,
-                      "raw": "1e-4"
+                      "raw": "1e-4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -242,7 +260,9 @@
               "start": 936,
               "end": 940,
               "value": 1e-9,
-              "raw": "1e-9"
+              "raw": "1e-9",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -250,14 +270,18 @@
             "start": 944,
             "end": 956,
             "value": 0.0000012345678,
-            "raw": "1234.5678e-9"
+            "raw": "1234.5678e-9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 960,
             "end": 1062,
             "value": "The value of `+(\"1234.5678e-9\")` is expected to be (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e-9",
-            "raw": "'The value of `+(\"1234.5678e-9\")` is expected to be (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e-9'"
+            "raw": "'The value of `+(\"1234.5678e-9\")` is expected to be (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e-9'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

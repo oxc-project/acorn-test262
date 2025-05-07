@@ -93,7 +93,9 @@
                     "start": 462,
                     "end": 530,
                     "value": "#1: String.prototype.lastIndexOf.prototype === undefined. Actual: ",
-                    "raw": "'#1: String.prototype.lastIndexOf.prototype === undefined. Actual: '"
+                    "raw": "'#1: String.prototype.lastIndexOf.prototype === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

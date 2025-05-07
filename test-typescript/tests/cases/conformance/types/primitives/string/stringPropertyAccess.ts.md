@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 10,
             "raw": "''",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -65,7 +67,9 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 30,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -130,7 +134,9 @@ __ESTREE_TEST__:PASS:
                 "start": 58,
                 "end": 66,
                 "raw": "'charAt'",
-                "value": "charAt"
+                "value": "charAt",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -195,7 +201,9 @@ __ESTREE_TEST__:PASS:
                 "start": 90,
                 "end": 91,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -218,7 +226,9 @@ __ESTREE_TEST__:PASS:
                 "start": 80,
                 "end": 88,
                 "raw": "'charAt'",
-                "value": "charAt"
+                "value": "charAt",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,
@@ -258,7 +268,9 @@ __ESTREE_TEST__:PASS:
                 "start": 122,
                 "end": 131,
                 "raw": "'toFixed'",
-                "value": "toFixed"
+                "value": "toFixed",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -281,7 +293,9 @@ __ESTREE_TEST__:PASS:
                 "start": 104,
                 "end": 120,
                 "raw": "'hasOwnProperty'",
-                "value": "hasOwnProperty"
+                "value": "hasOwnProperty",
+                "regex": null,
+                "bigint": null
               }
             },
             "optional": false,

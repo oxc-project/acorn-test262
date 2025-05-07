@@ -57,7 +57,9 @@
           "start": 367,
           "end": 368,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -101,7 +103,9 @@
           "start": 401,
           "end": 405,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -129,7 +133,9 @@
                   "start": 439,
                   "end": 522,
                   "value": "#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop === true",
-                  "raw": "'#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop === true'"
+                  "raw": "'#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -79,7 +79,9 @@
             "start": 935,
             "end": 936,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -159,7 +161,9 @@
                                 "start": 1001,
                                 "end": 1006,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -216,7 +220,9 @@
             "start": 1055,
             "end": 1062,
             "value": "throw",
-            "raw": "'throw'"
+            "raw": "'throw'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -270,7 +276,9 @@
                             "start": 1103,
                             "end": 1104,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -324,7 +332,9 @@
             "start": 1152,
             "end": 1160,
             "value": "return",
-            "raw": "'return'"
+            "raw": "'return'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -684,7 +694,9 @@
             "start": 1452,
             "end": 1492,
             "value": "`return` property not accessed eagerly",
-            "raw": "'`return` property not accessed eagerly'"
+            "raw": "'`return` property not accessed eagerly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -842,7 +854,9 @@
             "start": 1594,
             "end": 1598,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -931,14 +945,18 @@
             "start": 1663,
             "end": 1664,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1666,
             "end": 1709,
             "value": "iterator `throw` property is not accessed",
-            "raw": "'iterator `throw` property is not accessed'"
+            "raw": "'iterator `throw` property is not accessed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

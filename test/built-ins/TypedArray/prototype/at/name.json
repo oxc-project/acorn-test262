@@ -75,14 +75,18 @@
             "start": 474,
             "end": 484,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 549,
             "value": "The value of `typeof TypedArray.prototype.at` is \"function\"",
-            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'"
+            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,14 +170,18 @@
             "start": 604,
             "end": 608,
             "value": "at",
-            "raw": "'at'"
+            "raw": "'at'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 663,
             "value": "The value of TypedArray.prototype.at.name is \"at\"",
-            "raw": "'The value of TypedArray.prototype.at.name is \"at\"'"
+            "raw": "'The value of TypedArray.prototype.at.name is \"at\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -231,7 +239,9 @@
             "start": 708,
             "end": 714,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -256,7 +266,9 @@
                   "start": 732,
                   "end": 737,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -278,7 +290,9 @@
                   "start": 751,
                   "end": 756,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -300,7 +314,9 @@
                   "start": 774,
                   "end": 778,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -58,7 +60,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 39,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -209,7 +213,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -252,7 +258,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 39,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -404,7 +412,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 41,
         "raw": "\"some-library/foo\"",
-        "value": "some-library/foo"
+        "value": "some-library/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -54,7 +54,9 @@
                     "start": 267,
                     "end": 274,
                     "value": 123.456,
-                    "raw": "123.456"
+                    "raw": "123.456",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "property": {
@@ -75,7 +77,9 @@
             "start": 287,
             "end": 295,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

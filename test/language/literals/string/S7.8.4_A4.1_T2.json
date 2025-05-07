@@ -40,7 +40,9 @@
               "start": 310,
               "end": 316,
               "value": 39,
-              "raw": "0x0027"
+              "raw": "0x0027",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -51,7 +53,9 @@
           "start": 322,
           "end": 326,
           "value": "'",
-          "raw": "\"\\'\""
+          "raw": "\"\\'\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -79,7 +83,9 @@
                   "start": 355,
                   "end": 399,
                   "value": "#1: String.fromCharCode(0x0027) === \"\\'\"",
-                  "raw": "'#1: String.fromCharCode(0x0027) === \"\\\\\\'\"'"
+                  "raw": "'#1: String.fromCharCode(0x0027) === \"\\\\\\'\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -125,7 +131,9 @@
               "start": 439,
               "end": 445,
               "value": 34,
-              "raw": "0x0022"
+              "raw": "0x0022",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -136,7 +144,9 @@
           "start": 451,
           "end": 455,
           "value": "\"",
-          "raw": "'\\\"'"
+          "raw": "'\\\"'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -164,7 +174,9 @@
                   "start": 484,
                   "end": 530,
                   "value": "#2: String.fromCharCode(0x0027) === '\\\"'",
-                  "raw": "'#2: String.fromCharCode(0x0027) === \\'\\\\\\\"\\''"
+                  "raw": "'#2: String.fromCharCode(0x0027) === \\'\\\\\\\"\\''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -210,7 +222,9 @@
               "start": 570,
               "end": 576,
               "value": 92,
-              "raw": "0x005C"
+              "raw": "0x005C",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -221,7 +235,9 @@
           "start": 582,
           "end": 586,
           "value": "\\",
-          "raw": "\"\\\\\""
+          "raw": "\"\\\\\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -249,7 +265,9 @@
                   "start": 615,
                   "end": 658,
                   "value": "#3: String.fromCharCode(0x005C) === \"\\\"",
-                  "raw": "'#3: String.fromCharCode(0x005C) === \"\\\\\\\"'"
+                  "raw": "'#3: String.fromCharCode(0x005C) === \"\\\\\\\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -271,7 +289,9 @@
           "start": 678,
           "end": 682,
           "value": "'",
-          "raw": "\"\\'\""
+          "raw": "\"\\'\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -279,7 +299,9 @@
           "start": 687,
           "end": 690,
           "value": "'",
-          "raw": "\"'\""
+          "raw": "\"'\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -307,7 +329,9 @@
                   "start": 719,
                   "end": 740,
                   "value": "#4: \"'\" === \"\\'\"",
-                  "raw": "'#4: \"\\'\" === \"\\\\\\'\"'"
+                  "raw": "'#4: \"\\'\" === \"\\\\\\'\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -329,7 +353,9 @@
           "start": 760,
           "end": 764,
           "value": "\"",
-          "raw": "'\\\"'"
+          "raw": "'\\\"'",
+          "regex": null,
+          "bigint": null
         },
         "operator": "!==",
         "right": {
@@ -337,7 +363,9 @@
           "start": 769,
           "end": 772,
           "value": "\"",
-          "raw": "'\"'"
+          "raw": "'\"'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -365,7 +393,9 @@
                   "start": 801,
                   "end": 826,
                   "value": "#5: '\"' === '\\\"'",
-                  "raw": "'#5: \\'\\\"\\' === \\'\\\\\\\"\\''"
+                  "raw": "'#5: \\'\\\"\\' === \\'\\\\\\\"\\''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

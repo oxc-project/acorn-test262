@@ -31,14 +31,18 @@
                 "start": 373,
                 "end": 374,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 376,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -73,7 +77,9 @@
           "start": 411,
           "end": 419,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -105,7 +111,9 @@
                     "start": 448,
                     "end": 511,
                     "value": "#1: var array = [,,,1,2]; typeof array === \"object\". Actual: ",
-                    "raw": "'#1: var array = [,,,1,2]; typeof array === \"object\". Actual: '"
+                    "raw": "'#1: var array = [,,,1,2]; typeof array === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +174,9 @@
           "start": 575,
           "end": 579,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -194,7 +204,9 @@
                   "start": 608,
                   "end": 667,
                   "value": "#2: var array = [,,,1,2]; array instanceof Array === true",
-                  "raw": "'#2: var array = [,,,1,2]; array instanceof Array === true'"
+                  "raw": "'#2: var array = [,,,1,2]; array instanceof Array === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -293,7 +305,9 @@
                     "start": 759,
                     "end": 840,
                     "value": "#3: var array = [,,,1,2]; array.toString === Array.prototype.toString. Actual: ",
-                    "raw": "'#3: var array = [,,,1,2]; array.toString === Array.prototype.toString. Actual: '"
+                    "raw": "'#3: var array = [,,,1,2]; array.toString === Array.prototype.toString. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -361,7 +375,9 @@
           "start": 896,
           "end": 897,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -393,7 +409,9 @@
                     "start": 926,
                     "end": 982,
                     "value": "#4: var array = [,,,1,2]; array.length === 5. Actual: ",
-                    "raw": "'#4: var array = [,,,1,2]; array.length === 5. Actual: '"
+                    "raw": "'#4: var array = [,,,1,2]; array.length === 5. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -451,7 +469,9 @@
             "start": 1025,
             "end": 1026,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -493,7 +513,9 @@
                     "start": 1070,
                     "end": 1130,
                     "value": "#5: var array = [,,,1,2]; array[0] === undefined. Actual: ",
-                    "raw": "'#5: var array = [,,,1,2]; array[0] === undefined. Actual: '"
+                    "raw": "'#5: var array = [,,,1,2]; array[0] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -515,7 +537,9 @@
                         "start": 1140,
                         "end": 1141,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -552,7 +576,9 @@
             "start": 1169,
             "end": 1170,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -594,7 +620,9 @@
                     "start": 1214,
                     "end": 1274,
                     "value": "#6: var array = [,,,1,2]; array[1] === undefined. Actual: ",
-                    "raw": "'#6: var array = [,,,1,2]; array[1] === undefined. Actual: '"
+                    "raw": "'#6: var array = [,,,1,2]; array[1] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -616,7 +644,9 @@
                         "start": 1284,
                         "end": 1285,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -653,7 +683,9 @@
             "start": 1313,
             "end": 1314,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -695,7 +727,9 @@
                     "start": 1358,
                     "end": 1418,
                     "value": "#7: var array = [,,,1,2]; array[2] === undefined. Actual: ",
-                    "raw": "'#7: var array = [,,,1,2]; array[2] === undefined. Actual: '"
+                    "raw": "'#7: var array = [,,,1,2]; array[2] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -717,7 +751,9 @@
                         "start": 1428,
                         "end": 1429,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -754,7 +790,9 @@
             "start": 1457,
             "end": 1458,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -765,7 +803,9 @@
           "start": 1464,
           "end": 1465,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -797,7 +837,9 @@
                     "start": 1494,
                     "end": 1546,
                     "value": "#8: var array = [,,,1,2]; array[3] === 1. Actual: ",
-                    "raw": "'#8: var array = [,,,1,2]; array[3] === 1. Actual: '"
+                    "raw": "'#8: var array = [,,,1,2]; array[3] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -819,7 +861,9 @@
                         "start": 1556,
                         "end": 1557,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -856,7 +900,9 @@
             "start": 1585,
             "end": 1586,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -867,7 +913,9 @@
           "start": 1592,
           "end": 1593,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -899,7 +947,9 @@
                     "start": 1622,
                     "end": 1674,
                     "value": "#9: var array = [,,,1,2]; array[4] === 2. Actual: ",
-                    "raw": "'#9: var array = [,,,1,2]; array[4] === 2. Actual: '"
+                    "raw": "'#9: var array = [,,,1,2]; array[4] === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -921,7 +971,9 @@
                         "start": 1684,
                         "end": 1685,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

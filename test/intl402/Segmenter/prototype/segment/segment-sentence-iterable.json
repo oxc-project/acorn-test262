@@ -71,7 +71,9 @@
                       "start": 497,
                       "end": 507,
                       "value": "sentence",
-                      "raw": "\"sentence\""
+                      "raw": "\"sentence\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -118,112 +120,144 @@
             "start": 535,
             "end": 549,
             "value": "Hello world!",
-            "raw": "\"Hello world!\""
+            "raw": "\"Hello world!\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 566,
             "end": 582,
             "value": " Hello world! ",
-            "raw": "\" Hello world! \""
+            "raw": "\" Hello world! \"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 648,
             "value": " Hello world? Foo bar!",
-            "raw": "\" Hello world? Foo bar!\""
+            "raw": "\" Hello world? Foo bar!\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 720,
             "value": "Jedovatou mambu objevila žena v zahrádkářské kolonii.",
-            "raw": "\"Jedovatou mambu objevila žena v zahrádkářské kolonii.\""
+            "raw": "\"Jedovatou mambu objevila žena v zahrádkářské kolonii.\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 735,
             "end": 779,
             "value": "Việt Nam: Nhất thể hóa sẽ khác Trung Quốc?",
-            "raw": "\"Việt Nam: Nhất thể hóa sẽ khác Trung Quốc?\""
+            "raw": "\"Việt Nam: Nhất thể hóa sẽ khác Trung Quốc?\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 800,
             "end": 862,
             "value": "Σοβαρές ενστάσεις Κομισιόν για τον προϋπολογισμό της Ιταλίας",
-            "raw": "\"Σοβαρές ενστάσεις Κομισιόν για τον προϋπολογισμό της Ιταλίας\""
+            "raw": "\"Σοβαρές ενστάσεις Κομισιόν για τον προϋπολογισμό της Ιταλίας\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 877,
             "end": 943,
             "value": "Решение Индии о покупке российских С-400 расценили как вызов США",
-            "raw": "\"Решение Индии о покупке российских С-400 расценили как вызов США\""
+            "raw": "\"Решение Индии о покупке российских С-400 расценили как вызов США\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 961,
             "end": 996,
             "value": "הרופא שהציל נשים והנערה ששועבדה ע",
-            "raw": "\"הרופא שהציל נשים והנערה ששועבדה ע\""
+            "raw": "\"הרופא שהציל נשים והנערה ששועבדה ע\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1014,
             "end": 1067,
             "value": "ترامب للملك سلمان: أنا جاد للغاية.. عليك دفع المزيد",
-            "raw": "\"ترامب للملك سلمان: أنا جاد للغاية.. عليك دفع المزيد\""
+            "raw": "\"ترامب للملك سلمان: أنا جاد للغاية.. عليك دفع المزيد\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1083,
             "end": 1152,
             "value": "भारत की एस 400 मिसाइल के मुकाबले पाक की थाड, जानें कौन कितना ताकतवर",
-            "raw": "\"भारत की एस 400 मिसाइल के मुकाबले पाक की थाड, जानें कौन कितना ताकतवर\""
+            "raw": "\"भारत की एस 400 मिसाइल के मुकाबले पाक की थाड, जानें कौन कितना ताकतवर\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1169,
             "end": 1229,
             "value": "ரெட் அலர்ட் எச்சரிக்கை; புதுச்சேரியில் நாளை அரசு விடுமுறை!",
-            "raw": "\"ரெட் அலர்ட் எச்சரிக்கை; புதுச்சேரியில் நாளை அரசு விடுமுறை!\""
+            "raw": "\"ரெட் அலர்ட் எச்சரிக்கை; புதுச்சேரியில் நாளை அரசு விடுமுறை!\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1244,
             "end": 1311,
             "value": "'ఉత్తర్వులు అందే వరకు ఓటర్ల తుది జాబితాను వెబ్‌సైట్లో పెట్టవద్దు'",
-            "raw": "\"'ఉత్తర్వులు అందే వరకు ఓటర్ల తుది జాబితాను వెబ్‌సైట్లో పెట్టవద్దు'\""
+            "raw": "\"'ఉత్తర్వులు అందే వరకు ఓటర్ల తుది జాబితాను వెబ్‌సైట్లో పెట్టవద్దు'\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1327,
             "end": 1356,
             "value": "台北》抹黑柯P失敗？朱學恒酸：姚文智氣pupu嗆大老闆",
-            "raw": "\"台北》抹黑柯P失敗？朱學恒酸：姚文智氣pupu嗆大老闆\""
+            "raw": "\"台北》抹黑柯P失敗？朱學恒酸：姚文智氣pupu嗆大老闆\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1373,
             "end": 1443,
             "value": "วัดไทรตีระฆังเบาลงช่วงเข้าพรรษา เจ้าอาวาสเผยคนร้องเรียนรับผลกรรมแล้ว",
-            "raw": "\"วัดไทรตีระฆังเบาลงช่วงเข้าพรรษา เจ้าอาวาสเผยคนร้องเรียนรับผลกรรมแล้ว\""
+            "raw": "\"วัดไทรตีระฆังเบาลงช่วงเข้าพรรษา เจ้าอาวาสเผยคนร้องเรียนรับผลกรรมแล้ว\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1458,
             "end": 1514,
             "value": "九州北部の一部が暴風域に入りました(日直予報士 2018年10月06日) - 日本気象協会 tenki.jp",
-            "raw": "\"九州北部の一部が暴風域に入りました(日直予報士 2018年10月06日) - 日本気象協会 tenki.jp\""
+            "raw": "\"九州北部の一部が暴風域に入りました(日直予報士 2018年10月06日) - 日本気象協会 tenki.jp\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1533,
             "end": 1563,
             "value": "법원 “다스 지분 처분권·수익권 모두 MB가 보유”",
-            "raw": "\"법원 “다스 지분 처분권·수익권 모두 MB가 보유”\""
+            "raw": "\"법원 “다스 지분 처분권·수익권 모두 MB가 보유”\"",
+            "regex": null,
+            "bigint": null
           }
         ]
       },
@@ -353,7 +387,9 @@
                         "start": 1665,
                         "end": 1673,
                         "value": "string",
-                        "raw": "\"string\""
+                        "raw": "\"string\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "UnaryExpression",
@@ -418,7 +454,9 @@
                         "start": 1715,
                         "end": 1719,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -462,7 +500,9 @@
                           "start": 1740,
                           "end": 1741,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -470,7 +510,9 @@
                         "start": 1743,
                         "end": 1755,
                         "value": "length > 0",
-                        "raw": "\"length > 0\""
+                        "raw": "\"length > 0\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -509,7 +551,9 @@
                         "start": 1780,
                         "end": 1788,
                         "value": "number",
-                        "raw": "\"number\""
+                        "raw": "\"number\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "UnaryExpression",
@@ -574,7 +618,9 @@
                         "start": 1828,
                         "end": 1832,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -605,7 +651,9 @@
                           "start": 1845,
                           "end": 1846,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -613,7 +661,9 @@
                         "start": 1848,
                         "end": 1860,
                         "value": "index >= 0",
-                        "raw": "\"index >= 0\""
+                        "raw": "\"index >= 0\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -652,7 +702,9 @@
                         "start": 1884,
                         "end": 1888,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -703,7 +755,9 @@
                         "start": 1913,
                         "end": 1935,
                         "value": "index < input.length",
-                        "raw": "\"index < input.length\""
+                        "raw": "\"index < input.length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -742,7 +796,9 @@
                         "start": 1960,
                         "end": 1968,
                         "value": "string",
-                        "raw": "\"string\""
+                        "raw": "\"string\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "UnaryExpression",
@@ -921,7 +977,9 @@
                         "start": 2093,
                         "end": 2098,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -952,7 +1010,9 @@
                             "start": 2117,
                             "end": 2129,
                             "value": "isWordLike",
-                            "raw": "\"isWordLike\""
+                            "raw": "\"isWordLike\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -1186,21 +1246,27 @@
                             "start": 2272,
                             "end": 2281,
                             "value": "segment",
-                            "raw": "\"segment\""
+                            "raw": "\"segment\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2283,
                             "end": 2290,
                             "value": "index",
-                            "raw": "\"index\""
+                            "raw": "\"index\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2292,
                             "end": 2299,
                             "value": "input",
-                            "raw": "\"input\""
+                            "raw": "\"input\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -1325,7 +1391,9 @@
                       "start": 2377,
                       "end": 2379,
                       "value": "",
-                      "raw": "''"
+                      "raw": "''",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

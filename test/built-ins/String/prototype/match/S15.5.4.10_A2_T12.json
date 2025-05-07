@@ -28,7 +28,9 @@
                 "start": 339,
                 "end": 346,
                 "value": "02134",
-                "raw": "\"02134\""
+                "raw": "\"02134\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -56,7 +58,9 @@
             "start": 365,
             "end": 383,
             "value": "Boston, MA 02134",
-            "raw": "\"Boston, MA 02134\""
+            "raw": "\"Boston, MA 02134\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +90,8 @@
             "regex": {
               "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -196,7 +201,9 @@
                     "start": 599,
                     "end": 662,
                     "value": "#1: __string.match(__re).length=== __matches.length. Actual: ",
-                    "raw": "'#1: __string.match(__re).length=== __matches.length. Actual: '"
+                    "raw": "'#1: __string.match(__re).length=== __matches.length. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -303,7 +310,9 @@
             "start": 894,
             "end": 895,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -324,7 +333,9 @@
             "start": 911,
             "end": 912,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -359,7 +370,9 @@
                     "start": 942,
                     "end": 996,
                     "value": "#2: __string.match(__re)[0]===__matches[0]. Actual: ",
-                    "raw": "'#2: __string.match(__re)[0]===__matches[0]. Actual: '"
+                    "raw": "'#2: __string.match(__re)[0]===__matches[0]. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -404,7 +417,9 @@
                       "start": 1020,
                       "end": 1021,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

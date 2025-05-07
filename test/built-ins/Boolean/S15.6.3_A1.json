@@ -47,7 +47,9 @@
                 "start": 322,
                 "end": 333,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 336,
             "end": 390,
             "value": "Boolean.hasOwnProperty(\"prototype\") must return true",
-            "raw": "'Boolean.hasOwnProperty(\"prototype\") must return true'"
+            "raw": "'Boolean.hasOwnProperty(\"prototype\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

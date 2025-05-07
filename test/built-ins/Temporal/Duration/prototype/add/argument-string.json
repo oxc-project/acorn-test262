@@ -78,7 +78,9 @@
                       "start": 328,
                       "end": 329,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 340,
                       "end": 341,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -157,7 +161,9 @@
                 "start": 374,
                 "end": 382,
                 "value": "P2DT5M",
-                "raw": "\"P2DT5M\""
+                "raw": "\"P2DT5M\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -205,77 +211,99 @@
             "start": 424,
             "end": 425,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 428,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 431,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 434,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 436,
             "end": 437,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 439,
             "end": 441,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 444,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 446,
             "end": 447,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 450,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 453,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 492,
             "value": "String argument should be supported",
-            "raw": "\"String argument should be supported\""
+            "raw": "\"String argument should be supported\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -353,7 +381,9 @@
                   "start": 540,
                   "end": 547,
                   "value": "2DT5M",
-                  "raw": "\"2DT5M\""
+                  "raw": "\"2DT5M\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -364,7 +394,9 @@
             "start": 550,
             "end": 588,
             "value": "Invalid string argument should throw",
-            "raw": "\"Invalid string argument should throw\""
+            "raw": "\"Invalid string argument should throw\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

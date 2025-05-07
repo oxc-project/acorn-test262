@@ -102,7 +102,9 @@ __ESTREE_TEST__:PASS:
                     "start": 88,
                     "end": 95,
                     "raw": "'testy'",
-                    "value": "testy"
+                    "value": "testy",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "objectType": {

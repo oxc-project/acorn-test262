@@ -48,7 +48,9 @@
             "start": 1603,
             "end": 1669,
             "value": "binding is initialized to `undefined` prior to module evaulation",
-            "raw": "'binding is initialized to `undefined` prior to module evaulation'"
+            "raw": "'binding is initialized to `undefined` prior to module evaulation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -122,7 +124,9 @@
                       "start": 1718,
                       "end": 1722,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -134,7 +138,9 @@
             "start": 1727,
             "end": 1755,
             "value": "binding rejects assignment",
-            "raw": "'binding rejects assignment'"
+            "raw": "'binding rejects assignment'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +191,9 @@
             "start": 1790,
             "end": 1818,
             "value": "binding value is immutable",
-            "raw": "'binding value is immutable'"
+            "raw": "'binding value is immutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,7 +227,9 @@
         "start": 1845,
         "end": 1873,
         "value": "./instn-named-bndng-var.js",
-        "raw": "'./instn-named-bndng-var.js'"
+        "raw": "'./instn-named-bndng-var.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -247,7 +257,9 @@
               "start": 1890,
               "end": 1892,
               "value": 23,
-              "raw": "23"
+              "raw": "23",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

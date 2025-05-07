@@ -158,7 +158,9 @@
                 "start": 423,
                 "end": 431,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -168,14 +170,18 @@
             "start": 434,
             "end": 439,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 526,
             "value": "Functions created using Function.prototype.bind() do not have own property \"caller\"",
-            "raw": "'Functions created using Function.prototype.bind() do not have own property \"caller\"'"
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"caller\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +244,9 @@
                 "start": 567,
                 "end": 578,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -248,14 +256,18 @@
             "start": 581,
             "end": 586,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 676,
             "value": "Functions created using Function.prototype.bind() do not have own property \"arguments\"",
-            "raw": "'Functions created using Function.prototype.bind() do not have own property \"arguments\"'"
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"arguments\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

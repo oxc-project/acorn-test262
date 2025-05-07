@@ -153,7 +153,9 @@
                 "start": 479,
                 "end": 484,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -169,7 +171,9 @@
             "start": 492,
             "end": 497,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +220,9 @@
                 "start": 518,
                 "end": 526,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -232,7 +238,9 @@
             "start": 534,
             "end": 538,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

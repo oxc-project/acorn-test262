@@ -78,7 +78,9 @@
                       "start": 342,
                       "end": 350,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 363,
                       "end": 368,
                       "value": "M11",
-                      "raw": "\"M11\""
+                      "raw": "\"M11\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 375,
                       "end": 376,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -197,7 +203,9 @@
                       "start": 433,
                       "end": 438,
                       "value": "M10",
-                      "raw": "\"M10\""
+                      "raw": "\"M10\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -262,14 +270,18 @@
             "start": 487,
             "end": 492,
             "value": "M10",
-            "raw": "\"M10\""
+            "raw": "\"M10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 517,
             "value": "month code is changed",
-            "raw": "\"month code is changed\""
+            "raw": "\"month code is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,14 +339,18 @@
             "start": 558,
             "end": 559,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 561,
             "end": 581,
             "value": "day is not changed",
-            "raw": "\"day is not changed\""
+            "raw": "\"day is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -402,7 +418,9 @@
                       "start": 624,
                       "end": 626,
                       "value": 24,
-                      "raw": "24"
+                      "raw": "24",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -467,14 +485,18 @@
             "start": 669,
             "end": 674,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 676,
             "end": 703,
             "value": "month code is not changed",
-            "raw": "\"month code is not changed\""
+            "raw": "\"month code is not changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -532,14 +554,18 @@
             "start": 738,
             "end": 740,
             "value": 24,
-            "raw": "24"
+            "raw": "24",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 758,
             "value": "day is changed",
-            "raw": "\"day is changed\""
+            "raw": "\"day is changed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

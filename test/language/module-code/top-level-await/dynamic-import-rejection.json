@@ -32,7 +32,9 @@
                   "start": 1882,
                   "end": 1920,
                   "value": "./module-import-rejection_FIXTURE.js",
-                  "raw": "'./module-import-rejection_FIXTURE.js'"
+                  "raw": "'./module-import-rejection_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": null
               },
@@ -80,7 +82,9 @@
                             "start": 1960,
                             "end": 1985,
                             "value": "Should not be fulfilled",
-                            "raw": "'Should not be fulfilled'"
+                            "raw": "'Should not be fulfilled'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -255,7 +259,9 @@
                             "start": 2118,
                             "end": 2152,
                             "value": "error in the default export line",
-                            "raw": "'error in the default export line'"
+                            "raw": "'error in the default export line'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

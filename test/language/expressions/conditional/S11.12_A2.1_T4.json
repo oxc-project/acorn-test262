@@ -25,14 +25,18 @@
                 "start": 319,
                 "end": 324,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "Literal",
                 "start": 327,
                 "end": 331,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "alternate": {
                 "type": "Identifier",
@@ -66,7 +70,9 @@
                     "start": 362,
                     "end": 417,
                     "value": "#1.1: false ? true : z throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: false ? true : z throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: false ? true : z throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -82,14 +88,18 @@
                         "start": 421,
                         "end": 426,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       "consequent": {
                         "type": "Literal",
                         "start": 429,
                         "end": 433,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "alternate": {
                         "type": "Identifier",
@@ -157,7 +167,9 @@
                   "start": 497,
                   "end": 501,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -189,7 +201,9 @@
                             "start": 532,
                             "end": 587,
                             "value": "#1.2: false ? true : z throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: false ? true : z throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: false ? true : z throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

@@ -58,7 +58,9 @@
                           "start": 1096,
                           "end": 1109,
                           "value": "name method",
-                          "raw": "'name method'"
+                          "raw": "'name method'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -92,7 +94,9 @@
         "start": 1131,
         "end": 1173,
         "value": "./eval-export-dflt-expr-cls-name-meth.js",
-        "raw": "'./eval-export-dflt-expr-cls-name-meth.js'"
+        "raw": "'./eval-export-dflt-expr-cls-name-meth.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -155,14 +159,18 @@
             "start": 1206,
             "end": 1219,
             "value": "name method",
-            "raw": "'name method'"
+            "raw": "'name method'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1221,
             "end": 1258,
             "value": "`name` property is not over-written",
-            "raw": "'`name` property is not over-written'"
+            "raw": "'`name` property is not over-written'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

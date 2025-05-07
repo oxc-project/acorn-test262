@@ -101,7 +101,9 @@ __ESTREE_TEST__:PASS:
         "start": 45,
         "end": 55,
         "raw": "\"./source\"",
-        "value": "./source"
+        "value": "./source",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

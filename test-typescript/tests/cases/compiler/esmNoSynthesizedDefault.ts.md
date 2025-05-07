@@ -68,7 +68,9 @@ __ESTREE_TEST__:PASS:
         "start": 32,
         "end": 54,
         "raw": "'mdast-util-to-string'",
-        "value": "mdast-util-to-string"
+        "value": "mdast-util-to-string",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -198,7 +200,9 @@ __ESTREE_TEST__:PASS:
                 "start": 110,
                 "end": 132,
                 "raw": "'mdast-util-to-string'",
-                "value": "mdast-util-to-string"
+                "value": "mdast-util-to-string",
+                "regex": null,
+                "bigint": null
               }
             }
           }

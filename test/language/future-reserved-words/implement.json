@@ -23,7 +23,9 @@
             "start": 253,
             "end": 254,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,14 +70,18 @@
             "start": 285,
             "end": 286,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 288,
             "end": 299,
             "value": "implement",
-            "raw": "'implement'"
+            "raw": "'implement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

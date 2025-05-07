@@ -34,7 +34,9 @@
                 "start": 332,
                 "end": 337,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -347,7 +349,9 @@
                   "start": 576,
                   "end": 594,
                   "value": "tempArray[index]",
-                  "raw": "'tempArray[index]'"
+                  "raw": "'tempArray[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

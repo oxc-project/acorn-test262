@@ -333,7 +333,9 @@
             "start": 1316,
             "end": 1322,
             "value": "xCls",
-            "raw": "'xCls'"
+            "raw": "'xCls'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -391,7 +393,9 @@
             "start": 1357,
             "end": 1364,
             "value": "xCls2",
-            "raw": "'xCls2'"
+            "raw": "'xCls2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,7 +427,9 @@
             "start": 1388,
             "end": 1394,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -448,7 +454,9 @@
                   "start": 1412,
                   "end": 1417,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -470,7 +478,9 @@
                   "start": 1431,
                   "end": 1436,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -492,7 +502,9 @@
                   "start": 1454,
                   "end": 1458,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -514,7 +526,9 @@
                   "start": 1469,
                   "end": 1474,
                   "value": "cls",
-                  "raw": "'cls'"
+                  "raw": "'cls'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

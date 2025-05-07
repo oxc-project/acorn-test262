@@ -76,6 +76,7 @@
                                 "end": 1224,
                                 "value": null,
                                 "raw": "40n",
+                                "regex": null,
                                 "bigint": "40"
                               }
                             ]
@@ -177,6 +178,7 @@
                                 "end": 1328,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               },
                               {
@@ -185,6 +187,7 @@
                                 "end": 1332,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               },
                               {
@@ -193,6 +196,7 @@
                                 "end": 1336,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               }
                             ]
@@ -448,7 +452,9 @@
                         "start": 1534,
                         "end": 1563,
                         "value": "returned another typedarray",
-                        "raw": "\"returned another typedarray\""
+                        "raw": "\"returned another typedarray\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -497,6 +503,7 @@
                                 "end": 1599,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               },
                               {
@@ -505,6 +512,7 @@
                                 "end": 1603,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               },
                               {
@@ -513,6 +521,7 @@
                                 "end": 1607,
                                 "value": null,
                                 "raw": "1n",
+                                "regex": null,
                                 "bigint": "1"
                               }
                             ]
@@ -525,7 +534,9 @@
                         "start": 1611,
                         "end": 1645,
                         "value": "the returned object is preserved",
-                        "raw": "\"the returned object is preserved\""
+                        "raw": "\"the returned object is preserved\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

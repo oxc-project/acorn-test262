@@ -47,35 +47,45 @@
                 "start": 326,
                 "end": 327,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 340,
                 "value": 24,
-                "raw": "24"
+                "raw": "24",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -103,7 +113,9 @@
             "start": 361,
             "end": 382,
             "value": "2016-12-31T23:59:60",
-            "raw": "\"2016-12-31T23:59:60\""
+            "raw": "\"2016-12-31T23:59:60\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -171,7 +183,9 @@
                       "start": 423,
                       "end": 429,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -244,14 +258,18 @@
             "start": 477,
             "end": 480,
             "value": 366,
-            "raw": "366"
+            "raw": "366",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 544,
             "value": "leap second is a valid ISO string for PlainDate relativeTo",
-            "raw": "\"leap second is a valid ISO string for PlainDate relativeTo\""
+            "raw": "\"leap second is a valid ISO string for PlainDate relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +295,9 @@
           "start": 562,
           "end": 594,
           "value": "2016-12-31T23:59:60+00:00[UTC]",
-          "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+          "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -343,7 +363,9 @@
                       "start": 635,
                       "end": 641,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -416,14 +438,18 @@
             "start": 689,
             "end": 692,
             "value": 366,
-            "raw": "366"
+            "raw": "366",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 760,
             "value": "leap second is a valid ISO string for ZonedDateTime relativeTo",
-            "raw": "\"leap second is a valid ISO string for ZonedDateTime relativeTo\""
+            "raw": "\"leap second is a valid ISO string for ZonedDateTime relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -467,7 +493,9 @@
                 "start": 786,
                 "end": 790,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -489,7 +517,9 @@
                 "start": 799,
                 "end": 801,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -511,7 +541,9 @@
                 "start": 808,
                 "end": 810,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -533,7 +565,9 @@
                 "start": 818,
                 "end": 820,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -555,7 +589,9 @@
                 "start": 830,
                 "end": 832,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -577,7 +613,9 @@
                 "start": 842,
                 "end": 844,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -647,7 +685,9 @@
                       "start": 887,
                       "end": 893,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -720,14 +760,18 @@
             "start": 941,
             "end": 944,
             "value": 366,
-            "raw": "366"
+            "raw": "366",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 948,
             "end": 1012,
             "value": "second: 60 is valid in a property bag for PlainDate relativeTo",
-            "raw": "\"second: 60 is valid in a property bag for PlainDate relativeTo\""
+            "raw": "\"second: 60 is valid in a property bag for PlainDate relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -771,7 +815,9 @@
                 "start": 1038,
                 "end": 1042,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -793,7 +839,9 @@
                 "start": 1051,
                 "end": 1053,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -815,7 +863,9 @@
                 "start": 1060,
                 "end": 1062,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -837,7 +887,9 @@
                 "start": 1070,
                 "end": 1072,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -859,7 +911,9 @@
                 "start": 1082,
                 "end": 1084,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -881,7 +935,9 @@
                 "start": 1094,
                 "end": 1096,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -903,7 +959,9 @@
                 "start": 1108,
                 "end": 1113,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -973,7 +1031,9 @@
                       "start": 1156,
                       "end": 1162,
                       "value": "days",
-                      "raw": "\"days\""
+                      "raw": "\"days\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1046,14 +1106,18 @@
             "start": 1210,
             "end": 1213,
             "value": 366,
-            "raw": "366"
+            "raw": "366",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1217,
             "end": 1285,
             "value": "second: 60 is valid in a property bag for ZonedDateTime relativeTo",
-            "raw": "\"second: 60 is valid in a property bag for ZonedDateTime relativeTo\""
+            "raw": "\"second: 60 is valid in a property bag for ZonedDateTime relativeTo\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

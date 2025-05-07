@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 21,
               "end": 24,
               "raw": "123",
-              "value": 123
+              "value": 123,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -129,7 +131,9 @@ __ESTREE_TEST__:PASS:
                       "start": 51,
                       "end": 60,
                       "raw": "'./other'",
-                      "value": "./other"
+                      "value": "./other",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,
@@ -149,7 +153,9 @@ __ESTREE_TEST__:PASS:
               "start": 64,
               "end": 68,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
@@ -201,7 +207,9 @@ __ESTREE_TEST__:PASS:
                       "start": 115,
                       "end": 142,
                       "raw": "'../outside-of-rootdir/foo'",
-                      "value": "../outside-of-rootdir/foo"
+                      "value": "../outside-of-rootdir/foo",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -319,7 +327,9 @@ __ESTREE_TEST__:PASS:
                       "start": 194,
                       "end": 203,
                       "raw": "'./other'",
-                      "value": "./other"
+                      "value": "./other",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {

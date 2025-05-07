@@ -47,28 +47,36 @@
                 "start": 358,
                 "end": 362,
                 "value": 1989,
-                "raw": "1989"
+                "raw": "1989",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 365,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 368,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 380,
                 "value": "japanese",
-                "raw": "\"japanese\""
+                "raw": "\"japanese\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -138,7 +146,9 @@
                       "start": 421,
                       "end": 423,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -222,7 +232,9 @@
             "start": 475,
             "end": 526,
             "value": "resulting day should have crossed an era boundary",
-            "raw": "\"resulting day should have crossed an era boundary\""
+            "raw": "\"resulting day should have crossed an era boundary\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +302,9 @@
                       "start": 569,
                       "end": 570,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -374,7 +388,9 @@
             "start": 622,
             "end": 675,
             "value": "resulting month should have crossed an era boundary",
-            "raw": "\"resulting month should have crossed an era boundary\""
+            "raw": "\"resulting month should have crossed an era boundary\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

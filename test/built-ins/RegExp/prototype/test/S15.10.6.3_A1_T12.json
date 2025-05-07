@@ -109,7 +109,8 @@
             "regex": {
               "pattern": "\\.14",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -219,7 +220,9 @@
               "start": 485,
               "end": 489,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -227,7 +230,9 @@
             "start": 493,
             "end": 585,
             "value": "__re.test({toString:function(){return Math.PI;}}) must return __re.exec(__string) !== null",
-            "raw": "'__re.test({toString:function(){return Math.PI;}}) must return __re.exec(__string) !== null'"
+            "raw": "'__re.test({toString:function(){return Math.PI;}}) must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

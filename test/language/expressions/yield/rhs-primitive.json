@@ -72,7 +72,9 @@
                   "start": 312,
                   "end": 313,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -118,7 +120,9 @@
                     "start": 341,
                     "end": 342,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -165,7 +169,9 @@
                     "start": 370,
                     "end": 371,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -212,7 +218,9 @@
                     "start": 398,
                     "end": 399,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -225,7 +233,9 @@
                     "start": 407,
                     "end": 408,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -275,7 +285,9 @@
                     "start": 436,
                     "end": 437,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -289,7 +301,9 @@
                   "start": 447,
                   "end": 448,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "alternate": {
@@ -302,7 +316,9 @@
                   "start": 457,
                   "end": 458,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -435,14 +451,18 @@
             "start": 529,
             "end": 530,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 574,
             "value": "Within grouping operator: result `value`",
-            "raw": "'Within grouping operator: result `value`'"
+            "raw": "'Within grouping operator: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -500,14 +520,18 @@
             "start": 610,
             "end": 615,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 617,
             "end": 663,
             "value": "Within grouping operator: result `done` flag",
-            "raw": "'Within grouping operator: result `done` flag'"
+            "raw": "'Within grouping operator: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -614,7 +638,9 @@
             "start": 734,
             "end": 779,
             "value": "Following grouping operator: result `value`",
-            "raw": "'Following grouping operator: result `value`'"
+            "raw": "'Following grouping operator: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -672,14 +698,18 @@
             "start": 816,
             "end": 820,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 822,
             "end": 871,
             "value": "Following grouping operator: result `done` flag",
-            "raw": "'Following grouping operator: result `done` flag'"
+            "raw": "'Following grouping operator: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -810,14 +840,18 @@
             "start": 942,
             "end": 943,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 945,
             "end": 983,
             "value": "Within array literal: result `value`",
-            "raw": "'Within array literal: result `value`'"
+            "raw": "'Within array literal: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -875,14 +909,18 @@
             "start": 1019,
             "end": 1024,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1026,
             "end": 1068,
             "value": "Within array literal: result `done` flag",
-            "raw": "'Within array literal: result `done` flag'"
+            "raw": "'Within array literal: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -989,7 +1027,9 @@
             "start": 1139,
             "end": 1180,
             "value": "Following array literal: result `value`",
-            "raw": "'Following array literal: result `value`'"
+            "raw": "'Following array literal: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1047,14 +1087,18 @@
             "start": 1217,
             "end": 1221,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1223,
             "end": 1268,
             "value": "Following array literal: result `done` flag",
-            "raw": "'Following array literal: result `done` flag'"
+            "raw": "'Following array literal: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1185,14 +1229,18 @@
             "start": 1339,
             "end": 1340,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1342,
             "end": 1381,
             "value": "Within object literal: result `value`",
-            "raw": "'Within object literal: result `value`'"
+            "raw": "'Within object literal: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1250,14 +1298,18 @@
             "start": 1417,
             "end": 1422,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1424,
             "end": 1467,
             "value": "Within object literal: result `done` flag",
-            "raw": "'Within object literal: result `done` flag'"
+            "raw": "'Within object literal: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1364,7 +1416,9 @@
             "start": 1538,
             "end": 1580,
             "value": "Following object literal: result `value`",
-            "raw": "'Following object literal: result `value`'"
+            "raw": "'Following object literal: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1422,14 +1476,18 @@
             "start": 1617,
             "end": 1621,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1623,
             "end": 1669,
             "value": "Following object literal: result `done` flag",
-            "raw": "'Following object literal: result `done` flag'"
+            "raw": "'Following object literal: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1560,14 +1618,18 @@
             "start": 1743,
             "end": 1744,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1746,
             "end": 1800,
             "value": "First expression in comma expression: result `value`",
-            "raw": "'First expression in comma expression: result `value`'"
+            "raw": "'First expression in comma expression: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1625,14 +1687,18 @@
             "start": 1839,
             "end": 1844,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1848,
             "end": 1906,
             "value": "First expression in comma expression: result `done` flag",
-            "raw": "'First expression in comma expression: result `done` flag'"
+            "raw": "'First expression in comma expression: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1733,14 +1799,18 @@
             "start": 1966,
             "end": 1967,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1969,
             "end": 2024,
             "value": "Second expression in comma expression: result `value`",
-            "raw": "'Second expression in comma expression: result `value`'"
+            "raw": "'Second expression in comma expression: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1798,14 +1868,18 @@
             "start": 2063,
             "end": 2068,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2072,
             "end": 2131,
             "value": "Second expression in comma expression: result `done` flag",
-            "raw": "'Second expression in comma expression: result `done` flag'"
+            "raw": "'Second expression in comma expression: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1912,7 +1986,9 @@
             "start": 2202,
             "end": 2246,
             "value": "Following comma expression: result `value`",
-            "raw": "'Following comma expression: result `value`'"
+            "raw": "'Following comma expression: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1970,14 +2046,18 @@
             "start": 2283,
             "end": 2287,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2289,
             "end": 2337,
             "value": "Following comma expression: result `done` flag",
-            "raw": "'Following comma expression: result `done` flag'"
+            "raw": "'Following comma expression: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2108,14 +2188,18 @@
             "start": 2413,
             "end": 2414,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2418,
             "end": 2482,
             "value": "Conditional expression in conditional operator: result `value`",
-            "raw": "'Conditional expression in conditional operator: result `value`'"
+            "raw": "'Conditional expression in conditional operator: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2173,14 +2257,18 @@
             "start": 2521,
             "end": 2526,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2530,
             "end": 2598,
             "value": "Conditional expression in conditional operator: result `done` flag",
-            "raw": "'Conditional expression in conditional operator: result `done` flag'"
+            "raw": "'Conditional expression in conditional operator: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2281,14 +2369,18 @@
             "start": 2660,
             "end": 2661,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2665,
             "end": 2713,
             "value": "Branch in conditional operator: result `value`",
-            "raw": "'Branch in conditional operator: result `value`'"
+            "raw": "'Branch in conditional operator: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2346,14 +2438,18 @@
             "start": 2752,
             "end": 2757,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2761,
             "end": 2813,
             "value": "Branch in conditional operator: result `done` flag",
-            "raw": "'Branch in conditional operator: result `done` flag'"
+            "raw": "'Branch in conditional operator: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2460,7 +2556,9 @@
             "start": 2884,
             "end": 2932,
             "value": "Following conditional operator: result `value`",
-            "raw": "'Following conditional operator: result `value`'"
+            "raw": "'Following conditional operator: result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2518,14 +2616,18 @@
             "start": 2969,
             "end": 2973,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2975,
             "end": 3027,
             "value": "Following conditional operator: result `done` flag",
-            "raw": "'Following conditional operator: result `done` flag'"
+            "raw": "'Following conditional operator: result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

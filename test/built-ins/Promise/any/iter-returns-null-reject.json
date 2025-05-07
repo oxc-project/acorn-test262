@@ -23,7 +23,9 @@
             "start": 614,
             "end": 615,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -145,7 +147,9 @@
                                   "start": 683,
                                   "end": 687,
                                   "value": null,
-                                  "raw": "null"
+                                  "raw": "null",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -202,7 +206,9 @@
                             "start": 717,
                             "end": 767,
                             "value": "The promise should be rejected, but was resolved",
-                            "raw": "'The promise should be rejected, but was resolved'"
+                            "raw": "'The promise should be rejected, but was resolved'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -271,14 +277,18 @@
                             "start": 816,
                             "end": 817,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 819,
                             "end": 836,
                             "value": "callCount === 1",
-                            "raw": "'callCount === 1'"
+                            "raw": "'callCount === 1'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

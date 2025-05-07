@@ -58,6 +58,7 @@
                         "end": 868,
                         "value": null,
                         "raw": "192_258_181_000_000_000n",
+                        "regex": null,
                         "bigint": "192258181000000000"
                       }
                     ]
@@ -67,7 +68,9 @@
                     "start": 871,
                     "end": 893,
                     "value": "1976-02-04T05:03:01Z",
-                    "raw": "\"1976-02-04T05:03:01Z\""
+                    "raw": "\"1976-02-04T05:03:01Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -106,6 +109,7 @@
                         "end": 922,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ]
@@ -115,7 +119,9 @@
                     "start": 925,
                     "end": 947,
                     "value": "1970-01-01T00:00:00Z",
-                    "raw": "\"1970-01-01T00:00:00Z\""
+                    "raw": "\"1970-01-01T00:00:00Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -154,6 +160,7 @@
                         "end": 989,
                         "value": null,
                         "raw": "30_000_000_000n",
+                        "regex": null,
                         "bigint": "30000000000"
                       }
                     ]
@@ -163,7 +170,9 @@
                     "start": 992,
                     "end": 1014,
                     "value": "1970-01-01T00:00:30Z",
-                    "raw": "\"1970-01-01T00:00:30Z\""
+                    "raw": "\"1970-01-01T00:00:30Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -202,6 +211,7 @@
                         "end": 1056,
                         "value": null,
                         "raw": "30_123_400_000n",
+                        "regex": null,
                         "bigint": "30123400000"
                       }
                     ]
@@ -211,7 +221,9 @@
                     "start": 1059,
                     "end": 1086,
                     "value": "1970-01-01T00:00:30.1234Z",
-                    "raw": "\"1970-01-01T00:00:30.1234Z\""
+                    "raw": "\"1970-01-01T00:00:30.1234Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -389,7 +401,9 @@
                   "start": 1251,
                   "end": 1324,
                   "value": "default fractionalSecondDigits is auto (property present but undefined)",
-                  "raw": "\"default fractionalSecondDigits is auto (property present but undefined)\""
+                  "raw": "\"default fractionalSecondDigits is auto (property present but undefined)\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -492,7 +506,9 @@
                   "start": 1408,
                   "end": 1471,
                   "value": "default fractionalSecondDigits is auto (property not present)",
-                  "raw": "\"default fractionalSecondDigits is auto (property not present)\""
+                  "raw": "\"default fractionalSecondDigits is auto (property not present)\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -605,7 +621,9 @@
                   "start": 1557,
                   "end": 1637,
                   "value": "default fractionalSecondDigits is auto (property not present, function object)",
-                  "raw": "\"default fractionalSecondDigits is auto (property not present, function object)\""
+                  "raw": "\"default fractionalSecondDigits is auto (property not present, function object)\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

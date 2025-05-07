@@ -67,7 +67,9 @@
             "start": 349,
             "end": 354,
             "value": "bar",
-            "raw": "\"bar\""
+            "raw": "\"bar\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -133,7 +135,9 @@
                             "start": 392,
                             "end": 396,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -146,7 +150,9 @@
                           "start": 405,
                           "end": 407,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -220,7 +226,9 @@
                             "start": 484,
                             "end": 488,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -354,7 +362,9 @@
                         "start": 588,
                         "end": 611,
                         "value": "o.foo does not exist!",
-                        "raw": "\"o.foo does not exist!\""
+                        "raw": "\"o.foo does not exist!\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -418,14 +428,18 @@
             "start": 648,
             "end": 652,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 654,
             "end": 667,
             "value": "o.barGetter",
-            "raw": "'o.barGetter'"
+            "raw": "'o.barGetter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -489,7 +503,9 @@
             "start": 711,
             "end": 724,
             "value": "o.barSetter",
-            "raw": "'o.barSetter'"
+            "raw": "'o.barSetter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

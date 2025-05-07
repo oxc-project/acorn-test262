@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "^(Sun|Mon|Tue|Wed|Thu|Fri|Sat), [0-9]{2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2} GMT$",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -96,7 +97,9 @@
                         "start": 583,
                         "end": 584,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -152,7 +155,9 @@
             "start": 622,
             "end": 626,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -197,7 +202,9 @@
             "start": 698,
             "end": 729,
             "value": "Wed, 01 Jan 0020 00:00:00 GMT",
-            "raw": "'Wed, 01 Jan 0020 00:00:00 GMT'"
+            "raw": "'Wed, 01 Jan 0020 00:00:00 GMT'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",
@@ -223,7 +230,9 @@
                     "start": 740,
                     "end": 762,
                     "value": "0020-01-01T00:00:00Z",
-                    "raw": "'0020-01-01T00:00:00Z'"
+                    "raw": "'0020-01-01T00:00:00Z'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },

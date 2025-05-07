@@ -97,7 +97,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 33,
         "raw": "'./three'",
-        "value": "./three"
+        "value": "./three",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

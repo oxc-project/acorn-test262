@@ -47,7 +47,9 @@
                 "start": 376,
                 "end": 380,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +89,9 @@
                 "start": 395,
                 "end": 408,
                 "value": "hello world",
-                "raw": "\"hello world\""
+                "raw": "\"hello world\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -135,14 +139,18 @@
             "start": 432,
             "end": 445,
             "value": "hello world",
-            "raw": "\"hello world\""
+            "raw": "\"hello world\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 450,
             "value": "s",
-            "raw": "'s'"
+            "raw": "'s'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

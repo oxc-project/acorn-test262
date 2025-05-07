@@ -47,28 +47,36 @@
                 "start": 271,
                 "end": 272,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 275,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 278,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 280,
                 "end": 281,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,35 +128,45 @@
                 "start": 322,
                 "end": 323,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 336,
                 "value": 24,
-                "raw": "24"
+                "raw": "24",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -241,14 +259,18 @@
             "start": 402,
             "end": 403,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 441,
             "value": "relativeTo not required for days",
-            "raw": "\"relativeTo not required for days\""
+            "raw": "\"relativeTo not required for days\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -391,7 +413,9 @@
                           "start": 545,
                           "end": 557,
                           "value": "2017-01-01",
-                          "raw": "\"2017-01-01\""
+                          "raw": "\"2017-01-01\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -408,14 +432,18 @@
             "start": 565,
             "end": 566,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 616,
             "value": "relativeTo does not affect days if PlainDate",
-            "raw": "\"relativeTo does not affect days if PlainDate\""
+            "raw": "\"relativeTo does not affect days if PlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +549,9 @@
                       "start": 693,
                       "end": 705,
                       "value": "2019-11-03",
-                      "raw": "\"2019-11-03\""
+                      "raw": "\"2019-11-03\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -535,14 +565,18 @@
             "start": 712,
             "end": 713,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 760,
             "value": "casts relativeTo to PlainDate from string",
-            "raw": "\"casts relativeTo to PlainDate from string\""
+            "raw": "\"casts relativeTo to PlainDate from string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -666,7 +700,9 @@
                             "start": 845,
                             "end": 849,
                             "value": 2019,
-                            "raw": "2019"
+                            "raw": "2019",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -688,7 +724,9 @@
                             "start": 858,
                             "end": 860,
                             "value": 11,
-                            "raw": "11"
+                            "raw": "11",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -710,7 +748,9 @@
                             "start": 867,
                             "end": 868,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -728,14 +768,18 @@
             "start": 877,
             "end": 878,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 882,
             "end": 925,
             "value": "casts relativeTo to PlainDate from object",
-            "raw": "\"casts relativeTo to PlainDate from object\""
+            "raw": "\"casts relativeTo to PlainDate from object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

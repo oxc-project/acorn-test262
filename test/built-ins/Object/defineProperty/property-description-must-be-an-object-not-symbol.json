@@ -90,7 +90,9 @@
                         "start": 742,
                         "end": 745,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",

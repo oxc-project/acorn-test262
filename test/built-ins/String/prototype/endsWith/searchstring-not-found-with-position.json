@@ -23,7 +23,9 @@
             "start": 878,
             "end": 899,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "raw": "'The future is cool!'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +88,9 @@
                 "start": 935,
                 "end": 945,
                 "value": "is cool!",
-                "raw": "'is cool!'"
+                "raw": "'is cool!'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "BinaryExpression",
@@ -117,7 +121,9 @@
                   "start": 960,
                   "end": 961,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -128,14 +134,18 @@
             "start": 964,
             "end": 969,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 973,
             "end": 1025,
             "value": "str.endsWith(\"is cool!\", str.length - 1) === false",
-            "raw": "'str.endsWith(\"is cool!\", str.length - 1) === false'"
+            "raw": "'str.endsWith(\"is cool!\", str.length - 1) === false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,14 +208,18 @@
                 "start": 1063,
                 "end": 1066,
                 "value": "!",
-                "raw": "'!'"
+                "raw": "'!'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1068,
                 "end": 1069,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -215,14 +229,18 @@
             "start": 1072,
             "end": 1077,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1081,
             "end": 1113,
             "value": "str.endsWith(\"!\", 1) === false",
-            "raw": "'str.endsWith(\"!\", 1) === false'"
+            "raw": "'str.endsWith(\"!\", 1) === false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

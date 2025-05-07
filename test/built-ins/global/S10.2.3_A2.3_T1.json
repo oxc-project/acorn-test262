@@ -59,7 +59,9 @@
                               "start": 299,
                               "end": 312,
                               "value": "//CHECK#1\n",
-                              "raw": "'//CHECK#1\\n'"
+                              "raw": "'//CHECK#1\\n'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -67,7 +69,9 @@
                               "start": 314,
                               "end": 339,
                               "value": "for (var x in this) {\n",
-                              "raw": "'for (var x in this) {\\n'"
+                              "raw": "'for (var x in this) {\\n'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -76,7 +80,9 @@
                             "start": 341,
                             "end": 369,
                             "value": "  if ( x === 'NaN' ) {\n",
-                            "raw": "'  if ( x === \\'NaN\\' ) {\\n'"
+                            "raw": "'  if ( x === \\'NaN\\' ) {\\n'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -85,7 +91,9 @@
                           "start": 371,
                           "end": 441,
                           "value": "    throw new Test262Error(\"#1: 'NaN' have attribute DontEnum\");\n",
-                          "raw": "'    throw new Test262Error(\"#1: \\'NaN\\' have attribute DontEnum\");\\n'"
+                          "raw": "'    throw new Test262Error(\"#1: \\'NaN\\' have attribute DontEnum\");\\n'",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "+",
@@ -94,7 +102,9 @@
                         "start": 443,
                         "end": 483,
                         "value": "  } else if ( x === 'Infinity' ) {\n",
-                        "raw": "'  } else if ( x === \\'Infinity\\' ) {\\n'"
+                        "raw": "'  } else if ( x === \\'Infinity\\' ) {\\n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -103,7 +113,9 @@
                       "start": 485,
                       "end": 560,
                       "value": "    throw new Test262Error(\"#1: 'Infinity' have attribute DontEnum\");\n",
-                      "raw": "'    throw new Test262Error(\"#1: \\'Infinity\\' have attribute DontEnum\");\\n'"
+                      "raw": "'    throw new Test262Error(\"#1: \\'Infinity\\' have attribute DontEnum\");\\n'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -112,7 +124,9 @@
                     "start": 562,
                     "end": 603,
                     "value": "  } else if ( x === 'undefined' ) {\n",
-                    "raw": "'  } else if ( x === \\'undefined\\' ) {\\n'"
+                    "raw": "'  } else if ( x === \\'undefined\\' ) {\\n'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -121,7 +135,9 @@
                   "start": 605,
                   "end": 681,
                   "value": "    throw new Test262Error(\"#1: 'undefined' have attribute DontEnum\");\n",
-                  "raw": "'    throw new Test262Error(\"#1: \\'undefined\\' have attribute DontEnum\");\\n'"
+                  "raw": "'    throw new Test262Error(\"#1: \\'undefined\\' have attribute DontEnum\");\\n'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -130,7 +146,9 @@
                 "start": 683,
                 "end": 690,
                 "value": "  }\n",
-                "raw": "'  }\\n'"
+                "raw": "'  }\\n'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -139,7 +157,9 @@
               "start": 692,
               "end": 697,
               "value": "}\n",
-              "raw": "'}\\n'"
+              "raw": "'}\\n'",
+              "regex": null,
+              "bigint": null
             }
           }
         }

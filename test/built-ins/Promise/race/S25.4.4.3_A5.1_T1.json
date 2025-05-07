@@ -125,7 +125,9 @@
                             "start": 276,
                             "end": 292,
                             "value": "Never settles.",
-                            "raw": "\"Never settles.\""
+                            "raw": "\"Never settles.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -167,7 +169,9 @@
                             "start": 336,
                             "end": 352,
                             "value": "Never settles.",
-                            "raw": "\"Never settles.\""
+                            "raw": "\"Never settles.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

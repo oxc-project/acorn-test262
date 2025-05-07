@@ -73,7 +73,9 @@
                 "start": 370,
                 "end": 386,
                 "value": "setUTCFullYear",
-                "raw": "\"setUTCFullYear\""
+                "raw": "\"setUTCFullYear\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 391,
             "end": 395,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 399,
             "end": 465,
             "value": "Date.prototype.hasOwnProperty(\"setUTCFullYear\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setUTCFullYear\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"setUTCFullYear\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

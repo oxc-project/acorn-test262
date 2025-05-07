@@ -71,7 +71,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 26,
         "raw": "\"./fs\"",
-        "value": "./fs"
+        "value": "./fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -117,7 +119,9 @@ __ESTREE_TEST__:PASS:
         "start": 48,
         "end": 54,
         "raw": "\"./fs\"",
-        "value": "./fs"
+        "value": "./fs",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -132,7 +136,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 78,
         "raw": "\"./fs\"",
-        "value": "./fs"
+        "value": "./fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -173,7 +179,9 @@ __ESTREE_TEST__:PASS:
         "start": 101,
         "end": 107,
         "raw": "\"./fs\"",
-        "value": "./fs"
+        "value": "./fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

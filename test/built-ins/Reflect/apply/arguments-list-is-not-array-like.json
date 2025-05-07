@@ -23,7 +23,9 @@
             "start": 609,
             "end": 610,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -156,7 +158,9 @@
                         "start": 699,
                         "end": 703,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -226,7 +230,9 @@
             "start": 773,
             "end": 876,
             "value": "`Reflect.apply(fn, null, {get length() {throw new Test262Error();}})` throws a Test262Error exception",
-            "raw": "'`Reflect.apply(fn, null, {get length() {throw new Test262Error();}})` throws a Test262Error exception'"
+            "raw": "'`Reflect.apply(fn, null, {get length() {throw new Test262Error();}})` throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +325,9 @@
                         "start": 933,
                         "end": 937,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -333,7 +341,9 @@
             "start": 955,
             "end": 1023,
             "value": "`Reflect.apply(fn, null /* empty */)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null /* empty */)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null /* empty */)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -426,7 +436,9 @@
                         "start": 1080,
                         "end": 1084,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -453,7 +465,9 @@
             "start": 1100,
             "end": 1166,
             "value": "`Reflect.apply(fn, null, Symbol())` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, Symbol())` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, Symbol())` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,14 +560,18 @@
                         "start": 1223,
                         "end": 1227,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1229,
                         "end": 1230,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -567,7 +585,9 @@
             "start": 1236,
             "end": 1295,
             "value": "`Reflect.apply(fn, null, 1)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, 1)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, 1)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -660,7 +680,9 @@
                         "start": 1352,
                         "end": 1356,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -680,7 +702,9 @@
             "start": 1372,
             "end": 1438,
             "value": "`Reflect.apply(fn, null, Infinity)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, Infinity)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, Infinity)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -773,14 +797,18 @@
                         "start": 1495,
                         "end": 1499,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1501,
                         "end": 1505,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -794,7 +822,9 @@
             "start": 1511,
             "end": 1573,
             "value": "`Reflect.apply(fn, null, null)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, null)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, null)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -887,7 +917,9 @@
                         "start": 1630,
                         "end": 1634,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -907,7 +939,9 @@
             "start": 1651,
             "end": 1718,
             "value": "`Reflect.apply(fn, null, undefined)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, undefined)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, undefined)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1000,14 +1034,18 @@
                         "start": 1775,
                         "end": 1779,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1781,
                         "end": 1786,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1021,7 +1059,9 @@
             "start": 1792,
             "end": 1855,
             "value": "`Reflect.apply(fn, null, false)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, false)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, false)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1114,14 +1154,18 @@
                         "start": 1912,
                         "end": 1916,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1918,
                         "end": 1922,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1135,7 +1179,9 @@
             "start": 1928,
             "end": 1990,
             "value": "`Reflect.apply(fn, null, true)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, true)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, true)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1228,7 +1274,9 @@
                         "start": 2047,
                         "end": 2051,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -1248,7 +1296,9 @@
             "start": 2062,
             "end": 2123,
             "value": "`Reflect.apply(fn, null, NaN)` throws a TypeError exception",
-            "raw": "'`Reflect.apply(fn, null, NaN)` throws a TypeError exception'"
+            "raw": "'`Reflect.apply(fn, null, NaN)` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1293,14 +1343,18 @@
             "start": 2152,
             "end": 2153,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2155,
             "end": 2182,
             "value": "The value of `count` is 0",
-            "raw": "'The value of `count` is 0'"
+            "raw": "'The value of `count` is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

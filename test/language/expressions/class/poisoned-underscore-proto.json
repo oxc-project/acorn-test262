@@ -55,7 +55,9 @@
             "start": 507,
             "end": 518,
             "value": "__proto__",
-            "raw": "'__proto__'"
+            "raw": "'__proto__'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -109,7 +111,9 @@
                               "start": 569,
                               "end": 591,
                               "value": "should not be called",
-                              "raw": "'should not be called'"
+                              "raw": "'should not be called'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -210,7 +214,9 @@
                   "start": 660,
                   "end": 661,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -228,7 +234,9 @@
             "start": 671,
             "end": 672,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

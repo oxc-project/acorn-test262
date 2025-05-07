@@ -53,7 +53,9 @@
                 "start": 513,
                 "end": 531,
                 "value": "MAX_SAFE_INTEGER",
-                "raw": "'MAX_SAFE_INTEGER'"
+                "raw": "'MAX_SAFE_INTEGER'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -120,7 +122,9 @@
             "start": 573,
             "end": 607,
             "value": "Does not define a `get` accessor",
-            "raw": "'Does not define a `get` accessor'"
+            "raw": "'Does not define a `get` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +188,9 @@
             "start": 648,
             "end": 682,
             "value": "Does not define a `set` accessor",
-            "raw": "'Does not define a `set` accessor'"
+            "raw": "'Does not define a `set` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -242,7 +248,9 @@
             "start": 714,
             "end": 730,
             "value": 9007199254740991,
-            "raw": "9007199254740991"
+            "raw": "9007199254740991",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,7 +282,9 @@
             "start": 762,
             "end": 780,
             "value": "MAX_SAFE_INTEGER",
-            "raw": "'MAX_SAFE_INTEGER'"
+            "raw": "'MAX_SAFE_INTEGER'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -306,7 +316,9 @@
             "start": 809,
             "end": 827,
             "value": "MAX_SAFE_INTEGER",
-            "raw": "'MAX_SAFE_INTEGER'"
+            "raw": "'MAX_SAFE_INTEGER'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -338,7 +350,9 @@
             "start": 860,
             "end": 878,
             "value": "MAX_SAFE_INTEGER",
-            "raw": "'MAX_SAFE_INTEGER'"
+            "raw": "'MAX_SAFE_INTEGER'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

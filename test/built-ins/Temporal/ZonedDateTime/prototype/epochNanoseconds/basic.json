@@ -48,6 +48,7 @@
                 "end": 349,
                 "value": null,
                 "raw": "217175010_123_456_789n",
+                "regex": null,
                 "bigint": "217175010123456789"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 351,
                 "end": 356,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -116,6 +119,7 @@
             "end": 427,
             "value": null,
             "raw": "217175010_123_456_789n",
+            "regex": null,
             "bigint": "217175010123456789"
           },
           {
@@ -123,7 +127,9 @@
             "start": 429,
             "end": 458,
             "value": "epochNanoseconds post epoch",
-            "raw": "\"epochNanoseconds post epoch\""
+            "raw": "\"epochNanoseconds post epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -188,14 +194,18 @@
             "start": 514,
             "end": 522,
             "value": "bigint",
-            "raw": "\"bigint\""
+            "raw": "\"bigint\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 524,
             "end": 560,
             "value": "epochNanoseconds value is a bigint",
-            "raw": "\"epochNanoseconds value is a bigint\""
+            "raw": "\"epochNanoseconds value is a bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -252,6 +262,7 @@
                   "end": 634,
                   "value": null,
                   "raw": "217175010_876_543_211n",
+                  "regex": null,
                   "bigint": "217175010876543211"
                 }
               },
@@ -260,7 +271,9 @@
                 "start": 636,
                 "end": 641,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -327,6 +340,7 @@
               "end": 714,
               "value": null,
               "raw": "217175010_876_543_211n",
+              "regex": null,
               "bigint": "217175010876543211"
             }
           },
@@ -335,7 +349,9 @@
             "start": 716,
             "end": 744,
             "value": "epochNanoseconds pre epoch",
-            "raw": "\"epochNanoseconds pre epoch\""
+            "raw": "\"epochNanoseconds pre epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,14 +416,18 @@
             "start": 801,
             "end": 809,
             "value": "bigint",
-            "raw": "\"bigint\""
+            "raw": "\"bigint\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 811,
             "end": 847,
             "value": "epochNanoseconds value is a bigint",
-            "raw": "\"epochNanoseconds value is a bigint\""
+            "raw": "\"epochNanoseconds value is a bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

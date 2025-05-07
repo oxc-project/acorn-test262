@@ -34,7 +34,9 @@
                 "start": 290,
                 "end": 294,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -145,7 +147,9 @@
                 "start": 452,
                 "end": 456,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -155,7 +159,9 @@
             "start": 458,
             "end": 459,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -166,7 +172,9 @@
           "start": 465,
           "end": 471,
           "value": "true",
-          "raw": "\"true\""
+          "raw": "\"true\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -198,7 +206,9 @@
                     "start": 500,
                     "end": 627,
                     "value": "#1: __instance = new Object(true); __instance.match = String.prototype.match;  __instance.match(true)[0] === \"true\". Actual: ",
-                    "raw": "'#1: __instance = new Object(true); __instance.match = String.prototype.match;  __instance.match(true)[0] === \"true\". Actual: '"
+                    "raw": "'#1: __instance = new Object(true); __instance.match = String.prototype.match;  __instance.match(true)[0] === \"true\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -234,7 +244,9 @@
                           "start": 647,
                           "end": 651,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -244,7 +256,9 @@
                       "start": 653,
                       "end": 654,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

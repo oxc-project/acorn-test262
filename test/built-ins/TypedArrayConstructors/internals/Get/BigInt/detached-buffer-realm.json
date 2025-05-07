@@ -179,7 +179,9 @@
                             "start": 1128,
                             "end": 1129,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -268,7 +270,9 @@
                           "start": 1192,
                           "end": 1193,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -284,7 +288,9 @@
                         "start": 1207,
                         "end": 1264,
                         "value": "The value of sample[0] is expected to equal `undefined`",
-                        "raw": "'The value of sample[0] is expected to equal `undefined`'"
+                        "raw": "'The value of sample[0] is expected to equal `undefined`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

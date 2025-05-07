@@ -23,7 +23,9 @@
             "start": 312,
             "end": 323,
             "value": "I'm there",
-            "raw": "\"I'm there\""
+            "raw": "\"I'm there\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 336,
             "end": 346,
             "value": "I'm here",
-            "raw": "\"I'm here\""
+            "raw": "\"I'm here\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -106,7 +110,9 @@
                     "start": 491,
                     "end": 538,
                     "value": "#1: __func === undefined. Actual:  __func ===",
-                    "raw": "'#1: __func === undefined. Actual:  __func ==='"
+                    "raw": "'#1: __func === undefined. Actual:  __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -132,7 +138,9 @@
         "start": 640,
         "end": 644,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "BlockStatement",
@@ -306,7 +314,9 @@
                     "start": 886,
                     "end": 932,
                     "value": "#2: __func() === HERE. Actual:  __func() ===",
-                    "raw": "'#2: __func() === HERE. Actual:  __func() ==='"
+                    "raw": "'#2: __func() === HERE. Actual:  __func() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

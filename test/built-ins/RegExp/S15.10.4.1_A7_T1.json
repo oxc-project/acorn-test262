@@ -80,7 +80,9 @@
           "start": 525,
           "end": 526,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -136,14 +138,18 @@
             "start": 562,
             "end": 563,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 614,
             "value": "The value of __re.indicator is expected to be 1",
-            "raw": "'The value of __re.indicator is expected to be 1'"
+            "raw": "'The value of __re.indicator is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

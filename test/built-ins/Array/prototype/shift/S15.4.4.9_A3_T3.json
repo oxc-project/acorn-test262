@@ -114,7 +114,9 @@
             "start": 317,
             "end": 318,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -124,7 +126,9 @@
           "start": 322,
           "end": 325,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -152,7 +156,9 @@
             "start": 331,
             "end": 332,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -162,7 +168,9 @@
           "start": 336,
           "end": 339,
           "value": "y",
-          "raw": "\"y\""
+          "raw": "\"y\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -205,7 +213,9 @@
             "start": 355,
             "end": 365,
             "value": 4294967294,
-            "raw": "4294967294"
+            "raw": "4294967294",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -306,7 +316,9 @@
                     "start": 445,
                     "end": 589,
                     "value": "#1: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift() === undefined. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift() === undefined. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift() === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -361,7 +373,9 @@
           "start": 624,
           "end": 625,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -393,7 +407,9 @@
                     "start": 654,
                     "end": 802,
                     "value": "#2: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj.length === 0. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj.length === 0. Actual: '"
+                    "raw": "'#2: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -451,7 +467,9 @@
             "start": 831,
             "end": 832,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -462,7 +480,9 @@
           "start": 838,
           "end": 841,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -494,7 +514,9 @@
                     "start": 870,
                     "end": 1016,
                     "value": "#3: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj[0] === \"x\". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj[0] === \"x\". Actual: '"
+                    "raw": "'#3: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\"; obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj[0] === \"x\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -516,7 +538,9 @@
                         "start": 1024,
                         "end": 1025,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -553,7 +577,9 @@
             "start": 1041,
             "end": 1042,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -564,7 +590,9 @@
           "start": 1048,
           "end": 1051,
           "value": "y",
-          "raw": "\"y\""
+          "raw": "\"y\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -596,7 +624,9 @@
                     "start": 1080,
                     "end": 1225,
                     "value": "#4: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\" obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj[1] === \"y\". Actual: ",
-                    "raw": "'#4: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\" obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj[1] === \"y\". Actual: '"
+                    "raw": "'#4: var obj = {}; obj.shift = Array.prototype.shift; obj[0] = \"x\" obj[1] = \"y\"; obj.length = -4294967294; obj.shift(); obj[1] === \"y\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -618,7 +648,9 @@
                         "start": 1233,
                         "end": 1234,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

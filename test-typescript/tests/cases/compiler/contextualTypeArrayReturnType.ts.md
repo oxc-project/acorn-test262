@@ -324,7 +324,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 316,
                                     "end": 320,
                                     "raw": "'ry'",
-                                    "value": "ry"
+                                    "value": "ry",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -335,7 +337,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 322,
                                     "end": 326,
                                     "raw": "null",
-                                    "value": null
+                                    "value": null,
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]

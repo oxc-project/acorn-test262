@@ -86,7 +86,9 @@
                 "start": 362,
                 "end": 363,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -130,7 +132,9 @@
               "start": 407,
               "end": 412,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -168,7 +172,9 @@
                   "start": 431,
                   "end": 432,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -196,7 +202,9 @@
                   "start": 452,
                   "end": 455,
                   "value": 100,
-                  "raw": "100"
+                  "raw": "100",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -333,7 +341,9 @@
               "start": 541,
               "end": 542,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -343,14 +353,18 @@
             "start": 545,
             "end": 549,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 551,
             "end": 562,
             "value": "newArr[5]",
-            "raw": "'newArr[5]'"
+            "raw": "'newArr[5]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

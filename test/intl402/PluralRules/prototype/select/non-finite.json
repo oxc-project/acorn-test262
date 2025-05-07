@@ -213,7 +213,9 @@
                         "start": 577,
                         "end": 584,
                         "value": "other",
-                        "raw": "\"other\""
+                        "raw": "\"other\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

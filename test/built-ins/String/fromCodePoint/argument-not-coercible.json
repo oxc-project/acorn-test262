@@ -67,7 +67,9 @@
             "start": 685,
             "end": 691,
             "value": "item",
-            "raw": "'item'"
+            "raw": "'item'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -353,7 +355,9 @@
                         "start": 959,
                         "end": 961,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

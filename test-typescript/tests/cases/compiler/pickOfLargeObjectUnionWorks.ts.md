@@ -2174,7 +2174,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1433,
                         "end": 1437,
                         "raw": "'id'",
-                        "value": "id"
+                        "value": "id",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -2219,7 +2221,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1446,
                   "end": 1450,
                   "raw": "'id'",
-                  "value": "id"
+                  "value": "id",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

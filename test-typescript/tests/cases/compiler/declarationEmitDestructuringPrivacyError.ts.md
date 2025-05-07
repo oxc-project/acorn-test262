@@ -103,7 +103,9 @@ __ESTREE_TEST__:PASS:
                         "start": 59,
                         "end": 61,
                         "raw": "10",
-                        "value": 10
+                        "value": 10,
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "NewExpression",
@@ -126,7 +128,9 @@ __ESTREE_TEST__:PASS:
                         "start": 72,
                         "end": 74,
                         "raw": "30",
-                        "value": 30
+                        "value": 30,
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

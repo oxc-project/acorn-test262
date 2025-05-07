@@ -43,7 +43,9 @@
         "start": 1031,
         "end": 1077,
         "value": "./instn-star-err-not-found-faulty_FIXTURE.js",
-        "raw": "'./instn-star-err-not-found-faulty_FIXTURE.js'"
+        "raw": "'./instn-star-err-not-found-faulty_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

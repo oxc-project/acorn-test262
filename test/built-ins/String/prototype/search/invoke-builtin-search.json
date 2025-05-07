@@ -346,7 +346,9 @@
                     "start": 879,
                     "end": 887,
                     "value": "target",
-                    "raw": "'target'"
+                    "raw": "'target'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -363,7 +365,9 @@
                     "start": 895,
                     "end": 910,
                     "value": "string source",
-                    "raw": "'string source'"
+                    "raw": "'string source'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -459,7 +463,9 @@
                   "start": 986,
                   "end": 1001,
                   "value": "string source",
-                  "raw": "'string source'"
+                  "raw": "'string source'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -517,7 +523,9 @@
                   "start": 1038,
                   "end": 1040,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -575,7 +583,9 @@
                   "start": 1075,
                   "end": 1076,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -624,7 +634,9 @@
                     "start": 1103,
                     "end": 1104,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -634,7 +646,9 @@
                   "start": 1107,
                   "end": 1115,
                   "value": "target",
-                  "raw": "'target'"
+                  "raw": "'target'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

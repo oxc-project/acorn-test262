@@ -42,7 +42,9 @@
               "start": 217,
               "end": 219,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -50,14 +52,18 @@
             "start": 221,
             "end": 222,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 224,
             "end": 229,
             "value": "+\"\"",
-            "raw": "'+\"\"'"
+            "raw": "'+\"\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

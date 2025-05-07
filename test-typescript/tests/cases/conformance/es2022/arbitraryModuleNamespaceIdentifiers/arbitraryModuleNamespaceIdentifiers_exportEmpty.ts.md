@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 161,
             "end": 168,
             "raw": "\"empty\"",
-            "value": "empty"
+            "value": "empty",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -54,7 +56,9 @@ __ESTREE_TEST__:PASS:
             "start": 188,
             "end": 190,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           },
           "exportKind": "value",
           "local": {
@@ -80,7 +84,9 @@ __ESTREE_TEST__:PASS:
         "start": 220,
         "end": 271,
         "raw": "\"./arbitraryModuleNamespaceIdentifiers_exportEmpty\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_exportEmpty"
+        "value": "./arbitraryModuleNamespaceIdentifiers_exportEmpty",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -92,7 +98,9 @@ __ESTREE_TEST__:PASS:
             "start": 203,
             "end": 205,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "regex": null,
+            "bigint": null
           },
           "importKind": "value",
           "local": {
@@ -137,7 +145,9 @@ __ESTREE_TEST__:PASS:
                   "start": 284,
                   "end": 310,
                   "raw": "\"type error expected here\"",
-                  "value": "type error expected here"
+                  "value": "type error expected here",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }

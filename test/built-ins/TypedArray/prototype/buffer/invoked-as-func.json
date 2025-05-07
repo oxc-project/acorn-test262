@@ -95,7 +95,9 @@
                   "start": 678,
                   "end": 686,
                   "value": "buffer",
-                  "raw": "'buffer'"
+                  "raw": "'buffer'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

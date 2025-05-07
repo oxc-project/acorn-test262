@@ -61,7 +61,9 @@ __ESTREE_TEST__:PASS:
                       "start": 32,
                       "end": 37,
                       "raw": "\"Red\"",
-                      "value": "Red"
+                      "value": "Red",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -87,7 +89,9 @@ __ESTREE_TEST__:PASS:
                       "start": 50,
                       "end": 57,
                       "raw": "\"Green\"",
-                      "value": "Green"
+                      "value": "Green",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -113,7 +117,9 @@ __ESTREE_TEST__:PASS:
                       "start": 69,
                       "end": 75,
                       "raw": "\"Blue\"",
-                      "value": "Blue"
+                      "value": "Blue",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

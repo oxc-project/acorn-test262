@@ -36,7 +36,9 @@
                     "start": 333,
                     "end": 388,
                     "value": "#1.1: new RegExp(\"[{-z]\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"[{-z]\") throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(\"[{-z]\") throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -59,7 +61,9 @@
                           "start": 403,
                           "end": 410,
                           "value": "[{-z]",
-                          "raw": "\"[{-z]\""
+                          "raw": "\"[{-z]\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -136,14 +140,18 @@
                     "start": 483,
                     "end": 487,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 493,
                     "end": 569,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

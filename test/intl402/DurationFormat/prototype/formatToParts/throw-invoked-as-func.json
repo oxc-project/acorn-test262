@@ -77,7 +77,9 @@
               "start": 566,
               "end": 581,
               "value": "formatToParts",
-              "raw": "\"formatToParts\""
+              "raw": "\"formatToParts\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -132,7 +134,9 @@
             "start": 612,
             "end": 622,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -224,7 +228,9 @@
                               "start": 671,
                               "end": 672,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -246,7 +252,9 @@
                               "start": 683,
                               "end": 685,
                               "value": 46,
-                              "raw": "46"
+                              "raw": "46",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -268,7 +276,9 @@
                               "start": 696,
                               "end": 698,
                               "value": 40,
-                              "raw": "40"
+                              "raw": "40",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

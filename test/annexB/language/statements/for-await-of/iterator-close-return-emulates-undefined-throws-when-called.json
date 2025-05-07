@@ -174,7 +174,9 @@
                                     "start": 600,
                                     "end": 633,
                                     "value": "shouldn't touch Symbol.iterator",
-                                    "raw": "\"shouldn't touch Symbol.iterator\""
+                                    "raw": "\"shouldn't touch Symbol.iterator\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -230,7 +232,9 @@
                 "start": 911,
                 "end": 951,
                 "value": "for-await-of body shouldn't be reached",
-                "raw": "\"for-await-of body shouldn't be reached\""
+                "raw": "\"for-await-of body shouldn't be reached\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -243,7 +247,9 @@
               "start": 963,
               "end": 991,
               "value": "should have failed earlier",
-              "raw": "\"should have failed earlier\""
+              "raw": "\"should have failed earlier\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -389,7 +395,9 @@
                                   "start": 1118,
                                   "end": 1147,
                                   "value": "expected TypeError because ",
-                                  "raw": "\"expected TypeError because \""
+                                  "raw": "\"expected TypeError because \"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -397,7 +405,9 @@
                                   "start": 1178,
                                   "end": 1221,
                                   "value": "`iter[Symbol.asyncIterator]() returned a ",
-                                  "raw": "\"`iter[Symbol.asyncIterator]() returned a \""
+                                  "raw": "\"`iter[Symbol.asyncIterator]() returned a \"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "+",
@@ -406,7 +416,9 @@
                                 "start": 1252,
                                 "end": 1266,
                                 "value": "non-object: ",
-                                "raw": "\"non-object: \""
+                                "raw": "\"non-object: \"",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",

@@ -23,7 +23,9 @@
             "start": 216,
             "end": 217,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -123,7 +125,9 @@
             "start": 280,
             "end": 291,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -184,7 +188,9 @@
                           "start": 339,
                           "end": 343,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -210,7 +216,9 @@
                   "start": 366,
                   "end": 370,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -282,14 +290,18 @@
             "start": 423,
             "end": 424,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 455,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +327,9 @@
           "start": 467,
           "end": 468,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -358,7 +372,9 @@
             "start": 498,
             "end": 509,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -419,7 +435,9 @@
                           "start": 557,
                           "end": 559,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -445,7 +463,9 @@
                   "start": 582,
                   "end": 586,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -572,14 +592,18 @@
             "start": 683,
             "end": 684,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 715,
             "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "raw": "\"The value of `calls` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 341,
             "end": 344,
             "value": "h",
-            "raw": "\"h\""
+            "raw": "\"h\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -135,7 +137,9 @@
                     "start": 478,
                     "end": 481,
                     "value": "g",
-                    "raw": "\"g\""
+                    "raw": "\"g\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "value": {
                     "type": "FunctionExpression",
@@ -266,7 +270,9 @@
             "start": 693,
             "end": 746,
             "value": "* /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }",
-            "raw": "\"* /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }\""
+            "raw": "\"* /* a */ f /* b */ ( /* c */ ) /* d */ { /* e */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -298,7 +304,9 @@
             "start": 783,
             "end": 860,
             "value": "* /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
-            "raw": "\"* /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
+            "raw": "\"* /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -330,7 +338,9 @@
             "start": 897,
             "end": 970,
             "value": "* /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }",
-            "raw": "\"* /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\""
+            "raw": "\"* /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

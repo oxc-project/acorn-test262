@@ -75,7 +75,9 @@
                         "start": 592,
                         "end": 593,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -150,7 +152,9 @@
                 "start": 630,
                 "end": 631,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -166,7 +170,9 @@
             "start": 639,
             "end": 672,
             "value": "`map.set(foo, 1)` returns `map`",
-            "raw": "'`map.set(foo, 1)` returns `map`'"
+            "raw": "'`map.set(foo, 1)` returns `map`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

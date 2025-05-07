@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 75,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -121,7 +125,9 @@ __ESTREE_TEST__:PASS:
         "start": 166,
         "end": 207,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -151,7 +157,9 @@ __ESTREE_TEST__:PASS:
         "start": 263,
         "end": 304,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -181,7 +189,9 @@ __ESTREE_TEST__:PASS:
         "start": 361,
         "end": 402,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -224,7 +234,9 @@ __ESTREE_TEST__:PASS:
             "start": 447,
             "end": 449,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 85,
         "end": 94,
         "raw": "\"./other\"",
-        "value": "./other"
+        "value": "./other",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -70,7 +72,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 33,
         "raw": "\"./other\"",
-        "value": "./other"
+        "value": "./other",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -204,7 +208,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "\"tslib\"",
-        "value": "tslib"
+        "value": "tslib",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

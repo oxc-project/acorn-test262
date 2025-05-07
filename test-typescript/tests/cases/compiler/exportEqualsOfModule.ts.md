@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 39,
         "raw": "'~popsicle/dist/request'",
-        "value": "~popsicle/dist/request"
+        "value": "~popsicle/dist/request",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -84,7 +86,9 @@ __ESTREE_TEST__:PASS:
               "start": 142,
               "end": 166,
               "raw": "'~popsicle/dist/request'",
-              "value": "~popsicle/dist/request"
+              "value": "~popsicle/dist/request",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -157,7 +161,9 @@ __ESTREE_TEST__:PASS:
         "start": 88,
         "end": 111,
         "raw": "'~popsicle/dist/common'",
-        "value": "~popsicle/dist/common"
+        "value": "~popsicle/dist/common",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -193,7 +199,9 @@ __ESTREE_TEST__:PASS:
                 "start": 250,
                 "end": 273,
                 "raw": "'~popsicle/dist/common'",
-                "value": "~popsicle/dist/common"
+                "value": "~popsicle/dist/common",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -220,7 +228,9 @@ __ESTREE_TEST__:PASS:
         "start": 210,
         "end": 220,
         "raw": "'popsicle'",
-        "value": "popsicle"
+        "value": "popsicle",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -244,7 +254,9 @@ __ESTREE_TEST__:PASS:
               "start": 367,
               "end": 377,
               "raw": "'popsicle'",
-              "value": "popsicle"
+              "value": "popsicle",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {
@@ -368,7 +380,9 @@ __ESTREE_TEST__:PASS:
         "start": 314,
         "end": 336,
         "raw": "'popsicle-proxy-agent'",
-        "value": "popsicle-proxy-agent"
+        "value": "popsicle-proxy-agent",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

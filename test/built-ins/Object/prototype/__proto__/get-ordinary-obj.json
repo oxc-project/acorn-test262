@@ -70,7 +70,9 @@
                   "start": 446,
                   "end": 457,
                   "value": "__proto__",
-                  "raw": "'__proto__'"
+                  "raw": "'__proto__'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -209,7 +211,9 @@
                 "start": 558,
                 "end": 562,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -303,7 +307,9 @@
             "start": 615,
             "end": 632,
             "value": "Ordinary object",
-            "raw": "'Ordinary object'"
+            "raw": "'Ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -381,7 +387,9 @@
             "start": 686,
             "end": 711,
             "value": "custom prototype object",
-            "raw": "'custom prototype object'"
+            "raw": "'custom prototype object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -453,14 +461,18 @@
             "start": 756,
             "end": 760,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 778,
             "value": "null prototype",
-            "raw": "'null prototype'"
+            "raw": "'null prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

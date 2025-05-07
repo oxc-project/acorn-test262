@@ -174,7 +174,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 169,
                                     "end": 178,
                                     "raw": "\"keyword\"",
-                                    "value": "keyword"
+                                    "value": "keyword",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]

@@ -94,7 +94,9 @@ __ESTREE_TEST__:PASS:
                     "start": 86,
                     "end": 100,
                     "raw": "'string_named'",
-                    "value": "string_named"
+                    "value": "string_named",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -112,7 +114,9 @@ __ESTREE_TEST__:PASS:
                     "start": 104,
                     "end": 109,
                     "raw": "'var'",
-                    "value": "var"
+                    "value": "var",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -308,7 +312,9 @@ __ESTREE_TEST__:PASS:
                     "start": 279,
                     "end": 286,
                     "raw": "\"hello\"",
-                    "value": "hello"
+                    "value": "hello",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

@@ -67,7 +67,9 @@
             "start": 329,
             "end": 334,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -92,7 +94,9 @@
                   "start": 347,
                   "end": 354,
                   "value": "hello",
-                  "raw": "\"hello\""
+                  "raw": "\"hello\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -114,7 +118,9 @@
                   "start": 372,
                   "end": 376,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -201,7 +207,9 @@
             "start": 435,
             "end": 440,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -244,7 +252,9 @@
                           "start": 475,
                           "end": 476,
                           "value": 5,
-                          "raw": "5"
+                          "raw": "5",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -308,7 +318,9 @@
                 "start": 539,
                 "end": 544,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -369,14 +381,18 @@
             "start": 572,
             "end": 573,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 582,
             "value": "o.foo",
-            "raw": "'o.foo'"
+            "raw": "'o.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -433,7 +449,9 @@
             "start": 622,
             "end": 659,
             "value": "fooDescrip.get!==undefined !== true",
-            "raw": "'fooDescrip.get!==undefined !== true'"
+            "raw": "'fooDescrip.get!==undefined !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,7 +515,9 @@
             "start": 706,
             "end": 722,
             "value": "fooDescrip.set",
-            "raw": "'fooDescrip.set'"
+            "raw": "'fooDescrip.set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -561,7 +581,9 @@
             "start": 771,
             "end": 789,
             "value": "fooDescrip.value",
-            "raw": "'fooDescrip.value'"
+            "raw": "'fooDescrip.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -619,14 +641,18 @@
             "start": 834,
             "end": 838,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 840,
             "end": 865,
             "value": "fooDescrip.configurable",
-            "raw": "'fooDescrip.configurable'"
+            "raw": "'fooDescrip.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -684,14 +710,18 @@
             "start": 908,
             "end": 913,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 915,
             "end": 938,
             "value": "fooDescrip.enumerable",
-            "raw": "'fooDescrip.enumerable'"
+            "raw": "'fooDescrip.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -755,7 +785,9 @@
             "start": 990,
             "end": 1011,
             "value": "fooDescrip.writable",
-            "raw": "'fooDescrip.writable'"
+            "raw": "'fooDescrip.writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

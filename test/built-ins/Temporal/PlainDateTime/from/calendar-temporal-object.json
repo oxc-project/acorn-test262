@@ -127,7 +127,9 @@
                                   "start": 1281,
                                   "end": 1285,
                                   "value": 2000,
-                                  "raw": "2000"
+                                  "raw": "2000",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -149,7 +151,9 @@
                                   "start": 1294,
                                   "end": 1295,
                                   "value": 5,
-                                  "raw": "5"
+                                  "raw": "5",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -171,7 +175,9 @@
                                   "start": 1302,
                                   "end": 1303,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -257,14 +263,18 @@
                         "start": 1372,
                         "end": 1381,
                         "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "raw": "\"iso8601\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1383,
                         "end": 1420,
                         "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "raw": "\"Temporal object coerced to calendar\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

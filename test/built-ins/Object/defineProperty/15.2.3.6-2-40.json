@@ -78,7 +78,9 @@
                 "start": 327,
                 "end": 334,
                 "value": "Hello",
-                "raw": "\"Hello\""
+                "raw": "\"Hello\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -136,7 +138,9 @@
                 "start": 369,
                 "end": 376,
                 "value": "Hello",
-                "raw": "\"Hello\""
+                "raw": "\"Hello\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -146,7 +150,9 @@
             "start": 379,
             "end": 417,
             "value": "obj.hasOwnProperty(\"Hello\") !== true",
-            "raw": "'obj.hasOwnProperty(\"Hello\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"Hello\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

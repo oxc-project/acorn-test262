@@ -121,7 +121,9 @@ __ESTREE_TEST__:PASS:
             "start": 40,
             "end": 48,
             "raw": "'object'",
-            "value": "object"
+            "value": "object",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {

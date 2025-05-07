@@ -25,7 +25,9 @@
         "start": 2640,
         "end": 2678,
         "value": "./module-import-unwrapped_FIXTURE.js",
-        "raw": "'./module-import-unwrapped_FIXTURE.js'"
+        "raw": "'./module-import-unwrapped_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -74,7 +76,9 @@
         "start": 2701,
         "end": 2739,
         "value": "./module-import-unwrapped_FIXTURE.js",
-        "raw": "'./module-import-unwrapped_FIXTURE.js'"
+        "raw": "'./module-import-unwrapped_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -116,7 +120,9 @@
             "start": 2773,
             "end": 2804,
             "value": "mod is an instance of Promise",
-            "raw": "'mod is an instance of Promise'"
+            "raw": "'mod is an instance of Promise'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -160,7 +166,9 @@
             "start": 2836,
             "end": 2865,
             "value": "x is an instance of Promise",
-            "raw": "'x is an instance of Promise'"
+            "raw": "'x is an instance of Promise'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +212,9 @@
             "start": 2897,
             "end": 2926,
             "value": "y is an instance of Promise",
-            "raw": "'y is an instance of Promise'"
+            "raw": "'y is an instance of Promise'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -295,7 +305,9 @@
             "start": 2994,
             "end": 3008,
             "value": "Proto of mod",
-            "raw": "'Proto of mod'"
+            "raw": "'Proto of mod'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,7 +398,9 @@
             "start": 3073,
             "end": 3085,
             "value": "Proto of x",
-            "raw": "'Proto of x'"
+            "raw": "'Proto of x'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -477,7 +491,9 @@
             "start": 3150,
             "end": 3162,
             "value": "Proto of y",
-            "raw": "'Proto of y'"
+            "raw": "'Proto of y'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -527,7 +543,9 @@
             "start": 3194,
             "end": 3203,
             "value": "default",
-            "raw": "'default'"
+            "raw": "'default'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -577,7 +595,9 @@
             "start": 3232,
             "end": 3254,
             "value": "unwrapped resolution",
-            "raw": "'unwrapped resolution'"
+            "raw": "'unwrapped resolution'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -712,7 +732,9 @@
             "start": 3334,
             "end": 3355,
             "value": "unwrapped rejection",
-            "raw": "'unwrapped rejection'"
+            "raw": "'unwrapped rejection'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

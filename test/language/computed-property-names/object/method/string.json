@@ -99,7 +99,9 @@
                           "start": 321,
                           "end": 324,
                           "value": "A",
-                          "raw": "'A'"
+                          "raw": "'A'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -119,7 +121,9 @@
                   "start": 330,
                   "end": 333,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -144,7 +148,9 @@
                           "start": 346,
                           "end": 349,
                           "value": "B",
-                          "raw": "'B'"
+                          "raw": "'B'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -188,7 +194,9 @@
                           "start": 369,
                           "end": 372,
                           "value": "C",
-                          "raw": "'C'"
+                          "raw": "'C'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -219,7 +227,9 @@
                       "start": 383,
                       "end": 386,
                       "value": "d",
-                      "raw": "'d'"
+                      "raw": "'d'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -247,7 +257,9 @@
                           "start": 400,
                           "end": 403,
                           "value": "D",
-                          "raw": "'D'"
+                          "raw": "'D'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -320,14 +332,18 @@
             "start": 440,
             "end": 443,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 505,
             "value": "`object.a()` returns `'A'`. Defined as `a() { return 'A'}`",
-            "raw": "\"`object.a()` returns `'A'`. Defined as `a() { return 'A'}`\""
+            "raw": "\"`object.a()` returns `'A'`. Defined as `a() { return 'A'}`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -392,14 +408,18 @@
             "start": 537,
             "end": 540,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 608,
             "value": "`object.b()` returns `'B'`. Defined as `['b']() { return 'B'; }`",
-            "raw": "\"`object.b()` returns `'B'`. Defined as `['b']() { return 'B'; }`\""
+            "raw": "\"`object.b()` returns `'B'`. Defined as `['b']() { return 'B'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -464,14 +484,18 @@
             "start": 640,
             "end": 643,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 707,
             "value": "`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`",
-            "raw": "\"`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`\""
+            "raw": "\"`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -536,14 +560,18 @@
             "start": 739,
             "end": 742,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 814,
             "value": "`object.d()` returns `'D'`. Defined as `[ID('d')]() { return 'D'; }`",
-            "raw": "\"`object.d()` returns `'D'`. Defined as `[ID('d')]() { return 'D'; }`\""
+            "raw": "\"`object.d()` returns `'D'`. Defined as `[ID('d')]() { return 'D'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,28 +648,36 @@
                 "start": 879,
                 "end": 882,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 884,
                 "end": 887,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 889,
                 "end": 892,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 894,
                 "end": 897,
                 "value": "d",
-                "raw": "'d'"
+                "raw": "'d'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

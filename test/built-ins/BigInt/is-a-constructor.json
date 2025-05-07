@@ -56,14 +56,18 @@
             "start": 767,
             "end": 771,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 815,
             "value": "isConstructor(BigInt) must return true",
-            "raw": "'isConstructor(BigInt) must return true'"
+            "raw": "'isConstructor(BigInt) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,7 +203,9 @@
             "start": 925,
             "end": 992,
             "value": "`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError",
-            "raw": "'`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError'"
+            "raw": "'`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

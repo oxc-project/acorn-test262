@@ -36,14 +36,18 @@ __ESTREE_TEST__:PASS:
           "start": 150,
           "end": 151,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Literal",
           "start": 154,
           "end": 155,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -63,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "start": 195,
         "end": 200,
         "raw": "false",
-        "value": false
+        "value": false,
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -81,7 +87,9 @@ __ESTREE_TEST__:PASS:
         "start": 254,
         "end": 259,
         "raw": "false",
-        "value": false
+        "value": false,
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -99,7 +107,9 @@ __ESTREE_TEST__:PASS:
         "start": 303,
         "end": 308,
         "raw": "false",
-        "value": false
+        "value": false,
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -119,7 +129,9 @@ __ESTREE_TEST__:PASS:
         "start": 356,
         "end": 361,
         "raw": "false",
-        "value": false
+        "value": false,
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -273,7 +285,9 @@ __ESTREE_TEST__:PASS:
           "start": 714,
           "end": 719,
           "raw": "false",
-          "value": false
+          "value": false,
+          "regex": null,
+          "bigint": null
         }
       },
       "label": {
@@ -300,7 +314,9 @@ __ESTREE_TEST__:PASS:
             "start": 776,
             "end": 789,
             "raw": "'Unreachable'",
-            "value": "Unreachable"
+            "value": "Unreachable",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -869,7 +885,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1333,
                         "end": 1340,
                         "raw": "\"aleph\"",
-                        "value": "aleph"
+                        "value": "aleph",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

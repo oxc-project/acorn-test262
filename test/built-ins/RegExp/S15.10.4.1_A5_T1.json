@@ -36,7 +36,9 @@
                     "start": 438,
                     "end": 500,
                     "value": "#1.1: new RegExp(undefined,\"ii\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(undefined,\"ii\") throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(undefined,\"ii\") throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -65,7 +67,9 @@
                           "start": 525,
                           "end": 529,
                           "value": "ii",
-                          "raw": "\"ii\""
+                          "raw": "\"ii\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -142,14 +146,18 @@
                     "start": 602,
                     "end": 606,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 612,
                     "end": 688,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

@@ -34,7 +34,9 @@
                 "start": 272,
                 "end": 277,
                 "value": "0,1",
-                "raw": "\"0,1\""
+                "raw": "\"0,1\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -73,7 +75,9 @@
                 "start": 298,
                 "end": 299,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -86,14 +90,18 @@
                 "start": 304,
                 "end": 309,
                 "value": "0,1",
-                "raw": "\"0,1\""
+                "raw": "\"0,1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 312,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -187,14 +195,18 @@
             "start": 358,
             "end": 359,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 386,
             "value": "a.indexOf(b.toString())",
-            "raw": "'a.indexOf(b.toString())'"
+            "raw": "'a.indexOf(b.toString())'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +269,9 @@
                 "start": 416,
                 "end": 421,
                 "value": "0,1",
-                "raw": "\"0,1\""
+                "raw": "\"0,1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -267,14 +281,18 @@
             "start": 424,
             "end": 425,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 445,
             "value": "a.indexOf(\"0,1\")",
-            "raw": "'a.indexOf(\"0,1\")'"
+            "raw": "'a.indexOf(\"0,1\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

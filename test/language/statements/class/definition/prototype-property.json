@@ -71,7 +71,9 @@
                 "start": 264,
                 "end": 275,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -132,14 +134,18 @@
             "start": 315,
             "end": 320,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 322,
             "end": 368,
             "value": "The value of `descr.configurable` is `false`",
-            "raw": "\"The value of `descr.configurable` is `false`\""
+            "raw": "\"The value of `descr.configurable` is `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,14 +203,18 @@
             "start": 406,
             "end": 411,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 457,
             "value": "The value of `descr.enumerable` is `false`",
-            "raw": "\"The value of `descr.enumerable` is `false`\""
+            "raw": "\"The value of `descr.enumerable` is `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,14 +272,18 @@
             "start": 493,
             "end": 498,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 500,
             "end": 542,
             "value": "The value of `descr.writable` is `false`",
-            "raw": "\"The value of `descr.writable` is `false`\""
+            "raw": "\"The value of `descr.writable` is `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

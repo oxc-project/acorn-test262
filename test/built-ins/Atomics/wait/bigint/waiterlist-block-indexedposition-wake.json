@@ -23,7 +23,9 @@
             "start": 548,
             "end": 549,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 565,
             "end": 566,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +125,9 @@
                       "start": 659,
                       "end": 660,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -483,7 +489,9 @@
                 "start": 1395,
                 "end": 1396,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -493,14 +501,18 @@
             "start": 1399,
             "end": 1400,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1402,
             "end": 1437,
             "value": "Atomics.notify(i64a, 1) returns 0",
-            "raw": "'Atomics.notify(i64a, 1) returns 0'"
+            "raw": "'Atomics.notify(i64a, 1) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,7 +581,9 @@
                 "start": 1515,
                 "end": 1516,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -579,14 +593,18 @@
             "start": 1519,
             "end": 1520,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1522,
             "end": 1557,
             "value": "Atomics.notify(i64a, 3) returns 0",
-            "raw": "'Atomics.notify(i64a, 3) returns 0'"
+            "raw": "'Atomics.notify(i64a, 3) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -612,7 +630,9 @@
             "start": 1603,
             "end": 1604,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -676,7 +696,9 @@
                   "start": 1643,
                   "end": 1644,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -689,7 +711,9 @@
           "start": 1651,
           "end": 1652,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "body": {
@@ -737,14 +761,18 @@
             "start": 1680,
             "end": 1681,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1683,
             "end": 1718,
             "value": "Atomics.notify(i64a, 2) returns 1",
-            "raw": "'Atomics.notify(i64a, 2) returns 1'"
+            "raw": "'Atomics.notify(i64a, 2) returns 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -822,14 +850,18 @@
             "start": 1762,
             "end": 1766,
             "value": "ok",
-            "raw": "'ok'"
+            "raw": "'ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1768,
             "end": 1805,
             "value": "$262.agent.getReport() returns \"ok\"",
-            "raw": "'$262.agent.getReport() returns \"ok\"'"
+            "raw": "'$262.agent.getReport() returns \"ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -855,7 +887,9 @@
             "start": 1851,
             "end": 1852,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -919,7 +953,9 @@
                   "start": 1891,
                   "end": 1892,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -932,7 +968,9 @@
           "start": 1899,
           "end": 1900,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "body": {
@@ -980,14 +1018,18 @@
             "start": 1928,
             "end": 1929,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1931,
             "end": 1966,
             "value": "Atomics.notify(i64a, 0) returns 1",
-            "raw": "'Atomics.notify(i64a, 0) returns 1'"
+            "raw": "'Atomics.notify(i64a, 0) returns 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1065,14 +1107,18 @@
             "start": 2010,
             "end": 2014,
             "value": "ok",
-            "raw": "'ok'"
+            "raw": "'ok'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2016,
             "end": 2053,
             "value": "$262.agent.getReport() returns \"ok\"",
-            "raw": "'$262.agent.getReport() returns \"ok\"'"
+            "raw": "'$262.agent.getReport() returns \"ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

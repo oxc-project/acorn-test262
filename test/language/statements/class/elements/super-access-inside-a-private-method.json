@@ -55,7 +55,9 @@
                       "start": 1447,
                       "end": 1456,
                       "value": "Test262",
-                      "raw": "\"Test262\""
+                      "raw": "\"Test262\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -335,7 +337,9 @@
             "start": 1622,
             "end": 1631,
             "value": "Test262",
-            "raw": "\"Test262\""
+            "raw": "\"Test262\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -432,7 +436,9 @@
             "start": 1677,
             "end": 1686,
             "value": "Test262",
-            "raw": "\"Test262\""
+            "raw": "\"Test262\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

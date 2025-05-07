@@ -108,7 +108,9 @@
                               "start": 581,
                               "end": 582,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -193,7 +195,9 @@
                       "start": 733,
                       "end": 734,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -304,7 +308,9 @@
             "start": 812,
             "end": 851,
             "value": "result is an instance of NumberFormat",
-            "raw": "'result is an instance of NumberFormat'"
+            "raw": "'result is an instance of NumberFormat'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,14 +388,18 @@
             "start": 918,
             "end": 919,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 921,
             "end": 955,
             "value": "default minimumSignificantDigits",
-            "raw": "'default minimumSignificantDigits'"
+            "raw": "'default minimumSignificantDigits'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -467,14 +477,18 @@
             "start": 1022,
             "end": 1023,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1025,
             "end": 1056,
             "value": "sets maximumSignificantDigits",
-            "raw": "'sets maximumSignificantDigits'"
+            "raw": "'sets maximumSignificantDigits'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

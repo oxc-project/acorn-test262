@@ -109,7 +109,9 @@
                 "start": 441,
                 "end": 446,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -119,14 +121,18 @@
             "start": 449,
             "end": 454,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 473,
             "value": "fun.call(false)",
-            "raw": "'fun.call(false)'"
+            "raw": "'fun.call(false)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

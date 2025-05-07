@@ -162,7 +162,9 @@
                   "start": 991,
                   "end": 996,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -256,7 +258,9 @@
                                   "start": 1115,
                                   "end": 1116,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Identifier",
@@ -273,7 +277,9 @@
                               "start": 1123,
                               "end": 1150,
                               "value": "var unlikelyVariableName;",
-                              "raw": "\"var unlikelyVariableName;\""
+                              "raw": "\"var unlikelyVariableName;\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

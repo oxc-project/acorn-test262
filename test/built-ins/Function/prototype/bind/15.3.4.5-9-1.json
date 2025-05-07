@@ -167,7 +167,9 @@
             "start": 342,
             "end": 389,
             "value": "Function.prototype.isPrototypeOf(bf) !== true",
-            "raw": "'Function.prototype.isPrototypeOf(bf) !== true'"
+            "raw": "'Function.prototype.isPrototypeOf(bf) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

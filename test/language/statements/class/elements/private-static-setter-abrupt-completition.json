@@ -133,7 +133,9 @@
                         "start": 1090,
                         "end": 1099,
                         "value": "Test262",
-                        "raw": "'Test262'"
+                        "raw": "'Test262'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -262,7 +264,9 @@
             "start": 1183,
             "end": 1229,
             "value": "private setter should have abrupt completion",
-            "raw": "'private setter should have abrupt completion'"
+            "raw": "'private setter should have abrupt completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

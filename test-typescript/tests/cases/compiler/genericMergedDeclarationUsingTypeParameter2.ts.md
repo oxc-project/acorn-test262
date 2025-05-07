@@ -217,7 +217,9 @@ __ESTREE_TEST__:PASS:
                     "start": 88,
                     "end": 89,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",

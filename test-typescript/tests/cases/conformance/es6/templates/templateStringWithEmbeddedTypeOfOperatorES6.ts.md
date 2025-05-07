@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                   "start": 22,
                   "end": 26,
                   "raw": "\"hi\"",
-                  "value": "hi"
+                  "value": "hi",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "typeof",
                 "prefix": true

@@ -23,7 +23,9 @@
             "start": 956,
             "end": 971,
             "value": "return \"A\";",
-            "raw": "\"return \\\"A\\\";\""
+            "raw": "\"return \\\"A\\\";\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +77,9 @@
                         "start": 1008,
                         "end": 1009,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -131,7 +135,9 @@
                       "start": 1057,
                       "end": 1086,
                       "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "raw": "'#1: test failed with error '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -207,7 +213,9 @@
             "start": 1138,
             "end": 1209,
             "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "raw": "'The value of f.constructor is expected to equal the value of Function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,14 +267,18 @@
             "start": 1234,
             "end": 1242,
             "value": "A",
-            "raw": "'\\u0041'"
+            "raw": "'\\u0041'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1244,
             "end": 1269,
             "value": "f() must return \"u0041\"",
-            "raw": "'f() must return \"u0041\"'"
+            "raw": "'f() must return \"u0041\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

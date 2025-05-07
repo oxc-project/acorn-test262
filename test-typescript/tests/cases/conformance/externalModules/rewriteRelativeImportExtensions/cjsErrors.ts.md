@@ -51,7 +51,9 @@ __ESTREE_TEST__:PASS:
           "start": 21,
           "end": 31,
           "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -78,7 +80,9 @@ __ESTREE_TEST__:PASS:
           "start": 70,
           "end": 80,
           "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "regex": null,
+          "bigint": null
         }
       }
     }

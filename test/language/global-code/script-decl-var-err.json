@@ -23,7 +23,9 @@
             "start": 1274,
             "end": 1279,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +149,9 @@
                         "start": 1371,
                         "end": 1402,
                         "value": "executed = true; var test262;",
-                        "raw": "'executed = true; var test262;'"
+                        "raw": "'executed = true; var test262;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -199,7 +203,9 @@
             "start": 1437,
             "end": 1442,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

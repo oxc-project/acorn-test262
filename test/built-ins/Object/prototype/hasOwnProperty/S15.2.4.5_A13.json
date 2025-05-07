@@ -110,14 +110,18 @@
                         "start": 346,
                         "end": 350,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 352,
                         "end": 357,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -131,7 +135,9 @@
             "start": 363,
             "end": 443,
             "value": "Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception",
-            "raw": "'Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception'"
+            "raw": "'Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

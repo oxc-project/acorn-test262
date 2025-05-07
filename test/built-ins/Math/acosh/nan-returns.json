@@ -75,7 +75,9 @@
             "start": 350,
             "end": 355,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -138,7 +140,9 @@
                 "start": 386,
                 "end": 394,
                 "value": 0.999999,
-                "raw": "0.999999"
+                "raw": "0.999999",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -154,7 +158,9 @@
             "start": 402,
             "end": 412,
             "value": "0.999999",
-            "raw": "\"0.999999\""
+            "raw": "\"0.999999\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +223,9 @@
                 "start": 443,
                 "end": 444,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -233,7 +241,9 @@
             "start": 452,
             "end": 455,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +312,9 @@
                   "start": 487,
                   "end": 488,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -319,7 +331,9 @@
             "start": 496,
             "end": 500,
             "value": "-1",
-            "raw": "\"-1\""
+            "raw": "\"-1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -404,7 +418,9 @@
             "start": 548,
             "end": 559,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

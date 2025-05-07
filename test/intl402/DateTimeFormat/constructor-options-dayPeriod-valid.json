@@ -52,14 +52,18 @@
                     "start": 516,
                     "end": 522,
                     "value": "long",
-                    "raw": "\"long\""
+                    "raw": "\"long\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 524,
                     "end": 530,
                     "value": "long",
-                    "raw": "\"long\""
+                    "raw": "\"long\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -73,14 +77,18 @@
                     "start": 536,
                     "end": 543,
                     "value": "short",
-                    "raw": "\"short\""
+                    "raw": "\"short\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 545,
                     "end": 552,
                     "value": "short",
-                    "raw": "\"short\""
+                    "raw": "\"short\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -94,14 +102,18 @@
                     "start": 558,
                     "end": 566,
                     "value": "narrow",
-                    "raw": "\"narrow\""
+                    "raw": "\"narrow\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 568,
                     "end": 576,
                     "value": "narrow",
-                    "raw": "\"narrow\""
+                    "raw": "\"narrow\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -151,7 +163,9 @@
                                   "start": 604,
                                   "end": 612,
                                   "value": "narrow",
-                                  "raw": "\"narrow\""
+                                  "raw": "\"narrow\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -166,7 +180,9 @@
                     "start": 619,
                     "end": 627,
                     "value": "narrow",
-                    "raw": "\"narrow\""
+                    "raw": "\"narrow\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -216,7 +232,9 @@
                                   "start": 654,
                                   "end": 660,
                                   "value": "long",
-                                  "raw": "\"long\""
+                                  "raw": "\"long\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -252,7 +270,9 @@
                     "start": 688,
                     "end": 694,
                     "value": "long",
-                    "raw": "\"long\""
+                    "raw": "\"long\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -355,7 +375,9 @@
                       "start": 790,
                       "end": 794,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -543,7 +565,9 @@
                       "start": 962,
                       "end": 973,
                       "value": "dayPeriod",
-                      "raw": "\"dayPeriod\""
+                      "raw": "\"dayPeriod\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

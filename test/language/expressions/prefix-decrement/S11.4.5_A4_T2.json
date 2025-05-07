@@ -23,7 +23,9 @@
             "start": 285,
             "end": 288,
             "value": 0.1,
-            "raw": "0.1"
+            "raw": "0.1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@
             "start": 302,
             "end": 305,
             "value": 0.1,
-            "raw": "0.1"
+            "raw": "0.1",
+            "regex": null,
+            "bigint": null
           },
           "operator": "-",
           "right": {
@@ -68,7 +72,9 @@
             "start": 308,
             "end": 309,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -101,7 +107,9 @@
                     "start": 338,
                     "end": 382,
                     "value": "#1: var x = 0.1; --x === 0.1 - 1. Actual: ",
-                    "raw": "'#1: var x = 0.1; --x === 0.1 - 1. Actual: '"
+                    "raw": "'#1: var x = 0.1; --x === 0.1 - 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -167,7 +175,9 @@
                   "start": 426,
                   "end": 429,
                   "value": 1.1,
-                  "raw": "1.1"
+                  "raw": "1.1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -213,7 +223,9 @@
               "start": 445,
               "end": 448,
               "value": 1.1,
-              "raw": "1.1"
+              "raw": "1.1",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "-",
@@ -222,7 +234,9 @@
             "start": 451,
             "end": 452,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -255,7 +269,9 @@
                     "start": 481,
                     "end": 538,
                     "value": "#2: var x = new Number(-1.1); --x === -1.1- 1. Actual: ",
-                    "raw": "'#2: var x = new Number(-1.1); --x === -1.1- 1. Actual: '"
+                    "raw": "'#2: var x = new Number(-1.1); --x === -1.1- 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

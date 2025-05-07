@@ -42,14 +42,18 @@
             "start": 318,
             "end": 335,
             "value": "currencyDisplay",
-            "raw": "\"currencyDisplay\""
+            "raw": "\"currencyDisplay\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 345,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -61,21 +65,27 @@
                 "start": 348,
                 "end": 354,
                 "value": "code",
-                "raw": "\"code\""
+                "raw": "\"code\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 364,
                 "value": "symbol",
-                "raw": "\"symbol\""
+                "raw": "\"symbol\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 372,
                 "value": "name",
-                "raw": "\"name\""
+                "raw": "\"name\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -84,7 +94,9 @@
             "start": 379,
             "end": 387,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -145,7 +157,9 @@
                               "start": 411,
                               "end": 421,
                               "value": "currency",
-                              "raw": "\"currency\""
+                              "raw": "\"currency\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -167,7 +181,9 @@
                               "start": 433,
                               "end": 438,
                               "value": "XDR",
-                              "raw": "\"XDR\""
+                              "raw": "\"XDR\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -224,14 +240,18 @@
             "start": 474,
             "end": 491,
             "value": "currencyDisplay",
-            "raw": "\"currencyDisplay\""
+            "raw": "\"currencyDisplay\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 501,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -243,21 +263,27 @@
                 "start": 504,
                 "end": 510,
                 "value": "code",
-                "raw": "\"code\""
+                "raw": "\"code\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 520,
                 "value": "symbol",
-                "raw": "\"symbol\""
+                "raw": "\"symbol\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 522,
                 "end": 528,
                 "value": "name",
-                "raw": "\"name\""
+                "raw": "\"name\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -290,7 +316,9 @@
                   "start": 557,
                   "end": 561,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

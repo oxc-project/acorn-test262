@@ -67,7 +67,9 @@
                     "start": 351,
                     "end": 401,
                     "value": "#1: parseFloat.prototype === undefined. Actual: ",
-                    "raw": "'#1: parseFloat.prototype === undefined. Actual: '"
+                    "raw": "'#1: parseFloat.prototype === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -365,7 +365,9 @@ __ESTREE_TEST__:PASS:
               "start": 289,
               "end": 291,
               "raw": "''",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",
@@ -411,7 +413,9 @@ __ESTREE_TEST__:PASS:
               "start": 308,
               "end": 309,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             },
             "right": {
               "type": "Identifier",

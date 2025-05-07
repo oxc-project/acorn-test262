@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 113,
           "end": 124,
           "raw": "\"./greeter\"",
-          "value": "./greeter"
+          "value": "./greeter",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -61,7 +63,9 @@ __ESTREE_TEST__:PASS:
                 "start": 159,
                 "end": 168,
                 "raw": "'content'",
-                "value": "content"
+                "value": "content",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

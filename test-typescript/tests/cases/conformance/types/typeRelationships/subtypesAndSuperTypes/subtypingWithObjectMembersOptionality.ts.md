@@ -358,7 +358,9 @@ __ESTREE_TEST__:PASS:
               "start": 907,
               "end": 908,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "optional": true,
             "readonly": false,
@@ -419,7 +421,9 @@ __ESTREE_TEST__:PASS:
               "start": 951,
               "end": 952,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -496,7 +500,9 @@ __ESTREE_TEST__:PASS:
               "start": 985,
               "end": 988,
               "raw": "'1'",
-              "value": "1"
+              "value": "1",
+              "regex": null,
+              "bigint": null
             },
             "optional": true,
             "readonly": false,
@@ -557,7 +563,9 @@ __ESTREE_TEST__:PASS:
               "start": 1030,
               "end": 1034,
               "raw": "'1.'",
-              "value": "1."
+              "value": "1.",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -740,7 +748,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1119,
                     "end": 1123,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSTypeReference",
@@ -812,7 +822,9 @@ __ESTREE_TEST__:PASS:
               "start": 1135,
               "end": 1139,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -991,7 +1003,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1299,
                     "end": 1300,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1052,7 +1066,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1354,
                     "end": 1355,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -1129,7 +1145,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1401,
                     "end": 1404,
                     "raw": "'1'",
-                    "value": "1"
+                    "value": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -1190,7 +1208,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1458,
                     "end": 1462,
                     "raw": "'1.'",
-                    "value": "1."
+                    "value": "1.",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -1373,7 +1393,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1565,
                           "end": 1569,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSTypeReference",
@@ -1445,7 +1467,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1585,
                     "end": 1589,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }

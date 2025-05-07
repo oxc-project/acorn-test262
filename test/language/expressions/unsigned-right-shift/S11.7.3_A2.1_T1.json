@@ -26,7 +26,9 @@
               "start": 285,
               "end": 286,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": ">>>",
@@ -35,7 +37,9 @@
             "start": 291,
             "end": 292,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -44,7 +48,9 @@
           "start": 297,
           "end": 307,
           "value": 2147483646,
-          "raw": "2147483646"
+          "raw": "2147483646",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +82,9 @@
                     "start": 336,
                     "end": 375,
                     "value": "#1: -4 >>> 1 === 2147483646. Actual: ",
-                    "raw": "'#1: -4 >>> 1 === 2147483646. Actual: '"
+                    "raw": "'#1: -4 >>> 1 === 2147483646. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -98,7 +106,9 @@
                           "start": 380,
                           "end": 381,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": ">>>",
@@ -107,7 +117,9 @@
                         "start": 386,
                         "end": 387,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -145,7 +157,9 @@
               "start": 413,
               "end": 414,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -176,7 +190,9 @@
             "start": 426,
             "end": 427,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -185,7 +201,9 @@
           "start": 432,
           "end": 442,
           "value": 2147483646,
-          "raw": "2147483646"
+          "raw": "2147483646",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -217,7 +235,9 @@
                     "start": 471,
                     "end": 521,
                     "value": "#2: var x = -4; x >>> 1 === 2147483646. Actual: ",
-                    "raw": "'#2: var x = -4; x >>> 1 === 2147483646. Actual: '"
+                    "raw": "'#2: var x = -4; x >>> 1 === 2147483646. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -240,7 +260,9 @@
                         "start": 531,
                         "end": 532,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -272,7 +294,9 @@
             "start": 557,
             "end": 558,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -301,7 +325,9 @@
               "start": 565,
               "end": 566,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": ">>>",
@@ -318,7 +344,9 @@
           "start": 577,
           "end": 587,
           "value": 2147483646,
-          "raw": "2147483646"
+          "raw": "2147483646",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -350,7 +378,9 @@
                     "start": 616,
                     "end": 666,
                     "value": "#3: var y = 1; -4 >>> y === 2147483646. Actual: ",
-                    "raw": "'#3: var y = 1; -4 >>> y === 2147483646. Actual: '"
+                    "raw": "'#3: var y = 1; -4 >>> y === 2147483646. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -372,7 +402,9 @@
                           "start": 671,
                           "end": 672,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": ">>>",
@@ -418,7 +450,9 @@
               "start": 704,
               "end": 705,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -445,7 +479,9 @@
             "start": 715,
             "end": 716,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -483,7 +519,9 @@
           "start": 734,
           "end": 744,
           "value": 2147483646,
-          "raw": "2147483646"
+          "raw": "2147483646",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -515,7 +553,9 @@
                     "start": 773,
                     "end": 834,
                     "value": "#4: var x = -4; var y = 1; x >>> y === 2147483646. Actual: ",
-                    "raw": "'#4: var x = -4; var y = 1; x >>> y === 2147483646. Actual: '"
+                    "raw": "'#4: var x = -4; var y = 1; x >>> y === 2147483646. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -650,7 +690,9 @@
             "start": 934,
             "end": 935,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -688,7 +730,9 @@
           "start": 952,
           "end": 953,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -750,7 +794,9 @@
           "start": 993,
           "end": 1003,
           "value": 2147483646,
-          "raw": "2147483646"
+          "raw": "2147483646",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -782,7 +828,9 @@
                     "start": 1032,
                     "end": 1185,
                     "value": "#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = -4; objecty.prop = 1; objectx.prop >>> objecty.prop === 2147483646. Actual: ",
-                    "raw": "'#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = -4; objecty.prop = 1; objectx.prop >>> objecty.prop === 2147483646. Actual: '"
+                    "raw": "'#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = -4; objecty.prop = 1; objectx.prop >>> objecty.prop === 2147483646. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

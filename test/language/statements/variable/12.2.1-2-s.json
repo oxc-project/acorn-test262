@@ -71,7 +71,9 @@
                         "start": 334,
                         "end": 372,
                         "value": "function foo() { eval = 42; }; foo()",
-                        "raw": "'function foo() { eval = 42; }; foo()'"
+                        "raw": "'function foo() { eval = 42; }; foo()'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

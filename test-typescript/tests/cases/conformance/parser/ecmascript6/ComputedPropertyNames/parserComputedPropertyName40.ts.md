@@ -31,14 +31,18 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 26,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "Literal",
                 "start": 19,
                 "end": 21,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "test": {
                 "type": "Identifier",

@@ -82,7 +82,9 @@
                 "start": 598,
                 "end": 600,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -231,7 +233,9 @@
             "start": 714,
             "end": 740,
             "value": "[object String Iterator]",
-            "raw": "'[object String Iterator]'"
+            "raw": "'[object String Iterator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +317,9 @@
                   "start": 818,
                   "end": 822,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -364,7 +370,9 @@
                               "start": 862,
                               "end": 884,
                               "value": "ShouldNotBeUnwrapped",
-                              "raw": "'ShouldNotBeUnwrapped'"
+                              "raw": "'ShouldNotBeUnwrapped'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -446,7 +454,9 @@
             "start": 935,
             "end": 952,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -562,7 +572,9 @@
             "start": 1038,
             "end": 1057,
             "value": "[object Iterator]",
-            "raw": "'[object Iterator]'"
+            "raw": "'[object Iterator]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

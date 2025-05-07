@@ -91,7 +91,9 @@
                               "start": 372,
                               "end": 373,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "&&",
@@ -111,7 +113,9 @@
                               "start": 383,
                               "end": 384,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -135,7 +139,9 @@
                               "start": 398,
                               "end": 399,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -146,7 +152,9 @@
                             "start": 405,
                             "end": 406,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -242,7 +250,9 @@
                 "start": 466,
                 "end": 467,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -341,14 +351,18 @@
             "start": 545,
             "end": 549,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 551,
             "end": 574,
             "value": "newInstance.valueOf()",
-            "raw": "'newInstance.valueOf()'"
+            "raw": "'newInstance.valueOf()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

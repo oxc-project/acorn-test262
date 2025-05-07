@@ -159,7 +159,9 @@
                             "start": 707,
                             "end": 763,
                             "value": "Expected promise to be rejected, but it was fulfilled.",
-                            "raw": "'Expected promise to be rejected, but it was fulfilled.'"
+                            "raw": "'Expected promise to be rejected, but it was fulfilled.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

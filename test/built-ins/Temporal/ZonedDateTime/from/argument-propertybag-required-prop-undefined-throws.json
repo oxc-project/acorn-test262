@@ -106,7 +106,9 @@
                         "start": 333,
                         "end": 337,
                         "value": 1976,
-                        "raw": "1976"
+                        "raw": "1976",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -170,7 +172,9 @@
                         "start": 390,
                         "end": 392,
                         "value": 18,
-                        "raw": "18"
+                        "raw": "18",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -192,7 +196,9 @@
                         "start": 406,
                         "end": 414,
                         "value": "+01:00",
-                        "raw": "\"+01:00\""
+                        "raw": "\"+01:00\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

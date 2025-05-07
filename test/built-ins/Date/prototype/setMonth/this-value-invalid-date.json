@@ -105,7 +105,9 @@
               "start": 741,
               "end": 742,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -157,7 +159,9 @@
             "start": 776,
             "end": 798,
             "value": "return value (month)",
-            "raw": "'return value (month)'"
+            "raw": "'return value (month)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +232,9 @@
             "start": 839,
             "end": 876,
             "value": "[[DateValue]] internal slot (month)",
-            "raw": "'[[DateValue]] internal slot (month)'"
+            "raw": "'[[DateValue]] internal slot (month)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,14 +320,18 @@
               "start": 926,
               "end": 927,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 929,
               "end": 930,
               "value": 7,
-              "raw": "7"
+              "raw": "7",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -373,7 +383,9 @@
             "start": 964,
             "end": 985,
             "value": "return value (date)",
-            "raw": "'return value (date)'"
+            "raw": "'return value (date)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -444,7 +456,9 @@
             "start": 1026,
             "end": 1063,
             "value": "[[DateValue]] internal slot (month)",
-            "raw": "'[[DateValue]] internal slot (month)'"
+            "raw": "'[[DateValue]] internal slot (month)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

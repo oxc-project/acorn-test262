@@ -23,7 +23,9 @@
             "start": 1664,
             "end": 1665,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -153,7 +155,9 @@
                             "start": 1785,
                             "end": 1791,
                             "value": "FAIL",
-                            "raw": "'FAIL'"
+                            "raw": "'FAIL'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -201,7 +205,9 @@
                         "start": 1823,
                         "end": 1836,
                         "value": "constructor",
-                        "raw": "'constructor'"
+                        "raw": "'constructor'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -302,7 +308,9 @@
                       "start": 1944,
                       "end": 1945,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -473,7 +481,9 @@
                           "start": 2094,
                           "end": 2122,
                           "value": "Promise should be rejected",
-                          "raw": "\"Promise should be rejected\""
+                          "raw": "\"Promise should be rejected\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -519,14 +529,18 @@
                         "start": 2158,
                         "end": 2159,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2161,
                         "end": 2187,
                         "value": "iterator closed properly",
-                        "raw": "'iterator closed properly'"
+                        "raw": "'iterator closed properly'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

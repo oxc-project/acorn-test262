@@ -230,7 +230,9 @@
                                       "start": 705,
                                       "end": 716,
                                       "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "raw": "'fulfilled'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -280,7 +282,9 @@
                                       "start": 769,
                                       "end": 780,
                                       "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "raw": "'fulfilled'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -330,7 +334,9 @@
                                       "start": 833,
                                       "end": 844,
                                       "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "raw": "'fulfilled'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -364,7 +370,9 @@
                             "start": 879,
                             "end": 887,
                             "value": "values",
-                            "raw": "'values'"
+                            "raw": "'values'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -407,7 +415,9 @@
                             "start": 918,
                             "end": 955,
                             "value": "The promise should not be rejected.",
-                            "raw": "'The promise should not be rejected.'"
+                            "raw": "'The promise should not be rejected.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

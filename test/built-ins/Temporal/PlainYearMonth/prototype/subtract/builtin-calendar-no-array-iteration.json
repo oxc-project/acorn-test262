@@ -160,7 +160,9 @@
                       "start": 541,
                       "end": 571,
                       "value": "Array should not be iterated",
-                      "raw": "\"Array should not be iterated\""
+                      "raw": "\"Array should not be iterated\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -214,21 +216,27 @@
                 "start": 622,
                 "end": 626,
                 "value": 2023,
-                "raw": "2023"
+                "raw": "2023",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 628,
                 "end": 629,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 631,
                 "end": 640,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -287,7 +295,9 @@
                   "start": 670,
                   "end": 671,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -309,7 +319,9 @@
                   "start": 681,
                   "end": 682,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

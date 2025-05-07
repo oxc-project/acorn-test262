@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?m:es$|(?-m:js$))",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 1742,
                 "end": 1749,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 1752,
             "end": 1800,
             "value": "first $ should match newline in modified group",
-            "raw": "\"first $ should match newline in modified group\""
+            "raw": "\"first $ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +142,9 @@
                 "start": 1819,
                 "end": 1823,
                 "value": "js",
-                "raw": "\"js\""
+                "raw": "\"js\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -147,7 +154,9 @@
             "start": 1826,
             "end": 1887,
             "value": "second $ should match end of input in nested modified group",
-            "raw": "\"second $ should match end of input in nested modified group\""
+            "raw": "\"second $ should match end of input in nested modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -203,7 +212,9 @@
                   "start": 1907,
                   "end": 1914,
                   "value": "js\ns",
-                  "raw": "\"js\\ns\""
+                  "raw": "\"js\\ns\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -214,7 +225,9 @@
             "start": 1917,
             "end": 1977,
             "value": "second $ should not match newline in nested modified group",
-            "raw": "\"second $ should not match newline in nested modified group\""
+            "raw": "\"second $ should not match newline in nested modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +257,8 @@
             "regex": {
               "pattern": "(?m-:es$|(?-m:js$))",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -294,7 +308,9 @@
                 "start": 2030,
                 "end": 2037,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -304,7 +320,9 @@
             "start": 2040,
             "end": 2088,
             "value": "first $ should match newline in modified group",
-            "raw": "\"first $ should match newline in modified group\""
+            "raw": "\"first $ should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -354,7 +372,9 @@
                 "start": 2107,
                 "end": 2111,
                 "value": "js",
-                "raw": "\"js\""
+                "raw": "\"js\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -364,7 +384,9 @@
             "start": 2114,
             "end": 2175,
             "value": "second $ should match end of input in nested modified group",
-            "raw": "\"second $ should match end of input in nested modified group\""
+            "raw": "\"second $ should match end of input in nested modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -420,7 +442,9 @@
                   "start": 2195,
                   "end": 2202,
                   "value": "js\ns",
-                  "raw": "\"js\\ns\""
+                  "raw": "\"js\\ns\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -431,7 +455,9 @@
             "start": 2205,
             "end": 2265,
             "value": "second $ should not match newline in nested modified group",
-            "raw": "\"second $ should not match newline in nested modified group\""
+            "raw": "\"second $ should not match newline in nested modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

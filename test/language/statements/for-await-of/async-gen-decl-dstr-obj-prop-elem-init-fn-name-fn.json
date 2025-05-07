@@ -55,7 +55,9 @@
             "start": 1686,
             "end": 1687,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -251,7 +253,9 @@
                         "start": 1832,
                         "end": 1840,
                         "value": "xFnexp",
-                        "raw": "'xFnexp'"
+                        "raw": "'xFnexp'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -283,7 +287,9 @@
                         "start": 1870,
                         "end": 1876,
                         "value": "name",
-                        "raw": "'name'"
+                        "raw": "'name'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -308,7 +314,9 @@
                               "start": 1898,
                               "end": 1903,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -330,7 +338,9 @@
                               "start": 1921,
                               "end": 1926,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -352,7 +362,9 @@
                               "start": 1948,
                               "end": 1952,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -374,7 +386,9 @@
                               "start": 1967,
                               "end": 1974,
                               "value": "fnexp",
-                              "raw": "'fnexp'"
+                              "raw": "'fnexp'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -404,7 +418,9 @@
                       "start": 2000,
                       "end": 2001,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -546,14 +562,18 @@
                       "start": 2088,
                       "end": 2089,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 2091,
                       "end": 2123,
                       "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "raw": "'iteration occurred as expected'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

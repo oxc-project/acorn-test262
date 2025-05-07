@@ -23,7 +23,9 @@
             "start": 337,
             "end": 338,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -85,7 +87,9 @@
                       "start": 379,
                       "end": 381,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -124,7 +128,9 @@
                               "start": 435,
                               "end": 473,
                               "value": "#1.1: \"break woohoo\" must break loop",
-                              "raw": "'#1.1: \"break woohoo\" must break loop'"
+                              "raw": "'#1.1: \"break woohoo\" must break loop'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -140,7 +146,9 @@
               "start": 494,
               "end": 498,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -163,7 +171,9 @@
                   "start": 527,
                   "end": 561,
                   "value": "This code should be unreacheable",
-                  "raw": "'This code should be unreacheable'"
+                  "raw": "'This code should be unreacheable'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -216,7 +226,9 @@
             "start": 586,
             "end": 588,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

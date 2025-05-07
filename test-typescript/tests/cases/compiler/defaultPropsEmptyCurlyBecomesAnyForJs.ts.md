@@ -299,7 +299,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 31,
         "raw": "\"./library\"",
-        "value": "./library"
+        "value": "./library",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -421,7 +423,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 35,
         "raw": "\"./component\"",
-        "value": "./component"
+        "value": "./component",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -533,7 +537,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 113,
                                   "end": 121,
                                   "raw": "\"string\"",
-                                  "value": "string"
+                                  "value": "string",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               {
@@ -559,7 +565,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 126,
                                   "end": 128,
                                   "raw": "42",
-                                  "value": 42
+                                  "value": 42,
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]

@@ -48,6 +48,7 @@
                 "end": 338,
                 "value": null,
                 "raw": "1_483_228_799_000_000_000n",
+                "regex": null,
                 "bigint": "1483228799000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 340,
                 "end": 345,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,7 +86,9 @@
             "start": 359,
             "end": 391,
             "value": "2016-12-31T23:59:60+00:00[UTC]",
-            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -199,14 +204,18 @@
             "start": 482,
             "end": 483,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 555,
             "value": "leap second is a valid ISO string for ZonedDateTime (first argument)",
-            "raw": "\"leap second is a valid ISO string for ZonedDateTime (first argument)\""
+            "raw": "\"leap second is a valid ISO string for ZonedDateTime (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,14 +331,18 @@
             "start": 647,
             "end": 648,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 650,
             "end": 721,
             "value": "leap second is a valid ISO string for ZonedDateTime (second argument)",
-            "raw": "\"leap second is a valid ISO string for ZonedDateTime (second argument)\""
+            "raw": "\"leap second is a valid ISO string for ZonedDateTime (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -355,7 +368,9 @@
           "start": 731,
           "end": 769,
           "value": "2000-05-02T12:34:56+23:59[+23:59:60]",
-          "raw": "\"2000-05-02T12:34:56+23:59[+23:59:60]\""
+          "raw": "\"2000-05-02T12:34:56+23:59[+23:59:60]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -460,7 +475,9 @@
             "start": 850,
             "end": 908,
             "value": "leap second in time zone name not valid (first argument)",
-            "raw": "\"leap second in time zone name not valid (first argument)\""
+            "raw": "\"leap second in time zone name not valid (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -567,7 +584,9 @@
             "start": 990,
             "end": 1049,
             "value": "leap second in time zone name not valid (second argument)",
-            "raw": "\"leap second in time zone name not valid (second argument)\""
+            "raw": "\"leap second in time zone name not valid (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

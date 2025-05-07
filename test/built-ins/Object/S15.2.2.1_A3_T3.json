@@ -38,7 +38,9 @@
                   "start": 388,
                   "end": 390,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -46,7 +48,9 @@
                   "start": 393,
                   "end": 394,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -113,7 +117,9 @@
             "start": 442,
             "end": 515,
             "value": "The value of n_obj.constructor is expected to equal the value of String",
-            "raw": "'The value of n_obj.constructor is expected to equal the value of String'"
+            "raw": "'The value of n_obj.constructor is expected to equal the value of String'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,14 +171,18 @@
             "start": 549,
             "end": 557,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 615,
             "value": "The value of `typeof n_obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -209,7 +219,9 @@
               "start": 634,
               "end": 637,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -217,7 +229,9 @@
             "start": 639,
             "end": 703,
             "value": "The result of evaluating (n_obj == \"1\") is expected to be true",
-            "raw": "'The result of evaluating (n_obj == \"1\") is expected to be true'"
+            "raw": "'The result of evaluating (n_obj == \"1\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,14 +276,18 @@
             "start": 733,
             "end": 736,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 738,
             "end": 769,
             "value": "The value of n_obj is not \"1\"",
-            "raw": "'The value of n_obj is not \"1\"'"
+            "raw": "'The value of n_obj is not \"1\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

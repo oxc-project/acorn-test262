@@ -34,7 +34,9 @@
                 "start": 402,
                 "end": 408,
                 "value": 1.2345,
-                "raw": "1.2345"
+                "raw": "1.2345",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,7 +72,9 @@
           "start": 522,
           "end": 530,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -102,7 +106,9 @@
                     "start": 559,
                     "end": 640,
                     "value": "#1: __str = String(1.2345); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(1.2345); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(1.2345); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -146,7 +152,9 @@
           "start": 846,
           "end": 854,
           "value": "1.2345",
-          "raw": "\"1.2345\""
+          "raw": "\"1.2345\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                     "start": 883,
                     "end": 950,
                     "value": "#2: __str = String(1.2345); __str === \"1.2345\". Actual: __str ===",
-                    "raw": "'#2: __str = String(1.2345); __str === \"1.2345\". Actual: __str ==='"
+                    "raw": "'#2: __str = String(1.2345); __str === \"1.2345\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -226,7 +236,9 @@
               "start": 1061,
               "end": 1072,
               "value": 1.23456789,
-              "raw": "1.234567890"
+              "raw": "1.234567890",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -260,7 +272,9 @@
           "start": 1186,
           "end": 1194,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -292,7 +306,9 @@
                     "start": 1223,
                     "end": 1309,
                     "value": "#3: __str = String(1.234567890); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#3: __str = String(1.234567890); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#3: __str = String(1.234567890); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -336,7 +352,9 @@
           "start": 1515,
           "end": 1527,
           "value": "1.23456789",
-          "raw": "\"1.23456789\""
+          "raw": "\"1.23456789\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -368,7 +386,9 @@
                     "start": 1556,
                     "end": 1632,
                     "value": "#4: __str = String(1.234567890); __str === \"1.23456789\". Actual: __str ===",
-                    "raw": "'#4: __str = String(1.234567890); __str === \"1.23456789\". Actual: __str ==='"
+                    "raw": "'#4: __str = String(1.234567890); __str === \"1.23456789\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -416,7 +436,9 @@
               "start": 1743,
               "end": 1772,
               "value": 1.2345,
-              "raw": "1.234500000000000000000000000"
+              "raw": "1.234500000000000000000000000",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -450,7 +472,9 @@
           "start": 1886,
           "end": 1894,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -482,7 +506,9 @@
                     "start": 1923,
                     "end": 2027,
                     "value": "#5: __str = String(1.234500000000000000000000000); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#5: __str = String(1.234500000000000000000000000); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#5: __str = String(1.234500000000000000000000000); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -526,7 +552,9 @@
           "start": 2233,
           "end": 2241,
           "value": "1.2345",
-          "raw": "\"1.2345\""
+          "raw": "\"1.2345\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -558,7 +586,9 @@
                     "start": 2270,
                     "end": 2360,
                     "value": "#6: __str = String(1.234500000000000000000000000); __str === \"1.2345\". Actual: __str ===",
-                    "raw": "'#6: __str = String(1.234500000000000000000000000); __str === \"1.2345\". Actual: __str ==='"
+                    "raw": "'#6: __str = String(1.234500000000000000000000000); __str === \"1.2345\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

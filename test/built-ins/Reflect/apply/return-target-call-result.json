@@ -111,7 +111,9 @@
                 "start": 457,
                 "end": 458,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",

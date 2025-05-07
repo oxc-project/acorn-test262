@@ -60,7 +60,9 @@
                     "start": 449,
                     "end": 461,
                     "value": "use strict",
-                    "raw": "\"use strict\""
+                    "raw": "\"use strict\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "directive": "use strict"
                 },
@@ -128,7 +130,9 @@
                         "start": 528,
                         "end": 541,
                         "value": "accProperty",
-                        "raw": "\"accProperty\""
+                        "raw": "\"accProperty\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -182,7 +186,9 @@
                                         "start": 622,
                                         "end": 626,
                                         "value": null,
-                                        "raw": "null"
+                                        "raw": "null",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   },
@@ -195,7 +201,9 @@
                                       "start": 655,
                                       "end": 657,
                                       "value": 11,
-                                      "raw": "11"
+                                      "raw": "11",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -253,7 +261,9 @@
                           "start": 737,
                           "end": 739,
                           "value": 11,
-                          "raw": "11"
+                          "raw": "11",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }

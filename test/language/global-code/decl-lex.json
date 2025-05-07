@@ -23,7 +23,9 @@
             "start": 697,
             "end": 698,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
           "start": 714,
           "end": 715,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -92,14 +96,18 @@
             "start": 747,
             "end": 748,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 776,
             "value": "`let` binding is mutable",
-            "raw": "'`let` binding is mutable'"
+            "raw": "'`let` binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,7 +169,9 @@
                 "start": 819,
                 "end": 831,
                 "value": "test262let",
-                "raw": "'test262let'"
+                "raw": "'test262let'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -171,14 +181,18 @@
             "start": 836,
             "end": 841,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 845,
             "end": 894,
             "value": "property not created on the global object (let)",
-            "raw": "'property not created on the global object (let)'"
+            "raw": "'property not created on the global object (let)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,7 +218,9 @@
             "start": 920,
             "end": 921,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -278,7 +294,9 @@
                       "start": 979,
                       "end": 980,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -290,7 +308,9 @@
             "start": 985,
             "end": 1024,
             "value": "`const` binding is strictly immutable",
-            "raw": "'`const` binding is strictly immutable'"
+            "raw": "'`const` binding is strictly immutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,14 +355,18 @@
             "start": 1058,
             "end": 1059,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1061,
             "end": 1097,
             "value": "`const` binding cannot be modified",
-            "raw": "'`const` binding cannot be modified'"
+            "raw": "'`const` binding cannot be modified'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -404,7 +428,9 @@
                 "start": 1140,
                 "end": 1154,
                 "value": "test262const",
-                "raw": "'test262const'"
+                "raw": "'test262const'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -414,14 +440,18 @@
             "start": 1159,
             "end": 1164,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1168,
             "end": 1219,
             "value": "property not created on the global object (const)",
-            "raw": "'property not created on the global object (const)'"
+            "raw": "'property not created on the global object (const)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +495,9 @@
           "start": 1262,
           "end": 1263,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -508,14 +540,18 @@
             "start": 1297,
             "end": 1298,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1300,
             "end": 1328,
             "value": "`class` binding is mutable",
-            "raw": "'`class` binding is mutable'"
+            "raw": "'`class` binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -577,7 +613,9 @@
                 "start": 1371,
                 "end": 1385,
                 "value": "test262class",
-                "raw": "'test262class'"
+                "raw": "'test262class'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -587,14 +625,18 @@
             "start": 1390,
             "end": 1395,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1399,
             "end": 1450,
             "value": "property not created on the global object (class)",
-            "raw": "'property not created on the global object (class)'"
+            "raw": "'property not created on the global object (class)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

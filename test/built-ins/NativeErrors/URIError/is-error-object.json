@@ -101,7 +101,9 @@
             "start": 481,
             "end": 497,
             "value": "[object Error]",
-            "raw": "\"[object Error]\""
+            "raw": "\"[object Error]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

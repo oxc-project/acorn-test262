@@ -59,7 +59,9 @@ __ESTREE_TEST__:PASS:
                         "start": 43,
                         "end": 50,
                         "raw": "'greet'",
-                        "value": "greet"
+                        "value": "greet",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
           "start": 25,
           "end": 48,
           "raw": "\"./importAsBaseClass_0\"",
-          "value": "./importAsBaseClass_0"
+          "value": "./importAsBaseClass_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

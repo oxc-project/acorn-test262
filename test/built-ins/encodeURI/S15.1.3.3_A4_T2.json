@@ -35,7 +35,9 @@
                   "start": 250,
                   "end": 287,
                   "value": "http://ru.wikipedia.org/wiki/Юникод",
-                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод\""
+                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -46,7 +48,9 @@
               "start": 293,
               "end": 360,
               "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4",
-              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4\""
+              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -75,7 +79,9 @@
                   "start": 376,
                   "end": 413,
                   "value": "http://ru.wikipedia.org/wiki/Юникод",
-                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод\""
+                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -90,7 +96,9 @@
                 "start": 419,
                 "end": 450,
                 "value": "http://ru.wikipedia.org/wiki/",
-                "raw": "\"http://ru.wikipedia.org/wiki/\""
+                "raw": "\"http://ru.wikipedia.org/wiki/\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -106,7 +114,9 @@
                     "start": 453,
                     "end": 491,
                     "value": "%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4",
-                    "raw": "\"%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4\""
+                    "raw": "\"%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -149,7 +159,9 @@
                   "start": 535,
                   "end": 576,
                   "value": "#1: http://ru.wikipedia.org/wiki/Юникод",
-                  "raw": "'#1: http://ru.wikipedia.org/wiki/Юникод'"
+                  "raw": "'#1: http://ru.wikipedia.org/wiki/Юникод'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -190,7 +202,9 @@
                   "start": 607,
                   "end": 651,
                   "value": "http://ru.wikipedia.org/wiki/Юникод#Ссылки",
-                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Ссылки\""
+                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Ссылки\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -201,7 +215,9 @@
               "start": 657,
               "end": 761,
               "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8",
-              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8\""
+              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -230,7 +246,9 @@
                   "start": 777,
                   "end": 821,
                   "value": "http://ru.wikipedia.org/wiki/Юникод#Ссылки",
-                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Ссылки\""
+                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Ссылки\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -245,7 +263,9 @@
                 "start": 827,
                 "end": 858,
                 "value": "http://ru.wikipedia.org/wiki/",
-                "raw": "\"http://ru.wikipedia.org/wiki/\""
+                "raw": "\"http://ru.wikipedia.org/wiki/\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -261,7 +281,9 @@
                     "start": 861,
                     "end": 936,
                     "value": "%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8",
-                    "raw": "\"%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8\""
+                    "raw": "\"%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -304,7 +326,9 @@
                   "start": 980,
                   "end": 1028,
                   "value": "#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки",
-                  "raw": "'#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки'"
+                  "raw": "'#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -345,7 +369,9 @@
                   "start": 1059,
                   "end": 1111,
                   "value": "http://ru.wikipedia.org/wiki/Юникод#Версии Юникода",
-                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Версии Юникода\""
+                  "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Версии Юникода\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -356,7 +382,9 @@
               "start": 1117,
               "end": 1266,
               "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0",
-              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0\""
+              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -389,7 +417,9 @@
                     "start": 1283,
                     "end": 1335,
                     "value": "http://ru.wikipedia.org/wiki/Юникод#Версии Юникода",
-                    "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Версии Юникода\""
+                    "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Версии Юникода\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -404,7 +434,9 @@
                   "start": 1341,
                   "end": 1372,
                   "value": "http://ru.wikipedia.org/wiki/",
-                  "raw": "\"http://ru.wikipedia.org/wiki/\""
+                  "raw": "\"http://ru.wikipedia.org/wiki/\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -420,7 +452,9 @@
                       "start": 1375,
                       "end": 1495,
                       "value": "%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0",
-                      "raw": "\"%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0\""
+                      "raw": "\"%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -464,7 +498,9 @@
                   "start": 1540,
                   "end": 1596,
                   "value": "#3: http://ru.wikipedia.org/wiki/Юникод#Версии Юникода",
-                  "raw": "'#3: http://ru.wikipedia.org/wiki/Юникод#Версии Юникода'"
+                  "raw": "'#3: http://ru.wikipedia.org/wiki/Юникод#Версии Юникода'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

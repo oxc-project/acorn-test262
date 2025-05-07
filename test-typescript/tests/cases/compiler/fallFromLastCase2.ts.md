@@ -81,7 +81,9 @@ __ESTREE_TEST__:PASS:
                           "start": 110,
                           "end": 113,
                           "raw": "\"1\"",
-                          "value": "1"
+                          "value": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -109,7 +111,9 @@ __ESTREE_TEST__:PASS:
                   "start": 91,
                   "end": 92,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -132,7 +136,9 @@ __ESTREE_TEST__:PASS:
                           "start": 167,
                           "end": 170,
                           "raw": "\"2\"",
-                          "value": "2"
+                          "value": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -154,7 +160,9 @@ __ESTREE_TEST__:PASS:
                   "start": 148,
                   "end": 149,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -177,7 +185,9 @@ __ESTREE_TEST__:PASS:
                           "start": 205,
                           "end": 208,
                           "raw": "\"3\"",
-                          "value": "3"
+                          "value": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -199,7 +209,9 @@ __ESTREE_TEST__:PASS:
                   "start": 186,
                   "end": 187,
                   "raw": "3",
-                  "value": 3
+                  "value": 3,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -285,7 +297,9 @@ __ESTREE_TEST__:PASS:
                           "start": 297,
                           "end": 300,
                           "raw": "\"1\"",
-                          "value": "1"
+                          "value": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -313,7 +327,9 @@ __ESTREE_TEST__:PASS:
                   "start": 278,
                   "end": 279,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -336,7 +352,9 @@ __ESTREE_TEST__:PASS:
                           "start": 355,
                           "end": 358,
                           "raw": "\"2\"",
-                          "value": "2"
+                          "value": "2",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -375,7 +393,9 @@ __ESTREE_TEST__:PASS:
                           "start": 393,
                           "end": 396,
                           "raw": "\"3\"",
-                          "value": "3"
+                          "value": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -397,7 +417,9 @@ __ESTREE_TEST__:PASS:
                   "start": 374,
                   "end": 375,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],

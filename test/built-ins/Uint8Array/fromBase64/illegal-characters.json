@@ -28,56 +28,72 @@
                 "start": 349,
                 "end": 356,
                 "value": "Zm.9v",
-                "raw": "'Zm.9v'"
+                "raw": "'Zm.9v'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 367,
                 "value": "Zm9v^",
-                "raw": "'Zm9v^'"
+                "raw": "'Zm9v^'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 378,
                 "value": "Zg==&",
-                "raw": "'Zg==&'"
+                "raw": "'Zg==&'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 382,
                 "end": 388,
                 "value": "Z−==",
-                "raw": "'Z−=='"
+                "raw": "'Z−=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 415,
                 "end": 421,
                 "value": "Z＋==",
-                "raw": "'Z＋=='"
+                "raw": "'Z＋=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 469,
                 "value": "Zg ==",
-                "raw": "'Zg\\u00A0=='"
+                "raw": "'Zg\\u00A0=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 493,
                 "value": "Zg ==",
-                "raw": "'Zg\\u2009=='"
+                "raw": "'Zg\\u2009=='",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 523,
                 "value": "Zg ==",
-                "raw": "'Zg\\u2028=='"
+                "raw": "'Zg\\u2028=='",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

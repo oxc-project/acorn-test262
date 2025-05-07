@@ -320,7 +320,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 11,
         "raw": "'./'",
-        "value": "./"
+        "value": "./",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -347,7 +349,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 11,
         "raw": "'./'",
-        "value": "./"
+        "value": "./",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

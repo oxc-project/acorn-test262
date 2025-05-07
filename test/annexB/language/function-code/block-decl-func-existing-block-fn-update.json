@@ -82,7 +82,9 @@
                               "start": 1105,
                               "end": 1124,
                               "value": "first declaration",
-                              "raw": "'first declaration'"
+                              "raw": "'first declaration'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -123,7 +125,9 @@
                               "start": 1167,
                               "end": 1187,
                               "value": "second declaration",
-                              "raw": "'second declaration'"
+                              "raw": "'second declaration'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -208,7 +212,9 @@
             "start": 1251,
             "end": 1261,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +266,9 @@
             "start": 1292,
             "end": 1312,
             "value": "second declaration",
-            "raw": "'second declaration'"
+            "raw": "'second declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

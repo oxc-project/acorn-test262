@@ -129,7 +129,9 @@
                         "start": 1303,
                         "end": 1304,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "FunctionExpression",
@@ -238,7 +240,9 @@
               "start": 1380,
               "end": 1388,
               "value": "xCover",
-              "raw": "'xCover'"
+              "raw": "'xCover'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -271,7 +275,9 @@
             "start": 1414,
             "end": 1420,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -296,7 +302,9 @@
                   "start": 1438,
                   "end": 1443,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -318,7 +326,9 @@
                   "start": 1457,
                   "end": 1462,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -340,7 +350,9 @@
                   "start": 1480,
                   "end": 1484,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -362,7 +374,9 @@
                   "start": 1495,
                   "end": 1502,
                   "value": "cover",
-                  "raw": "'cover'"
+                  "raw": "'cover'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

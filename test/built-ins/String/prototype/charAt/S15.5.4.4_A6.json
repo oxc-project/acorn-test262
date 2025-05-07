@@ -93,7 +93,9 @@
                     "start": 447,
                     "end": 510,
                     "value": "#1: String.prototype.charAt.prototype === undefined. Actual: ",
-                    "raw": "'#1: String.prototype.charAt.prototype === undefined. Actual: '"
+                    "raw": "'#1: String.prototype.charAt.prototype === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"dep\"",
-        "value": "dep"
+        "value": "dep",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

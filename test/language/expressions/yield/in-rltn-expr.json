@@ -47,7 +47,9 @@
                 "start": 446,
                 "end": 450,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -148,7 +150,9 @@
                     "start": 514,
                     "end": 519,
                     "value": "hit",
-                    "raw": "'hit'"
+                    "raw": "'hit'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -190,7 +194,9 @@
                     "start": 544,
                     "end": 550,
                     "value": "miss",
-                    "raw": "'miss'"
+                    "raw": "'miss'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -239,7 +245,9 @@
           "start": 571,
           "end": 575,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -317,7 +325,9 @@
               "start": 614,
               "end": 621,
               "value": "first",
-              "raw": "'first'"
+              "raw": "'first'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -376,14 +386,18 @@
             "start": 659,
             "end": 664,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 701,
             "value": "`done` property (first iteration)",
-            "raw": "'`done` property (first iteration)'"
+            "raw": "'`done` property (first iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -441,14 +455,18 @@
             "start": 739,
             "end": 743,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 781,
             "value": "`value` property (first iteration)",
-            "raw": "'`value` property (first iteration)'"
+            "raw": "'`value` property (first iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -499,7 +517,9 @@
             "start": 822,
             "end": 881,
             "value": "generator paused prior to evaluating AssignmentExpression",
-            "raw": "'generator paused prior to evaluating AssignmentExpression'"
+            "raw": "'generator paused prior to evaluating AssignmentExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -549,7 +569,9 @@
               "start": 909,
               "end": 917,
               "value": "second",
-              "raw": "'second'"
+              "raw": "'second'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -608,14 +630,18 @@
             "start": 955,
             "end": 960,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 962,
             "end": 998,
             "value": "`done` property (second iteration)",
-            "raw": "'`done` property (second iteration)'"
+            "raw": "'`done` property (second iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -673,14 +699,18 @@
             "start": 1039,
             "end": 1044,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1046,
             "end": 1083,
             "value": "`value` property (second iteration)",
-            "raw": "'`value` property (second iteration)'"
+            "raw": "'`value` property (second iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -725,14 +755,18 @@
             "start": 1111,
             "end": 1119,
             "value": "second",
-            "raw": "'second'"
+            "raw": "'second'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1121,
             "end": 1158,
             "value": "value of first AssignmentExpression",
-            "raw": "'value of first AssignmentExpression'"
+            "raw": "'value of first AssignmentExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -782,7 +816,9 @@
               "start": 1185,
               "end": 1192,
               "value": "third",
-              "raw": "'third'"
+              "raw": "'third'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -841,14 +877,18 @@
             "start": 1230,
             "end": 1234,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1236,
             "end": 1271,
             "value": "`done` property (third iteration)",
-            "raw": "'`done` property (third iteration)'"
+            "raw": "'`done` property (third iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -912,7 +952,9 @@
             "start": 1323,
             "end": 1359,
             "value": "`value` property (third iteration)",
-            "raw": "'`value` property (third iteration)'"
+            "raw": "'`value` property (third iteration)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -957,14 +999,18 @@
             "start": 1387,
             "end": 1394,
             "value": "third",
-            "raw": "'third'"
+            "raw": "'third'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1396,
             "end": 1434,
             "value": "value of second AssignmentExpression",
-            "raw": "'value of second AssignmentExpression'"
+            "raw": "'value of second AssignmentExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

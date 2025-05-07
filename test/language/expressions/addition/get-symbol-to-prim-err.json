@@ -73,7 +73,9 @@
             "start": 867,
             "end": 868,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -297,7 +299,9 @@
                             "start": 1072,
                             "end": 1073,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -391,7 +395,9 @@
             "start": 1149,
             "end": 1195,
             "value": "error from property access of left-hand side",
-            "raw": "'error from property access of left-hand side'"
+            "raw": "'error from property access of left-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +442,9 @@
             "start": 1227,
             "end": 1228,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +529,9 @@
             "start": 1297,
             "end": 1344,
             "value": "error from property access of right-hand side",
-            "raw": "'error from property access of right-hand side'"
+            "raw": "'error from property access of right-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -566,7 +576,9 @@
             "start": 1376,
             "end": 1377,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

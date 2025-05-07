@@ -85,7 +85,9 @@
                   "start": 482,
                   "end": 483,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -385,7 +387,9 @@
             "start": 720,
             "end": 756,
             "value": "handler object as the trap context",
-            "raw": "\"handler object as the trap context\""
+            "raw": "\"handler object as the trap context\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +440,9 @@
             "start": 793,
             "end": 830,
             "value": "first argument is the target object",
-            "raw": "\"first argument is the target object\""
+            "raw": "\"first argument is the target object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -481,14 +487,18 @@
             "start": 857,
             "end": 863,
             "value": "attr",
-            "raw": "\"attr\""
+            "raw": "\"attr\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 865,
             "end": 903,
             "value": "second argument is the property name",
-            "raw": "\"second argument is the property name\""
+            "raw": "\"second argument is the property name\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

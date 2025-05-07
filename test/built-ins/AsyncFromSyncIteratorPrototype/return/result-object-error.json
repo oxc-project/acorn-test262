@@ -126,7 +126,9 @@
                                               "start": 966,
                                               "end": 967,
                                               "value": 1,
-                                              "raw": "1"
+                                              "raw": "1",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           },
@@ -148,7 +150,9 @@
                                               "start": 975,
                                               "end": 980,
                                               "value": false,
-                                              "raw": "false"
+                                              "raw": "false",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "kind": "init"
                                           }
@@ -196,7 +200,9 @@
                                         "start": 1025,
                                         "end": 1026,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -467,7 +473,9 @@
                                               "start": 1229,
                                               "end": 1264,
                                               "value": "Promise should be rejected, got: ",
-                                              "raw": "\"Promise should be rejected, got: \""
+                                              "raw": "\"Promise should be rejected, got: \"",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "operator": "+",
                                             "right": {
@@ -584,7 +592,9 @@
                                               "start": 1382,
                                               "end": 1407,
                                               "value": "Expect TypeError, got: ",
-                                              "raw": "\"Expect TypeError, got: \""
+                                              "raw": "\"Expect TypeError, got: \"",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "operator": "+",
                                             "right": {
@@ -757,14 +767,18 @@
                                                             "start": 1494,
                                                             "end": 1498,
                                                             "value": true,
-                                                            "raw": "true"
+                                                            "raw": "true",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 1500,
                                                             "end": 1527,
                                                             "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "raw": "'the iterator is completed'",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "optional": false
@@ -815,7 +829,9 @@
                                                             "start": 1573,
                                                             "end": 1593,
                                                             "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "raw": "'value is undefined'",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "optional": false

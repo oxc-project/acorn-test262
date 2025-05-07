@@ -27,7 +27,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 23,
         "raw": "\"./jsx\"",
-        "value": "./jsx"
+        "value": "./jsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

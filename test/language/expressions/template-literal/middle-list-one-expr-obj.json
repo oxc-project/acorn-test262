@@ -84,7 +84,9 @@
                           "start": 557,
                           "end": 573,
                           "value": "\"own\" toString",
-                          "raw": "'\"own\" toString'"
+                          "raw": "'\"own\" toString'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -136,7 +138,9 @@
                 "start": 603,
                 "end": 604,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -183,7 +187,9 @@
             "start": 617,
             "end": 636,
             "value": "0 [object Object]",
-            "raw": "'0 [object Object]'"
+            "raw": "'0 [object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -227,7 +233,9 @@
                 "start": 659,
                 "end": 660,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -274,7 +282,9 @@
             "start": 673,
             "end": 692,
             "value": "0 [object Object]",
-            "raw": "'0 [object Object]'"
+            "raw": "'0 [object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,7 +328,9 @@
                 "start": 715,
                 "end": 716,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -365,7 +377,9 @@
             "start": 730,
             "end": 750,
             "value": "0 [object Object]2",
-            "raw": "'0 [object Object]2'"
+            "raw": "'0 [object Object]2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +423,9 @@
                 "start": 773,
                 "end": 774,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -456,7 +472,9 @@
             "start": 788,
             "end": 808,
             "value": "0 [object Object]2",
-            "raw": "'0 [object Object]2'"
+            "raw": "'0 [object Object]2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -500,7 +518,9 @@
                 "start": 832,
                 "end": 833,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -547,7 +567,9 @@
             "start": 847,
             "end": 865,
             "value": "0 \"own\" toString",
-            "raw": "'0 \"own\" toString'"
+            "raw": "'0 \"own\" toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -591,7 +613,9 @@
                 "start": 888,
                 "end": 889,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -638,7 +662,9 @@
             "start": 903,
             "end": 921,
             "value": "0 \"own\" toString",
-            "raw": "'0 \"own\" toString'"
+            "raw": "'0 \"own\" toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -682,7 +708,9 @@
                 "start": 944,
                 "end": 945,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -729,7 +757,9 @@
             "start": 960,
             "end": 979,
             "value": "0 \"own\" toString2",
-            "raw": "'0 \"own\" toString2'"
+            "raw": "'0 \"own\" toString2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -773,7 +803,9 @@
                 "start": 1002,
                 "end": 1003,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -820,7 +852,9 @@
             "start": 1018,
             "end": 1037,
             "value": "0 \"own\" toString2",
-            "raw": "'0 \"own\" toString2'"
+            "raw": "'0 \"own\" toString2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

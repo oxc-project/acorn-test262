@@ -12,7 +12,9 @@
         "start": 1590,
         "end": 1594,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -51,7 +53,9 @@
                         "start": 1603,
                         "end": 1646,
                         "value": "./eval-gtbndng-indirect-update_FIXTURE.js",
-                        "raw": "'./eval-gtbndng-indirect-update_FIXTURE.js'"
+                        "raw": "'./eval-gtbndng-indirect-update_FIXTURE.js'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "options": null
                     },
@@ -138,7 +142,9 @@
                                   "start": 1699,
                                   "end": 1700,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -234,7 +240,9 @@
                                   "start": 1971,
                                   "end": 1972,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false

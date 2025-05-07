@@ -34,7 +34,9 @@
                 "start": 399,
                 "end": 405,
                 "value": "abba",
-                "raw": "\"abba\""
+                "raw": "\"abba\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -129,7 +131,9 @@
                   "start": 576,
                   "end": 668,
                   "value": "#1: var __str__obj = new String(\"abba\"); String.prototype.isPrototypeOf(__str__obj)===true",
-                  "raw": "'#1: var __str__obj = new String(\"abba\"); String.prototype.isPrototypeOf(__str__obj)===true'"
+                  "raw": "'#1: var __str__obj = new String(\"abba\"); String.prototype.isPrototypeOf(__str__obj)===true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

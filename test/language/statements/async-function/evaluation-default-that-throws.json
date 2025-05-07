@@ -23,7 +23,9 @@
             "start": 415,
             "end": 419,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -144,7 +146,9 @@
                         "start": 485,
                         "end": 513,
                         "value": "promise should be rejected",
-                        "raw": "'promise should be rejected'"
+                        "raw": "'promise should be rejected'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

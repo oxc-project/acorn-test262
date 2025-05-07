@@ -48,6 +48,7 @@
                 "end": 347,
                 "value": null,
                 "raw": "957270896_987_650_000n",
+                "regex": null,
                 "bigint": "957270896987650000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 349,
                 "end": 354,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -108,6 +111,7 @@
                 "end": 424,
                 "value": null,
                 "raw": "957270896_987_650_000n",
+                "regex": null,
                 "bigint": "957270896987650000"
               },
               {
@@ -115,14 +119,18 @@
                 "start": 426,
                 "end": 431,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 442,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -163,7 +171,9 @@
                     "start": 462,
                     "end": 500,
                     "value": "2000-05-02T12:34:56.98765+00:00[UTC]",
-                    "raw": "\"2000-05-02T12:34:56.98765+00:00[UTC]\""
+                    "raw": "\"2000-05-02T12:34:56.98765+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -183,7 +193,9 @@
                     "start": 517,
                     "end": 569,
                     "value": "2000-05-02T12:34:56.98765+00:00[UTC][u-ca=gregory]",
-                    "raw": "\"2000-05-02T12:34:56.98765+00:00[UTC][u-ca=gregory]\""
+                    "raw": "\"2000-05-02T12:34:56.98765+00:00[UTC][u-ca=gregory]\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -330,7 +342,9 @@
                         "start": 698,
                         "end": 765,
                         "value": "default show options are auto, precision is auto, and no rounding",
-                        "raw": "\"default show options are auto, precision is auto, and no rounding\""
+                        "raw": "\"default show options are auto, precision is auto, and no rounding\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -433,7 +447,9 @@
                         "start": 866,
                         "end": 933,
                         "value": "default show options are auto, precision is auto, and no rounding",
-                        "raw": "\"default show options are auto, precision is auto, and no rounding\""
+                        "raw": "\"default show options are auto, precision is auto, and no rounding\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -529,7 +545,9 @@
                         "start": 1016,
                         "end": 1083,
                         "value": "default show options are auto, precision is auto, and no rounding",
-                        "raw": "\"default show options are auto, precision is auto, and no rounding\""
+                        "raw": "\"default show options are auto, precision is auto, and no rounding\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

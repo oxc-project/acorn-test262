@@ -227,7 +227,9 @@ __ESTREE_TEST__:PASS:
                         "start": 291,
                         "end": 292,
                         "raw": "5",
-                        "value": 5
+                        "value": 5,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -323,21 +325,27 @@ __ESTREE_TEST__:PASS:
                             "start": 303,
                             "end": 304,
                             "raw": "1",
-                            "value": 1
+                            "value": 1,
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 306,
                             "end": 307,
                             "raw": "2",
-                            "value": 2
+                            "value": 2,
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 309,
                             "end": 310,
                             "raw": "3",
-                            "value": 3
+                            "value": 3,
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -382,7 +390,9 @@ __ESTREE_TEST__:PASS:
                     "start": 149,
                     "end": 150,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -408,7 +418,9 @@ __ESTREE_TEST__:PASS:
                 "start": 156,
                 "end": 158,
                 "raw": "10",
-                "value": 10
+                "value": 10,
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {

@@ -238,7 +238,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 39,
         "raw": "\"./component.html\"",
-        "value": "./component.html"
+        "value": "./component.html",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -264,7 +266,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 31,
         "raw": "\"./file.js\"",
-        "value": "./file.js"
+        "value": "./file.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -308,7 +312,9 @@ __ESTREE_TEST__:PASS:
             "start": 63,
             "end": 81,
             "raw": "\"my-html5-element\"",
-            "value": "my-html5-element"
+            "value": "my-html5-element",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",

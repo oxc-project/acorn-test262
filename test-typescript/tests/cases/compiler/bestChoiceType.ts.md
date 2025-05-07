@@ -95,7 +95,8 @@ __ESTREE_TEST__:PASS:
                     "flags": "",
                     "pattern": " "
                   },
-                  "value": null
+                  "value": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -108,7 +109,9 @@ __ESTREE_TEST__:PASS:
                   "start": 23,
                   "end": 25,
                   "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "regex": null,
+                  "bigint": null
                 },
                 "optional": false,
                 "property": {
@@ -189,7 +192,8 @@ __ESTREE_TEST__:PASS:
                         "flags": "",
                         "pattern": " "
                       },
-                      "value": null
+                      "value": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -202,7 +206,9 @@ __ESTREE_TEST__:PASS:
                       "start": 118,
                       "end": 120,
                       "raw": "''",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     },
                     "optional": false,
                     "property": {
@@ -442,7 +448,8 @@ __ESTREE_TEST__:PASS:
                         "flags": "",
                         "pattern": " "
                       },
-                      "value": null
+                      "value": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -455,7 +462,9 @@ __ESTREE_TEST__:PASS:
                       "start": 226,
                       "end": 228,
                       "raw": "''",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     },
                     "optional": false,
                     "property": {

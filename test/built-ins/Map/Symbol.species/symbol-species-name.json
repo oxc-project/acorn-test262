@@ -139,7 +139,9 @@
             "start": 498,
             "end": 520,
             "value": "get [Symbol.species]",
-            "raw": "'get [Symbol.species]'"
+            "raw": "'get [Symbol.species]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

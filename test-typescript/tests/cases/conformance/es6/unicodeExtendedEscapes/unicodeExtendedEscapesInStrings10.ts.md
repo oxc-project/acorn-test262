@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 230,
             "end": 240,
             "raw": "\"\\u{D800}\"",
-            "value": "\ud800"
+            "value": "\ud800",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

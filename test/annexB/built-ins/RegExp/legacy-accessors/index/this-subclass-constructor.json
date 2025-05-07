@@ -50,7 +50,9 @@
               "start": 637,
               "end": 638,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -72,7 +74,9 @@
           "start": 645,
           "end": 646,
           "value": 9,
-          "raw": "9"
+          "raw": "9",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -117,7 +121,9 @@
                     "start": 674,
                     "end": 677,
                     "value": "$",
-                    "raw": "\"$\""
+                    "raw": "\"$\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -219,7 +225,9 @@
                       "start": 770,
                       "end": 779,
                       "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "raw": "\"RegExp.\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -235,7 +243,9 @@
                     "start": 793,
                     "end": 831,
                     "value": " getter throws for subclass receiver",
-                    "raw": "\" getter throws for subclass receiver\""
+                    "raw": "\" getter throws for subclass receiver\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

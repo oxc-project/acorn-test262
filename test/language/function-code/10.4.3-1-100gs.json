@@ -23,7 +23,9 @@
             "start": 292,
             "end": 293,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -57,7 +59,9 @@
               "start": 315,
               "end": 327,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -92,7 +96,9 @@
               "start": 354,
               "end": 357,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -127,7 +133,9 @@
                   "start": 366,
                   "end": 370,
                   "value": "ab",
-                  "raw": "\"ab\""
+                  "raw": "\"ab\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "property": {
                   "type": "Identifier",
@@ -144,7 +152,9 @@
                   "start": 379,
                   "end": 382,
                   "value": "b",
-                  "raw": "\"b\""
+                  "raw": "\"b\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -161,7 +171,9 @@
               "start": 389,
               "end": 393,
               "value": "aa",
-              "raw": "\"aa\""
+              "raw": "\"aa\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -204,7 +216,9 @@
               "start": 427,
               "end": 456,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

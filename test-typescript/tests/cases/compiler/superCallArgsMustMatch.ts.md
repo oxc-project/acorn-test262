@@ -236,7 +236,9 @@ __ESTREE_TEST__:PASS:
                           "start": 278,
                           "end": 282,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

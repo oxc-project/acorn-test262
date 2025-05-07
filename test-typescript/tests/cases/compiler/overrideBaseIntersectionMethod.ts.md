@@ -629,14 +629,18 @@ __ESTREE_TEST__:PASS:
                           "start": 392,
                           "end": 393,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 394,
                           "end": 395,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

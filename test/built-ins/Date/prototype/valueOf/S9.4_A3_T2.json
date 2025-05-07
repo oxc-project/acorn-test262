@@ -119,7 +119,9 @@
             "start": 503,
             "end": 529,
             "value": "d1.valueOf() returns NaN",
-            "raw": "'d1.valueOf() returns NaN'"
+            "raw": "'d1.valueOf() returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +230,9 @@
             "start": 609,
             "end": 635,
             "value": "d2.valueOf() returns NaN",
-            "raw": "'d2.valueOf() returns NaN'"
+            "raw": "'d2.valueOf() returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +348,9 @@
             "start": 716,
             "end": 742,
             "value": "d3.valueOf() returns NaN",
-            "raw": "'d3.valueOf() returns NaN'"
+            "raw": "'d3.valueOf() returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -381,7 +387,9 @@
                 "start": 775,
                 "end": 776,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -448,14 +456,18 @@
             "start": 810,
             "end": 811,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 813,
             "end": 841,
             "value": "d4.valueOf() must return 0",
-            "raw": "'d4.valueOf() must return 0'"
+            "raw": "'d4.valueOf() must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -498,7 +510,9 @@
                   "start": 875,
                   "end": 876,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -566,14 +580,18 @@
             "start": 910,
             "end": 911,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 941,
             "value": "d5.valueOf() must return 0",
-            "raw": "'d5.valueOf() must return 0'"
+            "raw": "'d5.valueOf() must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

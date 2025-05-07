@@ -471,7 +471,9 @@
             "start": 1181,
             "end": 1190,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -529,7 +531,9 @@
             "start": 1220,
             "end": 1229,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,7 +572,9 @@
             "start": 1242,
             "end": 1255,
             "value": "outer class",
-            "raw": "'outer class'"
+            "raw": "'outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -626,7 +632,9 @@
             "start": 1281,
             "end": 1294,
             "value": "outer class",
-            "raw": "'outer class'"
+            "raw": "'outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -719,7 +727,9 @@
                         "start": 1355,
                         "end": 1360,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -733,7 +743,9 @@
             "start": 1366,
             "end": 1424,
             "value": "accessed inner class field from an object of outer class",
-            "raw": "'accessed inner class field from an object of outer class'"
+            "raw": "'accessed inner class field from an object of outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -20,7 +20,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "test": {
@@ -36,7 +37,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "update": {
@@ -52,7 +54,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "body": {
@@ -77,7 +80,8 @@
                 "regex": {
                   "pattern": "1",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             }
           },
@@ -127,7 +131,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "update": {
@@ -143,7 +148,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "body": {
@@ -168,7 +174,8 @@
                 "regex": {
                   "pattern": "1",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             }
           },
@@ -218,7 +225,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "update": {
@@ -234,7 +242,8 @@
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       },
       "body": {
@@ -259,7 +268,8 @@
                 "regex": {
                   "pattern": "1",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             }
           },

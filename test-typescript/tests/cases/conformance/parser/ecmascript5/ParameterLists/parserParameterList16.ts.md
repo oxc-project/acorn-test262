@@ -66,7 +66,9 @@ __ESTREE_TEST__:PASS:
                     "start": 21,
                     "end": 22,
                     "raw": "4",
-                    "value": 4
+                    "value": 4,
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }

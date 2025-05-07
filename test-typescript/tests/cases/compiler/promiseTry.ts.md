@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                     "start": 31,
                     "end": 44,
                     "raw": "\"Sync result\"",
-                    "value": "Sync result"
+                    "value": "Sync result",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -105,7 +107,9 @@ __ESTREE_TEST__:PASS:
                     "start": 88,
                     "end": 102,
                     "raw": "\"Async result\"",
-                    "value": "Async result"
+                    "value": "Async result",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -181,7 +185,9 @@ __ESTREE_TEST__:PASS:
                   "start": 137,
                   "end": 150,
                   "raw": "\"Sync result\"",
-                  "value": "Sync result"
+                  "value": "Sync result",
+                  "regex": null,
+                  "bigint": null
                 },
                 "expression": true,
                 "generator": false,
@@ -258,7 +264,9 @@ __ESTREE_TEST__:PASS:
                   "start": 187,
                   "end": 201,
                   "raw": "\"Async result\"",
-                  "value": "Async result"
+                  "value": "Async result",
+                  "regex": null,
+                  "bigint": null
                 },
                 "expression": true,
                 "generator": false,
@@ -321,7 +329,9 @@ __ESTREE_TEST__:PASS:
               "start": 254,
               "end": 268,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -354,7 +364,9 @@ __ESTREE_TEST__:PASS:
             "start": 270,
             "end": 275,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -406,7 +418,9 @@ __ESTREE_TEST__:PASS:
               "start": 299,
               "end": 313,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -430,7 +444,9 @@ __ESTREE_TEST__:PASS:
             "start": 315,
             "end": 320,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -482,7 +498,9 @@ __ESTREE_TEST__:PASS:
               "start": 383,
               "end": 397,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -551,7 +569,9 @@ __ESTREE_TEST__:PASS:
               "start": 441,
               "end": 455,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -650,7 +670,9 @@ __ESTREE_TEST__:PASS:
               "start": 510,
               "end": 524,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -695,7 +717,9 @@ __ESTREE_TEST__:PASS:
             "start": 526,
             "end": 531,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -747,7 +771,9 @@ __ESTREE_TEST__:PASS:
               "start": 555,
               "end": 569,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -825,7 +851,9 @@ __ESTREE_TEST__:PASS:
               "start": 641,
               "end": 655,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -839,7 +867,9 @@ __ESTREE_TEST__:PASS:
             "start": 657,
             "end": 662,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -891,7 +921,9 @@ __ESTREE_TEST__:PASS:
               "start": 731,
               "end": 745,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -942,14 +974,18 @@ __ESTREE_TEST__:PASS:
             "start": 747,
             "end": 752,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 754,
             "end": 756,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1001,7 +1037,9 @@ __ESTREE_TEST__:PASS:
               "start": 841,
               "end": 855,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -1052,21 +1090,27 @@ __ESTREE_TEST__:PASS:
             "start": 857,
             "end": 862,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 864,
             "end": 866,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 868,
             "end": 873,
             "raw": "\"baz\"",
-            "value": "baz"
+            "value": "baz",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1118,7 +1162,9 @@ __ESTREE_TEST__:PASS:
               "start": 957,
               "end": 971,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -1169,7 +1215,9 @@ __ESTREE_TEST__:PASS:
             "start": 973,
             "end": 978,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1221,7 +1269,9 @@ __ESTREE_TEST__:PASS:
               "start": 1024,
               "end": 1038,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -1272,7 +1322,9 @@ __ESTREE_TEST__:PASS:
             "start": 1040,
             "end": 1045,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -1324,7 +1376,9 @@ __ESTREE_TEST__:PASS:
               "start": 1091,
               "end": 1105,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -1375,7 +1429,9 @@ __ESTREE_TEST__:PASS:
             "start": 1107,
             "end": 1112,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1436,7 +1492,9 @@ __ESTREE_TEST__:PASS:
               "start": 1169,
               "end": 1183,
               "raw": "\"Async result\"",
-              "value": "Async result"
+              "value": "Async result",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -1487,14 +1545,18 @@ __ESTREE_TEST__:PASS:
             "start": 1185,
             "end": 1190,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1192,
             "end": 1194,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

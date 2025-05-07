@@ -75,7 +75,9 @@
                   "start": 454,
                   "end": 465,
                   "value": "x-default",
-                  "raw": "\"x-default\""
+                  "raw": "\"x-default\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -100,7 +102,9 @@
                         "start": 481,
                         "end": 485,
                         "value": "fr",
-                        "raw": "\"fr\""
+                        "raw": "\"fr\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -122,7 +126,9 @@
                         "start": 497,
                         "end": 503,
                         "value": "Cyrl",
-                        "raw": "\"Cyrl\""
+                        "raw": "\"Cyrl\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -144,7 +150,9 @@
                         "start": 515,
                         "end": 519,
                         "value": "DE",
-                        "raw": "\"DE\""
+                        "raw": "\"DE\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -166,7 +174,9 @@
                         "start": 540,
                         "end": 546,
                         "value": "latn",
-                        "raw": "\"latn\""
+                        "raw": "\"latn\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

@@ -187,7 +187,9 @@ __ESTREE_TEST__:PASS:
           "start": 32,
           "end": 48,
           "raw": "\"helloInterface\"",
-          "value": "helloInterface"
+          "value": "helloInterface",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -214,7 +216,9 @@ __ESTREE_TEST__:PASS:
           "start": 83,
           "end": 99,
           "raw": "\"helloNamespace\"",
-          "value": "helloNamespace"
+          "value": "helloNamespace",
+          "regex": null,
+          "bigint": null
         }
       }
     },

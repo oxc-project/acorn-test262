@@ -98,7 +98,9 @@
                         "start": 472,
                         "end": 477,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -188,7 +190,9 @@
                             "start": 589,
                             "end": 642,
                             "value": "Throws an instance of the matching custom TypeError",
-                            "raw": "\"Throws an instance of the matching custom TypeError\""
+                            "raw": "\"Throws an instance of the matching custom TypeError\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -433,7 +437,9 @@
                               "start": 874,
                               "end": 878,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -503,7 +509,9 @@
                                     "start": 951,
                                     "end": 985,
                                     "value": "Expected a Test262Error, but a '",
-                                    "raw": "\"Expected a Test262Error, but a '\""
+                                    "raw": "\"Expected a Test262Error, but a '\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -545,7 +553,9 @@
                                   "start": 1027,
                                   "end": 1042,
                                   "value": "' was thrown.",
-                                  "raw": "\"' was thrown.\""
+                                  "raw": "\"' was thrown.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -586,7 +596,9 @@
                               "start": 1096,
                               "end": 1164,
                               "value": "assert.throwsAsync did not reject a collision of constructor names",
-                              "raw": "\"assert.throwsAsync did not reject a collision of constructor names\""
+                              "raw": "\"assert.throwsAsync did not reject a collision of constructor names\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -615,7 +627,9 @@
                       "start": 1188,
                       "end": 1193,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -802,7 +816,9 @@
                               "start": 1378,
                               "end": 1382,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -872,7 +888,9 @@
                                     "start": 1455,
                                     "end": 1489,
                                     "value": "Expected a Test262Error, but a '",
-                                    "raw": "\"Expected a Test262Error, but a '\""
+                                    "raw": "\"Expected a Test262Error, but a '\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -914,7 +932,9 @@
                                   "start": 1531,
                                   "end": 1546,
                                   "value": "' was thrown.",
-                                  "raw": "\"' was thrown.\""
+                                  "raw": "\"' was thrown.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -955,7 +975,9 @@
                               "start": 1600,
                               "end": 1668,
                               "value": "assert.throwsAsync did not reject a collision of constructor names",
-                              "raw": "\"assert.throwsAsync did not reject a collision of constructor names\""
+                              "raw": "\"assert.throwsAsync did not reject a collision of constructor names\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

@@ -72,7 +72,9 @@
                 "start": 285,
                 "end": 286,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -165,7 +167,9 @@
             "start": 330,
             "end": 331,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -241,7 +245,9 @@
                             "start": 380,
                             "end": 401,
                             "value": "Should not fulfill.",
-                            "raw": "\"Should not fulfill.\""
+                            "raw": "\"Should not fulfill.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -296,7 +302,9 @@
                             "start": 436,
                             "end": 437,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -354,14 +362,18 @@
                             "start": 476,
                             "end": 477,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 479,
                             "end": 529,
                             "value": "The value of sequence.length is expected to be 4",
-                            "raw": "'The value of sequence.length is expected to be 4'"
+                            "raw": "'The value of sequence.length is expected to be 4'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -393,7 +405,9 @@
                             "start": 556,
                             "end": 577,
                             "value": "This happens second",
-                            "raw": "\"This happens second\""
+                            "raw": "\"This happens second\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -536,7 +550,9 @@
                                 "start": 650,
                                 "end": 651,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -594,14 +610,18 @@
                                 "start": 690,
                                 "end": 691,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 693,
                                 "end": 743,
                                 "value": "The value of sequence.length is expected to be 3",
-                                "raw": "'The value of sequence.length is expected to be 3'"
+                                "raw": "'The value of sequence.length is expected to be 3'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -633,7 +653,9 @@
                                 "start": 772,
                                 "end": 792,
                                 "value": "This happens first",
-                                "raw": "\"This happens first\""
+                                "raw": "\"This happens first\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -702,7 +724,9 @@
                             "start": 832,
                             "end": 833,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -760,14 +784,18 @@
                             "start": 872,
                             "end": 873,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 875,
                             "end": 925,
                             "value": "The value of sequence.length is expected to be 5",
-                            "raw": "'The value of sequence.length is expected to be 5'"
+                            "raw": "'The value of sequence.length is expected to be 5'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -799,7 +827,9 @@
                             "start": 954,
                             "end": 974,
                             "value": "This happens third",
-                            "raw": "\"This happens third\""
+                            "raw": "\"This happens third\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -870,7 +900,9 @@
             "start": 1015,
             "end": 1016,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

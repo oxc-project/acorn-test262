@@ -34,7 +34,9 @@
                 "start": 495,
                 "end": 496,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -85,7 +87,9 @@
                     "start": 527,
                     "end": 528,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -186,7 +190,9 @@
                   "start": 601,
                   "end": 610,
                   "value": "test262",
-                  "raw": "'test262'"
+                  "raw": "'test262'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -288,7 +294,9 @@
             "start": 672,
             "end": 690,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,7 +394,9 @@
             "start": 751,
             "end": 769,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

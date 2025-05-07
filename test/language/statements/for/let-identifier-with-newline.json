@@ -13,7 +13,9 @@
         "start": 471,
         "end": 476,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "update": null,
       "body": {
@@ -48,7 +50,9 @@
           "start": 495,
           "end": 496,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     }

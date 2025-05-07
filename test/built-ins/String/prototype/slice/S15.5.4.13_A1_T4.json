@@ -46,7 +46,9 @@
                         "start": 466,
                         "end": 476,
                         "value": "gnulluna",
-                        "raw": "\"gnulluna\""
+                        "raw": "\"gnulluna\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -70,7 +72,9 @@
               "start": 489,
               "end": 493,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "UnaryExpression",
@@ -83,7 +87,9 @@
                 "start": 496,
                 "end": 497,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -95,7 +101,9 @@
           "start": 503,
           "end": 510,
           "value": "gnull",
-          "raw": "\"gnull\""
+          "raw": "\"gnull\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -127,7 +135,9 @@
                     "start": 539,
                     "end": 614,
                     "value": "#1: function(){return \"gnulluna\"}().slice(null, -3) === \"gnull\". Actual: ",
-                    "raw": "'#1: function(){return \"gnulluna\"}().slice(null, -3) === \"gnull\". Actual: '"
+                    "raw": "'#1: function(){return \"gnulluna\"}().slice(null, -3) === \"gnull\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -165,7 +175,9 @@
                                   "start": 641,
                                   "end": 651,
                                   "value": "gnulluna",
-                                  "raw": "\"gnulluna\""
+                                  "raw": "\"gnulluna\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -189,7 +201,9 @@
                         "start": 664,
                         "end": 668,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "UnaryExpression",
@@ -202,7 +216,9 @@
                           "start": 671,
                           "end": 672,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

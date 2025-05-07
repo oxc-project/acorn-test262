@@ -392,7 +392,9 @@ __ESTREE_TEST__:PASS:
                       "start": 256,
                       "end": 263,
                       "raw": "\"mower\"",
-                      "value": "mower"
+                      "value": "mower",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -418,7 +420,9 @@ __ESTREE_TEST__:PASS:
                       "start": 272,
                       "end": 280,
                       "raw": "\"mowing\"",
-                      "value": "mowing"
+                      "value": "mowing",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -451,7 +455,9 @@ __ESTREE_TEST__:PASS:
                       "start": 292,
                       "end": 301,
                       "raw": "\"trimmer\"",
-                      "value": "trimmer"
+                      "value": "trimmer",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -477,7 +483,9 @@ __ESTREE_TEST__:PASS:
                       "start": 310,
                       "end": 320,
                       "raw": "\"trimming\"",
-                      "value": "trimming"
+                      "value": "trimming",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -565,7 +573,9 @@ __ESTREE_TEST__:PASS:
                       "start": 366,
                       "end": 373,
                       "raw": "\"mower\"",
-                      "value": "mower"
+                      "value": "mower",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -614,7 +624,9 @@ __ESTREE_TEST__:PASS:
                             "start": 394,
                             "end": 402,
                             "raw": "\"mowing\"",
-                            "value": "mowing"
+                            "value": "mowing",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -640,7 +652,9 @@ __ESTREE_TEST__:PASS:
                             "start": 415,
                             "end": 421,
                             "raw": "\"none\"",
-                            "value": "none"
+                            "value": "none",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -676,7 +690,9 @@ __ESTREE_TEST__:PASS:
                       "start": 439,
                       "end": 448,
                       "raw": "\"trimmer\"",
-                      "value": "trimmer"
+                      "value": "trimmer",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -725,7 +741,9 @@ __ESTREE_TEST__:PASS:
                             "start": 469,
                             "end": 479,
                             "raw": "\"trimming\"",
-                            "value": "trimming"
+                            "value": "trimming",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         {
@@ -751,7 +769,9 @@ __ESTREE_TEST__:PASS:
                             "start": 492,
                             "end": 500,
                             "raw": "\"edging\"",
-                            "value": "edging"
+                            "value": "edging",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -1256,7 +1276,9 @@ __ESTREE_TEST__:PASS:
                   "start": 775,
                   "end": 782,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1282,7 +1304,9 @@ __ESTREE_TEST__:PASS:
                   "start": 791,
                   "end": 799,
                   "raw": "\"mowing\"",
-                  "value": "mowing"
+                  "value": "mowing",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1315,7 +1339,9 @@ __ESTREE_TEST__:PASS:
                   "start": 811,
                   "end": 820,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1341,7 +1367,9 @@ __ESTREE_TEST__:PASS:
                   "start": 829,
                   "end": 839,
                   "raw": "\"trimming\"",
-                  "value": "trimming"
+                  "value": "trimming",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1926,7 +1954,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1181,
                   "end": 1188,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1975,7 +2005,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1209,
                         "end": 1217,
                         "raw": "\"mowing\"",
-                        "value": "mowing"
+                        "value": "mowing",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -2001,7 +2033,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1230,
                         "end": 1236,
                         "raw": "\"none\"",
-                        "value": "none"
+                        "value": "none",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -2037,7 +2071,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1254,
                   "end": 1263,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -2086,7 +2122,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1284,
                         "end": 1294,
                         "raw": "\"trimming\"",
-                        "value": "trimming"
+                        "value": "trimming",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -2112,7 +2150,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1307,
                         "end": 1315,
                         "raw": "\"edging\"",
-                        "value": "edging"
+                        "value": "edging",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -2613,7 +2653,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1566,
                   "end": 1573,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -2639,7 +2681,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1582,
                   "end": 1590,
                   "raw": "\"mowing\"",
-                  "value": "mowing"
+                  "value": "mowing",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -2672,7 +2716,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1602,
                   "end": 1611,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -2698,7 +2744,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1620,
                   "end": 1630,
                   "raw": "\"trimming\"",
-                  "value": "trimming"
+                  "value": "trimming",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -3367,7 +3415,9 @@ __ESTREE_TEST__:PASS:
                   "start": 2002,
                   "end": 2009,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -3416,7 +3466,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2030,
                         "end": 2038,
                         "raw": "\"mowing\"",
-                        "value": "mowing"
+                        "value": "mowing",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -3442,7 +3494,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2051,
                         "end": 2057,
                         "raw": "\"none\"",
-                        "value": "none"
+                        "value": "none",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -3478,7 +3532,9 @@ __ESTREE_TEST__:PASS:
                   "start": 2075,
                   "end": 2084,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -3527,7 +3583,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2105,
                         "end": 2115,
                         "raw": "\"trimming\"",
-                        "value": "trimming"
+                        "value": "trimming",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -3553,7 +3611,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2128,
                         "end": 2136,
                         "raw": "\"edging\"",
-                        "value": "edging"
+                        "value": "edging",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

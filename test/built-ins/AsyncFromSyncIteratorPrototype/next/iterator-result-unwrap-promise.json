@@ -60,7 +60,9 @@
                     "start": 1391,
                     "end": 1392,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -252,7 +254,9 @@
                             "start": 1516,
                             "end": 1517,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "BinaryExpression",
@@ -263,7 +267,9 @@
                               "start": 1519,
                               "end": 1568,
                               "value": "result.value should be unwrapped promise, got: ",
-                              "raw": "\"result.value should be unwrapped promise, got: \""
+                              "raw": "\"result.value should be unwrapped promise, got: \"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {

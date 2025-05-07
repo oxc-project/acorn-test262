@@ -23,7 +23,9 @@
             "start": 245,
             "end": 246,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +77,9 @@
               "start": 284,
               "end": 285,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -150,7 +154,9 @@
                   "start": 337,
                   "end": 338,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -177,7 +183,9 @@
                         "start": 363,
                         "end": 407,
                         "value": "#1: Exception ===1. Actual:  Exception ===",
-                        "raw": "'#1: Exception ===1. Actual:  Exception ==='"
+                        "raw": "'#1: Exception ===1. Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -217,7 +225,9 @@
             "start": 433,
             "end": 434,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -342,7 +352,9 @@
           "start": 522,
           "end": 523,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -369,7 +381,9 @@
                 "start": 548,
                 "end": 573,
                 "value": "#2: i===1. Actual: i===",
-                "raw": "'#2: i===1. Actual: i==='"
+                "raw": "'#2: i===1. Actual: i==='",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -404,7 +418,9 @@
             "start": 597,
             "end": 598,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -518,7 +534,9 @@
           "start": 674,
           "end": 675,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -545,7 +563,9 @@
                 "start": 700,
                 "end": 725,
                 "value": "#3: i===1. Actual: i===",
-                "raw": "'#3: i===1. Actual: i==='"
+                "raw": "'#3: i===1. Actual: i==='",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -651,7 +671,9 @@
                     "start": 806,
                     "end": 807,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -695,7 +717,9 @@
                   "start": 833,
                   "end": 834,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -722,7 +746,9 @@
                         "start": 859,
                         "end": 903,
                         "value": "#4: Exception ===2. Actual:  Exception ===",
-                        "raw": "'#4: Exception ===2. Actual:  Exception ==='"
+                        "raw": "'#4: Exception ===2. Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

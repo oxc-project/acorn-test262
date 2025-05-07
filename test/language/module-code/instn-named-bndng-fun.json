@@ -49,14 +49,18 @@
             "start": 1889,
             "end": 1891,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1895,
             "end": 1964,
             "value": "binding is initialized to function value prior to module evaluation",
-            "raw": "'binding is initialized to function value prior to module evaluation'"
+            "raw": "'binding is initialized to function value prior to module evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -130,7 +134,9 @@
                       "start": 2014,
                       "end": 2018,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -142,7 +148,9 @@
             "start": 2023,
             "end": 2051,
             "value": "binding rejects assignment",
-            "raw": "'binding rejects assignment'"
+            "raw": "'binding rejects assignment'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,14 +202,18 @@
             "start": 2078,
             "end": 2080,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2082,
             "end": 2110,
             "value": "binding value is immutable",
-            "raw": "'binding value is immutable'"
+            "raw": "'binding value is immutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +247,9 @@
         "start": 2138,
         "end": 2166,
         "value": "./instn-named-bndng-fun.js",
-        "raw": "'./instn-named-bndng-fun.js'"
+        "raw": "'./instn-named-bndng-fun.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -271,7 +285,9 @@
                 "start": 2197,
                 "end": 2199,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               }
             }
           ]

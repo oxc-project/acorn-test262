@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 55,
                 "end": 68,
                 "raw": "\"./SubModule\"",
-                "value": "./SubModule"
+                "value": "./SubModule",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -254,7 +256,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 28,
         "raw": "\"OuterModule\"",
-        "value": "OuterModule"
+        "value": "OuterModule",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

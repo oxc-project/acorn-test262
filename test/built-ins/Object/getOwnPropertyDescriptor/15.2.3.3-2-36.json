@@ -35,14 +35,18 @@
                   "start": 288,
                   "end": 300,
                   "value": "123���¦�cd",
-                  "raw": "\"123���¦�cd\""
+                  "raw": "\"123���¦�cd\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 302,
                   "end": 303,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -102,7 +106,9 @@
                 "start": 356,
                 "end": 368,
                 "value": "123���¦�cd",
-                "raw": "\"123���¦�cd\""
+                "raw": "\"123���¦�cd\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -163,14 +169,18 @@
             "start": 401,
             "end": 402,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 416,
             "value": "desc.value",
-            "raw": "'desc.value'"
+            "raw": "'desc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

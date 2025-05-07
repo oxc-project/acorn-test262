@@ -25,14 +25,18 @@
                 "start": 543,
                 "end": 549,
                 "value": "name",
-                "raw": "\"name\""
+                "raw": "\"name\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 551,
                 "end": 560,
                 "value": "message",
-                "raw": "\"message\""
+                "raw": "\"message\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -169,7 +173,9 @@
                                             "start": 692,
                                             "end": 725,
                                             "value": " lookup should not be performed",
-                                            "raw": "\" lookup should not be performed\""
+                                            "raw": "\" lookup should not be performed\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]

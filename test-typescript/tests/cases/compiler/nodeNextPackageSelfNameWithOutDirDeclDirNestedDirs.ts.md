@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 32,
         "end": 48,
         "raw": "\"./src/thing.js\"",
-        "value": "./src/thing.js"
+        "value": "./src/thing.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -69,7 +71,9 @@ __ESTREE_TEST__:PASS:
         "start": 411,
         "end": 426,
         "raw": "\"@this/package\"",
-        "value": "@this/package"
+        "value": "@this/package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

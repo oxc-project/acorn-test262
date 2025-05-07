@@ -23,7 +23,9 @@
             "start": 318,
             "end": 323,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 377,
                 "end": 378,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -131,7 +135,9 @@
               "start": 422,
               "end": 427,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -201,7 +207,9 @@
             "start": 478,
             "end": 481,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -269,7 +277,9 @@
                   "start": 545,
                   "end": 549,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -414,7 +424,9 @@
           "start": 642,
           "end": 644,
           "value": 20,
-          "raw": "20"
+          "raw": "20",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -503,7 +515,9 @@
             "start": 700,
             "end": 755,
             "value": "Array.prototype.some.call(child, callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(child, callbackfn) !== true'"
+            "raw": "'Array.prototype.some.call(child, callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 319,
             "end": 327,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 375,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -126,7 +129,9 @@
                   "start": 416,
                   "end": 420,
                   "value": 2021,
-                  "raw": "2021"
+                  "raw": "2021",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -148,7 +153,9 @@
                   "start": 429,
                   "end": 431,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -170,7 +177,9 @@
                   "start": 438,
                   "end": 440,
                   "value": 28,
-                  "raw": "28"
+                  "raw": "28",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -192,7 +201,9 @@
                   "start": 450,
                   "end": 458,
                   "value": "-07:00",
-                  "raw": "\"-07:00\""
+                  "raw": "\"-07:00\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -324,7 +335,9 @@
             "start": 558,
             "end": 627,
             "value": "offset property not matching time zone is rejected (first argument)",
-            "raw": "\"offset property not matching time zone is rejected (first argument)\""
+            "raw": "\"offset property not matching time zone is rejected (first argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -431,7 +444,9 @@
             "start": 716,
             "end": 786,
             "value": "offset property not matching time zone is rejected (second argument)",
-            "raw": "\"offset property not matching time zone is rejected (second argument)\""
+            "raw": "\"offset property not matching time zone is rejected (second argument)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

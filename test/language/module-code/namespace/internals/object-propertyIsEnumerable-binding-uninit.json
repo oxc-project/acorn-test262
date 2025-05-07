@@ -25,7 +25,9 @@
         "start": 863,
         "end": 912,
         "value": "./object-propertyIsEnumerable-binding-uninit.js",
-        "raw": "\"./object-propertyIsEnumerable-binding-uninit.js\""
+        "raw": "\"./object-propertyIsEnumerable-binding-uninit.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -142,7 +144,9 @@
                         "start": 1009,
                         "end": 1018,
                         "value": "default",
-                        "raw": "\"default\""
+                        "raw": "\"default\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -164,7 +168,9 @@
         "start": 1041,
         "end": 1042,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

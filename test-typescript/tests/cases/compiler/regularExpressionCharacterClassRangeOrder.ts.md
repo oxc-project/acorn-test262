@@ -62,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "[𝘈-𝘡][𝘡-𝘈]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "[𝘈-𝘡][𝘡-𝘈]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -84,7 +86,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[𝘈-𝘡][𝘡-𝘈]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -95,7 +98,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -106,7 +110,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -117,7 +122,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -128,7 +134,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -139,7 +146,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -150,7 +158,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               }
             ]
           }

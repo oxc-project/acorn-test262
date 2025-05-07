@@ -69,7 +69,9 @@
               "start": 662,
               "end": 663,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "operator": "**",
             "right": {
@@ -77,7 +79,9 @@
               "start": 667,
               "end": 669,
               "value": 53,
-              "raw": "53"
+              "raw": "53",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "-",
@@ -86,7 +90,9 @@
             "start": 672,
             "end": 673,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -204,21 +210,27 @@
                         "start": 754,
                         "end": 755,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 757,
                         "end": 758,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 760,
                         "end": 764,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -232,7 +244,9 @@
             "start": 770,
             "end": 791,
             "value": "Length is 2**53 - 1",
-            "raw": "\"Length is 2**53 - 1\""
+            "raw": "\"Length is 2**53 - 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,7 +289,9 @@
             "start": 814,
             "end": 815,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "operator": "**",
           "right": {
@@ -283,7 +299,9 @@
             "start": 819,
             "end": 821,
             "value": 53,
-            "raw": "53"
+            "raw": "53",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -401,21 +419,27 @@
                         "start": 902,
                         "end": 903,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 905,
                         "end": 906,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 908,
                         "end": 912,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -429,7 +453,9 @@
             "start": 918,
             "end": 935,
             "value": "Length is 2**53",
-            "raw": "\"Length is 2**53\""
+            "raw": "\"Length is 2**53\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -476,7 +502,9 @@
               "start": 958,
               "end": 959,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "operator": "**",
             "right": {
@@ -484,7 +512,9 @@
               "start": 963,
               "end": 965,
               "value": 53,
-              "raw": "53"
+              "raw": "53",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -493,7 +523,9 @@
             "start": 968,
             "end": 969,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -611,21 +643,27 @@
                         "start": 1050,
                         "end": 1051,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1053,
                         "end": 1054,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1056,
                         "end": 1060,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -639,7 +677,9 @@
             "start": 1066,
             "end": 1087,
             "value": "Length is 2**53 + 2",
-            "raw": "\"Length is 2**53 + 2\""
+            "raw": "\"Length is 2**53 + 2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -794,21 +834,27 @@
                         "start": 1199,
                         "end": 1200,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1202,
                         "end": 1203,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1205,
                         "end": 1209,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -822,7 +868,9 @@
             "start": 1215,
             "end": 1235,
             "value": "Length is Infinity",
-            "raw": "\"Length is Infinity\""
+            "raw": "\"Length is Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

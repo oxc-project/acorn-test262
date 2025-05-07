@@ -109,7 +109,9 @@
                             "start": 400,
                             "end": 405,
                             "value": "set",
-                            "raw": "\"set\""
+                            "raw": "\"set\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 408,
                         "end": 413,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

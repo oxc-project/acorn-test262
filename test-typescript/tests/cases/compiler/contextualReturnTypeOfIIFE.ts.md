@@ -125,14 +125,18 @@ __ESTREE_TEST__:PASS:
                           "start": 78,
                           "end": 79,
                           "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 81,
                           "end": 86,
                           "raw": "'two'",
-                          "value": "two"
+                          "value": "two",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -270,14 +274,18 @@ __ESTREE_TEST__:PASS:
                           "start": 186,
                           "end": 187,
                           "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 189,
                           "end": 194,
                           "raw": "'two'",
-                          "value": "two"
+                          "value": "two",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -472,14 +480,18 @@ __ESTREE_TEST__:PASS:
                           "start": 270,
                           "end": 271,
                           "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 273,
                           "end": 278,
                           "raw": "'two'",
-                          "value": "two"
+                          "value": "two",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },

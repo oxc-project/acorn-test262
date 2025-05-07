@@ -23,7 +23,9 @@
             "start": 327,
             "end": 337,
             "value": "𠮷a𠮷b𠮷",
-            "raw": "'𠮷a𠮷b𠮷'"
+            "raw": "'𠮷a𠮷b𠮷'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -141,7 +143,9 @@
                       "start": 426,
                       "end": 427,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -172,7 +176,9 @@
                 "start": 446,
                 "end": 450,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -227,7 +233,8 @@
                 "regex": {
                   "pattern": "𠮷",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -242,14 +249,18 @@
                 "start": 490,
                 "end": 494,
                 "value": "𠮷",
-                "raw": "\"𠮷\""
+                "raw": "\"𠮷\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 497,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -258,7 +269,9 @@
             "start": 500,
             "end": 527,
             "value": "Basic exec without v flag",
-            "raw": "\"Basic exec without v flag\""
+            "raw": "\"Basic exec without v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -312,7 +325,8 @@
                 "regex": {
                   "pattern": "𠮷",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -327,14 +341,18 @@
                 "start": 567,
                 "end": 571,
                 "value": "𠮷",
-                "raw": "\"𠮷\""
+                "raw": "\"𠮷\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 573,
                 "end": 574,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -343,7 +361,9 @@
             "start": 577,
             "end": 595,
             "value": "Exec with u flag",
-            "raw": "\"Exec with u flag\""
+            "raw": "\"Exec with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -397,7 +417,8 @@
                 "regex": {
                   "pattern": "\\p{Script=Han}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -412,14 +433,18 @@
                 "start": 646,
                 "end": 650,
                 "value": "𠮷",
-                "raw": "\"𠮷\""
+                "raw": "\"𠮷\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 652,
                 "end": 653,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -428,7 +453,9 @@
             "start": 656,
             "end": 694,
             "value": "Unicode property escapes with u flag",
-            "raw": "\"Unicode property escapes with u flag\""
+            "raw": "\"Unicode property escapes with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +509,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -497,14 +525,18 @@
                 "start": 732,
                 "end": 736,
                 "value": "𠮷",
-                "raw": "\"𠮷\""
+                "raw": "\"𠮷\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 738,
                 "end": 739,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -513,7 +545,9 @@
             "start": 742,
             "end": 759,
             "value": "Dot with u flag",
-            "raw": "\"Dot with u flag\""
+            "raw": "\"Dot with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -567,7 +601,8 @@
                 "regex": {
                   "pattern": "𠮷",
                   "flags": "v"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -582,14 +617,18 @@
                 "start": 799,
                 "end": 803,
                 "value": "𠮷",
-                "raw": "\"𠮷\""
+                "raw": "\"𠮷\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 805,
                 "end": 806,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -598,7 +637,9 @@
             "start": 809,
             "end": 827,
             "value": "Exec with v flag",
-            "raw": "\"Exec with v flag\""
+            "raw": "\"Exec with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -652,7 +693,8 @@
                 "regex": {
                   "pattern": "\\p{Script=Han}",
                   "flags": "v"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -667,14 +709,18 @@
                 "start": 878,
                 "end": 882,
                 "value": "𠮷",
-                "raw": "\"𠮷\""
+                "raw": "\"𠮷\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 884,
                 "end": 885,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -683,7 +729,9 @@
             "start": 888,
             "end": 926,
             "value": "Unicode property escapes with v flag",
-            "raw": "\"Unicode property escapes with v flag\""
+            "raw": "\"Unicode property escapes with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -737,7 +785,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": "v"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -752,14 +801,18 @@
                 "start": 964,
                 "end": 968,
                 "value": "𠮷",
-                "raw": "\"𠮷\""
+                "raw": "\"𠮷\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 970,
                 "end": 971,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -768,7 +821,9 @@
             "start": 974,
             "end": 991,
             "value": "Dot with v flag",
-            "raw": "\"Dot with v flag\""
+            "raw": "\"Dot with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -822,7 +877,8 @@
                 "regex": {
                   "pattern": "\\p{ASCII}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -837,14 +893,18 @@
                 "start": 1038,
                 "end": 1041,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1043,
                 "end": 1044,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -853,7 +913,9 @@
             "start": 1047,
             "end": 1066,
             "value": "ASCII with u flag",
-            "raw": "\"ASCII with u flag\""
+            "raw": "\"ASCII with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -907,7 +969,8 @@
                 "regex": {
                   "pattern": "\\p{ASCII}",
                   "flags": "v"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -922,14 +985,18 @@
                 "start": 1112,
                 "end": 1115,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1117,
                 "end": 1118,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -938,7 +1005,9 @@
             "start": 1121,
             "end": 1140,
             "value": "ASCII with v flag",
-            "raw": "\"ASCII with v flag\""
+            "raw": "\"ASCII with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -992,7 +1061,8 @@
                 "regex": {
                   "pattern": "x",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1002,14 +1072,18 @@
             "start": 1175,
             "end": 1179,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1181,
             "end": 1213,
             "value": "Non-matching regex with u flag",
-            "raw": "\"Non-matching regex with u flag\""
+            "raw": "\"Non-matching regex with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1063,7 +1137,8 @@
                 "regex": {
                   "pattern": "x",
                   "flags": "v"
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1073,14 +1148,18 @@
             "start": 1247,
             "end": 1251,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1253,
             "end": 1285,
             "value": "Non-matching regex with v flag",
-            "raw": "\"Non-matching regex with v flag\""
+            "raw": "\"Non-matching regex with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1110,7 +1189,8 @@
             "regex": {
               "pattern": "(\\p{Script=Han})(.)",
               "flags": "u"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -1211,7 +1291,9 @@
               "start": 1428,
               "end": 1429,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1221,14 +1303,18 @@
             "start": 1432,
             "end": 1436,
             "value": "𠮷",
-            "raw": "\"𠮷\""
+            "raw": "\"𠮷\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1438,
             "end": 1467,
             "value": "Capture group 1 with u flag",
-            "raw": "\"Capture group 1 with u flag\""
+            "raw": "\"Capture group 1 with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1277,7 +1363,9 @@
               "start": 1505,
               "end": 1506,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1287,14 +1375,18 @@
             "start": 1509,
             "end": 1512,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1514,
             "end": 1543,
             "value": "Capture group 2 with u flag",
-            "raw": "\"Capture group 2 with u flag\""
+            "raw": "\"Capture group 2 with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1352,14 +1444,18 @@
             "start": 1588,
             "end": 1589,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1591,
             "end": 1627,
             "value": "Match index for groups with u flag",
-            "raw": "\"Match index for groups with u flag\""
+            "raw": "\"Match index for groups with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1389,7 +1485,8 @@
             "regex": {
               "pattern": "(\\p{Script=Han})(.)",
               "flags": "v"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -1490,7 +1587,9 @@
               "start": 1770,
               "end": 1771,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1500,14 +1599,18 @@
             "start": 1774,
             "end": 1778,
             "value": "𠮷",
-            "raw": "\"𠮷\""
+            "raw": "\"𠮷\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1780,
             "end": 1809,
             "value": "Capture group 1 with v flag",
-            "raw": "\"Capture group 1 with v flag\""
+            "raw": "\"Capture group 1 with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1556,7 +1659,9 @@
               "start": 1847,
               "end": 1848,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1566,14 +1671,18 @@
             "start": 1851,
             "end": 1854,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1856,
             "end": 1885,
             "value": "Capture group 2 with v flag",
-            "raw": "\"Capture group 2 with v flag\""
+            "raw": "\"Capture group 2 with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1631,14 +1740,18 @@
             "start": 1930,
             "end": 1931,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1933,
             "end": 1969,
             "value": "Match index for groups with v flag",
-            "raw": "\"Match index for groups with v flag\""
+            "raw": "\"Match index for groups with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1664,7 +1777,9 @@
             "start": 1993,
             "end": 2017,
             "value": "a𠮷b􏿿c",
-            "raw": "'a\\u{20BB7}b\\u{10FFFF}c'"
+            "raw": "'a\\u{20BB7}b\\u{10FFFF}c'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -1715,7 +1830,8 @@
                 "regex": {
                   "pattern": "\\P{ASCII}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1746,7 +1862,9 @@
                 "start": 2072,
                 "end": 2083,
                 "value": "𠮷",
-                "raw": "\"\\u{20BB7}\""
+                "raw": "\"\\u{20BB7}\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1755,7 +1873,9 @@
             "start": 2086,
             "end": 2109,
             "value": "Non-ASCII with u flag",
-            "raw": "\"Non-ASCII with u flag\""
+            "raw": "\"Non-ASCII with u flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1806,7 +1926,8 @@
                 "regex": {
                   "pattern": "\\P{ASCII}",
                   "flags": "v"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1837,7 +1958,9 @@
                 "start": 2165,
                 "end": 2176,
                 "value": "𠮷",
-                "raw": "\"\\u{20BB7}\""
+                "raw": "\"\\u{20BB7}\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -1846,7 +1969,9 @@
             "start": 2179,
             "end": 2202,
             "value": "Non-ASCII with v flag",
-            "raw": "\"Non-ASCII with v flag\""
+            "raw": "\"Non-ASCII with v flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

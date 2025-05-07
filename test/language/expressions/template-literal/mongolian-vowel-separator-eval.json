@@ -47,7 +47,9 @@
                 "start": 925,
                 "end": 935,
                 "value": "`᠎`",
-                "raw": "\"`\\u180E`\""
+                "raw": "\"`\\u180E`\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 938,
             "end": 946,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

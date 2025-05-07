@@ -82,7 +82,9 @@ __ESTREE_TEST__:PASS:
                       "start": 121,
                       "end": 132,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -193,7 +195,9 @@ __ESTREE_TEST__:PASS:
                       "start": 212,
                       "end": 223,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -206,7 +210,9 @@ __ESTREE_TEST__:PASS:
                       "start": 229,
                       "end": 240,
                       "raw": "\"ngInject2\"",
-                      "value": "ngInject2"
+                      "value": "ngInject2",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -345,7 +351,9 @@ __ESTREE_TEST__:PASS:
                       "start": 339,
                       "end": 350,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -358,7 +366,9 @@ __ESTREE_TEST__:PASS:
                       "start": 356,
                       "end": 367,
                       "raw": "\"ngInject2\"",
-                      "value": "ngInject2"
+                      "value": "ngInject2",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -525,7 +535,9 @@ __ESTREE_TEST__:PASS:
                       "start": 428,
                       "end": 439,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -543,7 +555,9 @@ __ESTREE_TEST__:PASS:
                           "start": 457,
                           "end": 461,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -683,7 +697,9 @@ __ESTREE_TEST__:PASS:
                       "start": 542,
                       "end": 553,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -696,7 +712,9 @@ __ESTREE_TEST__:PASS:
                       "start": 559,
                       "end": 570,
                       "raw": "\"ngInject2\"",
-                      "value": "ngInject2"
+                      "value": "ngInject2",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -714,7 +732,9 @@ __ESTREE_TEST__:PASS:
                           "start": 588,
                           "end": 592,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -882,7 +902,9 @@ __ESTREE_TEST__:PASS:
                       "start": 692,
                       "end": 703,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -895,7 +917,9 @@ __ESTREE_TEST__:PASS:
                       "start": 709,
                       "end": 720,
                       "raw": "\"ngInject2\"",
-                      "value": "ngInject2"
+                      "value": "ngInject2",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -913,7 +937,9 @@ __ESTREE_TEST__:PASS:
                           "start": 738,
                           "end": 742,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1109,7 +1135,9 @@ __ESTREE_TEST__:PASS:
                       "start": 829,
                       "end": 840,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -1146,7 +1174,9 @@ __ESTREE_TEST__:PASS:
                           "start": 871,
                           "end": 875,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1294,7 +1324,9 @@ __ESTREE_TEST__:PASS:
                       "start": 962,
                       "end": 973,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -1366,7 +1398,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1018,
                           "end": 1022,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1554,7 +1588,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1087,
                       "end": 1098,
                       "raw": "\"ngInject1\"",
-                      "value": "ngInject1"
+                      "value": "ngInject1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -1567,7 +1603,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1104,
                       "end": 1115,
                       "raw": "\"ngInject2\"",
-                      "value": "ngInject2"
+                      "value": "ngInject2",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -1639,7 +1677,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1160,
                           "end": 1164,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

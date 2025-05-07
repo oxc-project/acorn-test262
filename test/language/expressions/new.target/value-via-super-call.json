@@ -359,7 +359,9 @@
             "start": 776,
             "end": 805,
             "value": "within \"parent\" constructor",
-            "raw": "'within \"parent\" constructor'"
+            "raw": "'within \"parent\" constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -410,7 +412,9 @@
             "start": 847,
             "end": 874,
             "value": "within \"base\" constructor",
-            "raw": "'within \"base\" constructor'"
+            "raw": "'within \"base\" constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -59,7 +59,9 @@
                           "start": 1730,
                           "end": 1756,
                           "value": "./module-code_FIXTURE.js",
-                          "raw": "'./module-code_FIXTURE.js'"
+                          "raw": "'./module-code_FIXTURE.js'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -225,7 +227,9 @@
                                             "start": 1865,
                                             "end": 1867,
                                             "value": 42,
-                                            "raw": "42"
+                                            "raw": "42",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -283,7 +287,9 @@
                                             "start": 1903,
                                             "end": 1912,
                                             "value": "Test262",
-                                            "raw": "'Test262'"
+                                            "raw": "'Test262'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -341,7 +347,9 @@
                                             "start": 1948,
                                             "end": 1950,
                                             "value": 42,
-                                            "raw": "42"
+                                            "raw": "42",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false

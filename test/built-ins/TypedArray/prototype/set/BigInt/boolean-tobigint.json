@@ -70,7 +70,9 @@
                             "start": 1615,
                             "end": 1616,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -116,14 +118,18 @@
                             "start": 1637,
                             "end": 1642,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1644,
                             "end": 1648,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -174,7 +180,9 @@
                           "start": 1682,
                           "end": 1683,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -185,6 +193,7 @@
                         "end": 1688,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {
@@ -192,7 +201,9 @@
                         "start": 1690,
                         "end": 1716,
                         "value": "False converts to BigInt",
-                        "raw": "\"False converts to BigInt\""
+                        "raw": "\"False converts to BigInt\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -241,7 +252,9 @@
                           "start": 1749,
                           "end": 1750,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -252,6 +265,7 @@
                         "end": 1755,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       },
                       {
@@ -259,7 +273,9 @@
                         "start": 1757,
                         "end": 1782,
                         "value": "True converts to BigInt",
-                        "raw": "\"True converts to BigInt\""
+                        "raw": "\"True converts to BigInt\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

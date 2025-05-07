@@ -59,7 +59,9 @@
                           "start": 299,
                           "end": 301,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -303,7 +305,9 @@
             "start": 455,
             "end": 457,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "BinaryExpression",
@@ -318,7 +322,9 @@
                 "start": 461,
                 "end": 582,
                 "value": "The value of `object.g().next().value` is `42`, after executing `Object.setPrototypeOf(object, proto);`, where `object ",
-                "raw": "\"The value of `object.g().next().value` is `42`, after executing `Object.setPrototypeOf(object, proto);`, where `object \""
+                "raw": "\"The value of `object.g().next().value` is `42`, after executing `Object.setPrototypeOf(object, proto);`, where `object \"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -348,7 +354,9 @@
               "start": 602,
               "end": 605,
               "value": "`",
-              "raw": "\"`\""
+              "raw": "\"`\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

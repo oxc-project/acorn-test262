@@ -154,7 +154,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 26,
         "raw": "\"@ts-bug/a\"",
-        "value": "@ts-bug/a"
+        "value": "@ts-bug/a",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -180,7 +182,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 29,
         "raw": "\"@ts-bug/a\"",
-        "value": "@ts-bug/a"
+        "value": "@ts-bug/a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

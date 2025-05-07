@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 53,
         "raw": "\"package/cjs\"",
-        "value": "package/cjs"
+        "value": "package/cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 76,
         "end": 89,
         "raw": "\"package/mjs\"",
-        "value": "package/mjs"
+        "value": "package/mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -76,7 +80,9 @@ __ESTREE_TEST__:PASS:
         "start": 113,
         "end": 122,
         "raw": "\"package\"",
-        "value": "package"
+        "value": "package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -151,7 +157,9 @@ __ESTREE_TEST__:PASS:
         "start": 162,
         "end": 171,
         "raw": "\"inner/a\"",
-        "value": "inner/a"
+        "value": "inner/a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -181,7 +189,9 @@ __ESTREE_TEST__:PASS:
         "start": 195,
         "end": 204,
         "raw": "\"inner/b\"",
-        "value": "inner/b"
+        "value": "inner/b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -211,7 +221,9 @@ __ESTREE_TEST__:PASS:
         "start": 229,
         "end": 236,
         "raw": "\"inner\"",
-        "value": "inner"
+        "value": "inner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -241,7 +253,9 @@ __ESTREE_TEST__:PASS:
         "start": 258,
         "end": 271,
         "raw": "\"inner/types\"",
-        "value": "inner/types"
+        "value": "inner/types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -407,7 +421,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 53,
         "raw": "\"package/cjs\"",
-        "value": "package/cjs"
+        "value": "package/cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -437,7 +453,9 @@ __ESTREE_TEST__:PASS:
         "start": 76,
         "end": 89,
         "raw": "\"package/mjs\"",
-        "value": "package/mjs"
+        "value": "package/mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -467,7 +485,9 @@ __ESTREE_TEST__:PASS:
         "start": 113,
         "end": 122,
         "raw": "\"package\"",
-        "value": "package"
+        "value": "package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -542,7 +562,9 @@ __ESTREE_TEST__:PASS:
         "start": 162,
         "end": 171,
         "raw": "\"inner/a\"",
-        "value": "inner/a"
+        "value": "inner/a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -572,7 +594,9 @@ __ESTREE_TEST__:PASS:
         "start": 195,
         "end": 204,
         "raw": "\"inner/b\"",
-        "value": "inner/b"
+        "value": "inner/b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -602,7 +626,9 @@ __ESTREE_TEST__:PASS:
         "start": 229,
         "end": 236,
         "raw": "\"inner\"",
-        "value": "inner"
+        "value": "inner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -632,7 +658,9 @@ __ESTREE_TEST__:PASS:
         "start": 258,
         "end": 271,
         "raw": "\"inner/types\"",
-        "value": "inner/types"
+        "value": "inner/types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -798,7 +826,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 53,
         "raw": "\"package/cjs\"",
-        "value": "package/cjs"
+        "value": "package/cjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -828,7 +858,9 @@ __ESTREE_TEST__:PASS:
         "start": 76,
         "end": 89,
         "raw": "\"package/mjs\"",
-        "value": "package/mjs"
+        "value": "package/mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -858,7 +890,9 @@ __ESTREE_TEST__:PASS:
         "start": 113,
         "end": 122,
         "raw": "\"package\"",
-        "value": "package"
+        "value": "package",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -933,7 +967,9 @@ __ESTREE_TEST__:PASS:
         "start": 162,
         "end": 171,
         "raw": "\"inner/a\"",
-        "value": "inner/a"
+        "value": "inner/a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -963,7 +999,9 @@ __ESTREE_TEST__:PASS:
         "start": 195,
         "end": 204,
         "raw": "\"inner/b\"",
-        "value": "inner/b"
+        "value": "inner/b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -993,7 +1031,9 @@ __ESTREE_TEST__:PASS:
         "start": 229,
         "end": 236,
         "raw": "\"inner\"",
-        "value": "inner"
+        "value": "inner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1023,7 +1063,9 @@ __ESTREE_TEST__:PASS:
         "start": 258,
         "end": 271,
         "raw": "\"inner/types\"",
-        "value": "inner/types"
+        "value": "inner/types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1189,7 +1231,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 49,
         "raw": "\"inner/a\"",
-        "value": "inner/a"
+        "value": "inner/a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1219,7 +1263,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 81,
         "raw": "\"inner/b\"",
-        "value": "inner/b"
+        "value": "inner/b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1249,7 +1295,9 @@ __ESTREE_TEST__:PASS:
         "start": 105,
         "end": 112,
         "raw": "\"inner\"",
-        "value": "inner"
+        "value": "inner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1279,7 +1327,9 @@ __ESTREE_TEST__:PASS:
         "start": 134,
         "end": 147,
         "raw": "\"inner/types\"",
-        "value": "inner/types"
+        "value": "inner/types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1467,7 +1517,9 @@ __ESTREE_TEST__:PASS:
               "start": 246,
               "end": 250,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1501,7 +1553,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 49,
         "raw": "\"inner/a\"",
-        "value": "inner/a"
+        "value": "inner/a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1531,7 +1585,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 81,
         "raw": "\"inner/b\"",
-        "value": "inner/b"
+        "value": "inner/b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1561,7 +1617,9 @@ __ESTREE_TEST__:PASS:
         "start": 105,
         "end": 112,
         "raw": "\"inner\"",
-        "value": "inner"
+        "value": "inner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1591,7 +1649,9 @@ __ESTREE_TEST__:PASS:
         "start": 134,
         "end": 147,
         "raw": "\"inner/types\"",
-        "value": "inner/types"
+        "value": "inner/types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1779,7 +1839,9 @@ __ESTREE_TEST__:PASS:
               "start": 238,
               "end": 242,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1813,7 +1875,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 49,
         "raw": "\"inner/a\"",
-        "value": "inner/a"
+        "value": "inner/a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1843,7 +1907,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 81,
         "raw": "\"inner/b\"",
-        "value": "inner/b"
+        "value": "inner/b",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1873,7 +1939,9 @@ __ESTREE_TEST__:PASS:
         "start": 105,
         "end": 112,
         "raw": "\"inner\"",
-        "value": "inner"
+        "value": "inner",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1903,7 +1971,9 @@ __ESTREE_TEST__:PASS:
         "start": 134,
         "end": 147,
         "raw": "\"inner/types\"",
-        "value": "inner/types"
+        "value": "inner/types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2091,7 +2161,9 @@ __ESTREE_TEST__:PASS:
               "start": 238,
               "end": 242,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ],

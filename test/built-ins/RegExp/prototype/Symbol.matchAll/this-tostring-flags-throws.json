@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "\\w",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 551,
             "end": 558,
             "value": "flags",
-            "raw": "'flags'"
+            "raw": "'flags'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -144,7 +147,9 @@
                                     "start": 601,
                                     "end": 631,
                                     "value": "valueOf Should not be called",
-                                    "raw": "'valueOf Should not be called'"
+                                    "raw": "'valueOf Should not be called'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -308,7 +313,9 @@
                         "start": 772,
                         "end": 774,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -23,7 +23,9 @@
             "start": 244,
             "end": 245,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,9 @@
               "start": 260,
               "end": 261,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -75,7 +79,9 @@
           "start": 267,
           "end": 269,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": null,
@@ -145,7 +151,9 @@
                       "start": 308,
                       "end": 315,
                       "value": "hello",
-                      "raw": "\"hello\""
+                      "raw": "\"hello\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -201,14 +209,18 @@
             "start": 361,
             "end": 363,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 365,
             "end": 395,
             "value": "The value of `count` is `10`",
-            "raw": "\"The value of `count` is `10`\""
+            "raw": "\"The value of `count` is `10`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

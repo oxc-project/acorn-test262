@@ -25,7 +25,9 @@
         "start": 431,
         "end": 472,
         "value": "./export-expname-from-string-binding.js",
-        "raw": "\"./export-expname-from-string-binding.js\""
+        "raw": "\"./export-expname-from-string-binding.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -44,7 +46,9 @@
             "start": 483,
             "end": 486,
             "value": "☿",
-            "raw": "\"☿\""
+            "raw": "\"☿\"",
+            "regex": null,
+            "bigint": null
           },
           "exported": {
             "type": "Identifier",
@@ -59,7 +63,9 @@
         "start": 501,
         "end": 530,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -106,7 +112,9 @@
               "start": 557,
               "end": 560,
               "value": "☿",
-              "raw": "\"☿\""
+              "raw": "\"☿\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false

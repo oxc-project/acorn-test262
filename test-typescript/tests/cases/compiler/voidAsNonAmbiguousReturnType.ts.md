@@ -199,7 +199,9 @@ __ESTREE_TEST__:PASS:
           "start": 77,
           "end": 111,
           "raw": "\"./voidAsNonAmbiguousReturnType_0\"",
-          "value": "./voidAsNonAmbiguousReturnType_0"
+          "value": "./voidAsNonAmbiguousReturnType_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -228,7 +230,9 @@ __ESTREE_TEST__:PASS:
                   "start": 147,
                   "end": 153,
                   "raw": "'test'",
-                  "value": "test"
+                  "value": "test",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {

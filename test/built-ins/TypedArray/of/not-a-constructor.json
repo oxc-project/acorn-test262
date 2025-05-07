@@ -69,14 +69,18 @@
             "start": 763,
             "end": 768,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 818,
             "value": "isConstructor(TypedArray.of) must return false",
-            "raw": "'isConstructor(TypedArray.of) must return false'"
+            "raw": "'isConstructor(TypedArray.of) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,28 +167,36 @@
                         "start": 875,
                         "end": 876,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 878,
                         "end": 879,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 881,
                         "end": 882,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 884,
                         "end": 885,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -21,7 +21,9 @@
               "start": 931,
               "end": 935,
               "value": 3000,
-              "raw": "3000"
+              "raw": "3000",
+              "regex": null,
+              "bigint": null
             }
           },
           "label": {
@@ -51,7 +53,9 @@
               "start": 940,
               "end": 942,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "regex": null,
+              "bigint": null
             }
           },
           "label": {

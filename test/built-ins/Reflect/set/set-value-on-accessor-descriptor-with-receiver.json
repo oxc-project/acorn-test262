@@ -43,7 +43,9 @@
             "start": 784,
             "end": 785,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -158,7 +160,9 @@
             "start": 859,
             "end": 862,
             "value": "p",
-            "raw": "'p'"
+            "raw": "'p'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -271,7 +275,9 @@
                           "start": 955,
                           "end": 960,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -335,14 +341,18 @@
                 "start": 1000,
                 "end": 1003,
                 "value": "p",
-                "raw": "'p'"
+                "raw": "'p'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1005,
                 "end": 1007,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -396,14 +406,18 @@
             "start": 1048,
             "end": 1052,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1056,
             "end": 1109,
             "value": "returns true if target.p has an accessor descriptor",
-            "raw": "'returns true if target.p has an accessor descriptor'"
+            "raw": "'returns true if target.p has an accessor descriptor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,14 +475,18 @@
             "start": 1143,
             "end": 1144,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1186,
             "value": "target.p set is called with 1 argument",
-            "raw": "'target.p set is called with 1 argument'"
+            "raw": "'target.p set is called with 1 argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -517,7 +535,9 @@
               "start": 1211,
               "end": 1212,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -527,14 +547,18 @@
             "start": 1215,
             "end": 1217,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1219,
             "end": 1250,
             "value": "target.p set is called with V",
-            "raw": "'target.p set is called with V'"
+            "raw": "'target.p set is called with V'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -579,14 +603,18 @@
             "start": 1277,
             "end": 1278,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1280,
             "end": 1309,
             "value": "target.p set is called once",
-            "raw": "'target.p set is called once'"
+            "raw": "'target.p set is called once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -637,7 +665,9 @@
             "start": 1355,
             "end": 1403,
             "value": "target.p set is called with receiver as `this`",
-            "raw": "'target.p set is called with receiver as `this`'"
+            "raw": "'target.p set is called with receiver as `this`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -113,14 +113,18 @@
                         "start": 579,
                         "end": 583,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 585,
                         "end": 588,
                         "value": "d",
-                        "raw": "'d'"
+                        "raw": "'d'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -184,7 +188,9 @@
                         "start": 639,
                         "end": 657,
                         "value": "arguments.callee",
-                        "raw": "'arguments.callee'"
+                        "raw": "'arguments.callee'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

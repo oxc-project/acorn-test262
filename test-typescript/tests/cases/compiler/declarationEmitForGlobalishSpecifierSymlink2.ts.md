@@ -127,7 +127,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 26,
         "raw": "\"./src/impl\"",
-        "value": "./src/impl"
+        "value": "./src/impl",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -153,7 +155,9 @@ __ESTREE_TEST__:PASS:
         "start": 27,
         "end": 31,
         "raw": "\"p2\"",
-        "value": "p2"
+        "value": "p2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -183,7 +187,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 70,
         "raw": "\"typescript-fsa\"",
-        "value": "typescript-fsa"
+        "value": "typescript-fsa",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -313,7 +319,9 @@ __ESTREE_TEST__:PASS:
                       "start": 23,
                       "end": 39,
                       "raw": "\"typescript-fsa\"",
-                      "value": "typescript-fsa"
+                      "value": "typescript-fsa",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,

@@ -113,14 +113,18 @@
             "start": 510,
             "end": 515,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 545,
             "value": "SameValue with `undefined`",
-            "raw": "\"SameValue with `undefined`\""
+            "raw": "\"SameValue with `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,14 +202,18 @@
             "start": 598,
             "end": 603,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 605,
             "end": 633,
             "value": "SameValue with `undefined`",
-            "raw": "\"SameValue with `undefined`\""
+            "raw": "\"SameValue with `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,7 +282,9 @@
                 "start": 675,
                 "end": 679,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -284,14 +294,18 @@
             "start": 682,
             "end": 687,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 712,
             "value": "SameValue with `null`",
-            "raw": "\"SameValue with `null`\""
+            "raw": "\"SameValue with `null`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -354,7 +368,9 @@
                 "start": 742,
                 "end": 746,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -370,14 +386,18 @@
             "start": 760,
             "end": 765,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 790,
             "value": "SameValue with `null`",
-            "raw": "\"SameValue with `null`\""
+            "raw": "\"SameValue with `null`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

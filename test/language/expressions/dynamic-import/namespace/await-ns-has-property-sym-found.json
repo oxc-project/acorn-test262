@@ -50,7 +50,9 @@
                       "start": 3882,
                       "end": 3908,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -110,7 +112,9 @@
                   "start": 3949,
                   "end": 3973,
                   "value": "in: Symbol.toStringTag",
-                  "raw": "'in: Symbol.toStringTag'"
+                  "raw": "'in: Symbol.toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -188,7 +192,9 @@
                   "start": 4024,
                   "end": 4057,
                   "value": "Reflect.has: Symbol.toStringTag",
-                  "raw": "'Reflect.has: Symbol.toStringTag'"
+                  "raw": "'Reflect.has: Symbol.toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

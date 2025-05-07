@@ -43,7 +43,9 @@
             "start": 816,
             "end": 821,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -116,7 +118,9 @@
                             "start": 866,
                             "end": 870,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -287,7 +291,9 @@
                   "start": 971,
                   "end": 972,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -309,7 +315,9 @@
                   "start": 977,
                   "end": 978,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -431,7 +439,9 @@
             "start": 1043,
             "end": 1044,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -489,7 +499,9 @@
             "start": 1079,
             "end": 1080,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -528,7 +540,9 @@
             "start": 1107,
             "end": 1144,
             "value": "The property should not be accessed",
-            "raw": "\"The property should not be accessed\""
+            "raw": "\"The property should not be accessed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

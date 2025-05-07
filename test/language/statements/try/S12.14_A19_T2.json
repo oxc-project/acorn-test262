@@ -23,7 +23,9 @@
             "start": 304,
             "end": 305,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -62,7 +64,9 @@
                     "start": 338,
                     "end": 345,
                     "value": "hello",
-                    "raw": "\"hello\""
+                    "raw": "\"hello\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -126,7 +130,9 @@
                   "start": 382,
                   "end": 396,
                   "value": "Error: hello",
-                  "raw": "\"Error: hello\""
+                  "raw": "\"Error: hello\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -153,7 +159,9 @@
                         "start": 421,
                         "end": 489,
                         "value": "#1.1: Exception.toString()===\"Error: hello\". Actual: Exception is ",
-                        "raw": "'#1.1: Exception.toString()===\"Error: hello\". Actual: Exception is '"
+                        "raw": "'#1.1: Exception.toString()===\"Error: hello\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -196,7 +204,9 @@
                 "start": 511,
                 "end": 512,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -223,7 +233,9 @@
           "start": 526,
           "end": 527,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -246,7 +258,9 @@
               "start": 552,
               "end": 593,
               "value": "#1.2: \"finally\" block must be evaluated",
-              "raw": "'#1.2: \"finally\" block must be evaluated'"
+              "raw": "'#1.2: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -273,7 +287,9 @@
           "start": 613,
           "end": 614,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -310,7 +326,9 @@
                     "start": 640,
                     "end": 647,
                     "value": "hello",
-                    "raw": "\"hello\""
+                    "raw": "\"hello\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -373,7 +391,9 @@
                   "start": 684,
                   "end": 698,
                   "value": "Error: hello",
-                  "raw": "\"Error: hello\""
+                  "raw": "\"Error: hello\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -400,7 +420,9 @@
                         "start": 723,
                         "end": 791,
                         "value": "#2.1: Exception.toString()===\"Error: hello\". Actual: Exception is ",
-                        "raw": "'#2.1: Exception.toString()===\"Error: hello\". Actual: Exception is '"
+                        "raw": "'#2.1: Exception.toString()===\"Error: hello\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -443,7 +465,9 @@
                 "start": 813,
                 "end": 814,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -470,7 +494,9 @@
           "start": 828,
           "end": 829,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -493,7 +519,9 @@
               "start": 854,
               "end": 895,
               "value": "#2.2: \"finally\" block must be evaluated",
-              "raw": "'#2.2: \"finally\" block must be evaluated'"
+              "raw": "'#2.2: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -520,7 +548,9 @@
           "start": 915,
           "end": 916,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -544,7 +574,9 @@
             "start": 925,
             "end": 926,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -579,7 +611,9 @@
                   "start": 951,
                   "end": 952,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -642,7 +676,9 @@
                   "start": 988,
                   "end": 1002,
                   "value": "EvalError: 1",
-                  "raw": "\"EvalError: 1\""
+                  "raw": "\"EvalError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -669,7 +705,9 @@
                         "start": 1027,
                         "end": 1095,
                         "value": "#3.1: Exception.toString()===\"EvalError: 1\". Actual: Exception is ",
-                        "raw": "'#3.1: Exception.toString()===\"EvalError: 1\". Actual: Exception is '"
+                        "raw": "'#3.1: Exception.toString()===\"EvalError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -712,7 +750,9 @@
                 "start": 1117,
                 "end": 1118,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -739,7 +779,9 @@
           "start": 1132,
           "end": 1133,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -762,7 +804,9 @@
               "start": 1158,
               "end": 1199,
               "value": "#3.2: \"finally\" block must be evaluated",
-              "raw": "'#3.2: \"finally\" block must be evaluated'"
+              "raw": "'#3.2: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -789,7 +833,9 @@
           "start": 1219,
           "end": 1220,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -822,7 +868,9 @@
                   "start": 1246,
                   "end": 1247,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -885,7 +933,9 @@
                   "start": 1283,
                   "end": 1298,
                   "value": "RangeError: 1",
-                  "raw": "\"RangeError: 1\""
+                  "raw": "\"RangeError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -912,7 +962,9 @@
                         "start": 1323,
                         "end": 1392,
                         "value": "#4.1: Exception.toString()===\"RangeError: 1\". Actual: Exception is ",
-                        "raw": "'#4.1: Exception.toString()===\"RangeError: 1\". Actual: Exception is '"
+                        "raw": "'#4.1: Exception.toString()===\"RangeError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -955,7 +1007,9 @@
                 "start": 1414,
                 "end": 1415,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -982,7 +1036,9 @@
           "start": 1429,
           "end": 1430,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1005,7 +1061,9 @@
               "start": 1455,
               "end": 1496,
               "value": "#4.2: \"finally\" block must be evaluated",
-              "raw": "'#4.2: \"finally\" block must be evaluated'"
+              "raw": "'#4.2: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1032,7 +1090,9 @@
           "start": 1516,
           "end": 1517,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1065,7 +1125,9 @@
                   "start": 1547,
                   "end": 1548,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1128,7 +1190,9 @@
                   "start": 1584,
                   "end": 1603,
                   "value": "ReferenceError: 1",
-                  "raw": "\"ReferenceError: 1\""
+                  "raw": "\"ReferenceError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -1155,7 +1219,9 @@
                         "start": 1628,
                         "end": 1701,
                         "value": "#5.1: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is ",
-                        "raw": "'#5.1: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is '"
+                        "raw": "'#5.1: Exception.toString()===\"ReferenceError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -1198,7 +1264,9 @@
                 "start": 1723,
                 "end": 1724,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -1225,7 +1293,9 @@
           "start": 1738,
           "end": 1739,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1248,7 +1318,9 @@
               "start": 1764,
               "end": 1805,
               "value": "#5.2: \"finally\" block must be evaluated",
-              "raw": "'#5.2: \"finally\" block must be evaluated'"
+              "raw": "'#5.2: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1275,7 +1347,9 @@
           "start": 1825,
           "end": 1826,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1308,7 +1382,9 @@
                   "start": 1851,
                   "end": 1852,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1371,7 +1447,9 @@
                   "start": 1888,
                   "end": 1902,
                   "value": "TypeError: 1",
-                  "raw": "\"TypeError: 1\""
+                  "raw": "\"TypeError: 1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -1398,7 +1476,9 @@
                         "start": 1927,
                         "end": 1995,
                         "value": "#6.1: Exception.toString()===\"TypeError: 1\". Actual: Exception is ",
-                        "raw": "'#6.1: Exception.toString()===\"TypeError: 1\". Actual: Exception is '"
+                        "raw": "'#6.1: Exception.toString()===\"TypeError: 1\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -1441,7 +1521,9 @@
                 "start": 2017,
                 "end": 2018,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -1468,7 +1550,9 @@
           "start": 2032,
           "end": 2033,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1491,7 +1575,9 @@
               "start": 2058,
               "end": 2099,
               "value": "#6.2: \"finally\" block must be evaluated",
-              "raw": "'#6.2: \"finally\" block must be evaluated'"
+              "raw": "'#6.2: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -1518,7 +1604,9 @@
           "start": 2119,
           "end": 2120,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1551,21 +1639,27 @@
                   "start": 2144,
                   "end": 2153,
                   "value": "message",
-                  "raw": "\"message\""
+                  "raw": "\"message\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2155,
                   "end": 2165,
                   "value": "fileName",
-                  "raw": "\"fileName\""
+                  "raw": "\"fileName\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 2167,
                   "end": 2170,
                   "value": "1",
-                  "raw": "\"1\""
+                  "raw": "\"1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1628,7 +1722,9 @@
                   "start": 2207,
                   "end": 2226,
                   "value": "URIError: message",
-                  "raw": "\"URIError: message\""
+                  "raw": "\"URIError: message\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -1655,7 +1751,9 @@
                         "start": 2251,
                         "end": 2324,
                         "value": "#7.1: Exception.toString()===\"URIError: message\". Actual: Exception is ",
-                        "raw": "'#7.1: Exception.toString()===\"URIError: message\". Actual: Exception is '"
+                        "raw": "'#7.1: Exception.toString()===\"URIError: message\". Actual: Exception is '",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -1698,7 +1796,9 @@
                 "start": 2346,
                 "end": 2347,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -1725,7 +1825,9 @@
           "start": 2361,
           "end": 2362,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1748,7 +1850,9 @@
               "start": 2387,
               "end": 2428,
               "value": "#7.2: \"finally\" block must be evaluated",
-              "raw": "'#7.2: \"finally\" block must be evaluated'"
+              "raw": "'#7.2: \"finally\" block must be evaluated'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }

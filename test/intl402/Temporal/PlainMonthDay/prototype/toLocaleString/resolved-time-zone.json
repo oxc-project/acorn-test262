@@ -47,21 +47,27 @@
                 "start": 375,
                 "end": 376,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 390,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -113,7 +119,9 @@
                 "start": 432,
                 "end": 436,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -138,7 +146,9 @@
                       "start": 450,
                       "end": 464,
                       "value": "Pacific/Apia",
-                      "raw": "\"Pacific/Apia\""
+                      "raw": "\"Pacific/Apia\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -190,7 +200,9 @@
             "start": 494,
             "end": 499,
             "value": "8/4",
-            "raw": "\"8/4\""
+            "raw": "\"8/4\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

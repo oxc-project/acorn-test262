@@ -112,28 +112,36 @@
                       "start": 480,
                       "end": 482,
                       "value": 65,
-                      "raw": "65"
+                      "raw": "65",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 484,
                       "end": 486,
                       "value": 66,
-                      "raw": "66"
+                      "raw": "66",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 488,
                       "end": 490,
                       "value": 66,
-                      "raw": "66"
+                      "raw": "66",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 492,
                       "end": 494,
                       "value": 65,
-                      "raw": "65"
+                      "raw": "65",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -161,7 +169,9 @@
                   "start": 522,
                   "end": 630,
                   "value": "#1: __fcc__func = String.fromCharCode; var __obj = new __fcc__func(65,66,66,65) lead to throwing exception",
-                  "raw": "'#1: __fcc__func = String.fromCharCode; var __obj = new __fcc__func(65,66,66,65) lead to throwing exception'"
+                  "raw": "'#1: __fcc__func = String.fromCharCode; var __obj = new __fcc__func(65,66,66,65) lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

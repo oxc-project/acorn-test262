@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 44,
         "raw": "\"double-asterisk/a/*/b/*/c/*\"",
-        "value": "double-asterisk/a/*/b/*/c/*"
+        "value": "double-asterisk/a/*/b/*/c/*",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

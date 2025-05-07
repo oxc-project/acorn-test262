@@ -28,21 +28,27 @@
                 "start": 330,
                 "end": 337,
                 "value": "ja-JP",
-                "raw": "\"ja-JP\""
+                "raw": "\"ja-JP\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 351,
                 "value": "zh-Hans-CN",
-                "raw": "\"zh-Hans-CN\""
+                "raw": "\"zh-Hans-CN\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 365,
                 "value": "zh-Hant-TW",
-                "raw": "\"zh-Hant-TW\""
+                "raw": "\"zh-Hant-TW\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -70,7 +76,9 @@
             "start": 380,
             "end": 390,
             "value": 1234567.89,
-            "raw": "1234567.89"
+            "raw": "1234567.89",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -402,7 +410,9 @@
                               "start": 757,
                               "end": 761,
                               "value": "cu",
-                              "raw": "\"cu\""
+                              "raw": "\"cu\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "ArrayExpression",
@@ -414,42 +424,54 @@
                                   "start": 764,
                                   "end": 769,
                                   "value": "USD",
-                                  "raw": "\"USD\""
+                                  "raw": "\"USD\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 771,
                                   "end": 776,
                                   "value": "EUR",
-                                  "raw": "\"EUR\""
+                                  "raw": "\"EUR\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 778,
                                   "end": 783,
                                   "value": "JPY",
-                                  "raw": "\"JPY\""
+                                  "raw": "\"JPY\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 785,
                                   "end": 790,
                                   "value": "CNY",
-                                  "raw": "\"CNY\""
+                                  "raw": "\"CNY\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 792,
                                   "end": 797,
                                   "value": "TWD",
-                                  "raw": "\"TWD\""
+                                  "raw": "\"TWD\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 799,
                                   "end": 808,
                                   "value": "invalid",
-                                  "raw": "\"invalid\""
+                                  "raw": "\"invalid\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             },
@@ -467,7 +489,9 @@
                               "start": 819,
                               "end": 823,
                               "value": "nu",
-                              "raw": "\"nu\""
+                              "raw": "\"nu\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "ArrayExpression",
@@ -479,28 +503,36 @@
                                   "start": 826,
                                   "end": 834,
                                   "value": "native",
-                                  "raw": "\"native\""
+                                  "raw": "\"native\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 836,
                                   "end": 846,
                                   "value": "traditio",
-                                  "raw": "\"traditio\""
+                                  "raw": "\"traditio\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 848,
                                   "end": 857,
                                   "value": "finance",
-                                  "raw": "\"finance\""
+                                  "raw": "\"finance\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 859,
                                   "end": 868,
                                   "value": "invalid",
-                                  "raw": "\"invalid\""
+                                  "raw": "\"invalid\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             },
@@ -722,7 +754,9 @@
                                                                 "start": 1062,
                                                                 "end": 1067,
                                                                 "value": "-u-",
-                                                                "raw": "\"-u-\""
+                                                                "raw": "\"-u-\"",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             },
                                                             "operator": "+",
@@ -739,7 +773,9 @@
                                                             "start": 1076,
                                                             "end": 1079,
                                                             "value": "-",
-                                                            "raw": "\"-\""
+                                                            "raw": "\"-\"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         },
                                                         "operator": "+",
@@ -885,7 +921,9 @@
                                                             "start": 1209,
                                                             "end": 1218,
                                                             "value": "Locale ",
-                                                            "raw": "\"Locale \""
+                                                            "raw": "\"Locale \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           },
                                                           "operator": "+",
                                                           "right": {
@@ -914,7 +952,9 @@
                                                           "start": 1238,
                                                           "end": 1260,
                                                           "value": " is affected by key ",
-                                                          "raw": "\" is affected by key \""
+                                                          "raw": "\" is affected by key \"",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       },
                                                       "operator": "+",
@@ -931,7 +971,9 @@
                                                       "start": 1269,
                                                       "end": 1279,
                                                       "value": "; value ",
-                                                      "raw": "\"; value \""
+                                                      "raw": "\"; value \"",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   "operator": "+",
@@ -948,7 +990,9 @@
                                                   "start": 1290,
                                                   "end": 1293,
                                                   "value": ".",
-                                                  "raw": "\".\""
+                                                  "raw": "\".\"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -1051,7 +1095,9 @@
                                                             "start": 1370,
                                                             "end": 1389,
                                                             "value": "Resolved options ",
-                                                            "raw": "\"Resolved options \""
+                                                            "raw": "\"Resolved options \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           },
                                                           "operator": "+",
                                                           "right": {
@@ -1094,7 +1140,9 @@
                                                           "start": 1418,
                                                           "end": 1441,
                                                           "value": " are affected by key ",
-                                                          "raw": "\" are affected by key \""
+                                                          "raw": "\" are affected by key \"",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       },
                                                       "operator": "+",
@@ -1111,7 +1159,9 @@
                                                       "start": 1450,
                                                       "end": 1460,
                                                       "value": "; value ",
-                                                      "raw": "\"; value \""
+                                                      "raw": "\"; value \"",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   "operator": "+",
@@ -1128,7 +1178,9 @@
                                                   "start": 1471,
                                                   "end": 1474,
                                                   "value": ".",
-                                                  "raw": "\".\""
+                                                  "raw": "\".\"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],
@@ -1231,7 +1283,9 @@
                                                             "start": 1552,
                                                             "end": 1570,
                                                             "value": "Formatted value ",
-                                                            "raw": "\"Formatted value \""
+                                                            "raw": "\"Formatted value \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           },
                                                           "operator": "+",
                                                           "right": {
@@ -1274,7 +1328,9 @@
                                                           "start": 1602,
                                                           "end": 1624,
                                                           "value": " is affected by key ",
-                                                          "raw": "\" is affected by key \""
+                                                          "raw": "\" is affected by key \"",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       },
                                                       "operator": "+",
@@ -1291,7 +1347,9 @@
                                                       "start": 1633,
                                                       "end": 1643,
                                                       "value": "; value ",
-                                                      "raw": "\"; value \""
+                                                      "raw": "\"; value \"",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   "operator": "+",
@@ -1308,7 +1366,9 @@
                                                   "start": 1654,
                                                   "end": 1657,
                                                   "value": ".",
-                                                  "raw": "\".\""
+                                                  "raw": "\".\"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             ],

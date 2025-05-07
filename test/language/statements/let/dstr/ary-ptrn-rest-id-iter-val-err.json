@@ -53,7 +53,9 @@
                 "start": 1305,
                 "end": 1312,
                 "value": "value",
-                "raw": "'value'"
+                "raw": "'value'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",

@@ -91,7 +91,9 @@
                 "start": 300,
                 "end": 305,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -101,14 +103,18 @@
             "start": 308,
             "end": 313,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 315,
             "end": 347,
             "value": "`s.has(false)` returns `false`",
-            "raw": "\"`s.has(false)` returns `false`\""
+            "raw": "\"`s.has(false)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

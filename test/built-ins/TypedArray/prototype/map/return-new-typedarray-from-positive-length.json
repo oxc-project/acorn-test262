@@ -70,7 +70,9 @@
                             "start": 752,
                             "end": 753,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -204,7 +206,9 @@
                         "start": 856,
                         "end": 879,
                         "value": "new typedArray object",
-                        "raw": "\"new typedArray object\""
+                        "raw": "\"new typedArray object\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -281,7 +285,9 @@
                         "start": 941,
                         "end": 959,
                         "value": "same constructor",
-                        "raw": "\"same constructor\""
+                        "raw": "\"same constructor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -339,14 +345,18 @@
                         "start": 996,
                         "end": 997,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 999,
                         "end": 1012,
                         "value": "same length",
-                        "raw": "\"same length\""
+                        "raw": "\"same length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -423,7 +433,9 @@
                         "start": 1067,
                         "end": 1079,
                         "value": "new buffer",
-                        "raw": "\"new buffer\""
+                        "raw": "\"new buffer\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

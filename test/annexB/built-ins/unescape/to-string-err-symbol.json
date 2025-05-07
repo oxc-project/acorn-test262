@@ -34,7 +34,9 @@
                 "start": 347,
                 "end": 349,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

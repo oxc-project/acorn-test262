@@ -458,7 +458,9 @@ __ESTREE_TEST__:PASS:
                     "start": 220,
                     "end": 221,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "CallExpression",
@@ -677,7 +679,9 @@ __ESTREE_TEST__:PASS:
               "start": 278,
               "end": 279,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -771,7 +775,9 @@ __ESTREE_TEST__:PASS:
                       "start": 327,
                       "end": 329,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": null
                   },
@@ -822,7 +828,9 @@ __ESTREE_TEST__:PASS:
                       "start": 359,
                       "end": 360,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -919,7 +927,9 @@ __ESTREE_TEST__:PASS:
                       "start": 455,
                       "end": 456,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -1351,7 +1361,9 @@ __ESTREE_TEST__:PASS:
                     "start": 629,
                     "end": 630,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "CallExpression",
@@ -1533,7 +1545,9 @@ __ESTREE_TEST__:PASS:
                     "start": 686,
                     "end": 687,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "consequent": {
                     "type": "CallExpression",
@@ -1790,7 +1804,9 @@ __ESTREE_TEST__:PASS:
               "start": 779,
               "end": 780,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -1832,7 +1848,9 @@ __ESTREE_TEST__:PASS:
                       "start": 807,
                       "end": 808,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

@@ -154,7 +154,9 @@
                         "start": 1387,
                         "end": 1389,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -259,7 +261,9 @@
                 "start": 1449,
                 "end": 1452,
                 "value": "g",
-                "raw": "'g'"
+                "raw": "'g'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -355,7 +359,9 @@
             "start": 1518,
             "end": 1574,
             "value": "private setters are not installed before super returns",
-            "raw": "'private setters are not installed before super returns'"
+            "raw": "'private setters are not installed before super returns'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -261,7 +261,9 @@ __ESTREE_TEST__:PASS:
         "start": 92,
         "end": 95,
         "raw": "'m'",
-        "value": "m"
+        "value": "m",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -366,7 +368,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "'m2'",
-        "value": "m2"
+        "value": "m2",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -404,7 +408,9 @@ __ESTREE_TEST__:PASS:
           "start": 268,
           "end": 271,
           "raw": "\"m\"",
-          "value": "m"
+          "value": "m",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -431,7 +437,9 @@ __ESTREE_TEST__:PASS:
           "start": 313,
           "end": 317,
           "raw": "\"m2\"",
-          "value": "m2"
+          "value": "m2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -458,7 +466,9 @@ __ESTREE_TEST__:PASS:
           "start": 358,
           "end": 423,
           "raw": "\"privacyTopLevelAmbientExternalModuleImportWithoutExport_require\"",
-          "value": "privacyTopLevelAmbientExternalModuleImportWithoutExport_require"
+          "value": "privacyTopLevelAmbientExternalModuleImportWithoutExport_require",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -485,7 +495,9 @@ __ESTREE_TEST__:PASS:
           "start": 464,
           "end": 530,
           "raw": "\"privacyTopLevelAmbientExternalModuleImportWithoutExport_require1\"",
-          "value": "privacyTopLevelAmbientExternalModuleImportWithoutExport_require1"
+          "value": "privacyTopLevelAmbientExternalModuleImportWithoutExport_require1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

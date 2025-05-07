@@ -62,7 +62,9 @@
           "start": 392,
           "end": 400,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -94,7 +96,9 @@
                     "start": 429,
                     "end": 504,
                     "value": "#1: __str = String(); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -138,7 +142,9 @@
           "start": 710,
           "end": 712,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -170,7 +176,9 @@
                     "start": 741,
                     "end": 796,
                     "value": "#2: __str = String(); __str === \"\". Actual: __str ===",
-                    "raw": "'#2: __str = String(); __str === \"\". Actual: __str ==='"
+                    "raw": "'#2: __str = String(); __str === \"\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

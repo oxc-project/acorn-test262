@@ -18,7 +18,9 @@
         "start": 747,
         "end": 781,
         "value": "./export-star-as-dflt_FIXTURE.js",
-        "raw": "'./export-star-as-dflt_FIXTURE.js'"
+        "raw": "'./export-star-as-dflt_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -44,7 +46,9 @@
         "start": 800,
         "end": 826,
         "value": "./export-star-as-dflt.js",
-        "raw": "'./export-star-as-dflt.js'"
+        "raw": "'./export-star-as-dflt.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -76,7 +80,9 @@
         "start": 861,
         "end": 887,
         "value": "./export-star-as-dflt.js",
-        "raw": "'./export-star-as-dflt.js'"
+        "raw": "'./export-star-as-dflt.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -102,7 +108,9 @@
         "start": 909,
         "end": 935,
         "value": "./export-star-as-dflt.js",
-        "raw": "'./export-star-as-dflt.js'"
+        "raw": "'./export-star-as-dflt.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -158,14 +166,18 @@
             "start": 963,
             "end": 964,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 966,
             "end": 1015,
             "value": "Module was re-exported under the name `default`",
-            "raw": "'Module was re-exported under the name `default`'"
+            "raw": "'Module was re-exported under the name `default`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,14 +235,18 @@
             "start": 1044,
             "end": 1045,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1047,
             "end": 1103,
             "value": "named binding was re-exported under the name `default`",
-            "raw": "'named binding was re-exported under the name `default`'"
+            "raw": "'named binding was re-exported under the name `default`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -301,14 +317,18 @@
             "start": 1137,
             "end": 1138,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1140,
             "end": 1192,
             "value": "namespace was re-exported under the name `default`",
-            "raw": "'namespace was re-exported under the name `default`'"
+            "raw": "'namespace was re-exported under the name `default`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -86,7 +86,9 @@
                 "start": 307,
                 "end": 313,
                 "value": "null",
-                "raw": "\"null\""
+                "raw": "\"null\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 316,
             "end": 322,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 360,
             "value": "String.prototype.trim.call(\"null\")",
-            "raw": "'String.prototype.trim.call(\"null\")'"
+            "raw": "'String.prototype.trim.call(\"null\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

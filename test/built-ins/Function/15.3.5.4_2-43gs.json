@@ -70,7 +70,9 @@
                                 "start": 437,
                                 "end": 449,
                                 "value": "use strict",
-                                "raw": "\"use strict\""
+                                "raw": "\"use strict\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "directive": "use strict"
                             },

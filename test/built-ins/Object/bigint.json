@@ -39,6 +39,7 @@
                   "end": 246,
                   "value": null,
                   "raw": "0n",
+                  "regex": null,
                   "bigint": "0"
                 }
               ],
@@ -109,6 +110,7 @@
                     "end": 294,
                     "value": null,
                     "raw": "0n",
+                    "regex": null,
                     "bigint": "0"
                   }
                 ],
@@ -132,6 +134,7 @@
             "end": 309,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           }
         ],

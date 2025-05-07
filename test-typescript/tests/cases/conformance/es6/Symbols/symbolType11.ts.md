@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 28,
                 "raw": "\"logical\"",
-                "value": "logical"
+                "value": "logical",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -142,7 +144,9 @@ __ESTREE_TEST__:PASS:
           "start": 48,
           "end": 49,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Identifier",
@@ -209,7 +213,9 @@ __ESTREE_TEST__:PASS:
           "start": 69,
           "end": 70,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     },

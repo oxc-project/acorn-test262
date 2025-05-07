@@ -88,7 +88,9 @@
             "start": 536,
             "end": 623,
             "value": "Object.getPrototypeOf(FinalizationRegistry) returns the value of `Function.prototype`",
-            "raw": "'Object.getPrototypeOf(FinalizationRegistry) returns the value of `Function.prototype`'"
+            "raw": "'Object.getPrototypeOf(FinalizationRegistry) returns the value of `Function.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

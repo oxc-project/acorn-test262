@@ -47,7 +47,9 @@
                 "start": 333,
                 "end": 351,
                 "value": "{\"__proto__\":[]}",
-                "raw": "'{\"__proto__\":[]}'"
+                "raw": "'{\"__proto__\":[]}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -141,7 +143,9 @@
             "start": 423,
             "end": 507,
             "value": "Object.getPrototypeOf(\"JSON.parse('{\"__proto__\":[]}')\") returns Object.prototype",
-            "raw": "'Object.getPrototypeOf(\"JSON.parse(\\'{\"__proto__\":[]}\\')\") returns Object.prototype'"
+            "raw": "'Object.getPrototypeOf(\"JSON.parse(\\'{\"__proto__\":[]}\\')\") returns Object.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +217,9 @@
             "start": 547,
             "end": 592,
             "value": "Array.isArray(x.__proto__) must return true",
-            "raw": "'Array.isArray(x.__proto__) must return true'"
+            "raw": "'Array.isArray(x.__proto__) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

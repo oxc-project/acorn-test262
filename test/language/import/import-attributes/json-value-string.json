@@ -25,7 +25,9 @@
         "start": 615,
         "end": 649,
         "value": "./json-value-string_FIXTURE.json",
-        "raw": "'./json-value-string_FIXTURE.json'"
+        "raw": "'./json-value-string_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -43,7 +45,9 @@
             "start": 663,
             "end": 669,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -87,7 +91,9 @@
             "start": 698,
             "end": 714,
             "value": "a string value",
-            "raw": "'a string value'"
+            "raw": "'a string value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -92,7 +92,9 @@
             "start": 385,
             "end": 390,
             "value": "get",
-            "raw": "\"get\""
+            "raw": "\"get\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -175,7 +177,9 @@
             "start": 447,
             "end": 457,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -246,14 +250,18 @@
             "start": 511,
             "end": 522,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 524,
             "end": 545,
             "value": "typeof obj.property",
-            "raw": "'typeof obj.property'"
+            "raw": "'typeof obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +311,9 @@
                 "start": 574,
                 "end": 584,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -313,7 +323,9 @@
             "start": 587,
             "end": 628,
             "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"property\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

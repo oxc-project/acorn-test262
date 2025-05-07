@@ -62,14 +62,18 @@
             "start": 1374,
             "end": 1384,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1386,
             "end": 1441,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,7 +325,9 @@
                           "start": 1737,
                           "end": 1738,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -424,14 +430,18 @@
                               "start": 1823,
                               "end": 1824,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1826,
                               "end": 1827,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -445,7 +455,9 @@
                   "start": 1835,
                   "end": 1910,
                   "value": "`Atomics.waitAsync(typedArray, index, 0, 0)` throws a TypeError exception",
-                  "raw": "'`Atomics.waitAsync(typedArray, index, 0, 0)` throws a TypeError exception'"
+                  "raw": "'`Atomics.waitAsync(typedArray, index, 0, 0)` throws a TypeError exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

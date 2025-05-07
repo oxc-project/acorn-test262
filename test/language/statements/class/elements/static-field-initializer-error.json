@@ -174,14 +174,18 @@
                         "start": 2052,
                         "end": 2057,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2059,
                         "end": 2086,
                         "value": "this should never execute",
-                        "raw": "'this should never execute'"
+                        "raw": "'this should never execute'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -195,7 +199,9 @@
             "start": 2092,
             "end": 2141,
             "value": "static field initializer should throw exception",
-            "raw": "'static field initializer should throw exception'"
+            "raw": "'static field initializer should throw exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

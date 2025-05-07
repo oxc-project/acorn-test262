@@ -28,42 +28,54 @@
                 "start": 486,
                 "end": 492,
                 "value": "da-u",
-                "raw": "\"da-u\""
+                "raw": "\"da-u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 503,
                 "value": "da-u-",
-                "raw": "\"da-u-\""
+                "raw": "\"da-u-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 507,
                 "end": 515,
                 "value": "da-u--",
-                "raw": "\"da-u--\""
+                "raw": "\"da-u--\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 519,
                 "end": 532,
                 "value": "da-u-t-latn",
-                "raw": "\"da-u-t-latn\""
+                "raw": "\"da-u-t-latn\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 549,
                 "value": "da-u-x-priv",
-                "raw": "\"da-u-x-priv\""
+                "raw": "\"da-u-x-priv\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 615,
                 "value": "da-u-ca-gregory-u-ca-buddhist",
-                "raw": "\"da-u-ca-gregory-u-ca-buddhist\""
+                "raw": "\"da-u-ca-gregory-u-ca-buddhist\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

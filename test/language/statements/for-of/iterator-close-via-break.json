@@ -23,7 +23,9 @@
             "start": 346,
             "end": 347,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 367,
             "end": 368,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 391,
             "end": 392,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -217,7 +223,9 @@
                                   "start": 511,
                                   "end": 512,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -248,7 +256,9 @@
                                       "start": 535,
                                       "end": 540,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -270,7 +280,9 @@
                                       "start": 549,
                                       "end": 553,
                                       "value": null,
-                                      "raw": "null"
+                                      "raw": "null",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -329,7 +341,9 @@
                                   "start": 610,
                                   "end": 611,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -432,14 +446,18 @@
                   "start": 709,
                   "end": 710,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 712,
                   "end": 732,
                   "value": "Value is retrieved",
-                  "raw": "'Value is retrieved'"
+                  "raw": "'Value is retrieved'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -484,14 +502,18 @@
                   "start": 775,
                   "end": 776,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 778,
                   "end": 802,
                   "value": "Iterator is not closed",
-                  "raw": "'Iterator is not closed'"
+                  "raw": "'Iterator is not closed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -517,7 +539,9 @@
                 "start": 828,
                 "end": 829,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -569,14 +593,18 @@
             "start": 877,
             "end": 878,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 880,
             "end": 930,
             "value": "Iterator does not restart following interruption",
-            "raw": "'Iterator does not restart following interruption'"
+            "raw": "'Iterator does not restart following interruption'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -621,14 +649,18 @@
             "start": 967,
             "end": 968,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 970,
             "end": 997,
             "value": "A single iteration occurs",
-            "raw": "'A single iteration occurs'"
+            "raw": "'A single iteration occurs'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -673,14 +705,18 @@
             "start": 1033,
             "end": 1034,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1080,
             "value": "Iterator is closed after `break` statement",
-            "raw": "'Iterator is closed after `break` statement'"
+            "raw": "'Iterator is closed after `break` statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

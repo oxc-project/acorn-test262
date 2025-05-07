@@ -185,7 +185,9 @@ __ESTREE_TEST__:PASS:
                 "start": 112,
                 "end": 121,
                 "raw": "\"trimmer\"",
-                "value": "trimmer"
+                "value": "trimmer",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -197,14 +199,18 @@ __ESTREE_TEST__:PASS:
                     "start": 124,
                     "end": 134,
                     "raw": "\"trimming\"",
-                    "value": "trimming"
+                    "value": "trimming",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 136,
                     "end": 144,
                     "raw": "\"edging\"",
-                    "value": "edging"
+                    "value": "edging",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -770,7 +776,9 @@ __ESTREE_TEST__:PASS:
                 "start": 470,
                 "end": 478,
                 "raw": "\"roomba\"",
-                "value": "roomba"
+                "value": "roomba",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -782,14 +790,18 @@ __ESTREE_TEST__:PASS:
                     "start": 481,
                     "end": 489,
                     "raw": "\"vacuum\"",
-                    "value": "vacuum"
+                    "value": "vacuum",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 491,
                     "end": 500,
                     "raw": "\"mopping\"",
-                    "value": "mopping"
+                    "value": "mopping",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -862,7 +874,9 @@ __ESTREE_TEST__:PASS:
                 "start": 526,
                 "end": 534,
                 "raw": "\"roomba\"",
-                "value": "roomba"
+                "value": "roomba",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -874,14 +888,18 @@ __ESTREE_TEST__:PASS:
                     "start": 537,
                     "end": 545,
                     "raw": "\"vacuum\"",
-                    "value": "vacuum"
+                    "value": "vacuum",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 547,
                     "end": 556,
                     "raw": "\"mopping\"",
-                    "value": "mopping"
+                    "value": "mopping",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -954,7 +972,9 @@ __ESTREE_TEST__:PASS:
                 "start": 582,
                 "end": 590,
                 "raw": "\"roomba\"",
-                "value": "roomba"
+                "value": "roomba",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -966,14 +986,18 @@ __ESTREE_TEST__:PASS:
                     "start": 593,
                     "end": 601,
                     "raw": "\"vacuum\"",
-                    "value": "vacuum"
+                    "value": "vacuum",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 603,
                     "end": 612,
                     "raw": "\"mopping\"",
-                    "value": "mopping"
+                    "value": "mopping",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -1046,7 +1070,9 @@ __ESTREE_TEST__:PASS:
                 "start": 638,
                 "end": 646,
                 "raw": "\"roomba\"",
-                "value": "roomba"
+                "value": "roomba",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -1058,14 +1084,18 @@ __ESTREE_TEST__:PASS:
                     "start": 649,
                     "end": 657,
                     "raw": "\"vacuum\"",
-                    "value": "vacuum"
+                    "value": "vacuum",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 659,
                     "end": 668,
                     "raw": "\"mopping\"",
-                    "value": "mopping"
+                    "value": "mopping",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

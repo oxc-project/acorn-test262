@@ -107,7 +107,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 49,
           "raw": "\"exportAssignmentInterface_A\"",
-          "value": "exportAssignmentInterface_A"
+          "value": "exportAssignmentInterface_A",
+          "regex": null,
+          "bigint": null
         }
       }
     },

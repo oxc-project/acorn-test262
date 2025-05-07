@@ -31,21 +31,27 @@
                 "start": 412,
                 "end": 419,
                 "value": "a1,a2",
-                "raw": "\"a1,a2\""
+                "raw": "\"a1,a2\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 421,
                 "end": 425,
                 "value": "a3",
-                "raw": "\"a3\""
+                "raw": "\"a3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 427,
                 "end": 445,
                 "value": "this.shifted=a1;",
-                "raw": "\"this.shifted=a1;\""
+                "raw": "\"this.shifted=a1;\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -64,7 +70,9 @@
             "start": 452,
             "end": 456,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -76,21 +84,27 @@
                 "start": 459,
                 "end": 460,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 462,
                 "end": 463,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 466,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +158,9 @@
                 "start": 493,
                 "end": 502,
                 "value": "shifted",
-                "raw": "\"shifted\""
+                "raw": "\"shifted\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -163,7 +179,9 @@
             "start": 512,
             "end": 513,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +225,9 @@
                     "start": 527,
                     "end": 536,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -217,7 +237,9 @@
                   "start": 538,
                   "end": 539,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -228,7 +250,9 @@
                 "start": 545,
                 "end": 546,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -259,7 +283,9 @@
                     "start": 557,
                     "end": 566,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false
@@ -269,7 +295,9 @@
                   "start": 568,
                   "end": 569,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -280,7 +308,9 @@
                 "start": 575,
                 "end": 576,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -312,7 +342,9 @@
                   "start": 587,
                   "end": 596,
                   "value": "shifted",
-                  "raw": "\"shifted\""
+                  "raw": "\"shifted\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -322,7 +354,9 @@
                 "start": 598,
                 "end": 599,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -333,7 +367,9 @@
               "start": 605,
               "end": 606,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -363,7 +399,9 @@
                   "start": 636,
                   "end": 798,
                   "value": "#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object",
-                  "raw": "'#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'"
+                  "raw": "'#2: The call method takes one or more arguments, thisArg and (optionally) arg1, arg2 etc, and performs a function call using the [[Call]] property of the object'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 30,
         "end": 31,
         "raw": "0",
-        "value": 0
+        "value": 0,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -39,7 +41,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 16,
         "raw": "0",
-        "value": 0
+        "value": 0,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -127,7 +131,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "\"./x.ts\"",
-        "value": "./x.ts"
+        "value": "./x.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -157,7 +163,9 @@ __ESTREE_TEST__:PASS:
         "start": 38,
         "end": 47,
         "raw": "\"./y.tsx\"",
-        "value": "./y.tsx"
+        "value": "./y.tsx",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -187,7 +195,9 @@ __ESTREE_TEST__:PASS:
         "start": 63,
         "end": 73,
         "raw": "\"./z.d.ts\"",
-        "value": "./z.d.ts"
+        "value": "./z.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -217,7 +227,9 @@ __ESTREE_TEST__:PASS:
         "start": 137,
         "end": 142,
         "raw": "\"./x\"",
-        "value": "./x"
+        "value": "./x",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -247,7 +259,9 @@ __ESTREE_TEST__:PASS:
         "start": 159,
         "end": 164,
         "raw": "\"./y\"",
-        "value": "./y"
+        "value": "./y",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -277,7 +291,9 @@ __ESTREE_TEST__:PASS:
         "start": 181,
         "end": 186,
         "raw": "\"./z\"",
-        "value": "./z"
+        "value": "./z",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

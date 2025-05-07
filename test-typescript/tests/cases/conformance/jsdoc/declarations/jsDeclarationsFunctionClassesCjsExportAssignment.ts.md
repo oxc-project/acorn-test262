@@ -589,7 +589,9 @@ __ESTREE_TEST__:PASS:
                           "start": 743,
                           "end": 744,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "void",
                         "prefix": true

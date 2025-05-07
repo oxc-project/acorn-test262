@@ -39,7 +39,9 @@
                     "start": 505,
                     "end": 506,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -69,7 +71,9 @@
             "start": 524,
             "end": 525,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -253,14 +257,18 @@
             "start": 662,
             "end": 663,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 691,
             "value": "`forEach` is not a no-op",
-            "raw": "\"`forEach` is not a no-op\""
+            "raw": "\"`forEach` is not a no-op\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

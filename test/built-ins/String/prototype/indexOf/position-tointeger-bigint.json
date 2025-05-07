@@ -68,7 +68,9 @@
                         "start": 460,
                         "end": 462,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -85,7 +87,9 @@
                         "start": 471,
                         "end": 473,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
@@ -93,6 +97,7 @@
                         "end": 477,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       }
                     ],
@@ -107,7 +112,9 @@
             "start": 483,
             "end": 515,
             "value": "ToInteger: BigInt => TypeError",
-            "raw": "\"ToInteger: BigInt => TypeError\""
+            "raw": "\"ToInteger: BigInt => TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +185,9 @@
                         "start": 558,
                         "end": 560,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -195,7 +204,9 @@
                         "start": 569,
                         "end": 571,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -214,6 +225,7 @@
                             "end": 582,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           }
                         ],
@@ -231,7 +243,9 @@
             "start": 589,
             "end": 656,
             "value": "ToInteger: unbox object with internal slot => BigInt => TypeError",
-            "raw": "\"ToInteger: unbox object with internal slot => BigInt => TypeError\""
+            "raw": "\"ToInteger: unbox object with internal slot => BigInt => TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +316,9 @@
                         "start": 699,
                         "end": 701,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -319,7 +335,9 @@
                         "start": 710,
                         "end": 712,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -376,6 +394,7 @@
                                       "end": 770,
                                       "value": null,
                                       "raw": "0n",
+                                      "regex": null,
                                       "bigint": "0"
                                     }
                                   }
@@ -398,7 +417,9 @@
             "start": 787,
             "end": 836,
             "value": "ToInteger: @@toPrimitive => BigInt => TypeError",
-            "raw": "\"ToInteger: @@toPrimitive => BigInt => TypeError\""
+            "raw": "\"ToInteger: @@toPrimitive => BigInt => TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -469,7 +490,9 @@
                         "start": 879,
                         "end": 881,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -486,7 +509,9 @@
                         "start": 890,
                         "end": 892,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -530,6 +555,7 @@
                                       "end": 937,
                                       "value": null,
                                       "raw": "0n",
+                                      "regex": null,
                                       "bigint": "0"
                                     }
                                   }
@@ -552,7 +578,9 @@
             "start": 954,
             "end": 997,
             "value": "ToInteger: valueOf => BigInt => TypeError",
-            "raw": "\"ToInteger: valueOf => BigInt => TypeError\""
+            "raw": "\"ToInteger: valueOf => BigInt => TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -623,7 +651,9 @@
                         "start": 1040,
                         "end": 1042,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -640,7 +670,9 @@
                         "start": 1051,
                         "end": 1053,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -684,6 +716,7 @@
                                       "end": 1099,
                                       "value": null,
                                       "raw": "0n",
+                                      "regex": null,
                                       "bigint": "0"
                                     }
                                   }
@@ -706,7 +739,9 @@
             "start": 1116,
             "end": 1160,
             "value": "ToInteger: toString => BigInt => TypeError",
-            "raw": "\"ToInteger: toString => BigInt => TypeError\""
+            "raw": "\"ToInteger: toString => BigInt => TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 33,
         "raw": "\"../debug\"",
-        "value": "../debug"
+        "value": "../debug",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -175,7 +177,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 38,
         "raw": "\"./_namespaces/ts\"",
-        "value": "./_namespaces/ts"
+        "value": "./_namespaces/ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -205,7 +209,9 @@ __ESTREE_TEST__:PASS:
         "start": 62,
         "end": 80,
         "raw": "\"./_namespaces/ts\"",
-        "value": "./_namespaces/ts"
+        "value": "./_namespaces/ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -249,7 +255,9 @@ __ESTREE_TEST__:PASS:
             "start": 99,
             "end": 103,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -312,7 +320,9 @@ __ESTREE_TEST__:PASS:
             "start": 119,
             "end": 123,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -368,7 +378,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 41,
         "raw": "\"../../core/_namespaces/ts\"",
-        "value": "../../core/_namespaces/ts"
+        "value": "../../core/_namespaces/ts",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -394,7 +406,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 38,
         "raw": "\"./_namespaces/ts\"",
-        "value": "./_namespaces/ts"
+        "value": "./_namespaces/ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -424,7 +438,9 @@ __ESTREE_TEST__:PASS:
         "start": 62,
         "end": 80,
         "raw": "\"./_namespaces/ts\"",
-        "value": "./_namespaces/ts"
+        "value": "./_namespaces/ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -468,7 +484,9 @@ __ESTREE_TEST__:PASS:
             "start": 99,
             "end": 103,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -531,7 +549,9 @@ __ESTREE_TEST__:PASS:
             "start": 119,
             "end": 123,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

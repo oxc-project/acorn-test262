@@ -73,7 +73,9 @@
               "start": 378,
               "end": 386,
               "value": "object",
-              "raw": "\"object\""
+              "raw": "\"object\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

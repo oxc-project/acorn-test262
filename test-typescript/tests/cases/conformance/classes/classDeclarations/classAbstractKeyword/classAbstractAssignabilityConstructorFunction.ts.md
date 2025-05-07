@@ -143,7 +143,9 @@ __ESTREE_TEST__:PASS:
           "start": 110,
           "end": 116,
           "raw": "\"asdf\"",
-          "value": "asdf"
+          "value": "asdf",
+          "regex": null,
+          "bigint": null
         }
       }
     }

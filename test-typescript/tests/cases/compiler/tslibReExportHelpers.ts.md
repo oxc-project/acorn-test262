@@ -102,7 +102,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 26,
         "raw": "\"./index.js\"",
-        "value": "./index.js"
+        "value": "./index.js",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

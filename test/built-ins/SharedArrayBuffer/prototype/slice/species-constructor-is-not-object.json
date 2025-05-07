@@ -34,7 +34,9 @@
                 "start": 423,
                 "end": 424,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -128,7 +130,9 @@
           "start": 503,
           "end": 507,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -177,7 +181,9 @@
             "start": 545,
             "end": 574,
             "value": "`constructor` value is null",
-            "raw": "\"`constructor` value is null\""
+            "raw": "\"`constructor` value is null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +222,9 @@
           "start": 604,
           "end": 608,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -265,7 +273,9 @@
             "start": 646,
             "end": 678,
             "value": "`constructor` value is Boolean",
-            "raw": "\"`constructor` value is Boolean\""
+            "raw": "\"`constructor` value is Boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,7 +314,9 @@
           "start": 708,
           "end": 710,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -353,7 +365,9 @@
             "start": 748,
             "end": 779,
             "value": "`constructor` value is String",
-            "raw": "\"`constructor` value is String\""
+            "raw": "\"`constructor` value is String\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -447,7 +461,9 @@
             "start": 855,
             "end": 886,
             "value": "`constructor` value is Symbol",
-            "raw": "\"`constructor` value is Symbol\""
+            "raw": "\"`constructor` value is Symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +502,9 @@
           "start": 916,
           "end": 917,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -535,7 +553,9 @@
             "start": 955,
             "end": 986,
             "value": "`constructor` value is Number",
-            "raw": "\"`constructor` value is Number\""
+            "raw": "\"`constructor` value is Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -142,7 +142,9 @@
                           "start": 1217,
                           "end": 1218,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "FunctionExpression",
@@ -276,7 +278,9 @@
             "start": 1304,
             "end": 1312,
             "value": "xCover",
-            "raw": "'xCover'"
+            "raw": "'xCover'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -308,7 +312,9 @@
             "start": 1338,
             "end": 1344,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -333,7 +339,9 @@
                   "start": 1362,
                   "end": 1367,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -355,7 +363,9 @@
                   "start": 1381,
                   "end": 1386,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -377,7 +387,9 @@
                   "start": 1404,
                   "end": 1408,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -399,7 +411,9 @@
                   "start": 1419,
                   "end": 1426,
                   "value": "cover",
-                  "raw": "'cover'"
+                  "raw": "'cover'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

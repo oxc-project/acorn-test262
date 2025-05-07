@@ -60,7 +60,9 @@
                 "start": 345,
                 "end": 353,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 356,
             "end": 360,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 416,
             "value": "parseInt.hasOwnProperty('length') must return true",
-            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -171,7 +177,9 @@
                 "start": 486,
                 "end": 494,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -181,14 +189,18 @@
             "start": 497,
             "end": 502,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 559,
             "value": "parseInt.hasOwnProperty('length') must return false",
-            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return false'"
+            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -252,7 +264,9 @@
             "start": 610,
             "end": 679,
             "value": "The value of parseInt.length is expected to not equal ``undefined``",
-            "raw": "'The value of parseInt.length is expected to not equal ``undefined``'"
+            "raw": "'The value of parseInt.length is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

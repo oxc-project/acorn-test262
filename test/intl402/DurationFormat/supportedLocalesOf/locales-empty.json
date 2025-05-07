@@ -75,14 +75,18 @@
             "start": 567,
             "end": 577,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 652,
             "value": "Should support Intl.DurationFormat.supportedLocalesOf.",
-            "raw": "\"Should support Intl.DurationFormat.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.DurationFormat.supportedLocalesOf.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

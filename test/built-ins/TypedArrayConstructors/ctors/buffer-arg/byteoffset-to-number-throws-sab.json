@@ -34,7 +34,9 @@
                 "start": 774,
                 "end": 775,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

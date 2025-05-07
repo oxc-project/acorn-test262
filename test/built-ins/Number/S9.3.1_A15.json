@@ -46,7 +46,9 @@
                 "start": 351,
                 "end": 364,
                 "value": "-1234567890",
-                "raw": "\"-1234567890\""
+                "raw": "\"-1234567890\"",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -61,7 +63,9 @@
               "start": 370,
               "end": 380,
               "value": 1234567890,
-              "raw": "1234567890"
+              "raw": "1234567890",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -69,7 +73,9 @@
             "start": 384,
             "end": 447,
             "value": "The value of `+(\"-1234567890\")` is expected to be -1234567890",
-            "raw": "'The value of `+(\"-1234567890\")` is expected to be -1234567890'"
+            "raw": "'The value of `+(\"-1234567890\")` is expected to be -1234567890'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

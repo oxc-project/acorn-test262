@@ -47,7 +47,9 @@
                 "start": 1234,
                 "end": 1235,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

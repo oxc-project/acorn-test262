@@ -176,7 +176,9 @@
             "start": 591,
             "end": 640,
             "value": "resolvedOptions returned the same object twice.",
-            "raw": "\"resolvedOptions returned the same object twice.\""
+            "raw": "\"resolvedOptions returned the same object twice.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +241,9 @@
               "start": 791,
               "end": 809,
               "value": "Invalid locale: ",
-              "raw": "\"Invalid locale: \""
+              "raw": "\"Invalid locale: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -323,7 +327,9 @@
               "start": 890,
               "end": 918,
               "value": "Invalid numbering system: ",
-              "raw": "\"Invalid numbering system: \""
+              "raw": "\"Invalid numbering system: \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -402,7 +408,9 @@
             "start": 977,
             "end": 986,
             "value": "decimal",
-            "raw": "\"decimal\""
+            "raw": "\"decimal\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +468,9 @@
             "start": 1035,
             "end": 1036,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -518,7 +528,9 @@
             "start": 1086,
             "end": 1087,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -576,7 +588,9 @@
             "start": 1137,
             "end": 1138,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -634,7 +648,9 @@
             "start": 1178,
             "end": 1184,
             "value": "auto",
-            "raw": "\"auto\""
+            "raw": "\"auto\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -678,7 +694,9 @@
                   "start": 1223,
                   "end": 1227,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -700,7 +718,9 @@
                   "start": 1241,
                   "end": 1245,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -722,7 +742,9 @@
                   "start": 1261,
                   "end": 1265,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -758,7 +780,9 @@
             "start": 1292,
             "end": 1300,
             "value": "locale",
-            "raw": "\"locale\""
+            "raw": "\"locale\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -796,7 +820,9 @@
             "start": 1344,
             "end": 1361,
             "value": "numberingSystem",
-            "raw": "\"numberingSystem\""
+            "raw": "\"numberingSystem\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -834,7 +860,9 @@
             "start": 1405,
             "end": 1412,
             "value": "style",
-            "raw": "\"style\""
+            "raw": "\"style\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -872,7 +900,9 @@
             "start": 1456,
             "end": 1466,
             "value": "currency",
-            "raw": "\"currency\""
+            "raw": "\"currency\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -910,7 +940,9 @@
             "start": 1503,
             "end": 1520,
             "value": "currencyDisplay",
-            "raw": "\"currencyDisplay\""
+            "raw": "\"currencyDisplay\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -948,7 +980,9 @@
             "start": 1557,
             "end": 1579,
             "value": "minimumIntegerDigits",
-            "raw": "\"minimumIntegerDigits\""
+            "raw": "\"minimumIntegerDigits\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -986,7 +1020,9 @@
             "start": 1623,
             "end": 1646,
             "value": "minimumFractionDigits",
-            "raw": "\"minimumFractionDigits\""
+            "raw": "\"minimumFractionDigits\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1024,7 +1060,9 @@
             "start": 1690,
             "end": 1713,
             "value": "maximumFractionDigits",
-            "raw": "\"maximumFractionDigits\""
+            "raw": "\"maximumFractionDigits\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1062,7 +1100,9 @@
             "start": 1757,
             "end": 1783,
             "value": "minimumSignificantDigits",
-            "raw": "\"minimumSignificantDigits\""
+            "raw": "\"minimumSignificantDigits\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1100,7 +1140,9 @@
             "start": 1820,
             "end": 1846,
             "value": "maximumSignificantDigits",
-            "raw": "\"maximumSignificantDigits\""
+            "raw": "\"maximumSignificantDigits\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1138,7 +1180,9 @@
             "start": 1883,
             "end": 1896,
             "value": "useGrouping",
-            "raw": "\"useGrouping\""
+            "raw": "\"useGrouping\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",

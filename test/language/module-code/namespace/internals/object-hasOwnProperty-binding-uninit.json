@@ -25,7 +25,9 @@
         "start": 925,
         "end": 968,
         "value": "./object-hasOwnProperty-binding-uninit.js",
-        "raw": "\"./object-hasOwnProperty-binding-uninit.js\""
+        "raw": "\"./object-hasOwnProperty-binding-uninit.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -142,7 +144,9 @@
                         "start": 1059,
                         "end": 1068,
                         "value": "default",
-                        "raw": "\"default\""
+                        "raw": "\"default\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -164,7 +168,9 @@
         "start": 1091,
         "end": 1092,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

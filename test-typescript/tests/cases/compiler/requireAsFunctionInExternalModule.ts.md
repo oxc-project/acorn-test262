@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
                 "start": 71,
                 "end": 75,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 34,
         "raw": "\"./c\"",
-        "value": "./c"
+        "value": "./c",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -234,7 +238,9 @@ __ESTREE_TEST__:PASS:
                   "start": 101,
                   "end": 114,
                   "raw": "'ember-debug'",
-                  "value": "ember-debug"
+                  "value": "ember-debug",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -262,7 +268,9 @@ __ESTREE_TEST__:PASS:
             "start": 71,
             "end": 84,
             "raw": "'ember-debug'",
-            "value": "ember-debug"
+            "value": "ember-debug",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -301,7 +309,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 27,
         "raw": "\"./m\"",
-        "value": "./m"
+        "value": "./m",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

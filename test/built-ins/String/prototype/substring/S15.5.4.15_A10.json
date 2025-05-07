@@ -72,7 +72,9 @@
                 "start": 510,
                 "end": 518,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 549,
                     "end": 630,
                     "value": "#1: String.prototype.substring.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.substring.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#1: String.prototype.substring.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 675,
                         "end": 683,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -295,14 +301,18 @@
             "start": 866,
             "end": 874,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 876,
             "end": 880,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "FunctionExpression",
@@ -327,7 +337,9 @@
                     "start": 904,
                     "end": 913,
                     "value": "shifted",
-                    "raw": "\"shifted\""
+                    "raw": "\"shifted\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -427,7 +439,9 @@
                     "start": 1085,
                     "end": 1254,
                     "value": "#2: __obj = String.prototype.substring.length; String.prototype.substring.length = function(){return \"shifted\";}; String.prototype.substring.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.substring.length; String.prototype.substring.length = function(){return \"shifted\";}; String.prototype.substring.length === __obj. Actual: '"
+                    "raw": "'#2: __obj = String.prototype.substring.length; String.prototype.substring.length = function(){return \"shifted\";}; String.prototype.substring.length === __obj. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

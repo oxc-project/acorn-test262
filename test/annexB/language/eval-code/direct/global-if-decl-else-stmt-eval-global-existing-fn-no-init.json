@@ -23,7 +23,9 @@
             "start": 1042,
             "end": 1200,
             "value": "assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else ;function f() {    return \"outer declaration\";  }",
-            "raw": "'assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else ;function f() {\\\n    return \"outer declaration\";\\\n  }'"
+            "raw": "'assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else ;function f() {\\\n    return \"outer declaration\";\\\n  }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

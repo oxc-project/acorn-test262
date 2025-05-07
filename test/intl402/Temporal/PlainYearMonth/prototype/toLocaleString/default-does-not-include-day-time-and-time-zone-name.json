@@ -47,28 +47,36 @@
                 "start": 356,
                 "end": 360,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 364,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 375,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 377,
                 "end": 379,
                 "value": 26,
-                "raw": "26"
+                "raw": "26",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,7 +128,9 @@
                 "start": 457,
                 "end": 474,
                 "value": "en-u-ca-iso8601",
-                "raw": "\"en-u-ca-iso8601\""
+                "raw": "\"en-u-ca-iso8601\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -145,7 +155,9 @@
                       "start": 488,
                       "end": 493,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -202,7 +214,9 @@
                 "start": 522,
                 "end": 528,
                 "value": "2024",
-                "raw": "\"2024\""
+                "raw": "\"2024\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -294,7 +308,9 @@
                   "start": 629,
                   "end": 633,
                   "value": "12",
-                  "raw": "\"12\""
+                  "raw": "\"12\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -329,7 +345,9 @@
                   "start": 654,
                   "end": 659,
                   "value": "Dec",
-                  "raw": "\"Dec\""
+                  "raw": "\"Dec\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -424,7 +442,9 @@
                   "start": 762,
                   "end": 766,
                   "value": "26",
-                  "raw": "\"26\""
+                  "raw": "\"26\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -519,7 +539,9 @@
                   "start": 881,
                   "end": 885,
                   "value": "00",
-                  "raw": "\"00\""
+                  "raw": "\"00\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -618,7 +640,9 @@
                     "start": 1010,
                     "end": 1015,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -660,7 +684,9 @@
                     "start": 1037,
                     "end": 1065,
                     "value": "Coordinated Universal Time",
-                    "raw": "\"Coordinated Universal Time\""
+                    "raw": "\"Coordinated Universal Time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

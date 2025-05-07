@@ -12,7 +12,9 @@
         "start": 1566,
         "end": 1571,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "EmptyStatement",
@@ -47,7 +49,9 @@
                 "start": 1602,
                 "end": 1624,
                 "value": "function declaration",
-                "raw": "'function declaration'"
+                "raw": "'function declaration'",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -100,7 +104,9 @@
             "start": 1656,
             "end": 1666,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -152,7 +158,9 @@
             "start": 1691,
             "end": 1713,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +186,9 @@
             "start": 1725,
             "end": 1728,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

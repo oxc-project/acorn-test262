@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "original value",
               "flags": "gi"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,7 +67,9 @@
             "start": 1103,
             "end": 1114,
             "value": "new value",
-            "raw": "'new value'"
+            "raw": "'new value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -139,7 +142,9 @@
                   "start": 1167,
                   "end": 1178,
                   "value": "new value",
-                  "raw": "'new value'"
+                  "raw": "'new value'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -157,7 +162,9 @@
             "start": 1190,
             "end": 1224,
             "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "raw": "'[[OriginalSource]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +227,9 @@
                 "start": 1261,
                 "end": 1277,
                 "value": "original value",
-                "raw": "'original value'"
+                "raw": "'original value'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -230,14 +239,18 @@
             "start": 1280,
             "end": 1285,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1287,
             "end": 1320,
             "value": "[[RegExpMatcher]] internal slot",
-            "raw": "'[[RegExpMatcher]] internal slot'"
+            "raw": "'[[RegExpMatcher]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +313,9 @@
                 "start": 1357,
                 "end": 1368,
                 "value": "new value",
-                "raw": "'new value'"
+                "raw": "'new value'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,14 +325,18 @@
             "start": 1371,
             "end": 1375,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1377,
             "end": 1410,
             "value": "[[RegExpMatcher]] internal slot",
-            "raw": "'[[RegExpMatcher]] internal slot'"
+            "raw": "'[[RegExpMatcher]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

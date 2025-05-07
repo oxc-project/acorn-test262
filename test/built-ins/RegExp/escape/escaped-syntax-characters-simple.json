@@ -60,7 +60,9 @@
                 "start": 445,
                 "end": 448,
                 "value": ".",
-                "raw": "'.'"
+                "raw": "'.'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 451,
             "end": 456,
             "value": "\\.",
-            "raw": "'\\\\.'"
+            "raw": "'\\\\.'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 458,
             "end": 494,
             "value": "dot character is escaped correctly",
-            "raw": "'dot character is escaped correctly'"
+            "raw": "'dot character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                 "start": 528,
                 "end": 531,
                 "value": "*",
-                "raw": "'*'"
+                "raw": "'*'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -150,14 +158,18 @@
             "start": 534,
             "end": 539,
             "value": "\\*",
-            "raw": "'\\\\*'"
+            "raw": "'\\\\*'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 582,
             "value": "asterisk character is escaped correctly",
-            "raw": "'asterisk character is escaped correctly'"
+            "raw": "'asterisk character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +232,9 @@
                 "start": 616,
                 "end": 619,
                 "value": "+",
-                "raw": "'+'"
+                "raw": "'+'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -230,14 +244,18 @@
             "start": 622,
             "end": 627,
             "value": "\\+",
-            "raw": "'\\\\+'"
+            "raw": "'\\\\+'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 629,
             "end": 666,
             "value": "plus character is escaped correctly",
-            "raw": "'plus character is escaped correctly'"
+            "raw": "'plus character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +318,9 @@
                 "start": 700,
                 "end": 703,
                 "value": "?",
-                "raw": "'?'"
+                "raw": "'?'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,14 +330,18 @@
             "start": 706,
             "end": 711,
             "value": "\\?",
-            "raw": "'\\\\?'"
+            "raw": "'\\\\?'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 759,
             "value": "question mark character is escaped correctly",
-            "raw": "'question mark character is escaped correctly'"
+            "raw": "'question mark character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -380,7 +404,9 @@
                 "start": 793,
                 "end": 796,
                 "value": "^",
-                "raw": "'^'"
+                "raw": "'^'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -390,14 +416,18 @@
             "start": 799,
             "end": 804,
             "value": "\\^",
-            "raw": "'\\\\^'"
+            "raw": "'\\\\^'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 844,
             "value": "caret character is escaped correctly",
-            "raw": "'caret character is escaped correctly'"
+            "raw": "'caret character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +490,9 @@
                 "start": 878,
                 "end": 881,
                 "value": "$",
-                "raw": "'$'"
+                "raw": "'$'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -470,14 +502,18 @@
             "start": 884,
             "end": 889,
             "value": "\\$",
-            "raw": "'\\\\$'"
+            "raw": "'\\\\$'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 891,
             "end": 930,
             "value": "dollar character is escaped correctly",
-            "raw": "'dollar character is escaped correctly'"
+            "raw": "'dollar character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -540,7 +576,9 @@
                 "start": 964,
                 "end": 967,
                 "value": "|",
-                "raw": "'|'"
+                "raw": "'|'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -550,14 +588,18 @@
             "start": 970,
             "end": 975,
             "value": "\\|",
-            "raw": "'\\\\|'"
+            "raw": "'\\\\|'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 977,
             "end": 1014,
             "value": "pipe character is escaped correctly",
-            "raw": "'pipe character is escaped correctly'"
+            "raw": "'pipe character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,7 +662,9 @@
                 "start": 1048,
                 "end": 1051,
                 "value": "(",
-                "raw": "'('"
+                "raw": "'('",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -630,14 +674,18 @@
             "start": 1054,
             "end": 1059,
             "value": "\\(",
-            "raw": "'\\\\('"
+            "raw": "'\\\\('",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1061,
             "end": 1110,
             "value": "open parenthesis character is escaped correctly",
-            "raw": "'open parenthesis character is escaped correctly'"
+            "raw": "'open parenthesis character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -700,7 +748,9 @@
                 "start": 1144,
                 "end": 1147,
                 "value": ")",
-                "raw": "')'"
+                "raw": "')'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -710,14 +760,18 @@
             "start": 1150,
             "end": 1155,
             "value": "\\)",
-            "raw": "'\\\\)'"
+            "raw": "'\\\\)'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1157,
             "end": 1207,
             "value": "close parenthesis character is escaped correctly",
-            "raw": "'close parenthesis character is escaped correctly'"
+            "raw": "'close parenthesis character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -780,7 +834,9 @@
                 "start": 1241,
                 "end": 1244,
                 "value": "[",
-                "raw": "'['"
+                "raw": "'['",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -790,14 +846,18 @@
             "start": 1247,
             "end": 1252,
             "value": "\\[",
-            "raw": "'\\\\['"
+            "raw": "'\\\\['",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1254,
             "end": 1299,
             "value": "open bracket character is escaped correctly",
-            "raw": "'open bracket character is escaped correctly'"
+            "raw": "'open bracket character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -860,7 +920,9 @@
                 "start": 1333,
                 "end": 1336,
                 "value": "]",
-                "raw": "']'"
+                "raw": "']'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -870,14 +932,18 @@
             "start": 1339,
             "end": 1344,
             "value": "\\]",
-            "raw": "'\\\\]'"
+            "raw": "'\\\\]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1346,
             "end": 1392,
             "value": "close bracket character is escaped correctly",
-            "raw": "'close bracket character is escaped correctly'"
+            "raw": "'close bracket character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -940,7 +1006,9 @@
                 "start": 1426,
                 "end": 1429,
                 "value": "{",
-                "raw": "'{'"
+                "raw": "'{'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -950,14 +1018,18 @@
             "start": 1432,
             "end": 1437,
             "value": "\\{",
-            "raw": "'\\\\{'"
+            "raw": "'\\\\{'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1439,
             "end": 1482,
             "value": "open brace character is escaped correctly",
-            "raw": "'open brace character is escaped correctly'"
+            "raw": "'open brace character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1020,7 +1092,9 @@
                 "start": 1516,
                 "end": 1519,
                 "value": "}",
-                "raw": "'}'"
+                "raw": "'}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1030,14 +1104,18 @@
             "start": 1522,
             "end": 1527,
             "value": "\\}",
-            "raw": "'\\\\}'"
+            "raw": "'\\\\}'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1529,
             "end": 1573,
             "value": "close brace character is escaped correctly",
-            "raw": "'close brace character is escaped correctly'"
+            "raw": "'close brace character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1100,7 +1178,9 @@
                 "start": 1607,
                 "end": 1611,
                 "value": "\\",
-                "raw": "'\\\\'"
+                "raw": "'\\\\'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1110,14 +1190,18 @@
             "start": 1614,
             "end": 1620,
             "value": "\\\\",
-            "raw": "'\\\\\\\\'"
+            "raw": "'\\\\\\\\'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1622,
             "end": 1664,
             "value": "backslash character is escaped correctly",
-            "raw": "'backslash character is escaped correctly'"
+            "raw": "'backslash character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

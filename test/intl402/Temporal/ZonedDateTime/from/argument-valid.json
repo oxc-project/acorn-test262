@@ -33,7 +33,9 @@
                     "start": 309,
                     "end": 324,
                     "value": "Africa/Bissau",
-                    "raw": "\"Africa/Bissau\""
+                    "raw": "\"Africa/Bissau\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -47,7 +49,9 @@
                     "start": 330,
                     "end": 345,
                     "value": "America/Belem",
-                    "raw": "\"America/Belem\""
+                    "raw": "\"America/Belem\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -61,7 +65,9 @@
                     "start": 351,
                     "end": 366,
                     "value": "Europe/Vienna",
-                    "raw": "\"Europe/Vienna\""
+                    "raw": "\"Europe/Vienna\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,7 +81,9 @@
                     "start": 372,
                     "end": 390,
                     "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "raw": "\"America/New_York\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -89,14 +97,18 @@
                     "start": 396,
                     "end": 410,
                     "value": "Africa/CAIRO",
-                    "raw": "\"Africa/CAIRO\""
+                    "raw": "\"Africa/CAIRO\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 412,
                     "end": 426,
                     "value": "Africa/Cairo",
-                    "raw": "\"Africa/Cairo\""
+                    "raw": "\"Africa/Cairo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -110,7 +122,9 @@
                     "start": 432,
                     "end": 449,
                     "value": "Asia/Ulan_Bator",
-                    "raw": "\"Asia/Ulan_Bator\""
+                    "raw": "\"Asia/Ulan_Bator\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -124,7 +138,9 @@
                     "start": 455,
                     "end": 460,
                     "value": "GMT",
-                    "raw": "\"GMT\""
+                    "raw": "\"GMT\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -138,14 +154,18 @@
                     "start": 466,
                     "end": 475,
                     "value": "etc/gmt",
-                    "raw": "\"etc/gmt\""
+                    "raw": "\"etc/gmt\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 477,
                     "end": 486,
                     "value": "Etc/GMT",
-                    "raw": "\"Etc/GMT\""
+                    "raw": "\"Etc/GMT\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -159,14 +179,18 @@
                     "start": 492,
                     "end": 537,
                     "value": "1994-11-05T08:15:30-05:00[America/New_York]",
-                    "raw": "\"1994-11-05T08:15:30-05:00[America/New_York]\""
+                    "raw": "\"1994-11-05T08:15:30-05:00[America/New_York]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 539,
                     "end": 557,
                     "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "raw": "\"America/New_York\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -180,14 +204,18 @@
                     "start": 563,
                     "end": 605,
                     "value": "1994-11-05T08:15:30-05[America/New_York]",
-                    "raw": "\"1994-11-05T08:15:30-05[America/New_York]\""
+                    "raw": "\"1994-11-05T08:15:30-05[America/New_York]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 607,
                     "end": 625,
                     "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "raw": "\"America/New_York\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -332,7 +360,9 @@
                             "start": 736,
                             "end": 740,
                             "value": 1970,
-                            "raw": "1970"
+                            "raw": "1970",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -354,7 +384,9 @@
                             "start": 749,
                             "end": 750,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -376,7 +408,9 @@
                             "start": 757,
                             "end": 758,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },

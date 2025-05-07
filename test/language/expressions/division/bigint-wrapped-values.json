@@ -52,6 +52,7 @@
                   "end": 354,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -64,6 +65,7 @@
               "end": 360,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -73,6 +75,7 @@
             "end": 364,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -80,7 +83,9 @@
             "start": 366,
             "end": 405,
             "value": "The result of (Object(2n) / 2n) is 1n",
-            "raw": "'The result of (Object(2n) / 2n) is 1n'"
+            "raw": "'The result of (Object(2n) / 2n) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,6 +129,7 @@
               "end": 427,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "/",
@@ -144,6 +150,7 @@
                   "end": 439,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -156,6 +163,7 @@
             "end": 444,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -163,7 +171,9 @@
             "start": 446,
             "end": 485,
             "value": "The result of (2n / Object(2n)) is 1n",
-            "raw": "'The result of (2n / Object(2n)) is 1n'"
+            "raw": "'The result of (2n / Object(2n)) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,6 +266,7 @@
                             "end": 558,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -273,6 +284,7 @@
               "end": 570,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -282,6 +294,7 @@
             "end": 574,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -289,7 +302,9 @@
             "start": 576,
             "end": 654,
             "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) / 2n) is 1n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) / 2n) is 1n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) / 2n) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,6 +348,7 @@
               "end": 677,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "/",
@@ -391,6 +407,7 @@
                             "end": 732,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -408,6 +425,7 @@
             "end": 743,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -415,7 +433,9 @@
             "start": 745,
             "end": 821,
             "value": "The result of (2n / {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n",
-            "raw": "'The result of (2n / {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n'"
+            "raw": "'The result of (2n / {[Symbol.toPrimitive]: function() {return 2n;}}) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,6 +515,7 @@
                             "end": 881,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -512,6 +533,7 @@
               "end": 893,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -521,6 +543,7 @@
             "end": 897,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -528,7 +551,9 @@
             "start": 899,
             "end": 964,
             "value": "The result of (({valueOf: function() {return 2n;}}) / 2n) is 1n",
-            "raw": "'The result of (({valueOf: function() {return 2n;}}) / 2n) is 1n'"
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) / 2n) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,6 +597,7 @@
               "end": 987,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "/",
@@ -617,6 +643,7 @@
                             "end": 1029,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -634,6 +661,7 @@
             "end": 1040,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -641,7 +669,9 @@
             "start": 1042,
             "end": 1105,
             "value": "The result of (2n / {valueOf: function() {return 2n;}}) is 1n",
-            "raw": "'The result of (2n / {valueOf: function() {return 2n;}}) is 1n'"
+            "raw": "'The result of (2n / {valueOf: function() {return 2n;}}) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,6 +751,7 @@
                             "end": 1166,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -738,6 +769,7 @@
               "end": 1178,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -747,6 +779,7 @@
             "end": 1182,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -754,7 +787,9 @@
             "start": 1184,
             "end": 1250,
             "value": "The result of (({toString: function() {return 2n;}}) / 2n) is 1n",
-            "raw": "'The result of (({toString: function() {return 2n;}}) / 2n) is 1n'"
+            "raw": "'The result of (({toString: function() {return 2n;}}) / 2n) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,6 +833,7 @@
               "end": 1273,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "/",
@@ -843,6 +879,7 @@
                             "end": 1316,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -860,6 +897,7 @@
             "end": 1327,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           },
           {
@@ -867,7 +905,9 @@
             "start": 1329,
             "end": 1393,
             "value": "The result of (2n / {toString: function() {return 2n;}}) is 1n",
-            "raw": "'The result of (2n / {toString: function() {return 2n;}}) is 1n'"
+            "raw": "'The result of (2n / {toString: function() {return 2n;}}) is 1n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

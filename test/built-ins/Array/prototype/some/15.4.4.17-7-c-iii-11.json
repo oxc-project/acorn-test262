@@ -95,7 +95,9 @@
                     "start": 354,
                     "end": 356,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -123,7 +125,9 @@
             "start": 376,
             "end": 408,
             "value": "[11].some(callbackfn) !== true",
-            "raw": "'[11].some(callbackfn) !== true'"
+            "raw": "'[11].some(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

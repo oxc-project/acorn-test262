@@ -60,7 +60,9 @@
                 "start": 258,
                 "end": 259,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 262,
             "end": 264,
             "value": 31,
-            "raw": "31"
+            "raw": "31",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 266,
             "end": 281,
             "value": "Math.clz32(1)",
-            "raw": "'Math.clz32(1)'"
+            "raw": "'Math.clz32(1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -191,7 +191,9 @@
                 "start": 539,
                 "end": 547,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -201,14 +203,18 @@
             "start": 550,
             "end": 555,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 583,
             "value": "No \"caller\" own property",
-            "raw": "'No \"caller\" own property'"
+            "raw": "'No \"caller\" own property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +277,9 @@
                 "start": 632,
                 "end": 643,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -281,14 +289,18 @@
             "start": 646,
             "end": 651,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 682,
             "value": "No \"arguments\" own property",
-            "raw": "'No \"arguments\" own property'"
+            "raw": "'No \"arguments\" own property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

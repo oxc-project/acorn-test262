@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 64,
                 "end": 91,
                 "raw": "\"__timezonecomplete/basics\"",
-                "value": "__timezonecomplete/basics"
+                "value": "__timezonecomplete/basics",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -98,7 +100,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 33,
         "raw": "'timezonecomplete'",
-        "value": "timezonecomplete"
+        "value": "timezonecomplete",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -144,7 +148,9 @@ __ESTREE_TEST__:PASS:
                       "start": 232,
                       "end": 233,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -166,7 +172,9 @@ __ESTREE_TEST__:PASS:
                       "start": 252,
                       "end": 253,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -188,7 +196,9 @@ __ESTREE_TEST__:PASS:
                       "start": 270,
                       "end": 271,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -210,7 +220,9 @@ __ESTREE_TEST__:PASS:
                       "start": 287,
                       "end": 288,
                       "raw": "3",
-                      "value": 3
+                      "value": 3,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -232,7 +244,9 @@ __ESTREE_TEST__:PASS:
                       "start": 305,
                       "end": 306,
                       "raw": "4",
-                      "value": 4
+                      "value": 4,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -254,7 +268,9 @@ __ESTREE_TEST__:PASS:
                       "start": 324,
                       "end": 325,
                       "raw": "5",
-                      "value": 5
+                      "value": 5,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -276,7 +292,9 @@ __ESTREE_TEST__:PASS:
                       "start": 342,
                       "end": 343,
                       "raw": "6",
-                      "value": 6
+                      "value": 6,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -306,7 +324,9 @@ __ESTREE_TEST__:PASS:
         "start": 158,
         "end": 185,
         "raw": "'__timezonecomplete/basics'",
-        "value": "__timezonecomplete/basics"
+        "value": "__timezonecomplete/basics",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

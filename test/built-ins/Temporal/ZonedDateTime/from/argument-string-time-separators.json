@@ -33,14 +33,18 @@
                     "start": 275,
                     "end": 304,
                     "value": "1970-01-01T00:00+00:00[UTC]",
-                    "raw": "\"1970-01-01T00:00+00:00[UTC]\""
+                    "raw": "\"1970-01-01T00:00+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 306,
                     "end": 319,
                     "value": "uppercase T",
-                    "raw": "\"uppercase T\""
+                    "raw": "\"uppercase T\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 325,
                     "end": 354,
                     "value": "1970-01-01t00:00+00:00[UTC]",
-                    "raw": "\"1970-01-01t00:00+00:00[UTC]\""
+                    "raw": "\"1970-01-01t00:00+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 356,
                     "end": 369,
                     "value": "lowercase T",
-                    "raw": "\"lowercase T\""
+                    "raw": "\"lowercase T\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 375,
                     "end": 404,
                     "value": "1970-01-01 00:00+00:00[UTC]",
-                    "raw": "\"1970-01-01 00:00+00:00[UTC]\""
+                    "raw": "\"1970-01-01 00:00+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 406,
                     "end": 435,
                     "value": "space between date and time",
-                    "raw": "\"space between date and time\""
+                    "raw": "\"space between date and time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -271,7 +283,9 @@
                         "start": 581,
                         "end": 586,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

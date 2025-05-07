@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 55,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -139,7 +141,9 @@ __ESTREE_TEST__:PASS:
         "start": 36,
         "end": 44,
         "raw": "\"./root\"",
-        "value": "./root"
+        "value": "./root",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

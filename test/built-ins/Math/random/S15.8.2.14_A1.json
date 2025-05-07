@@ -27,7 +27,9 @@
               "start": 416,
               "end": 417,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 423,
           "end": 426,
           "value": 100,
-          "raw": "100"
+          "raw": "100",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -161,7 +165,9 @@
                   "start": 499,
                   "end": 507,
                   "value": "number",
-                  "raw": "'number'"
+                  "raw": "'number'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -172,7 +178,9 @@
                     "start": 509,
                     "end": 551,
                     "value": "should not produce a non-numeric value: ",
-                    "raw": "'should not produce a non-numeric value: '"
+                    "raw": "'should not produce a non-numeric value: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -231,7 +239,9 @@
                   "start": 595,
                   "end": 619,
                   "value": "should not produce NaN",
-                  "raw": "'should not produce NaN'"
+                  "raw": "'should not produce NaN'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -261,7 +271,9 @@
                   "start": 635,
                   "end": 636,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "||",
@@ -281,7 +293,9 @@
                   "start": 647,
                   "end": 648,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -314,7 +328,9 @@
                           "start": 681,
                           "end": 703,
                           "value": "#1: Math.random() = ",
-                          "raw": "\"#1: Math.random() = \""
+                          "raw": "\"#1: Math.random() = \"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

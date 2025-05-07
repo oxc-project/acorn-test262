@@ -48,6 +48,7 @@
                 "end": 331,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,14 +56,18 @@
                 "start": 333,
                 "end": 341,
                 "value": "-05:00",
-                "raw": "\"-05:00\""
+                "raw": "\"-05:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 352,
                 "value": "iso8601",
-                "raw": "\"iso8601\""
+                "raw": "\"iso8601\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -145,7 +150,9 @@
                       "start": 459,
                       "end": 463,
                       "value": 1969,
-                      "raw": "1969"
+                      "raw": "1969",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -167,7 +174,9 @@
                       "start": 474,
                       "end": 476,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -189,7 +198,9 @@
                       "start": 485,
                       "end": 487,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -211,7 +222,9 @@
                       "start": 497,
                       "end": 499,
                       "value": 19,
-                      "raw": "19"
+                      "raw": "19",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -233,7 +246,9 @@
                       "start": 513,
                       "end": 521,
                       "value": "-05:00",
-                      "raw": "\"-05:00\""
+                      "raw": "\"-05:00\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -255,7 +270,9 @@
                       "start": 535,
                       "end": 544,
                       "value": "iso8601",
-                      "raw": "\"iso8601\""
+                      "raw": "\"iso8601\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }

@@ -153,7 +153,9 @@
             "start": 338,
             "end": 372,
             "value": "Object.isFrozen(argObj) !== true",
-            "raw": "'Object.isFrozen(argObj) !== true'"
+            "raw": "'Object.isFrozen(argObj) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                   "start": 27,
                   "end": 30,
                   "raw": "100",
-                  "value": 100
+                  "value": 100,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -64,7 +66,9 @@ __ESTREE_TEST__:PASS:
                     "start": 56,
                     "end": 61,
                     "raw": "\"WAT\"",
-                    "value": "WAT"
+                    "value": "WAT",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

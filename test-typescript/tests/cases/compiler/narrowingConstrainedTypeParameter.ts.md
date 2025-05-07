@@ -114,7 +114,9 @@ __ESTREE_TEST__:PASS:
                 "start": 129,
                 "end": 137,
                 "raw": "\"string\"",
-                "value": "string"
+                "value": "string",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -233,7 +235,9 @@ __ESTREE_TEST__:PASS:
                           "start": 280,
                           "end": 310,
                           "raw": "\"Expected \\\"pet\\\" to be a Pet\"",
-                          "value": "Expected \"pet\" to be a Pet"
+                          "value": "Expected \"pet\" to be a Pet",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

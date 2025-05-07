@@ -42,7 +42,9 @@
                   "start": 2128,
                   "end": 2143,
                   "value": "initial value",
-                  "raw": "'initial value'"
+                  "raw": "'initial value'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -122,7 +124,9 @@
                                   "start": 2218,
                                   "end": 2242,
                                   "value": "unexpected then() call",
-                                  "raw": "'unexpected then() call'"
+                                  "raw": "'unexpected then() call'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -212,7 +216,9 @@
                   "start": 2371,
                   "end": 2376,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "||",
@@ -263,7 +269,9 @@
                   "start": 2422,
                   "end": 2437,
                   "value": "initial value",
-                  "raw": "'initial value'"
+                  "raw": "'initial value'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

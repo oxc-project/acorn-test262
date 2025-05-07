@@ -67,7 +67,9 @@
             "start": 340,
             "end": 348,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                   "start": 390,
                   "end": 394,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -259,7 +263,9 @@
             "start": 478,
             "end": 479,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -269,7 +275,9 @@
           "start": 483,
           "end": 487,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -362,7 +370,9 @@
                 "start": 543,
                 "end": 547,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -378,7 +388,9 @@
               "start": 551,
               "end": 552,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -386,7 +398,9 @@
             "start": 554,
             "end": 597,
             "value": "Array.prototype.indexOf.call(child, true)",
-            "raw": "'Array.prototype.indexOf.call(child, true)'"
+            "raw": "'Array.prototype.indexOf.call(child, true)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

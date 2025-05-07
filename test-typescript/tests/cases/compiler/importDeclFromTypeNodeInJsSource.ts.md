@@ -136,7 +136,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 23,
         "raw": "\"events\"",
-        "value": "events"
+        "value": "events",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -332,7 +334,9 @@ __ESTREE_TEST__:PASS:
         "start": 171,
         "end": 192,
         "raw": "\"nestNamespaceModule\"",
-        "value": "nestNamespaceModule"
+        "value": "nestNamespaceModule",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -471,7 +475,9 @@ __ESTREE_TEST__:PASS:
         "start": 332,
         "end": 346,
         "raw": "\"renameModule\"",
-        "value": "renameModule"
+        "value": "renameModule",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -497,7 +503,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 37,
         "raw": "'events'",
-        "value": "events"
+        "value": "events",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -537,7 +545,9 @@ __ESTREE_TEST__:PASS:
         "start": 61,
         "end": 82,
         "raw": "'nestNamespaceModule'",
-        "value": "nestNamespaceModule"
+        "value": "nestNamespaceModule",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -601,7 +611,9 @@ __ESTREE_TEST__:PASS:
         "start": 102,
         "end": 116,
         "raw": "'renameModule'",
-        "value": "renameModule"
+        "value": "renameModule",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

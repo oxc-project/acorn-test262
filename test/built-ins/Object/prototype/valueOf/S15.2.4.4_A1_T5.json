@@ -75,14 +75,18 @@
             "start": 314,
             "end": 324,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 328,
             "end": 405,
             "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.valueOf` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Object.prototype.valueOf` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -119,7 +123,9 @@
                 "start": 431,
                 "end": 435,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -186,14 +192,18 @@
             "start": 476,
             "end": 486,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 552,
             "value": "The value of `typeof obj.valueOf` is expected to be \"function\"",
-            "raw": "'The value of `typeof obj.valueOf` is expected to be \"function\"'"
+            "raw": "'The value of `typeof obj.valueOf` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,7 +274,9 @@
             "start": 592,
             "end": 619,
             "value": "obj.valueOf() returns obj",
-            "raw": "'obj.valueOf() returns obj'"
+            "raw": "'obj.valueOf() returns obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

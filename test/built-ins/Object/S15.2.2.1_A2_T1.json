@@ -41,7 +41,9 @@
                   "start": 395,
                   "end": 396,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -134,7 +136,9 @@
             "start": 460,
             "end": 518,
             "value": "The value of n_obj is expected to equal the value of obj",
-            "raw": "'The value of n_obj is expected to equal the value of obj'"
+            "raw": "'The value of n_obj is expected to equal the value of obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -183,7 +187,9 @@
               "start": 544,
               "end": 550,
               "value": "prop",
-              "raw": "'prop'"
+              "raw": "'prop'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -193,14 +199,18 @@
             "start": 553,
             "end": 554,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 604,
             "value": "The value of n_obj[\"prop\"] is expected to be 1",
-            "raw": "'The value of n_obj[\"prop\"] is expected to be 1'"
+            "raw": "'The value of n_obj[\"prop\"] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

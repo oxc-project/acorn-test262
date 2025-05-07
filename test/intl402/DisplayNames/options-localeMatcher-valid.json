@@ -34,14 +34,18 @@
                 "start": 1337,
                 "end": 1345,
                 "value": "lookup",
-                "raw": "'lookup'"
+                "raw": "'lookup'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1349,
                 "end": 1359,
                 "value": "best fit",
-                "raw": "'best fit'"
+                "raw": "'best fit'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -142,7 +146,9 @@
                             "start": 1442,
                             "end": 1446,
                             "value": "en",
-                            "raw": "'en'"
+                            "raw": "'en'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -188,7 +194,9 @@
                                   "start": 1471,
                                   "end": 1481,
                                   "value": "language",
-                                  "raw": "'language'"
+                                  "raw": "'language'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }

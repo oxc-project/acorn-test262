@@ -191,7 +191,9 @@ __ESTREE_TEST__:PASS:
         "start": 67,
         "end": 75,
         "raw": "\"assert\"",
-        "value": "assert"
+        "value": "assert",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -243,7 +245,9 @@ __ESTREE_TEST__:PASS:
                   "start": 78,
                   "end": 84,
                   "raw": "'cool'",
-                  "value": "cool"
+                  "value": "cool",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeParameters": null
@@ -296,7 +300,9 @@ __ESTREE_TEST__:PASS:
                 "start": 110,
                 "end": 118,
                 "raw": "'assert'",
-                "value": "assert"
+                "value": "assert",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

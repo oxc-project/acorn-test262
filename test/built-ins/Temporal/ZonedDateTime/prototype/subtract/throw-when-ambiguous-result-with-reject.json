@@ -60,7 +60,9 @@
                 "start": 312,
                 "end": 341,
                 "value": "2020-03-31T15:00+00:00[UTC]",
-                "raw": "\"2020-03-31T15:00+00:00[UTC]\""
+                "raw": "\"2020-03-31T15:00+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -159,7 +161,9 @@
                         "start": 402,
                         "end": 403,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -188,7 +192,9 @@
                         "start": 419,
                         "end": 427,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

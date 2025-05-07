@@ -71,7 +71,9 @@
                         "start": 722,
                         "end": 735,
                         "value": "var static;",
-                        "raw": "'var static;'"
+                        "raw": "'var static;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -152,7 +154,9 @@
                         "start": 790,
                         "end": 804,
                         "value": "with ({}) {}",
-                        "raw": "'with ({}) {}'"
+                        "raw": "'with ({}) {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -233,7 +237,9 @@
                         "start": 862,
                         "end": 884,
                         "value": "unresolvable = null;",
-                        "raw": "'unresolvable = null;'"
+                        "raw": "'unresolvable = null;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

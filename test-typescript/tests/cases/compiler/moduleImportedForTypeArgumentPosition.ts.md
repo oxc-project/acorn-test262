@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
           "start": 55,
           "end": 96,
           "raw": "\"moduleImportedForTypeArgumentPosition_0\"",
-          "value": "moduleImportedForTypeArgumentPosition_0"
+          "value": "moduleImportedForTypeArgumentPosition_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

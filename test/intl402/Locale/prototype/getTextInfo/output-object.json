@@ -92,7 +92,9 @@
                         "start": 483,
                         "end": 487,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },

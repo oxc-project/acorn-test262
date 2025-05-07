@@ -32,7 +32,9 @@
                   "start": 406,
                   "end": 409,
                   "value": 1.5,
-                  "raw": "1.5"
+                  "raw": "1.5",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -61,7 +63,9 @@
                     "start": 437,
                     "end": 486,
                     "value": "#1.1: new Array(1.5) throw RangeError. Actual: ",
-                    "raw": "'#1.1: new Array(1.5) throw RangeError. Actual: '"
+                    "raw": "'#1.1: new Array(1.5) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -84,7 +88,9 @@
                           "start": 500,
                           "end": 503,
                           "value": 1.5,
-                          "raw": "1.5"
+                          "raw": "1.5",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -161,14 +167,18 @@
                     "start": 575,
                     "end": 579,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 585,
                     "end": 660,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -249,7 +259,9 @@
                     "start": 731,
                     "end": 793,
                     "value": "#2.1: new Array(Number.MAX_VALUE) throw RangeError. Actual: ",
-                    "raw": "'#2.1: new Array(Number.MAX_VALUE) throw RangeError. Actual: '"
+                    "raw": "'#2.1: new Array(Number.MAX_VALUE) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -361,14 +373,18 @@
                     "start": 895,
                     "end": 899,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 905,
                     "end": 980,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -449,7 +465,9 @@
                     "start": 1051,
                     "end": 1113,
                     "value": "#3.1: new Array(Number.MIN_VALUE) throw RangeError. Actual: ",
-                    "raw": "'#3.1: new Array(Number.MIN_VALUE) throw RangeError. Actual: '"
+                    "raw": "'#3.1: new Array(Number.MIN_VALUE) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -561,14 +579,18 @@
                     "start": 1215,
                     "end": 1219,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1225,
                     "end": 1300,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

@@ -52,7 +52,9 @@
                 "start": 455,
                 "end": 476,
                 "value": "return this.planet;",
-                "raw": "\"return this.planet;\""
+                "raw": "\"return this.planet;\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -113,7 +115,9 @@
             "start": 513,
             "end": 536,
             "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "raw": "'f() returns undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -139,7 +143,9 @@
             "start": 553,
             "end": 559,
             "value": "mars",
-            "raw": "\"mars\""
+            "raw": "\"mars\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -191,14 +197,18 @@
             "start": 584,
             "end": 590,
             "value": "mars",
-            "raw": "\"mars\""
+            "raw": "\"mars\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 616,
             "value": "f() must return \"mars\"",
-            "raw": "'f() must return \"mars\"'"
+            "raw": "'f() must return \"mars\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

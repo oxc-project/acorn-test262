@@ -300,7 +300,9 @@ __ESTREE_TEST__:PASS:
                   "start": 192,
                   "end": 199,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -349,7 +351,9 @@ __ESTREE_TEST__:PASS:
                         "start": 220,
                         "end": 228,
                         "raw": "\"mowing\"",
-                        "value": "mowing"
+                        "value": "mowing",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -375,7 +379,9 @@ __ESTREE_TEST__:PASS:
                         "start": 241,
                         "end": 247,
                         "raw": "\"none\"",
-                        "value": "none"
+                        "value": "none",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1022,7 +1028,9 @@ __ESTREE_TEST__:PASS:
                   "start": 587,
                   "end": 594,
                   "raw": "\"Edger\"",
-                  "value": "Edger"
+                  "value": "Edger",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1071,7 +1079,9 @@ __ESTREE_TEST__:PASS:
                         "start": 615,
                         "end": 623,
                         "raw": "\"edging\"",
-                        "value": "edging"
+                        "value": "edging",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -1097,7 +1107,9 @@ __ESTREE_TEST__:PASS:
                         "start": 636,
                         "end": 653,
                         "raw": "\"branch trimming\"",
-                        "value": "branch trimming"
+                        "value": "branch trimming",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1190,7 +1202,9 @@ __ESTREE_TEST__:PASS:
                   "start": 688,
                   "end": 695,
                   "raw": "\"Edger\"",
-                  "value": "Edger"
+                  "value": "Edger",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1239,7 +1253,9 @@ __ESTREE_TEST__:PASS:
                         "start": 716,
                         "end": 724,
                         "raw": "\"edging\"",
-                        "value": "edging"
+                        "value": "edging",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -1265,7 +1281,9 @@ __ESTREE_TEST__:PASS:
                         "start": 737,
                         "end": 754,
                         "raw": "\"branch trimming\"",
-                        "value": "branch trimming"
+                        "value": "branch trimming",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -1358,7 +1376,9 @@ __ESTREE_TEST__:PASS:
                   "start": 789,
                   "end": 796,
                   "raw": "\"Edger\"",
-                  "value": "Edger"
+                  "value": "Edger",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -1407,7 +1427,9 @@ __ESTREE_TEST__:PASS:
                         "start": 817,
                         "end": 825,
                         "raw": "\"edging\"",
-                        "value": "edging"
+                        "value": "edging",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -1433,7 +1455,9 @@ __ESTREE_TEST__:PASS:
                         "start": 838,
                         "end": 855,
                         "raw": "\"branch trimming\"",
-                        "value": "branch trimming"
+                        "value": "branch trimming",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

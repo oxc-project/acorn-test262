@@ -27,7 +27,9 @@
               "start": 540,
               "end": 541,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 547,
           "end": 548,
           "value": 8,
-          "raw": "8"
+          "raw": "8",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -91,7 +95,9 @@
                     "start": 563,
                     "end": 586,
                     "value": "ABCABC",
-                    "raw": "\"ABC\\u0041\\u0042\\u0043\""
+                    "raw": "\"ABC\\u0041\\u0042\\u0043\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -126,7 +132,9 @@
                     "start": 601,
                     "end": 624,
                     "value": "ABCABC",
-                    "raw": "\"\\u0041\\u0042\\u0043ABC\""
+                    "raw": "\"\\u0041\\u0042\\u0043ABC\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -160,7 +168,9 @@
                       "start": 642,
                       "end": 643,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -236,7 +246,9 @@
                                               "start": 675,
                                               "end": 678,
                                               "value": "#",
-                                              "raw": "'#'"
+                                              "raw": "'#'",
+                                              "regex": null,
+                                              "bigint": null
                                             },
                                             "operator": "+",
                                             "right": {
@@ -259,7 +271,9 @@
                                                   "start": 686,
                                                   "end": 687,
                                                   "value": 5,
-                                                  "raw": "5"
+                                                  "raw": "5",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             }
@@ -270,7 +284,9 @@
                                             "start": 691,
                                             "end": 729,
                                             "value": ": \"ABC\\u0041\\u0042\\u0043\".charAt(",
-                                            "raw": "': \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('"
+                                            "raw": "': \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "operator": "+",
@@ -287,7 +303,9 @@
                                         "start": 736,
                                         "end": 781,
                                         "value": ") === \"\\u0041\\u0042\\u0043ABC\".substring(",
-                                        "raw": "') === \"\\\\u0041\\\\u0042\\\\u0043ABC\".substring('"
+                                        "raw": "') === \"\\\\u0041\\\\u0042\\\\u0043ABC\".substring('",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "operator": "+",
@@ -304,7 +322,9 @@
                                     "start": 788,
                                     "end": 792,
                                     "value": ", ",
-                                    "raw": "', '"
+                                    "raw": "', '",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -328,7 +348,9 @@
                                       "start": 800,
                                       "end": 801,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }
@@ -339,7 +361,9 @@
                                 "start": 805,
                                 "end": 852,
                                 "value": "). Actual: \"ABC\\u0041\\u0042\\u0043\".charAt(",
-                                "raw": "'). Actual: \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('"
+                                "raw": "'). Actual: \"ABC\\\\u0041\\\\u0042\\\\u0043\".charAt('",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -356,7 +380,9 @@
                             "start": 859,
                             "end": 866,
                             "value": ") ===",
-                            "raw": "') ==='"
+                            "raw": "') ==='",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -377,7 +403,9 @@
                                 "start": 870,
                                 "end": 893,
                                 "value": "ABCABC",
-                                "raw": "\"ABC\\u0041\\u0042\\u0043\""
+                                "raw": "\"ABC\\u0041\\u0042\\u0043\"",
+                                "regex": null,
+                                "bigint": null
                               },
                               "property": {
                                 "type": "Identifier",

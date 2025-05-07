@@ -53,7 +53,9 @@ __ESTREE_TEST__:PASS:
                 "start": 14,
                 "end": 15,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",

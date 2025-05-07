@@ -510,7 +510,9 @@ __ESTREE_TEST__:PASS:
                               "start": 341,
                               "end": 359,
                               "raw": "\"NOT_FOUND_AUTHOR\"",
-                              "value": "NOT_FOUND_AUTHOR"
+                              "value": "NOT_FOUND_AUTHOR",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -615,7 +617,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 407,
                                 "end": 425,
                                 "raw": "\"NOT_FOUND_AUTHOR\"",
-                                "value": "NOT_FOUND_AUTHOR"
+                                "value": "NOT_FOUND_AUTHOR",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -670,7 +674,9 @@ __ESTREE_TEST__:PASS:
                             "start": 441,
                             "end": 459,
                             "raw": "\"NOT_FOUND_AUTHOR\"",
-                            "value": "NOT_FOUND_AUTHOR"
+                            "value": "NOT_FOUND_AUTHOR",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -1171,7 +1177,9 @@ __ESTREE_TEST__:PASS:
                   "start": 1031,
                   "end": 1035,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeAnnotation": {
@@ -1233,7 +1241,9 @@ __ESTREE_TEST__:PASS:
                       "start": 556,
                       "end": 574,
                       "raw": "\"NOT_FOUND_AUTHOR\"",
-                      "value": "NOT_FOUND_AUTHOR"
+                      "value": "NOT_FOUND_AUTHOR",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -1245,7 +1255,9 @@ __ESTREE_TEST__:PASS:
                       "start": 577,
                       "end": 593,
                       "raw": "\"NOT_FOUND_BOOK\"",
-                      "value": "NOT_FOUND_BOOK"
+                      "value": "NOT_FOUND_BOOK",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

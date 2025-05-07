@@ -66,7 +66,9 @@
                 "start": 776,
                 "end": 786,
                 "value": "disposed",
-                "raw": "'disposed'"
+                "raw": "'disposed'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

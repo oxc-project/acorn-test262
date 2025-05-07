@@ -118,7 +118,9 @@
                 "start": 291,
                 "end": 295,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -128,14 +130,18 @@
             "start": 298,
             "end": 299,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 301,
             "end": 330,
             "value": "`af.call(null)` returns `0`",
-            "raw": "\"`af.call(null)` returns `0`\""
+            "raw": "\"`af.call(null)` returns `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,14 +204,18 @@
                 "start": 358,
                 "end": 362,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 365,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -215,14 +225,18 @@
             "start": 368,
             "end": 369,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 371,
             "end": 403,
             "value": "`af.call(null, 1)` returns `1`",
-            "raw": "\"`af.call(null, 1)` returns `1`\""
+            "raw": "\"`af.call(null, 1)` returns `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,21 +299,27 @@
                 "start": 431,
                 "end": 435,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 437,
                 "end": 438,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 441,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -309,14 +329,18 @@
             "start": 444,
             "end": 445,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 482,
             "value": "`af.call(null, 1, 2)` returns `2`",
-            "raw": "\"`af.call(null, 1, 2)` returns `2`\""
+            "raw": "\"`af.call(null, 1, 2)` returns `2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

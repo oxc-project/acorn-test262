@@ -41,7 +41,9 @@
                   "start": 298,
                   "end": 303,
                   "value": "bar",
-                  "raw": "'bar'"
+                  "raw": "'bar'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

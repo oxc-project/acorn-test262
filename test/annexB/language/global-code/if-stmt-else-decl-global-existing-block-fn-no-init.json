@@ -84,7 +84,9 @@
         "start": 1224,
         "end": 1229,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "EmptyStatement",

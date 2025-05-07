@@ -131,7 +131,9 @@
                             "start": 1058,
                             "end": 1062,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -283,7 +285,9 @@
             "start": 1186,
             "end": 1217,
             "value": "target prototype is different",
-            "raw": "\"target prototype is different\""
+            "raw": "\"target prototype is different\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -525,7 +529,9 @@
                             "start": 1427,
                             "end": 1431,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -639,7 +645,9 @@
             "start": 1523,
             "end": 1572,
             "value": "target prototype is changed inside trap handler",
-            "raw": "\"target prototype is changed inside trap handler\""
+            "raw": "\"target prototype is changed inside trap handler\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

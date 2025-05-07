@@ -41,7 +41,9 @@
                   "start": 306,
                   "end": 310,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 319,
                   "end": 321,
                   "value": 13,
-                  "raw": "13"
+                  "raw": "13",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -154,7 +158,9 @@
                       "start": 402,
                       "end": 413,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -206,28 +212,36 @@
             "start": 471,
             "end": 475,
             "value": 2000,
-            "raw": "2000"
+            "raw": "2000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 479,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 486,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 519,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +285,9 @@
                   "start": 547,
                   "end": 558,
                   "value": "constrain",
-                  "raw": "\"constrain\""
+                  "raw": "\"constrain\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -356,7 +372,9 @@
                       "start": 613,
                       "end": 617,
                       "value": 2021,
-                      "raw": "2021"
+                      "raw": "2021",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -378,7 +396,9 @@
                       "start": 626,
                       "end": 627,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -436,28 +456,36 @@
             "start": 682,
             "end": 686,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 689,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 691,
             "end": 696,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 731,
             "value": "month 1 with overflow constrain",
-            "raw": "\"month 1 with overflow constrain\""
+            "raw": "\"month 1 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -538,7 +566,9 @@
                     "start": 780,
                     "end": 784,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -560,7 +590,9 @@
                     "start": 793,
                     "end": 794,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -616,28 +648,36 @@
             "start": 849,
             "end": 853,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 855,
             "end": 856,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 858,
             "end": 863,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 865,
             "end": 898,
             "value": "month 2 with overflow constrain",
-            "raw": "\"month 2 with overflow constrain\""
+            "raw": "\"month 2 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -718,7 +758,9 @@
                     "start": 947,
                     "end": 951,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -740,7 +782,9 @@
                     "start": 960,
                     "end": 961,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -796,28 +840,36 @@
             "start": 1016,
             "end": 1020,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1022,
             "end": 1023,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1025,
             "end": 1030,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1032,
             "end": 1065,
             "value": "month 3 with overflow constrain",
-            "raw": "\"month 3 with overflow constrain\""
+            "raw": "\"month 3 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -898,7 +950,9 @@
                     "start": 1114,
                     "end": 1118,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -920,7 +974,9 @@
                     "start": 1127,
                     "end": 1128,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -976,28 +1032,36 @@
             "start": 1183,
             "end": 1187,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1189,
             "end": 1190,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1192,
             "end": 1197,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1199,
             "end": 1232,
             "value": "month 4 with overflow constrain",
-            "raw": "\"month 4 with overflow constrain\""
+            "raw": "\"month 4 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1078,7 +1142,9 @@
                     "start": 1281,
                     "end": 1285,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1100,7 +1166,9 @@
                     "start": 1294,
                     "end": 1295,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -1156,28 +1224,36 @@
             "start": 1350,
             "end": 1354,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1356,
             "end": 1357,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1359,
             "end": 1364,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1366,
             "end": 1399,
             "value": "month 5 with overflow constrain",
-            "raw": "\"month 5 with overflow constrain\""
+            "raw": "\"month 5 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1258,7 +1334,9 @@
                     "start": 1448,
                     "end": 1452,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1280,7 +1358,9 @@
                     "start": 1461,
                     "end": 1462,
                     "value": 6,
-                    "raw": "6"
+                    "raw": "6",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -1336,28 +1416,36 @@
             "start": 1517,
             "end": 1521,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1523,
             "end": 1524,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1526,
             "end": 1531,
             "value": "M06",
-            "raw": "\"M06\""
+            "raw": "\"M06\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1533,
             "end": 1566,
             "value": "month 6 with overflow constrain",
-            "raw": "\"month 6 with overflow constrain\""
+            "raw": "\"month 6 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1438,7 +1526,9 @@
                     "start": 1615,
                     "end": 1619,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1460,7 +1550,9 @@
                     "start": 1628,
                     "end": 1629,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -1516,28 +1608,36 @@
             "start": 1684,
             "end": 1688,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1690,
             "end": 1691,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1693,
             "end": 1698,
             "value": "M07",
-            "raw": "\"M07\""
+            "raw": "\"M07\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1700,
             "end": 1733,
             "value": "month 7 with overflow constrain",
-            "raw": "\"month 7 with overflow constrain\""
+            "raw": "\"month 7 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1618,7 +1718,9 @@
                     "start": 1782,
                     "end": 1786,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1640,7 +1742,9 @@
                     "start": 1795,
                     "end": 1796,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -1696,28 +1800,36 @@
             "start": 1851,
             "end": 1855,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1857,
             "end": 1858,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1860,
             "end": 1865,
             "value": "M08",
-            "raw": "\"M08\""
+            "raw": "\"M08\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1867,
             "end": 1900,
             "value": "month 8 with overflow constrain",
-            "raw": "\"month 8 with overflow constrain\""
+            "raw": "\"month 8 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1798,7 +1910,9 @@
                     "start": 1949,
                     "end": 1953,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -1820,7 +1934,9 @@
                     "start": 1962,
                     "end": 1963,
                     "value": 9,
-                    "raw": "9"
+                    "raw": "9",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -1876,28 +1992,36 @@
             "start": 2018,
             "end": 2022,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2024,
             "end": 2025,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2027,
             "end": 2032,
             "value": "M09",
-            "raw": "\"M09\""
+            "raw": "\"M09\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2034,
             "end": 2067,
             "value": "month 9 with overflow constrain",
-            "raw": "\"month 9 with overflow constrain\""
+            "raw": "\"month 9 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1978,7 +2102,9 @@
                     "start": 2116,
                     "end": 2120,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -2000,7 +2126,9 @@
                     "start": 2129,
                     "end": 2131,
                     "value": 10,
-                    "raw": "10"
+                    "raw": "10",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -2056,28 +2184,36 @@
             "start": 2186,
             "end": 2190,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2192,
             "end": 2194,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2196,
             "end": 2201,
             "value": "M10",
-            "raw": "\"M10\""
+            "raw": "\"M10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2203,
             "end": 2237,
             "value": "month 10 with overflow constrain",
-            "raw": "\"month 10 with overflow constrain\""
+            "raw": "\"month 10 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2158,7 +2294,9 @@
                     "start": 2286,
                     "end": 2290,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -2180,7 +2318,9 @@
                     "start": 2299,
                     "end": 2301,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -2236,28 +2376,36 @@
             "start": 2356,
             "end": 2360,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2362,
             "end": 2364,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2366,
             "end": 2371,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2373,
             "end": 2407,
             "value": "month 11 with overflow constrain",
-            "raw": "\"month 11 with overflow constrain\""
+            "raw": "\"month 11 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2338,7 +2486,9 @@
                     "start": 2456,
                     "end": 2460,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -2360,7 +2510,9 @@
                     "start": 2469,
                     "end": 2471,
                     "value": 12,
-                    "raw": "12"
+                    "raw": "12",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -2416,28 +2568,36 @@
             "start": 2526,
             "end": 2530,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2532,
             "end": 2534,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2536,
             "end": 2541,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2543,
             "end": 2577,
             "value": "month 12 with overflow constrain",
-            "raw": "\"month 12 with overflow constrain\""
+            "raw": "\"month 12 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2546,7 +2706,9 @@
                         "start": 2655,
                         "end": 2659,
                         "value": 2021,
-                        "raw": "2021"
+                        "raw": "2021",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -2574,7 +2736,9 @@
                           "start": 2669,
                           "end": 2674,
                           "value": 99999,
-                          "raw": "99999"
+                          "raw": "99999",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -2596,7 +2760,9 @@
             "start": 2686,
             "end": 2754,
             "value": "negative month -99999 is out of range even with overflow constrain",
-            "raw": "\"negative month -99999 is out of range even with overflow constrain\""
+            "raw": "\"negative month -99999 is out of range even with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2705,7 +2871,9 @@
                         "start": 2831,
                         "end": 2835,
                         "value": 2021,
-                        "raw": "2021"
+                        "raw": "2021",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -2733,7 +2901,9 @@
                           "start": 2845,
                           "end": 2846,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -2755,7 +2925,9 @@
             "start": 2858,
             "end": 2922,
             "value": "negative month -1 is out of range even with overflow constrain",
-            "raw": "\"negative month -1 is out of range even with overflow constrain\""
+            "raw": "\"negative month -1 is out of range even with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2864,7 +3036,9 @@
                         "start": 2999,
                         "end": 3003,
                         "value": 2021,
-                        "raw": "2021"
+                        "raw": "2021",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -2886,7 +3060,9 @@
                         "start": 3012,
                         "end": 3013,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -2907,7 +3083,9 @@
             "start": 3025,
             "end": 3082,
             "value": "month zero is out of range even with overflow constrain",
-            "raw": "\"month zero is out of range even with overflow constrain\""
+            "raw": "\"month zero is out of range even with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2988,7 +3166,9 @@
                     "start": 3132,
                     "end": 3136,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -3010,7 +3190,9 @@
                     "start": 3145,
                     "end": 3147,
                     "value": 13,
-                    "raw": "13"
+                    "raw": "13",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -3066,28 +3248,36 @@
             "start": 3202,
             "end": 3206,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3208,
             "end": 3210,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3212,
             "end": 3217,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3219,
             "end": 3250,
             "value": "month 13 is constrained to 12",
-            "raw": "\"month 13 is constrained to 12\""
+            "raw": "\"month 13 is constrained to 12\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3168,7 +3358,9 @@
                     "start": 3299,
                     "end": 3303,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -3190,7 +3382,9 @@
                     "start": 3312,
                     "end": 3317,
                     "value": 99999,
-                    "raw": "99999"
+                    "raw": "99999",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -3246,28 +3440,36 @@
             "start": 3372,
             "end": 3376,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3378,
             "end": 3380,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3382,
             "end": 3387,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3389,
             "end": 3423,
             "value": "month 99999 is constrained to 12",
-            "raw": "\"month 99999 is constrained to 12\""
+            "raw": "\"month 99999 is constrained to 12\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3348,7 +3550,9 @@
                     "start": 3473,
                     "end": 3477,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -3370,7 +3574,9 @@
                     "start": 3490,
                     "end": 3495,
                     "value": "M01",
-                    "raw": "\"M01\""
+                    "raw": "\"M01\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -3426,28 +3632,36 @@
             "start": 3550,
             "end": 3554,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3556,
             "end": 3557,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3559,
             "end": 3564,
             "value": "M01",
-            "raw": "\"M01\""
+            "raw": "\"M01\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3566,
             "end": 3605,
             "value": "monthCode M01 with overflow constrain",
-            "raw": "\"monthCode M01 with overflow constrain\""
+            "raw": "\"monthCode M01 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3528,7 +3742,9 @@
                     "start": 3654,
                     "end": 3658,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -3550,7 +3766,9 @@
                     "start": 3671,
                     "end": 3676,
                     "value": "M02",
-                    "raw": "\"M02\""
+                    "raw": "\"M02\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -3606,28 +3824,36 @@
             "start": 3731,
             "end": 3735,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3737,
             "end": 3738,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3740,
             "end": 3745,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3747,
             "end": 3786,
             "value": "monthCode M02 with overflow constrain",
-            "raw": "\"monthCode M02 with overflow constrain\""
+            "raw": "\"monthCode M02 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3708,7 +3934,9 @@
                     "start": 3835,
                     "end": 3839,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -3730,7 +3958,9 @@
                     "start": 3852,
                     "end": 3857,
                     "value": "M03",
-                    "raw": "\"M03\""
+                    "raw": "\"M03\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -3786,28 +4016,36 @@
             "start": 3912,
             "end": 3916,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3918,
             "end": 3919,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3921,
             "end": 3926,
             "value": "M03",
-            "raw": "\"M03\""
+            "raw": "\"M03\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3928,
             "end": 3967,
             "value": "monthCode M03 with overflow constrain",
-            "raw": "\"monthCode M03 with overflow constrain\""
+            "raw": "\"monthCode M03 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3888,7 +4126,9 @@
                     "start": 4016,
                     "end": 4020,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -3910,7 +4150,9 @@
                     "start": 4033,
                     "end": 4038,
                     "value": "M04",
-                    "raw": "\"M04\""
+                    "raw": "\"M04\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -3966,28 +4208,36 @@
             "start": 4093,
             "end": 4097,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4099,
             "end": 4100,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4102,
             "end": 4107,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4109,
             "end": 4148,
             "value": "monthCode M04 with overflow constrain",
-            "raw": "\"monthCode M04 with overflow constrain\""
+            "raw": "\"monthCode M04 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4068,7 +4318,9 @@
                     "start": 4197,
                     "end": 4201,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -4090,7 +4342,9 @@
                     "start": 4214,
                     "end": 4219,
                     "value": "M05",
-                    "raw": "\"M05\""
+                    "raw": "\"M05\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -4146,28 +4400,36 @@
             "start": 4274,
             "end": 4278,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4280,
             "end": 4281,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4283,
             "end": 4288,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4290,
             "end": 4329,
             "value": "monthCode M05 with overflow constrain",
-            "raw": "\"monthCode M05 with overflow constrain\""
+            "raw": "\"monthCode M05 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4248,7 +4510,9 @@
                     "start": 4378,
                     "end": 4382,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -4270,7 +4534,9 @@
                     "start": 4395,
                     "end": 4400,
                     "value": "M06",
-                    "raw": "\"M06\""
+                    "raw": "\"M06\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -4326,28 +4592,36 @@
             "start": 4455,
             "end": 4459,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4461,
             "end": 4462,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4464,
             "end": 4469,
             "value": "M06",
-            "raw": "\"M06\""
+            "raw": "\"M06\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4471,
             "end": 4510,
             "value": "monthCode M06 with overflow constrain",
-            "raw": "\"monthCode M06 with overflow constrain\""
+            "raw": "\"monthCode M06 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4428,7 +4702,9 @@
                     "start": 4559,
                     "end": 4563,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -4450,7 +4726,9 @@
                     "start": 4576,
                     "end": 4581,
                     "value": "M07",
-                    "raw": "\"M07\""
+                    "raw": "\"M07\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -4506,28 +4784,36 @@
             "start": 4636,
             "end": 4640,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4642,
             "end": 4643,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4645,
             "end": 4650,
             "value": "M07",
-            "raw": "\"M07\""
+            "raw": "\"M07\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4652,
             "end": 4691,
             "value": "monthCode M07 with overflow constrain",
-            "raw": "\"monthCode M07 with overflow constrain\""
+            "raw": "\"monthCode M07 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4608,7 +4894,9 @@
                     "start": 4740,
                     "end": 4744,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -4630,7 +4918,9 @@
                     "start": 4757,
                     "end": 4762,
                     "value": "M08",
-                    "raw": "\"M08\""
+                    "raw": "\"M08\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -4686,28 +4976,36 @@
             "start": 4817,
             "end": 4821,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4823,
             "end": 4824,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4826,
             "end": 4831,
             "value": "M08",
-            "raw": "\"M08\""
+            "raw": "\"M08\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4833,
             "end": 4872,
             "value": "monthCode M08 with overflow constrain",
-            "raw": "\"monthCode M08 with overflow constrain\""
+            "raw": "\"monthCode M08 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4788,7 +5086,9 @@
                     "start": 4921,
                     "end": 4925,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -4810,7 +5110,9 @@
                     "start": 4938,
                     "end": 4943,
                     "value": "M09",
-                    "raw": "\"M09\""
+                    "raw": "\"M09\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -4866,28 +5168,36 @@
             "start": 4998,
             "end": 5002,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5004,
             "end": 5005,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5007,
             "end": 5012,
             "value": "M09",
-            "raw": "\"M09\""
+            "raw": "\"M09\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5014,
             "end": 5053,
             "value": "monthCode M09 with overflow constrain",
-            "raw": "\"monthCode M09 with overflow constrain\""
+            "raw": "\"monthCode M09 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4968,7 +5278,9 @@
                     "start": 5102,
                     "end": 5106,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -4990,7 +5302,9 @@
                     "start": 5119,
                     "end": 5124,
                     "value": "M10",
-                    "raw": "\"M10\""
+                    "raw": "\"M10\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -5046,28 +5360,36 @@
             "start": 5179,
             "end": 5183,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5185,
             "end": 5187,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5189,
             "end": 5194,
             "value": "M10",
-            "raw": "\"M10\""
+            "raw": "\"M10\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5196,
             "end": 5235,
             "value": "monthCode M10 with overflow constrain",
-            "raw": "\"monthCode M10 with overflow constrain\""
+            "raw": "\"monthCode M10 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5148,7 +5470,9 @@
                     "start": 5284,
                     "end": 5288,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -5170,7 +5494,9 @@
                     "start": 5301,
                     "end": 5306,
                     "value": "M11",
-                    "raw": "\"M11\""
+                    "raw": "\"M11\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -5226,28 +5552,36 @@
             "start": 5361,
             "end": 5365,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5367,
             "end": 5369,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5371,
             "end": 5376,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5378,
             "end": 5417,
             "value": "monthCode M11 with overflow constrain",
-            "raw": "\"monthCode M11 with overflow constrain\""
+            "raw": "\"monthCode M11 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -5328,7 +5662,9 @@
                     "start": 5466,
                     "end": 5470,
                     "value": 2021,
-                    "raw": "2021"
+                    "raw": "2021",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 },
@@ -5350,7 +5686,9 @@
                     "start": 5483,
                     "end": 5488,
                     "value": "M12",
-                    "raw": "\"M12\""
+                    "raw": "\"M12\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -5406,28 +5744,36 @@
             "start": 5543,
             "end": 5547,
             "value": 2021,
-            "raw": "2021"
+            "raw": "2021",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5549,
             "end": 5551,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5553,
             "end": 5558,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5560,
             "end": 5599,
             "value": "monthCode M12 with overflow constrain",
-            "raw": "\"monthCode M12 with overflow constrain\""
+            "raw": "\"monthCode M12 with overflow constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

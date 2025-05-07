@@ -35,7 +35,9 @@
           "start": 306,
           "end": 309,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -95,7 +97,9 @@
                         "start": 334,
                         "end": 341,
                         "value": "hello",
-                        "raw": "\"hello\""
+                        "raw": "\"hello\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -121,7 +125,9 @@
                   "start": 350,
                   "end": 355,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -151,7 +157,9 @@
             "start": 364,
             "end": 394,
             "value": "with(myObj){del = delete p1}",
-            "raw": "\"with(myObj){del = delete p1}\""
+            "raw": "\"with(myObj){del = delete p1}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -212,7 +220,9 @@
                 "start": 510,
                 "end": 517,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -240,7 +250,9 @@
                         "start": 545,
                         "end": 574,
                         "value": "#1: myObj.p1.a !== \"hello\" ",
-                        "raw": "'#1: myObj.p1.a !== \"hello\" '"
+                        "raw": "'#1: myObj.p1.a !== \"hello\" '",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -286,7 +298,9 @@
                     "start": 595,
                     "end": 596,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -322,7 +336,9 @@
           "start": 608,
           "end": 609,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -354,7 +370,9 @@
                     "start": 637,
                     "end": 666,
                     "value": "#1: x === 1. Actual:  x ===",
-                    "raw": "'#1: x === 1. Actual:  x ==='"
+                    "raw": "'#1: x === 1. Actual:  x ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -435,7 +453,9 @@
                     "start": 901,
                     "end": 953,
                     "value": "#2: myObj.p1 === undefined . Actual:  myObj.p1 ===",
-                    "raw": "'#2: myObj.p1 === undefined . Actual:  myObj.p1 ==='"
+                    "raw": "'#2: myObj.p1 === undefined . Actual:  myObj.p1 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -498,7 +518,9 @@
           "start": 1159,
           "end": 1163,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -530,7 +552,9 @@
                     "start": 1191,
                     "end": 1240,
                     "value": "#3: myObj.del === true . Actual:  myObj.del ===",
-                    "raw": "'#3: myObj.del === true . Actual:  myObj.del ==='"
+                    "raw": "'#3: myObj.del === true . Actual:  myObj.del ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -593,7 +617,9 @@
           "start": 1446,
           "end": 1449,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -621,7 +647,9 @@
                   "start": 1477,
                   "end": 1501,
                   "value": "#4: myObj.p1 !== 'a'",
-                  "raw": "'#4: myObj.p1 !== \\'a\\''"
+                  "raw": "'#4: myObj.p1 !== \\'a\\''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

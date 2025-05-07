@@ -157,7 +157,9 @@
                                     "start": 428,
                                     "end": 429,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "kind": "init"
@@ -180,7 +182,9 @@
                                   "start": 442,
                                   "end": 444,
                                   "value": 10,
-                                  "raw": "10"
+                                  "raw": "10",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -194,7 +198,9 @@
                         "start": 449,
                         "end": 498,
                         "value": "Throws when mixing negative and positive values",
-                        "raw": "\"Throws when mixing negative and positive values\""
+                        "raw": "\"Throws when mixing negative and positive values\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -310,7 +316,9 @@
                                   "start": 560,
                                   "end": 561,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -338,7 +346,9 @@
                                     "start": 575,
                                     "end": 577,
                                     "value": 10,
-                                    "raw": "10"
+                                    "raw": "10",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "kind": "init"
@@ -353,7 +363,9 @@
                         "start": 582,
                         "end": 631,
                         "value": "Throws when mixing negative and positive values",
-                        "raw": "\"Throws when mixing negative and positive values\""
+                        "raw": "\"Throws when mixing negative and positive values\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

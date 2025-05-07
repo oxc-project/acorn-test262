@@ -71,7 +71,9 @@
                         "start": 439,
                         "end": 463,
                         "value": "var x = asdf ghjk",
-                        "raw": "\"var x = asdf\\u2029ghjk\""
+                        "raw": "\"var x = asdf\\u2029ghjk\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

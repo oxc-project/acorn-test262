@@ -28,7 +28,9 @@
                 "start": 430,
                 "end": 433,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               null,
               {
@@ -42,7 +44,9 @@
                   "start": 442,
                   "end": 443,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -84,7 +88,9 @@
           "start": 478,
           "end": 479,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -116,7 +122,9 @@
                     "start": 508,
                     "end": 542,
                     "value": "#1: array.length !== 3. Actual: ",
-                    "raw": "'#1: array.length !== 3. Actual: '"
+                    "raw": "'#1: array.length !== 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -188,7 +196,9 @@
               "start": 599,
               "end": 602,
               "value": "0",
-              "raw": "'0'"
+              "raw": "'0'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -199,7 +209,9 @@
           "start": 608,
           "end": 612,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -231,7 +243,9 @@
                     "start": 641,
                     "end": 682,
                     "value": "#2: array.hasOwnProperty('0'). Actual: ",
-                    "raw": "\"#2: array.hasOwnProperty('0'). Actual: \""
+                    "raw": "\"#2: array.hasOwnProperty('0'). Actual: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -263,7 +277,9 @@
                         "start": 706,
                         "end": 709,
                         "value": "0",
-                        "raw": "'0'"
+                        "raw": "'0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -313,7 +329,9 @@
               "start": 751,
               "end": 754,
               "value": "1",
-              "raw": "'1'"
+              "raw": "'1'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -324,7 +342,9 @@
           "start": 760,
           "end": 765,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -356,7 +376,9 @@
                     "start": 794,
                     "end": 835,
                     "value": "#3: array.hasOwnProperty('1'). Actual: ",
-                    "raw": "\"#3: array.hasOwnProperty('1'). Actual: \""
+                    "raw": "\"#3: array.hasOwnProperty('1'). Actual: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -388,7 +410,9 @@
                         "start": 859,
                         "end": 862,
                         "value": "1",
-                        "raw": "'1'"
+                        "raw": "'1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -438,7 +462,9 @@
               "start": 904,
               "end": 907,
               "value": "2",
-              "raw": "'2'"
+              "raw": "'2'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -449,7 +475,9 @@
           "start": 913,
           "end": 917,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -481,7 +509,9 @@
                     "start": 946,
                     "end": 987,
                     "value": "#4: array.hasOwnProperty('2'). Actual: ",
-                    "raw": "\"#4: array.hasOwnProperty('2'). Actual: \""
+                    "raw": "\"#4: array.hasOwnProperty('2'). Actual: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -513,7 +543,9 @@
                         "start": 1011,
                         "end": 1014,
                         "value": "2",
-                        "raw": "'2'"
+                        "raw": "'2'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -590,7 +622,9 @@
           "start": 1067,
           "end": 1068,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -622,7 +656,9 @@
                     "start": 1097,
                     "end": 1131,
                     "value": "#5: array.length !== 3. Actual: ",
-                    "raw": "'#5: array.length !== 3. Actual: '"
+                    "raw": "'#5: array.length !== 3. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -694,7 +730,9 @@
               "start": 1188,
               "end": 1191,
               "value": "0",
-              "raw": "'0'"
+              "raw": "'0'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -705,7 +743,9 @@
           "start": 1197,
           "end": 1201,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -737,7 +777,9 @@
                     "start": 1230,
                     "end": 1271,
                     "value": "#6: array.hasOwnProperty('0'). Actual: ",
-                    "raw": "\"#6: array.hasOwnProperty('0'). Actual: \""
+                    "raw": "\"#6: array.hasOwnProperty('0'). Actual: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -769,7 +811,9 @@
                         "start": 1295,
                         "end": 1298,
                         "value": "0",
-                        "raw": "'0'"
+                        "raw": "'0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -819,7 +863,9 @@
               "start": 1340,
               "end": 1343,
               "value": "1",
-              "raw": "'1'"
+              "raw": "'1'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -830,7 +876,9 @@
           "start": 1349,
           "end": 1353,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -862,7 +910,9 @@
                     "start": 1382,
                     "end": 1423,
                     "value": "#7: array.hasOwnProperty('1'). Actual: ",
-                    "raw": "\"#7: array.hasOwnProperty('1'). Actual: \""
+                    "raw": "\"#7: array.hasOwnProperty('1'). Actual: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -894,7 +944,9 @@
                         "start": 1447,
                         "end": 1450,
                         "value": "1",
-                        "raw": "'1'"
+                        "raw": "'1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -944,7 +996,9 @@
               "start": 1492,
               "end": 1495,
               "value": "2",
-              "raw": "'2'"
+              "raw": "'2'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -955,7 +1009,9 @@
           "start": 1501,
           "end": 1506,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -987,7 +1043,9 @@
                     "start": 1535,
                     "end": 1576,
                     "value": "#8: array.hasOwnProperty('2'). Actual: ",
-                    "raw": "\"#8: array.hasOwnProperty('2'). Actual: \""
+                    "raw": "\"#8: array.hasOwnProperty('2'). Actual: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1019,7 +1077,9 @@
                         "start": 1600,
                         "end": 1603,
                         "value": "2",
-                        "raw": "'2'"
+                        "raw": "'2'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

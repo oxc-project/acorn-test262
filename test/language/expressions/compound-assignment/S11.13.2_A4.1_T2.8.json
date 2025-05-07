@@ -43,7 +43,9 @@
           "start": 390,
           "end": 394,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -104,7 +106,9 @@
           "start": 429,
           "end": 433,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -136,7 +140,9 @@
                     "start": 462,
                     "end": 522,
                     "value": "#1: x = true; x *= undefined; x === Not-a-Number. Actual: ",
-                    "raw": "'#1: x = true; x *= undefined; x === Not-a-Number. Actual: '"
+                    "raw": "'#1: x = true; x *= undefined; x === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -201,7 +207,9 @@
           "start": 564,
           "end": 568,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -239,7 +247,9 @@
           "start": 587,
           "end": 591,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -271,7 +281,9 @@
                     "start": 620,
                     "end": 680,
                     "value": "#2: x = undefined; x *= true; x === Not-a-Number. Actual: ",
-                    "raw": "'#2: x = undefined; x *= true; x === Not-a-Number. Actual: '"
+                    "raw": "'#2: x = undefined; x *= true; x === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -324,7 +336,9 @@
               "start": 718,
               "end": 722,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -387,7 +401,9 @@
           "start": 758,
           "end": 762,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -419,7 +435,9 @@
                     "start": 791,
                     "end": 864,
                     "value": "#3: x = new Boolean(true); x *= undefined; x === Not-a-Number. Actual: ",
-                    "raw": "'#3: x = new Boolean(true); x *= undefined; x === Not-a-Number. Actual: '"
+                    "raw": "'#3: x = new Boolean(true); x *= undefined; x === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -495,7 +513,9 @@
               "start": 918,
               "end": 922,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -535,7 +555,9 @@
           "start": 942,
           "end": 946,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -567,7 +589,9 @@
                     "start": 975,
                     "end": 1048,
                     "value": "#4: x = undefined; x *= new Boolean(true); x === Not-a-Number. Actual: ",
-                    "raw": "'#4: x = undefined; x *= new Boolean(true); x === Not-a-Number. Actual: '"
+                    "raw": "'#4: x = undefined; x *= new Boolean(true); x === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

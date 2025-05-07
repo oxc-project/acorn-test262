@@ -63,7 +63,9 @@
             "start": 371,
             "end": 412,
             "value": "Uint8Array.fromHex is not a constructor",
-            "raw": "\"Uint8Array.fromHex is not a constructor\""
+            "raw": "\"Uint8Array.fromHex is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +152,9 @@
                         "start": 479,
                         "end": 481,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

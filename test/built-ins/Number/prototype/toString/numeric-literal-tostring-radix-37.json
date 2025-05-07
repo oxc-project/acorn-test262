@@ -68,7 +68,9 @@
                         "start": 298,
                         "end": 300,
                         "value": 0,
-                        "raw": "0."
+                        "raw": "0.",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -85,7 +87,9 @@
                         "start": 310,
                         "end": 312,
                         "value": 37,
-                        "raw": "37"
+                        "raw": "37",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -163,7 +167,9 @@
                         "start": 355,
                         "end": 357,
                         "value": 1,
-                        "raw": "1."
+                        "raw": "1.",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -180,7 +186,9 @@
                         "start": 367,
                         "end": 369,
                         "value": 37,
-                        "raw": "37"
+                        "raw": "37",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -274,7 +282,9 @@
                         "start": 425,
                         "end": 427,
                         "value": 37,
-                        "raw": "37"
+                        "raw": "37",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -368,7 +378,9 @@
                         "start": 488,
                         "end": 490,
                         "value": 37,
-                        "raw": "37"
+                        "raw": "37",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

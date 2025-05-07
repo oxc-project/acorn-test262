@@ -23,7 +23,9 @@
             "start": 245,
             "end": 254,
             "value": "outer_x",
-            "raw": "\"outer_x\""
+            "raw": "\"outer_x\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 264,
             "end": 273,
             "value": "outer_y",
-            "raw": "\"outer_y\""
+            "raw": "\"outer_y\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -79,7 +83,9 @@
               "start": 289,
               "end": 298,
               "value": "inner_x",
-              "raw": "\"inner_x\""
+              "raw": "\"inner_x\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -97,7 +103,9 @@
               "start": 304,
               "end": 305,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -119,7 +127,9 @@
           "start": 311,
           "end": 312,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -160,7 +170,9 @@
                   "start": 331,
                   "end": 340,
                   "value": "inner_y",
-                  "raw": "\"inner_y\""
+                  "raw": "\"inner_y\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -205,7 +217,9 @@
                   "start": 365,
                   "end": 374,
                   "value": "inner_x",
-                  "raw": "\"inner_x\""
+                  "raw": "\"inner_x\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -250,7 +264,9 @@
                   "start": 399,
                   "end": 408,
                   "value": "inner_y",
-                  "raw": "\"inner_y\""
+                  "raw": "\"inner_y\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -298,7 +314,9 @@
             "start": 433,
             "end": 442,
             "value": "outer_x",
-            "raw": "\"outer_x\""
+            "raw": "\"outer_x\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +361,9 @@
             "start": 465,
             "end": 474,
             "value": "outer_y",
-            "raw": "\"outer_y\""
+            "raw": "\"outer_y\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

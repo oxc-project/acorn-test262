@@ -69,7 +69,9 @@ __ESTREE_TEST__:PASS:
                           "start": 44,
                           "end": 53,
                           "raw": "\"foo.yep\"",
-                          "value": "foo.yep"
+                          "value": "foo.yep",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -161,7 +163,9 @@ __ESTREE_TEST__:PASS:
                           "start": 104,
                           "end": 113,
                           "raw": "\"bar.yep\"",
-                          "value": "bar.yep"
+                          "value": "bar.yep",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -236,7 +240,9 @@ __ESTREE_TEST__:PASS:
                   "start": 138,
                   "end": 147,
                   "raw": "\"wat.nup\"",
-                  "value": "wat.nup"
+                  "value": "wat.nup",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -400,7 +406,9 @@ __ESTREE_TEST__:PASS:
                       "start": 206,
                       "end": 209,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -433,7 +441,9 @@ __ESTREE_TEST__:PASS:
                       "start": 221,
                       "end": 224,
                       "raw": "\"b\"",
-                      "value": "b"
+                      "value": "b",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

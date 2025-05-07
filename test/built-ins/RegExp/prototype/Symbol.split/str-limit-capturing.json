@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "c(d)(e)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,14 +66,18 @@
                 "start": 709,
                 "end": 718,
                 "value": "abcdefg",
-                "raw": "'abcdefg'"
+                "raw": "'abcdefg'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 720,
                 "end": 721,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -185,7 +190,9 @@
             "start": 788,
             "end": 789,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +241,9 @@
               "start": 816,
               "end": 817,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -244,7 +253,9 @@
             "start": 820,
             "end": 824,
             "value": "ab",
-            "raw": "'ab'"
+            "raw": "'ab'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +304,9 @@
               "start": 851,
               "end": 852,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -303,7 +316,9 @@
             "start": 855,
             "end": 858,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

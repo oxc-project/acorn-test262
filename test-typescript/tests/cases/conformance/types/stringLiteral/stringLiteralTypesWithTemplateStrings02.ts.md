@@ -35,7 +35,9 @@ __ESTREE_TEST__:PASS:
                   "start": 9,
                   "end": 18,
                   "raw": "\"AB\\r\\nC\"",
-                  "value": "AB\r\nC"
+                  "value": "AB\r\nC",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -93,7 +95,9 @@ __ESTREE_TEST__:PASS:
                   "start": 47,
                   "end": 54,
                   "raw": "\"DE\\nF\"",
-                  "value": "DE\nF"
+                  "value": "DE\nF",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -108,7 +112,9 @@ __ESTREE_TEST__:PASS:
                 "start": 62,
                 "end": 66,
                 "raw": "\"\\n\"",
-                "value": "\n"
+                "value": "\n",
+                "regex": null,
+                "bigint": null
               }
             ],
             "quasis": [

@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 33,
         "raw": "\"./utils.js\"",
-        "value": "./utils.js"
+        "value": "./utils.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

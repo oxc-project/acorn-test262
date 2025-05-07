@@ -352,7 +352,9 @@ __ESTREE_TEST__:PASS:
                 "start": 155,
                 "end": 159,
                 "raw": "1234",
-                "value": 1234
+                "value": 1234,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -406,7 +408,9 @@ __ESTREE_TEST__:PASS:
                 "start": 196,
                 "end": 200,
                 "raw": "1234",
-                "value": 1234
+                "value": 1234,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -432,7 +436,9 @@ __ESTREE_TEST__:PASS:
                 "start": 208,
                 "end": 214,
                 "raw": "\"test\"",
-                "value": "test"
+                "value": "test",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -486,7 +492,9 @@ __ESTREE_TEST__:PASS:
                 "start": 239,
                 "end": 245,
                 "raw": "\"test\"",
-                "value": "test"
+                "value": "test",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -540,7 +548,9 @@ __ESTREE_TEST__:PASS:
                 "start": 292,
                 "end": 296,
                 "raw": "1234",
-                "value": 1234
+                "value": 1234,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -638,7 +648,9 @@ __ESTREE_TEST__:PASS:
               "start": 342,
               "end": 351,
               "raw": "\"default\"",
-              "value": "default"
+              "value": "default",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -1337,7 +1349,9 @@ __ESTREE_TEST__:PASS:
                   "start": 664,
                   "end": 665,
                   "raw": "5",
-                  "value": 5
+                  "value": 5,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1528,7 +1542,9 @@ __ESTREE_TEST__:PASS:
                   "start": 742,
                   "end": 743,
                   "raw": "5",
-                  "value": 5
+                  "value": 5,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

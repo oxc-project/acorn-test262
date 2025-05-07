@@ -68,7 +68,9 @@
                     "start": 968,
                     "end": 981,
                     "value": "und-Armn-SU",
-                    "raw": "\"und-Armn-SU\""
+                    "raw": "\"und-Armn-SU\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -93,7 +95,9 @@
                           "start": 994,
                           "end": 998,
                           "value": "ru",
-                          "raw": "\"ru\""
+                          "raw": "\"ru\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -118,7 +122,9 @@
             "start": 1013,
             "end": 1025,
             "value": "ru-Armn-AM",
-            "raw": "\"ru-Armn-AM\""
+            "raw": "\"ru-Armn-AM\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -76,7 +76,9 @@
                 "start": 461,
                 "end": 467,
                 "value": "then",
-                "raw": "'then'"
+                "raw": "'then'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",

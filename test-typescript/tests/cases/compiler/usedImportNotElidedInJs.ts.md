@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 36,
         "end": 44,
         "raw": "'moment'",
-        "value": "moment"
+        "value": "moment",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 88,
         "raw": "'moment'",
-        "value": "moment"
+        "value": "moment",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

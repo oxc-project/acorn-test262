@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
                 "flags": "",
                 "pattern": "(\\\\?|&)adurl="
               },
-              "value": null
+              "value": null,
+              "bigint": null
             },
             "operator": "!",
             "prefix": true

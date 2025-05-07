@@ -71,6 +71,7 @@
                 "end": 328,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               }
             ]
@@ -132,6 +133,7 @@
             "end": 377,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           }
         ],
@@ -223,7 +225,9 @@
             "start": 455,
             "end": 482,
             "value": "Instance of CustomInstant",
-            "raw": "\"Instance of CustomInstant\""
+            "raw": "\"Instance of CustomInstant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +271,9 @@
             "start": 527,
             "end": 554,
             "value": "Instance of CustomInstant",
-            "raw": "\"Instance of CustomInstant\""
+            "raw": "\"Instance of CustomInstant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +330,9 @@
             "start": 602,
             "end": 632,
             "value": "Instance of Temporal.Instant",
-            "raw": "\"Instance of Temporal.Instant\""
+            "raw": "\"Instance of Temporal.Instant\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -40,7 +40,9 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 35,
                     "raw": "\"feast\"",
-                    "value": "feast"
+                    "value": "feast",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -102,7 +104,9 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 37,
                     "raw": "\"ketchup\"",
-                    "value": "ketchup"
+                    "value": "ketchup",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -140,7 +144,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 33,
         "raw": "\"fancy-lib\"",
-        "value": "fancy-lib"
+        "value": "fancy-lib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

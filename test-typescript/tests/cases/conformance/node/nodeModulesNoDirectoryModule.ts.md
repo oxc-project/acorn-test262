@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 26,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 26,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -120,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 30,
         "raw": "'i-have-a-dir-and-main'",
-        "value": "i-have-a-dir-and-main"
+        "value": "i-have-a-dir-and-main",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -135,7 +141,9 @@ __ESTREE_TEST__:PASS:
         "start": 44,
         "end": 76,
         "raw": "'i-have-a-dir-and-main/dist/dir'",
-        "value": "i-have-a-dir-and-main/dist/dir"
+        "value": "i-have-a-dir-and-main/dist/dir",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

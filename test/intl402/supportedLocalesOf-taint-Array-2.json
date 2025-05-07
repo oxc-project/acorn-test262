@@ -79,14 +79,18 @@
                             "start": 463,
                             "end": 471,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 473,
                             "end": 483,
                             "value": "best fit",
-                            "raw": "\"best fit\""
+                            "raw": "\"best fit\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -335,7 +339,9 @@
                                       "start": 764,
                                       "end": 765,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -343,7 +349,9 @@
                                     "start": 767,
                                     "end": 772,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -358,7 +366,9 @@
                                         "start": 774,
                                         "end": 806,
                                         "value": "Canonicalization with matcher ",
-                                        "raw": "\"Canonicalization with matcher \""
+                                        "raw": "\"Canonicalization with matcher \"",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -374,7 +384,9 @@
                                       "start": 819,
                                       "end": 877,
                                       "value": " didn't remove duplicate language tags from locale list.",
-                                      "raw": "\" didn't remove duplicate language tags from locale list.\""
+                                      "raw": "\" didn't remove duplicate language tags from locale list.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

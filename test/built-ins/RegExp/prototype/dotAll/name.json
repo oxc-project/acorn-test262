@@ -66,7 +66,9 @@
                 "start": 553,
                 "end": 561,
                 "value": "dotAll",
-                "raw": "\"dotAll\""
+                "raw": "\"dotAll\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -140,7 +142,9 @@
             "start": 602,
             "end": 614,
             "value": "get dotAll",
-            "raw": "\"get dotAll\""
+            "raw": "\"get dotAll\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,7 +189,9 @@
             "start": 644,
             "end": 650,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -210,7 +216,9 @@
                   "start": 668,
                   "end": 673,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -232,7 +240,9 @@
                   "start": 687,
                   "end": 692,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -254,7 +264,9 @@
                   "start": 710,
                   "end": 714,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

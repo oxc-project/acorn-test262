@@ -23,7 +23,9 @@
             "start": 519,
             "end": 520,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -175,7 +177,9 @@
                       "start": 861,
                       "end": 862,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -295,7 +299,9 @@
             "start": 936,
             "end": 937,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -408,7 +414,9 @@
                 "start": 1073,
                 "end": 1074,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -418,14 +426,18 @@
             "start": 1077,
             "end": 1078,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1115,
             "value": "Atomics.notify(i32a, 0) returns 1",
-            "raw": "'Atomics.notify(i32a, 0) returns 1'"
+            "raw": "'Atomics.notify(i32a, 0) returns 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -503,14 +515,18 @@
             "start": 1159,
             "end": 1163,
             "value": "ok",
-            "raw": "\"ok\""
+            "raw": "\"ok\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1165,
             "end": 1202,
             "value": "$262.agent.getReport() returns \"ok\"",
-            "raw": "'$262.agent.getReport() returns \"ok\"'"
+            "raw": "'$262.agent.getReport() returns \"ok\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

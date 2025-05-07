@@ -108,7 +108,9 @@
                                       "start": 358,
                                       "end": 359,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 }

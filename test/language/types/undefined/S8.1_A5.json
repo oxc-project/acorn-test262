@@ -61,7 +61,9 @@
                 "start": 416,
                 "end": 427,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -93,7 +95,9 @@
                           "start": 458,
                           "end": 537,
                           "value": "#1: Function argument that isn't provided has a value of undefined. Actual: ",
-                          "raw": "'#1: Function argument that isn\\'t provided has a value of undefined. Actual: '"
+                          "raw": "'#1: Function argument that isn\\'t provided has a value of undefined. Actual: '",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {

@@ -59,7 +59,9 @@
                           "start": 325,
                           "end": 333,
                           "value": "A",
-                          "raw": "\"\\u0041\""
+                          "raw": "\"\\u0041\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -103,7 +105,9 @@
                           "start": 375,
                           "end": 385,
                           "value": "_A_",
-                          "raw": "\"_\\u0041_\""
+                          "raw": "\"_\\u0041_\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -173,7 +177,9 @@
                           "start": 444,
                           "end": 448,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -243,7 +249,9 @@
                           "start": 507,
                           "end": 509,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -277,7 +285,9 @@
             "start": 529,
             "end": 535,
             "value": "lego",
-            "raw": "\"lego\""
+            "raw": "\"lego\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -330,7 +340,9 @@
           "start": 655,
           "end": 662,
           "value": "legoA",
-          "raw": "\"legoA\""
+          "raw": "\"legoA\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -362,7 +374,9 @@
                     "start": 691,
                     "end": 858,
                     "value": "#1: var x; var __obj = {toString:function(){return \"A\";}, valueOf:function(){return \"_A_\";}}; var __str = \"lego\"; __str.concat(__obj) === \"legoA\". Actual: ",
-                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041\";}, valueOf:function(){return \"_\\u0041_\";}}; var __str = \"lego\"; __str.concat(__obj) === \"legoA\". Actual: '"
+                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041\";}, valueOf:function(){return \"_\\u0041_\";}}; var __str = \"lego\"; __str.concat(__obj) === \"legoA\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -471,7 +485,9 @@
           "start": 932,
           "end": 954,
           "value": "legoAtrue42undefined",
-          "raw": "\"legoAtrue42undefined\""
+          "raw": "\"legoAtrue42undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -503,7 +519,9 @@
                     "start": 983,
                     "end": 1282,
                     "value": "#2: var x; var __obj = {toString:function(){return \"A\";}, valueOf:function(){return \"_A_\";}}; var __obj2 = {toString:function(){return true;}}; var __obj3 = {toString:function(){return 42;}}; var __str = \"lego\"; __str.concat(__obj, __obj2, __obj3, x) === \"legoAtrue42undefined\". Actual: ",
-                    "raw": "'#2: var x; var __obj = {toString:function(){return \"\\u0041\";}, valueOf:function(){return \"_\\u0041_\";}}; var __obj2 = {toString:function(){return true;}}; var __obj3 = {toString:function(){return 42;}}; var __str = \"lego\"; __str.concat(__obj, __obj2, __obj3, x) === \"legoAtrue42undefined\". Actual: '"
+                    "raw": "'#2: var x; var __obj = {toString:function(){return \"\\u0041\";}, valueOf:function(){return \"_\\u0041_\";}}; var __obj2 = {toString:function(){return true;}}; var __obj3 = {toString:function(){return 42;}}; var __str = \"lego\"; __str.concat(__obj, __obj2, __obj3, x) === \"legoAtrue42undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

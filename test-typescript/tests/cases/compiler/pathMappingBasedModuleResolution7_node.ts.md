@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 33,
         "raw": "\"./project/file2\"",
-        "value": "./project/file2"
+        "value": "./project/file2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -56,7 +58,9 @@ __ESTREE_TEST__:PASS:
         "start": 51,
         "end": 60,
         "raw": "\"module3\"",
-        "value": "module3"
+        "value": "module3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -263,7 +267,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 25,
         "raw": "\"module1\"",
-        "value": "module1"
+        "value": "module1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -303,7 +309,9 @@ __ESTREE_TEST__:PASS:
         "start": 43,
         "end": 62,
         "raw": "\"templates/module2\"",
-        "value": "templates/module2"
+        "value": "templates/module2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -343,7 +351,9 @@ __ESTREE_TEST__:PASS:
         "start": 85,
         "end": 95,
         "raw": "\"../file3\"",
-        "value": "../file3"
+        "value": "../file3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

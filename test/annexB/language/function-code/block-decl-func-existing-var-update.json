@@ -82,7 +82,9 @@
                               "start": 1117,
                               "end": 1139,
                               "value": "function declaration",
-                              "raw": "'function declaration'"
+                              "raw": "'function declaration'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -133,7 +135,9 @@
                         "start": 1172,
                         "end": 1175,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -193,7 +197,9 @@
             "start": 1215,
             "end": 1225,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +251,9 @@
             "start": 1254,
             "end": 1276,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -217,14 +217,18 @@
                     "start": 526,
                     "end": 527,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 529,
                     "end": 530,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -319,7 +323,9 @@
             "start": 590,
             "end": 603,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -373,7 +379,9 @@
                               "start": 644,
                               "end": 673,
                               "value": "Should not get .constructor",
-                              "raw": "\"Should not get .constructor\""
+                              "raw": "\"Should not get .constructor\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -422,14 +430,18 @@
             "start": 697,
             "end": 698,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 700,
             "end": 701,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

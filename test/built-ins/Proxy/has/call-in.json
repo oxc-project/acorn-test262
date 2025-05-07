@@ -291,7 +291,9 @@
           "start": 592,
           "end": 598,
           "value": "attr",
-          "raw": "\"attr\""
+          "raw": "\"attr\"",
+          "regex": null,
+          "bigint": null
         },
         "operator": "in",
         "right": {
@@ -347,7 +349,9 @@
             "start": 642,
             "end": 662,
             "value": "handler is context",
-            "raw": "\"handler is context\""
+            "raw": "\"handler is context\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -398,7 +402,9 @@
             "start": 699,
             "end": 730,
             "value": "target is the first parameter",
-            "raw": "\"target is the first parameter\""
+            "raw": "\"target is the first parameter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -443,14 +449,18 @@
             "start": 757,
             "end": 763,
             "value": "attr",
-            "raw": "\"attr\""
+            "raw": "\"attr\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 765,
             "end": 800,
             "value": "given prop is the second paramter",
-            "raw": "\"given prop is the second paramter\""
+            "raw": "\"given prop is the second paramter\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

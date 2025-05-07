@@ -22,7 +22,9 @@
             "start": 1143,
             "end": 1145,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       }

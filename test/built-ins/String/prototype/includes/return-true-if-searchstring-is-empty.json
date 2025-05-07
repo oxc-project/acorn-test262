@@ -23,7 +23,9 @@
             "start": 832,
             "end": 853,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "raw": "'The future is cool!'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,7 +75,9 @@
                 "start": 879,
                 "end": 881,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -102,7 +106,9 @@
             "start": 898,
             "end": 941,
             "value": "str.includes(\"\", str.length) returns true",
-            "raw": "'str.includes(\"\", str.length) returns true'"
+            "raw": "'str.includes(\"\", str.length) returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -152,7 +158,9 @@
                 "start": 969,
                 "end": 971,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -162,7 +170,9 @@
             "start": 976,
             "end": 1007,
             "value": "str.includes(\"\") returns true",
-            "raw": "'str.includes(\"\") returns true'"
+            "raw": "'str.includes(\"\") returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -212,7 +222,9 @@
                 "start": 1035,
                 "end": 1037,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -228,7 +240,9 @@
             "start": 1052,
             "end": 1093,
             "value": "str.includes(\"\", Infinity) returns true",
-            "raw": "'str.includes(\"\", Infinity) returns true'"
+            "raw": "'str.includes(\"\", Infinity) returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

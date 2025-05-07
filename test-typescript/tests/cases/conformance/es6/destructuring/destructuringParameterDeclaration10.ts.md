@@ -211,7 +211,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 124,
                                             "end": 130,
                                             "raw": "\"json\"",
-                                            "value": "json"
+                                            "value": "json",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -223,7 +225,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 133,
                                             "end": 140,
                                             "raw": "\"jsonc\"",
-                                            "value": "jsonc"
+                                            "value": "jsonc",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -235,7 +239,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 143,
                                             "end": 150,
                                             "raw": "\"json5\"",
-                                            "value": "json5"
+                                            "value": "json5",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -560,7 +566,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 416,
                                                     "end": 422,
                                                     "raw": "\"json\"",
-                                                    "value": "json"
+                                                    "value": "json",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 {
@@ -572,7 +580,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 425,
                                                     "end": 432,
                                                     "raw": "\"jsonc\"",
-                                                    "value": "jsonc"
+                                                    "value": "jsonc",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 {
@@ -584,7 +594,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 435,
                                                     "end": 442,
                                                     "raw": "\"json5\"",
-                                                    "value": "json5"
+                                                    "value": "json5",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               ]

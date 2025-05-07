@@ -35,7 +35,9 @@
           "start": 408,
           "end": 419,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -67,7 +69,9 @@
                     "start": 449,
                     "end": 494,
                     "value": "#1: typeof(__ref) === \"undefined\". Actual: ",
-                    "raw": "'#1: typeof(__ref) === \"undefined\". Actual: '"
+                    "raw": "'#1: typeof(__ref) === \"undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -192,7 +196,9 @@
           "start": 750,
           "end": 761,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -220,7 +226,9 @@
                   "start": 791,
                   "end": 859,
                   "value": "#2: obj = new Object(); __ref = obj; typeof(__ref) !== \"undefined\"",
-                  "raw": "'#2: obj = new Object(); __ref = obj; typeof(__ref) !== \"undefined\"'"
+                  "raw": "'#2: obj = new Object(); __ref = obj; typeof(__ref) !== \"undefined\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -261,7 +269,9 @@
           "start": 1058,
           "end": 1062,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -293,7 +303,9 @@
                     "start": 1092,
                     "end": 1162,
                     "value": "#3: obj = new Object(); __ref = obj; delete __ref === true. Actual: ",
-                    "raw": "'#3: obj = new Object(); __ref = obj; delete __ref === true. Actual: '"
+                    "raw": "'#3: obj = new Object(); __ref = obj; delete __ref === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -359,7 +371,9 @@
           "start": 1379,
           "end": 1390,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -391,7 +405,9 @@
                     "start": 1420,
                     "end": 1512,
                     "value": "#4: obj = new Object(); __ref = obj; delete __ref; typeof(__ref) === \"undefined\". Actual: ",
-                    "raw": "'#4: obj = new Object(); __ref = obj; delete __ref; typeof(__ref) === \"undefined\". Actual: '"
+                    "raw": "'#4: obj = new Object(); __ref = obj; delete __ref; typeof(__ref) === \"undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -462,7 +478,9 @@
           "start": 1728,
           "end": 1736,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -494,7 +512,9 @@
                     "start": 1766,
                     "end": 1853,
                     "value": "#5: obj = new Object(); __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: ",
-                    "raw": "'#5: obj = new Object(); __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: '"
+                    "raw": "'#5: obj = new Object(); __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

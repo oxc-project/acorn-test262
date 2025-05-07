@@ -65,7 +65,9 @@ __ESTREE_TEST__:PASS:
                   "start": 39,
                   "end": 40,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
@@ -138,7 +140,9 @@ __ESTREE_TEST__:PASS:
                   "start": 74,
                   "end": 75,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
@@ -211,7 +215,9 @@ __ESTREE_TEST__:PASS:
                   "start": 107,
                   "end": 108,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
@@ -285,14 +291,18 @@ __ESTREE_TEST__:PASS:
                   "start": 144,
                   "end": 145,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "right": {
                   "type": "Literal",
                   "start": 148,
                   "end": 149,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -360,7 +370,9 @@ __ESTREE_TEST__:PASS:
                   "start": 183,
                   "end": 184,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",

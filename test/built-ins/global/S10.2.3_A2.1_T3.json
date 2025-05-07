@@ -57,7 +57,9 @@
                 "start": 335,
                 "end": 343,
                 "value": "Object",
-                "raw": "'Object'"
+                "raw": "'Object'",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -85,7 +87,9 @@
                         "start": 374,
                         "end": 422,
                         "value": "#1: 'property 'Object' have attribute DontEnum",
-                        "raw": "\"#1: 'property 'Object' have attribute DontEnum\""
+                        "raw": "\"#1: 'property 'Object' have attribute DontEnum\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -112,7 +116,9 @@
                   "start": 444,
                   "end": 454,
                   "value": "Function",
-                  "raw": "'Function'"
+                  "raw": "'Function'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -140,7 +146,9 @@
                           "start": 485,
                           "end": 525,
                           "value": "#1: 'Function' have attribute DontEnum",
-                          "raw": "\"#1: 'Function' have attribute DontEnum\""
+                          "raw": "\"#1: 'Function' have attribute DontEnum\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -167,7 +175,9 @@
                     "start": 547,
                     "end": 555,
                     "value": "String",
-                    "raw": "'String'"
+                    "raw": "'String'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "consequent": {
@@ -195,7 +205,9 @@
                             "start": 586,
                             "end": 624,
                             "value": "#1: 'String' have attribute DontEnum",
-                            "raw": "\"#1: 'String' have attribute DontEnum\""
+                            "raw": "\"#1: 'String' have attribute DontEnum\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -222,7 +234,9 @@
                       "start": 646,
                       "end": 654,
                       "value": "Number",
-                      "raw": "'Number'"
+                      "raw": "'Number'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -250,7 +264,9 @@
                               "start": 685,
                               "end": 723,
                               "value": "#1: 'Number' have attribute DontEnum",
-                              "raw": "\"#1: 'Number' have attribute DontEnum\""
+                              "raw": "\"#1: 'Number' have attribute DontEnum\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -277,7 +293,9 @@
                         "start": 745,
                         "end": 752,
                         "value": "Array",
-                        "raw": "'Array'"
+                        "raw": "'Array'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "consequent": {
@@ -305,7 +323,9 @@
                                 "start": 783,
                                 "end": 820,
                                 "value": "#1: 'Array' have attribute DontEnum",
-                                "raw": "\"#1: 'Array' have attribute DontEnum\""
+                                "raw": "\"#1: 'Array' have attribute DontEnum\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -332,7 +352,9 @@
                           "start": 842,
                           "end": 851,
                           "value": "Boolean",
-                          "raw": "'Boolean'"
+                          "raw": "'Boolean'",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "consequent": {
@@ -360,7 +382,9 @@
                                   "start": 882,
                                   "end": 921,
                                   "value": "#1: 'Boolean' have attribute DontEnum",
-                                  "raw": "\"#1: 'Boolean' have attribute DontEnum\""
+                                  "raw": "\"#1: 'Boolean' have attribute DontEnum\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -387,7 +411,9 @@
                             "start": 943,
                             "end": 949,
                             "value": "Date",
-                            "raw": "'Date'"
+                            "raw": "'Date'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -415,7 +441,9 @@
                                     "start": 980,
                                     "end": 1016,
                                     "value": "#1: 'Date' have attribute DontEnum",
-                                    "raw": "\"#1: 'Date' have attribute DontEnum\""
+                                    "raw": "\"#1: 'Date' have attribute DontEnum\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -442,7 +470,9 @@
                               "start": 1038,
                               "end": 1046,
                               "value": "RegExp",
-                              "raw": "'RegExp'"
+                              "raw": "'RegExp'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "consequent": {
@@ -470,7 +500,9 @@
                                       "start": 1077,
                                       "end": 1115,
                                       "value": "#1: 'RegExp' have attribute DontEnum",
-                                      "raw": "\"#1: 'RegExp' have attribute DontEnum\""
+                                      "raw": "\"#1: 'RegExp' have attribute DontEnum\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ]
                                 }
@@ -497,7 +529,9 @@
                                 "start": 1137,
                                 "end": 1144,
                                 "value": "Error",
-                                "raw": "'Error'"
+                                "raw": "'Error'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -525,7 +559,9 @@
                                         "start": 1175,
                                         "end": 1212,
                                         "value": "#1: 'Error' have attribute DontEnum",
-                                        "raw": "\"#1: 'Error' have attribute DontEnum\""
+                                        "raw": "\"#1: 'Error' have attribute DontEnum\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -552,7 +588,9 @@
                                   "start": 1234,
                                   "end": 1245,
                                   "value": "EvalError",
-                                  "raw": "'EvalError'"
+                                  "raw": "'EvalError'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "consequent": {
@@ -580,7 +618,9 @@
                                           "start": 1276,
                                           "end": 1317,
                                           "value": "#1: 'EvalError' have attribute DontEnum",
-                                          "raw": "\"#1: 'EvalError' have attribute DontEnum\""
+                                          "raw": "\"#1: 'EvalError' have attribute DontEnum\"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ]
                                     }
@@ -607,7 +647,9 @@
                                     "start": 1339,
                                     "end": 1351,
                                     "value": "RangeError",
-                                    "raw": "'RangeError'"
+                                    "raw": "'RangeError'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "consequent": {
@@ -635,7 +677,9 @@
                                             "start": 1382,
                                             "end": 1424,
                                             "value": "#1: 'RangeError' have attribute DontEnum",
-                                            "raw": "\"#1: 'RangeError' have attribute DontEnum\""
+                                            "raw": "\"#1: 'RangeError' have attribute DontEnum\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }
@@ -662,7 +706,9 @@
                                       "start": 1446,
                                       "end": 1462,
                                       "value": "ReferenceError",
-                                      "raw": "'ReferenceError'"
+                                      "raw": "'ReferenceError'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "consequent": {
@@ -690,7 +736,9 @@
                                               "start": 1493,
                                               "end": 1539,
                                               "value": "#1: 'ReferenceError' have attribute DontEnum",
-                                              "raw": "\"#1: 'ReferenceError' have attribute DontEnum\""
+                                              "raw": "\"#1: 'ReferenceError' have attribute DontEnum\"",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           ]
                                         }
@@ -717,7 +765,9 @@
                                         "start": 1561,
                                         "end": 1574,
                                         "value": "SyntaxError",
-                                        "raw": "'SyntaxError'"
+                                        "raw": "'SyntaxError'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "consequent": {
@@ -745,7 +795,9 @@
                                                 "start": 1605,
                                                 "end": 1648,
                                                 "value": "#1: 'SyntaxError' have attribute DontEnum",
-                                                "raw": "\"#1: 'SyntaxError' have attribute DontEnum\""
+                                                "raw": "\"#1: 'SyntaxError' have attribute DontEnum\"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -772,7 +824,9 @@
                                           "start": 1670,
                                           "end": 1681,
                                           "value": "TypeError",
-                                          "raw": "'TypeError'"
+                                          "raw": "'TypeError'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "consequent": {
@@ -800,7 +854,9 @@
                                                   "start": 1712,
                                                   "end": 1753,
                                                   "value": "#1: 'TypeError' have attribute DontEnum",
-                                                  "raw": "\"#1: 'TypeError' have attribute DontEnum\""
+                                                  "raw": "\"#1: 'TypeError' have attribute DontEnum\"",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ]
                                             }
@@ -827,7 +883,9 @@
                                             "start": 1775,
                                             "end": 1785,
                                             "value": "URIError",
-                                            "raw": "'URIError'"
+                                            "raw": "'URIError'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "consequent": {
@@ -855,7 +913,9 @@
                                                     "start": 1816,
                                                     "end": 1856,
                                                     "value": "#1: 'URIError' have attribute DontEnum",
-                                                    "raw": "\"#1: 'URIError' have attribute DontEnum\""
+                                                    "raw": "\"#1: 'URIError' have attribute DontEnum\"",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 ]
                                               }

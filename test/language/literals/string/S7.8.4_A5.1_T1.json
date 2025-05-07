@@ -40,7 +40,9 @@
               "start": 270,
               "end": 276,
               "value": 0,
-              "raw": "0x0000"
+              "raw": "0x0000",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -51,7 +53,9 @@
           "start": 282,
           "end": 286,
           "value": "\u0000",
-          "raw": "\"\\0\""
+          "raw": "\"\\0\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -79,7 +83,9 @@
                   "start": 315,
                   "end": 358,
                   "value": "#1: String.fromCharCode(0x0000) === \"\\0\"",
-                  "raw": "'#1: String.fromCharCode(0x0000) === \"\\\\0\"'"
+                  "raw": "'#1: String.fromCharCode(0x0000) === \"\\\\0\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -79,7 +79,9 @@
                         "start": 467,
                         "end": 471,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -162,7 +164,9 @@
                         "start": 514,
                         "end": 518,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -193,7 +197,9 @@
               "start": 544,
               "end": 545,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -201,7 +207,9 @@
             "start": 547,
             "end": 579,
             "value": "array has at least one element",
-            "raw": "'array has at least one element'"
+            "raw": "'array has at least one element'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

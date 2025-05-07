@@ -34,7 +34,9 @@
                 "start": 394,
                 "end": 399,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -111,7 +113,9 @@
                       "start": 444,
                       "end": 445,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -170,14 +174,18 @@
             "start": 483,
             "end": 491,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 534,
             "value": "Return value should be a symbol object.",
-            "raw": "\"Return value should be a symbol object.\""
+            "raw": "\"Return value should be a symbol object.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -242,14 +250,18 @@
             "start": 573,
             "end": 586,
             "value": "Symbol(foo)",
-            "raw": "\"Symbol(foo)\""
+            "raw": "\"Symbol(foo)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 627,
             "value": "Return value should be 'Symbol(foo)'.",
-            "raw": "\"Return value should be 'Symbol(foo)'.\""
+            "raw": "\"Return value should be 'Symbol(foo)'.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

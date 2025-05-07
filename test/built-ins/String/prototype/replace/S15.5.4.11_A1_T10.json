@@ -59,7 +59,9 @@
                           "start": 442,
                           "end": 451,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -93,7 +95,9 @@
             "start": 473,
             "end": 489,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -174,7 +178,9 @@
           "start": 642,
           "end": 660,
           "value": "undefinedBABABAB",
-          "raw": "\"undefinedBABABAB\""
+          "raw": "\"undefinedBABABAB\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -206,7 +212,9 @@
                     "start": 689,
                     "end": 856,
                     "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __str = \"ABBABABAB\"; replace(__obj, function(){return x;}) === \"undefinedBABABAB\". Actual: ",
-                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __str = \"ABB\\u0041BABAB\"; replace(__obj, function(){return x;}) === \"undefinedBABABAB\". Actual: '"
+                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __str = \"ABB\\u0041BABAB\"; replace(__obj, function(){return x;}) === \"undefinedBABABAB\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -149,7 +149,9 @@ __ESTREE_TEST__:PASS:
                           "start": 527,
                           "end": 535,
                           "raw": "\"uh-oh?\"",
-                          "value": "uh-oh?"
+                          "value": "uh-oh?",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -171,7 +173,9 @@ __ESTREE_TEST__:PASS:
                           "start": 557,
                           "end": 569,
                           "raw": "\"ruh-roh...\"",
-                          "value": "ruh-roh..."
+                          "value": "ruh-roh...",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
                           "start": 609,
                           "end": 616,
                           "raw": "\"d'oh!\"",
-                          "value": "d'oh!"
+                          "value": "d'oh!",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

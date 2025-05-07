@@ -71,14 +71,18 @@
                         "start": 376,
                         "end": 382,
                         "value": "eval",
-                        "raw": "'eval'"
+                        "raw": "'eval'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 384,
                         "end": 399,
                         "value": "\"use strict\";",
-                        "raw": "'\"use strict\";'"
+                        "raw": "'\"use strict\";'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

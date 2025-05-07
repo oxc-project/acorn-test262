@@ -70,7 +70,9 @@
                         "start": 684,
                         "end": 687,
                         "value": "0",
-                        "raw": "'0'"
+                        "raw": "'0'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -95,7 +97,9 @@
                               "start": 705,
                               "end": 709,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -117,7 +121,9 @@
                               "start": 729,
                               "end": 734,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -154,7 +160,9 @@
             "start": 761,
             "end": 762,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -223,7 +231,9 @@
                   "start": 807,
                   "end": 812,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -344,7 +354,9 @@
                                   "start": 911,
                                   "end": 912,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -443,7 +455,9 @@
                                         "start": 1011,
                                         "end": 1015,
                                         "value": true,
-                                        "raw": "true"
+                                        "raw": "true",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -588,7 +602,9 @@
             "start": 1169,
             "end": 1262,
             "value": "Array.from.call(constructorSetsIndex0ConfigurableFalse, items) throws a TypeError exception",
-            "raw": "'Array.from.call(constructorSetsIndex0ConfigurableFalse, items) throws a TypeError exception'"
+            "raw": "'Array.from.call(constructorSetsIndex0ConfigurableFalse, items) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -633,14 +649,18 @@
             "start": 1295,
             "end": 1296,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1298,
             "end": 1343,
             "value": "The value of closeCount is expected to be 1",
-            "raw": "'The value of closeCount is expected to be 1'"
+            "raw": "'The value of closeCount is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

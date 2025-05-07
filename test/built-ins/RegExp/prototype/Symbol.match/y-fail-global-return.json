@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "a",
                   "flags": "gy"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -65,7 +66,9 @@
                 "start": 1187,
                 "end": 1193,
                 "value": "aaba",
-                "raw": "'aaba'"
+                "raw": "'aaba'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -113,7 +116,9 @@
             "start": 1225,
             "end": 1229,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -171,7 +176,9 @@
             "start": 1264,
             "end": 1265,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +227,9 @@
               "start": 1292,
               "end": 1293,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -230,7 +239,9 @@
             "start": 1296,
             "end": 1299,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,7 +290,9 @@
               "start": 1326,
               "end": 1327,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -289,7 +302,9 @@
             "start": 1330,
             "end": 1333,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

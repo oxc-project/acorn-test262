@@ -24,7 +24,9 @@
               "start": 384,
               "end": 392,
               "value": "report",
-              "raw": "\"report\""
+              "raw": "\"report\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -68,7 +70,9 @@
           "start": 424,
           "end": 432,
           "value": "report",
-          "raw": "\"report\""
+          "raw": "\"report\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -100,7 +104,9 @@
                     "start": 461,
                     "end": 524,
                     "value": "#1: \"report\".substring(function(){}()) === \"report\". Actual: ",
-                    "raw": "'#1: \"report\".substring(function(){}()) === \"report\". Actual: '"
+                    "raw": "'#1: \"report\".substring(function(){}()) === \"report\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -116,7 +122,9 @@
                         "start": 527,
                         "end": 535,
                         "value": "report",
-                        "raw": "\"report\""
+                        "raw": "\"report\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

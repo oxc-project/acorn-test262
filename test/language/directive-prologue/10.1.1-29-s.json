@@ -31,7 +31,9 @@
               "start": 319,
               "end": 331,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             },
             "directive": "use strict"
           },
@@ -66,14 +68,18 @@
                       "start": 367,
                       "end": 370,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 372,
                       "end": 394,
                       "value": "eval('public = 1;');",
-                      "raw": "\"eval('public = 1;');\""
+                      "raw": "\"eval('public = 1;');\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }

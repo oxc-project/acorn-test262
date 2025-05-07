@@ -52,7 +52,9 @@
               "start": 7,
               "end": 10,
               "value": ">",
-              "raw": "\">\""
+              "raw": "\">\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

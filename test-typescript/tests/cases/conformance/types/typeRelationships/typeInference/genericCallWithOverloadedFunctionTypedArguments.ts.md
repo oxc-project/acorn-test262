@@ -1255,7 +1255,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1056,
                         "end": 1058,
                         "raw": "''",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       },
                       "expression": true,
                       "generator": false,
@@ -1370,7 +1372,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1131,
                         "end": 1133,
                         "raw": "''",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       },
                       "expression": true,
                       "generator": false,
@@ -1744,7 +1748,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1288,
                       "end": 1289,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ArrowFunctionExpression",
@@ -1824,7 +1830,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1415,
                       "end": 1416,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ArrowFunctionExpression",
@@ -1836,7 +1844,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1431,
                         "end": 1433,
                         "raw": "''",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       },
                       "expression": true,
                       "generator": false,
@@ -2124,7 +2134,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1602,
                       "end": 1603,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",

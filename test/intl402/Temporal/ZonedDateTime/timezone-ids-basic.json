@@ -33,7 +33,9 @@
                     "start": 271,
                     "end": 286,
                     "value": "Europe/Vienna",
-                    "raw": "\"Europe/Vienna\""
+                    "raw": "\"Europe/Vienna\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -47,7 +49,9 @@
                     "start": 292,
                     "end": 310,
                     "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "raw": "\"America/New_York\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -61,14 +65,18 @@
                     "start": 316,
                     "end": 330,
                     "value": "Africa/CAIRO",
-                    "raw": "\"Africa/CAIRO\""
+                    "raw": "\"Africa/CAIRO\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 332,
                     "end": 346,
                     "value": "Africa/Cairo",
-                    "raw": "\"Africa/Cairo\""
+                    "raw": "\"Africa/Cairo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -82,14 +90,18 @@
                     "start": 352,
                     "end": 366,
                     "value": "africa/cairo",
-                    "raw": "\"africa/cairo\""
+                    "raw": "\"africa/cairo\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 368,
                     "end": 382,
                     "value": "Africa/Cairo",
-                    "raw": "\"Africa/Cairo\""
+                    "raw": "\"Africa/Cairo\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -103,7 +115,9 @@
                     "start": 388,
                     "end": 406,
                     "value": "Asia/Ulaanbaatar",
-                    "raw": "\"Asia/Ulaanbaatar\""
+                    "raw": "\"Asia/Ulaanbaatar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -117,7 +131,9 @@
                     "start": 412,
                     "end": 429,
                     "value": "Asia/Ulan_Bator",
-                    "raw": "\"Asia/Ulan_Bator\""
+                    "raw": "\"Asia/Ulan_Bator\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -131,7 +147,9 @@
                     "start": 435,
                     "end": 440,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -145,7 +163,9 @@
                     "start": 446,
                     "end": 451,
                     "value": "GMT",
-                    "raw": "\"GMT\""
+                    "raw": "\"GMT\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -260,6 +280,7 @@
                       "end": 543,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {
@@ -320,7 +341,9 @@
                   "start": 586,
                   "end": 594,
                   "value": "object",
-                  "raw": "\"object\""
+                  "raw": "\"object\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -497,14 +520,18 @@
                 "start": 734,
                 "end": 744,
                 "value": "+00:01.1",
-                "raw": "\"+00:01.1\""
+                "raw": "\"+00:01.1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 746,
                 "end": 753,
                 "value": "-01.1",
-                "raw": "\"-01.1\""
+                "raw": "\"-01.1\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -621,6 +648,7 @@
                         "end": 849,
                         "value": null,
                         "raw": "0n",
+                        "regex": null,
                         "bigint": "0"
                       },
                       {

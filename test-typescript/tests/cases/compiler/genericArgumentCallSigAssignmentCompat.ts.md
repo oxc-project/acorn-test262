@@ -568,28 +568,36 @@ __ESTREE_TEST__:PASS:
                 "start": 578,
                 "end": 582,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 587,
                 "end": 591,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 593,
                 "end": 598,
                 "raw": "'yes'",
-                "value": "yes"
+                "value": "yes",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -668,7 +676,9 @@ __ESTREE_TEST__:PASS:
                 "start": 674,
                 "end": 678,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             ]
           },

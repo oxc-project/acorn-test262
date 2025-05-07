@@ -62,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -84,7 +86,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\P[\\P\\w-_]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -95,7 +98,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -106,7 +110,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -117,7 +122,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\P[\\P\\w-_]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               }
             ]
           }
@@ -183,7 +189,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -194,7 +201,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{,??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -205,7 +213,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{,1??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -216,7 +225,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{1??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -227,7 +237,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{1,??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -238,7 +249,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{1,2??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -249,7 +261,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{2,1??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -260,7 +273,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -271,7 +285,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{,}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -282,7 +297,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{,1}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -293,7 +309,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{1}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -304,7 +321,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{1,}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -315,7 +333,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{1,2}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -326,7 +345,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{2,1}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -337,7 +357,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -348,7 +369,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{,??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -359,7 +381,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{,1??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -370,7 +393,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{1??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -381,7 +405,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{1,??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -392,7 +417,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{1,2??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -403,7 +429,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{2,1??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -414,7 +441,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -425,7 +453,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{,}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -436,7 +465,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{,1}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -447,7 +477,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{1}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -458,7 +489,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{1,}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -469,7 +501,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{1,2}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -480,7 +513,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "{2,1}??"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               }
             ]
           }

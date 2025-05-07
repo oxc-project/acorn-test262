@@ -100,14 +100,18 @@
             "start": 306,
             "end": 311,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 343,
             "value": "`s.has(NaN)` returns `false`",
-            "raw": "\"`s.has(NaN)` returns `false`\""
+            "raw": "\"`s.has(NaN)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

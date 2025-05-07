@@ -139,7 +139,9 @@
                             "start": 658,
                             "end": 661,
                             "value": 102,
-                            "raw": "102"
+                            "raw": "102",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -149,7 +151,9 @@
                         "start": 664,
                         "end": 667,
                         "value": 201,
-                        "raw": "201"
+                        "raw": "201",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -243,7 +247,9 @@
                         "start": 721,
                         "end": 724,
                         "value": 102,
-                        "raw": "102"
+                        "raw": "102",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "CallExpression",
@@ -261,7 +267,9 @@
                             "start": 732,
                             "end": 735,
                             "value": 201,
-                            "raw": "201"
+                            "raw": "201",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

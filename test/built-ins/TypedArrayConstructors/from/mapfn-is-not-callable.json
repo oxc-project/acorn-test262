@@ -23,7 +23,9 @@
             "start": 555,
             "end": 556,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -291,7 +293,9 @@
                                     "start": 787,
                                     "end": 791,
                                     "value": null,
-                                    "raw": "null"
+                                    "raw": "null",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -305,7 +309,9 @@
                         "start": 799,
                         "end": 814,
                         "value": "mapfn is null",
-                        "raw": "\"mapfn is null\""
+                        "raw": "\"mapfn is null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -398,7 +404,9 @@
                                     "start": 881,
                                     "end": 883,
                                     "value": 42,
-                                    "raw": "42"
+                                    "raw": "42",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -412,7 +420,9 @@
                         "start": 891,
                         "end": 910,
                         "value": "mapfn is a number",
-                        "raw": "\"mapfn is a number\""
+                        "raw": "\"mapfn is a number\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -505,7 +515,9 @@
                                     "start": 977,
                                     "end": 979,
                                     "value": "",
-                                    "raw": "\"\""
+                                    "raw": "\"\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -519,7 +531,9 @@
                         "start": 987,
                         "end": 1006,
                         "value": "mapfn is a string",
-                        "raw": "\"mapfn is a string\""
+                        "raw": "\"mapfn is a string\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -625,7 +639,9 @@
                         "start": 1083,
                         "end": 1112,
                         "value": "mapfn is an ordinary object",
-                        "raw": "\"mapfn is an ordinary object\""
+                        "raw": "\"mapfn is an ordinary object\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -731,7 +747,9 @@
                         "start": 1189,
                         "end": 1208,
                         "value": "mapfn is an array",
-                        "raw": "\"mapfn is an array\""
+                        "raw": "\"mapfn is an array\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -824,7 +842,9 @@
                                     "start": 1275,
                                     "end": 1279,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -838,7 +858,9 @@
                         "start": 1287,
                         "end": 1307,
                         "value": "mapfn is a boolean",
-                        "raw": "\"mapfn is a boolean\""
+                        "raw": "\"mapfn is a boolean\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -875,7 +897,9 @@
                             "start": 1328,
                             "end": 1331,
                             "value": "1",
-                            "raw": "\"1\""
+                            "raw": "\"1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -984,7 +1008,9 @@
                         "start": 1406,
                         "end": 1425,
                         "value": "mapfn is a symbol",
-                        "raw": "\"mapfn is a symbol\""
+                        "raw": "\"mapfn is a symbol\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1029,14 +1055,18 @@
                         "start": 1466,
                         "end": 1467,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1473,
                         "end": 1539,
                         "value": "IsCallable(mapfn) check occurs before getting source[@@iterator]",
-                        "raw": "\"IsCallable(mapfn) check occurs before getting source[@@iterator]\""
+                        "raw": "\"IsCallable(mapfn) check occurs before getting source[@@iterator]\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

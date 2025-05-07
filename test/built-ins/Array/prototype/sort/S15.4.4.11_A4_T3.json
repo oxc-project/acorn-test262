@@ -114,7 +114,9 @@
             "start": 313,
             "end": 314,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -124,7 +126,9 @@
           "start": 318,
           "end": 321,
           "value": "z",
-          "raw": "\"z\""
+          "raw": "\"z\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -152,7 +156,9 @@
             "start": 327,
             "end": 328,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -162,7 +168,9 @@
           "start": 332,
           "end": 335,
           "value": "y",
-          "raw": "\"y\""
+          "raw": "\"y\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -190,7 +198,9 @@
             "start": 341,
             "end": 342,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -200,7 +210,9 @@
           "start": 346,
           "end": 349,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -243,7 +255,9 @@
             "start": 365,
             "end": 375,
             "value": 4294967294,
-            "raw": "4294967294"
+            "raw": "4294967294",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -319,7 +333,9 @@
                     "start": 429,
                     "end": 578,
                     "value": "#1: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort() === obj. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort() === obj. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort() === obj. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -400,7 +416,9 @@
             "start": 619,
             "end": 629,
             "value": 4294967294,
-            "raw": "4294967294"
+            "raw": "4294967294",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -433,7 +451,9 @@
                     "start": 658,
                     "end": 827,
                     "value": "#2: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj.length === -4294967294. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj.length === -4294967294. Actual: '"
+                    "raw": "'#2: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj.length === -4294967294. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -491,7 +511,9 @@
             "start": 856,
             "end": 857,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -502,7 +524,9 @@
           "start": 863,
           "end": 866,
           "value": "z",
-          "raw": "\"z\""
+          "raw": "\"z\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -534,7 +558,9 @@
                     "start": 895,
                     "end": 1052,
                     "value": "#3: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[0] === \"z\". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[0] === \"z\". Actual: '"
+                    "raw": "'#3: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[0] === \"z\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -556,7 +582,9 @@
                         "start": 1060,
                         "end": 1061,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -593,7 +621,9 @@
             "start": 1077,
             "end": 1078,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -604,7 +634,9 @@
           "start": 1084,
           "end": 1087,
           "value": "y",
-          "raw": "\"y\""
+          "raw": "\"y\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -636,7 +668,9 @@
                     "start": 1116,
                     "end": 1273,
                     "value": "#4: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[1] === \"y\". Actual: ",
-                    "raw": "'#4: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[1] === \"y\". Actual: '"
+                    "raw": "'#4: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[1] === \"y\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -658,7 +692,9 @@
                         "start": 1281,
                         "end": 1282,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -695,7 +731,9 @@
             "start": 1298,
             "end": 1299,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -706,7 +744,9 @@
           "start": 1305,
           "end": 1308,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -738,7 +778,9 @@
                     "start": 1337,
                     "end": 1494,
                     "value": "#5: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[2] === \"x\". Actual: ",
-                    "raw": "'#5: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[2] === \"x\". Actual: '"
+                    "raw": "'#5: var obj = {}; obj.sort = Array.prototype.sort; obj[0] = \"z\"; obj[1] = \"y\"; obj[2] = \"x\"; obj.length = -4294967294; obj.sort(); obj[2] === \"x\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -760,7 +802,9 @@
                         "start": 1502,
                         "end": 1503,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

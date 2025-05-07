@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "^.$",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 754,
                 "end": 768,
                 "value": "𐀀",
-                "raw": "'\\ud800\\udc00'"
+                "raw": "'\\ud800\\udc00'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

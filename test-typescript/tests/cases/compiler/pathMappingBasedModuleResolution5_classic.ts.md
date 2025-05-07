@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 31,
         "raw": "\"folder2/file1\"",
-        "value": "folder2/file1"
+        "value": "folder2/file1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -56,7 +58,9 @@ __ESTREE_TEST__:PASS:
         "start": 48,
         "end": 63,
         "raw": "\"folder3/file2\"",
-        "value": "folder3/file2"
+        "value": "folder3/file2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -96,7 +100,9 @@ __ESTREE_TEST__:PASS:
         "start": 80,
         "end": 98,
         "raw": "\"components/file3\"",
-        "value": "components/file3"
+        "value": "components/file3",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -136,7 +142,9 @@ __ESTREE_TEST__:PASS:
         "start": 116,
         "end": 123,
         "raw": "\"file4\"",
-        "value": "file4"
+        "value": "file4",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -484,7 +492,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 16,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -536,7 +546,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 16,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -588,7 +600,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 16,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -640,7 +654,9 @@ __ESTREE_TEST__:PASS:
               "start": 16,
               "end": 17,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],

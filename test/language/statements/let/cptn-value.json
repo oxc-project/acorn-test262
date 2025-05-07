@@ -47,7 +47,9 @@
                 "start": 475,
                 "end": 492,
                 "value": "let test262id1;",
-                "raw": "'let test262id1;'"
+                "raw": "'let test262id1;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 506,
             "end": 546,
             "value": "Single declaration without initializer",
-            "raw": "'Single declaration without initializer'"
+            "raw": "'Single declaration without initializer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                 "start": 575,
                 "end": 596,
                 "value": "let test262id2 = 2;",
-                "raw": "'let test262id2 = 2;'"
+                "raw": "'let test262id2 = 2;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -129,7 +135,9 @@
             "start": 614,
             "end": 654,
             "value": "Single declaration bearing initializer",
-            "raw": "'Single declaration bearing initializer'"
+            "raw": "'Single declaration bearing initializer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -179,7 +187,9 @@
                 "start": 683,
                 "end": 716,
                 "value": "let test262id3 = 3, test262id4;",
-                "raw": "'let test262id3 = 3, test262id4;'"
+                "raw": "'let test262id3 = 3, test262id4;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -195,7 +205,9 @@
             "start": 734,
             "end": 784,
             "value": "Multiple declarations, final without initializer",
-            "raw": "'Multiple declarations, final without initializer'"
+            "raw": "'Multiple declarations, final without initializer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +257,9 @@
                 "start": 813,
                 "end": 846,
                 "value": "let test262id5, test262id6 = 6;",
-                "raw": "'let test262id5, test262id6 = 6;'"
+                "raw": "'let test262id5, test262id6 = 6;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -261,7 +275,9 @@
             "start": 864,
             "end": 914,
             "value": "Multiple declarations, final bearing initializer",
-            "raw": "'Multiple declarations, final bearing initializer'"
+            "raw": "'Multiple declarations, final bearing initializer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -311,7 +327,9 @@
                 "start": 941,
                 "end": 961,
                 "value": "7; let test262id8;",
-                "raw": "'7; let test262id8;'"
+                "raw": "'7; let test262id8;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -321,7 +339,9 @@
             "start": 964,
             "end": 965,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,7 +391,9 @@
                 "start": 990,
                 "end": 1016,
                 "value": "9; let test262id10 = 10;",
-                "raw": "'9; let test262id10 = 10;'"
+                "raw": "'9; let test262id10 = 10;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -381,7 +403,9 @@
             "start": 1019,
             "end": 1020,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -431,7 +455,9 @@
                 "start": 1045,
                 "end": 1085,
                 "value": "11; let test262id12 = 12, test262id13;",
-                "raw": "'11; let test262id12 = 12, test262id13;'"
+                "raw": "'11; let test262id12 = 12, test262id13;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -441,7 +467,9 @@
             "start": 1088,
             "end": 1090,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -491,7 +519,9 @@
                 "start": 1115,
                 "end": 1155,
                 "value": "14; let test262id15, test262id16 = 16;",
-                "raw": "'14; let test262id15, test262id16 = 16;'"
+                "raw": "'14; let test262id15, test262id16 = 16;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -501,7 +531,9 @@
             "start": 1158,
             "end": 1160,
             "value": 14,
-            "raw": "14"
+            "raw": "14",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

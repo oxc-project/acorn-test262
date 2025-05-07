@@ -69,7 +69,9 @@
               "start": 486,
               "end": 487,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "operator": "**",
             "right": {
@@ -77,7 +79,9 @@
               "start": 491,
               "end": 493,
               "value": 53,
-              "raw": "53"
+              "raw": "53",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "-",
@@ -86,7 +90,9 @@
             "start": 496,
             "end": 497,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -215,7 +221,9 @@
                 "start": 571,
                 "end": 572,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "operator": "**",
               "right": {
@@ -223,7 +231,9 @@
                 "start": 576,
                 "end": 578,
                 "value": 53,
-                "raw": "53"
+                "raw": "53",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "-",
@@ -232,7 +242,9 @@
               "start": 581,
               "end": 582,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -240,7 +252,9 @@
             "start": 584,
             "end": 605,
             "value": "Length is 2**53 - 1",
-            "raw": "\"Length is 2**53 - 1\""
+            "raw": "\"Length is 2**53 - 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -283,7 +297,9 @@
             "start": 628,
             "end": 629,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "operator": "**",
           "right": {
@@ -291,7 +307,9 @@
             "start": 633,
             "end": 635,
             "value": 53,
-            "raw": "53"
+            "raw": "53",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -420,7 +438,9 @@
                 "start": 709,
                 "end": 710,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "operator": "**",
               "right": {
@@ -428,7 +448,9 @@
                 "start": 714,
                 "end": 716,
                 "value": 53,
-                "raw": "53"
+                "raw": "53",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "-",
@@ -437,7 +459,9 @@
               "start": 719,
               "end": 720,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -445,7 +469,9 @@
             "start": 722,
             "end": 739,
             "value": "Length is 2**53",
-            "raw": "\"Length is 2**53\""
+            "raw": "\"Length is 2**53\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -492,7 +518,9 @@
               "start": 762,
               "end": 763,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "operator": "**",
             "right": {
@@ -500,7 +528,9 @@
               "start": 767,
               "end": 769,
               "value": 53,
-              "raw": "53"
+              "raw": "53",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -509,7 +539,9 @@
             "start": 772,
             "end": 773,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -638,7 +670,9 @@
                 "start": 847,
                 "end": 848,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "operator": "**",
               "right": {
@@ -646,7 +680,9 @@
                 "start": 852,
                 "end": 854,
                 "value": 53,
-                "raw": "53"
+                "raw": "53",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "-",
@@ -655,7 +691,9 @@
               "start": 857,
               "end": 858,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -663,7 +701,9 @@
             "start": 860,
             "end": 881,
             "value": "Length is 2**53 + 2",
-            "raw": "\"Length is 2**53 + 2\""
+            "raw": "\"Length is 2**53 + 2\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -829,7 +869,9 @@
                 "start": 986,
                 "end": 987,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               "operator": "**",
               "right": {
@@ -837,7 +879,9 @@
                 "start": 991,
                 "end": 993,
                 "value": 53,
-                "raw": "53"
+                "raw": "53",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "-",
@@ -846,7 +890,9 @@
               "start": 996,
               "end": 997,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -854,7 +900,9 @@
             "start": 999,
             "end": 1019,
             "value": "Length is Infinity",
-            "raw": "\"Length is Infinity\""
+            "raw": "\"Length is Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

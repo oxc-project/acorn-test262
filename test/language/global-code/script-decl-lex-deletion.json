@@ -36,7 +36,9 @@
             "start": 735,
             "end": 752,
             "value": "let test262let;",
-            "raw": "'let test262let;'"
+            "raw": "'let test262let;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -104,7 +106,9 @@
             "start": 949,
             "end": 977,
             "value": "const test262const = null;",
-            "raw": "'const test262const = null;'"
+            "raw": "'const test262const = null;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -172,7 +176,9 @@
             "start": 1034,
             "end": 1057,
             "value": "class test262class {}",
-            "raw": "'class test262class {}'"
+            "raw": "'class test262class {}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,7 +35,9 @@
           "start": 305,
           "end": 308,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -82,21 +84,27 @@
                       "start": 331,
                       "end": 332,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 333,
                       "end": 334,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 335,
                       "end": 336,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -128,7 +136,9 @@
             "start": 347,
             "end": 372,
             "value": "with(myObj){p1=[3,2,1]}",
-            "raw": "\"with(myObj){p1=[3,2,1]}\""
+            "raw": "\"with(myObj){p1=[3,2,1]}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -170,7 +180,9 @@
             "start": 477,
             "end": 478,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -181,7 +193,9 @@
           "start": 484,
           "end": 485,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -213,7 +227,9 @@
                     "start": 513,
                     "end": 562,
                     "value": "#1: myObj.p1[2] === 1. Actual:  myObj.p1[2] ===",
-                    "raw": "'#1: myObj.p1[2] === 1. Actual:  myObj.p1[2] ==='"
+                    "raw": "'#1: myObj.p1[2] === 1. Actual:  myObj.p1[2] ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -244,7 +260,9 @@
                       "start": 573,
                       "end": 574,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -290,7 +308,9 @@
           "start": 770,
           "end": 773,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -318,7 +338,9 @@
                   "start": 801,
                   "end": 825,
                   "value": "#2: myObj.p1 !== 'a'",
-                  "raw": "'#2: myObj.p1 !== \\'a\\''"
+                  "raw": "'#2: myObj.p1 !== \\'a\\''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -39,7 +39,9 @@
                     "start": 996,
                     "end": 997,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -186,7 +188,9 @@
                         "start": 1126,
                         "end": 1133,
                         "value": "[0,0]",
-                        "raw": "'[0,0]'"
+                        "raw": "'[0,0]'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "FunctionExpression",
@@ -225,7 +229,9 @@
                                     "start": 1157,
                                     "end": 1158,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false

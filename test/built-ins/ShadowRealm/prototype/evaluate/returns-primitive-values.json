@@ -75,14 +75,18 @@
             "start": 340,
             "end": 350,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 354,
             "end": 427,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +180,9 @@
                 "start": 490,
                 "end": 497,
                 "value": "1 + 1",
-                "raw": "'1 + 1'"
+                "raw": "'1 + 1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -186,7 +192,9 @@
             "start": 500,
             "end": 501,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -249,7 +257,9 @@
                 "start": 532,
                 "end": 538,
                 "value": "null",
-                "raw": "'null'"
+                "raw": "'null'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -259,7 +269,9 @@
             "start": 541,
             "end": 545,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +334,9 @@
                 "start": 576,
                 "end": 578,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -338,7 +352,9 @@
             "start": 592,
             "end": 625,
             "value": "undefined from empty completion",
-            "raw": "'undefined from empty completion'"
+            "raw": "'undefined from empty completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -401,7 +417,9 @@
                 "start": 656,
                 "end": 667,
                 "value": "undefined",
-                "raw": "'undefined'"
+                "raw": "'undefined'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -473,7 +491,9 @@
                 "start": 710,
                 "end": 716,
                 "value": "true",
-                "raw": "'true'"
+                "raw": "'true'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -483,7 +503,9 @@
             "start": 719,
             "end": 723,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +568,9 @@
                 "start": 754,
                 "end": 761,
                 "value": "false",
-                "raw": "'false'"
+                "raw": "'false'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -556,7 +580,9 @@
             "start": 764,
             "end": 769,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -619,7 +645,9 @@
                 "start": 800,
                 "end": 818,
                 "value": "function fn() {}",
-                "raw": "'function fn() {}'"
+                "raw": "'function fn() {}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -635,7 +663,9 @@
             "start": 832,
             "end": 869,
             "value": "fn declaration has empty completion",
-            "raw": "'fn declaration has empty completion'"
+            "raw": "'fn declaration has empty completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -698,7 +728,9 @@
                 "start": 900,
                 "end": 904,
                 "value": "{}",
-                "raw": "'{}'"
+                "raw": "'{}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -714,7 +746,9 @@
             "start": 918,
             "end": 946,
             "value": "Block has empty completion",
-            "raw": "'Block has empty completion'"
+            "raw": "'Block has empty completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -777,7 +811,9 @@
                 "start": 977,
                 "end": 981,
                 "value": "-0",
-                "raw": "'-0'"
+                "raw": "'-0'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -793,7 +829,9 @@
               "start": 985,
               "end": 986,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -857,7 +895,9 @@
                 "start": 1017,
                 "end": 1024,
                 "value": "\"str\"",
-                "raw": "'\"str\"'"
+                "raw": "'\"str\"'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -867,7 +907,9 @@
             "start": 1027,
             "end": 1032,
             "value": "str",
-            "raw": "'str'"
+            "raw": "'str'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -941,7 +983,9 @@
                     "start": 1066,
                     "end": 1071,
                     "value": "NaN",
-                    "raw": "'NaN'"
+                    "raw": "'NaN'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

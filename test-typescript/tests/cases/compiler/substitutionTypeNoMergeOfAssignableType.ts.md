@@ -197,7 +197,9 @@ __ESTREE_TEST__:PASS:
                 "start": 161,
                 "end": 169,
                 "raw": "\"fields\"",
-                "value": "fields"
+                "value": "fields",
+                "regex": null,
+                "bigint": null
               }
             },
             "objectType": {
@@ -261,7 +263,9 @@ __ESTREE_TEST__:PASS:
                 "start": 175,
                 "end": 183,
                 "raw": "\"fields\"",
-                "value": "fields"
+                "value": "fields",
+                "regex": null,
+                "bigint": null
               }
             },
             "objectType": {

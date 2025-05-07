@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 75,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -524,7 +526,9 @@ __ESTREE_TEST__:PASS:
                       "start": 397,
                       "end": 398,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -593,7 +597,9 @@ __ESTREE_TEST__:PASS:
                       "start": 519,
                       "end": 520,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -662,7 +668,9 @@ __ESTREE_TEST__:PASS:
                       "start": 642,
                       "end": 643,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -851,7 +859,9 @@ __ESTREE_TEST__:PASS:
                       "start": 857,
                       "end": 858,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

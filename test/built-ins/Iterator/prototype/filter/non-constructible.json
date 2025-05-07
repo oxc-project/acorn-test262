@@ -231,7 +231,9 @@
                           "start": 611,
                           "end": 615,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -347,7 +349,9 @@
                           "start": 694,
                           "end": 698,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -462,7 +466,9 @@
                           "start": 784,
                           "end": 788,
                           "value": true,
-                          "raw": "true"
+                          "raw": "true",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]

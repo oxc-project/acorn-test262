@@ -28,28 +28,36 @@
                 "start": 1940,
                 "end": 1947,
                 "value": "start",
-                "raw": "\"start\""
+                "raw": "\"start\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1990,
                 "end": 1998,
                 "value": "tick 1",
-                "raw": "\"tick 1\""
+                "raw": "\"tick 1\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2056,
                 "end": 2066,
                 "value": "get then",
-                "raw": "\"get then\""
+                "raw": "\"get then\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2129,
                 "end": 2137,
                 "value": "tick 2",
-                "raw": "\"tick 2\""
+                "raw": "\"tick 2\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -134,7 +142,9 @@
                   "start": 2197,
                   "end": 2204,
                   "value": "start",
-                  "raw": "\"start\""
+                  "raw": "\"start\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -154,7 +164,9 @@
                 "start": 2215,
                 "end": 2218,
                 "value": 123,
-                "raw": "123"
+                "raw": "123",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -191,7 +203,9 @@
                   "start": 2234,
                   "end": 2256,
                   "value": "stop - never reached",
-                  "raw": "\"stop - never reached\""
+                  "raw": "\"stop - never reached\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -265,7 +279,9 @@
                             "start": 2278,
                             "end": 2279,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -318,7 +334,9 @@
                               "start": 2307,
                               "end": 2315,
                               "value": "tick 1",
-                              "raw": "\"tick 1\""
+                              "raw": "\"tick 1\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -375,7 +393,9 @@
                           "start": 2344,
                           "end": 2352,
                           "value": "tick 2",
-                          "raw": "\"tick 2\""
+                          "raw": "\"tick 2\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -453,7 +473,9 @@
                             "start": 2413,
                             "end": 2452,
                             "value": "Ticks for return with thenable getter",
-                            "raw": "\"Ticks for return with thenable getter\""
+                            "raw": "\"Ticks for return with thenable getter\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -647,7 +669,9 @@
                               "start": 2608,
                               "end": 2618,
                               "value": "get then",
-                              "raw": "\"get then\""
+                              "raw": "\"get then\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

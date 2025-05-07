@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 37,
         "raw": "\"./prelude\"",
-        "value": "./prelude"
+        "value": "./prelude",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -109,7 +111,9 @@ __ESTREE_TEST__:PASS:
                   "start": 93,
                   "end": 98,
                   "raw": "\"abc\"",
-                  "value": "abc"
+                  "value": "abc",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "callee": {
@@ -566,7 +570,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 32,
         "raw": "\"./Something\"",
-        "value": "./Something"
+        "value": "./Something",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -605,7 +611,9 @@ __ESTREE_TEST__:PASS:
         "start": 60,
         "end": 73,
         "raw": "\"./Something\"",
-        "value": "./Something"
+        "value": "./Something",
+        "regex": null,
+        "bigint": null
       }
     },
     {

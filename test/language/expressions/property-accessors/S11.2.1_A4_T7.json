@@ -43,7 +43,9 @@
           "start": 305,
           "end": 313,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +72,9 @@
                 "start": 339,
                 "end": 391,
                 "value": "#1: typeof Number.MAX_VALUE === \"number\". Actual: ",
-                "raw": "'#1: typeof Number.MAX_VALUE === \"number\". Actual: '"
+                "raw": "'#1: typeof Number.MAX_VALUE === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -139,7 +143,9 @@
               "start": 441,
               "end": 452,
               "value": "MAX_VALUE",
-              "raw": "'MAX_VALUE'"
+              "raw": "'MAX_VALUE'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -151,7 +157,9 @@
           "start": 458,
           "end": 466,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                 "start": 492,
                 "end": 547,
                 "value": "#2: typeof Number[\"MAX_VALUE\"] === \"number\". Actual: ",
-                "raw": "'#2: typeof Number[\"MAX_VALUE\"] === \"number\". Actual: '"
+                "raw": "'#2: typeof Number[\"MAX_VALUE\"] === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -206,7 +216,9 @@
                       "start": 565,
                       "end": 576,
                       "value": "MAX_VALUE",
-                      "raw": "\"MAX_VALUE\""
+                      "raw": "\"MAX_VALUE\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -259,7 +271,9 @@
           "start": 614,
           "end": 622,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -286,7 +300,9 @@
                 "start": 648,
                 "end": 700,
                 "value": "#3: typeof Number.MIN_VALUE === \"number\". Actual: ",
-                "raw": "'#3: typeof Number.MIN_VALUE === \"number\". Actual: '"
+                "raw": "'#3: typeof Number.MIN_VALUE === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -355,7 +371,9 @@
               "start": 750,
               "end": 761,
               "value": "MIN_VALUE",
-              "raw": "'MIN_VALUE'"
+              "raw": "'MIN_VALUE'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -367,7 +385,9 @@
           "start": 767,
           "end": 775,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -394,7 +414,9 @@
                 "start": 801,
                 "end": 856,
                 "value": "#4: typeof Number[\"MIN_VALUE\"] === \"number\". Actual: ",
-                "raw": "'#4: typeof Number[\"MIN_VALUE\"] === \"number\". Actual: '"
+                "raw": "'#4: typeof Number[\"MIN_VALUE\"] === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -422,7 +444,9 @@
                       "start": 874,
                       "end": 885,
                       "value": "MIN_VALUE",
-                      "raw": "\"MIN_VALUE\""
+                      "raw": "\"MIN_VALUE\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -475,7 +499,9 @@
           "start": 917,
           "end": 925,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -502,7 +528,9 @@
                 "start": 951,
                 "end": 997,
                 "value": "#5: typeof Number.NaN === \"number\". Actual: ",
-                "raw": "'#5: typeof Number.NaN === \"number\". Actual: '"
+                "raw": "'#5: typeof Number.NaN === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -571,7 +599,9 @@
               "start": 1041,
               "end": 1046,
               "value": "NaN",
-              "raw": "'NaN'"
+              "raw": "'NaN'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -583,7 +613,9 @@
           "start": 1052,
           "end": 1060,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -610,7 +642,9 @@
                 "start": 1086,
                 "end": 1135,
                 "value": "#6: typeof Number[\"NaN\"] === \"number\". Actual: ",
-                "raw": "'#6: typeof Number[\"NaN\"] === \"number\". Actual: '"
+                "raw": "'#6: typeof Number[\"NaN\"] === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -638,7 +672,9 @@
                       "start": 1153,
                       "end": 1158,
                       "value": "NaN",
-                      "raw": "\"NaN\""
+                      "raw": "\"NaN\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -691,7 +727,9 @@
           "start": 1204,
           "end": 1212,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -718,7 +756,9 @@
                 "start": 1238,
                 "end": 1298,
                 "value": "#7: typeof Number.NEGATIVE_INFINITY === \"number\". Actual: ",
-                "raw": "'#7: typeof Number.NEGATIVE_INFINITY === \"number\". Actual: '"
+                "raw": "'#7: typeof Number.NEGATIVE_INFINITY === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -787,7 +827,9 @@
               "start": 1356,
               "end": 1375,
               "value": "NEGATIVE_INFINITY",
-              "raw": "'NEGATIVE_INFINITY'"
+              "raw": "'NEGATIVE_INFINITY'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -799,7 +841,9 @@
           "start": 1381,
           "end": 1389,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -826,7 +870,9 @@
                 "start": 1415,
                 "end": 1478,
                 "value": "#8: typeof Number[\"NEGATIVE_INFINITY\"] === \"number\". Actual: ",
-                "raw": "'#8: typeof Number[\"NEGATIVE_INFINITY\"] === \"number\". Actual: '"
+                "raw": "'#8: typeof Number[\"NEGATIVE_INFINITY\"] === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -854,7 +900,9 @@
                       "start": 1496,
                       "end": 1515,
                       "value": "NEGATIVE_INFINITY",
-                      "raw": "\"NEGATIVE_INFINITY\""
+                      "raw": "\"NEGATIVE_INFINITY\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -907,7 +955,9 @@
           "start": 1561,
           "end": 1569,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -934,7 +984,9 @@
                 "start": 1595,
                 "end": 1655,
                 "value": "#9: typeof Number.POSITIVE_INFINITY === \"number\". Actual: ",
-                "raw": "'#9: typeof Number.POSITIVE_INFINITY === \"number\". Actual: '"
+                "raw": "'#9: typeof Number.POSITIVE_INFINITY === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1003,7 +1055,9 @@
               "start": 1713,
               "end": 1732,
               "value": "POSITIVE_INFINITY",
-              "raw": "'POSITIVE_INFINITY'"
+              "raw": "'POSITIVE_INFINITY'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1015,7 +1069,9 @@
           "start": 1738,
           "end": 1746,
           "value": "number",
-          "raw": "\"number\""
+          "raw": "\"number\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1042,7 +1098,9 @@
                 "start": 1772,
                 "end": 1836,
                 "value": "#10: typeof Number[\"POSITIVE_INFINITY\"] === \"number\". Actual: ",
-                "raw": "'#10: typeof Number[\"POSITIVE_INFINITY\"] === \"number\". Actual: '"
+                "raw": "'#10: typeof Number[\"POSITIVE_INFINITY\"] === \"number\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1070,7 +1128,9 @@
                       "start": 1854,
                       "end": 1873,
                       "value": "POSITIVE_INFINITY",
-                      "raw": "\"POSITIVE_INFINITY\""
+                      "raw": "\"POSITIVE_INFINITY\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -1136,7 +1196,9 @@
           "start": 1921,
           "end": 1931,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1163,7 +1225,9 @@
                 "start": 1957,
                 "end": 2021,
                 "value": "#11: typeof Number.prototype.toString === \"function\". Actual: ",
-                "raw": "'#11: typeof Number.prototype.toString === \"function\". Actual: '"
+                "raw": "'#11: typeof Number.prototype.toString === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1258,7 +1322,9 @@
               "start": 2090,
               "end": 2100,
               "value": "toString",
-              "raw": "'toString'"
+              "raw": "'toString'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1270,7 +1336,9 @@
           "start": 2107,
           "end": 2117,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1297,7 +1365,9 @@
                 "start": 2143,
                 "end": 2210,
                 "value": "#12: typeof Number.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#12: typeof Number.prototype[\"toString\"] === \"function\". Actual: '"
+                "raw": "'#12: typeof Number.prototype[\"toString\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1338,7 +1408,9 @@
                       "start": 2238,
                       "end": 2248,
                       "value": "toString",
-                      "raw": "\"toString\""
+                      "raw": "\"toString\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -1404,7 +1476,9 @@
           "start": 2298,
           "end": 2308,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1431,7 +1505,9 @@
                 "start": 2334,
                 "end": 2401,
                 "value": "#13: typeof Number.prototype.constructor === \"function\". Actual: ",
-                "raw": "'#13: typeof Number.prototype.constructor === \"function\". Actual: '"
+                "raw": "'#13: typeof Number.prototype.constructor === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1526,7 +1602,9 @@
               "start": 2473,
               "end": 2486,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1538,7 +1616,9 @@
           "start": 2492,
           "end": 2502,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1565,7 +1645,9 @@
                 "start": 2528,
                 "end": 2598,
                 "value": "#14: typeof Number.prototype[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#14: typeof Number.prototype[\"constructor\"] === \"function\". Actual: '"
+                "raw": "'#14: typeof Number.prototype[\"constructor\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1606,7 +1688,9 @@
                       "start": 2626,
                       "end": 2639,
                       "value": "constructor",
-                      "raw": "\"constructor\""
+                      "raw": "\"constructor\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -1672,7 +1756,9 @@
           "start": 2686,
           "end": 2696,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1699,7 +1785,9 @@
                 "start": 2722,
                 "end": 2785,
                 "value": "#15: typeof Number.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#15: typeof Number.prototype.valueOf === \"function\". Actual: '"
+                "raw": "'#15: typeof Number.prototype.valueOf === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1794,7 +1882,9 @@
               "start": 2853,
               "end": 2862,
               "value": "valueOf",
-              "raw": "'valueOf'"
+              "raw": "'valueOf'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1806,7 +1896,9 @@
           "start": 2869,
           "end": 2879,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1833,7 +1925,9 @@
                 "start": 2905,
                 "end": 2971,
                 "value": "#16: typeof Number.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#16: typeof Number.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "raw": "'#16: typeof Number.prototype[\"valueOf\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1874,7 +1968,9 @@
                       "start": 2999,
                       "end": 3008,
                       "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "raw": "\"valueOf\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

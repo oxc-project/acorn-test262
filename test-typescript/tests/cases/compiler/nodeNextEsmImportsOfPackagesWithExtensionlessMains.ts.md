@@ -203,7 +203,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 24,
         "raw": "'ip'",
-        "value": "ip"
+        "value": "ip",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -233,7 +235,9 @@ __ESTREE_TEST__:PASS:
         "start": 49,
         "end": 61,
         "raw": "'nullthrows'",
-        "value": "nullthrows"
+        "value": "nullthrows",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

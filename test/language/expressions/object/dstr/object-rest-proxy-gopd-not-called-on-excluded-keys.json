@@ -34,7 +34,9 @@
                 "start": 1172,
                 "end": 1189,
                 "value": "excluded_symbol",
-                "raw": "\"excluded_symbol\""
+                "raw": "\"excluded_symbol\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 1220,
                 "end": 1237,
                 "value": "included_symbol",
-                "raw": "\"included_symbol\""
+                "raw": "\"included_symbol\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -114,14 +118,18 @@
                 "start": 1277,
                 "end": 1293,
                 "value": "excludedString",
-                "raw": "\"excludedString\""
+                "raw": "\"excludedString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1295,
                 "end": 1298,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -160,14 +168,18 @@
                 "start": 1337,
                 "end": 1353,
                 "value": "includedString",
-                "raw": "\"includedString\""
+                "raw": "\"includedString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1355,
                 "end": 1358,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -487,7 +499,9 @@
                   "start": 1653,
                   "end": 1654,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",

@@ -147,7 +147,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 38,
         "raw": "'acorn-walk'",
-        "value": "acorn-walk"
+        "value": "acorn-walk",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -195,7 +197,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 35,
         "raw": "'acorn-walk'",
-        "value": "acorn-walk"
+        "value": "acorn-walk",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

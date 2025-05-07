@@ -79,7 +79,9 @@
               "start": 553,
               "end": 554,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -209,7 +211,9 @@
                 "start": 638,
                 "end": 649,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -237,7 +241,9 @@
                         "start": 671,
                         "end": 683,
                         "value": "unassigned",
-                        "raw": "'unassigned'"
+                        "raw": "'unassigned'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -375,7 +381,9 @@
                                         "start": 826,
                                         "end": 869,
                                         "value": "#1: strict delete threw a non-TypeError: ",
-                                        "raw": "'#1: strict delete threw a non-TypeError: '"
+                                        "raw": "'#1: strict delete threw a non-TypeError: '",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "operator": "+",
                                       "right": {
@@ -417,7 +425,9 @@
                       "start": 934,
                       "end": 939,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -445,7 +455,9 @@
                               "start": 972,
                               "end": 1006,
                               "value": "#2: Strict delete returned false",
-                              "raw": "'#2: Strict delete returned false'"
+                              "raw": "'#2: Strict delete returned false'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

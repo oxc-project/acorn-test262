@@ -34,14 +34,18 @@
                 "start": 368,
                 "end": 384,
                 "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "raw": "\"arg1,arg2,arg3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 390,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +97,9 @@
                 "start": 418,
                 "end": 426,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -103,7 +109,9 @@
             "start": 429,
             "end": 476,
             "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -155,7 +163,9 @@
             "start": 503,
             "end": 556,
             "value": "The value of delete f.length is expected to be true",
-            "raw": "'The value of delete f.length is expected to be true'"
+            "raw": "'The value of delete f.length is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,7 +221,9 @@
                   "start": 584,
                   "end": 592,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -222,7 +234,9 @@
             "start": 595,
             "end": 662,
             "value": "The value of !f.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'"
+            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,14 +294,18 @@
             "start": 695,
             "end": 696,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 730,
             "value": "The value of f.length is not 3",
-            "raw": "'The value of f.length is not 3'"
+            "raw": "'The value of f.length is not 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

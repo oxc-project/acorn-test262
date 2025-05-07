@@ -258,7 +258,9 @@ __ESTREE_TEST__:PASS:
                         "start": 336,
                         "end": 338,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -302,7 +304,9 @@ __ESTREE_TEST__:PASS:
                               "start": 373,
                               "end": 393,
                               "raw": "\"What is your name?\"",
-                              "value": "What is your name?"
+                              "value": "What is your name?",
+                              "regex": null,
+                              "bigint": null
                             },
                             "delegate": false
                           }
@@ -457,7 +461,9 @@ __ESTREE_TEST__:PASS:
                         "start": 525,
                         "end": 527,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -501,7 +507,9 @@ __ESTREE_TEST__:PASS:
                               "start": 562,
                               "end": 582,
                               "raw": "\"What is your name?\"",
-                              "value": "What is your name?"
+                              "value": "What is your name?",
+                              "regex": null,
+                              "bigint": null
                             },
                             "delegate": false
                           }
@@ -656,7 +664,9 @@ __ESTREE_TEST__:PASS:
                         "start": 708,
                         "end": 710,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -700,7 +710,9 @@ __ESTREE_TEST__:PASS:
                               "start": 745,
                               "end": 765,
                               "raw": "\"What is your name?\"",
-                              "value": "What is your name?"
+                              "value": "What is your name?",
+                              "regex": null,
+                              "bigint": null
                             },
                             "delegate": false
                           }
@@ -855,7 +867,9 @@ __ESTREE_TEST__:PASS:
                         "start": 898,
                         "end": 900,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -899,7 +913,9 @@ __ESTREE_TEST__:PASS:
                               "start": 935,
                               "end": 955,
                               "raw": "\"What is your name?\"",
-                              "value": "What is your name?"
+                              "value": "What is your name?",
+                              "regex": null,
+                              "bigint": null
                             },
                             "delegate": false
                           }

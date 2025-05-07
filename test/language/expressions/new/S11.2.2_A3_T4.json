@@ -49,7 +49,9 @@
                   "start": 359,
                   "end": 394,
                   "value": "#1: new undefined throw TypeError",
-                  "raw": "'#1: new undefined throw TypeError'"
+                  "raw": "'#1: new undefined throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -108,7 +110,9 @@
                   "start": 447,
                   "end": 451,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -136,7 +140,9 @@
                           "start": 482,
                           "end": 517,
                           "value": "#1: new undefined throw TypeError",
-                          "raw": "'#1: new undefined throw TypeError'"
+                          "raw": "'#1: new undefined throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -221,7 +227,9 @@
                   "start": 599,
                   "end": 645,
                   "value": "#2: var x = undefined; new x throw TypeError",
-                  "raw": "'#2: var x = undefined; new x throw TypeError'"
+                  "raw": "'#2: var x = undefined; new x throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -280,7 +288,9 @@
                   "start": 698,
                   "end": 702,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -308,7 +318,9 @@
                           "start": 733,
                           "end": 779,
                           "value": "#2: var x = undefined; new x throw TypeError",
-                          "raw": "'#2: var x = undefined; new x throw TypeError'"
+                          "raw": "'#2: var x = undefined; new x throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -393,7 +405,9 @@
                   "start": 863,
                   "end": 911,
                   "value": "#3: var x = undefined; new x() throw TypeError",
-                  "raw": "'#3: var x = undefined; new x() throw TypeError'"
+                  "raw": "'#3: var x = undefined; new x() throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -452,7 +466,9 @@
                   "start": 964,
                   "end": 968,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -480,7 +496,9 @@
                           "start": 999,
                           "end": 1047,
                           "value": "#3: var x = undefined; new x() throw TypeError",
-                          "raw": "'#3: var x = undefined; new x() throw TypeError'"
+                          "raw": "'#3: var x = undefined; new x() throw TypeError'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

@@ -30,7 +30,9 @@
           "start": 390,
           "end": 401,
           "value": "undefined",
-          "raw": "'undefined'"
+          "raw": "'undefined'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -62,7 +64,9 @@
                     "start": 429,
                     "end": 484,
                     "value": "#1: typeof f === 'undefined'. Actual:  typeof f ===",
-                    "raw": "'#1: typeof f === \\'undefined\\'. Actual:  typeof f ==='"
+                    "raw": "'#1: typeof f === \\'undefined\\'. Actual:  typeof f ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -144,7 +148,9 @@
                       "start": 705,
                       "end": 706,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -156,7 +162,9 @@
                       "start": 719,
                       "end": 720,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "alternate": {
@@ -194,7 +202,9 @@
                               "start": 745,
                               "end": 746,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -219,7 +229,9 @@
               "start": 755,
               "end": 756,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -230,7 +242,9 @@
           "start": 760,
           "end": 761,
           "value": 6,
-          "raw": "6"
+          "raw": "6",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -258,7 +272,9 @@
                   "start": 789,
                   "end": 853,
                   "value": "#2: FunctionDeclaration cannot be localed inside an Expression",
-                  "raw": "'#2: FunctionDeclaration cannot be localed inside an Expression'"
+                  "raw": "'#2: FunctionDeclaration cannot be localed inside an Expression'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

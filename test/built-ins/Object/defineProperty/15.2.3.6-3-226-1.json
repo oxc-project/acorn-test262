@@ -92,7 +92,9 @@
                   "start": 417,
                   "end": 434,
                   "value": "jsonGetProperty",
-                  "raw": "\"jsonGetProperty\""
+                  "raw": "\"jsonGetProperty\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -139,7 +141,9 @@
             "start": 467,
             "end": 477,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -203,14 +207,18 @@
             "start": 518,
             "end": 535,
             "value": "jsonGetProperty",
-            "raw": "\"jsonGetProperty\""
+            "raw": "\"jsonGetProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 537,
             "end": 551,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

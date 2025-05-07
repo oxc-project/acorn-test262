@@ -92,7 +92,9 @@
           "start": 397,
           "end": 405,
           "value": "RegExp",
-          "raw": "\"RegExp\""
+          "raw": "\"RegExp\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -214,14 +216,18 @@
             "start": 495,
             "end": 503,
             "value": "RegExp",
-            "raw": "\"RegExp\""
+            "raw": "\"RegExp\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 519,
             "value": "obj.property",
-            "raw": "'obj.property'"
+            "raw": "'obj.property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

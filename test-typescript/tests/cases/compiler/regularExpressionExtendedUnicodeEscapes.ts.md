@@ -62,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\u{10000}[\\u{10000}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\u{10000}[\\u{10000}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -84,7 +86,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "\\u{10000}[\\u{10000}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               }
             ]
           }

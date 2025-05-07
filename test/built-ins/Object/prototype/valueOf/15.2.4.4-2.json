@@ -92,7 +92,9 @@
                   "start": 326,
                   "end": 331,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -103,14 +105,18 @@
             "start": 334,
             "end": 342,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 344,
             "end": 389,
             "value": "typeof Object.prototype.valueOf.call(false)",
-            "raw": "'typeof Object.prototype.valueOf.call(false)'"
+            "raw": "'typeof Object.prototype.valueOf.call(false)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

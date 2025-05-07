@@ -96,6 +96,7 @@
                               "end": 2181,
                               "value": null,
                               "raw": "42n",
+                              "regex": null,
                               "bigint": "42"
                             }
                           ]
@@ -198,7 +199,9 @@
                         "start": 2259,
                         "end": 2293,
                         "value": "abrupt completion from undefined",
-                        "raw": "\"abrupt completion from undefined\""
+                        "raw": "\"abrupt completion from undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -285,7 +288,9 @@
                                     "start": 2353,
                                     "end": 2357,
                                     "value": null,
-                                    "raw": "null"
+                                    "raw": "null",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -299,7 +304,9 @@
                         "start": 2365,
                         "end": 2394,
                         "value": "abrupt completion from null",
-                        "raw": "\"abrupt completion from null\""
+                        "raw": "\"abrupt completion from null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -386,7 +393,9 @@
                                     "start": 2456,
                                     "end": 2466,
                                     "value": "nonsense",
-                                    "raw": "\"nonsense\""
+                                    "raw": "\"nonsense\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -400,7 +409,9 @@
                         "start": 2474,
                         "end": 2505,
                         "value": "abrupt completion from string",
-                        "raw": "\"abrupt completion from string\""
+                        "raw": "\"abrupt completion from string\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

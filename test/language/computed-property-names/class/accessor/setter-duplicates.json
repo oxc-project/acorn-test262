@@ -23,7 +23,9 @@
             "start": 357,
             "end": 358,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -56,7 +58,9 @@
               "start": 377,
               "end": 380,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -144,7 +148,9 @@
           "start": 418,
           "end": 421,
           "value": "A",
-          "raw": "'A'"
+          "raw": "'A'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -187,14 +193,18 @@
             "start": 447,
             "end": 448,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 515,
             "value": "The value of `calls` is `1`, after executing `new C().a = 'A';`",
-            "raw": "\"The value of `calls` is `1`, after executing `new C().a = 'A';`\""
+            "raw": "\"The value of `calls` is `1`, after executing `new C().a = 'A';`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +230,9 @@
           "start": 527,
           "end": 528,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -294,7 +306,9 @@
                           "start": 581,
                           "end": 637,
                           "value": "The first `b` setter definition in `C2` is unreachable",
-                          "raw": "\"The first `b` setter definition in `C2` is unreachable\""
+                          "raw": "\"The first `b` setter definition in `C2` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -314,7 +328,9 @@
               "start": 651,
               "end": 654,
               "value": "b",
-              "raw": "'b'"
+              "raw": "'b'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -402,7 +418,9 @@
           "start": 693,
           "end": 696,
           "value": "B",
-          "raw": "'B'"
+          "raw": "'B'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -445,14 +463,18 @@
             "start": 722,
             "end": 723,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 725,
             "end": 791,
             "value": "The value of `calls` is `1`, after executing `new C2().b = 'B';`",
-            "raw": "\"The value of `calls` is `1`, after executing `new C2().b = 'B';`\""
+            "raw": "\"The value of `calls` is `1`, after executing `new C2().b = 'B';`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +500,9 @@
           "start": 803,
           "end": 804,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -552,7 +576,9 @@
                           "start": 857,
                           "end": 913,
                           "value": "The first `c` setter definition in `C3` is unreachable",
-                          "raw": "\"The first `c` setter definition in `C3` is unreachable\""
+                          "raw": "\"The first `c` setter definition in `C3` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -572,7 +598,9 @@
               "start": 927,
               "end": 930,
               "value": "c",
-              "raw": "'c'"
+              "raw": "'c'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -616,7 +644,9 @@
                           "start": 964,
                           "end": 1021,
                           "value": "The second `c` setter definition in `C3` is unreachable",
-                          "raw": "\"The second `c` setter definition in `C3` is unreachable\""
+                          "raw": "\"The second `c` setter definition in `C3` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -636,7 +666,9 @@
               "start": 1035,
               "end": 1038,
               "value": "c",
-              "raw": "'c'"
+              "raw": "'c'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -724,7 +756,9 @@
           "start": 1076,
           "end": 1079,
           "value": "C",
-          "raw": "'C'"
+          "raw": "'C'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -767,14 +801,18 @@
             "start": 1105,
             "end": 1106,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1108,
             "end": 1174,
             "value": "The value of `calls` is `1`, after executing `new C3().c = 'C';`",
-            "raw": "\"The value of `calls` is `1`, after executing `new C3().c = 'C';`\""
+            "raw": "\"The value of `calls` is `1`, after executing `new C3().c = 'C';`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -800,7 +838,9 @@
           "start": 1186,
           "end": 1187,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -831,7 +871,9 @@
               "start": 1207,
               "end": 1210,
               "value": "d",
-              "raw": "'d'"
+              "raw": "'d'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -875,7 +917,9 @@
                           "start": 1244,
                           "end": 1300,
                           "value": "The first `d` setter definition in `C4` is unreachable",
-                          "raw": "\"The first `d` setter definition in `C4` is unreachable\""
+                          "raw": "\"The first `d` setter definition in `C4` is unreachable\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -982,7 +1026,9 @@
           "start": 1351,
           "end": 1354,
           "value": "D",
-          "raw": "'D'"
+          "raw": "'D'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1025,14 +1071,18 @@
             "start": 1380,
             "end": 1381,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1383,
             "end": 1449,
             "value": "The value of `calls` is `1`, after executing `new C4().d = 'D';`",
-            "raw": "\"The value of `calls` is `1`, after executing `new C4().d = 'D';`\""
+            "raw": "\"The value of `calls` is `1`, after executing `new C4().d = 'D';`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

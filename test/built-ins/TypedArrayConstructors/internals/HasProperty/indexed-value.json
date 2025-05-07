@@ -75,14 +75,18 @@
                                 "start": 837,
                                 "end": 839,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 841,
                                 "end": 843,
                                 "value": 43,
-                                "raw": "43"
+                                "raw": "43",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -155,7 +159,9 @@
                             "start": 887,
                             "end": 888,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -165,14 +171,18 @@
                         "start": 891,
                         "end": 895,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 897,
                         "end": 950,
                         "value": "Reflect.has(\"new TA([42, 43])\", 0) must return true",
-                        "raw": "'Reflect.has(\"new TA([42, 43])\", 0) must return true'"
+                        "raw": "'Reflect.has(\"new TA([42, 43])\", 0) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -241,7 +251,9 @@
                             "start": 992,
                             "end": 993,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -251,14 +263,18 @@
                         "start": 996,
                         "end": 1000,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1002,
                         "end": 1055,
                         "value": "Reflect.has(\"new TA([42, 43])\", 1) must return true",
-                        "raw": "'Reflect.has(\"new TA([42, 43])\", 1) must return true'"
+                        "raw": "'Reflect.has(\"new TA([42, 43])\", 1) must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -102,7 +102,9 @@
                           "start": 512,
                           "end": 513,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -172,7 +174,9 @@
                           "start": 572,
                           "end": 579,
                           "value": "inend",
-                          "raw": "\"inend\""
+                          "raw": "\"inend\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -223,7 +227,9 @@
                       "start": 694,
                       "end": 720,
                       "value": "ABBABABAB1BBAA",
-                      "raw": "\"ABB\\u0041BABAB\\u0031BBAA\""
+                      "raw": "\"ABB\\u0041BABAB\\u0031BBAA\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "property": {
                       "type": "Identifier",
@@ -274,7 +280,9 @@
                   "start": 768,
                   "end": 830,
                   "value": "#1: \"var x = slice(__obj,__obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = slice(__obj,__obj2)\" lead to throwing exception'"
+                  "raw": "'#1: \"var x = slice(__obj,__obj2)\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -316,7 +324,9 @@
                   "start": 859,
                   "end": 866,
                   "value": "inend",
-                  "raw": "\"inend\""
+                  "raw": "\"inend\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -348,7 +358,9 @@
                             "start": 897,
                             "end": 936,
                             "value": "#1.1: Exception === \"inend\". Actual: ",
-                            "raw": "'#1.1: Exception === \"inend\". Actual: '"
+                            "raw": "'#1.1: Exception === \"inend\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

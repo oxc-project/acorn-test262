@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
                 "start": 36,
                 "end": 41,
                 "raw": "\"___\"",
-                "value": "___"
+                "value": "___",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init",
               "method": false,
@@ -83,7 +85,9 @@ __ESTREE_TEST__:PASS:
                 "start": 43,
                 "end": 45,
                 "raw": "30",
-                "value": 30
+                "value": 30,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -96,7 +100,9 @@ __ESTREE_TEST__:PASS:
                 "start": 51,
                 "end": 61,
                 "raw": "\"___hello\"",
-                "value": "___hello"
+                "value": "___hello",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init",
               "method": false,
@@ -107,7 +113,9 @@ __ESTREE_TEST__:PASS:
                 "start": 63,
                 "end": 65,
                 "raw": "21",
-                "value": 21
+                "value": 21,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -120,7 +128,9 @@ __ESTREE_TEST__:PASS:
                 "start": 71,
                 "end": 76,
                 "raw": "\"_hi\"",
-                "value": "_hi"
+                "value": "_hi",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init",
               "method": false,
@@ -131,7 +141,9 @@ __ESTREE_TEST__:PASS:
                 "start": 78,
                 "end": 80,
                 "raw": "40",
-                "value": 40
+                "value": 40,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -162,7 +174,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 20,
         "raw": "\"./m1\"",
-        "value": "./m1"
+        "value": "./m1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

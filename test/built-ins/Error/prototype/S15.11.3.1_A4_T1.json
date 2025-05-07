@@ -47,7 +47,9 @@
                 "start": 291,
                 "end": 302,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 305,
             "end": 359,
             "value": "Error.hasOwnProperty('prototype') must return true",
-            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'"
+            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

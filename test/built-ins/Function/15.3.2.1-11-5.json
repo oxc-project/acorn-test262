@@ -23,14 +23,18 @@
             "start": 290,
             "end": 295,
             "value": "a,a",
-            "raw": "'a,a'"
+            "raw": "'a,a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 297,
             "end": 306,
             "value": "return;",
-            "raw": "'return;'"
+            "raw": "'return;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

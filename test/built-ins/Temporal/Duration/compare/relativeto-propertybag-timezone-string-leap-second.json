@@ -23,7 +23,9 @@
             "start": 273,
             "end": 305,
             "value": "2016-12-31T23:59:60+00:00[UTC]",
-            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -99,7 +101,9 @@
                 "start": 458,
                 "end": 459,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -169,7 +173,9 @@
                         "start": 509,
                         "end": 513,
                         "value": 2000,
-                        "raw": "2000"
+                        "raw": "2000",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -191,7 +197,9 @@
                         "start": 522,
                         "end": 523,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -213,7 +221,9 @@
                         "start": 530,
                         "end": 531,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -268,7 +278,9 @@
           "start": 560,
           "end": 608,
           "value": "2021-08-19T17:30:45.123456789+23:59[+23:59:60]",
-          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\""
+          "raw": "\"2021-08-19T17:30:45.123456789+23:59[+23:59:60]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -381,7 +393,9 @@
                       "start": 690,
                       "end": 691,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -451,7 +465,9 @@
                               "start": 741,
                               "end": 745,
                               "value": 2000,
-                              "raw": "2000"
+                              "raw": "2000",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -473,7 +489,9 @@
                               "start": 754,
                               "end": 755,
                               "value": 5,
-                              "raw": "5"
+                              "raw": "5",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -495,7 +513,9 @@
                               "start": 762,
                               "end": 763,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -535,7 +555,9 @@
             "start": 780,
             "end": 821,
             "value": "leap second in time zone name not valid",
-            "raw": "\"leap second in time zone name not valid\""
+            "raw": "\"leap second in time zone name not valid\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

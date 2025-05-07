@@ -50,7 +50,9 @@
         "start": 988,
         "end": 1025,
         "value": "./instn-iee-err-circular_FIXTURE.js",
-        "raw": "'./instn-iee-err-circular_FIXTURE.js'"
+        "raw": "'./instn-iee-err-circular_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

@@ -46,7 +46,9 @@
                     "start": 3496,
                     "end": 3509,
                     "value": "outer class",
-                    "raw": "'outer class'"
+                    "raw": "'outer class'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -224,7 +226,9 @@
             "start": 3630,
             "end": 3643,
             "value": "outer class",
-            "raw": "'outer class'"
+            "raw": "'outer class'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,7 +354,9 @@
             "start": 3712,
             "end": 3768,
             "value": "accessed static private field from an arbritary object",
-            "raw": "'accessed static private field from an arbritary object'"
+            "raw": "'accessed static private field from an arbritary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

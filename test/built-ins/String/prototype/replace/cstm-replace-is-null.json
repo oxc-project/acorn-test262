@@ -74,7 +74,9 @@
           "start": 743,
           "end": 747,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -129,7 +131,9 @@
                   "start": 792,
                   "end": 795,
                   "value": "3",
-                  "raw": "\"3\""
+                  "raw": "\"3\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -199,7 +203,9 @@
                       "start": 858,
                       "end": 880,
                       "value": "should not be called",
-                      "raw": "\"should not be called\""
+                      "raw": "\"should not be called\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -247,7 +253,9 @@
                     "start": 922,
                     "end": 929,
                     "value": "<foo>",
-                    "raw": "\"<foo>\""
+                    "raw": "\"<foo>\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -298,7 +306,9 @@
                 "start": 951,
                 "end": 957,
                 "value": "ab3c",
-                "raw": "\"ab3c\""
+                "raw": "\"ab3c\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -330,7 +340,9 @@
             "start": 990,
             "end": 1000,
             "value": "ab<foo>c",
-            "raw": "\"ab<foo>c\""
+            "raw": "\"ab<foo>c\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -377,7 +389,9 @@
                 "start": 1020,
                 "end": 1026,
                 "value": "ab3c",
-                "raw": "\"ab3c\""
+                "raw": "\"ab3c\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -400,7 +414,9 @@
                 "start": 1048,
                 "end": 1055,
                 "value": "<foo>",
-                "raw": "\"<foo>\""
+                "raw": "\"<foo>\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -410,7 +426,9 @@
             "start": 1058,
             "end": 1068,
             "value": "ab<foo>c",
-            "raw": "\"ab<foo>c\""
+            "raw": "\"ab<foo>c\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

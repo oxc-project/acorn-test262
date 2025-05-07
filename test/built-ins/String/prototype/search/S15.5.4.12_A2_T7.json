@@ -34,7 +34,9 @@
                 "start": 295,
                 "end": 314,
                 "value": "test string probe",
-                "raw": "\"test string probe\""
+                "raw": "\"test string probe\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
               "start": 426,
               "end": 438,
               "value": "string pro",
-              "raw": "\"string pro\""
+              "raw": "\"string pro\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -90,7 +94,9 @@
           "start": 444,
           "end": 445,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -122,7 +128,9 @@
                     "start": 474,
                     "end": 570,
                     "value": "#1: var aString = new String(\"test string probe\"); aString.search(\"string pro\")=== 5. Actual: ",
-                    "raw": "'#1: var aString = new String(\"test string probe\"); aString.search(\"string pro\")=== 5. Actual: '"
+                    "raw": "'#1: var aString = new String(\"test string probe\"); aString.search(\"string pro\")=== 5. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -154,7 +162,9 @@
                         "start": 588,
                         "end": 600,
                         "value": "string pro",
-                        "raw": "\"string pro\""
+                        "raw": "\"string pro\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

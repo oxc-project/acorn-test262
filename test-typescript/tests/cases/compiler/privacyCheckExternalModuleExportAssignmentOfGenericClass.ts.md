@@ -186,7 +186,9 @@ __ESTREE_TEST__:PASS:
           "start": 21,
           "end": 83,
           "raw": "\"./privacyCheckExternalModuleExportAssignmentOfGenericClass_0\"",
-          "value": "./privacyCheckExternalModuleExportAssignmentOfGenericClass_0"
+          "value": "./privacyCheckExternalModuleExportAssignmentOfGenericClass_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

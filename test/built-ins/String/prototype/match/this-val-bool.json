@@ -159,7 +159,9 @@
                           "start": 512,
                           "end": 517,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -176,7 +178,9 @@
             "start": 526,
             "end": 527,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -187,7 +191,9 @@
           "start": 533,
           "end": 540,
           "value": "false",
-          "raw": "\"false\""
+          "raw": "\"false\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -219,7 +225,9 @@
                     "start": 569,
                     "end": 715,
                     "value": "#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: '"
+                    "raw": "'#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -277,7 +285,9 @@
                                     "start": 759,
                                     "end": 764,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -294,7 +304,9 @@
                       "start": 773,
                       "end": 774,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

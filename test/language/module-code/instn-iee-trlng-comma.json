@@ -32,7 +32,9 @@
         "start": 497,
         "end": 533,
         "value": "./instn-iee-trlng-comma_FIXTURE.js",
-        "raw": "'./instn-iee-trlng-comma_FIXTURE.js'"
+        "raw": "'./instn-iee-trlng-comma_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -65,7 +67,9 @@
         "start": 560,
         "end": 596,
         "value": "./instn-iee-trlng-comma_FIXTURE.js",
-        "raw": "'./instn-iee-trlng-comma_FIXTURE.js'"
+        "raw": "'./instn-iee-trlng-comma_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -114,7 +118,9 @@
         "start": 620,
         "end": 648,
         "value": "./instn-iee-trlng-comma.js",
-        "raw": "'./instn-iee-trlng-comma.js'"
+        "raw": "'./instn-iee-trlng-comma.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -157,14 +163,18 @@
             "start": 671,
             "end": 674,
             "value": 333,
-            "raw": "333"
+            "raw": "333",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 676,
             "end": 706,
             "value": "comma following named export",
-            "raw": "'comma following named export'"
+            "raw": "'comma following named export'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -209,14 +219,18 @@
             "start": 729,
             "end": 732,
             "value": 333,
-            "raw": "333"
+            "raw": "333",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 734,
             "end": 767,
             "value": "comma following re-named export",
-            "raw": "'comma following re-named export'"
+            "raw": "'comma following re-named export'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

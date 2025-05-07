@@ -43,7 +43,9 @@
                       "start": 299,
                       "end": 312,
                       "value": "//CHECK#1\n",
-                      "raw": "'//CHECK#1\\n'"
+                      "raw": "'//CHECK#1\\n'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -51,7 +53,9 @@
                       "start": 314,
                       "end": 339,
                       "value": "for (var x in this) {\n",
-                      "raw": "'for (var x in this) {\\n'"
+                      "raw": "'for (var x in this) {\\n'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -60,7 +64,9 @@
                     "start": 341,
                     "end": 370,
                     "value": "  if ( x === 'Math' ) {\n",
-                    "raw": "'  if ( x === \\'Math\\' ) {\\n'"
+                    "raw": "'  if ( x === \\'Math\\' ) {\\n'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -69,7 +75,9 @@
                   "start": 372,
                   "end": 443,
                   "value": "    throw new Test262Error(\"#1: 'Math' have attribute DontEnum\");\n",
-                  "raw": "'    throw new Test262Error(\"#1: \\'Math\\' have attribute DontEnum\");\\n'"
+                  "raw": "'    throw new Test262Error(\"#1: \\'Math\\' have attribute DontEnum\");\\n'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -78,7 +86,9 @@
                 "start": 445,
                 "end": 452,
                 "value": "  }\n",
-                "raw": "'  }\\n'"
+                "raw": "'  }\\n'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -87,7 +97,9 @@
               "start": 454,
               "end": 459,
               "value": "}\n",
-              "raw": "'}\\n'"
+              "raw": "'}\\n'",
+              "regex": null,
+              "bigint": null
             }
           }
         }

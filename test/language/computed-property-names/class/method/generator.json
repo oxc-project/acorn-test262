@@ -30,7 +30,9 @@
               "start": 306,
               "end": 309,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "value": {
@@ -61,7 +63,9 @@
                         "start": 325,
                         "end": 326,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -79,7 +83,9 @@
                         "start": 338,
                         "end": 339,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -182,14 +188,18 @@
             "start": 402,
             "end": 403,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 462,
             "value": "The value of `Object.keys(C.prototype).length` is `0`",
-            "raw": "\"The value of `Object.keys(C.prototype).length` is `0`\""
+            "raw": "\"The value of `Object.keys(C.prototype).length` is `0`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,14 +289,18 @@
                 "start": 533,
                 "end": 546,
                 "value": "constructor",
-                "raw": "'constructor'"
+                "raw": "'constructor'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 548,
                 "end": 551,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

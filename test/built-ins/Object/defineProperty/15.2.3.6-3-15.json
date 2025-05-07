@@ -115,7 +115,9 @@
                         "start": 331,
                         "end": 341,
                         "value": "property",
-                        "raw": "\"property\""
+                        "raw": "\"property\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

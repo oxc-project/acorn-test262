@@ -23,7 +23,9 @@
             "start": 271,
             "end": 272,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,14 +124,18 @@
                               "start": 344,
                               "end": 345,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 347,
                               "end": 381,
                               "value": "The result of `counter++` is `0`",
-                              "raw": "\"The result of `counter++` is `0`\""
+                              "raw": "\"The result of `counter++` is `0`\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -144,7 +150,9 @@
                           "start": 395,
                           "end": 398,
                           "value": "b",
-                          "raw": "'b'"
+                          "raw": "'b'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -251,14 +259,18 @@
                               "start": 477,
                               "end": 478,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 480,
                               "end": 514,
                               "value": "The result of `counter++` is `1`",
-                              "raw": "\"The result of `counter++` is `1`\""
+                              "raw": "\"The result of `counter++` is `1`\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -273,7 +285,9 @@
                           "start": 528,
                           "end": 531,
                           "value": "d",
-                          "raw": "'d'"
+                          "raw": "'d'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -343,7 +357,9 @@
                           "start": 570,
                           "end": 573,
                           "value": "A",
-                          "raw": "'A'"
+                          "raw": "'A'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -387,7 +403,9 @@
                           "start": 598,
                           "end": 601,
                           "value": "B",
-                          "raw": "'B'"
+                          "raw": "'B'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -431,7 +449,9 @@
                           "start": 621,
                           "end": 624,
                           "value": "C",
-                          "raw": "'C'"
+                          "raw": "'C'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -475,7 +495,9 @@
                           "start": 649,
                           "end": 652,
                           "value": "D",
-                          "raw": "'D'"
+                          "raw": "'D'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -528,14 +550,18 @@
             "start": 686,
             "end": 687,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 720,
             "value": "The value of `counter` is `2`",
-            "raw": "\"The value of `counter` is `2`\""
+            "raw": "\"The value of `counter` is `2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -600,14 +626,18 @@
             "start": 752,
             "end": 755,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 757,
             "end": 819,
             "value": "`object.a()` returns `'A'`. Defined as `a() { return 'A'; }`",
-            "raw": "\"`object.a()` returns `'A'`. Defined as `a() { return 'A'; }`\""
+            "raw": "\"`object.a()` returns `'A'`. Defined as `a() { return 'A'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -672,14 +702,18 @@
             "start": 851,
             "end": 854,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 856,
             "end": 923,
             "value": "`object.b()` returns `'B'`. Defined as `[key1]() { return 'B'; }`",
-            "raw": "\"`object.b()` returns `'B'`. Defined as `[key1]() { return 'B'; }`\""
+            "raw": "\"`object.b()` returns `'B'`. Defined as `[key1]() { return 'B'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -744,14 +778,18 @@
             "start": 955,
             "end": 958,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 960,
             "end": 1022,
             "value": "`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`",
-            "raw": "\"`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`\""
+            "raw": "\"`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -816,14 +854,18 @@
             "start": 1054,
             "end": 1057,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1059,
             "end": 1126,
             "value": "`object.d()` returns `'D'`. Defined as `[key2]() { return 'D'; }`",
-            "raw": "\"`object.d()` returns `'D'`. Defined as `[key2]() { return 'D'; }`\""
+            "raw": "\"`object.d()` returns `'D'`. Defined as `[key2]() { return 'D'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -900,28 +942,36 @@
                 "start": 1191,
                 "end": 1194,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1196,
                 "end": 1199,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1201,
                 "end": 1204,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1206,
                 "end": 1209,
                 "value": "d",
-                "raw": "'d'"
+                "raw": "'d'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -69,14 +69,18 @@
             "start": 730,
             "end": 735,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 784,
             "value": "isConstructor(Number.isNaN) must return false",
-            "raw": "'isConstructor(Number.isNaN) must return false'"
+            "raw": "'isConstructor(Number.isNaN) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

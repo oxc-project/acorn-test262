@@ -23,7 +23,9 @@
             "start": 368,
             "end": 369,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -159,7 +161,9 @@
                       "start": 505,
                       "end": 506,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -376,6 +380,7 @@
             "end": 991,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           }
         ],
@@ -465,7 +470,9 @@
             "start": 1112,
             "end": 1113,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
@@ -473,6 +480,7 @@
             "end": 1117,
             "value": null,
             "raw": "1n",
+            "regex": null,
             "bigint": "1"
           }
         ],
@@ -575,7 +583,9 @@
             "start": 1189,
             "end": 1233,
             "value": "The result of `(lapse >= TIMEOUT)` is true",
-            "raw": "'The result of `(lapse >= TIMEOUT)` is true'"
+            "raw": "'The result of `(lapse >= TIMEOUT)` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -653,14 +663,18 @@
             "start": 1283,
             "end": 1294,
             "value": "timed-out",
-            "raw": "'timed-out'"
+            "raw": "'timed-out'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1298,
             "end": 1342,
             "value": "$262.agent.getReport() returns \"timed-out\"",
-            "raw": "'$262.agent.getReport() returns \"timed-out\"'"
+            "raw": "'$262.agent.getReport() returns \"timed-out\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -729,7 +743,9 @@
                 "start": 1384,
                 "end": 1385,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -739,14 +755,18 @@
             "start": 1388,
             "end": 1389,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1391,
             "end": 1426,
             "value": "Atomics.notify(i64a, 0) returns 0",
-            "raw": "'Atomics.notify(i64a, 0) returns 0'"
+            "raw": "'Atomics.notify(i64a, 0) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,14 +28,18 @@
                 "start": 313,
                 "end": 327,
                 "value": "valueOf year",
-                "raw": "\"valueOf year\""
+                "raw": "\"valueOf year\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 346,
                 "value": "valueOf month",
-                "raw": "\"valueOf month\""
+                "raw": "\"valueOf month\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -153,7 +157,9 @@
                                   "start": 413,
                                   "end": 427,
                                   "value": "valueOf year",
-                                  "raw": "\"valueOf year\""
+                                  "raw": "\"valueOf year\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -168,7 +174,9 @@
                               "start": 437,
                               "end": 438,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -243,7 +251,9 @@
                                   "start": 473,
                                   "end": 488,
                                   "value": "valueOf month",
-                                  "raw": "\"valueOf month\""
+                                  "raw": "\"valueOf month\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -258,7 +268,9 @@
                               "start": 498,
                               "end": 499,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -404,7 +416,9 @@
             "start": 614,
             "end": 635,
             "value": "order of operations",
-            "raw": "\"order of operations\""
+            "raw": "\"order of operations\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

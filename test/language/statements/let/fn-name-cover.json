@@ -32,7 +32,9 @@
                   "start": 638,
                   "end": 639,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "FunctionExpression",
@@ -141,7 +143,9 @@
               "start": 710,
               "end": 718,
               "value": "xCover",
-              "raw": "'xCover'"
+              "raw": "'xCover'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -174,7 +178,9 @@
             "start": 744,
             "end": 750,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -199,7 +205,9 @@
                   "start": 763,
                   "end": 770,
                   "value": "cover",
-                  "raw": "'cover'"
+                  "raw": "'cover'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -221,7 +229,9 @@
                   "start": 784,
                   "end": 789,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -243,7 +253,9 @@
                   "start": 805,
                   "end": 810,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -265,7 +277,9 @@
                   "start": 828,
                   "end": 832,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

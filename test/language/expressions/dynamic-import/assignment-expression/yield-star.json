@@ -45,21 +45,27 @@
                       "start": 944,
                       "end": 959,
                       "value": "Roberta Flack",
-                      "raw": "'Roberta Flack'"
+                      "raw": "'Roberta Flack'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 961,
                       "end": 977,
                       "value": "Donny Hathaway",
-                      "raw": "'Donny Hathaway'"
+                      "raw": "'Donny Hathaway'",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 979,
                       "end": 994,
                       "value": "Frank Sinatra",
-                      "raw": "'Frank Sinatra'"
+                      "raw": "'Frank Sinatra'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }

@@ -121,7 +121,9 @@
             "start": 514,
             "end": 539,
             "value": "[object Intl.Segmenter]",
-            "raw": "\"[object Intl.Segmenter]\""
+            "raw": "\"[object Intl.Segmenter]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +240,9 @@
             "start": 613,
             "end": 638,
             "value": "[object Intl.Segmenter]",
-            "raw": "\"[object Intl.Segmenter]\""
+            "raw": "\"[object Intl.Segmenter]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

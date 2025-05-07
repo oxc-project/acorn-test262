@@ -44,21 +44,27 @@
                 "start": 546,
                 "end": 556,
                 "value": "toString",
-                "raw": "\"toString\""
+                "raw": "\"toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 558,
                 "end": 567,
                 "value": "valueOf",
-                "raw": "\"valueOf\""
+                "raw": "\"valueOf\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 569,
                 "end": 582,
                 "value": "toISOString",
-                "raw": "\"toISOString\""
+                "raw": "\"toISOString\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -209,7 +215,9 @@
                                             "start": 722,
                                             "end": 755,
                                             "value": " lookup should not be performed",
-                                            "raw": "\" lookup should not be performed\""
+                                            "raw": "\" lookup should not be performed\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]

@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 20,
               "raw": "'X'",
-              "value": "X"
+              "value": "X",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 24,
         "raw": "'./x.js'",
-        "value": "./x.js"
+        "value": "./x.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

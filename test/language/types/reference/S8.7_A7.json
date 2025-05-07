@@ -80,7 +80,9 @@
           "start": 437,
           "end": 445,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -112,7 +114,9 @@
                     "start": 474,
                     "end": 534,
                     "value": "#1: var n = {}; var m = n; typeof m === \"object\". Actual: ",
-                    "raw": "'#1: var n = {}; var m = n; typeof m === \"object\". Actual: '"
+                    "raw": "'#1: var n = {}; var m = n; typeof m === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -200,7 +204,9 @@
                 "start": 677,
                 "end": 679,
                 "value": 50,
-                "raw": "50"
+                "raw": "50",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -265,7 +271,9 @@
           "start": 803,
           "end": 805,
           "value": 50,
-          "raw": "50"
+          "raw": "50",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -297,7 +305,9 @@
                     "start": 834,
                     "end": 948,
                     "value": "#2: var n = {}; var m = n; function populateAge(person){person.age = 50;} populateAge(m); n.age === 50. Actual: ",
-                    "raw": "'#2: var n = {}; var m = n; function populateAge(person){person.age = 50;} populateAge(m); n.age === 50. Actual: '"
+                    "raw": "'#2: var n = {}; var m = n; function populateAge(person){person.age = 50;} populateAge(m); n.age === 50. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

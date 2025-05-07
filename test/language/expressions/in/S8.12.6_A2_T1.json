@@ -51,7 +51,9 @@
               "start": 584,
               "end": 593,
               "value": "valueOf",
-              "raw": "\"valueOf\""
+              "raw": "\"valueOf\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -88,7 +90,9 @@
                   "start": 632,
                   "end": 670,
                   "value": "#1: var __obj={}; \"valueOf\" in __obj",
-                  "raw": "'#1: var __obj={}; \"valueOf\" in __obj'"
+                  "raw": "'#1: var __obj={}; \"valueOf\" in __obj'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

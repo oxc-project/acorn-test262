@@ -70,7 +70,9 @@
                               "start": 939,
                               "end": 956,
                               "value": "timeout coerced",
-                              "raw": "\"timeout coerced\""
+                              "raw": "\"timeout coerced\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -257,7 +259,9 @@
                           "start": 1163,
                           "end": 1164,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -354,14 +358,18 @@
                               "start": 1237,
                               "end": 1238,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1240,
                               "end": 1241,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Identifier",

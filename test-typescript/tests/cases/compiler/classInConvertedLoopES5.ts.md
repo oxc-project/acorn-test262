@@ -276,35 +276,45 @@ __ESTREE_TEST__:PASS:
             "start": 68,
             "end": 71,
             "raw": "'1'",
-            "value": "1"
+            "value": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 73,
             "end": 76,
             "raw": "'2'",
-            "value": "2"
+            "value": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 78,
             "end": 81,
             "raw": "'3'",
-            "value": "3"
+            "value": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 83,
             "end": 86,
             "raw": "'4'",
-            "value": "4"
+            "value": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 88,
             "end": 91,
             "raw": "'5'",
-            "value": "5"
+            "value": "5",
+            "regex": null,
+            "bigint": null
           }
         ]
       }

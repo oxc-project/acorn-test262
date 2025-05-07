@@ -34,7 +34,9 @@
                 "start": 430,
                 "end": 431,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -146,14 +148,18 @@
             "start": 506,
             "end": 507,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 557,
             "value": "The value of result.length is expected to be 0",
-            "raw": "'The value of result.length is expected to be 0'"
+            "raw": "'The value of result.length is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -70,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 28,
         "raw": "\"./types\"",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -154,7 +156,9 @@ __ESTREE_TEST__:PASS:
             "start": 50,
             "end": 54,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -184,7 +188,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 33,
         "raw": "\"./types\"",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -268,7 +274,9 @@ __ESTREE_TEST__:PASS:
             "start": 55,
             "end": 59,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

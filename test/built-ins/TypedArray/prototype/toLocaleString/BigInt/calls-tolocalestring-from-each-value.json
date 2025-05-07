@@ -36,14 +36,18 @@
                     "start": 1369,
                     "end": 1371,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1373,
                     "end": 1375,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -188,7 +192,9 @@
                     "start": 1483,
                     "end": 1490,
                     "value": "hacks",
-                    "raw": "\"hacks\""
+                    "raw": "\"hacks\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -250,14 +256,18 @@
                     "start": 1527,
                     "end": 1535,
                     "value": "hacks1",
-                    "raw": "\"hacks1\""
+                    "raw": "\"hacks1\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1537,
                     "end": 1545,
                     "value": "hacks2",
-                    "raw": "\"hacks2\""
+                    "raw": "\"hacks2\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -357,6 +367,7 @@
                                 "end": 1643,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -365,6 +376,7 @@
                                 "end": 1647,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               }
                             ]
@@ -463,7 +475,9 @@
                         "start": 1719,
                         "end": 1743,
                         "value": "returns expected value",
-                        "raw": "\"returns expected value\""
+                        "raw": "\"returns expected value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -528,7 +542,9 @@
                         "start": 1801,
                         "end": 1838,
                         "value": "toLocaleString called for each item",
-                        "raw": "\"toLocaleString called for each item\""
+                        "raw": "\"toLocaleString called for each item\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

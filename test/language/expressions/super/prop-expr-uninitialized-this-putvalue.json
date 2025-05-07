@@ -66,7 +66,9 @@
                           "start": 573,
                           "end": 591,
                           "value": "base constructor",
-                          "raw": "\"base constructor\""
+                          "raw": "\"base constructor\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -164,7 +166,9 @@
                         "start": 669,
                         "end": 670,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

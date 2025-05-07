@@ -59,7 +59,9 @@
                         "start": 526,
                         "end": 527,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -75,7 +77,9 @@
                         "start": 533,
                         "end": 536,
                         "value": "0",
-                        "raw": "'0'"
+                        "raw": "'0'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "ObjectExpression",

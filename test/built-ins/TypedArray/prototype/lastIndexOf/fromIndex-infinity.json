@@ -75,28 +75,36 @@
                                 "start": 970,
                                 "end": 972,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 974,
                                 "end": 976,
                                 "value": 43,
-                                "raw": "43"
+                                "raw": "43",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 978,
                                 "end": 980,
                                 "value": 43,
-                                "raw": "43"
+                                "raw": "43",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 982,
                                 "end": 984,
                                 "value": 41,
-                                "raw": "41"
+                                "raw": "41",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -163,7 +171,9 @@
                             "start": 1027,
                             "end": 1029,
                             "value": 43,
-                            "raw": "43"
+                            "raw": "43",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Identifier",
@@ -179,14 +189,18 @@
                         "start": 1042,
                         "end": 1043,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1045,
                         "end": 1072,
                         "value": "lastIndexOf(43, Infinity)",
-                        "raw": "\"lastIndexOf(43, Infinity)\""
+                        "raw": "\"lastIndexOf(43, Infinity)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -249,7 +263,9 @@
                             "start": 1113,
                             "end": 1115,
                             "value": 43,
-                            "raw": "43"
+                            "raw": "43",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "UnaryExpression",
@@ -278,7 +294,9 @@
                           "start": 1130,
                           "end": 1131,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -286,7 +304,9 @@
                         "start": 1133,
                         "end": 1161,
                         "value": "lastIndexOf(43, -Infinity)",
-                        "raw": "\"lastIndexOf(43, -Infinity)\""
+                        "raw": "\"lastIndexOf(43, -Infinity)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

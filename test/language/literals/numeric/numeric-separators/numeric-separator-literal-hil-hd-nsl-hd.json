@@ -36,14 +36,18 @@
             "start": 582,
             "end": 587,
             "value": 1,
-            "raw": "0x0_1"
+            "raw": "0x0_1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 589,
             "end": 593,
             "value": 1,
-            "raw": "0x01"
+            "raw": "0x01",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -82,14 +86,18 @@
             "start": 613,
             "end": 618,
             "value": 1,
-            "raw": "0X0_1"
+            "raw": "0X0_1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 620,
             "end": 624,
             "value": 1,
-            "raw": "0X01"
+            "raw": "0X01",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -70,7 +70,9 @@
                               "start": 550,
                               "end": 598,
                               "value": "NewTarget should be verified before byteOffset",
-                              "raw": "\"NewTarget should be verified before byteOffset\""
+                              "raw": "\"NewTarget should be verified before byteOffset\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -117,7 +119,9 @@
                 "start": 644,
                 "end": 645,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

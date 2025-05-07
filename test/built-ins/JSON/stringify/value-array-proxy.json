@@ -100,7 +100,9 @@
                                 "start": 902,
                                 "end": 910,
                                 "value": "length",
-                                "raw": "'length'"
+                                "raw": "'length'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -112,7 +114,9 @@
                                 "start": 919,
                                 "end": 920,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "alternate": null
@@ -221,14 +225,18 @@
             "start": 1004,
             "end": 1011,
             "value": "[0,1]",
-            "raw": "'[0,1]'"
+            "raw": "'[0,1]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1013,
             "end": 1033,
             "value": "proxy for an array",
-            "raw": "'proxy for an array'"
+            "raw": "'proxy for an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,14 +322,18 @@
             "start": 1089,
             "end": 1100,
             "value": "[[[0,1]]]",
-            "raw": "'[[[0,1]]]'"
+            "raw": "'[[[0,1]]]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1102,
             "end": 1131,
             "value": "proxy for an array (nested)",
-            "raw": "'proxy for an array (nested)'"
+            "raw": "'proxy for an array (nested)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,14 +463,18 @@
             "start": 1244,
             "end": 1255,
             "value": "[[[0,1]]]",
-            "raw": "'[[[0,1]]]'"
+            "raw": "'[[[0,1]]]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1300,
             "value": "proxy for a proxy for an array (nested)",
-            "raw": "'proxy for a proxy for an array (nested)'"
+            "raw": "'proxy for a proxy for an array (nested)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

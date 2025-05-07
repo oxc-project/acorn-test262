@@ -214,7 +214,9 @@ __ESTREE_TEST__:PASS:
                           "start": 220,
                           "end": 222,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -351,7 +353,9 @@ __ESTREE_TEST__:PASS:
                           "start": 335,
                           "end": 337,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -470,7 +474,9 @@ __ESTREE_TEST__:PASS:
                           "start": 432,
                           "end": 434,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -589,7 +595,9 @@ __ESTREE_TEST__:PASS:
                           "start": 518,
                           "end": 520,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -689,7 +697,9 @@ __ESTREE_TEST__:PASS:
                           "start": 662,
                           "end": 664,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -836,7 +846,9 @@ __ESTREE_TEST__:PASS:
                           "start": 784,
                           "end": 786,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

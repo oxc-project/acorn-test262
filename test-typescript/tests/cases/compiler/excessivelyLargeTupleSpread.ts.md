@@ -36,7 +36,9 @@ __ESTREE_TEST__:PASS:
               "start": 79,
               "end": 87,
               "raw": "'length'",
-              "value": "length"
+              "value": "length",
+              "regex": null,
+              "bigint": null
             }
           },
           "objectType": {
@@ -271,7 +273,9 @@ __ESTREE_TEST__:PASS:
                 "start": 155,
                 "end": 156,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -1231,7 +1235,9 @@ __ESTREE_TEST__:PASS:
                   "start": 583,
                   "end": 584,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },

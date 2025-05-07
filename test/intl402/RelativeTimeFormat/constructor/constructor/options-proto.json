@@ -67,7 +67,9 @@
                   "start": 669,
                   "end": 684,
                   "value": "localeMatcher",
-                  "raw": "\"localeMatcher\""
+                  "raw": "\"localeMatcher\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -86,7 +88,9 @@
                         "start": 692,
                         "end": 697,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -122,7 +126,9 @@
                                     "start": 741,
                                     "end": 800,
                                     "value": "Should not call getter on Object.prototype: localeMatcher",
-                                    "raw": "\"Should not call getter on Object.prototype: localeMatcher\""
+                                    "raw": "\"Should not call getter on Object.prototype: localeMatcher\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -148,7 +154,9 @@
                   "start": 818,
                   "end": 840,
                   "value": "minimumIntegerDigits",
-                  "raw": "\"minimumIntegerDigits\""
+                  "raw": "\"minimumIntegerDigits\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -167,7 +175,9 @@
                         "start": 848,
                         "end": 853,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -203,7 +213,9 @@
                                     "start": 897,
                                     "end": 963,
                                     "value": "Should not call getter on Object.prototype: minimumIntegerDigits",
-                                    "raw": "\"Should not call getter on Object.prototype: minimumIntegerDigits\""
+                                    "raw": "\"Should not call getter on Object.prototype: minimumIntegerDigits\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -229,7 +241,9 @@
                   "start": 981,
                   "end": 1004,
                   "value": "minimumFractionDigits",
-                  "raw": "\"minimumFractionDigits\""
+                  "raw": "\"minimumFractionDigits\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -248,7 +262,9 @@
                         "start": 1012,
                         "end": 1017,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -284,7 +300,9 @@
                                     "start": 1061,
                                     "end": 1128,
                                     "value": "Should not call getter on Object.prototype: minimumFractionDigits",
-                                    "raw": "\"Should not call getter on Object.prototype: minimumFractionDigits\""
+                                    "raw": "\"Should not call getter on Object.prototype: minimumFractionDigits\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -310,7 +328,9 @@
                   "start": 1146,
                   "end": 1169,
                   "value": "maximumFractionDigits",
-                  "raw": "\"maximumFractionDigits\""
+                  "raw": "\"maximumFractionDigits\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -329,7 +349,9 @@
                         "start": 1177,
                         "end": 1182,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -365,7 +387,9 @@
                                     "start": 1226,
                                     "end": 1293,
                                     "value": "Should not call getter on Object.prototype: maximumFractionDigits",
-                                    "raw": "\"Should not call getter on Object.prototype: maximumFractionDigits\""
+                                    "raw": "\"Should not call getter on Object.prototype: maximumFractionDigits\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -391,7 +415,9 @@
                   "start": 1311,
                   "end": 1337,
                   "value": "minimumSignificantDigits",
-                  "raw": "\"minimumSignificantDigits\""
+                  "raw": "\"minimumSignificantDigits\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -410,7 +436,9 @@
                         "start": 1345,
                         "end": 1350,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -446,7 +474,9 @@
                                     "start": 1394,
                                     "end": 1464,
                                     "value": "Should not call getter on Object.prototype: minimumSignificantDigits",
-                                    "raw": "\"Should not call getter on Object.prototype: minimumSignificantDigits\""
+                                    "raw": "\"Should not call getter on Object.prototype: minimumSignificantDigits\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -472,7 +502,9 @@
                   "start": 1482,
                   "end": 1508,
                   "value": "maximumSignificantDigits",
-                  "raw": "\"maximumSignificantDigits\""
+                  "raw": "\"maximumSignificantDigits\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -491,7 +523,9 @@
                         "start": 1516,
                         "end": 1521,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -527,7 +561,9 @@
                                     "start": 1565,
                                     "end": 1635,
                                     "value": "Should not call getter on Object.prototype: maximumSignificantDigits",
-                                    "raw": "\"Should not call getter on Object.prototype: maximumSignificantDigits\""
+                                    "raw": "\"Should not call getter on Object.prototype: maximumSignificantDigits\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -553,7 +589,9 @@
                   "start": 1671,
                   "end": 1678,
                   "value": "style",
-                  "raw": "\"style\""
+                  "raw": "\"style\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -572,7 +610,9 @@
                         "start": 1686,
                         "end": 1691,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -608,7 +648,9 @@
                                     "start": 1735,
                                     "end": 1786,
                                     "value": "Should not call getter on Object.prototype: style",
-                                    "raw": "\"Should not call getter on Object.prototype: style\""
+                                    "raw": "\"Should not call getter on Object.prototype: style\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -634,7 +676,9 @@
                   "start": 1804,
                   "end": 1814,
                   "value": "currency",
-                  "raw": "\"currency\""
+                  "raw": "\"currency\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -653,7 +697,9 @@
                         "start": 1822,
                         "end": 1827,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -689,7 +735,9 @@
                                     "start": 1871,
                                     "end": 1925,
                                     "value": "Should not call getter on Object.prototype: currency",
-                                    "raw": "\"Should not call getter on Object.prototype: currency\""
+                                    "raw": "\"Should not call getter on Object.prototype: currency\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -715,7 +763,9 @@
                   "start": 1943,
                   "end": 1960,
                   "value": "currencyDisplay",
-                  "raw": "\"currencyDisplay\""
+                  "raw": "\"currencyDisplay\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -734,7 +784,9 @@
                         "start": 1968,
                         "end": 1973,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -770,7 +822,9 @@
                                     "start": 2017,
                                     "end": 2078,
                                     "value": "Should not call getter on Object.prototype: currencyDisplay",
-                                    "raw": "\"Should not call getter on Object.prototype: currencyDisplay\""
+                                    "raw": "\"Should not call getter on Object.prototype: currencyDisplay\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -796,7 +850,9 @@
                   "start": 2096,
                   "end": 2109,
                   "value": "useGrouping",
-                  "raw": "\"useGrouping\""
+                  "raw": "\"useGrouping\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -815,7 +871,9 @@
                         "start": 2117,
                         "end": 2122,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -851,7 +909,9 @@
                                     "start": 2166,
                                     "end": 2223,
                                     "value": "Should not call getter on Object.prototype: useGrouping",
-                                    "raw": "\"Should not call getter on Object.prototype: useGrouping\""
+                                    "raw": "\"Should not call getter on Object.prototype: useGrouping\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -877,7 +937,9 @@
                   "start": 2258,
                   "end": 2264,
                   "value": "type",
-                  "raw": "\"type\""
+                  "raw": "\"type\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -896,7 +958,9 @@
                         "start": 2272,
                         "end": 2277,
                         "value": "get",
-                        "raw": "\"get\""
+                        "raw": "\"get\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -932,7 +996,9 @@
                                     "start": 2321,
                                     "end": 2371,
                                     "value": "Should not call getter on Object.prototype: type",
-                                    "raw": "\"Should not call getter on Object.prototype: type\""
+                                    "raw": "\"Should not call getter on Object.prototype: type\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }

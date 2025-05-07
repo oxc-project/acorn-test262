@@ -88,7 +88,9 @@
                         "start": 1205,
                         "end": 1276,
                         "value": "init = f;if (false) function _f() {} else function f() {  }after = f;",
-                        "raw": "'init = f;if (false) function _f() {} else function f() {  }after = f;'"
+                        "raw": "'init = f;if (false) function _f() {} else function f() {  }after = f;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -103,7 +105,9 @@
               "start": 1284,
               "end": 1287,
               "value": 123,
-              "raw": "123"
+              "raw": "123",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -149,14 +153,18 @@
             "start": 1315,
             "end": 1318,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1320,
             "end": 1363,
             "value": "binding is not initialized to `undefined`",
-            "raw": "'binding is not initialized to `undefined`'"
+            "raw": "'binding is not initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -208,14 +216,18 @@
             "start": 1400,
             "end": 1410,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1412,
             "end": 1451,
             "value": "value is updated following evaluation",
-            "raw": "'value is updated following evaluation'"
+            "raw": "'value is updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

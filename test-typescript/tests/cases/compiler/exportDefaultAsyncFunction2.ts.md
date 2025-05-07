@@ -209,7 +209,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 41,
         "raw": "'asyncawait'",
-        "value": "asyncawait"
+        "value": "asyncawait",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -291,7 +293,9 @@ __ESTREE_TEST__:PASS:
                       "start": 92,
                       "end": 93,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -392,7 +396,9 @@ __ESTREE_TEST__:PASS:
                 "start": 36,
                 "end": 37,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -429,7 +435,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 41,
         "raw": "'asyncawait'",
-        "value": "asyncawait"
+        "value": "asyncawait",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -539,7 +547,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 41,
         "raw": "'asyncawait'",
-        "value": "asyncawait"
+        "value": "asyncawait",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -630,7 +640,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 41,
         "raw": "'asyncawait'",
-        "value": "asyncawait"
+        "value": "asyncawait",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

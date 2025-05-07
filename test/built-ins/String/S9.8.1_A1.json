@@ -37,7 +37,9 @@
           "start": 298,
           "end": 303,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -69,7 +71,9 @@
                     "start": 332,
                     "end": 375,
                     "value": "#1: String(NaN) === Not-a-Number Actual: ",
-                    "raw": "'#1: String(NaN) === Not-a-Number Actual: '"
+                    "raw": "'#1: String(NaN) === Not-a-Number Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -152,7 +156,9 @@
           "start": 435,
           "end": 440,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -184,7 +190,9 @@
                     "start": 469,
                     "end": 519,
                     "value": "#2: String(Number.NaN) === Not-a-Number Actual: ",
-                    "raw": "'#2: String(Number.NaN) === Not-a-Number Actual: '"
+                    "raw": "'#2: String(Number.NaN) === Not-a-Number Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -268,7 +276,9 @@
                   "start": 577,
                   "end": 584,
                   "value": "asasa",
-                  "raw": "\"asasa\""
+                  "raw": "\"asasa\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -282,7 +292,9 @@
           "start": 591,
           "end": 596,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -314,7 +326,9 @@
                     "start": 625,
                     "end": 680,
                     "value": "#3: String(Number(\"asasa\")) === Not-a-Number Actual: ",
-                    "raw": "'#3: String(Number(\"asasa\")) === Not-a-Number Actual: '"
+                    "raw": "'#3: String(Number(\"asasa\")) === Not-a-Number Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -348,7 +362,9 @@
                               "start": 698,
                               "end": 705,
                               "value": "asasa",
-                              "raw": "\"asasa\""
+                              "raw": "\"asasa\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

@@ -47,14 +47,18 @@
                 "start": 400,
                 "end": 401,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 404,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -350,7 +354,9 @@
                             "start": 638,
                             "end": 644,
                             "value": "year",
-                            "raw": "\"year\""
+                            "raw": "\"year\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -506,14 +512,18 @@
                             "start": 749,
                             "end": 767,
                             "value": "get year.valueOf",
-                            "raw": "\"get year.valueOf\""
+                            "raw": "\"get year.valueOf\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 769,
                             "end": 788,
                             "value": "call year.valueOf",
-                            "raw": "\"call year.valueOf\""
+                            "raw": "\"call year.valueOf\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -522,7 +532,9 @@
                         "start": 791,
                         "end": 836,
                         "value": "it fails after fetching the primitive value",
-                        "raw": "\"it fails after fetching the primitive value\""
+                        "raw": "\"it fails after fetching the primitive value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

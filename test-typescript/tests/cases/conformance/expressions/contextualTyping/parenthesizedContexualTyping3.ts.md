@@ -752,7 +752,9 @@ __ESTREE_TEST__:PASS:
                   "start": 440,
                   "end": 442,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -868,7 +870,9 @@ __ESTREE_TEST__:PASS:
                   "start": 481,
                   "end": 483,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -984,7 +988,9 @@ __ESTREE_TEST__:PASS:
                   "start": 523,
                   "end": 525,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -1131,7 +1137,9 @@ __ESTREE_TEST__:PASS:
                   "start": 573,
                   "end": 575,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -1288,7 +1296,9 @@ __ESTREE_TEST__:PASS:
                   "start": 625,
                   "end": 627,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -1445,7 +1455,9 @@ __ESTREE_TEST__:PASS:
                   "start": 679,
                   "end": 681,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [
@@ -1602,7 +1614,9 @@ __ESTREE_TEST__:PASS:
                   "start": 737,
                   "end": 739,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "quasis": [

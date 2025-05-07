@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 26,
         "raw": "\"lib\"",
-        "value": "lib"
+        "value": "lib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -189,7 +191,9 @@ __ESTREE_TEST__:PASS:
         "start": 43,
         "end": 48,
         "raw": "\"lib\"",
-        "value": "lib"
+        "value": "lib",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

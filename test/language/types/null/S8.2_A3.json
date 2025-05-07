@@ -26,7 +26,9 @@
               "start": 545,
               "end": 549,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -36,7 +38,9 @@
           "start": 555,
           "end": 563,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -68,7 +72,9 @@
                     "start": 592,
                     "end": 632,
                     "value": "#1: typeof null === \"object\". Actual: ",
-                    "raw": "'#1: typeof null === \"object\". Actual: '"
+                    "raw": "'#1: typeof null === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -86,7 +92,9 @@
                         "start": 643,
                         "end": 647,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

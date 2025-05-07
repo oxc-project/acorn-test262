@@ -50,7 +50,9 @@
                         "start": 342,
                         "end": 344,
                         "value": 44,
-                        "raw": "44"
+                        "raw": "44",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "*",
                       "right": {
@@ -58,7 +60,9 @@
                         "start": 347,
                         "end": 349,
                         "value": 60,
-                        "raw": "60"
+                        "raw": "60",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -67,7 +71,9 @@
                       "start": 352,
                       "end": 354,
                       "value": 30,
-                      "raw": "30"
+                      "raw": "30",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -77,7 +83,9 @@
                   "start": 358,
                   "end": 361,
                   "value": 1000000000,
-                  "raw": "1e9"
+                  "raw": "1e9",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -137,7 +145,9 @@
                 "start": 429,
                 "end": 446,
                 "value": "Africa/Monrovia",
-                "raw": "\"Africa/Monrovia\""
+                "raw": "\"Africa/Monrovia\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -189,7 +199,9 @@
                 "start": 479,
                 "end": 523,
                 "value": "1970-01-01T00:00:00-00:45[Africa/Monrovia]",
-                "raw": "\"1970-01-01T00:00:00-00:45[Africa/Monrovia]\""
+                "raw": "\"1970-01-01T00:00:00-00:45[Africa/Monrovia]\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -237,14 +249,18 @@
             "start": 551,
             "end": 555,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 600,
             "value": "UTC offset rounded to minutes is accepted",
-            "raw": "\"UTC offset rounded to minutes is accepted\""
+            "raw": "\"UTC offset rounded to minutes is accepted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,7 +310,9 @@
               "start": 629,
               "end": 676,
               "value": "1970-01-01T00:00:00-00:44:30[Africa/Monrovia]",
-              "raw": "\"1970-01-01T00:00:00-00:44:30[Africa/Monrovia]\""
+              "raw": "\"1970-01-01T00:00:00-00:44:30[Africa/Monrovia]\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -340,14 +358,18 @@
             "start": 704,
             "end": 708,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 710,
             "end": 757,
             "value": "Unrounded sub-minute UTC offset also accepted",
-            "raw": "\"Unrounded sub-minute UTC offset also accepted\""
+            "raw": "\"Unrounded sub-minute UTC offset also accepted\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -425,7 +447,9 @@
                   "start": 814,
                   "end": 852,
                   "value": "1970-01-01T00:00:00-00:44:30[-00:45]",
-                  "raw": "\"1970-01-01T00:00:00-00:44:30[-00:45]\""
+                  "raw": "\"1970-01-01T00:00:00-00:44:30[-00:45]\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -436,7 +460,9 @@
             "start": 857,
             "end": 910,
             "value": "minute rounding not supported for offset time zones",
-            "raw": "\"minute rounding not supported for offset time zones\""
+            "raw": "\"minute rounding not supported for offset time zones\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -480,7 +506,9 @@
                   "start": 946,
                   "end": 954,
                   "value": "-00:45",
-                  "raw": "\"-00:45\""
+                  "raw": "\"-00:45\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -502,7 +530,9 @@
                   "start": 964,
                   "end": 968,
                   "value": 1970,
-                  "raw": "1970"
+                  "raw": "1970",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -524,7 +554,9 @@
                   "start": 979,
                   "end": 980,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -546,7 +578,9 @@
                   "start": 989,
                   "end": 990,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -568,7 +602,9 @@
                   "start": 1002,
                   "end": 1004,
                   "value": 44,
-                  "raw": "44"
+                  "raw": "44",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -590,7 +626,9 @@
                   "start": 1016,
                   "end": 1018,
                   "value": 30,
-                  "raw": "30"
+                  "raw": "30",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -612,7 +650,9 @@
                   "start": 1032,
                   "end": 1049,
                   "value": "Africa/Monrovia",
-                  "raw": "\"Africa/Monrovia\""
+                  "raw": "\"Africa/Monrovia\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -704,7 +744,9 @@
             "start": 1114,
             "end": 1167,
             "value": "no fuzzy matching is done on offset in property bag",
-            "raw": "\"no fuzzy matching is done on offset in property bag\""
+            "raw": "\"no fuzzy matching is done on offset in property bag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

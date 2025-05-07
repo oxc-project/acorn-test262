@@ -66,7 +66,9 @@
                 "start": 402,
                 "end": 408,
                 "value": "size",
-                "raw": "'size'"
+                "raw": "'size'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,14 +136,18 @@
             "start": 457,
             "end": 467,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 471,
             "end": 506,
             "value": "typeof descriptor.get is function",
-            "raw": "'typeof descriptor.get is function'"
+            "raw": "'typeof descriptor.get is function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,14 +212,18 @@
             "start": 555,
             "end": 566,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 606,
             "value": "typeof descriptor.set is undefined",
-            "raw": "'typeof descriptor.set is undefined'"
+            "raw": "'typeof descriptor.set is undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -258,7 +268,9 @@
             "start": 646,
             "end": 652,
             "value": "size",
-            "raw": "'size'"
+            "raw": "'size'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,7 +315,9 @@
             "start": 689,
             "end": 695,
             "value": "size",
-            "raw": "'size'"
+            "raw": "'size'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

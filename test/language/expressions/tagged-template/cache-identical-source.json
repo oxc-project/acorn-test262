@@ -75,7 +75,9 @@
             "start": 505,
             "end": 506,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +103,9 @@
             "start": 526,
             "end": 530,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +131,9 @@
             "start": 553,
             "end": 557,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -238,7 +244,9 @@
               "start": 632,
               "end": 636,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -265,7 +273,9 @@
           "start": 656,
           "end": 660,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -365,7 +375,9 @@
             "start": 738,
             "end": 799,
             "value": "The realm's template cache is by site, not string contents",
-            "raw": "'The realm\\'s template cache is by site, not string contents'"
+            "raw": "'The realm\\'s template cache is by site, not string contents'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -75,21 +75,27 @@
                                 "start": 1150,
                                 "end": 1152,
                                 "value": 40,
-                                "raw": "40"
+                                "raw": "40",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1154,
                                 "end": 1156,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1158,
                                 "end": 1160,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -385,7 +391,9 @@
                                   "start": 1390,
                                   "end": 1392,
                                   "value": 42,
-                                  "raw": "42"
+                                  "raw": "42",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -448,14 +456,18 @@
                         "start": 1433,
                         "end": 1434,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1436,
                         "end": 1460,
                         "value": "called with 1 argument",
-                        "raw": "\"called with 1 argument\""
+                        "raw": "\"called with 1 argument\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -504,7 +516,9 @@
                           "start": 1489,
                           "end": 1490,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -514,14 +528,18 @@
                         "start": 1493,
                         "end": 1494,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1496,
                         "end": 1515,
                         "value": "[0] is the length",
-                        "raw": "\"[0] is the length\""
+                        "raw": "\"[0] is the length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -604,7 +622,9 @@
                         "start": 1593,
                         "end": 1665,
                         "value": "`this` value in the @@species fn is an instance of the function itself",
-                        "raw": "\"`this` value in the @@species fn is an instance of the function itself\""
+                        "raw": "\"`this` value in the @@species fn is an instance of the function itself\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

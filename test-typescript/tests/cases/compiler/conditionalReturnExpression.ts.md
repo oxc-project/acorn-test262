@@ -28,14 +28,18 @@ __ESTREE_TEST__:PASS:
                 "start": 56,
                 "end": 57,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "Literal",
                 "start": 51,
                 "end": 52,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "test": {
                 "type": "Identifier",
@@ -95,7 +99,9 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 31,
             "raw": "3",
-            "value": 3
+            "value": 3,
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -155,7 +161,9 @@ __ESTREE_TEST__:PASS:
                 "start": 176,
                 "end": 177,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "CallExpression",
@@ -184,7 +192,9 @@ __ESTREE_TEST__:PASS:
                     "start": 158,
                     "end": 161,
                     "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -295,7 +305,9 @@ __ESTREE_TEST__:PASS:
                 "start": 251,
                 "end": 254,
                 "raw": "\"a\"",
-                "value": "a"
+                "value": "a",
+                "regex": null,
+                "bigint": null
               },
               "test": {
                 "type": "CallExpression",
@@ -307,7 +319,9 @@ __ESTREE_TEST__:PASS:
                     "start": 244,
                     "end": 247,
                     "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -413,7 +427,9 @@ __ESTREE_TEST__:PASS:
                   "start": 344,
                   "end": 345,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "consequent": {
                   "type": "CallExpression",
@@ -442,7 +458,9 @@ __ESTREE_TEST__:PASS:
                       "start": 326,
                       "end": 329,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -560,7 +578,9 @@ __ESTREE_TEST__:PASS:
                 "start": 431,
                 "end": 432,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "CallExpression",
@@ -589,7 +609,9 @@ __ESTREE_TEST__:PASS:
                     "start": 413,
                     "end": 416,
                     "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -698,7 +720,9 @@ __ESTREE_TEST__:PASS:
                   "start": 506,
                   "end": 507,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 },
                 "consequent": {
                   "type": "CallExpression",
@@ -727,7 +751,9 @@ __ESTREE_TEST__:PASS:
                       "start": 488,
                       "end": 491,
                       "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {

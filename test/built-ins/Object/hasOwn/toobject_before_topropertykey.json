@@ -23,7 +23,9 @@
             "start": 505,
             "end": 506,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -270,7 +272,9 @@
                         "start": 731,
                         "end": 735,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -328,14 +332,18 @@
             "start": 786,
             "end": 787,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 789,
             "end": 830,
             "value": "toString and valueOf must not be called",
-            "raw": "\"toString and valueOf must not be called\""
+            "raw": "\"toString and valueOf must not be called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +369,9 @@
             "start": 852,
             "end": 853,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -625,14 +635,18 @@
             "start": 1090,
             "end": 1091,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1093,
             "end": 1132,
             "value": "Symbol.toPrimitive must not be called",
-            "raw": "\"Symbol.toPrimitive must not be called\""
+            "raw": "\"Symbol.toPrimitive must not be called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

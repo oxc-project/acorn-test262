@@ -105,7 +105,9 @@
                                   "start": 450,
                                   "end": 451,
                                   "value": 4,
-                                  "raw": "4"
+                                  "raw": "4",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -179,7 +181,9 @@
                             "start": 497,
                             "end": 498,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -189,14 +193,18 @@
                         "start": 501,
                         "end": 502,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 504,
                         "end": 537,
                         "value": "Atomics.load(view, 0) returns 0",
-                        "raw": "'Atomics.load(view, 0) returns 0'"
+                        "raw": "'Atomics.load(view, 0) returns 0'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

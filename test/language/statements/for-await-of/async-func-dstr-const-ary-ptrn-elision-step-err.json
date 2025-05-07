@@ -23,7 +23,9 @@
             "start": 1954,
             "end": 1955,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -99,7 +101,9 @@
                         "start": 2026,
                         "end": 2027,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -273,7 +277,9 @@
                             "start": 2159,
                             "end": 2209,
                             "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "raw": "\"Expected async function to reject, but resolved.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -407,14 +413,18 @@
                             "start": 2321,
                             "end": 2322,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 2324,
                             "end": 2353,
                             "value": "iterator is properly closed",
-                            "raw": "\"iterator is properly closed\""
+                            "raw": "\"iterator is properly closed\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

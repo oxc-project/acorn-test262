@@ -55,7 +55,8 @@
               "regex": {
                 "pattern": "[--\\d]+",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -72,7 +73,9 @@
               "start": 1114,
               "end": 1130,
               "value": ".-0123456789-.",
-              "raw": "'.-0123456789-.'"
+              "raw": "'.-0123456789-.'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -122,7 +125,9 @@
               "start": 1156,
               "end": 1157,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -132,7 +137,9 @@
             "start": 1160,
             "end": 1174,
             "value": "-0123456789-",
-            "raw": "'-0123456789-'"
+            "raw": "'-0123456789-'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -170,7 +177,8 @@
               "regex": {
                 "pattern": "[--\\dz]+",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -187,7 +195,9 @@
               "start": 1202,
               "end": 1219,
               "value": ".-0123456789z-.",
-              "raw": "'.-0123456789z-.'"
+              "raw": "'.-0123456789z-.'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -237,7 +247,9 @@
               "start": 1245,
               "end": 1246,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -247,7 +259,9 @@
             "start": 1249,
             "end": 1264,
             "value": "-0123456789z-",
-            "raw": "'-0123456789z-'"
+            "raw": "'-0123456789z-'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

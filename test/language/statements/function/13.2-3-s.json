@@ -64,7 +64,9 @@
                       "start": 366,
                       "end": 368,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -158,14 +160,18 @@
             "start": 426,
             "end": 428,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 445,
             "value": "obj.arguments",
-            "raw": "'obj.arguments'"
+            "raw": "'obj.arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

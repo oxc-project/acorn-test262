@@ -23,7 +23,9 @@
             "start": 580,
             "end": 601,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "raw": "'The future is cool!'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +88,9 @@
                 "start": 639,
                 "end": 642,
                 "value": "!",
-                "raw": "'!'"
+                "raw": "'!'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -115,14 +119,18 @@
             "start": 657,
             "end": 662,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 713,
             "value": "str.startsWith(\"!\", str.length) returns false",
-            "raw": "'str.startsWith(\"!\", str.length) returns false'"
+            "raw": "'str.startsWith(\"!\", str.length) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,14 +193,18 @@
                 "start": 753,
                 "end": 756,
                 "value": "!",
-                "raw": "'!'"
+                "raw": "'!'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 761,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -202,14 +214,18 @@
             "start": 764,
             "end": 769,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 773,
             "end": 813,
             "value": "str.startsWith(\"!\", 100) returns false",
-            "raw": "'str.startsWith(\"!\", 100) returns false'"
+            "raw": "'str.startsWith(\"!\", 100) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,7 +288,9 @@
                 "start": 853,
                 "end": 856,
                 "value": "!",
-                "raw": "'!'"
+                "raw": "'!'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -288,14 +306,18 @@
             "start": 869,
             "end": 874,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 878,
             "end": 923,
             "value": "str.startsWith(\"!\", Infinity) returns false",
-            "raw": "'str.startsWith(\"!\", Infinity) returns false'"
+            "raw": "'str.startsWith(\"!\", Infinity) returns false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -345,7 +367,9 @@
                 "start": 953,
                 "end": 965,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -358,7 +382,9 @@
                   "start": 968,
                   "end": 969,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -369,7 +395,9 @@
             "start": 974,
             "end": 1043,
             "value": "position argument < 0 will search from the start of the string (-1)",
-            "raw": "'position argument < 0 will search from the start of the string (-1)'"
+            "raw": "'position argument < 0 will search from the start of the string (-1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -419,7 +447,9 @@
                 "start": 1073,
                 "end": 1085,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -442,7 +472,9 @@
             "start": 1101,
             "end": 1177,
             "value": "position argument < 0 will search from the start of the string (-Infinity)",
-            "raw": "'position argument < 0 will search from the start of the string (-Infinity)'"
+            "raw": "'position argument < 0 will search from the start of the string (-Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

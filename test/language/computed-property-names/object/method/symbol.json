@@ -163,7 +163,9 @@
                           "start": 382,
                           "end": 385,
                           "value": "A",
-                          "raw": "'A'"
+                          "raw": "'A'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -207,7 +209,9 @@
                           "start": 410,
                           "end": 413,
                           "value": "B",
-                          "raw": "'B'"
+                          "raw": "'B'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -251,7 +255,9 @@
                           "start": 433,
                           "end": 436,
                           "value": "C",
-                          "raw": "'C'"
+                          "raw": "'C'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -309,7 +315,9 @@
                           "start": 465,
                           "end": 468,
                           "value": "D",
-                          "raw": "'D'"
+                          "raw": "'D'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -382,14 +390,18 @@
             "start": 505,
             "end": 508,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 572,
             "value": "`object.a()` returns `'A'`. Defined as `a() { return 'A'; }`",
-            "raw": "\"`object.a()` returns `'A'`. Defined as `a() { return 'A'; }`\""
+            "raw": "\"`object.a()` returns `'A'`. Defined as `a() { return 'A'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -454,14 +466,18 @@
             "start": 608,
             "end": 611,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 684,
             "value": "`object[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`",
-            "raw": "\"`object[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`\""
+            "raw": "\"`object[sym1]()` returns `'B'`. Defined as `[sym1]() { return 'B'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -526,14 +542,18 @@
             "start": 716,
             "end": 719,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 721,
             "end": 783,
             "value": "`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`",
-            "raw": "\"`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`\""
+            "raw": "\"`object.c()` returns `'C'`. Defined as `c() { return 'C'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -598,14 +618,18 @@
             "start": 819,
             "end": 822,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 824,
             "end": 899,
             "value": "`object[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`",
-            "raw": "\"`object[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`\""
+            "raw": "\"`object[sym2]()` returns `'D'`. Defined as `[ID(sym2)]() { return 'D'; }`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -682,14 +706,18 @@
                 "start": 964,
                 "end": 967,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 969,
                 "end": 972,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

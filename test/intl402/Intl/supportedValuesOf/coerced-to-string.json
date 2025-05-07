@@ -47,7 +47,9 @@
                 "start": 527,
                 "end": 537,
                 "value": "calendar",
-                "raw": "\"calendar\""
+                "raw": "\"calendar\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,7 +126,9 @@
                     "start": 627,
                     "end": 637,
                     "value": "calendar",
-                    "raw": "\"calendar\""
+                    "raw": "\"calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -197,7 +201,9 @@
                           "start": 723,
                           "end": 733,
                           "value": "calendar",
-                          "raw": "\"calendar\""
+                          "raw": "\"calendar\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]

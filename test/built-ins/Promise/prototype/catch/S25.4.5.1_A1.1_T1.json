@@ -86,7 +86,9 @@
             "start": 306,
             "end": 391,
             "value": "The value of !!(Promise.prototype.catch instanceof Function) is expected to be true",
-            "raw": "'The value of !!(Promise.prototype.catch instanceof Function) is expected to be true'"
+            "raw": "'The value of !!(Promise.prototype.catch instanceof Function) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

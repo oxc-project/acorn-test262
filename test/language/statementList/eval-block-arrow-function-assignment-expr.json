@@ -34,7 +34,9 @@
                 "start": 1198,
                 "end": 1211,
                 "value": "{}() => 42;",
-                "raw": "'{}() => 42;'"
+                "raw": "'{}() => 42;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +91,9 @@
             "start": 1242,
             "end": 1244,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -93,7 +93,9 @@
                     "start": 468,
                     "end": 538,
                     "value": "#1: String.prototype.localeCompare.prototype === undefined. Actual: ",
-                    "raw": "'#1: String.prototype.localeCompare.prototype === undefined. Actual: '"
+                    "raw": "'#1: String.prototype.localeCompare.prototype === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

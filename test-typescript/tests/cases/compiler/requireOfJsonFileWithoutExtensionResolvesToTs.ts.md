@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 25,
           "raw": "'./c'",
-          "value": "./c"
+          "value": "./c",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -104,7 +106,9 @@ __ESTREE_TEST__:PASS:
           "start": 84,
           "end": 94,
           "raw": "'./c.json'",
-          "value": "./c.json"
+          "value": "./c.json",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -287,7 +291,9 @@ __ESTREE_TEST__:PASS:
               "start": 14,
               "end": 18,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -313,7 +319,9 @@ __ESTREE_TEST__:PASS:
               "start": 23,
               "end": 30,
               "raw": "\"hello\"",
-              "value": "hello"
+              "value": "hello",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

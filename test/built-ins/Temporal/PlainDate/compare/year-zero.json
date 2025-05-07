@@ -47,21 +47,27 @@
                 "start": 294,
                 "end": 298,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 301,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 303,
                 "end": 304,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -94,28 +100,36 @@
                 "start": 334,
                 "end": 349,
                 "value": "-000000-10-31",
-                "raw": "\"-000000-10-31\""
+                "raw": "\"-000000-10-31\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 374,
                 "value": "-000000-10-31T00:45",
-                "raw": "\"-000000-10-31T00:45\""
+                "raw": "\"-000000-10-31T00:45\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 405,
                 "value": "-000000-10-31T00:45+01:00",
-                "raw": "\"-000000-10-31T00:45+01:00\""
+                "raw": "\"-000000-10-31T00:45+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 409,
                 "end": 441,
                 "value": "-000000-10-31T00:45+00:00[UTC]",
-                "raw": "\"-000000-10-31T00:45+00:00[UTC]\""
+                "raw": "\"-000000-10-31T00:45+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -273,7 +287,9 @@
                         "start": 566,
                         "end": 623,
                         "value": "Minus zero is an invalid extended year (first argument)",
-                        "raw": "\"Minus zero is an invalid extended year (first argument)\""
+                        "raw": "\"Minus zero is an invalid extended year (first argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -380,7 +396,9 @@
                         "start": 715,
                         "end": 773,
                         "value": "Minus zero is an invalid extended year (second argument)",
-                        "raw": "\"Minus zero is an invalid extended year (second argument)\""
+                        "raw": "\"Minus zero is an invalid extended year (second argument)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

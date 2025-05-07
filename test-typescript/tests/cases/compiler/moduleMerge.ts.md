@@ -63,7 +63,9 @@ __ESTREE_TEST__:PASS:
                             "start": 183,
                             "end": 199,
                             "raw": "\"from private B\"",
-                            "value": "from private B"
+                            "value": "from private B",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -182,7 +184,9 @@ __ESTREE_TEST__:PASS:
                               "start": 316,
                               "end": 331,
                               "raw": "\"from export B\"",
-                              "value": "from export B"
+                              "value": "from export B",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

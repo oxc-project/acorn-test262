@@ -90,7 +90,9 @@
                         "start": 726,
                         "end": 729,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

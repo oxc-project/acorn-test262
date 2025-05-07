@@ -45,7 +45,9 @@
                 "start": 415,
                 "end": 416,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -62,7 +64,9 @@
             "start": 423,
             "end": 503,
             "value": "  \"use strict\";  switch (1) {    case 1:      function f() {  }  }",
-            "raw": "'\\\n  \"use strict\";\\\n  switch (1) {\\\n    case 1:\\\n      function f() {  }\\\n  }\\\n'"
+            "raw": "'\\\n  \"use strict\";\\\n  switch (1) {\\\n    case 1:\\\n      function f() {  }\\\n  }\\\n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

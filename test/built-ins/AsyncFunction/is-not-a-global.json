@@ -70,7 +70,9 @@
             "start": 362,
             "end": 411,
             "value": "AsyncFunction should not be present as a global",
-            "raw": "\"AsyncFunction should not be present as a global\""
+            "raw": "\"AsyncFunction should not be present as a global\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

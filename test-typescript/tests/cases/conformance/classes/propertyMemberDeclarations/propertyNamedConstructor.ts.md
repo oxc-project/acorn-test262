@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
               "start": 13,
               "end": 26,
               "raw": "\"constructor\"",
-              "value": "constructor"
+              "value": "constructor",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -41,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 29,
               "end": 30,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -86,7 +90,9 @@ __ESTREE_TEST__:PASS:
               "start": 58,
               "end": 71,
               "raw": "\"constructor\"",
-              "value": "constructor"
+              "value": "constructor",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "override": false,
@@ -98,7 +104,9 @@ __ESTREE_TEST__:PASS:
               "start": 75,
               "end": 76,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

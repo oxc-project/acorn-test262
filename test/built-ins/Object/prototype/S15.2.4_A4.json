@@ -89,7 +89,9 @@
             "start": 389,
             "end": 442,
             "value": "`new Object.prototype` throws a TypeError exception",
-            "raw": "'`new Object.prototype` throws a TypeError exception'"
+            "raw": "'`new Object.prototype` throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

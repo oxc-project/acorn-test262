@@ -90,7 +90,9 @@
                 "start": 331,
                 "end": 335,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
             "start": 372,
             "end": 434,
             "value": "The value of result is expected to equal the value of target",
-            "raw": "'The value of result is expected to equal the value of target'"
+            "raw": "'The value of result is expected to equal the value of target'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

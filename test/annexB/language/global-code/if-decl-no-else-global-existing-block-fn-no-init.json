@@ -84,7 +84,9 @@
         "start": 1193,
         "end": 1197,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "regex": null,
+        "bigint": null
       },
       "consequent": {
         "type": "FunctionDeclaration",

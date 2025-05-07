@@ -38,7 +38,9 @@
                   "start": 374,
                   "end": 375,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "/",
                 "right": {
@@ -46,7 +48,9 @@
                   "start": 378,
                   "end": 381,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -83,7 +87,9 @@
           "start": 495,
           "end": 503,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -115,7 +121,9 @@
                     "start": 532,
                     "end": 612,
                     "value": "#1: __str = String(1/\"a\"); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(1/\"a\"); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(1/\"a\"); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -159,7 +167,9 @@
           "start": 818,
           "end": 823,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -191,7 +201,9 @@
                     "start": 852,
                     "end": 915,
                     "value": "#2: __str = String(1/\"a\"); __str === \"NaN\". Actual: __str ===",
-                    "raw": "'#2: __str = String(1/\"a\"); __str === \"NaN\". Actual: __str ==='"
+                    "raw": "'#2: __str = String(1/\"a\"); __str === \"NaN\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -243,7 +255,9 @@
                 "start": 1026,
                 "end": 1029,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               "operator": "*",
               "right": {
@@ -251,7 +265,9 @@
                 "start": 1032,
                 "end": 1036,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -286,7 +302,9 @@
           "start": 1150,
           "end": 1158,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -318,7 +336,9 @@
                     "start": 1187,
                     "end": 1270,
                     "value": "#3: __str = String(\"b\"*null); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#3: __str = String(\"b\"*null); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#3: __str = String(\"b\"*null); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -362,7 +382,9 @@
           "start": 1476,
           "end": 1481,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -394,7 +416,9 @@
                     "start": 1510,
                     "end": 1576,
                     "value": "#4: __str = String(\"b\"*null); __str === \"NaN\". Actual: __str ===",
-                    "raw": "'#4: __str = String(\"b\"*null); __str === \"NaN\". Actual: __str ==='"
+                    "raw": "'#4: __str = String(\"b\"*null); __str === \"NaN\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -488,7 +512,9 @@
           "start": 1811,
           "end": 1819,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -520,7 +546,9 @@
                     "start": 1848,
                     "end": 1933,
                     "value": "#5: __str = String(Number.NaN); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#5: __str = String(Number.NaN); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#5: __str = String(Number.NaN); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -564,7 +592,9 @@
           "start": 2139,
           "end": 2144,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -596,7 +626,9 @@
                     "start": 2173,
                     "end": 2241,
                     "value": "#6: __str = String(Number.NaN); __str === \"NaN\". Actual: __str ===",
-                    "raw": "'#6: __str = String(Number.NaN); __str === \"NaN\". Actual: __str ==='"
+                    "raw": "'#6: __str = String(Number.NaN); __str === \"NaN\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

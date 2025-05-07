@@ -27,7 +27,9 @@
               "start": 244,
               "end": 246,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 252,
           "end": 254,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 283,
                   "end": 291,
                   "value": "#1: \"\"",
-                  "raw": "'#1: \"\"'"
+                  "raw": "'#1: \"\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 321,
               "end": 343,
               "value": "http:%2f%2Funipro.ru",
-              "raw": "\"http:%2f%2Funipro.ru\""
+              "raw": "\"http:%2f%2Funipro.ru\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 349,
           "end": 371,
           "value": "http:%2f%2Funipro.ru",
-          "raw": "\"http:%2f%2Funipro.ru\""
+          "raw": "\"http:%2f%2Funipro.ru\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 400,
                   "end": 426,
                   "value": "#2: http:%2f%2Funipro.ru",
-                  "raw": "'#2: http:%2f%2Funipro.ru'"
+                  "raw": "'#2: http:%2f%2Funipro.ru'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -171,7 +183,9 @@
               "start": 456,
               "end": 546,
               "value": "http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork",
-              "raw": "\"http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork\""
+              "raw": "\"http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -182,7 +196,9 @@
           "start": 552,
           "end": 642,
           "value": "http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork",
-          "raw": "\"http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork\""
+          "raw": "\"http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +226,9 @@
                   "start": 671,
                   "end": 766,
                   "value": "#3: http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork\"",
-                  "raw": "'#3: http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork\"'"
+                  "raw": "'#3: http://www.google.ru/support/jobs/bin/static.py%3Fpage%3dwhy-ru.html%26sid%3Dliveandwork\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -243,7 +261,9 @@
               "start": 798,
               "end": 848,
               "value": "http://en.wikipedia.org/wiki/UTF-8%23Description",
-              "raw": "\"http://en.wikipedia.org/wiki/UTF-8%23Description\""
+              "raw": "\"http://en.wikipedia.org/wiki/UTF-8%23Description\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -254,7 +274,9 @@
           "start": 854,
           "end": 904,
           "value": "http://en.wikipedia.org/wiki/UTF-8%23Description",
-          "raw": "\"http://en.wikipedia.org/wiki/UTF-8%23Description\""
+          "raw": "\"http://en.wikipedia.org/wiki/UTF-8%23Description\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -282,7 +304,9 @@
                   "start": 933,
                   "end": 989,
                   "value": "%234: http://en.wikipedia.org/wiki/UTF-8%23Description",
-                  "raw": "'%234: http://en.wikipedia.org/wiki/UTF-8%23Description'"
+                  "raw": "'%234: http://en.wikipedia.org/wiki/UTF-8%23Description'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

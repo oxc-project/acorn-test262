@@ -108,7 +108,9 @@
                               "start": 370,
                               "end": 372,
                               "value": "",
-                              "raw": "''"
+                              "raw": "''",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -125,7 +127,9 @@
             "start": 379,
             "end": 393,
             "value": "empty string",
-            "raw": "'empty string'"
+            "raw": "'empty string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +240,9 @@
                               "start": 486,
                               "end": 492,
                               "value": "Auto",
-                              "raw": "'Auto'"
+                              "raw": "'Auto'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -253,7 +259,9 @@
             "start": 499,
             "end": 505,
             "value": "Auto",
-            "raw": "'Auto'"
+            "raw": "'Auto'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -364,7 +372,9 @@
                               "start": 598,
                               "end": 614,
                               "value": "StripIfInteger",
-                              "raw": "'StripIfInteger'"
+                              "raw": "'StripIfInteger'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -381,7 +391,9 @@
             "start": 621,
             "end": 637,
             "value": "StripIfInteger",
-            "raw": "'StripIfInteger'"
+            "raw": "'StripIfInteger'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -492,7 +504,9 @@
                               "start": 730,
                               "end": 746,
                               "value": "stripifinteger",
-                              "raw": "'stripifinteger'"
+                              "raw": "'stripifinteger'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -509,7 +523,9 @@
             "start": 753,
             "end": 769,
             "value": "stripifinteger",
-            "raw": "'stripifinteger'"
+            "raw": "'stripifinteger'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,7 +636,9 @@
                               "start": 862,
                               "end": 869,
                               "value": " auto",
-                              "raw": "' auto'"
+                              "raw": "' auto'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -637,7 +655,9 @@
             "start": 876,
             "end": 906,
             "value": "\" auto\" (with leading space)",
-            "raw": "'\" auto\" (with leading space)'"
+            "raw": "'\" auto\" (with leading space)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -748,7 +768,9 @@
                               "start": 999,
                               "end": 1006,
                               "value": "auto ",
-                              "raw": "'auto '"
+                              "raw": "'auto '",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -765,7 +787,9 @@
             "start": 1013,
             "end": 1044,
             "value": "\"auto \" (with trailing space)",
-            "raw": "'\"auto \" (with trailing space)'"
+            "raw": "'\"auto \" (with trailing space)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

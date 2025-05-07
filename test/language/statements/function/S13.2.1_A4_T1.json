@@ -62,7 +62,9 @@
                 "start": 424,
                 "end": 425,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -152,7 +154,9 @@
           "start": 568,
           "end": 569,
           "value": 7,
-          "raw": "7"
+          "raw": "7",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -184,7 +188,9 @@
                     "start": 597,
                     "end": 641,
                     "value": "#1: __obj.foo === 7. Actual: __obj.foo ===",
-                    "raw": "'#1: __obj.foo === 7. Actual: __obj.foo ==='"
+                    "raw": "'#1: __obj.foo === 7. Actual: __obj.foo ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

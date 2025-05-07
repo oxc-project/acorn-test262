@@ -68,7 +68,9 @@
           "start": 535,
           "end": 539,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -100,7 +102,9 @@
                     "start": 573,
                     "end": 644,
                     "value": "#1: var __color__map = {}; delete __color__map.red === true. Actual: ",
-                    "raw": "'#1: var __color__map = {}; delete __color__map.red === true. Actual: '"
+                    "raw": "'#1: var __color__map = {}; delete __color__map.red === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
               "start": 878,
               "end": 885,
               "value": "green",
-              "raw": "'green'"
+              "raw": "'green'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -178,7 +184,9 @@
           "start": 891,
           "end": 895,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +218,9 @@
                     "start": 929,
                     "end": 1005,
                     "value": "#2: var __color__map = {}; delete __color__map[\"green\"] === true. Actual: ",
-                    "raw": "'#2: var __color__map = {}; delete __color__map[\"green\"] === true. Actual: '"
+                    "raw": "'#2: var __color__map = {}; delete __color__map[\"green\"] === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -234,7 +244,9 @@
                         "start": 1032,
                         "end": 1039,
                         "value": "green",
-                        "raw": "'green'"
+                        "raw": "'green'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -268,7 +280,9 @@
             "start": 1231,
             "end": 1232,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -314,7 +328,9 @@
           "start": 1268,
           "end": 1272,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -346,7 +362,9 @@
                     "start": 1306,
                     "end": 1393,
                     "value": "#3: var __color__map = {}; var blue = 1; delete __color__map[blue] === true. Actual: ",
-                    "raw": "'#3: var __color__map = {}; var blue = 1; delete __color__map[blue] === true. Actual: '"
+                    "raw": "'#3: var __color__map = {}; var blue = 1; delete __color__map[blue] === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -23,7 +23,9 @@
             "start": 357,
             "end": 361,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -140,7 +142,9 @@
                     "start": 439,
                     "end": 511,
                     "value": "#1: var x = true; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#1: var x = true; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#1: var x = true; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -206,7 +210,9 @@
                 "start": 563,
                 "end": 567,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -325,7 +331,9 @@
                     "start": 646,
                     "end": 731,
                     "value": "#2: var x = new Boolean(true); var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#2: var x = new Boolean(true); var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#2: var x = new Boolean(true); var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -380,7 +388,9 @@
             "start": 771,
             "end": 772,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -497,7 +507,9 @@
                     "start": 850,
                     "end": 919,
                     "value": "#3: var x = 1; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#3: var x = 1; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#3: var x = 1; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -563,7 +575,9 @@
                 "start": 970,
                 "end": 971,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -682,7 +696,9 @@
                     "start": 1050,
                     "end": 1131,
                     "value": "#4: var x = new Number(1); var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#4: var x = new Number(1); var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#4: var x = new Number(1); var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -737,7 +753,9 @@
             "start": 1171,
             "end": 1174,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -854,7 +872,9 @@
                     "start": 1252,
                     "end": 1323,
                     "value": "#5: var x = \"1\"; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#5: var x = \"1\"; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#5: var x = \"1\"; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -920,7 +940,9 @@
                 "start": 1374,
                 "end": 1375,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1039,7 +1061,9 @@
                     "start": 1454,
                     "end": 1535,
                     "value": "#6: var x = new String(1); var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#6: var x = new String(1); var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#6: var x = new String(1); var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1210,7 +1234,9 @@
                     "start": 1662,
                     "end": 1739,
                     "value": "#7: var x = undefined; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#7: var x = undefined; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#7: var x = undefined; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1265,7 +1291,9 @@
             "start": 1779,
             "end": 1783,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -1382,7 +1410,9 @@
                     "start": 1861,
                     "end": 1933,
                     "value": "#8: var x = null; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#8: var x = null; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#8: var x = null; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1553,7 +1583,9 @@
                     "start": 2053,
                     "end": 2123,
                     "value": "#9: var x = {}; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#9: var x = {}; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#9: var x = {}; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1613,14 +1645,18 @@
                 "start": 2165,
                 "end": 2166,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2167,
                 "end": 2168,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1739,7 +1775,9 @@
                     "start": 2247,
                     "end": 2321,
                     "value": "#10: var x = [1,2]; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#10: var x = [1,2]; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#10: var x = [1,2]; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1920,7 +1958,9 @@
                     "start": 2453,
                     "end": 2535,
                     "value": "#11: var x = function() {}; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#11: var x = function() {}; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#11: var x = function() {}; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -2090,7 +2130,9 @@
                     "start": 2658,
                     "end": 2731,
                     "value": "#12: var x = this; var object = {prop : x}; object.prop === x. Actual: ",
-                    "raw": "'#12: var x = this; var object = {prop : x}; object.prop === x. Actual: '"
+                    "raw": "'#12: var x = this; var object = {prop : x}; object.prop === x. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -70,7 +70,9 @@
                             "start": 957,
                             "end": 958,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -179,7 +181,9 @@
                             "start": 1058,
                             "end": 1059,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -195,7 +199,9 @@
                         "start": 1081,
                         "end": 1147,
                         "value": "Object.getOwnPropertyDescriptor(sample, 0) must return undefined",
-                        "raw": "'Object.getOwnPropertyDescriptor(sample, 0) must return undefined'"
+                        "raw": "'Object.getOwnPropertyDescriptor(sample, 0) must return undefined'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

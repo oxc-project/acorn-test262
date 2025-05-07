@@ -23,7 +23,9 @@
             "start": 320,
             "end": 324,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -53,7 +55,8 @@
             "regex": {
               "pattern": "t[a-b|q-s]",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -163,7 +166,9 @@
               "start": 419,
               "end": 423,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -171,7 +176,9 @@
             "start": 427,
             "end": 485,
             "value": "__re.test(true) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(true) must return __re.exec(__string) !== null'"
+            "raw": "'__re.test(true) must return __re.exec(__string) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -36,7 +36,9 @@
                     "start": 510,
                     "end": 570,
                     "value": "#1.1: new RegExp(/1?1/mig, {}) throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(/1?1/mig, {}) throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(/1?1/mig, {}) throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -63,7 +65,8 @@
                           "regex": {
                             "pattern": "1?1",
                             "flags": "gim"
-                          }
+                          },
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",
@@ -146,14 +149,18 @@
                     "start": 670,
                     "end": 674,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 680,
                     "end": 756,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

@@ -89,7 +89,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 40,
         "raw": "\"./types.d.ts\"",
-        "value": "./types.d.ts"
+        "value": "./types.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "start": 68,
         "end": 82,
         "raw": "\"./types.d.ts\"",
-        "value": "./types.d.ts"
+        "value": "./types.d.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -230,7 +234,9 @@ __ESTREE_TEST__:PASS:
                     "start": 119,
                     "end": 125,
                     "raw": "\"John\"",
-                    "value": "John"
+                    "value": "John",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -305,7 +311,9 @@ __ESTREE_TEST__:PASS:
                 "start": 164,
                 "end": 178,
                 "raw": "\"./types.d.ts\"",
-                "value": "./types.d.ts"
+                "value": "./types.d.ts",
+                "regex": null,
+                "bigint": null
               }
             },
             "options": null,

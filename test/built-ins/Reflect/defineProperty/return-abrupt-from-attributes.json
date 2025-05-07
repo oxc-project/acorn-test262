@@ -67,7 +67,9 @@
             "start": 478,
             "end": 490,
             "value": "enumerable",
-            "raw": "'enumerable'"
+            "raw": "'enumerable'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -216,7 +218,9 @@
                         "start": 623,
                         "end": 626,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

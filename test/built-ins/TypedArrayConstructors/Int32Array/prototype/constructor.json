@@ -112,7 +112,9 @@
             "start": 798,
             "end": 811,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -157,7 +159,9 @@
             "start": 851,
             "end": 864,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,7 +206,9 @@
             "start": 908,
             "end": 921,
             "value": "constructor",
-            "raw": "\"constructor\""
+            "raw": "\"constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

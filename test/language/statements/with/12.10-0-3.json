@@ -41,7 +41,9 @@
                   "start": 278,
                   "end": 296,
                   "value": "12.10-0-3 before",
-                  "raw": "\"12.10-0-3 before\""
+                  "raw": "\"12.10-0-3 before\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -167,7 +169,9 @@
           "start": 374,
           "end": 391,
           "value": "12.10-0-3 after",
-          "raw": "\"12.10-0-3 after\""
+          "raw": "\"12.10-0-3 after\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -217,14 +221,18 @@
             "start": 416,
             "end": 433,
             "value": "12.10-0-3 after",
-            "raw": "\"12.10-0-3 after\""
+            "raw": "\"12.10-0-3 after\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 440,
             "value": "f()",
-            "raw": "'f()'"
+            "raw": "'f()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

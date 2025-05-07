@@ -56,21 +56,27 @@
                 "start": 321,
                 "end": 322,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 331,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -171,14 +177,18 @@
             "start": 388,
             "end": 408,
             "value": "[object Arguments]",
-            "raw": "\"[object Arguments]\""
+            "raw": "\"[object Arguments]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 410,
             "end": 446,
             "value": "String.prototype.trim.call(argObj)",
-            "raw": "'String.prototype.trim.call(argObj)'"
+            "raw": "'String.prototype.trim.call(argObj)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

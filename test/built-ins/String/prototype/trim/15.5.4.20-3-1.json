@@ -23,7 +23,9 @@
             "start": 272,
             "end": 298,
             "value": "\n\r  ",
-            "raw": "\"\\u000A\\u000D\\u2028\\u2029\""
+            "raw": "\"\\u000A\\u000D\\u2028\\u2029\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -88,14 +90,18 @@
             "start": 345,
             "end": 347,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 349,
             "end": 376,
             "value": "lineTerminatorsStr.trim()",
-            "raw": "'lineTerminatorsStr.trim()'"
+            "raw": "'lineTerminatorsStr.trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

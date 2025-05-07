@@ -28,21 +28,27 @@
                 "start": 283,
                 "end": 284,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 286,
                 "end": 287,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 289,
                 "end": 290,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -74,7 +80,9 @@
             "start": 295,
             "end": 305,
             "value": 4294967295,
-            "raw": "4294967295"
+            "raw": "4294967295",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -84,7 +92,9 @@
           "start": 309,
           "end": 331,
           "value": "not an array element",
-          "raw": "\"not an array element\""
+          "raw": "\"not an array element\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -140,14 +150,18 @@
             "start": 361,
             "end": 362,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 364,
             "end": 407,
             "value": "The value of a.length is expected to be 3",
-            "raw": "'The value of a.length is expected to be 3'"
+            "raw": "'The value of a.length is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -84,7 +84,9 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 11,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +129,9 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 11,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -225,7 +229,9 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 11,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -268,7 +274,9 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 11,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -298,7 +306,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 26,
         "raw": "\"foo\"",
-        "value": "foo"
+        "value": "foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -328,7 +338,9 @@ __ESTREE_TEST__:PASS:
         "start": 52,
         "end": 61,
         "raw": "\"foo/sub\"",
-        "value": "foo/sub"
+        "value": "foo/sub",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -358,7 +370,9 @@ __ESTREE_TEST__:PASS:
         "start": 87,
         "end": 96,
         "raw": "\"bar/sub\"",
-        "value": "bar/sub"
+        "value": "bar/sub",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -388,7 +402,9 @@ __ESTREE_TEST__:PASS:
         "start": 124,
         "end": 136,
         "raw": "\"@scope/foo\"",
-        "value": "@scope/foo"
+        "value": "@scope/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -418,7 +434,9 @@ __ESTREE_TEST__:PASS:
         "start": 167,
         "end": 183,
         "raw": "\"@scope/foo/sub\"",
-        "value": "@scope/foo/sub"
+        "value": "@scope/foo/sub",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -448,7 +466,9 @@ __ESTREE_TEST__:PASS:
         "start": 214,
         "end": 230,
         "raw": "\"@scope/bar/sub\"",
-        "value": "@scope/bar/sub"
+        "value": "@scope/bar/sub",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

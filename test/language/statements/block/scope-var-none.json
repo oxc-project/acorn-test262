@@ -23,7 +23,9 @@
             "start": 729,
             "end": 738,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +123,9 @@
                 "start": 814,
                 "end": 822,
                 "value": "inside",
-                "raw": "'inside'"
+                "raw": "'inside'",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -220,14 +224,18 @@
             "start": 901,
             "end": 909,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 911,
             "end": 942,
             "value": "reference preceding statement",
-            "raw": "'reference preceding statement'"
+            "raw": "'reference preceding statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -279,14 +287,18 @@
             "start": 977,
             "end": 985,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 987,
             "end": 1015,
             "value": "reference within statement",
-            "raw": "'reference within statement'"
+            "raw": "'reference within statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,14 +343,18 @@
             "start": 1038,
             "end": 1046,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1048,
             "end": 1079,
             "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "raw": "'reference following statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

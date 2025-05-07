@@ -138,14 +138,18 @@
             "start": 438,
             "end": 442,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 444,
             "end": 473,
             "value": "`s.has(NaN)` returns `true`",
-            "raw": "\"`s.has(NaN)` returns `true`\""
+            "raw": "\"`s.has(NaN)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -27,7 +27,9 @@
               "start": 308,
               "end": 343,
               "value": "%3B%2F%3F%3A%40%26%3D%2B%24%2C%23",
-              "raw": "\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\""
+              "raw": "\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 349,
           "end": 362,
           "value": ";/?:@&=+$,#",
-          "raw": "\";/?:@&=+$,#\""
+          "raw": "\";/?:@&=+$,#\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 391,
                   "end": 513,
                   "value": "#1: decodeURIComponent(\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\") equal \";/?:@&=+$,#\", not \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\"",
-                  "raw": "'#1: decodeURIComponent(\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\") equal \";/?:@&=+$,#\", not \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\"'"
+                  "raw": "'#1: decodeURIComponent(\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\") equal \";/?:@&=+$,#\", not \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 552,
               "end": 587,
               "value": "%3b%2f%3f%3a%40%26%3d%2b%24%2c%23",
-              "raw": "\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\""
+              "raw": "\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 593,
           "end": 606,
           "value": ";/?:@&=+$,#",
-          "raw": "\";/?:@&=+$,#\""
+          "raw": "\";/?:@&=+$,#\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 635,
                   "end": 796,
                   "value": "#2: decodeURIComponent(\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\") equal \";/?:@&=+$,#\" or \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\", not \"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\"",
-                  "raw": "'#2: decodeURIComponent(\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\") equal \";/?:@&=+$,#\" or \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\", not \"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\"'"
+                  "raw": "'#2: decodeURIComponent(\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\") equal \";/?:@&=+$,#\" or \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\", not \"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

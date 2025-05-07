@@ -71,7 +71,9 @@
                         "start": 604,
                         "end": 649,
                         "value": "var _13_1_4_fun = function (arguments) { };",
-                        "raw": "\"var _13_1_4_fun = function (arguments) { };\""
+                        "raw": "\"var _13_1_4_fun = function (arguments) { };\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

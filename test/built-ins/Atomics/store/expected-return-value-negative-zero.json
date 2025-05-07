@@ -69,7 +69,9 @@
                       "start": 377,
                       "end": 378,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -154,7 +156,9 @@
                     "start": 429,
                     "end": 430,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "UnaryExpression",
@@ -167,7 +171,9 @@
                       "start": 433,
                       "end": 434,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -184,7 +190,9 @@
                   "start": 442,
                   "end": 443,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -195,7 +203,9 @@
             "start": 451,
             "end": 499,
             "value": "Atomics.store(i32a, 0, -0) normalizes -0 to +0",
-            "raw": "'Atomics.store(i32a, 0, -0) normalizes -0 to +0'"
+            "raw": "'Atomics.store(i32a, 0, -0) normalizes -0 to +0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +254,9 @@
               "start": 528,
               "end": 529,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -260,7 +272,9 @@
               "start": 535,
               "end": 536,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -268,7 +282,9 @@
             "start": 540,
             "end": 582,
             "value": "The value of i32a[0] is normalized to +0",
-            "raw": "'The value of i32a[0] is normalized to +0'"
+            "raw": "'The value of i32a[0] is normalized to +0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

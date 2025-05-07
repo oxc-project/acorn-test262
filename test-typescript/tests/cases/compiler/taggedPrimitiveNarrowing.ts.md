@@ -65,7 +65,9 @@ __ESTREE_TEST__:PASS:
                       "start": 31,
                       "end": 35,
                       "raw": "true",
-                      "value": true
+                      "value": true,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -110,7 +112,9 @@ __ESTREE_TEST__:PASS:
                         "start": 145,
                         "end": 176,
                         "raw": "\"This doesn't look like a hash\"",
-                        "value": "This doesn't look like a hash"
+                        "value": "This doesn't look like a hash",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -153,7 +157,9 @@ __ESTREE_TEST__:PASS:
                 "start": 109,
                 "end": 117,
                 "raw": "\"string\"",
-                "value": "string"
+                "value": "string",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -277,7 +283,9 @@ __ESTREE_TEST__:PASS:
                         "start": 355,
                         "end": 386,
                         "raw": "\"This doesn't look like a hash\"",
-                        "value": "This doesn't look like a hash"
+                        "value": "This doesn't look like a hash",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -320,7 +328,9 @@ __ESTREE_TEST__:PASS:
                 "start": 319,
                 "end": 327,
                 "raw": "\"string\"",
-                "value": "string"
+                "value": "string",
+                "regex": null,
+                "bigint": null
               }
             }
           },

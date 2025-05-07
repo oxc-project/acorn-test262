@@ -92,7 +92,9 @@
               "start": 584,
               "end": 587,
               "value": "A",
-              "raw": "'A'"
+              "raw": "'A'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -103,7 +105,9 @@
           "start": 593,
           "end": 594,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -135,7 +139,9 @@
                     "start": 623,
                     "end": 675,
                     "value": "#1: __func('A') === 1. Actual: __func('A') ===",
-                    "raw": "'#1: __func(\\'A\\') === 1. Actual: __func(\\'A\\') ==='"
+                    "raw": "'#1: __func(\\'A\\') === 1. Actual: __func(\\'A\\') ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -154,7 +160,9 @@
                         "start": 683,
                         "end": 686,
                         "value": "A",
-                        "raw": "'A'"
+                        "raw": "'A'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -191,28 +199,36 @@
               "start": 875,
               "end": 878,
               "value": "A",
-              "raw": "'A'"
+              "raw": "'A'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 880,
               "end": 883,
               "value": "B",
-              "raw": "'B'"
+              "raw": "'B'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 885,
               "end": 886,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 888,
               "end": 889,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -229,7 +245,9 @@
           "start": 902,
           "end": 903,
           "value": 5,
-          "raw": "5"
+          "raw": "5",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -261,7 +279,9 @@
                     "start": 931,
                     "end": 1023,
                     "value": "#2: __func('A', 'B', 1, 2,__func) === 5. Actual: __func('A', 'B', 1, 2,__func) ===",
-                    "raw": "'#2: __func(\\'A\\', \\'B\\', 1, 2,__func) === 5. Actual: __func(\\'A\\', \\'B\\', 1, 2,__func) ==='"
+                    "raw": "'#2: __func(\\'A\\', \\'B\\', 1, 2,__func) === 5. Actual: __func(\\'A\\', \\'B\\', 1, 2,__func) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -280,28 +300,36 @@
                         "start": 1031,
                         "end": 1034,
                         "value": "A",
-                        "raw": "'A'"
+                        "raw": "'A'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1036,
                         "end": 1039,
                         "value": "B",
-                        "raw": "'B'"
+                        "raw": "'B'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1041,
                         "end": 1042,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1044,
                         "end": 1045,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

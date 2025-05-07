@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "\"./foo\"",
-        "value": "./foo"
+        "value": "./foo",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -72,7 +74,9 @@ __ESTREE_TEST__:PASS:
                         "start": 61,
                         "end": 68,
                         "raw": "\"./foo\"",
-                        "value": "./foo"
+                        "value": "./foo",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },

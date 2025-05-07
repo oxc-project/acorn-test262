@@ -91,7 +91,9 @@
                       "start": 370,
                       "end": 375,
                       "value": "M12",
-                      "raw": "\"M12\""
+                      "raw": "\"M12\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -113,7 +115,9 @@
                       "start": 382,
                       "end": 384,
                       "value": 15,
-                      "raw": "15"
+                      "raw": "15",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -133,21 +137,27 @@
             "start": 393,
             "end": 398,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 400,
             "end": 402,
             "value": 15,
-            "raw": "15"
+            "raw": "15",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 406,
             "end": 444,
             "value": "options may be an empty plain object",
-            "raw": "\"options may be an empty plain object\""
+            "raw": "\"options may be an empty plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -241,7 +251,9 @@
                       "start": 529,
                       "end": 534,
                       "value": "M12",
-                      "raw": "\"M12\""
+                      "raw": "\"M12\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -263,7 +275,9 @@
                       "start": 541,
                       "end": 543,
                       "value": 15,
-                      "raw": "15"
+                      "raw": "15",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -293,21 +307,27 @@
             "start": 558,
             "end": 563,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 567,
             "value": 15,
-            "raw": "15"
+            "raw": "15",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 612,
             "value": "options may be an empty function object",
-            "raw": "\"options may be an empty function object\""
+            "raw": "\"options may be an empty function object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

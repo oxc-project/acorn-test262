@@ -55,7 +55,9 @@
             "start": 858,
             "end": 869,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -109,7 +111,9 @@
                               "start": 920,
                               "end": 951,
                               "value": "getter for 'prototype' called",
-                              "raw": "\"getter for 'prototype' called\""
+                              "raw": "\"getter for 'prototype' called\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -149,7 +153,9 @@
               "start": 976,
               "end": 977,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "operator": "instanceof",
             "right": {
@@ -215,7 +221,9 @@
             "start": 1035,
             "end": 1040,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

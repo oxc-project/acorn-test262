@@ -60,7 +60,9 @@
                       "start": 3911,
                       "end": 3937,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -153,7 +155,9 @@
                                 "start": 3996,
                                 "end": 4009,
                                 "value": "key: local2",
-                                "raw": "'key: local2'"
+                                "raw": "'key: local2'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -217,7 +221,9 @@
                                 "start": 4060,
                                 "end": 4078,
                                 "value": "key: toStringTag",
-                                "raw": "'key: toStringTag'"
+                                "raw": "'key: toStringTag'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -281,7 +287,9 @@
                                 "start": 4126,
                                 "end": 4141,
                                 "value": "key: iterator",
-                                "raw": "'key: iterator'"
+                                "raw": "'key: iterator'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -345,7 +353,9 @@
                                 "start": 4190,
                                 "end": 4206,
                                 "value": "key: __proto__",
-                                "raw": "'key: __proto__'"
+                                "raw": "'key: __proto__'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

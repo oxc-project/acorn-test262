@@ -41,7 +41,9 @@
                   "start": 317,
                   "end": 318,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -147,14 +149,18 @@
             "start": 379,
             "end": 380,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 382,
             "end": 402,
             "value": "return target.attr",
-            "raw": "'return target.attr'"
+            "raw": "'return target.attr'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -218,7 +224,9 @@
             "start": 440,
             "end": 459,
             "value": "return target.foo",
-            "raw": "'return target.foo'"
+            "raw": "'return target.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +275,9 @@
               "start": 481,
               "end": 487,
               "value": "attr",
-              "raw": "'attr'"
+              "raw": "'attr'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -277,14 +287,18 @@
             "start": 490,
             "end": 491,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 513,
             "value": "return target.attr",
-            "raw": "'return target.attr'"
+            "raw": "'return target.attr'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +347,9 @@
               "start": 535,
               "end": 540,
               "value": "foo",
-              "raw": "'foo'"
+              "raw": "'foo'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -349,7 +365,9 @@
             "start": 554,
             "end": 573,
             "value": "return target.foo",
-            "raw": "'return target.foo'"
+            "raw": "'return target.foo'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

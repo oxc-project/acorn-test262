@@ -92,7 +92,9 @@ __ESTREE_TEST__:PASS:
                       "start": 96,
                       "end": 97,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -218,7 +220,9 @@ __ESTREE_TEST__:PASS:
                       "start": 158,
                       "end": 159,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -384,7 +388,9 @@ __ESTREE_TEST__:PASS:
                       "start": 228,
                       "end": 229,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -897,7 +903,9 @@ __ESTREE_TEST__:PASS:
                       "start": 367,
                       "end": 368,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1288,7 +1296,9 @@ __ESTREE_TEST__:PASS:
                       "start": 526,
                       "end": 527,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",

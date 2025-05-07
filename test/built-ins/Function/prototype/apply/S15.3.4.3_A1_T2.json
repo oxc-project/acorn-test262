@@ -163,14 +163,18 @@
             "start": 624,
             "end": 634,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 698,
             "value": "The value of `typeof obj.apply` is expected to be \"function\"",
-            "raw": "'The value of `typeof obj.apply` is expected to be \"function\"'"
+            "raw": "'The value of `typeof obj.apply` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +240,9 @@
                   "start": 748,
                   "end": 834,
                   "value": "#2: If the object does not have a [[Call]] property, a TypeError exception is thrown",
-                  "raw": "'#2: If the object does not have a [[Call]] property, a TypeError exception is thrown'"
+                  "raw": "'#2: If the object does not have a [[Call]] property, a TypeError exception is thrown'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -296,7 +302,9 @@
                     "start": 884,
                     "end": 958,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

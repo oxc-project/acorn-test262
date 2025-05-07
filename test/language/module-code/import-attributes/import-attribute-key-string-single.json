@@ -31,7 +31,9 @@
         "start": 733,
         "end": 779,
         "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -57,7 +59,9 @@
         "start": 796,
         "end": 829,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -69,14 +73,18 @@
             "start": 836,
             "end": 851,
             "value": "test262x",
-            "raw": "'test262\\u0078'"
+            "raw": "'test262\\u0078'",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 852,
             "end": 854,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -91,7 +99,9 @@
         "start": 864,
         "end": 897,
         "value": "./import-attribute-2_FIXTURE.js",
-        "raw": "'./import-attribute-2_FIXTURE.js'"
+        "raw": "'./import-attribute-2_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -103,14 +113,18 @@
             "start": 904,
             "end": 919,
             "value": "test262x",
-            "raw": "'test262\\u0078'"
+            "raw": "'test262\\u0078'",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 920,
             "end": 922,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -125,7 +139,9 @@
         "start": 939,
         "end": 972,
         "value": "./import-attribute-3_FIXTURE.js",
-        "raw": "'./import-attribute-3_FIXTURE.js'"
+        "raw": "'./import-attribute-3_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -137,14 +153,18 @@
             "start": 979,
             "end": 994,
             "value": "test262x",
-            "raw": "'test262\\u0078'"
+            "raw": "'test262\\u0078'",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 995,
             "end": 997,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -188,7 +208,9 @@
             "start": 1021,
             "end": 1026,
             "value": 262.1,
-            "raw": "262.1"
+            "raw": "262.1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

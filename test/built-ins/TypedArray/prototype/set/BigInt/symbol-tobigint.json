@@ -102,7 +102,9 @@
                             "start": 1606,
                             "end": 1607,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -211,7 +213,9 @@
                         "start": 1680,
                         "end": 1711,
                         "value": "abrupt completion from Symbol",
-                        "raw": "\"abrupt completion from Symbol\""
+                        "raw": "\"abrupt completion from Symbol\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

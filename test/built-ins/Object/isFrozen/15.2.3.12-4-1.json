@@ -69,14 +69,18 @@
             "start": 273,
             "end": 278,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 280,
             "end": 301,
             "value": "Object.isFrozen({})",
-            "raw": "'Object.isFrozen({})'"
+            "raw": "'Object.isFrozen({})'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

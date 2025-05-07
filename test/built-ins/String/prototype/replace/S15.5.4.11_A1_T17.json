@@ -40,7 +40,9 @@
                 "start": 328,
                 "end": 331,
                 "value": "g",
-                "raw": "\"g\""
+                "raw": "\"g\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -79,7 +81,9 @@
                 "start": 359,
                 "end": 365,
                 "value": "asdf",
-                "raw": "\"asdf\""
+                "raw": "\"asdf\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +112,9 @@
             "start": 381,
             "end": 384,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -167,7 +173,9 @@
           "start": 515,
           "end": 526,
           "value": "1a1s1d1f1",
-          "raw": "\"1a1s1d1f1\""
+          "raw": "\"1a1s1d1f1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -199,7 +207,9 @@
                     "start": 555,
                     "end": 697,
                     "value": "#1: var x; var __re = new RegExp(x,\"g\"); __instance = String(\"asdf\"); __str = \"1\"; __instance.replace(__re, __str) === \"1a1s1d1f1\". Actual: ",
-                    "raw": "'#1: var x; var __re = new RegExp(x,\"g\"); __instance = String(\"asdf\"); __str = \"1\"; __instance.replace(__re, __str) === \"1a1s1d1f1\". Actual: '"
+                    "raw": "'#1: var x; var __re = new RegExp(x,\"g\"); __instance = String(\"asdf\"); __str = \"1\"; __instance.replace(__re, __str) === \"1a1s1d1f1\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 23,
         "raw": "\"does-not-exist\"",
-        "value": "does-not-exist"
+        "value": "does-not-exist",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -31,7 +33,9 @@ __ESTREE_TEST__:PASS:
         "start": 32,
         "end": 57,
         "raw": "\"./does-not-exist-either\"",
-        "value": "./does-not-exist-either"
+        "value": "./does-not-exist-either",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -46,7 +50,9 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 94,
         "raw": "\"./does-not-exist-either.js\"",
-        "value": "./does-not-exist-either.js"
+        "value": "./does-not-exist-either.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

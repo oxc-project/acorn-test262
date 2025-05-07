@@ -23,7 +23,9 @@
             "start": 321,
             "end": 348,
             "value": "({foo : 1, get foo(){}});",
-            "raw": "\"({foo : 1, get foo(){}});\""
+            "raw": "\"({foo : 1, get foo(){}});\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

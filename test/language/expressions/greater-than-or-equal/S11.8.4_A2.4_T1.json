@@ -23,7 +23,9 @@
             "start": 287,
             "end": 288,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -61,7 +63,9 @@
                 "start": 300,
                 "end": 301,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -79,7 +83,9 @@
           "start": 312,
           "end": 316,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -107,7 +113,9 @@
                   "start": 345,
                   "end": 383,
                   "value": "#1: var x = 1; (x = 0) >= x === true",
-                  "raw": "'#1: var x = 1; (x = 0) >= x === true'"
+                  "raw": "'#1: var x = 1; (x = 0) >= x === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -136,7 +144,9 @@
             "start": 407,
             "end": 408,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -181,7 +191,9 @@
                 "start": 425,
                 "end": 426,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -192,7 +204,9 @@
           "start": 432,
           "end": 437,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -220,7 +234,9 @@
                   "start": 466,
                   "end": 505,
                   "value": "#2: var x = 0; x >= (x = 1) === false",
-                  "raw": "'#2: var x = 0; x >= (x = 1) === false'"
+                  "raw": "'#2: var x = 0; x >= (x = 1) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

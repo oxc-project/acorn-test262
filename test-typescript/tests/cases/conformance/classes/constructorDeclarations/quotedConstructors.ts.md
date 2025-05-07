@@ -255,7 +255,9 @@ __ESTREE_TEST__:PASS:
               "start": 151,
               "end": 164,
               "raw": "'constructor'",
-              "value": "constructor"
+              "value": "constructor",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "optional": false,
@@ -498,7 +500,9 @@ __ESTREE_TEST__:PASS:
                   "start": 287,
                   "end": 300,
                   "raw": "\"constructor\"",
-                  "value": "constructor"
+                  "value": "constructor",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init",
                 "method": true,

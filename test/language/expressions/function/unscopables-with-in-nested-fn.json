@@ -23,7 +23,9 @@
             "start": 1839,
             "end": 1840,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1850,
             "end": 1851,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -119,7 +123,9 @@
                 "start": 1893,
                 "end": 1897,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -170,7 +176,9 @@
                 "start": 1933,
                 "end": 1934,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -348,14 +356,18 @@
                                             "start": 2107,
                                             "end": 2108,
                                             "value": 1,
-                                            "raw": "1"
+                                            "raw": "1",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 2110,
                                             "end": 2133,
                                             "value": "The value of `v` is 1",
-                                            "raw": "'The value of `v` is 1'"
+                                            "raw": "'The value of `v` is 1'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -513,14 +525,18 @@
                                             "start": 2259,
                                             "end": 2261,
                                             "value": 10,
-                                            "raw": "10"
+                                            "raw": "10",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 2263,
                                             "end": 2287,
                                             "value": "The value of `v` is 10",
-                                            "raw": "'The value of `v` is 10'"
+                                            "raw": "'The value of `v` is 10'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -546,7 +562,9 @@
                                           "start": 2300,
                                           "end": 2302,
                                           "value": 20,
-                                          "raw": "20"
+                                          "raw": "20",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     }
@@ -592,14 +610,18 @@
                                       "start": 2334,
                                       "end": 2336,
                                       "value": 20,
-                                      "raw": "20"
+                                      "raw": "20",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2338,
                                       "end": 2362,
                                       "value": "The value of `v` is 20",
-                                      "raw": "'The value of `v` is 20'"
+                                      "raw": "'The value of `v` is 20'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -657,14 +679,18 @@
                                       "start": 2400,
                                       "end": 2401,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2403,
                                       "end": 2435,
                                       "value": "The value of globalThis.v is 1",
-                                      "raw": "'The value of globalThis.v is 1'"
+                                      "raw": "'The value of globalThis.v is 1'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false
@@ -717,14 +743,18 @@
                           "start": 2468,
                           "end": 2469,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 2471,
                           "end": 2494,
                           "value": "The value of `v` is 1",
-                          "raw": "'The value of `v` is 1'"
+                          "raw": "'The value of `v` is 1'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -782,14 +812,18 @@
                           "start": 2530,
                           "end": 2531,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 2533,
                           "end": 2565,
                           "value": "The value of globalThis.v is 1",
-                          "raw": "'The value of globalThis.v is 1'"
+                          "raw": "'The value of globalThis.v is 1'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -826,7 +860,9 @@
                           "start": 2594,
                           "end": 2595,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -856,7 +892,9 @@
                 "start": 2605,
                 "end": 2607,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -901,14 +939,18 @@
                 "start": 2639,
                 "end": 2640,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2642,
                 "end": 2673,
                 "value": "function invoked exactly once",
-                "raw": "'function invoked exactly once'"
+                "raw": "'function invoked exactly once'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -973,14 +1015,18 @@
             "start": 2714,
             "end": 2715,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2717,
             "end": 2744,
             "value": "The value of `count` is 6",
-            "raw": "'The value of `count` is 6'"
+            "raw": "'The value of `count` is 6'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

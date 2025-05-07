@@ -62,7 +62,9 @@
                   "start": 1149,
                   "end": 1165,
                   "value": "poison handled",
-                  "raw": "'poison handled'"
+                  "raw": "'poison handled'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -98,7 +100,9 @@
               "start": 1205,
               "end": 1217,
               "value": "poison!!!!",
-              "raw": "'poison!!!!'"
+              "raw": "'poison!!!!'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -232,7 +236,9 @@
             "start": 1324,
             "end": 1364,
             "value": "undefined ?? poison() ?? morePoison();",
-            "raw": "'undefined ?? poison() ?? morePoison();'"
+            "raw": "'undefined ?? poison() ?? morePoison();'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -326,7 +332,9 @@
                         "start": 1428,
                         "end": 1432,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "??",
                       "right": {
@@ -367,7 +375,9 @@
             "start": 1465,
             "end": 1500,
             "value": "null ?? poison() ?? morePoison();",
-            "raw": "'null ?? poison() ?? morePoison();'"
+            "raw": "'null ?? poison() ?? morePoison();'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -466,7 +476,9 @@
             "start": 1578,
             "end": 1605,
             "value": "poison() ?? morePoison();",
-            "raw": "'poison() ?? morePoison();'"
+            "raw": "'poison() ?? morePoison();'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

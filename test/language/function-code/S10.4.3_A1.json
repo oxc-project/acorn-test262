@@ -112,7 +112,9 @@
                     "start": 387,
                     "end": 411,
                     "value": "#1: \"this\" leaked as: ",
-                    "raw": "'#1: \"this\" leaked as: '"
+                    "raw": "'#1: \"this\" leaked as: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

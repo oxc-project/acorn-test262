@@ -23,7 +23,9 @@
             "start": 356,
             "end": 364,
             "value": "+01:35",
-            "raw": "\"+01:35\""
+            "raw": "\"+01:35\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 412,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -108,7 +111,9 @@
             "start": 435,
             "end": 483,
             "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35]",
-            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\""
+            "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -205,42 +210,54 @@
             "start": 561,
             "end": 562,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 564,
             "end": 565,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 567,
             "end": 568,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 571,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 574,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 576,
             "end": 577,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "UnaryExpression",
@@ -253,7 +270,9 @@
               "start": 580,
               "end": 582,
               "value": 30,
-              "raw": "30"
+              "raw": "30",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -261,28 +280,36 @@
             "start": 584,
             "end": 585,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 587,
             "end": 588,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 591,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 593,
             "end": 640,
             "value": "ISO offset, sub-minute offset trailing-zeroes",
-            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\""
+            "raw": "\"ISO offset, sub-minute offset trailing-zeroes\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -308,7 +335,9 @@
           "start": 650,
           "end": 711,
           "value": "1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]",
-          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\""
+          "raw": "\"1970-01-01T01:35:30+01:35:00.000000000[+01:35:00.000000000]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -394,7 +423,9 @@
             "start": 773,
             "end": 839,
             "value": "Trailing zeroes not allowed for sub-minute time zone identifiers",
-            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\""
+            "raw": "\"Trailing zeroes not allowed for sub-minute time zone identifiers\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

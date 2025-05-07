@@ -105,7 +105,9 @@
               "start": 668,
               "end": 669,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -157,7 +159,9 @@
             "start": 703,
             "end": 717,
             "value": "return value",
-            "raw": "'return value'"
+            "raw": "'return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -228,7 +232,9 @@
             "start": 758,
             "end": 787,
             "value": "[[DateValue]] internal slot",
-            "raw": "'[[DateValue]] internal slot'"
+            "raw": "'[[DateValue]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

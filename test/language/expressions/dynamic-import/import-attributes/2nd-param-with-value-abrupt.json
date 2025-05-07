@@ -63,7 +63,9 @@
                   "start": 1026,
                   "end": 1050,
                   "value": "./2nd-param_FIXTURE.js",
-                  "raw": "'./2nd-param_FIXTURE.js'"
+                  "raw": "'./2nd-param_FIXTURE.js'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "options": {
                   "type": "ObjectExpression",
@@ -100,7 +102,9 @@
                               "start": 1063,
                               "end": 1065,
                               "value": "",
-                              "raw": "''"
+                              "raw": "''",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "FunctionExpression",
@@ -183,7 +187,9 @@
                             "start": 1137,
                             "end": 1192,
                             "value": "Expected promise to be rejected, but it was fulfilled",
-                            "raw": "'Expected promise to be rejected, but it was fulfilled'"
+                            "raw": "'Expected promise to be rejected, but it was fulfilled'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

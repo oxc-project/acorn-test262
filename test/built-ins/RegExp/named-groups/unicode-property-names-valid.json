@@ -23,7 +23,9 @@
             "start": 1059,
             "end": 1112,
             "value": "The quick brown fox jumped over the lazy dog's back",
-            "raw": "\"The quick brown fox jumped over the lazy dog's back\""
+            "raw": "\"The quick brown fox jumped over the lazy dog's back\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1128,
             "end": 1156,
             "value": "It is a dog eat dog world.",
-            "raw": "\"It is a dog eat dog world.\""
+            "raw": "\"It is a dog eat dog world.\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 1171,
             "end": 1175,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -150,7 +156,8 @@
                     "regex": {
                       "pattern": "(?<animal>fox|dog)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -178,7 +185,9 @@
             "start": 1246,
             "end": 1251,
             "value": "fox",
-            "raw": "\"fox\""
+            "raw": "\"fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -253,7 +262,8 @@
                     "regex": {
                       "pattern": "(?<the2>the)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -281,7 +291,9 @@
             "start": 1314,
             "end": 1319,
             "value": "the",
-            "raw": "\"the\""
+            "raw": "\"the\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,7 +347,8 @@
               "regex": {
                 "pattern": "(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)",
                 "flags": "u"
-              }
+              },
+              "bigint": null
             }
           ],
           "optional": false
@@ -407,7 +420,9 @@
             "start": 1418,
             "end": 1423,
             "value": "fox",
-            "raw": "\"fox\""
+            "raw": "\"fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +493,9 @@
             "start": 1464,
             "end": 1469,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -527,7 +544,9 @@
               "start": 1495,
               "end": 1496,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -537,7 +556,9 @@
             "start": 1499,
             "end": 1504,
             "value": "fox",
-            "raw": "\"fox\""
+            "raw": "\"fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -586,7 +607,9 @@
               "start": 1530,
               "end": 1531,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -596,7 +619,9 @@
             "start": 1534,
             "end": 1539,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -650,7 +675,8 @@
               "regex": {
                 "pattern": "(?<狸>fox).*(?<狗>dog)",
                 "flags": "u"
-              }
+              },
+              "bigint": null
             }
           ],
           "optional": false
@@ -722,7 +748,9 @@
             "start": 1623,
             "end": 1628,
             "value": "fox",
-            "raw": "\"fox\""
+            "raw": "\"fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -793,7 +821,9 @@
             "start": 1664,
             "end": 1669,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -842,7 +872,9 @@
               "start": 1695,
               "end": 1696,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -852,7 +884,9 @@
             "start": 1699,
             "end": 1704,
             "value": "fox",
-            "raw": "\"fox\""
+            "raw": "\"fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -901,7 +935,9 @@
               "start": 1730,
               "end": 1731,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -911,7 +947,9 @@
             "start": 1734,
             "end": 1739,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -986,7 +1024,8 @@
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1014,7 +1053,9 @@
             "start": 1817,
             "end": 1824,
             "value": "brown",
-            "raw": "\"brown\""
+            "raw": "\"brown\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1089,7 +1130,8 @@
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1117,7 +1159,9 @@
             "start": 1936,
             "end": 1943,
             "value": "brown",
-            "raw": "\"brown\""
+            "raw": "\"brown\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1192,7 +1236,8 @@
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1220,7 +1265,9 @@
             "start": 2055,
             "end": 2062,
             "value": "brown",
-            "raw": "\"brown\""
+            "raw": "\"brown\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1295,7 +1342,8 @@
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1323,7 +1371,9 @@
             "start": 2209,
             "end": 2216,
             "value": "brown",
-            "raw": "\"brown\""
+            "raw": "\"brown\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1398,7 +1448,8 @@
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1426,7 +1477,9 @@
             "start": 2343,
             "end": 2350,
             "value": "brown",
-            "raw": "\"brown\""
+            "raw": "\"brown\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1501,7 +1554,8 @@
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1529,7 +1583,9 @@
             "start": 2512,
             "end": 2519,
             "value": "brown",
-            "raw": "\"brown\""
+            "raw": "\"brown\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1604,7 +1660,8 @@
                     "regex": {
                       "pattern": "(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1632,7 +1689,9 @@
             "start": 2598,
             "end": 2615,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1707,7 +1766,8 @@
                     "regex": {
                       "pattern": "(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1735,7 +1795,9 @@
             "start": 2700,
             "end": 2717,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1810,7 +1872,8 @@
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1838,7 +1901,9 @@
             "start": 2802,
             "end": 2819,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1913,7 +1978,8 @@
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1941,7 +2007,9 @@
             "start": 2911,
             "end": 2928,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2016,7 +2084,8 @@
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2044,7 +2113,9 @@
             "start": 3013,
             "end": 3030,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2119,7 +2190,8 @@
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2147,7 +2219,9 @@
             "start": 3122,
             "end": 3139,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2222,7 +2296,8 @@
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2250,7 +2325,9 @@
             "start": 3231,
             "end": 3248,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2325,7 +2402,8 @@
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2353,7 +2431,9 @@
             "start": 3347,
             "end": 3364,
             "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "raw": "\"quick brown fox\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2428,7 +2508,8 @@
                     "regex": {
                       "pattern": "(?<the𝟚>the)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2456,7 +2537,9 @@
             "start": 3430,
             "end": 3435,
             "value": "the",
-            "raw": "\"the\""
+            "raw": "\"the\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2531,7 +2614,8 @@
                     "regex": {
                       "pattern": "(?<the\\u{1d7da}>the)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2559,7 +2643,9 @@
             "start": 3507,
             "end": 3512,
             "value": "the",
-            "raw": "\"the\""
+            "raw": "\"the\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2634,7 +2720,8 @@
                     "regex": {
                       "pattern": "(?<the\\ud835\\udfda>the)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -2662,7 +2749,9 @@
             "start": 3587,
             "end": 3592,
             "value": "the",
-            "raw": "\"the\""
+            "raw": "\"the\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2716,7 +2805,8 @@
               "regex": {
                 "pattern": "(?<dog>dog)(.*?)(\\k<dog>)",
                 "flags": "u"
-              }
+              },
+              "bigint": null
             }
           ],
           "optional": false
@@ -2788,7 +2878,9 @@
             "start": 3684,
             "end": 3689,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2837,7 +2929,9 @@
               "start": 3715,
               "end": 3716,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -2847,7 +2941,9 @@
             "start": 3719,
             "end": 3724,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2896,7 +2992,9 @@
               "start": 3750,
               "end": 3751,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -2906,7 +3004,9 @@
             "start": 3754,
             "end": 3761,
             "value": " eat ",
-            "raw": "\" eat \""
+            "raw": "\" eat \"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2955,7 +3055,9 @@
               "start": 3787,
               "end": 3788,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -2965,7 +3067,9 @@
             "start": 3791,
             "end": 3796,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3019,7 +3123,8 @@
               "regex": {
                 "pattern": "(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)",
                 "flags": "u"
-              }
+              },
+              "bigint": null
             }
           ],
           "optional": false
@@ -3091,7 +3196,9 @@
             "start": 3897,
             "end": 3902,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3140,7 +3247,9 @@
               "start": 3928,
               "end": 3929,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3150,7 +3259,9 @@
             "start": 3932,
             "end": 3937,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3199,7 +3310,9 @@
               "start": 3963,
               "end": 3964,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3209,7 +3322,9 @@
             "start": 3967,
             "end": 3974,
             "value": " eat ",
-            "raw": "\" eat \""
+            "raw": "\" eat \"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3258,7 +3373,9 @@
               "start": 4000,
               "end": 4001,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3268,7 +3385,9 @@
             "start": 4004,
             "end": 4009,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3322,7 +3441,8 @@
               "regex": {
                 "pattern": "(?<狗>dog)(.*?)(\\k<狗>)",
                 "flags": "u"
-              }
+              },
+              "bigint": null
             }
           ],
           "optional": false
@@ -3394,7 +3514,9 @@
             "start": 4095,
             "end": 4100,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3443,7 +3565,9 @@
               "start": 4126,
               "end": 4127,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3453,7 +3577,9 @@
             "start": 4130,
             "end": 4135,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3502,7 +3628,9 @@
               "start": 4161,
               "end": 4162,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3512,7 +3640,9 @@
             "start": 4165,
             "end": 4172,
             "value": " eat ",
-            "raw": "\" eat \""
+            "raw": "\" eat \"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3561,7 +3691,9 @@
               "start": 4198,
               "end": 4199,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3571,7 +3703,9 @@
             "start": 4202,
             "end": 4207,
             "value": "dog",
-            "raw": "\"dog\""
+            "raw": "\"dog\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -73,7 +73,9 @@
                 "start": 356,
                 "end": 365,
                 "value": "setDate",
-                "raw": "\"setDate\""
+                "raw": "\"setDate\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 370,
             "end": 374,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 437,
             "value": "Date.prototype.hasOwnProperty(\"setDate\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setDate\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"setDate\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

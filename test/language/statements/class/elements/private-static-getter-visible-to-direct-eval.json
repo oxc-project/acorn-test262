@@ -55,7 +55,9 @@
                       "start": 1794,
                       "end": 1803,
                       "value": "Test262",
-                      "raw": "'Test262'"
+                      "raw": "'Test262'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -109,7 +111,9 @@
                           "start": 1851,
                           "end": 1860,
                           "value": "this.#m",
-                          "raw": "'this.#m'"
+                          "raw": "'this.#m'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -185,7 +189,9 @@
                           "start": 1927,
                           "end": 1953,
                           "value": "should never be executed",
-                          "raw": "'should never be executed'"
+                          "raw": "'should never be executed'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -256,7 +262,9 @@
             "start": 1997,
             "end": 2006,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +377,9 @@
             "start": 2076,
             "end": 2119,
             "value": "invalid access to a static private getter",
-            "raw": "'invalid access to a static private getter'"
+            "raw": "'invalid access to a static private getter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

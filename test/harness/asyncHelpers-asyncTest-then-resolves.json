@@ -23,7 +23,9 @@
             "start": 319,
             "end": 320,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -166,7 +168,9 @@
                       "start": 451,
                       "end": 502,
                       "value": "asyncTest should discard promise's resolved value",
-                      "raw": "\"asyncTest should discard promise's resolved value\""
+                      "raw": "\"asyncTest should discard promise's resolved value\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -313,7 +317,9 @@
                                                             "start": 586,
                                                             "end": 590,
                                                             "value": null,
-                                                            "raw": "null"
+                                                            "raw": "null",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "optional": false
@@ -396,14 +402,18 @@
                                             "start": 652,
                                             "end": 653,
                                             "value": 1,
-                                            "raw": "1"
+                                            "raw": "1",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 655,
                                             "end": 694,
                                             "value": "asyncTest called $DONE with undefined",
-                                            "raw": "\"asyncTest called $DONE with undefined\""
+                                            "raw": "\"asyncTest called $DONE with undefined\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -552,14 +562,18 @@
                                         "start": 820,
                                         "end": 821,
                                         "value": 2,
-                                        "raw": "2"
+                                        "raw": "2",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 823,
                                         "end": 862,
                                         "value": "asyncTest called $DONE with undefined",
-                                        "raw": "\"asyncTest called $DONE with undefined\""
+                                        "raw": "\"asyncTest called $DONE with undefined\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -627,7 +641,9 @@
                                                     "start": 922,
                                                     "end": 926,
                                                     "value": "hi",
-                                                    "raw": "\"hi\""
+                                                    "raw": "\"hi\"",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 ],
                                                 "optional": false
@@ -709,14 +725,18 @@
                                     "start": 990,
                                     "end": 991,
                                     "value": 3,
-                                    "raw": "3"
+                                    "raw": "3",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 993,
                                     "end": 1032,
                                     "value": "asyncTest called $DONE with undefined",
-                                    "raw": "\"asyncTest called $DONE with undefined\""
+                                    "raw": "\"asyncTest called $DONE with undefined\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -784,7 +804,9 @@
                                                 "start": 1092,
                                                 "end": 1094,
                                                 "value": 10,
-                                                "raw": "10"
+                                                "raw": "10",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "optional": false
@@ -866,14 +888,18 @@
                                 "start": 1158,
                                 "end": 1159,
                                 "value": 4,
-                                "raw": "4"
+                                "raw": "4",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1161,
                                 "end": 1200,
                                 "value": "asyncTest called $DONE with undefined",
-                                "raw": "\"asyncTest called $DONE with undefined\""
+                                "raw": "\"asyncTest called $DONE with undefined\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -977,7 +1003,9 @@
                                                           "start": 1285,
                                                           "end": 1289,
                                                           "value": true,
-                                                          "raw": "true"
+                                                          "raw": "true",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "optional": false
@@ -1067,14 +1095,18 @@
                             "start": 1373,
                             "end": 1374,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1376,
                             "end": 1415,
                             "value": "asyncTest called $DONE with undefined",
-                            "raw": "\"asyncTest called $DONE with undefined\""
+                            "raw": "\"asyncTest called $DONE with undefined\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

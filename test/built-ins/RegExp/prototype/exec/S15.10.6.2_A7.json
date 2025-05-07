@@ -118,7 +118,9 @@
                     "start": 401,
                     "end": 468,
                     "value": "#1.1: __FACTORY = RegExp.prototype.exec throw TypeError. Actual: ",
-                    "raw": "'#1.1: __FACTORY = RegExp.prototype.exec throw TypeError. Actual: '"
+                    "raw": "'#1.1: __FACTORY = RegExp.prototype.exec throw TypeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -204,14 +206,18 @@
                     "start": 552,
                     "end": 556,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 562,
                     "end": 636,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

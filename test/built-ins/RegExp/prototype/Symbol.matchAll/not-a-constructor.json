@@ -95,14 +95,18 @@
             "start": 816,
             "end": 821,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 825,
             "end": 893,
             "value": "isConstructor(RegExp.prototype[Symbol.matchAll]) must return false",
-            "raw": "'isConstructor(RegExp.prototype[Symbol.matchAll]) must return false'"
+            "raw": "'isConstructor(RegExp.prototype[Symbol.matchAll]) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,7 +191,9 @@
                             "start": 953,
                             "end": 955,
                             "value": "",
-                            "raw": "''"
+                            "raw": "''",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

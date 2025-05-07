@@ -31,7 +31,9 @@
               "start": 340,
               "end": 341,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -127,7 +129,9 @@
               "start": 424,
               "end": 427,
               "value": "A",
-              "raw": "'A'"
+              "raw": "'A'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -221,7 +225,9 @@
                     "start": 599,
                     "end": 656,
                     "value": "#1: __store__func === __func. Actual: __store__func ===",
-                    "raw": "'#1: __store__func === __func. Actual: __store__func ==='"
+                    "raw": "'#1: __store__func === __func. Actual: __store__func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -289,7 +295,9 @@
                     "start": 892,
                     "end": 926,
                     "value": "#2: __1 === __A. Actual: __1 ===",
-                    "raw": "'#2: __1 === __A. Actual: __1 ==='"
+                    "raw": "'#2: __1 === __A. Actual: __1 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

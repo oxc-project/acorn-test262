@@ -48,6 +48,7 @@
                 "end": 376,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 378,
                 "end": 383,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -135,7 +138,9 @@
                   "start": 442,
                   "end": 449,
                   "value": "en-US",
-                  "raw": "\"en-US\""
+                  "raw": "\"en-US\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -160,7 +165,9 @@
                         "start": 463,
                         "end": 478,
                         "value": "Europe/Vienna",
-                        "raw": "\"Europe/Vienna\""
+                        "raw": "\"Europe/Vienna\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -175,7 +182,9 @@
             "start": 483,
             "end": 511,
             "value": "timeZone option disallowed",
-            "raw": "\"timeZone option disallowed\""
+            "raw": "\"timeZone option disallowed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -253,7 +262,9 @@
                   "start": 569,
                   "end": 576,
                   "value": "en-US",
-                  "raw": "\"en-US\""
+                  "raw": "\"en-US\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -278,7 +289,9 @@
                         "start": 590,
                         "end": 595,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -293,7 +306,9 @@
             "start": 600,
             "end": 672,
             "value": "timeZone option disallowed even if it agrees with instance's time zone",
-            "raw": "\"timeZone option disallowed even if it agrees with instance's time zone\""
+            "raw": "\"timeZone option disallowed even if it agrees with instance's time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

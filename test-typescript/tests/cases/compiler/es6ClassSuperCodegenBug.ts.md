@@ -174,14 +174,18 @@ __ESTREE_TEST__:PASS:
                                 "start": 168,
                                 "end": 172,
                                 "raw": "'a2'",
-                                "value": "a2"
+                                "value": "a2",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 174,
                                 "end": 178,
                                 "raw": "'b2'",
-                                "value": "b2"
+                                "value": "b2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -215,14 +219,18 @@ __ESTREE_TEST__:PASS:
                                 "start": 126,
                                 "end": 130,
                                 "raw": "'a1'",
-                                "value": "a1"
+                                "value": "a1",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 132,
                                 "end": 136,
                                 "raw": "'b1'",
-                                "value": "b1"
+                                "value": "b1",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "callee": {
@@ -241,7 +249,9 @@ __ESTREE_TEST__:PASS:
                       "start": 103,
                       "end": 107,
                       "raw": "true",
-                      "value": true
+                      "value": true,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

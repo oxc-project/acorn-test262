@@ -403,7 +403,9 @@ __ESTREE_TEST__:PASS:
               "start": 184,
               "end": 186,
               "raw": "42",
-              "value": 42
+              "value": 42,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -683,7 +685,9 @@ __ESTREE_TEST__:PASS:
             "start": 344,
             "end": 347,
             "raw": "9.9",
-            "value": 9.9
+            "value": 9.9,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -723,7 +727,9 @@ __ESTREE_TEST__:PASS:
             "start": 371,
             "end": 389,
             "raw": "'this is a string'",
-            "value": "this is a string"
+            "value": "this is a string",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -778,7 +784,9 @@ __ESTREE_TEST__:PASS:
                 "start": 418,
                 "end": 420,
                 "raw": "12",
-                "value": 12
+                "value": 12,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -889,7 +897,9 @@ __ESTREE_TEST__:PASS:
             "start": 478,
             "end": 482,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -1245,7 +1255,9 @@ __ESTREE_TEST__:PASS:
                   "start": 681,
                   "end": 683,
                   "raw": "12",
-                  "value": 12
+                  "value": 12,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1508,7 +1520,9 @@ __ESTREE_TEST__:PASS:
               "start": 848,
               "end": 849,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -1735,7 +1749,9 @@ __ESTREE_TEST__:PASS:
               "start": 960,
               "end": 978,
               "raw": "'this is a string'",
-              "value": "this is a string"
+              "value": "this is a string",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,

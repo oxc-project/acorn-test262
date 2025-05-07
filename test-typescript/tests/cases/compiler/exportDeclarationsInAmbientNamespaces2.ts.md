@@ -67,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 20,
         "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -91,7 +93,9 @@ __ESTREE_TEST__:PASS:
               "start": 96,
               "end": 101,
               "raw": "\"mod\"",
-              "value": "mod"
+              "value": "mod",
+              "regex": null,
+              "bigint": null
             },
             "specifiers": [
               {

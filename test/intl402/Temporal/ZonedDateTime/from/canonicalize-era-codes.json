@@ -78,7 +78,9 @@
                       "start": 304,
                       "end": 313,
                       "value": "gregory",
-                      "raw": "\"gregory\""
+                      "raw": "\"gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 322,
                       "end": 326,
                       "value": "ce",
-                      "raw": "\"ce\""
+                      "raw": "\"ce\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 339,
                       "end": 343,
                       "value": 2024,
-                      "raw": "2024"
+                      "raw": "2024",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 353,
                       "end": 357,
                       "value": 2024,
-                      "raw": "2024"
+                      "raw": "2024",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -166,7 +174,9 @@
                       "start": 368,
                       "end": 369,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -188,7 +198,9 @@
                       "start": 378,
                       "end": 379,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -210,7 +222,9 @@
                       "start": 393,
                       "end": 398,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -275,14 +289,18 @@
             "start": 432,
             "end": 441,
             "value": "gregory",
-            "raw": "\"gregory\""
+            "raw": "\"gregory\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 484,
             "value": "'ce' is accepted as alias for 'gregory'",
-            "raw": "\"'ce' is accepted as alias for 'gregory'\""
+            "raw": "\"'ce' is accepted as alias for 'gregory'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -363,7 +381,9 @@
                       "start": 544,
                       "end": 553,
                       "value": "gregory",
-                      "raw": "\"gregory\""
+                      "raw": "\"gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -385,7 +405,9 @@
                       "start": 562,
                       "end": 567,
                       "value": "bce",
-                      "raw": "\"bce\""
+                      "raw": "\"bce\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -407,7 +429,9 @@
                       "start": 580,
                       "end": 582,
                       "value": 44,
-                      "raw": "44"
+                      "raw": "44",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -435,7 +459,9 @@
                         "start": 593,
                         "end": 595,
                         "value": 43,
-                        "raw": "43"
+                        "raw": "43",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -458,7 +484,9 @@
                       "start": 606,
                       "end": 607,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -480,7 +508,9 @@
                       "start": 616,
                       "end": 618,
                       "value": 15,
-                      "raw": "15"
+                      "raw": "15",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -502,7 +532,9 @@
                       "start": 632,
                       "end": 645,
                       "value": "Europe/Rome",
-                      "raw": "\"Europe/Rome\""
+                      "raw": "\"Europe/Rome\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -567,14 +599,18 @@
             "start": 679,
             "end": 696,
             "value": "gregory-inverse",
-            "raw": "\"gregory-inverse\""
+            "raw": "\"gregory-inverse\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 748,
             "value": "'bce' is accepted as alias for 'gregory-inverse'",
-            "raw": "\"'bce' is accepted as alias for 'gregory-inverse'\""
+            "raw": "\"'bce' is accepted as alias for 'gregory-inverse'\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

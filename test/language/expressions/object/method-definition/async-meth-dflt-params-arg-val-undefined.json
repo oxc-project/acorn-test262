@@ -23,7 +23,9 @@
             "start": 968,
             "end": 969,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -86,7 +88,9 @@
                         "start": 1014,
                         "end": 1016,
                         "value": 23,
-                        "raw": "23"
+                        "raw": "23",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -104,7 +108,9 @@
                         "start": 1029,
                         "end": 1031,
                         "value": 45,
-                        "raw": "45"
+                        "raw": "45",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -122,7 +128,9 @@
                         "start": 1044,
                         "end": 1046,
                         "value": 99,
-                        "raw": "99"
+                        "raw": "99",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -170,7 +178,9 @@
                               "start": 1084,
                               "end": 1086,
                               "value": 23,
-                              "raw": "23"
+                              "raw": "23",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -215,7 +225,9 @@
                               "start": 1120,
                               "end": 1122,
                               "value": 45,
-                              "raw": "45"
+                              "raw": "45",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -260,7 +272,9 @@
                               "start": 1156,
                               "end": 1158,
                               "value": 99,
-                              "raw": "99"
+                              "raw": "99",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -297,7 +311,9 @@
                               "start": 1189,
                               "end": 1190,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -399,7 +415,9 @@
                       "start": 1293,
                       "end": 1294,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ],
@@ -468,14 +486,18 @@
                             "start": 1341,
                             "end": 1342,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1344,
                             "end": 1379,
                             "value": "async method invoked exactly once",
-                            "raw": "'async method invoked exactly once'"
+                            "raw": "'async method invoked exactly once'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

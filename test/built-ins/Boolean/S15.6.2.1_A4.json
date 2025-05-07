@@ -137,14 +137,18 @@
             "start": 413,
             "end": 431,
             "value": "[object Boolean]",
-            "raw": "\"[object Boolean]\""
+            "raw": "\"[object Boolean]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 480,
             "value": "obj.toString() must return \"[object Boolean]\"",
-            "raw": "'obj.toString() must return \"[object Boolean]\"'"
+            "raw": "'obj.toString() must return \"[object Boolean]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

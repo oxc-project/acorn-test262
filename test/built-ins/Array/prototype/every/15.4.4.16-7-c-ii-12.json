@@ -23,7 +23,9 @@
             "start": 286,
             "end": 287,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -109,7 +111,9 @@
                   "start": 354,
                   "end": 356,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "&&",
@@ -182,21 +186,27 @@
                     "start": 389,
                     "end": 391,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 393,
                     "end": 395,
                     "value": 12,
-                    "raw": "12"
+                    "raw": "12",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 397,
                     "end": 399,
                     "value": 13,
-                    "raw": "13"
+                    "raw": "13",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -224,7 +234,9 @@
             "start": 420,
             "end": 461,
             "value": "[11, 12, 13].every(callbackfn) !== true",
-            "raw": "'[11, 12, 13].every(callbackfn) !== true'"
+            "raw": "'[11, 12, 13].every(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,14 +281,18 @@
             "start": 489,
             "end": 490,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 500,
             "value": "called",
-            "raw": "'called'"
+            "raw": "'called'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

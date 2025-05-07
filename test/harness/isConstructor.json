@@ -49,7 +49,9 @@
             "start": 347,
             "end": 357,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -117,7 +119,9 @@
             "start": 412,
             "end": 425,
             "value": "no argument",
-            "raw": "\"no argument\""
+            "raw": "\"no argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +196,9 @@
             "start": 488,
             "end": 499,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +263,9 @@
                   "start": 550,
                   "end": 554,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -268,7 +276,9 @@
             "start": 557,
             "end": 563,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +343,9 @@
                   "start": 614,
                   "end": 617,
                   "value": 123,
-                  "raw": "123"
+                  "raw": "123",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -344,7 +356,9 @@
             "start": 620,
             "end": 628,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +423,9 @@
                   "start": 679,
                   "end": 683,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -420,7 +436,9 @@
             "start": 686,
             "end": 702,
             "value": "boolean - true",
-            "raw": "\"boolean - true\""
+            "raw": "\"boolean - true\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -485,7 +503,9 @@
                   "start": 753,
                   "end": 758,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -496,7 +516,9 @@
             "start": 761,
             "end": 778,
             "value": "boolean - false",
-            "raw": "\"boolean - false\""
+            "raw": "\"boolean - false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -561,7 +583,9 @@
                   "start": 829,
                   "end": 837,
                   "value": "string",
-                  "raw": "\"string\""
+                  "raw": "\"string\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -572,7 +596,9 @@
             "start": 840,
             "end": 848,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -647,7 +673,9 @@
             "start": 905,
             "end": 922,
             "value": "Object instance",
-            "raw": "\"Object instance\""
+            "raw": "\"Object instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -722,7 +750,9 @@
             "start": 978,
             "end": 994,
             "value": "Array instance",
-            "raw": "\"Array instance\""
+            "raw": "\"Array instance\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -791,7 +821,9 @@
             "start": 1044,
             "end": 1048,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -860,7 +892,9 @@
             "start": 1098,
             "end": 1103,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -929,7 +963,9 @@
             "start": 1148,
             "end": 1153,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -988,7 +1024,9 @@
             "start": 1196,
             "end": 1200,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1073,7 +1111,9 @@
             "start": 1256,
             "end": 1261,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

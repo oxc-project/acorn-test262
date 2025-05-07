@@ -118,7 +118,9 @@ __ESTREE_TEST__:PASS:
         "start": 403,
         "end": 415,
         "raw": "\"typescript\"",
-        "value": "typescript"
+        "value": "typescript",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -380,7 +382,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 877,
                                         "end": 944,
                                         "raw": "\"A looping statement's contents should be wrapped in a block body.\"",
-                                        "value": "A looping statement's contents should be wrapped in a block body."
+                                        "value": "A looping statement's contents should be wrapped in a block body.",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "callee": {
@@ -692,7 +696,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1223,
                                         "end": 1286,
                                         "raw": "\"An if statement's contents should be wrapped in a block body.\"",
-                                        "value": "An if statement's contents should be wrapped in a block body."
+                                        "value": "An if statement's contents should be wrapped in a block body.",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "callee": {
@@ -849,7 +855,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1572,
                                         "end": 1637,
                                         "raw": "\"An else statement's contents should be wrapped in a block body.\"",
-                                        "value": "An else statement's contents should be wrapped in a block body."
+                                        "value": "An else statement's contents should be wrapped in a block body.",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "callee": {
@@ -1268,7 +1276,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 1945,
                                         "end": 1967,
                                         "raw": "\"Use '===' and '!=='.\"",
-                                        "value": "Use '===' and '!=='."
+                                        "value": "Use '===' and '!=='.",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "callee": {
@@ -1817,7 +1827,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2272,
                                 "end": 2273,
                                 "raw": "1",
-                                "value": 1
+                                "value": 1,
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             {
@@ -1839,7 +1851,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 2289,
                                 "end": 2290,
                                 "raw": "1",
-                                "value": 1
+                                "value": 1,
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             {
@@ -2122,7 +2136,9 @@ __ESTREE_TEST__:PASS:
                 "start": 2364,
                 "end": 2365,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -2324,7 +2340,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2550,
                             "end": 2554,
                             "raw": "true",
-                            "value": true
+                            "value": true,
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {

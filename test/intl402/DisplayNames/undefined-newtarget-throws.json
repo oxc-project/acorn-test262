@@ -170,7 +170,9 @@
                         "start": 527,
                         "end": 531,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -269,7 +271,9 @@
                             "start": 598,
                             "end": 602,
                             "value": "en",
-                            "raw": "'en'"
+                            "raw": "'en'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

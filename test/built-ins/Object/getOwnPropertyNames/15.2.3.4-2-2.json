@@ -118,7 +118,9 @@
             "start": 343,
             "end": 377,
             "value": "result instanceof Array !== true",
-            "raw": "'result instanceof Array !== true'"
+            "raw": "'result instanceof Array !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

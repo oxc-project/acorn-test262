@@ -4473,7 +4473,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2927,
                             "end": 2932,
                             "raw": "\"wat\"",
-                            "value": "wat"
+                            "value": "wat",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -4574,7 +4576,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2978,
                             "end": 2983,
                             "raw": "\"wat\"",
-                            "value": "wat"
+                            "value": "wat",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -4943,7 +4947,9 @@ __ESTREE_TEST__:PASS:
                   "start": 3212,
                   "end": 3217,
                   "raw": "\"foo\"",
-                  "value": "foo"
+                  "value": "foo",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "objectType": {

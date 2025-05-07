@@ -235,7 +235,9 @@ __ESTREE_TEST__:PASS:
               "start": 156,
               "end": 164,
               "raw": "\"method\"",
-              "value": "method"
+              "value": "method",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "optional": false,

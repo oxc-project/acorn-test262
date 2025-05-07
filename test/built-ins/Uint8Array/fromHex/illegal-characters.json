@@ -28,70 +28,90 @@
                 "start": 318,
                 "end": 323,
                 "value": "a.a",
-                "raw": "'a.a'"
+                "raw": "'a.a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 332,
                 "value": "aa^",
-                "raw": "'aa^'"
+                "raw": "'aa^'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 341,
                 "value": "a a",
-                "raw": "'a a'"
+                "raw": "'a a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 351,
                 "value": "a\ta",
-                "raw": "'a\\ta'"
+                "raw": "'a\\ta'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 363,
                 "value": "a\na",
-                "raw": "'a\\x0Aa'"
+                "raw": "'a\\x0Aa'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 375,
                 "value": "a\fa",
-                "raw": "'a\\x0Ca'"
+                "raw": "'a\\x0Ca'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 387,
                 "value": "a\ra",
-                "raw": "'a\\x0Da'"
+                "raw": "'a\\x0Da'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 401,
                 "value": "a a",
-                "raw": "'a\\u00A0a'"
+                "raw": "'a\\u00A0a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 423,
                 "value": "a a",
-                "raw": "'a\\u2009a'"
+                "raw": "'a\\u2009a'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 451,
                 "value": "a a",
-                "raw": "'a\\u2028a'"
+                "raw": "'a\\u2028a'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

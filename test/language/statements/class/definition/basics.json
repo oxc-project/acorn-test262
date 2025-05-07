@@ -86,14 +86,18 @@
             "start": 240,
             "end": 250,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 252,
             "end": 280,
             "value": "`typeof C` is `'function'`",
-            "raw": "\"`typeof C` is `'function'`\""
+            "raw": "\"`typeof C` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +201,9 @@
             "start": 367,
             "end": 432,
             "value": "`Object.getPrototypeOf(C.prototype)` returns `Object.prototype`",
-            "raw": "\"`Object.getPrototypeOf(C.prototype)` returns `Object.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(C.prototype)` returns `Object.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -288,7 +294,9 @@
             "start": 512,
             "end": 569,
             "value": "`Object.getPrototypeOf(C)` returns `Function.prototype`",
-            "raw": "\"`Object.getPrototypeOf(C)` returns `Function.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(C)` returns `Function.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -346,14 +354,18 @@
             "start": 598,
             "end": 601,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 635,
             "value": "The value of `C.name` is `'C'`",
-            "raw": "\"The value of `C.name` is `'C'`\""
+            "raw": "\"The value of `C.name` is `'C'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -423,14 +435,18 @@
             "start": 677,
             "end": 687,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 717,
             "value": "`typeof D` is `'function'`",
-            "raw": "\"`typeof D` is `'function'`\""
+            "raw": "\"`typeof D` is `'function'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +550,9 @@
             "start": 804,
             "end": 869,
             "value": "`Object.getPrototypeOf(D.prototype)` returns `Object.prototype`",
-            "raw": "\"`Object.getPrototypeOf(D.prototype)` returns `Object.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(D.prototype)` returns `Object.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -625,7 +643,9 @@
             "start": 949,
             "end": 1006,
             "value": "`Object.getPrototypeOf(D)` returns `Function.prototype`",
-            "raw": "\"`Object.getPrototypeOf(D)` returns `Function.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(D)` returns `Function.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -683,14 +703,18 @@
             "start": 1035,
             "end": 1038,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1040,
             "end": 1072,
             "value": "The value of `D.name` is `'D'`",
-            "raw": "\"The value of `D.name` is `'D'`\""
+            "raw": "\"The value of `D.name` is `'D'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -797,14 +821,18 @@
             "start": 1132,
             "end": 1136,
             "value": "D2",
-            "raw": "'D2'"
+            "raw": "'D2'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1138,
             "end": 1172,
             "value": "The value of `D2.name` is `'D2'`",
-            "raw": "\"The value of `D2.name` is `'D2'`\""
+            "raw": "\"The value of `D2.name` is `'D2'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -894,14 +922,18 @@
             "start": 1218,
             "end": 1221,
             "value": "E",
-            "raw": "'E'"
+            "raw": "'E'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1223,
             "end": 1255,
             "value": "The value of `E.name` is `'E'`",
-            "raw": "\"The value of `E.name` is `'E'`\""
+            "raw": "\"The value of `E.name` is `'E'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1022,14 +1054,18 @@
             "start": 1320,
             "end": 1323,
             "value": "F",
-            "raw": "'F'"
+            "raw": "'F'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1325,
             "end": 1357,
             "value": "The value of `F.name` is `'F'`",
-            "raw": "\"The value of `F.name` is `'F'`\""
+            "raw": "\"The value of `F.name` is `'F'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

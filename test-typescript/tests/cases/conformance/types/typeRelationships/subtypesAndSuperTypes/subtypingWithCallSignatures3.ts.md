@@ -2833,7 +2833,9 @@ __ESTREE_TEST__:PASS:
                           "start": 2071,
                           "end": 2075,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSArrayType",
@@ -2993,7 +2995,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2116,
                             "end": 2118,
                             "raw": "''",
-                            "value": ""
+                            "value": "",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -3037,7 +3041,9 @@ __ESTREE_TEST__:PASS:
                           "start": 2142,
                           "end": 2146,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSArrayType",
@@ -3185,7 +3191,9 @@ __ESTREE_TEST__:PASS:
                           "start": 2185,
                           "end": 2189,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSArrayType",
@@ -3303,7 +3311,9 @@ __ESTREE_TEST__:PASS:
                             "start": 2207,
                             "end": 2209,
                             "raw": "''",
-                            "value": ""
+                            "value": "",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -3378,7 +3388,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2320,
                         "end": 2324,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": {
                         "type": "TSTypeReference",
@@ -3657,7 +3669,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2397,
                         "end": 2401,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": {
                         "type": "TSTypeReference",
@@ -3980,7 +3994,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2619,
                         "end": 2623,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": {
                         "type": "TSTypeReference",
@@ -4316,7 +4332,9 @@ __ESTREE_TEST__:PASS:
                         "start": 2723,
                         "end": 2727,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": {
                         "type": "TSTypeReference",
@@ -4703,7 +4721,9 @@ __ESTREE_TEST__:PASS:
                       "start": 2878,
                       "end": 2882,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
@@ -4848,7 +4868,9 @@ __ESTREE_TEST__:PASS:
                       "start": 2925,
                       "end": 2929,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
@@ -5103,7 +5125,9 @@ __ESTREE_TEST__:PASS:
                       "start": 3082,
                       "end": 3086,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
@@ -5262,7 +5286,9 @@ __ESTREE_TEST__:PASS:
                       "start": 3168,
                       "end": 3172,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
@@ -5602,7 +5628,9 @@ __ESTREE_TEST__:PASS:
                       "start": 3343,
                       "end": 3347,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
@@ -5785,7 +5813,9 @@ __ESTREE_TEST__:PASS:
                       "start": 3432,
                       "end": 3436,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
@@ -6156,7 +6186,9 @@ __ESTREE_TEST__:PASS:
                       "start": 3631,
                       "end": 3635,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
@@ -6339,7 +6371,9 @@ __ESTREE_TEST__:PASS:
                     "start": 3687,
                     "end": 3688,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -6610,7 +6644,9 @@ __ESTREE_TEST__:PASS:
                     "start": 3843,
                     "end": 3844,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "expression": true,
                   "generator": false,
@@ -6944,7 +6980,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4037,
                       "end": 4041,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSArrayType",
@@ -7158,7 +7196,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4124,
                       "end": 4128,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSArrayType",
@@ -7578,7 +7618,9 @@ __ESTREE_TEST__:PASS:
                         "start": 4487,
                         "end": 4489,
                         "raw": "''",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -7913,7 +7955,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4727,
                       "end": 4731,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     },
                     "typeAnnotation": {
                       "type": "TSArrayType",

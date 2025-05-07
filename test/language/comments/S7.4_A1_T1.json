@@ -23,7 +23,9 @@
             "start": 364,
             "end": 365,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,14 +70,18 @@
             "start": 387,
             "end": 388,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 413,
             "value": "The value of `x` is 0",
-            "raw": "'The value of `x` is 0'"
+            "raw": "'The value of `x` is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +152,9 @@
             "start": 476,
             "end": 527,
             "value": "The value of `y` is expected to equal `undefined`",
-            "raw": "'The value of `y` is expected to equal `undefined`'"
+            "raw": "'The value of `y` is expected to equal `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,14 +243,18 @@
             "start": 884,
             "end": 888,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 890,
             "end": 913,
             "value": "isNaN(y) returns true",
-            "raw": "'isNaN(y) returns true'"
+            "raw": "'isNaN(y) returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

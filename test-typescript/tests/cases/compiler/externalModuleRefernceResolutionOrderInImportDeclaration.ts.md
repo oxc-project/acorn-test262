@@ -108,7 +108,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 79,
         "raw": "\"externalModuleRefernceResolutionOrderInImportDeclaration_file1\"",
-        "value": "externalModuleRefernceResolutionOrderInImportDeclaration_file1"
+        "value": "externalModuleRefernceResolutionOrderInImportDeclaration_file1",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -146,7 +148,9 @@ __ESTREE_TEST__:PASS:
           "start": 112,
           "end": 178,
           "raw": "'./externalModuleRefernceResolutionOrderInImportDeclaration_file1'",
-          "value": "./externalModuleRefernceResolutionOrderInImportDeclaration_file1"
+          "value": "./externalModuleRefernceResolutionOrderInImportDeclaration_file1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

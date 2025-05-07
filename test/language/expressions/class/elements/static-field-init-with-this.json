@@ -46,7 +46,9 @@
                     "start": 2195,
                     "end": 2201,
                     "value": "test",
-                    "raw": "'test'"
+                    "raw": "'test'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -89,7 +91,9 @@
                       "start": 2225,
                       "end": 2230,
                       "value": "262",
-                      "raw": "'262'"
+                      "raw": "'262'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -125,7 +129,9 @@
                           "start": 2250,
                           "end": 2258,
                           "value": "this.g",
-                          "raw": "'this.g'"
+                          "raw": "'this.g'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -136,7 +142,9 @@
                       "start": 2262,
                       "end": 2268,
                       "value": "test",
-                      "raw": "'test'"
+                      "raw": "'test'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -199,7 +207,9 @@
             "start": 2295,
             "end": 2301,
             "value": "test",
-            "raw": "'test'"
+            "raw": "'test'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +267,9 @@
             "start": 2326,
             "end": 2335,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +327,9 @@
             "start": 2360,
             "end": 2373,
             "value": "test262test",
-            "raw": "'test262test'"
+            "raw": "'test262test'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

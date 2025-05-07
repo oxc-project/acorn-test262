@@ -68,7 +68,9 @@
                 "start": 373,
                 "end": 377,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -134,7 +136,9 @@
                 "start": 419,
                 "end": 427,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,14 +148,18 @@
             "start": 430,
             "end": 435,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 522,
             "value": "Functions created using Function.prototype.bind() do not have own property \"caller\"",
-            "raw": "'Functions created using Function.prototype.bind() do not have own property \"caller\"'"
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"caller\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,7 +222,9 @@
                 "start": 563,
                 "end": 574,
                 "value": "arguments",
-                "raw": "'arguments'"
+                "raw": "'arguments'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -224,14 +234,18 @@
             "start": 577,
             "end": 582,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 584,
             "end": 672,
             "value": "Functions created using Function.prototype.bind() do not have own property \"arguments\"",
-            "raw": "'Functions created using Function.prototype.bind() do not have own property \"arguments\"'"
+            "raw": "'Functions created using Function.prototype.bind() do not have own property \"arguments\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -80,7 +80,9 @@
             "start": 508,
             "end": 510,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",

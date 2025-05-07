@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 34,
               "end": 35,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
               "start": 56,
               "end": 57,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -130,7 +134,9 @@ __ESTREE_TEST__:PASS:
                 "start": 20,
                 "end": 21,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -142,7 +148,9 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 25,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -173,7 +181,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 63,
         "raw": "\"./constants\"",
-        "value": "./constants"
+        "value": "./constants",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -199,7 +209,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 31,
         "raw": "\"./drink\"",
-        "value": "./drink"
+        "value": "./drink",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

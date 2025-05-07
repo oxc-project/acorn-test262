@@ -68,7 +68,9 @@ __ESTREE_TEST__:PASS:
                 "start": 26,
                 "end": 29,
                 "raw": "'x'",
-                "value": "x"
+                "value": "x",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -98,7 +100,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 47,
         "raw": "\"../lib/constants\"",
-        "value": "../lib/constants"
+        "value": "../lib/constants",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -387,7 +387,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 31,
         "raw": "\"deps/BaseClass\"",
-        "value": "deps/BaseClass"
+        "value": "deps/BaseClass",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -417,7 +419,9 @@ __ESTREE_TEST__:PASS:
             "start": 7,
             "end": 26,
             "raw": "\"lib/ExtendedClass\"",
-            "value": "lib/ExtendedClass"
+            "value": "lib/ExtendedClass",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -429,7 +433,9 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 45,
                 "raw": "\"deps/BaseClass\"",
-                "value": "deps/BaseClass"
+                "value": "deps/BaseClass",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -509,7 +515,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 278,
                                           "end": 289,
                                           "raw": "\"something\"",
-                                          "value": "something"
+                                          "value": "something",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]

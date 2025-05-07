@@ -96,7 +96,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 37,
         "raw": "'./types'",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -173,7 +175,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 28,
         "raw": "'./ns'",
-        "value": "./ns"
+        "value": "./ns",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -213,7 +217,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 65,
         "raw": "'./types'",
-        "value": "./types"
+        "value": "./types",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

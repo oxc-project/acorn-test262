@@ -736,7 +736,9 @@ __ESTREE_TEST__:PASS:
                       "start": 545,
                       "end": 551,
                       "raw": "\"data\"",
-                      "value": "data"
+                      "value": "data",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "objectType": {
@@ -1086,7 +1088,9 @@ __ESTREE_TEST__:PASS:
               "start": 766,
               "end": 772,
               "raw": "\"data\"",
-              "value": "data"
+              "value": "data",
+              "regex": null,
+              "bigint": null
             }
           },
           "objectType": {
@@ -1422,7 +1426,9 @@ __ESTREE_TEST__:PASS:
               "start": 975,
               "end": 986,
               "raw": "'oneofKind'",
-              "value": "oneofKind"
+              "value": "oneofKind",
+              "regex": null,
+              "bigint": null
             }
           },
           "objectType": {

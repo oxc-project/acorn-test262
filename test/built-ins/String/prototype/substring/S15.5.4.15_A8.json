@@ -72,7 +72,9 @@
                 "start": 483,
                 "end": 491,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 522,
                     "end": 603,
                     "value": "#0: String.prototype.substring.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.substring.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "raw": "'#0: String.prototype.substring.hasOwnProperty(\\'length\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 648,
                         "end": 656,
                         "value": "length",
-                        "raw": "'length'"
+                        "raw": "'length'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -238,7 +244,9 @@
             "start": 888,
             "end": 896,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -268,7 +276,9 @@
                   "start": 926,
                   "end": 1004,
                   "value": "#1: String.prototype.substring.propertyIsEnumerable('length') return false",
-                  "raw": "'#1: String.prototype.substring.propertyIsEnumerable(\\'length\\') return false'"
+                  "raw": "'#1: String.prototype.substring.propertyIsEnumerable(\\'length\\') return false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -297,7 +307,9 @@
             "start": 1194,
             "end": 1195,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -384,7 +396,9 @@
                 "start": 1254,
                 "end": 1262,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -430,7 +444,9 @@
           "start": 1290,
           "end": 1291,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -462,7 +478,9 @@
                     "start": 1320,
                     "end": 1422,
                     "value": "#2: count=0; for (p in String.prototype.substring){if (p===\"length\") count++;} count === 0. Actual: ",
-                    "raw": "'#2: count=0; for (p in String.prototype.substring){if (p===\"length\") count++;} count === 0. Actual: '"
+                    "raw": "'#2: count=0; for (p in String.prototype.substring){if (p===\"length\") count++;} count === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -135,7 +135,9 @@ __ESTREE_TEST__:PASS:
                 "start": 153,
                 "end": 154,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "BinaryExpression",
@@ -184,7 +186,9 @@ __ESTREE_TEST__:PASS:
                   "start": 149,
                   "end": 150,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "test": {
@@ -522,7 +526,9 @@ __ESTREE_TEST__:PASS:
               "start": 340,
               "end": 341,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

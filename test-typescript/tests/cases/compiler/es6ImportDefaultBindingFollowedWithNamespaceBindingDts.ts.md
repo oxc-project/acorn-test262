@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 51,
         "end": 61,
         "raw": "\"./server\"",
-        "value": "./server"
+        "value": "./server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

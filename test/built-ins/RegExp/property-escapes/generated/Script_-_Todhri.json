@@ -83,14 +83,18 @@
                               "start": 525,
                               "end": 533,
                               "value": 67008,
-                              "raw": "0x0105C0"
+                              "raw": "0x0105C0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 535,
                               "end": 543,
                               "value": 67059,
-                              "raw": "0x0105F3"
+                              "raw": "0x0105F3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Todhri}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 619,
             "end": 639,
             "value": "\\p{Script=Todhri}",
-            "raw": "\"\\\\p{Script=Todhri}\""
+            "raw": "\"\\\\p{Script=Todhri}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Todr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 707,
             "end": 725,
             "value": "\\p{Script=Todr}",
-            "raw": "\"\\\\p{Script=Todr}\""
+            "raw": "\"\\\\p{Script=Todr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Todhri}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 791,
             "end": 807,
             "value": "\\p{sc=Todhri}",
-            "raw": "\"\\\\p{sc=Todhri}\""
+            "raw": "\"\\\\p{sc=Todhri}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Todr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 871,
             "end": 885,
             "value": "\\p{sc=Todr}",
-            "raw": "\"\\\\p{sc=Todr}\""
+            "raw": "\"\\\\p{sc=Todr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 967,
                               "end": 975,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 977,
                               "end": 985,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 993,
                               "end": 1001,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1003,
                               "end": 1011,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1019,
                               "end": 1027,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1029,
                               "end": 1037,
                               "value": 67007,
-                              "raw": "0x0105BF"
+                              "raw": "0x0105BF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1045,
                               "end": 1053,
                               "value": 67060,
-                              "raw": "0x0105F4"
+                              "raw": "0x0105F4",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1055,
                               "end": 1063,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Todhri}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1142,
             "end": 1162,
             "value": "\\P{Script=Todhri}",
-            "raw": "\"\\\\P{Script=Todhri}\""
+            "raw": "\"\\\\P{Script=Todhri}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Todr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1233,
             "end": 1251,
             "value": "\\P{Script=Todr}",
-            "raw": "\"\\\\P{Script=Todr}\""
+            "raw": "\"\\\\P{Script=Todr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Todhri}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1320,
             "end": 1336,
             "value": "\\P{sc=Todhri}",
-            "raw": "\"\\\\P{sc=Todhri}\""
+            "raw": "\"\\\\P{sc=Todhri}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Todr}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1403,
             "end": 1417,
             "value": "\\P{sc=Todr}",
-            "raw": "\"\\\\P{sc=Todr}\""
+            "raw": "\"\\\\P{sc=Todr}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

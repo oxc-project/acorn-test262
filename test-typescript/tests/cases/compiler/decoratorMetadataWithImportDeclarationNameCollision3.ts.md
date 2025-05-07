@@ -117,7 +117,9 @@ __ESTREE_TEST__:PASS:
           "start": 20,
           "end": 26,
           "raw": "'./db'",
-          "value": "./db"
+          "value": "./db",
+          "regex": null,
+          "bigint": null
         }
       }
     },

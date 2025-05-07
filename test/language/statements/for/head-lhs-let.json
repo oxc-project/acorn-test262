@@ -43,7 +43,9 @@
           "start": 684,
           "end": 685,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -105,14 +107,18 @@
             "start": 734,
             "end": 735,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 758,
             "value": "IdentifierReference",
-            "raw": "'IdentifierReference'"
+            "raw": "'IdentifierReference'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -138,7 +144,9 @@
           "start": 768,
           "end": 769,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -162,7 +170,9 @@
           "start": 783,
           "end": 784,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "test": null,
@@ -213,14 +223,18 @@
             "start": 822,
             "end": 823,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 825,
             "end": 847,
             "value": "AssignmentExpression",
-            "raw": "'AssignmentExpression'"
+            "raw": "'AssignmentExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -246,7 +260,9 @@
           "start": 857,
           "end": 858,
           "value": 4,
-          "raw": "4"
+          "raw": "4",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -276,7 +292,9 @@
           "start": 872,
           "end": 873,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         },
         "computed": true,
         "optional": false
@@ -329,14 +347,18 @@
             "start": 912,
             "end": 913,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 915,
             "end": 933,
             "value": "MemberExpression",
-            "raw": "'MemberExpression'"
+            "raw": "'MemberExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

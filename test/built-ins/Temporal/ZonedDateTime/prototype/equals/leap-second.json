@@ -23,7 +23,9 @@
             "start": 294,
             "end": 299,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 371,
                 "value": null,
                 "raw": "1_483_228_799_000_000_000n",
+                "regex": null,
                 "bigint": "1483228799000000000"
               },
               {
@@ -108,7 +111,9 @@
             "start": 395,
             "end": 427,
             "value": "2016-12-31T23:59:60+00:00[UTC]",
-            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\""
+            "raw": "\"2016-12-31T23:59:60+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -205,14 +210,18 @@
             "start": 496,
             "end": 500,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 557,
             "value": "leap second is a valid ISO string for ZonedDateTime",
-            "raw": "\"leap second is a valid ISO string for ZonedDateTime\""
+            "raw": "\"leap second is a valid ISO string for ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +247,9 @@
           "start": 568,
           "end": 606,
           "value": "2000-05-02T12:34:56+23:59[+23:59:60]",
-          "raw": "\"2000-05-02T12:34:56+23:59[+23:59:60]\""
+          "raw": "\"2000-05-02T12:34:56+23:59[+23:59:60]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -324,7 +335,9 @@
             "start": 669,
             "end": 710,
             "value": "leap second in time zone name not valid",
-            "raw": "\"leap second in time zone name not valid\""
+            "raw": "\"leap second in time zone name not valid\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

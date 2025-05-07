@@ -24,7 +24,9 @@
               "start": 349,
               "end": 350,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "operator": "==",
             "right": {
@@ -32,7 +34,9 @@
               "start": 354,
               "end": 359,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -42,7 +46,9 @@
           "start": 365,
           "end": 369,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +76,9 @@
                   "start": 398,
                   "end": 425,
                   "value": "#1: (0 == false) === true",
-                  "raw": "'#1: (0 == false) === true'"
+                  "raw": "'#1: (0 == false) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -100,7 +108,9 @@
               "start": 446,
               "end": 449,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "==",
             "right": {
@@ -108,7 +118,9 @@
               "start": 453,
               "end": 457,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -118,7 +130,9 @@
           "start": 463,
           "end": 467,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -146,7 +160,9 @@
                   "start": 496,
                   "end": 524,
                   "value": "#2: (\"1\" == true) === true",
-                  "raw": "'#2: (\"1\" == true) === true'"
+                  "raw": "'#2: (\"1\" == true) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

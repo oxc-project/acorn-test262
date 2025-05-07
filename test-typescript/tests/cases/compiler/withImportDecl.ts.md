@@ -244,7 +244,9 @@ __ESTREE_TEST__:PASS:
             "start": 170,
             "end": 172,
             "raw": "30",
-            "value": 30
+            "value": 30,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -298,7 +300,9 @@ __ESTREE_TEST__:PASS:
                   "start": 207,
                   "end": 209,
                   "raw": "30",
-                  "value": 30
+                  "value": 30,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -324,7 +328,9 @@ __ESTREE_TEST__:PASS:
                   "start": 214,
                   "end": 216,
                   "raw": "70",
-                  "value": 70
+                  "value": 70,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -350,7 +356,9 @@ __ESTREE_TEST__:PASS:
                   "start": 224,
                   "end": 234,
                   "raw": "\"position\"",
-                  "value": "position"
+                  "value": "position",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -512,14 +520,18 @@ __ESTREE_TEST__:PASS:
                 "start": 381,
                 "end": 384,
                 "raw": "'a'",
-                "value": "a"
+                "value": "a",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 389,
                 "raw": "'b'",
-                "value": "b"
+                "value": "b",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -570,7 +582,9 @@ __ESTREE_TEST__:PASS:
                     "start": 446,
                     "end": 453,
                     "raw": "\"Hello\"",
-                    "value": "Hello"
+                    "value": "Hello",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -596,7 +610,9 @@ __ESTREE_TEST__:PASS:
                     "start": 466,
                     "end": 472,
                     "raw": "\"word\"",
-                    "value": "word"
+                    "value": "word",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -622,7 +638,9 @@ __ESTREE_TEST__:PASS:
                     "start": 485,
                     "end": 486,
                     "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -679,7 +697,9 @@ __ESTREE_TEST__:PASS:
                       "start": 552,
                       "end": 559,
                       "raw": "\"Hello\"",
-                      "value": "Hello"
+                      "value": "Hello",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -742,7 +762,9 @@ __ESTREE_TEST__:PASS:
           "start": 590,
           "end": 608,
           "raw": "\"withImportDecl_0\"",
-          "value": "withImportDecl_0"
+          "value": "withImportDecl_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

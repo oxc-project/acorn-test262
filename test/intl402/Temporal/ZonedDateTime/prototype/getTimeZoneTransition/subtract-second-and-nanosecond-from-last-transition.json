@@ -55,21 +55,27 @@
                     "start": 629,
                     "end": 633,
                     "value": 1800,
-                    "raw": "1800"
+                    "raw": "1800",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 635,
                     "end": 636,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 638,
                     "end": 639,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -88,7 +94,9 @@
                 "start": 657,
                 "end": 671,
                 "value": "Europe/Paris",
-                "raw": "\"Europe/Paris\""
+                "raw": "\"Europe/Paris\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,7 +164,9 @@
             "start": 707,
             "end": 748,
             "value": "1800-01-01T00:00:00+00:09[Europe/Paris]",
-            "raw": "\"1800-01-01T00:00:00+00:09[Europe/Paris]\""
+            "raw": "\"1800-01-01T00:00:00+00:09[Europe/Paris]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +240,9 @@
                     "start": 792,
                     "end": 793,
                     "value": 9,
-                    "raw": "9"
+                    "raw": "9",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "*",
                   "right": {
@@ -238,7 +250,9 @@
                     "start": 796,
                     "end": 798,
                     "value": 60,
-                    "raw": "60"
+                    "raw": "60",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -247,7 +261,9 @@
                   "start": 801,
                   "end": 803,
                   "value": 21,
-                  "raw": "21"
+                  "raw": "21",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -257,7 +273,9 @@
               "start": 807,
               "end": 820,
               "value": 1000000000,
-              "raw": "1_000_000_000"
+              "raw": "1_000_000_000",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -308,7 +326,9 @@
                 "start": 919,
                 "end": 925,
                 "value": "next",
-                "raw": "\"next\""
+                "raw": "\"next\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -376,7 +396,9 @@
             "start": 963,
             "end": 1004,
             "value": "1911-03-10T23:50:39+00:00[Europe/Paris]",
-            "raw": "\"1911-03-10T23:50:39+00:00[Europe/Paris]\""
+            "raw": "\"1911-03-10T23:50:39+00:00[Europe/Paris]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -470,7 +492,9 @@
                         "start": 1137,
                         "end": 1138,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -543,7 +567,9 @@
             "start": 1184,
             "end": 1225,
             "value": "1911-03-10T23:59:59+00:09[Europe/Paris]",
-            "raw": "\"1911-03-10T23:59:59+00:09[Europe/Paris]\""
+            "raw": "\"1911-03-10T23:59:59+00:09[Europe/Paris]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -617,7 +643,9 @@
                     "start": 1278,
                     "end": 1279,
                     "value": 9,
-                    "raw": "9"
+                    "raw": "9",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "*",
                   "right": {
@@ -625,7 +653,9 @@
                     "start": 1282,
                     "end": 1284,
                     "value": 60,
-                    "raw": "60"
+                    "raw": "60",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -634,7 +664,9 @@
                   "start": 1287,
                   "end": 1289,
                   "value": 21,
-                  "raw": "21"
+                  "raw": "21",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -644,7 +676,9 @@
               "start": 1293,
               "end": 1306,
               "value": 1000000000,
-              "raw": "1_000_000_000"
+              "raw": "1_000_000_000",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -695,7 +729,9 @@
               "start": 1352,
               "end": 1358,
               "value": "next",
-              "raw": "\"next\""
+              "raw": "\"next\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -761,7 +797,9 @@
             "start": 1395,
             "end": 1436,
             "value": "1911-03-10T23:50:39+00:00[Europe/Paris]",
-            "raw": "\"1911-03-10T23:50:39+00:00[Europe/Paris]\""
+            "raw": "\"1911-03-10T23:50:39+00:00[Europe/Paris]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -835,7 +873,9 @@
                         "start": 1564,
                         "end": 1565,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "kind": "init"
@@ -908,7 +948,9 @@
             "start": 1612,
             "end": 1663,
             "value": "1911-03-10T23:59:59.999999999+00:09[Europe/Paris]",
-            "raw": "\"1911-03-10T23:59:59.999999999+00:09[Europe/Paris]\""
+            "raw": "\"1911-03-10T23:59:59.999999999+00:09[Europe/Paris]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -982,7 +1024,9 @@
                     "start": 1717,
                     "end": 1718,
                     "value": 9,
-                    "raw": "9"
+                    "raw": "9",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "*",
                   "right": {
@@ -990,7 +1034,9 @@
                     "start": 1721,
                     "end": 1723,
                     "value": 60,
-                    "raw": "60"
+                    "raw": "60",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -999,7 +1045,9 @@
                   "start": 1726,
                   "end": 1728,
                   "value": 21,
-                  "raw": "21"
+                  "raw": "21",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -1009,7 +1057,9 @@
               "start": 1732,
               "end": 1745,
               "value": 1000000000,
-              "raw": "1_000_000_000"
+              "raw": "1_000_000_000",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -1060,7 +1110,9 @@
               "start": 1792,
               "end": 1798,
               "value": "next",
-              "raw": "\"next\""
+              "raw": "\"next\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1126,7 +1178,9 @@
             "start": 1835,
             "end": 1876,
             "value": "1911-03-10T23:50:39+00:00[Europe/Paris]",
-            "raw": "\"1911-03-10T23:50:39+00:00[Europe/Paris]\""
+            "raw": "\"1911-03-10T23:50:39+00:00[Europe/Paris]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -69,14 +69,18 @@
             "start": 738,
             "end": 743,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 793,
             "value": "isConstructor(BigInt.asIntN) must return false",
-            "raw": "'isConstructor(BigInt.asIntN) must return false'"
+            "raw": "'isConstructor(BigInt.asIntN) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +167,9 @@
                         "start": 850,
                         "end": 852,
                         "value": 64,
-                        "raw": "64"
+                        "raw": "64",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
@@ -171,6 +177,7 @@
                         "end": 856,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     ]

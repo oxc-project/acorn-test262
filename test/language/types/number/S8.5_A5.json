@@ -63,7 +63,9 @@
                 "start": 262,
                 "end": 265,
                 "value": 0,
-                "raw": "0.0"
+                "raw": "0.0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -106,7 +108,9 @@
                 "start": 286,
                 "end": 289,
                 "value": 0,
-                "raw": "0.0"
+                "raw": "0.0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -153,7 +157,9 @@
                   "start": 319,
                   "end": 322,
                   "value": 0,
-                  "raw": "0.0"
+                  "raw": "0.0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -178,7 +184,9 @@
                   "start": 331,
                   "end": 334,
                   "value": 0,
-                  "raw": "0.0"
+                  "raw": "0.0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -226,7 +234,9 @@
                   "start": 365,
                   "end": 368,
                   "value": 0,
-                  "raw": "0.0"
+                  "raw": "0.0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -251,7 +261,9 @@
                   "start": 378,
                   "end": 381,
                   "value": 0,
-                  "raw": "0.0"
+                  "raw": "0.0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -295,7 +307,9 @@
                   "start": 488,
                   "end": 523,
                   "value": "#1: NaN not greater or equal zero",
-                  "raw": "'#1: NaN not greater or equal zero'"
+                  "raw": "'#1: NaN not greater or equal zero'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -339,7 +353,9 @@
                   "start": 686,
                   "end": 718,
                   "value": "#2: NaN not less or equal zero",
-                  "raw": "'#2: NaN not less or equal zero'"
+                  "raw": "'#2: NaN not less or equal zero'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -383,7 +399,9 @@
                   "start": 890,
                   "end": 947,
                   "value": "#3: NaN not less or equal zero OR greater or equal zero",
-                  "raw": "'#3: NaN not less or equal zero OR greater or equal zero'"
+                  "raw": "'#3: NaN not less or equal zero OR greater or equal zero'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -427,7 +445,9 @@
                   "start": 1120,
                   "end": 1178,
                   "value": "#4: NaN not less or equal zero ADD greater or equal zero",
-                  "raw": "'#4: NaN not less or equal zero ADD greater or equal zero'"
+                  "raw": "'#4: NaN not less or equal zero ADD greater or equal zero'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

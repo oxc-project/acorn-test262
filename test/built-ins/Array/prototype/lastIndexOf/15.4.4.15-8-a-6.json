@@ -52,7 +52,9 @@
             "start": 317,
             "end": 319,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -62,7 +64,9 @@
           "start": 323,
           "end": 327,
           "value": "10",
-          "raw": "\"10\""
+          "raw": "\"10\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -99,7 +103,9 @@
           "start": 342,
           "end": 344,
           "value": 20,
-          "raw": "20"
+          "raw": "20",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -175,7 +181,9 @@
                               "start": 404,
                               "end": 406,
                               "value": 10,
-                              "raw": "10"
+                              "raw": "10",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -191,7 +199,9 @@
                           "start": 420,
                           "end": 422,
                           "value": 11,
-                          "raw": "11"
+                          "raw": "11",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -262,7 +272,9 @@
                 "start": 465,
                 "end": 469,
                 "value": "10",
-                "raw": "\"10\""
+                "raw": "\"10\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -284,7 +296,9 @@
               "start": 484,
               "end": 485,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -292,7 +306,9 @@
             "start": 487,
             "end": 521,
             "value": "arr.lastIndexOf(\"10\", fromIndex)",
-            "raw": "'arr.lastIndexOf(\"10\", fromIndex)'"
+            "raw": "'arr.lastIndexOf(\"10\", fromIndex)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -149,7 +149,9 @@ __ESTREE_TEST__:PASS:
                         "start": 164,
                         "end": 176,
                         "raw": "\"in finally\"",
-                        "value": "in finally"
+                        "value": "in finally",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {

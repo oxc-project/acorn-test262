@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 9,
             "end": 19,
             "raw": "\"sausages\"",
-            "value": "sausages"
+            "value": "sausages",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -72,7 +74,9 @@ __ESTREE_TEST__:PASS:
             "start": 9,
             "end": 11,
             "raw": "42",
-            "value": 42
+            "value": 42,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -108,7 +112,9 @@ __ESTREE_TEST__:PASS:
               "start": 44,
               "end": 45,
               "raw": "5",
-              "value": 5
+              "value": 5,
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -163,7 +169,9 @@ __ESTREE_TEST__:PASS:
               "start": 16,
               "end": 20,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -203,21 +211,27 @@ __ESTREE_TEST__:PASS:
                 "start": 32,
                 "end": 33,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 34,
                 "end": 35,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 36,
                 "end": 37,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -261,7 +275,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 32,
           "raw": "'./file3'",
-          "value": "./file3"
+          "value": "./file3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -427,7 +443,9 @@ __ESTREE_TEST__:PASS:
                   "start": 93,
                   "end": 97,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {

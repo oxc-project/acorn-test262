@@ -71,7 +71,9 @@
                         "start": 336,
                         "end": 353,
                         "value": "arguments = 42;",
-                        "raw": "'arguments = 42;'"
+                        "raw": "'arguments = 42;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

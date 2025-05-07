@@ -60,7 +60,9 @@
                   "start": 409,
                   "end": 417,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -232,7 +234,9 @@
             "start": 554,
             "end": 604,
             "value": "Array.of.call(T) throws a Test262Error exception",
-            "raw": "'Array.of.call(T) throws a Test262Error exception'"
+            "raw": "'Array.of.call(T) throws a Test262Error exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

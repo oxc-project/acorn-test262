@@ -61,7 +61,9 @@
                 "start": 354,
                 "end": 356,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -126,7 +128,9 @@
                 "start": 414,
                 "end": 416,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -199,7 +203,9 @@
                         "start": 461,
                         "end": 462,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -209,7 +215,9 @@
                       "start": 466,
                       "end": 468,
                       "value": 12,
-                      "raw": "12"
+                      "raw": "12",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -399,14 +407,18 @@
                 "start": 604,
                 "end": 605,
                 "value": 9,
-                "raw": "9"
+                "raw": "9",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 607,
                 "end": 609,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -416,7 +428,9 @@
             "start": 612,
             "end": 634,
             "value": "func(9, 11) !== true",
-            "raw": "'func(9, 11) !== true'"
+            "raw": "'func(9, 11) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

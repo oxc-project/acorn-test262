@@ -23,7 +23,9 @@
             "start": 345,
             "end": 350,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 403,
                 "end": 407,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -118,7 +122,9 @@
                 "start": 433,
                 "end": 444,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -189,7 +195,9 @@
             "start": 494,
             "end": 497,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -245,7 +253,9 @@
                   "start": 539,
                   "end": 543,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -390,7 +400,9 @@
           "start": 636,
           "end": 637,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -479,7 +491,9 @@
             "start": 694,
             "end": 750,
             "value": "Array.prototype.every.call(child, callbackfn) !== true",
-            "raw": "'Array.prototype.every.call(child, callbackfn) !== true'"
+            "raw": "'Array.prototype.every.call(child, callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -511,7 +525,9 @@
             "start": 770,
             "end": 789,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

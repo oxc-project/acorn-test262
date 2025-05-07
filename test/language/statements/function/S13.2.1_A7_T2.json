@@ -52,7 +52,9 @@
                         "start": 501,
                         "end": 505,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -158,7 +160,9 @@
                       "start": 677,
                       "end": 756,
                       "value": "#1: var x=__func() does not lead to throwing exception. Actual: exception is ",
-                      "raw": "'#1: var x=__func() does not lead to throwing exception. Actual: exception is '"
+                      "raw": "'#1: var x=__func() does not lead to throwing exception. Actual: exception is '",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {

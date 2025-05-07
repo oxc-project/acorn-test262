@@ -22,7 +22,9 @@
             "start": 277,
             "end": 280,
             "value": 0.1,
-            "raw": "0.1"
+            "raw": "0.1",
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "!==",
@@ -31,7 +33,9 @@
           "start": 285,
           "end": 288,
           "value": 0.1,
-          "raw": "0.1"
+          "raw": "0.1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -63,7 +67,9 @@
                     "start": 317,
                     "end": 345,
                     "value": "#1: +0.1 === 0.1. Actual: ",
-                    "raw": "'#1: +0.1 === 0.1. Actual: '"
+                    "raw": "'#1: +0.1 === 0.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -81,7 +87,9 @@
                         "start": 350,
                         "end": 353,
                         "value": 0.1,
-                        "raw": "0.1"
+                        "raw": "0.1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -129,7 +137,9 @@
                   "start": 387,
                   "end": 390,
                   "value": 1.1,
-                  "raw": "1.1"
+                  "raw": "1.1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -147,7 +157,9 @@
             "start": 397,
             "end": 400,
             "value": 1.1,
-            "raw": "1.1"
+            "raw": "1.1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -180,7 +192,9 @@
                     "start": 429,
                     "end": 471,
                     "value": "#2: +new Number(-1.1) === -1.1. Actual: ",
-                    "raw": "'#2: +new Number(-1.1) === -1.1. Actual: '"
+                    "raw": "'#2: +new Number(-1.1) === -1.1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -215,7 +229,9 @@
                               "start": 488,
                               "end": 491,
                               "value": 1.1,
-                              "raw": "1.1"
+                              "raw": "1.1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]

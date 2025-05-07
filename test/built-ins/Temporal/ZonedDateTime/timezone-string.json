@@ -25,14 +25,18 @@
                 "start": 255,
                 "end": 260,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 262,
                 "end": 270,
                 "value": "+01:30",
-                "raw": "\"+01:30\""
+                "raw": "\"+01:30\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -112,6 +116,7 @@
                             "end": 342,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {

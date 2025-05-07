@@ -23,7 +23,9 @@
             "start": 374,
             "end": 377,
             "value": ".",
-            "raw": "\".\""
+            "raw": "\".\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -137,7 +139,9 @@
                     "start": 459,
                     "end": 583,
                     "value": "#1.1: __instance = \".\"; Object.prototype.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: ",
-                    "raw": "'#1.1: __instance = \".\"; Object.prototype.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: '"
+                    "raw": "'#1.1: __instance = \".\"; Object.prototype.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -173,7 +177,9 @@
                           "start": 603,
                           "end": 627,
                           "value": "message to investigate",
-                          "raw": "\"message to investigate\""
+                          "raw": "\"message to investigate\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -251,14 +257,18 @@
                     "start": 698,
                     "end": 702,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 708,
                     "end": 782,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

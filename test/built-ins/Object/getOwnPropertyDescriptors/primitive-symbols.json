@@ -141,14 +141,18 @@
             "start": 405,
             "end": 406,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 445,
             "value": "symbol primitive has no descriptors",
-            "raw": "'symbol primitive has no descriptors'"
+            "raw": "'symbol primitive has no descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

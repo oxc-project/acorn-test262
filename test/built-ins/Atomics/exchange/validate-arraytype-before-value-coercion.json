@@ -70,7 +70,9 @@
                               "start": 1066,
                               "end": 1081,
                               "value": "value coerced",
-                              "raw": "\"value coerced\""
+                              "raw": "\"value coerced\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -164,7 +166,9 @@
                           "start": 1219,
                           "end": 1220,
                           "value": 8,
-                          "raw": "8"
+                          "raw": "8",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -261,7 +265,9 @@
                               "start": 1297,
                               "end": 1298,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Identifier",

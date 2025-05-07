@@ -47,7 +47,9 @@
                 "start": 634,
                 "end": 690,
                 "value": "1; do { if (false) { } else { break; } } while (false)",
-                "raw": "'1; do { if (false) { } else { break; } } while (false)'"
+                "raw": "'1; do { if (false) { } else { break; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 731,
                 "end": 790,
                 "value": "2; do { 3; if (false) { } else { break; } } while (false)",
-                "raw": "'2; do { 3; if (false) { } else { break; } } while (false)'"
+                "raw": "'2; do { 3; if (false) { } else { break; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -165,7 +169,9 @@
                 "start": 831,
                 "end": 890,
                 "value": "4; do { if (false) { 5; } else { break; } } while (false)",
-                "raw": "'4; do { if (false) { 5; } else { break; } } while (false)'"
+                "raw": "'4; do { if (false) { 5; } else { break; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -224,7 +230,9 @@
                 "start": 931,
                 "end": 993,
                 "value": "6; do { 7; if (false) { 8; } else { break; } } while (false)",
-                "raw": "'6; do { 7; if (false) { 8; } else { break; } } while (false)'"
+                "raw": "'6; do { 7; if (false) { 8; } else { break; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -283,7 +291,9 @@
                 "start": 1037,
                 "end": 1096,
                 "value": "9; do { if (false) { } else { continue; } } while (false)",
-                "raw": "'9; do { if (false) { } else { continue; } } while (false)'"
+                "raw": "'9; do { if (false) { } else { continue; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -342,7 +352,9 @@
                 "start": 1137,
                 "end": 1201,
                 "value": "10; do { 11; if (false) { } else { continue; } } while (false)",
-                "raw": "'10; do { 11; if (false) { } else { continue; } } while (false)'"
+                "raw": "'10; do { 11; if (false) { } else { continue; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -401,7 +413,9 @@
                 "start": 1244,
                 "end": 1308,
                 "value": "12; do { if (false) { 13; } else { continue; } } while (false)",
-                "raw": "'12; do { if (false) { 13; } else { continue; } } while (false)'"
+                "raw": "'12; do { if (false) { 13; } else { continue; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -460,7 +474,9 @@
                 "start": 1351,
                 "end": 1419,
                 "value": "14; do { 15; if (false) { 16; } else { continue; } } while (false)",
-                "raw": "'14; do { 15; if (false) { 16; } else { continue; } } while (false)'"
+                "raw": "'14; do { 15; if (false) { 16; } else { continue; } } while (false)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

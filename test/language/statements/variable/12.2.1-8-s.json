@@ -71,7 +71,9 @@
                         "start": 337,
                         "end": 349,
                         "value": "eval = 42;",
-                        "raw": "'eval = 42;'"
+                        "raw": "'eval = 42;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

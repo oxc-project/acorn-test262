@@ -28,21 +28,27 @@
                 "start": 541,
                 "end": 542,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 544,
                 "end": 545,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 547,
                 "end": 548,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -70,7 +76,9 @@
             "start": 567,
             "end": 568,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -215,7 +223,9 @@
                     "start": 681,
                     "end": 682,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -370,14 +380,18 @@
                             "start": 797,
                             "end": 798,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 800,
                             "end": 857,
                             "value": "`Promise.resolve` invoked once for every iterated value",
-                            "raw": "'`Promise.resolve` invoked once for every iterated value'"
+                            "raw": "'`Promise.resolve` invoked once for every iterated value'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -80,21 +80,27 @@
                 "start": 392,
                 "end": 393,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 396,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 399,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -149,7 +155,9 @@
           "start": 436,
           "end": 440,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -230,42 +238,54 @@
                 "start": 486,
                 "end": 487,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 489,
                 "end": 490,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 492,
                 "end": 493,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 495,
                 "end": 496,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 499,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 502,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -274,7 +294,9 @@
             "start": 507,
             "end": 649,
             "value": "[].concat((function(a, b, c) {return arguments;})(1, 2, 3), (function(a, b, c) {return arguments;})(1, 2, 3)) must return [1, 2, 3, 1, 2, 3]",
-            "raw": "'[].concat((function(a, b, c) {return arguments;})(1, 2, 3), (function(a, b, c) {return arguments;})(1, 2, 3)) must return [1, 2, 3, 1, 2, 3]'"
+            "raw": "'[].concat((function(a, b, c) {return arguments;})(1, 2, 3), (function(a, b, c) {return arguments;})(1, 2, 3)) must return [1, 2, 3, 1, 2, 3]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -319,7 +341,9 @@
             "start": 682,
             "end": 690,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -344,7 +368,9 @@
                   "start": 703,
                   "end": 704,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -425,21 +451,27 @@
                 "start": 747,
                 "end": 748,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 751,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 753,
                 "end": 754,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -452,7 +484,9 @@
                   "start": 761,
                   "end": 762,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -466,7 +500,9 @@
                   "start": 769,
                   "end": 770,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -480,7 +516,9 @@
                   "start": 777,
                   "end": 778,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -490,7 +528,9 @@
             "start": 783,
             "end": 890,
             "value": "[].concat((function(a, b, c) {return arguments;})(1, 2, 3)) must return [1, 2, 3, void 0, void 0, void 0]",
-            "raw": "'[].concat((function(a, b, c) {return arguments;})(1, 2, 3)) must return [1, 2, 3, void 0, void 0, void 0]'"
+            "raw": "'[].concat((function(a, b, c) {return arguments;})(1, 2, 3)) must return [1, 2, 3, void 0, void 0, void 0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

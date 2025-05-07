@@ -95,14 +95,18 @@
             "start": 801,
             "end": 806,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 875,
             "value": "isConstructor(Set.prototype[Symbol.iterator]) must return false",
-            "raw": "'isConstructor(Set.prototype[Symbol.iterator]) must return false'"
+            "raw": "'isConstructor(Set.prototype[Symbol.iterator]) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

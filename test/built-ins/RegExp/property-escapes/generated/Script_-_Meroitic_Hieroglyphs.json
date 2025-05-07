@@ -83,14 +83,18 @@
                               "start": 539,
                               "end": 547,
                               "value": 67968,
-                              "raw": "0x010980"
+                              "raw": "0x010980",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 549,
                               "end": 557,
                               "value": 67999,
-                              "raw": "0x01099F"
+                              "raw": "0x01099F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Meroitic_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 647,
             "end": 681,
             "value": "\\p{Script=Meroitic_Hieroglyphs}",
-            "raw": "\"\\\\p{Script=Meroitic_Hieroglyphs}\""
+            "raw": "\"\\\\p{Script=Meroitic_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Mero}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 749,
             "end": 767,
             "value": "\\p{Script=Mero}",
-            "raw": "\"\\\\p{Script=Mero}\""
+            "raw": "\"\\\\p{Script=Mero}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Meroitic_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 847,
             "end": 877,
             "value": "\\p{sc=Meroitic_Hieroglyphs}",
-            "raw": "\"\\\\p{sc=Meroitic_Hieroglyphs}\""
+            "raw": "\"\\\\p{sc=Meroitic_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Mero}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 941,
             "end": 955,
             "value": "\\p{sc=Mero}",
-            "raw": "\"\\\\p{sc=Mero}\""
+            "raw": "\"\\\\p{sc=Mero}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 1037,
                               "end": 1045,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1047,
                               "end": 1055,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 1063,
                               "end": 1071,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1073,
                               "end": 1081,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1089,
                               "end": 1097,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1099,
                               "end": 1107,
                               "value": 67967,
-                              "raw": "0x01097F"
+                              "raw": "0x01097F",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1115,
                               "end": 1123,
                               "value": 68000,
-                              "raw": "0x0109A0"
+                              "raw": "0x0109A0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1125,
                               "end": 1133,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Meroitic_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1226,
             "end": 1260,
             "value": "\\P{Script=Meroitic_Hieroglyphs}",
-            "raw": "\"\\\\P{Script=Meroitic_Hieroglyphs}\""
+            "raw": "\"\\\\P{Script=Meroitic_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Mero}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1331,
             "end": 1349,
             "value": "\\P{Script=Mero}",
-            "raw": "\"\\\\P{Script=Mero}\""
+            "raw": "\"\\\\P{Script=Mero}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Meroitic_Hieroglyphs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1432,
             "end": 1462,
             "value": "\\P{sc=Meroitic_Hieroglyphs}",
-            "raw": "\"\\\\P{sc=Meroitic_Hieroglyphs}\""
+            "raw": "\"\\\\P{sc=Meroitic_Hieroglyphs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Mero}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1529,
             "end": 1543,
             "value": "\\P{sc=Mero}",
-            "raw": "\"\\\\P{sc=Mero}\""
+            "raw": "\"\\\\P{sc=Mero}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

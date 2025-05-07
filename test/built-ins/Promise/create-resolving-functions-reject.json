@@ -52,7 +52,9 @@
                     "start": 506,
                     "end": 507,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -316,14 +318,18 @@
                       "start": 709,
                       "end": 714,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 716,
                       "end": 757,
                       "value": "isConstructor(reject) must return false",
-                      "raw": "'isConstructor(reject) must return false'"
+                      "raw": "'isConstructor(reject) must return false'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -453,14 +459,18 @@
                       "start": 854,
                       "end": 855,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 857,
                       "end": 890,
                       "value": "The value of reject.length is 1",
-                      "raw": "'The value of reject.length is 1'"
+                      "raw": "'The value of reject.length is 1'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -518,14 +528,18 @@
                       "start": 925,
                       "end": 927,
                       "value": "",
-                      "raw": "''"
+                      "raw": "''",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 929,
                       "end": 961,
                       "value": "The value of reject.name is \"\"",
-                      "raw": "'The value of reject.name is \"\"'"
+                      "raw": "'The value of reject.name is \"\"'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

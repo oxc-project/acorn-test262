@@ -40,7 +40,9 @@
                       "start": 3965,
                       "end": 3991,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -140,7 +142,9 @@
                                 "start": 4052,
                                 "end": 4060,
                                 "value": "Module",
-                                "raw": "'Module'"
+                                "raw": "'Module'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -269,14 +273,18 @@
                                 "start": 4427,
                                 "end": 4432,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4434,
                                 "end": 4461,
                                 "value": "reports as non-enumerable",
-                                "raw": "'reports as non-enumerable'"
+                                "raw": "'reports as non-enumerable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -334,14 +342,18 @@
                                 "start": 4496,
                                 "end": 4501,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4503,
                                 "end": 4528,
                                 "value": "reports as non-writable",
-                                "raw": "'reports as non-writable'"
+                                "raw": "'reports as non-writable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -399,14 +411,18 @@
                                 "start": 4567,
                                 "end": 4572,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 4574,
                                 "end": 4603,
                                 "value": "reports as non-configurable",
-                                "raw": "'reports as non-configurable'"
+                                "raw": "'reports as non-configurable'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

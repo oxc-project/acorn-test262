@@ -61,7 +61,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 67356,
                                     "end": 67377,
                                     "raw": "'unknown environment'",
-                                    "value": "unknown environment"
+                                    "value": "unknown environment",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "callee": {
@@ -200,7 +202,9 @@ __ESTREE_TEST__:PASS:
                             "start": 67180,
                             "end": 67191,
                             "raw": "'undefined'",
-                            "value": "undefined"
+                            "value": "undefined",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -256,7 +260,9 @@ __ESTREE_TEST__:PASS:
                             "start": 67096,
                             "end": 67106,
                             "raw": "'function'",
-                            "value": "function"
+                            "value": "function",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -413,7 +419,9 @@ __ESTREE_TEST__:PASS:
                           "start": 66963,
                           "end": 66974,
                           "raw": "'undefined'",
-                          "value": "undefined"
+                          "value": "undefined",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "right": {
@@ -507,7 +515,9 @@ __ESTREE_TEST__:PASS:
                               "start": 79,
                               "end": 91,
                               "raw": "'use strict'",
-                              "value": "use strict"
+                              "value": "use strict",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -590,7 +600,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 149,
                                       "end": 157,
                                       "raw": "\"phones\"",
-                                      "value": "phones"
+                                      "value": "phones",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -611,7 +623,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 169,
                                             "end": 177,
                                             "raw": "\"iPhone\"",
-                                            "value": "iPhone"
+                                            "value": "iPhone",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -622,7 +636,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 179,
                                             "end": 204,
                                             "raw": "\"\\\\biPhone\\\\b|\\\\biPod\\\\b\"",
-                                            "value": "\\biPhone\\b|\\biPod\\b"
+                                            "value": "\\biPhone\\b|\\biPod\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -635,7 +651,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 214,
                                             "end": 226,
                                             "raw": "\"BlackBerry\"",
-                                            "value": "BlackBerry"
+                                            "value": "BlackBerry",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -646,7 +664,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 228,
                                             "end": 261,
                                             "raw": "\"BlackBerry|\\\\bBB10\\\\b|rim[0-9]+\"",
-                                            "value": "BlackBerry|\\bBB10\\b|rim[0-9]+"
+                                            "value": "BlackBerry|\\bBB10\\b|rim[0-9]+",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -659,7 +679,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 271,
                                             "end": 276,
                                             "raw": "\"HTC\"",
-                                            "value": "HTC"
+                                            "value": "HTC",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -670,7 +692,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 278,
                                             "end": 539,
                                             "raw": "\"HTC|HTC.*(Sensation|Evo|Vision|Explorer|6800|8100|8900|A7272|S510e|C110e|Legend|Desire|T8282)|APX515CKT|Qtek9090|APA9292KT|HD_mini|Sensation.*Z710e|PG86100|Z715e|Desire.*(A8181|HD)|ADR6200|ADR6400L|ADR6425|001HT|Inspire 4G|Android.*\\\\bEVO\\\\b|T-Mobile G1|Z520m\"",
-                                            "value": "HTC|HTC.*(Sensation|Evo|Vision|Explorer|6800|8100|8900|A7272|S510e|C110e|Legend|Desire|T8282)|APX515CKT|Qtek9090|APA9292KT|HD_mini|Sensation.*Z710e|PG86100|Z715e|Desire.*(A8181|HD)|ADR6200|ADR6400L|ADR6425|001HT|Inspire 4G|Android.*\\bEVO\\b|T-Mobile G1|Z520m"
+                                            "value": "HTC|HTC.*(Sensation|Evo|Vision|Explorer|6800|8100|8900|A7272|S510e|C110e|Legend|Desire|T8282)|APX515CKT|Qtek9090|APA9292KT|HD_mini|Sensation.*Z710e|PG86100|Z715e|Desire.*(A8181|HD)|ADR6200|ADR6400L|ADR6425|001HT|Inspire 4G|Android.*\\bEVO\\b|T-Mobile G1|Z520m",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -683,7 +707,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 549,
                                             "end": 556,
                                             "raw": "\"Nexus\"",
-                                            "value": "Nexus"
+                                            "value": "Nexus",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -694,7 +720,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 558,
                                             "end": 638,
                                             "raw": "\"Nexus One|Nexus S|Galaxy.*Nexus|Android.*Nexus.*Mobile|Nexus 4|Nexus 5|Nexus 6\"",
-                                            "value": "Nexus One|Nexus S|Galaxy.*Nexus|Android.*Nexus.*Mobile|Nexus 4|Nexus 5|Nexus 6"
+                                            "value": "Nexus One|Nexus S|Galaxy.*Nexus|Android.*Nexus.*Mobile|Nexus 4|Nexus 5|Nexus 6",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -707,7 +735,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 648,
                                             "end": 654,
                                             "raw": "\"Dell\"",
-                                            "value": "Dell"
+                                            "value": "Dell",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -718,7 +748,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 656,
                                             "end": 792,
                                             "raw": "\"Dell.*Streak|Dell.*Aero|Dell.*Venue|DELL.*Venue Pro|Dell Flash|Dell Smoke|Dell Mini 3iX|XCD28|XCD35|\\\\b001DL\\\\b|\\\\b101DL\\\\b|\\\\bGS01\\\\b\"",
-                                            "value": "Dell.*Streak|Dell.*Aero|Dell.*Venue|DELL.*Venue Pro|Dell Flash|Dell Smoke|Dell Mini 3iX|XCD28|XCD35|\\b001DL\\b|\\b101DL\\b|\\bGS01\\b"
+                                            "value": "Dell.*Streak|Dell.*Aero|Dell.*Venue|DELL.*Venue Pro|Dell Flash|Dell Smoke|Dell Mini 3iX|XCD28|XCD35|\\b001DL\\b|\\b101DL\\b|\\bGS01\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -731,7 +763,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 802,
                                             "end": 812,
                                             "raw": "\"Motorola\"",
-                                            "value": "Motorola"
+                                            "value": "Motorola",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -742,7 +776,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 814,
                                             "end": 1480,
                                             "raw": "\"Motorola|DROIDX|DROID BIONIC|\\\\bDroid\\\\b.*Build|Android.*Xoom|HRI39|MOT-|A1260|A1680|A555|A853|A855|A953|A955|A956|Motorola.*ELECTRIFY|Motorola.*i1|i867|i940|MB200|MB300|MB501|MB502|MB508|MB511|MB520|MB525|MB526|MB611|MB612|MB632|MB810|MB855|MB860|MB861|MB865|MB870|ME501|ME502|ME511|ME525|ME600|ME632|ME722|ME811|ME860|ME863|ME865|MT620|MT710|MT716|MT720|MT810|MT870|MT917|Motorola.*TITANIUM|WX435|WX445|XT300|XT301|XT311|XT316|XT317|XT319|XT320|XT390|XT502|XT530|XT531|XT532|XT535|XT603|XT610|XT611|XT615|XT681|XT701|XT702|XT711|XT720|XT800|XT806|XT860|XT862|XT875|XT882|XT883|XT894|XT901|XT907|XT909|XT910|XT912|XT928|XT926|XT915|XT919|XT925|XT1021|\\\\bMoto E\\\\b\"",
-                                            "value": "Motorola|DROIDX|DROID BIONIC|\\bDroid\\b.*Build|Android.*Xoom|HRI39|MOT-|A1260|A1680|A555|A853|A855|A953|A955|A956|Motorola.*ELECTRIFY|Motorola.*i1|i867|i940|MB200|MB300|MB501|MB502|MB508|MB511|MB520|MB525|MB526|MB611|MB612|MB632|MB810|MB855|MB860|MB861|MB865|MB870|ME501|ME502|ME511|ME525|ME600|ME632|ME722|ME811|ME860|ME863|ME865|MT620|MT710|MT716|MT720|MT810|MT870|MT917|Motorola.*TITANIUM|WX435|WX445|XT300|XT301|XT311|XT316|XT317|XT319|XT320|XT390|XT502|XT530|XT531|XT532|XT535|XT603|XT610|XT611|XT615|XT681|XT701|XT702|XT711|XT720|XT800|XT806|XT860|XT862|XT875|XT882|XT883|XT894|XT901|XT907|XT909|XT910|XT912|XT928|XT926|XT915|XT919|XT925|XT1021|\\bMoto E\\b"
+                                            "value": "Motorola|DROIDX|DROID BIONIC|\\bDroid\\b.*Build|Android.*Xoom|HRI39|MOT-|A1260|A1680|A555|A853|A855|A953|A955|A956|Motorola.*ELECTRIFY|Motorola.*i1|i867|i940|MB200|MB300|MB501|MB502|MB508|MB511|MB520|MB525|MB526|MB611|MB612|MB632|MB810|MB855|MB860|MB861|MB865|MB870|ME501|ME502|ME511|ME525|ME600|ME632|ME722|ME811|ME860|ME863|ME865|MT620|MT710|MT716|MT720|MT810|MT870|MT917|Motorola.*TITANIUM|WX435|WX445|XT300|XT301|XT311|XT316|XT317|XT319|XT320|XT390|XT502|XT530|XT531|XT532|XT535|XT603|XT610|XT611|XT615|XT681|XT701|XT702|XT711|XT720|XT800|XT806|XT860|XT862|XT875|XT882|XT883|XT894|XT901|XT907|XT909|XT910|XT912|XT928|XT926|XT915|XT919|XT925|XT1021|\\bMoto E\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -755,7 +791,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 1490,
                                             "end": 1499,
                                             "raw": "\"Samsung\"",
-                                            "value": "Samsung"
+                                            "value": "Samsung",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -766,7 +804,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 1501,
                                             "end": 6817,
                                             "raw": "\"Samsung|SM-G9250|GT-19300|SGH-I337|BGT-S5230|GT-B2100|GT-B2700|GT-B2710|GT-B3210|GT-B3310|GT-B3410|GT-B3730|GT-B3740|GT-B5510|GT-B5512|GT-B5722|GT-B6520|GT-B7300|GT-B7320|GT-B7330|GT-B7350|GT-B7510|GT-B7722|GT-B7800|GT-C3010|GT-C3011|GT-C3060|GT-C3200|GT-C3212|GT-C3212I|GT-C3262|GT-C3222|GT-C3300|GT-C3300K|GT-C3303|GT-C3303K|GT-C3310|GT-C3322|GT-C3330|GT-C3350|GT-C3500|GT-C3510|GT-C3530|GT-C3630|GT-C3780|GT-C5010|GT-C5212|GT-C6620|GT-C6625|GT-C6712|GT-E1050|GT-E1070|GT-E1075|GT-E1080|GT-E1081|GT-E1085|GT-E1087|GT-E1100|GT-E1107|GT-E1110|GT-E1120|GT-E1125|GT-E1130|GT-E1160|GT-E1170|GT-E1175|GT-E1180|GT-E1182|GT-E1200|GT-E1210|GT-E1225|GT-E1230|GT-E1390|GT-E2100|GT-E2120|GT-E2121|GT-E2152|GT-E2220|GT-E2222|GT-E2230|GT-E2232|GT-E2250|GT-E2370|GT-E2550|GT-E2652|GT-E3210|GT-E3213|GT-I5500|GT-I5503|GT-I5700|GT-I5800|GT-I5801|GT-I6410|GT-I6420|GT-I7110|GT-I7410|GT-I7500|GT-I8000|GT-I8150|GT-I8160|GT-I8190|GT-I8320|GT-I8330|GT-I8350|GT-I8530|GT-I8700|GT-I8703|GT-I8910|GT-I9000|GT-I9001|GT-I9003|GT-I9010|GT-I9020|GT-I9023|GT-I9070|GT-I9082|GT-I9100|GT-I9103|GT-I9220|GT-I9250|GT-I9300|GT-I9305|GT-I9500|GT-I9505|GT-M3510|GT-M5650|GT-M7500|GT-M7600|GT-M7603|GT-M8800|GT-M8910|GT-N7000|GT-S3110|GT-S3310|GT-S3350|GT-S3353|GT-S3370|GT-S3650|GT-S3653|GT-S3770|GT-S3850|GT-S5210|GT-S5220|GT-S5229|GT-S5230|GT-S5233|GT-S5250|GT-S5253|GT-S5260|GT-S5263|GT-S5270|GT-S5300|GT-S5330|GT-S5350|GT-S5360|GT-S5363|GT-S5369|GT-S5380|GT-S5380D|GT-S5560|GT-S5570|GT-S5600|GT-S5603|GT-S5610|GT-S5620|GT-S5660|GT-S5670|GT-S5690|GT-S5750|GT-S5780|GT-S5830|GT-S5839|GT-S6102|GT-S6500|GT-S7070|GT-S7200|GT-S7220|GT-S7230|GT-S7233|GT-S7250|GT-S7500|GT-S7530|GT-S7550|GT-S7562|GT-S7710|GT-S8000|GT-S8003|GT-S8500|GT-S8530|GT-S8600|SCH-A310|SCH-A530|SCH-A570|SCH-A610|SCH-A630|SCH-A650|SCH-A790|SCH-A795|SCH-A850|SCH-A870|SCH-A890|SCH-A930|SCH-A950|SCH-A970|SCH-A990|SCH-I100|SCH-I110|SCH-I400|SCH-I405|SCH-I500|SCH-I510|SCH-I515|SCH-I600|SCH-I730|SCH-I760|SCH-I770|SCH-I830|SCH-I910|SCH-I920|SCH-I959|SCH-LC11|SCH-N150|SCH-N300|SCH-R100|SCH-R300|SCH-R351|SCH-R400|SCH-R410|SCH-T300|SCH-U310|SCH-U320|SCH-U350|SCH-U360|SCH-U365|SCH-U370|SCH-U380|SCH-U410|SCH-U430|SCH-U450|SCH-U460|SCH-U470|SCH-U490|SCH-U540|SCH-U550|SCH-U620|SCH-U640|SCH-U650|SCH-U660|SCH-U700|SCH-U740|SCH-U750|SCH-U810|SCH-U820|SCH-U900|SCH-U940|SCH-U960|SCS-26UC|SGH-A107|SGH-A117|SGH-A127|SGH-A137|SGH-A157|SGH-A167|SGH-A177|SGH-A187|SGH-A197|SGH-A227|SGH-A237|SGH-A257|SGH-A437|SGH-A517|SGH-A597|SGH-A637|SGH-A657|SGH-A667|SGH-A687|SGH-A697|SGH-A707|SGH-A717|SGH-A727|SGH-A737|SGH-A747|SGH-A767|SGH-A777|SGH-A797|SGH-A817|SGH-A827|SGH-A837|SGH-A847|SGH-A867|SGH-A877|SGH-A887|SGH-A897|SGH-A927|SGH-B100|SGH-B130|SGH-B200|SGH-B220|SGH-C100|SGH-C110|SGH-C120|SGH-C130|SGH-C140|SGH-C160|SGH-C170|SGH-C180|SGH-C200|SGH-C207|SGH-C210|SGH-C225|SGH-C230|SGH-C417|SGH-C450|SGH-D307|SGH-D347|SGH-D357|SGH-D407|SGH-D415|SGH-D780|SGH-D807|SGH-D980|SGH-E105|SGH-E200|SGH-E315|SGH-E316|SGH-E317|SGH-E335|SGH-E590|SGH-E635|SGH-E715|SGH-E890|SGH-F300|SGH-F480|SGH-I200|SGH-I300|SGH-I320|SGH-I550|SGH-I577|SGH-I600|SGH-I607|SGH-I617|SGH-I627|SGH-I637|SGH-I677|SGH-I700|SGH-I717|SGH-I727|SGH-i747M|SGH-I777|SGH-I780|SGH-I827|SGH-I847|SGH-I857|SGH-I896|SGH-I897|SGH-I900|SGH-I907|SGH-I917|SGH-I927|SGH-I937|SGH-I997|SGH-J150|SGH-J200|SGH-L170|SGH-L700|SGH-M110|SGH-M150|SGH-M200|SGH-N105|SGH-N500|SGH-N600|SGH-N620|SGH-N625|SGH-N700|SGH-N710|SGH-P107|SGH-P207|SGH-P300|SGH-P310|SGH-P520|SGH-P735|SGH-P777|SGH-Q105|SGH-R210|SGH-R220|SGH-R225|SGH-S105|SGH-S307|SGH-T109|SGH-T119|SGH-T139|SGH-T209|SGH-T219|SGH-T229|SGH-T239|SGH-T249|SGH-T259|SGH-T309|SGH-T319|SGH-T329|SGH-T339|SGH-T349|SGH-T359|SGH-T369|SGH-T379|SGH-T409|SGH-T429|SGH-T439|SGH-T459|SGH-T469|SGH-T479|SGH-T499|SGH-T509|SGH-T519|SGH-T539|SGH-T559|SGH-T589|SGH-T609|SGH-T619|SGH-T629|SGH-T639|SGH-T659|SGH-T669|SGH-T679|SGH-T709|SGH-T719|SGH-T729|SGH-T739|SGH-T746|SGH-T749|SGH-T759|SGH-T769|SGH-T809|SGH-T819|SGH-T839|SGH-T919|SGH-T929|SGH-T939|SGH-T959|SGH-T989|SGH-U100|SGH-U200|SGH-U800|SGH-V205|SGH-V206|SGH-X100|SGH-X105|SGH-X120|SGH-X140|SGH-X426|SGH-X427|SGH-X475|SGH-X495|SGH-X497|SGH-X507|SGH-X600|SGH-X610|SGH-X620|SGH-X630|SGH-X700|SGH-X820|SGH-X890|SGH-Z130|SGH-Z150|SGH-Z170|SGH-ZX10|SGH-ZX20|SHW-M110|SPH-A120|SPH-A400|SPH-A420|SPH-A460|SPH-A500|SPH-A560|SPH-A600|SPH-A620|SPH-A660|SPH-A700|SPH-A740|SPH-A760|SPH-A790|SPH-A800|SPH-A820|SPH-A840|SPH-A880|SPH-A900|SPH-A940|SPH-A960|SPH-D600|SPH-D700|SPH-D710|SPH-D720|SPH-I300|SPH-I325|SPH-I330|SPH-I350|SPH-I500|SPH-I600|SPH-I700|SPH-L700|SPH-M100|SPH-M220|SPH-M240|SPH-M300|SPH-M305|SPH-M320|SPH-M330|SPH-M350|SPH-M360|SPH-M370|SPH-M380|SPH-M510|SPH-M540|SPH-M550|SPH-M560|SPH-M570|SPH-M580|SPH-M610|SPH-M620|SPH-M630|SPH-M800|SPH-M810|SPH-M850|SPH-M900|SPH-M910|SPH-M920|SPH-M930|SPH-N100|SPH-N200|SPH-N240|SPH-N300|SPH-N400|SPH-Z400|SWC-E100|SCH-i909|GT-N7100|GT-N7105|SCH-I535|SM-N900A|SGH-I317|SGH-T999L|GT-S5360B|GT-I8262|GT-S6802|GT-S6312|GT-S6310|GT-S5312|GT-S5310|GT-I9105|GT-I8510|GT-S6790N|SM-G7105|SM-N9005|GT-S5301|GT-I9295|GT-I9195|SM-C101|GT-S7392|GT-S7560|GT-B7610|GT-I5510|GT-S7582|GT-S7530E|GT-I8750|SM-G9006V|SM-G9008V|SM-G9009D|SM-G900A|SM-G900D|SM-G900F|SM-G900H|SM-G900I|SM-G900J|SM-G900K|SM-G900L|SM-G900M|SM-G900P|SM-G900R4|SM-G900S|SM-G900T|SM-G900V|SM-G900W8|SHV-E160K|SCH-P709|SCH-P729|SM-T2558|GT-I9205|SM-G9350|SM-J120F\"",
-                                            "value": "Samsung|SM-G9250|GT-19300|SGH-I337|BGT-S5230|GT-B2100|GT-B2700|GT-B2710|GT-B3210|GT-B3310|GT-B3410|GT-B3730|GT-B3740|GT-B5510|GT-B5512|GT-B5722|GT-B6520|GT-B7300|GT-B7320|GT-B7330|GT-B7350|GT-B7510|GT-B7722|GT-B7800|GT-C3010|GT-C3011|GT-C3060|GT-C3200|GT-C3212|GT-C3212I|GT-C3262|GT-C3222|GT-C3300|GT-C3300K|GT-C3303|GT-C3303K|GT-C3310|GT-C3322|GT-C3330|GT-C3350|GT-C3500|GT-C3510|GT-C3530|GT-C3630|GT-C3780|GT-C5010|GT-C5212|GT-C6620|GT-C6625|GT-C6712|GT-E1050|GT-E1070|GT-E1075|GT-E1080|GT-E1081|GT-E1085|GT-E1087|GT-E1100|GT-E1107|GT-E1110|GT-E1120|GT-E1125|GT-E1130|GT-E1160|GT-E1170|GT-E1175|GT-E1180|GT-E1182|GT-E1200|GT-E1210|GT-E1225|GT-E1230|GT-E1390|GT-E2100|GT-E2120|GT-E2121|GT-E2152|GT-E2220|GT-E2222|GT-E2230|GT-E2232|GT-E2250|GT-E2370|GT-E2550|GT-E2652|GT-E3210|GT-E3213|GT-I5500|GT-I5503|GT-I5700|GT-I5800|GT-I5801|GT-I6410|GT-I6420|GT-I7110|GT-I7410|GT-I7500|GT-I8000|GT-I8150|GT-I8160|GT-I8190|GT-I8320|GT-I8330|GT-I8350|GT-I8530|GT-I8700|GT-I8703|GT-I8910|GT-I9000|GT-I9001|GT-I9003|GT-I9010|GT-I9020|GT-I9023|GT-I9070|GT-I9082|GT-I9100|GT-I9103|GT-I9220|GT-I9250|GT-I9300|GT-I9305|GT-I9500|GT-I9505|GT-M3510|GT-M5650|GT-M7500|GT-M7600|GT-M7603|GT-M8800|GT-M8910|GT-N7000|GT-S3110|GT-S3310|GT-S3350|GT-S3353|GT-S3370|GT-S3650|GT-S3653|GT-S3770|GT-S3850|GT-S5210|GT-S5220|GT-S5229|GT-S5230|GT-S5233|GT-S5250|GT-S5253|GT-S5260|GT-S5263|GT-S5270|GT-S5300|GT-S5330|GT-S5350|GT-S5360|GT-S5363|GT-S5369|GT-S5380|GT-S5380D|GT-S5560|GT-S5570|GT-S5600|GT-S5603|GT-S5610|GT-S5620|GT-S5660|GT-S5670|GT-S5690|GT-S5750|GT-S5780|GT-S5830|GT-S5839|GT-S6102|GT-S6500|GT-S7070|GT-S7200|GT-S7220|GT-S7230|GT-S7233|GT-S7250|GT-S7500|GT-S7530|GT-S7550|GT-S7562|GT-S7710|GT-S8000|GT-S8003|GT-S8500|GT-S8530|GT-S8600|SCH-A310|SCH-A530|SCH-A570|SCH-A610|SCH-A630|SCH-A650|SCH-A790|SCH-A795|SCH-A850|SCH-A870|SCH-A890|SCH-A930|SCH-A950|SCH-A970|SCH-A990|SCH-I100|SCH-I110|SCH-I400|SCH-I405|SCH-I500|SCH-I510|SCH-I515|SCH-I600|SCH-I730|SCH-I760|SCH-I770|SCH-I830|SCH-I910|SCH-I920|SCH-I959|SCH-LC11|SCH-N150|SCH-N300|SCH-R100|SCH-R300|SCH-R351|SCH-R400|SCH-R410|SCH-T300|SCH-U310|SCH-U320|SCH-U350|SCH-U360|SCH-U365|SCH-U370|SCH-U380|SCH-U410|SCH-U430|SCH-U450|SCH-U460|SCH-U470|SCH-U490|SCH-U540|SCH-U550|SCH-U620|SCH-U640|SCH-U650|SCH-U660|SCH-U700|SCH-U740|SCH-U750|SCH-U810|SCH-U820|SCH-U900|SCH-U940|SCH-U960|SCS-26UC|SGH-A107|SGH-A117|SGH-A127|SGH-A137|SGH-A157|SGH-A167|SGH-A177|SGH-A187|SGH-A197|SGH-A227|SGH-A237|SGH-A257|SGH-A437|SGH-A517|SGH-A597|SGH-A637|SGH-A657|SGH-A667|SGH-A687|SGH-A697|SGH-A707|SGH-A717|SGH-A727|SGH-A737|SGH-A747|SGH-A767|SGH-A777|SGH-A797|SGH-A817|SGH-A827|SGH-A837|SGH-A847|SGH-A867|SGH-A877|SGH-A887|SGH-A897|SGH-A927|SGH-B100|SGH-B130|SGH-B200|SGH-B220|SGH-C100|SGH-C110|SGH-C120|SGH-C130|SGH-C140|SGH-C160|SGH-C170|SGH-C180|SGH-C200|SGH-C207|SGH-C210|SGH-C225|SGH-C230|SGH-C417|SGH-C450|SGH-D307|SGH-D347|SGH-D357|SGH-D407|SGH-D415|SGH-D780|SGH-D807|SGH-D980|SGH-E105|SGH-E200|SGH-E315|SGH-E316|SGH-E317|SGH-E335|SGH-E590|SGH-E635|SGH-E715|SGH-E890|SGH-F300|SGH-F480|SGH-I200|SGH-I300|SGH-I320|SGH-I550|SGH-I577|SGH-I600|SGH-I607|SGH-I617|SGH-I627|SGH-I637|SGH-I677|SGH-I700|SGH-I717|SGH-I727|SGH-i747M|SGH-I777|SGH-I780|SGH-I827|SGH-I847|SGH-I857|SGH-I896|SGH-I897|SGH-I900|SGH-I907|SGH-I917|SGH-I927|SGH-I937|SGH-I997|SGH-J150|SGH-J200|SGH-L170|SGH-L700|SGH-M110|SGH-M150|SGH-M200|SGH-N105|SGH-N500|SGH-N600|SGH-N620|SGH-N625|SGH-N700|SGH-N710|SGH-P107|SGH-P207|SGH-P300|SGH-P310|SGH-P520|SGH-P735|SGH-P777|SGH-Q105|SGH-R210|SGH-R220|SGH-R225|SGH-S105|SGH-S307|SGH-T109|SGH-T119|SGH-T139|SGH-T209|SGH-T219|SGH-T229|SGH-T239|SGH-T249|SGH-T259|SGH-T309|SGH-T319|SGH-T329|SGH-T339|SGH-T349|SGH-T359|SGH-T369|SGH-T379|SGH-T409|SGH-T429|SGH-T439|SGH-T459|SGH-T469|SGH-T479|SGH-T499|SGH-T509|SGH-T519|SGH-T539|SGH-T559|SGH-T589|SGH-T609|SGH-T619|SGH-T629|SGH-T639|SGH-T659|SGH-T669|SGH-T679|SGH-T709|SGH-T719|SGH-T729|SGH-T739|SGH-T746|SGH-T749|SGH-T759|SGH-T769|SGH-T809|SGH-T819|SGH-T839|SGH-T919|SGH-T929|SGH-T939|SGH-T959|SGH-T989|SGH-U100|SGH-U200|SGH-U800|SGH-V205|SGH-V206|SGH-X100|SGH-X105|SGH-X120|SGH-X140|SGH-X426|SGH-X427|SGH-X475|SGH-X495|SGH-X497|SGH-X507|SGH-X600|SGH-X610|SGH-X620|SGH-X630|SGH-X700|SGH-X820|SGH-X890|SGH-Z130|SGH-Z150|SGH-Z170|SGH-ZX10|SGH-ZX20|SHW-M110|SPH-A120|SPH-A400|SPH-A420|SPH-A460|SPH-A500|SPH-A560|SPH-A600|SPH-A620|SPH-A660|SPH-A700|SPH-A740|SPH-A760|SPH-A790|SPH-A800|SPH-A820|SPH-A840|SPH-A880|SPH-A900|SPH-A940|SPH-A960|SPH-D600|SPH-D700|SPH-D710|SPH-D720|SPH-I300|SPH-I325|SPH-I330|SPH-I350|SPH-I500|SPH-I600|SPH-I700|SPH-L700|SPH-M100|SPH-M220|SPH-M240|SPH-M300|SPH-M305|SPH-M320|SPH-M330|SPH-M350|SPH-M360|SPH-M370|SPH-M380|SPH-M510|SPH-M540|SPH-M550|SPH-M560|SPH-M570|SPH-M580|SPH-M610|SPH-M620|SPH-M630|SPH-M800|SPH-M810|SPH-M850|SPH-M900|SPH-M910|SPH-M920|SPH-M930|SPH-N100|SPH-N200|SPH-N240|SPH-N300|SPH-N400|SPH-Z400|SWC-E100|SCH-i909|GT-N7100|GT-N7105|SCH-I535|SM-N900A|SGH-I317|SGH-T999L|GT-S5360B|GT-I8262|GT-S6802|GT-S6312|GT-S6310|GT-S5312|GT-S5310|GT-I9105|GT-I8510|GT-S6790N|SM-G7105|SM-N9005|GT-S5301|GT-I9295|GT-I9195|SM-C101|GT-S7392|GT-S7560|GT-B7610|GT-I5510|GT-S7582|GT-S7530E|GT-I8750|SM-G9006V|SM-G9008V|SM-G9009D|SM-G900A|SM-G900D|SM-G900F|SM-G900H|SM-G900I|SM-G900J|SM-G900K|SM-G900L|SM-G900M|SM-G900P|SM-G900R4|SM-G900S|SM-G900T|SM-G900V|SM-G900W8|SHV-E160K|SCH-P709|SCH-P729|SM-T2558|GT-I9205|SM-G9350|SM-J120F"
+                                            "value": "Samsung|SM-G9250|GT-19300|SGH-I337|BGT-S5230|GT-B2100|GT-B2700|GT-B2710|GT-B3210|GT-B3310|GT-B3410|GT-B3730|GT-B3740|GT-B5510|GT-B5512|GT-B5722|GT-B6520|GT-B7300|GT-B7320|GT-B7330|GT-B7350|GT-B7510|GT-B7722|GT-B7800|GT-C3010|GT-C3011|GT-C3060|GT-C3200|GT-C3212|GT-C3212I|GT-C3262|GT-C3222|GT-C3300|GT-C3300K|GT-C3303|GT-C3303K|GT-C3310|GT-C3322|GT-C3330|GT-C3350|GT-C3500|GT-C3510|GT-C3530|GT-C3630|GT-C3780|GT-C5010|GT-C5212|GT-C6620|GT-C6625|GT-C6712|GT-E1050|GT-E1070|GT-E1075|GT-E1080|GT-E1081|GT-E1085|GT-E1087|GT-E1100|GT-E1107|GT-E1110|GT-E1120|GT-E1125|GT-E1130|GT-E1160|GT-E1170|GT-E1175|GT-E1180|GT-E1182|GT-E1200|GT-E1210|GT-E1225|GT-E1230|GT-E1390|GT-E2100|GT-E2120|GT-E2121|GT-E2152|GT-E2220|GT-E2222|GT-E2230|GT-E2232|GT-E2250|GT-E2370|GT-E2550|GT-E2652|GT-E3210|GT-E3213|GT-I5500|GT-I5503|GT-I5700|GT-I5800|GT-I5801|GT-I6410|GT-I6420|GT-I7110|GT-I7410|GT-I7500|GT-I8000|GT-I8150|GT-I8160|GT-I8190|GT-I8320|GT-I8330|GT-I8350|GT-I8530|GT-I8700|GT-I8703|GT-I8910|GT-I9000|GT-I9001|GT-I9003|GT-I9010|GT-I9020|GT-I9023|GT-I9070|GT-I9082|GT-I9100|GT-I9103|GT-I9220|GT-I9250|GT-I9300|GT-I9305|GT-I9500|GT-I9505|GT-M3510|GT-M5650|GT-M7500|GT-M7600|GT-M7603|GT-M8800|GT-M8910|GT-N7000|GT-S3110|GT-S3310|GT-S3350|GT-S3353|GT-S3370|GT-S3650|GT-S3653|GT-S3770|GT-S3850|GT-S5210|GT-S5220|GT-S5229|GT-S5230|GT-S5233|GT-S5250|GT-S5253|GT-S5260|GT-S5263|GT-S5270|GT-S5300|GT-S5330|GT-S5350|GT-S5360|GT-S5363|GT-S5369|GT-S5380|GT-S5380D|GT-S5560|GT-S5570|GT-S5600|GT-S5603|GT-S5610|GT-S5620|GT-S5660|GT-S5670|GT-S5690|GT-S5750|GT-S5780|GT-S5830|GT-S5839|GT-S6102|GT-S6500|GT-S7070|GT-S7200|GT-S7220|GT-S7230|GT-S7233|GT-S7250|GT-S7500|GT-S7530|GT-S7550|GT-S7562|GT-S7710|GT-S8000|GT-S8003|GT-S8500|GT-S8530|GT-S8600|SCH-A310|SCH-A530|SCH-A570|SCH-A610|SCH-A630|SCH-A650|SCH-A790|SCH-A795|SCH-A850|SCH-A870|SCH-A890|SCH-A930|SCH-A950|SCH-A970|SCH-A990|SCH-I100|SCH-I110|SCH-I400|SCH-I405|SCH-I500|SCH-I510|SCH-I515|SCH-I600|SCH-I730|SCH-I760|SCH-I770|SCH-I830|SCH-I910|SCH-I920|SCH-I959|SCH-LC11|SCH-N150|SCH-N300|SCH-R100|SCH-R300|SCH-R351|SCH-R400|SCH-R410|SCH-T300|SCH-U310|SCH-U320|SCH-U350|SCH-U360|SCH-U365|SCH-U370|SCH-U380|SCH-U410|SCH-U430|SCH-U450|SCH-U460|SCH-U470|SCH-U490|SCH-U540|SCH-U550|SCH-U620|SCH-U640|SCH-U650|SCH-U660|SCH-U700|SCH-U740|SCH-U750|SCH-U810|SCH-U820|SCH-U900|SCH-U940|SCH-U960|SCS-26UC|SGH-A107|SGH-A117|SGH-A127|SGH-A137|SGH-A157|SGH-A167|SGH-A177|SGH-A187|SGH-A197|SGH-A227|SGH-A237|SGH-A257|SGH-A437|SGH-A517|SGH-A597|SGH-A637|SGH-A657|SGH-A667|SGH-A687|SGH-A697|SGH-A707|SGH-A717|SGH-A727|SGH-A737|SGH-A747|SGH-A767|SGH-A777|SGH-A797|SGH-A817|SGH-A827|SGH-A837|SGH-A847|SGH-A867|SGH-A877|SGH-A887|SGH-A897|SGH-A927|SGH-B100|SGH-B130|SGH-B200|SGH-B220|SGH-C100|SGH-C110|SGH-C120|SGH-C130|SGH-C140|SGH-C160|SGH-C170|SGH-C180|SGH-C200|SGH-C207|SGH-C210|SGH-C225|SGH-C230|SGH-C417|SGH-C450|SGH-D307|SGH-D347|SGH-D357|SGH-D407|SGH-D415|SGH-D780|SGH-D807|SGH-D980|SGH-E105|SGH-E200|SGH-E315|SGH-E316|SGH-E317|SGH-E335|SGH-E590|SGH-E635|SGH-E715|SGH-E890|SGH-F300|SGH-F480|SGH-I200|SGH-I300|SGH-I320|SGH-I550|SGH-I577|SGH-I600|SGH-I607|SGH-I617|SGH-I627|SGH-I637|SGH-I677|SGH-I700|SGH-I717|SGH-I727|SGH-i747M|SGH-I777|SGH-I780|SGH-I827|SGH-I847|SGH-I857|SGH-I896|SGH-I897|SGH-I900|SGH-I907|SGH-I917|SGH-I927|SGH-I937|SGH-I997|SGH-J150|SGH-J200|SGH-L170|SGH-L700|SGH-M110|SGH-M150|SGH-M200|SGH-N105|SGH-N500|SGH-N600|SGH-N620|SGH-N625|SGH-N700|SGH-N710|SGH-P107|SGH-P207|SGH-P300|SGH-P310|SGH-P520|SGH-P735|SGH-P777|SGH-Q105|SGH-R210|SGH-R220|SGH-R225|SGH-S105|SGH-S307|SGH-T109|SGH-T119|SGH-T139|SGH-T209|SGH-T219|SGH-T229|SGH-T239|SGH-T249|SGH-T259|SGH-T309|SGH-T319|SGH-T329|SGH-T339|SGH-T349|SGH-T359|SGH-T369|SGH-T379|SGH-T409|SGH-T429|SGH-T439|SGH-T459|SGH-T469|SGH-T479|SGH-T499|SGH-T509|SGH-T519|SGH-T539|SGH-T559|SGH-T589|SGH-T609|SGH-T619|SGH-T629|SGH-T639|SGH-T659|SGH-T669|SGH-T679|SGH-T709|SGH-T719|SGH-T729|SGH-T739|SGH-T746|SGH-T749|SGH-T759|SGH-T769|SGH-T809|SGH-T819|SGH-T839|SGH-T919|SGH-T929|SGH-T939|SGH-T959|SGH-T989|SGH-U100|SGH-U200|SGH-U800|SGH-V205|SGH-V206|SGH-X100|SGH-X105|SGH-X120|SGH-X140|SGH-X426|SGH-X427|SGH-X475|SGH-X495|SGH-X497|SGH-X507|SGH-X600|SGH-X610|SGH-X620|SGH-X630|SGH-X700|SGH-X820|SGH-X890|SGH-Z130|SGH-Z150|SGH-Z170|SGH-ZX10|SGH-ZX20|SHW-M110|SPH-A120|SPH-A400|SPH-A420|SPH-A460|SPH-A500|SPH-A560|SPH-A600|SPH-A620|SPH-A660|SPH-A700|SPH-A740|SPH-A760|SPH-A790|SPH-A800|SPH-A820|SPH-A840|SPH-A880|SPH-A900|SPH-A940|SPH-A960|SPH-D600|SPH-D700|SPH-D710|SPH-D720|SPH-I300|SPH-I325|SPH-I330|SPH-I350|SPH-I500|SPH-I600|SPH-I700|SPH-L700|SPH-M100|SPH-M220|SPH-M240|SPH-M300|SPH-M305|SPH-M320|SPH-M330|SPH-M350|SPH-M360|SPH-M370|SPH-M380|SPH-M510|SPH-M540|SPH-M550|SPH-M560|SPH-M570|SPH-M580|SPH-M610|SPH-M620|SPH-M630|SPH-M800|SPH-M810|SPH-M850|SPH-M900|SPH-M910|SPH-M920|SPH-M930|SPH-N100|SPH-N200|SPH-N240|SPH-N300|SPH-N400|SPH-Z400|SWC-E100|SCH-i909|GT-N7100|GT-N7105|SCH-I535|SM-N900A|SGH-I317|SGH-T999L|GT-S5360B|GT-I8262|GT-S6802|GT-S6312|GT-S6310|GT-S5312|GT-S5310|GT-I9105|GT-I8510|GT-S6790N|SM-G7105|SM-N9005|GT-S5301|GT-I9295|GT-I9195|SM-C101|GT-S7392|GT-S7560|GT-B7610|GT-I5510|GT-S7582|GT-S7530E|GT-I8750|SM-G9006V|SM-G9008V|SM-G9009D|SM-G900A|SM-G900D|SM-G900F|SM-G900H|SM-G900I|SM-G900J|SM-G900K|SM-G900L|SM-G900M|SM-G900P|SM-G900R4|SM-G900S|SM-G900T|SM-G900V|SM-G900W8|SHV-E160K|SCH-P709|SCH-P729|SM-T2558|GT-I9205|SM-G9350|SM-J120F",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -779,7 +819,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 6827,
                                             "end": 6831,
                                             "raw": "\"LG\"",
-                                            "value": "LG"
+                                            "value": "LG",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -790,7 +832,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 6833,
                                             "end": 7359,
                                             "raw": "\"\\\\bLG\\\\b;|LG[- ]?(C800|C900|E400|E610|E900|E-900|F160|F180K|F180L|F180S|730|855|L160|LS740|LS840|LS970|LU6200|MS690|MS695|MS770|MS840|MS870|MS910|P500|P700|P705|VM696|AS680|AS695|AX840|C729|E970|GS505|272|C395|E739BK|E960|L55C|L75C|LS696|LS860|P769BK|P350|P500|P509|P870|UN272|US730|VS840|VS950|LN272|LN510|LS670|LS855|LW690|MN270|MN510|P509|P769|P930|UN200|UN270|UN510|UN610|US670|US740|US760|UX265|UX840|VN271|VN530|VS660|VS700|VS740|VS750|VS910|VS920|VS930|VX9200|VX11000|AX840A|LW770|P506|P925|P999|E612|D955|D802|MS323)\"",
-                                            "value": "\\bLG\\b;|LG[- ]?(C800|C900|E400|E610|E900|E-900|F160|F180K|F180L|F180S|730|855|L160|LS740|LS840|LS970|LU6200|MS690|MS695|MS770|MS840|MS870|MS910|P500|P700|P705|VM696|AS680|AS695|AX840|C729|E970|GS505|272|C395|E739BK|E960|L55C|L75C|LS696|LS860|P769BK|P350|P500|P509|P870|UN272|US730|VS840|VS950|LN272|LN510|LS670|LS855|LW690|MN270|MN510|P509|P769|P930|UN200|UN270|UN510|UN610|US670|US740|US760|UX265|UX840|VN271|VN530|VS660|VS700|VS740|VS750|VS910|VS920|VS930|VX9200|VX11000|AX840A|LW770|P506|P925|P999|E612|D955|D802|MS323)"
+                                            "value": "\\bLG\\b;|LG[- ]?(C800|C900|E400|E610|E900|E-900|F160|F180K|F180L|F180S|730|855|L160|LS740|LS840|LS970|LU6200|MS690|MS695|MS770|MS840|MS870|MS910|P500|P700|P705|VM696|AS680|AS695|AX840|C729|E970|GS505|272|C395|E739BK|E960|L55C|L75C|LS696|LS860|P769BK|P350|P500|P509|P870|UN272|US730|VS840|VS950|LN272|LN510|LS670|LS855|LW690|MN270|MN510|P509|P769|P930|UN200|UN270|UN510|UN610|US670|US740|US760|UX265|UX840|VN271|VN530|VS660|VS700|VS740|VS750|VS910|VS920|VS930|VX9200|VX11000|AX840A|LW770|P506|P925|P999|E612|D955|D802|MS323)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -803,7 +847,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7369,
                                             "end": 7375,
                                             "raw": "\"Sony\"",
-                                            "value": "Sony"
+                                            "value": "Sony",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -814,7 +860,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7377,
                                             "end": 7501,
                                             "raw": "\"SonyST|SonyLT|SonyEricsson|SonyEricssonLT15iv|LT18i|E10i|LT28h|LT26w|SonyEricssonMT27i|C5303|C6902|C6903|C6906|C6943|D2533\"",
-                                            "value": "SonyST|SonyLT|SonyEricsson|SonyEricssonLT15iv|LT18i|E10i|LT28h|LT26w|SonyEricssonMT27i|C5303|C6902|C6903|C6906|C6943|D2533"
+                                            "value": "SonyST|SonyLT|SonyEricsson|SonyEricssonLT15iv|LT18i|E10i|LT28h|LT26w|SonyEricssonMT27i|C5303|C6902|C6903|C6906|C6943|D2533",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -827,7 +875,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7511,
                                             "end": 7517,
                                             "raw": "\"Asus\"",
-                                            "value": "Asus"
+                                            "value": "Asus",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -838,7 +888,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7519,
                                             "end": 7549,
                                             "raw": "\"Asus.*Galaxy|PadFone.*Mobile\"",
-                                            "value": "Asus.*Galaxy|PadFone.*Mobile"
+                                            "value": "Asus.*Galaxy|PadFone.*Mobile",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -851,7 +903,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7559,
                                             "end": 7571,
                                             "raw": "\"NokiaLumia\"",
-                                            "value": "NokiaLumia"
+                                            "value": "NokiaLumia",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -862,7 +916,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7573,
                                             "end": 7591,
                                             "raw": "\"Lumia [0-9]{3,4}\"",
-                                            "value": "Lumia [0-9]{3,4}"
+                                            "value": "Lumia [0-9]{3,4}",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -875,7 +931,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7601,
                                             "end": 7611,
                                             "raw": "\"Micromax\"",
-                                            "value": "Micromax"
+                                            "value": "Micromax",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -886,7 +944,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7613,
                                             "end": 7724,
                                             "raw": "\"Micromax.*\\\\b(A210|A92|A88|A72|A111|A110Q|A115|A116|A110|A90S|A26|A51|A35|A54|A25|A27|A89|A68|A65|A57|A90)\\\\b\"",
-                                            "value": "Micromax.*\\b(A210|A92|A88|A72|A111|A110Q|A115|A116|A110|A90S|A26|A51|A35|A54|A25|A27|A89|A68|A65|A57|A90)\\b"
+                                            "value": "Micromax.*\\b(A210|A92|A88|A72|A111|A110Q|A115|A116|A110|A90S|A26|A51|A35|A54|A25|A27|A89|A68|A65|A57|A90)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -899,7 +959,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7734,
                                             "end": 7740,
                                             "raw": "\"Palm\"",
-                                            "value": "Palm"
+                                            "value": "Palm",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -910,7 +972,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7742,
                                             "end": 7759,
                                             "raw": "\"PalmSource|Palm\"",
-                                            "value": "PalmSource|Palm"
+                                            "value": "PalmSource|Palm",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -923,7 +987,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7769,
                                             "end": 7776,
                                             "raw": "\"Vertu\"",
-                                            "value": "Vertu"
+                                            "value": "Vertu",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -934,7 +1000,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7778,
                                             "end": 7885,
                                             "raw": "\"Vertu|Vertu.*Ltd|Vertu.*Ascent|Vertu.*Ayxta|Vertu.*Constellation(F|Quest)?|Vertu.*Monika|Vertu.*Signature\"",
-                                            "value": "Vertu|Vertu.*Ltd|Vertu.*Ascent|Vertu.*Ayxta|Vertu.*Constellation(F|Quest)?|Vertu.*Monika|Vertu.*Signature"
+                                            "value": "Vertu|Vertu.*Ltd|Vertu.*Ascent|Vertu.*Ayxta|Vertu.*Constellation(F|Quest)?|Vertu.*Monika|Vertu.*Signature",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -947,7 +1015,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7895,
                                             "end": 7904,
                                             "raw": "\"Pantech\"",
-                                            "value": "Pantech"
+                                            "value": "Pantech",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -958,7 +1028,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 7906,
                                             "end": 8330,
                                             "raw": "\"PANTECH|IM-A850S|IM-A840S|IM-A830L|IM-A830K|IM-A830S|IM-A820L|IM-A810K|IM-A810S|IM-A800S|IM-T100K|IM-A725L|IM-A780L|IM-A775C|IM-A770K|IM-A760S|IM-A750K|IM-A740S|IM-A730S|IM-A720L|IM-A710K|IM-A690L|IM-A690S|IM-A650S|IM-A630K|IM-A600S|VEGA PTL21|PT003|P8010|ADR910L|P6030|P6020|P9070|P4100|P9060|P5000|CDM8992|TXT8045|ADR8995|IS11PT|P2030|P6010|P8000|PT002|IS06|CDM8999|P9050|PT001|TXT8040|P2020|P9020|P2000|P7040|P7000|C790\"",
-                                            "value": "PANTECH|IM-A850S|IM-A840S|IM-A830L|IM-A830K|IM-A830S|IM-A820L|IM-A810K|IM-A810S|IM-A800S|IM-T100K|IM-A725L|IM-A780L|IM-A775C|IM-A770K|IM-A760S|IM-A750K|IM-A740S|IM-A730S|IM-A720L|IM-A710K|IM-A690L|IM-A690S|IM-A650S|IM-A630K|IM-A600S|VEGA PTL21|PT003|P8010|ADR910L|P6030|P6020|P9070|P4100|P9060|P5000|CDM8992|TXT8045|ADR8995|IS11PT|P2030|P6010|P8000|PT002|IS06|CDM8999|P9050|PT001|TXT8040|P2020|P9020|P2000|P7040|P7000|C790"
+                                            "value": "PANTECH|IM-A850S|IM-A840S|IM-A830L|IM-A830K|IM-A830S|IM-A820L|IM-A810K|IM-A810S|IM-A800S|IM-T100K|IM-A725L|IM-A780L|IM-A775C|IM-A770K|IM-A760S|IM-A750K|IM-A740S|IM-A730S|IM-A720L|IM-A710K|IM-A690L|IM-A690S|IM-A650S|IM-A630K|IM-A600S|VEGA PTL21|PT003|P8010|ADR910L|P6030|P6020|P9070|P4100|P9060|P5000|CDM8992|TXT8045|ADR8995|IS11PT|P2030|P6010|P8000|PT002|IS06|CDM8999|P9050|PT001|TXT8040|P2020|P9020|P2000|P7040|P7000|C790",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -971,7 +1043,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8340,
                                             "end": 8345,
                                             "raw": "\"Fly\"",
-                                            "value": "Fly"
+                                            "value": "Fly",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -982,7 +1056,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8347,
                                             "end": 8462,
                                             "raw": "\"IQ230|IQ444|IQ450|IQ440|IQ442|IQ441|IQ245|IQ256|IQ236|IQ255|IQ235|IQ245|IQ275|IQ240|IQ285|IQ280|IQ270|IQ260|IQ250\"",
-                                            "value": "IQ230|IQ444|IQ450|IQ440|IQ442|IQ441|IQ245|IQ256|IQ236|IQ255|IQ235|IQ245|IQ275|IQ240|IQ285|IQ280|IQ270|IQ260|IQ250"
+                                            "value": "IQ230|IQ444|IQ450|IQ440|IQ442|IQ441|IQ245|IQ256|IQ236|IQ255|IQ235|IQ245|IQ275|IQ240|IQ285|IQ280|IQ270|IQ260|IQ250",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -995,7 +1071,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8472,
                                             "end": 8478,
                                             "raw": "\"Wiko\"",
-                                            "value": "Wiko"
+                                            "value": "Wiko",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1006,7 +1084,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8480,
                                             "end": 8716,
                                             "raw": "\"KITE 4G|HIGHWAY|GETAWAY|STAIRWAY|DARKSIDE|DARKFULL|DARKNIGHT|DARKMOON|SLIDE|WAX 4G|RAINBOW|BLOOM|SUNSET|GOA(?!nna)|LENNY|BARRY|IGGY|OZZY|CINK FIVE|CINK PEAX|CINK PEAX 2|CINK SLIM|CINK SLIM 2|CINK +|CINK KING|CINK PEAX|CINK SLIM|SUBLIM\"",
-                                            "value": "KITE 4G|HIGHWAY|GETAWAY|STAIRWAY|DARKSIDE|DARKFULL|DARKNIGHT|DARKMOON|SLIDE|WAX 4G|RAINBOW|BLOOM|SUNSET|GOA(?!nna)|LENNY|BARRY|IGGY|OZZY|CINK FIVE|CINK PEAX|CINK PEAX 2|CINK SLIM|CINK SLIM 2|CINK +|CINK KING|CINK PEAX|CINK SLIM|SUBLIM"
+                                            "value": "KITE 4G|HIGHWAY|GETAWAY|STAIRWAY|DARKSIDE|DARKFULL|DARKNIGHT|DARKMOON|SLIDE|WAX 4G|RAINBOW|BLOOM|SUNSET|GOA(?!nna)|LENNY|BARRY|IGGY|OZZY|CINK FIVE|CINK PEAX|CINK PEAX 2|CINK SLIM|CINK SLIM 2|CINK +|CINK KING|CINK PEAX|CINK SLIM|SUBLIM",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1019,7 +1099,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8726,
                                             "end": 8735,
                                             "raw": "\"iMobile\"",
-                                            "value": "iMobile"
+                                            "value": "iMobile",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1030,7 +1112,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8737,
                                             "end": 8774,
                                             "raw": "\"i-mobile (IQ|i-STYLE|idea|ZAA|Hitz)\"",
-                                            "value": "i-mobile (IQ|i-STYLE|idea|ZAA|Hitz)"
+                                            "value": "i-mobile (IQ|i-STYLE|idea|ZAA|Hitz)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1043,7 +1127,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8784,
                                             "end": 8795,
                                             "raw": "\"SimValley\"",
-                                            "value": "SimValley"
+                                            "value": "SimValley",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1054,7 +1140,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8797,
                                             "end": 8914,
                                             "raw": "\"\\\\b(SP-80|XT-930|SX-340|XT-930|SX-310|SP-360|SP60|SPT-800|SP-120|SPT-800|SP-140|SPX-5|SPX-8|SP-100|SPX-8|SPX-12)\\\\b\"",
-                                            "value": "\\b(SP-80|XT-930|SX-340|XT-930|SX-310|SP-360|SP60|SPT-800|SP-120|SPT-800|SP-140|SPX-5|SPX-8|SP-100|SPX-8|SPX-12)\\b"
+                                            "value": "\\b(SP-80|XT-930|SX-340|XT-930|SX-310|SP-360|SP60|SPT-800|SP-120|SPT-800|SP-140|SPX-5|SPX-8|SP-100|SPX-8|SPX-12)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1067,7 +1155,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8924,
                                             "end": 8934,
                                             "raw": "\"Wolfgang\"",
-                                            "value": "Wolfgang"
+                                            "value": "Wolfgang",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1078,7 +1168,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 8936,
                                             "end": 9001,
                                             "raw": "\"AT-B24D|AT-AS50HD|AT-AS40W|AT-AS55HD|AT-AS45q2|AT-B26D|AT-AS50Q\"",
-                                            "value": "AT-B24D|AT-AS50HD|AT-AS40W|AT-AS55HD|AT-AS45q2|AT-B26D|AT-AS50Q"
+                                            "value": "AT-B24D|AT-AS50HD|AT-AS40W|AT-AS55HD|AT-AS45q2|AT-B26D|AT-AS50Q",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1091,7 +1183,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9011,
                                             "end": 9020,
                                             "raw": "\"Alcatel\"",
-                                            "value": "Alcatel"
+                                            "value": "Alcatel",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1102,7 +1196,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9022,
                                             "end": 9031,
                                             "raw": "\"Alcatel\"",
-                                            "value": "Alcatel"
+                                            "value": "Alcatel",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1115,7 +1211,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9041,
                                             "end": 9051,
                                             "raw": "\"Nintendo\"",
-                                            "value": "Nintendo"
+                                            "value": "Nintendo",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1126,7 +1224,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9053,
                                             "end": 9067,
                                             "raw": "\"Nintendo 3DS\"",
-                                            "value": "Nintendo 3DS"
+                                            "value": "Nintendo 3DS",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1139,7 +1239,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9077,
                                             "end": 9083,
                                             "raw": "\"Amoi\"",
-                                            "value": "Amoi"
+                                            "value": "Amoi",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1150,7 +1252,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9085,
                                             "end": 9091,
                                             "raw": "\"Amoi\"",
-                                            "value": "Amoi"
+                                            "value": "Amoi",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1163,7 +1267,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9101,
                                             "end": 9106,
                                             "raw": "\"INQ\"",
-                                            "value": "INQ"
+                                            "value": "INQ",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1174,7 +1280,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9108,
                                             "end": 9113,
                                             "raw": "\"INQ\"",
-                                            "value": "INQ"
+                                            "value": "INQ",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1187,7 +1295,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9123,
                                             "end": 9137,
                                             "raw": "\"GenericPhone\"",
-                                            "value": "GenericPhone"
+                                            "value": "GenericPhone",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1198,7 +1308,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9139,
                                             "end": 9323,
                                             "raw": "\"Tapatalk|PDA;|SAGEM|\\\\bmmp\\\\b|pocket|\\\\bpsp\\\\b|symbian|Smartphone|smartfon|treo|up.browser|up.link|vodafone|\\\\bwap\\\\b|nokia|Series40|Series60|S60|SonyEricsson|N900|MAUI.*WAP.*Browser\"",
-                                            "value": "Tapatalk|PDA;|SAGEM|\\bmmp\\b|pocket|\\bpsp\\b|symbian|Smartphone|smartfon|treo|up.browser|up.link|vodafone|\\bwap\\b|nokia|Series40|Series60|S60|SonyEricsson|N900|MAUI.*WAP.*Browser"
+                                            "value": "Tapatalk|PDA;|SAGEM|\\bmmp\\b|pocket|\\bpsp\\b|symbian|Smartphone|smartfon|treo|up.browser|up.link|vodafone|\\bwap\\b|nokia|Series40|Series60|S60|SonyEricsson|N900|MAUI.*WAP.*Browser",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -1214,7 +1326,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 9335,
                                       "end": 9344,
                                       "raw": "\"tablets\"",
-                                      "value": "tablets"
+                                      "value": "tablets",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -1235,7 +1349,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9356,
                                             "end": 9362,
                                             "raw": "\"iPad\"",
-                                            "value": "iPad"
+                                            "value": "iPad",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1246,7 +1362,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9364,
                                             "end": 9383,
                                             "raw": "\"iPad|iPad.*Mobile\"",
-                                            "value": "iPad|iPad.*Mobile"
+                                            "value": "iPad|iPad.*Mobile",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1259,7 +1377,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9393,
                                             "end": 9406,
                                             "raw": "\"NexusTablet\"",
-                                            "value": "NexusTablet"
+                                            "value": "NexusTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1270,7 +1390,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9408,
                                             "end": 9438,
                                             "raw": "\"Android.*Nexus[\\\\s]+(7|9|10)\"",
-                                            "value": "Android.*Nexus[\\s]+(7|9|10)"
+                                            "value": "Android.*Nexus[\\s]+(7|9|10)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1283,7 +1405,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9448,
                                             "end": 9463,
                                             "raw": "\"SamsungTablet\"",
-                                            "value": "SamsungTablet"
+                                            "value": "SamsungTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1294,7 +1418,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 9465,
                                             "end": 11061,
                                             "raw": "\"SAMSUNG.*Tablet|Galaxy.*Tab|SC-01C|GT-P1000|GT-P1003|GT-P1010|GT-P3105|GT-P6210|GT-P6800|GT-P6810|GT-P7100|GT-P7300|GT-P7310|GT-P7500|GT-P7510|SCH-I800|SCH-I815|SCH-I905|SGH-I957|SGH-I987|SGH-T849|SGH-T859|SGH-T869|SPH-P100|GT-P3100|GT-P3108|GT-P3110|GT-P5100|GT-P5110|GT-P6200|GT-P7320|GT-P7511|GT-N8000|GT-P8510|SGH-I497|SPH-P500|SGH-T779|SCH-I705|SCH-I915|GT-N8013|GT-P3113|GT-P5113|GT-P8110|GT-N8010|GT-N8005|GT-N8020|GT-P1013|GT-P6201|GT-P7501|GT-N5100|GT-N5105|GT-N5110|SHV-E140K|SHV-E140L|SHV-E140S|SHV-E150S|SHV-E230K|SHV-E230L|SHV-E230S|SHW-M180K|SHW-M180L|SHW-M180S|SHW-M180W|SHW-M300W|SHW-M305W|SHW-M380K|SHW-M380S|SHW-M380W|SHW-M430W|SHW-M480K|SHW-M480S|SHW-M480W|SHW-M485W|SHW-M486W|SHW-M500W|GT-I9228|SCH-P739|SCH-I925|GT-I9200|GT-P5200|GT-P5210|GT-P5210X|SM-T311|SM-T310|SM-T310X|SM-T210|SM-T210R|SM-T211|SM-P600|SM-P601|SM-P605|SM-P900|SM-P901|SM-T217|SM-T217A|SM-T217S|SM-P6000|SM-T3100|SGH-I467|XE500|SM-T110|GT-P5220|GT-I9200X|GT-N5110X|GT-N5120|SM-P905|SM-T111|SM-T2105|SM-T315|SM-T320|SM-T320X|SM-T321|SM-T520|SM-T525|SM-T530NU|SM-T230NU|SM-T330NU|SM-T900|XE500T1C|SM-P605V|SM-P905V|SM-T337V|SM-T537V|SM-T707V|SM-T807V|SM-P600X|SM-P900X|SM-T210X|SM-T230|SM-T230X|SM-T325|GT-P7503|SM-T531|SM-T330|SM-T530|SM-T705|SM-T705C|SM-T535|SM-T331|SM-T800|SM-T700|SM-T537|SM-T807|SM-P907A|SM-T337A|SM-T537A|SM-T707A|SM-T807A|SM-T237|SM-T807P|SM-P607T|SM-T217T|SM-T337T|SM-T807T|SM-T116NQ|SM-P550|SM-T350|SM-T550|SM-T9000|SM-P9000|SM-T705Y|SM-T805|GT-P3113|SM-T710|SM-T810|SM-T815|SM-T360|SM-T533|SM-T113|SM-T335|SM-T715|SM-T560|SM-T670|SM-T677|SM-T377|SM-T567|SM-T357T|SM-T555|SM-T561\"",
-                                            "value": "SAMSUNG.*Tablet|Galaxy.*Tab|SC-01C|GT-P1000|GT-P1003|GT-P1010|GT-P3105|GT-P6210|GT-P6800|GT-P6810|GT-P7100|GT-P7300|GT-P7310|GT-P7500|GT-P7510|SCH-I800|SCH-I815|SCH-I905|SGH-I957|SGH-I987|SGH-T849|SGH-T859|SGH-T869|SPH-P100|GT-P3100|GT-P3108|GT-P3110|GT-P5100|GT-P5110|GT-P6200|GT-P7320|GT-P7511|GT-N8000|GT-P8510|SGH-I497|SPH-P500|SGH-T779|SCH-I705|SCH-I915|GT-N8013|GT-P3113|GT-P5113|GT-P8110|GT-N8010|GT-N8005|GT-N8020|GT-P1013|GT-P6201|GT-P7501|GT-N5100|GT-N5105|GT-N5110|SHV-E140K|SHV-E140L|SHV-E140S|SHV-E150S|SHV-E230K|SHV-E230L|SHV-E230S|SHW-M180K|SHW-M180L|SHW-M180S|SHW-M180W|SHW-M300W|SHW-M305W|SHW-M380K|SHW-M380S|SHW-M380W|SHW-M430W|SHW-M480K|SHW-M480S|SHW-M480W|SHW-M485W|SHW-M486W|SHW-M500W|GT-I9228|SCH-P739|SCH-I925|GT-I9200|GT-P5200|GT-P5210|GT-P5210X|SM-T311|SM-T310|SM-T310X|SM-T210|SM-T210R|SM-T211|SM-P600|SM-P601|SM-P605|SM-P900|SM-P901|SM-T217|SM-T217A|SM-T217S|SM-P6000|SM-T3100|SGH-I467|XE500|SM-T110|GT-P5220|GT-I9200X|GT-N5110X|GT-N5120|SM-P905|SM-T111|SM-T2105|SM-T315|SM-T320|SM-T320X|SM-T321|SM-T520|SM-T525|SM-T530NU|SM-T230NU|SM-T330NU|SM-T900|XE500T1C|SM-P605V|SM-P905V|SM-T337V|SM-T537V|SM-T707V|SM-T807V|SM-P600X|SM-P900X|SM-T210X|SM-T230|SM-T230X|SM-T325|GT-P7503|SM-T531|SM-T330|SM-T530|SM-T705|SM-T705C|SM-T535|SM-T331|SM-T800|SM-T700|SM-T537|SM-T807|SM-P907A|SM-T337A|SM-T537A|SM-T707A|SM-T807A|SM-T237|SM-T807P|SM-P607T|SM-T217T|SM-T337T|SM-T807T|SM-T116NQ|SM-P550|SM-T350|SM-T550|SM-T9000|SM-P9000|SM-T705Y|SM-T805|GT-P3113|SM-T710|SM-T810|SM-T815|SM-T360|SM-T533|SM-T113|SM-T335|SM-T715|SM-T560|SM-T670|SM-T677|SM-T377|SM-T567|SM-T357T|SM-T555|SM-T561"
+                                            "value": "SAMSUNG.*Tablet|Galaxy.*Tab|SC-01C|GT-P1000|GT-P1003|GT-P1010|GT-P3105|GT-P6210|GT-P6800|GT-P6810|GT-P7100|GT-P7300|GT-P7310|GT-P7500|GT-P7510|SCH-I800|SCH-I815|SCH-I905|SGH-I957|SGH-I987|SGH-T849|SGH-T859|SGH-T869|SPH-P100|GT-P3100|GT-P3108|GT-P3110|GT-P5100|GT-P5110|GT-P6200|GT-P7320|GT-P7511|GT-N8000|GT-P8510|SGH-I497|SPH-P500|SGH-T779|SCH-I705|SCH-I915|GT-N8013|GT-P3113|GT-P5113|GT-P8110|GT-N8010|GT-N8005|GT-N8020|GT-P1013|GT-P6201|GT-P7501|GT-N5100|GT-N5105|GT-N5110|SHV-E140K|SHV-E140L|SHV-E140S|SHV-E150S|SHV-E230K|SHV-E230L|SHV-E230S|SHW-M180K|SHW-M180L|SHW-M180S|SHW-M180W|SHW-M300W|SHW-M305W|SHW-M380K|SHW-M380S|SHW-M380W|SHW-M430W|SHW-M480K|SHW-M480S|SHW-M480W|SHW-M485W|SHW-M486W|SHW-M500W|GT-I9228|SCH-P739|SCH-I925|GT-I9200|GT-P5200|GT-P5210|GT-P5210X|SM-T311|SM-T310|SM-T310X|SM-T210|SM-T210R|SM-T211|SM-P600|SM-P601|SM-P605|SM-P900|SM-P901|SM-T217|SM-T217A|SM-T217S|SM-P6000|SM-T3100|SGH-I467|XE500|SM-T110|GT-P5220|GT-I9200X|GT-N5110X|GT-N5120|SM-P905|SM-T111|SM-T2105|SM-T315|SM-T320|SM-T320X|SM-T321|SM-T520|SM-T525|SM-T530NU|SM-T230NU|SM-T330NU|SM-T900|XE500T1C|SM-P605V|SM-P905V|SM-T337V|SM-T537V|SM-T707V|SM-T807V|SM-P600X|SM-P900X|SM-T210X|SM-T230|SM-T230X|SM-T325|GT-P7503|SM-T531|SM-T330|SM-T530|SM-T705|SM-T705C|SM-T535|SM-T331|SM-T800|SM-T700|SM-T537|SM-T807|SM-P907A|SM-T337A|SM-T537A|SM-T707A|SM-T807A|SM-T237|SM-T807P|SM-P607T|SM-T217T|SM-T337T|SM-T807T|SM-T116NQ|SM-P550|SM-T350|SM-T550|SM-T9000|SM-P9000|SM-T705Y|SM-T805|GT-P3113|SM-T710|SM-T810|SM-T815|SM-T360|SM-T533|SM-T113|SM-T335|SM-T715|SM-T560|SM-T670|SM-T677|SM-T377|SM-T567|SM-T357T|SM-T555|SM-T561",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1307,7 +1433,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11071,
                                             "end": 11079,
                                             "raw": "\"Kindle\"",
-                                            "value": "Kindle"
+                                            "value": "Kindle",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1318,7 +1446,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11081,
                                             "end": 11222,
                                             "raw": "\"Kindle|Silk.*Accelerated|Android.*\\\\b(KFOT|KFTT|KFJWI|KFJWA|KFOTE|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|WFJWAE|KFSAWA|KFSAWI|KFASWI|KFARWI)\\\\b\"",
-                                            "value": "Kindle|Silk.*Accelerated|Android.*\\b(KFOT|KFTT|KFJWI|KFJWA|KFOTE|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|WFJWAE|KFSAWA|KFSAWI|KFASWI|KFARWI)\\b"
+                                            "value": "Kindle|Silk.*Accelerated|Android.*\\b(KFOT|KFTT|KFJWI|KFJWA|KFOTE|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|WFJWAE|KFSAWA|KFSAWI|KFASWI|KFARWI)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1331,7 +1461,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11232,
                                             "end": 11247,
                                             "raw": "\"SurfaceTablet\"",
-                                            "value": "SurfaceTablet"
+                                            "value": "SurfaceTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1342,7 +1474,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11249,
                                             "end": 11292,
                                             "raw": "\"Windows NT [0-9.]+; ARM;.*(Tablet|ARMBJS)\"",
-                                            "value": "Windows NT [0-9.]+; ARM;.*(Tablet|ARMBJS)"
+                                            "value": "Windows NT [0-9.]+; ARM;.*(Tablet|ARMBJS)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1355,7 +1489,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11302,
                                             "end": 11312,
                                             "raw": "\"HPTablet\"",
-                                            "value": "HPTablet"
+                                            "value": "HPTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1366,7 +1502,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11314,
                                             "end": 11406,
                                             "raw": "\"HP Slate (7|8|10)|HP ElitePad 900|hp-tablet|EliteBook.*Touch|HP 8|Slate 21|HP SlateBook 10\"",
-                                            "value": "HP Slate (7|8|10)|HP ElitePad 900|hp-tablet|EliteBook.*Touch|HP 8|Slate 21|HP SlateBook 10"
+                                            "value": "HP Slate (7|8|10)|HP ElitePad 900|hp-tablet|EliteBook.*Touch|HP 8|Slate 21|HP SlateBook 10",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1379,7 +1517,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11416,
                                             "end": 11428,
                                             "raw": "\"AsusTablet\"",
-                                            "value": "AsusTablet"
+                                            "value": "AsusTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1390,7 +1530,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11430,
                                             "end": 11816,
                                             "raw": "\"^.*PadFone((?!Mobile).)*$|Transformer|TF101|TF101G|TF300T|TF300TG|TF300TL|TF700T|TF700KL|TF701T|TF810C|ME171|ME301T|ME302C|ME371MG|ME370T|ME372MG|ME172V|ME173X|ME400C|Slider SL101|\\\\bK00F\\\\b|\\\\bK00C\\\\b|\\\\bK00E\\\\b|\\\\bK00L\\\\b|TX201LA|ME176C|ME102A|\\\\bM80TA\\\\b|ME372CL|ME560CG|ME372CG|ME302KL| K010 | K017 |ME572C|ME103K|ME170C|ME171C|\\\\bME70C\\\\b|ME581C|ME581CL|ME8510C|ME181C|P01Y|PO1MA\"",
-                                            "value": "^.*PadFone((?!Mobile).)*$|Transformer|TF101|TF101G|TF300T|TF300TG|TF300TL|TF700T|TF700KL|TF701T|TF810C|ME171|ME301T|ME302C|ME371MG|ME370T|ME372MG|ME172V|ME173X|ME400C|Slider SL101|\\bK00F\\b|\\bK00C\\b|\\bK00E\\b|\\bK00L\\b|TX201LA|ME176C|ME102A|\\bM80TA\\b|ME372CL|ME560CG|ME372CG|ME302KL| K010 | K017 |ME572C|ME103K|ME170C|ME171C|\\bME70C\\b|ME581C|ME581CL|ME8510C|ME181C|P01Y|PO1MA"
+                                            "value": "^.*PadFone((?!Mobile).)*$|Transformer|TF101|TF101G|TF300T|TF300TG|TF300TL|TF700T|TF700KL|TF701T|TF810C|ME171|ME301T|ME302C|ME371MG|ME370T|ME372MG|ME172V|ME173X|ME400C|Slider SL101|\\bK00F\\b|\\bK00C\\b|\\bK00E\\b|\\bK00L\\b|TX201LA|ME176C|ME102A|\\bM80TA\\b|ME372CL|ME560CG|ME372CG|ME302KL| K010 | K017 |ME572C|ME103K|ME170C|ME171C|\\bME70C\\b|ME581C|ME581CL|ME8510C|ME181C|P01Y|PO1MA",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1403,7 +1545,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11826,
                                             "end": 11844,
                                             "raw": "\"BlackBerryTablet\"",
-                                            "value": "BlackBerryTablet"
+                                            "value": "BlackBerryTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1414,7 +1558,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11846,
                                             "end": 11867,
                                             "raw": "\"PlayBook|RIM Tablet\"",
-                                            "value": "PlayBook|RIM Tablet"
+                                            "value": "PlayBook|RIM Tablet",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1427,7 +1573,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11877,
                                             "end": 11888,
                                             "raw": "\"HTCtablet\"",
-                                            "value": "HTCtablet"
+                                            "value": "HTCtablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1438,7 +1586,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11890,
                                             "end": 11972,
                                             "raw": "\"HTC_Flyer_P512|HTC Flyer|HTC Jetstream|HTC-P715a|HTC EVO View 4G|PG41200|PG09410\"",
-                                            "value": "HTC_Flyer_P512|HTC Flyer|HTC Jetstream|HTC-P715a|HTC EVO View 4G|PG41200|PG09410"
+                                            "value": "HTC_Flyer_P512|HTC Flyer|HTC Jetstream|HTC-P715a|HTC EVO View 4G|PG41200|PG09410",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1451,7 +1601,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 11982,
                                             "end": 11998,
                                             "raw": "\"MotorolaTablet\"",
-                                            "value": "MotorolaTablet"
+                                            "value": "MotorolaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1462,7 +1614,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12000,
                                             "end": 12098,
                                             "raw": "\"xoom|sholest|MZ615|MZ605|MZ505|MZ601|MZ602|MZ603|MZ604|MZ606|MZ607|MZ608|MZ609|MZ615|MZ616|MZ617\"",
-                                            "value": "xoom|sholest|MZ615|MZ605|MZ505|MZ601|MZ602|MZ603|MZ604|MZ606|MZ607|MZ608|MZ609|MZ615|MZ616|MZ617"
+                                            "value": "xoom|sholest|MZ615|MZ605|MZ505|MZ601|MZ602|MZ603|MZ604|MZ606|MZ607|MZ608|MZ609|MZ615|MZ616|MZ617",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1475,7 +1629,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12108,
                                             "end": 12120,
                                             "raw": "\"NookTablet\"",
-                                            "value": "NookTablet"
+                                            "value": "NookTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1486,7 +1642,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12122,
                                             "end": 12224,
                                             "raw": "\"Android.*Nook|NookColor|nook browser|BNRV200|BNRV200A|BNTV250|BNTV250A|BNTV400|BNTV600|LogicPD Zoom2\"",
-                                            "value": "Android.*Nook|NookColor|nook browser|BNRV200|BNRV200A|BNTV250|BNTV250A|BNTV400|BNTV600|LogicPD Zoom2"
+                                            "value": "Android.*Nook|NookColor|nook browser|BNRV200|BNRV200A|BNTV250|BNTV250A|BNTV400|BNTV600|LogicPD Zoom2",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1499,7 +1657,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12234,
                                             "end": 12246,
                                             "raw": "\"AcerTablet\"",
-                                            "value": "AcerTablet"
+                                            "value": "AcerTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1510,7 +1670,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12248,
                                             "end": 12461,
                                             "raw": "\"Android.*; \\\\b(A100|A101|A110|A200|A210|A211|A500|A501|A510|A511|A700|A701|W500|W500P|W501|W501P|W510|W511|W700|G100|G100W|B1-A71|B1-710|B1-711|A1-810|A1-811|A1-830)\\\\b|W3-810|\\\\bA3-A10\\\\b|\\\\bA3-A11\\\\b|\\\\bA3-A20\"",
-                                            "value": "Android.*; \\b(A100|A101|A110|A200|A210|A211|A500|A501|A510|A511|A700|A701|W500|W500P|W501|W501P|W510|W511|W700|G100|G100W|B1-A71|B1-710|B1-711|A1-810|A1-811|A1-830)\\b|W3-810|\\bA3-A10\\b|\\bA3-A11\\b|\\bA3-A20"
+                                            "value": "Android.*; \\b(A100|A101|A110|A200|A210|A211|A500|A501|A510|A511|A700|A701|W500|W500P|W501|W501P|W510|W511|W700|G100|G100W|B1-A71|B1-710|B1-711|A1-810|A1-811|A1-830)\\b|W3-810|\\bA3-A10\\b|\\bA3-A11\\b|\\bA3-A20",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1523,7 +1685,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12471,
                                             "end": 12486,
                                             "raw": "\"ToshibaTablet\"",
-                                            "value": "ToshibaTablet"
+                                            "value": "ToshibaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1534,7 +1698,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12488,
                                             "end": 12593,
                                             "raw": "\"Android.*(AT100|AT105|AT200|AT205|AT270|AT275|AT300|AT305|AT1S5|AT500|AT570|AT700|AT830)|TOSHIBA.*FOLIO\"",
-                                            "value": "Android.*(AT100|AT105|AT200|AT205|AT270|AT275|AT300|AT305|AT1S5|AT500|AT570|AT700|AT830)|TOSHIBA.*FOLIO"
+                                            "value": "Android.*(AT100|AT105|AT200|AT205|AT270|AT275|AT300|AT305|AT1S5|AT500|AT570|AT700|AT830)|TOSHIBA.*FOLIO",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1547,7 +1713,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12603,
                                             "end": 12613,
                                             "raw": "\"LGTablet\"",
-                                            "value": "LGTablet"
+                                            "value": "LGTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1558,7 +1726,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12615,
                                             "end": 12693,
                                             "raw": "\"\\\\bL-06C|LG-V909|LG-V900|LG-V700|LG-V510|LG-V500|LG-V410|LG-V400|LG-VK810\\\\b\"",
-                                            "value": "\\bL-06C|LG-V909|LG-V900|LG-V700|LG-V510|LG-V500|LG-V410|LG-V400|LG-VK810\\b"
+                                            "value": "\\bL-06C|LG-V909|LG-V900|LG-V700|LG-V510|LG-V500|LG-V410|LG-V400|LG-VK810\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1571,7 +1741,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12703,
                                             "end": 12718,
                                             "raw": "\"FujitsuTablet\"",
-                                            "value": "FujitsuTablet"
+                                            "value": "FujitsuTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1582,7 +1754,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12720,
                                             "end": 12772,
                                             "raw": "\"Android.*\\\\b(F-01D|F-02F|F-05E|F-10D|M532|Q572)\\\\b\"",
-                                            "value": "Android.*\\b(F-01D|F-02F|F-05E|F-10D|M532|Q572)\\b"
+                                            "value": "Android.*\\b(F-01D|F-02F|F-05E|F-10D|M532|Q572)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1595,7 +1769,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12782,
                                             "end": 12799,
                                             "raw": "\"PrestigioTablet\"",
-                                            "value": "PrestigioTablet"
+                                            "value": "PrestigioTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1606,7 +1782,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 12801,
                                             "end": 13216,
                                             "raw": "\"PMP3170B|PMP3270B|PMP3470B|PMP7170B|PMP3370B|PMP3570C|PMP5870C|PMP3670B|PMP5570C|PMP5770D|PMP3970B|PMP3870C|PMP5580C|PMP5880D|PMP5780D|PMP5588C|PMP7280C|PMP7280C3G|PMP7280|PMP7880D|PMP5597D|PMP5597|PMP7100D|PER3464|PER3274|PER3574|PER3884|PER5274|PER5474|PMP5097CPRO|PMP5097|PMP7380D|PMP5297C|PMP5297C_QUAD|PMP812E|PMP812E3G|PMP812F|PMP810E|PMP880TD|PMT3017|PMT3037|PMT3047|PMT3057|PMT7008|PMT5887|PMT5001|PMT5002\"",
-                                            "value": "PMP3170B|PMP3270B|PMP3470B|PMP7170B|PMP3370B|PMP3570C|PMP5870C|PMP3670B|PMP5570C|PMP5770D|PMP3970B|PMP3870C|PMP5580C|PMP5880D|PMP5780D|PMP5588C|PMP7280C|PMP7280C3G|PMP7280|PMP7880D|PMP5597D|PMP5597|PMP7100D|PER3464|PER3274|PER3574|PER3884|PER5274|PER5474|PMP5097CPRO|PMP5097|PMP7380D|PMP5297C|PMP5297C_QUAD|PMP812E|PMP812E3G|PMP812F|PMP810E|PMP880TD|PMT3017|PMT3037|PMT3047|PMT3057|PMT7008|PMT5887|PMT5001|PMT5002"
+                                            "value": "PMP3170B|PMP3270B|PMP3470B|PMP7170B|PMP3370B|PMP3570C|PMP5870C|PMP3670B|PMP5570C|PMP5770D|PMP3970B|PMP3870C|PMP5580C|PMP5880D|PMP5780D|PMP5588C|PMP7280C|PMP7280C3G|PMP7280|PMP7880D|PMP5597D|PMP5597|PMP7100D|PER3464|PER3274|PER3574|PER3884|PER5274|PER5474|PMP5097CPRO|PMP5097|PMP7380D|PMP5297C|PMP5297C_QUAD|PMP812E|PMP812E3G|PMP812F|PMP810E|PMP880TD|PMT3017|PMT3037|PMT3047|PMT3057|PMT7008|PMT5887|PMT5001|PMT5002",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1619,7 +1797,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 13226,
                                             "end": 13240,
                                             "raw": "\"LenovoTablet\"",
-                                            "value": "LenovoTablet"
+                                            "value": "LenovoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1630,7 +1810,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 13242,
                                             "end": 13453,
                                             "raw": "\"Lenovo TAB|Idea(Tab|Pad)( A1|A10| K1|)|ThinkPad([ ]+)?Tablet|YT3-X90L|YT3-X90F|YT3-X90X|Lenovo.*(S2109|S2110|S5000|S6000|K3011|A3000|A3500|A1000|A2107|A2109|A1107|A5500|A7600|B6000|B8000|B8080)(-|)(FL|F|HV|H|)\"",
-                                            "value": "Lenovo TAB|Idea(Tab|Pad)( A1|A10| K1|)|ThinkPad([ ]+)?Tablet|YT3-X90L|YT3-X90F|YT3-X90X|Lenovo.*(S2109|S2110|S5000|S6000|K3011|A3000|A3500|A1000|A2107|A2109|A1107|A5500|A7600|B6000|B8000|B8080)(-|)(FL|F|HV|H|)"
+                                            "value": "Lenovo TAB|Idea(Tab|Pad)( A1|A10| K1|)|ThinkPad([ ]+)?Tablet|YT3-X90L|YT3-X90F|YT3-X90X|Lenovo.*(S2109|S2110|S5000|S6000|K3011|A3000|A3500|A1000|A2107|A2109|A1107|A5500|A7600|B6000|B8000|B8080)(-|)(FL|F|HV|H|)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1643,7 +1825,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 13463,
                                             "end": 13475,
                                             "raw": "\"DellTablet\"",
-                                            "value": "DellTablet"
+                                            "value": "DellTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1654,7 +1838,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 13477,
                                             "end": 13532,
                                             "raw": "\"Venue 11|Venue 8|Venue 7|Dell Streak 10|Dell Streak 7\"",
-                                            "value": "Venue 11|Venue 8|Venue 7|Dell Streak 10|Dell Streak 7"
+                                            "value": "Venue 11|Venue 8|Venue 7|Dell Streak 10|Dell Streak 7",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1667,7 +1853,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 13542,
                                             "end": 13556,
                                             "raw": "\"YarvikTablet\"",
-                                            "value": "YarvikTablet"
+                                            "value": "YarvikTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1678,7 +1866,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 13558,
                                             "end": 14054,
                                             "raw": "\"Android.*\\\\b(TAB210|TAB211|TAB224|TAB250|TAB260|TAB264|TAB310|TAB360|TAB364|TAB410|TAB411|TAB420|TAB424|TAB450|TAB460|TAB461|TAB464|TAB465|TAB467|TAB468|TAB07-100|TAB07-101|TAB07-150|TAB07-151|TAB07-152|TAB07-200|TAB07-201-3G|TAB07-210|TAB07-211|TAB07-212|TAB07-214|TAB07-220|TAB07-400|TAB07-485|TAB08-150|TAB08-200|TAB08-201-3G|TAB08-201-30|TAB09-100|TAB09-211|TAB09-410|TAB10-150|TAB10-201|TAB10-211|TAB10-400|TAB10-410|TAB13-201|TAB274EUK|TAB275EUK|TAB374EUK|TAB462EUK|TAB474EUK|TAB9-200)\\\\b\"",
-                                            "value": "Android.*\\b(TAB210|TAB211|TAB224|TAB250|TAB260|TAB264|TAB310|TAB360|TAB364|TAB410|TAB411|TAB420|TAB424|TAB450|TAB460|TAB461|TAB464|TAB465|TAB467|TAB468|TAB07-100|TAB07-101|TAB07-150|TAB07-151|TAB07-152|TAB07-200|TAB07-201-3G|TAB07-210|TAB07-211|TAB07-212|TAB07-214|TAB07-220|TAB07-400|TAB07-485|TAB08-150|TAB08-200|TAB08-201-3G|TAB08-201-30|TAB09-100|TAB09-211|TAB09-410|TAB10-150|TAB10-201|TAB10-211|TAB10-400|TAB10-410|TAB13-201|TAB274EUK|TAB275EUK|TAB374EUK|TAB462EUK|TAB474EUK|TAB9-200)\\b"
+                                            "value": "Android.*\\b(TAB210|TAB211|TAB224|TAB250|TAB260|TAB264|TAB310|TAB360|TAB364|TAB410|TAB411|TAB420|TAB424|TAB450|TAB460|TAB461|TAB464|TAB465|TAB467|TAB468|TAB07-100|TAB07-101|TAB07-150|TAB07-151|TAB07-152|TAB07-200|TAB07-201-3G|TAB07-210|TAB07-211|TAB07-212|TAB07-214|TAB07-220|TAB07-400|TAB07-485|TAB08-150|TAB08-200|TAB08-201-3G|TAB08-201-30|TAB09-100|TAB09-211|TAB09-410|TAB10-150|TAB10-201|TAB10-211|TAB10-400|TAB10-410|TAB13-201|TAB274EUK|TAB275EUK|TAB374EUK|TAB462EUK|TAB474EUK|TAB9-200)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1691,7 +1881,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14064,
                                             "end": 14078,
                                             "raw": "\"MedionTablet\"",
-                                            "value": "MedionTablet"
+                                            "value": "MedionTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1702,7 +1894,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14080,
                                             "end": 14140,
                                             "raw": "\"Android.*\\\\bOYO\\\\b|LIFE.*(P9212|P9514|P9516|S9512)|LIFETAB\"",
-                                            "value": "Android.*\\bOYO\\b|LIFE.*(P9212|P9514|P9516|S9512)|LIFETAB"
+                                            "value": "Android.*\\bOYO\\b|LIFE.*(P9212|P9514|P9516|S9512)|LIFETAB",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1715,7 +1909,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14150,
                                             "end": 14164,
                                             "raw": "\"ArnovaTablet\"",
-                                            "value": "ArnovaTablet"
+                                            "value": "ArnovaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1726,7 +1922,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14166,
                                             "end": 14268,
                                             "raw": "\"AN10G2|AN7bG3|AN7fG3|AN8G3|AN8cG3|AN7G3|AN9G3|AN7dG3|AN7dG3ST|AN7dG3ChildPad|AN10bG3|AN10bG3DT|AN9G2\"",
-                                            "value": "AN10G2|AN7bG3|AN7fG3|AN8G3|AN8cG3|AN7G3|AN9G3|AN7dG3|AN7dG3ST|AN7dG3ChildPad|AN10bG3|AN10bG3DT|AN9G2"
+                                            "value": "AN10G2|AN7bG3|AN7fG3|AN8G3|AN8cG3|AN7G3|AN9G3|AN7dG3|AN7dG3ST|AN7dG3ChildPad|AN10bG3|AN10bG3DT|AN9G2",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1739,7 +1937,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14278,
                                             "end": 14293,
                                             "raw": "\"IntensoTablet\"",
-                                            "value": "IntensoTablet"
+                                            "value": "IntensoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1750,7 +1950,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14295,
                                             "end": 14345,
                                             "raw": "\"INM8002KP|INM1010FP|INM805ND|Intenso Tab|TAB1004\"",
-                                            "value": "INM8002KP|INM1010FP|INM805ND|Intenso Tab|TAB1004"
+                                            "value": "INM8002KP|INM1010FP|INM805ND|Intenso Tab|TAB1004",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1763,7 +1965,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14355,
                                             "end": 14366,
                                             "raw": "\"IRUTablet\"",
-                                            "value": "IRUTablet"
+                                            "value": "IRUTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1774,7 +1978,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14368,
                                             "end": 14377,
                                             "raw": "\"M702pro\"",
-                                            "value": "M702pro"
+                                            "value": "M702pro",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1787,7 +1993,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14387,
                                             "end": 14402,
                                             "raw": "\"MegafonTablet\"",
-                                            "value": "MegafonTablet"
+                                            "value": "MegafonTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1798,7 +2006,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14404,
                                             "end": 14449,
                                             "raw": "\"MegaFon V9|\\\\bZTE V9\\\\b|Android.*\\\\bMT7A\\\\b\"",
-                                            "value": "MegaFon V9|\\bZTE V9\\b|Android.*\\bMT7A\\b"
+                                            "value": "MegaFon V9|\\bZTE V9\\b|Android.*\\bMT7A\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1811,7 +2021,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14459,
                                             "end": 14472,
                                             "raw": "\"EbodaTablet\"",
-                                            "value": "EbodaTablet"
+                                            "value": "EbodaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1822,7 +2034,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14474,
                                             "end": 14523,
                                             "raw": "\"E-Boda (Supreme|Impresspeed|Izzycomm|Essential)\"",
-                                            "value": "E-Boda (Supreme|Impresspeed|Izzycomm|Essential)"
+                                            "value": "E-Boda (Supreme|Impresspeed|Izzycomm|Essential)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1835,7 +2049,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14533,
                                             "end": 14548,
                                             "raw": "\"AllViewTablet\"",
-                                            "value": "AllViewTablet"
+                                            "value": "AllViewTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1846,7 +2062,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14550,
                                             "end": 14624,
                                             "raw": "\"Allview.*(Viva|Alldro|City|Speed|All TV|Frenzy|Quasar|Shine|TX1|AX1|AX2)\"",
-                                            "value": "Allview.*(Viva|Alldro|City|Speed|All TV|Frenzy|Quasar|Shine|TX1|AX1|AX2)"
+                                            "value": "Allview.*(Viva|Alldro|City|Speed|All TV|Frenzy|Quasar|Shine|TX1|AX1|AX2)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1859,7 +2077,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14634,
                                             "end": 14648,
                                             "raw": "\"ArchosTablet\"",
-                                            "value": "ArchosTablet"
+                                            "value": "ArchosTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1870,7 +2090,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14650,
                                             "end": 14825,
                                             "raw": "\"\\\\b(101G9|80G9|A101IT)\\\\b|Qilive 97R|Archos5|\\\\bARCHOS (70|79|80|90|97|101|FAMILYPAD|)(b|)(G10| Cobalt| TITANIUM(HD|)| Xenon| Neon|XSK| 2| XS 2| PLATINUM| CARBON|GAMEPAD)\\\\b\"",
-                                            "value": "\\b(101G9|80G9|A101IT)\\b|Qilive 97R|Archos5|\\bARCHOS (70|79|80|90|97|101|FAMILYPAD|)(b|)(G10| Cobalt| TITANIUM(HD|)| Xenon| Neon|XSK| 2| XS 2| PLATINUM| CARBON|GAMEPAD)\\b"
+                                            "value": "\\b(101G9|80G9|A101IT)\\b|Qilive 97R|Archos5|\\bARCHOS (70|79|80|90|97|101|FAMILYPAD|)(b|)(G10| Cobalt| TITANIUM(HD|)| Xenon| Neon|XSK| 2| XS 2| PLATINUM| CARBON|GAMEPAD)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1883,7 +2105,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14835,
                                             "end": 14848,
                                             "raw": "\"AinolTablet\"",
-                                            "value": "AinolTablet"
+                                            "value": "AinolTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1894,7 +2118,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14850,
                                             "end": 14918,
                                             "raw": "\"NOVO7|NOVO8|NOVO10|Novo7Aurora|Novo7Basic|NOVO7PALADIN|novo9-Spark\"",
-                                            "value": "NOVO7|NOVO8|NOVO10|Novo7Aurora|Novo7Basic|NOVO7PALADIN|novo9-Spark"
+                                            "value": "NOVO7|NOVO8|NOVO10|Novo7Aurora|Novo7Basic|NOVO7PALADIN|novo9-Spark",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1907,7 +2133,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14928,
                                             "end": 14946,
                                             "raw": "\"NokiaLumiaTablet\"",
-                                            "value": "NokiaLumiaTablet"
+                                            "value": "NokiaLumiaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1918,7 +2146,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14948,
                                             "end": 14960,
                                             "raw": "\"Lumia 2520\"",
-                                            "value": "Lumia 2520"
+                                            "value": "Lumia 2520",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1931,7 +2161,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14970,
                                             "end": 14982,
                                             "raw": "\"SonyTablet\"",
-                                            "value": "SonyTablet"
+                                            "value": "SonyTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1942,7 +2174,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 14984,
                                             "end": 15268,
                                             "raw": "\"Sony.*Tablet|Xperia Tablet|Sony Tablet S|SO-03E|SGPT12|SGPT13|SGPT114|SGPT121|SGPT122|SGPT123|SGPT111|SGPT112|SGPT113|SGPT131|SGPT132|SGPT133|SGPT211|SGPT212|SGPT213|SGP311|SGP312|SGP321|EBRD1101|EBRD1102|EBRD1201|SGP351|SGP341|SGP511|SGP512|SGP521|SGP541|SGP551|SGP621|SGP612|SOT31\"",
-                                            "value": "Sony.*Tablet|Xperia Tablet|Sony Tablet S|SO-03E|SGPT12|SGPT13|SGPT114|SGPT121|SGPT122|SGPT123|SGPT111|SGPT112|SGPT113|SGPT131|SGPT132|SGPT133|SGPT211|SGPT212|SGPT213|SGP311|SGP312|SGP321|EBRD1101|EBRD1102|EBRD1201|SGP351|SGP341|SGP511|SGP512|SGP521|SGP541|SGP551|SGP621|SGP612|SOT31"
+                                            "value": "Sony.*Tablet|Xperia Tablet|Sony Tablet S|SO-03E|SGPT12|SGPT13|SGPT114|SGPT121|SGPT122|SGPT123|SGPT111|SGPT112|SGPT113|SGPT131|SGPT132|SGPT133|SGPT211|SGPT212|SGPT213|SGP311|SGP312|SGP321|EBRD1101|EBRD1102|EBRD1201|SGP351|SGP341|SGP511|SGP512|SGP521|SGP541|SGP551|SGP621|SGP612|SOT31",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1955,7 +2189,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15278,
                                             "end": 15293,
                                             "raw": "\"PhilipsTablet\"",
-                                            "value": "PhilipsTablet"
+                                            "value": "PhilipsTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1966,7 +2202,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15295,
                                             "end": 15381,
                                             "raw": "\"\\\\b(PI2010|PI3000|PI3100|PI3105|PI3110|PI3205|PI3210|PI3900|PI4010|PI7000|PI7100)\\\\b\"",
-                                            "value": "\\b(PI2010|PI3000|PI3100|PI3105|PI3110|PI3205|PI3210|PI3900|PI4010|PI7000|PI7100)\\b"
+                                            "value": "\\b(PI2010|PI3000|PI3100|PI3105|PI3110|PI3205|PI3210|PI3900|PI4010|PI7000|PI7100)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -1979,7 +2217,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15391,
                                             "end": 15403,
                                             "raw": "\"CubeTablet\"",
-                                            "value": "CubeTablet"
+                                            "value": "CubeTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -1990,7 +2230,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15405,
                                             "end": 15485,
                                             "raw": "\"Android.*(K8GT|U9GT|U10GT|U16GT|U17GT|U18GT|U19GT|U20GT|U23GT|U30GT)|CUBE U8GT\"",
-                                            "value": "Android.*(K8GT|U9GT|U10GT|U16GT|U17GT|U18GT|U19GT|U20GT|U23GT|U30GT)|CUBE U8GT"
+                                            "value": "Android.*(K8GT|U9GT|U10GT|U16GT|U17GT|U18GT|U19GT|U20GT|U23GT|U30GT)|CUBE U8GT",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2003,7 +2245,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15495,
                                             "end": 15507,
                                             "raw": "\"CobyTablet\"",
-                                            "value": "CobyTablet"
+                                            "value": "CobyTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2014,7 +2258,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15509,
                                             "end": 15678,
                                             "raw": "\"MID1042|MID1045|MID1125|MID1126|MID7012|MID7014|MID7015|MID7034|MID7035|MID7036|MID7042|MID7048|MID7127|MID8042|MID8048|MID8127|MID9042|MID9740|MID9742|MID7022|MID7010\"",
-                                            "value": "MID1042|MID1045|MID1125|MID1126|MID7012|MID7014|MID7015|MID7034|MID7035|MID7036|MID7042|MID7048|MID7127|MID8042|MID8048|MID8127|MID9042|MID9740|MID9742|MID7022|MID7010"
+                                            "value": "MID1042|MID1045|MID1125|MID1126|MID7012|MID7014|MID7015|MID7034|MID7035|MID7036|MID7042|MID7048|MID7127|MID8042|MID8048|MID8127|MID9042|MID9740|MID9742|MID7022|MID7010",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2027,7 +2273,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15688,
                                             "end": 15699,
                                             "raw": "\"MIDTablet\"",
-                                            "value": "MIDTablet"
+                                            "value": "MIDTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2038,7 +2286,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15701,
                                             "end": 15966,
                                             "raw": "\"M9701|M9000|M9100|M806|M1052|M806|T703|MID701|MID713|MID710|MID727|MID760|MID830|MID728|MID933|MID125|MID810|MID732|MID120|MID930|MID800|MID731|MID900|MID100|MID820|MID735|MID980|MID130|MID833|MID737|MID960|MID135|MID860|MID736|MID140|MID930|MID835|MID733|MID4X10\"",
-                                            "value": "M9701|M9000|M9100|M806|M1052|M806|T703|MID701|MID713|MID710|MID727|MID760|MID830|MID728|MID933|MID125|MID810|MID732|MID120|MID930|MID800|MID731|MID900|MID100|MID820|MID735|MID980|MID130|MID833|MID737|MID960|MID135|MID860|MID736|MID140|MID930|MID835|MID733|MID4X10"
+                                            "value": "M9701|M9000|M9100|M806|M1052|M806|T703|MID701|MID713|MID710|MID727|MID760|MID830|MID728|MID933|MID125|MID810|MID732|MID120|MID930|MID800|MID731|MID900|MID100|MID820|MID735|MID980|MID130|MID833|MID737|MID960|MID135|MID860|MID736|MID140|MID930|MID835|MID733|MID4X10",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2051,7 +2301,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15976,
                                             "end": 15987,
                                             "raw": "\"MSITablet\"",
-                                            "value": "MSITablet"
+                                            "value": "MSITablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2062,7 +2314,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 15989,
                                             "end": 16130,
                                             "raw": "\"MSI \\\\b(Primo 73K|Primo 73L|Primo 81L|Primo 77|Primo 93|Primo 75|Primo 76|Primo 73|Primo 81|Primo 91|Primo 90|Enjoy 71|Enjoy 7|Enjoy 10)\\\\b\"",
-                                            "value": "MSI \\b(Primo 73K|Primo 73L|Primo 81L|Primo 77|Primo 93|Primo 75|Primo 76|Primo 73|Primo 81|Primo 91|Primo 90|Enjoy 71|Enjoy 7|Enjoy 10)\\b"
+                                            "value": "MSI \\b(Primo 73K|Primo 73L|Primo 81L|Primo 77|Primo 93|Primo 75|Primo 76|Primo 73|Primo 81|Primo 91|Primo 90|Enjoy 71|Enjoy 7|Enjoy 10)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2075,7 +2329,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16140,
                                             "end": 16152,
                                             "raw": "\"SMiTTablet\"",
-                                            "value": "SMiTTablet"
+                                            "value": "SMiTTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2086,7 +2342,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16154,
                                             "end": 16226,
                                             "raw": "\"Android.*(\\\\bMID\\\\b|MID-560|MTV-T1200|MTV-PND531|MTV-P1101|MTV-PND530)\"",
-                                            "value": "Android.*(\\bMID\\b|MID-560|MTV-T1200|MTV-PND531|MTV-P1101|MTV-PND530)"
+                                            "value": "Android.*(\\bMID\\b|MID-560|MTV-T1200|MTV-PND531|MTV-P1101|MTV-PND530)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2099,7 +2357,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16236,
                                             "end": 16252,
                                             "raw": "\"RockChipTablet\"",
-                                            "value": "RockChipTablet"
+                                            "value": "RockChipTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2110,7 +2370,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16254,
                                             "end": 16310,
                                             "raw": "\"Android.*(RK2818|RK2808A|RK2918|RK3066)|RK2738|RK2808A\"",
-                                            "value": "Android.*(RK2818|RK2808A|RK2918|RK3066)|RK2738|RK2808A"
+                                            "value": "Android.*(RK2818|RK2808A|RK2918|RK3066)|RK2738|RK2808A",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2123,7 +2385,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16320,
                                             "end": 16331,
                                             "raw": "\"FlyTablet\"",
-                                            "value": "FlyTablet"
+                                            "value": "FlyTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2134,7 +2398,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16333,
                                             "end": 16351,
                                             "raw": "\"IQ310|Fly Vision\"",
-                                            "value": "IQ310|Fly Vision"
+                                            "value": "IQ310|Fly Vision",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2147,7 +2413,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16361,
                                             "end": 16371,
                                             "raw": "\"bqTablet\"",
-                                            "value": "bqTablet"
+                                            "value": "bqTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2158,7 +2426,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16373,
                                             "end": 16530,
                                             "raw": "\"Android.*(bq)?.*(Elcano|Curie|Edison|Maxwell|Kepler|Pascal|Tesla|Hypatia|Platon|Newton|Livingstone|Cervantes|Avant|Aquaris E10)|Maxwell.*Lite|Maxwell.*Plus\"",
-                                            "value": "Android.*(bq)?.*(Elcano|Curie|Edison|Maxwell|Kepler|Pascal|Tesla|Hypatia|Platon|Newton|Livingstone|Cervantes|Avant|Aquaris E10)|Maxwell.*Lite|Maxwell.*Plus"
+                                            "value": "Android.*(bq)?.*(Elcano|Curie|Edison|Maxwell|Kepler|Pascal|Tesla|Hypatia|Platon|Newton|Livingstone|Cervantes|Avant|Aquaris E10)|Maxwell.*Lite|Maxwell.*Plus",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2171,7 +2441,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16540,
                                             "end": 16554,
                                             "raw": "\"HuaweiTablet\"",
-                                            "value": "HuaweiTablet"
+                                            "value": "HuaweiTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2182,7 +2454,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16556,
                                             "end": 16658,
                                             "raw": "\"MediaPad|MediaPad 7 Youth|IDEOS S7|S7-201c|S7-202u|S7-101|S7-103|S7-104|S7-105|S7-106|S7-201|S7-Slim\"",
-                                            "value": "MediaPad|MediaPad 7 Youth|IDEOS S7|S7-201c|S7-202u|S7-101|S7-103|S7-104|S7-105|S7-106|S7-201|S7-Slim"
+                                            "value": "MediaPad|MediaPad 7 Youth|IDEOS S7|S7-201c|S7-202u|S7-101|S7-103|S7-104|S7-105|S7-106|S7-201|S7-Slim",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2195,7 +2469,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16668,
                                             "end": 16679,
                                             "raw": "\"NecTablet\"",
-                                            "value": "NecTablet"
+                                            "value": "NecTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2206,7 +2482,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16681,
                                             "end": 16700,
                                             "raw": "\"\\\\bN-06D|\\\\bN-08D\"",
-                                            "value": "\\bN-06D|\\bN-08D"
+                                            "value": "\\bN-06D|\\bN-08D",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2219,7 +2497,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16710,
                                             "end": 16725,
                                             "raw": "\"PantechTablet\"",
-                                            "value": "PantechTablet"
+                                            "value": "PantechTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2230,7 +2510,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16727,
                                             "end": 16743,
                                             "raw": "\"Pantech.*P4100\"",
-                                            "value": "Pantech.*P4100"
+                                            "value": "Pantech.*P4100",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2243,7 +2525,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16753,
                                             "end": 16768,
                                             "raw": "\"BronchoTablet\"",
-                                            "value": "BronchoTablet"
+                                            "value": "BronchoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2254,7 +2538,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16770,
                                             "end": 16802,
                                             "raw": "\"Broncho.*(N701|N708|N802|a710)\"",
-                                            "value": "Broncho.*(N701|N708|N802|a710)"
+                                            "value": "Broncho.*(N701|N708|N802|a710)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2267,7 +2553,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16812,
                                             "end": 16826,
                                             "raw": "\"VersusTablet\"",
-                                            "value": "VersusTablet"
+                                            "value": "VersusTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2278,7 +2566,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16828,
                                             "end": 16862,
                                             "raw": "\"TOUCHPAD.*[78910]|\\\\bTOUCHTAB\\\\b\"",
-                                            "value": "TOUCHPAD.*[78910]|\\bTOUCHTAB\\b"
+                                            "value": "TOUCHPAD.*[78910]|\\bTOUCHTAB\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2291,7 +2581,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16872,
                                             "end": 16884,
                                             "raw": "\"ZyncTablet\"",
-                                            "value": "ZyncTablet"
+                                            "value": "ZyncTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2302,7 +2594,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16886,
                                             "end": 16934,
                                             "raw": "\"z1000|Z99 2G|z99|z930|z999|z990|z909|Z919|z900\"",
-                                            "value": "z1000|Z99 2G|z99|z930|z999|z990|z909|Z919|z900"
+                                            "value": "z1000|Z99 2G|z99|z930|z999|z990|z909|Z919|z900",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2315,7 +2609,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16944,
                                             "end": 16960,
                                             "raw": "\"PositivoTablet\"",
-                                            "value": "PositivoTablet"
+                                            "value": "PositivoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2326,7 +2622,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 16962,
                                             "end": 16995,
                                             "raw": "\"TB07STA|TB10STA|TB07FTA|TB10FTA\"",
-                                            "value": "TB07STA|TB10STA|TB07FTA|TB10FTA"
+                                            "value": "TB07STA|TB10STA|TB07FTA|TB10FTA",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2339,7 +2637,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17005,
                                             "end": 17017,
                                             "raw": "\"NabiTablet\"",
-                                            "value": "NabiTablet"
+                                            "value": "NabiTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2350,7 +2650,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17019,
                                             "end": 17037,
                                             "raw": "\"Android.*\\\\bNabi\"",
-                                            "value": "Android.*\\bNabi"
+                                            "value": "Android.*\\bNabi",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2363,7 +2665,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17047,
                                             "end": 17059,
                                             "raw": "\"KoboTablet\"",
-                                            "value": "KoboTablet"
+                                            "value": "KoboTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2374,7 +2678,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17061,
                                             "end": 17116,
                                             "raw": "\"Kobo Touch|\\\\bK080\\\\b|\\\\bVox\\\\b Build|\\\\bArc\\\\b Build\"",
-                                            "value": "Kobo Touch|\\bK080\\b|\\bVox\\b Build|\\bArc\\b Build"
+                                            "value": "Kobo Touch|\\bK080\\b|\\bVox\\b Build|\\bArc\\b Build",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2387,7 +2693,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17126,
                                             "end": 17139,
                                             "raw": "\"DanewTablet\"",
-                                            "value": "DanewTablet"
+                                            "value": "DanewTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2398,7 +2706,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17141,
                                             "end": 17214,
                                             "raw": "\"DSlide.*\\\\b(700|701R|702|703R|704|802|970|971|972|973|974|1010|1012)\\\\b\"",
-                                            "value": "DSlide.*\\b(700|701R|702|703R|704|802|970|971|972|973|974|1010|1012)\\b"
+                                            "value": "DSlide.*\\b(700|701R|702|703R|704|802|970|971|972|973|974|1010|1012)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2411,7 +2721,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17224,
                                             "end": 17237,
                                             "raw": "\"TexetTablet\"",
-                                            "value": "TexetTablet"
+                                            "value": "TexetTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2422,7 +2734,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17239,
                                             "end": 17856,
                                             "raw": "\"NaviPad|TB-772A|TM-7045|TM-7055|TM-9750|TM-7016|TM-7024|TM-7026|TM-7041|TM-7043|TM-7047|TM-8041|TM-9741|TM-9747|TM-9748|TM-9751|TM-7022|TM-7021|TM-7020|TM-7011|TM-7010|TM-7023|TM-7025|TM-7037W|TM-7038W|TM-7027W|TM-9720|TM-9725|TM-9737W|TM-1020|TM-9738W|TM-9740|TM-9743W|TB-807A|TB-771A|TB-727A|TB-725A|TB-719A|TB-823A|TB-805A|TB-723A|TB-715A|TB-707A|TB-705A|TB-709A|TB-711A|TB-890HD|TB-880HD|TB-790HD|TB-780HD|TB-770HD|TB-721HD|TB-710HD|TB-434HD|TB-860HD|TB-840HD|TB-760HD|TB-750HD|TB-740HD|TB-730HD|TB-722HD|TB-720HD|TB-700HD|TB-500HD|TB-470HD|TB-431HD|TB-430HD|TB-506|TB-504|TB-446|TB-436|TB-416|TB-146SE|TB-126SE\"",
-                                            "value": "NaviPad|TB-772A|TM-7045|TM-7055|TM-9750|TM-7016|TM-7024|TM-7026|TM-7041|TM-7043|TM-7047|TM-8041|TM-9741|TM-9747|TM-9748|TM-9751|TM-7022|TM-7021|TM-7020|TM-7011|TM-7010|TM-7023|TM-7025|TM-7037W|TM-7038W|TM-7027W|TM-9720|TM-9725|TM-9737W|TM-1020|TM-9738W|TM-9740|TM-9743W|TB-807A|TB-771A|TB-727A|TB-725A|TB-719A|TB-823A|TB-805A|TB-723A|TB-715A|TB-707A|TB-705A|TB-709A|TB-711A|TB-890HD|TB-880HD|TB-790HD|TB-780HD|TB-770HD|TB-721HD|TB-710HD|TB-434HD|TB-860HD|TB-840HD|TB-760HD|TB-750HD|TB-740HD|TB-730HD|TB-722HD|TB-720HD|TB-700HD|TB-500HD|TB-470HD|TB-431HD|TB-430HD|TB-506|TB-504|TB-446|TB-436|TB-416|TB-146SE|TB-126SE"
+                                            "value": "NaviPad|TB-772A|TM-7045|TM-7055|TM-9750|TM-7016|TM-7024|TM-7026|TM-7041|TM-7043|TM-7047|TM-8041|TM-9741|TM-9747|TM-9748|TM-9751|TM-7022|TM-7021|TM-7020|TM-7011|TM-7010|TM-7023|TM-7025|TM-7037W|TM-7038W|TM-7027W|TM-9720|TM-9725|TM-9737W|TM-1020|TM-9738W|TM-9740|TM-9743W|TB-807A|TB-771A|TB-727A|TB-725A|TB-719A|TB-823A|TB-805A|TB-723A|TB-715A|TB-707A|TB-705A|TB-709A|TB-711A|TB-890HD|TB-880HD|TB-790HD|TB-780HD|TB-770HD|TB-721HD|TB-710HD|TB-434HD|TB-860HD|TB-840HD|TB-760HD|TB-750HD|TB-740HD|TB-730HD|TB-722HD|TB-720HD|TB-700HD|TB-500HD|TB-470HD|TB-431HD|TB-430HD|TB-506|TB-504|TB-446|TB-436|TB-416|TB-146SE|TB-126SE",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2435,7 +2749,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17866,
                                             "end": 17885,
                                             "raw": "\"PlaystationTablet\"",
-                                            "value": "PlaystationTablet"
+                                            "value": "PlaystationTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2446,7 +2762,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17887,
                                             "end": 17917,
                                             "raw": "\"Playstation.*(Portable|Vita)\"",
-                                            "value": "Playstation.*(Portable|Vita)"
+                                            "value": "Playstation.*(Portable|Vita)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2459,7 +2777,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17927,
                                             "end": 17943,
                                             "raw": "\"TrekstorTablet\"",
-                                            "value": "TrekstorTablet"
+                                            "value": "TrekstorTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2470,7 +2790,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 17945,
                                             "end": 18051,
                                             "raw": "\"ST10416-1|VT10416-1|ST70408-1|ST702xx-1|ST702xx-2|ST80208|ST97216|ST70104-2|VT10416-2|ST10216-2A|SurfTab\"",
-                                            "value": "ST10416-1|VT10416-1|ST70408-1|ST702xx-1|ST702xx-2|ST80208|ST97216|ST70104-2|VT10416-2|ST10216-2A|SurfTab"
+                                            "value": "ST10416-1|VT10416-1|ST70408-1|ST702xx-1|ST702xx-2|ST80208|ST97216|ST70104-2|VT10416-2|ST10216-2A|SurfTab",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2483,7 +2805,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18061,
                                             "end": 18078,
                                             "raw": "\"PyleAudioTablet\"",
-                                            "value": "PyleAudioTablet"
+                                            "value": "PyleAudioTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2494,7 +2818,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18080,
                                             "end": 18188,
                                             "raw": "\"\\\\b(PTBL10CEU|PTBL10C|PTBL72BC|PTBL72BCEU|PTBL7CEU|PTBL7C|PTBL92BC|PTBL92BCEU|PTBL9CEU|PTBL9CUK|PTBL9C)\\\\b\"",
-                                            "value": "\\b(PTBL10CEU|PTBL10C|PTBL72BC|PTBL72BCEU|PTBL7CEU|PTBL7C|PTBL92BC|PTBL92BCEU|PTBL9CEU|PTBL9CUK|PTBL9C)\\b"
+                                            "value": "\\b(PTBL10CEU|PTBL10C|PTBL72BC|PTBL72BCEU|PTBL7CEU|PTBL7C|PTBL92BC|PTBL92BCEU|PTBL9CEU|PTBL9CUK|PTBL9C)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2507,7 +2833,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18198,
                                             "end": 18211,
                                             "raw": "\"AdvanTablet\"",
-                                            "value": "AdvanTablet"
+                                            "value": "AdvanTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2518,7 +2846,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18213,
                                             "end": 18341,
                                             "raw": "\"Android.* \\\\b(E3A|T3X|T5C|T5B|T3E|T3C|T3B|T1J|T1F|T2A|T1H|T1i|E1C|T1-E|T5-A|T4|E1-B|T2Ci|T1-B|T1-D|O1-A|E1-A|T1-A|T3A|T4i)\\\\b \"",
-                                            "value": "Android.* \\b(E3A|T3X|T5C|T5B|T3E|T3C|T3B|T1J|T1F|T2A|T1H|T1i|E1C|T1-E|T5-A|T4|E1-B|T2Ci|T1-B|T1-D|O1-A|E1-A|T1-A|T3A|T4i)\\b "
+                                            "value": "Android.* \\b(E3A|T3X|T5C|T5B|T3E|T3C|T3B|T1J|T1F|T2A|T1H|T1i|E1C|T1-E|T5-A|T4|E1-B|T2Ci|T1-B|T1-D|O1-A|E1-A|T1-A|T3A|T4i)\\b ",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2531,7 +2861,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18351,
                                             "end": 18367,
                                             "raw": "\"DanyTechTablet\"",
-                                            "value": "DanyTechTablet"
+                                            "value": "DanyTechTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2542,7 +2874,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18369,
                                             "end": 18501,
                                             "raw": "\"Genius Tab G3|Genius Tab S2|Genius Tab Q3|Genius Tab G4|Genius Tab Q4|Genius Tab G-II|Genius TAB GII|Genius TAB GIII|Genius Tab S1\"",
-                                            "value": "Genius Tab G3|Genius Tab S2|Genius Tab Q3|Genius Tab G4|Genius Tab Q4|Genius Tab G-II|Genius TAB GII|Genius TAB GIII|Genius Tab S1"
+                                            "value": "Genius Tab G3|Genius Tab S2|Genius Tab Q3|Genius Tab G4|Genius Tab Q4|Genius Tab G-II|Genius TAB GII|Genius TAB GIII|Genius Tab S1",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2555,7 +2889,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18511,
                                             "end": 18526,
                                             "raw": "\"GalapadTablet\"",
-                                            "value": "GalapadTablet"
+                                            "value": "GalapadTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2566,7 +2902,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18528,
                                             "end": 18547,
                                             "raw": "\"Android.*\\\\bG1\\\\b\"",
-                                            "value": "Android.*\\bG1\\b"
+                                            "value": "Android.*\\bG1\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2579,7 +2917,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18557,
                                             "end": 18573,
                                             "raw": "\"MicromaxTablet\"",
-                                            "value": "MicromaxTablet"
+                                            "value": "MicromaxTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2590,7 +2930,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18575,
                                             "end": 18647,
                                             "raw": "\"Funbook|Micromax.*\\\\b(P250|P560|P360|P362|P600|P300|P350|P500|P275)\\\\b\"",
-                                            "value": "Funbook|Micromax.*\\b(P250|P560|P360|P362|P600|P300|P350|P500|P275)\\b"
+                                            "value": "Funbook|Micromax.*\\b(P250|P560|P360|P362|P600|P300|P350|P500|P275)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2603,7 +2945,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18657,
                                             "end": 18672,
                                             "raw": "\"KarbonnTablet\"",
-                                            "value": "KarbonnTablet"
+                                            "value": "KarbonnTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2614,7 +2958,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18674,
                                             "end": 18739,
                                             "raw": "\"Android.*\\\\b(A39|A37|A34|ST8|ST10|ST7|Smart Tab3|Smart Tab2)\\\\b\"",
-                                            "value": "Android.*\\b(A39|A37|A34|ST8|ST10|ST7|Smart Tab3|Smart Tab2)\\b"
+                                            "value": "Android.*\\b(A39|A37|A34|ST8|ST10|ST7|Smart Tab3|Smart Tab2)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2627,7 +2973,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18749,
                                             "end": 18764,
                                             "raw": "\"AllFineTablet\"",
-                                            "value": "AllFineTablet"
+                                            "value": "AllFineTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2638,7 +2986,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18766,
                                             "end": 18848,
                                             "raw": "\"Fine7 Genius|Fine7 Shine|Fine7 Air|Fine8 Style|Fine9 More|Fine10 Joy|Fine11 Wide\"",
-                                            "value": "Fine7 Genius|Fine7 Shine|Fine7 Air|Fine8 Style|Fine9 More|Fine10 Joy|Fine11 Wide"
+                                            "value": "Fine7 Genius|Fine7 Shine|Fine7 Air|Fine8 Style|Fine9 More|Fine10 Joy|Fine11 Wide",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2651,7 +3001,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18858,
                                             "end": 18873,
                                             "raw": "\"PROSCANTablet\"",
-                                            "value": "PROSCANTablet"
+                                            "value": "PROSCANTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2662,7 +3014,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 18875,
                                             "end": 19254,
                                             "raw": "\"\\\\b(PEM63|PLT1023G|PLT1041|PLT1044|PLT1044G|PLT1091|PLT4311|PLT4311PL|PLT4315|PLT7030|PLT7033|PLT7033D|PLT7035|PLT7035D|PLT7044K|PLT7045K|PLT7045KB|PLT7071KG|PLT7072|PLT7223G|PLT7225G|PLT7777G|PLT7810K|PLT7849G|PLT7851G|PLT7852G|PLT8015|PLT8031|PLT8034|PLT8036|PLT8080K|PLT8082|PLT8088|PLT8223G|PLT8234G|PLT8235G|PLT8816K|PLT9011|PLT9045K|PLT9233G|PLT9735|PLT9760G|PLT9770G)\\\\b\"",
-                                            "value": "\\b(PEM63|PLT1023G|PLT1041|PLT1044|PLT1044G|PLT1091|PLT4311|PLT4311PL|PLT4315|PLT7030|PLT7033|PLT7033D|PLT7035|PLT7035D|PLT7044K|PLT7045K|PLT7045KB|PLT7071KG|PLT7072|PLT7223G|PLT7225G|PLT7777G|PLT7810K|PLT7849G|PLT7851G|PLT7852G|PLT8015|PLT8031|PLT8034|PLT8036|PLT8080K|PLT8082|PLT8088|PLT8223G|PLT8234G|PLT8235G|PLT8816K|PLT9011|PLT9045K|PLT9233G|PLT9735|PLT9760G|PLT9770G)\\b"
+                                            "value": "\\b(PEM63|PLT1023G|PLT1041|PLT1044|PLT1044G|PLT1091|PLT4311|PLT4311PL|PLT4315|PLT7030|PLT7033|PLT7033D|PLT7035|PLT7035D|PLT7044K|PLT7045K|PLT7045KB|PLT7071KG|PLT7072|PLT7223G|PLT7225G|PLT7777G|PLT7810K|PLT7849G|PLT7851G|PLT7852G|PLT8015|PLT8031|PLT8034|PLT8036|PLT8080K|PLT8082|PLT8088|PLT8223G|PLT8234G|PLT8235G|PLT8816K|PLT9011|PLT9045K|PLT9233G|PLT9735|PLT9760G|PLT9770G)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2675,7 +3029,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19264,
                                             "end": 19277,
                                             "raw": "\"YONESTablet\"",
-                                            "value": "YONESTablet"
+                                            "value": "YONESTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2686,7 +3042,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19279,
                                             "end": 19383,
                                             "raw": "\"BQ1078|BC1003|BC1077|RK9702|BC9730|BC9001|IT9001|BC7008|BC7010|BC708|BC728|BC7012|BC7030|BC7027|BC7026\"",
-                                            "value": "BQ1078|BC1003|BC1077|RK9702|BC9730|BC9001|IT9001|BC7008|BC7010|BC708|BC728|BC7012|BC7030|BC7027|BC7026"
+                                            "value": "BQ1078|BC1003|BC1077|RK9702|BC9730|BC9001|IT9001|BC7008|BC7010|BC708|BC728|BC7012|BC7030|BC7027|BC7026",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2699,7 +3057,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19393,
                                             "end": 19409,
                                             "raw": "\"ChangJiaTablet\"",
-                                            "value": "ChangJiaTablet"
+                                            "value": "ChangJiaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2710,7 +3070,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19411,
                                             "end": 19741,
                                             "raw": "\"TPC7102|TPC7103|TPC7105|TPC7106|TPC7107|TPC7201|TPC7203|TPC7205|TPC7210|TPC7708|TPC7709|TPC7712|TPC7110|TPC8101|TPC8103|TPC8105|TPC8106|TPC8203|TPC8205|TPC8503|TPC9106|TPC9701|TPC97101|TPC97103|TPC97105|TPC97106|TPC97111|TPC97113|TPC97203|TPC97603|TPC97809|TPC97205|TPC10101|TPC10103|TPC10106|TPC10111|TPC10203|TPC10205|TPC10503\"",
-                                            "value": "TPC7102|TPC7103|TPC7105|TPC7106|TPC7107|TPC7201|TPC7203|TPC7205|TPC7210|TPC7708|TPC7709|TPC7712|TPC7110|TPC8101|TPC8103|TPC8105|TPC8106|TPC8203|TPC8205|TPC8503|TPC9106|TPC9701|TPC97101|TPC97103|TPC97105|TPC97106|TPC97111|TPC97113|TPC97203|TPC97603|TPC97809|TPC97205|TPC10101|TPC10103|TPC10106|TPC10111|TPC10203|TPC10205|TPC10503"
+                                            "value": "TPC7102|TPC7103|TPC7105|TPC7106|TPC7107|TPC7201|TPC7203|TPC7205|TPC7210|TPC7708|TPC7709|TPC7712|TPC7110|TPC8101|TPC8103|TPC8105|TPC8106|TPC8203|TPC8205|TPC8503|TPC9106|TPC9701|TPC97101|TPC97103|TPC97105|TPC97106|TPC97111|TPC97113|TPC97203|TPC97603|TPC97809|TPC97205|TPC10101|TPC10103|TPC10106|TPC10111|TPC10203|TPC10205|TPC10503",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2723,7 +3085,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19751,
                                             "end": 19761,
                                             "raw": "\"GUTablet\"",
-                                            "value": "GUTablet"
+                                            "value": "GUTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2734,7 +3098,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19763,
                                             "end": 19793,
                                             "raw": "\"TX-A1301|TX-M9002|Q702|kf026\"",
-                                            "value": "TX-A1301|TX-M9002|Q702|kf026"
+                                            "value": "TX-A1301|TX-M9002|Q702|kf026",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2747,7 +3113,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19803,
                                             "end": 19822,
                                             "raw": "\"PointOfViewTablet\"",
-                                            "value": "PointOfViewTablet"
+                                            "value": "PointOfViewTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2758,7 +3126,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 19824,
                                             "end": 20154,
                                             "raw": "\"TAB-P506|TAB-navi-7-3G-M|TAB-P517|TAB-P-527|TAB-P701|TAB-P703|TAB-P721|TAB-P731N|TAB-P741|TAB-P825|TAB-P905|TAB-P925|TAB-PR945|TAB-PL1015|TAB-P1025|TAB-PI1045|TAB-P1325|TAB-PROTAB[0-9]+|TAB-PROTAB25|TAB-PROTAB26|TAB-PROTAB27|TAB-PROTAB26XL|TAB-PROTAB2-IPS9|TAB-PROTAB30-IPS9|TAB-PROTAB25XXL|TAB-PROTAB26-IPS10|TAB-PROTAB30-IPS10\"",
-                                            "value": "TAB-P506|TAB-navi-7-3G-M|TAB-P517|TAB-P-527|TAB-P701|TAB-P703|TAB-P721|TAB-P731N|TAB-P741|TAB-P825|TAB-P905|TAB-P925|TAB-PR945|TAB-PL1015|TAB-P1025|TAB-PI1045|TAB-P1325|TAB-PROTAB[0-9]+|TAB-PROTAB25|TAB-PROTAB26|TAB-PROTAB27|TAB-PROTAB26XL|TAB-PROTAB2-IPS9|TAB-PROTAB30-IPS9|TAB-PROTAB25XXL|TAB-PROTAB26-IPS10|TAB-PROTAB30-IPS10"
+                                            "value": "TAB-P506|TAB-navi-7-3G-M|TAB-P517|TAB-P-527|TAB-P701|TAB-P703|TAB-P721|TAB-P731N|TAB-P741|TAB-P825|TAB-P905|TAB-P925|TAB-PR945|TAB-PL1015|TAB-P1025|TAB-PI1045|TAB-P1325|TAB-PROTAB[0-9]+|TAB-PROTAB25|TAB-PROTAB26|TAB-PROTAB27|TAB-PROTAB26XL|TAB-PROTAB2-IPS9|TAB-PROTAB30-IPS9|TAB-PROTAB25XXL|TAB-PROTAB26-IPS10|TAB-PROTAB30-IPS10",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2771,7 +3141,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20164,
                                             "end": 20179,
                                             "raw": "\"OvermaxTablet\"",
-                                            "value": "OvermaxTablet"
+                                            "value": "OvermaxTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2782,7 +3154,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20181,
                                             "end": 20307,
                                             "raw": "\"OV-(SteelCore|NewBase|Basecore|Baseone|Exellen|Quattor|EduTab|Solution|ACTION|BasicTab|TeddyTab|MagicTab|Stream|TB-08|TB-09)\"",
-                                            "value": "OV-(SteelCore|NewBase|Basecore|Baseone|Exellen|Quattor|EduTab|Solution|ACTION|BasicTab|TeddyTab|MagicTab|Stream|TB-08|TB-09)"
+                                            "value": "OV-(SteelCore|NewBase|Basecore|Baseone|Exellen|Quattor|EduTab|Solution|ACTION|BasicTab|TeddyTab|MagicTab|Stream|TB-08|TB-09)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2795,7 +3169,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20317,
                                             "end": 20328,
                                             "raw": "\"HCLTablet\"",
-                                            "value": "HCLTablet"
+                                            "value": "HCLTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2806,7 +3182,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20330,
                                             "end": 20453,
                                             "raw": "\"HCL.*Tablet|Connect-3G-2.0|Connect-2G-2.0|ME Tablet U1|ME Tablet U2|ME Tablet G1|ME Tablet X1|ME Tablet Y2|ME Tablet Sync\"",
-                                            "value": "HCL.*Tablet|Connect-3G-2.0|Connect-2G-2.0|ME Tablet U1|ME Tablet U2|ME Tablet G1|ME Tablet X1|ME Tablet Y2|ME Tablet Sync"
+                                            "value": "HCL.*Tablet|Connect-3G-2.0|Connect-2G-2.0|ME Tablet U1|ME Tablet U2|ME Tablet G1|ME Tablet X1|ME Tablet Y2|ME Tablet Sync",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2819,7 +3197,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20463,
                                             "end": 20474,
                                             "raw": "\"DPSTablet\"",
-                                            "value": "DPSTablet"
+                                            "value": "DPSTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2830,7 +3210,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20476,
                                             "end": 20500,
                                             "raw": "\"DPS Dream 9|DPS Dual 7\"",
-                                            "value": "DPS Dream 9|DPS Dual 7"
+                                            "value": "DPS Dream 9|DPS Dual 7",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2843,7 +3225,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20510,
                                             "end": 20525,
                                             "raw": "\"VistureTablet\"",
-                                            "value": "VistureTablet"
+                                            "value": "VistureTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2854,7 +3238,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20527,
                                             "end": 20588,
                                             "raw": "\"V97 HD|i75 3G|Visture V4( HD)?|Visture V5( HD)?|Visture V10\"",
-                                            "value": "V97 HD|i75 3G|Visture V4( HD)?|Visture V5( HD)?|Visture V10"
+                                            "value": "V97 HD|i75 3G|Visture V4( HD)?|Visture V5( HD)?|Visture V10",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2867,7 +3253,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20598,
                                             "end": 20612,
                                             "raw": "\"CrestaTablet\"",
-                                            "value": "CrestaTablet"
+                                            "value": "CrestaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2878,7 +3266,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20614,
                                             "end": 20725,
                                             "raw": "\"CTP(-)?810|CTP(-)?818|CTP(-)?828|CTP(-)?838|CTP(-)?888|CTP(-)?978|CTP(-)?980|CTP(-)?987|CTP(-)?988|CTP(-)?989\"",
-                                            "value": "CTP(-)?810|CTP(-)?818|CTP(-)?828|CTP(-)?838|CTP(-)?888|CTP(-)?978|CTP(-)?980|CTP(-)?987|CTP(-)?988|CTP(-)?989"
+                                            "value": "CTP(-)?810|CTP(-)?818|CTP(-)?828|CTP(-)?838|CTP(-)?888|CTP(-)?978|CTP(-)?980|CTP(-)?987|CTP(-)?988|CTP(-)?989",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2891,7 +3281,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20735,
                                             "end": 20751,
                                             "raw": "\"MediatekTablet\"",
-                                            "value": "MediatekTablet"
+                                            "value": "MediatekTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2902,7 +3294,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20753,
                                             "end": 20788,
                                             "raw": "\"\\\\bMT8125|MT8389|MT8135|MT8377\\\\b\"",
-                                            "value": "\\bMT8125|MT8389|MT8135|MT8377\\b"
+                                            "value": "\\bMT8125|MT8389|MT8135|MT8377\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2915,7 +3309,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20798,
                                             "end": 20814,
                                             "raw": "\"ConcordeTablet\"",
-                                            "value": "ConcordeTablet"
+                                            "value": "ConcordeTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2926,7 +3322,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20816,
                                             "end": 20853,
                                             "raw": "\"Concorde([ ]+)?Tab|ConCorde ReadMan\"",
-                                            "value": "Concorde([ ]+)?Tab|ConCorde ReadMan"
+                                            "value": "Concorde([ ]+)?Tab|ConCorde ReadMan",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2939,7 +3337,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20863,
                                             "end": 20879,
                                             "raw": "\"GoCleverTablet\"",
-                                            "value": "GoCleverTablet"
+                                            "value": "GoCleverTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2950,7 +3350,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 20881,
                                             "end": 21336,
                                             "raw": "\"GOCLEVER TAB|A7GOCLEVER|M1042|M7841|M742|R1042BK|R1041|TAB A975|TAB A7842|TAB A741|TAB A741L|TAB M723G|TAB M721|TAB A1021|TAB I921|TAB R721|TAB I720|TAB T76|TAB R70|TAB R76.2|TAB R106|TAB R83.2|TAB M813G|TAB I721|GCTA722|TAB I70|TAB I71|TAB S73|TAB R73|TAB R74|TAB R93|TAB R75|TAB R76.1|TAB A73|TAB A93|TAB A93.2|TAB T72|TAB R83|TAB R974|TAB R973|TAB A101|TAB A103|TAB A104|TAB A104.2|R105BK|M713G|A972BK|TAB A971|TAB R974.2|TAB R104|TAB R83.3|TAB A1042\"",
-                                            "value": "GOCLEVER TAB|A7GOCLEVER|M1042|M7841|M742|R1042BK|R1041|TAB A975|TAB A7842|TAB A741|TAB A741L|TAB M723G|TAB M721|TAB A1021|TAB I921|TAB R721|TAB I720|TAB T76|TAB R70|TAB R76.2|TAB R106|TAB R83.2|TAB M813G|TAB I721|GCTA722|TAB I70|TAB I71|TAB S73|TAB R73|TAB R74|TAB R93|TAB R75|TAB R76.1|TAB A73|TAB A93|TAB A93.2|TAB T72|TAB R83|TAB R974|TAB R973|TAB A101|TAB A103|TAB A104|TAB A104.2|R105BK|M713G|A972BK|TAB A971|TAB R974.2|TAB R104|TAB R83.3|TAB A1042"
+                                            "value": "GOCLEVER TAB|A7GOCLEVER|M1042|M7841|M742|R1042BK|R1041|TAB A975|TAB A7842|TAB A741|TAB A741L|TAB M723G|TAB M721|TAB A1021|TAB I921|TAB R721|TAB I720|TAB T76|TAB R70|TAB R76.2|TAB R106|TAB R83.2|TAB M813G|TAB I721|GCTA722|TAB I70|TAB I71|TAB S73|TAB R73|TAB R74|TAB R93|TAB R75|TAB R76.1|TAB A73|TAB A93|TAB A93.2|TAB T72|TAB R83|TAB R974|TAB R973|TAB A101|TAB A103|TAB A104|TAB A104.2|R105BK|M713G|A972BK|TAB A971|TAB R974.2|TAB R104|TAB R83.3|TAB A1042",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2963,7 +3365,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 21346,
                                             "end": 21361,
                                             "raw": "\"ModecomTablet\"",
-                                            "value": "ModecomTablet"
+                                            "value": "ModecomTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2974,7 +3378,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 21363,
                                             "end": 21636,
                                             "raw": "\"FreeTAB 9000|FreeTAB 7.4|FreeTAB 7004|FreeTAB 7800|FreeTAB 2096|FreeTAB 7.5|FreeTAB 1014|FreeTAB 1001 |FreeTAB 8001|FreeTAB 9706|FreeTAB 9702|FreeTAB 7003|FreeTAB 7002|FreeTAB 1002|FreeTAB 7801|FreeTAB 1331|FreeTAB 1004|FreeTAB 8002|FreeTAB 8014|FreeTAB 9704|FreeTAB 1003\"",
-                                            "value": "FreeTAB 9000|FreeTAB 7.4|FreeTAB 7004|FreeTAB 7800|FreeTAB 2096|FreeTAB 7.5|FreeTAB 1014|FreeTAB 1001 |FreeTAB 8001|FreeTAB 9706|FreeTAB 9702|FreeTAB 7003|FreeTAB 7002|FreeTAB 1002|FreeTAB 7801|FreeTAB 1331|FreeTAB 1004|FreeTAB 8002|FreeTAB 8014|FreeTAB 9704|FreeTAB 1003"
+                                            "value": "FreeTAB 9000|FreeTAB 7.4|FreeTAB 7004|FreeTAB 7800|FreeTAB 2096|FreeTAB 7.5|FreeTAB 1014|FreeTAB 1001 |FreeTAB 8001|FreeTAB 9706|FreeTAB 9702|FreeTAB 7003|FreeTAB 7002|FreeTAB 1002|FreeTAB 7801|FreeTAB 1331|FreeTAB 1004|FreeTAB 8002|FreeTAB 8014|FreeTAB 9704|FreeTAB 1003",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -2987,7 +3393,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 21646,
                                             "end": 21660,
                                             "raw": "\"VoninoTablet\"",
-                                            "value": "VoninoTablet"
+                                            "value": "VoninoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -2998,7 +3406,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 21662,
                                             "end": 21933,
                                             "raw": "\"\\\\b(Argus[ _]?S|Diamond[ _]?79HD|Emerald[ _]?78E|Luna[ _]?70C|Onyx[ _]?S|Onyx[ _]?Z|Orin[ _]?HD|Orin[ _]?S|Otis[ _]?S|SpeedStar[ _]?S|Magnet[ _]?M9|Primus[ _]?94[ _]?3G|Primus[ _]?94HD|Primus[ _]?QS|Android.*\\\\bQ8\\\\b|Sirius[ _]?EVO[ _]?QS|Sirius[ _]?QS|Spirit[ _]?S)\\\\b\"",
-                                            "value": "\\b(Argus[ _]?S|Diamond[ _]?79HD|Emerald[ _]?78E|Luna[ _]?70C|Onyx[ _]?S|Onyx[ _]?Z|Orin[ _]?HD|Orin[ _]?S|Otis[ _]?S|SpeedStar[ _]?S|Magnet[ _]?M9|Primus[ _]?94[ _]?3G|Primus[ _]?94HD|Primus[ _]?QS|Android.*\\bQ8\\b|Sirius[ _]?EVO[ _]?QS|Sirius[ _]?QS|Spirit[ _]?S)\\b"
+                                            "value": "\\b(Argus[ _]?S|Diamond[ _]?79HD|Emerald[ _]?78E|Luna[ _]?70C|Onyx[ _]?S|Onyx[ _]?Z|Orin[ _]?HD|Orin[ _]?S|Otis[ _]?S|SpeedStar[ _]?S|Magnet[ _]?M9|Primus[ _]?94[ _]?3G|Primus[ _]?94HD|Primus[ _]?QS|Android.*\\bQ8\\b|Sirius[ _]?EVO[ _]?QS|Sirius[ _]?QS|Spirit[ _]?S)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3011,7 +3421,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 21943,
                                             "end": 21954,
                                             "raw": "\"ECSTablet\"",
-                                            "value": "ECSTablet"
+                                            "value": "ECSTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3022,7 +3434,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 21956,
                                             "end": 21986,
                                             "raw": "\"V07OT2|TM105A|S10OT1|TR10CS1\"",
-                                            "value": "V07OT2|TM105A|S10OT1|TR10CS1"
+                                            "value": "V07OT2|TM105A|S10OT1|TR10CS1",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3035,7 +3449,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 21996,
                                             "end": 22010,
                                             "raw": "\"StorexTablet\"",
-                                            "value": "StorexTablet"
+                                            "value": "StorexTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3046,7 +3462,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22012,
                                             "end": 22061,
                                             "raw": "\"eZee[_']?(Tab|Go)[0-9]+|TabLC7|Looney Tunes Tab\"",
-                                            "value": "eZee[_']?(Tab|Go)[0-9]+|TabLC7|Looney Tunes Tab"
+                                            "value": "eZee[_']?(Tab|Go)[0-9]+|TabLC7|Looney Tunes Tab",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3059,7 +3477,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22071,
                                             "end": 22087,
                                             "raw": "\"VodafoneTablet\"",
-                                            "value": "VodafoneTablet"
+                                            "value": "VodafoneTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3070,7 +3490,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22089,
                                             "end": 22145,
                                             "raw": "\"SmartTab([ ]+)?[0-9]+|SmartTabII10|SmartTabII7|VF-1497\"",
-                                            "value": "SmartTab([ ]+)?[0-9]+|SmartTabII10|SmartTabII7|VF-1497"
+                                            "value": "SmartTab([ ]+)?[0-9]+|SmartTabII10|SmartTabII7|VF-1497",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3083,7 +3505,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22155,
                                             "end": 22173,
                                             "raw": "\"EssentielBTablet\"",
-                                            "value": "EssentielBTablet"
+                                            "value": "EssentielBTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3094,7 +3518,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22175,
                                             "end": 22217,
                                             "raw": "\"Smart[ ']?TAB[ ]+?[0-9]+|Family[ ']?TAB2\"",
-                                            "value": "Smart[ ']?TAB[ ]+?[0-9]+|Family[ ']?TAB2"
+                                            "value": "Smart[ ']?TAB[ ]+?[0-9]+|Family[ ']?TAB2",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3107,7 +3533,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22227,
                                             "end": 22243,
                                             "raw": "\"RossMoorTablet\"",
-                                            "value": "RossMoorTablet"
+                                            "value": "RossMoorTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3118,7 +3546,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22245,
                                             "end": 22319,
                                             "raw": "\"RM-790|RM-997|RMD-878G|RMD-974R|RMT-705A|RMT-701|RME-601|RMT-501|RMT-711\"",
-                                            "value": "RM-790|RM-997|RMD-878G|RMD-974R|RMT-705A|RMT-701|RME-601|RMT-501|RMT-711"
+                                            "value": "RM-790|RM-997|RMD-878G|RMD-974R|RMT-705A|RMT-701|RME-601|RMT-501|RMT-711",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3131,7 +3561,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22329,
                                             "end": 22344,
                                             "raw": "\"iMobileTablet\"",
-                                            "value": "iMobileTablet"
+                                            "value": "iMobileTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3142,7 +3574,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22346,
                                             "end": 22363,
                                             "raw": "\"i-mobile i-note\"",
-                                            "value": "i-mobile i-note"
+                                            "value": "i-mobile i-note",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3155,7 +3589,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22373,
                                             "end": 22387,
                                             "raw": "\"TolinoTablet\"",
-                                            "value": "TolinoTablet"
+                                            "value": "TolinoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3166,7 +3602,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22389,
                                             "end": 22422,
                                             "raw": "\"tolino tab [0-9.]+|tolino shine\"",
-                                            "value": "tolino tab [0-9.]+|tolino shine"
+                                            "value": "tolino tab [0-9.]+|tolino shine",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3179,7 +3617,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22432,
                                             "end": 22450,
                                             "raw": "\"AudioSonicTablet\"",
-                                            "value": "AudioSonicTablet"
+                                            "value": "AudioSonicTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3190,7 +3630,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22452,
                                             "end": 22483,
                                             "raw": "\"\\\\bC-22Q|T7-QC|T-17B|T-17P\\\\b\"",
-                                            "value": "\\bC-22Q|T7-QC|T-17B|T-17P\\b"
+                                            "value": "\\bC-22Q|T7-QC|T-17B|T-17P\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3203,7 +3645,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22493,
                                             "end": 22505,
                                             "raw": "\"AMPETablet\"",
-                                            "value": "AMPETablet"
+                                            "value": "AMPETablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3214,7 +3658,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22507,
                                             "end": 22523,
                                             "raw": "\"Android.* A78 \"",
-                                            "value": "Android.* A78 "
+                                            "value": "Android.* A78 ",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3227,7 +3673,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22533,
                                             "end": 22544,
                                             "raw": "\"SkkTablet\"",
-                                            "value": "SkkTablet"
+                                            "value": "SkkTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3238,7 +3686,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22546,
                                             "end": 22582,
                                             "raw": "\"Android.* (SKYPAD|PHOENIX|CYCLOPS)\"",
-                                            "value": "Android.* (SKYPAD|PHOENIX|CYCLOPS)"
+                                            "value": "Android.* (SKYPAD|PHOENIX|CYCLOPS)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3251,7 +3701,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22592,
                                             "end": 22605,
                                             "raw": "\"TecnoTablet\"",
-                                            "value": "TecnoTablet"
+                                            "value": "TecnoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3262,7 +3714,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22607,
                                             "end": 22617,
                                             "raw": "\"TECNO P9\"",
-                                            "value": "TECNO P9"
+                                            "value": "TECNO P9",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3275,7 +3729,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22627,
                                             "end": 22638,
                                             "raw": "\"JXDTablet\"",
-                                            "value": "JXDTablet"
+                                            "value": "JXDTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3286,7 +3742,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22640,
                                             "end": 22871,
                                             "raw": "\"Android.* \\\\b(F3000|A3300|JXD5000|JXD3000|JXD2000|JXD300B|JXD300|S5800|S7800|S602b|S5110b|S7300|S5300|S602|S603|S5100|S5110|S601|S7100a|P3000F|P3000s|P101|P200s|P1000m|P200m|P9100|P1000s|S6600b|S908|P1000|P300|S18|S6600|S9100)\\\\b\"",
-                                            "value": "Android.* \\b(F3000|A3300|JXD5000|JXD3000|JXD2000|JXD300B|JXD300|S5800|S7800|S602b|S5110b|S7300|S5300|S602|S603|S5100|S5110|S601|S7100a|P3000F|P3000s|P101|P200s|P1000m|P200m|P9100|P1000s|S6600b|S908|P1000|P300|S18|S6600|S9100)\\b"
+                                            "value": "Android.* \\b(F3000|A3300|JXD5000|JXD3000|JXD2000|JXD300B|JXD300|S5800|S7800|S602b|S5110b|S7300|S5300|S602|S603|S5100|S5110|S601|S7100a|P3000F|P3000s|P101|P200s|P1000m|P200m|P9100|P1000s|S6600b|S908|P1000|P300|S18|S6600|S9100)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3299,7 +3757,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22881,
                                             "end": 22893,
                                             "raw": "\"iJoyTablet\"",
-                                            "value": "iJoyTablet"
+                                            "value": "iJoyTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3310,7 +3770,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 22895,
                                             "end": 23398,
                                             "raw": "\"Tablet (Spirit 7|Essentia|Galatea|Fusion|Onix 7|Landa|Titan|Scooby|Deox|Stella|Themis|Argon|Unique 7|Sygnus|Hexen|Finity 7|Cream|Cream X2|Jade|Neon 7|Neron 7|Kandy|Scape|Saphyr 7|Rebel|Biox|Rebel|Rebel 8GB|Myst|Draco 7|Myst|Tab7-004|Myst|Tadeo Jones|Tablet Boing|Arrow|Draco Dual Cam|Aurix|Mint|Amity|Revolution|Finity 9|Neon 9|T9w|Amity 4GB Dual Cam|Stone 4GB|Stone 8GB|Andromeda|Silken|X2|Andromeda II|Halley|Flame|Saphyr 9,7|Touch 8|Planet|Triton|Unique 10|Hexen 10|Memphis 4GB|Memphis 8GB|Onix 10)\"",
-                                            "value": "Tablet (Spirit 7|Essentia|Galatea|Fusion|Onix 7|Landa|Titan|Scooby|Deox|Stella|Themis|Argon|Unique 7|Sygnus|Hexen|Finity 7|Cream|Cream X2|Jade|Neon 7|Neron 7|Kandy|Scape|Saphyr 7|Rebel|Biox|Rebel|Rebel 8GB|Myst|Draco 7|Myst|Tab7-004|Myst|Tadeo Jones|Tablet Boing|Arrow|Draco Dual Cam|Aurix|Mint|Amity|Revolution|Finity 9|Neon 9|T9w|Amity 4GB Dual Cam|Stone 4GB|Stone 8GB|Andromeda|Silken|X2|Andromeda II|Halley|Flame|Saphyr 9,7|Touch 8|Planet|Triton|Unique 10|Hexen 10|Memphis 4GB|Memphis 8GB|Onix 10)"
+                                            "value": "Tablet (Spirit 7|Essentia|Galatea|Fusion|Onix 7|Landa|Titan|Scooby|Deox|Stella|Themis|Argon|Unique 7|Sygnus|Hexen|Finity 7|Cream|Cream X2|Jade|Neon 7|Neron 7|Kandy|Scape|Saphyr 7|Rebel|Biox|Rebel|Rebel 8GB|Myst|Draco 7|Myst|Tab7-004|Myst|Tadeo Jones|Tablet Boing|Arrow|Draco Dual Cam|Aurix|Mint|Amity|Revolution|Finity 9|Neon 9|T9w|Amity 4GB Dual Cam|Stone 4GB|Stone 8GB|Andromeda|Silken|X2|Andromeda II|Halley|Flame|Saphyr 9,7|Touch 8|Planet|Triton|Unique 10|Hexen 10|Memphis 4GB|Memphis 8GB|Onix 10)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3323,7 +3785,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23408,
                                             "end": 23419,
                                             "raw": "\"FX2Tablet\"",
-                                            "value": "FX2Tablet"
+                                            "value": "FX2Tablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3334,7 +3798,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23421,
                                             "end": 23441,
                                             "raw": "\"FX2 PAD7|FX2 PAD10\"",
-                                            "value": "FX2 PAD7|FX2 PAD10"
+                                            "value": "FX2 PAD7|FX2 PAD10",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3347,7 +3813,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23451,
                                             "end": 23463,
                                             "raw": "\"XoroTablet\"",
-                                            "value": "XoroTablet"
+                                            "value": "XoroTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3358,7 +3826,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23465,
                                             "end": 23810,
                                             "raw": "\"KidsPAD 701|PAD[ ]?712|PAD[ ]?714|PAD[ ]?716|PAD[ ]?717|PAD[ ]?718|PAD[ ]?720|PAD[ ]?721|PAD[ ]?722|PAD[ ]?790|PAD[ ]?792|PAD[ ]?900|PAD[ ]?9715D|PAD[ ]?9716DR|PAD[ ]?9718DR|PAD[ ]?9719QR|PAD[ ]?9720QR|TelePAD1030|Telepad1032|TelePAD730|TelePAD731|TelePAD732|TelePAD735Q|TelePAD830|TelePAD9730|TelePAD795|MegaPAD 1331|MegaPAD 1851|MegaPAD 2151\"",
-                                            "value": "KidsPAD 701|PAD[ ]?712|PAD[ ]?714|PAD[ ]?716|PAD[ ]?717|PAD[ ]?718|PAD[ ]?720|PAD[ ]?721|PAD[ ]?722|PAD[ ]?790|PAD[ ]?792|PAD[ ]?900|PAD[ ]?9715D|PAD[ ]?9716DR|PAD[ ]?9718DR|PAD[ ]?9719QR|PAD[ ]?9720QR|TelePAD1030|Telepad1032|TelePAD730|TelePAD731|TelePAD732|TelePAD735Q|TelePAD830|TelePAD9730|TelePAD795|MegaPAD 1331|MegaPAD 1851|MegaPAD 2151"
+                                            "value": "KidsPAD 701|PAD[ ]?712|PAD[ ]?714|PAD[ ]?716|PAD[ ]?717|PAD[ ]?718|PAD[ ]?720|PAD[ ]?721|PAD[ ]?722|PAD[ ]?790|PAD[ ]?792|PAD[ ]?900|PAD[ ]?9715D|PAD[ ]?9716DR|PAD[ ]?9718DR|PAD[ ]?9719QR|PAD[ ]?9720QR|TelePAD1030|Telepad1032|TelePAD730|TelePAD731|TelePAD732|TelePAD735Q|TelePAD830|TelePAD9730|TelePAD795|MegaPAD 1331|MegaPAD 1851|MegaPAD 2151",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3371,7 +3841,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23820,
                                             "end": 23837,
                                             "raw": "\"ViewsonicTablet\"",
-                                            "value": "ViewsonicTablet"
+                                            "value": "ViewsonicTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3382,7 +3854,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23839,
                                             "end": 23945,
                                             "raw": "\"ViewPad 10pi|ViewPad 10e|ViewPad 10s|ViewPad E72|ViewPad7|ViewPad E100|ViewPad 7e|ViewSonic VB733|VB100a\"",
-                                            "value": "ViewPad 10pi|ViewPad 10e|ViewPad 10s|ViewPad E72|ViewPad7|ViewPad E100|ViewPad 7e|ViewSonic VB733|VB100a"
+                                            "value": "ViewPad 10pi|ViewPad 10e|ViewPad 10s|ViewPad E72|ViewPad7|ViewPad E100|ViewPad 7e|ViewSonic VB733|VB100a",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3395,7 +3869,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23955,
                                             "end": 23967,
                                             "raw": "\"OdysTablet\"",
-                                            "value": "OdysTablet"
+                                            "value": "OdysTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3406,7 +3882,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 23969,
                                             "end": 24087,
                                             "raw": "\"LOOX|XENO10|ODYS[ -](Space|EVO|Xpress|NOON)|\\\\bXELIO\\\\b|Xelio10Pro|XELIO7PHONETAB|XELIO10EXTREME|XELIOPT2|NEO_QUAD10\"",
-                                            "value": "LOOX|XENO10|ODYS[ -](Space|EVO|Xpress|NOON)|\\bXELIO\\b|Xelio10Pro|XELIO7PHONETAB|XELIO10EXTREME|XELIOPT2|NEO_QUAD10"
+                                            "value": "LOOX|XENO10|ODYS[ -](Space|EVO|Xpress|NOON)|\\bXELIO\\b|Xelio10Pro|XELIO7PHONETAB|XELIO10EXTREME|XELIOPT2|NEO_QUAD10",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3419,7 +3897,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 24097,
                                             "end": 24112,
                                             "raw": "\"CaptivaTablet\"",
-                                            "value": "CaptivaTablet"
+                                            "value": "CaptivaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3430,7 +3910,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 24114,
                                             "end": 24127,
                                             "raw": "\"CAPTIVA PAD\"",
-                                            "value": "CAPTIVA PAD"
+                                            "value": "CAPTIVA PAD",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3443,7 +3925,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 24137,
                                             "end": 24152,
                                             "raw": "\"IconbitTablet\"",
-                                            "value": "IconbitTablet"
+                                            "value": "IconbitTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3454,7 +3938,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 24154,
                                             "end": 24314,
                                             "raw": "\"NetTAB|NT-3702|NT-3702S|NT-3702S|NT-3603P|NT-3603P|NT-0704S|NT-0704S|NT-3805C|NT-3805C|NT-0806C|NT-0806C|NT-0909T|NT-0909T|NT-0907S|NT-0907S|NT-0902S|NT-0902S\"",
-                                            "value": "NetTAB|NT-3702|NT-3702S|NT-3702S|NT-3603P|NT-3603P|NT-0704S|NT-0704S|NT-3805C|NT-3805C|NT-0806C|NT-0806C|NT-0909T|NT-0909T|NT-0907S|NT-0907S|NT-0902S|NT-0902S"
+                                            "value": "NetTAB|NT-3702|NT-3702S|NT-3702S|NT-3603P|NT-3603P|NT-0704S|NT-0704S|NT-3805C|NT-3805C|NT-0806C|NT-0806C|NT-0909T|NT-0909T|NT-0907S|NT-0907S|NT-0902S|NT-0902S",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3467,7 +3953,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 24324,
                                             "end": 24339,
                                             "raw": "\"TeclastTablet\"",
-                                            "value": "TeclastTablet"
+                                            "value": "TeclastTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3478,7 +3966,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 24341,
                                             "end": 25246,
                                             "raw": "\"T98 4G|\\\\bP80\\\\b|\\\\bX90HD\\\\b|X98 Air|X98 Air 3G|\\\\bX89\\\\b|P80 3G|\\\\bX80h\\\\b|P98 Air|\\\\bX89HD\\\\b|P98 3G|\\\\bP90HD\\\\b|P89 3G|X98 3G|\\\\bP70h\\\\b|P79HD 3G|G18d 3G|\\\\bP79HD\\\\b|\\\\bP89s\\\\b|\\\\bA88\\\\b|\\\\bP10HD\\\\b|\\\\bP19HD\\\\b|G18 3G|\\\\bP78HD\\\\b|\\\\bA78\\\\b|\\\\bP75\\\\b|G17s 3G|G17h 3G|\\\\bP85t\\\\b|\\\\bP90\\\\b|\\\\bP11\\\\b|\\\\bP98t\\\\b|\\\\bP98HD\\\\b|\\\\bG18d\\\\b|\\\\bP85s\\\\b|\\\\bP11HD\\\\b|\\\\bP88s\\\\b|\\\\bA80HD\\\\b|\\\\bA80se\\\\b|\\\\bA10h\\\\b|\\\\bP89\\\\b|\\\\bP78s\\\\b|\\\\bG18\\\\b|\\\\bP85\\\\b|\\\\bA70h\\\\b|\\\\bA70\\\\b|\\\\bG17\\\\b|\\\\bP18\\\\b|\\\\bA80s\\\\b|\\\\bA11s\\\\b|\\\\bP88HD\\\\b|\\\\bA80h\\\\b|\\\\bP76s\\\\b|\\\\bP76h\\\\b|\\\\bP98\\\\b|\\\\bA10HD\\\\b|\\\\bP78\\\\b|\\\\bP88\\\\b|\\\\bA11\\\\b|\\\\bA10t\\\\b|\\\\bP76a\\\\b|\\\\bP76t\\\\b|\\\\bP76e\\\\b|\\\\bP85HD\\\\b|\\\\bP85a\\\\b|\\\\bP86\\\\b|\\\\bP75HD\\\\b|\\\\bP76v\\\\b|\\\\bA12\\\\b|\\\\bP75a\\\\b|\\\\bA15\\\\b|\\\\bP76Ti\\\\b|\\\\bP81HD\\\\b|\\\\bA10\\\\b|\\\\bT760VE\\\\b|\\\\bT720HD\\\\b|\\\\bP76\\\\b|\\\\bP73\\\\b|\\\\bP71\\\\b|\\\\bP72\\\\b|\\\\bT720SE\\\\b|\\\\bC520Ti\\\\b|\\\\bT760\\\\b|\\\\bT720VE\\\\b|T720-3GE|T720-WiFi\"",
-                                            "value": "T98 4G|\\bP80\\b|\\bX90HD\\b|X98 Air|X98 Air 3G|\\bX89\\b|P80 3G|\\bX80h\\b|P98 Air|\\bX89HD\\b|P98 3G|\\bP90HD\\b|P89 3G|X98 3G|\\bP70h\\b|P79HD 3G|G18d 3G|\\bP79HD\\b|\\bP89s\\b|\\bA88\\b|\\bP10HD\\b|\\bP19HD\\b|G18 3G|\\bP78HD\\b|\\bA78\\b|\\bP75\\b|G17s 3G|G17h 3G|\\bP85t\\b|\\bP90\\b|\\bP11\\b|\\bP98t\\b|\\bP98HD\\b|\\bG18d\\b|\\bP85s\\b|\\bP11HD\\b|\\bP88s\\b|\\bA80HD\\b|\\bA80se\\b|\\bA10h\\b|\\bP89\\b|\\bP78s\\b|\\bG18\\b|\\bP85\\b|\\bA70h\\b|\\bA70\\b|\\bG17\\b|\\bP18\\b|\\bA80s\\b|\\bA11s\\b|\\bP88HD\\b|\\bA80h\\b|\\bP76s\\b|\\bP76h\\b|\\bP98\\b|\\bA10HD\\b|\\bP78\\b|\\bP88\\b|\\bA11\\b|\\bA10t\\b|\\bP76a\\b|\\bP76t\\b|\\bP76e\\b|\\bP85HD\\b|\\bP85a\\b|\\bP86\\b|\\bP75HD\\b|\\bP76v\\b|\\bA12\\b|\\bP75a\\b|\\bA15\\b|\\bP76Ti\\b|\\bP81HD\\b|\\bA10\\b|\\bT760VE\\b|\\bT720HD\\b|\\bP76\\b|\\bP73\\b|\\bP71\\b|\\bP72\\b|\\bT720SE\\b|\\bC520Ti\\b|\\bT760\\b|\\bT720VE\\b|T720-3GE|T720-WiFi"
+                                            "value": "T98 4G|\\bP80\\b|\\bX90HD\\b|X98 Air|X98 Air 3G|\\bX89\\b|P80 3G|\\bX80h\\b|P98 Air|\\bX89HD\\b|P98 3G|\\bP90HD\\b|P89 3G|X98 3G|\\bP70h\\b|P79HD 3G|G18d 3G|\\bP79HD\\b|\\bP89s\\b|\\bA88\\b|\\bP10HD\\b|\\bP19HD\\b|G18 3G|\\bP78HD\\b|\\bA78\\b|\\bP75\\b|G17s 3G|G17h 3G|\\bP85t\\b|\\bP90\\b|\\bP11\\b|\\bP98t\\b|\\bP98HD\\b|\\bG18d\\b|\\bP85s\\b|\\bP11HD\\b|\\bP88s\\b|\\bA80HD\\b|\\bA80se\\b|\\bA10h\\b|\\bP89\\b|\\bP78s\\b|\\bG18\\b|\\bP85\\b|\\bA70h\\b|\\bA70\\b|\\bG17\\b|\\bP18\\b|\\bA80s\\b|\\bA11s\\b|\\bP88HD\\b|\\bA80h\\b|\\bP76s\\b|\\bP76h\\b|\\bP98\\b|\\bA10HD\\b|\\bP78\\b|\\bP88\\b|\\bA11\\b|\\bA10t\\b|\\bP76a\\b|\\bP76t\\b|\\bP76e\\b|\\bP85HD\\b|\\bP85a\\b|\\bP86\\b|\\bP75HD\\b|\\bP76v\\b|\\bA12\\b|\\bP75a\\b|\\bA15\\b|\\bP76Ti\\b|\\bP81HD\\b|\\bA10\\b|\\bT760VE\\b|\\bT720HD\\b|\\bP76\\b|\\bP73\\b|\\bP71\\b|\\bP72\\b|\\bT720SE\\b|\\bC520Ti\\b|\\bT760\\b|\\bT720VE\\b|T720-3GE|T720-WiFi",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3491,7 +3981,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25256,
                                             "end": 25268,
                                             "raw": "\"OndaTablet\"",
-                                            "value": "OndaTablet"
+                                            "value": "OndaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3502,7 +3994,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25270,
                                             "end": 25581,
                                             "raw": "\"\\\\b(V975i|Vi30|VX530|V701|Vi60|V701s|Vi50|V801s|V719|Vx610w|VX610W|V819i|Vi10|VX580W|Vi10|V711s|V813|V811|V820w|V820|Vi20|V711|VI30W|V712|V891w|V972|V819w|V820w|Vi60|V820w|V711|V813s|V801|V819|V975s|V801|V819|V819|V818|V811|V712|V975m|V101w|V961w|V812|V818|V971|V971s|V919|V989|V116w|V102w|V973|Vi40)\\\\b[\\\\s]+\"",
-                                            "value": "\\b(V975i|Vi30|VX530|V701|Vi60|V701s|Vi50|V801s|V719|Vx610w|VX610W|V819i|Vi10|VX580W|Vi10|V711s|V813|V811|V820w|V820|Vi20|V711|VI30W|V712|V891w|V972|V819w|V820w|Vi60|V820w|V711|V813s|V801|V819|V975s|V801|V819|V819|V818|V811|V712|V975m|V101w|V961w|V812|V818|V971|V971s|V919|V989|V116w|V102w|V973|Vi40)\\b[\\s]+"
+                                            "value": "\\b(V975i|Vi30|VX530|V701|Vi60|V701s|Vi50|V801s|V719|Vx610w|VX610W|V819i|Vi10|VX580W|Vi10|V711s|V813|V811|V820w|V820|Vi20|V711|VI30W|V712|V891w|V972|V819w|V820w|Vi60|V820w|V711|V813s|V801|V819|V975s|V801|V819|V819|V818|V811|V712|V975m|V101w|V961w|V812|V818|V971|V971s|V919|V989|V116w|V102w|V973|Vi40)\\b[\\s]+",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3515,7 +4009,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25591,
                                             "end": 25606,
                                             "raw": "\"JaytechTablet\"",
-                                            "value": "JaytechTablet"
+                                            "value": "JaytechTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3526,7 +4022,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25608,
                                             "end": 25619,
                                             "raw": "\"TPC-PA762\"",
-                                            "value": "TPC-PA762"
+                                            "value": "TPC-PA762",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3539,7 +4037,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25629,
                                             "end": 25646,
                                             "raw": "\"BlaupunktTablet\"",
-                                            "value": "BlaupunktTablet"
+                                            "value": "BlaupunktTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3550,7 +4050,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25648,
                                             "end": 25680,
                                             "raw": "\"Endeavour 800NG|Endeavour 1010\"",
-                                            "value": "Endeavour 800NG|Endeavour 1010"
+                                            "value": "Endeavour 800NG|Endeavour 1010",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3563,7 +4065,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25690,
                                             "end": 25703,
                                             "raw": "\"DigmaTablet\"",
-                                            "value": "DigmaTablet"
+                                            "value": "DigmaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3574,7 +4078,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25705,
                                             "end": 25804,
                                             "raw": "\"\\\\b(iDx10|iDx9|iDx8|iDx7|iDxD7|iDxD8|iDsQ8|iDsQ7|iDsQ8|iDsD10|iDnD7|3TS804H|iDsQ11|iDj7|iDs10)\\\\b\"",
-                                            "value": "\\b(iDx10|iDx9|iDx8|iDx7|iDxD7|iDxD8|iDsQ8|iDsQ7|iDsQ8|iDsD10|iDnD7|3TS804H|iDsQ11|iDj7|iDs10)\\b"
+                                            "value": "\\b(iDx10|iDx9|iDx8|iDx7|iDxD7|iDxD8|iDsQ8|iDsQ7|iDsQ8|iDsD10|iDnD7|3TS804H|iDsQ11|iDj7|iDs10)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3587,7 +4093,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25814,
                                             "end": 25828,
                                             "raw": "\"EvolioTablet\"",
-                                            "value": "EvolioTablet"
+                                            "value": "EvolioTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3598,7 +4106,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25830,
                                             "end": 25915,
                                             "raw": "\"ARIA_Mini_wifi|Aria[ _]Mini|Evolio X10|Evolio X7|Evolio X8|\\\\bEvotab\\\\b|\\\\bNeura\\\\b\"",
-                                            "value": "ARIA_Mini_wifi|Aria[ _]Mini|Evolio X10|Evolio X7|Evolio X8|\\bEvotab\\b|\\bNeura\\b"
+                                            "value": "ARIA_Mini_wifi|Aria[ _]Mini|Evolio X10|Evolio X7|Evolio X8|\\bEvotab\\b|\\bNeura\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3611,7 +4121,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25925,
                                             "end": 25937,
                                             "raw": "\"LavaTablet\"",
-                                            "value": "LavaTablet"
+                                            "value": "LavaTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3622,7 +4134,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25939,
                                             "end": 25987,
                                             "raw": "\"QPAD E704|\\\\bIvoryS\\\\b|E-TAB IVORY|\\\\bE-TAB\\\\b\"",
-                                            "value": "QPAD E704|\\bIvoryS\\b|E-TAB IVORY|\\bE-TAB\\b"
+                                            "value": "QPAD E704|\\bIvoryS\\b|E-TAB IVORY|\\bE-TAB\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3635,7 +4149,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 25997,
                                             "end": 26008,
                                             "raw": "\"AocTablet\"",
-                                            "value": "AocTablet"
+                                            "value": "AocTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3646,7 +4162,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26010,
                                             "end": 26075,
                                             "raw": "\"MW0811|MW0812|MW0922|MTK8382|MW1031|MW0831|MW0821|MW0931|MW0712\"",
-                                            "value": "MW0811|MW0812|MW0922|MTK8382|MW1031|MW0831|MW0821|MW0931|MW0712"
+                                            "value": "MW0811|MW0812|MW0922|MTK8382|MW1031|MW0831|MW0821|MW0931|MW0712",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3659,7 +4177,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26085,
                                             "end": 26098,
                                             "raw": "\"MpmanTablet\"",
-                                            "value": "MpmanTablet"
+                                            "value": "MpmanTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3670,7 +4190,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26100,
                                             "end": 26368,
                                             "raw": "\"MP11 OCTA|MP10 OCTA|MPQC1114|MPQC1004|MPQC994|MPQC974|MPQC973|MPQC804|MPQC784|MPQC780|\\\\bMPG7\\\\b|MPDCG75|MPDCG71|MPDC1006|MP101DC|MPDC9000|MPDC905|MPDC706HD|MPDC706|MPDC705|MPDC110|MPDC100|MPDC99|MPDC97|MPDC88|MPDC8|MPDC77|MP709|MID701|MID711|MID170|MPDC703|MPQC1010\"",
-                                            "value": "MP11 OCTA|MP10 OCTA|MPQC1114|MPQC1004|MPQC994|MPQC974|MPQC973|MPQC804|MPQC784|MPQC780|\\bMPG7\\b|MPDCG75|MPDCG71|MPDC1006|MP101DC|MPDC9000|MPDC905|MPDC706HD|MPDC706|MPDC705|MPDC110|MPDC100|MPDC99|MPDC97|MPDC88|MPDC8|MPDC77|MP709|MID701|MID711|MID170|MPDC703|MPQC1010"
+                                            "value": "MP11 OCTA|MP10 OCTA|MPQC1114|MPQC1004|MPQC994|MPQC974|MPQC973|MPQC804|MPQC784|MPQC780|\\bMPG7\\b|MPDCG75|MPDCG71|MPDC1006|MP101DC|MPDC9000|MPDC905|MPDC706HD|MPDC706|MPDC705|MPDC110|MPDC100|MPDC99|MPDC97|MPDC88|MPDC8|MPDC77|MP709|MID701|MID711|MID170|MPDC703|MPQC1010",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3683,7 +4205,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26378,
                                             "end": 26392,
                                             "raw": "\"CelkonTablet\"",
-                                            "value": "CelkonTablet"
+                                            "value": "CelkonTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3694,7 +4218,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26394,
                                             "end": 26480,
                                             "raw": "\"CT695|CT888|CT[\\\\s]?910|CT7 Tab|CT9 Tab|CT3 Tab|CT2 Tab|CT1 Tab|C820|C720|\\\\bCT-1\\\\b\"",
-                                            "value": "CT695|CT888|CT[\\s]?910|CT7 Tab|CT9 Tab|CT3 Tab|CT2 Tab|CT1 Tab|C820|C720|\\bCT-1\\b"
+                                            "value": "CT695|CT888|CT[\\s]?910|CT7 Tab|CT9 Tab|CT3 Tab|CT2 Tab|CT1 Tab|C820|C720|\\bCT-1\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3707,7 +4233,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26490,
                                             "end": 26504,
                                             "raw": "\"WolderTablet\"",
-                                            "value": "WolderTablet"
+                                            "value": "WolderTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3718,7 +4246,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26506,
                                             "end": 26787,
                                             "raw": "\"miTab \\\\b(DIAMOND|SPACE|BROOKLYN|NEO|FLY|MANHATTAN|FUNK|EVOLUTION|SKY|GOCAR|IRON|GENIUS|POP|MINT|EPSILON|BROADWAY|JUMP|HOP|LEGEND|NEW AGE|LINE|ADVANCE|FEEL|FOLLOW|LIKE|LINK|LIVE|THINK|FREEDOM|CHICAGO|CLEVELAND|BALTIMORE-GH|IOWA|BOSTON|SEATTLE|PHOENIX|DALLAS|IN 101|MasterChef)\\\\b\"",
-                                            "value": "miTab \\b(DIAMOND|SPACE|BROOKLYN|NEO|FLY|MANHATTAN|FUNK|EVOLUTION|SKY|GOCAR|IRON|GENIUS|POP|MINT|EPSILON|BROADWAY|JUMP|HOP|LEGEND|NEW AGE|LINE|ADVANCE|FEEL|FOLLOW|LIKE|LINK|LIVE|THINK|FREEDOM|CHICAGO|CLEVELAND|BALTIMORE-GH|IOWA|BOSTON|SEATTLE|PHOENIX|DALLAS|IN 101|MasterChef)\\b"
+                                            "value": "miTab \\b(DIAMOND|SPACE|BROOKLYN|NEO|FLY|MANHATTAN|FUNK|EVOLUTION|SKY|GOCAR|IRON|GENIUS|POP|MINT|EPSILON|BROADWAY|JUMP|HOP|LEGEND|NEW AGE|LINE|ADVANCE|FEEL|FOLLOW|LIKE|LINK|LIVE|THINK|FREEDOM|CHICAGO|CLEVELAND|BALTIMORE-GH|IOWA|BOSTON|SEATTLE|PHOENIX|DALLAS|IN 101|MasterChef)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3731,7 +4261,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26797,
                                             "end": 26807,
                                             "raw": "\"MiTablet\"",
-                                            "value": "MiTablet"
+                                            "value": "MiTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3742,7 +4274,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26809,
                                             "end": 26840,
                                             "raw": "\"\\\\bMI PAD\\\\b|\\\\bHM NOTE 1W\\\\b\"",
-                                            "value": "\\bMI PAD\\b|\\bHM NOTE 1W\\b"
+                                            "value": "\\bMI PAD\\b|\\bHM NOTE 1W\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3755,7 +4289,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26850,
                                             "end": 26864,
                                             "raw": "\"NibiruTablet\"",
-                                            "value": "NibiruTablet"
+                                            "value": "NibiruTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3766,7 +4302,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26866,
                                             "end": 26896,
                                             "raw": "\"Nibiru M1|Nibiru Jupiter One\"",
-                                            "value": "Nibiru M1|Nibiru Jupiter One"
+                                            "value": "Nibiru M1|Nibiru Jupiter One",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3779,7 +4317,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26906,
                                             "end": 26918,
                                             "raw": "\"NexoTablet\"",
-                                            "value": "NexoTablet"
+                                            "value": "NexoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3790,7 +4330,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 26920,
                                             "end": 27016,
                                             "raw": "\"NEXO NOVA|NEXO 10|NEXO AVIO|NEXO FREE|NEXO GO|NEXO EVO|NEXO 3G|NEXO SMART|NEXO KIDDO|NEXO MOBI\"",
-                                            "value": "NEXO NOVA|NEXO 10|NEXO AVIO|NEXO FREE|NEXO GO|NEXO EVO|NEXO 3G|NEXO SMART|NEXO KIDDO|NEXO MOBI"
+                                            "value": "NEXO NOVA|NEXO 10|NEXO AVIO|NEXO FREE|NEXO GO|NEXO EVO|NEXO 3G|NEXO SMART|NEXO KIDDO|NEXO MOBI",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3803,7 +4345,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27026,
                                             "end": 27040,
                                             "raw": "\"LeaderTablet\"",
-                                            "value": "LeaderTablet"
+                                            "value": "LeaderTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3814,7 +4358,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27042,
                                             "end": 27184,
                                             "raw": "\"TBLT10Q|TBLT10I|TBL-10WDKB|TBL-10WDKBO2013|TBL-W230V2|TBL-W450|TBL-W500|SV572|TBLT7I|TBA-AC7-8G|TBLT79|TBL-8W16|TBL-10W32|TBL-10WKB|TBL-W100\"",
-                                            "value": "TBLT10Q|TBLT10I|TBL-10WDKB|TBL-10WDKBO2013|TBL-W230V2|TBL-W450|TBL-W500|SV572|TBLT7I|TBA-AC7-8G|TBLT79|TBL-8W16|TBL-10W32|TBL-10WKB|TBL-W100"
+                                            "value": "TBLT10Q|TBLT10I|TBL-10WDKB|TBL-10WDKBO2013|TBL-W230V2|TBL-W450|TBL-W500|SV572|TBLT7I|TBA-AC7-8G|TBLT79|TBL-8W16|TBL-10W32|TBL-10WKB|TBL-W100",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3827,7 +4373,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27194,
                                             "end": 27210,
                                             "raw": "\"UbislateTablet\"",
-                                            "value": "UbislateTablet"
+                                            "value": "UbislateTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3838,7 +4386,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27212,
                                             "end": 27230,
                                             "raw": "\"UbiSlate[\\\\s]?7C\"",
-                                            "value": "UbiSlate[\\s]?7C"
+                                            "value": "UbiSlate[\\s]?7C",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3851,7 +4401,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27240,
                                             "end": 27258,
                                             "raw": "\"PocketBookTablet\"",
-                                            "value": "PocketBookTablet"
+                                            "value": "PocketBookTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3862,7 +4414,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27260,
                                             "end": 27272,
                                             "raw": "\"Pocketbook\"",
-                                            "value": "Pocketbook"
+                                            "value": "Pocketbook",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3875,7 +4429,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27282,
                                             "end": 27296,
                                             "raw": "\"KocasoTablet\"",
-                                            "value": "KocasoTablet"
+                                            "value": "KocasoTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3886,7 +4442,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27298,
                                             "end": 27315,
                                             "raw": "\"\\\\b(TB-1207)\\\\b\"",
-                                            "value": "\\b(TB-1207)\\b"
+                                            "value": "\\b(TB-1207)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3899,7 +4457,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27325,
                                             "end": 27331,
                                             "raw": "\"Hudl\"",
-                                            "value": "Hudl"
+                                            "value": "Hudl",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3910,7 +4470,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27333,
                                             "end": 27352,
                                             "raw": "\"Hudl HT7S3|Hudl 2\"",
-                                            "value": "Hudl HT7S3|Hudl 2"
+                                            "value": "Hudl HT7S3|Hudl 2",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3923,7 +4485,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27362,
                                             "end": 27377,
                                             "raw": "\"TelstraTablet\"",
-                                            "value": "TelstraTablet"
+                                            "value": "TelstraTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3934,7 +4498,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27379,
                                             "end": 27387,
                                             "raw": "\"T-Hub2\"",
-                                            "value": "T-Hub2"
+                                            "value": "T-Hub2",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -3947,7 +4513,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27397,
                                             "end": 27412,
                                             "raw": "\"GenericTablet\"",
-                                            "value": "GenericTablet"
+                                            "value": "GenericTablet",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -3958,7 +4526,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27414,
                                             "end": 27678,
                                             "raw": "\"Android.*\\\\b97D\\\\b|Tablet(?!.*PC)|BNTV250A|MID-WCDMA|LogicPD Zoom2|\\\\bA7EB\\\\b|CatNova8|A1_07|CT704|CT1002|\\\\bM721\\\\b|rk30sdk|\\\\bEVOTAB\\\\b|M758A|ET904|ALUMIUM10|Smartfren Tab|Endeavour 1010|Tablet-PC-4|Tagi Tab|\\\\bM6pro\\\\b|CT1020W|arc 10HD|\\\\bJolla\\\\b|\\\\bTP750\\\\b\"",
-                                            "value": "Android.*\\b97D\\b|Tablet(?!.*PC)|BNTV250A|MID-WCDMA|LogicPD Zoom2|\\bA7EB\\b|CatNova8|A1_07|CT704|CT1002|\\bM721\\b|rk30sdk|\\bEVOTAB\\b|M758A|ET904|ALUMIUM10|Smartfren Tab|Endeavour 1010|Tablet-PC-4|Tagi Tab|\\bM6pro\\b|CT1020W|arc 10HD|\\bJolla\\b|\\bTP750\\b"
+                                            "value": "Android.*\\b97D\\b|Tablet(?!.*PC)|BNTV250A|MID-WCDMA|LogicPD Zoom2|\\bA7EB\\b|CatNova8|A1_07|CT704|CT1002|\\bM721\\b|rk30sdk|\\bEVOTAB\\b|M758A|ET904|ALUMIUM10|Smartfren Tab|Endeavour 1010|Tablet-PC-4|Tagi Tab|\\bM6pro\\b|CT1020W|arc 10HD|\\bJolla\\b|\\bTP750\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -3974,7 +4544,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 27690,
                                       "end": 27695,
                                       "raw": "\"oss\"",
-                                      "value": "oss"
+                                      "value": "oss",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -3995,7 +4567,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27707,
                                             "end": 27718,
                                             "raw": "\"AndroidOS\"",
-                                            "value": "AndroidOS"
+                                            "value": "AndroidOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4006,7 +4580,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27720,
                                             "end": 27729,
                                             "raw": "\"Android\"",
-                                            "value": "Android"
+                                            "value": "Android",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4019,7 +4595,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27739,
                                             "end": 27753,
                                             "raw": "\"BlackBerryOS\"",
-                                            "value": "BlackBerryOS"
+                                            "value": "BlackBerryOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4030,7 +4608,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27755,
                                             "end": 27792,
                                             "raw": "\"blackberry|\\\\bBB10\\\\b|rim tablet os\"",
-                                            "value": "blackberry|\\bBB10\\b|rim tablet os"
+                                            "value": "blackberry|\\bBB10\\b|rim tablet os",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4043,7 +4623,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27802,
                                             "end": 27810,
                                             "raw": "\"PalmOS\"",
-                                            "value": "PalmOS"
+                                            "value": "PalmOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4054,7 +4636,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27812,
                                             "end": 27868,
                                             "raw": "\"PalmOS|avantgo|blazer|elaine|hiptop|palm|plucker|xiino\"",
-                                            "value": "PalmOS|avantgo|blazer|elaine|hiptop|palm|plucker|xiino"
+                                            "value": "PalmOS|avantgo|blazer|elaine|hiptop|palm|plucker|xiino",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4067,7 +4651,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27878,
                                             "end": 27889,
                                             "raw": "\"SymbianOS\"",
-                                            "value": "SymbianOS"
+                                            "value": "SymbianOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4078,7 +4664,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27891,
                                             "end": 27946,
                                             "raw": "\"Symbian|SymbOS|Series60|Series40|SYB-[0-9]+|\\\\bS60\\\\b\"",
-                                            "value": "Symbian|SymbOS|Series60|Series40|SYB-[0-9]+|\\bS60\\b"
+                                            "value": "Symbian|SymbOS|Series60|Series40|SYB-[0-9]+|\\bS60\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4091,7 +4679,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27956,
                                             "end": 27973,
                                             "raw": "\"WindowsMobileOS\"",
-                                            "value": "WindowsMobileOS"
+                                            "value": "WindowsMobileOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4102,7 +4692,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 27975,
                                             "end": 28071,
                                             "raw": "\"Windows CE.*(PPC|Smartphone|Mobile|[0-9]{3}x[0-9]{3})|Window Mobile|Windows Phone [0-9.]+|WCE;\"",
-                                            "value": "Windows CE.*(PPC|Smartphone|Mobile|[0-9]{3}x[0-9]{3})|Window Mobile|Windows Phone [0-9.]+|WCE;"
+                                            "value": "Windows CE.*(PPC|Smartphone|Mobile|[0-9]{3}x[0-9]{3})|Window Mobile|Windows Phone [0-9.]+|WCE;",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4115,7 +4707,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28081,
                                             "end": 28097,
                                             "raw": "\"WindowsPhoneOS\"",
-                                            "value": "WindowsPhoneOS"
+                                            "value": "WindowsPhoneOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4126,7 +4720,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28099,
                                             "end": 28211,
                                             "raw": "\"Windows Phone 10.0|Windows Phone 8.1|Windows Phone 8.0|Windows Phone OS|XBLWP7|ZuneWP7|Windows NT 6.[23]; ARM;\"",
-                                            "value": "Windows Phone 10.0|Windows Phone 8.1|Windows Phone 8.0|Windows Phone OS|XBLWP7|ZuneWP7|Windows NT 6.[23]; ARM;"
+                                            "value": "Windows Phone 10.0|Windows Phone 8.1|Windows Phone 8.0|Windows Phone OS|XBLWP7|ZuneWP7|Windows NT 6.[23]; ARM;",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4139,7 +4735,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28221,
                                             "end": 28226,
                                             "raw": "\"iOS\"",
-                                            "value": "iOS"
+                                            "value": "iOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4150,7 +4748,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28228,
                                             "end": 28263,
                                             "raw": "\"\\\\biPhone.*Mobile|\\\\biPod|\\\\biPad\"",
-                                            "value": "\\biPhone.*Mobile|\\biPod|\\biPad"
+                                            "value": "\\biPhone.*Mobile|\\biPod|\\biPad",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4163,7 +4763,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28273,
                                             "end": 28282,
                                             "raw": "\"MeeGoOS\"",
-                                            "value": "MeeGoOS"
+                                            "value": "MeeGoOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4174,7 +4776,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28284,
                                             "end": 28291,
                                             "raw": "\"MeeGo\"",
-                                            "value": "MeeGo"
+                                            "value": "MeeGo",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4187,7 +4791,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28301,
                                             "end": 28310,
                                             "raw": "\"MaemoOS\"",
-                                            "value": "MaemoOS"
+                                            "value": "MaemoOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4198,7 +4804,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28312,
                                             "end": 28319,
                                             "raw": "\"Maemo\"",
-                                            "value": "Maemo"
+                                            "value": "Maemo",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4211,7 +4819,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28329,
                                             "end": 28337,
                                             "raw": "\"JavaOS\"",
-                                            "value": "JavaOS"
+                                            "value": "JavaOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4222,7 +4832,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28339,
                                             "end": 28369,
                                             "raw": "\"J2ME\\/|\\\\bMIDP\\\\b|\\\\bCLDC\\\\b\"",
-                                            "value": "J2ME/|\\bMIDP\\b|\\bCLDC\\b"
+                                            "value": "J2ME/|\\bMIDP\\b|\\bCLDC\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4235,7 +4847,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28379,
                                             "end": 28386,
                                             "raw": "\"webOS\"",
-                                            "value": "webOS"
+                                            "value": "webOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4246,7 +4860,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28388,
                                             "end": 28401,
                                             "raw": "\"webOS|hpwOS\"",
-                                            "value": "webOS|hpwOS"
+                                            "value": "webOS|hpwOS",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4259,7 +4875,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28411,
                                             "end": 28419,
                                             "raw": "\"badaOS\"",
-                                            "value": "badaOS"
+                                            "value": "badaOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4270,7 +4888,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28421,
                                             "end": 28433,
                                             "raw": "\"\\\\bBada\\\\b\"",
-                                            "value": "\\bBada\\b"
+                                            "value": "\\bBada\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4283,7 +4903,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28443,
                                             "end": 28451,
                                             "raw": "\"BREWOS\"",
-                                            "value": "BREWOS"
+                                            "value": "BREWOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4294,7 +4916,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28453,
                                             "end": 28459,
                                             "raw": "\"BREW\"",
-                                            "value": "BREW"
+                                            "value": "BREW",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -4310,7 +4934,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 28471,
                                       "end": 28476,
                                       "raw": "\"uas\"",
-                                      "value": "uas"
+                                      "value": "uas",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -4331,7 +4957,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28488,
                                             "end": 28497,
                                             "raw": "\"Vivaldi\"",
-                                            "value": "Vivaldi"
+                                            "value": "Vivaldi",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4342,7 +4970,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28499,
                                             "end": 28508,
                                             "raw": "\"Vivaldi\"",
-                                            "value": "Vivaldi"
+                                            "value": "Vivaldi",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4355,7 +4985,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28518,
                                             "end": 28526,
                                             "raw": "\"Chrome\"",
-                                            "value": "Chrome"
+                                            "value": "Chrome",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4366,7 +4998,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28528,
                                             "end": 28581,
                                             "raw": "\"\\\\bCrMo\\\\b|CriOS|Android.*Chrome\\/[.0-9]* (Mobile)?\"",
-                                            "value": "\\bCrMo\\b|CriOS|Android.*Chrome/[.0-9]* (Mobile)?"
+                                            "value": "\\bCrMo\\b|CriOS|Android.*Chrome/[.0-9]* (Mobile)?",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4379,7 +5013,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28591,
                                             "end": 28599,
                                             "raw": "\"Dolfin\"",
-                                            "value": "Dolfin"
+                                            "value": "Dolfin",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4390,7 +5026,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28601,
                                             "end": 28615,
                                             "raw": "\"\\\\bDolfin\\\\b\"",
-                                            "value": "\\bDolfin\\b"
+                                            "value": "\\bDolfin\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4403,7 +5041,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28625,
                                             "end": 28632,
                                             "raw": "\"Opera\"",
-                                            "value": "Opera"
+                                            "value": "Opera",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4414,7 +5054,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28634,
                                             "end": 28710,
                                             "raw": "\"Opera.*Mini|Opera.*Mobi|Android.*Opera|Mobile.*OPR\\/[0-9.]+|Coast\\/[0-9.]+\"",
-                                            "value": "Opera.*Mini|Opera.*Mobi|Android.*Opera|Mobile.*OPR/[0-9.]+|Coast/[0-9.]+"
+                                            "value": "Opera.*Mini|Opera.*Mobi|Android.*Opera|Mobile.*OPR/[0-9.]+|Coast/[0-9.]+",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4427,7 +5069,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28720,
                                             "end": 28729,
                                             "raw": "\"Skyfire\"",
-                                            "value": "Skyfire"
+                                            "value": "Skyfire",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4438,7 +5082,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28731,
                                             "end": 28740,
                                             "raw": "\"Skyfire\"",
-                                            "value": "Skyfire"
+                                            "value": "Skyfire",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4451,7 +5097,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28750,
                                             "end": 28756,
                                             "raw": "\"Edge\"",
-                                            "value": "Edge"
+                                            "value": "Edge",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4462,7 +5110,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28758,
                                             "end": 28787,
                                             "raw": "\"Mobile Safari\\/[.0-9]* Edge\"",
-                                            "value": "Mobile Safari/[.0-9]* Edge"
+                                            "value": "Mobile Safari/[.0-9]* Edge",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4475,7 +5125,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28797,
                                             "end": 28801,
                                             "raw": "\"IE\"",
-                                            "value": "IE"
+                                            "value": "IE",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4486,7 +5138,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28803,
                                             "end": 28824,
                                             "raw": "\"IEMobile|MSIEMobile\"",
-                                            "value": "IEMobile|MSIEMobile"
+                                            "value": "IEMobile|MSIEMobile",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4499,7 +5153,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28834,
                                             "end": 28843,
                                             "raw": "\"Firefox\"",
-                                            "value": "Firefox"
+                                            "value": "Firefox",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4510,7 +5166,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28845,
                                             "end": 28909,
                                             "raw": "\"fennec|firefox.*maemo|(Mobile|Tablet).*Firefox|Firefox.*Mobile\"",
-                                            "value": "fennec|firefox.*maemo|(Mobile|Tablet).*Firefox|Firefox.*Mobile"
+                                            "value": "fennec|firefox.*maemo|(Mobile|Tablet).*Firefox|Firefox.*Mobile",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4523,7 +5181,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28919,
                                             "end": 28925,
                                             "raw": "\"Bolt\"",
-                                            "value": "Bolt"
+                                            "value": "Bolt",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4534,7 +5194,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28927,
                                             "end": 28933,
                                             "raw": "\"bolt\"",
-                                            "value": "bolt"
+                                            "value": "bolt",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4547,7 +5209,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28943,
                                             "end": 28953,
                                             "raw": "\"TeaShark\"",
-                                            "value": "TeaShark"
+                                            "value": "TeaShark",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4558,7 +5222,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28955,
                                             "end": 28965,
                                             "raw": "\"teashark\"",
-                                            "value": "teashark"
+                                            "value": "teashark",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4571,7 +5237,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28975,
                                             "end": 28983,
                                             "raw": "\"Blazer\"",
-                                            "value": "Blazer"
+                                            "value": "Blazer",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4582,7 +5250,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 28985,
                                             "end": 28993,
                                             "raw": "\"Blazer\"",
-                                            "value": "Blazer"
+                                            "value": "Blazer",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4595,7 +5265,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29003,
                                             "end": 29011,
                                             "raw": "\"Safari\"",
-                                            "value": "Safari"
+                                            "value": "Safari",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4606,7 +5278,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29013,
                                             "end": 29066,
                                             "raw": "\"Version.*Mobile.*Safari|Safari.*Mobile|MobileSafari\"",
-                                            "value": "Version.*Mobile.*Safari|Safari.*Mobile|MobileSafari"
+                                            "value": "Version.*Mobile.*Safari|Safari.*Mobile|MobileSafari",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4619,7 +5293,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29076,
                                             "end": 29083,
                                             "raw": "\"Tizen\"",
-                                            "value": "Tizen"
+                                            "value": "Tizen",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4630,7 +5306,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29085,
                                             "end": 29092,
                                             "raw": "\"Tizen\"",
-                                            "value": "Tizen"
+                                            "value": "Tizen",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4643,7 +5321,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29102,
                                             "end": 29113,
                                             "raw": "\"UCBrowser\"",
-                                            "value": "UCBrowser"
+                                            "value": "UCBrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4654,7 +5334,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29115,
                                             "end": 29134,
                                             "raw": "\"UC.*Browser|UCWEB\"",
-                                            "value": "UC.*Browser|UCWEB"
+                                            "value": "UC.*Browser|UCWEB",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4667,7 +5349,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29144,
                                             "end": 29157,
                                             "raw": "\"baiduboxapp\"",
-                                            "value": "baiduboxapp"
+                                            "value": "baiduboxapp",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4678,7 +5362,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29159,
                                             "end": 29172,
                                             "raw": "\"baiduboxapp\"",
-                                            "value": "baiduboxapp"
+                                            "value": "baiduboxapp",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4691,7 +5377,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29182,
                                             "end": 29196,
                                             "raw": "\"baidubrowser\"",
-                                            "value": "baidubrowser"
+                                            "value": "baidubrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4702,7 +5390,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29198,
                                             "end": 29212,
                                             "raw": "\"baidubrowser\"",
-                                            "value": "baidubrowser"
+                                            "value": "baidubrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4715,7 +5405,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29222,
                                             "end": 29236,
                                             "raw": "\"DiigoBrowser\"",
-                                            "value": "DiigoBrowser"
+                                            "value": "DiigoBrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4726,7 +5418,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29238,
                                             "end": 29252,
                                             "raw": "\"DiigoBrowser\"",
-                                            "value": "DiigoBrowser"
+                                            "value": "DiigoBrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4739,7 +5433,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29262,
                                             "end": 29270,
                                             "raw": "\"Puffin\"",
-                                            "value": "Puffin"
+                                            "value": "Puffin",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4750,7 +5446,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29272,
                                             "end": 29280,
                                             "raw": "\"Puffin\"",
-                                            "value": "Puffin"
+                                            "value": "Puffin",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4763,7 +5461,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29290,
                                             "end": 29299,
                                             "raw": "\"Mercury\"",
-                                            "value": "Mercury"
+                                            "value": "Mercury",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4774,7 +5474,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29301,
                                             "end": 29316,
                                             "raw": "\"\\\\bMercury\\\\b\"",
-                                            "value": "\\bMercury\\b"
+                                            "value": "\\bMercury\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4787,7 +5489,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29326,
                                             "end": 29340,
                                             "raw": "\"ObigoBrowser\"",
-                                            "value": "ObigoBrowser"
+                                            "value": "ObigoBrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4798,7 +5502,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29342,
                                             "end": 29349,
                                             "raw": "\"Obigo\"",
-                                            "value": "Obigo"
+                                            "value": "Obigo",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4811,7 +5517,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29359,
                                             "end": 29369,
                                             "raw": "\"NetFront\"",
-                                            "value": "NetFront"
+                                            "value": "NetFront",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4822,7 +5530,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29371,
                                             "end": 29383,
                                             "raw": "\"NF-Browser\"",
-                                            "value": "NF-Browser"
+                                            "value": "NF-Browser",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4835,7 +5545,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29393,
                                             "end": 29409,
                                             "raw": "\"GenericBrowser\"",
-                                            "value": "GenericBrowser"
+                                            "value": "GenericBrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4846,7 +5558,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29411,
                                             "end": 29544,
                                             "raw": "\"NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger\"",
-                                            "value": "NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger"
+                                            "value": "NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4859,7 +5573,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29554,
                                             "end": 29564,
                                             "raw": "\"PaleMoon\"",
-                                            "value": "PaleMoon"
+                                            "value": "PaleMoon",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4870,7 +5586,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29566,
                                             "end": 29602,
                                             "raw": "\"Android.*PaleMoon|Mobile.*PaleMoon\"",
-                                            "value": "Android.*PaleMoon|Mobile.*PaleMoon"
+                                            "value": "Android.*PaleMoon|Mobile.*PaleMoon",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -4886,7 +5604,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 29614,
                                       "end": 29621,
                                       "raw": "\"props\"",
-                                      "value": "props"
+                                      "value": "props",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -4907,7 +5627,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29633,
                                             "end": 29641,
                                             "raw": "\"Mobile\"",
-                                            "value": "Mobile"
+                                            "value": "Mobile",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4918,7 +5640,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29643,
                                             "end": 29658,
                                             "raw": "\"Mobile\\/[VER]\"",
-                                            "value": "Mobile/[VER]"
+                                            "value": "Mobile/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4931,7 +5655,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29668,
                                             "end": 29675,
                                             "raw": "\"Build\"",
-                                            "value": "Build"
+                                            "value": "Build",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4942,7 +5668,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29677,
                                             "end": 29691,
                                             "raw": "\"Build\\/[VER]\"",
-                                            "value": "Build/[VER]"
+                                            "value": "Build/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4955,7 +5683,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29701,
                                             "end": 29710,
                                             "raw": "\"Version\"",
-                                            "value": "Version"
+                                            "value": "Version",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4966,7 +5696,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29712,
                                             "end": 29728,
                                             "raw": "\"Version\\/[VER]\"",
-                                            "value": "Version/[VER]"
+                                            "value": "Version/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -4979,7 +5711,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29738,
                                             "end": 29748,
                                             "raw": "\"VendorID\"",
-                                            "value": "VendorID"
+                                            "value": "VendorID",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -4990,7 +5724,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29750,
                                             "end": 29767,
                                             "raw": "\"VendorID\\/[VER]\"",
-                                            "value": "VendorID/[VER]"
+                                            "value": "VendorID/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5003,7 +5739,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29777,
                                             "end": 29783,
                                             "raw": "\"iPad\"",
-                                            "value": "iPad"
+                                            "value": "iPad",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5014,7 +5752,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29785,
                                             "end": 29808,
                                             "raw": "\"iPad.*CPU[a-z ]+[VER]\"",
-                                            "value": "iPad.*CPU[a-z ]+[VER]"
+                                            "value": "iPad.*CPU[a-z ]+[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5027,7 +5767,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29818,
                                             "end": 29826,
                                             "raw": "\"iPhone\"",
-                                            "value": "iPhone"
+                                            "value": "iPhone",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5038,7 +5780,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29828,
                                             "end": 29853,
                                             "raw": "\"iPhone.*CPU[a-z ]+[VER]\"",
-                                            "value": "iPhone.*CPU[a-z ]+[VER]"
+                                            "value": "iPhone.*CPU[a-z ]+[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5051,7 +5795,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29863,
                                             "end": 29869,
                                             "raw": "\"iPod\"",
-                                            "value": "iPod"
+                                            "value": "iPod",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5062,7 +5808,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29871,
                                             "end": 29894,
                                             "raw": "\"iPod.*CPU[a-z ]+[VER]\"",
-                                            "value": "iPod.*CPU[a-z ]+[VER]"
+                                            "value": "iPod.*CPU[a-z ]+[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5075,7 +5823,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29904,
                                             "end": 29912,
                                             "raw": "\"Kindle\"",
-                                            "value": "Kindle"
+                                            "value": "Kindle",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5086,7 +5836,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29914,
                                             "end": 29929,
                                             "raw": "\"Kindle\\/[VER]\"",
-                                            "value": "Kindle/[VER]"
+                                            "value": "Kindle/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5099,7 +5851,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 29939,
                                             "end": 29947,
                                             "raw": "\"Chrome\"",
-                                            "value": "Chrome"
+                                            "value": "Chrome",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5115,21 +5869,27 @@ __ESTREE_TEST__:PASS:
                                                 "start": 29963,
                                                 "end": 29978,
                                                 "raw": "\"Chrome\\/[VER]\"",
-                                                "value": "Chrome/[VER]"
+                                                "value": "Chrome/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 29992,
                                                 "end": 30006,
                                                 "raw": "\"CriOS\\/[VER]\"",
-                                                "value": "CriOS/[VER]"
+                                                "value": "CriOS/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 30020,
                                                 "end": 30033,
                                                 "raw": "\"CrMo\\/[VER]\"",
-                                                "value": "CrMo/[VER]"
+                                                "value": "CrMo/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -5144,7 +5904,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30053,
                                             "end": 30060,
                                             "raw": "\"Coast\"",
-                                            "value": "Coast"
+                                            "value": "Coast",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5160,7 +5922,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 30076,
                                                 "end": 30090,
                                                 "raw": "\"Coast\\/[VER]\"",
-                                                "value": "Coast/[VER]"
+                                                "value": "Coast/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -5175,7 +5939,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30110,
                                             "end": 30118,
                                             "raw": "\"Dolfin\"",
-                                            "value": "Dolfin"
+                                            "value": "Dolfin",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5186,7 +5952,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30120,
                                             "end": 30135,
                                             "raw": "\"Dolfin\\/[VER]\"",
-                                            "value": "Dolfin/[VER]"
+                                            "value": "Dolfin/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5199,7 +5967,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30145,
                                             "end": 30154,
                                             "raw": "\"Firefox\"",
-                                            "value": "Firefox"
+                                            "value": "Firefox",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5210,7 +5980,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30156,
                                             "end": 30172,
                                             "raw": "\"Firefox\\/[VER]\"",
-                                            "value": "Firefox/[VER]"
+                                            "value": "Firefox/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5223,7 +5995,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30182,
                                             "end": 30190,
                                             "raw": "\"Fennec\"",
-                                            "value": "Fennec"
+                                            "value": "Fennec",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5234,7 +6008,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30192,
                                             "end": 30207,
                                             "raw": "\"Fennec\\/[VER]\"",
-                                            "value": "Fennec/[VER]"
+                                            "value": "Fennec/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5247,7 +6023,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30217,
                                             "end": 30223,
                                             "raw": "\"Edge\"",
-                                            "value": "Edge"
+                                            "value": "Edge",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5258,7 +6036,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30225,
                                             "end": 30238,
                                             "raw": "\"Edge\\/[VER]\"",
-                                            "value": "Edge/[VER]"
+                                            "value": "Edge/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5271,7 +6051,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30248,
                                             "end": 30252,
                                             "raw": "\"IE\"",
-                                            "value": "IE"
+                                            "value": "IE",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5287,28 +6069,36 @@ __ESTREE_TEST__:PASS:
                                                 "start": 30268,
                                                 "end": 30286,
                                                 "raw": "\"IEMobile\\/[VER];\"",
-                                                "value": "IEMobile/[VER];"
+                                                "value": "IEMobile/[VER];",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 30300,
                                                 "end": 30316,
                                                 "raw": "\"IEMobile [VER]\"",
-                                                "value": "IEMobile [VER]"
+                                                "value": "IEMobile [VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 30330,
                                                 "end": 30343,
                                                 "raw": "\"MSIE [VER];\"",
-                                                "value": "MSIE [VER];"
+                                                "value": "MSIE [VER];",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 30357,
                                                 "end": 30386,
                                                 "raw": "\"Trident\\/[0-9.]+;.*rv:[VER]\"",
-                                                "value": "Trident/[0-9.]+;.*rv:[VER]"
+                                                "value": "Trident/[0-9.]+;.*rv:[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -5323,7 +6113,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30406,
                                             "end": 30416,
                                             "raw": "\"NetFront\"",
-                                            "value": "NetFront"
+                                            "value": "NetFront",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5334,7 +6126,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30418,
                                             "end": 30435,
                                             "raw": "\"NetFront\\/[VER]\"",
-                                            "value": "NetFront/[VER]"
+                                            "value": "NetFront/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5347,7 +6141,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30445,
                                             "end": 30459,
                                             "raw": "\"NokiaBrowser\"",
-                                            "value": "NokiaBrowser"
+                                            "value": "NokiaBrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5358,7 +6154,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30461,
                                             "end": 30482,
                                             "raw": "\"NokiaBrowser\\/[VER]\"",
-                                            "value": "NokiaBrowser/[VER]"
+                                            "value": "NokiaBrowser/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5371,7 +6169,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30492,
                                             "end": 30499,
                                             "raw": "\"Opera\"",
-                                            "value": "Opera"
+                                            "value": "Opera",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5387,21 +6187,27 @@ __ESTREE_TEST__:PASS:
                                                 "start": 30515,
                                                 "end": 30528,
                                                 "raw": "\" OPR\\/[VER]\"",
-                                                "value": " OPR/[VER]"
+                                                "value": " OPR/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 30542,
                                                 "end": 30561,
                                                 "raw": "\"Opera Mini\\/[VER]\"",
-                                                "value": "Opera Mini/[VER]"
+                                                "value": "Opera Mini/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 30575,
                                                 "end": 30591,
                                                 "raw": "\"Version\\/[VER]\"",
-                                                "value": "Version/[VER]"
+                                                "value": "Version/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -5416,7 +6222,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30611,
                                             "end": 30623,
                                             "raw": "\"Opera Mini\"",
-                                            "value": "Opera Mini"
+                                            "value": "Opera Mini",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5427,7 +6235,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30625,
                                             "end": 30644,
                                             "raw": "\"Opera Mini\\/[VER]\"",
-                                            "value": "Opera Mini/[VER]"
+                                            "value": "Opera Mini/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5440,7 +6250,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30654,
                                             "end": 30666,
                                             "raw": "\"Opera Mobi\"",
-                                            "value": "Opera Mobi"
+                                            "value": "Opera Mobi",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5451,7 +6263,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30668,
                                             "end": 30684,
                                             "raw": "\"Version\\/[VER]\"",
-                                            "value": "Version/[VER]"
+                                            "value": "Version/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5464,7 +6278,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30694,
                                             "end": 30706,
                                             "raw": "\"UC Browser\"",
-                                            "value": "UC Browser"
+                                            "value": "UC Browser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5475,7 +6291,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30708,
                                             "end": 30725,
                                             "raw": "\"UC Browser[VER]\"",
-                                            "value": "UC Browser[VER]"
+                                            "value": "UC Browser[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5488,7 +6306,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30735,
                                             "end": 30747,
                                             "raw": "\"MQQBrowser\"",
-                                            "value": "MQQBrowser"
+                                            "value": "MQQBrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5499,7 +6319,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30749,
                                             "end": 30768,
                                             "raw": "\"MQQBrowser\\/[VER]\"",
-                                            "value": "MQQBrowser/[VER]"
+                                            "value": "MQQBrowser/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5512,7 +6334,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30778,
                                             "end": 30794,
                                             "raw": "\"MicroMessenger\"",
-                                            "value": "MicroMessenger"
+                                            "value": "MicroMessenger",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5523,7 +6347,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30796,
                                             "end": 30819,
                                             "raw": "\"MicroMessenger\\/[VER]\"",
-                                            "value": "MicroMessenger/[VER]"
+                                            "value": "MicroMessenger/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5536,7 +6362,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30829,
                                             "end": 30842,
                                             "raw": "\"baiduboxapp\"",
-                                            "value": "baiduboxapp"
+                                            "value": "baiduboxapp",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5547,7 +6375,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30844,
                                             "end": 30864,
                                             "raw": "\"baiduboxapp\\/[VER]\"",
-                                            "value": "baiduboxapp/[VER]"
+                                            "value": "baiduboxapp/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5560,7 +6390,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30874,
                                             "end": 30888,
                                             "raw": "\"baidubrowser\"",
-                                            "value": "baidubrowser"
+                                            "value": "baidubrowser",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5571,7 +6403,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30890,
                                             "end": 30911,
                                             "raw": "\"baidubrowser\\/[VER]\"",
-                                            "value": "baidubrowser/[VER]"
+                                            "value": "baidubrowser/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5584,7 +6418,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30921,
                                             "end": 30927,
                                             "raw": "\"Iron\"",
-                                            "value": "Iron"
+                                            "value": "Iron",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5595,7 +6431,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30929,
                                             "end": 30942,
                                             "raw": "\"Iron\\/[VER]\"",
-                                            "value": "Iron/[VER]"
+                                            "value": "Iron/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5608,7 +6446,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 30952,
                                             "end": 30960,
                                             "raw": "\"Safari\"",
-                                            "value": "Safari"
+                                            "value": "Safari",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5624,14 +6464,18 @@ __ESTREE_TEST__:PASS:
                                                 "start": 30976,
                                                 "end": 30992,
                                                 "raw": "\"Version\\/[VER]\"",
-                                                "value": "Version/[VER]"
+                                                "value": "Version/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 31006,
                                                 "end": 31021,
                                                 "raw": "\"Safari\\/[VER]\"",
-                                                "value": "Safari/[VER]"
+                                                "value": "Safari/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -5646,7 +6490,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31041,
                                             "end": 31050,
                                             "raw": "\"Skyfire\"",
-                                            "value": "Skyfire"
+                                            "value": "Skyfire",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5657,7 +6503,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31052,
                                             "end": 31068,
                                             "raw": "\"Skyfire\\/[VER]\"",
-                                            "value": "Skyfire/[VER]"
+                                            "value": "Skyfire/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5670,7 +6518,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31078,
                                             "end": 31085,
                                             "raw": "\"Tizen\"",
-                                            "value": "Tizen"
+                                            "value": "Tizen",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5681,7 +6531,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31087,
                                             "end": 31101,
                                             "raw": "\"Tizen\\/[VER]\"",
-                                            "value": "Tizen/[VER]"
+                                            "value": "Tizen/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5694,7 +6546,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31111,
                                             "end": 31119,
                                             "raw": "\"Webkit\"",
-                                            "value": "Webkit"
+                                            "value": "Webkit",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5705,7 +6559,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31121,
                                             "end": 31139,
                                             "raw": "\"webkit[ \\/][VER]\"",
-                                            "value": "webkit[ /][VER]"
+                                            "value": "webkit[ /][VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5718,7 +6574,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31149,
                                             "end": 31159,
                                             "raw": "\"PaleMoon\"",
-                                            "value": "PaleMoon"
+                                            "value": "PaleMoon",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5729,7 +6587,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31161,
                                             "end": 31178,
                                             "raw": "\"PaleMoon\\/[VER]\"",
-                                            "value": "PaleMoon/[VER]"
+                                            "value": "PaleMoon/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5742,7 +6602,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31188,
                                             "end": 31195,
                                             "raw": "\"Gecko\"",
-                                            "value": "Gecko"
+                                            "value": "Gecko",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5753,7 +6615,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31197,
                                             "end": 31211,
                                             "raw": "\"Gecko\\/[VER]\"",
-                                            "value": "Gecko/[VER]"
+                                            "value": "Gecko/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5766,7 +6630,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31221,
                                             "end": 31230,
                                             "raw": "\"Trident\"",
-                                            "value": "Trident"
+                                            "value": "Trident",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5777,7 +6643,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31232,
                                             "end": 31248,
                                             "raw": "\"Trident\\/[VER]\"",
-                                            "value": "Trident/[VER]"
+                                            "value": "Trident/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5790,7 +6658,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31258,
                                             "end": 31266,
                                             "raw": "\"Presto\"",
-                                            "value": "Presto"
+                                            "value": "Presto",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5801,7 +6671,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31268,
                                             "end": 31283,
                                             "raw": "\"Presto\\/[VER]\"",
-                                            "value": "Presto/[VER]"
+                                            "value": "Presto/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5814,7 +6686,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31293,
                                             "end": 31301,
                                             "raw": "\"Goanna\"",
-                                            "value": "Goanna"
+                                            "value": "Goanna",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5825,7 +6699,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31303,
                                             "end": 31318,
                                             "raw": "\"Goanna\\/[VER]\"",
-                                            "value": "Goanna/[VER]"
+                                            "value": "Goanna/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5838,7 +6714,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31328,
                                             "end": 31333,
                                             "raw": "\"iOS\"",
-                                            "value": "iOS"
+                                            "value": "iOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5849,7 +6727,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31335,
                                             "end": 31361,
                                             "raw": "\" \\\\bi?OS\\\\b [VER][ ;]{1}\"",
-                                            "value": " \\bi?OS\\b [VER][ ;]{1}"
+                                            "value": " \\bi?OS\\b [VER][ ;]{1}",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5862,7 +6742,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31371,
                                             "end": 31380,
                                             "raw": "\"Android\"",
-                                            "value": "Android"
+                                            "value": "Android",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5873,7 +6755,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31382,
                                             "end": 31397,
                                             "raw": "\"Android [VER]\"",
-                                            "value": "Android [VER]"
+                                            "value": "Android [VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5886,7 +6770,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31407,
                                             "end": 31419,
                                             "raw": "\"BlackBerry\"",
-                                            "value": "BlackBerry"
+                                            "value": "BlackBerry",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5902,21 +6788,27 @@ __ESTREE_TEST__:PASS:
                                                 "start": 31435,
                                                 "end": 31460,
                                                 "raw": "\"BlackBerry[\\\\w]+\\/[VER]\"",
-                                                "value": "BlackBerry[\\w]+/[VER]"
+                                                "value": "BlackBerry[\\w]+/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 31474,
                                                 "end": 31502,
                                                 "raw": "\"BlackBerry.*Version\\/[VER]\"",
-                                                "value": "BlackBerry.*Version/[VER]"
+                                                "value": "BlackBerry.*Version/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 31516,
                                                 "end": 31532,
                                                 "raw": "\"Version\\/[VER]\"",
-                                                "value": "Version/[VER]"
+                                                "value": "Version/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -5931,7 +6823,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31552,
                                             "end": 31558,
                                             "raw": "\"BREW\"",
-                                            "value": "BREW"
+                                            "value": "BREW",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5942,7 +6836,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31560,
                                             "end": 31572,
                                             "raw": "\"BREW [VER]\"",
-                                            "value": "BREW [VER]"
+                                            "value": "BREW [VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5955,7 +6851,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31582,
                                             "end": 31588,
                                             "raw": "\"Java\"",
-                                            "value": "Java"
+                                            "value": "Java",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5966,7 +6864,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31590,
                                             "end": 31603,
                                             "raw": "\"Java\\/[VER]\"",
-                                            "value": "Java/[VER]"
+                                            "value": "Java/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -5979,7 +6879,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31613,
                                             "end": 31631,
                                             "raw": "\"Windows Phone OS\"",
-                                            "value": "Windows Phone OS"
+                                            "value": "Windows Phone OS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -5995,14 +6897,18 @@ __ESTREE_TEST__:PASS:
                                                 "start": 31647,
                                                 "end": 31671,
                                                 "raw": "\"Windows Phone OS [VER]\"",
-                                                "value": "Windows Phone OS [VER]"
+                                                "value": "Windows Phone OS [VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 31685,
                                                 "end": 31706,
                                                 "raw": "\"Windows Phone [VER]\"",
-                                                "value": "Windows Phone [VER]"
+                                                "value": "Windows Phone [VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -6017,7 +6923,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31726,
                                             "end": 31741,
                                             "raw": "\"Windows Phone\"",
-                                            "value": "Windows Phone"
+                                            "value": "Windows Phone",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6028,7 +6936,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31743,
                                             "end": 31764,
                                             "raw": "\"Windows Phone [VER]\"",
-                                            "value": "Windows Phone [VER]"
+                                            "value": "Windows Phone [VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6041,7 +6951,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31774,
                                             "end": 31786,
                                             "raw": "\"Windows CE\"",
-                                            "value": "Windows CE"
+                                            "value": "Windows CE",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6052,7 +6964,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31788,
                                             "end": 31807,
                                             "raw": "\"Windows CE\\/[VER]\"",
-                                            "value": "Windows CE/[VER]"
+                                            "value": "Windows CE/[VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6065,7 +6979,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31817,
                                             "end": 31829,
                                             "raw": "\"Windows NT\"",
-                                            "value": "Windows NT"
+                                            "value": "Windows NT",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6076,7 +6992,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31831,
                                             "end": 31849,
                                             "raw": "\"Windows NT [VER]\"",
-                                            "value": "Windows NT [VER]"
+                                            "value": "Windows NT [VER]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6089,7 +7007,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31859,
                                             "end": 31868,
                                             "raw": "\"Symbian\"",
-                                            "value": "Symbian"
+                                            "value": "Symbian",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6105,14 +7025,18 @@ __ESTREE_TEST__:PASS:
                                                 "start": 31884,
                                                 "end": 31902,
                                                 "raw": "\"SymbianOS\\/[VER]\"",
-                                                "value": "SymbianOS/[VER]"
+                                                "value": "SymbianOS/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 31916,
                                                 "end": 31932,
                                                 "raw": "\"Symbian\\/[VER]\"",
-                                                "value": "Symbian/[VER]"
+                                                "value": "Symbian/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -6127,7 +7051,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 31952,
                                             "end": 31959,
                                             "raw": "\"webOS\"",
-                                            "value": "webOS"
+                                            "value": "webOS",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6143,14 +7069,18 @@ __ESTREE_TEST__:PASS:
                                                 "start": 31975,
                                                 "end": 31989,
                                                 "raw": "\"webOS\\/[VER]\"",
-                                                "value": "webOS/[VER]"
+                                                "value": "webOS/[VER]",
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Literal",
                                                 "start": 32003,
                                                 "end": 32018,
                                                 "raw": "\"hpwOS\\/[VER];\"",
-                                                "value": "hpwOS/[VER];"
+                                                "value": "hpwOS/[VER];",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ]
                                           }
@@ -6168,7 +7098,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 32040,
                                       "end": 32047,
                                       "raw": "\"utils\"",
-                                      "value": "utils"
+                                      "value": "utils",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -6189,7 +7121,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32059,
                                             "end": 32064,
                                             "raw": "\"Bot\"",
-                                            "value": "Bot"
+                                            "value": "Bot",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6200,7 +7134,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32066,
                                             "end": 32323,
                                             "raw": "\"Googlebot|facebookexternalhit|AdsBot-Google|Google Keyword Suggestion|Facebot|YandexBot|bingbot|ia_archiver|AhrefsBot|Ezooms|GSLFbot|WBSearchBot|Twitterbot|TweetmemeBot|Twikle|PaperLiBot|Wotbox|UnwindFetchor|Exabot|MJ12bot|YandexImages|TurnitinBot|Pingdom\"",
-                                            "value": "Googlebot|facebookexternalhit|AdsBot-Google|Google Keyword Suggestion|Facebot|YandexBot|bingbot|ia_archiver|AhrefsBot|Ezooms|GSLFbot|WBSearchBot|Twitterbot|TweetmemeBot|Twikle|PaperLiBot|Wotbox|UnwindFetchor|Exabot|MJ12bot|YandexImages|TurnitinBot|Pingdom"
+                                            "value": "Googlebot|facebookexternalhit|AdsBot-Google|Google Keyword Suggestion|Facebot|YandexBot|bingbot|ia_archiver|AhrefsBot|Ezooms|GSLFbot|WBSearchBot|Twitterbot|TweetmemeBot|Twikle|PaperLiBot|Wotbox|UnwindFetchor|Exabot|MJ12bot|YandexImages|TurnitinBot|Pingdom",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6213,7 +7149,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32333,
                                             "end": 32344,
                                             "raw": "\"MobileBot\"",
-                                            "value": "MobileBot"
+                                            "value": "MobileBot",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6224,7 +7162,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32346,
                                             "end": 32408,
                                             "raw": "\"Googlebot-Mobile|AdsBot-Google-Mobile|YahooSeeker\\/M1A1-R2D2\"",
-                                            "value": "Googlebot-Mobile|AdsBot-Google-Mobile|YahooSeeker/M1A1-R2D2"
+                                            "value": "Googlebot-Mobile|AdsBot-Google-Mobile|YahooSeeker/M1A1-R2D2",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6237,7 +7177,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32418,
                                             "end": 32431,
                                             "raw": "\"DesktopMode\"",
-                                            "value": "DesktopMode"
+                                            "value": "DesktopMode",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6248,7 +7190,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32433,
                                             "end": 32444,
                                             "raw": "\"WPDesktop\"",
-                                            "value": "WPDesktop"
+                                            "value": "WPDesktop",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6261,7 +7205,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32454,
                                             "end": 32458,
                                             "raw": "\"TV\"",
-                                            "value": "TV"
+                                            "value": "TV",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6272,7 +7218,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32460,
                                             "end": 32475,
                                             "raw": "\"SonyDTV|HbbTV\"",
-                                            "value": "SonyDTV|HbbTV"
+                                            "value": "SonyDTV|HbbTV",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6285,7 +7233,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32485,
                                             "end": 32493,
                                             "raw": "\"WebKit\"",
-                                            "value": "WebKit"
+                                            "value": "WebKit",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6296,7 +7246,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32495,
                                             "end": 32519,
                                             "raw": "\"(webkit)[ \\/]([\\\\w.]+)\"",
-                                            "value": "(webkit)[ /]([\\w.]+)"
+                                            "value": "(webkit)[ /]([\\w.]+)",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6309,7 +7261,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32529,
                                             "end": 32538,
                                             "raw": "\"Console\"",
-                                            "value": "Console"
+                                            "value": "Console",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6320,7 +7274,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32540,
                                             "end": 32602,
                                             "raw": "\"\\\\b(Nintendo|Nintendo WiiU|Nintendo 3DS|PLAYSTATION|Xbox)\\\\b\"",
-                                            "value": "\\b(Nintendo|Nintendo WiiU|Nintendo 3DS|PLAYSTATION|Xbox)\\b"
+                                            "value": "\\b(Nintendo|Nintendo WiiU|Nintendo 3DS|PLAYSTATION|Xbox)\\b",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         {
@@ -6333,7 +7289,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32612,
                                             "end": 32619,
                                             "raw": "\"Watch\"",
-                                            "value": "Watch"
+                                            "value": "Watch",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "kind": "init",
                                           "method": false,
@@ -6344,7 +7302,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 32621,
                                             "end": 32630,
                                             "raw": "\"SM-V700\"",
-                                            "value": "SM-V700"
+                                            "value": "SM-V700",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ]
@@ -6421,7 +7381,8 @@ __ESTREE_TEST__:PASS:
                                         "flags": "i",
                                         "pattern": "(android|bb\\d+|meego).+mobile|avantgo|bada\\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\\.(browser|link)|vodafone|wap|windows ce|xda|xiino"
                                       },
-                                      "value": null
+                                      "value": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -6451,7 +7412,8 @@ __ESTREE_TEST__:PASS:
                                         "flags": "i",
                                         "pattern": "1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\\-(n|u)|c55\\/|capi|ccwa|cdm\\-|cell|chtm|cldc|cmd\\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\\-s|devi|dica|dmob|do(c|p)o|ds(12|\\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\\-|_)|g1 u|g560|gene|gf\\-5|g\\-mo|go(\\.w|od)|gr(ad|un)|haie|hcit|hd\\-(m|p|t)|hei\\-|hi(pt|ta)|hp( i|ip)|hs\\-c|ht(c(\\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\\-(20|go|ma)|i230|iac( |\\-|\\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\\/)|klon|kpt |kwc\\-|kyo(c|k)|le(no|xi)|lg( g|\\/(k|l|u)|50|54|\\-[a-w])|libw|lynx|m1\\-w|m3ga|m50\\/|ma(te|ui|xo)|mc(01|21|ca)|m\\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\\-2|po(ck|rt|se)|prox|psio|pt\\-g|qa\\-a|qc(07|12|21|32|60|\\-[2-7]|i\\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\\-|oo|p\\-)|sdk\\/|se(c(\\-|0|1)|47|mc|nd|ri)|sgh\\-|shar|sie(\\-|m)|sk\\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\\-|v\\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\\-|tdg\\-|tel(i|m)|tim\\-|t\\-mo|to(pl|sh)|ts(70|m\\-|m3|m5)|tx\\-9|up(\\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\\-|your|zeto|zte\\-"
                                       },
-                                      "value": null
+                                      "value": null,
+                                      "bigint": null
                                     }
                                   },
                                   {
@@ -6481,7 +7443,8 @@ __ESTREE_TEST__:PASS:
                                         "flags": "i",
                                         "pattern": "android|ipad|playbook|silk"
                                       },
-                                      "value": null
+                                      "value": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -6609,7 +7572,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 34873,
                                 "end": 34887,
                                 "raw": "'UnknownPhone'",
-                                "value": "UnknownPhone"
+                                "value": "UnknownPhone",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -6653,7 +7618,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 34916,
                                 "end": 34931,
                                 "raw": "'UnknownTablet'",
-                                "value": "UnknownTablet"
+                                "value": "UnknownTablet",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -6697,7 +7664,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 34960,
                                 "end": 34975,
                                 "raw": "'UnknownMobile'",
-                                "value": "UnknownMobile"
+                                "value": "UnknownMobile",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -6823,7 +7792,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 35107,
                                             "end": 35123,
                                             "raw": "'[object Array]'",
-                                            "value": "[object Array]"
+                                            "value": "[object Array]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -6882,7 +7853,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 34993,
                                     "end": 35002,
                                     "raw": "'isArray'",
-                                    "value": "isArray"
+                                    "value": "isArray",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "right": {
                                     "type": "Identifier",
@@ -7044,7 +8017,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 35239,
                                             "end": 35255,
                                             "raw": "'[object Array]'",
-                                            "value": "[object Array]"
+                                            "value": "[object Array]",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -7078,7 +8053,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 35142,
                                     "end": 35151,
                                     "raw": "'isArray'",
-                                    "value": "isArray"
+                                    "value": "isArray",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "right": {
                                     "type": "Identifier",
@@ -7136,7 +8113,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 35334,
                                           "end": 35338,
                                           "raw": "null",
-                                          "value": null
+                                          "value": null,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "right": {
@@ -7158,7 +8137,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 35347,
                                           "end": 35351,
                                           "raw": "null",
-                                          "value": null
+                                          "value": null,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -7383,7 +8364,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 35532,
                                           "end": 35537,
                                           "raw": "false",
-                                          "value": false
+                                          "value": false,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -7509,7 +8492,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 35701,
                                                 "end": 35705,
                                                 "raw": "true",
-                                                "value": true
+                                                "value": true,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           ]
@@ -7600,7 +8585,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 35605,
                                       "end": 35606,
                                       "raw": "0",
-                                      "value": 0
+                                      "value": 0,
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "test": {
@@ -7653,7 +8640,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 35746,
                                     "end": 35751,
                                     "raw": "false",
-                                    "value": false
+                                    "value": false,
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -7792,7 +8781,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 35940,
                                                       "end": 35943,
                                                       "raw": "'i'",
-                                                      "value": "i"
+                                                      "value": "i",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   ],
                                                   "callee": {
@@ -8388,7 +9379,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 36519,
                                                                 "end": 36526,
                                                                 "raw": "'[VER]'",
-                                                                "value": "[VER]"
+                                                                "value": "[VER]",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -8470,7 +9463,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 36616,
                                                                           "end": 36617,
                                                                           "raw": "0",
-                                                                          "value": 0
+                                                                          "value": 0,
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         },
                                                                         {
                                                                           "type": "Identifier",
@@ -8515,7 +9510,9 @@ __ESTREE_TEST__:PASS:
                                                                       "start": 36629,
                                                                       "end": 36644,
                                                                       "raw": "'([\\\\w._\\\\+]+)'",
-                                                                      "value": "([\\w._\\+]+)"
+                                                                      "value": "([\\w._\\+]+)",
+                                                                      "regex": null,
+                                                                      "bigint": null
                                                                     }
                                                                   },
                                                                   "right": {
@@ -8542,7 +9539,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 36672,
                                                                           "end": 36673,
                                                                           "raw": "5",
-                                                                          "value": 5
+                                                                          "value": 5,
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         }
                                                                       }
                                                                     ],
@@ -8598,7 +9597,9 @@ __ESTREE_TEST__:PASS:
                                                             "start": 36563,
                                                             "end": 36564,
                                                             "raw": "0",
-                                                            "value": 0
+                                                            "value": 0,
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         }
                                                       },
@@ -8656,7 +9657,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 36748,
                                                                 "end": 36751,
                                                                 "raw": "'i'",
-                                                                "value": "i"
+                                                                "value": "i",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -8693,7 +9696,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 36418,
                                                       "end": 36419,
                                                       "raw": "0",
-                                                      "value": 0
+                                                      "value": 0,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   "test": {
@@ -9589,7 +10594,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 38007,
                                         "end": 38011,
                                         "raw": "null",
-                                        "value": null
+                                        "value": null,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -10374,7 +11381,9 @@ __ESTREE_TEST__:PASS:
                                                             "start": 39395,
                                                             "end": 39396,
                                                             "raw": "1",
-                                                            "value": 1
+                                                            "value": 1,
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         }
                                                       }
@@ -10399,7 +11408,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 39354,
                                                       "end": 39358,
                                                       "raw": "null",
-                                                      "value": null
+                                                      "value": null,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 }
@@ -10424,7 +11435,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 39252,
                                                 "end": 39253,
                                                 "raw": "0",
-                                                "value": 0
+                                                "value": 0,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "test": {
@@ -10532,7 +11545,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 39456,
                                         "end": 39460,
                                         "raw": "null",
-                                        "value": null
+                                        "value": null,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -10892,7 +11907,8 @@ __ESTREE_TEST__:PASS:
                                                 "flags": "i",
                                                 "pattern": "[a-z._ \\/\\-]"
                                               },
-                                              "value": null
+                                              "value": null,
+                                              "bigint": null
                                             }
                                           ],
                                           "callee": {
@@ -10974,7 +11990,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 40351,
                                                   "end": 40352,
                                                   "raw": "0",
-                                                  "value": 0
+                                                  "value": 0,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             }
@@ -11016,7 +12034,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 40316,
                                           "end": 40317,
                                           "raw": "1",
-                                          "value": 1
+                                          "value": 1,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -11074,7 +12094,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 40429,
                                                     "end": 40430,
                                                     "raw": "0",
-                                                    "value": 0
+                                                    "value": 0,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "right": {
@@ -11082,7 +12104,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 40434,
                                                   "end": 40437,
                                                   "raw": "'.'",
-                                                  "value": "."
+                                                  "value": ".",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             }
@@ -11155,7 +12179,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 40504,
                                                     "end": 40506,
                                                     "raw": "''",
-                                                    "value": ""
+                                                    "value": "",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 ],
                                                 "callee": {
@@ -11225,7 +12251,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 40394,
                                           "end": 40395,
                                           "raw": "1",
-                                          "value": 1
+                                          "value": 1,
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     },
@@ -11427,14 +12455,18 @@ __ESTREE_TEST__:PASS:
                                                   "start": 40755,
                                                   "end": 40756,
                                                   "raw": "0",
-                                                  "value": 0
+                                                  "value": 0,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 },
                                                 {
                                                   "type": "Literal",
                                                   "start": 40757,
                                                   "end": 40758,
                                                   "raw": "4",
-                                                  "value": 4
+                                                  "value": 4,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -12090,7 +13122,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 41340,
                                                 "end": 41344,
                                                 "raw": "null",
-                                                "value": null
+                                                "value": null,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           },
@@ -12344,7 +13378,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 41585,
                                                 "end": 41589,
                                                 "raw": "null",
-                                                "value": null
+                                                "value": null,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           },
@@ -12479,7 +13515,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 42537,
                                                       "end": 42541,
                                                       "raw": "null",
-                                                      "value": null
+                                                      "value": null,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 }
@@ -12625,7 +13663,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 42424,
                                                   "end": 42428,
                                                   "raw": "null",
-                                                  "value": null
+                                                  "value": null,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             }
@@ -12890,7 +13930,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 42259,
                                                         "end": 42263,
                                                         "raw": "null",
-                                                        "value": null
+                                                        "value": null,
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   }
@@ -13034,7 +14076,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 42134,
                                                         "end": 42138,
                                                         "raw": "null",
-                                                        "value": null
+                                                        "value": null,
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   }
@@ -13187,7 +14231,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 41994,
                                                         "end": 41998,
                                                         "raw": "null",
-                                                        "value": null
+                                                        "value": null,
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   }
@@ -13412,7 +14458,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 43173,
                                               "end": 43177,
                                               "raw": "null",
-                                              "value": null
+                                              "value": null,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         }
@@ -13439,7 +14487,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 47015,
                                               "end": 47018,
                                               "raw": "'A'",
-                                              "value": "A"
+                                              "value": "A",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ]
@@ -13574,7 +14624,9 @@ __ESTREE_TEST__:PASS:
                                                                                             "start": 43392,
                                                                                             "end": 43397,
                                                                                             "raw": "'iOS'",
-                                                                                            "value": "iOS"
+                                                                                            "value": "iOS",
+                                                                                            "regex": null,
+                                                                                            "bigint": null
                                                                                           }
                                                                                         ],
                                                                                         "callee": {
@@ -13620,7 +14672,9 @@ __ESTREE_TEST__:PASS:
                                                                                               "start": 43412,
                                                                                               "end": 43418,
                                                                                               "raw": "'iPad'",
-                                                                                              "value": "iPad"
+                                                                                              "value": "iPad",
+                                                                                              "regex": null,
+                                                                                              "bigint": null
                                                                                             }
                                                                                           ],
                                                                                           "callee": {
@@ -13656,7 +14710,9 @@ __ESTREE_TEST__:PASS:
                                                                                           "start": 43421,
                                                                                           "end": 43424,
                                                                                           "raw": "4.3",
-                                                                                          "value": 4.3
+                                                                                          "value": 4.3,
+                                                                                          "regex": null,
+                                                                                          "bigint": null
                                                                                         }
                                                                                       }
                                                                                     },
@@ -13675,7 +14731,9 @@ __ESTREE_TEST__:PASS:
                                                                                             "start": 43445,
                                                                                             "end": 43450,
                                                                                             "raw": "'iOS'",
-                                                                                            "value": "iOS"
+                                                                                            "value": "iOS",
+                                                                                            "regex": null,
+                                                                                            "bigint": null
                                                                                           }
                                                                                         ],
                                                                                         "callee": {
@@ -13721,7 +14779,9 @@ __ESTREE_TEST__:PASS:
                                                                                               "start": 43465,
                                                                                               "end": 43473,
                                                                                               "raw": "'iPhone'",
-                                                                                              "value": "iPhone"
+                                                                                              "value": "iPhone",
+                                                                                              "regex": null,
+                                                                                              "bigint": null
                                                                                             }
                                                                                           ],
                                                                                           "callee": {
@@ -13757,7 +14817,9 @@ __ESTREE_TEST__:PASS:
                                                                                           "start": 43476,
                                                                                           "end": 43479,
                                                                                           "raw": "3.1",
-                                                                                          "value": 3.1
+                                                                                          "value": 3.1,
+                                                                                          "regex": null,
+                                                                                          "bigint": null
                                                                                         }
                                                                                       }
                                                                                     }
@@ -13777,7 +14839,9 @@ __ESTREE_TEST__:PASS:
                                                                                           "start": 43500,
                                                                                           "end": 43505,
                                                                                           "raw": "'iOS'",
-                                                                                          "value": "iOS"
+                                                                                          "value": "iOS",
+                                                                                          "regex": null,
+                                                                                          "bigint": null
                                                                                         }
                                                                                       ],
                                                                                       "callee": {
@@ -13823,7 +14887,9 @@ __ESTREE_TEST__:PASS:
                                                                                             "start": 43520,
                                                                                             "end": 43526,
                                                                                             "raw": "'iPod'",
-                                                                                            "value": "iPod"
+                                                                                            "value": "iPod",
+                                                                                            "regex": null,
+                                                                                            "bigint": null
                                                                                           }
                                                                                         ],
                                                                                         "callee": {
@@ -13859,7 +14925,9 @@ __ESTREE_TEST__:PASS:
                                                                                         "start": 43529,
                                                                                         "end": 43532,
                                                                                         "raw": "3.1",
-                                                                                        "value": 3.1
+                                                                                        "value": 3.1,
+                                                                                        "regex": null,
+                                                                                        "bigint": null
                                                                                       }
                                                                                     }
                                                                                   }
@@ -13884,7 +14952,9 @@ __ESTREE_TEST__:PASS:
                                                                                           "start": 44075,
                                                                                           "end": 44084,
                                                                                           "raw": "'Android'",
-                                                                                          "value": "Android"
+                                                                                          "value": "Android",
+                                                                                          "regex": null,
+                                                                                          "bigint": null
                                                                                         }
                                                                                       ],
                                                                                       "callee": {
@@ -13920,7 +14990,9 @@ __ESTREE_TEST__:PASS:
                                                                                       "start": 44086,
                                                                                       "end": 44089,
                                                                                       "raw": "2.1",
-                                                                                      "value": 2.1
+                                                                                      "value": 2.1,
+                                                                                      "regex": null,
+                                                                                      "bigint": null
                                                                                     }
                                                                                   },
                                                                                   "right": {
@@ -13933,7 +15005,9 @@ __ESTREE_TEST__:PASS:
                                                                                         "start": 44098,
                                                                                         "end": 44106,
                                                                                         "raw": "'Webkit'",
-                                                                                        "value": "Webkit"
+                                                                                        "value": "Webkit",
+                                                                                        "regex": null,
+                                                                                        "bigint": null
                                                                                       }
                                                                                     ],
                                                                                     "callee": {
@@ -13981,7 +15055,9 @@ __ESTREE_TEST__:PASS:
                                                                                       "start": 44255,
                                                                                       "end": 44273,
                                                                                       "raw": "'Windows Phone OS'",
-                                                                                      "value": "Windows Phone OS"
+                                                                                      "value": "Windows Phone OS",
+                                                                                      "regex": null,
+                                                                                      "bigint": null
                                                                                     }
                                                                                   ],
                                                                                   "callee": {
@@ -14017,7 +15093,9 @@ __ESTREE_TEST__:PASS:
                                                                                   "start": 44276,
                                                                                   "end": 44279,
                                                                                   "raw": "7.0",
-                                                                                  "value": 7
+                                                                                  "value": 7,
+                                                                                  "regex": null,
+                                                                                  "bigint": null
                                                                                 }
                                                                               }
                                                                             },
@@ -14036,7 +15114,9 @@ __ESTREE_TEST__:PASS:
                                                                                     "start": 44435,
                                                                                     "end": 44447,
                                                                                     "raw": "'BlackBerry'",
-                                                                                    "value": "BlackBerry"
+                                                                                    "value": "BlackBerry",
+                                                                                    "regex": null,
+                                                                                    "bigint": null
                                                                                   }
                                                                                 ],
                                                                                 "callee": {
@@ -14082,7 +15162,9 @@ __ESTREE_TEST__:PASS:
                                                                                       "start": 44462,
                                                                                       "end": 44474,
                                                                                       "raw": "'BlackBerry'",
-                                                                                      "value": "BlackBerry"
+                                                                                      "value": "BlackBerry",
+                                                                                      "regex": null,
+                                                                                      "bigint": null
                                                                                     }
                                                                                   ],
                                                                                   "callee": {
@@ -14118,7 +15200,9 @@ __ESTREE_TEST__:PASS:
                                                                                   "start": 44477,
                                                                                   "end": 44480,
                                                                                   "raw": "6.0",
-                                                                                  "value": 6
+                                                                                  "value": 6,
+                                                                                  "regex": null,
+                                                                                  "bigint": null
                                                                                 }
                                                                               }
                                                                             }
@@ -14133,7 +15217,9 @@ __ESTREE_TEST__:PASS:
                                                                                 "start": 44570,
                                                                                 "end": 44588,
                                                                                 "raw": "'Playbook.*Tablet'",
-                                                                                "value": "Playbook.*Tablet"
+                                                                                "value": "Playbook.*Tablet",
+                                                                                "regex": null,
+                                                                                "bigint": null
                                                                               }
                                                                             ],
                                                                             "callee": {
@@ -14185,7 +15271,9 @@ __ESTREE_TEST__:PASS:
                                                                                   "start": 44710,
                                                                                   "end": 44717,
                                                                                   "raw": "'webOS'",
-                                                                                  "value": "webOS"
+                                                                                  "value": "webOS",
+                                                                                  "regex": null,
+                                                                                  "bigint": null
                                                                                 }
                                                                               ],
                                                                               "callee": {
@@ -14221,7 +15309,9 @@ __ESTREE_TEST__:PASS:
                                                                               "start": 44720,
                                                                               "end": 44723,
                                                                               "raw": "1.4",
-                                                                              "value": 1.4
+                                                                              "value": 1.4,
+                                                                              "regex": null,
+                                                                              "bigint": null
                                                                             }
                                                                           },
                                                                           "right": {
@@ -14234,7 +15324,9 @@ __ESTREE_TEST__:PASS:
                                                                                 "start": 44735,
                                                                                 "end": 44750,
                                                                                 "raw": "'Palm|Pre|Pixi'",
-                                                                                "value": "Palm|Pre|Pixi"
+                                                                                "value": "Palm|Pre|Pixi",
+                                                                                "regex": null,
+                                                                                "bigint": null
                                                                               }
                                                                             ],
                                                                             "callee": {
@@ -14277,7 +15369,9 @@ __ESTREE_TEST__:PASS:
                                                                             "start": 44832,
                                                                             "end": 44846,
                                                                             "raw": "'hp.*TouchPad'",
-                                                                            "value": "hp.*TouchPad"
+                                                                            "value": "hp.*TouchPad",
+                                                                            "regex": null,
+                                                                            "bigint": null
                                                                           }
                                                                         ],
                                                                         "callee": {
@@ -14324,7 +15418,9 @@ __ESTREE_TEST__:PASS:
                                                                             "start": 44942,
                                                                             "end": 44951,
                                                                             "raw": "'Firefox'",
-                                                                            "value": "Firefox"
+                                                                            "value": "Firefox",
+                                                                            "regex": null,
+                                                                            "bigint": null
                                                                           }
                                                                         ],
                                                                         "callee": {
@@ -14370,7 +15466,9 @@ __ESTREE_TEST__:PASS:
                                                                               "start": 44966,
                                                                               "end": 44975,
                                                                               "raw": "'Firefox'",
-                                                                              "value": "Firefox"
+                                                                              "value": "Firefox",
+                                                                              "regex": null,
+                                                                              "bigint": null
                                                                             }
                                                                           ],
                                                                           "callee": {
@@ -14406,7 +15504,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 44978,
                                                                           "end": 44980,
                                                                           "raw": "12",
-                                                                          "value": 12
+                                                                          "value": 12,
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         }
                                                                       }
                                                                     }
@@ -14431,7 +15531,9 @@ __ESTREE_TEST__:PASS:
                                                                             "start": 45076,
                                                                             "end": 45084,
                                                                             "raw": "'Chrome'",
-                                                                            "value": "Chrome"
+                                                                            "value": "Chrome",
+                                                                            "regex": null,
+                                                                            "bigint": null
                                                                           }
                                                                         ],
                                                                         "callee": {
@@ -14472,7 +15574,9 @@ __ESTREE_TEST__:PASS:
                                                                             "start": 45094,
                                                                             "end": 45105,
                                                                             "raw": "'AndroidOS'",
-                                                                            "value": "AndroidOS"
+                                                                            "value": "AndroidOS",
+                                                                            "regex": null,
+                                                                            "bigint": null
                                                                           }
                                                                         ],
                                                                         "callee": {
@@ -14519,7 +15623,9 @@ __ESTREE_TEST__:PASS:
                                                                             "start": 45120,
                                                                             "end": 45129,
                                                                             "raw": "'Android'",
-                                                                            "value": "Android"
+                                                                            "value": "Android",
+                                                                            "regex": null,
+                                                                            "bigint": null
                                                                           }
                                                                         ],
                                                                         "callee": {
@@ -14555,7 +15661,9 @@ __ESTREE_TEST__:PASS:
                                                                         "start": 45132,
                                                                         "end": 45135,
                                                                         "raw": "4.0",
-                                                                        "value": 4
+                                                                        "value": 4,
+                                                                        "regex": null,
+                                                                        "bigint": null
                                                                       }
                                                                     }
                                                                   }
@@ -14585,7 +15693,9 @@ __ESTREE_TEST__:PASS:
                                                                             "start": 45219,
                                                                             "end": 45228,
                                                                             "raw": "'Skyfire'",
-                                                                            "value": "Skyfire"
+                                                                            "value": "Skyfire",
+                                                                            "regex": null,
+                                                                            "bigint": null
                                                                           }
                                                                         ],
                                                                         "callee": {
@@ -14631,7 +15741,9 @@ __ESTREE_TEST__:PASS:
                                                                               "start": 45243,
                                                                               "end": 45252,
                                                                               "raw": "'Skyfire'",
-                                                                              "value": "Skyfire"
+                                                                              "value": "Skyfire",
+                                                                              "regex": null,
+                                                                              "bigint": null
                                                                             }
                                                                           ],
                                                                           "callee": {
@@ -14667,7 +15779,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 45255,
                                                                           "end": 45258,
                                                                           "raw": "4.1",
-                                                                          "value": 4.1
+                                                                          "value": 4.1,
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         }
                                                                       }
                                                                     },
@@ -14681,7 +15795,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 45267,
                                                                           "end": 45278,
                                                                           "raw": "'AndroidOS'",
-                                                                          "value": "AndroidOS"
+                                                                          "value": "AndroidOS",
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         }
                                                                       ],
                                                                       "callee": {
@@ -14728,7 +15844,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 45293,
                                                                           "end": 45302,
                                                                           "raw": "'Android'",
-                                                                          "value": "Android"
+                                                                          "value": "Android",
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         }
                                                                       ],
                                                                       "callee": {
@@ -14764,7 +15882,9 @@ __ESTREE_TEST__:PASS:
                                                                       "start": 45305,
                                                                       "end": 45308,
                                                                       "raw": "2.3",
-                                                                      "value": 2.3
+                                                                      "value": 2.3,
+                                                                      "regex": null,
+                                                                      "bigint": null
                                                                     }
                                                                   }
                                                                 }
@@ -14789,7 +15909,9 @@ __ESTREE_TEST__:PASS:
                                                                         "start": 45393,
                                                                         "end": 45400,
                                                                         "raw": "'Opera'",
-                                                                        "value": "Opera"
+                                                                        "value": "Opera",
+                                                                        "regex": null,
+                                                                        "bigint": null
                                                                       }
                                                                     ],
                                                                     "callee": {
@@ -14835,7 +15957,9 @@ __ESTREE_TEST__:PASS:
                                                                           "start": 45415,
                                                                           "end": 45427,
                                                                           "raw": "'Opera Mobi'",
-                                                                          "value": "Opera Mobi"
+                                                                          "value": "Opera Mobi",
+                                                                          "regex": null,
+                                                                          "bigint": null
                                                                         }
                                                                       ],
                                                                       "callee": {
@@ -14871,7 +15995,9 @@ __ESTREE_TEST__:PASS:
                                                                       "start": 45429,
                                                                       "end": 45431,
                                                                       "raw": "11",
-                                                                      "value": 11
+                                                                      "value": 11,
+                                                                      "regex": null,
+                                                                      "bigint": null
                                                                     }
                                                                   }
                                                                 },
@@ -14885,7 +16011,9 @@ __ESTREE_TEST__:PASS:
                                                                       "start": 45440,
                                                                       "end": 45451,
                                                                       "raw": "'AndroidOS'",
-                                                                      "value": "AndroidOS"
+                                                                      "value": "AndroidOS",
+                                                                      "regex": null,
+                                                                      "bigint": null
                                                                     }
                                                                   ],
                                                                   "callee": {
@@ -14928,7 +16056,9 @@ __ESTREE_TEST__:PASS:
                                                                   "start": 45530,
                                                                   "end": 45539,
                                                                   "raw": "'MeeGoOS'",
-                                                                  "value": "MeeGoOS"
+                                                                  "value": "MeeGoOS",
+                                                                  "regex": null,
+                                                                  "bigint": null
                                                                 }
                                                               ],
                                                               "callee": {
@@ -14970,7 +16100,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 45624,
                                                                 "end": 45631,
                                                                 "raw": "'Tizen'",
-                                                                "value": "Tizen"
+                                                                "value": "Tizen",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -15017,7 +16149,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 45771,
                                                                 "end": 45779,
                                                                 "raw": "'Dolfin'",
-                                                                "value": "Dolfin"
+                                                                "value": "Dolfin",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -15063,7 +16197,9 @@ __ESTREE_TEST__:PASS:
                                                                   "start": 45794,
                                                                   "end": 45800,
                                                                   "raw": "'Bada'",
-                                                                  "value": "Bada"
+                                                                  "value": "Bada",
+                                                                  "regex": null,
+                                                                  "bigint": null
                                                                 }
                                                               ],
                                                               "callee": {
@@ -15099,7 +16235,9 @@ __ESTREE_TEST__:PASS:
                                                               "start": 45803,
                                                               "end": 45806,
                                                               "raw": "2.0",
-                                                              "value": 2
+                                                              "value": 2,
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           }
                                                         }
@@ -15124,7 +16262,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 45888,
                                                                 "end": 45900,
                                                                 "raw": "'UC Browser'",
-                                                                "value": "UC Browser"
+                                                                "value": "UC Browser",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -15165,7 +16305,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 45910,
                                                                 "end": 45918,
                                                                 "raw": "'Dolfin'",
-                                                                "value": "Dolfin"
+                                                                "value": "Dolfin",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -15212,7 +16354,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 45934,
                                                                 "end": 45943,
                                                                 "raw": "'Android'",
-                                                                "value": "Android"
+                                                                "value": "Android",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -15248,7 +16392,9 @@ __ESTREE_TEST__:PASS:
                                                             "start": 45946,
                                                             "end": 45949,
                                                             "raw": "2.3",
-                                                            "value": 2.3
+                                                            "value": 2.3,
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         }
                                                       }
@@ -15268,7 +16414,9 @@ __ESTREE_TEST__:PASS:
                                                             "start": 46061,
                                                             "end": 46074,
                                                             "raw": "'Kindle Fire'",
-                                                            "value": "Kindle Fire"
+                                                            "value": "Kindle Fire",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "callee": {
@@ -15314,7 +16462,9 @@ __ESTREE_TEST__:PASS:
                                                               "start": 46100,
                                                               "end": 46108,
                                                               "raw": "'Kindle'",
-                                                              "value": "Kindle"
+                                                              "value": "Kindle",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           ],
                                                           "callee": {
@@ -15360,7 +16510,9 @@ __ESTREE_TEST__:PASS:
                                                                 "start": 46123,
                                                                 "end": 46131,
                                                                 "raw": "'Kindle'",
-                                                                "value": "Kindle"
+                                                                "value": "Kindle",
+                                                                "regex": null,
+                                                                "bigint": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -15396,7 +16548,9 @@ __ESTREE_TEST__:PASS:
                                                             "start": 46134,
                                                             "end": 46137,
                                                             "raw": "3.0",
-                                                            "value": 3
+                                                            "value": 3,
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         }
                                                       }
@@ -15417,7 +16571,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 46242,
                                                           "end": 46253,
                                                           "raw": "'AndroidOS'",
-                                                          "value": "AndroidOS"
+                                                          "value": "AndroidOS",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -15458,7 +16614,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 46263,
                                                           "end": 46275,
                                                           "raw": "'NookTablet'",
-                                                          "value": "NookTablet"
+                                                          "value": "NookTablet",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -15511,7 +16669,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 46375,
                                                           "end": 46383,
                                                           "raw": "'Chrome'",
-                                                          "value": "Chrome"
+                                                          "value": "Chrome",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -15547,7 +16707,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 46386,
                                                       "end": 46388,
                                                       "raw": "11",
-                                                      "value": 11
+                                                      "value": 11,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   },
                                                   "right": {
@@ -15588,7 +16750,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 46499,
                                                         "end": 46507,
                                                         "raw": "'Safari'",
-                                                        "value": "Safari"
+                                                        "value": "Safari",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -15624,7 +16788,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 46510,
                                                     "end": 46513,
                                                     "raw": "5.0",
-                                                    "value": 5
+                                                    "value": 5,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "right": {
@@ -15665,7 +16831,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 46626,
                                                       "end": 46635,
                                                       "raw": "'Firefox'",
-                                                      "value": "Firefox"
+                                                      "value": "Firefox",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   ],
                                                   "callee": {
@@ -15701,7 +16869,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 46638,
                                                   "end": 46641,
                                                   "raw": "4.0",
-                                                  "value": 4
+                                                  "value": 4,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               },
                                               "right": {
@@ -15742,7 +16912,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 46755,
                                                     "end": 46761,
                                                     "raw": "'MSIE'",
-                                                    "value": "MSIE"
+                                                    "value": "MSIE",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 ],
                                                 "callee": {
@@ -15778,7 +16950,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 46764,
                                                 "end": 46767,
                                                 "raw": "7.0",
-                                                "value": 7
+                                                "value": 7,
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             },
                                             "right": {
@@ -15819,7 +16993,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 46953,
                                                   "end": 46960,
                                                   "raw": "'Opera'",
-                                                  "value": "Opera"
+                                                  "value": "Opera",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -15855,7 +17031,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 46963,
                                               "end": 46965,
                                               "raw": "10",
-                                              "value": 10
+                                              "value": 10,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           },
                                           "right": {
@@ -15896,7 +17074,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 47913,
                                               "end": 47916,
                                               "raw": "'B'",
-                                              "value": "B"
+                                              "value": "B",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ]
@@ -15946,7 +17126,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 47061,
                                                           "end": 47066,
                                                           "raw": "'iOS'",
-                                                          "value": "iOS"
+                                                          "value": "iOS",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -15992,7 +17174,9 @@ __ESTREE_TEST__:PASS:
                                                             "start": 47081,
                                                             "end": 47087,
                                                             "raw": "'iPad'",
-                                                            "value": "iPad"
+                                                            "value": "iPad",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "callee": {
@@ -16028,7 +17212,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47089,
                                                         "end": 47092,
                                                         "raw": "4.3",
-                                                        "value": 4.3
+                                                        "value": 4.3,
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   },
@@ -16047,7 +17233,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 47113,
                                                           "end": 47118,
                                                           "raw": "'iOS'",
-                                                          "value": "iOS"
+                                                          "value": "iOS",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -16093,7 +17281,9 @@ __ESTREE_TEST__:PASS:
                                                             "start": 47133,
                                                             "end": 47141,
                                                             "raw": "'iPhone'",
-                                                            "value": "iPhone"
+                                                            "value": "iPhone",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         ],
                                                         "callee": {
@@ -16129,7 +17319,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47143,
                                                         "end": 47146,
                                                         "raw": "3.1",
-                                                        "value": 3.1
+                                                        "value": 3.1,
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   }
@@ -16149,7 +17341,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47167,
                                                         "end": 47172,
                                                         "raw": "'iOS'",
-                                                        "value": "iOS"
+                                                        "value": "iOS",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -16195,7 +17389,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 47187,
                                                           "end": 47193,
                                                           "raw": "'iPod'",
-                                                          "value": "iPod"
+                                                          "value": "iPod",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -16231,7 +17427,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 47195,
                                                       "end": 47198,
                                                       "raw": "3.1",
-                                                      "value": 3.1
+                                                      "value": 3.1,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 }
@@ -16256,7 +17454,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47289,
                                                         "end": 47301,
                                                         "raw": "'Blackberry'",
-                                                        "value": "Blackberry"
+                                                        "value": "Blackberry",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -16302,7 +17502,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 47316,
                                                           "end": 47328,
                                                           "raw": "'BlackBerry'",
-                                                          "value": "BlackBerry"
+                                                          "value": "BlackBerry",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -16338,7 +17540,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 47331,
                                                       "end": 47332,
                                                       "raw": "5",
-                                                      "value": 5
+                                                      "value": 5,
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   }
                                                 },
@@ -16357,7 +17561,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47346,
                                                         "end": 47358,
                                                         "raw": "'BlackBerry'",
-                                                        "value": "BlackBerry"
+                                                        "value": "BlackBerry",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -16393,7 +17599,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 47360,
                                                     "end": 47361,
                                                     "raw": "6",
-                                                    "value": 6
+                                                    "value": 6,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               }
@@ -16423,7 +17631,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47465,
                                                         "end": 47477,
                                                         "raw": "'Opera Mini'",
-                                                        "value": "Opera Mini"
+                                                        "value": "Opera Mini",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -16459,7 +17669,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 47480,
                                                     "end": 47483,
                                                     "raw": "5.0",
-                                                    "value": 5
+                                                    "value": 5,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "right": {
@@ -16477,7 +17689,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47497,
                                                         "end": 47509,
                                                         "raw": "'Opera Mini'",
-                                                        "value": "Opera Mini"
+                                                        "value": "Opera Mini",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -16513,7 +17727,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 47512,
                                                     "end": 47515,
                                                     "raw": "6.5",
-                                                    "value": 6.5
+                                                    "value": 6.5,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 }
                                               },
@@ -16537,7 +17753,9 @@ __ESTREE_TEST__:PASS:
                                                         "start": 47546,
                                                         "end": 47555,
                                                         "raw": "'Android'",
-                                                        "value": "Android"
+                                                        "value": "Android",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -16573,7 +17791,9 @@ __ESTREE_TEST__:PASS:
                                                     "start": 47558,
                                                     "end": 47561,
                                                     "raw": "2.3",
-                                                    "value": 2.3
+                                                    "value": 2.3,
+                                                    "regex": null,
+                                                    "bigint": null
                                                   }
                                                 },
                                                 "right": {
@@ -16586,7 +17806,9 @@ __ESTREE_TEST__:PASS:
                                                       "start": 47570,
                                                       "end": 47575,
                                                       "raw": "'iOS'",
-                                                      "value": "iOS"
+                                                      "value": "iOS",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     }
                                                   ],
                                                   "callee": {
@@ -16630,7 +17852,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 47715,
                                                 "end": 47756,
                                                 "raw": "'NokiaN8|NokiaC7|N97.*Series60|Symbian/3'",
-                                                "value": "NokiaN8|NokiaC7|N97.*Series60|Symbian/3"
+                                                "value": "NokiaN8|NokiaC7|N97.*Series60|Symbian/3",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -16682,7 +17906,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 47840,
                                                   "end": 47852,
                                                   "raw": "'Opera Mobi'",
-                                                  "value": "Opera Mobi"
+                                                  "value": "Opera Mobi",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -16718,7 +17944,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 47855,
                                               "end": 47857,
                                               "raw": "11",
-                                              "value": 11
+                                              "value": 11,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           },
                                           "right": {
@@ -16731,7 +17959,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 47866,
                                                 "end": 47877,
                                                 "raw": "'SymbianOS'",
-                                                "value": "SymbianOS"
+                                                "value": "SymbianOS",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -16784,7 +18014,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 48228,
                                               "end": 48231,
                                               "raw": "'C'",
-                                              "value": "C"
+                                              "value": "C",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           }
                                         ]
@@ -16814,7 +18046,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 48017,
                                                   "end": 48029,
                                                   "raw": "'BlackBerry'",
-                                                  "value": "BlackBerry"
+                                                  "value": "BlackBerry",
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               ],
                                               "callee": {
@@ -16850,7 +18084,9 @@ __ESTREE_TEST__:PASS:
                                               "start": 48031,
                                               "end": 48034,
                                               "raw": "5.0",
-                                              "value": 5
+                                              "value": 5,
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           },
                                           "right": {
@@ -16863,7 +18099,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 48124,
                                                 "end": 48155,
                                                 "raw": "'MSIEMobile|Windows CE.*Mobile'",
-                                                "value": "MSIEMobile|Windows CE.*Mobile"
+                                                "value": "MSIEMobile|Windows CE.*Mobile",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -16910,7 +18148,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 48170,
                                                 "end": 48186,
                                                 "raw": "'Windows Mobile'",
-                                                "value": "Windows Mobile"
+                                                "value": "Windows Mobile",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             ],
                                             "callee": {
@@ -16946,7 +18186,9 @@ __ESTREE_TEST__:PASS:
                                             "start": 48189,
                                             "end": 48192,
                                             "raw": "5.2",
-                                            "value": 5.2
+                                            "value": 5.2,
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       }
@@ -16960,7 +18202,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 48420,
                                         "end": 48423,
                                         "raw": "'C'",
-                                        "value": "C"
+                                        "value": "C",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -17528,7 +18772,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 50372,
                                         "end": 50374,
                                         "raw": "''",
-                                        "value": ""
+                                        "value": "",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   }
@@ -17622,7 +18868,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 50499,
                                         "end": 50502,
                                         "raw": "600",
-                                        "value": 600
+                                        "value": 600,
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   }
@@ -19853,7 +21101,9 @@ __ESTREE_TEST__:PASS:
                                                           "start": 64941,
                                                           "end": 64944,
                                                           "raw": "'i'",
-                                                          "value": "i"
+                                                          "value": "i",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ],
                                                       "callee": {
@@ -20547,7 +21797,9 @@ __ESTREE_TEST__:PASS:
                                                   "start": 66538,
                                                   "end": 66539,
                                                   "raw": "0",
-                                                  "value": 0
+                                                  "value": 0,
+                                                  "regex": null,
+                                                  "bigint": null
                                                 }
                                               }
                                             }
@@ -20607,7 +21859,9 @@ __ESTREE_TEST__:PASS:
                                   "start": 66408,
                                   "end": 66419,
                                   "raw": "'undefined'",
-                                  "value": "undefined"
+                                  "value": "undefined",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "right": {
@@ -20723,7 +21977,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 66833,
                                 "end": 66851,
                                 "raw": "'1.3.3 2016-07-31'",
-                                "value": "1.3.3 2016-07-31"
+                                "value": "1.3.3 2016-07-31",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },

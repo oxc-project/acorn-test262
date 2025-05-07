@@ -61,7 +61,9 @@
           "start": 292,
           "end": 298,
           "value": "null",
-          "raw": "'null'"
+          "raw": "'null'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -98,7 +100,9 @@
           "start": 318,
           "end": 324,
           "value": "true",
-          "raw": "'true'"
+          "raw": "'true'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -135,7 +139,9 @@
           "start": 345,
           "end": 352,
           "value": "false",
-          "raw": "'false'"
+          "raw": "'false'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -164,21 +170,27 @@
                 "start": 371,
                 "end": 377,
                 "value": "null",
-                "raw": "'null'"
+                "raw": "'null'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 389,
                 "value": "true",
-                "raw": "'true'"
+                "raw": "'true'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 402,
                 "value": "false",
-                "raw": "'false'"
+                "raw": "'false'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -210,7 +222,9 @@
               "start": 421,
               "end": 422,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -364,7 +378,9 @@
                       "start": 542,
                       "end": 554,
                       "value": "Property \"",
-                      "raw": "'Property \"'"
+                      "raw": "'Property \"'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -380,7 +396,9 @@
                     "start": 572,
                     "end": 581,
                     "value": "\" found",
-                    "raw": "'\" found'"
+                    "raw": "'\" found'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -453,7 +471,9 @@
                       "start": 667,
                       "end": 679,
                       "value": "Property \"",
-                      "raw": "'Property \"'"
+                      "raw": "'Property \"'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -469,7 +489,9 @@
                     "start": 697,
                     "end": 718,
                     "value": "\" has correct value",
-                    "raw": "'\" has correct value'"
+                    "raw": "'\" has correct value'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

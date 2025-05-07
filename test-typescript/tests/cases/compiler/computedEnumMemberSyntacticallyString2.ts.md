@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 27,
         "raw": "'./bar'",
-        "value": "./bar"
+        "value": "./bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -69,7 +71,9 @@ __ESTREE_TEST__:PASS:
             "start": 43,
             "end": 50,
             "raw": "'LOCAL'",
-            "value": "LOCAL"
+            "value": "LOCAL",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -219,7 +223,9 @@ __ESTREE_TEST__:PASS:
                 "start": 113,
                 "end": 118,
                 "raw": "'BAR'",
-                "value": "BAR"
+                "value": "BAR",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -392,7 +398,9 @@ __ESTREE_TEST__:PASS:
                 "start": 248,
                 "end": 249,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "Identifier",
@@ -547,7 +555,9 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 24,
               "raw": "'bar'",
-              "value": "bar"
+              "value": "bar",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

@@ -54,7 +54,9 @@
               "start": 760,
               "end": 780,
               "value": "this.name=\"root\"",
-              "raw": "\"this.name=\\\"root\\\"\""
+              "raw": "\"this.name=\\\"root\\\"\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -107,7 +109,9 @@
           "start": 807,
           "end": 808,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -219,7 +223,9 @@
                   "start": 923,
                   "end": 1035,
                   "value": "#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true",
-                  "raw": "'#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true'"
+                  "raw": "'#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

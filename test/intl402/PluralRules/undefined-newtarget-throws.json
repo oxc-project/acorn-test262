@@ -90,7 +90,9 @@
             "start": 347,
             "end": 398,
             "value": "Intl.PluralRules throws when called as a function",
-            "raw": "\"Intl.PluralRules throws when called as a function\""
+            "raw": "\"Intl.PluralRules throws when called as a function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -203,7 +205,9 @@
             "start": 479,
             "end": 561,
             "value": "Intl.PluralRules throws when called as a function with |undefined| as this-value",
-            "raw": "\"Intl.PluralRules throws when called as a function with |undefined| as this-value\""
+            "raw": "\"Intl.PluralRules throws when called as a function with |undefined| as this-value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -383,7 +387,9 @@
                         "start": 733,
                         "end": 818,
                         "value": "Intl.PluralRules throws when called as a function with an Intl-object as this-value",
-                        "raw": "\"Intl.PluralRules throws when called as a function with an Intl-object as this-value\""
+                        "raw": "\"Intl.PluralRules throws when called as a function with an Intl-object as this-value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

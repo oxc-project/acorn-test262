@@ -101,7 +101,9 @@
                         "start": 632,
                         "end": 633,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

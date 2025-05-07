@@ -78,7 +78,9 @@
                           "start": 355,
                           "end": 366,
                           "value": "prototype",
-                          "raw": "'prototype'"
+                          "raw": "'prototype'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "set",
                         "value": {

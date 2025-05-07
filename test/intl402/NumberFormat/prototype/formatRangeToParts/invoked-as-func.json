@@ -77,7 +77,9 @@
               "start": 556,
               "end": 576,
               "value": "formatRangeToParts",
-              "raw": "'formatRangeToParts'"
+              "raw": "'formatRangeToParts'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -132,7 +134,9 @@
             "start": 607,
             "end": 617,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,14 +210,18 @@
                         "start": 655,
                         "end": 656,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 658,
                         "end": 660,
                         "value": 23,
-                        "raw": "23"
+                        "raw": "23",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -90,7 +90,9 @@
             "start": 392,
             "end": 441,
             "value": "Object.prototype() throws a TypeError exception",
-            "raw": "'Object.prototype() throws a TypeError exception'"
+            "raw": "'Object.prototype() throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

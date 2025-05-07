@@ -41,7 +41,9 @@
                 "start": 486,
                 "end": 487,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ],
             "quasis": [
@@ -72,14 +74,18 @@
             "start": 495,
             "end": 506,
             "value": "foo 5 bar",
-            "raw": "'foo 5 bar'"
+            "raw": "'foo 5 bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 522,
             "value": "number value",
-            "raw": "'number value'"
+            "raw": "'number value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -123,7 +129,9 @@
                 "start": 549,
                 "end": 557,
                 "value": "string",
-                "raw": "'string'"
+                "raw": "'string'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "quasis": [
@@ -154,14 +162,18 @@
             "start": 565,
             "end": 581,
             "value": "foo string bar",
-            "raw": "'foo string bar'"
+            "raw": "'foo string bar'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 597,
             "value": "string value",
-            "raw": "'string value'"
+            "raw": "'string value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

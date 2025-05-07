@@ -28,28 +28,36 @@
                 "start": 502,
                 "end": 507,
                 "value": "h11",
-                "raw": "'h11'"
+                "raw": "'h11'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 509,
                 "end": 514,
                 "value": "h12",
-                "raw": "'h12'"
+                "raw": "'h12'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 516,
                 "end": 521,
                 "value": "h23",
-                "raw": "'h23'"
+                "raw": "'h23'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 523,
                 "end": 528,
                 "value": "h24",
-                "raw": "'h24'"
+                "raw": "'h24'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -82,14 +90,18 @@
                 "start": 553,
                 "end": 558,
                 "value": "h11",
-                "raw": "'h11'"
+                "raw": "'h11'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 560,
                 "end": 565,
                 "value": "h12",
-                "raw": "'h12'"
+                "raw": "'h12'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -135,7 +147,9 @@
                   "start": 606,
                   "end": 610,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -157,7 +171,9 @@
                   "start": 624,
                   "end": 628,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -179,7 +195,9 @@
                   "start": 644,
                   "end": 648,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -330,7 +348,9 @@
                                 "start": 771,
                                 "end": 780,
                                 "value": "numeric",
-                                "raw": "'numeric'"
+                                "raw": "'numeric'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             }
@@ -521,7 +541,9 @@
                   "start": 973,
                   "end": 984,
                   "value": "hourCycle",
-                  "raw": "'hourCycle'"
+                  "raw": "'hourCycle'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -559,7 +581,9 @@
                   "start": 1039,
                   "end": 1047,
                   "value": "hour12",
-                  "raw": "'hour12'"
+                  "raw": "'hour12'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -698,7 +722,9 @@
                                 "start": 1214,
                                 "end": 1223,
                                 "value": "numeric",
-                                "raw": "'numeric'"
+                                "raw": "'numeric'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "kind": "init"
                             },
@@ -910,7 +936,9 @@
                   "start": 1440,
                   "end": 1451,
                   "value": "hourCycle",
-                  "raw": "'hourCycle'"
+                  "raw": "'hourCycle'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -948,7 +976,9 @@
                   "start": 1506,
                   "end": 1514,
                   "value": "hour12",
-                  "raw": "'hour12'"
+                  "raw": "'hour12'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Identifier",
@@ -1051,7 +1081,9 @@
                           "start": 1689,
                           "end": 1698,
                           "value": "numeric",
-                          "raw": "'numeric'"
+                          "raw": "'numeric'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       },
@@ -1073,7 +1105,9 @@
                           "start": 1713,
                           "end": 1718,
                           "value": "h23",
-                          "raw": "'h23'"
+                          "raw": "'h23'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -1149,7 +1183,9 @@
             "start": 1786,
             "end": 1791,
             "value": "h23",
-            "raw": "'h23'"
+            "raw": "'h23'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1207,7 +1243,9 @@
             "start": 1835,
             "end": 1840,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1239,7 +1277,9 @@
             "start": 1876,
             "end": 1887,
             "value": "hourCycle",
-            "raw": "'hourCycle'"
+            "raw": "'hourCycle'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1277,7 +1317,9 @@
             "start": 1940,
             "end": 1948,
             "value": "hour12",
-            "raw": "'hour12'"
+            "raw": "'hour12'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1377,7 +1419,9 @@
                         "start": 2094,
                         "end": 2103,
                         "value": "numeric",
-                        "raw": "'numeric'"
+                        "raw": "'numeric'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1399,7 +1443,9 @@
                         "start": 2115,
                         "end": 2119,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1421,7 +1467,9 @@
                         "start": 2134,
                         "end": 2139,
                         "value": "h23",
-                        "raw": "'h23'"
+                        "raw": "'h23'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1560,7 +1608,9 @@
             "start": 2262,
             "end": 2266,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1592,7 +1642,9 @@
             "start": 2302,
             "end": 2313,
             "value": "hourCycle",
-            "raw": "'hourCycle'"
+            "raw": "'hourCycle'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1630,7 +1682,9 @@
             "start": 2366,
             "end": 2374,
             "value": "hour12",
-            "raw": "'hour12'"
+            "raw": "'hour12'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1730,7 +1784,9 @@
                         "start": 2533,
                         "end": 2542,
                         "value": "numeric",
-                        "raw": "'numeric'"
+                        "raw": "'numeric'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1752,7 +1808,9 @@
                         "start": 2554,
                         "end": 2558,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1891,7 +1949,9 @@
             "start": 2682,
             "end": 2686,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1923,7 +1983,9 @@
             "start": 2722,
             "end": 2733,
             "value": "hourCycle",
-            "raw": "'hourCycle'"
+            "raw": "'hourCycle'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1961,7 +2023,9 @@
             "start": 2786,
             "end": 2794,
             "value": "hour12",
-            "raw": "'hour12'"
+            "raw": "'hour12'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -2025,7 +2089,9 @@
                   "start": 2940,
                   "end": 2944,
                   "value": "fr",
-                  "raw": "\"fr\""
+                  "raw": "\"fr\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -2050,7 +2116,9 @@
                         "start": 2961,
                         "end": 2966,
                         "value": "h12",
-                        "raw": "\"h12\""
+                        "raw": "\"h12\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -2072,7 +2140,9 @@
                         "start": 2978,
                         "end": 2983,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -2152,7 +2222,9 @@
             "start": 3075,
             "end": 3129,
             "value": "Precondition: hour should not be included by default",
-            "raw": "\"Precondition: hour should not be included by default\""
+            "raw": "\"Precondition: hour should not be included by default\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

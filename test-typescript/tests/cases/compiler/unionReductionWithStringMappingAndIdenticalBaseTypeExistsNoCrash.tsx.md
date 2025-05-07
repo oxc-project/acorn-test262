@@ -2265,7 +2265,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 25,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -2596,7 +2598,9 @@ __ESTREE_TEST__:PASS:
                         "start": 239,
                         "end": 246,
                         "raw": "\"VALUE\"",
-                        "value": "VALUE"
+                        "value": "VALUE",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {

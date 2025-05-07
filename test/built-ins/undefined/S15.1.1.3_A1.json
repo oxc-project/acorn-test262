@@ -35,7 +35,9 @@
           "start": 294,
           "end": 305,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -67,7 +69,9 @@
                     "start": 334,
                     "end": 383,
                     "value": "#1: typeof(undefined) === \"undefined\". Actual: ",
-                    "raw": "'#1: typeof(undefined) === \"undefined\". Actual: '"
+                    "raw": "'#1: typeof(undefined) === \"undefined\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -127,7 +131,9 @@
             "start": 445,
             "end": 446,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -160,7 +166,9 @@
                     "start": 475,
                     "end": 511,
                     "value": "#2: undefined === void 0. Actual: ",
-                    "raw": "'#2: undefined === void 0. Actual: '"
+                    "raw": "'#2: undefined === void 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -213,7 +221,9 @@
               "start": 565,
               "end": 572,
               "value": "var x",
-              "raw": "\"var x\""
+              "raw": "\"var x\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -248,7 +258,9 @@
                     "start": 602,
                     "end": 645,
                     "value": "#3: undefined === eval(\"var x\"). Actual: ",
-                    "raw": "'#3: undefined === eval(\"var x\"). Actual: '"
+                    "raw": "'#3: undefined === eval(\"var x\"). Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

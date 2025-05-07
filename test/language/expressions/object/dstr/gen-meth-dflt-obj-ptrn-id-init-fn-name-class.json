@@ -23,7 +23,9 @@
             "start": 2164,
             "end": 2165,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -300,7 +302,9 @@
                               "start": 2302,
                               "end": 2307,
                               "value": "cls",
-                              "raw": "'cls'"
+                              "raw": "'cls'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -358,7 +362,9 @@
                               "start": 2345,
                               "end": 2351,
                               "value": "xCls",
-                              "raw": "'xCls'"
+                              "raw": "'xCls'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -416,7 +422,9 @@
                               "start": 2390,
                               "end": 2397,
                               "value": "xCls2",
-                              "raw": "'xCls2'"
+                              "raw": "'xCls2'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -453,7 +461,9 @@
                               "start": 2428,
                               "end": 2429,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -559,14 +569,18 @@
             "start": 2488,
             "end": 2489,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2491,
             "end": 2530,
             "value": "generator method invoked exactly once",
-            "raw": "'generator method invoked exactly once'"
+            "raw": "'generator method invoked exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

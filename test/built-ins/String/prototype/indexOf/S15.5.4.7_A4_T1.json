@@ -59,7 +59,9 @@
                           "start": 500,
                           "end": 509,
                           "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "raw": "\"\\u0041B\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -129,7 +131,9 @@
                           "start": 566,
                           "end": 579,
                           "value": "intointeger",
-                          "raw": "\"intointeger\""
+                          "raw": "\"intointeger\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -163,7 +167,9 @@
             "start": 599,
             "end": 615,
             "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "raw": "\"ABB\\u0041BABAB\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -256,7 +262,9 @@
                   "start": 778,
                   "end": 849,
                   "value": "#1: \"var x = __str.indexOf(__obj, __obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __str.indexOf(__obj, __obj2)\" lead to throwing exception'"
+                  "raw": "'#1: \"var x = __str.indexOf(__obj, __obj2)\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -298,7 +306,9 @@
                   "start": 878,
                   "end": 891,
                   "value": "intointeger",
-                  "raw": "\"intointeger\""
+                  "raw": "\"intointeger\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -330,7 +340,9 @@
                             "start": 922,
                             "end": 967,
                             "value": "#1.1: Exception === \"intointeger\". Actual: ",
-                            "raw": "'#1.1: Exception === \"intointeger\". Actual: '"
+                            "raw": "'#1.1: Exception === \"intointeger\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

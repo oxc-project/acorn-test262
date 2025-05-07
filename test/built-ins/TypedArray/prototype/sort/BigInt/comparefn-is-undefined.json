@@ -76,6 +76,7 @@
                                 "end": 594,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 599,
                                 "value": null,
                                 "raw": "44n",
+                                "regex": null,
                                 "bigint": "44"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 604,
                                 "value": null,
                                 "raw": "46n",
+                                "regex": null,
                                 "bigint": "46"
                               },
                               {
@@ -100,6 +103,7 @@
                                 "end": 609,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               },
                               {
@@ -108,6 +112,7 @@
                                 "end": 614,
                                 "value": null,
                                 "raw": "45n",
+                                "regex": null,
                                 "bigint": "45"
                               }
                             ]
@@ -260,6 +265,7 @@
                             "end": 728,
                             "value": null,
                             "raw": "42n",
+                            "regex": null,
                             "bigint": "42"
                           },
                           {
@@ -268,6 +274,7 @@
                             "end": 733,
                             "value": null,
                             "raw": "43n",
+                            "regex": null,
                             "bigint": "43"
                           },
                           {
@@ -276,6 +283,7 @@
                             "end": 738,
                             "value": null,
                             "raw": "44n",
+                            "regex": null,
                             "bigint": "44"
                           },
                           {
@@ -284,6 +292,7 @@
                             "end": 743,
                             "value": null,
                             "raw": "45n",
+                            "regex": null,
                             "bigint": "45"
                           },
                           {
@@ -292,6 +301,7 @@
                             "end": 748,
                             "value": null,
                             "raw": "46n",
+                            "regex": null,
                             "bigint": "46"
                           }
                         ]
@@ -301,7 +311,9 @@
                         "start": 751,
                         "end": 805,
                         "value": "The value of `explicit` is [42n, 43n, 44n, 45n, 46n]",
-                        "raw": "'The value of `explicit` is [42n, 43n, 44n, 45n, 46n]'"
+                        "raw": "'The value of `explicit` is [42n, 43n, 44n, 45n, 46n]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -352,6 +364,7 @@
                             "end": 844,
                             "value": null,
                             "raw": "42n",
+                            "regex": null,
                             "bigint": "42"
                           },
                           {
@@ -360,6 +373,7 @@
                             "end": 849,
                             "value": null,
                             "raw": "43n",
+                            "regex": null,
                             "bigint": "43"
                           },
                           {
@@ -368,6 +382,7 @@
                             "end": 854,
                             "value": null,
                             "raw": "44n",
+                            "regex": null,
                             "bigint": "44"
                           },
                           {
@@ -376,6 +391,7 @@
                             "end": 859,
                             "value": null,
                             "raw": "45n",
+                            "regex": null,
                             "bigint": "45"
                           },
                           {
@@ -384,6 +400,7 @@
                             "end": 864,
                             "value": null,
                             "raw": "46n",
+                            "regex": null,
                             "bigint": "46"
                           }
                         ]
@@ -393,7 +410,9 @@
                         "start": 867,
                         "end": 921,
                         "value": "The value of `implicit` is [42n, 43n, 44n, 45n, 46n]",
-                        "raw": "'The value of `implicit` is [42n, 43n, 44n, 45n, 46n]'"
+                        "raw": "'The value of `implicit` is [42n, 43n, 44n, 45n, 46n]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

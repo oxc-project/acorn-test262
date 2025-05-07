@@ -61,7 +61,9 @@
           "start": 495,
           "end": 501,
           "value": "data",
-          "raw": "\"data\""
+          "raw": "\"data\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -243,7 +245,9 @@
             "start": 660,
             "end": 663,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -310,7 +314,9 @@
                   "start": 715,
                   "end": 720,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -340,7 +346,9 @@
             "start": 739,
             "end": 744,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -394,7 +402,9 @@
                   "start": 781,
                   "end": 784,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -437,7 +447,9 @@
                                 "start": 823,
                                 "end": 826,
                                 "value": 100,
-                                "raw": "100"
+                                "raw": "100",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -529,7 +541,9 @@
                     "start": 911,
                     "end": 914,
                     "value": "0",
-                    "raw": "\"0\""
+                    "raw": "\"0\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "CallExpression",
@@ -574,14 +588,18 @@
                     "start": 951,
                     "end": 954,
                     "value": "0",
-                    "raw": "\"0\""
+                    "raw": "\"0\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 956,
                     "end": 975,
                     "value": "verifySetFunction",
-                    "raw": "\"verifySetFunction\""
+                    "raw": "\"verifySetFunction\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -618,7 +636,9 @@
             "start": 1001,
             "end": 1004,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -643,7 +663,9 @@
                   "start": 1022,
                   "end": 1027,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -665,7 +687,9 @@
                   "start": 1045,
                   "end": 1050,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -723,7 +747,9 @@
                   "start": 1092,
                   "end": 1095,
                   "value": "0",
-                  "raw": "\"0\""
+                  "raw": "\"0\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -874,7 +900,9 @@
                             "start": 1234,
                             "end": 1273,
                             "value": "Expected result to be true, actually ",
-                            "raw": "'Expected result to be true, actually '"
+                            "raw": "'Expected result to be true, actually '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -917,7 +945,9 @@
                     "start": 1311,
                     "end": 1314,
                     "value": "0",
-                    "raw": "\"0\""
+                    "raw": "\"0\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "CallExpression",
@@ -962,14 +992,18 @@
                     "start": 1351,
                     "end": 1354,
                     "value": "0",
-                    "raw": "\"0\""
+                    "raw": "\"0\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1356,
                     "end": 1375,
                     "value": "verifySetFunction",
-                    "raw": "\"verifySetFunction\""
+                    "raw": "\"verifySetFunction\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1038,7 +1072,9 @@
                             "start": 1441,
                             "end": 1467,
                             "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "raw": "\"Expected TypeError, got \"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -1086,7 +1122,9 @@
             "start": 1501,
             "end": 1504,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -1111,7 +1149,9 @@
                   "start": 1522,
                   "end": 1527,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -1133,7 +1173,9 @@
                   "start": 1545,
                   "end": 1550,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

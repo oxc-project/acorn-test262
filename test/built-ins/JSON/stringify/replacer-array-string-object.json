@@ -34,7 +34,9 @@
                 "start": 639,
                 "end": 644,
                 "value": "str",
-                "raw": "'str'"
+                "raw": "'str'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +95,9 @@
                   "start": 682,
                   "end": 692,
                   "value": "toString",
-                  "raw": "'toString'"
+                  "raw": "'toString'",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -163,7 +167,9 @@
                       "start": 747,
                       "end": 769,
                       "value": "should not be called",
-                      "raw": "'should not be called'"
+                      "raw": "'should not be called'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -211,7 +217,9 @@
                   "start": 797,
                   "end": 798,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -233,7 +241,9 @@
                   "start": 812,
                   "end": 813,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -255,7 +265,9 @@
                   "start": 826,
                   "end": 827,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -344,7 +356,9 @@
             "start": 880,
             "end": 896,
             "value": "{\"toString\":2}",
-            "raw": "'{\"toString\":2}'"
+            "raw": "'{\"toString\":2}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

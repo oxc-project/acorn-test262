@@ -54,7 +54,9 @@
               "start": 469,
               "end": 470,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -125,7 +127,9 @@
             "start": 511,
             "end": 539,
             "value": "return value (no argument)",
-            "raw": "'return value (no argument)'"
+            "raw": "'return value (no argument)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -196,7 +200,9 @@
             "start": 583,
             "end": 626,
             "value": "[[DateValue]] internal slot (no argument)",
-            "raw": "'[[DateValue]] internal slot (no argument)'"
+            "raw": "'[[DateValue]] internal slot (no argument)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -233,7 +239,9 @@
               "start": 647,
               "end": 648,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -311,7 +319,9 @@
             "start": 692,
             "end": 720,
             "value": "return value (literal NaN)",
-            "raw": "'return value (literal NaN)'"
+            "raw": "'return value (literal NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +392,9 @@
             "start": 764,
             "end": 807,
             "value": "[[DateValue]] internal slot (literal NaN)",
-            "raw": "'[[DateValue]] internal slot (literal NaN)'"
+            "raw": "'[[DateValue]] internal slot (literal NaN)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -419,7 +431,9 @@
               "start": 828,
               "end": 829,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -482,7 +496,9 @@
                 "start": 865,
                 "end": 879,
                 "value": "not a number",
-                "raw": "'not a number'"
+                "raw": "'not a number'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -498,7 +514,9 @@
             "start": 887,
             "end": 921,
             "value": "return value (NaN from ToNumber)",
-            "raw": "'return value (NaN from ToNumber)'"
+            "raw": "'return value (NaN from ToNumber)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,7 +587,9 @@
             "start": 966,
             "end": 1015,
             "value": "[[DateValue]] internal slot (NaN from ToNumber)",
-            "raw": "'[[DateValue]] internal slot (NaN from ToNumber)'"
+            "raw": "'[[DateValue]] internal slot (NaN from ToNumber)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

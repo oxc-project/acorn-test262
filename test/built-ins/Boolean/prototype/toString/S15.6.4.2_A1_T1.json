@@ -75,14 +75,18 @@
             "start": 454,
             "end": 461,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 513,
             "value": "Boolean.prototype.toString() must return \"false\"",
-            "raw": "'Boolean.prototype.toString() must return \"false\"'"
+            "raw": "'Boolean.prototype.toString() must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,14 +162,18 @@
             "start": 561,
             "end": 568,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 618,
             "value": "(new Boolean()).toString() must return \"false\"",
-            "raw": "'(new Boolean()).toString() must return \"false\"'"
+            "raw": "'(new Boolean()).toString() must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -227,7 +235,9 @@
                       "start": 651,
                       "end": 656,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -249,14 +259,18 @@
             "start": 671,
             "end": 678,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 733,
             "value": "(new Boolean(false)).toString() must return \"false\"",
-            "raw": "'(new Boolean(false)).toString() must return \"false\"'"
+            "raw": "'(new Boolean(false)).toString() must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,7 +332,9 @@
                       "start": 766,
                       "end": 770,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -340,14 +356,18 @@
             "start": 785,
             "end": 791,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 844,
             "value": "(new Boolean(true)).toString() must return \"true\"",
-            "raw": "'(new Boolean(true)).toString() must return \"true\"'"
+            "raw": "'(new Boolean(true)).toString() must return \"true\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +429,9 @@
                       "start": 877,
                       "end": 878,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -431,14 +453,18 @@
             "start": 893,
             "end": 899,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 901,
             "end": 949,
             "value": "(new Boolean(1)).toString() must return \"true\"",
-            "raw": "'(new Boolean(1)).toString() must return \"true\"'"
+            "raw": "'(new Boolean(1)).toString() must return \"true\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -500,7 +526,9 @@
                       "start": 982,
                       "end": 983,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -522,14 +550,18 @@
             "start": 998,
             "end": 1005,
             "value": "false",
-            "raw": "\"false\""
+            "raw": "\"false\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1007,
             "end": 1056,
             "value": "(new Boolean(0)).toString() must return \"false\"",
-            "raw": "'(new Boolean(0)).toString() must return \"false\"'"
+            "raw": "'(new Boolean(0)).toString() must return \"false\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -618,14 +650,18 @@
             "start": 1122,
             "end": 1128,
             "value": "true",
-            "raw": "\"true\""
+            "raw": "\"true\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1132,
             "end": 1191,
             "value": "(new Boolean(new Object())).toString() must return \"true\"",
-            "raw": "'(new Boolean(new Object())).toString() must return \"true\"'"
+            "raw": "'(new Boolean(new Object())).toString() must return \"true\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 263,
             "end": 269,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -81,7 +83,9 @@
             "start": 310,
             "end": 316,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -211,7 +215,9 @@
                   "start": 424,
                   "end": 428,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -233,7 +239,9 @@
                   "start": 446,
                   "end": 450,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -307,7 +315,9 @@
           "start": 496,
           "end": 511,
           "value": "myOwnProperty",
-          "raw": "\"myOwnProperty\""
+          "raw": "\"myOwnProperty\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -368,7 +378,9 @@
                 "start": 554,
                 "end": 560,
                 "value": "prop",
-                "raw": "\"prop\""
+                "raw": "\"prop\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -378,14 +390,18 @@
             "start": 563,
             "end": 568,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 602,
             "value": "dateObj.hasOwnProperty(\"prop\")",
-            "raw": "'dateObj.hasOwnProperty(\"prop\")'"
+            "raw": "'dateObj.hasOwnProperty(\"prop\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -443,14 +459,18 @@
             "start": 636,
             "end": 651,
             "value": "myOwnProperty",
-            "raw": "\"myOwnProperty\""
+            "raw": "\"myOwnProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 667,
             "value": "dateObj.prop",
-            "raw": "'dateObj.prop'"
+            "raw": "'dateObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,14 +515,18 @@
             "start": 693,
             "end": 708,
             "value": "myOwnProperty",
-            "raw": "\"myOwnProperty\""
+            "raw": "\"myOwnProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 710,
             "end": 716,
             "value": "data",
-            "raw": "'data'"
+            "raw": "'data'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

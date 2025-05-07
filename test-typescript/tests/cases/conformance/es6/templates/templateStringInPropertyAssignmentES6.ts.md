@@ -57,14 +57,18 @@ __ESTREE_TEST__:PASS:
                       "start": 24,
                       "end": 27,
                       "raw": "123",
-                      "value": 123
+                      "value": 123,
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 35,
                       "end": 38,
                       "raw": "456",
-                      "value": 456
+                      "value": 456,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "quasis": [

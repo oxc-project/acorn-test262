@@ -75,7 +75,9 @@
             "start": 378,
             "end": 388,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +103,9 @@
             "start": 400,
             "end": 404,
             "value": "01",
-            "raw": "\"01\""
+            "raw": "\"01\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

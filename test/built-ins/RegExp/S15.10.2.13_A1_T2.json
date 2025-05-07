@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "a[]",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 455,
                 "end": 463,
                 "value": "\u0000a\u0000a",
-                "raw": "\"\\0a\\0a\""
+                "raw": "\"\\0a\\0a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 486,
             "end": 535,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

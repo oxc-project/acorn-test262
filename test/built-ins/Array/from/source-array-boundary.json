@@ -150,7 +150,9 @@
               "start": 359,
               "end": 360,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -289,7 +291,9 @@
                   "start": 465,
                   "end": 542,
                   "value": "The value of value is expected to equal the value of array[this.arrayIndex]",
-                  "raw": "'The value of value is expected to equal the value of array[this.arrayIndex]'"
+                  "raw": "'The value of value is expected to equal the value of array[this.arrayIndex]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -352,7 +356,9 @@
                   "start": 588,
                   "end": 658,
                   "value": "The value of index is expected to equal the value of this.arrayIndex",
-                  "raw": "'The value of index is expected to equal the value of this.arrayIndex'"
+                  "raw": "'The value of index is expected to equal the value of this.arrayIndex'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -506,7 +512,9 @@
             "start": 763,
             "end": 833,
             "value": "The value of a.length is expected to equal the value of array.length",
-            "raw": "'The value of a.length is expected to equal the value of array.length'"
+            "raw": "'The value of a.length is expected to equal the value of array.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +563,9 @@
               "start": 855,
               "end": 856,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -584,7 +594,9 @@
             "start": 877,
             "end": 947,
             "value": "The value of a[0] is expected to equal the value of Number.MAX_VALUE",
-            "raw": "'The value of a[0] is expected to equal the value of Number.MAX_VALUE'"
+            "raw": "'The value of a[0] is expected to equal the value of Number.MAX_VALUE'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -633,7 +645,9 @@
               "start": 969,
               "end": 970,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -662,7 +676,9 @@
             "start": 991,
             "end": 1061,
             "value": "The value of a[1] is expected to equal the value of Number.MIN_VALUE",
-            "raw": "'The value of a[1] is expected to equal the value of Number.MIN_VALUE'"
+            "raw": "'The value of a[1] is expected to equal the value of Number.MIN_VALUE'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -711,7 +727,9 @@
               "start": 1083,
               "end": 1084,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -740,7 +758,9 @@
             "start": 1099,
             "end": 1163,
             "value": "The value of a[2] is expected to equal the value of Number.NaN",
-            "raw": "'The value of a[2] is expected to equal the value of Number.NaN'"
+            "raw": "'The value of a[2] is expected to equal the value of Number.NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -789,7 +809,9 @@
               "start": 1185,
               "end": 1186,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -818,7 +840,9 @@
             "start": 1215,
             "end": 1293,
             "value": "The value of a[3] is expected to equal the value of Number.NEGATIVE_INFINITY",
-            "raw": "'The value of a[3] is expected to equal the value of Number.NEGATIVE_INFINITY'"
+            "raw": "'The value of a[3] is expected to equal the value of Number.NEGATIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -867,7 +891,9 @@
               "start": 1315,
               "end": 1316,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -896,7 +922,9 @@
             "start": 1345,
             "end": 1423,
             "value": "The value of a[4] is expected to equal the value of Number.POSITIVE_INFINITY",
-            "raw": "'The value of a[4] is expected to equal the value of Number.POSITIVE_INFINITY'"
+            "raw": "'The value of a[4] is expected to equal the value of Number.POSITIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

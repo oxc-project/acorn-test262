@@ -47,7 +47,9 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 30,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -96,7 +98,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 31,
           "raw": "'./mod1'",
-          "value": "./mod1"
+          "value": "./mod1",
+          "regex": null,
+          "bigint": null
         }
       }
     },

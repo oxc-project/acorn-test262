@@ -48,6 +48,7 @@
                 "end": 769,
                 "value": null,
                 "raw": "1_000_000_000_987_654_321n",
+                "regex": null,
                 "bigint": "1000000000987654321"
               }
             ]
@@ -147,7 +148,9 @@
                         "start": 883,
                         "end": 891,
                         "value": "second",
-                        "raw": "'second'"
+                        "raw": "'second'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -249,6 +252,7 @@
                   "end": 1004,
                   "value": null,
                   "raw": "1_000_000_001_000_000_000n",
+                  "regex": null,
                   "bigint": "1000000001000000000"
                 },
                 {
@@ -332,6 +336,7 @@
                   "end": 1103,
                   "value": null,
                   "raw": "1_000_000_000_000_000_000n",
+                  "regex": null,
                   "bigint": "1000000000000000000"
                 },
                 {

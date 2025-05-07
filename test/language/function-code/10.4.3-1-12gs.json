@@ -42,7 +42,9 @@
                       "start": 345,
                       "end": 357,
                       "value": "use strict",
-                      "raw": "\"use strict\""
+                      "raw": "\"use strict\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "directive": "use strict"
                   },
@@ -76,7 +78,9 @@
           "start": 392,
           "end": 403,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -93,7 +97,9 @@
               "start": 417,
               "end": 446,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "raw": "\"'this' had incorrect value!\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -34,7 +34,9 @@
                 "start": 1012,
                 "end": 1034,
                 "value": "function fn() {}/1/;",
-                "raw": "'function fn() {}/1/;'"
+                "raw": "'function fn() {}/1/;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -179,7 +181,9 @@
             "start": 1136,
             "end": 1138,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +248,9 @@
             "start": 1177,
             "end": 1182,
             "value": "/1/",
-            "raw": "'/1/'"
+            "raw": "'/1/'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

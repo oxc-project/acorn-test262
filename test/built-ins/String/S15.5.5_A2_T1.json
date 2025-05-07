@@ -34,7 +34,9 @@
                 "start": 307,
                 "end": 309,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,7 +90,9 @@
                   "start": 446,
                   "end": 514,
                   "value": "#1: __str = new Object(\"\"); \"new __str\" lead to throwing exception",
-                  "raw": "'#1: __str = new Object(\"\"); \"new __str\" lead to throwing exception'"
+                  "raw": "'#1: __str = new Object(\"\"); \"new __str\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -173,7 +177,9 @@
                             "start": 593,
                             "end": 658,
                             "value": "#1.1: Exception is instance of TypeError. Actual: exception is ",
-                            "raw": "'#1.1: Exception is instance of TypeError. Actual: exception is '"
+                            "raw": "'#1.1: Exception is instance of TypeError. Actual: exception is '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

@@ -66,7 +66,9 @@
                   "start": 232,
                   "end": 235,
                   "value": 1.9,
-                  "raw": "1.9"
+                  "raw": "1.9",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -96,7 +98,9 @@
             "start": 252,
             "end": 299,
             "value": "Math.atanh produces incorrect output for -1.9",
-            "raw": "\"Math.atanh produces incorrect output for -1.9\""
+            "raw": "\"Math.atanh produces incorrect output for -1.9\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -187,7 +191,9 @@
             "start": 350,
             "end": 396,
             "value": "Math.atanh produces incorrect output for NaN",
-            "raw": "\"Math.atanh produces incorrect output for NaN\""
+            "raw": "\"Math.atanh produces incorrect output for NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,7 +262,9 @@
                   "start": 428,
                   "end": 430,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -286,7 +294,9 @@
             "start": 447,
             "end": 493,
             "value": "Math.atanh produces incorrect output for -10",
-            "raw": "\"Math.atanh produces incorrect output for -10\""
+            "raw": "\"Math.atanh produces incorrect output for -10\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -384,7 +394,9 @@
             "start": 550,
             "end": 602,
             "value": "Math.atanh produces incorrect output for -Infinity",
-            "raw": "\"Math.atanh produces incorrect output for -Infinity\""
+            "raw": "\"Math.atanh produces incorrect output for -Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -447,7 +459,9 @@
                 "start": 633,
                 "end": 636,
                 "value": 1.9,
-                "raw": "1.9"
+                "raw": "1.9",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -476,7 +490,9 @@
             "start": 653,
             "end": 699,
             "value": "Math.atanh produces incorrect output for 1.9",
-            "raw": "\"Math.atanh produces incorrect output for 1.9\""
+            "raw": "\"Math.atanh produces incorrect output for 1.9\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -539,7 +555,9 @@
                 "start": 730,
                 "end": 732,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -568,7 +586,9 @@
             "start": 749,
             "end": 794,
             "value": "Math.atanh produces incorrect output for 10",
-            "raw": "\"Math.atanh produces incorrect output for 10\""
+            "raw": "\"Math.atanh produces incorrect output for 10\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -672,7 +692,9 @@
             "start": 866,
             "end": 933,
             "value": "Math.atanh produces incorrect output for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.atanh produces incorrect output for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.atanh produces incorrect output for Number.POSITIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -741,7 +763,9 @@
                   "start": 966,
                   "end": 967,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -771,7 +795,9 @@
             "start": 998,
             "end": 1050,
             "value": "Math.atanh should produce negative infinity for -1",
-            "raw": "\"Math.atanh should produce negative infinity for -1\""
+            "raw": "\"Math.atanh should produce negative infinity for -1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -840,7 +866,9 @@
                   "start": 1082,
                   "end": 1083,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -870,7 +898,9 @@
             "start": 1114,
             "end": 1166,
             "value": "Math.atanh should produce positive infinity for +1",
-            "raw": "\"Math.atanh should produce positive infinity for +1\""
+            "raw": "\"Math.atanh should produce positive infinity for +1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -913,7 +943,9 @@
               "start": 1186,
               "end": 1187,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -951,7 +983,9 @@
                     "start": 1202,
                     "end": 1203,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -982,7 +1016,9 @@
             "start": 1234,
             "end": 1271,
             "value": "Math.atanh should produce -0 for -0",
-            "raw": "\"Math.atanh should produce -0 for -0\""
+            "raw": "\"Math.atanh should produce -0 for -0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1025,7 +1061,9 @@
               "start": 1291,
               "end": 1292,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "operator": "/",
             "right": {
@@ -1057,7 +1095,9 @@
                   "start": 1306,
                   "end": 1307,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1087,7 +1127,9 @@
             "start": 1338,
             "end": 1375,
             "value": "Math.atanh should produce +0 for +0",
-            "raw": "\"Math.atanh should produce +0 for +0\""
+            "raw": "\"Math.atanh should produce +0 for +0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

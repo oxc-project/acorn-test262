@@ -49,14 +49,18 @@
             "start": 295,
             "end": 305,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 307,
             "end": 342,
             "value": "typeof Float64Array is \"function\"",
-            "raw": "'typeof Float64Array is \"function\"'"
+            "raw": "'typeof Float64Array is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

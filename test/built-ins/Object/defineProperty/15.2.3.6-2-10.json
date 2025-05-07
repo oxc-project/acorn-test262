@@ -73,7 +73,9 @@
               "start": 339,
               "end": 341,
               "value": 20,
-              "raw": "20"
+              "raw": "20",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -130,7 +132,9 @@
                 "start": 375,
                 "end": 380,
                 "value": "-20",
-                "raw": "\"-20\""
+                "raw": "\"-20\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -140,7 +144,9 @@
             "start": 383,
             "end": 419,
             "value": "obj.hasOwnProperty(\"-20\") !== true",
-            "raw": "'obj.hasOwnProperty(\"-20\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"-20\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

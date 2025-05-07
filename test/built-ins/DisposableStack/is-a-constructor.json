@@ -56,14 +56,18 @@
             "start": 797,
             "end": 801,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 852,
             "value": "isConstructor(DisposableStack) must return true",
-            "raw": "'isConstructor(DisposableStack) must return true'"
+            "raw": "'isConstructor(DisposableStack) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

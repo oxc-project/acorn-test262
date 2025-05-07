@@ -86,7 +86,9 @@
                 "start": 289,
                 "end": 293,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 296,
             "end": 297,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 299,
             "end": 349,
             "value": "Array.prototype.unshift.call(true) must return 0",
-            "raw": "'Array.prototype.unshift.call(true) must return 0'"
+            "raw": "'Array.prototype.unshift.call(true) must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -192,7 +198,9 @@
                 "start": 398,
                 "end": 403,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -202,14 +210,18 @@
             "start": 406,
             "end": 407,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 460,
             "value": "Array.prototype.unshift.call(false) must return 0",
-            "raw": "'Array.prototype.unshift.call(false) must return 0'"
+            "raw": "'Array.prototype.unshift.call(false) must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

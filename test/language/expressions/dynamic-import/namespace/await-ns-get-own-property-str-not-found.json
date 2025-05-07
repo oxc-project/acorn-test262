@@ -50,7 +50,9 @@
                       "start": 4026,
                       "end": 4052,
                       "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "raw": "'./module-code_FIXTURE.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   }
@@ -168,7 +170,9 @@
                       "start": 4140,
                       "end": 4148,
                       "value": "local2",
-                      "raw": "'local2'"
+                      "raw": "'local2'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -178,14 +182,18 @@
                   "start": 4157,
                   "end": 4162,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4170,
                   "end": 4194,
                   "value": "hasOwnProperty: local2",
-                  "raw": "'hasOwnProperty: local2'"
+                  "raw": "'hasOwnProperty: local2'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -241,7 +249,9 @@
                     "start": 4249,
                     "end": 4257,
                     "value": "local2",
-                    "raw": "'local2'"
+                    "raw": "'local2'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -293,7 +303,9 @@
                   "start": 4298,
                   "end": 4332,
                   "value": "property descriptor for \"local2\"",
-                  "raw": "'property descriptor for \"local2\"'"
+                  "raw": "'property descriptor for \"local2\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -388,7 +400,9 @@
                       "start": 4405,
                       "end": 4418,
                       "value": "toStringTag",
-                      "raw": "'toStringTag'"
+                      "raw": "'toStringTag'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -398,14 +412,18 @@
                   "start": 4427,
                   "end": 4432,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4440,
                   "end": 4469,
                   "value": "hasOwnProperty: toStringTag",
-                  "raw": "'hasOwnProperty: toStringTag'"
+                  "raw": "'hasOwnProperty: toStringTag'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -461,7 +479,9 @@
                     "start": 4524,
                     "end": 4537,
                     "value": "toStringTag",
-                    "raw": "'toStringTag'"
+                    "raw": "'toStringTag'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -513,7 +533,9 @@
                   "start": 4578,
                   "end": 4617,
                   "value": "property descriptor for \"toStringTag\"",
-                  "raw": "'property descriptor for \"toStringTag\"'"
+                  "raw": "'property descriptor for \"toStringTag\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -608,7 +630,9 @@
                       "start": 4690,
                       "end": 4700,
                       "value": "iterator",
-                      "raw": "'iterator'"
+                      "raw": "'iterator'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -618,14 +642,18 @@
                   "start": 4709,
                   "end": 4714,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4722,
                   "end": 4748,
                   "value": "hasOwnProperty: iterator",
-                  "raw": "'hasOwnProperty: iterator'"
+                  "raw": "'hasOwnProperty: iterator'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -681,7 +709,9 @@
                     "start": 4803,
                     "end": 4813,
                     "value": "iterator",
-                    "raw": "'iterator'"
+                    "raw": "'iterator'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -733,7 +763,9 @@
                   "start": 4854,
                   "end": 4890,
                   "value": "property descriptor for \"iterator\"",
-                  "raw": "'property descriptor for \"iterator\"'"
+                  "raw": "'property descriptor for \"iterator\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -828,7 +860,9 @@
                       "start": 4963,
                       "end": 4974,
                       "value": "__proto__",
-                      "raw": "'__proto__'"
+                      "raw": "'__proto__'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -838,14 +872,18 @@
                   "start": 4983,
                   "end": 4988,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 4996,
                   "end": 5023,
                   "value": "hasOwnProperty: __proto__",
-                  "raw": "'hasOwnProperty: __proto__'"
+                  "raw": "'hasOwnProperty: __proto__'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -901,7 +939,9 @@
                     "start": 5078,
                     "end": 5089,
                     "value": "__proto__",
-                    "raw": "'__proto__'"
+                    "raw": "'__proto__'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -953,7 +993,9 @@
                   "start": 5130,
                   "end": 5167,
                   "value": "property descriptor for \"__proto__\"",
-                  "raw": "'property descriptor for \"__proto__\"'"
+                  "raw": "'property descriptor for \"__proto__\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

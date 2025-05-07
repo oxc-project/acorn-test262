@@ -152,7 +152,9 @@
                 "start": 612,
                 "end": 614,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -164,7 +166,9 @@
           "start": 620,
           "end": 625,
           "value": "[ob",
-          "raw": "\"[ob\""
+          "raw": "\"[ob\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -196,7 +200,9 @@
                     "start": 654,
                     "end": 785,
                     "value": "#1: __instance = Math; __instance.substring = String.prototype.substring;  __instance.substring(Math.PI, -10) === \"[ob\". Actual: ",
-                    "raw": "'#1: __instance = Math; __instance.substring = String.prototype.substring;  __instance.substring(Math.PI, -10) === \"[ob\". Actual: '"
+                    "raw": "'#1: __instance = Math; __instance.substring = String.prototype.substring;  __instance.substring(Math.PI, -10) === \"[ob\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -253,7 +259,9 @@
                           "start": 819,
                           "end": 821,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

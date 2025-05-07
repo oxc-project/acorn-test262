@@ -33,14 +33,18 @@
                     "start": 265,
                     "end": 293,
                     "value": "1970-01-01T00:00Z[foo=bar]",
-                    "raw": "\"1970-01-01T00:00Z[foo=bar]\""
+                    "raw": "\"1970-01-01T00:00Z[foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 295,
                     "end": 302,
                     "value": "alone",
-                    "raw": "\"alone\""
+                    "raw": "\"alone\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 308,
                     "end": 341,
                     "value": "1970-01-01T00:00Z[UTC][foo=bar]",
-                    "raw": "\"1970-01-01T00:00Z[UTC][foo=bar]\""
+                    "raw": "\"1970-01-01T00:00Z[UTC][foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 343,
                     "end": 359,
                     "value": "with time zone",
-                    "raw": "\"with time zone\""
+                    "raw": "\"with time zone\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 365,
                     "end": 407,
                     "value": "1970-01-01T00:00Z[u-ca=iso8601][foo=bar]",
-                    "raw": "\"1970-01-01T00:00Z[u-ca=iso8601][foo=bar]\""
+                    "raw": "\"1970-01-01T00:00Z[u-ca=iso8601][foo=bar]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 409,
                     "end": 424,
                     "value": "with calendar",
-                    "raw": "\"with calendar\""
+                    "raw": "\"with calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -96,14 +108,18 @@
                     "start": 430,
                     "end": 477,
                     "value": "1970-01-01T00:00Z[UTC][foo=bar][u-ca=iso8601]",
-                    "raw": "\"1970-01-01T00:00Z[UTC][foo=bar][u-ca=iso8601]\""
+                    "raw": "\"1970-01-01T00:00Z[UTC][foo=bar][u-ca=iso8601]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 479,
                     "end": 508,
                     "value": "with time zone and calendar",
-                    "raw": "\"with time zone and calendar\""
+                    "raw": "\"with time zone and calendar\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -117,14 +133,18 @@
                     "start": 514,
                     "end": 578,
                     "value": "1970-01-01T00:00Z[foo=bar][_foo-bar0=Ignore-This-999999999999]",
-                    "raw": "\"1970-01-01T00:00Z[foo=bar][_foo-bar0=Ignore-This-999999999999]\""
+                    "raw": "\"1970-01-01T00:00Z[foo=bar][_foo-bar0=Ignore-This-999999999999]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 580,
                     "end": 613,
                     "value": "with another unknown annotation",
-                    "raw": "\"with another unknown annotation\""
+                    "raw": "\"with another unknown annotation\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -306,7 +326,9 @@
                         "start": 750,
                         "end": 751,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

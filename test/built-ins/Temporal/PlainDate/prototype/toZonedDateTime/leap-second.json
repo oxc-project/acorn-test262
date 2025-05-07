@@ -47,21 +47,27 @@
                 "start": 318,
                 "end": 322,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 328,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -89,7 +95,9 @@
             "start": 342,
             "end": 363,
             "value": "2016-12-31T23:59:60",
-            "raw": "\"2016-12-31T23:59:60\""
+            "raw": "\"2016-12-31T23:59:60\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -178,7 +186,9 @@
                       "start": 434,
                       "end": 439,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -244,6 +254,7 @@
             "end": 514,
             "value": null,
             "raw": "957311999_000_000_000n",
+            "regex": null,
             "bigint": "957311999000000000"
           },
           {
@@ -251,7 +262,9 @@
             "start": 518,
             "end": 567,
             "value": "leap second is a valid ISO string for PlainTime",
-            "raw": "\"leap second is a valid ISO string for PlainTime\""
+            "raw": "\"leap second is a valid ISO string for PlainTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -295,7 +308,9 @@
                 "start": 586,
                 "end": 590,
                 "value": 2016,
-                "raw": "2016"
+                "raw": "2016",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -317,7 +332,9 @@
                 "start": 599,
                 "end": 601,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -339,7 +356,9 @@
                 "start": 608,
                 "end": 610,
                 "value": 31,
-                "raw": "31"
+                "raw": "31",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -361,7 +380,9 @@
                 "start": 618,
                 "end": 620,
                 "value": 23,
-                "raw": "23"
+                "raw": "23",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -383,7 +404,9 @@
                 "start": 630,
                 "end": 632,
                 "value": 59,
-                "raw": "59"
+                "raw": "59",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             },
@@ -405,7 +428,9 @@
                 "start": 642,
                 "end": 644,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               },
               "kind": "init"
             }
@@ -496,7 +521,9 @@
                       "start": 717,
                       "end": 722,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -562,6 +589,7 @@
             "end": 797,
             "value": null,
             "raw": "957311999_000_000_000n",
+            "regex": null,
             "bigint": "957311999000000000"
           },
           {
@@ -569,7 +597,9 @@
             "start": 801,
             "end": 854,
             "value": "second: 60 is ignored in property bag for PlainTime",
-            "raw": "\"second: 60 is ignored in property bag for PlainTime\""
+            "raw": "\"second: 60 is ignored in property bag for PlainTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

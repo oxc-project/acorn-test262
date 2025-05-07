@@ -424,7 +424,9 @@ __ESTREE_TEST__:PASS:
                         "start": 436,
                         "end": 442,
                         "raw": "'@@@@'",
-                        "value": "@@@@"
+                        "value": "@@@@",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

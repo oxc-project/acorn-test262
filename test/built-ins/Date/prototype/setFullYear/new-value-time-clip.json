@@ -23,7 +23,9 @@
             "start": 911,
             "end": 918,
             "value": 8640000000000000,
-            "raw": "8.64e15"
+            "raw": "8.64e15",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 934,
             "end": 940,
             "value": 275760,
-            "raw": "275760"
+            "raw": "275760",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 956,
             "end": 958,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -101,7 +107,9 @@
             "start": 975,
             "end": 976,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -284,7 +292,9 @@
                 "start": 1108,
                 "end": 1109,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -337,7 +347,9 @@
             "start": 1148,
             "end": 1170,
             "value": "overflow due to year",
-            "raw": "'overflow due to year'"
+            "raw": "'overflow due to year'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -440,7 +452,9 @@
                 "start": 1250,
                 "end": 1251,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -493,7 +507,9 @@
             "start": 1290,
             "end": 1313,
             "value": "overflow due to month",
-            "raw": "'overflow due to month'"
+            "raw": "'overflow due to month'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -602,7 +618,9 @@
                 "start": 1402,
                 "end": 1403,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -655,7 +673,9 @@
             "start": 1442,
             "end": 1464,
             "value": "overflow due to date",
-            "raw": "'overflow due to date'"
+            "raw": "'overflow due to date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

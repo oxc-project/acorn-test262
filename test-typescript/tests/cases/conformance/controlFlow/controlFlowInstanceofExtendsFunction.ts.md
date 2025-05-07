@@ -155,7 +155,9 @@ __ESTREE_TEST__:PASS:
                   "start": 124,
                   "end": 129,
                   "raw": "\"now\"",
-                  "value": "now"
+                  "value": "now",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -527,7 +529,9 @@ __ESTREE_TEST__:PASS:
                 "start": 369,
                 "end": 370,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               },
               "consequent": {
                 "type": "NewExpression",
@@ -588,7 +592,9 @@ __ESTREE_TEST__:PASS:
                   "start": 353,
                   "end": 356,
                   "raw": "0.5",
-                  "value": 0.5
+                  "value": 0.5,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }

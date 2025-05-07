@@ -23,7 +23,9 @@
             "start": 315,
             "end": 320,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@
                 "start": 344,
                 "end": 349,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -107,7 +111,9 @@
             "start": 380,
             "end": 393,
             "value": "ownProperty",
-            "raw": "\"ownProperty\""
+            "raw": "\"ownProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -132,7 +138,9 @@
                   "start": 406,
                   "end": 417,
                   "value": "ownString",
-                  "raw": "\"ownString\""
+                  "raw": "\"ownString\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -154,7 +162,9 @@
                   "start": 435,
                   "end": 439,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -284,7 +294,9 @@
                 "start": 536,
                 "end": 549,
                 "value": "ownProperty",
-                "raw": "\"ownProperty\""
+                "raw": "\"ownProperty\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -312,7 +324,9 @@
                       "start": 573,
                       "end": 577,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -355,7 +369,9 @@
             "start": 619,
             "end": 639,
             "value": "Property not found",
-            "raw": "'Property not found'"
+            "raw": "'Property not found'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

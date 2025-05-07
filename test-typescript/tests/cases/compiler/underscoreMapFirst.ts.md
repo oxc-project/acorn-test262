@@ -1358,7 +1358,9 @@ __ESTREE_TEST__:PASS:
                               "start": 899,
                               "end": 905,
                               "raw": "\"data\"",
-                              "value": "data"
+                              "value": "data",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {
@@ -1473,7 +1475,9 @@ __ESTREE_TEST__:PASS:
                               "start": 959,
                               "end": 967,
                               "raw": "\"series\"",
-                              "value": "series"
+                              "value": "series",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {

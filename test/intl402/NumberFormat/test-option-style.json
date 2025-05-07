@@ -42,14 +42,18 @@
             "start": 308,
             "end": 315,
             "value": "style",
-            "raw": "\"style\""
+            "raw": "\"style\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 317,
             "end": 325,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -61,21 +65,27 @@
                 "start": 328,
                 "end": 337,
                 "value": "decimal",
-                "raw": "\"decimal\""
+                "raw": "\"decimal\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 348,
                 "value": "percent",
-                "raw": "\"percent\""
+                "raw": "\"percent\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 360,
                 "value": "currency",
-                "raw": "\"currency\""
+                "raw": "\"currency\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -84,7 +94,9 @@
             "start": 363,
             "end": 372,
             "value": "decimal",
-            "raw": "\"decimal\""
+            "raw": "\"decimal\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -121,7 +133,9 @@
                         "start": 391,
                         "end": 401,
                         "value": "currency",
-                        "raw": "\"currency\""
+                        "raw": "\"currency\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "value": {
                         "type": "ObjectExpression",
@@ -146,7 +160,9 @@
                               "start": 414,
                               "end": 419,
                               "value": "CNY",
-                              "raw": "\"CNY\""
+                              "raw": "\"CNY\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

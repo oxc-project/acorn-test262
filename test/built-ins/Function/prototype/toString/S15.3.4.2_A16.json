@@ -157,7 +157,9 @@
             "start": 577,
             "end": 619,
             "value": "String(obj) throws a TypeError exception",
-            "raw": "'String(obj) throws a TypeError exception'"
+            "raw": "'String(obj) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

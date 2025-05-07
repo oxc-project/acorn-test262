@@ -95,7 +95,9 @@
                   "start": 686,
                   "end": 698,
                   "value": "byteOffset",
-                  "raw": "'byteOffset'"
+                  "raw": "'byteOffset'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

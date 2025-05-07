@@ -69,6 +69,7 @@
                     "end": 323,
                     "value": null,
                     "raw": "217178610123456789n",
+                    "regex": null,
                     "bigint": "217178610123456789"
                   },
                   {
@@ -76,7 +77,9 @@
                     "start": 325,
                     "end": 330,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -95,14 +98,18 @@
             "start": 347,
             "end": 351,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 353,
             "end": 364,
             "value": "leap year",
-            "raw": "\"leap year\""
+            "raw": "\"leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,6 +181,7 @@
                     "end": 431,
                     "value": null,
                     "raw": "248714610123456789n",
+                    "regex": null,
                     "bigint": "248714610123456789"
                   },
                   {
@@ -181,7 +189,9 @@
                     "start": 433,
                     "end": 438,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -200,14 +210,18 @@
             "start": 455,
             "end": 460,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 462,
             "end": 477,
             "value": "non-leap year",
-            "raw": "\"non-leap year\""
+            "raw": "\"non-leap year\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

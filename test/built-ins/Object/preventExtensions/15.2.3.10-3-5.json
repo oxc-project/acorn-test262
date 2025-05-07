@@ -211,7 +211,9 @@
                         "start": 451,
                         "end": 454,
                         "value": "0",
-                        "raw": "\"0\""
+                        "raw": "\"0\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -236,7 +238,9 @@
                               "start": 469,
                               "end": 472,
                               "value": "c",
-                              "raw": "\"c\""
+                              "raw": "\"c\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -279,7 +283,9 @@
             "start": 500,
             "end": 519,
             "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "raw": "'preCheck !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -342,7 +348,9 @@
                 "start": 561,
                 "end": 564,
                 "value": "0",
-                "raw": "\"0\""
+                "raw": "\"0\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -352,14 +360,18 @@
             "start": 567,
             "end": 572,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 602,
             "value": "strObj.hasOwnProperty(\"0\")",
-            "raw": "'strObj.hasOwnProperty(\"0\")'"
+            "raw": "'strObj.hasOwnProperty(\"0\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -414,7 +426,9 @@
                 "start": 636,
                 "end": 637,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -425,14 +439,18 @@
             "start": 640,
             "end": 651,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 671,
             "value": "typeof strObj[0]",
-            "raw": "'typeof strObj[0]'"
+            "raw": "'typeof strObj[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

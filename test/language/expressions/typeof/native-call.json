@@ -55,14 +55,18 @@
             "start": 484,
             "end": 494,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 536,
             "value": "typeof new Function() === \"function\"",
-            "raw": "'typeof new Function() === \"function\"'"
+            "raw": "'typeof new Function() === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -121,14 +125,18 @@
             "start": 583,
             "end": 593,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 631,
             "value": "typeof Function() === \"function\"",
-            "raw": "'typeof Function() === \"function\"'"
+            "raw": "'typeof Function() === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -180,14 +188,18 @@
             "start": 674,
             "end": 684,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 718,
             "value": "typeof Object === \"function\"",
-            "raw": "'typeof Object === \"function\"'"
+            "raw": "'typeof Object === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,14 +251,18 @@
             "start": 761,
             "end": 771,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 805,
             "value": "typeof String === \"function\"",
-            "raw": "'typeof String === \"function\"'"
+            "raw": "'typeof String === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -298,14 +314,18 @@
             "start": 849,
             "end": 859,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 863,
             "end": 894,
             "value": "typeof Boolean === \"function\"",
-            "raw": "'typeof Boolean === \"function\"'"
+            "raw": "'typeof Boolean === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,14 +377,18 @@
             "start": 937,
             "end": 947,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 951,
             "end": 981,
             "value": "typeof Number === \"function\"",
-            "raw": "'typeof Number === \"function\"'"
+            "raw": "'typeof Number === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -416,14 +440,18 @@
             "start": 1022,
             "end": 1032,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1064,
             "value": "typeof Date === \"function\"",
-            "raw": "'typeof Date === \"function\"'"
+            "raw": "'typeof Date === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -475,14 +503,18 @@
             "start": 1106,
             "end": 1116,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1120,
             "end": 1149,
             "value": "typeof Error === \"function\"",
-            "raw": "'typeof Error === \"function\"'"
+            "raw": "'typeof Error === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,14 +566,18 @@
             "start": 1192,
             "end": 1202,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1206,
             "end": 1236,
             "value": "typeof RegExp === \"function\"",
-            "raw": "'typeof RegExp === \"function\"'"
+            "raw": "'typeof RegExp === \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

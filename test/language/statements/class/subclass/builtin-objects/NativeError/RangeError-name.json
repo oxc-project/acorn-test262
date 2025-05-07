@@ -109,7 +109,9 @@
             "start": 546,
             "end": 558,
             "value": "RangeError",
-            "raw": "'RangeError'"
+            "raw": "'RangeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

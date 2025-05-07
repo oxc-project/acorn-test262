@@ -23,7 +23,9 @@
             "start": 269,
             "end": 279,
             "value": "ABCDEFGH",
-            "raw": "\"ABCDEFGH\""
+            "raw": "\"ABCDEFGH\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -62,7 +64,9 @@
           "start": 391,
           "end": 392,
           "value": 8,
-          "raw": "8"
+          "raw": "8",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -94,7 +98,9 @@
                     "start": 421,
                     "end": 479,
                     "value": "#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: ",
-                    "raw": "'#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: '"
+                    "raw": "'#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

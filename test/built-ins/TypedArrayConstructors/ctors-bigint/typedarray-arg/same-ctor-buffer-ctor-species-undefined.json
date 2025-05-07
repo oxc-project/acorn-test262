@@ -70,7 +70,9 @@
                             "start": 1201,
                             "end": 1202,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -337,7 +339,9 @@
                         "start": 1428,
                         "end": 1481,
                         "value": "buffer ctor is not called when species is undefined",
-                        "raw": "\"buffer ctor is not called when species is undefined\""
+                        "raw": "\"buffer ctor is not called when species is undefined\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

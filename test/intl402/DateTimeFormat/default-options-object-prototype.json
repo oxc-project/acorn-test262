@@ -59,7 +59,9 @@
                       "start": 553,
                       "end": 557,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -134,7 +136,9 @@
           "start": 608,
           "end": 617,
           "value": "2-digit",
-          "raw": "\"2-digit\""
+          "raw": "\"2-digit\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -182,7 +186,9 @@
                 "start": 659,
                 "end": 663,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

@@ -23,7 +23,9 @@
             "start": 283,
             "end": 284,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 292,
             "end": 293,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -112,7 +116,9 @@
           "start": 322,
           "end": 324,
           "value": 16,
-          "raw": "16"
+          "raw": "16",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -144,7 +150,9 @@
                     "start": 353,
                     "end": 406,
                     "value": "#1: var\\nx\\n=\\ny\\n<<\\nz\\n; x === 16. Actual: ",
-                    "raw": "'#1: var\\\\nx\\\\n=\\\\ny\\\\n<<\\\\nz\\\\n; x === 16. Actual: '"
+                    "raw": "'#1: var\\\\nx\\\\n=\\\\ny\\\\n<<\\\\nz\\\\n; x === 16. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -186,7 +194,9 @@
           "start": 419,
           "end": 420,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +220,9 @@
             "start": 440,
             "end": 441,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -236,7 +248,9 @@
             "start": 449,
             "end": 450,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -299,7 +313,9 @@
           "start": 479,
           "end": 481,
           "value": 16,
-          "raw": "16"
+          "raw": "16",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -327,7 +343,9 @@
                   "start": 510,
                   "end": 553,
                   "value": "#2: var\\nx\\n=\\ny\\n<<\\nz\\n; x ===16 ",
-                  "raw": "'#2: var\\\\nx\\\\n=\\\\ny\\\\n<<\\\\nz\\\\n; x ===16 '"
+                  "raw": "'#2: var\\\\nx\\\\n=\\\\ny\\\\n<<\\\\nz\\\\n; x ===16 '",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -356,7 +374,9 @@
           "start": 560,
           "end": 561,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -400,7 +420,9 @@
             "start": 593,
             "end": 594,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -426,7 +448,9 @@
             "start": 602,
             "end": 603,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -452,7 +476,9 @@
             "start": 610,
             "end": 676,
             "value": " var x = y << z ; result = x;",
-            "raw": "\"\\u2028var\\u2028x\\u2028=\\u2028y\\u2028<<\\u2028z\\u2028; result = x;\""
+            "raw": "\"\\u2028var\\u2028x\\u2028=\\u2028y\\u2028<<\\u2028z\\u2028; result = x;\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +504,9 @@
           "start": 694,
           "end": 696,
           "value": 16,
-          "raw": "16"
+          "raw": "16",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -510,7 +538,9 @@
                     "start": 725,
                     "end": 835,
                     "value": "#3: eval(\"\\u2028var\\u2028x\\u2028=\\u2028y\\u2028<<\\u2028z\\u2028; result = x;\"); result === 16. Actual: ",
-                    "raw": "'#3: eval(\"\\\\u2028var\\\\u2028x\\\\u2028=\\\\u2028y\\\\u2028<<\\\\u2028z\\\\u2028; result = x;\"); result === 16. Actual: '"
+                    "raw": "'#3: eval(\"\\\\u2028var\\\\u2028x\\\\u2028=\\\\u2028y\\\\u2028<<\\\\u2028z\\\\u2028; result = x;\"); result === 16. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -552,7 +582,9 @@
           "start": 858,
           "end": 859,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -576,7 +608,9 @@
             "start": 879,
             "end": 880,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -602,7 +636,9 @@
             "start": 888,
             "end": 889,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -628,7 +664,9 @@
             "start": 896,
             "end": 962,
             "value": " var x = y << z ; result = x;",
-            "raw": "\"\\u2029var\\u2029x\\u2029=\\u2029y\\u2029<<\\u2029z\\u2029; result = x;\""
+            "raw": "\"\\u2029var\\u2029x\\u2029=\\u2029y\\u2029<<\\u2029z\\u2029; result = x;\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -654,7 +692,9 @@
           "start": 980,
           "end": 982,
           "value": 16,
-          "raw": "16"
+          "raw": "16",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -686,7 +726,9 @@
                     "start": 1011,
                     "end": 1121,
                     "value": "#4: eval(\"\\u2029var\\u2029x\\u2029=\\u2029y\\u2029<<\\u2029z\\u2029; result = x;\"); result === 16. Actual: ",
-                    "raw": "'#4: eval(\"\\\\u2029var\\\\u2029x\\\\u2029=\\\\u2029y\\\\u2029<<\\\\u2029z\\\\u2029; result = x;\"); result === 16. Actual: '"
+                    "raw": "'#4: eval(\"\\\\u2029var\\\\u2029x\\\\u2029=\\\\u2029y\\\\u2029<<\\\\u2029z\\\\u2029; result = x;\"); result === 16. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

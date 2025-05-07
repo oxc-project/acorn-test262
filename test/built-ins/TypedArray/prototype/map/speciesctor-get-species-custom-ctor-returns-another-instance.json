@@ -75,7 +75,9 @@
                                 "start": 1178,
                                 "end": 1180,
                                 "value": 40,
-                                "raw": "40"
+                                "raw": "40",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -175,21 +177,27 @@
                                 "start": 1270,
                                 "end": 1271,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1273,
                                 "end": 1274,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1276,
                                 "end": 1277,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -419,7 +427,9 @@
                                     "start": 1446,
                                     "end": 1447,
                                     "value": 7,
-                                    "raw": "7"
+                                    "raw": "7",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -476,7 +486,9 @@
                         "start": 1488,
                         "end": 1517,
                         "value": "returned another typedarray",
-                        "raw": "\"returned another typedarray\""
+                        "raw": "\"returned another typedarray\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -524,21 +536,27 @@
                                 "start": 1551,
                                 "end": 1553,
                                 "value": 47,
-                                "raw": "47"
+                                "raw": "47",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1555,
                                 "end": 1556,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1558,
                                 "end": 1559,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -550,7 +568,9 @@
                         "start": 1563,
                         "end": 1602,
                         "value": "values are set on returned typedarray",
-                        "raw": "\"values are set on returned typedarray\""
+                        "raw": "\"values are set on returned typedarray\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

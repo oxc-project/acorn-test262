@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 18,
               "end": 19,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 23,
         "raw": "\"p1\"",
-        "value": "p1"
+        "value": "p1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -231,7 +231,9 @@
                       "start": 667,
                       "end": 677,
                       "value": "function",
-                      "raw": "'function'"
+                      "raw": "'function'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -356,7 +358,9 @@
                           "start": 764,
                           "end": 784,
                           "value": "generator function",
-                          "raw": "'generator function'"
+                          "raw": "'generator function'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -485,7 +489,9 @@
                       "start": 890,
                       "end": 906,
                       "value": "async function",
-                      "raw": "'async function'"
+                      "raw": "'async function'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -534,7 +540,9 @@
                 "start": 937,
                 "end": 947,
                 "value": "function",
-                "raw": "'function'"
+                "raw": "'function'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -549,7 +557,9 @@
             "start": 954,
             "end": 960,
             "value": "body",
-            "raw": "'body'"
+            "raw": "'body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,7 +603,9 @@
                 "start": 984,
                 "end": 994,
                 "value": "function",
-                "raw": "'function'"
+                "raw": "'function'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -608,7 +620,9 @@
             "start": 1006,
             "end": 1017,
             "value": "parameter",
-            "raw": "'parameter'"
+            "raw": "'parameter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -652,7 +666,9 @@
                 "start": 1041,
                 "end": 1061,
                 "value": "generator function",
-                "raw": "'generator function'"
+                "raw": "'generator function'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -667,7 +683,9 @@
             "start": 1069,
             "end": 1075,
             "value": "body",
-            "raw": "'body'"
+            "raw": "'body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -711,7 +729,9 @@
                 "start": 1099,
                 "end": 1119,
                 "value": "generator function",
-                "raw": "'generator function'"
+                "raw": "'generator function'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -726,7 +746,9 @@
             "start": 1132,
             "end": 1143,
             "value": "parameter",
-            "raw": "'parameter'"
+            "raw": "'parameter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -770,7 +792,9 @@
                 "start": 1167,
                 "end": 1183,
                 "value": "async function",
-                "raw": "'async function'"
+                "raw": "'async function'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -785,7 +809,9 @@
             "start": 1195,
             "end": 1201,
             "value": "body",
-            "raw": "'body'"
+            "raw": "'body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -829,7 +855,9 @@
                 "start": 1225,
                 "end": 1241,
                 "value": "async function",
-                "raw": "'async function'"
+                "raw": "'async function'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -844,7 +872,9 @@
             "start": 1258,
             "end": 1269,
             "value": "parameter",
-            "raw": "'parameter'"
+            "raw": "'parameter'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -56,14 +56,18 @@
             "start": 796,
             "end": 800,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 802,
             "end": 853,
             "value": "isConstructor(GeneratorFunction) must return true",
-            "raw": "'isConstructor(GeneratorFunction) must return true'"
+            "raw": "'isConstructor(GeneratorFunction) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

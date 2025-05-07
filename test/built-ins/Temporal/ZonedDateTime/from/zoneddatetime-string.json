@@ -23,7 +23,9 @@
             "start": 295,
             "end": 313,
             "value": "1970-01-01T00:00",
-            "raw": "\"1970-01-01T00:00\""
+            "raw": "\"1970-01-01T00:00\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -124,7 +126,9 @@
             "start": 381,
             "end": 427,
             "value": "bare date-time string is not a ZonedDateTime",
-            "raw": "\"bare date-time string is not a ZonedDateTime\""
+            "raw": "\"bare date-time string is not a ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +154,9 @@
           "start": 436,
           "end": 455,
           "value": "1970-01-01T00:00Z",
-          "raw": "\"1970-01-01T00:00Z\""
+          "raw": "\"1970-01-01T00:00Z\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -249,7 +255,9 @@
             "start": 523,
             "end": 561,
             "value": "date-time + Z is not a ZonedDateTime",
-            "raw": "\"date-time + Z is not a ZonedDateTime\""
+            "raw": "\"date-time + Z is not a ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -275,7 +283,9 @@
           "start": 570,
           "end": 594,
           "value": "1970-01-01T00:00+01:00",
-          "raw": "\"1970-01-01T00:00+01:00\""
+          "raw": "\"1970-01-01T00:00+01:00\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -374,7 +384,9 @@
             "start": 662,
             "end": 705,
             "value": "date-time + offset is not a ZonedDateTime",
-            "raw": "\"date-time + offset is not a ZonedDateTime\""
+            "raw": "\"date-time + offset is not a ZonedDateTime\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,7 +412,9 @@
           "start": 715,
           "end": 741,
           "value": "1970-01-01T00:00[+01:00]",
-          "raw": "\"1970-01-01T00:00[+01:00]\""
+          "raw": "\"1970-01-01T00:00[+01:00]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -528,6 +542,7 @@
               "end": 854,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -536,7 +551,9 @@
             "start": 856,
             "end": 922,
             "value": "date-time + IANA annotation preserves wall time in the time zone",
-            "raw": "\"date-time + IANA annotation preserves wall time in the time zone\""
+            "raw": "\"date-time + IANA annotation preserves wall time in the time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -594,14 +611,18 @@
             "start": 962,
             "end": 970,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 972,
             "end": 1004,
             "value": "IANA annotation is not ignored",
-            "raw": "\"IANA annotation is not ignored\""
+            "raw": "\"IANA annotation is not ignored\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -627,7 +648,9 @@
           "start": 1014,
           "end": 1041,
           "value": "1970-01-01T00:00Z[+01:00]",
-          "raw": "\"1970-01-01T00:00Z[+01:00]\""
+          "raw": "\"1970-01-01T00:00Z[+01:00]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -749,6 +772,7 @@
             "end": 1138,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -756,7 +780,9 @@
             "start": 1140,
             "end": 1211,
             "value": "date-time + Z + IANA annotation preserves exact time in the time zone",
-            "raw": "\"date-time + Z + IANA annotation preserves exact time in the time zone\""
+            "raw": "\"date-time + Z + IANA annotation preserves exact time in the time zone\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -814,14 +840,18 @@
             "start": 1251,
             "end": 1259,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1261,
             "end": 1293,
             "value": "IANA annotation is not ignored",
-            "raw": "\"IANA annotation is not ignored\""
+            "raw": "\"IANA annotation is not ignored\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -847,7 +877,9 @@
           "start": 1303,
           "end": 1335,
           "value": "1970-01-01T00:00+01:00[+01:00]",
-          "raw": "\"1970-01-01T00:00+01:00[+01:00]\""
+          "raw": "\"1970-01-01T00:00+01:00[+01:00]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -975,6 +1007,7 @@
               "end": 1448,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -983,7 +1016,9 @@
             "start": 1450,
             "end": 1527,
             "value": "date-time + offset + IANA annotation ensures both exact and wall time match",
-            "raw": "\"date-time + offset + IANA annotation ensures both exact and wall time match\""
+            "raw": "\"date-time + offset + IANA annotation ensures both exact and wall time match\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1041,14 +1076,18 @@
             "start": 1567,
             "end": 1575,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1577,
             "end": 1609,
             "value": "IANA annotation is not ignored",
-            "raw": "\"IANA annotation is not ignored\""
+            "raw": "\"IANA annotation is not ignored\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1074,7 +1113,9 @@
           "start": 1619,
           "end": 1651,
           "value": "1970-01-01T00:00-04:15[+01:00]",
-          "raw": "\"1970-01-01T00:00-04:15[+01:00]\""
+          "raw": "\"1970-01-01T00:00-04:15[+01:00]\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1173,7 +1214,9 @@
             "start": 1719,
             "end": 1801,
             "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch",
-            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\""
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1288,7 +1331,9 @@
                         "start": 1879,
                         "end": 1887,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1303,7 +1348,9 @@
             "start": 1892,
             "end": 1999,
             "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch (explicit reject option)",
-            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch (explicit reject option)\""
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch (explicit reject option)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1390,7 +1437,9 @@
                       "start": 2061,
                       "end": 2069,
                       "value": "ignore",
-                      "raw": "\"ignore\""
+                      "raw": "\"ignore\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1462,6 +1511,7 @@
               "end": 2135,
               "value": null,
               "raw": "3600_000_000_000n",
+              "regex": null,
               "bigint": "3600000000000"
             }
           },
@@ -1470,7 +1520,9 @@
             "start": 2137,
             "end": 2242,
             "value": "date-time + wrong offset + IANA annotation preserves wall time in the time zone (offset: ignore option)",
-            "raw": "\"date-time + wrong offset + IANA annotation preserves wall time in the time zone (offset: ignore option)\""
+            "raw": "\"date-time + wrong offset + IANA annotation preserves wall time in the time zone (offset: ignore option)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1528,14 +1580,18 @@
             "start": 2282,
             "end": 2290,
             "value": "+01:00",
-            "raw": "\"+01:00\""
+            "raw": "\"+01:00\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2292,
             "end": 2324,
             "value": "IANA annotation is not ignored",
-            "raw": "\"IANA annotation is not ignored\""
+            "raw": "\"IANA annotation is not ignored\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

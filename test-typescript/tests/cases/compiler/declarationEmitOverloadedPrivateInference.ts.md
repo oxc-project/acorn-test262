@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
                 "start": 39,
                 "end": 43,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -87,7 +89,9 @@ __ESTREE_TEST__:PASS:
                 "start": 107,
                 "end": 111,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -486,7 +490,9 @@ __ESTREE_TEST__:PASS:
                           "start": 269,
                           "end": 273,
                           "raw": "true",
-                          "value": true
+                          "value": true,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -643,7 +649,9 @@ __ESTREE_TEST__:PASS:
                           "start": 361,
                           "end": 365,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         },
                         "typeAnnotation": {
                           "type": "TSAnyKeyword",
@@ -842,7 +850,9 @@ __ESTREE_TEST__:PASS:
                           "start": 440,
                           "end": 444,
                           "raw": "true",
-                          "value": true
+                          "value": true,
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {

@@ -135,7 +135,9 @@
             "start": 449,
             "end": 459,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,7 +163,9 @@
           "start": 466,
           "end": 470,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -204,7 +208,9 @@
             "start": 492,
             "end": 496,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -288,7 +294,9 @@
             "start": 545,
             "end": 567,
             "value": "from instance method",
-            "raw": "'from instance method'"
+            "raw": "'from instance method'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

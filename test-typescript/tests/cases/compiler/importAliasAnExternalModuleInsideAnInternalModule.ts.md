@@ -109,7 +109,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 78,
           "raw": "'./importAliasAnExternalModuleInsideAnInternalModule_file0'",
-          "value": "./importAliasAnExternalModuleInsideAnInternalModule_file0"
+          "value": "./importAliasAnExternalModuleInsideAnInternalModule_file0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

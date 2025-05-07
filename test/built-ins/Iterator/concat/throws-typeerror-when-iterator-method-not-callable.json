@@ -97,7 +97,9 @@
             "start": 652,
             "end": 685,
             "value": "iterable has no iterator method",
-            "raw": "\"iterable has no iterator method\""
+            "raw": "\"iterable has no iterator method\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +234,9 @@
             "start": 781,
             "end": 811,
             "value": "iterator method is undefined",
-            "raw": "\"iterator method is undefined\""
+            "raw": "\"iterator method is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,7 +354,9 @@
                               "start": 891,
                               "end": 895,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -368,7 +374,9 @@
             "start": 902,
             "end": 927,
             "value": "iterator method is null",
-            "raw": "\"iterator method is null\""
+            "raw": "\"iterator method is null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -486,7 +494,9 @@
                               "start": 1007,
                               "end": 1011,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -504,7 +514,9 @@
             "start": 1018,
             "end": 1046,
             "value": "iterator method is boolean",
-            "raw": "\"iterator method is boolean\""
+            "raw": "\"iterator method is boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -622,7 +634,9 @@
                               "start": 1126,
                               "end": 1129,
                               "value": 123,
-                              "raw": "123"
+                              "raw": "123",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -640,7 +654,9 @@
             "start": 1136,
             "end": 1163,
             "value": "iterator method is number",
-            "raw": "\"iterator method is number\""
+            "raw": "\"iterator method is number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -759,6 +775,7 @@
                               "end": 1247,
                               "value": null,
                               "raw": "123n",
+                              "regex": null,
                               "bigint": "123"
                             },
                             "kind": "init"
@@ -777,7 +794,9 @@
             "start": 1254,
             "end": 1281,
             "value": "iterator method is bigint",
-            "raw": "\"iterator method is bigint\""
+            "raw": "\"iterator method is bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -895,7 +914,9 @@
                               "start": 1361,
                               "end": 1366,
                               "value": "abc",
-                              "raw": "\"abc\""
+                              "raw": "\"abc\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -913,7 +934,9 @@
             "start": 1373,
             "end": 1400,
             "value": "iterator method is string",
-            "raw": "\"iterator method is string\""
+            "raw": "\"iterator method is string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1055,7 +1078,9 @@
             "start": 1495,
             "end": 1522,
             "value": "iterator method is symbol",
-            "raw": "\"iterator method is symbol\""
+            "raw": "\"iterator method is symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

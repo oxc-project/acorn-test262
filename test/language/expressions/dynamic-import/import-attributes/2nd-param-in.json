@@ -47,7 +47,9 @@
             "start": 581,
             "end": 605,
             "value": "./2nd-param_FIXTURE.js",
-            "raw": "'./2nd-param_FIXTURE.js'"
+            "raw": "'./2nd-param_FIXTURE.js'",
+            "regex": null,
+            "bigint": null
           },
           "options": {
             "type": "LogicalExpression",
@@ -62,7 +64,9 @@
                 "start": 607,
                 "end": 616,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -87,7 +91,9 @@
         "start": 638,
         "end": 643,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "update": null,
       "body": {
@@ -205,7 +211,9 @@
                             "start": 722,
                             "end": 725,
                             "value": 262,
-                            "raw": "262"
+                            "raw": "262",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

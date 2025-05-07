@@ -247,7 +247,9 @@
                                           "start": 831,
                                           "end": 879,
                                           "value": "This fake next function should not be called; ",
-                                          "raw": "'This fake next function should not be called; '"
+                                          "raw": "'This fake next function should not be called; '",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "operator": "+",
                                         "right": {
@@ -255,7 +257,9 @@
                                           "start": 886,
                                           "end": 945,
                                           "value": "instead, each element should have been directly accessed.",
-                                          "raw": "'instead, each element should have been directly accessed.'"
+                                          "raw": "'instead, each element should have been directly accessed.'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       }
                                     ]
@@ -291,21 +295,27 @@
                                   "start": 975,
                                   "end": 976,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 978,
                                   "end": 979,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 981,
                                   "end": 982,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -351,7 +361,9 @@
                                     "start": 1012,
                                     "end": 1013,
                                     "value": 3,
-                                    "raw": "3"
+                                    "raw": "3",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -367,14 +379,18 @@
                                     "start": 1017,
                                     "end": 1018,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Literal",
                                     "start": 1020,
                                     "end": 1021,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -390,14 +406,18 @@
                                     "start": 1025,
                                     "end": 1026,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Literal",
                                     "start": 1028,
                                     "end": 1029,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -413,14 +433,18 @@
                                     "start": 1033,
                                     "end": 1034,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Literal",
                                     "start": 1036,
                                     "end": 1037,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }

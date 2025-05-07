@@ -59,7 +59,9 @@
                           "start": 354,
                           "end": 370,
                           "value": "toString value",
-                          "raw": "'toString value'"
+                          "raw": "'toString value'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -118,7 +120,8 @@
                 "regex": {
                   "pattern": "ring",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -157,7 +160,9 @@
             "start": 425,
             "end": 426,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

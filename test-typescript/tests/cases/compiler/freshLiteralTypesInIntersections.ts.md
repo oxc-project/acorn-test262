@@ -256,7 +256,9 @@ __ESTREE_TEST__:PASS:
                   "start": 126,
                   "end": 129,
                   "raw": "\"x\"",
-                  "value": "x"
+                  "value": "x",
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSUnionType",
@@ -272,7 +274,9 @@ __ESTREE_TEST__:PASS:
                         "start": 133,
                         "end": 136,
                         "raw": "\"x\"",
-                        "value": "x"
+                        "value": "x",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -284,7 +288,9 @@ __ESTREE_TEST__:PASS:
                         "start": 139,
                         "end": 142,
                         "raw": "\"y\"",
-                        "value": "y"
+                        "value": "y",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -300,7 +306,9 @@ __ESTREE_TEST__:PASS:
                     "start": 145,
                     "end": 148,
                     "raw": "\"x\"",
-                    "value": "x"
+                    "value": "x",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -337,7 +345,9 @@ __ESTREE_TEST__:PASS:
             "start": 154,
             "end": 157,
             "raw": "\"x\"",
-            "value": "x"
+            "value": "x",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

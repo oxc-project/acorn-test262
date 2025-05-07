@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": "y"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -213,7 +214,9 @@
                         "start": 817,
                         "end": 819,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

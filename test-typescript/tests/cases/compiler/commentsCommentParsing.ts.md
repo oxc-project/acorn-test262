@@ -814,14 +814,18 @@ __ESTREE_TEST__:PASS:
             "start": 1924,
             "end": 1926,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1928,
             "end": 1930,
             "raw": "20",
-            "value": 20
+            "value": 20,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

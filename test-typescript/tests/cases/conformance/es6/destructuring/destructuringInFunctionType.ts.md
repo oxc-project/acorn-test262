@@ -949,7 +949,9 @@ __ESTREE_TEST__:PASS:
               "start": 367,
               "end": 374,
               "raw": "\"hello\"",
-              "value": "hello"
+              "value": "hello",
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,

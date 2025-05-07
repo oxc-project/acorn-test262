@@ -47,7 +47,9 @@
                 "start": 297,
                 "end": 302,
                 "value": "NaN",
-                "raw": "\"NaN\""
+                "raw": "\"NaN\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 305,
             "end": 352,
             "value": "Number.hasOwnProperty(\"NaN\") must return true",
-            "raw": "'Number.hasOwnProperty(\"NaN\") must return true'"
+            "raw": "'Number.hasOwnProperty(\"NaN\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

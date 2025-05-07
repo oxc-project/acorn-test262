@@ -415,7 +415,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "'connect'",
-        "value": "connect"
+        "value": "connect",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

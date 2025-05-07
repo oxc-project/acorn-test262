@@ -42,7 +42,9 @@
                 "start": 281,
                 "end": 282,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }

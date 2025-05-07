@@ -105,7 +105,9 @@
                                   "start": 1339,
                                   "end": 1353,
                                   "value": "Promise for ",
-                                  "raw": "'Promise for '"
+                                  "raw": "'Promise for '",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -121,7 +123,9 @@
                                 "start": 1368,
                                 "end": 1388,
                                 "value": " was not rejected.",
-                                "raw": "' was not rejected.'"
+                                "raw": "' was not rejected.'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -293,7 +297,9 @@
                               "start": 1522,
                               "end": 1546,
                               "value": "./2nd-param_FIXTURE.js",
-                              "raw": "'./2nd-param_FIXTURE.js'"
+                              "raw": "'./2nd-param_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": {
                               "type": "ObjectExpression",
@@ -318,7 +324,9 @@
                                     "start": 1554,
                                     "end": 1558,
                                     "value": null,
-                                    "raw": "null"
+                                    "raw": "null",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -330,7 +338,9 @@
                             "start": 1562,
                             "end": 1568,
                             "value": "null",
-                            "raw": "'null'"
+                            "raw": "'null'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -355,7 +365,9 @@
                               "start": 1587,
                               "end": 1611,
                               "value": "./2nd-param_FIXTURE.js",
-                              "raw": "'./2nd-param_FIXTURE.js'"
+                              "raw": "'./2nd-param_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": {
                               "type": "ObjectExpression",
@@ -380,7 +392,9 @@
                                     "start": 1619,
                                     "end": 1624,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -392,7 +406,9 @@
                             "start": 1628,
                             "end": 1637,
                             "value": "boolean",
-                            "raw": "'boolean'"
+                            "raw": "'boolean'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -417,7 +433,9 @@
                               "start": 1656,
                               "end": 1680,
                               "value": "./2nd-param_FIXTURE.js",
-                              "raw": "'./2nd-param_FIXTURE.js'"
+                              "raw": "'./2nd-param_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": {
                               "type": "ObjectExpression",
@@ -442,7 +460,9 @@
                                     "start": 1688,
                                     "end": 1690,
                                     "value": 23,
-                                    "raw": "23"
+                                    "raw": "23",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -454,7 +474,9 @@
                             "start": 1694,
                             "end": 1702,
                             "value": "number",
-                            "raw": "'number'"
+                            "raw": "'number'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -479,7 +501,9 @@
                               "start": 1721,
                               "end": 1745,
                               "value": "./2nd-param_FIXTURE.js",
-                              "raw": "'./2nd-param_FIXTURE.js'"
+                              "raw": "'./2nd-param_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": {
                               "type": "ObjectExpression",
@@ -504,7 +528,9 @@
                                     "start": 1753,
                                     "end": 1755,
                                     "value": "",
-                                    "raw": "''"
+                                    "raw": "''",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -516,7 +542,9 @@
                             "start": 1759,
                             "end": 1767,
                             "value": "string",
-                            "raw": "'string'"
+                            "raw": "'string'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -541,7 +569,9 @@
                               "start": 1786,
                               "end": 1810,
                               "value": "./2nd-param_FIXTURE.js",
-                              "raw": "'./2nd-param_FIXTURE.js'"
+                              "raw": "'./2nd-param_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": {
                               "type": "ObjectExpression",
@@ -577,7 +607,9 @@
                                         "start": 1825,
                                         "end": 1827,
                                         "value": "",
-                                        "raw": "''"
+                                        "raw": "''",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -592,7 +624,9 @@
                             "start": 1832,
                             "end": 1840,
                             "value": "symbol",
-                            "raw": "'symbol'"
+                            "raw": "'symbol'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -617,7 +651,9 @@
                               "start": 1859,
                               "end": 1883,
                               "value": "./2nd-param_FIXTURE.js",
-                              "raw": "'./2nd-param_FIXTURE.js'"
+                              "raw": "'./2nd-param_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": {
                               "type": "ObjectExpression",
@@ -643,6 +679,7 @@
                                     "end": 1894,
                                     "value": null,
                                     "raw": "23n",
+                                    "regex": null,
                                     "bigint": "23"
                                   },
                                   "kind": "init"
@@ -655,7 +692,9 @@
                             "start": 1898,
                             "end": 1906,
                             "value": "bigint",
-                            "raw": "'bigint'"
+                            "raw": "'bigint'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

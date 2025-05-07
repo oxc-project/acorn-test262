@@ -44,7 +44,8 @@
               "regex": {
                 "pattern": "a\\1",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -60,7 +61,9 @@
             "start": 380,
             "end": 386,
             "value": "a\\1",
-            "raw": "\"a\\\\1\""
+            "raw": "\"a\\\\1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -107,7 +110,8 @@
               "regex": {
                 "pattern": "a\\a",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -123,7 +127,9 @@
             "start": 420,
             "end": 426,
             "value": "a\\a",
-            "raw": "\"a\\\\a\""
+            "raw": "\"a\\\\a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

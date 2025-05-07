@@ -107,7 +107,9 @@
                 "start": 889,
                 "end": 901,
                 "value": "var x = 1;",
-                "raw": "'var x = 1;'"
+                "raw": "'var x = 1;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,7 +227,9 @@
                     "start": 1009,
                     "end": 1010,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -282,14 +286,18 @@
             "start": 1047,
             "end": 1048,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1080,
             "value": "reference preceding statment",
-            "raw": "'reference preceding statment'"
+            "raw": "'reference preceding statment'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -341,14 +349,18 @@
             "start": 1113,
             "end": 1114,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1152,
             "value": "reference from Expression position",
-            "raw": "'reference from Expression position'"
+            "raw": "'reference from Expression position'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,14 +412,18 @@
             "start": 1185,
             "end": 1186,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1188,
             "end": 1223,
             "value": "reference from Statement position",
-            "raw": "'reference from Statement position'"
+            "raw": "'reference from Statement position'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,14 +468,18 @@
             "start": 1246,
             "end": 1247,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1249,
             "end": 1280,
             "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "raw": "'reference following statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

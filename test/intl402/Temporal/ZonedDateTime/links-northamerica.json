@@ -28,161 +28,207 @@
                 "start": 313,
                 "end": 330,
                 "value": "America/Creston",
-                "raw": "\"America/Creston\""
+                "raw": "\"America/Creston\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 391,
                 "value": "America/Nassau",
-                "raw": "\"America/Nassau\""
+                "raw": "\"America/Nassau\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 453,
                 "value": "America/Atikokan",
-                "raw": "\"America/Atikokan\""
+                "raw": "\"America/Atikokan\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 514,
                 "value": "America/Cayman",
-                "raw": "\"America/Cayman\""
+                "raw": "\"America/Cayman\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 557,
                 "end": 575,
                 "value": "America/Anguilla",
-                "raw": "\"America/Anguilla\""
+                "raw": "\"America/Anguilla\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 625,
                 "end": 642,
                 "value": "America/Antigua",
-                "raw": "\"America/Antigua\""
+                "raw": "\"America/Antigua\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 691,
                 "end": 706,
                 "value": "America/Aruba",
-                "raw": "\"America/Aruba\""
+                "raw": "\"America/Aruba\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 753,
                 "end": 770,
                 "value": "America/Curacao",
-                "raw": "\"America/Curacao\""
+                "raw": "\"America/Curacao\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 819,
                 "end": 841,
                 "value": "America/Blanc-Sablon",
-                "raw": "\"America/Blanc-Sablon\""
+                "raw": "\"America/Blanc-Sablon\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 926,
                 "end": 944,
                 "value": "America/Dominica",
-                "raw": "\"America/Dominica\""
+                "raw": "\"America/Dominica\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 994,
                 "end": 1011,
                 "value": "America/Grenada",
-                "raw": "\"America/Grenada\""
+                "raw": "\"America/Grenada\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1060,
                 "end": 1080,
                 "value": "America/Guadeloupe",
-                "raw": "\"America/Guadeloupe\""
+                "raw": "\"America/Guadeloupe\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1132,
                 "end": 1152,
                 "value": "America/Kralendijk",
-                "raw": "\"America/Kralendijk\""
+                "raw": "\"America/Kralendijk\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1232,
                 "end": 1255,
                 "value": "America/Lower_Princes",
-                "raw": "\"America/Lower_Princes\""
+                "raw": "\"America/Lower_Princes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1326,
                 "end": 1343,
                 "value": "America/Marigot",
-                "raw": "\"America/Marigot\""
+                "raw": "\"America/Marigot\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1425,
                 "end": 1445,
                 "value": "America/Montserrat",
-                "raw": "\"America/Montserrat\""
+                "raw": "\"America/Montserrat\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1497,
                 "end": 1520,
                 "value": "America/Port_of_Spain",
-                "raw": "\"America/Port_of_Spain\""
+                "raw": "\"America/Port_of_Spain\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1596,
                 "end": 1619,
                 "value": "America/St_Barthelemy",
-                "raw": "\"America/St_Barthelemy\""
+                "raw": "\"America/St_Barthelemy\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1691,
                 "end": 1709,
                 "value": "America/St_Kitts",
-                "raw": "\"America/St_Kitts\""
+                "raw": "\"America/St_Kitts\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1784,
                 "end": 1802,
                 "value": "America/St_Lucia",
-                "raw": "\"America/St_Lucia\""
+                "raw": "\"America/St_Lucia\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1852,
                 "end": 1871,
                 "value": "America/St_Thomas",
-                "raw": "\"America/St_Thomas\""
+                "raw": "\"America/St_Thomas\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1949,
                 "end": 1969,
                 "value": "America/St_Vincent",
-                "raw": "\"America/St_Vincent\""
+                "raw": "\"America/St_Vincent\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2021,
                 "end": 2038,
                 "value": "America/Tortola",
-                "raw": "\"America/Tortola\""
+                "raw": "\"America/Tortola\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -271,6 +317,7 @@
                       "end": 2194,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

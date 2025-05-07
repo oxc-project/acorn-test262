@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 30,
                 "raw": "\"./obj.json\"",
-                "value": "./obj.json"
+                "value": "./obj.json",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

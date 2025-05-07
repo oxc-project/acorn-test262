@@ -107,7 +107,9 @@
                                     "start": 363,
                                     "end": 372,
                                     "value": "present",
-                                    "raw": "\"present\""
+                                    "raw": "\"present\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -180,14 +182,18 @@
             "start": 419,
             "end": 428,
             "value": "present",
-            "raw": "\"present\""
+            "raw": "\"present\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 443,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -33,7 +33,9 @@
                 "start": 437,
                 "end": 438,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -59,7 +61,9 @@
               "start": 466,
               "end": 512,
               "value": "#1: new 1 in expression is evaluated to true",
-              "raw": "'#1: new 1 in expression is evaluated to true'"
+              "raw": "'#1: new 1 in expression is evaluated to true'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -96,7 +100,9 @@
                 "start": 704,
                 "end": 708,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -122,7 +128,9 @@
               "start": 736,
               "end": 785,
               "value": "#2: new true in expression is evaluated to true",
-              "raw": "'#2: new true in expression is evaluated to true'"
+              "raw": "'#2: new true in expression is evaluated to true'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -159,7 +167,9 @@
                 "start": 976,
                 "end": 979,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -185,7 +195,9 @@
               "start": 1007,
               "end": 1055,
               "value": "#3: new \"1\" in expression is evaluated to true",
-              "raw": "'#3: new \"1\" in expression is evaluated to true'"
+              "raw": "'#3: new \"1\" in expression is evaluated to true'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -222,7 +234,9 @@
                 "start": 1246,
                 "end": 1249,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -248,7 +262,9 @@
               "start": 1277,
               "end": 1325,
               "value": "#4: new \"A\" in expression is evaluated to true",
-              "raw": "'#4: new \"A\" in expression is evaluated to true'"
+              "raw": "'#4: new \"A\" in expression is evaluated to true'",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -285,7 +301,9 @@
                 "start": 1517,
                 "end": 1522,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -311,7 +329,9 @@
               "start": 1553,
               "end": 1604,
               "value": "#2: new false in expression is evaluated to true ",
-              "raw": "'#2: new false in expression is evaluated to true '"
+              "raw": "'#2: new false in expression is evaluated to true '",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -373,7 +393,9 @@
               "start": 1829,
               "end": 1878,
               "value": "#6: new NaN in expression is evaluated to true ",
-              "raw": "'#6: new NaN in expression is evaluated to true '"
+              "raw": "'#6: new NaN in expression is evaluated to true '",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -410,7 +432,9 @@
                 "start": 2069,
                 "end": 2073,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -436,7 +460,9 @@
               "start": 2102,
               "end": 2152,
               "value": "#7: new null in expression is evaluated to true ",
-              "raw": "'#7: new null in expression is evaluated to true '"
+              "raw": "'#7: new null in expression is evaluated to true '",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -498,7 +524,9 @@
               "start": 2381,
               "end": 2436,
               "value": "#8: new undefined in expression is evaluated to true ",
-              "raw": "'#8: new undefined in expression is evaluated to true '"
+              "raw": "'#8: new undefined in expression is evaluated to true '",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -535,7 +563,9 @@
                 "start": 2627,
                 "end": 2629,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -561,7 +591,9 @@
               "start": 2660,
               "end": 2718,
               "value": "#9: new empty string in expression is evaluated to true ",
-              "raw": "'#9: new empty string in expression is evaluated to true '"
+              "raw": "'#9: new empty string in expression is evaluated to true '",
+              "regex": null,
+              "bigint": null
             }
           ]
         }

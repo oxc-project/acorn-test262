@@ -66,7 +66,9 @@
                     "start": 362,
                     "end": 398,
                     "value": "#1: this.x === undefined. Actual: ",
-                    "raw": "'#1: this.x === undefined. Actual: '"
+                    "raw": "'#1: this.x === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +197,9 @@
                     "start": 510,
                     "end": 578,
                     "value": "#2: var object = new Object(); object.prop === undefined. Actual: ",
-                    "raw": "'#2: var object = new Object(); object.prop === undefined. Actual: '"
+                    "raw": "'#2: var object = new Object(); object.prop === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -294,7 +298,9 @@
           "start": 637,
           "end": 641,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -326,7 +332,9 @@
                     "start": 670,
                     "end": 714,
                     "value": "#3: this.y++; y === Not-a-Number. Actual: ",
-                    "raw": "'#3: this.y++; y === Not-a-Number. Actual: '"
+                    "raw": "'#3: this.y++; y === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

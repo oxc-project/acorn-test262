@@ -138,7 +138,9 @@ __ESTREE_TEST__:PASS:
                   "start": 117,
                   "end": 130,
                   "raw": "\"Hello World\"",
-                  "value": "Hello World"
+                  "value": "Hello World",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -288,7 +290,9 @@ __ESTREE_TEST__:PASS:
                               "start": 264,
                               "end": 268,
                               "raw": "3000",
-                              "value": 3000
+                              "value": 3000,
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "callee": {

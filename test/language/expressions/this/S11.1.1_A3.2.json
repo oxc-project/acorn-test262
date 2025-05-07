@@ -123,7 +123,9 @@
           "start": 431,
           "end": 448,
           "value": "[object Object]",
-          "raw": "\"[object Object]\""
+          "raw": "\"[object Object]\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -155,7 +157,9 @@
                     "start": 477,
                     "end": 584,
                     "value": "#1: function SetThis() {this.THIS = this} (new SetThis()).THIS.toString() !== \"[object Object]\". Actual: ",
-                    "raw": "'#1: function SetThis() {this.THIS = this} (new SetThis()).THIS.toString() !== \"[object Object]\". Actual: '"
+                    "raw": "'#1: function SetThis() {this.THIS = this} (new SetThis()).THIS.toString() !== \"[object Object]\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -283,7 +287,9 @@
                     "start": 677,
                     "end": 683,
                     "value": "this",
-                    "raw": "\"this\""
+                    "raw": "\"this\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -357,7 +363,9 @@
           "start": 730,
           "end": 747,
           "value": "[object Object]",
-          "raw": "\"[object Object]\""
+          "raw": "\"[object Object]\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -389,7 +397,9 @@
                     "start": 776,
                     "end": 899,
                     "value": "#2: function SetEvalThis() {this.THIS = eval(\"this\")} (new SetEvalThis()).THIS.toString() !== \"[object Object]\". Actual: ",
-                    "raw": "'#2: function SetEvalThis() {this.THIS = eval(\"this\")} (new SetEvalThis()).THIS.toString() !== \"[object Object]\". Actual: '"
+                    "raw": "'#2: function SetEvalThis() {this.THIS = eval(\"this\")} (new SetEvalThis()).THIS.toString() !== \"[object Object]\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

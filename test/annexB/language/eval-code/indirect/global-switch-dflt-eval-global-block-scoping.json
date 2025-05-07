@@ -57,7 +57,9 @@
                 "start": 1137,
                 "end": 1138,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -86,7 +88,9 @@
                   "start": 1148,
                   "end": 1162,
                   "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "raw": "'switch (1) {'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -94,7 +98,9 @@
                   "start": 1167,
                   "end": 1179,
                   "value": "  default:",
-                  "raw": "'  default:'"
+                  "raw": "'  default:'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -103,7 +109,9 @@
                 "start": 1184,
                 "end": 1260,
                 "value": "    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }",
-                "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'"
+                "raw": "'    function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -112,7 +120,9 @@
               "start": 1265,
               "end": 1272,
               "value": "}  ",
-              "raw": "'}\\\n  '"
+              "raw": "'}\\\n  '",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -183,14 +193,18 @@
             "start": 1318,
             "end": 1324,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1328,
             "end": 1393,
             "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "raw": "'Block-scoped binding value is function object at execution time'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,14 +249,18 @@
             "start": 1425,
             "end": 1428,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1430,
             "end": 1463,
             "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "raw": "'Block-scoped binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,14 +312,18 @@
             "start": 1493,
             "end": 1499,
             "value": "decl",
-            "raw": "'decl'"
+            "raw": "'decl'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1503,
             "end": 1568,
             "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

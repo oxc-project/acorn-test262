@@ -113,7 +113,9 @@
                 "start": 425,
                 "end": 426,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -269,7 +271,9 @@
                   "start": 551,
                   "end": 552,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -298,7 +302,9 @@
                       "start": 564,
                       "end": 565,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -313,6 +319,7 @@
                       "end": 571,
                       "value": null,
                       "raw": "1n",
+                      "regex": null,
                       "bigint": "1"
                     }
                   },
@@ -322,6 +329,7 @@
                     "end": 576,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   }
                 }
@@ -347,7 +355,9 @@
                 "start": 592,
                 "end": 593,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -466,7 +476,9 @@
                 "start": 748,
                 "end": 749,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -629,7 +641,9 @@
                   "start": 875,
                   "end": 876,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -658,7 +672,9 @@
                       "start": 888,
                       "end": 889,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -667,6 +683,7 @@
                     "end": 894,
                     "value": null,
                     "raw": "1n",
+                    "regex": null,
                     "bigint": "1"
                   },
                   "alternate": {
@@ -681,6 +698,7 @@
                       "end": 900,
                       "value": null,
                       "raw": "1n",
+                      "regex": null,
                       "bigint": "1"
                     }
                   }
@@ -707,7 +725,9 @@
                 "start": 916,
                 "end": 917,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -791,7 +811,9 @@
                       "start": 972,
                       "end": 976,
                       "value": 4000,
-                      "raw": "4000"
+                      "raw": "4000",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -813,7 +835,9 @@
                       "start": 993,
                       "end": 994,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -888,7 +912,9 @@
                       "start": 1035,
                       "end": 1042,
                       "value": "hours",
-                      "raw": "\"hours\""
+                      "raw": "\"hours\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -921,7 +947,9 @@
             "start": 2227,
             "end": 2245,
             "value": 4000.0000000000005,
-            "raw": "4000.0000000000005"
+            "raw": "4000.0000000000005",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -966,14 +994,18 @@
             "start": 2274,
             "end": 2295,
             "value": 4000.0000000000005,
-            "raw": "4000.0000000000002777"
+            "raw": "4000.0000000000002777",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2297,
             "end": 2359,
             "value": "the float representation of the result is 4000.0000000000005",
-            "raw": "\"the float representation of the result is 4000.0000000000005\""
+            "raw": "\"the float representation of the result is 4000.0000000000005\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1032,14 +1064,18 @@
             "start": 2459,
             "end": 2463,
             "value": 4000,
-            "raw": "4000"
+            "raw": "4000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2465,
             "end": 2521,
             "value": "the next Number in direction -Infinity is less precise",
-            "raw": "\"the next Number in direction -Infinity is less precise\""
+            "raw": "\"the next Number in direction -Infinity is less precise\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1098,14 +1134,18 @@
             "start": 2619,
             "end": 2636,
             "value": 4000.000000000001,
-            "raw": "4000.000000000001"
+            "raw": "4000.000000000001",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2638,
             "end": 2694,
             "value": "the next Number in direction +Infinity is less precise",
-            "raw": "\"the next Number in direction +Infinity is less precise\""
+            "raw": "\"the next Number in direction +Infinity is less precise\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1156,7 +1196,9 @@
             "start": 2732,
             "end": 2757,
             "value": "return value of total()",
-            "raw": "\"return value of total()\""
+            "raw": "\"return value of total()\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "[xyz]*1",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 373,
                 "end": 383,
                 "value": "a0.b2.c3",
-                "raw": "'a0.b2.c3'"
+                "raw": "'a0.b2.c3'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 407,
             "end": 456,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

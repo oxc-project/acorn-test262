@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "ll|l",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -90,7 +91,9 @@
                 "start": 346,
                 "end": 350,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -128,7 +131,9 @@
                   "start": 363,
                   "end": 367,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -139,7 +144,9 @@
               "start": 373,
               "end": 377,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -147,7 +154,9 @@
             "start": 379,
             "end": 433,
             "value": "__re.test(null) must return __re.exec(null) !== null",
-            "raw": "'__re.test(null) must return __re.exec(null) !== null'"
+            "raw": "'__re.test(null) must return __re.exec(null) !== null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

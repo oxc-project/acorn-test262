@@ -88,7 +88,9 @@
                       "start": 345,
                       "end": 346,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -110,14 +112,18 @@
             "start": 357,
             "end": 358,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 384,
             "value": "0 has zero descriptors",
-            "raw": "'0 has zero descriptors'"
+            "raw": "'0 has zero descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,7 +220,9 @@
                         "start": 450,
                         "end": 451,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -237,14 +245,18 @@
             "start": 462,
             "end": 463,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 490,
             "value": "-0 has zero descriptors",
-            "raw": "'-0 has zero descriptors'"
+            "raw": "'-0 has zero descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -356,14 +368,18 @@
             "start": 574,
             "end": 575,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 608,
             "value": "Infinity has zero descriptors",
-            "raw": "'Infinity has zero descriptors'"
+            "raw": "'Infinity has zero descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,14 +498,18 @@
             "start": 693,
             "end": 694,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 728,
             "value": "-Infinity has zero descriptors",
-            "raw": "'-Infinity has zero descriptors'"
+            "raw": "'-Infinity has zero descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -601,14 +621,18 @@
             "start": 807,
             "end": 808,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 836,
             "value": "NaN has zero descriptors",
-            "raw": "'NaN has zero descriptors'"
+            "raw": "'NaN has zero descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -733,14 +757,18 @@
             "start": 919,
             "end": 920,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 952,
             "value": "Math.PI has zero descriptors",
-            "raw": "'Math.PI has zero descriptors'"
+            "raw": "'Math.PI has zero descriptors'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -9924,7 +9924,9 @@ __ESTREE_TEST__:PASS:
                         "start": 3825,
                         "end": 3826,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -10490,7 +10492,9 @@ __ESTREE_TEST__:PASS:
                   "start": 4170,
                   "end": 4177,
                   "raw": "\"audio\"",
-                  "value": "audio"
+                  "value": "audio",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "objectType": {
@@ -10564,7 +10568,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4235,
                       "end": 4242,
                       "raw": "\"audio\"",
-                      "value": "audio"
+                      "value": "audio",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -10576,7 +10582,9 @@ __ESTREE_TEST__:PASS:
                       "start": 4245,
                       "end": 4252,
                       "raw": "\"video\"",
-                      "value": "video"
+                      "value": "video",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -10760,7 +10768,9 @@ __ESTREE_TEST__:PASS:
                 "start": 4396,
                 "end": 4403,
                 "raw": "\"audio\"",
-                "value": "audio"
+                "value": "audio",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -10814,7 +10824,9 @@ __ESTREE_TEST__:PASS:
                     "start": 4458,
                     "end": 4465,
                     "raw": "\"audio\"",
-                    "value": "audio"
+                    "value": "audio",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -10826,7 +10838,9 @@ __ESTREE_TEST__:PASS:
                     "start": 4468,
                     "end": 4475,
                     "raw": "\"video\"",
-                    "value": "video"
+                    "value": "video",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]

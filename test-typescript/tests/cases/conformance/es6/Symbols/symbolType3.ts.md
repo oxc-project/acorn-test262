@@ -360,7 +360,9 @@ __ESTREE_TEST__:PASS:
             "start": 167,
             "end": 168,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "regex": null,
+            "bigint": null
           }
         },
         "operator": "+",

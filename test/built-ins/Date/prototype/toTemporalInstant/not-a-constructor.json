@@ -82,14 +82,18 @@
             "start": 643,
             "end": 648,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 652,
             "end": 719,
             "value": "isConstructor(Date.prototype.toTemporalInstant) must return false",
-            "raw": "'isConstructor(Date.prototype.toTemporalInstant) must return false'"
+            "raw": "'isConstructor(Date.prototype.toTemporalInstant) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -126,7 +130,9 @@
                 "start": 744,
                 "end": 745,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

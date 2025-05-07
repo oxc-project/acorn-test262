@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "3.14159",
-        "value": 3.14159
+        "value": 3.14159,
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }

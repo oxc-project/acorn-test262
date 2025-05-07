@@ -23,7 +23,9 @@
             "start": 720,
             "end": 724,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +149,9 @@
             "start": 809,
             "end": 836,
             "value": "Invoked without Arguments",
-            "raw": "'Invoked without Arguments'"
+            "raw": "'Invoked without Arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,7 +177,9 @@
           "start": 852,
           "end": 856,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -239,7 +245,9 @@
             "start": 900,
             "end": 924,
             "value": "Invoked with Arguments",
-            "raw": "'Invoked with Arguments'"
+            "raw": "'Invoked with Arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

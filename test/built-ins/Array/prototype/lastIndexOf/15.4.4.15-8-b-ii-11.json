@@ -157,14 +157,18 @@
             "start": 422,
             "end": 423,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 457,
             "value": "[obj2, obj1].lastIndexOf(obj3)",
-            "raw": "'[obj2, obj1].lastIndexOf(obj3)'"
+            "raw": "'[obj2, obj1].lastIndexOf(obj3)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

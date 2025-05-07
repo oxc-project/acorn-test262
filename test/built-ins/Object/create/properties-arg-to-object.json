@@ -98,7 +98,9 @@
               "start": 675,
               "end": 679,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -177,7 +179,9 @@
             "start": 734,
             "end": 772,
             "value": "Properties is true: prototype is set",
-            "raw": "'Properties is true: prototype is set'"
+            "raw": "'Properties is true: prototype is set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,14 +266,18 @@
             "start": 832,
             "end": 833,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 835,
             "end": 868,
             "value": "Properties is true: no keys set",
-            "raw": "'Properties is true: no keys set'"
+            "raw": "'Properties is true: no keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -354,14 +362,18 @@
             "start": 930,
             "end": 931,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 973,
             "value": "Properties is true: no symbol keys set",
-            "raw": "'Properties is true: no symbol keys set'"
+            "raw": "'Properties is true: no symbol keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -440,7 +452,9 @@
               "start": 1021,
               "end": 1026,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -519,7 +533,9 @@
             "start": 1081,
             "end": 1120,
             "value": "Properties is false: prototype is set",
-            "raw": "'Properties is false: prototype is set'"
+            "raw": "'Properties is false: prototype is set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -604,14 +620,18 @@
             "start": 1180,
             "end": 1181,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1183,
             "end": 1217,
             "value": "Properties is false: no keys set",
-            "raw": "'Properties is false: no keys set'"
+            "raw": "'Properties is false: no keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -696,14 +716,18 @@
             "start": 1279,
             "end": 1280,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1282,
             "end": 1323,
             "value": "Properties is false: no symbol keys set",
-            "raw": "'Properties is false: no symbol keys set'"
+            "raw": "'Properties is false: no symbol keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -782,7 +806,9 @@
               "start": 1371,
               "end": 1372,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -861,7 +887,9 @@
             "start": 1427,
             "end": 1462,
             "value": "Properties is 1: prototype is set",
-            "raw": "'Properties is 1: prototype is set'"
+            "raw": "'Properties is 1: prototype is set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -946,14 +974,18 @@
             "start": 1522,
             "end": 1523,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1525,
             "end": 1555,
             "value": "Properties is 1: no keys set",
-            "raw": "'Properties is 1: no keys set'"
+            "raw": "'Properties is 1: no keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1038,14 +1070,18 @@
             "start": 1617,
             "end": 1618,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1620,
             "end": 1657,
             "value": "Properties is 1: no symbol keys set",
-            "raw": "'Properties is 1: no symbol keys set'"
+            "raw": "'Properties is 1: no symbol keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1202,7 +1238,9 @@
             "start": 1763,
             "end": 1800,
             "value": "Properties is NaN: prototype is set",
-            "raw": "'Properties is NaN: prototype is set'"
+            "raw": "'Properties is NaN: prototype is set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1287,14 +1325,18 @@
             "start": 1860,
             "end": 1861,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1863,
             "end": 1895,
             "value": "Properties is NaN: no keys set",
-            "raw": "'Properties is NaN: no keys set'"
+            "raw": "'Properties is NaN: no keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1379,14 +1421,18 @@
             "start": 1957,
             "end": 1958,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1960,
             "end": 1999,
             "value": "Properties is NaN: no symbol keys set",
-            "raw": "'Properties is NaN: no symbol keys set'"
+            "raw": "'Properties is NaN: no symbol keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1465,7 +1511,9 @@
               "start": 2047,
               "end": 2049,
               "value": "",
-              "raw": "''"
+              "raw": "''",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -1544,7 +1592,9 @@
             "start": 2104,
             "end": 2154,
             "value": "Properties is the empty string: prototype is set",
-            "raw": "'Properties is the empty string: prototype is set'"
+            "raw": "'Properties is the empty string: prototype is set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1629,14 +1679,18 @@
             "start": 2214,
             "end": 2215,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2217,
             "end": 2262,
             "value": "Properties is the empty string: no keys set",
-            "raw": "'Properties is the empty string: no keys set'"
+            "raw": "'Properties is the empty string: no keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1721,14 +1775,18 @@
             "start": 2324,
             "end": 2325,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2327,
             "end": 2379,
             "value": "Properties is the empty string: no symbol keys set",
-            "raw": "'Properties is the empty string: no symbol keys set'"
+            "raw": "'Properties is the empty string: no symbol keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1818,7 +1876,9 @@
                   "start": 2434,
                   "end": 2437,
                   "value": "s",
-                  "raw": "'s'"
+                  "raw": "'s'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1900,7 +1960,9 @@
             "start": 2493,
             "end": 2533,
             "value": "Properties is symbol: prototype is set",
-            "raw": "'Properties is symbol: prototype is set'"
+            "raw": "'Properties is symbol: prototype is set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1985,14 +2047,18 @@
             "start": 2593,
             "end": 2594,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2596,
             "end": 2631,
             "value": "Properties is symbol: no keys set",
-            "raw": "'Properties is symbol: no keys set'"
+            "raw": "'Properties is symbol: no keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2077,14 +2143,18 @@
             "start": 2693,
             "end": 2694,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2696,
             "end": 2738,
             "value": "Properties is symbol: no symbol keys set",
-            "raw": "'Properties is symbol: no symbol keys set'"
+            "raw": "'Properties is symbol: no symbol keys set'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,28 +28,36 @@
                 "start": 1364,
                 "end": 1371,
                 "value": "upper",
-                "raw": "\"upper\""
+                "raw": "\"upper\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1375,
                 "end": 1382,
                 "value": "lower",
-                "raw": "\"lower\""
+                "raw": "\"lower\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1386,
                 "end": 1393,
                 "value": "false",
-                "raw": "\"false\""
+                "raw": "\"false\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1397,
                 "end": 1402,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -92,7 +100,9 @@
                               "start": 1428,
                               "end": 1433,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -207,7 +217,9 @@
                     "start": 1545,
                     "end": 1555,
                     "value": "en-u-kf-",
-                    "raw": "\"en-u-kf-\""
+                    "raw": "\"en-u-kf-\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -286,7 +298,9 @@
                           "start": 1608,
                           "end": 1612,
                           "value": "en",
-                          "raw": "'en'"
+                          "raw": "'en'",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",
@@ -415,7 +429,9 @@
                   "start": 1760,
                   "end": 1770,
                   "value": "en-u-kf-",
-                  "raw": "\"en-u-kf-\""
+                  "raw": "\"en-u-kf-\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -492,7 +508,9 @@
                           "start": 1823,
                           "end": 1838,
                           "value": "en-u-kf-lower",
-                          "raw": "'en-u-kf-lower'"
+                          "raw": "'en-u-kf-lower'",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ObjectExpression",
@@ -658,7 +676,9 @@
                         "start": 2026,
                         "end": 2041,
                         "value": "en-u-kf-lower",
-                        "raw": "'en-u-kf-lower'"
+                        "raw": "'en-u-kf-lower'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",

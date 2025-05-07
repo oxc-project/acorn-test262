@@ -85,7 +85,9 @@
                 "start": 590,
                 "end": 593,
                 "value": "s",
-                "raw": "'s'"
+                "raw": "'s'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

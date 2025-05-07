@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?-i:)",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -72,7 +73,9 @@
             "start": 2215,
             "end": 2272,
             "value": "RegExp instance ignoreCase property should still be set",
-            "raw": "\"RegExp instance ignoreCase property should still be set\""
+            "raw": "\"RegExp instance ignoreCase property should still be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -109,14 +112,18 @@
                 "start": 2297,
                 "end": 2305,
                 "value": "(?-i:)",
-                "raw": "\"(?-i:)\""
+                "raw": "\"(?-i:)\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2307,
                 "end": 2310,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -163,7 +170,9 @@
             "start": 2336,
             "end": 2393,
             "value": "RegExp instance ignoreCase property should still be set",
-            "raw": "\"RegExp instance ignoreCase property should still be set\""
+            "raw": "\"RegExp instance ignoreCase property should still be set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

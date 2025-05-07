@@ -47,7 +47,9 @@
                 "start": 672,
                 "end": 681,
                 "value": "0x01_00",
-                "raw": "\"0x01_00\""
+                "raw": "\"0x01_00\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 689,
             "end": 698,
             "value": "0x01_00",
-            "raw": "\"0x01_00\""
+            "raw": "\"0x01_00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -113,7 +117,9 @@
                 "start": 725,
                 "end": 734,
                 "value": "0X01_00",
-                "raw": "\"0X01_00\""
+                "raw": "\"0X01_00\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -129,7 +135,9 @@
             "start": 742,
             "end": 751,
             "value": "0X01_00",
-            "raw": "\"0X01_00\""
+            "raw": "\"0X01_00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

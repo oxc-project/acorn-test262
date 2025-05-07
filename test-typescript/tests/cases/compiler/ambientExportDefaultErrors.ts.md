@@ -19,14 +19,18 @@ __ESTREE_TEST__:PASS:
           "start": 15,
           "end": 16,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Literal",
           "start": 19,
           "end": 20,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "regex": null,
+          "bigint": null
         }
       },
       "exportKind": "value"
@@ -71,14 +75,18 @@ __ESTREE_TEST__:PASS:
           "start": 9,
           "end": 10,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Literal",
           "start": 13,
           "end": 14,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -165,7 +173,9 @@ __ESTREE_TEST__:PASS:
         "start": 51,
         "end": 61,
         "raw": "\"indirect\"",
-        "value": "indirect"
+        "value": "indirect",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -220,7 +230,9 @@ __ESTREE_TEST__:PASS:
         "start": 52,
         "end": 63,
         "raw": "\"indirect2\"",
-        "value": "indirect2"
+        "value": "indirect2",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -246,7 +258,9 @@ __ESTREE_TEST__:PASS:
         "start": 96,
         "end": 106,
         "raw": "\"indirect\"",
-        "value": "indirect"
+        "value": "indirect",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -261,7 +275,9 @@ __ESTREE_TEST__:PASS:
         "start": 115,
         "end": 120,
         "raw": "\"foo\"",
-        "value": "foo"
+        "value": "foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -276,7 +292,9 @@ __ESTREE_TEST__:PASS:
         "start": 129,
         "end": 140,
         "raw": "\"indirect2\"",
-        "value": "indirect2"
+        "value": "indirect2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -291,7 +309,9 @@ __ESTREE_TEST__:PASS:
         "start": 149,
         "end": 155,
         "raw": "\"foo2\"",
-        "value": "foo2"
+        "value": "foo2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

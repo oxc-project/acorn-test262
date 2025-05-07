@@ -69,14 +69,18 @@
             "start": 539,
             "end": 544,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 557,
             "value": "NaN value",
-            "raw": "\"NaN value\""
+            "raw": "\"NaN value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -186,14 +190,18 @@
             "start": 625,
             "end": 630,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 641,
             "value": "NaN obj",
-            "raw": "\"NaN obj\""
+            "raw": "\"NaN obj\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

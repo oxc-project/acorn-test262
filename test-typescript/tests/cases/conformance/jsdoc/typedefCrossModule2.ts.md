@@ -194,7 +194,9 @@ __ESTREE_TEST__:PASS:
             "start": 240,
             "end": 241,
             "raw": "2",
-            "value": 2
+            "value": 2,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -241,7 +243,9 @@ __ESTREE_TEST__:PASS:
           "start": 289,
           "end": 290,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -308,7 +312,9 @@ __ESTREE_TEST__:PASS:
                 "start": 354,
                 "end": 355,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -356,7 +362,9 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 29,
                 "raw": "'./mod1.js'",
-                "value": "./mod1.js"
+                "value": "./mod1.js",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

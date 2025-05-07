@@ -426,7 +426,9 @@ __ESTREE_TEST__:PASS:
               "start": 335,
               "end": 352,
               "raw": "\"readonly please\"",
-              "value": "readonly please"
+              "value": "readonly please",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -613,7 +615,9 @@ __ESTREE_TEST__:PASS:
           "start": 451,
           "end": 495,
           "raw": "\"error: lhs of assignment can't be readonly\"",
-          "value": "error: lhs of assignment can't be readonly"
+          "value": "error: lhs of assignment can't be readonly",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -717,7 +721,9 @@ __ESTREE_TEST__:PASS:
               "start": 627,
               "end": 640,
               "raw": "\"nope, wrong\"",
-              "value": "nope, wrong"
+              "value": "nope, wrong",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -867,7 +873,9 @@ __ESTREE_TEST__:PASS:
                       "start": 792,
                       "end": 805,
                       "raw": "\"nope, wrong\"",
-                      "value": "nope, wrong"
+                      "value": "nope, wrong",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -945,7 +953,9 @@ __ESTREE_TEST__:PASS:
               "start": 878,
               "end": 891,
               "raw": "\"nope, wrong\"",
-              "value": "nope, wrong"
+              "value": "nope, wrong",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -1126,7 +1136,9 @@ __ESTREE_TEST__:PASS:
                       "start": 1028,
                       "end": 1041,
                       "raw": "\"should work\"",
-                      "value": "should work"
+                      "value": "should work",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

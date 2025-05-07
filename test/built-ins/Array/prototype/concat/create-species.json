@@ -67,7 +67,9 @@
             "start": 691,
             "end": 692,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -147,7 +149,9 @@
                       "start": 752,
                       "end": 753,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -419,14 +423,18 @@
             "start": 938,
             "end": 939,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 941,
             "end": 985,
             "value": "The value of callCount is expected to be 1",
-            "raw": "'The value of callCount is expected to be 1'"
+            "raw": "'The value of callCount is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -517,7 +525,9 @@
             "start": 1062,
             "end": 1114,
             "value": "Object.getPrototypeOf(this) returns Ctor.prototype",
-            "raw": "'Object.getPrototypeOf(this) returns Ctor.prototype'"
+            "raw": "'Object.getPrototypeOf(this) returns Ctor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -575,14 +585,18 @@
             "start": 1148,
             "end": 1149,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1151,
             "end": 1197,
             "value": "The value of args.length is expected to be 1",
-            "raw": "'The value of args.length is expected to be 1'"
+            "raw": "'The value of args.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -631,7 +645,9 @@
               "start": 1222,
               "end": 1223,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -641,14 +657,18 @@
             "start": 1226,
             "end": 1227,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1229,
             "end": 1271,
             "value": "The value of args[0] is expected to be 0",
-            "raw": "'The value of args[0] is expected to be 0'"
+            "raw": "'The value of args[0] is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -699,7 +719,9 @@
             "start": 1309,
             "end": 1373,
             "value": "The value of result is expected to equal the value of instance",
-            "raw": "'The value of result is expected to equal the value of instance'"
+            "raw": "'The value of result is expected to equal the value of instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -31,7 +31,9 @@
                 "start": 9,
                 "end": 18,
                 "value": "leading",
-                "raw": "\"leading\""
+                "raw": "\"leading\"",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -49,7 +51,9 @@
                 "start": 24,
                 "end": 35,
                 "value": "attribute",
-                "raw": "\"attribute\""
+                "raw": "\"attribute\"",
+                "regex": null,
+                "bigint": null
               }
             },
             {

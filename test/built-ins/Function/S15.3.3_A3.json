@@ -47,7 +47,9 @@
                 "start": 304,
                 "end": 312,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 315,
             "end": 367,
             "value": "Function.hasOwnProperty(\"length\") must return true",
-            "raw": "'Function.hasOwnProperty(\"length\") must return true'"
+            "raw": "'Function.hasOwnProperty(\"length\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -115,14 +119,18 @@
             "start": 404,
             "end": 405,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 457,
             "value": "The value of Function.length is expected to be 1",
-            "raw": "'The value of Function.length is expected to be 1'"
+            "raw": "'The value of Function.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

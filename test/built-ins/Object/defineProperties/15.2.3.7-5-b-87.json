@@ -103,7 +103,9 @@
                         "start": 371,
                         "end": 375,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -161,7 +163,9 @@
                 "start": 425,
                 "end": 435,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -258,7 +262,9 @@
                 "start": 497,
                 "end": 507,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -268,14 +274,18 @@
             "start": 510,
             "end": 515,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 549,
             "value": "obj.hasOwnProperty(\"property\")",
-            "raw": "'obj.hasOwnProperty(\"property\")'"
+            "raw": "'obj.hasOwnProperty(\"property\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -307,7 +317,9 @@
             "start": 575,
             "end": 600,
             "value": "hadOwnProperty !== true",
-            "raw": "'hadOwnProperty !== true'"
+            "raw": "'hadOwnProperty !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

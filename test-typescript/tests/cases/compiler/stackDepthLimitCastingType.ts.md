@@ -897,7 +897,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 36,
         "raw": "\"backbone\"",
-        "value": "backbone"
+        "value": "backbone",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1036,7 +1038,9 @@ __ESTREE_TEST__:PASS:
         "start": 53,
         "end": 63,
         "raw": "\"backbone\"",
-        "value": "backbone"
+        "value": "backbone",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -1086,7 +1090,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 36,
         "raw": "\"backbone\"",
-        "value": "backbone"
+        "value": "backbone",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1116,7 +1122,9 @@ __ESTREE_TEST__:PASS:
         "start": 74,
         "end": 96,
         "raw": "\"backbone-fetch-cache\"",
-        "value": "backbone-fetch-cache"
+        "value": "backbone-fetch-cache",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1244,7 +1252,9 @@ __ESTREE_TEST__:PASS:
               "start": 173,
               "end": 177,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",

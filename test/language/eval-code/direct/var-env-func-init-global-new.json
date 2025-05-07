@@ -43,7 +43,9 @@
             "start": 1083,
             "end": 1126,
             "value": "initial = f; function f() { return 234; }",
-            "raw": "'initial = f; function f() { return 234; }'"
+            "raw": "'initial = f; function f() { return 234; }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -74,7 +76,9 @@
             "start": 1151,
             "end": 1154,
             "value": "f",
-            "raw": "'f'"
+            "raw": "'f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -99,7 +103,9 @@
                   "start": 1170,
                   "end": 1174,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -121,7 +127,9 @@
                   "start": 1190,
                   "end": 1194,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -143,7 +151,9 @@
                   "start": 1212,
                   "end": 1216,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -199,7 +209,9 @@
             "start": 1256,
             "end": 1266,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +263,9 @@
             "start": 1297,
             "end": 1300,
             "value": 234,
-            "raw": "234"
+            "raw": "234",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

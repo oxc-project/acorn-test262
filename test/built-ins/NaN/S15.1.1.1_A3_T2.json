@@ -49,14 +49,18 @@
             "start": 266,
             "end": 271,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 273,
             "end": 324,
             "value": "The value of `delete NaN` is expected to be false",
-            "raw": "'The value of `delete NaN` is expected to be false'"
+            "raw": "'The value of `delete NaN` is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

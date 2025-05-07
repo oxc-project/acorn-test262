@@ -83,7 +83,9 @@
                               "start": 340,
                               "end": 341,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -145,7 +147,9 @@
                                           "start": 403,
                                           "end": 404,
                                           "value": 0,
-                                          "raw": "0"
+                                          "raw": "0",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "consequent": {
@@ -198,7 +202,9 @@
                                                     "start": 464,
                                                     "end": 469,
                                                     "value": false,
-                                                    "raw": "false"
+                                                    "raw": "false",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   "kind": "init"
                                                 },
@@ -232,14 +238,18 @@
                                                           "start": 506,
                                                           "end": 509,
                                                           "value": "0",
-                                                          "raw": "'0'"
+                                                          "raw": "'0'",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         },
                                                         "value": {
                                                           "type": "Literal",
                                                           "start": 511,
                                                           "end": 522,
                                                           "value": "first key",
-                                                          "raw": "'first key'"
+                                                          "raw": "'first key'",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         },
                                                         "kind": "init"
                                                       },
@@ -255,14 +265,18 @@
                                                           "start": 538,
                                                           "end": 541,
                                                           "value": "1",
-                                                          "raw": "'1'"
+                                                          "raw": "'1'",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         },
                                                         "value": {
                                                           "type": "Literal",
                                                           "start": 543,
                                                           "end": 556,
                                                           "value": "first value",
-                                                          "raw": "'first value'"
+                                                          "raw": "'first value'",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         },
                                                         "kind": "init"
                                                       },
@@ -326,7 +340,9 @@
                                                                       "start": 637,
                                                                       "end": 708,
                                                                       "value": "Object.fromEntries should not access Symbol.iterator on entry objects",
-                                                                      "raw": "'Object.fromEntries should not access Symbol.iterator on entry objects'"
+                                                                      "raw": "'Object.fromEntries should not access Symbol.iterator on entry objects'",
+                                                                      "regex": null,
+                                                                      "bigint": null
                                                                     }
                                                                   ]
                                                                 }
@@ -365,7 +381,9 @@
                                             "start": 785,
                                             "end": 786,
                                             "value": 1,
-                                            "raw": "1"
+                                            "raw": "1",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         },
                                         "consequent": {
@@ -479,7 +497,9 @@
                                                               "start": 902,
                                                               "end": 972,
                                                               "value": "Object.fromEntries should not access Symbol.iterator on entry arrays",
-                                                              "raw": "'Object.fromEntries should not access Symbol.iterator on entry arrays'"
+                                                              "raw": "'Object.fromEntries should not access Symbol.iterator on entry arrays'",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           ]
                                                         }
@@ -516,7 +536,9 @@
                                                       "start": 1025,
                                                       "end": 1030,
                                                       "value": false,
-                                                      "raw": "false"
+                                                      "raw": "false",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     },
                                                     "kind": "init"
                                                   },
@@ -543,14 +565,18 @@
                                                           "start": 1052,
                                                           "end": 1064,
                                                           "value": "second key",
-                                                          "raw": "'second key'"
+                                                          "raw": "'second key'",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         },
                                                         {
                                                           "type": "Literal",
                                                           "start": 1066,
                                                           "end": 1080,
                                                           "value": "second value",
-                                                          "raw": "'second value'"
+                                                          "raw": "'second value'",
+                                                          "regex": null,
+                                                          "bigint": null
                                                         }
                                                       ]
                                                     },
@@ -593,7 +619,9 @@
                                                       "start": 1150,
                                                       "end": 1154,
                                                       "value": true,
-                                                      "raw": "true"
+                                                      "raw": "true",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     },
                                                     "kind": "init"
                                                   }
@@ -718,7 +746,9 @@
               "start": 1271,
               "end": 1282,
               "value": "first key",
-              "raw": "'first key'"
+              "raw": "'first key'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -728,7 +758,9 @@
             "start": 1285,
             "end": 1298,
             "value": "first value",
-            "raw": "'first value'"
+            "raw": "'first value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -777,7 +809,9 @@
               "start": 1325,
               "end": 1337,
               "value": "second key",
-              "raw": "'second key'"
+              "raw": "'second key'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -787,7 +821,9 @@
             "start": 1340,
             "end": 1354,
             "value": "second value",
-            "raw": "'second value'"
+            "raw": "'second value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

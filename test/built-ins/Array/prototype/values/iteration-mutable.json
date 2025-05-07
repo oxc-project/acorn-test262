@@ -126,7 +126,9 @@
             "start": 670,
             "end": 673,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -227,14 +229,18 @@
             "start": 733,
             "end": 738,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 766,
             "value": "First result `done` flag",
-            "raw": "'First result `done` flag'"
+            "raw": "'First result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -292,14 +298,18 @@
             "start": 800,
             "end": 803,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 827,
             "value": "First result `value`",
-            "raw": "'First result `value`'"
+            "raw": "'First result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -400,14 +410,18 @@
             "start": 887,
             "end": 891,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 893,
             "end": 923,
             "value": "Exhausted result `done` flag",
-            "raw": "'Exhausted result `done` flag'"
+            "raw": "'Exhausted result `done` flag'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -471,7 +485,9 @@
             "start": 968,
             "end": 994,
             "value": "Exhausted result `value`",
-            "raw": "'Exhausted result `value`'"
+            "raw": "'Exhausted result `value`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -510,7 +526,9 @@
             "start": 1009,
             "end": 1012,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -611,14 +629,18 @@
             "start": 1075,
             "end": 1079,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1083,
             "end": 1126,
             "value": "Exhausted result `done` flag (after push)",
-            "raw": "'Exhausted result `done` flag (after push)'"
+            "raw": "'Exhausted result `done` flag (after push)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -682,7 +704,9 @@
             "start": 1177,
             "end": 1216,
             "value": "Exhausted result `value` (after push)",
-            "raw": "'Exhausted result `value` (after push)'"
+            "raw": "'Exhausted result `value` (after push)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

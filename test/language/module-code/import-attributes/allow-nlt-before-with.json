@@ -12,7 +12,9 @@
         "start": 623,
         "end": 673,
         "value": "Test262: This statement should not be evaluated.",
-        "raw": "\"Test262: This statement should not be evaluated.\""
+        "raw": "\"Test262: This statement should not be evaluated.\"",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -25,7 +27,9 @@
         "start": 683,
         "end": 729,
         "value": "../resources/ensure-linking-error_FIXTURE.js",
-        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\""
+        "raw": "\"../resources/ensure-linking-error_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -51,7 +55,9 @@
         "start": 751,
         "end": 784,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     }

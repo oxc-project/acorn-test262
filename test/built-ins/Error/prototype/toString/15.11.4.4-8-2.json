@@ -67,7 +67,9 @@
           "start": 329,
           "end": 331,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -104,7 +106,9 @@
           "start": 353,
           "end": 355,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -136,7 +140,9 @@
                     "start": 384,
                     "end": 426,
                     "value": "Expected errObj.name to be '', actually ",
-                    "raw": "\"Expected errObj.name to be '', actually \""
+                    "raw": "\"Expected errObj.name to be '', actually \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -206,7 +212,9 @@
           "start": 471,
           "end": 473,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -238,7 +246,9 @@
                     "start": 502,
                     "end": 550,
                     "value": "Expected errObj.toString() to be '', actually ",
-                    "raw": "\"Expected errObj.toString() to be '', actually \""
+                    "raw": "\"Expected errObj.toString() to be '', actually \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

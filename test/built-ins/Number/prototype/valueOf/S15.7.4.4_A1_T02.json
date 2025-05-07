@@ -73,7 +73,9 @@
                 "start": 304,
                 "end": 314,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 317,
             "end": 318,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 320,
             "end": 372,
             "value": "Number.prototype.valueOf(\"argument\") must return 0",
-            "raw": "'Number.prototype.valueOf(\"argument\") must return 0'"
+            "raw": "'Number.prototype.valueOf(\"argument\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -164,7 +170,9 @@
                 "start": 415,
                 "end": 425,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -174,14 +182,18 @@
             "start": 428,
             "end": 429,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 481,
             "value": "(new Number()).valueOf(\"argument\") must return 0",
-            "raw": "'(new Number()).valueOf(\"argument\") must return 0'"
+            "raw": "'(new Number()).valueOf(\"argument\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +255,9 @@
                       "start": 513,
                       "end": 514,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -263,7 +277,9 @@
                 "start": 525,
                 "end": 535,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -273,14 +289,18 @@
             "start": 538,
             "end": 539,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 592,
             "value": "(new Number(0)).valueOf(\"argument\") must return 0",
-            "raw": "'(new Number(0)).valueOf(\"argument\") must return 0'"
+            "raw": "'(new Number(0)).valueOf(\"argument\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +368,9 @@
                         "start": 625,
                         "end": 626,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -369,7 +391,9 @@
                 "start": 637,
                 "end": 647,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -385,7 +409,9 @@
               "start": 651,
               "end": 652,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -393,7 +419,9 @@
             "start": 654,
             "end": 707,
             "value": "(new Number(-1)).valueOf(\"argument\") must return -1",
-            "raw": "'(new Number(-1)).valueOf(\"argument\") must return -1'"
+            "raw": "'(new Number(-1)).valueOf(\"argument\") must return -1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -455,7 +483,9 @@
                       "start": 739,
                       "end": 740,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -475,7 +505,9 @@
                 "start": 751,
                 "end": 761,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -485,14 +517,18 @@
             "start": 764,
             "end": 765,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 818,
             "value": "(new Number(1)).valueOf(\"argument\") must return 1",
-            "raw": "'(new Number(1)).valueOf(\"argument\") must return 1'"
+            "raw": "'(new Number(1)).valueOf(\"argument\") must return 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,7 +604,9 @@
                 "start": 866,
                 "end": 876,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -584,7 +622,9 @@
             "start": 888,
             "end": 937,
             "value": "new Number(NaN).valueOf(\"argument\") returns NaN",
-            "raw": "'new Number(NaN).valueOf(\"argument\") returns NaN'"
+            "raw": "'new Number(NaN).valueOf(\"argument\") returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -678,7 +718,9 @@
                 "start": 1009,
                 "end": 1019,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -707,7 +749,9 @@
             "start": 1052,
             "end": 1145,
             "value": "(new Number(Number.POSITIVE_INFINITY)).valueOf(\"argument\") returns Number.POSITIVE_INFINITY",
-            "raw": "'(new Number(Number.POSITIVE_INFINITY)).valueOf(\"argument\") returns Number.POSITIVE_INFINITY'"
+            "raw": "'(new Number(Number.POSITIVE_INFINITY)).valueOf(\"argument\") returns Number.POSITIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -801,7 +845,9 @@
                 "start": 1217,
                 "end": 1227,
                 "value": "argument",
-                "raw": "\"argument\""
+                "raw": "\"argument\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -830,7 +876,9 @@
             "start": 1260,
             "end": 1353,
             "value": "(new Number(Number.NEGATIVE_INFINITY)).valueOf(\"argument\") returns Number.NEGATIVE_INFINITY",
-            "raw": "'(new Number(Number.NEGATIVE_INFINITY)).valueOf(\"argument\") returns Number.NEGATIVE_INFINITY'"
+            "raw": "'(new Number(Number.NEGATIVE_INFINITY)).valueOf(\"argument\") returns Number.NEGATIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

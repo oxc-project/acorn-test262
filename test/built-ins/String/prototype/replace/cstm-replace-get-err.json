@@ -206,7 +206,9 @@
                         "start": 626,
                         "end": 628,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

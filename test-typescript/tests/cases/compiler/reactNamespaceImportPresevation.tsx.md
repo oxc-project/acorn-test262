@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "\"my-React-Lib\"",
-        "value": "my-React-Lib"
+        "value": "my-React-Lib",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -98,7 +100,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 42,
         "raw": "\"my-React-Lib\"",
-        "value": "my-React-Lib"
+        "value": "my-React-Lib",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -48,6 +48,7 @@
                 "end": 333,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 335,
                 "end": 340,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 393,
                       "end": 406,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -212,6 +217,7 @@
             "end": 507,
             "value": null,
             "raw": "1_000_000_000_123_988_000n",
+            "regex": null,
             "bigint": "1000000000123988000"
           },
           {
@@ -219,7 +225,9 @@
             "start": 509,
             "end": 545,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +295,9 @@
                       "start": 597,
                       "end": 610,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -353,6 +363,7 @@
             "end": 686,
             "value": null,
             "raw": "1_000_000_000_123_988_000n",
+            "regex": null,
             "bigint": "1000000000123988000"
           },
           {
@@ -360,7 +371,9 @@
             "start": 688,
             "end": 724,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -428,7 +441,9 @@
                       "start": 777,
                       "end": 790,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -515,6 +530,7 @@
             "end": 891,
             "value": null,
             "raw": "1_000_000_000_124_000_000n",
+            "regex": null,
             "bigint": "1000000000124000000"
           },
           {
@@ -522,7 +538,9 @@
             "start": 893,
             "end": 929,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -590,7 +608,9 @@
                       "start": 981,
                       "end": 994,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -656,6 +676,7 @@
             "end": 1070,
             "value": null,
             "raw": "1_000_000_000_124_000_000n",
+            "regex": null,
             "bigint": "1000000000124000000"
           },
           {
@@ -663,7 +684,9 @@
             "start": 1072,
             "end": 1108,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -731,7 +754,9 @@
                       "start": 1161,
                       "end": 1169,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -818,6 +843,7 @@
             "end": 1270,
             "value": null,
             "raw": "1_000_000_000_000_000_000n",
+            "regex": null,
             "bigint": "1000000000000000000"
           },
           {
@@ -825,7 +851,9 @@
             "start": 1272,
             "end": 1308,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -893,7 +921,9 @@
                       "start": 1360,
                       "end": 1368,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -959,6 +989,7 @@
             "end": 1444,
             "value": null,
             "raw": "1_000_000_000_000_000_000n",
+            "regex": null,
             "bigint": "1000000000000000000"
           },
           {
@@ -966,7 +997,9 @@
             "start": 1446,
             "end": 1482,
             "value": "default roundingMode is halfExpand",
-            "raw": "\"default roundingMode is halfExpand\""
+            "raw": "\"default roundingMode is halfExpand\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

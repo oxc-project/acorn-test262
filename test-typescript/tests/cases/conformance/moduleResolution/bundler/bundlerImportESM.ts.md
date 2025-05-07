@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 20,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -68,7 +70,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 31,
         "raw": "\"./esm.mjs\"",
-        "value": "./esm.mjs"
+        "value": "./esm.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -120,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 31,
         "raw": "\"./esm.mjs\"",
-        "value": "./esm.mjs"
+        "value": "./esm.mjs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

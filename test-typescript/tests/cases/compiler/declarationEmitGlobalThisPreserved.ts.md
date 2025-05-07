@@ -1295,7 +1295,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1035,
                           "end": 1039,
                           "raw": "'a4'",
-                          "value": "a4"
+                          "value": "a4",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -2370,7 +2372,9 @@ __ESTREE_TEST__:PASS:
                           "start": 1721,
                           "end": 1725,
                           "raw": "'b4'",
-                          "value": "b4"
+                          "value": "b4",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -3485,7 +3489,9 @@ __ESTREE_TEST__:PASS:
                           "start": 2461,
                           "end": 2465,
                           "raw": "'c4'",
-                          "value": "c4"
+                          "value": "c4",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {

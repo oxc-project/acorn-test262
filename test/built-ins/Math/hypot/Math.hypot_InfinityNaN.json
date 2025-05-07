@@ -81,7 +81,9 @@
             "start": 333,
             "end": 360,
             "value": "Math.hypot(NaN, Infinity)",
-            "raw": "'Math.hypot(NaN, Infinity)'"
+            "raw": "'Math.hypot(NaN, Infinity)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

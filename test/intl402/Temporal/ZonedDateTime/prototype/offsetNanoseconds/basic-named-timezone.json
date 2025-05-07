@@ -48,6 +48,7 @@
                 "end": 319,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 321,
                 "end": 342,
                 "value": "America/Los_Angeles",
-                "raw": "\"America/Los_Angeles\""
+                "raw": "\"America/Los_Angeles\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                 "start": 391,
                 "end": 392,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "*",
@@ -134,7 +139,9 @@
               "start": 395,
               "end": 408,
               "value": 3600000000000,
-              "raw": "3600000000000"
+              "raw": "3600000000000",
+              "regex": null,
+              "bigint": null
             }
           }
         ],

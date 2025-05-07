@@ -34,14 +34,18 @@
                 "start": 438,
                 "end": 442,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 444,
                 "end": 446,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -121,14 +125,18 @@
             "start": 506,
             "end": 514,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 594,
             "value": "The value of `typeof x11.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x11.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x11.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,14 +173,18 @@
                 "start": 618,
                 "end": 622,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 626,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -246,7 +258,9 @@
             "start": 671,
             "end": 723,
             "value": "Date.prototype.isPrototypeOf(x12) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x12) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x12) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -283,14 +297,18 @@
                 "start": 746,
                 "end": 750,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 752,
                 "end": 754,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -382,7 +400,9 @@
             "start": 825,
             "end": 914,
             "value": "The value of Date.prototype is expected to equal the value of x13.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x13.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x13.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -419,14 +439,18 @@
                 "start": 938,
                 "end": 942,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 944,
                 "end": 946,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -506,14 +530,18 @@
             "start": 1006,
             "end": 1014,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1018,
             "end": 1094,
             "value": "The value of `typeof x21.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x21.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x21.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -550,14 +578,18 @@
                 "start": 1118,
                 "end": 1122,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1124,
                 "end": 1126,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -631,7 +663,9 @@
             "start": 1171,
             "end": 1223,
             "value": "Date.prototype.isPrototypeOf(x22) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x22) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x22) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -668,14 +702,18 @@
                 "start": 1246,
                 "end": 1250,
                 "value": 1899,
-                "raw": "1899"
+                "raw": "1899",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1252,
                 "end": 1254,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -767,7 +805,9 @@
             "start": 1325,
             "end": 1414,
             "value": "The value of Date.prototype is expected to equal the value of x23.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x23.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x23.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -804,14 +844,18 @@
                 "start": 1438,
                 "end": 1442,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1444,
                 "end": 1445,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -891,14 +935,18 @@
             "start": 1505,
             "end": 1513,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1517,
             "end": 1593,
             "value": "The value of `typeof x31.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x31.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x31.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -935,14 +983,18 @@
                 "start": 1617,
                 "end": 1621,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1623,
                 "end": 1624,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1016,7 +1068,9 @@
             "start": 1669,
             "end": 1721,
             "value": "Date.prototype.isPrototypeOf(x32) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x32) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x32) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1053,14 +1107,18 @@
                 "start": 1744,
                 "end": 1748,
                 "value": 1900,
-                "raw": "1900"
+                "raw": "1900",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1750,
                 "end": 1751,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1152,7 +1210,9 @@
             "start": 1822,
             "end": 1911,
             "value": "The value of Date.prototype is expected to equal the value of x33.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x33.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x33.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1189,14 +1249,18 @@
                 "start": 1935,
                 "end": 1939,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1941,
                 "end": 1943,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1276,14 +1340,18 @@
             "start": 2003,
             "end": 2011,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2015,
             "end": 2091,
             "value": "The value of `typeof x41.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x41.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x41.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1320,14 +1388,18 @@
                 "start": 2115,
                 "end": 2119,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2121,
                 "end": 2123,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1401,7 +1473,9 @@
             "start": 2168,
             "end": 2220,
             "value": "Date.prototype.isPrototypeOf(x42) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x42) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x42) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1438,14 +1512,18 @@
                 "start": 2243,
                 "end": 2247,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2249,
                 "end": 2251,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1537,7 +1615,9 @@
             "start": 2322,
             "end": 2411,
             "value": "The value of Date.prototype is expected to equal the value of x43.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x43.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x43.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1574,14 +1654,18 @@
                 "start": 2435,
                 "end": 2439,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2441,
                 "end": 2443,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1661,14 +1745,18 @@
             "start": 2503,
             "end": 2511,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2515,
             "end": 2591,
             "value": "The value of `typeof x51.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x51.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x51.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1705,14 +1793,18 @@
                 "start": 2615,
                 "end": 2619,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2621,
                 "end": 2623,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1786,7 +1878,9 @@
             "start": 2668,
             "end": 2720,
             "value": "Date.prototype.isPrototypeOf(x52) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x52) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x52) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1823,14 +1917,18 @@
                 "start": 2743,
                 "end": 2747,
                 "value": 1969,
-                "raw": "1969"
+                "raw": "1969",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2749,
                 "end": 2751,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -1922,7 +2020,9 @@
             "start": 2822,
             "end": 2911,
             "value": "The value of Date.prototype is expected to equal the value of x53.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x53.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x53.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1959,14 +2059,18 @@
                 "start": 2935,
                 "end": 2939,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2941,
                 "end": 2942,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2046,14 +2150,18 @@
             "start": 3002,
             "end": 3010,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3014,
             "end": 3090,
             "value": "The value of `typeof x61.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x61.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x61.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2090,14 +2198,18 @@
                 "start": 3114,
                 "end": 3118,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3120,
                 "end": 3121,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2171,7 +2283,9 @@
             "start": 3166,
             "end": 3218,
             "value": "Date.prototype.isPrototypeOf(x62) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x62) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x62) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2208,14 +2322,18 @@
                 "start": 3241,
                 "end": 3245,
                 "value": 1970,
-                "raw": "1970"
+                "raw": "1970",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3247,
                 "end": 3248,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2307,7 +2425,9 @@
             "start": 3319,
             "end": 3408,
             "value": "The value of Date.prototype is expected to equal the value of x63.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x63.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x63.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2344,14 +2464,18 @@
                 "start": 3432,
                 "end": 3436,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3438,
                 "end": 3440,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2431,14 +2555,18 @@
             "start": 3500,
             "end": 3508,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3512,
             "end": 3588,
             "value": "The value of `typeof x71.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x71.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x71.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2475,14 +2603,18 @@
                 "start": 3612,
                 "end": 3616,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3618,
                 "end": 3620,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2556,7 +2688,9 @@
             "start": 3665,
             "end": 3717,
             "value": "Date.prototype.isPrototypeOf(x72) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x72) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x72) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2593,14 +2727,18 @@
                 "start": 3740,
                 "end": 3744,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3746,
                 "end": 3748,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2692,7 +2830,9 @@
             "start": 3819,
             "end": 3908,
             "value": "The value of Date.prototype is expected to equal the value of x73.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x73.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x73.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2729,14 +2869,18 @@
                 "start": 3932,
                 "end": 3936,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 3938,
                 "end": 3940,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2816,14 +2960,18 @@
             "start": 4000,
             "end": 4008,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4012,
             "end": 4088,
             "value": "The value of `typeof x81.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x81.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x81.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2860,14 +3008,18 @@
                 "start": 4112,
                 "end": 4116,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4118,
                 "end": 4120,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -2941,7 +3093,9 @@
             "start": 4165,
             "end": 4217,
             "value": "Date.prototype.isPrototypeOf(x82) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x82) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x82) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2978,14 +3132,18 @@
                 "start": 4240,
                 "end": 4244,
                 "value": 1999,
-                "raw": "1999"
+                "raw": "1999",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4246,
                 "end": 4248,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3077,7 +3235,9 @@
             "start": 4319,
             "end": 4408,
             "value": "The value of Date.prototype is expected to equal the value of x83.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x83.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x83.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3114,14 +3274,18 @@
                 "start": 4432,
                 "end": 4436,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4438,
                 "end": 4439,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3201,14 +3365,18 @@
             "start": 4499,
             "end": 4507,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4511,
             "end": 4587,
             "value": "The value of `typeof x91.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x91.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x91.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3245,14 +3413,18 @@
                 "start": 4611,
                 "end": 4615,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4617,
                 "end": 4618,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3326,7 +3498,9 @@
             "start": 4663,
             "end": 4715,
             "value": "Date.prototype.isPrototypeOf(x92) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x92) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x92) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3363,14 +3537,18 @@
                 "start": 4738,
                 "end": 4742,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4744,
                 "end": 4745,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3462,7 +3640,9 @@
             "start": 4816,
             "end": 4905,
             "value": "The value of Date.prototype is expected to equal the value of x93.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x93.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x93.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3499,14 +3679,18 @@
                 "start": 4930,
                 "end": 4934,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 4936,
                 "end": 4938,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3586,14 +3770,18 @@
             "start": 4999,
             "end": 5007,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5011,
             "end": 5088,
             "value": "The value of `typeof x101.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x101.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x101.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3630,14 +3818,18 @@
                 "start": 5113,
                 "end": 5117,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5119,
                 "end": 5121,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3711,7 +3903,9 @@
             "start": 5167,
             "end": 5220,
             "value": "Date.prototype.isPrototypeOf(x102) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x102) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x102) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3748,14 +3942,18 @@
                 "start": 5244,
                 "end": 5248,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5250,
                 "end": 5252,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3847,7 +4045,9 @@
             "start": 5324,
             "end": 5414,
             "value": "The value of Date.prototype is expected to equal the value of x103.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x103.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x103.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -3884,14 +4084,18 @@
                 "start": 5439,
                 "end": 5443,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5445,
                 "end": 5447,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -3971,14 +4175,18 @@
             "start": 5508,
             "end": 5516,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 5520,
             "end": 5597,
             "value": "The value of `typeof x111.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x111.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x111.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4015,14 +4223,18 @@
                 "start": 5622,
                 "end": 5626,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5628,
                 "end": 5630,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4096,7 +4308,9 @@
             "start": 5676,
             "end": 5729,
             "value": "Date.prototype.isPrototypeOf(x112) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x112) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x112) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4133,14 +4347,18 @@
                 "start": 5753,
                 "end": 5757,
                 "value": 2099,
-                "raw": "2099"
+                "raw": "2099",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5759,
                 "end": 5761,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4232,7 +4450,9 @@
             "start": 5833,
             "end": 5923,
             "value": "The value of Date.prototype is expected to equal the value of x113.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x113.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x113.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4269,14 +4489,18 @@
                 "start": 5948,
                 "end": 5952,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 5954,
                 "end": 5955,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4356,14 +4580,18 @@
             "start": 6016,
             "end": 6024,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 6028,
             "end": 6105,
             "value": "The value of `typeof x121.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x121.constructor.prototype` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x121.constructor.prototype` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4400,14 +4628,18 @@
                 "start": 6130,
                 "end": 6134,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6136,
                 "end": 6137,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4481,7 +4713,9 @@
             "start": 6183,
             "end": 6236,
             "value": "Date.prototype.isPrototypeOf(x122) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x122) must return true'"
+            "raw": "'Date.prototype.isPrototypeOf(x122) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -4518,14 +4752,18 @@
                 "start": 6260,
                 "end": 6264,
                 "value": 2100,
-                "raw": "2100"
+                "raw": "2100",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 6266,
                 "end": 6267,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -4617,7 +4855,9 @@
             "start": 6339,
             "end": 6429,
             "value": "The value of Date.prototype is expected to equal the value of x123.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x123.constructor.prototype'"
+            "raw": "'The value of Date.prototype is expected to equal the value of x123.constructor.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

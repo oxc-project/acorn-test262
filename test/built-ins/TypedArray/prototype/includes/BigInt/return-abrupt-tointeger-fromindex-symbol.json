@@ -34,7 +34,9 @@
                 "start": 901,
                 "end": 904,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,6 +118,7 @@
                                 "end": 985,
                                 "value": null,
                                 "raw": "7n",
+                                "regex": null,
                                 "bigint": "7"
                               }
                             ]
@@ -208,6 +211,7 @@
                                     "end": 1052,
                                     "value": null,
                                     "raw": "7n",
+                                    "regex": null,
                                     "bigint": "7"
                                   },
                                   {

@@ -75,7 +75,9 @@
             "start": 361,
             "end": 375,
             "value": "Invalid Date",
-            "raw": "\"Invalid Date\""
+            "raw": "\"Invalid Date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

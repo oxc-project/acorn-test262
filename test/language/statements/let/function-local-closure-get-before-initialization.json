@@ -68,7 +68,9 @@
                             "start": 312,
                             "end": 313,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }

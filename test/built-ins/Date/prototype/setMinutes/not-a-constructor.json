@@ -82,14 +82,18 @@
             "start": 761,
             "end": 766,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 830,
             "value": "isConstructor(Date.prototype.setMinutes) must return false",
-            "raw": "'isConstructor(Date.prototype.setMinutes) must return false'"
+            "raw": "'isConstructor(Date.prototype.setMinutes) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -36,7 +36,9 @@
               "start": 905,
               "end": 913,
               "value": "Avalue",
-              "raw": "'Avalue'"
+              "raw": "'Avalue'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -209,7 +211,9 @@
             "start": 1014,
             "end": 1022,
             "value": "Avalue",
-            "raw": "'Avalue'"
+            "raw": "'Avalue'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -86,7 +86,9 @@
               "start": 476,
               "end": 477,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -129,7 +131,9 @@
               "start": 531,
               "end": 532,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -162,7 +166,9 @@
             "start": 580,
             "end": 664,
             "value": "( /* a */ a /* b */ , /* c */ b /* d */ ) /* e */ => /* f */ { /* g */ ; /* h */ }",
-            "raw": "\"( /* a */ a /* b */ , /* c */ b /* d */ ) /* e */ => /* f */ { /* g */ ; /* h */ }\""
+            "raw": "\"( /* a */ a /* b */ , /* c */ b /* d */ ) /* e */ => /* f */ { /* g */ ; /* h */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -194,7 +200,9 @@
             "start": 701,
             "end": 735,
             "value": "( /* a */ ) /* b */ => /* c */ 0",
-            "raw": "\"( /* a */ ) /* b */ => /* c */ 0\""
+            "raw": "\"( /* a */ ) /* b */ => /* c */ 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +234,9 @@
             "start": 772,
             "end": 796,
             "value": "a /* a */ => /* b */ 0",
-            "raw": "\"a /* a */ => /* b */ 0\""
+            "raw": "\"a /* a */ => /* b */ 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

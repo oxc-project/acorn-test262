@@ -34,7 +34,9 @@
                 "start": 761,
                 "end": 776,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -389,7 +391,9 @@
                         "start": 1020,
                         "end": 1022,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -422,7 +426,9 @@
                         "start": 1048,
                         "end": 1050,
                         "value": 43,
-                        "raw": "43"
+                        "raw": "43",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -486,14 +492,18 @@
             "start": 1091,
             "end": 1092,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1094,
             "end": 1123,
             "value": "Called set() for each entry",
-            "raw": "'Called set() for each entry'"
+            "raw": "'Called set() for each entry'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -546,7 +556,9 @@
                 "start": 1151,
                 "end": 1152,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -571,7 +583,9 @@
             "start": 1164,
             "end": 1214,
             "value": "Adds object in order - first key, regular symbol",
-            "raw": "'Adds object in order - first key, regular symbol'"
+            "raw": "'Adds object in order - first key, regular symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -624,7 +638,9 @@
                 "start": 1242,
                 "end": 1243,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -643,14 +659,18 @@
             "start": 1252,
             "end": 1254,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1256,
             "end": 1292,
             "value": "Adds object in order - first value",
-            "raw": "'Adds object in order - first value'"
+            "raw": "'Adds object in order - first value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -703,7 +723,9 @@
                 "start": 1320,
                 "end": 1321,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -728,7 +750,9 @@
             "start": 1335,
             "end": 1364,
             "value": "Adds object in order - this",
-            "raw": "'Adds object in order - this'"
+            "raw": "'Adds object in order - this'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -781,7 +805,9 @@
                 "start": 1392,
                 "end": 1393,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -819,7 +845,9 @@
             "start": 1420,
             "end": 1474,
             "value": "Adds object in order - second key, well-known symbol",
-            "raw": "'Adds object in order - second key, well-known symbol'"
+            "raw": "'Adds object in order - second key, well-known symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -872,7 +900,9 @@
                 "start": 1502,
                 "end": 1503,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -891,14 +921,18 @@
             "start": 1512,
             "end": 1514,
             "value": 43,
-            "raw": "43"
+            "raw": "43",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1516,
             "end": 1553,
             "value": "Adds object in order - second value",
-            "raw": "'Adds object in order - second value'"
+            "raw": "'Adds object in order - second value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -951,7 +985,9 @@
                 "start": 1581,
                 "end": 1582,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -976,7 +1012,9 @@
             "start": 1596,
             "end": 1625,
             "value": "Adds object in order - this",
-            "raw": "'Adds object in order - this'"
+            "raw": "'Adds object in order - this'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

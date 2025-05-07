@@ -62,7 +62,9 @@
             "start": 501,
             "end": 527,
             "value": "Number(true) returns NaN",
-            "raw": "'Number(true) returns NaN'"
+            "raw": "'Number(true) returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -118,7 +120,9 @@
                   "start": 556,
                   "end": 557,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -135,7 +139,9 @@
               "start": 561,
               "end": 562,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -143,7 +149,9 @@
             "start": 564,
             "end": 591,
             "value": "Number(+0) must return +0",
-            "raw": "'Number(+0) must return +0'"
+            "raw": "'Number(+0) must return +0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -199,7 +207,9 @@
                   "start": 619,
                   "end": 620,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -216,7 +226,9 @@
               "start": 624,
               "end": 625,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -224,7 +236,9 @@
             "start": 627,
             "end": 654,
             "value": "Number(-0) must return -0",
-            "raw": "'Number(-0) must return -0'"
+            "raw": "'Number(-0) must return -0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -315,7 +329,9 @@
             "start": 742,
             "end": 809,
             "value": "Number(Number.POSITIVE_INFINITY) returns Number.POSITIVE_INFINITY",
-            "raw": "'Number(Number.POSITIVE_INFINITY) returns Number.POSITIVE_INFINITY'"
+            "raw": "'Number(Number.POSITIVE_INFINITY) returns Number.POSITIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -406,7 +422,9 @@
             "start": 898,
             "end": 965,
             "value": "Number(Number.NEGATIVE_INFINITY) returns Number.NEGATIVE_INFINITY",
-            "raw": "'Number(Number.NEGATIVE_INFINITY) returns Number.NEGATIVE_INFINITY'"
+            "raw": "'Number(Number.NEGATIVE_INFINITY) returns Number.NEGATIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -497,7 +515,9 @@
             "start": 1031,
             "end": 1082,
             "value": "Number(Number.MAX_VALUE) returns Number.MAX_VALUE",
-            "raw": "'Number(Number.MAX_VALUE) returns Number.MAX_VALUE'"
+            "raw": "'Number(Number.MAX_VALUE) returns Number.MAX_VALUE'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -588,7 +608,9 @@
             "start": 1146,
             "end": 1197,
             "value": "Number(Number.MIN_VALUE) returns Number.MIN_VALUE",
-            "raw": "'Number(Number.MIN_VALUE) returns Number.MIN_VALUE'"
+            "raw": "'Number(Number.MIN_VALUE) returns Number.MIN_VALUE'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

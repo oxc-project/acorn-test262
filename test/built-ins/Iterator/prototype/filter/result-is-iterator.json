@@ -82,7 +82,9 @@
                     "start": 415,
                     "end": 419,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -101,7 +103,9 @@
             "start": 444,
             "end": 504,
             "value": "function*(){}().filter(() => true) must return an Iterator",
-            "raw": "'function*(){}().filter(() => true) must return an Iterator'"
+            "raw": "'function*(){}().filter(() => true) must return an Iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

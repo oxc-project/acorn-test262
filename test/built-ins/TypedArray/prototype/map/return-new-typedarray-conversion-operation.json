@@ -225,7 +225,9 @@
                           "start": 1952,
                           "end": 1953,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -256,7 +258,9 @@
                             "start": 1974,
                             "end": 1989,
                             "value": " converts to ",
-                            "raw": "\" converts to \""
+                            "raw": "\" converts to \"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

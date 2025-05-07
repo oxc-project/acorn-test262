@@ -75,7 +75,9 @@
             "start": 757,
             "end": 767,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +199,9 @@
                               "start": 884,
                               "end": 885,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           {
@@ -234,7 +238,9 @@
                                     "start": 909,
                                     "end": 910,
                                     "value": 5,
-                                    "raw": "5"
+                                    "raw": "5",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "kind": "init"
@@ -311,7 +317,9 @@
                         "start": 962,
                         "end": 963,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -375,7 +383,9 @@
                         "start": 1009,
                         "end": 1024,
                         "value": "initial value",
-                        "raw": "\"initial value\""
+                        "raw": "\"initial value\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -434,7 +444,9 @@
                                 "start": 1056,
                                 "end": 1057,
                                 "value": 5,
-                                "raw": "5"
+                                "raw": "5",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -461,7 +473,9 @@
                             "start": 1075,
                             "end": 1076,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -544,7 +558,9 @@
                         "start": 1139,
                         "end": 1155,
                         "value": "following grow",
-                        "raw": "\"following grow\""
+                        "raw": "\"following grow\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -603,7 +619,9 @@
                                 "start": 1187,
                                 "end": 1188,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -630,7 +648,9 @@
                             "start": 1206,
                             "end": 1207,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -713,7 +733,9 @@
                         "start": 1270,
                         "end": 1304,
                         "value": "following shrink (within bounds)",
-                        "raw": "\"following shrink (within bounds)\""
+                        "raw": "\"following shrink (within bounds)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -776,7 +798,9 @@
                                   "start": 1336,
                                   "end": 1337,
                                   "value": 3,
-                                  "raw": "3"
+                                  "raw": "3",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "-",
@@ -785,7 +809,9 @@
                                 "start": 1340,
                                 "end": 1341,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],
@@ -812,7 +838,9 @@
                             "start": 1359,
                             "end": 1360,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -895,7 +923,9 @@
                         "start": 1423,
                         "end": 1459,
                         "value": "following shrink (partial element)",
-                        "raw": "\"following shrink (partial element)\""
+                        "raw": "\"following shrink (partial element)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -968,7 +998,9 @@
                             "start": 1506,
                             "end": 1507,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -1051,7 +1083,9 @@
                         "start": 1570,
                         "end": 1602,
                         "value": "following shrink (on boundary)",
-                        "raw": "\"following shrink (on boundary)\""
+                        "raw": "\"following shrink (on boundary)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -1099,7 +1133,9 @@
                               "start": 1628,
                               "end": 1629,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1125,7 +1161,9 @@
                             "start": 1647,
                             "end": 1648,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -1208,7 +1246,9 @@
                         "start": 1711,
                         "end": 1745,
                         "value": "following shrink (out of bounds)",
-                        "raw": "\"following shrink (out of bounds)\""
+                        "raw": "\"following shrink (out of bounds)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

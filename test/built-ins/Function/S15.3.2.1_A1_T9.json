@@ -34,7 +34,9 @@
                 "start": 901,
                 "end": 923,
                 "value": "return arguments[0];",
-                "raw": "\"return arguments[0];\""
+                "raw": "\"return arguments[0];\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -80,7 +82,9 @@
             "start": 957,
             "end": 1030,
             "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -130,7 +134,9 @@
                 "start": 1052,
                 "end": 1055,
                 "value": "A",
-                "raw": "\"A\""
+                "raw": "\"A\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -140,14 +146,18 @@
             "start": 1058,
             "end": 1061,
             "value": "A",
-            "raw": "\"A\""
+            "raw": "\"A\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1063,
             "end": 1087,
             "value": "f(\"A\") must return \"A\"",
-            "raw": "'f(\"A\") must return \"A\"'"
+            "raw": "'f(\"A\") must return \"A\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

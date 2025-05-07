@@ -47,14 +47,18 @@
                 "start": 629,
                 "end": 633,
                 "value": 2001,
-                "raw": "2001"
+                "raw": "2001",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 635,
                 "end": 636,
                 "value": 9,
-                "raw": "9"
+                "raw": "9",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -137,7 +141,9 @@
                       "start": 706,
                       "end": 708,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -172,28 +178,36 @@
             "start": 732,
             "end": 736,
             "value": 2001,
-            "raw": "2001"
+            "raw": "2001",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 738,
             "end": 740,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 747,
             "value": "M11",
-            "raw": "\"M11\""
+            "raw": "\"M11\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 751,
             "end": 832,
             "value": "only the properties that are present and defined in the plain object are copied",
-            "raw": "\"only the properties that are present and defined in the plain object are copied\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

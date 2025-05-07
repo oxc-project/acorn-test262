@@ -47,28 +47,36 @@
                 "start": 271,
                 "end": 272,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 275,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 278,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 280,
                 "end": 281,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -120,35 +128,45 @@
                 "start": 322,
                 "end": 323,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 336,
                 "value": 24,
-                "raw": "24"
+                "raw": "24",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -293,7 +311,9 @@
                           "start": 445,
                           "end": 483,
                           "value": "2017-01-01T00:00[America/Montevideo]",
-                          "raw": "'2017-01-01T00:00[America/Montevideo]'"
+                          "raw": "'2017-01-01T00:00[America/Montevideo]'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -310,14 +330,18 @@
             "start": 491,
             "end": 492,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 496,
             "end": 586,
             "value": "relativeTo does not affect days if ZonedDateTime, and duration encompasses no DST change",
-            "raw": "'relativeTo does not affect days if ZonedDateTime, and duration encompasses no DST change'"
+            "raw": "'relativeTo does not affect days if ZonedDateTime, and duration encompasses no DST change'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,7 +484,9 @@
                           "start": 694,
                           "end": 731,
                           "value": "2019-11-03T00:00[America/Vancouver]",
-                          "raw": "'2019-11-03T00:00[America/Vancouver]'"
+                          "raw": "'2019-11-03T00:00[America/Vancouver]'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -477,14 +503,18 @@
             "start": 739,
             "end": 740,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 827,
             "value": "relativeTo does affect days if ZonedDateTime, and duration encompasses DST change",
-            "raw": "'relativeTo does affect days if ZonedDateTime, and duration encompasses DST change'"
+            "raw": "'relativeTo does affect days if ZonedDateTime, and duration encompasses DST change'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -590,7 +620,9 @@
                       "start": 907,
                       "end": 944,
                       "value": "2019-11-03T00:00[America/Vancouver]",
-                      "raw": "'2019-11-03T00:00[America/Vancouver]'"
+                      "raw": "'2019-11-03T00:00[America/Vancouver]'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -604,14 +636,18 @@
             "start": 951,
             "end": 952,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 1003,
             "value": "casts relativeTo to ZonedDateTime from string",
-            "raw": "'casts relativeTo to ZonedDateTime from string'"
+            "raw": "'casts relativeTo to ZonedDateTime from string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -735,7 +771,9 @@
                             "start": 1095,
                             "end": 1099,
                             "value": 2019,
-                            "raw": "2019"
+                            "raw": "2019",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -757,7 +795,9 @@
                             "start": 1108,
                             "end": 1110,
                             "value": 11,
-                            "raw": "11"
+                            "raw": "11",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -779,7 +819,9 @@
                             "start": 1117,
                             "end": 1118,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -801,7 +843,9 @@
                             "start": 1130,
                             "end": 1149,
                             "value": "America/Vancouver",
-                            "raw": "'America/Vancouver'"
+                            "raw": "'America/Vancouver'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -819,14 +863,18 @@
             "start": 1160,
             "end": 1161,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1165,
             "end": 1212,
             "value": "casts relativeTo to ZonedDateTime from object",
-            "raw": "'casts relativeTo to ZonedDateTime from object'"
+            "raw": "'casts relativeTo to ZonedDateTime from object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

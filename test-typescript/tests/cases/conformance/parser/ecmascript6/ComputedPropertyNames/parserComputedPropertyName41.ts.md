@@ -44,7 +44,9 @@ __ESTREE_TEST__:PASS:
                     "start": 15,
                     "end": 16,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "regex": null,
+                    "bigint": null
                   },
                   "right": {
                     "type": "ArrayExpression",
@@ -62,7 +64,9 @@ __ESTREE_TEST__:PASS:
                   "start": 25,
                   "end": 29,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

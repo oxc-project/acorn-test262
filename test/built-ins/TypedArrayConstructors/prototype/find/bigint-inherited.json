@@ -109,7 +109,9 @@
                             "start": 422,
                             "end": 428,
                             "value": "find",
-                            "raw": "\"find\""
+                            "raw": "\"find\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 431,
                         "end": 436,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -68,7 +68,9 @@
             "start": 883,
             "end": 919,
             "value": "missing non-optional year argument",
-            "raw": "'missing non-optional year argument'"
+            "raw": "'missing non-optional year argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

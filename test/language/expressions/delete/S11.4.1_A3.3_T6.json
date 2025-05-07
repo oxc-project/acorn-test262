@@ -82,7 +82,9 @@
           "start": 441,
           "end": 445,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -110,7 +112,9 @@
                   "start": 479,
                   "end": 579,
                   "value": "#1: function MyFunction(){}; var MyObjectNotVar = new MyFunction(); delete MyObjectNotVar === true",
-                  "raw": "'#1: function MyFunction(){}; var MyObjectNotVar = new MyFunction(); delete MyObjectNotVar === true'"
+                  "raw": "'#1: function MyFunction(){}; var MyObjectNotVar = new MyFunction(); delete MyObjectNotVar === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

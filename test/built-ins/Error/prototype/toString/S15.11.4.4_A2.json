@@ -55,7 +55,9 @@
                     "start": 338,
                     "end": 345,
                     "value": "Error",
-                    "raw": "\"Error\""
+                    "raw": "\"Error\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -82,7 +84,9 @@
             "start": 370,
             "end": 429,
             "value": "The value of toStr is expected to not equal ``undefined``",
-            "raw": "'The value of toStr is expected to not equal ``undefined``'"
+            "raw": "'The value of toStr is expected to not equal ``undefined``'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

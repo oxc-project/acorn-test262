@@ -34,7 +34,9 @@
                 "start": 921,
                 "end": 937,
                 "value": "class C {}/1/;",
-                "raw": "'class C {}/1/;'"
+                "raw": "'class C {}/1/;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -179,7 +181,9 @@
             "start": 1039,
             "end": 1041,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +248,9 @@
             "start": 1080,
             "end": 1085,
             "value": "/1/",
-            "raw": "'/1/'"
+            "raw": "'/1/'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

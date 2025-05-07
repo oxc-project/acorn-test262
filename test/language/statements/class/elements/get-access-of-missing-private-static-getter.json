@@ -218,7 +218,9 @@
             "start": 1082,
             "end": 1155,
             "value": "get operation on private accessor without getter should throw TypeError",
-            "raw": "'get operation on private accessor without getter should throw TypeError'"
+            "raw": "'get operation on private accessor without getter should throw TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

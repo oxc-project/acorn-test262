@@ -70,7 +70,9 @@
                               "start": 1009,
                               "end": 1037,
                               "value": "catpure this on evaluation",
-                              "raw": "'catpure this on evaluation'"
+                              "raw": "'catpure this on evaluation'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -172,7 +174,9 @@
             "start": 1113,
             "end": 1150,
             "value": "Custom Error getting property value",
-            "raw": "'Custom Error getting property value'"
+            "raw": "'Custom Error getting property value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +255,9 @@
             "start": 1220,
             "end": 1235,
             "value": "bad reference",
-            "raw": "'bad reference'"
+            "raw": "'bad reference'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

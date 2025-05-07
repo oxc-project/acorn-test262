@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 353,
                 "end": 366,
                 "value": "AAAAAAAAAAA",
-                "raw": "\"AAAAAAAAAAA\""
+                "raw": "\"AAAAAAAAAAA\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +92,9 @@
               "start": 383,
               "end": 387,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -117,7 +122,9 @@
                 "start": 397,
                 "end": 398,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -128,7 +135,9 @@
               "start": 404,
               "end": 417,
               "value": "AAAAAAAAAAA",
-              "raw": "\"AAAAAAAAAAA\""
+              "raw": "\"AAAAAAAAAAA\"",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -162,7 +171,9 @@
                     "start": 447,
                     "end": 573,
                     "value": "#1: var arr = /((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1/.exec(\"AAAAAAAAAAA\"); arr[0] === \"AAAAAAAAAAA\". Actual. ",
-                    "raw": "'#1: var arr = /((((((((((A))))))))))\\\\10\\\\9\\\\8\\\\7\\\\6\\\\5\\\\4\\\\3\\\\2\\\\1/.exec(\"AAAAAAAAAAA\"); arr[0] === \"AAAAAAAAAAA\". Actual. '"
+                    "raw": "'#1: var arr = /((((((((((A))))))))))\\\\10\\\\9\\\\8\\\\7\\\\6\\\\5\\\\4\\\\3\\\\2\\\\1/.exec(\"AAAAAAAAAAA\"); arr[0] === \"AAAAAAAAAAA\". Actual. '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +206,9 @@
                           "start": 588,
                           "end": 589,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -234,7 +247,9 @@
               "start": 610,
               "end": 611,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -256,7 +271,9 @@
           "start": 618,
           "end": 620,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -305,7 +322,9 @@
                     "start": 646,
                     "end": 650,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -343,7 +362,9 @@
                     "start": 667,
                     "end": 670,
                     "value": "A",
-                    "raw": "\"A\""
+                    "raw": "\"A\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -385,7 +406,9 @@
                               "start": 702,
                               "end": 798,
                               "value": "#2: var arr = /((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1/.exec(\"AAAAAAAAAAA\"); arr[",
-                              "raw": "'#2: var arr = /((((((((((A))))))))))\\\\10\\\\9\\\\8\\\\7\\\\6\\\\5\\\\4\\\\3\\\\2\\\\1/.exec(\"AAAAAAAAAAA\"); arr['"
+                              "raw": "'#2: var arr = /((((((((((A))))))))))\\\\10\\\\9\\\\8\\\\7\\\\6\\\\5\\\\4\\\\3\\\\2\\\\1/.exec(\"AAAAAAAAAAA\"); arr['",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -401,7 +424,9 @@
                             "start": 805,
                             "end": 826,
                             "value": "] === \"A\". Actual. ",
-                            "raw": "'] === \"A\". Actual. '"
+                            "raw": "'] === \"A\". Actual. '",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

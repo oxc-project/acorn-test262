@@ -44,7 +44,9 @@
                 "start": 898,
                 "end": 912,
                 "value": "𐐀",
-                "raw": "\"\\uD801\\uDC00\""
+                "raw": "\"\\uD801\\uDC00\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 934,
             "end": 948,
             "value": "𐐨",
-            "raw": "\"\\uD801\\uDC28\""
+            "raw": "\"\\uD801\\uDC28\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 981,
             "value": "DESERET CAPITAL LETTER LONG I",
-            "raw": "\"DESERET CAPITAL LETTER LONG I\""
+            "raw": "\"DESERET CAPITAL LETTER LONG I\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -117,7 +123,9 @@
                 "start": 1001,
                 "end": 1015,
                 "value": "𐐁",
-                "raw": "\"\\uD801\\uDC01\""
+                "raw": "\"\\uD801\\uDC01\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -136,14 +144,18 @@
             "start": 1037,
             "end": 1051,
             "value": "𐐩",
-            "raw": "\"\\uD801\\uDC29\""
+            "raw": "\"\\uD801\\uDC29\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1053,
             "end": 1084,
             "value": "DESERET CAPITAL LETTER LONG E",
-            "raw": "\"DESERET CAPITAL LETTER LONG E\""
+            "raw": "\"DESERET CAPITAL LETTER LONG E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +202,9 @@
                 "start": 1104,
                 "end": 1118,
                 "value": "𐐂",
-                "raw": "\"\\uD801\\uDC02\""
+                "raw": "\"\\uD801\\uDC02\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -209,14 +223,18 @@
             "start": 1140,
             "end": 1154,
             "value": "𐐪",
-            "raw": "\"\\uD801\\uDC2A\""
+            "raw": "\"\\uD801\\uDC2A\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1156,
             "end": 1187,
             "value": "DESERET CAPITAL LETTER LONG A",
-            "raw": "\"DESERET CAPITAL LETTER LONG A\""
+            "raw": "\"DESERET CAPITAL LETTER LONG A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +281,9 @@
                 "start": 1207,
                 "end": 1221,
                 "value": "𐐃",
-                "raw": "\"\\uD801\\uDC03\""
+                "raw": "\"\\uD801\\uDC03\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -282,14 +302,18 @@
             "start": 1243,
             "end": 1257,
             "value": "𐐫",
-            "raw": "\"\\uD801\\uDC2B\""
+            "raw": "\"\\uD801\\uDC2B\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1291,
             "value": "DESERET CAPITAL LETTER LONG AH",
-            "raw": "\"DESERET CAPITAL LETTER LONG AH\""
+            "raw": "\"DESERET CAPITAL LETTER LONG AH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -336,7 +360,9 @@
                 "start": 1311,
                 "end": 1325,
                 "value": "𐐄",
-                "raw": "\"\\uD801\\uDC04\""
+                "raw": "\"\\uD801\\uDC04\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -355,14 +381,18 @@
             "start": 1347,
             "end": 1361,
             "value": "𐐬",
-            "raw": "\"\\uD801\\uDC2C\""
+            "raw": "\"\\uD801\\uDC2C\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1363,
             "end": 1394,
             "value": "DESERET CAPITAL LETTER LONG O",
-            "raw": "\"DESERET CAPITAL LETTER LONG O\""
+            "raw": "\"DESERET CAPITAL LETTER LONG O\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -409,7 +439,9 @@
                 "start": 1414,
                 "end": 1428,
                 "value": "𐐅",
-                "raw": "\"\\uD801\\uDC05\""
+                "raw": "\"\\uD801\\uDC05\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -428,14 +460,18 @@
             "start": 1450,
             "end": 1464,
             "value": "𐐭",
-            "raw": "\"\\uD801\\uDC2D\""
+            "raw": "\"\\uD801\\uDC2D\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1466,
             "end": 1498,
             "value": "DESERET CAPITAL LETTER LONG OO",
-            "raw": "\"DESERET CAPITAL LETTER LONG OO\""
+            "raw": "\"DESERET CAPITAL LETTER LONG OO\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -482,7 +518,9 @@
                 "start": 1518,
                 "end": 1532,
                 "value": "𐐆",
-                "raw": "\"\\uD801\\uDC06\""
+                "raw": "\"\\uD801\\uDC06\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -501,14 +539,18 @@
             "start": 1554,
             "end": 1568,
             "value": "𐐮",
-            "raw": "\"\\uD801\\uDC2E\""
+            "raw": "\"\\uD801\\uDC2E\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1570,
             "end": 1602,
             "value": "DESERET CAPITAL LETTER SHORT I",
-            "raw": "\"DESERET CAPITAL LETTER SHORT I\""
+            "raw": "\"DESERET CAPITAL LETTER SHORT I\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -555,7 +597,9 @@
                 "start": 1622,
                 "end": 1636,
                 "value": "𐐇",
-                "raw": "\"\\uD801\\uDC07\""
+                "raw": "\"\\uD801\\uDC07\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -574,14 +618,18 @@
             "start": 1658,
             "end": 1672,
             "value": "𐐯",
-            "raw": "\"\\uD801\\uDC2F\""
+            "raw": "\"\\uD801\\uDC2F\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1674,
             "end": 1706,
             "value": "DESERET CAPITAL LETTER SHORT E",
-            "raw": "\"DESERET CAPITAL LETTER SHORT E\""
+            "raw": "\"DESERET CAPITAL LETTER SHORT E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -628,7 +676,9 @@
                 "start": 1726,
                 "end": 1740,
                 "value": "𐐈",
-                "raw": "\"\\uD801\\uDC08\""
+                "raw": "\"\\uD801\\uDC08\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -647,14 +697,18 @@
             "start": 1762,
             "end": 1776,
             "value": "𐐰",
-            "raw": "\"\\uD801\\uDC30\""
+            "raw": "\"\\uD801\\uDC30\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1778,
             "end": 1810,
             "value": "DESERET CAPITAL LETTER SHORT A",
-            "raw": "\"DESERET CAPITAL LETTER SHORT A\""
+            "raw": "\"DESERET CAPITAL LETTER SHORT A\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -701,7 +755,9 @@
                 "start": 1830,
                 "end": 1844,
                 "value": "𐐉",
-                "raw": "\"\\uD801\\uDC09\""
+                "raw": "\"\\uD801\\uDC09\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -720,14 +776,18 @@
             "start": 1866,
             "end": 1880,
             "value": "𐐱",
-            "raw": "\"\\uD801\\uDC31\""
+            "raw": "\"\\uD801\\uDC31\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1882,
             "end": 1915,
             "value": "DESERET CAPITAL LETTER SHORT AH",
-            "raw": "\"DESERET CAPITAL LETTER SHORT AH\""
+            "raw": "\"DESERET CAPITAL LETTER SHORT AH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -774,7 +834,9 @@
                 "start": 1935,
                 "end": 1949,
                 "value": "𐐊",
-                "raw": "\"\\uD801\\uDC0A\""
+                "raw": "\"\\uD801\\uDC0A\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -793,14 +855,18 @@
             "start": 1971,
             "end": 1985,
             "value": "𐐲",
-            "raw": "\"\\uD801\\uDC32\""
+            "raw": "\"\\uD801\\uDC32\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1987,
             "end": 2019,
             "value": "DESERET CAPITAL LETTER SHORT O",
-            "raw": "\"DESERET CAPITAL LETTER SHORT O\""
+            "raw": "\"DESERET CAPITAL LETTER SHORT O\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -847,7 +913,9 @@
                 "start": 2039,
                 "end": 2053,
                 "value": "𐐋",
-                "raw": "\"\\uD801\\uDC0B\""
+                "raw": "\"\\uD801\\uDC0B\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -866,14 +934,18 @@
             "start": 2075,
             "end": 2089,
             "value": "𐐳",
-            "raw": "\"\\uD801\\uDC33\""
+            "raw": "\"\\uD801\\uDC33\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2091,
             "end": 2124,
             "value": "DESERET CAPITAL LETTER SHORT OO",
-            "raw": "\"DESERET CAPITAL LETTER SHORT OO\""
+            "raw": "\"DESERET CAPITAL LETTER SHORT OO\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -920,7 +992,9 @@
                 "start": 2144,
                 "end": 2158,
                 "value": "𐐌",
-                "raw": "\"\\uD801\\uDC0C\""
+                "raw": "\"\\uD801\\uDC0C\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -939,14 +1013,18 @@
             "start": 2180,
             "end": 2194,
             "value": "𐐴",
-            "raw": "\"\\uD801\\uDC34\""
+            "raw": "\"\\uD801\\uDC34\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2196,
             "end": 2223,
             "value": "DESERET CAPITAL LETTER AY",
-            "raw": "\"DESERET CAPITAL LETTER AY\""
+            "raw": "\"DESERET CAPITAL LETTER AY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -993,7 +1071,9 @@
                 "start": 2243,
                 "end": 2257,
                 "value": "𐐍",
-                "raw": "\"\\uD801\\uDC0D\""
+                "raw": "\"\\uD801\\uDC0D\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1012,14 +1092,18 @@
             "start": 2279,
             "end": 2293,
             "value": "𐐵",
-            "raw": "\"\\uD801\\uDC35\""
+            "raw": "\"\\uD801\\uDC35\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2295,
             "end": 2322,
             "value": "DESERET CAPITAL LETTER OW",
-            "raw": "\"DESERET CAPITAL LETTER OW\""
+            "raw": "\"DESERET CAPITAL LETTER OW\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1066,7 +1150,9 @@
                 "start": 2342,
                 "end": 2356,
                 "value": "𐐎",
-                "raw": "\"\\uD801\\uDC0E\""
+                "raw": "\"\\uD801\\uDC0E\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1085,14 +1171,18 @@
             "start": 2378,
             "end": 2392,
             "value": "𐐶",
-            "raw": "\"\\uD801\\uDC36\""
+            "raw": "\"\\uD801\\uDC36\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2394,
             "end": 2421,
             "value": "DESERET CAPITAL LETTER WU",
-            "raw": "\"DESERET CAPITAL LETTER WU\""
+            "raw": "\"DESERET CAPITAL LETTER WU\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1139,7 +1229,9 @@
                 "start": 2441,
                 "end": 2455,
                 "value": "𐐏",
-                "raw": "\"\\uD801\\uDC0F\""
+                "raw": "\"\\uD801\\uDC0F\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1158,14 +1250,18 @@
             "start": 2477,
             "end": 2491,
             "value": "𐐷",
-            "raw": "\"\\uD801\\uDC37\""
+            "raw": "\"\\uD801\\uDC37\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2493,
             "end": 2521,
             "value": "DESERET CAPITAL LETTER YEE",
-            "raw": "\"DESERET CAPITAL LETTER YEE\""
+            "raw": "\"DESERET CAPITAL LETTER YEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1212,7 +1308,9 @@
                 "start": 2541,
                 "end": 2555,
                 "value": "𐐐",
-                "raw": "\"\\uD801\\uDC10\""
+                "raw": "\"\\uD801\\uDC10\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1231,14 +1329,18 @@
             "start": 2577,
             "end": 2591,
             "value": "𐐸",
-            "raw": "\"\\uD801\\uDC38\""
+            "raw": "\"\\uD801\\uDC38\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2593,
             "end": 2619,
             "value": "DESERET CAPITAL LETTER H",
-            "raw": "\"DESERET CAPITAL LETTER H\""
+            "raw": "\"DESERET CAPITAL LETTER H\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1285,7 +1387,9 @@
                 "start": 2639,
                 "end": 2653,
                 "value": "𐐑",
-                "raw": "\"\\uD801\\uDC11\""
+                "raw": "\"\\uD801\\uDC11\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1304,14 +1408,18 @@
             "start": 2675,
             "end": 2689,
             "value": "𐐹",
-            "raw": "\"\\uD801\\uDC39\""
+            "raw": "\"\\uD801\\uDC39\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2691,
             "end": 2719,
             "value": "DESERET CAPITAL LETTER PEE",
-            "raw": "\"DESERET CAPITAL LETTER PEE\""
+            "raw": "\"DESERET CAPITAL LETTER PEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1358,7 +1466,9 @@
                 "start": 2739,
                 "end": 2753,
                 "value": "𐐒",
-                "raw": "\"\\uD801\\uDC12\""
+                "raw": "\"\\uD801\\uDC12\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1377,14 +1487,18 @@
             "start": 2775,
             "end": 2789,
             "value": "𐐺",
-            "raw": "\"\\uD801\\uDC3A\""
+            "raw": "\"\\uD801\\uDC3A\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2791,
             "end": 2819,
             "value": "DESERET CAPITAL LETTER BEE",
-            "raw": "\"DESERET CAPITAL LETTER BEE\""
+            "raw": "\"DESERET CAPITAL LETTER BEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1431,7 +1545,9 @@
                 "start": 2839,
                 "end": 2853,
                 "value": "𐐓",
-                "raw": "\"\\uD801\\uDC13\""
+                "raw": "\"\\uD801\\uDC13\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1450,14 +1566,18 @@
             "start": 2875,
             "end": 2889,
             "value": "𐐻",
-            "raw": "\"\\uD801\\uDC3B\""
+            "raw": "\"\\uD801\\uDC3B\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2891,
             "end": 2919,
             "value": "DESERET CAPITAL LETTER TEE",
-            "raw": "\"DESERET CAPITAL LETTER TEE\""
+            "raw": "\"DESERET CAPITAL LETTER TEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1504,7 +1624,9 @@
                 "start": 2939,
                 "end": 2953,
                 "value": "𐐔",
-                "raw": "\"\\uD801\\uDC14\""
+                "raw": "\"\\uD801\\uDC14\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1523,14 +1645,18 @@
             "start": 2975,
             "end": 2989,
             "value": "𐐼",
-            "raw": "\"\\uD801\\uDC3C\""
+            "raw": "\"\\uD801\\uDC3C\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2991,
             "end": 3019,
             "value": "DESERET CAPITAL LETTER DEE",
-            "raw": "\"DESERET CAPITAL LETTER DEE\""
+            "raw": "\"DESERET CAPITAL LETTER DEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1577,7 +1703,9 @@
                 "start": 3039,
                 "end": 3053,
                 "value": "𐐕",
-                "raw": "\"\\uD801\\uDC15\""
+                "raw": "\"\\uD801\\uDC15\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1596,14 +1724,18 @@
             "start": 3075,
             "end": 3089,
             "value": "𐐽",
-            "raw": "\"\\uD801\\uDC3D\""
+            "raw": "\"\\uD801\\uDC3D\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3091,
             "end": 3120,
             "value": "DESERET CAPITAL LETTER CHEE",
-            "raw": "\"DESERET CAPITAL LETTER CHEE\""
+            "raw": "\"DESERET CAPITAL LETTER CHEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1650,7 +1782,9 @@
                 "start": 3140,
                 "end": 3154,
                 "value": "𐐖",
-                "raw": "\"\\uD801\\uDC16\""
+                "raw": "\"\\uD801\\uDC16\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1669,14 +1803,18 @@
             "start": 3176,
             "end": 3190,
             "value": "𐐾",
-            "raw": "\"\\uD801\\uDC3E\""
+            "raw": "\"\\uD801\\uDC3E\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3192,
             "end": 3220,
             "value": "DESERET CAPITAL LETTER JEE",
-            "raw": "\"DESERET CAPITAL LETTER JEE\""
+            "raw": "\"DESERET CAPITAL LETTER JEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1723,7 +1861,9 @@
                 "start": 3240,
                 "end": 3254,
                 "value": "𐐗",
-                "raw": "\"\\uD801\\uDC17\""
+                "raw": "\"\\uD801\\uDC17\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1742,14 +1882,18 @@
             "start": 3276,
             "end": 3290,
             "value": "𐐿",
-            "raw": "\"\\uD801\\uDC3F\""
+            "raw": "\"\\uD801\\uDC3F\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3292,
             "end": 3320,
             "value": "DESERET CAPITAL LETTER KAY",
-            "raw": "\"DESERET CAPITAL LETTER KAY\""
+            "raw": "\"DESERET CAPITAL LETTER KAY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1796,7 +1940,9 @@
                 "start": 3340,
                 "end": 3354,
                 "value": "𐐘",
-                "raw": "\"\\uD801\\uDC18\""
+                "raw": "\"\\uD801\\uDC18\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1815,14 +1961,18 @@
             "start": 3376,
             "end": 3390,
             "value": "𐑀",
-            "raw": "\"\\uD801\\uDC40\""
+            "raw": "\"\\uD801\\uDC40\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3392,
             "end": 3420,
             "value": "DESERET CAPITAL LETTER GAY",
-            "raw": "\"DESERET CAPITAL LETTER GAY\""
+            "raw": "\"DESERET CAPITAL LETTER GAY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1869,7 +2019,9 @@
                 "start": 3440,
                 "end": 3454,
                 "value": "𐐙",
-                "raw": "\"\\uD801\\uDC19\""
+                "raw": "\"\\uD801\\uDC19\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1888,14 +2040,18 @@
             "start": 3476,
             "end": 3490,
             "value": "𐑁",
-            "raw": "\"\\uD801\\uDC41\""
+            "raw": "\"\\uD801\\uDC41\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3492,
             "end": 3519,
             "value": "DESERET CAPITAL LETTER EF",
-            "raw": "\"DESERET CAPITAL LETTER EF\""
+            "raw": "\"DESERET CAPITAL LETTER EF\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1942,7 +2098,9 @@
                 "start": 3539,
                 "end": 3553,
                 "value": "𐐚",
-                "raw": "\"\\uD801\\uDC1A\""
+                "raw": "\"\\uD801\\uDC1A\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1961,14 +2119,18 @@
             "start": 3575,
             "end": 3589,
             "value": "𐑂",
-            "raw": "\"\\uD801\\uDC42\""
+            "raw": "\"\\uD801\\uDC42\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3591,
             "end": 3619,
             "value": "DESERET CAPITAL LETTER VEE",
-            "raw": "\"DESERET CAPITAL LETTER VEE\""
+            "raw": "\"DESERET CAPITAL LETTER VEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2015,7 +2177,9 @@
                 "start": 3639,
                 "end": 3653,
                 "value": "𐐛",
-                "raw": "\"\\uD801\\uDC1B\""
+                "raw": "\"\\uD801\\uDC1B\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2034,14 +2198,18 @@
             "start": 3675,
             "end": 3689,
             "value": "𐑃",
-            "raw": "\"\\uD801\\uDC43\""
+            "raw": "\"\\uD801\\uDC43\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3691,
             "end": 3719,
             "value": "DESERET CAPITAL LETTER ETH",
-            "raw": "\"DESERET CAPITAL LETTER ETH\""
+            "raw": "\"DESERET CAPITAL LETTER ETH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2088,7 +2256,9 @@
                 "start": 3739,
                 "end": 3753,
                 "value": "𐐜",
-                "raw": "\"\\uD801\\uDC1C\""
+                "raw": "\"\\uD801\\uDC1C\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2107,14 +2277,18 @@
             "start": 3775,
             "end": 3789,
             "value": "𐑄",
-            "raw": "\"\\uD801\\uDC44\""
+            "raw": "\"\\uD801\\uDC44\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3791,
             "end": 3820,
             "value": "DESERET CAPITAL LETTER THEE",
-            "raw": "\"DESERET CAPITAL LETTER THEE\""
+            "raw": "\"DESERET CAPITAL LETTER THEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2161,7 +2335,9 @@
                 "start": 3840,
                 "end": 3854,
                 "value": "𐐝",
-                "raw": "\"\\uD801\\uDC1D\""
+                "raw": "\"\\uD801\\uDC1D\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2180,14 +2356,18 @@
             "start": 3876,
             "end": 3890,
             "value": "𐑅",
-            "raw": "\"\\uD801\\uDC45\""
+            "raw": "\"\\uD801\\uDC45\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3892,
             "end": 3919,
             "value": "DESERET CAPITAL LETTER ES",
-            "raw": "\"DESERET CAPITAL LETTER ES\""
+            "raw": "\"DESERET CAPITAL LETTER ES\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2234,7 +2414,9 @@
                 "start": 3939,
                 "end": 3953,
                 "value": "𐐞",
-                "raw": "\"\\uD801\\uDC1E\""
+                "raw": "\"\\uD801\\uDC1E\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2253,14 +2435,18 @@
             "start": 3975,
             "end": 3989,
             "value": "𐑆",
-            "raw": "\"\\uD801\\uDC46\""
+            "raw": "\"\\uD801\\uDC46\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 3991,
             "end": 4019,
             "value": "DESERET CAPITAL LETTER ZEE",
-            "raw": "\"DESERET CAPITAL LETTER ZEE\""
+            "raw": "\"DESERET CAPITAL LETTER ZEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2307,7 +2493,9 @@
                 "start": 4039,
                 "end": 4053,
                 "value": "𐐟",
-                "raw": "\"\\uD801\\uDC1F\""
+                "raw": "\"\\uD801\\uDC1F\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2326,14 +2514,18 @@
             "start": 4075,
             "end": 4089,
             "value": "𐑇",
-            "raw": "\"\\uD801\\uDC47\""
+            "raw": "\"\\uD801\\uDC47\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4091,
             "end": 4119,
             "value": "DESERET CAPITAL LETTER ESH",
-            "raw": "\"DESERET CAPITAL LETTER ESH\""
+            "raw": "\"DESERET CAPITAL LETTER ESH\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2380,7 +2572,9 @@
                 "start": 4139,
                 "end": 4153,
                 "value": "𐐠",
-                "raw": "\"\\uD801\\uDC20\""
+                "raw": "\"\\uD801\\uDC20\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2399,14 +2593,18 @@
             "start": 4175,
             "end": 4189,
             "value": "𐑈",
-            "raw": "\"\\uD801\\uDC48\""
+            "raw": "\"\\uD801\\uDC48\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4191,
             "end": 4220,
             "value": "DESERET CAPITAL LETTER ZHEE",
-            "raw": "\"DESERET CAPITAL LETTER ZHEE\""
+            "raw": "\"DESERET CAPITAL LETTER ZHEE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2453,7 +2651,9 @@
                 "start": 4240,
                 "end": 4254,
                 "value": "𐐡",
-                "raw": "\"\\uD801\\uDC21\""
+                "raw": "\"\\uD801\\uDC21\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2472,14 +2672,18 @@
             "start": 4276,
             "end": 4290,
             "value": "𐑉",
-            "raw": "\"\\uD801\\uDC49\""
+            "raw": "\"\\uD801\\uDC49\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4292,
             "end": 4319,
             "value": "DESERET CAPITAL LETTER ER",
-            "raw": "\"DESERET CAPITAL LETTER ER\""
+            "raw": "\"DESERET CAPITAL LETTER ER\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2526,7 +2730,9 @@
                 "start": 4339,
                 "end": 4353,
                 "value": "𐐢",
-                "raw": "\"\\uD801\\uDC22\""
+                "raw": "\"\\uD801\\uDC22\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2545,14 +2751,18 @@
             "start": 4375,
             "end": 4389,
             "value": "𐑊",
-            "raw": "\"\\uD801\\uDC4A\""
+            "raw": "\"\\uD801\\uDC4A\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4391,
             "end": 4418,
             "value": "DESERET CAPITAL LETTER EL",
-            "raw": "\"DESERET CAPITAL LETTER EL\""
+            "raw": "\"DESERET CAPITAL LETTER EL\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2599,7 +2809,9 @@
                 "start": 4438,
                 "end": 4452,
                 "value": "𐐣",
-                "raw": "\"\\uD801\\uDC23\""
+                "raw": "\"\\uD801\\uDC23\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2618,14 +2830,18 @@
             "start": 4474,
             "end": 4488,
             "value": "𐑋",
-            "raw": "\"\\uD801\\uDC4B\""
+            "raw": "\"\\uD801\\uDC4B\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4490,
             "end": 4517,
             "value": "DESERET CAPITAL LETTER EM",
-            "raw": "\"DESERET CAPITAL LETTER EM\""
+            "raw": "\"DESERET CAPITAL LETTER EM\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2672,7 +2888,9 @@
                 "start": 4537,
                 "end": 4551,
                 "value": "𐐤",
-                "raw": "\"\\uD801\\uDC24\""
+                "raw": "\"\\uD801\\uDC24\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2691,14 +2909,18 @@
             "start": 4573,
             "end": 4587,
             "value": "𐑌",
-            "raw": "\"\\uD801\\uDC4C\""
+            "raw": "\"\\uD801\\uDC4C\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4589,
             "end": 4616,
             "value": "DESERET CAPITAL LETTER EN",
-            "raw": "\"DESERET CAPITAL LETTER EN\""
+            "raw": "\"DESERET CAPITAL LETTER EN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2745,7 +2967,9 @@
                 "start": 4636,
                 "end": 4650,
                 "value": "𐐥",
-                "raw": "\"\\uD801\\uDC25\""
+                "raw": "\"\\uD801\\uDC25\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2764,14 +2988,18 @@
             "start": 4672,
             "end": 4686,
             "value": "𐑍",
-            "raw": "\"\\uD801\\uDC4D\""
+            "raw": "\"\\uD801\\uDC4D\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4688,
             "end": 4716,
             "value": "DESERET CAPITAL LETTER ENG",
-            "raw": "\"DESERET CAPITAL LETTER ENG\""
+            "raw": "\"DESERET CAPITAL LETTER ENG\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2818,7 +3046,9 @@
                 "start": 4736,
                 "end": 4750,
                 "value": "𐐦",
-                "raw": "\"\\uD801\\uDC26\""
+                "raw": "\"\\uD801\\uDC26\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2837,14 +3067,18 @@
             "start": 4772,
             "end": 4786,
             "value": "𐑎",
-            "raw": "\"\\uD801\\uDC4E\""
+            "raw": "\"\\uD801\\uDC4E\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4788,
             "end": 4815,
             "value": "DESERET CAPITAL LETTER OI",
-            "raw": "\"DESERET CAPITAL LETTER OI\""
+            "raw": "\"DESERET CAPITAL LETTER OI\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -2891,7 +3125,9 @@
                 "start": 4835,
                 "end": 4849,
                 "value": "𐐧",
-                "raw": "\"\\uD801\\uDC27\""
+                "raw": "\"\\uD801\\uDC27\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2910,14 +3146,18 @@
             "start": 4871,
             "end": 4885,
             "value": "𐑏",
-            "raw": "\"\\uD801\\uDC4F\""
+            "raw": "\"\\uD801\\uDC4F\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 4887,
             "end": 4914,
             "value": "DESERET CAPITAL LETTER EW",
-            "raw": "\"DESERET CAPITAL LETTER EW\""
+            "raw": "\"DESERET CAPITAL LETTER EW\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

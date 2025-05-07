@@ -199,7 +199,9 @@
             "start": 1676,
             "end": 1686,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

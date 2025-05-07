@@ -85,7 +85,9 @@
                   "start": 921,
                   "end": 941,
                   "value": 4503599627370497000,
-                  "raw": "4503599627370497_000"
+                  "raw": "4503599627370497_000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -107,7 +109,9 @@
                   "start": 1005,
                   "end": 1028,
                   "value": 4.503599627370495e+21,
-                  "raw": "4503599627370495_000000"
+                  "raw": "4503599627370495_000000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -189,7 +193,9 @@
                     "start": 1180,
                     "end": 1183,
                     "value": 1000,
-                    "raw": "1e3"
+                    "raw": "1e3",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -222,7 +228,9 @@
                     "start": 1210,
                     "end": 1213,
                     "value": 1000000,
-                    "raw": "1e6"
+                    "raw": "1e6",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -299,14 +307,18 @@
             "start": 1282,
             "end": 1287,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1291,
             "end": 1361,
             "value": "Naive approach incorrectly computes duration seconds as out-of-range",
-            "raw": "\"Naive approach incorrectly computes duration seconds as out-of-range\""
+            "raw": "\"Naive approach incorrectly computes duration seconds as out-of-range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,6 +402,7 @@
                       "end": 1521,
                       "value": null,
                       "raw": "1_000n",
+                      "regex": null,
                       "bigint": "1000"
                     }
                   }
@@ -452,6 +465,7 @@
                       "end": 1601,
                       "value": null,
                       "raw": "1_000_000n",
+                      "regex": null,
                       "bigint": "1000000"
                     }
                   }
@@ -533,7 +547,9 @@
                               "start": 1669,
                               "end": 1672,
                               "value": 1000,
-                              "raw": "1e3"
+                              "raw": "1e3",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -543,7 +559,9 @@
                           "start": 1676,
                           "end": 1679,
                           "value": 1000,
-                          "raw": "1e3"
+                          "raw": "1e3",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "+",
@@ -580,7 +598,9 @@
                             "start": 1707,
                             "end": 1710,
                             "value": 1000000,
-                            "raw": "1e6"
+                            "raw": "1e6",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -592,7 +612,9 @@
                     "start": 1715,
                     "end": 1718,
                     "value": 1000000,
-                    "raw": "1e6"
+                    "raw": "1e6",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -683,14 +705,18 @@
             "start": 1795,
             "end": 1799,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1803,
             "end": 1867,
             "value": "Exact approach correctly computes duration seconds as in-range",
-            "raw": "\"Exact approach correctly computes duration seconds as in-range\""
+            "raw": "\"Exact approach correctly computes duration seconds as in-range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -769,7 +795,9 @@
             "start": 2035,
             "end": 2043,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TemplateLiteral",

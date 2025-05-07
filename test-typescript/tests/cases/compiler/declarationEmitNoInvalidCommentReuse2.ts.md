@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 33,
         "raw": "\"./obj.ts\"",
-        "value": "./obj.ts"
+        "value": "./obj.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -138,7 +140,9 @@ __ESTREE_TEST__:PASS:
                       "start": 36,
                       "end": 45,
                       "raw": "\"./id.ts\"",
-                      "value": "./id.ts"
+                      "value": "./id.ts",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "options": null,
@@ -196,7 +200,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 68,
                                     "end": 77,
                                     "raw": "\"./id.ts\"",
-                                    "value": "./id.ts"
+                                    "value": "./id.ts",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "options": null,

@@ -202,7 +202,9 @@
                             "start": 1015,
                             "end": 1016,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -212,14 +214,18 @@
                         "start": 1019,
                         "end": 1024,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1026,
                         "end": 1041,
                         "value": "returns false",
-                        "raw": "\"returns false\""
+                        "raw": "\"returns false\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -284,14 +290,18 @@
                         "start": 1082,
                         "end": 1087,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1089,
                         "end": 1113,
                         "value": "returns false - no arg",
-                        "raw": "\"returns false - no arg\""
+                        "raw": "\"returns false - no arg\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -355,6 +365,7 @@
                             "end": 1158,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {
@@ -371,14 +382,18 @@
                         "start": 1172,
                         "end": 1177,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1183,
                         "end": 1230,
                         "value": "length is checked before ToInteger(fromIndex)",
-                        "raw": "\"length is checked before ToInteger(fromIndex)\""
+                        "raw": "\"length is checked before ToInteger(fromIndex)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

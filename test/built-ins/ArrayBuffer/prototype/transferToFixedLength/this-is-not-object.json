@@ -75,7 +75,9 @@
             "start": 559,
             "end": 569,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -201,7 +203,9 @@
             "start": 677,
             "end": 704,
             "value": "`this` value is undefined",
-            "raw": "\"`this` value is undefined\""
+            "raw": "\"`this` value is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -314,7 +318,9 @@
                         "start": 797,
                         "end": 801,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -328,7 +334,9 @@
             "start": 807,
             "end": 829,
             "value": "`this` value is null",
-            "raw": "\"`this` value is null\""
+            "raw": "\"`this` value is null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -441,7 +449,9 @@
                         "start": 922,
                         "end": 926,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -455,7 +465,9 @@
             "start": 932,
             "end": 957,
             "value": "`this` value is Boolean",
-            "raw": "\"`this` value is Boolean\""
+            "raw": "\"`this` value is Boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,7 +580,9 @@
                         "start": 1050,
                         "end": 1052,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -582,7 +596,9 @@
             "start": 1058,
             "end": 1082,
             "value": "`this` value is String",
-            "raw": "\"`this` value is String\""
+            "raw": "\"`this` value is String\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -740,7 +756,9 @@
             "start": 1210,
             "end": 1234,
             "value": "`this` value is Symbol",
-            "raw": "\"`this` value is Symbol\""
+            "raw": "\"`this` value is Symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -853,7 +871,9 @@
                         "start": 1327,
                         "end": 1328,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -867,7 +887,9 @@
             "start": 1334,
             "end": 1358,
             "value": "`this` value is Number",
-            "raw": "\"`this` value is Number\""
+            "raw": "\"`this` value is Number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -981,6 +1003,7 @@
                         "end": 1453,
                         "value": null,
                         "raw": "1n",
+                        "regex": null,
                         "bigint": "1"
                       }
                     ],
@@ -995,7 +1018,9 @@
             "start": 1459,
             "end": 1483,
             "value": "`this` value is bigint",
-            "raw": "\"`this` value is bigint\""
+            "raw": "\"`this` value is bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

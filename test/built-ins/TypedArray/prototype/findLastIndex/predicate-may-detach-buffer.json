@@ -70,7 +70,9 @@
                             "start": 846,
                             "end": 847,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -98,7 +100,9 @@
                         "start": 864,
                         "end": 865,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -166,7 +170,9 @@
                                   "start": 922,
                                   "end": 923,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "consequent": {
@@ -280,14 +286,18 @@
                         "start": 1014,
                         "end": 1015,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1017,
                         "end": 1043,
                         "value": "predicate is called once",
-                        "raw": "\"predicate is called once\""
+                        "raw": "\"predicate is called once\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

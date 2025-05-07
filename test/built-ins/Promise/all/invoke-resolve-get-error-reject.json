@@ -73,7 +73,9 @@
             "start": 932,
             "end": 941,
             "value": "resolve",
-            "raw": "'resolve'"
+            "raw": "'resolve'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -256,7 +258,9 @@
                             "start": 1076,
                             "end": 1108,
                             "value": "The promise should be rejected",
-                            "raw": "'The promise should be rejected'"
+                            "raw": "'The promise should be rejected'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

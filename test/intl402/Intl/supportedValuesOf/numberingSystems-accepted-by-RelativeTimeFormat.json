@@ -47,7 +47,9 @@
                 "start": 1219,
                 "end": 1236,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -136,7 +138,9 @@
                       "start": 1328,
                       "end": 1332,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -374,7 +378,9 @@
                       "start": 1602,
                       "end": 1606,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",

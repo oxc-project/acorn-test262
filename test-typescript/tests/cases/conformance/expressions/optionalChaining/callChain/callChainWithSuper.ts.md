@@ -222,7 +222,9 @@ __ESTREE_TEST__:PASS:
                             "start": 141,
                             "end": 149,
                             "raw": "\"method\"",
-                            "value": "method"
+                            "value": "method",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "optional": true,

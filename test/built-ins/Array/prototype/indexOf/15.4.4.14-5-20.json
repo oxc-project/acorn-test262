@@ -74,14 +74,18 @@
                     "start": 349,
                     "end": 350,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 352,
                     "end": 353,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -94,14 +98,18 @@
                     "start": 366,
                     "end": 367,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 369,
                     "end": 370,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -126,7 +134,9 @@
                 "start": 391,
                 "end": 400,
                 "value": "0003.10",
-                "raw": "\"0003.10\""
+                "raw": "\"0003.10\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -142,7 +152,9 @@
               "start": 404,
               "end": 405,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -150,7 +162,9 @@
             "start": 407,
             "end": 462,
             "value": "[0, 1, targetObj, 3, 4].indexOf(targetObj, \"0003.10\")",
-            "raw": "'[0, 1, targetObj, 3, 4].indexOf(targetObj, \"0003.10\")'"
+            "raw": "'[0, 1, targetObj, 3, 4].indexOf(targetObj, \"0003.10\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -202,21 +216,27 @@
                     "start": 483,
                     "end": 484,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 486,
                     "end": 487,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 489,
                     "end": 490,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -229,7 +249,9 @@
                     "start": 503,
                     "end": 504,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -254,7 +276,9 @@
                 "start": 525,
                 "end": 534,
                 "value": "0003.10",
-                "raw": "\"0003.10\""
+                "raw": "\"0003.10\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -264,14 +288,18 @@
             "start": 537,
             "end": 538,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 595,
             "value": "[0, 1, 2, targetObj, 4].indexOf(targetObj, \"0003.10\")",
-            "raw": "'[0, 1, 2, targetObj, 4].indexOf(targetObj, \"0003.10\")'"
+            "raw": "'[0, 1, 2, targetObj, 4].indexOf(targetObj, \"0003.10\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

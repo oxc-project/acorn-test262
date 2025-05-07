@@ -933,7 +933,9 @@ __ESTREE_TEST__:PASS:
                             "start": 711,
                             "end": 719,
                             "raw": "\"object\"",
-                            "value": "object"
+                            "value": "object",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "right": {
@@ -955,7 +957,9 @@ __ESTREE_TEST__:PASS:
                             "start": 729,
                             "end": 733,
                             "raw": "null",
-                            "value": null
+                            "value": null,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -1136,7 +1140,9 @@ __ESTREE_TEST__:PASS:
                           "start": 849,
                           "end": 855,
                           "raw": "\"work\"",
-                          "value": "work"
+                          "value": "work",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1233,7 +1239,9 @@ __ESTREE_TEST__:PASS:
                           "start": 891,
                           "end": 895,
                           "raw": "\"Hi\"",
-                          "value": "Hi"
+                          "value": "Hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1358,7 +1366,9 @@ __ESTREE_TEST__:PASS:
                           "start": 946,
                           "end": 955,
                           "raw": "\"Wof Wof\"",
-                          "value": "Wof Wof"
+                          "value": "Wof Wof",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1462,7 +1472,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1123,
                         "end": 1131,
                         "raw": "\"Is Car\"",
-                        "value": "Is Car"
+                        "value": "Is Car",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {
@@ -1555,7 +1567,9 @@ __ESTREE_TEST__:PASS:
                         "start": 1043,
                         "end": 1054,
                         "raw": "\"Is Person\"",
-                        "value": "Is Person"
+                        "value": "Is Person",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "callee": {

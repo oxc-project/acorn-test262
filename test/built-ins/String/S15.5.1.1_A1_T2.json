@@ -34,7 +34,9 @@
                 "start": 330,
                 "end": 334,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,7 +72,9 @@
           "start": 448,
           "end": 456,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -102,7 +106,9 @@
                     "start": 485,
                     "end": 564,
                     "value": "#1: __str = String(null); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(null); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String(null); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -146,7 +152,9 @@
           "start": 770,
           "end": 776,
           "value": "null",
-          "raw": "\"null\""
+          "raw": "\"null\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                     "start": 805,
                     "end": 868,
                     "value": "#2: __str = String(null); __str === \"null\". Actual: __str ===",
-                    "raw": "'#2: __str = String(null); __str === \"null\". Actual: __str ==='"
+                    "raw": "'#2: __str = String(null); __str === \"null\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -95,14 +95,18 @@
             "start": 321,
             "end": 337,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 341,
             "end": 400,
             "value": "Object.prototype.toString.call([]) returns [object Array]",
-            "raw": "\"Object.prototype.toString.call([]) returns [object Array]\""
+            "raw": "\"Object.prototype.toString.call([]) returns [object Array]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -214,14 +218,18 @@
             "start": 470,
             "end": 486,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 557,
             "value": "Object.prototype.toString.call(Object([])) returns [object Array]",
-            "raw": "\"Object.prototype.toString.call(Object([])) returns [object Array]\""
+            "raw": "\"Object.prototype.toString.call(Object([])) returns [object Array]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -326,14 +334,18 @@
             "start": 624,
             "end": 640,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 708,
             "value": "Object.prototype.toString.call(Array()) returns [object Array]",
-            "raw": "\"Object.prototype.toString.call(Array()) returns [object Array]\""
+            "raw": "\"Object.prototype.toString.call(Array()) returns [object Array]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,14 +464,18 @@
             "start": 783,
             "end": 799,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 875,
             "value": "Object.prototype.toString.call(Object(Array())) returns [object Array]",
-            "raw": "\"Object.prototype.toString.call(Object(Array())) returns [object Array]\""
+            "raw": "\"Object.prototype.toString.call(Object(Array())) returns [object Array]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -577,14 +593,18 @@
             "start": 954,
             "end": 970,
             "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "raw": "\"[object Array]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 974,
             "end": 1050,
             "value": "Object.prototype.toString.call(Object(new Array())) returns [object Array]",
-            "raw": "\"Object.prototype.toString.call(Object(new Array())) returns [object Array]\""
+            "raw": "\"Object.prototype.toString.call(Object(new Array())) returns [object Array]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -45,7 +45,9 @@
                 "start": 338,
                 "end": 339,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -62,7 +64,9 @@
             "start": 346,
             "end": 368,
             "value": "\"use strict\"; var x;",
-            "raw": "'\"use strict\"; var x;'"
+            "raw": "'\"use strict\"; var x;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

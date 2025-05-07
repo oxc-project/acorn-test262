@@ -60,7 +60,9 @@
                     "start": 414,
                     "end": 463,
                     "value": "#1.1: new Array(NaN) throw RangeError. Actual: ",
-                    "raw": "'#1.1: new Array(NaN) throw RangeError. Actual: '"
+                    "raw": "'#1.1: new Array(NaN) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -159,14 +161,18 @@
                     "start": 552,
                     "end": 556,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 562,
                     "end": 637,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -247,7 +253,9 @@
                     "start": 716,
                     "end": 786,
                     "value": "#2.1: new Array(Number.POSITIVE_INFINITY) throw RangeError. Actual: ",
-                    "raw": "'#2.1: new Array(Number.POSITIVE_INFINITY) throw RangeError. Actual: '"
+                    "raw": "'#2.1: new Array(Number.POSITIVE_INFINITY) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -359,14 +367,18 @@
                     "start": 896,
                     "end": 900,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 906,
                     "end": 981,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -447,7 +459,9 @@
                     "start": 1060,
                     "end": 1130,
                     "value": "#3.1: new Array(Number.NEGATIVE_INFINITY) throw RangeError. Actual: ",
-                    "raw": "'#3.1: new Array(Number.NEGATIVE_INFINITY) throw RangeError. Actual: '"
+                    "raw": "'#3.1: new Array(Number.NEGATIVE_INFINITY) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -559,14 +573,18 @@
                     "start": 1240,
                     "end": 1244,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1250,
                     "end": 1325,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

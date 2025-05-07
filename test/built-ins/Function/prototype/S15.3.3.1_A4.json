@@ -63,7 +63,9 @@
             "start": 579,
             "end": 590,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -183,7 +185,9 @@
                   "start": 685,
                   "end": 696,
                   "value": "prototype",
-                  "raw": "'prototype'"
+                  "raw": "'prototype'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -202,7 +206,9 @@
             "start": 707,
             "end": 827,
             "value": "The value of foo.prototype is expected to equal the value of Object.getOwnPropertyDescriptor(foo, 'prototype').value",
-            "raw": "'The value of foo.prototype is expected to equal the value of Object.getOwnPropertyDescriptor(foo, \\'prototype\\').value'"
+            "raw": "'The value of foo.prototype is expected to equal the value of Object.getOwnPropertyDescriptor(foo, \\'prototype\\').value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -23,7 +23,9 @@
             "start": 515,
             "end": 516,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -175,7 +177,9 @@
                       "start": 1120,
                       "end": 1121,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -295,7 +299,9 @@
             "start": 1195,
             "end": 1196,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -417,14 +423,18 @@
             "start": 1340,
             "end": 1353,
             "value": "Symbol(\"1\")",
-            "raw": "'Symbol(\"1\")'"
+            "raw": "'Symbol(\"1\")'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1357,
             "end": 1403,
             "value": "$262.agent.getReport() returns \"Symbol(\"1\")\"",
-            "raw": "'$262.agent.getReport() returns \"Symbol(\"1\")\"'"
+            "raw": "'$262.agent.getReport() returns \"Symbol(\"1\")\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -502,14 +512,18 @@
             "start": 1453,
             "end": 1466,
             "value": "Symbol(\"2\")",
-            "raw": "'Symbol(\"2\")'"
+            "raw": "'Symbol(\"2\")'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1470,
             "end": 1516,
             "value": "$262.agent.getReport() returns \"Symbol(\"2\")\"",
-            "raw": "'$262.agent.getReport() returns \"Symbol(\"2\")\"'"
+            "raw": "'$262.agent.getReport() returns \"Symbol(\"2\")\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -578,7 +592,9 @@
                 "start": 1559,
                 "end": 1560,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -588,14 +604,18 @@
             "start": 1563,
             "end": 1564,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1566,
             "end": 1601,
             "value": "Atomics.notify(i32a, 0) returns 0",
-            "raw": "'Atomics.notify(i32a, 0) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

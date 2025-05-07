@@ -60,7 +60,9 @@
                 "start": 277,
                 "end": 291,
                 "value": "08:44:15.321",
-                "raw": "\"08:44:15.321\""
+                "raw": "\"08:44:15.321\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
                 "start": 329,
                 "end": 343,
                 "value": "14:23:30.123",
-                "raw": "\"14:23:30.123\""
+                "raw": "\"14:23:30.123\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -223,7 +227,9 @@
                       "start": 399,
                       "end": 401,
                       "value": 16,
-                      "raw": "16"
+                      "raw": "16",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -245,7 +251,9 @@
                       "start": 411,
                       "end": 413,
                       "value": 34,
-                      "raw": "34"
+                      "raw": "34",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -265,14 +273,18 @@
             "start": 422,
             "end": 423,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 437,
             "value": "one object",
-            "raw": "\"one object\""
+            "raw": "\"one object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -348,7 +360,9 @@
                 "start": 484,
                 "end": 491,
                 "value": "16:34",
-                "raw": "\"16:34\""
+                "raw": "\"16:34\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -364,14 +378,18 @@
             "start": 498,
             "end": 499,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 513,
             "value": "one string",
-            "raw": "\"one string\""
+            "raw": "\"one string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -480,7 +498,9 @@
                         "start": 583,
                         "end": 585,
                         "value": 16,
-                        "raw": "16"
+                        "raw": "16",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -501,7 +521,9 @@
             "start": 594,
             "end": 616,
             "value": "one missing property",
-            "raw": "\"one missing property\""
+            "raw": "\"one missing property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -601,7 +623,9 @@
                       "start": 676,
                       "end": 678,
                       "value": 16,
-                      "raw": "16"
+                      "raw": "16",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -623,7 +647,9 @@
                       "start": 688,
                       "end": 690,
                       "value": 34,
-                      "raw": "34"
+                      "raw": "34",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -643,7 +669,9 @@
               "start": 696,
               "end": 697,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -651,7 +679,9 @@
             "start": 699,
             "end": 711,
             "value": "two object",
-            "raw": "\"two object\""
+            "raw": "\"two object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -733,7 +763,9 @@
                 "start": 762,
                 "end": 769,
                 "value": "16:34",
-                "raw": "\"16:34\""
+                "raw": "\"16:34\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -749,7 +781,9 @@
               "start": 773,
               "end": 774,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -757,7 +791,9 @@
             "start": 776,
             "end": 788,
             "value": "two string",
-            "raw": "\"two string\""
+            "raw": "\"two string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -872,7 +908,9 @@
                         "start": 862,
                         "end": 864,
                         "value": 16,
-                        "raw": "16"
+                        "raw": "16",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -887,7 +925,9 @@
             "start": 869,
             "end": 891,
             "value": "two missing property",
-            "raw": "\"two missing property\""
+            "raw": "\"two missing property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

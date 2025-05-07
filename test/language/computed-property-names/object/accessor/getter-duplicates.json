@@ -35,7 +35,9 @@
                   "start": 364,
                   "end": 367,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -60,7 +62,9 @@
                           "start": 384,
                           "end": 387,
                           "value": "A",
-                          "raw": "'A'"
+                          "raw": "'A'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -126,14 +130,18 @@
             "start": 418,
             "end": 421,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 452,
             "value": "The value of `A.a` is `'A'`",
-            "raw": "\"The value of `A.a` is `'A'`\""
+            "raw": "\"The value of `A.a` is `'A'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,7 +214,9 @@
                               "start": 505,
                               "end": 554,
                               "value": "The `b` getter definition in `B` is unreachable",
-                              "raw": "\"The `b` getter definition in `B` is unreachable\""
+                              "raw": "\"The `b` getter definition in `B` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -228,7 +238,9 @@
                   "start": 569,
                   "end": 572,
                   "value": "b",
-                  "raw": "'b'"
+                  "raw": "'b'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -253,7 +265,9 @@
                           "start": 589,
                           "end": 592,
                           "value": "B",
-                          "raw": "'B'"
+                          "raw": "'B'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -319,14 +333,18 @@
             "start": 623,
             "end": 626,
             "value": "B",
-            "raw": "'B'"
+            "raw": "'B'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 628,
             "end": 657,
             "value": "The value of `B.b` is `'B'`",
-            "raw": "\"The value of `B.b` is `'B'`\""
+            "raw": "\"The value of `B.b` is `'B'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -399,7 +417,9 @@
                               "start": 710,
                               "end": 759,
                               "value": "The `c` getter definition in `C` is unreachable",
-                              "raw": "\"The `c` getter definition in `C` is unreachable\""
+                              "raw": "\"The `c` getter definition in `C` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -421,7 +441,9 @@
                   "start": 774,
                   "end": 777,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -457,7 +479,9 @@
                               "start": 810,
                               "end": 863,
                               "value": "The `['c']` getter definition in `C` is unreachable",
-                              "raw": "\"The `['c']` getter definition in `C` is unreachable\""
+                              "raw": "\"The `['c']` getter definition in `C` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -479,7 +503,9 @@
                   "start": 878,
                   "end": 881,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -504,7 +530,9 @@
                           "start": 898,
                           "end": 901,
                           "value": "C",
-                          "raw": "'C'"
+                          "raw": "'C'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -570,14 +598,18 @@
             "start": 932,
             "end": 935,
             "value": "C",
-            "raw": "'C'"
+            "raw": "'C'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 966,
             "value": "The value of `C.c` is `'C'`",
-            "raw": "\"The value of `C.c` is `'C'`\""
+            "raw": "\"The value of `C.c` is `'C'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,7 +647,9 @@
                   "start": 987,
                   "end": 990,
                   "value": "d",
-                  "raw": "'d'"
+                  "raw": "'d'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -651,7 +685,9 @@
                               "start": 1023,
                               "end": 1076,
                               "value": "The `['d']` getter definition in `D` is unreachable",
-                              "raw": "\"The `['d']` getter definition in `D` is unreachable\""
+                              "raw": "\"The `['d']` getter definition in `D` is unreachable\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -697,7 +733,9 @@
                           "start": 1107,
                           "end": 1110,
                           "value": "D",
-                          "raw": "'D'"
+                          "raw": "'D'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -763,14 +801,18 @@
             "start": 1141,
             "end": 1144,
             "value": "D",
-            "raw": "'D'"
+            "raw": "'D'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1175,
             "value": "The value of `D.d` is `'D'`",
-            "raw": "\"The value of `D.d` is `'D'`\""
+            "raw": "\"The value of `D.d` is `'D'`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

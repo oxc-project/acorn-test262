@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
                 "start": 31,
                 "end": 33,
                 "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -189,7 +191,9 @@ __ESTREE_TEST__:PASS:
                         "start": 154,
                         "end": 156,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       },
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",

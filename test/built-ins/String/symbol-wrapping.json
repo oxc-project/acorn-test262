@@ -34,7 +34,9 @@
                 "start": 507,
                 "end": 511,
                 "value": "66",
-                "raw": "'66'"
+                "raw": "'66'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

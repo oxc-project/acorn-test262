@@ -110,7 +110,9 @@
                   "start": 349,
                   "end": 352,
                   "value": 128,
-                  "raw": "128"
+                  "raw": "128",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -152,7 +154,9 @@
           "start": 368,
           "end": 369,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -180,7 +184,9 @@
             "start": 375,
             "end": 376,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -190,7 +196,9 @@
           "start": 380,
           "end": 382,
           "value": 11,
-          "raw": "11"
+          "raw": "11",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -218,7 +226,9 @@
             "start": 388,
             "end": 389,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -228,7 +238,9 @@
           "start": 393,
           "end": 395,
           "value": 12,
-          "raw": "12"
+          "raw": "12",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -314,7 +326,9 @@
                 "start": 450,
                 "end": 451,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -324,7 +338,9 @@
             "start": 454,
             "end": 512,
             "value": "Array.prototype.reduce.call(obj, callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1) !== true'"
+            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

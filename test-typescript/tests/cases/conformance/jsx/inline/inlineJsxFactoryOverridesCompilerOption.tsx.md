@@ -213,7 +213,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 46,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -302,7 +304,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 30,
         "raw": "\"./renderer\"",
-        "value": "./renderer"
+        "value": "./renderer",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

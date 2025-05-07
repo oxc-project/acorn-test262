@@ -76,7 +76,9 @@
             "start": 419,
             "end": 476,
             "value": "Uint8Array.prototype.setFromBase64 is not a constructor",
-            "raw": "\"Uint8Array.prototype.setFromBase64 is not a constructor\""
+            "raw": "\"Uint8Array.prototype.setFromBase64 is not a constructor\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,7 +163,9 @@
                             "start": 548,
                             "end": 550,
                             "value": 10,
-                            "raw": "10"
+                            "raw": "10",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -202,7 +206,9 @@
                         "start": 580,
                         "end": 582,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

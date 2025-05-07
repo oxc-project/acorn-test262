@@ -23,7 +23,9 @@
             "start": 1023,
             "end": 1032,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 1044,
             "end": 1048,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -123,7 +127,9 @@
               "start": 1106,
               "end": 1114,
               "value": "inside",
-              "raw": "'inside'"
+              "raw": "'inside'",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -291,7 +297,9 @@
                 "start": 1258,
                 "end": 1263,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -344,14 +352,18 @@
             "start": 1296,
             "end": 1304,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1306,
             "end": 1337,
             "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "raw": "'reference from statement body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -403,14 +415,18 @@
             "start": 1370,
             "end": 1378,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1380,
             "end": 1417,
             "value": "reference from \"increment\" position",
-            "raw": "'reference from \"increment\" position'"
+            "raw": "'reference from \"increment\" position'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,14 +478,18 @@
             "start": 1450,
             "end": 1458,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1460,
             "end": 1492,
             "value": "reference from \"test\" position",
-            "raw": "'reference from \"test\" position'"
+            "raw": "'reference from \"test\" position'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -514,7 +534,9 @@
             "start": 1515,
             "end": 1524,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

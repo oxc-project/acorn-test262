@@ -64,7 +64,9 @@
           "start": 318,
           "end": 322,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -96,7 +98,9 @@
                     "start": 351,
                     "end": 394,
                     "value": "#1: var x; void x === undefined. Actual: ",
-                    "raw": "'#1: var x; void x === undefined. Actual: '"
+                    "raw": "'#1: var x; void x === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -145,7 +149,9 @@
             "start": 429,
             "end": 433,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -209,7 +215,9 @@
                     "start": 488,
                     "end": 538,
                     "value": "#2: var x = null; void x === undefined. Actual: ",
-                    "raw": "'#2: var x = null; void x === undefined. Actual: '"
+                    "raw": "'#2: var x = null; void x === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

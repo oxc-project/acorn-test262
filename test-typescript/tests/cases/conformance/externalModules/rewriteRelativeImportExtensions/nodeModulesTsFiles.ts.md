@@ -131,7 +131,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 38,
         "raw": "\"lodash-ts/add.ts\"",
-        "value": "lodash-ts/add.ts"
+        "value": "lodash-ts/add.ts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

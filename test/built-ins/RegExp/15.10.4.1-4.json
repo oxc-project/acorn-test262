@@ -34,14 +34,18 @@
                 "start": 267,
                 "end": 272,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 279,
                 "value": "gim",
-                "raw": "'gim'"
+                "raw": "'gim'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

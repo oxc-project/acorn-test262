@@ -75,7 +75,9 @@
                         "start": 757,
                         "end": 759,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -205,7 +207,9 @@
             "start": 828,
             "end": 833,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,14 +254,18 @@
             "start": 861,
             "end": 865,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 867,
             "end": 896,
             "value": "WeakMap#delete returns true",
-            "raw": "'WeakMap#delete returns true'"
+            "raw": "'WeakMap#delete returns true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

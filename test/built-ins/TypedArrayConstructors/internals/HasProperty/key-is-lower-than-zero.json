@@ -46,7 +46,9 @@
               "start": 717,
               "end": 718,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           "computed": true,
@@ -57,7 +59,9 @@
           "start": 722,
           "end": 731,
           "value": "test262",
-          "raw": "\"test262\""
+          "raw": "\"test262\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -128,7 +132,9 @@
                             "start": 802,
                             "end": 803,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -199,7 +205,9 @@
                             "start": 846,
                             "end": 850,
                             "value": "-1",
-                            "raw": "\"-1\""
+                            "raw": "\"-1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -209,14 +217,18 @@
                         "start": 853,
                         "end": 858,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 860,
                         "end": 905,
                         "value": "Reflect.has(sample, \"-1\") must return false",
-                        "raw": "'Reflect.has(sample, \"-1\") must return false'"
+                        "raw": "'Reflect.has(sample, \"-1\") must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

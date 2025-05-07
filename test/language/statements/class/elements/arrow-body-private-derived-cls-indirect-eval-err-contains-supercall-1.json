@@ -72,7 +72,9 @@
                       "start": 1153,
                       "end": 1154,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -89,7 +91,9 @@
                   "start": 1162,
                   "end": 1183,
                   "value": "() => super()[\"x\"];",
-                  "raw": "'() => super()[\"x\"];'"
+                  "raw": "'() => super()[\"x\"];'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

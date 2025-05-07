@@ -35,7 +35,9 @@
                   "start": 512,
                   "end": 523,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -71,7 +73,9 @@
                   "start": 545,
                   "end": 570,
                   "value": "return arguments[1]+42;",
-                  "raw": "\"return arguments[1]+42;\""
+                  "raw": "\"return arguments[1]+42;\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -85,7 +89,9 @@
           "start": 577,
           "end": 581,
           "value": "42",
-          "raw": "\"42\""
+          "raw": "\"42\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -117,7 +123,9 @@
                     "start": 610,
                     "end": 712,
                     "value": "#1: var x; new String(\"undefined\").replace(x,Function(\"return arguments[1]+42;\")) === \"42\". Actual: ",
-                    "raw": "'#1: var x; new String(\"undefined\").replace(x,Function(\"return arguments[1]+42;\")) === \"42\". Actual: '"
+                    "raw": "'#1: var x; new String(\"undefined\").replace(x,Function(\"return arguments[1]+42;\")) === \"42\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -144,7 +152,9 @@
                             "start": 726,
                             "end": 737,
                             "value": "undefined",
-                            "raw": "\"undefined\""
+                            "raw": "\"undefined\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -180,7 +190,9 @@
                             "start": 759,
                             "end": 784,
                             "value": "return arguments[1]+42;",
-                            "raw": "\"return arguments[1]+42;\""
+                            "raw": "\"return arguments[1]+42;\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

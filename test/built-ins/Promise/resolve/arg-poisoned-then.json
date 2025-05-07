@@ -98,7 +98,9 @@
             "start": 662,
             "end": 668,
             "value": "then",
-            "raw": "'then'"
+            "raw": "'then'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -251,7 +253,9 @@
                             "start": 794,
                             "end": 870,
                             "value": "Promise should be rejected when retrieving `then` property throws an error",
-                            "raw": "'Promise should be rejected when retrieving `then` property throws an error'"
+                            "raw": "'Promise should be rejected when retrieving `then` property throws an error'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

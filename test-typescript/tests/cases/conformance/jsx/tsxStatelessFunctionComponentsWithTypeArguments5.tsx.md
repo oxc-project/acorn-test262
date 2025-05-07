@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
           "start": 23,
           "end": 30,
           "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -615,7 +617,9 @@ __ESTREE_TEST__:PASS:
                     "start": 350,
                     "end": 363,
                     "raw": "\"ignore-prop\"",
-                    "value": "ignore-prop"
+                    "value": "ignore-prop",
+                    "regex": null,
+                    "bigint": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -766,7 +770,9 @@ __ESTREE_TEST__:PASS:
                           "start": 494,
                           "end": 498,
                           "raw": "\"hi\"",
-                          "value": "hi"
+                          "value": "hi",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -848,7 +854,9 @@ __ESTREE_TEST__:PASS:
                             "start": 574,
                             "end": 576,
                             "raw": "10",
-                            "value": 10
+                            "value": 10,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -927,7 +935,9 @@ __ESTREE_TEST__:PASS:
                           "start": 644,
                           "end": 651,
                           "raw": "\"hello\"",
-                          "value": "hello"
+                          "value": "hello",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -1005,7 +1015,9 @@ __ESTREE_TEST__:PASS:
                           "start": 721,
                           "end": 728,
                           "raw": "\"hello\"",
-                          "value": "hello"
+                          "value": "hello",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

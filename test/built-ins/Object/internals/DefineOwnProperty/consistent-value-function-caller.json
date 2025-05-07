@@ -61,7 +61,9 @@
                   "start": 854,
                   "end": 862,
                   "value": "caller",
-                  "raw": "'caller'"
+                  "raw": "'caller'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -149,7 +151,9 @@
             "start": 926,
             "end": 934,
             "value": "caller",
-            "raw": "'caller'"
+            "raw": "'caller'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -174,7 +178,9 @@
                   "start": 950,
                   "end": 955,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,7 +202,9 @@
                   "start": 973,
                   "end": 978,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -256,7 +264,9 @@
                 "start": 1031,
                 "end": 1039,
                 "value": "caller",
-                "raw": "'caller'"
+                "raw": "'caller'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -313,7 +323,9 @@
               "start": 1076,
               "end": 1081,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -347,7 +359,9 @@
             "start": 1103,
             "end": 1108,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       },

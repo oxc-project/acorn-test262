@@ -407,7 +407,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 46,
         "raw": "'aws-lambda'",
-        "value": "aws-lambda"
+        "value": "aws-lambda",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -864,7 +866,9 @@ __ESTREE_TEST__:PASS:
                           "start": 408,
                           "end": 411,
                           "raw": "'0'",
-                          "value": "0"
+                          "value": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "objectType": {
@@ -1837,7 +1841,9 @@ __ESTREE_TEST__:PASS:
         "start": 30,
         "end": 45,
         "raw": "'lambda-tester'",
-        "value": "lambda-tester"
+        "value": "lambda-tester",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1867,7 +1873,9 @@ __ESTREE_TEST__:PASS:
         "start": 71,
         "end": 83,
         "raw": "'aws-lambda'",
-        "value": "aws-lambda"
+        "value": "aws-lambda",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -47,7 +47,9 @@
                       "start": 349,
                       "end": 350,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -79,7 +81,9 @@
                     "start": 378,
                     "end": 423,
                     "value": "#1.1: x |= 1 throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x |= 1 throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: x |= 1 throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -151,7 +155,9 @@
                   "start": 488,
                   "end": 492,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -183,7 +189,9 @@
                             "start": 523,
                             "end": 568,
                             "value": "#1.2: x |= 1 throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x |= 1 throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: x |= 1 throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

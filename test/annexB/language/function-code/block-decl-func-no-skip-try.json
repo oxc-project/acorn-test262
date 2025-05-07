@@ -74,7 +74,9 @@
                         "start": 1202,
                         "end": 1251,
                         "value": "Initialized binding created prior to evaluation",
-                        "raw": "'Initialized binding created prior to evaluation'"
+                        "raw": "'Initialized binding created prior to evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -98,7 +100,9 @@
                           "start": 1276,
                           "end": 1280,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -151,7 +155,9 @@
                                       "start": 1329,
                                       "end": 1332,
                                       "value": 123,
-                                      "raw": "123"
+                                      "raw": "123",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ]
@@ -210,14 +216,18 @@
                         "start": 1384,
                         "end": 1394,
                         "value": "function",
-                        "raw": "'function'"
+                        "raw": "'function'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1400,
                         "end": 1447,
                         "value": "binding value is updated following evaluation",
-                        "raw": "'binding value is updated following evaluation'"
+                        "raw": "'binding value is updated following evaluation'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -269,7 +279,9 @@
                         "start": 1477,
                         "end": 1480,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -206,7 +206,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 30,
         "raw": "\".prisma/client\"",
-        "value": ".prisma/client"
+        "value": ".prisma/client",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -232,7 +234,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 45,
         "raw": "\"@prisma/client\"",
-        "value": "@prisma/client"
+        "value": "@prisma/client",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

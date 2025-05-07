@@ -92,7 +92,9 @@
                     "start": 544,
                     "end": 601,
                     "value": "#1: var __obj={}; __obj.propFoo === undefined. Actual: ",
-                    "raw": "'#1: var __obj={}; __obj.propFoo === undefined. Actual: '"
+                    "raw": "'#1: var __obj={}; __obj.propFoo === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -150,7 +152,9 @@
             "start": 806,
             "end": 815,
             "value": "propFoo",
-            "raw": "'propFoo'"
+            "raw": "'propFoo'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -192,7 +196,9 @@
                     "start": 858,
                     "end": 920,
                     "value": "#2: var __obj={}; __obj['propFoo'] === undefined. Actual: ",
-                    "raw": "'#2: var __obj={}; __obj[\\'propFoo\\'] === undefined. Actual: '"
+                    "raw": "'#2: var __obj={}; __obj[\\'propFoo\\'] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -214,7 +220,9 @@
                         "start": 930,
                         "end": 939,
                         "value": "propFoo",
-                        "raw": "'propFoo'"
+                        "raw": "'propFoo'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

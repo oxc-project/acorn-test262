@@ -23,7 +23,9 @@
             "start": 327,
             "end": 328,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
           "start": 372,
           "end": 373,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -81,7 +85,9 @@
                     "start": 402,
                     "end": 478,
                     "value": "#1: var x = 0; /*\\rmulti\\rline\\rcomment\\rx = 1;\\r*/ x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; /*\\\\rmulti\\\\rline\\\\rcomment\\\\rx = 1;\\\\r*/ x === 0. Actual: '"
+                    "raw": "'#1: var x = 0; /*\\\\rmulti\\\\rline\\\\rcomment\\\\rx = 1;\\\\r*/ x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

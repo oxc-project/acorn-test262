@@ -75,14 +75,18 @@
             "start": 379,
             "end": 389,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 466,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +195,9 @@
                   "start": 543,
                   "end": 555,
                   "value": "globalThis",
-                  "raw": "'globalThis'"
+                  "raw": "'globalThis'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -202,7 +208,9 @@
             "start": 558,
             "end": 570,
             "value": "globalThis",
-            "raw": "'globalThis'"
+            "raw": "'globalThis'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -280,7 +288,9 @@
                   "start": 615,
                   "end": 619,
                   "value": "[]",
-                  "raw": "'[]'"
+                  "raw": "'[]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -291,7 +301,9 @@
             "start": 622,
             "end": 637,
             "value": "array literal",
-            "raw": "'array literal'"
+            "raw": "'array literal'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -391,7 +403,9 @@
             "start": 826,
             "end": 884,
             "value": "object literal with immediate primitive coercion methods",
-            "raw": "'object literal with immediate primitive coercion methods'"
+            "raw": "'object literal with immediate primitive coercion methods'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -469,7 +483,9 @@
                   "start": 929,
                   "end": 950,
                   "value": "Object.create(null)",
-                  "raw": "'Object.create(null)'"
+                  "raw": "'Object.create(null)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -480,7 +496,9 @@
             "start": 953,
             "end": 990,
             "value": "ordinary object with null __proto__",
-            "raw": "'ordinary object with null __proto__'"
+            "raw": "'ordinary object with null __proto__'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

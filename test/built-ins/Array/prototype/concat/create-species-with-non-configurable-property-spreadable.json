@@ -77,7 +77,9 @@
                         "start": 893,
                         "end": 896,
                         "value": "0",
-                        "raw": "\"0\""
+                        "raw": "\"0\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -102,7 +104,9 @@
                               "start": 914,
                               "end": 918,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -124,7 +128,9 @@
                               "start": 938,
                               "end": 943,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -350,7 +356,9 @@
                             "start": 1081,
                             "end": 1082,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -366,7 +374,9 @@
             "start": 1089,
             "end": 1135,
             "value": "arr.concat([1]) throws a TypeError exception",
-            "raw": "'arr.concat([1]) throws a TypeError exception'"
+            "raw": "'arr.concat([1]) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

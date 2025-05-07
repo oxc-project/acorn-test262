@@ -42,7 +42,8 @@
             "regex": {
               "pattern": "^.$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Literal",
@@ -53,7 +54,8 @@
             "regex": {
               "pattern": "^.$",
               "flags": "mu"
-            }
+            },
+            "bigint": null
           }
         ]
       },
@@ -106,7 +108,9 @@
                       "start": 664,
                       "end": 667,
                       "value": "a",
-                      "raw": "\"a\""
+                      "raw": "\"a\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -159,7 +163,9 @@
                       "start": 688,
                       "end": 691,
                       "value": "3",
-                      "raw": "\"3\""
+                      "raw": "\"3\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -212,7 +218,9 @@
                       "start": 712,
                       "end": 715,
                       "value": "π",
-                      "raw": "\"π\""
+                      "raw": "\"π\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -265,7 +273,9 @@
                       "start": 736,
                       "end": 744,
                       "value": "‧",
-                      "raw": "\"\\u2027\""
+                      "raw": "\"\\u2027\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -318,7 +328,9 @@
                       "start": 765,
                       "end": 773,
                       "value": "",
-                      "raw": "\"\\u0085\""
+                      "raw": "\"\\u0085\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -371,7 +383,9 @@
                       "start": 794,
                       "end": 798,
                       "value": "\u000b",
-                      "raw": "\"\\v\""
+                      "raw": "\"\\v\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -424,7 +438,9 @@
                       "start": 819,
                       "end": 823,
                       "value": "\f",
-                      "raw": "\"\\f\""
+                      "raw": "\"\\f\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -477,7 +493,9 @@
                       "start": 844,
                       "end": 852,
                       "value": "᠎",
-                      "raw": "\"\\u180E\""
+                      "raw": "\"\\u180E\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -530,7 +548,9 @@
                       "start": 873,
                       "end": 884,
                       "value": "𐌀",
-                      "raw": "\"\\u{10300}\""
+                      "raw": "\"\\u{10300}\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -540,7 +560,9 @@
                   "start": 887,
                   "end": 930,
                   "value": "Supplementary plane matched by a single .",
-                  "raw": "\"Supplementary plane matched by a single .\""
+                  "raw": "\"Supplementary plane matched by a single .\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -596,7 +618,9 @@
                         "start": 951,
                         "end": 955,
                         "value": "\n",
-                        "raw": "\"\\n\""
+                        "raw": "\"\\n\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -656,7 +680,9 @@
                         "start": 977,
                         "end": 981,
                         "value": "\r",
-                        "raw": "\"\\r\""
+                        "raw": "\"\\r\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -716,7 +742,9 @@
                         "start": 1003,
                         "end": 1011,
                         "value": " ",
-                        "raw": "\"\\u2028\""
+                        "raw": "\"\\u2028\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -776,7 +804,9 @@
                         "start": 1033,
                         "end": 1041,
                         "value": " ",
-                        "raw": "\"\\u2029\""
+                        "raw": "\"\\u2029\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -830,7 +860,9 @@
                       "start": 1062,
                       "end": 1070,
                       "value": "\ud800",
-                      "raw": "\"\\uD800\""
+                      "raw": "\"\\uD800\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -883,7 +915,9 @@
                       "start": 1091,
                       "end": 1099,
                       "value": "\udfff",
-                      "raw": "\"\\uDFFF\""
+                      "raw": "\"\\uDFFF\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

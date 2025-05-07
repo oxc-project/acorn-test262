@@ -177,7 +177,9 @@
                 "start": 876,
                 "end": 886,
                 "value": "function",
-                "raw": "'function'"
+                "raw": "'function'",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -251,7 +253,9 @@
                   "start": 950,
                   "end": 960,
                   "value": "function",
-                  "raw": "'function'"
+                  "raw": "'function'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "&&",
@@ -286,7 +290,9 @@
                       "start": 979,
                       "end": 987,
                       "value": "object",
-                      "raw": "'object'"
+                      "raw": "'object'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "||",
@@ -306,7 +312,9 @@
                       "start": 998,
                       "end": 1002,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -535,7 +543,9 @@
                                   "start": 1210,
                                   "end": 1218,
                                   "value": "symbol",
-                                  "raw": "'symbol'"
+                                  "raw": "'symbol'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "consequent": {
@@ -671,7 +681,9 @@
                             "start": 1307,
                             "end": 1314,
                             "value": "value",
-                            "raw": "'value'"
+                            "raw": "'value'",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "in",
                           "right": {
@@ -1003,7 +1015,9 @@
             "start": 1579,
             "end": 1580,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -71,7 +71,9 @@
                     "start": 710,
                     "end": 715,
                     "value": "str",
-                    "raw": "'str'"
+                    "raw": "'str'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -83,7 +85,9 @@
             "start": 719,
             "end": 726,
             "value": "\"str\"",
-            "raw": "'\"str\"'"
+            "raw": "'\"str\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -149,7 +153,9 @@
                             "start": 779,
                             "end": 784,
                             "value": "str",
-                            "raw": "'str'"
+                            "raw": "'str'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -208,7 +214,9 @@
                               "start": 824,
                               "end": 834,
                               "value": "toString",
-                              "raw": "'toString'"
+                              "raw": "'toString'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -278,7 +286,9 @@
                                   "start": 891,
                                   "end": 913,
                                   "value": "should not be called",
-                                  "raw": "'should not be called'"
+                                  "raw": "'should not be called'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -416,7 +426,9 @@
             "start": 1022,
             "end": 1042,
             "value": "{\"key\":\"toString\"}",
-            "raw": "'{\"key\":\"toString\"}'"
+            "raw": "'{\"key\":\"toString\"}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -484,7 +496,9 @@
                       "start": 1108,
                       "end": 1112,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -523,7 +537,9 @@
                                   "start": 1141,
                                   "end": 1146,
                                   "value": "str",
-                                  "raw": "'str'"
+                                  "raw": "'str'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -778,7 +794,9 @@
                             "start": 1370,
                             "end": 1374,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },

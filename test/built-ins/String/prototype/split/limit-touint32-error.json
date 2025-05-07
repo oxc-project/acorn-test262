@@ -72,7 +72,9 @@
                   "start": 519,
                   "end": 521,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -148,7 +150,9 @@
                     "start": 583,
                     "end": 600,
                     "value": "ExpectedError: ",
-                    "raw": "\"ExpectedError: \""
+                    "raw": "\"ExpectedError: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -276,7 +280,9 @@
                       "start": 737,
                       "end": 768,
                       "value": "separator[Symbol.toPrimitive]",
-                      "raw": "\"separator[Symbol.toPrimitive]\""
+                      "raw": "\"separator[Symbol.toPrimitive]\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -348,7 +354,9 @@
                       "start": 844,
                       "end": 864,
                       "value": "separator.toString",
-                      "raw": "\"separator.toString\""
+                      "raw": "\"separator.toString\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -420,7 +428,9 @@
                       "start": 939,
                       "end": 958,
                       "value": "separator.valueOf",
-                      "raw": "\"separator.valueOf\""
+                      "raw": "\"separator.valueOf\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -597,7 +607,9 @@
                         "start": 1123,
                         "end": 1128,
                         "value": "foo",
-                        "raw": "\"foo\""
+                        "raw": "\"foo\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",
@@ -633,7 +645,9 @@
             "start": 1183,
             "end": 1257,
             "value": "ToUint32 should be called on the limit before ToString on the separator.",
-            "raw": "'ToUint32 should be called on the limit before ToString on the separator.'"
+            "raw": "'ToUint32 should be called on the limit before ToString on the separator.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

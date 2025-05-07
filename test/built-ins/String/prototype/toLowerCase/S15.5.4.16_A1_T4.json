@@ -31,7 +31,9 @@
                 "start": 325,
                 "end": 327,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -69,7 +71,9 @@
             "start": 361,
             "end": 363,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -152,7 +156,9 @@
                     "start": 528,
                     "end": 633,
                     "value": "#1: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: ",
-                    "raw": "'#1: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: '"
+                    "raw": "'#1: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -259,7 +265,9 @@
                     "start": 902,
                     "end": 1005,
                     "value": "#2: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: ",
-                    "raw": "'#2: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: '"
+                    "raw": "'#2: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -366,7 +374,9 @@
                     "start": 1273,
                     "end": 1376,
                     "value": "#3: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: ",
-                    "raw": "'#3: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: '"
+                    "raw": "'#3: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -419,7 +429,9 @@
             "start": 1589,
             "end": 1590,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -440,7 +452,9 @@
             "start": 1607,
             "end": 1608,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -483,7 +497,9 @@
                         "start": 1638,
                         "end": 1710,
                         "value": "#4: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase[0]===",
-                        "raw": "'#4: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase[0]==='"
+                        "raw": "'#4: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase[0]==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -501,7 +517,9 @@
                           "start": 1724,
                           "end": 1725,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -513,7 +531,9 @@
                       "start": 1729,
                       "end": 1741,
                       "value": ". Actual: ",
-                      "raw": "'. Actual: '"
+                      "raw": "'. Actual: '",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -532,7 +552,9 @@
                       "start": 1756,
                       "end": 1757,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

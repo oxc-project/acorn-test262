@@ -28,56 +28,72 @@
                 "start": 313,
                 "end": 328,
                 "value": "Africa/Asmera",
-                "raw": "\"Africa/Asmera\""
+                "raw": "\"Africa/Asmera\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 389,
                 "value": "America/Kralendijk",
-                "raw": "\"America/Kralendijk\""
+                "raw": "\"America/Kralendijk\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 463,
                 "value": "America/Lower_Princes",
-                "raw": "\"America/Lower_Princes\""
+                "raw": "\"America/Lower_Princes\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 517,
                 "end": 534,
                 "value": "America/Marigot",
-                "raw": "\"America/Marigot\""
+                "raw": "\"America/Marigot\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 585,
                 "end": 608,
                 "value": "America/St_Barthelemy",
-                "raw": "\"America/St_Barthelemy\""
+                "raw": "\"America/St_Barthelemy\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 665,
                 "end": 681,
                 "value": "America/Virgin",
-                "raw": "\"America/Virgin\""
+                "raw": "\"America/Virgin\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 727,
                 "end": 750,
                 "value": "Antarctica/South_Pole",
-                "raw": "\"Antarctica/South_Pole\""
+                "raw": "\"Antarctica/South_Pole\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 804,
                 "end": 820,
                 "value": "Asia/Chungking",
-                "raw": "\"Asia/Chungking\""
+                "raw": "\"Asia/Chungking\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -166,6 +182,7 @@
                       "end": 941,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

@@ -23,7 +23,9 @@
             "start": 834,
             "end": 860,
             "value": "./module-code_FIXTURE.js",
-            "raw": "'./module-code_FIXTURE.js'"
+            "raw": "'./module-code_FIXTURE.js'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 872,
             "end": 904,
             "value": "./module-code-other_FIXTURE.js",
-            "raw": "'./module-code-other_FIXTURE.js'"
+            "raw": "'./module-code-other_FIXTURE.js'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -106,7 +110,9 @@
                         "start": 958,
                         "end": 962,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       "consequent": {
                         "type": "Identifier",
@@ -180,7 +186,9 @@
                   "start": 1045,
                   "end": 1054,
                   "value": "Test262",
-                  "raw": "'Test262'"
+                  "raw": "'Test262'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -238,7 +246,9 @@
                   "start": 1091,
                   "end": 1093,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -276,7 +286,9 @@
                         "start": 1126,
                         "end": 1131,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       "consequent": {
                         "type": "Identifier",
@@ -350,7 +362,9 @@
                   "start": 1220,
                   "end": 1237,
                   "value": "one six one two",
-                  "raw": "'one six one two'"
+                  "raw": "'one six one two'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -408,7 +422,9 @@
                   "start": 1274,
                   "end": 1278,
                   "value": 1612,
-                  "raw": "1612"
+                  "raw": "1612",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

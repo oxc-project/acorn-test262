@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "[\"'][^\"']*[\"']",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 411,
                 "end": 436,
                 "value": "alice cries out: don't",
-                "raw": "'alice cries out: don\\'t'"
+                "raw": "'alice cries out: don\\'t'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -94,7 +97,9 @@
             "start": 460,
             "end": 509,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

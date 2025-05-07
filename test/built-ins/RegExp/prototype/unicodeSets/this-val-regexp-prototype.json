@@ -70,7 +70,9 @@
                   "start": 700,
                   "end": 713,
                   "value": "unicodeSets",
-                  "raw": "\"unicodeSets\""
+                  "raw": "\"unicodeSets\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

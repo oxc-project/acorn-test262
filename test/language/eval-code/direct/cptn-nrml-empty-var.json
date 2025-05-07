@@ -27,7 +27,9 @@
               "start": 327,
               "end": 338,
               "value": "var x = 1",
-              "raw": "\"var x = 1\""
+              "raw": "\"var x = 1\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -69,7 +71,9 @@
                     "start": 382,
                     "end": 429,
                     "value": "#1: eval(\"var x = 1\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"var x = 1\") === undefined. Actual: '"
+                    "raw": "'#1: eval(\"var x = 1\") === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -92,7 +96,9 @@
                           "start": 438,
                           "end": 449,
                           "value": "var x = 1",
-                          "raw": "\"var x = 1\""
+                          "raw": "\"var x = 1\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

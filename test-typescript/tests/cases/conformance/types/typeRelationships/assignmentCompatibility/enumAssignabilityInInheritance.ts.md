@@ -421,7 +421,9 @@ __ESTREE_TEST__:PASS:
                 "start": 348,
                 "end": 349,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -474,7 +476,9 @@ __ESTREE_TEST__:PASS:
                   "start": 380,
                   "end": 384,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -3470,7 +3474,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1733,
                     "end": 1734,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -3803,7 +3809,9 @@ __ESTREE_TEST__:PASS:
                     "start": 1899,
                     "end": 1900,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

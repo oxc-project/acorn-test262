@@ -68,7 +68,9 @@
             "start": 284,
             "end": 291,
             "value": "Error",
-            "raw": "'Error'"
+            "raw": "'Error'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

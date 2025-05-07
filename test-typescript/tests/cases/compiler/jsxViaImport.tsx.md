@@ -276,7 +276,9 @@ __ESTREE_TEST__:PASS:
         "start": 140,
         "end": 155,
         "raw": "\"BaseComponent\"",
-        "value": "BaseComponent"
+        "value": "BaseComponent",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -314,7 +316,9 @@ __ESTREE_TEST__:PASS:
           "start": 71,
           "end": 86,
           "raw": "'BaseComponent'",
-          "value": "BaseComponent"
+          "value": "BaseComponent",
+          "regex": null,
+          "bigint": null
         }
       }
     },

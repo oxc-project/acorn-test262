@@ -84,7 +84,9 @@
                         "start": 846,
                         "end": 850,
                         "value": 3.14,
-                        "raw": "3.14"
+                        "raw": "3.14",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -178,14 +180,18 @@
                         "start": 920,
                         "end": 922,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 924,
                         "end": 928,
                         "value": 3.14,
-                        "raw": "3.14"
+                        "raw": "3.14",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -279,7 +285,9 @@
                         "start": 998,
                         "end": 1004,
                         "value": "3.14",
-                        "raw": "'3.14'"
+                        "raw": "'3.14'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -466,7 +474,9 @@
                         "start": 1189,
                         "end": 1193,
                         "value": "_1",
-                        "raw": "'_1'"
+                        "raw": "'_1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -560,7 +570,9 @@
                         "start": 1263,
                         "end": 1267,
                         "value": "1a",
-                        "raw": "'1a'"
+                        "raw": "'1a'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

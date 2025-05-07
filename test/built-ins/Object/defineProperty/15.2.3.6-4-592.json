@@ -48,7 +48,9 @@
             "start": 299,
             "end": 303,
             "value": 1001,
-            "raw": "1001"
+            "raw": "1001",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
             "start": 340,
             "end": 351,
             "value": "startTime",
-            "raw": "\"startTime\""
+            "raw": "\"startTime\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -161,7 +165,9 @@
                   "start": 412,
                   "end": 417,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -183,7 +189,9 @@
                   "start": 435,
                   "end": 439,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -213,7 +221,9 @@
             "start": 456,
             "end": 462,
             "value": "NAME",
-            "raw": "\"NAME\""
+            "raw": "\"NAME\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -258,7 +268,9 @@
             "start": 499,
             "end": 505,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -326,7 +338,9 @@
                   "start": 566,
                   "end": 571,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -348,7 +362,9 @@
                   "start": 589,
                   "end": 594,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -430,7 +446,9 @@
             "start": 654,
             "end": 673,
             "value": "In-person meeting",
-            "raw": "\"In-person meeting\""
+            "raw": "\"In-person meeting\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -475,7 +493,9 @@
             "start": 706,
             "end": 722,
             "value": "conferenceCall",
-            "raw": "\"conferenceCall\""
+            "raw": "\"conferenceCall\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -543,7 +563,9 @@
                   "start": 783,
                   "end": 788,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -565,7 +587,9 @@
                   "start": 806,
                   "end": 810,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -647,7 +671,9 @@
             "start": 880,
             "end": 885,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -673,7 +699,9 @@
             "start": 908,
             "end": 913,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -699,7 +727,9 @@
             "start": 936,
             "end": 941,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -760,7 +790,9 @@
                 "start": 984,
                 "end": 995,
                 "value": "startTime",
-                "raw": "\"startTime\""
+                "raw": "\"startTime\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -788,7 +820,9 @@
                       "start": 1020,
                       "end": 1024,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -816,7 +850,9 @@
                 "start": 1042,
                 "end": 1048,
                 "value": "name",
-                "raw": "\"name\""
+                "raw": "\"name\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -844,7 +880,9 @@
                       "start": 1073,
                       "end": 1077,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -872,7 +910,9 @@
                 "start": 1095,
                 "end": 1111,
                 "value": "conferenceCall",
-                "raw": "\"conferenceCall\""
+                "raw": "\"conferenceCall\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -900,7 +940,9 @@
                       "start": 1136,
                       "end": 1140,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -969,7 +1011,9 @@
                       "start": 1198,
                       "end": 1204,
                       "value": "name",
-                      "raw": "\"name\""
+                      "raw": "\"name\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -1011,7 +1055,9 @@
                       "start": 1239,
                       "end": 1250,
                       "value": "startTime",
-                      "raw": "\"startTime\""
+                      "raw": "\"startTime\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -1054,7 +1100,9 @@
                     "start": 1285,
                     "end": 1301,
                     "value": "conferenceCall",
-                    "raw": "'conferenceCall'"
+                    "raw": "'conferenceCall'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1091,7 +1139,9 @@
             "start": 1328,
             "end": 1353,
             "value": "hasOwnProperty !== true",
-            "raw": "'hasOwnProperty !== true'"
+            "raw": "'hasOwnProperty !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1136,14 +1186,18 @@
             "start": 1389,
             "end": 1394,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1396,
             "end": 1412,
             "value": "verifyTimeProp",
-            "raw": "'verifyTimeProp'"
+            "raw": "'verifyTimeProp'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1188,14 +1242,18 @@
             "start": 1448,
             "end": 1453,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1455,
             "end": 1471,
             "value": "verifyNameProp",
-            "raw": "'verifyNameProp'"
+            "raw": "'verifyNameProp'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1240,14 +1298,18 @@
             "start": 1507,
             "end": 1512,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1514,
             "end": 1530,
             "value": "verifyCallProp",
-            "raw": "'verifyCallProp'"
+            "raw": "'verifyCallProp'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

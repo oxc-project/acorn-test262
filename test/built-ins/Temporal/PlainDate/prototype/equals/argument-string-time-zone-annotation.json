@@ -33,14 +33,18 @@
                     "start": 307,
                     "end": 333,
                     "value": "2000-05-02[Asia/Kolkata]",
-                    "raw": "\"2000-05-02[Asia/Kolkata]\""
+                    "raw": "\"2000-05-02[Asia/Kolkata]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 335,
                     "end": 356,
                     "value": "named, with no time",
-                    "raw": "\"named, with no time\""
+                    "raw": "\"named, with no time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 362,
                     "end": 390,
                     "value": "2000-05-02[!Europe/Vienna]",
-                    "raw": "\"2000-05-02[!Europe/Vienna]\""
+                    "raw": "\"2000-05-02[!Europe/Vienna]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 392,
                     "end": 419,
                     "value": "named, with ! and no time",
-                    "raw": "\"named, with ! and no time\""
+                    "raw": "\"named, with ! and no time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 425,
                     "end": 445,
                     "value": "2000-05-02[+00:00]",
-                    "raw": "\"2000-05-02[+00:00]\""
+                    "raw": "\"2000-05-02[+00:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 447,
                     "end": 470,
                     "value": "numeric, with no time",
-                    "raw": "\"numeric, with no time\""
+                    "raw": "\"numeric, with no time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -96,14 +108,18 @@
                     "start": 476,
                     "end": 497,
                     "value": "2000-05-02[!-02:30]",
-                    "raw": "\"2000-05-02[!-02:30]\""
+                    "raw": "\"2000-05-02[!-02:30]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 499,
                     "end": 528,
                     "value": "numeric, with ! and no time",
-                    "raw": "\"numeric, with ! and no time\""
+                    "raw": "\"numeric, with ! and no time\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -117,14 +133,18 @@
                     "start": 534,
                     "end": 571,
                     "value": "2000-05-02T15:23[America/Sao_Paulo]",
-                    "raw": "\"2000-05-02T15:23[America/Sao_Paulo]\""
+                    "raw": "\"2000-05-02T15:23[America/Sao_Paulo]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 573,
                     "end": 596,
                     "value": "named, with no offset",
-                    "raw": "\"named, with no offset\""
+                    "raw": "\"named, with no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -138,14 +158,18 @@
                     "start": 602,
                     "end": 633,
                     "value": "2000-05-02T15:23[!Asia/Tokyo]",
-                    "raw": "\"2000-05-02T15:23[!Asia/Tokyo]\""
+                    "raw": "\"2000-05-02T15:23[!Asia/Tokyo]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 635,
                     "end": 664,
                     "value": "named, with ! and no offset",
-                    "raw": "\"named, with ! and no offset\""
+                    "raw": "\"named, with ! and no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -159,14 +183,18 @@
                     "start": 670,
                     "end": 696,
                     "value": "2000-05-02T15:23[-02:30]",
-                    "raw": "\"2000-05-02T15:23[-02:30]\""
+                    "raw": "\"2000-05-02T15:23[-02:30]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 698,
                     "end": 723,
                     "value": "numeric, with no offset",
-                    "raw": "\"numeric, with no offset\""
+                    "raw": "\"numeric, with no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -180,14 +208,18 @@
                     "start": 729,
                     "end": 756,
                     "value": "2000-05-02T15:23[!+00:00]",
-                    "raw": "\"2000-05-02T15:23[!+00:00]\""
+                    "raw": "\"2000-05-02T15:23[!+00:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 758,
                     "end": 789,
                     "value": "numeric, with ! and no offset",
-                    "raw": "\"numeric, with ! and no offset\""
+                    "raw": "\"numeric, with ! and no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -201,14 +233,18 @@
                     "start": 795,
                     "end": 837,
                     "value": "2000-05-02T15:23+00:00[America/New_York]",
-                    "raw": "\"2000-05-02T15:23+00:00[America/New_York]\""
+                    "raw": "\"2000-05-02T15:23+00:00[America/New_York]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 839,
                     "end": 859,
                     "value": "named, with offset",
-                    "raw": "\"named, with offset\""
+                    "raw": "\"named, with offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -222,14 +258,18 @@
                     "start": 865,
                     "end": 895,
                     "value": "2000-05-02T15:23+00:00[!UTC]",
-                    "raw": "\"2000-05-02T15:23+00:00[!UTC]\""
+                    "raw": "\"2000-05-02T15:23+00:00[!UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 897,
                     "end": 923,
                     "value": "named, with offset and !",
-                    "raw": "\"named, with offset and !\""
+                    "raw": "\"named, with offset and !\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -243,14 +283,18 @@
                     "start": 929,
                     "end": 961,
                     "value": "2000-05-02T15:23+00:00[+01:00]",
-                    "raw": "\"2000-05-02T15:23+00:00[+01:00]\""
+                    "raw": "\"2000-05-02T15:23+00:00[+01:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 963,
                     "end": 985,
                     "value": "numeric, with offset",
-                    "raw": "\"numeric, with offset\""
+                    "raw": "\"numeric, with offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -264,14 +308,18 @@
                     "start": 991,
                     "end": 1024,
                     "value": "2000-05-02T15:23+00:00[!-08:00]",
-                    "raw": "\"2000-05-02T15:23+00:00[!-08:00]\""
+                    "raw": "\"2000-05-02T15:23+00:00[!-08:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1026,
                     "end": 1054,
                     "value": "numeric, with offset and !",
-                    "raw": "\"numeric, with offset and !\""
+                    "raw": "\"numeric, with offset and !\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -325,21 +373,27 @@
                 "start": 1101,
                 "end": 1105,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1107,
                 "end": 1108,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1110,
                 "end": 1111,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -500,7 +554,9 @@
                         "start": 1231,
                         "end": 1235,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

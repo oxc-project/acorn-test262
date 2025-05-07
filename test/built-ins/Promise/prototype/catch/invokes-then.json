@@ -73,7 +73,9 @@
             "start": 391,
             "end": 392,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -99,7 +101,9 @@
             "start": 410,
             "end": 414,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -125,7 +129,9 @@
             "start": 431,
             "end": 435,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -151,7 +157,9 @@
             "start": 452,
             "end": 456,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -177,7 +185,9 @@
             "start": 474,
             "end": 478,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -203,7 +213,9 @@
             "start": 493,
             "end": 497,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -284,7 +296,9 @@
                     "start": 546,
                     "end": 547,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -484,21 +498,27 @@
               "start": 707,
               "end": 708,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 710,
               "end": 711,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 713,
               "end": 714,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -544,14 +564,18 @@
             "start": 746,
             "end": 747,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 785,
             "value": "Invokes `then` method exactly once",
-            "raw": "'Invokes `then` method exactly once'"
+            "raw": "'Invokes `then` method exactly once'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -602,7 +626,9 @@
             "start": 831,
             "end": 892,
             "value": "Invokes `then` method with the instance as the `this` value",
-            "raw": "'Invokes `then` method with the instance as the `this` value'"
+            "raw": "'Invokes `then` method with the instance as the `this` value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -647,14 +673,18 @@
             "start": 926,
             "end": 927,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 929,
             "end": 986,
             "value": "Invokes `then` method with exactly two single arguments",
-            "raw": "'Invokes `then` method with exactly two single arguments'"
+            "raw": "'Invokes `then` method with exactly two single arguments'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -705,7 +735,9 @@
             "start": 1035,
             "end": 1097,
             "value": "Invokes `then` method with `undefined` as the first argument",
-            "raw": "'Invokes `then` method with `undefined` as the first argument'"
+            "raw": "'Invokes `then` method with `undefined` as the first argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -750,14 +782,18 @@
             "start": 1132,
             "end": 1133,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1135,
             "end": 1185,
             "value": "Invokes `then` method with the provided argument",
-            "raw": "'Invokes `then` method with the provided argument'"
+            "raw": "'Invokes `then` method with the provided argument'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -808,7 +844,9 @@
             "start": 1230,
             "end": 1278,
             "value": "Returns the result of the invocation of `then`",
-            "raw": "'Returns the result of the invocation of `then`'"
+            "raw": "'Returns the result of the invocation of `then`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -61,7 +61,9 @@
                               "start": 1339,
                               "end": 1379,
                               "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
-                              "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
+                              "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "options": null
                           },
@@ -148,7 +150,9 @@
                                         "start": 1432,
                                         "end": 1442,
                                         "value": "URIError",
-                                        "raw": "'URIError'"
+                                        "raw": "'URIError'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false

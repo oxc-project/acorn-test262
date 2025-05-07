@@ -42,7 +42,9 @@
                   "start": 349,
                   "end": 399,
                   "value": "The overriden version of Object.keys was called!",
-                  "raw": "'The overriden version of Object.keys was called!'"
+                  "raw": "'The overriden version of Object.keys was called!'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -144,7 +146,9 @@
             "start": 482,
             "end": 544,
             "value": "Sanity check failed: could not modify the global Object.keys",
-            "raw": "'Sanity check failed: could not modify the global Object.keys'"
+            "raw": "'Sanity check failed: could not modify the global Object.keys'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +233,9 @@
                         "start": 586,
                         "end": 587,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -252,14 +258,18 @@
             "start": 599,
             "end": 600,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 602,
             "end": 646,
             "value": "Expected object with 1 key to have 1 entry",
-            "raw": "'Expected object with 1 key to have 1 entry'"
+            "raw": "'Expected object with 1 key to have 1 entry'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

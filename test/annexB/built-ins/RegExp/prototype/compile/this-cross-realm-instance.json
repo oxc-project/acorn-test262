@@ -92,7 +92,9 @@
                 "start": 357,
                 "end": 359,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +146,9 @@
                 "start": 405,
                 "end": 407,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -417,7 +421,9 @@
             "start": 622,
             "end": 686,
             "value": "`other.RegExp.prototype.compile.call(regexp)` throws TypeError",
-            "raw": "\"`other.RegExp.prototype.compile.call(regexp)` throws TypeError\""
+            "raw": "\"`other.RegExp.prototype.compile.call(regexp)` throws TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -488,7 +494,9 @@
             "start": 763,
             "end": 832,
             "value": "`otherRealm_regexp.compile()` is SameValue with `otherRealm_regexp`",
-            "raw": "\"`otherRealm_regexp.compile()` is SameValue with `otherRealm_regexp`\""
+            "raw": "\"`otherRealm_regexp.compile()` is SameValue with `otherRealm_regexp`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

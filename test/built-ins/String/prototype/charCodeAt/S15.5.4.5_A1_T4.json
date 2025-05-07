@@ -24,7 +24,9 @@
               "start": 446,
               "end": 453,
               "value": "smart",
-              "raw": "\"smart\""
+              "raw": "\"smart\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -44,7 +46,9 @@
           "start": 471,
           "end": 475,
           "value": 115,
-          "raw": "0x73"
+          "raw": "0x73",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -76,7 +80,9 @@
                     "start": 504,
                     "end": 573,
                     "value": "#1: \"smart\".charCodeAt() === 0x73. Actual: \"smart\".charCodeAt() ===",
-                    "raw": "'#1: \"smart\".charCodeAt() === 0x73. Actual: \"smart\".charCodeAt() ==='"
+                    "raw": "'#1: \"smart\".charCodeAt() === 0x73. Actual: \"smart\".charCodeAt() ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -96,7 +102,9 @@
                           "start": 577,
                           "end": 584,
                           "value": "smart",
-                          "raw": "\"smart\""
+                          "raw": "\"smart\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",

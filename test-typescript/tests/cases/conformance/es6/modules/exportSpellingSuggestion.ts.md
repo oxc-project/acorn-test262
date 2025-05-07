@@ -39,7 +39,9 @@ __ESTREE_TEST__:PASS:
                       "start": 73,
                       "end": 86,
                       "raw": "\"Unexpected \"",
-                      "value": "Unexpected "
+                      "value": "Unexpected ",
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -146,7 +148,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 33,
         "raw": "\"./a\"",
-        "value": "./a"
+        "value": "./a",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

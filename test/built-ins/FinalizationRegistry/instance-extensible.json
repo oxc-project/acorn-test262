@@ -117,7 +117,9 @@
             "start": 1086,
             "end": 1090,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

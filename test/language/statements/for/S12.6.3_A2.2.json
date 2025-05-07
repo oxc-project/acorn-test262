@@ -47,7 +47,9 @@
                           "start": 459,
                           "end": 475,
                           "value": "NoInExpression",
-                          "raw": "\"NoInExpression\""
+                          "raw": "\"NoInExpression\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -73,7 +75,9 @@
                     "start": 493,
                     "end": 504,
                     "value": "Statement",
-                    "raw": "\"Statement\""
+                    "raw": "\"Statement\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -99,7 +103,9 @@
                   "start": 533,
                   "end": 604,
                   "value": "#1: (function(){throw \"NoInExpression\"})() lead to throwing exception",
-                  "raw": "'#1: (function(){throw \"NoInExpression\"})() lead to throwing exception'"
+                  "raw": "'#1: (function(){throw \"NoInExpression\"})() lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -141,7 +147,9 @@
                   "start": 632,
                   "end": 648,
                   "value": "NoInExpression",
-                  "raw": "\"NoInExpression\""
+                  "raw": "\"NoInExpression\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -169,7 +177,9 @@
                           "start": 677,
                           "end": 768,
                           "value": "#1: When for (ExpressionNoIn ;  ; ) Statement is evaluated NoInExpression evaluates first",
-                          "raw": "'#1: When for (ExpressionNoIn ;  ; ) Statement is evaluated NoInExpression evaluates first'"
+                          "raw": "'#1: When for (ExpressionNoIn ;  ; ) Statement is evaluated NoInExpression evaluates first'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

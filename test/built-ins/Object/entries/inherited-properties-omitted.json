@@ -362,14 +362,18 @@
             "start": 482,
             "end": 486,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 508,
             "value": "result is an array",
-            "raw": "'result is an array'"
+            "raw": "'result is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,14 +431,18 @@
             "start": 543,
             "end": 544,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 566,
             "value": "result has 2 items",
-            "raw": "'result has 2 items'"
+            "raw": "'result has 2 items'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -507,7 +515,9 @@
                   "start": 608,
                   "end": 609,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -520,14 +530,18 @@
             "start": 613,
             "end": 617,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 619,
             "end": 644,
             "value": "first entry is an array",
-            "raw": "'first entry is an array'"
+            "raw": "'first entry is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -600,7 +614,9 @@
                   "start": 685,
                   "end": 686,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "computed": true,
                 "optional": false
@@ -613,14 +629,18 @@
             "start": 690,
             "end": 694,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 722,
             "value": "second entry is an array",
-            "raw": "'second entry is an array'"
+            "raw": "'second entry is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -673,7 +693,9 @@
                 "start": 750,
                 "end": 751,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -683,7 +705,9 @@
               "start": 753,
               "end": 754,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -693,14 +717,18 @@
             "start": 757,
             "end": 760,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 787,
             "value": "first entry has key \"b\"",
-            "raw": "'first entry has key \"b\"'"
+            "raw": "'first entry has key \"b\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -753,7 +781,9 @@
                 "start": 814,
                 "end": 815,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -763,7 +793,9 @@
               "start": 817,
               "end": 818,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -792,7 +824,9 @@
             "start": 826,
             "end": 853,
             "value": "first entry has value f.b",
-            "raw": "'first entry has value f.b'"
+            "raw": "'first entry has value f.b'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -845,7 +879,9 @@
                 "start": 880,
                 "end": 881,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -855,7 +891,9 @@
               "start": 883,
               "end": 884,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -865,14 +903,18 @@
             "start": 887,
             "end": 890,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 892,
             "end": 918,
             "value": "second entry has key \"c\"",
-            "raw": "'second entry has key \"c\"'"
+            "raw": "'second entry has key \"c\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -925,7 +967,9 @@
                 "start": 945,
                 "end": 946,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -935,7 +979,9 @@
               "start": 948,
               "end": 949,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -964,7 +1010,9 @@
             "start": 957,
             "end": 985,
             "value": "second entry has value f.c",
-            "raw": "'second entry has value f.c'"
+            "raw": "'second entry has value f.c'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

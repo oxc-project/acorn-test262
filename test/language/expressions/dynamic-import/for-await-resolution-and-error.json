@@ -86,7 +86,9 @@
                     "start": 1001,
                     "end": 1048,
                     "value": "./for-await-resolution-and-error-a_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'"
+                    "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "options": null
                 },
@@ -99,7 +101,9 @@
                     "start": 1064,
                     "end": 1111,
                     "value": "./for-await-resolution-and-error-b_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-b_FIXTURE.js'"
+                    "raw": "'./for-await-resolution-and-error-b_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "options": null
                 },
@@ -112,7 +116,9 @@
                     "start": 1127,
                     "end": 1181,
                     "value": "./for-await-resolution-and-error-poisoned_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-poisoned_FIXTURE.js'"
+                    "raw": "'./for-await-resolution-and-error-poisoned_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "options": null
                 },
@@ -125,7 +131,9 @@
                     "start": 1197,
                     "end": 1244,
                     "value": "./for-await-resolution-and-error-a_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'"
+                    "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "options": null
                 }
@@ -259,7 +267,9 @@
                         "start": 1340,
                         "end": 1379,
                         "value": "The async function should not resolve",
-                        "raw": "'The async function should not resolve'"
+                        "raw": "'The async function should not resolve'",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -330,14 +340,18 @@
                                 "start": 1420,
                                 "end": 1422,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1424,
                                 "end": 1426,
                                 "value": 39,
-                                "raw": "39"
+                                "raw": "39",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -384,7 +398,9 @@
                             "start": 1456,
                             "end": 1461,
                             "value": "foo",
-                            "raw": "'foo'"
+                            "raw": "'foo'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

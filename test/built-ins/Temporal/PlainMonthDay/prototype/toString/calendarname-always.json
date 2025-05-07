@@ -47,14 +47,18 @@
                 "start": 336,
                 "end": 337,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 340,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -124,7 +128,9 @@
                       "start": 392,
                       "end": 400,
                       "value": "always",
-                      "raw": "\"always\""
+                      "raw": "\"always\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -176,7 +182,9 @@
             "start": 430,
             "end": 456,
             "value": "1972-05-02[u-ca=iso8601]",
-            "raw": "\"1972-05-02[u-ca=iso8601]\""
+            "raw": "\"1972-05-02[u-ca=iso8601]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TemplateLiteral",

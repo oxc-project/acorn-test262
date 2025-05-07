@@ -47,7 +47,9 @@
             "start": 315,
             "end": 320,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -111,7 +113,9 @@
                 "start": 373,
                 "end": 377,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -173,7 +177,9 @@
                     "start": 416,
                     "end": 418,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -207,7 +213,9 @@
             "start": 447,
             "end": 488,
             "value": "[11].every(callbackfn, global) !== true",
-            "raw": "'[11].every(callbackfn, global) !== true'"
+            "raw": "'[11].every(callbackfn, global) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +247,9 @@
             "start": 508,
             "end": 527,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

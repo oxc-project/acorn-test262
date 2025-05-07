@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "a|b|(?i:c)|d|e",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -83,7 +84,9 @@
                   "start": 1714,
                   "end": 1717,
                   "value": "A",
-                  "raw": "\"A\""
+                  "raw": "\"A\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -94,7 +97,9 @@
             "start": 1720,
             "end": 1758,
             "value": "Alternative `a` should not match `A`",
-            "raw": "\"Alternative `a` should not match `A`\""
+            "raw": "\"Alternative `a` should not match `A`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -150,7 +155,9 @@
                   "start": 1778,
                   "end": 1781,
                   "value": "B",
-                  "raw": "\"B\""
+                  "raw": "\"B\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -161,7 +168,9 @@
             "start": 1784,
             "end": 1822,
             "value": "Alternative `b` should not match `B`",
-            "raw": "\"Alternative `b` should not match `B`\""
+            "raw": "\"Alternative `b` should not match `B`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,7 +220,9 @@
                 "start": 1841,
                 "end": 1844,
                 "value": "C",
-                "raw": "\"C\""
+                "raw": "\"C\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -221,7 +232,9 @@
             "start": 1847,
             "end": 1904,
             "value": "Alternative `(?i:c)` should match `C` in modified group",
-            "raw": "\"Alternative `(?i:c)` should match `C` in modified group\""
+            "raw": "\"Alternative `(?i:c)` should match `C` in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +290,9 @@
                   "start": 1924,
                   "end": 1927,
                   "value": "D",
-                  "raw": "\"D\""
+                  "raw": "\"D\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -288,7 +303,9 @@
             "start": 1930,
             "end": 1968,
             "value": "Alternative `d` should not match `D`",
-            "raw": "\"Alternative `d` should not match `D`\""
+            "raw": "\"Alternative `d` should not match `D`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +361,9 @@
                   "start": 1988,
                   "end": 1991,
                   "value": "E",
-                  "raw": "\"E\""
+                  "raw": "\"E\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -355,7 +374,9 @@
             "start": 1994,
             "end": 2032,
             "value": "Alternative `e` should not match `E`",
-            "raw": "\"Alternative `e` should not match `E`\""
+            "raw": "\"Alternative `e` should not match `E`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -385,7 +406,8 @@
             "regex": {
               "pattern": "(a)|(?:b)|(?i:c)|(?:d)|(e)",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -441,7 +463,9 @@
                   "start": 2093,
                   "end": 2096,
                   "value": "A",
-                  "raw": "\"A\""
+                  "raw": "\"A\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -452,7 +476,9 @@
             "start": 2099,
             "end": 2139,
             "value": "Alternative `(a)` should not match `A`",
-            "raw": "\"Alternative `(a)` should not match `A`\""
+            "raw": "\"Alternative `(a)` should not match `A`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -508,7 +534,9 @@
                   "start": 2159,
                   "end": 2162,
                   "value": "B",
-                  "raw": "\"B\""
+                  "raw": "\"B\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -519,7 +547,9 @@
             "start": 2165,
             "end": 2207,
             "value": "Alternative `(?:b)` should not match `B`",
-            "raw": "\"Alternative `(?:b)` should not match `B`\""
+            "raw": "\"Alternative `(?:b)` should not match `B`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -569,7 +599,9 @@
                 "start": 2226,
                 "end": 2229,
                 "value": "C",
-                "raw": "\"C\""
+                "raw": "\"C\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -579,7 +611,9 @@
             "start": 2232,
             "end": 2289,
             "value": "Alternative `(?i:c)` should match `C` in modified group",
-            "raw": "\"Alternative `(?i:c)` should match `C` in modified group\""
+            "raw": "\"Alternative `(?i:c)` should match `C` in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -635,7 +669,9 @@
                   "start": 2309,
                   "end": 2312,
                   "value": "D",
-                  "raw": "\"D\""
+                  "raw": "\"D\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -646,7 +682,9 @@
             "start": 2315,
             "end": 2357,
             "value": "Alternative `(?:d)` should not match `D`",
-            "raw": "\"Alternative `(?:d)` should not match `D`\""
+            "raw": "\"Alternative `(?:d)` should not match `D`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -702,7 +740,9 @@
                   "start": 2377,
                   "end": 2380,
                   "value": "E",
-                  "raw": "\"E\""
+                  "raw": "\"E\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -713,7 +753,9 @@
             "start": 2383,
             "end": 2423,
             "value": "Alternative `(e)` should not match `E`",
-            "raw": "\"Alternative `(e)` should not match `E`\""
+            "raw": "\"Alternative `(e)` should not match `E`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

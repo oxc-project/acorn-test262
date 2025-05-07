@@ -28,42 +28,54 @@
                 "start": 339,
                 "end": 349,
                 "value": "PT0.1H0M",
-                "raw": "\"PT0.1H0M\""
+                "raw": "\"PT0.1H0M\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 411,
                 "value": "PT0.1H0.0M",
-                "raw": "\"PT0.1H0.0M\""
+                "raw": "\"PT0.1H0.0M\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 466,
                 "value": "PT0.1H0S",
-                "raw": "\"PT0.1H0S\""
+                "raw": "\"PT0.1H0S\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 516,
                 "end": 528,
                 "value": "PT0.1H0.0S",
-                "raw": "\"PT0.1H0.0S\""
+                "raw": "\"PT0.1H0.0S\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 575,
                 "end": 585,
                 "value": "PT0.1M0S",
-                "raw": "\"PT0.1M0S\""
+                "raw": "\"PT0.1M0S\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 649,
                 "value": "PT0.1M0.0S",
-                "raw": "\"PT0.1M0.0S\""
+                "raw": "\"PT0.1M0.0S\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

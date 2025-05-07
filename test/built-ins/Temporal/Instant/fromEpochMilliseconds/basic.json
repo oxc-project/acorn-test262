@@ -60,7 +60,9 @@
                 "start": 339,
                 "end": 352,
                 "value": 217175010123,
-                "raw": "217175010_123"
+                "raw": "217175010_123",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,6 +124,7 @@
             "end": 423,
             "value": null,
             "raw": "217175010_123_000_000n",
+            "regex": null,
             "bigint": "217175010123000000"
           },
           {
@@ -129,7 +132,9 @@
             "start": 425,
             "end": 459,
             "value": "fromEpochMilliseconds post epoch",
-            "raw": "\"fromEpochMilliseconds post epoch\""
+            "raw": "\"fromEpochMilliseconds post epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +203,9 @@
                   "start": 523,
                   "end": 536,
                   "value": 217175010876,
-                  "raw": "217175010_876"
+                  "raw": "217175010_876",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -267,6 +274,7 @@
               "end": 609,
               "value": null,
               "raw": "217175010_876_000_000n",
+              "regex": null,
               "bigint": "217175010876000000"
             }
           },
@@ -275,7 +283,9 @@
             "start": 611,
             "end": 644,
             "value": "fromEpochMilliseconds pre epoch",
-            "raw": "\"fromEpochMilliseconds pre epoch\""
+            "raw": "\"fromEpochMilliseconds pre epoch\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

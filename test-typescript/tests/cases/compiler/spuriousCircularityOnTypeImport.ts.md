@@ -622,7 +622,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 198,
                                       "end": 207,
                                       "raw": "'./types'",
-                                      "value": "./types"
+                                      "value": "./types",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "options": null,

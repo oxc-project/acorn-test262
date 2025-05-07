@@ -47,7 +47,9 @@
                 "start": 389,
                 "end": 399,
                 "value": "timeZone",
-                "raw": "\"timeZone\""
+                "raw": "\"timeZone\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -122,7 +124,9 @@
                           "start": 465,
                           "end": 466,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -212,7 +216,9 @@
                                   "start": 514,
                                   "end": 515,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -431,6 +437,7 @@
                             "end": 677,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {

@@ -50,7 +50,9 @@
               "start": 1013,
               "end": 1033,
               "value": "lineContinuation",
-              "raw": "'line\\\nContinuation'"
+              "raw": "'line\\\nContinuation'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "get",
             "value": {
@@ -76,7 +78,9 @@
                       "start": 1045,
                       "end": 1057,
                       "value": "get string",
-                      "raw": "'get string'"
+                      "raw": "'get string'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -94,7 +98,9 @@
               "start": 1074,
               "end": 1094,
               "value": "lineContinuation",
-              "raw": "'line\\\nContinuation'"
+              "raw": "'line\\\nContinuation'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "set",
             "value": {
@@ -191,7 +197,9 @@
               "start": 1147,
               "end": 1165,
               "value": "lineContinuation",
-              "raw": "'lineContinuation'"
+              "raw": "'lineContinuation'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -201,7 +209,9 @@
             "start": 1168,
             "end": 1180,
             "value": "get string",
-            "raw": "'get string'"
+            "raw": "'get string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -231,7 +241,9 @@
             "start": 1186,
             "end": 1204,
             "value": "lineContinuation",
-            "raw": "'lineContinuation'"
+            "raw": "'lineContinuation'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -241,7 +253,9 @@
           "start": 1208,
           "end": 1220,
           "value": "set string",
-          "raw": "'set string'"
+          "raw": "'set string'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -284,7 +298,9 @@
             "start": 1250,
             "end": 1262,
             "value": "set string",
-            "raw": "'set string'"
+            "raw": "'set string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

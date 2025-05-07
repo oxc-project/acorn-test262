@@ -88,7 +88,9 @@
                   "start": 336,
                   "end": 362,
                   "value": "2020-13-34T24:60[-08:00]",
-                  "raw": "\"2020-13-34T24:60[-08:00]\""
+                  "raw": "\"2020-13-34T24:60[-08:00]\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -113,7 +115,9 @@
                         "start": 376,
                         "end": 387,
                         "value": "constrain",
-                        "raw": "\"constrain\""
+                        "raw": "\"constrain\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

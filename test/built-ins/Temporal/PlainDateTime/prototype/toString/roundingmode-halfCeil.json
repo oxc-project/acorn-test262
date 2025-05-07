@@ -47,63 +47,81 @@
                 "start": 310,
                 "end": 314,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 317,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 319,
                 "end": 320,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 324,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 328,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 332,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 337,
                 "value": 123,
-                "raw": "123"
+                "raw": "123",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 342,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 347,
                 "value": 500,
-                "raw": "500"
+                "raw": "500",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -173,7 +191,9 @@
                       "start": 401,
                       "end": 414,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -195,7 +215,9 @@
                       "start": 430,
                       "end": 440,
                       "value": "halfCeil",
-                      "raw": "\"halfCeil\""
+                      "raw": "\"halfCeil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -247,14 +269,18 @@
             "start": 471,
             "end": 499,
             "value": "2000-05-02T12:34:56.123988",
-            "raw": "\"2000-05-02T12:34:56.123988\""
+            "raw": "\"2000-05-02T12:34:56.123988\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 563,
             "value": "roundingMode is halfCeil (with 6 digits from smallestUnit)",
-            "raw": "\"roundingMode is halfCeil (with 6 digits from smallestUnit)\""
+            "raw": "\"roundingMode is halfCeil (with 6 digits from smallestUnit)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +348,9 @@
                       "start": 627,
                       "end": 628,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -344,7 +372,9 @@
                       "start": 644,
                       "end": 654,
                       "value": "halfCeil",
-                      "raw": "\"halfCeil\""
+                      "raw": "\"halfCeil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -396,14 +426,18 @@
             "start": 685,
             "end": 713,
             "value": "2000-05-02T12:34:56.123988",
-            "raw": "\"2000-05-02T12:34:56.123988\""
+            "raw": "\"2000-05-02T12:34:56.123988\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 787,
             "value": "roundingMode is halfCeil (with 6 digits from fractionalSecondDigits)",
-            "raw": "\"roundingMode is halfCeil (with 6 digits from fractionalSecondDigits)\""
+            "raw": "\"roundingMode is halfCeil (with 6 digits from fractionalSecondDigits)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -471,7 +505,9 @@
                       "start": 841,
                       "end": 854,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -493,7 +529,9 @@
                       "start": 870,
                       "end": 880,
                       "value": "halfCeil",
-                      "raw": "\"halfCeil\""
+                      "raw": "\"halfCeil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -545,14 +583,18 @@
             "start": 911,
             "end": 936,
             "value": "2000-05-02T12:34:56.124",
-            "raw": "\"2000-05-02T12:34:56.124\""
+            "raw": "\"2000-05-02T12:34:56.124\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 940,
             "end": 1000,
             "value": "roundingMode is halfCeil (with 3 digits from smallestUnit)",
-            "raw": "\"roundingMode is halfCeil (with 3 digits from smallestUnit)\""
+            "raw": "\"roundingMode is halfCeil (with 3 digits from smallestUnit)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,7 +662,9 @@
                       "start": 1064,
                       "end": 1065,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -642,7 +686,9 @@
                       "start": 1081,
                       "end": 1091,
                       "value": "halfCeil",
-                      "raw": "\"halfCeil\""
+                      "raw": "\"halfCeil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -694,14 +740,18 @@
             "start": 1122,
             "end": 1147,
             "value": "2000-05-02T12:34:56.124",
-            "raw": "\"2000-05-02T12:34:56.124\""
+            "raw": "\"2000-05-02T12:34:56.124\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1151,
             "end": 1221,
             "value": "roundingMode is halfCeil (with 3 digits from fractionalSecondDigits)",
-            "raw": "\"roundingMode is halfCeil (with 3 digits from fractionalSecondDigits)\""
+            "raw": "\"roundingMode is halfCeil (with 3 digits from fractionalSecondDigits)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -769,7 +819,9 @@
                       "start": 1275,
                       "end": 1283,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -791,7 +843,9 @@
                       "start": 1299,
                       "end": 1309,
                       "value": "halfCeil",
-                      "raw": "\"halfCeil\""
+                      "raw": "\"halfCeil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -843,14 +897,18 @@
             "start": 1340,
             "end": 1361,
             "value": "2000-05-02T12:34:56",
-            "raw": "\"2000-05-02T12:34:56\""
+            "raw": "\"2000-05-02T12:34:56\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1365,
             "end": 1425,
             "value": "roundingMode is halfCeil (with 0 digits from smallestUnit)",
-            "raw": "\"roundingMode is halfCeil (with 0 digits from smallestUnit)\""
+            "raw": "\"roundingMode is halfCeil (with 0 digits from smallestUnit)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -918,7 +976,9 @@
                       "start": 1489,
                       "end": 1490,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -940,7 +1000,9 @@
                       "start": 1506,
                       "end": 1516,
                       "value": "halfCeil",
-                      "raw": "\"halfCeil\""
+                      "raw": "\"halfCeil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -992,14 +1054,18 @@
             "start": 1547,
             "end": 1568,
             "value": "2000-05-02T12:34:56",
-            "raw": "\"2000-05-02T12:34:56\""
+            "raw": "\"2000-05-02T12:34:56\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1572,
             "end": 1642,
             "value": "roundingMode is halfCeil (with 0 digits from fractionalSecondDigits)",
-            "raw": "\"roundingMode is halfCeil (with 0 digits from fractionalSecondDigits)\""
+            "raw": "\"roundingMode is halfCeil (with 0 digits from fractionalSecondDigits)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1067,7 +1133,9 @@
                       "start": 1696,
                       "end": 1704,
                       "value": "minute",
-                      "raw": "\"minute\""
+                      "raw": "\"minute\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1089,7 +1157,9 @@
                       "start": 1720,
                       "end": 1730,
                       "value": "halfCeil",
-                      "raw": "\"halfCeil\""
+                      "raw": "\"halfCeil\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1141,14 +1211,18 @@
             "start": 1761,
             "end": 1779,
             "value": "2000-05-02T12:35",
-            "raw": "\"2000-05-02T12:35\""
+            "raw": "\"2000-05-02T12:35\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1781,
             "end": 1825,
             "value": "roundingMode is halfCeil (round to minute)",
-            "raw": "\"roundingMode is halfCeil (round to minute)\""
+            "raw": "\"roundingMode is halfCeil (round to minute)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

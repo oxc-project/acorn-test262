@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -120,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 40,
         "raw": "\"es6ImportWithoutFromClauseAmd_0\"",
-        "value": "es6ImportWithoutFromClauseAmd_0"
+        "value": "es6ImportWithoutFromClauseAmd_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -135,7 +141,9 @@ __ESTREE_TEST__:PASS:
         "start": 50,
         "end": 83,
         "raw": "\"es6ImportWithoutFromClauseAmd_2\"",
-        "value": "es6ImportWithoutFromClauseAmd_2"
+        "value": "es6ImportWithoutFromClauseAmd_2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -163,7 +171,9 @@ __ESTREE_TEST__:PASS:
             "start": 94,
             "end": 96,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -194,7 +204,9 @@ __ESTREE_TEST__:PASS:
             "start": 107,
             "end": 109,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

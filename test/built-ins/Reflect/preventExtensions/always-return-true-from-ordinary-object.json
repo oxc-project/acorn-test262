@@ -94,14 +94,18 @@
             "start": 550,
             "end": 554,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 558,
             "end": 613,
             "value": "returns true after preventing extentions on an object",
-            "raw": "'returns true after preventing extentions on an object'"
+            "raw": "'returns true after preventing extentions on an object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,14 +177,18 @@
             "start": 667,
             "end": 671,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 675,
             "end": 736,
             "value": "returns true even if the object already prevents extentions",
-            "raw": "'returns true even if the object already prevents extentions'"
+            "raw": "'returns true even if the object already prevents extentions'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

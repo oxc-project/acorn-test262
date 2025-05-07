@@ -23,7 +23,9 @@
             "start": 360,
             "end": 361,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -175,7 +177,9 @@
                       "start": 655,
                       "end": 656,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -295,7 +299,9 @@
             "start": 730,
             "end": 731,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -364,14 +370,18 @@
                 "start": 819,
                 "end": 820,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 822,
                 "end": 823,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -381,14 +391,18 @@
             "start": 826,
             "end": 827,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 829,
             "end": 867,
             "value": "Atomics.notify(i32a, 0, 1) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, 1) returns 0'"
+            "raw": "'Atomics.notify(i32a, 0, 1) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

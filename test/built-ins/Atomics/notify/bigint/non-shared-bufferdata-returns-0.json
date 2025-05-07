@@ -69,7 +69,9 @@
                       "start": 549,
                       "end": 550,
                       "value": 8,
-                      "raw": "8"
+                      "raw": "8",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -143,14 +145,18 @@
                 "start": 594,
                 "end": 595,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 597,
                 "end": 598,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -160,14 +166,18 @@
             "start": 601,
             "end": 602,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 604,
             "end": 642,
             "value": "Atomics.notify(i64a, 0, 0) returns 0",
-            "raw": "'Atomics.notify(i64a, 0, 0) returns 0'"
+            "raw": "'Atomics.notify(i64a, 0, 0) returns 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

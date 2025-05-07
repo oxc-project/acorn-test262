@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 26,
         "raw": "'file1'",
-        "value": "file1"
+        "value": "file1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -82,7 +84,9 @@ __ESTREE_TEST__:PASS:
           "start": 47,
           "end": 54,
           "raw": "'file2'",
-          "value": "file2"
+          "value": "file2",
+          "regex": null,
+          "bigint": null
         }
       }
     },

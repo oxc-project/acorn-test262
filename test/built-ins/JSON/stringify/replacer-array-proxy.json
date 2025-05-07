@@ -39,7 +39,9 @@
                     "start": 786,
                     "end": 789,
                     "value": "b",
-                    "raw": "'b'"
+                    "raw": "'b'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -130,7 +132,9 @@
                       "start": 834,
                       "end": 835,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -152,7 +156,9 @@
                       "start": 840,
                       "end": 841,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -172,7 +178,9 @@
             "start": 855,
             "end": 864,
             "value": "{\"b\":2}",
-            "raw": "'{\"b\":2}'"
+            "raw": "'{\"b\":2}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +279,9 @@
                             "start": 907,
                             "end": 908,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -293,7 +303,9 @@
                             "start": 913,
                             "end": 914,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -317,7 +329,9 @@
             "start": 929,
             "end": 944,
             "value": "{\"b\":{\"b\":4}}",
-            "raw": "'{\"b\":{\"b\":4}}'"
+            "raw": "'{\"b\":{\"b\":4}}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -167,7 +167,9 @@
             "start": 1017,
             "end": 1023,
             "value": "name",
-            "raw": "'name'"
+            "raw": "'name'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -192,7 +194,9 @@
                   "start": 1036,
                   "end": 1055,
                   "value": "[Symbol.iterator]",
-                  "raw": "'[Symbol.iterator]'"
+                  "raw": "'[Symbol.iterator]'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -214,7 +218,9 @@
                   "start": 1069,
                   "end": 1074,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -236,7 +242,9 @@
                   "start": 1090,
                   "end": 1095,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -258,7 +266,9 @@
                   "start": 1113,
                   "end": 1117,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

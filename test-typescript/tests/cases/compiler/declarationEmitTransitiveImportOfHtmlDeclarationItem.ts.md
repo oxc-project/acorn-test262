@@ -64,7 +64,9 @@ __ESTREE_TEST__:PASS:
         "start": 46,
         "end": 58,
         "raw": "\"./foo.html\"",
-        "value": "./foo.html"
+        "value": "./foo.html",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -174,7 +176,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 35,
         "raw": "\"./reexporter\"",
-        "value": "./reexporter"
+        "value": "./reexporter",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -94,7 +94,9 @@
             "start": 405,
             "end": 430,
             "value": "[object Array Iterator]",
-            "raw": "\"[object Array Iterator]\""
+            "raw": "\"[object Array Iterator]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "CallExpression",

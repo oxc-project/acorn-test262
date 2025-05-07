@@ -202,7 +202,9 @@
                             "start": 1026,
                             "end": 1027,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -218,7 +220,9 @@
                           "start": 1031,
                           "end": 1032,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -226,7 +230,9 @@
                         "start": 1034,
                         "end": 1046,
                         "value": "returns -1",
-                        "raw": "\"returns -1\""
+                        "raw": "\"returns -1\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -290,6 +296,7 @@
                             "end": 1094,
                             "value": null,
                             "raw": "0n",
+                            "regex": null,
                             "bigint": "0"
                           },
                           {
@@ -312,7 +319,9 @@
                           "start": 1109,
                           "end": 1110,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -320,7 +329,9 @@
                         "start": 1116,
                         "end": 1163,
                         "value": "length is checked before ToInteger(fromIndex)",
-                        "raw": "\"length is checked before ToInteger(fromIndex)\""
+                        "raw": "\"length is checked before ToInteger(fromIndex)\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 29,
                 "raw": "\"/a.ts\"",
-                "value": "/a.ts"
+                "value": "/a.ts",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

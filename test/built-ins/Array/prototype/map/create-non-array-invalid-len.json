@@ -23,7 +23,9 @@
             "start": 567,
             "end": 568,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -91,14 +93,18 @@
                       "start": 601,
                       "end": 602,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 604,
                       "end": 606,
                       "value": 32,
-                      "raw": "32"
+                      "raw": "32",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -160,7 +166,9 @@
                       "start": 648,
                       "end": 649,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -335,14 +343,18 @@
             "start": 769,
             "end": 770,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 774,
             "end": 842,
             "value": "RangeError thrown during array creation, not property modification",
-            "raw": "'RangeError thrown during array creation, not property modification'"
+            "raw": "'RangeError thrown during array creation, not property modification'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

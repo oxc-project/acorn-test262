@@ -52,7 +52,9 @@
                     "start": 722,
                     "end": 729,
                     "value": "pt-BR",
-                    "raw": "\"pt-BR\""
+                    "raw": "\"pt-BR\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -236,7 +238,9 @@
                         "start": 863,
                         "end": 868,
                         "value": "lol",
-                        "raw": "\"lol\""
+                        "raw": "\"lol\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

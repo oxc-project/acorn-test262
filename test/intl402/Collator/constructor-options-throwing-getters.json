@@ -49,49 +49,63 @@
                 "start": 310,
                 "end": 317,
                 "value": "usage",
-                "raw": "\"usage\""
+                "raw": "\"usage\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 336,
                 "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "raw": "\"localeMatcher\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 351,
                 "value": "collation",
-                "raw": "\"collation\""
+                "raw": "\"collation\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 364,
                 "value": "numeric",
-                "raw": "\"numeric\""
+                "raw": "\"numeric\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 379,
                 "value": "caseFirst",
-                "raw": "\"caseFirst\""
+                "raw": "\"caseFirst\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 396,
                 "value": "sensitivity",
-                "raw": "\"sensitivity\""
+                "raw": "\"sensitivity\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 419,
                 "value": "ignorePunctuation",
-                "raw": "\"ignorePunctuation\""
+                "raw": "\"ignorePunctuation\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -216,7 +230,9 @@
                               "start": 516,
                               "end": 520,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "ObjectExpression",

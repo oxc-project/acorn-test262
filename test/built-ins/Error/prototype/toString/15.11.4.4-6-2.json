@@ -34,7 +34,9 @@
                 "start": 351,
                 "end": 365,
                 "value": "ErrorMessage",
-                "raw": "\"ErrorMessage\""
+                "raw": "\"ErrorMessage\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -101,14 +103,18 @@
             "start": 405,
             "end": 426,
             "value": "Error: ErrorMessage",
-            "raw": "\"Error: ErrorMessage\""
+            "raw": "\"Error: ErrorMessage\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 447,
             "value": "errObj.toString()",
-            "raw": "'errObj.toString()'"
+            "raw": "'errObj.toString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

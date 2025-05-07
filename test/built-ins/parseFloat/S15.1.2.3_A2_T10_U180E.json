@@ -23,7 +23,9 @@
             "start": 802,
             "end": 810,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -84,7 +86,9 @@
                   "start": 867,
                   "end": 872,
                   "value": "1.1",
-                  "raw": "\"1.1\""
+                  "raw": "\"1.1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -101,7 +105,9 @@
             "start": 880,
             "end": 903,
             "value": "Single leading U+180E",
-            "raw": "\"Single leading U+180E\""
+            "raw": "\"Single leading U+180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -186,7 +192,9 @@
                   "start": 1012,
                   "end": 1017,
                   "value": "1.1",
-                  "raw": "\"1.1\""
+                  "raw": "\"1.1\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -203,7 +211,9 @@
             "start": 1025,
             "end": 1050,
             "value": "Multiple leading U+180E",
-            "raw": "\"Multiple leading U+180E\""
+            "raw": "\"Multiple leading U+180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -268,7 +278,9 @@
             "start": 1112,
             "end": 1125,
             "value": "Only U+180E",
-            "raw": "\"Only U+180E\""
+            "raw": "\"Only U+180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

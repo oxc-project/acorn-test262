@@ -23,7 +23,9 @@
             "start": 333,
             "end": 345,
             "value": "2019-10-01",
-            "raw": "\"2019-10-01\""
+            "raw": "\"2019-10-01\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -74,6 +76,7 @@
                 "end": 417,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               },
               {
@@ -81,7 +84,9 @@
                 "start": 419,
                 "end": 424,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -171,7 +176,9 @@
             "start": 495,
             "end": 561,
             "value": "Date-only string throws, does not implicitly convert to midnight",
-            "raw": "\"Date-only string throws, does not implicitly convert to midnight\""
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

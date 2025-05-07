@@ -70,7 +70,9 @@
                   "start": 514,
                   "end": 524,
                   "value": "detached",
-                  "raw": "'detached'"
+                  "raw": "'detached'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -134,7 +136,9 @@
             "start": 565,
             "end": 575,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

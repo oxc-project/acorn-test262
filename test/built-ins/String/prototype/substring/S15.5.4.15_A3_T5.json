@@ -133,14 +133,18 @@
               "start": 603,
               "end": 604,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 606,
               "end": 607,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -151,7 +155,9 @@
           "start": 613,
           "end": 623,
           "value": "[object ",
-          "raw": "\"[object \""
+          "raw": "\"[object \"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -183,7 +189,9 @@
                     "start": 652,
                     "end": 786,
                     "value": "#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8,0) === \"[object \". Actual: ",
-                    "raw": "'#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8,0) === \"[object \". Actual: '"
+                    "raw": "'#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8,0) === \"[object \". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -215,14 +223,18 @@
                         "start": 810,
                         "end": 811,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 813,
                         "end": 814,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

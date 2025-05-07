@@ -904,7 +904,9 @@ __ESTREE_TEST__:PASS:
                                     "start": 648,
                                     "end": 652,
                                     "raw": "\"hi\"",
-                                    "value": "hi"
+                                    "value": "hi",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]

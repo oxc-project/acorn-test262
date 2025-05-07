@@ -147,7 +147,9 @@
                 "start": 836,
                 "end": 838,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -573,7 +575,9 @@
                               "start": 1113,
                               "end": 1170,
                               "value": "Expected the promise to be rejected, got resolved with ",
-                              "raw": "\"Expected the promise to be rejected, got resolved with \""
+                              "raw": "\"Expected the promise to be rejected, got resolved with \"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -655,7 +659,9 @@
                             "start": 1229,
                             "end": 1230,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -807,7 +813,9 @@
                             "start": 1329,
                             "end": 1330,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -860,7 +868,9 @@
                                 "start": 1361,
                                 "end": 1362,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               "computed": true,
                               "optional": false
@@ -904,7 +914,9 @@
                             "start": 1400,
                             "end": 1405,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -946,7 +958,9 @@
                                     "start": 1428,
                                     "end": 1429,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "computed": true,
                                   "optional": false
@@ -1001,7 +1015,9 @@
                                   "start": 1475,
                                   "end": 1479,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -1080,7 +1096,9 @@
                             "start": 1542,
                             "end": 1586,
                             "value": "Expected resolve() to throw, but it didn't",
-                            "raw": "\"Expected resolve() to throw, but it didn't\""
+                            "raw": "\"Expected resolve() to throw, but it didn't\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

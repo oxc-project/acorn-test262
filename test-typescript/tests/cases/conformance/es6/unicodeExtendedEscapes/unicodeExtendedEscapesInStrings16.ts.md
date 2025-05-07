@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 42,
             "raw": "\"\\u{ABCD}\\u{EF12}\\u{3456}\\u{7890}\"",
-            "value": "ꯍ㑖碐"
+            "value": "ꯍ㑖碐",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

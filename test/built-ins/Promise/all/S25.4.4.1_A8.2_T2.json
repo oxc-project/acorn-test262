@@ -59,7 +59,9 @@
                 "start": 314,
                 "end": 315,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -255,7 +257,9 @@
                             "start": 460,
                             "end": 501,
                             "value": "Did not expect promise to be fulfilled.",
-                            "raw": "\"Did not expect promise to be fulfilled.\""
+                            "raw": "\"Did not expect promise to be fulfilled.\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -323,14 +327,18 @@
                             "start": 557,
                             "end": 558,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 560,
                             "end": 603,
                             "value": "The value of rejected is expected to be 2",
-                            "raw": "'The value of rejected is expected to be 2'"
+                            "raw": "'The value of rejected is expected to be 2'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -388,7 +396,9 @@
             "start": 639,
             "end": 640,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

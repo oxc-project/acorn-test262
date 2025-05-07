@@ -109,7 +109,9 @@
                             "start": 418,
                             "end": 430,
                             "value": "byteLength",
-                            "raw": "\"byteLength\""
+                            "raw": "\"byteLength\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 433,
                         "end": 438,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

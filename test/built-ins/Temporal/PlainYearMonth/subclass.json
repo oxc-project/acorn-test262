@@ -70,14 +70,18 @@
                 "start": 392,
                 "end": 396,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 399,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -124,21 +128,27 @@
             "start": 449,
             "end": 453,
             "value": 2000,
-            "raw": "2000"
+            "raw": "2000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 455,
             "end": 456,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 458,
             "end": 463,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,7 +239,9 @@
             "start": 548,
             "end": 582,
             "value": "Instance of CustomPlainYearMonth",
-            "raw": "\"Instance of CustomPlainYearMonth\""
+            "raw": "\"Instance of CustomPlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,7 +285,9 @@
             "start": 634,
             "end": 668,
             "value": "Instance of CustomPlainYearMonth",
-            "raw": "\"Instance of CustomPlainYearMonth\""
+            "raw": "\"Instance of CustomPlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -330,7 +344,9 @@
             "start": 723,
             "end": 760,
             "value": "Instance of Temporal.PlainYearMonth",
-            "raw": "\"Instance of Temporal.PlainYearMonth\""
+            "raw": "\"Instance of Temporal.PlainYearMonth\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

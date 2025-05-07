@@ -76,6 +76,7 @@
                                 "end": 915,
                                 "value": null,
                                 "raw": "0n",
+                                "regex": null,
                                 "bigint": "0"
                               }
                             ]
@@ -136,7 +137,9 @@
                             "start": 972,
                             "end": 975,
                             "value": "0",
-                            "raw": "\"0\""
+                            "raw": "\"0\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -270,7 +273,9 @@
                                     "start": 1085,
                                     "end": 1088,
                                     "value": "0",
-                                    "raw": "\"0\""
+                                    "raw": "\"0\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -376,7 +381,9 @@
                                     "start": 1178,
                                     "end": 1181,
                                     "value": "1",
-                                    "raw": "\"1\""
+                                    "raw": "\"1\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -482,7 +489,9 @@
                                     "start": 1271,
                                     "end": 1275,
                                     "value": "-1",
-                                    "raw": "\"-1\""
+                                    "raw": "\"-1\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -588,7 +597,9 @@
                                     "start": 1365,
                                     "end": 1370,
                                     "value": "1.5",
-                                    "raw": "\"1.5\""
+                                    "raw": "\"1.5\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -694,7 +705,9 @@
                                     "start": 1460,
                                     "end": 1464,
                                     "value": "-0",
-                                    "raw": "\"-0\""
+                                    "raw": "\"-0\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   {
                                     "type": "Identifier",

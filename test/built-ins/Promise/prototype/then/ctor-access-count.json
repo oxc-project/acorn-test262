@@ -23,7 +23,9 @@
             "start": 1144,
             "end": 1145,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -142,7 +144,9 @@
             "start": 1235,
             "end": 1248,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -196,7 +200,9 @@
                             "start": 1289,
                             "end": 1290,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -284,7 +290,9 @@
                       "start": 1364,
                       "end": 1365,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -316,7 +324,9 @@
                                 "start": 1379,
                                 "end": 1427,
                                 "value": "Expected constructor access count: 1. Actual: ",
-                                "raw": "'Expected constructor access count: 1. Actual: '"
+                                "raw": "'Expected constructor access count: 1. Actual: '",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -395,7 +405,9 @@
                         "start": 1494,
                         "end": 1531,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -71,7 +71,9 @@
                         "start": 811,
                         "end": 838,
                         "value": "typeof x; const x = null;",
-                        "raw": "'typeof x; const x = null;'"
+                        "raw": "'typeof x; const x = null;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

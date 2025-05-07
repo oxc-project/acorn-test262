@@ -204,7 +204,9 @@ __ESTREE_TEST__:PASS:
                                                               "start": 53,
                                                               "end": 60,
                                                               "raw": "\"hello\"",
-                                                              "value": "hello"
+                                                              "value": "hello",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           }
                                                         ]
@@ -442,7 +444,9 @@ __ESTREE_TEST__:PASS:
                                                               "start": 132,
                                                               "end": 137,
                                                               "raw": "12345",
-                                                              "value": 12345
+                                                              "value": 12345,
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           }
                                                         ]
@@ -549,7 +553,9 @@ __ESTREE_TEST__:PASS:
               "start": 186,
               "end": 190,
               "raw": "\"ok\"",
-              "value": "ok"
+              "value": "ok",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -608,7 +614,9 @@ __ESTREE_TEST__:PASS:
               "start": 216,
               "end": 218,
               "raw": "12",
-              "value": 12
+              "value": 12,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

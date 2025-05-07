@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 33,
         "raw": "'./lit.js'",
-        "value": "./lit.js"
+        "value": "./lit.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

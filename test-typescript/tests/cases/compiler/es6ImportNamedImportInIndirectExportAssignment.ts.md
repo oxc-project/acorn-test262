@@ -97,7 +97,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 70,
         "raw": "\"./es6ImportNamedImportInIndirectExportAssignment_0\"",
-        "value": "./es6ImportNamedImportInIndirectExportAssignment_0"
+        "value": "./es6ImportNamedImportInIndirectExportAssignment_0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

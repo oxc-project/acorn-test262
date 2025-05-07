@@ -41,7 +41,9 @@
                   "start": 677,
                   "end": 678,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -137,7 +139,9 @@
                           "start": 743,
                           "end": 745,
                           "value": 16,
-                          "raw": "16"
+                          "raw": "16",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -201,7 +205,9 @@
                       "start": 807,
                       "end": 808,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -244,7 +250,9 @@
           "start": 838,
           "end": 839,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -276,7 +284,9 @@
                     "start": 868,
                     "end": 902,
                     "value": "#1: innerScope.x === 2. Actual: ",
-                    "raw": "'#1: innerScope.x === 2. Actual: '"
+                    "raw": "'#1: innerScope.x === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -344,7 +354,9 @@
           "start": 945,
           "end": 946,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -376,7 +388,9 @@
                     "start": 975,
                     "end": 1009,
                     "value": "#2: outerScope.x === 0. Actual: ",
-                    "raw": "'#2: outerScope.x === 0. Actual: '"
+                    "raw": "'#2: outerScope.x === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -213,7 +213,9 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 25,
                 "raw": "\"./MW\"",
-                "value": "./MW"
+                "value": "./MW",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

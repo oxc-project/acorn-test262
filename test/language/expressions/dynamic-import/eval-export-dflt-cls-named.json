@@ -59,7 +59,9 @@
                         "start": 1099,
                         "end": 1101,
                         "value": 45,
-                        "raw": "45"
+                        "raw": "45",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -107,7 +109,9 @@
                       "start": 1114,
                       "end": 1147,
                       "value": "./eval-export-dflt-cls-named.js",
-                      "raw": "'./eval-export-dflt-cls-named.js'"
+                      "raw": "'./eval-export-dflt-cls-named.js'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "options": null
                   },
@@ -220,14 +224,18 @@
                                 "start": 1221,
                                 "end": 1223,
                                 "value": 45,
-                                "raw": "45"
+                                "raw": "45",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1225,
                                 "end": 1246,
                                 "value": "binding initialized",
-                                "raw": "'binding initialized'"
+                                "raw": "'binding initialized'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -298,14 +306,18 @@
                                 "start": 1291,
                                 "end": 1298,
                                 "value": "cName",
-                                "raw": "'cName'"
+                                "raw": "'cName'",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 1300,
                                 "end": 1326,
                                 "value": "correct name is assigned",
-                                "raw": "'correct name is assigned'"
+                                "raw": "'correct name is assigned'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

@@ -88,7 +88,9 @@
             "start": 445,
             "end": 504,
             "value": "`Object.getPrototypeOf(Map)` returns `Function.prototype`",
-            "raw": "'`Object.getPrototypeOf(Map)` returns `Function.prototype`'"
+            "raw": "'`Object.getPrototypeOf(Map)` returns `Function.prototype`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

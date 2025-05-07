@@ -114,7 +114,9 @@
                   "start": 418,
                   "end": 520,
                   "value": "#1: __FACTORY = String.prototype.charCodeAt; \"__instance = new __FACTORY\" lead to throwing exception",
-                  "raw": "'#1: __FACTORY = String.prototype.charCodeAt; \"__instance = new __FACTORY\" lead to throwing exception'"
+                  "raw": "'#1: __FACTORY = String.prototype.charCodeAt; \"__instance = new __FACTORY\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
               "start": 50,
               "end": 54,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -366,7 +368,9 @@ __ESTREE_TEST__:PASS:
               "start": 214,
               "end": 218,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -457,7 +461,9 @@ __ESTREE_TEST__:PASS:
               "start": 233,
               "end": 234,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSJSDocNullableType",
@@ -531,7 +537,9 @@ __ESTREE_TEST__:PASS:
             "start": 263,
             "end": 264,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -566,7 +574,9 @@ __ESTREE_TEST__:PASS:
               "start": 277,
               "end": 278,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSJSDocNullableType",
@@ -640,7 +650,9 @@ __ESTREE_TEST__:PASS:
             "start": 307,
             "end": 308,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

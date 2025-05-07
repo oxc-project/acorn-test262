@@ -34,7 +34,9 @@
                 "start": 733,
                 "end": 754,
                 "value": "one-1 two-2 three-3",
-                "raw": "\"one-1 two-2 three-3\""
+                "raw": "\"one-1 two-2 three-3\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -86,7 +88,9 @@
                 "start": 787,
                 "end": 789,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -153,7 +157,9 @@
             "start": 845,
             "end": 919,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -230,7 +236,9 @@
             "start": 981,
             "end": 1060,
             "value": "The value of __split.length is expected to equal the value of __string.length",
-            "raw": "'The value of __split.length is expected to equal the value of __string.length'"
+            "raw": "'The value of __split.length is expected to equal the value of __string.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +268,9 @@
               "start": 1250,
               "end": 1251,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -400,7 +410,9 @@
                   "start": 1345,
                   "end": 1428,
                   "value": "The value of __split[i] must return the same value returned by __string.charAt(i)",
-                  "raw": "'The value of __split[i] must return the same value returned by __string.charAt(i)'"
+                  "raw": "'The value of __split[i] must return the same value returned by __string.charAt(i)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

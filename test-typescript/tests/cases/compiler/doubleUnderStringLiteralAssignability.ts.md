@@ -35,7 +35,9 @@ __ESTREE_TEST__:PASS:
                   "start": 16,
                   "end": 26,
                   "raw": "'__dunder'",
-                  "value": "__dunder"
+                  "value": "__dunder",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -45,7 +47,9 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 39,
             "raw": "'__dunder'",
-            "value": "__dunder"
+            "value": "__dunder",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -82,7 +86,9 @@ __ESTREE_TEST__:PASS:
                   "start": 50,
                   "end": 60,
                   "raw": "'__dunder'",
-                  "value": "__dunder"
+                  "value": "__dunder",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -92,7 +98,9 @@ __ESTREE_TEST__:PASS:
             "start": 63,
             "end": 74,
             "raw": "'no_dunder'",
-            "value": "no_dunder"
+            "value": "no_dunder",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -129,7 +137,9 @@ __ESTREE_TEST__:PASS:
                   "start": 86,
                   "end": 98,
                   "raw": "'___thunder'",
-                  "value": "___thunder"
+                  "value": "___thunder",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -139,7 +149,9 @@ __ESTREE_TEST__:PASS:
             "start": 101,
             "end": 113,
             "raw": "'___thunder'",
-            "value": "___thunder"
+            "value": "___thunder",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -176,7 +188,9 @@ __ESTREE_TEST__:PASS:
                   "start": 127,
                   "end": 136,
                   "raw": "'_sunder'",
-                  "value": "_sunder"
+                  "value": "_sunder",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -186,7 +200,9 @@ __ESTREE_TEST__:PASS:
             "start": 139,
             "end": 148,
             "raw": "'_sunder'",
-            "value": "_sunder"
+            "value": "_sunder",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

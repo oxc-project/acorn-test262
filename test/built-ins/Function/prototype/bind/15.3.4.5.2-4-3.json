@@ -76,7 +76,9 @@
                           "start": 399,
                           "end": 400,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -257,14 +259,18 @@
             "start": 532,
             "end": 536,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 561,
             "value": "newInstance.valueOf()",
-            "raw": "'newInstance.valueOf()'"
+            "raw": "'newInstance.valueOf()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

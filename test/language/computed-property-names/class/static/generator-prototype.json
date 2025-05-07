@@ -78,7 +78,9 @@
                           "start": 354,
                           "end": 365,
                           "value": "prototype",
-                          "raw": "'prototype'"
+                          "raw": "'prototype'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "method",
                         "value": {

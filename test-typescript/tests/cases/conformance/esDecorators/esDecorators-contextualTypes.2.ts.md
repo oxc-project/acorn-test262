@@ -36,14 +36,18 @@ __ESTREE_TEST__:PASS:
                       "start": 33,
                       "end": 40,
                       "raw": "\"Yadda\"",
-                      "value": "Yadda"
+                      "value": "Yadda",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 52,
                       "end": 56,
                       "raw": "true",
-                      "value": true
+                      "value": true,
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "callee": {
@@ -174,7 +178,9 @@ __ESTREE_TEST__:PASS:
                           "start": 141,
                           "end": 184,
                           "raw": "\"Behold! The actual method implementation!\"",
-                          "value": "Behold! The actual method implementation!"
+                          "value": "Behold! The actual method implementation!",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -1178,7 +1184,9 @@ __ESTREE_TEST__:PASS:
             "start": 295,
             "end": 299,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           },
           "typeAnnotation": null
         }

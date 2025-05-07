@@ -60,7 +60,9 @@
                 "start": 307,
                 "end": 319,
                 "value": "2020-01-01",
-                "raw": "\"2020-01-01\""
+                "raw": "\"2020-01-01\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -89,7 +91,9 @@
             "start": 339,
             "end": 344,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -152,7 +156,9 @@
                 "start": 388,
                 "end": 395,
                 "value": "12:00",
-                "raw": "\"12:00\""
+                "raw": "\"12:00\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -315,14 +321,18 @@
             "start": 500,
             "end": 532,
             "value": "2020-01-01T12:00:00+00:00[UTC]",
-            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\""
+            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 550,
             "value": "objects passed",
-            "raw": "\"objects passed\""
+            "raw": "\"objects passed\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -437,14 +447,18 @@
             "start": 636,
             "end": 668,
             "value": "2020-01-01T00:00:00+00:00[UTC]",
-            "raw": "\"2020-01-01T00:00:00+00:00[UTC]\""
+            "raw": "\"2020-01-01T00:00:00+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 697,
             "value": "time zone object argument",
-            "raw": "\"time zone object argument\""
+            "raw": "\"time zone object argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -602,14 +616,18 @@
             "start": 798,
             "end": 830,
             "value": "2020-01-01T12:00:00+00:00[UTC]",
-            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\""
+            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 859,
             "value": "time zone string property",
-            "raw": "\"time zone string property\""
+            "raw": "\"time zone string property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -698,7 +716,9 @@
                     "start": 921,
                     "end": 928,
                     "value": "12:00",
-                    "raw": "\"12:00\""
+                    "raw": "\"12:00\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -768,14 +788,18 @@
             "start": 969,
             "end": 1001,
             "value": "2020-01-01T12:00:00+00:00[UTC]",
-            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\""
+            "raw": "\"2020-01-01T12:00:00+00:00[UTC]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1025,
             "value": "time string property",
-            "raw": "\"time string property\""
+            "raw": "\"time string property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

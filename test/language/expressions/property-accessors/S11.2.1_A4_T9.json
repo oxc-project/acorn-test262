@@ -43,7 +43,9 @@
           "start": 296,
           "end": 306,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +72,9 @@
                 "start": 332,
                 "end": 380,
                 "value": "#1: typeof Date.parse === \"function\". Actual: ",
-                "raw": "'#1: typeof Date.parse === \"function\". Actual: '"
+                "raw": "'#1: typeof Date.parse === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -139,7 +143,9 @@
               "start": 422,
               "end": 429,
               "value": "parse",
-              "raw": "'parse'"
+              "raw": "'parse'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -151,7 +157,9 @@
           "start": 435,
           "end": 445,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                 "start": 471,
                 "end": 522,
                 "value": "#2: typeof Date[\"parse\"] === \"function\". Actual: ",
-                "raw": "'#2: typeof Date[\"parse\"] === \"function\". Actual: '"
+                "raw": "'#2: typeof Date[\"parse\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -206,7 +216,9 @@
                       "start": 538,
                       "end": 545,
                       "value": "parse",
-                      "raw": "\"parse\""
+                      "raw": "\"parse\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -259,7 +271,9 @@
           "start": 581,
           "end": 589,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -286,7 +300,9 @@
                 "start": 615,
                 "end": 665,
                 "value": "#3: typeof Date.prototype === \"object\". Actual: ",
-                "raw": "'#3: typeof Date.prototype === \"object\". Actual: '"
+                "raw": "'#3: typeof Date.prototype === \"object\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -355,7 +371,9 @@
               "start": 711,
               "end": 722,
               "value": "prototype",
-              "raw": "'prototype'"
+              "raw": "'prototype'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -367,7 +385,9 @@
           "start": 728,
           "end": 736,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -394,7 +414,9 @@
                 "start": 762,
                 "end": 815,
                 "value": "#4: typeof Date[\"prototype\"] === \"object\". Actual: ",
-                "raw": "'#4: typeof Date[\"prototype\"] === \"object\". Actual: '"
+                "raw": "'#4: typeof Date[\"prototype\"] === \"object\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -422,7 +444,9 @@
                       "start": 831,
                       "end": 842,
                       "value": "prototype",
-                      "raw": "\"prototype\""
+                      "raw": "\"prototype\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -475,7 +499,9 @@
           "start": 872,
           "end": 882,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -502,7 +528,9 @@
                 "start": 908,
                 "end": 954,
                 "value": "#5: typeof Date.UTC === \"function\". Actual: ",
-                "raw": "'#5: typeof Date.UTC === \"function\". Actual: '"
+                "raw": "'#5: typeof Date.UTC === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -571,7 +599,9 @@
               "start": 994,
               "end": 999,
               "value": "UTC",
-              "raw": "'UTC'"
+              "raw": "'UTC'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -583,7 +613,9 @@
           "start": 1005,
           "end": 1015,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -610,7 +642,9 @@
                 "start": 1041,
                 "end": 1090,
                 "value": "#6: typeof Date[\"UTC\"] === \"function\". Actual: ",
-                "raw": "'#6: typeof Date[\"UTC\"] === \"function\". Actual: '"
+                "raw": "'#6: typeof Date[\"UTC\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -638,7 +672,9 @@
                       "start": 1106,
                       "end": 1111,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -704,7 +740,9 @@
           "start": 1159,
           "end": 1169,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -731,7 +769,9 @@
                 "start": 1195,
                 "end": 1259,
                 "value": "#7: typeof Date.prototype.constructor === \"funvtion\". Actual: ",
-                "raw": "'#7: typeof Date.prototype.constructor === \"funvtion\". Actual: '"
+                "raw": "'#7: typeof Date.prototype.constructor === \"funvtion\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -826,7 +866,9 @@
               "start": 1327,
               "end": 1340,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -838,7 +880,9 @@
           "start": 1346,
           "end": 1356,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -865,7 +909,9 @@
                 "start": 1382,
                 "end": 1449,
                 "value": "#8: typeof Date.prototype[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof Date.prototype[\"constructor\"] === \"function\". Actual: '"
+                "raw": "'#8: typeof Date.prototype[\"constructor\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -906,7 +952,9 @@
                       "start": 1475,
                       "end": 1488,
                       "value": "constructor",
-                      "raw": "\"constructor\""
+                      "raw": "\"constructor\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -972,7 +1020,9 @@
           "start": 1533,
           "end": 1543,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -999,7 +1049,9 @@
                 "start": 1569,
                 "end": 1630,
                 "value": "#9: typeof Date.prototype.toString === \"function\". Actual: ",
-                "raw": "'#9: typeof Date.prototype.toString === \"function\". Actual: '"
+                "raw": "'#9: typeof Date.prototype.toString === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1094,7 +1146,9 @@
               "start": 1695,
               "end": 1705,
               "value": "toString",
-              "raw": "'toString'"
+              "raw": "'toString'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1106,7 +1160,9 @@
           "start": 1711,
           "end": 1721,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1133,7 +1189,9 @@
                 "start": 1747,
                 "end": 1812,
                 "value": "#10: typeof Date.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#10: typeof Date.prototype[\"toString\"] === \"function\". Actual: '"
+                "raw": "'#10: typeof Date.prototype[\"toString\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1174,7 +1232,9 @@
                       "start": 1838,
                       "end": 1848,
                       "value": "toString",
-                      "raw": "\"toString\""
+                      "raw": "\"toString\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -1240,7 +1300,9 @@
           "start": 1892,
           "end": 1902,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1267,7 +1329,9 @@
                 "start": 1928,
                 "end": 1989,
                 "value": "#11: typeof Date.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#11: typeof Date.prototype.valueOf === \"function\". Actual: '"
+                "raw": "'#11: typeof Date.prototype.valueOf === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1362,7 +1426,9 @@
               "start": 2053,
               "end": 2062,
               "value": "valueOf",
-              "raw": "'valueOf'"
+              "raw": "'valueOf'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1374,7 +1440,9 @@
           "start": 2068,
           "end": 2078,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1401,7 +1469,9 @@
                 "start": 2104,
                 "end": 2168,
                 "value": "#12: typeof Date.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#12: typeof Date.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "raw": "'#12: typeof Date.prototype[\"valueOf\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1442,7 +1512,9 @@
                       "start": 2194,
                       "end": 2203,
                       "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "raw": "\"valueOf\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -1508,7 +1580,9 @@
           "start": 2247,
           "end": 2257,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1535,7 +1609,9 @@
                 "start": 2283,
                 "end": 2344,
                 "value": "#13: typeof Date.prototype.getTime === \"function\". Actual: ",
-                "raw": "'#13: typeof Date.prototype.getTime === \"function\". Actual: '"
+                "raw": "'#13: typeof Date.prototype.getTime === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1630,7 +1706,9 @@
               "start": 2408,
               "end": 2417,
               "value": "getTime",
-              "raw": "'getTime'"
+              "raw": "'getTime'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1642,7 +1720,9 @@
           "start": 2423,
           "end": 2433,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1669,7 +1749,9 @@
                 "start": 2459,
                 "end": 2523,
                 "value": "#14: typeof Date.prototype[\"getTime\"] === \"function\". Actual: ",
-                "raw": "'#14: typeof Date.prototype[\"getTime\"] === \"function\". Actual: '"
+                "raw": "'#14: typeof Date.prototype[\"getTime\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1710,7 +1792,9 @@
                       "start": 2549,
                       "end": 2558,
                       "value": "getTime",
-                      "raw": "\"getTime\""
+                      "raw": "\"getTime\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -1776,7 +1860,9 @@
           "start": 2606,
           "end": 2616,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1803,7 +1889,9 @@
                 "start": 2642,
                 "end": 2707,
                 "value": "#17: typeof Date.prototype.getFullYear === \"function\". Actual: ",
-                "raw": "'#17: typeof Date.prototype.getFullYear === \"function\". Actual: '"
+                "raw": "'#17: typeof Date.prototype.getFullYear === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1898,7 +1986,9 @@
               "start": 2775,
               "end": 2788,
               "value": "getFullYear",
-              "raw": "'getFullYear'"
+              "raw": "'getFullYear'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -1910,7 +2000,9 @@
           "start": 2794,
           "end": 2804,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1937,7 +2029,9 @@
                 "start": 2830,
                 "end": 2898,
                 "value": "#18: typeof Date.prototype[\"getFullYear\"] === \"function\". Actual: ",
-                "raw": "'#18: typeof Date.prototype[\"getFullYear\"] === \"function\". Actual: '"
+                "raw": "'#18: typeof Date.prototype[\"getFullYear\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -1978,7 +2072,9 @@
                       "start": 2924,
                       "end": 2937,
                       "value": "getFullYear",
-                      "raw": "\"getFullYear\""
+                      "raw": "\"getFullYear\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -2044,7 +2140,9 @@
           "start": 2988,
           "end": 2998,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2071,7 +2169,9 @@
                 "start": 3024,
                 "end": 3092,
                 "value": "#19: typeof Date.prototype.getUTCFullYear === \"function\". Actual: ",
-                "raw": "'#19: typeof Date.prototype.getUTCFullYear === \"function\". Actual: '"
+                "raw": "'#19: typeof Date.prototype.getUTCFullYear === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2166,7 +2266,9 @@
               "start": 3163,
               "end": 3179,
               "value": "getUTCFullYear",
-              "raw": "'getUTCFullYear'"
+              "raw": "'getUTCFullYear'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -2178,7 +2280,9 @@
           "start": 3185,
           "end": 3195,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2205,7 +2309,9 @@
                 "start": 3221,
                 "end": 3292,
                 "value": "#20: typeof Date.prototype[\"getUTCFullYear\"] === \"function\". Actual: ",
-                "raw": "'#20: typeof Date.prototype[\"getUTCFullYear\"] === \"function\". Actual: '"
+                "raw": "'#20: typeof Date.prototype[\"getUTCFullYear\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2246,7 +2352,9 @@
                       "start": 3318,
                       "end": 3334,
                       "value": "getUTCFullYear",
-                      "raw": "\"getUTCFullYear\""
+                      "raw": "\"getUTCFullYear\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -2312,7 +2420,9 @@
           "start": 3379,
           "end": 3389,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2339,7 +2449,9 @@
                 "start": 3415,
                 "end": 3477,
                 "value": "#21: typeof Date.prototype.getMonth === \"function\". Actual: ",
-                "raw": "'#21: typeof Date.prototype.getMonth === \"function\". Actual: '"
+                "raw": "'#21: typeof Date.prototype.getMonth === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2434,7 +2546,9 @@
               "start": 3542,
               "end": 3552,
               "value": "getMonth",
-              "raw": "'getMonth'"
+              "raw": "'getMonth'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -2446,7 +2560,9 @@
           "start": 3558,
           "end": 3568,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2473,7 +2589,9 @@
                 "start": 3594,
                 "end": 3659,
                 "value": "#22: typeof Date.prototype[\"getMonth\"] === \"function\". Actual: ",
-                "raw": "'#22: typeof Date.prototype[\"getMonth\"] === \"function\". Actual: '"
+                "raw": "'#22: typeof Date.prototype[\"getMonth\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2514,7 +2632,9 @@
                       "start": 3685,
                       "end": 3695,
                       "value": "getMonth",
-                      "raw": "\"getMonth\""
+                      "raw": "\"getMonth\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -2580,7 +2700,9 @@
           "start": 3743,
           "end": 3753,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2607,7 +2729,9 @@
                 "start": 3779,
                 "end": 3844,
                 "value": "#23: typeof Date.prototype.getUTCMonth === \"function\". Actual: ",
-                "raw": "'#23: typeof Date.prototype.getUTCMonth === \"function\". Actual: '"
+                "raw": "'#23: typeof Date.prototype.getUTCMonth === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2702,7 +2826,9 @@
               "start": 3912,
               "end": 3925,
               "value": "getUTCMonth",
-              "raw": "'getUTCMonth'"
+              "raw": "'getUTCMonth'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -2714,7 +2840,9 @@
           "start": 3931,
           "end": 3941,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2741,7 +2869,9 @@
                 "start": 3967,
                 "end": 4035,
                 "value": "#24: typeof Date.prototype[\"getUTCMonth\"] === \"function\". Actual: ",
-                "raw": "'#24: typeof Date.prototype[\"getUTCMonth\"] === \"function\". Actual: '"
+                "raw": "'#24: typeof Date.prototype[\"getUTCMonth\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2782,7 +2912,9 @@
                       "start": 4061,
                       "end": 4074,
                       "value": "getUTCMonth",
-                      "raw": "\"getUTCMonth\""
+                      "raw": "\"getUTCMonth\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -2848,7 +2980,9 @@
           "start": 4118,
           "end": 4128,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2875,7 +3009,9 @@
                 "start": 4154,
                 "end": 4215,
                 "value": "#25: typeof Date.prototype.getDate === \"function\". Actual: ",
-                "raw": "'#25: typeof Date.prototype.getDate === \"function\". Actual: '"
+                "raw": "'#25: typeof Date.prototype.getDate === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -2970,7 +3106,9 @@
               "start": 4279,
               "end": 4288,
               "value": "getDate",
-              "raw": "'getDate'"
+              "raw": "'getDate'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -2982,7 +3120,9 @@
           "start": 4294,
           "end": 4304,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3009,7 +3149,9 @@
                 "start": 4330,
                 "end": 4394,
                 "value": "#26: typeof Date.prototype[\"getDate\"] === \"function\". Actual: ",
-                "raw": "'#26: typeof Date.prototype[\"getDate\"] === \"function\". Actual: '"
+                "raw": "'#26: typeof Date.prototype[\"getDate\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3050,7 +3192,9 @@
                       "start": 4420,
                       "end": 4429,
                       "value": "getDate",
-                      "raw": "\"getDate\""
+                      "raw": "\"getDate\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -3116,7 +3260,9 @@
           "start": 4476,
           "end": 4486,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3143,7 +3289,9 @@
                 "start": 4512,
                 "end": 4576,
                 "value": "#27: typeof Date.prototype.getUTCDate === \"function\". Actual: ",
-                "raw": "'#27: typeof Date.prototype.getUTCDate === \"function\". Actual: '"
+                "raw": "'#27: typeof Date.prototype.getUTCDate === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3238,7 +3386,9 @@
               "start": 4643,
               "end": 4655,
               "value": "getUTCDate",
-              "raw": "'getUTCDate'"
+              "raw": "'getUTCDate'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3250,7 +3400,9 @@
           "start": 4661,
           "end": 4671,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3277,7 +3429,9 @@
                 "start": 4697,
                 "end": 4764,
                 "value": "#28: typeof Date.prototype[\"getUTCDate\"] === \"function\". Actual: ",
-                "raw": "'#28: typeof Date.prototype[\"getUTCDate\"] === \"function\". Actual: '"
+                "raw": "'#28: typeof Date.prototype[\"getUTCDate\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3318,7 +3472,9 @@
                       "start": 4790,
                       "end": 4802,
                       "value": "getUTCDate",
-                      "raw": "\"getUTCDate\""
+                      "raw": "\"getUTCDate\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -3384,7 +3540,9 @@
           "start": 4845,
           "end": 4855,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3411,7 +3569,9 @@
                 "start": 4881,
                 "end": 4941,
                 "value": "#29: typeof Date.prototype.getDay === \"function\". Actual: ",
-                "raw": "'#29: typeof Date.prototype.getDay === \"function\". Actual: '"
+                "raw": "'#29: typeof Date.prototype.getDay === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3506,7 +3666,9 @@
               "start": 5004,
               "end": 5012,
               "value": "getDay",
-              "raw": "'getDay'"
+              "raw": "'getDay'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3518,7 +3680,9 @@
           "start": 5018,
           "end": 5028,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3545,7 +3709,9 @@
                 "start": 5054,
                 "end": 5117,
                 "value": "#30: typeof Date.prototype[\"getDay\"] === \"function\". Actual: ",
-                "raw": "'#30: typeof Date.prototype[\"getDay\"] === \"function\". Actual: '"
+                "raw": "'#30: typeof Date.prototype[\"getDay\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3586,7 +3752,9 @@
                       "start": 5143,
                       "end": 5151,
                       "value": "getDay",
-                      "raw": "\"getDay\""
+                      "raw": "\"getDay\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -3652,7 +3820,9 @@
           "start": 5197,
           "end": 5207,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3679,7 +3849,9 @@
                 "start": 5233,
                 "end": 5296,
                 "value": "#31: typeof Date.prototype.getUTCDay === \"function\". Actual: ",
-                "raw": "'#31: typeof Date.prototype.getUTCDay === \"function\". Actual: '"
+                "raw": "'#31: typeof Date.prototype.getUTCDay === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3774,7 +3946,9 @@
               "start": 5362,
               "end": 5373,
               "value": "getUTCDay",
-              "raw": "'getUTCDay'"
+              "raw": "'getUTCDay'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -3786,7 +3960,9 @@
           "start": 5379,
           "end": 5389,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3813,7 +3989,9 @@
                 "start": 5415,
                 "end": 5481,
                 "value": "#32: typeof Date.prototype[\"getUTCDay\"] === \"function\". Actual: ",
-                "raw": "'#32: typeof Date.prototype[\"getUTCDay\"] === \"function\". Actual: '"
+                "raw": "'#32: typeof Date.prototype[\"getUTCDay\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -3854,7 +4032,9 @@
                       "start": 5507,
                       "end": 5518,
                       "value": "getUTCDay",
-                      "raw": "\"getUTCDay\""
+                      "raw": "\"getUTCDay\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -3920,7 +4100,9 @@
           "start": 5563,
           "end": 5573,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -3947,7 +4129,9 @@
                 "start": 5599,
                 "end": 5661,
                 "value": "#33: typeof Date.prototype.getHours === \"function\". Actual: ",
-                "raw": "'#33: typeof Date.prototype.getHours === \"function\". Actual: '"
+                "raw": "'#33: typeof Date.prototype.getHours === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4042,7 +4226,9 @@
               "start": 5726,
               "end": 5736,
               "value": "getHours",
-              "raw": "'getHours'"
+              "raw": "'getHours'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -4054,7 +4240,9 @@
           "start": 5742,
           "end": 5752,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -4081,7 +4269,9 @@
                 "start": 5778,
                 "end": 5843,
                 "value": "#34: typeof Date.prototype[\"getHours\"] === \"function\". Actual: ",
-                "raw": "'#34: typeof Date.prototype[\"getHours\"] === \"function\". Actual: '"
+                "raw": "'#34: typeof Date.prototype[\"getHours\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4122,7 +4312,9 @@
                       "start": 5869,
                       "end": 5879,
                       "value": "getHours",
-                      "raw": "\"getHours\""
+                      "raw": "\"getHours\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -4188,7 +4380,9 @@
           "start": 5927,
           "end": 5937,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -4215,7 +4409,9 @@
                 "start": 5963,
                 "end": 6028,
                 "value": "#35: typeof Date.prototype.getUTCHours === \"function\". Actual: ",
-                "raw": "'#35: typeof Date.prototype.getUTCHours === \"function\". Actual: '"
+                "raw": "'#35: typeof Date.prototype.getUTCHours === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4310,7 +4506,9 @@
               "start": 6096,
               "end": 6109,
               "value": "getUTCHours",
-              "raw": "'getUTCHours'"
+              "raw": "'getUTCHours'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -4322,7 +4520,9 @@
           "start": 6115,
           "end": 6125,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -4349,7 +4549,9 @@
                 "start": 6151,
                 "end": 6219,
                 "value": "#36: typeof Date.prototype[\"getUTCHours\"] === \"function\". Actual: ",
-                "raw": "'#36: typeof Date.prototype[\"getUTCHours\"] === \"function\". Actual: '"
+                "raw": "'#36: typeof Date.prototype[\"getUTCHours\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4390,7 +4592,9 @@
                       "start": 6245,
                       "end": 6258,
                       "value": "getUTCHours",
-                      "raw": "\"getUTCHours\""
+                      "raw": "\"getUTCHours\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -4456,7 +4660,9 @@
           "start": 6305,
           "end": 6315,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -4483,7 +4689,9 @@
                 "start": 6341,
                 "end": 6405,
                 "value": "#37: typeof Date.prototype.getMinutes === \"function\". Actual: ",
-                "raw": "'#37: typeof Date.prototype.getMinutes === \"function\". Actual: '"
+                "raw": "'#37: typeof Date.prototype.getMinutes === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4578,7 +4786,9 @@
               "start": 6472,
               "end": 6484,
               "value": "getMinutes",
-              "raw": "'getMinutes'"
+              "raw": "'getMinutes'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -4590,7 +4800,9 @@
           "start": 6490,
           "end": 6500,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -4617,7 +4829,9 @@
                 "start": 6526,
                 "end": 6593,
                 "value": "#38: typeof Date.prototype[\"getMinutes\"] === \"function\". Actual: ",
-                "raw": "'#38: typeof Date.prototype[\"getMinutes\"] === \"function\". Actual: '"
+                "raw": "'#38: typeof Date.prototype[\"getMinutes\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4658,7 +4872,9 @@
                       "start": 6619,
                       "end": 6631,
                       "value": "getMinutes",
-                      "raw": "\"getMinutes\""
+                      "raw": "\"getMinutes\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -4724,7 +4940,9 @@
           "start": 6681,
           "end": 6691,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -4751,7 +4969,9 @@
                 "start": 6717,
                 "end": 6784,
                 "value": "#39: typeof Date.prototype.getUTCMinutes === \"function\". Actual: ",
-                "raw": "'#39: typeof Date.prototype.getUTCMinutes === \"function\". Actual: '"
+                "raw": "'#39: typeof Date.prototype.getUTCMinutes === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4846,7 +5066,9 @@
               "start": 6854,
               "end": 6869,
               "value": "getUTCMinutes",
-              "raw": "'getUTCMinutes'"
+              "raw": "'getUTCMinutes'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -4858,7 +5080,9 @@
           "start": 6875,
           "end": 6885,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -4885,7 +5109,9 @@
                 "start": 6911,
                 "end": 6981,
                 "value": "#40: typeof Date.prototype[\"getUTCMinutes\"] === \"function\". Actual: ",
-                "raw": "'#40: typeof Date.prototype[\"getUTCMinutes\"] === \"function\". Actual: '"
+                "raw": "'#40: typeof Date.prototype[\"getUTCMinutes\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -4926,7 +5152,9 @@
                       "start": 7007,
                       "end": 7022,
                       "value": "getUTCMinutes",
-                      "raw": "\"getUTCMinutes\""
+                      "raw": "\"getUTCMinutes\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -4992,7 +5220,9 @@
           "start": 7069,
           "end": 7079,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5019,7 +5249,9 @@
                 "start": 7105,
                 "end": 7169,
                 "value": "#41: typeof Date.prototype.getSeconds === \"function\". Actual: ",
-                "raw": "'#41: typeof Date.prototype.getSeconds === \"function\". Actual: '"
+                "raw": "'#41: typeof Date.prototype.getSeconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5114,7 +5346,9 @@
               "start": 7236,
               "end": 7248,
               "value": "getSeconds",
-              "raw": "'getSeconds'"
+              "raw": "'getSeconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -5126,7 +5360,9 @@
           "start": 7254,
           "end": 7264,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5153,7 +5389,9 @@
                 "start": 7290,
                 "end": 7357,
                 "value": "#42: typeof Date.prototype[\"getSeconds\"] === \"function\". Actual: ",
-                "raw": "'#42: typeof Date.prototype[\"getSeconds\"] === \"function\". Actual: '"
+                "raw": "'#42: typeof Date.prototype[\"getSeconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5194,7 +5432,9 @@
                       "start": 7383,
                       "end": 7395,
                       "value": "getSeconds",
-                      "raw": "\"getSeconds\""
+                      "raw": "\"getSeconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -5260,7 +5500,9 @@
           "start": 7445,
           "end": 7455,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5287,7 +5529,9 @@
                 "start": 7481,
                 "end": 7548,
                 "value": "#43: typeof Date.prototype.getUTCSeconds === \"function\". Actual: ",
-                "raw": "'#43: typeof Date.prototype.getUTCSeconds === \"function\". Actual: '"
+                "raw": "'#43: typeof Date.prototype.getUTCSeconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5382,7 +5626,9 @@
               "start": 7618,
               "end": 7633,
               "value": "getUTCSeconds",
-              "raw": "'getUTCSeconds'"
+              "raw": "'getUTCSeconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -5394,7 +5640,9 @@
           "start": 7639,
           "end": 7649,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5421,7 +5669,9 @@
                 "start": 7675,
                 "end": 7745,
                 "value": "#44: typeof Date.prototype[\"getUTCSeconds\"] === \"function\". Actual: ",
-                "raw": "'#44: typeof Date.prototype[\"getUTCSeconds\"] === \"function\". Actual: '"
+                "raw": "'#44: typeof Date.prototype[\"getUTCSeconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5462,7 +5712,9 @@
                       "start": 7771,
                       "end": 7786,
                       "value": "getUTCSeconds",
-                      "raw": "\"getUTCSeconds\""
+                      "raw": "\"getUTCSeconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -5528,7 +5780,9 @@
           "start": 7838,
           "end": 7848,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5555,7 +5809,9 @@
                 "start": 7874,
                 "end": 7943,
                 "value": "#45: typeof Date.prototype.getMilliseconds === \"function\". Actual: ",
-                "raw": "'#45: typeof Date.prototype.getMilliseconds === \"function\". Actual: '"
+                "raw": "'#45: typeof Date.prototype.getMilliseconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5650,7 +5906,9 @@
               "start": 8015,
               "end": 8032,
               "value": "getMilliseconds",
-              "raw": "'getMilliseconds'"
+              "raw": "'getMilliseconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -5662,7 +5920,9 @@
           "start": 8038,
           "end": 8048,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5689,7 +5949,9 @@
                 "start": 8074,
                 "end": 8146,
                 "value": "#46: typeof Date.prototype[\"getMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#46: typeof Date.prototype[\"getMilliseconds\"] === \"function\". Actual: '"
+                "raw": "'#46: typeof Date.prototype[\"getMilliseconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5730,7 +5992,9 @@
                       "start": 8172,
                       "end": 8189,
                       "value": "getMilliseconds",
-                      "raw": "\"getMilliseconds\""
+                      "raw": "\"getMilliseconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -5796,7 +6060,9 @@
           "start": 8244,
           "end": 8254,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5823,7 +6089,9 @@
                 "start": 8280,
                 "end": 8352,
                 "value": "#47: typeof Date.prototype.getUTCMilliseconds === \"function\". Actual: ",
-                "raw": "'#47: typeof Date.prototype.getUTCMilliseconds === \"function\". Actual: '"
+                "raw": "'#47: typeof Date.prototype.getUTCMilliseconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5918,7 +6186,9 @@
               "start": 8427,
               "end": 8447,
               "value": "getUTCMilliseconds",
-              "raw": "'getUTCMilliseconds'"
+              "raw": "'getUTCMilliseconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -5930,7 +6200,9 @@
           "start": 8453,
           "end": 8463,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -5957,7 +6229,9 @@
                 "start": 8489,
                 "end": 8564,
                 "value": "#48: typeof Date.prototype[\"getUTCMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#48: typeof Date.prototype[\"getUTCMilliseconds\"] === \"function\". Actual: '"
+                "raw": "'#48: typeof Date.prototype[\"getUTCMilliseconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -5998,7 +6272,9 @@
                       "start": 8590,
                       "end": 8610,
                       "value": "getUTCMilliseconds",
-                      "raw": "\"getUTCMilliseconds\""
+                      "raw": "\"getUTCMilliseconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -6064,7 +6340,9 @@
           "start": 8654,
           "end": 8664,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -6091,7 +6369,9 @@
                 "start": 8690,
                 "end": 8751,
                 "value": "#49: typeof Date.prototype.setTime === \"function\". Actual: ",
-                "raw": "'#49: typeof Date.prototype.setTime === \"function\". Actual: '"
+                "raw": "'#49: typeof Date.prototype.setTime === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6186,7 +6466,9 @@
               "start": 8815,
               "end": 8824,
               "value": "setTime",
-              "raw": "'setTime'"
+              "raw": "'setTime'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -6198,7 +6480,9 @@
           "start": 8830,
           "end": 8840,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -6225,7 +6509,9 @@
                 "start": 8866,
                 "end": 8930,
                 "value": "#50: typeof Date.prototype[\"setTime\"] === \"function\". Actual: ",
-                "raw": "'#50: typeof Date.prototype[\"setTime\"] === \"function\". Actual: '"
+                "raw": "'#50: typeof Date.prototype[\"setTime\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6266,7 +6552,9 @@
                       "start": 8956,
                       "end": 8965,
                       "value": "setTime",
-                      "raw": "\"setTime\""
+                      "raw": "\"setTime\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -6332,7 +6620,9 @@
           "start": 9017,
           "end": 9027,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -6359,7 +6649,9 @@
                 "start": 9053,
                 "end": 9122,
                 "value": "#51: typeof Date.prototype.setMilliseconds === \"function\". Actual: ",
-                "raw": "'#51: typeof Date.prototype.setMilliseconds === \"function\". Actual: '"
+                "raw": "'#51: typeof Date.prototype.setMilliseconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6454,7 +6746,9 @@
               "start": 9194,
               "end": 9211,
               "value": "setMilliseconds",
-              "raw": "'setMilliseconds'"
+              "raw": "'setMilliseconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -6466,7 +6760,9 @@
           "start": 9217,
           "end": 9227,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -6493,7 +6789,9 @@
                 "start": 9253,
                 "end": 9325,
                 "value": "#52: typeof Date.prototype[\"setMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#52: typeof Date.prototype[\"setMilliseconds\"] === \"function\". Actual: '"
+                "raw": "'#52: typeof Date.prototype[\"setMilliseconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6534,7 +6832,9 @@
                       "start": 9351,
                       "end": 9368,
                       "value": "setMilliseconds",
-                      "raw": "\"setMilliseconds\""
+                      "raw": "\"setMilliseconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -6600,7 +6900,9 @@
           "start": 9423,
           "end": 9433,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -6627,7 +6929,9 @@
                 "start": 9459,
                 "end": 9531,
                 "value": "#53: typeof Date.prototype.setUTCMilliseconds === \"function\". Actual: ",
-                "raw": "'#53: typeof Date.prototype.setUTCMilliseconds === \"function\". Actual: '"
+                "raw": "'#53: typeof Date.prototype.setUTCMilliseconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6722,7 +7026,9 @@
               "start": 9606,
               "end": 9626,
               "value": "setUTCMilliseconds",
-              "raw": "'setUTCMilliseconds'"
+              "raw": "'setUTCMilliseconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -6734,7 +7040,9 @@
           "start": 9632,
           "end": 9642,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -6761,7 +7069,9 @@
                 "start": 9668,
                 "end": 9743,
                 "value": "#54: typeof Date.prototype[\"setUTCMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#54: typeof Date.prototype[\"setUTCMilliseconds\"] === \"function\". Actual: '"
+                "raw": "'#54: typeof Date.prototype[\"setUTCMilliseconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6802,7 +7112,9 @@
                       "start": 9769,
                       "end": 9789,
                       "value": "setUTCMilliseconds",
-                      "raw": "\"setUTCMilliseconds\""
+                      "raw": "\"setUTCMilliseconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -6868,7 +7180,9 @@
           "start": 9836,
           "end": 9846,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -6895,7 +7209,9 @@
                 "start": 9872,
                 "end": 9936,
                 "value": "#55: typeof Date.prototype.setSeconds === \"function\". Actual: ",
-                "raw": "'#55: typeof Date.prototype.setSeconds === \"function\". Actual: '"
+                "raw": "'#55: typeof Date.prototype.setSeconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -6990,7 +7306,9 @@
               "start": 10003,
               "end": 10015,
               "value": "setSeconds",
-              "raw": "'setSeconds'"
+              "raw": "'setSeconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -7002,7 +7320,9 @@
           "start": 10021,
           "end": 10031,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7029,7 +7349,9 @@
                 "start": 10057,
                 "end": 10124,
                 "value": "#56: typeof Date.prototype[\"setSeconds\"] === \"function\". Actual: ",
-                "raw": "'#56: typeof Date.prototype[\"setSeconds\"] === \"function\". Actual: '"
+                "raw": "'#56: typeof Date.prototype[\"setSeconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -7070,7 +7392,9 @@
                       "start": 10150,
                       "end": 10162,
                       "value": "setSeconds",
-                      "raw": "\"setSeconds\""
+                      "raw": "\"setSeconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -7136,7 +7460,9 @@
           "start": 10212,
           "end": 10222,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7163,7 +7489,9 @@
                 "start": 10248,
                 "end": 10315,
                 "value": "#57: typeof Date.prototype.setUTCSeconds === \"function\". Actual: ",
-                "raw": "'#57: typeof Date.prototype.setUTCSeconds === \"function\". Actual: '"
+                "raw": "'#57: typeof Date.prototype.setUTCSeconds === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -7258,7 +7586,9 @@
               "start": 10385,
               "end": 10400,
               "value": "setUTCSeconds",
-              "raw": "'setUTCSeconds'"
+              "raw": "'setUTCSeconds'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -7270,7 +7600,9 @@
           "start": 10406,
           "end": 10416,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7297,7 +7629,9 @@
                 "start": 10442,
                 "end": 10512,
                 "value": "#58: typeof Date.prototype[\"setUTCSeconds\"] === \"function\". Actual: ",
-                "raw": "'#58: typeof Date.prototype[\"setUTCSeconds\"] === \"function\". Actual: '"
+                "raw": "'#58: typeof Date.prototype[\"setUTCSeconds\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -7338,7 +7672,9 @@
                       "start": 10538,
                       "end": 10553,
                       "value": "setUTCSeconds",
-                      "raw": "\"setUTCSeconds\""
+                      "raw": "\"setUTCSeconds\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -7404,7 +7740,9 @@
           "start": 10600,
           "end": 10610,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7431,7 +7769,9 @@
                 "start": 10636,
                 "end": 10700,
                 "value": "#59: typeof Date.prototype.setMinutes === \"function\". Actual: ",
-                "raw": "'#59: typeof Date.prototype.setMinutes === \"function\". Actual: '"
+                "raw": "'#59: typeof Date.prototype.setMinutes === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -7526,7 +7866,9 @@
               "start": 10767,
               "end": 10779,
               "value": "setMinutes",
-              "raw": "'setMinutes'"
+              "raw": "'setMinutes'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -7538,7 +7880,9 @@
           "start": 10785,
           "end": 10795,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7565,7 +7909,9 @@
                 "start": 10821,
                 "end": 10888,
                 "value": "#60: typeof Date.prototype[\"setMinutes\"] === \"function\". Actual: ",
-                "raw": "'#60: typeof Date.prototype[\"setMinutes\"] === \"function\". Actual: '"
+                "raw": "'#60: typeof Date.prototype[\"setMinutes\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -7606,7 +7952,9 @@
                       "start": 10914,
                       "end": 10926,
                       "value": "setMinutes",
-                      "raw": "\"setMinutes\""
+                      "raw": "\"setMinutes\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -7672,7 +8020,9 @@
           "start": 10976,
           "end": 10986,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7699,7 +8049,9 @@
                 "start": 11012,
                 "end": 11079,
                 "value": "#61: typeof Date.prototype.setUTCMinutes === \"function\". Actual: ",
-                "raw": "'#61: typeof Date.prototype.setUTCMinutes === \"function\". Actual: '"
+                "raw": "'#61: typeof Date.prototype.setUTCMinutes === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -7794,7 +8146,9 @@
               "start": 11149,
               "end": 11164,
               "value": "setUTCMinutes",
-              "raw": "'setUTCMinutes'"
+              "raw": "'setUTCMinutes'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -7806,7 +8160,9 @@
           "start": 11170,
           "end": 11180,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7833,7 +8189,9 @@
                 "start": 11206,
                 "end": 11276,
                 "value": "#62: typeof Date.prototype[\"setUTCMinutes\"] === \"function\". Actual: ",
-                "raw": "'#62: typeof Date.prototype[\"setUTCMinutes\"] === \"function\". Actual: '"
+                "raw": "'#62: typeof Date.prototype[\"setUTCMinutes\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -7874,7 +8232,9 @@
                       "start": 11302,
                       "end": 11317,
                       "value": "setUTCMinutes",
-                      "raw": "\"setUTCMinutes\""
+                      "raw": "\"setUTCMinutes\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -7940,7 +8300,9 @@
           "start": 11362,
           "end": 11372,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -7967,7 +8329,9 @@
                 "start": 11398,
                 "end": 11460,
                 "value": "#63: typeof Date.prototype.setHours === \"function\". Actual: ",
-                "raw": "'#63: typeof Date.prototype.setHours === \"function\". Actual: '"
+                "raw": "'#63: typeof Date.prototype.setHours === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8062,7 +8426,9 @@
               "start": 11525,
               "end": 11535,
               "value": "setHours",
-              "raw": "'setHours'"
+              "raw": "'setHours'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -8074,7 +8440,9 @@
           "start": 11541,
           "end": 11551,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -8101,7 +8469,9 @@
                 "start": 11577,
                 "end": 11642,
                 "value": "#64: typeof Date.prototype[\"setHours\"] === \"function\". Actual: ",
-                "raw": "'#64: typeof Date.prototype[\"setHours\"] === \"function\". Actual: '"
+                "raw": "'#64: typeof Date.prototype[\"setHours\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8142,7 +8512,9 @@
                       "start": 11668,
                       "end": 11678,
                       "value": "setHours",
-                      "raw": "\"setHours\""
+                      "raw": "\"setHours\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -8208,7 +8580,9 @@
           "start": 11726,
           "end": 11736,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -8235,7 +8609,9 @@
                 "start": 11762,
                 "end": 11827,
                 "value": "#65: typeof Date.prototype.setUTCHours === \"function\". Actual: ",
-                "raw": "'#65: typeof Date.prototype.setUTCHours === \"function\". Actual: '"
+                "raw": "'#65: typeof Date.prototype.setUTCHours === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8330,7 +8706,9 @@
               "start": 11895,
               "end": 11908,
               "value": "setUTCHours",
-              "raw": "'setUTCHours'"
+              "raw": "'setUTCHours'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -8342,7 +8720,9 @@
           "start": 11914,
           "end": 11924,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -8369,7 +8749,9 @@
                 "start": 11950,
                 "end": 12018,
                 "value": "#66: typeof Date.prototype[\"setUTCHours\"] === \"function\". Actual: ",
-                "raw": "'#66: typeof Date.prototype[\"setUTCHours\"] === \"function\". Actual: '"
+                "raw": "'#66: typeof Date.prototype[\"setUTCHours\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8410,7 +8792,9 @@
                       "start": 12044,
                       "end": 12057,
                       "value": "setUTCHours",
-                      "raw": "\"setUTCHours\""
+                      "raw": "\"setUTCHours\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -8476,7 +8860,9 @@
           "start": 12101,
           "end": 12111,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -8503,7 +8889,9 @@
                 "start": 12137,
                 "end": 12198,
                 "value": "#67: typeof Date.prototype.setDate === \"function\". Actual: ",
-                "raw": "'#67: typeof Date.prototype.setDate === \"function\". Actual: '"
+                "raw": "'#67: typeof Date.prototype.setDate === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8598,7 +8986,9 @@
               "start": 12262,
               "end": 12271,
               "value": "setDate",
-              "raw": "'setDate'"
+              "raw": "'setDate'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -8610,7 +9000,9 @@
           "start": 12277,
           "end": 12287,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -8637,7 +9029,9 @@
                 "start": 12313,
                 "end": 12377,
                 "value": "#68: typeof Date.prototype[\"setDate\"] === \"function\". Actual: ",
-                "raw": "'#68: typeof Date.prototype[\"setDate\"] === \"function\". Actual: '"
+                "raw": "'#68: typeof Date.prototype[\"setDate\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8678,7 +9072,9 @@
                       "start": 12403,
                       "end": 12412,
                       "value": "setDate",
-                      "raw": "\"setDate\""
+                      "raw": "\"setDate\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -8744,7 +9140,9 @@
           "start": 12459,
           "end": 12469,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -8771,7 +9169,9 @@
                 "start": 12495,
                 "end": 12559,
                 "value": "#69: typeof Date.prototype.setUTCDate === \"function\". Actual: ",
-                "raw": "'#69: typeof Date.prototype.setUTCDate === \"function\". Actual: '"
+                "raw": "'#69: typeof Date.prototype.setUTCDate === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8866,7 +9266,9 @@
               "start": 12626,
               "end": 12638,
               "value": "setUTCDate",
-              "raw": "'setUTCDate'"
+              "raw": "'setUTCDate'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -8878,7 +9280,9 @@
           "start": 12644,
           "end": 12654,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -8905,7 +9309,9 @@
                 "start": 12680,
                 "end": 12747,
                 "value": "#70: typeof Date.prototype[\"setUTCDate\"] === \"function\". Actual: ",
-                "raw": "'#70: typeof Date.prototype[\"setUTCDate\"] === \"function\". Actual: '"
+                "raw": "'#70: typeof Date.prototype[\"setUTCDate\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -8946,7 +9352,9 @@
                       "start": 12773,
                       "end": 12785,
                       "value": "setUTCDate",
-                      "raw": "\"setUTCDate\""
+                      "raw": "\"setUTCDate\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -9012,7 +9420,9 @@
           "start": 12830,
           "end": 12840,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9039,7 +9449,9 @@
                 "start": 12866,
                 "end": 12928,
                 "value": "#71: typeof Date.prototype.setMonth === \"function\". Actual: ",
-                "raw": "'#71: typeof Date.prototype.setMonth === \"function\". Actual: '"
+                "raw": "'#71: typeof Date.prototype.setMonth === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -9134,7 +9546,9 @@
               "start": 12993,
               "end": 13003,
               "value": "setMonth",
-              "raw": "'setMonth'"
+              "raw": "'setMonth'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -9146,7 +9560,9 @@
           "start": 13009,
           "end": 13019,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9173,7 +9589,9 @@
                 "start": 13045,
                 "end": 13110,
                 "value": "#72: typeof Date.prototype[\"setMonth\"] === \"function\". Actual: ",
-                "raw": "'#72: typeof Date.prototype[\"setMonth\"] === \"function\". Actual: '"
+                "raw": "'#72: typeof Date.prototype[\"setMonth\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -9214,7 +9632,9 @@
                       "start": 13136,
                       "end": 13146,
                       "value": "setMonth",
-                      "raw": "\"setMonth\""
+                      "raw": "\"setMonth\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -9280,7 +9700,9 @@
           "start": 13194,
           "end": 13204,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9307,7 +9729,9 @@
                 "start": 13230,
                 "end": 13295,
                 "value": "#73: typeof Date.prototype.setUTCMonth === \"function\". Actual: ",
-                "raw": "'#73: typeof Date.prototype.setUTCMonth === \"function\". Actual: '"
+                "raw": "'#73: typeof Date.prototype.setUTCMonth === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -9402,7 +9826,9 @@
               "start": 13363,
               "end": 13376,
               "value": "setUTCMonth",
-              "raw": "'setUTCMonth'"
+              "raw": "'setUTCMonth'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -9414,7 +9840,9 @@
           "start": 13382,
           "end": 13392,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9441,7 +9869,9 @@
                 "start": 13418,
                 "end": 13486,
                 "value": "#74: typeof Date.prototype[\"setUTCMonth\"] === \"function\". Actual: ",
-                "raw": "'#74: typeof Date.prototype[\"setUTCMonth\"] === \"function\". Actual: '"
+                "raw": "'#74: typeof Date.prototype[\"setUTCMonth\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -9482,7 +9912,9 @@
                       "start": 13512,
                       "end": 13525,
                       "value": "setUTCMonth",
-                      "raw": "\"setUTCMonth\""
+                      "raw": "\"setUTCMonth\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -9548,7 +9980,9 @@
           "start": 13573,
           "end": 13583,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9575,7 +10009,9 @@
                 "start": 13609,
                 "end": 13674,
                 "value": "#75: typeof Date.prototype.setFullYear === \"function\". Actual: ",
-                "raw": "'#75: typeof Date.prototype.setFullYear === \"function\". Actual: '"
+                "raw": "'#75: typeof Date.prototype.setFullYear === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -9670,7 +10106,9 @@
               "start": 13742,
               "end": 13755,
               "value": "setFullYear",
-              "raw": "'setFullYear'"
+              "raw": "'setFullYear'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -9682,7 +10120,9 @@
           "start": 13761,
           "end": 13771,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9709,7 +10149,9 @@
                 "start": 13797,
                 "end": 13865,
                 "value": "#76: typeof Date.prototype[\"setFullYear\"] === \"function\". Actual: ",
-                "raw": "'#76: typeof Date.prototype[\"setFullYear\"] === \"function\". Actual: '"
+                "raw": "'#76: typeof Date.prototype[\"setFullYear\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -9750,7 +10192,9 @@
                       "start": 13891,
                       "end": 13904,
                       "value": "setFullYear",
-                      "raw": "\"setFullYear\""
+                      "raw": "\"setFullYear\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -9816,7 +10260,9 @@
           "start": 13955,
           "end": 13965,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9843,7 +10289,9 @@
                 "start": 13991,
                 "end": 14059,
                 "value": "#77: typeof Date.prototype.setUTCFullYear === \"function\". Actual: ",
-                "raw": "'#77: typeof Date.prototype.setUTCFullYear === \"function\". Actual: '"
+                "raw": "'#77: typeof Date.prototype.setUTCFullYear === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -9938,7 +10386,9 @@
               "start": 14130,
               "end": 14146,
               "value": "setUTCFullYear",
-              "raw": "'setUTCFullYear'"
+              "raw": "'setUTCFullYear'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -9950,7 +10400,9 @@
           "start": 14152,
           "end": 14162,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -9977,7 +10429,9 @@
                 "start": 14188,
                 "end": 14259,
                 "value": "#78: typeof Date.prototype[\"setUTCFullYear\"] === \"function\". Actual: ",
-                "raw": "'#78: typeof Date.prototype[\"setUTCFullYear\"] === \"function\". Actual: '"
+                "raw": "'#78: typeof Date.prototype[\"setUTCFullYear\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -10018,7 +10472,9 @@
                       "start": 14285,
                       "end": 14301,
                       "value": "setUTCFullYear",
-                      "raw": "\"setUTCFullYear\""
+                      "raw": "\"setUTCFullYear\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -10084,7 +10540,9 @@
           "start": 14352,
           "end": 14362,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -10111,7 +10569,9 @@
                 "start": 14388,
                 "end": 14456,
                 "value": "#81: typeof Date.prototype.toLocaleString === \"function\". Actual: ",
-                "raw": "'#81: typeof Date.prototype.toLocaleString === \"function\". Actual: '"
+                "raw": "'#81: typeof Date.prototype.toLocaleString === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -10206,7 +10666,9 @@
               "start": 14527,
               "end": 14543,
               "value": "toLocaleString",
-              "raw": "'toLocaleString'"
+              "raw": "'toLocaleString'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -10218,7 +10680,9 @@
           "start": 14549,
           "end": 14559,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -10245,7 +10709,9 @@
                 "start": 14585,
                 "end": 14656,
                 "value": "#82: typeof Date.prototype[\"toLocaleString\"] === \"function\". Actual: ",
-                "raw": "'#82: typeof Date.prototype[\"toLocaleString\"] === \"function\". Actual: '"
+                "raw": "'#82: typeof Date.prototype[\"toLocaleString\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -10286,7 +10752,9 @@
                       "start": 14682,
                       "end": 14698,
                       "value": "toLocaleString",
-                      "raw": "\"toLocaleString\""
+                      "raw": "\"toLocaleString\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -10352,7 +10820,9 @@
           "start": 14746,
           "end": 14756,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -10379,7 +10849,9 @@
                 "start": 14782,
                 "end": 14847,
                 "value": "#83: typeof Date.prototype.toUTCString === \"function\". Actual: ",
-                "raw": "'#83: typeof Date.prototype.toUTCString === \"function\". Actual: '"
+                "raw": "'#83: typeof Date.prototype.toUTCString === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -10474,7 +10946,9 @@
               "start": 14915,
               "end": 14928,
               "value": "toUTCString",
-              "raw": "'toUTCString'"
+              "raw": "'toUTCString'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -10486,7 +10960,9 @@
           "start": 14934,
           "end": 14944,
           "value": "function",
-          "raw": "\"function\""
+          "raw": "\"function\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -10513,7 +10989,9 @@
                 "start": 14970,
                 "end": 15038,
                 "value": "#84: typeof Date.prototype[\"toUTCString\"] === \"function\". Actual: ",
-                "raw": "'#84: typeof Date.prototype[\"toUTCString\"] === \"function\". Actual: '"
+                "raw": "'#84: typeof Date.prototype[\"toUTCString\"] === \"function\". Actual: '",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -10554,7 +11032,9 @@
                       "start": 15064,
                       "end": 15077,
                       "value": "toUTCString",
-                      "raw": "\"toUTCString\""
+                      "raw": "\"toUTCString\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false

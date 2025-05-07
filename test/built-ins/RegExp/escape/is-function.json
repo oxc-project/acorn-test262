@@ -62,14 +62,18 @@
             "start": 339,
             "end": 349,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 380,
             "value": "RegExp.escape is a function",
-            "raw": "'RegExp.escape is a function'"
+            "raw": "'RegExp.escape is a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

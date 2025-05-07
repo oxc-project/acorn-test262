@@ -74,7 +74,9 @@
             "start": 385,
             "end": 469,
             "value": "The value of Object.prototype.constructor is expected to equal the value of Object",
-            "raw": "'The value of Object.prototype.constructor is expected to equal the value of Object'"
+            "raw": "'The value of Object.prototype.constructor is expected to equal the value of Object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -73,7 +73,9 @@
                 "start": 314,
                 "end": 315,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -102,7 +104,9 @@
           "start": 418,
           "end": 419,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -134,7 +138,9 @@
                     "start": 447,
                     "end": 475,
                     "value": "#1: x === 1. Actual: x ===",
-                    "raw": "'#1: x === 1. Actual: x ==='"
+                    "raw": "'#1: x === 1. Actual: x ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -178,7 +184,9 @@
           "start": 677,
           "end": 688,
           "value": "undefined",
-          "raw": "'undefined'"
+          "raw": "'undefined'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +218,9 @@
                     "start": 716,
                     "end": 780,
                     "value": "#2: typeof __func === 'undefined'. Actual: typeof __func ===",
-                    "raw": "'#2: typeof __func === \\'undefined\\'. Actual: typeof __func ==='"
+                    "raw": "'#2: typeof __func === \\'undefined\\'. Actual: typeof __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

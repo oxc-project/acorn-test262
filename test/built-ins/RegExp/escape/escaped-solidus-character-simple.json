@@ -60,7 +60,9 @@
                 "start": 495,
                 "end": 498,
                 "value": "/",
-                "raw": "'/'"
+                "raw": "'/'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 501,
             "end": 506,
             "value": "\\/",
-            "raw": "'\\\\/'"
+            "raw": "'\\\\/'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 548,
             "value": "solidus character is escaped correctly",
-            "raw": "'solidus character is escaped correctly'"
+            "raw": "'solidus character is escaped correctly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -140,7 +146,9 @@
                 "start": 582,
                 "end": 586,
                 "value": "//",
-                "raw": "'//'"
+                "raw": "'//'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -150,14 +158,18 @@
             "start": 589,
             "end": 597,
             "value": "\\/\\/",
-            "raw": "'\\\\/\\\\/'"
+            "raw": "'\\\\/\\\\/'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 664,
             "value": "solidus character is escaped correctly - multiple occurrences 1",
-            "raw": "'solidus character is escaped correctly - multiple occurrences 1'"
+            "raw": "'solidus character is escaped correctly - multiple occurrences 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -220,7 +232,9 @@
                 "start": 698,
                 "end": 703,
                 "value": "///",
-                "raw": "'///'"
+                "raw": "'///'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -230,14 +244,18 @@
             "start": 706,
             "end": 717,
             "value": "\\/\\/\\/",
-            "raw": "'\\\\/\\\\/\\\\/'"
+            "raw": "'\\\\/\\\\/\\\\/'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 784,
             "value": "solidus character is escaped correctly - multiple occurrences 2",
-            "raw": "'solidus character is escaped correctly - multiple occurrences 2'"
+            "raw": "'solidus character is escaped correctly - multiple occurrences 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -300,7 +318,9 @@
                 "start": 818,
                 "end": 824,
                 "value": "////",
-                "raw": "'////'"
+                "raw": "'////'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -310,14 +330,18 @@
             "start": 827,
             "end": 841,
             "value": "\\/\\/\\/\\/",
-            "raw": "'\\\\/\\\\/\\\\/\\\\/'"
+            "raw": "'\\\\/\\\\/\\\\/\\\\/'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 908,
             "value": "solidus character is escaped correctly - multiple occurrences 3",
-            "raw": "'solidus character is escaped correctly - multiple occurrences 3'"
+            "raw": "'solidus character is escaped correctly - multiple occurrences 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

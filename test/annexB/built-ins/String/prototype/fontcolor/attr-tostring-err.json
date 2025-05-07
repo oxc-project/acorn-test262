@@ -143,7 +143,9 @@
                         "start": 541,
                         "end": 543,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       },
                       "property": {
                         "type": "Identifier",

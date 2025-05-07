@@ -65,7 +65,9 @@
                             "start": 939,
                             "end": 941,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -225,7 +227,9 @@
             "start": 1019,
             "end": 1021,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -324,7 +328,9 @@
             "start": 1080,
             "end": 1152,
             "value": "Accessed static private method from an object which did not contain it",
-            "raw": "'Accessed static private method from an object which did not contain it'"
+            "raw": "'Accessed static private method from an object which did not contain it'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

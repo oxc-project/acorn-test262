@@ -168,7 +168,9 @@
             "start": 642,
             "end": 660,
             "value": "[object Promise]",
-            "raw": "'[object Promise]'"
+            "raw": "'[object Promise]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -297,7 +299,9 @@
             "start": 751,
             "end": 768,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

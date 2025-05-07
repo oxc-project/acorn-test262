@@ -52,7 +52,9 @@
                         "start": 374,
                         "end": 379,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -270,7 +272,9 @@
                               "start": 568,
                               "end": 572,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -340,7 +344,9 @@
                                     "start": 645,
                                     "end": 679,
                                     "value": "Expected a Test262Error, but a '",
-                                    "raw": "\"Expected a Test262Error, but a '\""
+                                    "raw": "\"Expected a Test262Error, but a '\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -382,7 +388,9 @@
                                   "start": 721,
                                   "end": 736,
                                   "value": "' was thrown.",
-                                  "raw": "\"' was thrown.\""
+                                  "raw": "\"' was thrown.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -423,7 +431,9 @@
                               "start": 790,
                               "end": 876,
                               "value": "assert.throwsAsync did not reject when a value with incorrect constructor was thrown",
-                              "raw": "\"assert.throwsAsync did not reject when a value with incorrect constructor was thrown\""
+                              "raw": "\"assert.throwsAsync did not reject when a value with incorrect constructor was thrown\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

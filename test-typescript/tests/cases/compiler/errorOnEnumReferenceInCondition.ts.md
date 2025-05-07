@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
               "start": 23,
               "end": 24,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -55,7 +57,9 @@ __ESTREE_TEST__:PASS:
               "start": 36,
               "end": 37,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -100,14 +104,18 @@ __ESTREE_TEST__:PASS:
               "start": 70,
               "end": 73,
               "raw": "\"b\"",
-              "value": "b"
+              "value": "b",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 64,
               "end": 67,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "MemberExpression",
@@ -168,14 +176,18 @@ __ESTREE_TEST__:PASS:
               "start": 102,
               "end": 105,
               "raw": "\"b\"",
-              "value": "b"
+              "value": "b",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 96,
               "end": 99,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "MemberExpression",
@@ -384,7 +396,9 @@ __ESTREE_TEST__:PASS:
               "start": 231,
               "end": 233,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -406,7 +420,9 @@ __ESTREE_TEST__:PASS:
               "start": 243,
               "end": 246,
               "raw": "\"A\"",
-              "value": "A"
+              "value": "A",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -451,14 +467,18 @@ __ESTREE_TEST__:PASS:
               "start": 280,
               "end": 283,
               "raw": "\"b\"",
-              "value": "b"
+              "value": "b",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 274,
               "end": 277,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "MemberExpression",
@@ -519,14 +539,18 @@ __ESTREE_TEST__:PASS:
               "start": 310,
               "end": 313,
               "raw": "\"b\"",
-              "value": "b"
+              "value": "b",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 304,
               "end": 307,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "MemberExpression",

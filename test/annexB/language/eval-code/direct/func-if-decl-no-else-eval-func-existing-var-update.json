@@ -69,7 +69,9 @@
                         "start": 1574,
                         "end": 1667,
                         "value": "if (true) function f() { return \"function declaration\"; }after = f;        var f = 123;",
-                        "raw": "'if (true) function f() { return \"function declaration\"; }after = f;\\\n    \\\n    var f = 123;'"
+                        "raw": "'if (true) function f() { return \"function declaration\"; }after = f;\\\n    \\\n    var f = 123;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -129,7 +131,9 @@
             "start": 1711,
             "end": 1721,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +185,9 @@
             "start": 1750,
             "end": 1772,
             "value": "function declaration",
-            "raw": "'function declaration'"
+            "raw": "'function declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

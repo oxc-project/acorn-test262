@@ -86,7 +86,9 @@
                         "start": 397,
                         "end": 450,
                         "value": "#1: Exception === undefined. Actual:  Exception ===",
-                        "raw": "'#1: Exception === undefined. Actual:  Exception ==='"
+                        "raw": "'#1: Exception === undefined. Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

@@ -55,7 +55,9 @@
                     "start": 750,
                     "end": 757,
                     "value": "en-US",
-                    "raw": "'en-US'"
+                    "raw": "'en-US'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },

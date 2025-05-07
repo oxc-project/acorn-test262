@@ -13,7 +13,9 @@
         "start": 274,
         "end": 313,
         "value": "./module-graphs-parent-tla_FIXTURE.js",
-        "raw": "\"./module-graphs-parent-tla_FIXTURE.js\""
+        "raw": "\"./module-graphs-parent-tla_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -34,7 +36,9 @@
             "start": 328,
             "end": 372,
             "value": "./module-graphs-grandparent-tla_FIXTURE.js",
-            "raw": "\"./module-graphs-grandparent-tla_FIXTURE.js\""
+            "raw": "\"./module-graphs-grandparent-tla_FIXTURE.js\"",
+            "regex": null,
+            "bigint": null
           },
           "options": null
         }

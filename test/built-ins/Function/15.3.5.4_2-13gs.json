@@ -96,7 +96,9 @@
                         "start": 405,
                         "end": 420,
                         "value": "gNonStrict();",
-                        "raw": "\"gNonStrict();\""
+                        "raw": "\"gNonStrict();\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -62,7 +62,9 @@
             "start": 488,
             "end": 498,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -118,7 +120,9 @@
                 "start": 530,
                 "end": 538,
                 "value": "hasOwn",
-                "raw": "'hasOwn'"
+                "raw": "'hasOwn'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

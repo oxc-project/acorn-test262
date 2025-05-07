@@ -74,21 +74,27 @@
                               "start": 687,
                               "end": 688,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 690,
                               "end": 691,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 693,
                               "end": 694,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -150,7 +156,9 @@
                                       "start": 774,
                                       "end": 852,
                                       "value": "undefined should be bound as the this-value of mapfn when thisArg is omitted",
-                                      "raw": "\"undefined should be bound as the this-value of mapfn when thisArg is omitted\""
+                                      "raw": "\"undefined should be bound as the this-value of mapfn when thisArg is omitted\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

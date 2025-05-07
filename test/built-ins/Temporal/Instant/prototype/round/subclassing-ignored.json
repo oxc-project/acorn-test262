@@ -61,6 +61,7 @@
                 "end": 374,
                 "value": null,
                 "raw": "10n",
+                "regex": null,
                 "bigint": "10"
               }
             ]
@@ -70,7 +71,9 @@
             "start": 379,
             "end": 386,
             "value": "round",
-            "raw": "\"round\""
+            "raw": "\"round\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ArrayExpression",
@@ -100,7 +103,9 @@
                       "start": 407,
                       "end": 415,
                       "value": "second",
-                      "raw": "'second'"
+                      "raw": "'second'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +127,9 @@
                       "start": 431,
                       "end": 437,
                       "value": "ceil",
-                      "raw": "'ceil'"
+                      "raw": "'ceil'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -204,6 +211,7 @@
                         "end": 518,
                         "value": null,
                         "raw": "1_000_000_000n",
+                        "regex": null,
                         "bigint": "1000000000"
                       },
                       {
@@ -211,7 +219,9 @@
                         "start": 520,
                         "end": 545,
                         "value": "epochNanoseconds result",
-                        "raw": "\"epochNanoseconds result\""
+                        "raw": "\"epochNanoseconds result\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

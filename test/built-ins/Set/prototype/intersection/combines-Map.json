@@ -39,14 +39,18 @@
                     "start": 329,
                     "end": 330,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 332,
                     "end": 333,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -97,14 +101,18 @@
                         "start": 361,
                         "end": 362,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 364,
                         "end": 369,
                         "value": "two",
-                        "raw": "\"two\""
+                        "raw": "\"two\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -118,14 +126,18 @@
                         "start": 375,
                         "end": 376,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 378,
                         "end": 385,
                         "value": "three",
-                        "raw": "\"three\""
+                        "raw": "\"three\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -162,7 +174,9 @@
                 "start": 410,
                 "end": 411,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -329,14 +343,18 @@
             "start": 541,
             "end": 545,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 547,
             "end": 577,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

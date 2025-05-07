@@ -88,14 +88,18 @@
             "start": 388,
             "end": 398,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 475,
             "value": "`typeof Intl.DateTimeFormat.prototype.formatRangeToParts` is `function`",
-            "raw": "'`typeof Intl.DateTimeFormat.prototype.formatRangeToParts` is `function`'"
+            "raw": "'`typeof Intl.DateTimeFormat.prototype.formatRangeToParts` is `function`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +157,9 @@
             "start": 526,
             "end": 546,
             "value": "formatRangeToParts",
-            "raw": "'formatRangeToParts'"
+            "raw": "'formatRangeToParts'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -178,7 +184,9 @@
                   "start": 564,
                   "end": 569,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -200,7 +208,9 @@
                   "start": 583,
                   "end": 587,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -222,7 +232,9 @@
                   "start": 605,
                   "end": 609,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

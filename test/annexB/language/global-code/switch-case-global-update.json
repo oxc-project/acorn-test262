@@ -12,7 +12,9 @@
         "start": 1083,
         "end": 1084,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -48,7 +50,9 @@
                       "start": 1124,
                       "end": 1137,
                       "value": "declaration",
-                      "raw": "'declaration'"
+                      "raw": "'declaration'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -60,7 +64,9 @@
             "start": 1095,
             "end": 1096,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -111,7 +117,9 @@
             "start": 1171,
             "end": 1181,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +171,9 @@
             "start": 1206,
             "end": 1219,
             "value": "declaration",
-            "raw": "'declaration'"
+            "raw": "'declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

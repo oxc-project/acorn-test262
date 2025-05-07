@@ -39,7 +39,9 @@
                     "start": 583,
                     "end": 593,
                     "value": "standard",
-                    "raw": "\"standard\""
+                    "raw": "\"standard\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -53,7 +55,9 @@
                     "start": 599,
                     "end": 609,
                     "value": "standard",
-                    "raw": "\"standard\""
+                    "raw": "\"standard\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -67,7 +71,9 @@
                     "start": 615,
                     "end": 627,
                     "value": "scientific",
-                    "raw": "\"scientific\""
+                    "raw": "\"scientific\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -81,7 +87,9 @@
                     "start": 633,
                     "end": 646,
                     "value": "engineering",
-                    "raw": "\"engineering\""
+                    "raw": "\"engineering\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -95,7 +103,9 @@
                     "start": 652,
                     "end": 661,
                     "value": "compact",
-                    "raw": "\"compact\""
+                    "raw": "\"compact\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -326,7 +336,9 @@
                     "start": 853,
                     "end": 863,
                     "value": "notation",
-                    "raw": "\"notation\""
+                    "raw": "\"notation\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -341,7 +353,9 @@
                   "start": 884,
                   "end": 888,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

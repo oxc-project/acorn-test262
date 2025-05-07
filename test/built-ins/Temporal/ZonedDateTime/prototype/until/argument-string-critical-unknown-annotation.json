@@ -28,28 +28,36 @@
                 "start": 303,
                 "end": 336,
                 "value": "1970-01-01T00:00[UTC][!foo=bar]",
-                "raw": "\"1970-01-01T00:00[UTC][!foo=bar]\""
+                "raw": "\"1970-01-01T00:00[UTC][!foo=bar]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 387,
                 "value": "1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]",
-                "raw": "\"1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]\""
+                "raw": "\"1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 438,
                 "value": "1970-01-01T00:00[UTC][u-ca=iso8601][!foo=bar]",
-                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][!foo=bar]\""
+                "raw": "\"1970-01-01T00:00[UTC][u-ca=iso8601][!foo=bar]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 442,
                 "end": 510,
                 "value": "1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]",
-                "raw": "\"1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]\""
+                "raw": "\"1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -77,7 +85,9 @@
             "start": 532,
             "end": 537,
             "value": "UTC",
-            "raw": "\"UTC\""
+            "raw": "\"UTC\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -128,6 +138,7 @@
                 "end": 585,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {

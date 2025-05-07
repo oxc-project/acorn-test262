@@ -62,7 +62,9 @@ __ESTREE_TEST__:PASS:
           "start": 268,
           "end": 280,
           "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1269,7 +1271,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1557,
                             "end": 1599,
                             "raw": "\"** We're about to create the program! **\"",
-                            "value": "** We're about to create the program! **"
+                            "value": "** We're about to create the program! **",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {
@@ -1517,7 +1521,9 @@ __ESTREE_TEST__:PASS:
                             "start": 1803,
                             "end": 1842,
                             "raw": "\"** We finished making the program! **\"",
-                            "value": "** We finished making the program! **"
+                            "value": "** We finished making the program! **",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {

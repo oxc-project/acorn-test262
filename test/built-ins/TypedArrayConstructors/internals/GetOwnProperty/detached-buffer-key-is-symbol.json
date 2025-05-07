@@ -75,14 +75,18 @@
                                 "start": 691,
                                 "end": 693,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 695,
                                 "end": 697,
                                 "value": 43,
-                                "raw": "43"
+                                "raw": "43",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -161,7 +165,9 @@
                             "start": 751,
                             "end": 756,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -233,7 +239,9 @@
                               "start": 803,
                               "end": 808,
                               "value": "baz",
-                              "raw": "\"baz\""
+                              "raw": "\"baz\"",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -328,14 +336,18 @@
                         "start": 891,
                         "end": 896,
                         "value": "baz",
-                        "raw": "\"baz\""
+                        "raw": "\"baz\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 902,
                         "end": 934,
                         "value": "return value from a Symbol key",
-                        "raw": "\"return value from a Symbol key\""
+                        "raw": "\"return value from a Symbol key\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

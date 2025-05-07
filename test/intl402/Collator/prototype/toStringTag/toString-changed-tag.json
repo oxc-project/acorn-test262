@@ -105,7 +105,9 @@
                   "start": 801,
                   "end": 810,
                   "value": "test262",
-                  "raw": "\"test262\""
+                  "raw": "\"test262\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -233,7 +235,9 @@
             "start": 891,
             "end": 909,
             "value": "[object test262]",
-            "raw": "\"[object test262]\""
+            "raw": "\"[object test262]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,7 +354,9 @@
             "start": 982,
             "end": 1000,
             "value": "[object test262]",
-            "raw": "\"[object test262]\""
+            "raw": "\"[object test262]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

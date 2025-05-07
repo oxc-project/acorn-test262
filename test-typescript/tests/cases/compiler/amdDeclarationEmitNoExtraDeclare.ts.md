@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 29,
         "end": 45,
         "raw": "\"./Configurable\"",
-        "value": "./Configurable"
+        "value": "./Configurable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

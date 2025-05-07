@@ -1129,14 +1129,18 @@
                                       "start": 1130,
                                       "end": 1131,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1133,
                                       "end": 1134,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     {
                                       "type": "CallExpression",
@@ -1308,14 +1312,18 @@
                                           "start": 1263,
                                           "end": 1264,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         {
                                           "type": "Literal",
                                           "start": 1266,
                                           "end": 1267,
                                           "value": 2,
-                                          "raw": "2"
+                                          "raw": "2",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -1443,7 +1451,9 @@
                                   "start": 1367,
                                   "end": 1368,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "consequent": {
                                   "type": "ExpressionStatement",
@@ -1558,7 +1568,9 @@
                       "start": 1454,
                       "end": 1466,
                       "value": "use strict",
-                      "raw": "'use strict'"
+                      "raw": "'use strict'",
+                      "regex": null,
+                      "bigint": null
                     },
                     "directive": "use strict"
                   },
@@ -1670,7 +1682,9 @@
                       "start": 1549,
                       "end": 1561,
                       "value": "use strict",
-                      "raw": "'use strict'"
+                      "raw": "'use strict'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -1801,7 +1815,9 @@
                       "start": 1648,
                       "end": 1660,
                       "value": "use strict",
-                      "raw": "'use strict'"
+                      "raw": "'use strict'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {

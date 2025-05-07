@@ -75,7 +75,9 @@
             "start": 599,
             "end": 609,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -175,7 +177,9 @@
             "start": 672,
             "end": 703,
             "value": "non callable argument, object",
-            "raw": "'non callable argument, object'"
+            "raw": "'non callable argument, object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -262,7 +266,9 @@
                         "start": 758,
                         "end": 759,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -276,7 +282,9 @@
             "start": 765,
             "end": 796,
             "value": "non callable argument, number",
-            "raw": "'non callable argument, number'"
+            "raw": "'non callable argument, number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +377,9 @@
             "start": 857,
             "end": 899,
             "value": "non callable argument, implict undefined",
-            "raw": "'non callable argument, implict undefined'"
+            "raw": "'non callable argument, implict undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -469,7 +479,9 @@
             "start": 969,
             "end": 1003,
             "value": "non callable argument, undefined",
-            "raw": "'non callable argument, undefined'"
+            "raw": "'non callable argument, undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +568,9 @@
                         "start": 1058,
                         "end": 1062,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -570,7 +584,9 @@
             "start": 1068,
             "end": 1097,
             "value": "non callable argument, null",
-            "raw": "'non callable argument, null'"
+            "raw": "'non callable argument, null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -657,7 +673,9 @@
                         "start": 1152,
                         "end": 1157,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -671,7 +689,9 @@
             "start": 1163,
             "end": 1195,
             "value": "non callable argument, boolean",
-            "raw": "'non callable argument, boolean'"
+            "raw": "'non callable argument, boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -758,7 +778,9 @@
                         "start": 1250,
                         "end": 1252,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -772,7 +794,9 @@
             "start": 1258,
             "end": 1289,
             "value": "non callable argument, string",
-            "raw": "'non callable argument, string'"
+            "raw": "'non callable argument, string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -904,7 +928,9 @@
             "start": 1369,
             "end": 1400,
             "value": "non callable argument, symbol",
-            "raw": "'non callable argument, symbol'"
+            "raw": "'non callable argument, symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

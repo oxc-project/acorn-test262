@@ -39,7 +39,9 @@
                     "start": 381,
                     "end": 382,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -69,7 +71,9 @@
             "start": 400,
             "end": 401,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -185,7 +189,9 @@
                         "start": 491,
                         "end": 544,
                         "value": "`this` is the global object in non-strict mode code",
-                        "raw": "\"`this` is the global object in non-strict mode code\""
+                        "raw": "\"`this` is the global object in non-strict mode code\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -255,14 +261,18 @@
             "start": 591,
             "end": 592,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 594,
             "end": 620,
             "value": "`forEach` is not a no-op",
-            "raw": "\"`forEach` is not a no-op\""
+            "raw": "\"`forEach` is not a no-op\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

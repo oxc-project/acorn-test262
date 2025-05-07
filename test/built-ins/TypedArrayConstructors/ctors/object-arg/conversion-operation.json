@@ -145,7 +145,9 @@
                           "start": 2075,
                           "end": 2076,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -176,7 +178,9 @@
                             "start": 2097,
                             "end": 2112,
                             "value": " converts to ",
-                            "raw": "\" converts to \""
+                            "raw": "\" converts to \"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

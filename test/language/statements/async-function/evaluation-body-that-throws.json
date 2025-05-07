@@ -31,7 +31,9 @@
               "start": 340,
               "end": 341,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -106,7 +108,9 @@
                         "start": 379,
                         "end": 401,
                         "value": "Should not be called",
-                        "raw": "\"Should not be called\""
+                        "raw": "\"Should not be called\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -175,7 +179,9 @@
                         "start": 444,
                         "end": 445,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

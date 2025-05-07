@@ -83,14 +83,18 @@
                               "start": 529,
                               "end": 537,
                               "value": 69552,
-                              "raw": "0x010FB0"
+                              "raw": "0x010FB0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 539,
                               "end": 547,
                               "value": 69579,
-                              "raw": "0x010FCB"
+                              "raw": "0x010FCB",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -131,7 +135,8 @@
             "regex": {
               "pattern": "^\\p{Script=Chorasmian}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -144,7 +149,9 @@
             "start": 627,
             "end": 651,
             "value": "\\p{Script=Chorasmian}",
-            "raw": "\"\\\\p{Script=Chorasmian}\""
+            "raw": "\"\\\\p{Script=Chorasmian}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +181,8 @@
             "regex": {
               "pattern": "^\\p{Script=Chrs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -187,7 +195,9 @@
             "start": 719,
             "end": 737,
             "value": "\\p{Script=Chrs}",
-            "raw": "\"\\\\p{Script=Chrs}\""
+            "raw": "\"\\\\p{Script=Chrs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -217,7 +227,8 @@
             "regex": {
               "pattern": "^\\p{sc=Chorasmian}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -230,7 +241,9 @@
             "start": 807,
             "end": 827,
             "value": "\\p{sc=Chorasmian}",
-            "raw": "\"\\\\p{sc=Chorasmian}\""
+            "raw": "\"\\\\p{sc=Chorasmian}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +273,8 @@
             "regex": {
               "pattern": "^\\p{sc=Chrs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -273,7 +287,9 @@
             "start": 891,
             "end": 905,
             "value": "\\p{sc=Chrs}",
-            "raw": "\"\\\\p{sc=Chrs}\""
+            "raw": "\"\\\\p{sc=Chrs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,14 +375,18 @@
                               "start": 987,
                               "end": 995,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 997,
                               "end": 1005,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -380,14 +400,18 @@
                               "start": 1013,
                               "end": 1021,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1023,
                               "end": 1031,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -401,14 +425,18 @@
                               "start": 1039,
                               "end": 1047,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1049,
                               "end": 1057,
                               "value": 69551,
-                              "raw": "0x010FAF"
+                              "raw": "0x010FAF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -422,14 +450,18 @@
                               "start": 1065,
                               "end": 1073,
                               "value": 69580,
-                              "raw": "0x010FCC"
+                              "raw": "0x010FCC",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1075,
                               "end": 1083,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -470,7 +502,8 @@
             "regex": {
               "pattern": "^\\P{Script=Chorasmian}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -483,7 +516,9 @@
             "start": 1166,
             "end": 1190,
             "value": "\\P{Script=Chorasmian}",
-            "raw": "\"\\\\P{Script=Chorasmian}\""
+            "raw": "\"\\\\P{Script=Chorasmian}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +548,8 @@
             "regex": {
               "pattern": "^\\P{Script=Chrs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -526,7 +562,9 @@
             "start": 1261,
             "end": 1279,
             "value": "\\P{Script=Chrs}",
-            "raw": "\"\\\\P{Script=Chrs}\""
+            "raw": "\"\\\\P{Script=Chrs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -556,7 +594,8 @@
             "regex": {
               "pattern": "^\\P{sc=Chorasmian}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -569,7 +608,9 @@
             "start": 1352,
             "end": 1372,
             "value": "\\P{sc=Chorasmian}",
-            "raw": "\"\\\\P{sc=Chorasmian}\""
+            "raw": "\"\\\\P{sc=Chorasmian}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -599,7 +640,8 @@
             "regex": {
               "pattern": "^\\P{sc=Chrs}+$",
               "flags": "u"
-            }
+            },
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -612,7 +654,9 @@
             "start": 1439,
             "end": 1453,
             "value": "\\P{sc=Chrs}",
-            "raw": "\"\\\\P{sc=Chrs}\""
+            "raw": "\"\\\\P{sc=Chrs}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

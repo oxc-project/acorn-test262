@@ -419,7 +419,9 @@ __ESTREE_TEST__:PASS:
                           "start": 288,
                           "end": 299,
                           "raw": "'createdAt'",
-                          "value": "createdAt"
+                          "value": "createdAt",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

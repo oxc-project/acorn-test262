@@ -195,7 +195,9 @@
                                           "start": 712,
                                           "end": 722,
                                           "value": "get next",
-                                          "raw": "'get next'"
+                                          "raw": "'get next'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -246,7 +248,9 @@
                                                     "start": 779,
                                                     "end": 783,
                                                     "value": true,
-                                                    "raw": "true"
+                                                    "raw": "true",
+                                                    "regex": null,
+                                                    "bigint": null
                                                   },
                                                   "kind": "init"
                                                 },
@@ -350,7 +354,9 @@
                                           "start": 877,
                                           "end": 893,
                                           "value": "valueOf mapper",
-                                          "raw": "'valueOf mapper'"
+                                          "raw": "'valueOf mapper'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false

@@ -86,7 +86,9 @@
                 "start": 317,
                 "end": 321,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -102,7 +104,9 @@
             "start": 328,
             "end": 378,
             "value": "Array.prototype.splice.call(true) must return []",
-            "raw": "'Array.prototype.splice.call(true) must return []'"
+            "raw": "'Array.prototype.splice.call(true) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -191,7 +195,9 @@
                 "start": 429,
                 "end": 434,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -207,7 +213,9 @@
             "start": 441,
             "end": 492,
             "value": "Array.prototype.splice.call(false) must return []",
-            "raw": "'Array.prototype.splice.call(false) must return []'"
+            "raw": "'Array.prototype.splice.call(false) must return []'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

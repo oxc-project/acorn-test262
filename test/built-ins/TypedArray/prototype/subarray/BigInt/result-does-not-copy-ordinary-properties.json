@@ -76,6 +76,7 @@
                                 "end": 528,
                                 "value": null,
                                 "raw": "41n",
+                                "regex": null,
                                 "bigint": "41"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 533,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 538,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               },
                               {
@@ -100,6 +103,7 @@
                                 "end": 543,
                                 "value": null,
                                 "raw": "44n",
+                                "regex": null,
                                 "bigint": "44"
                               }
                             ]
@@ -163,7 +167,9 @@
                       "start": 577,
                       "end": 579,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -211,7 +217,9 @@
                           "start": 609,
                           "end": 610,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -275,7 +283,9 @@
                             "start": 659,
                             "end": 664,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -285,14 +295,18 @@
                         "start": 671,
                         "end": 676,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 682,
                         "end": 712,
                         "value": "does not import own property",
-                        "raw": "\"does not import own property\""
+                        "raw": "\"does not import own property\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

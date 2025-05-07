@@ -34,7 +34,9 @@
                 "start": 384,
                 "end": 416,
                 "value": "\"use strict\";\ngNonStrict();",
-                "raw": "\"\\\"use strict\\\";\\ngNonStrict();\""
+                "raw": "\"\\\"use strict\\\";\\ngNonStrict();\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

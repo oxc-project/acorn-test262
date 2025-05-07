@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 118,
             "end": 128,
             "raw": "\"\\u{FFFF}\"",
-            "value": "￿"
+            "value": "￿",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

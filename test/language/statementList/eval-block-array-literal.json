@@ -34,7 +34,9 @@
                 "start": 956,
                 "end": 963,
                 "value": "{}[];",
-                "raw": "'{}[];'"
+                "raw": "'{}[];'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -179,7 +181,9 @@
             "start": 1065,
             "end": 1066,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

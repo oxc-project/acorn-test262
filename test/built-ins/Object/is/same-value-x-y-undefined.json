@@ -75,14 +75,18 @@
             "start": 356,
             "end": 360,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 412,
             "value": "`Object.is(undefined, undefined)` returns `true`",
-            "raw": "\"`Object.is(undefined, undefined)` returns `true`\""
+            "raw": "\"`Object.is(undefined, undefined)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -154,14 +158,18 @@
             "start": 454,
             "end": 458,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 499,
             "value": "`Object.is(undefined)` returns `true`",
-            "raw": "\"`Object.is(undefined)` returns `true`\""
+            "raw": "\"`Object.is(undefined)` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

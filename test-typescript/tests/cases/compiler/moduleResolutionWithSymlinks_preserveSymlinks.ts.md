@@ -17,7 +17,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 27,
         "raw": "\"real\"",
-        "value": "real"
+        "value": "real",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -186,7 +188,9 @@ __ESTREE_TEST__:PASS:
         "start": 129,
         "end": 137,
         "raw": "\"linked\"",
-        "value": "linked"
+        "value": "linked",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -226,7 +230,9 @@ __ESTREE_TEST__:PASS:
         "start": 163,
         "end": 172,
         "raw": "\"linked2\"",
-        "value": "linked2"
+        "value": "linked2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

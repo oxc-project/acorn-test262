@@ -34,7 +34,9 @@
                 "start": 502,
                 "end": 517,
                 "value": "a description",
-                "raw": "'a description'"
+                "raw": "'a description'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -178,14 +180,18 @@
             "start": 585,
             "end": 589,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 616,
             "value": "Regular symbol as value",
-            "raw": "'Regular symbol as value'"
+            "raw": "'Regular symbol as value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,14 +327,18 @@
             "start": 691,
             "end": 695,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 697,
             "end": 725,
             "value": "Well-known symbol as value",
-            "raw": "'Well-known symbol as value'"
+            "raw": "'Well-known symbol as value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

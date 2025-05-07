@@ -109,7 +109,9 @@
                 "start": 1503,
                 "end": 1509,
                 "value": "done",
-                "raw": "'done'"
+                "raw": "'done'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -286,7 +288,9 @@
                                       "start": 1654,
                                       "end": 1659,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }

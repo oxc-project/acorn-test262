@@ -12,7 +12,9 @@
         "start": 473,
         "end": 478,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ExpressionStatement",
@@ -46,7 +48,9 @@
           "start": 495,
           "end": 496,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     }

@@ -196,7 +196,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 13,
         "raw": "\"./f1\"",
-        "value": "./f1"
+        "value": "./f1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -211,7 +213,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 28,
         "raw": "\"./f2\"",
-        "value": "./f2"
+        "value": "./f2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

@@ -25,7 +25,9 @@
         "start": 1015,
         "end": 1048,
         "value": "./object-keys-binding-uninit.js",
-        "raw": "\"./object-keys-binding-uninit.js\""
+        "raw": "\"./object-keys-binding-uninit.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -131,7 +133,9 @@
         "start": 1135,
         "end": 1136,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

@@ -76,6 +76,7 @@
                   "end": 333,
                   "value": null,
                   "raw": "1n",
+                  "regex": null,
                   "bigint": "1"
                 }
               ],
@@ -87,7 +88,9 @@
             "start": 350,
             "end": 385,
             "value": "toString throws for BigInt object",
-            "raw": "\"toString throws for BigInt object\""
+            "raw": "\"toString throws for BigInt object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -145,7 +148,9 @@
             "start": 583,
             "end": 591,
             "value": "toJSON",
-            "raw": "\"toJSON\""
+            "raw": "\"toJSON\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -188,7 +193,9 @@
                           "start": 615,
                           "end": 627,
                           "value": "use strict",
-                          "raw": "\"use strict\""
+                          "raw": "\"use strict\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "directive": "use strict"
                       },
@@ -288,6 +295,7 @@
                 "end": 708,
                 "value": null,
                 "raw": "1n",
+                "regex": null,
                 "bigint": "1"
               }
             ],
@@ -298,14 +306,18 @@
             "start": 711,
             "end": 723,
             "value": "\"bigint\"",
-            "raw": "\"\\\"bigint\\\"\""
+            "raw": "\"\\\"bigint\\\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 794,
             "value": "BigInt toJSON method called with value as receiver",
-            "raw": "\"BigInt toJSON method called with value as receiver\""
+            "raw": "\"BigInt toJSON method called with value as receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

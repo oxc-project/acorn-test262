@@ -117,7 +117,9 @@
             "start": 714,
             "end": 742,
             "value": "Assert that p is a promise",
-            "raw": "'Assert that p is a promise'"
+            "raw": "'Assert that p is a promise'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +215,9 @@
                   "start": 1006,
                   "end": 1016,
                   "value": "toString",
-                  "raw": "'toString'"
+                  "raw": "'toString'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -298,7 +302,9 @@
                   "start": 1080,
                   "end": 1089,
                   "value": "valueOf",
-                  "raw": "'valueOf'"
+                  "raw": "'valueOf'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -514,7 +520,9 @@
                             "start": 1244,
                             "end": 1281,
                             "value": "import() cannot resolve import.meta",
-                            "raw": "'import() cannot resolve import.meta'"
+                            "raw": "'import() cannot resolve import.meta'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

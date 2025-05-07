@@ -62,14 +62,18 @@
             "start": 336,
             "end": 340,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 342,
             "end": 372,
             "value": "`Object.is()` returns `true`",
-            "raw": "\"`Object.is()` returns `true`\""
+            "raw": "\"`Object.is()` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

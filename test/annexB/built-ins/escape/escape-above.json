@@ -47,7 +47,9 @@
                 "start": 681,
                 "end": 701,
                 "value": "ĀāĂ",
-                "raw": "'\\u0100\\u0101\\u0102'"
+                "raw": "'\\u0100\\u0101\\u0102'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,14 +59,18 @@
             "start": 704,
             "end": 724,
             "value": "%u0100%u0101%u0102",
-            "raw": "'%u0100%u0101%u0102'"
+            "raw": "'%u0100%u0101%u0102'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 749,
             "value": "\\u0100\\u0101\\u0102",
-            "raw": "'\\\\u0100\\\\u0101\\\\u0102'"
+            "raw": "'\\\\u0100\\\\u0101\\\\u0102'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -114,7 +120,9 @@
                 "start": 781,
                 "end": 801,
                 "value": "�￾￿",
-                "raw": "'\\ufffd\\ufffe\\uffff'"
+                "raw": "'\\ufffd\\ufffe\\uffff'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -124,14 +132,18 @@
             "start": 804,
             "end": 824,
             "value": "%uFFFD%uFFFE%uFFFF",
-            "raw": "'%uFFFD%uFFFE%uFFFF'"
+            "raw": "'%uFFFD%uFFFE%uFFFF'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 849,
             "value": "\\ufffd\\ufffd\\ufffd",
-            "raw": "'\\\\ufffd\\\\ufffd\\\\ufffd'"
+            "raw": "'\\\\ufffd\\\\ufffd\\\\ufffd'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +193,9 @@
                 "start": 881,
                 "end": 895,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,14 +205,18 @@
             "start": 898,
             "end": 912,
             "value": "%uD834%uDF06",
-            "raw": "'%uD834%uDF06'"
+            "raw": "'%uD834%uDF06'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 948,
             "value": "\\ud834\\udf06 (surrogate pairs)",
-            "raw": "'\\\\ud834\\\\udf06 (surrogate pairs)'"
+            "raw": "'\\\\ud834\\\\udf06 (surrogate pairs)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

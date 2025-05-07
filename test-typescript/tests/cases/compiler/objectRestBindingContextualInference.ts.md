@@ -779,7 +779,9 @@ __ESTREE_TEST__:PASS:
                     "start": 518,
                     "end": 525,
                     "raw": "\"image\"",
-                    "value": "image"
+                    "value": "image",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

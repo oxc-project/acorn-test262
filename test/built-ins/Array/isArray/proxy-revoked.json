@@ -199,7 +199,9 @@
             "start": 741,
             "end": 799,
             "value": "Array.isArray(handle.proxy) throws a TypeError exception",
-            "raw": "'Array.isArray(handle.proxy) throws a TypeError exception'"
+            "raw": "'Array.isArray(handle.proxy) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

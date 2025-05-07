@@ -81,7 +81,9 @@
                         "start": 1391,
                         "end": 1461,
                         "value": "init = f;    f = 123;    changed = f;if (true) function f() {  }",
-                        "raw": "'init = f;\\\n    f = 123;\\\n    changed = f;if (true) function f() {  }'"
+                        "raw": "'init = f;\\\n    f = 123;\\\n    changed = f;if (true) function f() {  }'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -140,7 +142,9 @@
             "start": 1508,
             "end": 1547,
             "value": "binding is initialized to `undefined`",
-            "raw": "'binding is initialized to `undefined`'"
+            "raw": "'binding is initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -185,14 +189,18 @@
             "start": 1576,
             "end": 1579,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1581,
             "end": 1601,
             "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "raw": "'binding is mutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -265,7 +273,9 @@
             "start": 1655,
             "end": 1686,
             "value": "global binding is not created",
-            "raw": "'global binding is not created'"
+            "raw": "'global binding is not created'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

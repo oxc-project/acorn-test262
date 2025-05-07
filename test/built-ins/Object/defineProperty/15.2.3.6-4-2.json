@@ -66,7 +66,9 @@
                   "start": 571,
                   "end": 572,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -115,7 +117,9 @@
             "start": 601,
             "end": 606,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -177,7 +181,9 @@
                 "start": 666,
                 "end": 671,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -238,14 +244,18 @@
             "start": 708,
             "end": 709,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 727,
             "value": "propDesc.value",
-            "raw": "'propDesc.value'"
+            "raw": "'propDesc.value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -303,14 +313,18 @@
             "start": 800,
             "end": 805,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 807,
             "end": 826,
             "value": "propDesc.writable",
-            "raw": "'propDesc.writable'"
+            "raw": "'propDesc.writable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,14 +382,18 @@
             "start": 887,
             "end": 892,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 915,
             "value": "propDesc.enumerable",
-            "raw": "'propDesc.enumerable'"
+            "raw": "'propDesc.enumerable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -433,14 +451,18 @@
             "start": 978,
             "end": 983,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 985,
             "end": 1008,
             "value": "propDesc.configurable",
-            "raw": "'propDesc.configurable'"
+            "raw": "'propDesc.configurable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

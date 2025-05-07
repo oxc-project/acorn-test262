@@ -72,7 +72,9 @@
                       "start": 678,
                       "end": 682,
                       "value": "ar",
-                      "raw": "'ar'"
+                      "raw": "'ar'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -107,42 +109,54 @@
                 "start": 721,
                 "end": 727,
                 "value": "zero",
-                "raw": "'zero'"
+                "raw": "'zero'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 729,
                 "end": 734,
                 "value": "one",
-                "raw": "'one'"
+                "raw": "'one'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 736,
                 "end": 741,
                 "value": "two",
-                "raw": "'two'"
+                "raw": "'two'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 748,
                 "value": "few",
-                "raw": "'few'"
+                "raw": "'few'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 756,
                 "value": "many",
-                "raw": "'many'"
+                "raw": "'many'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 765,
                 "value": "other",
-                "raw": "'other'"
+                "raw": "'other'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -151,7 +165,9 @@
             "start": 768,
             "end": 830,
             "value": "pluralCategories order or contents incorrect for 'ar' locale",
-            "raw": "\"pluralCategories order or contents incorrect for 'ar' locale\""
+            "raw": "\"pluralCategories order or contents incorrect for 'ar' locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -226,7 +242,9 @@
                       "start": 874,
                       "end": 878,
                       "value": "en",
-                      "raw": "'en'"
+                      "raw": "'en'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -261,14 +279,18 @@
                 "start": 917,
                 "end": 922,
                 "value": "one",
-                "raw": "'one'"
+                "raw": "'one'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 924,
                 "end": 931,
                 "value": "other",
-                "raw": "'other'"
+                "raw": "'other'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -277,7 +299,9 @@
             "start": 934,
             "end": 996,
             "value": "pluralCategories order or contents incorrect for 'en' locale",
-            "raw": "\"pluralCategories order or contents incorrect for 'en' locale\""
+            "raw": "\"pluralCategories order or contents incorrect for 'en' locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -352,7 +376,9 @@
                       "start": 1040,
                       "end": 1044,
                       "value": "fa",
-                      "raw": "'fa'"
+                      "raw": "'fa'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -387,14 +413,18 @@
                 "start": 1083,
                 "end": 1088,
                 "value": "one",
-                "raw": "'one'"
+                "raw": "'one'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1090,
                 "end": 1097,
                 "value": "other",
-                "raw": "'other'"
+                "raw": "'other'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -403,7 +433,9 @@
             "start": 1100,
             "end": 1162,
             "value": "pluralCategories order or contents incorrect for 'fa' locale",
-            "raw": "\"pluralCategories order or contents incorrect for 'fa' locale\""
+            "raw": "\"pluralCategories order or contents incorrect for 'fa' locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +510,9 @@
                       "start": 1206,
                       "end": 1210,
                       "value": "fr",
-                      "raw": "'fr'"
+                      "raw": "'fr'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -513,21 +547,27 @@
                 "start": 1249,
                 "end": 1254,
                 "value": "one",
-                "raw": "'one'"
+                "raw": "'one'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1256,
                 "end": 1262,
                 "value": "many",
-                "raw": "'many'"
+                "raw": "'many'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1264,
                 "end": 1271,
                 "value": "other",
-                "raw": "'other'"
+                "raw": "'other'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -536,7 +576,9 @@
             "start": 1274,
             "end": 1336,
             "value": "pluralCategories order or contents incorrect for 'fr' locale",
-            "raw": "\"pluralCategories order or contents incorrect for 'fr' locale\""
+            "raw": "\"pluralCategories order or contents incorrect for 'fr' locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -611,7 +653,9 @@
                       "start": 1380,
                       "end": 1384,
                       "value": "gv",
-                      "raw": "'gv'"
+                      "raw": "'gv'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -646,35 +690,45 @@
                 "start": 1423,
                 "end": 1428,
                 "value": "one",
-                "raw": "'one'"
+                "raw": "'one'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1430,
                 "end": 1435,
                 "value": "two",
-                "raw": "'two'"
+                "raw": "'two'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1437,
                 "end": 1442,
                 "value": "few",
-                "raw": "'few'"
+                "raw": "'few'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1444,
                 "end": 1450,
                 "value": "many",
-                "raw": "'many'"
+                "raw": "'many'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1452,
                 "end": 1459,
                 "value": "other",
-                "raw": "'other'"
+                "raw": "'other'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -683,7 +737,9 @@
             "start": 1462,
             "end": 1524,
             "value": "pluralCategories order or contents incorrect for 'gv' locale",
-            "raw": "\"pluralCategories order or contents incorrect for 'gv' locale\""
+            "raw": "\"pluralCategories order or contents incorrect for 'gv' locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -758,7 +814,9 @@
                       "start": 1568,
                       "end": 1572,
                       "value": "ko",
-                      "raw": "'ko'"
+                      "raw": "'ko'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -793,7 +851,9 @@
                 "start": 1611,
                 "end": 1618,
                 "value": "other",
-                "raw": "'other'"
+                "raw": "'other'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -802,7 +862,9 @@
             "start": 1621,
             "end": 1683,
             "value": "pluralCategories order or contents incorrect for 'ko' locale",
-            "raw": "\"pluralCategories order or contents incorrect for 'ko' locale\""
+            "raw": "\"pluralCategories order or contents incorrect for 'ko' locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -877,7 +939,9 @@
                       "start": 1727,
                       "end": 1731,
                       "value": "sl",
-                      "raw": "'sl'"
+                      "raw": "'sl'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -912,28 +976,36 @@
                 "start": 1770,
                 "end": 1775,
                 "value": "one",
-                "raw": "'one'"
+                "raw": "'one'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1777,
                 "end": 1782,
                 "value": "two",
-                "raw": "'two'"
+                "raw": "'two'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1784,
                 "end": 1789,
                 "value": "few",
-                "raw": "'few'"
+                "raw": "'few'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1791,
                 "end": 1798,
                 "value": "other",
-                "raw": "'other'"
+                "raw": "'other'",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -942,7 +1014,9 @@
             "start": 1801,
             "end": 1863,
             "value": "pluralCategories order or contents incorrect for 'sl' locale",
-            "raw": "\"pluralCategories order or contents incorrect for 'sl' locale\""
+            "raw": "\"pluralCategories order or contents incorrect for 'sl' locale\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

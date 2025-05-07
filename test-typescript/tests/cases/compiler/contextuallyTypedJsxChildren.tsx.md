@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 63,
         "end": 70,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -887,7 +889,9 @@ __ESTREE_TEST__:PASS:
                 "start": 688,
                 "end": 694,
                 "raw": "\"move\"",
-                "value": "move"
+                "value": "move",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -905,7 +909,9 @@ __ESTREE_TEST__:PASS:
                 "start": 701,
                 "end": 721,
                 "raw": "\"Select a direction\"",
-                "value": "Select a direction"
+                "value": "Select a direction",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -951,7 +957,9 @@ __ESTREE_TEST__:PASS:
                 "start": 860,
                 "end": 866,
                 "raw": "\"move\"",
-                "value": "move"
+                "value": "move",
+                "regex": null,
+                "bigint": null
               }
             },
             {
@@ -969,7 +977,9 @@ __ESTREE_TEST__:PASS:
                 "start": 875,
                 "end": 895,
                 "raw": "\"Select a direction\"",
-                "value": "Select a direction"
+                "value": "Select a direction",
+                "regex": null,
+                "bigint": null
               }
             },
             {

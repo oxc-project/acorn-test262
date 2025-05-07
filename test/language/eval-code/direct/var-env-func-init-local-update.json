@@ -69,7 +69,9 @@
                         "start": 891,
                         "end": 893,
                         "value": 88,
-                        "raw": "88"
+                        "raw": "88",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -95,7 +97,9 @@
                         "start": 902,
                         "end": 944,
                         "value": "initial = f; function f() { return 33; }",
-                        "raw": "'initial = f; function f() { return 33; }'"
+                        "raw": "'initial = f; function f() { return 33; }'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -155,7 +159,9 @@
             "start": 987,
             "end": 997,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +213,9 @@
             "start": 1028,
             "end": 1030,
             "value": 33,
-            "raw": "33"
+            "raw": "33",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

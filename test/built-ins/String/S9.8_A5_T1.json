@@ -43,7 +43,9 @@
           "start": 371,
           "end": 374,
           "value": "0",
-          "raw": "\"0\""
+          "raw": "\"0\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -75,7 +77,9 @@
                     "start": 403,
                     "end": 447,
                     "value": "#1: String(new Number()) === \"0\". Actual: ",
-                    "raw": "'#1: String(new Number()) === \"0\". Actual: '"
+                    "raw": "'#1: String(new Number()) === \"0\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -152,7 +156,9 @@
                   "start": 511,
                   "end": 512,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -165,7 +171,9 @@
           "start": 519,
           "end": 522,
           "value": "0",
-          "raw": "\"0\""
+          "raw": "\"0\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -197,7 +205,9 @@
                     "start": 551,
                     "end": 596,
                     "value": "#2: String(new Number(0)) === \"0\". Actual: ",
-                    "raw": "'#2: String(new Number(0)) === \"0\". Actual: '"
+                    "raw": "'#2: String(new Number(0)) === \"0\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -231,7 +241,9 @@
                               "start": 618,
                               "end": 619,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -307,7 +319,9 @@
           "start": 678,
           "end": 683,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -339,7 +353,9 @@
                     "start": 712,
                     "end": 775,
                     "value": "#3: String(new Number(Number.NaN)) === Not-a-Number. Actual: ",
-                    "raw": "'#3: String(new Number(Number.NaN)) === Not-a-Number. Actual: '"
+                    "raw": "'#3: String(new Number(Number.NaN)) === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -436,7 +452,9 @@
                   "start": 849,
                   "end": 853,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -449,7 +467,9 @@
           "start": 860,
           "end": 863,
           "value": "0",
-          "raw": "\"0\""
+          "raw": "\"0\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -481,7 +501,9 @@
                     "start": 892,
                     "end": 940,
                     "value": "#4: String(new Number(null)) === \"0\". Actual: ",
-                    "raw": "'#4: String(new Number(null)) === \"0\". Actual: '"
+                    "raw": "'#4: String(new Number(null)) === \"0\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -515,7 +537,9 @@
                               "start": 962,
                               "end": 966,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -572,7 +596,9 @@
                     "start": 1013,
                     "end": 1014,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -586,7 +612,9 @@
           "start": 1021,
           "end": 1026,
           "value": "NaN",
-          "raw": "\"NaN\""
+          "raw": "\"NaN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -618,7 +646,9 @@
                     "start": 1055,
                     "end": 1114,
                     "value": "#5: String(new Number(void 0)) === Not-a-Number. Actual: ",
-                    "raw": "'#5: String(new Number(void 0)) === Not-a-Number. Actual: '"
+                    "raw": "'#5: String(new Number(void 0)) === Not-a-Number. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -658,7 +688,9 @@
                                 "start": 1141,
                                 "end": 1142,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -710,7 +742,9 @@
                   "start": 1184,
                   "end": 1188,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -723,7 +757,9 @@
           "start": 1195,
           "end": 1198,
           "value": "1",
-          "raw": "\"1\""
+          "raw": "\"1\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -755,7 +791,9 @@
                     "start": 1227,
                     "end": 1275,
                     "value": "#6: String(new Number(true)) === \"1\". Actual: ",
-                    "raw": "'#6: String(new Number(true)) === \"1\". Actual: '"
+                    "raw": "'#6: String(new Number(true)) === \"1\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -789,7 +827,9 @@
                               "start": 1297,
                               "end": 1301,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -840,7 +880,9 @@
                   "start": 1343,
                   "end": 1348,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -853,7 +895,9 @@
           "start": 1355,
           "end": 1358,
           "value": "0",
-          "raw": "\"0\""
+          "raw": "\"0\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -885,7 +929,9 @@
                     "start": 1387,
                     "end": 1436,
                     "value": "#7: String(new Number(false)) === \"0\". Actual: ",
-                    "raw": "'#7: String(new Number(false)) === \"0\". Actual: '"
+                    "raw": "'#7: String(new Number(false)) === \"0\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -919,7 +965,9 @@
                               "start": 1458,
                               "end": 1463,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -970,7 +1018,9 @@
                   "start": 1506,
                   "end": 1510,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -983,7 +1033,9 @@
           "start": 1517,
           "end": 1523,
           "value": "true",
-          "raw": "\"true\""
+          "raw": "\"true\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1015,7 +1067,9 @@
                     "start": 1552,
                     "end": 1604,
                     "value": "#8: String(new Boolean(true)) === \"true\". Actual: ",
-                    "raw": "'#8: String(new Boolean(true)) === \"true\". Actual: '"
+                    "raw": "'#8: String(new Boolean(true)) === \"true\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1049,7 +1103,9 @@
                               "start": 1627,
                               "end": 1631,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -1100,7 +1156,9 @@
                   "start": 1674,
                   "end": 1679,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1113,7 +1171,9 @@
           "start": 1686,
           "end": 1693,
           "value": "false",
-          "raw": "\"false\""
+          "raw": "\"false\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1145,7 +1205,9 @@
                     "start": 1722,
                     "end": 1776,
                     "value": "#9: Number(new Boolean(false)) === \"false\". Actual: ",
-                    "raw": "'#9: Number(new Boolean(false)) === \"false\". Actual: '"
+                    "raw": "'#9: Number(new Boolean(false)) === \"false\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1179,7 +1241,9 @@
                               "start": 1799,
                               "end": 1804,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -1230,35 +1294,45 @@
                   "start": 1846,
                   "end": 1847,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1849,
                   "end": 1850,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1852,
                   "end": 1853,
                   "value": 8,
-                  "raw": "8"
+                  "raw": "8",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1855,
                   "end": 1857,
                   "value": 16,
-                  "raw": "16"
+                  "raw": "16",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 1859,
                   "end": 1861,
                   "value": 32,
-                  "raw": "32"
+                  "raw": "32",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1271,7 +1345,9 @@
           "start": 1868,
           "end": 1881,
           "value": "2,4,8,16,32",
-          "raw": "\"2,4,8,16,32\""
+          "raw": "\"2,4,8,16,32\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1303,7 +1379,9 @@
                     "start": 1910,
                     "end": 1975,
                     "value": "#10: String(new Array(2,4,8,16,32)) === \"2,4,8,16,32\". Actual: ",
-                    "raw": "'#10: String(new Array(2,4,8,16,32)) === \"2,4,8,16,32\". Actual: '"
+                    "raw": "'#10: String(new Array(2,4,8,16,32)) === \"2,4,8,16,32\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1337,35 +1415,45 @@
                               "start": 1996,
                               "end": 1997,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 1999,
                               "end": 2000,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2002,
                               "end": 2003,
                               "value": 8,
-                              "raw": "8"
+                              "raw": "8",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2005,
                               "end": 2007,
                               "value": 16,
-                              "raw": "16"
+                              "raw": "16",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 2009,
                               "end": 2011,
                               "value": 32,
-                              "raw": "32"
+                              "raw": "32",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -1437,7 +1525,9 @@
                           "start": 2083,
                           "end": 2088,
                           "value": 12345,
-                          "raw": "12345"
+                          "raw": "12345",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1481,7 +1571,9 @@
                           "start": 2131,
                           "end": 2136,
                           "value": 67890,
-                          "raw": "67890"
+                          "raw": "67890",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1525,7 +1617,9 @@
                           "start": 2178,
                           "end": 2194,
                           "value": "[object MyObj]",
-                          "raw": "\"[object MyObj]\""
+                          "raw": "\"[object MyObj]\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1573,7 +1667,9 @@
           "start": 2227,
           "end": 2234,
           "value": "67890",
-          "raw": "\"67890\""
+          "raw": "\"67890\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1601,7 +1697,9 @@
                   "start": 2263,
                   "end": 2318,
                   "value": "#11: String(myobj) calls ToPrimitive with hint String",
-                  "raw": "\"#11: String(myobj) calls ToPrimitive with hint String\""
+                  "raw": "\"#11: String(myobj) calls ToPrimitive with hint String\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1666,7 +1764,9 @@
                           "start": 2387,
                           "end": 2392,
                           "value": 12345,
-                          "raw": "12345"
+                          "raw": "12345",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1753,7 +1853,9 @@
                           "start": 2478,
                           "end": 2494,
                           "value": "[object MyObj]",
-                          "raw": "\"[object MyObj]\""
+                          "raw": "\"[object MyObj]\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1801,7 +1903,9 @@
           "start": 2527,
           "end": 2543,
           "value": "[object MyObj]",
-          "raw": "\"[object MyObj]\""
+          "raw": "\"[object MyObj]\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1829,7 +1933,9 @@
                   "start": 2572,
                   "end": 2627,
                   "value": "#12: String(myobj) calls ToPrimitive with hint String",
-                  "raw": "\"#12: String(myobj) calls ToPrimitive with hint String\""
+                  "raw": "\"#12: String(myobj) calls ToPrimitive with hint String\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1894,7 +2000,9 @@
                           "start": 2696,
                           "end": 2701,
                           "value": 12345,
-                          "raw": "12345"
+                          "raw": "12345",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1938,7 +2046,9 @@
                           "start": 2743,
                           "end": 2759,
                           "value": "[object MyObj]",
-                          "raw": "\"[object MyObj]\""
+                          "raw": "\"[object MyObj]\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1986,7 +2096,9 @@
           "start": 2792,
           "end": 2809,
           "value": "[object Object]",
-          "raw": "\"[object Object]\""
+          "raw": "\"[object Object]\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -2014,7 +2126,9 @@
                   "start": 2838,
                   "end": 2893,
                   "value": "#13: String(myobj) calls ToPrimitive with hint String",
-                  "raw": "\"#13: String(myobj) calls ToPrimitive with hint String\""
+                  "raw": "\"#13: String(myobj) calls ToPrimitive with hint String\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

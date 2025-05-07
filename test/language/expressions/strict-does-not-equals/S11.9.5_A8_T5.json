@@ -21,7 +21,9 @@
               "start": 364,
               "end": 365,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -71,7 +73,9 @@
                       "start": 394,
                       "end": 397,
                       "value": "1",
-                      "raw": "\"1\""
+                      "raw": "\"1\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -101,7 +105,9 @@
                           "start": 429,
                           "end": 450,
                           "value": "#1: throw 1 !== \"1\"",
-                          "raw": "'#1: throw 1 !== \"1\"'"
+                          "raw": "'#1: throw 1 !== \"1\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -133,7 +139,9 @@
               "start": 484,
               "end": 487,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -176,7 +184,9 @@
                       "start": 510,
                       "end": 511,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "!==",
                     "right": {
@@ -213,7 +223,9 @@
                           "start": 549,
                           "end": 570,
                           "value": "#2: 1 !== throw \"1\"",
-                          "raw": "'#2: 1 !== throw \"1\"'"
+                          "raw": "'#2: 1 !== throw \"1\"'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }

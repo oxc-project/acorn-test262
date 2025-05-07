@@ -82,7 +82,9 @@
             "start": 439,
             "end": 500,
             "value": "Object.isExtensible(Date.prototype.toJSON) must return true",
-            "raw": "'Object.isExtensible(Date.prototype.toJSON) must return true'"
+            "raw": "'Object.isExtensible(Date.prototype.toJSON) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -160,14 +162,18 @@
             "start": 550,
             "end": 560,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 562,
             "end": 621,
             "value": "The value of `typeof Date.prototype.toJSON` is \"function\"",
-            "raw": "'The value of `typeof Date.prototype.toJSON` is \"function\"'"
+            "raw": "'The value of `typeof Date.prototype.toJSON` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -291,14 +297,18 @@
             "start": 701,
             "end": 720,
             "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "raw": "'[object Function]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 724,
             "end": 811,
             "value": "Object.prototype.toString.call(Date.prototype.toJSON) must return \"[object Function]\"",
-            "raw": "'Object.prototype.toString.call(Date.prototype.toJSON) must return \"[object Function]\"'"
+            "raw": "'Object.prototype.toString.call(Date.prototype.toJSON) must return \"[object Function]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -415,7 +425,9 @@
             "start": 905,
             "end": 995,
             "value": "Object.getPrototypeOf(Date.prototype.toJSON) must return the value of Function.prototype",
-            "raw": "'Object.getPrototypeOf(Date.prototype.toJSON) must return the value of Function.prototype'"
+            "raw": "'Object.getPrototypeOf(Date.prototype.toJSON) must return the value of Function.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -504,7 +516,9 @@
                 "start": 1053,
                 "end": 1064,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -514,14 +528,18 @@
             "start": 1067,
             "end": 1072,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1074,
             "end": 1143,
             "value": "Date.prototype.toJSON.hasOwnProperty(\"prototype\") must return false",
-            "raw": "'Date.prototype.toJSON.hasOwnProperty(\"prototype\") must return false'"
+            "raw": "'Date.prototype.toJSON.hasOwnProperty(\"prototype\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

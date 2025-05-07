@@ -271,7 +271,9 @@
             "start": 886,
             "end": 909,
             "value": "iterator is undefined",
-            "raw": "\"iterator is undefined\""
+            "raw": "\"iterator is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +334,9 @@
                   "start": 953,
                   "end": 957,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -429,7 +433,9 @@
             "start": 1019,
             "end": 1037,
             "value": "iterator is null",
-            "raw": "\"iterator is null\""
+            "raw": "\"iterator is null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -490,7 +496,9 @@
                   "start": 1081,
                   "end": 1085,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -587,7 +595,9 @@
             "start": 1147,
             "end": 1168,
             "value": "iterator is boolean",
-            "raw": "\"iterator is boolean\""
+            "raw": "\"iterator is boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -648,7 +658,9 @@
                   "start": 1212,
                   "end": 1215,
                   "value": 123,
-                  "raw": "123"
+                  "raw": "123",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -745,7 +757,9 @@
             "start": 1277,
             "end": 1297,
             "value": "iterator is number",
-            "raw": "\"iterator is number\""
+            "raw": "\"iterator is number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -807,6 +821,7 @@
                   "end": 1345,
                   "value": null,
                   "raw": "123n",
+                  "regex": null,
                   "bigint": "123"
                 }
               ],
@@ -904,7 +919,9 @@
             "start": 1407,
             "end": 1427,
             "value": "iterator is bigint",
-            "raw": "\"iterator is bigint\""
+            "raw": "\"iterator is bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -965,7 +982,9 @@
                   "start": 1471,
                   "end": 1476,
                   "value": "abc",
-                  "raw": "\"abc\""
+                  "raw": "\"abc\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1062,7 +1081,9 @@
             "start": 1538,
             "end": 1558,
             "value": "iterator is string",
-            "raw": "\"iterator is string\""
+            "raw": "\"iterator is string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1226,7 +1247,9 @@
             "start": 1672,
             "end": 1692,
             "value": "iterator is symbol",
-            "raw": "\"iterator is symbol\""
+            "raw": "\"iterator is symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

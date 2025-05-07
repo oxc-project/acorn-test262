@@ -168,14 +168,18 @@ __ESTREE_TEST__:PASS:
             "start": 330,
             "end": 333,
             "raw": "\"a\"",
-            "value": "a"
+            "value": "a",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 335,
             "end": 337,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -485,14 +489,18 @@ __ESTREE_TEST__:PASS:
             "start": 723,
             "end": 725,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 727,
             "end": 729,
             "raw": "20",
-            "value": 20
+            "value": 20,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -523,14 +531,18 @@ __ESTREE_TEST__:PASS:
             "start": 752,
             "end": 754,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 758,
             "raw": "20",
-            "value": 20
+            "value": 20,
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {
@@ -775,7 +787,9 @@ __ESTREE_TEST__:PASS:
           "start": 1075,
           "end": 1076,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         },
         "expression": true,
         "generator": false,
@@ -800,7 +814,9 @@ __ESTREE_TEST__:PASS:
           "start": 1180,
           "end": 1181,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "regex": null,
+          "bigint": null
         },
         "expression": true,
         "generator": false,

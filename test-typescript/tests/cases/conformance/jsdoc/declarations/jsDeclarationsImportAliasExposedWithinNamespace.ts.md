@@ -93,7 +93,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 33,
         "raw": "'./file.js'",
-        "value": "./file.js"
+        "value": "./file.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -180,7 +182,9 @@ __ESTREE_TEST__:PASS:
                     "start": 473,
                     "end": 477,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -204,7 +208,9 @@ __ESTREE_TEST__:PASS:
                       "start": 434,
                       "end": 435,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -245,7 +251,9 @@ __ESTREE_TEST__:PASS:
                 "start": 407,
                 "end": 415,
                 "raw": "'number'",
-                "value": "number"
+                "value": "number",
+                "regex": null,
+                "bigint": null
               }
             }
           }

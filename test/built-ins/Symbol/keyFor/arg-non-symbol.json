@@ -62,7 +62,9 @@
             "start": 352,
             "end": 362,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -149,7 +151,9 @@
                         "start": 420,
                         "end": 424,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -163,7 +167,9 @@
             "start": 430,
             "end": 436,
             "value": "null",
-            "raw": "'null'"
+            "raw": "'null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,7 +269,9 @@
             "start": 509,
             "end": 520,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -350,7 +358,9 @@
                         "start": 578,
                         "end": 581,
                         "value": "1",
-                        "raw": "'1'"
+                        "raw": "'1'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -364,7 +374,9 @@
             "start": 587,
             "end": 595,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,7 +463,9 @@
                         "start": 653,
                         "end": 655,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -465,7 +479,9 @@
             "start": 661,
             "end": 669,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -565,7 +581,9 @@
             "start": 735,
             "end": 752,
             "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "raw": "'ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -665,7 +683,9 @@
             "start": 818,
             "end": 839,
             "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "raw": "'array exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -765,7 +785,9 @@
             "start": 912,
             "end": 937,
             "value": "arguments exotic object",
-            "raw": "'arguments exotic object'"
+            "raw": "'arguments exotic object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -813,7 +835,9 @@
                     "start": 969,
                     "end": 972,
                     "value": "s",
-                    "raw": "'s'"
+                    "raw": "'s'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -919,7 +943,9 @@
             "start": 1044,
             "end": 1059,
             "value": "symbol object",
-            "raw": "'symbol object'"
+            "raw": "'symbol object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -84,7 +84,9 @@
                         "start": 330,
                         "end": 342,
                         "value": "​1234",
-                        "raw": "'\\u200b1234'"
+                        "raw": "'\\u200b1234'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

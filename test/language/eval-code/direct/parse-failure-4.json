@@ -32,7 +32,9 @@
                   "start": 344,
                   "end": 352,
                   "value": "break;",
-                  "raw": "\"break;\""
+                  "raw": "\"break;\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -62,7 +64,9 @@
                     "start": 380,
                     "end": 426,
                     "value": "#1.1: break must throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: break must throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: break must throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -85,7 +89,9 @@
                           "start": 435,
                           "end": 443,
                           "value": "break;",
-                          "raw": "\"break;\""
+                          "raw": "\"break;\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -149,7 +155,9 @@
                   "start": 498,
                   "end": 502,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -181,7 +189,9 @@
                             "start": 533,
                             "end": 579,
                             "value": "#1.2: break must throw SyntaxError. Actual: ",
-                            "raw": "'#1.2: break must throw SyntaxError. Actual: '"
+                            "raw": "'#1.2: break must throw SyntaxError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -241,7 +251,9 @@
                     "start": 628,
                     "end": 629,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -263,7 +275,9 @@
                 "start": 636,
                 "end": 637,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {
@@ -308,7 +322,9 @@
                           "start": 663,
                           "end": 664,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -330,7 +346,9 @@
                       "start": 671,
                       "end": 672,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "update": {
@@ -371,7 +389,9 @@
                               "start": 693,
                               "end": 701,
                               "value": "break;",
-                              "raw": "\"break;\""
+                              "raw": "\"break;\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -407,7 +427,9 @@
                     "start": 739,
                     "end": 785,
                     "value": "#2.1: break must throw SyntaxError. Actual: ",
-                    "raw": "'#2.1: break must throw SyntaxError. Actual: '"
+                    "raw": "'#2.1: break must throw SyntaxError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -430,7 +452,9 @@
                           "start": 794,
                           "end": 802,
                           "value": "break;",
-                          "raw": "\"break;\""
+                          "raw": "\"break;\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -494,7 +518,9 @@
                   "start": 861,
                   "end": 865,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -526,7 +552,9 @@
                             "start": 899,
                             "end": 945,
                             "value": "#2.2: break must throw SyntaxError. Actual: ",
-                            "raw": "'#2.2: break must throw SyntaxError. Actual: '"
+                            "raw": "'#2.2: break must throw SyntaxError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

@@ -340,7 +340,9 @@ __ESTREE_TEST__:PASS:
                 "start": 174,
                 "end": 182,
                 "raw": "'canvas'",
-                "value": "canvas"
+                "value": "canvas",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -407,7 +409,9 @@ __ESTREE_TEST__:PASS:
                 "start": 218,
                 "end": 223,
                 "raw": "'div'",
-                "value": "div"
+                "value": "div",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -474,7 +478,9 @@ __ESTREE_TEST__:PASS:
                 "start": 258,
                 "end": 264,
                 "raw": "'span'",
-                "value": "span"
+                "value": "span",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -581,7 +587,9 @@ __ESTREE_TEST__:PASS:
               "start": 360,
               "end": 364,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
               "start": 117,
               "end": 121,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSNumberKeyword",
@@ -74,7 +76,9 @@ __ESTREE_TEST__:PASS:
               "start": 141,
               "end": 145,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSStringKeyword",
@@ -187,7 +191,9 @@ __ESTREE_TEST__:PASS:
           "start": 271,
           "end": 275,
           "raw": "null",
-          "value": null
+          "value": null,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "CallExpression",

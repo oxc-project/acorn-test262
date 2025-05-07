@@ -34,7 +34,9 @@
                 "start": 598,
                 "end": 605,
                 "value": "hello",
-                "raw": "\"hello\""
+                "raw": "\"hello\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -123,7 +125,9 @@
                 "start": 668,
                 "end": 672,
                 "value": "hi",
-                "raw": "\"hi\""
+                "raw": "\"hi\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -215,7 +219,9 @@
             "start": 750,
             "end": 824,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -292,7 +298,9 @@
             "start": 888,
             "end": 969,
             "value": "The value of __split.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
+            "raw": "'The value of __split.length is expected to equal the value of __expected.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -322,7 +330,9 @@
               "start": 1163,
               "end": 1164,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -448,7 +458,9 @@
                   "start": 1271,
                   "end": 1352,
                   "value": "The value of __split[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __split[index] is expected to equal the value of __expected[index]'"
+                  "raw": "'The value of __split[index] is expected to equal the value of __expected[index]'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

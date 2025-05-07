@@ -23,7 +23,9 @@
             "start": 419,
             "end": 427,
             "value": "flower",
-            "raw": "\"flower\""
+            "raw": "\"flower\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 440,
             "end": 446,
             "value": "rose",
-            "raw": "\"rose\""
+            "raw": "\"rose\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -163,7 +167,9 @@
                     "start": 542,
                     "end": 604,
                     "value": "#0: __PROTO.type=__PLANT does not lead to throwing exception",
-                    "raw": "'#0: __PROTO.type=__PLANT does not lead to throwing exception'"
+                    "raw": "'#0: __PROTO.type=__PLANT does not lead to throwing exception'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -313,7 +319,9 @@
                   "start": 830,
                   "end": 871,
                   "value": "#1: __rose() lead to throwing exception",
-                  "raw": "'#1: __rose() lead to throwing exception'"
+                  "raw": "'#1: __rose() lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -398,7 +406,9 @@
                             "start": 951,
                             "end": 1007,
                             "value": "#2: Exception Type is TypeError. Actual: exception ===",
-                            "raw": "'#2: Exception Type is TypeError. Actual: exception ==='"
+                            "raw": "'#2: Exception Type is TypeError. Actual: exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

@@ -93,7 +93,9 @@ __ESTREE_TEST__:PASS:
         "start": 26,
         "end": 62,
         "raw": "\"./missingFunctionImplementation2_b\"",
-        "value": "./missingFunctionImplementation2_b"
+        "value": "./missingFunctionImplementation2_b",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

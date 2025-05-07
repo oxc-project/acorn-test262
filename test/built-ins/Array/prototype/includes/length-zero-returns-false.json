@@ -23,7 +23,9 @@
             "start": 450,
             "end": 451,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -187,7 +189,9 @@
                 "start": 566,
                 "end": 567,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -197,14 +201,18 @@
             "start": 570,
             "end": 575,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 592,
             "value": "returns false",
-            "raw": "\"returns false\""
+            "raw": "\"returns false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -269,14 +277,18 @@
             "start": 631,
             "end": 636,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 662,
             "value": "returns false - no arg",
-            "raw": "\"returns false - no arg\""
+            "raw": "\"returns false - no arg\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -339,7 +351,9 @@
                 "start": 698,
                 "end": 699,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -355,14 +369,18 @@
             "start": 713,
             "end": 718,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 737,
             "value": "using fromIndex",
-            "raw": "\"using fromIndex\""
+            "raw": "\"using fromIndex\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -407,14 +425,18 @@
             "start": 764,
             "end": 765,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 767,
             "end": 814,
             "value": "length is checked before ToInteger(fromIndex)",
-            "raw": "\"length is checked before ToInteger(fromIndex)\""
+            "raw": "\"length is checked before ToInteger(fromIndex)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

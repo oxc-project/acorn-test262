@@ -131,7 +131,9 @@
                 "start": 312,
                 "end": 317,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -147,14 +149,18 @@
             "start": 333,
             "end": 337,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 341,
             "end": 406,
             "value": "returns true if desc and property descriptor are both undefined",
-            "raw": "\"returns true if desc and property descriptor are both undefined\""
+            "raw": "\"returns true if desc and property descriptor are both undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +240,9 @@
                         "start": 472,
                         "end": 477,
                         "value": "bar",
-                        "raw": "'bar'"
+                        "raw": "'bar'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -254,7 +262,9 @@
             "start": 494,
             "end": 529,
             "value": "dataDescriptor value is undefined",
-            "raw": "\"dataDescriptor value is undefined\""
+            "raw": "\"dataDescriptor value is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -334,7 +344,9 @@
                         "start": 594,
                         "end": 599,
                         "value": "baz",
-                        "raw": "'baz'"
+                        "raw": "'baz'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -354,7 +366,9 @@
             "start": 616,
             "end": 644,
             "value": "accessor returns undefined",
-            "raw": "\"accessor returns undefined\""
+            "raw": "\"accessor returns undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

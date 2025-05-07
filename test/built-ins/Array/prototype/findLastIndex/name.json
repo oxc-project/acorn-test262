@@ -81,14 +81,18 @@
             "start": 483,
             "end": 498,
             "value": "findLastIndex",
-            "raw": "'findLastIndex'"
+            "raw": "'findLastIndex'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 574,
             "value": "The value of `Array.prototype.findLastIndex.name` is `\"findLastIndex\"`",
-            "raw": "'The value of `Array.prototype.findLastIndex.name` is `\"findLastIndex\"`'"
+            "raw": "'The value of `Array.prototype.findLastIndex.name` is `\"findLastIndex\"`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +150,9 @@
             "start": 625,
             "end": 631,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -171,7 +177,9 @@
                   "start": 649,
                   "end": 654,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -193,7 +201,9 @@
                   "start": 668,
                   "end": 673,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -215,7 +225,9 @@
                   "start": 691,
                   "end": 695,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

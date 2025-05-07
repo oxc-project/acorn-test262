@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "a",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -66,14 +67,18 @@
             "start": 543,
             "end": 546,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 551,
             "value": "i",
-            "raw": "'i'"
+            "raw": "'i'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,14 +151,18 @@
                   "start": 603,
                   "end": 606,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 608,
                   "end": 611,
                   "value": "i",
-                  "raw": "'i'"
+                  "raw": "'i'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -171,7 +180,9 @@
             "start": 622,
             "end": 655,
             "value": "[[OriginalFlags]] internal slot",
-            "raw": "'[[OriginalFlags]] internal slot'"
+            "raw": "'[[OriginalFlags]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -234,7 +245,9 @@
                 "start": 692,
                 "end": 695,
                 "value": "A",
-                "raw": "'A'"
+                "raw": "'A'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -244,14 +257,18 @@
             "start": 700,
             "end": 704,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 764,
             "value": "[[RegExpMatcher]] internal slot (addition of `i` flag)",
-            "raw": "'[[RegExpMatcher]] internal slot (addition of `i` flag)'"
+            "raw": "'[[RegExpMatcher]] internal slot (addition of `i` flag)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -290,7 +307,9 @@
           "start": 789,
           "end": 790,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -351,7 +370,9 @@
                 "start": 825,
                 "end": 828,
                 "value": "A",
-                "raw": "'A'"
+                "raw": "'A'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -361,14 +382,18 @@
             "start": 833,
             "end": 837,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 896,
             "value": "[[RegExpMatcher]] internal slot (removal of `g` flag)",
-            "raw": "'[[RegExpMatcher]] internal slot (removal of `g` flag)'"
+            "raw": "'[[RegExpMatcher]] internal slot (removal of `g` flag)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -53,6 +53,7 @@
                     "end": 1354,
                     "value": null,
                     "raw": "1_000_000_000_987_654_321n",
+                    "regex": null,
                     "bigint": "1000000000987654321"
                   },
                   {
@@ -60,7 +61,9 @@
                     "start": 1356,
                     "end": 1361,
                     "value": "UTC",
-                    "raw": "\"UTC\""
+                    "raw": "\"UTC\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -69,7 +72,9 @@
                 "start": 1366,
                 "end": 1408,
                 "value": "2001-09-09T01:46:40.987654321+00:00[UTC]",
-                "raw": "\"2001-09-09T01:46:40.987654321+00:00[UTC]\""
+                "raw": "\"2001-09-09T01:46:40.987654321+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -272,6 +277,7 @@
                         "end": 1598,
                         "value": null,
                         "raw": "1_000_000_000_987_654_321n",
+                        "regex": null,
                         "bigint": "1000000000987654321"
                       },
                       {
@@ -279,7 +285,9 @@
                         "start": 1600,
                         "end": 1621,
                         "value": "overflow is ignored",
-                        "raw": "\"overflow is ignored\""
+                        "raw": "\"overflow is ignored\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -409,6 +417,7 @@
                         "end": 1755,
                         "value": null,
                         "raw": "1_000_000_000_987_654_321n",
+                        "regex": null,
                         "bigint": "1000000000987654321"
                       },
                       {
@@ -416,7 +425,9 @@
                         "start": 1757,
                         "end": 1778,
                         "value": "overflow is ignored",
-                        "raw": "\"overflow is ignored\""
+                        "raw": "\"overflow is ignored\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -467,7 +478,9 @@
                   "start": 1814,
                   "end": 1818,
                   "value": 2000,
-                  "raw": "2000"
+                  "raw": "2000",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -489,7 +502,9 @@
                   "start": 1827,
                   "end": 1829,
                   "value": 15,
-                  "raw": "15"
+                  "raw": "15",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -511,7 +526,9 @@
                   "start": 1836,
                   "end": 1838,
                   "value": 34,
-                  "raw": "34"
+                  "raw": "34",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -533,7 +550,9 @@
                   "start": 1846,
                   "end": 1848,
                   "value": 12,
-                  "raw": "12"
+                  "raw": "12",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -555,7 +574,9 @@
                   "start": 1860,
                   "end": 1865,
                   "value": "UTC",
-                  "raw": "\"UTC\""
+                  "raw": "\"UTC\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -711,6 +732,7 @@
             "end": 2021,
             "value": null,
             "raw": "978_264_000_000_000_000n",
+            "regex": null,
             "bigint": "978264000000000000"
           },
           {
@@ -718,7 +740,9 @@
             "start": 2023,
             "end": 2054,
             "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "raw": "\"default overflow is constrain\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 50,
           "raw": "\"./aliasUsage1_backbone\"",
-          "value": "./aliasUsage1_backbone"
+          "value": "./aliasUsage1_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 50,
           "raw": "\"./aliasUsage1_backbone\"",
-          "value": "./aliasUsage1_backbone"
+          "value": "./aliasUsage1_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
           "start": 78,
           "end": 101,
           "raw": "\"./aliasUsage1_moduleA\"",
-          "value": "./aliasUsage1_moduleA"
+          "value": "./aliasUsage1_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },

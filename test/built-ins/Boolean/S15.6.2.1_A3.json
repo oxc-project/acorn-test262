@@ -34,7 +34,9 @@
                 "start": 362,
                 "end": 363,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -101,14 +103,18 @@
             "start": 397,
             "end": 401,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 434,
             "value": "x1.valueOf() must return true",
-            "raw": "'x1.valueOf() must return true'"
+            "raw": "'x1.valueOf() must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -204,14 +210,18 @@
             "start": 493,
             "end": 498,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 500,
             "end": 532,
             "value": "x2.valueOf() must return false",
-            "raw": "'x2.valueOf() must return false'"
+            "raw": "'x2.valueOf() must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -248,7 +258,9 @@
                 "start": 557,
                 "end": 558,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -315,14 +327,18 @@
             "start": 592,
             "end": 597,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 631,
             "value": "x2.valueOf() must return false",
-            "raw": "'x2.valueOf() must return false'"
+            "raw": "'x2.valueOf() must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -431,14 +447,18 @@
             "start": 702,
             "end": 706,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 739,
             "value": "x2.valueOf() must return true",
-            "raw": "'x2.valueOf() must return true'"
+            "raw": "'x2.valueOf() must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,63 +28,81 @@
                 "start": 335,
                 "end": 338,
                 "value": "-",
-                "raw": "\"-\""
+                "raw": "\"-\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 343,
                 "value": "_",
-                "raw": "\"_\""
+                "raw": "\"_\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 348,
                 "value": ".",
-                "raw": "\".\""
+                "raw": "\".\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 353,
                 "value": "!",
-                "raw": "\"!\""
+                "raw": "\"!\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 358,
                 "value": "~",
-                "raw": "\"~\""
+                "raw": "\"~\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 363,
                 "value": "*",
-                "raw": "\"*\""
+                "raw": "\"*\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 368,
                 "value": "'",
-                "raw": "\"'\""
+                "raw": "\"'\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 373,
                 "value": "(",
-                "raw": "\"(\""
+                "raw": "\"(\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 378,
                 "value": ")",
-                "raw": "\")\""
+                "raw": "\")\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -116,7 +134,9 @@
               "start": 399,
               "end": 400,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -282,7 +302,9 @@
                               "start": 527,
                               "end": 530,
                               "value": "#",
-                              "raw": "'#'"
+                              "raw": "'#'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -305,7 +327,9 @@
                                   "start": 543,
                                   "end": 544,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -316,7 +340,9 @@
                             "start": 548,
                             "end": 578,
                             "value": ": unescapedURISet containing",
-                            "raw": "': unescapedURISet containing'"
+                            "raw": "': unescapedURISet containing'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

@@ -97,7 +97,9 @@
                   "start": 491,
                   "end": 492,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -470,7 +472,9 @@
             "start": 780,
             "end": 786,
             "value": "attr",
-            "raw": "\"attr\""
+            "raw": "\"attr\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +525,9 @@
             "start": 820,
             "end": 850,
             "value": "receiver is the Proxy object",
-            "raw": "\"receiver is the Proxy object\""
+            "raw": "\"receiver is the Proxy object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -547,7 +553,9 @@
           "start": 862,
           "end": 866,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -570,7 +578,9 @@
           "start": 870,
           "end": 876,
           "value": "attr",
-          "raw": "\"attr\""
+          "raw": "\"attr\"",
+          "regex": null,
+          "bigint": null
         },
         "computed": true,
         "optional": false
@@ -615,14 +625,18 @@
             "start": 906,
             "end": 912,
             "value": "attr",
-            "raw": "\"attr\""
+            "raw": "\"attr\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 964,
             "value": "trap is triggered both by p.attr and p['attr']",
-            "raw": "\"trap is triggered both by p.attr and p['attr']\""
+            "raw": "\"trap is triggered both by p.attr and p['attr']\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

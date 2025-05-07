@@ -82,7 +82,9 @@
                               "start": 337,
                               "end": 338,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Identifier",
@@ -99,7 +101,9 @@
                           "start": 345,
                           "end": 352,
                           "value": "this;",
-                          "raw": "'this;'"
+                          "raw": "'this;'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

@@ -148,7 +148,9 @@
                         "start": 1074,
                         "end": 1081,
                         "value": "input",
-                        "raw": "\"input\""
+                        "raw": "\"input\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",
@@ -181,7 +183,9 @@
             "start": 1105,
             "end": 1158,
             "value": "RegExp.input getter throws for cross-realm receiver",
-            "raw": "\"RegExp.input getter throws for cross-realm receiver\""
+            "raw": "\"RegExp.input getter throws for cross-realm receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -274,14 +278,18 @@
                         "start": 1231,
                         "end": 1238,
                         "value": "input",
-                        "raw": "\"input\""
+                        "raw": "\"input\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1240,
                         "end": 1242,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",
@@ -314,7 +322,9 @@
             "start": 1266,
             "end": 1319,
             "value": "RegExp.input setter throws for cross-realm receiver",
-            "raw": "\"RegExp.input setter throws for cross-realm receiver\""
+            "raw": "\"RegExp.input setter throws for cross-realm receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -407,7 +417,9 @@
                         "start": 1392,
                         "end": 1396,
                         "value": "$_",
-                        "raw": "\"$_\""
+                        "raw": "\"$_\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",
@@ -440,7 +452,9 @@
             "start": 1420,
             "end": 1470,
             "value": "RegExp.$_ getter throws for cross-realm receiver",
-            "raw": "\"RegExp.$_ getter throws for cross-realm receiver\""
+            "raw": "\"RegExp.$_ getter throws for cross-realm receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -533,14 +547,18 @@
                         "start": 1543,
                         "end": 1547,
                         "value": "$_",
-                        "raw": "\"$_\""
+                        "raw": "\"$_\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1549,
                         "end": 1551,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "MemberExpression",
@@ -573,7 +591,9 @@
             "start": 1575,
             "end": 1625,
             "value": "RegExp.$_ setter throws for cross-realm receiver",
-            "raw": "\"RegExp.$_ setter throws for cross-realm receiver\""
+            "raw": "\"RegExp.$_ setter throws for cross-realm receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

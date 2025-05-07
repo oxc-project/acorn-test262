@@ -20,14 +20,18 @@ __ESTREE_TEST__:PASS:
           "start": 0,
           "end": 1,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         },
         "right": {
           "type": "Literal",
           "start": 4,
           "end": 5,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "regex": null,
+          "bigint": null
         }
       }
     }

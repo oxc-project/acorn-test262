@@ -80,14 +80,18 @@
                   "start": 320,
                   "end": 321,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 323,
                   "end": 325,
                   "value": 32,
-                  "raw": "32"
+                  "raw": "32",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -98,7 +102,9 @@
               "start": 329,
               "end": 330,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           "computed": true,
@@ -109,7 +115,9 @@
           "start": 334,
           "end": 338,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -170,14 +178,18 @@
                 "start": 414,
                 "end": 418,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 430,
                 "value": "Infinity",
-                "raw": "\"Infinity\""
+                "raw": "\"Infinity\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -215,14 +227,18 @@
                   "start": 442,
                   "end": 443,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 445,
                   "end": 447,
                   "value": 32,
-                  "raw": "32"
+                  "raw": "32",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -233,7 +249,9 @@
               "start": 451,
               "end": 452,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -241,7 +259,9 @@
             "start": 454,
             "end": 489,
             "value": "arr.lastIndexOf(true, \"Infinity\")",
-            "raw": "'arr.lastIndexOf(true, \"Infinity\")'"
+            "raw": "'arr.lastIndexOf(true, \"Infinity\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

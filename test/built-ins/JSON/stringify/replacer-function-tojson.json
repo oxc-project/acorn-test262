@@ -96,7 +96,9 @@
                               "start": 941,
                               "end": 949,
                               "value": "toJSON",
-                              "raw": "'toJSON'"
+                              "raw": "'toJSON'",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -153,7 +155,9 @@
                           "start": 1006,
                           "end": 1017,
                           "value": "|replacer",
-                          "raw": "'|replacer'"
+                          "raw": "'|replacer'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }
@@ -168,7 +172,9 @@
             "start": 1027,
             "end": 1046,
             "value": "\"toJSON|replacer\"",
-            "raw": "'\"toJSON|replacer\"'"
+            "raw": "'\"toJSON|replacer\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,7 +291,9 @@
                                     "start": 1134,
                                     "end": 1142,
                                     "value": "toJSON",
-                                    "raw": "'toJSON'"
+                                    "raw": "'toJSON'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -399,7 +407,9 @@
                                 "start": 1234,
                                 "end": 1245,
                                 "value": "|replacer",
-                                "raw": "'|replacer'"
+                                "raw": "'|replacer'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -429,7 +439,9 @@
             "start": 1280,
             "end": 1309,
             "value": "{\"calls\":\"toJSON|replacer\"}",
-            "raw": "'{\"calls\":\"toJSON|replacer\"}'"
+            "raw": "'{\"calls\":\"toJSON|replacer\"}'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

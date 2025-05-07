@@ -12,7 +12,9 @@
         "start": 1094,
         "end": 1095,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "regex": null,
+        "bigint": null
       },
       "cases": [
         {
@@ -48,7 +50,9 @@
                       "start": 1135,
                       "end": 1154,
                       "value": "inner declaration",
-                      "raw": "'inner declaration'"
+                      "raw": "'inner declaration'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -60,7 +64,9 @@
             "start": 1106,
             "end": 1107,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ]
@@ -111,7 +117,9 @@
             "start": 1188,
             "end": 1198,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -163,7 +171,9 @@
             "start": 1223,
             "end": 1242,
             "value": "inner declaration",
-            "raw": "'inner declaration'"
+            "raw": "'inner declaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -197,7 +207,9 @@
               "start": 1270,
               "end": 1289,
               "value": "outer declaration",
-              "raw": "'outer declaration'"
+              "raw": "'outer declaration'",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

@@ -124,7 +124,9 @@ __ESTREE_TEST__:PASS:
           "start": 25,
           "end": 64,
           "raw": "'collisionExportsRequireAndAlias_file1'",
-          "value": "collisionExportsRequireAndAlias_file1"
+          "value": "collisionExportsRequireAndAlias_file1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -151,7 +153,9 @@ __ESTREE_TEST__:PASS:
           "start": 101,
           "end": 143,
           "raw": "'collisionExportsRequireAndAlias_file3333'",
-          "value": "collisionExportsRequireAndAlias_file3333"
+          "value": "collisionExportsRequireAndAlias_file3333",
+          "regex": null,
+          "bigint": null
         }
       }
     },

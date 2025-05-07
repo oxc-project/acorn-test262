@@ -23,7 +23,9 @@
             "start": 463,
             "end": 467,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 475,
             "end": 498,
             "value": "const outside = null;",
-            "raw": "'const outside = null;'"
+            "raw": "'const outside = null;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -75,7 +79,9 @@
             "start": 506,
             "end": 543,
             "value": "\"use strict\"; const outside = null;",
-            "raw": "'\"use strict\"; const outside = null;'"
+            "raw": "'\"use strict\"; const outside = null;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +107,9 @@
             "start": 552,
             "end": 578,
             "value": "const xNonStrict = null;",
-            "raw": "'const xNonStrict = null;'"
+            "raw": "'const xNonStrict = null;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -153,7 +161,9 @@
             "start": 618,
             "end": 629,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +255,9 @@
             "start": 699,
             "end": 736,
             "value": "\"use strict\"; const xStrict = null;",
-            "raw": "'\"use strict\"; const xStrict = null;'"
+            "raw": "'\"use strict\"; const xStrict = null;'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -297,7 +309,9 @@
             "start": 773,
             "end": 784,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

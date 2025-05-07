@@ -23,7 +23,9 @@
             "start": 384,
             "end": 385,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 402,
             "end": 403,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 421,
             "end": 422,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -450,14 +456,18 @@
                     "start": 688,
                     "end": 689,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 691,
                     "end": 692,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -503,14 +513,18 @@
                     "start": 716,
                     "end": 717,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 719,
                     "end": 720,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -545,7 +559,9 @@
                 "start": 742,
                 "end": 743,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -712,14 +728,18 @@
             "start": 871,
             "end": 875,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 877,
             "end": 907,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -776,14 +796,18 @@
             "start": 959,
             "end": 964,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 968,
             "end": 1014,
             "value": "The returned object is a Set, not a subclass",
-            "raw": "\"The returned object is a Set, not a subclass\""
+            "raw": "\"The returned object is a Set, not a subclass\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -828,14 +852,18 @@
             "start": 1046,
             "end": 1047,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1049,
             "end": 1092,
             "value": "size should not be called on the receiver",
-            "raw": "\"size should not be called on the receiver\""
+            "raw": "\"size should not be called on the receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -880,14 +908,18 @@
             "start": 1122,
             "end": 1123,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1125,
             "end": 1167,
             "value": "has should not be called on the receiver",
-            "raw": "\"has should not be called on the receiver\""
+            "raw": "\"has should not be called on the receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -932,14 +964,18 @@
             "start": 1198,
             "end": 1199,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1201,
             "end": 1244,
             "value": "keys should not be called on the receiver",
-            "raw": "\"keys should not be called on the receiver\""
+            "raw": "\"keys should not be called on the receiver\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

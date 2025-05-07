@@ -132,7 +132,9 @@ __ESTREE_TEST__:PASS:
           "start": 19,
           "end": 65,
           "raw": "'declFileExportAssignmentOfGenericInterface_0'",
-          "value": "declFileExportAssignmentOfGenericInterface_0"
+          "value": "declFileExportAssignmentOfGenericInterface_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

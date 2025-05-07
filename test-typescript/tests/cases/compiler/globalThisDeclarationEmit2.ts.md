@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 37,
         "raw": "\"./variable\"",
-        "value": "./variable"
+        "value": "./variable",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 28,
                 "raw": "\"postfix\"",
-                "value": "postfix"
+                "value": "postfix",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

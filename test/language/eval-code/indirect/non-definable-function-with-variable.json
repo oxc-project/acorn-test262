@@ -34,7 +34,9 @@
                       "start": 1332,
                       "end": 1333,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -51,7 +53,9 @@
                   "start": 1340,
                   "end": 1409,
                   "value": "var shouldNotBeDefined1; function NaN() {} var shouldNotBeDefined2;",
-                  "raw": "\"var shouldNotBeDefined1; function NaN() {} var shouldNotBeDefined2;\""
+                  "raw": "\"var shouldNotBeDefined1; function NaN() {} var shouldNotBeDefined2;\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -140,7 +144,9 @@
                 "start": 1520,
                 "end": 1541,
                 "value": "shouldNotBeDefined1",
-                "raw": "\"shouldNotBeDefined1\""
+                "raw": "\"shouldNotBeDefined1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -156,7 +162,9 @@
             "start": 1559,
             "end": 1582,
             "value": "declaration preceding",
-            "raw": "\"declaration preceding\""
+            "raw": "\"declaration preceding\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -224,7 +232,9 @@
                 "start": 1644,
                 "end": 1665,
                 "value": "shouldNotBeDefined2",
-                "raw": "\"shouldNotBeDefined2\""
+                "raw": "\"shouldNotBeDefined2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -240,7 +250,9 @@
             "start": 1683,
             "end": 1706,
             "value": "declaration following",
-            "raw": "\"declaration following\""
+            "raw": "\"declaration following\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

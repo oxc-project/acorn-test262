@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 14,
         "raw": "\"oops �� oops\"",
-        "value": "oops �� oops"
+        "value": "oops �� oops",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -28,7 +30,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 30,
         "raw": "'oops �� oops'",
-        "value": "oops �� oops"
+        "value": "oops �� oops",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -70,7 +74,9 @@ __ESTREE_TEST__:PASS:
             "start": 51,
             "end": 65,
             "raw": "\"oops �� oops\"",
-            "value": "oops �� oops"
+            "value": "oops �� oops",
+            "regex": null,
+            "bigint": null
           }
         ],
         "quasis": [

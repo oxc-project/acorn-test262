@@ -15,7 +15,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -29,7 +31,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 52,
         "raw": "\"./mymodule\"",
-        "value": "./mymodule"
+        "value": "./mymodule",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -23,7 +23,9 @@
             "start": 521,
             "end": 522,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -383,14 +385,18 @@
             "start": 813,
             "end": 814,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 816,
             "end": 923,
             "value": "The value of `count` is `2`, because S7 of `SuperCall : super Arguments` will call the super constructor.",
-            "raw": "\"The value of `count` is `2`, because S7 of `SuperCall : super Arguments` will call the super constructor.\""
+            "raw": "\"The value of `count` is `2`, because S7 of `SuperCall : super Arguments` will call the super constructor.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

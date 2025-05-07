@@ -353,7 +353,9 @@ __ESTREE_TEST__:PASS:
                       "start": 209,
                       "end": 224,
                       "raw": "\"frizzlebizzle\"",
-                      "value": "frizzlebizzle"
+                      "value": "frizzlebizzle",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

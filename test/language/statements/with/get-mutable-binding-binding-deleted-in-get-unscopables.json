@@ -23,7 +23,9 @@
             "start": 604,
             "end": 605,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -67,7 +69,9 @@
                   "start": 631,
                   "end": 632,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -169,7 +173,9 @@
                           "start": 725,
                           "end": 729,
                           "value": null,
-                          "raw": "null"
+                          "raw": "null",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -203,7 +209,9 @@
             "start": 752,
             "end": 756,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -289,14 +297,18 @@
             "start": 830,
             "end": 831,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 833,
             "end": 871,
             "value": "get [Symbol.unscopables] called once",
-            "raw": "\"get [Symbol.unscopables] called once\""
+            "raw": "\"get [Symbol.unscopables] called once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -347,7 +359,9 @@
             "start": 911,
             "end": 936,
             "value": "result set to undefined",
-            "raw": "\"result set to undefined\""
+            "raw": "\"result set to undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

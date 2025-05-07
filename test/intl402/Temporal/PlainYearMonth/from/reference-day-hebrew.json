@@ -78,7 +78,9 @@
                       "start": 564,
                       "end": 568,
                       "value": 5782,
-                      "raw": "5782"
+                      "raw": "5782",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -100,7 +102,9 @@
                       "start": 581,
                       "end": 586,
                       "value": "M04",
-                      "raw": "\"M04\""
+                      "raw": "\"M04\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -122,7 +126,9 @@
                       "start": 593,
                       "end": 595,
                       "value": 20,
-                      "raw": "20"
+                      "raw": "20",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -144,7 +150,9 @@
                       "start": 607,
                       "end": 615,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -196,28 +204,36 @@
             "start": 671,
             "end": 675,
             "value": 5782,
-            "raw": "5782"
+            "raw": "5782",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 678,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 685,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 760,
             "value": "reference day is the first of the calendar month even if day is given",
-            "raw": "\"reference day is the first of the calendar month even if day is given\""
+            "raw": "\"reference day is the first of the calendar month even if day is given\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -236,7 +252,9 @@
             "start": 837,
             "end": 838,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -306,14 +324,18 @@
                 "start": 888,
                 "end": 889,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 891,
                 "end": 892,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -361,14 +383,18 @@
             "start": 926,
             "end": 935,
             "value": "2021-12",
-            "raw": "\"2021-12\""
+            "raw": "\"2021-12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 971,
             "value": "Tevet 5782 begins in ISO 2021-12",
-            "raw": "\"Tevet 5782 begins in ISO 2021-12\""
+            "raw": "\"Tevet 5782 begins in ISO 2021-12\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -449,7 +475,9 @@
                       "start": 1028,
                       "end": 1032,
                       "value": 5783,
-                      "raw": "5783"
+                      "raw": "5783",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -471,7 +499,9 @@
                       "start": 1045,
                       "end": 1051,
                       "value": "M05L",
-                      "raw": "\"M05L\""
+                      "raw": "\"M05L\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -493,7 +523,9 @@
                       "start": 1063,
                       "end": 1071,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -522,7 +554,9 @@
                       "start": 1087,
                       "end": 1098,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -574,28 +608,36 @@
             "start": 1154,
             "end": 1158,
             "value": 5783,
-            "raw": "5783"
+            "raw": "5783",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1160,
             "end": 1161,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1163,
             "end": 1168,
             "value": "M06",
-            "raw": "\"M06\""
+            "raw": "\"M06\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1172,
             "end": 1281,
             "value": "month code M05L does not exist in year 5783 (overflow constrain); Hebrew calendar constrains Adar I to Adar",
-            "raw": "\"month code M05L does not exist in year 5783 (overflow constrain); Hebrew calendar constrains Adar I to Adar\""
+            "raw": "\"month code M05L does not exist in year 5783 (overflow constrain); Hebrew calendar constrains Adar I to Adar\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -614,7 +656,9 @@
             "start": 1358,
             "end": 1360,
             "value": 22,
-            "raw": "22"
+            "raw": "22",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -723,7 +767,9 @@
                         "start": 1439,
                         "end": 1443,
                         "value": 5783,
-                        "raw": "5783"
+                        "raw": "5783",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -745,7 +791,9 @@
                         "start": 1456,
                         "end": 1462,
                         "value": "M05L",
-                        "raw": "\"M05L\""
+                        "raw": "\"M05L\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -767,7 +815,9 @@
                         "start": 1474,
                         "end": 1482,
                         "value": "hebrew",
-                        "raw": "\"hebrew\""
+                        "raw": "\"hebrew\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -796,7 +846,9 @@
                         "start": 1498,
                         "end": 1506,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -811,7 +863,9 @@
             "start": 1513,
             "end": 1576,
             "value": "month code M05L does not exist in year 5783 (overflow reject)",
-            "raw": "\"month code M05L does not exist in year 5783 (overflow reject)\""
+            "raw": "\"month code M05L does not exist in year 5783 (overflow reject)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -892,7 +946,9 @@
                       "start": 1635,
                       "end": 1639,
                       "value": 5783,
-                      "raw": "5783"
+                      "raw": "5783",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -914,7 +970,9 @@
                       "start": 1648,
                       "end": 1650,
                       "value": 13,
-                      "raw": "13"
+                      "raw": "13",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -936,7 +994,9 @@
                       "start": 1662,
                       "end": 1670,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -965,7 +1025,9 @@
                       "start": 1686,
                       "end": 1697,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1017,28 +1079,36 @@
             "start": 1753,
             "end": 1757,
             "value": 5783,
-            "raw": "5783"
+            "raw": "5783",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1759,
             "end": 1761,
             "value": 12,
-            "raw": "12"
+            "raw": "12",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1763,
             "end": 1768,
             "value": "M12",
-            "raw": "\"M12\""
+            "raw": "\"M12\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1772,
             "end": 1831,
             "value": "month 13 does not exist in year 5783 (overflow constrain)",
-            "raw": "\"month 13 does not exist in year 5783 (overflow constrain)\""
+            "raw": "\"month 13 does not exist in year 5783 (overflow constrain)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1057,7 +1127,9 @@
             "start": 1908,
             "end": 1910,
             "value": 18,
-            "raw": "18"
+            "raw": "18",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1166,7 +1238,9 @@
                         "start": 1989,
                         "end": 1993,
                         "value": 5783,
-                        "raw": "5783"
+                        "raw": "5783",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1188,7 +1262,9 @@
                         "start": 2002,
                         "end": 2004,
                         "value": 13,
-                        "raw": "13"
+                        "raw": "13",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -1210,7 +1286,9 @@
                         "start": 2016,
                         "end": 2024,
                         "value": "hebrew",
-                        "raw": "\"hebrew\""
+                        "raw": "\"hebrew\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1239,7 +1317,9 @@
                         "start": 2040,
                         "end": 2048,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1254,7 +1334,9 @@
             "start": 2055,
             "end": 2111,
             "value": "month 13 does not exist in year 5783 (overflow reject)",
-            "raw": "\"month 13 does not exist in year 5783 (overflow reject)\""
+            "raw": "\"month 13 does not exist in year 5783 (overflow reject)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1335,7 +1417,9 @@
                       "start": 2170,
                       "end": 2174,
                       "value": 5782,
-                      "raw": "5782"
+                      "raw": "5782",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1357,7 +1441,9 @@
                       "start": 2187,
                       "end": 2192,
                       "value": "M04",
-                      "raw": "\"M04\""
+                      "raw": "\"M04\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1379,7 +1465,9 @@
                       "start": 2199,
                       "end": 2201,
                       "value": 50,
-                      "raw": "50"
+                      "raw": "50",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1401,7 +1489,9 @@
                       "start": 2213,
                       "end": 2221,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1430,7 +1520,9 @@
                       "start": 2237,
                       "end": 2248,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1482,28 +1574,36 @@
             "start": 2304,
             "end": 2308,
             "value": 5782,
-            "raw": "5782"
+            "raw": "5782",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2310,
             "end": 2311,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2313,
             "end": 2318,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2322,
             "end": 2403,
             "value": "reference day is set correctly even if day is out of range (overflow constrain)",
-            "raw": "\"reference day is set correctly even if day is out of range (overflow constrain)\""
+            "raw": "\"reference day is set correctly even if day is out of range (overflow constrain)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1522,7 +1622,9 @@
             "start": 2480,
             "end": 2481,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1603,7 +1705,9 @@
                       "start": 2539,
                       "end": 2543,
                       "value": 5782,
-                      "raw": "5782"
+                      "raw": "5782",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1625,7 +1729,9 @@
                       "start": 2556,
                       "end": 2561,
                       "value": "M04",
-                      "raw": "\"M04\""
+                      "raw": "\"M04\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1647,7 +1753,9 @@
                       "start": 2568,
                       "end": 2570,
                       "value": 50,
-                      "raw": "50"
+                      "raw": "50",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1669,7 +1777,9 @@
                       "start": 2582,
                       "end": 2590,
                       "value": "hebrew",
-                      "raw": "\"hebrew\""
+                      "raw": "\"hebrew\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1698,7 +1808,9 @@
                       "start": 2606,
                       "end": 2614,
                       "value": "reject",
-                      "raw": "\"reject\""
+                      "raw": "\"reject\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1750,28 +1862,36 @@
             "start": 2670,
             "end": 2674,
             "value": 5782,
-            "raw": "5782"
+            "raw": "5782",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2676,
             "end": 2677,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2679,
             "end": 2684,
             "value": "M04",
-            "raw": "\"M04\""
+            "raw": "\"M04\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2688,
             "end": 2766,
             "value": "reference day is set correctly even if day is out of range (overflow reject)",
-            "raw": "\"reference day is set correctly even if day is out of range (overflow reject)\""
+            "raw": "\"reference day is set correctly even if day is out of range (overflow reject)\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -1790,7 +1910,9 @@
             "start": 2843,
             "end": 2844,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -75,7 +75,9 @@
             "start": 318,
             "end": 352,
             "value": "Math.max() must return -Infinity",
-            "raw": "'Math.max() must return -Infinity'"
+            "raw": "'Math.max() must return -Infinity'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

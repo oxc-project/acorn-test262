@@ -46,7 +46,9 @@
                     "start": 693,
                     "end": 694,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -68,7 +70,9 @@
                 "start": 700,
                 "end": 701,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             },
             "update": {
@@ -138,7 +142,9 @@
                             "start": 740,
                             "end": 741,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ],
@@ -408,28 +414,36 @@
                             "start": 968,
                             "end": 969,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 971,
                             "end": 972,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 974,
                             "end": 975,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 977,
                             "end": 979,
                             "value": 18,
-                            "raw": "18"
+                            "raw": "18",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -438,7 +452,9 @@
                         "start": 982,
                         "end": 1031,
                         "value": "async mapfn should be applied to async iterable",
-                        "raw": "\"async mapfn should be applied to async iterable\""
+                        "raw": "\"async mapfn should be applied to async iterable\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

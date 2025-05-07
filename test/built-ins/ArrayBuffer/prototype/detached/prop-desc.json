@@ -66,7 +66,9 @@
                 "start": 662,
                 "end": 672,
                 "value": "detached",
-                "raw": "'detached'"
+                "raw": "'detached'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -191,7 +193,9 @@
             "start": 749,
             "end": 759,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -236,7 +240,9 @@
             "start": 801,
             "end": 811,
             "value": "detached",
-            "raw": "'detached'"
+            "raw": "'detached'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -261,7 +267,9 @@
                   "start": 829,
                   "end": 834,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -283,7 +291,9 @@
                   "start": 852,
                   "end": 856,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

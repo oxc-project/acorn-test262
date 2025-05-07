@@ -163,7 +163,9 @@
                 "start": 699,
                 "end": 710,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -173,14 +175,18 @@
             "start": 715,
             "end": 720,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 724,
             "end": 813,
             "value": "Object.prototype.hasOwnProperty.call(revocationFunction, \"prototype\") must return false",
-            "raw": "'Object.prototype.hasOwnProperty.call(revocationFunction, \"prototype\") must return false'"
+            "raw": "'Object.prototype.hasOwnProperty.call(revocationFunction, \"prototype\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,14 +245,18 @@
             "start": 869,
             "end": 874,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 876,
             "end": 929,
             "value": "isConstructor(revocationFunction) must return false",
-            "raw": "'isConstructor(revocationFunction) must return false'"
+            "raw": "'isConstructor(revocationFunction) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

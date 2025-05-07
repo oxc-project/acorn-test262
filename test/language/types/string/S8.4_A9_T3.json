@@ -23,7 +23,9 @@
             "start": 307,
             "end": 309,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -133,7 +135,9 @@
                   "start": 477,
                   "end": 524,
                   "value": "#1: \"\".constructor === new String.constructor",
-                  "raw": "'#1: \"\".constructor === new String.constructor'"
+                  "raw": "'#1: \"\".constructor === new String.constructor'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -189,7 +193,9 @@
                   "start": 712,
                   "end": 772,
                   "value": "#2: values of str=\"\"; and strObj=new String(\"\"); are equal",
-                  "raw": "'#2: values of str=\"\"; and strObj=new String(\"\"); are equal'"
+                  "raw": "'#2: values of str=\"\"; and strObj=new String(\"\"); are equal'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -245,7 +251,9 @@
                   "start": 961,
                   "end": 1026,
                   "value": "#3: objects of str=\"\"; and strObj=new String(\"\"); are different",
-                  "raw": "'#3: objects of str=\"\"; and strObj=new String(\"\"); are different'"
+                  "raw": "'#3: objects of str=\"\"; and strObj=new String(\"\"); are different'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -315,7 +323,9 @@
                   "start": 1245,
                   "end": 1308,
                   "value": "#4: types of str=\"\"; and strObj=new String(\"\"); are different",
-                  "raw": "'#4: types of str=\"\"; and strObj=new String(\"\"); are different'"
+                  "raw": "'#4: types of str=\"\"; and strObj=new String(\"\"); are different'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

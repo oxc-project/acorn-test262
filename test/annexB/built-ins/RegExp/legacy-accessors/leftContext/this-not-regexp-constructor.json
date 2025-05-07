@@ -25,14 +25,18 @@
                 "start": 605,
                 "end": 618,
                 "value": "leftContext",
-                "raw": "\"leftContext\""
+                "raw": "\"leftContext\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 620,
                 "end": 624,
                 "value": "$`",
-                "raw": "\"$`\""
+                "raw": "\"$`\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -184,7 +188,9 @@
                         "start": 866,
                         "end": 876,
                         "value": "function",
-                        "raw": "\"function\""
+                        "raw": "\"function\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "BinaryExpression",
@@ -202,7 +208,9 @@
                           "start": 889,
                           "end": 898,
                           "value": " getter",
-                          "raw": "\" getter\""
+                          "raw": "\" getter\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -304,7 +312,9 @@
                             "start": 1052,
                             "end": 1061,
                             "value": "RegExp.",
-                            "raw": "\"RegExp.\""
+                            "raw": "\"RegExp.\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -320,7 +330,9 @@
                           "start": 1075,
                           "end": 1124,
                           "value": " getter throws for property descriptor receiver",
-                          "raw": "\" getter throws for property descriptor receiver\""
+                          "raw": "\" getter throws for property descriptor receiver\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -425,7 +437,8 @@
                                     "regex": {
                                       "pattern": " ",
                                       "flags": ""
-                                    }
+                                    },
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -447,7 +460,9 @@
                             "start": 1218,
                             "end": 1227,
                             "value": "RegExp.",
-                            "raw": "\"RegExp.\""
+                            "raw": "\"RegExp.\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -463,7 +478,9 @@
                           "start": 1241,
                           "end": 1286,
                           "value": " getter throws for RegExp instance receiver",
-                          "raw": "\" getter throws for RegExp instance receiver\""
+                          "raw": "\" getter throws for RegExp instance receiver\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -598,7 +615,9 @@
                             "start": 1393,
                             "end": 1402,
                             "value": "RegExp.",
-                            "raw": "\"RegExp.\""
+                            "raw": "\"RegExp.\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -614,7 +633,9 @@
                           "start": 1416,
                           "end": 1464,
                           "value": " getter throws for %RegExp.prototype% receiver",
-                          "raw": "\" getter throws for %RegExp.prototype% receiver\""
+                          "raw": "\" getter throws for %RegExp.prototype% receiver\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -649,7 +670,9 @@
                             "start": 1485,
                             "end": 1489,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -662,35 +685,45 @@
                             "start": 1495,
                             "end": 1499,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1501,
                             "end": 1506,
                             "value": false,
-                            "raw": "false"
+                            "raw": "false",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1508,
                             "end": 1509,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1511,
                             "end": 1512,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1514,
                             "end": 1522,
                             "value": "string",
-                            "raw": "\"string\""
+                            "raw": "\"string\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -848,7 +881,9 @@
                                             "start": 1652,
                                             "end": 1661,
                                             "value": "RegExp.",
-                                            "raw": "\"RegExp.\""
+                                            "raw": "\"RegExp.\"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -864,7 +899,9 @@
                                           "start": 1675,
                                           "end": 1707,
                                           "value": " getter throws for primitive \"",
-                                          "raw": "' getter throws for primitive \"'"
+                                          "raw": "' getter throws for primitive \"'",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -881,7 +918,9 @@
                                       "start": 1718,
                                       "end": 1730,
                                       "value": "\" receiver",
-                                      "raw": "'\" receiver'"
+                                      "raw": "'\" receiver'",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

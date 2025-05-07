@@ -75,14 +75,18 @@
             "start": 1459,
             "end": 1469,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1473,
             "end": 1546,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +180,9 @@
                 "start": 1612,
                 "end": 1668,
                 "value": "Object.getPrototypeOf(globalThis) === Object.prototype",
-                "raw": "'Object.getPrototypeOf(globalThis) === Object.prototype'"
+                "raw": "'Object.getPrototypeOf(globalThis) === Object.prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -186,14 +192,18 @@
             "start": 1673,
             "end": 1677,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1681,
             "end": 1734,
             "value": "The [[Prototype]] of globalThis is Object.prototype",
-            "raw": "'The [[Prototype]] of globalThis is Object.prototype'"
+            "raw": "'The [[Prototype]] of globalThis is Object.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,7 +266,9 @@
                 "start": 1770,
                 "end": 1803,
                 "value": "Object.isExtensible(globalThis)",
-                "raw": "'Object.isExtensible(globalThis)'"
+                "raw": "'Object.isExtensible(globalThis)'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -266,14 +278,18 @@
             "start": 1808,
             "end": 1812,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1816,
             "end": 1842,
             "value": "globalThis is extensible",
-            "raw": "'globalThis is extensible'"
+            "raw": "'globalThis is extensible'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -336,7 +352,9 @@
                 "start": 1878,
                 "end": 1913,
                 "value": "globalThis.constructor === Object",
-                "raw": "'globalThis.constructor === Object'"
+                "raw": "'globalThis.constructor === Object'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -346,14 +364,18 @@
             "start": 1918,
             "end": 1922,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1926,
             "end": 1960,
             "value": "globalThis.constructor is Object",
-            "raw": "'globalThis.constructor is Object'"
+            "raw": "'globalThis.constructor is Object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -437,14 +459,18 @@
             "start": 2148,
             "end": 2152,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2156,
             "end": 2201,
             "value": "Can assign to globalThis.__proto__ directly",
-            "raw": "'Can assign to globalThis.__proto__ directly'"
+            "raw": "'Can assign to globalThis.__proto__ directly'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -528,14 +554,18 @@
             "start": 2357,
             "end": 2361,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2365,
             "end": 2407,
             "value": "Can set an ordinary globalThis.__proto__",
-            "raw": "'Can set an ordinary globalThis.__proto__'"
+            "raw": "'Can set an ordinary globalThis.__proto__'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

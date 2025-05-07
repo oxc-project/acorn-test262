@@ -23,7 +23,9 @@
             "start": 322,
             "end": 328,
             "value": "data",
-            "raw": "\"data\""
+            "raw": "\"data\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -208,7 +210,9 @@
                 "start": 472,
                 "end": 481,
                 "value": "descObj",
-                "raw": "\"descObj\""
+                "raw": "\"descObj\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -243,7 +247,9 @@
             "start": 508,
             "end": 517,
             "value": "descObj",
-            "raw": "\"descObj\""
+            "raw": "\"descObj\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,7 +305,9 @@
                 "start": 569,
                 "end": 578,
                 "value": "descObj",
-                "raw": "\"descObj\""
+                "raw": "\"descObj\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -372,7 +380,9 @@
             "start": 616,
             "end": 627,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

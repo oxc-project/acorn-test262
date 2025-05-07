@@ -75,14 +75,18 @@
             "start": 392,
             "end": 402,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 406,
             "end": 479,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +394,9 @@
                   "start": 751,
                   "end": 763,
                   "value": "globalThis",
-                  "raw": "'globalThis'"
+                  "raw": "'globalThis'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -401,7 +407,9 @@
             "start": 766,
             "end": 821,
             "value": "throws a TypeError if return value can not be wrapped",
-            "raw": "'throws a TypeError if return value can not be wrapped'"
+            "raw": "'throws a TypeError if return value can not be wrapped'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -479,7 +487,9 @@
                   "start": 875,
                   "end": 894,
                   "value": "throw new Error()",
-                  "raw": "'throw new Error()'"
+                  "raw": "'throw new Error()'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -490,7 +500,9 @@
             "start": 897,
             "end": 941,
             "value": "throws a TypeError if completion is abrupt",
-            "raw": "'throws a TypeError if completion is abrupt'"
+            "raw": "'throws a TypeError if completion is abrupt'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -568,7 +580,9 @@
                   "start": 996,
                   "end": 997,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -579,7 +593,9 @@
             "start": 1000,
             "end": 1050,
             "value": "throws a TypeError if sourceText is not a string",
-            "raw": "'throws a TypeError if sourceText is not a string'"
+            "raw": "'throws a TypeError if sourceText is not a string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -657,7 +673,9 @@
                   "start": 1106,
                   "end": 1111,
                   "value": "...",
-                  "raw": "'...'"
+                  "raw": "'...'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -668,7 +686,9 @@
             "start": 1114,
             "end": 1167,
             "value": "throws a SyntaxError if the sourceText is not valid",
-            "raw": "'throws a SyntaxError if the sourceText is not valid'"
+            "raw": "'throws a SyntaxError if the sourceText is not valid'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -799,7 +819,9 @@
                         "start": 1261,
                         "end": 1311,
                         "value": "This is invalid code and should not be evaluated",
-                        "raw": "'This is invalid code and should not be evaluated'"
+                        "raw": "'This is invalid code and should not be evaluated'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -813,7 +835,9 @@
             "start": 1317,
             "end": 1373,
             "value": "throws a TypeError if this is not a ShadowRealm object",
-            "raw": "'throws a TypeError if this is not a ShadowRealm object'"
+            "raw": "'throws a TypeError if this is not a ShadowRealm object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

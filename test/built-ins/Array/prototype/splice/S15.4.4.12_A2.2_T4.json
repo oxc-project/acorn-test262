@@ -28,14 +28,18 @@
                 "start": 271,
                 "end": 272,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 275,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -87,7 +91,9 @@
                 "start": 297,
                 "end": 298,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "MemberExpression",
@@ -225,7 +231,9 @@
               "start": 393,
               "end": 403,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -233,7 +241,9 @@
               "start": 406,
               "end": 413,
               "value": "Array",
-              "raw": "\"Array\""
+              "raw": "\"Array\"",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -242,7 +252,9 @@
             "start": 416,
             "end": 419,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -275,7 +287,9 @@
                     "start": 448,
                     "end": 546,
                     "value": "#0: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); arr is Array object. Actual: ",
-                    "raw": "'#0: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); arr is Array object. Actual: '"
+                    "raw": "'#0: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); arr is Array object. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -350,7 +364,9 @@
           "start": 590,
           "end": 591,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -382,7 +398,9 @@
                     "start": 620,
                     "end": 715,
                     "value": "#1: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); arr.length === 0. Actual: ",
-                    "raw": "'#1: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); arr.length === 0. Actual: '"
+                    "raw": "'#1: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); arr.length === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -450,7 +468,9 @@
           "start": 753,
           "end": 754,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -482,7 +502,9 @@
                     "start": 783,
                     "end": 876,
                     "value": "#2: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x.length === 2. Actual: ",
-                    "raw": "'#2: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x.length === 2. Actual: '"
+                    "raw": "'#2: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x.length === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -540,7 +562,9 @@
             "start": 901,
             "end": 902,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -551,7 +575,9 @@
           "start": 908,
           "end": 909,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -583,7 +609,9 @@
                     "start": 938,
                     "end": 1027,
                     "value": "#3: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x[0] === 0. Actual: ",
-                    "raw": "'#3: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x[0] === 0. Actual: '"
+                    "raw": "'#3: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x[0] === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -605,7 +633,9 @@
                         "start": 1033,
                         "end": 1034,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -642,7 +672,9 @@
             "start": 1048,
             "end": 1049,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -653,7 +685,9 @@
           "start": 1055,
           "end": 1056,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -685,7 +719,9 @@
                     "start": 1085,
                     "end": 1174,
                     "value": "#4: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x[1] === 1. Actual: ",
-                    "raw": "'#4: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x[1] === 1. Actual: '"
+                    "raw": "'#4: var x = [0,1]; var arr = x.splice(0,Number.NEGATIVE_INFINITY); x[1] === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -707,7 +743,9 @@
                         "start": 1180,
                         "end": 1181,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false

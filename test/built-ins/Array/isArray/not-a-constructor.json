@@ -69,14 +69,18 @@
             "start": 732,
             "end": 737,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 739,
             "end": 787,
             "value": "isConstructor(Array.isArray) must return false",
-            "raw": "'isConstructor(Array.isArray) must return false'"
+            "raw": "'isConstructor(Array.isArray) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -175,7 +179,9 @@
             "start": 852,
             "end": 904,
             "value": "new Array.isArray([]) throws a TypeError exception",
-            "raw": "'new Array.isArray([]) throws a TypeError exception'"
+            "raw": "'new Array.isArray([]) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

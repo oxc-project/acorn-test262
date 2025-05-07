@@ -115,7 +115,9 @@
                         "start": 473,
                         "end": 481,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -140,7 +142,9 @@
                               "start": 496,
                               "end": 506,
                               "value": 4294967297,
-                              "raw": "4294967297"
+                              "raw": "4294967297",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }

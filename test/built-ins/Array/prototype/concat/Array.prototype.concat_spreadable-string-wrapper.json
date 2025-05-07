@@ -34,7 +34,9 @@
                 "start": 383,
                 "end": 401,
                 "value": "yuck💩",
-                "raw": "\"yuck\\uD83D\\uDCA9\""
+                "raw": "\"yuck\\uD83D\\uDCA9\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -121,7 +123,9 @@
             "start": 511,
             "end": 574,
             "value": "[str1] must return the same value returned by [].concat(str1)",
-            "raw": "'[str1] must return the same value returned by [].concat(str1)'"
+            "raw": "'[str1] must return the same value returned by [].concat(str1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -173,7 +177,9 @@
           "start": 676,
           "end": 680,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -215,42 +221,54 @@
                 "start": 703,
                 "end": 706,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 708,
                 "end": 711,
                 "value": "u",
-                "raw": "\"u\""
+                "raw": "\"u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 713,
                 "end": 716,
                 "value": "c",
-                "raw": "\"c\""
+                "raw": "\"c\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 718,
                 "end": 721,
                 "value": "k",
-                "raw": "\"k\""
+                "raw": "\"k\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 723,
                 "end": 731,
                 "value": "\ud83d",
-                "raw": "\"\\uD83D\""
+                "raw": "\"\\uD83D\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 733,
                 "end": 741,
                 "value": "\udca9",
-                "raw": "\"\\uDCA9\""
+                "raw": "\"\\uDCA9\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -292,7 +310,9 @@
             "start": 763,
             "end": 858,
             "value": "[\"y\", \"u\", \"c\", \"k\", \"uD83D\", \"uDCA9\"] must return the same value returned by [].concat(str1)",
-            "raw": "'[\"y\", \"u\", \"c\", \"k\", \"uD83D\", \"uDCA9\"] must return the same value returned by [].concat(str1)'"
+            "raw": "'[\"y\", \"u\", \"c\", \"k\", \"uD83D\", \"uDCA9\"] must return the same value returned by [].concat(str1)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -357,7 +377,9 @@
           "start": 909,
           "end": 913,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -399,42 +421,54 @@
                 "start": 987,
                 "end": 990,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 992,
                 "end": 995,
                 "value": "u",
-                "raw": "\"u\""
+                "raw": "\"u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 997,
                 "end": 1000,
                 "value": "c",
-                "raw": "\"c\""
+                "raw": "\"c\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1002,
                 "end": 1005,
                 "value": "k",
-                "raw": "\"k\""
+                "raw": "\"k\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1007,
                 "end": 1015,
                 "value": "\ud83d",
-                "raw": "\"\\uD83D\""
+                "raw": "\"\\uD83D\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1017,
                 "end": 1025,
                 "value": "\udca9",
-                "raw": "\"\\uDCA9\""
+                "raw": "\"\\uDCA9\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -478,7 +512,9 @@
                     "start": 1049,
                     "end": 1067,
                     "value": "yuck💩",
-                    "raw": "\"yuck\\uD83D\\uDCA9\""
+                    "raw": "\"yuck\\uD83D\\uDCA9\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -490,7 +526,9 @@
             "start": 1073,
             "end": 1192,
             "value": "[\"y\", \"u\", \"c\", \"k\", \"uD83D\", \"uDCA9\"] must return the same value returned by [].concat(new String(\"yuckuD83DuDCA9\"))",
-            "raw": "'[\"y\", \"u\", \"c\", \"k\", \"uD83D\", \"uDCA9\"] must return the same value returned by [].concat(new String(\"yuckuD83DuDCA9\"))'"
+            "raw": "'[\"y\", \"u\", \"c\", \"k\", \"uD83D\", \"uDCA9\"] must return the same value returned by [].concat(new String(\"yuckuD83DuDCA9\"))'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -534,7 +572,9 @@
                 "start": 1263,
                 "end": 1281,
                 "value": "yuck💩",
-                "raw": "\"yuck\\uD83D\\uDCA9\""
+                "raw": "\"yuck\\uD83D\\uDCA9\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -567,7 +607,9 @@
                 "start": 1294,
                 "end": 1312,
                 "value": "yuck💩",
-                "raw": "\"yuck\\uD83D\\uDCA9\""
+                "raw": "\"yuck\\uD83D\\uDCA9\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -577,7 +619,9 @@
             "start": 1317,
             "end": 1404,
             "value": "[\"yuckuD83DuDCA9\"] must return the same value returned by [].concat(\"yuckuD83DuDCA9\")",
-            "raw": "'[\"yuckuD83DuDCA9\"] must return the same value returned by [].concat(\"yuckuD83DuDCA9\")'"
+            "raw": "'[\"yuckuD83DuDCA9\"] must return the same value returned by [].concat(\"yuckuD83DuDCA9\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

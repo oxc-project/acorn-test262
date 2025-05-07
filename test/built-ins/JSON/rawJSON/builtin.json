@@ -69,7 +69,9 @@
             "start": 1275,
             "end": 1303,
             "value": "JSON.rawJSON is extensible",
-            "raw": "\"JSON.rawJSON is extensible\""
+            "raw": "\"JSON.rawJSON is extensible\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -134,14 +136,18 @@
             "start": 1349,
             "end": 1359,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1363,
             "end": 1413,
             "value": "The value of `typeof JSON.rawJSON` is \"function\"",
-            "raw": "'The value of `typeof JSON.rawJSON` is \"function\"'"
+            "raw": "'The value of `typeof JSON.rawJSON` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +251,9 @@
             "start": 1499,
             "end": 1548,
             "value": "Prototype of JSON.rawJSON is Function.prototype",
-            "raw": "\"Prototype of JSON.rawJSON is Function.prototype\""
+            "raw": "\"Prototype of JSON.rawJSON is Function.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -327,7 +335,9 @@
                 "start": 1619,
                 "end": 1630,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -343,7 +353,9 @@
             "start": 1648,
             "end": 1692,
             "value": "JSON.rawJSON has no own prototype property",
-            "raw": "\"JSON.rawJSON has no own prototype property\""
+            "raw": "\"JSON.rawJSON has no own prototype property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

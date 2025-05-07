@@ -48,6 +48,7 @@
                 "end": 350,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 352,
                 "end": 357,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -170,7 +173,9 @@
             "start": 441,
             "end": 481,
             "value": "TypeError if no properties are present",
-            "raw": "\"TypeError if no properties are present\""
+            "raw": "\"TypeError if no properties are present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -209,7 +214,9 @@
           "start": 500,
           "end": 502,
           "value": 30,
-          "raw": "30"
+          "raw": "30",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -318,6 +325,7 @@
             "end": 614,
             "value": null,
             "raw": "999995400_000_000_000n",
+            "regex": null,
             "bigint": "999995400000000000"
           },
           {
@@ -325,7 +333,9 @@
             "start": 616,
             "end": 649,
             "value": "missing time units default to 0",
-            "raw": "\"missing time units default to 0\""
+            "raw": "\"missing time units default to 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

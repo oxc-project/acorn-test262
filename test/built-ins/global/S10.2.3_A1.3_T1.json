@@ -71,7 +71,9 @@
                                     "start": 349,
                                     "end": 362,
                                     "value": "//CHECK#1\n",
-                                    "raw": "'//CHECK#1\\n'"
+                                    "raw": "'//CHECK#1\\n'",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -79,7 +81,9 @@
                                     "start": 364,
                                     "end": 389,
                                     "value": "if ( NaN === null ) {\n",
-                                    "raw": "'if ( NaN === null ) {\\n'"
+                                    "raw": "'if ( NaN === null ) {\\n'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -88,7 +92,9 @@
                                   "start": 391,
                                   "end": 440,
                                   "value": "  throw new Test262Error(\"#1: NaN === null\");\n",
-                                  "raw": "'  throw new Test262Error(\"#1: NaN === null\");\\n'"
+                                  "raw": "'  throw new Test262Error(\"#1: NaN === null\");\\n'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "+",
@@ -97,7 +103,9 @@
                                 "start": 442,
                                 "end": 447,
                                 "value": "}\n",
-                                "raw": "'}\\n'"
+                                "raw": "'}\\n'",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -106,7 +114,9 @@
                               "start": 450,
                               "end": 463,
                               "value": "//CHECK#2\n",
-                              "raw": "'//CHECK#2\\n'"
+                              "raw": "'//CHECK#2\\n'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -115,7 +125,9 @@
                             "start": 465,
                             "end": 495,
                             "value": "if ( Infinity === null ) {\n",
-                            "raw": "'if ( Infinity === null ) {\\n'"
+                            "raw": "'if ( Infinity === null ) {\\n'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -124,7 +136,9 @@
                           "start": 497,
                           "end": 551,
                           "value": "  throw new Test262Error(\"#2: Infinity === null\");\n",
-                          "raw": "'  throw new Test262Error(\"#2: Infinity === null\");\\n'"
+                          "raw": "'  throw new Test262Error(\"#2: Infinity === null\");\\n'",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "operator": "+",
@@ -133,7 +147,9 @@
                         "start": 553,
                         "end": 558,
                         "value": "}\n",
-                        "raw": "'}\\n'"
+                        "raw": "'}\\n'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -142,7 +158,9 @@
                       "start": 561,
                       "end": 574,
                       "value": "//CHECK#3\n",
-                      "raw": "'//CHECK#3\\n'"
+                      "raw": "'//CHECK#3\\n'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -151,7 +169,9 @@
                     "start": 576,
                     "end": 607,
                     "value": "if ( undefined === null ) {\n",
-                    "raw": "'if ( undefined === null ) {\\n'"
+                    "raw": "'if ( undefined === null ) {\\n'",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -160,7 +180,9 @@
                   "start": 609,
                   "end": 664,
                   "value": "  throw new Test262Error(\"#3: undefined === null\");\n",
-                  "raw": "'  throw new Test262Error(\"#3: undefined === null\");\\n'"
+                  "raw": "'  throw new Test262Error(\"#3: undefined === null\");\\n'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -169,7 +191,9 @@
                 "start": 666,
                 "end": 671,
                 "value": "}\n",
-                "raw": "'}\\n'"
+                "raw": "'}\\n'",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "+",
@@ -178,7 +202,9 @@
               "start": 673,
               "end": 678,
               "value": ";\n",
-              "raw": "';\\n'"
+              "raw": "';\\n'",
+              "regex": null,
+              "bigint": null
             }
           }
         }

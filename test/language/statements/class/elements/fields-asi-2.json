@@ -40,14 +40,18 @@
                 "start": 327,
                 "end": 332,
                 "value": "lol",
-                "raw": "\"lol\""
+                "raw": "\"lol\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Literal",
                 "start": 336,
                 "end": 337,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -139,7 +143,9 @@
             "start": 382,
             "end": 385,
             "value": "o",
-            "raw": "'o'"
+            "raw": "'o'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

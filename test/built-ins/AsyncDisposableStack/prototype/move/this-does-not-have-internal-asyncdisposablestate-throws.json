@@ -75,7 +75,9 @@
             "start": 769,
             "end": 779,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -225,7 +227,9 @@
                               "start": 885,
                               "end": 911,
                               "value": "[[AsyncDisposableState]]",
-                              "raw": "'[[AsyncDisposableState]]'"
+                              "raw": "'[[AsyncDisposableState]]'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "value": {
                               "type": "ObjectExpression",
@@ -249,7 +253,9 @@
             "start": 924,
             "end": 974,
             "value": "Ordinary object without [[AsyncDisposableState]]",
-            "raw": "'Ordinary object without [[AsyncDisposableState]]'"
+            "raw": "'Ordinary object without [[AsyncDisposableState]]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -362,7 +368,9 @@
             "start": 1064,
             "end": 1151,
             "value": "AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot",
-            "raw": "'AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot'"
+            "raw": "'AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -462,7 +470,9 @@
             "start": 1231,
             "end": 1308,
             "value": "AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot",
-            "raw": "'AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot'"
+            "raw": "'AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,7 +603,9 @@
             "start": 1408,
             "end": 1434,
             "value": "DisposableStack instance",
-            "raw": "'DisposableStack instance'"
+            "raw": "'DisposableStack instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

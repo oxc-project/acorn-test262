@@ -163,14 +163,18 @@
             "start": 385,
             "end": 394,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 396,
             "end": 431,
             "value": "calendar string should be iso8601",
-            "raw": "\"calendar string should be iso8601\""
+            "raw": "\"calendar string should be iso8601\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +271,9 @@
             "start": 494,
             "end": 543,
             "value": "time zone string should be the same as from Now",
-            "raw": "\"time zone string should be the same as from Now\""
+            "raw": "\"time zone string should be the same as from Now\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

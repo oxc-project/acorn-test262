@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 34,
         "raw": "\"./module.mts\"",
-        "value": "./module.mts"
+        "value": "./module.mts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -56,14 +58,18 @@ __ESTREE_TEST__:PASS:
             "start": 78,
             "end": 95,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 97,
             "end": 105,
             "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,7 +79,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 70,
         "raw": "\"./module.mts\"",
-        "value": "./module.mts"
+        "value": "./module.mts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -91,14 +99,18 @@ __ESTREE_TEST__:PASS:
             "start": 151,
             "end": 168,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 170,
             "end": 179,
             "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -108,7 +120,9 @@ __ESTREE_TEST__:PASS:
         "start": 129,
         "end": 143,
         "raw": "\"./module.mts\"",
-        "value": "./module.mts"
+        "value": "./module.mts",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -143,7 +157,9 @@ __ESTREE_TEST__:PASS:
               "start": 207,
               "end": 221,
               "raw": "\"./module.mts\"",
-              "value": "./module.mts"
+              "value": "./module.mts",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": null,
@@ -185,7 +201,9 @@ __ESTREE_TEST__:PASS:
               "start": 248,
               "end": 262,
               "raw": "\"./module.mts\"",
-              "value": "./module.mts"
+              "value": "./module.mts",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": {
@@ -226,7 +244,9 @@ __ESTREE_TEST__:PASS:
                         "start": 274,
                         "end": 291,
                         "raw": "\"resolution-mode\"",
-                        "value": "resolution-mode"
+                        "value": "resolution-mode",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init",
                       "method": false,
@@ -237,7 +257,9 @@ __ESTREE_TEST__:PASS:
                         "start": 293,
                         "end": 301,
                         "raw": "\"import\"",
-                        "value": "import"
+                        "value": "import",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]
@@ -283,7 +305,9 @@ __ESTREE_TEST__:PASS:
               "start": 332,
               "end": 346,
               "raw": "\"./module.mts\"",
-              "value": "./module.mts"
+              "value": "./module.mts",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": {
@@ -324,7 +348,9 @@ __ESTREE_TEST__:PASS:
                         "start": 358,
                         "end": 375,
                         "raw": "\"resolution-mode\"",
-                        "value": "resolution-mode"
+                        "value": "resolution-mode",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init",
                       "method": false,
@@ -335,7 +361,9 @@ __ESTREE_TEST__:PASS:
                         "start": 377,
                         "end": 386,
                         "raw": "\"require\"",
-                        "value": "require"
+                        "value": "require",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ]

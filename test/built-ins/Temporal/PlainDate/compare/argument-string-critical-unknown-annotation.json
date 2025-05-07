@@ -28,42 +28,54 @@
                 "start": 291,
                 "end": 313,
                 "value": "1970-01-01[!foo=bar]",
-                "raw": "\"1970-01-01[!foo=bar]\""
+                "raw": "\"1970-01-01[!foo=bar]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 345,
                 "value": "1970-01-01T00:00[!foo=bar]",
-                "raw": "\"1970-01-01T00:00[!foo=bar]\""
+                "raw": "\"1970-01-01T00:00[!foo=bar]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 382,
                 "value": "1970-01-01T00:00[UTC][!foo=bar]",
-                "raw": "\"1970-01-01T00:00[UTC][!foo=bar]\""
+                "raw": "\"1970-01-01T00:00[UTC][!foo=bar]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 428,
                 "value": "1970-01-01T00:00[u-ca=iso8601][!foo=bar]",
-                "raw": "\"1970-01-01T00:00[u-ca=iso8601][!foo=bar]\""
+                "raw": "\"1970-01-01T00:00[u-ca=iso8601][!foo=bar]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 432,
                 "end": 479,
                 "value": "1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]",
-                "raw": "\"1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]\""
+                "raw": "\"1970-01-01T00:00[UTC][!foo=bar][u-ca=iso8601]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 483,
                 "end": 551,
                 "value": "1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]",
-                "raw": "\"1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]\""
+                "raw": "\"1970-01-01T00:00[foo=bar][!_foo-bar0=Dont-Ignore-This-99999999999]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -235,21 +247,27 @@
                                   "start": 689,
                                   "end": 693,
                                   "value": 1976,
-                                  "raw": "1976"
+                                  "raw": "1976",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 695,
                                   "end": 697,
                                   "value": 11,
-                                  "raw": "11"
+                                  "raw": "11",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 699,
                                   "end": 701,
                                   "value": 18,
-                                  "raw": "18"
+                                  "raw": "18",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -405,21 +423,27 @@
                                   "start": 879,
                                   "end": 883,
                                   "value": 1976,
-                                  "raw": "1976"
+                                  "raw": "1976",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 885,
                                   "end": 887,
                                   "value": 11,
-                                  "raw": "11"
+                                  "raw": "11",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 889,
                                   "end": 891,
                                   "value": 18,
-                                  "raw": "18"
+                                  "raw": "18",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             },

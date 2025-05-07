@@ -147,7 +147,9 @@
                                     "start": 679,
                                     "end": 681,
                                     "value": 42,
-                                    "raw": "42"
+                                    "raw": "42",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -327,7 +329,9 @@
                                           "start": 815,
                                           "end": 816,
                                           "value": 9,
-                                          "raw": "9"
+                                          "raw": "9",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       ],
                                       "optional": false
@@ -509,7 +513,9 @@
                               "start": 949,
                               "end": 950,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -519,7 +525,9 @@
                             "start": 953,
                             "end": 955,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -568,7 +576,9 @@
                               "start": 990,
                               "end": 991,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -578,7 +588,9 @@
                             "start": 994,
                             "end": 995,
                             "value": 9,
-                            "raw": "9"
+                            "raw": "9",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

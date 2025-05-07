@@ -72,7 +72,9 @@
           "start": 675,
           "end": 694,
           "value": "custom-eval-error",
-          "raw": "'custom-eval-error'"
+          "raw": "'custom-eval-error'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -107,7 +109,9 @@
                 "start": 716,
                 "end": 724,
                 "value": "foo 42",
-                "raw": "'foo 42'"
+                "raw": "'foo 42'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -141,7 +145,9 @@
             "start": 749,
             "end": 758,
             "value": "message",
-            "raw": "'message'"
+            "raw": "'message'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -166,7 +172,9 @@
                   "start": 771,
                   "end": 779,
                   "value": "foo 42",
-                  "raw": "'foo 42'"
+                  "raw": "'foo 42'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -188,7 +196,9 @@
                   "start": 793,
                   "end": 797,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -210,7 +220,9 @@
                   "start": 813,
                   "end": 818,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -232,7 +244,9 @@
                   "start": 836,
                   "end": 840,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -330,7 +344,9 @@
                 "start": 906,
                 "end": 915,
                 "value": "message",
-                "raw": "'message'"
+                "raw": "'message'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -340,7 +356,9 @@
             "start": 918,
             "end": 923,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -398,7 +416,9 @@
             "start": 957,
             "end": 976,
             "value": "custom-eval-error",
-            "raw": "'custom-eval-error'"
+            "raw": "'custom-eval-error'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

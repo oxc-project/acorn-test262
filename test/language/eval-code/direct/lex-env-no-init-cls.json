@@ -71,7 +71,9 @@
                         "start": 812,
                         "end": 834,
                         "value": "typeof C; class C {}",
-                        "raw": "'typeof C; class C {}'"
+                        "raw": "'typeof C; class C {}'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

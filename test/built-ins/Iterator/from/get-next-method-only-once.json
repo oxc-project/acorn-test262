@@ -23,7 +23,9 @@
             "start": 386,
             "end": 387,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 405,
             "end": 406,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -177,7 +181,9 @@
                                             "start": 515,
                                             "end": 516,
                                             "value": 1,
-                                            "raw": "1"
+                                            "raw": "1",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         }
                                       ],
@@ -199,7 +205,9 @@
                                         "start": 522,
                                         "end": 523,
                                         "value": 5,
-                                        "raw": "5"
+                                        "raw": "5",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "update": {
@@ -399,14 +407,18 @@
             "start": 718,
             "end": 719,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 721,
             "end": 751,
             "value": "The value of `nextGets` is 0",
-            "raw": "'The value of `nextGets` is 0'"
+            "raw": "'The value of `nextGets` is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -451,14 +463,18 @@
             "start": 782,
             "end": 783,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 785,
             "end": 816,
             "value": "The value of `nextCalls` is 0",
-            "raw": "'The value of `nextCalls` is 0'"
+            "raw": "'The value of `nextCalls` is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -553,14 +569,18 @@
             "start": 884,
             "end": 885,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 887,
             "end": 917,
             "value": "The value of `nextGets` is 1",
-            "raw": "'The value of `nextGets` is 1'"
+            "raw": "'The value of `nextGets` is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -605,14 +625,18 @@
             "start": 948,
             "end": 949,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 951,
             "end": 982,
             "value": "The value of `nextCalls` is 0",
-            "raw": "'The value of `nextCalls` is 0'"
+            "raw": "'The value of `nextCalls` is 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -688,14 +712,18 @@
             "start": 1034,
             "end": 1035,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1037,
             "end": 1067,
             "value": "The value of `nextGets` is 1",
-            "raw": "'The value of `nextGets` is 1'"
+            "raw": "'The value of `nextGets` is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -740,14 +768,18 @@
             "start": 1098,
             "end": 1099,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1101,
             "end": 1132,
             "value": "The value of `nextCalls` is 5",
-            "raw": "'The value of `nextCalls` is 5'"
+            "raw": "'The value of `nextCalls` is 5'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

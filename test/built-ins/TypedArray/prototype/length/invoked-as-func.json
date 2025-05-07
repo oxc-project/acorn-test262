@@ -95,7 +95,9 @@
                   "start": 585,
                   "end": 593,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -32,7 +32,9 @@
         "start": 415,
         "end": 420,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ExpressionStatement",
@@ -54,7 +56,9 @@
             "start": 432,
             "end": 433,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -106,7 +110,9 @@
                   "start": 579,
                   "end": 609,
                   "value": "#1: false evaluates to false",
-                  "raw": "'#1: false evaluates to false'"
+                  "raw": "'#1: false evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -124,7 +130,9 @@
         "start": 705,
         "end": 706,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ExpressionStatement",
@@ -146,7 +154,9 @@
             "start": 718,
             "end": 719,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -198,7 +208,9 @@
                   "start": 865,
                   "end": 891,
                   "value": "#2: 0 evaluates to false",
-                  "raw": "'#2: 0 evaluates to false'"
+                  "raw": "'#2: 0 evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -216,7 +228,9 @@
         "start": 987,
         "end": 989,
         "value": "",
-        "raw": "\"\""
+        "raw": "\"\"",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ExpressionStatement",
@@ -238,7 +252,9 @@
             "start": 1001,
             "end": 1002,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -290,7 +306,9 @@
                   "start": 1148,
                   "end": 1185,
                   "value": "#3: empty string evaluates to false",
-                  "raw": "'#3: empty string evaluates to false'"
+                  "raw": "'#3: empty string evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -308,7 +326,9 @@
         "start": 1281,
         "end": 1285,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "regex": null,
+        "bigint": null
       },
       "body": {
         "type": "ExpressionStatement",
@@ -330,7 +350,9 @@
             "start": 1297,
             "end": 1298,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -382,7 +404,9 @@
                   "start": 1444,
                   "end": 1473,
                   "value": "#4: null evaluates to false",
-                  "raw": "'#4: null evaluates to false'"
+                  "raw": "'#4: null evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -421,7 +445,9 @@
             "start": 1590,
             "end": 1592,
             "value": 35,
-            "raw": "35"
+            "raw": "35",
+            "regex": null,
+            "bigint": null
           }
         }
       }
@@ -473,7 +499,9 @@
                   "start": 1738,
                   "end": 1772,
                   "value": "#5: undefined evaluates to false",
-                  "raw": "'#5: undefined evaluates to false'"
+                  "raw": "'#5: undefined evaluates to false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

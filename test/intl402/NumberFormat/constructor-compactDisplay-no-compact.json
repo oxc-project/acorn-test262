@@ -39,7 +39,9 @@
                     "start": 645,
                     "end": 652,
                     "value": "short",
-                    "raw": "\"short\""
+                    "raw": "\"short\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -53,7 +55,9 @@
                     "start": 658,
                     "end": 665,
                     "value": "short",
-                    "raw": "\"short\""
+                    "raw": "\"short\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -67,7 +71,9 @@
                     "start": 671,
                     "end": 677,
                     "value": "long",
-                    "raw": "\"long\""
+                    "raw": "\"long\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -108,21 +114,27 @@
                 "start": 719,
                 "end": 729,
                 "value": "standard",
-                "raw": "\"standard\""
+                "raw": "\"standard\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 733,
                 "end": 745,
                 "value": "scientific",
-                "raw": "\"scientific\""
+                "raw": "\"scientific\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 749,
                 "end": 762,
                 "value": "engineering",
-                "raw": "\"engineering\""
+                "raw": "\"engineering\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -361,7 +373,9 @@
                                               "start": 971,
                                               "end": 981,
                                               "value": "notation",
-                                              "raw": "\"notation\""
+                                              "raw": "\"notation\"",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           ],
                                           "optional": false
@@ -443,7 +457,9 @@
                                               "start": 1070,
                                               "end": 1086,
                                               "value": "compactDisplay",
-                                              "raw": "\"compactDisplay\""
+                                              "raw": "\"compactDisplay\"",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           ],
                                           "optional": false
@@ -555,7 +571,9 @@
                           "start": 1198,
                           "end": 1214,
                           "value": "compactDisplay",
-                          "raw": "\"compactDisplay\""
+                          "raw": "\"compactDisplay\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "in",
                         "right": {
@@ -570,7 +588,9 @@
                         "start": 1235,
                         "end": 1240,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -677,14 +697,18 @@
                             "start": 1352,
                             "end": 1362,
                             "value": "notation",
-                            "raw": "\"notation\""
+                            "raw": "\"notation\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1370,
                             "end": 1386,
                             "value": "compactDisplay",
-                            "raw": "\"compactDisplay\""
+                            "raw": "\"compactDisplay\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

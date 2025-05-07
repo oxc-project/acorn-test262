@@ -35,14 +35,18 @@
                   "start": 743,
                   "end": 748,
                   "value": "und",
-                  "raw": "\"und\""
+                  "raw": "\"und\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 750,
                   "end": 754,
                   "value": "en",
-                  "raw": "\"en\""
+                  "raw": "\"en\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -58,14 +62,18 @@
                   "start": 760,
                   "end": 770,
                   "value": "und-Thai",
-                  "raw": "\"und-Thai\""
+                  "raw": "\"und-Thai\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 772,
                   "end": 776,
                   "value": "th",
-                  "raw": "\"th\""
+                  "raw": "\"th\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -81,14 +89,18 @@
                   "start": 782,
                   "end": 791,
                   "value": "und-419",
-                  "raw": "\"und-419\""
+                  "raw": "\"und-419\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 793,
                   "end": 801,
                   "value": "es-419",
-                  "raw": "\"es-419\""
+                  "raw": "\"es-419\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -104,14 +116,18 @@
                   "start": 807,
                   "end": 816,
                   "value": "und-150",
-                  "raw": "\"und-150\""
+                  "raw": "\"und-150\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 818,
                   "end": 826,
                   "value": "en-150",
-                  "raw": "\"en-150\""
+                  "raw": "\"en-150\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -127,14 +143,18 @@
                   "start": 832,
                   "end": 840,
                   "value": "und-AT",
-                  "raw": "\"und-AT\""
+                  "raw": "\"und-AT\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 842,
                   "end": 849,
                   "value": "de-AT",
-                  "raw": "\"de-AT\""
+                  "raw": "\"de-AT\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -150,14 +170,18 @@
                   "start": 914,
                   "end": 927,
                   "value": "aae-Latn-IT",
-                  "raw": "\"aae-Latn-IT\""
+                  "raw": "\"aae-Latn-IT\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 929,
                   "end": 934,
                   "value": "aae",
-                  "raw": "\"aae\""
+                  "raw": "\"aae\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -173,14 +197,18 @@
                   "start": 940,
                   "end": 953,
                   "value": "aae-Thai-CO",
-                  "raw": "\"aae-Thai-CO\""
+                  "raw": "\"aae-Thai-CO\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 955,
                   "end": 968,
                   "value": "aae-Thai-CO",
-                  "raw": "\"aae-Thai-CO\""
+                  "raw": "\"aae-Thai-CO\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -196,14 +224,18 @@
                   "start": 1091,
                   "end": 1099,
                   "value": "und-CW",
-                  "raw": "\"und-CW\""
+                  "raw": "\"und-CW\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1101,
                   "end": 1106,
                   "value": "pap",
-                  "raw": "\"pap\""
+                  "raw": "\"pap\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -219,14 +251,18 @@
                   "start": 1112,
                   "end": 1120,
                   "value": "und-US",
-                  "raw": "\"und-US\""
+                  "raw": "\"und-US\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1122,
                   "end": 1126,
                   "value": "en",
-                  "raw": "\"en\""
+                  "raw": "\"en\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -242,14 +278,18 @@
                   "start": 1132,
                   "end": 1141,
                   "value": "zh-Hant",
-                  "raw": "\"zh-Hant\""
+                  "raw": "\"zh-Hant\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1143,
                   "end": 1150,
                   "value": "zh-TW",
-                  "raw": "\"zh-TW\""
+                  "raw": "\"zh-TW\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -265,14 +305,18 @@
                   "start": 1156,
                   "end": 1165,
                   "value": "zh-Hani",
-                  "raw": "\"zh-Hani\""
+                  "raw": "\"zh-Hani\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1167,
                   "end": 1176,
                   "value": "zh-Hani",
-                  "raw": "\"zh-Hani\""
+                  "raw": "\"zh-Hani\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

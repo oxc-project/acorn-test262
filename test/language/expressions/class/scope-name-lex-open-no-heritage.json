@@ -70,7 +70,9 @@
             "start": 925,
             "end": 934,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -196,7 +198,9 @@
                               "start": 1008,
                               "end": 1012,
                               "value": null,
-                              "raw": "null"
+                              "raw": "null",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         }
@@ -257,7 +261,9 @@
             "start": 1054,
             "end": 1063,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -341,7 +347,9 @@
             "start": 1111,
             "end": 1132,
             "value": "inner binding value",
-            "raw": "'inner binding value'"
+            "raw": "'inner binding value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -418,7 +426,9 @@
             "start": 1185,
             "end": 1221,
             "value": "inner binding rejects modification",
-            "raw": "'inner binding rejects modification'"
+            "raw": "'inner binding rejects modification'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -502,7 +512,9 @@
             "start": 1270,
             "end": 1298,
             "value": "inner binding is immutable",
-            "raw": "'inner binding is immutable'"
+            "raw": "'inner binding is immutable'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

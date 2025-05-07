@@ -28,63 +28,81 @@
                 "start": 483,
                 "end": 487,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 492,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 498,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 502,
                 "end": 510,
                 "value": "Lookup",
-                "raw": "\"Lookup\""
+                "raw": "\"Lookup\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 514,
                 "end": 522,
                 "value": "LOOKUP",
-                "raw": "\"LOOKUP\""
+                "raw": "\"LOOKUP\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 526,
                 "end": 536,
                 "value": "lookup\u0000",
-                "raw": "\"lookup\\0\""
+                "raw": "\"lookup\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 550,
                 "value": "Best fit",
-                "raw": "\"Best fit\""
+                "raw": "\"Best fit\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 554,
                 "end": 564,
                 "value": "BEST FIT",
-                "raw": "\"BEST FIT\""
+                "raw": "\"BEST FIT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 568,
                 "end": 583,
                 "value": "best fit",
-                "raw": "\"best\\u00a0fit\""
+                "raw": "\"best\\u00a0fit\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

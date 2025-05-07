@@ -73,7 +73,9 @@
                 "start": 364,
                 "end": 377,
                 "value": "setUTCMonth",
-                "raw": "\"setUTCMonth\""
+                "raw": "\"setUTCMonth\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 382,
             "end": 386,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 453,
             "value": "Date.prototype.hasOwnProperty(\"setUTCMonth\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setUTCMonth\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"setUTCMonth\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

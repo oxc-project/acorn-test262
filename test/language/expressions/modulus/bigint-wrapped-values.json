@@ -52,6 +52,7 @@
                   "end": 353,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -64,6 +65,7 @@
               "end": 359,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -73,6 +75,7 @@
             "end": 363,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -80,7 +83,9 @@
             "start": 365,
             "end": 404,
             "value": "The result of (Object(2n) % 2n) is 0n",
-            "raw": "'The result of (Object(2n) % 2n) is 0n'"
+            "raw": "'The result of (Object(2n) % 2n) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -124,6 +129,7 @@
               "end": 426,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "%",
@@ -144,6 +150,7 @@
                   "end": 438,
                   "value": null,
                   "raw": "2n",
+                  "regex": null,
                   "bigint": "2"
                 }
               ],
@@ -156,6 +163,7 @@
             "end": 443,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -163,7 +171,9 @@
             "start": 445,
             "end": 484,
             "value": "The result of (2n % Object(2n)) is 0n",
-            "raw": "'The result of (2n % Object(2n)) is 0n'"
+            "raw": "'The result of (2n % Object(2n)) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -256,6 +266,7 @@
                             "end": 557,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -273,6 +284,7 @@
               "end": 569,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -282,6 +294,7 @@
             "end": 573,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -289,7 +302,9 @@
             "start": 575,
             "end": 653,
             "value": "The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) % 2n) is 0n",
-            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) % 2n) is 0n'"
+            "raw": "'The result of (({[Symbol.toPrimitive]: function() {return 2n;}}) % 2n) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,6 +348,7 @@
               "end": 676,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "%",
@@ -391,6 +407,7 @@
                             "end": 731,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -408,6 +425,7 @@
             "end": 742,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -415,7 +433,9 @@
             "start": 744,
             "end": 820,
             "value": "The result of (2n % {[Symbol.toPrimitive]: function() {return 2n;}}) is 0n",
-            "raw": "'The result of (2n % {[Symbol.toPrimitive]: function() {return 2n;}}) is 0n'"
+            "raw": "'The result of (2n % {[Symbol.toPrimitive]: function() {return 2n;}}) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,6 +515,7 @@
                             "end": 880,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -512,6 +533,7 @@
               "end": 892,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -521,6 +543,7 @@
             "end": 896,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -528,7 +551,9 @@
             "start": 898,
             "end": 963,
             "value": "The result of (({valueOf: function() {return 2n;}}) % 2n) is 0n",
-            "raw": "'The result of (({valueOf: function() {return 2n;}}) % 2n) is 0n'"
+            "raw": "'The result of (({valueOf: function() {return 2n;}}) % 2n) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -572,6 +597,7 @@
               "end": 986,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "%",
@@ -617,6 +643,7 @@
                             "end": 1028,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -634,6 +661,7 @@
             "end": 1039,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -641,7 +669,9 @@
             "start": 1041,
             "end": 1104,
             "value": "The result of (2n % {valueOf: function() {return 2n;}}) is 0n",
-            "raw": "'The result of (2n % {valueOf: function() {return 2n;}}) is 0n'"
+            "raw": "'The result of (2n % {valueOf: function() {return 2n;}}) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -721,6 +751,7 @@
                             "end": 1165,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -738,6 +769,7 @@
               "end": 1177,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             }
           },
@@ -747,6 +779,7 @@
             "end": 1181,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -754,7 +787,9 @@
             "start": 1183,
             "end": 1249,
             "value": "The result of (({toString: function() {return 2n;}}) % 2n) is 0n",
-            "raw": "'The result of (({toString: function() {return 2n;}}) % 2n) is 0n'"
+            "raw": "'The result of (({toString: function() {return 2n;}}) % 2n) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -798,6 +833,7 @@
               "end": 1272,
               "value": null,
               "raw": "2n",
+              "regex": null,
               "bigint": "2"
             },
             "operator": "%",
@@ -843,6 +879,7 @@
                             "end": 1315,
                             "value": null,
                             "raw": "2n",
+                            "regex": null,
                             "bigint": "2"
                           }
                         }
@@ -860,6 +897,7 @@
             "end": 1326,
             "value": null,
             "raw": "0n",
+            "regex": null,
             "bigint": "0"
           },
           {
@@ -867,7 +905,9 @@
             "start": 1328,
             "end": 1392,
             "value": "The result of (2n % {toString: function() {return 2n;}}) is 0n",
-            "raw": "'The result of (2n % {toString: function() {return 2n;}}) is 0n'"
+            "raw": "'The result of (2n % {toString: function() {return 2n;}}) is 0n'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

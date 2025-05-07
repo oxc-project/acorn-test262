@@ -121,7 +121,9 @@
                               "start": 382,
                               "end": 396,
                               "value": "tag toString",
-                              "raw": "\"tag toString\""
+                              "raw": "\"tag toString\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -136,7 +138,9 @@
                           "start": 406,
                           "end": 410,
                           "value": "en",
-                          "raw": "\"en\""
+                          "raw": "\"en\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -211,7 +215,9 @@
                               "start": 459,
                               "end": 473,
                               "value": "get language",
-                              "raw": "\"get language\""
+                              "raw": "\"get language\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -286,7 +292,9 @@
                                             "start": 533,
                                             "end": 552,
                                             "value": "toString language",
-                                            "raw": "\"toString language\""
+                                            "raw": "\"toString language\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -301,7 +309,9 @@
                                         "start": 572,
                                         "end": 576,
                                         "value": "de",
-                                        "raw": "\"de\""
+                                        "raw": "\"de\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -377,7 +387,9 @@
                               "start": 640,
                               "end": 652,
                               "value": "get script",
-                              "raw": "\"get script\""
+                              "raw": "\"get script\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -452,7 +464,9 @@
                                             "start": 712,
                                             "end": 729,
                                             "value": "toString script",
-                                            "raw": "\"toString script\""
+                                            "raw": "\"toString script\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -467,7 +481,9 @@
                                         "start": 749,
                                         "end": 755,
                                         "value": "Latn",
-                                        "raw": "\"Latn\""
+                                        "raw": "\"Latn\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -543,7 +559,9 @@
                               "start": 819,
                               "end": 831,
                               "value": "get region",
-                              "raw": "\"get region\""
+                              "raw": "\"get region\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -618,7 +636,9 @@
                                             "start": 891,
                                             "end": 908,
                                             "value": "toString region",
-                                            "raw": "\"toString region\""
+                                            "raw": "\"toString region\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -633,7 +653,9 @@
                                         "start": 928,
                                         "end": 932,
                                         "value": "DE",
-                                        "raw": "\"DE\""
+                                        "raw": "\"DE\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -709,7 +731,9 @@
                               "start": 998,
                               "end": 1012,
                               "value": "get calendar",
-                              "raw": "\"get calendar\""
+                              "raw": "\"get calendar\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -784,7 +808,9 @@
                                             "start": 1072,
                                             "end": 1091,
                                             "value": "toString calendar",
-                                            "raw": "\"toString calendar\""
+                                            "raw": "\"toString calendar\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -799,7 +825,9 @@
                                         "start": 1111,
                                         "end": 1120,
                                         "value": "gregory",
-                                        "raw": "\"gregory\""
+                                        "raw": "\"gregory\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -875,7 +903,9 @@
                               "start": 1187,
                               "end": 1202,
                               "value": "get collation",
-                              "raw": "\"get collation\""
+                              "raw": "\"get collation\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -950,7 +980,9 @@
                                             "start": 1262,
                                             "end": 1282,
                                             "value": "toString collation",
-                                            "raw": "\"toString collation\""
+                                            "raw": "\"toString collation\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -965,7 +997,9 @@
                                         "start": 1302,
                                         "end": 1310,
                                         "value": "zhuyin",
-                                        "raw": "\"zhuyin\""
+                                        "raw": "\"zhuyin\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -1041,7 +1075,9 @@
                               "start": 1377,
                               "end": 1392,
                               "value": "get hourCycle",
-                              "raw": "\"get hourCycle\""
+                              "raw": "\"get hourCycle\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1116,7 +1152,9 @@
                                             "start": 1452,
                                             "end": 1472,
                                             "value": "toString hourCycle",
-                                            "raw": "\"toString hourCycle\""
+                                            "raw": "\"toString hourCycle\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -1131,7 +1169,9 @@
                                         "start": 1492,
                                         "end": 1497,
                                         "value": "h24",
-                                        "raw": "\"h24\""
+                                        "raw": "\"h24\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -1207,7 +1247,9 @@
                               "start": 1564,
                               "end": 1579,
                               "value": "get caseFirst",
-                              "raw": "\"get caseFirst\""
+                              "raw": "\"get caseFirst\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1282,7 +1324,9 @@
                                             "start": 1639,
                                             "end": 1659,
                                             "value": "toString caseFirst",
-                                            "raw": "\"toString caseFirst\""
+                                            "raw": "\"toString caseFirst\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -1297,7 +1341,9 @@
                                         "start": 1679,
                                         "end": 1686,
                                         "value": "upper",
-                                        "raw": "\"upper\""
+                                        "raw": "\"upper\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -1373,7 +1419,9 @@
                               "start": 1751,
                               "end": 1764,
                               "value": "get numeric",
-                              "raw": "\"get numeric\""
+                              "raw": "\"get numeric\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1388,7 +1436,9 @@
                           "start": 1780,
                           "end": 1785,
                           "value": false,
-                          "raw": "false"
+                          "raw": "false",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -1456,7 +1506,9 @@
                               "start": 1840,
                               "end": 1861,
                               "value": "get numberingSystem",
-                              "raw": "\"get numberingSystem\""
+                              "raw": "\"get numberingSystem\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -1531,7 +1583,9 @@
                                             "start": 1921,
                                             "end": 1947,
                                             "value": "toString numberingSystem",
-                                            "raw": "\"toString numberingSystem\""
+                                            "raw": "\"toString numberingSystem\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -1546,7 +1600,9 @@
                                         "start": 1967,
                                         "end": 1973,
                                         "value": "latn",
-                                        "raw": "\"latn\""
+                                        "raw": "\"latn\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -1592,126 +1648,162 @@
                 "start": 2035,
                 "end": 2049,
                 "value": "tag toString",
-                "raw": "\"tag toString\""
+                "raw": "\"tag toString\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2053,
                 "end": 2067,
                 "value": "get language",
-                "raw": "\"get language\""
+                "raw": "\"get language\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2071,
                 "end": 2090,
                 "value": "toString language",
-                "raw": "\"toString language\""
+                "raw": "\"toString language\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2094,
                 "end": 2106,
                 "value": "get script",
-                "raw": "\"get script\""
+                "raw": "\"get script\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2110,
                 "end": 2127,
                 "value": "toString script",
-                "raw": "\"toString script\""
+                "raw": "\"toString script\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2131,
                 "end": 2143,
                 "value": "get region",
-                "raw": "\"get region\""
+                "raw": "\"get region\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2147,
                 "end": 2164,
                 "value": "toString region",
-                "raw": "\"toString region\""
+                "raw": "\"toString region\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2168,
                 "end": 2182,
                 "value": "get calendar",
-                "raw": "\"get calendar\""
+                "raw": "\"get calendar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2186,
                 "end": 2205,
                 "value": "toString calendar",
-                "raw": "\"toString calendar\""
+                "raw": "\"toString calendar\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2209,
                 "end": 2224,
                 "value": "get collation",
-                "raw": "\"get collation\""
+                "raw": "\"get collation\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2228,
                 "end": 2248,
                 "value": "toString collation",
-                "raw": "\"toString collation\""
+                "raw": "\"toString collation\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2252,
                 "end": 2267,
                 "value": "get hourCycle",
-                "raw": "\"get hourCycle\""
+                "raw": "\"get hourCycle\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2271,
                 "end": 2291,
                 "value": "toString hourCycle",
-                "raw": "\"toString hourCycle\""
+                "raw": "\"toString hourCycle\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2295,
                 "end": 2310,
                 "value": "get caseFirst",
-                "raw": "\"get caseFirst\""
+                "raw": "\"get caseFirst\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2314,
                 "end": 2334,
                 "value": "toString caseFirst",
-                "raw": "\"toString caseFirst\""
+                "raw": "\"toString caseFirst\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2338,
                 "end": 2351,
                 "value": "get numeric",
-                "raw": "\"get numeric\""
+                "raw": "\"get numeric\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2355,
                 "end": 2376,
                 "value": "get numberingSystem",
-                "raw": "\"get numberingSystem\""
+                "raw": "\"get numberingSystem\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2380,
                 "end": 2406,
                 "value": "toString numberingSystem",
-                "raw": "\"toString numberingSystem\""
+                "raw": "\"toString numberingSystem\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

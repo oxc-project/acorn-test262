@@ -39,7 +39,9 @@
                     "start": 586,
                     "end": 592,
                     "value": "auto",
-                    "raw": "\"auto\""
+                    "raw": "\"auto\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -53,7 +55,9 @@
                     "start": 598,
                     "end": 604,
                     "value": "auto",
-                    "raw": "\"auto\""
+                    "raw": "\"auto\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -67,7 +71,9 @@
                     "start": 610,
                     "end": 617,
                     "value": "never",
-                    "raw": "\"never\""
+                    "raw": "\"never\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -81,7 +87,9 @@
                     "start": 623,
                     "end": 631,
                     "value": "always",
-                    "raw": "\"always\""
+                    "raw": "\"always\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -95,7 +103,9 @@
                     "start": 637,
                     "end": 649,
                     "value": "exceptZero",
-                    "raw": "\"exceptZero\""
+                    "raw": "\"exceptZero\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -326,7 +336,9 @@
                     "start": 844,
                     "end": 857,
                     "value": "signDisplay",
-                    "raw": "\"signDisplay\""
+                    "raw": "\"signDisplay\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "in",
                   "right": {
@@ -341,7 +353,9 @@
                   "start": 878,
                   "end": 882,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

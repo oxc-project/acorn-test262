@@ -23,7 +23,9 @@
             "start": 283,
             "end": 304,
             "value": "\ta bc \t",
-            "raw": "\"\\u0009a b\\\nc \\u0009\""
+            "raw": "\"\\u0009a b\\\nc \\u0009\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -88,14 +90,18 @@
             "start": 335,
             "end": 341,
             "value": "a bc",
-            "raw": "\"a bc\""
+            "raw": "\"a bc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 343,
             "end": 353,
             "value": "s.trim()",
-            "raw": "'s.trim()'"
+            "raw": "'s.trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -44,7 +44,9 @@
                 "start": 712,
                 "end": 720,
                 "value": "İ",
-                "raw": "\"\\u0130\""
+                "raw": "\"\\u0130\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +63,9 @@
                 "start": 739,
                 "end": 743,
                 "value": "az",
-                "raw": "\"az\""
+                "raw": "\"az\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -71,14 +75,18 @@
             "start": 748,
             "end": 756,
             "value": "İ",
-            "raw": "\"\\u0130\""
+            "raw": "\"\\u0130\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 760,
             "end": 799,
             "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -125,7 +133,9 @@
                 "start": 881,
                 "end": 884,
                 "value": "I",
-                "raw": "\"I\""
+                "raw": "\"I\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -142,7 +152,9 @@
                 "start": 903,
                 "end": 907,
                 "value": "az",
-                "raw": "\"az\""
+                "raw": "\"az\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -152,14 +164,18 @@
             "start": 912,
             "end": 915,
             "value": "I",
-            "raw": "\"I\""
+            "raw": "\"I\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 919,
             "end": 943,
             "value": "LATIN CAPITAL LETTER I",
-            "raw": "\"LATIN CAPITAL LETTER I\""
+            "raw": "\"LATIN CAPITAL LETTER I\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,7 +222,9 @@
                 "start": 1069,
                 "end": 1072,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -223,7 +241,9 @@
                 "start": 1091,
                 "end": 1095,
                 "value": "az",
-                "raw": "\"az\""
+                "raw": "\"az\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -233,14 +253,18 @@
             "start": 1100,
             "end": 1108,
             "value": "İ",
-            "raw": "\"\\u0130\""
+            "raw": "\"\\u0130\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1112,
             "end": 1134,
             "value": "LATIN SMALL LETTER I",
-            "raw": "\"LATIN SMALL LETTER I\""
+            "raw": "\"LATIN SMALL LETTER I\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +311,9 @@
                 "start": 1253,
                 "end": 1261,
                 "value": "ı",
-                "raw": "\"\\u0131\""
+                "raw": "\"\\u0131\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -304,7 +330,9 @@
                 "start": 1280,
                 "end": 1284,
                 "value": "az",
-                "raw": "\"az\""
+                "raw": "\"az\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -314,14 +342,18 @@
             "start": 1289,
             "end": 1292,
             "value": "I",
-            "raw": "\"I\""
+            "raw": "\"I\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1296,
             "end": 1326,
             "value": "LATIN SMALL LETTER DOTLESS I",
-            "raw": "\"LATIN SMALL LETTER DOTLESS I\""
+            "raw": "\"LATIN SMALL LETTER DOTLESS I\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

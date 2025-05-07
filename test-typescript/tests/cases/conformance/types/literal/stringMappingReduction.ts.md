@@ -33,7 +33,9 @@ __ESTREE_TEST__:PASS:
               "start": 11,
               "end": 17,
               "raw": "\"prop\"",
-              "value": "prop"
+              "value": "prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -123,7 +125,9 @@ __ESTREE_TEST__:PASS:
               "start": 86,
               "end": 92,
               "raw": "\"prop\"",
-              "value": "prop"
+              "value": "prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -184,7 +188,9 @@ __ESTREE_TEST__:PASS:
               "start": 147,
               "end": 153,
               "raw": "\"PROP\"",
-              "value": "PROP"
+              "value": "PROP",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -245,7 +251,9 @@ __ESTREE_TEST__:PASS:
               "start": 218,
               "end": 224,
               "raw": "\"prop\"",
-              "value": "prop"
+              "value": "prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -335,7 +343,9 @@ __ESTREE_TEST__:PASS:
               "start": 275,
               "end": 281,
               "raw": "\"prop\"",
-              "value": "prop"
+              "value": "prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -396,7 +406,9 @@ __ESTREE_TEST__:PASS:
               "start": 325,
               "end": 331,
               "raw": "\"PROP\"",
-              "value": "PROP"
+              "value": "PROP",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -457,7 +469,9 @@ __ESTREE_TEST__:PASS:
               "start": 375,
               "end": 381,
               "raw": "\"prop\"",
-              "value": "prop"
+              "value": "prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -518,7 +532,9 @@ __ESTREE_TEST__:PASS:
               "start": 447,
               "end": 453,
               "raw": "\"Prop\"",
-              "value": "Prop"
+              "value": "Prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -579,7 +595,9 @@ __ESTREE_TEST__:PASS:
               "start": 510,
               "end": 516,
               "raw": "\"PROP\"",
-              "value": "PROP"
+              "value": "PROP",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -640,7 +658,9 @@ __ESTREE_TEST__:PASS:
               "start": 574,
               "end": 580,
               "raw": "\"prop\"",
-              "value": "prop"
+              "value": "prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -701,7 +721,9 @@ __ESTREE_TEST__:PASS:
               "start": 624,
               "end": 630,
               "raw": "\"Prop\"",
-              "value": "Prop"
+              "value": "Prop",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -762,7 +784,9 @@ __ESTREE_TEST__:PASS:
               "start": 675,
               "end": 681,
               "raw": "\"PROP\"",
-              "value": "PROP"
+              "value": "PROP",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -942,7 +966,9 @@ __ESTREE_TEST__:PASS:
             "start": 838,
             "end": 858,
             "raw": "\"unrecognised event\"",
-            "value": "unrecognised event"
+            "value": "unrecognised event",
+            "regex": null,
+            "bigint": null
           }
         },
         "trueType": {
@@ -1035,7 +1061,9 @@ __ESTREE_TEST__:PASS:
             "start": 959,
             "end": 975,
             "raw": "'bivarianceHack'",
-            "value": "bivarianceHack"
+            "value": "bivarianceHack",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {

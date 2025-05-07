@@ -23,7 +23,9 @@
             "start": 682,
             "end": 683,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -206,7 +208,9 @@
                                   "start": 837,
                                   "end": 838,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "computed": true,
                                 "optional": false
@@ -227,7 +231,9 @@
                                   "start": 847,
                                   "end": 848,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "computed": true,
                                 "optional": false
@@ -302,7 +308,9 @@
                       "start": 896,
                       "end": 900,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -389,14 +397,18 @@
                 "start": 950,
                 "end": 951,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 953,
                 "end": 954,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -444,14 +456,18 @@
             "start": 982,
             "end": 983,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 985,
             "end": 1026,
             "value": "apply is null: [[Call]] is invoked once",
-            "raw": "\"apply is null: [[Call]] is invoked once\""
+            "raw": "\"apply is null: [[Call]] is invoked once\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -502,7 +518,9 @@
             "start": 1065,
             "end": 1111,
             "value": "apply is null: context is passed to [[Call]]",
-            "raw": "\"apply is null: context is passed to [[Call]]\""
+            "raw": "\"apply is null: context is passed to [[Call]]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -547,14 +565,18 @@
             "start": 1136,
             "end": 1137,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1139,
             "end": 1186,
             "value": "apply is null: result of [[Call]] is returned",
-            "raw": "\"apply is null: result of [[Call]] is returned\""
+            "raw": "\"apply is null: result of [[Call]] is returned\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

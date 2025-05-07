@@ -29,7 +29,9 @@
             "start": 366,
             "end": 377,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -103,7 +105,9 @@
                   "start": 433,
                   "end": 438,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -253,7 +257,9 @@
                 "start": 574,
                 "end": 585,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -285,7 +291,9 @@
                   "start": 616,
                   "end": 684,
                   "value": "#2: the Function.prototype property has the attributes DontDelete.",
-                  "raw": "'#2: the Function.prototype property has the attributes DontDelete.'"
+                  "raw": "'#2: the Function.prototype property has the attributes DontDelete.'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

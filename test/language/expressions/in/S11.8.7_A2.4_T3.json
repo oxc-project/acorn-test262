@@ -52,7 +52,9 @@
                         "start": 332,
                         "end": 343,
                         "value": "MAX_VALUE",
-                        "raw": "\"MAX_VALUE\""
+                        "raw": "\"MAX_VALUE\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     {
@@ -90,7 +92,9 @@
                     "start": 379,
                     "end": 464,
                     "value": "#1.1: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -133,7 +137,9 @@
                                 "start": 494,
                                 "end": 505,
                                 "value": "MAX_VALUE",
-                                "raw": "\"MAX_VALUE\""
+                                "raw": "\"MAX_VALUE\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             {
@@ -205,7 +211,9 @@
                   "start": 574,
                   "end": 578,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -237,7 +245,9 @@
                             "start": 609,
                             "end": 694,
                             "value": "#1.2: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

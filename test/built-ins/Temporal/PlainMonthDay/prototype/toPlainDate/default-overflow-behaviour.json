@@ -47,14 +47,18 @@
                 "start": 368,
                 "end": 369,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 373,
                 "value": 29,
-                "raw": "29"
+                "raw": "29",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -124,7 +128,9 @@
                       "start": 419,
                       "end": 423,
                       "value": 2023,
-                      "raw": "2023"
+                      "raw": "2023",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -176,35 +182,45 @@
             "start": 527,
             "end": 531,
             "value": 2023,
-            "raw": "2023"
+            "raw": "2023",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 534,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 536,
             "end": 541,
             "value": "M02",
-            "raw": "\"M02\""
+            "raw": "\"M02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 543,
             "end": 545,
             "value": 28,
-            "raw": "28"
+            "raw": "28",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 547,
             "end": 574,
             "value": "2023 + 02-29 = 2023-02-28",
-            "raw": "\"2023 + 02-29 = 2023-02-28\""
+            "raw": "\"2023 + 02-29 = 2023-02-28\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

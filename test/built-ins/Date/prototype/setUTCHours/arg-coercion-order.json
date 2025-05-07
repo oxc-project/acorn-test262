@@ -146,7 +146,9 @@
                               "start": 977,
                               "end": 991,
                               "value": "valueOf hour",
-                              "raw": "'valueOf hour'"
+                              "raw": "'valueOf hour'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -161,7 +163,9 @@
                           "start": 1005,
                           "end": 1006,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -255,7 +259,9 @@
                               "start": 1071,
                               "end": 1084,
                               "value": "valueOf min",
-                              "raw": "'valueOf min'"
+                              "raw": "'valueOf min'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -270,7 +276,9 @@
                           "start": 1098,
                           "end": 1099,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -364,7 +372,9 @@
                               "start": 1164,
                               "end": 1177,
                               "value": "valueOf sec",
-                              "raw": "'valueOf sec'"
+                              "raw": "'valueOf sec'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -379,7 +389,9 @@
                           "start": 1191,
                           "end": 1192,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -473,7 +485,9 @@
                               "start": 1256,
                               "end": 1268,
                               "value": "valueOf ms",
-                              "raw": "'valueOf ms'"
+                              "raw": "'valueOf ms'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -488,7 +502,9 @@
                           "start": 1282,
                           "end": 1283,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -597,28 +613,36 @@
                 "start": 1385,
                 "end": 1399,
                 "value": "valueOf hour",
-                "raw": "'valueOf hour'"
+                "raw": "'valueOf hour'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1401,
                 "end": 1414,
                 "value": "valueOf min",
-                "raw": "'valueOf min'"
+                "raw": "'valueOf min'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1416,
                 "end": 1429,
                 "value": "valueOf sec",
-                "raw": "'valueOf sec'"
+                "raw": "'valueOf sec'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1431,
                 "end": 1443,
                 "value": "valueOf ms",
-                "raw": "'valueOf ms'"
+                "raw": "'valueOf ms'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -715,7 +739,9 @@
             "start": 1529,
             "end": 1581,
             "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "raw": "'argument is ignored when `this` is an invalid date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -786,7 +812,9 @@
             "start": 1622,
             "end": 1674,
             "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "raw": "'argument is ignored when `this` is an invalid date'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

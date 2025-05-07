@@ -123,7 +123,9 @@
             "start": 971,
             "end": 977,
             "value": "done",
-            "raw": "'done'"
+            "raw": "'done'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -218,7 +220,9 @@
             "start": 1062,
             "end": 1069,
             "value": "value",
-            "raw": "'value'"
+            "raw": "'value'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -272,7 +276,9 @@
                               "start": 1120,
                               "end": 1166,
                               "value": "The `value` property should not be accessed.",
-                              "raw": "'The `value` property should not be accessed.'"
+                              "raw": "'The `value` property should not be accessed.'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -500,7 +506,9 @@
                             "start": 1356,
                             "end": 1389,
                             "value": "The promise should be rejected.",
-                            "raw": "'The promise should be rejected.'"
+                            "raw": "'The promise should be rejected.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

@@ -44,7 +44,8 @@
               "regex": {
                 "pattern": "᠎",
                 "flags": ""
-              }
+              },
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -60,7 +61,9 @@
             "start": 994,
             "end": 1002,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

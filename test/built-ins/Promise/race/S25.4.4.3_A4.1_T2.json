@@ -213,7 +213,9 @@
                                             "start": 430,
                                             "end": 437,
                                             "value": "value",
-                                            "raw": "'value'"
+                                            "raw": "'value'",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "ObjectExpression",
@@ -267,7 +269,9 @@
                                                               "start": 497,
                                                               "end": 516,
                                                               "value": "abrupt completion",
-                                                              "raw": "\"abrupt completion\""
+                                                              "raw": "\"abrupt completion\"",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             }
                                                           ]
                                                         }
@@ -410,7 +414,9 @@
                             "start": 653,
                             "end": 734,
                             "value": "Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError",
-                            "raw": "'Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError'"
+                            "raw": "'Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -496,7 +502,9 @@
                             "start": 795,
                             "end": 861,
                             "value": "The value of !!(err instanceof TypeError) is expected to be true",
-                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'"
+                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

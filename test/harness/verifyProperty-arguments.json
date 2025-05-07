@@ -77,7 +77,9 @@
             "start": 323,
             "end": 336,
             "value": "0 arguments",
-            "raw": "\"0 arguments\""
+            "raw": "\"0 arguments\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -164,7 +166,9 @@
             "start": 405,
             "end": 417,
             "value": "1 argument",
-            "raw": "\"1 argument\""
+            "raw": "\"1 argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +248,9 @@
                         "start": 482,
                         "end": 487,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -258,7 +264,9 @@
             "start": 493,
             "end": 506,
             "value": "2 arguments",
-            "raw": "\"2 arguments\""
+            "raw": "\"2 arguments\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -126,7 +126,9 @@
                             "start": 628,
                             "end": 629,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },

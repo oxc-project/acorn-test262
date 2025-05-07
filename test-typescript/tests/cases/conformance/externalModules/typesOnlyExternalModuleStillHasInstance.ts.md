@@ -236,7 +236,9 @@ __ESTREE_TEST__:PASS:
           "start": 22,
           "end": 31,
           "raw": "'./foo_0'",
-          "value": "./foo_0"
+          "value": "./foo_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

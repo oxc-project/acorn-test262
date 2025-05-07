@@ -36,7 +36,9 @@
               "start": 1775,
               "end": 1777,
               "value": 44,
-              "raw": "44"
+              "raw": "44",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -86,7 +88,9 @@
                           "start": 1821,
                           "end": 1830,
                           "value": "this.#m",
-                          "raw": "\"this.#m\""
+                          "raw": "\"this.#m\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -132,7 +136,9 @@
               "start": 1864,
               "end": 1866,
               "value": 44,
-              "raw": "44"
+              "raw": "44",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -197,7 +203,9 @@
             "start": 1905,
             "end": 1907,
             "value": 44,
-            "raw": "44"
+            "raw": "44",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -310,7 +318,9 @@
             "start": 1977,
             "end": 2012,
             "value": "invalid access to a private field",
-            "raw": "\"invalid access to a private field\""
+            "raw": "\"invalid access to a private field\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

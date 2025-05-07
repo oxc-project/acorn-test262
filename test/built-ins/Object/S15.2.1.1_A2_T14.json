@@ -38,7 +38,9 @@
                   "start": 450,
                   "end": 452,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -46,7 +48,9 @@
                   "start": 455,
                   "end": 456,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -114,7 +118,9 @@
             "start": 502,
             "end": 573,
             "value": "The value of obj.constructor is expected to equal the value of String",
-            "raw": "'The value of obj.constructor is expected to equal the value of String'"
+            "raw": "'The value of obj.constructor is expected to equal the value of String'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -166,14 +172,18 @@
             "start": 605,
             "end": 613,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 669,
             "value": "The value of `typeof obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,7 +220,9 @@
               "start": 686,
               "end": 689,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -218,7 +230,9 @@
             "start": 691,
             "end": 753,
             "value": "The result of evaluating (obj == \"1\") is expected to be true",
-            "raw": "'The result of evaluating (obj == \"1\") is expected to be true'"
+            "raw": "'The result of evaluating (obj == \"1\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -263,14 +277,18 @@
             "start": 781,
             "end": 784,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 815,
             "value": "The value of obj is not \"1\"",
-            "raw": "'The value of obj is not \"1\"'"
+            "raw": "'The value of obj is not \"1\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

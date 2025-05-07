@@ -75,7 +75,9 @@
             "start": 949,
             "end": 959,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +103,9 @@
             "start": 985,
             "end": 993,
             "value": "�",
-            "raw": "'\\uFFFD'"
+            "raw": "'\\uFFFD'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -127,7 +131,9 @@
             "start": 1012,
             "end": 1020,
             "value": "\ud83d",
-            "raw": "'\\uD83D'"
+            "raw": "'\\uD83D'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -153,7 +159,9 @@
             "start": 1040,
             "end": 1048,
             "value": "\udca9",
-            "raw": "'\\uDCA9'"
+            "raw": "'\\uDCA9'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -257,7 +265,9 @@
                           "start": 1113,
                           "end": 1116,
                           "value": "a",
-                          "raw": "'a'"
+                          "raw": "'a'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -273,7 +283,9 @@
                         "start": 1132,
                         "end": 1135,
                         "value": "c",
-                        "raw": "'c'"
+                        "raw": "'c'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -290,7 +302,9 @@
                     "start": 1151,
                     "end": 1154,
                     "value": "e",
-                    "raw": "'e'"
+                    "raw": "'e'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -327,7 +341,9 @@
                     "start": 1174,
                     "end": 1177,
                     "value": "a",
-                    "raw": "'a'"
+                    "raw": "'a'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -343,7 +359,9 @@
                   "start": 1198,
                   "end": 1201,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -360,7 +378,9 @@
               "start": 1222,
               "end": 1225,
               "value": "e",
-              "raw": "'e'"
+              "raw": "'e'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -368,7 +388,9 @@
             "start": 1229,
             "end": 1307,
             "value": "lone leading surrogates are replaced with the expected replacement character",
-            "raw": "'lone leading surrogates are replaced with the expected replacement character'"
+            "raw": "'lone leading surrogates are replaced with the expected replacement character'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -435,7 +457,9 @@
                           "start": 1332,
                           "end": 1335,
                           "value": "a",
-                          "raw": "'a'"
+                          "raw": "'a'",
+                          "regex": null,
+                          "bigint": null
                         },
                         "operator": "+",
                         "right": {
@@ -451,7 +475,9 @@
                         "start": 1352,
                         "end": 1355,
                         "value": "c",
-                        "raw": "'c'"
+                        "raw": "'c'",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "operator": "+",
@@ -468,7 +494,9 @@
                     "start": 1372,
                     "end": 1375,
                     "value": "e",
-                    "raw": "'e'"
+                    "raw": "'e'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -505,7 +533,9 @@
                     "start": 1395,
                     "end": 1398,
                     "value": "a",
-                    "raw": "'a'"
+                    "raw": "'a'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -521,7 +551,9 @@
                   "start": 1419,
                   "end": 1422,
                   "value": "c",
-                  "raw": "'c'"
+                  "raw": "'c'",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "+",
@@ -538,7 +570,9 @@
               "start": 1443,
               "end": 1446,
               "value": "e",
-              "raw": "'e'"
+              "raw": "'e'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -546,7 +580,9 @@
             "start": 1450,
             "end": 1529,
             "value": "lone trailing surrogates are replaced with the expected replacement character",
-            "raw": "'lone trailing surrogates are replaced with the expected replacement character'"
+            "raw": "'lone trailing surrogates are replaced with the expected replacement character'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -609,7 +645,9 @@
                         "start": 1554,
                         "end": 1557,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -633,7 +671,9 @@
                     "start": 1587,
                     "end": 1590,
                     "value": "d",
-                    "raw": "'d'"
+                    "raw": "'d'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -666,7 +706,9 @@
                   "start": 1610,
                   "end": 1613,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "+",
                 "right": {
@@ -690,7 +732,9 @@
               "start": 1652,
               "end": 1655,
               "value": "d",
-              "raw": "'d'"
+              "raw": "'d'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -698,7 +742,9 @@
             "start": 1659,
             "end": 1735,
             "value": "a wrong-ordered surrogate pair is replaced with two replacement characters",
-            "raw": "'a wrong-ordered surrogate pair is replaced with two replacement characters'"
+            "raw": "'a wrong-ordered surrogate pair is replaced with two replacement characters'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -745,7 +791,9 @@
                 "start": 1756,
                 "end": 1762,
                 "value": "a💩c",
-                "raw": "'a💩c'"
+                "raw": "'a💩c'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -764,14 +812,18 @@
             "start": 1779,
             "end": 1785,
             "value": "a💩c",
-            "raw": "'a💩c'"
+            "raw": "'a💩c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1787,
             "end": 1855,
             "value": "a surrogate pair using a literal code point is already well-formed",
-            "raw": "'a surrogate pair using a literal code point is already well-formed'"
+            "raw": "'a surrogate pair using a literal code point is already well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -818,7 +870,9 @@
                 "start": 1875,
                 "end": 1891,
                 "value": "a💩c",
-                "raw": "'a\\uD83D\\uDCA9c'"
+                "raw": "'a\\uD83D\\uDCA9c'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -837,14 +891,18 @@
             "start": 1908,
             "end": 1924,
             "value": "a💩c",
-            "raw": "'a\\uD83D\\uDCA9c'"
+            "raw": "'a\\uD83D\\uDCA9c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1926,
             "end": 1994,
             "value": "a surrogate pair formed by escape sequences is already well-formed",
-            "raw": "'a surrogate pair formed by escape sequences is already well-formed'"
+            "raw": "'a surrogate pair formed by escape sequences is already well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -907,7 +965,9 @@
                         "start": 2015,
                         "end": 2018,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -931,7 +991,9 @@
                     "start": 2048,
                     "end": 2051,
                     "value": "d",
-                    "raw": "'d'"
+                    "raw": "'d'",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -960,7 +1022,9 @@
                 "start": 2069,
                 "end": 2072,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "+",
               "right": {
@@ -976,7 +1040,9 @@
               "start": 2086,
               "end": 2089,
               "value": "d",
-              "raw": "'d'"
+              "raw": "'d'",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -984,7 +1050,9 @@
             "start": 2091,
             "end": 2156,
             "value": "a surrogate pair formed by concatenation is already well-formed",
-            "raw": "'a surrogate pair formed by concatenation is already well-formed'"
+            "raw": "'a surrogate pair formed by concatenation is already well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1055,14 +1123,18 @@
                     "start": 2191,
                     "end": 2192,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 2194,
                     "end": 2195,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1090,7 +1162,9 @@
             "start": 2230,
             "end": 2332,
             "value": "a surrogate pair sliced to the leading surrogate is replaced with the expected replacement character",
-            "raw": "'a surrogate pair sliced to the leading surrogate is replaced with the expected replacement character'"
+            "raw": "'a surrogate pair sliced to the leading surrogate is replaced with the expected replacement character'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1161,7 +1235,9 @@
                     "start": 2367,
                     "end": 2368,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1189,7 +1265,9 @@
             "start": 2403,
             "end": 2506,
             "value": "a surrogate pair sliced to the trailing surrogate is replaced with the expected replacement character",
-            "raw": "'a surrogate pair sliced to the trailing surrogate is replaced with the expected replacement character'"
+            "raw": "'a surrogate pair sliced to the trailing surrogate is replaced with the expected replacement character'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1236,7 +1314,9 @@
                 "start": 2526,
                 "end": 2531,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1255,14 +1335,18 @@
             "start": 2548,
             "end": 2553,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2555,
             "end": 2596,
             "value": "a latin-1 string is already well-formed",
-            "raw": "'a latin-1 string is already well-formed'"
+            "raw": "'a latin-1 string is already well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1309,7 +1393,9 @@
                 "start": 2616,
                 "end": 2626,
                 "value": "a▨c",
-                "raw": "'a\\u25A8c'"
+                "raw": "'a\\u25A8c'",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1328,14 +1414,18 @@
             "start": 2643,
             "end": 2653,
             "value": "a▨c",
-            "raw": "'a\\u25A8c'"
+            "raw": "'a\\u25A8c'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 2655,
             "end": 2715,
             "value": "a string with a non-ASCII character is already well-formed",
-            "raw": "'a string with a non-ASCII character is already well-formed'"
+            "raw": "'a string with a non-ASCII character is already well-formed'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

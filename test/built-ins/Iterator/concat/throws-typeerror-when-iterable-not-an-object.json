@@ -97,7 +97,9 @@
             "start": 534,
             "end": 557,
             "value": "iterable is undefined",
-            "raw": "\"iterable is undefined\""
+            "raw": "\"iterable is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,7 +186,9 @@
                         "start": 617,
                         "end": 621,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -198,7 +202,9 @@
             "start": 627,
             "end": 645,
             "value": "iterable is null",
-            "raw": "\"iterable is null\""
+            "raw": "\"iterable is null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -285,7 +291,9 @@
                         "start": 705,
                         "end": 709,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -299,7 +307,9 @@
             "start": 715,
             "end": 736,
             "value": "iterable is boolean",
-            "raw": "\"iterable is boolean\""
+            "raw": "\"iterable is boolean\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -386,7 +396,9 @@
                         "start": 796,
                         "end": 799,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -400,7 +412,9 @@
             "start": 805,
             "end": 825,
             "value": "iterable is number",
-            "raw": "\"iterable is number\""
+            "raw": "\"iterable is number\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -488,6 +502,7 @@
                         "end": 889,
                         "value": null,
                         "raw": "123n",
+                        "regex": null,
                         "bigint": "123"
                       }
                     ],
@@ -502,7 +517,9 @@
             "start": 895,
             "end": 915,
             "value": "iterable is bigint",
-            "raw": "\"iterable is bigint\""
+            "raw": "\"iterable is bigint\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,7 +606,9 @@
                         "start": 975,
                         "end": 981,
                         "value": "test",
-                        "raw": "\"test\""
+                        "raw": "\"test\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -603,7 +622,9 @@
             "start": 987,
             "end": 1007,
             "value": "iterable is string",
-            "raw": "\"iterable is string\""
+            "raw": "\"iterable is string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -710,7 +731,9 @@
             "start": 1081,
             "end": 1101,
             "value": "iterable is symbol",
-            "raw": "\"iterable is symbol\""
+            "raw": "\"iterable is symbol\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

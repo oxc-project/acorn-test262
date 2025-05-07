@@ -115,7 +115,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 47,
         "raw": "\"exports-and-types-versions/foo\"",
-        "value": "exports-and-types-versions/foo"
+        "value": "exports-and-types-versions/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "start": 64,
         "end": 97,
         "raw": "\"exports-and-types-versions/nope\"",
-        "value": "exports-and-types-versions/nope"
+        "value": "exports-and-types-versions/nope",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -145,7 +149,9 @@ __ESTREE_TEST__:PASS:
         "start": 114,
         "end": 146,
         "raw": "\"exports-and-types-versions/yep\"",
-        "value": "exports-and-types-versions/yep"
+        "value": "exports-and-types-versions/yep",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -160,7 +166,9 @@ __ESTREE_TEST__:PASS:
         "start": 163,
         "end": 205,
         "raw": "\"exports-and-types-versions/versioned-yep\"",
-        "value": "exports-and-types-versions/versioned-yep"
+        "value": "exports-and-types-versions/versioned-yep",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -175,7 +183,9 @@ __ESTREE_TEST__:PASS:
         "start": 222,
         "end": 264,
         "raw": "\"exports-and-types-versions/versioned-nah\"",
-        "value": "exports-and-types-versions/versioned-nah"
+        "value": "exports-and-types-versions/versioned-nah",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -190,7 +200,9 @@ __ESTREE_TEST__:PASS:
         "start": 281,
         "end": 306,
         "raw": "\"just-types-versions/foo\"",
-        "value": "just-types-versions/foo"
+        "value": "just-types-versions/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -217,7 +229,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 47,
         "raw": "\"exports-and-types-versions/foo\"",
-        "value": "exports-and-types-versions/foo"
+        "value": "exports-and-types-versions/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -232,7 +246,9 @@ __ESTREE_TEST__:PASS:
         "start": 64,
         "end": 97,
         "raw": "\"exports-and-types-versions/nope\"",
-        "value": "exports-and-types-versions/nope"
+        "value": "exports-and-types-versions/nope",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -247,7 +263,9 @@ __ESTREE_TEST__:PASS:
         "start": 114,
         "end": 146,
         "raw": "\"exports-and-types-versions/yep\"",
-        "value": "exports-and-types-versions/yep"
+        "value": "exports-and-types-versions/yep",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -262,7 +280,9 @@ __ESTREE_TEST__:PASS:
         "start": 163,
         "end": 205,
         "raw": "\"exports-and-types-versions/versioned-yep\"",
-        "value": "exports-and-types-versions/versioned-yep"
+        "value": "exports-and-types-versions/versioned-yep",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -277,7 +297,9 @@ __ESTREE_TEST__:PASS:
         "start": 222,
         "end": 264,
         "raw": "\"exports-and-types-versions/versioned-nah\"",
-        "value": "exports-and-types-versions/versioned-nah"
+        "value": "exports-and-types-versions/versioned-nah",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -292,7 +314,9 @@ __ESTREE_TEST__:PASS:
         "start": 281,
         "end": 306,
         "raw": "\"just-types-versions/foo\"",
-        "value": "just-types-versions/foo"
+        "value": "just-types-versions/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

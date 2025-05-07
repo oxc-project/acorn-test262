@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 29,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,
@@ -97,7 +99,9 @@ __ESTREE_TEST__:PASS:
               "start": 63,
               "end": 67,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
@@ -129,7 +133,9 @@ __ESTREE_TEST__:PASS:
               "start": 133,
               "end": 137,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]

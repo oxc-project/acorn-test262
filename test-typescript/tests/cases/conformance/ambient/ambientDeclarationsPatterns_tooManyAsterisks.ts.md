@@ -23,7 +23,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 35,
         "raw": "\"too*many*asterisks\"",
-        "value": "too*many*asterisks"
+        "value": "too*many*asterisks",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

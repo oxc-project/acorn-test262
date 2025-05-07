@@ -27,7 +27,9 @@
               "start": 601,
               "end": 602,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 609,
           "end": 610,
           "value": 9,
-          "raw": "9"
+          "raw": "9",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -94,7 +98,9 @@
                     "start": 638,
                     "end": 641,
                     "value": "$",
-                    "raw": "\"$\""
+                    "raw": "\"$\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -225,7 +231,9 @@
                   "start": 857,
                   "end": 867,
                   "value": "function",
-                  "raw": "\"function\""
+                  "raw": "\"function\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -243,7 +251,9 @@
                     "start": 880,
                     "end": 889,
                     "value": " getter",
-                    "raw": "\" getter\""
+                    "raw": "\" getter\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -345,7 +355,9 @@
                       "start": 1043,
                       "end": 1052,
                       "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "raw": "\"RegExp.\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -361,7 +373,9 @@
                     "start": 1066,
                     "end": 1115,
                     "value": " getter throws for property descriptor receiver",
-                    "raw": "\" getter throws for property descriptor receiver\""
+                    "raw": "\" getter throws for property descriptor receiver\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -466,7 +480,8 @@
                               "regex": {
                                 "pattern": " ",
                                 "flags": ""
-                              }
+                              },
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -488,7 +503,9 @@
                       "start": 1209,
                       "end": 1218,
                       "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "raw": "\"RegExp.\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -504,7 +521,9 @@
                     "start": 1232,
                     "end": 1277,
                     "value": " getter throws for RegExp instance receiver",
-                    "raw": "\" getter throws for RegExp instance receiver\""
+                    "raw": "\" getter throws for RegExp instance receiver\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -639,7 +658,9 @@
                       "start": 1384,
                       "end": 1393,
                       "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "raw": "\"RegExp.\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -655,7 +676,9 @@
                     "start": 1407,
                     "end": 1455,
                     "value": " getter throws for %RegExp.prototype% receiver",
-                    "raw": "\" getter throws for %RegExp.prototype% receiver\""
+                    "raw": "\" getter throws for %RegExp.prototype% receiver\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -690,7 +713,9 @@
                       "start": 1476,
                       "end": 1480,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -703,35 +728,45 @@
                       "start": 1486,
                       "end": 1490,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1492,
                       "end": 1497,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1499,
                       "end": 1500,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1502,
                       "end": 1503,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1505,
                       "end": 1513,
                       "value": "string",
-                      "raw": "\"string\""
+                      "raw": "\"string\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -889,7 +924,9 @@
                                       "start": 1643,
                                       "end": 1652,
                                       "value": "RegExp.",
-                                      "raw": "\"RegExp.\""
+                                      "raw": "\"RegExp.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -905,7 +942,9 @@
                                     "start": 1666,
                                     "end": 1698,
                                     "value": " getter throws for primitive \"",
-                                    "raw": "' getter throws for primitive \"'"
+                                    "raw": "' getter throws for primitive \"'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -922,7 +961,9 @@
                                 "start": 1709,
                                 "end": 1721,
                                 "value": "\" receiver",
-                                "raw": "'\" receiver'"
+                                "raw": "'\" receiver'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ],

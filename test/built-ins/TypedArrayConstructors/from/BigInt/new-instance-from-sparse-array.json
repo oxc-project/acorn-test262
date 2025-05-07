@@ -30,6 +30,7 @@
                 "end": 352,
                 "value": null,
                 "raw": "42n",
+                "regex": null,
                 "bigint": "42"
               }
             ]

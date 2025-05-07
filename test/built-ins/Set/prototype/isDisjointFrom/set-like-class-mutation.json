@@ -39,21 +39,27 @@
                     "start": 379,
                     "end": 382,
                     "value": "a",
-                    "raw": "\"a\""
+                    "raw": "\"a\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 384,
                     "end": 387,
                     "value": "b",
-                    "raw": "\"b\""
+                    "raw": "\"b\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 389,
                     "end": 392,
                     "value": "c",
-                    "raw": "\"c\""
+                    "raw": "\"c\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -101,7 +107,9 @@
                   "start": 427,
                   "end": 428,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -159,7 +167,9 @@
                             "start": 455,
                             "end": 458,
                             "value": "a",
-                            "raw": "\"a\""
+                            "raw": "\"a\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -200,7 +210,9 @@
                                     "start": 483,
                                     "end": 486,
                                     "value": "b",
-                                    "raw": "\"b\""
+                                    "raw": "\"b\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -239,7 +251,9 @@
                                     "start": 510,
                                     "end": 513,
                                     "value": "c",
-                                    "raw": "\"c\""
+                                    "raw": "\"c\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -278,7 +292,9 @@
                                     "start": 534,
                                     "end": 537,
                                     "value": "b",
-                                    "raw": "\"b\""
+                                    "raw": "\"b\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false
@@ -293,7 +309,9 @@
                                 "start": 553,
                                 "end": 558,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -320,7 +338,9 @@
                             "start": 580,
                             "end": 583,
                             "value": "b",
-                            "raw": "\"b\""
+                            "raw": "\"b\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -337,7 +357,9 @@
                                 "start": 600,
                                 "end": 605,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -364,7 +386,9 @@
                             "start": 627,
                             "end": 630,
                             "value": "c",
-                            "raw": "\"c\""
+                            "raw": "\"c\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "consequent": {
@@ -392,7 +416,9 @@
                                     "start": 663,
                                     "end": 797,
                                     "value": "Set.prototype.isDisjointFrom should not call its argument's has method with values from this which have been deleted before visiting",
-                                    "raw": "\"Set.prototype.isDisjointFrom should not call its argument's has method with values from this which have been deleted before visiting\""
+                                    "raw": "\"Set.prototype.isDisjointFrom should not call its argument's has method with values from this which have been deleted before visiting\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -421,7 +447,9 @@
                               "start": 833,
                               "end": 928,
                               "value": "Set.prototype.isDisjointFrom should only call its argument's has method with contents of this",
-                              "raw": "\"Set.prototype.isDisjointFrom should only call its argument's has method with contents of this\""
+                              "raw": "\"Set.prototype.isDisjointFrom should only call its argument's has method with contents of this\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -478,7 +506,9 @@
                               "start": 976,
                               "end": 1077,
                               "value": "Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size",
-                              "raw": "\"Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size\""
+                              "raw": "\"Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -585,7 +615,9 @@
             "start": 1166,
             "end": 1170,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -616,14 +648,18 @@
                 "start": 1199,
                 "end": 1202,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1204,
                 "end": 1207,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

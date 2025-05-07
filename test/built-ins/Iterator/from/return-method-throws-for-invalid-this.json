@@ -274,7 +274,9 @@
                                     "start": 703,
                                     "end": 704,
                                     "value": 5,
-                                    "raw": "5"
+                                    "raw": "5",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 },
@@ -296,7 +298,9 @@
                                     "start": 712,
                                     "end": 716,
                                     "value": true,
-                                    "raw": "true"
+                                    "raw": "true",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -384,14 +388,18 @@
                 "start": 806,
                 "end": 814,
                 "value": "return",
-                "raw": "\"return\""
+                "raw": "\"return\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 816,
                 "end": 830,
                 "value": "originalIter",
-                "raw": "\"originalIter\""
+                "raw": "\"originalIter\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -453,7 +461,9 @@
                     "start": 905,
                     "end": 919,
                     "value": "originalIter",
-                    "raw": "\"originalIter\""
+                    "raw": "\"originalIter\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

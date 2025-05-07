@@ -59,7 +59,9 @@
               "start": 686,
               "end": 687,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -250,7 +252,9 @@
                     "start": 858,
                     "end": 874,
                     "value": "Language tag: ",
-                    "raw": "\"Language tag: \""
+                    "raw": "\"Language tag: \"",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

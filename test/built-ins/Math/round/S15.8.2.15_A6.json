@@ -27,7 +27,9 @@
               "start": 508,
               "end": 509,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -49,7 +51,9 @@
           "start": 516,
           "end": 520,
           "value": 1000,
-          "raw": "1000"
+          "raw": "1000",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -101,7 +105,9 @@
                     "start": 543,
                     "end": 547,
                     "value": 10,
-                    "raw": "10.0"
+                    "raw": "10.0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -209,7 +215,9 @@
                         "start": 608,
                         "end": 611,
                         "value": 0.5,
-                        "raw": "0.5"
+                        "raw": "0.5",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -220,7 +228,9 @@
                   "start": 618,
                   "end": 699,
                   "value": "Math.round(i / 10.0) must return the same value returned by Math.floor(x + 0.5)",
-                  "raw": "'Math.round(i / 10.0) must return the same value returned by Math.floor(x + 0.5)'"
+                  "raw": "'Math.round(i / 10.0) must return the same value returned by Math.floor(x + 0.5)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -255,7 +265,9 @@
             "start": 718,
             "end": 719,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -281,7 +293,9 @@
             "start": 727,
             "end": 731,
             "value": 1000,
-            "raw": "1000"
+            "raw": "1000",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -329,7 +343,9 @@
                   "start": 753,
                   "end": 754,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -364,7 +380,9 @@
                         "start": 769,
                         "end": 786,
                         "value": 0.500000000000001,
-                        "raw": "0.500000000000001"
+                        "raw": "0.500000000000001",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -407,7 +425,9 @@
                         "start": 813,
                         "end": 817,
                         "value": 10,
-                        "raw": "10.0"
+                        "raw": "10.0",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -516,7 +536,9 @@
                         "start": 882,
                         "end": 885,
                         "value": 0.5,
-                        "raw": "0.5"
+                        "raw": "0.5",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -527,7 +549,9 @@
                   "start": 892,
                   "end": 973,
                   "value": "Math.round(i / 10.0) must return the same value returned by Math.floor(x + 0.5)",
-                  "raw": "'Math.round(i / 10.0) must return the same value returned by Math.floor(x + 0.5)'"
+                  "raw": "'Math.round(i / 10.0) must return the same value returned by Math.floor(x + 0.5)'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

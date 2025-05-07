@@ -28,56 +28,72 @@
                 "start": 346,
                 "end": 349,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 354,
                 "value": "t",
-                "raw": "\"t\""
+                "raw": "\"t\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 359,
                 "value": "u",
-                "raw": "\"u\""
+                "raw": "\"u\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 372,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 385,
                 "value": "UNDEFINED",
-                "raw": "\"UNDEFINED\""
+                "raw": "\"UNDEFINED\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 404,
                 "value": "nicht definiert",
-                "raw": "\"nicht definiert\""
+                "raw": "\"nicht definiert\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 406,
                 "end": 411,
                 "value": "xyz",
-                "raw": "\"xyz\""
+                "raw": "\"xyz\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 418,
                 "value": "未定义",
-                "raw": "\"未定义\""
+                "raw": "\"未定义\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +141,9 @@
           "start": 438,
           "end": 439,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "test": {
@@ -309,7 +327,9 @@
                         "start": 605,
                         "end": 690,
                         "value": "String.prototype.localeCompare does not treat missing 'that' argument as undefined.",
-                        "raw": "\"String.prototype.localeCompare does not treat missing 'that' argument as undefined.\""
+                        "raw": "\"String.prototype.localeCompare does not treat missing 'that' argument as undefined.\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -389,7 +409,9 @@
                     "start": 766,
                     "end": 777,
                     "value": "undefined",
-                    "raw": "\"undefined\""
+                    "raw": "\"undefined\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -420,7 +442,9 @@
                         "start": 809,
                         "end": 900,
                         "value": "String.prototype.localeCompare does not treat undefined 'that' argument as \"undefined\".",
-                        "raw": "\"String.prototype.localeCompare does not treat undefined 'that' argument as \\\"undefined\\\".\""
+                        "raw": "\"String.prototype.localeCompare does not treat undefined 'that' argument as \\\"undefined\\\".\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

@@ -81,7 +81,9 @@
                     "start": 579,
                     "end": 580,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -265,7 +267,9 @@
                     "start": 742,
                     "end": 743,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -320,7 +324,9 @@
             "start": 775,
             "end": 785,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

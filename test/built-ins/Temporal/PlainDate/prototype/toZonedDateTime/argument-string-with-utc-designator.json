@@ -28,28 +28,36 @@
                 "start": 346,
                 "end": 368,
                 "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "raw": "\"2019-10-01T09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 399,
                 "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 419,
                 "value": "09:00:00Z[UTC]",
-                "raw": "\"09:00:00Z[UTC]\""
+                "raw": "\"09:00:00Z[UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 434,
                 "value": "09:00:00Z",
-                "raw": "\"09:00:00Z\""
+                "raw": "\"09:00:00Z\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -101,21 +109,27 @@
                 "start": 479,
                 "end": 483,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 486,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 488,
                 "end": 489,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -283,7 +297,9 @@
                                     "start": 622,
                                     "end": 627,
                                     "value": "UTC",
-                                    "raw": "\"UTC\""
+                                    "raw": "\"UTC\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "kind": "init"
                                 }
@@ -298,7 +314,9 @@
                         "start": 636,
                         "end": 699,
                         "value": "String with UTC designator should not be valid as a PlainTime",
-                        "raw": "\"String with UTC designator should not be valid as a PlainTime\""
+                        "raw": "\"String with UTC designator should not be valid as a PlainTime\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

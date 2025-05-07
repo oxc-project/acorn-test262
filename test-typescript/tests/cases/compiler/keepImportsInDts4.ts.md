@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 22,
         "raw": "\"./folder/test\"",
-        "value": "./folder/test"
+        "value": "./folder/test",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }

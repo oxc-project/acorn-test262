@@ -41,7 +41,9 @@
                   "start": 385,
                   "end": 386,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -92,7 +94,9 @@
                               "start": 436,
                               "end": 496,
                               "value": "Set.prototype.union should not invoke .has on its argument",
-                              "raw": "\"Set.prototype.union should not invoke .has on its argument\""
+                              "raw": "\"Set.prototype.union should not invoke .has on its argument\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -157,7 +161,9 @@
                                     "start": 619,
                                     "end": 620,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -222,7 +228,9 @@
                     "start": 661,
                     "end": 662,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -257,7 +265,9 @@
                 "start": 682,
                 "end": 683,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -270,7 +280,9 @@
                   "start": 686,
                   "end": 687,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -438,14 +450,18 @@
             "start": 826,
             "end": 830,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 862,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -493,7 +509,9 @@
                       "start": 887,
                       "end": 888,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -535,7 +553,9 @@
                 "start": 905,
                 "end": 906,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -699,14 +719,18 @@
             "start": 1041,
             "end": 1045,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1047,
             "end": 1077,
             "value": "The returned object is a Set",
-            "raw": "\"The returned object is a Set\""
+            "raw": "\"The returned object is a Set\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

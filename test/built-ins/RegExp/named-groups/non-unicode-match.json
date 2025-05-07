@@ -41,14 +41,18 @@
                 "start": 313,
                 "end": 316,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 321,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -65,7 +69,9 @@
                 "start": 324,
                 "end": 329,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -86,7 +92,8 @@
                 "regex": {
                   "pattern": "(?<a>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -133,14 +140,18 @@
                 "start": 370,
                 "end": 373,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 378,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -157,7 +168,9 @@
                 "start": 381,
                 "end": 386,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -178,7 +191,8 @@
                 "regex": {
                   "pattern": "(?<a42>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,14 +239,18 @@
                 "start": 429,
                 "end": 432,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 434,
                 "end": 437,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -249,7 +267,9 @@
                 "start": 440,
                 "end": 445,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -270,7 +290,8 @@
                 "regex": {
                   "pattern": "(?<_>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -317,14 +338,18 @@
                 "start": 486,
                 "end": 489,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 494,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -341,7 +366,9 @@
                 "start": 497,
                 "end": 502,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -362,7 +389,8 @@
                 "regex": {
                   "pattern": "(?<$>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -409,14 +437,18 @@
                 "start": 543,
                 "end": 548,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 550,
                 "end": 553,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -433,7 +465,9 @@
                 "start": 556,
                 "end": 561,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -454,7 +488,8 @@
                 "regex": {
                   "pattern": ".(?<$>a).",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -501,21 +536,27 @@
                 "start": 604,
                 "end": 609,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 614,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 616,
                 "end": 619,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -532,7 +573,9 @@
                 "start": 622,
                 "end": 627,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -553,7 +596,8 @@
                 "regex": {
                   "pattern": ".(?<a>a)(.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -600,21 +644,27 @@
                 "start": 672,
                 "end": 677,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 679,
                 "end": 682,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 684,
                 "end": 687,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -631,7 +681,9 @@
                 "start": 690,
                 "end": 695,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -652,7 +704,8 @@
                 "regex": {
                   "pattern": ".(?<a>a)(?<b>.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -699,14 +752,18 @@
                 "start": 744,
                 "end": 749,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 751,
                 "end": 755,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -723,7 +780,9 @@
                 "start": 758,
                 "end": 763,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -744,7 +803,8 @@
                 "regex": {
                   "pattern": ".(?<a>\\w\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -791,14 +851,18 @@
                 "start": 808,
                 "end": 813,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 815,
                 "end": 820,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -815,7 +879,9 @@
                 "start": 823,
                 "end": 828,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -836,7 +902,8 @@
                 "regex": {
                   "pattern": "(?<a>\\w\\w\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -883,21 +950,27 @@
                 "start": 874,
                 "end": 879,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 881,
                 "end": 885,
                 "value": "ba",
-                "raw": "\"ba\""
+                "raw": "\"ba\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 887,
                 "end": 890,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -914,7 +987,9 @@
                 "start": 893,
                 "end": 898,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -935,7 +1010,8 @@
                 "regex": {
                   "pattern": "(?<a>\\w\\w)(?<b>\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1044,7 +1120,8 @@
                   "regex": {
                     "pattern": "(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>",
                     "flags": ""
-                  }
+                  },
+                  "bigint": null
                 },
                 "property": {
                   "type": "Identifier",
@@ -1061,7 +1138,9 @@
                   "start": 990,
                   "end": 998,
                   "value": "abccba",
-                  "raw": "\"abccba\""
+                  "raw": "\"abccba\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -1118,7 +1197,9 @@
             "start": 1028,
             "end": 1031,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1163,7 +1244,9 @@
             "start": 1054,
             "end": 1057,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1208,7 +1291,9 @@
             "start": 1080,
             "end": 1083,
             "value": "c",
-            "raw": "\"c\""
+            "raw": "\"c\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1255,7 +1340,9 @@
                 "start": 1107,
                 "end": 1112,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1276,7 +1363,8 @@
                 "regex": {
                   "pattern": "(a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1294,7 +1382,9 @@
                 "start": 1127,
                 "end": 1132,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1315,7 +1405,8 @@
                 "regex": {
                   "pattern": "(?<a>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1365,7 +1456,9 @@
                 "start": 1172,
                 "end": 1177,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1386,7 +1479,8 @@
                 "regex": {
                   "pattern": "(a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1404,7 +1498,9 @@
                 "start": 1192,
                 "end": 1197,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1425,7 +1521,8 @@
                 "regex": {
                   "pattern": "(?<a42>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1475,7 +1572,9 @@
                 "start": 1239,
                 "end": 1244,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1496,7 +1595,8 @@
                 "regex": {
                   "pattern": "(a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1514,7 +1614,9 @@
                 "start": 1259,
                 "end": 1264,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1535,7 +1637,8 @@
                 "regex": {
                   "pattern": "(?<_>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1585,7 +1688,9 @@
                 "start": 1304,
                 "end": 1309,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1606,7 +1711,8 @@
                 "regex": {
                   "pattern": "(a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1624,7 +1730,9 @@
                 "start": 1324,
                 "end": 1329,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1645,7 +1753,8 @@
                 "regex": {
                   "pattern": "(?<$>a)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1695,7 +1804,9 @@
                 "start": 1369,
                 "end": 1374,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1716,7 +1827,8 @@
                 "regex": {
                   "pattern": ".(a).",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1734,7 +1846,9 @@
                 "start": 1391,
                 "end": 1396,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1755,7 +1869,8 @@
                 "regex": {
                   "pattern": ".(?<$>a).",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1805,7 +1920,9 @@
                 "start": 1438,
                 "end": 1443,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1826,7 +1943,8 @@
                 "regex": {
                   "pattern": ".(a)(.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1844,7 +1962,9 @@
                 "start": 1462,
                 "end": 1467,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1865,7 +1985,8 @@
                 "regex": {
                   "pattern": ".(?<a>a)(.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1915,7 +2036,9 @@
                 "start": 1511,
                 "end": 1516,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1936,7 +2059,8 @@
                 "regex": {
                   "pattern": ".(a)(.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -1954,7 +2078,9 @@
                 "start": 1535,
                 "end": 1540,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1975,7 +2101,8 @@
                 "regex": {
                   "pattern": ".(?<a>a)(?<b>.)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2025,7 +2152,9 @@
                 "start": 1588,
                 "end": 1593,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2046,7 +2175,8 @@
                 "regex": {
                   "pattern": ".(\\w\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2064,7 +2194,9 @@
                 "start": 1612,
                 "end": 1617,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2085,7 +2217,8 @@
                 "regex": {
                   "pattern": ".(?<a>\\w\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2135,7 +2268,9 @@
                 "start": 1661,
                 "end": 1666,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2156,7 +2291,8 @@
                 "regex": {
                   "pattern": "(\\w\\w\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2174,7 +2310,9 @@
                 "start": 1686,
                 "end": 1691,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2195,7 +2333,8 @@
                 "regex": {
                   "pattern": "(?<a>\\w\\w\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2245,7 +2384,9 @@
                 "start": 1736,
                 "end": 1741,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2266,7 +2407,8 @@
                 "regex": {
                   "pattern": "(\\w\\w)(\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2284,7 +2426,9 @@
                 "start": 1763,
                 "end": 1768,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2305,7 +2449,8 @@
                 "regex": {
                   "pattern": "(?<a>\\w\\w)(?<b>\\w)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2352,14 +2497,18 @@
                 "start": 1821,
                 "end": 1826,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1828,
                 "end": 1831,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2376,7 +2525,9 @@
                 "start": 1834,
                 "end": 1839,
                 "value": "bab",
-                "raw": "\"bab\""
+                "raw": "\"bab\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2397,7 +2548,8 @@
                 "regex": {
                   "pattern": "(?<b>b).\\1",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2444,21 +2596,27 @@
                 "start": 1883,
                 "end": 1889,
                 "value": "baba",
-                "raw": "\"baba\""
+                "raw": "\"baba\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1891,
                 "end": 1894,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1896,
                 "end": 1899,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2475,7 +2633,9 @@
                 "start": 1902,
                 "end": 1908,
                 "value": "baba",
-                "raw": "\"baba\""
+                "raw": "\"baba\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2496,7 +2656,8 @@
                 "regex": {
                   "pattern": "(.)(?<a>a)\\1\\2",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2543,35 +2704,45 @@
                 "start": 1956,
                 "end": 1962,
                 "value": "baba",
-                "raw": "\"baba\""
+                "raw": "\"baba\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1964,
                 "end": 1967,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1969,
                 "end": 1972,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1974,
                 "end": 1977,
                 "value": "b",
-                "raw": "\"b\""
+                "raw": "\"b\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1979,
                 "end": 1982,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2588,7 +2759,9 @@
                 "start": 1985,
                 "end": 1991,
                 "value": "baba",
-                "raw": "\"baba\""
+                "raw": "\"baba\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2609,7 +2782,8 @@
                 "regex": {
                   "pattern": "(.)(?<a>a)(?<b>\\1)(\\2)",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2656,14 +2830,18 @@
                 "start": 2047,
                 "end": 2051,
                 "value": "<a",
-                "raw": "\"<a\""
+                "raw": "\"<a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2053,
                 "end": 2056,
                 "value": "<",
-                "raw": "\"<\""
+                "raw": "\"<\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2680,7 +2858,9 @@
                 "start": 2059,
                 "end": 2063,
                 "value": "<a",
-                "raw": "\"<a\""
+                "raw": "\"<a\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2701,7 +2881,8 @@
                 "regex": {
                   "pattern": "(?<lt><)a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -2748,14 +2929,18 @@
                 "start": 2106,
                 "end": 2110,
                 "value": ">a",
-                "raw": "\">a\""
+                "raw": "\">a\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 2112,
                 "end": 2115,
                 "value": ">",
-                "raw": "\">\""
+                "raw": "\">\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -2772,7 +2957,9 @@
                 "start": 2118,
                 "end": 2122,
                 "value": ">a",
-                "raw": "\">a\""
+                "raw": "\">a\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -2793,7 +2980,8 @@
                 "regex": {
                   "pattern": "(?<gt>>)a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false

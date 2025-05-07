@@ -73,7 +73,9 @@
                               "start": 1500,
                               "end": 1503,
                               "value": "x",
-                              "raw": "'x'"
+                              "raw": "'x'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -83,7 +85,9 @@
                             "start": 1507,
                             "end": 1508,
                             "value": 8,
-                            "raw": "8"
+                            "raw": "8",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -148,7 +152,9 @@
                               "start": 1544,
                               "end": 1547,
                               "value": "y",
-                              "raw": "'y'"
+                              "raw": "'y'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -158,7 +164,9 @@
                             "start": 1551,
                             "end": 1552,
                             "value": 9,
-                            "raw": "9"
+                            "raw": "9",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -280,7 +288,9 @@
                 "start": 1629,
                 "end": 1632,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -290,7 +300,9 @@
             "start": 1637,
             "end": 1670,
             "value": "x is defined as an own property",
-            "raw": "\"x is defined as an own property\""
+            "raw": "\"x is defined as an own property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -378,7 +390,9 @@
                   "start": 1727,
                   "end": 1730,
                   "value": "y",
-                  "raw": "'y'"
+                  "raw": "'y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -389,7 +403,9 @@
             "start": 1735,
             "end": 1799,
             "value": "y is not defined as an own property after the object is frozen",
-            "raw": "\"y is not defined as an own property after the object is frozen\""
+            "raw": "\"y is not defined as an own property after the object is frozen\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

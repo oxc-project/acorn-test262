@@ -311,7 +311,9 @@ __ESTREE_TEST__:PASS:
                 "start": 139,
                 "end": 150,
                 "raw": "\"undefined\"",
-                "value": "undefined"
+                "value": "undefined",
+                "regex": null,
+                "bigint": null
               }
             }
           }

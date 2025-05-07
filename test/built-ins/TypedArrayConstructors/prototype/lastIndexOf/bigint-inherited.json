@@ -109,7 +109,9 @@
                             "start": 436,
                             "end": 449,
                             "value": "lastIndexOf",
-                            "raw": "\"lastIndexOf\""
+                            "raw": "\"lastIndexOf\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -119,7 +121,9 @@
                         "start": 452,
                         "end": 457,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

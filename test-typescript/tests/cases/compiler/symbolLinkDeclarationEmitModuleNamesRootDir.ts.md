@@ -138,7 +138,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 45,
         "raw": "\"./value-promise\"",
-        "value": "./value-promise"
+        "value": "./value-promise",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -451,7 +453,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 35,
         "raw": "\"./src/value-promise\"",
-        "value": "./src/value-promise"
+        "value": "./src/value-promise",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -466,7 +470,9 @@ __ESTREE_TEST__:PASS:
         "start": 51,
         "end": 69,
         "raw": "\"./src/bindingkey\"",
-        "value": "./src/bindingkey"
+        "value": "./src/bindingkey",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -492,7 +498,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 47,
         "raw": "\"@loopback/context\"",
-        "value": "@loopback/context"
+        "value": "@loopback/context",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -595,7 +603,9 @@ __ESTREE_TEST__:PASS:
         "start": 32,
         "end": 47,
         "raw": "'./application'",
-        "value": "./application"
+        "value": "./application",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -635,7 +645,9 @@ __ESTREE_TEST__:PASS:
         "start": 76,
         "end": 95,
         "raw": "'@loopback/context'",
-        "value": "@loopback/context"
+        "value": "@loopback/context",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -702,7 +714,9 @@ __ESTREE_TEST__:PASS:
                     "start": 165,
                     "end": 169,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",

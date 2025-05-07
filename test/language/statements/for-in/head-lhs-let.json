@@ -47,7 +47,9 @@
                 "start": 622,
                 "end": 626,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -121,7 +123,9 @@
           "start": 656,
           "end": 657,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -186,14 +190,18 @@
             "start": 704,
             "end": 709,
             "value": "key",
-            "raw": "'key'"
+            "raw": "'key'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 732,
             "value": "IdentifierReference",
-            "raw": "'IdentifierReference'"
+            "raw": "'IdentifierReference'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -251,7 +259,9 @@
             "start": 775,
             "end": 778,
             "value": "1",
-            "raw": "'1'"
+            "raw": "'1'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -352,7 +362,9 @@
           "start": 846,
           "end": 847,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         },
         "computed": true,
         "optional": false
@@ -408,14 +420,18 @@
             "start": 885,
             "end": 890,
             "value": "key",
-            "raw": "'key'"
+            "raw": "'key'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 892,
             "end": 910,
             "value": "MemberExpression",
-            "raw": "'MemberExpression'"
+            "raw": "'MemberExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

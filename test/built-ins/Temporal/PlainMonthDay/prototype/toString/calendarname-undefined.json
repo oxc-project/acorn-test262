@@ -47,14 +47,18 @@
                 "start": 712,
                 "end": 713,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 715,
                 "end": 716,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -175,7 +179,9 @@
             "start": 807,
             "end": 814,
             "value": "05-02",
-            "raw": "\"05-02\""
+            "raw": "\"05-02\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "TemplateLiteral",

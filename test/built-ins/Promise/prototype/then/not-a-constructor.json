@@ -82,14 +82,18 @@
             "start": 755,
             "end": 760,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 764,
             "end": 821,
             "value": "isConstructor(Promise.prototype.then) must return false",
-            "raw": "'isConstructor(Promise.prototype.then) must return false'"
+            "raw": "'isConstructor(Promise.prototype.then) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

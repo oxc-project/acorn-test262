@@ -90,7 +90,8 @@
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -100,14 +101,18 @@
             "start": 313,
             "end": 330,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 395,
             "value": "Object.prototype.toString.call(/./) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(/./) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(/./) returns [object RegExp]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -211,7 +216,8 @@
                     "regex": {
                       "pattern": ".",
                       "flags": ""
-                    }
+                    },
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -224,14 +230,18 @@
             "start": 466,
             "end": 483,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 556,
             "value": "Object.prototype.toString.call(Object(/./)) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(Object(/./)) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(Object(/./)) returns [object RegExp]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,14 +345,18 @@
             "start": 628,
             "end": 645,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 719,
             "value": "Object.prototype.toString.call(new RegExp()) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(new RegExp()) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(new RegExp()) returns [object RegExp]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -460,14 +474,18 @@
             "start": 799,
             "end": 816,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 820,
             "end": 898,
             "value": "Object.prototype.toString.call(Object(new RegExp())) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(Object(new RegExp())) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(Object(new RegExp())) returns [object RegExp]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

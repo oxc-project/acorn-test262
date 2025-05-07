@@ -23,7 +23,9 @@
             "start": 854,
             "end": 861,
             "value": 8640000000000000,
-            "raw": "8.64e15"
+            "raw": "8.64e15",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -199,7 +201,9 @@
                 "start": 982,
                 "end": 984,
                 "value": 24,
-                "raw": "24"
+                "raw": "24",
+                "regex": null,
+                "bigint": null
               },
               "operator": "*",
               "right": {
@@ -207,7 +211,9 @@
                 "start": 987,
                 "end": 989,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -260,7 +266,9 @@
             "start": 1028,
             "end": 1053,
             "value": "overflow due to minutes",
-            "raw": "'overflow due to minutes'"
+            "raw": "'overflow due to minutes'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -346,7 +354,9 @@
               "start": 1112,
               "end": 1113,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "BinaryExpression",
@@ -361,7 +371,9 @@
                   "start": 1115,
                   "end": 1117,
                   "value": 24,
-                  "raw": "24"
+                  "raw": "24",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "*",
                 "right": {
@@ -369,7 +381,9 @@
                   "start": 1120,
                   "end": 1122,
                   "value": 60,
-                  "raw": "60"
+                  "raw": "60",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "*",
@@ -378,7 +392,9 @@
                 "start": 1125,
                 "end": 1127,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -431,7 +447,9 @@
             "start": 1166,
             "end": 1191,
             "value": "overflow due to seconds",
-            "raw": "'overflow due to seconds'"
+            "raw": "'overflow due to seconds'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -517,14 +535,18 @@
               "start": 1250,
               "end": 1251,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Literal",
               "start": 1253,
               "end": 1254,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "BinaryExpression",
@@ -543,7 +565,9 @@
                     "start": 1256,
                     "end": 1258,
                     "value": 24,
-                    "raw": "24"
+                    "raw": "24",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "*",
                   "right": {
@@ -551,7 +575,9 @@
                     "start": 1261,
                     "end": 1263,
                     "value": 60,
-                    "raw": "60"
+                    "raw": "60",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "*",
@@ -560,7 +586,9 @@
                   "start": 1266,
                   "end": 1268,
                   "value": 60,
-                  "raw": "60"
+                  "raw": "60",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "*",
@@ -569,7 +597,9 @@
                 "start": 1271,
                 "end": 1275,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -622,7 +652,9 @@
             "start": 1314,
             "end": 1344,
             "value": "overflow due to milliseconds",
-            "raw": "'overflow due to milliseconds'"
+            "raw": "'overflow due to milliseconds'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

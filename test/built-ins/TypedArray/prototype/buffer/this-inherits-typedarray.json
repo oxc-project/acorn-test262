@@ -95,7 +95,9 @@
                   "start": 727,
                   "end": 735,
                   "value": "buffer",
-                  "raw": "\"buffer\""
+                  "raw": "\"buffer\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -180,7 +182,9 @@
                             "start": 809,
                             "end": 810,
                             "value": 5,
-                            "raw": "5"
+                            "raw": "5",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -351,7 +355,9 @@
                         "start": 934,
                         "end": 973,
                         "value": "Internal slot should not be inherited",
-                        "raw": "\"Internal slot should not be inherited\""
+                        "raw": "\"Internal slot should not be inherited\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -82,7 +82,9 @@
                           "start": 1403,
                           "end": 1427,
                           "value": "this is never returned",
-                          "raw": "'this is never returned'"
+                          "raw": "'this is never returned'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -134,7 +136,9 @@
                             "start": 1479,
                             "end": 1480,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -193,7 +197,9 @@
                 "start": 1526,
                 "end": 1528,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -241,7 +247,9 @@
             "start": 1568,
             "end": 1581,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -295,7 +303,9 @@
                               "start": 1626,
                               "end": 1642,
                               "value": "broken promise",
-                              "raw": "'broken promise'"
+                              "raw": "'broken promise'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -548,7 +558,9 @@
                             "start": 1781,
                             "end": 1797,
                             "value": "broken promise",
-                            "raw": "'broken promise'"
+                            "raw": "'broken promise'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -606,14 +618,18 @@
                             "start": 1830,
                             "end": 1831,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1833,
                             "end": 1849,
                             "value": "returned value",
-                            "raw": "'returned value'"
+                            "raw": "'returned value'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -671,14 +687,18 @@
                             "start": 1881,
                             "end": 1885,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1887,
                             "end": 1907,
                             "value": "iterator is closed",
-                            "raw": "'iterator is closed'"
+                            "raw": "'iterator is closed'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

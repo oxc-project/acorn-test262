@@ -47,7 +47,9 @@
               "start": 283,
               "end": 284,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -55,7 +57,9 @@
             "start": 286,
             "end": 337,
             "value": "The value of Number.prototype is expected to be 0",
-            "raw": "'The value of Number.prototype is expected to be 0'"
+            "raw": "'The value of Number.prototype is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

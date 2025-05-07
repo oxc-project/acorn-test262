@@ -127,7 +127,9 @@
                   "start": 402,
                   "end": 499,
                   "value": "#1: __FACTORY = String.prototype.split; \"__instance = new __FACTORY\" lead to throwing exception",
-                  "raw": "'#1: __FACTORY = String.prototype.split; \"__instance = new __FACTORY\" lead to throwing exception'"
+                  "raw": "'#1: __FACTORY = String.prototype.split; \"__instance = new __FACTORY\" lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

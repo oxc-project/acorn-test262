@@ -48,6 +48,7 @@
                 "end": 320,
                 "value": null,
                 "raw": "1_000_000_000_123_987_500n",
+                "regex": null,
                 "bigint": "1000000000123987500"
               }
             ]
@@ -118,7 +119,9 @@
                       "start": 373,
                       "end": 386,
                       "value": "microsecond",
-                      "raw": "\"microsecond\""
+                      "raw": "\"microsecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -140,7 +143,9 @@
                       "start": 402,
                       "end": 409,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -192,14 +197,18 @@
             "start": 440,
             "end": 469,
             "value": "2001-09-09T01:46:40.123987Z",
-            "raw": "\"2001-09-09T01:46:40.123987Z\""
+            "raw": "\"2001-09-09T01:46:40.123987Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 530,
             "value": "roundingMode is trunc (with 6 digits from smallestUnit)",
-            "raw": "\"roundingMode is trunc (with 6 digits from smallestUnit)\""
+            "raw": "\"roundingMode is trunc (with 6 digits from smallestUnit)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +276,9 @@
                       "start": 593,
                       "end": 594,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -289,7 +300,9 @@
                       "start": 610,
                       "end": 617,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -341,14 +354,18 @@
             "start": 648,
             "end": 677,
             "value": "2001-09-09T01:46:40.123987Z",
-            "raw": "\"2001-09-09T01:46:40.123987Z\""
+            "raw": "\"2001-09-09T01:46:40.123987Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 681,
             "end": 748,
             "value": "roundingMode is trunc (with 6 digits from fractionalSecondDigits)",
-            "raw": "\"roundingMode is trunc (with 6 digits from fractionalSecondDigits)\""
+            "raw": "\"roundingMode is trunc (with 6 digits from fractionalSecondDigits)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -416,7 +433,9 @@
                       "start": 801,
                       "end": 814,
                       "value": "millisecond",
-                      "raw": "\"millisecond\""
+                      "raw": "\"millisecond\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -438,7 +457,9 @@
                       "start": 830,
                       "end": 837,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -490,14 +511,18 @@
             "start": 868,
             "end": 894,
             "value": "2001-09-09T01:46:40.123Z",
-            "raw": "\"2001-09-09T01:46:40.123Z\""
+            "raw": "\"2001-09-09T01:46:40.123Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 898,
             "end": 955,
             "value": "roundingMode is trunc (with 3 digits from smallestUnit)",
-            "raw": "\"roundingMode is trunc (with 3 digits from smallestUnit)\""
+            "raw": "\"roundingMode is trunc (with 3 digits from smallestUnit)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -565,7 +590,9 @@
                       "start": 1018,
                       "end": 1019,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -587,7 +614,9 @@
                       "start": 1035,
                       "end": 1042,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -639,14 +668,18 @@
             "start": 1073,
             "end": 1099,
             "value": "2001-09-09T01:46:40.123Z",
-            "raw": "\"2001-09-09T01:46:40.123Z\""
+            "raw": "\"2001-09-09T01:46:40.123Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1103,
             "end": 1170,
             "value": "roundingMode is trunc (with 3 digits from fractionalSecondDigits)",
-            "raw": "\"roundingMode is trunc (with 3 digits from fractionalSecondDigits)\""
+            "raw": "\"roundingMode is trunc (with 3 digits from fractionalSecondDigits)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -714,7 +747,9 @@
                       "start": 1223,
                       "end": 1231,
                       "value": "second",
-                      "raw": "\"second\""
+                      "raw": "\"second\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -736,7 +771,9 @@
                       "start": 1247,
                       "end": 1254,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -788,14 +825,18 @@
             "start": 1285,
             "end": 1307,
             "value": "2001-09-09T01:46:40Z",
-            "raw": "\"2001-09-09T01:46:40Z\""
+            "raw": "\"2001-09-09T01:46:40Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1311,
             "end": 1368,
             "value": "roundingMode is trunc (with 0 digits from smallestUnit)",
-            "raw": "\"roundingMode is trunc (with 0 digits from smallestUnit)\""
+            "raw": "\"roundingMode is trunc (with 0 digits from smallestUnit)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -863,7 +904,9 @@
                       "start": 1431,
                       "end": 1432,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -885,7 +928,9 @@
                       "start": 1448,
                       "end": 1455,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -937,14 +982,18 @@
             "start": 1486,
             "end": 1508,
             "value": "2001-09-09T01:46:40Z",
-            "raw": "\"2001-09-09T01:46:40Z\""
+            "raw": "\"2001-09-09T01:46:40Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1512,
             "end": 1579,
             "value": "roundingMode is trunc (with 0 digits from fractionalSecondDigits)",
-            "raw": "\"roundingMode is trunc (with 0 digits from fractionalSecondDigits)\""
+            "raw": "\"roundingMode is trunc (with 0 digits from fractionalSecondDigits)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1012,7 +1061,9 @@
                       "start": 1632,
                       "end": 1640,
                       "value": "minute",
-                      "raw": "\"minute\""
+                      "raw": "\"minute\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -1034,7 +1085,9 @@
                       "start": 1656,
                       "end": 1663,
                       "value": "trunc",
-                      "raw": "\"trunc\""
+                      "raw": "\"trunc\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -1086,14 +1139,18 @@
             "start": 1694,
             "end": 1713,
             "value": "2001-09-09T01:46Z",
-            "raw": "\"2001-09-09T01:46Z\""
+            "raw": "\"2001-09-09T01:46Z\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1715,
             "end": 1756,
             "value": "roundingMode is trunc (round to minute)",
-            "raw": "\"roundingMode is trunc (round to minute)\""
+            "raw": "\"roundingMode is trunc (round to minute)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

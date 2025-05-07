@@ -107,7 +107,9 @@ __ESTREE_TEST__:PASS:
                   "start": 54,
                   "end": 58,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeAnnotation": {
@@ -172,7 +174,9 @@ __ESTREE_TEST__:PASS:
                   "start": 85,
                   "end": 89,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeAnnotation": {
@@ -257,7 +261,9 @@ __ESTREE_TEST__:PASS:
                   "start": 118,
                   "end": 122,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeAnnotation": {
@@ -343,7 +349,9 @@ __ESTREE_TEST__:PASS:
                   "start": 179,
                   "end": 183,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeAnnotation": {
@@ -441,7 +449,9 @@ __ESTREE_TEST__:PASS:
                     "start": 235,
                     "end": 239,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "typeAnnotation": {
@@ -497,7 +507,9 @@ __ESTREE_TEST__:PASS:
                     "start": 260,
                     "end": 264,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "typeAnnotation": {
@@ -553,7 +565,9 @@ __ESTREE_TEST__:PASS:
                     "start": 292,
                     "end": 296,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "typeAnnotation": {
@@ -637,7 +651,9 @@ __ESTREE_TEST__:PASS:
                           "start": 317,
                           "end": 321,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "typeAnnotation": {
@@ -727,7 +743,9 @@ __ESTREE_TEST__:PASS:
                           "start": 364,
                           "end": 368,
                           "raw": "null",
-                          "value": null
+                          "value": null,
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "typeAnnotation": {
@@ -842,7 +860,9 @@ __ESTREE_TEST__:PASS:
                             "start": 426,
                             "end": 430,
                             "raw": "null",
-                            "value": null
+                            "value": null,
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "typeAnnotation": {
@@ -918,7 +938,9 @@ __ESTREE_TEST__:PASS:
                             "start": 461,
                             "end": 465,
                             "raw": "null",
-                            "value": null
+                            "value": null,
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "typeAnnotation": {
@@ -1038,7 +1060,9 @@ __ESTREE_TEST__:PASS:
             "start": 507,
             "end": 511,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         },
         "typeAnnotation": {
@@ -1135,7 +1159,9 @@ __ESTREE_TEST__:PASS:
                   "start": 646,
                   "end": 650,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "typeAnnotation": {

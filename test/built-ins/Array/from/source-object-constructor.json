@@ -107,7 +107,9 @@
             "start": 320,
             "end": 415,
             "value": "The value of Array.from.call(Object, []).constructor is expected to equal the value of Object",
-            "raw": "'The value of Array.from.call(Object, []).constructor is expected to equal the value of Object'"
+            "raw": "'The value of Array.from.call(Object, []).constructor is expected to equal the value of Object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

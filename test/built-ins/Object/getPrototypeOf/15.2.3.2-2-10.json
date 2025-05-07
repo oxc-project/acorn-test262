@@ -88,7 +88,9 @@
             "start": 335,
             "end": 366,
             "value": "Object.getPrototypeOf(RegExp)",
-            "raw": "'Object.getPrototypeOf(RegExp)'"
+            "raw": "'Object.getPrototypeOf(RegExp)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

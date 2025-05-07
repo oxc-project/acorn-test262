@@ -118,7 +118,9 @@
                   "start": 628,
                   "end": 637,
                   "value": "SHIFTED",
-                  "raw": "\"SHIFTED\""
+                  "raw": "\"SHIFTED\"",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -250,7 +252,9 @@
           "start": 864,
           "end": 872,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -282,7 +286,9 @@
                     "start": 901,
                     "end": 992,
                     "value": "#1: __str = new String(function(){}); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(function(){}); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String(function(){}); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -370,7 +376,9 @@
                     "start": 1247,
                     "end": 1348,
                     "value": "#1.5: __str = new String(function(){}); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(function(){}); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(function(){}); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -420,7 +428,9 @@
           "start": 1558,
           "end": 1567,
           "value": "SHIFTED",
-          "raw": "\"SHIFTED\""
+          "raw": "\"SHIFTED\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -452,7 +462,9 @@
                     "start": 1596,
                     "end": 1729,
                     "value": "#2: Function.prototype.toString=function(){return \"SHIFTED\"}; __str = new String(function(){}); __str ==\"SHIFTED\". Actual: __str ==",
-                    "raw": "'#2: Function.prototype.toString=function(){return \"SHIFTED\"}; __str = new String(function(){}); __str ==\"SHIFTED\". Actual: __str =='"
+                    "raw": "'#2: Function.prototype.toString=function(){return \"SHIFTED\"}; __str = new String(function(){}); __str ==\"SHIFTED\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

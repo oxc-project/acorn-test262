@@ -28,7 +28,9 @@
                 "start": 406,
                 "end": 407,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -88,14 +90,18 @@
             "start": 438,
             "end": 439,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 484,
             "value": "The value of a.length is expected to be 1",
-            "raw": "'The value of a.length is expected to be 1'"
+            "raw": "'The value of a.length is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -134,7 +140,9 @@
           "start": 499,
           "end": 500,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -181,7 +189,9 @@
               "start": 522,
               "end": 523,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -197,7 +207,9 @@
             "start": 537,
             "end": 587,
             "value": "The value of a[1] is expected to equal undefined",
-            "raw": "'The value of a[1] is expected to equal undefined'"
+            "raw": "'The value of a[1] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -246,7 +258,9 @@
               "start": 609,
               "end": 610,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -262,7 +276,9 @@
             "start": 624,
             "end": 674,
             "value": "The value of a[2] is expected to equal undefined",
-            "raw": "'The value of a[2] is expected to equal undefined'"
+            "raw": "'The value of a[2] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -305,7 +321,9 @@
             "start": 695,
             "end": 696,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -315,7 +333,9 @@
           "start": 700,
           "end": 701,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -362,7 +382,9 @@
               "start": 723,
               "end": 724,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -378,7 +400,9 @@
             "start": 738,
             "end": 788,
             "value": "The value of a[1] is expected to equal undefined",
-            "raw": "'The value of a[1] is expected to equal undefined'"
+            "raw": "'The value of a[1] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -427,7 +451,9 @@
               "start": 810,
               "end": 811,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -437,14 +463,18 @@
             "start": 814,
             "end": 815,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 817,
             "end": 856,
             "value": "The value of a[2] is expected to be 2",
-            "raw": "'The value of a[2] is expected to be 2'"
+            "raw": "'The value of a[2] is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -507,7 +537,9 @@
                 "start": 893,
                 "end": 896,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -517,14 +549,18 @@
             "start": 899,
             "end": 904,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 906,
             "end": 947,
             "value": "a.hasOwnProperty(\"1\") must return false",
-            "raw": "'a.hasOwnProperty(\"1\") must return false'"
+            "raw": "'a.hasOwnProperty(\"1\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +623,9 @@
                 "start": 984,
                 "end": 987,
                 "value": "2",
-                "raw": "'2'"
+                "raw": "'2'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -597,14 +635,18 @@
             "start": 990,
             "end": 995,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 997,
             "end": 1038,
             "value": "a.hasOwnProperty(\"2\") must return false",
-            "raw": "'a.hasOwnProperty(\"2\") must return false'"
+            "raw": "'a.hasOwnProperty(\"2\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -707,14 +749,18 @@
             "start": 1090,
             "end": 1091,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1093,
             "end": 1136,
             "value": "The value of b.length is expected to be 3",
-            "raw": "'The value of b.length is expected to be 3'"
+            "raw": "'The value of b.length is expected to be 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -763,7 +809,9 @@
               "start": 1158,
               "end": 1159,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -773,14 +821,18 @@
             "start": 1162,
             "end": 1163,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1165,
             "end": 1204,
             "value": "The value of b[0] is expected to be 0",
-            "raw": "'The value of b[0] is expected to be 0'"
+            "raw": "'The value of b[0] is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -829,7 +881,9 @@
               "start": 1226,
               "end": 1227,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -845,7 +899,9 @@
             "start": 1241,
             "end": 1291,
             "value": "The value of b[1] is expected to equal undefined",
-            "raw": "'The value of b[1] is expected to equal undefined'"
+            "raw": "'The value of b[1] is expected to equal undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -894,7 +950,9 @@
               "start": 1313,
               "end": 1314,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -904,14 +962,18 @@
             "start": 1317,
             "end": 1318,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1320,
             "end": 1359,
             "value": "The value of b[2] is expected to be 2",
-            "raw": "'The value of b[2] is expected to be 2'"
+            "raw": "'The value of b[2] is expected to be 2'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -974,7 +1036,9 @@
                 "start": 1396,
                 "end": 1399,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -984,14 +1048,18 @@
             "start": 1402,
             "end": 1407,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1409,
             "end": 1450,
             "value": "b.hasOwnProperty(\"1\") must return false",
-            "raw": "'b.hasOwnProperty(\"1\") must return false'"
+            "raw": "'b.hasOwnProperty(\"1\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1054,7 +1122,9 @@
                 "start": 1487,
                 "end": 1490,
                 "value": "2",
-                "raw": "'2'"
+                "raw": "'2'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1064,14 +1134,18 @@
             "start": 1493,
             "end": 1497,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1499,
             "end": 1539,
             "value": "b.hasOwnProperty(\"2\") must return true",
-            "raw": "'b.hasOwnProperty(\"2\") must return true'"
+            "raw": "'b.hasOwnProperty(\"2\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

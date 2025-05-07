@@ -47,21 +47,27 @@
                 "start": 997,
                 "end": 998,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1000,
                 "end": 1001,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1003,
                 "end": 1004,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -74,7 +80,9 @@
                   "start": 1007,
                   "end": 1008,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -163,14 +171,18 @@
                       "start": 1116,
                       "end": 1122,
                       "value": 275760,
-                      "raw": "275760"
+                      "raw": "275760",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1124,
                       "end": 1125,
                       "value": 9,
-                      "raw": "9"
+                      "raw": "9",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 },
@@ -199,7 +211,9 @@
             "start": 1142,
             "end": 1188,
             "value": "Addition of 1 month to receiver out of range",
-            "raw": "\"Addition of 1 month to receiver out of range\""
+            "raw": "\"Addition of 1 month to receiver out of range\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

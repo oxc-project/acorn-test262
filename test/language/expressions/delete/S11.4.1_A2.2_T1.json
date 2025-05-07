@@ -30,7 +30,9 @@
           "start": 369,
           "end": 373,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -58,7 +60,9 @@
                   "start": 402,
                   "end": 425,
                   "value": "#1: delete x === true",
-                  "raw": "'#1: delete x === true'"
+                  "raw": "'#1: delete x === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

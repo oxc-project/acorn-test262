@@ -13,7 +13,9 @@
         "start": 1538,
         "end": 1558,
         "value": "./dep-1_FIXTURE.js",
-        "raw": "\"./dep-1_FIXTURE.js\""
+        "raw": "\"./dep-1_FIXTURE.js\"",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -51,7 +53,9 @@
                 "start": 1579,
                 "end": 1606,
                 "value": "evaluating dep2.foo error",
-                "raw": "\"evaluating dep2.foo error\""
+                "raw": "\"evaluating dep2.foo error\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -69,7 +73,9 @@
             "start": 1630,
             "end": 1670,
             "value": "evaluating dep2.foo throws a TypeError",
-            "raw": "\"evaluating dep2.foo throws a TypeError\""
+            "raw": "\"evaluating dep2.foo throws a TypeError\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -111,7 +117,9 @@
                 "start": 1692,
                 "end": 1728,
                 "value": "evaluating dep2.foo evaluates dep3",
-                "raw": "\"evaluating dep2.foo evaluates dep3\""
+                "raw": "\"evaluating dep2.foo evaluates dep3\"",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -122,7 +130,9 @@
             "start": 1731,
             "end": 1775,
             "value": "evaluating dep2.foo does not evaluate dep3",
-            "raw": "\"evaluating dep2.foo does not evaluate dep3\""
+            "raw": "\"evaluating dep2.foo does not evaluate dep3\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +184,9 @@
             "start": 1812,
             "end": 1842,
             "value": "dep3 is not evaluated at all",
-            "raw": "\"dep3 is not evaluated at all\""
+            "raw": "\"dep3 is not evaluated at all\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -39,7 +39,8 @@
                   "regex": {
                     "pattern": "undefined",
                     "flags": ""
-                  }
+                  },
+                  "bigint": null
                 },
                 "property": {
                   "type": "Identifier",
@@ -58,7 +59,9 @@
               "start": 503,
               "end": 504,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -106,14 +109,18 @@
             "start": 530,
             "end": 541,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 543,
             "end": 592,
             "value": "The value of __re is expected to be \"undefined\"",
-            "raw": "'The value of __re is expected to be \"undefined\"'"
+            "raw": "'The value of __re is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

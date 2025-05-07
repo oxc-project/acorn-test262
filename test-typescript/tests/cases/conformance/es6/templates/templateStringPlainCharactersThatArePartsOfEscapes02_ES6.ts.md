@@ -20,203 +20,261 @@ __ESTREE_TEST__:PASS:
             "start": 5,
             "end": 8,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 14,
             "end": 17,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 23,
             "end": 26,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 32,
             "end": 35,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 41,
             "end": 44,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 50,
             "end": 53,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 59,
             "end": 62,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 68,
             "end": 71,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 77,
             "end": 80,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 86,
             "end": 89,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 96,
             "end": 99,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 106,
             "end": 109,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 116,
             "end": 119,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 126,
             "end": 129,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 136,
             "end": 139,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 146,
             "end": 149,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 156,
             "end": 159,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 166,
             "end": 169,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 176,
             "end": 179,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 186,
             "end": 189,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 196,
             "end": 199,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 208,
             "end": 211,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 220,
             "end": 223,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 232,
             "end": 235,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 241,
             "end": 244,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 250,
             "end": 253,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 259,
             "end": 262,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 268,
             "end": 271,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 277,
             "end": 280,
             "raw": "\" \"",
-            "value": " "
+            "value": " ",
+            "regex": null,
+            "bigint": null
           }
         ],
         "quasis": [

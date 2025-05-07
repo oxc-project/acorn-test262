@@ -47,7 +47,9 @@
                 "start": 478,
                 "end": 488,
                 "value": "Infinity",
-                "raw": "\"Infinity\""
+                "raw": "\"Infinity\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -76,7 +78,9 @@
             "start": 517,
             "end": 570,
             "value": "Number(\"Infinity\") returns Number.POSITIVE_INFINITY",
-            "raw": "'Number(\"Infinity\") returns Number.POSITIVE_INFINITY'"
+            "raw": "'Number(\"Infinity\") returns Number.POSITIVE_INFINITY'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -126,7 +130,9 @@
                 "start": 597,
                 "end": 607,
                 "value": "Infinity",
-                "raw": "\"Infinity\""
+                "raw": "\"Infinity\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -136,14 +142,18 @@
             "start": 610,
             "end": 618,
             "value": 1e+400,
-            "raw": "10e10000"
+            "raw": "10e10000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 620,
             "end": 661,
             "value": "Number(\"Infinity\") must return 10e10000",
-            "raw": "'Number(\"Infinity\") must return 10e10000'"
+            "raw": "'Number(\"Infinity\") must return 10e10000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -193,7 +203,9 @@
                 "start": 688,
                 "end": 698,
                 "value": "Infinity",
-                "raw": "\"Infinity\""
+                "raw": "\"Infinity\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -203,14 +215,18 @@
             "start": 701,
             "end": 709,
             "value": 1e+400,
-            "raw": "10E10000"
+            "raw": "10E10000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 752,
             "value": "Number(\"Infinity\") must return 10E10000",
-            "raw": "'Number(\"Infinity\") must return 10E10000'"
+            "raw": "'Number(\"Infinity\") must return 10E10000'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +276,9 @@
                 "start": 783,
                 "end": 793,
                 "value": "Infinity",
-                "raw": "\"Infinity\""
+                "raw": "\"Infinity\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -270,14 +288,18 @@
             "start": 798,
             "end": 806,
             "value": 1e+400,
-            "raw": "10e10000"
+            "raw": "10e10000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 888,
             "value": "Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")",
-            "raw": "'Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")'"
+            "raw": "'Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

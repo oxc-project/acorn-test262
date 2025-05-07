@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 72,
         "end": 79,
         "raw": "'react'",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -418,14 +420,18 @@ __ESTREE_TEST__:PASS:
                           "start": 211,
                           "end": 212,
                           "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 214,
                           "end": 215,
                           "raw": "2",
-                          "value": 2
+                          "value": 2,
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     },

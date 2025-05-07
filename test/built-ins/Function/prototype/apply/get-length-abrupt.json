@@ -174,7 +174,9 @@
                         "start": 616,
                         "end": 620,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

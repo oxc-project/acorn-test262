@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 51,
         "end": 58,
         "raw": "'./api'",
-        "value": "./api"
+        "value": "./api",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -121,7 +123,9 @@ __ESTREE_TEST__:PASS:
                       "start": 94,
                       "end": 96,
                       "raw": "42",
-                      "value": 42
+                      "value": 42,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -147,7 +151,9 @@ __ESTREE_TEST__:PASS:
                       "start": 104,
                       "end": 112,
                       "raw": "'secret'",
-                      "value": "secret"
+                      "value": "secret",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -222,7 +228,9 @@ __ESTREE_TEST__:PASS:
                       "start": 290,
                       "end": 292,
                       "raw": "42",
-                      "value": 42
+                      "value": 42,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -248,7 +256,9 @@ __ESTREE_TEST__:PASS:
                       "start": 300,
                       "end": 308,
                       "raw": "'secret'",
-                      "value": "secret"
+                      "value": "secret",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -294,7 +304,9 @@ __ESTREE_TEST__:PASS:
         "start": 55,
         "end": 67,
         "raw": "'./internal'",
-        "value": "./internal"
+        "value": "./internal",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

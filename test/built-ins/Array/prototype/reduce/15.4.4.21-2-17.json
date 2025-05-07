@@ -84,7 +84,9 @@
                   "start": 380,
                   "end": 381,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -158,7 +160,9 @@
                         "start": 427,
                         "end": 428,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -168,7 +172,9 @@
                       "start": 432,
                       "end": 433,
                       "value": 9,
-                      "raw": "9"
+                      "raw": "9",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -243,7 +249,9 @@
                         "start": 495,
                         "end": 496,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -300,14 +308,18 @@
                 "start": 525,
                 "end": 527,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 531,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -317,14 +329,18 @@
             "start": 534,
             "end": 538,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 554,
             "value": "func(12, 11)",
-            "raw": "'func(12, 11)'"
+            "raw": "'func(12, 11)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

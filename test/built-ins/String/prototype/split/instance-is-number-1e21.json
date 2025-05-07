@@ -40,7 +40,9 @@
                   "start": 411,
                   "end": 415,
                   "value": 1e+21,
-                  "raw": "1e21"
+                  "raw": "1e21",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -214,7 +216,9 @@
             "start": 550,
             "end": 624,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,14 +276,18 @@
             "start": 662,
             "end": 663,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 699,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,7 +336,9 @@
               "start": 731,
               "end": 732,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -364,7 +374,9 @@
             "start": 762,
             "end": 848,
             "value": "The value of __split[0] must return the same value returned by __instance.toString()",
-            "raw": "'The value of __split[0] must return the same value returned by __instance.toString()'"
+            "raw": "'The value of __split[0] must return the same value returned by __instance.toString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

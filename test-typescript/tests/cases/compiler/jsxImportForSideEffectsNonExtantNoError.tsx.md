@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 67,
         "end": 74,
         "raw": "\"react\"",
-        "value": "react"
+        "value": "react",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -46,7 +48,9 @@ __ESTREE_TEST__:PASS:
         "start": 84,
         "end": 95,
         "raw": "\"./App.css\"",
-        "value": "./App.css"
+        "value": "./App.css",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },

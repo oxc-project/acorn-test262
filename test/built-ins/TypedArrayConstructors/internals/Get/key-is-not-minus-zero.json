@@ -80,7 +80,9 @@
             "start": 741,
             "end": 745,
             "value": "-0",
-            "raw": "\"-0\""
+            "raw": "\"-0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -134,7 +136,9 @@
                               "start": 796,
                               "end": 838,
                               "value": "OrdinaryGet was called! Ref: 9.1.8.1 3.c",
-                              "raw": "\"OrdinaryGet was called! Ref: 9.1.8.1 3.c\""
+                              "raw": "\"OrdinaryGet was called! Ref: 9.1.8.1 3.c\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -222,14 +226,18 @@
                                 "start": 919,
                                 "end": 921,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 923,
                                 "end": 925,
                                 "value": 43,
-                                "raw": "43"
+                                "raw": "43",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -282,7 +290,9 @@
                           "start": 956,
                           "end": 960,
                           "value": "-0",
-                          "raw": "\"-0\""
+                          "raw": "\"-0\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false

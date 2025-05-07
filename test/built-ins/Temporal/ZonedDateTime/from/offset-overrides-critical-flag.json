@@ -60,7 +60,9 @@
                 "start": 342,
                 "end": 372,
                 "value": "2022-10-07T18:37-07:00[!UTC]",
-                "raw": "\"2022-10-07T18:37-07:00[!UTC]\""
+                "raw": "\"2022-10-07T18:37-07:00[!UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -85,7 +87,9 @@
                       "start": 384,
                       "end": 389,
                       "value": "use",
-                      "raw": "\"use\""
+                      "raw": "\"use\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -151,6 +155,7 @@
             "end": 464,
             "value": null,
             "raw": "1665193020000000000n",
+            "regex": null,
             "bigint": "1665193020000000000"
           },
           {
@@ -158,7 +163,9 @@
             "start": 468,
             "end": 534,
             "value": "exact time is unchanged with offset = use, despite critical flag",
-            "raw": "\"exact time is unchanged with offset = use, despite critical flag\""
+            "raw": "\"exact time is unchanged with offset = use, despite critical flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,7 +228,9 @@
                 "start": 588,
                 "end": 618,
                 "value": "2022-10-07T18:37-07:00[!UTC]",
-                "raw": "\"2022-10-07T18:37-07:00[!UTC]\""
+                "raw": "\"2022-10-07T18:37-07:00[!UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -246,7 +255,9 @@
                       "start": 630,
                       "end": 638,
                       "value": "ignore",
-                      "raw": "\"ignore\""
+                      "raw": "\"ignore\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -312,6 +323,7 @@
             "end": 716,
             "value": null,
             "raw": "1665167820000000000n",
+            "regex": null,
             "bigint": "1665167820000000000"
           },
           {
@@ -319,7 +331,9 @@
             "start": 720,
             "end": 788,
             "value": "wall time is unchanged with offset = ignore, despite critical flag",
-            "raw": "\"wall time is unchanged with offset = ignore, despite critical flag\""
+            "raw": "\"wall time is unchanged with offset = ignore, despite critical flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +396,9 @@
                 "start": 842,
                 "end": 872,
                 "value": "2022-10-07T18:37-07:00[!UTC]",
-                "raw": "\"2022-10-07T18:37-07:00[!UTC]\""
+                "raw": "\"2022-10-07T18:37-07:00[!UTC]\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -407,7 +423,9 @@
                       "start": 884,
                       "end": 892,
                       "value": "prefer",
-                      "raw": "\"prefer\""
+                      "raw": "\"prefer\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -473,6 +491,7 @@
             "end": 967,
             "value": null,
             "raw": "1665193020000000000n",
+            "regex": null,
             "bigint": "1665193020000000000"
           },
           {
@@ -480,7 +499,9 @@
             "start": 971,
             "end": 1039,
             "value": "offset is recalculated with offset = prefer, despite critical flag",
-            "raw": "\"offset is recalculated with offset = prefer, despite critical flag\""
+            "raw": "\"offset is recalculated with offset = prefer, despite critical flag\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

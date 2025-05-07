@@ -71,7 +71,9 @@
                         "start": 644,
                         "end": 654,
                         "value": "/\\\rn/;",
-                        "raw": "\"/\\\\\\rn/;\""
+                        "raw": "\"/\\\\\\rn/;\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

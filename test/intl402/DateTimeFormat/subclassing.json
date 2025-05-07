@@ -28,21 +28,27 @@
                 "start": 452,
                 "end": 457,
                 "value": "tlh",
-                "raw": "\"tlh\""
+                "raw": "\"tlh\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 459,
                 "end": 463,
                 "value": "id",
-                "raw": "\"id\""
+                "raw": "\"id\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 469,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -86,7 +92,9 @@
                     "start": 490,
                     "end": 491,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -156,7 +164,9 @@
                         "start": 526,
                         "end": 548,
                         "value": "1989-11-09T17:57:00Z",
-                        "raw": "\"1989-11-09T17:57:00Z\""
+                        "raw": "\"1989-11-09T17:57:00Z\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

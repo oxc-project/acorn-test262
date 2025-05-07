@@ -150,7 +150,9 @@
             "start": 425,
             "end": 426,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -239,7 +241,9 @@
                             "start": 466,
                             "end": 467,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -297,7 +301,9 @@
                             "start": 506,
                             "end": 507,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -329,7 +335,9 @@
                             "start": 536,
                             "end": 554,
                             "value": "Should be second",
-                            "raw": "\"Should be second\""
+                            "raw": "\"Should be second\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -514,7 +522,9 @@
                                             "start": 685,
                                             "end": 686,
                                             "value": 4,
-                                            "raw": "4"
+                                            "raw": "4",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -572,7 +582,9 @@
                                             "start": 727,
                                             "end": 728,
                                             "value": 4,
-                                            "raw": "4"
+                                            "raw": "4",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -604,7 +616,9 @@
                                             "start": 757,
                                             "end": 774,
                                             "value": "Should be third",
-                                            "raw": "\"Should be third\""
+                                            "raw": "\"Should be third\"",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -675,7 +689,9 @@
                             "start": 819,
                             "end": 820,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -733,7 +749,9 @@
                             "start": 859,
                             "end": 860,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -765,7 +783,9 @@
                             "start": 889,
                             "end": 906,
                             "value": "Should be first",
-                            "raw": "\"Should be first\""
+                            "raw": "\"Should be first\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

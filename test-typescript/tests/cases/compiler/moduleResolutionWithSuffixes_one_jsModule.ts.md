@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 30,
         "raw": "\"./foo.js\"",
-        "value": "./foo.js"
+        "value": "./foo.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -67,7 +69,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -110,7 +114,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 39,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -209,7 +215,9 @@ __ESTREE_TEST__:PASS:
         "start": 0,
         "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -252,7 +260,9 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 39,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         }
       }
     },

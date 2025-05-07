@@ -203,7 +203,9 @@
                       "start": 1141,
                       "end": 1142,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "==",
                     "right": {
@@ -311,7 +313,9 @@
                       "start": 1217,
                       "end": 1218,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "==",
                     "right": {
@@ -419,7 +423,9 @@
                       "start": 1293,
                       "end": 1294,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "==",
                     "right": {

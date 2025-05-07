@@ -98,7 +98,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 30,
         "raw": "\"../projA\"",
-        "value": "../projA"
+        "value": "../projA",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -305,7 +307,9 @@ __ESTREE_TEST__:PASS:
                                       "start": 46,
                                       "end": 56,
                                       "raw": "\"../projA\"",
-                                      "value": "../projA"
+                                      "value": "../projA",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   },
                                   "options": null,
@@ -374,7 +378,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 26,
         "raw": "\"../projC\"",
-        "value": "../projC"
+        "value": "../projC",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

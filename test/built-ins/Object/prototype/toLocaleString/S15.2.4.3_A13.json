@@ -110,7 +110,9 @@
                         "start": 346,
                         "end": 350,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -124,7 +126,9 @@
             "start": 356,
             "end": 429,
             "value": "Object.prototype.toLocaleString.call(null) throws a TypeError exception",
-            "raw": "'Object.prototype.toLocaleString.call(null) throws a TypeError exception'"
+            "raw": "'Object.prototype.toLocaleString.call(null) throws a TypeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

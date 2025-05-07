@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "\\u{0}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 467,
                 "end": 475,
                 "value": "\u0000",
-                "raw": "'\\u0000'"
+                "raw": "'\\u0000'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -62,7 +65,9 @@
             "start": 478,
             "end": 502,
             "value": "Minimum value (U+0000)",
-            "raw": "'Minimum value (U+0000)'"
+            "raw": "'Minimum value (U+0000)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -100,7 +105,8 @@
                 "regex": {
                   "pattern": "\\u{1}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -117,7 +123,9 @@
                 "start": 526,
                 "end": 534,
                 "value": "\u0001",
-                "raw": "'\\u0001'"
+                "raw": "'\\u0001'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -127,7 +135,9 @@
             "start": 537,
             "end": 545,
             "value": "U+0001",
-            "raw": "'U+0001'"
+            "raw": "'U+0001'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +188,8 @@
                 "regex": {
                   "pattern": "\\u{1}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -195,7 +206,9 @@
                 "start": 579,
                 "end": 582,
                 "value": "u",
-                "raw": "'u'"
+                "raw": "'u'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -205,7 +218,9 @@
             "start": 585,
             "end": 590,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +258,8 @@
                 "regex": {
                   "pattern": "\\u{3f}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -260,7 +276,9 @@
                 "start": 615,
                 "end": 618,
                 "value": "?",
-                "raw": "'?'"
+                "raw": "'?'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -301,7 +319,8 @@
                 "regex": {
                   "pattern": "\\u{000000003f}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -318,7 +337,9 @@
                 "start": 652,
                 "end": 655,
                 "value": "?",
-                "raw": "'?'"
+                "raw": "'?'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -328,7 +349,9 @@
             "start": 658,
             "end": 673,
             "value": "Leading zeros",
-            "raw": "'Leading zeros'"
+            "raw": "'Leading zeros'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -366,7 +389,8 @@
                 "regex": {
                   "pattern": "\\u{3F}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -383,7 +407,9 @@
                 "start": 698,
                 "end": 701,
                 "value": "?",
-                "raw": "'?'"
+                "raw": "'?'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -393,7 +419,9 @@
             "start": 704,
             "end": 724,
             "value": "Case insensitivity",
-            "raw": "'Case insensitivity'"
+            "raw": "'Case insensitivity'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -431,7 +459,8 @@
                 "regex": {
                   "pattern": "\\u{10ffff}",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -448,7 +477,9 @@
                 "start": 753,
                 "end": 767,
                 "value": "􏿿",
-                "raw": "'\\udbff\\udfff'"
+                "raw": "'\\udbff\\udfff'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -458,7 +489,9 @@
             "start": 770,
             "end": 797,
             "value": "Maxiumum value (U+10ffff)",
-            "raw": "'Maxiumum value (U+10ffff)'"
+            "raw": "'Maxiumum value (U+10ffff)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

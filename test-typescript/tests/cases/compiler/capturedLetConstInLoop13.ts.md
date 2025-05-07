@@ -60,21 +60,27 @@ __ESTREE_TEST__:PASS:
                           "start": 56,
                           "end": 59,
                           "raw": "\"a\"",
-                          "value": "a"
+                          "value": "a",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 61,
                           "end": 64,
                           "raw": "\"b\"",
-                          "value": "b"
+                          "value": "b",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "Literal",
                           "start": 66,
                           "end": 69,
                           "raw": "\"c\"",
-                          "value": "c"
+                          "value": "c",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "callee": {
@@ -192,7 +198,9 @@ __ESTREE_TEST__:PASS:
                                         "start": 210,
                                         "end": 214,
                                         "raw": "\".a\"",
-                                        "value": ".a"
+                                        "value": ".a",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     },
                                     "kind": "init",

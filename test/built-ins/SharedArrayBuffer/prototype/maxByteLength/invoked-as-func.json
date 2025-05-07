@@ -70,7 +70,9 @@
                   "start": 561,
                   "end": 576,
                   "value": "maxByteLength",
-                  "raw": "'maxByteLength'"
+                  "raw": "'maxByteLength'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -134,7 +136,9 @@
             "start": 617,
             "end": 627,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

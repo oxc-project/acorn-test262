@@ -203,7 +203,9 @@
                       "start": 995,
                       "end": 996,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -222,7 +224,9 @@
             "start": 1005,
             "end": 1045,
             "value": "ordinary object value, right-hand side",
-            "raw": "'ordinary object value, right-hand side'"
+            "raw": "'ordinary object value, right-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -296,7 +300,9 @@
                       "start": 1092,
                       "end": 1093,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -308,7 +314,9 @@
             "start": 1098,
             "end": 1137,
             "value": "ordinary object value, left-hand side",
-            "raw": "'ordinary object value, left-hand side'"
+            "raw": "'ordinary object value, left-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -432,7 +440,9 @@
                       "start": 1228,
                       "end": 1229,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -451,7 +461,9 @@
             "start": 1238,
             "end": 1286,
             "value": "arguments exotic object value, right-hand side",
-            "raw": "'arguments exotic object value, right-hand side'"
+            "raw": "'arguments exotic object value, right-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -525,7 +537,9 @@
                       "start": 1333,
                       "end": 1334,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -537,7 +551,9 @@
             "start": 1339,
             "end": 1386,
             "value": "arguments exotic object value, left-hand side",
-            "raw": "'arguments exotic object value, left-hand side'"
+            "raw": "'arguments exotic object value, left-hand side'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

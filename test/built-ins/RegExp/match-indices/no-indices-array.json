@@ -35,7 +35,8 @@
                 "regex": {
                   "pattern": "a",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -52,7 +53,9 @@
                 "start": 519,
                 "end": 522,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -111,7 +114,9 @@
                   "start": 594,
                   "end": 603,
                   "value": "indices",
-                  "raw": "\"indices\""
+                  "raw": "\"indices\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

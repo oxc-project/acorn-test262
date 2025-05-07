@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "abc",
               "flags": "y"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -79,7 +80,9 @@
             "start": 762,
             "end": 767,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +140,9 @@
             "start": 801,
             "end": 802,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -62,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "acddeiiloosstuuv",
                   "pattern": "foo"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "(?med-ium:bar)"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -84,7 +86,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\0"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -95,7 +98,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\1"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -106,7 +110,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\2"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -117,7 +122,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "(hi)\\1"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -128,7 +134,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "(hi) (hello) \\2"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -139,7 +146,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\2()(\\12)(foo)\\1\\0[\\0\\1\\01\\123\\08\\8](\\3\\03)\\5\\005\\9\\009"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -150,7 +158,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\2()(\\12)(foo)\\1\\0[\\0\\1\\01\\123\\08\\8](\\3\\03)\\5\\005\\9\\009"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -161,7 +170,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "(?<foo>)((?<bar>bar)bar)(?<baz>baz)|(foo(?<foo>foo))(?<baz>)"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -172,7 +182,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "(\\k<bar>)\\k<absent>(?<foo>foo)|(?<bar>)((?<foo>)|(bar(?<bar>bar)))"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -183,7 +194,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "{}{1,2}_{3}.{4,}?(foo){008}${32,16}\\b{064,128}.+&*?\\???\\n{,256}{\\\\{,"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -194,7 +206,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "[-A-Za-z-z-aZ-A\\d_-\\d-.-.\\r-\\n\\w-\\W]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -205,7 +218,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\p{L}\\p{gc=L}\\p{ASCII}\\p{Invalid}[\\p{L}\\p{gc=L}\\P{ASCII}\\p{Invalid}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -216,7 +230,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\p{L}\\p{gc=L}\\p{ASCII}\\p{Invalid}[\\p{L}\\p{gc=L}\\P{ASCII}\\p{Invalid}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -227,7 +242,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "\\p{L}\\p{gc=L}\\p{ASCII}\\p{Invalid}[\\p{L}\\p{gc=L}\\P{ASCII}\\p{Invalid}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -238,7 +254,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\p{InvalidProperty=Value}\\p{=}\\p{sc=}\\P{=foo}[\\p{}\\p\\\\\\P\\P{]\\p{"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -249,7 +266,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\p{InvalidProperty=Value}\\p{=}\\p{sc=}\\P{=foo}[\\p{}\\p\\\\\\P\\P{]\\p{"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -260,7 +278,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "\\p{InvalidProperty=Value}\\p{=}\\p{sc=}\\P{=foo}[\\p{}\\p\\\\\\P\\P{]\\p{"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -271,7 +290,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\p{RGI_Emoji}\\P{RGI_Emoji}[^\\p{RGI_Emoji}\\P{RGI_Emoji}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -282,7 +302,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\p{RGI_Emoji}\\P{RGI_Emoji}[^\\p{RGI_Emoji}\\P{RGI_Emoji}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -293,7 +314,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "\\p{RGI_Emoji}\\P{RGI_Emoji}[^\\p{RGI_Emoji}\\P{RGI_Emoji}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -304,7 +326,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\c[\\c0\\ca\\cQ\\c\\C]\\c1\\C"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -315,7 +338,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\c[\\c0\\ca\\cQ\\c\\C]\\c1\\C"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -326,7 +350,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "\\q\\\\\\`[\\q\\\\\\`[\\Q\\\\\\Q{\\q{foo|bar|baz]\\q{]\\q{"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -337,7 +362,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "\\q\\\\\\`[\\q\\\\\\`[\\Q\\\\\\Q{\\q{foo|bar|baz]\\q{]\\q{"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -348,7 +374,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "\\q\\\\\\`[\\q\\\\\\`[\\Q\\\\\\Q{\\q{foo|bar|baz]\\q{]\\q{"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -359,7 +386,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "",
                   "pattern": "[a--b[--][\\d++[]]&&[[&0-9--]&&[\\p{L}]--\\P{L}-_-]]&&&\\q{foo}[0---9][&&q&&&\\q{bar}&&]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -370,7 +398,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "u",
                   "pattern": "[a--b[--][\\d++[]]&&[[&0-9--]&&[\\p{L}]--\\P{L}-_-]]&&&\\q{foo}[0---9][&&q&&&\\q{bar}&&]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -381,7 +410,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[a--b[--][\\d++[]]&&[[&0-9--]&&[\\p{L}]--\\P{L}-_-]]&&&\\q{foo}[0---9][&&q&&&\\q{bar}&&]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -392,7 +422,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[[^\\P{Decimal_Number}&&[0-9]]&&\\p{L}&&\\p{ID_Continue}--\\p{ASCII}\\p{CWCF}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -403,7 +434,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^\\p{Emoji}\\p{RGI_Emoji}][^\\p{Emoji}--\\p{RGI_Emoji}][^\\p{Emoji}&&\\p{RGI_Emoji}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -414,7 +446,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^\\p{RGI_Emoji}\\p{Emoji}][^\\p{RGI_Emoji}--\\p{Emoji}][^\\p{RGI_Emoji}&&\\p{Emoji}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -425,7 +458,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^\\p{RGI_Emoji}\\q{foo}][^\\p{RGI_Emoji}--\\q{foo}][^\\p{RGI_Emoji}&&\\q{foo}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -436,7 +470,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^\\p{Emoji}[[\\p{RGI_Emoji}]]][^\\p{Emoji}--[[\\p{RGI_Emoji}]]][^\\p{Emoji}&&[[\\p{RGI_Emoji}]]]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -447,7 +482,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^[[\\p{RGI_Emoji}]]\\p{Emoji}][^[[\\p{RGI_Emoji}]]--\\p{Emoji}][^[[\\p{RGI_Emoji}]]&&\\p{Emoji}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -458,7 +494,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^[[\\p{RGI_Emoji}]]\\q{foo}][^[[\\p{RGI_Emoji}]]--\\q{foo}][^[[\\p{RGI_Emoji}]]&&\\q{foo}]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -469,7 +506,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^\\q{foo|bar|baz}--\\q{foo}--\\q{bar}--\\q{baz}][^\\p{L}--\\q{foo}--[\\q{bar}]--[^[\\q{baz}]]]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -480,7 +518,8 @@ __ESTREE_TEST__:PASS:
                   "flags": "v",
                   "pattern": "[^[[\\q{foo|bar|baz}]]--\\q{foo}--\\q{bar}--\\q{baz}][^[^[^\\p{L}]]--\\q{foo}--[\\q{bar}]--[^[\\q{baz}]]]"
                 },
-                "value": null
+                "value": null,
+                "bigint": null
               }
             ]
           }

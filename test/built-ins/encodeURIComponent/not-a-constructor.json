@@ -56,14 +56,18 @@
             "start": 742,
             "end": 747,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 802,
             "value": "isConstructor(encodeURIComponent) must return false",
-            "raw": "'isConstructor(encodeURIComponent) must return false'"
+            "raw": "'isConstructor(encodeURIComponent) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -137,7 +141,9 @@
                         "start": 864,
                         "end": 866,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

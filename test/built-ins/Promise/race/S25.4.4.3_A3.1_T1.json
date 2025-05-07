@@ -129,7 +129,9 @@
                             "start": 504,
                             "end": 505,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

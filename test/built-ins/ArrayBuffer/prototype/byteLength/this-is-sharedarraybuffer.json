@@ -66,7 +66,9 @@
                 "start": 428,
                 "end": 440,
                 "value": "byteLength",
-                "raw": "\"byteLength\""
+                "raw": "\"byteLength\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
                 "start": 506,
                 "end": 507,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -246,7 +250,9 @@
             "start": 572,
             "end": 610,
             "value": "`this` cannot be a SharedArrayBuffer",
-            "raw": "\"`this` cannot be a SharedArrayBuffer\""
+            "raw": "\"`this` cannot be a SharedArrayBuffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -398,7 +404,9 @@
             "start": 721,
             "end": 759,
             "value": "`this` cannot be a SharedArrayBuffer",
-            "raw": "\"`this` cannot be a SharedArrayBuffer\""
+            "raw": "\"`this` cannot be a SharedArrayBuffer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

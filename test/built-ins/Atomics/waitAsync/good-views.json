@@ -62,14 +62,18 @@
             "start": 391,
             "end": 401,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 458,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -216,7 +220,9 @@
                           "start": 1682,
                           "end": 1683,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -238,7 +244,9 @@
                       "start": 1689,
                       "end": 1690,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "update": {
@@ -381,7 +389,9 @@
                           "start": 1791,
                           "end": 1792,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -391,14 +401,18 @@
                         "start": 1799,
                         "end": 1812,
                         "value": "A timed-out",
-                        "raw": "'A timed-out'"
+                        "raw": "'A timed-out'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1818,
                         "end": 1861,
                         "value": "The value of outcomes[0] is \"A timed-out\"",
-                        "raw": "'The value of outcomes[0] is \"A timed-out\"'"
+                        "raw": "'The value of outcomes[0] is \"A timed-out\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -447,7 +461,9 @@
                           "start": 1901,
                           "end": 1902,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -457,14 +473,18 @@
                         "start": 1909,
                         "end": 1922,
                         "value": "B not-equal",
-                        "raw": "'B not-equal'"
+                        "raw": "'B not-equal'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1928,
                         "end": 1971,
                         "value": "The value of outcomes[1] is \"B not-equal\"",
-                        "raw": "'The value of outcomes[1] is \"B not-equal\"'"
+                        "raw": "'The value of outcomes[1] is \"B not-equal\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -513,7 +533,9 @@
                           "start": 2010,
                           "end": 2011,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -523,14 +545,18 @@
                         "start": 2018,
                         "end": 2071,
                         "value": "C not-equal,not-equal,not-equal,not-equal,not-equal",
-                        "raw": "'C not-equal,not-equal,not-equal,not-equal,not-equal'"
+                        "raw": "'C not-equal,not-equal,not-equal,not-equal,not-equal'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 2077,
                         "end": 2160,
                         "value": "The value of outcomes[2] is \"C not-equal,not-equal,not-equal,not-equal,not-equal\"",
-                        "raw": "'The value of outcomes[2] is \"C not-equal,not-equal,not-equal,not-equal,not-equal\"'"
+                        "raw": "'The value of outcomes[2] is \"C not-equal,not-equal,not-equal,not-equal,not-equal\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

@@ -70,7 +70,9 @@
                             "start": 1113,
                             "end": 1114,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -174,7 +176,9 @@
                         "start": 1197,
                         "end": 1260,
                         "value": "The value of sample.Infinity is expected to equal `undefined`",
-                        "raw": "'The value of sample.Infinity is expected to equal `undefined`'"
+                        "raw": "'The value of sample.Infinity is expected to equal `undefined`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

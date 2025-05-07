@@ -34,21 +34,27 @@
                 "start": 321,
                 "end": 326,
                 "value": "new",
-                "raw": "'new'"
+                "raw": "'new'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 333,
                 "value": "zoo",
-                "raw": "'zoo'"
+                "raw": "'zoo'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 342,
                 "value": "revue",
-                "raw": "'revue'"
+                "raw": "'revue'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +99,9 @@
               "start": 462,
               "end": 467,
               "value": "new",
-              "raw": "'new'"
+              "raw": "'new'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -104,7 +112,9 @@
           "start": 473,
           "end": 474,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -136,7 +146,9 @@
                     "start": 503,
                     "end": 607,
                     "value": "#1: __instance = new Array('new','zoo','revue'); __instance.lastIndexOf('new') === 0. Actual: ",
-                    "raw": "'#1: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.lastIndexOf(\\'new\\') === 0. Actual: '"
+                    "raw": "'#1: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.lastIndexOf(\\'new\\') === 0. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -168,7 +180,9 @@
                         "start": 633,
                         "end": 638,
                         "value": "new",
-                        "raw": "'new'"
+                        "raw": "'new'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -218,7 +232,9 @@
               "start": 843,
               "end": 848,
               "value": "zoo",
-              "raw": "'zoo'"
+              "raw": "'zoo'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -229,7 +245,9 @@
           "start": 854,
           "end": 855,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -261,7 +279,9 @@
                     "start": 884,
                     "end": 988,
                     "value": "#2: __instance = new Array('new','zoo','revue'); __instance.lastIndexOf('zoo') === 1. Actual: ",
-                    "raw": "'#2: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.lastIndexOf(\\'zoo\\') === 1. Actual: '"
+                    "raw": "'#2: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.lastIndexOf(\\'zoo\\') === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -293,7 +313,9 @@
                         "start": 1014,
                         "end": 1019,
                         "value": "zoo",
-                        "raw": "'zoo'"
+                        "raw": "'zoo'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

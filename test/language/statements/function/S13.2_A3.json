@@ -62,7 +62,9 @@
           "start": 551,
           "end": 552,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -94,7 +96,9 @@
                     "start": 580,
                     "end": 632,
                     "value": "#1: __func.length === 0. Actual: __func.length ===",
-                    "raw": "'#1: __func.length === 0. Actual: __func.length ==='"
+                    "raw": "'#1: __func.length === 0. Actual: __func.length ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -202,7 +206,9 @@
           "start": 872,
           "end": 873,
           "value": 3,
-          "raw": "3"
+          "raw": "3",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -234,7 +240,9 @@
                     "start": 901,
                     "end": 953,
                     "value": "#2: __gunc.length === 3. Actual: __gunc.length ===",
-                    "raw": "'#2: __gunc.length === 3. Actual: __gunc.length ==='"
+                    "raw": "'#2: __gunc.length === 3. Actual: __gunc.length ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

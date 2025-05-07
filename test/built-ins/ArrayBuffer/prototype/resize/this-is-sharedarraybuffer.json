@@ -34,7 +34,9 @@
                 "start": 576,
                 "end": 577,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -162,7 +164,9 @@
             "start": 664,
             "end": 708,
             "value": "`this` value cannot be a SharedArrayBuffer",
-            "raw": "'`this` value cannot be a SharedArrayBuffer'"
+            "raw": "'`this` value cannot be a SharedArrayBuffer'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

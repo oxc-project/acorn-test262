@@ -122,7 +122,9 @@
                   "start": 466,
                   "end": 527,
                   "value": "#1: If Expression is omitted, the return value is undefined",
-                  "raw": "'#1: If Expression is omitted, the return value is undefined'"
+                  "raw": "'#1: If Expression is omitted, the return value is undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

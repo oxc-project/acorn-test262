@@ -127,7 +127,9 @@
                                   "start": 1261,
                                   "end": 1265,
                                   "value": 2000,
-                                  "raw": "2000"
+                                  "raw": "2000",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -149,7 +151,9 @@
                                   "start": 1274,
                                   "end": 1275,
                                   "value": 5,
-                                  "raw": "5"
+                                  "raw": "5",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -171,7 +175,9 @@
                                   "start": 1282,
                                   "end": 1283,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },

@@ -55,7 +55,9 @@
                     "start": 572,
                     "end": 574,
                     "value": "",
-                    "raw": "''"
+                    "raw": "''",
+                    "regex": null,
+                    "bigint": null
                   },
                   "property": {
                     "type": "MemberExpression",
@@ -154,7 +156,9 @@
             "start": 655,
             "end": 672,
             "value": "String Iterator",
-            "raw": "'String Iterator'"
+            "raw": "'String Iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -223,7 +227,9 @@
                   "start": 746,
                   "end": 751,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -245,7 +251,9 @@
                   "start": 767,
                   "end": 772,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -267,7 +275,9 @@
                   "start": 790,
                   "end": 794,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

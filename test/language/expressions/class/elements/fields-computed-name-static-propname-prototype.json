@@ -23,7 +23,9 @@
             "start": 749,
             "end": 760,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -95,7 +97,9 @@
                           "start": 804,
                           "end": 805,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ClassExpression",
@@ -125,7 +129,9 @@
                                   "start": 832,
                                   "end": 834,
                                   "value": 42,
-                                  "raw": "42"
+                                  "raw": "42",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -208,7 +214,9 @@
                           "start": 888,
                           "end": 889,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "ClassExpression",

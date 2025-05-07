@@ -45,7 +45,9 @@
                     "start": 903,
                     "end": 904,
                     "value": 8,
-                    "raw": "8"
+                    "raw": "8",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,7 +56,9 @@
                 "start": 907,
                 "end": 908,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -218,7 +222,9 @@
                         "start": 1052,
                         "end": 1055,
                         "value": 100,
-                        "raw": "100"
+                        "raw": "100",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -238,7 +244,9 @@
             "start": 1071,
             "end": 1096,
             "value": "setInt16(100, poisoned)",
-            "raw": "\"setInt16(100, poisoned)\""
+            "raw": "\"setInt16(100, poisoned)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,7 +333,9 @@
                         "start": 1161,
                         "end": 1166,
                         "value": "100",
-                        "raw": "'100'"
+                        "raw": "'100'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -345,7 +355,9 @@
             "start": 1182,
             "end": 1209,
             "value": "setInt16('100', poisoned)",
-            "raw": "\"setInt16('100', poisoned)\""
+            "raw": "\"setInt16('100', poisoned)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

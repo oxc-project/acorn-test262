@@ -269,7 +269,9 @@ __ESTREE_TEST__:PASS:
                   "start": 140,
                   "end": 150,
                   "raw": "'someProp'",
-                  "value": "someProp"
+                  "value": "someProp",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "objectType": {
@@ -375,7 +377,9 @@ __ESTREE_TEST__:PASS:
                           "start": 259,
                           "end": 263,
                           "raw": "true",
-                          "value": true
+                          "value": true,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }

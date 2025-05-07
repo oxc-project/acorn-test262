@@ -56,7 +56,9 @@
               "start": 398,
               "end": 400,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -90,7 +92,9 @@
               "start": 436,
               "end": 438,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -135,7 +139,9 @@
             "start": 470,
             "end": 480,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -202,7 +208,9 @@
                   "start": 532,
                   "end": 536,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -224,7 +232,9 @@
                   "start": 554,
                   "end": 558,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -342,7 +352,9 @@
             "start": 653,
             "end": 658,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -396,7 +408,9 @@
               "start": 690,
               "end": 692,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -422,7 +436,9 @@
             "start": 712,
             "end": 717,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -478,7 +494,9 @@
                 "start": 767,
                 "end": 777,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -542,7 +560,9 @@
               "start": 813,
               "end": 824,
               "value": "undefined",
-              "raw": "'undefined'"
+              "raw": "'undefined'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -574,7 +594,9 @@
             "start": 848,
             "end": 858,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -599,7 +621,9 @@
                   "start": 876,
                   "end": 880,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -621,7 +645,9 @@
                   "start": 898,
                   "end": 902,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -657,7 +683,9 @@
             "start": 927,
             "end": 947,
             "value": "verifyGet !== true",
-            "raw": "'verifyGet !== true'"
+            "raw": "'verifyGet !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -689,7 +717,9 @@
             "start": 968,
             "end": 988,
             "value": "verifySet !== true",
-            "raw": "'verifySet !== true'"
+            "raw": "'verifySet !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

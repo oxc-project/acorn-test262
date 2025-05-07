@@ -256,7 +256,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 29,
         "raw": "\"unknown\"",
-        "value": "unknown"
+        "value": "unknown",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -426,7 +428,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 29,
         "raw": "\"unknown\"",
-        "value": "unknown"
+        "value": "unknown",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -543,7 +547,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 28,
         "raw": "\"unkown\"",
-        "value": "unkown"
+        "value": "unkown",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -814,7 +820,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 30,
         "raw": "\"unknown\"",
-        "value": "unknown"
+        "value": "unknown",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -948,7 +956,9 @@ __ESTREE_TEST__:PASS:
                             "start": 110,
                             "end": 111,
                             "raw": "1",
-                            "value": 1
+                            "value": 1,
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "callee": {

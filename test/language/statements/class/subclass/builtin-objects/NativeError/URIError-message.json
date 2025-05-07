@@ -72,7 +72,9 @@
           "start": 674,
           "end": 692,
           "value": "custom-uri-error",
-          "raw": "'custom-uri-error'"
+          "raw": "'custom-uri-error'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -107,7 +109,9 @@
                 "start": 714,
                 "end": 722,
                 "value": "foo 42",
-                "raw": "'foo 42'"
+                "raw": "'foo 42'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -141,7 +145,9 @@
             "start": 747,
             "end": 756,
             "value": "message",
-            "raw": "'message'"
+            "raw": "'message'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -166,7 +172,9 @@
                   "start": 769,
                   "end": 777,
                   "value": "foo 42",
-                  "raw": "'foo 42'"
+                  "raw": "'foo 42'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -188,7 +196,9 @@
                   "start": 791,
                   "end": 795,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -210,7 +220,9 @@
                   "start": 811,
                   "end": 816,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -232,7 +244,9 @@
                   "start": 834,
                   "end": 838,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -330,7 +344,9 @@
                 "start": 904,
                 "end": 913,
                 "value": "message",
-                "raw": "'message'"
+                "raw": "'message'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -340,7 +356,9 @@
             "start": 916,
             "end": 921,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -398,7 +416,9 @@
             "start": 955,
             "end": 973,
             "value": "custom-uri-error",
-            "raw": "'custom-uri-error'"
+            "raw": "'custom-uri-error'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

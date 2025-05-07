@@ -75,14 +75,18 @@
             "start": 865,
             "end": 875,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 879,
             "end": 952,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +217,9 @@
             "start": 1122,
             "end": 1170,
             "value": "TypeError on wrapping a revoked callable proxy",
-            "raw": "'TypeError on wrapping a revoked callable proxy'"
+            "raw": "'TypeError on wrapping a revoked callable proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +319,9 @@
             "start": 1326,
             "end": 1382,
             "value": "TypeError on wrapping a fn with throwing name accessor",
-            "raw": "'TypeError on wrapping a fn with throwing name accessor'"
+            "raw": "'TypeError on wrapping a fn with throwing name accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -413,7 +421,9 @@
             "start": 1540,
             "end": 1598,
             "value": "TypeError on wrapping a fn with throwing length accessor",
-            "raw": "'TypeError on wrapping a fn with throwing length accessor'"
+            "raw": "'TypeError on wrapping a fn with throwing length accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +523,9 @@
             "start": 1768,
             "end": 1852,
             "value": "TypeError on wrapping a callable proxy with throwing getOwnPropertyDescriptor trap",
-            "raw": "'TypeError on wrapping a callable proxy with throwing getOwnPropertyDescriptor trap'"
+            "raw": "'TypeError on wrapping a callable proxy with throwing getOwnPropertyDescriptor trap'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

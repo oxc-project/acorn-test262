@@ -137,7 +137,9 @@
                 "start": 358,
                 "end": 376,
                 "value": "hello\nw_orld\\!",
-                "raw": "\"hello\\nw_orld\\\\!\""
+                "raw": "\"hello\\nw_orld\\\\!\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -153,7 +155,9 @@
             "start": 391,
             "end": 459,
             "value": "Array.prototype.some.call(\"hello\nw_orld\\!\", callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(\"hello\\nw_orld\\\\!\", callbackfn) !== true'"
+            "raw": "'Array.prototype.some.call(\"hello\\nw_orld\\\\!\", callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 588,
                 "end": 702,
                 "value": "for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) {} finally { break; } } 'bad completion'; }",
-                "raw": "\"for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) {} finally { break; } } 'bad completion'; }\""
+                "raw": "\"for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) {} finally { break; } } 'bad completion'; }\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

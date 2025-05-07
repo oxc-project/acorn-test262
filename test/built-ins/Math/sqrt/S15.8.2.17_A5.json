@@ -114,7 +114,9 @@
             "start": 357,
             "end": 401,
             "value": "Math.sqrt(+Infinity) must return +Infinity",
-            "raw": "'Math.sqrt(+Infinity) must return +Infinity'"
+            "raw": "'Math.sqrt(+Infinity) must return +Infinity'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -63,14 +63,18 @@
             "start": 397,
             "end": 406,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 410,
             "end": 480,
             "value": "The value of `typeof Boolean(undefined)` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(undefined)` is expected to be \"boolean\"'"
+            "raw": "'The value of `typeof Boolean(undefined)` is expected to be \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -129,14 +133,18 @@
             "start": 522,
             "end": 527,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 567,
             "value": "Boolean(undefined) must return false",
-            "raw": "'Boolean(undefined) must return false'"
+            "raw": "'Boolean(undefined) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +206,9 @@
                     "start": 611,
                     "end": 612,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -210,14 +220,18 @@
             "start": 617,
             "end": 626,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 697,
             "value": "The value of `typeof Boolean(void 0)` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(void 0)` is expected to be \"boolean\"'"
+            "raw": "'The value of `typeof Boolean(void 0)` is expected to be \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -273,7 +287,9 @@
                   "start": 732,
                   "end": 733,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -284,14 +300,18 @@
             "start": 736,
             "end": 741,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 743,
             "end": 778,
             "value": "Boolean(void 0) must return false",
-            "raw": "'Boolean(void 0) must return false'"
+            "raw": "'Boolean(void 0) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -374,14 +394,18 @@
             "start": 837,
             "end": 846,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 850,
             "end": 926,
             "value": "The value of `typeof Boolean(function() {}())` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(function() {}())` is expected to be \"boolean\"'"
+            "raw": "'The value of `typeof Boolean(function() {}())` is expected to be \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -457,14 +481,18 @@
             "start": 974,
             "end": 979,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 981,
             "end": 1025,
             "value": "Boolean(function() {}()) must return false",
-            "raw": "'Boolean(function() {}()) must return false'"
+            "raw": "'Boolean(function() {}()) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -520,7 +548,9 @@
                   "start": 1060,
                   "end": 1064,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -531,14 +561,18 @@
             "start": 1067,
             "end": 1076,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1078,
             "end": 1143,
             "value": "The value of `typeof Boolean(null)` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(null)` is expected to be \"boolean\"'"
+            "raw": "'The value of `typeof Boolean(null)` is expected to be \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -588,7 +622,9 @@
                 "start": 1171,
                 "end": 1175,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -598,14 +634,18 @@
             "start": 1178,
             "end": 1183,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1185,
             "end": 1218,
             "value": "Boolean(null) must return false",
-            "raw": "'Boolean(null) must return false'"
+            "raw": "'Boolean(null) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -671,14 +711,18 @@
             "start": 1257,
             "end": 1266,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1268,
             "end": 1330,
             "value": "The value of `typeof Boolean(x)` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(x)` is expected to be \"boolean\"'"
+            "raw": "'The value of `typeof Boolean(x)` is expected to be \"boolean\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -737,14 +781,18 @@
             "start": 1362,
             "end": 1367,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1369,
             "end": 1398,
             "value": "Boolean() must return false",
-            "raw": "'Boolean() must return false'"
+            "raw": "'Boolean() must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -62,7 +62,9 @@
             "start": 1079,
             "end": 1084,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -107,7 +109,9 @@
                 "start": 1129,
                 "end": 1133,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -272,7 +276,9 @@
             "start": 1260,
             "end": 1313,
             "value": "field initializer should end with abrupt completion",
-            "raw": "'field initializer should end with abrupt completion'"
+            "raw": "'field initializer should end with abrupt completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -317,7 +323,9 @@
             "start": 1348,
             "end": 1353,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -450,7 +458,9 @@
             "start": 1481,
             "end": 1541,
             "value": "static field initializer should end with abrupt completion",
-            "raw": "'static field initializer should end with abrupt completion'"
+            "raw": "'static field initializer should end with abrupt completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,7 +505,9 @@
             "start": 1576,
             "end": 1581,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

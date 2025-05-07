@@ -23,7 +23,9 @@
             "start": 293,
             "end": 294,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -73,7 +75,9 @@
                   "start": 318,
                   "end": 329,
                   "value": "MAX_VALUE",
-                  "raw": "\"MAX_VALUE\""
+                  "raw": "\"MAX_VALUE\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -92,7 +96,9 @@
           "start": 345,
           "end": 349,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -120,7 +126,9 @@
                   "start": 378,
                   "end": 449,
                   "value": "#1: var NUMBER = 0; (NUMBER = Number, \"MAX_VALUE\") in NUMBER === true",
-                  "raw": "'#1: var NUMBER = 0; (NUMBER = Number, \"MAX_VALUE\") in NUMBER === true'"
+                  "raw": "'#1: var NUMBER = 0; (NUMBER = Number, \"MAX_VALUE\") in NUMBER === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -149,7 +157,9 @@
             "start": 481,
             "end": 492,
             "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "raw": "\"MAX_VALUE\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -199,7 +209,9 @@
                     "start": 525,
                     "end": 531,
                     "value": "none",
-                    "raw": "\"none\""
+                    "raw": "\"none\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -218,7 +230,9 @@
           "start": 545,
           "end": 549,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -246,7 +260,9 @@
                   "start": 578,
                   "end": 663,
                   "value": "#2: var max_value = \"MAX_VALUE\"; max_value in (max_value = \"none\", Number) === true",
-                  "raw": "'#2: var max_value = \"MAX_VALUE\"; max_value in (max_value = \"none\", Number) === true'"
+                  "raw": "'#2: var max_value = \"MAX_VALUE\"; max_value in (max_value = \"none\", Number) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

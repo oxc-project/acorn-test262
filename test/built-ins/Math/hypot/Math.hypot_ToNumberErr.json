@@ -23,7 +23,9 @@
             "start": 466,
             "end": 467,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -135,7 +137,9 @@
                         "start": 582,
                         "end": 583,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "UnaryExpression",
@@ -148,7 +152,9 @@
                           "start": 592,
                           "end": 593,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       {
@@ -276,7 +282,9 @@
             "start": 709,
             "end": 789,
             "value": "Math.hypot propagates an abrupt completion from coercing an argument to Number",
-            "raw": "'Math.hypot propagates an abrupt completion from coercing an argument to Number'"
+            "raw": "'Math.hypot propagates an abrupt completion from coercing an argument to Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,14 +329,18 @@
             "start": 820,
             "end": 821,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 897,
             "value": "Math.hypot aborts argument processing at the first abrupt completion",
-            "raw": "'Math.hypot aborts argument processing at the first abrupt completion'"
+            "raw": "'Math.hypot aborts argument processing at the first abrupt completion'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

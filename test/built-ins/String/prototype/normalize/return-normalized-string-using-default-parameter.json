@@ -23,7 +23,9 @@
             "start": 556,
             "end": 588,
             "value": "Å⫝̸क़Ω̈́",
-            "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
+            "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 600,
             "end": 648,
             "value": "Å⫝̸क़Ω̈́",
-            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
+            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -120,7 +124,9 @@
             "start": 688,
             "end": 717,
             "value": "Use NFC as the default form",
-            "raw": "'Use NFC as the default form'"
+            "raw": "'Use NFC as the default form'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -198,7 +204,9 @@
             "start": 766,
             "end": 795,
             "value": "Use NFC as the default form",
-            "raw": "'Use NFC as the default form'"
+            "raw": "'Use NFC as the default form'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

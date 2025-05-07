@@ -188,7 +188,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 35,
         "raw": "\"./hybrid\"",
-        "value": "./hybrid"
+        "value": "./hybrid",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -228,7 +230,9 @@ __ESTREE_TEST__:PASS:
         "start": 54,
         "end": 62,
         "raw": "\"./path\"",
-        "value": "./path"
+        "value": "./path",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -258,7 +262,9 @@ __ESTREE_TEST__:PASS:
         "start": 84,
         "end": 90,
         "raw": "\"./fs\"",
-        "value": "./fs"
+        "value": "./fs",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

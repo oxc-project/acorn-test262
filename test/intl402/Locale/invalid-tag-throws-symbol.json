@@ -62,7 +62,9 @@
             "start": 440,
             "end": 450,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,7 +170,9 @@
             "start": 524,
             "end": 558,
             "value": "Symbol() is an invalid tag value",
-            "raw": "\"Symbol() is an invalid tag value\""
+            "raw": "\"Symbol() is an invalid tag value\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

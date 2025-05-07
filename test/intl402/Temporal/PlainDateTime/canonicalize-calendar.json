@@ -47,70 +47,90 @@
                 "start": 279,
                 "end": 283,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 285,
                 "end": 286,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 288,
                 "end": 289,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 291,
                 "end": 293,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 295,
                 "end": 297,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 299,
                 "end": 301,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 303,
                 "end": 306,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 308,
                 "end": 311,
                 "value": 654,
-                "raw": "654"
+                "raw": "654",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 316,
                 "value": 321,
-                "raw": "321"
+                "raw": "321",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 318,
                 "end": 328,
                 "value": "islamicc",
-                "raw": "\"islamicc\""
+                "raw": "\"islamicc\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -170,14 +190,18 @@
             "start": 367,
             "end": 382,
             "value": "islamic-civil",
-            "raw": "\"islamic-civil\""
+            "raw": "\"islamic-civil\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 384,
             "end": 414,
             "value": "calendar ID is canonicalized",
-            "raw": "\"calendar ID is canonicalized\""
+            "raw": "\"calendar ID is canonicalized\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

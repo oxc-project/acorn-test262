@@ -59,7 +59,8 @@
           "regex": {
             "pattern": "abc",
             "flags": "gi"
-          }
+          },
+          "bigint": null
         }
       }
     },
@@ -107,7 +108,9 @@
               "start": 682,
               "end": 687,
               "value": "def",
-              "raw": "'def'"
+              "raw": "'def'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -159,7 +162,9 @@
             "start": 725,
             "end": 760,
             "value": "method return value (unspecified)",
-            "raw": "'method return value (unspecified)'"
+            "raw": "'method return value (unspecified)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +237,9 @@
                   "start": 809,
                   "end": 814,
                   "value": "def",
-                  "raw": "'def'"
+                  "raw": "'def'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -250,7 +257,9 @@
             "start": 823,
             "end": 856,
             "value": "[[OriginalFlags]] (unspecified)",
-            "raw": "'[[OriginalFlags]] (unspecified)'"
+            "raw": "'[[OriginalFlags]] (unspecified)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,7 +322,9 @@
                 "start": 893,
                 "end": 898,
                 "value": "DEF",
-                "raw": "'DEF'"
+                "raw": "'DEF'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -323,14 +334,18 @@
             "start": 901,
             "end": 906,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 908,
             "end": 955,
             "value": "[[RegExpMatcher]] internal slot (unspecified)",
-            "raw": "'[[RegExpMatcher]] internal slot (unspecified)'"
+            "raw": "'[[RegExpMatcher]] internal slot (unspecified)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -360,7 +375,8 @@
           "regex": {
             "pattern": "abc",
             "flags": "gi"
-          }
+          },
+          "bigint": null
         }
       }
     },
@@ -408,7 +424,9 @@
               "start": 1005,
               "end": 1010,
               "value": "def",
-              "raw": "'def'"
+              "raw": "'def'",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "Identifier",
@@ -466,7 +484,9 @@
             "start": 1059,
             "end": 1101,
             "value": "method return value (explicit undefined)",
-            "raw": "'method return value (explicit undefined)'"
+            "raw": "'method return value (explicit undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -539,7 +559,9 @@
                   "start": 1152,
                   "end": 1157,
                   "value": "def",
-                  "raw": "'def'"
+                  "raw": "'def'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -557,7 +579,9 @@
             "start": 1168,
             "end": 1209,
             "value": "[[OriginalSource]] (explicit undefined)",
-            "raw": "'[[OriginalSource]] (explicit undefined)'"
+            "raw": "'[[OriginalSource]] (explicit undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -620,7 +644,9 @@
                 "start": 1246,
                 "end": 1251,
                 "value": "DEF",
-                "raw": "'DEF'"
+                "raw": "'DEF'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -630,14 +656,18 @@
             "start": 1256,
             "end": 1261,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1265,
             "end": 1319,
             "value": "[[RegExpMatcher]] internal slot (explicit undefined)",
-            "raw": "'[[RegExpMatcher]] internal slot (explicit undefined)'"
+            "raw": "'[[RegExpMatcher]] internal slot (explicit undefined)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

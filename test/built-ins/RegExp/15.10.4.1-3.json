@@ -82,14 +82,18 @@
                             "start": 384,
                             "end": 389,
                             "value": "abc",
-                            "raw": "'abc'"
+                            "raw": "'abc'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 391,
                             "end": 394,
                             "value": "a",
-                            "raw": "'a'"
+                            "raw": "'a'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

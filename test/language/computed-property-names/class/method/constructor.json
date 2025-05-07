@@ -30,7 +30,9 @@
               "start": 241,
               "end": 254,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "value": {
@@ -56,7 +58,9 @@
                       "start": 271,
                       "end": 272,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -130,7 +134,9 @@
             "start": 323,
             "end": 380,
             "value": "The result of `C !== C.prototype.constructor` is `true`",
-            "raw": "\"The result of `C !== C.prototype.constructor` is `true`\""
+            "raw": "\"The result of `C !== C.prototype.constructor` is `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -201,14 +207,18 @@
             "start": 424,
             "end": 425,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 464,
             "value": "`new C().constructor()` returns `1`",
-            "raw": "\"`new C().constructor()` returns `1`\""
+            "raw": "\"`new C().constructor()` returns `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

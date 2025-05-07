@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?<a>a).|(?<x>x)",
               "flags": "d"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -81,7 +82,9 @@
                   "start": 689,
                   "end": 693,
                   "value": "ab",
-                  "raw": "\"ab\""
+                  "raw": "\"ab\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -137,14 +140,18 @@
                 "start": 725,
                 "end": 726,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 728,
                 "end": 729,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           },

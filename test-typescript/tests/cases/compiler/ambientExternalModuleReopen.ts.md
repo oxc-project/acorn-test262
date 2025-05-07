@@ -58,7 +58,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 19,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -114,7 +116,9 @@ __ESTREE_TEST__:PASS:
         "start": 58,
         "end": 62,
         "raw": "'fs'",
-        "value": "fs"
+        "value": "fs",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

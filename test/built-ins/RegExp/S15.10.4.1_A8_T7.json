@@ -36,7 +36,9 @@
                     "start": 372,
                     "end": 473,
                     "value": "#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: ",
-                    "raw": "'#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '"
+                    "raw": "'#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -83,7 +85,9 @@
                                   "start": 503,
                                   "end": 504,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "kind": "init"
@@ -124,7 +128,9 @@
                                         "start": 531,
                                         "end": 540,
                                         "value": "invalof",
-                                        "raw": "\"invalof\""
+                                        "raw": "\"invalof\"",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -197,14 +203,18 @@
                     "start": 584,
                     "end": 593,
                     "value": "invalof",
-                    "raw": "\"invalof\""
+                    "raw": "\"invalof\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 595,
                     "end": 639,
                     "value": "The value of e is expected to be \"invalof\"",
-                    "raw": "'The value of e is expected to be \"invalof\"'"
+                    "raw": "'The value of e is expected to be \"invalof\"'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

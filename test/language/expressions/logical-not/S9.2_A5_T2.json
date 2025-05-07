@@ -26,7 +26,9 @@
               "start": 392,
               "end": 394,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -36,7 +38,9 @@
           "start": 400,
           "end": 404,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -68,7 +72,9 @@
                     "start": 433,
                     "end": 463,
                     "value": "#1: !(\"\") === true. Actual: ",
-                    "raw": "'#1: !(\"\") === true. Actual: '"
+                    "raw": "'#1: !(\"\") === true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -90,7 +96,9 @@
                           "start": 469,
                           "end": 471,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }

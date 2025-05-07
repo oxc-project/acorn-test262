@@ -48,7 +48,8 @@
                 "regex": {
                   "pattern": "c",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -78,14 +79,18 @@
                 "start": 883,
                 "end": 888,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 890,
                 "end": 897,
                 "value": "[$']",
-                "raw": "'[$\\']'"
+                "raw": "'[$\\']'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -95,7 +100,9 @@
             "start": 900,
             "end": 906,
             "value": "ab[]",
-            "raw": "'ab[]'"
+            "raw": "'ab[]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +153,8 @@
                 "regex": {
                   "pattern": "b",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "MemberExpression",
@@ -176,14 +184,18 @@
                 "start": 946,
                 "end": 951,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 953,
                 "end": 960,
                 "value": "[$']",
-                "raw": "'[$\\']'"
+                "raw": "'[$\\']'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -193,7 +205,9 @@
             "start": 963,
             "end": 970,
             "value": "a[c]c",
-            "raw": "'a[c]c'"
+            "raw": "'a[c]c'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

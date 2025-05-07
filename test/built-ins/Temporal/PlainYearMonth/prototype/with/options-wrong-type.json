@@ -28,21 +28,27 @@
                 "start": 317,
                 "end": 321,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 325,
                 "end": 329,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 342,
                 "value": "2021-01",
-                "raw": "\"2021-01\""
+                "raw": "\"2021-01\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "CallExpression",
@@ -62,7 +68,9 @@
                 "start": 358,
                 "end": 359,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
@@ -70,6 +78,7 @@
                 "end": 365,
                 "value": null,
                 "raw": "2n",
+                "regex": null,
                 "bigint": "2"
               }
             ]
@@ -122,14 +131,18 @@
                 "start": 416,
                 "end": 420,
                 "value": 2019,
-                "raw": "2019"
+                "raw": "2019",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 424,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -263,7 +276,9 @@
                               "start": 516,
                               "end": 520,
                               "value": 2020,
-                              "raw": "2020"
+                              "raw": "2020",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           }
@@ -421,7 +436,9 @@
                                 "start": 646,
                                 "end": 647,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "kind": "init"
@@ -443,7 +460,9 @@
                   "start": 663,
                   "end": 713,
                   "value": "Partial date processed before throwing TypeError",
-                  "raw": "\"Partial date processed before throwing TypeError\""
+                  "raw": "\"Partial date processed before throwing TypeError\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

@@ -23,7 +23,9 @@
             "start": 378,
             "end": 379,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -41,7 +43,9 @@
             "start": 384,
             "end": 385,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -85,7 +89,9 @@
                       "start": 406,
                       "end": 407,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -139,7 +145,9 @@
                       "start": 461,
                       "end": 462,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -172,7 +180,9 @@
                   "start": 475,
                   "end": 476,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -195,7 +205,9 @@
           "start": 489,
           "end": 490,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -219,7 +231,9 @@
           "start": 502,
           "end": 503,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -247,7 +261,9 @@
                   "start": 531,
                   "end": 616,
                   "value": "#1: \"finally\" block must be evaluated at \"try{continue} catch finally\" construction",
-                  "raw": "'#1: \"finally\" block must be evaluated at \"try{continue} catch finally\" construction'"
+                  "raw": "'#1: \"finally\" block must be evaluated at \"try{continue} catch finally\" construction'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -276,7 +292,9 @@
             "start": 640,
             "end": 641,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -294,7 +312,9 @@
             "start": 647,
             "end": 648,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -327,7 +347,9 @@
                     "start": 671,
                     "end": 676,
                     "value": "ex1",
-                    "raw": "\"ex1\""
+                    "raw": "\"ex1\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -367,7 +389,9 @@
                         "start": 704,
                         "end": 705,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -405,7 +429,9 @@
                       "start": 745,
                       "end": 746,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -438,7 +464,9 @@
                   "start": 760,
                   "end": 761,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -461,7 +489,9 @@
           "start": 774,
           "end": 775,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -485,7 +515,9 @@
           "start": 788,
           "end": 789,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -513,7 +545,9 @@
                   "start": 817,
                   "end": 902,
                   "value": "#2: \"finally\" block must be evaluated at \"try catch{continue} finally\" construction",
-                  "raw": "'#2: \"finally\" block must be evaluated at \"try catch{continue} finally\" construction'"
+                  "raw": "'#2: \"finally\" block must be evaluated at \"try catch{continue} finally\" construction'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -542,7 +576,9 @@
             "start": 926,
             "end": 927,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -560,7 +596,9 @@
             "start": 933,
             "end": 934,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -593,7 +631,9 @@
                     "start": 957,
                     "end": 962,
                     "value": "ex1",
-                    "raw": "\"ex1\""
+                    "raw": "\"ex1\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -633,7 +673,9 @@
                         "start": 990,
                         "end": 991,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -665,7 +707,9 @@
                       "start": 1017,
                       "end": 1018,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -698,7 +742,9 @@
                 "start": 1045,
                 "end": 1046,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -720,7 +766,9 @@
           "start": 1059,
           "end": 1060,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -744,7 +792,9 @@
           "start": 1073,
           "end": 1074,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -772,7 +822,9 @@
                   "start": 1102,
                   "end": 1187,
                   "value": "#3: \"finally\" block must be evaluated at \"try catch finally{continue}\" construction",
-                  "raw": "'#3: \"finally\" block must be evaluated at \"try catch finally{continue}\" construction'"
+                  "raw": "'#3: \"finally\" block must be evaluated at \"try catch finally{continue}\" construction'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -801,7 +853,9 @@
             "start": 1211,
             "end": 1212,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -819,7 +873,9 @@
             "start": 1218,
             "end": 1219,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -863,7 +919,9 @@
                       "start": 1240,
                       "end": 1241,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -901,7 +959,9 @@
                       "start": 1281,
                       "end": 1282,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -934,7 +994,9 @@
                   "start": 1296,
                   "end": 1297,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -957,7 +1019,9 @@
           "start": 1310,
           "end": 1311,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -981,7 +1045,9 @@
           "start": 1324,
           "end": 1325,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1009,7 +1075,9 @@
                   "start": 1353,
                   "end": 1433,
                   "value": "#4: \"finally\" block must be evaluated at \"try{continue} finally\"  construction",
-                  "raw": "'#4: \"finally\" block must be evaluated at \"try{continue} finally\"  construction'"
+                  "raw": "'#4: \"finally\" block must be evaluated at \"try{continue} finally\"  construction'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1038,7 +1106,9 @@
             "start": 1457,
             "end": 1458,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -1071,7 +1141,9 @@
                     "start": 1481,
                     "end": 1486,
                     "value": "ex1",
-                    "raw": "\"ex1\""
+                    "raw": "\"ex1\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1111,7 +1183,9 @@
                         "start": 1514,
                         "end": 1515,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },
@@ -1144,7 +1218,9 @@
           "start": 1546,
           "end": 1547,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1168,7 +1244,9 @@
           "start": 1558,
           "end": 1559,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1196,7 +1274,9 @@
                   "start": 1587,
                   "end": 1634,
                   "value": "#5: \"try catch{continue}\" must work correctly",
-                  "raw": "'#5: \"try catch{continue}\" must work correctly'"
+                  "raw": "'#5: \"try catch{continue}\" must work correctly'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1225,7 +1305,9 @@
             "start": 1658,
             "end": 1659,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         },
         {
@@ -1243,7 +1325,9 @@
             "start": 1665,
             "end": 1666,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -1287,7 +1371,9 @@
                       "start": 1687,
                       "end": 1688,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -1300,7 +1386,9 @@
                     "start": 1700,
                     "end": 1705,
                     "value": "ex1",
-                    "raw": "\"ex1\""
+                    "raw": "\"ex1\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -1331,7 +1419,9 @@
                       "start": 1730,
                       "end": 1731,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -1370,7 +1460,9 @@
                   "start": 1759,
                   "end": 1760,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -1393,7 +1485,9 @@
           "start": 1773,
           "end": 1774,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1417,7 +1511,9 @@
           "start": 1787,
           "end": 1788,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1445,7 +1541,9 @@
                   "start": 1816,
                   "end": 1857,
                   "value": "#6.1: \"finally\" block must be evaluated",
-                  "raw": "'#6.1: \"finally\" block must be evaluated'"
+                  "raw": "'#6.1: \"finally\" block must be evaluated'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -1474,7 +1572,9 @@
           "start": 1870,
           "end": 1871,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1502,7 +1602,9 @@
                   "start": 1899,
                   "end": 1950,
                   "value": "#6.2: \"try finally{continue}\" must work correctly",
-                  "raw": "'#6.2: \"try finally{continue}\" must work correctly'"
+                  "raw": "'#6.2: \"try finally{continue}\" must work correctly'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

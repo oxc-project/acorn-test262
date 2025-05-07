@@ -153,7 +153,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 22,
         "raw": "\"tslib\"",
-        "value": "tslib"
+        "value": "tslib",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -202,7 +204,9 @@ __ESTREE_TEST__:PASS:
                 "start": 30,
                 "end": 40,
                 "raw": "'username'",
-                "value": "username"
+                "value": "username",
+                "regex": null,
+                "bigint": null
               },
               "expression": true,
               "generator": false,
@@ -244,7 +248,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 26,
         "raw": "'./username'",
-        "value": "./username"
+        "value": "./username",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -397,7 +403,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 30,
         "raw": "\"./hello\"",
-        "value": "./hello"
+        "value": "./hello",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -427,7 +435,9 @@ __ESTREE_TEST__:PASS:
         "start": 57,
         "end": 66,
         "raw": "'./utils'",
-        "value": "./utils"
+        "value": "./utils",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

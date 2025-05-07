@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
                 "start": 31,
                 "end": 36,
                 "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -100,7 +102,9 @@ __ESTREE_TEST__:PASS:
                   "start": 104,
                   "end": 107,
                   "raw": "'.'",
-                  "value": "."
+                  "value": ".",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -154,7 +158,9 @@ __ESTREE_TEST__:PASS:
                         "start": 160,
                         "end": 175,
                         "raw": "'/package.json'",
-                        "value": "/package.json"
+                        "value": "/package.json",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

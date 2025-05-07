@@ -25,7 +25,9 @@
         "start": 2626,
         "end": 2665,
         "value": "./module-import-resolution_FIXTURE.js",
-        "raw": "'./module-import-resolution_FIXTURE.js'"
+        "raw": "'./module-import-resolution_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -68,7 +70,9 @@
             "start": 2690,
             "end": 2692,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -119,7 +123,9 @@
         "start": 2717,
         "end": 2756,
         "value": "./module-import-resolution_FIXTURE.js",
-        "raw": "'./module-import-resolution_FIXTURE.js'"
+        "raw": "'./module-import-resolution_FIXTURE.js'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": []
     },
@@ -162,7 +168,9 @@
             "start": 2779,
             "end": 2786,
             "value": "named",
-            "raw": "'named'"
+            "raw": "'named'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -207,7 +215,9 @@
             "start": 2809,
             "end": 2811,
             "value": 39,
-            "raw": "39"
+            "raw": "39",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -40,7 +40,9 @@
                   "start": 417,
                   "end": 427,
                   "value": 1234567890,
-                  "raw": "1234567890"
+                  "raw": "1234567890",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -214,7 +216,9 @@
             "start": 562,
             "end": 636,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -272,14 +276,18 @@
             "start": 674,
             "end": 675,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 711,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,7 +336,9 @@
               "start": 739,
               "end": 740,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -338,14 +348,18 @@
             "start": 743,
             "end": 756,
             "value": "-1234567890",
-            "raw": "\"-1234567890\""
+            "raw": "\"-1234567890\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 758,
             "end": 800,
             "value": "The value of __split[0] is \"-1234567890\"",
-            "raw": "'The value of __split[0] is \"-1234567890\"'"
+            "raw": "'The value of __split[0] is \"-1234567890\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

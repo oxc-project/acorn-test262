@@ -29,7 +29,9 @@
               "start": 322,
               "end": 323,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -71,7 +73,9 @@
                 "start": 339,
                 "end": 340,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -105,7 +109,9 @@
             "start": 354,
             "end": 355,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -138,7 +144,9 @@
                     "start": 384,
                     "end": 438,
                     "value": "#1: var x = -1; var z = (x %= 2); z === -1. Actual: ",
-                    "raw": "'#1: var x = -1; var z = (x %= 2); z === -1. Actual: '"
+                    "raw": "'#1: var x = -1; var z = (x %= 2); z === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -186,7 +194,9 @@
               "start": 469,
               "end": 470,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -213,7 +223,9 @@
             "start": 480,
             "end": 481,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -287,7 +299,9 @@
             "start": 512,
             "end": 513,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -320,7 +334,9 @@
                     "start": 542,
                     "end": 607,
                     "value": "#2: var x = -1; var y = 2; var z = (x %= y); z === -1. Actual: ",
-                    "raw": "'#2: var x = -1; var y = 2; var z = (x %= y); z === -1. Actual: '"
+                    "raw": "'#2: var x = -1; var y = 2; var z = (x %= y); z === -1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
                       "start": 35,
                       "end": 50,
                       "raw": "\"numberVariant\"",
-                      "value": "numberVariant"
+                      "value": "numberVariant",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -132,7 +134,9 @@ __ESTREE_TEST__:PASS:
                       "start": 86,
                       "end": 101,
                       "raw": "\"stringVariant\"",
-                      "value": "stringVariant"
+                      "value": "stringVariant",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -271,7 +275,9 @@ __ESTREE_TEST__:PASS:
                       "start": 192,
                       "end": 193,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -446,7 +452,9 @@ __ESTREE_TEST__:PASS:
                         "start": 256,
                         "end": 271,
                         "raw": "\"stringVariant\"",
-                        "value": "stringVariant"
+                        "value": "stringVariant",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -587,7 +595,9 @@ __ESTREE_TEST__:PASS:
                           "start": 412,
                           "end": 417,
                           "raw": "false",
-                          "value": false
+                          "value": false,
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -716,7 +726,9 @@ __ESTREE_TEST__:PASS:
                         "start": 473,
                         "end": 488,
                         "raw": "\"numberVariant\"",
-                        "value": "numberVariant"
+                        "value": "numberVariant",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   },

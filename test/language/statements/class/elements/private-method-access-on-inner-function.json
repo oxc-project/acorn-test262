@@ -55,7 +55,9 @@
                       "start": 904,
                       "end": 913,
                       "value": "Test262",
-                      "raw": "'Test262'"
+                      "raw": "'Test262'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -281,7 +283,9 @@
             "start": 1095,
             "end": 1104,
             "value": "Test262",
-            "raw": "'Test262'"
+            "raw": "'Test262'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -419,7 +423,9 @@
             "start": 1180,
             "end": 1229,
             "value": "accessed private method from an ordinary object",
-            "raw": "'accessed private method from an ordinary object'"
+            "raw": "'accessed private method from an ordinary object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

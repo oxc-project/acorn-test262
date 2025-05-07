@@ -141,7 +141,9 @@ __ESTREE_TEST__:PASS:
                         "start": 32,
                         "end": 37,
                         "raw": "\"./a\"",
-                        "value": "./a"
+                        "value": "./a",
+                        "regex": null,
+                        "bigint": null
                       }
                     },
                     "options": null,

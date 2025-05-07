@@ -47,7 +47,9 @@
                 "start": 1383,
                 "end": 1393,
                 "value": "timeZone",
-                "raw": "\"timeZone\""
+                "raw": "\"timeZone\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -109,7 +111,9 @@
             "start": 1430,
             "end": 1456,
             "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "raw": "\"Returns an Array object.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +204,9 @@
             "start": 1544,
             "end": 1584,
             "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "raw": "\"The array prototype is Array.prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +256,9 @@
                 "start": 1634,
                 "end": 1644,
                 "value": "timeZone",
-                "raw": "\"timeZone\""
+                "raw": "\"timeZone\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -304,7 +312,9 @@
             "start": 1714,
             "end": 1757,
             "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "raw": "\"Returns a new array object for each call.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +385,9 @@
             "start": 1835,
             "end": 1857,
             "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "raw": "\"The array is sorted.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,7 +477,9 @@
             "start": 1938,
             "end": 1977,
             "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "raw": "\"The array doesn't contain duplicates.\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

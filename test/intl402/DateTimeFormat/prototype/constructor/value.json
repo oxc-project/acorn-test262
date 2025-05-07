@@ -100,7 +100,9 @@
             "start": 362,
             "end": 444,
             "value": "Intl.DateTimeFormat.prototype.constructor is not the same as Intl.DateTimeFormat",
-            "raw": "\"Intl.DateTimeFormat.prototype.constructor is not the same as Intl.DateTimeFormat\""
+            "raw": "\"Intl.DateTimeFormat.prototype.constructor is not the same as Intl.DateTimeFormat\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

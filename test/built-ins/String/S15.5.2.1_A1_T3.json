@@ -34,7 +34,9 @@
                 "start": 513,
                 "end": 515,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -69,7 +71,9 @@
           "start": 629,
           "end": 637,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -101,7 +105,9 @@
                     "start": 666,
                     "end": 747,
                     "value": "#1: __str = new String(\"\"); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(\"\"); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = new String(\"\"); typeof __str === \"object\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -189,7 +195,9 @@
                     "start": 1002,
                     "end": 1093,
                     "value": "#1.5: __str = new String(\"\"); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(\"\"); __str.constructor === String. Actual: __str.constructor ==='"
+                    "raw": "'#1.5: __str = new String(\"\"); __str.constructor === String. Actual: __str.constructor ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -239,7 +247,9 @@
           "start": 1303,
           "end": 1305,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -271,7 +281,9 @@
                     "start": 1334,
                     "end": 1392,
                     "value": "#2: __str = new String(\"\"); __str ==\"\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(\"\"); __str ==\"\". Actual: __str =='"
+                    "raw": "'#2: __str = new String(\"\"); __str ==\"\". Actual: __str =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -308,7 +320,9 @@
           "start": 1591,
           "end": 1593,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -336,7 +350,9 @@
                   "start": 1622,
                   "end": 1664,
                   "value": "#3: __str = new String(\"\"); __str !== \"\"",
-                  "raw": "'#3: __str = new String(\"\"); __str !== \"\"'"
+                  "raw": "'#3: __str = new String(\"\"); __str !== \"\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

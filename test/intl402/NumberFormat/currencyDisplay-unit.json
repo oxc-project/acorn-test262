@@ -39,7 +39,9 @@
                     "start": 649,
                     "end": 657,
                     "value": "symbol",
-                    "raw": "\"symbol\""
+                    "raw": "\"symbol\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -53,14 +55,18 @@
                     "start": 663,
                     "end": 677,
                     "value": "narrowSymbol",
-                    "raw": "\"narrowSymbol\""
+                    "raw": "\"narrowSymbol\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 679,
                     "end": 693,
                     "value": "narrowSymbol",
-                    "raw": "\"narrowSymbol\""
+                    "raw": "\"narrowSymbol\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -110,7 +116,9 @@
                                   "start": 721,
                                   "end": 735,
                                   "value": "narrowSymbol",
-                                  "raw": "\"narrowSymbol\""
+                                  "raw": "\"narrowSymbol\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]
@@ -125,7 +133,9 @@
                     "start": 742,
                     "end": 756,
                     "value": "narrowSymbol",
-                    "raw": "\"narrowSymbol\""
+                    "raw": "\"narrowSymbol\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -246,14 +256,18 @@
                             "start": 862,
                             "end": 869,
                             "value": "style",
-                            "raw": "\"style\""
+                            "raw": "\"style\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "value": {
                             "type": "Literal",
                             "start": 871,
                             "end": 881,
                             "value": "currency",
-                            "raw": "\"currency\""
+                            "raw": "\"currency\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -269,14 +283,18 @@
                             "start": 887,
                             "end": 897,
                             "value": "currency",
-                            "raw": "\"currency\""
+                            "raw": "\"currency\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "value": {
                             "type": "Literal",
                             "start": 899,
                             "end": 904,
                             "value": "EUR",
-                            "raw": "\"EUR\""
+                            "raw": "\"EUR\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -292,7 +310,9 @@
                             "start": 910,
                             "end": 927,
                             "value": "currencyDisplay",
-                            "raw": "\"currencyDisplay\""
+                            "raw": "\"currencyDisplay\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "value": {
                             "type": "Identifier",
@@ -520,14 +540,18 @@
                             "start": 1151,
                             "end": 1158,
                             "value": "style",
-                            "raw": "\"style\""
+                            "raw": "\"style\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "value": {
                             "type": "Literal",
                             "start": 1160,
                             "end": 1169,
                             "value": "percent",
-                            "raw": "\"percent\""
+                            "raw": "\"percent\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         },
@@ -543,7 +567,9 @@
                             "start": 1175,
                             "end": 1192,
                             "value": "currencyDisplay",
-                            "raw": "\"currencyDisplay\""
+                            "raw": "\"currencyDisplay\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "value": {
                             "type": "Identifier",

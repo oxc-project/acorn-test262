@@ -81,21 +81,27 @@
                                 "start": 395,
                                 "end": 396,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 398,
                                 "end": 399,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               },
                               {
                                 "type": "Literal",
                                 "start": 401,
                                 "end": 402,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -144,7 +150,9 @@
                         "start": 438,
                         "end": 473,
                         "value": "Array.fromAsync returns a Promise",
-                        "raw": "\"Array.fromAsync returns a Promise\""
+                        "raw": "\"Array.fromAsync returns a Promise\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -235,7 +243,9 @@
                         "start": 553,
                         "end": 621,
                         "value": "Array.fromAsync returns an object with prototype Promise.prototype",
-                        "raw": "\"Array.fromAsync returns an object with prototype Promise.prototype\""
+                        "raw": "\"Array.fromAsync returns an object with prototype Promise.prototype\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -290,21 +300,27 @@
                               "start": 651,
                               "end": 652,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 654,
                               "end": 655,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 657,
                               "end": 658,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         },
@@ -342,7 +358,9 @@
                                       "start": 696,
                                       "end": 731,
                                       "value": "this will make the Promise reject",
-                                      "raw": "\"this will make the Promise reject\""
+                                      "raw": "\"this will make the Promise reject\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ]
                                 }
@@ -393,7 +411,9 @@
                         "start": 770,
                         "end": 819,
                         "value": "Array.fromAsync returns a Promise even on error",
-                        "raw": "\"Array.fromAsync returns a Promise even on error\""
+                        "raw": "\"Array.fromAsync returns a Promise even on error\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -484,7 +504,9 @@
                         "start": 899,
                         "end": 981,
                         "value": "Array.fromAsync returns an object with prototype Promise.prototype even on error",
-                        "raw": "\"Array.fromAsync returns an object with prototype Promise.prototype even on error\""
+                        "raw": "\"Array.fromAsync returns an object with prototype Promise.prototype even on error\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -549,7 +571,9 @@
                           "start": 1038,
                           "end": 1067,
                           "value": "Prevent unhandled rejection",
-                          "raw": "\"Prevent unhandled rejection\""
+                          "raw": "\"Prevent unhandled rejection\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

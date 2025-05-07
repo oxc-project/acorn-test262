@@ -47,7 +47,9 @@
                 "start": 572,
                 "end": 594,
                 "value": "1; while (false) { }",
-                "raw": "'1; while (false) { }'"
+                "raw": "'1; while (false) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 631,
                 "end": 656,
                 "value": "2; while (false) { 3; }",
-                "raw": "'2; while (false) { 3; }'"
+                "raw": "'2; while (false) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

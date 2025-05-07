@@ -47,21 +47,27 @@
                 "start": 318,
                 "end": 322,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 328,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -205,7 +211,9 @@
                         "start": 436,
                         "end": 441,
                         "value": "UTC",
-                        "raw": "\"UTC\""
+                        "raw": "\"UTC\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -220,7 +228,9 @@
             "start": 446,
             "end": 486,
             "value": "TypeError if no properties are present",
-            "raw": "\"TypeError if no properties are present\""
+            "raw": "\"TypeError if no properties are present\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -259,7 +269,9 @@
           "start": 505,
           "end": 507,
           "value": 30,
-          "raw": "30"
+          "raw": "30",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -346,7 +358,9 @@
                       "start": 579,
                       "end": 584,
                       "value": "UTC",
-                      "raw": "\"UTC\""
+                      "raw": "\"UTC\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -412,6 +426,7 @@
             "end": 653,
             "value": null,
             "raw": "946686600_000_000_000n",
+            "regex": null,
             "bigint": "946686600000000000"
           },
           {
@@ -419,7 +434,9 @@
             "start": 655,
             "end": 688,
             "value": "missing time units default to 0",
-            "raw": "\"missing time units default to 0\""
+            "raw": "\"missing time units default to 0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

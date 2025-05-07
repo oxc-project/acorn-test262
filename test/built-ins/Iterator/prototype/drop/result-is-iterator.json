@@ -73,7 +73,9 @@
                   "start": 400,
                   "end": 401,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -91,7 +93,9 @@
             "start": 424,
             "end": 473,
             "value": "function*(){}().drop(0) must return an Iterator",
-            "raw": "'function*(){}().drop(0) must return an Iterator'"
+            "raw": "'function*(){}().drop(0) must return an Iterator'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

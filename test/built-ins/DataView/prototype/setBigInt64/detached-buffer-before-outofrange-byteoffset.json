@@ -54,7 +54,9 @@
                 "start": 381,
                 "end": 383,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -99,7 +101,9 @@
               "start": 417,
               "end": 418,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ]
         }
@@ -211,14 +215,18 @@
                         "start": 505,
                         "end": 507,
                         "value": 13,
-                        "raw": "13"
+                        "raw": "13",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 509,
                         "end": 510,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -232,7 +240,9 @@
             "start": 516,
             "end": 555,
             "value": "detached DataView access should throw",
-            "raw": "\"detached DataView access should throw\""
+            "raw": "\"detached DataView access should throw\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -68,7 +68,9 @@
                     "start": 858,
                     "end": 880,
                     "value": "1965-04-25T09:00:00Z",
-                    "raw": "\"1965-04-25T09:00:00Z\""
+                    "raw": "\"1965-04-25T09:00:00Z\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -88,7 +90,9 @@
                 "start": 901,
                 "end": 922,
                 "value": "America/Los_Angeles",
-                "raw": "\"America/Los_Angeles\""
+                "raw": "\"America/Los_Angeles\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -125,7 +129,9 @@
                 "start": 944,
                 "end": 946,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               },
               "operator": "*",
               "right": {
@@ -133,7 +139,9 @@
                 "start": 949,
                 "end": 951,
                 "value": 60,
-                "raw": "60"
+                "raw": "60",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "*",
@@ -146,7 +154,9 @@
                 "start": 954,
                 "end": 958,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "regex": null,
+                "bigint": null
               },
               "operator": "**",
               "right": {
@@ -154,7 +164,9 @@
                 "start": 960,
                 "end": 961,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -224,7 +236,9 @@
                 "start": 1020,
                 "end": 1021,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "*",
@@ -240,7 +254,9 @@
             "start": 1052,
             "end": 1068,
             "value": "DST transition",
-            "raw": "\"DST transition\""
+            "raw": "\"DST transition\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -331,7 +347,9 @@
                           "start": 1110,
                           "end": 1111,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -365,7 +383,9 @@
                 "start": 1151,
                 "end": 1152,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "*",
@@ -381,7 +401,9 @@
             "start": 1183,
             "end": 1219,
             "value": "DST transition plus one nanosecond",
-            "raw": "\"DST transition plus one nanosecond\""
+            "raw": "\"DST transition plus one nanosecond\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -472,7 +494,9 @@
                           "start": 1261,
                           "end": 1262,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "kind": "init"
@@ -506,7 +530,9 @@
                 "start": 1302,
                 "end": 1303,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             },
             "operator": "*",
@@ -522,7 +548,9 @@
             "start": 1334,
             "end": 1371,
             "value": "DST transition minus one nanosecond",
-            "raw": "\"DST transition minus one nanosecond\""
+            "raw": "\"DST transition minus one nanosecond\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

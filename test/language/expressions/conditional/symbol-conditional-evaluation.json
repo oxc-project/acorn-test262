@@ -78,14 +78,18 @@
               "start": 277,
               "end": 278,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 281,
               "end": 282,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -93,14 +97,18 @@
             "start": 284,
             "end": 285,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 287,
             "end": 309,
             "value": "`sym ? 1 : 2` is `1`",
-            "raw": "\"`sym ? 1 : 2` is `1`\""
+            "raw": "\"`sym ? 1 : 2` is `1`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -156,14 +164,18 @@
               "start": 336,
               "end": 337,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 340,
               "end": 341,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -171,14 +183,18 @@
             "start": 343,
             "end": 344,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 369,
             "value": "`!sym ? 1 : 2` is `2`",
-            "raw": "\"`!sym ? 1 : 2` is `2`\""
+            "raw": "\"`!sym ? 1 : 2` is `2`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

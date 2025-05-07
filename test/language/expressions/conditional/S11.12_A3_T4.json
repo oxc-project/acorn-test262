@@ -24,14 +24,18 @@
               "start": 291,
               "end": 296,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 299,
               "end": 303,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Identifier",
@@ -74,7 +78,9 @@
                   "start": 359,
                   "end": 405,
                   "value": "#1: (false ? true : undefined) === undefined",
-                  "raw": "'#1: (false ? true : undefined) === undefined'"
+                  "raw": "'#1: (false ? true : undefined) === undefined'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -104,21 +110,27 @@
               "start": 426,
               "end": 431,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 434,
               "end": 438,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "alternate": {
               "type": "Literal",
               "start": 441,
               "end": 445,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -128,7 +140,9 @@
           "start": 451,
           "end": 455,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -156,7 +170,9 @@
                   "start": 484,
                   "end": 520,
                   "value": "#2: (false ? true : null) === null",
-                  "raw": "'#2: (false ? true : null) === null'"
+                  "raw": "'#2: (false ? true : null) === null'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

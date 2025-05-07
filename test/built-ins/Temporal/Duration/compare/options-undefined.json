@@ -47,7 +47,9 @@
                 "start": 304,
                 "end": 305,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -99,14 +101,18 @@
                 "start": 348,
                 "end": 349,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 353,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -215,7 +221,9 @@
             "start": 437,
             "end": 470,
             "value": "default relativeTo is undefined",
-            "raw": "\"default relativeTo is undefined\""
+            "raw": "\"default relativeTo is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -328,7 +336,9 @@
             "start": 565,
             "end": 598,
             "value": "default relativeTo is undefined",
-            "raw": "\"default relativeTo is undefined\""
+            "raw": "\"default relativeTo is undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

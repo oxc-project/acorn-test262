@@ -69,7 +69,9 @@
           "start": 444,
           "end": 452,
           "value": "string",
-          "raw": "\"string\""
+          "raw": "\"string\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -101,7 +103,9 @@
                     "start": 481,
                     "end": 558,
                     "value": "#1: __str = String({}); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String({}); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "raw": "'#1: __str = String({}); typeof __str === \"string\". Actual: typeof __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -153,7 +157,9 @@
               "start": 764,
               "end": 774,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -161,7 +167,9 @@
               "start": 777,
               "end": 785,
               "value": "Object",
-              "raw": "\"Object\""
+              "raw": "\"Object\"",
+              "regex": null,
+              "bigint": null
             }
           },
           "operator": "+",
@@ -170,7 +178,9 @@
             "start": 788,
             "end": 791,
             "value": "]",
-            "raw": "\"]\""
+            "raw": "\"]\"",
+            "regex": null,
+            "bigint": null
           }
         }
       },
@@ -203,7 +213,9 @@
                     "start": 820,
                     "end": 892,
                     "value": "#2: __str = String({}); __str === \"[object Object]\". Actual: __str ===",
-                    "raw": "'#2: __str = String({}); __str === \"[object Object]\". Actual: __str ==='"
+                    "raw": "'#2: __str = String({}); __str === \"[object Object]\". Actual: __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

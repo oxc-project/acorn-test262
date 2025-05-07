@@ -60,7 +60,9 @@
                 "start": 308,
                 "end": 315,
                 "value": "\"\\f\"",
-                "raw": "'\"\\\\f\"'"
+                "raw": "'\"\\\\f\"'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 318,
             "end": 322,
             "value": "\f",
-            "raw": "'\\f'"
+            "raw": "'\\f'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 347,
             "value": "JSON.parse('\"\\f\"')",
-            "raw": "'JSON.parse(\\'\"\\\\f\"\\')'"
+            "raw": "'JSON.parse(\\'\"\\\\f\"\\')'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

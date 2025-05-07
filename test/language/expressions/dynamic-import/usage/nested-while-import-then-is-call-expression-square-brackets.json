@@ -23,7 +23,9 @@
             "start": 1140,
             "end": 1141,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -114,7 +116,9 @@
                                 "start": 1172,
                                 "end": 1208,
                                 "value": "./dynamic-import-module_FIXTURE.js",
-                                "raw": "'./dynamic-import-module_FIXTURE.js'"
+                                "raw": "'./dynamic-import-module_FIXTURE.js'",
+                                "regex": null,
+                                "bigint": null
                               },
                               "options": null
                             },
@@ -123,7 +127,9 @@
                               "start": 1210,
                               "end": 1216,
                               "value": "then",
-                              "raw": "'then'"
+                              "raw": "'then'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -238,7 +244,9 @@
                                       "start": 1279,
                                       "end": 1280,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   ],
                                   "optional": false

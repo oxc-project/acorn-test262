@@ -73,7 +73,9 @@
                 "start": 405,
                 "end": 413,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,7 +85,9 @@
             "start": 418,
             "end": 486,
             "value": "String.prototype.split.hasOwnProperty('length') must return true",
-            "raw": "'String.prototype.split.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'String.prototype.split.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,7 +165,9 @@
             "start": 536,
             "end": 597,
             "value": "The value of `delete String.prototype.split.length` is true",
-            "raw": "'The value of `delete String.prototype.split.length` is true'"
+            "raw": "'The value of `delete String.prototype.split.length` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +249,9 @@
                   "start": 650,
                   "end": 658,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -254,7 +262,9 @@
             "start": 663,
             "end": 738,
             "value": "The value of `!String.prototype.split.hasOwnProperty('length')` is true",
-            "raw": "'The value of `!String.prototype.split.hasOwnProperty(\\'length\\')` is true'"
+            "raw": "'The value of `!String.prototype.split.hasOwnProperty(\\'length\\')` is true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

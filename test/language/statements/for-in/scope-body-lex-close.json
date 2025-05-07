@@ -23,7 +23,9 @@
             "start": 986,
             "end": 995,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -166,7 +168,9 @@
               "start": 1100,
               "end": 1101,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "kind": "init"
           }
@@ -264,14 +268,18 @@
             "start": 1179,
             "end": 1182,
             "value": "i",
-            "raw": "'i'"
+            "raw": "'i'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1184,
             "end": 1215,
             "value": "reference from ForDeclaration",
-            "raw": "'reference from ForDeclaration'"
+            "raw": "'reference from ForDeclaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -323,14 +331,18 @@
             "start": 1248,
             "end": 1251,
             "value": "i",
-            "raw": "'i'"
+            "raw": "'i'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1253,
             "end": 1284,
             "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "raw": "'reference from statement body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -375,7 +387,9 @@
             "start": 1307,
             "end": 1316,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

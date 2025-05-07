@@ -36,7 +36,9 @@
               "start": 1787,
               "end": 1789,
               "value": 44,
-              "raw": "44"
+              "raw": "44",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -67,7 +69,9 @@
                   "start": 1802,
                   "end": 1811,
                   "value": "this.#m",
-                  "raw": "\"this.#m\""
+                  "raw": "\"this.#m\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -159,7 +163,9 @@
             "start": 1856,
             "end": 1858,
             "value": 44,
-            "raw": "44"
+            "raw": "44",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

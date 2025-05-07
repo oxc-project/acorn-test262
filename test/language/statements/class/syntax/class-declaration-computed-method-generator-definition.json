@@ -30,7 +30,9 @@
               "start": 531,
               "end": 532,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "value": {
@@ -99,7 +101,9 @@
             "start": 569,
             "end": 579,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -167,7 +171,9 @@
                 "start": 618,
                 "end": 619,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               "computed": true,
               "optional": false
@@ -178,7 +184,9 @@
             "start": 622,
             "end": 632,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

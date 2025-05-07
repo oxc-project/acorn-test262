@@ -772,14 +772,18 @@ __ESTREE_TEST__:PASS:
               "start": 492,
               "end": 496,
               "raw": "null",
-              "value": null
+              "value": null,
+              "regex": null,
+              "bigint": null
             },
             "consequent": {
               "type": "Literal",
               "start": 481,
               "end": 489,
               "raw": "'value2'",
-              "value": "value2"
+              "value": "value2",
+              "regex": null,
+              "bigint": null
             },
             "test": {
               "type": "BinaryExpression",
@@ -824,7 +828,9 @@ __ESTREE_TEST__:PASS:
                 "start": 475,
                 "end": 478,
                 "raw": "0.5",
-                "value": 0.5
+                "value": 0.5,
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -880,7 +886,9 @@ __ESTREE_TEST__:PASS:
                   "start": 525,
                   "end": 533,
                   "raw": "'value1'",
-                  "value": "value1"
+                  "value": "value1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -979,7 +987,9 @@ __ESTREE_TEST__:PASS:
                 "start": 665,
                 "end": 668,
                 "raw": "'&'",
-                "value": "&"
+                "value": "&",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

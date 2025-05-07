@@ -23,7 +23,9 @@
             "start": 340,
             "end": 345,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -68,7 +70,9 @@
                 "start": 379,
                 "end": 383,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -187,7 +191,9 @@
                         "start": 484,
                         "end": 510,
                         "value": "this.bar does not exist!",
-                        "raw": "\"this.bar does not exist!\""
+                        "raw": "\"this.bar does not exist!\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -238,14 +244,18 @@
             "start": 545,
             "end": 549,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 551,
             "end": 562,
             "value": "fooCalled",
-            "raw": "'fooCalled'"
+            "raw": "'fooCalled'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

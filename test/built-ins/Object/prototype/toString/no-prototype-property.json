@@ -86,7 +86,9 @@
                 "start": 309,
                 "end": 320,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 325,
             "end": 330,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 405,
             "value": "Object.prototype.toString.hasOwnProperty(\"prototype\") returns false",
-            "raw": "\"Object.prototype.toString.hasOwnProperty(\\\"prototype\\\") returns false\""
+            "raw": "\"Object.prototype.toString.hasOwnProperty(\\\"prototype\\\") returns false\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

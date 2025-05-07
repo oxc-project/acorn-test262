@@ -23,7 +23,9 @@
             "start": 344,
             "end": 345,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +123,9 @@
           "start": 489,
           "end": 490,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -153,7 +157,9 @@
                     "start": 519,
                     "end": 591,
                     "value": "#1: count=0; knock=function(){count++}; knock(); count === 1. Actual: ",
-                    "raw": "'#1: count=0; knock=function(){count++}; knock(); count === 1. Actual: '"
+                    "raw": "'#1: count=0; knock=function(){count++}; knock(); count === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -197,7 +203,9 @@
             "start": 783,
             "end": 790,
             "value": "knock",
-            "raw": "'knock'"
+            "raw": "'knock'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -226,7 +234,9 @@
           "start": 808,
           "end": 809,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -258,7 +268,9 @@
                     "start": 838,
                     "end": 929,
                     "value": "#2: count=0; knock=function(){count++}; knock(); this['knock'](); count === 2. Actual: ",
-                    "raw": "'#2: count=0; knock=function(){count++}; knock(); this[\\'knock\\'](); count === 2. Actual: '"
+                    "raw": "'#2: count=0; knock=function(){count++}; knock(); this[\\'knock\\'](); count === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

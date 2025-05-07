@@ -47,7 +47,9 @@
                 "start": 853,
                 "end": 861,
                 "value": "᠎",
-                "raw": "'\\u180E'"
+                "raw": "'\\u180E'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -67,7 +69,9 @@
               "start": 869,
               "end": 906,
               "value": "Number(\"\\u180E\") === NaN. Actual: ",
-              "raw": "'Number(\"\\\\u180E\") === NaN. Actual: '"
+              "raw": "'Number(\"\\\\u180E\") === NaN. Actual: '",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -90,7 +94,9 @@
                     "start": 917,
                     "end": 925,
                     "value": "᠎",
-                    "raw": "\"\\u180E\""
+                    "raw": "\"\\u180E\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

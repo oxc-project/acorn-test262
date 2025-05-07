@@ -67,7 +67,9 @@
             "start": 326,
             "end": 334,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -125,7 +127,9 @@
                               "start": 366,
                               "end": 367,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "regex": null,
+                              "bigint": null
                             },
                             "computed": true,
                             "optional": false
@@ -135,7 +139,9 @@
                             "start": 371,
                             "end": 379,
                             "value": "length",
-                            "raw": "\"length\""
+                            "raw": "\"length\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -148,7 +154,9 @@
                           "start": 392,
                           "end": 393,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -174,7 +182,9 @@
                   "start": 416,
                   "end": 420,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -273,7 +283,9 @@
                 "start": 481,
                 "end": 489,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -283,14 +295,18 @@
             "start": 492,
             "end": 493,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 495,
             "end": 544,
             "value": "Array.prototype.lastIndexOf.call(arr, \"length\")",
-            "raw": "'Array.prototype.lastIndexOf.call(arr, \"length\")'"
+            "raw": "'Array.prototype.lastIndexOf.call(arr, \"length\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

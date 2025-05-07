@@ -41,7 +41,9 @@
                   "start": 261,
                   "end": 262,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -146,7 +148,9 @@
               "start": 333,
               "end": 334,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -156,14 +160,18 @@
             "start": 337,
             "end": 340,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 342,
             "end": 357,
             "value": "keysBefore[0]",
-            "raw": "'keysBefore[0]'"
+            "raw": "'keysBefore[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -193,7 +201,9 @@
             "start": 371,
             "end": 372,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -203,7 +213,9 @@
           "start": 376,
           "end": 379,
           "value": "x",
-          "raw": "'x'"
+          "raw": "'x'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -302,7 +314,9 @@
               "start": 448,
               "end": 449,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -312,14 +326,18 @@
             "start": 452,
             "end": 455,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 472,
             "value": "keysBefore[0]",
-            "raw": "'keysBefore[0]'"
+            "raw": "'keysBefore[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -368,7 +386,9 @@
               "start": 502,
               "end": 503,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -378,14 +398,18 @@
             "start": 506,
             "end": 509,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 525,
             "value": "keysAfter[0]",
-            "raw": "'keysAfter[0]'"
+            "raw": "'keysAfter[0]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,7 +34,9 @@
                 "start": 747,
                 "end": 767,
                 "value": "one-1,two-2,four-4",
-                "raw": "\"one-1,two-2,four-4\""
+                "raw": "\"one-1,two-2,four-4\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -90,7 +92,8 @@
                 "regex": {
                   "pattern": ",",
                   "flags": ""
-                }
+                },
+                "bigint": null
               }
             ],
             "optional": false
@@ -157,7 +160,9 @@
             "start": 859,
             "end": 933,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -215,14 +220,18 @@
             "start": 971,
             "end": 972,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 974,
             "end": 1008,
             "value": "The value of __split.length is 3",
-            "raw": "'The value of __split.length is 3'"
+            "raw": "'The value of __split.length is 3'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -271,7 +280,9 @@
               "start": 1036,
               "end": 1037,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -281,14 +292,18 @@
             "start": 1040,
             "end": 1047,
             "value": "one-1",
-            "raw": "\"one-1\""
+            "raw": "\"one-1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1049,
             "end": 1085,
             "value": "The value of __split[0] is \"one-1\"",
-            "raw": "'The value of __split[0] is \"one-1\"'"
+            "raw": "'The value of __split[0] is \"one-1\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -337,7 +352,9 @@
               "start": 1113,
               "end": 1114,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -347,14 +364,18 @@
             "start": 1117,
             "end": 1124,
             "value": "two-2",
-            "raw": "\"two-2\""
+            "raw": "\"two-2\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1126,
             "end": 1162,
             "value": "The value of __split[1] is \"two-2\"",
-            "raw": "'The value of __split[1] is \"two-2\"'"
+            "raw": "'The value of __split[1] is \"two-2\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -403,7 +424,9 @@
               "start": 1190,
               "end": 1191,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -413,14 +436,18 @@
             "start": 1194,
             "end": 1202,
             "value": "four-4",
-            "raw": "\"four-4\""
+            "raw": "\"four-4\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1204,
             "end": 1241,
             "value": "The value of __split[2] is \"four-4\"",
-            "raw": "'The value of __split[2] is \"four-4\"'"
+            "raw": "'The value of __split[2] is \"four-4\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

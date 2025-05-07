@@ -36,7 +36,9 @@
             "start": 280,
             "end": 283,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -63,7 +65,8 @@
                     "regex": {
                       "pattern": "(?<π>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -80,7 +83,9 @@
                     "start": 301,
                     "end": 306,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -140,7 +145,9 @@
             "start": 336,
             "end": 339,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -167,7 +174,8 @@
                     "regex": {
                       "pattern": "(?<\\u{03C0}>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -184,7 +192,9 @@
                     "start": 364,
                     "end": 369,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -244,7 +254,9 @@
             "start": 399,
             "end": 402,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -271,7 +283,8 @@
                     "regex": {
                       "pattern": "(?<π>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -288,7 +301,9 @@
                     "start": 420,
                     "end": 425,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -348,7 +363,9 @@
             "start": 460,
             "end": 463,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -375,7 +392,8 @@
                     "regex": {
                       "pattern": "(?<\\u{03C0}>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -392,7 +410,9 @@
                     "start": 488,
                     "end": 493,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -452,7 +472,9 @@
             "start": 528,
             "end": 531,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -479,7 +501,8 @@
                     "regex": {
                       "pattern": "(?<$>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -496,7 +519,9 @@
                     "start": 549,
                     "end": 554,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -556,7 +581,9 @@
             "start": 584,
             "end": 587,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -583,7 +610,8 @@
                     "regex": {
                       "pattern": "(?<_>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -600,7 +628,9 @@
                     "start": 605,
                     "end": 610,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -660,7 +690,9 @@
             "start": 640,
             "end": 643,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -687,7 +719,8 @@
                     "regex": {
                       "pattern": "(?<$𐒤>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -704,7 +737,9 @@
                     "start": 663,
                     "end": 668,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -764,7 +799,9 @@
             "start": 700,
             "end": 703,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -791,7 +828,8 @@
                     "regex": {
                       "pattern": "(?<_\\u200C>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -808,7 +846,9 @@
                     "start": 727,
                     "end": 732,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -868,7 +908,9 @@
             "start": 768,
             "end": 771,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -895,7 +937,8 @@
                     "regex": {
                       "pattern": "(?<_\\u200D>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -912,7 +955,9 @@
                     "start": 795,
                     "end": 800,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -972,7 +1017,9 @@
             "start": 836,
             "end": 839,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "MemberExpression",
@@ -999,7 +1046,8 @@
                     "regex": {
                       "pattern": "(?<ಠ_ಠ>a)",
                       "flags": "u"
-                    }
+                    },
+                    "bigint": null
                   },
                   "property": {
                     "type": "Identifier",
@@ -1016,7 +1064,9 @@
                     "start": 859,
                     "end": 864,
                     "value": "bab",
-                    "raw": "\"bab\""
+                    "raw": "\"bab\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1075,7 +1125,8 @@
                 "regex": {
                   "pattern": "(?<a\\uD801\\uDCA4>.)",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1092,7 +1143,9 @@
                 "start": 952,
                 "end": 955,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1102,7 +1155,9 @@
             "start": 958,
             "end": 978,
             "value": "\\u Lead \\u Trail",
-            "raw": "\"\\\\u Lead \\\\u Trail\""
+            "raw": "\"\\\\u Lead \\\\u Trail\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1140,7 +1195,8 @@
                 "regex": {
                   "pattern": "(?<\\u0041>.)",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1157,7 +1213,9 @@
                 "start": 1009,
                 "end": 1012,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1167,7 +1225,9 @@
             "start": 1015,
             "end": 1033,
             "value": "\\u NonSurrogate",
-            "raw": "\"\\\\u NonSurrogate\""
+            "raw": "\"\\\\u NonSurrogate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1205,7 +1265,8 @@
                 "regex": {
                   "pattern": "(?<\\u{0041}>.)",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1222,7 +1283,9 @@
                 "start": 1066,
                 "end": 1069,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1232,7 +1295,9 @@
             "start": 1072,
             "end": 1094,
             "value": "\\u{ Non-surrogate }",
-            "raw": "\"\\\\u{ Non-surrogate }\""
+            "raw": "\"\\\\u{ Non-surrogate }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1270,7 +1335,8 @@
                 "regex": {
                   "pattern": "(?<a\\u{104A4}>.)",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1287,7 +1353,9 @@
                 "start": 1129,
                 "end": 1132,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1297,7 +1365,9 @@
             "start": 1135,
             "end": 1166,
             "value": "\\u{ Surrogate, ID_Continue }",
-            "raw": "\"\\\\u{ Surrogate, ID_Continue }\""
+            "raw": "\"\\\\u{ Surrogate, ID_Continue }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1342,14 +1412,18 @@
                     "start": 1183,
                     "end": 1199,
                     "value": "(?<A>.)",
-                    "raw": "\"(?<\\u{0041}>.)\""
+                    "raw": "\"(?<\\u{0041}>.)\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1201,
                     "end": 1204,
                     "value": "u",
-                    "raw": "\"u\""
+                    "raw": "\"u\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1369,7 +1443,9 @@
                 "start": 1211,
                 "end": 1214,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1379,7 +1455,9 @@
             "start": 1217,
             "end": 1232,
             "value": "Non-surrogate",
-            "raw": "\"Non-surrogate\""
+            "raw": "\"Non-surrogate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1424,14 +1502,18 @@
                     "start": 1249,
                     "end": 1267,
                     "value": "(?<a𐒤>.)",
-                    "raw": "\"(?<a\\u{104A4}>.)\""
+                    "raw": "\"(?<a\\u{104A4}>.)\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1269,
                     "end": 1272,
                     "value": "u",
-                    "raw": "\"u\""
+                    "raw": "\"u\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1451,7 +1533,9 @@
                 "start": 1279,
                 "end": 1282,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1461,7 +1545,9 @@
             "start": 1285,
             "end": 1308,
             "value": "Surrogate,ID_Continue",
-            "raw": "\"Surrogate,ID_Continue\""
+            "raw": "\"Surrogate,ID_Continue\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1503,7 +1589,8 @@
                   "regex": {
                     "pattern": "(?<\\u{0041}>.)",
                     "flags": "u"
-                  }
+                  },
+                  "bigint": null
                 }
               },
               "property": {
@@ -1521,7 +1608,9 @@
                 "start": 1343,
                 "end": 1346,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1531,7 +1620,9 @@
             "start": 1349,
             "end": 1364,
             "value": "Non-surrogate",
-            "raw": "\"Non-surrogate\""
+            "raw": "\"Non-surrogate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1569,7 +1660,8 @@
                 "regex": {
                   "pattern": "(?<a\\u{104A4}>.)",
                   "flags": "u"
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -1586,7 +1678,9 @@
                 "start": 1399,
                 "end": 1402,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1596,7 +1690,9 @@
             "start": 1405,
             "end": 1429,
             "value": "Surrogate, ID_Continue",
-            "raw": "\"Surrogate, ID_Continue\""
+            "raw": "\"Surrogate, ID_Continue\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1641,14 +1737,18 @@
                     "start": 1446,
                     "end": 1461,
                     "value": "(?<\\u0041>.)",
-                    "raw": "\"(?<\\\\u0041>.)\""
+                    "raw": "\"(?<\\\\u0041>.)\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1463,
                     "end": 1466,
                     "value": "u",
-                    "raw": "\"u\""
+                    "raw": "\"u\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -1668,7 +1768,9 @@
                 "start": 1473,
                 "end": 1476,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1678,7 +1780,9 @@
             "start": 1479,
             "end": 1494,
             "value": "Non-surrogate",
-            "raw": "\"Non-surrogate\""
+            "raw": "\"Non-surrogate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

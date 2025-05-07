@@ -36,7 +36,9 @@
                     "start": 672,
                     "end": 684,
                     "value": "/\\ /",
-                    "raw": "\"/\\\\\\u2029/\""
+                    "raw": "\"/\\\\\\u2029/\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -75,7 +77,9 @@
                     "start": 720,
                     "end": 823,
                     "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '"
+                    "raw": "'#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -102,7 +106,9 @@
                             "start": 832,
                             "end": 844,
                             "value": "/\\ /",
-                            "raw": "\"/\\\\\\u2029/\""
+                            "raw": "\"/\\\\\\u2029/\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -175,7 +181,9 @@
                   "start": 907,
                   "end": 911,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -207,7 +215,9 @@
                             "start": 943,
                             "end": 1046,
                             "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '"
+                            "raw": "'#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

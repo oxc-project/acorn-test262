@@ -182,7 +182,9 @@
                                     "start": 468,
                                     "end": 500,
                                     "value": "'this' must be undefined, got ",
-                                    "raw": "\"'this' must be undefined, got \""
+                                    "raw": "\"'this' must be undefined, got \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -256,7 +258,9 @@
                                     "start": 558,
                                     "end": 610,
                                     "value": "Expected promise to be fulfilled by obj, actually ",
-                                    "raw": "\"Expected promise to be fulfilled by obj, actually \""
+                                    "raw": "\"Expected promise to be fulfilled by obj, actually \"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -313,7 +317,9 @@
                           "start": 663,
                           "end": 664,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "consequent": {
@@ -341,7 +347,9 @@
                                   "start": 678,
                                   "end": 743,
                                   "value": "Expected handler function to be called with exactly 1 argument.",
-                                  "raw": "'Expected handler function to be called with exactly 1 argument.'"
+                                  "raw": "'Expected handler function to be called with exactly 1 argument.'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ],
                               "optional": false
@@ -412,7 +420,9 @@
                             "start": 798,
                             "end": 835,
                             "value": "The promise should not be rejected.",
-                            "raw": "'The promise should not be rejected.'"
+                            "raw": "'The promise should not be rejected.'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

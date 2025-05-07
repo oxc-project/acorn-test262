@@ -67,7 +67,9 @@
             "start": 309,
             "end": 313,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                 "start": 347,
                 "end": 353,
                 "value": "null",
-                "raw": "\"null\""
+                "raw": "\"null\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -133,7 +137,9 @@
             "start": 356,
             "end": 393,
             "value": "obj.hasOwnProperty(\"null\") !== true",
-            "raw": "'obj.hasOwnProperty(\"null\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"null\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

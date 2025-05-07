@@ -35,7 +35,9 @@
           "start": 273,
           "end": 277,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -85,7 +87,9 @@
                         "start": 317,
                         "end": 322,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -180,7 +184,9 @@
                             "start": 416,
                             "end": 417,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -283,7 +289,9 @@
                           "start": 486,
                           "end": 487,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -293,14 +301,18 @@
                         "start": 490,
                         "end": 494,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 496,
                         "end": 507,
                         "value": "resArr[0]",
-                        "raw": "'resArr[0]'"
+                        "raw": "'resArr[0]'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

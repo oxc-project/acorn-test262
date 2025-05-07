@@ -23,7 +23,9 @@
             "start": 709,
             "end": 715,
             "value": "<!--",
-            "raw": "\"<!--\""
+            "raw": "\"<!--\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

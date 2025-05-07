@@ -72,7 +72,9 @@
                 "start": 974,
                 "end": 982,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -108,7 +110,9 @@
                     "start": 1013,
                     "end": 1088,
                     "value": "#1: String.prototype.match.hasOwnProperty(\"length\") return true. Actual: ",
-                    "raw": "'#1: String.prototype.match.hasOwnProperty(\"length\") return true. Actual: '"
+                    "raw": "'#1: String.prototype.match.hasOwnProperty(\"length\") return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -166,7 +170,9 @@
                         "start": 1129,
                         "end": 1137,
                         "value": "length",
-                        "raw": "\"length\""
+                        "raw": "\"length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -238,7 +244,9 @@
           "start": 1353,
           "end": 1354,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -270,7 +278,9 @@
                     "start": 1383,
                     "end": 1434,
                     "value": "#2: String.prototype.match.length === 1. Actual: ",
-                    "raw": "'#2: String.prototype.match.length === 1. Actual: '"
+                    "raw": "'#2: String.prototype.match.length === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -378,7 +388,9 @@
             "start": 1593,
             "end": 1601,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -403,7 +415,9 @@
                   "start": 1617,
                   "end": 1622,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -425,7 +439,9 @@
                   "start": 1638,
                   "end": 1643,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -447,7 +463,9 @@
                   "start": 1661,
                   "end": 1665,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

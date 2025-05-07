@@ -60,7 +60,9 @@
                 "start": 307,
                 "end": 315,
                 "value": "\"\\\\\"",
-                "raw": "'\"\\\\\\\\\"'"
+                "raw": "'\"\\\\\\\\\"'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,14 +72,18 @@
             "start": 318,
             "end": 322,
             "value": "\\",
-            "raw": "'\\\\'"
+            "raw": "'\\\\'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 348,
             "value": "JSON.parse('\"\\\\\"')",
-            "raw": "'JSON.parse(\\'\"\\\\\\\\\"\\')'"
+            "raw": "'JSON.parse(\\'\"\\\\\\\\\"\\')'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -47,70 +47,90 @@
                 "start": 409,
                 "end": 413,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 415,
                 "end": 416,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 420,
                 "value": 26,
-                "raw": "26"
+                "raw": "26",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 424,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 428,
                 "value": 30,
-                "raw": "30"
+                "raw": "30",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 434,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 440,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 442,
                 "end": 451,
                 "value": "gregory",
-                "raw": "\"gregory\""
+                "raw": "\"gregory\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -170,7 +190,9 @@
                     "start": 494,
                     "end": 511,
                     "value": "en-u-ca-gregory",
-                    "raw": "\"en-u-ca-gregory\""
+                    "raw": "\"en-u-ca-gregory\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -195,7 +217,9 @@
                           "start": 526,
                           "end": 532,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -219,7 +243,9 @@
                 "start": 545,
                 "end": 552,
                 "value": "March",
-                "raw": "\"March\""
+                "raw": "\"March\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -229,7 +255,9 @@
             "start": 557,
             "end": 608,
             "value": "dateStyle: long writes month of March out in full",
-            "raw": "\"dateStyle: long writes month of March out in full\""
+            "raw": "\"dateStyle: long writes month of March out in full\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -293,7 +321,9 @@
                       "start": 652,
                       "end": 669,
                       "value": "en-u-ca-gregory",
-                      "raw": "\"en-u-ca-gregory\""
+                      "raw": "\"en-u-ca-gregory\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -318,7 +348,9 @@
                             "start": 684,
                             "end": 691,
                             "value": "short",
-                            "raw": "\"short\""
+                            "raw": "\"short\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -342,7 +374,9 @@
                   "start": 704,
                   "end": 711,
                   "value": "March",
-                  "raw": "\"March\""
+                  "raw": "\"March\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -353,7 +387,9 @@
             "start": 716,
             "end": 776,
             "value": "dateStyle: short does not write month of March out in full",
-            "raw": "\"dateStyle: short does not write month of March out in full\""
+            "raw": "\"dateStyle: short does not write month of March out in full\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -403,70 +439,90 @@
                 "start": 828,
                 "end": 832,
                 "value": 2024,
-                "raw": "2024"
+                "raw": "2024",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 834,
                 "end": 835,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 837,
                 "end": 839,
                 "value": 26,
-                "raw": "26"
+                "raw": "26",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 841,
                 "end": 843,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 845,
                 "end": 847,
                 "value": 30,
-                "raw": "30"
+                "raw": "30",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 849,
                 "end": 850,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 852,
                 "end": 853,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 855,
                 "end": 856,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 858,
                 "end": 859,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 861,
                 "end": 870,
                 "value": "islamic",
-                "raw": "\"islamic\""
+                "raw": "\"islamic\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -526,7 +582,9 @@
                     "start": 911,
                     "end": 928,
                     "value": "en-u-ca-islamic",
-                    "raw": "\"en-u-ca-islamic\""
+                    "raw": "\"en-u-ca-islamic\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "ObjectExpression",
@@ -551,7 +609,9 @@
                           "start": 943,
                           "end": 949,
                           "value": "long",
-                          "raw": "\"long\""
+                          "raw": "\"long\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -575,7 +635,9 @@
                 "start": 962,
                 "end": 971,
                 "value": "Ramadan",
-                "raw": "\"Ramadan\""
+                "raw": "\"Ramadan\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -585,7 +647,9 @@
             "start": 976,
             "end": 1029,
             "value": "dateStyle: long writes month of Ramadan out in full",
-            "raw": "\"dateStyle: long writes month of Ramadan out in full\""
+            "raw": "\"dateStyle: long writes month of Ramadan out in full\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -649,7 +713,9 @@
                       "start": 1071,
                       "end": 1088,
                       "value": "en-u-ca-islamic",
-                      "raw": "\"en-u-ca-islamic\""
+                      "raw": "\"en-u-ca-islamic\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "ObjectExpression",
@@ -674,7 +740,9 @@
                             "start": 1103,
                             "end": 1110,
                             "value": "short",
-                            "raw": "\"short\""
+                            "raw": "\"short\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           "kind": "init"
                         }
@@ -698,7 +766,9 @@
                   "start": 1123,
                   "end": 1132,
                   "value": "Ramadan",
-                  "raw": "\"Ramadan\""
+                  "raw": "\"Ramadan\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -709,7 +779,9 @@
             "start": 1137,
             "end": 1199,
             "value": "dateStyle: short does not write month of Ramadan out in full",
-            "raw": "\"dateStyle: short does not write month of Ramadan out in full\""
+            "raw": "\"dateStyle: short does not write month of Ramadan out in full\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

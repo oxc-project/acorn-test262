@@ -154,7 +154,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 26,
         "raw": "'./v1'",
-        "value": "./v1"
+        "value": "./v1",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -184,7 +186,9 @@ __ESTREE_TEST__:PASS:
         "start": 48,
         "end": 54,
         "raw": "'./v2'",
-        "value": "./v2"
+        "value": "./v2",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

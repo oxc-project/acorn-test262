@@ -403,7 +403,9 @@ __ESTREE_TEST__:PASS:
               "start": 184,
               "end": 186,
               "raw": "42",
-              "value": 42
+              "value": 42,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -674,7 +676,9 @@ __ESTREE_TEST__:PASS:
             "start": 336,
             "end": 339,
             "raw": "9.9",
-            "value": 9.9
+            "value": 9.9,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -705,7 +709,9 @@ __ESTREE_TEST__:PASS:
             "start": 355,
             "end": 373,
             "raw": "'this is a string'",
-            "value": "this is a string"
+            "value": "this is a string",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -741,7 +747,9 @@ __ESTREE_TEST__:PASS:
                 "start": 396,
                 "end": 398,
                 "raw": "12",
-                "value": 12
+                "value": 12,
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -824,7 +832,9 @@ __ESTREE_TEST__:PASS:
             "start": 443,
             "end": 447,
             "raw": "null",
-            "value": null
+            "value": null,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -1052,7 +1062,9 @@ __ESTREE_TEST__:PASS:
                   "start": 599,
                   "end": 601,
                   "raw": "12",
-                  "value": 12
+                  "value": 12,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -1124,7 +1136,9 @@ __ESTREE_TEST__:PASS:
               "start": 646,
               "end": 647,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "regex": null,
+              "bigint": null
             },
             "expression": true,
             "generator": false,

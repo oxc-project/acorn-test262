@@ -72,7 +72,9 @@ __ESTREE_TEST__:PASS:
             "start": 39,
             "end": 45,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -83,7 +85,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 25,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },
@@ -110,7 +114,9 @@ __ESTREE_TEST__:PASS:
             "start": 90,
             "end": 96,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -121,7 +127,9 @@ __ESTREE_TEST__:PASS:
         "start": 71,
         "end": 76,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -185,7 +193,9 @@ __ESTREE_TEST__:PASS:
             "start": 43,
             "end": 49,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -195,7 +205,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 28,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -247,7 +259,9 @@ __ESTREE_TEST__:PASS:
             "start": 97,
             "end": 103,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -257,7 +271,9 @@ __ESTREE_TEST__:PASS:
         "start": 78,
         "end": 83,
         "raw": "'./0'",
-        "value": "./0"
+        "value": "./0",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

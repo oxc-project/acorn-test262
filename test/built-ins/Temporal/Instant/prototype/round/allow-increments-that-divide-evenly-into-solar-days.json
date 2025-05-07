@@ -60,7 +60,9 @@
                 "start": 315,
                 "end": 347,
                 "value": "1976-11-18T14:23:30.123456789Z",
-                "raw": "\"1976-11-18T14:23:30.123456789Z\""
+                "raw": "\"1976-11-18T14:23:30.123456789Z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -135,7 +137,9 @@
                         "start": 389,
                         "end": 397,
                         "value": "second",
-                        "raw": "\"second\""
+                        "raw": "\"second\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     },
@@ -157,7 +161,9 @@
                         "start": 422,
                         "end": 425,
                         "value": 864,
-                        "raw": "864"
+                        "raw": "864",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }

@@ -217,7 +217,9 @@ __ESTREE_TEST__:PASS:
                 "start": 166,
                 "end": 171,
                 "raw": "false",
-                "value": false
+                "value": false,
+                "regex": null,
+                "bigint": null
               },
               "right": {
                 "type": "CallExpression",
@@ -229,7 +231,9 @@ __ESTREE_TEST__:PASS:
                     "start": 202,
                     "end": 206,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "callee": {
@@ -344,7 +348,9 @@ __ESTREE_TEST__:PASS:
                       "start": 249,
                       "end": 253,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

@@ -61,7 +61,9 @@
           "start": 346,
           "end": 349,
           "value": 101,
-          "raw": "101"
+          "raw": "101",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -140,7 +142,9 @@
                         "start": 488,
                         "end": 493,
                         "value": "102",
-                        "raw": "\"102\""
+                        "raw": "\"102\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -180,7 +184,9 @@
             "start": 523,
             "end": 528,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -205,7 +211,9 @@
                   "start": 541,
                   "end": 546,
                   "value": "102",
-                  "raw": "\"102\""
+                  "raw": "\"102\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -227,7 +235,9 @@
                   "start": 560,
                   "end": 564,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -249,7 +259,9 @@
                   "start": 580,
                   "end": 584,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -271,7 +283,9 @@
                   "start": 602,
                   "end": 606,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

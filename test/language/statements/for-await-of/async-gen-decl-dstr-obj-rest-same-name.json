@@ -41,7 +41,9 @@
                   "start": 1207,
                   "end": 1209,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -63,7 +65,9 @@
                   "start": 1216,
                   "end": 1218,
                   "value": 39,
-                  "raw": "39"
+                  "raw": "39",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -85,7 +89,9 @@
                   "start": 1225,
                   "end": 1239,
                   "value": "cheeseburger",
-                  "raw": "'cheeseburger'"
+                  "raw": "'cheeseburger'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -159,7 +165,9 @@
             "start": 1274,
             "end": 1275,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -285,7 +293,9 @@
                         "start": 1360,
                         "end": 1362,
                         "value": 42,
-                        "raw": "42"
+                        "raw": "42",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -387,7 +397,9 @@
                         "start": 1427,
                         "end": 1429,
                         "value": 39,
-                        "raw": "39"
+                        "raw": "39",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -445,7 +457,9 @@
                         "start": 1458,
                         "end": 1472,
                         "value": "cheeseburger",
-                        "raw": "'cheeseburger'"
+                        "raw": "'cheeseburger'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -555,7 +569,9 @@
                         "start": 1556,
                         "end": 1557,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -604,7 +620,9 @@
                           "start": 1586,
                           "end": 1587,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -614,7 +632,9 @@
                         "start": 1590,
                         "end": 1593,
                         "value": "y",
-                        "raw": "'y'"
+                        "raw": "'y'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -663,7 +683,9 @@
                           "start": 1622,
                           "end": 1623,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -673,7 +695,9 @@
                         "start": 1626,
                         "end": 1629,
                         "value": "z",
-                        "raw": "'z'"
+                        "raw": "'z'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -699,7 +723,9 @@
                       "start": 1650,
                       "end": 1651,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -841,14 +867,18 @@
                       "start": 1738,
                       "end": 1739,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 1741,
                       "end": 1773,
                       "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "raw": "'iteration occurred as expected'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

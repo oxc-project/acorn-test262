@@ -37,6 +37,7 @@
             "end": 803,
             "value": null,
             "raw": "1_0123456789n",
+            "regex": null,
             "bigint": "10123456789"
           },
           {
@@ -45,6 +46,7 @@
             "end": 817,
             "value": null,
             "raw": "10123456789n",
+            "regex": null,
             "bigint": "10123456789"
           }
         ],

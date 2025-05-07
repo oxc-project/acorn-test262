@@ -23,7 +23,9 @@
             "start": 270,
             "end": 275,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -93,7 +95,9 @@
                 "start": 340,
                 "end": 344,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -114,7 +118,9 @@
                   "start": 356,
                   "end": 371,
                   "value": "[object JSON]",
-                  "raw": "'[object JSON]'"
+                  "raw": "'[object JSON]'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "===",
                 "right": {
@@ -215,7 +221,9 @@
           "start": 431,
           "end": 432,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -243,7 +251,9 @@
             "start": 439,
             "end": 440,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -253,7 +263,9 @@
           "start": 444,
           "end": 445,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -339,7 +351,9 @@
                 "start": 506,
                 "end": 507,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -349,7 +363,9 @@
             "start": 510,
             "end": 574,
             "value": "Array.prototype.reduceRight.call(JSON, callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduceRight.call(JSON, callbackfn, 1) !== true'"
+            "raw": "'Array.prototype.reduceRight.call(JSON, callbackfn, 1) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -381,7 +397,9 @@
             "start": 594,
             "end": 613,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

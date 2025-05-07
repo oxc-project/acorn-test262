@@ -177,7 +177,9 @@ __ESTREE_TEST__:PASS:
                     "start": 87,
                     "end": 92,
                     "raw": "\"def\"",
-                    "value": "def"
+                    "value": "def",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

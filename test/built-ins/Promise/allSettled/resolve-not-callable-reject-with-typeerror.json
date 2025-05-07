@@ -36,7 +36,9 @@
           "start": 613,
           "end": 617,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -94,7 +96,9 @@
                         "start": 640,
                         "end": 641,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -136,7 +140,9 @@
                       "start": 669,
                       "end": 706,
                       "value": "The promise should not be resolved.",
-                      "raw": "'The promise should not be resolved.'"
+                      "raw": "'The promise should not be resolved.'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false

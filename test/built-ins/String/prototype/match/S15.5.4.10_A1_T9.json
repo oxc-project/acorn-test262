@@ -78,7 +78,9 @@
                     "start": 362,
                     "end": 363,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "kind": "init"
@@ -229,7 +231,9 @@
                 "start": 467,
                 "end": 478,
                 "value": "undefined",
-                "raw": "\"undefined\""
+                "raw": "\"undefined\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -315,7 +319,9 @@
                     "start": 642,
                     "end": 848,
                     "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.length === __expected.length. Actual: ",
-                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.length === __expected.length. Actual: '"
+                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.length === __expected.length. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -422,7 +428,9 @@
                     "start": 1113,
                     "end": 1317,
                     "value": "#2: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.index === __expected.index. Actual: ",
-                    "raw": "'#2: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.index === __expected.index. Actual: '"
+                    "raw": "'#2: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.index === __expected.index. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -529,7 +537,9 @@
                     "start": 1581,
                     "end": 1785,
                     "value": "#3: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.input === __expected.input. Actual: ",
-                    "raw": "'#3: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.input === __expected.input. Actual: '"
+                    "raw": "'#3: __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched.input === __expected.input. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -583,7 +593,9 @@
               "start": 1997,
               "end": 1998,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -739,7 +751,9 @@
                                       "start": 2113,
                                       "end": 2118,
                                       "value": "#4.",
-                                      "raw": "'#4.'"
+                                      "raw": "'#4.'",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "operator": "+",
                                     "right": {
@@ -755,7 +769,9 @@
                                     "start": 2129,
                                     "end": 2295,
                                     "value": ": __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched[",
-                                    "raw": "': __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched['"
+                                    "raw": "': __obj = {valueOf:function(){}, toString:void 0}; __matched = new String(__obj).match(function(){}()); __expected = RegExp(undefined).exec(\"undefined\"); __matched['",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 },
                                 "operator": "+",
@@ -772,7 +788,9 @@
                                 "start": 2306,
                                 "end": 2323,
                                 "value": "]===__expected[",
-                                "raw": "']===__expected['"
+                                "raw": "']===__expected['",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "operator": "+",
@@ -789,7 +807,9 @@
                             "start": 2334,
                             "end": 2347,
                             "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "raw": "']. Actual: '",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",

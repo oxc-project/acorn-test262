@@ -43,21 +43,27 @@
                       "start": 427,
                       "end": 439,
                       "value": "arg1, arg2",
-                      "raw": "\"arg1, arg2\""
+                      "raw": "\"arg1, arg2\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 441,
                       "end": 447,
                       "value": "arg3",
-                      "raw": "\"arg3\""
+                      "raw": "\"arg3\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Literal",
                       "start": 449,
                       "end": 473,
                       "value": "return arg1+arg2+arg3;",
-                      "raw": "\"return arg1+arg2+arg3;\""
+                      "raw": "\"return arg1+arg2+arg3;\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ],
                   "optional": false
@@ -103,7 +109,9 @@
                     "start": 515,
                     "end": 532,
                     "value": "#1: test failed",
-                    "raw": "'#1: test failed'"
+                    "raw": "'#1: test failed'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -151,7 +159,9 @@
             "start": 568,
             "end": 641,
             "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -201,21 +211,27 @@
                 "start": 663,
                 "end": 667,
                 "value": "AB",
-                "raw": "\"AB\""
+                "raw": "\"AB\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 669,
                 "end": 673,
                 "value": "BA",
-                "raw": "\"BA\""
+                "raw": "\"BA\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 675,
                 "end": 676,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -225,14 +241,18 @@
             "start": 679,
             "end": 686,
             "value": "ABBA1",
-            "raw": "\"ABBA1\""
+            "raw": "\"ABBA1\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 722,
             "value": "f(AB, BA, 1) must return \"ABBA1\"",
-            "raw": "'f(AB, BA, 1) must return \"ABBA1\"'"
+            "raw": "'f(AB, BA, 1) must return \"ABBA1\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

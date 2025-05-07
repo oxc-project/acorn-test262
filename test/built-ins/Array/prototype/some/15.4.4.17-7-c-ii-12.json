@@ -65,7 +65,9 @@
                   "start": 313,
                   "end": 315,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "operator": "&&",
@@ -138,14 +140,18 @@
                     "start": 348,
                     "end": 349,
                     "value": 9,
-                    "raw": "9"
+                    "raw": "9",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 351,
                     "end": 353,
                     "value": 12,
-                    "raw": "12"
+                    "raw": "12",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -173,7 +179,9 @@
             "start": 373,
             "end": 408,
             "value": "[9, 12].some(callbackfn) !== true",
-            "raw": "'[9, 12].some(callbackfn) !== true'"
+            "raw": "'[9, 12].some(callbackfn) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -89,7 +89,9 @@
                 "start": 304,
                 "end": 305,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -155,7 +157,9 @@
                             "start": 366,
                             "end": 367,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -186,7 +190,9 @@
                             "start": 392,
                             "end": 393,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -213,7 +219,9 @@
                         "start": 414,
                         "end": 415,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -256,7 +264,9 @@
               "start": 431,
               "end": 432,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -322,7 +332,9 @@
                   "start": 485,
                   "end": 540,
                   "value": "#1: Recursive function calls shares execution context",
-                  "raw": "\"#1: Recursive function calls shares execution context\""
+                  "raw": "\"#1: Recursive function calls shares execution context\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

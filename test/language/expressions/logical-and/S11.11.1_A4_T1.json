@@ -24,7 +24,9 @@
               "start": 315,
               "end": 319,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "operator": "&&",
             "right": {
@@ -32,7 +34,9 @@
               "start": 323,
               "end": 327,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -42,7 +46,9 @@
           "start": 333,
           "end": 337,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -70,7 +76,9 @@
                   "start": 366,
                   "end": 395,
                   "value": "#1: (true && true) === true",
-                  "raw": "'#1: (true && true) === true'"
+                  "raw": "'#1: (true && true) === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -100,7 +108,9 @@
               "start": 416,
               "end": 420,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "operator": "&&",
             "right": {
@@ -108,7 +118,9 @@
               "start": 424,
               "end": 429,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "regex": null,
+              "bigint": null
             }
           }
         },
@@ -118,7 +130,9 @@
           "start": 435,
           "end": 440,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -146,7 +160,9 @@
                   "start": 469,
                   "end": 500,
                   "value": "#2: (true && false) === false",
-                  "raw": "'#2: (true && false) === false'"
+                  "raw": "'#2: (true && false) === false'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -186,7 +202,9 @@
                 "start": 536,
                 "end": 540,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -226,7 +244,9 @@
                   "start": 560,
                   "end": 564,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -272,7 +292,9 @@
                   "start": 607,
                   "end": 672,
                   "value": "#3: (var y = new Boolean(true); (new Boolean(true) &&  y) === y",
-                  "raw": "'#3: (var y = new Boolean(true); (new Boolean(true) &&  y) === y'"
+                  "raw": "'#3: (var y = new Boolean(true); (new Boolean(true) &&  y) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -312,7 +334,9 @@
                 "start": 708,
                 "end": 713,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -352,7 +376,9 @@
                   "start": 733,
                   "end": 737,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -398,7 +424,9 @@
                   "start": 780,
                   "end": 846,
                   "value": "#4: (var y = new Boolean(false); (new Boolean(true) &&  y) === y",
-                  "raw": "'#4: (var y = new Boolean(false); (new Boolean(true) &&  y) === y'"
+                  "raw": "'#4: (var y = new Boolean(false); (new Boolean(true) &&  y) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -438,7 +466,9 @@
                 "start": 882,
                 "end": 886,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -478,7 +508,9 @@
                   "start": 906,
                   "end": 911,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -524,7 +556,9 @@
                   "start": 954,
                   "end": 1020,
                   "value": "#5: (var y = new Boolean(true); (new Boolean(false) &&  y) === y",
-                  "raw": "'#5: (var y = new Boolean(true); (new Boolean(false) &&  y) === y'"
+                  "raw": "'#5: (var y = new Boolean(true); (new Boolean(false) &&  y) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -564,7 +598,9 @@
                 "start": 1056,
                 "end": 1061,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -604,7 +640,9 @@
                   "start": 1081,
                   "end": 1086,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             },
@@ -650,7 +688,9 @@
                   "start": 1129,
                   "end": 1196,
                   "value": "#6: (var y = new Boolean(false); (new Boolean(false) &&  y) === y",
-                  "raw": "'#6: (var y = new Boolean(false); (new Boolean(false) &&  y) === y'"
+                  "raw": "'#6: (var y = new Boolean(false); (new Boolean(false) &&  y) === y'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

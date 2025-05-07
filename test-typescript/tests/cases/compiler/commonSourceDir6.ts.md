@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 23,
         "raw": "\"./foo\"",
-        "value": "./foo"
+        "value": "./foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -125,7 +127,9 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 25,
         "raw": "\"../baz\"",
-        "value": "../baz"
+        "value": "../baz",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -192,7 +196,9 @@ __ESTREE_TEST__:PASS:
                     "start": 53,
                     "end": 54,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "-",
                   "prefix": true
@@ -315,7 +321,9 @@ __ESTREE_TEST__:PASS:
         "start": 16,
         "end": 23,
         "raw": "\"a/bar\"",
-        "value": "a/bar"
+        "value": "a/bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -355,7 +363,9 @@ __ESTREE_TEST__:PASS:
         "start": 41,
         "end": 48,
         "raw": "\"a/foo\"",
-        "value": "a/foo"
+        "value": "a/foo",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -72,7 +72,9 @@
                     "start": 444,
                     "end": 501,
                     "value": "#1: Variable declaration inside \"try\" block is admitted",
-                    "raw": "'#1: Variable declaration inside \"try\" block is admitted'"
+                    "raw": "'#1: Variable declaration inside \"try\" block is admitted'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -156,7 +158,9 @@
                     "start": 747,
                     "end": 806,
                     "value": "#2: Variable declaration inside \"catch\" block is admitted",
-                    "raw": "'#2: Variable declaration inside \"catch\" block is admitted'"
+                    "raw": "'#2: Variable declaration inside \"catch\" block is admitted'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

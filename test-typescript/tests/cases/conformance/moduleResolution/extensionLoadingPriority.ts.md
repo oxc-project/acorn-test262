@@ -14,7 +14,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 21,
         "raw": "\"a.js\"",
-        "value": "a.js"
+        "value": "a.js",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -39,7 +41,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"a.js.js\"",
-        "value": "a.js.js"
+        "value": "a.js.js",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -64,7 +68,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 29,
         "raw": "\"dir/index.ts\"",
-        "value": "dir/index.ts"
+        "value": "dir/index.ts",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -89,7 +95,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 23,
         "raw": "\"dir.js\"",
-        "value": "dir.js"
+        "value": "dir.js",
+        "regex": null,
+        "bigint": null
       },
       "exportKind": "value"
     }
@@ -116,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 14,
         "end": 22,
         "raw": "\"./a.js\"",
-        "value": "./a.js"
+        "value": "./a.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -146,7 +156,9 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 47,
         "raw": "\"./dir\"",
-        "value": "./dir"
+        "value": "./dir",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

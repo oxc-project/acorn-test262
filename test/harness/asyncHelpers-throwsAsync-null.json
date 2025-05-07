@@ -52,7 +52,9 @@
                         "start": 321,
                         "end": 326,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -126,7 +128,9 @@
                                     "start": 397,
                                     "end": 401,
                                     "value": null,
-                                    "raw": "null"
+                                    "raw": "null",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -238,7 +242,9 @@
                               "start": 493,
                               "end": 497,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         },
@@ -308,7 +314,9 @@
                                     "start": 570,
                                     "end": 604,
                                     "value": "Expected a Test262Error, but a '",
-                                    "raw": "\"Expected a Test262Error, but a '\""
+                                    "raw": "\"Expected a Test262Error, but a '\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "operator": "+",
                                   "right": {
@@ -350,7 +358,9 @@
                                   "start": 646,
                                   "end": 661,
                                   "value": "' was thrown.",
-                                  "raw": "\"' was thrown.\""
+                                  "raw": "\"' was thrown.\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ],
@@ -391,7 +401,9 @@
                               "start": 715,
                               "end": 771,
                               "value": "assert.throwsAsync did not reject when null was thrown",
-                              "raw": "\"assert.throwsAsync did not reject when null was thrown\""
+                              "raw": "\"assert.throwsAsync did not reject when null was thrown\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false

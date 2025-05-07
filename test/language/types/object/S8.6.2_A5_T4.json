@@ -23,7 +23,9 @@
             "start": 355,
             "end": 356,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -52,7 +54,9 @@
             "start": 364,
             "end": 370,
             "value": "beep",
-            "raw": "\"beep\""
+            "raw": "\"beep\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -132,7 +136,9 @@
           "start": 507,
           "end": 508,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -164,7 +170,9 @@
                     "start": 537,
                     "end": 621,
                     "value": "#1: __count=0; this[\"beep\"]=function(){__count++}; beep(); __count === 1. Actual: ",
-                    "raw": "'#1: __count=0; this[\"beep\"]=function(){__count++}; beep(); __count === 1. Actual: '"
+                    "raw": "'#1: __count=0; this[\"beep\"]=function(){__count++}; beep(); __count === 1. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -208,7 +216,9 @@
             "start": 815,
             "end": 821,
             "value": "beep",
-            "raw": "\"beep\""
+            "raw": "\"beep\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -237,7 +247,9 @@
           "start": 841,
           "end": 842,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -269,7 +281,9 @@
                     "start": 871,
                     "end": 971,
                     "value": "#2: __count=0; this[\"beep\"]=function(){__count++}; beep(); this[\"beep\"](); __count === 2. Actual: ",
-                    "raw": "'#2: __count=0; this[\"beep\"]=function(){__count++}; beep(); this[\"beep\"](); __count === 2. Actual: '"
+                    "raw": "'#2: __count=0; this[\"beep\"]=function(){__count++}; beep(); this[\"beep\"](); __count === 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

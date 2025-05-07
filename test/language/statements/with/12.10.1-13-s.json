@@ -27,7 +27,9 @@
               "start": 328,
               "end": 340,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

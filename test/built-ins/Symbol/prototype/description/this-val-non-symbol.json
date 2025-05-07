@@ -70,7 +70,9 @@
                   "start": 503,
                   "end": 516,
                   "value": "description",
-                  "raw": "'description'"
+                  "raw": "'description'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -169,7 +171,9 @@
                         "start": 577,
                         "end": 581,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -183,7 +187,9 @@
             "start": 587,
             "end": 623,
             "value": "getter.call(null) throws TypeError",
-            "raw": "'getter.call(null) throws TypeError'"
+            "raw": "'getter.call(null) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -270,7 +276,9 @@
                         "start": 679,
                         "end": 682,
                         "value": 123,
-                        "raw": "123"
+                        "raw": "123",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -284,7 +292,9 @@
             "start": 688,
             "end": 723,
             "value": "getter.call(123) throws TypeError",
-            "raw": "'getter.call(123) throws TypeError'"
+            "raw": "'getter.call(123) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -371,7 +381,9 @@
                         "start": 779,
                         "end": 785,
                         "value": "test",
-                        "raw": "'test'"
+                        "raw": "'test'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -385,7 +397,9 @@
             "start": 791,
             "end": 829,
             "value": "getter.call(\"test\") throws TypeError",
-            "raw": "'getter.call(\"test\") throws TypeError'"
+            "raw": "'getter.call(\"test\") throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -472,7 +486,9 @@
                         "start": 885,
                         "end": 889,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -486,7 +502,9 @@
             "start": 895,
             "end": 931,
             "value": "getter.call(true) throws TypeError",
-            "raw": "'getter.call(true) throws TypeError'"
+            "raw": "'getter.call(true) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -586,7 +604,9 @@
             "start": 1002,
             "end": 1043,
             "value": "getter.call(undefined) throws TypeError",
-            "raw": "'getter.call(undefined) throws TypeError'"
+            "raw": "'getter.call(undefined) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -705,7 +725,9 @@
             "start": 1122,
             "end": 1171,
             "value": "getter.call(new Proxy({}, {})) throws TypeError",
-            "raw": "'getter.call(new Proxy({}, {})) throws TypeError'"
+            "raw": "'getter.call(new Proxy({}, {})) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -805,7 +827,9 @@
             "start": 1235,
             "end": 1269,
             "value": "getter.call({}) throws TypeError",
-            "raw": "'getter.call({}) throws TypeError'"
+            "raw": "'getter.call({}) throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

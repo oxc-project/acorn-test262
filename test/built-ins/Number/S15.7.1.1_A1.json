@@ -53,7 +53,9 @@
                   "start": 400,
                   "end": 404,
                   "value": "10",
-                  "raw": "\"10\""
+                  "raw": "\"10\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -64,14 +66,18 @@
             "start": 407,
             "end": 415,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 417,
             "end": 480,
             "value": "The value of `typeof Number(\"10\")` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(\"10\")` is expected to be \"number\"'"
+            "raw": "'The value of `typeof Number(\"10\")` is expected to be \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -127,7 +133,9 @@
                   "start": 514,
                   "end": 516,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -138,14 +146,18 @@
             "start": 519,
             "end": 527,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 590,
             "value": "The value of `typeof Number(10)` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(10)` is expected to be \"number\"'"
+            "raw": "'The value of `typeof Number(10)` is expected to be \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -212,7 +224,9 @@
                       "start": 639,
                       "end": 643,
                       "value": "10",
-                      "raw": "\"10\""
+                      "raw": "\"10\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -225,14 +239,18 @@
             "start": 649,
             "end": 657,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 661,
             "end": 736,
             "value": "The value of `typeof Number(new String(\"10\"))` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(new String(\"10\"))` is expected to be \"number\"'"
+            "raw": "'The value of `typeof Number(new String(\"10\"))` is expected to be \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -299,7 +317,9 @@
                       "start": 786,
                       "end": 788,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -312,14 +332,18 @@
             "start": 794,
             "end": 802,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 879,
             "value": "The value of `typeof Number(new Object(10))` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(new Object(10))` is expected to be \"number\"'"
+            "raw": "'The value of `typeof Number(new Object(10))` is expected to be \"number\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -369,7 +393,9 @@
                 "start": 908,
                 "end": 913,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -385,7 +411,9 @@
             "start": 921,
             "end": 948,
             "value": "Number(\"abc\") returns NaN",
-            "raw": "'Number(\"abc\") returns NaN'"
+            "raw": "'Number(\"abc\") returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -435,7 +463,9 @@
                 "start": 975,
                 "end": 985,
                 "value": "INFINITY",
-                "raw": "\"INFINITY\""
+                "raw": "\"INFINITY\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -451,7 +481,9 @@
             "start": 993,
             "end": 1025,
             "value": "Number(\"INFINITY\") returns NaN",
-            "raw": "'Number(\"INFINITY\") returns NaN'"
+            "raw": "'Number(\"INFINITY\") returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -501,7 +533,9 @@
                 "start": 1052,
                 "end": 1062,
                 "value": "infinity",
-                "raw": "\"infinity\""
+                "raw": "\"infinity\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -517,7 +551,9 @@
             "start": 1070,
             "end": 1102,
             "value": "Number(\"infinity\") returns NaN",
-            "raw": "'Number(\"infinity\") returns NaN'"
+            "raw": "'Number(\"infinity\") returns NaN'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

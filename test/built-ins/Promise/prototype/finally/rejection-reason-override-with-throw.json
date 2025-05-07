@@ -237,7 +237,9 @@
                                         "start": 490,
                                         "end": 491,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -295,14 +297,18 @@
                                         "start": 531,
                                         "end": 532,
                                         "value": 0,
-                                        "raw": "0"
+                                        "raw": "0",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 534,
                                         "end": 564,
                                         "value": "onFinally receives zero args",
-                                        "raw": "'onFinally receives zero args'"
+                                        "raw": "'onFinally receives zero args'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "optional": false
@@ -369,7 +375,9 @@
                                     "start": 629,
                                     "end": 682,
                                     "value": "promise is rejected; onFulfill should not be called",
-                                    "raw": "'promise is rejected; onFulfill should not be called'"
+                                    "raw": "'promise is rejected; onFulfill should not be called'",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -444,7 +452,9 @@
                                 "start": 729,
                                 "end": 730,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -495,7 +505,9 @@
                                 "start": 768,
                                 "end": 825,
                                 "value": "onFinally can override the rejection reason by throwing",
-                                "raw": "'onFinally can override the rejection reason by throwing'"
+                                "raw": "'onFinally can override the rejection reason by throwing'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false
@@ -583,7 +595,9 @@
                             "start": 885,
                             "end": 886,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -615,7 +629,9 @@
                             "start": 915,
                             "end": 963,
                             "value": "All expected callbacks called in correct order",
-                            "raw": "\"All expected callbacks called in correct order\""
+                            "raw": "\"All expected callbacks called in correct order\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

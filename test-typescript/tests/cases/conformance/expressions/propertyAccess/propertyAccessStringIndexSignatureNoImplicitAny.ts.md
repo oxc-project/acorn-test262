@@ -229,7 +229,9 @@ __ESTREE_TEST__:PASS:
           "start": 120,
           "end": 134,
           "raw": "'this is fine'",
-          "value": "this is fine"
+          "value": "this is fine",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -356,7 +358,9 @@ __ESTREE_TEST__:PASS:
           "start": 194,
           "end": 214,
           "raw": "\"not allowed either\"",
-          "value": "not allowed either"
+          "value": "not allowed either",
+          "regex": null,
+          "bigint": null
         }
       }
     }

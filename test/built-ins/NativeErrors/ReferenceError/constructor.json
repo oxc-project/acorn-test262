@@ -49,14 +49,18 @@
             "start": 258,
             "end": 268,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 270,
             "end": 307,
             "value": "typeof ReferenceError is \"function\"",
-            "raw": "'typeof ReferenceError is \"function\"'"
+            "raw": "'typeof ReferenceError is \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

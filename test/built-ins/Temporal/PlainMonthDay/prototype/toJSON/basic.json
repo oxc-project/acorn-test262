@@ -57,14 +57,18 @@
                         "start": 299,
                         "end": 300,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 302,
                         "end": 303,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -73,7 +77,9 @@
                     "start": 306,
                     "end": 313,
                     "value": "01-01",
-                    "raw": "\"01-01\""
+                    "raw": "\"01-01\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -111,14 +117,18 @@
                         "start": 346,
                         "end": 348,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 350,
                         "end": 352,
                         "value": 31,
-                        "raw": "31"
+                        "raw": "31",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   },
@@ -127,7 +137,9 @@
                     "start": 355,
                     "end": 362,
                     "value": "12-31",
-                    "raw": "\"12-31\""
+                    "raw": "\"12-31\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -221,7 +233,9 @@
                                   "start": 434,
                                   "end": 474,
                                   "value": "should not get properties off argument",
-                                  "raw": "\"should not get properties off argument\""
+                                  "raw": "\"should not get properties off argument\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -353,7 +367,9 @@
                   "start": 575,
                   "end": 600,
                   "value": "toJSON without argument",
-                  "raw": "\"toJSON without argument\""
+                  "raw": "\"toJSON without argument\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -431,7 +447,9 @@
                   "start": 658,
                   "end": 680,
                   "value": "toJSON with argument",
-                  "raw": "\"toJSON with argument\""
+                  "raw": "\"toJSON with argument\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

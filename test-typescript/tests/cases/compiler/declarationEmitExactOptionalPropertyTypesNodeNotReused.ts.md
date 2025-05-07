@@ -615,7 +615,9 @@ __ESTREE_TEST__:PASS:
                 "start": 365,
                 "end": 369,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "expression": true,
               "generator": false,

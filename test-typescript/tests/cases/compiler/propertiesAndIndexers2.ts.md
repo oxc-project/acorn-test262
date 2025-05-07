@@ -154,7 +154,9 @@ __ESTREE_TEST__:PASS:
               "start": 139,
               "end": 140,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
               "start": 176,
               "end": 187,
               "raw": "\"-Infinity\"",
-              "value": "-Infinity"
+              "value": "-Infinity",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -266,7 +270,9 @@ __ESTREE_TEST__:PASS:
               "start": 218,
               "end": 224,
               "raw": "\"-NaN\"",
-              "value": "-NaN"
+              "value": "-NaN",
+              "regex": null,
+              "bigint": null
             },
             "optional": false,
             "readonly": false,
@@ -293,7 +299,9 @@ __ESTREE_TEST__:PASS:
               "start": 238,
               "end": 239,
               "raw": "6",
-              "value": 6
+              "value": 6,
+              "regex": null,
+              "bigint": null
             },
             "kind": "method",
             "optional": false,

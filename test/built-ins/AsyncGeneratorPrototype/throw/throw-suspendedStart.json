@@ -34,7 +34,9 @@
                 "start": 971,
                 "end": 977,
                 "value": "boop",
-                "raw": "'boop'"
+                "raw": "'boop'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -91,7 +93,9 @@
                         "start": 1033,
                         "end": 1065,
                         "value": "Generator must not be resumed.",
-                        "raw": "'Generator must not be resumed.'"
+                        "raw": "'Generator must not be resumed.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -270,7 +274,9 @@
                             "start": 1161,
                             "end": 1216,
                             "value": "AsyncGeneratorReject(generator, completion.[[Value]])",
-                            "raw": "'AsyncGeneratorReject(generator, completion.[[Value]])'"
+                            "raw": "'AsyncGeneratorReject(generator, completion.[[Value]])'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -411,7 +417,9 @@
                                             "start": 1296,
                                             "end": 1317,
                                             "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "raw": "'Generator is closed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false
@@ -469,14 +477,18 @@
                                             "start": 1351,
                                             "end": 1355,
                                             "value": true,
-                                            "raw": "true"
+                                            "raw": "true",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1357,
                                             "end": 1378,
                                             "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "raw": "'Generator is closed'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ],
                                         "optional": false

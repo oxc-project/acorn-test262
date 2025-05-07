@@ -43,7 +43,9 @@ __ESTREE_TEST__:PASS:
               "start": 83,
               "end": 92,
               "raw": "'./other'",
-              "value": "./other"
+              "value": "./other",
+              "regex": null,
+              "bigint": null
             }
           },
           {

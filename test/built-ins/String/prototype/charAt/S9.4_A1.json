@@ -24,7 +24,9 @@
               "start": 346,
               "end": 351,
               "value": "abc",
-              "raw": "\"abc\""
+              "raw": "\"abc\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -64,7 +66,9 @@
           "start": 375,
           "end": 378,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -96,7 +100,9 @@
                     "start": 407,
                     "end": 455,
                     "value": "#1: \"abc\".charAt(Number.NaN) === \"a\". Actual: ",
-                    "raw": "'#1: \"abc\".charAt(Number.NaN) === \"a\". Actual: '"
+                    "raw": "'#1: \"abc\".charAt(Number.NaN) === \"a\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -116,7 +122,9 @@
                           "start": 459,
                           "end": 464,
                           "value": "abc",
-                          "raw": "\"abc\""
+                          "raw": "\"abc\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -180,7 +188,9 @@
               "start": 505,
               "end": 510,
               "value": "abc",
-              "raw": "\"abc\""
+              "raw": "\"abc\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -197,7 +207,9 @@
               "start": 518,
               "end": 521,
               "value": "x",
-              "raw": "\"x\""
+              "raw": "\"x\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -208,7 +220,9 @@
           "start": 527,
           "end": 530,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -240,7 +254,9 @@
                     "start": 559,
                     "end": 600,
                     "value": "#2: \"abc\".charAt(\"x\") === \"a\". Actual: ",
-                    "raw": "'#2: \"abc\".charAt(\"x\") === \"a\". Actual: '"
+                    "raw": "'#2: \"abc\".charAt(\"x\") === \"a\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -260,7 +276,9 @@
                           "start": 604,
                           "end": 609,
                           "value": "abc",
-                          "raw": "\"abc\""
+                          "raw": "\"abc\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -277,7 +295,9 @@
                           "start": 617,
                           "end": 620,
                           "value": "x",
-                          "raw": "\"x\""
+                          "raw": "\"x\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

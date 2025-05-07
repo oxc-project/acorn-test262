@@ -25,7 +25,9 @@
                 "start": 1055,
                 "end": 1056,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -42,7 +44,9 @@
             "start": 1066,
             "end": 1184,
             "value": "assert.sameValue(f, undefined);    {    function f() {}  }if (false) function _f() {} else function f() {  }",
-            "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }if (false) function _f() {} else function f() {  }'"
+            "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }if (false) function _f() {} else function f() {  }'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

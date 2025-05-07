@@ -60,7 +60,9 @@
                     "start": 1023,
                     "end": 1042,
                     "value": "character\tescape",
-                    "raw": "'character\\tescape'"
+                    "raw": "'character\\tescape'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "get",
                   "value": {
@@ -86,7 +88,9 @@
                             "start": 1054,
                             "end": 1066,
                             "value": "get string",
-                            "raw": "'get string'"
+                            "raw": "'get string'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -104,7 +108,9 @@
                     "start": 1083,
                     "end": 1102,
                     "value": "character\tescape",
-                    "raw": "'character\\tescape'"
+                    "raw": "'character\\tescape'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "set",
                   "value": {
@@ -205,7 +211,9 @@
               "start": 1156,
               "end": 1174,
               "value": "character\tescape",
-              "raw": "'character\tescape'"
+              "raw": "'character\tescape'",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -215,7 +223,9 @@
             "start": 1177,
             "end": 1189,
             "value": "get string",
-            "raw": "'get string'"
+            "raw": "'get string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +255,9 @@
             "start": 1195,
             "end": 1213,
             "value": "character\tescape",
-            "raw": "'character\tescape'"
+            "raw": "'character\tescape'",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -255,7 +267,9 @@
           "start": 1217,
           "end": 1229,
           "value": "set string",
-          "raw": "'set string'"
+          "raw": "'set string'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -298,7 +312,9 @@
             "start": 1259,
             "end": 1271,
             "value": "set string",
-            "raw": "'set string'"
+            "raw": "'set string'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

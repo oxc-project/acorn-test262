@@ -44,7 +44,9 @@
                 "start": 290,
                 "end": 309,
                 "value": " \tabc \t",
-                "raw": "\" \\u0009abc \\u0009\""
+                "raw": "\" \\u0009abc \\u0009\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 318,
             "end": 323,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 325,
             "end": 353,
             "value": "\" \tabc \t\".trim()",
-            "raw": "'\" \\u0009abc \\u0009\".trim()'"
+            "raw": "'\" \\u0009abc \\u0009\".trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

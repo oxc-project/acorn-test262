@@ -60,7 +60,9 @@
                 "start": 331,
                 "end": 352,
                 "value": "1976-11-18T14:00:00",
-                "raw": "\"1976-11-18T14:00:00\""
+                "raw": "\"1976-11-18T14:00:00\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -144,7 +146,9 @@
             "start": 416,
             "end": 434,
             "value": "missing argument",
-            "raw": "\"missing argument\""
+            "raw": "\"missing argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +236,9 @@
             "start": 507,
             "end": 527,
             "value": "undefined argument",
-            "raw": "\"undefined argument\""
+            "raw": "\"undefined argument\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

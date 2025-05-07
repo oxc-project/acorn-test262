@@ -60,7 +60,9 @@
                 "start": 369,
                 "end": 380,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -70,7 +72,9 @@
             "start": 383,
             "end": 387,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -102,7 +106,9 @@
             "start": 421,
             "end": 432,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +182,9 @@
                   "start": 486,
                   "end": 491,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -320,7 +328,9 @@
               "start": 623,
               "end": 634,
               "value": "prototype",
-              "raw": "'prototype'"
+              "raw": "'prototype'",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -331,7 +341,9 @@
           "start": 640,
           "end": 644,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -359,7 +371,9 @@
                   "start": 675,
                   "end": 751,
                   "value": "#2: delete RegExp.prototype; RegExp.hasOwnProperty('prototype') === true",
-                  "raw": "'#2: delete RegExp.prototype; RegExp.hasOwnProperty(\\'prototype\\') === true'"
+                  "raw": "'#2: delete RegExp.prototype; RegExp.hasOwnProperty(\\'prototype\\') === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

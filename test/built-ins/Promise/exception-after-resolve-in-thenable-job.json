@@ -185,7 +185,9 @@
                               "start": 887,
                               "end": 906,
                               "value": "ignored exception",
-                              "raw": "\"ignored exception\""
+                              "raw": "\"ignored exception\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

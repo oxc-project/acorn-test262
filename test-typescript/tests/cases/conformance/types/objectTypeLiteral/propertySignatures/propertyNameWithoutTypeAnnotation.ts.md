@@ -205,7 +205,9 @@ __ESTREE_TEST__:PASS:
                   "start": 88,
                   "end": 92,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -304,7 +306,9 @@ __ESTREE_TEST__:PASS:
                 "start": 170,
                 "end": 174,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "regex": null,
+                "bigint": null
               },
               "typeAnnotation": {
                 "type": "TSTypeReference",

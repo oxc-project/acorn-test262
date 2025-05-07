@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 69,
           "raw": "\"./aliasUsageInFunctionExpression_backbone\"",
-          "value": "./aliasUsageInFunctionExpression_backbone"
+          "value": "./aliasUsageInFunctionExpression_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -210,7 +212,9 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 69,
           "raw": "\"./aliasUsageInFunctionExpression_backbone\"",
-          "value": "./aliasUsageInFunctionExpression_backbone"
+          "value": "./aliasUsageInFunctionExpression_backbone",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -237,7 +241,9 @@ __ESTREE_TEST__:PASS:
           "start": 97,
           "end": 139,
           "raw": "\"./aliasUsageInFunctionExpression_moduleA\"",
-          "value": "./aliasUsageInFunctionExpression_moduleA"
+          "value": "./aliasUsageInFunctionExpression_moduleA",
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -101,7 +101,9 @@
                                 "start": 1186,
                                 "end": 1194,
                                 "value": "var x;",
-                                "raw": "'var x;'"
+                                "raw": "'var x;'",
+                                "regex": null,
+                                "bigint": null
                               }
                             ],
                             "optional": false

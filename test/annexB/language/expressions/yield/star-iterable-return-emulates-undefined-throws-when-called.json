@@ -350,7 +350,9 @@
                         "start": 1018,
                         "end": 1020,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],

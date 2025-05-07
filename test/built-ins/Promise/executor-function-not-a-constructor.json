@@ -266,7 +266,9 @@
                 "start": 819,
                 "end": 830,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -276,14 +278,18 @@
             "start": 835,
             "end": 840,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 844,
             "end": 931,
             "value": "Object.prototype.hasOwnProperty.call(executorFunction, \"prototype\") must return false",
-            "raw": "'Object.prototype.hasOwnProperty.call(executorFunction, \"prototype\") must return false'"
+            "raw": "'Object.prototype.hasOwnProperty.call(executorFunction, \"prototype\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -342,14 +348,18 @@
             "start": 985,
             "end": 990,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 992,
             "end": 1043,
             "value": "isConstructor(executorFunction) must return false",
-            "raw": "'isConstructor(executorFunction) must return false'"
+            "raw": "'isConstructor(executorFunction) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -67,7 +67,9 @@
             "start": 486,
             "end": 487,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -156,7 +158,9 @@
             "start": 540,
             "end": 545,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -245,7 +249,9 @@
             "start": 592,
             "end": 596,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -290,7 +296,9 @@
             "start": 618,
             "end": 620,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",
@@ -405,14 +413,18 @@
             "start": 692,
             "end": 693,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 695,
             "end": 727,
             "value": "The value of `map.size` is `7`",
-            "raw": "'The value of `map.size` is `7`'"
+            "raw": "'The value of `map.size` is `7`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

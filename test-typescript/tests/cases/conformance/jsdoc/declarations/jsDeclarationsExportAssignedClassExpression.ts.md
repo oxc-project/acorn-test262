@@ -121,7 +121,9 @@ __ESTREE_TEST__:PASS:
                               "start": 110,
                               "end": 112,
                               "raw": "12",
-                              "value": 12
+                              "value": 12,
+                              "regex": null,
+                              "bigint": null
                             },
                             "right": {
                               "type": "Identifier",

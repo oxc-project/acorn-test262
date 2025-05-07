@@ -28,28 +28,36 @@
                 "start": 316,
                 "end": 331,
                 "value": "-000000-08-24",
-                "raw": "\"-000000-08-24\""
+                "raw": "\"-000000-08-24\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 359,
                 "value": "-000000-08-24T15:43:27",
-                "raw": "\"-000000-08-24T15:43:27\""
+                "raw": "\"-000000-08-24T15:43:27\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 393,
                 "value": "-000000-08-24T15:43:27+01:00",
-                "raw": "\"-000000-08-24T15:43:27+01:00\""
+                "raw": "\"-000000-08-24T15:43:27+01:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 397,
                 "end": 432,
                 "value": "-000000-08-24T15:43:27+00:00[UTC]",
-                "raw": "\"-000000-08-24T15:43:27+00:00[UTC]\""
+                "raw": "\"-000000-08-24T15:43:27+00:00[UTC]\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -101,14 +109,18 @@
                 "start": 481,
                 "end": 482,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 484,
                 "end": 485,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -247,7 +259,9 @@
                         "start": 591,
                         "end": 627,
                         "value": "reject minus zero as extended year",
-                        "raw": "\"reject minus zero as extended year\""
+                        "raw": "\"reject minus zero as extended year\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

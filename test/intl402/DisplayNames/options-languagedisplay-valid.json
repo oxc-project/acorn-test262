@@ -34,14 +34,18 @@
                 "start": 1376,
                 "end": 1385,
                 "value": "dialect",
-                "raw": "'dialect'"
+                "raw": "'dialect'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1389,
                 "end": 1399,
                 "value": "standard",
-                "raw": "'standard'"
+                "raw": "'standard'",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -142,7 +146,9 @@
                             "start": 1486,
                             "end": 1490,
                             "value": "en",
-                            "raw": "'en'"
+                            "raw": "'en'",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -188,7 +194,9 @@
                                   "start": 1517,
                                   "end": 1527,
                                   "value": "language",
-                                  "raw": "'language'"
+                                  "raw": "'language'",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }

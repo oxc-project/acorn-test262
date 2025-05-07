@@ -23,7 +23,9 @@
             "start": 316,
             "end": 321,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -87,7 +89,9 @@
                 "start": 375,
                 "end": 376,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -134,7 +138,9 @@
                     "start": 429,
                     "end": 433,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -175,7 +181,9 @@
                   "start": 458,
                   "end": 459,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Identifier",
@@ -326,7 +334,9 @@
           "start": 559,
           "end": 561,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -428,14 +438,18 @@
             "start": 628,
             "end": 633,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 635,
             "end": 682,
             "value": "Array.prototype.every.call(child, callbackfn)",
-            "raw": "'Array.prototype.every.call(child, callbackfn)'"
+            "raw": "'Array.prototype.every.call(child, callbackfn)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

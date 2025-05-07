@@ -70,7 +70,9 @@
                   "start": 583,
                   "end": 592,
                   "value": "unicode",
-                  "raw": "'unicode'"
+                  "raw": "'unicode'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false

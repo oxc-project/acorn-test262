@@ -144,7 +144,9 @@
                                 "start": 714,
                                 "end": 715,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -180,7 +182,9 @@
                               "start": 743,
                               "end": 747,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -283,7 +287,9 @@
           "start": 814,
           "end": 815,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -307,7 +313,9 @@
           "start": 825,
           "end": 830,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -394,14 +402,18 @@
             "start": 894,
             "end": 895,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 897,
             "end": 945,
             "value": "undefined, target.[[SetPrototypeOf]] is called",
-            "raw": "\"undefined, target.[[SetPrototypeOf]] is called\""
+            "raw": "\"undefined, target.[[SetPrototypeOf]] is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,7 +464,9 @@
             "start": 979,
             "end": 1005,
             "value": "undefined, called with V",
-            "raw": "\"undefined, called with V\""
+            "raw": "\"undefined, called with V\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -513,7 +527,9 @@
                     "start": 1055,
                     "end": 1059,
                     "value": null,
-                    "raw": "null"
+                    "raw": "null",
+                    "regex": null,
+                    "bigint": null
                   },
                   "kind": "init"
                 }
@@ -543,7 +559,9 @@
           "start": 1073,
           "end": 1074,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -567,7 +585,9 @@
           "start": 1084,
           "end": 1089,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -654,14 +674,18 @@
             "start": 1153,
             "end": 1154,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1156,
             "end": 1199,
             "value": "null, target.[[SetPrototypeOf]] is called",
-            "raw": "\"null, target.[[SetPrototypeOf]] is called\""
+            "raw": "\"null, target.[[SetPrototypeOf]] is called\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -712,7 +736,9 @@
             "start": 1233,
             "end": 1254,
             "value": "null, called with V",
-            "raw": "\"null, called with V\""
+            "raw": "\"null, called with V\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

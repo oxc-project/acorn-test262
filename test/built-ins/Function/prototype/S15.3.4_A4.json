@@ -73,7 +73,9 @@
                 "start": 447,
                 "end": 456,
                 "value": "valueOf",
-                "raw": "\"valueOf\""
+                "raw": "\"valueOf\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -83,14 +85,18 @@
             "start": 461,
             "end": 466,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 534,
             "value": "Function.prototype.hasOwnProperty(\"valueOf\") must return false",
-            "raw": "'Function.prototype.hasOwnProperty(\"valueOf\") must return false'"
+            "raw": "'Function.prototype.hasOwnProperty(\"valueOf\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -168,14 +174,18 @@
             "start": 599,
             "end": 610,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 681,
             "value": "The value of typeof Function.prototype.valueOf is not \"undefined\"",
-            "raw": "'The value of typeof Function.prototype.valueOf is not \"undefined\"'"
+            "raw": "'The value of typeof Function.prototype.valueOf is not \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -278,7 +288,9 @@
             "start": 764,
             "end": 864,
             "value": "The value of Function.prototype.valueOf is expected to equal the value of Object.prototype.valueOf",
-            "raw": "'The value of Function.prototype.valueOf is expected to equal the value of Object.prototype.valueOf'"
+            "raw": "'The value of Function.prototype.valueOf is expected to equal the value of Object.prototype.valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

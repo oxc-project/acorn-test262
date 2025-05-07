@@ -86,7 +86,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 117,
                                 "end": 118,
                                 "raw": "3",
-                                "value": 3
+                                "value": 3,
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           },
@@ -135,7 +137,9 @@ __ESTREE_TEST__:PASS:
                                 "start": 188,
                                 "end": 189,
                                 "raw": "5",
-                                "value": 5
+                                "value": 5,
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -165,7 +169,9 @@ __ESTREE_TEST__:PASS:
                               "start": 77,
                               "end": 78,
                               "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ],
@@ -191,7 +197,9 @@ __ESTREE_TEST__:PASS:
                           "start": 84,
                           "end": 86,
                           "raw": "10",
-                          "value": 10
+                          "value": 10,
+                          "regex": null,
+                          "bigint": null
                         }
                       },
                       "update": {
@@ -228,7 +236,9 @@ __ESTREE_TEST__:PASS:
                 "start": 40,
                 "end": 44,
                 "raw": "true",
-                "value": true
+                "value": true,
+                "regex": null,
+                "bigint": null
               }
             },
             "label": {

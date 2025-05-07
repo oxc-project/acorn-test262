@@ -52,7 +52,9 @@
             "start": 399,
             "end": 402,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -62,7 +64,9 @@
           "start": 406,
           "end": 407,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -109,7 +113,9 @@
               "start": 428,
               "end": 429,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -119,14 +125,18 @@
             "start": 432,
             "end": 433,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 474,
             "value": "The value of x[0] is expected to be 0",
-            "raw": "'The value of x[0] is expected to be 0'"
+            "raw": "'The value of x[0] is expected to be 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +191,9 @@
             "start": 492,
             "end": 495,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -191,7 +203,9 @@
           "start": 499,
           "end": 500,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -238,7 +252,9 @@
               "start": 521,
               "end": 522,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -248,14 +264,18 @@
             "start": 525,
             "end": 526,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 528,
             "end": 567,
             "value": "The value of y[1] is expected to be 1",
-            "raw": "'The value of y[1] is expected to be 1'"
+            "raw": "'The value of y[1] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

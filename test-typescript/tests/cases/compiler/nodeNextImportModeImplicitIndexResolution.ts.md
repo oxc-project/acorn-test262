@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
               "start": 20,
               "end": 21,
               "raw": "4",
-              "value": 4
+              "value": 4,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
               "start": 20,
               "end": 21,
               "raw": "4",
-              "value": 4
+              "value": 4,
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -120,7 +124,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 26,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -160,7 +166,9 @@ __ESTREE_TEST__:PASS:
         "start": 160,
         "end": 167,
         "raw": "\"./pkg\"",
-        "value": "./pkg"
+        "value": "./pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -200,7 +208,9 @@ __ESTREE_TEST__:PASS:
         "start": 308,
         "end": 328,
         "raw": "\"./node_modules/pkg\"",
-        "value": "./node_modules/pkg"
+        "value": "./node_modules/pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -82,14 +82,18 @@
             "start": 792,
             "end": 797,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 801,
             "end": 861,
             "value": "isConstructor(TypedArray.prototype.find) must return false",
-            "raw": "'isConstructor(TypedArray.prototype.find) must return false'"
+            "raw": "'isConstructor(TypedArray.prototype.find) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -174,7 +178,9 @@
                             "start": 925,
                             "end": 926,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

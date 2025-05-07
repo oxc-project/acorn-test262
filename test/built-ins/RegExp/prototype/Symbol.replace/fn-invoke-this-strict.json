@@ -23,7 +23,9 @@
             "start": 753,
             "end": 757,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -108,7 +110,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           },
           "property": {
             "type": "MemberExpression",
@@ -138,7 +141,9 @@
             "start": 829,
             "end": 832,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",

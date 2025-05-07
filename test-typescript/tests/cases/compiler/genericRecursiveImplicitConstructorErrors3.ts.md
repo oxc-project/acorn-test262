@@ -377,7 +377,9 @@ __ESTREE_TEST__:PASS:
                       "start": 250,
                       "end": 254,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -527,7 +529,9 @@ __ESTREE_TEST__:PASS:
                       "start": 369,
                       "end": 373,
                       "raw": "null",
-                      "value": null
+                      "value": null,
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -859,7 +863,9 @@ __ESTREE_TEST__:PASS:
                                           "start": 1137,
                                           "end": 1138,
                                           "raw": "1",
-                                          "value": 1
+                                          "value": 1,
+                                          "regex": null,
+                                          "bigint": null
                                         },
                                         "consequent": {
                                           "type": "ConditionalExpression",
@@ -875,7 +881,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 1095,
                                                 "end": 1100,
                                                 "raw": "false",
-                                                "value": false
+                                                "value": false,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Identifier",
@@ -955,7 +963,9 @@ __ESTREE_TEST__:PASS:
                                                 "start": 989,
                                                 "end": 994,
                                                 "raw": "false",
-                                                "value": false
+                                                "value": false,
+                                                "regex": null,
+                                                "bigint": null
                                               },
                                               {
                                                 "type": "Identifier",
@@ -1163,14 +1173,18 @@ __ESTREE_TEST__:PASS:
                                         "start": 1199,
                                         "end": 1201,
                                         "raw": "\"\"",
-                                        "value": ""
+                                        "value": "",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1203,
                                         "end": 1207,
                                         "raw": "\"[]\"",
-                                        "value": "[]"
+                                        "value": "[]",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ],
                                     "callee": {

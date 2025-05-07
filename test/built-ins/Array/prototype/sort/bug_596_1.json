@@ -23,7 +23,9 @@
             "start": 351,
             "end": 352,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -103,7 +105,9 @@
                           "start": 420,
                           "end": 422,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -181,7 +185,9 @@
           "start": 471,
           "end": 472,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -213,7 +219,9 @@
                     "start": 559,
                     "end": 611,
                     "value": "#1: [object, object].sort(); counter < 2. Actual: ",
-                    "raw": "'#1: [object, object].sort(); counter < 2. Actual: '"
+                    "raw": "'#1: [object, object].sort(); counter < 2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

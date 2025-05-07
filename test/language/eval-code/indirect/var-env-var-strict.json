@@ -26,7 +26,9 @@
               "start": 268,
               "end": 273,
               "value": "foo",
-              "raw": "'foo'"
+              "raw": "'foo'",
+              "regex": null,
+              "bigint": null
             },
             "operator": "in",
             "right": {
@@ -64,7 +66,9 @@
                       "start": 289,
                       "end": 290,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     {
                       "type": "Identifier",
@@ -81,7 +85,9 @@
                   "start": 297,
                   "end": 326,
                   "value": "\"use strict\"; var foo = 88;",
-                  "raw": "'\"use strict\"; var foo = 88;'"
+                  "raw": "'\"use strict\"; var foo = 88;'",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -100,7 +106,9 @@
                 "start": 335,
                 "end": 340,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               },
               "operator": "in",
               "right": {
@@ -134,7 +142,9 @@
                         "start": 379,
                         "end": 432,
                         "value": "Strict indirect eval leaked a top level declaration",
-                        "raw": "\"Strict indirect eval leaked a top level declaration\""
+                        "raw": "\"Strict indirect eval leaked a top level declaration\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }

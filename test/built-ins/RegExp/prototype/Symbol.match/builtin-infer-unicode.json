@@ -47,7 +47,8 @@
           "regex": {
             "pattern": "\\udf06",
             "flags": ""
-          }
+          },
+          "bigint": null
         }
       }
     },
@@ -90,7 +91,9 @@
             "start": 856,
             "end": 865,
             "value": "unicode",
-            "raw": "'unicode'"
+            "raw": "'unicode'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -115,7 +118,9 @@
                   "start": 876,
                   "end": 880,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -195,7 +200,9 @@
                 "start": 921,
                 "end": 935,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -205,7 +212,9 @@
             "start": 938,
             "end": 942,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +244,8 @@
           "regex": {
             "pattern": "\\udf06",
             "flags": "u"
-          }
+          },
+          "bigint": null
         }
       }
     },
@@ -278,7 +288,9 @@
             "start": 986,
             "end": 995,
             "value": "unicode",
-            "raw": "'unicode'"
+            "raw": "'unicode'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -303,7 +315,9 @@
                   "start": 1006,
                   "end": 1011,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -383,7 +397,9 @@
                 "start": 1049,
                 "end": 1063,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -393,7 +409,9 @@
             "start": 1066,
             "end": 1070,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

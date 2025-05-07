@@ -139,7 +139,9 @@
                         "start": 506,
                         "end": 510,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -181,7 +183,9 @@
                 "start": 549,
                 "end": 553,
                 "value": "de",
-                "raw": "\"de\""
+                "raw": "\"de\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -241,14 +245,18 @@
             "start": 590,
             "end": 594,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 613,
             "value": "Custom property",
-            "raw": "\"Custom property\""
+            "raw": "\"Custom property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -313,14 +321,18 @@
             "start": 652,
             "end": 656,
             "value": "de",
-            "raw": "\"de\""
+            "raw": "\"de\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 658,
             "end": 671,
             "value": "Direct call",
-            "raw": "\"Direct call\""
+            "raw": "\"Direct call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -431,14 +443,18 @@
             "start": 736,
             "end": 740,
             "value": "de",
-            "raw": "\"de\""
+            "raw": "\"de\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 757,
             "value": "Indirect call",
-            "raw": "\"Indirect call\""
+            "raw": "\"Indirect call\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -529,7 +545,9 @@
             "start": 832,
             "end": 843,
             "value": "Prototype",
-            "raw": "\"Prototype\""
+            "raw": "\"Prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

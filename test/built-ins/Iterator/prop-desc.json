@@ -29,7 +29,9 @@
             "start": 673,
             "end": 683,
             "value": "Iterator",
-            "raw": "'Iterator'"
+            "raw": "'Iterator'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -75,7 +77,9 @@
                   "start": 718,
                   "end": 722,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -97,7 +101,9 @@
                   "start": 738,
                   "end": 743,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -119,7 +125,9 @@
                   "start": 761,
                   "end": 765,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }

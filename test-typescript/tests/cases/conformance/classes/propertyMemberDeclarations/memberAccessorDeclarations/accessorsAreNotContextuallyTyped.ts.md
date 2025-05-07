@@ -149,7 +149,9 @@ __ESTREE_TEST__:PASS:
                         "start": 140,
                         "end": 142,
                         "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "regex": null,
+                        "bigint": null
                       },
                       "expression": true,
                       "generator": false,
@@ -280,7 +282,9 @@ __ESTREE_TEST__:PASS:
                 "start": 175,
                 "end": 177,
                 "raw": "''",
-                "value": ""
+                "value": "",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

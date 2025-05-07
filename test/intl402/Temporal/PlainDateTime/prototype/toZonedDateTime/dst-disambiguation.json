@@ -47,35 +47,45 @@
                 "start": 335,
                 "end": 339,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 343,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 347,
                 "value": 29,
-                "raw": "29"
+                "raw": "29",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 350,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 354,
                 "value": 45,
-                "raw": "45"
+                "raw": "45",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -144,7 +154,9 @@
                   "start": 402,
                   "end": 423,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -164,6 +176,7 @@
             "end": 467,
             "value": null,
             "raw": "972809100_000_000_000n",
+            "regex": null,
             "bigint": "972809100000000000"
           },
           {
@@ -171,7 +184,9 @@
             "start": 496,
             "end": 548,
             "value": "epoch nanoseconds in fall back - no disambiguation",
-            "raw": "\"epoch nanoseconds in fall back - no disambiguation\""
+            "raw": "\"epoch nanoseconds in fall back - no disambiguation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -238,7 +253,9 @@
                   "start": 597,
                   "end": 618,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -263,7 +280,9 @@
                         "start": 638,
                         "end": 647,
                         "value": "earlier",
-                        "raw": "\"earlier\""
+                        "raw": "\"earlier\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -287,6 +306,7 @@
             "end": 693,
             "value": null,
             "raw": "972809100_000_000_000n",
+            "regex": null,
             "bigint": "972809100000000000"
           },
           {
@@ -294,7 +314,9 @@
             "start": 722,
             "end": 764,
             "value": "epoch nanoseconds in fall back - earlier",
-            "raw": "\"epoch nanoseconds in fall back - earlier\""
+            "raw": "\"epoch nanoseconds in fall back - earlier\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +383,9 @@
                   "start": 813,
                   "end": 834,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -386,7 +410,9 @@
                         "start": 854,
                         "end": 861,
                         "value": "later",
-                        "raw": "\"later\""
+                        "raw": "\"later\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -410,6 +436,7 @@
             "end": 907,
             "value": null,
             "raw": "972812700_000_000_000n",
+            "regex": null,
             "bigint": "972812700000000000"
           },
           {
@@ -417,7 +444,9 @@
             "start": 936,
             "end": 976,
             "value": "epoch nanoseconds in fall back - later",
-            "raw": "\"epoch nanoseconds in fall back - later\""
+            "raw": "\"epoch nanoseconds in fall back - later\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -484,7 +513,9 @@
                   "start": 1025,
                   "end": 1046,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -509,7 +540,9 @@
                         "start": 1066,
                         "end": 1078,
                         "value": "compatible",
-                        "raw": "\"compatible\""
+                        "raw": "\"compatible\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -533,6 +566,7 @@
             "end": 1124,
             "value": null,
             "raw": "972809100_000_000_000n",
+            "regex": null,
             "bigint": "972809100000000000"
           },
           {
@@ -540,7 +574,9 @@
             "start": 1153,
             "end": 1198,
             "value": "epoch nanoseconds in fall back - compatible",
-            "raw": "\"epoch nanoseconds in fall back - compatible\""
+            "raw": "\"epoch nanoseconds in fall back - compatible\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -618,7 +654,9 @@
                   "start": 1264,
                   "end": 1285,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -643,7 +681,9 @@
                         "start": 1305,
                         "end": 1313,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -658,7 +698,9 @@
             "start": 1320,
             "end": 1340,
             "value": "fall back - reject",
-            "raw": "\"fall back - reject\""
+            "raw": "\"fall back - reject\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -708,35 +750,45 @@
                 "start": 1388,
                 "end": 1392,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1394,
                 "end": 1395,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1397,
                 "end": 1398,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1400,
                 "end": 1401,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1403,
                 "end": 1405,
                 "value": 30,
-                "raw": "30"
+                "raw": "30",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -805,7 +857,9 @@
                   "start": 1455,
                   "end": 1476,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -825,6 +879,7 @@
             "end": 1520,
             "value": null,
             "raw": "954671400_000_000_000n",
+            "regex": null,
             "bigint": "954671400000000000"
           },
           {
@@ -832,7 +887,9 @@
             "start": 1549,
             "end": 1606,
             "value": "epoch nanoseconds in spring forward - no disambiguation",
-            "raw": "\"epoch nanoseconds in spring forward - no disambiguation\""
+            "raw": "\"epoch nanoseconds in spring forward - no disambiguation\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -899,7 +956,9 @@
                   "start": 1657,
                   "end": 1678,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -924,7 +983,9 @@
                         "start": 1698,
                         "end": 1707,
                         "value": "earlier",
-                        "raw": "\"earlier\""
+                        "raw": "\"earlier\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -948,6 +1009,7 @@
             "end": 1753,
             "value": null,
             "raw": "954667800_000_000_000n",
+            "regex": null,
             "bigint": "954667800000000000"
           },
           {
@@ -955,7 +1017,9 @@
             "start": 1782,
             "end": 1829,
             "value": "epoch nanoseconds in spring forward - earlier",
-            "raw": "\"epoch nanoseconds in spring forward - earlier\""
+            "raw": "\"epoch nanoseconds in spring forward - earlier\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1022,7 +1086,9 @@
                   "start": 1880,
                   "end": 1901,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -1047,7 +1113,9 @@
                         "start": 1921,
                         "end": 1928,
                         "value": "later",
-                        "raw": "\"later\""
+                        "raw": "\"later\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1071,6 +1139,7 @@
             "end": 1974,
             "value": null,
             "raw": "954671400_000_000_000n",
+            "regex": null,
             "bigint": "954671400000000000"
           },
           {
@@ -1078,7 +1147,9 @@
             "start": 2003,
             "end": 2048,
             "value": "epoch nanoseconds in spring forward - later",
-            "raw": "\"epoch nanoseconds in spring forward - later\""
+            "raw": "\"epoch nanoseconds in spring forward - later\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1145,7 +1216,9 @@
                   "start": 2099,
                   "end": 2120,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -1170,7 +1243,9 @@
                         "start": 2140,
                         "end": 2152,
                         "value": "compatible",
-                        "raw": "\"compatible\""
+                        "raw": "\"compatible\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1194,6 +1269,7 @@
             "end": 2198,
             "value": null,
             "raw": "954671400_000_000_000n",
+            "regex": null,
             "bigint": "954671400000000000"
           },
           {
@@ -1201,7 +1277,9 @@
             "start": 2227,
             "end": 2277,
             "value": "epoch nanoseconds in spring forward - compatible",
-            "raw": "\"epoch nanoseconds in spring forward - compatible\""
+            "raw": "\"epoch nanoseconds in spring forward - compatible\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1279,7 +1357,9 @@
                   "start": 2345,
                   "end": 2366,
                   "value": "America/Los_Angeles",
-                  "raw": "\"America/Los_Angeles\""
+                  "raw": "\"America/Los_Angeles\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "ObjectExpression",
@@ -1304,7 +1384,9 @@
                         "start": 2386,
                         "end": 2394,
                         "value": "reject",
-                        "raw": "\"reject\""
+                        "raw": "\"reject\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -1319,7 +1401,9 @@
             "start": 2401,
             "end": 2426,
             "value": "spring forward - reject",
-            "raw": "\"spring forward - reject\""
+            "raw": "\"spring forward - reject\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

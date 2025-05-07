@@ -124,14 +124,18 @@
             "start": 346,
             "end": 366,
             "value": "[object Arguments]",
-            "raw": "\"[object Arguments]\""
+            "raw": "\"[object Arguments]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 465,
             "value": "Object.prototype.toString.call(function() { return arguments; }()) returns [object Arguments]",
-            "raw": "\"Object.prototype.toString.call(function() { return arguments; }()) returns [object Arguments]\""
+            "raw": "\"Object.prototype.toString.call(function() { return arguments; }()) returns [object Arguments]\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

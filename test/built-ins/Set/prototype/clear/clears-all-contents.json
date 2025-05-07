@@ -83,7 +83,9 @@
                     "start": 502,
                     "end": 503,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -103,7 +105,9 @@
                 "start": 509,
                 "end": 510,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -123,7 +127,9 @@
             "start": 516,
             "end": 517,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,14 +187,18 @@
             "start": 546,
             "end": 547,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 579,
             "value": "The value of `s.size` is `3`",
-            "raw": "\"The value of `s.size` is `3`\""
+            "raw": "\"The value of `s.size` is `3`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -291,14 +301,18 @@
             "start": 633,
             "end": 634,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 636,
             "end": 695,
             "value": "The value of `s.size` is `0`, after executing `s.clear()`",
-            "raw": "\"The value of `s.size` is `0`, after executing `s.clear()`\""
+            "raw": "\"The value of `s.size` is `0`, after executing `s.clear()`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -361,7 +375,9 @@
                 "start": 721,
                 "end": 722,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -371,14 +387,18 @@
             "start": 725,
             "end": 730,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 732,
             "end": 760,
             "value": "`s.has(1)` returns `false`",
-            "raw": "\"`s.has(1)` returns `false`\""
+            "raw": "\"`s.has(1)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -441,7 +461,9 @@
                 "start": 786,
                 "end": 787,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -451,14 +473,18 @@
             "start": 790,
             "end": 795,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 825,
             "value": "`s.has(2)` returns `false`",
-            "raw": "\"`s.has(2)` returns `false`\""
+            "raw": "\"`s.has(2)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -521,7 +547,9 @@
                 "start": 851,
                 "end": 852,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -531,14 +559,18 @@
             "start": 855,
             "end": 860,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 862,
             "end": 890,
             "value": "`s.has(3)` returns `false`",
-            "raw": "\"`s.has(3)` returns `false`\""
+            "raw": "\"`s.has(3)` returns `false`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -589,7 +621,9 @@
             "start": 929,
             "end": 971,
             "value": "The result of `s.clear()` is `undefined`",
-            "raw": "\"The result of `s.clear()` is `undefined`\""
+            "raw": "\"The result of `s.clear()` is `undefined`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

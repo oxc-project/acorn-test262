@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 76,
             "raw": "\"\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}\\u{20}\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}\"",
-            "value": "Hello world"
+            "value": "Hello world",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

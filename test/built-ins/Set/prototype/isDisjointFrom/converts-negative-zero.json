@@ -41,7 +41,9 @@
                   "start": 328,
                   "end": 329,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -92,7 +94,9 @@
                               "start": 379,
                               "end": 477,
                               "value": "Set.prototype.isDisjointFrom should not call its argument's has method when this.size > arg.size",
-                              "raw": "\"Set.prototype.isDisjointFrom should not call its argument's has method when this.size > arg.size\""
+                              "raw": "\"Set.prototype.isDisjointFrom should not call its argument's has method when this.size > arg.size\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -157,7 +161,9 @@
                                     "start": 600,
                                     "end": 601,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -228,7 +234,9 @@
                       "start": 643,
                       "end": 644,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -236,7 +244,9 @@
                     "start": 646,
                     "end": 647,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -312,7 +322,9 @@
             "start": 710,
             "end": 715,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

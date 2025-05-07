@@ -60,7 +60,9 @@
                 "start": 290,
                 "end": 299,
                 "value": "1994-11",
-                "raw": "\"1994-11\""
+                "raw": "\"1994-11\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -126,7 +128,9 @@
                 "start": 345,
                 "end": 354,
                 "value": "2013-06",
-                "raw": "\"2013-06\""
+                "raw": "\"2013-06\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -223,7 +227,9 @@
                       "start": 415,
                       "end": 419,
                       "value": 1994,
-                      "raw": "1994"
+                      "raw": "1994",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -245,7 +251,9 @@
                       "start": 428,
                       "end": 430,
                       "value": 11,
-                      "raw": "11"
+                      "raw": "11",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -271,7 +279,9 @@
               "start": 443,
               "end": 444,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -279,7 +289,9 @@
             "start": 446,
             "end": 458,
             "value": "one object",
-            "raw": "\"one object\""
+            "raw": "\"one object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -355,7 +367,9 @@
                 "start": 510,
                 "end": 519,
                 "value": "1994-11",
-                "raw": "\"1994-11\""
+                "raw": "\"1994-11\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -377,7 +391,9 @@
               "start": 530,
               "end": 531,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -385,7 +401,9 @@
             "start": 533,
             "end": 545,
             "value": "one string",
-            "raw": "\"one string\""
+            "raw": "\"one string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -494,7 +512,9 @@
                         "start": 619,
                         "end": 623,
                         "value": 1994,
-                        "raw": "1994"
+                        "raw": "1994",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -515,7 +535,9 @@
             "start": 635,
             "end": 657,
             "value": "one missing property",
-            "raw": "\"one missing property\""
+            "raw": "\"one missing property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,7 +637,9 @@
                       "start": 725,
                       "end": 729,
                       "value": 2013,
-                      "raw": "2013"
+                      "raw": "2013",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -637,7 +661,9 @@
                       "start": 738,
                       "end": 739,
                       "value": 6,
-                      "raw": "6"
+                      "raw": "6",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -657,7 +683,9 @@
               "start": 745,
               "end": 746,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -665,7 +693,9 @@
             "start": 748,
             "end": 760,
             "value": "two object",
-            "raw": "\"two object\""
+            "raw": "\"two object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -747,7 +777,9 @@
                 "start": 819,
                 "end": 828,
                 "value": "2013-06",
-                "raw": "\"2013-06\""
+                "raw": "\"2013-06\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -763,7 +795,9 @@
               "start": 832,
               "end": 833,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -771,7 +805,9 @@
             "start": 835,
             "end": 847,
             "value": "two string",
-            "raw": "\"two string\""
+            "raw": "\"two string\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -886,7 +922,9 @@
                         "start": 928,
                         "end": 932,
                         "value": 2013,
-                        "raw": "2013"
+                        "raw": "2013",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -901,7 +939,9 @@
             "start": 937,
             "end": 959,
             "value": "two missing property",
-            "raw": "\"two missing property\""
+            "raw": "\"two missing property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -181,7 +181,9 @@ __ESTREE_TEST__:PASS:
               "start": 31,
               "end": 40,
               "raw": "'./inner'",
-              "value": "./inner"
+              "value": "./inner",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": null,
@@ -234,7 +236,9 @@ __ESTREE_TEST__:PASS:
               "start": 79,
               "end": 88,
               "raw": "'./inner'",
-              "value": "./inner"
+              "value": "./inner",
+              "regex": null,
+              "bigint": null
             }
           },
           "options": null,
@@ -278,7 +282,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 35,
         "raw": "\"some-dep\"",
-        "value": "some-dep"
+        "value": "some-dep",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

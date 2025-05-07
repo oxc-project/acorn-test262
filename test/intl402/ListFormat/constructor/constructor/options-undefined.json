@@ -67,7 +67,9 @@
                   "start": 392,
                   "end": 398,
                   "value": "type",
-                  "raw": "\"type\""
+                  "raw": "\"type\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -121,7 +123,9 @@
                                     "start": 436,
                                     "end": 465,
                                     "value": "Should not call type getter",
-                                    "raw": "\"Should not call type getter\""
+                                    "raw": "\"Should not call type getter\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -147,7 +151,9 @@
                   "start": 481,
                   "end": 488,
                   "value": "style",
-                  "raw": "\"style\""
+                  "raw": "\"style\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -201,7 +207,9 @@
                                     "start": 526,
                                     "end": 556,
                                     "value": "Should not call style getter",
-                                    "raw": "\"Should not call style getter\""
+                                    "raw": "\"Should not call style getter\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ]
                               }
@@ -474,7 +482,9 @@
                   "start": 809,
                   "end": 822,
                   "value": "conjunction",
-                  "raw": "\"conjunction\""
+                  "raw": "\"conjunction\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",
@@ -580,7 +590,9 @@
                   "start": 960,
                   "end": 966,
                   "value": "long",
-                  "raw": "\"long\""
+                  "raw": "\"long\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "TemplateLiteral",

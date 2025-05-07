@@ -242,7 +242,9 @@ __ESTREE_TEST__:PASS:
                         "start": 92,
                         "end": 93,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }
@@ -418,7 +420,9 @@ __ESTREE_TEST__:PASS:
                 "start": 122,
                 "end": 130,
                 "raw": "\"./mod1\"",
-                "value": "./mod1"
+                "value": "./mod1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

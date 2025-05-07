@@ -53,6 +53,7 @@
                     "end": 465,
                     "value": null,
                     "raw": "949132800_000_000_000n",
+                    "regex": null,
                     "bigint": "949132800000000000"
                   },
                   {
@@ -60,7 +61,9 @@
                     "start": 498,
                     "end": 517,
                     "value": "America/Vancouver",
-                    "raw": "\"America/Vancouver\""
+                    "raw": "\"America/Vancouver\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -113,6 +116,7 @@
                     "end": 633,
                     "value": null,
                     "raw": "972889200_000_000_000n",
+                    "regex": null,
                     "bigint": "972889200000000000"
                   },
                   {
@@ -120,7 +124,9 @@
                     "start": 666,
                     "end": 685,
                     "value": "America/Vancouver",
-                    "raw": "\"America/Vancouver\""
+                    "raw": "\"America/Vancouver\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -196,7 +202,9 @@
                           "start": 781,
                           "end": 788,
                           "value": "years",
-                          "raw": "\"years\""
+                          "raw": "\"years\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "kind": "init"
                       }
@@ -248,7 +256,9 @@
                 "start": 838,
                 "end": 839,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -261,7 +271,9 @@
                   "start": 842,
                   "end": 843,
                   "value": 9,
-                  "raw": "9"
+                  "raw": "9",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -269,14 +281,18 @@
                 "start": 845,
                 "end": 846,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 848,
                 "end": 849,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -289,7 +305,9 @@
                   "start": 852,
                   "end": 854,
                   "value": 24,
-                  "raw": "24"
+                  "raw": "24",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -297,42 +315,54 @@
                 "start": 856,
                 "end": 857,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 859,
                 "end": 860,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 862,
                 "end": 863,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 865,
                 "end": 866,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 868,
                 "end": 869,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 879,
                 "end": 930,
                 "value": "24 hours does not balance to 1 day in 25-hour day",
-                "raw": "\"24 hours does not balance to 1 day in 25-hour day\""
+                "raw": "\"24 hours does not balance to 1 day in 25-hour day\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

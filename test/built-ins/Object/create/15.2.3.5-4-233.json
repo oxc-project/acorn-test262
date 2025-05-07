@@ -107,7 +107,9 @@
                                     "start": 374,
                                     "end": 391,
                                     "value": "ownDataProperty",
-                                    "raw": "\"ownDataProperty\""
+                                    "raw": "\"ownDataProperty\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ]
@@ -180,14 +182,18 @@
             "start": 438,
             "end": 455,
             "value": "ownDataProperty",
-            "raw": "\"ownDataProperty\""
+            "raw": "\"ownDataProperty\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 470,
             "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "raw": "'newObj.prop'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

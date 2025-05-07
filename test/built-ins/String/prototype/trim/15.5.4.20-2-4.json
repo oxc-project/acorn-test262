@@ -86,7 +86,9 @@
                 "start": 328,
                 "end": 329,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 332,
             "end": 335,
             "value": "0",
-            "raw": "\"0\""
+            "raw": "\"0\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 368,
             "value": "String.prototype.trim.call(0)",
-            "raw": "'String.prototype.trim.call(0)'"
+            "raw": "'String.prototype.trim.call(0)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

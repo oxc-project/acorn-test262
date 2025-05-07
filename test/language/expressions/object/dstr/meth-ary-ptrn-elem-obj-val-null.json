@@ -182,7 +182,9 @@
                             "start": 2016,
                             "end": 2020,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }

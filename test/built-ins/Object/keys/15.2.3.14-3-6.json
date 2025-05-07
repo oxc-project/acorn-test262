@@ -118,7 +118,9 @@
             "start": 335,
             "end": 366,
             "value": "arr instanceof Array !== true",
-            "raw": "'arr instanceof Array !== true'"
+            "raw": "'arr instanceof Array !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

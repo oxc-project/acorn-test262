@@ -23,7 +23,9 @@
             "start": 408,
             "end": 412,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 431,
             "end": 436,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -166,7 +170,9 @@
               "start": 524,
               "end": 528,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -206,7 +212,9 @@
           "start": 560,
           "end": 564,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -268,7 +276,9 @@
             "start": 626,
             "end": 657,
             "value": "The template object is frozen",
-            "raw": "'The template object is frozen'"
+            "raw": "'The template object is frozen'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -320,7 +330,9 @@
           "start": 695,
           "end": 699,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -395,7 +407,9 @@
             "start": 765,
             "end": 793,
             "value": "The \"raw\" object is frozen",
-            "raw": "'The \"raw\" object is frozen'"
+            "raw": "'The \"raw\" object is frozen'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -452,7 +466,9 @@
             "start": 842,
             "end": 884,
             "value": "Template object defines a `raw` property",
-            "raw": "'Template object defines a `raw` property'"
+            "raw": "'Template object defines a `raw` property'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

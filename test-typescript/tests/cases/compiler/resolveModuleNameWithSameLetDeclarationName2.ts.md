@@ -208,7 +208,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 25,
         "raw": "\"punycode\"",
-        "value": "punycode"
+        "value": "punycode",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

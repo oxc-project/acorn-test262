@@ -62,7 +62,9 @@ __ESTREE_TEST__:PASS:
             "start": 26,
             "end": 29,
             "raw": "\"D\"",
-            "value": "D"
+            "value": "D",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {
@@ -106,7 +108,9 @@ __ESTREE_TEST__:PASS:
             "start": 134,
             "end": 153,
             "raw": "\"Does not work yet\"",
-            "value": "Does not work yet"
+            "value": "Does not work yet",
+            "regex": null,
+            "bigint": null
           }
         },
         "right": {

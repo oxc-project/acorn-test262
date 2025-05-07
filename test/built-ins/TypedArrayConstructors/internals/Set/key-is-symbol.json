@@ -34,7 +34,9 @@
                 "start": 532,
                 "end": 535,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 554,
                 "end": 557,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -155,7 +159,9 @@
                                 "start": 630,
                                 "end": 632,
                                 "value": 42,
-                                "raw": "42"
+                                "raw": "42",
+                                "regex": null,
+                                "bigint": null
                               }
                             ]
                           }
@@ -234,7 +240,9 @@
                             "start": 685,
                             "end": 694,
                             "value": "ecma262",
-                            "raw": "\"ecma262\""
+                            "raw": "\"ecma262\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -244,14 +252,18 @@
                         "start": 701,
                         "end": 705,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 711,
                         "end": 779,
                         "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"ecma262\") must return true",
-                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"ecma262\") must return true'"
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"ecma262\") must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -309,14 +321,18 @@
                         "start": 816,
                         "end": 825,
                         "value": "ecma262",
-                        "raw": "\"ecma262\""
+                        "raw": "\"ecma262\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 827,
                         "end": 865,
                         "value": "The value of sample[s1] is \"ecma262\"",
-                        "raw": "'The value of sample[s1] is \"ecma262\"'"
+                        "raw": "'The value of sample[s1] is \"ecma262\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -391,7 +407,9 @@
                             "start": 917,
                             "end": 925,
                             "value": "es3000",
-                            "raw": "\"es3000\""
+                            "raw": "\"es3000\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -401,14 +419,18 @@
                         "start": 932,
                         "end": 936,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 942,
                         "end": 1009,
                         "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"es3000\") must return true",
-                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"es3000\") must return true'"
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"es3000\") must return true'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -466,14 +488,18 @@
                         "start": 1046,
                         "end": 1054,
                         "value": "es3000",
-                        "raw": "\"es3000\""
+                        "raw": "\"es3000\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1056,
                         "end": 1093,
                         "value": "The value of sample[s1] is \"es3000\"",
-                        "raw": "'The value of sample[s1] is \"es3000\"'"
+                        "raw": "'The value of sample[s1] is \"es3000\"'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -542,7 +568,9 @@
                               "start": 1149,
                               "end": 1154,
                               "value": false,
-                              "raw": "false"
+                              "raw": "false",
+                              "regex": null,
+                              "bigint": null
                             },
                             "kind": "init"
                           },
@@ -642,7 +670,9 @@
                             "start": 1231,
                             "end": 1233,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -652,14 +682,18 @@
                         "start": 1240,
                         "end": 1245,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1251,
                         "end": 1313,
                         "value": "Reflect.set(sample, \"Symbol(\\\"2\\\")\", 42) must return false",
-                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"2\\\\\")\", 42) must return false'"
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"2\\\\\")\", 42) must return false'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -723,7 +757,9 @@
                         "start": 1361,
                         "end": 1419,
                         "value": "The value of sample[s2] is expected to equal `undefined`",
-                        "raw": "'The value of sample[s2] is expected to equal `undefined`'"
+                        "raw": "'The value of sample[s2] is expected to equal `undefined`'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

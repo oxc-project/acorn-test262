@@ -41,7 +41,9 @@
                   "start": 398,
                   "end": 402,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -78,7 +80,9 @@
           "start": 438,
           "end": 446,
           "value": "object",
-          "raw": "\"object\""
+          "raw": "\"object\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -110,7 +114,9 @@
                     "start": 475,
                     "end": 545,
                     "value": "#1: var object = {prop : true}; typeof object === \"object\". Actual: ",
-                    "raw": "'#1: var object = {prop : true}; typeof object === \"object\". Actual: '"
+                    "raw": "'#1: var object = {prop : true}; typeof object === \"object\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -171,7 +177,9 @@
           "start": 612,
           "end": 616,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -199,7 +207,9 @@
                   "start": 645,
                   "end": 712,
                   "value": "#2: var object = {prop : true}; object instanceof Object === true",
-                  "raw": "'#2: var object = {prop : true}; object instanceof Object === true'"
+                  "raw": "'#2: var object = {prop : true}; object instanceof Object === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -298,7 +308,9 @@
                     "start": 806,
                     "end": 895,
                     "value": "#3: var object = {prop : true}; object.toString === Object.prototype.toString. Actual: ",
-                    "raw": "'#3: var object = {prop : true}; object.toString === Object.prototype.toString. Actual: '"
+                    "raw": "'#3: var object = {prop : true}; object.toString === Object.prototype.toString. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -356,7 +368,9 @@
             "start": 942,
             "end": 948,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -367,7 +381,9 @@
           "start": 954,
           "end": 958,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -395,7 +411,9 @@
                   "start": 987,
                   "end": 1044,
                   "value": "#4: var object = {prop : true}; object[\"prop\"] === true",
-                  "raw": "'#4: var object = {prop : true}; object[\"prop\"] === true'"
+                  "raw": "'#4: var object = {prop : true}; object[\"prop\"] === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -437,7 +455,9 @@
           "start": 1080,
           "end": 1084,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -465,7 +485,9 @@
                   "start": 1113,
                   "end": 1167,
                   "value": "#5: var object = {prop : true}; object.prop === true",
-                  "raw": "'#5: var object = {prop : true}; object.prop === true'"
+                  "raw": "'#5: var object = {prop : true}; object.prop === true'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

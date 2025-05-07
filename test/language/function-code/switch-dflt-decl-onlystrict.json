@@ -135,7 +135,9 @@
                     "start": 594,
                     "end": 595,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   "cases": [
                     {

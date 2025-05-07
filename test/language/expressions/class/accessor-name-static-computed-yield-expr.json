@@ -129,7 +129,9 @@
                                 "start": 898,
                                 "end": 909,
                                 "value": "get yield",
-                                "raw": "'get yield'"
+                                "raw": "'get yield'",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -300,7 +302,9 @@
             "start": 1009,
             "end": 1016,
             "value": "first",
-            "raw": "'first'"
+            "raw": "'first'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -339,7 +343,9 @@
             "start": 1029,
             "end": 1037,
             "value": "second",
-            "raw": "'second'"
+            "raw": "'second'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -397,7 +403,9 @@
             "start": 1067,
             "end": 1078,
             "value": "get yield",
-            "raw": "'get yield'"
+            "raw": "'get yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -436,7 +444,9 @@
           "start": 1093,
           "end": 1104,
           "value": "set yield",
-          "raw": "'set yield'"
+          "raw": "'set yield'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -479,7 +489,9 @@
             "start": 1134,
             "end": 1145,
             "value": "set yield",
-            "raw": "'set yield'"
+            "raw": "'set yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

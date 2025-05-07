@@ -119,7 +119,9 @@
             "start": 517,
             "end": 570,
             "value": "`Object.getPrototypeOf(s1)` returns `Set.prototype`",
-            "raw": "\"`Object.getPrototypeOf(s1)` returns `Set.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(s1)` returns `Set.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -161,14 +163,18 @@
                     "start": 593,
                     "end": 594,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 596,
                     "end": 597,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -263,7 +269,9 @@
             "start": 668,
             "end": 721,
             "value": "`Object.getPrototypeOf(s2)` returns `Set.prototype`",
-            "raw": "\"`Object.getPrototypeOf(s2)` returns `Set.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(s2)` returns `Set.prototype`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -33,7 +33,9 @@
                 "start": 1102,
                 "end": 1104,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               "options": null
             }

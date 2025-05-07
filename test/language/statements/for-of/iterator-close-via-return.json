@@ -23,7 +23,9 @@
             "start": 347,
             "end": 348,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -49,7 +51,9 @@
             "start": 368,
             "end": 369,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +79,9 @@
             "start": 392,
             "end": 393,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -217,7 +223,9 @@
                                   "start": 512,
                                   "end": 513,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -248,7 +256,9 @@
                                       "start": 536,
                                       "end": 541,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   },
@@ -270,7 +280,9 @@
                                       "start": 550,
                                       "end": 554,
                                       "value": null,
-                                      "raw": "null"
+                                      "raw": "null",
+                                      "regex": null,
+                                      "bigint": null
                                     },
                                     "kind": "init"
                                   }
@@ -329,7 +341,9 @@
                                   "start": 611,
                                   "end": 612,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             },
@@ -458,14 +472,18 @@
                               "start": 730,
                               "end": 731,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 733,
                               "end": 753,
                               "value": "Value is retrieved",
-                              "raw": "'Value is retrieved'"
+                              "raw": "'Value is retrieved'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -510,14 +528,18 @@
                               "start": 802,
                               "end": 803,
                               "value": 0,
-                              "raw": "0"
+                              "raw": "0",
+                              "regex": null,
+                              "bigint": null
                             },
                             {
                               "type": "Literal",
                               "start": 805,
                               "end": 829,
                               "value": "Iterator is not closed",
-                              "raw": "'Iterator is not closed'"
+                              "raw": "'Iterator is not closed'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -543,7 +565,9 @@
                             "start": 859,
                             "end": 860,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -603,14 +627,18 @@
             "start": 919,
             "end": 920,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 972,
             "value": "Iterator does not restart following interruption",
-            "raw": "'Iterator does not restart following interruption'"
+            "raw": "'Iterator does not restart following interruption'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -655,14 +683,18 @@
             "start": 1009,
             "end": 1010,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1012,
             "end": 1039,
             "value": "A single iteration occurs",
-            "raw": "'A single iteration occurs'"
+            "raw": "'A single iteration occurs'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -707,14 +739,18 @@
             "start": 1075,
             "end": 1076,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1078,
             "end": 1123,
             "value": "Iterator is closed after `return` statement",
-            "raw": "'Iterator is closed after `return` statement'"
+            "raw": "'Iterator is closed after `return` statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -86,7 +86,9 @@
                 "start": 309,
                 "end": 319,
                 "value": "AB\n\\cd",
-                "raw": "\"AB\\n\\\\cd\""
+                "raw": "\"AB\\n\\\\cd\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -96,14 +98,18 @@
             "start": 322,
             "end": 332,
             "value": "AB\n\\cd",
-            "raw": "\"AB\\n\\\\cd\""
+            "raw": "\"AB\\n\\\\cd\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 374,
             "value": "String.prototype.trim.call(\"AB\n\\cd\")",
-            "raw": "'String.prototype.trim.call(\"AB\\n\\\\cd\")'"
+            "raw": "'String.prototype.trim.call(\"AB\\n\\\\cd\")'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

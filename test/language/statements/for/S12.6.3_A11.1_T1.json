@@ -43,7 +43,9 @@
           "start": 407,
           "end": 409,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -71,7 +73,9 @@
               "start": 425,
               "end": 426,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -93,7 +97,9 @@
           "start": 434,
           "end": 436,
           "value": 10,
-          "raw": "10"
+          "raw": "10",
+          "regex": null,
+          "bigint": null
         }
       },
       "update": {
@@ -112,7 +118,9 @@
           "start": 445,
           "end": 446,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "body": {
@@ -140,7 +148,9 @@
                 "start": 461,
                 "end": 462,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -197,7 +207,9 @@
           "start": 503,
           "end": 510,
           "value": "56789",
-          "raw": "\"56789\""
+          "raw": "\"56789\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -229,7 +241,9 @@
                     "start": 538,
                     "end": 581,
                     "value": "#1: __str === \"56789\". Actual:  __str ===",
-                    "raw": "'#1: __str === \"56789\". Actual:  __str ==='"
+                    "raw": "'#1: __str === \"56789\". Actual:  __str ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

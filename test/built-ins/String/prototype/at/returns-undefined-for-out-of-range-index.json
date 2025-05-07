@@ -75,7 +75,9 @@
             "start": 392,
             "end": 402,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -101,7 +103,9 @@
             "start": 414,
             "end": 416,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -170,7 +174,9 @@
                   "start": 442,
                   "end": 443,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -187,7 +193,9 @@
             "start": 457,
             "end": 489,
             "value": "s.at(-2) must return undefined",
-            "raw": "'s.at(-2) must return undefined'"
+            "raw": "'s.at(-2) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -250,7 +258,9 @@
                 "start": 537,
                 "end": 538,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -266,7 +276,9 @@
             "start": 552,
             "end": 583,
             "value": "s.at(0) must return undefined",
-            "raw": "'s.at(0) must return undefined'"
+            "raw": "'s.at(0) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -329,7 +341,9 @@
                 "start": 608,
                 "end": 609,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -345,7 +359,9 @@
             "start": 623,
             "end": 654,
             "value": "s.at(1) must return undefined",
-            "raw": "'s.at(1) must return undefined'"
+            "raw": "'s.at(1) must return undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -135,7 +135,9 @@
                         "start": 546,
                         "end": 547,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "FunctionExpression",
@@ -165,7 +167,9 @@
             "start": 568,
             "end": 631,
             "value": "`function() {}` doesn't coerce into a number in range (1-100)",
-            "raw": "\"`function() {}` doesn't coerce into a number in range (1-100)\""
+            "raw": "\"`function() {}` doesn't coerce into a number in range (1-100)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -252,7 +256,9 @@
                         "start": 693,
                         "end": 694,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",
@@ -272,7 +278,9 @@
             "start": 705,
             "end": 756,
             "value": "NaN doesn't coerce into a number in range (1-100)",
-            "raw": "\"NaN doesn't coerce into a number in range (1-100)\""
+            "raw": "\"NaN doesn't coerce into a number in range (1-100)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +367,9 @@
                         "start": 818,
                         "end": 819,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -379,7 +389,9 @@
             "start": 829,
             "end": 879,
             "value": "{} doesn't coerce into a number in range (1-100)",
-            "raw": "\"{} doesn't coerce into a number in range (1-100)\""
+            "raw": "\"{} doesn't coerce into a number in range (1-100)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

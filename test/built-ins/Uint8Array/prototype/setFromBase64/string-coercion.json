@@ -23,7 +23,9 @@
             "start": 342,
             "end": 343,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -96,7 +98,9 @@
                             "start": 414,
                             "end": 415,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -120,7 +124,9 @@
                               "start": 444,
                               "end": 461,
                               "value": "toString called",
-                              "raw": "\"toString called\""
+                              "raw": "\"toString called\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -215,7 +221,9 @@
                             "start": 540,
                             "end": 542,
                             "value": 10,
-                            "raw": "10"
+                            "raw": "10",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -307,7 +315,9 @@
             "start": 621,
             "end": 622,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -333,7 +343,9 @@
             "start": 648,
             "end": 649,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -403,7 +415,9 @@
             "start": 712,
             "end": 722,
             "value": "alphabet",
-            "raw": "\"alphabet\""
+            "raw": "\"alphabet\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -457,7 +471,9 @@
                             "start": 768,
                             "end": 769,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -481,7 +497,9 @@
                               "start": 798,
                               "end": 817,
                               "value": "alphabet accessed",
-                              "raw": "\"alphabet accessed\""
+                              "raw": "\"alphabet accessed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -536,7 +554,9 @@
             "start": 865,
             "end": 884,
             "value": "lastChunkHandling",
-            "raw": "\"lastChunkHandling\""
+            "raw": "\"lastChunkHandling\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -590,7 +610,9 @@
                             "start": 930,
                             "end": 931,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -614,7 +636,9 @@
                               "start": 960,
                               "end": 988,
                               "value": "lastChunkHandling accessed",
-                              "raw": "\"lastChunkHandling accessed\""
+                              "raw": "\"lastChunkHandling accessed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -709,7 +733,9 @@
                             "start": 1067,
                             "end": 1069,
                             "value": 10,
-                            "raw": "10"
+                            "raw": "10",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -807,7 +833,9 @@
             "start": 1163,
             "end": 1164,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -852,7 +880,9 @@
             "start": 1200,
             "end": 1201,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

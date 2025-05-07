@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 19,
         "end": 28,
         "raw": "\"./index\"",
-        "value": "./index"
+        "value": "./index",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -85,7 +87,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 25,
         "raw": "\"./module\"",
-        "value": "./module"
+        "value": "./module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },

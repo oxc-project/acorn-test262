@@ -162,7 +162,9 @@ __ESTREE_TEST__:PASS:
             "start": 49,
             "end": 54,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           },
           "operator": "!",
           "prefix": true
@@ -212,7 +214,9 @@ __ESTREE_TEST__:PASS:
                 "start": 21,
                 "end": 28,
                 "raw": "'./mod'",
-                "value": "./mod"
+                "value": "./mod",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

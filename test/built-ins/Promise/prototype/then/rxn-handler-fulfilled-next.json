@@ -97,7 +97,9 @@
             "start": 669,
             "end": 671,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -165,7 +167,9 @@
                       "start": 709,
                       "end": 712,
                       "value": "a",
-                      "raw": "'a'"
+                      "raw": "'a'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -206,7 +210,9 @@
                       "start": 739,
                       "end": 742,
                       "value": "A",
-                      "raw": "'A'"
+                      "raw": "'A'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -279,7 +285,9 @@
                       "start": 784,
                       "end": 787,
                       "value": "b",
-                      "raw": "'b'"
+                      "raw": "'b'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -320,7 +328,9 @@
                       "start": 814,
                       "end": 817,
                       "value": "B",
-                      "raw": "'B'"
+                      "raw": "'B'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -393,7 +403,9 @@
                       "start": 859,
                       "end": 862,
                       "value": "c",
-                      "raw": "'c'"
+                      "raw": "'c'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -434,7 +446,9 @@
                       "start": 889,
                       "end": 892,
                       "value": "C",
-                      "raw": "'C'"
+                      "raw": "'C'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -507,7 +521,9 @@
                       "start": 939,
                       "end": 944,
                       "value": "abc",
-                      "raw": "'abc'"
+                      "raw": "'abc'",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -543,7 +559,9 @@
                                   "start": 965,
                                   "end": 1041,
                                   "value": "Expected each \"onFulfilled\" handler to be invoked exactly once in series. ",
-                                  "raw": "'Expected each \"onFulfilled\" handler to be invoked exactly once in series. '"
+                                  "raw": "'Expected each \"onFulfilled\" handler to be invoked exactly once in series. '",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -551,7 +569,9 @@
                                   "start": 1050,
                                   "end": 1075,
                                   "value": "Expected: abc. Actual: ",
-                                  "raw": "'Expected: abc. Actual: '"
+                                  "raw": "'Expected: abc. Actual: '",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               },
                               "operator": "+",
@@ -631,7 +651,9 @@
                         "start": 1141,
                         "end": 1179,
                         "value": "This promise should not be rejected.",
-                        "raw": "'This promise should not be rejected.'"
+                        "raw": "'This promise should not be rejected.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

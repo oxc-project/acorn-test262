@@ -81,14 +81,18 @@
             "start": 297,
             "end": 298,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 300,
             "end": 330,
             "value": "String.prototype.trim.length",
-            "raw": "'String.prototype.trim.length'"
+            "raw": "'String.prototype.trim.length'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

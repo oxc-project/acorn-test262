@@ -66,7 +66,9 @@
                     "start": 377,
                     "end": 394,
                     "value": "ownDataProperty",
-                    "raw": "\"ownDataProperty\""
+                    "raw": "\"ownDataProperty\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -115,7 +117,9 @@
             "start": 426,
             "end": 436,
             "value": "property",
-            "raw": "\"property\""
+            "raw": "\"property\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -161,7 +165,9 @@
                   "start": 468,
                   "end": 472,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -221,7 +227,9 @@
                 "start": 526,
                 "end": 536,
                 "value": "property",
-                "raw": "\"property\""
+                "raw": "\"property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -250,7 +258,9 @@
             "start": 554,
             "end": 559,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -311,7 +321,9 @@
                 "start": 602,
                 "end": 607,
                 "value": "get",
-                "raw": "\"get\""
+                "raw": "\"get\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -339,7 +351,9 @@
                       "start": 626,
                       "end": 630,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -376,7 +390,9 @@
             "start": 656,
             "end": 675,
             "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "raw": "'accessed !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

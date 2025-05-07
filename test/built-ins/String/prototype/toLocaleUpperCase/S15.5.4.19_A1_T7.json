@@ -118,7 +118,9 @@
           "start": 461,
           "end": 466,
           "value": "NAN",
-          "raw": "\"NAN\""
+          "raw": "\"NAN\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -150,7 +152,9 @@
                     "start": 495,
                     "end": 616,
                     "value": "#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; NaN.toLocaleUpperCase()=== \"NAN\". Actual: ",
-                    "raw": "'#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; NaN.toLocaleUpperCase()=== \"NAN\". Actual: '"
+                    "raw": "'#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; NaN.toLocaleUpperCase()=== \"NAN\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

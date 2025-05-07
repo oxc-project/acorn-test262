@@ -170,7 +170,9 @@
                   "start": 555,
                   "end": 631,
                   "value": "#1: Number.prototype.valueOf on not a Number object should throw TypeError",
-                  "raw": "'#1: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                  "raw": "'#1: Number.prototype.valueOf on not a Number object should throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -230,7 +232,9 @@
                     "start": 681,
                     "end": 755,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -408,7 +412,9 @@
                   "start": 888,
                   "end": 964,
                   "value": "#2: Number.prototype.valueOf on not a Number object should throw TypeError",
-                  "raw": "'#2: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                  "raw": "'#2: Number.prototype.valueOf on not a Number object should throw TypeError'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -468,7 +474,9 @@
                     "start": 1014,
                     "end": 1088,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

@@ -67,7 +67,9 @@
             "start": 1075,
             "end": 1081,
             "value": "ABCD",
-            "raw": "\"ABCD\""
+            "raw": "\"ABCD\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -145,7 +147,9 @@
             "start": 1139,
             "end": 1141,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -318,7 +322,9 @@
                 "start": 1267,
                 "end": 1270,
                 "value": ":",
-                "raw": "\":\""
+                "raw": "\":\"",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -358,7 +364,9 @@
             "start": 1291,
             "end": 1329,
             "value": "AAABACAD:BABBBCBD:CACBCCCD:DADBDCDD:",
-            "raw": "\"AAABACAD:BABBBCBD:CACBCCCD:DADBDCDD:\""
+            "raw": "\"AAABACAD:BABBBCBD:CACBCCCD:DADBDCDD:\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Identifier",

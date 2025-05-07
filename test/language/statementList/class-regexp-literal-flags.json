@@ -34,7 +34,8 @@
         "regex": {
           "pattern": "1",
           "flags": "g"
-        }
+        },
+        "bigint": null
       }
     }
   ],

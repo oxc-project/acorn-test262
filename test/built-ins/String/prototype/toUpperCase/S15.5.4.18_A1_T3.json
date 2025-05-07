@@ -35,7 +35,9 @@
                   "start": 340,
                   "end": 348,
                   "value": "\"bj\"",
-                  "raw": "\"\\\"bj\\\"\""
+                  "raw": "\"\\\"bj\\\"\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -58,7 +60,9 @@
           "start": 368,
           "end": 372,
           "value": "BJ",
-          "raw": "\"BJ\""
+          "raw": "\"BJ\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -90,7 +94,9 @@
                     "start": 401,
                     "end": 456,
                     "value": "#1: eval(\"\\\"bj\\\"\").toUpperCase() === \"BJ\". Actual: ",
-                    "raw": "'#1: eval(\"\\\\\"bj\\\\\"\").toUpperCase() === \"BJ\". Actual: '"
+                    "raw": "'#1: eval(\"\\\\\"bj\\\\\"\").toUpperCase() === \"BJ\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -117,7 +123,9 @@
                             "start": 464,
                             "end": 472,
                             "value": "\"bj\"",
-                            "raw": "\"\\\"bj\\\"\""
+                            "raw": "\"\\\"bj\\\"\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

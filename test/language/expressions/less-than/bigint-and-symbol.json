@@ -65,6 +65,7 @@
                       "end": 310,
                       "value": null,
                       "raw": "3n",
+                      "regex": null,
                       "bigint": "3"
                     },
                     "operator": "<",
@@ -84,7 +85,9 @@
                           "start": 320,
                           "end": 323,
                           "value": "2",
-                          "raw": "'2'"
+                          "raw": "'2'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -99,7 +102,9 @@
             "start": 329,
             "end": 364,
             "value": "3n < Symbol(\"2\") throws TypeError",
-            "raw": "'3n < Symbol(\"2\") throws TypeError'"
+            "raw": "'3n < Symbol(\"2\") throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -177,7 +182,9 @@
                           "start": 415,
                           "end": 418,
                           "value": "2",
-                          "raw": "'2'"
+                          "raw": "'2'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false
@@ -189,6 +196,7 @@
                       "end": 424,
                       "value": null,
                       "raw": "3n",
+                      "regex": null,
                       "bigint": "3"
                     }
                   }
@@ -201,7 +209,9 @@
             "start": 429,
             "end": 464,
             "value": "Symbol(\"2\") < 3n throws TypeError",
-            "raw": "'Symbol(\"2\") < 3n throws TypeError'"
+            "raw": "'Symbol(\"2\") < 3n throws TypeError'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

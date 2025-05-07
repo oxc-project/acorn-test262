@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -71,7 +72,9 @@
                   "start": 857,
                   "end": 858,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -87,14 +90,18 @@
                   "start": 862,
                   "end": 863,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "Literal",
                   "start": 865,
                   "end": 867,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -152,7 +159,9 @@
                                 "start": 919,
                                 "end": 922,
                                 "value": 2.9,
-                                "raw": "2.9"
+                                "raw": "2.9",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           ]
@@ -358,7 +367,9 @@
                 "start": 1094,
                 "end": 1100,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -374,7 +385,9 @@
             "start": 1113,
             "end": 1120,
             "value": "ab2cd",
-            "raw": "'ab2cd'"
+            "raw": "'ab2cd'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

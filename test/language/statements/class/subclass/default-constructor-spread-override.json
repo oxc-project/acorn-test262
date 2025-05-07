@@ -91,7 +91,9 @@
                       "start": 375,
                       "end": 395,
                       "value": "@@iterator invoked",
-                      "raw": "'@@iterator invoked'"
+                      "raw": "'@@iterator invoked'",
+                      "regex": null,
+                      "bigint": null
                     }
                   ]
                 }
@@ -247,7 +249,9 @@
                 "start": 529,
                 "end": 530,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -307,7 +311,9 @@
             "start": 567,
             "end": 568,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

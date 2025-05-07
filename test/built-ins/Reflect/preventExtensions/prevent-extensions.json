@@ -132,14 +132,18 @@
             "start": 534,
             "end": 539,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 567,
             "value": "object is not extensible",
-            "raw": "'object is not extensible'"
+            "raw": "'object is not extensible'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -232,7 +236,9 @@
                         "start": 636,
                         "end": 639,
                         "value": "y",
-                        "raw": "'y'"
+                        "raw": "'y'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -467,14 +473,18 @@
             "start": 812,
             "end": 817,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 821,
             "end": 872,
             "value": "object is still not extensible on exhausted calls",
-            "raw": "'object is still not extensible on exhausted calls'"
+            "raw": "'object is still not extensible on exhausted calls'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

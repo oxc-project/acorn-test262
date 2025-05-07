@@ -43,7 +43,9 @@
           "start": 774,
           "end": 775,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -141,7 +143,9 @@
                           "start": 824,
                           "end": 825,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -151,14 +155,18 @@
                         "start": 828,
                         "end": 836,
                         "value": "\n\n\n",
-                        "raw": "'\\n\\n\\n'"
+                        "raw": "'\\n\\n\\n'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 838,
                         "end": 869,
                         "value": "Line Feed and Carriage Return",
-                        "raw": "'Line Feed and Carriage Return'"
+                        "raw": "'Line Feed and Carriage Return'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -220,7 +228,9 @@
                           "start": 897,
                           "end": 898,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -230,14 +240,18 @@
                         "start": 901,
                         "end": 909,
                         "value": "\n\n\n",
-                        "raw": "'\\n\\n\\n'"
+                        "raw": "'\\n\\n\\n'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 911,
                         "end": 942,
                         "value": "Line Feed and Carriage Return",
-                        "raw": "'Line Feed and Carriage Return'"
+                        "raw": "'Line Feed and Carriage Return'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -306,7 +320,9 @@
             "start": 979,
             "end": 980,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -332,7 +348,9 @@
           "start": 992,
           "end": 993,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -430,7 +448,9 @@
                           "start": 1044,
                           "end": 1045,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -440,14 +460,18 @@
                         "start": 1048,
                         "end": 1056,
                         "value": " ",
-                        "raw": "'\\u2028'"
+                        "raw": "'\\u2028'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1058,
                         "end": 1074,
                         "value": "Line Separator",
-                        "raw": "'Line Separator'"
+                        "raw": "'Line Separator'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -509,7 +533,9 @@
                           "start": 1103,
                           "end": 1104,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -519,14 +545,18 @@
                         "start": 1107,
                         "end": 1115,
                         "value": " ",
-                        "raw": "'\\u2028'"
+                        "raw": "'\\u2028'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1117,
                         "end": 1133,
                         "value": "Line Separator",
-                        "raw": "'Line Separator'"
+                        "raw": "'Line Separator'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -595,7 +625,9 @@
             "start": 1166,
             "end": 1167,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -621,7 +653,9 @@
           "start": 1179,
           "end": 1180,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -719,7 +753,9 @@
                           "start": 1231,
                           "end": 1232,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -729,14 +765,18 @@
                         "start": 1235,
                         "end": 1243,
                         "value": " ",
-                        "raw": "'\\u2029'"
+                        "raw": "'\\u2029'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1245,
                         "end": 1266,
                         "value": "Paragraph Separator",
-                        "raw": "'Paragraph Separator'"
+                        "raw": "'Paragraph Separator'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -798,7 +838,9 @@
                           "start": 1295,
                           "end": 1296,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         },
                         "computed": true,
                         "optional": false
@@ -808,14 +850,18 @@
                         "start": 1299,
                         "end": 1307,
                         "value": " ",
-                        "raw": "'\\u2029'"
+                        "raw": "'\\u2029'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1309,
                         "end": 1330,
                         "value": "Paragraph Separator",
-                        "raw": "'Paragraph Separator'"
+                        "raw": "'Paragraph Separator'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -884,7 +930,9 @@
             "start": 1363,
             "end": 1364,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

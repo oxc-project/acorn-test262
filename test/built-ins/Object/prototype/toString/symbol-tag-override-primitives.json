@@ -62,7 +62,9 @@
           "start": 832,
           "end": 841,
           "value": "test262",
-          "raw": "'test262'"
+          "raw": "'test262'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -171,7 +173,9 @@
             "start": 911,
             "end": 929,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -260,7 +264,9 @@
                 "start": 980,
                 "end": 984,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -270,7 +276,9 @@
             "start": 987,
             "end": 1005,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -335,7 +343,9 @@
           "start": 1048,
           "end": 1057,
           "value": "test262",
-          "raw": "'test262'"
+          "raw": "'test262'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -444,7 +454,9 @@
             "start": 1126,
             "end": 1144,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -533,7 +545,9 @@
                 "start": 1195,
                 "end": 1196,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -543,7 +557,9 @@
             "start": 1199,
             "end": 1217,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -608,7 +624,9 @@
           "start": 1260,
           "end": 1269,
           "value": "test262",
-          "raw": "'test262'"
+          "raw": "'test262'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -717,7 +735,9 @@
             "start": 1338,
             "end": 1356,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -806,7 +826,9 @@
                 "start": 1407,
                 "end": 1409,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -816,7 +838,9 @@
             "start": 1412,
             "end": 1430,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -911,7 +935,9 @@
                   "start": 1506,
                   "end": 1515,
                   "value": "test262",
-                  "raw": "'test262'"
+                  "raw": "'test262'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -1026,7 +1052,9 @@
             "start": 1588,
             "end": 1606,
             "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "raw": "'[object test262]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

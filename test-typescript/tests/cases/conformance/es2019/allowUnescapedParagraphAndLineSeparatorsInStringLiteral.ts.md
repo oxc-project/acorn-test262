@@ -29,7 +29,9 @@ __ESTREE_TEST__:PASS:
             "start": 172,
             "end": 190,
             "raw": "\" STRING_CONTENT \"",
-            "value": " STRING_CONTENT "
+            "value": " STRING_CONTENT ",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -60,7 +62,9 @@ __ESTREE_TEST__:PASS:
             "start": 243,
             "end": 261,
             "raw": "\" STRING_CONTENT \"",
-            "value": " STRING_CONTENT "
+            "value": " STRING_CONTENT ",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -91,7 +95,9 @@ __ESTREE_TEST__:PASS:
             "start": 311,
             "end": 329,
             "raw": "' STRING_CONTENT '",
-            "value": " STRING_CONTENT "
+            "value": " STRING_CONTENT ",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -122,7 +128,9 @@ __ESTREE_TEST__:PASS:
             "start": 382,
             "end": 400,
             "raw": "' STRING_CONTENT '",
-            "value": " STRING_CONTENT "
+            "value": " STRING_CONTENT ",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -242,28 +250,36 @@ __ESTREE_TEST__:PASS:
                 "start": 609,
                 "end": 629,
                 "raw": "\"  STRING_CONTENT  \"",
-                "value": "  STRING_CONTENT  "
+                "value": "  STRING_CONTENT  ",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 635,
                 "end": 657,
                 "raw": "\"   STRING_CONTENT   \"",
-                "value": "   STRING_CONTENT   "
+                "value": "   STRING_CONTENT   ",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 663,
                 "end": 680,
                 "raw": "\"STRING_CONTENT \"",
-                "value": "STRING_CONTENT "
+                "value": "STRING_CONTENT ",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 686,
                 "end": 703,
                 "raw": "\" STRING_CONTENT\"",
-                "value": " STRING_CONTENT"
+                "value": " STRING_CONTENT",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "TemplateLiteral",
@@ -288,7 +304,9 @@ __ESTREE_TEST__:PASS:
                 "start": 719,
                 "end": 722,
                 "raw": "' '",
-                "value": " "
+                "value": " ",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

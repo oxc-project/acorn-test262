@@ -90,7 +90,9 @@
                             "start": 608,
                             "end": 609,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -209,6 +211,7 @@
                           "end": 701,
                           "value": null,
                           "raw": "1n",
+                          "regex": null,
                           "bigint": "1"
                         },
                         {
@@ -217,6 +220,7 @@
                           "end": 705,
                           "value": null,
                           "raw": "2n",
+                          "regex": null,
                           "bigint": "2"
                         },
                         {
@@ -225,6 +229,7 @@
                           "end": 709,
                           "value": null,
                           "raw": "3n",
+                          "regex": null,
                           "bigint": "3"
                         }
                       ],
@@ -277,7 +282,9 @@
                         "start": 747,
                         "end": 776,
                         "value": "using iterator, same length",
-                        "raw": "\"using iterator, same length\""
+                        "raw": "\"using iterator, same length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -347,6 +354,7 @@
                           "end": 818,
                           "value": null,
                           "raw": "1n",
+                          "regex": null,
                           "bigint": "1"
                         },
                         {
@@ -355,6 +363,7 @@
                           "end": 822,
                           "value": null,
                           "raw": "2n",
+                          "regex": null,
                           "bigint": "2"
                         }
                       ],
@@ -407,7 +416,9 @@
                         "start": 860,
                         "end": 891,
                         "value": "using iterator, higher length",
-                        "raw": "\"using iterator, higher length\""
+                        "raw": "\"using iterator, higher length\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

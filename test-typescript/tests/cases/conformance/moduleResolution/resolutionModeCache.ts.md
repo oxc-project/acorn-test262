@@ -35,7 +35,9 @@ __ESTREE_TEST__:PASS:
                   "start": 24,
                   "end": 29,
                   "raw": "\"esm\"",
-                  "value": "esm"
+                  "value": "esm",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -103,7 +105,9 @@ __ESTREE_TEST__:PASS:
                   "start": 24,
                   "end": 29,
                   "raw": "\"cjs\"",
-                  "value": "cjs"
+                  "value": "cjs",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -154,14 +158,18 @@ __ESTREE_TEST__:PASS:
             "start": 41,
             "end": 58,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 60,
             "end": 69,
             "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -171,7 +179,9 @@ __ESTREE_TEST__:PASS:
         "start": 28,
         "end": 33,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -204,14 +214,18 @@ __ESTREE_TEST__:PASS:
             "start": 113,
             "end": 130,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "regex": null,
+            "bigint": null
           },
           "value": {
             "type": "Literal",
             "start": 132,
             "end": 140,
             "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -221,7 +235,9 @@ __ESTREE_TEST__:PASS:
         "start": 100,
         "end": 105,
         "raw": "\"pkg\"",
-        "value": "pkg"
+        "value": "pkg",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

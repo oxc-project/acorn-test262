@@ -60,7 +60,9 @@
                 "start": 343,
                 "end": 352,
                 "value": "2019-10",
-                "raw": "\"2019-10\""
+                "raw": "\"2019-10\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -151,7 +153,9 @@
             "start": 399,
             "end": 414,
             "value": "No properties",
-            "raw": "\"No properties\""
+            "raw": "\"No properties\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,7 +251,9 @@
                         "start": 466,
                         "end": 468,
                         "value": 12,
-                        "raw": "12"
+                        "raw": "12",
+                        "regex": null,
+                        "bigint": null
                       },
                       "kind": "init"
                     }
@@ -262,7 +268,9 @@
             "start": 473,
             "end": 504,
             "value": "Only plural 'months' property",
-            "raw": "\"Only plural 'months' property\""
+            "raw": "\"Only plural 'months' property\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

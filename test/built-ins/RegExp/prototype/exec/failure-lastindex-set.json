@@ -27,7 +27,8 @@
             "regex": {
               "pattern": ".",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         },
         {
@@ -49,7 +50,8 @@
             "regex": {
               "pattern": ".",
               "flags": "y"
-            }
+            },
+            "bigint": null
           }
         },
         {
@@ -71,7 +73,8 @@
             "regex": {
               "pattern": ".",
               "flags": "gy"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -97,7 +100,9 @@
             "start": 1115,
             "end": 1121,
             "value": "test",
-            "raw": "\"test\""
+            "raw": "\"test\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -216,7 +221,9 @@
                   "start": 1249,
                   "end": 1250,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -232,7 +239,9 @@
                     "start": 1254,
                     "end": 1255,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -240,7 +249,9 @@
                     "start": 1257,
                     "end": 1259,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -249,7 +260,9 @@
                   "start": 1262,
                   "end": 1263,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -265,7 +278,9 @@
                     "start": 1267,
                     "end": 1268,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -273,7 +288,9 @@
                     "start": 1270,
                     "end": 1272,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -282,7 +299,9 @@
                   "start": 1275,
                   "end": 1276,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -298,7 +317,9 @@
                     "start": 1280,
                     "end": 1281,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -306,7 +327,9 @@
                     "start": 1283,
                     "end": 1285,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -315,7 +338,9 @@
                   "start": 1288,
                   "end": 1289,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -331,7 +356,9 @@
                     "start": 1293,
                     "end": 1294,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -339,7 +366,9 @@
                     "start": 1296,
                     "end": 1298,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "+",
@@ -348,7 +377,9 @@
                   "start": 1301,
                   "end": 1302,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -360,7 +391,9 @@
                   "start": 1306,
                   "end": 1307,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "operator": "**",
                 "right": {
@@ -368,7 +401,9 @@
                   "start": 1309,
                   "end": 1311,
                   "value": 32,
-                  "raw": "32"
+                  "raw": "32",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -384,7 +419,9 @@
                     "start": 1315,
                     "end": 1316,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "**",
                   "right": {
@@ -392,7 +429,9 @@
                     "start": 1318,
                     "end": 1320,
                     "value": 32,
-                    "raw": "32"
+                    "raw": "32",
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 "operator": "-",
@@ -401,7 +440,9 @@
                   "start": 1323,
                   "end": 1324,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -409,7 +450,9 @@
                 "start": 1328,
                 "end": 1329,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -441,7 +484,9 @@
               "start": 1347,
               "end": 1348,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             }
           }
         ],
@@ -706,7 +751,9 @@
                   "start": 1539,
                   "end": 1543,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -725,7 +772,9 @@
                         "start": 1551,
                         "end": 1604,
                         "value": "global RegExp instance must fail to match against '",
-                        "raw": "\"global RegExp instance must fail to match against '\""
+                        "raw": "\"global RegExp instance must fail to match against '\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -741,7 +790,9 @@
                       "start": 1617,
                       "end": 1634,
                       "value": "' at lastIndex ",
-                      "raw": "\"' at lastIndex \""
+                      "raw": "\"' at lastIndex \"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -822,7 +873,9 @@
                   "start": 1681,
                   "end": 1685,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -841,7 +894,9 @@
                         "start": 1693,
                         "end": 1746,
                         "value": "sticky RegExp instance must fail to match against '",
-                        "raw": "\"sticky RegExp instance must fail to match against '\""
+                        "raw": "\"sticky RegExp instance must fail to match against '\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -857,7 +912,9 @@
                       "start": 1759,
                       "end": 1776,
                       "value": "' at lastIndex ",
-                      "raw": "\"' at lastIndex \""
+                      "raw": "\"' at lastIndex \"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -938,7 +995,9 @@
                   "start": 1824,
                   "end": 1828,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -957,7 +1016,9 @@
                         "start": 1836,
                         "end": 1896,
                         "value": "global sticky RegExp instance must fail to match against '",
-                        "raw": "\"global sticky RegExp instance must fail to match against '\""
+                        "raw": "\"global sticky RegExp instance must fail to match against '\"",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {
@@ -973,7 +1034,9 @@
                       "start": 1909,
                       "end": 1926,
                       "value": "' at lastIndex ",
-                      "raw": "\"' at lastIndex \""
+                      "raw": "\"' at lastIndex \"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "+",
@@ -1040,7 +1103,9 @@
                   "start": 1976,
                   "end": 1977,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1055,7 +1120,9 @@
                       "start": 1985,
                       "end": 2040,
                       "value": "global RegExp instance lastIndex must be reset after ",
-                      "raw": "\"global RegExp instance lastIndex must be reset after \""
+                      "raw": "\"global RegExp instance lastIndex must be reset after \"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -1071,7 +1138,9 @@
                     "start": 2061,
                     "end": 2085,
                     "value": " exceeds string length",
-                    "raw": "\" exceeds string length\""
+                    "raw": "\" exceeds string length\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -1130,7 +1199,9 @@
                   "start": 2122,
                   "end": 2123,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1145,7 +1216,9 @@
                       "start": 2131,
                       "end": 2186,
                       "value": "sticky RegExp instance lastIndex must be reset after ",
-                      "raw": "\"sticky RegExp instance lastIndex must be reset after \""
+                      "raw": "\"sticky RegExp instance lastIndex must be reset after \"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -1161,7 +1234,9 @@
                     "start": 2207,
                     "end": 2231,
                     "value": " exceeds string length",
-                    "raw": "\" exceeds string length\""
+                    "raw": "\" exceeds string length\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -1220,7 +1295,9 @@
                   "start": 2269,
                   "end": 2270,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "BinaryExpression",
@@ -1235,7 +1312,9 @@
                       "start": 2278,
                       "end": 2340,
                       "value": "global sticky RegExp instance lastIndex must be reset after ",
-                      "raw": "\"global sticky RegExp instance lastIndex must be reset after \""
+                      "raw": "\"global sticky RegExp instance lastIndex must be reset after \"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "operator": "+",
                     "right": {
@@ -1251,7 +1330,9 @@
                     "start": 2361,
                     "end": 2385,
                     "value": " exceeds string length",
-                    "raw": "\" exceeds string length\""
+                    "raw": "\" exceeds string length\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

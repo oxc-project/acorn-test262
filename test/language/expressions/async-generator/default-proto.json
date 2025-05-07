@@ -218,7 +218,9 @@
             "start": 1382,
             "end": 1409,
             "value": "fn.prototype is undefined",
-            "raw": "'fn.prototype is undefined'"
+            "raw": "'fn.prototype is undefined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -257,7 +259,9 @@
           "start": 1428,
           "end": 1432,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -340,7 +344,9 @@
             "start": 1505,
             "end": 1527,
             "value": "fn.prototype is null",
-            "raw": "'fn.prototype is null'"
+            "raw": "'fn.prototype is null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -379,7 +385,9 @@
           "start": 1546,
           "end": 1551,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -462,7 +470,9 @@
             "start": 1624,
             "end": 1651,
             "value": "fn.prototype is a Boolean",
-            "raw": "'fn.prototype is a Boolean'"
+            "raw": "'fn.prototype is a Boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -501,7 +511,9 @@
           "start": 1670,
           "end": 1672,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -584,7 +596,9 @@
             "start": 1745,
             "end": 1771,
             "value": "fn.prototype is a String",
-            "raw": "'fn.prototype is a String'"
+            "raw": "'fn.prototype is a String'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -712,7 +726,9 @@
             "start": 1871,
             "end": 1897,
             "value": "fn.prototype is a Symbol",
-            "raw": "'fn.prototype is a Symbol'"
+            "raw": "'fn.prototype is a Symbol'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -751,7 +767,9 @@
           "start": 1916,
           "end": 1917,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -834,7 +852,9 @@
             "start": 1990,
             "end": 2016,
             "value": "fn.prototype is a Number",
-            "raw": "'fn.prototype is a Number'"
+            "raw": "'fn.prototype is a Number'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

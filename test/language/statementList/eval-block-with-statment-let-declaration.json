@@ -34,7 +34,9 @@
                 "start": 818,
                 "end": 853,
                 "value": "{length: 3000}let a, b = 42, c;b;",
-                "raw": "'{length: 3000}let a, b = 42, c;b;'"
+                "raw": "'{length: 3000}let a, b = 42, c;b;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -63,7 +65,9 @@
             "start": 925,
             "end": 929,
             "value": 3000,
-            "raw": "3000"
+            "raw": "3000",
+            "regex": null,
+            "bigint": null
           }
         }
       ],

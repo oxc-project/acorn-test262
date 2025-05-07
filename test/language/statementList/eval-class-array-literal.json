@@ -34,7 +34,9 @@
                 "start": 918,
                 "end": 933,
                 "value": "class C {}[];",
-                "raw": "'class C {}[];'"
+                "raw": "'class C {}[];'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -179,7 +181,9 @@
             "start": 1035,
             "end": 1036,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

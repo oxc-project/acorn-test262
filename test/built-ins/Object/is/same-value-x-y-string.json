@@ -60,14 +60,18 @@
                 "start": 500,
                 "end": 502,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 504,
                 "end": 506,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -77,14 +81,18 @@
             "start": 509,
             "end": 513,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 551,
             "value": "`Object.is('', '')` returns `true`",
-            "raw": "\"`Object.is('', '')` returns `true`\""
+            "raw": "\"`Object.is('', '')` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -147,14 +155,18 @@
                 "start": 584,
                 "end": 589,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 591,
                 "end": 596,
                 "value": "foo",
-                "raw": "'foo'"
+                "raw": "'foo'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -164,14 +176,18 @@
             "start": 601,
             "end": 605,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 609,
             "end": 651,
             "value": "`Object.is('foo', 'foo')` returns `true`",
-            "raw": "\"`Object.is('foo', 'foo')` returns `true`\""
+            "raw": "\"`Object.is('foo', 'foo')` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -245,7 +261,9 @@
                     "start": 692,
                     "end": 697,
                     "value": "foo",
-                    "raw": "'foo'"
+                    "raw": "'foo'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -266,7 +284,9 @@
                     "start": 707,
                     "end": 712,
                     "value": "foo",
-                    "raw": "'foo'"
+                    "raw": "'foo'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -279,14 +299,18 @@
             "start": 718,
             "end": 722,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 784,
             "value": "`Object.is(String('foo'), String('foo'))` returns `true`",
-            "raw": "\"`Object.is(String('foo'), String('foo'))` returns `true`\""
+            "raw": "\"`Object.is(String('foo'), String('foo'))` returns `true`\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

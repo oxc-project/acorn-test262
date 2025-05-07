@@ -49,7 +49,9 @@
                     "start": 297,
                     "end": 298,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Identifier",
@@ -66,7 +68,9 @@
                 "start": 305,
                 "end": 312,
                 "value": "this;",
-                "raw": "'this;'"
+                "raw": "'this;'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
           "start": 83,
           "end": 120,
           "raw": "\"instanceOfInExternalModules_require\"",
-          "value": "instanceOfInExternalModules_require"
+          "value": "instanceOfInExternalModules_require",
+          "regex": null,
+          "bigint": null
         }
       }
     },

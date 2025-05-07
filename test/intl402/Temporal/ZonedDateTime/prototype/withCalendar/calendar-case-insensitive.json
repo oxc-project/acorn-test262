@@ -48,6 +48,7 @@
                 "end": 337,
                 "value": null,
                 "raw": "1_000_000_000_000_000_000n",
+                "regex": null,
                 "bigint": "1000000000000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 339,
                 "end": 344,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -83,7 +86,9 @@
             "start": 360,
             "end": 370,
             "value": "jApAnEsE",
-            "raw": "\"jApAnEsE\""
+            "raw": "\"jApAnEsE\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -198,14 +203,18 @@
             "start": 452,
             "end": 462,
             "value": "japanese",
-            "raw": "\"japanese\""
+            "raw": "\"japanese\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 494,
             "value": "Calendar is case-insensitive",
-            "raw": "\"Calendar is case-insensitive\""
+            "raw": "\"Calendar is case-insensitive\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

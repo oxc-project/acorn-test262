@@ -47,7 +47,9 @@
                 "start": 307,
                 "end": 314,
                 "value": "parse",
-                "raw": "\"parse\""
+                "raw": "\"parse\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -57,7 +59,9 @@
             "start": 317,
             "end": 364,
             "value": "Date.hasOwnProperty(\"parse\") must return true",
-            "raw": "'Date.hasOwnProperty(\"parse\") must return true'"
+            "raw": "'Date.hasOwnProperty(\"parse\") must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

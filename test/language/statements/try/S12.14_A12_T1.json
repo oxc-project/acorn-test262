@@ -78,7 +78,9 @@
             "start": 364,
             "end": 365,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -88,7 +90,9 @@
           "start": 369,
           "end": 375,
           "value": "Saab",
-          "raw": "\"Saab\""
+          "raw": "\"Saab\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -116,7 +120,9 @@
             "start": 384,
             "end": 385,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -126,7 +132,9 @@
           "start": 389,
           "end": 396,
           "value": "Volvo",
-          "raw": "\"Volvo\""
+          "raw": "\"Volvo\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -154,7 +162,9 @@
             "start": 405,
             "end": 406,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -164,7 +174,9 @@
           "start": 410,
           "end": 415,
           "value": "BMW",
-          "raw": "\"BMW\""
+          "raw": "\"BMW\"",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -231,7 +243,9 @@
                       "start": 475,
                       "end": 480,
                       "value": "BMW",
-                      "raw": "\"BMW\""
+                      "raw": "\"BMW\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -243,7 +257,9 @@
                       "start": 488,
                       "end": 492,
                       "value": "ex",
-                      "raw": "\"ex\""
+                      "raw": "\"ex\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "alternate": null
@@ -288,7 +304,9 @@
                   "start": 519,
                   "end": 523,
                   "value": "ex",
-                  "raw": "\"ex\""
+                  "raw": "\"ex\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -315,7 +333,9 @@
                         "start": 547,
                         "end": 594,
                         "value": "#1: Exception ===\"ex\". Actual:  Exception ===",
-                        "raw": "'#1: Exception ===\"ex\". Actual:  Exception ==='"
+                        "raw": "'#1: Exception ===\"ex\". Actual:  Exception ==='",
+                        "regex": null,
+                        "bigint": null
                       },
                       "operator": "+",
                       "right": {

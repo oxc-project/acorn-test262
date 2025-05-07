@@ -65,7 +65,9 @@
                             "start": 1454,
                             "end": 1462,
                             "value": "static",
-                            "raw": "'static'"
+                            "raw": "'static'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -169,7 +171,9 @@
                             "start": 1549,
                             "end": 1559,
                             "value": "instance",
-                            "raw": "'instance'"
+                            "raw": "'instance'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -334,7 +338,9 @@
             "start": 1675,
             "end": 1683,
             "value": "static",
-            "raw": "'static'"
+            "raw": "'static'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -399,7 +405,9 @@
             "start": 1723,
             "end": 1733,
             "value": "instance",
-            "raw": "'instance'"
+            "raw": "'instance'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -512,7 +520,9 @@
             "start": 1798,
             "end": 1849,
             "value": "Accessed static private method from instance of C",
-            "raw": "'Accessed static private method from instance of C'"
+            "raw": "'Accessed static private method from instance of C'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -625,7 +635,9 @@
             "start": 1922,
             "end": 1963,
             "value": "Accessed instance private method from C",
-            "raw": "'Accessed instance private method from C'"
+            "raw": "'Accessed instance private method from C'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

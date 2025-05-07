@@ -64,7 +64,9 @@
                     "start": 393,
                     "end": 397,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               },
@@ -179,14 +181,18 @@
             "start": 471,
             "end": 482,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 541,
             "value": "The value of `typeof obj` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof obj` is expected to be \"undefined\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -222,7 +228,9 @@
               "start": 558,
               "end": 567,
               "value": "touched",
-              "raw": "\"touched\""
+              "raw": "\"touched\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -232,7 +240,9 @@
             "start": 570,
             "end": 625,
             "value": "The value of retobj[\"touched\"] is expected to be true",
-            "raw": "'The value of retobj[\"touched\"] is expected to be true'"
+            "raw": "'The value of retobj[\"touched\"] is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

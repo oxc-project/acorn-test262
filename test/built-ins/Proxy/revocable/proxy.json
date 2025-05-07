@@ -41,7 +41,9 @@
                   "start": 468,
                   "end": 473,
                   "value": "foo",
-                  "raw": "\"foo\""
+                  "raw": "\"foo\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -174,7 +176,9 @@
                                 "start": 559,
                                 "end": 562,
                                 "value": "!",
-                                "raw": "\"!\""
+                                "raw": "\"!\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -257,7 +261,9 @@
             "start": 604,
             "end": 610,
             "value": "foo!",
-            "raw": "\"foo!\""
+            "raw": "\"foo!\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

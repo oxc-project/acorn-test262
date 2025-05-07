@@ -69,14 +69,18 @@
             "start": 752,
             "end": 757,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 759,
             "end": 809,
             "value": "isConstructor(Proxy.revocable) must return false",
-            "raw": "'isConstructor(Proxy.revocable) must return false'"
+            "raw": "'isConstructor(Proxy.revocable) must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

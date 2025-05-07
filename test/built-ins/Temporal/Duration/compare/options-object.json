@@ -91,7 +91,9 @@
                       "start": 312,
                       "end": 313,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -120,7 +122,9 @@
                       "start": 328,
                       "end": 330,
                       "value": 60,
-                      "raw": "60"
+                      "raw": "60",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -140,14 +144,18 @@
             "start": 339,
             "end": 340,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 344,
             "end": 382,
             "value": "options may be an empty plain object",
-            "raw": "\"options may be an empty plain object\""
+            "raw": "\"options may be an empty plain object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -241,7 +249,9 @@
                       "start": 442,
                       "end": 443,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -270,7 +280,9 @@
                       "start": 457,
                       "end": 459,
                       "value": 60,
-                      "raw": "60"
+                      "raw": "60",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -300,14 +312,18 @@
             "start": 474,
             "end": 475,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 520,
             "value": "options may be an empty function object",
-            "raw": "\"options may be an empty function object\""
+            "raw": "\"options may be an empty function object\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

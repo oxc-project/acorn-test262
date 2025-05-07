@@ -66,21 +66,27 @@
                 "start": 392,
                 "end": 396,
                 "value": 2017,
-                "raw": "2017"
+                "raw": "2017",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 398,
                 "end": 399,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 401,
                 "end": 403,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -238,7 +244,9 @@
                                 "start": 602,
                                 "end": 611,
                                 "value": "literal",
-                                "raw": "\"literal\""
+                                "raw": "\"literal\"",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -399,7 +407,9 @@
                   "start": 713,
                   "end": 716,
                   "value": ":",
-                  "raw": "\":\""
+                  "raw": "\":\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -452,7 +462,9 @@
                 "start": 755,
                 "end": 759,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -640,7 +652,9 @@
                                   "start": 940,
                                   "end": 950,
                                   "value": "en-u-ca-",
-                                  "raw": "\"en-u-ca-\""
+                                  "raw": "\"en-u-ca-\"",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "operator": "+",
                                 "right": {
@@ -775,7 +789,9 @@
             "start": 1146,
             "end": 1150,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -82,7 +82,9 @@
             "start": 476,
             "end": 546,
             "value": "Object.isExtensible(Object.prototype.isPrototypeOf) must return true",
-            "raw": "'Object.isExtensible(Object.prototype.isPrototypeOf) must return true'"
+            "raw": "'Object.isExtensible(Object.prototype.isPrototypeOf) must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -206,14 +208,18 @@
             "start": 636,
             "end": 655,
             "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "raw": "\"[object Function]\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 659,
             "end": 755,
             "value": "Object.prototype.toString.call(Object.prototype.isPrototypeOf) must return \"[object Function]\"",
-            "raw": "'Object.prototype.toString.call(Object.prototype.isPrototypeOf) must return \"[object Function]\"'"
+            "raw": "'Object.prototype.toString.call(Object.prototype.isPrototypeOf) must return \"[object Function]\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -330,7 +336,9 @@
             "start": 858,
             "end": 957,
             "value": "Object.getPrototypeOf(Object.prototype.isPrototypeOf) must return the value of Function.prototype",
-            "raw": "'Object.getPrototypeOf(Object.prototype.isPrototypeOf) must return the value of Function.prototype'"
+            "raw": "'Object.getPrototypeOf(Object.prototype.isPrototypeOf) must return the value of Function.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -419,7 +427,9 @@
                 "start": 1027,
                 "end": 1038,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -429,14 +439,18 @@
             "start": 1043,
             "end": 1048,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1052,
             "end": 1130,
             "value": "Object.prototype.isPrototypeOf.hasOwnProperty(\"prototype\") must return false",
-            "raw": "'Object.prototype.isPrototypeOf.hasOwnProperty(\"prototype\") must return false'"
+            "raw": "'Object.prototype.isPrototypeOf.hasOwnProperty(\"prototype\") must return false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

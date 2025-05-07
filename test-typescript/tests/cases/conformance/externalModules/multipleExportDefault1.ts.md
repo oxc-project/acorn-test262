@@ -70,7 +70,9 @@ __ESTREE_TEST__:PASS:
               "start": 67,
               "end": 84,
               "raw": "\"another default\"",
-              "value": "another default"
+              "value": "another default",
+              "regex": null,
+              "bigint": null
             }
           }
         ]

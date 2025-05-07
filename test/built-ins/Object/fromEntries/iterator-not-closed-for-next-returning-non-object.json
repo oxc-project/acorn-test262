@@ -108,7 +108,9 @@
                                         "start": 1006,
                                         "end": 1010,
                                         "value": null,
-                                        "raw": "null"
+                                        "raw": "null",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     }
                                   ]
@@ -163,7 +165,9 @@
                                             "start": 1079,
                                             "end": 1103,
                                             "value": "should not call return",
-                                            "raw": "'should not call return'"
+                                            "raw": "'should not call return'",
+                                            "regex": null,
+                                            "bigint": null
                                           }
                                         ]
                                       }
@@ -246,7 +250,9 @@
             "start": 1175,
             "end": 1185,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -90,7 +90,9 @@ __ESTREE_TEST__:PASS:
         "start": 20,
         "end": 36,
         "raw": "\"@types/foo-bar\"",
-        "value": "@types/foo-bar"
+        "value": "@types/foo-bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

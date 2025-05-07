@@ -28,28 +28,36 @@
                 "start": 639,
                 "end": 641,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 643,
                 "end": 645,
                 "value": 43,
-                "raw": "43"
+                "raw": "43",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 647,
                 "end": 649,
                 "value": 43,
-                "raw": "43"
+                "raw": "43",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 651,
                 "end": 653,
                 "value": 41,
-                "raw": "41"
+                "raw": "41",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -114,7 +122,9 @@
                 "start": 693,
                 "end": 695,
                 "value": 43,
-                "raw": "43"
+                "raw": "43",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -130,14 +140,18 @@
             "start": 710,
             "end": 715,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 743,
             "value": "includes(43, Infinity)",
-            "raw": "\"includes(43, Infinity)\""
+            "raw": "\"includes(43, Infinity)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -200,7 +214,9 @@
                 "start": 783,
                 "end": 785,
                 "value": 43,
-                "raw": "43"
+                "raw": "43",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "UnaryExpression",
@@ -223,14 +239,18 @@
             "start": 801,
             "end": 805,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 834,
             "value": "includes(43, -Infinity)",
-            "raw": "\"includes(43, -Infinity)\""
+            "raw": "\"includes(43, -Infinity)\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

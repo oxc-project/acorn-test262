@@ -23,7 +23,9 @@
             "start": 519,
             "end": 523,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -85,7 +87,9 @@
                         "start": 571,
                         "end": 572,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -193,7 +197,9 @@
                   "start": 681,
                   "end": 747,
                   "value": "#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception",
-                  "raw": "'#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception'"
+                  "raw": "'#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -261,7 +267,9 @@
                             "start": 804,
                             "end": 851,
                             "value": "#1: Exception === true. Actual: exception ===",
-                            "raw": "'#1: Exception === true. Actual: exception ==='"
+                            "raw": "'#1: Exception === true. Actual: exception ==='",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {

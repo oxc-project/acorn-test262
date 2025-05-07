@@ -187,7 +187,9 @@ __ESTREE_TEST__:PASS:
                       "start": 86,
                       "end": 92,
                       "raw": "\"Menu\"",
-                      "value": "Menu"
+                      "value": "Menu",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }

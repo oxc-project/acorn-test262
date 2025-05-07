@@ -34,7 +34,9 @@ __ESTREE_TEST__:PASS:
                 "start": 21,
                 "end": 27,
                 "raw": "'data'",
-                "value": "data"
+                "value": "data",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

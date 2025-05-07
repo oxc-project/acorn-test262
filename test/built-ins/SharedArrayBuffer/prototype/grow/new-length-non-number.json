@@ -108,7 +108,9 @@
                               "start": 693,
                               "end": 703,
                               "value": "toString",
-                              "raw": "'toString'"
+                              "raw": "'toString'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -190,7 +192,9 @@
                               "start": 763,
                               "end": 772,
                               "value": "valueOf",
-                              "raw": "'valueOf'"
+                              "raw": "'valueOf'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ],
                           "optional": false
@@ -249,7 +253,9 @@
                 "start": 828,
                 "end": 829,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -274,7 +280,9 @@
                       "start": 847,
                       "end": 848,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -431,7 +439,9 @@
             "start": 947,
             "end": 948,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -480,7 +490,9 @@
               "start": 972,
               "end": 973,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -490,7 +502,9 @@
             "start": 976,
             "end": 985,
             "value": "valueOf",
-            "raw": "'valueOf'"
+            "raw": "'valueOf'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -539,7 +553,9 @@
               "start": 1009,
               "end": 1010,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -549,7 +565,9 @@
             "start": 1013,
             "end": 1023,
             "value": "toString",
-            "raw": "'toString'"
+            "raw": "'toString'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -74,7 +74,9 @@
             "start": 542,
             "end": 658,
             "value": "async function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }",
-            "raw": "\"async function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\""
+            "raw": "\"async function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

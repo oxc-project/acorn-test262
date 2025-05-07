@@ -27,7 +27,9 @@
               "start": 365,
               "end": 409,
               "value": "\f\n\r\t\u000b~`!@#$%^&*()-+={[}]|\\:;'<,>./? ",
-              "raw": "\"\\f\\n\\r\\t\\v~`!@#$%^&*()-+={[}]|\\\\:;'<,>./? \""
+              "raw": "\"\\f\\n\\r\\t\\v~`!@#$%^&*()-+={[}]|\\\\:;'<,>./? \"",
+              "regex": null,
+              "bigint": null
             },
             "operator": "+",
             "right": {
@@ -35,7 +37,9 @@
               "start": 412,
               "end": 415,
               "value": "\"",
-              "raw": "'\"'"
+              "raw": "'\"'",
+              "regex": null,
+              "bigint": null
             }
           }
         }
@@ -87,7 +91,8 @@
                 "regex": {
                   "pattern": "\\w",
                   "flags": ""
-                }
+                },
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -113,14 +118,18 @@
             "start": 458,
             "end": 462,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 543,
             "value": "/w/.exec(\"\"fnrtv~`!@#$%^&*()-+={[}]|:;'<,>./? \" + '\"'\") must return null",
-            "raw": "'/w/.exec(\"\"fnrtv~`!@#$%^&*()-+={[}]|:;\\'<,>./? \" + \\'\"\\'\") must return null'"
+            "raw": "'/w/.exec(\"\"fnrtv~`!@#$%^&*()-+={[}]|:;\\'<,>./? \" + \\'\"\\'\") must return null'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +155,9 @@
             "start": 560,
             "end": 626,
             "value": "_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            "raw": "\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\""
+            "raw": "\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -176,7 +187,8 @@
             "regex": {
               "pattern": "\\w",
               "flags": "g"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -202,7 +214,9 @@
             "start": 658,
             "end": 659,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -255,7 +269,9 @@
           "start": 693,
           "end": 697,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "regex": null,
+          "bigint": null
         }
       },
       "body": {
@@ -342,7 +358,9 @@
             "start": 746,
             "end": 809,
             "value": "The value of non_W.length is expected to equal the value of k",
-            "raw": "'The value of non_W.length is expected to equal the value of k'"
+            "raw": "'The value of non_W.length is expected to equal the value of k'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -48,6 +48,7 @@
                 "end": 308,
                 "value": null,
                 "raw": "0n",
+                "regex": null,
                 "bigint": "0"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 310,
                 "end": 331,
                 "value": "America/Los_Angeles",
-                "raw": "\"America/Los_Angeles\""
+                "raw": "\"America/Los_Angeles\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -115,7 +118,9 @@
             "start": 368,
             "end": 376,
             "value": "-08:00",
-            "raw": "\"-08:00\""
+            "raw": "\"-08:00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

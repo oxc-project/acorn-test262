@@ -84,7 +84,9 @@
                                   "start": 1163,
                                   "end": 1172,
                                   "value": "test262",
-                                  "raw": "'test262'"
+                                  "raw": "'test262'",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             ]

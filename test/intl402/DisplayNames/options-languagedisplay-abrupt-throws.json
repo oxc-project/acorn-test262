@@ -41,7 +41,9 @@
                   "start": 1081,
                   "end": 1091,
                   "value": "language",
-                  "raw": "'language'"
+                  "raw": "'language'",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -90,7 +92,9 @@
             "start": 1126,
             "end": 1143,
             "value": "languageDisplay",
-            "raw": "'languageDisplay'"
+            "raw": "'languageDisplay'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -233,7 +237,9 @@
                         "start": 1251,
                         "end": 1255,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Identifier",

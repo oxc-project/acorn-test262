@@ -46,7 +46,9 @@
                       "start": 362,
                       "end": 374,
                       "value": "art-lojban",
-                      "raw": "\"art-lojban\""
+                      "raw": "\"art-lojban\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -68,7 +70,9 @@
                       "start": 395,
                       "end": 400,
                       "value": "jbo",
-                      "raw": "\"jbo\""
+                      "raw": "\"jbo\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -97,7 +101,9 @@
                       "start": 428,
                       "end": 438,
                       "value": "zh-guoyu",
-                      "raw": "\"zh-guoyu\""
+                      "raw": "\"zh-guoyu\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -119,7 +125,9 @@
                       "start": 459,
                       "end": 463,
                       "value": "zh",
-                      "raw": "\"zh\""
+                      "raw": "\"zh\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -148,7 +156,9 @@
                       "start": 491,
                       "end": 501,
                       "value": "zh-hakka",
-                      "raw": "\"zh-hakka\""
+                      "raw": "\"zh-hakka\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -170,7 +180,9 @@
                       "start": 522,
                       "end": 527,
                       "value": "hak",
-                      "raw": "\"hak\""
+                      "raw": "\"hak\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -199,7 +211,9 @@
                       "start": 555,
                       "end": 565,
                       "value": "zh-xiang",
-                      "raw": "\"zh-xiang\""
+                      "raw": "\"zh-xiang\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   },
@@ -221,7 +235,9 @@
                       "start": 586,
                       "end": 591,
                       "value": "hsn",
-                      "raw": "\"hsn\""
+                      "raw": "\"hsn\"",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -382,7 +398,9 @@
                     "start": 710,
                     "end": 711,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "regex": null,
+                    "bigint": null
                   },
                   "computed": true,
                   "optional": false

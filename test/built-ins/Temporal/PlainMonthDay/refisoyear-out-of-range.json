@@ -75,28 +75,36 @@
                   "start": 325,
                   "end": 326,
                   "value": 9,
-                  "raw": "9"
+                  "raw": "9",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 328,
                   "end": 330,
                   "value": 14,
-                  "raw": "14"
+                  "raw": "14",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 332,
                   "end": 341,
                   "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "raw": "\"iso8601\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 343,
                   "end": 349,
                   "value": 275760,
-                  "raw": "275760"
+                  "raw": "275760",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -106,7 +114,9 @@
             "start": 352,
             "end": 380,
             "value": "after the maximum ISO date",
-            "raw": "\"after the maximum ISO date\""
+            "raw": "\"after the maximum ISO date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -184,21 +194,27 @@
                   "start": 442,
                   "end": 443,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 445,
                   "end": 447,
                   "value": 18,
-                  "raw": "18"
+                  "raw": "18",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "Literal",
                   "start": 449,
                   "end": 458,
                   "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "raw": "\"iso8601\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 {
                   "type": "UnaryExpression",
@@ -211,7 +227,9 @@
                     "start": 461,
                     "end": 467,
                     "value": 271821,
-                    "raw": "271821"
+                    "raw": "271821",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -222,7 +240,9 @@
             "start": 470,
             "end": 499,
             "value": "before the minimum ISO date",
-            "raw": "\"before the minimum ISO date\""
+            "raw": "\"before the minimum ISO date\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

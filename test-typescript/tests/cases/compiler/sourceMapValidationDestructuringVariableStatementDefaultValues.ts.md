@@ -198,7 +198,9 @@ __ESTREE_TEST__:PASS:
             "start": 122,
             "end": 129,
             "raw": "\"hello\"",
-            "value": "hello"
+            "value": "hello",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -271,7 +273,9 @@ __ESTREE_TEST__:PASS:
                   "start": 159,
                   "end": 166,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -297,7 +301,9 @@ __ESTREE_TEST__:PASS:
                   "start": 175,
                   "end": 183,
                   "raw": "\"mowing\"",
-                  "value": "mowing"
+                  "value": "mowing",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -373,7 +379,9 @@ __ESTREE_TEST__:PASS:
                   "start": 215,
                   "end": 224,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -399,7 +407,9 @@ __ESTREE_TEST__:PASS:
                   "start": 233,
                   "end": 243,
                   "raw": "\"trimming\"",
-                  "value": "trimming"
+                  "value": "trimming",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -464,7 +474,9 @@ __ESTREE_TEST__:PASS:
                     "start": 267,
                     "end": 277,
                     "raw": "\"<NoName>\"",
-                    "value": "<NoName>"
+                    "value": "<NoName>",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }
@@ -541,7 +553,9 @@ __ESTREE_TEST__:PASS:
                     "start": 310,
                     "end": 320,
                     "raw": "\"<NoName>\"",
-                    "value": "<NoName>"
+                    "value": "<NoName>",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }
@@ -584,7 +598,9 @@ __ESTREE_TEST__:PASS:
                     "start": 338,
                     "end": 358,
                     "raw": "\"<skillUnspecified>\"",
-                    "value": "<skillUnspecified>"
+                    "value": "<skillUnspecified>",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }
@@ -661,7 +677,9 @@ __ESTREE_TEST__:PASS:
                     "start": 391,
                     "end": 401,
                     "raw": "\"<NoName>\"",
-                    "value": "<NoName>"
+                    "value": "<NoName>",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }
@@ -704,7 +722,9 @@ __ESTREE_TEST__:PASS:
                     "start": 419,
                     "end": 439,
                     "raw": "\"<skillUnspecified>\"",
-                    "value": "<skillUnspecified>"
+                    "value": "<skillUnspecified>",
+                    "regex": null,
+                    "bigint": null
                   },
                   "typeAnnotation": null
                 }
@@ -740,7 +760,9 @@ __ESTREE_TEST__:PASS:
                   "start": 452,
                   "end": 459,
                   "raw": "\"Edger\"",
-                  "value": "Edger"
+                  "value": "Edger",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               {
@@ -766,7 +788,9 @@ __ESTREE_TEST__:PASS:
                   "start": 468,
                   "end": 483,
                   "raw": "\"cutting edges\"",
-                  "value": "cutting edges"
+                  "value": "cutting edges",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

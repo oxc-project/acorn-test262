@@ -34,7 +34,9 @@
                 "start": 1284,
                 "end": 1285,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -59,7 +61,9 @@
                       "start": 1303,
                       "end": 1304,
                       "value": 5,
-                      "raw": "5"
+                      "raw": "5",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -91,7 +95,9 @@
             "start": 1321,
             "end": 1326,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -176,7 +182,9 @@
             "start": 1672,
             "end": 1682,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -235,7 +243,9 @@
                     "start": 1713,
                     "end": 1714,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -279,7 +289,9 @@
                   "start": 1742,
                   "end": 1746,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             }
@@ -365,7 +377,9 @@
                     "start": 1810,
                     "end": 1851,
                     "value": "The ArrayBuffer under test was detached",
-                    "raw": "'The ArrayBuffer under test was detached'"
+                    "raw": "'The ArrayBuffer under test was detached'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -430,7 +444,9 @@
                 "start": 2314,
                 "end": 2315,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -439,7 +455,9 @@
             "start": 2317,
             "end": 2329,
             "value": "byteLength",
-            "raw": "'byteLength'"
+            "raw": "'byteLength'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -490,7 +508,9 @@
             "start": 2775,
             "end": 2800,
             "value": "normal completion value",
-            "raw": "'normal completion value'"
+            "raw": "'normal completion value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

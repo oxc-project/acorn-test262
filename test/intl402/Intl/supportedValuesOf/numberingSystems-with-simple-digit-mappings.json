@@ -47,7 +47,9 @@
                 "start": 1202,
                 "end": 1219,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

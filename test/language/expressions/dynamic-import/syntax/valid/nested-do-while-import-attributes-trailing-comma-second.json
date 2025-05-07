@@ -25,7 +25,9 @@
                 "start": 1308,
                 "end": 1328,
                 "value": "./empty_FIXTURE.js",
-                "raw": "'./empty_FIXTURE.js'"
+                "raw": "'./empty_FIXTURE.js'",
+                "regex": null,
+                "bigint": null
               },
               "options": {
                 "type": "ObjectExpression",
@@ -42,7 +44,9 @@
         "start": 1345,
         "end": 1350,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "regex": null,
+        "bigint": null
       }
     }
   ],

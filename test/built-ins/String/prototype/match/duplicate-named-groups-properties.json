@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?:(?<x>a)|(?<y>a)(?<x>b))(?:(?<z>c)|(?<z>d))",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -61,7 +62,9 @@
                 "start": 401,
                 "end": 406,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -151,14 +154,18 @@
             "start": 467,
             "end": 470,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 491,
             "value": "group x matches b",
-            "raw": "\"group x matches b\""
+            "raw": "\"group x matches b\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -229,14 +236,18 @@
             "start": 538,
             "end": 541,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 543,
             "end": 562,
             "value": "group y matches a",
-            "raw": "\"group y matches a\""
+            "raw": "\"group y matches a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -307,14 +318,18 @@
             "start": 609,
             "end": 612,
             "value": "c",
-            "raw": "\"c\""
+            "raw": "\"c\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 614,
             "end": 633,
             "value": "group z matches c",
-            "raw": "\"group z matches c\""
+            "raw": "\"group z matches c\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -404,21 +419,27 @@
                 "start": 700,
                 "end": 703,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 705,
                 "end": 708,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 710,
                 "end": 713,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -427,7 +448,9 @@
             "start": 718,
             "end": 823,
             "value": "Properties of groups are ordered in RegExp source order despite y matching before x in this alternative",
-            "raw": "\"Properties of groups are ordered in RegExp source order despite y matching before x in this alternative\""
+            "raw": "\"Properties of groups are ordered in RegExp source order despite y matching before x in this alternative\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -461,7 +484,9 @@
                 "start": 851,
                 "end": 855,
                 "value": "ad",
-                "raw": "\"ad\""
+                "raw": "\"ad\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -551,14 +576,18 @@
             "start": 914,
             "end": 917,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 919,
             "end": 938,
             "value": "group x matches a",
-            "raw": "\"group x matches a\""
+            "raw": "\"group x matches a\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -635,7 +664,9 @@
             "start": 994,
             "end": 1018,
             "value": "group y does not match",
-            "raw": "\"group y does not match\""
+            "raw": "\"group y does not match\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -706,14 +737,18 @@
             "start": 1063,
             "end": 1066,
             "value": "d",
-            "raw": "\"d\""
+            "raw": "\"d\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1068,
             "end": 1087,
             "value": "group z matches d",
-            "raw": "\"group z matches d\""
+            "raw": "\"group z matches d\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -803,21 +838,27 @@
                 "start": 1152,
                 "end": 1155,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1157,
                 "end": 1160,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 1162,
                 "end": 1165,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           },
@@ -826,7 +867,9 @@
             "start": 1170,
             "end": 1249,
             "value": "y is still present on groups object, in the right order, despite not matching",
-            "raw": "\"y is still present on groups object, in the right order, despite not matching\""
+            "raw": "\"y is still present on groups object, in the right order, despite not matching\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -856,7 +899,8 @@
             "regex": {
               "pattern": "(?:(?:(?<x>a)|(?<x>b)|c)\\k<x>){2}",
               "flags": ""
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -890,7 +934,9 @@
                 "start": 1353,
                 "end": 1358,
                 "value": "aac",
-                "raw": "\"aac\""
+                "raw": "\"aac\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -986,7 +1032,9 @@
             "start": 1450,
             "end": 1496,
             "value": "group x does not match in the last iteration",
-            "raw": "\"group x does not match in the last iteration\""
+            "raw": "\"group x does not match in the last iteration\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

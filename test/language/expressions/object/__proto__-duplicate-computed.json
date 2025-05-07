@@ -126,7 +126,9 @@
                 "start": 1015,
                 "end": 1026,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "ObjectExpression",
@@ -148,7 +150,9 @@
                 "start": 1038,
                 "end": 1049,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               },
               "value": {
                 "type": "Identifier",
@@ -234,7 +238,9 @@
             "start": 1129,
             "end": 1151,
             "value": "prototype is defined",
-            "raw": "'prototype is defined'"
+            "raw": "'prototype is defined'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -316,7 +322,9 @@
                 "start": 1210,
                 "end": 1221,
                 "value": "__proto__",
-                "raw": "'__proto__'"
+                "raw": "'__proto__'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -326,7 +334,9 @@
             "start": 1228,
             "end": 1256,
             "value": "has own property __proto__",
-            "raw": "'has own property __proto__'"
+            "raw": "'has own property __proto__'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -390,7 +400,9 @@
             "start": 1315,
             "end": 1335,
             "value": "own property value",
-            "raw": "'own property value'"
+            "raw": "'own property value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

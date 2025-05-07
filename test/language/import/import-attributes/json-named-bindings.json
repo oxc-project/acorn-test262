@@ -49,7 +49,9 @@
         "start": 634,
         "end": 670,
         "value": "./json-named-bindings_FIXTURE.json",
-        "raw": "'./json-named-bindings_FIXTURE.json'"
+        "raw": "'./json-named-bindings_FIXTURE.json'",
+        "regex": null,
+        "bigint": null
       },
       "attributes": [
         {
@@ -67,7 +69,9 @@
             "start": 684,
             "end": 690,
             "value": "json",
-            "raw": "'json'"
+            "raw": "'json'",
+            "regex": null,
+            "bigint": null
           }
         }
       ]

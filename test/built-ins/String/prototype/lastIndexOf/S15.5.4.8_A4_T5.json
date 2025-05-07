@@ -102,7 +102,9 @@
                           "start": 574,
                           "end": 583,
                           "value": "intostr",
-                          "raw": "\"intostr\""
+                          "raw": "\"intostr\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -172,7 +174,9 @@
                           "start": 642,
                           "end": 655,
                           "value": "intointeger",
-                          "raw": "\"intointeger\""
+                          "raw": "\"intointeger\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -298,7 +302,9 @@
                   "start": 766,
                   "end": 767,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]
@@ -394,7 +400,9 @@
                   "start": 940,
                   "end": 1018,
                   "value": "#1: var x = __instance.lastIndexOf(__obj, __obj2) lead to throwing exception",
-                  "raw": "'#1: var x = __instance.lastIndexOf(__obj, __obj2) lead to throwing exception'"
+                  "raw": "'#1: var x = __instance.lastIndexOf(__obj, __obj2) lead to throwing exception'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -436,7 +444,9 @@
                   "start": 1047,
                   "end": 1056,
                   "value": "intostr",
-                  "raw": "\"intostr\""
+                  "raw": "\"intostr\"",
+                  "regex": null,
+                  "bigint": null
                 }
               },
               "consequent": {
@@ -468,7 +478,9 @@
                             "start": 1087,
                             "end": 1128,
                             "value": "#1.1: Exception === \"intostr\". Actual: ",
-                            "raw": "'#1.1: Exception === \"intostr\". Actual: '"
+                            "raw": "'#1.1: Exception === \"intostr\". Actual: '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -687,7 +699,9 @@
                           "start": 1387,
                           "end": 1389,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     }

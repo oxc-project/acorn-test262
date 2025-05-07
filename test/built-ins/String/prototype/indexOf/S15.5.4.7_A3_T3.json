@@ -24,7 +24,9 @@
               "start": 485,
               "end": 497,
               "value": "$$abcdabcd",
-              "raw": "\"$$abcdabcd\""
+              "raw": "\"$$abcdabcd\"",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -41,7 +43,9 @@
               "start": 506,
               "end": 510,
               "value": "ab",
-              "raw": "\"ab\""
+              "raw": "\"ab\"",
+              "regex": null,
+              "bigint": null
             },
             {
               "type": "CallExpression",
@@ -94,7 +98,9 @@
           "start": 558,
           "end": 559,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -126,7 +132,9 @@
                     "start": 588,
                     "end": 667,
                     "value": "#1: \"$$abcdabcd\".indexOf(\"ab\", function(){return -Infinity;}())===2. Actual: ",
-                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\", function(){return -Infinity;}())===2. Actual: '"
+                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\", function(){return -Infinity;}())===2. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -146,7 +154,9 @@
                           "start": 671,
                           "end": 683,
                           "value": "$$abcdabcd",
-                          "raw": "\"$$abcdabcd\""
+                          "raw": "\"$$abcdabcd\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         "property": {
                           "type": "Identifier",
@@ -163,7 +173,9 @@
                           "start": 692,
                           "end": 696,
                           "value": "ab",
-                          "raw": "\"ab\""
+                          "raw": "\"ab\"",
+                          "regex": null,
+                          "bigint": null
                         },
                         {
                           "type": "CallExpression",

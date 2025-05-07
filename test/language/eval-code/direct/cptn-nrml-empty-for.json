@@ -27,7 +27,9 @@
               "start": 327,
               "end": 352,
               "value": "for(false;false;false);",
-              "raw": "\"for(false;false;false);\""
+              "raw": "\"for(false;false;false);\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -69,7 +71,9 @@
                     "start": 396,
                     "end": 457,
                     "value": "#1: eval(\"for(false;false;false);\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"for(false;false;false);\") === undefined. Actual: '"
+                    "raw": "'#1: eval(\"for(false;false;false);\") === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -92,7 +96,9 @@
                           "start": 466,
                           "end": 491,
                           "value": "for(false;false;false);",
-                          "raw": "\"for(false;false;false);\""
+                          "raw": "\"for(false;false;false);\"",
+                          "regex": null,
+                          "bigint": null
                         }
                       ],
                       "optional": false

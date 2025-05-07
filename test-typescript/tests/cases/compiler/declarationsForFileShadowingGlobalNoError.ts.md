@@ -111,7 +111,9 @@ __ESTREE_TEST__:PASS:
         "start": 21,
         "end": 31,
         "raw": "'./custom'",
-        "value": "./custom"
+        "value": "./custom",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -151,7 +153,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 63,
         "raw": "'./dom'",
-        "value": "./dom"
+        "value": "./dom",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

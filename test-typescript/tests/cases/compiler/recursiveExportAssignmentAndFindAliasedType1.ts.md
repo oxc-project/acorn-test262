@@ -38,7 +38,9 @@ __ESTREE_TEST__:PASS:
                 "start": 53,
                 "end": 62,
                 "raw": "\"moduleC\"",
-                "value": "moduleC"
+                "value": "moduleC",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -65,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"moduleC\"",
-        "value": "moduleC"
+        "value": "moduleC",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -156,7 +160,9 @@ __ESTREE_TEST__:PASS:
           "start": 109,
           "end": 118,
           "raw": "\"moduleC\"",
-          "value": "moduleC"
+          "value": "moduleC",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -183,7 +189,9 @@ __ESTREE_TEST__:PASS:
           "start": 145,
           "end": 199,
           "raw": "\"recursiveExportAssignmentAndFindAliasedType1_moduleB\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType1_moduleB"
+          "value": "recursiveExportAssignmentAndFindAliasedType1_moduleB",
+          "regex": null,
+          "bigint": null
         }
       }
     },

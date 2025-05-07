@@ -92,7 +92,9 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 34,
         "raw": "'defs/cc'",
-        "value": "defs/cc"
+        "value": "defs/cc",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

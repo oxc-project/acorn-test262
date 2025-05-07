@@ -44,7 +44,9 @@
                 "start": 286,
                 "end": 300,
                 "value": "  ",
-                "raw": "\"\\u2029\\u2029\""
+                "raw": "\"\\u2029\\u2029\"",
+                "regex": null,
+                "bigint": null
               },
               "property": {
                 "type": "Identifier",
@@ -63,14 +65,18 @@
             "start": 309,
             "end": 311,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 336,
             "value": "\"  \".trim()",
-            "raw": "'\"\\u2029\\u2029\".trim()'"
+            "raw": "'\"\\u2029\\u2029\".trim()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

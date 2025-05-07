@@ -75,7 +75,9 @@
             "start": 537,
             "end": 547,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -181,7 +183,9 @@
             "start": 626,
             "end": 669,
             "value": "`this` value is the ArrayBuffer prototype",
-            "raw": "'`this` value is the ArrayBuffer prototype'"
+            "raw": "'`this` value is the ArrayBuffer prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -307,7 +311,9 @@
             "start": 755,
             "end": 782,
             "value": "`this` value is an object",
-            "raw": "'`this` value is an object'"
+            "raw": "'`this` value is an object'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -433,7 +439,9 @@
             "start": 868,
             "end": 894,
             "value": "`this` value is an array",
-            "raw": "'`this` value is an array'"
+            "raw": "'`this` value is an array'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

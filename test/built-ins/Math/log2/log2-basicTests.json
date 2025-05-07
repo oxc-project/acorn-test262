@@ -66,7 +66,9 @@
                   "start": 231,
                   "end": 232,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -96,7 +98,9 @@
             "start": 263,
             "end": 307,
             "value": "Math.log2 produces incorrect output for -0",
-            "raw": "\"Math.log2 produces incorrect output for -0\""
+            "raw": "\"Math.log2 produces incorrect output for -0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -165,7 +169,9 @@
                   "start": 338,
                   "end": 339,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -195,7 +201,9 @@
             "start": 370,
             "end": 414,
             "value": "Math.log2 produces incorrect output for +0",
-            "raw": "\"Math.log2 produces incorrect output for +0\""
+            "raw": "\"Math.log2 produces incorrect output for +0\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,7 +272,9 @@
                   "start": 445,
                   "end": 448,
                   "value": 0.9,
-                  "raw": "0.9"
+                  "raw": "0.9",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -281,7 +291,9 @@
             "start": 458,
             "end": 504,
             "value": "Math.log2 produces incorrect output for -0.9",
-            "raw": "\"Math.log2 produces incorrect output for -0.9\""
+            "raw": "\"Math.log2 produces incorrect output for -0.9\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -359,7 +371,9 @@
             "start": 547,
             "end": 592,
             "value": "Math.log2 produces incorrect output for NaN",
-            "raw": "\"Math.log2 produces incorrect output for NaN\""
+            "raw": "\"Math.log2 produces incorrect output for NaN\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -428,7 +442,9 @@
                   "start": 623,
                   "end": 625,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -445,7 +461,9 @@
             "start": 635,
             "end": 680,
             "value": "Math.log2 produces incorrect output for -10",
-            "raw": "\"Math.log2 produces incorrect output for -10\""
+            "raw": "\"Math.log2 produces incorrect output for -10\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -530,7 +548,9 @@
             "start": 729,
             "end": 780,
             "value": "Math.log2 produces incorrect output for -Infinity",
-            "raw": "\"Math.log2 produces incorrect output for -Infinity\""
+            "raw": "\"Math.log2 produces incorrect output for -Infinity\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -593,7 +613,9 @@
                 "start": 810,
                 "end": 814,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -622,7 +644,9 @@
             "start": 845,
             "end": 891,
             "value": "Math.log2 produces incorrect output for null",
-            "raw": "\"Math.log2 produces incorrect output for null\""
+            "raw": "\"Math.log2 produces incorrect output for null\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -700,7 +724,9 @@
             "start": 940,
             "end": 991,
             "value": "Math.log2 produces incorrect output for undefined",
-            "raw": "\"Math.log2 produces incorrect output for undefined\""
+            "raw": "\"Math.log2 produces incorrect output for undefined\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -804,7 +830,9 @@
             "start": 1076,
             "end": 1142,
             "value": "Math.log2 produces incorrect output for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.log2 produces incorrect output for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.log2 produces incorrect output for Number.POSITIVE_INFINITY\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -867,7 +895,9 @@
                 "start": 1172,
                 "end": 1173,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -877,14 +907,18 @@
             "start": 1176,
             "end": 1177,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1181,
             "end": 1224,
             "value": "Math.log2 produces incorrect output for 1",
-            "raw": "\"Math.log2 produces incorrect output for 1\""
+            "raw": "\"Math.log2 produces incorrect output for 1\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -947,7 +981,9 @@
                 "start": 1254,
                 "end": 1258,
                 "value": 2,
-                "raw": "2.00"
+                "raw": "2.00",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -957,14 +993,18 @@
             "start": 1261,
             "end": 1262,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1266,
             "end": 1312,
             "value": "Math.log2 produces incorrect output for 2.00",
-            "raw": "\"Math.log2 produces incorrect output for 2.00\""
+            "raw": "\"Math.log2 produces incorrect output for 2.00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1027,7 +1067,9 @@
                 "start": 1342,
                 "end": 1346,
                 "value": 4,
-                "raw": "4.00"
+                "raw": "4.00",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1037,14 +1079,18 @@
             "start": 1349,
             "end": 1350,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1354,
             "end": 1400,
             "value": "Math.log2 produces incorrect output for 4.00",
-            "raw": "\"Math.log2 produces incorrect output for 4.00\""
+            "raw": "\"Math.log2 produces incorrect output for 4.00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1107,7 +1153,9 @@
                 "start": 1430,
                 "end": 1434,
                 "value": 8,
-                "raw": "8.00"
+                "raw": "8.00",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -1117,14 +1165,18 @@
             "start": 1437,
             "end": 1438,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1442,
             "end": 1488,
             "value": "Math.log2 produces incorrect output for 8.00",
-            "raw": "\"Math.log2 produces incorrect output for 8.00\""
+            "raw": "\"Math.log2 produces incorrect output for 8.00\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,84 +28,108 @@
                 "start": 474,
                 "end": 478,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 482,
                 "end": 483,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 487,
                 "end": 489,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 493,
                 "end": 499,
                 "value": "Long",
-                "raw": "\"Long\""
+                "raw": "\"Long\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 509,
                 "value": "LONG",
-                "raw": "\"LONG\""
+                "raw": "\"LONG\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 513,
                 "end": 521,
                 "value": "long\u0000",
-                "raw": "\"long\\0\""
+                "raw": "\"long\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 525,
                 "end": 532,
                 "value": "Short",
-                "raw": "\"Short\""
+                "raw": "\"Short\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 543,
                 "value": "SHORT",
-                "raw": "\"SHORT\""
+                "raw": "\"SHORT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 547,
                 "end": 556,
                 "value": "short\u0000",
-                "raw": "\"short\\0\""
+                "raw": "\"short\\0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 560,
                 "end": 568,
                 "value": "Narrow",
-                "raw": "\"Narrow\""
+                "raw": "\"Narrow\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 572,
                 "end": 580,
                 "value": "NARROW",
-                "raw": "\"NARROW\""
+                "raw": "\"NARROW\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 594,
                 "value": "narrow\u0000",
-                "raw": "\"narrow\\0\""
+                "raw": "\"narrow\\0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -248,7 +272,9 @@
                                     "start": 716,
                                     "end": 723,
                                     "value": "style",
-                                    "raw": "\"style\""
+                                    "raw": "\"style\"",
+                                    "regex": null,
+                                    "bigint": null
                                   },
                                   "value": {
                                     "type": "Identifier",

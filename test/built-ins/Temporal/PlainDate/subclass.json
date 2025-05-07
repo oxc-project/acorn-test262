@@ -70,21 +70,27 @@
                 "start": 367,
                 "end": 371,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 374,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 377,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -131,28 +137,36 @@
             "start": 422,
             "end": 426,
             "value": 2000,
-            "raw": "2000"
+            "raw": "2000",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 429,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 436,
             "value": "M05",
-            "raw": "\"M05\""
+            "raw": "\"M05\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 439,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -243,7 +257,9 @@
             "start": 519,
             "end": 548,
             "value": "Instance of CustomPlainDate",
-            "raw": "\"Instance of CustomPlainDate\""
+            "raw": "\"Instance of CustomPlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -287,7 +303,9 @@
             "start": 595,
             "end": 624,
             "value": "Instance of CustomPlainDate",
-            "raw": "\"Instance of CustomPlainDate\""
+            "raw": "\"Instance of CustomPlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -344,7 +362,9 @@
             "start": 674,
             "end": 706,
             "value": "Instance of Temporal.PlainDate",
-            "raw": "\"Instance of Temporal.PlainDate\""
+            "raw": "\"Instance of Temporal.PlainDate\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

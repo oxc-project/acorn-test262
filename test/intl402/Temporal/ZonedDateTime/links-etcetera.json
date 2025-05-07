@@ -28,49 +28,63 @@
                 "start": 313,
                 "end": 318,
                 "value": "GMT",
-                "raw": "\"GMT\""
+                "raw": "\"GMT\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 385,
                 "value": "Etc/Universal",
-                "raw": "\"Etc/Universal\""
+                "raw": "\"Etc/Universal\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 447,
                 "end": 457,
                 "value": "Etc/Zulu",
-                "raw": "\"Etc/Zulu\""
+                "raw": "\"Etc/Zulu\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 514,
                 "end": 529,
                 "value": "Etc/Greenwich",
-                "raw": "\"Etc/Greenwich\""
+                "raw": "\"Etc/Greenwich\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 591,
                 "end": 602,
                 "value": "Etc/GMT-0",
-                "raw": "\"Etc/GMT-0\""
+                "raw": "\"Etc/GMT-0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 660,
                 "end": 671,
                 "value": "Etc/GMT+0",
-                "raw": "\"Etc/GMT+0\""
+                "raw": "\"Etc/GMT+0\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 729,
                 "end": 739,
                 "value": "Etc/GMT0",
-                "raw": "\"Etc/GMT0\""
+                "raw": "\"Etc/GMT0\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -159,6 +173,7 @@
                       "end": 874,
                       "value": null,
                       "raw": "0n",
+                      "regex": null,
                       "bigint": "0"
                     },
                     {

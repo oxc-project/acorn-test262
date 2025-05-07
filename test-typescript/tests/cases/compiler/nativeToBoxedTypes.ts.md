@@ -69,7 +69,9 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 33,
             "raw": "100",
-            "value": 100
+            "value": 100,
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -170,7 +172,9 @@ __ESTREE_TEST__:PASS:
             "start": 73,
             "end": 79,
             "raw": "\"foge\"",
-            "value": "foge"
+            "value": "foge",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -271,7 +275,9 @@ __ESTREE_TEST__:PASS:
             "start": 120,
             "end": 124,
             "raw": "true",
-            "value": true
+            "value": true,
+            "regex": null,
+            "bigint": null
           }
         }
       ],

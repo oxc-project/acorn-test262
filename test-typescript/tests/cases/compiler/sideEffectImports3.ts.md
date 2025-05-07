@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 23,
         "raw": "\"./not-a-module\"",
-        "value": "./not-a-module"
+        "value": "./not-a-module",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     }
@@ -47,7 +49,9 @@ __ESTREE_TEST__:PASS:
             "start": 12,
             "end": 27,
             "raw": "\"Hello, world!\"",
-            "value": "Hello, world!"
+            "value": "Hello, world!",
+            "regex": null,
+            "bigint": null
           }
         ],
         "callee": {

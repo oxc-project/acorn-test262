@@ -123,7 +123,9 @@
           "start": 321,
           "end": 331,
           "value": 4294967296,
-          "raw": "4294967296"
+          "raw": "4294967296",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -171,21 +173,27 @@
                 "start": 354,
                 "end": 357,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 362,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 367,
                 "value": "z",
-                "raw": "\"z\""
+                "raw": "\"z\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -214,7 +222,9 @@
           "start": 383,
           "end": 393,
           "value": 4294967299,
-          "raw": "4294967299"
+          "raw": "4294967299",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -246,7 +256,9 @@
                     "start": 422,
                     "end": 548,
                     "value": "#1: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\") === 4294967299. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\") === 4294967299. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\") === 4294967299. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -301,7 +313,9 @@
           "start": 582,
           "end": 592,
           "value": 4294967299,
-          "raw": "4294967299"
+          "raw": "4294967299",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -333,7 +347,9 @@
                     "start": 621,
                     "end": 759,
                     "value": "#2: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj.length === 4294967299. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj.length === 4294967299. Actual: '"
+                    "raw": "'#2: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj.length === 4294967299. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -391,7 +407,9 @@
             "start": 788,
             "end": 789,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -433,7 +451,9 @@
                     "start": 833,
                     "end": 966,
                     "value": "#3: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[0] === undefined. Actual: ",
-                    "raw": "'#3: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[0] === undefined. Actual: '"
+                    "raw": "'#3: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[0] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -455,7 +475,9 @@
                         "start": 974,
                         "end": 975,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -492,7 +514,9 @@
             "start": 991,
             "end": 992,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -534,7 +558,9 @@
                     "start": 1036,
                     "end": 1169,
                     "value": "#4: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[1] === undefined. Actual: ",
-                    "raw": "'#4: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[1] === undefined. Actual: '"
+                    "raw": "'#4: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[1] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -556,7 +582,9 @@
                         "start": 1177,
                         "end": 1178,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -593,7 +621,9 @@
             "start": 1194,
             "end": 1195,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -635,7 +665,9 @@
                     "start": 1239,
                     "end": 1372,
                     "value": "#5: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[2] === undefined. Actual: ",
-                    "raw": "'#5: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[2] === undefined. Actual: '"
+                    "raw": "'#5: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[2] === undefined. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -657,7 +689,9 @@
                         "start": 1380,
                         "end": 1381,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -694,7 +728,9 @@
             "start": 1397,
             "end": 1407,
             "value": 4294967296,
-            "raw": "4294967296"
+            "raw": "4294967296",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -705,7 +741,9 @@
           "start": 1413,
           "end": 1416,
           "value": "x",
-          "raw": "\"x\""
+          "raw": "\"x\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -737,7 +775,9 @@
                     "start": 1445,
                     "end": 1581,
                     "value": "#6: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967296] === \"x\". Actual: ",
-                    "raw": "'#6: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967296] === \"x\". Actual: '"
+                    "raw": "'#6: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967296] === \"x\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -759,7 +799,9 @@
                         "start": 1589,
                         "end": 1599,
                         "value": 4294967296,
-                        "raw": "4294967296"
+                        "raw": "4294967296",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -796,7 +838,9 @@
             "start": 1615,
             "end": 1625,
             "value": 4294967297,
-            "raw": "4294967297"
+            "raw": "4294967297",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -807,7 +851,9 @@
           "start": 1631,
           "end": 1634,
           "value": "y",
-          "raw": "\"y\""
+          "raw": "\"y\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -839,7 +885,9 @@
                     "start": 1663,
                     "end": 1799,
                     "value": "#7: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967297] === \"y\". Actual: ",
-                    "raw": "'#7: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967297] === \"y\". Actual: '"
+                    "raw": "'#7: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967297] === \"y\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -861,7 +909,9 @@
                         "start": 1807,
                         "end": 1817,
                         "value": 4294967297,
-                        "raw": "4294967297"
+                        "raw": "4294967297",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -898,7 +948,9 @@
             "start": 1833,
             "end": 1843,
             "value": 4294967298,
-            "raw": "4294967298"
+            "raw": "4294967298",
+            "regex": null,
+            "bigint": null
           },
           "computed": true,
           "optional": false
@@ -909,7 +961,9 @@
           "start": 1849,
           "end": 1852,
           "value": "z",
-          "raw": "\"z\""
+          "raw": "\"z\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -941,7 +995,9 @@
                     "start": 1881,
                     "end": 2017,
                     "value": "#8: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967298] === \"z\". Actual: ",
-                    "raw": "'#8: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967298] === \"z\". Actual: '"
+                    "raw": "'#8: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(\"x\", \"y\", \"z\"); obj[4294967298] === \"z\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -963,7 +1019,9 @@
                         "start": 2025,
                         "end": 2035,
                         "value": 4294967298,
-                        "raw": "4294967298"
+                        "raw": "4294967298",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -1097,7 +1155,9 @@
           "start": 2103,
           "end": 2113,
           "value": 4294967296,
-          "raw": "4294967296"
+          "raw": "4294967296",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -1166,7 +1226,9 @@
           "start": 2152,
           "end": 2162,
           "value": 4294967296,
-          "raw": "4294967296"
+          "raw": "4294967296",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1198,7 +1260,9 @@
                     "start": 2191,
                     "end": 2304,
                     "value": "#9: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push() === 4294967296. Actual: ",
-                    "raw": "'#9: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push() === 4294967296. Actual: '"
+                    "raw": "'#9: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push() === 4294967296. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -1253,7 +1317,9 @@
           "start": 2338,
           "end": 2348,
           "value": 4294967296,
-          "raw": "4294967296"
+          "raw": "4294967296",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -1285,7 +1351,9 @@
                     "start": 2377,
                     "end": 2503,
                     "value": "#10: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(); obj.length === 4294967296. Actual: ",
-                    "raw": "'#10: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(); obj.length === 4294967296. Actual: '"
+                    "raw": "'#10: var obj = {}; obj.push = Array.prototype.push; obj.length = 4294967296; obj.push(); obj.length === 4294967296. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

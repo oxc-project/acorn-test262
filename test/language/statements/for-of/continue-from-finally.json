@@ -36,7 +36,9 @@
                 "start": 367,
                 "end": 368,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -54,7 +56,9 @@
                 "start": 378,
                 "end": 379,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -113,7 +117,9 @@
             "start": 416,
             "end": 417,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -249,7 +255,9 @@
                         "start": 560,
                         "end": 620,
                         "value": "This code is unreachable (following `continue` statement).",
-                        "raw": "'This code is unreachable (following `continue` statement).'"
+                        "raw": "'This code is unreachable (following `continue` statement).'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -277,7 +285,9 @@
                   "start": 653,
                   "end": 708,
                   "value": "This code is unreachable (following `try` statement).",
-                  "raw": "'This code is unreachable (following `try` statement).'"
+                  "raw": "'This code is unreachable (following `try` statement).'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -324,7 +334,9 @@
             "start": 734,
             "end": 735,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

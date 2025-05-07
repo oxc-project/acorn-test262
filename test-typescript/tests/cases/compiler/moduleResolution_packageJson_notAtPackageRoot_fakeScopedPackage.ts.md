@@ -71,7 +71,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 28,
         "raw": "\"foo/@bar\"",
-        "value": "foo/@bar"
+        "value": "foo/@bar",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

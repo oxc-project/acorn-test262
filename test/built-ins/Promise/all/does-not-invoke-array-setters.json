@@ -55,7 +55,9 @@
             "start": 882,
             "end": 883,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -109,7 +111,9 @@
                               "start": 934,
                               "end": 968,
                               "value": "Setter on Array.prototype called",
-                              "raw": "\"Setter on Array.prototype called\""
+                              "raw": "\"Setter on Array.prototype called\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -171,7 +175,9 @@
                     "start": 993,
                     "end": 995,
                     "value": 42,
-                    "raw": "42"
+                    "raw": "42",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }

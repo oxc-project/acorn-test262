@@ -76,6 +76,7 @@
                                 "end": 715,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 720,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               }
                             ]
@@ -195,7 +197,9 @@
                             "start": 816,
                             "end": 821,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -220,7 +224,9 @@
                                   "start": 830,
                                   "end": 832,
                                   "value": 42,
-                                  "raw": "42"
+                                  "raw": "42",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -234,14 +240,18 @@
                         "start": 840,
                         "end": 845,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 851,
                         "end": 910,
                         "value": "return false on a non-extensible object - data descriptor",
-                        "raw": "\"return false on a non-extensible object - data descriptor\""
+                        "raw": "\"return false on a non-extensible object - data descriptor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -310,7 +320,9 @@
                             "start": 976,
                             "end": 981,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -388,7 +400,9 @@
                             "start": 1052,
                             "end": 1057,
                             "value": "bar",
-                            "raw": "\"bar\""
+                            "raw": "\"bar\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "ObjectExpression",
@@ -475,7 +489,9 @@
                                   "start": 1131,
                                   "end": 1136,
                                   "value": false,
-                                  "raw": "false"
+                                  "raw": "false",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               },
@@ -497,7 +513,9 @@
                                   "start": 1158,
                                   "end": 1162,
                                   "value": true,
-                                  "raw": "true"
+                                  "raw": "true",
+                                  "regex": null,
+                                  "bigint": null
                                 },
                                 "kind": "init"
                               }
@@ -511,14 +529,18 @@
                         "start": 1175,
                         "end": 1180,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 1186,
                         "end": 1249,
                         "value": "return false on a non-extensible object - accessor descriptor",
-                        "raw": "\"return false on a non-extensible object - accessor descriptor\""
+                        "raw": "\"return false on a non-extensible object - accessor descriptor\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -587,7 +609,9 @@
                             "start": 1315,
                             "end": 1320,
                             "value": "bar",
-                            "raw": "\"bar\""
+                            "raw": "\"bar\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

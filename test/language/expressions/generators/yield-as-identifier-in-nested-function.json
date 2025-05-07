@@ -91,7 +91,9 @@
                             "start": 400,
                             "end": 401,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -264,7 +266,9 @@
             "start": 505,
             "end": 509,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

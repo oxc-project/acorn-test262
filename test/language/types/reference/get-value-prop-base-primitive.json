@@ -49,7 +49,9 @@
           "start": 639,
           "end": 657,
           "value": "number prototype",
-          "raw": "'number prototype'"
+          "raw": "'number prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -90,7 +92,9 @@
               "start": 676,
               "end": 678,
               "value": 1,
-              "raw": "1."
+              "raw": "1.",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -106,7 +110,9 @@
             "start": 688,
             "end": 706,
             "value": "number prototype",
-            "raw": "'number prototype'"
+            "raw": "'number prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -158,7 +164,9 @@
           "start": 737,
           "end": 755,
           "value": "string prototype",
-          "raw": "'string prototype'"
+          "raw": "'string prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -199,7 +207,9 @@
               "start": 774,
               "end": 776,
               "value": "",
-              "raw": "''"
+              "raw": "''",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -215,7 +225,9 @@
             "start": 786,
             "end": 804,
             "value": "string prototype",
-            "raw": "'string prototype'"
+            "raw": "'string prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -267,7 +279,9 @@
           "start": 836,
           "end": 855,
           "value": "Boolean prototype",
-          "raw": "'Boolean prototype'"
+          "raw": "'Boolean prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -308,7 +322,9 @@
               "start": 874,
               "end": 878,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "regex": null,
+              "bigint": null
             },
             "property": {
               "type": "Identifier",
@@ -324,7 +340,9 @@
             "start": 888,
             "end": 907,
             "value": "Boolean prototype",
-            "raw": "'Boolean prototype'"
+            "raw": "'Boolean prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -376,7 +394,9 @@
           "start": 938,
           "end": 956,
           "value": "Symbol prototype",
-          "raw": "'Symbol prototype'"
+          "raw": "'Symbol prototype'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -439,7 +459,9 @@
             "start": 993,
             "end": 1011,
             "value": "Symbol prototype",
-            "raw": "'Symbol prototype'"
+            "raw": "'Symbol prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

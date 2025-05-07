@@ -23,7 +23,9 @@
             "start": 755,
             "end": 764,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -125,7 +127,9 @@
                       "start": 843,
                       "end": 847,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -325,7 +329,9 @@
                                     "start": 1009,
                                     "end": 1013,
                                     "value": null,
-                                    "raw": "null"
+                                    "raw": "null",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               }
@@ -437,7 +443,9 @@
                                 "start": 1098,
                                 "end": 1102,
                                 "value": null,
-                                "raw": "null"
+                                "raw": "null",
+                                "regex": null,
+                                "bigint": null
                               }
                             }
                           }
@@ -517,7 +525,9 @@
             "start": 1152,
             "end": 1161,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -587,7 +597,9 @@
             "start": 1209,
             "end": 1213,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -645,7 +657,9 @@
             "start": 1255,
             "end": 1294,
             "value": "inner binding value (from parameters)",
-            "raw": "'inner binding value (from parameters)'"
+            "raw": "'inner binding value (from parameters)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -696,7 +710,9 @@
             "start": 1336,
             "end": 1390,
             "value": "inner binding rejects modification (from parameters)",
-            "raw": "'inner binding rejects modification (from parameters)'"
+            "raw": "'inner binding rejects modification (from parameters)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -754,7 +770,9 @@
             "start": 1435,
             "end": 1481,
             "value": "inner binding is immutable (from parameters)",
-            "raw": "'inner binding is immutable (from parameters)'"
+            "raw": "'inner binding is immutable (from parameters)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -812,7 +830,9 @@
             "start": 1522,
             "end": 1555,
             "value": "inner binding value (from body)",
-            "raw": "'inner binding value (from body)'"
+            "raw": "'inner binding value (from body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -863,7 +883,9 @@
             "start": 1595,
             "end": 1643,
             "value": "inner binding rejects modification (from body)",
-            "raw": "'inner binding rejects modification (from body)'"
+            "raw": "'inner binding rejects modification (from body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -921,7 +943,9 @@
             "start": 1683,
             "end": 1723,
             "value": "inner binding is immutable (from body)",
-            "raw": "'inner binding is immutable (from body)'"
+            "raw": "'inner binding is immutable (from body)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

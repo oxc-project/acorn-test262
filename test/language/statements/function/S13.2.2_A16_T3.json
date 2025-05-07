@@ -30,7 +30,9 @@
           "start": 467,
           "end": 478,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -58,7 +60,9 @@
                   "start": 506,
                   "end": 541,
                   "value": "#1: typeof __func === \"undefined\"",
-                  "raw": "'#1: typeof __func === \"undefined\"'"
+                  "raw": "'#1: typeof __func === \"undefined\"'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -196,7 +200,9 @@
                 "start": 703,
                 "end": 704,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -268,7 +274,9 @@
                     "start": 853,
                     "end": 907,
                     "value": "#2: __obj.prop === undefined. Actual: __obj.prop ===",
-                    "raw": "'#2: __obj.prop === undefined. Actual: __obj.prop ==='"
+                    "raw": "'#2: __obj.prop === undefined. Actual: __obj.prop ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -331,7 +339,9 @@
           "start": 1114,
           "end": 1115,
           "value": 6,
-          "raw": "6"
+          "raw": "6",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -363,7 +373,9 @@
                     "start": 1143,
                     "end": 1189,
                     "value": "#3: __obj.feat === 6. Actual: __obj.feat ===",
-                    "raw": "'#3: __obj.feat === 6. Actual: __obj.feat ==='"
+                    "raw": "'#3: __obj.feat === 6. Actual: __obj.feat ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -420,7 +432,9 @@
           "start": 1399,
           "end": 1410,
           "value": "undefined",
-          "raw": "\"undefined\""
+          "raw": "\"undefined\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -452,7 +466,9 @@
                     "start": 1438,
                     "end": 1500,
                     "value": "#4: typeof __func === \"undefined\". Actual: typeof __func ===",
-                    "raw": "'#4: typeof __func === \"undefined\". Actual: typeof __func ==='"
+                    "raw": "'#4: typeof __func === \"undefined\". Actual: typeof __func ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

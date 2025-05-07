@@ -61,14 +61,18 @@
                             "start": 483,
                             "end": 491,
                             "value": "lookup",
-                            "raw": "\"lookup\""
+                            "raw": "\"lookup\"",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 493,
                             "end": 503,
                             "value": "best fit",
-                            "raw": "\"best fit\""
+                            "raw": "\"best fit\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       },
@@ -361,7 +365,9 @@
                                                 "start": 800,
                                                 "end": 823,
                                                 "value": "-u-co-phonebk-nu-latn",
-                                                "raw": "\"-u-co-phonebk-nu-latn\""
+                                                "raw": "\"-u-co-phonebk-nu-latn\"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           ],
@@ -387,7 +393,9 @@
                                                 "start": 860,
                                                 "end": 875,
                                                 "value": "-u-nu-invalid",
-                                                "raw": "\"-u-nu-invalid\""
+                                                "raw": "\"-u-nu-invalid\"",
+                                                "regex": null,
+                                                "bigint": null
                                               }
                                             }
                                           ],
@@ -645,7 +653,9 @@
                                               "start": 1179,
                                               "end": 1180,
                                               "value": 1,
-                                              "raw": "1"
+                                              "raw": "1",
+                                              "regex": null,
+                                              "bigint": null
                                             }
                                           },
                                           "consequent": {
@@ -705,7 +715,9 @@
                                                       "start": 1236,
                                                       "end": 1237,
                                                       "value": 1,
-                                                      "raw": "1"
+                                                      "raw": "1",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -728,7 +740,9 @@
                                                               "start": 1239,
                                                               "end": 1316,
                                                               "value": "#1.1: Presence of Unicode locale extension sequence affects whether locale ",
-                                                              "raw": "\"#1.1: Presence of Unicode locale extension sequence affects whether locale \""
+                                                              "raw": "\"#1.1: Presence of Unicode locale extension sequence affects whether locale \"",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -744,7 +758,9 @@
                                                             "start": 1328,
                                                             "end": 1368,
                                                             "value": " is considered supported with matcher ",
-                                                            "raw": "\" is considered supported with matcher \""
+                                                            "raw": "\" is considered supported with matcher \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         },
                                                         "operator": "+",
@@ -761,7 +777,9 @@
                                                         "start": 1381,
                                                         "end": 1384,
                                                         "value": ".",
-                                                        "raw": "\".\""
+                                                        "raw": "\".\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ],
@@ -820,7 +838,9 @@
                                                       "start": 1439,
                                                       "end": 1440,
                                                       "value": 1,
-                                                      "raw": "1"
+                                                      "raw": "1",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -843,7 +863,9 @@
                                                               "start": 1442,
                                                               "end": 1519,
                                                               "value": "#1.2: Presence of Unicode locale extension sequence affects whether locale ",
-                                                              "raw": "\"#1.2: Presence of Unicode locale extension sequence affects whether locale \""
+                                                              "raw": "\"#1.2: Presence of Unicode locale extension sequence affects whether locale \"",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -859,7 +881,9 @@
                                                             "start": 1531,
                                                             "end": 1571,
                                                             "value": " is considered supported with matcher ",
-                                                            "raw": "\" is considered supported with matcher \""
+                                                            "raw": "\" is considered supported with matcher \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         },
                                                         "operator": "+",
@@ -876,7 +900,9 @@
                                                         "start": 1584,
                                                         "end": 1587,
                                                         "value": ".",
-                                                        "raw": "\".\""
+                                                        "raw": "\".\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ],
@@ -926,7 +952,9 @@
                                                         "start": 1634,
                                                         "end": 1635,
                                                         "value": 0,
-                                                        "raw": "0"
+                                                        "raw": "0",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       },
                                                       "computed": true,
                                                       "optional": false
@@ -970,7 +998,9 @@
                                                               "start": 1663,
                                                               "end": 1742,
                                                               "value": "#2.1: Unicode locale extension sequence is not correctly returned for locale ",
-                                                              "raw": "\"#2.1: Unicode locale extension sequence is not correctly returned for locale \""
+                                                              "raw": "\"#2.1: Unicode locale extension sequence is not correctly returned for locale \"",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -986,7 +1016,9 @@
                                                             "start": 1754,
                                                             "end": 1770,
                                                             "value": " with matcher ",
-                                                            "raw": "\" with matcher \""
+                                                            "raw": "\" with matcher \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1003,7 +1035,9 @@
                                                         "start": 1783,
                                                         "end": 1786,
                                                         "value": ".",
-                                                        "raw": "\".\""
+                                                        "raw": "\".\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ],
@@ -1053,7 +1087,9 @@
                                                         "start": 1833,
                                                         "end": 1834,
                                                         "value": 0,
-                                                        "raw": "0"
+                                                        "raw": "0",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       },
                                                       "computed": true,
                                                       "optional": false
@@ -1097,7 +1133,9 @@
                                                               "start": 1864,
                                                               "end": 1943,
                                                               "value": "#2.2: Unicode locale extension sequence is not correctly returned for locale ",
-                                                              "raw": "\"#2.2: Unicode locale extension sequence is not correctly returned for locale \""
+                                                              "raw": "\"#2.2: Unicode locale extension sequence is not correctly returned for locale \"",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -1113,7 +1151,9 @@
                                                             "start": 1955,
                                                             "end": 1971,
                                                             "value": " with matcher ",
-                                                            "raw": "\" with matcher \""
+                                                            "raw": "\" with matcher \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1130,7 +1170,9 @@
                                                         "start": 1984,
                                                         "end": 1987,
                                                         "value": ".",
-                                                        "raw": "\".\""
+                                                        "raw": "\".\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ],
@@ -1196,7 +1238,9 @@
                                                       "start": 2063,
                                                       "end": 2064,
                                                       "value": 0,
-                                                      "raw": "0"
+                                                      "raw": "0",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -1219,7 +1263,9 @@
                                                               "start": 2066,
                                                               "end": 2143,
                                                               "value": "#3.1: Presence of Unicode locale extension sequence affects whether locale ",
-                                                              "raw": "\"#3.1: Presence of Unicode locale extension sequence affects whether locale \""
+                                                              "raw": "\"#3.1: Presence of Unicode locale extension sequence affects whether locale \"",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -1235,7 +1281,9 @@
                                                             "start": 2155,
                                                             "end": 2195,
                                                             "value": " is considered supported with matcher ",
-                                                            "raw": "\" is considered supported with matcher \""
+                                                            "raw": "\" is considered supported with matcher \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1252,7 +1300,9 @@
                                                         "start": 2208,
                                                         "end": 2211,
                                                         "value": ".",
-                                                        "raw": "\".\""
+                                                        "raw": "\".\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ],
@@ -1311,7 +1361,9 @@
                                                       "start": 2266,
                                                       "end": 2267,
                                                       "value": 0,
-                                                      "raw": "0"
+                                                      "raw": "0",
+                                                      "regex": null,
+                                                      "bigint": null
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -1334,7 +1386,9 @@
                                                               "start": 2269,
                                                               "end": 2346,
                                                               "value": "#3.2: Presence of Unicode locale extension sequence affects whether locale ",
-                                                              "raw": "\"#3.2: Presence of Unicode locale extension sequence affects whether locale \""
+                                                              "raw": "\"#3.2: Presence of Unicode locale extension sequence affects whether locale \"",
+                                                              "regex": null,
+                                                              "bigint": null
                                                             },
                                                             "operator": "+",
                                                             "right": {
@@ -1350,7 +1404,9 @@
                                                             "start": 2358,
                                                             "end": 2398,
                                                             "value": " is considered supported with matcher ",
-                                                            "raw": "\" is considered supported with matcher \""
+                                                            "raw": "\" is considered supported with matcher \"",
+                                                            "regex": null,
+                                                            "bigint": null
                                                           }
                                                         },
                                                         "operator": "+",
@@ -1367,7 +1423,9 @@
                                                         "start": 2411,
                                                         "end": 2414,
                                                         "value": ".",
-                                                        "raw": "\".\""
+                                                        "raw": "\".\"",
+                                                        "regex": null,
+                                                        "bigint": null
                                                       }
                                                     }
                                                   ],

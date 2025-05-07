@@ -27,7 +27,8 @@
             "regex": {
               "pattern": "(?-i:.es)",
               "flags": "i"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -77,7 +78,9 @@
                 "start": 1818,
                 "end": 1823,
                 "value": "aes",
-                "raw": "\"aes\""
+                "raw": "\"aes\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -87,7 +90,9 @@
             "start": 1826,
             "end": 1862,
             "value": "s should match s in modified group",
-            "raw": "\"s should match s in modified group\""
+            "raw": "\"s should match s in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -143,7 +148,9 @@
                   "start": 1882,
                   "end": 1887,
                   "value": "aeS",
-                  "raw": "\"aeS\""
+                  "raw": "\"aeS\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -154,7 +161,9 @@
             "start": 1890,
             "end": 1930,
             "value": "s should not match S in modified group",
-            "raw": "\"s should not match S in modified group\""
+            "raw": "\"s should not match S in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -210,7 +219,9 @@
                   "start": 1950,
                   "end": 1956,
                   "value": "\nes",
-                  "raw": "\"\\nes\""
+                  "raw": "\"\\nes\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -221,7 +232,9 @@
             "start": 1959,
             "end": 2005,
             "value": ". should not match newline in modified group",
-            "raw": "\". should not match newline in modified group\""
+            "raw": "\". should not match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -277,7 +290,9 @@
                   "start": 2025,
                   "end": 2031,
                   "value": "\neS",
-                  "raw": "\"\\neS\""
+                  "raw": "\"\\neS\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -288,7 +303,9 @@
             "start": 2034,
             "end": 2080,
             "value": ". should not match newline in modified group",
-            "raw": "\". should not match newline in modified group\""
+            "raw": "\". should not match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -318,7 +335,8 @@
             "regex": {
               "pattern": "(?-i:.es)",
               "flags": "is"
-            }
+            },
+            "bigint": null
           }
         }
       ],
@@ -368,7 +386,9 @@
                 "start": 2125,
                 "end": 2130,
                 "value": "aes",
-                "raw": "\"aes\""
+                "raw": "\"aes\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -378,7 +398,9 @@
             "start": 2133,
             "end": 2169,
             "value": "s should match s in modified group",
-            "raw": "\"s should match s in modified group\""
+            "raw": "\"s should match s in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -434,7 +456,9 @@
                   "start": 2189,
                   "end": 2194,
                   "value": "aeS",
-                  "raw": "\"aeS\""
+                  "raw": "\"aeS\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -445,7 +469,9 @@
             "start": 2197,
             "end": 2237,
             "value": "s should not match S in modified group",
-            "raw": "\"s should not match S in modified group\""
+            "raw": "\"s should not match S in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -495,7 +521,9 @@
                 "start": 2256,
                 "end": 2262,
                 "value": "\nes",
-                "raw": "\"\\nes\""
+                "raw": "\"\\nes\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -505,7 +533,9 @@
             "start": 2265,
             "end": 2307,
             "value": ". should match newline in modified group",
-            "raw": "\". should match newline in modified group\""
+            "raw": "\". should match newline in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -561,7 +591,9 @@
                   "start": 2327,
                   "end": 2333,
                   "value": "\neS",
-                  "raw": "\"\\neS\""
+                  "raw": "\"\\neS\"",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -572,7 +604,9 @@
             "start": 2336,
             "end": 2376,
             "value": "s should not match S in modified group",
-            "raw": "\"s should not match S in modified group\""
+            "raw": "\"s should not match S in modified group\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

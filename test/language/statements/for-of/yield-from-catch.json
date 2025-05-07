@@ -36,7 +36,9 @@
                 "start": 357,
                 "end": 358,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -54,7 +56,9 @@
                 "start": 368,
                 "end": 369,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           }
@@ -212,7 +216,9 @@
                                         "start": 535,
                                         "end": 562,
                                         "value": "This code is unreachable.",
-                                        "raw": "'This code is unreachable.'"
+                                        "raw": "'This code is unreachable.'",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -357,7 +363,9 @@
             "start": 661,
             "end": 662,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -383,7 +391,9 @@
             "start": 672,
             "end": 673,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -409,7 +419,9 @@
             "start": 683,
             "end": 684,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -435,7 +447,9 @@
             "start": 694,
             "end": 695,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -511,14 +525,18 @@
             "start": 742,
             "end": 743,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 773,
             "value": "First iteration: pre-yield",
-            "raw": "'First iteration: pre-yield'"
+            "raw": "'First iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -563,14 +581,18 @@
             "start": 796,
             "end": 797,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 799,
             "end": 828,
             "value": "First iteration: post-yield",
-            "raw": "'First iteration: post-yield'"
+            "raw": "'First iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -615,14 +637,18 @@
             "start": 851,
             "end": 852,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 854,
             "end": 881,
             "value": "First iteration: post-try",
-            "raw": "'First iteration: post-try'"
+            "raw": "'First iteration: post-try'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -667,14 +693,18 @@
             "start": 904,
             "end": 905,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 907,
             "end": 937,
             "value": "First iteration: post-for-of",
-            "raw": "'First iteration: post-for-of'"
+            "raw": "'First iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -750,14 +780,18 @@
             "start": 985,
             "end": 986,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 988,
             "end": 1017,
             "value": "Second iteration: pre-yield",
-            "raw": "'Second iteration: pre-yield'"
+            "raw": "'Second iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -802,14 +836,18 @@
             "start": 1040,
             "end": 1041,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1073,
             "value": "Second iteration: post-yield",
-            "raw": "'Second iteration: post-yield'"
+            "raw": "'Second iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -854,14 +892,18 @@
             "start": 1096,
             "end": 1097,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1099,
             "end": 1127,
             "value": "Second iteration: post-try",
-            "raw": "'Second iteration: post-try'"
+            "raw": "'Second iteration: post-try'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -906,14 +948,18 @@
             "start": 1150,
             "end": 1151,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1153,
             "end": 1184,
             "value": "Second iteration: post-for-of",
-            "raw": "'Second iteration: post-for-of'"
+            "raw": "'Second iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -989,14 +1035,18 @@
             "start": 1232,
             "end": 1233,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1235,
             "end": 1263,
             "value": "Third iteration: pre-yield",
-            "raw": "'Third iteration: pre-yield'"
+            "raw": "'Third iteration: pre-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1041,14 +1091,18 @@
             "start": 1286,
             "end": 1287,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1289,
             "end": 1318,
             "value": "Third iteration: post-yield",
-            "raw": "'Third iteration: post-yield'"
+            "raw": "'Third iteration: post-yield'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1093,14 +1147,18 @@
             "start": 1341,
             "end": 1342,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1344,
             "end": 1371,
             "value": "Third iteration: post-try",
-            "raw": "'Third iteration: post-try'"
+            "raw": "'Third iteration: post-try'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -1145,14 +1203,18 @@
             "start": 1394,
             "end": 1395,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1397,
             "end": 1427,
             "value": "Third iteration: post-for-of",
-            "raw": "'Third iteration: post-for-of'"
+            "raw": "'Third iteration: post-for-of'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

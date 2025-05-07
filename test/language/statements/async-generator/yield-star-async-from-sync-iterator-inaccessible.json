@@ -209,7 +209,9 @@
                               "start": 1642,
                               "end": 1663,
                               "value": "@@iterator accessed",
-                              "raw": "\"@@iterator accessed\""
+                              "raw": "\"@@iterator accessed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -330,7 +332,9 @@
                               "start": 1775,
                               "end": 1801,
                               "value": "@@asyncIterator accessed",
-                              "raw": "\"@@asyncIterator accessed\""
+                              "raw": "\"@@asyncIterator accessed\"",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }

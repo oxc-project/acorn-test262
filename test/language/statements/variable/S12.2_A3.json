@@ -23,7 +23,9 @@
             "start": 280,
             "end": 285,
             "value": "OUT",
-            "raw": "\"OUT\""
+            "raw": "\"OUT\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -75,7 +77,9 @@
                         "start": 316,
                         "end": 320,
                         "value": "IN",
-                        "raw": "\"IN\""
+                        "raw": "\"IN\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -127,7 +131,9 @@
                                   "start": 343,
                                   "end": 356,
                                   "value": "INNER_SPACE",
-                                  "raw": "\"INNER_SPACE\""
+                                  "raw": "\"INNER_SPACE\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -185,7 +191,9 @@
                                     "start": 388,
                                     "end": 399,
                                     "value": "INNER_SUN",
-                                    "raw": "\"INNER_SUN\""
+                                    "raw": "\"INNER_SUN\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ],
@@ -219,7 +227,9 @@
                       "start": 515,
                       "end": 528,
                       "value": "INNER_SPACE",
-                      "raw": "\"INNER_SPACE\""
+                      "raw": "\"INNER_SPACE\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -251,7 +261,9 @@
                                 "start": 560,
                                 "end": 609,
                                 "value": "#1: __var === \"INNER_SPACE\". Actual:  __var ===",
-                                "raw": "'#1: __var === \"INNER_SPACE\". Actual:  __var ==='"
+                                "raw": "'#1: __var === \"INNER_SPACE\". Actual:  __var ==='",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -296,7 +308,9 @@
           "start": 821,
           "end": 826,
           "value": "OUT",
-          "raw": "\"OUT\""
+          "raw": "\"OUT\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -328,7 +342,9 @@
                     "start": 854,
                     "end": 895,
                     "value": "#2: __var === \"OUT\". Actual:  __var ===",
-                    "raw": "'#2: __var === \"OUT\". Actual:  __var ==='"
+                    "raw": "'#2: __var === \"OUT\". Actual:  __var ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -391,7 +407,9 @@
                       "start": 1017,
                       "end": 1021,
                       "value": "IN",
-                      "raw": "\"IN\""
+                      "raw": "\"IN\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -441,7 +459,9 @@
                                   "start": 1044,
                                   "end": 1053,
                                   "value": "INNERED",
-                                  "raw": "\"INNERED\""
+                                  "raw": "\"INNERED\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               }
                             }
@@ -499,7 +519,9 @@
                                     "start": 1084,
                                     "end": 1093,
                                     "value": "INNAGER",
-                                    "raw": "\"INNAGER\""
+                                    "raw": "\"INNAGER\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 }
                               ],
@@ -533,7 +555,9 @@
                       "start": 1206,
                       "end": 1215,
                       "value": "INNERED",
-                      "raw": "\"INNERED\""
+                      "raw": "\"INNERED\"",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "consequent": {
@@ -565,7 +589,9 @@
                                 "start": 1247,
                                 "end": 1289,
                                 "value": "#3: __var===\"INNERED\". Actual:  __var===",
-                                "raw": "'#3: __var===\"INNERED\". Actual:  __var==='"
+                                "raw": "'#3: __var===\"INNERED\". Actual:  __var==='",
+                                "regex": null,
+                                "bigint": null
                               },
                               "operator": "+",
                               "right": {
@@ -610,7 +636,9 @@
           "start": 1498,
           "end": 1507,
           "value": "INNERED",
-          "raw": "\"INNERED\""
+          "raw": "\"INNERED\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -642,7 +670,9 @@
                     "start": 1535,
                     "end": 1577,
                     "value": "#4: __var===\"INNERED\". Actual:  __var===",
-                    "raw": "'#4: __var===\"INNERED\". Actual:  __var==='"
+                    "raw": "'#4: __var===\"INNERED\". Actual:  __var==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

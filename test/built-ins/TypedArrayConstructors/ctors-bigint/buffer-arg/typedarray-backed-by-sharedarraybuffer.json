@@ -34,7 +34,9 @@
                 "start": 435,
                 "end": 436,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -261,7 +263,9 @@
                                     "start": 687,
                                     "end": 760,
                                     "value": "TypedArray of SharedArrayBuffer-backed TypedArray is ArrayBuffer-backed",
-                                    "raw": "\"TypedArray of SharedArrayBuffer-backed TypedArray is ArrayBuffer-backed\""
+                                    "raw": "\"TypedArray of SharedArrayBuffer-backed TypedArray is ArrayBuffer-backed\"",
+                                    "regex": null,
+                                    "bigint": null
                                   }
                                 ],
                                 "optional": false

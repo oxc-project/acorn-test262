@@ -122,7 +122,9 @@ __ESTREE_TEST__:PASS:
         "start": 22,
         "end": 33,
         "raw": "'decorated'",
-        "value": "decorated"
+        "value": "decorated",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

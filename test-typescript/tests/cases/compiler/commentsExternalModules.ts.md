@@ -862,7 +862,9 @@ __ESTREE_TEST__:PASS:
           "start": 59,
           "end": 86,
           "raw": "\"commentsExternalModules_0\"",
-          "value": "commentsExternalModules_0"
+          "value": "commentsExternalModules_0",
+          "regex": null,
+          "bigint": null
         }
       }
     },

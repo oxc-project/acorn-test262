@@ -52,7 +52,9 @@
                         "start": 1180,
                         "end": 1212,
                         "value": "Generator must not be resumed.",
-                        "raw": "'Generator must not be resumed.'"
+                        "raw": "'Generator must not be resumed.'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -140,7 +142,9 @@
                 "start": 1269,
                 "end": 1271,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -188,7 +192,9 @@
             "start": 1311,
             "end": 1324,
             "value": "constructor",
-            "raw": "'constructor'"
+            "raw": "'constructor'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -242,7 +248,9 @@
                               "start": 1369,
                               "end": 1385,
                               "value": "broken promise",
-                              "raw": "'broken promise'"
+                              "raw": "'broken promise'",
+                              "regex": null,
+                              "bigint": null
                             }
                           ]
                         }
@@ -355,7 +363,9 @@
                             "start": 1472,
                             "end": 1492,
                             "value": "Expected rejection",
-                            "raw": "\"Expected rejection\""
+                            "raw": "\"Expected rejection\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -436,7 +446,9 @@
                             "start": 1551,
                             "end": 1567,
                             "value": "broken promise",
-                            "raw": "'broken promise'"
+                            "raw": "'broken promise'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

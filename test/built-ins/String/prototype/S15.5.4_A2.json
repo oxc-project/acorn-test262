@@ -36,7 +36,9 @@
           "start": 406,
           "end": 408,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -68,7 +70,9 @@
                     "start": 437,
                     "end": 493,
                     "value": "#1: String.prototype ==\"\". Actual: String.prototype ==",
-                    "raw": "'#1: String.prototype ==\"\". Actual: String.prototype =='"
+                    "raw": "'#1: String.prototype ==\"\". Actual: String.prototype =='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

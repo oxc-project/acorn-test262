@@ -28,42 +28,54 @@
                 "start": 291,
                 "end": 303,
                 "value": "-271821-04",
-                "raw": "\"-271821-04\""
+                "raw": "\"-271821-04\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 307,
                 "end": 322,
                 "value": "-271821-04-01",
-                "raw": "\"-271821-04-01\""
+                "raw": "\"-271821-04-01\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 347,
                 "value": "-271821-04-01T00:00",
-                "raw": "\"-271821-04-01T00:00\""
+                "raw": "\"-271821-04-01T00:00\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 363,
                 "value": "+275760-09",
-                "raw": "\"+275760-09\""
+                "raw": "\"+275760-09\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 382,
                 "value": "+275760-09-30",
-                "raw": "\"+275760-09-30\""
+                "raw": "\"+275760-09-30\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 420,
                 "value": "+275760-09-30T23:59:59.999999999",
-                "raw": "\"+275760-09-30T23:59:59.999999999\""
+                "raw": "\"+275760-09-30T23:59:59.999999999\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -186,35 +198,45 @@
                 "start": 527,
                 "end": 542,
                 "value": "-271821-03-31",
-                "raw": "\"-271821-03-31\""
+                "raw": "\"-271821-03-31\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 580,
                 "value": "-271821-03-31T23:59:59.999999999",
-                "raw": "\"-271821-03-31T23:59:59.999999999\""
+                "raw": "\"-271821-03-31T23:59:59.999999999\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 596,
                 "value": "+275760-10",
-                "raw": "\"+275760-10\""
+                "raw": "\"+275760-10\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 600,
                 "end": 615,
                 "value": "+275760-10-01",
-                "raw": "\"+275760-10-01\""
+                "raw": "\"+275760-10-01\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 619,
                 "end": 640,
                 "value": "+275760-10-01T00:00",
-                "raw": "\"+275760-10-01T00:00\""
+                "raw": "\"+275760-10-01T00:00\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }

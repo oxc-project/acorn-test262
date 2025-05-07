@@ -38,7 +38,9 @@
                     "start": 394,
                     "end": 395,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -68,7 +70,9 @@
                     "start": 423,
                     "end": 471,
                     "value": "#1.1: new Array(-1) throw RangeError. Actual: ",
-                    "raw": "'#1.1: new Array(-1) throw RangeError. Actual: '"
+                    "raw": "'#1.1: new Array(-1) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -97,7 +101,9 @@
                             "start": 486,
                             "end": 487,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -175,14 +181,18 @@
                     "start": 559,
                     "end": 563,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 569,
                     "end": 644,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -222,7 +232,9 @@
                   "start": 671,
                   "end": 681,
                   "value": 4294967296,
-                  "raw": "4294967296"
+                  "raw": "4294967296",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -251,7 +263,9 @@
                     "start": 709,
                     "end": 765,
                     "value": "#2.1: new Array(4294967296) throw RangeError. Actual: ",
-                    "raw": "'#2.1: new Array(4294967296) throw RangeError. Actual: '"
+                    "raw": "'#2.1: new Array(4294967296) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -274,7 +288,9 @@
                           "start": 779,
                           "end": 789,
                           "value": 4294967296,
-                          "raw": "4294967296"
+                          "raw": "4294967296",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -351,14 +367,18 @@
                     "start": 861,
                     "end": 865,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 871,
                     "end": 946,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -398,7 +418,9 @@
                   "start": 973,
                   "end": 983,
                   "value": 4294967297,
-                  "raw": "4294967297"
+                  "raw": "4294967297",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -427,7 +449,9 @@
                     "start": 1011,
                     "end": 1067,
                     "value": "#3.1: new Array(4294967297) throw RangeError. Actual: ",
-                    "raw": "'#3.1: new Array(4294967297) throw RangeError. Actual: '"
+                    "raw": "'#3.1: new Array(4294967297) throw RangeError. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -450,7 +474,9 @@
                           "start": 1081,
                           "end": 1091,
                           "value": 4294967297,
-                          "raw": "4294967297"
+                          "raw": "4294967297",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -527,14 +553,18 @@
                     "start": 1163,
                     "end": 1167,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 1173,
                     "end": 1248,
                     "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false

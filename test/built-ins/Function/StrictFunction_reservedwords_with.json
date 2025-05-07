@@ -71,7 +71,9 @@
                         "start": 798,
                         "end": 826,
                         "value": "'use strict'; with ({}) {}",
-                        "raw": "\"'use strict'; with ({}) {}\""
+                        "raw": "\"'use strict'; with ({}) {}\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -84,7 +86,9 @@
             "start": 832,
             "end": 911,
             "value": "`new Function(\"'use strict'; with ({}) {}\")` throws a SyntaxError exception",
-            "raw": "'`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception'"
+            "raw": "'`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

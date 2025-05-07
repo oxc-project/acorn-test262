@@ -33,14 +33,18 @@
                     "start": 303,
                     "end": 335,
                     "value": "2019-12-15T15:23[Asia/Kolkata]",
-                    "raw": "\"2019-12-15T15:23[Asia/Kolkata]\""
+                    "raw": "\"2019-12-15T15:23[Asia/Kolkata]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 337,
                     "end": 360,
                     "value": "named, with no offset",
-                    "raw": "\"named, with no offset\""
+                    "raw": "\"named, with no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -54,14 +58,18 @@
                     "start": 366,
                     "end": 400,
                     "value": "2019-12-15T15:23[!Europe/Vienna]",
-                    "raw": "\"2019-12-15T15:23[!Europe/Vienna]\""
+                    "raw": "\"2019-12-15T15:23[!Europe/Vienna]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 402,
                     "end": 431,
                     "value": "named, with ! and no offset",
-                    "raw": "\"named, with ! and no offset\""
+                    "raw": "\"named, with ! and no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -75,14 +83,18 @@
                     "start": 437,
                     "end": 463,
                     "value": "2019-12-15T15:23[+00:00]",
-                    "raw": "\"2019-12-15T15:23[+00:00]\""
+                    "raw": "\"2019-12-15T15:23[+00:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 465,
                     "end": 490,
                     "value": "numeric, with no offset",
-                    "raw": "\"numeric, with no offset\""
+                    "raw": "\"numeric, with no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -96,14 +108,18 @@
                     "start": 496,
                     "end": 523,
                     "value": "2019-12-15T15:23[!-02:30]",
-                    "raw": "\"2019-12-15T15:23[!-02:30]\""
+                    "raw": "\"2019-12-15T15:23[!-02:30]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 525,
                     "end": 556,
                     "value": "numeric, with ! and no offset",
-                    "raw": "\"numeric, with ! and no offset\""
+                    "raw": "\"numeric, with ! and no offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -117,14 +133,18 @@
                     "start": 562,
                     "end": 591,
                     "value": "2019-12-15T15:23+00:00[UTC]",
-                    "raw": "\"2019-12-15T15:23+00:00[UTC]\""
+                    "raw": "\"2019-12-15T15:23+00:00[UTC]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 593,
                     "end": 613,
                     "value": "named, with offset",
-                    "raw": "\"named, with offset\""
+                    "raw": "\"named, with offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -138,14 +158,18 @@
                     "start": 619,
                     "end": 660,
                     "value": "2019-12-15T15:23+00:00[!Africa/Abidjan]",
-                    "raw": "\"2019-12-15T15:23+00:00[!Africa/Abidjan]\""
+                    "raw": "\"2019-12-15T15:23+00:00[!Africa/Abidjan]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 662,
                     "end": 688,
                     "value": "named, with offset and !",
-                    "raw": "\"named, with offset and !\""
+                    "raw": "\"named, with offset and !\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -159,14 +183,18 @@
                     "start": 694,
                     "end": 726,
                     "value": "2019-12-15T15:23+00:00[+01:00]",
-                    "raw": "\"2019-12-15T15:23+00:00[+01:00]\""
+                    "raw": "\"2019-12-15T15:23+00:00[+01:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 728,
                     "end": 750,
                     "value": "numeric, with offset",
-                    "raw": "\"numeric, with offset\""
+                    "raw": "\"numeric, with offset\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               },
@@ -180,14 +208,18 @@
                     "start": 756,
                     "end": 789,
                     "value": "2019-12-15T15:23+00:00[!-08:00]",
-                    "raw": "\"2019-12-15T15:23+00:00[!-08:00]\""
+                    "raw": "\"2019-12-15T15:23+00:00[!-08:00]\"",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 791,
                     "end": 819,
                     "value": "numeric, with offset and !",
-                    "raw": "\"numeric, with offset and !\""
+                    "raw": "\"numeric, with offset and !\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -369,7 +401,9 @@
                         "start": 963,
                         "end": 964,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "TemplateLiteral",

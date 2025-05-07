@@ -23,7 +23,9 @@
             "start": 820,
             "end": 821,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -98,7 +100,9 @@
                   "start": 880,
                   "end": 885,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -147,7 +151,9 @@
             "start": 921,
             "end": 928,
             "value": "value",
-            "raw": "'value'"
+            "raw": "'value'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -480,7 +486,9 @@
                             "start": 1200,
                             "end": 1250,
                             "value": "The promise should be rejected, but was resolved",
-                            "raw": "'The promise should be rejected, but was resolved'"
+                            "raw": "'The promise should be rejected, but was resolved'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -630,14 +638,18 @@
                             "start": 1376,
                             "end": 1377,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "regex": null,
+                            "bigint": null
                           },
                           {
                             "type": "Literal",
                             "start": 1379,
                             "end": 1396,
                             "value": "callCount === 3",
-                            "raw": "'callCount === 3'"
+                            "raw": "'callCount === 3'",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false

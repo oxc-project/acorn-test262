@@ -61,7 +61,9 @@
                 "start": 318,
                 "end": 319,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -85,7 +87,9 @@
                 "start": 325,
                 "end": 330,
                 "value": "str",
-                "raw": "'str'"
+                "raw": "'str'",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -109,7 +113,9 @@
                 "start": 336,
                 "end": 339,
                 "value": 2.1,
-                "raw": "2.1"
+                "raw": "2.1",
+                "regex": null,
+                "bigint": null
               }
             }
           },
@@ -148,7 +154,9 @@
                         "start": 361,
                         "end": 362,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -159,7 +167,9 @@
                       "start": 368,
                       "end": 370,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   "operator": "&&",
@@ -182,7 +192,9 @@
                         "start": 384,
                         "end": 385,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "regex": null,
+                        "bigint": null
                       },
                       "computed": true,
                       "optional": false
@@ -193,7 +205,9 @@
                       "start": 391,
                       "end": 396,
                       "value": "sss",
-                      "raw": "'sss'"
+                      "raw": "'sss'",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -217,7 +231,9 @@
                       "start": 410,
                       "end": 411,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "regex": null,
+                      "bigint": null
                     },
                     "computed": true,
                     "optional": false
@@ -228,7 +244,9 @@
                     "start": 417,
                     "end": 418,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }
@@ -268,21 +286,27 @@
                 "start": 435,
                 "end": 437,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 439,
                 "end": 444,
                 "value": "sss",
-                "raw": "'sss'"
+                "raw": "'sss'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 447,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -292,7 +316,9 @@
             "start": 450,
             "end": 478,
             "value": "foo(10, \"sss\", 1) !== true",
-            "raw": "'foo(10, \"sss\", 1) !== true'"
+            "raw": "'foo(10, \"sss\", 1) !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -28,7 +28,9 @@ __ESTREE_TEST__:PASS:
             "start": 45,
             "end": 51,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -38,7 +40,9 @@ __ESTREE_TEST__:PASS:
         "start": 18,
         "end": 31,
         "raw": "\"./data.json\"",
-        "value": "./data.json"
+        "value": "./data.json",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -135,7 +139,9 @@ __ESTREE_TEST__:PASS:
                             "start": 113,
                             "end": 119,
                             "raw": "\"json\"",
-                            "value": "json"
+                            "value": "json",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -148,7 +154,9 @@ __ESTREE_TEST__:PASS:
                 "start": 82,
                 "end": 95,
                 "raw": "\"./data.json\"",
-                "value": "./data.json"
+                "value": "./data.json",
+                "regex": null,
+                "bigint": null
               }
             }
           }

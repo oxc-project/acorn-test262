@@ -76,6 +76,7 @@
                                 "end": 450,
                                 "value": null,
                                 "raw": "41n",
+                                "regex": null,
                                 "bigint": "41"
                               },
                               {
@@ -84,6 +85,7 @@
                                 "end": 455,
                                 "value": null,
                                 "raw": "42n",
+                                "regex": null,
                                 "bigint": "42"
                               },
                               {
@@ -92,6 +94,7 @@
                                 "end": 460,
                                 "value": null,
                                 "raw": "43n",
+                                "regex": null,
                                 "bigint": "43"
                               },
                               {
@@ -100,6 +103,7 @@
                                 "end": 465,
                                 "value": null,
                                 "raw": "44n",
+                                "regex": null,
                                 "bigint": "44"
                               }
                             ]
@@ -143,7 +147,9 @@
                       "start": 484,
                       "end": 486,
                       "value": 42,
-                      "raw": "42"
+                      "raw": "42",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -249,7 +255,9 @@
                             "start": 566,
                             "end": 571,
                             "value": "foo",
-                            "raw": "\"foo\""
+                            "raw": "\"foo\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -259,14 +267,18 @@
                         "start": 578,
                         "end": 583,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "Literal",
                         "start": 589,
                         "end": 619,
                         "value": "does not import own property",
-                        "raw": "\"does not import own property\""
+                        "raw": "\"does not import own property\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

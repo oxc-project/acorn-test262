@@ -46,7 +46,9 @@
                 "start": 447,
                 "end": 458,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -82,7 +84,9 @@
                     "start": 489,
                     "end": 553,
                     "value": "#1: String.hasOwnProperty('prototype') return true. Actual: ",
-                    "raw": "'#1: String.hasOwnProperty(\\'prototype\\') return true. Actual: '"
+                    "raw": "'#1: String.hasOwnProperty(\\'prototype\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -114,7 +118,9 @@
                         "start": 578,
                         "end": 589,
                         "value": "prototype",
-                        "raw": "'prototype'"
+                        "raw": "'prototype'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -153,7 +159,9 @@
             "start": 708,
             "end": 719,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -213,7 +221,9 @@
                 "start": 854,
                 "end": 859,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -241,7 +251,9 @@
                         "start": 890,
                         "end": 941,
                         "value": "#2: String.prototype has the attribute DontDelete",
-                        "raw": "'#2: String.prototype has the attribute DontDelete'"
+                        "raw": "'#2: String.prototype has the attribute DontDelete'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ]
                   }
@@ -387,7 +399,9 @@
                 "start": 1240,
                 "end": 1251,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -423,7 +437,9 @@
                     "start": 1282,
                     "end": 1371,
                     "value": "#3: delete String.prototype; String.hasOwnProperty('prototype') return true. Actual: ",
-                    "raw": "'#3: delete String.prototype; String.hasOwnProperty(\\'prototype\\') return true. Actual: '"
+                    "raw": "'#3: delete String.prototype; String.hasOwnProperty(\\'prototype\\') return true. Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -455,7 +471,9 @@
                         "start": 1396,
                         "end": 1407,
                         "value": "prototype",
-                        "raw": "'prototype'"
+                        "raw": "'prototype'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

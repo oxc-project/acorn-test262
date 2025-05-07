@@ -266,7 +266,9 @@ __ESTREE_TEST__:PASS:
                       "start": 181,
                       "end": 185,
                       "raw": "\"id\"",
-                      "value": "id"
+                      "value": "id",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -277,7 +279,9 @@ __ESTREE_TEST__:PASS:
                       "start": 187,
                       "end": 196,
                       "raw": "\"ourLogo\"",
-                      "value": "ourLogo"
+                      "value": "ourLogo",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -290,7 +294,9 @@ __ESTREE_TEST__:PASS:
                       "start": 206,
                       "end": 212,
                       "raw": "\"type\"",
-                      "value": "type"
+                      "value": "type",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -301,7 +307,9 @@ __ESTREE_TEST__:PASS:
                       "start": 214,
                       "end": 221,
                       "raw": "\"image\"",
-                      "value": "image"
+                      "value": "image",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -314,7 +322,9 @@ __ESTREE_TEST__:PASS:
                       "start": 231,
                       "end": 237,
                       "raw": "\"link\"",
-                      "value": "link"
+                      "value": "link",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -325,7 +335,9 @@ __ESTREE_TEST__:PASS:
                       "start": 239,
                       "end": 241,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -338,7 +350,9 @@ __ESTREE_TEST__:PASS:
                       "start": 251,
                       "end": 257,
                       "raw": "\"icon\"",
-                      "value": "icon"
+                      "value": "icon",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -349,7 +363,9 @@ __ESTREE_TEST__:PASS:
                       "start": 259,
                       "end": 282,
                       "raw": "\"modules/menu/logo.svg\"",
-                      "value": "modules/menu/logo.svg"
+                      "value": "modules/menu/logo.svg",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -369,7 +385,9 @@ __ESTREE_TEST__:PASS:
                       "start": 300,
                       "end": 304,
                       "raw": "\"id\"",
-                      "value": "id"
+                      "value": "id",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -380,7 +398,9 @@ __ESTREE_TEST__:PASS:
                       "start": 306,
                       "end": 319,
                       "raw": "\"productName\"",
-                      "value": "productName"
+                      "value": "productName",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -393,7 +413,9 @@ __ESTREE_TEST__:PASS:
                       "start": 329,
                       "end": 335,
                       "raw": "\"type\"",
-                      "value": "type"
+                      "value": "type",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -404,7 +426,9 @@ __ESTREE_TEST__:PASS:
                       "start": 337,
                       "end": 346,
                       "raw": "\"default\"",
-                      "value": "default"
+                      "value": "default",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -417,7 +441,9 @@ __ESTREE_TEST__:PASS:
                       "start": 356,
                       "end": 362,
                       "raw": "\"link\"",
-                      "value": "link"
+                      "value": "link",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -428,7 +454,9 @@ __ESTREE_TEST__:PASS:
                       "start": 364,
                       "end": 366,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "regex": null,
+                      "bigint": null
                     }
                   },
                   {
@@ -441,7 +469,9 @@ __ESTREE_TEST__:PASS:
                       "start": 376,
                       "end": 382,
                       "raw": "\"text\"",
-                      "value": "text"
+                      "value": "text",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init",
                     "method": false,
@@ -452,7 +482,9 @@ __ESTREE_TEST__:PASS:
                       "start": 384,
                       "end": 398,
                       "raw": "\"Product Name\"",
-                      "value": "Product Name"
+                      "value": "Product Name",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]

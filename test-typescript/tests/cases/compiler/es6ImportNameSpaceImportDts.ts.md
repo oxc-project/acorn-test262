@@ -69,7 +69,9 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 44,
         "raw": "\"./server\"",
-        "value": "./server"
+        "value": "./server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -164,7 +166,9 @@ __ESTREE_TEST__:PASS:
         "start": 122,
         "end": 132,
         "raw": "\"./server\"",
-        "value": "./server"
+        "value": "./server",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

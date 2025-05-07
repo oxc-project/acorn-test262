@@ -83,7 +83,9 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 24,
         "raw": "\"foo*baz\"",
-        "value": "foo*baz"
+        "value": "foo*baz",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -148,7 +150,9 @@ __ESTREE_TEST__:PASS:
         "start": 114,
         "end": 123,
         "raw": "\"foo*baz\"",
-        "value": "foo*baz"
+        "value": "foo*baz",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -213,7 +217,9 @@ __ESTREE_TEST__:PASS:
         "start": 197,
         "end": 204,
         "raw": "\"foos*\"",
-        "value": "foos*"
+        "value": "foos*",
+        "regex": null,
+        "bigint": null
       }
     },
     {
@@ -284,7 +290,9 @@ __ESTREE_TEST__:PASS:
         "start": 256,
         "end": 264,
         "raw": "\"*!text\"",
-        "value": "*!text"
+        "value": "*!text",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -310,7 +318,9 @@ __ESTREE_TEST__:PASS:
         "start": 65,
         "end": 76,
         "raw": "\"foobarbaz\"",
-        "value": "foobarbaz"
+        "value": "foobarbaz",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -407,7 +417,9 @@ __ESTREE_TEST__:PASS:
         "start": 108,
         "end": 118,
         "raw": "\"foosball\"",
-        "value": "foosball"
+        "value": "foosball",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -480,7 +492,9 @@ __ESTREE_TEST__:PASS:
         "start": 186,
         "end": 199,
         "raw": "\"./file!text\"",
-        "value": "./file!text"
+        "value": "./file!text",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

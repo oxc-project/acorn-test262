@@ -90,7 +90,9 @@
                             "start": 482,
                             "end": 488,
                             "value": "obj1",
-                            "raw": "\"obj1\""
+                            "raw": "\"obj1\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -103,7 +105,9 @@
                           "start": 501,
                           "end": 503,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ]
@@ -184,7 +188,9 @@
                             "start": 555,
                             "end": 561,
                             "value": "obj2",
-                            "raw": "\"obj2\""
+                            "raw": "\"obj2\"",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       },
@@ -272,7 +278,9 @@
                       "start": 661,
                       "end": 666,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 },
@@ -420,7 +428,9 @@
                         "start": 778,
                         "end": 784,
                         "value": "obj2",
-                        "raw": "\"obj2\""
+                        "raw": "\"obj2\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

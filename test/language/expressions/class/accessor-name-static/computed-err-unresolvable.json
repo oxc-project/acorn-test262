@@ -65,7 +65,9 @@
                         "start": 929,
                         "end": 930,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ClassExpression",
@@ -122,7 +124,9 @@
             "start": 990,
             "end": 1006,
             "value": "`get` accessor",
-            "raw": "'`get` accessor'"
+            "raw": "'`get` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -190,7 +194,9 @@
                         "start": 1055,
                         "end": 1056,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "regex": null,
+                        "bigint": null
                       },
                       {
                         "type": "ClassExpression",
@@ -254,7 +260,9 @@
             "start": 1117,
             "end": 1133,
             "value": "`set` accessor",
-            "raw": "'`set` accessor'"
+            "raw": "'`set` accessor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

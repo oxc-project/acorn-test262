@@ -151,7 +151,9 @@ __ESTREE_TEST__:PASS:
                 "start": 26,
                 "end": 37,
                 "raw": "'./file.js'",
-                "value": "./file.js"
+                "value": "./file.js",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {
@@ -229,7 +231,9 @@ __ESTREE_TEST__:PASS:
                     "start": 478,
                     "end": 482,
                     "raw": "null",
-                    "value": null
+                    "value": null,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -253,7 +257,9 @@ __ESTREE_TEST__:PASS:
                       "start": 439,
                       "end": 440,
                       "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "regex": null,
+                      "bigint": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -294,7 +300,9 @@ __ESTREE_TEST__:PASS:
                 "start": 412,
                 "end": 420,
                 "raw": "'number'",
-                "value": "number"
+                "value": "number",
+                "regex": null,
+                "bigint": null
               }
             }
           }

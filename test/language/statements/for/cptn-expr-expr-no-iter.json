@@ -47,7 +47,9 @@
                 "start": 1087,
                 "end": 1112,
                 "value": "1; for ( ; false; ) { }",
-                "raw": "'1; for ( ; false; ) { }'"
+                "raw": "'1; for ( ; false; ) { }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 1149,
                 "end": 1177,
                 "value": "2; for ( ; false; ) { 3; }",
-                "raw": "'2; for ( ; false; ) { 3; }'"
+                "raw": "'2; for ( ; false; ) { 3; }'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

@@ -35,7 +35,9 @@
                 "start": 449,
                 "end": 450,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -78,7 +80,9 @@
                   "start": 496,
                   "end": 558,
                   "value": "#1: Function expession inside the \"if\" expression is allowed",
-                  "raw": "'#1: Function expession inside the \"if\" expression is allowed'"
+                  "raw": "'#1: Function expession inside the \"if\" expression is allowed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

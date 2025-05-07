@@ -227,7 +227,9 @@
             "start": 908,
             "end": 925,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -325,14 +327,18 @@
             "start": 993,
             "end": 1009,
             "value": "[object Array]",
-            "raw": "'[object Array]'"
+            "raw": "'[object Array]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1011,
             "end": 1024,
             "value": "array proxy",
-            "raw": "'array proxy'"
+            "raw": "'array proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -430,14 +436,18 @@
             "start": 1099,
             "end": 1115,
             "value": "[object Array]",
-            "raw": "'[object Array]'"
+            "raw": "'[object Array]'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1119,
             "end": 1142,
             "value": "proxy for array proxy",
-            "raw": "'proxy for array proxy'"
+            "raw": "'proxy for array proxy'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -58,7 +58,9 @@ __ESTREE_TEST__:PASS:
               "start": 90,
               "end": 94,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             }
           }
         ]
@@ -171,7 +173,9 @@ __ESTREE_TEST__:PASS:
                       "start": 158,
                       "end": 163,
                       "raw": "false",
-                      "value": false
+                      "value": false,
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 ]
@@ -378,7 +382,9 @@ __ESTREE_TEST__:PASS:
               "start": 333,
               "end": 337,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             },
             "operator": "void",
             "prefix": true
@@ -439,7 +445,9 @@ __ESTREE_TEST__:PASS:
                     "start": 368,
                     "end": 372,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "regex": null,
+                    "bigint": null
                   }
                 },
                 {
@@ -465,7 +473,9 @@ __ESTREE_TEST__:PASS:
                     "start": 377,
                     "end": 382,
                     "raw": "false",
-                    "value": false
+                    "value": false,
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ]
@@ -763,7 +773,9 @@ __ESTREE_TEST__:PASS:
           "start": 641,
           "end": 645,
           "raw": "true",
-          "value": true
+          "value": true,
+          "regex": null,
+          "bigint": null
         },
         "operator": "void",
         "prefix": true
@@ -840,7 +852,9 @@ __ESTREE_TEST__:PASS:
               "start": 678,
               "end": 682,
               "raw": "true",
-              "value": true
+              "value": true,
+              "regex": null,
+              "bigint": null
             },
             "operator": "void",
             "prefix": true
@@ -850,7 +864,9 @@ __ESTREE_TEST__:PASS:
             "start": 684,
             "end": 689,
             "raw": "false",
-            "value": false
+            "value": false,
+            "regex": null,
+            "bigint": null
           }
         ]
       }

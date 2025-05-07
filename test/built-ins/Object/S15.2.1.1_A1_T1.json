@@ -34,7 +34,9 @@
                 "start": 464,
                 "end": 468,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -74,7 +76,9 @@
                 "start": 496,
                 "end": 500,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -167,7 +171,9 @@
             "start": 565,
             "end": 640,
             "value": "__obj.toString() must return the same value returned by n__obj.toString()",
-            "raw": "'__obj.toString() must return the same value returned by n__obj.toString()'"
+            "raw": "'__obj.toString() must return the same value returned by n__obj.toString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -244,7 +250,9 @@
             "start": 708,
             "end": 793,
             "value": "The value of __obj.constructor is expected to equal the value of n__obj.constructor",
-            "raw": "'The value of __obj.constructor is expected to equal the value of n__obj.constructor'"
+            "raw": "'The value of __obj.constructor is expected to equal the value of n__obj.constructor'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -321,7 +329,9 @@
             "start": 857,
             "end": 938,
             "value": "The value of __obj.prototype is expected to equal the value of n__obj.prototype",
-            "raw": "'The value of __obj.prototype is expected to equal the value of n__obj.prototype'"
+            "raw": "'The value of __obj.prototype is expected to equal the value of n__obj.prototype'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -412,7 +422,9 @@
             "start": 1016,
             "end": 1103,
             "value": "__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()",
-            "raw": "'__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()'"
+            "raw": "'__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -477,7 +489,9 @@
             "start": 1154,
             "end": 1215,
             "value": "The value of `typeof __obj` is expected to be typeof n__obj",
-            "raw": "'The value of `typeof __obj` is expected to be typeof n__obj'"
+            "raw": "'The value of `typeof __obj` is expected to be typeof n__obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

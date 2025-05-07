@@ -59,7 +59,9 @@
                 "start": 425,
                 "end": 430,
                 "value": "NaN",
-                "raw": "\"NaN\""
+                "raw": "\"NaN\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -72,21 +74,27 @@
                 "start": 443,
                 "end": 444,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 451,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 453,
                 "end": 457,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ObjectExpression",
@@ -143,7 +151,9 @@
                 "start": 508,
                 "end": 515,
                 "value": "false",
-                "raw": "\"false\""
+                "raw": "\"false\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Identifier",
@@ -235,7 +245,9 @@
               "start": 564,
               "end": 565,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "regex": null,
+              "bigint": null
             }
           },
           {
@@ -243,7 +255,9 @@
             "start": 567,
             "end": 611,
             "value": "NaN is equal to nothing, including itself.",
-            "raw": "'NaN is equal to nothing, including itself.'"
+            "raw": "'NaN is equal to nothing, including itself.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

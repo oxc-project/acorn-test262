@@ -75,7 +75,9 @@
             "start": 338,
             "end": 377,
             "value": "Object.getPrototypeOf(ReferenceError)",
-            "raw": "'Object.getPrototypeOf(ReferenceError)'"
+            "raw": "'Object.getPrototypeOf(ReferenceError)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

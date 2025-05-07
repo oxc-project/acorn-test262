@@ -70,7 +70,9 @@
                             "start": 1575,
                             "end": 1576,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "regex": null,
+                            "bigint": null
                           }
                         ]
                       }
@@ -164,7 +166,9 @@
                                         "start": 1640,
                                         "end": 1644,
                                         "value": null,
-                                        "raw": "null"
+                                        "raw": "null",
+                                        "regex": null,
+                                        "bigint": null
                                       }
                                     ]
                                   }
@@ -180,7 +184,9 @@
                         "start": 1653,
                         "end": 1682,
                         "value": "abrupt completion from Null",
-                        "raw": "\"abrupt completion from Null\""
+                        "raw": "\"abrupt completion from Null\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

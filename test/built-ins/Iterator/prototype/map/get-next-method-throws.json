@@ -196,7 +196,9 @@
                           "start": 566,
                           "end": 567,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],

@@ -35,7 +35,9 @@
                   "start": 388,
                   "end": 404,
                   "value": "compare getter",
-                  "raw": "\"compare getter\""
+                  "raw": "\"compare getter\"",
+                  "regex": null,
+                  "bigint": null
                 },
                 "value": {
                   "type": "MemberExpression",
@@ -102,7 +104,9 @@
                         "start": 463,
                         "end": 472,
                         "value": "compare",
-                        "raw": "\"compare\""
+                        "raw": "\"compare\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -215,28 +219,36 @@
                 "start": 576,
                 "end": 580,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 586,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 588,
                 "end": 589,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 591,
                 "end": 601,
                 "value": "Collator",
-                "raw": "\"Collator\""
+                "raw": "\"Collator\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "ArrayExpression",
@@ -529,7 +541,9 @@
                                             "start": 854,
                                             "end": 864,
                                             "value": "Calling ",
-                                            "raw": "\"Calling \""
+                                            "raw": "\"Calling \"",
+                                            "regex": null,
+                                            "bigint": null
                                           },
                                           "operator": "+",
                                           "right": {
@@ -545,7 +559,9 @@
                                           "start": 882,
                                           "end": 888,
                                           "value": " on ",
-                                          "raw": "\" on \""
+                                          "raw": "\" on \"",
+                                          "regex": null,
+                                          "bigint": null
                                         }
                                       },
                                       "operator": "+",
@@ -562,7 +578,9 @@
                                       "start": 900,
                                       "end": 920,
                                       "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "raw": "\" was not rejected.\"",
+                                      "regex": null,
+                                      "bigint": null
                                     }
                                   }
                                 ],

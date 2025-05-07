@@ -35,7 +35,9 @@
                 "start": 417,
                 "end": 418,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ]
@@ -66,7 +68,9 @@
                   "start": 442,
                   "end": 443,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ],
@@ -106,7 +110,9 @@
           "start": 648,
           "end": 649,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -134,7 +140,9 @@
                   "start": 677,
                   "end": 740,
                   "value": "#2: function expression inside of while expression is allowed",
-                  "raw": "'#2: function expression inside of while expression is allowed'"
+                  "raw": "'#2: function expression inside of while expression is allowed'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

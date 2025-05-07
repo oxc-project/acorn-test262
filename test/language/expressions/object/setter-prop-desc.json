@@ -129,7 +129,9 @@
                 "start": 995,
                 "end": 998,
                 "value": "m",
-                "raw": "'m'"
+                "raw": "'m'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -164,7 +166,9 @@
             "start": 1022,
             "end": 1025,
             "value": "m",
-            "raw": "'m'"
+            "raw": "'m'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -189,7 +193,9 @@
                   "start": 1043,
                   "end": 1047,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               },
@@ -211,7 +217,9 @@
                   "start": 1065,
                   "end": 1069,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -279,7 +287,9 @@
             "start": 1116,
             "end": 1131,
             "value": "`value` field",
-            "raw": "'`value` field'"
+            "raw": "'`value` field'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -343,7 +353,9 @@
             "start": 1172,
             "end": 1185,
             "value": "`get` field",
-            "raw": "'`get` field'"
+            "raw": "'`get` field'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -408,14 +420,18 @@
             "start": 1222,
             "end": 1232,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1234,
             "end": 1255,
             "value": "type of `set` field",
-            "raw": "'type of `set` field'"
+            "raw": "'type of `set` field'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -478,7 +494,9 @@
                 "start": 1284,
                 "end": 1287,
                 "value": 436,
-                "raw": "436"
+                "raw": "436",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -488,14 +506,18 @@
             "start": 1290,
             "end": 1293,
             "value": 436,
-            "raw": "436"
+            "raw": "436",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1295,
             "end": 1324,
             "value": "`set` function return value",
-            "raw": "'`set` function return value'"
+            "raw": "'`set` function return value'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

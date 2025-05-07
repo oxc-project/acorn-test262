@@ -39,14 +39,18 @@
                     "start": 507,
                     "end": 508,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "regex": null,
+                    "bigint": null
                   },
                   {
                     "type": "Literal",
                     "start": 510,
                     "end": 511,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "regex": null,
+                    "bigint": null
                   }
                 ]
               }
@@ -122,7 +126,9 @@
                               "start": 564,
                               "end": 565,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "regex": null,
+                              "bigint": null
                             }
                           }
                         ]
@@ -183,7 +189,9 @@
                                 "start": 596,
                                 "end": 597,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -195,7 +203,9 @@
                                 "start": 606,
                                 "end": 611,
                                 "value": false,
-                                "raw": "false"
+                                "raw": "false",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "alternate": null
@@ -220,7 +230,9 @@
                                 "start": 627,
                                 "end": 628,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "consequent": {
@@ -232,7 +244,9 @@
                                 "start": 637,
                                 "end": 641,
                                 "value": true,
-                                "raw": "true"
+                                "raw": "true",
+                                "regex": null,
+                                "bigint": null
                               }
                             },
                             "alternate": null
@@ -257,7 +271,9 @@
                                   "start": 670,
                                   "end": 761,
                                   "value": "Set.prototype.isSubsetOf should only call its argument's has method with contents of this",
-                                  "raw": "\"Set.prototype.isSubsetOf should only call its argument's has method with contents of this\""
+                                  "raw": "\"Set.prototype.isSubsetOf should only call its argument's has method with contents of this\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -313,7 +329,9 @@
                                   "start": 808,
                                   "end": 879,
                                   "value": "Set.prototype.isSubsetOf should not call its argument's keys iterator",
-                                  "raw": "\"Set.prototype.isSubsetOf should not call its argument's keys iterator\""
+                                  "raw": "\"Set.prototype.isSubsetOf should not call its argument's keys iterator\"",
+                                  "regex": null,
+                                  "bigint": null
                                 }
                               ]
                             }
@@ -397,7 +415,9 @@
             "start": 926,
             "end": 931,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

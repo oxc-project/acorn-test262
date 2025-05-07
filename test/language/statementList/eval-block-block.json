@@ -34,7 +34,9 @@
                 "start": 886,
                 "end": 892,
                 "value": "{}{}",
-                "raw": "'{}{}'"
+                "raw": "'{}{}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

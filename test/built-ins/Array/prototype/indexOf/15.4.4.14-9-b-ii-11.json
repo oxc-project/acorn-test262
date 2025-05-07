@@ -163,14 +163,18 @@
             "start": 418,
             "end": 419,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 453,
             "value": "[{}, obj1, obj2].indexOf(obj3)",
-            "raw": "'[{}, obj1, obj2].indexOf(obj3)'"
+            "raw": "'[{}, obj1, obj2].indexOf(obj3)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

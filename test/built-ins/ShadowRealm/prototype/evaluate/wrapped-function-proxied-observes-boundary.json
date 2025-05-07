@@ -75,14 +75,18 @@
             "start": 359,
             "end": 369,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 446,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,7 +225,9 @@
                   "start": 556,
                   "end": 557,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -439,7 +445,9 @@
                                         "start": 777,
                                         "end": 778,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "regex": null,
+                                        "bigint": null
                                       },
                                       "kind": "init"
                                     }
@@ -531,7 +539,9 @@
             "start": 856,
             "end": 932,
             "value": "Proxying a wrapped function and invoking it still performs boundary checks",
-            "raw": "'Proxying a wrapped function and invoking it still performs boundary checks'"
+            "raw": "'Proxying a wrapped function and invoking it still performs boundary checks'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -580,7 +590,9 @@
               "start": 963,
               "end": 964,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -596,7 +608,9 @@
             "start": 978,
             "end": 1014,
             "value": "proxy still calls the handler trap",
-            "raw": "'proxy still calls the handler trap'"
+            "raw": "'proxy still calls the handler trap'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -654,7 +668,9 @@
             "start": 1051,
             "end": 1052,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

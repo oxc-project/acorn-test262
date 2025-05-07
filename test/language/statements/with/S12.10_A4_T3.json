@@ -35,7 +35,9 @@
           "start": 307,
           "end": 310,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -77,7 +79,9 @@
                   "start": 332,
                   "end": 336,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -107,7 +111,9 @@
             "start": 346,
             "end": 369,
             "value": "with(myObj){p1=false}",
-            "raw": "\"with(myObj){p1=false}\""
+            "raw": "\"with(myObj){p1=false}\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -146,7 +152,9 @@
           "start": 478,
           "end": 483,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -178,7 +186,9 @@
                     "start": 511,
                     "end": 558,
                     "value": "#1: myObj.p1 === false. Actual:  myObj.p1 ===",
-                    "raw": "'#1: myObj.p1 === false. Actual:  myObj.p1 ==='"
+                    "raw": "'#1: myObj.p1 === false. Actual:  myObj.p1 ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -241,7 +251,9 @@
           "start": 763,
           "end": 766,
           "value": "a",
-          "raw": "'a'"
+          "raw": "'a'",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -269,7 +281,9 @@
                   "start": 794,
                   "end": 818,
                   "value": "#2: myObj.p1 !== 'a'",
-                  "raw": "'#2: myObj.p1 !== \\'a\\''"
+                  "raw": "'#2: myObj.p1 !== \\'a\\''",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

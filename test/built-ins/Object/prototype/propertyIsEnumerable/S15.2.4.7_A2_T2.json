@@ -75,14 +75,18 @@
             "start": 661,
             "end": 671,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 675,
             "end": 765,
             "value": "The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Object.prototype.propertyIsEnumerable` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -126,7 +130,9 @@
                   "start": 798,
                   "end": 802,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 },
                 "kind": "init"
               }
@@ -195,14 +201,18 @@
             "start": 862,
             "end": 872,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 876,
             "end": 953,
             "value": "The value of `typeof obj.propertyIsEnumerable` is expected to be \"function\"",
-            "raw": "'The value of `typeof obj.propertyIsEnumerable` is expected to be \"function\"'"
+            "raw": "'The value of `typeof obj.propertyIsEnumerable` is expected to be \"function\"'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -264,7 +274,9 @@
                     "start": 995,
                     "end": 1009,
                     "value": "the_property",
-                    "raw": "\"the_property\""
+                    "raw": "\"the_property\"",
+                    "regex": null,
+                    "bigint": null
                   }
                 ],
                 "optional": false
@@ -276,7 +288,9 @@
             "start": 1014,
             "end": 1094,
             "value": "The value of !!obj.propertyIsEnumerable(\"the_property\") is expected to be true",
-            "raw": "'The value of !!obj.propertyIsEnumerable(\"the_property\") is expected to be true'"
+            "raw": "'The value of !!obj.propertyIsEnumerable(\"the_property\") is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -302,7 +316,9 @@
             "start": 1111,
             "end": 1113,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -426,7 +442,9 @@
                 "start": 1189,
                 "end": 1203,
                 "value": "the_property",
-                "raw": "\"the_property\""
+                "raw": "\"the_property\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -436,14 +454,18 @@
             "start": 1206,
             "end": 1207,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1209,
             "end": 1254,
             "value": "accum.indexOf(\"the_property\") must return 0",
-            "raw": "'accum.indexOf(\"the_property\") must return 0'"
+            "raw": "'accum.indexOf(\"the_property\") must return 0'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

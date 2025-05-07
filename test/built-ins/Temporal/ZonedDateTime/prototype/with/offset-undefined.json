@@ -48,6 +48,7 @@
                 "end": 712,
                 "value": null,
                 "raw": "1572757201_000_000_000n",
+                "regex": null,
                 "bigint": "1572757201000000000"
               },
               {
@@ -55,7 +56,9 @@
                 "start": 714,
                 "end": 722,
                 "value": "-03:30",
-                "raw": "\"-03:30\""
+                "raw": "\"-03:30\"",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -125,7 +128,9 @@
                       "start": 766,
                       "end": 768,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -219,6 +224,7 @@
             "end": 863,
             "value": null,
             "raw": "1572757261_000_000_000n",
+            "regex": null,
             "bigint": "1572757261000000000"
           },
           {
@@ -226,7 +232,9 @@
             "start": 865,
             "end": 891,
             "value": "default offset is prefer",
-            "raw": "\"default offset is prefer\""
+            "raw": "\"default offset is prefer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -294,7 +302,9 @@
                       "start": 935,
                       "end": 937,
                       "value": 31,
-                      "raw": "31"
+                      "raw": "31",
+                      "regex": null,
+                      "bigint": null
                     },
                     "kind": "init"
                   }
@@ -366,6 +376,7 @@
             "end": 1013,
             "value": null,
             "raw": "1572757261_000_000_000n",
+            "regex": null,
             "bigint": "1572757261000000000"
           },
           {
@@ -373,7 +384,9 @@
             "start": 1015,
             "end": 1041,
             "value": "default offset is prefer",
-            "raw": "\"default offset is prefer\""
+            "raw": "\"default offset is prefer\"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

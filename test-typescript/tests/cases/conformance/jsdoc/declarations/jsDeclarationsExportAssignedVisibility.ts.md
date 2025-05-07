@@ -116,7 +116,9 @@ __ESTREE_TEST__:PASS:
                             "start": 66,
                             "end": 68,
                             "raw": "12",
-                            "value": 12
+                            "value": 12,
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       }
@@ -192,7 +194,9 @@ __ESTREE_TEST__:PASS:
                 "start": 20,
                 "end": 27,
                 "raw": "\"./obj\"",
-                "value": "./obj"
+                "value": "./obj",
+                "regex": null,
+                "bigint": null
               }
             ],
             "callee": {

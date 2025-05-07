@@ -198,7 +198,9 @@ __ESTREE_TEST__:PASS:
                         "start": 215,
                         "end": 227,
                         "raw": "'helloworld'",
-                        "value": "helloworld"
+                        "value": "helloworld",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   }

@@ -60,7 +60,9 @@ __ESTREE_TEST__:PASS:
                     "start": 23,
                     "end": 36,
                     "raw": "\"\n  foo: 23\n\"",
-                    "value": "\n  foo: 23\n"
+                    "value": "\n  foo: 23\n",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],
@@ -134,7 +136,9 @@ __ESTREE_TEST__:PASS:
                     "start": 70,
                     "end": 81,
                     "raw": "'\nfoo: 23\n'",
-                    "value": "\nfoo: 23\n"
+                    "value": "\nfoo: 23\n",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               ],

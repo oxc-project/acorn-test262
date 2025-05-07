@@ -84,7 +84,9 @@
                       "start": 374,
                       "end": 384,
                       "value": 4294967296,
-                      "raw": "4294967296"
+                      "raw": "4294967296",
+                      "regex": null,
+                      "bigint": null
                     }
                   }
                 }
@@ -96,7 +98,9 @@
             "start": 389,
             "end": 443,
             "value": "[].length = 4294967296 throws a RangeError exception",
-            "raw": "'[].length = 4294967296 throws a RangeError exception'"
+            "raw": "'[].length = 4294967296 throws a RangeError exception'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

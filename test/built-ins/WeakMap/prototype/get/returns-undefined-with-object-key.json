@@ -131,7 +131,9 @@
             "start": 735,
             "end": 783,
             "value": "returns undefined if key is not on the weakmap",
-            "raw": "'returns undefined if key is not on the weakmap'"
+            "raw": "'returns undefined if key is not on the weakmap'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -176,7 +178,9 @@
             "start": 801,
             "end": 802,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -221,7 +225,9 @@
             "start": 817,
             "end": 818,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -304,7 +310,9 @@
             "start": 850,
             "end": 851,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -382,7 +390,9 @@
             "start": 902,
             "end": 940,
             "value": "returns undefined if key was deleted",
-            "raw": "'returns undefined if key was deleted'"
+            "raw": "'returns undefined if key was deleted'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

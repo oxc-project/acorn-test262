@@ -70,7 +70,9 @@
             "start": 1153,
             "end": 1154,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -213,7 +215,9 @@
               "start": 1264,
               "end": 1266,
               "value": "",
-              "raw": "''"
+              "raw": "''",
+              "regex": null,
+              "bigint": null
             },
             "value": {
               "type": "ParenthesizedExpression",
@@ -240,7 +244,9 @@
                         "start": 1274,
                         "end": 1286,
                         "value": "var x = 2;",
-                        "raw": "'var x = 2;'"
+                        "raw": "'var x = 2;'",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false
@@ -384,14 +390,18 @@
             "start": 1406,
             "end": 1407,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1409,
             "end": 1440,
             "value": "reference preceding statement",
-            "raw": "'reference preceding statement'"
+            "raw": "'reference preceding statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -443,14 +453,18 @@
             "start": 1473,
             "end": 1474,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1476,
             "end": 1507,
             "value": "reference from ForDeclaration",
-            "raw": "'reference from ForDeclaration'"
+            "raw": "'reference from ForDeclaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -502,14 +516,18 @@
             "start": 1540,
             "end": 1541,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1543,
             "end": 1580,
             "value": "reference from AssignmentExpression",
-            "raw": "'reference from AssignmentExpression'"
+            "raw": "'reference from AssignmentExpression'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -561,14 +579,18 @@
             "start": 1613,
             "end": 1614,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1616,
             "end": 1647,
             "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "raw": "'reference from statement body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -613,14 +635,18 @@
             "start": 1670,
             "end": 1671,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1673,
             "end": 1704,
             "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "raw": "'reference following statement'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -27,7 +27,9 @@
               "start": 264,
               "end": 291,
               "value": "http://unipro.ru/%0Aabout",
-              "raw": "\"http://unipro.ru/%0Aabout\""
+              "raw": "\"http://unipro.ru/%0Aabout\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -38,7 +40,9 @@
           "start": 297,
           "end": 323,
           "value": "http://unipro.ru/\nabout",
-          "raw": "\"http://unipro.ru/\\nabout\""
+          "raw": "\"http://unipro.ru/\\nabout\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -66,7 +70,9 @@
                   "start": 352,
                   "end": 383,
                   "value": "#1: http://unipro.ru/%A0about",
-                  "raw": "'#1: http://unipro.ru/%A0about'"
+                  "raw": "'#1: http://unipro.ru/%A0about'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -99,7 +105,9 @@
               "start": 413,
               "end": 440,
               "value": "http://unipro.ru/%0Babout",
-              "raw": "\"http://unipro.ru/%0Babout\""
+              "raw": "\"http://unipro.ru/%0Babout\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -110,7 +118,9 @@
           "start": 446,
           "end": 472,
           "value": "http://unipro.ru/\u000babout",
-          "raw": "\"http://unipro.ru/\\vabout\""
+          "raw": "\"http://unipro.ru/\\vabout\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -138,7 +148,9 @@
                   "start": 501,
                   "end": 532,
                   "value": "#2: http://unipro.ru/%0Babout",
-                  "raw": "'#2: http://unipro.ru/%0Babout'"
+                  "raw": "'#2: http://unipro.ru/%0Babout'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -171,7 +183,9 @@
               "start": 562,
               "end": 589,
               "value": "http://unipro.ru/%0Cabout",
-              "raw": "\"http://unipro.ru/%0Cabout\""
+              "raw": "\"http://unipro.ru/%0Cabout\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -182,7 +196,9 @@
           "start": 595,
           "end": 621,
           "value": "http://unipro.ru/\fabout",
-          "raw": "\"http://unipro.ru/\\fabout\""
+          "raw": "\"http://unipro.ru/\\fabout\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -210,7 +226,9 @@
                   "start": 650,
                   "end": 681,
                   "value": "#3: http://unipro.ru/%0Cabout",
-                  "raw": "'#3: http://unipro.ru/%0Cabout'"
+                  "raw": "'#3: http://unipro.ru/%0Cabout'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }
@@ -243,7 +261,9 @@
               "start": 711,
               "end": 738,
               "value": "http://unipro.ru/%0Dabout",
-              "raw": "\"http://unipro.ru/%0Dabout\""
+              "raw": "\"http://unipro.ru/%0Dabout\"",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -254,7 +274,9 @@
           "start": 744,
           "end": 770,
           "value": "http://unipro.ru/\rabout",
-          "raw": "\"http://unipro.ru/\\rabout\""
+          "raw": "\"http://unipro.ru/\\rabout\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -282,7 +304,9 @@
                   "start": 799,
                   "end": 830,
                   "value": "#4: http://unipro.ru/%0Dabout",
-                  "raw": "'#4: http://unipro.ru/%0Dabout'"
+                  "raw": "'#4: http://unipro.ru/%0Dabout'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

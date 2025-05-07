@@ -60,7 +60,9 @@
                     "start": 333,
                     "end": 345,
                     "value": "use strict",
-                    "raw": "'use strict'"
+                    "raw": "'use strict'",
+                    "regex": null,
+                    "bigint": null
                   },
                   "directive": "use strict"
                 },
@@ -84,7 +86,9 @@
                         "start": 365,
                         "end": 382,
                         "value": "var public = 1;",
-                        "raw": "\"var public = 1;\""
+                        "raw": "\"var public = 1;\"",
+                        "regex": null,
+                        "bigint": null
                       }
                     ],
                     "optional": false

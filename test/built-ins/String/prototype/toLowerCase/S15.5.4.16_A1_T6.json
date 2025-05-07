@@ -136,7 +136,9 @@
           "start": 475,
           "end": 486,
           "value": "-infinity",
-          "raw": "\"-infinity\""
+          "raw": "\"-infinity\"",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -168,7 +170,9 @@
                     "start": 515,
                     "end": 648,
                     "value": "#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; (Number.NEGATIVE_INFINITY).toLowerCase() === \"-infinity\". Actual: ",
-                    "raw": "'#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; (Number.NEGATIVE_INFINITY).toLowerCase() === \"-infinity\". Actual: '"
+                    "raw": "'#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; (Number.NEGATIVE_INFINITY).toLowerCase() === \"-infinity\". Actual: '",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {

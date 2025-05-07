@@ -63,7 +63,9 @@ __ESTREE_TEST__:PASS:
               "start": 48,
               "end": 49,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "regex": null,
+              "bigint": null
             }
           },
           "typeAnnotation": {
@@ -77,7 +79,9 @@ __ESTREE_TEST__:PASS:
           "start": 63,
           "end": 64,
           "raw": "3",
-          "value": 3
+          "value": 3,
+          "regex": null,
+          "bigint": null
         }
       }
     },

@@ -82,14 +82,18 @@
             "start": 305,
             "end": 309,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 311,
             "end": 353,
             "value": "Function.prototype.isPrototypeOf(Number)",
-            "raw": "'Function.prototype.isPrototypeOf(Number)'"
+            "raw": "'Function.prototype.isPrototypeOf(Number)'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

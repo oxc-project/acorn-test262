@@ -78,7 +78,9 @@
                 "start": 328,
                 "end": 333,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -132,7 +134,9 @@
             "start": 365,
             "end": 370,
             "value": "obj",
-            "raw": "'obj'"
+            "raw": "'obj'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

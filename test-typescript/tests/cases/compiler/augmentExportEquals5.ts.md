@@ -1721,7 +1721,9 @@ __ESTREE_TEST__:PASS:
         "start": 147,
         "end": 156,
         "raw": "\"express\"",
-        "value": "express"
+        "value": "express",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -1747,7 +1749,9 @@ __ESTREE_TEST__:PASS:
         "start": 56,
         "end": 65,
         "raw": "\"express\"",
-        "value": "express"
+        "value": "express",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1838,7 +1842,9 @@ __ESTREE_TEST__:PASS:
         "start": 82,
         "end": 91,
         "raw": "\"express\"",
-        "value": "express"
+        "value": "express",
+        "regex": null,
+        "bigint": null
       }
     }
   ],
@@ -1864,7 +1870,9 @@ __ESTREE_TEST__:PASS:
         "start": 24,
         "end": 33,
         "raw": "\"express\"",
-        "value": "express"
+        "value": "express",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -1904,7 +1912,9 @@ __ESTREE_TEST__:PASS:
         "start": 42,
         "end": 58,
         "raw": "\"./augmentation\"",
-        "value": "./augmentation"
+        "value": "./augmentation",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": []
     },

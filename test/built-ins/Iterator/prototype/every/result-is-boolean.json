@@ -139,7 +139,9 @@
             "start": 345,
             "end": 354,
             "value": "boolean",
-            "raw": "'boolean'"
+            "raw": "'boolean'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

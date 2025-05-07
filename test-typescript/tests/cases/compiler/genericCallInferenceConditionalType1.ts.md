@@ -526,7 +526,9 @@ __ESTREE_TEST__:PASS:
             "start": 313,
             "end": 318,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "regex": null,
+            "bigint": null
           }
         },
         "objectType": {

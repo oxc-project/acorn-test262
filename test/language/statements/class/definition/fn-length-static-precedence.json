@@ -66,7 +66,9 @@
                           "start": 1121,
                           "end": 1177,
                           "value": "Static method should not be executed during definition",
-                          "raw": "'Static method should not be executed during definition'"
+                          "raw": "'Static method should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -122,7 +124,9 @@
                           "start": 1231,
                           "end": 1287,
                           "value": "Static method should not be executed during definition",
-                          "raw": "'Static method should not be executed during definition'"
+                          "raw": "'Static method should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -193,7 +197,9 @@
             "start": 1331,
             "end": 1341,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -219,7 +225,9 @@
             "start": 1356,
             "end": 1364,
             "value": "length",
-            "raw": "'length'"
+            "raw": "'length'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -292,7 +300,9 @@
                             "start": 1430,
                             "end": 1499,
                             "value": "Static method defined via computed property should not be executed ",
-                            "raw": "'Static method defined via computed property should not be executed '"
+                            "raw": "'Static method defined via computed property should not be executed '",
+                            "regex": null,
+                            "bigint": null
                           },
                           "operator": "+",
                           "right": {
@@ -300,7 +310,9 @@
                             "start": 1508,
                             "end": 1527,
                             "value": "during definition",
-                            "raw": "'during definition'"
+                            "raw": "'during definition'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -372,7 +384,9 @@
             "start": 1576,
             "end": 1586,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -398,7 +412,9 @@
             "start": 1606,
             "end": 1611,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -471,7 +487,9 @@
                             "start": 1681,
                             "end": 1687,
                             "value": "pass",
-                            "raw": "'pass'"
+                            "raw": "'pass'",
+                            "regex": null,
+                            "bigint": null
                           }
                         }
                       ]
@@ -498,7 +516,9 @@
                           "start": 1722,
                           "end": 1786,
                           "value": "Static `get` accessor should not be executed during definition",
-                          "raw": "'Static `get` accessor should not be executed during definition'"
+                          "raw": "'Static `get` accessor should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -530,7 +550,9 @@
           "start": 1808,
           "end": 1812,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "regex": null,
+          "bigint": null
         }
       }
     },
@@ -586,7 +608,9 @@
             "start": 1841,
             "end": 1847,
             "value": "pass",
-            "raw": "'pass'"
+            "raw": "'pass'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -662,7 +686,9 @@
                           "start": 1913,
                           "end": 1977,
                           "value": "Static `set` accessor should not be executed during definition",
-                          "raw": "'Static `set` accessor should not be executed during definition'"
+                          "raw": "'Static `set` accessor should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -794,7 +820,9 @@
                           "start": 2085,
                           "end": 2150,
                           "value": "Static GeneratorMethod should not be executed during definition",
-                          "raw": "'Static GeneratorMethod should not be executed during definition'"
+                          "raw": "'Static GeneratorMethod should not be executed during definition'",
+                          "regex": null,
+                          "bigint": null
                         }
                       ]
                     }
@@ -865,7 +893,9 @@
             "start": 2194,
             "end": 2204,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

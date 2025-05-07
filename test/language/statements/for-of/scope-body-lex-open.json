@@ -70,7 +70,9 @@
             "start": 1186,
             "end": 1195,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         }
       ],
@@ -224,7 +226,9 @@
                 "start": 1312,
                 "end": 1320,
                 "value": "inside",
-                "raw": "'inside'"
+                "raw": "'inside'",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "AssignmentExpression",
@@ -369,7 +373,9 @@
             "start": 1438,
             "end": 1447,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -465,14 +471,18 @@
             "start": 1522,
             "end": 1530,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1532,
             "end": 1563,
             "value": "reference from ForDeclaration",
-            "raw": "'reference from ForDeclaration'"
+            "raw": "'reference from ForDeclaration'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -524,14 +534,18 @@
             "start": 1596,
             "end": 1604,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 1606,
             "end": 1637,
             "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "raw": "'reference from statement body'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

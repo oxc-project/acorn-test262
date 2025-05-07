@@ -109,7 +109,9 @@
             "start": 742,
             "end": 783,
             "value": "Binding is created but not initialized.",
-            "raw": "'Binding is created but not initialized.'"
+            "raw": "'Binding is created but not initialized.'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -178,7 +180,9 @@
                 "start": 846,
                 "end": 855,
                 "value": "test262",
-                "raw": "'test262'"
+                "raw": "'test262'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false

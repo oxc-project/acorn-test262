@@ -77,7 +77,9 @@
                 "start": 479,
                 "end": 496,
                 "value": "__declared__var",
-                "raw": "\"__declared__var\""
+                "raw": "\"__declared__var\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -100,7 +102,9 @@
                   "start": 513,
                   "end": 517,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             },
@@ -156,7 +160,9 @@
                   "start": 562,
                   "end": 619,
                   "value": "#1: When using property attributes, {DontEnum} not used",
-                  "raw": "'#1: When using property attributes, {DontEnum} not used'"
+                  "raw": "'#1: When using property attributes, {DontEnum} not used'",
+                  "regex": null,
+                  "bigint": null
                 }
               ]
             }

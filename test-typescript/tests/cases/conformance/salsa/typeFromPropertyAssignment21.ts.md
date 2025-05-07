@@ -102,7 +102,9 @@ __ESTREE_TEST__:PASS:
                     "start": 126,
                     "end": 153,
                     "raw": "'nope, not going to happen'",
-                    "value": "nope, not going to happen"
+                    "value": "nope, not going to happen",
+                    "regex": null,
+                    "bigint": null
                   }
                 }
               }

@@ -118,7 +118,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 49,
         "raw": "\"./mod.js\"",
-        "value": "./mod.js"
+        "value": "./mod.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -219,7 +221,9 @@ __ESTREE_TEST__:PASS:
         "start": 39,
         "end": 49,
         "raw": "\"./mod.js\"",
-        "value": "./mod.js"
+        "value": "./mod.js",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {

@@ -23,7 +23,9 @@
             "start": 361,
             "end": 403,
             "value": " Function(\"this.feat=1\").call(void 0) ",
-            "raw": "\" Function(\\\"this.feat=1\\\").call(void 0) \""
+            "raw": "\" Function(\\\"this.feat=1\\\").call(void 0) \"",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -71,7 +73,9 @@
               "start": 430,
               "end": 436,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "regex": null,
+              "bigint": null
             },
             "computed": true,
             "optional": false
@@ -81,14 +85,18 @@
             "start": 439,
             "end": 440,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 442,
             "end": 489,
             "value": "The value of this[\"feat\"] is expected to be 1",
-            "raw": "'The value of this[\"feat\"] is expected to be 1'"
+            "raw": "'The value of this[\"feat\"] is expected to be 1'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -100,7 +100,9 @@
                               "start": 753,
                               "end": 776,
                               "value": "init = f;switch (1) {",
-                              "raw": "'init = f;switch (1) {'"
+                              "raw": "'init = f;switch (1) {'",
+                              "regex": null,
+                              "bigint": null
                             },
                             "operator": "+",
                             "right": {
@@ -108,7 +110,9 @@
                               "start": 783,
                               "end": 795,
                               "value": "  default:",
-                              "raw": "'  default:'"
+                              "raw": "'  default:'",
+                              "regex": null,
+                              "bigint": null
                             }
                           },
                           "operator": "+",
@@ -117,7 +121,9 @@
                             "start": 802,
                             "end": 825,
                             "value": "    function f() {  }",
-                            "raw": "'    function f() {  }'"
+                            "raw": "'    function f() {  }'",
+                            "regex": null,
+                            "bigint": null
                           }
                         },
                         "operator": "+",
@@ -126,7 +132,9 @@
                           "start": 832,
                           "end": 851,
                           "value": "}    after = f;",
-                          "raw": "'}\\\n    after = f;'"
+                          "raw": "'}\\\n    after = f;'",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
@@ -142,7 +150,9 @@
               "start": 859,
               "end": 862,
               "value": 123,
-              "raw": "123"
+              "raw": "123",
+              "regex": null,
+              "bigint": null
             }
           ],
           "optional": false
@@ -188,14 +198,18 @@
             "start": 890,
             "end": 893,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 895,
             "end": 938,
             "value": "binding is not initialized to `undefined`",
-            "raw": "'binding is not initialized to `undefined`'"
+            "raw": "'binding is not initialized to `undefined`'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -247,14 +261,18 @@
             "start": 975,
             "end": 985,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 987,
             "end": 1026,
             "value": "value is updated following evaluation",
-            "raw": "'value is updated following evaluation'"
+            "raw": "'value is updated following evaluation'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

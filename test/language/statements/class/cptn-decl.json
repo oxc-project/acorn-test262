@@ -47,7 +47,9 @@
                 "start": 457,
                 "end": 469,
                 "value": "class C {}",
-                "raw": "'class C {}'"
+                "raw": "'class C {}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -106,7 +108,9 @@
                 "start": 506,
                 "end": 521,
                 "value": "1; class C {}",
-                "raw": "'1; class C {}'"
+                "raw": "'1; class C {}'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -116,7 +120,9 @@
             "start": 524,
             "end": 525,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

@@ -34,14 +34,18 @@
                 "start": 356,
                 "end": 372,
                 "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "raw": "\"arg1,arg2,arg3\"",
+                "regex": null,
+                "bigint": null
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 378,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "regex": null,
+                "bigint": null
               }
             ]
           }
@@ -93,7 +97,9 @@
                 "start": 406,
                 "end": 414,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -103,7 +109,9 @@
             "start": 417,
             "end": 464,
             "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false
@@ -164,7 +172,9 @@
                 "start": 502,
                 "end": 510,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "regex": null,
+                "bigint": null
               }
             },
             "consequent": {
@@ -192,7 +202,9 @@
                         "start": 537,
                         "end": 541,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "regex": null,
+                        "bigint": null
                       }
                     }
                   ],
@@ -238,7 +250,9 @@
             "start": 571,
             "end": 622,
             "value": "The value of !lengthenumed is expected to be true",
-            "raw": "'The value of !lengthenumed is expected to be true'"
+            "raw": "'The value of !lengthenumed is expected to be true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

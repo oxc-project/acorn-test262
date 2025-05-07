@@ -67,7 +67,9 @@
             "start": 303,
             "end": 313,
             "value": "123αβπcd",
-            "raw": "\"123αβπcd\""
+            "raw": "\"123αβπcd\"",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "ObjectExpression",
@@ -123,7 +125,9 @@
                 "start": 347,
                 "end": 357,
                 "value": "123αβπcd",
-                "raw": "\"123αβπcd\""
+                "raw": "\"123αβπcd\"",
+                "regex": null,
+                "bigint": null
               }
             ],
             "optional": false
@@ -133,7 +137,9 @@
             "start": 360,
             "end": 401,
             "value": "obj.hasOwnProperty(\"123αβπcd\") !== true",
-            "raw": "'obj.hasOwnProperty(\"123αβπcd\") !== true'"
+            "raw": "'obj.hasOwnProperty(\"123αβπcd\") !== true'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

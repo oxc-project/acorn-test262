@@ -16,7 +16,9 @@ __ESTREE_TEST__:PASS:
         "start": 23,
         "end": 38,
         "raw": "\"./MyComponent\"",
-        "value": "./MyComponent"
+        "value": "./MyComponent",
+        "regex": null,
+        "bigint": null
       },
       "specifiers": [
         {
@@ -73,7 +75,9 @@ __ESTREE_TEST__:PASS:
                   "start": 58,
                   "end": 71,
                   "raw": "\"Hello World\"",
-                  "value": "Hello World"
+                  "value": "Hello World",
+                  "regex": null,
+                  "bigint": null
                 }
               }
             ]

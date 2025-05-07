@@ -49,14 +49,18 @@
             "start": 276,
             "end": 281,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "regex": null,
+            "bigint": null
           },
           {
             "type": "Literal",
             "start": 283,
             "end": 339,
             "value": "The value of `delete Infinity` is expected to be false",
-            "raw": "'The value of `delete Infinity` is expected to be false'"
+            "raw": "'The value of `delete Infinity` is expected to be false'",
+            "regex": null,
+            "bigint": null
           }
         ],
         "optional": false

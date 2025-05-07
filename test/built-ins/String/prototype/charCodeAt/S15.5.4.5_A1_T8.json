@@ -35,7 +35,9 @@
                   "start": 466,
                   "end": 468,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "regex": null,
+                  "bigint": null
                 }
               ],
               "optional": false
@@ -61,7 +63,9 @@
                 "start": 486,
                 "end": 487,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "regex": null,
+                "bigint": null
               }
             }
           ],
@@ -73,7 +77,9 @@
           "start": 493,
           "end": 497,
           "value": 52,
-          "raw": "0x34"
+          "raw": "0x34",
+          "regex": null,
+          "bigint": null
         }
       },
       "consequent": {
@@ -105,7 +111,9 @@
                     "start": 526,
                     "end": 613,
                     "value": "#1: String(42).charCodeAt(void 0) === 0x34. Actual: String(42).charCodeAt(void 0) ===",
-                    "raw": "'#1: String(42).charCodeAt(void 0) === 0x34. Actual: String(42).charCodeAt(void 0) ==='"
+                    "raw": "'#1: String(42).charCodeAt(void 0) === 0x34. Actual: String(42).charCodeAt(void 0) ==='",
+                    "regex": null,
+                    "bigint": null
                   },
                   "operator": "+",
                   "right": {
@@ -132,7 +140,9 @@
                             "start": 623,
                             "end": 625,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "regex": null,
+                            "bigint": null
                           }
                         ],
                         "optional": false
@@ -158,7 +168,9 @@
                           "start": 643,
                           "end": 644,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "regex": null,
+                          "bigint": null
                         }
                       }
                     ],
